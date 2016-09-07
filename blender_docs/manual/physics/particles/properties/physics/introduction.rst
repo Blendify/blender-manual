@@ -56,8 +56,10 @@ Rot
 Emitter Object
 --------------
 
-Align X,Y,Z
+Align
    Give an initial velocity in the X, Y, and Z axes.
+
+   X, Y, Z
 Object
    The emitter objects movement (i.e. let the object give the particle a starting speed).
 Random

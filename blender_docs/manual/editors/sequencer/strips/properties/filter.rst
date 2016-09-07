@@ -10,7 +10,7 @@ Enables you to quickly set common image pre-processing options.
 
 Strobe
    To display only a defined number of images. For example, if you set this to 10,
-   the strip will only display frames 1,11,21,31,41... of the source.
+   the strip will only display frames 1, 11, 21, 31, 41... of the source.
 Flip
    X flips (reverses) the image left-to-right, Y reverses top-to-bottom.
 Backwards

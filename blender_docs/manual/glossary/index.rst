@@ -245,7 +245,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Euler
    Euler Rotation
-      Rotation method where rotations applied on each X,Y,Z axis component.
+      Rotation method where rotations applied on each X, Y, Z axis component.
 
    Face
       Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.

@@ -72,7 +72,7 @@ Unbind
 
    If you need its original shape, you will have to save a copy of it before you alter it.
 
-   The deformed object will, however,reset back to its original shape that it had
+   The deformed object will, however, reset back to its original shape that it had
    before it was bound to the deform mesh cage.
 
 .. warning::

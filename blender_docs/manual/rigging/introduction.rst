@@ -17,7 +17,7 @@ the desert by positioning each tread on the tank one at a time?
 At its most basic level, rigging solves motion problems.
 Imagine a door that opens into a hallway.
 Without a rig, the door will not swing open properly (1).
-A rig is needed to help the door swing open on its hinges (2,3,4), and there are many ways to rig the door.
+A rig is needed to help the door swing open on its hinges (2, 3, 4), and there are many ways to rig the door.
 Door 2 gets rigged by repositioning the :term:`Object Center` of the door.
 Door 3 gets rigged by :term:`Parenting` the door to an :term:`Empty`.
 Door 4 gets rigged by :term:`Weight Painting` all of its :term:`Vertices` to a :term:`Bone` in an :term:`Armature`.

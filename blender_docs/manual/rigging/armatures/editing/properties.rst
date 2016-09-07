@@ -223,10 +223,14 @@ Recalculate Bone Roll
 
 
 Axis Orientation
-   Local (X,Z) Tangent
+   Local Tangent
       Align roll relative to the axis defined by the bone and its parent.
-   Global (X,Y,Z) Axis
-      Align roll to global X,Y,Z axis.
+
+      X, Z
+   Global Axis
+      Align roll to global X, Y, Z axis.
+
+      X, Y, Z
    Active Bone
       Follow the rotation of the active bone.
    View Axis

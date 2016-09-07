@@ -122,8 +122,10 @@ Create Along Paths
    For example, below is a screen shot showing the path of a single keyed
    particle as it travels its way through each of the different way points (1 to 4) (target particle systems),
    when it reaches way point 4 the particle dies and ends its journey.
-X,Y,X Rotation Axis
+Rotation Axis
    Specify which pole axis to use for the rotation.
+
+   X, Y, Z
 Keep Shape
    Enabling this prevents the object from being deformed.
    It instead simply aligns to the end of the path at the object's center.

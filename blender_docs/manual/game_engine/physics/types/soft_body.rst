@@ -38,7 +38,7 @@ Mass
    more massive objects have more inertia. Will also affect material force fields.
    Will also change behaviors if you are using the suspension and steering portions of Bullet physics.
 
-   - Range: 0.01-10,000.
+   - Range: 0.01 - 10,000.
    - Default: 1.
    - Python property: ``obj.game.mass``
 

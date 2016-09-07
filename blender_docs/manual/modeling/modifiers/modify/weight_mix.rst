@@ -189,7 +189,7 @@ and enable its *Custom Curve* mapping.
 
 By default, it is an one-to-one linear mapping -- in other words,
 it does nothing! Change it to something like in Fig. :ref:`fig-modifier-vertex-weight-custom`,
-which maps (0.0, 0.5) to (0.0, 0.25) and (0.5,1.0) to (0.75, 1.0),
+which maps (0.0, 0.5) to (0.0, 0.25) and (0.5, 1.0) to (0.75, 1.0),
 thus producing nearly only weights below 0.25,
 and above 0.75: this creates great "walls" in the waves...
 

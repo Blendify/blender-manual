@@ -207,7 +207,7 @@ The Spring example
 
 .. figure:: /images/modeling_mesh_screw_screw_circle_moved_x_-3bu.png
 
-   Circle placed at X -3,0,0.
+   Circle placed at X (-3, 0, 0).
 
 
 #. Open Blender and delete the default Cube.

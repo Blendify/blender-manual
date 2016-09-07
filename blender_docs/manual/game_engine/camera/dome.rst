@@ -161,8 +161,8 @@ First line is the image type the mesh is support to be applied to:
 ``2 = rectangular``, ``1 = radial`` Next line has the mesh dimensions in
 pixelsRest of the lines are the nodes of the mesh.
 
-Each line is compound of *x* *y* *u* *v* *i* (x,y)
-are the normalized screen coordinates (u,v)
+Each line is compound of *x* *y* *u* *v* *i* (x, y)
+are the normalized screen coordinates (u, v)
 texture coordinates *i* a multiplicative intensity factor.
 
 *x* varies from -screen aspect to screen aspect varies from -1 to 1 *u* and *v* vary from 0 to 1*i*

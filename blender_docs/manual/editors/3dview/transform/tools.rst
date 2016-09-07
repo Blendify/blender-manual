@@ -77,5 +77,5 @@ Align Mode
 Relative To
    TODO.
 
-Align X,Y,Z
+Align X, Y, Z
    Chooses which axis to align the selected objects on.
