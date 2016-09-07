@@ -111,7 +111,7 @@ Keying Sets
 
 Keying Sets are a set of keyframe channels.
 They are used to record multiple properties at the same time.
-There are some built-in keying sets, 'LocRotScale', and also, custom keying sets can be made.
+There are some built-in keying sets, "LocRotScale", and also, custom keying sets can be made.
 
 To use the keying set, first select a keying set from the *Timeline* header,
 or the *Keying Sets Panel*.

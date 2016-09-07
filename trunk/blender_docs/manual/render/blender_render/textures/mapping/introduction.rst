@@ -49,7 +49,7 @@ UV
    Layer
       UV layer to use for mapping.
 Strand/Particle
-   Uses normalized 1D strand texture coordinate or particle age(X) and trail position (Y).
+   Uses normalized 1D strand texture coordinate or particle age (X) and trail position (Y).
    Use when texture is applied to hair strands or particles.
 Window
    The rendered image window coordinates. This is well suited to blending two objects.

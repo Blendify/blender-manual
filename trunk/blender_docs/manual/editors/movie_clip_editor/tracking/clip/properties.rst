@@ -210,10 +210,10 @@ Grid
    distortion model (available in distortion mode only). This grid can be used for manual calibration --
    distorted lines of grids are equal to straight lines in the footage.
 Manual Calibration
-   Applies the distortion model for grease pencil strokes(available in distortion mode only).
+   Applies the distortion model for grease pencil strokes (available in distortion mode only).
    This option also helps to perform manual calibration. A more detailed description of this process will be added later.
 Stable
-   This option makes the displayed frame be affected by the 2D stabilization settings(available in reconstruction mode only).
+   This option makes the displayed frame be affected by the 2D stabilization settings (available in reconstruction mode only).
    It is only a preview option, which does not actually change the footage itself.
 Lock to Selection
    Makes the editor display selected tracks at the same screen position along the whole footage during playback or

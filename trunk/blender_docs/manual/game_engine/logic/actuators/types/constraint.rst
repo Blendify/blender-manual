@@ -98,7 +98,7 @@ Maintain the distance the Game Object has to be from a surface.
       Maximum length of ray used to check for Material/Property on another game object.
    Force Distance
       Distance to be maintained between object and the Material/Property that triggers the
-      Distance Constraint(-2000 to +2000 Blender Units).
+      Distance Constraint (-2000 to +2000 Blender Units).
    Damping
       Delay (frames) of the constraint response.
    M/P
