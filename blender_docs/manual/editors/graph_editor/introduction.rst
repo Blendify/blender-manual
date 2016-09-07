@@ -89,7 +89,7 @@ Markers
 
 Like with most animation editors, markers are shown at the bottom of the editor.
 
-.. figure:: /images/graph_markers.png
+.. figure:: /images/editors_graph-editor_introduction_markers.png
 
    Graph Editor Markers.
 

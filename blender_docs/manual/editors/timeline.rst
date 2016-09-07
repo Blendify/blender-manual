@@ -90,7 +90,7 @@ Markers
 Markers are the small triangles, with their name near them.
 Markers are usually used to identify key parts of the animation.
 
-.. figure:: /images/timeline_markers.png
+.. figure:: /images/animation_markers_standard.png
 
    Markers.
 
