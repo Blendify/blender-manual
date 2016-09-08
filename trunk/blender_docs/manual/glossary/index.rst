@@ -4,7 +4,7 @@
   Glossary
 ###########
 
-.. For writing style guide, see: ../about/contribute/style_guides/writing_guide.rst
+.. For writing style guide, see: :doc:`/about/contribute/style_guides/writing_guide`
    If you add new entries, keep the alphabetical sorting!
 
 This page lists definitions for terms used in Blender and this manual.
@@ -649,6 +649,9 @@ This page lists definitions for terms used in Blender and this manual.
 
    Texture
       Specifies visual patterns on surfaces and simulates physical surface structure.
+
+   Texture Space
+      The bounding box to use when using *Generated* mapping to add a :term:`Texture` to an image.
 
    Timecode
       A coded signal on videotape or film giving information about the frame number, time of recording, or exposure.
