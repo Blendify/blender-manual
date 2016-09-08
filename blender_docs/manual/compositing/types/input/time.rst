@@ -4,7 +4,7 @@
 Time Node
 *********
 
-.. figure:: /images/compositing_nodes_time.png
+.. figure:: /images/compositing_nodes_input_time.png
    :align: right
    :width: 150px
 
@@ -57,6 +57,6 @@ Fac
 Example
 =======
 
-.. figure:: /images/compositing-time.jpg
+.. figure:: /images/compositing_nodes_input_time_example.png
 
    Time controls from left to right: no effect, slow down, freeze, accelerate, reverse
