@@ -6,7 +6,7 @@
 Mix Node
 ********
 
-.. figure:: /images/compositing_nodes_mix.png
+.. figure:: /images/compositing_nodes_color_mix.png
    :align: right
    :width: 150px
 
@@ -143,7 +143,7 @@ image subliminal. In this case, it reduces the mark to one-tenth of its original
 The Add node adds the corresponding pixels,
 make the ones containing the mark ever-so-slightly brighter.
 
-.. figure:: /images/compositing-mix-watermark-encode.jpg
+.. figure:: /images/compositing_nodes_color_mix_watermark-encode.png
 
    Embedding your mark in an Image using a Mark and Specific Position.
 
@@ -168,7 +168,7 @@ In this map, the Mix node is set to Difference,
 and the Map Value node amplifies any difference. The result is routed to a viewer,
 and you can see how the original mark stands out, clear as a bell:
 
-.. figure:: /images/compositing-mix-watermark-decode.jpg
+.. figure:: /images/compositing_nodes_color_mix_watermark-decode.png
 
    Checking an image for your watermark.
 

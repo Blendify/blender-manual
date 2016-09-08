@@ -3,7 +3,7 @@
 Map UV Node
 ***********
 
-.. figure:: /images/compositing_nodes_mapuv.png
+.. figure:: /images/compositing_nodes_distort_map-uv.png
    :align: right
    :width: 150px
 
@@ -55,21 +55,21 @@ Examples
 ========
 
 In the example below,
-we have overlaid a grid pattern on top of the two "Emo" heads after they have been rendered.
+we have overlaid a grid pattern on top of the two heads after they have been rendered.
 During rendering, we enabled the UV layer in the Properties editor
 :menuselection:`Render Layer --> Passes`. Using a mix node,
 we mix that new UV Texture over the original face.
 We can use this grid texture to help in any motion tracking that we need to do.
 
-.. figure:: /images/compositing-node-mapuv_ex.jpg
-   :width: 300px
+.. figure:: /images/compositing_nodes_distort_map-uv_example-1.png
+   :width: 700px
 
    Adding a Grid UV Textures for Motion Tracking.
 
 
-In the next example, we overlay a flag on top of a cubie-type thing,
+In the next example, we overlay a logo on top of a cubie-type thing,
 and we ensure that we Enable the Alpha pre-multiply button on the Mix node.
-The flag is used as additional UV Texture on top of the grid. Other examples include the
+The logo is used as additional UV Texture on top of the grid. Other examples include the
 possibility that there was used an unauthorized product box during the initial animation,
 and it is needed to substitute in a different product sponsor after rendering.
 
@@ -78,7 +78,7 @@ and it is needed to substitute in a different product sponsor after rendering.
    Due to limits of this node, it is not recommended rush pre-production rendering under
    the guise of "fixing it later".
 
-.. figure:: /images/compositing-node-mapuv_ex02.jpg
-   :width: 300px
+.. figure:: /images/compositing_nodes_distort_map-uv_example-2.png
+   :width: 700px
 
    Adding UV Textures in Post-Production
