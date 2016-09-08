@@ -219,16 +219,16 @@ with the available shading options.
    You can use the :kbd:`Numpad` to input an item in the list to select.
    For example, :kbd:`Numpad-1` will select the first item and so on.
 
+.. RMB context menu (reset, copy, manual access, edit source, translation)
+
 
 .. _ui-data-block:
 
 Data-Block Menus
 ----------------
 
-Menu buttons are used to link Data-Blocks to each other.
+Menu buttons are used to link :doc:`/data_system/data_blocks` to each other.
 Data-blocks are items like meshes, objects, materials, textures, and so on.
-
-.. _fig-ui-data-block:
 
 .. figure:: /images/interface_data-block.jpg
    :align: right
@@ -256,20 +256,8 @@ Open file
 Unlink data-block "X"
    Clears the link.
 
-Sometimes there is a list of applied data-blocks
-(such as a list of materials used on the object). See Fig. :ref:`fig-ui-data-block` above.
-
-.. figure:: /images/interface_list-controls.jpg
-   :align: right
-
-   Data-block link buttons.
-
-- To select a Data-Block, click :kbd:`LMB` on it.
-- To add a new section (e.g. material, or particle system),
-  click :kbd:`LMB` on the "+" button to the right of the list.
-- To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
-
-For details on the behavior of linking data see :doc:`data-block </data_system/data_blocks>`.
+Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
+(such as a list of materials used on the object).
 
 
 Pie Menus

@@ -33,8 +33,8 @@ These tabs are used to add features, and to change properties for the Active Sce
 .. _properties-render-tab:
 
 Render
-   Everything related to render output (dimensions, anti-aliasing, performance etc).
-   See :doc:`/render/output`.
+   Everything related to :doc:`/render/output/index` (dimensions, anti-aliasing, performance etc).
+   See :doc:`/render/index`.
 Render Layers
    Render Layers and Passes.
 Scene
