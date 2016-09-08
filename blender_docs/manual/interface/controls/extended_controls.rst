@@ -37,7 +37,7 @@ Some colors also define an alpha value A, below the color sliders.
 .. note:: Blender corrects Gamma by default
 
    for more information about how to disable Gamma correction in Blender,
-   see: :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
+   see: :doc:`Color Management and Exposure </render/post_process/color_management>` page.
 
 
 - Use :kbd:`Wheel` to change overall brightness.
