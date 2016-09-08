@@ -15,7 +15,7 @@ Exposure and Range
 
 These controls affect the rendered image, and the results are baked into the render.
 For information on achieving similar affects with render controls,
-see :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`.
+see :doc:`Color Management and Exposure </render/post_process/color_management>`.
 
 Previously Blender clipped color directly with 1.0 (or 255)
 when it exceeded the possible RGB space.

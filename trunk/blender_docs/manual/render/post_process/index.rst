@@ -12,4 +12,4 @@ but rather composited on top of the image.
 
    layers.rst
    panel.rst
-   cm_and_exposure.rst
+   color_management.rst

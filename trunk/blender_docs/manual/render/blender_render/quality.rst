@@ -27,7 +27,7 @@ but it is important to know how the color space of a rendered image factors into
 
 .. seealso::
 
-   :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`.
+   :doc:`Color Management and Exposure </render/post_process/color_management>`.
 
 
 Anti-Aliasing
@@ -49,7 +49,7 @@ Exposure is, in physical terms, the length of time a camera's film or sensor is 
 Longer exposure times create a brighter image.
 In CG, the recorded light values are offset to simulate longer or shorter exposures.
 This can be achieved through lighting settings, or better, through
-:doc:`Color Management settings </render/post_process/cm_and_exposure>`
+:doc:`Color Management settings </render/post_process/color_management>`
 
 .. seealso::
 
