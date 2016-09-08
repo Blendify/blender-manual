@@ -300,11 +300,19 @@ Auto Keyframe
    When you set a new value for the properties,
    Blender will add keyframes on the current frame for the transform properties.
 
-   *Auto Keying Set* - Optional if *Auto Keyframe* enabled.
-   *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
+   Auto Keying Set
+      When enabled *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
-   Note that *Auto Keyframe* only works for transform properties (objects and bones),
-   in the 3D Views (i.e. you cant use it e.g. to animate the colors of a material in the Properties editor...).
+   Layered
+      Adds a new NLA Track and strip for every loop/pass made over the animation to allow non-distructive tweaking.
+
+   .. note::
+
+      Note that *Auto Keyframe* only works for transform properties (objects and bones),
+      in the 3D Views (i.e. you cant use it e.g. to animate the colors of a material in the Properties editor...).
+
+Keyframe Type
+   TODO.
 
 Active Keying Set
    .. figure:: /images/kia_cube02.png
@@ -324,7 +332,7 @@ Active Keying Set
    Custom keying sets can be defined in the in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 
-Insert Keyframes
-   Insert keyframes on the current frame for the properties in the active *Keying Set*.
-Delete Keyframes
-   Delete keyframes on the current frame for the properties in the active *Keying Set*.
+   Insert Keyframes
+      Insert keyframes on the current frame for the properties in the active *Keying Set*.
+   Delete Keyframes
+      Delete keyframes on the current frame for the properties in the active *Keying Set*.
