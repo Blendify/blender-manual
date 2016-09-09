@@ -288,7 +288,7 @@ Resize
    The list view can be resized to show more or fewer items.
    Hover the mouse over the handle (==) then click and drag the handle to expand or shrink the list.
 Filter
-   Click the *Show filtering options* button (+)  to toggle filter option buttons.
+   Click the *Show filtering options* button (+) to toggle filter option buttons.
 
    Search
       Type part of a list item's name in the filter text box to filter items by part of their name.
@@ -316,6 +316,7 @@ Remove ``-``
 Special
    The down arrow on dark background opens a pop-up menu with
    operators context-sensitive to the item type.
+   i.e copy paste, or operations on all items.
 
 Move Up
    The button showing an up arrow moves the selected item up one position.

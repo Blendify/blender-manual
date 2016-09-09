@@ -227,13 +227,14 @@ with the available shading options.
 Data-Block Menus
 ----------------
 
-Menu buttons are used to link :doc:`/data_system/data_blocks` to each other.
+A set of menu buttons used to link :doc:`/data_system/data_blocks` to each other.
 Data-blocks are items like meshes, objects, materials, textures, and so on.
+If data-blocks are linked the data will be updated across all of the users when edited. 
 
 .. figure:: /images/interface_data-block.jpg
    :align: right
 
-   The Data-Block link menu with a search input.
+   The Data-Block menu with a search input.
 
 
 Type
@@ -246,9 +247,10 @@ Type
 Name
    Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
 User count
-   Displays the number of users of the data. Clicking on it to make it a single-user copy.
+   Displays the number of users of the data. Clicking on it to make it a single-user copy,
+   with it linked only to the active object/object's data.
 Fake User "F"
-   Saves this data-block data-block, even if it has no users.
+   Keeps the data-block saved in the blend-file, even if it has no real users.
 New/Add "+"
    Creates a new data-block or duplicates the current data-block and applies it.
 Open file
