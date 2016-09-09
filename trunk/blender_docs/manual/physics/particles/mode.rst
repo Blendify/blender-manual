@@ -1,11 +1,11 @@
 .. |hair-point-button| image:: /images/icons_hair-points.png
    :width: 1.1em
 
-*************
-Particle Mode
-*************
+******************
+Particle Edit Mode
+******************
 
-Using *Particle Mode* you can edit the key-points (Keyframes)
+Using *Particle Edit Mode* you can edit the key-points (Keyframes)
 and paths of *Baked*
 :doc:`Hair </physics/particles/hair/index>`,
 :doc:`Particle </physics/particles/index>`,
@@ -13,7 +13,7 @@ and paths of *Baked*
 :doc:`Soft Body </physics/soft_body/index>` simulations.
 (You can also edit and style hair before baking).
 
-Since working in particle mode is pretty easy and very similar to working with vertices in the
+Since working in Particle Edit Mode is pretty easy and very similar to working with vertices in the
 3D View, we will show how to set up a particle system and then give a reference of the
 various functions.
 
@@ -37,11 +37,11 @@ Setup for Hair Particles
 
 .. figure:: /images/particle_mode.png
 
-   Editing hair strands in Particle Mode.
+   Editing hair strands in Particle Edit Mode.
 
 .. figure:: /images/physics_particle_mode_example.gif
 
-   Editing a baked particle simulation's particle paths in Particle Mode.
+   Editing a baked particle simulation's particle paths in Particle Edit Mode.
 
 
 Setup for Particle, Cloth, and Soft Body Simulations
@@ -202,7 +202,7 @@ Editing
 
 .. warning:: Beware of Undo!
 
-   Using *Undo* in *Particle Mode* can have strange results. Remember to save often!
+   Using *Undo* in *Particle Edit Mode* can have strange results. Remember to save often!
 
 
 Moving keypoints or particles

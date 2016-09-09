@@ -110,7 +110,7 @@ Steps
    - For the softbody animation, because the control points are animated like vertices,
      so more control points mean longer calculation times.
    - For the interactive editing, because you can only move the control points
-     (but you may recalculate the number of control points in *Particle Mode*).
+     (but you may recalculate the number of control points in *Particle Edit Mode*).
 
    .. hint:: Segments
 

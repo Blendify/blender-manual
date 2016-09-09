@@ -33,7 +33,7 @@ A more advanced way of changing the hair appearance is to use
 :doc:`Children </physics/particles/properties/children>`.
 This adds child hairs to the original ones, and has settings for giving them different types of shapes.
 
-You can also interactively style hairs in :doc:`Particle Mode </physics/particles/mode>`.
+You can also interactively style hairs in :doc:`Particle Edit Mode </physics/particles/mode>`.
 In this mode, the particle settings become disabled, and you can comb, trim, lengthen, etc. the hair curves.
 
 

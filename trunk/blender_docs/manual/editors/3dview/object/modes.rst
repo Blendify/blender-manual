@@ -82,7 +82,7 @@ Modes might affect many things in Blender:
      - A mesh-only mode, dedicated to vertex group weighting.
    * - .. figure:: /images/icons_particle-edit.png
           :width: 35px
-     - *Particle Mode*
+     - *Particle Edit Mode*
      - *None* [1]_
      - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).
    * - .. figure:: /images/icons_pose-mode.png
@@ -117,7 +117,7 @@ As you can see, using shortcuts to switch between modes can become quite tricky,
 
 We will not go into any more detail on modes usages here, However,
 most of them are tackled in the :doc:`modeling chapter </modeling/index>`, as they are mainly related to this topic.
-The *Particle mode* is discussed in the :doc:`particle section </physics/particles/mode>`,
+The *Particle Edit Mode* is discussed in the :doc:`particle section </physics/particles/mode>`,
 and the *Pose Mode* and *Edit Mode* for armatures, in the :doc:`rigging one </rigging/index>`.
 
 .. note::

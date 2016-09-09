@@ -15,7 +15,7 @@ You can use *Curve Guide* s also to shape certain hair strands.
 
 .. note::
 
-   You can also use the :doc:`Particle Mode </physics/particles/mode>` to define a path.
+   You can also use the :doc:`Particle Edit Mode </physics/particles/mode>` to define a path.
 
 Since you can animate curves as Softbody or any other usual way,
 you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
