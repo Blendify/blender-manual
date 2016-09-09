@@ -99,11 +99,6 @@ X
 Data
    Specifies whether the material is to be linked to the Object or to the Object Data.
 
-.. figure:: /images/material-matmenu-linkobjdata.jpg
-
-   Link material to object or to object's data.
-
-
 The Link pop-up menu has two choices, Data and Object.
 These two menu choices determine whether the material is linked to the object or to the data,
 (in this case) the mesh (or curve, nurbs, etc.).
