@@ -32,7 +32,7 @@ Properties
 ==========
 
 Alpha
-   Alpha control how much the new texture overlays the old.
+   Alpha threshold is used to fade out pixels on boundaries.
 
 
 Outputs
@@ -41,7 +41,8 @@ Outputs
 Image
    The resulting image is the input image texture distorted to match the UV coordinates.
    That image can then be overlay mixed with the original image to paint
-   the texture on top of the original.
+   the texture on top of the original. Adjust alpha and the mix factor to control
+   how much the new texture overlays the old.
 
 
 .. hint::
@@ -57,7 +58,7 @@ Examples
 In the example below,
 we have overlaid a grid pattern on top of the two heads after they have been rendered.
 During rendering, we enabled the UV layer in the Properties editor
-:menuselection:`Render Layer --> Passes`. Using a mix node,
+:menuselection:`Render Layer --> Passes`. Using a mix node ("Overlay" in figure),
 we mix that new UV Texture over the original face.
 We can use this grid texture to help in any motion tracking that we need to do.
 
@@ -69,7 +70,7 @@ We can use this grid texture to help in any motion tracking that we need to do.
 
 In the next example, we overlay a logo on top of a cubie-type thing,
 and we ensure that we Enable the Alpha pre-multiply button on the Mix node.
-The logo is used as additional UV Texture on top of the grid. Other examples include the
+The logo is used as additional UV Texture on top of the existing texture. Other examples include the
 possibility that there was used an unauthorized product box during the initial animation,
 and it is needed to substitute in a different product sponsor after rendering.
 
