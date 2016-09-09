@@ -1,12 +1,10 @@
 
 #########
-  Camera
+  Meshes
 #########
 
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
+   primitives.rst
    object_data.rst
-   lens.rst
-   safe_areas.rst
