@@ -11,7 +11,7 @@ Options
 This panel provides a series of control options concerning how objects using this material
 will appear in the rendered image. All controls are default "Off" unless otherwise stated.
 
-Traceable (default On)
+Traceable
    Include this material and the geometry that uses it in ray-tracing calculations.
    See :doc:`Transparency </render/blender_render/materials/properties/transparency>` for details of ray-tracing.
 Full Oversampling
@@ -51,7 +51,7 @@ Vertex Color Light
    (This can be used to produce good incandescence effects).
 Object Color
    Modulate the result with a per object color. See :doc:`Object Display panel </editors/3dview/object/properties/display>`.
-UV Project (default On)
+UV Project
    Use to ensure UV interpolation is correct for camera projections (use with
    :doc:`UV project </modeling/modifiers/modify/uv_project>` modifier).
 Pass Index
