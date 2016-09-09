@@ -51,7 +51,6 @@ The following options affect the material that receives shadows:
 
 Receive
    Allows this material to receive full-intensity shadows (Fig. :ref:`fig-bi-material-shadow-receive`).
-
 Receive Transparent
    Allows this material to receive shadows whose intensity is modified by the transparency
    and color of the shadow-casting object (Fig. :ref:`fig-bi-material-shadow-receive-trans`).
@@ -77,16 +76,22 @@ Shadow Casting Object Material
 The following options affect the material that casts shadows:
 
 Cast Only
-   Material appears transparent, but it still casts shadows
+   Causes objects with the material to only cast a shadow, and not appear in renders.
    (Fig. :ref:`fig-bi-material-shadow-cast`).
 Casting Alpha
-   Todo.
+   Sets the Alpha of shadow casting. Used for irregular and deep shadow buffering.
 Shadows Only
-   Material appears transparent except for where it receives shadows from other objects,
+   Renders shadows as materials alpha value, making materials transparent, 
+   except for areas where it receives shadows from other objects,
    and also it retains its own transparency (Fig. :ref:`fig-bi-material-shadow-only`).
    Note the faint image of the partly-transparent post.
-Shadow and Distance
-   Todo.
+
+   Shadow Only Type
+      Set the type of shadows used when Shadows Only is enabled.
+
+      - Shadow and Distance
+      - Shadow Only
+      - Shadows and Shading
 
 .. list-table::
 
@@ -114,10 +119,10 @@ for further discussion of these techniques.
 Cast Buffer Shadow
    Casts shadows from shadow buffer lamps.
 Buffer Bias
-   Multiplication factor for Buffer shadows (0 = ignore)
+   Multiplication factor for Buffer shadows (0 = ignore).
 Auto Ray Bias
    Prevent raytraced shadow errors on surfaces with smooth shaded normals.
 Ray Bias
-   Bias value to be used.
+   Shadow raytracing bias value to prevent terminator artifacts on shadow boundary.
 Cast Approximate
    Allow this material to cast shadows when using approximate ambient occlusion.

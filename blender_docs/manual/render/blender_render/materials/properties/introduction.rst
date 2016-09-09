@@ -26,7 +26,7 @@ and brief details of their scope. Details of their controls and settings are giv
 :doc:`Shading </render/blender_render/materials/properties/shading>`
    Properties of various characteristics of the shading model for the material.
 :doc:`Transparency </render/blender_render/materials/properties/transparency>`
-   Can other objects be seen through the object, and if so, how?
+   Sets options for objects in which light can pass through.
 :doc:`Mirror </render/blender_render/materials/properties/mirror>`
    (Only Blender Render): Reflective properties of the material.
 :doc:`SubSurface Scattering </render/blender_render/materials/properties/subsurface_scattering>`

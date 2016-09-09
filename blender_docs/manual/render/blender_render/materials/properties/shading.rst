@@ -11,7 +11,7 @@ In the separate *Shading* tab six more options are available:
 
 
 Emit
-   Amount of light to emit
+   Amount of light to emit.
 Ambient
    Amount of global ambient color the material receives.
    Each material has an *Ambient* slider that lets you choose how much ambient light that object receives.
@@ -21,14 +21,17 @@ Ambient
    Something deep in the cave will not get any ambient light, whereas something close to the entrance will get more.
    Note that you can animate this effect, to change it as the object comes out of the shadows and into the light.
 
-Settings for *Ambient Occlusion* and *Environment Lighting* can be found
-in the *World* menu, with parameters affecting both these lighting components found
-in the *World* *Gather* menu.
+   .. seealso:: 
+
+      Settings for *Ambient Occlusion* and *Environment Lighting* can be found
+      in the *World* tab, with parameters affecting both these lighting components found
+      in the *World* *Gather* menu.
 
 Translucency
-   Amount of diffuse shading on the back side
+   Amount of light from the back side that shows through.
 Shadeless
-   Make this material insensitive to light or shadow; gives a solid, uniform color to the whole object.
+   Disables the calculation of any shading. This makes material insensitive to light or shadow,
+   resulting in single color for the whole object.
 Tangent Shading
    Use the material's tangent vector instead of the normal for shading, i.e. for anisotropic shading effects
    (like soft hair and brushed metal).
@@ -36,7 +39,8 @@ Tangent Shading
    `introduced in 2.42 <https://www.blender.org/development/release-logs/blender-242/material-features/>`__,
    see also settings for strand rendering in the menu further down and in the Particle System menu.
 Cubic Interpolation
-   Use cubic interpolation for diffuse values. Enhances the contrast between light areas and shadowed areas.
+   Use cubic interpolation for diffuse values, for smoother transitions between light areas and shadowed areas.
+   Enhances the perceived contrast. 
 
    .. list-table::
 
