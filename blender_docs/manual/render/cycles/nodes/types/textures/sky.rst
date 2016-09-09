@@ -3,7 +3,7 @@
 Sky Texture
 ***********
 
-Procedural Sky texture.
+The *Sky Texture* node adds a procedural Sky texture.
 
 
 Inputs

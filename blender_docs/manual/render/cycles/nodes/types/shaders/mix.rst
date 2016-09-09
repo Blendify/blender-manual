@@ -10,8 +10,8 @@ Mix
    Mix Node.
 
 
-The *Mix* shader is used to mix two shaders together. Mixing can be used for material layering,
-where the *Fac* input may, for example, be connected to a Blend Weight node.
+The *Mix* node is used to mix two shaders together. Mixing can be used for material layering,
+where the *Fac* input may, for example, be connected to a *Blend Weight* node.
 
 
 Inputs

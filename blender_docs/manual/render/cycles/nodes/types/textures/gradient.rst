@@ -3,7 +3,7 @@
 Gradient Texture
 ****************
 
-A gradient texture.
+The *Gradient Texture* node is used a gradient texture.
 
 
 Inputs

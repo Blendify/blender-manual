@@ -9,8 +9,10 @@ Glass
 
    Glass Node.
 
-Glass-like shader mixing refraction and reflection at grazing angles. Like the transparent shader,
-only pure white will make it transparent. The glass shader tends to cause noise due to caustics.
+The *Glass :abbr:`BSDF (Bidirectional scattering distribution function)`*
+node is used to add a Glass-like shader mixing refraction and reflection at grazing angles.
+Like the transparent shader, only pure white will make it transparent.
+The glass shader tends to cause noise due to caustics.
 Since the Cycles path tracing integrator is not very good at rendering caustics,
 it helps to combine this with a transparent shader for shadows;
 for :ref:`more details see here <render-cycles-reducing-noise-glass-and-transp-shadows>`.

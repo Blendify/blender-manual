@@ -9,7 +9,7 @@ Attribute
    Attribute Node.
 
 
-The *Attribute Node* allows you to retrieve attributes attached to an object or mesh.
+The *Attribute* node allows you to retrieve attributes attached to an object or mesh.
 
 
 Inputs

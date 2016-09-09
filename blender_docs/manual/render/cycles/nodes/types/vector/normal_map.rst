@@ -3,11 +3,11 @@
 Normal Map
 **********
 
-Generate a perturbed normal from an RGB normal map image.
-This is usually chained with an Image Texture node in the color input,
+The *Normal Map* node generate a perturbed normal from an RGB normal map image.
+This is usually chained with an *Image Texture* node in the color input,
 to specify the normal map image. For tangent space normal maps,
 the UV coordinates for the image must match,
-and the image texture should be set to Non-Color mode to give correct results.
+and the image texture should be set to *Non-Color* mode to give correct results.
 
 
 Inputs

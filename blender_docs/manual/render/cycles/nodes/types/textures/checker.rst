@@ -3,7 +3,7 @@
 Checker Texture
 ***************
 
-Checkerboard texture.
+The *Checker Texture* is used to add a checkerboard texture.
 
 
 Inputs
