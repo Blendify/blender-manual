@@ -62,8 +62,7 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 Object
    Transformations, display options, visibility settings (via layers)
    duplication settings and animation information (regarding Object position).
-   See :doc:`Object </editors/3dview/object/properties/index>` and
-   :doc:`/editors/3dview/transform/introduction`.
+   See :doc:`Object Properties </editors/3dview/object/properties/index>`. 
 Constraints
    Used to control an Object’s transform (position, rotation, scale),
    tracking and relationship properties.
@@ -72,8 +71,7 @@ Modifiers
    Array, Mirror, Subdivision Surface, Armature, Cast.
    See :doc:`/modeling/modifiers/index`.
 Object Data
-   Settings for the objects data,
-   depending on the Object Type.
+   Settings for the objects data, depending on the Object Type.
 Bone
    Armature Bone settings.
 Bone Constraints
@@ -83,14 +81,15 @@ Materials
 Textures
    Used by materials, world and brushes to provide additional details.
 Particles
-   Hair and Emitter particles.
-   See :doc:`/physics/particles/index`.
+   Hair and Emitter particles. See :doc:`/physics/particles/index`.
 Physics
    Properties relating to Cloth, Force Fields, Collision, Fluid and Smoke Simulation.
    See :doc:`/physics/index`.
 
 
-.. (todo) camera, speaker?, object: modeling
+.. (todo) Generic Object Data page?
+   ::
+   object: modeling
 
 
 Main View
@@ -107,4 +106,3 @@ In the example above, the mesh *Cube* is linked to the object *Cube* which is li
 
 By toggling the pin symbol on the left side on and off,
 Blender can be told to display only the selected property or to follow context.
-
