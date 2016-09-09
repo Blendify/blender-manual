@@ -11,4 +11,3 @@
    types/index.rst
    properties/index.rst
    modes.rst
-   relationships/index.rst

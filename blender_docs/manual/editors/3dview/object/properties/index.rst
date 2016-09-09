@@ -8,5 +8,6 @@
 
    introduction.rst
    transforms.rst
+   relations/index.rst
    display.rst
    duplication/index.rst

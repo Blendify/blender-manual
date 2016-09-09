@@ -77,7 +77,7 @@ Tool Shelf
    Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
 :doc:`Zoom Border </editors/3dview/navigate/3d_view>`
    Allows you to define the area you want to zoom into.
-:doc:`Show all Layers </editors/3dview/layers>`
+:doc:`Show all Layers </editors/3dview/object/properties/relations/layers>`
    Makes all of the display layers visible.
 :ref:`Global View/Local View <3dview-local-view>`
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
@@ -141,7 +141,7 @@ Manipulator Selector
 
    :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
 Layer Widget
-   Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
+   Layers are well documented in the :doc:`Layers page </editors/3dview/object/properties/relations/layers>`.
 
 Lock to Scene
    By default, the "lock" button to the right of the layer buttons is enabled.

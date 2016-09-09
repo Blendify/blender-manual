@@ -359,7 +359,7 @@ This page lists definitions for terms used in Blender and this manual.
       See also :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
 
    Layer
-      A device for organizing objects. See also :doc:`Layers </editors/3dview/layers>`.
+      A device for organizing objects. See also :doc:`Layers </editors/3dview/object/properties/relations/layers>`.
 
    Local Space
       A 3D coordinate system that originates (for Objects) at the :term:`Object Center`
