@@ -42,7 +42,7 @@ The Shading panel then appears. This contains the following elements:
 To add a new material, click "+" in the Active Material box.
 This action has a series of effects:
 
-.. figure:: /images/materials_new.jpg
+.. figure:: /images/render_blender-render_materials_assigning_material-panel-object-mode.png
 
    Materials Panel with New Entry.
 
