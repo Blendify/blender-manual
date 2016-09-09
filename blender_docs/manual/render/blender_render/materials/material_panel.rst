@@ -1,9 +1,9 @@
 .. |node-icon| image:: /images/icons_node.jpg
    :width: 1.1em
 
-***************
-Materials Panel
-***************
+**************
+Material Panel
+**************
 
 Materials can be linked to objects and Object's data in the :menuselection:`materials tab --> materials panel`.
 Here is where you can manage how materials are linked to objects, meshes, etc.
@@ -30,7 +30,7 @@ Multiple materials
 
 Meshes can handle having more than one material.
 Materials can be mapped on a per-face basis,
-as detailed on the :doc:`Multiple Materials </render/blender_render/materials/multiple_materials>` page.
+as detailed on the :ref:`bi-multiple-materials` page.
 In edit mode, the following tools appear:
 
 Assign

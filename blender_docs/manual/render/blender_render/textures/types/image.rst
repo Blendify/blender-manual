@@ -237,7 +237,7 @@ Scene lighting is a white light off to the right.
 From this information and the User Manual thus far,
 you should now be able to recreate this image.
 
-You can also assign :doc:`multiple materials </render/blender_render/materials/multiple_materials>`
+You can also assign :ref:`multiple materials <bi-multiple-materials>`
 to the mesh based on which faces you want to be procedural and which you want to be texture-mapped.
 Just do not UV map the faces you want to be procedural.
 
