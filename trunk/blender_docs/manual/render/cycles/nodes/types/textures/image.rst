@@ -3,7 +3,7 @@
 Image Texture
 *************
 
-Use an image file as a texture.
+The *Image Texture* is used to add an image file as a texture.
 
 
 Inputs

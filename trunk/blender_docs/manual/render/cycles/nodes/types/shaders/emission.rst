@@ -9,7 +9,9 @@ Emission
 
    Emission Node.
 
-Lambertian emission, to be used for material and lamp surface outputs.
+The *Emission :abbr:`BSDF (Bidirectional scattering distribution function)`*
+node is used to add Lambertian emission.
+This can for example, be used for material and lamp surface outputs.
 
 Cycles uses a physically correct light falloff by default,
 whereas Blender Internal uses a smoothed falloff with a Distance parameter.

@@ -9,7 +9,8 @@ Glossy
 
    Glossy Node.
 
-Glossy reflection with microfacet distribution, used for materials such as metal or mirrors.
+The *Glossy :abbr:`BSDF (Bidirectional scattering distribution function)`*
+node is used to add reflection with microfacet distribution, used for materials such as metal or mirrors.
 
 Inputs
 ======

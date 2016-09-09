@@ -9,7 +9,8 @@ Translucent
 
    Translucent Node.
 
-Lambertian diffuse transmission.
+The *Translucent :abbr:`BSDF (Bidirectional scattering distribution function)`*
+is used to add Lambertian diffuse transmission.
 
 
 Inputs
@@ -43,4 +44,4 @@ Examples
 .. figure:: /images/cycles_nodes_shader_translucent_example.jpg
    :align: center
 
-   Translucent Shader
+   Translucent Shader.

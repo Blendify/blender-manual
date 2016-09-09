@@ -3,7 +3,7 @@
 Mapping
 *******
 
-Transform a coordinate; typically used for modifying texture coordinates.
+The *Mapping* nodes is used to transform a coordinate; typically used for modifying texture coordinates.
 
 
 Inputs

@@ -9,8 +9,8 @@ Subsurface Scattering
 
    Subsurface Scattering Node.
 
-Simple subsurface multiple scattering, for materials such as skin, wax, marble,
-milk and others. For these materials,
+The *Subsurface Scattering* node is used to add simple subsurface multiple scattering,
+for materials such as skin, wax, marble, milk and others. For these materials,
 rather than light being reflect directly off the surface, it will penetrate the surface and
 bounce around internally before getting absorbed or leaving the surface at a nearby point.
 

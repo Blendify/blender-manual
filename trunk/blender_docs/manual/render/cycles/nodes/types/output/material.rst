@@ -3,6 +3,9 @@
 Material
 ********
 
+The *Material Output* node is used to output surface material information to a surface object.
+
+
 Inputs
 ======
 

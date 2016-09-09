@@ -3,7 +3,7 @@
 Brick Texture
 *************
 
-Procedural texture producing Bricks.
+The *Brick Texture* is used to add a procedural texture producing bricks.
 
 
 Inputs

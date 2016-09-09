@@ -3,7 +3,7 @@
 Wave Texture
 ************
 
-Procedural bands or rings texture with noise distortion.
+The *Wave Texture* node adds procedural bands or rings with noise distortion.
 
 
 Inputs

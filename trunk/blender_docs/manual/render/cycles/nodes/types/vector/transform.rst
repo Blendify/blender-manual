@@ -3,7 +3,7 @@
 Vector Transform
 ****************
 
-Allows converting a Vector,
+The *Vector Transform* node allows converting a Vector,
 Point or Normal between World <=> Camera <=> Object coordinate space.
 
 

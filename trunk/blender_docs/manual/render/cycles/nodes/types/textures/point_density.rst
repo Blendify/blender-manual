@@ -3,7 +3,7 @@
 Point Density
 *************
 
-Used to add volumetric points for each particle or vertex of another object.
+The *Point Density* node is used to add volumetric points for each particle or vertex of another object.
 
 
 Inputs
@@ -11,7 +11,7 @@ Inputs
 
 Vector
    Texture coordinate to sample texture at;
-   defaults to global position (Position output of Geometry node) if the socket is left unconnected.
+   defaults to global position (*Position* output of *Geometry* node) if the socket is left unconnected.
 
 
 Properties
