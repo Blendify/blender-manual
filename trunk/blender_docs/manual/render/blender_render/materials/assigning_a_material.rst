@@ -63,13 +63,7 @@ Details of the additional buttons which appear in the Material panel for a new A
 Material are as follows:
 
 Active Material
-   List View
-
-.. figure:: /images/icons_material-dropdown.jpg
-
-   Available Materials
-   See Reusing Existing Materials below.
-
+   List View.
 Material
    The Material :ref:`ui-data-block` for the selected Material slot.
 
@@ -78,12 +72,14 @@ Material
    It is a very good idea to give your materials clear names so you can keep track of them,
    especially when they are linked to multiple objects.
    Try to make your names descriptive of the material,
-   not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color")
+   not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color").
 
+Node
+   Use Nodes.
 Data
    Specifies whether the material is to be linked to the Object or to the Object Data.
 Material type
-   This menu has four options which define how the object is to be rendered:
+   This menu has four options which define how the object is to be rendered.
 
 
 Reusing Existing Materials
