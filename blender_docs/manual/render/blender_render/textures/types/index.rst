@@ -9,4 +9,5 @@
    image.rst
    video.rst
    procedural/index.rst
+   environment.rst
    volume/index.rst

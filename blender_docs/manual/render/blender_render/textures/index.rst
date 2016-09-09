@@ -13,6 +13,5 @@
    options.rst
    properties/index.rst
    types/index.rst
-   mapping/index.rst
    influence/index.rst
    nodes/index.rst
