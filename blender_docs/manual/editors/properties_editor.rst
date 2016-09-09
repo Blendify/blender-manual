@@ -100,4 +100,11 @@ Main View
 
    The Properties Editor with the Mesh tab selected.
 
-.. (todo) Context link to data-system
+At the top of the each tab a list of icons explains the context in which the properties is being edited.
+In the example above, the mesh *Cube* is linked to the object *Cube* which is linked to the scene *Scene*.
+
+.. This is a branch of the scene graph?
+
+By toggling the pin symbol on the left side on and off,
+Blender can be told to display only the selected property or to follow context.
+

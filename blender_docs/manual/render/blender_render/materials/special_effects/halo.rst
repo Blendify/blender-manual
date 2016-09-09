@@ -10,7 +10,7 @@ Halo Rendering
 
 
 Halo materials renders each of the objects points as glowing dots or a little clouds of light.
-although they are not really lights because they do not cast light into the scene like a lamp.
+Although they are not really lights because they do not cast light into the scene like a lamp.
 These are called *Halos* because you can see them, but they do not have any substance.
 
 Halos are rendered with vertex shaders and not with face shaders.
