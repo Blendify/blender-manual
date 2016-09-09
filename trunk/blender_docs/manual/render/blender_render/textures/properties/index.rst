@@ -8,3 +8,4 @@
 
    preview.rst
    color.rst
+   mapping.rst

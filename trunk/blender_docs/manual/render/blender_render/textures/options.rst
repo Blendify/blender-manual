@@ -37,19 +37,6 @@ Texture Type
    These types are described in detail :doc:`in this section </render/blender_render/textures/types/index>`.
 
 
-Mapping
-=======
-
-Here you can control how the texture will be mapped on the object.
-
-.. note:: Brushes
-
-   These options are not available for brushes because they would not make sense
-
-
-See :doc:`Mapping </render/blender_render/textures/mapping/introduction>` section for details.
-
-
 Influence
 =========
 

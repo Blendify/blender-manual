@@ -80,4 +80,4 @@ The selected map is displayed in the UV/Image Editor.
 The example shows a few UV maps created for a character, and the map for Clothes is selected.
 
 Note that each texture can be mapped to a specific UV texture.
-See the :doc:`Mapping </render/blender_render/textures/mapping/introduction>` section of the texture panel.
+See the :doc:`Mapping </render/blender_render/textures/properties/mapping>` section of the texture panel.
