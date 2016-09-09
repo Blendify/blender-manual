@@ -18,7 +18,6 @@ Tab
 
    Material panel.
 
-
 At the top of the material menu a list of icons explains the context in which the material is being edited.
 In the example above, the material *Material* is linked to the object *Cube* which is linked to the scene *Scene*.
 
@@ -29,14 +28,11 @@ Blender can be told to display only the selected material or to follow context.
 Material slots
 --------------
 
-With a material linked or created, one or several material slots can be created and further options become available:
-
-Plus sign
-   Add a new material slot or copy the one selected.
-Minus sign
-   Remove selected material slot.
-Down arrow
-   Copy and paste the selected material slot.
+Active Material
+   The objects material slots displayed in a :ref:`ui-list-view`.
+   
+   Special
+      Copy and paste the selected material slot.
 
 
 Multiple materials
@@ -58,26 +54,11 @@ Deselect
 Material naming and linking
 ---------------------------
 
-.. figure:: /images/material-matmenu-linkobjdata.jpg
-
-   Link material to object or to object's data.
-
-Material's name field
-   click into this field to rename your material
-Number of users (number field)
-   The number of objects or object's data that use the material. This material is linked between the various objects,
-   and will update across all of them when edited. Clicking this number will make a 'single user copy',
-   duplicating the material, with it linked only to the active object/object's data.
-F (Fake user)
-   Gives the material a 'fake user', to keep the material data-block saved in the blend-file,
-   even if it has no real users.
-Plus sign
-   Add a new material.
-X sign
-   Remove link to this material.
+Material
+   The Material :ref:`ui-data-block` for the selected Material slot.
 Nodes
    Designates this material to be a material node setup, and not from the Material/Ramps/Shaders settings.
-Data-block links
+Data-block Links
    The Link pop-up menu has two choices, Data and Object.
    These two menu choices determine whether the material is linked to the object or to the data,
    (in this case, the mesh). The Data menu item determines that this material will be linked to the mesh's
