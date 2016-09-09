@@ -7,8 +7,8 @@ The *Musgrave Texture* is used to add an advanced procedural noise texture.
 
 .. tip::
 
-The *Musgrave Texture* often needs some adjustments
-(multiplication and addition) in order to see more detail.
+   The *Musgrave Texture* often needs some adjustments
+   (multiplication and addition) in order to see more detail.
 
 
 Inputs
