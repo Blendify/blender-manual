@@ -35,15 +35,3 @@ Texture Type
 Texture Type
    Choose the type of texture that is used for the current texture data-block.
    These types are described in detail :doc:`in this section </render/blender_render/textures/types/index>`.
-
-
-Influence
-=========
-
-Here you can control what properties the texture will affect, and by how much.
-
-They are detailed on the :doc:`Influence </render/blender_render/textures/influence/material>` section.
-
-.. note:: Brushes
-
-   These options are not available for brushes because they would not make sense.

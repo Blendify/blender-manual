@@ -13,5 +13,4 @@
    options.rst
    properties/index.rst
    types/index.rst
-   influence/index.rst
    nodes/index.rst

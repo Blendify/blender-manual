@@ -216,7 +216,7 @@ Workflow
 #. When rendering is complete, Blender replaces the image with the Baked image.
 #. Save the image.
 #. Apply the image to the mesh as a UV texture. For displacement and normal maps,
-   refer to :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
+   refer to :doc:`Bump and Normal Maps </render/blender_render/textures/properties/influence/bump_and_normal>`.
    For full and texture bakes, refer to :doc:`Textures </render/blender_render/textures/index>`.
 #. Refine the image using the process described below,
    or embellish with :ref:`painting-texture-index`
