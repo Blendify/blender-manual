@@ -10,7 +10,7 @@ In the Properties editor, choose the Texture tab: this will show the Texture pan
    Texture panel.
 
 Texture Context
-   World, Material, Brush
+   World, Material/Lamp, Brush
 
 
 Textures Stack
