@@ -13,5 +13,4 @@
    selecting.rst
    transform/index.rst
    display/index.rst
-   layers.rst
    3d_cursor.rst
