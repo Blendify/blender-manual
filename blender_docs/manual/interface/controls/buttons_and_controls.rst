@@ -246,6 +246,7 @@ Type
       a search box to search the items in the list by name.
 Name
    Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
+   If a name already is in assigned Blender will add a digit to the name like ".001".
 User count
    Displays the number of users of the data. Clicking on it to make it a single-user copy,
    with it linked only to the active object/object's data.

@@ -1,3 +1,5 @@
+.. |node-icon| image:: /images/icons_node.jpg
+   :width: 1.1em
 
 *******
 Options
@@ -57,17 +59,21 @@ Material naming and linking
 Material
    The Material :ref:`ui-data-block` for the selected Material slot.
 Nodes
-   Designates this material to be a material node setup, and not from the Material/Ramps/Shaders settings.
+   Toogle |node-icon| that designates this material to be a material node setup,
+   and not from the Material/Ramps/Shaders settings.
 Data-block Links
+   Specifies whether the material is to be linked to the Object or to the Object Data.
+
    The Link pop-up menu has two choices, Data and Object.
    These two menu choices determine whether the material is linked to the object or to the data,
-   (in this case, the mesh). The Data menu item determines that this material will be linked to the mesh's
+   (i.e. a mesh or curve). The Data menu item determines that this material will be linked to the mesh's
    data-block which is linked to the object's data-block.
    The Object menu item determines that the material will be linked to the object's data block directly.
 
    This has consequences of course. For example, different objects may share the same mesh data-block.
-   Since this data-block defines the shape of the object any change in edit mode will be reflected on all of those
-   objects. Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
+   Since this data-block defines the shape of the object any change in edit mode 
+   will be reflected on all of those objects.
+   Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
    So, if the material is linked to the mesh, every object will share it.
 
    On the other hand, if the material is linked directly to the object data-block, the objects can have
@@ -75,6 +81,7 @@ Data-block Links
 
    Short explanation: If connected to the object, you can have several instances of the same obData using
    different materials. If linked to mesh data, you cannot.
+   See :doc:`Data System </data_system/introduction>` for more information.
 
 
 Material type
@@ -92,6 +99,25 @@ Volume
    Render object as a volume. See `Volume Material`_.
 Halo
    Render object as halo particles. See `Halo Material`_.
+
+.. list-table::
+
+   * - .. figure:: /images/materials_render_surface.jpg
+
+          Surface.
+
+     - .. figure:: /images/materials_render_wire.jpg
+
+          Wire.
+
+   * - .. figure:: /images/materials_render_volume.jpg
+
+          Volume.
+
+
+     - .. figure:: /images/materials_render_halo.jpg
+
+          Halo.
 
 
 Material Properties Overview

@@ -47,13 +47,13 @@ This action has a series of effects:
    Materials Panel with New Entry.
 
 
-- Opens the new material in the Active Material box.
-- Brings up additional buttons in the immediate panel.
-- Adds the new material to the Available Materials list.
-- Adds the new material to the Object Material Slots list for the active object (or its object data -- see below).
-- Brings up a :doc:`preview </render/blender_render/materials/properties/preview>` of the new material.
-- Provides you with a range of panels allowing you to select the
-  :doc:`properties </render/blender_render/materials/properties/introduction>` of the new material.
+#. Opens the new material in the Active Material box.
+#. Brings up additional buttons in the immediate panel.
+#. Adds the new material to the Available Materials list.
+#. Adds the new material to the Object Material Slots list for the active object (or its object data -- see below).
+#. Brings up a :doc:`preview </render/blender_render/materials/properties/preview>` of the new material.
+#. Provides you with a range of panels allowing you to select the
+   :doc:`properties </render/blender_render/materials/properties/introduction>` of the new material.
 
 
 New Material Panel Buttons
@@ -62,25 +62,16 @@ New Material Panel Buttons
 Details of the additional buttons which appear in the Material panel for a new Active
 Material are as follows:
 
-.. rubric:: Active Material
+Active Material
+   List View
 
 .. figure:: /images/icons_material-dropdown.jpg
 
    Available Materials
    See Reusing Existing Materials below.
 
-Name
-   Like other data-blocks, Blender will automatically set the name of the new material to
-   "Material", "Material.001" and so on.
-   You can change this by over-typing with your own choice of name.
-Number of Users
-   Specifies the number of meshes which use this material.
-Fake User ``F``
-   When enabled, this material will always be saved within the blend-file,
-   even if it has no meshes which use it (see Deleting a Material).
-X
-   Delete this material (see Deleting a Material).
-
+Material
+   The Material :ref:`ui-data-block` for the selected Material slot.
 
 .. tip:: Naming materials
 
@@ -89,62 +80,10 @@ X
    Try to make your names descriptive of the material,
    not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color")
 
-
-.. rubric:: Nodes
-
-.. figure:: /images/icons_node.jpg
-
-   If dark, use the Shader Nodes to generate the material.
-
 Data
    Specifies whether the material is to be linked to the Object or to the Object Data.
-
-The Link pop-up menu has two choices, Data and Object.
-These two menu choices determine whether the material is linked to the object or to the data,
-(in this case) the mesh (or curve, nurbs, etc.).
-The Data menu item determines that this material will be linked to the mesh's
-data-block which is linked to the object's data-block.
-The Object menu item determines that the material will be linked to the object's data block directly.
-This has consequences of course. For example, different objects may share the same mesh data-block.
-Since this data-block defines the shape of the object,
-any change in edit mode will be reflected on all of those objects.
-Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
-So, if the material is linked to the mesh, every object will share it.
-On the other hand, if the material is linked directly to the object data-block,
-the objects can have different materials and still share the same mesh.
-Short explanation: If connected to the object,
-you can have several instances of the same obData using different materials.
-If linked to mesh data, you cannot. See :doc:`Data System </data_system/introduction>` for more information.
-
-Object Render Format (menu)
+Material type
    This menu has four options which define how the object is to be rendered:
-Surface
-   Material applied to object planes.
-Wire
-   Material applied to wires following the object edges
-Volume
-   Material applied to the object volume.
-Halos
-   Material applied to halos around each object vertex.
-
-.. list-table::
-
-   * - .. figure:: /images/materials_render_surface.jpg
-
-          Surface.
-
-     - .. figure:: /images/materials_render_wire.jpg
-
-          Wire.
-
-   * - .. figure:: /images/materials_render_volume.jpg
-
-          Volume.
-
-
-     - .. figure:: /images/materials_render_halo.jpg
-
-          Halo.
 
 
 Reusing Existing Materials
@@ -155,9 +94,9 @@ between many objects. Instead of creating duplicate materials,
 you can simply re-use an existing material.
 There are several ways to do this using the Available Materials menu:
 
-   *Single Object -* With the object selected, click the sphere located to the left of the Material name.
-   A drop-down list appears showing all the materials available in the current blend-file.
-   To use one, just click on it.
+*Single Object* -- With the object selected, click the sphere located to the left of the Material name.
+A drop-down list appears showing all the materials available in the current blend-file.
+To use one, just click on it.
 
 .. figure:: /images/material-matmenu-addfirst-select_exist_button.png
 
@@ -175,13 +114,13 @@ There are several ways to do this using the Available Materials menu:
    only materials containing "wood" are displayed in the list.
 
 
-   *Multiple Objects -* In the 3D View, with :kbd:`Ctrl-L`
-   you can quickly link all selected objects to the material (and other aspects)
-   of the :ref:`active object <object-active>`.
-   Very useful if you need to set a large number of objects to the same material;
-   just select all of them,
-   then the object that has the desired material, and :kbd:`Ctrl-L` link them to that "parent".
-   (See Tip on Linking Data in Creating about data linking.)
+*Multiple Objects* -- In the 3D View, with :kbd:`Ctrl-L`
+you can quickly link all selected objects to the material (and other aspects)
+of the :ref:`active object <object-active>`.
+Very useful if you need to set a large number of objects to the same material;
+just select all of them,
+then the object that has the desired material, and :kbd:`Ctrl-L` link them to that "parent".
+(See Tip on Linking Data in Creating about data linking.)
 
 
 Deleting a Material
