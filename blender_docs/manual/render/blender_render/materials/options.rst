@@ -14,7 +14,7 @@ and activate a material for editing in the rest of the panels.
 Tab
 ===
 
-.. figure:: /images/material-matmenu-matadded-objectmode.jpg
+.. figure:: /images/render_blender-render_materials_assigning_material-panel-object-mode.png
 
    Material panel.
 
@@ -121,7 +121,7 @@ Diffuse
 
 Diffuse shading simulates light hitting a surface and bouncing off in a very wide angle.
 You can set the color of the diffuse shading, and set what model is used for the diffuse calculation.
-See :doc:`Diffuse Shaders </render/blender_render/materials/properties/diffuse_shaders>`
+See :doc:`Diffuse Shaders </render/blender_render/materials/properties/diffuse_shaders>`.
 
 
 Specular
@@ -130,7 +130,7 @@ Specular
 Specularity simulates reflections of light sources, that are often sharp, bright spots.
 You can set the color of the specular shading, and set what model is used for the specular calculation.
 
-See :doc:`Specular Shaders </render/blender_render/materials/properties/specular_shaders>`
+See :doc:`Specular Shaders </render/blender_render/materials/properties/specular_shaders>`.
 
 
 Shading
@@ -180,38 +180,15 @@ Strand
 ^^^^^^
 
 These settings are used when rendering the material on fur or hair.
-See :doc:`Strands </render/blender_render/materials/properties/strands>`
+See :doc:`Strands </render/blender_render/materials/properties/strands>`.
 
 
 Options
 ^^^^^^^
 
-Traceable
-   Allows material to calculated raytracing, for reflections and refractions.
-Full Oversampling
-   Forces material to render full shading and textures for all Anti-Aliasing Samples.
-Sky
-   Renders material with no alpha, replacing the background with the sky.
-Use Mist
-   Uses Mist with this material.
-Invert Z Depth
-   Renders materials faces with an inverted Z buffer.
-Z Offset
-   If using Invert Z Depth, this is an artificial offset to z values.
-Light Group
-   Limit material's lighting calculation to a specific light group.
-Exclusive
-   Material uses light group exclusively.
-Face Textures
-   Replaces object's base color with color from face assigned image textures.
-Face Textures Alpha
-   Replaces object's base alpha value with alpha from face assigned image textures.
-Vertex Color Paint
-   Replaces object's base color with vertex colors.
-Vertex Color Light
-   Adds vertex color as additional light.
-Object Color
-   Modulate the result with a per object color.
+These options concerning how objects using this material
+will appear in the rendered image.
+See :doc:`Options </render/blender_render/materials/properties/options>`.
 
 
 Shadow

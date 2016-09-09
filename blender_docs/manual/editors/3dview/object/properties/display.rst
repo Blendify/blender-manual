@@ -3,6 +3,11 @@
 Display
 *******
 
+.. figure:: /images/editors_3dview_object_properties_display.png
+
+   Display panel.
+
+
 The *Display* panel is used to enable extra drawing or viewing options for the 3D View.
 
 Name
@@ -31,4 +36,6 @@ Maximum Draw Type
    This can be useful if you have a high poly object that is slowing down performance.
 
 Object Color
-   TODO.
+   Allows to specify the color used when the *Object Color* in
+   :doc:`Material Options </render/blender_render/materials/properties/options>`
+   is enabled.

@@ -3,9 +3,9 @@
 Options
 *******
 
-.. figure:: /images/materials_properties_options.jpg
+.. figure:: /images/render_blender-render_materials_properties_options.png
 
-   Material Options Panel.
+   Material Options panel.
 
 
 This panel provides a series of control options concerning how objects using this material
@@ -15,7 +15,7 @@ Traceable (default On)
    Include this material and the geometry that uses it in ray-tracing calculations.
    See :doc:`Transparency </render/blender_render/materials/properties/transparency>` for details of ray-tracing.
 Full Oversampling
-   Force this material to render full shading/textures for all
+   Force this material to render full shading and textures for all
    :doc:`anti-aliasing </render/blender_render/antialiasing>` samples.
 Sky
    Render this material with zero alpha, but with
@@ -50,7 +50,7 @@ Vertex Color Light
    colors as additional lighting.
    (This can be used to produce good incandescence effects).
 Object Color
-   Modulate the result with a per object color
+   Modulate the result with a per object color. See :doc:`Object Display panel </editors/3dview/object/properties/display>`.
 UV Project (default On)
    Use to ensure UV interpolation is correct for camera projections (use with
    :doc:`UV project </modeling/modifiers/modify/uv_project>` modifier).
