@@ -9,14 +9,13 @@ Halo Rendering
    Activating helo rendering.
 
 
-Blender provides a set of materials which do not obey the face-shader paradigm and which are
-applied on a per-vertex rather than on a per-face basis.
-These are called *Halos* because you can see them,
-but they do not have any substance. They are like little clouds of light;
+Halo materials renders each of the objects points as glowing dots or a little clouds of light.
 although they are not really lights because they do not cast light into the scene like a lamp.
+These are called *Halos* because you can see them, but they do not have any substance.
 
-Halos come in very handy when creating certain special effects, when making an object glow,
-or when creating a viewable light or fog/atmospherics around an actual light.
+Halos are rendered with vertex shaders and not with face shaders.
+
+This material is useful for simulating special effects, like particle effects or lens flares.
 
 
 Options
