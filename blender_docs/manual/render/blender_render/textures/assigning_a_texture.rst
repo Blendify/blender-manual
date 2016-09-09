@@ -4,57 +4,12 @@ Assigning a Texture
 *******************
 
 This page just shows how to add a texture to a slot.
-The textures' commons options are explained :doc:`here </render/blender_render/textures/options>`.
-
-
-Choosing the Texture tab
-========================
+The :doc:`/render/blender_render/textures/texture_panel` is explained on the previous page.
 
 .. figure:: /images/texture-top-panel.png
    :width: 300px
 
    Texture panel.
-
-
-In the Properties editor, choose the Texture tab: this will show the Texture panels.
-
-
-Choosing the Texture data type
-==============================
-
-.. figure:: /images/texture-panel.png
-   :width: 311px
-
-   Texture panel with buttons for Material, World, and Brush textures highlighted.
-
-
-The three buttons *Material*, *World*,
-*Brush* at the top of the texture panel indicate the texture data type, that is,
-the kind of texture that is being edited.
-
-.. figure:: /images/texture-lamp-panel.png
-   :width: 300px
-
-   Texture panel with button for Lamp textures highlighted.
-
-
-Textures Slots
-==============
-
-.. figure:: /images/texture-top-panel.png
-   :width: 300px
-
-   Texture panel.
-
-
-The list below these buttons represent the *Stack* of textures that we can manage.
-It can have up to eighteen *Texture Slots*:
-
-
-- Tick or untick a texture to enable/disable it.
-- Use the three buttons on the right side to move individual textures
-  up and down in the stack or to copy/paste material's settings between slots.
-
 
 Creating a new Texture Data-Block in a new Texture Slot
 =======================================================
