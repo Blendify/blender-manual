@@ -103,5 +103,5 @@ Hints
 - Make sure that the normals of the mesh surface are facing towards the particles/points for correct deflection.
 - Hair particles react directly to force fields,
   so if you use a force field with a short range you do not need necessarily collision.
-- Hair particles avoid their emitting mesh if you edit them in *Particle mode*.
+- Hair particles avoid their emitting mesh if you edit them in *Particle Edit Mode*.
   So you can at least model the hair with collision.
