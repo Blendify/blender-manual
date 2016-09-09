@@ -217,7 +217,7 @@ Separate
 
 
 This will separate the selection in another mesh object,
-as described :doc:`here </editors/3dview/object/relationships/parents>`.
+as described :doc:`here </editors/3dview/object/properties/relations/parents>`.
 
 
 Connect Vertex Path
@@ -361,7 +361,7 @@ Make Vertex Parent
 
 
 This will parent the other selected object(s) to the vertices/edges/faces selected,
-as described :doc:`here </editors/3dview/object/relationships/parents>`.
+as described :doc:`here </editors/3dview/object/properties/relations/parents>`.
 
 
 Add Hook
