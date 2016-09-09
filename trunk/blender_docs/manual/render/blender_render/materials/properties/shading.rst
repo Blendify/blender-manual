@@ -31,7 +31,7 @@ Translucency
    Amount of light from the back side that shows through.
 Shadeless
    Disables the calculation of any shading. This makes material insensitive to light or shadow,
-   resulting in single color for the whole object.
+   resulting in a solid, uniform color for the whole object.
 Tangent Shading
    Use the material's tangent vector instead of the normal for shading, i.e. for anisotropic shading effects
    (like soft hair and brushed metal).

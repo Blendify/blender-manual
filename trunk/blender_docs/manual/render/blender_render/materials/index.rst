@@ -7,9 +7,9 @@
    :maxdepth: 2
 
    introduction.rst
+   material_panel.rst
    assigning_a_material.rst
    multiple_materials.rst
    properties/index.rst
    nodes/index.rst
-   options.rst
    special_effects/index.rst
