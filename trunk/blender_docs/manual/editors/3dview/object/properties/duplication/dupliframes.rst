@@ -53,7 +53,7 @@ Select the monkey and :kbd:`Alt-O` to reset its origin.
 
 You can now change the orientation of the monkey by either rotating it
 (either in *Edit Mode* or *Object Mode*)
-or by changing the *Tracking Axes* under *Animation Hacks*
+or by changing the *Tracking Axes* under *Relations Extras*
 (with the monkey selected). The arrangement of monkeys can, of course,
 be further enhanced by editing the curve.
 
