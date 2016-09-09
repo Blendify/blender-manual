@@ -37,55 +37,6 @@ Texture Type
    These types are described in detail :doc:`in this section </render/blender_render/textures/types/index>`.
 
 
-Preview
-=======
-
-.. figure:: /images/texture-preview-panel.jpg
-   :width: 300px
-
-   Preview panel.
-
-
-The texture preview panel provides a quick pre-visualization of how the texture looks on its
-own, without mapping.
-
-Texture, Material, or Both
-   Choose to display only the texture, only the material, or both.
-Show Alpha
-   Show alpha in preview.
-   If Alpha: Use is checked in the :doc:`Image Sampling </render/blender_render/textures/types/image>` panel,
-   the image's alpha channel is displayed.
-   If Alpha: Use is unchecked,
-   an alpha channel based on averaged rgb values is displayed like it would be used by the Alpha slider in the
-   :doc:`Influence </render/blender_render/textures/influence/material>` panel.
-
-
-Colors
-======
-
-.. figure:: /images/texture-color-panel.png
-   :width: 300px
-
-   Colors panel.
-
-
-The *Ramp* button activates a color ramp which allows you to remap the colors of a texture to new ones.
-See :doc:`Ramps </render/blender_render/materials/properties/ramps>` for information on using ramps.
-
-The color of a texture can be modified with the *Brightness*, *Contrast*,
-and *Saturation* buttons. All textures with RGB-Values, including
-*Images* and *Environment Maps*, may be modified with the RGB sliders.
-
-R, G, B
-   Tint the color of a texture by brightening each red, green and blue channel.
-Brightness
-   Change the overall brightness/intensity of the texture.
-Contrast
-   Change the contrast of the texture.
-Saturation
-   Change the saturation of the texture.
-
-
 Mapping
 =======
 
