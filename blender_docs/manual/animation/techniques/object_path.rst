@@ -65,7 +65,7 @@ Radius
    See :doc:`Curve Extruding </modeling/curves/editing/extrude>`
 Offset Children
    Causes the animation to be offset by the curve path child's time offset value,
-   which can be found in its *Animation Hacks* section of the *Object Panel*.
+   which can be found in its *Relations Extras* section of the *Object Panel*.
 
 
 The Follow Path Constraint
