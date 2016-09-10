@@ -28,8 +28,7 @@ Visible
 Hidden
    Lines occluded by at least one surface are rendered.
 
-.. figure:: /images/render-freestyle-hidden_edges.png
-   :width: 600px
+.. figure:: /images/render_freestyle_line-set_visibility_hidden-edges.png
 
    Proof of concept of visible and hidden edges by LightBWK
    (`Sample blend-file <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
@@ -41,8 +40,7 @@ QI Range
    Start and End
       Min/max number of occluding surfaces for a line to be rendered.
 
-   .. figure:: /images/render-freestyle-qi_range.png
-      :width: 600px
+   .. figure:: /images/render_freestyle_line-set_visibility_qi-range.png
 
       QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
       (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
@@ -64,7 +62,7 @@ Silhouette
 Crease
    Shows only edges whose adjacent faces form an angle greater than the defined viewmap's *Crease Angle*.
 
-   .. figure:: /images/render-freestyle-creaseconcept.jpg
+   .. figure:: /images/render_freestyle_line-set_edge-types_crease.png
       :width: 600px
 
       Crease Angle proof of concept for 121º by LightBWK
@@ -86,7 +84,7 @@ Contour
 External Contour
    Draws the contour lines, but only on the outer edges.
 
-.. figure:: /images/render-freestyle-contourvsexternalcontour.jpg
+.. figure:: /images/render_freestyle_line-set_edge-types_contour.png
    :width: 600px
 
    Left pair: Contour; Right pair: External Contour.
@@ -108,11 +106,6 @@ Ridge & Valley
 Edge Marks
 ^^^^^^^^^^
 
-.. figure:: /images/freestyle-mark-freestyle-edge.png
-   :align: right
-
-   Select and mark Freestyle edges.
-
 .. figure:: /images/freestyle-edge-mark.png
 
    Edge Mark setting in the Line Sets tab.
@@ -131,7 +124,7 @@ This is done as follows:
 Edge marks are useful when you want to draw lines along particular mesh edges.
 The examples below explain the use of edge marks.
 
-.. figure:: /images/freestyle-edge-marks-viewport.png
+.. figure:: /images/render_freestyle_line-set_edge-marks_mark-freestyle-edge.png
 
    Marking Freestyle Edges in edit mode.
 
@@ -139,11 +132,11 @@ The examples below explain the use of edge marks.
 
 .. list-table::
 
-   * - .. figure:: /images/freestyle-edge-marks-disabled.jpg
+   * - .. figure:: /images/render_freestyle_line-set_edge-marks_example-1.png
 
           Render without Edge Marks.
 
-     - .. figure:: /images/freestyle-edge-marks-enabled.jpg
+     - .. figure:: /images/render_freestyle_line-set_edge-marks_example-2.png
 
           Render with Edge Marks enabled.
 
@@ -165,12 +158,6 @@ What are edge marks not good for?
 Face Marks
 ----------
 
-.. figure:: /images/freestyle-mark-freestyle-face.png
-   :align: right
-
-   Mark Freestyle Faces.
-
-
 To set a face mark:
 
 - Select a mesh and tab into *Edit Mode*.
@@ -184,11 +171,11 @@ On the right is a render without face marks activated.
 
 .. list-table::
 
-   * - .. figure:: /images/freestyle-face-marks-viewport.jpg
+   * - .. figure:: /images/render_freestyle_line-set_face-marks_example-1.png
 
-          Marked Faces.
+          Marked Faces (Edit Mode).
 
-     - .. figure:: /images/freestyle-face-marks-disabled.jpg
+     - .. figure:: /images/render_freestyle_line-set_face-marks_example-2.png
 
           Render Output.
 
@@ -211,21 +198,21 @@ The image below shows the resulting combinations.
 
 .. list-table::
 
-   * - .. figure:: /images/freestyle-face-mark-inclusive-one.jpg
+   * - .. figure:: /images/render_freestyle_line-set_face-marks_example-3.png
 
           Inclusive, One Face.
 
-     - .. figure:: /images/freestyle-face-mark-inclusive-both.jpg
+     - .. figure:: /images/render_freestyle_line-set_face-marks_example-4.png
 
           Inclusive, Both Faces.
 
 .. list-table::
 
-   * - .. figure:: /images/freestyle-face-mark-exclusive-one.jpg
+   * - .. figure:: /images/render_freestyle_line-set_face-marks_example-5.png
 
           Exclusive, One Face.
 
-     - .. figure:: /images/freestyle-face-mark-exclusive-both.jpg
+     - .. figure:: /images/render_freestyle_line-set_face-marks_example-6.png
 
           Exclusive, Both Faces.
 
