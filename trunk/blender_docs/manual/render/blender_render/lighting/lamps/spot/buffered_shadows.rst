@@ -146,7 +146,7 @@ Filter Type
       The buffered shadows will be anti-aliased using the "Gaussian" filtering method.
       It produces a very soft/blurry anti-aliasing. As result, this filter is excellent with high resolution renders.
 
-   The :doc:`Anti-Aliasing page </render/blender_render/antialiasing>` in the Render chapter will give
+   The :doc:`Anti-Aliasing page </render/blender_render/settings/antialiasing>` in the Render chapter will give
    more information on the various filtering/distribution methods and their uses.
 
 Samples

@@ -73,7 +73,7 @@ in the *Render* tab or by activating the option again.
 
 .. note::
 
-   When Render Border is activated, :doc:`Sampled Motion Blur </render/blender_render/motion_blur>`
+   When Render Border is activated, :doc:`Sampled Motion Blur </render/blender_render/settings/motion_blur>`
    will become available to view in the 3D View.
 
 .. figure:: /images/editors_3dview_navigating_camera-view-render-border.jpg
