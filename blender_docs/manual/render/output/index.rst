@@ -6,7 +6,7 @@
 .. toctree::
    :maxdepth: 2
 
-   display.rst
+   render_panel.rst
    output.rst
    video.rst
    audio.rst
