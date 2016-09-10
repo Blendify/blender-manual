@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-************
-Introduction
-************
+*****
+Point
+*****
 
 .. figure:: /images/lighting-lamps-point.png
    :width: 200px

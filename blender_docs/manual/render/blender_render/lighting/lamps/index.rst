@@ -8,7 +8,7 @@
 
    introduction.rst
    point.rst
-   spot/index.rst
-   area/index.rst
-   hemi.rst
    sun/index.rst
+   spot/index.rst
+   hemi.rst
+   area/index.rst
