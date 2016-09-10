@@ -88,7 +88,7 @@ To enable ray-traced shadows, three actions are required:
 
 Ray-traced shadows can be cast by the following types of lamp:
 
-- :doc:`Point lamp </render/blender_render/lighting/lamps/point/introduction>`
+- :doc:`Point lamp </render/blender_render/lighting/lamps/point>`
 - :doc:`Spot lamp </render/blender_render/lighting/lamps/spot/introduction>`
 - :doc:`Area lamp </render/blender_render/lighting/lamps/area/introduction>`
 - :doc:`Sun lamp </render/blender_render/lighting/lamps/sun/introduction>`
