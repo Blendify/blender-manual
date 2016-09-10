@@ -103,7 +103,7 @@ as well as provide additional controls such as pressure sensitivity.
 3D Mice
 -------
 
-3D Mice or :abbr:`NDOF (N-Degrees of Freedom)` devices are hardware that you can use to navigate a scene in Blender,
+3D Mice or :abbr:`NDOF (N-Degrees of Freedom)` devices are hardware that you can use to navigate a scene in Blender.
 Currenly only devices made by 3Dconnexion are supported.
 These devices allow you to explore a scene, as well as :ref:`Walk/Fly modes <3dview-walk-fly>`.
 

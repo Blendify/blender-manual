@@ -98,7 +98,7 @@ Scripting Reference
 Save System Info
 ----------------
 
-Access :menuselection:`Help --> Save System Info`
+Access :menuselection:`Help --> Save System Info`.
 
 
 This extracts system information which can be useful to include in bug reports,
