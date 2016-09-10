@@ -7,17 +7,19 @@ Introduction
 
 .. figure:: /images/render_blender-render_world_introduction_world-panel.png
 
-   World Panel.
+   World tab.
 
 
-Blender provides a number of very interesting settings to complete your renderings by adding a
-nice background, and some interesting 'depth' effects.
+The world buttons let you set up the shading of your scene in general.
+It can provide ambient color, and special effects such as mist,
+but a very common use of a *World* is to shade a background color.
+
 These are accessible via the *World* tab.
 By default a very plain uniform world is present. You can edit it or add a new World.
 
 You have:
 
-:doc:`Background </render/blender_render/world/background>`
+:doc:`Background </render/blender_render/world/world_panel>`
    The color and texture of the world background, with special settings for mapping coordinates.
 :doc:`Mist </render/blender_render/world/mist>`
    Add a mist to your scene to enhance the feeling of depth.
@@ -28,12 +30,3 @@ for the additional control and options they offer.
 For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
 through compositing nodes can further increase the depth and spacial clarity of a scene.
 
-.. note::
-
-   Some of the settings under the World panel in Blender affect lighting so you find them under the
-   :doc:`Lighting </render/blender_render/lighting/index>` chapter
-   (see :doc:`Ambient Light </render/blender_render/world/ambient_light>`,
-   :doc:`Exposure </render/blender_render/world/exposure>` and
-   :doc:`Ambient Occlusion </render/blender_render/world/ambient_occlusion>`).
-   When using a *Sun Lamp* options for *Sky & Atmosphere*
-   are available in the *Lamp* menu.

@@ -1,17 +1,12 @@
-..    TODO/Review: {{review|partial=X|text=missing Ambient Color, Exposure and Range}}.
 
-****************
-World Background
-****************
+***********
+World panel
+***********
 
-The world buttons let you set up the shading of your scene in general.
-It can provide ambient color, and special effects such as mist,
-but a very common use of a *World* is to shade a background color.
-
-.. note:: Background Image in Render
-
-   To use an image as your render background,
-   see :doc:`BackBuf images specified in the Output Panel </render/output/index>`
+World
+   The World :ref:`ui-data-block`.
+Texture Count
+   Shows the count of textures in the world texture stack.
 
 .. note:: Background Image in 3D
 
@@ -20,22 +15,18 @@ but a very common use of a *World* is to shade a background color.
    see :doc:`using a Background Image </editors/3dview/display/background_images>`
 
 
-Options
-=======
+World (Background)
+==================
 
 .. figure:: /images/render_blender-render_world_background_world-panel.png
 
    World panel.
 
 
-Horizon Color
-   The RGB color at the horizon.
-Zenith Color
-   The RGB color at the zenith (overhead).
+Sky
+---
 
-.. rubric:: Sky
-
-How these colors are interpreted depends on which kind of *Sky* is chosen.
+How colors below are interpreted depends on which kind of *Sky* is chosen.
 
 None Enabled
    If none of these three buttons is checked, your background will just be plain flat color (using the horizon one).
@@ -51,6 +42,28 @@ Real Sky
    to horizon to zenith; the blending is also dependent on the camera orientation, which makes it more realistic.
    The horizon color is exactly at the horizon (on the XY plane),
    and the zenith color is used for points vertically above and below the camera.
+
+.. seealso::
+
+   When using a *Sun Lamp* options for
+   :doc:`/render/blender_render/lighting/lamps/sun/sky_and_atmosphere` are available in the *Lamp* tab.
+
+
+Colors
+------
+
+Horizon Color
+   The RGB color at the horizon.
+Zenith Color
+   The RGB color at the zenith (overhead).
+Ambient Color
+   :term:`Ambient Light`. See also :doc:`/render/blender_render/world/indirect_lighting`.
+
+
+Exposure and Range
+------------------
+
+See :doc:`/render/blender_render/world/exposure`.
 
 
 Textures
