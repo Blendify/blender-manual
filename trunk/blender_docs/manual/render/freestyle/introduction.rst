@@ -18,29 +18,29 @@ thickness-with-depth are already pre-scripted in Python. The Parameter Editor mo
 features such as dotted lines and easy setup of multiple line types and edge definitions. On top of all of that,
 with the introduction of line style modifiers, the sky is the limit!
 
-.. figure:: /images/render-freestyle-demo-ohacartoon.jpg
-   :width: 600px
+.. list-table::
 
-   A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
-   (`the blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
-   © Mechanimotion Entertainment.
+   * - .. figure:: /images/render_freestyle_introduction_example-1.png
 
-.. figure:: /images/render-freestyle-demo-blueprint.png
-   :width: 600px
+          ATV buggy by Rylan Wright (RONIN). CC BY.
+          (`File:AtvBuggy.zip <https://wiki.blender.org/index.php/File:AtvBuggy.zip>`__)
 
-   Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. Warning:
-   heavy file! designed for stress test Blender to the limits and may crash Blender.
-   (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
+     - .. figure:: /images/render_freestyle_introduction_example-2.png
 
-.. figure:: /images/render-freestyle-demo-hvacpreviz.jpg
-   :width: 600px
+          By mato.sus304. CC BY-SA.
+          (`File:Mato_sus304_cut02.zip <https://wiki.blender.org/index.php/File:Mato_sus304_cut02.zip>`__)
 
-   HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <https://wiki.blender.org/index.php/File:HVACPreViz.zip>`__).
+   * - .. figure:: /images/render_freestyle_introduction_example-3.png
 
-.. figure:: /images/render-freestyle-demo-kitchenset.jpg
-   :width: 600px
+          A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
+          © Mechanimotion Entertainment.
+          (`the blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
 
-   Kitchen by Vicente Carro. © AnigoAnimation.
+     - .. figure:: /images/render_freestyle_introduction_example-4.png
+
+          Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. Warning:
+          heavy file! designed for stress test Blender to the limits and may crash Blender.
+          (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
 
 
 More artwork can be found at `Release Note Artwork Showcase 
@@ -64,7 +64,7 @@ The Big Picture
 
 .. figure:: /images/render_freestyle_introduction_view-map-processes.png
 
-   block diagram of Freestyle view map and processes.
+   Block diagram of Freestyle view map and processes.
 
 
 Known Limitations

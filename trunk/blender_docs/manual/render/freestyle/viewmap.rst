@@ -9,14 +9,15 @@ can be controlled either through the user-friendly
 :doc:`parameter editor </render/freestyle/parameter_editor/index>`,
 or powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 
+.. figure:: /images/render_freestyle_view-map_freestyle-panel.png
+
+   Freestyle panel.
+
+
+View Map Cache
+   TODO
 Face Smoothness
-   When enabled, Face Smoothness will be taken into account for edges calculation.
-
-.. figure:: /images/render-freestyle-parameter_editor_mode.png
-
-   Parameter Editor Mode UI.
-
-
+   When enabled, *Smooth Shading* will be taken into account for edges calculation.
 Crease Angle
    If two adjacent faces form an angle less than the defined *Crease Angle*,
    the edge between them will be rendered when using *Crease* edge type selection in a line set.
@@ -29,9 +30,9 @@ Culling
 Advanced Options
 ================
 
-.. figure:: /images/render-freestyle-advanced_options.png
+.. figure:: /images/render_freestyle_view-map_freestyle-panel-advanced.png
 
-   Advanced Options.
+   Advanced Options enabled.
 
 
 *Sphere Radius* It affects the calculation of curvatures for *Ridge*,
