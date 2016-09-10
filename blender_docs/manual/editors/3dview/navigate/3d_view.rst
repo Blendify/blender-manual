@@ -74,7 +74,7 @@ you have to move or rotate the camera.
 
 .. seealso::
 
-   - :doc:`Render perspectives </editors/3dview/object/types/camera/lens>`
+   - :ref:`Render perspectives <camera-lens-type>`
    - :doc:`Camera View </editors/3dview/navigate/camera_view>`
    - :ref:`Camera Clipping <camera-clipping>`
    - :term:`Camera Projections <projection>`
