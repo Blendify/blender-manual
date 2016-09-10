@@ -77,7 +77,7 @@ most important parts of the video can be seen across all screens.
 
 .. seealso::
 
-   See :doc:`Safe Areas </editors/3dview/object/types/camera/safe_areas>` in the camera docs.
+   See :ref:`Safe Areas <camera-safe-areas>` in the camera docs.
 
 
 Grease Pencil

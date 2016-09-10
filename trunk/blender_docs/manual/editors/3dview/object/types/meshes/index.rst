@@ -6,5 +6,5 @@
 .. toctree::
    :maxdepth: 2
 
-   primitives.rst
+   introduction.rst
    object_data.rst

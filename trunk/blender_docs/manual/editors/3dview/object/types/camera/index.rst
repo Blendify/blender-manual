@@ -8,5 +8,3 @@
 
    introduction.rst
    object_data.rst
-   lens.rst
-   safe_areas.rst
