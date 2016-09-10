@@ -3,7 +3,7 @@
 Shading
 *******
 
-In the separate *Shading* tab six more options are available:
+In the separate *Shading* panel six more options are available:
 
 .. figure:: /images/material-shadingmenu.png
 

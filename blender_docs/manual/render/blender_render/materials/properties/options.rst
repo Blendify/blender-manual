@@ -16,7 +16,7 @@ Traceable
    See :doc:`Transparency </render/blender_render/materials/properties/transparency>` for details of ray-tracing.
 Full Oversampling
    Force this material to render full shading and textures for all
-   :doc:`anti-aliasing </render/blender_render/antialiasing>` samples.
+   :doc:`anti-aliasing </render/blender_render/settings/antialiasing>` samples.
 Sky
    Render this material with zero alpha, but with
    :doc:`sky background </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>` in place (scanline only)

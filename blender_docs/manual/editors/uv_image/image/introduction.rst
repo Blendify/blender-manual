@@ -85,7 +85,7 @@ Render Layer
    If you are using :doc:`Render Layers </render/post_process/layers>`,
    use this menu to select which layer is displayed.
 Render Pass
-   If you are using :doc:`Render Passes </render/blender_render/passes>`,
+   If you are using :doc:`Render Passes </render/blender_render/settings/passes>`,
    use this menu to select which pass is displayed.
 
 

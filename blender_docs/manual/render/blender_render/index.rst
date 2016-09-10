@@ -11,11 +11,7 @@
    textures/index.rst
    lighting/index.rst
    world/index.rst
-   layers.rst
-   passes.rst
-   motion_blur.rst
-   antialiasing.rst
+   settings/index.rst
    post_processing/index.rst
    bake.rst
-   quality.rst
-   performance.rst
+   optimizations/index.rst
