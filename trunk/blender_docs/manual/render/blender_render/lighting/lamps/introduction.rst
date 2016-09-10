@@ -6,7 +6,7 @@ Introduction
 Blender comes equipped with five different lamp types,
 each with its own unique strengths and limitations. Here are the available lamps:
 
-- :doc:`Point </render/blender_render/lighting/lamps/point/introduction>`
+- :doc:`Point </render/blender_render/lighting/lamps/point>`
   is an omni-directional point light source, similar to a light bulb.
 - :doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>`
   is a directional point light source, similar to ... a spot.

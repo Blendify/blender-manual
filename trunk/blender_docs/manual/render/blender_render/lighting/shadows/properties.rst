@@ -10,7 +10,7 @@ Common Shadowing Lamps Options
 
 
 All lamps able to cast shadows
-(:doc:`Lamp </render/blender_render/lighting/lamps/point/introduction>`,
+(:doc:`Lamp </render/blender_render/lighting/lamps/point>`,
 :doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>`,
 :doc:`Area </render/blender_render/lighting/lamps/area/introduction>`, and
 :doc:`Sun </render/blender_render/lighting/lamps/sun/introduction>`) share some options, described below:
@@ -53,7 +53,7 @@ Shadow color
 
    - :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
    - :doc:`Common Raytraced Options </render/blender_render/lighting/shadows/raytraced_properties>`
-   - :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/point/introduction>`
+   - :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/point>`
    - :doc:`Spot Light Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction>`
    - :doc:`Area Light Raytraced Shadows </render/blender_render/lighting/lamps/area/introduction>`
    - :doc:`Sun Light Raytraced Shadows </render/blender_render/lighting/lamps/sun/introduction>`

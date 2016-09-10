@@ -9,7 +9,7 @@ Lamps Raytraced Shadows
    Ray shadowing options for lamps.
 
 
-Most lamp types (:doc:`Lamp </render/blender_render/lighting/lamps/point/introduction>`,
+Most lamp types (:doc:`Lamp </render/blender_render/lighting/lamps/point>`,
 :doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>` and
 :doc:`Sun </render/blender_render/lighting/lamps/sun/introduction>`)
 share the same options for the ray-traced shadows generation,

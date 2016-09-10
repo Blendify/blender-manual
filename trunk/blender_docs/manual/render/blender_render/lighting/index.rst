@@ -12,3 +12,4 @@
    shadows/index.rst
    volumetric_lights.rst
    lamps/index.rst
+   lighting_rigs.rst
