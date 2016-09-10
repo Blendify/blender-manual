@@ -3,7 +3,7 @@
 Core Options
 ************
 
-.. figure:: /images/render-freestyle-core_options.png
+.. figure:: /images/render_freestyle_core-options.png
 
    Freestyle core options.
 
