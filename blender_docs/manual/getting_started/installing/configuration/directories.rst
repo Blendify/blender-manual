@@ -112,7 +112,7 @@ for example.
 ``./datafiles/ ...``
    Runtime files.
 
-   Search order: ``LOCAL, USER, SYSTEM``
+   Search order: ``LOCAL, USER, SYSTEM``.
 
 ``./datafiles/locale/{language}/``
    Static precompiled language files for UI translation.
