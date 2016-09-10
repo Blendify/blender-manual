@@ -151,8 +151,11 @@ for example.
 ``./scripts/presets/{preset}/*.py``
    Presets used for storing user defined settings for cloth, render formats etc.
 
-``./scripts/templates/*.py``
-   Example scripts which can be accessed from :menuselection:`Text Editor --> Text --> Script Templates`.
+``./scripts/templates_py/*.py``
+   Example scripts which can be accessed from :menuselection:`Text Editor --> Templates --> Python`.
+
+``./scripts/templates_osl/*.py``
+   Example OSL shaders which can be accessed from :menuselection:`Text Editor --> Templates --> Open Shading Language`.
 
 ``./python/ ...``
    Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.
