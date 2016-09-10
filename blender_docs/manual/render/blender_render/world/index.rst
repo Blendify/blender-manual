@@ -8,7 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   background.rst
+   world_panel.rst
    exposure.rst
    ambient_light.rst
    indirect_lighting.rst
