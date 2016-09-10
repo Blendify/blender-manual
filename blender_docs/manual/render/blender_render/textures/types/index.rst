@@ -6,8 +6,7 @@
 .. toctree::
    :maxdepth: 2
 
-   image.rst
-   video.rst
+   image/index.rst
    procedural/index.rst
    environment.rst
    volume/index.rst

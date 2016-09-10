@@ -79,8 +79,7 @@ Procedural Textures
    See :doc:`Procedural Textures </render/blender_render/textures/types/procedural/introduction>`.
 Images or Movies
    Photos and films projected onto objects. For example, a flat map of Earth mapped to a sphere.
-   See :doc:`Image Textures </render/blender_render/textures/types/image>` and 
-   :doc:`Video Textures </render/blender_render/textures/types/video>`.
+   See :doc:`Image Textures </render/blender_render/textures/types/image/index>`.
 Environment Maps
    Textures used to create the impression of reflections and refractions.
    For example, an image of a street reflected in a car window.
