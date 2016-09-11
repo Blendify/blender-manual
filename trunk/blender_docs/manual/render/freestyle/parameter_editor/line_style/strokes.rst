@@ -3,8 +3,7 @@
 Stroke
 ******
 
-.. figure:: /images/render-freestyle-stroke_ui.png
-   :width: 300px
+.. figure:: /images/render_freestyle_line-style_stroke.png
 
    Stroke Line Style.
 

@@ -3,9 +3,7 @@
 Alpha
 *****
 
-.. figure:: /images/render-freestyle-line_style_alpha.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha.png
 
    Line Style Alpha UI.
 

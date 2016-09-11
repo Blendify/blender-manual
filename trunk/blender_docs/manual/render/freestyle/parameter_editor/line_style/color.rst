@@ -3,9 +3,7 @@
 Color
 *****
 
-.. figure:: /images/render-freestyle-line_style_color.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color.png
 
    Line Style Color UI.
 

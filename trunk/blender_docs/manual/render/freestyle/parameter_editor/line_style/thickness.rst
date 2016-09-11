@@ -5,9 +5,7 @@ Thickness
 
 In this tab you control the thickness of your strokes.
 
-.. figure:: /images/render-freestyle-line_style_thickness.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_thickness.png
 
 Base Thickness
    The base thickness for this line style.
