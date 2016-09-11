@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|im=The second image is from 2.4}}.
 
-*********************
-Sun: Sky & Atmosphere
-*********************
+****************
+Sky & Atmosphere
+****************
 
 .. figure:: /images/lighting-lamps-sun-sky_atmosphere_panel.jpg
    :width: 304px
@@ -54,11 +54,11 @@ The position just might help you in your scene design.
 Options
 =======
 
-.. rubric:: Sun & Sky Presets
+Sun & Sky Presets
 
-- Classic
-- Desert
-- Mountain
+   - Classic
+   - Desert
+   - Mountain
 
 
 Sky

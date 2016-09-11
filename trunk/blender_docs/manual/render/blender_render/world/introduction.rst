@@ -15,7 +15,6 @@ It can provide ambient color, and special effects such as mist,
 but a very common use of a *World* is to shade a background color.
 
 These are accessible via the *World* tab.
-By default a very plain uniform world is present. You can edit it or add a new World.
 
 You have:
 
