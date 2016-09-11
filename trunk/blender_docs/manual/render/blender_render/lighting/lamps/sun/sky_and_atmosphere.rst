@@ -55,7 +55,6 @@ Options
 =======
 
 Sun & Sky Presets
-
    - Classic
    - Desert
    - Mountain
