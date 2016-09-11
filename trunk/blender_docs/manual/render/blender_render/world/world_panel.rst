@@ -18,7 +18,7 @@ Texture Count
 Preview
 =======
 
-Shows a view inside a sphere, on which the background texture is mapped.
+Shows a view inside a sphere, on which the background textures are mapped.
 
 
 World (Background)
@@ -75,6 +75,9 @@ See :doc:`/render/blender_render/world/exposure`.
 Textures
 ========
 
+Mapping
+-------
+
 Instead of a color, or blend of two colors, Blender can use an 2D image which it maps to a
 very large Box or sphere which encompasses the entire scene,
 or which it maps to a virtual space around the scene.
@@ -106,6 +109,10 @@ Texture Coordinates
    Object
       Position the texture relative to a specified object's local texture space.
 
+
+Influence
+---------
+
 .. figure:: /images/render_blender-render_world_background_texture-influence.png
 
    Texture Influence panel.
@@ -124,4 +131,4 @@ Zenith Down
 
 If you are disappointed that your camera appears to carry the texture with it rather than
 rotate through the texture,
-you should check the Real Sky checkbox in the World tab of the Properties view.
+you should check the Real Sky checkbox in the World panel.
