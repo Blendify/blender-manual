@@ -7,11 +7,12 @@ A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
 
-.. figure:: /images/render-freestyle-basicedgetypeselectionex.png
+.. figure:: /images/render_freestyle_line-set_edge-types_basic.png
    :width: 600px
 
-   Examples of some basic edge types by LightBWK
-   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__)
+   Examples of some basic edge types:
+   Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
+   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__ by LightBWK)
 
 
 Selection By
