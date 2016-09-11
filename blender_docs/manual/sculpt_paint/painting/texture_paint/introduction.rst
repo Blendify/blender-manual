@@ -84,7 +84,7 @@ A full complement of brushes and colors can be selected from
 the Properties region in the UV/Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
-you must explicitly do so by :menuselection`Image --> Save` in the UV/Image Editor.
+you must explicitly do so by :menuselection:`Image --> Save` in the UV/Image Editor.
 
 
 Texture Preview
@@ -109,7 +109,7 @@ Saving
 
 If the header menu item Image has an asterisk next to it,
 it means that the image has been changed, but not saved.
-Use the :menuselection`Image --> Save Image`
+Use the :menuselection:`Image --> Save Image`
 option to save your work with a different name or overwrite the original image.
 
 .. note:: UV Textures
@@ -123,7 +123,7 @@ The format for saving a UV image is selected in the header of the File browser,
 and defaults to ``PNG`` (``.png``).
 
 If Packing is enabled in the File browsers header,
-or if you manually :menuselection`Image --> Pack Image`,
+or if you manually :menuselection:`Image --> Pack Image`,
 saving your images to a separate file is not necessary.
 
 

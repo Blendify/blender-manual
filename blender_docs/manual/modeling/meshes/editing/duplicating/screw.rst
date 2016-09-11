@@ -158,7 +158,7 @@ Continuous operations without changing the selection will repeat the operation c
 
 .. figure:: /images/modeling_mesh_screw_cursor_basic_location.png
 
-   :menuselection`Properties region --> Cursor`.
+   :menuselection:`Properties region --> Cursor`.
 
 .. _fig-mesh-screw-interactive-panel:
 

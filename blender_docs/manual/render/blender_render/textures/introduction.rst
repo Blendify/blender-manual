@@ -64,21 +64,5 @@ Blender allows you to achieve this in many ways.
 You can use "a stack of texture layers" as described
 in :doc:`this section </render/blender_render/textures/texture_panel>`,
 or you can also use arbitrarily-complex networks of "texture nodes"
-as discussed :doc:`here </render/blender_render/textures/nodes/introduction>`; the choice is yours.
+as discussed :doc:`here </render/blender_render/textures/nodes/introduction>`.
 
-
-Brush Textures
-==============
-
-Image textures can be loaded into Blender. These images can then be applied to a mesh model
-that has been unwrapped and assigned an image of user defined size.
-
-.. figure:: /images/materials-textures-painting-brush-options.jpg
-   :width: 320px
-
-   Applied Brush texture in different painting modes.
-
-
-- Brush textures can be used to :ref:`painting-texture-index` textures.
-- Brush textures can be used to :ref:`painting-vertex-index` vertices.
-- Brush textures can also be used in :ref:`painting-sculping-index` to create topology.
