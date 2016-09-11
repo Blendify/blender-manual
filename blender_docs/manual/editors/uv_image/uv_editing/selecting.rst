@@ -69,7 +69,7 @@ Island
    Select contiguous groups of faces.
 
 Sticky Selection Mode
-   Effective in Island mode this selector controls how UVs are selected.
+   This selector lets you enable automatic additional selection.
 
    Shared Vertex
       Selects UVs that share a mesh vertex, even if they are in different UV locations.
