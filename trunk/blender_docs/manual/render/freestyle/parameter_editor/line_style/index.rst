@@ -12,3 +12,4 @@
    alpha.rst
    thickness.rst
    geometry.rst
+   texture.rst
