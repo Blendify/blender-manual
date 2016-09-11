@@ -79,43 +79,13 @@ Displace
 Other Controls
 --------------
 
-Blend
-   Blending operation to perform.
-   See :doc:`Texture Blending Modes </render/blender_render/textures/properties/influence/blending_modes>` for details.
-RGB to intensity
-   With this option enabled, an RGB texture (affects color) is used as an intensity texture (affects a value).
-Blend Color
-   If the texture is mapped to Col,
-   what color is blended in according to the intensity of the texture? Click on the swatch or set the RGB sliders.
-Negative
-   The effect of the Texture is negated. Normally white means on, black means off, *Negative* reverses that.
-Stencil
-   The active texture is used as a mask for all following textures.
-   This is useful for semitransparent textures and "Dirt Maps".
-   Black sets the pixel to "untexturable". The *Stencil* mode works similar to a layer mask in a 2D program.
-   The effect of a stencil texture cannot be overridden, only extended. You need an intensity map as input.
-DVar
-   Destination Value (not for RGB).
-   The value with which the Intensity texture blends with the current value. Two examples:
-
-
-- The *Emit* value is normally 0. With a texture mapped to *Emit* you will get maximal effect,
-  because *DVar* is 1 by default. If you set *DVar* to 0 no texture will have any effect.
-
-
-- If you want transparent material, and use a texture mapped to *Alpha*,
-  nothing happens with the default settings, because the *Alpha* value in the *Material* panel is 1.
-  So you have to set *DVar* to 0 to get transparent material (and of course *Z Transparency* also).
-  This is a common problem for beginners. Or do it the other way round: set *Alpha* to 0 and leave *Dvar* on 1.
-  Of course the texture is used inverted then.
-
 Bump Mapping
    Settings for bump mapping.
-   *Method*
-   *Best Quality*, *Default*, *Compatible*, *Original*
-   *Space*
 
-      *Texture Space*, *Object Space*, *View Space*
+   Method
+      Best Quality, Default, Compatible, Original
+   Space
+      Texture Space, Object Space, View Space
 
 
 Volume materials
