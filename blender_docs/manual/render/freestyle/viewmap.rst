@@ -15,7 +15,8 @@ or powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 
 
 View Map Cache
-   TODO
+   TODO. See `wiki
+   <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73/Freestyle#View_Map_Caching>`__.
 Face Smoothness
    When enabled, *Smooth Shading* will be taken into account for edges calculation.
 Crease Angle
