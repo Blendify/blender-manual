@@ -52,8 +52,10 @@ Note that this only works if there are no other objects under the mouse.
 Otherwise it just adds those to the selection. There appears to be no workaround for this bug.
 
 
-Rectangular or Border Select
-============================
+.. _select-border:
+
+Border Select
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -122,6 +124,9 @@ Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shi
 
    Lasso selection example.
 
+
+
+.. _select-circle:
 
 Circle Select
 =============

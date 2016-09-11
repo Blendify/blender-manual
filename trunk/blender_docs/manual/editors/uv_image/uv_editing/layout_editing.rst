@@ -21,82 +21,6 @@ or as large as an entire image. You probably want to make some major adjustments
 and then tweak the layout.
 
 
-Selecting UVs
-=============
-
-Selection tools are available in the *Select Menu* in the header,
-and the shortcuts listed below:
-
-Border Select :kbd:`B`
-   Use the box lasso to select UV coordinates.
-
-Select/Deselect All :kbd:`A`
-   Selects or de-selects all UV coordinates.
-   When initially unwrapping, you will want to select All UVs to rotate, scale, and move them around.
-
-Linked UVs :kbd:`Ctrl-L`
-   This menu item selects all UVs that are part of the same UV map.
-   Recall that a map is made for every submesh and seamed part of the mesh, and is analogous to a piece of cloth.
-   Selecting *Linked UVs* works similarly to the command in 3D View.
-   It will select all UVs that are connected to currently selected UVs.
-
-Pinned UVs :kbd:`Shift-P`
-   You can pin UVs so they do not move between multiple unwrap operations.
-   This menu item selects them all. See Pinning.
-
-Border Select Pinned :kbd:`Shift-B`
-   Use the box lasso to select only pinned UV coordinates.
-
-Unlink Selection :kbd:`Alt-L`
-   Cuts apart the selected UVs from the map.
-   Only those UVs which belong to fully selected faces remain selected following this command.
-   As the name implies, this is particularly useful to unlink faces and move them elsewhere.
-   The hotkey is analogous to the mesh Separate command.
-
-
-Selection Modes
----------------
-
-Turning on the *Sync Selection* button in the header causes selection of components
-in the 3D View to sync with their corresponding elements in the UV/Image editor.
-This is off by default.
-These two modes have very different results when transforming components in the UV/Image editor.
-
-When SyncSelection is **Off** :
-Only selected faces are displayed in the UV/Image editor,
-and the following selection modes are available:
-
-Vertex
-   Select individual vertices.
-Edge
-   Select edges.
-Face
-   Select faces.
-Island
-   Select contiguous groups of Faces.
-
-   The *Sticky Selection Mode* menu is available in this mode. This controls how UVs are selected:
-
-   Shared Vertex
-      Selects UVs that share a mesh vertex, even if they are in different UV locations.
-   Shared Location
-      Selects UVs that are in the same UV location and share a mesh vertex.
-      This mode is default and works best in most cases.
-   Disabled
-      Disables Sticky Selection.
-      When you move a UV in this mode, each face owns its own UVs, allowing them to be separated.
-
-When *Sync Selection* is **On** the following can be selected:
-
-- *Vertex*
-- *Edge*
-- *Face*
-
-In this Mode, selection behaves differently.
-When selecting UVs or Edges, it behave like *Shared Vertex* mode above.
-When selecting Faces, it behaves as in *Disabled Stick Selection* above.
-
-
 Transforming UVs
 ================
 
@@ -212,6 +136,10 @@ which flips the image over, showing you the image reversed.
 
 Pinning
 =======
+
+You can pin UVs so they do not move between multiple unwrap operations.
+
+.. >
 
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
 so that parts of a UV layout stay the same shape, and/or in the same place.
