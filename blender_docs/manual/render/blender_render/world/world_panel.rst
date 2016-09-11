@@ -15,6 +15,12 @@ Texture Count
    see :doc:`using a Background Image </editors/3dview/display/background_images>`
 
 
+Preview
+=======
+
+Shows a view inside a sphere, on which the background texture is mapped.
+
+
 World (Background)
 ==================
 

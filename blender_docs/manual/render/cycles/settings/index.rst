@@ -1,7 +1,7 @@
 
-***************
-Render Settings
-***************
+###################
+  Render Settings
+###################
 
 .. toctree::
    :maxdepth: 2
