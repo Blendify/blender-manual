@@ -34,7 +34,7 @@ Rounds
 Chaining can also be turned off to render each line separately,
 which can be useful for line styles which depend on accurate representation of the line set.
 
-.. figure:: /images/render-freestyle-chaining_ui.png
+.. figure:: /images/render_freestyle_line-style_stroke_chaining.png
 
    Chaining.
 
@@ -50,8 +50,7 @@ Material Boundary
 Min 2D Angle and Max 2D Angle
    Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 
-.. figure:: /images/render-freestyle-splitting_ui.png
-   :width: 300px
+.. figure:: /images/render_freestyle_line-style_stroke_splitting.png
 
    Splitting.
 
@@ -67,9 +66,9 @@ D1/G1/D2/G2/D3/G3
 Sorting
 =======
 
-.. figure:: /images/render-freestyle-sorting_ui.jpg
-   :width: 300px
+.. figure:: /images/render_freestyle_line-style_stroke_sorting.png
 
+   Sorting.
 
 You can sort the order of your strokes, allowing the lines to stack in the order given.
 
@@ -84,8 +83,7 @@ Sort Order
 Selection
 =========
 
-.. figure:: /images/render-freestyle-selection_length_ui.png
-   :width: 300px
+.. figure:: /images/render_freestyle_line-style_stroke_selection.png
 
    Selection.
 
@@ -97,8 +95,7 @@ chains longer than *Min 2D Length* and/or shorter than *Max 2D Length*.
 Caps
 ----
 
-.. figure:: /images/render-freestyle-caps_ui.png
-   :width: 280px
+.. figure:: /images/render_freestyle_line-style_stroke_caps.png
 
    Line tip caps.
 
@@ -117,7 +114,7 @@ Square
 Dashed Line
 ===========
 
-.. figure:: /images/render-freestyle-dashes_ui.png
+.. figure:: /images/render_freestyle_line-style_stroke_dashed-line.png
 
    Dashes Line UI.
 

@@ -7,12 +7,9 @@ A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
 
-.. figure:: /images/render_freestyle_line-set_edge-types_basic.png
-   :width: 600px
+.. figure:: /images/render_freestyle_line-set.png
 
-   Examples of some basic edge types:
-   Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
-   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__ by LightBWK)
+   Freestyle Line Set panel
 
 
 Selection By
@@ -54,6 +51,13 @@ Edge types are basic algorithms for the selection of lines from geometry. When u
 parameter editor you have to choose at least one edge type in order to get a render output,
 but several edge types can be combined in one line set.
 Edge types can also be excluded from calculation by pressing the *X* next to them.
+
+.. figure:: /images/render_freestyle_line-set_edge-types_basic.png
+
+   Examples of some basic edge types:
+   Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
+   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__ by LightBWK)
+
 
 Silhouette
    Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
@@ -107,7 +111,7 @@ Ridge & Valley
 Edge Marks
 ^^^^^^^^^^
 
-.. figure:: /images/freestyle-edge-mark.png
+.. figure:: /images/render_freestyle_line-set_edge-marks.png
 
    Edge Mark setting in the Line Sets tab.
 
@@ -159,6 +163,11 @@ What are edge marks not good for?
 Face Marks
 ----------
 
+.. figure:: /images/render_freestyle_line-set_face-marks.png
+
+   Face mark options.
+
+
 To set a face mark:
 
 - Select a mesh and tab into *Edit Mode*.
@@ -179,10 +188,6 @@ On the right is a render without face marks activated.
      - .. figure:: /images/render_freestyle_line-set_face-marks_example-2.png
 
           Render Output.
-
-.. figure:: /images/freestyle-face-mark.png
-
-   Face mark options.
 
 
 The line selection can be controlled via inclusion and faces options:
