@@ -10,19 +10,15 @@ The mapping specifies how the texture will ultimately wrap itself to the object.
 For example,
 a 2D image texture could be configured to wrap itself around a cylindrical shaped object.
 
+.. figure:: /images/render_blender-render_texture_mapping_panel_generated.png
+
+   Mapping panel.
 
 Coordinates
 ===========
 
 Mapping works by using a set of coordinates to guide the mapping process.
 These coordinates can come from anywhere, usually the object to which the texture is being applied to.
-
-.. figure:: /images/texture-mapping-coord.jpg
-   :width: 200px
-   :align: right
-
-   Mapping Coordinate menu.
-
 
 Global
    The scene's global 3D coordinates. This is also useful for animations;
@@ -102,20 +98,9 @@ From Dupli
 Coordinate Offset, Scaling and Transformation
 =============================================
 
-.. figure:: /images/texture-mapping-offset.jpg
-
-   Offset panel.
-
-
 Offset
    The texture co-ordinates can be translated by an offset.
-   Enlarging of the Ofs moves the texture towards the top left.
-
-.. figure:: /images/texture-mapping-size.png
-
-   Size panel.
-
-
+   Enlarging of the Offset moves the texture towards the top left.
 Size
    These buttons allow you to change the mapping of axes between the texture's own coordinate system,
    and the mapping system you choose (Generated, UV, etcetera.)
@@ -133,7 +118,3 @@ Size
      (and then Blender stretches this line along the two other axes).
    - The same goes, for 3D textures (i.e. procedural ones), when one axis is mapped to nothing,
      Blender extends the plan ("slice") along the relevant third axis.
-
-So, all this is a bit hard to understand and master. Fortunately,
-you do not have to change these settings often, except for some special effects... Anyway,
-the only way to get used to them is to practice!
