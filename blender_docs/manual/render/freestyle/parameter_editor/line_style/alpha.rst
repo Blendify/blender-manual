@@ -195,7 +195,7 @@ Min Curvature and Max Curvature
 Crease Angle
 ------------
 
-.. figure:: /images/render-freestyle_alpha_crease_angle.png
+.. figure:: /images/render_freestyle_line-style_alpha_crease-angle_example.png
    :width: 400px
    :align: center
 
