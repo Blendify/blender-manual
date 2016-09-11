@@ -78,7 +78,7 @@ Min Thickness and Max Thickness
    minimum is used when the stroke's direction is perpendicular to the main *Orientation*, and maximum,
    when aligned with it).
 
-.. figure:: /images/toycar_calligraphy.jpg
+.. figure:: /images/render_freestyle_line-style_thickness_calligraphy_example.png
    :width: 400px
 
    Calligraphy modifier demo by T.K.
@@ -166,7 +166,7 @@ the result will not be blurred between materials along the strokes.
 Noise
 -----
 
-.. figure:: /images/render-freestyle_geometry_simplification.png
+.. figure:: /images/render_freestyle_line-style_thickness_noise_example.png
    :width: 400px
    :align: center
 
@@ -245,7 +245,7 @@ Min Curvature and Max Curvature
 Crease Angle
 ------------
 
-.. figure:: /images/render-freestyle_thickness_crease_angle.png
+.. figure:: /images/render_freestyle_line-style_thickness_crease-angle_example.png
    :width: 400px
    :align: center
 

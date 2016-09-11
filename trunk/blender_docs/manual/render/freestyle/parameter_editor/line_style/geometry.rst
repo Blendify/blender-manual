@@ -80,7 +80,7 @@ Scale X and Scale Y
 Rotation Angle
    The rotation angle.
 
-.. figure:: /images/freestyle_2d-transform.jpg
+.. figure:: /images/render_freestyle_line-style_geometry_2d-transform_example.png
    :width: 400px
    :align: center
 
@@ -114,7 +114,7 @@ The *Bézier Curve* modifier replaces the stroke by a Bézier approximation of i
 Error
    The maximum distance allowed between the new Bézier curve and the original stroke.
 
-.. figure:: /images/toycar_bezier.jpg
+.. figure:: /images/render_freestyle_line-style_geometry_bezier-curve_example.png
    :width: 400px
    :align: center
 
@@ -175,7 +175,7 @@ because shorter strokes are more likely to be well approximated by straight line
 it is recommended to use this modifier together with one of the splitting options
 (by 2D angle or by 2D length) from the *Strokes* panel.
 
-.. figure:: /images/toycar_guiding_line.jpg
+.. figure:: /images/render_freestyle_line-style_geometry_guiding-lines_example.png
    :width: 400px
    :align: center
 
@@ -276,7 +276,7 @@ Amplitude
 Phase
    Allows "offsetting" ("moving") the undulations along the stroke.
 
-.. figure:: /images/toycar_sinus_displacement.jpg
+.. figure:: /images/render_freestyle_line-style_geometry_sinus-displacement_example.png
    :width: 300px
    :align: center
 
@@ -328,7 +328,7 @@ Tip Length
 Simplification
 --------------
 
-.. figure:: /images/render-freestyle_simplification.png
+.. figure:: /images/render_freestyle_line-style_geometry_simplification_example.png
    :width: 600px
    :align: center
 

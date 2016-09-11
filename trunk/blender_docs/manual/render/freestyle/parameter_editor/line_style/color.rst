@@ -106,7 +106,7 @@ an optional color ramp can be used to map these grayscale values to colored ones
 If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
 
-.. figure:: /images/freestyle_lilies_color_material.jpg
+.. figure:: /images/render_freestyle_line-style_color_material_example.png
    :width: 400px
    :align: center
 
@@ -157,7 +157,7 @@ Min Angle and Max Angle
 3D Curvature
 ------------
 
-.. figure:: /images/render-freestyle_color_curvature3d.png
+.. figure:: /images/render_freestyle_line-style_color_3d-curvature_example.png
    :width: 400px
    :align: center
 
@@ -194,7 +194,7 @@ Min Curvature and Max Curvature
 Crease Angle
 ------------
 
-.. figure:: /images/render-freestyle_color_crease_angle.png
+.. figure:: /images/render_freestyle_line-style_color_crease-angle_example.png
    :width: 400px
    :align: center
 
