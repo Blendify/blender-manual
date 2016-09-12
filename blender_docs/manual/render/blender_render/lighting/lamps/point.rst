@@ -30,7 +30,7 @@ Distance, Energy and Color
 
 Negative, This Layer Only, Specular, and Diffuse
    These settings control what the lamp affects, as described in
-   :doc:`What Light Affects </render/blender_render/lighting/lights/what_light_affects>`.
+   :ref:`What Light Affects <bi-lamp-influence>`.
 
 Falloff and Sphere
    These settings control how the light of the *Lamp* decays with distance.

@@ -31,7 +31,7 @@ Distance, Energy and Color
    :doc:`Light Properties </render/blender_render/lighting/lights/light_properties>`.
 This Layer Only, Negative, Diffuse and Specular
    These settings control what the lamp affects, as described in
-   :doc:`What Light Affects </render/blender_render/lighting/lights/what_light_affects>`.
+   :ref:`What Light Affects <bi-lamp-influence>`.
 Light Falloff and Sphere
    These settings control how the light of the *Spot* decays with distance.
    See :doc:`Light Attenuation </render/blender_render/lighting/lights/light_attenuation>` for details.

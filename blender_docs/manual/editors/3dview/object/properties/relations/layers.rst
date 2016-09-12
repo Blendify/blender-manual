@@ -21,7 +21,7 @@ Using object layers, you can:
 - Selectively display objects from certain layers in your 3D View,
   by selecting those layers in the *3D View* header. This allows you to speed up interface redrawing,
   reduce virtual-world clutter, and help improve your workflow.
-- Control :doc:`which lights illuminate an object </render/blender_render/lighting/lights/what_light_affects>`,
+- Control :ref:`which lights illuminate an object <bi-lamp-influence>`,
   by making a light illuminate only the objects on its own layer(s).
 - Control which forces affect which :doc:`particle systems </physics/particles/index>`,
   since particles are only affected by forces and effects on the same layer.
