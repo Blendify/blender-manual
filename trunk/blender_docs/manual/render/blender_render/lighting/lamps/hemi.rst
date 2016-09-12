@@ -38,7 +38,7 @@ Energy and Color
    :doc:`Light Properties </render/blender_render/lighting/lights/light_properties>`.
 Layer, Negative, Specular, and Diffuse
    These settings control what the lamp affects, as described in
-   :doc:`What Light Affects </render/blender_render/lighting/lights/what_light_affects>`.
+   :ref:`What Light Affects <bi-lamp-influence>`.
 
 The *Hemi* lamp has no light falloff settings: it always uses a constant attenuation
 (i.e. no attenuation).

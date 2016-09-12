@@ -1,8 +1,7 @@
-..    TODO/Review: {{review}}.
 
-*********************
-Lights Common Options
-*********************
+**********
+Lamp Panel
+**********
 
 .. figure:: /images/lighting-lights-properties.jpg
    :width: 312px
@@ -13,11 +12,10 @@ Lights Common Options
 There are five types of lamps in Blender. They share all or some of the options listed here:
 
 
-Object Data
-===========
-
 Lamp
-   A Data-block menu. Its list shows all light settings used in the current scene.
+   A :ref:`ui-data-block`. Its list shows all light settings used in the current scene.
+Texture Count
+   Shows the count of textures in the lamp texture stack.
 
 
 Preview
@@ -27,7 +25,14 @@ A quick preview of the light settings.
 
 
 Lamp
-----
+=====
+
+Type
+   
+Color
+   The color of the light source's illumination. Opens a color swatch.
+Energy
+   The intensity of the light source's illumination from (0.0 to 10.0).
 
 Distance
    The *Dist* field indicates the number of Blender Units (BU)
@@ -41,15 +46,23 @@ Distance
    - The *Sun* and *Hemi* Lamps are another class of Lamps which uses a constant falloff.
      Those lamps do not have a *Dist* field, and are often called "Base Lighting Lamps".
 
-Energy
-   The intensity of the light source's illumination from (0.0 to 10.0).
-Color
-   The color of the light source's illumination. Opens a color swatch.
+
+.. _bi-lamp-influence:
+
+Influence
+---------
+
+Every lamp has a set of switches that control which objects receive its light,
+and how it interacts with materials.
+
 Negative
    Let the lamp cast negative light.
+   The light produced by the lamp is *subtracted* from the one "available" on the surfaces it hits,
+   which darkens these surfaces instead of brightening them.
 This Layer Only
    The Lamp only illuminates objects on the same layer the lamp is on.
+   Causes the lamp to only light objects on the same layer.
 Specular
    The Lamp creates specular highlights.
 Diffuse
-   The Lamp does diffuse shading.
+   The Lamp affects diffuse shading.

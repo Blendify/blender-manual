@@ -33,7 +33,7 @@ Gamma
    The only way to control its falloff is to use the *Distance* and/or *Gamma* settings.
 This Layer Only, Negative, Specular and Diffuse
    These settings control what the lamp affects,
-   as described in :doc:`What Light Affects </render/blender_render/lighting/lights/what_light_affects>`.
+   as described in :ref:`What Light Affects <bi-lamp-influence>`.
 
 
 Shadows
