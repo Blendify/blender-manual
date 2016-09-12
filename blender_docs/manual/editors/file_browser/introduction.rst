@@ -147,7 +147,7 @@ Navigation icon buttons
       Refresh current folder.
 
 Create Directory
-   Prompts you to enter the name of a newly created directory (:kbd:`I`).
+   Prompts you to enter the name of a newly created directory :kbd:`I`
 Recursion
    The number of directory levels to show at once.
 

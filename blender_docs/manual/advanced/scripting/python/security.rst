@@ -4,8 +4,8 @@ Scripting & Security
 ********************
 
 The ability to include Python scripts within blend-files is valuable for advanced tasks such
-as rigging, automation and using the game-engine,
-however, it poses a security risk since Python does not restrict what a script can do.
+as rigging, automation and using the game-engine.
+However, it poses a security risk since Python does not restrict what a script can do.
 
 Therefore, you should only run scripts from sources you know and trust.
 
