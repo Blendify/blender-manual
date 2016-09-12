@@ -26,7 +26,7 @@ Lamp options
 
 Energy and Color
    These settings are common to most types of lamps, and are described in
-   :doc:`Light Properties </render/blender_render/lighting/lights/light_properties>`.
+   :doc:`Light Properties </render/blender_render/lighting/lights/lamp_panel>`.
 Negative, This Layer Only, Specular, and Diffuse
    These settings control what the lamp affects, as described in
    :ref:`What Light Affects <bi-lamp-influence>`.
