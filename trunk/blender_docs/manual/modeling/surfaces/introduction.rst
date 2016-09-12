@@ -12,7 +12,7 @@ you cannot have in the same object both curves and surfaces.
 
 .. _fig-surface-intro-surface:
 
-.. figure:: /images/nurbssurface.png
+.. figure:: /images/modeling_surfaces_introduction_nurbs-surface.png
 
    Surface.
 
@@ -39,7 +39,7 @@ In fact, surfaces are very similar to the results you get when
 Finding Surface Tools
 =====================
 
-.. figure:: /images/nurbssurfacetools.png
+.. figure:: /images/modeling_surfaces_introduction_nurbs-properties.png
 
    Surface Tools.
 
@@ -125,21 +125,21 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 
    * - .. _fig-surface-intro-resolution1:
 
-       .. figure:: /images/nurbssurface1resolution.png
+       .. figure:: /images/modeling_surfaces_introduction_resolution-1x1.png
 
           Resolution 1×1.
 
      - .. _fig-surface-intro-resolution2:
 
-       .. figure:: /images/nurbssurface3resolution.png
+       .. figure:: /images/modeling_surfaces_introduction_resolution-3x3.png
 
           Resolution 3×3.
 
 
-Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 3 for both U and V.
-Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 12 for both U and V.
+Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 1 for both U and V.
+Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 3 for both U and V.
 
-.. figure:: /images/nurbssurfaceresoltion.png
+.. figure:: /images/modeling_surfaces_introduction_resolution-panel.png
 
    Resolution panel.
 
@@ -167,7 +167,7 @@ or *Bézier*, with the same properties as for curves. And as with curves, only o
 
 .. _fig-surface-intro-endpoint:
 
-.. figure:: /images/surfaces-endpoint-u-ex.png
+.. figure:: /images/modeling_surfaces_introduction_endpoint.png
 
    Endpoint U.
 
@@ -193,7 +193,7 @@ creating a surface that tends to follow the grid cage.
 
 .. _fig-surface-intro-order:
 
-.. figure:: /images/nurbssurfaceorderexample.png
+.. figure:: /images/modeling_surfaces_introduction_order.png
 
    Order 2 and order 4 surface.
 
@@ -220,7 +220,7 @@ As you can see, that control point *pulls* the surface towards it.
 
 .. _fig-surface-intro-weight:
 
-.. figure:: /images/nurbssurfaceweightexample.png
+.. figure:: /images/modeling_surfaces_introduction_weight.png
 
    One control point with a weight of 5.
 
@@ -247,7 +247,7 @@ To create a sphere with 2D surfaces, its the same principle as with a 2D circle.
 You will note that the four different weights needed for creating a sphere
 (1.0, 0.707 = sqrt(0.5), 0.354 = sqrt(2)/4, and 0.25).
 
-.. figure:: /images/nurbssurfacesphere.png
+.. figure:: /images/modeling_surfaces_introduction_weight-sphere.png
 
    A sphere surface.
 
@@ -258,7 +258,7 @@ Primitives
 To help get started in creating surfaces there are four preset NURBS surfaces, found in the
 :menuselection:`Add --> Surface --> NURBS Surface, NURBS Tube, NURBS Sphere and NURBS Torus`.
 
-.. figure:: /images/nurbsprimitives.png
+.. figure:: /images/modeling_surfaces_introduction_primitives-surface.png
 
    NURBS surface primitives.
 
@@ -266,7 +266,7 @@ To help get started in creating surfaces there are four preset NURBS surfaces, f
 There are also two preset NURBS surface curves (with only one control point on each V-row):
 *NURBS Curve* and *NURBS Circle*.
 
-.. figure:: /images/nurbscurveprimitives.png
+.. figure:: /images/modeling_surfaces_introduction_primitives-curve.png
 
    NURBS curve primitives.
 
