@@ -1,7 +1,7 @@
 
-***********************
-Lamps Raytraced Shadows
-***********************
+*****************
+Raytraced Shadows
+*****************
 
 .. figure:: /images/lighting-shadow-ray.png
    :width: 310px
@@ -139,3 +139,10 @@ The Quasi-Monte Carlo method is also random,
 but tries to make sure that the samples/readings it takes are also better distributed
 (leaving less irregular gaps in its sample areas) and more evenly spread across an area. This
 has the advantage of sometimes leading to more accurate calculations based on samples/reading.
+
+.. seealso::
+
+   - :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/point>`
+   - :doc:`Spot Light Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction>`
+   - :doc:`Area Light Raytraced Shadows </render/blender_render/lighting/lamps/area/introduction>`
+   - :doc:`Sun Light Raytraced Shadows </render/blender_render/lighting/lamps/sun/introduction>`

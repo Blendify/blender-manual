@@ -20,7 +20,7 @@ with extra capabilities such as transparent shadows, although they are quite slo
 Buffered shadows are more complex to set up and involve more faking,
 but the speed of rendering is a definite advantage.
 Nevertheless, it shares with other lamp types common shadows options described in
-:doc:`Shadows Properties </render/blender_render/lighting/shadows/properties>`.
+:doc:`/render/blender_render/lighting/shadows/shadow_panel`.
 
 
 Shadow Buffer Types

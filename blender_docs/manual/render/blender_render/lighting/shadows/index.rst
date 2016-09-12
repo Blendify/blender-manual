@@ -7,5 +7,5 @@
    :maxdepth: 2
 
    introduction.rst
-   properties.rst
+   shadow_panel.rst
    raytraced_properties.rst

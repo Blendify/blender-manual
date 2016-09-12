@@ -67,7 +67,7 @@ Buffer Shadow
    Buffered shadows are more complex to set up and involve more faking,
    but the speed of rendering is a definite advantage.
    Nevertheless, it shares with other lamp types common shadow options
-   described in :doc:`Shadows Properties </render/blender_render/lighting/shadows/properties>`.
+   described in :doc:`/render/blender_render/lighting/shadows/shadow_panel`.
 Ray Shadow
    The ray-traced shadows settings of this lamp are shared with other lamps,
    and are described in :doc:`Raytraced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
