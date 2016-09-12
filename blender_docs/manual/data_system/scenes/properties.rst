@@ -127,6 +127,12 @@ Separate Units
      - 1000.0
 
 
+Keying Sets
+===========
+
+See :doc:`/animation/keyframes/keying_sets`.
+
+
 Color Management
 ================
 
