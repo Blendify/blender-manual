@@ -28,9 +28,7 @@ Influence
 Along Stroke
 ------------
 
-.. figure:: /images/render-freestyle-color_along_stroke.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_along-stroke.png
 
 The *Along Stroke* modifier alters the base color with a new one from a given color
 ramp mapped along each stroke's length. In other words,
@@ -46,9 +44,7 @@ Distance from Camera
 The *Distance from Camera* color modifier alters the base color with a new one from
 a given color ramp, using the distance to the active camera as the parameter.
 
-.. figure:: /images/render-freestyle-color_distance_from_camera.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_distance-from-camera.png
 
 Range Min and Range Max
    The limits of the mapping from "distance to camera" to "color in ramp".
@@ -69,9 +65,7 @@ Distance from Object
 The *Distance from Object* color modifier alters the base color with a new one from
 a given color ramp, using the distance to a given object as the parameter.
 
-.. figure:: /images/render-freestyle-color_distance_from_object.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_distance-from-object.png
 
 Target
    The object to measure distance from.
@@ -95,9 +89,7 @@ Material
 The *Material* color modifier alters the base color with a new one taken from the
 current material under the stroke.
 
-.. figure:: /images/render-freestyle-color_material.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_material.png
 
 You can use various properties of the materials, among which many are mono-component (i.e.
 give B&W results). In this case,
@@ -107,8 +99,7 @@ If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
 
 .. figure:: /images/render_freestyle_line-style_color_material_example.png
-   :width: 400px
-   :align: center
+   :width: 430px
 
    Material modifiers demo by T.K.
    `File:Lilies_Color_Material.zip <https://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__.
@@ -119,9 +110,7 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute color along the stroke.
 
-.. figure:: /images/render-freestyle_ui_color_noise.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_noise.png
 
 Amplitude
    The maximum value of the noise. A higher amplitude means a less transparent (more solid) stroke.
@@ -142,9 +131,7 @@ Tangent
 
 This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
 
-.. figure:: /images/render-freestyle_ui_color_tangent.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_tangent.png
 
 Color Ramp
    A standard Blender color ramp that maps the traveling directio to a stroke color.
@@ -154,14 +141,13 @@ Min Angle and Max Angle
    and their corresponding color values.
 
 
-3D Curvature
+Curvature 3D
 ------------
 
-.. figure:: /images/render_freestyle_line-style_color_3d-curvature_example.png
-   :width: 400px
-   :align: center
+.. figure:: /images/render_freestyle_line-style_color_curvature-3d-example.png
+   :width: 430px
 
-   3D Curvature modifier demo by T.K.
+   Curvature 3D modifier demo by T.K.
    `File:Render_freestyle_modifier_curvature_3d.blend
    <https://wiki.blender.org/index.php/File:Render_freestyle_modifier_curvature_3d.blend>`__.
 
@@ -177,9 +163,7 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. figure:: /images/render-freestyle_ui_color_curvature3d.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_curvature-3d.png
 
 Color Ramp
    A standard Blender color ramp that maps the radial curvature to a stroke color.
@@ -195,8 +179,7 @@ Crease Angle
 ------------
 
 .. figure:: /images/render_freestyle_line-style_color_crease-angle_example.png
-   :width: 400px
-   :align: center
+   :width: 430px
 
    Crease Angle modifier demo by T.K.
    `File:Render_freestyle_modifier_crease_angle.blend
@@ -206,9 +189,7 @@ A modifier based on the Crease Angle (angle between two adjacent faces). If a st
 (i.e., the edge does not have the *Crease Angle nature*,
 its color values are not touched by the modifier.
 
-.. figure:: /images/render-freestyle_ui_color_crease_angle.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_color_crease-angle.png
 
 
 Color Ramp

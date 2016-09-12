@@ -28,10 +28,7 @@ Influence
 Along Stroke
 ------------
 
-.. figure:: /images/render-freestyle-line_style_alpha_along_stroke.png
-   :width: 300px
-   :align: right
-
+.. figure:: /images/render_freestyle_line-style_alpha_along-stroke.png
 
 The *Along Stroke* modifier alters the base alpha with a new one from either a
 linear progression or a custom curve, mapped along each stroke's length. In other words,
@@ -48,9 +45,7 @@ Distance from Camera
 The *Distance from Camera* modifier alters the base alpha with a new one from either
 a linear progression or a custom curve, using the distance to the active camera as parameter.
 
-.. figure:: /images/render-freestyle-line_style_alpha_distance_from_camera.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha_distance-from-camera.png
 
 Mapping
    Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
@@ -73,9 +68,7 @@ Distance from Object
 The *Distance from Object* modifier alters the base alpha with a new one from either
 a linear progression or a custom curve, using the distance to a given object as parameter.
 
-.. figure:: /images/render-freestyle-line_style_alpha_distance_from_object.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha_distance-from-object.png
 
 Target
    The object to measure distance from.
@@ -104,9 +97,7 @@ material under the stroke.
 You can use various properties of the materials, among which some are multi-components (i.e.
 give RGB results). In that case, the mean value will be used.
 
-.. figure:: /images/render-freestyle-line_style_alpha_material.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha_material.png
 
 Mapping
    Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
@@ -122,9 +113,7 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute transparency along the stroke.
 
-.. figure:: /images/render-freestyle_ui_alpha_noise.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha_noise.png
 
 Amplitude
    The maximum value of the noise. A higher amplitude means a less transparent (more solid) stroke.
@@ -145,9 +134,7 @@ Mapping
 Tangent
 -------
 
-.. figure:: /images/render-freestyle_ui_alpha_tangent.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha_tangent.png
 
 This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
 
@@ -176,9 +163,7 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. figure:: /images/render-freestyle_ui_alpha_curvature3d.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha_curvature-3d.png
 
 Mapping
    Either a linear progression (from 0.0 to 1.0, which may be inverted with the *Invert* option),
@@ -196,8 +181,7 @@ Crease Angle
 ------------
 
 .. figure:: /images/render_freestyle_line-style_alpha_crease-angle_example.png
-   :width: 400px
-   :align: center
+   :width: 430px
 
    Crease Angle modifier demo by T.K.
    `File:Render_freestyle_modifier_crease_angle.blend
@@ -207,9 +191,7 @@ A modifier based on the Crease Angle (angle between two adjacent faces). If a st
 (i.e., the edge does not have the *Crease Angle nature*,
 its alpha value is not touched by this modifier.
 
-.. figure:: /images/render-freestyle_ui_alpha_crease_angle.png
-   :width: 300px
-   :align: right
+.. figure:: /images/render_freestyle_line-style_alpha_crease-angle.png
 
 Mapping
    Either a linear progression (from 0.0 to 1.0, which may be inverted with the *Invert* option),
