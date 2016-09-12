@@ -63,21 +63,26 @@ In this case, some faces map to the first texture,
 while other faces map to the second texture.
 
 
-UV Textures List
-================
+.. _uv-maps-panel:
 
-.. figure:: /images/uv-editing-mesh-panel.jpg
+UV Maps Panel
+=============
 
-The Mesh panel lists the UV Texture maps created for this mesh,
-and allows you to create New ones as placeholders for future unwrapping operations.
+.. figure:: /images/editors_3dview_object_properties_uvmaps.png
 
-Click the *+* button to add a new UV texture, and the *-* to delete an existing one.
-Deleting a UV Map for the mesh destroys all work done in all unwrapping associated the mesh.
+   The UV Maps panel in the Mesh tab.
 
-Each map has a selector button. Click the camera icon to enable that UV texture for rendering.
-You can change the name by selecting one and changing the text in the *Name* box.
+In the Mesh tab the UV maps panel contains a :ref:`ui-list-view` that lists the UV maps created for this mesh.
 The selected map is displayed in the UV/Image Editor.
-The example shows a few UV maps created for a character, and the map for Clothes is selected.
 
-Note that each texture can be mapped to a specific UV texture.
-See the :doc:`Mapping </render/blender_render/textures/properties/mapping>` section of the texture panel.
+Active Render
+   Click the camera icon to enable that UV texture for rendering.
+
+Add ``+``
+   Clicking the *Add* button duplicates the selected UV map.
+
+
+.. seealso::
+
+   Note that each texture can be mapped to a specific UV texture.
+   See the :doc:`Mapping </render/blender_render/textures/properties/mapping>` panel of the texture tab.
