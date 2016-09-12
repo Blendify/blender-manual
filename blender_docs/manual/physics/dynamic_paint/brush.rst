@@ -47,7 +47,7 @@ each having individual settings for further tweaking:
 Mesh Volume
    This the default option. Brush affects all surface point inside the mesh volume.
 
-   .. figure:: /images/dynamicpaint-guide-brush_volume.png
+   .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume.png
 
       Source: Mesh Volume.
 
@@ -57,7 +57,7 @@ Proximity
 
    Proximity falloff type can be "Smooth", "Sharp" or tweaked with a color ramp.
 
-   .. figure:: /images/dynamicpaint-guide-brush_proximity.jpg
+   .. figure:: /images/physics_dynamic-paint_brush_source_proximity.png
 
       Source: Proximity. Brush affects all canvas pixels around it.
 
@@ -65,7 +65,7 @@ Project
    Projects brush to the canvas from a defined direction.
    Basically this can be considered as "direction aligned" proximity.
 
-   .. figure:: /images/dynamicpaint-brush-proximity-project.jpg
+   .. figure:: /images/physics_dynamic-paint_brush_source_project.png
 
       "Project" setting enabled. See how brush only affects canvas in normal direction.
 
@@ -80,19 +80,19 @@ Mesh Volume + Proximity
 
    .. list-table::
 
-      * - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity.jpg
+      * - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-1.png
 
              "Volume + Proximity" brush with no additional settings.
 
-        - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity_inner.jpg
+        - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-2.png
 
              Inner Proximity. Proximity falloff is now visible inside the volume.
 
-      * - .. figure:: /images/dynamicpaint-brush-negate-volume.jpg
+      * - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-3.png
 
              Negate Volume. Inner side of the volume has become completely transparent.
 
-        - .. figure:: /images/dynamicpaint-brush-negate-volume-and-inner.jpg
+        - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-4.png
 
              Inner Proximity and Negate Volume enabled together.
 
@@ -100,16 +100,16 @@ Object Center
    Instead of calculating proximity to the brush object mesh, which can be quite slow in some cases,
    only distance to only center is calculated. This is much faster and often good enough.
 
-   .. figure:: /images/dynamicpaint-guide-brush_objectcenter.png
+   .. figure:: /images/physics_dynamic-paint_brush_source_object-center.png
 
-      :menuselection:`Brush Source --> Object Center`.
+      Source: Object Center.
 
 Particle System
    Brush influence is defined by particles from a selected particle system.
 
-   .. figure:: /images/dynamicpaint-guide-brush_particlesystem.png
+   .. figure:: /images/physics_dynamic-paint_brush_source_particle-system.png
 
-      :menuselection:`Brush Source --> Particle System`.
+      Source: Particle System.
 
 
 Velocity Panel
