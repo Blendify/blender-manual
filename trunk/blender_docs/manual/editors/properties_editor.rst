@@ -32,20 +32,15 @@ These tabs are used to add features, and to change properties for the Active Sce
 
 .. _properties-render-tab:
 
-Render
-   Everything related to :doc:`/render/output/index` (dimensions, anti-aliasing, performance etc).
-   See :doc:`/render/index`.
-Render Layers
-   Render Layers and Passes.
-Scene
-   Gravity, Units to use, Keying Sets, Color Management, Audio settings, Physics, and scene simplification options.
-   See :doc:`/data_system/scenes/properties` and :doc:`/animation/keyframes/keying_sets`.
-World
-   Environmental lighting, sky, mist and Ambient Occlusion.
+- :doc:`Render </render/output/index>` and
+  :doc:`settings BI </render/blender_render/settings/index>`, :doc:`settings Cycles </render/cycles/settings/index>`
+- :doc:`/render/post_process/layers`
+- :doc:`Scene </data_system/scenes/properties>`
+- :doc:`World BI </render/blender_render/world/index>`, :doc:`World Cycles </render/cycles/world>`
 
 
-Object Data
------------
+Object & Object Data
+--------------------
 
 These tabs are used to add features, and to change properties for the Active Object
 (and other active elements, material, curve... etc).
@@ -57,39 +52,41 @@ These tabs are used to add features, and to change properties for the Active Obj
 
 The Object Data tabs shown depend on what type of object was selected last (The Active Object).
 
-.. Features unique to the object type are usually added to the Data and Bone tabs, highlighted in yellow.
+- :doc:`Object </editors/3dview/object/properties/index>`
+- :doc:`/rigging/constraints/index`
+- :doc:`/modeling/modifiers/index`
 
-Object
-   Transformations, display options, visibility settings (via layers)
-   duplication settings and animation information (regarding Object position).
-   See :doc:`Object Properties </editors/3dview/object/properties/index>`. 
-Constraints
-   Used to control an Object’s transform (position, rotation, scale),
-   tracking and relationship properties.
-   See :doc:`Constraints </rigging/constraints/index>`.
-Modifiers
-   Array, Mirror, Subdivision Surface, Armature, Cast.
-   See :doc:`/modeling/modifiers/index`.
-Object Data
-   Settings for the objects data, depending on the Object Type.
-Bone
-   Armature Bone settings.
-Bone Constraints
-   Armature Bone constraints.
-Materials
-   Properties of the surface (color, specularity, transparency, etc).
-Textures
-   Used by materials, world and brushes to provide additional details.
-Particles
-   Hair and Emitter particles. See :doc:`/physics/particles/index`.
-Physics
-   Properties relating to Cloth, Force Fields, Collision, Fluid and Smoke Simulation.
-   See :doc:`/physics/index`.
+..
+
+- :doc:`Mesh </editors/3dview/object/types/meshes/object_data>`
+- :doc:`Curve </modeling/curves/properties>`
+- :doc:`Surface </modeling/surfaces/introduction>`
+- :doc:`Metaball </modeling/metas/properties>`
+- :doc:`Text </modeling/texts/properties>`
+- :doc:`Empty </editors/3dview/object/types/empties>`
+
+..
+
+- :doc:`Armature </rigging/armatures/properties>`
+- :doc:`Bones </rigging/armatures/bones/properties>`
+- Bone Constraints
+- :doc:`Lattice </editors/3dview/object/types/lattice>`
+
+..
+
+- :doc:`Speaker </editors/3dview/object/types/speaker>`
+- :doc:`Camera BI </editors/3dview/object/types/camera/object_data>`, :doc:`Camera Cycles </render/cycles/camera>`
+- :doc:`Lamp BI </render/blender_render/lighting/lights/light_properties>`, :doc:`Lamp Cycles </render/cycles/lamps>`
+
+..
+
+- :doc:`Material BI </render/blender_render/materials/index>`, :doc:`Material Cycles </render/cycles/materials/index>`
+- :doc:`Texture BI </render/blender_render/textures/index>`, :doc:`Texture Cycles </render/cycles/materials/texture_editing>`
+- :doc:`Particles </physics/particles/properties/index>`
+- :doc:`Physics </physics/index>`
 
 
 .. (todo) Generic Object Data page?
-   ::
-   object: modeling
 
 
 Main View
