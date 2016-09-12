@@ -18,6 +18,7 @@ TODO.
 Vertex Groups
 =============
 
+
 TODO.
 
 
@@ -29,6 +30,8 @@ TODO.
 
 UV Maps
 =======
+
+See :ref:`uv-maps-panel`.
 
 TODO.
 
