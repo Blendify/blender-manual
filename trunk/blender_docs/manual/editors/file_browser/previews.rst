@@ -86,4 +86,4 @@ Batch-Clear Previews
 
       .. note::
 
-         If you are generating previews for large file make sure to watch the amount of disk space.
+         If you are generating previews for large files make sure to watch the amount of disk space.

@@ -11,7 +11,7 @@ This tab allows to search, install, enable and disable Add-ons.
 Searching
 =========
 
-Blender comes with some useful Add-ons already, ready to be enabled, but you can also add your own,
+Blender comes with some useful Add-ons already, ready to be enabled. But you can also add your own,
 or any interesting ones you find on the web.
 
 .. figure:: /images/user_prefs-addons_tab.png
@@ -27,7 +27,7 @@ an index of Add-ons that are included with Blender as well as listing a number o
 Enabling and Disabling
 ======================
 
-Enable and disable and add-on by checking or unchecking the box on the right of the add-on you chose,
+Enable and disable an add-on by checking or unchecking the box on the right of the add-on you chose,
 as shown in the figure.
 
 .. figure:: /images/extensions-python-addons-enabledaddon.png
@@ -40,7 +40,7 @@ check the :doc:`Console window </advanced/command_line/introduction>`
 for any errors, that may have occurred.
 
 You can click the arrow at the left of the add-on box to see more information, such as
-where it is located, a description and a link to the documentation.
+its location, a description and a link to the documentation.
 Here you can also find a button to report a bug specific of this add-on.
 
 .. tip:: Saving Add-on Preferences
@@ -55,7 +55,7 @@ Installation of a 3rd party Add-on
 For add-ons that you found on the web or your own to show on the list, you have to install them first
 by clicking *Install from File...* and providing a ``.zip`` or ``.py`` file.
 
-Now the add-on will be installed, not not automatically enabled.
+Now the add-on will be installed, not automatically enabled.
 The search field will be set to the add-ons name (to avoid having to look for it).
 Enable the add-on by turning on the check-box.
 
@@ -74,7 +74,7 @@ You can also create a personal directory containing new add-ons and configure yo
 the *File* tab of the *User Preferences*.
 To create a personal script directory:
 
-- Create an empty directory in a loction of your choice (i.e. ``my_scripts``).
+- Create an empty directory in a location of your choice (i.e. ``my_scripts``).
 - Add a subdirectory under ``my_scripts`` called ``addons``
   (it *must* have this name for Blender to recognize it).
 - Open the *File* tab of the *User Preferences*.

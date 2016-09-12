@@ -85,7 +85,7 @@ Lamp and Camera.
 
 
 - All objects exist in a context and there can be various modes under which they are operated upon.
-- At any instance, only one object is active and there can be more than one selected objects.
+- At any instance, only one object is active and there can be more than one selected object.
 - All objects are data in the blend-file.
 - There are operators/functions that create and modify these objects.
 
@@ -110,7 +110,7 @@ Try it out!
 ^^^^^^^^^^^
 
 bpy.context.mode
-   Will print the current 3D View mode (Object, Edit, Sculpt etc.,)
+   Will print the current 3D View mode (Object, Edit, Sculpt etc.,).
 
 bpy.context.object or bpy.context.active_object
    Will give access to the active object in the 3D View.
@@ -188,7 +188,7 @@ bpy.data
 blend-file.
 
 You can access following data in the current blend-file:
-objects, meshes, materials, textures, scenes, screens, sounds, scripts, ... etc.
+objects, meshes, materials, textures, scenes, screens, sounds, scripts, etc.
 
 That is a lot of data.
 
@@ -227,7 +227,7 @@ bpy.ops
 -------
 
 The tool system is built around the concept of operators.
-Operators are typically executed from buttons or menus but can also be be called directly from Python too.
+Operators are typically executed from buttons or menus but can be called directly from Python too.
 
 See the `bpy.ops <https://www.blender.org/api/blender_python_api_current/bpy.ops.html>`__ API documentation
 for a list of all operators.
@@ -255,8 +255,8 @@ We create a reference to the operator that is used for creating a cube mesh prim
    add_cube = bpy.ops.mesh.primitive_cube_add
 
 
-Now in a for loop, we create the five objects like this (In the screenshot above,
-another method is used)
+Now in a *for loop*, we create the five objects like this (In the screenshot above,
+another method is used) :
 Press :kbd:`Return` twice after entering the command at the shell prompt.
 
 .. code-block:: python

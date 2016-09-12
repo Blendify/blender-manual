@@ -39,7 +39,7 @@ This limits the possibilities a bit, but we believe overall it is helpful in cre
 consistent-looking renders with fewer parameters to tune.
 
 For glossy :abbr:`BSDF (Bidirectional scattering distribution function)` s,
-*roughness* parameters control the sharpness of the reflection, from 0.0 (perfectly sharp)
+the *roughness* parameter controls the sharpness of the reflection, from 0.0 (perfectly sharp)
 to 1.0 (very soft). Compared to *hardness* or *exponent* parameters,
 it has the advantage of being in the range 0.0..1.0,
 and as a result gives more linear control and is more easily textureable.
