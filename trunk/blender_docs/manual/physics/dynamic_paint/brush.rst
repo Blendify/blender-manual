@@ -3,7 +3,7 @@
 Dynamic Paint Brush
 *******************
 
-.. figure:: /images/physics_dynamic-paint_brush.png
+.. figure:: /images/physics_dynamic-paint_brush_main-panel.png
 
    Brush main panel.
 
@@ -33,7 +33,7 @@ Alpha
 Source Panel
 ============
 
-.. figure:: /images/dynamicpaint-guide-brush_source.jpg
+.. figure:: /images/physics_dynamic-paint_brush_source-panel.png
 
    Brush source panel.
 
@@ -115,7 +115,7 @@ Particle System
 Velocity Panel
 ==============
 
-.. figure:: /images/dynamicpaint-guide-brush-velocity.png
+.. figure:: /images/physics_dynamic-paint_brush_velocity-panel.png
 
    Velocity panel.
 
@@ -148,7 +148,7 @@ Smudge settings
 Waves Panel
 ===========
 
-.. figure:: /images/dynamicpaint-guide-brush-waves.png
+.. figure:: /images/physics_dynamic-paint_brush_waves-panel.png
 
    Brush Waves panel.
 

@@ -1,5 +1,3 @@
-.. |render-button| image:: /images/icons_render.png
-   :width: 2.2em
 
 *************
 OpenGL Render
@@ -16,16 +14,16 @@ in the event your scene is too complex for your system to play back in real-time
 You can use OpenGL to render both images and animations.
 
 Below is a comparison between the OpenGL render and a final render using
-the Blender Internal engine.
+the Cycles Render engine.
 
 .. list-table::
 
-   * - .. figure:: /images/opengl_rendered.jpg
+   * - .. figure:: /images/render_opengl_example-opengl-render.jpg
           :width: 320px
 
           OpenGL Render.
 
-     - .. figure:: /images/render_opengl_example_final.jpg
+     - .. figure:: /images/render_opengl_example-cycles-render.jpg
           :width: 320px
 
           Full Render.
@@ -63,7 +61,12 @@ Rendering
 Activating OpenGL render from the menu will render from the active camera.
 
 You can also render any view-port, from the header of the *3D View*,
-using the small button showing a *Camera* (|render-button|).
+using the small button showing a *Camera*.
+
+.. figure:: /images/render_opengl_view-port-render-buttons.png
+
+   OpenGL Render buttons.
+
 
 As with a normal render, you can abort it with :kbd:`Esc`.
 

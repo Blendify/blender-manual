@@ -3,7 +3,7 @@
 Dynamic Paint Canvas
 ********************
 
-.. figure:: /images/physics_dynamic-paint_canvas_main.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_main-panel.png
    :align: right
 
    Canvas main panel.
@@ -40,7 +40,7 @@ Sub-steps are extra samples between frames, usually required when there is a ver
 Advanced Panel
 ==============
 
-.. figure:: /images/dynamic-paint_canvas_advanced.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_advanced-panel.png
    :align: right
 
    Canvas advanced panel.
@@ -157,7 +157,7 @@ It outputs vertex weight groups that can be used by other Blender modifiers and 
 Output Panel
 ============
 
-.. figure:: /images/physics_dynamic-paint_canvas_output.png
+.. figure:: /images/physics_dynamic-paint_canvas_output-panel.png
 
    Canvas output panel.
 
@@ -176,7 +176,7 @@ you can define used "UV Layer" and output file saving directory, filenames and i
 Effects Panel
 =============
 
-.. figure:: /images/dynamic-paint_canvas_effects.png
+.. figure:: /images/physics_dynamic-paint_canvas_effects-panel.png
 
    Canvas effects panel.
 
@@ -200,7 +200,7 @@ movement becomes slower until it stops.
 Cache Panel
 ===========
 
-.. figure:: /images/physics_dynamic-paint_cache.png
+.. figure:: /images/physics_dynamic-paint_canvas_cache-panel.png
 
    Canvas cache panel.
 

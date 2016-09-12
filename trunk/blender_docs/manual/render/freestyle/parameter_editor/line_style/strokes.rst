@@ -110,6 +110,10 @@ Square
    A square centered on the end point of the line (hence, like the circle,
    the drawn end of the line is slightly extended compared to its computed value).
 
+.. figure:: /images/render_freestyle_line-style_stroke_caps_example.png
+
+   Line caps example.
+
 
 Dashed Line
 ===========

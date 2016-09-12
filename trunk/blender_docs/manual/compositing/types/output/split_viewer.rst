@@ -37,3 +37,10 @@ This node has no output sockets.
 
    This node could be used to plan scene transitions by comparison of the end frame of one scene
    with the start frame of another to make sure that they align.
+
+Examples
+========
+
+.. figure:: /images/compositing_nodes_color_gamma_example.jpg
+
+   Example of Split Viewer node.

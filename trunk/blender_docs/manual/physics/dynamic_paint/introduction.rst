@@ -13,7 +13,7 @@ paint that sticks to walls, or objects that gradually freeze.
 
 This guide explains the very basics of Dynamic Paint user interface and general features.
 
-.. figure:: /images/dynamicpaint-guide-howto.png
+.. figure:: /images/physics_dynamic-paint_introduction.png
 
    How to activate the Dynamic Paint.
 
