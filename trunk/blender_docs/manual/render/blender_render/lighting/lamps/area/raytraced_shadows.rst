@@ -32,7 +32,7 @@ Sample Generator Types
 
 Adaptive QMC / Constant QMC
    These common setting are described in
-   :doc:`Shadow Properties </render/blender_render/lighting/shadows/properties>`.
+   :doc:`/render/blender_render/lighting/shadows/shadow_panel`.
 
 Constant Jittered
    The *Area* lamp has a third sample generator method, *Constant Jittered*,

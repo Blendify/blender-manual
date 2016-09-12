@@ -40,7 +40,7 @@ and *Sun* light has the ability to cast ray shadows, but not buffer shadows.
 The *Spot* light can cast both, whereas the *Hemi* light does not cast any.
 If a *Sun* lamp is pointing sideways, it will not cast a shadow from a sphere above a plane onto the plane,
 since the light is not traveling that way. All lamps able to cast shadows share some common options,
-described :doc:`here </render/blender_render/lighting/shadows/properties>`.
+described in the :doc:`/render/blender_render/lighting/shadows/shadow_panel`.
 
 Just to give you more shadow options (and further confuse the issue),
 lamps and materials can be set to respectively **only** cast and receive shadows,
