@@ -1,6 +1,6 @@
 
 ************
-Shadow panel
+Shadow Panel
 ************
 
 .. figure:: /images/lighting-shadow-common-properties.png
