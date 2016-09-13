@@ -1,103 +1,112 @@
 
-*******
-Options
-*******
+*****
+Tools
+*****
 
-Brushes Settings
-================
 
-Press :kbd:`T` in the UV/Image Editor to show the Tool Shelf. With this panel,
-you can create many brushes, each with unique settings (such as color and width).
-Use the Brush data-block menu to switch between brushes, or to create a new brush.
-When you add a brush, the new brush is a clone of the current one.
-You can then change the setting for the new brush. Texture paint has an unlimited number of
-brushes and unique user-defined controls for those brushes which can be set in the Paint Tool
-panel.
+Open the Tool Shelf in the 3D View or UV/Image Editor .
 
-To use a brush, click on its name. Use the selector up/down arrow,
-if there are more brushes on the fly-out menu than can be displayed at once.
-Name your brush by clicking on the name field and entering any name you wish,
-such as "Red Air" for a red airbrush. To toss out a brush,
-click the brush delete *X* button next to its name.
-If you want to keep this brush around for the next time you run Blender,
-click the Fake user *F* button next to the brush delete *X* button.
-
-If you have a tablet pen with pressure sensitivity,
-toggle the small *P* button next to the opacity, size,
-falloff and spacing buttons to control these parameters using the pressure of the pen.
-Using your pen's eraser end will toggle on the Erase Alpha mode.
 
 Press :kbd:`S` on any part of the image to sample that color and set it as the brush
 color.
 
 
 Brush
------
+=====
 
 .. figure:: /images/texture-painting-brush.jpg
    :width: 200px
 
    Brush Settings.
 
+With this panel, you can create many brushes, each with unique settings (such as color and width).
 
-Brush presets
-   Select a preset brush. Most brushes have common settings.
+Brush
+   :ref:`ui-data-block` to select a preset `Brush Types` or a custom brush.
+
+    Add ``+``
+      When you add a brush, the new brush is a clone of the current one.
+
+.. note::
+
+   In order to save in a blend-user a custom brush set a Fake User.
 
 
-Types of brushes
-^^^^^^^^^^^^^^^^
+Common
+-------------
 
-There are four different types of brushes.
+Most brushes have common settings.
 
-Brush Types
-   Draw
-      The normal brush; paints a swath of color.
-   Soften
-      Blends edges between two colors.
-   Smear
-      When you click, takes the colors under the cursor, and blends them in the direction you move the mouse.
-      Similar to the "smudge" tool of *Gimp*.
-   Clone
-      Copies the colors from the image specified (Tex.Dirt in the example), to the active image.
-      The background image is shown when this brush is selected;
-      use the *B* lend slider to control how prominent the background image is.
-
-Enable Pressure Sensitivity
-   The icon to the right of the following three settings will enable or disable
-   tablet pressure sensitivity to control how strong the effect is.
 Color
    The color of the brush.
 Radius
    The radius of the brush in pixels.
 Strength
    How powerful the brush is when applied.
+Pressure Sensitivity
+   The icon (hand and bulged in blue line) to the right of the following three settings will enable or disable
+   tablet pressure sensitivity to control how strong the effect is.
+
 Blend
-   Set the way the paint is applied over the underlying texture.
+   Set the way the paint is applied over the underlying color. See :term:`Color Blend Modes`.
 
+   - Add Alpha: makes the image more opaque where painted.
+   - Erase Alpha: makes the image transparent where painted,
+     allowing background colors and lower-level textures to show through.
+     As you 'paint', the false checkerboard background will be revealed.
+     Using a table pen's eraser end will toggle on this mode.
+   - Luminosity
+   - Exclusion
+   - Vivid light
+   - Pin light
 
-- Mix: the brush color is mixed in with existing colors.
-- Add: the brush color is added to the existing color; green added to red gives yellow.
-- Subtract: the brush color is subtracted; painting blue on purple gives red.
-- Multiply: the RGB value of the base is multiplied by the brush color.
-- Lighten: the RGB value of the base color is increased by the brush color.
-- Darken: tones down the colors.
-- Erase Alpha: makes the image transparent where painted,
-  allowing background colors and lower-level textures to show through.
-  As you 'paint', the false checkerboard background will be revealed.
-- Add Alpha: makes the image more opaque where painted.
+   .. tip::
 
-   In order to see the effects of the Erase and Add Alpha mix modes in the UV/Image Editor,
-   you must enable the alpha channel display by clicking the Display Alpha or the Alpha-Only button.
-   Transparent (no alpha) areas will then show a checkered background.
+      In order to see the effects of the Erase and Add Alpha mix modes in the UV/Image Editor,
+      you must enable the alpha channel display by clicking the Display Alpha or the Alpha-Only button.
+      Transparent (no alpha) areas will then show a checkered background.
 
-Image
-   When using the clone brush, this allows you to select an image as a clone source.
 Alpha
    Opacity of the clone image display.
 
 
+Brush Types
+-----------
+
+Draw
+^^^^
+
+The normal brush; paints a swath of color.
+
+
+Soften
+^^^^^^
+
+Blends edges between two colors.
+
+
+Smear
+^^^^^
+
+When you click, takes the colors under the cursor, and blends them in the direction you move the mouse.
+Similar to the "smudge" tool of *Gimp*.
+
+
+Clone
+^^^^^
+
+Copies the colors from the image specified (Tex.Dirt in the example), to the active image.
+
+Clone from paint slot
+   The background image is shown when this brush is selected;
+   use the *Strength* slider to control how prominent the background image is.
+
+   Source Clone Slot
+      When using the clone brush, this allows you to select an image as a clone source.
+
+
 Texture
--------
+=======
 
 .. figure:: /images/texture-painting-brushtexture.jpg
    :width: 250px
@@ -152,8 +161,14 @@ Size
    Set the scale of the texture in each axis.
 
 
+Texture Mask
+============
+
+TODO.
+
+
 Stroke
-------
+======
 
 Stroke Method
    Allows set the way applying strokes.
@@ -178,7 +193,7 @@ Smooth stroke
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
    Radius
-      Sets the minimun distance from the last point before stroke continues.
+      Sets the minimum distance from the last point before stroke continues.
    Factor
       Sets the amount of smoothing.
 Input Samples
@@ -189,7 +204,7 @@ Wrap
 
 
 Curve
------
+=====
 
 The paint curve allows you to control the falloff of the brush.
 Changing the shape of the curve will make the brush softer or harder.
@@ -199,8 +214,11 @@ Changing the shape of the curve will make the brush softer or harder.
    Read more about using the :ref:`ui-curve-widget`.
 
 
-Paint options
-=============
+Options
+=======
+
+Options tab.
+
 
 Overlay
 -------
@@ -213,3 +231,9 @@ Appearance
 
 Allows you to customize the color of the brush radius outline,
 as well as specify a custom icon.
+
+
+Project Paint
+-------------
+
+TODO.
