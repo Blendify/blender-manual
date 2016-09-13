@@ -102,46 +102,40 @@ so you only can create a new surface by copying (`Duplication`_) an existing one
 Examples
 ^^^^^^^^
 
-Images Fig. :ref:`fig-surface-edit-select-control` to Fig. :ref:`fig-surface-edit-select-complete`
+Images Fig. :ref:`fig-surface-edit-select-point` to Fig. :ref:`fig-surface-edit-extruding`
 show a typical extrusion along the side of a surface.
 
-In Fig. :ref:`fig-surface-edit-select-control` and Shift-R,
+In Fig. :ref:`fig-surface-edit-select-point` and :ref:`fig-surface-edit-select-row`,
 a border row of control points were highlighted by selecting a single control point,
 and then using the handy row select tool :kbd:`Shift-R`
 to select the rest of the control points.
 
-.. _fig-surface-edit-select-control:
-
-.. figure:: /images/modeling_surfaces_editing_selecting.png
-
-   Selecting control-point.
-
-
 .. list-table::
 
-* - .. figure:: /images/modeling_surfaces_editing_selecting-point.png
+   * - .. _fig-surface-edit-select-point:
 
-       Selecting control-point.
+       .. figure:: /images/modeling_surfaces_editing_selecting-point.png
 
-  - .. figure:: /images/modeling_surfaces_editing_selecting-row.png
+          Selecting control-point.
 
-       Shift-R
+     - .. _fig-surface-edit-select-row:
+
+       .. figure:: /images/modeling_surfaces_editing_selecting-row.png
+
+          Shift-R
 
 
-The edge is then extruded using :kbd:`E` as shown in Fig. :ref:`fig-surface-edit-select-complete`.
-Notice how the mesh has bunched up next to the highlighted edge;
-the area in question is highlighted in a light-gray circular area.
+The edge is then extruded using :kbd:`E` as shown in Fig. :ref:`fig-surface-edit-extruding`.
+Notice how the mesh has bunched up next to the highlighted edge.
 That is because the *new* extruded surface section is bunched up there as well.
 
-.. _fig-surface-edit-select-complete:
+.. _fig-surface-edit-extruding:
 
 .. figure:: /images/modeling_surfaces_editing_extruding.png
 
-   Extruding Compete.
+   Extruding.
 
 By moving the new section away from the area, the surface begins to "unbunch".
-The direction of movement is marked with a white arrow, labeled "E",
-and the new section is labeled "S".
 
 You can continue this process of extruding or adding
 new surface sections until you have reached the final shape for your model.
@@ -243,10 +237,10 @@ Example
    Before and after.
 
 
-In Fig. Before a row of control points has been selected by initially selecting the control point labeled "A"
-and using :kbd:`Shift-R` to select the remaining control points.
-Then, using the *Delete Menu* :kbd:`X`,
-the *selected* row of control points is erased, resulting in Fig. After.
+In Fig. *Before and after (left)* a row of control points has been selected by initially
+selecting the one control point and using :kbd:`Shift-R` to select the remaining
+control points. Then, using the *Delete Menu* :kbd:`X`,
+the *selected* row of control points is erased, resulting in Fig. *Before and after (right)*.
 
 
 Joining or Merging Surfaces
@@ -294,9 +288,19 @@ Fig. Joining ready is an example of two NURBS surface curves, **not** NURBS curv
 in *Edit Mode*, ready to be joined.
 Fig. Joining complete is the result of joining the two curves.
 
-.. figure:: /images/modeling_surfaces_editing_joining.png
+.. list-table::
 
-   Joining ready and Joining complete.
+   * - .. _fig-surface-edit-join-ready:
+
+       .. figure:: /images/modeling_surfaces_editing_joining-ready.png
+
+          Joining ready.
+
+     - .. _fig-surface-edit-join-complete:
+
+       .. figure:: /images/modeling_surfaces_editing_joining-complete.png
+
+          Joining complete.
 
 
 Subdivision
