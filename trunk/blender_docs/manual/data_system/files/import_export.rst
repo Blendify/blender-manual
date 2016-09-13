@@ -11,7 +11,7 @@ These formats can be accessed from the menus:
 Popular formats are enabled by default,
 other formats are also supported and distributed with Blender,
 these can be enabled in the user-preferences
-through the use of :doc:`Add-ons </advanced/scripting/python/addons>`.
+through the use of :doc:`Add-ons </preferences/addons>`.
 
 A list of these add-ons can be found on the
 `Blender Add-ons Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Import-Export_Scripts>`__

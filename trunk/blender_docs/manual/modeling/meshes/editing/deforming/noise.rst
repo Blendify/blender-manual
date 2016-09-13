@@ -15,7 +15,6 @@ Noise
    is a non-destructive alternative to the Noise tool and is a more flexible way to realize these sort of effects.
    The key advantages of the modifier are that it can be canceled at any moment,
    you can precisely control how much and in which direction the displacement is applied, and much more...
-   See also the "ANT Landscape" :doc:`add-on </advanced/scripting/python/addons>`.
 
 
 The *Noise* function allows you to displace vertices in a mesh based on the gray

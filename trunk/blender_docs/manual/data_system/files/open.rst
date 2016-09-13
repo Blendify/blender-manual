@@ -44,7 +44,7 @@ Trusted Source
    When enabled, Python scripts and drivers that may be included in the file will be run automatically.
    Enable this only if you created the file yourself,
    or you trust that the person who gave it to you did not include any malicious code with it.
-   See :doc:`Python Security </advanced/scripting/python/security>` to configure default trust options.
+   See :doc:`Python Security </advanced/scripting/security>` to configure default trust options.
 
 
 .. _other-file-open-options:

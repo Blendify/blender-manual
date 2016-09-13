@@ -80,7 +80,7 @@ Excluded Paths
 
 .. seealso::
 
-   :doc:`Python Security </advanced/scripting/python/security>`
+   :doc:`Python Security </advanced/scripting/security>`
 
 
 .. _prefs-save-load:
