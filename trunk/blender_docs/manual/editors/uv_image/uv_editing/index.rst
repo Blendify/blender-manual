@@ -8,7 +8,7 @@
 
    introduction.rst
    overview.rst
-   unwrap/index.rst
+   unwrapping/index.rst
    layout_management.rst
    selecting.rst
    layout_editing.rst
