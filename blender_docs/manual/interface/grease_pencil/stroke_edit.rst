@@ -19,18 +19,8 @@ The basic steps are:
 #. Move and reshape them.
 
 
-Edit Mode
----------
-
-Enable Editing
-   Enters or exits the edit mode :kbd:`D-Tab`.
-
-While in the grease pencil editing mode,
-Blender redirects the common editing keys to operate on the grease pencil layer instead of the 3D scene components.
-
-
-Select
-------
+Selecting
+=========
 
 Grease pencil strokes are formed from a series of connected vertex points.
 To make changes, first select points on the strokes that you want to edit.
@@ -66,8 +56,15 @@ Various selection functions similar to those available when editing meshes can b
      - :kbd:`Alt-LMB`
 
 
-Edit
-----
+Edit Strokes Panel
+==================
+
+Copy
+   Copies selected Grease Pencil points and strokes.
+Paste
+   Pastes the previously copied strokes.
+Paste & Merge
+   Pastes the previously copied strokes and merge in active layer.
 
 Delete :kbd:`X`
    Points
@@ -81,52 +78,53 @@ Delete :kbd:`X`
 Duplicate :kbd:`Shift-D`
    Make a copy of the selected points at the same location. Use the mouse to *Translate* them into position.
    :kbd:`LMB` places them at their new position. :kbd:`RMB` cancels and removes the duplicates.
-Translate: :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`
-   Move the selected points with the mouse. :kbd:`LMB` places them at their new position.
-   Refine these operations with *Pivot Center*, *View* or *Global* transform orientations,
-   snap to *Increment* and *Proportional Editing* detailed in the general
-   :doc:`Transformations Instructions </editors/3dview/transform/index>`.
-Mirror :kbd:`Ctrl-M`, Bend :kbd:`Shift-W`, Shear :kbd:`Shift-Ctrl-Alt-S`, To Sphere :kbd:`Shift-Alt-S`
-   These are similar to the equivalent mesh operations detailed in
-   :doc:`Deforming Instructions </modeling/meshes/editing/deforming/index>`.
+Toggle Cyclic
+   Close or open the selected stroke by adding an edge from the last to first point.
+
+Bend :kbd:`Shift-W`
+   Bends selected item between the 3D cursor and the mouse.
+Mirror :kbd:`Ctrl-M`
+   Mirrors selected strokes along one or more axises.
+Shear :kbd:`Shift-Ctrl-Alt-S`
+   Shears selected items along the horizontal screen axis.
+To Sphere :kbd:`Shift-Alt-S`
+   Move selected vertieces outward in a spherical shape around the midpoint.
 
 
-Sensitivity When Drawing
-========================
+Arrange Strokes
 
-The default settings for the sensitivity of mouse/stylus movement when drawing have been set
-to reduce jitter while still allowing fine movement. However, if these are not appropriate
-they can be altered in :menuselection:`User Preferences --> Editing --> Grease Pencil`.
+Move to Color
 
-Manhattan Distance
-   The minimum number of pixels the mouse should have moved either
-   horizontally or vertically before the movement is recorded.
-   Decreasing this should work better for curvy lines.
-Euclidean Distance
-   The minimum distance that the mouse should have traveled before movement is recorded.
-Eraser Radius
-   The size of the eraser "brush".
-Smooth Stroke
-   This turns on the post-processing step of smoothing the stroke to remove jitter.
-   It is only relevant when not drawing straight lines. By default this is enabled.
-   It should be noted that it can often cause "shrinking" of drawings,
-   and may be turned off if the results are not desirable.
-Simplify Stroke
-   This turns on the post-processing step of simplifying the stroke to remove about half of current points in it.
-   It is only relevant when not drawing straight lines. By default this is disabled.
-   As with *Smooth Stroke*, it can often cause "shrinking" of drawings,
-   and loss of precision, accuracy and smoothness.
+Interpolate
+
+Sequence
+
+Interpolate All Layers
+
+Interpolate Selected Strokes
 
 
-.. tip:: Additional Notes For Tablet Users:
+Join Stokes
+   Type
+      Join
+         Joins selected strokes.
+      Join & Copy
+         Joins selected strokes as a new stroke.
+   Leave Gaps
+      Leaves gaps between joined strokes instead of linking them.
+Flip Direction
+   Flips the start and end of a stroke.
+Show Directions
+   Displays stroke drawing direection with a bigger green dot of the start point
+   and a smaller red dot for the end point.
 
-   - The thickness of a stroke at a particular point is affected
-     by the pressure used when drawing that part of the stroke.
-   - The "eraser" end of the stylus can be used to erase strokes.
+Reproject Strokes
+   Reprojects the selected strokes from the current viewpoint to get all points on the same plane again.
+   This can be useful to fix problem from accidental 3D cursor movement, or viewport changes.
 
 
-Brushes
-=======
+Sculpt Strokes Panel
+====================
 
 Several tools for editing Grease Pencil strokes are provided in the form of brushes which you can use to "paint"
 or "sculpt" the appearance of the strokes without having to keep doing a tedious select-tweak-select-tweak
@@ -188,3 +186,6 @@ Clone Brush
 
 Selection Mask
    Used to restrict the brush to only operating on the selected points.
+
+Alpha
+   Alpha value for selected vertices.
