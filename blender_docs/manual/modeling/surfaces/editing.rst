@@ -105,27 +105,39 @@ Examples
 Images Fig. :ref:`fig-surface-edit-select-control` to Fig. :ref:`fig-surface-edit-select-complete`
 show a typical extrusion along the side of a surface.
 
-In Fig. :ref:`fig-surface-edit-select-control` and :kbd:`Shift-R`,
+In Fig. :ref:`fig-surface-edit-select-control` and Shift-R,
 a border row of control points were highlighted by selecting a single control point,
-labeled "C", and then using the handy row select tool :kbd:`Shift-R`
+and then using the handy row select tool :kbd:`Shift-R`
 to select the rest of the control points.
 
 .. _fig-surface-edit-select-control:
 
-.. figure:: /images/nurbssurfaceselectedge.png
+.. figure:: /images/modeling_surfaces_editing_selecting.png
 
    Selecting control-point.
 
-The edge is then extruded using :kbd:`E` as shown in Fig. Extruding.
+
+.. list-table::
+
+* - .. figure:: /images/modeling_surfaces_editing_selecting-point.png
+
+       Selecting control-point.
+
+  - .. figure:: /images/modeling_surfaces_editing_selecting-row.png
+
+       Shift-R
+
+
+The edge is then extruded using :kbd:`E` as shown in Fig. :ref:`fig-surface-edit-select-complete`.
 Notice how the mesh has bunched up next to the highlighted edge;
 the area in question is highlighted in a light-gray circular area.
 That is because the *new* extruded surface section is bunched up there as well.
 
 .. _fig-surface-edit-select-complete:
 
-.. figure:: /images/nurbsextrude.png
+.. figure:: /images/modeling_surfaces_editing_extruding.png
 
-   Compete.
+   Extruding Compete.
 
 By moving the new section away from the area, the surface begins to "unbunch".
 The direction of movement is marked with a white arrow, labeled "E",
@@ -226,7 +238,7 @@ All
 Example
 ^^^^^^^
 
-.. figure:: /images/nurbsdeletingsegments.png
+.. figure:: /images/modeling_surfaces_editing_deleting.png
 
    Before and after.
 
@@ -282,7 +294,7 @@ Fig. Joining ready is an example of two NURBS surface curves, **not** NURBS curv
 in *Edit Mode*, ready to be joined.
 Fig. Joining complete is the result of joining the two curves.
 
-.. figure:: /images/nurbsjoin.png
+.. figure:: /images/modeling_surfaces_editing_joining.png
 
    Joining ready and Joining complete.
 
