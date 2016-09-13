@@ -25,6 +25,8 @@ is usually modified in the 3D View by selecting a shape key,
 then moving the object vertices to a new position.
 
 
+.. _animation-shape-keys-panel:
+
 Shape Keys Panel
 ================
 
@@ -34,65 +36,44 @@ Shape Keys Panel
    | Mode:     All modes
    | Panel:    :menuselection:`Properties editor --> Object Data --> Shape Keys`
 
-.. figure:: /images/shape_keys3.png
+.. figure:: /images/animation_shape-key-panel-basis.png
 
-   Shape Keys. Options.
+   Shape Keys panel.
 
+Active Shape Key Index
+   A :ref:`ui-list-view`.
+
+   Value
+      Current Value of the Shape Key (0.0 to 1.0).
+   Mute
+      This visually disables the shape key in the 3D View.
+
+   Specials
+      Transfer Shape Key
+         Transfer the active *Shape Key* from a different object.
+         Select two objects, the active Shape Key is copied to the active object.
+      Join as Shapes
+         Transfer the *Current Shape* from a different object.
+         Select two objects, the Shape is copied to the active object.
+      Mirror Shape Key
+         If your mesh is nice and symmetrical, in *Object Mode*, you can mirror the shape keys on the X axis.
+         This will nott work unless the mesh vertices are perfectly symmetrical.
+         Use the :menuselection:`Mesh --> Symmetrize` function in *Edit Mode*.
+      Mirror Shape Key (Topology)
+         This is the same as *Mirror Shape Key* though it detects
+         the mirrored vertices based on the topology of the mesh.
+         The mesh vertices do not have to be perfectly symmetrical for this one to work.
+      New Shape From Mix
+         Add a new shape key with the current deformed shape of the object.
+      Delete All Shapes
+         Delete all shape keys.
 
 Relative
    Set the shape keys to *Relative* or *Absolute*.
-Name
-   Name of the Shape Key.
-Value
-   Current Value of the Shape Key (0.0 to 1.0).
-Mute
-   This visually disables the shape key in the 3D View.
 
-Add
-   Add a new shape key to the list.
-Remove
-   Remove a shape key from the list.
-
-.. figure:: /images/animation_shape-keys_specials-menu.png
-   :align: right
-
-   Shape Keys Specials.
-
-
-Specials
-   A menu with some operators.
-
-   Transfer Shape Key
-      Transfer the active *Shape Key* from a different object.
-      Select two objects, the active Shape Key is copied to the active object.
-
-   Join as Shapes
-      Transfer the *Current Shape* from a different object.
-      Select two objects, the Shape is copied to the active object.
-
-   Mirror Shape Key
-      If your mesh is nice and symmetrical, in *Object Mode*, you can mirror the shape keys on the X axis.
-      This will nott work unless the mesh vertices are perfectly symmetrical.
-      Use the :menuselection:`Mesh --> Symmetrize` function in *Edit Mode*.
-
-   Mirror Shape Key (Topology)
-      This is the same as *Mirror Shape Key* though it detects
-      the mirrored vertices based on the topology of the mesh.
-      The mesh vertices do not have to be perfectly symmetrical for this one to work.
-
-   New Shape From Mix
-      Add a new shape key with the current deformed shape of the object.
-
-   Delete All Shapes
-      Delete all shape keys.
-
-Move
-   Move shape key up or down in the list.
-
-Show Active
+Show Only (pin icon)
    Show the shape of the active shape key in the 3D View.
-   *Show Active* is enabled while the object is in *Edit Mode*, unless the setting below is enabled.
-
+   *Show Only* is enabled while the object is in *Edit Mode*, unless the setting below is enabled.
 Edit Mode
    Modify the shape key settings while the object is in *Edit Mode*.
 
@@ -107,16 +88,13 @@ By default, all relative shape keys deform from the first shape key called the B
 
    Relative Shape Keys options.
 
-
-Clear Weights (X icon)
+Clear Weights ``X``
    Set all values to 0.
-Name
-   Name of the active shape key.
 Value
    The value of the active shape key.
 Range
    Min and Max range of the active shape key value.
-Blend:
+Blend
    Vertex Group
       Limit the active shape key deformation to a vertex group.
    Relative
@@ -133,7 +111,6 @@ They are mainly used to deform the object into different shapes over time.
 
    Absolute Shape Keys options.
 
-
 Reset Timing (clock icon)
    Reset the timing for absolute shape keys.
    For example, if you have the shape keys, Basis, Key_1, Key_2, in that order.
@@ -149,9 +126,6 @@ Reset Timing (clock icon)
    - Basis 10.0
    - Key_1 20.0
    - Key_2 30.0
-
-Name
-   Name of the active shape key.
 
 Interpolation
    This controls the interpolation between shape keys.

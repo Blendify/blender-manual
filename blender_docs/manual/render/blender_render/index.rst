@@ -5,7 +5,7 @@
 ########################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    materials/index.rst
    textures/index.rst

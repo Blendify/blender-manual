@@ -25,6 +25,8 @@ TODO.
 Shape Keys
 ==========
 
+See :ref:`animation-shape-keys-panel`.
+
 TODO.
 
 
