@@ -1,7 +1,7 @@
 
-***********
-Stroke Edit
-***********
+****************
+Stroke Edit Mode
+****************
 
 These tools let you move and reshape grease pencil strokes after they have been drawn.
 
@@ -14,7 +14,7 @@ Look for the tools in the Edit Strokes panel shown here:
 
 The basic steps are:
 
-#. Enter the Grease Pencil Edit Mode.
+#. Enter Stroke Edit Mode.
 #. Select some strokes.
 #. Move and reshape them.
 
@@ -118,12 +118,11 @@ Simplify Stroke
    and loss of precision, accuracy and smoothness.
 
 
-Additional Notes For Tablet Users
----------------------------------
+.. tip:: Additional Notes For Tablet Users:
 
-- The thickness of a stroke at a particular point is affected
-  by the pressure used when drawing that part of the stroke.
-- The "eraser" end of the stylus can be used to erase strokes.
+   - The thickness of a stroke at a particular point is affected
+     by the pressure used when drawing that part of the stroke.
+   - The "eraser" end of the stylus can be used to erase strokes.
 
 
 Brushes
