@@ -263,6 +263,16 @@ Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 (such as a list of materials used on the object).
 
 
+Preview
+^^^^^^^
+
+.. figure:: /images/ui_data_block_preview.png
+
+   The Data-Block menu with preview.
+
+In the Tool Shelf is a version of the data-block menu with a bigger preview.
+
+
 Pie Menus
 ---------
 
