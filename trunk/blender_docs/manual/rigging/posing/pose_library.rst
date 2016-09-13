@@ -17,13 +17,13 @@ Pose Libraries
    A :ref:`ui-list-view` of poses for the active Pose Library.
    
    Add ``+``
-   Add New
-      Adds a new pose to the active Pose Library with the current pose of the armature.
-   Add New (Current Frame).
-      Will add a pose to the Pose Library based on the current frame selected in the Time line.
-      In contrast to *Add New* and *Replace Existing* which automatically allocate a pose to an action frame.
-   Replace Existing
-      Replace an existing pose in the active Pose Library with the current pose of the armature.
+      Add New
+         Adds a new pose to the active Pose Library with the current pose of the armature.
+      Add New (Current Frame).
+         Will add a pose to the Pose Library based on the current frame selected in the Time line.
+         In contrast to *Add New* and *Replace Existing* which automatically allocate a pose to an action frame.
+      Replace Existing
+         Replace an existing pose in the active Pose Library with the current pose of the armature.
 Apply Pose
    Apply the active pose to the selected pose bones (magnifying glass icon).
 Sanitize Action
