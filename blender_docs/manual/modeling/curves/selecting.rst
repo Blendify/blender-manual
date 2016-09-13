@@ -4,6 +4,12 @@
 Selecting
 *********
 
+.. figure:: /images/modeling_curves_selecting.png
+   :align: right
+
+   Select Menu.
+
+
 Curve selection in *Edit Mode* is much less complex than with meshes! Mainly this is
 because you have only one selectable element type, the control points
 (no select mode needed here...). These points are a bit more complex than simple vertices,

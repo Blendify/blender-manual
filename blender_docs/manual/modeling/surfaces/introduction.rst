@@ -119,7 +119,7 @@ Just like :ref:`NURBS curves <modeling-curve-nurbs>`, *Resolution* controls the 
 The higher the *Resolution* the more detailed and smoother the surface is.
 The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
 one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
-(the *Resol* U and V fields, in the *Curve Tools* panel)...
+(the *Resolution* U and V fields, in the *Curve Tools* panel)...
 
 .. list-table::
 
@@ -215,7 +215,7 @@ and higher than 6 or the number of control points on the relevant axis.
 Weight
 ------
 
-Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>` ! *Weight* specifies
+Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>`! *Weight* specifies
 how much each control point "pulls" on the curve.
 
 In Fig. :ref:`fig-surface-intro-weight` a single control point, labeled "C",
@@ -260,7 +260,8 @@ Primitives
 ==========
 
 To help get started in creating surfaces there are four preset NURBS surfaces, found in the
-:menuselection:`Add --> Surface --> NURBS Surface, NURBS Tube, NURBS Sphere and NURBS Torus`.
+:menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:`NURBS Tube`,
+:menuselection:`NURBS Sphere` and :menuselection:`NURBS Torus`.
 
 .. figure:: /images/modeling_surfaces_introduction_primitives-surface.png
 
