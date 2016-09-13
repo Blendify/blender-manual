@@ -52,4 +52,4 @@ Blender includes two render engines by default:
 - :doc:`Cycles </render/cycles/index>`
 
 More render engines from third-party developers can also be added using
-:doc:`Add-ons </advanced/scripting/python/addons>`
+:doc:`Add-ons </preferences/addons>`
