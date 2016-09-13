@@ -3,6 +3,9 @@
 Seams
 *****
 
+Introduction
+============
+
 .. figure:: /images/texture-uv-unwrap-seam-simple.png
    :width: 300px
 
