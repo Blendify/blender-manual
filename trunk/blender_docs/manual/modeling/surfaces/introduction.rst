@@ -14,7 +14,7 @@ you cannot have in the same object both curves and surfaces.
 
 .. figure:: /images/modeling_surfaces_introduction_nurbs-surface.png
 
-   Surface.
+   Nurbs surface in Edit Mode.
 
 
 As surfaces are 2D, they have two interpolation axes, U (as for curves) and V.
@@ -33,7 +33,7 @@ you can roll a sheet of paper to create a cylinder; well, even if it "draws" a v
 the sheet itself will remain a (nearly...) 2D object!
 
 In fact, surfaces are very similar to the results you get when
-:doc:`extruding a curve </modeling/curves/editing/extrude>`
+:doc:`extruding a curve </modeling/curves/editing/extrude>`.
 
 
 Finding Surface Tools
@@ -103,7 +103,7 @@ The key point is that *all* rows of a given type (U or V) have the *same* number
 Each control point belongs to exactly one U-row and one V-row.
 
 All this forms a "grid", or "cage", the shape of which controls the shape of the NURBS surface.
-A bit like a :doc:`lattice </modeling/modifiers/deform/lattice>` ...
+A bit like a :doc:`lattice </modeling/modifiers/deform/lattice>`...
 
 This is very important to grasp: you cannot add a single control point to a NURBS surface;
 you have to add a whole U- or V-row at once (in practice,
@@ -122,6 +122,10 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 (the *Resol* U and V fields, in the *Curve Tools* panel)...
 
 .. list-table::
+
+   * - .. figure:: /images/modeling_surfaces_introduction_resolution-1x1_wire.png
+
+     - .. figure:: /images/modeling_surfaces_introduction_resolution-3x3_wire.png
 
    * - .. _fig-surface-intro-resolution1:
 
