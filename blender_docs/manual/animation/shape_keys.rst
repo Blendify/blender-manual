@@ -6,9 +6,9 @@ Shape Keys
 *Shape Keys* are used on Objects like *Mesh*, *Curve*, *Surface*, *Lattice*.
 They are used to deform the object vertices into a new shape.
 
-.. figure:: /images/shape_keys_visual.png
+.. figure:: /images/animation_shape-keys_example.png
 
-   A mesh with different shape keys applied.
+   Example a mesh with different shape keys applied.
 
 
 There are two types of Shape Keys:
@@ -53,7 +53,8 @@ Add
 Remove
    Remove a shape key from the list.
 
-.. figure:: /images/shape_key_specials2.png
+.. figure:: /images/animation_shape-keys_specials-menu.png
+   :align: right
 
    Shape Keys Specials.
 
@@ -102,12 +103,12 @@ Relative Shape Keys
 Relative shape keys deform from a selected shape key.
 By default, all relative shape keys deform from the first shape key called the Basis shape key.
 
-.. figure:: /images/shape_keys_relative3.png
+.. figure:: /images/animation_shape-keys_panel-relative.png
 
-   Relative Shape Keys. Options.
+   Relative Shape Keys options.
 
 
-Clear Weights
+Clear Weights (X icon)
    Set all values to 0.
 Name
    Name of the active shape key.
@@ -115,10 +116,11 @@ Value
    The value of the active shape key.
 Range
    Min and Max range of the active shape key value.
-Vertex Group
-   Limit the active shape key deformation to a vertex group.
-Relative
-   Select the shape key to deform from.
+Blend:
+   Vertex Group
+      Limit the active shape key deformation to a vertex group.
+   Relative
+      Select the shape key to deform from.
 
 
 Absolute Shape Keys
@@ -127,12 +129,12 @@ Absolute Shape Keys
 Absolute shape keys deform from the previous and to the next shape key.
 They are mainly used to deform the object into different shapes over time.
 
-.. figure:: /images/shape_keys_absolute2.png
+.. figure:: /images/animation_shape-keys_panel-absolute.png
 
-   Absolute Shape Keys. Options.
+   Absolute Shape Keys options.
 
 
-Reset Timing
+Reset Timing (clock icon)
    Reset the timing for absolute shape keys.
    For example, if you have the shape keys, Basis, Key_1, Key_2, in that order.
 
@@ -150,13 +152,15 @@ Reset Timing
 
 Name
    Name of the active shape key.
+
 Interpolation
    This controls the interpolation between shape keys.
 
-.. figure:: /images/shape_keys_interpolation.png
+   .. figure:: /images/animation_shape-keys_interpolation-types.png
 
-   Different types of interpolation.
+      Different types of interpolation.
 
+      The red line represents interpolated values between keys (black dots).
 
 Evaluation Time
    This is used to control the shape key influence.
@@ -219,7 +223,6 @@ Workflow for Absolute Shape Keys
 - Switch back to Object Mode.
 
 .. figure:: /images/absolute_sk_workflow_4.png
-   :width: 300px
 
 
 - Add a basis shape keys and two more via the + button on the Shape Key Panel.
