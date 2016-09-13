@@ -90,19 +90,21 @@ Shear :kbd:`Shift-Ctrl-Alt-S`
 To Sphere :kbd:`Shift-Alt-S`
    Move selected vertieces outward in a spherical shape around the midpoint.
 
-
 Arrange Strokes
+   Arranges selected strokes up/down in the drawing order of the active layer.
 
+   Bring Froward, Send Backward, Bring to Front, Send to Back
 Move to Color
+   Moves the selected strokes to active color.
 
 Interpolate
-
+   Interpolates grease pencil strokes between frames.
 Sequence
-
+   Interpolates full grease pencil strokes sequence between frames.
 Interpolate All Layers
-
+   Interpolates all layers, not only active.
 Interpolate Selected Strokes
-
+   Interpolates only the selected strokes in the original frame.
 
 Join Stokes
    Type
