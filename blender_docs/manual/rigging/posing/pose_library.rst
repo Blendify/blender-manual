@@ -33,7 +33,7 @@ Sanitize Action
 
 
 Shortcuts
-==========
+=========
 
 3D View, Pose Mode. :menuselection:`Pose --> Pose Library`
 
