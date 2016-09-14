@@ -103,7 +103,7 @@ Draw Channels
       Displays the Alpha channel a gray-scale image. White areas are opaque, black areas have an alpha of 0.
    Z-Buffer
       Display the depth from the camera, from Clip Start to Clip End,
-      as specified in the :doc:`Camera settings </editors/3dview/object/types/camera/introduction>`.
+      as specified in the :doc:`Camera settings </render/blender_render/camera/introduction>`.
    Red, Green, Blue
       Single Color Channel visualized as a gray-scale image.
 
