@@ -8,6 +8,7 @@
 
    introduction.rst
    mesh_structures.rst
+   mesh_primitives.rst
    mesh_analysis.rst
    selecting/index.rst
    editing/index.rst

@@ -4,8 +4,8 @@
 Introduction
 ************
 
-Mesh Modeling typically begins with a :doc:`Mesh Primitive
-</editors/3dview/object/types/meshes/introduction>` shape (e.g. circle, cube, cylinder...).
+Mesh Modeling typically begins with a
+:doc:`Mesh Primitive </modeling/meshes/mesh_primitives>` shape (e.g. circle, cube, cylinder...).
 This mesh primitive is defined by an array of points in 3D space called vertices (singular form is :term:`Vertex`).
 From there you might begin extruding faces and moving vertices to create a larger, more complex shape.
 

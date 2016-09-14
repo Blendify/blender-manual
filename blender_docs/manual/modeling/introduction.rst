@@ -42,7 +42,7 @@ Because each of these are different types of object they have different types of
 and therefore have different set of tool. Because of this each has its own section described below.
 
 :doc:`Mesh Modeling </modeling/meshes/index>`
-   Typically begins with a :doc:`Mesh Primitive </editors/3dview/object/types/meshes/introduction>`
+   Typically begins with a :doc:`Mesh Primitive </modeling/meshes/mesh_primitives>`
    shape (e.g. circle, cube, cylinder...).
 
 :doc:`Curve Modeling </modeling/curves/index>`
