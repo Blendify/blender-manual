@@ -11,6 +11,7 @@
    meshes/index.rst
    curves/index.rst
    surfaces/index.rst
-   texts/index.rst
    metas/index.rst
+   texts/index.rst
+   empties.rst
    modifiers/index.rst

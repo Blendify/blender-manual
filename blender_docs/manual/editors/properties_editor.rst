@@ -63,14 +63,14 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 - :doc:`Surface </modeling/surfaces/introduction>`
 - :doc:`Metaball </modeling/metas/properties>`
 - :doc:`Text </modeling/texts/properties>`
-- :doc:`Empty </editors/3dview/object/types/empties>`
+- :doc:`Empty </modeling/empties>`
 
 ..
 
 - :doc:`Armature </rigging/armatures/properties>`
 - :doc:`Bones </rigging/armatures/bones/properties>`
 - :doc:`Bone Constraints </rigging/posing/constraints>`
-- :doc:`Lattice </editors/3dview/object/types/lattice>`
+- :doc:`Lattice </rigging/lattice>`
 
 ..
 

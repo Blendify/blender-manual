@@ -13,3 +13,4 @@
    armatures/index.rst
    posing/index.rst
    skinning/index.rst
+   lattice.rst
