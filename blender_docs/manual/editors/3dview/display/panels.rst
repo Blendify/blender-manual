@@ -56,7 +56,7 @@ You can show it with the :menuselection:`View --> View Properties...` menu entry
 
 Lens
    Control the focal length of the 3D View camera in millimeters,
-   unlike a :doc:`rendering camera </editors/3dview/object/types/camera/index>`
+   unlike a :doc:`rendering camera </render/blender_render/camera/index>`
 Lock to Object
    By entering the name of an object in the *Object* field, you lock your view to this object, i.e.
    it will always be at the center of the view (the only exception is the active camera view, :kbd:`Numpad0`).

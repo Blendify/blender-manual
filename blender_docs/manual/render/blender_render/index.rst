@@ -10,6 +10,7 @@
    materials/index.rst
    textures/index.rst
    lighting/index.rst
+   camera/index.rst
    world/index.rst
    settings/index.rst
    post_processing/index.rst

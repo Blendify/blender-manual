@@ -6,7 +6,7 @@ Introduction
 Rendering is the process of creating a 2D image (or video) from your 3D scene.
 What that image looks like is based on four factors which the user can control:
 
-- A :doc:`Camera </editors/3dview/object/types/camera/introduction>`
+- A :doc:`Camera </render/blender_render/camera/introduction>`
 - The :doc:`Lighting </render/blender_render/lighting/introduction>` in your scene
 - The :doc:`Material </render/blender_render/materials/introduction>` of each object
 - Various render settings (quality, image size, layers etc)
