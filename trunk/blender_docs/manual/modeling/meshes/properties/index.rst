@@ -1,7 +1,7 @@
 
-#########
-  Meshes
-#########
+##############
+  Properties
+##############
 
 .. toctree::
    :maxdepth: 2
