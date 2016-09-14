@@ -9,7 +9,7 @@ Modeling is simply the art and science of creating a surface that either mimics 
 of a real-world object or expresses your imagination of abstract objects.
 
 Modeling can take many forms in Blender depending on the type of
-:doc:`object </editors/3dview/object/types/index>` you are trying to model.
+:ref:`object <objects-types>` you are trying to model.
 Some objects for example are not able to be modeled, these being:
 
 - Speakers
