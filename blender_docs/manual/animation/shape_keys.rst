@@ -57,7 +57,7 @@ Active Shape Key Index
          Select two objects, the Shape is copied to the active object.
       Mirror Shape Key
          If your mesh is nice and symmetrical, in *Object Mode*, you can mirror the shape keys on the X axis.
-         This will nott work unless the mesh vertices are perfectly symmetrical.
+         This will not work unless the mesh vertices are perfectly symmetrical.
          Use the :menuselection:`Mesh --> Symmetrize` function in *Edit Mode*.
       Mirror Shape Key (Topology)
          This is the same as *Mirror Shape Key* though it detects
@@ -89,7 +89,7 @@ By default, all relative shape keys deform from the first shape key called the B
    Relative Shape Keys options.
 
 Clear Weights ``X``
-   Set all values to 0.
+   Set all values to zero.
 Value
    The value of the active shape key.
 Range

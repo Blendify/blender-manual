@@ -313,7 +313,7 @@ Add ``+``
    Adds a new item.
 Remove ``-``
    To remove the selected item.
-Special
+Specials
    The down arrow on dark background opens a pop-up menu with
    operators context-sensitive to the item type.
    i.e. copy paste, or operations on all items.
