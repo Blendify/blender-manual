@@ -4,7 +4,7 @@ Shape Keys
 **********
 
 *Shape Keys* are used on Objects like *Mesh*, *Curve*, *Surface*, *Lattice*.
-They are used to deform the object vertices into a new shape.
+They are used to animate deform the object vertices into a new shape.
 
 .. figure:: /images/animation_shape-keys_example.png
 
@@ -157,19 +157,21 @@ Evaluation Time
 Workflow for Relative Shape Keys
 ================================
 
-This example shows you how to make a cube mesh transform into a sphere.
+- In *Object Mode*, add a new shape keys via the *Shape Key* panel with the ``+`` button.
+- "Basis" is the rest shape. "Key 1", "Key 2", etc. will be the new shapes.
+- Switch to *Edit Mode*, select "Key 1" in the *Shape Key* panel.
+- Deform mesh as you want (do not remove or add vertices).
+- Select "Key 2", the mesh will be changed to the rest shape.
+- Transform "Key 2" and keep going for other shape keys.
+- Switch back to *Object Mode*.
+- Set the *Value* for "Key 1", "Key 2", etc. to see the transformation between the shape keys.
 
+In the figure below, from left to right shows: "Basis", "Key 1", "Key 2"
+and mix ("Key 1" ``1.0`` and "Key 2" ``0.8``) shape keys in Object Mode.
 
-- In *Object Mode* add two shape keys via the *Shape Key Panel*.
--    *Basis* is the rest shape. "Key 1" will be the new shape.
-- With *Key 1* selected, switch to *Edit Mode*.
-- Press :kbd:`Shift-Alt-S` *To Sphere*, move the mouse right, then :kbd:`LMB`.
-- Switch to *Object Mode*.
-- Set the *Value* for "Key 1" to see the transformation between the shape keys.
+.. figure:: /images/animation_shape-keys_workflow-relative.png
 
-.. figure:: /images/shape_keys_workflow_2.png
-
-   Shape Key workflow.
+   Relative Shape Keys example.
 
 
 Workflow for Absolute Shape Keys
