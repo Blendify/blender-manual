@@ -57,7 +57,7 @@ Active Vertex Group
 
 
 Editing Vertex Groups
-=======================
+=====================
 
 .. figure:: /images/modeling-meshes-vertex-group-panel-edit.png
    :align: right

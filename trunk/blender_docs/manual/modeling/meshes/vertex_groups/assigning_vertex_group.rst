@@ -11,13 +11,13 @@ Creating Vertex Groups
 
    Empty Vertex Group Panel.
 
-
+Vertex Groups are maintained within the *Mesh* tab (1) in the Properties Editor.
 As long as no Vertex groups are defined (the default for new Mesh Objects),
 the Panel is empty (2).
 
-You create a vertex group by :kbd:`LMB` *+* on the right Panel
-border (3). Initially the group is named *Group*
-(or *Group.nnn* when the name already exists) and gets displayed in the Panel (2)
+You create a vertex group by :kbd:`LMB` on the *Add* button (+) on the right Panel
+border (3). Initially the group is named "Group"
+(or "Group.nnn" when the name already exists) and gets displayed in the Panel (2)
 (see next image).
 
 .. container:: lead
@@ -69,7 +69,7 @@ Deleting Vertex Groups
 
 You delete a Vertex Group by first making it the active group
 (select it in the panel) and then :kbd:`LMB`
-the *-* button at the right Panel border.
+the *Remove* button (-) at the right Panel border.
 
 Deleting a Vertex Group only deletes the vertex assignments to the Group.
 The vertices themselves are not deleted.
