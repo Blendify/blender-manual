@@ -5,7 +5,7 @@ Workflow
 
 The process consists of the following steps.
 
-- Create the Mesh. :doc:`Unwrap </editors/uv_image/uv_editing/unwrapping>` it into one or more
+- Create the Mesh. :doc:`Unwrap </editors/uv_image/uv_editing/unwrapping/index>` it into one or more
   :doc:`UV Layouts </editors/uv_image/uv_editing/layout_management>`.
 - Create one or more Materials for the Mesh.
 - Create one or more images for each UV Layout and aspect of the texture. Either

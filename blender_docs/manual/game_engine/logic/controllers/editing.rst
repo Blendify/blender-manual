@@ -79,7 +79,7 @@ Name
 Add Controller
    When clicked, a menu appears with the available controller types.
    Selecting an entry adds a new controller to the object.
-   See :doc:`Controllers </game_engine/logic/controllers/types/index>` for a list of available controller types.
+   See :doc:`Controllers </game_engine/logic/controllers/index>` for a list of available controller types.
 
 
 Standard Controller Parts

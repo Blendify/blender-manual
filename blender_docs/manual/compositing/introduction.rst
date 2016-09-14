@@ -42,7 +42,7 @@ To activate nodes for compositing, click the *Use Nodes* checkbox (see `Options`
    it can also be disabled in the :doc:`Post Processing Panel </render/post_process/panel>`.
 
 You now have your first node setup, from here you can add and connect many types of
-:doc:`Compositing Nodes </compositing/types/index>`, in a sort of map layout,
+:doc:`Compositing Nodes </compositing/index>`, in a sort of map layout,
 to your heart's content (or physical memory constraints, whichever comes first).
 
 .. note::
