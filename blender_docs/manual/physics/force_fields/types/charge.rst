@@ -18,3 +18,5 @@ This mean this field has only effect on particles that have also a *Charge* fiel
    :width: 400px
 
    UI for a Charge force field.
+
+.. vimeo:: 182770166
