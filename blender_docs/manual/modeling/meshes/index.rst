@@ -12,5 +12,6 @@
    mesh_analysis.rst
    selecting/index.rst
    editing/index.rst
+   properties/index.rst
    vertex_groups/index.rst
    smoothing.rst

@@ -58,7 +58,7 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 
 ..
 
-- :doc:`Mesh </editors/3dview/object/types/meshes/object_data>`
+- :doc:`Mesh </modeling/meshes/properties/object_data>`
 - :doc:`Curve </modeling/curves/properties>`
 - :doc:`Surface </modeling/surfaces/introduction>`
 - :doc:`Metaball </modeling/metas/properties>`

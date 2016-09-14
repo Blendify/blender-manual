@@ -6,6 +6,8 @@ Object Data
 Normals
 =======
 
+See :ref:`auto-smooth`.
+
 TODO.
 
 
