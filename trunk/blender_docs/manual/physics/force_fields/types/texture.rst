@@ -60,3 +60,6 @@ Examples
   on the right side (1.0, 0.5, 0.5) you have a force plane perpendicular to XY (i.e. parallel to Z).
   If you use an object for the coordinates, you can use the object to push particles around.
 - An animated wood texture can be used to create a wave like motion.
+
+
+.. vimeo:: 182778301

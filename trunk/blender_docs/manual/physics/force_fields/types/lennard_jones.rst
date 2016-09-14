@@ -21,3 +21,5 @@ which is probably something for the nuclear physicists amongst us.
    :width: 400px
 
    UI for a Lennard Jones force field.
+
+.. vimeo:: 182775330
