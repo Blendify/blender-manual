@@ -135,7 +135,7 @@ Use Texture
    When enabled, use the specified texture to control where smoke is emitted.
 
 Vertex Group
-   When set, use the specified :doc:`Vertex Group </modeling/meshes/vertex_groups/vertex_groups>`
+   When set, use the specified :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/vertex_groups>`
    to control where smoke is emitted.
 
 .. container:: lead
