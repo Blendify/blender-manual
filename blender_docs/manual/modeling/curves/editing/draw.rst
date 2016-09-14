@@ -24,7 +24,6 @@ Type
    Poly
       TODO.
    Bézier
-
       Tolerance
          Lower values give a result that is closer to the drawing stroke,
          while higher values give more smoothed results.
@@ -73,6 +72,8 @@ Projection Depth
 
 Draw Options
 ------------
+
+These option can be found in the :ref:`Redo Last Panel <ui-redo-last>`.
 
 Error
    Error distance in object units. This can be seen similar to a subdivision rate for the curve.
