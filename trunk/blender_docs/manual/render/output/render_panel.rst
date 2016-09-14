@@ -15,6 +15,7 @@ Animation
    See :doc:`Rendering Animations </render/workflows/animations>` for more detail.
 Audio
    Mixes all the the audio found in a scene and mixes into one file.
+   See :doc:`/render/audio/audio`.
 
 By default the biggest area is replaced with the UV/Image Editor and the render appears.
 

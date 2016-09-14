@@ -15,3 +15,4 @@
    freestyle/index.rst
    workflows/index.rst
    opengl.rst
+   audio/index.rst
