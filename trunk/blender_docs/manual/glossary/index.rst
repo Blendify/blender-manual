@@ -192,6 +192,9 @@ This page lists definitions for terms used in Blender and this manual.
       A type of object defined in terms of a line interpolated between Control Vertices.
       Available types of curves include :term:`Bézier` and :term:`NURBS`.
 
+   Cyclic
+      Often referring to an object being circular. This term is often associated with :term:`Curve`.
+
    DOF
    Depth Of Field
       The distance in front of and behind the subject which appears to be in focus.

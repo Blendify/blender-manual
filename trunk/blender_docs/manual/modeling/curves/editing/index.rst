@@ -10,3 +10,4 @@
    introduction.rst
    deform.rst
    extrude.rst
+   draw.rst
