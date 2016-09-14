@@ -26,6 +26,8 @@ Redo
 To roll back the Undo action, press :kbd:`Ctrl-Shift-Z`.
 
 
+.. _ui-redo-last:
+
 Redo Last
 =========
 
@@ -54,7 +56,6 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 
    Left Image: Redo Last- Rotation (Object Mode, 60 degrees),
    Right Image: Redo Last- Scale (Edit Mode, Resize face)
-
 
 .. tip:: Operations using Redo Last
 
