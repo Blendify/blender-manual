@@ -20,7 +20,7 @@ TODO.
 Vertex Groups
 =============
 
-See :doc:`/modeling/meshes/vertex_groups/vertex_groups`.
+See :doc:`/modeling/meshes/properties/vertex_groups/vertex_groups`.
 
 TODO.
 

@@ -22,6 +22,6 @@ In the *Tool Shelf* are settings for *Vector* offset, *Proportional Editing*,
 *Duplication Mode* (non-functional?), and *Axis Constraints*.
 
 Note that duplicated elements belong to the same
-:doc:`vertex groups </modeling/meshes/vertex_groups/index>` as the "original" ones.
+:doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>` as the "original" ones.
 The same goes for the :ref:`material indices <bi-multiple-materials>`,
 the edge's *Sharp* and *Seam* flags, and probably for the other vertex/edge/face properties...

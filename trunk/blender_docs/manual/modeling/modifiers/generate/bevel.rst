@@ -79,7 +79,7 @@ Limit Method
       Use weights from a vertex group to determine the width of the bevel.
       When the vertex weight is 0.0, no bevel is applied.
       An edge is only beveled if both of its vertices are in the vertex group.
-      See :doc:`here </modeling/meshes/vertex_groups/vertex_groups>` about adjusting vertex group weights.
+      See :doc:`here </modeling/meshes/properties/vertex_groups/vertex_groups>` about adjusting vertex group weights.
 
 .. TODO someone who understands these should write them in plain English, for now just copied the tool-tips.
 

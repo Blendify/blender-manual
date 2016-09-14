@@ -100,7 +100,7 @@ Vertex Selection Mode:
    Amount of Adjacent Faces
       Selects all vertices that have the same number of faces connected to them.
    Vertex Groups
-      Selects all vertices in the same :doc:`vertex group </modeling/meshes/vertex_groups/index>`.
+      Selects all vertices in the same :doc:`vertex group </modeling/meshes/properties/vertex_groups/index>`.
    Amount of connecting edges
       Selects all vertices that have the same number of edges connected to them.
 

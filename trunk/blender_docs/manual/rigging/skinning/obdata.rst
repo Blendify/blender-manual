@@ -21,7 +21,7 @@ Bones can affect the object's shape in two ways:
   It uses the "proximity" and "influence" of the bones to determine which part of the object they can deform.
 - The `Vertex Groups`_ method is (obviously) reserved to meshes and lattices.
   One bone only affect the vertices in the
-  :doc:`group </modeling/meshes/vertex_groups/index>` having the same name,
+  :doc:`group </modeling/meshes/properties/vertex_groups/index>` having the same name,
   using vertices' :ref:`weights <painting-weight-index>` as influence value.
   A much more precise method, but also generally longer to set up.
 
@@ -232,7 +232,7 @@ Vertex Groups
 =============
 
 Vertex groups skinning method is only available for meshes and lattices. Which are the only objects having
-:doc:`vertex groups </modeling/meshes/vertex_groups/index>`. Its principle is very simple:
+:doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>`. Its principle is very simple:
 each bone only affects vertices belonging to a vertex group having the same name as the bone.
 So if you have e.g. a ``forearm`` bone, it will only affect the ``forearm`` vertex group of its skin object(s).
 
