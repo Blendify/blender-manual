@@ -70,10 +70,26 @@ table {caption-side: bottom}
 	color:#808080;
 }
 
-/*figure in table margin*/
-.rst-content td div.figure{margin-bottom:0px}
+/* permalink to table, hide until hover */
+.rst-content table.docutils caption .headerlink { visibility: hidden; }
+.rst-content table.docutils caption:hover .headerlink { visibility: visible; }
 
-/*figure legend*/
+/* table header cells border color */
+.rst-content table.docutils th { border-color: #e1e4e5; }
+
+/* table cell align */
+.rst-content table.docutils td { vertical-align: baseline; }
+
+/* table figure legend */
+.rst-content table.docutils .figure .legend { white-space: normal; }
+
+/* figure in table margin */
+.rst-content td div.figure {
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+/* figure legend */
 .legend {
 	font-size: 90%;
 	color: #808080;
