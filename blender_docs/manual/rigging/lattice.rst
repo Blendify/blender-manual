@@ -6,7 +6,7 @@ Lattice
 Lattice -- or commonly called deformation cage outside of Blender.
 A lattice consists of a three-dimensional non-renderable grid of vertices.
 Its main use is to apply a deformation to the object it controls with a :doc:`/modeling/modifiers/deform/lattice`.
-If the object is parented with*Parent Deform* a lattice modifier is automatically applied.
+If the object is parented with *Lattice Deform* a lattice modifier is automatically applied.
 
 
 Editing
@@ -42,9 +42,9 @@ Interpolation Type
 
    Linear, Cardinal, Catmull-Rom, B-Spline
 Outside
-   Takes only the verticies on the surface into account.
+   Takes only the vertices on the surface of the lattice into account.
 Vertex Group
-   TODO.
+   The strength of the influence assigned as a weight to the individual vertices in the selected vertex group.
 
 
 Usage
