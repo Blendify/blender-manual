@@ -3,6 +3,12 @@
 Lattice
 *******
 
+.. figure:: /images/rigging_lattice_panel.png
+   :align: right
+
+   Lattice properties.
+
+
 Lattice or deformation cage. Used for deformation.
 
 
@@ -39,3 +45,7 @@ Outside
    Take only the verticies on the surface into account.
 Vertex Group
    TODO.
+
+.. figure:: /images/rigging_lattice_view.png
+
+   Lattice around the cube object in Object Mode.
