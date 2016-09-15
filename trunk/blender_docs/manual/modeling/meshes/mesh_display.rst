@@ -45,7 +45,7 @@ Edge Marks and Face Marks
    Used by Freestyle.
 
 Show Weight
-   Displays the Vertex weights as a texture.
+   Displays the vertex weights as a texture.
 
 
 .. _mesh-display-normals:
@@ -54,7 +54,7 @@ Normals
 =======
 
 Show
-   Displays the normals of faces and/or vertices using the Face and Vertex tick boxes
+   Displays the normals of faces and/or vertices using the Face and Vertex tick boxes.
 
    Vertex, Loop, Face
 Size
@@ -64,7 +64,7 @@ Size
 Show Extra
 ==========
 
-numerical measures of the selected elements on screen: 
+Numerical measures of the selected elements on screen.
 The :ref:`data-scenes-props-units` can be set in the Scene tab.
 
 Edge Length and Edge Angle
