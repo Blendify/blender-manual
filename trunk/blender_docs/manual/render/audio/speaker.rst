@@ -3,10 +3,10 @@
 Speaker
 *******
 
-.. figure:: /images/editors_3dview_objects_speaker.png
+.. figure:: /images/render_audio_speaker_objects.png
    :align: right
 
-   Speaker Object.
+   Speaker Objects.
 
 The speaker object is used to give sound in the 3D View.
 After adding the object the various settings can be changed in the properties editor.
@@ -32,7 +32,7 @@ Pitch
 Distance
 --------
 
-.. figure:: /images/editors_3dview_objects_speaker_settings.png
+.. figure:: /images/render_audio_speaker_properties.png
    :align: right
 
 .. rubric:: Volume

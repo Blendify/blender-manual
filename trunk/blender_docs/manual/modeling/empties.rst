@@ -13,8 +13,7 @@ Settings
 
 .. _object-empty-display:
 
-.. figure:: /images/emptydrawtypes.jpg
-   :width: 300px
+.. figure:: /images/modeling_empties_draw-types.png
    :align: right
 
    Empty Draw Types.

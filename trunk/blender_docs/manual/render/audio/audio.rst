@@ -3,7 +3,12 @@
 Audio Rendering
 ***************
 
-Audio can be rendered from the :menuselection:`Properties Editor --> Render tab --> Render --> Audio`
+Audio can be rendered from the :menuselection:`Properties Editor --> Render tab --> Render --> Audio`.
+
+.. figure:: /images/render_output_render-panel.png
+   :align: right
+
+   Render panel.
 
 
 Options
