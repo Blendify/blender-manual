@@ -3,8 +3,8 @@
 Curve Properties
 ****************
 
-Curve Properties can be set from the *Object Data* option in the
-*Properties Header* (shown below in blue).
+Curve Properties can be set from the *Object Data*
+option in the *Properties Header* (shown below in blue).
 
 .. figure:: /images/modeling_curves_properties_header.png
 
@@ -34,7 +34,6 @@ Resolution
 
       Curves with a resolution of 3 (left) and 12 (right).
 
-
 Twisting
    A 3D Curve has Control Points that are not located on the Curve's local XY plane.
    This gives the Curve a twist which can affect the Curve normals.
@@ -45,17 +44,16 @@ Twisting
 
       Curves with a twist of minimum (left) and tangent (right).
 
-
 Fill
    Fill determines the way a Curve is displayed when it is Beveled (see below for details on Beveling).
    When set to *Half* (the default) the Curve is displayed as half a cylinder.
-   The *Fill Deformed* option allows you to indicate whether the Curve should be filled before or after
-   (default) applying any Shape Keys or Modifiers.
+   
+   Fill Deformed
+      Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
 
    .. figure:: /images/modeling_curves_shape-fill.jpg
 
       Curves with a fill of half (left) and full (right).
-
 
 Path/Curve-Deform
    These options are primarily utilized when using a Curve as a Path or when using the Curve Deform property.
@@ -78,7 +76,8 @@ Geometry
 
 Modification
    Offset
-      By default, text Objects are treated as curves. The Offset option will alter the space between letters.
+      By default, text Objects are treated as curves.
+      The Offset option will alter the space between letters.
    Extrude
       Will extrude the curve along both the positive and negative local Z axes.
 Bevel
@@ -127,7 +126,6 @@ Map Taper
    .. figure:: /images/modeling_curves_geometry-map-taper.jpg
 
       A Curve without (left) and with (right) Map Taper applied.
-
 
 Start Bevel Factor and End Bevel Factor
    These options determine where to start the Bevel operation on the Curve being beveled.

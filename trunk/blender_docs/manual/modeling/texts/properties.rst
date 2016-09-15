@@ -3,8 +3,57 @@
 Text Properties
 ***************
 
-Fonts
+Shape
 =====
+
+Resolution
+   Preview
+      The surface resolution in the U direction to use in the viewport.
+   Render
+      he surface resolution in the U direction, set to zero to use the the *Preview* resolution.
+
+Fill
+   Determines the way a Curve is displayed when it is beveled.
+
+   Fill Deformed
+      Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
+
+Fast Editing
+   Does not fill polygons while editing text.
+
+
+Texture Space
+=============
+
+TODO.
+
+
+Geometry 
+========
+
+Modification
+   Offset
+      Alters the space between letters.
+   Extrude
+      Will extrude the text along both the positive and negative local Z axes.
+Bevel
+   Depth
+      Changes the size of the bevel.
+   Resolution
+      Alters the smoothness of the bevel.
+
+Taper Object
+   Used to select a curve object that can be used to cause the characters to get thinner towards one end.
+   You can also alter the proportions of the Taper throughout the tapered object by moving/scaling/rotating
+   the Control Points of the *Taper Object*. The *Taper Object* can only be a curve.
+   Editing the Handles and Control Points of the *Taper Object* will cause the original object to change shape.
+
+Bevel Object
+   Used to select a curve object that can be used to give custom bevel results.
+
+
+Font
+====
 
 .. admonition:: Reference
    :class: refbox
