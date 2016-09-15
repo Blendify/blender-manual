@@ -11,22 +11,15 @@
 Text Editing
 ************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Hotkey:   see below
-
-.. figure:: /images/modeling-text-create-ex.png
-   :width: 300px
-
-   Text in Edit Mode.
-
-
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D View, of course, where you type your text, and have a few shortcuts, e.g. for applying
 styles (see :ref:`modeling-text-character`) - note however, that most Blender hotkeys you know in *Edit Mode*
 do not exist for texts! The second place is the Properties Editor, especially the *Font* tab.
+
+.. figure:: /images/modeling-text-create-ex.png
+
+   Text in Edit Mode.
+
 
 The menu of the 3D View header has nearly no use,
 and there is no *Specials* menu... You have no transform nor mirror tools, and so on.
@@ -112,13 +105,12 @@ Some examples are given below:
 
 
 Converting Text Objects
------------------------
+=======================
 
 Converting to Text Object
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 .. figure:: /images/converttexttotextobject.jpg
-   :width: 250px
 
 
 Using an existing text-block, you can convert it to an object from the text editor's header,
@@ -129,7 +121,7 @@ It is also possible to paste from the clipboard or a file from the *Edit* menu, 
 
 
 Converting to 3D Mesh
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 It is possible to convert a Text Object to a 3D Mesh object.
 This can be useful so that you may edit the vertices in *Edit Mode*,
@@ -141,7 +133,6 @@ They are usually a bit messy, so it may be useful to use a *Limited Dissolve* de
 :doc:`Modifier </modeling/modifiers/index>` at a low threshold to clean up your mesh.
 
 .. figure:: /images/textobjectfromtext.png
-   :width: 500px
 
    left normal text, right the made text object.
 
@@ -150,7 +141,6 @@ Text Selection
 ==============
 
 .. figure:: /images/modeling-text-create-ex.png
-   :width: 200px
 
    Text in Edit Mode.
 
@@ -178,9 +168,8 @@ Text Boxes
    Text frame.
 
 
-Text "Boxes" allow you to distribute the text amongst rectangular areas within a single text
-object. An arbitrary number of freely positionable and re-sizable text frames are allowed per
-text object.
+Text "Boxes" allow you to distribute the text amongst rectangular areas within a single text object.
+An arbitrary number of freely positionable and re-sizable text frames are allowed per text object.
 
 Text flows continuously from the lowest-numbered frame to the highest-numbered frame with text
 inside each frame word-wrapped.
@@ -193,20 +182,17 @@ application, like Scribus. You use frames to control the placement and flow of t
 Frames are controlled in the *Text Boxes* panel.
 
 
-Frame size
+Frame Size
 ----------
 
 By default the first frame for a new text object, and any additional frames,
 has a size of **zero** for both *Width* and *Height*,
 which means the frame is initially not visible.
 
-Frames with a width of 0.0 are ignored completely during text flow
-(no wordwrap happens), and frames with a height of 0.0 flow forever
-(no flowing to the next text frame).
+Frames with a width of 0.0 are ignored completely during text flow (no wordwrap happens),
+and frames with a height of 0.0 flow forever (no flowing to the next text frame).
 
-In order for the frame to become visible,
-the frame's *Width* must be greater than 0.0.
-
+In order for the frame to become visible, the frame's *Width* must be greater than 0.0.
 
 .. note::
 
@@ -215,7 +201,6 @@ the frame's *Width* must be greater than 0.0.
 .. _fig-texts-edit-frame:
 
 .. figure:: /images/text-frame-default-ex.png
-   :width: 250px
 
    Frame width.
 
@@ -237,27 +222,25 @@ and/or Y fields. Just an X modification will create a new column.
 To delete the current frame, click the :kbd:`Delete` button.
 Any text in higher frames will be re-flowed downward into lower frames.
 
+Examples
+--------
 
-Example: Text Flow
-------------------
+Text Flow
+^^^^^^^^^
 
 .. _fig-texts-edit-wrap:
 
 .. figure:: /images/text-frame-working-ex2.png
-   :width: 300px
 
    Wrapping.
 
 
 With two or more frames you can organize text to a finer degree. For example,
 create a text object and enter "Blender is super duper".
-This text object has a frame;
-it just is not visible because its *Width* is 0.0.
+This text object has a frame; it just is not visible because its *Width* is 0.0.
 
-
-Set the width to 5.0.
-The frame is now visible and text is wrapping according to the new width, as shown in
-Fig. :ref:`fig-texts-edit-wrap`. Notice that the text has overflowed out of the frame.
+Set the width to 5.0. The frame is now visible and text is wrapping according to the new width,
+as shown in Fig. :ref:`fig-texts-edit-wrap`. Notice that the text has overflowed out of the frame.
 This is because the text has reached the end of the last frame,
 which just happens to be the default/initial frame.
 
@@ -270,13 +253,12 @@ which just happens to be the default/initial frame.
 When we add another frame and set its width and height, the text will flow into the new frame.
 
 
-Example: Multiple columns
--------------------------
+Multiple Columns
+^^^^^^^^^^^^^^^^
 
 .. _fig-texts-edit-text5:
 
 .. figure:: /images/text-frame-working-ex5.png
-   :width: 400px
 
    Text 5.
 
@@ -306,7 +288,6 @@ on the *Assign* button in the Materials panel.
 .. _fig-texts-edit-rgb:
 
 .. figure:: /images/text-materialindex-ex.png
-   :width: 300px
 
    Red Green Blue.
 
