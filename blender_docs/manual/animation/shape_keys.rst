@@ -130,6 +130,10 @@ Reset Timing (clock icon)
 Interpolation
    This controls the interpolation between shape keys.
 
+   Linear, Cardinal, Catmull-Rom, B-Spline
+
+   .. _fig-interpolation-type:
+
    .. figure:: /images/animation_shape-keys_interpolation-types.png
 
       Different types of interpolation.
