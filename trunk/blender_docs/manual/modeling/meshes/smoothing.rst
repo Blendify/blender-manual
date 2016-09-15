@@ -6,6 +6,7 @@ Smoothing
 Mesh Shading
 ============
 
+
 .. list-table::
    Example mesh rendered flat, smoothed using edge split, and using Subdivision Surface.
    Note how edges are rendered differently.
@@ -40,8 +41,14 @@ Smooth Shading
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit and Object Mode
-   | Panel:    Mesh Tools
+   | Mode:     Object Mode
+   | Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Shading`
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:     :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
    | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
    | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Shade Smooth / Shade Flat`
 
@@ -92,8 +99,7 @@ Auto Smooth
 
    | Panel:    :menuselection:`Properties editor --> Object Data`
 
-.. list-table::
-   Example mesh with *Auto Smooth* enabled.
+.. list-table:: Example mesh with *Auto Smooth* enabled.
 
    * - .. figure:: /images/meshsmooth-example-04rrautosmooth.jpg
           :width: 180px
@@ -106,17 +112,7 @@ It can be difficult to create certain combinations of smooth and solid faces usi
 techniques alone. Though there are workarounds
 (such as splitting off sets of faces by selecting them and pressing :kbd:`Y`),
 there is an easier way to combine smooth and solid faces, by using *Auto Smooth*.
-
-Auto smoothing can be enabled in the mesh's panel in the Properties Editor. Angles
-on the model that are smaller than the angle specified in the *Angle* button will be
-smoothed during rendering (i.e. not in the 3D View)
-when that part of the mesh is set to smooth. Higher values will produce smoother faces,
-while the lowest setting will look identical to a mesh that has been set completely solid.
-
-Note that a mesh, or any faces that have been set as *Flat*,
-will not change their shading when *Auto Smooth* is activated: this allows you extra
-control over which faces will be smoothed and which ones will not by overriding the decisions
-made by the *Auto Smooth* algorithm.
+Auto smoothing can be enabled in the mesh tab in the Properties Editor in the :ref:`mesh-data-normals` panel.
 
 
 Edge Split Modifier
