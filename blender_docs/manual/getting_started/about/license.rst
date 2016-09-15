@@ -3,7 +3,7 @@
 About Free Software and the GPL
 *******************************
 
-.. figure:: /images/getting_started_gnu-logo.png
+.. figure:: /images/getting-started_about_license_gnu-logo.png
    :align: right
 
 When one hears about "free software", the first thing that comes to mind might be "no cost".

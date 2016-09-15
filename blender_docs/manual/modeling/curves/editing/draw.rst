@@ -16,6 +16,12 @@ The Curve draw tool allows you to freehand draw curves.
 Stroke Options
 --------------
 
+.. figure:: /images/modeling_curves_editing_draw_curve-stroke-panel.png
+   :align: right
+
+   Curve Stroke panel.
+
+
 These options can be found in :menuselection:`Tool Shelf --> Options --> Curve Stroke`.
 
 Type
@@ -72,6 +78,12 @@ Projection Depth
 
 Draw Options
 ------------
+
+.. figure:: /images/modeling_curves_editing_draw_draw-curve-panel.png
+   :align: right
+
+   Draw Curve panel.
+
 
 These option can be found in the :ref:`Redo Last Panel <ui-redo-last>`.
 
