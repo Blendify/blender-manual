@@ -13,7 +13,7 @@ Todo.
 Displaying Normals
 ==================
 
-To show the normals of the faces, you can open the Transform Panel,
+To show the normals of the faces, you can open the Properties region,
 find the Mesh display tab, and click on the small cube without the orange dot.
 You can also change the height of the axis that points the direction of the normal. The default is 0.1 .
 
