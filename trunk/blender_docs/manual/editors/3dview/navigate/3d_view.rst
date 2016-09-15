@@ -28,14 +28,19 @@ Perspective and Orthographic Views
    | Hotkey:   :kbd:`Numpad5`
 
 Each 3D View supports two different types of projection.
-These are demonstrated in the
-Fig. :ref:`fig-view3d-projection` below.
+These are demonstrated in the Fig. below.
 
-.. _fig-view3d-projection:
+.. list-table::
 
-.. figure:: /images/3dperspective.jpg
+   * - .. figure:: /images/editors_3dview_navigate_3d-view_view-orthographic.png
+          :width: 320px
 
-   Orthographic (left) and perspective (right) projections.
+          Orthographic projections.
+
+     - .. figure:: /images/editors_3dview_navigate_3d-view_view-perspective.png
+          :width: 320px
+
+          Perspective projections.
 
 
 Our eye is used to perspective viewing because distant objects appear smaller.
@@ -53,7 +58,7 @@ Options
 
 .. _fig-view3d-camera-view:
 
-.. figure:: /images/3dcameraview.jpg
+.. figure:: /images/editors_3dview_navigate_3d-view_camera-view.png
 
    Demonstration of camera view.
 
@@ -91,7 +96,7 @@ Rotating the View
    | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
       :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
-.. figure:: /images/3dview_nav_3dview_menu.png
+.. figure:: /images/editors_3dview_navigate_3d-view_navigation-menu.png
    :align: right
 
    A 3D View's View menu.
@@ -267,9 +272,17 @@ View All :kbd:`Home`
 Local View
 ==========
 
-.. figure:: /images/editors_3dview_navigating-global-local-global-local.jpg
+.. list-table::
 
-   With/Without *Local View*.
+   * - .. figure:: /images/editors_3dview_navigate_3d-view_local-view-1.png
+          :width: 320px
+
+          Global View.
+
+     - .. figure:: /images/editors_3dview_navigate_3d-view_local-view-2.png
+          :width: 320px
+
+          Local View.
 
 
 You can toggle *Local View* by selecting the option
@@ -325,7 +338,7 @@ In this arrangement, you can zoom and pan each view independently but you cannot
    and aligning the view manually. In Quad View, the four views are still part of a single 3D View.
    So they share the same draw options and layers.
 
-.. figure:: /images/3dview_nav_3dview_quad.png
+.. figure:: /images/editors_3dview_navigate_3d-view_quad-view.png
 
    Quad View.
 
@@ -355,10 +368,22 @@ View Clipping Border
    | Menu:     :menuselection:`View --> Set Clipping Border`
    | Hotkey:   :kbd:`Alt-B`
 
-.. figure:: /images/editors_3dview_navigating-3d_view-region_clipping.png
-   :width: 340px
+.. list-table:: Region/Volume clipping.
 
-   Region/Volume clipping.
+   * - .. figure:: /images/editors_3dview_navigate_3d-view_clipping-border-1.png
+          :width: 320px
+
+          Selecting a region.
+
+     - .. figure:: /images/editors_3dview_navigate_3d-view_clipping-border-2.png
+          :width: 320px
+
+          Region selected.
+
+     - .. figure:: /images/editors_3dview_navigate_3d-view_clipping-border-3.png
+          :width: 320px
+
+          View rotated.
 
 
 To assist in the process of working with complex models and scenes,
@@ -412,8 +437,7 @@ try to navigate to a very distant object in the view with traditional methods
 
 With walk/fly modes you move, pan, tilt, and dolly the camera around without any of those limitations.
 
-.. figure:: /images/editors_3dview_navigating-3d_view-navigation_mode.jpg
-   :width: 173px
+.. figure:: /images/editors_3dview_navigate_3d-view_walk-fly-mode.png
 
    View Navigation.
 

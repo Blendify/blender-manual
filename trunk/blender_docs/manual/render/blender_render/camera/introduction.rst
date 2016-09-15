@@ -21,7 +21,7 @@ Changing the Active Camera
    | Mode:     Object Mode
    | Hotkey:   :kbd:`Ctrl-Numpad0`
 
-.. figure:: /images/cameraview-activecamera.png
+.. figure:: /images/render_blender-render_camera_introduction_cameras.png
 
    Active camera (left one).
 
@@ -54,7 +54,7 @@ Render Border
    | Menu:     :menuselection:`View --> Render Border`
    | Hotkey:   :kbd:`Ctrl-B`
 
-.. figure:: /images/editors_3dview_navigating_camera-view-render-border-toggle.png
+.. figure:: /images/render_blender-render_camera_introduction_border.png
    :align: right
 
    Render Border toggle.
@@ -76,6 +76,8 @@ in the *Render* tab or by activating the option again.
    When Render Border is activated, :doc:`Sampled Motion Blur </render/blender_render/settings/motion_blur>`
    will become available to view in the 3D View.
 
-.. figure:: /images/editors_3dview_navigating_camera-view-render-border.jpg
+.. list-table:: Render border and associated render.
 
-   Render border and associated render.
+   * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png
+
+     - .. figure:: /images/render_blender-render_camera_introduction_render-border-2.png

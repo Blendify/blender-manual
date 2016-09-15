@@ -10,9 +10,9 @@ Blender offers both `Bézier Curves`_ and `Non-Uniform Rational B-Splines (NURBS
 Both Bézier curves and NURBS curves and surfaces are defined in terms of a set of "control points"
 (or "control vertices") which define a "control polygon".
 
-.. figure:: /images/logofinal.jpg
+.. figure:: /images/modeling_curves_introduction_logo.png
 
-   Bird logo made from Bézier curves.
+   Blender logo made from Bézier curves.
 
 
 Both Bézier and NURBs curves are named after their mathematical definitions, and choosing between them

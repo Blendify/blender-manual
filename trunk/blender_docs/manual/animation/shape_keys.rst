@@ -36,7 +36,7 @@ Shape Keys Panel
    | Mode:     All modes
    | Panel:    :menuselection:`Properties editor --> Object Data --> Shape Keys`
 
-.. figure:: /images/animation_shape-key-panel-basis.png
+.. figure:: /images/animation_shape-keys_panel-basis.png
 
    Shape Keys panel.
 

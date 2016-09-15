@@ -15,7 +15,7 @@ There are a few methods to position the 3D cursor.
 Direct Placement with the Mouse
 -------------------------------
 
-.. figure:: /images/editors_3dview_transform-control_pivot-point_3d-cursor_two-view-positioning.jpg
+.. figure:: /images/editors_3dview_3d-cursor_two-view-positioning.png
    :align: center
 
    Positioning the 3D cursor with two orthogonal views.
