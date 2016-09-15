@@ -13,9 +13,11 @@ Editing
 =======
 
 Flip (Distortion Free)
+   Mirrors the vertexes displacement from there base position.
+
    U, V, W
 Make Regular
-   Resets the whole lattice to a regular grid based on the current bounding box.
+   Resets the whole lattice to a regular grid, where the cells are scaled to one cubic Blender Unit.
 
 
 Properties
@@ -44,7 +46,7 @@ Interpolation Type
 Outside
    Takes only the vertices on the surface of the lattice into account.
 Vertex Group
-   The strength of the influence assigned as a weight to the individual vertices in the selected vertex group.
+   The strength of deformation the influence assigned as a weight to the individual vertices in the selected vertex group.
 
 
 Usage
