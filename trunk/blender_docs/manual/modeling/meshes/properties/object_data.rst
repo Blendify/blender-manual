@@ -12,13 +12,13 @@ Normals
 
 
 Auto Smooth
-   Edges where an angle between the faces is smaller than specified in the *Angle* will be smoothed,
+   Edges where an angle between the faces is smaller than specified in the *Angle* button will be smoothed,
    when shading of these parts of the mesh is set to smooth.
 
    Angle
-      Angle input.
+      Angle number button.
 Double Sided
-   Lighting with positive normals on the backside of the mesh in the viewport (OpenCL).
+   Lighting with positive normals on the backside of the mesh in the viewport (OpenGL).
 
 
 Example

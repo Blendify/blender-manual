@@ -10,17 +10,6 @@ Todo.
 
 .. Explain what are normals
 
-Displaying Normals
-==================
-
-To show the normals of the faces, you can open the Properties region,
-find the Mesh display tab, and click on the small cube without the orange dot.
-You can also change the height of the axis that points the direction of the normal. The default is 0.1 .
-
-.. figure:: /images/modeling_meshes_editing_normals_display.png
-
-   Normal Display Options.
-
 
 .. _modeling-meshes-editing-normals-editing:
 
@@ -60,3 +49,7 @@ These commands will recalculate the normals of selected faces so that they point
 This volume do not need to be closed. In fact, this means that the face of interest must be
 adjacent with at least one non-coplanar other face.
 For example, with a *Grid* primitive, recalculating normals does not have a meaningful result.
+
+.. tip::
+
+   For Visualization in *Edit Mode* see :ref:`mesh-display-normals`.
