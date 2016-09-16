@@ -13,8 +13,7 @@ meaningful way (i.e. "blocking notes", "director's comments on blocking", or "gu
 For this reason, all the strokes on a layer (not just those made after a particular change)
 are affected by that layer's color, opacity, and stroke thickness settings.
 
-Layers are managed in the
-*Grease Pencil Panel* of the *Properties region* :kbd:`N` shown here.
+Layers are managed in the *Grease Pencil Panel* of the *Properties region* :kbd:`N` shown here.
 
 .. figure:: /images/grease_pencil_layers_list.jpg
 
