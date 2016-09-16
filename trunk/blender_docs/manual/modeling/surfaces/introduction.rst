@@ -39,14 +39,8 @@ In fact, surfaces are very similar to the results you get when
 Finding Surface Tools
 =====================
 
-.. figure:: /images/modeling_surfaces_introduction_nurbs-properties.png
 
-   Surface Tools.
-
-
-The panels of the *Curve and Surface* tab are the same as for
-:doc:`curves </modeling/curves/introduction>`,
-just with fewer options... And as usual, you have the *Select* and *Surface*
+As usual, you have the *Select* and *Surface*
 menus in the 3D View headers, and the *Specials* :kbd:`W` pop-up one.
 
 
@@ -103,111 +97,13 @@ The key point is that *all* rows of a given type (U or V) have the *same* number
 Each control point belongs to exactly one U-row and one V-row.
 
 All this forms a "grid", or "cage", the shape of which controls the shape of the NURBS surface.
-A bit like a :doc:`lattice </modeling/modifiers/deform/lattice>`...
+A bit like a :doc:`lattice </rigging/lattice>`...
 
 This is very important to grasp: you cannot add a single control point to a NURBS surface;
 you have to add a whole U- or V-row at once (in practice,
 you will usually use the Extrude tool, or perhaps the Duplicate one, to add those...),
 containing exactly the same number of points as the others. This also means that you will only
 be able to "merge" different pieces of surfaces if at least one of their rows match together.
-
-
-Surface Resolution
-------------------
-
-Just like :doc:`NURBS curves </modeling/curves/nurbs>`, *Resolution* controls the detail of the surface.
-The higher the *Resolution* the more detailed and smoother the surface is.
-The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
-one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
-(the *Resolution* U and V fields, in the *Curve Tools* panel)...
-
-.. list-table::
-
-   * - .. figure:: /images/modeling_surfaces_introduction_resolution-1x1_wire.png
-
-     - .. figure:: /images/modeling_surfaces_introduction_resolution-3x3_wire.png
-
-   * - .. _fig-surface-intro-resolution1:
-
-       .. figure:: /images/modeling_surfaces_introduction_resolution-1x1.png
-
-          Resolution 1×1.
-
-     - .. _fig-surface-intro-resolution2:
-
-       .. figure:: /images/modeling_surfaces_introduction_resolution-3x3.png
-
-          Resolution 3×3.
-
-
-Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 1 for both U and V.
-Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 3 for both U and V.
-
-.. figure:: /images/modeling_surfaces_introduction_resolution-panel.png
-
-   Resolution panel.
-
-
-You can adjust the resolution separately for both preview and render,
-to not slow things down in the viewport, but still get good render results.
-
-
-Closed and Open Surfaces
-------------------------
-
-Like curves, surfaces can be closed (cyclical) or open, independently in both directions,
-allowing you to easily create a tube, donut or sphere shape,
-and they can be drawn as "solids" in *Edit Mode*.
-This makes working with surfaces quite easy.
-
-
-Knots
------
-
-Just like with :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
-one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
-or *Bézier*, with the same properties as for curves. And as with curves, only open surfaces
-(in the relevant direction) are affected by this setting...
-
-.. _fig-surface-intro-endpoint:
-
-.. figure:: /images/modeling_surfaces_introduction_endpoint.png
-
-   Endpoint U.
-
-
-In Fig. :ref:`fig-surface-intro-endpoint` the U interpolation axis is labeled as "U" and the V
-interpolation axis is labeled as "V". The U's interpolation axis has
-been set to *Endpoint* and as such the surface now extends to the outer edges from
-E1 to E2 along the U interpolation axis.
-
-To cause the surface to extend to all edges you would set the V's axis to
-*Endpoint* as well.
-
-
-Order
------
-
-One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
-it specifies how much the control points are taken into account for calculating the curve of the surface shape.
-For high Orders 1 the surface pulls away from the control points,
-creating a smoother surface by assuming that the
-`Surface Resolution`_ is high enough. For lowest Orders 2 the surface follows the control points,
-creating a surface that tends to follow the grid cage.
-
-.. _fig-surface-intro-order:
-
-.. figure:: /images/modeling_surfaces_introduction_order.png
-
-   Order 2 and order 4 surface.
-
-
-For illustration purposes, in both Fig. :ref:`fig-surface-intro-order`,
-the knot vectors were set to *Endpoint*, causing the surface to extend to all edges.
-
-You can set independently the order for each interpolation axis, and like curves,
-it **cannot** be lower than 2,
-and higher than 6 or the number of control points on the relevant axis.
 
 
 .. _modeling-surfaces-weight:
@@ -254,26 +150,3 @@ You will note that the four different weights needed for creating a sphere
 .. figure:: /images/modeling_surfaces_introduction_weight-sphere.png
 
    A sphere surface.
-
-
-Primitives
-==========
-
-To help get started in creating surfaces there are four preset NURBS surfaces, found in the
-:menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:`NURBS Tube`,
-:menuselection:`NURBS Sphere` and :menuselection:`NURBS Torus`.
-
-.. figure:: /images/modeling_surfaces_introduction_primitives-surface.png
-
-   NURBS surface primitives.
-
-
-There are also two preset NURBS surface curves (with only one control point on each V-row):
-*NURBS Curve* and *NURBS Circle*.
-
-.. figure:: /images/modeling_surfaces_introduction_primitives-curve.png
-
-   NURBS curve primitives.
-
-
-Note how a circle NURBS surface is never filled, unlike its "real" curve counterpart...
