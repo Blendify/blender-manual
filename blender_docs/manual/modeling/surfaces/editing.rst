@@ -149,7 +149,7 @@ Opening or Closing a Surface
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Surface --> Toggle Cyclic`
-   | Hotkey:   :kbd:`C`
+   | Hotkey:   :kbd:`Alt-C`
 
 
 As in :ref:`curves <modeling-curves-opening-and-closing>`,
