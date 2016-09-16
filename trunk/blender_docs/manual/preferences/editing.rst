@@ -78,7 +78,9 @@ Eraser Radius
    The size of the eraser used with the grease pencil.
 
 Manhattan Distance
-   The minimum number of pixels the mouse has to move horizontally or vertically before the movement is recorded.
+   The minimum number of pixels the mouse should have moved either
+   horizontally or vertically before the movement is recorded.
+   Decreasing this should work better for curvy lines.
 Euclidian Distance
    The minimum distance that mouse has to travel before movement is recorded.
 
