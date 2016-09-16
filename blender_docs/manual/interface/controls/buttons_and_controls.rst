@@ -222,56 +222,6 @@ with the available shading options.
 .. RMB context menu (reset, copy, manual access, edit source, translation)
 
 
-.. _ui-data-block:
-
-Data-Block Menus
-----------------
-
-A set of menu buttons used to link :doc:`/data_system/data_blocks` to each other.
-Data-blocks are items like meshes, objects, materials, textures, and so on.
-If data-blocks are linked the data will be updated across all of the users when edited. 
-
-.. figure:: /images/interface_data-block.jpg
-   :align: right
-
-   The Data-Block menu with a search input.
-
-
-Type
-   Shows an icon. Opens up the following pop-up menu.
-
-   List
-      A list of data-block available in the current blend-file or link in to select an item from.
-      The menu may show a preview besides the items and
-      a search box to search the items in the list by name.
-Name
-   Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
-   If a name already is in assigned Blender will add a digit to the name like ".001".
-User count
-   Displays the number of users of the data. Clicking on it to make it a single-user copy,
-   with it linked only to the active object/object's data.
-Fake User "F"
-   Keeps the data-block saved in the blend-file, even if it has no real users.
-New/Add "+"
-   Creates a new data-block or duplicates the current data-block and applies it.
-Open file
-   Opens the :doc:`file-browser </editors/file_browser/introduction>`.
-Unlink data-block "X"
-   Clears the link.
-
-Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
-(such as a list of materials used on the object).
-
-
-Preview
-^^^^^^^
-
-.. figure:: /images/ui_data_block_preview.png
-
-   The Data-Block menu with preview.
-
-In the Tool Shelf is a version of the data-block menu with a bigger preview.
-
 
 Pie Menus
 ---------
@@ -330,3 +280,25 @@ Also number keys can be used to select the items.
 If there are sub-pies available, it is indicated by a plus icon.
 
 See :ref:`Pie menu settings <prefs-pie-menu>`.
+
+
+.. _ui-eye-dropper:
+
+Eyedropper
+==========
+
+The eyedropper allows you to sample from anywhere in the Blender window.
+The eyedropper can be used to select different kinds of data:
+
+Color
+   This is the most common usage.
+Objects/Object-Data
+   This is used with object buttons such as parent, constraints or modifiers to
+   select an object from the 3D View.
+Camera Depth
+   Number buttons effecting distance can also use the eye-dropper,
+   this is most useful for camera depth of field.
+
+- :kbd:`E` will activate the eye-dropper while hovering over a button.
+- :kbd:`LMB` dragging will mix the colors you drag over which can help when sampling noisy imagery.
+- :kbd:`Spacebar` resets and starts mixing the colors again.

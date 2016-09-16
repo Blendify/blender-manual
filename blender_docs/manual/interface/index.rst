@@ -30,7 +30,7 @@ Interface Controls
    :maxdepth: 1
 
    controls/buttons_and_controls.rst
-   controls/extended_controls.rst
+   controls/templates/index.rst
    common_shortcuts.rst
 
 
