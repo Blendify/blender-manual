@@ -9,4 +9,5 @@
 
    introduction.rst
    layers.rst
+   colors.rst
    brushes.rst

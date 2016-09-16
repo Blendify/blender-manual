@@ -57,38 +57,7 @@ a sketching session starts when a *Grease Pencil* stroke is made.
 The type of session (Draw, Line, Poly, Erase)
 is determined by the first stroke made which can be done via hotkeys or the Tool Shelf.
 Use :kbd:`Esc` or :kbd:`Return` to exit the sketching session. Note that in an Erase
-Sketching Session both :kbd:`LMB` or :kbd:`RMB` can be used once the session has
-started.
-
-
-Appearance Settings
-===================
-
-Set the color, line width and other aspects of the grease pencil's appearance in the
-*Grease Pencil Panel* of the *Properties region* shown here.
-
-.. figure:: /images/grease_pencil_drawing_properties.jpg
-
-   Grease pencil properties.
-
-
-There are separate settings for each layer with those of the active layer shown in the panel.
-All the strokes on a layer (not just those made after a particular change)
-are affected by that layer's grease pencil properties.
-
-Stroke
-   Sets the line color and opacity.
-Fill
-   Sets the color of the interior space enclosed by the strokes.
-   Increase the opacity from zero to make the fill visible.
-   Fill works best on convex shapes.
-Thickness
-   Width of the line strokes.
-X-Ray
-   Makes the lines visible when they pass behind other objects in the scene.
-Volumetric Strokes
-   Draw strokes as a series of filled spheres, resulting in an interesting volumetric effect.
-   Get best results with partial opacity and large stroke widths.
+Sketching Session both :kbd:`LMB` or :kbd:`RMB` can be used once the session has started.
 
 
 Drawing Settings

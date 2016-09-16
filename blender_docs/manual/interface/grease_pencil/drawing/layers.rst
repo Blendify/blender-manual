@@ -19,6 +19,10 @@ Layers are managed in the *Grease Pencil Panel* of the *Properties region* :kbd:
 
    Grease Pencil Panel.
 
+
+Grease Pencil Data
+==================
+
 Use the adjacent controls to Add, Remove or adjust the position of a layer in the list.
 Each layer has a visibility icon, and a lock icon to protect it from further changes.
 Double click on a layer name to rename it.
@@ -30,6 +34,25 @@ or the list of layers associated with the active object.
 
 By default, most operations occur only on the *active* layer highlighted in the list.
 
+
+Appearance Settings
+===================
+
+Set the color, line width and other aspects of the grease pencil's appearance in the
+*Grease Pencil Panel* of the *Properties region* shown here.
+
+There are separate settings for each layer with those of the active layer shown in the panel.
+All the strokes on a layer (not just those made after a particular change)
+are affected by that layer's grease pencil properties.
+
+Thickness
+   Width of the line strokes.
+X-Ray
+   Makes the lines visible when they pass behind other objects in the scene.
+
+
+Animation
+=========
 
 Onion Skinning
 --------------
