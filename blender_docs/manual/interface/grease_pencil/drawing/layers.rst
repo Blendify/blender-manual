@@ -34,19 +34,39 @@ Source
       This is required when using pre 2.73 add-ons.
 
 Data-Block
+   Used to select the Grease Pencil data-block to use for layers. For controls see :ref:`ui-data-block`.
 
 Layer List
+   There is a list of layers attached to each scene and a list of layers associated with each object.
 
-.. rubric:: Specials
+   Lock
+      Locks the ability to edit the current layers layer.
+   Hide
+      Hides the current layer in the drawing region.
+   Unlock Color
+      Unprotects selected colors from further editing and/or frame changes.
 
-Each layer has a visibility icon, and a lock icon to protect it from further changes.
+   Each layer has a visibility icon, and a lock icon to protect it from further changes.
 
-There is a list of layers attached to each scene and a list of layers associated with each object.
-The buttons above the list box control its contents,
-showing either the layers associated with the active scene
-or the list of layers associated with the active object.
+.. rubric:: Layer List Specials
 
-By default, most operations occur only on the *active* layer highlighted in the list.
+Duplicate Layer
+   Creates a copy of the current layer.
+
+Show All
+   Makes all hidden layers visible  
+Hide Others
+   Makes all non selected layers hidden.
+
+Lock/Unlock All
+   Locks/Unlocks all of the layers. This can be useful to prevent unwanted editing.
+
+Merge Down
+   Merges the current layer with the layer below it.
+
+.. note::
+
+   By default, most operations occur only on the *active* layer highlighted in the list.
 
 
 Appearance Settings
