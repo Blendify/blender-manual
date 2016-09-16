@@ -54,6 +54,18 @@ X-Ray
 Animation
 =========
 
+Parent
+   A :ref:`Object Selector <ui-eye-dropper>` to select the :term:`parent` object.
+
+   Type
+      TODO.
+
+Lock Frame
+   Locks the current frame displayed by layer.
+Delete Frame
+   Deletes the active frame for the active Grease Pencil Layer.
+
+
 Onion Skinning
 --------------
 
@@ -84,7 +96,7 @@ After
       The maximum number of frame to show after the current frame.
       0 will only show the the next sketch, and -1 will not show any frames after current.
 
-
 .. seealso::
 
-   Grease Pencil also has a mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` editor.
+   - Grease Pencil mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` editor.
+   - Grease Pencil :doc:`Animation </interface/grease_pencil/animating>` page.

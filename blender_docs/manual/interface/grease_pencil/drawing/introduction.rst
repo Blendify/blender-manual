@@ -97,7 +97,6 @@ Only Endpoints
 
    The effect of different Drawing Settings on Grease Pencil strokes.
 
-
 .. tip:: Notes For Tablet Users:
 
    - The thickness of a stroke at a particular point is affected
