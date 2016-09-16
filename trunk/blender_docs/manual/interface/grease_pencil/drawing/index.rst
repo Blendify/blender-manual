@@ -8,4 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
+   layers.rst
    brushes.rst

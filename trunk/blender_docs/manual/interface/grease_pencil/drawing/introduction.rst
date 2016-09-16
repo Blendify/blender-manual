@@ -20,7 +20,7 @@ Introduction
 
 *Grease Pencil* sketches can be converted to editable geometry and used to aid the animation process.
 
-- :doc:`Read more about Layers and Animation </interface/grease_pencil/layers_and_animation>`
+- :doc:`Read more about Layers and Animation </interface/grease_pencil/drawing/layers>`
 - :doc:`Read more about Converting sketches to geometry </interface/grease_pencil/converting_to_geometry>`
 
 
