@@ -4,19 +4,16 @@
 Introduction
 ************
 
-- Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Tool Shelf :kbd:`T`.
-  A new layer will be automatically added for you to draw on.
-- A new layer can be added from the Grease Pencil panel in the Properties region.
-  This panel can also be used to customize the color, opacity and thickness of the pencil lines.
-  Changes to these settings will affect all strokes on the current layer.
+Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Tool Shelf :kbd:`T`.
+A new layer will be automatically added for you to draw on.
 
-.. _fig-gp-tool-properties:
+A new layer can be added from the Grease Pencil panel in the Properties region.
+This panel can also be used to customize the color, opacity and thickness of the pencil lines.
+Changes to these settings will affect all strokes on the current layer.
 
-.. figure:: /images/sketchinggreasepencil.jpg
-   :width: 500px
+.. figure:: /images/interface_gp_example.png
 
-   Grease Pencil Tool Shelf and Properties region.
-
+   An example of Blender's Grease Pencil.
 
 *Grease Pencil* sketches can be converted to editable geometry and used to aid the animation process.
 
@@ -28,7 +25,11 @@ Drawing
 =======
 
 The Tool Shelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
-The Tool Shelf can be seen in the screenshot :ref:`fig-gp-tool-properties` above.
+The Tool Shelf can be seen in the screenshot :ref:`fig-gp-tool-properties` below.
+
+.. figure:: /images/sketchinggreasepencil.jpg
+
+   Grease Pencil Tool Shelf and Properties region.
 
 
 Grease Pencil Mode and Shortcut Summary
@@ -122,7 +123,6 @@ Simplify Stroke
    It is only relevant when not drawing straight lines. By default this is disabled.
    As with *Smooth Stroke*, it can often cause "shrinking" of drawings,
    and loss of precision, accuracy and smoothness.
-
 
 .. tip:: Additional Notes For Tablet Users:
 
