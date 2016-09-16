@@ -46,8 +46,6 @@ Layer List
    Unlock Color
       Unprotects selected colors from further editing and/or frame changes.
 
-   Each layer has a visibility icon, and a lock icon to protect it from further changes.
-
 .. rubric:: Layer List Specials
 
 Duplicate Layer
