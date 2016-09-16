@@ -65,7 +65,7 @@ Material are as follows:
 Active Material
    List View.
 Material
-   The Material :ref:`ui-data-block` for the selected Material slot.
+   The Material :ref:`Data-Block Menu <ui-data-block>` for the selected Material slot.
 
 .. tip:: Naming materials
 
