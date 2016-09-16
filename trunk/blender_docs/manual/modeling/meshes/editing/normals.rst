@@ -53,4 +53,3 @@ For example, with a *Grid* primitive, recalculating normals does not have a mean
 .. tip::
 
    For Visualization in *Edit Mode* see :ref:`mesh-display-normals`.
-   

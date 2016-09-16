@@ -65,7 +65,7 @@ Surface Structure
 =================
 
 Many of the concepts from :doc:`curves </modeling/curves/introduction>`,
-especially :ref:`NURBS <modeling-curve-nurbs>` ones,
+especially :doc:`NURBS </modeling/curves/nurbs>` ones,
 carry directly over to NURBS surfaces,
 such as control points, *Order*, *Weight*, *Resolution*, etc.
 Here we will just talk about the differences.
@@ -115,7 +115,7 @@ be able to "merge" different pieces of surfaces if at least one of their rows ma
 Surface Resolution
 ------------------
 
-Just like :ref:`NURBS curves <modeling-curve-nurbs>`, *Resolution* controls the detail of the surface.
+Just like :doc:`NURBS curves </modeling/curves/nurbs>`, *Resolution* controls the detail of the surface.
 The higher the *Resolution* the more detailed and smoother the surface is.
 The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
 one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
