@@ -38,17 +38,29 @@ By default, most operations occur only on the *active* layer highlighted in the 
 Appearance Settings
 ===================
 
-Set the color, line width and other aspects of the grease pencil's appearance in the
-*Grease Pencil Panel* of the *Properties region* shown here.
+These settings can be used to change how the active layer appears.
 
-There are separate settings for each layer with those of the active layer shown in the panel.
-All the strokes on a layer (not just those made after a particular change)
-are affected by that layer's grease pencil properties.
-
-Thickness
-   Width of the line strokes.
+Opacity
+   The transparency of the layer.
 X-Ray
    Makes the lines visible when they pass behind other objects in the scene.
+Show Points
+   Draws the start/end points that make up the stroke.
+
+Tint
+   Color
+      The color to tint the layer.
+   Factor
+      The amount that the *Tint Color* has on the layer.
+
+Thickness Change
+   Change in pixels to apply to the stroke in the current layer.
+
+   It is also possible to make this be effected by a graphics tablet.
+
+.. seealso::
+
+   There are also option to control :doc:`Stroke Colors </interface/grease_pencil/drawing/colors>`.
 
 
 Animation
