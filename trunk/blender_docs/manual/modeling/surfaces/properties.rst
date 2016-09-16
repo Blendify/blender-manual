@@ -39,6 +39,10 @@ and they can be drawn as "solids" in *Edit Mode*.
 This makes working with surfaces quite easy.
 
 
+Bézier
+------
+
+
 Endpoint
 --------
 
@@ -61,10 +65,6 @@ E1 to E2 along the U interpolation axis.
 
 To cause the surface to extend to all edges you would set the V's axis to
 *Endpoint* as well.
-
-
-Bézier
-------
 
 
 Order
