@@ -23,9 +23,23 @@ Layers are managed in the *Grease Pencil Panel* of the *Properties region* :kbd:
 Grease Pencil Data
 ==================
 
-Use the adjacent controls to Add, Remove or adjust the position of a layer in the list.
+Use the following controls to Add, Remove or adjust the position of a layer in the list.
+
+Source
+   Scene
+      Grease Pencil data is attached to the current scene is used,
+      unless the active object already has Grease Pencil data (i.e old files).
+   Object
+      Grease Pencil data is attached to the active object are used.
+      This is required when using pre 2.73 add-ons.
+
+Data-Block
+
+Layer List
+
+.. rubric:: Specials
+
 Each layer has a visibility icon, and a lock icon to protect it from further changes.
-Double click on a layer name to rename it.
 
 There is a list of layers attached to each scene and a list of layers associated with each object.
 The buttons above the list box control its contents,
