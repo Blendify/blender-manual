@@ -98,33 +98,7 @@ Only Endpoints
    The effect of different Drawing Settings on Grease Pencil strokes.
 
 
-Sensitivity When Drawing
-========================
-
-The default settings for the sensitivity of mouse/stylus movement when drawing have been set
-to reduce jitter while still allowing fine movement. However, if these are not appropriate
-they can be altered in :menuselection:`User Preferences --> Editing --> Grease Pencil`.
-
-Manhattan Distance
-   The minimum number of pixels the mouse should have moved either
-   horizontally or vertically before the movement is recorded.
-   Decreasing this should work better for curvy lines.
-Euclidean Distance
-   The minimum distance that the mouse should have traveled before movement is recorded.
-Eraser Radius
-   The size of the eraser "brush".
-Smooth Stroke
-   This turns on the post-processing step of smoothing the stroke to remove jitter.
-   It is only relevant when not drawing straight lines. By default this is enabled.
-   It should be noted that it can often cause "shrinking" of drawings,
-   and may be turned off if the results are not desirable.
-Simplify Stroke
-   This turns on the post-processing step of simplifying the stroke to remove about half of current points in it.
-   It is only relevant when not drawing straight lines. By default this is disabled.
-   As with *Smooth Stroke*, it can often cause "shrinking" of drawings,
-   and loss of precision, accuracy and smoothness.
-
-.. tip:: Additional Notes For Tablet Users:
+.. tip:: Notes For Tablet Users:
 
    - The thickness of a stroke at a particular point is affected
      by the pressure used when drawing that part of the stroke.

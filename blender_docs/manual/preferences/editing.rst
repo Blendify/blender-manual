@@ -82,15 +82,12 @@ Manhattan Distance
 Euclidian Distance
    The minimum distance that mouse has to travel before movement is recorded.
 
-
 Default Color
--------------
-
-Color Selector
    The default color for new Grease Pencil layers.
 
 Simplify Stroke
-   Smooths the pencil stroke after it is finished.
+   This turns on the post-processing step of simplifying the stroke to remove about half of current points in it.
+   It is only relevant when not drawing straight lines.
 
 :doc:`Read more about Grease Pencil </interface/grease_pencil/index>`
 
