@@ -152,11 +152,6 @@ Evaluation Time
    You can control the shape key influence with Evaluation Time.
    Here keyframes have been used to control Evaluation Time for animation.
 
-.. figure:: /images/shape_keys_evaluation.png
-   :width: 600px
-
-   Animation with Evaluation Time.
-
 
 Workflow for Relative Shape Keys
 ================================
@@ -181,55 +176,21 @@ and mix ("Key 1" ``1.0`` and "Key 2" ``0.8``) shape keys in Object Mode.
 Workflow for Absolute Shape Keys
 ================================
 
-- Select the default Cube.
-- Switch to Edit Mode.
-- Switch to Face Select mode (if you are not already in it)
+- Add sequence of shape keys as described above for relative shape keys.
+- Uncheck the *Relative* checkbox.
+- Click the *Reset Timing* button.
+- Switch to *Object Mode*.
+- Drag *Evaluation Time* to see how the shapes succeed one to the next.
 
-.. figure:: /images/absolute_sk_workflow_1.png
+.. figure:: /images/animation_shape-keys_workflow-absolute.png
+   :align: right
 
-.. figure:: /images/absolute_sk_workflow_2.png
-   :width: 150px
-
-
-- Select the top face.
-- Extrude up :kbd:`E 1` confirm with :kbd:`LMB`.
-
-.. figure:: /images/absolute_sk_workflow_3.png
-   :width: 150px
+   Absolute Shape Keys workflow.
 
 
-- Select a side face on the top half. (the one at x=1 if possible)
-- Extrude out :kbd:`E 1` confirm with :kbd:`LMB`.
-- Switch back to Object Mode.
-
-.. figure:: /images/absolute_sk_workflow_4.png
-
-
-- Add a basis shape keys and two more via the + button on the Shape Key Panel.
-- Uncheck the Relative checkbox.
-- Click the Reset Timing button.
-- Switch to Edit Mode.
-
-.. figure:: /images/absolute_sk_workflow5.png
-   :width: 500px
-
-
-- Select shape key Key 2 to edit the third shape key.
-- Select the extruded side face and :kbd:`G Z 1` confirm with :kbd:`LMB`
-
-.. figure:: /images/absolute_sk_workflow_6.png
-   :width: 500px
-
-
-- Select shape key Basis to edit the first shape key.
-- Select the extruded size face and
-  :kbd:`S 0 . 5` confirm with :kbd:`LMB`, then :kbd:`G X Minus 1` confirm with :kbd:`LMB`.
-
-
-- Switch to Object Mode.
-- Drag *Evaluation Time* to make its value vary from 10 to 30.
-
-.. figure:: /images/absolute_sk_workflow_7.gif
+By adding a :doc:`driver </animation/drivers>` or
+setting :doc:`keyframes </animation/keyframes/introduction>` 
+to *Evaluation Time* you can create an animation.
 
 
 More Details on Absolute Shape Keys

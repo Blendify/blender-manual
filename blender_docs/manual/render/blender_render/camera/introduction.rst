@@ -77,6 +77,7 @@ in the *Render* tab or by activating the option again.
    will become available to view in the 3D View.
 
 .. list-table:: Render border and associated render.
+   :widths: 60 40
 
    * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png
 
