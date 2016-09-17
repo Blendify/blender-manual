@@ -1,15 +1,22 @@
-..    TODO/Review: {{review|text=:Needs a more detailed Uses + Functions section}}.
+.. (todo) Needs more detailed use cases.
 
 *******
 Empties
 *******
 
-The "Empty" is a null object. It contains no real Geometry,
-but can be used as a handle for many purposes.
+The "Empty" is a single coordinate point with no additional geometry.
+Because has no volume and surface, it cannot be rendered.
+Still it can be used as a handle for many purposes.
 
 
-Settings
-========
+Editing
+=======
+
+An Empty can only be edited in *Object Mode*, which includes its transformation and parenting properties.
+
+
+Properties
+==========
 
 .. _object-empty-display:
 
@@ -47,30 +54,29 @@ Display
          where alphas will not always draw on top of other objects when unselected.
 
    Size
-      Controls the local size of the empty. This does not change its scale, but simply resizes the shape.
+      Controls the size of the empties visualization. This does not change its scale, but functions as an offset.
 
 
-Usage and functions
-===================
+Usage
+=====
 
-Empties can serve as transform handles which cannot be edited and do not render.
-Empties are important and useful objects. Some examples of ways to use them include:
+Empties can serve as transform handles. Some examples of ways to use them include:
 
 .. rubric:: Parent object for a group of objects
 
-- An Empty can be parented to any number of other objects.
-  This gives the user the ability to control a group of objects easily, and without affecting a render.
+An Empty can be parented to any number of other objects.
+This gives the user the ability to control a group of objects easily, and without affecting a render.
 
 .. rubric:: Target for constraints
 
-- An empty can also be used as a target for normal, or bone constraints.
-- This gives the user far more control; for instance,
-  a rig can easily be set up to enable a camera to point towards an empty using the *Track to* constraint.
+An empty can also be used as a target for normal, or bone constraints.
+This gives the user far more control; for instance,
+a rig can easily be set up to enable a camera to point towards an empty using the *Track to* constraint.
 
 .. rubric:: Array offset
 
-- An empty can be used to offset an array modifier,
-  meaning complex deformations can be achieved by only moving a single object.
+An empty can be used to offset an array modifier,
+meaning complex deformations can be achieved by only moving a single object.
 
 .. list-table::
 
