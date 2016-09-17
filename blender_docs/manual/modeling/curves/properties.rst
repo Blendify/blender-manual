@@ -1,7 +1,7 @@
 
-****************
-Curve Properties
-****************
+**********
+Properties
+**********
 
 Curve Properties can be set from the *Object Data*
 option in the *Properties Header* (shown below in blue).

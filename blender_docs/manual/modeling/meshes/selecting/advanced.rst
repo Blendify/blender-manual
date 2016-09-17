@@ -239,7 +239,7 @@ Edge Ring
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
 while selecting an edge selects a sequence of edges that are not connected,
-but on opposite sides to each other continuing along a :doc:`face loop </modeling/meshes/mesh_structures>`.
+but on opposite sides to each other continuing along a :doc:`face loop </modeling/meshes/structure>`.
 
 As with edge loops, you can also select edge rings based on current selection,
 using either :menuselection:`Select --> Edge Ring`,

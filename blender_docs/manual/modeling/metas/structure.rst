@@ -1,7 +1,7 @@
 
-**************
-Meta Structure
-**************
+*********
+Structure
+*********
 
 Technical Details
 =================

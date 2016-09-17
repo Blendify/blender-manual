@@ -7,9 +7,9 @@
 .. |euml|   unicode:: U+000EB
 .. |oslash| unicode:: U+000F8
 
-************
-Text Editing
-************
+*******
+Editing
+*******
 
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D View, of course, where you type your text, and have a few shortcuts, e.g. for applying

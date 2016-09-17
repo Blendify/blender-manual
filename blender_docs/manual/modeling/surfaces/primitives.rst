@@ -1,7 +1,7 @@
 
-******************
-Surface Primitives
-******************
+**********
+Primitives
+**********
 
 To help get started in creating surfaces there are four preset NURBS surfaces, found in the
 :menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:`NURBS Tube`,

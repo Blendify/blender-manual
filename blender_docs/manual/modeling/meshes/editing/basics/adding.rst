@@ -40,7 +40,7 @@ It would be useful to model the cup and the handle as separate meshes and only c
 Adding elementary parts to meshes
 =================================
 
-As explained before in :doc:`Mesh Structures </modeling/meshes/mesh_structures>`,
+As explained before in :doc:`Mesh Structures </modeling/meshes/structure>`,
 meshes are objects formed from basic elements such as vertices, edges and faces.
 
 The most elementary part of a mesh is the vertex, a point in 3D space;

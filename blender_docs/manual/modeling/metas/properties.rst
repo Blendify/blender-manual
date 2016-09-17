@@ -1,7 +1,7 @@
 
-********************
-Meta Ball Properties
-********************
+**********
+Properties
+**********
 
 All Meta objects in a scene interact with each other.
 The settings in the *MetaBall* section apply to all meta objects.

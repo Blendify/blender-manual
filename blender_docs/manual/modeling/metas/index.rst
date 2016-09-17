@@ -1,14 +1,14 @@
 .. _modeling-metas-index:
 
-########
-  Metas
-########
+############
+  Metaball
+############
 
 .. toctree::
    :maxdepth: 2
 
    introduction.rst
-   meta_primitives.rst
+   primitives.rst
    structure.rst
    properties.rst
    editing.rst

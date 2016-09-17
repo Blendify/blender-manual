@@ -1,7 +1,7 @@
 
-****************
-Curve Primitives
-****************
+**********
+Primitives
+**********
 
 .. figure:: /images/modeling_curves_introduction_add-curve-menu.png
    :align: right
