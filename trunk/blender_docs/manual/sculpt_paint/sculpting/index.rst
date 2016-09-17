@@ -10,3 +10,4 @@
    introduction.rst
    options.rst
    adaptive.rst
+   hide_mask.rst
