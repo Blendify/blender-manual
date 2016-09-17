@@ -10,3 +10,4 @@
    introduction.rst
    properties.rst
    tools.rst
+   hide_mask.rst
