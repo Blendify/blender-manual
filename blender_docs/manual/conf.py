@@ -82,7 +82,7 @@ print("Using Index:", master_doc)
 
 # General information about the project.
 project = 'Blender %s Manual' % blender_version
-copyright = ': This page is licensed under a CC-BY-SA 4.0 Intl. License'
+copyright = ': This page is licensed under a CC-BY-SA 4.0 Int. License'
 author = 'Blender Documentation Team'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -170,7 +170,7 @@ if sphinx_rtd_theme:
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-html_title = "Blender Reference Manual"
+html_title = "Blender Manual"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -355,7 +355,7 @@ gettext_compact = False     # optional.
 epub_title = 'Blender Reference Manual'
 epub_author = 'Blender Documentation Team'
 epub_publisher = 'Blender Foundation'
-epub_copyright = 'This manual is licensed under a CC-BY-SA 4.0 Intl. License.'
+epub_copyright = 'This manual is licensed under a CC-BY-SA 4.0 Int. License.'
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = project
