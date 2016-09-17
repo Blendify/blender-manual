@@ -4,7 +4,7 @@
 Object Types
 ************
 
-New objects can be created with the *Add* menu  in the 3D views header.
+New objects can be created with the *Add* menu in the 3D Views header.
 
 Mesh
    :doc:`Meshes </modeling/meshes/introduction>` are objects composed of Polygonal Faces, Edges and/or Vertices,
@@ -30,7 +30,7 @@ Armature
    :doc:`Armatures </rigging/armatures/index>` are used for :doc:`rigging </rigging/introduction>`
    3D models in order to make them poseable and animateable.
 Lattice
-   :doc:`Lattice </rigging/lattice>` Lattices are non-renderable wireframes, commonly used for taking additional control
+   :doc:`Lattices </rigging/lattice>` are non-renderable wireframes, commonly used for taking additional control
    over other objects with help of the :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
 Empty
    :doc:`Empties </modeling/empties>` are null objects that are simple visual transform nodes that do not render.
