@@ -25,7 +25,6 @@ Drawing
 =======
 
 The Tool Shelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
-The Tool Shelf can be seen in the screenshot :ref:`fig-gp-tool-properties` below.
 
 .. figure:: /images/sketchinggreasepencil.jpg
 
