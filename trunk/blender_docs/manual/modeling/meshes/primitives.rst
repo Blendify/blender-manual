@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|}}.
 
-***************
-Mesh Primitives
-***************
+**********
+Primitives
+**********
 
 .. admonition:: Reference
    :class: refbox

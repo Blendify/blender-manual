@@ -1,7 +1,7 @@
 
-**************
-Mesh Structure
-**************
+*********
+Structure
+*********
 
 With meshes, everything is built from three basic structures:
 *Vertices*, *Edges* and *Faces*.

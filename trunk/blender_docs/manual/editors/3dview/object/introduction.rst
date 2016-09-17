@@ -35,7 +35,7 @@ Types of Objects
    Meshes are objects composed of Polygonal Faces, Edges and/or Vertices,
    and can be edited extensively with Blender's mesh editing tools. The default scene features a cube,
    which is one of the many included basic building-block
-   shapes called :doc:`Mesh Primitives </modeling/meshes/mesh_primitives>`
+   shapes called :doc:`Mesh Primitives </modeling/meshes/primitives>`
 :doc:`Curves </modeling/curves/introduction>`
    Curves are mathematically defined objects
    which can be manipulated with control handles or control points (instead of vertices),

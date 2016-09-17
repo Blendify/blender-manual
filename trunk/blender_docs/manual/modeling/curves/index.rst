@@ -8,7 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   curve_primitives.rst
+   primitives.rst
    bezier.rst
    nurbs.rst
    properties.rst

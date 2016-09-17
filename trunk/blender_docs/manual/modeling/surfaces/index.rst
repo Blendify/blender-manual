@@ -9,7 +9,7 @@
 
    introduction.rst
    structure.rst
-   surface_primitives.rst
+   primitives.rst
    properties.rst
    selecting.rst
    editing.rst

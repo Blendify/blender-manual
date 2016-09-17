@@ -5,7 +5,7 @@ Empties
 *******
 
 The "Empty" is a single coordinate point with no additional geometry.
-Because has no volume and surface, it cannot be rendered.
+Because an Empty has no volume and surface, it cannot be rendered.
 Still it can be used as a handle for many purposes.
 
 

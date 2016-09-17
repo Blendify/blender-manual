@@ -1,7 +1,7 @@
 
-***************
-Meta Primitives
-***************
+**********
+Primitives
+**********
 
 There are five predefined meta "primitives" (or configurations)
 available in the :menuselection:`Add --> Meta` sub-menu:
