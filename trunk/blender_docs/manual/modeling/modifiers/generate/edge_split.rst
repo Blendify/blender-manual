@@ -12,7 +12,7 @@ Hence, this modifier can be used to achieve the same effect as :ref:`Auto Smooth
 making edges appear sharp when their angle is above a certain threshold.
 It can also be used for manual control of the smoothing process,
 where the user defines which edges should appear smooth or sharp
-(see :doc:`Mesh Smoothing </modeling/meshes/smoothing>` for other ways to do this).
+(see :doc:`Mesh Smoothing </modeling/meshes/editing/smoothing>` for other ways to do this).
 If desired, both modes can be active at once.
 
 The output of the Edge Split modifier is available to export scripts,
