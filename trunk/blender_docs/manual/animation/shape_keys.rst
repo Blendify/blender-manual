@@ -183,7 +183,6 @@ Workflow for Absolute Shape Keys
 - Drag *Evaluation Time* to see how the shapes succeed one to the next.
 
 .. figure:: /images/animation_shape-keys_workflow-absolute.png
-   :align: right
 
    Absolute Shape Keys workflow.
 
