@@ -19,7 +19,7 @@ Material slots
 --------------
 
 Active Material
-   The objects material slots displayed in a :ref:`ui-list-view`.
+   The objects material slots displayed in a :ref:`List View <ui-list-view>`.
    
    Specials
       Copy and paste the selected material slot.
