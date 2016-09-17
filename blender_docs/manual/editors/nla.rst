@@ -1,8 +1,6 @@
 ..    TODO/Review: {{review|text=Needs clarification & updates.
       |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]}}.
 
-.. |snowflake-button| image:: /images/icons_snowflake.png
-   :width: 1.1em
 
 ***************************
 Non-Linear Animation Editor
@@ -21,7 +19,9 @@ Tracks are the layering system of the NLA. At its most basic level,
 it can help organize strips. But it also layers motion much like an image editor layers pixels --
 the bottom layer first, to the top, last.
 
-.. figure:: /images/nla_track.png
+.. figure:: /images/editors_nla_tracks.png
+
+   NLA Tracks and Strips.
 
 
 Strips
@@ -37,23 +37,20 @@ Creating Action Strips
 ----------------------
 
 Any action used by the NLA first must be turned into an Action strip.
-This is done so by clicking the |snowflake-button|
-next to the action listed in the NLA. Alternatively, you can go to :menuselection:`Add --> Action`.
+This is done so by clicking the Push Down action button
+next to the action listed in the NLA.
+Alternatively, you can go to :menuselection:`Add --> Action`.
 
-.. figure:: /images/nla_action_strip.png
+.. figure:: /images/editors_nla_push-down-button.png
 
-   Action Strip.
+   Push Down action button.
 
 
 Creating Transition Strips
 --------------------------
 
-Select two or more strips on the same track, and go to:
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Menu:     :menuselection:`Add --> Transition`
+Select two or more strips on the same track,
+and go to: :menuselection:`Add --> Transition`.
 
 .. figure:: /images/nla-basics_transition.png
 
@@ -180,21 +177,21 @@ Strip properties can be accessed via the NLA header.
 
    | Menu:     :menuselection:`View --> Properties`
 
+.. figure:: /images/editors_nla_animation-data-panel.png
+
+   Animation Data panel
+
 
 Renaming Strips
 ---------------
 
 All strips can be renamed, in the "Active Track" section in the Strip Properties.
 
-.. figure:: /images/nla_striprename.png
-
 
 Active Track
 ------------
 
 This is which track the strip currently belongs to.
-
-.. figure:: /images/activetrack.jpg
 
 
 Active Strip
@@ -209,7 +206,9 @@ or a Transition Clip.
    Also, the "Hold" value in the Extrapolation section means hold both beginning, and after.
    This can cause previous clips to not work, if checked.
 
-.. figure:: /images/activestrip.jpg
+.. figure:: /images/editors_nla_active-strip-panel.png
+
+   Active Strip panel
 
 
 Active Action
@@ -217,7 +216,9 @@ Active Action
 
 This represents the 'object data' of the strip. Much like the transform values of an object.
 
-.. figure:: /images/actionclip.png
+.. figure:: /images/editors_nla_action-clip-panel.png
+
+   Action Clip panel
 
 
 Evaluation
@@ -225,7 +226,9 @@ Evaluation
 
 This determines the degree of influence the strip has, and over what time.
 
-.. figure:: /images/evaluation.jpg
+.. figure:: /images/editors_nla_evaluation-panel.png
+
+   Evaluation panel
 
 
 If influence is not animated, the strips will fade linearly, during the overlap.
@@ -240,4 +243,4 @@ Like its close cousins in mesh and graph editing,
 Modifiers can stack different combinations of effects for strips.
 Obviously there will be more to come on this.
 
-.. figure:: /images/modifier.png
+See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`.
