@@ -47,18 +47,18 @@ and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see
 
 .. list-table::
 
-   * - .. figure:: /images/bevel1.jpg
-          :width: 200px
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_example-1.png
+          :width: 320px
 
           Selected edge before beveling.
 
-     - .. figure:: /images/bevel2.jpg
-          :width: 200px
+     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_example-2.png
+          :width: 320px
 
           Result of bevel (one segment).
 
-     - .. figure:: /images/bevel6.jpg
-          :width: 200px
+     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_example-3.png
+          :width: 320px
 
           Result of bevel (vertex only).
 
@@ -72,7 +72,9 @@ and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see
 Options
 =======
 
-.. figure:: /images/beveloptions.jpg
+.. figure:: /images/modeling_meshes_editing_subdividing_bevel_panel.png
+   :align: right
+
 
 Amount
    You can change the bevel amount by moving the mouse towards and away from the object,
@@ -97,8 +99,8 @@ Segments
    Alternatively, you can manually enter a segment number value while using the tool,
    or in the Mesh Tool options panel after using the tool.
 
-   .. figure:: /images/bevel3.jpg
-      :width: 300px
+   .. figure:: /images/modeling_meshes_editing_subdividing_bevel_example-4.png
+      :width: 320px
 
       Bevel with four segments.
 
@@ -124,18 +126,18 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/bevel4.jpg
-          :width: 200px
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_example-5.png
+          :width: 320px
 
           Result of beveling multiple edges.
 
-     - .. figure:: /images/bevel5.png
-          :width: 200px
+     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_example-6.png
+          :width: 320px
 
           Another example of beveling multiple edges.
 
-     - .. figure:: /images/bevel7.jpg
-          :width: 200px
+     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_example-7.png
+          :width: 320px
 
           An example using Profile=0.150.
 
