@@ -39,6 +39,8 @@ These tabs are used to add features, and to change properties for the Active Sce
 - World: :doc:`Blender Internal </render/blender_render/world/index>`, :doc:`Cycles </render/cycles/world>`
 
 
+.. _properties-data-tabs:
+
 Object & Object Data
 --------------------
 
