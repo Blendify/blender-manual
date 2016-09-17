@@ -14,3 +14,4 @@
    properties.rst
    selecting.rst
    editing/index.rst
+   curve_display.rst
