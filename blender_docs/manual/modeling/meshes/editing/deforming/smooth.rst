@@ -61,7 +61,7 @@ mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive
 .. note:: Real Smoothing versus Shading Smoothing
 
    Do not mistake this tool with the shading smoothing options described at
-   :doc:`this page </modeling/meshes/smoothing>`, they do not work the same!
+   :doc:`this page </modeling/meshes/editing/smoothing>`, they do not work the same!
    This tool modifies the mesh itself, to reduce its sharpness, whereas *Set Smooth* / *AutoSmooth* and co.
    only control the way the mesh is shaded,
    creating an *illusion* of softness, but without modifying the mesh at all...
