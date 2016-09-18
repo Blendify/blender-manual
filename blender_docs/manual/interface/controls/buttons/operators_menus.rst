@@ -39,6 +39,11 @@ Menu Shortcuts
 Header Menus
 ------------
 
+.. figure:: /images/interface_menu_button.png
+   :align: right
+
+   The Info Editor menu buttons.
+
 Header menus are used to configure the editor and access tools.
 
 See :ref:`ui-region-header` for header options.
