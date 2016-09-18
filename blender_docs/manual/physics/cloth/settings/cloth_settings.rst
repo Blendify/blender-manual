@@ -11,7 +11,7 @@ Presets
 Quality
    Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
 Speed
-   Adust how fast time flows in the cloth simulation.
+   Adjust how fast time flows in the cloth simulation.
 
 Material
 --------
