@@ -41,12 +41,12 @@ This is a more limited feature than using an IK constraint, which can be configu
 but it can be useful for quick posing.
 
 
-IK Contraints
-=============
+IK Constraints
+==============
 
 IK is mostly done with bone constraints.
 They work by the same method but offer more choices and settings.
-Please refer to these pages for detail about the settings for the contraints:
+Please refer to these pages for detail about the settings for the constraints:
 
 - :doc:`IK Solver </rigging/constraints/tracking/ik_solver>`
 - :doc:`Spline IK </rigging/constraints/tracking/spline_ik>`
@@ -66,7 +66,7 @@ Most the time people will use the *Standard* IK solver.
 There is some documentation for the *iTaSC* "instantaneous Task Specification using
 Constraints" IK solver here.
 
-..seealso::
+.. seealso::
 
    `Robot IK Solver <https://wiki.blender.org/index.php/Dev:Source/GameEngine/RobotIKSolver>`__.
 
@@ -83,15 +83,12 @@ This panel is used to control how the *Pose Bones* work in the IK chain.
 
 Lock
    Disallow movement around the axis.
-
 Stiffness
    Stiffness around the axis. Influence disabled if using *Lock*.
-
 Limit
    Limit movement around the axis.
-
 Stretch
-   Stretch influence to IK target. 0.000 is the same as disabled.
+   Stretch influence to IK target.
 
 
 Arm Rig Example

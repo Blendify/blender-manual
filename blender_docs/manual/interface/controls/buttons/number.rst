@@ -5,18 +5,20 @@
 Number Buttons
 **************
 
-.. figure:: /images/interface_numberbutton.jpg
+.. figure:: /images/interface_number_button.png
    :align: right
 
    Number buttons.
 
 
-Number buttons can be identified by their labels,
-which in most cases contains the name and a colon followed by a number.
-Number buttons can be edited in several ways:
+Number buttons can be identified by the triangles pointing left (◂) and right (▸) on the sides of the button.
+The second type number sliders have a bar in the background and are used for values in a range,
+i.e. percentage values. Both types have round corners.
+In most cases they contain a name and a colon followed by the number.
+The value can be edited in several ways:
 
 Incremental Steps
-   To change the value in steps, click :kbd:`LMB` on the small triangles on the sides of the button.
+   To change the value in steps, click :kbd:`LMB` on the small triangles (number button only).
 Dragging
    To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
 Text Input
@@ -52,6 +54,33 @@ and input the value with the :kbd:`Numpad`. The second is the "hard limit",
 this is the value that cannot be surpassed even by :kbd:`LMB` and inputing a value.
 
 
+Units
+=====
+
+As well as expressions, you can mix units with numbers; for this to work,
+units need to be set in the :ref:`scene settings <data-scenes-props-units>`.
+
+To use units simply write either the unit abbreviation or the full name after the value.
+
+Examples of valid units include:
+
+.. hlist::
+   :columns: 2
+
+   - ``1cm``
+   - ``1m 3mm``
+   - ``1m, 3mm``
+   - ``2ft``
+   - ``3ft/0.5km``
+   - ``2.2mm + 5' / 3" - 2yards``
+
+.. note:: Some notes about using units:
+
+   - Commas are optional.
+   - You can mix between metric and imperial even though you can only show one at a time.
+   - Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
+
+
 Expressions
 ===========
 
@@ -81,31 +110,4 @@ The expression ``#frame`` is a quick way to access map a value to the current fr
 but more complex expressions are also supported ``#fmod(frame, 24) / 24`` for example.
 
 This is simply a convenient shortcut to add drivers which can also be added via the :kbd:`RMB` menu.
-
-
-Units
-=====
-
-As well as expressions, you can mix units with numbers; for this to work,
-units need to be set in the :ref:`scene settings <data-scenes-props-units>`.
-
-To use units simply write either the unit abbreviation or the full name after the value.
-
-Examples of valid units include:
-
-.. hlist::
-   :columns: 2
-
-   - ``1cm``
-   - ``1m 3mm``
-   - ``1m, 3mm``
-   - ``2ft``
-   - ``3ft/0.5km``
-   - ``2.2mm + 5' / 3" - 2yards``
-
-.. note:: Some notes about using units:
-
-   - Commas are optional.
-   - You can mix between metric and imperial even though you can only show one at a time.
-   - Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
 
