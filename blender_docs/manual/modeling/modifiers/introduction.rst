@@ -11,7 +11,7 @@ They work by changing how an object is displayed and rendered, but not the geome
 You can add several modifiers to a single object to form `The Modifier Stack`_
 and *Apply* a modifier if you wish to make its changes permanent.
 
-.. figure:: /images/modifiers_menu.png
+.. figure:: /images/modeling_modifiers_introduction_menu.png
 
    Modifiers Menu.
 
@@ -136,7 +136,7 @@ and then calculating the subdivision surface.
 Example
 ^^^^^^^
 
-.. figure:: /images/modifier-stackorder-example3.jpg
+.. figure:: /images/modeling_modifiers_introduction_stack-example-3.png
 
    In this example a simple subdivided cube has been transformed into a rather complex object using
    a stack of modifiers.

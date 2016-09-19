@@ -13,7 +13,7 @@ Brush Type
    Brushes are brush presets. They are a combination of a 'tool',
    along with stroke, texture, and options.
 
-   .. figure:: /images/sculpt_brushes.png
+   .. figure:: /images/sculpt-paint_sculpting_options_brushes.png
 
       Sculpt brushes.
 

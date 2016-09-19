@@ -30,7 +30,7 @@ Freeze Operator
 Data Type
    Which data to transfer.
 
-   .. figure:: /images/modeling_mesh_data-transfer_data-type.png
+   .. figure:: /images/modeling_meshes_editing_data-transfer.png
 
       Data types.
 
@@ -170,7 +170,7 @@ Transfers layout of data layer(s) from active to selected meshes.
 Data Type
    Which data to transfer.
 
-   .. figure:: /images/modeling_mesh_data-transfer_data-type.png
+   .. figure:: /images/modeling_meshes_editing_data-transfer.png
 
       Data types.
 
