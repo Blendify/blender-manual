@@ -73,7 +73,7 @@ Numerical selection
    You can use the number keys or :kbd:`Numpad` to input an item in the list to select.
    For example, :kbd:`Numpad-1` will select the first item and so on.
 
-Pop-ups can be dragged around by there title.
+Pop-ups can be moved by dragging there title.
 
 .. RMB context menu (reset, copy, manual access, edit source, translation)
 

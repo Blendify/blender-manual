@@ -31,7 +31,7 @@ Text Input
    - Press :kbd:`Esc` will cancel the value.
    - Press :kbd:`Tab` to jump to the next number button.
 
-Press :kbd:`Minus` while hovering over the button to negate the value or to make the value positive if it is already negative.
+Press :kbd:`Minus` while hovering over the button to negate the value.
 
 
 Multi-Value Editing

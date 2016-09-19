@@ -92,6 +92,13 @@ The *Tool Shelf* by default on the left side contains the tool settings.
 :kbd:`T` toggles the visibility of Tool Shelf Region.
 
 
+Operator panel
+--------------
+
+The Operator panel is a region thats part of the Tool Shelf containing only one panel.
+It displays the inputs of the last operator executed.
+
+
 Properties Region
 =================
 
@@ -99,8 +106,6 @@ The *Properties Region* is by default on the right side.
 It contains :ref:`Panels <ui-panels>`
 with settings of objects within the editor and the editor itself.
 :kbd:`N` toggles the visibility of Properties Region.
-
-.. Operator panel/region?
 
 
 Arranging
