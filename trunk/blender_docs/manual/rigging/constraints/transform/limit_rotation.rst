@@ -8,7 +8,7 @@ This constraint restricts the amount of allowed rotations around each axis,
 through lower and upper bounds.
 
 It is interesting to note that even though the constraint limits the visual and rendered
-rotations of its owner, its owner's data block still allows (by default)
+rotations of its owner, its owner's data-block still allows (by default)
 the object or bone to have rotation values outside the minimum and maximum ranges.
 This can be seen in the *Transform Properties* panel :kbd:`N`.
 When an owner is rotated and attempted to be rotated outside the limit boundaries,

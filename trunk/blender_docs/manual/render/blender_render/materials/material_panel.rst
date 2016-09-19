@@ -56,7 +56,7 @@ Data-block Links
    These two menu choices determine whether the material is linked to the object or to the data,
    (i.e. a mesh or curve). The Data menu item determines that this material will be linked to the mesh's
    data-block which is linked to the object's data-block.
-   The Object menu item determines that the material will be linked to the object's data block directly.
+   The Object menu item determines that the material will be linked to the object's data-block directly.
 
    This has consequences of course. For example, different objects may share the same mesh data-block.
    Since this data-block defines the shape of the object any change in edit mode 

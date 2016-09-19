@@ -11,7 +11,7 @@ The limits for an object are calculated from its center, and the limits of a bon
 from its root.
 
 It is interesting to note that even though the constraint limits the visual and rendered
-location of its owner, its owner's data block still allows (by default)
+location of its owner, its owner's data-block still allows (by default)
 the object or bone to have coordinates outside the minimum and maximum ranges.
 This can be seen in its *Transform Properties* panel :kbd:`N`.
 When an owner is grabbed and attempted to be moved outside the limit boundaries,
