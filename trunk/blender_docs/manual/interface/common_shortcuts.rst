@@ -64,6 +64,11 @@ While Hovering (when the cursor is held over a button).
 
   Note that in most cases it is best to access values based on the context, instead of by name.
 
+.. rubric:: While Dragging
+
+- :kbd:`Ctrl` -- While dragging snap the discrete steps.
+- :kbd:`Shift` -- Gives precision control over the value.
+
 .. rubric:: While Editing Text
 
 - :kbd:`Home` -- Go to the start.
