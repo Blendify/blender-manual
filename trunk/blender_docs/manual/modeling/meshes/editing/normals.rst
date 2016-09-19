@@ -11,6 +11,11 @@ Todo.
 .. Explain what are normals
 
 
+.. figure:: /images/modeling_meshes_editing_normals.png
+
+   Normals visualization.
+
+
 .. _modeling-meshes-editing-normals-editing:
 
 Editing

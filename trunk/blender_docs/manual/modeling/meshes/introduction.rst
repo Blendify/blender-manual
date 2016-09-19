@@ -114,9 +114,9 @@ if enough vertices or edges are selected to define a face, that face is also hig
 Tool Shelf
 ==========
 
-.. figure:: /images/editmode-meshtools-split.jpg
+.. figure:: /images/modeling_meshes_introduction_tool-shelf-region.png
 
-   The Tool Shelf panel in edit mode (panel split in two parts for layout reasons).
+   The Tool Shelf panel in edit mode.
 
 
 Open/close the *Mesh Tools* panel using :kbd:`T`.
@@ -135,9 +135,9 @@ For further information see :ref:`Panels <ui-panels>`.
 Properties Region
 =================
 
-.. figure:: /images/editmode-properties-split.jpg
+.. figure:: /images/modeling_meshes_introduction_properties-region.png
 
-   The Properties region in edit mode (panel split in two parts for layout reasons).
+   The Properties region in edit mode.
 
 
 Open/close the *Properties region* using :kbd:`N`.

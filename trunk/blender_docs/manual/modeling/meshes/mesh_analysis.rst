@@ -34,7 +34,7 @@ Overhang
 Extrusion 3D printers have a physical limit to the overhang that can be printed,
 this display mode shows the overhang with angle range and axis selection.
 
-.. figure:: /images/editmode_mesh_statvis_overhang.jpg
+.. figure:: /images/modeling_meshes_mesh-analysis_overhang.png
    :width: 350px
    :align: center
 
@@ -47,7 +47,7 @@ Thickness
 Printers have a limited *wall-thickness* where very thin areas cannot be printed,
 this test uses ray casting and a distance range to the thickness of the geometry.
 
-.. figure:: /images/editmode_mesh_statvis_thick.jpg
+.. figure:: /images/modeling_meshes_mesh-analysis_thickness.png
    :width: 400px
    :align: center
 
@@ -62,7 +62,7 @@ where the inside/outside of a model cannot be reliably detected.
 
 Unlike other display modes, intersections have no variance and are either on or off.
 
-.. figure:: /images/editmode_mesh_statvis_intersect.jpg
+.. figure:: /images/modeling_meshes_mesh-analysis_intersections.png
    :width: 400px
    :align: center
 
@@ -77,7 +77,7 @@ Distorted geometry can cause problems since the triangulation of a distorted ngo
 Distortion is measured by faces which are not flat,
 with parts of the face pointing in different directions.
 
-.. figure:: /images/editmode_mesh_statvis_distort.jpg
+.. figure:: /images/modeling_meshes_mesh-analysis_distortion.png
    :width: 300px
    :align: center
 
@@ -89,7 +89,7 @@ Sharp Edges
 
 Similar to wall-thickness, sharp edges can form shapes that are too thin to be able to print.
 
-.. figure:: /images/editmode_mesh_statvis_sharp.jpg
+.. figure:: /images/modeling_meshes_mesh-analysis_sharp-edges.png
    :width: 350px
    :align: center
 
