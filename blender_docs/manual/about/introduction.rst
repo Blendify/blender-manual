@@ -9,8 +9,8 @@ to help you to become familiar with the application.
 Conventions
 ===========
 
-Keybords
---------
+Keyboards
+---------
 
 Hotkey letters are shown in this manual like they appear on a keyboard; for example,
 
