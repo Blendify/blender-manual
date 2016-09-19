@@ -1,7 +1,7 @@
 
-****************
-File Preferences
-****************
+****
+File
+****
 
 The *File Preferences* tab allows you to configure auto-save preferences and set default file paths for
 blend-files, rendered images, and more.

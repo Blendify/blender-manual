@@ -64,14 +64,16 @@ after a key input at the mouse position.
 For example, the *Viewport Shading* button will produce a pop-up menu
 with the available shading options.
 
+
 .. container:: lead
 
    .. clear
 
-.. tip::
-
-   You can use the :kbd:`Numpad` to input an item in the list to select.
+Numerical selection
+   You can use the number keys or :kbd:`Numpad` to input an item in the list to select.
    For example, :kbd:`Numpad-1` will select the first item and so on.
+
+Pop-ups can be dragged around by there title.
 
 .. RMB context menu (reset, copy, manual access, edit source, translation)
 

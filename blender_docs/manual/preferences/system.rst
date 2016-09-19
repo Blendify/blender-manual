@@ -1,7 +1,7 @@
 
-******************
-System Preferences
-******************
+******
+System
+******
 
 The *System* tab allows you to set resolution, scripting console preferences, sound, graphics cards,
 and internationalization.
