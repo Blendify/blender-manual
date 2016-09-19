@@ -116,7 +116,7 @@ Data-Block Types
 For reference, here is a table of data-blocks types stored in blend-files.
 
 
-:Link: Library Linking, supports bing linked into other blend-files.
+:Link: Library Linking, supports being linked into other blend-files.
 :Pack: File Packing, supports file contents being packed into the blend-file.
 
 
@@ -148,7 +148,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |cross|
      - | Skeleton used to deform meshes.
-       | Used as object-data & by the Armature Modifier.
+       | Used as object data & by the Armature Modifier.
    * - Brush
      - |tick|
      - |cross|
@@ -156,7 +156,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - Camera
      - |tick|
      - |cross|
-     - | Used as object-data.
+     - | Used as object data.
    * - Curve
      - |tick|
      - |cross|
@@ -190,7 +190,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - |cross|
      - | Grid based lattice deformation.
-       | Used as object-data and by the Lattice Modifier.
+       | Used as object data and by the Lattice Modifier.
    * - Library
      - |cross|
      - |tick|
@@ -229,7 +229,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |cross|
      - | Collections of re-usable nodes.
-       | Used in the node-editor.
+       | Used in the Node Editor.
    * - Object
      - |tick|
      - |cross|
@@ -260,7 +260,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - |cross|
      - | Geometry shape storage, which can be animated.
-       | Used by mesh, curve and lattice objects.
+       | Used by mesh, curve, and lattice objects.
    * - Sounds
      - |tick|
      - |tick|
