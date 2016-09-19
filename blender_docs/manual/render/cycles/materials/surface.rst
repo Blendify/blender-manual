@@ -5,7 +5,7 @@ Surface
 *******
 
 The surface shader defines the light interaction at the surface of the mesh. One or more
-:abbr:`BSDF (Bidirectional scattering distribution function)` s specify if incoming light is
+:abbr:`BSDF (Bidirectional scattering distribution function)`'s specify if incoming light is
 reflected back, refracted into the mesh, or absorbed.
 
 Emission defines how light is emitted from the surface,

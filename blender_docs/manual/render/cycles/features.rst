@@ -54,7 +54,7 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
      - |tick|
      - |tick|
      - |cross|
-   * - Displacement / Subdivision
+   * - Displacement/Subdivision
      - |tick| :sup:`(experimental)`
      - |tick| :sup:`(experimental)`
      - |tick| :sup:`(experimental)`
