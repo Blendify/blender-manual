@@ -7,6 +7,16 @@
  *     https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
  */
 
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i';
+
+/* sidebar menu links */
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover { background: #c0c0c0; }
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover { background: #b5b5b5; }
+.wy-menu-vertical li.toctree-l4 { font-size: 1em; }
+.wy-menu-vertical li.current a { border: 0; }
+.wy-side-nav-search > a:hover { background: none; }
+.wy-side-nav-search > a.icon::before { content: none; }
+
 /* kbd role */
 .kbd.docutils.literal {
 	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
