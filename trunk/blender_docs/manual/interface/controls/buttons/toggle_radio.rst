@@ -37,3 +37,6 @@ Radio Buttons
 
 
 Radio buttons are used to choose from a small selection of "mutually exclusive" options.
+Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over it, to cycle between the the options.
+
+.. cycling works also for: number, selects (aka dropdown)

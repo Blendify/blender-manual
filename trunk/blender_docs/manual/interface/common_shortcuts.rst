@@ -41,14 +41,6 @@ While Hovering (when the cursor is held over a button).
 
   For pop-up option menus buttons, this cycles the value.
 
-.. rubric:: File Browser:
-
-- :kbd:`LMB` -- Select a new file.
-- :kbd:`Shift-LMB` -- Open the file externally
-  (using the system's default editor).
-- :kbd:`Alt-LMB` -- Open the directory externally
-  (using the systems file manager).
-
 .. rubric:: Animation:
 
 - :kbd:`I` -- Insert a keyframe.
@@ -71,11 +63,6 @@ While Hovering (when the cursor is held over a button).
 - :kbd:`Ctrl-Alt-Shift-C` -- Over property buttons copies their *full* data-path for the Data-Block and property.
 
   Note that in most cases it is best to access values based on the context, instead of by name.
-
-.. rubric:: While Dragging Numbers
-
-- :kbd:`Ctrl` -- While dragging snap the discrete steps.
-- :kbd:`Shift` -- Gives finer control over the value.
 
 .. rubric:: While Editing Text
 

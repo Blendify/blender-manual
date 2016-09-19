@@ -21,6 +21,7 @@ Incremental Steps
    To change the value in steps, click :kbd:`LMB` on the small triangles (number button only).
 Dragging
    To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
+   Hold :kbd:`Ctrl` to snap to the discrete steps while dragging or :kbd:`Shift` for precision input.
 Text Input
    Press :kbd:`LMB` or :kbd:`Return` to edit the value as a text field.
 
@@ -28,6 +29,9 @@ Text Input
 
    - Press :kbd:`Return` to apply the change.
    - Press :kbd:`Esc` will cancel the value.
+   - Press :kbd:`Tab` to jump to the next number button.
+
+Press :kbd:`Minus` while hovering over the button to negate the value or to make the value positive if it is already negative.
 
 
 Multi-Value Editing

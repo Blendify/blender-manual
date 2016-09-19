@@ -44,95 +44,8 @@ by the confirmation with the *Open image* button or :kbd:`Return`.
    Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
 
-Shortcuts
-=========
-
-Path Fields
------------
-
-Increment Filename :kbd:`Plus`, :kbd:`Minus`
-   Adds or removes a trailing number to your file name 
-   *(use to make *versions* of a file)*.
-Auto Complete :kbd:`Tab`
-   When in the directory editor, this will auto-complete existing paths.
-
-
-Navigation
-----------
-
-Enter Path :kbd:`Return`
-   Enter the directory.
-Parent Directory :kbd:`Backspace`, :kbd:`P`
-   Takes you up one level of directory.
-
-
-View
-----
-
-Hidden Files :kbd:`H`
-   Toggle displaying hidden files.
-
-
-Selection
----------
-
-(De)select All :kbd:`A`
-   Toggles selecting all files.
-
-
-Arrow Keys Navigation
-^^^^^^^^^^^^^^^^^^^^^
-
-It is also possible to select/deselect files by "walking" through them using the arrow keys.
-
-- Just using an arrow key, the next file in the chosen direction will be selected and all others deselected.
-- Holding down :kbd:`Shift` while doing this does not deselect anything so it extends to the selection,
-  plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence).
-- Holding down :kbd:`Ctrl-Shift` further selects/deselects all files in-between.
-
-If no file is selected, the arrow key navigation selects the first or last file in the directory,
-depending on the arrow direction.
-
-If you select a directory and hit enter, you will now go into that directory
-(and highlighting 'parent' entry will bring you up one level).
-
-
-File Management
----------------
-
-Delete Files :kbd:`Delete`, :kbd:`X`
-   Delete the currently selected files.
-Rename :kbd:`Ctrl-LMB`
-   Can be used on a file or directory to rename it.
-
-
-Interface
-=========
-
-Tool Shelf
-----------
-
-The left region displays different ways to find files and several options.
-
-System
-   The system menu contains a list of drives that are available
-   to navigate through to find files. Click on one to jump to that drive.
-System Bookmarks
-   Bookmarks that are common for a particular operating system.
-Bookmarks
-   These are folders that you want to be able to access often without 
-   having to navigate to them in the file browser. 
-   To add a directory to the bookmark menu, navigate to that folder,
-   then click the *Add* button.
-   To remove a folder from the list, simply click the *X* icon next to it.
-Recent
-   This is a list of recently accessed folders. You can control how many folders appear in this
-   list by going to the *File* tab of the :doc:`User Preferences </preferences/file>`,
-   in the box labeled *Recent Files*.
-
-
 Header
-------
+======
 
 Navigation icon buttons
    Tools for navigation of files.
@@ -174,7 +87,7 @@ Sorting
    - By Date of last edit
    - By file size
 Show hidden
-   Shows files that start with ``.``
+   Shows files that start with ``.`` :kbd:`H`.
 File filtering
    Filters files by type.
 
@@ -190,3 +103,98 @@ File filtering
 
    Search box
       Filter files by name.
+
+
+File Region
+===========
+
+File Path
+   Auto Complete :kbd:`Tab` will auto-complete an existing paths.
+File Name
+   Textbox to edit the file name and extension.
+   If the background is red, a file with same name already exist in the folder.
+Increment Filename ``+``, ``-``
+   Adds/increase or removes/decreases a trailing number to your file name 
+   (use to make *versions* of a file).
+Execute
+   The main button to Open Directory/File or Save (As) :kbd:`Return`.
+
+   - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file`).
+   - :kbd:`Alt-LMB` -- Open the directory externally (using the systems file manager).
+Chancel
+   Cancels the Open or Save file selection and closes the File browser :kbd:`Esc`.
+
+
+Tool Shelf
+==========
+
+The left region displays different ways to find files and several options.
+
+System
+   The system menu contains a list of drives that are available
+   to navigate through to find files. Click on one to jump to that drive.
+System Bookmarks
+   Bookmarks that are common for a particular operating system.
+Bookmarks
+   These are folders that you want to be able to access often without 
+   having to navigate to them in the file browser. 
+   To add a directory to the bookmark menu, navigate to that folder,
+   then click the *Add* button.
+   To remove a folder from the list, simply click the *X* icon next to it.
+Recent
+   This is a list of recently accessed folders. You can control how many folders appear in this
+   list by going to the *File* tab of the :doc:`User Preferences </preferences/file>`,
+   in the box labeled *Recent Files*.
+
+.. (todo) link open/save file options.
+
+
+Main Region
+===========
+
+Navigation
+----------
+
+Parent Directory :kbd:`Backspace`, :kbd:`P`
+   Takes you up one level of directory.
+
+
+Arrow Keys
+^^^^^^^^^^
+
+With :kbd:`Alt` pressed. ToDo.
+
+
+Selection
+---------
+
+Select
+   Both :kbd:`LMB` and :kbd:`RMB` works.
+(De)select All :kbd:`A`
+   Toggles selecting all files.
+
+
+Arrow Keys
+^^^^^^^^^^
+
+It is also possible to select/deselect files by "walking" through them using the arrow keys.
+
+- Just using an arrow key, the next file in the chosen direction will be selected and all others deselected.
+- Holding down :kbd:`Shift` while doing this does not deselect anything so it extends to the selection,
+  plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence).
+- Holding down :kbd:`Ctrl-Shift` further selects/deselects all files in-between.
+
+If no file is selected, the arrow key navigation selects the first or last file in the directory,
+depending on the arrow direction.
+
+If you select a directory and hit enter, you will now go into that directory
+(and highlighting 'parent' entry will bring you up one level).
+
+
+File Management
+---------------
+
+Delete Files :kbd:`Delete`, :kbd:`X`
+   Delete the currently selected files.
+Rename :kbd:`Ctrl-LMB`
+   Can be used on a file or directory to rename it.
