@@ -176,7 +176,7 @@ material is as follows:
 #. Click the Assign button, and the second material will appear on the selected object faces.
 
 
-You can also make this new material a copy of an existing material by adding the data block:
+You can also make this new material a copy of an existing material by adding the data-block:
 
 Select the object, get the material, (R Click) and Copy data to clipboard.
 When you have renamed the material, click "Link: Data" to link to the existing material.

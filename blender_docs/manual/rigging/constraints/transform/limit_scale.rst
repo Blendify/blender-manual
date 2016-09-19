@@ -18,7 +18,7 @@ through lower and upper bounds.
 
 
 It is interesting to note that even though the constraint limits the visual and rendered scale
-of its owner, its owner's data block still allows (by default)
+of its owner, its owner's data-block still allows (by default)
 the object or bone to have scale values outside the minimum and maximum ranges
 (as long as they remain positive!).
 This can be seen in its *Transform Properties* panel :kbd:`N`.
