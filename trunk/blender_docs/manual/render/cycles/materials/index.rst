@@ -7,8 +7,8 @@
    :maxdepth: 2
 
    introduction.rst
-   displacement.rst
    surface.rst
    volume.rst
+   displacement.rst
    settings.rst
    texture_editing.rst
