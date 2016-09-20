@@ -15,6 +15,8 @@ Exclude
    That is what this option allows you to do.
 
 
+.. _render-cycles-passes:
+
 Passes
 ======
 

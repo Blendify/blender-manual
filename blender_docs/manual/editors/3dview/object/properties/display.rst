@@ -35,6 +35,8 @@ Maximum Draw Type
    The Maximum shading mode to display in the 3D View.
    This can be useful if you have a high poly object that is slowing down performance.
 
+.. _objects-display-object-color:
+
 Object Color
    Allows to specify the color used when the *Object Color* in
    :doc:`Material Options </render/blender_render/materials/properties/options>`

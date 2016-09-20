@@ -41,8 +41,7 @@ To *add to the selection*, use :kbd:`Shift-RMB` on more objects.
 If the *objects are overlapping* in the view,
 you can use :kbd:`Alt-RMB` to cycle through possible choices.
 
-If you want *to add to a selection* this way then the shortcut becomes
-:kbd:`Shift-Alt-RMB`.
+If you want *to add to a selection* this way then the shortcut becomes :kbd:`Shift-Alt-RMB`.
 
 To *activate an object* that is already selected, click :kbd:`Shift-RMB` on it.
 
@@ -213,17 +212,13 @@ Group
 Object Hooks
    Every hook that belongs to the active object.
 Pass
-   Select objects assigned to the same render pass.
-   Render passes are set in :menuselection:`Properties --> Object --> Relations`
-   and can be used in the *Node Compositor*
-   :menuselection:`Add --> Convertor --> ID Mask`.
+   Select objects assigned to the same :ref:`render pass <render-cycles-passes>.
 Color
-   Select objects with same *Object Color*.
-   Object colors are set in :menuselection:`Properties --> Object --> Display --> Object Color`.
+   Select objects with same :ref:`Object Color <objects-display-object-color>`.
 Properties
-   Select objects with same *Game Engine* *Properties*.
+   Select objects with same :doc:`Game Engine Properties </game_engine/logic/properties>`.
 Keying Set
-   Select objects included in active Keying Set.
+   Select objects included in the active :doc:`Keying Set </keyframes/keying_sets>`.
 Lamp Type
    Select matching lamp types.
 Pass Index
@@ -285,9 +280,8 @@ object of a certain type in one go.
 Options
 ^^^^^^^
 
-The types are *Mesh*, *Curve*, *Surface*, *Meta*,
-*Font*, *Armature*, *Lattice*, *Empty*,
-*Camera*, *Lamp*, *Speaker*.
+The types are *Mesh*, *Curve*, *Surface*, *Meta*, *Font*,
+*Armature*, *Lattice*, *Empty*, *Camera*, *Lamp*, *Speaker*.
 
 
 Select All by Layer
