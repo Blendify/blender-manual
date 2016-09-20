@@ -10,3 +10,4 @@
    light_paths.rst
    passes.rst
    motion_blur.rst
+   object.rst
