@@ -21,13 +21,13 @@ the end frame number, etc...), simply run:
 
    Arguments are executed in the order they are given!
 
-   The following command will not work, since the output and extension is set after Blender is told to render:
+   The following command will not work, since the output and extension are set after Blender is told to render:
 
    .. code-block:: sh
 
       blender -b file.blend -a -x 1 -o //render
 
-   The following command will behave as expected.
+   The following command will behave as expected:
 
    .. code-block:: sh
 
@@ -47,7 +47,7 @@ Linux
 -----
 
 Open a terminal, then go to the directory where Blender is installed,
-and run Blender like this.
+and run Blender like this:
 
 .. code-block:: sh
 
@@ -92,7 +92,7 @@ MS-Windows
 ----------
 
 Open the Command Prompt, go to the directory where Blender is installed,
-and then run Blender.
+and then run Blender:
 
 .. code-block:: bat
 

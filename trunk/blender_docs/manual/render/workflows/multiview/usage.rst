@@ -45,7 +45,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
 
 .. note::
 
-   When you turn on *Views* in the scene you get 3D preview in the viewport,
+   When you turn on *Views* in the scene, you get 3D preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 
 .. figure:: /images/multiview_workflow_3.png
@@ -58,7 +58,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
 Camera
 ======
 
-To tweak the stereo 3D parameters select the camera in the Outliner.
+To tweak the stereo 3D parameters, select the camera in the Outliner.
 In the Camera panel go to the Stereoscopy tab and change the *Convergence Distance*.
 
 The viewport will respond in real-time to those changes allowing you to preview the current depth value of the scene.
@@ -73,12 +73,12 @@ The viewport will respond in real-time to those changes allowing you to preview 
 Viewport
 ========
 
-Before fine-tuning the camera parameters you can set the
+Before fine-tuning the camera parameters, you can set the
 convergence plane in the viewport based in your scene depth layout.
 Go outside the camera view and you will instantly see the convergence plane in front of the camera.
 
 You can toggle this and other display settings in the Stereoscopy panel of the 3D Views properties region.
-In the following image the cameras frustum volumes are also visible.
+In the following image, the cameras frustum volumes are also visible.
 
 .. figure:: /images/multiview_workflow_5.png
    :width: 1036px
@@ -90,7 +90,7 @@ In the following image the cameras frustum volumes are also visible.
 Stereo 3D Display
 =================
 
-If you have a real 3D display at some point you can change the 3D display mode in the Window menu,
+If you have a real 3D display at some point, you can change the 3D display mode in the Window menu,
 by calling the Stereo 3D operator.
 Be aware that some modes require a fullscreen editor to work.
 
@@ -110,7 +110,7 @@ OpenGL Preview
    Turn Table OpenGL Rendering Preview.
 
 Before rendering your scene you can save an OpenGL preview of the animation for testing in the final display.
-In the Render Output panel you can chose the output *Views Format*.
+In the Render Output panel you can choose the output *Views Format*.
 
 The options include individual files per view, top-bottom, anaglyph among others.
 Pick the one that fits your display requirements.
@@ -237,7 +237,7 @@ Pivot
 Viewport Stereo 3D
 ==================
 
-When you enable 'Views' in the Render Layer panel a new are is available in the 3D View properties region.
+When you enable 'Views' in the Render Layer panel, a new area is available in the 3D View properties region.
 In this panel you can pick whether to see the stereo 3D in the viewport, or which camera to see.
 It also allow you to see the Cameras, the Plane and the Volume of the stereo cameras.
 
@@ -260,7 +260,7 @@ Plane
 Volume
    The intersection of the stereo cameras frustums helps planning the show
    by avoiding elements being visible by only one camera.
-   The volume is defined by the cameras start and end clipping distances.
+   The volume is defined by the camera's start and end clipping distances.
    The areas that are in the frustum of one camera only are known as *retinal rivalry areas*.
    They are tolerated in the negative space (the region from the convergence plane into the image)
    but are to be avoided at all costs in the positive space (the area from the convergence plane to the camera).
@@ -298,7 +298,7 @@ Lossless Formats
    can be loaded back in production with no loss of data.
    For the Stereo 3D formats the only lossless options are
    *Top-Bottom* and *Side-by-Side* without the Squeezed Frame option.
-Multi-View Openexr
+Multi-View OpenEXR
    Another option is to use Multi-View OpenEXR files.
    This format can save multiple views in a single file and is backward compatible
    with old OpenEXR viewers (you see only one view though).
@@ -321,7 +321,7 @@ View Menu
 
 Views Format
    When you drag and drop an image into the UV/Image Editor, Blender will open it as an individual images at first.
-   If your image was saved with one of the Stereo 3D formats you can change how
+   If your image was saved with one of the Stereo 3D formats, you can change how
    Blender should interpret the image by switching the mode to Stereo 3D,
    turning on Use Multi-View and picking the corresponding stereo method.
 
@@ -346,7 +346,7 @@ Movies or Image Sequences in any of the supported Multi-View formats.
 
 The views to render are defined in the current scene views,
 in a similar way as you define the composite output resolution in the current scene render panel,
-regardless of the Image nodes resolutions or RenderLayers from different scenes.
+regardless of the Image nodes resolutions or Render Layers from different scenes.
 
 .. note:: Single-View Images
 
