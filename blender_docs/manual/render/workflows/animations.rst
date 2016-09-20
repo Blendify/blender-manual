@@ -52,7 +52,7 @@ complete your movie.
 The Frame Sequence is a much more stable approach,
 where you set your output format to a still format (such as JPG, PNG or MultiLayer),
 and click ANIM to render your scene out to a set of images,
-where each image is the frame in the sequence.
+where each image is a frame in the sequence.
 
 Blender creates a file for each frame of the animation.
 You can then use Blender's compositor to perform any frame manipulation (post processing).
@@ -107,7 +107,7 @@ Frame Sequence Workflow
    You can add other strips, like an audio strip.
 #. Scrub through the animation, checking that you have included all the frames.
 #. In the Scene Render buttons, in the Post Processing panel, activate *Sequencer*.
-#. In the Output panel, choose the container and codec you want (e.g.  ``MPEG H.264``) and configure it.
+#. In the Output panel, choose the container and codec you want (e.g.  ``MPEG H.264``) and configure them.
    The video codecs are described on the previous page: :doc:`Output Options </render/output/output>`.
 #. Click the *Animation* render button and Blender will render out the sequence editor output into your movie.
 

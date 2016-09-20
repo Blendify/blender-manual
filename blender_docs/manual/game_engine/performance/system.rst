@@ -3,7 +3,7 @@
 System
 ******
 
-The *System* tab at the Render tab of the Properties editor, let the game
+The *System* panel at the Render tab of the Properties editor, lets the game
 developer specify options about the system performance regarding to frame discards and
 restrictions about frame renderings, the key to stop the Blender Game Engine,
 and whether to maintain geometry in the internal memory of the Graphic card.
