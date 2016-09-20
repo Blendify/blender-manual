@@ -8,9 +8,8 @@
    :maxdepth: 2
 
    introduction.rst
+   modes.rst
    navigate/index.rst
    3d_cursor.rst
    object/index.rst
-   selecting.rst
-   transform/index.rst
    display/index.rst

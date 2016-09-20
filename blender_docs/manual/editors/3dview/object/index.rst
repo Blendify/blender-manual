@@ -9,5 +9,6 @@
 
    introduction.rst
    types.rst
+   selecting.rst
+   transform/index.rst
    properties/index.rst
-   modes.rst
