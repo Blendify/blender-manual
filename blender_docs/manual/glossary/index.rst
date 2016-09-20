@@ -12,7 +12,7 @@ This page lists definitions for terms used in Blender and this manual.
 .. glossary::
 
    Active
-      One of the three :doc:`selection states </editors/3dview/selecting>`.
+      One of the three :doc:`selection states </editors/3dview/object/selecting>`.
       Only one object or item can be active at any given time.
 
    Action Safe
@@ -505,7 +505,7 @@ This page lists definitions for terms used in Blender and this manual.
       The pivot point is the point in space around which all rotations,
       scalings and mirror transformations are centered.
 
-      See also the :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>` docs.
+      See also the :doc:`Pivot Point </editors/3dview/object/transform/transform_control/pivot_point/index>` docs.
 
    Pixel
       The smallest unit of information in a 2D raster image,

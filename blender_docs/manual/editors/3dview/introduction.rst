@@ -37,7 +37,7 @@ Blender has a number of *Modes* used for editing different kinds of data:
 
 The mode can be changed using the menu in the 3D View header, or using the hotkey associated with that mode.
 
-:doc:`Read more about modes </editors/3dview/object/modes>`.
+:doc:`Read more about modes </editors/3dview/modes>`.
 
 
 Regions of the 3D View
@@ -51,7 +51,7 @@ The Tool shelf is a context-sensitive region containing tools depending on the c
 
 For more information on specific tools available, see:
 
-- :doc:`Transformations </editors/3dview/transform/index>`
+- :doc:`Transformations </editors/3dview/object/transform/index>`
 - :doc:`History </interface/undo_and_redo>`
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
 - :doc:`Parents </editors/3dview/object/properties/relations/parents>`
@@ -79,11 +79,11 @@ Header
 ------
 
 Contains various menus, buttons and options based on the current
-:doc:`mode </editors/3dview/object/modes>`, such as:
+:doc:`mode </editors/3dview/modes>`, such as:
 
 - :doc:`Shading mode </editors/3dview/display/shading>`
-- :doc:`Pivot options </editors/3dview/transform/transform_control/pivot_point/index>`
-- :doc:`Transform manipulator </editors/3dview/transform/transform_control/manipulators>`
-- :doc:`Proportional Edit </editors/3dview/transform/transform_control/proportional_edit>`
-- :doc:`Snapping </editors/3dview/transform/transform_control/precision/snap>`
+- :doc:`Pivot options </editors/3dview/object/transform/transform_control/pivot_point/index>`
+- :doc:`Transform manipulator </editors/3dview/object/transform/transform_control/manipulators>`
+- :doc:`Proportional Edit </editors/3dview/object/transform/transform_control/proportional_edit>`
+- :doc:`Snapping </editors/3dview/object/transform/transform_control/precision/snap>`
 - :doc:`OpenGL render </render/opengl>`

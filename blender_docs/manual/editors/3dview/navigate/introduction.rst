@@ -34,11 +34,11 @@ View Menu
 Properties region
    Toggles the *Properties* region, which allows you to tweak many 3D View settings:
 
-   - :doc:`Transform </editors/3dview/transform/introduction>`
+   - :doc:`Transform </editors/3dview/object/transform/introduction>`
    - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
    - :doc:`Display & View Panels </editors/3dview/display/panels>`
    - :doc:`Background Images </editors/3dview/display/background_images>`
-   - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+   - :doc:`Transform Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
 
 Tool Shelf
    Toggles the *Tool Shelf* :kbd:`T`, which appears on the left side of the 3D View,
@@ -103,7 +103,7 @@ Select Menu
 
 This menu contains tools for selecting objects.
 
-:doc:`Read more about Selecting </editors/3dview/selecting>`
+:doc:`Read more about Selecting </editors/3dview/object/selecting>`
 
 
 Add Menu
@@ -119,14 +119,14 @@ Object Menu
 This menu appears when in Object Mode. In edit mode,
 it will change to the appropriate menu with editing tools.
 
-:doc:`Read more about Objects </editors/3dview/transform/introduction>`
+:doc:`Read more about Objects </editors/3dview/object/transform/introduction>`
 
 
 .. rubric:: General Options
 
 Mode List
    The Viewport has several modes of operation,
-   for a full list modes see :doc:`here </editors/3dview/object/modes>`
+   for a full list modes see :doc:`here </editors/3dview/modes>`
 Viewport Shading
    Allows you to change the way 3D objects are displayed in the viewport.
 
@@ -134,12 +134,12 @@ Viewport Shading
 Pivot Point Selector
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
-   :doc:`Read more about Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
+   :doc:`Read more about Pivot Points </editors/3dview/object/transform/transform_control/pivot_point/index>`
 Manipulator Selector
    These handy selectors allow you to rotate or move objects by grabbing
    (clicking with your mouse) their controls and moving your mouse in the axis.
 
-   :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
+   :doc:`Read more about Transform Manipulators </editors/3dview/object/transform/transform_control/manipulators>`
 Layer Widget
    Layers are well documented in the :doc:`Layers page </editors/3dview/object/properties/relations/layers>`.
 
@@ -162,7 +162,7 @@ Lock to Scene
 Snap to Mesh
    Controls the snapping tools that help with transforming and modeling objects.
 
-   :doc:`Read more about Snapping </editors/3dview/transform/transform_control/precision/snap>`
+   :doc:`Read more about Snapping </editors/3dview/object/transform/transform_control/precision/snap>`
 Render Buttons
    The Render Buttons render an OpenGL version of the 3D View.
    See the :doc:`OpenGL Rendering </render/opengl>` page for more information.

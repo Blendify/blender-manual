@@ -21,7 +21,7 @@ Modes
 =====
 
 Depending on the type of object you are trying to model there are different types
-of modeling :doc:`mode </editors/3dview/object/modes>`.
+of modeling :doc:`mode </editors/3dview/modes>`.
 Because modes are not specifec to modeling the are covered in different parts of the manual.
 
 
