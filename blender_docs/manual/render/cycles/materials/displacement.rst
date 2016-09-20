@@ -56,7 +56,26 @@ True Displacement
 
    Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
 
-TODO.
+
+Different from bump mapping, *True Displacement* is not a fake effect.
+When using *True Displacement* the actual mesh geometry will be displaced before render.
+This gives the best quality results, if the mesh is finely subdivided.
+As a result this method is also the most memory intensive.
+
+When using true displacement you should not just use a bump map as the displacement texture.
+Different from bump maps displacement maps should not use 8-bits when saved.
+While you can use 8-bit textures, they do not translate into 3D space well.
+Instead, you should save the images with either 16 or 32-bits.
+
+.. tip::
+
+   In order to get the appropriate amount of subdivision it is recommended to use
+   :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`
+
+.. seealso::
+
+   The :doc:`Displace Modifier </modeling/modifiers/deform/displace>` can also be used to displace a mesh.
+
 
 Controls
 --------
