@@ -64,4 +64,3 @@ Whenever an operator has been executed, it leaves a report, creating a log.
 .. figure:: /images/getting_started_help_python.png
 
    The Report Console after adding a Cube.
-
