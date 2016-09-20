@@ -14,7 +14,7 @@
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover { background: #b5b5b5; }
 .wy-menu-vertical li.toctree-l4 { font-size: 1em; }
 .wy-menu-vertical li.current a { border: 0; }
-.wy-side-nav-search > a:hover { background: none; }
+.wy-side-nav-search > a:hover { background: none; opacity: 0.9; }
 .wy-side-nav-search > a.icon::before { content: none; }
 
 /* kbd role */
