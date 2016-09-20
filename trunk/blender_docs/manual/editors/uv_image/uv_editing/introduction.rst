@@ -35,7 +35,7 @@ Selection Modes
 Sticky Selection Mode
    When Sync Selection is disabled, these options control how UVs are selected.
 Proportional Editing
-   See :doc:`Proportional Editing </editors/3dview/transform/transform_control/proportional_edit>`.
+   See :doc:`Proportional Editing </editors/3dview/object/transform/transform_control/proportional_edit>`.
 UV Snapping
    Similar to Snapping in the 3D View.
 Active UV Texture Map Selector

@@ -12,7 +12,7 @@ Manipulators
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
-In combination with :doc:`axis locking </editors/3dview/transform/transform_control/precision/axis_locking>`,
+In combination with :doc:`axis locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`,
 the normal Transform commands (:kbd:`G` for Grab, :kbd:`R` for Rotation, :kbd:`S` for Scale),
 can be used to manipulate objects along any axis. However,
 there may be times when these options are not adequate. For example,
@@ -45,7 +45,7 @@ Manipulators can be accessed in the header of the *3D View*:
 Manipulator Controls
 ====================
 
-- Holding down :kbd:`Ctrl` enables :doc:`snapping </editors/3dview/transform/transform_control/precision/snap>`.
+- Holding down :kbd:`Ctrl` enables :doc:`snapping </editors/3dview/object/transform/transform_control/precision/snap>`.
   Holding down :kbd:`Shift` *after* you :kbd:`LMB`
   the manipulator handle will constrain the action to smaller increments.
 - Holding down :kbd:`Shift` *before* you :kbd:`LMB` click on one of the handles will cause the manipulator action
@@ -60,12 +60,12 @@ Manipulator Controls
 .. seealso::
 
    - :doc:`Read more about constraining transformations
-     </editors/3dview/transform/transform_control/precision/introduction>`.
-   - :doc:`Read more about axis locking </editors/3dview/transform/transform_control/precision/axis_locking>`.
-   - :doc:`Read more about trackball rotation </editors/3dview/transform/basics/rotate>`.
+     </editors/3dview/object/transform/transform_control/precision/introduction>`.
+   - :doc:`Read more about axis locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`.
+   - :doc:`Read more about trackball rotation </editors/3dview/object/transform/basics/rotate>`.
    - :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
 
 .. tip:: Changing the Transform Orientation
 
-   The :doc:`Transform Orientation </editors/3dview/transform/transform_control/transform_orientations>`
+   The :doc:`Transform Orientation </editors/3dview/object/transform/transform_control/transform_orientations>`
    for how objects are manipulated can be changed to make some operations easier.

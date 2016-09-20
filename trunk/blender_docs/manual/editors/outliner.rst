@@ -151,7 +151,7 @@ Visible Layers
    to make objects on a layer visible in the 3D View.
 Selected
    Lists the object(s) that are currently selected in the 3D View.
-   See :doc:`selecting in the 3D View </editors/3dview/selecting>` for more information.
+   See :doc:`selecting in the 3D View </editors/3dview/object/selecting>` for more information.
 Active
    Lists only the active (often last selected) object.
 Same Types

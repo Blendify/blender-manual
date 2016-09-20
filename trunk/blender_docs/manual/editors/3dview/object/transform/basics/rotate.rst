@@ -21,8 +21,8 @@ There are multiple ways to rotate an element which include:
 - The Properties region :kbd:`N`.
 
 Basic rotation usage and common options are described below. For additional information, you
-may wish to read the :doc:`Transform Control </editors/3dview/transform/transform_control/index>` and
-:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+may wish to read the :doc:`Transform Control </editors/3dview/object/transform/transform_control/index>` and
+:doc:`Read more about Transform Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
 pages which provide more information about options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
 
@@ -50,7 +50,7 @@ Axis Locking
 ^^^^^^^^^^^^
 
 Rotation can be constrained to a particular axis or axes through the use of
-:doc:`Axis Locking </editors/3dview/transform/transform_control/precision/axis_locking>`.
+:doc:`Axis Locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`.
 To constrain rotation, the following shortcuts can be used:
 
 - :kbd:`R`, :kbd:`X`: Rotate only along the *X-Axis*
@@ -66,9 +66,9 @@ moving the mouse in the desired direction e.g.
 Precision
 ^^^^^^^^^
 
-:doc:`Precise control </editors/3dview/transform/transform_control/precision/introduction>` can be had over rotation
+:doc:`Precise control </editors/3dview/object/transform/transform_control/precision/introduction>` can be had over rotation
 through :kbd:`Shift` and :kbd:`Ctrl` to limit rotation to discrete amounts.
-You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/precision/numeric_input>`
+You can also enter a :doc:`numerical value </editors/3dview/object/transform/transform_control/precision/numeric_input>`
 in degrees to specify the amount of rotation after after initiating a rotation transformation.
 
 - Hold :kbd:`Ctrl` down while performing a rotation to rotate the selected element in 5 degree increments.
@@ -87,11 +87,11 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 .. seealso::
 
    - :doc:`Read more about Precision Control
-     </editors/3dview/transform/transform_control/precision/introduction>`.
+     </editors/3dview/object/transform/transform_control/precision/introduction>`.
    - :doc:`Read more about Numerical Transformations
-     </editors/3dview/transform/transform_control/precision/numeric_input>`.
+     </editors/3dview/object/transform/transform_control/precision/numeric_input>`.
    - :doc:`Read more about Transform Orientations
-     </editors/3dview/transform/transform_control/transform_orientations>`.
+     </editors/3dview/object/transform/transform_control/transform_orientations>`.
 
 
 Rotation with the 3D Transform Manipulator
@@ -118,4 +118,4 @@ Set the manipulator type to rotation (the highlighted arc icon shown below).
 
 .. seealso::
 
-   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`.
+   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/object/transform/transform_control/manipulators>`.

@@ -66,9 +66,9 @@ Translation, Rotation, Scale
 
 Like other elements in Blender, Curve control points can be grabbed/moved :kbd:`G`,
 rotated :kbd:`R` or scaled :kbd:`S`
-as described in the :doc:`Basic Transformations </editors/3dview/transform/introduction>` section.
+as described in the :doc:`Basic Transformations </editors/3dview/object/transform/introduction>` section.
 When in *Edit Mode*, :doc:`proportional editing
-</editors/3dview/transform/transform_control/proportional_edit>`
+</editors/3dview/object/transform/transform_control/proportional_edit>`
 is also available for transformation actions.
 
 
@@ -82,7 +82,7 @@ Snapping
    | Panel:    Curve Tools
 
 
-:doc:`Mesh snapping </editors/3dview/transform/transform_control/precision/snap>`
+:doc:`Mesh snapping </editors/3dview/object/transform/transform_control/precision/snap>`
 also works with curve components.
 Both control points and their handles will be affected by snapping,
 except for within itself (other components of the active curve).
@@ -100,7 +100,7 @@ Deforming Tools
 
 
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
-:doc:`Transformations </editors/3dview/transform/introduction>` sections.
+:doc:`Transformations </editors/3dview/object/transform/introduction>` sections.
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
 

@@ -103,7 +103,7 @@ Blender offers options to limit the amount of the transformation in small or pre
    Slow translation mode. While still in the grab mode i.e. after :kbd:`G` is pressed,
    holding down :kbd:`Shift` reduces how quickly the object moves and allows extra precision.
 :kbd:`Ctrl`
-   This activates :doc:`snapping </editors/3dview/transform/transform_control/precision/snap>` based on the
+   This activates :doc:`snapping </editors/3dview/object/transform/transform_control/precision/snap>` based on the
    snapping constraint which has been already set. You may not be able to enable every snapping option in all cases.
 :kbd:`Ctrl-Shift`
    Precise snap. This option will move the object with high precision along with the snapping constraint.

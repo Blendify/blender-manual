@@ -35,13 +35,13 @@ This will move the element one unit along the X-axis,
 followed by the Y-axis and then the Z-axis.
 
 You can also combine numeric input with
-:doc:`Axis Locking </editors/3dview/transform/transform_control/precision/axis_locking>`
+:doc:`Axis Locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`
 to limit movement to a particular axis. To do so, press :kbd:`G` followed by :kbd:`X`,
 :kbd:`Y`, :kbd:`Z` to indicate the axis.  Then type in the transform amount using (:kbd:`0` - :kbd:`9`)
 followed by :kbd:`Return` to confirm. Pressing :kbd:`X`, :kbd:`Y`,
 :kbd:`Z` will initially constrain movement to the *Global* axis.
 Pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` again will constrain movement to the orientation set
-in the :doc:`Transform Orientation </editors/3dview/transform/transform_control/transform_orientations>`
+in the :doc:`Transform Orientation </editors/3dview/object/transform/transform_control/transform_orientations>`
 setting of the 3D View header.
 
 
