@@ -95,7 +95,6 @@ This is the list of image file formats supported internally by Blender:
 
    *All these formats support compression which can be important when rendering out animations.*
 
-
 .. note:: Quicktime
 
    On OSX, Quicktime can be used to access file formats not natively supported (such as GIF).
