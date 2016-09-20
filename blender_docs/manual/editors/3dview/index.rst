@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
+   startup_scene.rst
    modes.rst
    navigate/index.rst
    3d_cursor.rst
