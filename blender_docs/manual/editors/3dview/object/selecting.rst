@@ -212,13 +212,13 @@ Group
 Object Hooks
    Every hook that belongs to the active object.
 Pass
-   Select objects assigned to the same :ref:`render pass <render-cycles-passes>.
+   Select objects assigned to the same :ref:`render pass <render-cycles-passes>`.
 Color
    Select objects with same :ref:`Object Color <objects-display-object-color>`.
 Properties
    Select objects with same :doc:`Game Engine Properties </game_engine/logic/properties>`.
 Keying Set
-   Select objects included in the active :doc:`Keying Set </keyframes/keying_sets>`.
+   Select objects included in the active :doc:`Keying Set </animation/keyframes/keying_sets>`.
 Lamp Type
    Select matching lamp types.
 Pass Index
