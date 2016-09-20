@@ -7,6 +7,8 @@ These are options that are scattered though out Blender,
 and are often only available in certain contexts.
 
 
+.. _render-cycles-settings-object-subdivision:
+
 Adaptive Subdivision
 ====================
 
