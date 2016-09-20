@@ -57,3 +57,21 @@ True Displacement
    Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
 
 TODO.
+
+Controls
+--------
+
+You may find that there is a limit to using *True Displacement*
+compared to using the :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
+However, These can be easy fixed with using a :doc:`Math Node </render/cycles/nodes/types/converter/math>`.
+In the example below is a node setup to give the same settings as the *Displace Modifier*.
+
+.. figure:: /images/render_cycles_displace-true_controls.png
+
+   Math nodes used to add Mid-level and Strength.
+
+
+In the example above a math node is used twice, the first math node uses the add operator.
+This operation can be used to control the mid-level of the displacement.
+The second math node uses the multiply operation to control how strong the displacement effect is.
+Higher values would give you larger displacement and lower values give smaller displacement.
