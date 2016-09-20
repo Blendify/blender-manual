@@ -50,11 +50,6 @@ Levels
    The levels of subdivision to see in the final render,
    this works the same as the *Render* setting on the original *Subdivision Modifier*.
 
-.. seealso::
-
-   Displacement can also be done manually by use of the
-   :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
-
 
 Known limitations
 -----------------
