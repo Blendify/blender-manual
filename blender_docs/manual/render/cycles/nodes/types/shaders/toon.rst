@@ -9,7 +9,7 @@ Toon
 
    Toon Node.
 
-The *Toon :abbr:`BSDF (Bidirectional scattering distribution function)`*
+The *Toon* :abbr:`BSDF (Bidirectional scattering distribution function)`
 is used to create *Diffuse* and *Glossy* materials with cartoon light effects.
 
 
