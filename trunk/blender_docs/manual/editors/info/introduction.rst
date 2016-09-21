@@ -25,18 +25,19 @@ Menus
 Back to Previous
    A button shown when an area is maximized to return to tiled areas.
 Screen
-   :ref:`Data-block menu <ui-data-block>` used to select and edit window layouts.
-   See :doc:`Screens </interface/window_system/screens>`.
+   :ref:`Data-block menu <ui-data-block>` used to select and edit
+   :doc:`Screens </interface/window_system/screens>` (window layouts).
 Scene 
    :ref:`Data-block menu <ui-data-block>` to select different :doc:`Scenes </data_system/scenes/introduction>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with objects and/or mesh data linked between them.
 Engines
    Gives a list of selectable render and game engines.
-Render progress
-   A progressbar and a chancel button is shown while rendering. Hovering over it shows a time estimate.
+Render/Baking progress
+   A progressbar and a chancel button is shown while rendering or baking.
+   Hovering over it shows a time estimate.
 Capture Stop
-   A button shown while screen casting to stop the recording. See :ref:`info-screencast`.
+   A button shown while :ref:`screen casting <info-screencast>` to stop the recording.
 Blender Icon
    Clicking on the Blender logo opens the :ref:`splash`.
 Blender version

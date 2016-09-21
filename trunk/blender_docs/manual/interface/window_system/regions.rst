@@ -37,7 +37,7 @@ If you move the mouse over an area,
 the header of its editor changes to a slightly lighter shade of gray.
 This means that it is "focused".
 All hotkeys you press will now affect the contents of this editor.
-
+The header can be hidden with :kbd:`Alt-F9`.
 
 .. move to Editor introduction?
 
@@ -96,7 +96,7 @@ Operator panel
 --------------
 
 The Operator panel is a region thats part of the Tool Shelf containing only one panel.
-It displays the inputs of the last operator executed.
+It displays the properties of the last operator executed.
 
 
 Properties Region
