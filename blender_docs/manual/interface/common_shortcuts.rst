@@ -68,6 +68,8 @@ While Hovering (when the cursor is held over a button).
 
 - :kbd:`Ctrl` -- While dragging snap the discrete steps.
 - :kbd:`Shift` -- Gives precision control over the value.
+- :kbd:`Ctrl-Shift` -- Precise snap. This option will move the object with high precision 
+  along with the snapping constraint.
 
 .. rubric:: While Editing Text
 
