@@ -9,7 +9,7 @@ Anisotropic
 
    Anisotropic Node.
 
-The *Anisotropic :abbr:`BSDF (Bidirectional scattering distribution function)`*
+The *Anisotropic* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add a glossy reflection, with separate control over U and V direction roughness.
 The tangents used for shading are derived from the active UV map. If no UV map is available,
 they are automatically generated using a sphere mapping based on the mesh bounding box.

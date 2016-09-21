@@ -10,7 +10,7 @@ Hair
    Hair Node.
 
 
-The *Hair :abbr:`BSDF (Bidirectional scattering distribution function)`*
+The *Hair* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add shading for :doc:`Hair </physics/particles/hair/index>`.
 
 

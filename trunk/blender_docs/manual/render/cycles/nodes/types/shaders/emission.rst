@@ -9,7 +9,7 @@ Emission
 
    Emission Node.
 
-The *Emission :abbr:`BSDF (Bidirectional scattering distribution function)`*
+The *Emission* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add Lambertian emission.
 This can for example, be used for material and lamp surface outputs.
 

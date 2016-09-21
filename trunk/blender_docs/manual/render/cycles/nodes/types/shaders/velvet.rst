@@ -9,7 +9,7 @@ Velvet
 
    Velvet Node.
 
-The *Velvet :abbr:`BSDF (Bidirectional scattering distribution function)`*
+The *Velvet* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add reflection to materials such as cloth.
 It is meant to be used together with other shaders (such as a *Diffuse Shader*)
 and is not particularly useful on its own.
