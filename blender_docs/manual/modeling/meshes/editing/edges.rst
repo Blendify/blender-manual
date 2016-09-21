@@ -91,6 +91,8 @@ crease value of selected edges.
 To clear the crease edge property, enter a value of -1.
 
 
+.. index:: triple: Mesh Tools; Edge Tools; Edge Slide
+
 .. _modeling-meshes-editing-edge-slide:
 
 Edge Slide

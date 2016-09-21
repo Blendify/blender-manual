@@ -56,6 +56,8 @@ UV Vertex
    Transform Properties :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
 
 
+.. index:: triple: UV/Image; Properties region; Display panel
+
 Display Panel
 -------------
 
