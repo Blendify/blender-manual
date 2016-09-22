@@ -49,3 +49,12 @@ Preview
 
 In the Tool Shelf is a version of the data-block menu with a bigger preview.
 
+
+Data ID
+=======
+
+.. figure:: /images/interface_data_id.png
+
+   The Data ID.
+
+.. A Data ID is a text (box) with icon showing the allowed data type, a popup to select. Eye dropper.
