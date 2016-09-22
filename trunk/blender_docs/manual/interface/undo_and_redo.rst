@@ -88,7 +88,7 @@ Repeat Last
 
 The Repeat Last feature will Repeat your last action when you press :kbd:`Shift-R`.
 
-In the example Images below, we duplicated a *Monkey* *Mesh*,
+In the example Images below, we duplicated a *Monkey* mesh,
 and then we moved the Object a bit.
 Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 

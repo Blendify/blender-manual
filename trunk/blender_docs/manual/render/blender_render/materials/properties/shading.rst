@@ -23,9 +23,9 @@ Ambient
 
    .. seealso:: 
 
-      Settings for *Ambient Occlusion* and *Environment Lighting* can be found
-      in the *World* tab, with parameters affecting both these lighting components found
-      in the *World* *Gather* menu.
+      Settings for Ambient Occlusion and Environment Lighting can be found
+      in the World tab, with parameters affecting both these lighting components found
+      in the :menuselection:`World --> Gather` panel.
 
 Translucency
    Amount of light from the back side that shows through.

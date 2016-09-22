@@ -21,9 +21,9 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 
    Remember to use Blender in 'fullscreen mode' to get the maximum out of your projector.
 
-   To accomplish that launch Blender with the command-line argument -W.
-   Also to get away of the top menu on Blender try to join all areas (buttons, 3D View, text,
-   ...) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
+   To accomplish that launch Blender with the command-line argument ``-W``.
+   Also to get away of the top menu on Blender try to join all areas
+   (buttons, 3D View, text,...) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
    you cannot get the whole screen free to run your game
    (the top bar menu takes about 20 pixels).
 
@@ -161,20 +161,20 @@ First line is the image type the mesh is support to be applied to:
 ``2 = rectangular``, ``1 = radial`` Next line has the mesh dimensions in
 pixelsRest of the lines are the nodes of the mesh.
 
-Each line is compound of *x* *y* *u* *v* *i* (x, y)
+Each line is compound of *x*, *y*, *u*, *v*, *i* (x, y)
 are the normalized screen coordinates (u, v)
 texture coordinates *i* a multiplicative intensity factor.
 
-*x* varies from -screen aspect to screen aspect varies from -1 to 1 *u* and *v* vary from 0 to 1*i*
-ranges from 0 to 1, if negative do not draw that mesh node.
+*x* varies from -screen aspect to screen aspect varies from -1 to 1 *u* and *v* vary from 0 to 1.
+*i* ranges from 0 to 1, if negative do not draw that mesh node.
 
 
-- You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.
-- Open the Text Editor :menuselection:`Editor Types --> Text Editor`.
-- Open your mesh data file (ie. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
-- Go to Game Framing Settings :menuselection:`Editor Types --> Properties editor --> Scene`.
-- Enable Dome Mode.
-- Type filename in Warp Data field (ie. myDome.data).
+#. You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.
+#. Open the Text Editor :menuselection:`Editor Types --> Text Editor`.
+#. Open your mesh data file (ie. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
+#. Go to Game Framing Settings :menuselection:`Editor Types --> Properties editor --> Scene`.
+#. Enable Dome Mode.
+#. Type filename in Warp Data field (i.e. myDome.data).
 
 To create your own Warp Meshes an interactive tool called meshmapper is available as part of
 `Paul Bourke's Warpplayer <http://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__
@@ -189,8 +189,8 @@ Examples
 `Sample Fullscreen File 4×3 <https://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__,
 `Sample Fullbuffer File 4×3 <https://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
 
-.. note::
+.. important::
 
-   Important: the viewport is calculated using the ratio of canvas width by canvas height.
+   The viewport is calculated using the ratio of canvas width by canvas height.
    Therefore different screen sizes will require different warp mesh files. Also in order to get
    the correct ratio of your projector you need to use Blender in Fullscreen mode.

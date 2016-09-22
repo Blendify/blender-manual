@@ -38,7 +38,7 @@ first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
    Duplication Faces applied to the cube.
 
 
-Next, in the *Object Mode* *Duplication* panel,
+Next, in the :menuselection:`Object tab --> Duplication panel`,
 enable *Faces*. The sphere is duplicated one for each face of the cube.
 
 .. note:: Inherited properties

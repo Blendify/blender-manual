@@ -46,7 +46,7 @@ Interface
 
 
 When parenting an object (mesh, curve, meta, ...) to a curve :kbd:`Ctrl-P`,
-you will be presented with a menu (*Make Parent* *menu*).
+you will be presented with a menu (*Make Parent* menu).
 
 By selecting *Curve Deform*, you enable the curve deform function on the mesh object.
 

@@ -90,11 +90,11 @@ see the `Vertex Groups`_ description below.
 .. note::
 
    Finally that for settings that are present in both the armature's
-   *Armature panel* and in the objects' *Armature modifier panel*
-   (namely, *Vertex Groups* */* *VertGroups* *,* *Envelopes*, *Quaternion* *and* *B-Bone Rest*),
+   Armature panel and in the objects' Armature modifier panel
+   (namely, Vertex Groups/VertGroups , Envelopes, Quaternion and B-Bone Rest),
    the modifier ones always override the armature ones. This means that if, for example,
    you only enable the *Envelopes* deformation method of the armature,
-   and then skin it with an object using an *Armature* modifier, where only
+   and then skin it with an object using an Armature modifier, where only
    *VertGroups* is enabled,
    the object will only be deformed based on its "bones" vertex groups,
    ignoring completely the bones' envelopes.
@@ -243,10 +243,10 @@ Thus, the :ref:`Weight Paint Mode <painting-weight-index>`.
 However, you have a few goodies when weight-painting a mesh already parented to (skinning)
 an armature. For these to work, you must:
 
-- Select the armature.
-- Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
-- Select the mesh to weight.
-- Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint Mode*.
+#. Select the armature.
+#. Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
+#. Select the mesh to weight.
+#. Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint Mode*.
 
 Now, when you select a bone of the armature (which remained in *Pose Mode*),
 you automatically activate the corresponding vertex group of the mesh -- Very handy! Obviously,

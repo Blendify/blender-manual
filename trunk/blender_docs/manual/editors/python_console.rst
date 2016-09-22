@@ -52,7 +52,7 @@ Following is a quick overview of the output:
 Auto Completion at work
 -----------------------
 
-Now, type bpy. and then press :kbd:`Ctrl-Spacebar` and you will see the Console
+Now, type ``bpy.`` and then press :kbd:`Ctrl-Spacebar` and you will see the Console
 auto-complete feature in action.
 
 .. figure:: /images/extensions-python-console-auto-completion.jpg
