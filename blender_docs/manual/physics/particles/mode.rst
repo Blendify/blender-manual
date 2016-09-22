@@ -72,7 +72,7 @@ version should something happen, or that you do not like the latest changes you 
 
 .. tip:: To be able to clearly see what you are working on:
 
-   #. Open the *Particle Edit Properties* panel with :kbd:`N`.
+   #. Open the Options panel in the Tool shelf.
    #. Select *Point select mode* (|hair-point-button|) in the header of the 3D View.
       This will display key points along the particle path.
 
@@ -151,7 +151,7 @@ Weight
    This is especially useful for softbody animations, because the weight defines the softbody *Goal*.
    A keypoint with a weight of 1 will not move at all,
    a keypoint with a weight of 0 subjects fully to softbody animation.
-   This value is scaled by the *GMin* - *GMax* range of softbody goals...
+   This value is scaled by the *GMin* to *GMax* range of softbody goals...
 
    .. Not more true, I think: '''Weight is only drawn for the complete hair (i.e. with the value of the tip),
       not for each keypoint, so it's a bit difficult to paint'''
@@ -209,7 +209,7 @@ Moving keypoints or particles
 -----------------------------
 
 - To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.
-- To move a particle root you have to turn off *Keep* *Root* in the Tool Shelf.
+- To move a particle root you have to turn off Keep *Root* in the Tool Shelf.
 - You can do many of the things like with vertices, including scaling,
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,

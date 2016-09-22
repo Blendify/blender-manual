@@ -53,7 +53,7 @@ select it and activate *Scale* mode with :kbd:`S`.
 
 In Fig. :ref:`fig-meta-edit-stiffness`, the meta ball labeled "A",
 has a smaller *Stiffness* value than the one labeled "B".
-As you can see, the *green ring* radius is different for each of them.
+As you can see, the radius (green ring) is different for each of them.
 
 
 Negative Influence
@@ -123,7 +123,7 @@ create a new *Mesh* one, instead of a "real" conversion...).
 Note that the resolution used for the new mesh is the *Wiresize* one,
 not the *Rendersize* one.
 
-To convert the meta, press :kbd:`Alt-C` in *Object Mode*, and select *mesh*
+To convert the meta, press :kbd:`Alt-C` in *Object Mode*, and select *Mesh/Text*,
 
 
 Object Families
@@ -149,13 +149,13 @@ Each meta object in the same "family" is associated with one another as discusse
    Meta ball base.
 
 
-Families of metas are controlled by a *base* *Meta* object which is identified by
-an *Object* name **without** a right part. For example,
+Families of metas are controlled by a *base* meta object which is identified by
+an object name **without** a right number part. For example,
 if we have five metas called "MetaThing", "MetaThing.001",
 "MetaThing.002", "MetaThing.003" and "MetaThing.004",
-the *base* *Meta* object would be "MetaThing".
+the *base* meta object would be "MetaThing".
 
-The *base* *Meta* object determines the basis, the resolution, the threshold,
+The *base* meta object determines the basis, the resolution, the threshold,
 *and* the transformations. It also has the material and texture area.
 The *base* meta is effectively the parent of
 (or perhaps a better word to use is "the owner of") the other metas in the group (i.e.
@@ -166,7 +166,7 @@ it is as if the other metas were "included" or joined into the base one).
    When working with multiple scenes,
    take care naming your meta objects so the *base* is always in the same scene as other metas.
 
-   Failing to do this will give confusing behavior *(invisible meta objects)*.
+   Failing to do this will give confusing behavior (invisible meta objects).
 
 
 Examples
@@ -180,25 +180,27 @@ they form a unified mesh which can always be selected by selecting the mesh of a
 For example, in the example Fig. :ref:`fig-meta-ball-base`, only the lower sphere (the parent) has been selected,
 and you see that both the parent's mesh *and* all of the children's meshes are now highlighted.
 
+.. _fig-meta-ball-scale:
+
 .. figure:: /images/metaobject-base-scale-ex.png
    :width: 300px
 
    Scaling the "base".
 
 
-The *base* *Meta* object controls the *polygonalization* (mesh structure)
+The *base* meta object controls the *polygonalization* (mesh structure)
 for the group, and as such, also controls the polygonalization for the children (non-base)
 metas. If we transform the *base* meta, the children's polygonalization changes. However,
 if we transform the children, the polygonalization remains unchanged.
 
 .. hint::
 
-   This discussion of "polygonization" *does not* mean that the various meshes do not deform
+   This discussion of "polygonization" does *not* mean that the various meshes do not deform
    towards or away from each other (meta objects always influence one another in the usual way,
    whether or not they are members of the same family). Rather,
    it means that the underlying mesh structure changes only when the *base* object transforms.
    For example, if you scale the *base*, the children's mesh structure changes. In
-   (*Scaling the "base"*), the *base* has been scaled down,
+   Fig. :ref:`fig-meta-ball-scale`, the *base* has been scaled down,
    which has the effect of scaling the mesh structure of each of the children. As you can see,
    the children's mesh resolution has increased, while the *base* decreased.
-   *The children did not change size!*
+   The children did *not* change size!

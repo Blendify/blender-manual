@@ -34,7 +34,7 @@ This panel is used to add, select, manage *Absolute Keying Sets*.
 Active Keying Set
    The :ref:`List View <ui-list-view>` of Keying Sets in the active Scene.
 
-   Add
+   Add ``+``
       Adds a empty Keying Set.
 
 
@@ -77,8 +77,8 @@ Active Keying Set Paths
    A collection of paths in a :ref:`List View <ui-list-view>` each with a *Data Path* to a property
    to add to the active Keying Set.
 
-   Add
-      Adds a new empty path.
+   Add ``+``
+      Adds a empty path.
 
 
 Properties

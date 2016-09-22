@@ -62,6 +62,8 @@ Where:
 Quadratic
 ^^^^^^^^^
 
+.. _fig-bi-light-lin-default:
+
 .. figure:: /images/light-example-default_lin-quad_weighted.jpg
    :width: 250px
 
@@ -73,9 +75,8 @@ in the *Quadratic* field and 0.0 in the *Linear* field means that
 the light from this source is completely quadratic.
 
 Quadratic attenuation type lighting is considered a more accurate representation of how light
-attenuates (in the real world). In fact, fully quadratic attenuation is selected by default
-for *Lin/Quad Weighted* lamp fallout
-(see *Lamp with* *Lin/Quad Weighted* *falloff default settings*).
+attenuates (in the real world). In fact, fully quadratic attenuation is selected by default.
+For *Lin/Quad Weighted* lamp fallout see Fig. :ref:`fig-bi-light-lin-default`.
 
 Here again,
 the light intensity is half when it reaches the *Distance* value from the lamp.
@@ -336,12 +337,10 @@ Distance Example
 
 In this example, the *Lamp* has been set pretty close to the group of planes.
 This causes the light to affect the front, middle and rear planes more dramatically.
-Looking at (*Various* *Dist* *ance settings*),
-you can see that as the *Dist* is increased,
+Looking at the figure below, you can see that as the Distance is increased,
 more and more objects become progressively brighter.
 
-.. list-table::
-   Various *Distance* settings (shadows disabled).
+.. list-table:: Various Distance settings (shadows disabled).
 
    * - .. figure:: /images/bi_lamprender-distance10.jpg
 

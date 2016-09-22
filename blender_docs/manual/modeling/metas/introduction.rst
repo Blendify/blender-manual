@@ -12,7 +12,7 @@ Introduction
 
 
 Meta objects are *implicit surfaces*,
-meaning that they are *not* *explicitly* defined by vertices (as meshes are)
+meaning that they are *not explicitly* defined by vertices (as meshes are)
 or control points (as surfaces are): they exist *procedurally*.
 Meta objects are literally mathematical formulas that are calculated on-the-fly by Blender.
 
@@ -40,13 +40,15 @@ Visualization
 
 In Object Mode, the calculated mesh is shown, along with a black "selection ring" (becoming pink when selected).
 
+.. _fig-meta-ball-example:
+
 .. figure:: /images/metainfluenceandselection.jpg
    :width: 350px
 
    Meta Ball example.
 
 
-In *Edit Mode* (*Meta Ball* *example*), a meta is drawn as a mesh (either shaded or as black wireframe,
+In *Edit Mode* (Fig. :ref:`fig-meta-ball-example`), a meta is drawn as a mesh (either shaded or as black wireframe,
 but without any vertex of course), with two colored circles: a red one for selection (pink when selected),
 and a green one for a direct control of the meta's stiffness (light green when active).
 Note that except for the *Scale* :kbd:`S` transformation,

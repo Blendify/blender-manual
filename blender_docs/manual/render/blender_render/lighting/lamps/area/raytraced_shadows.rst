@@ -20,7 +20,7 @@ Shadow Samples
 ==============
 
 Samples
-   This have the same role as with other lamps, but when using a *Rectangle* *Area* lamp,
+   This have the same role as with other lamps, but when using a *Rectangle* Area lamp,
    you have two samples settings: *Samples X* and *Samples Y*, for the two axes of the area plane.
    Note also that when using the *Constant Jittered* sample generator method,
    this is more or less equivalent to the number of virtual lamps in the area.
