@@ -84,7 +84,7 @@ Remove Bone Group
 
 .. figure:: /images/rigging_posing_visualization_bone-color-list.png
 
-   The Bone Color Set list of the bone group, and the color swatch of the chosen color theme.
+   The Bone Color Set list of the bone group, and the color buttons of the chosen color theme.
 
 
 You can also assign a "color theme" to a group (each bone will have these colors).
@@ -95,15 +95,16 @@ to see these colors. Use the *Bone Color Set* drop-down list to select:
 - *nn* - *Theme Color Set*: One of the twenty Blender presets, common to all groups.
 - *Custom Set*: A custom set of colors, which is specific to each group.
 
-Below this list, you have three color swatches and a button.
+Below this list, you have three color buttons and a button.
 
-- The first swatch is the color of unselected bones.
-- The second swatch is the outline color of selected bones.
-- The third swatch is the outline color of the active bone.
+Normal
+   The first color button is the color of unselected bones.
+Selected
+   The second color button is the outline color of selected bones.
+Active
+   The third color button is the outline color of the active bone.
 
-As soon as you click on a swatch (to change the color,
-through the standard color pop-up menu),
-you are automatically switched to the *Custom Set* option.
+As soon as you alter one of the colors, it is switched to the *Custom Set* option.
 
 
 Ghosts

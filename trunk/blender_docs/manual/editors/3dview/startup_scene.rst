@@ -23,21 +23,21 @@ Cube
       The Origin of the object is displayed as an orange dot and it marks the cubes (relative) position.
    Transformation Widget
       This widget is composed out of a white circle and three colored (red, green, and blue) arrows.
-      It is used to move the cube in the scene.
+      It is used to move entities (i.e. the cube) in the scene.
 Lamp
    The circle with a thin line to the bottom is a light source illuminating the cube.
 Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.
 3D Cursor
-   The cross with a red and white circle used for positioning objects in the scene.
+   The cross with a red and white circle is used for placing objects in the scene.
 Grid Floor
    The gray squares forming a floor mark the zero height of the world.
    The red and green lines are the axis of the world coordinate system.
    They meet at the origin, which is also the position of the *Cube*.
 
 
-Overlay
-=======
+Overlays
+========
 
 View Name
    If the viewport camera is not aligned the view is named "User" plus

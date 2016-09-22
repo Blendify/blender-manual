@@ -11,11 +11,11 @@ For textures such blending factor is set via sliders in the Influence panel.
 
 Blend
    Blending operation to perform. See :term:`Color Blend Modes` for details on each blending mode.
-RGB to intensity
+RGB to Intensity
    With this option enabled, an RGB texture (affects color) is used as an intensity texture (affects a value).
 Blend Color
-   If the texture is mapped to Col,
-   what color is blended in according to the intensity of the texture? Click on the swatch or set the RGB sliders.
+   If the texture is mapped to Color,
+   what color is blended in according to the intensity of the texture?
 Negative
    The effect of the Texture is negated. Normally white means on, black means off, *Negative* reverses that.
 Stencil
@@ -23,9 +23,8 @@ Stencil
    This is useful for semitransparent textures and "Dirt Maps".
    Black sets the pixel to "untexturable". The *Stencil* mode works similar to a layer mask in a 2D program.
    The effect of a stencil texture cannot be overridden, only extended. You need an intensity map as input.
-DVar
-   Destination Value (not for RGB).
-   The value with which the Intensity texture blends with the current value. Two examples:
+Destination Value
+   The value (not for RGB) with which the Intensity texture blends with the current value. Two examples:
 
    - The *Emit* value is normally 0. With a texture mapped to *Emit* you will get maximal effect,
      because *DVar* is 1 by default. If you set *DVar* to 0 no texture will have any effect.
