@@ -6,7 +6,7 @@ Tabs & Panels
 Tabs
 ====
 
-.. figure:: /images/getting_started-basics_interface_introduction_07.png
+.. figure:: /images/interface_tabs.png
    :align: right
 
    Tools tab (selected), Create, etc.
@@ -39,7 +39,7 @@ is an example of the *Mesh Options* pinned in the tools tab.
 Panels
 ======
 
-.. figure:: /images/getting_started-basics_interface_introduction_06.png
+.. figure:: /images/interface_panels.png
    :align: right
 
    Tool Self panels.

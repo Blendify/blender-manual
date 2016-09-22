@@ -73,7 +73,7 @@ These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap-edit
 Screen Elements
 ===============
 
-.. figure:: /images/getting_started-basics_interface_introduction_05.png
+.. figure:: /images/interface_introduction_hiearchie.png
    :align: right
    :width: 350
 
@@ -86,7 +86,7 @@ The composition of various Areas with predefined Editors in them is
 called a *Screen Layout*. By default Blender starts up with a layout of
 five Editors as shown in the image below.
 
-.. figure:: /images/getting_started-basics_interface_introduction_02.png
+.. figure:: /images/interface_introduction_default_screen.png
 
    Blender's default Screen Layout with five Editors.
 
@@ -101,7 +101,7 @@ a specific part of Blender.
 
 The image below shows the 3D View as an example of an editor.
 
-.. figure:: /images/getting_started-basics_interface_introduction_04.png
+.. figure:: /images/interface_introduction_editor.png
 
    The 3D View.
 
