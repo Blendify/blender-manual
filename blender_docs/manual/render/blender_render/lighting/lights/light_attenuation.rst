@@ -54,7 +54,7 @@ Where:
 
 - *I* is the calculated Intensity of light.
 - *E* is the current *Energy* slider setting.
-- *D* is the current setting of the *Dist* field.
+- *D* is the current setting of the *Distance* field.
 - *L* is the current setting of the *Linear* slider.
 - *r* is the distance from the lamp where the light intensity gets measured.
 
@@ -94,7 +94,7 @@ Where:
 
 - *I* is the calculated Intensity of light.
 - *E* is the current *Energy* slider setting.
-- *D* is the current setting of the *Dist* field.
+- *D* is the current setting of the *Distance* field.
 - *Q* is the current setting of the *Quad* slider.
 - *r* is the distance from the lamp where the light intensity gets measured.
 
@@ -111,7 +111,7 @@ Where:
 
 - *I* is the calculated Intensity of light.
 - *E* is the current *Energy* slider setting.
-- *D* is the current setting of the *Dist* field.
+- *D* is the current setting of the *Distance* field.
 - *L* is the current setting of the *Linear* slider.
 - *Q* is the current setting of the *Quad* slider.
 - *r* is the distance from the lamp where the light intensity gets measured.
@@ -144,7 +144,15 @@ Below is a graph summarizing the lin/quad attenuation type,
 showing attenuation with or without the *Sphere* option (described later).
 
 .. figure:: /images/distancegraph.png
-   :width: 610px
+
+   Light Attenuation:
+
+   a) Linear (Linear=1.0, Quad=0.0);
+   b) Quadratic (Linear=0.0, Quad=1.0);
+   c) Linear and quadratic (Linear=Quad=0.5);
+   d) Null (Linear=Quad=0.0).
+   Also shown in the graph the "same" curves, in the same colors,
+   but with the Sphere button turned on.
 
 
 Custom Curve
@@ -264,7 +272,7 @@ Inverse Linear
 
 
 This lamp falloff type attenuates its intensity linearly,
-scaled by the *Dist* value. This is the default setting, behaving the same as the
+scaled by the *Distance* value. This is the default setting, behaving the same as the
 default in previous Blender versions without *Quad* switched on, and consequently,
 like the new *Lin/Quad Weighted* option with *Linear* to 1.0 and
 *Quad* to 0.0. This is not physically accurate,
@@ -297,7 +305,7 @@ Sphere
 
 The *Sphere* option restricts the light illumination range of a *Lamp* or
 *Spot* lamp, so that it will completely stop illuminating an area once it reaches
-the number of Blender Units away from the Lamp, as specified in the *Dist* field.
+the number of Blender Units away from the Lamp, as specified in the *Distance* field.
 
 When the *Sphere* option is active,
 a dotted sphere will appear around the light source,
@@ -305,13 +313,14 @@ indicating the demarcation point at which this light intensity will be null.
 
 The *Sphere* option adds a term to the chosen attenuation law, whatever it is:
 
-:math:`I = I × (D - r) / D` if :math:`r < D`; 0 otherwise
+:math:`I' = I × (D - r) / D` if :math:`r < D`;
+:math:`I' = 0` otherwise;
 
 Where:
 
 - *I'* is the required Intensity of light (with the *Sphere* option activated).
 - *I* is the intensity of light calculated by the chosen attenuation law (without the *Sphere* option).
-- *D* is the current setting of the *Dist* field.
+- *D* is the current setting of the *Distance* field.
 - *r* is the distance from the lamp where the light intensity gets measured.
 
 See the graphic at the end of the description of the *Lin/Quad Weighted* attenuation option.

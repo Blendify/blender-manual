@@ -188,7 +188,7 @@ shown in the *Envelope* visualization:
 - The inside area, materialized by the "solid" part of the bone, and controlled by both root and tip radius.
   Inside this zone, the geometry if fully affected by the bone.
 - The outside area, materialized by the lighter part around the bone,
-  and controlled by the *Dist* setting. Inside this zone,
+  and controlled by the *Distance* setting. Inside this zone,
   the geometry is less and less affected by the bone as it goes away by following a quadratic decay.
 
 .. seealso::

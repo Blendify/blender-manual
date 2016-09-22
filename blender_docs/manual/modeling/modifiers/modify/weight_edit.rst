@@ -149,7 +149,7 @@ you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
           Distance from vertices.
 
 
-Set the *Lowest Dist* to 0.2, and the *Highest Dist* to 2.0,
+Set the *Lowest Distance* to 0.2, and the *Highest Distance* to 2.0,
 to map back the computed distances into the regular weight range.
 
 Add a third *Displace* modifier and affect it the texture you like. Now,
