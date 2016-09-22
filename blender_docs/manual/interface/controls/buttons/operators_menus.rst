@@ -26,6 +26,22 @@ Text & Search
    Text and Search.
 
 
+Color Buttons
+=============
+
+.. figure:: /images/interface_color_button.png
+   :align: right
+
+   Color Buttons.
+
+   Without and with alpha.
+
+:kbd:`LMB` color buttons opens the :doc:`/interface/controls/templates/color_picker`.
+Color buttons with an alpha channel are divided in half: On the left the color is shown without alpha and
+on the right the color with alpha drawn over a checker pattern background.
+Colors can be drag and dropped.
+
+
 Menu Buttons
 ============
 
@@ -83,8 +99,39 @@ Numerical selection
 
 Pop-ups can be moved by dragging there title.
 
-.. RMB context menu (reset, copy, manual access, edit source, translation)
 
+Context Menu
+------------
+
+Context menus are pop-ups opened with the :kbd:`RMB`.
+Only the common options are listed below.
+
+*Single* set or gets the value of the button under the mouse pointer.
+*All* on the other hand includes all combined buttons.
+
+Reset All/Single to Default Value(s)
+   Replaces the current value by the default :kbd:`Backspace`.
+Unset
+   ..
+Copy Data Path
+   ..
+Copy To Selected
+   Copies the properties to the selected object. A use case is if the Properties editor context is pinned.
+Online Manual
+   See :ref:`help-manual-access`.
+Online Python Reference
+   Context-sensitive access to the 
+   `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
+Edit Source
+   For UI development -- points at the code line where the element is defined.
+Edit Translation
+   For UI development -- points at the translation code line.
+
+.. seealso::
+
+   :doc:`/interface/common_shortcuts`.
+
+   .. move paragraph there?
 
 
 Pie Menus

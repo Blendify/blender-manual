@@ -22,6 +22,8 @@ The *Python:* text included last may be of interest to you if you are an animato
 or automating tasks, see :ref:`scripting-index`.
 
 
+.. _help-manual-access:
+
 Context Sensitive Manual Access
 ===============================
 
@@ -35,7 +37,7 @@ Context Sensitive Manual Access
 
 You may want to access help for a tool or area from within Blender.
 
-Use the key-shortcut, or right-click menu to visit pages from this reference manual within Blender.
+Use the key-shortcut, or context menu to visit pages from this reference manual within Blender.
 This opens a webpage relating to the button under the cursor, supporting both tool and value buttons.
 
 .. note::
