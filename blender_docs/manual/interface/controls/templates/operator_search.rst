@@ -3,7 +3,7 @@
 Operator Search
 ***************
 
-.. figure:: /images/ui-controls-operator_search.png
+.. figure:: /images/interface_controls-operator_search.png
    :align: right
 
    The operator search pop-up.

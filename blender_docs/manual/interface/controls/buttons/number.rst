@@ -37,7 +37,7 @@ Press :kbd:`Minus` while hovering over the button to negate the value.
 Multi-Value Editing
 ===================
 
-.. figure:: /images/ui_multi_value_edit.png
+.. figure:: /images/interface_multi_value_edit.png
    :align: right
 
    Multi-value editing.

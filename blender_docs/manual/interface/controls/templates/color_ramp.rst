@@ -4,7 +4,7 @@
 Color Ramp Widget
 *****************
 
-.. figure:: /images/ui-color_ramp.png
+.. figure:: /images/interface_color_ramp.png
 
    Color-Ramp.
 
