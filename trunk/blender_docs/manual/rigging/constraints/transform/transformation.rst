@@ -61,9 +61,45 @@ Extrapolate
 
              Extrapolate enabled: the output values are "free" to proportionally follow the input ones.
 
-.. warning::
+Source
+------
 
-   Note that:
+It contains the input (from target) settings.
+
+Map From
+   The radio buttons, allow you to select which type of property to use.
+
+   Loc(ation), Rot(ation), and Scale
+From
+   Independently for each axis (X, Y, and Z) the min and max number buttons control
+   the lower and upper bounds of the input value range.
+   Note that if a min value is higher than its corresponding max value,
+   the constraint behaves as if it had the same value as the max one.
+
+Source to Destination Mapping
+   The three *Axis Mapping* drop-down lists allow you to select which input axis to map to,
+   respectively (from top to bottom), the X, Y and Z output (owner) axes.
+
+
+Destination
+-----------
+
+It contains the output (to owner) settings.
+
+Map To
+   The three radio buttons allow you to select which type of property to control.
+
+   Loc(ation), Rot(ation), and Scale
+To
+   The *min* and *max* number buttons control the lower and upper bounds of the output value range,
+   independently for each mapped axis.
+   Note that if a min value is higher than its corresponding max value,
+   the constraint behaves as if it had the same value as the max one.
+
+Space
+   This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
+
+.. note::
 
    - When mapping transform properties to location (i.e. *Loc*, *Destination* button is enabled),
      the owner's existing location is added to the result of evaluating this constraint
@@ -83,27 +119,5 @@ Extrapolate
      whatever the real values are, the constraint will always take their absolute values (i.e. invert negative ones).
    - When a *min* value is higher than its corresponding *max* one,
      both are considered equal to the *max* one. This implies you cannot create "reversed" mappings...
-
-Source
-   It contains the input (from target) settings.
-   The three *Loc*, *Rot* and *Scale* toggle buttons, mutually exclusive,
-   allow you to select which type of property to use.
-   The *X*, *Y* and *Z* *min* and *max* numeric fields control the lower and upper bounds of
-   the input value range, independently for each axis.
-   Note that if a min value is higher than its corresponding max value,
-   the constraint behaves as if it had the same value as the max one.
-Destination
-   It contains the output (to owner) settings.
-
-   - The three *Loc*, *Rot* and *Scale* toggle buttons, mutually exclusive,
-     allow you to select which type of property to control.
-   - The three *Axis Mapping* drop-down lists allow you to select which input axis to map to,
-     respectively (from top to bottom), the X, Y and Z output (owner) axes.
-   - The *min* and *max* numeric fields control the lower and upper bounds of the output value range,
-     independently for each mapped axis.
-     Note that if a min value is higher than its corresponding max value,
-     the constraint behaves as if it had the same value as the max one.
-Space
-   This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
 
 .. vimeo:: 171275353
