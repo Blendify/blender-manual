@@ -3,8 +3,7 @@
 Light Attenuation
 *****************
 
-.. figure:: /images/lighting-falloff-hilite.png
-   :width: 312px
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-options.png
 
    Lamp panel, falloff options highlighted.
 
@@ -21,8 +20,7 @@ Falloff types
 Lin/Quad Weighted
 -----------------
 
-.. figure:: /images/lighting-falloff-linquad.jpg
-   :width: 308px
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_linear-quadratic.png
 
    Lamp panel with Lin/Quad Weighted Falloff options highlighted.
 
@@ -143,14 +141,15 @@ Graphical Summary
 Below is a graph summarizing the lin/quad attenuation type,
 showing attenuation with or without the *Sphere* option (described later).
 
-.. figure:: /images/distancegraph.png
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_linear-quad-graph.png
 
    Light Attenuation:
 
    a) Linear (Linear=1.0, Quad=0.0);
    b) Quadratic (Linear=0.0, Quad=1.0);
    c) Linear and quadratic (Linear=Quad=0.5);
-   d) Null (Linear=Quad=0.0).
+   d) Null (Linear=Quad=0.0);
+
    Also shown in the graph the "same" curves, in the same colors,
    but with the Sphere button turned on.
 
@@ -335,6 +334,7 @@ indicating the demarcation point at which this light intensity will be null.
 The *Sphere* option adds a term to the chosen attenuation law, whatever it is:
 
 :math:`I' = I × (D - r) / D` if :math:`r < D`;
+
 :math:`I' = 0` otherwise;
 
 Where:
