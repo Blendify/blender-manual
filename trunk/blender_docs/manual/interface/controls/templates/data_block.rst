@@ -43,7 +43,7 @@ Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 Preview
 =======
 
-.. figure:: /images/ui_data_block_preview.png
+.. figure:: /images/interface_data_block_preview.png
 
    The Data-Block menu with preview.
 

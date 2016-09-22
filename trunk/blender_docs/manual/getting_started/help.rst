@@ -9,7 +9,7 @@ Blender has a range of built-in and web-based help options.
 Tooltips
 ========
 
-.. figure:: /images/ui_tooltip_example.png
+.. figure:: /images/getting_started_help_tooltip.png
 
    The Mouse pointer was Stopped for a while over the Render Engines List in the Info Editor.
 
