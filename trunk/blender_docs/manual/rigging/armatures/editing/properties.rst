@@ -104,7 +104,7 @@ ScaleB and Envelope
 It has different behavior depending on the active visualization, as explained below:
 
 In *Envelope* visualization, it allows you to edit the influence of the selected bones
-(their *Dist* property, see the :doc:`skinning part </rigging/skinning/index>`) --
+(their *Distance* property, see the :doc:`skinning part </rigging/skinning/index>`) --
 as with the "standard" scaling with this visualization (see the previous section),
 this is an one-value property, so there is no axis locking and such.
 
@@ -279,7 +279,7 @@ Child of
 Segm
    This setting controls the number of segments that a bone has; see
    `Bone Rigidity`_.
-Dist, Weight, Deform
+Distance, Weight, Deform
    (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`), Mult
    (also :kbd:`Shift-W` :menuselection:`--> (Mult VG, ...)`)
 

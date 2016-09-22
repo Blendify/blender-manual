@@ -103,7 +103,7 @@ The free segments of a stroke will create different number of bones, in differen
 depending on the conversion method used. The future bones' ends for the current selected method are
 represented by small green dots for each one of those segments, for the selected strokes only.
 
-The free segment drawing uses the same *Manhattan Dist*
+The free segment drawing uses the same *Manhattan Distance*
 setting as the :doc:`grease pencil tool </interface/grease_pencil/introduction>`
 (*User Preferences*, *Edit Methods* "panel", *Grease Pencil* group)
 to control where and when to add a new point to the segment. So if you feel your free segments are too detailed,
