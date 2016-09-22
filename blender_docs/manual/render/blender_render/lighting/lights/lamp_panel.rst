@@ -3,8 +3,7 @@
 Lamp Panel
 **********
 
-.. figure:: /images/lighting-lights-properties.jpg
-   :width: 312px
+.. figure:: /images/render_blender-render_lighting_lights_lamp-panel.png
 
    Lamp tab.
 

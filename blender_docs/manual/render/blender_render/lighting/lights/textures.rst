@@ -3,8 +3,7 @@
 Lamps Textures
 **************
 
-.. figure:: /images/lighting-lights-texture-panels.jpg
-   :width: 307px
+.. figure:: /images/render_blender-render_lighting_lights_textures.png
 
    Lamp Texture panels.
 

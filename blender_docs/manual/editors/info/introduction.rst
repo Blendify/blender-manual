@@ -10,7 +10,7 @@ The Info Editor is found at the top of the Default Screen and has the following 
 Header
 ======
 
-.. figure:: /images/interface_window-system_info-window-shaded.png
+.. figure:: /images/editors_info_introduction_info-editor.png
 
    Info Editor header.
 
@@ -62,6 +62,6 @@ When the Info Editors area is scaled up it reveals the Report console,
 where a scripting trail is displayed.
 Whenever an operator has been executed, it leaves a report, creating a log.
 
-.. figure:: /images/getting_started_help_python.png
+.. figure:: /images/editors_info_introduction_report-console.png
 
    The Report Console after adding a Cube.
