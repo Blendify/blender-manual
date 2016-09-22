@@ -25,12 +25,12 @@ this parameter sets the maximum number of bounces allowed for a single ray.
    reflections. This is done in the :menuselection:`Render --> Shading` panel.
 
 
-The *Color Swatch* in the mirror panel is the color of the light reflected back. Usually,
+The *Mirror Color* in the mirror panel is the color of the light reflected back. Usually,
 for normal mirrors, use white. However, some mirrors color the reflection (e.g. metals),
-so you can change the color by clicking on the swatch.
+so you can change the color by clicking on the color button.
 The amount of mirrored reflection is determined by the *Reflectivity* value.
 If set to something greater than 0, mirrored reflectivity will be activated and the reflection
-will be tinted the color set in the swatch.
+will be tinted the color set in Mirror Color.
 
 
 Options
@@ -52,14 +52,14 @@ Reflectivity
    Picking a mirror color.
 
 
-Color swatch
+Mirror Color
    Color of mirrored reflection
    By default, an almost perfectly reflective material like chrome, or a mirror object,
    will reflect the exact colors of its surrounding.
    But some other equally reflective materials tint the reflections with their own color.
    This is the case for well-polished copper and gold, for example. In order to replicate this within Blender,
    you have to set the Mirror Color accordingly. To set a mirror color,
-   simply click the color swatch in the mirror panel and select a color.
+   simply click the color button in the mirror panel and select a color.
 Fresnel
    Sets the power of the Fresnel effect. The Fresnel effect controls how reflective the material is,
    depending on the angle between the surface normal and the viewing direction. Typically, the larger the angle,
@@ -72,7 +72,7 @@ Depth
    you will need to increase this value if you want to see surrounding
    reflections in the reflection of the reflected object (!).
    In this case, a Depth of 4 or 5 is typically a good value.
-Max Dist
+Max Distance
    Maximum distance of reflected rays away from camera (Z-Depth) in Blender units.
    Reflections further than this range fade out to reduce compute time.
 

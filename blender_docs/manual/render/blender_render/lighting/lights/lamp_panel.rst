@@ -26,7 +26,7 @@ Type
    :doc:`Types of lamps </render/blender_render/lighting/lamps/index>` available in Blender Internal.
    They share all or some of the options listed here:
 Color
-   The color of the light source's illumination. Opens a color swatch.
+   The color of the light source's illumination.
 Energy
    The intensity of the light source's illumination from (0.0 to 10.0).
 Falloff

@@ -43,9 +43,9 @@ Halo Panel
 ----------
 
 Alpha
-   The transparency
-Color Swatch
-   The color of the halo itself
+   The transparency.
+Diffuse Color
+   The color of the halo itself.
 Seed
    If non-zero, randomizes the ring dimension and line location.
    To use, give any (integer) number to start the random-number generator.
@@ -71,9 +71,9 @@ Texture
    This technique proves very useful when you want to create a realistic rain effect using particle systems,
    or similar.
 Vertex Normal
-   Use the vertex normal to specify the dimension of the halo
+   Use the vertex normal to specify the dimension of the halo.
 Extreme Alpha
-   Boosts alpha
+   Boosts alpha.
 Shaded
    Lets halo receive light and shadows from external objects.
 
@@ -113,7 +113,7 @@ Size
 Boost
    Give the flare extra strength.
 Seed
-   Specifies an offset in the flare seed table
+   Specifies an offset in the flare seed table.
 Subflares
    Sets the number of subflares.
 Subsize
