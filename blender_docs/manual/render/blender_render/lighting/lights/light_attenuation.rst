@@ -294,6 +294,27 @@ which are so far away that their falloff is not noticeable.
 *Sun* and *Hemi* lamps always have constant falloff.
 
 
+Inverse Coefficients
+--------------------
+
+This lamp falloff type combines the *Inverse Square*, *Inverse Linear* and *Constant*
+modes into a single inverse-quadratic formula:
+
+:math:`I = E × (1.0 / (Q × r^2 + L × r + C))`
+
+Where:
+
+- *I* is the calculated Intensity of light.
+- *E* is the current *Energy* slider setting.
+- *C* is the current setting of the *Constant* slider setting.
+- *L* is the current setting of the *Linear* slider setting.
+- *Q* is the current setting of the *Quadratic* slider setting.
+- *r* is the distance from the lamp where the light intensity gets measured.
+
+Such a falloff model is commonly used in real-time rendering applications via a shading
+language like GLSL.
+
+
 Sphere
 ======
 
