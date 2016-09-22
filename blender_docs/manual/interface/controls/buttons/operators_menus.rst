@@ -88,11 +88,6 @@ after a key input at the mouse position.
 For example, the *Viewport Shading* button will produce a pop-up menu
 with the available shading options.
 
-
-.. container:: lead
-
-   .. clear
-
 Numerical selection
    You can use the number keys or :kbd:`Numpad` to input an item in the list to select.
    For example, :kbd:`Numpad-1` will select the first item and so on.
