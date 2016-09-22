@@ -4,7 +4,7 @@
 Curve Widget
 ************
 
-.. figure:: /images/widget_curve.png
+.. figure:: /images/interface_curve.png
    :align: right
 
    Curve Widget.
