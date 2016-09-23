@@ -45,7 +45,7 @@ Target (Armature Object Type)
       When using a Bone *Target*, you can choose where along this bone the target point lies.
 
 Rest Length
-   This numeric field sets the rest distance between the owner and its target, i.e.
+   This number button sets the rest distance between the owner and its target, i.e.
    the distance at which there is no deformation (stretching) of the owner.
 
    Reset
@@ -53,7 +53,7 @@ Rest Length
       so that it corresponds to the actual distance between the owner and its target (i.e.
       the distance before this constraint is applied).
 Volume Variation
-   This numeric field controls the amount of "volume" variation proportionally to the stretching amount.
+   This number button controls the amount of "volume" variation proportionally to the stretching amount.
    Note that the 0.0 value is not allowed, if you want to disable the volume feature,
    use the *None* button (see below).
 Volume

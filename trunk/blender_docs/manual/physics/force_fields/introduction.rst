@@ -118,5 +118,5 @@ Max Distance
 Min Distance
    The distance from the object center, up to where the force field is effective with full strength.
    If you have a *Fall-off* of 0 this parameter does nothing,
-   because the field is effective with full strength up to *Max Dist* (or the infinity).
+   because the field is effective with full strength up to *Max Distance* (or the infinity).
    Shown by an additional circle around the object.

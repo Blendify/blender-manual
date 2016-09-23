@@ -292,7 +292,7 @@ Fixed
 
 With this method,
 each free segment of the selected strokes will be uniformly divided in *n* parts
-(set in *Num* numeric field), i.e. will give *n* bones.
+(set in *Number* number button), i.e. will give *n* bones.
 
 .. list-table::
 
@@ -312,7 +312,7 @@ Adaptive
 
 With this method, each free segment of the selected strokes will create as many bones as
 necessary to follow its shape closely enough. This "closely enough" parameter being set by
-the *Threshold* numeric field; higher values giving more bones,
+the *Threshold* number button; higher values giving more bones,
 following more closely the segments' shape.
 So the more twisted a free segment, the more bones it will generate.
 
@@ -334,7 +334,7 @@ Length
 
 With this method,
 each free segment of the selected strokes will create as many bones as necessary,
-so that none of them is longer than the *Length* numeric field value
+so that none of them is longer than the *Length* number button value
 (in Blender Units).
 
 .. list-table::

@@ -150,10 +150,10 @@ Around Current Frame
    It has three options:
 
    Range
-      This numeric field specifies how many ghosts you will have on both "sides"
+      This number button specifies how many ghosts you will have on both "sides"
       (i.e. a value of 5 will give you ten ghosts, five before the current frame, and five after).
    Step
-      This numeric field specifies whether you have a ghost for every frame
+      This number button specifies whether you have a ghost for every frame
       (the default value of 1), or one each two frames, each three frames, etc.
    Selected Only
       When enabled, you will only see the ghosts of selected bones
@@ -164,11 +164,11 @@ In Range
    The ghosts are shaded from transparent for the first frame, to opaque at the last frame. It has four options:
 
    Start
-      This numeric field specifies the starting frame of the range (exclusive).
+      This number button specifies the starting frame of the range (exclusive).
       Note that unfortunately, it cannot take a null or negative value,
       which means you can only see ghosts starting from frame 2 included...
    End
-      This numeric field specifies the ending frame of the range, and cannot take a value below *GSta* one.
+      This number button specifies the ending frame of the range, and cannot take a value below *GSta* one.
    Step
       Same as above.
 

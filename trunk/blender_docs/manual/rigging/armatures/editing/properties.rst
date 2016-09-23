@@ -276,12 +276,12 @@ BO
 Child of
    These two settings control the bone relationship, as detailed in
    `Chain Editing`_.
-Segm
+Segment
    This setting controls the number of segments that a bone has; see
    `Bone Rigidity`_.
 Distance, Weight, Deform
    (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`), Mult
-   (also :kbd:`Shift-W` :menuselection:`--> (Mult VG, ...)`)
+   (also :kbd:`Shift-W` :menuselection:`--> (Multiply Vertex Group by Envelope, ...)`)
 
    These settings control how the bone influences its geometry, along with the bones' ends radius.
    This will be detailed in the :doc:`skinning part </rigging/skinning/index>`.
@@ -319,7 +319,7 @@ Bone Rigidity
    The Armature Bones panel in Pose Mode.
 
 
-Even though you have the *Segm* setting available in *Edit Mode*
+Even though you have the *Segment* setting available in *Edit Mode*
 (bones sub-panel, in the *Armature Bones* panel),
 you should switch to the *Pose Mode* :kbd:`Ctrl-Tab` to edit these "smooth"
 bones' properties -- one explanation to this strange need is that in *Edit Mode*,
@@ -334,7 +334,7 @@ so you cannot visualize the effects of these settings.
 
 We saw in :doc:`this page </rigging/armatures/bones/index>` that bones are made
 of small rigid segments mapped to a "virtual" Bézier curve.
-The *Segm* numeric field allows you to set the number of segments inside a given bone by default
+The *Segment* number button allows you to set the number of segments inside a given bone by default
 it is set to 1, which gives a standard rigid bone. The higher this setting (max is 32), the smoother the bone,
 but the heavier the pose calculations...
 

@@ -21,7 +21,7 @@ Thickness Position
       The strokes are drawn outside the object boundary.
    Relative
       This allows you to specify the relative position by a number between ``0.0`` (inside) and ``1.0`` (outside),
-      in the *Thickness Ratio* numeric field just below.
+      in the *Thickness Ratio* number button just below.
 
 The thickness position options are applied only to strokes of edge types
 *Silhouette* and *Border*,

@@ -84,7 +84,7 @@ Classic-Halfway
 Here are now the options specific to these generation methods:
 
 Size
-   The *Size* numeric field can have a value from (512 to 10240).
+   The *Size* number button can have a value from (512 to 10240).
    *Size* represents the resolution used to create a shadow map.
    This shadow map is then used to determine where shadows lay within a scene.
 
@@ -123,7 +123,7 @@ Filter Type
    The *Box*, *Tent*, and *Gauss* filter types control what filtering algorithm to use to
    anti-alias the buffered shadows.
 
-   They are closely related to the *Samples* numeric field,
+   They are closely related to the *Samples* number button,
    as when this setting is set to 1, shadow filtering is disabled,
    so none of these buttons will have any effect what soever.
 
@@ -150,7 +150,7 @@ Filter Type
    more information on the various filtering/distribution methods and their uses.
 
 Samples
-   The *Samples* numeric field can have a value between (1 and 16).
+   The *Samples* number button can have a value between (1 and 16).
    It controls the number of samples taken per pixel when calculating shadow maps.
 
    The higher this value, the more filtered,
@@ -162,7 +162,7 @@ Samples
    Having a *Samples* value of 1 is similar to turning off anti-aliasing for buffered shadows.
 
 Soft
-   The *Soft* numeric field can have a value between (1.0 to 100.0).
+   The *Soft* number button can have a value between (1.0 to 100.0).
    It indicates how wide an area is sampled when doing anti-aliasing on buffered shadows.
    The larger the *Soft* value,
    the more graduated/soft the area that is anti-aliased/softened on the edge of generated shadows.
@@ -224,7 +224,7 @@ Common options
 The following settings are common to all buffered shadow generation method.
 
 Bias
-   The *Bias* numeric field can have a value between (0.001 to 5.0).
+   The *Bias* number button can have a value between (0.001 to 5.0).
    *Bias* is used to add a slight offset distance between an object and the shadows cast by it.
    This is sometimes required because of inaccuracies in the calculation which determines
    weather an area of an object is in shadow or not.

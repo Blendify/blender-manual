@@ -39,7 +39,7 @@ Use Rotation
    This allows you to have a "floor" plane of any orientation you like, not just the global XY, XZ and YZ ones...
 
 Offset
-   This numeric field allows you to offset the "floor" plane from the target's center,
+   This number button allows you to offset the "floor" plane from the target's center,
    by the given number of Blender Units. Use it e.g.
    to account for the distance from a foot bone to the surface of the foot's mesh.
 

@@ -37,7 +37,7 @@ Navigation Mesh Object:
    :menuselection:`Properties editor --> Scene --> Navigation mesh object panel --> Build navigation mesh`
 
 
-Dist
+Distance
    The maximum distance for the game object approach the Target Object.
 Velocity
    The velocity used to seek the Target Object.
