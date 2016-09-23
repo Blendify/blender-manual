@@ -9,7 +9,8 @@ The different types of controls are described below.
 .. toctree::
    :maxdepth: 1
 
-   operators_menus.rst
+   buttons.rst
+   menus.rst
    toggle_radio.rst
    number.rst
    eye_dropper.rst

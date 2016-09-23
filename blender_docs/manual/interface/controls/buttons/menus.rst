@@ -1,55 +1,13 @@
 
-*****************
-Operators & Menus
-*****************
-
-.. _ui-operation-buttons:
-
-Operation Buttons
-=================
-
-.. figure:: /images/interface_button.png
-   :align: right
-
-   Operation button.
-
-
-These are buttons that perform an operation when clicked with :kbd:`LMB`.
-They can be identified by their gray color in the default color scheme.
-
-
-Text & Search
-=============
-
-.. figure:: /images/interface_text_search.png
-
-   Text and Search.
-
-
-Color Buttons
-=============
-
-.. figure:: /images/interface_color_button.png
-   :align: right
-
-   Color Buttons.
-
-   Without and with alpha.
-
-:kbd:`LMB` color buttons opens the :doc:`/interface/controls/templates/color_picker`.
-Color buttons with an alpha channel are divided in half: On the left the color is shown without alpha and
-on the right the color with alpha drawn over a checker pattern background.
-Colors can be drag and dropped.
-
-
-Menu Buttons
-============
+*****
+Menus
+*****
 
 Blender uses a variety of different menus for accessing options, tools and selecting Data-Blocks.
 
 
-Menu Shortcuts
---------------
+Shortcuts
+=========
 
 - Arrow keys can be used to navigate.
 - Each menu item has an underlined character which can be pressed to activate it.
@@ -59,22 +17,46 @@ Menu Shortcuts
 - Press :kbd:`Return` to activate the selected menu item.
 - Press :kbd:`Esc` to cancel the menu.
 
+.. _ui-header-menu:
 
 Header Menus
-------------
+============
 
 .. figure:: /images/interface_menu_button.png
    :align: right
 
    The Info Editor menu buttons.
 
+Most headers exhibit a set of menus, located immediately next
+to the first *Editor Type* selector.
 Header menus are used to configure the editor and access tools.
+All Menu entries show the relevant shortcut keys, if any.
 
 See :ref:`ui-region-header` for header options.
 
 
+Collapsing Menus
+----------------
+
+Sometimes its helpful to gain some extra horizontal space in the header by collapsing menus,
+this can be accessed from the header context menu,
+simply right click on the header and enable set it to collapsed.
+
+.. list-table::
+
+   * - .. figure:: /images/header_menu_expand.jpg
+          :width: 320px
+
+          Right-click on any of the header menus.
+
+     - .. figure:: /images/header_menu_collapsed.jpg
+          :width: 320px
+
+          Access the menu from the collapsed icon.
+
+ 
 Pop-Up Menus
-------------
+============
 
 .. figure:: /images/interface_popup-menu.jpg
    :align: right
@@ -96,7 +78,7 @@ Pop-ups can be moved by dragging there title.
 
 
 Context Menu
-------------
+============
 
 Context menus are pop-ups opened with the :kbd:`RMB`.
 Only the common options are listed below.
@@ -130,7 +112,7 @@ Edit Translation
 
 
 Pie Menus
----------
+=========
 
 A pie menu is a menu, whose items are spread radially around the mouse.
 Pie menus has to be activated in the User Preferences through
@@ -143,7 +125,7 @@ Pie menus has to be activated in the User Preferences through
 
 
 Interaction
-^^^^^^^^^^^
+-----------
 
 The pie menu is spawned by a key press.
 

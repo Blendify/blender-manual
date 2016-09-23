@@ -7,11 +7,12 @@
 .. figure:: /images/editors_menu.png
    :align: right
 
-   The Editor selection menu.
+   The Editor Type selector.
 
-Blender provides a number of different *Editor* types for displaying and modifying different aspects of data.
+Blender provides a number of different editors for displaying and modifying different aspects of data.
 
-It is also possible to open the same Editor type multiple times to have different views on the same data.
+The *Editor Type* selector, the first button at the left side of a header, allows :kbd:`LMB` you to change the editor in that area.
+Every area in Blender may contain any type of editor and it is also possible to open the same type multiple times.
 
 There is also documentation on the :doc:`general interface </interface/index>` of editors.
 

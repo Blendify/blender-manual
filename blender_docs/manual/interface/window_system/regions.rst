@@ -26,6 +26,8 @@ Header
 A header is a small horizontal strip with a lighter gray background, 
 which sits either at the top or bottom of the area.
 All editors have a header acting as a container for menus and commonly used tools.
+:ref:`Menus <ui-header-menu>` and buttons will change with the editor type and
+the selected object and mode.
 
 
 .. figure:: /images/interface-window_system-headers-header_example.jpg
@@ -38,51 +40,6 @@ the header of its editor changes to a slightly lighter shade of gray.
 This means that it is "focused".
 All hotkeys you press will now affect the contents of this editor.
 The header can be hidden with :kbd:`Alt-F9`.
-
-.. move to Editor introduction?
-
-Editor Type Selector
---------------------
-
-:kbd:`LMB` clicking on the first icon at the left side of a header allows changing the Editor type.
-Every area in Blender may contain any type of editor,
-allowing you to customize your window layout to your own work flows.
-
-
-.. move to menu buttons?
-
-Menus and Buttons
------------------
-
-Most headers exhibit a set of menus, located immediately next
-to the first *Editor Type* selector.
-
-Menus allow you to directly access many features and commands,
-so just look through them to see what is there.
-All Menu entries show the relevant shortcut keys, if any.
-
-Menus and buttons will change with *Editor Type* and the selected object and mode.
-They only show the actions that can be performed.
-
-
-Collapsing Menus
-^^^^^^^^^^^^^^^^
-
-Sometimes its helpful to gain some extra horizontal space in the header by collapsing menus,
-this can be accessed from the header context menu,
-simply right click on the header and enable set it to collapsed.
-
-.. list-table::
-
-   * - .. figure:: /images/header_menu_expand.jpg
-          :width: 320px
-
-          Right-click on any of the header menus.
-
-     - .. figure:: /images/header_menu_collapsed.jpg
-          :width: 320px
-
-          Access the menu from the collapsed icon.
 
 
 Tool Shelf
