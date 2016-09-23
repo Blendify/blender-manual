@@ -108,7 +108,7 @@ For more information on specific tools available, see:
 - :ref:`rigid-body-index`
 - :ref:`grease-pencil-index`
 - :ref:`modeling-index`
-- :ref:`painting-sculping-index`
+- :ref:`painting-sculpting-index`
 - :ref:`painting-vertex-index`
 - :ref:`painting-weight-index`
 - :ref:`painting-texture-index`

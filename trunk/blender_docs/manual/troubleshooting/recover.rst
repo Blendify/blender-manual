@@ -54,16 +54,18 @@ Recover Last Session
    Note that files in your :ref:`temp-dir` may be deleted when you reboot
    (depending on your system configuration).
 
+   .. _fig-troubleshooting-file-browser:
+   
    .. figure:: /images/basics-undo-display_file_date.jpg
 
-      blend-file Browser.
+      File Browser with detailed view selected.
 
    .. tip::
 
       When recovering files, you will navigate to your temporary folder.
       It is important, when browsing, to enable the detailed list view.
       Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
-      (See Figure: blend-file Browser)
+      (See Fig. :ref:`fig-troubleshooting-file-browser`).
 
 Recover Auto Save
    :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file.

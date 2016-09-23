@@ -27,17 +27,27 @@ Name
 User count
    Displays the number of users of the data. Clicking on it to make it a single-user copy,
    with it linked only to the active object/object's data.
-Fake User "F"
+Fake User ``F``
    Keeps the data-block saved in the blend-file, even if it has no real users.
-New/Add "+"
+New/Add ``+``
    Creates a new data-block or duplicates the current data-block and applies it.
 Open file
-   Opens the :doc:`file-browser </editors/file_browser/introduction>`.
-Unlink data-block "X"
+   Opens the :doc:`File Browser </editors/file_browser/introduction>`.
+Unlink data-block ``X``
    Clears the link.
 
 Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 (such as a list of materials used on the object).
+
+
+Data-Block Types
+----------------
+
+.. image source: Scene tab --> Active keying set panel --> ID-block (sound replaced)
+
+.. figure:: /images/data_system_id-types.png
+
+   Data-blocks types with their icon.
 
 
 Preview

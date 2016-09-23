@@ -3,7 +3,7 @@
 Menus
 *****
 
-Blender uses a variety of different menus for accessing options, tools and selecting Data-Blocks.
+Blender uses a variety of different menus for accessing options and tools.
 
 
 Shortcuts
@@ -16,6 +16,7 @@ Shortcuts
   For larger menus :kbd:`Alt-1` the 11th... up to :kbd:`Alt-0` the 20th)
 - Press :kbd:`Return` to activate the selected menu item.
 - Press :kbd:`Esc` to cancel the menu.
+
 
 .. _ui-header-menu:
 
