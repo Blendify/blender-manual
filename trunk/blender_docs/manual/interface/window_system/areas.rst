@@ -27,56 +27,49 @@ Simply move your mouse cursor over the border between two areas,
 until it changes to a double-headed arrow, and then click and drag.
 
 
-Splitting
----------
+Splitting and Joining
+---------------------
+
+Area Spitter Widget
+^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
 
 
 In the upper right and lower left corners of an area are the area splitter widgets,
 and they look like a little ridged thumb grip. It both splits and combines areas.
-
 When you hover over it, your cursor will change to a cross (✛).
-:kbd:`LMB` and drag it to the left to split the area vertically,
+
+:kbd:`LMB` and drag it to the left to *split* the area vertically,
 or downward to split it horizontally.
 
-
-Joining
--------
-
-In order to merge two areas,
-they must be the same dimension in the direction you wish to merge.
-
-For example,
-if you want to combine two areas that are side-by-side, they must be the same height.
-If the one on the left is not the same as the one on the right,
-you will not be able to combine them horizontally.
+In order to *join* two areas,
+they must be the same dimension (width or height) in the direction you wish to join.
 This is so that the combined area space results in a rectangle.
-
-The same rule holds for joining two areas that are stacked on top of one another;
-they must both have the same width. If the one above is split vertically,
-you must first merge those two, and then join the bottom one up to the upper one.
+To start merging :kbd:`LMB` click and drag the area splitter.
 
 .. figure:: /images/interface-window_system-arranging_areas-join_areas.png
    :width: 250px
    
    The Properties Editor is being merged "over" the Outliner.
 
+The area that will closed gets a dark overlaid with an arrow.
+Now you can select the area to be closed by moving the mouse over it.
 
-To merge the current area with the one above it
-hover the mouse pointer over the area splitter. When the pointer changes to a cross,
-:kbd:`LMB` click and drag up to begin the process of combining.
-The upper area will get a little darker, overlaid with an arrow pointing up.
-This indicates that the lower (current) area will "take over" that darkened area space.
 Let go of the :kbd:`LMB` to merge.
+If you press :kbd:`Esc` or  :kbd:`RMB` before releasing the mouse, the operation will be aborted.
 
-If you want the reverse to occur,
-move your mouse cursor back into the original (lower) area,
-and it will instead get the overlay arrow.
 
-In the same way, windows may be merged left to right or vice versa.
+Area options
+^^^^^^^^^^^^
 
-If you press :kbd:`Esc` before releasing the mouse, the operation will be aborted.
+:kbd:`RMB` on the border opens the *Area Options*.
+
+Join Area
+   Shows the join direction overlay.
+Split Area
+   Shows a line that lets you select the area and position where to split.
+   :kbd:`Tab` switches between vertical/horizontal.
 
 
 Swapping Contents
