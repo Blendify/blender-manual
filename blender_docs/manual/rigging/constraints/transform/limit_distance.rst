@@ -41,7 +41,7 @@ Target
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
 
 Distance
-   This numeric field sets the limit distance, i.e. the radius of the constraining sphere.
+   This number button sets the limit distance, i.e. the radius of the constraining sphere.
 Reset Distance
    When clicked, this small button will reset the *Distance* value,
    so that it corresponds to the actual distance between the owner and its target (i.e.

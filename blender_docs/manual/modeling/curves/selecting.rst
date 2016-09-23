@@ -61,14 +61,14 @@ Checker Deselect
 This only works if you already have at least one control point selected.
 Using the current selection, it will add to it every nth control point,
 before and after the initial selection. The "selection step" is specified in the *N*
-pop-up numeric field shown during the tool start.
+pop-up number button shown during the tool start.
 
 Nth Selection
    Number of points to select.
 Skip
    Number of points to skip.
 Offset
-   Offests at what point to start at.
+   Offsets at what point to start at.
 
 
 Select/Deselect First/Last

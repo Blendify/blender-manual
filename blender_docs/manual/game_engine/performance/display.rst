@@ -20,7 +20,7 @@ Options
 
 
 Animation Frame Rate
-   This numeric field/slider specify the maximum frame rate at which the game will run.
+   This number button/slider specify the maximum frame rate at which the game will run.
    Minimum is 1, maximum is 120.
 Debug Properties
    When checked, if a property was previously checked to be debugged during the game,

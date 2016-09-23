@@ -26,14 +26,14 @@ Vertex Group
    will be affected by this modifier.
    Vertices not in this group will not be deformed.
 
-Invert <->
+Invert ``<->``
    Inverts the influence of the selected vertex group, meaning that the group
    now represents vertices that will not be deformed by the modifier.
 
    (The setting reverses the weight values of the group).
 
 Precision
-   The *Precision* numeric slider field controls the accuracy with which the
+   The *Precision* number button controls the accuracy with which the
    deform mesh cage alters the deformed object, when the points on the cage are moved.
    Raising this value higher can greatly increase the time it takes the *Mesh Deform*
    modifier to complete its binding calculations,

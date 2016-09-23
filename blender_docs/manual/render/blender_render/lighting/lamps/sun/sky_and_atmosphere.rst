@@ -94,7 +94,7 @@ Color space
    - SMPTE
    - Exposure
 
-   This numeric field allows you to modify the exposure of the rendered Sky and Sun (0.0 for no correction).
+   This number button allows you to modify the exposure of the rendered Sky and Sun (0.0 for no correction).
 
 Horizon
    Brightness
