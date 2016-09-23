@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Wireframe
 
 ******************
 Wireframe Modifier

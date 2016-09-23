@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Laplacian Deform
 
 *************************
 Laplacian Deform Modifier

@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; UV Warp
 
 ****************
 UV Warp Modifier

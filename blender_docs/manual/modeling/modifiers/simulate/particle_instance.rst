@@ -1,5 +1,7 @@
 ..    TODO/Review: {{Review|im=new?}}.
 
+.. index:: pair: Modifier; Particle Instance
+
 **************************
 Particle Instance Modifier
 **************************

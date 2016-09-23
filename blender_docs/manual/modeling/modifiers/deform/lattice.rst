@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Lattice
 
 ****************
 Lattice Modifier
