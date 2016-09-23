@@ -20,7 +20,7 @@ it is very useful when you need to smoothly deform the surface of a dense mesh.
 
 .. note:: Sculpting
 
-   Blender also has :ref:`painting-sculping-index`
+   Blender also has :ref:`painting-sculpting-index`
    that contains brushes and tools for proportionally editing a mesh without seeing the individual vertices.
 
 
