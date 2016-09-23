@@ -19,8 +19,7 @@ which are displayed when a camera is the selected (active!) object.
 Lens
 ====
 
-.. figure:: /images/camerapanel.png
-   :width: 270px
+.. figure:: /images/render_blender-render_camera_object-data_lens-panel.png
 
    Camera Lens panel.
 
@@ -149,7 +148,7 @@ the clip bounds will be visible as two yellow connected dots on the camera line 
 Camera
 ======
 
-.. figure:: /images/camera-presets-panel.jpg
+.. figure:: /images/render_blender-render_camera_object-data_camera-panel.png
 
    Camera Presets panel.
 
@@ -169,7 +168,7 @@ Sensor size
 Depth of Field
 ==============
 
-.. figure:: /images/camera_dof_panel.jpg
+.. figure:: /images/render_blender-render_camera_object-data_depth-of-field-panel.png
 
    Camera Depth of Field Panel.
 
@@ -208,7 +207,7 @@ Blades
    a *bokeh effect* in the viewport. To enable this feature, the blades must be
    set to at least 3 (3 sides, triangle)
 
-.. figure:: /images/camera_dof_bokeh.jpg
+.. figure:: /images/render_blender-render_camera_object-data_depth-of-field-bokeh.png
 
    The viewport bokeh effect with the blades set to 3.
 
@@ -216,7 +215,7 @@ Blades
 Display
 =======
 
-.. figure:: /images/camera-display-panel.jpg
+.. figure:: /images/render_blender-render_camera_object-data_display-panel.png
 
    Camera Display Panel.
 
@@ -229,7 +228,7 @@ Mist
    The mist limits and other options are set in the *World* panel,
    in the :doc:`Mist section </render/blender_render/world/mist>`.
 
-.. figure:: /images/camera-camera-view.png
+.. figure:: /images/render_blender-render_camera_object-data_display-view.png
 
    Camera view displaying safe areas, sensor and name.
 
@@ -293,7 +292,7 @@ yet safe areas are still considered best practice and may be legally required fo
 
 In Blender, safe areas can be set from the Camera and Sequencer views.
 
-.. figure:: /images/camera_safe_areas_ui.png
+.. figure:: /images/render_blender-render_camera_object-data_safe-areas-panel.png
 
    The Safe areas panel found in the camera properties,
    and the view mode of the sequencer.
@@ -302,7 +301,7 @@ In Blender, safe areas can be set from the Camera and Sequencer views.
 Main Safe Areas
 ---------------
 
-.. figure:: /images/camera_safe_areas.png
+.. figure:: /images/render_blender-render_camera_object-data_safe-areas-main.png
 
    Red line: Action safe. Green line: Title safe.
 
@@ -327,7 +326,7 @@ Action Safe
 Center-Cuts
 -----------
 
-.. figure:: /images/camera_safe_areas_centercuts.png
+.. figure:: /images/render_blender-render_camera_object-data_safe-areas-cuts.png
 
    Cyan line: action center safe. Blue line: title center safe.
 
