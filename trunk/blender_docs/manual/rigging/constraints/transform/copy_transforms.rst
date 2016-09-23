@@ -1,3 +1,4 @@
+.. index:: pair: Constraint; Copy Transforms
 
 **************************
 Copy Transforms Constraint

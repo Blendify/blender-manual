@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|im=examples}}.
 
+.. index:: pair: Constraint; Transformation
+
 *************************
 Transformation Constraint
 *************************

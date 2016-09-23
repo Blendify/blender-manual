@@ -1,3 +1,4 @@
+.. index:: pair: Constraint; Limit Rotation
 
 *************************
 Limit Rotation Constraint

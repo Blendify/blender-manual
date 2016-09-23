@@ -1,3 +1,4 @@
+.. index:: pair: Constraint; Copy Location
 
 ************************
 Copy Location Constraint
