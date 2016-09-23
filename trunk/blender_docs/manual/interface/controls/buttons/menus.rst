@@ -27,12 +27,10 @@ Header Menus
 
    The Info Editor menu buttons.
 
-Most headers exhibit a set of menus, located immediately next
+Most :ref:`headers <ui-region-header>` exhibit a set of menus, located immediately next
 to the first *Editor Type* selector.
 Header menus are used to configure the editor and access tools.
 All Menu entries show the relevant shortcut keys, if any.
-
-See :ref:`ui-region-header` for header options.
 
 
 Collapsing Menus
