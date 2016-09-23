@@ -116,13 +116,13 @@ For example, the image below shows :doc:`SubSurf </modeling/modifiers/generate/s
 
 .. list-table:: Modifier Stack example.
 
-   * - .. figure:: /images/modifier-stackorder-example2.png
+   * - .. figure:: /images/modifier-mirror-subsurf2.png
           :width: 320px
 
           The Mirror modifier is the last item in the stack and
           the result looks like two surfaces.
 
-     - .. figure:: /images/modifier-stackorder-examp1e1.png
+     - .. figure:: /images/modifier-mirror-subsurf1.png
           :width: 320px
 
           The Subsurface modifier is the last
