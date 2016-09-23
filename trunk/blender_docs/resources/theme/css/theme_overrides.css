@@ -50,6 +50,12 @@ input[type="number"], input[type="tel"], input[type="color"] {
 .rst-content .seealso {
 	background-color: #e7ebfa;
 }
+.rst-content .important .admonition-title {
+	background-color: #ddca3b;
+}
+.rst-content .important {
+	background-color: #f6f3a5;
+}
 
 /* rb =, see ( > ), note ( i ), tip i , hint (+), warn / ! \ */
 .refbox .admonition-title::before {content:"\f00b"}
