@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Mesh Sequence Cache
 
 ****************************
 Mesh Sequence Cache Modifier

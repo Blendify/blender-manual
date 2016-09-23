@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Array
 
 **************
 Array Modifier

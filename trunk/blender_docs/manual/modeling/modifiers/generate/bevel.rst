@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Bevel
 
 **************
 Bevel Modifier

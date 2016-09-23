@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Laplacian Smooth
 
 *************************
 Laplacian Smooth Modifier

@@ -1,5 +1,4 @@
-.. index::
-   pair: Modifier; Armature
+.. index:: pair: Modifier; Armature
 
 *****************
 Armature Modifier

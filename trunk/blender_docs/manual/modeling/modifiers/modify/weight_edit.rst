@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Vertex Weight Edit
 
 ***************************
 Vertex Weight Edit Modifier

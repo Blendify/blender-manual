@@ -1,3 +1,4 @@
+.. index:: pair: Modifier; Wave
 
 *************
 Wave Modifier
