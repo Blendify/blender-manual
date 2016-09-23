@@ -30,23 +30,21 @@ until it changes to a double-headed arrow, and then click and drag.
 Splitting and Joining
 ---------------------
 
-Area Spitter Widget
-^^^^^^^^^^^^^^^^^^^
+Area Spit Widget
+^^^^^^^^^^^^^^^^
 
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
 
 
-In the upper right and lower left corners of an area are the area splitter widgets,
+In the upper right and lower left corners of an area are the area split widgets,
 and they look like a little ridged thumb grip. It both splits and combines areas.
 When you hover over it, your cursor will change to a cross (✛).
 
-:kbd:`LMB` and drag it to the left to *split* the area vertically,
-or downward to split it horizontally.
+:kbd:`LMB` and drag it inward *split* the area.
 
-In order to *join* two areas,
-they must be the same dimension (width or height) in the direction you wish to join.
+In order to *join* two areas :kbd:`LMB` click and drag the area splitter outward.
+They must be the same dimension (width or height) in the direction you wish to join.
 This is so that the combined area space results in a rectangle.
-To start merging :kbd:`LMB` click and drag the area splitter.
 
 .. figure:: /images/interface-window_system-arranging_areas-join_areas.png
    :width: 250px
@@ -65,11 +63,11 @@ Area options
 
 :kbd:`RMB` on the border opens the *Area Options*.
 
-Join Area
-   Shows the join direction overlay.
 Split Area
    Shows a line that lets you select the area and position where to split.
    :kbd:`Tab` switches between vertical/horizontal.
+Join Area
+   Shows the join direction overlay.
 
 
 Swapping Contents
