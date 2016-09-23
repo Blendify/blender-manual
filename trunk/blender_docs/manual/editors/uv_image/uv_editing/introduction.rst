@@ -3,11 +3,6 @@
 Introduction
 ************
 
-..
-   TODO: We probably want this to be a more regular index page
-   then link to other topics in their own page, UV/Mask/Scopes/Paint... etc
-
-
 Header
 ======
 

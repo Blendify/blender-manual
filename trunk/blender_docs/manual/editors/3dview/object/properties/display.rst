@@ -1,4 +1,4 @@
-.. index:: triple: 3D View; Properties region; Display panel
+.. index:: triple: Properties editor; Object tab; Display panel
 
 *******
 Display
