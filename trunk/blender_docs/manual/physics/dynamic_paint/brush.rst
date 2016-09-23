@@ -127,7 +127,7 @@ Basically the color ramp represents brush velocity values:
 left side being zero velocity and right side being the "Max velocity".
 Speed is measured in "Blender units per frame".
 
-Tick boxes above can be used to define color ramp influence.
+Checkboxes above can be used to define color ramp influence.
 
 Multiply Alpha
    Uses color ramp's alpha value depending on current velocity and multiplies brush alpha with it.

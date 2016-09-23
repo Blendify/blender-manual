@@ -75,9 +75,7 @@ Framing
       Scale the display in X and Y to exactly fill the entire viewport.
 
 Bar Color
-   Select a color to use as the color of bars around the viewport (default black).
-   To use this, select a color mode (RGB, HSV or Hex),
-   then use the color slider and color wheel to choose a bar color.
+   Select a color to use as the color of bars around the viewport.
 
 
 Stereo

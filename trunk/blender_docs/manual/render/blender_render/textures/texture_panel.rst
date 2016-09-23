@@ -28,7 +28,7 @@ Textures Stack
 Active Texture
    The Texture slots are displayed in a :ref:`ui-list-view`.
    The order in the stack defines how textures are overlayed in the rendered image.
-   Tick or untick the checkbox enables/disables the selected texture.
+   The checkbox enables/disables the selected texture.
 
 
 Texture Data-Block

@@ -270,24 +270,22 @@ At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D 
 The lamps are equal, their difference is their positioning and colors.
 You can control the direction of the lamps, as well as their diffuse and specular colors. Available Options are:
 
+Use
+   Toggles the specific lamp.
+Diffuse
+   This is the constant color of the lamp.
+Specular
+   This is the highlight color of the lamp.
 Direction
    Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
    let us the user change the direction of the lamp by rotating the sphere.
    The direction of the lamp will be the same as shown at the sphere surface.
-Diffuse
-   This is the constant color of the lamp.
-   Clicking on the color widget, opens the color picker pop-up and
-   allows the user to change colors using the color picker.
-Specular
-   This is the highlight color of the lamp
-   Clicking on the color widget, opens the color picker pop-up and
-   allows the user to change colors using the color picker.
 
 
 Color Picker Type
 =================
 
-Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color field.
+Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color button.
 
 See the different color picker types at the :doc:`Extended Controls </interface/controls/templates/color_picker>` page.
 
