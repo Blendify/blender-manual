@@ -11,7 +11,7 @@ Introduction
 Header
 ======
 
-.. figure:: /images/editors_image_texturing-header.png
+.. figure:: /images/editors_uv-image_texturing-header.png
 
    UV/Image Editor Header.
 
@@ -47,45 +47,14 @@ Auto Update Other Affected Windows
 Properties Region
 =================
 
-.. figure:: /images/editors_image_properties.png
+UV Vertex Panel
+---------------
+
+.. figure:: /images/editors_uv-image_uv-vertex.png
    :align: right
 
-   UV/Image Editor Properties region.
+   UV Vertex Panel.
 
 UV Vertex
    Transform Properties :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
 
-
-.. index:: triple: UV/Image; Properties region; Display panel
-
-Display Panel
--------------
-
-You can set the editors display options in the this panel.
-
-Aspect Ratio
-   Display Aspect for this image. Does not affect rendering.
-Coordinates
-   Display UV coordinates.
-
-   Repeat
-      Draw the image repeated outside of the main view.
-   Normalized
-      Display UV coordinates from 0.0 to 1.0 rather than in pixels.
-Cursor Location
-   2D cursor location for this view.
-UVs
-   Edge Draw Type
-      Sets how UV edges are displayed.
-
-      Outline, Dash, Black, White
-   Draw Faces
-      Draw faces over the image.
-   Smooth
-      Makes edges appeared anti-aliased.
-   Modified
-      Show results of modifiers in the UV display.
-   Stretch
-      Shows how much of a difference there is between UV coordinates and 3D coordinates.
-      Blue means low distortion, while Red means high distortion.
-      Choose to display the distortion of *Angles* or the *Area*.
