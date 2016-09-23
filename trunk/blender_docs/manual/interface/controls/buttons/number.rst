@@ -1,5 +1,4 @@
 .. rename to numeric input?
-.. add text, search?
 
 **************
 Number Buttons
