@@ -3,6 +3,8 @@
 Display and View Panels
 ***********************
 
+.. index:: triple: 3D View; Properties region; Display panel
+
 Display Panel
 =============
 
