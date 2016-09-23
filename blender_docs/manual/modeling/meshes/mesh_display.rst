@@ -54,7 +54,7 @@ Normals
 =======
 
 Show
-   Displays the normals of faces and/or vertices using the Face and Vertex tick boxes.
+   Displays the normals of faces and/or vertices using the Face and Vertex checkboxes.
 
    Vertex, Loop, Face
 Size
