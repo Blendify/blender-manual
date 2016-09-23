@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|im=update}}.
 
+.. index:: pair: Constraint; Child Of
+
 *******************
 Child Of Constraint
 *******************

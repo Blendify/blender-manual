@@ -1,3 +1,4 @@
+.. index:: pair: Constraint; Camera Solver
 
 ************************
 Camera Solver Constraint

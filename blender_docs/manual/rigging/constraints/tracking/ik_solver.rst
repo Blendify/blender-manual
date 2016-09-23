@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|}}.
 
+.. index:: pair: Constraint; IK Solver
+
 ********************
 IK Solver Constraint
 ********************

@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|text=This needs a complete rewrite}}.
 
+.. index:: pair: Constraint; Pivot
+
 ****************
 Pivot Constraint
 ****************

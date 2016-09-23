@@ -1,3 +1,4 @@
+.. index:: pair: Constraint; Track To
 
 *******************
 Track To Constraint

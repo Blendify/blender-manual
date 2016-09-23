@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|text=Notes section is a mess.}}.
 
+.. index:: pair: Constraint; Action
+
 *****************
 Action Constraint
 *****************
