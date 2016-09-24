@@ -45,7 +45,7 @@ For more information on the different shadow generation methods see these links:
 - `Development Release Logs 2.43: Irregular Shadow Buffer
   <https://www.blender.org/development/release-logs/blender-243/irregular-shadow-buffer/>`__.
 - `Blender Nation: Blender Gets Irregular Shadow Buffers
-  <https://www.blendernation.com/2006/10/15/blender-gets-irregular-shadow-buffers/>`__.
+  <http://www.blendernation.com/2006/10/15/blender-gets-irregular-shadow-buffers/>`__.
 - `Development Release Logs 2.43: Shadow Buffer Halfway Average
   <https://www.blender.org/development/release-logs/blender-243/shadow-buffer-halfway-average/>`__.
 

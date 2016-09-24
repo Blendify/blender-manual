@@ -84,7 +84,6 @@ Temp. Diff.
    Note that smoke from multiple flow objects with different temperatures
    will mix and warm up/cool down until an equilibrium is reached.
 
-
 Vorticity
    Controls the amount of turbulence in the smoke. Higher values will make lots of small swirls,
    while lower values make smoother shapes.
@@ -165,7 +164,7 @@ Noise Method
    .. note::
 
       *Wavelet* is an implementation of `Turbulence for Fluid Simulation
-      <https://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
+      <http://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
 
 Strength
    Strength of noise.

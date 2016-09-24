@@ -17,7 +17,6 @@ specular reflection is *viewpoint dependent*.
 According to Snell's Law, light striking a specular surface will be reflected at an angle which mirrors the
 incident light angle (with regard to the surface's normal), which makes the viewing angle very important.
 
-
 .. tip:: Not a Mirror!
 
    It is important to stress that the *specular reflection*
@@ -179,12 +178,12 @@ It can be more controllable because it adds a fourth option, an :term:`index of 
 to the aforementioned three.
 `James F. Blinn <https://en.wikipedia.org/wiki/Jim_Blinn>`__
 worked at NASA's Jet Propulsion Laboratory and became widely known for his work
-on Carl Sagan's TV documentary *Cosmos*.
-The model he described in his 1977 paper
+on Carl Sagan's TV documentary *Cosmos*. The model he described in his 1977 paper
 `Models of Light Reflection for Computer Synthesized Pictures
-<https://research.microsoft.com/pubs/73852/p192-blinn.pdf>`__
+<https://www.microsoft.com/en-us/research/publication/models-of-light-reflection-for-computer-synthesized-pictures/>`__
 (PDF) included changes in specular intensity with light
 direction and more accurately positioned highlights on a surface.
+
 
 Options
 -------
@@ -202,7 +201,6 @@ IOR
 Toon
 ----
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -217,6 +215,7 @@ Toon
 
 The Toon specular shader matches the Toon diffuse shader. It is designed to produce the sharp,
 uniform highlights of cartoon cels.
+
 
 Options
 -------

@@ -104,8 +104,8 @@ Oren-Nayar
 
 Oren-Nayar takes a somewhat more 'physical' approach to the diffusion phenomena as it takes
 into account the amount of microscopic roughness of the surface.
-`Michael Oren <https://www.informatik.uni-trier.de/~ley/db/indices/a-tree/o/Oren:Michael.html>`__ and
-`Shree K. Nayar <https://en.wikipedia.org/wiki/Shree_K._Nayar>`__
+`Michael Oren <http://dblp.uni-trier.de/pers/hd/o/Oren:Michael.html>`__
+and `Shree K. Nayar <https://en.wikipedia.org/wiki/Shree_K._Nayar>`__
 Their `reflectance model <https://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model>`__,
 developed in the early 1990s, is a generalization of Lambert's law now widely used in computer graphics.
 
