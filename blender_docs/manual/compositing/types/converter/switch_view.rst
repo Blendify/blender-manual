@@ -10,3 +10,6 @@ Switch View Node
    Switch View Node.
 
 TODO - see: https://developer.blender.org/T43469
+
+This node combine the *views* (left and right) into single Stereo 3D output.
+See :doc:`Multi-View </render/workflows/multiview>`.
