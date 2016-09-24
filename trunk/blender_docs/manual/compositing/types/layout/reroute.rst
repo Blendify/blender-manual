@@ -11,3 +11,11 @@ To quickly add a Reroute node into an existing connection, hold :kbd:`Shift` and
 while sweeping across the link to add a *Reroute node*.
 
 .. figure:: /images/composite_nodes_layout_reroute.png
+
+
+Properties
+==========
+
+Input
+   Input value used for unconnected sockets.
+   

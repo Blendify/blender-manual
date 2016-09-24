@@ -14,8 +14,6 @@ Scale View Horizontally, drag on the circles on the horizontal scroll bar.
 
 As usual, the View Menu controls what and how you view in the workspace.
 
-Properties Panel
-   The Properties Panel contains options for the way the preview is displayed.
 View all Sequences :kbd:`Home`
    Zooms the display to show all strips.
 Show Preview 1:1 :kbd:`Numpad1`
