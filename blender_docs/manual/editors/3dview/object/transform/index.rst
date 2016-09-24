@@ -11,5 +11,5 @@
    mirror.rst
    duplication.rst
    tools.rst
-   origns.rst
+   origin.rst
    transform_control/index.rst
