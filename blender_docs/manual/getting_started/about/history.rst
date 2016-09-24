@@ -146,7 +146,7 @@ Blender goes Open Source
   The Apricot release, cool GLSL shaders, lights and GE improvements, snap, sky simulator, shrinkwrap
   modifier, and Python editing improvements.
   This was the release following `Project Apricot <https://apricot.blender.org/>`__.
-- `2.49 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.49>`__ -- June 2009:
+- `2.49 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.49>`__ -- June 2009:
   Node-based textures, armature sketching (called Etch-a-Ton), boolean mesh operation improvements,
   JPEG2000 support, projection painting for direct transfer of images to models, and a significant Python
   script catalog. GE enhancements included video textures, where you can play movies in-game, upgrades
@@ -179,9 +179,9 @@ Blender 2.6x to 2.7x -- Improvements & Stabilizing
   with mesh contact/approximation, the Ocean Sim modifier to simulate ocean and foam, new add-ons, bug fixes,
   and more extensions added for the Python API.
 - `2.62 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.62>`__ -- February 2012:
-  The `Carve library <http://carve-csg.com/>`__ was added to improve boolean operations, support for
-  object tracking was added, the Remesh modifier was added, many improvements in the GE, matrices and
-  vectors in the Python API were improved, new add-ons, and many bug fixes.
+  The `Carve library <https://code.google.com/archive/p/carve/>`__ was added to improve boolean operations,
+  support for object tracking was added, the Remesh modifier was added, many improvements in the GE,
+  matrices and vectors in the Python API were improved, new add-ons, and many bug fixes.
 - `2.63 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.63>`__ -- April 2012:
   Bmesh was merged to trunk with full support for n-sided polygons, sculpt hiding, a panoramic camera
   for Cycles, mirror ball environment textures and float precision textures, render layer mask layers,

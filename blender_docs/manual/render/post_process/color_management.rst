@@ -139,8 +139,8 @@ linear color spaces and as such are useful as intermediate files in production.
 When working with image files, the default color space is usually the right one.
 If this is not the case,
 the color space of the image file can be configured in the image settings. A common situation
-where manual changes are needed is when working with or baking normal maps or displacement
-maps, for example. Such maps do not actually store colors, just data encoded as colors.
+where manual changes are needed is when working with or baking normal maps or displacement maps,
+for example. Such maps do not actually store colors, just data encoded as colors.
 In such cases they should be marked as *Non-Color Data*.
 
 Image data-blocks will always store float buffers in memory in the scene linear color space,
