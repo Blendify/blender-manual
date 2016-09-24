@@ -14,7 +14,7 @@ Properties
 ==========
 
 Label size
-   Font size of the label. For example, subordinate Frames to have smaller titles.
+   Font size of the label. For example, for subordinate frames to have smaller titles.
 Shrink
    Once a node is placed in the Frame, the Frame shrinks around it so as to remove wasted space.
    At this point it is no longer possible to grab the edge of the Frame to resize it, instead resizing occurs

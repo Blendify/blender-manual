@@ -8,5 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
-   interface.rst
+   navigate.rst
    nodes/index.rst

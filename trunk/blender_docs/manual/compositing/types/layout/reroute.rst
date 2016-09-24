@@ -18,4 +18,3 @@ Properties
 
 Input
    Input value used for unconnected sockets.
-   
