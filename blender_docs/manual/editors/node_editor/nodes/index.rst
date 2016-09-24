@@ -9,4 +9,5 @@
    introduction.rst
    parts.rst
    usage.rst
+   properties.rst
    groups.rst

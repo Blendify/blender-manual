@@ -125,11 +125,9 @@ When entering *Edit Mode*, several mesh tools become available.
 Most of these tools are also available as shortcuts
 (displayed in the *Tooltips* for each tool) and/or in the *Specials* menu
 :kbd:`W`, the *Edge* menu :kbd:`Ctrl-E`, and *Face* menu :kbd:`Ctrl-F`.
-For each tool a context-sensitive menu is opened at the bottom of the *Tool Shelf*.
+The properties of each tool is displayed in the operator panel at the bottom of the *Tool Shelf*.
 
 Even more mesh editing tools can be enabled in the :menuselection:`User Preferences --> Add-ons`.
-
-For further information see :ref:`Panels <ui-panels>`.
 
 
 Properties Region
