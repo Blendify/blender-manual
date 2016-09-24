@@ -20,24 +20,32 @@ Cube
    Because the cube is selected it is drawn with an orange outline.
    
    Object Origin
-      The Origin of the object is displayed as an orange dot and it marks the cubes (relative) position.
+      The :doc:`Origin of the object </editors/3dview/object/transform/origin>` is displayed as
+      an orange dot and it marks the cubes (relative) position.
    Transformation Widget
-      This widget is composed out of a white circle and three colored (red, green, and blue) arrows.
-      It is used to move entities (i.e. the cube) in the scene.
+      This :doc:`widget </editors/3dview/object/transform/transform_control/manipulators>` is composed out of a white circle and
+      three colored (red, green, and blue) arrows. It is used to move entities (i.e. the cube) in the scene.
 Lamp
    The circle with a thin line to the bottom is a light source illuminating the cube.
+   Lights in: :doc:`Blender Internal </render/blender_render/lighting/lights/index>`, :doc:`Cycles </render/cycles/lamps>`.
+
 Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.
+   Cameras in: :doc:`Blender Internal </render/blender_render/camera/index>`, :doc:`Cycles </render/cycles/camera>`.
 3D Cursor
-   The cross with a red and white circle is used for placing objects in the scene.
+   The :doc:`3D cursor </editors/3dview/3d_cursor>` a cross with a red and white circle
+   is used for placing objects in the scene.
 Grid Floor
    The gray squares forming a floor mark the zero height of the world.
    The red and green lines are the axis of the world coordinate system.
    They meet at the origin, which is also the position of the *Cube*.
+   The Grid Floor settings are in the :doc:`Display panel </editors/3dview/display/panels>`.
 
 
 Overlays
 ========
+
+The visibility and settings of the overlays can be set in the :doc:`/preferences/interface` tab of the User Preferences.
 
 View Name
    If the viewport camera is not aligned the view is named "User" plus
@@ -49,6 +57,6 @@ Mini Axis
 Object Info
    Shown in brackets is the current frame. Followed by the name of the active object. 
 
-.. object info color (keyframe, ?)
+.. object info, origin color (keyframe, ?)
 
 .. saving the startup scene, rendering the startup scene

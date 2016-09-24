@@ -1,7 +1,7 @@
 
-**************
-Object Origins
-**************
+*************
+Object Origin
+*************
 
 Each object has an origin point. The location of this point determines where the object is located in 3D space.
 When an object is selected, a small circle appears, denoting the origin point.
