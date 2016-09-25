@@ -54,7 +54,7 @@ But as you have to assign an action to an object to be able to edit it
 you that you will not lose your precious previously-edited actions when you start working on a new one!
 
 This editor shows, by default, the action data-block linked to the current active object.
-However, as with FCurvs, you can pin an *Action Editor* to a given action with the
+However, as with F-Curvs, you can pin an *Action Editor* to a given action with the
 small "pin" button to the left of the data-block controls, in the header.
 This will force the editor to always display this data-block,
 whatever the current selected object is.

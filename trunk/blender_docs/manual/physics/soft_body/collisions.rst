@@ -47,7 +47,7 @@ Examples
 
        .. figure:: /images/physics_collidingplane_cface.gif
 
-          Collision with CFace activated.
+          Collision with Face activated.
 
 
 A cube colliding with a plane works pretty well Fig. :ref:`fig-softbody-collision-plane1`,

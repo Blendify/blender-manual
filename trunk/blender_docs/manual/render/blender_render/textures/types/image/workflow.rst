@@ -163,7 +163,7 @@ You can mix and match procedural materials and textures, vertex paint,
 and UV textures onto the same mesh.
 
 The image to the right has a world with a red ambient light.
-The material has both VCol Paint and Face Textures enabled,
+The material has both Vertex Color Paint and Face Textures enabled,
 and receives half of ambient light. A weak cloud texture affects color, mixing in a tan color.
 The right vertices are vertex painted yellow and the left is unpainted procedural gray.
 The UV Texture is a stock arrow image from the public domain texture CD.
@@ -226,7 +226,7 @@ The base material color is not used whenever Face Textures is enabled.
 
 The top left ball has not had any vertex painting,
 and the finger is mapped to the middle band, and the texture is mapped to a pink color.
-As you can see, the base material has VCol Paint and Face Textures enabled;
+As you can see, the base material has Vertex Color Paint and Face Textures enabled;
 the base color blue is not used, but the texture is. With no vertex painting,
 there is nothing to modulate the UV Texture colors, so the finger shows as white.
 Transparent areas of the UV Image show as black.
@@ -235,7 +235,7 @@ The top right ball has had a pink vertex color applied to the vertical band of f
 (in the 3D View editor, select the faces in UV Paint Mode, switch to Vertex Paint Mode,
 pick a pink color, and :menuselection:`Paint --> Set Vertex Colors`).
 The finger is mapped to the middle vertical band of faces,
-and VCol and Face Textures are enabled.
+and Vertex Color and Face Textures are enabled.
 The texture is mapped to Alpha black and multiplies the base material alpha value which is 1.0.
 Thus, white areas of the texture are 1.0, and 1.0 times 1.0 is 1.0
 so that area is opaque and shows. Black areas of the procedural texture, 0.0,
@@ -248,7 +248,7 @@ the green background shows through.
 Transparent areas of the UV Texture insist on rendering black.
 
 The bottom ball uses multiple materials. Most of the ball (all faces except the middle band)
-is a base material that does not have Face Textures (nor Vertex Color Paint called VCol Paint)
+is a base material that does not have Face Textures (nor Vertex Color Paint)
 enabled. Without it enabled,
 the base blue material color shows and the pink color texture is mixed on top.
 The middle band is assigned a new material (2 Mat 2)

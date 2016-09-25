@@ -213,10 +213,10 @@ If you still have some ugly black gouges you will have to
 Concave N-Gons
 --------------
 
-While NGons are supported,
-concave ngons may give ugly overlapping results.
+While n-gons are supported,
+concave n-gons may give ugly overlapping results.
 
 .. figure:: /images/modifier-subsurf_ngon_concave.png
    :width: 300px
 
-   The N-Gons on the right show overlapping results.
+   The n-gons on the right show overlapping results.

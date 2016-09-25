@@ -112,7 +112,7 @@ even if this is the most common case. You may also have other, more complex,
 selected closed islands, but they have to be closed profiles because Blender will seek for
 only one open profile for the translation, height and angular vector.
 Some closed meshes that overlap themselves may not screw correctly (for example:
-Half UVsphere works fine, but
+Half UV-sphere works fine, but
 more than half could cause the Screw Tool to have wrong behavior or errors),
 and profiles that are closed with faces (like a cone or half sphere)
 will be closed automatically at their ends, like if you were extruding a region.
