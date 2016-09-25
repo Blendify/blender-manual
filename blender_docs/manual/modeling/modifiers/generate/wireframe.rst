@@ -65,7 +65,7 @@ in the examples below.
 
 .. figure:: /images/cubewireframes.png
 
-   Original / Wireframe / Original+Wireframe.
+   Original / Wireframe / Original and Wireframe.
 
 .. figure:: /images/modifier_wireframe_example.jpg
 
@@ -73,7 +73,7 @@ in the examples below.
 
 .. figure:: /images/modifier_wireframe_crease-weight.jpg
 
-   Cube+Subdivision Surface with 0 / 0.5 / 1 crease weight.
+   Cube and Subdivision Surface with 0 / 0.5 / 1 crease weight.
 
 
 .. warning::

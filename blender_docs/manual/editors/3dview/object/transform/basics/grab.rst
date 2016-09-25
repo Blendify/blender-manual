@@ -73,14 +73,14 @@ full control over your transformation.
 :kbd:`Shift` + :kbd:`X`, :kbd:`Y`, :kbd:`Z`
    This modifying hotkey locks the translation axis,
    allowing the object to move freely on the two axes that are not locked.
-   For example, :kbd:`Shift` + :kbd:`X` means the object will translate
+   For example, :kbd:`Shift X` means the object will translate
    on the Y and Z axes while remaining at the same point on the X axis.
 
    .. figure:: /images/basic_trans_grab_shift_xyz.jpg
 
-      Shift+X in action.
+      :kbd:`Shift-X` in action.
 
-:kbd:`Alt` + :kbd:`G`
+:kbd:`Alt-G`
    clears any previous transformation on the object and sets its origin back to the center.
    This only works in Object Mode.
 

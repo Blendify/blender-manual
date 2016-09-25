@@ -3,7 +3,7 @@
 Image and Movie Strips
 **********************
 
-When adding a Movie or Movie+Audio :kbd:`LMB` to put the name of the file into
+When adding a Movie or Movie with Audio :kbd:`LMB` to put the name of the file into
 the text box at the top; this selects a *single* file (like a movie)
 
 In the case of (numbered) *image sequences*, you have a choice:
