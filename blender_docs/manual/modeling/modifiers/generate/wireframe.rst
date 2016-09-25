@@ -69,7 +69,7 @@ in the examples below.
 
 .. figure:: /images/modifier_wireframe_example.jpg
 
-   VGroup weighting: One half 0 weighted, one half 1 weighted.
+   Vertex Group weighting: One half 0 weighted, one half 1 weighted.
 
 .. figure:: /images/modifier_wireframe_crease-weight.jpg
 

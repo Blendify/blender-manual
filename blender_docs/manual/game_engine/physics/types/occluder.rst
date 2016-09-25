@@ -52,14 +52,14 @@ you can enable the Occlusion capability on physics objects using Python and Logi
 See (Link- TODO)
 
 When an occluder object enters the view frustum,
-the BGE builds a ZDepth buffer from the faces of that object.
+the BGE builds a Z-Depth buffer from the faces of that object.
 Whether the faces are one-side or two-side is important:
-only the front faces and two-side faces are used to build the ZDepth buffer.
+only the front faces and two-side faces are used to build the Z-Depth buffer.
 If multiple occluders are in the view frustum,
 the BGE combines them and keeps the most foreground faces.
 
-The resolution of the Z Depth buffer is controllable in the World settings with the "Occlu Res"
-button:
+The resolution of the Z-Depth buffer is controllable in the World settings with
+the "Occlusion Culling Resolution" button:
 
 By default the resolution is 128 pixels for the largest dimension of the viewport while the
 resolution of the other dimension is set proportionally.
@@ -70,7 +70,7 @@ The BGE traverses the DBVT (Dynamic Bounding Volume Tree)
 and for each node checks if it is entirely hidden by the occluders and if so, culls the node
 (and all the objects it contains).
 
-To further optimize the feature, the BGE builds and uses the ZDepth buffer only when at least
+To further optimize the feature, the BGE builds and uses the Z-Depth buffer only when at least
 one occluder is in the view frustum. Until then,
 there is no performance decrease compared to regular view frustum culling.
 

@@ -38,7 +38,7 @@ Tilt
    with :kbd:`Alt-T`, :menuselection:`Curve --> Control Points --> Clear Tilt`.
    With NURBS, the tilt is always smoothly interpolated.
    However, with Bézier, you can choose the interpolation algorithm between
-   Linear, Ease, BSpline, and Cardinal, in the
+   Linear, Ease, B-Spline, and Cardinal, in the
    :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
 
    .. figure:: /images/curves_extrude_by0.5_30meantilt.jpg

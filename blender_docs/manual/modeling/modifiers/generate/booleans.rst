@@ -401,7 +401,7 @@ incomplete, or meshes that are not forming a new topology.
 As you can see in the images below the faces of one participant in the Boolean operation
 gives incomplete information to the modifier. The resulting edges get messy and there is
 not enough information to create faces for the resulting Mesh.
-This example uses a smooth shaded UVsphere cut in half. As explained before,
+This example uses a smooth shaded UV-sphere cut in half. As explained before,
 the shading (smooth/flat) does not affect the calculations of the modifier.
 
 .. list-table::
