@@ -46,8 +46,8 @@ Image
 Example
 =======
 
-Using SetAlpha to Fade to Black
--------------------------------
+Fade To Black
+-------------
 
 To transition the audience from one scene or shot to another,
 a common technique is to "fade to black". As its name implies,
@@ -69,28 +69,28 @@ The Set Alpha node does not need an input image; instead, the flat (shadeless) b
 The Set Alpha Node uses the input factor and color to create a black image that has an alpha
 set which goes from 0.00 to 1.00 over 60 frames, or completely transparent to completely opaque.
 Think of alpha as a multiplier for how vivid you can see that pixel.
-These two images are combined by our trusty AlphaOver node completely (a *Fac* tor of 1.00)
-to produce the composite image. The SetAlpha node will thus, depending on the frame being rendered,
+These two images are combined by our trusty Alpha Over node completely (a *Factor* of 1.00)
+to produce the composite image. The Set Alpha node will thus, depending on the frame being rendered,
 produce a black image that has some degree of transparency.
 Setup and Animate, and you have an image sequence that fades to black over a 2-second period.
 
 .. note:: No Scene information used
 
-   This example node map does not use the RenderLayer.
+   This example node map does not use the Render Layer node.
    To produce this 2-second animation, no Blender scene information was used.
    This is an example of using Blender's powerful compositing abilities
    separate from its modeling and animation capabilities.
    (A Render Layer could be substituted for the Image layer,
-   and the "fade-network" effect will still produce the same effect)
+   and the "fade-network" effect will still produce the same effect).
 
 
-Using SetAlpha to Fade In a Title
----------------------------------
+Fade In a Title
+---------------
 
 To introduce your animation,
 you will want to present the title of your animation over a background.
 You can have the title fly in, or fade it in. To fade it in,
-use the SetAlpha node with the Time node as shown below.
+use the Set Alpha node with the Time node as shown below.
 
 .. figure:: /images/compositing-setalpha_fadeintitle.jpg
 
@@ -98,16 +98,16 @@ use the SetAlpha node with the Time node as shown below.
 
 
 In the above example, a Time curve provides the Alpha value to the input socket.
-The current RenderLayer, which has the title in view, provides the image. As before,
-the trusty AlphaOver node mixes (using the alpha values)
+The current Render Layer node, which has the title in view, provides the image. As before,
+the trusty Alpha Over node mixes (using the alpha values)
 the background swirl and the alpha title to produce the composite image.
-Notice the *ConvertPre* -Multiply checkbox is **not** enabled; this produces a composite
+Notice the *Convert Premultiplied* - checkbox is **not** enabled; this produces a composite
 where the title lets the background image show through where even the background image is
 transparent, allowing you to layer images on top of one another.
 
 
-Using SetAlpha to Colorize a BW Image
--------------------------------------
+Colorize a BW Image
+-------------------
 
 .. figure:: /images/compositing-setalpha_colorize.jpg
 
@@ -118,7 +118,7 @@ In the example above, notice how the blue tinge of the render input colors the s
 You can use the Set Alpha node's color button with this kind of node map to add a consistent color to a BW image.
 
 In the example map to the right,
-use the *Alpha* value of the SetAlpha node to give a desired degree of colorization.
-Thread the input image and the Set Alpha node into an AlphaOver node to colorize any black and
-white image in this manner. Note the *ConvertPre* -Multiply checkbox is enabled,
-which tells the AlphaOver node not to multiply the alpha values of the two images together.
+use the *Alpha* value of the Set Alpha node to give a desired degree of colorization.
+Thread the input image and the Set Alpha node into an Alpha Over node to colorize any black and
+white image in this manner. Note the *Convert Premultiplied* checkbox is enabled,
+which tells the Alpha Over node not to multiply the alpha values of the two images together.

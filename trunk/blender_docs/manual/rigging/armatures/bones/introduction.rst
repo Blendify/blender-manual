@@ -140,7 +140,7 @@ the segments' orientation is not taken in account
 
 When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
 even though the bone segments are still present and effective
-(see :doc:`skinning to ObData </rigging/skinning/obdata>`).
+(see :doc:`skinning to Object Data </rigging/skinning/obdata>`).
 
 This means that even in e.g. *Octahedron* visualization,
 if some bones in a chain have several segments,

@@ -13,7 +13,7 @@ with an input curve.
 Inputs
 ======
 
-Fac
+Factor
    Controls the amount of influence the node exerts on the output image
 Image
    Standard image input.

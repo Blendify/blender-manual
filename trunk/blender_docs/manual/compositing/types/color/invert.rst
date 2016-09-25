@@ -18,7 +18,7 @@ This node inverts the colors in the input image, producing a negative.
 Inputs
 ======
 
-Fac
+Factor
    Controls the amount of influence the node exerts on the output image.
 Color
    Standard image input.

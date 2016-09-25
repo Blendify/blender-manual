@@ -32,7 +32,7 @@ Outputs
 
 Color
    Texture color output.
-Fac
+Factor
    Checker 1 mask (1 = Checker 1).
 
 

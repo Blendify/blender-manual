@@ -52,7 +52,7 @@ In the Mapping section, choose UV from the Coordinates menu, and select the UV l
 Make sure it is mapped to Color in the Influence section as well
 (it will be mapped to Color by default, and the UV Texture is named "UVTex" by default).
 If the image has an alpha channel and you want to use it,
-click "UseAlpha" in the Map Image panel.
+click "Use Alpha" in the Map Image panel.
 
 Full details of using Image textures are on the
 :doc:`Image Textures </render/blender_render/textures/types/image/index>` page.

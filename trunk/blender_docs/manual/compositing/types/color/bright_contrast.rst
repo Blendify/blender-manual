@@ -42,7 +42,7 @@ It is possible that this node will put out a value set that has values beyond th
 i. e. values greater than one and less than zero.
 If you will be using the output to mix with other images in the normal range,
 you should clamp the values using the Map Value node (with the Min and Max enabled),
-or put through a ColorRamp node (with all normal defaults).
+or put through a Color Ramp node (with all normal defaults).
 
 .. figure:: /images/nodes-brightclamp.jpg
    :width: 320px
@@ -54,7 +54,7 @@ we want to amp up the specular pass.
 The bottom thread shows what happens if we do not clamp the values;
 the specular pass has valued much less than one in the dark areas;
 when added to the medium gray, it makes black. Passing the brightened image through either the
-Map Value or the ColorRamp produces the desired effect.
+Map Value or the Color Ramp node produces the desired effect.
 
 .. figure:: /images/nodes-brightcontrast.jpg
    :width: 320px

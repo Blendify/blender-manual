@@ -72,7 +72,7 @@ Distance Metric
      - .. figure:: /images/voronoydistancesquared.jpg
           :width: 200px
 
-          Distance Squared (More contrast than ActualDistance).
+          Distance Squared (More contrast than Actual Distance).
 
 
 Feature Weights

@@ -70,11 +70,11 @@ Constrain the specified axis in the Game to a specified direction in the World a
       Delay (frames) of the constraint response.
    Time
       Time (frames) for the constraint to remain active.
-   ReferenceDir
+   Reference Direction
       Reference direction (global coordinates) for the specified game axis.
-   MinAngle
+   Min Angle
       Minimum angle for the axis modification.
-   MaxAngle
+   Max Angle
       Maximum angle for the axis modification.
 
 .. figure:: /images/bge_actuator_constraint_distance.jpg
@@ -110,7 +110,7 @@ Maintain the distance the Game Object has to be from a surface.
       when off, turns itself off if it cannot find the Property/Material.
    Time
       Number of frames for which constraint remains active.
-   RotDamp
+   Rotation Damping
       Damping factor for rotation.
 
 .. figure:: /images/bge_actuator_constraint_location.png

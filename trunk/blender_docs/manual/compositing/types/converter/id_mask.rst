@@ -18,7 +18,7 @@ Inputs
 
 ID value
    Input for the *Object Index* or *Material Index* render pass.
-   Which is an output of the :doc:`RenderLayers node </compositing/types/input/render_layers>` or
+   Which is an output of the :doc:`Render Layers node </compositing/types/input/render_layers>` or
    the :doc:`Image node </compositing/types/input/render_layers>` with a multilayer format.
 
 
@@ -60,7 +60,7 @@ To be accessible after rendering, *Object Index* or *Material Index* render pass
 Example
 =======
 
-In this example, the left rear red cube is assigned PassIndex 1, and the right cube PassIndex 2.
+In this example, the left rear red cube is assigned Pass Index 1, and the right cube Pass Index 2.
 Where the two cubes intersect, there is going to be noticeable pixelation because they come together
 at a sharp angle and are different colors. Using the mask from object 1,
 which is smoothed (antialiased) at the edges, we use a *Mix Node* set on *Multiply*

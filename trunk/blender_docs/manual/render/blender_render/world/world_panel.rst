@@ -97,7 +97,7 @@ Texture Coordinates
       The default orientation, aligned with the co-ordinates of the final render.
    Global
       Uses global coordinates.
-   AngMap
+   Angular Map
       Used to wrap a standard hemisphere angular map around the scene in a dome.
       This can be used for image based lighting with *Ambient Occlusion* set to sky color.
       You will generally need a high dynamic range image (HDRI) angular map.

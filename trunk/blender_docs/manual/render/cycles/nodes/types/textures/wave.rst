@@ -41,7 +41,7 @@ Outputs
 
 Color
    Texture color output.
-Fac
+Factor
    Texture intensity output.
 
 

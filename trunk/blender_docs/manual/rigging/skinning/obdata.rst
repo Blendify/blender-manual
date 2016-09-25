@@ -8,7 +8,7 @@ We saw in the :doc:`previous page </rigging/skinning/objects>`
 how to link (parent) whole objects to armature bones --
 a way to control the transform properties of this object via a rig.
 However, armatures are much more powerful:
-they can deform the *shape* of an object (i.e. affect its ObData data-block, which is its vertices or control points...).
+they can deform the *shape* of an object (i.e. affect its Object Data data-block, which is its vertices or control points...).
 
 In this case, the child object is parented (skinned) to the whole armature,
 so that each of its bones controls a part of the "skin" object's geometry.
@@ -91,11 +91,11 @@ see the `Vertex Groups`_ description below.
 
    Finally that for settings that are present in both the armature's
    Armature panel and in the objects' Armature modifier panel
-   (namely, Vertex Groups/VertGroups , Envelopes, Quaternion and B-Bone Rest),
+   (namely, Vertex Groups , Envelopes, Quaternion and B-Bone Rest),
    the modifier ones always override the armature ones. This means that if, for example,
    you only enable the *Envelopes* deformation method of the armature,
    and then skin it with an object using an Armature modifier, where only
-   *VertGroups* is enabled,
+   *Vertex Groups* is enabled,
    the object will only be deformed based on its "bones" vertex groups,
    ignoring completely the bones' envelopes.
 

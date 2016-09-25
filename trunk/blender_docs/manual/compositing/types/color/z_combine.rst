@@ -59,9 +59,9 @@ Examples
 
    Alpha and Z-Combine node.
 
-This can be obtained by making an AlphaOver of two Z-Combine, one normal,
+This can be obtained by making an Alpha Over of two Z-Combine, one normal,
 the other having inverted (reversed?) Z-values as inputs, obtained using for each of them a
-*MapValue* node with a *Size* field set to -1.0:
+*Map Value* node with a *Size* field set to -1.0:
 
 .. figure:: /images/compositing-z-offset-example.jpg
    :width: 300px

@@ -70,18 +70,15 @@ For Faces and Volume, additional options appear:
 Even Distribution
    Particle distribution is made even based on surface area of the elements,
    i.e. small elements emit less particles than large elements, so that the particle density is even.
-
 Jittered
    Particles are placed at jittered intervals on the emitter elements.
 
    Particles/Face
       Number of emissions per face (0 = automatic).
-   JitteringAmount
+   Jittering Amount
       Amount of jitter applied to the sampling.
-
 Random
    Particles are emitted from random locations in the emitter's elements.
-
 Grid
    Particles are set in a 3D grid and particles near/in the elements are kept.
 

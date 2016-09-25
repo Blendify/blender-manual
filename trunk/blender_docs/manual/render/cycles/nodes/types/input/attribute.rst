@@ -26,15 +26,15 @@ Name
 
    Vertex Color Layers
       These can be retrieved this by their names.
-   density
+   Density
       Gives a scalar defining the density of any smoke inside the
       :doc:`Smoke Domain </physics/smoke/types/domain>`.
-   flame
+   Flame
       Gives a scalar defining the density of any fire inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
       All three outputs are the same.
-   color
+   Color
       Gives the color of the smoke inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
-      The color and vector outputs are the same. The fac output is an average of the channels.
+      The color and vector outputs are the same. The Factor output is an average of the channels.
    Ocean Foam
       Gives a scalar define where foam might apear when using an
       :doc:`Ocean Modifier </modeling/modifiers/simulate/ocean>`.
@@ -53,5 +53,5 @@ Color
    RGB color interpolated from the attribute.
 Vector
    XYZ vector interpolated from the attribute.
-Fac
+Factor
    Scalar value interpolated from the attribute.

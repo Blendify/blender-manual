@@ -46,7 +46,7 @@ Input
    The input menu contains the following options for defining the gradient:
 
    Shader
-      The value as delivered by the material's shader (*Lambert*, *CookTorr*) defines the color.
+      The value as delivered by the material's shader (*Lambert*, *Cook Torrance*) defines the color.
       Here the amount of light does not matter for color, only the direction of the light.
    Energy
       As *Shader*, now also lamp energy, color, and distance are taken into account.

@@ -151,7 +151,7 @@ Group
 In the Group visualization mode, the objects that belong to the group (*GR:* field)
 are duplicated sequentially in the place of the particles.
 
-WholeGroup
+Whole Group
    Use the whole group at once, instead of one of its elements, the group being displayed in place of each particle.
 Use Count
    Use objects multiple times in the same groups.

@@ -18,7 +18,7 @@ This node allows color corrections for each color channel and levels adjustments
 Inputs
 ======
 
-Fac
+Factor
    Controls the amount of influence the node exerts on the output image.
 Image
    Standard image input.

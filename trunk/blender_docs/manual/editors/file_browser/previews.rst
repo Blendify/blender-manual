@@ -16,8 +16,8 @@ The File Browser supports many types of previews. These include:
 - Fonts
 
 
-DataBlocks
-==========
+Data-Blocks
+===========
 
 Creating and Deleting Previews
 ------------------------------
@@ -25,7 +25,7 @@ Creating and Deleting Previews
 Previews can be created and deleted in many ways from :menuselection:`Info Editor --> File --> Data Previews`
 
 
-Refresh DataBlock Previews
+Refresh Data-Block Previews
    Ensures that data-block previews are available and up to date.
 Batch-Generate Previews
    Generates previews for selected blend-files.

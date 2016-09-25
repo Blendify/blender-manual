@@ -20,18 +20,18 @@ To understand this option properly, you need to understand how Blender works wit
 Almost everything in Blender is organized in a hierarchy of data-blocks.
 A data-block can be thought of as containers for certain pieces of information. For example,
 the Object data-block contains information about the Object's location while the Object Data
-``ObData`` data-block contains information about the mesh.
+"ObData" data-block contains information about the mesh.
 
 
 A material may be linked in two different ways:
 
 .. figure:: /images/structure-object-material-connection.jpg
 
-   A material linked to ObData (left) and Object (right).
+   A material linked to Object Data (left) and Object (right).
 
 
-ObData
-   Any created material will be created as part of the ObData data-block.
+Object Data
+   Any created material will be created as part of the Object Data data-block.
 Object
    Any created material will be created as part of the Object data-block.
 

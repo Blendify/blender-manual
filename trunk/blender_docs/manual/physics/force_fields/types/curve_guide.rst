@@ -44,14 +44,14 @@ Options
 Minimum Distance
    The distance from the curve, up to where the force field is effective with full strength.
    If you have a *Fall-off* of 0 this parameter does nothing,
-   because the field is effective with full strength up to *MaxDist* (or the infinity).
-   *MinDist* is shown with a circle at the endpoints of the curve in the 3D View.
+   because the field is effective with full strength up to *Max Distance* (or the infinity).
+   *Min Distance* is shown with a circle at the endpoints of the curve in the 3D View.
 
 Free
    Fraction of particle life time, that is not used for the curve.
 
 Fall-off
-   This setting governs the strength of the guide between *MinDist* and *MaxDist*.
+   This setting governs the strength of the guide between *Min Distance* and *Max Distance*.
    A *Fall-off* of 1 means a linear progression.
 
 A particle follows a *Curve Guide* during its lifetime,

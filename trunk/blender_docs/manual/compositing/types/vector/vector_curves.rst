@@ -20,7 +20,7 @@ Inputs
 
 In the shader context the node also has an additional Factor property.
 
-Fac
+Factor
    Controls the amount of influence the node exerts on the output vector.
 Vector
    Standard vector input.

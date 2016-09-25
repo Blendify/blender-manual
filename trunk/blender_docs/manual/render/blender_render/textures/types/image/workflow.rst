@@ -129,7 +129,7 @@ Both textures use the same UV Texture map as their Map Input, and both affect Co
 The Makeup texture is transparent except where there is color,
 so that the base color texture shows through.
 Note that the colors were too strong on the image,
-so they amount of Col affects is turned down to 60% in the second layer (the blemish layer).
+so they amount of th diffuse color affects is turned down to 60% in the second layer (the blemish layer).
 
 Normally, we think of image textures affecting the color of a mesh. Realism and
 photo-realistic rendering is a combination of many different ways that light interacts with
@@ -175,7 +175,7 @@ You can also assign :ref:`multiple materials <bi-multiple-materials>`
 to the mesh based on which faces you want to be procedural and which you want to be texture-mapped.
 Just do not UV map the faces you want to be procedural.
 
-You can use UV Textures and VertexPaint (:kbd:`V` in the 3D View) simultaneously,
+You can use UV Textures and Vertex Paint (:kbd:`V` in the 3D View) simultaneously,
 if both are enabled in the Material settings.
 The vertex colors are used to modulate the brightness or color of the UV image texture:
 
@@ -265,7 +265,7 @@ To overlay multiple UV images, you have several options:
 
 - Create multiple UV Textures which map the same,
   and then use different images (with Alpha) and Blender will overlay them automatically.
-- Use the :doc:`Composite Nodes </compositing/index>` to combine the two images via the AlphaOver node,
+- Use the :doc:`Composite Nodes </compositing/index>` to combine the two images via the Alpha Over node,
   creating and saving the composite image. Open that composited image as the UV Texture.
 - Use an external paint program to alpha overlay the images and save the file,
   and load it as the face's UV Texture
@@ -273,7 +273,7 @@ To overlay multiple UV images, you have several options:
   The inner object would have the base image,
   and the outer image the overlaid image with a material alpha less than one (1.0).
 - Use the :doc:`Material nodes </render/blender_render/materials/nodes/index>`
-  to combine the two images via the AlphaOver or Mix node,
+  to combine the two images via the Alpha Over or Mix node,
   thus creating a third noded material that you use as the material for the face.
   Using this approach, you will not have to UV map;
   simply assign the material to the face using the Multiple Materials.

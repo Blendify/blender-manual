@@ -56,9 +56,9 @@ Manual Z-Mask
    Example.
 
 
-This example has one scene input by the top *RenderLayer node*,
+This example has one scene input by the top *Render Layer* node,
 which has a cube that is about 10 BU from the camera.
-The bottom RenderLayer node inputs a scene (FlyCam)
+The bottom Render Layer node inputs a scene (FlyCam)
 with a plane that covers the left half of the view and is 7 BU from the camera.
 Both are fed through their respective Map Value nodes to divide the Z buffer by 20
 (multiply by 0.05, as shown in the Size field)
@@ -78,14 +78,14 @@ Using Sine Function to Pulsate
 
 .. figure:: /images/compositing-node-math_sine.jpg
 
-This example has a *Time node* putting out a linear sequence from 0 to 1 over the course of 101
+This example has a *Time* node putting out a linear sequence from 0 to 1 over the course of 101
 frames. The green vertical line in the curve widget shows that frame 25 is being put out,
 or a value of 0.25. That value is multiplied by 2 × pi and converted to 1.0 by the Sine function,
 since we all know that :math:`sin(2 × pi/ 4) = sin(pi/ 2) = +1.0`
 Since the sine function can put out values between (-1.0 to 1.0),
-the *Map Value node* scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1
+the *Map Value* node scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1
 (making 0 to 2), and multiplying the result by one-half (thus scaling the output between 0 to 1).
-The default *ColorRamp* converts those values to a grayscale.
+The default *Color Ramp* converts those values to a grayscale.
 Thus, medium gray corresponds to a 0.0 output by the sine, black to -1.0,
 and white to 1.0. As you can see, :math:`sin(pi/ 2) = 1.0`. Like having your own visual color calculator!
 Animating this node setup provides a smooth cyclic sequence through the range of grays.
@@ -101,7 +101,7 @@ Brightening/Scaling a Channel
 
 .. figure:: /images/compositing-node-math_multiply.jpg
 
-This example has a *Multiply node* increasing the luminance channel (Y)
+This example has a *Math: Multiply* node increasing the luminance channel (Y)
 of the image to make it brighter. Note that you should use a *Map Value node*
 with min() and max() enabled to clamp the output to valid values.
 With this approach, you could use a logarithmic function to make a high-dynamic range image.

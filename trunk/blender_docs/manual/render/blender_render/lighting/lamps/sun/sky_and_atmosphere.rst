@@ -427,7 +427,7 @@ Hints and limitations
 =====================
 
 To always have the *Sun* pointing at the camera center,
-you can use a :doc:`TrackTo constraint </rigging/constraints/tracking/track_to>` on the sun object,
+you can use a :doc:`Track To constraint </rigging/constraints/tracking/track_to>` on the sun object,
 with the camera as target, and -Z as the "To" axis (use either X or Y as "Up" axis).
 This way, to modify height/position of the sun in the rendered picture,
 you just have to move it; orientation is automatically handled by the constraint.

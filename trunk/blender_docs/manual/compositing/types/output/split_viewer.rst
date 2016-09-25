@@ -8,7 +8,7 @@ Split Viewer Node
 
    Split Viewer Node.
 
-The *SplitViewer* node takes two images and displays these side-by-side
+The *Split Viewer* node takes two images and displays these side-by-side
 as backdrop or as a Viewer Node output.
 
 

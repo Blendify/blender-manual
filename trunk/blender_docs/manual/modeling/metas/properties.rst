@@ -4,7 +4,7 @@ Properties
 **********
 
 All Meta objects in a scene interact with each other.
-The settings in the *MetaBall* section apply to all meta objects.
+The settings in the *Metaball* section apply to all meta objects.
 In *Edit Mode*,
 the *Active Element* panel appears for editing individual meta elements.
 
@@ -56,7 +56,7 @@ Threshold (Influence)
    :class: refbox
 
    | Mode:     Object or Edit Modes
-   | Panel:    MetaBall
+   | Panel:    Metaball
 
 
 *Threshold* defines how much a meta's surface "influences" other metas.
@@ -91,7 +91,7 @@ Update
 ======
 
 While transforming metas (grab/move, scale, etc.), you have four "modes" of visualization,
-located in the *Update* buttons group of the *MetaBall* panel:
+located in the *Update* buttons group of the *Metaball* panel:
 
 Always
    fully draw the meta during transformations.

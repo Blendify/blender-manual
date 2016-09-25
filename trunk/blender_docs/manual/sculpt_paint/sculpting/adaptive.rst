@@ -64,7 +64,7 @@ this mean we can sculpt some details in subdivision level 1 and add more details
 subdivision 2 and go back to subdivision 1 correct some mistakes. While this workflow is
 often used, multires modifier has some limitations. You may end up with some mesh distortions.
 As an advice, add as more details as possible before adding more subdivisions.
-Clay brush, SculptDraw work better with multires sculpting to sculpt secondary forms.
+Clay brush, SculptDraw work better with multi-resolution sculpting to sculpt secondary forms.
 
 .. seealso::
 
