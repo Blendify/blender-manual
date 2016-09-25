@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Edge Split
 
 *******************
 Edge Split Modifier

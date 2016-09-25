@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Cast
 
 *************
 Cast Modifier

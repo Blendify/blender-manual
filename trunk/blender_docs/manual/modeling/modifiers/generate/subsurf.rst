@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Subdivision Surface
 
 ****************************
 Subdivision Surface Modifier

@@ -1,4 +1,3 @@
-.. index:: triple: UV/Image; Properties region; Display panel
 
 *************
 Display Panel

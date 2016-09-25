@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Mesh Deform
 
 ********************
 Mesh Deform Modifier

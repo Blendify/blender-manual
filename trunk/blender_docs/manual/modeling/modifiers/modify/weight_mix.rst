@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Vertex Weight Mix
 
 **************************
 Vertex Weight Mix Modifier

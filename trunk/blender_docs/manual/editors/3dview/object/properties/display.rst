@@ -1,4 +1,3 @@
-.. index:: triple: Properties editor; Object tab; Display panel
 
 *******
 Display

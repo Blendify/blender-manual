@@ -1,6 +1,5 @@
 ..    TODO/Review: {{review|im=needs examples}}.
 
-.. index:: pair: Modifier; Multiresolution
 
 ************************
 Multiresolution Modifier

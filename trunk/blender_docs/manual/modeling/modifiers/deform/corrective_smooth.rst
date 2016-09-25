@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Corrective Smooth
 
 *****************
 Corrective Smooth

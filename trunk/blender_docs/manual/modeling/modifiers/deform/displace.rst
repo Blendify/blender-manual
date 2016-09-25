@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Displace
 
 *****************
 Displace Modifier

@@ -1,4 +1,3 @@
-.. index:: pair: Constraint; Limit Location
 
 *************************
 Limit Location Constraint

@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Data Transfer
 
 **********************
 Data Transfer Modifier

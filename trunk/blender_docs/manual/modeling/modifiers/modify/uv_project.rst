@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; UV Project
 
 *******************
 UV Project Modifier

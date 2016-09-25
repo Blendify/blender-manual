@@ -1,4 +1,3 @@
-.. index:: pair: Constraint; Limit Distance
 
 *************************
 Limit Distance Constraint

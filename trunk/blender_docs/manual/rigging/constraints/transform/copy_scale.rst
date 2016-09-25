@@ -1,4 +1,3 @@
-.. index:: pair: Constraint; Copy Scale
 
 *********************
 Copy Scale Constraint
