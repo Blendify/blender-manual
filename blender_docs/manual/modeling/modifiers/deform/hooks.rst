@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Hook
 
 *************
 Hook Modifier

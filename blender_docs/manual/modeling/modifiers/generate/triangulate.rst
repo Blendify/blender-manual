@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Triangulate
 
 ********************
 Triangulate Modifier

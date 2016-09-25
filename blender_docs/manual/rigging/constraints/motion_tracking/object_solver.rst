@@ -1,4 +1,3 @@
-.. index:: pair: Constraint; Object Solver
 
 ************************
 Object Solver Constraint

@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Decimate
 
 *****************
 Decimate Modifier

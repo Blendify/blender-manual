@@ -1,4 +1,3 @@
-.. index:: pair: Constraint; Copy Rotation
 
 ************************
 Copy Rotation Constraint

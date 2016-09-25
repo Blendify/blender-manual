@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Simple Deform
 
 **********************
 Simple Deform Modifier

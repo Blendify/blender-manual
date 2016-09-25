@@ -1,6 +1,5 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. index:: pair: Constraint; Clamp To
 
 *******************
 Clamp To Constraint

@@ -1,4 +1,3 @@
-.. index:: pair: Constraint; Follow Track
 
 ***********************
 Follow Track Constraint

@@ -1,6 +1,5 @@
 .. TODO/Review: {{review|text=Complete rewrite needed. Unclear and Child object field not explained what it does}}.
 
-.. index:: pair: Constraint; Rigid Body Joint
 
 ***************************
 Rigid Body Joint Constraint

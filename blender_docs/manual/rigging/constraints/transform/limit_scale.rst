@@ -1,4 +1,3 @@
-.. index:: pair: Constraint; Limit Scale
 
 **********************
 Limit Scale Constraint

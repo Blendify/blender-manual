@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Normal Edit
 
 ********************
 Normal Edit Modifier

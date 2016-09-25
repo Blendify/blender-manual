@@ -1,4 +1,3 @@
-.. index:: pair: Modifier; Vertex Weight Proximity
 
 ********************************
 Vertex Weight Proximity Modifier

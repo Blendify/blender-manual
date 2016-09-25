@@ -1,6 +1,5 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. index:: pair: Constraint; Floor
 
 ****************
 Floor Constraint
