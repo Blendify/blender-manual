@@ -48,12 +48,12 @@ Examples with Basis: Voronoi: F1, Dimension: 0.5, Lacunarity: 0.15, Octave: 2.0 
      - .. figure:: /images/musgrave_hybridmultifractal.jpg
           :width: 120px
 
-          Hybrid Multifrct.
+          Hybrid Multifractal.
 
      - .. figure:: /images/musgrave_ridgedmultifractal.jpg
           :width: 120px
 
-          Ridged Multifrct.
+          Ridged Multifractal.
 
      - .. figure:: /images/musgrave_multifractal.jpg
           :width: 120px

@@ -106,8 +106,8 @@ where the title lets the background image show through where even the background
 transparent, allowing you to layer images on top of one another.
 
 
-Colorize a BW Image
--------------------
+Colorizing a BW Image
+---------------------
 
 .. figure:: /images/compositing-setalpha_colorize.jpg
 

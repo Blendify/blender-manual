@@ -90,8 +90,8 @@ Darken
    with the colors set here, is like looking at the world through rose-colored glasses.
 
 
-Contrast Enhancement using Mix
-------------------------------
+Contrast Enhancement
+--------------------
 
 Here is a small map showing the effects of two other common uses for the RGB Curve:
 *Darken* and *Contrast Enhancement*.
@@ -115,8 +115,8 @@ simply click on the curve and a new control point is added.
 Drag the point around to bend the curve as you wish.
 The Mix node combines these two effects equally, and Suzanne feels much better.
 
-Using Mix to Watermark images
------------------------------
+Watermark images
+----------------
 
 In the old days, a pattern was pressed into the paper mush as it dried,
 creating a mark that identified who made the paper and where it came from.
@@ -129,7 +129,7 @@ set of tools for you to both encode your watermark and to tell if an image has y
 
 
 Encoding Your Watermark in an Image
------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First, construct your own personal watermark. You can use your name, a word,
 or a shape or image not easily replicated.
@@ -160,7 +160,7 @@ using other mix settings and fancier rigs. Feel free to experiment!
 
 
 Decoding an Image for your Watermark
-------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When you see an image that you think might be yours,
 use the node map below to compare it to your stock image (pre-watermarked original).

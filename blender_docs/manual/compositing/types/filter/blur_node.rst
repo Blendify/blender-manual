@@ -42,8 +42,8 @@ Type
       TODO
    Fast Gaussian
       An approximation of the Gaussian.
-   Catmull Rom
-      Catmull Rom keeps sharp contrast edges crisp.
+   Catmull-Rom
+      Catmull-Rom keeps sharp contrast edges crisp.
    Mitch
       Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
 
