@@ -84,7 +84,7 @@ Lighten
 Difference
    Kinda cute in that it takes out a color. The color needed to turn Yellow into White is Blue.
    Use this to compare two verrry similar images to see what had been done to one to make it the other;
-   sorta like a change log for images. You can use this to see a watermark (see `Using Mix to Watermark images`_)
+   sorta like a change log for images. You can use this to see a watermark (see `Watermark images`_)
    you have placed in an image for theft detection.
 Darken
    with the colors set here, is like looking at the world through rose-colored glasses.
@@ -108,12 +108,13 @@ To cure an overexposure, you must both darken the image and enhance the contrast
 
 In the top RGB curve, *Darken*, only the right side of the curve was lowered; thus,
 any X input along the bottom results in a geometrically less Y output.
-The *Enhance Contrast* RGB (*S*) curve scales the output such that middle values of X change dramatically;
+The *Enhance Contrast* RGB (S shaped) curve scales the output such that middle values of X change dramatically;
 namely, the middle brightness scale is expanded,
 and thus, whiter whites and blacker blacks are output. To make this curve,
 simply click on the curve and a new control point is added.
 Drag the point around to bend the curve as you wish.
 The Mix node combines these two effects equally, and Suzanne feels much better.
+
 
 Watermark images
 ----------------
