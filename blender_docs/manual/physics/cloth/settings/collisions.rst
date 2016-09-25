@@ -215,7 +215,7 @@ If you encounter some problems with collision detection, there are two ways to f
   You can also increase the *Collision Quality* to perform more iterations to get collisions solved.
 - If none of the methods help, you can easily edit the cached/baked result in *Edit Mode* afterwards.
 - The Cloth is torn by the deforming mesh -- he "Hulks Out": Increase its structural stiffness
-  (*StructStiff* setting, *Cloth* panel), very high, like 1000.
+  (*Structure Stiffness* setting, *Cloth* panel), very high, like 1000.
 
 .. note:: Subdivision Surface Modifier
 

@@ -34,7 +34,7 @@ The Armature Object
 As you can see, an armature is like any other object type in Blender:
 
 - It has a center, a position, a rotation and a scale factor.
-- It has an ObData data-block, that can be edited in *Edit Mode*.
+- It has an Object Data data-block, that can be edited in *Edit Mode*.
 - It can be linked to other scenes, and the same armature data can be reused on multiple objects.
 - All animation you do in *Object Mode* is only working on the whole object,
   not the armature's bones (use the *Pose Mode* to do this).

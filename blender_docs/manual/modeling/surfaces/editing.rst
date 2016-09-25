@@ -311,7 +311,7 @@ Subdivision
 
    | Mode:     Edit Mode
    | Panel:    Curve Tools
-   | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`, :menuselection:`Specials --> Subdivide`
+   | Menu:     :menuselection:`Surface tools --> Modeling --> Subdivide`, :menuselection:`Specials --> Subdivide`
 
 
 Surface subdivision is most simple:

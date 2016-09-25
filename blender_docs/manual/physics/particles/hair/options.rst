@@ -86,7 +86,7 @@ Quality
 
 Steps
    Quality of the simulation in steps per frame. (higher is better quality but slower).
-HairGrid
+Hair Grid
    Show hair simulation grid.
 
 .. warning::

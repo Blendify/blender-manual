@@ -123,9 +123,9 @@ These extrusions use one or two additional curve objects,
 to create very complex organic shapes.
 
 To enable this type of extrusion, you have to type a valid curve object name in the
-*BevOb* field of the curve you are going to use as the "spinal column" of your
+*Bevel Object* field of the curve you are going to use as the "spinal column" of your
 extrusion. The "bevel" curve will control the cross section of the extruded object.
-Whether the *BevOb* curve is 2D or 3D has no importance, but if it is closed,
+Whether the *Bevel Object* curve is 2D or 3D has no importance, but if it is closed,
 it will create a "tube-like" extrusion;
 otherwise you will get a sort of gutter or slide object...
 
@@ -138,15 +138,15 @@ using *the local Y axis* for width control. Note also that:
 
 - It must be an *open curve*.
 - The taper is applied independently to all curves of the extruded object.
-- Only the first curve in a *TaperOb* is evaluated, even if you have several separated segments.
+- Only the first curve in a *Taper Object* is evaluated, even if you have several separated segments.
 - The scaling starts at the first control-point on the left
   and moves along the curve to the last control-point on the right.
 - Negative scaling, (negative local Y on the taper curve) is possible as well.
   However, rendering artifacts may appear.
 - Might need to increase the curve resolution to see more detail of the taper
-- With closed curves, the taper curve in *TaperOb* acts along the whole curve (perimeter of the object),
+- With closed curves, the taper curve in *Taper Object* acts along the whole curve (perimeter of the object),
   not just the length of the object, and varies the extrusion depth. In these cases,
-  you want the relative height of the *TaperOb*
+  you want the relative height of the *Taper Object*
   Taper curve at both ends to be the same, so that the cyclic point
   (the place where the endpoint of the curve connects to the beginning) is a smooth transition.
 
@@ -159,14 +159,14 @@ Examples
 
 Let us taper a simple curve circle extruded object using a taper curve. Add a curve,
 then exit *Edit Mode*. Add another one (a closed one, like a circle); call it "BevelCurve",
-and enter its name in the *BevOb* field of the first curve
+and enter its name in the *Bevel Object* field of the first curve
 (*Curve and Surface* tab). We now have a pipe.
 Add a third curve while in *Object Mode* and call it "TaperCurve".
 Adjust the left control-point by raising it up about 5 units.
 
 Now return to the Object tab,
-and edit the first curve's *TaperOb* field in the Curve and Surface panel to reference the new taper curve
-which we called *TaperCurve*.
+and edit the first curve's *Taper Object* field in the Curve and Surface panel to reference the new taper curve
+which we called "TaperCurve".
 When you hit enter the taper curve is applied immediately,
 with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
 

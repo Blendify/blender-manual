@@ -16,7 +16,7 @@ The Filter node implements various common image enhancement filters.
 Inputs
 ======
 
-Fac
+Factor
    Controls the amount of influence the node exerts on the output image.
 Image
    Standard image input.

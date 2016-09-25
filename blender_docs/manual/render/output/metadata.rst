@@ -37,7 +37,7 @@ Time
    Includes the current scene time and render frame as ``HH:MM:SS.FF``
 Date
    Includes the current date and time.
-RenderTime
+Render Time
    Includes the render time.
 Frame
    Includes the frame number.

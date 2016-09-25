@@ -94,7 +94,7 @@ Enabling Subsurface Scattering
   the *Radius* values, the *RGB Radius* and the :term:`IOR` are set for you.
   The remaining options are not set (because they are mostly dependent on the size of your object).
 
-*SubSurface Scattering* does not need ray tracing.
+*Subsurface Scattering* does not need ray tracing.
 But since it is dependent on the incident light and shadows,
 you need proper shadow calculation (which may need ray tracing).
 

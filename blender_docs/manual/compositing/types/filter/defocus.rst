@@ -92,6 +92,7 @@ fairly narrow depth of field centered on 7.5 Blender units from the camera.
 As the balls recede into the distance, they get blurrier.
 This node has no properties.
 
+
 No Z-Buffer examples
 --------------------
 
@@ -119,11 +120,11 @@ Camera Settings
 
 .. figure:: /images/compositing-node-defocus_camera_settings.jpg
 
-   DofDist setting for the camera.
+   Dof Distance setting for the camera.
 
 
 The *Defocus* node uses the actual camera data in your scene if supplied by a
-*RenderLayer* node.
+*Render Layer* node.
 
 To set the point of focus, the camera now has a *Distance* parameter,
 which is shorthand for Depth of Field Distance.
@@ -169,7 +170,7 @@ Edge Artifacts
 
 Aliasing at Low f-Stop Values
    At very low values, less than 5,
-   the node will start to remove any oversampling and bring the objects at DoFDist very sharply into focus.
+   the node will start to remove any oversampling and bring the objects at DoF Distance very sharply into focus.
    If the object is against a contrasting background, this may lead to visible stair-stepping (aliasing)
    which OSA is designed to avoid. If you run into this problem:
 

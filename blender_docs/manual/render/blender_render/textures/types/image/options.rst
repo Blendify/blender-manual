@@ -54,7 +54,7 @@ Alpha
    Options related to transparency.
 
    Use
-      Works with PNG and TGA files since they can save transparency information (Foreground Image with UseAlpha).
+      Works with PNG and TGA files since they can save transparency information (Foreground Image with Use Alpha).
       Where the alpha value in the image is less than 1.0,
       the object will be partially transparent and stuff behind it will show.
    Calculate

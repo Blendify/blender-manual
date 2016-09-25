@@ -22,7 +22,7 @@ Type
    and they are selectable from a dropdown menu at the top of the tab. The five types are:
 
    - Hetero Terrain
-   - fBm
+   - Fractal Brownian Motion (fBm)
    - Hybrid Multifractal
    - Ridged Multifractal
    - Multifractal
@@ -43,7 +43,7 @@ Examples with Basis: Voronoi: F1, Dimension: 0.5, Lacunarity: 0.15, Octave: 2.0 
      - .. figure:: /images/musgrave_fbm.jpg
           :width: 120px
 
-          fBM.
+          Fractal Brownian Motion.
 
      - .. figure:: /images/musgrave_hybridmultifractal.jpg
           :width: 120px

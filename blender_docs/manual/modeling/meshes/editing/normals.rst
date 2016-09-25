@@ -45,7 +45,7 @@ Recalculate Normals
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
-     :menuselection:`Mesh --> Normals --> RecalculateInside`
+     :menuselection:`Mesh --> Normals --> Recalculate Inside`
    | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`
 
 

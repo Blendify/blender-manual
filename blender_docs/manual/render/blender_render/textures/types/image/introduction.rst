@@ -90,7 +90,7 @@ like Clouds, are incredibly simple and useful for adding realism and details to 
    * - The Image maps once to a range of mesh faces specifically selected.
      - Maps once to all the faces to which that material is assigned; either the whole mesh or a portion.
    * - Image is mapped once to faces.
-     - Size XYZ in the MapInput allows tiling the texture many times across faces.
+     - Size XYZ in the Map Input allows tiling the texture many times across faces.
        Number of times depends on size of mesh.
    * - Affect the color and the alpha of the object.
      - Can also affect normals (bumpiness), reflectivity, emit, displacement,

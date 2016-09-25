@@ -16,11 +16,11 @@ Inputs
 
 Color
    The diffuse color or texture.
-Spec
+Specular
    The specular color or texture that is reflected as the point of view get perpendicular
    to the light source reflecting off the surface.
-DiffuseIntensity
-   Amout of diffuse scattering.
+Diffuse Intensity
+   Amount of diffuse scattering.
    Can also be set by a texture.
 Normal
    Standard normal input. Used for normal mapping.

@@ -99,7 +99,7 @@ Rotation Angle
 
 Minimum Grid Spacing
    The minimum number of pixels between grid lines in a 2D (i.e. top orthographic) viewport.
-TimeCode Style
+Time Code Style
    Format of Time Codes displayed when not displaying timing in terms of frames.
    The format uses '+' as separator for sub-second frame numbers,
    with left and right truncation of the timecode as necessary.

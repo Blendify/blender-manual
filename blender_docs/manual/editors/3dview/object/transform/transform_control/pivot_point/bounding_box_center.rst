@@ -47,7 +47,7 @@ the pivot point is calculated based on the Bounding Box of all the selected Obje
 In Edit Mode
 ============
 
-This time it is the ObData that is enclosed in the bounding box.
+This time it is the Object Data that is enclosed in the bounding box.
 The bounding box in *Edit Mode* takes no account of the Object(s) centers,
 only the center of the selected vertices.
 

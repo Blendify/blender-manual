@@ -34,10 +34,10 @@ Underlying Structure
 
 Blender has five types of metas, each determined by its underlying (or directing) structure.
 In *Edit Mode*, you can change this structure,
-either using the relevant buttons in the *MetaBall tools* panel,
+either using the relevant buttons in the *Metaball tools* panel,
 or the drop-down list in the *Transform Properties* panel in the Properties region.
 Depending on the structure, you might have additional parameters,
-located in both *Transform Properties* and *MetaBall tools* panels.
+located in both *Transform Properties* and *Metaball tools* panels.
 
 Ball (point, zero-dimensional structure)
    This is the simplest meta, without any additional setting. As it is just a point,

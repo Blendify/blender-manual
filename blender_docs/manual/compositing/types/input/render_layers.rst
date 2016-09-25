@@ -31,7 +31,7 @@ Scene
       as an intermediate file store and then imported with Image input node again.
 
 Render layer
-   A list of available :doc:`RenderLayer </render/post_process/layers>`.
+   A list of available :doc:`Render Layers </render/post_process/layers>`.
    The render button is a short hand to re-render the active scene.
 
 

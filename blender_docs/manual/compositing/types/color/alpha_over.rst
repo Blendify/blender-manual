@@ -12,12 +12,12 @@ Alpha Over Node
 
 
 Use this node to layer images on top of one another.
-AlphaOver does not work on the colors of an image.
+Alpha Over does not work on the colors of an image.
 
 Inputs
 ======
 
-Fac
+Factor
    Controls the amount of influence the node exerts on the output image.
 Image
    The background image.
@@ -29,9 +29,9 @@ Image
 Properties
 ==========
 
-Convert PreMultiply
+Convert Premultiplied
    `Strange Halos or Outlines`_.
-PreMul
+Premultiply
    Mix Factor. See :term:`Alpha Channel`.
 
 
@@ -61,17 +61,17 @@ To get the final composite the resultant images are added.
 A pre-multiplied alpha is, when the image (RGB)
 pixels are already multiplied by the alpha channel,
 therefore, the above compositing operation does not work too well,
-and *convert pre-mult* has to be enabled.
+and *Convert Premultiplied* has to be enabled.
 This is only an issue in semi-transparent area and edges usually.
 The issue normally occurs in a node setup,
 in which two images previously combined with alpha,
 then are combined again with yet another image.
-The previously combined image was already multiplied (pre-mult)
+The previously combined image was already multiplied (pre-multiplied)
 and needs to be converted as such (hence, *Convert PreMul*).
 
 If multiplied twice artifacts like a white or clear halo occur around
 where the image meet, since the alpha value is being squared or cubed.
-It also depends on whether or not the image has been rendered as a pre-mult,
+It also depends on whether or not the image has been rendered as a premultiplied,
 or as a straight RGBA image.
 
 
@@ -99,6 +99,6 @@ The resulting image is a composite of the two source images.
 In this example, we use the Factor control to make a sheer cloth or onion-skin effect.
 This effect can be animate, allowing the observer to "see-through" walls
 (or any foreground object) by hooking up a Time node to feed the Factor socket as shown below.
-In this example, over the course of 30 frames, the Time node makes the AlphaOver node produce
+In this example, over the course of 30 frames, the Time node makes the Alpha Over node produce
 a picture that starts with the background cliff image, and slowly bleeds through the cube.
 This example shows frame 11 just as the cube starts to be revealed.

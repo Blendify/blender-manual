@@ -29,7 +29,7 @@ and brief details of their scope. Details of their controls and settings are giv
    Sets options for objects in which light can pass through.
 :doc:`Mirror </render/blender_render/materials/properties/mirror>`
    (Only Blender Render): Reflective properties of the material.
-:doc:`SubSurface Scattering </render/blender_render/materials/properties/subsurface_scattering>`
+:doc:`Subsurface Scattering </render/blender_render/materials/properties/subsurface_scattering>`
    (Only Blender Render): Simulates semi-translucent objects in which light enters,
    bounces around, then exits in a different place.
 :doc:`Strand </render/blender_render/materials/properties/strands>`

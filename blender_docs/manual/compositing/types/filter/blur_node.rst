@@ -42,8 +42,8 @@ Type
       TODO
    Fast Gaussian
       An approximation of the Gaussian.
-   CatRom
-      CatRom keeps sharp contrast edges crisp.
+   Catmull Rom
+      Catmull Rom keeps sharp contrast edges crisp.
    Mitch
       Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
 
@@ -83,6 +83,6 @@ Example
 
 An example blend-file, in fact, the one used to create the image above,
 `is available here. <https://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__.
-The blend-file takes one image from the RenderLayer "Blurs" and blurs it while offsetting it *Translate*
-and then combining it *AlphaOver* to build up the progressive sequence of blurs.
+The blend-file takes one image from the Render Layer node "Blurs" and blurs it while offsetting it *Translate*
+and then combining it *Alpha Over* to build up the progressive sequence of blurs.
 Play with the Value and Multiply nodes to change the amount of blurring that each algorithm does.

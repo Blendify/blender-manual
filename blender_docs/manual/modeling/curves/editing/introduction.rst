@@ -197,7 +197,7 @@ Subdivision
 
    | Mode:     Edit Mode
    | Panel:    Curve Tools
-   | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`
+   | Menu:     :menuselection:`Surface tools --> Modeling --> Subdivide`
    | Hotkey:   :kbd:`W`
 
 

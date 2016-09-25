@@ -149,12 +149,12 @@ Self Collision
 
 Manual
    The *Ball Size* directly sets the ball size (in BU).
-Averavge ("average")
+Average
    The average length of all edges attached to the vertex is calculated and then multiplied
    with the *Ball Size* setting. Works well with evenly distributed vertices.
 Minimal / Maximal
    The ball size is as large as the smallest/largest spring length of the vertex multiplied with the *Ball Size*.
-AvMiMax
+Average Min Max
    Size = ((Min + Max)/2) × *Ball Size*.
 
 Size

@@ -89,15 +89,15 @@ that the two red and green rings always remain visible in *Edit Mode*,
 as well as the select circle (in *Object Mode*...).
 
 To hide the current selection, use :kbd:`H`,
-the *Hide* toggle button in the *MetaBall tools*,
-or the :menuselection:`Metaball --> Hide MetaElems --> Hide Selected` menu option.
+the *Hide* toggle button in the *Metaball tools*,
+or the :menuselection:`Metaball --> Show/Hide --> Hide Selected` menu option.
 
 To hide everything but the current selection,
-press :kbd:`Shift-H` or use :menuselection:`Metaball --> Hide MetaElems --> Hide Deselected`.
+press :kbd:`Shift-H` or use :menuselection:`Metaball --> Show/Hide --> Hide Deselected`.
 
 To reveal what was hidden, use :kbd:`Alt-H`,
-or the relevant option in the same :menuselection:`Metaball --> Hide MetaElems` menu.
-You can also un-toggle the *Hide* button in the (*MetaBall tools* panel).
+or the relevant option in the same :menuselection:`Metaball --> Show/Hide` menu.
+You can also un-toggle the *Hide* button in the (*Metaball tools* panel).
 
 
 Deleting Elements

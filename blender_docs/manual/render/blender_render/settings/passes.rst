@@ -108,7 +108,7 @@ UV
 Mist
    Deliver Mist factor pass.
 Object Index
-   Masks selected objects. See MaskObj node.
+   Masks selected objects. See :doc:`/compositing/types/converter/id_mask`.
 Color
    The color of materials without shading.
 Diffuse
@@ -121,7 +121,7 @@ Shadow
 Emit
    Emission pass.
 AO
-   Ambient Occlusion. Make sure it is turned on in your environment and that RayTracing is enabled.
+   Ambient Occlusion. Make sure it is turned on in your environment and that Ray Tracing is enabled.
 Environment
    Environment lighting.
 Indirect
@@ -163,9 +163,9 @@ Quite a bit of information about the typical uses for some of the passes is disc
 elsewhere:
 
 - Image: Since this is the main product, all of Blender uses it.
-- Alpha: See the *AlphaOver* node and all of the *Matte* nodes.
+- Alpha: See the *Alpha Over* node and all of the *Matte* nodes.
 - Z: See the *Defocus* node.
-- Vec: See the *Vector Blur* node.
+- Vector: See the *Vector Blur* node.
 - Normal: See the *Normal* node.
 
 
@@ -198,7 +198,7 @@ We have used the Shadow to cut out parts of the image.
 We then take the shadow through an RGB Curve, which is set to magnify just the Blue by 75%;
 so a gray shadow of RGB(40, 40, 40) becomes RGB(40, 40, 40×1.75=70).
 That blue-tinged shadow is shown in the bottom viewer. Now we have two options:
-AlphaOver and Mix. For either option:
+Alpha Over and Mix. For either option:
 
 - Use the Shadow map as a Factor.
 - Feed the Blue Shadow to the Top Socket.

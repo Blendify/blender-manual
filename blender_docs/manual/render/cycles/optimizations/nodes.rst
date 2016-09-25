@@ -21,17 +21,17 @@ For example, it can (the list is not exhaustive):
 - Replace the following nodes with the constant result of their evaluation,
   if all their inputs are determined to be constant:
 
-  RGB, Value, MixRGB, Math, Vector Math, RGB to BW, Gamma, Bright Contrast,
+  RGB, Value, Mix RGB, Math, Vector Math, RGB to BW, Gamma, Bright Contrast,
   Invert, Separate/Combine RGB/XYZ/HSV, Blackbody, RGB Curves, Vector Curves, Color Ramps.
 
 - Detect Mix RGB, Math and Vector Math nodes that become no-op (without Clamp)
   or evaluate to 0 as a result of addition, subtraction, multiplication,
   division or dot/cross product with a known constant 0 or 1 input,
   and replace with the apropriate input link or constant result.
-- Eliminate MixRGB Mix (without Clamp) and Mix Shader nodes when
-  Fac is known to be 0 or 1 by replacing with the appropriate input value or link.
-- Eliminate no-op MixRGB (except Burn, Dodge, Lighten, or enabled Clamp),
-  Invert, RGB Curves and Vector Curves nodes with known zero Fac.
+- Eliminate Mix RGB Mix (without Clamp) and Mix Shader nodes when
+  Factor is known to be 0 or 1 by replacing with the appropriate input value or link.
+- Eliminate no-op Mix RGB (except Burn, Dodge, Lighten, or enabled Clamp),
+  Invert, RGB Curves and Vector Curves nodes with known zero Factor.
 - Eliminate Emission and Background shader nodes that do not emit any light,
   and Add Shader nodes with one or both input arguments missing.
 - Eliminate Bump with constant Height input, using its Normal input or Geometry Normal instead.
@@ -44,7 +44,7 @@ Runtime Optimizations
 =====================
 
 When executing shaders, a special optimization is applied to Mix Shader nodes.
-If Fac evaluates to 0 or 1, any nodes that are only reachable via the unused branch of the mix are not evaluated.
+If Factor evaluates to 0 or 1, any nodes that are only reachable via the unused branch of the mix are not evaluated.
 
 This can substantially reduce the performance cost of combining multiple materials
 in one shader with vertex color, texture, or other input used as a switch.

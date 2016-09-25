@@ -88,8 +88,8 @@ you can quite easily anticipate its bounce, which follow (more or less!)
 the same law as the light reflection.
 
 
-CookTorr
-========
+Cook Torrance
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -100,10 +100,10 @@ CookTorr
 .. figure:: /images/material-shader-cooktorr.jpg
    :width: 320px
 
-   CookTorr Shader (Lambert 0.8).
+   Cook-Torrance Shader (Lambert 0.8).
 
 
-CookTorr (Cook-Torrance)
+Cook-Torrance
 is a basic specular shader that is most useful for creating shiny plastic surfaces.
 It is a slightly optimized version of Phong.
 Robert L. Cook (LucasFilm) and Kenneth E. Torrance (Cornell University) In their 1982 paper
@@ -112,6 +112,7 @@ Robert L. Cook (LucasFilm) and Kenneth E. Torrance (Cornell University) In their
 (PDF),
 they described "a new reflectance model for rendering computer synthesized images"
 and applied it to the simulation of metal and plastic.
+
 
 Options
 -------
@@ -143,6 +144,7 @@ simulating specular phenomenon.
 `His model <https://en.wikipedia.org/wiki/Phong_reflection_model>`__
 included components not only for specular lighting, but also diffuse and ambient lighting.
 
+
 Options
 -------
 
@@ -171,7 +173,6 @@ Blinn
    :width: 320px
 
    Blinn Shader (Oren-Nayar Int 0.8, Rough 0.5).
-
 
 Blinn is a more 'physical' specular shader, often used with the Oren-Nayar diffuse shader.
 It can be more controllable because it adds a fourth option, an :term:`index of refraction`,
@@ -230,8 +231,8 @@ Smooth
    The Toon shader effect can also be accomplished in a more controllable way using color ramps.
 
 
-WardIso
-=======
+Ward Isometric
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -242,10 +243,10 @@ WardIso
 .. figure:: /images/material-shader-wardiso.jpg
    :width: 320px
 
-   WardIso Shader.
+   Ward isometric Shader.
 
 
-WardIso is a flexible specular shader that can be useful for metal or plastic.
+Ward isometric is a flexible specular shader that can be useful for metal or plastic.
 
 Gregory J. Ward
    developed a relatively simple model that obeyed the most basic laws of physics. In his 1992 paper,

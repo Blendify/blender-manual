@@ -189,6 +189,6 @@ Mode
 
 .. tip::
 
-   If running these channels through a ColorRamp to adjust value,
+   If running these channels through a Color Ramp node to adjust value,
    use the Cardinal scale for accurate representation.
    Using the Exponential scale on the luminance channel gives high-contrast effect.

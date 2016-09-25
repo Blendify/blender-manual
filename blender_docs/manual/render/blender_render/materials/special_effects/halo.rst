@@ -194,16 +194,16 @@ Let us use a halo material to create a dotmatrix display.
 
 
 - Add a material for the billboard, and set it to the type *Halo*.
-  Set the *HaloSize* to 0.06 and when you render the scene you should see a grid of white spots.
+  Set the *Halo Size* to 0.06 and when you render the scene you should see a grid of white spots.
 - Add a Texture, then change to the Texture Buttons and make it an image texture.
   When you load your picture and render again you should see some red tinted dots in the grid.
-- Return to the Material Buttons and adjust the *sizeX* parameter to about 0.5 then render again;
+- Return to the Material Buttons and adjust the *size X* parameter to about 0.5 then render again;
   the text should now be centered on the Billboard.
 - To remove the white dots, adjust the material color to a dark red and render.
   You should now have only red dots, but the billboard is still too dark.
-  To fix this enter EditMode for the board and copy all vertices using the :kbd:`Shift-D` shortcut
+  To fix this enter *Edit Mode* for the board and copy all vertices using the :kbd:`Shift-D` shortcut
   (take care not to move them!).
-  Then adjust the brightness with the *Add* value in the MaterialButtons.
+  Then adjust the brightness with the *Add* value in the Halo panel.
 
 .. _fig-bi-material-halo-dotmatrix:
 
@@ -213,7 +213,7 @@ Let us use a halo material to create a dotmatrix display.
 
 
 You can now animate the texture to move over the billboard,
-using the *ofsX* value in the *Texture* panel of the MaterialButtons.
+using the *Offset X* value in the *Texture* tab of the Mapping panel.
 (You could use a higher resolution for the grid,
 but if you do you will have to adjust the size of the halos by shrinking them,
 or they will overlap. Fig. :ref:`fig-bi-material-halo-dotmatrix`.

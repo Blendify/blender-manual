@@ -38,7 +38,7 @@ Boundary type
 Animated Mesh/Export
    See :ref:`Animated Mesh/Export <fluid-animated-mesh>`
 
-PartSlip Amount
+Part Slip Amount
    Amount of mixing between no- and free-slip, described above.
 
 Impact Factor

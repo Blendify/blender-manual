@@ -59,16 +59,16 @@ The following table shows the combinations used:
 Keyboards
 ---------
 
-NumPad Emulation
+Numpad Emulation
 ^^^^^^^^^^^^^^^^
 
-If you do not have a Numeric Numpad on the side of your keyboard,
+If you do not have a numeric Numpad on the side of your keyboard,
 you may want to emulate one (uses the numbers at the top of the keyboard instead,
 however, removes quick access to layer visibility).
 
 .. seealso::
 
-   Read more about *NumPad Emulation* in the :doc:`User Preferences </preferences/index>`
+   Read more about *Numpad Emulation* in the :doc:`User Preferences </preferences/input/index>`
 
 
 Non English Keyboards

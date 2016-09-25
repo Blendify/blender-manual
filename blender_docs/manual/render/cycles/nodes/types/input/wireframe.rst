@@ -31,7 +31,7 @@ Size
 Outputs
 =======
 
-Fac
+Factor
    Black and white mask showing white lines representing edges according to the object's :term:`topology`.
 
 

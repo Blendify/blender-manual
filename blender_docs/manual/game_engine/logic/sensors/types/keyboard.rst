@@ -34,7 +34,7 @@ First Modifier, Second Modifier
    These are selected in the same way as Key.
    This is useful if you wish to use key combinations,
    for example :kbd:`Ctrl-R` or :kbd:`Shift-Alt-Esc` to do a specific action.
-LogToggle
+Log Toggle
    Assigns a *Bool* property which determines if the keystroke will or will not be logged in the target *String*.
    This property needs to be TRUE if you wish to log your keystrokes.
 Target

@@ -54,7 +54,7 @@ The image above shows how to do this.
 In this example, an Edge render layer is created that only has the Sky and Edge layers
 The other render layer omits the Edge layer, so it returns just the normal image.
 On the output panel *Edge* is enabled with a width of 10 in black.
-Then that layer goes through a blur node. Using the Alphaover node,
+Then that layer goes through a blur node. Using the Alpha Over node,
 then the cube is composited on top of the blurred edge.
 The result gives a soft-shadow kind of effect.
-Note that Premultiply is set because the Edge image already has an alpha of 1.0 set.
+Note that Premultiply is set, because the Edge image already has an alpha of 1.0 set.

@@ -42,7 +42,7 @@ Outputs
 
 Color
    Texture color output.
-Fac
+Factor
    Mortar mask (1 = mortar).
 
 

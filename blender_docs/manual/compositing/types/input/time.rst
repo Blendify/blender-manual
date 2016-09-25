@@ -40,7 +40,7 @@ Start, End
 Outputs
 =======
 
-Fac
+Factor
    A speed of time factor (from 0.00 to 1.00) relative to the frame rate
    defined in the :ref:`Render Dimensions Panel <render-tab-dimensions>`.
    The factor changes according to the defined curve.

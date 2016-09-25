@@ -49,13 +49,15 @@ Options
    For correct results, the mapping of an environment map texture must be set to 'Refl'
    (reflection co-ordinates) in the Map Input panel of the Material tab.
 
+.. _fig-bi-environment-panel:
+
 .. figure:: /images/texture-envmap-panel.png
 
-   Reflecting plane EnvMap settings.
+   Reflecting plane Environment Map settings.
 
 
 Blender allows three types of environment maps,
-as you can see in *Reflecting plane EnvMap settings.* :
+as you can see in Fig. :ref:`fig-bi-environment-panel`:
 
 Static
    The map is only calculated once during an animation or after loading a file.

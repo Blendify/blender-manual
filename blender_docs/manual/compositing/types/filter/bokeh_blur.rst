@@ -63,9 +63,9 @@ An :doc:`ID masked </compositing/types/converter/id_mask>`
 alpha image can be used so that a background is blurred while foreground objects remain in focus.
 To prevent strange edges the :doc:`Dilate Node </compositing/types/filter/dilate_erode>` should be used.
 
-The Z pass can be visualized using a :doc:`Map Value </compositing/types/vector/map_value>`
-node and :doc:`ColorRamp </compositing/types/converter/color_ramp>`
-node as described in :doc:`Render Layers </compositing/types/input/render_layers>`.
+The Z pass can be visualized using a :doc:`Map Value </compositing/types/vector/map_value>` node
+and :doc:`Color Ramp </compositing/types/converter/color_ramp>` node
+as described in :doc:`Render Layers </compositing/types/input/render_layers>`.
 A *multiply* :doc:`Math </compositing/types/converter/math>` node can be used following the color-ramp
 so that a blur value greater than one is used for objects outside the focal range.
 

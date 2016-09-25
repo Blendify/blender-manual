@@ -87,7 +87,7 @@ like a lens.
 
 .. note::
 
-   The RayTrace option is only available in the Blender Render and Cycles render
+   The Raytrace option is only available in the Blender Render and Cycles render
    engines, but not in the Game Engine.
 
 A ray is sent from the camera and travels through the scene until it encounters an object.

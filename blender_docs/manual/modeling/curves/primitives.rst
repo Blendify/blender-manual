@@ -41,4 +41,4 @@ Path
 ====
 
 Adds a NURBS open 3D curve made of five aligned control points,
-with *Endpoint* knots and the *CurvePath* setting enabled.
+with *Endpoint* knots and the *Curve Path* setting enabled.

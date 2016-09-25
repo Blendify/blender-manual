@@ -28,11 +28,11 @@ Axis
 
    Screw
       The height of one helix iteration.
-AxisOb
+Axis Object
    The name of an object to define the axis direction.
 
    Object Screw
-      Use the distance from the *AxisOb* to define the height of one helix iteration.
+      Use the distance from the *Axis Object* to define the height of one helix iteration.
 Angle
    Degrees for a single helix revolution.
 Steps
