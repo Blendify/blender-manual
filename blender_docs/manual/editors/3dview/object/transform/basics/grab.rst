@@ -76,9 +76,9 @@ full control over your transformation.
    For example, :kbd:`Shift X` means the object will translate
    on the Y and Z axes while remaining at the same point on the X axis.
 
-   .. figure:: /images/basic_trans_grab_shift_xyz.jpg
+   .. figure:: /images/editors_3dview_trans_basics_grab-axis.jpg
 
-      :kbd:`Shift-X` in action.
+      :kbd:`Shift X` in action.
 
 :kbd:`Alt-G`
    clears any previous transformation on the object and sets its origin back to the center.
@@ -93,8 +93,8 @@ To confirm the action, press :kbd:`LMB`.
    so that a single :kbd:`RMB` drag can be used to move and confirm.
 
 
-Controling Precision
-====================
+Controlling Precision
+=====================
 
 In addition to the Axis constraint options listed above,
 Blender offers options to limit the amount of the transformation in small or predefined steps.
