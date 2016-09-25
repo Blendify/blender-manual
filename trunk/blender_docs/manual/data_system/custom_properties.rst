@@ -5,7 +5,7 @@ Custom Properties
 
 Custom properties are a way to store your own meta-data in Blender's data-blocks
 which can be used for rigging (where bones and objects can have custom properties driving other properties),
-and Python scripts, where its common to define new settings not available in Blender.
+and Python scripts, where it's common to define new settings not available in Blender.
 
 Only certain data supports custom properties.
 
@@ -13,7 +13,7 @@ Only certain data supports custom properties.
 - Bones and Pose-Bones.
 - Sequence strips.
 
-To add a custom property find the *Custom Properties* panel,
+To add a custom property, find the *Custom Properties* panel,
 found at the bottom of most :doc:`Properties Editor </editors/properties_editor>`, and hit *Add*.
 
 .. figure:: /images/data_custom_properties_add.png
@@ -43,7 +43,7 @@ Max
    The maximum value the custom property can take.
 Use Soft Limits
    Enables limits that the *Property Value* slider can be adjusted to
-   without having having to input the value numerically.
+   without having to input the value numerically.
 
    Soft Min
       The minimum value for the soft limit.
@@ -58,7 +58,7 @@ Python Access
 
 Custom properties can be accessed in a similar way to
 `dictionaries <https://docs.python.org/3/tutorial/datastructures.html#dictionaries>`__,
-with the constraints that keys and only be strings,
+with the constraints that keys can only be strings,
 and values can only be strings, numbers, arrays and nested properties.
 
 See the `API documentation

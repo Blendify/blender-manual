@@ -52,16 +52,16 @@ Menus
 
 View
    Bottom of File
-      Move the view and cursor to the end of the text.
+      Moves the view and cursor to the end of the text.
    Top of File
-      Move the view and cursor to the start of the text.
+      Moves the view and cursor to the start of the text.
 Text
    Create Text Block
       Creates a new internal text.
    Open Text Block
       Loads a text, a :doc:`File Browser </editors/file_browser/index>` appears :kbd:`Alt-O`.
    Reload
-      Reopen (reloads) the current buffer (all non-saved modifications are lost) :kbd:`Alt-R`.
+      Reopens (reloads) the current buffer (all non-saved modifications are lost) :kbd:`Alt-R`.
    Save
       Saves an already open file :kbd:`Alt-S`.
    Save As
@@ -84,7 +84,7 @@ Edit
    Paste
       Pastes the text from the clipboard at the cursor location in the Text editor :kbd:`Ctrl-V`.
    Duplicate Line
-      Duplicate the current line :kbd:`Ctrl-D`.
+      Duplicates the current line :kbd:`Ctrl-D`.
    Move line(s) up
       Swaps the current line with the above.
    Move line(s) down
@@ -101,9 +101,9 @@ Edit
       One Object, One Object per line
 Format
    Indent
-      Indent the selection :kbd:`Tab`.
+      Indents the selection :kbd:`Tab`.
    Unindent
-      Un-indent the selection :kbd:`Shift-Tab`.
+      Un-indents the selection :kbd:`Shift-Tab`.
    Comment
       Turns the selected lines into a Python comment.
    Uncomment
@@ -134,7 +134,7 @@ Main View
 =========
 
 Typing on the keyboard produces text in the text buffer.
-As usual, pressing dragging and releasing :kbd:`LMB` selects text.
+As usual, pressing, dragging and releasing :kbd:`LMB` selects text.
 
 
 .. tip:: Usages for the Text editor

@@ -86,7 +86,7 @@ Install from File
    by clicking *Install from File...* and providing a ``.zip`` or ``.py`` file.
 
    Now the add-on will be installed, not automatically enabled.
-   The search field will be set to the add-ons name (to avoid having to look for it).
+   The search field will be set to the add-on's name (to avoid having to look for it).
    Enable the add-on by turning on the check-box.
 
 Refresh

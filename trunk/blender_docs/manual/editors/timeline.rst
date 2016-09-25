@@ -167,7 +167,7 @@ AV-sync
    Play back and sync with audio clock, dropping frames if frame display is too slow.
    See `Synchronize Playback`_ for more info.
 Frame Dropping
-   Play back dropping frames if frames are too slow.
+   Play back dropping frames if frame display is too slow.
    See `Synchronize Playback`_ for more info.
 Clip Editors
    While playing, updates the Movie Clip Editor.
@@ -199,7 +199,7 @@ The Timeline header controls.
    Timeline header controls.
 
    1. Range Control, 2. Frame Control, 3. Player Control,
-   4. Synchronize Playback, 5. Keyframe Control
+   4. Synchronize Playback, 5. Keyframe Control.
 
 
 Range Control
