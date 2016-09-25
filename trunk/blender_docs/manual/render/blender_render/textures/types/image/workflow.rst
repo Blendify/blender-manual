@@ -129,7 +129,7 @@ Both textures use the same UV Texture map as their Map Input, and both affect Co
 The Makeup texture is transparent except where there is color,
 so that the base color texture shows through.
 Note that the colors were too strong on the image,
-so they amount of th diffuse color affects is turned down to 60% in the second layer (the blemish layer).
+so they amount of the diffuse color affects is turned down to 60% in the second layer (the blemish layer).
 
 Normally, we think of image textures affecting the color of a mesh. Realism and
 photo-realistic rendering is a combination of many different ways that light interacts with

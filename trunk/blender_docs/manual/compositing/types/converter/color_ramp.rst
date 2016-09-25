@@ -40,8 +40,8 @@ Alpha
 Examples
 ========
 
-Create an Alpha Mask
---------------------
+Creating an Alpha Mask
+----------------------
 
 A powerful but often overlooked feature of the Color Ramp is to create an Alpha Mask,
 or a mask that is overlaid on top of another image, and, like a mask,
@@ -71,8 +71,8 @@ in the future, overlay the image on a flashing white background to simulate a sc
 lighting flashes.
 
 
-Colorize an Image
------------------
+Colorizing an Image
+-------------------
 
 The real power of Color Ramp is that multiple colors can be added to the color spectrum.
 This example compositing map takes a boring BW image and makes it a flaming swirl!

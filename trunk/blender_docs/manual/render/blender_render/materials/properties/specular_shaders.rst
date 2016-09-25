@@ -88,7 +88,7 @@ you can quite easily anticipate its bounce, which follow (more or less!)
 the same law as the light reflection.
 
 
-Cook Torrance
+Cook-Torrance
 =============
 
 .. admonition:: Reference
@@ -231,7 +231,7 @@ Smooth
    The Toon shader effect can also be accomplished in a more controllable way using color ramps.
 
 
-Ward Isometric
+Ward Isotropic
 ==============
 
 .. admonition:: Reference
@@ -243,10 +243,10 @@ Ward Isometric
 .. figure:: /images/material-shader-wardiso.jpg
    :width: 320px
 
-   Ward isometric Shader.
+   Ward isotropic Shader.
 
 
-Ward isometric is a flexible specular shader that can be useful for metal or plastic.
+Ward isotropic is a flexible specular shader that can be useful for metal or plastic.
 
 Gregory J. Ward
    developed a relatively simple model that obeyed the most basic laws of physics. In his 1992 paper,

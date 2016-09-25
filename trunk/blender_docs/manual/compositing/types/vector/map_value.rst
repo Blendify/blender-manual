@@ -51,8 +51,8 @@ where the Map Value node is used to map a Z value
 suitable for connecting to a Blur node.
 
 
-Using Map Value to Multiply values
-----------------------------------
+Multiply values
+---------------
 
 This node can also be used the map value node to multiply values to achieve a desired output value.
 In the mini-map to the right, the Time node outputs a value between 0.0 and 1.
