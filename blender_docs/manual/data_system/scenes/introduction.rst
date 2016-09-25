@@ -49,7 +49,7 @@ Add ``+``
       This has the effect of making a new independent copy of the object-data.
    Full Copy
       Using this option, nothing is shared.
-      This option creates a fully independent scene with copies of the active scenes contents.
+      This option creates a fully independent scene with copies of the active scene's contents.
       Every object in the original scene is duplicated, and a duplicate, private copy of its object-data is made as well.
 
    .. note::

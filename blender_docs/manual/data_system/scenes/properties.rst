@@ -184,7 +184,7 @@ Simplify
 ========
 
 Subdivision
-   Maximum number of *Viewport*/*Render* subdivision to use for the
+   Maximum number of *Viewport*/*Render* subdivisions to use for the
    :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`
 
 Child Particles

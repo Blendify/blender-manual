@@ -50,8 +50,8 @@ In some cases, you want to save a data-block even when it is unused
 Fake User
 ---------
 
-Since zero user data-blocks are not saved.
-There are times when you want to force the data to be kept irrespective of its users.
+Since zero user data-blocks are not saved,
+there are times when you want to force the data to be kept irrespective of its users.
 
 If you are building a blend-file to serve as a library of things that you intend to link to and from other files,
 you will need to make sure that they do not accidentally get deleted from the library file.
@@ -97,7 +97,7 @@ Other data-blocks such as groups and actions can be *Unlinked* from the *Outline
    Some data (images especially) is hard to keep track of,
    especially since image views are counted as users.
 
-   For data-blocks that can be unlinked hold :kbd:`Shift`, while pressing on the *X* button,
+   For data-blocks that can be unlinked hold :kbd:`Shift`, while pressing on the *X* button.
    This force clears the user-count, so the data-block will be removed on reloading.
 
 

@@ -20,13 +20,13 @@ these can be enabled in the User Preferences through the use of :doc:`Add-ons </
    a good rule of thumb for selecting import/export formates for your project is:
 
    Use :abbr:`STL (STereoLithography)`
-      if you intend to import/export the file's for CAD software.
-      This formate is also commonly used for loading into 3D printing software.
+      if you intend to import/export the files for CAD software.
+      This format is also commonly used for loading into 3D printing software.
    Use :abbr:`FBX (Filmbox)`
       if you intend to export objects with rigs and/or animation
       to be used in other 3D creation suites or game development.
    Use :abbr:`ABC (Alembic)`
-      if you you want to import/export a large amount of scene data.
+      if you want to import/export a large amount of scene data.
 
 .. seealso::
 

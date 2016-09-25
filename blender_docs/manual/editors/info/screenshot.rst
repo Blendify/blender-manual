@@ -53,7 +53,7 @@ This is a quick way to make screen-casts from within Blender.
    For recording tutorials you may want to use more comprehensive, 3rd party solutions.
 
 Screencasts will record your actions over time either as a video or sequence of image files.
-The type and location of the output is determined by the settings in the
+The type and location of the output are determined by the settings in the
 :doc:`Output panel </render/output/output>` of the Properties :ref:`Render tab <properties-render-tab>`.
 The default settings will generate a screencast consisting of a series of ``PNG`` images captured
 every 50 ms and stored in the ``/tmp`` folder. If you want to record a video, set the
@@ -63,7 +63,7 @@ If you are unsure what video codecs your system supports, select ``AVI JPEG``.
 
 .. note::
 
-   You can change the frame-rate for a screen cast in the :ref:`User Preferences <prefs-system-screencast>`.
+   You can change the frame-rate for a screencast in the :ref:`User Preferences <prefs-system-screencast>`.
 
 When you start Blender Screencasts, the header of the *Info Editor* will change,
 and it will show you a button for stopping your capture.
