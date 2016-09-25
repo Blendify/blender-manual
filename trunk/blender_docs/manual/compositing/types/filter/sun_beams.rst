@@ -17,6 +17,7 @@ Sun Beams is a 2D effect for simulating the effect of bright light getting scatt
 This phenomenon can be created by renderers, but full volumetric lighting is
 a rather arduous approach and takes a lot of render time.
 
+
 Inputs
 ======
 
