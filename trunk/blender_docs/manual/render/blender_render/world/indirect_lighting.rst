@@ -8,7 +8,7 @@ It models the light that is reflected from other surfaces to the current surface
 Is more comprehensive, more physically correct, and produces more realistic images.
 It is also more computationally expensive.
 Take a look at the following examples of a scene lit with Direct Lighting and both
-Direct+Indirect Lighting:
+Direct and Indirect Lighting:
 
 .. list-table::
    Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__.
@@ -23,11 +23,11 @@ Direct+Indirect Lighting:
 
    * - .. figure:: /images/lighting-inderect_lighting-03.png
 
-          Direct+Indirect Lighting Schematic.
+          Direct and Indirect Lighting Schematic.
 
      - .. figure:: /images/lighting-inderect_lighting-04.jpg
 
-          Direct+Indirect Lighting Render.
+          Direct and Indirect Lighting Render.
 
 
 Indirect Lighting only works with Approximate gather method.

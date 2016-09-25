@@ -182,10 +182,6 @@ The number of vertices (in segments) can be different for the circles and is spe
 context panel in the *Tool Shelf* with both radii
 (*Major Segments* and *Minor Segments*).
 
-Major Radius
-   Radius from the origin to the center of the cross sections
-Minor Radius
-   Radius of the torus's cross section
 Major Segments
    Number of segments for the main ring of the torus.
    If you think of a torus as a "spin" operation around an axis, this is how many steps in the spin.
@@ -193,15 +189,26 @@ Minor segments
    Number of segments for the minor ring of the torus.
    This is the number of vertices of each circular segment.
 
-Use Int+Ext Controls
-   Change the way the torus is defined:
 
-Exterior Radius
-   When *Use Int+Ext Controls* is active, if viewed along the major axis,
-   this is the radius from the center to the outer edge.
-Interior Radius
-   When *Use Int+Ext Controls* is active, if viewed along the major axis,
-   this is the radius of the hole in the center.
+Torus Dimensions
+----------------
+
+Add Mode
+   Change the way the torus is defined.
+
+   Major/Minor, Exterior/Interior
+
+   Major Radius
+      Radius from the origin to the center of the cross sections.
+   Minor Radius
+      Radius of the torus's cross section.
+
+   Exterior Radius
+      If viewed along the major axis,
+      this is the radius from the center to the outer edge.
+   Interior Radius
+      If viewed along the major axis,
+      this is the radius of the hole in the center.
 
 
 Grid

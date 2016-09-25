@@ -309,7 +309,7 @@ Lighting Mode
       Shaded uses a volumetric single-scattering method, for self-shading the volume as light penetrates through.
    Multiple Scattering
       Allows multiple scatter calculations.
-   Shaded+Multiple Scattering
+   Shaded + Multiple Scattering
       Combines Shaded and Multiple Scattering functionality.
 
 Shaded Options
