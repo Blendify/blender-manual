@@ -74,7 +74,7 @@ in the examples below.
 
 .. figure:: /images/modifier_wireframe_crease-weight.jpg
 
-   Cube+Subsurf with 0 / 0.5 / 1 crease weight.
+   Cube+Subdivision Surface with 0 / 0.5 / 1 crease weight.
 
 
 .. warning::

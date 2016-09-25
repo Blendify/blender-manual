@@ -6,7 +6,7 @@ Array Modifier
 
 The Array modifier creates an array of copies of the base object, with each copy being offset from the previous
 one in any of a number of possible ways. Vertices in adjacent copies can be merged if they are nearby,
-allowing smooth :doc:`subsurf </modeling/modifiers/generate/subsurf>` frameworks to be generated.
+allowing smooth :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` frameworks to be generated.
 
 This modifier can be useful when combined with tileable meshes for quickly developing large
 scenes. It is also useful for creating complex repetitive shapes.
@@ -90,11 +90,11 @@ First Last
 
       * - .. figure:: /images/arraymodifier-firstlastdiscontinuity01.jpg
 
-            Subsurf discontinuity caused by not merging vertices between first and last copies (*First Last* off).
+            Subdivision discontinuity caused by not merging vertices between first and last copies (*First Last* off).
 
         - .. figure:: /images/arraymodifier-firstlastmerge01.jpg
 
-            Subsurf discontinuity eliminated by merging vertices between first and last copies (*First Last* on).
+            Subdivision discontinuity eliminated by merging vertices between first and last copies (*First Last* on).
 
 
 Distance
@@ -198,13 +198,13 @@ Organic
    * - .. figure:: /images/array_fractal_example.jpg
           :width: 320px
 
-          Subsurfed cube array with one object offset,
+          Subdivided cube array with one object offset,
           four cubes and a high vertex merge setting to give the effect of skinning.
 
      - .. figure:: /images/arraymodifier-spiral01.png
           :width: 320px
 
-          A double spiral created with two array modifiers and one subsurf modifier applied to a cube.
+          A double spiral created with two array modifiers and one Subdivision Surface modifier applied to a cube.
           As above, the vertex merge threshold is set very high to give the effect of skinning.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__.
 

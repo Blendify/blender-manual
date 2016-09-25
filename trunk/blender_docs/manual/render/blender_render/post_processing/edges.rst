@@ -33,7 +33,7 @@ Threshold
    The threshold of the angle between faces for drawing edges,
    from 0 to 255. A value of 10 would just give outline of object against the background,
    whereas higher settings start to add outlines on surface edges, starting with sharper angles.
-   At maximum intensity, Edge will even faintly display geometry subsurf edge lines in areas of imperfect smoothing.
+   At maximum intensity, Edge will even faintly display geometry subdivided edge lines in areas of imperfect smoothing.
 Color RGB
    The color of the rendered edges.
 

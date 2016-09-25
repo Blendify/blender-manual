@@ -95,29 +95,29 @@ click *Apply* to make a real version of your mesh or leave it as is for future e
 Using the Mirror Modifier with a Subdivision Surface Modifier
 -------------------------------------------------------------
 
-When using the Mirror modifier along with a :doc:`subsurf </modeling/modifiers/generate/subsurf>` modifier,
+When using the Mirror modifier along with a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` modifier,
 the order in which the modifiers are placed is important.
 
 .. figure:: /images/modifier-mirror-subsurf2.png
    :width: 300px
 
-   Subsurf modifier before Mirror modifier.
+   Subdivision Surface modifier before Mirror modifier.
 
 
-The above image shows the subsurf modifier placed before the Mirror one; as you
+The above image shows the Subdivision Surface modifier placed before the Mirror one; as you
 can see the effect of this is that the mesh is split down the center line of the mirror effect.
-This is because the subsurf calculation moves vertices away from the mirror plane, too far away from the
+This is because the Subdivision calculation moves vertices away from the mirror plane, too far away from the
 *Merge Limit*.
 
 .. figure:: /images/modifier-mirror-subsurf1.png
    :width: 300px
 
-   Mirror modifier before Subsurf modifier.
+   Mirror modifier before Subdivision Surface modifier.
 
 
-The above image shows the Mirror modifier placed before the subsurf modifier.
+The above image shows the Mirror modifier placed before the Subdivision Surface modifier.
 In this order, the mirror calculation is done and the vertices are merged together.
-Only after that does the subsurf modifier move any vertices.
+Only after that does the Subdivision Surface modifier move any vertices.
 
 
 Accurately Positioning the Mirror Plane

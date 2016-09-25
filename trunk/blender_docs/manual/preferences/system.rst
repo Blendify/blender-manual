@@ -119,7 +119,7 @@ The Options here will set the compute device used by OpenSubdiv for the
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
 
 None
-   Disables any OpenSubdiv compute devices, makes sure legacy subsurf method is used.
+   Disables any OpenSubdiv compute devices, makes sure legacy subdivision method is used.
    Use this option when OpenSubdiv causes any bugs or regressions.
 CPU
    Single threaded CPU implementation.

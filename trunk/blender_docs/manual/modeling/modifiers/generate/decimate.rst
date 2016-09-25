@@ -8,7 +8,8 @@ The Decimate modifier allows you to reduce the vertex/face count of a mesh with 
 
 This is not usually used on meshes which have been created by modeling carefully and economically
 (where all vertices and faces are necessary to correctly define the shape).
-But if the mesh is the result of complex modeling, sculpting and/or applied subsurf/multires modifiers,
+But if the mesh is the result of complex modeling,
+sculpting and/or applied Subdivision Surface/Multires modifiers,
 the Decimate modifier can be used to reduce the polygon count for a performance increase,
 or simply remove unnecessary vertices and edges.
 

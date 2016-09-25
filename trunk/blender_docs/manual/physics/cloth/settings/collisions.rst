@@ -217,6 +217,7 @@ If you encounter some problems with collision detection, there are two ways to f
 - The Cloth is torn by the deforming mesh -- he "Hulks Out": Increase its structural stiffness
   (*StructStiff* setting, *Cloth* panel), very high, like 1000.
 
-.. note:: Subdivision surface Modifier
+.. note:: Subdivision Surface Modifier
 
-   A bake/cache is done for every subsurf level so please use **the equal** subsurf level for render and preview.
+   A bake/cache is done for every subdivision level so please use
+   **the equal** subdivision level for render and preview.

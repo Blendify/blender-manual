@@ -126,7 +126,7 @@ We are going to illustrate this with a *Displace* modifier.
 
 Add a (10×10 BU) 100×100 vertices grid, and in *Edit Mode*,
 add to it a vertex group containing all of its vertices, as above.
-You can even further sub-divide it with a first *Subsurf* modifier.
+You can even further sub-divide it with a first Subdivision Surface modifier.
 
 Now add a curve circle, and place it 0.25 BU above the grid. Scale it up a bit (e.g. 4.0 BU).
 

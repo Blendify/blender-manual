@@ -30,8 +30,7 @@ Options
 The modifier also uses a *Rest* state, to use as a reference
 Internally this modifier uses smoothing, so some of the options adjust the kind of smoothing.
 
-..
-   Shares description with ``smooth.rst``
+.. Shares description with ``smooth.rst``
 
 Factor
    The factor to control the smoothing amount.
@@ -63,7 +62,7 @@ Rest Source
       This relies on the original mesh having the same number of vertices as the original mesh.
    Bind Coords
       Optionally you may bind the modifier to a specific state.
-      This requires that there are constructive modifiers such as subsurf or mirror
+      This requires that there are constructive modifiers such as Subdivision Surface or Mirror
       being applied before this modifier in the stack.
 
 

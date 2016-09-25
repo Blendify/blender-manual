@@ -104,12 +104,12 @@ Examples
 
 - In the modifiers menu, add a *Skin* modifier.
 - :kbd:`Tab` into edit mode and start extruding.
-- Try to sketch results similar to Fig.
-  :ref:`fig-modifier-skin-creature`, through extruding the vertices of the object.
+- Try to sketch results similar to Fig. :ref:`fig-modifier-skin-creature`, 
+  through extruding the vertices of the object.
 - Use :kbd:`Ctrl-A` to change the size of the different regions within the creature.
 - Use *Mark Loose* at regions like the neck, to merge these faces more together.
-- To get smoother results, activate *Smooth Shading* and add a :doc:`subsurf </modeling/modifiers/generate/subsurf>`
-  (Shortcut: :kbd:`Ctrl-3`) to the object.
+- To get smoother results, activate *Smooth Shading* and add a
+  :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
 
 
 External links
@@ -125,4 +125,3 @@ External links
   (`direct link to PDF <http://www.math.zju.edu.cn/ligangliu/cagd/projects/bmesh/paper/bmesh.pdf>`__).
 - `Related thread on Blender artists
   <http://blenderartists.org/forum/showthread.php?209551-B-mesh-modeling-tools-papers-better-than-zsfere>`__.
-

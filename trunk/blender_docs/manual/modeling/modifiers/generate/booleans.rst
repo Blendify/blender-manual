@@ -186,15 +186,15 @@ Other Modifiers
 
 The Boolean modifier calculation is performed using the target modified mesh
 topology and dimensions. Other modifiers added to the modified mesh are bypassed.
-This means that if a target is using another modifier, like subsurf,
-the resulting topology for the modified mesh will take into account the subsurf of the target;
+This means that if a target is using another modifier, like Subdivision Surface,
+the resulting topology for the modified mesh will take into account the subdivision of the target;
 but for the modified mesh, the basic topology is used anyway (see examples).
 
-If you add subsurf to the modified mesh with a Boolean modifier,
-Blender will visually add the subsurf for the modified mesh, but not for its calculations;
+If you add Subdivision Surface to the modified mesh with a Boolean modifier,
+Blender will visually add the subdivision for the modified mesh, but not for its calculations;
 it will only take into account its basic mesh topology.
-If you want to have a subsurf added to the modified mesh, you have to apply the subsurf to the
-Boolean modified mesh before applying the Boolean operation.
+If you want to have a Subdivision Surface modifier added to the modified mesh,
+you have to apply the Subdivision Surface to the Boolean modified mesh before applying the Boolean operation.
 
 The Boolean modifier can be added together with other modifiers in the modified mesh,
 but depending on the modifier, the calculations cannot be done and/or the modifier cannot execute.
@@ -224,21 +224,22 @@ prepare your modified mesh and target to work with the Boolean modifier.
 When the Boolean modifier is the first of the stack and is applied, the other Modifiers will
 act over the resulting meshes using the resulting topology and will remain in the modifiers stack.
 
-Below are two images: one with the subsurf added to the target, and another with the resulting topology.
+Below are two images: one with the Subdivision Surface modifier added to the target,
+and another with the resulting topology.
 
 .. list-table::
 
    * - .. figure:: /images/modifier_generate_boolean_subsurf_added_to_the_target.png
 
-          Modifier with Subsurf Target.
+          Modifier with Subdivision Surface Target.
 
      - .. figure:: /images/modifier_generate_boolean_resulting_mesh_subsurf_added_to_the_target.png
 
           The Resulting Topology.
 
 
-As you can see, the added (not applied) subsurf to the target was taken into consideration.
-The topology of the Icosphere with subsurf (Level 2) was completely transferred to the modified mesh.
+As you can see, the added (not applied) Subdivision Surface modifier to the target was taken into consideration.
+The topology of the Icosphere with (Level 2) subdivision was completely transferred to the modified mesh.
 
 .. tip:: The target topology determines the resulting topology
 

@@ -48,7 +48,7 @@ Mode
          Projection options.
 
       Subsurf Levels
-         This applies a (temporary) *Catmull-Clark* subsurf to the modified object,
+         This applies a (temporary) *Catmull-Clark* subdivision to the modified object,
          before computing the wrap when using Projection mode.
 
       Limit
