@@ -128,15 +128,13 @@ using the *Selected to Active* option.
 Normalized
    Normalize to the distance.
 
-When using this in conjunction with a subsurf and displacement modifier within Blender, it is
-necessary to temporarily add a heavy subsurf modifier to the 'low res' model before baking.
-This means that if you then use a displacement modifier on top of the subsurf,
-the displacement will be correct,
-since it is stored as a relative difference to the subsurfed geometry,
-rather than the original base mesh (which can get distorted significantly by a subsurf).
-The higher the render level subsurf while baking, the more accurate the displacements will be.
-This technique may also be useful when saving the displacement map out for use in external
-renderers.
+When using this in conjunction with a Subdivision Surface and Displacement modifier within Blender, it is
+necessary to temporarily add a heavy Subdivision Surface modifier to the 'low res' model before baking.
+This means that if you then use a displacement modifier on top of the Subdivision Surface,
+the displacement will be correct, since it is stored as a relative difference to the subdivided geometry,
+rather than the original base mesh (which can get distorted significantly by a Subdivision Surface).
+The higher the render subdivision level while baking, the more accurate the displacements will be.
+This technique may also be useful when saving the displacement map out for use in external renderers.
 
 
 Emission

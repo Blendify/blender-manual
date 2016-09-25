@@ -4,7 +4,7 @@
 Subdivision Surface Modifier
 ****************************
 
-Subdivision Surface (*Subsurf* in short) is a method of subdividing the faces of a mesh to give a smooth appearance,
+*Subdivision Surface* modifier is used to subdivide the faces of a mesh to give a smooth appearance,
 to enable modeling of complex smooth surfaces with simple, low-vertex meshes.
 This allows high resolution mesh modeling without the need to save and maintain huge amounts of data and gives
 a smooth *organic* look to the object.
@@ -21,16 +21,16 @@ You can see the difference between the two in the grid image below.
 
 .. figure:: /images/modeling_modifiers_subsurf_grid.png
 
-   Subsurfs levels 0 to 3, without and with Smooth Shading.
+   Subdivisions levels 0 to 3, without and with Smooth Shading.
 
 .. tip::
 
-   The Subsurf modifier does not allow you to edit the new subdivided geometry without applying it,
+   The Subdivision Surface modifier does not allow you to edit the new subdivided geometry without applying it,
    but the :doc:`Multires </modeling/modifiers/generate/multiresolution>` modifier does (in sculpt mode).
 
 
-Modifier Settings
-=================
+Options
+=======
 
 .. figure:: /images/modifier-subsurf.png
 
@@ -61,7 +61,6 @@ Subdivisions
 The right combination of these settings will allow you to keep a fast and lightweight
 approximation of your model when interacting with it in 3D, but use a higher quality version when rendering.
 
-
 .. warning::
 
    Be careful not to set the *View* subdivisions higher than the *Render* subdivisions,
@@ -70,7 +69,7 @@ approximation of your model when interacting with it in 3D, but use a higher qua
 
 Options
    Subdivide UVs
-      When enabled, the UV maps will also be subsurfed
+      When enabled, the UV maps will also be subdivided
       (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
 
    .. figure:: /images/modifier-generate-subsurf-subdivideuvs.png
@@ -81,7 +80,7 @@ Options
       When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped
       (only draws the edges of the original geometry)
    Opensubdiv
-      See the :ref:`modeling-modifiers-opensubdiv` section.
+      See the `OpenSubdiv`_ section.
 
 
 .. _modeling-modifiers-opensubdiv:
@@ -89,30 +88,33 @@ Options
 OpenSubdiv
 ==========
 
-OpenSubdiv is an option of the Subsurf modifier.
-When this option is enabled for Subsurf modifier from the very top of the modifier stack,
-evaluation will happen on the compute device selected in the User Preferences.
-Best performance will be achieved when using GLSL evaluation.
+When *OpenSubdiv* is enabled, the modifier evaluation will happen on a compute device.
+To enable OpenSubdiv you must first choose the fastest compute device in the 
+:ref:`User Preferences <prefs-system-opensubdiv>`. Most of the time the
+best performance will be achieved when using *GLSL*.
 As a result performance of the modifier will be much higher which is great for animations.
 
-To enable OpenSubdiv you must first choose the fastest compute device.
-To do this see the :ref:`prefs-system-opensubdiv` section. To find more on OpenSubdiv read the
-`Release Notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76/OpenSubdiv>`__.
+.. seealso::
+
+   To find more on OpenSubdiv read the
+   `Release Notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76/OpenSubdiv>`__.
+
 
 Improving Performance
 ---------------------
 
 In order to utilize maximum performance form OpenSubdiv the following things are required:
 
-- Subsurf modifier must be last in the :ref:`Modifier Stack <modifier-stack>`.
-- There should be no modifiers prior to Subsurf which changes mesh topology across the time.
+- The modifier must be last in the :ref:`Modifier Stack <modifier-stack>`.
+- There should be no modifiers prior to the  which changes mesh topology across the time.
 - Other objects should not use geometry of OpenSubdiv mesh
 
 
 Control
 =======
 
-Subsurf rounds off edges, and often this is not what you want. There are several solutions.
+Catmull-Clark subdivision rounds off edges, and often this is not what you want.
+There are several solutions that allow you to control the subdivision.
 
 
 .. _modifiers-generate-subsurf-creases:
@@ -121,11 +123,11 @@ Weighted Edge Creases
 ---------------------
 
 Weighted edge creases for subdivision surfaces allows you to change the way
-Subsurf subdivides the geometry to give the edges a smooth or sharp appearance.
+the Subdivision Surface modifier subdivides the geometry to give the edges a smooth or sharp appearance.
 
 .. figure:: /images/subsurfwithcrease.png
 
-   A Subsurfed Cube with Creased Edges.
+   A Subdivided Cube with Creased Edges.
 
 The crease weight of selected edges can be changed in the *Transform* panel of the properties region
 :kbd:`N`, or by using the shortcut :kbd:`Shift-E` and moving the mouse closer
@@ -138,10 +140,10 @@ Edge Loops
 
 .. figure:: /images/cubewithedgeloops.jpg
 
-   A Subsurf Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
+   Subdivision Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
-The Subsurf modifier demonstrates why good, clean topology is so important.
-As you can see in the figure, the Subsurf modifier has a drastic effect on a default Cube.
+The Subdivision Surface modifier demonstrates why good, clean topology is so important.
+As you can see in the figure, the Subdivision Surface modifier has a drastic effect on a default Cube.
 Until you add in additional Loops (with :kbd:`Ctrl-R`), the shape is almost unrecognizable as a cube.
 
 A mesh with deliberate topology has good placement of Edge Loops,
@@ -167,14 +169,15 @@ because the render is generated using your Object Data,
 Keyboard Shortcuts
 ==================
 
-To quickly add a subsurf modifier to one or more objects, select it/them and press :kbd:`Ctrl-1`.
-That will add a subsurf modifier with *View Subdivisions* on 1.
+To quickly add a Subdivision Surface modifier to one or more objects, select it/them and press :kbd:`Ctrl-1`.
+That will add a Subdivision Surface modifier with *View Subdivisions* on 1.
 
-You can use other numbers too, such as :kbd:`Ctrl-2`, :kbd:`Ctrl-3`, etc, to add a subsurf with that number of
-subdivisions. The *Render Subdivisions* will always be on 2 when added like this.
+You can use other numbers too, such as :kbd:`Ctrl-2`, :kbd:`Ctrl-3`, etc,
+to add a Subdivision Surface modifier with that number of subdivisions.
+The *Render Subdivisions* will always be on 2 when added like this.
 
-If an object already has a subsurf modifier, doing this will simply change its subdivision level instead of adding
-another modifier.
+If an object already has a Subdivision Surface modifier,
+doing this will simply change its subdivision level instead of adding another modifier.
 
 
 Known Limitations
@@ -183,7 +186,7 @@ Known Limitations
 Non Contiguous Normals
 ----------------------
 
-Blender's subdivision system produces nice smooth subsurfed meshes, but any subsurfed face
+Blender's subdivision system produces nice smooth subdivided meshes, but any subdivided face
 (that is, any small face created by the algorithm from a single face of the original mesh),
 shares the overall normal orientation of that original face.
 
@@ -208,8 +211,8 @@ A quick way to fix this is to use Blender's
 If you still have some ugly black gouges you will have to
 :doc:`Manually Flip the Normals </modeling/meshes/editing/normals>`.
 
-Concave NGons
--------------
+Concave N-Gons
+--------------
 
 While NGons are supported,
 concave ngons may give ugly overlapping results.
@@ -217,4 +220,4 @@ concave ngons may give ugly overlapping results.
 .. figure:: /images/modifier-subsurf_ngon_concave.png
    :width: 300px
 
-   The ngons on the right show overlapping subsurf result.
+   The N-Gons on the right show overlapping results.

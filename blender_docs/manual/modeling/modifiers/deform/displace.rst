@@ -103,6 +103,5 @@ Example
 =======
 
 .. figure:: /images/modifier-displace-braille.jpg
-   :scale: 66%
 
-   A highly subsurfed plane with an image of the Braille alphabet used as the displacement texture.
+   A highly subdivided plane with an image of the Braille alphabet used as the displacement texture.

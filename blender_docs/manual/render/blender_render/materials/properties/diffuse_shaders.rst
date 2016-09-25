@@ -48,7 +48,6 @@ If most of the light striking a surface is reflected diffusely, the surface will
 
    Light re-irradiated in the diffusion phenomenon.
 
-
 .. tip:: Shader Names
 
    Some shaders are -- traditionally -- named after the people,

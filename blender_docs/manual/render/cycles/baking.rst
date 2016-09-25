@@ -68,7 +68,7 @@ Emit
    Bakes Emission, or the Glow color of a material.
 Environment
    Bakes the environment as seen from the center of the object.
-Diffuse / Glossy / Transmission / Subsurface
+Diffuse/Glossy/Transmission/Subsurface
    Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
    .. figure:: /images/cycles-bake-diffuse.png

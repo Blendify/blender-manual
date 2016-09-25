@@ -6,7 +6,6 @@ Smoothing
 Mesh Shading
 ============
 
-
 .. list-table::
    Example mesh rendered flat, smoothed using edge split, and using Subdivision Surface.
    Note how edges are rendered differently.
@@ -182,8 +181,8 @@ you can smooth the mesh non-destructively with one or several of the following m
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
    Catmull-Clark subdivision produces smooth results. Sharp edges can be defined with
    :ref:`subdivision creases <modifiers-generate-subsurf-creases>`
-   or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier
-   </modeling/modifiers/generate/edge_split>` (set to *From Marked As Sharp*) before the *Subsurf* modifier.
+   or by setting certain edges to "sharp" and adding an :doc:`Edge Split Modifier
+   </modeling/modifiers/generate/edge_split>` (set to *From Marked As Sharp*) before the *Subdivision Surface* modifier.
 
 .. list-table::
    Example mesh with *Auto Smooth* enabled.
@@ -191,12 +190,12 @@ you can smooth the mesh non-destructively with one or several of the following m
    * - .. figure:: /images/meshsmooth-example-08subsurf.jpg
           :width: 320px
 
-          Subsurf.
+          Subdivision Surface.
 
      - .. figure:: /images/meshsmooth-example-09edgecrease.jpg
           :width: 320px
 
-          Using creased edges, and resulting subsurf artifacts.
+          Using creased edges, and resulting subdivision artifacts.
 
    * - .. figure:: /images/meshsmooth-example-10edgeloops.jpg
           :width: 320px

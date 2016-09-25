@@ -65,37 +65,37 @@ Blender Settings
 Scene and Specific Objects
 ==========================
 
-- Remove lamps, or move them to unrendered layers, or tie them to layers.
-- Turn off some lamp's shadows, using only one or two main sun lamps to cast shadows.
-  A few "shadows only" lights will render faster than every light having shadows on.
-- Use Buffer Shadows rather than ray-traced Shadows
-- Bake your shadows using Render Baking Full Render bake on surfaces that do not move.
-  Use that texture for that mesh, then disable shadows for that material.
-- Simplify meshes (remove polygons). The more vertices you have in camera, the more time it takes to render.
-- Remove Doubles, or use the Decimator mesh edit feature.
-- Remove Subsurf and Multires modifiers.
-- Delete backsides of meshes (removing unseen geometry).
-- Render just a few objects at a time; in the beginning of your project,
-  render the background objects and sets that will not change and will always be in the background.
-- Put the buildings on another layer, and through render layers, do not render them.
-  Then composite them back in later.
-- Make the camera static so that you can better accomplish the above two ideas.
-- Avoid use of Area lights.
-- Make materials Shadeless.
-- Render Bake AO and textures, and then make those materials Shadeless.
-- Decrease the Clip distance for spot lights.
-- Decrease the Clip distance for the camera.
-- Turn off world AO.
-- Turn off Material SSS.
-- Use smaller image textures. A 256×256 image takes only 1% of the memory that a 2k image does,
-  often with no loss of quality in the ultimate render.
-- Reduce Subsurf. Each level quadruples (4x) the number of faces from the previous level.
-- Reduce Multires.
-- Make a matte render of background objects, like buildings,
-  and put the image of them on a billboard in the scene instead of the object themselves.
-  This will reduce vertex/face count.
-- If you have lots of linked instances of an object, use DupliFaces, as these are instanced. If you have 100 of them,
-  Blender will only store the geometry for 1 (Instances themselves take a small amount of memory).
+#. Remove lamps, or move them to unrendered layers, or tie them to layers.
+#. Turn off some lamp's shadows, using only one or two main sun lamps to cast shadows.
+   A few "shadows only" lights will render faster than every light having shadows on.
+#. Use Buffer Shadows rather than ray-traced Shadows
+#. Bake your shadows using Render Baking Full Render bake on surfaces that do not move.
+   Use that texture for that mesh, then disable shadows for that material.
+#. Simplify meshes (remove polygons). The more vertices you have in camera, the more time it takes to render.
+#. Remove Doubles, or use the Decimator mesh edit feature.
+#. Remove Subdivision Surface and Multires modifiers.
+#. Delete backsides of meshes (removing unseen geometry).
+#. Render just a few objects at a time; in the beginning of your project,
+   render the background objects and sets that will not change and will always be in the background.
+#. Put the buildings on another layer, and through render layers, do not render them.
+   Then composite them back in later.
+#. Make the camera static so that you can better accomplish the above two ideas.
+#. Avoid use of Area lights.
+#. Make materials Shadeless.
+#. Render Bake AO and textures, and then make those materials Shadeless.
+#. Decrease the Clip distance for spot lights.
+#. Decrease the Clip distance for the camera.
+#. Turn off world AO.
+#. Turn off Material SSS.
+#. Use smaller image textures. A 256×256 image takes only 1% of the memory that a 2k image does,
+   often with no loss of quality in the ultimate render.
+#. Reduce Subdivision Surfaces. Each level quadruples (4x) the number of faces from the previous level.
+#. Reduce Multires.
+#. Make a matte render of background objects, like buildings,
+   and put the image of them on a billboard in the scene instead of the object themselves.
+   This will reduce vertex/face count.
+#. If you have lots of linked instances of an object, use DupliFaces, as these are instanced. If you have 100 of them,
+   Blender will only store the geometry for 1 (Instances themselves take a small amount of memory).
 
 
 Render Settings

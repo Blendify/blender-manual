@@ -62,7 +62,7 @@ Assign
 
 .. note::
 
-   The hook modifier stores vertex indices from the original mesh to determine what to effect;
-   this means that modifiers that generate geometry, like subsurf,
+   The Hook Modifier stores vertex indices from the original mesh to determine what to effect;
+   this means that modifiers that generate geometry, like a Subdivision Surface modifier,
    should always be applied **after** the hook modifier;
    otherwise the generated geometry will be left out of the hook's influence.

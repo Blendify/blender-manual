@@ -17,7 +17,7 @@ Adaptive Subdivision
    Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
 
 
-When using the Experimental Feature Set the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`
+When using the Experimental Feature Set the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
 gets changed to control the subdivision of a mesh at the time of rendering.
 For this, all the other settings are the same except the *View* and *Render* settings.
 These previously mentioned settings get removed/renamed and the following settings are added:

@@ -43,15 +43,16 @@ Simulate
 Interface
 =========
 
+.. _fig-modifiers-panel-layout:
+
 .. figure:: /images/modifier-subsurf.png
 
-   Panel Layout (Subsurf as an example).
+   Panel Layout (Subdivision Surface as an example).
 
 
 Each modifier has been brought in from a different part of Blender,
 so each has its own unique settings and special considerations. However,
-each modifier's interface has the same basic components, see (*Panel Layout
-(Subsurf as an example)*).
+each modifier's interface has the same basic components, see Fig. :ref:`fig-modifiers-panel-layout`
 
 At the top is the *panel header*.
 The icons each represent different settings for the modifier (left to right):
@@ -111,8 +112,8 @@ and is also found in several other 3D applications.
 
 In a modifier stack the order in which modifiers are applied has an effect on the result.
 Fortunately modifiers can be rearranged easily by clicking the convenient up and down arrow icons.
-For example, the image below shows :doc:`SubSurf </modeling/modifiers/generate/subsurf>` and
-:doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have switched places.
+For example, the image below shows :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
+and :doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have switched places.
 
 .. list-table:: Modifier Stack example.
 
@@ -125,7 +126,7 @@ For example, the image below shows :doc:`SubSurf </modeling/modifiers/generate/s
      - .. figure:: /images/modifier-mirror-subsurf1.png
           :width: 320px
 
-          The Subsurface modifier is the last
+          The Subdivision surface modifier is the last
           item in the stack and the result is a single merged surface.
 
 Modifiers are calculated from top to bottom in the stack.

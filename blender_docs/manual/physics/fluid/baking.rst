@@ -73,15 +73,15 @@ Baking processing time
 
    If the mesh has modifiers, the rendering settings are used for exporting the mesh to the fluid solver.
    Depending on the setting, calculation times and memory use might exponentially increase.
-   For example, when using a moving mesh with *Subsurf* as an obstacle,
+   For example, when using a moving mesh with *Subdivision Surface* as an obstacle,
    it might help to decrease simulation time by switching it off, or to a low subdivision level.
    When the setup/rig is correct, you can always increase settings to yield a more realistic result.
 
 
 .. ===="St"/"Ad"/"Bn"/"Par" Buttons====
-   Till now, we were in the {{Literal|St}}andard buttons.
+   Till now, we were in the |Standard buttons.
    Clicking another one of these buttons will show other "panels" (groups of controls:
-   {{Literal|Ad}}vanced, {{Literal|Bn}} for boundary, and {{Literal|Par}}ticle)
+   Advanced, {{Literal|Bn}} for boundary, and Particle)
    of more advanced options, that often are fine set at the defaults.
 
    Standard
