@@ -29,7 +29,7 @@ with each area containing an *Editor*.
 
 
 The Default Screen
-===================
+==================
 
 By default Blender starts up showing the default screen, which is separated into five areas 
 containing the Editors listed below.
@@ -50,18 +50,19 @@ containing the Editors listed below.
 Components of an Editor
 =======================
 
-In general an editor provides a way to view and modify your work through
-a specific part of Blender.
+In general an editor provides a way to view and
+modify your work through a specific part of Blender.
 Editors are divided into :doc:`/interface/window_system/regions`.
-Regions can have smaller structuring elements like  :doc:`tabs and panels </interface/window_system/tabs_panels>`
+Regions can have smaller structuring elements like
+:doc:`tabs and panels </interface/window_system/tabs_panels>`
 with buttons, controls and widgets placed within them.
 
 .. figure:: /images/interface_introduction_editor.png
 
    The 3D View editor.
 
-   Green: Main Region, red left top: Tool Shelf, red left bottom: Operator Panel, 
-   red right: Properties Region, purple: Header.
+   Yellow: Main Region, green: Header, blue: Tool Shelf, purple: Operator Panel, 
+   red: Properties Region.
 
 
 User Interface Principles
