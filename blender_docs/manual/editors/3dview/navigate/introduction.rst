@@ -37,9 +37,9 @@ The view menu is located in the header of the 3D View.
    - Left :kbd:`Ctrl-Numpad3`
 
 :doc:`Cameras Menu </editors/3dview/navigate/camera_view>`:
-
    - Set Active object as camera
    - Active camera
+
 :ref:`Perspective/Orthographic View <3dview-projections>`
    These commands change the projection of the 3D View
 :doc:`Navigation Menu </editors/3dview/navigate/3d_view>`

@@ -3,7 +3,7 @@
 Options
 *******
 
-.. figure:: /images/particlesystem_hairsettings.jpg
+.. figure:: /images/physics_particle_system_hairsettings.jpg
 
    Hair particle system settings.
 
@@ -40,6 +40,7 @@ Hair particles can have dynamic properties using physics.
 
 To enable hair physics, click the check box beside *Hair Dynamics*.
 
+.. Particle type: you can also animate the strands with :doc:`Cloth Simulation </physics/cloth/index>`.
 
 Structure
 ---------

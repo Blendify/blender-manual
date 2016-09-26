@@ -35,7 +35,7 @@ Setup for Hair Particles
 #. Create a simulation
 #. Check the *Hair Dynamics* box.
 
-.. figure:: /images/particle_mode.png
+.. figure:: /images/physics_particle_mode.png
 
    Editing hair strands in Particle Edit Mode.
 
@@ -102,7 +102,7 @@ You may also use the *Select* Menu.
 Select Modes
 ------------
 
-.. figure:: /images/particle_select-display-mode.jpg
+.. figure:: /images/physics_particle_select-display-mode.jpg
 
 
 Path
@@ -172,13 +172,11 @@ Common Options:
       Set the strength of the brush effect (not for Add brush).
    Add/Sub Grow/Shrink
       Sets the brush to add the effect or reverse it.
-
 Deflect Emitter,
    Do not move keypoints through the emitting mesh.
 
    Distance
       The distance to keep from the Emitter.
-
 Keep
    Length
       Keep the length of the segments between the keypoints when combing or smoothing the hair.
@@ -187,7 +185,6 @@ Keep
       Keep first key unmodified, so you cannot transplant hair.
 X Mirror
    Enable mirror editing across the local x axis.
-
 Draw
    Path Steps
       Drawing steps, sets the smoothness of the drawn path.
@@ -226,10 +223,11 @@ while high settings produce a smooth curve.
 Mirroring Particles
 -------------------
 
-- If you want to create an X-Axis symmetrical haircut you have to do following steps:
-  - Select all particles with :kbd:`A`.
-  - Mirror the particles with :kbd:`Ctrl-M`, or use the :menuselection:`Particle --> Mirror` menu.
-  - Turn on *X-Axis Mirror Editing* in the *Particle* menu.
+If you want to create an X-Axis symmetrical haircut you have to do following steps:
+
+- Select all particles with :kbd:`A`.
+- Mirror the particles with :kbd:`Ctrl-M`, or use the :menuselection:`Particle --> Mirror` menu.
+- Turn on *X-Axis Mirror Editing* in the *Particle* menu.
 
 It may happen that after mirroring two particles occupy nearly the same place.
 Since this would be a waste of memory and rendertime,
