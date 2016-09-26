@@ -40,7 +40,7 @@ we are just not getting what we are looking for? What if we want to control the 
 tightly or add more complexity? Here is where nodes come in.
 
 Making this node map is accomplished by working in a
-:doc:`Node Editor </editors/node_editor/interface>`.
+:doc:`Node Editor </editors/node_editor/index>`.
 This section covers:
 
 - Enabling Material Nodes.
@@ -51,7 +51,7 @@ This section covers:
 Accessing The Node Editor
 =========================
 
-First lets enter the :doc:`node editor </editors/node_editor/interface>`
+First lets enter the :doc:`node editor </editors/node_editor/index>`
 and make sure that the node editor has the material node button (the sphere icon) pressed,
 not the composite or texture node buttons.
 
