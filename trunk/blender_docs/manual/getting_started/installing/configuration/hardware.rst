@@ -22,11 +22,11 @@ Multi-Monitor Setup
 Input Devices
 =============
 
-.. Add note about emulate 3D buttom mouse and numpad.
+.. Add note about emulate 3D button mouse and numpad.
 
 Blender supports various types of input devices:
 
-- Keyboard (recommended: keyboard with numeric keypad, english layout works best)
+- Keyboard (recommended: keyboard with numeric keypad, English layout works best)
 - Mouse (recommended: 3 button mouse with scroll wheel)
 - NDOF Devices (also known as *3D Mouse*)
 - Graphic Tablets
@@ -39,7 +39,7 @@ Mouse Button Emulation
 ^^^^^^^^^^^^^^^^^^^^^^
 
 If you do not have a 3 button mouse,
-you will need to emulate it by checking the option in the :doc:`User Preferences </preferences/index>`.
+you will need to emulate it by checking the option in the :doc:`User Preferences </preferences/input>`.
 
 The following table shows the combinations used:
 
@@ -68,7 +68,7 @@ however, removes quick access to layer visibility).
 
 .. seealso::
 
-   Read more about *Numpad Emulation* in the :doc:`User Preferences </preferences/input/index>`
+   Read more about *Numpad Emulation* in the :doc:`User Preferences </preferences/input>`
 
 
 Non English Keyboards
@@ -81,7 +81,6 @@ your computer to the UK or US layout as long as you work with Blender.
 
    You can also change the default keymap and default hotkeys from the
    :doc:`User Preferences </preferences/input>`, however, this manual assumes you are using the default keymap.
-   :doc:`Read more about Blender configuration </preferences/input>`
 
 
 .. _hardware-tablet:
@@ -104,7 +103,7 @@ as well as provide additional controls such as pressure sensitivity.
 -------
 
 3D Mice or :abbr:`NDOF (N-Degrees of Freedom)` devices are hardware that you can use to navigate a scene in Blender.
-Currenly only devices made by 3Dconnexion are supported.
+Currently only devices made by 3Dconnexion are supported.
 These devices allow you to explore a scene, as well as :ref:`Walk/Fly modes <3dview-walk-fly>`.
 
 .. seealso::

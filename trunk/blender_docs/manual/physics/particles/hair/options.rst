@@ -17,6 +17,9 @@ Advanced
 
       This manual assumes that this option is enabled.
 
+Segments
+   ..
+
 
 Emission
 ========
