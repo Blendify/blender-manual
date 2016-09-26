@@ -16,10 +16,9 @@ Blender's user interface is consistent across all platforms.
 Interface Elements
 ==================
 
-.. figure:: /images/interface_introduction_hiearchie.png
-   :align: right
-   :width: 350
+.. code-block:: none
 
+   Window ‣ Screen ‣ Areas ‣ Editors ‣ Regions ‣ (Tabs) ‣ Panels ‣ Controls
 
 The interface can be customized to match specific tasks using :doc:`Screen Layouts </interface/window_system/screens>`,
 which can then be named and saved for later use. The default screen is described below.
