@@ -1,28 +1,38 @@
-..    TODO/Review: {{review}}.
 
 ************
 Introduction
 ************
 
 After starting Blender and closing the :ref:`Splash Screen <splash>`
-your Blender window should look something similar to the image below:
+your Blender window should look something similar to the image below.
+Blender's user interface is consistent across all platforms.
 
 .. figure:: /images/blender_default_startup.png
+   :align: center
 
-   Initial Blender screen.
+   The default startup Blender window.
 
 
-Every window you see can be further broken down into separate areas
-(as described in the section on
-:doc:`arranging areas </interface/window_system/areas>`).
-The default screen is described below.
+Interface Elements
+==================
+
+.. figure:: /images/interface_introduction_hiearchie.png
+   :align: right
+   :width: 350
+
+
+The interface can be customized to match specific tasks using :doc:`Screen Layouts </interface/window_system/screens>`,
+which can then be named and saved for later use. The default screen is described below.
+
+A screen is organized into one or more :doc:`Areas </interface/window_system/areas>`
+with each area containing an *Editor*.
 
 
 The Default Screen
-==================
+===================
 
-The default screen is separated into five areas and is loaded each time you start Blender or a new file.
-These five areas are:
+By default Blender starts up showing the default screen, which is separated into five areas 
+containing the Editors listed below.
 
 - The Info Editor at the top.
 - A large 3D View.
@@ -30,14 +40,28 @@ These five areas are:
 - An Outliner at the top right.
 - A Properties Editor at the bottom right.
 
-In this chapter, each of the the basic elements of an editor will be discussed.
+.. figure:: /images/interface_introduction_default_screen.png
 
-.. figure:: /images/interface_window-system-default_scene.png
+   Blender's default Screen Layout with five Editors.
 
-   Default Blender scene and area arrangement.
+   Info (1), 3D View (2), Outliner (3), Properties (4) and Timeline (5).
 
-   Red: the Info Editor, green: the 3D View, purple: the Timeline,
-   yellow: the Outliner, blue: the Properties Editor.
+
+Components of an Editor
+=======================
+
+In general an editor provides a way to view and modify your work through
+a specific part of Blender.
+Editors are divided into :doc:`/interface/window_system/regions`.
+Regions can have smaller structuring elements like  :doc:`tabs and panels </interface/window_system/tabs_panels>`
+with buttons, controls and widgets placed within them.
+
+.. figure:: /images/interface_introduction_editor.png
+
+   The 3D View editor.
+
+   Green: Main Region, red left top: Tool Shelf, red left bottom: Operator Panel, 
+   red right: Properties Region, purple: Header.
 
 
 User Interface Principles
@@ -55,3 +79,18 @@ Non Blocking
 Non Modal Tools
    Tools can be accessed efficiently without taking time to select between different tools.
    Many tools use consistent and predictable, mouse and keyboard actions for interaction.
+
+
+Customization
+=============
+
+Blender also makes heavy use of keyboard shortcuts to speed up work.
+These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap-editor>`.
+
+.. rubric:: Theme colors
+
+   Blender allows for most of its interface color settings to be changed to suit the needs of the user.
+   If you find that the colors you see on screen do not match those mentioned
+   in the Manual then it could be that your default theme has been altered.
+   Creating a new theme or selecting/altering a pre-existing one can be done by selecting the
+   :doc:`User Preferences </preferences/index>` editor and clicking on the *Themes* tab.

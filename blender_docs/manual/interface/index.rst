@@ -8,7 +8,6 @@
    :maxdepth: 2
 
    splash.rst
-   introduction.rst
 
 
 Window System
