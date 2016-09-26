@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 2
 
+   splash.rst
    introduction.rst
 
 
@@ -26,11 +27,32 @@ Window System
 Interface Controls
 ==================
 
+Buttons and Controls
+--------------------
+
 .. toctree::
    :maxdepth: 1
 
-   controls/buttons/index.rst
-   controls/templates/index.rst
+   controls/buttons/buttons.rst
+   controls/buttons/menus.rst
+   controls/buttons/toggle_radio.rst
+   controls/buttons/number.rst
+   controls/buttons/eye_dropper.rst
+
+
+Extended Controls
+-----------------
+
+.. toctree::
+   :maxdepth: 1
+
+   controls/templates/data_block.rst
+   controls/templates/list.rst
+   controls/templates/color_picker.rst
+   controls/templates/color_ramp.rst
+   controls/templates/curve.rst
+   controls/templates/operator_search.rst
+
    common_shortcuts.rst
 
 
