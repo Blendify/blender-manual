@@ -70,9 +70,9 @@ but options within those sets vary based on the system employed. These sets of c
    Rotational behavior of particles.
 :doc:`Physics </physics/particles/properties/physics/index>`
    How the movement of the particles behaves.
-:doc:`Render </physics/particles/properties/visualization>`
+:doc:`Render </physics/particles/properties/render>`
    Rendering options.
-:doc:`Display </physics/particles/properties/visualization>`
+:doc:`Display </physics/particles/properties/display>`
    Realtime display in the 3D View.
 :doc:`Children </physics/particles/properties/children>`
    Control the creation of additional child particles.

@@ -42,7 +42,7 @@ The process for working with standard particles is:
 
 
 Creating a Particle System
-==========================
+--------------------------
 
 .. figure:: /images/physics_particle_system_createnew.jpg
 
@@ -59,7 +59,7 @@ every setting manually and can use the same effect on multiple objects.
 
 
 Types of Particle systems
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. _fig-particle-intro-system-type:
 

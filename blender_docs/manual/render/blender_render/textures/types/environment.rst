@@ -20,7 +20,7 @@ So why should one use Environment Maps?
 - :doc:`Halos </render/blender_render/materials/special_effects/halo>`
   (a visualization type for particles) are not visible to raytraced reflections,
   so you need to setup environment maps to reflect them.
-- :doc:`Keypoint strands </physics/particles/properties/visualization>`
+- :doc:`Keypoint strands </physics/particles/properties/render>`
   (another visualization type for particles) are also not visible to raytraced reflections,
   so you need to setup environment maps to reflect them.
 

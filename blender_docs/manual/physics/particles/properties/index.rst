@@ -9,6 +9,7 @@
    emission.rst
    cache.rst
    physics/index.rst
-   visualization.rst
+   render.rst
+   display.rst
    children.rst
    vertexgroups.rst
