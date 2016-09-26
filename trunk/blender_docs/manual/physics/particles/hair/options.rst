@@ -129,7 +129,7 @@ Render
 ======
 
 Hair can be rendered as a Path, Object, or Group.
-See :doc:`Particle Visualization </physics/particles/properties/visualization>` for descriptions.
+See :doc:`Particle Visualization </physics/particles/properties/display>` for descriptions.
 
 .. seealso::
 
