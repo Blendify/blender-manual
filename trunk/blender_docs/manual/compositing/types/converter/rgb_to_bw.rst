@@ -12,9 +12,7 @@ RGB to BW Node
 
    RGB to BW Node.
 
-This node linear maps a RGB color image to a grayscale.
-
-.. by computing the luminance ?
+This node maps a RGB color image to a grayscale by the luminance.
 
 
 Inputs
@@ -33,7 +31,7 @@ This node has no properties.
 Outputs
 =======
 
-Val
+Value
    Grayscale value output.
 
 .. TODO add examples of why this might be useful

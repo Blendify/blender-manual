@@ -20,7 +20,6 @@ but all settings are done in the *Particle tab*.
 
    Some fur made from particles.
 
-
 Particles generally flow out from their mesh into space.
 Their movement can be affected by many things, including:
 
@@ -45,83 +44,21 @@ Particles may be rendered as:
   the complete way of a particle will be shown as a strand.
   These strands can be manipulated in the 3D View (combing, adding, cutting, moving, etc).
 
-Every object may carry many particle systems. Each particle system may contain up to 100.
-000 particles. Certain particle types (*Hair* and *Keyed*)
+Every object may carry many particle systems. Each particle system may contain up to
+100.000 particles. Certain particle types (*Hair* and *Keyed*)
 may have up to 10.000 children for each particle
 (children move and emit more or less like their respective parents).
 The size of your memory and your patience are your practical boundaries.
 
 
-Workflow
-========
-
-The process for working with standard particles is:
-
-- Create the mesh which will emit the particles.
-- Create one or more Particle Systems to emit from the mesh.
-  Many times, multiple particle systems interact or merge with each other to achieve the overall desired effect.
-- Tailor each Particle System's settings to achieve the desired effect.
-- Animate the base mesh and other particle meshes involved in the scene.
-- Define and shape the path and flow of the particles.
-- For :doc:`Hair </physics/particles/hair/index>` particle systems: Sculpt the emitter's flow
-  (cut the hair to length and comb it for example).
-- Make final render and do physics simulation(s), and tweak as needed.
-
-
-Creating a Particle System
-==========================
-
-.. figure:: /images/particlesystem_createnew.jpg
-
-   Adding a particle system.
-
-
-To add a new particle system to an object, go to the *Particles* tab of the object
-*Settings* editor and click the small *+* button.
-An object can have many Particle Systems.
-
-Each particle system has separate settings attached to it.
-These settings can be shared among different particle systems, so one does not have to copy
-every setting manually and can use the same effect on multiple objects.
-Using the *Random* property they can be randomized to look slightly different,
-even when using the same settings.
-
-
-Types of Particle systems
--------------------------
-
-.. _fig-particle-intro-system-type:
-
-.. figure:: /images/particlesystem_selecttype.jpg
-
-   Particle System Types.
-
-
-After you have created a particle system,
-the Properties editor fills with many panels and buttons.
-But do not panic! There are two different types of particle systems,
-and you can change between these two with the *Type* drop-down list:
-
-Emitter
-   This parallels the old system to the greatest extent.
-   In such a system, particles are emitted from the selected object
-   from the *Start* frame to the *End* frame and have a certain lifespan.
-
-:doc:`Hair </physics/particles/hair/index>`
-   This system type is rendered as strands and has some very special properties:
-   it may be edited in the 3D View in realtime and you can also animate
-   the strands with :doc:`Cloth Simulation </physics/cloth/index>`.
-
-The settings in the *Particle System* panel are partially different for each system
-type. For example, in :ref:`fig-particle-intro-system-type` they are shown for only system type *Emitter*.
-
-
-Common Options
---------------
+Options
+-------
 
 Each system has the same basic sets of controls,
 but options within those sets vary based on the system employed. These sets of controls are:
 
+:doc:`Particle System Panel </physics/particles/particle_system_panel>`
+   Basic Settings.
 :doc:`Emission </physics/particles/properties/emission>`
    Settings for the initial distribution of particles on the emitter and the way they are born into the scene.
 :doc:`Cache </physics/particles/properties/cache>`

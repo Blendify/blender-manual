@@ -30,7 +30,7 @@ Start
 End
    The end frame of particle emission.
 Lifetime
-   The lifetime (in frames) of the particles.
+   The lifespan (in frames) of the particles.
 Random
    A random variation of the lifetime of a given particle.
    The shortest possible lifetime is *Lifetime* × (1 - *Rand*).

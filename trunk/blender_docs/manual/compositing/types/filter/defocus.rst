@@ -40,7 +40,7 @@ Gamma Correction
    Applies a gamma correction on the image before and after blurring it.
 F-Stop
    This option controls the amount of focal blur in the same way as a real camera.
-   It simulates the aperture *f* of a real lenses iris, without modifying the luminosity of the picture.
+   It simulates the aperture *f* of a real lens' iris, without modifying the luminosity of the picture.
    The default value 128 is assumed to be infinity:
    everything is in perfect focus. Half the value will double the amount of blur.
    This button is deactivated, if *No Z-buffer* is enabled.
