@@ -7,7 +7,7 @@ After starting Blender and closing the :ref:`Splash Screen <splash>`
 your Blender window should look something similar to the image below.
 Blender's user interface is consistent across all platforms.
 
-.. figure:: /images/blender_default_startup.png
+.. figure:: /images/interface_default_startup.png
    :align: center
 
    The default startup Blender window.
@@ -89,8 +89,8 @@ These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap-edit
 
 .. rubric:: Theme colors
 
-   Blender allows for most of its interface color settings to be changed to suit the needs of the user.
-   If you find that the colors you see on screen do not match those mentioned
-   in the Manual then it could be that your default theme has been altered.
-   Creating a new theme or selecting/altering a pre-existing one can be done by selecting the
-   :doc:`User Preferences </preferences/index>` editor and clicking on the *Themes* tab.
+Blender allows for most of its interface color settings to be changed to suit the needs of the user.
+If you find that the colors you see on screen do not match those mentioned
+in the Manual then it could be that your default theme has been altered.
+Creating a new theme or selecting/altering a pre-existing one can be done by selecting the
+:doc:`User Preferences </preferences/index>` editor and clicking on the *Themes* tab.
