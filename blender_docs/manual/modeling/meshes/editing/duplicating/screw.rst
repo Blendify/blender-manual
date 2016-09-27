@@ -378,7 +378,7 @@ will assembly perfectly with each other.
 #. Press shortcut :kbd:`A` twice to de-select and select all vertices again.
 #. Now press Screw.
 #. Change Steps and Turns as you like.
-Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
+   Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
 
 .. list-table::
 
