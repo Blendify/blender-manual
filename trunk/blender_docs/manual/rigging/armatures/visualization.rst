@@ -1,6 +1,6 @@
 
 **********************
-Armature visualization
+Armature Visualization
 **********************
 
 We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire:
