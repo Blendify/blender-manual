@@ -8,17 +8,19 @@ They make it possible to work primarily with a relatively low amount of Parent p
 for whom the physics are calculated. The children are then aligned to their parents.
 Without recalculating the physics the number and visualization of the children can be changed.
 
-- Children can be emitted from particles or from faces (with some different options).
-  Emission from *Faces* has some advantages, especially the distribution is more even on each face
-  (which makes it better suitable for fur and the like).
-  However, children from particles follow their parents better, e.g.
-  if you have a softbody animation and do not want the hair to penetrate the emitting mesh.
-  But see also our manual page about :doc:`Hair </physics/particles/hair/index>`.
-- If you turn on children the parents are no longer rendered
-  (which makes sense because the shape of the children may be quite different from that of their parents).
-  If you want to see the parents additionally turn on the *Parents* button in the *Visualization* panel.
-- Children carry the same material as their parents and are colored according to the exact
-  place from where they are emitted (so all children may have different color or other attributes).
+Children can be emitted from particles or from faces (with some different options).
+Emission from *Faces* has some advantages, especially the distribution is more even on each face
+(which makes it better suitable for fur and the like).
+However, children from particles follow their parents better, e.g.
+if you have a softbody animation and do not want the hair to penetrate the emitting mesh.
+But see also our manual page about :doc:`Hair </physics/particles/hair/index>`.
+
+If you turn on children the parents are no longer rendered
+(which makes sense because the shape of the children may be quite different from that of their parents).
+If you want to see the parents additionally turn on the *Parents* button in the *Visualization* panel.
+
+Children carry the same material as their parents and are colored according to the exact
+place from where they are emitted (so all children may have different color or other attributes).
 
 The possible options depend from the type of particle system,
 and if you work with *Children from faces* or *Children from particles*.
@@ -29,32 +31,41 @@ only the settings for a *Hair* particle system.
 Settings
 ========
 
-Simple
-   Children are emitted from the parent hairs.
-Interpolated
-   Children are emitted between the *Parent* particles on the faces of a mesh.
-   They interpolate between adjacent parents. This is especially useful for fur,
-   because you can achieve an even distribution.
-   Some of the children can become virtual parents, which are influencing other particles nearby.
+Child Type
+   None
+      No Children are generated.
+   Simple
+      Children are emitted from the parent position.
+   Interpolated
+      Children are emitted between the *Parent* particles on the faces of a mesh.
+      They interpolate between adjacent parents. This is especially useful for fur,
+      because you can achieve an even distribution.
+      Some of the children can become virtual parents, which are influencing other particles nearby.
 
 Display
    The number of children in the 3D View.
 Render
-   The number of children to be rendered (up to 10.000).
+   The number of children to be rendered.
 
-For Simple Mode
-   Size
-      Only for *Emitter*. A multiplier for children size.
-   Random
-      Random variation to the size of child particles.
 
-Interpolated Mode
-   Seed
-      Offset the random number table for child particles, to get a different result.
-   Virtual
-      Relative amount of virtual parents.
-   Long Hair
-      Calculate children that suit long hair well.
+Simple
+-----
+
+Size
+   Only for *Emitter*. A multiplier for children size.
+Random
+   Random variation to the size of child particles.
+
+
+Interpolated
+------------
+
+Seed
+   Offset the random number table for child particles, to get a different result.
+Virtual
+   Relative amount of virtual parents.
+Long Hair
+   Calculate children that suit long hair well.
 
 
 Effects
@@ -64,11 +75,15 @@ Effects
 
    From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.
 
-
+Use Clump Curve
+   Todo.
 Clump
    Clumping. The children may meet at their tip (1.0) or start together at their root (-1.0).
 Shape
    Form of *Clump*. Either inverse parabolic (0.99) or exponentially (-0.99).
+Use Clump Noise
+   Todo.
+
 Length
    Length of child paths.
 Threshold
@@ -85,6 +100,8 @@ Seed
 Roughness
 ---------
 
+Use Roughness Curve
+   Todo.
 Uniform, Size
    It is based on children location so it varies the paths in a similar way when the children are near.
 Endpoint, Shape
@@ -109,14 +126,19 @@ Kink
 With *Kink* you can rotate the children around the parent.
 See Fig. :ref:`fig-particle-child-kink` above picture for the different types of *Kink*.
 
-Curl
-   Children grow in a spiral around the parent hairs.
-Radial
-   Children form around the parent a wave shape that passes through the parent hair.
-Wave
-   Children form a wave, all in the same direction.
-Braid
-   Children braid themselves around the parent hair.
+Kink
+   Nothing
+      Deactivated.
+   Curl
+      Children grow in a spiral around the parent hairs.
+   Radial
+      Children form around the parent a wave shape that passes through the parent hair.
+   Wave
+      Children form a wave, all in the same direction.
+   Braid
+      Children braid themselves around the parent hair.
+   Spiral
+      Todo.
 
 Amplitude
    The amplitude of the offset.

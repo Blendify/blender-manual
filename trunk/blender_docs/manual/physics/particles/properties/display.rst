@@ -6,19 +6,20 @@ Display
 The Display Panel controls how particles are displayed in the 3D View.
 This does not necessarily determine how they will appear when rendered.
 
-None
-   The particles are not shown in the 3D View and are not rendered. The emitter may be rendered though.
-Point
-   Particles are displayed as square points. Their size is independent of the distance from the camera.
-Circle
-   Particles are displayed as circles that face the view. Their size is independent of the distance from the camera.
-Cross
-   Particles are displayed as 6-point crosses that align to the rotation of the particles.
-   Their size is independent of the distance from the camera.
-Axis
-   Particles are displayed as 3-point axes.
-   This useful if you want to see the orientation and rotation of particles in the view port.
-   Increase the *Draw Size* until you can clearly distinguish the axis.
+Draw Method
+   None
+      The particles are not shown in the 3D View and are not rendered. The emitter may be rendered though.
+   Point
+      Particles are displayed as square points. Their size is independent of the distance from the camera.
+   Circle
+      Particles are displayed as circles that face the view. Their size is independent of the distance from the camera.
+   Cross
+      Particles are displayed as 6-point crosses that align to the rotation of the particles.
+      Their size is independent of the distance from the camera.
+   Axis
+      Particles are displayed as 3-point axes.
+      This useful if you want to see the orientation and rotation of particles in the view port.
+      Increase the *Draw Size* until you can clearly distinguish the axis.
 
 Particles visualized like Point, Circle, Cross and Axis do not have any special options,
 but can be very useful when you have multiple particle systems at play,

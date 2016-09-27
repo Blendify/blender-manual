@@ -38,6 +38,7 @@ Die on Hit
 Collision Group
    If set, particles collide with objects from the group, instead of using objects that are on the same layer.
 
+
 Integration
 ===========
 

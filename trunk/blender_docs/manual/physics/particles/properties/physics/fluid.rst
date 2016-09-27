@@ -26,6 +26,7 @@ Settings
 Fluid physics share options with :doc:`Newtonian Physics </physics/particles/properties/physics/newtonian>`.
 These are covered on that page.
 
+
 Fluid Properties
 ----------------
 
@@ -35,6 +36,7 @@ Viscosity
    Linear viscosity. Use lower viscosity for thicker fluids.
 Buoyancy
    Artificial buoyancy force in negative gravity direction based on pressure differences inside the fluid.
+
 
 Advanced
 --------
@@ -48,6 +50,7 @@ Interaction Radius
    Fluid's interaction radius. Check box sets this to be a factor of 4 × *particle size*.
 Rest Density
    Density of fluid when at rest. Check box sets this to be a factor of default density.
+
 
 Springs
 -------
@@ -64,6 +67,6 @@ Elastic Limit
 Plasticity
    How much the spring rest length can change after the elastic limit is crossed.
 Initial Rest Length
-   Use initial length as spring rest length instead of 2*particle size.
+   Use initial length as spring rest length instead of 2 × *particle size*.
 Frames
    Create springs for this number of frames since particle's birth (0 is always).

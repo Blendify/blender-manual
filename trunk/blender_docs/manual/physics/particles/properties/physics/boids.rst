@@ -15,7 +15,7 @@ Boids can handle only a certain amount of information,
 therefore the sequence of the Behavior settings is very important.
 In certain situations only the first three parameter are evaluated.
 
-To view the subpanel to the right, add a *Particle System* of type
+To view the panel to the right, add a *Particle System* of type
 *Emitter* and look in the middle area of the *Particle System* tab.
 
 

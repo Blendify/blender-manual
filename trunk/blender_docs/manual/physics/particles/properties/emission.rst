@@ -46,9 +46,9 @@ Emission Location
 
 *Emit From* parameters define how and where the particles are emitted,
 giving precise control over their distribution. You may use vertex groups to confine the emission,
-that is done in the *Vertexgroups* panel.
+that is done in the *Vertex Groups* panel.
 
-Verts
+Vertices
    Emit particles from the vertices of a mesh.
 Faces
    Emit particles from the surface of a mesh's faces.
