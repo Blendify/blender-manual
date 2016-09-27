@@ -45,6 +45,7 @@ To enable hair physics, click the check box beside *Hair Dynamics*.
 
 .. Particle type: you can also animate the strands with :doc:`Cloth Simulation </physics/cloth/index>`.
 
+
 Structure
 ---------
 

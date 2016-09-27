@@ -56,9 +56,9 @@ polygon lines with the strand renderer in the direction of particles velocities.
 of the line is set with the parameter *Start* of the *Strands* shader
 (*Material* tab, *Links and Pipeline* panel).
 
-Back
+Tail
    Set the length of the particle's tail.
-Front
+Head
    Set the length of the particle's head.
 Speed
    Multiply the line length by particles' speed. The faster, the longer the line.
@@ -83,12 +83,14 @@ Strand render
 Adaptive render
    Tries to remove unnecessary geometry from the paths before rendering particle strands in
    order to make the render faster and easier on memory.
-Angle
-   How many degrees path has to curve to produce another render segment
-   (straight parts of paths need fewer segments).
-Pixel
-   How many pixels path has to cover to produce another render segment
-   (very short hair or long hair viewed from far away need fewer parts). (only for Adaptive render).
+
+   Angle
+      How many degrees path has to curve to produce another render segment
+      (straight parts of paths need fewer segments).
+   Pixel
+      How many pixels path has to cover to produce another render segment
+      (very short hair or long hair viewed from far away need fewer parts).
+      (only for Adaptive render).
 
 B-Spline
    Interpolate hair using B-Splines.
@@ -103,13 +105,17 @@ Steps
    This means 0 steps give 1 subdivision,
    1 give 2 subdivisions, 2 --> 4, 3 --> 8, 4 --> 16, ... *n* --> *n*\ :sup:`2`\.
 
-Timing Options
-^^^^^^^^^^^^^^
+
+Timing
+^^^^^^
 
 Absolute Path Time
    Path timing is in absolute frames.
 Start
    Start time of the drawn path.
+   
+   .. Ed: option is missing instead: Trail count
+
 End
    End time of the drawn path.
 Random
@@ -122,27 +128,30 @@ Please see also the manual page about
 Object
 ======
 
-In the Object visualization mode the specified object (*Dupli Object:* field)
-is duplicated in place of each particle.
-The duplicated object has to be at the center of the coordinate system,
-or it will get an offset to the particle.
+Dupli Object
+   The specified object is duplicated in place of each particle.
 
 Global
    Use object's global coordinates for duplication.
-Size
-   Size of the objects
-Random Size
-   Give the objects a random size variation.
+Rotation
+   Use the rotation of the object.
+Scale
+   Use the size of the object.
 
 
 Group
 =====
 
-In the Group visualization mode, the objects that belong to the group (*GR:* field)
-are duplicated sequentially in the place of the particles.
+Dupli Group
+   The objects that belong to a group are duplicated sequentially in the place of the particles.
 
 Whole Group
    Use the whole group at once, instead of one of its elements, the group being displayed in place of each particle.
+Pick Random
+   The objects in the group are selected in a random order, and only one object is displayed in place of a particle.
+   Please note that this mechanism fully replaces old Blender particles system using parentage
+   and DupliVerts to replace particles with actual geometry.
+   This method is fully deprecated and does not work anymore.
 Use Count
    Use objects multiple times in the same groups.
    Specify the order and number of times to repeat each object with the list box that appears.
@@ -151,16 +160,10 @@ Use Count
 
 Use Global
    Use object's global coordinates for duplication.
-Pick Random
-   The objects in the group are selected in a random order, and only one object is displayed in place of a particle.
-   Please note that this mechanism fully replaces old Blender particles system using parentage
-   and DupliVerts to replace particles with actual geometry.
-   This method is fully deprecated and does not work anymore.
-
-Size
-   Size of the objects
-Random Size
-   Give the objects a random size variation.
+Rotation
+   Use the rotation of the objects.
+Scale
+   Use the size of the objects.
 
 
 Billboard
@@ -214,15 +217,15 @@ An interesting alternative to billboards are in certain cases strands,
 because you can animate the shape of the strands.
 Because this visualization type has so much options it is explained in greater detail below.
 
+Align
+   You can limit the movement with these options. How the axis is prealigned at emission time.
 
-You can limit the movement with these options. How the axis is prealigned at emission time.
-
-View
-   No prealignement, normal orientation to the target.
-X / Y / Z
-   Along the global X/Y/Z-axis respectively.
-Velocity
-   Along the speed vector of the particle.
+   X, Y , Z
+      Along the global X/Y/Z-axis respectively.
+   View
+      No prealignement, normal orientation to the target.
+   Velocity
+      Along the speed vector of the particle.
 Lock
    Locks the align axis, keeps this orientation, the billboard aligns only along one axis to its target.
 
@@ -272,6 +275,7 @@ Billboard Split UV
    Set the name of the *UV layer* to use with billboards
    (you can use a different one for each *UV Channel*). By default, it is the active UV layer
    (check the *Object Data* tab in the Properties editor).
+
 Animate
    Dropdown menu, indicating how the split UVs could be animated (changing from particle to particle with time):
 
@@ -284,7 +288,6 @@ Animate
       if *View* is used the change is based on the amount of tilt.
    Frame
       The section is changes according to the frame.
-
 Offset
    Specifies how to choose the first part
    (of all the parts in the n×n grid in the texture defined by the *UV Split* number) for all particles.

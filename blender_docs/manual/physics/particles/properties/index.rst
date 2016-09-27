@@ -12,4 +12,4 @@
    render.rst
    display.rst
    children.rst
-   vertexgroups.rst
+   vertex_groups.rst

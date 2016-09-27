@@ -18,11 +18,11 @@ Clump
 Kink
    Todo.
 Roughness 1
-   Todo.
+   Uniform.
 Roughness 2
-   Todo.
+   Random.
 Roughness End
-   Todo.
+   Endpoint.
 
 
 Examples
