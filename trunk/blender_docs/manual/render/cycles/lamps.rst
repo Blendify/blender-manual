@@ -88,6 +88,7 @@ light portals are not helpful for outdoor scenes.
 .. figure:: /images/cycles_portals2.jpg
 .. figure:: /images/cycles_portals.jpg
 
+   White Room model by Jay Hardy.
 
 Sun Lamp
 --------
