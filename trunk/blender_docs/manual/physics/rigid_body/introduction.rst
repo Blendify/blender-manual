@@ -29,9 +29,10 @@ There are two types of rigid body: active and passive. *Active* bodies are dynam
 bodies remain static. Both types can be driven by the animation system when using the *Animated* option.
 
 During the simulation, the rigid body system will override the position and orientation of dynamic rigid body objects.
-Note however, that the location and rotation of the objects is not changed, so the rigid body simulation acts similar to a
-constraint. To apply the rigid body transformations you can use the *Apply Transformation* button in the *Physics* tab
-of the *Tool Shelf*.
+Note however, that the location and rotation of the objects is not changed,
+so the rigid body simulation acts similar to a constraint.
+To apply the rigid body transformations you can use the
+*Apply Transformation* button in the *Physics* tab of the *Tool Shelf*.
 
 The scale of the rigid body object also influences the simulation, but is always controlled by the animation system.
 

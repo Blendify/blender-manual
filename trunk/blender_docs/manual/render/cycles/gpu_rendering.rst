@@ -14,7 +14,7 @@ On the other hand, they also have some limitations in rendering complex scenes, 
 and issues with interactivity when using the same graphics card for display and rendering.
 
 Cycles has two GPU rendering modes: *CUDA*,
-which is the preferred method for NVIDIA graphics cards; and *OpenCL*,
+which is the preferred method for Nvidia graphics cards; and *OpenCL*,
 which supports rendering on AMD graphics cards.
 
 
@@ -29,12 +29,11 @@ you can configure to use CPU or GPU rendering in the Render properties.
 CUDA
 ----
 
-
-NVIDIA :abbr:`CUDA (Compute Unified Device Architecture)` is supported for GPU
-rendering with *NVIDIA* graphics cards.
+Nvidia :abbr:`CUDA (Compute Unified Device Architecture)`
+is supported for GPU rendering with *Nvidia* graphics cards.
 We support graphics cards starting from GTX 4xx (computing capability 2.0).
 
-Cycles requires recent NVIDIA drivers to be installed, on all operating systems.
+Cycles requires recent Nvidia drivers to be installed, on all operating systems.
 
 `List of CUDA cards with shader model <https://developer.nvidia.com/cuda-gpus>`__.
 
@@ -65,7 +64,6 @@ CUDA limitations:
 
 Frequently Asked Questions
 ==========================
-
 
 Why is Blender unresponsive during rendering?
 ---------------------------------------------
@@ -106,10 +104,10 @@ Would multiple GPUs increase available memory?
 No, each GPU can only access its own memory.
 
 
-What renders faster, NVIDIA or AMD, CUDA or OpenCL?
+What renders faster, Nvidia or AMD, CUDA or OpenCL?
 ---------------------------------------------------
 
-Currently NVIDIA with CUDA is rendering faster. There is no fundamental reason why this should
+Currently Nvidia with CUDA is rendering faster. There is no fundamental reason why this should
 be so, because we do not use any CUDA specific features, but the compiler appears to be more mature,
 and can better support big kernels.
 OpenCL support is still in an early stage and has not been optimized as much.
@@ -141,11 +139,14 @@ not the 32-bit version.
 CUDA Error: Kernel compilation failed
 -------------------------------------
 
-This error may happen if you have a new NVidia graphics card that is not yet supported the Blender version and CUDA toolkit you have installed. In this case Blender may try to dynamically build a kernel for your graphics card and fail.
+This error may happen if you have a new Nvidia graphics card that is not yet supported by
+the Blender version and CUDA toolkit you have installed.
+In this case Blender may try to dynamically build a kernel for your graphics card and fail.
 
 In this case you can:
 
-#. Check if the latest Blender version (official or `experimental builds <https://builder.blender.org/download/experimental/>`_) supports your graphics card. 
+#. Check if the latest Blender version (official or `experimental builds
+   <https://builder.blender.org/download/experimental/>`_) supports your graphics card. 
 #. If you build Blender yourself, try to download and install a newer CUDA developer toolkit.
 
 Normally users do not need to install the CUDA toolkit as Blender comes with precompiled kernels.
@@ -159,7 +160,7 @@ We can currently only render scenes that fit in graphics card memory,
 and this is usually smaller than that of the CPU. See above for more details.
 
 
-The NVIDIA OpenGL driver lost connection with the display driver
+The Nvidia OpenGL driver lost connection with the display driver
 ----------------------------------------------------------------
 
 If a GPU is used for both display and rendering,

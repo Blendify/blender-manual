@@ -25,7 +25,8 @@ Metaball
    they merge by smoothly rounding out the connection, appearing as one unified object.
    See :doc:`Meta Primitives </modeling/metas/primitives>`.
 Text
-   :doc:`Text objects</modeling/texts/introduction>` create a two dimensional representation of a string of characters.
+   :doc:`Text objects</modeling/texts/introduction>`
+   create a two dimensional representation of a string of characters.
 Armature
    :doc:`Armatures </rigging/armatures/index>` are used for :doc:`rigging </rigging/introduction>`
    3D models in order to make them poseable and animateable.
@@ -39,7 +40,8 @@ Speaker
    :doc:`Speaker </render/audio/speaker>` brings to scene source of sound.
 Camera
    This is the virtual camera that is used to determine what appears in the render.
-   See Cameras in :doc:`Blender Internal </render/blender_render/camera/index>`, :doc:`Cycles </render/cycles/camera>`.
+   See Cameras in :doc:`Blender Internal </render/blender_render/camera/index>`,
+   :doc:`Cycles </render/cycles/camera>`.
 Lamp
    These are used to place light sources in the scene. 
    See Lamps in :doc:`Blender Internal </render/blender_render/lighting/lamps/index>`,

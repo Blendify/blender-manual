@@ -94,8 +94,9 @@ click *Apply* to make a real version of your mesh or leave it as is for future e
 Using the Mirror Modifier with a Subdivision Surface Modifier
 -------------------------------------------------------------
 
-When using the Mirror modifier along with a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` modifier,
-the order in which the modifiers are placed is important.
+When using the Mirror modifier along with a
+:doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
+modifier, the order in which the modifiers are placed is important.
 
 .. figure:: /images/modifier-mirror-subsurf2.png
    :width: 300px
@@ -130,9 +131,8 @@ A good technique to achieve an exact position is
 to select the edge, then use :kbd:`Shift-S` and choosing *Cursor to Selection*.
 This will position the 3D Cursor in the center of the edge.
 Finally, press :kbd:`Ctrl-Alt-Shift-C` for the *Set Origin* menu,
-then select *Origin to 3D Cursor*.
-This will move the object's center (and thus, the mirror plane) to where the 3D cursor is located,
+then select *Origin to 3D Cursor*. This will move the object's center
+(and thus, the mirror plane) to where the 3D cursor is located,
 and the mirroring will be exact.
 
-An alternative is to use an Empty as a *Mirror Object* that you move to the correct
-position.
+An alternative is to use an Empty as a *Mirror Object* that you move to the correct position.

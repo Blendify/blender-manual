@@ -45,7 +45,8 @@ Manipulators can be accessed in the header of the *3D View*:
 Manipulator Controls
 ====================
 
-- Holding down :kbd:`Ctrl` enables :doc:`snapping </editors/3dview/object/transform/transform_control/precision/snap>`.
+- Holding down :kbd:`Ctrl` enables
+  :doc:`snapping </editors/3dview/object/transform/transform_control/precision/snap>`.
   Holding down :kbd:`Shift` *after* you :kbd:`LMB`
   the manipulator handle will constrain the action to smaller increments.
 - Holding down :kbd:`Shift` *before* you :kbd:`LMB` click on one of the handles will cause the manipulator action

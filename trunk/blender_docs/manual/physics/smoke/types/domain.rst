@@ -34,8 +34,8 @@ Settings
 .. _smoke-resolution:
 
 Resolution
-   The smoke domain is subdivided into many "cells" called voxels (see :term:`voxel`) which make up "pixels" of smoke.
-   This setting controls the number of subdivisions in the domain.
+   The smoke domain is subdivided into many "cells" called voxels (see :term:`voxel`)
+   which make up "pixels" of smoke. This setting controls the number of subdivisions in the domain.
    Higher numbers of subdivisions are one way of creating higher resolution smoke (See `Smoke High Resolution`_)
 
    Since the resolution is defined in terms of *subdivisions*,
@@ -131,11 +131,11 @@ Additional
    Number of voxels to add around the outside of the domain.
 Margin
    Amount of extra space to leave around smoke, measured in voxels.
-   With very fast moving smoke larger margins may be required to prevent the smoke from being cut off by the adaptive
-   boundary, but note this will increase the number of voxels which need to be computed.
+   With very fast moving smoke larger margins may be required to prevent the smoke from being cut off
+   by the adaptive boundary, but note this will increase the number of voxels which need to be computed.
 Threshold
-   Smallest amount of smoke a voxel can contain before it is considered empty and the adaptive domain is allowed to cut
-   it out of the simulation.
+   Smallest amount of smoke a voxel can contain before it is considered empty
+   and the adaptive domain is allowed to cut it out of the simulation.
 
 
 .. _smoke-high-resolution:

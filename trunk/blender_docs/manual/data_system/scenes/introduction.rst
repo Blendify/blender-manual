@@ -50,7 +50,8 @@ Add ``+``
    Full Copy
       Using this option, nothing is shared.
       This option creates a fully independent scene with copies of the active scene's contents.
-      Every object in the original scene is duplicated, and a duplicate, private copy of its object-data is made as well.
+      Every object in the original scene is duplicated, and a duplicate,
+      private copy of its object-data is made as well.
 
    .. note::
 
@@ -78,5 +79,5 @@ The selected objects will be added to that scene, but remain linked to the origi
 
 To make them single user (independent and unlinked) in a given scene go to that scene,
 select them, then from the 3D View header access :menuselection:`Object --> Make Single User`.
-You will be presented with a few options that allow you to free up the data-blocks (Object,
-Material, Texture...) that you want.
+You will be presented with a few options that allow you to free up the data-blocks
+(Object, Material, Texture...) that you want.

@@ -23,11 +23,13 @@ Cube
       The :doc:`Origin of the object </editors/3dview/object/transform/origin>` is displayed as
       an orange dot and it marks the cubes (relative) position.
    Transformation Widget
-      This :doc:`widget </editors/3dview/object/transform/transform_control/manipulators>` is composed out of a white circle and
-      three colored (red, green, and blue) arrows. It is used to move entities (i.e. the cube) in the scene.
+      This :doc:`widget </editors/3dview/object/transform/transform_control/manipulators>`
+      is composed out of a white circle and three colored (red, green, and blue) arrows.
+      It is used to move entities (i.e. the cube) in the scene.
 Lamp
    The circle with a thin line to the bottom is a light source illuminating the cube.
-   Lights in: :doc:`Blender Internal </render/blender_render/lighting/lights/index>`, :doc:`Cycles </render/cycles/lamps>`.
+   Lights in: :doc:`Blender Internal </render/blender_render/lighting/lights/index>`,
+   :doc:`Cycles </render/cycles/lamps>`.
 
 Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.
@@ -45,7 +47,7 @@ Grid Floor
 Overlays
 ========
 
-The visibility and settings of the overlays can be set in the :doc:`/preferences/interface` tab of the User Preferences.
+The visibility and settings of the overlays can be set in the :doc:`User Preferences </preferences/interface>`.
 
 View Name
    If the viewport camera is not aligned the view is named "User" plus

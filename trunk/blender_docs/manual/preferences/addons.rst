@@ -69,7 +69,8 @@ Individual Activation
 ^^^^^^^^^^^^^^^^^^^^^
 
 Addons that activate or change multiple hotkeys now have a special system of activation.
-For example, with the "UI: Pie Menu Offial" add-on for each menu there's a selection box to activate the menu & it's hotkey.
+For example, with the "UI: Pie Menu Offial" add-on
+for each menu there's a selection box to activate the menu & it's hotkey.
 
 With Pie menus, First you activate the addon. This activates the "Addons Preferences Submodule Activation".
 You then need to expand the Addons Preferences, then you will see the list of Pie Menu types you can choose from.
