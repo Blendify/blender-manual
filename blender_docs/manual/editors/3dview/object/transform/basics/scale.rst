@@ -77,8 +77,8 @@ Fine Tuning The Scaling
 
 :doc:`Precise control </editors/3dview/object/transform/transform_control/precision/introduction>`
 can be had over scaling through the use of the :kbd:`Shift` and :kbd:`Ctrl`
-keys to limit scaling to discrete amounts.
-You can also enter a :doc:`numerical value </editors/3dview/object/transform/transform_control/precision/numeric_input>`
+keys to limit scaling to discrete amounts. You can also enter a
+:doc:`numerical value </editors/3dview/object/transform/transform_control/precision/numeric_input>`
 in Blender Units (BU) to specify the amount of scaling after after initiating a scale transformation.
 
 - Hold :kbd:`Ctrl` down while scaling to scale the selected element in degree 0.1 BU increments.

@@ -67,15 +67,21 @@ SYSTEM
    .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/
 
 
+.. MS-Windows no longer works loke this: update paths (TODO).
+
 MS-Windows
 ----------
 
 LOCAL
    .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.
 USER
-   .. parsed-literal:: C:\\Documents and Settings\\$USERNAME\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal::
+
+      C:\\Documents and Settings\\$USERNAME\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 SYSTEM
-   .. parsed-literal:: C:\\Documents and Settings\\All Users\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal::
+
+      C:\\Documents and Settings\\All Users\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
 
 Path Layout
@@ -155,7 +161,8 @@ for example.
    Example scripts which can be accessed from :menuselection:`Text Editor --> Templates --> Python`.
 
 ``./scripts/templates_osl/*.py``
-   Example OSL shaders which can be accessed from :menuselection:`Text Editor --> Templates --> Open Shading Language`.
+   Example OSL shaders which can be accessed from
+   :menuselection:`Text Editor --> Templates --> Open Shading Language`.
 
 ``./python/ ...``
    Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.
@@ -176,4 +183,3 @@ The temporary directory is selected based on the following priority.
 - User Preference (see :ref:`prefs-file-paths`).
 - Environment variables (``TEMP`` on MS-Windows, ``TMP`` & ``TMP_DIR`` on other platforms).
 - The ``/tmp/`` directory.
-

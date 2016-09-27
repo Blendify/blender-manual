@@ -50,7 +50,8 @@ Vertex Color Light
    colors as additional lighting.
    (This can be used to produce good incandescence effects).
 Object Color
-   Modulate the result with a per object color. See :doc:`Object Display panel </editors/3dview/object/properties/display>`.
+   Modulate the result with a per object color.
+   See :doc:`Object Display panel </editors/3dview/object/properties/display>`.
 UV Project
    Use to ensure UV interpolation is correct for camera projections (use with
    :doc:`UV project </modeling/modifiers/modify/uv_project>` modifier).

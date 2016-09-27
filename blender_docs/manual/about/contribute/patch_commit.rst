@@ -26,7 +26,8 @@ In order to submit a patch, follow this process:
    If you have created or deleted files, you will need to run ``svn add /path/to/file``
    or ``svn rm /path/to/file`` before creating the diff. To see a list of affected files, run ``svn status``.
 #. `Upload the diff file here <https://developer.blender.org/differential/diff/create/>`__.
-   If you do not have an account already, you can `register for one <https://developer.blender.org/auth/register/>`__.
+   If you do not have an account already,
+   you can `register for one <https://developer.blender.org/auth/register/>`__.
 #. After submitting the diff, you will be asked to "Create a new Revision"
    before you can add a title and description of your changes.
 #. If you know who the Section Owner
@@ -64,7 +65,8 @@ If you leave out ``-m "message"``, you will be prompted to type the message in a
 
 Do not forget to always run ``svn update`` before committing.
 
-Then you will be asked for your user name (from ``developer.blender.org``) and password before the change is committed.
+Then you will be asked for your user name (from ``developer.blender.org``)
+and password before the change is committed.
 
 Your modified files are uploaded to the central repository for others to work with and continue collaborating.
 Commits are tracked in the repositories `Diffusion <https://developer.blender.org/diffusion/BM/>`__.

@@ -4,11 +4,10 @@
 Skinning to Shapes
 ******************
 
-We saw in the :doc:`previous page </rigging/skinning/objects>`
-how to link (parent) whole objects to armature bones --
-a way to control the transform properties of this object via a rig.
-However, armatures are much more powerful:
-they can deform the *shape* of an object (i.e. affect its Object Data data-block, which is its vertices or control points...).
+In the :doc:`previous page </rigging/skinning/objects>`,
+we saw how to link (parent) whole objects to armature bones -- a way to control the transform properties
+of this object via a rig. However, armatures are much more powerful: they can deform the *shape*
+of an object (i.e. affect its Object Data data-block, which is its vertices or control points...).
 
 In this case, the child object is parented (skinned) to the whole armature,
 so that each of its bones controls a part of the "skin" object's geometry.
@@ -295,13 +294,12 @@ To automatically weight multiple bones, you can simply:
           The same pose, but using envelopes method rather that vertex groups.
 
 
-Obviously, the same vertex can belong to several groups,
-and hence be affected by several bones,
+Obviously, the same vertex can belong to several groups, and hence be affected by several bones,
 with a fine tuning of each bone's influence using these vertex weights.
 Quite useful when you want to have a smooth joint. For example, when you skin an elbow,
 the upperarm vertex group contains the vertices of this part at full weight (*1.0*),
-and when reaching the elbow area, these weights decrease progressively to *0.0'* when
-reaching the forearm zone and vice versa for the forearm group weights...
+and when reaching the elbow area, these weights decrease progressively to *0.0'*
+when reaching the forearm zone and vice versa for the forearm group weights...
 Of course, this is a very raw example skinning a realistic joint is a big job,
 as you have to carefully find good weights for each vertex,
 to have the most realistic behavior, when bending -- and this is not an easy thing!

@@ -182,9 +182,9 @@ Let us use a halo material to create a dotmatrix display.
 - To begin, add a grid with the dimensions 32×16.
   Then add a camera and adjust your scene so that you have a nice view of the billboard.
 - Use a 2D image program to create some red text on a black background,
-  using a simple and bold font,
-  you can just save the picture below on your hard drive...).
-  :ref:`fig-bi-material-halo-matrix-texture` shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
+  using a simple and bold font, you can just save the picture below on your hard drive...).
+  :ref:`fig-bi-material-halo-matrix-texture` shows an image 512 pixels wide by 64 pixels high,
+  with some black space at both sides.
 
 .. _fig-bi-material-halo-matrix-texture:
 

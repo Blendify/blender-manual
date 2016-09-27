@@ -51,8 +51,9 @@ Examples
 
 
 A cube colliding with a plane works pretty well Fig. :ref:`fig-softbody-collision-plane1`,
-but a plane falls right through a cube that it is supposed to collide with Fig. :ref:`fig-softbody-collision-plane2`.
-Why is that? Because the default method of calculation only checks to see if the four vertices of
+but a plane falls right through a cube that it is supposed to collide with
+Fig. :ref:`fig-softbody-collision-plane2`. Why is that?
+Because the default method of calculation only checks to see if the four vertices of
 the plane collides with the cube as the plane is pulled down by gravity. You can activate
 *CFace* to enable collision between the face of the plane and the object instead
 Fig. :ref:`fig-softbody-collision-plane3`, but this type of calculation takes much longer.
@@ -179,9 +180,9 @@ Ball Size
    the vertex starts to deflect in order to avoid a self-collision.
 
    Set this value to the fractional distance between vertices that you want them to have their own "space".
-   Too high of a value will include too many vertices all the time and slow down the calculation. Too low of a level
-   will let other vertices get too close and thus possibly intersect because there will not be enough time to slow them
-   down.
+   Too high of a value will include too many vertices all the time and slow down the calculation.
+   Too low of a level will let other vertices get too close and thus possibly intersect
+   because there will not be enough time to slow them down.
 
 Stiffness
    Default 1.0. How elastic that ball of personal space is.

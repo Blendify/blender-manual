@@ -20,7 +20,8 @@ Interface Elements
 
    Window ‣ Screen ‣ Areas ‣ Editors ‣ Regions ‣ (Tabs) ‣ Panels ‣ Controls
 
-The interface can be customized to match specific tasks using :doc:`Screen Layouts </interface/window_system/screens>`,
+The interface can be customized to match specific tasks using
+:doc:`Screen Layouts </interface/window_system/screens>`,
 which can then be named and saved for later use. The default screen is described below.
 
 A screen is organized into one or more :doc:`Areas </interface/window_system/areas>`

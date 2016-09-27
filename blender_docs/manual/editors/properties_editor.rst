@@ -32,8 +32,8 @@ These tabs are used to add features, and to change properties for the Active Sce
 
 .. _properties-render-tab:
 
-- :doc:`Render </render/output/index>` and 
-  Settings: :doc:`Blender Internal </render/blender_render/settings/index>`, :doc:`Cycles </render/cycles/settings/index>`
+- :doc:`Render </render/output/index>` and Settings:
+  :doc:`Blender Internal </render/blender_render/settings/index>`, :doc:`Cycles </render/cycles/settings/index>`
 - :doc:`/render/post_process/layers`
 - :doc:`Scene </data_system/scenes/properties>`
 - World: :doc:`Blender Internal </render/blender_render/world/index>`, :doc:`Cycles </render/cycles/world>`
@@ -77,13 +77,17 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 ..
 
 - :doc:`Speaker </render/audio/speaker>`
-- Camera: :doc:`Blender Internal </render/blender_render/camera/object_data>`, :doc:`Cycles </render/cycles/camera>`
-- Lamp: :doc:`Blender Internal </render/blender_render/lighting/lights/lamp_panel>`, :doc:`Cycles </render/cycles/lamps>`
+- Camera: :doc:`Blender Internal </render/blender_render/camera/object_data>`,
+  :doc:`Cycles </render/cycles/camera>`
+- Lamp: :doc:`Blender Internal </render/blender_render/lighting/lights/lamp_panel>`,
+  :doc:`Cycles </render/cycles/lamps>`
 
 ..
 
-- Material: :doc:`Blender Internal </render/blender_render/materials/index>`, :doc:`Cycles </render/cycles/materials/index>`
-- Texture: :doc:`Blender Internal </render/blender_render/textures/index>`, :doc:`Cycles </render/cycles/materials/texture_editing>`
+- Material: :doc:`Blender Internal </render/blender_render/materials/index>`,
+  :doc:`Cycles </render/cycles/materials/index>`
+- Texture: :doc:`Blender Internal </render/blender_render/textures/index>`,
+  :doc:`Cycles </render/cycles/materials/texture_editing>`
 - :doc:`Particles </physics/particles/index>`
 - :doc:`Physics </physics/index>`
 

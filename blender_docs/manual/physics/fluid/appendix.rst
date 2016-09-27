@@ -29,8 +29,8 @@ Some useful hints about fluid simulation in Blender:
   Blender has a powerful compositor that you can use to combine multiple animations.
 
   For example, to produce an animation showing two separate fluid flows while keeping your domain small,
-  render one ``.avi`` using the one flow.
-  Then move the domain and render another ``.avi`` with the other flow using an alpha channel (in a separate B&W .avi?).
+  render one ``.avi`` using the one flow. Then move the domain and render another ``.avi``
+  with the other flow using an alpha channel (in a separate B&W .avi?).
   Then, composite both ``.avi``\ 's using the compositor's add function.
   A third ``.avi`` is usually the smoke and mist and it is laid on top of everything as well.
   Add a rain sheet on top of the mist and spray and you will have quite a storm brewing! And then lightning flashes,

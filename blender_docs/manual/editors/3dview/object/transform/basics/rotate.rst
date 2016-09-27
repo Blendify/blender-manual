@@ -22,9 +22,9 @@ There are multiple ways to rotate an element which include:
 
 Basic rotation usage and common options are described below. For additional information, you
 may wish to read the :doc:`Transform Control </editors/3dview/object/transform/transform_control/index>` and
-:doc:`Read more about Transform Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
+:doc:`Transform Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
 pages which provide more information about options such as Precision, Axis Locking, Numeric Input,
-Snapping and the different types of Pivot Point.
+Snapping and the different types of Pivot Points.
 
 
 Usage
@@ -66,9 +66,10 @@ moving the mouse in the desired direction e.g.
 Precision
 ^^^^^^^^^
 
-:doc:`Precise control </editors/3dview/object/transform/transform_control/precision/introduction>` can be had over rotation
-through :kbd:`Shift` and :kbd:`Ctrl` to limit rotation to discrete amounts.
-You can also enter a :doc:`numerical value </editors/3dview/object/transform/transform_control/precision/numeric_input>`
+:doc:`Precise control </editors/3dview/object/transform/transform_control/precision/introduction>`
+can be had over rotation through :kbd:`Shift` and :kbd:`Ctrl` to limit rotation to discrete amounts.
+You can also enter a 
+:doc:`numerical value </editors/3dview/object/transform/transform_control/precision/numeric_input>`
 in degrees to specify the amount of rotation after after initiating a rotation transformation.
 
 - Hold :kbd:`Ctrl` down while performing a rotation to rotate the selected element in 5 degree increments.
@@ -110,12 +111,13 @@ Set the manipulator type to rotation (the highlighted arc icon shown below).
 
 
 - Select your element with :kbd:`RMB`.
-- Use :kbd:`LMB` and drag any of the three colored axes on the rotation manipulator to rotate
-  your object along that axis.
+- Use :kbd:`LMB` and drag any of the three colored axes on the
+  rotation manipulator to rotate your object along that axis.
   You can also use :kbd:`Shift`, :kbd:`Ctrl` or numeric input with the 3D manipulator widget for further control.
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
   :kbd:`Return`. Your changes will be canceled if you press :kbd:`RMB` or :kbd:`Esc`.
 
 .. seealso::
 
-   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/object/transform/transform_control/manipulators>`.
+   :doc:`Read more about the 3D Transform Manipulator
+   </editors/3dview/object/transform/transform_control/manipulators>`.

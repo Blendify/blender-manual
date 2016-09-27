@@ -287,7 +287,8 @@ Color Picker Type
 
 Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color button.
 
-See the different color picker types at the :doc:`Extended Controls </interface/controls/templates/color_picker>` page.
+See the different color picker types at the
+:doc:`Extended Controls </interface/controls/templates/color_picker>` page.
 
 
 .. _prefs-system-weight:
