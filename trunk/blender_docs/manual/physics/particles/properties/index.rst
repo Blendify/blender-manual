@@ -1,7 +1,7 @@
 
-######################
-  Particle Properties
-######################
+##############
+  Properties
+##############
 
 .. toctree::
    :maxdepth: 2

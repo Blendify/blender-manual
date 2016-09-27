@@ -1,7 +1,7 @@
 
-*****************
-Newtonian Physics
-*****************
+*********
+Newtonian
+*********
 
 These are the "normal" particle physics.
 Particles start their life with the specified initial velocities and angular velocities,

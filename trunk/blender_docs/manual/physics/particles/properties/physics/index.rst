@@ -1,8 +1,8 @@
 .. _particle_physics-index:
 
-###################
-  Particle Physics
-###################
+###########
+  Physics
+###########
 
 .. toctree::
    :maxdepth: 2

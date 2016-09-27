@@ -1,7 +1,7 @@
 
-*************
-Fluid Physics
-*************
+*****
+Fluid
+*****
 
 .. figure:: /images/physics_particles_fluid.jpg
 
