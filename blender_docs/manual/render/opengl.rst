@@ -16,7 +16,7 @@ You can use OpenGL to render both images and animations.
 Below is a comparison between the OpenGL render and a final render using
 the Cycles Render engine.
 
-.. list-table::
+.. list-table:: © pokedstudio.com
 
    * - .. figure:: /images/render_opengl_example-opengl-render.jpg
           :width: 320px
