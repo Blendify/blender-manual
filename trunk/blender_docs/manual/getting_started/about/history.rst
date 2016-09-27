@@ -203,7 +203,7 @@ Blender 2.6x to 2.7x -- Improvements & Stabilizing
   new SPH particle fluid solver. More than 250 bug fixes.
 - `2.67 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67>`__ -- May 2013:
   Freestyle was added, paint system improvements, subsurface scattering for Cycles, Ceres library in the
-  motion tracker, new custom Python nodes, new mesh modeling tools, better support for UTF8 text and
+  motion tracker, new custom Python nodes, new mesh modeling tools, better support for UTF-8 text and
   improvements in text editors, new add-ons for 3D printing, over 260 bug fixes.
 - `2.68 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.68>`__ -- July 2013:
   New and improved modeling tools, three new Cycles nodes, big improvements in the motion tracker,

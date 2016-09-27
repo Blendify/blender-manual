@@ -53,8 +53,8 @@ Operator Panel
 --------------
 
 The Operator panel is a region thats part of the Tool Shelf containing only one panel.
-In the 3D View it displays the properties of the :ref:`last operator <ui-redo-last>` executed.
-In the File Browser the file in/export options.
+In the 3D View it displays the properties of the :ref:`last operator <ui-redo-last>` executed and
+in the File Browser the file in/export options.
 
 
 Properties Region

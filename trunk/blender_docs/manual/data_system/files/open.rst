@@ -16,8 +16,8 @@ Usage
    | Hotkey:   :kbd:`Ctrl-O` or :kbd:`F1`
 
 
-The upper text box displays the current directory path,
-and the lower text box contains the selected filename.
+The upper text field displays the current directory path,
+and the lower text field contains the selected filename.
 
 .. warning::
 

@@ -22,7 +22,7 @@ These objects can be referenced from Follow Track and Object Solver constraints.
 Follow Track uses the camera object by default.
 
 New objects can be added using :kbd:`Plus` and the active object can be deleted with the
-:kbd:`Minus` button. Text entry at the bottom of this panel is used to rename the active object.
+:kbd:`Minus` button. Text field at the bottom of this panel is used to rename the active object.
 
 If some tracks were added and tracked to the wrong object, they can be copied to another
 object using :menuselection:`Track --> Copy Tracks` and :menuselection:`Track --> Paste Tracks`.
