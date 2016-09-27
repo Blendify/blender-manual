@@ -8,4 +8,5 @@
 
    introduction.rst
    properties.rst
+   stabilization.rst
    tools.rst

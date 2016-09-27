@@ -47,6 +47,8 @@ Tools for Scene Orientation and Stabilization
 After solve, you need to orient the real scene in the 3D scene for more convenient compositing.
 There are tools to define the floor, the scene origin, and the X/Y axes to perform scene orientation.
 
-If something is needed to stabilize video from the camera to make the final result looks
-nicer, 2D stabilization is available to help. It stabilizes video from the camera,
-which can compensate for camera jumps and tilt.
+Sometimes, the video footage includes spurious jumps and tilting movements, like e.g. when using a hand held camera.
+Based on some tracked image elements, the
+:doc:`/editors/movie_clip_editor/tracking/clip/stabilization`
+is able to detect and compensate such movements to improve the quality of the final result.
+
