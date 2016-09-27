@@ -1,3 +1,4 @@
+.. highlight:: rst
 
 ******************
 Markup Style Guide
@@ -74,9 +75,7 @@ for more information on how to style the various elements of the documentation a
 pictures and code blocks.
 The `Sphinx reference <http://www.sphinx-doc.org/en/stable/markup/>`__ provides more insight additional constructs.
 
-The following are useful markups for text styling:
-
-.. code-block:: rst
+The following are useful markups for text styling::
 
    *italic*
    **bold**
@@ -86,19 +85,16 @@ The following are useful markups for text styling:
 Interface Elements
 ==================
 
-- ``:kbd:`LMB``` - keyboard and mouse shortcuts.
-- ``*Mirror*`` - interface labels.
-- ``:menuselection:`3D View --> Add --> Mesh --> Monkey``` - menus.
+- ``:kbd:`LMB``` -- keyboard and mouse shortcuts.
+- ``*Mirror*`` -- interface labels.
+- ``:menuselection:`3D View --> Add --> Mesh --> Monkey``` - -menus.
 
 
 Code Samples
 ============
 
 There is support for syntax highlighting if the programming language is provided,
-and line numbers can be optionally shown with the ``:linenos:`` option.
-
-
-.. code-block:: rst
+and line numbers can be optionally shown with the ``:linenos:`` option::
 
    .. code-block:: python
       :linenos:
@@ -110,10 +106,7 @@ and line numbers can be optionally shown with the ``:linenos:`` option.
 Images
 ======
 
-Figures should be used to place images:
-
-
-.. code-block:: rst
+Figures should be used to place images::
 
    .. figure:: /images/editors_menu.png
 
@@ -167,9 +160,7 @@ Usage Guides
 Videos
 ======
 
-Videos from YouTube and Vimeo can be embedded using:
-
-.. code-block:: rst
+Videos from YouTube and Vimeo can be embedded using::
 
    .. youtube:: ID
 
@@ -192,23 +183,19 @@ Usage Guides
 Useful Constructs
 =================
 
-- ``|BLENDER_VERSION|`` - Resolves to the current Blender version.
-- ``:abbr:`SSAO (Screen Space Ambient Occlusion)``` - Abbreviations display the full text as a tooltip for the reader.
-- ``:term:`Manifold``` - Links to an entry in the :doc:`Glossary </glossary/index>`.
+- ``|BLENDER_VERSION|`` -- Resolves to the current Blender version.
+- ``:abbr:`SSAO (Screen Space Ambient Occlusion)``` -- Abbreviations display the full text as a tooltip for the reader.
+- ``:term:`Manifold``` -- Links to an entry in the :doc:`Glossary </glossary/index>`.
+
 
 Cross References and Linkage
 ============================
 
-You can link to another document in the manual with:
-
-.. code-block:: rst
+You can link to another document in the manual with::
 
    :doc:`The Title </section/path/to/file>`
 
-
-To link to a specific section in another document (or the same one), explicit labels are available:
-
-.. code-block:: rst
+To link to a specific section in another document (or the same one), explicit labels are available::
 
    .. _sample-label:
 
@@ -216,10 +203,7 @@ To link to a specific section in another document (or the same one), explicit la
 
    Some text :ref:`Optional Title <sample-label>`
 
-
-Linking to a title in the same file.
-
-.. code-block:: rst
+Linking to a title in the same file::
 
    Titles are Targets
    ==================
@@ -229,9 +213,7 @@ Linking to a title in the same file.
    Implicit references, like `Titles are Targets`_
 
 
-Linking to the outside world:
-
-.. code-block:: rst
+Linking to the outside world::
 
    `Blender Website <https://www.blender.org>`__
 
@@ -271,9 +253,7 @@ should have an ``index.rst`` (containing the TOC for that section) and an ``intr
 Table of Contents
 -----------------
 
-By default, a table of contents should show two levels of depth.
-
-.. code-block:: rst
+By default, a table of contents should show two levels of depth::
 
    .. toctree::
       :maxdepth: 2

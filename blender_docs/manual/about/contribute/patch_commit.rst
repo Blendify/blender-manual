@@ -1,3 +1,4 @@
+.. highlight:: sh
 
 **************
 Patch & Commit
@@ -14,9 +15,7 @@ and that you do not accidentally break anything vital before you get used to the
 In order to submit a patch, follow this process:
 
 #. Make any changes that you want
-#. Create a patch file by running:
-
-   .. code-block:: sh
+#. Create a patch file by running::
 
       svn diff > filename.diff
 
@@ -55,9 +54,7 @@ Commit Directly
 
 Instead of creating a patch file, committing will submit the change directly to our central repository.
 
-All you need to do now is run:
-
-.. code-block:: sh
+All you need to do now is run::
 
    svn commit -m "This is what I did"
 

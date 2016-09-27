@@ -1,3 +1,4 @@
+.. highlight:: rst
 
 *******************
 Writing Style Guide
@@ -77,19 +78,15 @@ To be avoided:
 - Avoid enumerations of similar options, such as listing every preset or every frame-rate in a drop-down.
 
   Their contents may be summarized or simply omitted.
-
   -- Such lists are only showing what is already *obvious* in the interface
   and end up being a lot of text to read & maintain.
 - Avoid documenting changes in Blender between releases, that is what the release notes are for.
   We only need to document the current state of Blender.
 - Unless the unit a value is measured in is obscure and unpredictable, there is no need to mention it.
 - Do not simply copy the tool-tips from Blender.
-
   -- People will come to the manual to learn *more* than is provided by the UI.
 
-  As a last resort you can add comment (which is not shown in the HTML page, but useful for other editors):
-
-.. code-block:: rst
+  As a last resort you can add comment (which is not shown in the HTML page, but useful for other editors)::
 
    .. TODO, how does this tool work? ask Joe Blogg's.
 
@@ -112,9 +109,7 @@ Rules of thumb:
   if explaining the term is the primary focus of another section of the manual
   (e.g. if the term is the name of a tool),
   either just link to that section, or avoid creating a glossary entry entirely.
-- URL references are to be added at the end, formatted as follows, e.g:
-
-  .. code-block:: rst
+- URL references are to be added at the end, formatted as follows, e.g::
 
      See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
@@ -122,18 +117,14 @@ Rules of thumb:
 Examples
 ^^^^^^^^
 
-This entry:
-
-.. code-block:: rst
+This entry::
 
    Displacement Mapping
       Uses a grayscale heightmap, like Bump Mapping,
       but the image is used to physically move the vertices of the mesh at render time.
       This is of course only useful if the mesh has large amounts of vertices.
 
-Would be written like this instead, putting a definition first:
-
-.. code-block:: rst
+Would be written like this instead, putting a definition first::
 
    Displacement Mapping
       A method for distorting vertices based on an image.
@@ -142,17 +133,13 @@ Would be written like this instead, putting a definition first:
 
 ----
 
-This entry:
-
-.. code-block:: rst
+This entry::
 
    Doppler Effect
       The Doppler effect is the change in pitch that occurs
       when a sound has a velocity relative to the listener.
 
-Would be written more like this, avoiding the immediate repetition of the term:
-
-.. code-block:: rst
+Would be written more like this, avoiding the immediate repetition of the term::
 
    Doppler Effect
       Perceived change in pitch that occurs
@@ -160,17 +147,13 @@ Would be written more like this, avoiding the immediate repetition of the term:
 
 ----
 
-This entry:
-
-.. code-block:: rst
+This entry::
 
    Curve
       It is a class of objects.
       In Blender there are Bézier curves and NURBS curves.
 
-Would be written more like this, avoiding the "it is":
-
-.. code-block:: rst
+Would be written more like this, avoiding the "it is"::
 
    Curve
       A type of object defined in terms of a line interpolated between Control Vertices.
