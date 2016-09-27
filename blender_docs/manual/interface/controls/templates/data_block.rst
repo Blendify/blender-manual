@@ -60,6 +60,8 @@ Preview
 In the Tool Shelf is a version of the data-block menu with a bigger preview.
 
 
+.. _ui-data-id:
+
 Data ID
 =======
 
@@ -67,4 +69,5 @@ Data ID
 
    The Data ID.
 
-.. A Data ID is a text (box) with icon showing the allowed data type, a popup to select. Eye dropper.
+A Data ID is a text field with a data-block type icon, which opens a gray pop-up to select a data-block.
+In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper` available through the pipette icon on the right side.

@@ -18,12 +18,18 @@ These are buttons that perform an operation when clicked with :kbd:`LMB`.
 They can be identified by their gray color in the default color scheme.
 
 
-Text & Search
-=============
+Text Field & Search Field
+=========================
 
 .. figure:: /images/interface_text_search.png
+   :align: right
 
    Text and Search.
+
+Text fields have a light gray background and a darker outline.
+Blender supports the :doc:`standard <interface/common_shortcuts>` text editing.
+Search fields show a magnifying glass icon on the left side.
+For text fields with an icon and gray pop-up see :ref:`ui-data-id`.
 
 
 Color Buttons
