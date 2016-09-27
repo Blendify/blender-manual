@@ -1,7 +1,7 @@
 
-***************
-Keyed Particles
-***************
+*****
+Keyed
+*****
 
 .. figure:: /images/keyed.jpg
 
