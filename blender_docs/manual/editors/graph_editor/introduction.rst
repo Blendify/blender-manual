@@ -135,7 +135,7 @@ View controls
    Show Only Errors
       Only include curves that are disabled or have errors.
    Search Filter
-      Only include curves with keywords contained in the search text.
+      Only include curves with keywords contained in the search field.
    Type Filter
       Filter curves by property type.
    Normalize

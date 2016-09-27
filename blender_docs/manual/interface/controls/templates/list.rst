@@ -24,7 +24,7 @@ Filter
    Click the *Show filtering options* button (+) to toggle filter option buttons.
 
    Search
-      Type part of a list item's name in the filter text box to filter items by part of their name.
+      Type part of a list item's name in the filter text field to filter items by part of their name.
 
    Filter Include
       When the magnifying glass icon has a ``+`` sign then only items that match the text will be displayed.
