@@ -73,12 +73,16 @@ The next setting is channels control. Tracking happens in gray-scale space,
 so a high contrast between the feature and its background yields more accurate tracking.
 In such cases disabling some color channels can help.
 
+When several tracks are used for 3D camera reconstruction or for 2D stabilization, it is possible
+to assign a reduced weight to some tracks to control their influence on the solution result.
+The *Weight* parameter is used for 3D reconstruction, while the *Stab Weight* parameter is used
+to control 2D stabilization. This parameter can (and often need to be) animated.
+
 The last thing is custom color, and the preset for it.
 This setting overrides the default marker color used in the clip editor and 3D View,
 and it helps to distinguish different type of features (for example,
 features in the background vs. foreground and so on). Color also can be used for "grouping"
 tracks so a whole group of tracks can be selected by color using the Select Grouped operator.
-
 
 .. tip::
 
@@ -103,9 +107,7 @@ Auto Keyframe
    Toggles the auto-keyframing for corners of the plane track.
    With this enabled, keyframes will automatically get inserted when any corner is moved.
 
-   .. note::
-
-      Corners can be moved using :kbd:`LMB`.
+   .. note:: Corners can be moved using :kbd:`LMB`.
 
 Image
    Used to select an image which will be inside the plane track.
@@ -162,7 +164,6 @@ Display Panel
 
 This panel contains all settings which control things displayed in the clip editor.
 
-
 R, G, B
    And *B/W* buttons at the top of this panel are used to control color channels used for frame preview and to
    make the whole frame gray scale. It is needed because the tracking algorithm works with gray-scale images and it
@@ -213,7 +214,7 @@ Manual Calibration
    Applies the distortion model for grease pencil strokes (available in distortion mode only).
    This option also helps to perform manual calibration.
    A more detailed description of this process will be added later.
-Stable
+Display Stabilization
    This option makes the displayed frame be affected by the 2D stabilization settings
    (available in reconstruction mode only).
    It is only a preview option, which does not actually change the footage itself.
@@ -245,59 +246,22 @@ All sliders are self-explanatory.
 
    2D Stabilization Panel.
 
+There is one extra panel which is available in reconstruction mode -- 2D Stabilization Panel.
+The purpose of this feature is to smooth out jerky camera handling on existing real world footage.
+To activate the 2D stabilizer, you need to set the toggle in the panel, and additionally you need to enable
+*Display Stabilization* in the Display panel.
+Then you'll need to set up some tracking points to detect the image movements.
 
-This panel is used to define data used for 2D stabilization of the shot.
+The 2D Stabilization panel is used to define the data used for 2D stabilization of the shot.
+Several options are available in this panel: you may add a list of tracks to determine lateral image shifts
+and another list of tracks to determine tilting and zooming movements.
+Based on the average contribution of these tracks, a compensating movement is calculated and applied to each frame.
 
-Anchor Frame
-   Reference point to anchor stabilization (other frames will be adjusted relative to the frames position).
+When the footage includes panning and traveling movements, the stabilizer tends to push the image out of the
+visible area. This can be compensated by animating the parameters for the intentional, "expected" camera movement.
 
-Stabilization Type
-   Rotation
-      Stabilizes detected rotation around center of frame.
-
-   Scale
-      Compensates any scale changes relative to center of rotation.
-
-Tracks For Stabilization
-   Location
-      List of tracks to be used to compensate for camera jumps, or location.
-      It works in the following way: it gets tracks from the list of tracks used for location
-      stabilization and finds the median point of all these tracks on the first frame.
-      On each frame, the algorithm makes this point have the same position in screen coordinates by
-      moving the whole frame.
-
-   Rotation/Scale
-      List of tracks to be used to compensate for camera tilts, it works in the following way.
-      On first frame of the movie, this track is connected with the median point of the tracks from
-      list above and angle between horizon and this segment is kept constant through the whole footage.
-
-Autoscale
-   Finds smallest scale factor which, when applied to the footage,
-   would eliminate all the black holes near the image boundaries.
-   Used for when the camera jumps a lot and has noticeable black areas near image boundaries.
-
-   Max
-      Limits the amount of automatic scaling.
-
-
-Relative Offset X/Y
-   Known relative offset of original shot, will be subtracted (e.g. for panning shot, can be animated).
-Expected Rotation
-   Rotation present on original shot, will be compensated (e.g. for deliberate tilting).
-Expected Zoom
-   Explicitly scale resulting frame to compensate zoom of original shot.
-
-Influence
-   The amount of transformation applied to the footage can be controlled.
-   In some cases it is not necessary to fully compensate camera jumps.
-
-Interpolate
-   Nearest
-      No interpolation, uses nearest neighboring pixel.
-   Bilinear
-      Simple interpolation between adjacent pixels.
-   Bicubic
-      Highest quality interpolation.
+See the :doc:`Stabilization </editors/movie_clip_editor/tracking/clip/stabilization>`
+page for detailed description of image stabilization parameters and workflow.
 
 
 Grease Pencil Panel
