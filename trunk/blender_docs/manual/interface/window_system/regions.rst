@@ -49,11 +49,12 @@ The *Tool Shelf* by default on the left side contains the tool settings.
 :kbd:`T` toggles the visibility of Tool Shelf Region.
 
 
-Operator panel
+Operator Panel
 --------------
 
 The Operator panel is a region thats part of the Tool Shelf containing only one panel.
-It displays the properties of the last operator executed.
+In the 3D View it displays the properties of the :ref:`last operator <ui-redo-last>` executed.
+In the File Browser the file in/export options.
 
 
 Properties Region
