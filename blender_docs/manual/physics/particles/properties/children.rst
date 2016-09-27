@@ -49,7 +49,7 @@ Render
 
 
 Simple
------
+------
 
 Size
    Only for *Emitter*. A multiplier for children size.
