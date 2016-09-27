@@ -1,3 +1,4 @@
+.. highlight:: sh
 
 *****************
 Building on Linux
@@ -5,9 +6,7 @@ Building on Linux
 
 Converting the rst files into pretty html pages.
 
-Open a terminal to the folder ``~/blender_docs`` and simply run:
-
-.. code-block:: sh
+Open a terminal to the folder ``~/blender_docs`` and simply run::
 
    make
 
@@ -20,9 +19,7 @@ Viewing the local manual
 ========================
 
 Once the docs have been built, all the html files can be found inside ``~/blender_docs/build/html``.
-Try opening ``build/html/contents.html`` in your web browser and read the manual.
-
-.. code-block:: sh
+Try opening ``build/html/contents.html`` in your web browser and read the manual::
 
    xdg-open build/html/contents.html
 
@@ -32,9 +29,7 @@ Now that you are able to build the manual, the next paragraph is about an option
 Building a Single Chapter
 =========================
 
-If you are working on a specific chapter of the manual, you can build it quickly using:
-
-.. code-block:: sh
+If you are working on a specific chapter of the manual, you can build it quickly using::
 
    make <chapter name>
 

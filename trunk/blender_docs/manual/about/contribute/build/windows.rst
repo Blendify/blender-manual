@@ -1,3 +1,4 @@
+.. highlight:: sh
 
 **********************
 Building on MS-Windows
@@ -17,9 +18,7 @@ Run ``make.bat`` in the ``C:\blender_docs`` folder.
 .. rubric:: Command prompt
 
 #. Or open a command prompt and change to the repository with ``cd C:\blender_docs``.
-#. Build using the following command
-
-   .. code-block:: sh
+#. Build using the following command::
 
       make
 
@@ -32,9 +31,7 @@ but the next time you build it should only take a few seconds.
   If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
   you may need to install an older version of *Babel* (the Python Internationalization Library).
 
-  To do this, simply run:
-
-  .. code-block:: sh
+  To do this, simply run::
 
       pip install sphinx "babel<2.0"
 

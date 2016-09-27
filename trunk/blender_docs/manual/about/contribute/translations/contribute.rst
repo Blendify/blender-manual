@@ -1,3 +1,4 @@
+.. highlight:: sh
 
 **********
 Contribute
@@ -21,9 +22,7 @@ Installing Dependencies
 =======================
 
 For translations, we use Sphinx's internationalization package.
-However, this is not included with Sphinx and needs to be installed.
-
-.. code-block:: sh
+However, this is not included with Sphinx and needs to be installed::
 
    pip install sphinx-intl
 
@@ -47,8 +46,7 @@ From the directory containing your checkout of the manual run the following comm
 
 This will create a ``locale/fr`` subdirectory.
 
-Now you can edit the PO translation files,
-eg:
+Now you can edit the PO translation files, eg:
 
 Original RST File
    ``manual/getting_started/about_blender/introduction.rst``
@@ -71,21 +69,15 @@ Building with Translations
 
 ----
 
-To creates the ``.mo`` files (needed for building translation).
-
-.. code-block:: sh
+To creates the ``.mo`` files (needed for building translation)::
 
    sphinx-intl build
 
-Now you can build the manual with the translation applied.
-
-.. code-block:: sh
+Now you can build the manual with the translation applied::
 
    make -e SPHINXOPTS="-D language='fr'"
 
-If you are on MS-Windows and do not have ``make``, run:
-
-.. code-block:: sh
+If you are on MS-Windows and do not have ``make``, run::
 
    sphinx-build -b html -D language='fr' ./manual ./build/html
 
@@ -97,9 +89,7 @@ Updating PO Files
 
 As the original manual changes, the templates will need updating.
 
-This can be done as follows.
-
-.. code-block:: sh
+This can be done as follows::
 
    make gettext
    sphinx-intl update -p build/locale -l fr
@@ -111,9 +101,7 @@ The updated templates can then be committed to svn.
 .. note::
 
    To streamline updating files,
-   we have a convenience Makefile target.
-
-   .. code-block:: sh
+   we have a convenience Makefile target::
 
       make update_po
 
@@ -132,32 +120,24 @@ Keeping track of fuzzy strings
 When the manual is updated, those translations which are outdated will be marked as fuzzy.
 To keep track with that, you can use a tool we created for that task.
 
-Download the tools/ folder:
-
-.. code-block:: sh
+Download the tools/ folder::
 
    cd path/to/translationfolder
    svn checkout https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs/tools
 
-You should have a directory layout like this:
-
-.. code-block:: sh
+You should have a directory layout like this::
 
    locale/
    |- fr/
    |  |- LC_MESSAGES/
    |- tools/
 
-Now execute:
-
-.. code-block:: sh
+Now execute::
 
    python3 tools/report_translation_progress.py locale/fr/LC_MESSAGES/
 
 You should get a list of all the files with information about the number of empty and fuzzy strings.
-If you want only a summary, append ``-q`` to the command above. For more options see:
-
-.. code-block:: sh
+If you want only a summary, append ``-q`` to the command above. For more options see::
 
    python3 tools/report_translation_progress.py --help
 

@@ -1,3 +1,4 @@
+.. highlight:: sh
 
 *******************
 Installation on OSX
@@ -29,9 +30,7 @@ Install those packages or make sure you have them in your system.
 Downloading the Repository
 ==========================
 
-Simply check out the blender-manual repository using:
-
-   .. code-block:: sh
+Simply check out the blender-manual repository using::
 
       cd ~
       svn checkout https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs
@@ -42,24 +41,18 @@ Simply check out the blender-manual repository using:
 Setting up the Build Environment
 ================================
 
-In a terminal, enter the ``blender_docs`` folder which was just added by the SVN checkout:
-
-.. code-block:: sh
+In a terminal, enter the ``blender_docs`` folder which was just added by the SVN checkout::
 
    cd ~/blender_docs
 
 Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need.
-To install these dependencies, we can use the ``pip`` command:
-
-.. code-block:: sh
+To install these dependencies, we can use the ``pip`` command::
 
    sudo pip install -r requirements.txt
 
 .. note::
 
-   Every now and then you may want to make sure your dependencies are up to date using:
-
-   .. code-block:: sh
+   Every now and then you may want to make sure your dependencies are up to date using::
 
       sudo pip install -r requirements.txt  --upgrade
 
