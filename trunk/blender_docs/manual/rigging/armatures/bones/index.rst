@@ -9,3 +9,4 @@
    introduction.rst
    selecting.rst
    properties.rst
+   properties/index.rst

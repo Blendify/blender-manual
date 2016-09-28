@@ -1,7 +1,7 @@
 
-*****************************
-Force Field Weight & Settings
-*****************************
+************
+Force Fields
+************
 
 Field Weights
 =============
@@ -18,8 +18,8 @@ All
    Scale all of the effector weights.
 
 
-Force Fields
-============
+Force Fields Settings
+=====================
 
 The Force Field Settings Panel allows you to make each individual act as a force field,
 allowing them to affect other dynamic systems, or even, each other.

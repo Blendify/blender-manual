@@ -19,33 +19,10 @@ in Properties editor, *Bone* tab:
 
 
 Relations
-=========
-
-.. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
-
-   The Relations panel.
-
-
-In this panel you can arrange sets of bones in different layers for easier manipulation.
-
-.. note::
-
-   This mode is only available in Edit Mode.
-
-
+   In this panel you can arrange sets of bones in different layers for easier manipulation.
 Display
-=======
+   Display panel lets you customize the look of your bones taking the shape of another existing object.
 
-.. figure:: /images/rigging_armatures_bones_properties_display-panel.png
-
-   The Display panel.
-
-
-Display panel lets you customize the look of your bones taking the shape of another existing object.
-
-.. note::
-
-   This mode is only available in Object Mode.
 
 
 Deform
