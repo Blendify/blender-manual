@@ -28,7 +28,7 @@ The same tool might also be used in :doc:`templating </rigging/armatures/bones/e
 i.e. using another armature as template for the current one...
 
 
-.. warning::
+.. important::
 
    One important thing to understand about armature editing is that you
    edit the *rest position* of your armature, i.e. its "default state".
@@ -40,7 +40,7 @@ Thus you should in general be sure that your armature is definitive before start
 to :doc:`skin </rigging/skinning/index>` and :doc:`pose </rigging/posing/index>` it!
 
 
-.. warning::
+.. note::
 
    Please note that some tools work on bones' ends, while others work on bones themselves.
    Be careful not to get confused.

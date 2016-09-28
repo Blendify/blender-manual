@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   obdata.rst
    objects.rst
+   obdata.rst
+   parenting.rst
    retargeting.rst
