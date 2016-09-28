@@ -3,10 +3,6 @@
 Armature Deform Parent
 **********************
 
-An Armature in Blender can be thought of as similar to the armature of a real skeleton,
-and just like a real skeleton an Armature can consist of many bones. These bones can be moved
-around and anything that they are attached to or associated with will move and deform in a
-similar way.
 
 In Blender Armature Object Types are usually used to associate certain bones of an Armature to
 certain parts of a Mesh Object Types Mesh Geometry.
@@ -168,8 +164,6 @@ as you expect; If Blender does not give you the results you require you will hav
 Weights of vertices in relation to the Vertex Groups they belong to and have influence in.
 
 
-.. TODO - Move this to armature modifier?
-
 Armature Deform With Envelope Weights
 =====================================
 
@@ -249,3 +243,67 @@ and entering new values for the *Tail* and *Head* fields.
    take account of the new Bone Envelope volume size you will have to carry out the Armature Deform
    With Envelope Weights parenting again; In fact, all parenting used in the Set Parent To pop-up
    menu which tries to automatically assign vertices to Vertex Groups works like this.
+
+
+Bone Parent
+===========
+
+Bone parenting allows you to make a certain bone in an armature the Parent Object of another object.
+This means that when transforming an armature the Child Object will only move
+if the specific bone it is the Child Object of moves.
+
+.. _fig-view3d-parent-bone-parent:
+
+.. figure:: /images/editors_3dview_object_relationships_parents-bone-1.png
+
+   Three pictures of Armatures with four Bones.
+
+In Fig. :ref:`fig-view3d-parent-bone-parent` with the 2nd bone being the Bone Parent of the Child Object Cube.
+The Cube is only transformed if the 1st or 2nd bones are.
+Notice altering the 3rd and 4th bones has no effect on the Cone.
+
+To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
+then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and then select the
+specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
+Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To pop-up menu.
+
+Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
+
+
+Relative Parenting
+------------------
+
+Bone Relative parenting is an option you can toggle for each bone.
+This works in the same way as Bone parenting with one difference.
+
+With Bone parenting if you have parented a bone to some Child Objects and
+you select that bone and switch it into Edit Mode and then translate that bone;
+When you switch back into Pose Mode on that bone,
+the Child Object which is parented to that bone will snap back to the location of the bone in Pose Mode.
+
+.. _fig-view3d-parent-bone-parent-child:
+
+.. figure:: /images/editors_3dview_object_relationships_parents-bone-2.png
+
+   Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
+
+In Fig. :ref:`fig-view3d-parent-bone-parent-child` the 1st picture shows the position of the cube and
+armature before the bone is moved in Edit Mode.
+2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
+moved and switched back into Pose Mode. Notice that the Child Object moves to the new location of the Pose Bone.
+
+Bone Relative parenting works differently;
+If you move a Parent Bone in Edit Mode, when you switch back to Pose Mode,
+the Child Objects will not move to the new location of the Pose Bone.
+
+.. _fig-view3d-parent-bone-parent-relative:
+
+.. figure:: /images/editors_3dview_object_relationships_parents-bone-3.png
+
+   Single Bone with Bone Relative parent to a cube.
+
+In Fig. :ref:`fig-view3d-parent-bone-parent-relative` the 1st picture
+shows the position of the cube and armature before the bone is moved in Edit Mode.
+2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
+moved and switched back into Pose Mode.
+Notice that the Child Object does not move to the new location of the Pose Bone.

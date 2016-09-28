@@ -110,7 +110,7 @@ Usage
 ^^^^^
 
 Curve bones are an easy way to replace long chains of many small rigid bones.
-A common use case for curve bones is to model spines.
+A common use case for curve bones is to model spine columns.
 
 
 Ease
