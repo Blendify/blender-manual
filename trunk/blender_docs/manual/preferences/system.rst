@@ -199,13 +199,12 @@ Multi-Sampling
 
 Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D View.
-   It means that the *Object Tools* and *Transform Properties* regions,
-   which are opened by using the shortcuts :kbd:`T` and :kbd:`N` will be drawn overlapping the 3D View editor.
+   It means that the *Tool Shelf* and *Properties regions*,
+   will be drawn overlapping the 3D View editor.
 
    If you have a capable graphics card and drivers with *Triple Buffer* support,
    clicking the checkbox will enable the overlapping regions to be drawn using the *Triple Buffer* method,
-   which will also enable them to be drawn using Alpha, showing the 3D View contents trough the
-   *Object Tools* and *Transform Properties* regions.
+   which will also enable them to be drawn using Alpha, showing the 3D View contents trough the regions.
 
 Text Draw Options
    Enable interface text anti-aliasing.

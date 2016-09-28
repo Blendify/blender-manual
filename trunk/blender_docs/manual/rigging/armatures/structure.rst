@@ -64,7 +64,7 @@ but here is a quick look at this important feature.
 
 .. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
 
-   The Armature Bones panel with two bones selected, and their Child of settings highlighted.
+   The Relations panel with two bones selected, and their Child of settings highlighted.
 
 
 The easiest way to manage bones relationships is to use the *Relations* panel *Bone* tab:

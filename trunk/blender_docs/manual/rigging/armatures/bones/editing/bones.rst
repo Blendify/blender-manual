@@ -499,10 +499,11 @@ Locking Bones
 
 You can prevent a bone from being transformed in *Edit Mode* in several ways:
 
-- The active bone can be locked clicking on *Lock*
-  in the *Transform Properties* panel (:kbd:`N` in a 3D View);
-- All bones can be locked clicking on the *Lock* button
-  of their sub-panels in the *Armature Bones* panel;
+.. The active bone can be locked clicking on *Lock*
+   in the *Transform* panel (:kbd:`N` in a 3D View);
+
+- All bones can be locked clicking on the *Lock* checkbox
+  of their Transform panel in the *Bones* tab;
 - Press :kbd:`Shift-W` :menuselection:`--> Toggle Settings --> Locked`
 - Select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
 

@@ -61,13 +61,13 @@ you can use the top row of controls to select another group in the drop-down lis
 
 .. figure:: /images/rigging_posing_visualization_bone-group-list.png
 
-   The Bone Group drop-down list of a bone sub-panel.
+   The Bone Group drop-down list.
 
 
 To assign a selected bone to a given bone group you can do one of the following:
 
 - In the Bone Groups, select an existing group, and click *Assign*
-- In the Relations section of the *Bones* panel), use the *Bone Group* drop-down list to select the chosen one.
+- In the Relations panel of the *Bones* tab, use the *Bone Group* drop-down list to select the chosen one.
 
 
 In the 3D Views, using the :menuselection:`Pose --> Bone Groups` menu entries,
