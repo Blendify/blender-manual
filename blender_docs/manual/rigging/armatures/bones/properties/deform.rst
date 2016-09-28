@@ -29,11 +29,6 @@ Bone Rigidity
    | Mode:     Edit and Pose Mode
    | Panel:    Armature
 
-.. figure:: /images/rigging_armatures_editing_properties_bone-panel-pose-mode.png
-
-   The Bones tab in Pose Mode.
-
-
 Even though you have the *Segment* setting available in *Edit Mode*
 (Deform panel, in the *Bone* tab),
 you should switch to the *Pose Mode* :kbd:`Ctrl-Tab` to edit these "smooth"
