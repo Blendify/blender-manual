@@ -9,7 +9,6 @@
 
    introduction.rst
    bones/index.rst
-   properties.rst
    properties/index.rst
    structure.rst
    parenting.rst

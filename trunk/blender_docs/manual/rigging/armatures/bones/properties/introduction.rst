@@ -1,7 +1,7 @@
 
-***************
-Bone Properties
-***************
+************
+Introduction
+************
 
 .. admonition:: Reference
    :class: refbox
