@@ -6,19 +6,12 @@ Properties
 
 .. _armature-bone-properties:
 
-
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Armature
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
-
-.. figure:: /images/rigging_armatures_editing_properties_bone-panel-edit-mode.png
-
-   The Bones tab in Edit Mode.
-
 
 Most bones' properties (excepted the transform ones) are regrouped in each bone's panels,
 in the *Bones* tab in *Edit Mode*. Let us detail them.
