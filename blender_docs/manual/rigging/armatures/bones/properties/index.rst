@@ -9,3 +9,4 @@
    introduction.rst
    display.rst
    relations.rst
+   deform.rst

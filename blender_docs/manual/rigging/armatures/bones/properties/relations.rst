@@ -28,7 +28,7 @@ layers. Note that as with objects, bones can lay in several layers at once,
 just use the usual :kbd:`Shift-LMB` clicks... First of all,
 you have to select the chosen bone(s)!
 
-- In the Properties editor, use the "layer buttons" of each selected bone "sub-panel" (*Armature Bones* panel)
+- In the Properties editor, use the "layer buttons" of each selected bone Relations panel (*Bones* tab)
   to control in which layer(s) it lays.
 - In the *3D View* editor, use the menu :menuselection:`Armature --> Move Bone To Layer` or
   :menuselection:`Pose --> Move Bone To Layer` or press :kbd:`M` to show the usual pop-up layers menu.

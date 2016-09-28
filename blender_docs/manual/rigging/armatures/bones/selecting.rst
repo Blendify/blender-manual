@@ -126,11 +126,6 @@ Selecting Bones
 By :kbd:`RMB` -clicking on a bone's body, you will select it
 (and hence you will implicitly select its root and tip).
 
-To each selected bone corresponds one in the *Armature* tab.
-These sub-panels contain settings for some of the bones' properties (regarding e.g.
-relationships between bones, bones' influence on deformed geometry, etc.),
-as we will see later.
-
 Using :kbd:`Shift-RMB`, you can add to/remove from the selection.
 
 You also have some *advanced selection* options, based on their relations.

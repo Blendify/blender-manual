@@ -23,7 +23,7 @@ the *position* of the lamp has no importance, its *rotation* is crucial:
 it determines which hour it is. As a starting point,
 you should reset rotation of your *Sun* (with :kbd:`Alt-R`, or typing :kbd:`0`
 in each of the three *Rotation* fields X, Y, Z in
-the *Transform Properties* panel - :kbd:`N`). This way,
+the *Transform* panel). This way,
 you will have a nice mid-day sun (in the tropics).
 
 Now, there are two important angles for the *Sky/Atmosphere* effect:

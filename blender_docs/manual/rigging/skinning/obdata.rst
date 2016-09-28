@@ -159,8 +159,8 @@ Bone Deform Options
    Bone Deform Options.
 
 
-The bones also have some deforming options in their sub-panels
-(*Armature Bones* panel),
+The bones also have some deforming options in the Deform panel
+(*Bone* tab),
 that you can therefore define independently for each of them.
 
 Deform
@@ -195,7 +195,7 @@ shown in the *Envelope* visualization:
    The :doc:`editing pages </rigging/armatures/bones/editing/properties>` for how to edit these properties.
 
 
-There is also a bone property, *Weight* (in each bone sub-panel,
+There is also a bone property, *Weight* (Deform panel,
 in *Edit Mode* only, defaults is set to 1.0),
 that controls the global influence of the bone over the deformed object,
 when using the envelopes method.
