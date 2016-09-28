@@ -18,22 +18,57 @@ Also it is worth noting that by turning off a bone's deform option, makes it not
 overriding any weights that it might have been assigned before; It mutes its influence.
 
 
-Todo: merge the following paragraphs.
+Envelope
+========
 
-Bones Rigidity
+
+.. _armature-bone-rigid:
+
+Curved Bones
 ==============
 
-Even though bones are rigid (i.e. behave as rigid sticks),
-they are made out of *segments*. *Segments* are small,
-rigid linked elements that can rotate between each other. By default,
-each new bone has only one segment and as such it cannot "bend" along its length.
-It is a rigid bone.
+Segments
+----------
+
+Segments
+   The *Segments* number button allows you to set the number of segments, which the given bone is subdivided into.
+   Segments are small, rigid linked child bones that interpolate between the root and the tip.
+   The higher this setting, the smoother "bends" the bone, but the heavier the pose calculations...
+
+
+Technical Details
+^^^^^^^^^^^^^^^^^
+
+When you connect bones to form a :ref:`chain <armature-bone-chain>`,
+Blender calculates a Bézier curve passing through all the bones' ends,
+and bones' segments in the chain will bend and roll to follow this invisible curve.
+There is no direct access to the curve.
+It can only be controlled by some extent using bone properties.
+
+However, if the chain has an influence on objects rather than geometry,
+the segments' orientation is not taken in account
+(details are explained in the :doc:`skinning part </rigging/skinning/index>`).
+
+
+Display
+^^^^^^^
 
 You can see these segments in *Object Mode* and in *Pose Mode*,
-and only if bones are visualized as *B-bones*;
+and only if bones are visualized as *B-bones* or *Wire*;
 while in *Edit Mode* bones are always drawn as rigid sticks.
 Note that in the special case of a single bone,
 you cannot see these segments in *Object Mode*, because they are aligned.
+
+When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
+even though the bone segments are still present and effective
+(see :doc:`skinning to Object Data </rigging/skinning/obdata>`).
+This means that even in e.g. *Octahedron* visualization,
+if some bones in a chain have several segments,
+they will nonetheless smoothly deform their geometry...
+
+
+Example
+^^^^^^^
 
 .. list-table::
 
@@ -59,55 +94,11 @@ you cannot see these segments in *Object Mode*, because they are aligned.
      - ..
 
 
-When you connect bones to form a :ref:`chain <armature-bone-chain>`,
-Blender calculates a Bézier curve passing through all the bones' ends,
-and bones' segments in the chain will bend and roll to follow this invisible curve.
-
-There is no direct access to the curve.
-It can only be controlled by some extent using bone properties,
-as explained in the :ref:`editing pages <armature-bone-rigid>`.
-
 In Fig. :ref:`fig-rig-bone-intro-bbone` we connected three bones,
 each one made of five segments. These are *B-bones* but as you see,
 in *Edit Mode* they are shown as rigid elements.
 Look at Fig. :ref:`fig-rig-bone-intro-same`,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.
-
-Of course,
-a geometry influenced by the chain is smoothly deformed according to the Bézier curve!
-In fact,
-smooth bones are an easy way to replace long chains of many small rigid bones posed using IK...
-
-However, if the chain has an influence on objects rather than geometry,
-the segments' orientation is not taken in account
-(details are explained in the :doc:`skinning part </rigging/skinning/index>`).
-
-When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
-even though the bone segments are still present and effective
-(see :doc:`skinning to Object Data </rigging/skinning/obdata>`).
-
-This means that even in e.g. *Octahedron* visualization,
-if some bones in a chain have several segments,
-they will nonetheless smoothly deform their geometry...
-
-
-.. _armature-bone-rigid:
-
-Bone Rigidity
-=============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit and Pose Mode
-   | Panel:    Armature
-
-Even though you have the *Segment* setting available in *Edit Mode*
-(Deform panel, in the *Bone* tab),
-you should switch to the *Pose Mode* :kbd:`Ctrl-Tab` to edit these "smooth"
-bones' properties -- one explanation to this strange need is that in *Edit Mode*,
-even in *B-Bone* visualization, bones are drawn as sticks,
-so you cannot visualize the effects of these settings.
 
 .. figure:: /images/rigging_armatures_editing_properties_b-bone-pose-mode.png
 
@@ -115,21 +106,23 @@ so you cannot visualize the effects of these settings.
    Bone.004 has four, and Bone.005 has sixteen.
 
 
-We saw in :doc:`this page </rigging/armatures/bones/index>` that bones are made
-of small rigid segments mapped to a "virtual" Bézier curve.
-The *Segment* number button allows you to set the number of segments inside a given bone by default
-it is set to 1, which gives a standard rigid bone. The higher this setting (max is 32), the smoother the bone,
-but the heavier the pose calculations...
+Usage
+^^^^^
 
-Each bone's ends are mapped to its "virtual" Bézier curve's
-:ref:`"auto" <curve-handle-type-auto>`
-handle. Therefore, you cannot control their direction,
-but you can change their "length" using the *In* and *Out* numeric fields,
-to control the "root handle" and "tip handle" of the bone, respectively.
-These values are proportional to the default length, which of course automatically varies depending on bone length,
-angle with previous/next bones in the chain, and so on.
+Curve bones are an easy way to replace long chains of many small rigid bones.
+A common use case for curve bones is to model spines.
 
-.. list-table:: Bone In/Out settings example, with a materialized Bézier curve.
+
+Ease
+----
+
+Ease In, Ease Out
+   The *Ease In/Out* number buttons, change the "length" of the :ref:`"auto" <curve-handle-type-auto>` Bézier handle
+   to control the "root handle" and "tip handle" of the bone, respectively.
+   These values are proportional to the default length, which of course automatically varies depending on bone length,
+   angle with previous/next bones in the chain, and so on.
+
+.. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
    * - .. figure:: /images/rigging_armatures_editing_properties_curve-in-out-1.png
           :width: 320px
