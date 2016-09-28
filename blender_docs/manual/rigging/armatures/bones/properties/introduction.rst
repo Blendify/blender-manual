@@ -10,8 +10,10 @@ Introduction
    | Panel:    All in Properties editor, *Bone* property
 
 
-Let us first have a general grasp of the various panels gathering the bone settings,
-in Properties editor, *Bone* tab:
+When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
+properties are shown in the *Bone* tab of the Properties editor.
+This shows different panels used to control features of each selected bone;
+the panels change depending on which mode you are working in.
 
 .. figure:: /images/rigging_armatures_bones_properties_properties-editor.png
 
@@ -55,7 +57,6 @@ Transform Locks
 .. figure:: /images/rigging_armatures_bones_properties_transform-locks-panel.png
 
    The Transform Locks panel.
-
 
 This panel appears only in pose mode and allows you to restrict position,
 rotation and scale by axis on each bone in the armature.
