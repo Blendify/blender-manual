@@ -8,7 +8,7 @@ Editing Bone Properties
 
    In this page, you will learn how to edit and control most of the properties for Blender bones --
    For editing bones in an armature,
-   you should read the :doc:`previous page </rigging/armatures/editing/bones>` first.
+   you should read the :doc:`previous page </rigging/armatures/bones/editing/bones>` first.
    We will see how to manage the bones' relationships (`Chain Editing`_), rename them (`Naming Bones`_), etc.
 
 
@@ -297,7 +297,7 @@ Hide
 Lock
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
    This will prevent all editing of the bone in *Edit Mode*;
-   see :doc:`previous page </rigging/armatures/editing/bones>`.
+   see :doc:`previous page </rigging/armatures/bones/editing/bones>`.
 Layers button
    These small buttons allow you to control to which bone layer this bone belongs;
    see :ref:`this page <armature-layers>`.

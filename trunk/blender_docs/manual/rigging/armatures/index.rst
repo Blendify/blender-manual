@@ -13,4 +13,3 @@
    structure.rst
    parenting.rst
    visualization.rst
-   editing/index.rst

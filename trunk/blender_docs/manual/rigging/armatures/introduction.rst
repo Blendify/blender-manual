@@ -13,7 +13,7 @@ Your first armature
 In order to see what we are talking about, let us try to add the default armature in Blender.
 
 (Note that armature editing details are explained in the
-:doc:`armatures editing section </rigging/armatures/editing/index>`).
+:doc:`armatures editing section </rigging/armatures/bones/editing/index>`).
 
 Open a default scene, then:
 
@@ -59,8 +59,8 @@ and specifically we will talk about:
 - The different :doc:`armature visualizations </rigging/armatures/visualization>`.
 - The armature :doc:`structure types </rigging/armatures/structure>`.
 - How to :doc:`Select Bones </rigging/armatures/bones/selecting>`,
-- How to :doc:`Edit Armatures </rigging/armatures/editing/index>`,
-- How to :doc:`Edit Bones </rigging/armatures/editing/bones>`,
-- How to :doc:`edit bones properties </rigging/armatures/editing/properties>`,
-- How to sketch armatures with the :doc:`Etch-a-Ton tool </rigging/armatures/editing/sketching>`,
-- How to use :doc:`templates </rigging/armatures/editing/templating>`.
+- How to :doc:`Edit Armatures </rigging/armatures/bones/editing/index>`,
+- How to :doc:`Edit Bones </rigging/armatures/bones/editing/bones>`,
+- How to :doc:`edit bones properties </rigging/armatures/bones/editing/properties>`,
+- How to sketch armatures with the :doc:`Etch-a-Ton tool </rigging/armatures/bones/editing/sketching>`,
+- How to use :doc:`templates </rigging/armatures/bones/editing/templating>`.
