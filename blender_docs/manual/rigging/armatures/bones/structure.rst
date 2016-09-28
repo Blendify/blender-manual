@@ -30,7 +30,7 @@ will show local axes for each bone's tip. The Y axis is always aligned along the
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
 
-.. short about envelope (move to skinning) then link 
+.. short about envelope (move deform or to skinning) then link 
 
 .. _armature-bone-influence:
 
