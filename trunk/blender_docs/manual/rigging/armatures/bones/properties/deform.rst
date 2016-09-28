@@ -18,6 +18,79 @@ Also it is worth noting that by turning off a bone's deform option, makes it not
 overriding any weights that it might have been assigned before; It mutes its influence.
 
 
+Todo: merge the following paragraphs.
+
+Bones Rigidity
+==============
+
+Even though bones are rigid (i.e. behave as rigid sticks),
+they are made out of *segments*. *Segments* are small,
+rigid linked elements that can rotate between each other. By default,
+each new bone has only one segment and as such it cannot "bend" along its length.
+It is a rigid bone.
+
+You can see these segments in *Object Mode* and in *Pose Mode*,
+and only if bones are visualized as *B-bones*;
+while in *Edit Mode* bones are always drawn as rigid sticks.
+Note that in the special case of a single bone,
+you cannot see these segments in *Object Mode*, because they are aligned.
+
+.. list-table::
+
+   * - .. _fig-rig-bone-intro-bbone:
+
+       .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
+          :width: 320px
+
+          An armature of B-Bones, in Edit Mode.
+
+     - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-2.png
+          :width: 320px
+
+          The Bézier curve superposed to the chain, with its handles placed at bones' ends.
+
+   * - .. _fig-rig-bone-intro-same:
+
+       .. figure:: /images/rigging_armatures_bones_introduction_b-bones-3.png
+          :width: 320px
+
+          The same armature in Object Mode.
+
+     - ..
+
+
+When you connect bones to form a :ref:`chain <armature-bone-chain>`,
+Blender calculates a Bézier curve passing through all the bones' ends,
+and bones' segments in the chain will bend and roll to follow this invisible curve.
+
+There is no direct access to the curve.
+It can only be controlled by some extent using bone properties,
+as explained in the :ref:`editing pages <armature-bone-rigid>`.
+
+In Fig. :ref:`fig-rig-bone-intro-bbone` we connected three bones,
+each one made of five segments. These are *B-bones* but as you see,
+in *Edit Mode* they are shown as rigid elements.
+Look at Fig. :ref:`fig-rig-bone-intro-same`,
+we can see how the bones' segments smoothly "blend" into each other, even for roll.
+
+Of course,
+a geometry influenced by the chain is smoothly deformed according to the Bézier curve!
+In fact,
+smooth bones are an easy way to replace long chains of many small rigid bones posed using IK...
+
+However, if the chain has an influence on objects rather than geometry,
+the segments' orientation is not taken in account
+(details are explained in the :doc:`skinning part </rigging/skinning/index>`).
+
+When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
+even though the bone segments are still present and effective
+(see :doc:`skinning to Object Data </rigging/skinning/obdata>`).
+
+This means that even in e.g. *Octahedron* visualization,
+if some bones in a chain have several segments,
+they will nonetheless smoothly deform their geometry...
+
+
 .. _armature-bone-rigid:
 
 Bone Rigidity
