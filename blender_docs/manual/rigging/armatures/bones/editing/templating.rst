@@ -9,7 +9,7 @@ to create a new armature. It differs from a simple copy in that you can directly
 new armature different in some aspects than its reference rig.
 
 In Blender, the only templating tool is the bone sketching one
-(Etch-a-ton, described in :doc:`the previous page </rigging/armatures/editing/sketching>`),
+(Etch-a-ton, described in :doc:`the previous page </rigging/armatures/bones/editing/sketching>`),
 with its *Template* conversion method, so you should have read its page before this one!
 
 

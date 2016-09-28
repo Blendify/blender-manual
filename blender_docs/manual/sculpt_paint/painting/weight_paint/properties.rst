@@ -212,7 +212,7 @@ X-mirror
    like with extension ".R"/ ".L" or "_R" / "_L".
    If a group has no mirrored counterpart, it will paint symmetrically on the active group itself.
    You can read more about the naming convention in
-   :doc:`Editing Armatures: Naming conventions </rigging/armatures/editing/properties>`.
+   :doc:`Editing Armatures: Naming conventions </rigging/armatures/bones/editing/properties>`.
    The convention for armatures/bones apply here as well.
 Topology Mirror
    Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.

@@ -53,7 +53,7 @@ So, each stroke you draw will be a chain of bones, oriented from the starting po
 A stroke is made of several segments, delimited by small black dots. 
 There will be at least one bone per segment
 (except with the *Template* conversion method,
-see :doc:`next page </rigging/armatures/editing/templating>`),
+see :doc:`next page </rigging/armatures/bones/editing/templating>`),
 so all black points represents future bones' ends.
 There are two types of segments, which can be mixed together:
 
@@ -277,7 +277,7 @@ Note that converting a stroke does not delete it.
 There are four different conversion methods with three "simple" ones, and one more advanced and complex,
 *Template*, that reuses bones from the same armature or from another
 one as a template for the strokes to convert, and which is detailed in
-:doc:`the next page </rigging/armatures/editing/templating>`.
+:doc:`the next page </rigging/armatures/bones/editing/templating>`.
 Anyway, remember that straight segments are always converted to one and only one bone
 (except for the *Template* conversion method),
 and that the future bones' ends are shown as green dots on selected free segments.
@@ -362,7 +362,7 @@ Retarget template bone chain to stroke.
 
 Template
    Template armature that will be retargeted to the stroke.
-   This is a more complex topic, detailed in its :doc:`own page </rigging/armatures/editing/templating>`.
+   This is a more complex topic, detailed in its :doc:`own page </rigging/armatures/bones/editing/templating>`.
 
 
 Retarget roll mode

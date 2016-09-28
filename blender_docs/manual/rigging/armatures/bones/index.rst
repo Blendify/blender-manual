@@ -8,4 +8,5 @@
 
    introduction.rst
    selecting.rst
+   editing/index.rst
    properties/index.rst

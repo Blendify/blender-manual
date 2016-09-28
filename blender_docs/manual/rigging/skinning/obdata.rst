@@ -192,7 +192,7 @@ shown in the *Envelope* visualization:
 
 .. seealso::
 
-   The :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
+   The :doc:`editing pages </rigging/armatures/bones/editing/properties>` for how to edit these properties.
 
 
 There is also a bone property, *Weight* (in each bone sub-panel,
@@ -224,7 +224,7 @@ which results in smoother deformations for longer bones.
 
 .. seealso::
 
-   The :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
+   The :doc:`editing pages </rigging/armatures/bones/editing/properties>` for how to edit these properties.
 
 
 Vertex Groups
