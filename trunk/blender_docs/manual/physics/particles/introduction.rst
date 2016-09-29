@@ -80,5 +80,5 @@ but options within those sets vary based on the system employed. These sets of c
    Factors for external forces.
 :doc:`Force Field Settings </physics/particles/properties/physics/index>`
    Makes particles force fields.
-:doc:`Vertex Groups </physics/particles/properties/vertexgroups>`
+:doc:`Vertex Groups </physics/particles/properties/vertex_groups>`
    Influencing various settings with vertex groups.
