@@ -3,7 +3,7 @@
 Selecting Faces
 ***************
 
-.. figure:: /images/selection-mode_buttons_face-activated.jpg
+.. figure:: /images/selection-mode_buttons_face-activated.png
 
    Activated the Face Select Mode.
 

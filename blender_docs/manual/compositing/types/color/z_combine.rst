@@ -63,8 +63,7 @@ This can be obtained by making an Alpha Over of two Z-Combine, one normal,
 the other having inverted (reversed?) Z-values as inputs, obtained using for each of them a
 *Map Value* node with a *Size* field set to -1.0:
 
-.. figure:: /images/compositing-z-offset-example.jpg
-   :width: 300px
+.. figure:: /images/compositing-z-offset-example.png
 
    Choosing closest pixels.
 

@@ -13,3 +13,6 @@ With the mask brush we can paint a part of the mesh and hide it.
 .. figure:: /images/sculpt-paint_sculpting_hide-mask.jpg
 
    Black part (hair) is masked.
+
+   The `.blend file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__
+   from `OHA Studio <http://oha-studios.com/>`__ © Mechanimotion Entertainment.
