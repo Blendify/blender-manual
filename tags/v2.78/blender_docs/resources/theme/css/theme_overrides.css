@@ -1,0 +1,222 @@
+/*
+ * This stylesheet is applied after the theme's default one,
+ * and thus any overrides or additions can be added here.
+ *
+ * More info:
+ *     http://sphinx-doc.org/extdev/appapi.html?highlight=add_stylesheet#sphinx.application.Sphinx.add_stylesheet
+ *     https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
+ */
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i';
+
+/* sidebar menu links */
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover { background: #c0c0c0; }
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover { background: #b5b5b5; }
+.wy-menu-vertical li.toctree-l4 { font-size: 1em; }
+.wy-menu-vertical li.current a { border: 0; }
+.wy-side-nav-search > a:hover { background: none; opacity: 0.9; }
+.wy-side-nav-search > a.icon::before { content: none; }
+
+/* kbd role */
+.kbd.docutils.literal {
+	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	font-size: 85%;
+	font-weight: normal;
+	color: #404040;
+}
+
+/* Ensure background of input fields is light color even when a local theme wants it to be dark */
+input[type="text"], input[type="search"], input[type="password"],
+input[type="email"], input[type="url"],
+input[type="date"], input[type="month"], input[type="week"], input[type="time"],
+input[type="datetime"], input[type="datetime-local"],
+input[type="number"], input[type="tel"], input[type="color"] {
+	background-color:#FCFCFC;
+}
+
+/*boxed paragraphs*/
+.rst-content .refbox .admonition-title {
+	background-color: #bbb;
+}
+.rst-content .refbox {
+	-webkit-font-smoothing: antialiased;
+	background-color: #e3e3e3;
+	line-height: 24px;
+	margin-bottom: 24px; padding: 12px;
+}
+.rst-content .seealso .admonition-title {
+	background-color: #7a87e6;
+}
+.rst-content .seealso {
+	background-color: #e7ebfa;
+}
+.rst-content .important .admonition-title {
+	background-color: #ddca3b;
+}
+.rst-content .important {
+	background-color: #f6f3a5;
+}
+
+/* rb =, see ( > ), note ( i ), tip i , hint (+), warn / ! \ */
+.refbox .admonition-title::before {content:"\f00b"}
+.seealso .admonition-title::before{content:"\f138"}
+.note .admonition-title::before{content:"\f05a"}
+.tip .admonition-title::before{content:"\f129"; padding: 0 0.1em}
+.hint .admonition-title::before{content:"\f055"}
+.warning .admonition-title::before{content:"\f071"}
+
+/* Ugly 'red' literals */
+.rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
+	color:#404040;
+}
+
+/* Moves the table captions to the bottom */ 
+table {caption-side: bottom}
+
+/* Text wrap of figure captions in tables
+ * (without this images with captions in tables can cause a log of horizontal scrolling). */
+.wy-table caption, .rst-content table.docutils caption, 
+.rst-content table.field-list caption.rst-content .docutils.caption,
+.rst-content div.figure p.caption {
+	font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 90%;
+	font-weight: normal;
+	line-height: 24px;
+	white-space: normal;
+	color:#808080;
+}
+
+/* permalink to table, hide until hover */
+.rst-content table.docutils caption .headerlink { visibility: hidden; }
+.rst-content table.docutils caption:hover .headerlink { visibility: visible; }
+
+/* table header cells border color */
+.rst-content table.docutils th { border-color: #e1e4e5; }
+
+/* table cell align */
+.rst-content table.docutils td { vertical-align: baseline; }
+
+/* table figure legend */
+.rst-content table.docutils .figure .legend { white-space: normal; }
+
+/* figure in table margin */
+.rst-content td div.figure {
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+/* figure legend */
+.legend {
+	font-size: 90%;
+	color: #808080;
+	margin-top: -20px;
+}
+
+/* proper seal navigation buttons; jumping on resize */
+.rst-footer-buttons::before , .rst-footer-buttons::after{
+	width: 100%;
+}
+
+/*video center*/
+iframe {
+	display: block;
+	margin: 0 auto 24px auto;
+}
+
+/*copyright font scale down*/
+footer p{ font-size: smaller}
+
+/*intermediate headline*/
+.rubric {font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
+
+/*.. container:: lead , block text float around image*/
+.lead {
+	clear: both; width: 100%;
+}
+
+/*mark external links*/
+a.external {color:#656AE0;}
+/*white list blender.org and wiki.blender.org as internal*/
+.external[href^="https://www.blender.org"], .external[href^="https://wiki.blender.org"] {
+	color:#2980B9;
+}
+
+/* draws a box around :menuselection: field */
+.menuselection {
+	font-size: 90%;
+	font-weight: normal;
+	background-color: rgba(255, 255, 255, 0.65);
+	border: solid #E1E4E5 1px;
+	white-space: nowrap;
+	padding: 2px 5px;
+}
+@media screen and (max-width: 420px) { 
+	.menuselection {white-space: normal}
+}
+.caption .menuselection { 
+	background-color: none;
+	border: none;
+} 
+.caption .kbd {background-color: none}
+
+/*remove indent on line break*/
+.rst-content .line-block {margin-left:0px}
+
+/*applied on contents:sections*/
+/*$ section description*/ 
+@media screen and (min-width: 450px){
+.tocdescr {
+	display: flex; display: -webkit-flex;
+	flex-flow: row wrap; -webkit-flex-flow: row wrap;
+	justify-content: space-between; -webkit-justify-content: space-between;
+	align-items: flex-start; -webkit-align-items: flex-start;
+	align-content: flex-start; -webkit-align-content: flex-start;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+/*Dan Andreasson  on Stack Overflow*/
+.tocdescr:after {
+	content: "";
+	flex: 1 0 33.3%; -webkit-flex: 1 0 33.3%;
+	margin-left: 45px;
+	align-self: stretch; -webkit-align-self: stretch;
+}
+}
+@media screen and (max-width: 450px) {
+.tocdescr {
+	display: flex; display: -webkit-flex;
+	flex-flow: column wrap; -webkit-flex-flow: column wrap;
+	justify-content: space-between; -webkit-justify-content: space-between;
+	align-items: flex-start; -webkit-align-items: flex-start;
+	align-content: flex-start; -webkit-align-content: flex-start;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+.tocdescr:after {
+	content: "";
+	flex: none; -webkit-flex: none;
+}
+}
+.descr {
+	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
+	margin: 15px; padding: 0px;
+	transition: width 0.7s ease-out; -webkit-transition: width 0.7s ease-out; 
+}
+.descr div.figure{margin-bottom: 18px}
+.descr dl {margin-bottom: 10px}
+.descr dl dt > a {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.descr dl dt a em, .descr dl dt a span{
+	font-weight: normal;
+	font-style: normal;
+}
+.descr dl dd{
+	font-style: normal;
+	margin: 0px; padding: 0px;
+}
+.descr .figure img{box-shadow: 2px 2px 3px rgba(0,0,0,0.5)}
+.descr .figure img:hover{box-shadow: none}
+/*x section description*/
