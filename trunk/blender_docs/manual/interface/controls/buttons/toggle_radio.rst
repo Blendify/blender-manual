@@ -10,19 +10,21 @@ Checkboxes & Toggle Buttons
 
    Toggle Buttons.
 
+These buttons are used to activate or deactivate options. Use :kbd: `LMB` to change its state.
 
-.. Toggle buttons are typically displayed as check boxes.
-
+On checkboxes a the tick is shown when the option is activated.
+Toggle buttons are used to set an on/off status. When state is on, they appear like pressed (dark).
 Clicking this type of button will toggle a state but will not perform any operation.
+Some toggle buttons have icon version for each state.
 
 
-Toggle Drag
------------
+Dragging
+--------
 
-To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
-This works for checkboxes, toggles in the Outliner and layer buttons.
+To change many value at once, you can :kbd:`LMB` drag over multiple buttons,
+This works for checkboxes, toggles and to select a radio button value.
 
-.. note::
+.. tip::
 
    For layer buttons (a type of toggle button) it is often useful to hold :kbd:`Shift` at the same time,
    to set or clear many layers at once.
@@ -38,6 +40,10 @@ Radio Buttons
 
 
 Radio buttons are used to choose from a small selection of "mutually exclusive" options.
-Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over it, to cycle between the the options.
 
-.. cycling works also for: number, selects (aka menus)
+
+Cycling
+-------
+
+Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over it, to cycle between the the options.
+Cycling works also for number button and selects menus.
