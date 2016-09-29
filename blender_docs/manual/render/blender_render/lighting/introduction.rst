@@ -68,7 +68,7 @@ Then you are back to how that material's
 This chapter attempts to address the above,
 including how lights can work together in rigs to light your scene.
 In this chapter we will analyze the different type of lights in Blender and their behavior;
-we will discuss their strong and weak points. We also describe many lighting rigs,
+we will discuss their strong and weak points. We will also describe many lighting rigs,
 including the ever-popular three-point light method.
 
 
@@ -78,7 +78,7 @@ Lighting in the Workflow
 In this user manual we have placed Lighting before Materials;
 you should set up your lighting before assigning materials to your meshes.
 Since the material shaders react to light, without proper lighting,
-the material shaders will not look right, and you will end up fighting the shader,
+the material shaders will not look right, and you will end up fighting the shaders,
 when it is really the bad lighting that is causing you grief.
 All of the example images in this section do not use any material setting at all on the ball,
 cube or background.
