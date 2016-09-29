@@ -5,8 +5,8 @@ Introduction
 ************
 
 A *Camera* is an object that provides a means of rendering images from Blender.
-It defines which portions of a scene is visible in the rendered image.
-By default a scene contains one camera. However, A scene can contain more than one camera,
+It defines which portion of a scene is visible in the rendered image.
+By default a scene contains one camera. However, a scene can contain more than one camera,
 but only one of them will be used at a time.
 So you will only need to add a new camera if you are making cuts between them.
 See :doc:`Animating Cameras </animation/techniques/camera>`.
@@ -33,7 +33,7 @@ Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0`
 (by doing so, you also switch the view to camera view). In order to render,
 each scene **must** have an active camera.
 
-The active camera can also be set in the *Scene* tab of the *Properties Editor*
+The active camera can also be set in the *Scene* tab of the *Properties Editor*.
 
 The camera with the solid triangle on top is the active camera.
 
@@ -60,7 +60,7 @@ Render Border
    Render Border toggle.
 
 
-While in camera view, you can define a subregion to render by drawing out a rectangle within the cameras frame.
+While in camera view, you can define a subregion to render by drawing out a rectangle within the camera's frame.
 Your renders will now be limited to the part of scene visible within the render border.
 This can be very useful for reducing render times for quick previews on an area of interest.
 

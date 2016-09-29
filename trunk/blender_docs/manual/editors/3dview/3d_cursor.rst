@@ -28,7 +28,7 @@ any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpa
 That way you can control the positioning along two axes in one view and determine depth in the second view.
 
 To place the 3D Cursor on the surface of geometry,
-enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`
+enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`.
 
 
 Using the Snap Menu
@@ -43,7 +43,7 @@ Cursor to Selected
 Cursor to Center
    Snaps the cursor to the origin of the scene (location 0, 0, 0).
 Cursor to Grid
-   Snaps the cursor to the nearest *visible* grid lines.
+   Snaps the cursor to the nearest *visible* grid line.
 Cursor to Active
    Snaps the cursor to the *active* (last selected) object, edge, face or vertex.
 
