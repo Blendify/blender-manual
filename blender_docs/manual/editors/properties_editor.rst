@@ -69,8 +69,8 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 
 ..
 
-- :doc:`Armature </rigging/armatures/properties>`
-- :doc:`Bones </rigging/armatures/bones/properties>`
+- :doc:`Armature </rigging/armatures/properties/index>`
+- :doc:`Bones </rigging/armatures/bones/properties/index>`
 - :doc:`Bone Constraints </rigging/posing/constraints>`
 - :doc:`Lattice </rigging/lattice>`
 
