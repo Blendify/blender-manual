@@ -9,6 +9,9 @@ Number Buttons
 
    Number buttons.
 
+   (grouped or single).
+
+Number buttons hold numeric values
 
 Number buttons can be identified by the triangles pointing left (◂) and right (▸) on the sides of the button.
 The second type number sliders have a bar in the background and are used for values in a range,
@@ -16,7 +19,7 @@ i.e. percentage values. Both types have round corners.
 In most cases they contain a name and a colon followed by the number.
 The value can be edited in several ways:
 
-Incremental Steps
+In/Decremental Steps
    To change the value in steps, click :kbd:`LMB` on the small triangles (number button only).
 Dragging
    To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
@@ -24,10 +27,10 @@ Dragging
 Text Input
    Press :kbd:`LMB` or :kbd:`Return` to edit the value as a text field.
 
-   When entering values by hand, this button works like any other text button.
+   When entering values by hand, this button works like any other text field.
 
-   - Press :kbd:`Return` to apply the change.
-   - Press :kbd:`Esc` will cancel the value.
+   - Press :kbd:`Return` or :kbd:`LMB` outside the field to apply the change.
+   - Press :kbd:`Esc` or :kbd:`RMB` will cancel the value.
    - Press :kbd:`Tab` to jump to the next number button.
 
 Press :kbd:`Minus` while hovering over the button to negate the value.
@@ -41,10 +44,8 @@ Multi-Value Editing
 
    Multi-value editing.
 
-It is often useful to edit multiple values at once (object scale or render resolution for example).
-
+Number buttons can be edited with multiple values at once (object scale or render resolution for example).
 This can be done by clicking on the button and dragging vertically to include buttons above/below.
-
 After the vertical motion you can drag from side to side, or release the :kbd:`LMB` to type in a value.
 
 

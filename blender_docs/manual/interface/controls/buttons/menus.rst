@@ -6,18 +6,6 @@ Menus
 Blender uses a variety of different menus for accessing options and tools.
 
 
-Shortcuts
-=========
-
-- Arrow keys can be used to navigate.
-- Each menu item has an underlined character which can be pressed to activate it.
-- Number keys or numpad can be used to access menu items.
-  (Where :kbd:`1` is the first menu item, :kbd:`2` the second... etc.
-  For larger menus :kbd:`Alt-1` the 11th... up to :kbd:`Alt-0` the 20th)
-- Press :kbd:`Return` to activate the selected menu item.
-- Press :kbd:`Esc` to cancel the menu.
-
-
 .. _ui-header-menu:
 
 Header Menus
@@ -53,7 +41,14 @@ simply right click on the header and enable set it to collapsed.
 
           Access the menu from the collapsed icon.
 
- 
+
+Select Menus
+============
+
+The Select menu or short selector lets you choose between a set of options. They can show a text and/or a icon.
+The options are shown in a pop-up. The selected option is then shows as active.
+
+
 Pop-Up Menus
 ============
 
@@ -62,18 +57,40 @@ Pop-Up Menus
 
    The Viewport Shading pop-up menu.
 
-Pop-up menus are overlay menus used to display options.
-They are spawned by menu buttons and buttons showing up and down triangles on the right or
+Pop-up menus are overlays.
+They are spawned by menus showing up and down triangles on the right or
 after a key input at the mouse position.
+
+If the content is too large to fit on the screen, small indicator triangles appear.
+When moving the mouse over them they scrolls the pop-up.
 
 For example, the *Viewport Shading* button will produce a pop-up menu
 with the available shading options.
 
+Mouse selection
+   :kbd:`LMB` on the desired item.
 Numerical selection
    You can use the number keys or :kbd:`Numpad` to input an item in the list to select.
    For example, :kbd:`Numpad-1` will select the first item and so on.
 
 Pop-ups can be moved by dragging there title.
+
+
+.. todo duplicate: selection 
+
+Shortcuts
+---------
+
+- Use :kbd:`Wheel` while hovering with the mouse.
+- Arrow keys can be used to navigate.
+- Each menu item has an underlined character which can be pressed to activate it.
+- Number keys or numpad can be used to access menu items.
+  (Where :kbd:`1` is the first menu item, :kbd:`2` the second... etc.
+  For larger menus :kbd:`Alt-1` the 11th... up to :kbd:`Alt-0` the 20th)
+- Press :kbd:`Return` to activate the selected menu item.
+- Press :kbd:`Esc` to cancel the menu, or move the mouse cursor far from the pop-up,
+  or by :kbd:`LMB` clicking anywhere out of it.
+
 
 
 Context Menu

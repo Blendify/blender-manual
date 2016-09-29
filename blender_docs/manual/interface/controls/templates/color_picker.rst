@@ -10,6 +10,8 @@ Color Picker
 
    Circle HSV.
 
+The color picker is pop-up that lets you define a color value.
+
 Color field
    Lets you pick the the first and second color component. The shape can be selected by the `Types`_.
 Color slider

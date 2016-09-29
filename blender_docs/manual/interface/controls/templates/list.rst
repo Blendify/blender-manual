@@ -9,8 +9,8 @@ List View
 .. figure:: /images/extended_controls_list_view_filter.png
    :align: right
 
-At the bottom of a list view (like the ones found in the object data properties)
-there are controls for filtering and sorting and resizing.
+This control is useful to manage lists of items.
+They can be found in example in the object data properties.
 
 Select
    To select an item, :kbd:`LMB` on it.
