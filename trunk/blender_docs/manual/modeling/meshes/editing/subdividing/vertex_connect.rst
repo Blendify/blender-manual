@@ -19,13 +19,11 @@ When many vertices are selected, faces will be split by their selected vertices.
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_connect_verts_multi_before.jpg
-          :width: 200px
+   * - .. figure:: /images/bmesh_connect_verts_multi_before.png
 
           Before.
 
-     - .. figure:: /images/bmesh_connect_verts_multi_after.jpg
-          :width: 200px
+     - .. figure:: /images/bmesh_connect_verts_multi_after.png
 
           After.
 
@@ -35,12 +33,10 @@ a little like the knife tool; however, this is limited to straight cuts across c
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_connect_verts_pair_before.jpg
-          :width: 200px
+   * - .. figure:: /images/bmesh_connect_verts_pair_before.png
 
           Before.
 
-     - .. figure:: /images/bmesh_connect_verts_pair_after.jpg
-          :width: 200px
+     - .. figure:: /images/bmesh_connect_verts_pair_after.png
 
           After.

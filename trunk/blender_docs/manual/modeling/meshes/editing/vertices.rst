@@ -234,11 +234,11 @@ This tool connects vertices in the order they are selected, splitting the faces 
 
 .. list-table::
 
-   * - .. figure:: /images/mesh-connect_verts_pair-before.png
+   * - .. figure:: /images/bmesh_connect_verts_pair_before.png
 
           Two disconnected vertices.
 
-     - .. figure:: /images/mesh-connect_verts_pair-after.png
+     - .. figure:: /images/bmesh_connect_verts_pair_after.png
 
           Result of connecting.
 

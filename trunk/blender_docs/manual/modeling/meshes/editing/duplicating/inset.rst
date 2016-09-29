@@ -32,8 +32,7 @@ inset during the modal operation by holding :kbd:`Ctrl`.
 Options
 =======
 
-.. figure:: /images/mesh_tool_inset_settings.jpg
-   :width: 200px
+.. figure:: /images/mesh_tool_inset_settings.png
 
    Inset Operator Settings.
 

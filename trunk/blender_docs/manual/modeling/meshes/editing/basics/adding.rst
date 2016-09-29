@@ -84,7 +84,6 @@ Creating Faces with the Mouse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/modeling_meshes_editing_basics_adding_quad.png
-   :align: right
 
    Quad from an Edge with source automatically rotated.
 
@@ -129,7 +128,6 @@ Filling Faces
 .. _fig-mesh-basics-fill-tri:
 
 .. figure:: /images/modeling_meshes_editing_basics_adding_triangle.png
-   :align: right
 
    Filling a triangle.
 
@@ -137,10 +135,6 @@ You can also create faces with at least three vertices selected, using :kbd:`F` 
 or only fill edges with faces if they are already connected (Fill) (See Fig. :ref:`fig-mesh-basics-fill-tri`).
 For four or more vertices, it is mandatory that you have coplanar vertices.
 four coplanar vertices will create a quad when filled, and more than four coplanar vertices will create a Ngon face.
-
-.. container:: lead
-
-   .. clear
 
 .. note::
 

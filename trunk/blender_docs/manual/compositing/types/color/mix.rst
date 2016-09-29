@@ -98,7 +98,7 @@ Here is a small map showing the effects of two other common uses for the RGB Cur
 You can see the effect each curve has independently,
 and the combined effect when they are *mixed* equally.
 
-.. figure:: /images/compositing-rgb_map.jpg
+.. figure:: /images/compositing-rgb_map.png
 
    Example node setup showing "Darken", "Enhance Contrast" and "Mix" nodes for composition.
 

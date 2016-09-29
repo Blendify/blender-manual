@@ -50,8 +50,7 @@ Examples
 Manual Z-Mask
 -------------
 
-.. figure:: /images/compositing-node-math_minmax.jpg
-   :width: 300px
+.. figure:: /images/compositing-node-math_minmax.png
 
    Example.
 

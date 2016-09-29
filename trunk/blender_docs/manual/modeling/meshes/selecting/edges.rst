@@ -3,7 +3,7 @@
 Selecting Edges
 ***************
 
-.. figure:: /images/selection-mode_buttons_edge-activated.jpg
+.. figure:: /images/selection-mode_buttons_edge-activated.png
 
    Buttons for the selection modes.
 

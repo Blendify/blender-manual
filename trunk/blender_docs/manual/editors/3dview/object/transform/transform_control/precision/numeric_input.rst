@@ -3,8 +3,7 @@
 Numeric Input
 *************
 
-.. figure:: /images/editors_3dview_transform_control-numeric_input_numeric-input-header.jpg
-   :width: 300px
+.. figure:: /images/editors_3dview_transform_control-numeric_input_numeric-input-header.png
 
    Numeric input in the 3D View header.
 
