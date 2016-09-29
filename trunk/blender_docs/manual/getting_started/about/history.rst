@@ -238,3 +238,7 @@ Blender 2.6x to 2.7x -- Improvements & Stabilizing
   OpenVDB support for caching for smoke/volumetric simulations, improved cycles Subsurface Scattering,
   Grease pencil stroke sculpting and improved workflow,
   and reworked library handling to manage missing and deleted data-blocks.
+- `2.78 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.78>`__ -- September 2016:
+   Cycles support for spherical stereo images for VR,
+   Grease Pencil works more similar to other 2D drawing softwares,
+   Alembic import and export support, and improvements to Bendy Bones for easier and simpler rigging. 
