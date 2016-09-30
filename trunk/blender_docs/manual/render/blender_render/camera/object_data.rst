@@ -248,7 +248,7 @@ Passepartout, Alpha
 Composition Guides
 ------------------
 
-*Composition Guides* are available from the drop-down menu, which can help when framing a shot.
+*Composition Guides* are available from the menu, which can help when framing a shot.
 There are eight types of guides available:
 
 

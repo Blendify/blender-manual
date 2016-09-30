@@ -111,7 +111,7 @@ OK now, here are some important ground rules:
   and remains an exact duplicate of its template).
   If there are more segments than necessary,
   the conversion algorithm will chose the best "joints" for the bones to fit to the reference chain,
-  using the same influence settings as for free segments (*A*, *L* and *D* settings, see below).
+  using the same influence settings as for free segments (*Angle*, *Length* and *Definition* settings, see below).
 - If you try to *Convert* without template bones (i.e.
   either an empty armature selected as template,
   or no bones selected in the current edited armature),
@@ -145,8 +145,7 @@ No, View, Joint buttons
       but with regards to the bend of the joint with its parent.
 
 
-.. list-table::
-   Templating: bone roll example.
+.. list-table:: Templating: bone roll example.
 
    * - .. figure:: /images/rigging_armatures_editing_templating_bone-roll-1.png
 
@@ -163,25 +162,22 @@ No, View, Joint buttons
 The "Bone.003" to "Bone.005" chain is the mapped-to-stroke
 version of "Bone" to "Bone.002" selected one, and "Bone.001" has a modified roll angle.
 
-Template drop-down list
-   Here you select the armature to use as template.
+Template
+   In this data-ID you can select the armature to use as template.
    If you choose *None*, the selected bones from the currently edited armature will be used as reference,
    else all bones of the other armature will be used.
 
-*A*, *L*, *D* are numeric fields.
-
-Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
-
+*Angle*, *Length*, *Definition* are numeric fields.
    These settings control how the template is mapped to the selected strokes.
    Each one can have a value between (0.0 and 10.0), the default being 1.0.
 
-   A
+   Angle
       Controls the influence of the angle of the joints (i.e. angle between bones). The higher this value,
       the more the conversion process will try to preserve these joints angle in the new chain.
-   L
+   Length
       Controls the influence of the bones' length. The higher this value,
       the more the conversion process will try to preserve these lengths in the new bones.
-   D
+   Definition
       Controls the influence of the stroke's shape. The higher this value,
       the more the conversion process will try to follow the stroke with the new chain.
 
@@ -192,13 +188,13 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
    with one stroke quite similar to the template chain's shape, and one stroke very different.
 
 
-S and N text fields, *auto* button
+Side and Number text fields, *auto* button
    These control how the new bones are named. By default,
    they just take the same names as the originals from the template, except for the final number,
    increased as needed. However, if the template bones have "&s" somewhere in their name,
-   this "placeholder" will be replaced in the "templated" bones' names by the content of the *S* text field
-   (*S* for side). Similarly, a "&n" placeholder will be replaced by the *N* field content
-   (*N* for number). If you enable the small *auto* button, the *N* field content is auto-generated,
+   this "placeholder" will be replaced in the "templated" bones' names by the content of the *Side* text field.
+   Similarly, a "&n" placeholder will be replaced by the *Number* field content.
+   If you enable the small *auto* button, the *Number* field content is auto-generated,
    producing a number starting from nothing, and increased each time you press the *Convert* button,
    and the "&s" placeholder is replaced by the side of the bone (relative to the local X axis:
    "r" for negative X values, "l" for positive ones).

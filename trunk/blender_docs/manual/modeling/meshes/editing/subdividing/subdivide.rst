@@ -18,14 +18,14 @@ adding necessary vertices, and subdividing accordingly the faces involved,
 following a few rules, depending on the settings:
 
 
-- When only one edge of a face is selected (Tri mode),
+- When only one edge of a face is selected (Triangle mode),
   triangles are subdivided into two triangles, and quads, into three triangles.
 - When two edges of a face are selected:
 
   - If the face is a triangle, a new edge is created between the two new vertices,
     subdividing the triangle in a triangle and a quad.
   - If the face is a quad, and the edges are neighbors, we have *three* possible behaviors,
-    depending on the setting of *Corner Cut Type* (the drop-down menu next to the *Subdivide* button,
+    depending on the setting of *Corner Cut Type* (the select menu next to the *Subdivide* button,
     in *Mesh Tools* panel) See below for details.
   - If the face is a quad, and the edges are opposite,
     the quad is just subdivided in two quads by the edge linking the two new vertices.
@@ -73,7 +73,7 @@ Quad/Tri Mode
    Forces subdivide to create triangles instead of ngons, simulating old behavior (see examples below).
 
 Corner Cut Type
-   This drop-down menu controls the way quads with only two adjacent selected edges are subdivided.
+   This select menu controls the way quads with only two adjacent selected edges are subdivided.
 
    Fan
       the quad is sub-divided in a fan of four triangles,

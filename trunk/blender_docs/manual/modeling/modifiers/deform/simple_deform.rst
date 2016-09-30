@@ -19,7 +19,7 @@ Options
 
 
 Mode
-   This drop-down list defines the deform function applied, among four available:
+   This radio button defines the deform function applied, among four available:
 
    Twist
       Rotates around the Z axis.
@@ -29,7 +29,7 @@ Mode
       Linearly scales along Z axis.
    Stretch
       Stretches the object along the Z axis (negative *Factor* leads to squash),
-      preserving volume by scaling inversely on the X and Y axes..
+      preserving volume by scaling inversely on the X and Y axes.
 
 Vertex Group
    The name of the vertex group that indicates whether and how much each vertex is influenced by the deformation.

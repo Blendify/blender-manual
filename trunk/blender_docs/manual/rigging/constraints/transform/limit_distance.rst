@@ -44,18 +44,21 @@ Distance
    This number button sets the limit distance, i.e. the radius of the constraining sphere.
 Reset Distance
    When clicked, this small button will reset the *Distance* value,
-   so that it corresponds to the actual distance between the owner and its target (i.e.
-   the distance before this constraint is applied).
+   so that it corresponds to the actual distance between the owner and its target
+   (i.e. the distance before this constraint is applied).
 
 Clamp Region
-   The *Limit Mode* drop-down menu allows you to choose how to use the sphere defined by the
-   *Distance* setting and target's center:
+   The *Limit Mode* select menu allows you to choose how to use the sphere
+   defined by the *Distance* setting and target's center:
 
-   Inside (default)
+   Inside
       The owner is constrained *inside* the sphere.
    Outside
       The owner is constrained *outside* the sphere.
    Surface
       The owner is constrained *on the surface* of the sphere.
+
+For Transform
+   ToDo.
 
 .. vimeo:: 171109014

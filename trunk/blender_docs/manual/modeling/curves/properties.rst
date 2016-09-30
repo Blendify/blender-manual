@@ -38,7 +38,7 @@ Twisting
    A 3D Curve has Control Points that are not located on the Curve's local XY plane.
    This gives the Curve a twist which can affect the Curve normals.
    You can alter how the twist of the Curve is calculated by choosing from *Minimum,
-   Tangent* and *Z-Up* options from the drop-down menu.
+   Tangent* and *Z-Up* options from the select menu.
 
    .. figure:: /images/modeling_curves_shape-twist.jpg
 

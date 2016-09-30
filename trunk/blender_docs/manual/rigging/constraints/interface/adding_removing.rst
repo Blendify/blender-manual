@@ -4,7 +4,7 @@ Adding/Removing a Constraint
 ****************************
 
 To add a constraint in the :doc:`Constraints Panel </rigging/constraints/introduction>`:
-   Click on the "Add Constraint" drop-down box.
+   Click on the "Add Constraint" menu.
 
 .. figure:: /images/rigging_constraints_introduction_add-menu.png
 
@@ -28,8 +28,6 @@ To remove a constraint:
    Click on the "X" button in the :doc:`header </rigging/constraints/interface/header>`.
 
 To remove all constraints from all selected object(s):
-   Click :menuselection:`Object --> Constraints --> Clear Object Constraints` in the 3D View Header.
-
-   or :menuselection:`Pose --> Constraints --> Clear Pose Constraints` (for bone constraints).
-
-   or press :kbd:`Ctrl-Alt-C`.
+   - Click :menuselection:`Object --> Constraints --> Clear Object Constraints` in the 3D View Header.
+   - or :menuselection:`Pose --> Constraints --> Clear Pose Constraints` (for bone constraints).
+   - or press :kbd:`Ctrl-Alt-C`.

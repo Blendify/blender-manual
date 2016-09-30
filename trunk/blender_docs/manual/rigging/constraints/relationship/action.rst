@@ -45,7 +45,7 @@ Target
 Bone
    When target is an armature object, use this field to select the target bone.
 Transform Channel
-   This drop-down list controls which transform property (location,
+   This selector controls which transform property (location,
    rotation or scale along/around one of its axes) from the target to use as "action driver".
 Target Space
    This constraint allows you to choose in which space to evaluate its target's transform properties.

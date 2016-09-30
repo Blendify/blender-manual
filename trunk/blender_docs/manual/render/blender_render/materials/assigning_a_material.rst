@@ -88,10 +88,10 @@ Reusing Existing Materials
 Blender is built to allow you to reuse *anything*, including material settings,
 between many objects. Instead of creating duplicate materials,
 you can simply re-use an existing material.
-There are several ways to do this using the Available Materials menu:
+There are several ways to do this using the Materials data-block menu:
 
 *Single Object* -- With the object selected, click the sphere located to the left of the Material name.
-A drop-down list appears showing all the materials available in the current blend-file.
+A pop-up appears showing all the materials available in the current blend-file.
 To use one, just click on it.
 
 .. figure:: /images/material-matmenu-addfirst-select_exist_button.png

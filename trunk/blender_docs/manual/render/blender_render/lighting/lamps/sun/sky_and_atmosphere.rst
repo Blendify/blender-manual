@@ -78,7 +78,7 @@ Turbidity
 Here are its specific controls:
 
 Blending
-   The first drop-down list shows you a menu of various mix methods.
+   The select menu shows various mix methods.
    The one selected will be used to blend the sky and sun with the background defined in the *World* settings.
    The mixing methods are the same as described e.g.
    in the :doc:`Mix Compositing Node </compositing/types/color/mix>` page.

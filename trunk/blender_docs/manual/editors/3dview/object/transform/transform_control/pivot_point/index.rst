@@ -28,7 +28,7 @@ Using this selector, you can change the pivot point to the location of the:
 - 3D Cursor
 - Bounding Box Center
 
-Each of these can be chosen from the drop-down list in the header of any 3D View,
+Each of these can be chosen from the selector in the header of any 3D View,
 as seen here in Fig. :ref:`fig-view3d-pivot-point`.
 The pages linked below describe each *Pivot Point* mode in more detail.
 

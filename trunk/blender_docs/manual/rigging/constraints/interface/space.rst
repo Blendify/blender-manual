@@ -21,21 +21,21 @@ moving, rotating and scaling the target in many different ways.
    This constraint is set to use World Space as the frame of reference for both
    its Target Space and its Owner Space.
 
+
 Target Space & Owner Space
 ==========================
 
 The space used to evaluate the target of the constraint is called the Target Space.
 The space used to evaluate the constrained object (the object that owns the constraint) is called the owner space.
-Hover over the space drop-down box (or boxes) to learn whether it affects the space of the target
+Hover over the space select menu(s) to learn whether it affects the space of the target
 or the space of the owner.
 
-Some constraints do not use Target or Owner space, so there will not be a drop-down box.
-Some constraints use only Target or only Owner space, so there will only be one drop-down box.
-Some constraints (like the Copy Location constraint above) use both Target **and** Owner space,
-so there will be two drop-down boxes.
+Either the constraints use a Target and/or Owner space there will be no, one or two selector(s).
+The Copy Location constraint in example use both Target **and** Owner space.
 
 When a constraint uses both Target and Owner space,
 the Target and Owner can be any combination of space types.
+
 
 Space Types
 ===========
@@ -51,7 +51,7 @@ Local Space
    In this space type the parent of the object (or bone) is the frame of reference.
    Location is relative to the parent object origin.
    Rotation and Scale are oriented to the parent object axes.
-   Only transformations to the object istelf are taken into account. Transformations to the object's parent and
+   Only transformations to the object itself are taken into account. Transformations to the object's parent and
    any other constraints higher up in the constraint stack are **not** taken into account.
 
 Local With Parent (bones only)

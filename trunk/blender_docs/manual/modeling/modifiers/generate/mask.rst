@@ -10,7 +10,7 @@ Options
 =======
 
 Mode
-   The Mask modifier can hide parts of a mesh based on two different modes, selectable from this drop-down list.
+   The Mask modifier can hide parts of a mesh based on two different modes, selectable from this select menu.
 
    Vertex Group
       When the *Vertex Group* option is selected,
