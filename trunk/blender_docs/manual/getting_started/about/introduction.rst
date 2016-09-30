@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/introduction_intro_bigbuckbunny.jpg
+.. figure:: /images/getting-started_intro_bigbuckbunny.jpg
    :align: right
    :width: 300px
 
@@ -42,7 +42,7 @@ Key Features
 
 You can download the latest version of Blender `here <https://www.blender.org/download/>`__.
 
-.. figure:: /images/introduction_intro_postprocessing.jpg
+.. figure:: /images/getting-started_intro_postprocessing.jpg
 
    A rendered image being post-processed.
 

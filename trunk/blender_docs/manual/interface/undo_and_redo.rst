@@ -111,7 +111,7 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 Repeat History
 ==============
 
-.. figure:: /images/interface_undo-redo_repeat.png
+.. figure:: /images/interface_undo-redo_repeat.jpg
    :align: right
 
    The Repeat Menu.

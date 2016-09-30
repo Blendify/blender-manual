@@ -58,7 +58,7 @@ Move Down
 
 
 Presets
-======
+=======
 
 .. figure:: /images/interface_preset.png
    :align: right
