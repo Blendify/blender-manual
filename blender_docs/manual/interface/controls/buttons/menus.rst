@@ -31,12 +31,12 @@ simply right click on the header and enable set it to collapsed.
 
 .. list-table::
 
-   * - .. figure:: /images/header_menu_expand.jpg
+   * - .. figure:: /images/interface_header_menu_expand.jpg
           :width: 320px
 
           Right-click on any of the header menus.
 
-     - .. figure:: /images/header_menu_collapsed.jpg
+     - .. figure:: /images/interface_header_menu_collapsed.jpg
           :width: 320px
 
           Access the menu from the collapsed icon.
@@ -44,6 +44,11 @@ simply right click on the header and enable set it to collapsed.
 
 Select Menus
 ============
+
+.. figure:: /images/interface_select_menu.png
+   :align: right
+
+   The 3D View mode select menu.
 
 The Select menu or short selector lets you choose between a set of options. They can show a text and/or a icon.
 The options are shown in a pop-up. The selected option is then shows as active.

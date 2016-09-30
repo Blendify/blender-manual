@@ -20,7 +20,7 @@ otherwise the *Particle Instance* modifier will appear to do nothing.
 Options
 =======
 
-.. figure:: /images/particleinstancemodifier.png
+.. figure:: /images/particle_instance_modifier.png
    :width: 250px
 
    Particle Instance Modifier.
