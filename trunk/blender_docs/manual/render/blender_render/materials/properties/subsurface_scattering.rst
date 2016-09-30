@@ -89,7 +89,6 @@ Enabling Subsurface Scattering
 
 - Enable SSS by clicking on the *Subsurface Scattering* button.
 - Accessible at the top are various presets.
-  Add new or remove old presets by clicking the *+* and *-* buttons.
   When you select a preset,
   the *Radius* values, the *RGB Radius* and the :term:`IOR` are set for you.
   The remaining options are not set (because they are mostly dependent on the size of your object).

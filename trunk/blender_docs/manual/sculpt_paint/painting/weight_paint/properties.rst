@@ -16,13 +16,11 @@ Brush
 
 
 Painting needs paint brushes and Blender provides a Brush Panel within the Tool Shelf when it
-operates in *Weight Paint Mode*. You find predefined Brush Presets when you click on
-the large Brush Icon at the top of the Brush Panel.
-And you can make your own presets as needed.
-See below for the available brush presets and to create custom presets.
+operates in *Weight Paint Mode*. 
 
-The most important and frequently modified properties are:
-
+Brush
+   In the :ref:`Data-Block menu <ui-data-block>` you find predefined Brush Presets.
+   And you can create your own custom presets as needed.
 Weight
    The weight (color) to be used by the brush.
    However, the weight value is applied to the Vertex Group

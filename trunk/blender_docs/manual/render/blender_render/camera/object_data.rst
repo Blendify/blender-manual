@@ -152,8 +152,8 @@ Camera
 
    Camera Presets panel.
 
-
-.. TODO: Camera Presets
+Camera Presets
+   TODO.
 
 .. _render-camera-sensor-size:
 

@@ -19,12 +19,18 @@ Bands are generated based on the sine, saw, or triangular formula and noise turb
 Options
 =======
 
-Soft / Sharp / Sharper
-   Three presets for soft to more clearly defined *Marble*.
-Sin / Saw / Tri
+Marble Type
+   Three settings for soft to more clearly defined *Marble*.
+
+   Soft, Sharp, Sharper
+Noise basis
    Shape of wave to produce bands.
-Soft / Hard
+
+   Sine, Saw, Triangle
+Noise Type
    The noise function works with two methods.
+
+   Soft, Hard
 Size
    The dimensions of the noise table
 Depth

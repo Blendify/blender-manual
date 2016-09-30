@@ -7,7 +7,7 @@ Cloth
 =====
 
 Presets
-   Contains a number of preset cloth examples, and allows you to add your own.
+   Contains a number of preset cloth examples.
 Quality
    Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
 Speed

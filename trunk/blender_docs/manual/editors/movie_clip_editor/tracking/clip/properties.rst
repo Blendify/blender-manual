@@ -130,12 +130,10 @@ Camera Data Panel
 This panel contains all settings of the camera used for filming the movie which is currently
 being edited in the clip editor.
 
-First of all, predefined settings can be used here.
-New presets can be added or unused presets can be deleted. But such settings as distortion
-coefficients and principal point are not included into presets and should be filled in even if
-camera presets are used.
-
-
+Camera Presets
+   Predefined settings can be used here.
+   But such settings as distortion coefficients and principal point are not included in the presets and
+   should be filled in even if camera presets are used.
 Focal Length
    Is self-explanatory; it is the focal length with which the movie was shot.
    It can be set in millimeters or pixels. In most cases focal length is given in millimeters,

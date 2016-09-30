@@ -55,3 +55,31 @@ Move Up
    The button showing an up arrow moves the selected item up one position.
 Move Down
    The down arrow moves the item down.
+
+
+Presets
+======
+
+.. figure:: /images/interface_preset.png
+   :align: right
+
+   Presets without and with specials.
+
+.. Share between properties. i.e different nodes color presets.
+
+Selector
+   A list of available presets. A selection will overrides the included properties.
+Add ``+``
+   New presets can be added based on the in the preset included properties,
+   which will be saved for later re-use.
+   A pop-up opens where you can set a name
+   after which you can select it from the list and
+   in some cases additional settings.
+Remove ``-``
+   Deletes the selected preset.
+Specials
+   The down arrow on dark background opens a pop-up menu with
+   operators context-sensitive to the preset type.
+   i.e. copy paste.
+
+.. saving preset: data-system?
