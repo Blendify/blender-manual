@@ -99,6 +99,8 @@ Context Menu
 Context menus are pop-ups opened with the :kbd:`RMB`.
 Only the common options are listed below.
 
+.. for the property associated with the control.
+
 *Single* set or gets the value of the button under the mouse pointer.
 *All* on the other hand includes all combined buttons.
 
@@ -107,18 +109,28 @@ Reset All/Single to Default Value(s)
 Unset
    ..
 Copy Data Path
-   ..
+   Copies the Python path of the property, relative to the data-block.
 Copy To Selected
-   Copies the properties to the selected object. A use case is if the Properties editor context is pinned.
+   Copies the property value to the selected objects corresponding property.
+   A use case is if the Properties editor context is pinned.
+Add Shortcut
+   Lets you define a keyword or mouse shortcut and associates it with the control.
+   To define the shortcut you must first move the mouse cursor over the button that pops up, 
+   and when "Press a key" appears you must press and/or click the desired shortcut.
+Change Shortcut
+   Lets you redefine the shortcut.
+Remove Shortcut
+   Unlinks the existing shortcut.
 Online Manual
    See :ref:`help-manual-access`.
 Online Python Reference
    Context-sensitive access to the 
    `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
 Edit Source
-   For UI development -- points at the code line where the element is defined.
+   For UI development -- Creates a text data-block with the source code associated with the control, 
+   in case the control is based on a python script. In the Text Editor it points at the code line where the element is defined.
 Edit Translation
-   For UI development -- points at the translation code line.
+   For UI development -- Points at the translation code line.
 
 .. seealso::
 
