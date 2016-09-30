@@ -32,7 +32,6 @@ If you want to avoid switching to Edge Select Mode to select a Face Loop,
 use the :kbd:`Alt-RMB` shortcut.
 
 .. figure:: /images/face-mode_different-loop-selections.png
-   :width: 600px
 
    Different Loopselect Operations on a grid in Face Select Mode.
 

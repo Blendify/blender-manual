@@ -31,10 +31,9 @@ to select connected UVs, not border select because UVs from both will be selecte
 Combining UV Maps
 -----------------
 
-.. figure:: /images/uv-unwrap-bad.png
-   :width: 300px
+.. figure:: /images/editors_uv-image_uv-editing_combining-uv-maps-1.png
 
-   Bad Unwrap-Note Ear and Neck.
+   Bad unwrap, note ear and neck.
 
 
 Very often you will unwrap an object, such as the face example we have been using,
@@ -43,10 +42,9 @@ or are horribly confusing. The picture to the right shows an initial unwrap of t
 the Unwrap from sphere option. The issues are with the ear; it is just a mush of UVs,
 and the neck, it is stretched and folded under. Too much work to clean up.
 
-.. figure:: /images/uv-unwrap-face.png
-   :width: 300px
+.. figure:: /images/editors_uv-image_uv-editing_combining-uv-maps-2.png
 
-   Unwrap Face Only, without Ear or Neck.
+   Unwrap face only, without ear or neck.
 
 
 We can tell that the ear would unwrap nicely with just a straightforward projection from the
@@ -57,10 +55,9 @@ selecting each calculation according to whatever works best for that piece. So l
 We select only the "face" faces, unwrap them using the *Sphere* calculation, and scale and
 rotate them somewhat to fit logically within the image area of the UV/Image Editor.
 
-.. figure:: /images/uv-unwrap-ear.png
-   :width: 300px
+.. figure:: /images/editors_uv-image_uv-editing_combining-uv-maps-3.png
 
-   Unwrap Projection: Ear.
+   Unwrap ear only, using the *Project From View*.
 
 
 Once we are satisfied with the face, it is time to turn our attention to the ear. First,
@@ -82,12 +79,6 @@ each re-calculation just puts those UVs for the selected faces somewhere else. C
 calculation for each piece that gives you the best fit and most logical layout for subsequent
 painting of that piece.
 
-.. figure:: /images/uv-unwrap-all.png
-   :width: 300px
-
-   UV Maps together.
-
-
 When all of the pieces of the mesh have been unwrapped using the various calculations,
 you should end up with something that looks like to the Example to the right.
 All of the sections of the mesh have been mapped,
@@ -95,10 +86,9 @@ and all those maps are laid out in the same UV Texture map. Congratulations! Fro
 it is a simple matter of "stitching" (discussed in the next section)
 to construct the entire UV Map as a single map.
 
-.. figure:: /images/uv-unwrap-combo.png
-   :width: 300px
+.. figure:: /images/editors_uv-image_uv-editing_combining-uv-maps-4.png
 
-   UV Maps Arranged and Stitched.
+   UV Maps arranged together and stitched.
 
 
 When you have completed arranging and stitching, you will end up with a consolidated UV Map,
