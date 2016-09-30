@@ -73,10 +73,10 @@ Loading and Changing Fonts
    Loading a Type 1 font file.
 
 
-Blender comes with a *built-in* font by default and is displayed in each of the four font
-style choosers.
+Blender comes with a *built-in* font by default and is displayed in
+each of the four font style data-block menus .
 The *built-in* font is always present and shows in this list as "Bfont".
-The first icon contains a drop-down list displaying currently loaded fonts.
+The data-block menu contains a list displaying the currently loaded fonts.
 Select one for each font style.
 
 To load a different *Font*, click one of the *Load* buttons in the

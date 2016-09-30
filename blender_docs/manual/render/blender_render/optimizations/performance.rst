@@ -108,6 +108,9 @@ Render Settings
    - Render to an :ref:`UV/Image Editor <editors-uv-image-index>`,
      not a pop-up. :doc:`Render Window </render/output/render_panel>`.
    - Use multiple *Threads* on a multi-core CPU (with multiple *Parts*).
+   - Decrease the frame count of the animation (and use a lower framerate for the same duration of animation).
+     For example, render 30 frames at 10 frames per second for a 3-second animation,
+     instead of 75 frames at 25 frames per second.
 :doc:`Render Layers Panel </render/post_process/layers>`
    - Render only the Layers of interest.
    - Render with all lights set to one simple spot (enter its name in the *Light:* field).
@@ -130,10 +133,6 @@ Shading Panel
    - Render at a percentage size of your final resolution (like 25%).
    - Turn off *Fields* rendering.
    - Use *Border* rendering to render a subset of the full image.
-:doc:`Anim Panel </render/workflows/animations>`
-   - Decrease the frame count of the animation (and use a lower framerate for the same duration of animation).
-     For example, render 30 frames at 10 frames per second for a 3-second animation,
-     instead of 75 frames at 25 frames per second.
 :doc:`Bake Panel </render/blender_render/bake>`
    - Bake Full Render creates a UV Texture that colors the objects based on materials,
      and then uses that UV Texture shadeless instead of the material.

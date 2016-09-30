@@ -51,23 +51,19 @@ Coloring from Bone Group
 
 The bone groups panel is available in the Armature tab of the Properties editor.
 Bone groups facilitate the coloring (theming) of multiple bones.
-Bone groups are managed mostly in the Properties editor, *Edit Mode*.
+Bone groups are managed mostly in the Properties editor, *Pose Mode*.
 
 To create a new bone group,
-click on the *Add Group* button in the *Bone Groups:* buttons set
-(*Link and Materials* panel). Once created,
-you can use the top row of controls to select another group in the drop-down list
-("arrows" button), rename the current group (text field), or delete it ("X" button).
+click on the *Add Group* button in the *Bone Groups* list view.
 
 .. figure:: /images/rigging_posing_visualization_bone-group-list.png
 
-   The Bone Group drop-down list.
-
+   The Bone Group data-ID.
 
 To assign a selected bone to a given bone group you can do one of the following:
 
 - In the Bone Groups, select an existing group, and click *Assign*
-- In the Relations panel of the *Bones* tab, use the *Bone Group* drop-down list to select the chosen one.
+- In the Relations panel of the *Bones* tab, use the *Bone Group* data-ID to select the chosen one.
 
 
 In the 3D Views, using the :menuselection:`Pose --> Bone Groups` menu entries,
@@ -89,7 +85,7 @@ Remove Bone Group
 
 You can also assign a "color theme" to a group (each bone will have these colors).
 Remember you have to enable the *Colors* button (*Armature* panel)
-to see these colors. Use the *Bone Color Set* drop-down list to select:
+to see these colors. Use the *Bone Color Set* select menu:
 
 - *Default Colors*: The default (gray) colors.
 - *nn* - *Theme Color Set*: One of the twenty Blender presets, common to all groups.

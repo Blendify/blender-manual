@@ -70,7 +70,7 @@ It contains the input (from target) settings.
 Map From
    The radio buttons, allow you to select which type of property to use.
 
-   Loc(ation), Rot(ation), and Scale
+   Location, Rotation, and Scale
 From
    Independently for each axis (X, Y, and Z) the min and max number buttons control
    the lower and upper bounds of the input value range.
@@ -78,7 +78,7 @@ From
    the constraint behaves as if it had the same value as the max one.
 
 Source to Destination Mapping
-   The three *Axis Mapping* drop-down lists allow you to select which input axis to map to,
+   The three *Axis Mapping* selectors allow you to select which input axis to map to,
    respectively (from top to bottom), the X, Y and Z output (owner) axes.
 
 
@@ -90,7 +90,7 @@ It contains the output (to owner) settings.
 Map To
    The three radio buttons allow you to select which type of property to control.
 
-   Loc(ation), Rot(ation), and Scale
+   Location, Rotation, and Scale
 To
    The *min* and *max* number buttons control the lower and upper bounds of the output value range,
    independently for each mapped axis.
@@ -102,7 +102,7 @@ Space
 
 .. note::
 
-   - When mapping transform properties to location (i.e. *Loc*, *Destination* button is enabled),
+   - When mapping transform properties to location (i.e. *Location*, *Destination* button is enabled),
      the owner's existing location is added to the result of evaluating this constraint
      (exactly like when the *Offset* button of the
      :doc:`Copy Location constraint </rigging/constraints/transform/copy_location>` is enabled...).

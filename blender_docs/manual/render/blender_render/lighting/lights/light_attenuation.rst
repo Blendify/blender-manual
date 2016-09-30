@@ -10,8 +10,8 @@ Light Attenuation
 
 There are two main controls for light falloff for *Point* and *Spot* lamps.
 
-- The lamp *Falloff* type drop-down list, and
-- The *Sphere* button.
+- The lamp *Falloff* type selector.
+- And the *Sphere* checkbox.
 
 
 Falloff types

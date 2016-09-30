@@ -31,7 +31,7 @@ Properties
 ==========
 
 Mix
-   The Blend types could be selected in the drop-down menu.
+   The Blend types could be selected in the select menu.
    See :term:`Color Blend Modes` for details on each blending mode.
 
    Add, Subtract, Multiply, Screen, Divide, Difference,

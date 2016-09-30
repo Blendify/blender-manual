@@ -4,10 +4,10 @@ The Constraints Stack
 *********************
 
 The combination of all the constraints that affect an object are called the Constraints Stack.
-The Stack is in the Constraints panel, below the "Add Constraint" drop-down box.
+The Stack is in the Constraints panel, below the "Add Constraint" menu.
 
 Constraints in the stack are evaluated from top to bottom.
-The order of each constraint has a substantial impace on the final outcome of the stack.
+The order of each constraint has a substantial impact on the final outcome of the stack.
 Changing the order of the constraints can change the behavior of the entire stack.
 
 .. figure:: /images/rigging_constraints_introduction_stack.png

@@ -35,7 +35,7 @@ To parent and/or connect bones, you can:
       they will just be translated if you chose to connect them to their parent's tip.
 
 - In the Properties editor, *Bones* tab, for each selected bone,
-  you can select its parent in the *Parent* drop-down list to the upper right corner of its Relations panel.
+  you can select its parent in the *Parent* data-ID to the upper right corner of its Relations panel.
   If you want them to be connected, just enable the checkbox to the right of the list.
 
   .. note::
@@ -68,7 +68,7 @@ To parent and/or connect bones, you can:
 
           Bone.005 parented and connected to Bone.002.
 
-          Using the Parent drop-down list of Bone.005 Relations panel.
+          Using the Parent data-ID of Bone.005 Relations panel.
 
 
 To disconnect and/or free bones, you can:
@@ -78,7 +78,7 @@ To disconnect and/or free bones, you can:
   In the small *Clear Parent* menu that pops up, choose *Clear Parent* to completely free all selected bones,
   or *Disconnect Bone* if you just want to break their connections.
 - In the Properties editor, *Bones* tab, for each selected bone, you can select no parent in the
-  *Parent* drop-down list of its Relations panel, to free it completely.
+  *Parent* data-ID of its Relations panel, to free it completely.
   If you just want to disconnect it from its parent, disable the *Connected* checkbox.
 
 Note that relationships with non-selected children are never modified.

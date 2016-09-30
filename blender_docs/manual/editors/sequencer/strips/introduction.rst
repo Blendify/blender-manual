@@ -11,7 +11,7 @@ Introduction
 
 The Add menu is the main menu you will be using to add content to the VSE. In general,
 you load up your strips, create strips of special transition effects,
-and then animate out your sequence by selecting "Do Sequence" and clicking the Anim button.
+and then animate out your sequence by selecting "Do Sequence" and clicking the *Animation* button.
 You can use the Add menu in the header,
 or hover your mouse cursor over the Sequence workspace and press :kbd:`Shift-A`.
 

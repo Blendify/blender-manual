@@ -27,7 +27,7 @@ Each modifiers have several buttons at their top:
 
 Strip
    Use this to apply the modification on the whole image, or to use another strip's image (with alpha channel)
-   for masking the modifier (and only this modifier), by choosing it in the "Mask" drop-down list.
+   for masking the modifier (and only this modifier), by choosing it in the "Mask" select menu.
 Mask
    This allows you to choose a Mask created in the Mask editor
    which will limit the modification to the masked image's zones.

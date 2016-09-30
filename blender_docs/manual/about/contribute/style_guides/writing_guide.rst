@@ -75,7 +75,7 @@ To be avoided:
 - Avoid repetition of large portions of text. Simply explain it once, and from then on refer to that explanation.
 
   For general terminology, consider defining a ``:term:`` in the :doc:`glossary </glossary/index>`.
-- Avoid enumerations of similar options, such as listing every preset or every frame-rate in a drop-down.
+- Avoid enumerations of similar options, such as listing every preset or every frame-rate in a select menu.
 
   Their contents may be summarized or simply omitted.
   -- Such lists are only showing what is already *obvious* in the interface

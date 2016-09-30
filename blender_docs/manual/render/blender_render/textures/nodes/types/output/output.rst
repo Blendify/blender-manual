@@ -11,7 +11,7 @@ Output
 This node contains the result of the node texture.
 
 Multiple output nodes can exist in a node texture, however, only one of them is active.
-The active one is set in the Texture Panel in the *Output* drop down.
+The active one is set in the Texture Panel in the *Output* selector.
 
 
 Inputs

@@ -71,7 +71,7 @@ The easiest way to manage bones relationships is to use the *Relations* panel *B
 
 - First, :doc:`select </rigging/armatures/bones/selecting>` the bones you want to edit
   (selection order does not matter here).
-- To *parent* a bone to another one, select the name of this parent in its drop-down *Parent* list.
-- To *unparent* a bone, just select the void entry in the same *Parent* list.
-- To *connect* a bone to its parent, enable its small *Con* button.
-- To *unconnect* a bone, disable its *Con* button.
+- To *parent* a bone to another one, select the name of this parent in its data-ID *Parent*.
+- To *unparent* a bone, just select the void entry in the same *Parent* data-ID.
+- To *connect* a bone to its parent, enable its small *Connected* checkbox.
+- To *unconnect* a bone, disable its *Connected* checkbox.

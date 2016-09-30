@@ -120,7 +120,7 @@ Texturing along the Strand
 ==========================
 
 Strands can be textured along the strand, i.e. from root to tip. To do that you have to select
-*Strand/Particle* in the *Coordinates* drop-down in the
+*Strand/Particle* in the *Coordinates* select menu in the
 *Mapping* panel of the *Material* tab.
 
 Pretty much the most important setting is shown in Fig. :ref:`fig-bi-material-strands-alpha`,

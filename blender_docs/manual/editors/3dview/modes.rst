@@ -8,7 +8,7 @@ Object Modes
 .. figure:: /images/editors_3dview-mode.jpg
    :align: right
 
-   The Mode drop-down list.
+   The Mode select menu.
 
 *Modes* are a Blender-level object-oriented feature,
 which means that whole Blender application is always in a singular mode,
@@ -17,7 +17,7 @@ most of them only enable the default *Object Mode* (like cameras, lamps, etc.).
 Each mode is designed to edit an aspect of the selected object.
 See Tab. :ref:`tab-view3d-modes` below for details.
 
-You set the current mode in the *Mode* drop-down list of *3D View* header
+You set the current mode in the *Mode* selector of *3D View* header
 (see Fig. :ref:`fig-view3d-mode-select`).
 
 .. warning::
