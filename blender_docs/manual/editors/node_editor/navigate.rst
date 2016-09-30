@@ -21,7 +21,7 @@ Node Editor Actions
 When the cursor is in the area, several standard Blender hotkeys and mouse actions are available, including:
 
 Search... (add menu)
-   Brings up a pop-up menu, allowing you to add, view, select, etc.
+   Brings up a pop-up menu, allowing you to search the available nodes.
 Undo
    :kbd:`Ctrl-Z`
 Redo

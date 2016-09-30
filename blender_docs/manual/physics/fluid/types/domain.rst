@@ -139,10 +139,9 @@ Domain World
    The Domain World options.
 
 
-Viscosity
+Viscosity Presets
    The "thickness" of the fluid and actually the force needed to move an object of a certain surface area through it
-   at a certain speed. You can either enter a value directly or use one of the presets in the drop down (such as
-   honey, oil, or water).
+   at a certain speed.
 
    For manual entry, please note that the normal real-world viscosity (the so-called dynamic viscosity)
    is measured in Pascal-seconds (Pa.s), or in Poise units (P, equal to 0.1 Pa.s, pronounced *pwaz*,

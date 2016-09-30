@@ -9,62 +9,6 @@ well as define your own keymap.
 .. figure:: /images/user_prefs-input_tab.png
 
 
-Presets
-=======
-
-Blender lets you define multiple *Preset* input configurations.
-Instead of deleting the default keymap to create yours,
-you can just add new *Presets* for both the mouse and keyboard. Mouse options can be
-found on the left-hand side of the editor and keyboard options to the right in the above
-picture.
-
-
-Adding and deleting presets
----------------------------
-
-.. figure:: /images/interface-configuration-input-adddeletepreset.png
-
-Before changing anything in the default configuration,
-click on the "plus" symbol shown in the picture to add a new *Preset*. Blender will
-ask you to name your new preset after which you can select the *Preset* from the
-list to edit it. If you want to delete your *Preset*,
-select it from the list and then click the "minus" symbol.
-
-
-Selecting presets
------------------
-
-You can change the preset you are using by doing one of the following:
-
-
-- Selecting the configuration from the *Interaction* menu of the splash screen at startup or by selecting
-  :menuselection:`Help --> Splash Screen`.
-- Selecting the configuration from the *User Preferences* Input tab.
-
-
-.. note::
-
-   Note that either of the above options will only change the preset for the current file. If you select
-   :menuselection:`File --> New` or :menuselection:`File --> Open`, the default preset will be re-loaded.
-
-
-Setting presets to default
---------------------------
-
-.. figure:: /images/interface-configuration-input-splashscreeninteraction.jpg
-   :width: 307px
-
-
-Once you have configured your mouse and keyboard *Presets*,
-you can make this the default configuration by:
-
-
-- Opening the *User Preferences Input* editor and select your presets from the preset list or,
-- Selecting your preset configuration from the splash screen.
-- Saving your configuration using the *Save As Default* option from a *User Preferences* editor or by pressing
-  :kbd:`Ctrl-U`.
-
-
 Export/Import key configuration
 ===============================
 
@@ -84,6 +28,9 @@ This exported file may be thought of as a *"keymap delta"* instead of a full key
 Mouse
 =====
 
+Mouse Presets
+   A list of predefined mouse settings. This preset together with the *Keymap Presets* are also set
+   by the *Interaction* menu in the splash screen.
 Emulate 3 Button Mouse
    Blender can be configured to work with pointing devices which do not have a middle-mouse button
    (such as a two-button mouse, Apple single-button mouse, or laptop touch-pad).
@@ -210,11 +157,15 @@ Keymap Editor
 
 The Keymap editor lets you change the default Hotkeys. You can change keymaps for each of Blender's editors.
 
+Keymap Presets
+   A list of predefined keymaps.
+
 - Select the keymap you want to change and click on the white arrows to open up the keymap tree.
 - Select which Input will control the function.
 
   - Keyboard: Only hotkey or combo hotkey :kbd:`E`, :kbd:`Shift-E`.
   - Mouse: Left/middle/right click. Can be combined with :kbd:`Alt`, :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Cmd`.
+  - NDOF: ToDo.
   - Tweak: Click and drag. Can also be combined with the four previous keys.
   - Text input: Use this function by entering a text.
   - Timer: Used to control actions based on a time period.
@@ -224,3 +175,8 @@ The Keymap editor lets you change the default Hotkeys. You can change keymaps fo
 
 If you want to restore the default settings for a keymap,
 just click on the *Restore* button at the top right of this keymap.
+
+.. tip::
+
+   Instead of deleting the default keymap to create yours,
+   you can just add new *Preset* for both the mouse and keyboard.

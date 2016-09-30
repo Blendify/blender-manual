@@ -20,10 +20,5 @@ Color Panel
 
 Color Presets
    Colors saved as a preset for re-use in other nodes.
-
-      Add ``+``
-         Add a named color for the preset.
-      Delete ``-``
-         Deletes the selected preset.
 Color
    Color of the node background. Node colors can can be used to provide a visual cue.

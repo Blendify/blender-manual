@@ -24,9 +24,10 @@ Options
 Anti-Aliasing (check box)
    Enables oversampling.
 
-5, 8, 11, 16
-   The number of samples to use. The values 5, 8, 11, 16 are preset numbers in specific sample patterns;
-   a higher value produces better edges, but slows down the rendering.
+Samples
+   The number of samples per pixel. Higher value produces better edges, but slows down the rendering.
+
+   5, 8, 11, 16
 
 By default, we use in Blender a fixed "Distributed Jitter" table. The samples within a pixel
 are distributed and jittered in a way that guarantees two characteristics:

@@ -23,7 +23,6 @@ on the screen. Everything within the two rectangles may or may not be visible,
 depending on the given TV set that your audience watches the video on.
 
 
-
 .. Remove:? Talk to Sergey.
 
 Color Saturation
@@ -85,12 +84,8 @@ When you view the :doc:`System Console </advanced/command_line/introduction>`,
 you can see some of the output of the encoding process.
 You will see even more output if you execute Blender as ``blender -d``.
 
-You can use the presets, DV, SVCD, DVD, etc.
-which choose optimum settings for you for that type of output,
-or you can manually select the format (MPEG-1, MPEG-2, MPEG-4, AVI, Quicktime (if installed),
-DV, H.264, or Xvid (if installed). You must have the proper codec installed on your computer
-for Blender to be able to call it and use it to compress the video stream.
-
+Presets
+   You can use the presets, which choose optimum settings for you for that type of output.
 Format
    Video container or file type. For a list of all available options see
    :doc:`video formats </data_system/files/media/video_formats>`.

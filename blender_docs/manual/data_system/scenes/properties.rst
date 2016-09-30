@@ -33,29 +33,29 @@ Active Clip
 Units
 =====
 
-Unit Presets
+System
    Common units of measurement to use.
 
-Length
-   None
-      Uses :term:`Blender Units`.
+   Length
+      None
+         Uses :term:`Blender Units`.
 
-   Metric/Imperial
-      Standard unit of measurement for lengths.
+      Metric/Imperial
+         Standard unit of measurement for lengths.
 
-Angle
-   Standard unit for angular measurement.
-   
-   .. tip::
+   Angle
+      Standard unit for angular measurement.
+      
+      .. tip::
 
-      When you are using *Degrees* the radian value is also displayed in the tooltip.
+         When you are using *Degrees* the radian value is also displayed in the tooltip.
 
 Unit Scale
    Scale factor to use when converting between :term:`Blender Units` and *Metric*/*Imperial*.
 
    .. tip::
 
-      Usually you will want to use the *Unit Presets* to change to scale factor,
+      Usually you will want to use the *System* presets to change to scale factor,
       as this does not require looking up values to use for conversion.
 
 Separate Units

@@ -16,16 +16,23 @@ Dimensions panel
 
    Dimensions Panel.
 
+Render Presets
+   Common format presets for TVs and screens.
+
 Resolution
    X/Y
       The number of pixels horizontally and vertically in the image.
-   Percentage slider
-      Reduce or increase the size of the rendered image relative to the X/Y values above.
+   Percentage
+      Slider to reduce or increase the size of the rendered image relative to the X/Y values above.
       This is useful for small test renders that are the same proportions as the final image.
 
 Aspect Ratio
    Older televisions may have non-square pixels,
    so this can be used to control the shape of the pixels along the respective axis.
+   This will *pre-distorted* the images which will look stretched on a computer screen,
+   but which will display correctly on a TV set.
+   It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
+   resulting in lowered image quality.
 
    See :doc:`Video Output </render/output/video>` for details on pixel aspect ratio.
 
@@ -52,19 +59,6 @@ Frame Rate
 Time Remapping
    Use to remap the length of an animation.
 
-Presets
--------
-
-To make life easier the topmost menu provides some common presets.
-You can add your own or remove one with the ``+`` and ``-`` buttons:
-
-.. note::
-
-   Unlike regular computer monitors, some screens (typically older TV sets)
-   do *not* have the square pixels making it it necessary to generate
-   *pre-distorted* images which will look stretched on a computer but which will display correctly on a TV set.
-   It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
-   resulting in lowered image quality.
 
 .. _render-tab-output:
 

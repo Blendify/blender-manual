@@ -17,9 +17,10 @@ The following sections describe the controls in each of the available panels.
 Brush
 -----
 
-Brush Data-Block
-   The image, name panel and color widget at the top allows you to select brush presets,
-   rename brushes, as well as add custom brushes, and delete them.
+Brush
+   The :ref:`Data-Block menu <ui-data-block>` allows you to select brush presets, as well as custom brushes.
+Color
+   Color picker.
 Radius
    Set the radius of the brush
 Strength

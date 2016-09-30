@@ -98,8 +98,8 @@ like Clouds, are incredibly simple and useful for adding realism and details to 
    * - Can have many for a mesh.
      - Can be layered, up to 10 textures can be applied, layering on one another.
        Many mix methods for mixing multiple channels together.
-   * - Any Image type (still, video, rendered). Preset test grid available.
-     - Many different presents: clouds, wood grain, marble, noise, and even magic.
+   * - Any Image type (still, video, rendered). Generated test grid available.
+     - Many different types: clouds, wood grain, marble, noise, and even magic.
    * - Provides the UV layout for animated textures.
      - Noise is the only animated procedural texture.
    * - Takes very limited graphics memory
