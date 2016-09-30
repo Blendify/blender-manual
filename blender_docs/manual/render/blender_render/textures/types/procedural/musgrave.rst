@@ -19,7 +19,7 @@ Options
 
 Type
    This procedural texture has five noise types on which the resulting pattern can be based
-   and they are selectable from a dropdown menu at the top of the tab. The five types are:
+   and they are selectable from a select menu at the top of the tab. The five types are:
 
    - Hetero Terrain
    - Fractal Brownian Motion (fBm)

@@ -277,7 +277,7 @@ Billboard Split UV
    (check the *Object Data* tab in the Properties editor).
 
 Animate
-   Dropdown menu, indicating how the split UVs could be animated (changing from particle to particle with time):
+   Select menu, indicating how the split UVs could be animated (changing from particle to particle with time):
 
    None
       No animation occurs on the particle itself, the billboard uses one section of the texture in its lifetime.

@@ -29,7 +29,7 @@ viewpoint, we can render the light that reaches the
 surface of an object (and hence, the light that might ultimately be reflected to the camera).
 Blender's environment mapping renders a
 cubic image map of the scene in the six cardinal directions from any point. When the six tiles
-of the image are mapped onto an object using the *Refl* input coordinates,
+of the image are mapped onto an object using the *Reflection* input coordinates,
 they create the visual complexity that the eye expects to see from shiny reflections.
 
 .. note::
@@ -46,7 +46,7 @@ Options
 
 .. important::
 
-   For correct results, the mapping of an environment map texture must be set to 'Refl'
+   For correct results, the mapping of an environment map texture must be set to *Reflection*
    (reflection co-ordinates) in the Map Input panel of the Material tab.
 
 .. _fig-bi-environment-panel:
@@ -70,24 +70,21 @@ Image File
    and also gives the ability to modify or use the environment map in an external application.
 
    When using planar reflections, if the camera is the only moving object and you have a reflecting plane,
-   the Empty must move too and you must use *Anim* environment map.
+   the Empty must move too and you must use *Animated* environment map.
    If the reflecting object is small and the Empty is in its center, the environment map can be *Static*,
    even if the object itself rotates since the Empty does not move. If, on the other hand,
-   the Object translates the Empty should follow it and the environment map be of *Anim* type.
-
-
-Options in dropdown menu:
-
-Clear Environment Map
-   Clears the currently rendered environment map from memory.
-   This is useful to refresh a *Static* environment maps and you have changed
-   things in your scene since the last time the environment map was rendered.
-   *Anim* environment maps do this automatically on every render.
-Save Environment Map
-   Saves the currently stored static environment map to disk as an image file. This can be loaded again with *Load*.
-Clear All Environment Maps
-   Does the same as *Free Data*, but with all environment maps in the scene.
-   This is a useful shortcut when using recursive environment maps (when the *Depth* is greater than 0).
+   the Object translates the Empty should follow it and the environment map be of *Animated* type.
+Specials
+   Clear Environment Map
+      Clears the currently rendered environment map from memory.
+      This is useful to refresh a *Static* environment maps and you have changed
+      things in your scene since the last time the environment map was rendered.
+      *Animated* environment maps do this automatically on every render.
+   Save Environment Map
+      Saves the currently stored static environment map to disk as an image file. This can be loaded again with *Load*.
+   Clear All Environment Maps
+      Does the same as *Free Data*, but with all environment maps in the scene.
+      This is a useful shortcut when using recursive environment maps (when the *Depth* is greater than 0).
 
 .. note::
 
@@ -107,13 +104,13 @@ Viewpoint Object
      This is the most accurate usage of Environment maps.
    - For spherical reflections, the object should be in the center of the sphere. Generally,
      if the reflecting sphere's object center point is in the center of its vertices,
-     you can just use the name of the actual sphere object as the *Ob:*
+     you can just use the name of the actual sphere object as the *Viewpoint Object*
    - For irregular reflections, there is no hard and fast rule,
      you will probably need to experiment and hope that the inaccuracy does not matter.
 
 Ignore Layers
    The layers to exclude from the environment map creation.
-   Since environment maps work by rendering the scene from the location of the *Ob:* object,
+   Since environment maps work by rendering the scene from the location of the *Viewpoint Object*,
    you will need to exclude the actual reflecting surface from the environment map,
    otherwise it will occlude other objects that should be reflected on the surface itself.
 
@@ -177,7 +174,7 @@ Examples
 ========
 
 In this example,
-an empty is used as the *Ob:* of the reflecting plane's environment map.
+an empty is used as the *Viewpoint Object* of the reflecting plane's environment map.
 It is located in the specular position of the camera with respect to the reflecting surface.
 (This is possible, strictly speaking, only for planar reflecting surfaces.) Ideally, the
 location of the empty would mirror the location of the camera across the plane of the polygon
