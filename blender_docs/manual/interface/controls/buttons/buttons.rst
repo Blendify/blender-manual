@@ -3,6 +3,8 @@
 Buttons
 *******
 
+.. rename to tool, operator?
+
 .. _ui-operation-buttons:
 
 Operation Buttons

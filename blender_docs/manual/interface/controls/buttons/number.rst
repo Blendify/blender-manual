@@ -11,7 +11,7 @@ Number Buttons
 
    (grouped or single).
 
-Number buttons hold numeric values
+Number buttons hold numeric values.
 
 Number buttons can be identified by the triangles pointing left (◂) and right (▸) on the sides of the button.
 The second type number sliders have a bar in the background and are used for values in a range,
@@ -44,7 +44,7 @@ Multi-Value Editing
 
    Multi-value editing.
 
-Number buttons can be edited with multiple values at once (object scale or render resolution for example).
+Number buttons can be edited multiple values at once (object scale or render resolution for example).
 This can be done by clicking on the button and dragging vertically to include buttons above/below.
 After the vertical motion you can drag from side to side, or release the :kbd:`LMB` to type in a value.
 

@@ -11,15 +11,25 @@ Tooltips
 
 .. figure:: /images/getting_started_help_tooltip.png
 
-   The Mouse pointer was Stopped for a while over the Render Engines List in the Info Editor.
+   Tooltip of the Render Engine selector in the Info Editor.
 
 
-When hovering your cursor over a button or setting,
-it will show you the *Tooltip*, and related details depending on the button type,
-such as the key-shortcut for a tool.
+When hovering the mouse cursor over a button or setting, after a few instants a tooltip appears.
 
-The *Python:* text included last may be of interest to you if you are an animator
-or automating tasks, see :ref:`scripting-index`.
+
+Elements
+---------
+
+The context-sensitive Tooltip might contain some of these elements:
+
+Short Description
+   Related details depending on the control.
+Shortcut
+   A keyboard or mouse shortcut associated to the tool.
+Value
+   The value of the property.
+Python
+   For :ref:`scripting-index` -- A Python command associated to the control (usually an operator or property).
 
 
 .. _help-manual-access:
