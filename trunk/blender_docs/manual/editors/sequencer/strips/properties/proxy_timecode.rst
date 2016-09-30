@@ -20,7 +20,7 @@ for the big images and may take some time. After computing them, though, editing
 like scrubbing and scrolling and compositing functions like cross using these proxies is much
 faster but gives a low-res result. Disable proxies before final rendering.
 
-In order to actually use the proxies, the proper Proxy Render Size dropdown value must
+In order to actually use the proxies, the proper Proxy Render Size selector value must
 be selected in the Properties region of the Sequencer View (where the edit plays back).
 
 Proxy Storage

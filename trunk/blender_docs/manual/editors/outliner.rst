@@ -135,7 +135,7 @@ Filtering the display
 .. figure:: /images/outliner-display-mode.png
    :align: right
 
-   Outliner Display dropdown.
+   Outliner Display selector.
 
 
 The editors header has a field to let you select what the outliner should show to help you narrow the

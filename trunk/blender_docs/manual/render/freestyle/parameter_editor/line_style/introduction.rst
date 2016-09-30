@@ -21,7 +21,7 @@ These allow you to get many different styles of renders
 (technical draw, rough sketch, cartoon, oriental calligraphy, etc.).
 
 You can create as many line styles as you wish, and reuse a given line style for several line
-sets by selecting it from the dropdown menu next to its name.
+sets by selecting it from the select menu next to its name.
 
 .. note:: Length Unit
 

@@ -46,7 +46,7 @@ Random
    Rand allows a random variation of the Phase.
 
 Angular Velocity
-   The magnitude of angular velocity, the dropdown specifies the axis of angular velocity to be.
+   The magnitude of angular velocity, the selector specifies the axis of angular velocity to be.
 
    None
       a zero vector (no rotation).

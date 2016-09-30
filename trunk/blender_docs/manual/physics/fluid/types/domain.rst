@@ -92,7 +92,7 @@ Display quality
    When no baked data is found, the original mesh will be displayed by default.
 
    After you have baked a domain, it is displayed (usually) in the Blender window as the preview mesh.
-   To see the size and scope of the original domain box, select *Geometry* in the left dropdown.
+   To see the size and scope of the original domain box, select *Geometry* in the left selector.
 
 Time
    Start
