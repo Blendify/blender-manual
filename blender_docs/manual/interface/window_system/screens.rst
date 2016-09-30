@@ -3,10 +3,10 @@
 Screens
 *******
 
-.. figure:: /images/scene-sr_layout_dropdown25.png
+.. figure:: /images/interface_screen_data-block.png
    :align: right
 
-   Layout Dropdown.
+   The Screen data-block menu with pop-up.
 
 
 *Screens* are essentially pre-defined window layouts.

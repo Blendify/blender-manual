@@ -151,7 +151,7 @@ NDOF device
 Keymap Editor
 =============
 
-.. figure:: /images/interface-configuration-input-keymapeditor.jpg
+.. figure:: /images/user_prefs_input-keymapeditor.jpg
    :width: 320px
 
 

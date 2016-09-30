@@ -110,7 +110,7 @@ Filter File Extensions
    (i.e. blend-files when loading a complete *Blender* setting).
    The selection of file types may be changed in the file dialog.
 
-   .. figure:: /images/interface-configuration-file-filefilter-25.png
+   .. figure:: /images/user_prefs_file-filefilter.png
 
       File extension filter.
 

@@ -195,7 +195,7 @@ application of textures and lighting.
 
 .. _fig-view3d-transform-landscape-rendered:
 
-.. figure:: /images/editors_3dview_objects_transform_roportional-edit_example.jpg
+.. figure:: /images/editors_3dview_objects_transform_proportional-edit_example.jpg
    :width: 620px
 
    Final rendered landscape.
