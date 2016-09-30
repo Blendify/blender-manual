@@ -105,6 +105,6 @@ Cache
       You cannot modify this range without deleting the motion path first.
    Calculate Paths/ Update Paths
       If no paths have been calculated, Calculate Paths will create a new motion path in cache.
-      In the pop-up box, select the frame range to calculate.
+      In the pop-up menu, select the frame range to calculate.
       If a path has already been calculated, Update Paths will update the path shape to the current animation.
       To change the frame range of the calculated path, you need to delete the path and calculate it again.

@@ -90,7 +90,7 @@ except for a couple of differences. The textures can be mapped according to:
 .. figure:: /images/render_blender-render_world_background_texture-coordinates.png
    :align: right
 
-   Texture Coordinates pop-up menu.
+   Texture Coordinates select menu.
 
 Texture Coordinates
    View
