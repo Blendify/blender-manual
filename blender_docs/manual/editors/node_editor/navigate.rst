@@ -20,8 +20,8 @@ Node Editor Actions
 
 When the cursor is in the area, several standard Blender hotkeys and mouse actions are available, including:
 
-Search .. (add menu)
-   :kbd:`Space` brings up a main pop-up menu, allowing you to add, view, select, etc.
+Search... (add menu)
+   Brings up a pop-up menu, allowing you to add, view, select, etc.
 Undo
    :kbd:`Ctrl-Z`
 Redo

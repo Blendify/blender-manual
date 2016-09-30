@@ -460,8 +460,8 @@ Subdividing Bones
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Subdivide`, :menuselection:`Armature --> Subdivide Multi`
-   | Hotkey:   :kbd:`W-1`, :kbd:`W-2`
+   | Menu:     :menuselection:`Armature --> Subdivide`
+   | Hotkey:   :kbd:`W 1`
 
 
 You can subdivide bones, to get two or more bones where there was just one bone.
@@ -473,13 +473,13 @@ To create two bones out of each selected bone:
 - Press :kbd:`W` :menuselection:`--> Subdivide`, same as :kbd:`W-1`, or
 - select :menuselection:`Armature --> Subdivide` from the header menu.
 
-To create an arbitrary number of bones from each selected bone:
+To create an arbitrary number of bones from each selected bone in the
+Subdivide Multi Operator panel.
 
-- Press :kbd:`W` :menuselection:`--> Subdivide Multi`, same as :kbd:`W-2`, or
-- select :menuselection:`Armature --> Subdivide Multi` from the header menu.
+Number of Cuts
+   Specifies the number of cuts. As in mesh editing,
+   if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 
-Then specify the number of cuts you want in the pop-up. As in mesh editing,
-if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 
 .. list-table:: Subdivision example.
 

@@ -52,7 +52,7 @@ Nodes
 Data-block Links
    Specifies whether the material is to be linked to the Object or to the Object Data.
 
-   The Link pop-up menu has two choices, Data and Object.
+   The Link selector has two choices, Data and Object.
    These two menu choices determine whether the material is linked to the object or to the data,
    (i.e. a mesh or curve). The Data menu item determines that this material will be linked to the mesh's
    data-block which is linked to the object's data-block.
