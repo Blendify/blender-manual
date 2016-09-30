@@ -29,7 +29,8 @@ Shortcut
 Value
    The value of the property.
 Python
-   For :ref:`scripting-index` -- A Python command associated to the control (usually an operator or property).
+   For :ref:`scripting <scripting-index>` -- A Python command associated to
+   the control (usually an operator or property).
 
 
 .. _help-manual-access:
