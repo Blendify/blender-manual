@@ -71,7 +71,7 @@ Position
 --------
 
 You can change the position of a panel within its region by clicking and
-dragging it with the :kbd:`LMB` on the little widget (\:\:\:\:) in the upper right corner.
+dragging it with the :kbd:`LMB` on the grip widget (\:\:\:\:) in the upper right corner.
 
 
 Zoom

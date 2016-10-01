@@ -33,3 +33,15 @@ you have to select the chosen bone(s)!
 - In the *3D View* editor, use the menu :menuselection:`Armature --> Move Bone To Layer` or
   :menuselection:`Pose --> Move Bone To Layer` or press :kbd:`M` to show the usual pop-up layers menu.
   Note that this way, you assign the same layers to all selected bones.
+
+
+.. _bone_relations_bone_group:
+
+Bone Group
+==========
+
+.. figure:: /images/rigging_posing_visualization_bone-group-list.png
+
+   The Bone Group data-ID.
+
+To assign a selected bone to a given bone group use the *Bone Group* data-ID.

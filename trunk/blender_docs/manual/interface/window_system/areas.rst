@@ -49,7 +49,7 @@ This is so that the combined area space results in a rectangle.
 
 .. figure:: /images/interface-window_system-arranging_areas-join_areas.png
    :width: 250px
-   
+
    The Properties Editor is being merged "over" the Outliner.
 
 The area that will closed gets a dark overlaid with an arrow.
@@ -59,16 +59,18 @@ Release the :kbd:`LMB` to complete the join.
 If you press :kbd:`Esc` or  :kbd:`RMB` before releasing the mouse, the operation will be aborted.
 
 
-Area options
+Area Options
 ^^^^^^^^^^^^
 
 :kbd:`RMB` on the border opens the *Area Options*.
 
 Split Area
    Shows a indicator line that lets you select the area and position where to split.
-   :kbd:`Tab` switches between vertical/horizontal. confirm, or cancel
+   :kbd:`Tab` switches between vertical/horizontal. 
 Join Area
    Shows the join direction overlay.
+
+Confirm or cancel works as described above.
 
 
 Swapping Contents
