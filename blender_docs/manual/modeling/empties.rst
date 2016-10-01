@@ -80,7 +80,7 @@ meaning complex deformations can be achieved by only moving a single object.
 
 .. list-table::
 
-   * - .. figure:: /images/array_multi_dimension.jpg
+   * - .. figure:: /images/modeling_modifiers_generate_array_example-fractal-1.jpg
           :width: 200px
 
           An example of an empty being used to control an array.

@@ -17,7 +17,7 @@ Multiple array modifiers may be active for an object at the same time
 Options
 =======
 
-.. figure:: /images/modifier_generate_array_if.jpg
+.. figure:: /images/modeling_modifiers_generate_array.png
    :align: right
 
    Array modifier.
@@ -25,7 +25,7 @@ Options
 
 Fit Type menu
    Controls how the length of the array is determined. There are three choices, activating respectively the
-   display of the *Curve*, *Length* or *Count* settings explained below:.
+   display of the *Curve*, *Length* or *Count* settings explained below:
 
    Fit Curve
       Generates enough copies to fit within the length of the curve object specified in *Curve*.
@@ -58,16 +58,16 @@ Constant Offset, X, Y, Z
    X, Y and Z constant components can be specified.
 
 Relative Offset, X, Y, Z
-   .. figure:: /images/array-scale_eg.jpg
+   .. figure:: /images/modeling_modifiers_generate_array_offset-relative.png
 
-      Relative offset example.
+      Relative offset (0.5, 1.0 and 1.5) examples.
 
    Adds a translation equal to the object's bounding box size along each axis, multiplied by a scaling factor,
    to the offset. X, Y and Z scaling factors can be specified.
 
 
 Object Offset
-   .. figure:: /images/array_offset_eg.jpg
+   .. figure:: /images/modeling_modifiers_generate_array_offset-object.png
 
       Object offset example.
 
@@ -87,11 +87,11 @@ First Last
    .. list-table::
       *First Last* merge example.
 
-      * - .. figure:: /images/arraymodifier-firstlastdiscontinuity01.jpg
+      * - .. figure:: /images/modeling_modifiers_generate_array_first-last-off.png
 
             Subdivision discontinuity caused by not merging vertices between first and last copies (*First Last* off).
 
-        - .. figure:: /images/arraymodifier-firstlastmerge01.jpg
+        - .. figure:: /images/modeling_modifiers_generate_array_first-last-on.png
 
             Subdivision discontinuity eliminated by merging vertices between first and last copies (*First Last* on).
 
@@ -133,30 +133,30 @@ Mechanical
 
 .. list-table::
 
-   * - .. figure:: /images/array_bridge.jpg
+   * - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-bridge.jpg
           :width: 320px
 
           A bridge made from a tileable mesh.
 
-     - .. figure:: /images/arraymodifier-track01.png
+     - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-track.png
           :width: 320px
 
           A track.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Tracktest.blend>`__.
 
-   * - .. figure:: /images/arraymodifier-cog01.jpg
+   * - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-cog.jpg
           :width: 320px
 
           A cog created from a single segment.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Cog01.blend>`__.
 
-     - .. figure:: /images/arraymodifier-crankshaft01.jpg
+     - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-crankshaft.jpg
           :width: 320px
 
           A crankshaft.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__.
 
-   * - .. figure:: /images/arraymodifier-chain01.jpg
+   * - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-chain.jpg
           :width: 320px
 
           A chain created from a single link.
@@ -170,18 +170,18 @@ Fractal
 
 .. list-table::
 
-   * - .. figure:: /images/array_multi_dimension.jpg
+   * - .. figure:: /images/modeling_modifiers_generate_array_example-fractal-1.jpg
           :width: 320px
 
           Multi-level array animated with motion blur.
 
-     - .. figure:: /images/arraymodifier-fractal01.png
+     - .. figure:: /images/modeling_modifiers_generate_array_example-fractal-2.png
           :width: 320px
 
           Fractal created with multiple arrays.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__.
 
-   * - .. figure:: /images/arraymodifier_fractal_11.jpg
+   * - .. figure:: /images/modeling_modifiers_generate_array_example-fractal-3.jpg
           :width: 320px
 
           A fractal fern image created with two array modifiers and one mirror applied to a cube.
@@ -194,20 +194,20 @@ Organic
 
 .. list-table::
 
-   * - .. figure:: /images/array_fractal_example.jpg
+   * - .. figure:: /images/modeling_modifiers_generate_array_example-organic-fractal.jpg
           :width: 320px
 
           Subdivided cube array with one object offset,
           four cubes and a high vertex merge setting to give the effect of skinning.
 
-     - .. figure:: /images/arraymodifier-spiral01.png
+     - .. figure:: /images/modeling_modifiers_generate_array_example-organic-spiral.png
           :width: 320px
 
           A double spiral created with two array modifiers and one Subdivision Surface modifier applied to a cube.
           As above, the vertex merge threshold is set very high to give the effect of skinning.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__.
 
-.. figure:: /images/modifier-array-tentacle01.jpg
+.. figure:: /images/modeling_modifiers_generate_array_example-organic-tentacle.jpg
 
    A tentacle created with an Array modifier followed by a Curve modifier.
    The segment in the foreground is the base mesh for the tentacle; the tentacle is capped by two
