@@ -47,7 +47,7 @@ It can only be controlled by some extent using bone properties.
 
 However, if the chain has an influence on objects rather than geometry,
 the segments' orientation is not taken in account
-(details are explained in the :doc:`skinning part </rigging/skinning/index>`).
+(details are explained in the :doc:`skinning part </rigging/armatures/skinning/index>`).
 
 
 Display
@@ -61,7 +61,7 @@ you cannot see these segments in *Object Mode*, because they are aligned.
 
 When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
 even though the bone segments are still present and effective
-(see :doc:`skinning to Object Data </rigging/skinning/obdata>`).
+(see :doc:`skinning to Object Data </rigging/armatures/skinning/obdata>`).
 This means that even in e.g. *Octahedron* visualization,
 if some bones in a chain have several segments,
 they will nonetheless smoothly deform their geometry...

@@ -11,7 +11,7 @@ To quickly create an IK constraint with a target, select a bone in pose mode,
 and press :kbd:`Shift-I`.
 
 This constraint is fully documented in the :doc:`Inverse Kinematics
-</rigging/posing/inverse_kinematics/index>` page, part of the rigging chapter.
+</rigging/armatures/posing/inverse_kinematics/index>` page, part of the rigging chapter.
 
 
 Options

@@ -113,7 +113,7 @@ Draw Options
 Names
    When enabled, the name of each bone is drawn.
 Colors
-   This is only relevant for *Pose Mode*, and is described in detail :doc:`there </rigging/posing/visualization>`.
+   This is only relevant for *Pose Mode*, and is described in detail :doc:`there </rigging/armatures/posing/visualization>`.
 Axes
    When enabled, the (local) axes of each bone are drawn (only relevant for *Edit Mode* and *Pose Mode*).
 X-Ray

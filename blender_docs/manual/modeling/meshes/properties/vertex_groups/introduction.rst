@@ -16,7 +16,7 @@ In addition you can assign different *weight values*
 Hence Vertex Groups are sometimes also named *Weight Groups*.
 
 Vertex Groups are most commonly used for Armatures
-(See also :doc:`Skinning Mesh Objects </rigging/skinning/obdata>`).
+(See also :doc:`Skinning Mesh Objects </rigging/armatures/skinning/obdata>`).
 But they are also used in many other areas of Blender, like for example:
 
 - Shape keys

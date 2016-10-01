@@ -22,7 +22,7 @@ Constraining bones can be used to control their degree of freedom in their pose 
 using e.g. the *Limit* constraints.
 You can also use constraints to make a bone track another object/bone
 (inside the same object, or in another armature), etc.
-And the :doc:`inverse kinematics feature </rigging/posing/inverse_kinematics/index>`
+And the :doc:`inverse kinematics feature </rigging/armatures/posing/inverse_kinematics/index>`
 is also mainly available through the *IK Solver* constraint, which is specific to bones.
 
 For example, a human elbow cannot rotate backward (unless the character has broken his hand),
