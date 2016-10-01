@@ -106,9 +106,9 @@ Load UI
    This can be changed individually when loading a file from the
    *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
 Filter File Extensions
-   By activating this, the file dialog in the File Browser will only show appropriate files
+   By activating this, the file region in the File Browser will only show appropriate files
    (i.e. blend-files when loading a complete *Blender* setting).
-   The selection of file types may be changed in the file dialog.
+   The selection of file types may be changed in the file region.
 
    .. figure:: /images/user_prefs_file-filefilter.png
 

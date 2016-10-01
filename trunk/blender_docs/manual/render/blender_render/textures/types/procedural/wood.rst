@@ -17,12 +17,18 @@ Result(s)
 Options
 =======
 
-Sin / Saw / Tri
+Noise Basis
    Shape of wave to produce bands
-Bands / Rings / Band Noise / Ring Noise
-   Set the bands to either straight or ring-shaped, with or without turbulence
-Soft / Hard
+
+   Sine, Saw, Triangle
+Wood Type
+   Set the bands to either straight or ring-shaped, with or without turbulence.
+
+   Bands, Rings, Band Noise, Ring Noise
+Noise Type
    There are two methods available for the Noise function
+
+   Soft, Hard
 Size
    Dimension of the Noise table
 Turbulence

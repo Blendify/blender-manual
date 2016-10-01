@@ -149,6 +149,7 @@ DPX is currently a widely adopted standard used in the film hardware/software in
 DPX as well as Cineon only stores and converts the "visible" color range of values between 0.0
 and 1.0 (as a result of rendering or composite).
 
+
 OpenEXR
 -------
 
@@ -158,35 +159,34 @@ especially because of its flexible and expandable structure.
 An OpenEXR file can store multiple layers and passes.
 This means OpenEXR images can be loaded into a compositor keeping render layers, passes intact.
 
+
 Output Options
 ^^^^^^^^^^^^^^
 
 Available options for OpenEXR render output are:
 
-Half
+Color Depth
    Saves images in a custom 16 bits per channel floating point format.
    This reduces the actual "bit depth" to 10 bits, with a 5 bits power value and 1 bit sign.
-
-Zbuf
+   
+   Float (Half), Float (Full)
+Codec
+   ``PIZ``
+      Lossless wavelet compression. Compresses images with grain well.
+   ``ZIP``
+      Standard lossless compression using Zlib.
+   ``RLE``
+      Run-length encoded, lossless, works well when scanlines have same values.
+   ``PXR24``
+      Lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
+Z Buffer
    Save the depth information.
    In Blender, this now is written in floats too,
    denoting the exact distance from the camera in "Blender unit" values.
-
 Preview
    On rendering animations (or single frames via command line),
    Blender saves the same image also as a JPEG, for quick preview or download.
 
-Compression
-   (This button is below the Image menu button, default set to "None")
-
-   ``PIZ``
-      lossless wavelet compression. Compresses images with grain well.
-   ``ZIP``
-      standard lossless compression using Zlib.
-   ``RLE``
-      Run-length encoded, lossless, works well when scanlines have same values.
-   ``PXR24``
-      lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
 
 Radiance HDR
 ------------
