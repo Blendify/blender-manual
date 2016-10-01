@@ -7,15 +7,15 @@ Introduction
    :class: refbox
 
    | Mode:     Object Mode, Edit Mode and Pose Mode
-   | Panel:    All in Properties editor, *Object data* property
+   | Panel:    All in Properties editor, *Object* property
 
 
 Let us first have a general overview of the various panels gathering the armature settings,
-in Properties editor, *Object data* tab:
+in Properties editor, *Object* tab:
 
 .. figure:: /images/rigging_armatures_properties_properties-editor.png
 
-   The Object data property in the Properties editor.
+   The Object property in the Properties editor.
 
 
 Skeleton
@@ -23,33 +23,14 @@ Skeleton
 Display
    This controls the way the bones appear in 3D View.
 Bone Groups
-   Bone Groups are meant to be used during the rig creation to define and assign a color to a meaningful set of bones.
-
-
+   Bone Groups are meant to be used during the rig creation to define and
+   assign a color to a meaningful set of bones.
 Pose Library
-============
-
-.. figure:: /images/rigging_armatures_properties_pose-library-panel.png
-
-   The Pose Library panel.
-
-
-Allows you to save different settings (location, rotation, scale) for selected bones for later use.
-
-.. note::
-
-   This mode is only available in Pose Mode.
-
-
+   Allows you to save different properties (location, rotation, scale) for selected bones for later use.
 Ghost
-=====
-
-.. figure:: /images/rigging_posing_visualization_ghost-panel.png
-
-   The Ghost panel.
-
-
-Allows you to see a set of different consecutive poses, very useful when animating.
+   Allows you to see a set of different  poses, very useful when animating.
+Motion Paths
+   In this panel you can enable visualization of the motion path your skeleton leaves when animated.
 
 
 Inverse Kinematics
@@ -61,21 +42,6 @@ Inverse Kinematics
 
 
 Defines the type of IK solver used in your animation.
-
-
-Motion Paths
-============
-
-.. figure:: /images/rigging_posing_visualization_motion-paths-panel.png
-
-   The Motion Paths panel.
-
-
-In this panel you can enable visualization of the motion path your skeleton leaves when animated.
-
-.. note::
-
-   This mode is only available in Pose Mode.
 
 
 Custom Properties

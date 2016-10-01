@@ -49,7 +49,7 @@ Options
 
 .. figure:: /images/rigging_posing_visualization_motion-paths-panel.png
 
-   The Motion Paths Panel showing options for the different types.
+   The Motion Paths Panel.
 
 Type
    Around Frame
@@ -67,7 +67,7 @@ Display Range
       Starting and Ending frame of range of paths to display/calculate
       (not for 'Around Current Frame' Onion-skinning method).
    Step
-      This is the same as the *GStep* for ghosts.
+      This is the same as the *Step* for ghosts.
       It allows you to only display on the path one frame for each *n* ones.
       Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.
 

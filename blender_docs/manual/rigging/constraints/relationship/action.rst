@@ -108,7 +108,7 @@ Notes
   if the constrained bone is named "arm", it will use and only use the action's bone channel named "arm"...).
   Unfortunately, using a *Pose* action on a whole armature object
   (to affect all the keyed bones in the action at once) will not work...
-- Note also that you can use the :doc:`pose library feature </rigging/posing/pose_library>` to
+- Note also that you can use the :doc:`pose library feature </rigging/armatures/properties/pose_library>` to
   create/edit a *Pose* action data-block... just remember that in this situation, there is one pose per frame!
 
 .. vimeo:: 171554048

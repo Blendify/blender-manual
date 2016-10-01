@@ -18,7 +18,7 @@ Hence, you do not have to use them for simple F-Curve animations -- and they hav
 so you will mostly use this editor when you do :doc:`NLA animation </editors/nla>`
 (they do have a few specific usages on their own,
 though, like e.g. with the :doc:`Action constraint </rigging/constraints/relationship/action>`,
-or the :doc:`pose libraries </rigging/posing/pose_library>`).
+or the :doc:`pose libraries </rigging/armatures/properties/pose_library>`).
 
 This is not a mandatory editor, as you do can edit the actions used by the NLA directly in the
 *Graph Editor* (or even the *NLA Editor* one).
