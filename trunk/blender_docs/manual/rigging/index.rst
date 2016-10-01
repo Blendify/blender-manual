@@ -11,6 +11,4 @@
 
    constraints/index.rst
    armatures/index.rst
-   skinning/index.rst
-   posing/index.rst
    lattice.rst

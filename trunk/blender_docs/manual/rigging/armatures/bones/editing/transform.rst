@@ -47,7 +47,7 @@ Radius and Scaling in Envelope Visualization
 When bones are displayed using *Octahedron*, *Stick* or *B-Bone* visualizations,
 scaling will behave as expected, similar to scaling mesh objects.
 When bones are displayed using *Envelope* visualization, scaling will have a different effect:
-it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/skinning/index>`).
+it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/armatures/skinning/index>`).
 As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones,
 you scale at the same time the radius of the parent's tip and of the children's roots.
 
@@ -95,7 +95,7 @@ ScaleB and Envelope
 It has different behavior depending on the active visualization, as explained below:
 
 In *Envelope* visualization, it allows you to edit the influence of the selected bones
-(their *Distance* property, see the :doc:`skinning part </rigging/skinning/index>`) --
+(their *Distance* property, see the :doc:`skinning part </rigging/armatures/skinning/index>`) --
 as with the "standard" scaling with this visualization (see the previous section),
 this is an one-value property, so there is no axis locking and such.
 

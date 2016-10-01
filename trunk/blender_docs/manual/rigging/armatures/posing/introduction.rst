@@ -4,7 +4,7 @@
 Introduction
 ************
 
-Once your armature is :doc:`skinned </rigging/skinning/index>` by the needed object(s), you can start to pose it.
+Once your armature is :doc:`skinned </rigging/armatures/skinning/index>` by the needed object(s), you can start to pose it.
 Basically, by transforming its bones, you deform or transform the skin object(s).
 But you do not do that in *Edit Mode* - remember that in this mode, you edit *the default, base,
 "rest" position of your armature*. You cannot use the *Object Mode* either,
@@ -24,12 +24,12 @@ Posing Section Overview
 
 In this section, we will see:
 
-- The :doc:`visualization features </rigging/posing/visualization>` specific to *Pose Mode*.
-- How to :doc:`select and edit bones </rigging/posing/editing>` in this mode.
+- The :doc:`visualization features </rigging/armatures/posing/visualization>` specific to *Pose Mode*.
+- How to :doc:`select and edit bones </rigging/armatures/posing/editing>` in this mode.
 - How to :doc:`use pose library </rigging/armatures/properties/pose_library>`.
-- How to :doc:`use constraints </rigging/posing/constraints>` to control your bones' DoF (degrees of freedom).
-- How to :doc:`use inverse kinematics features </rigging/posing/inverse_kinematics/index>`.
-- How to :doc:`use the Spline inverse kinematics features </rigging/posing/inverse_kinematics/spline_ik>`.
+- How to :doc:`use constraints </rigging/armatures/posing/constraints>` to control your bones' DoF (degrees of freedom).
+- How to :doc:`use inverse kinematics features </rigging/armatures/posing/inverse_kinematics/index>`.
+- How to :doc:`use the Spline inverse kinematics features </rigging/armatures/posing/inverse_kinematics/spline_ik>`.
 
 Even though it might be used for completely static purposes,
 posing is heavily connected with :doc:`animation features and techniques </animation/index>`.

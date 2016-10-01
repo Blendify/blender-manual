@@ -4,7 +4,7 @@
 Skinning to Shapes
 ******************
 
-In the :doc:`previous page </rigging/skinning/objects>`,
+In the :doc:`previous page </rigging/armatures/skinning/objects>`,
 we saw how to link (parent) whole objects to armature bones -- a way to control the transform properties
 of this object via a rig. However, armatures are much more powerful: they can deform the *shape*
 of an object (i.e. affect its Object Data data-block, which is its vertices or control points...).
@@ -37,7 +37,7 @@ Parenting to Whole Armatures
 
 
 But before diving into this, let us talk about the different ways to skin (parent)
-an object to a whole armature as with :doc:`object skinning </rigging/skinning/objects>`,
+an object to a whole armature as with :doc:`object skinning </rigging/armatures/skinning/objects>`,
 there is an "old parenting" method and a new, more flexible and powerful one,
 based on modifiers, which allows creation of very complex setups, with objects deformed by several armatures.
 

@@ -46,6 +46,6 @@ Take the time to understand every fundamental concept behind it, and the other c
 .. TODO, To learn more:
 
    - Read about using constraints in object animation in the :doc:`Animation chapter </animation/index>`
-   - Read about using constraints in rigging in the :doc:`Armatures </rigging/posing/index>`
+   - Read about using constraints in rigging in the :doc:`Armatures </rigging/armatures/posing/index>`
 
 .. TODO, the blue dashed line

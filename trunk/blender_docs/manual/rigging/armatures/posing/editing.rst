@@ -324,7 +324,7 @@ however, this should give a good idea of the problem:
 
 So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone.
 This process is known as *forward kinematics* (FK).
-We will see in a :doc:`later page </rigging/posing/inverse_kinematics/index>`
+We will see in a :doc:`later page </rigging/armatures/posing/inverse_kinematics/index>`
 that Blender features another pose method,
 called *inverse kinematics* (IK), which allows you to pose a whole chain just by moving its tip.
 
