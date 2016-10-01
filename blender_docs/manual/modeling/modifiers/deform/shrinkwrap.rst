@@ -60,12 +60,16 @@ Subdivision Surface Levels
 Limit
    This is a distance limit between original vertex and surface.
    If the distance is larger than this limit vertex would not be projected onto the surface,
-X, Y, Z
+Axis
    Along which local axis of the modified object the projection is done.
    These options can be combined with each other, yielding a "median axis" of projection.
-Negative, Positive
+
+   X, Y, Z
+Direction
    This allows you to select the allowed direction(s) of the shrink along the selected axis.
    With more than one *Shrinkwrap* modifier, negative and positive axes can be combined.
+
+   Negative, Positive
 Cull Faces
    This radio button allows you to prevent any projection over the "front side"
    (respectively the "back side") of the target's faces. The "side" of a face is determined 
