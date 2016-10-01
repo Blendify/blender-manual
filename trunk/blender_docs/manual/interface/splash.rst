@@ -10,7 +10,6 @@ A more detailed description can be found below.
 
 .. figure:: /images/interface_splash_current.png
    :align: center
-   :width: 450px
 
    Blender Splash Screen.
 
