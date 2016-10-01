@@ -6,7 +6,7 @@ Ghost
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All?, Pose Mode
+   | Mode:     Pose Mode
    | Panel:    :menuselection:`Armature tab --> Ghost panel`
 
 .. list-table::
@@ -33,7 +33,7 @@ Options
 
 .. figure:: /images/rigging_posing_visualization_ghost-panel.png
 
-   The Ghost panel showing the different options associated with different modes.
+   The Ghost panel.
 
 The ghosts settings are found in the *Armature* tab, only active in *Pose Mode*.
 

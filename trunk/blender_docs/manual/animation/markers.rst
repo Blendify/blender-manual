@@ -187,4 +187,5 @@ and confirm the pop-up message with :kbd:`LMB`.
 .. seealso::
 
    There is another type of markers, called "pose markers", which are specific to armatures.
-   They are related to the pose libraries, and are discussed in detail :doc:`here </rigging/posing/pose_library>`.
+   They are related to the pose libraries, and are discussed in detail
+   :doc:`here </rigging/armatures/properties/pose_library>`.

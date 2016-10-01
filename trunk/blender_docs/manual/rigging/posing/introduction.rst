@@ -26,7 +26,7 @@ In this section, we will see:
 
 - The :doc:`visualization features </rigging/posing/visualization>` specific to *Pose Mode*.
 - How to :doc:`select and edit bones </rigging/posing/editing>` in this mode.
-- How to :doc:`use pose library </rigging/posing/pose_library>`.
+- How to :doc:`use pose library </rigging/armatures/properties/pose_library>`.
 - How to :doc:`use constraints </rigging/posing/constraints>` to control your bones' DoF (degrees of freedom).
 - How to :doc:`use inverse kinematics features </rigging/posing/inverse_kinematics/index>`.
 - How to :doc:`use the Spline inverse kinematics features </rigging/posing/inverse_kinematics/spline_ik>`.
