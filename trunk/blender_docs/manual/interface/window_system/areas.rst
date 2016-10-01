@@ -41,6 +41,7 @@ and they look like a little ridged thumb grip. It both splits and combines areas
 When you hover over it, your cursor will change to a cross (✛).
 
 :kbd:`LMB` and drag it inward *split* the area.
+You define the direction of that border by either dragging horizontally or vertically.
 
 In order to *join* two areas :kbd:`LMB` click and drag the area splitter outward.
 They must be the same dimension (width or height) in the direction you wish to join.
@@ -54,7 +55,7 @@ This is so that the combined area space results in a rectangle.
 The area that will closed gets a dark overlaid with an arrow.
 Now you can select the area to be closed by moving the mouse over it.
 
-Let go of the :kbd:`LMB` to merge.
+Release the :kbd:`LMB` to complete the join.
 If you press :kbd:`Esc` or  :kbd:`RMB` before releasing the mouse, the operation will be aborted.
 
 
@@ -64,8 +65,8 @@ Area options
 :kbd:`RMB` on the border opens the *Area Options*.
 
 Split Area
-   Shows a line that lets you select the area and position where to split.
-   :kbd:`Tab` switches between vertical/horizontal.
+   Shows a indicator line that lets you select the area and position where to split.
+   :kbd:`Tab` switches between vertical/horizontal. confirm, or cancel
 Join Area
    Shows the join direction overlay.
 
@@ -112,6 +113,6 @@ This can be useful, i.e. if you have multiple monitors.
 A new window can be created from :menuselection:`View --> Duplicate Area into new Window`.
 
 You can also create a new window from an existing area by :kbd:`Shift-LMB`
-on the area splitter icon, then drag slightly.
+on the area splitter widget, then drag slightly.
 
 The window can be closed with the OS *Close Window* button.

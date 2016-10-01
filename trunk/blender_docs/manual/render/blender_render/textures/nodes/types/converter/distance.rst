@@ -6,7 +6,7 @@ Distance
 .. figure:: /images/texture-nodes-distance.jpg
    :align: right
 
-   Distance node. Coordinate two dropdown is displayed.
+   Distance node.
 
 
 Computes the distance between two 3D coordinates.

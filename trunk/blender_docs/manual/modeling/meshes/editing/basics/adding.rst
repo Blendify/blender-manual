@@ -31,7 +31,7 @@ Blender will show a list of primitive meshes to add to your object.
 Other contexts are also automatically detected for the correct element additions.
 (See Fig. :ref:`fig-mesh-basics-b-primitives`, you can add primitives to already existing objects, in Edit Mode)
 
-A dropdown menu opens from which you can select the primitive you wish to add to the object.
+A menu opens from which you can select the primitive you wish to add to the object.
 
 There are many cases when it is useful to directly add a mesh to an object. Maybe you want to model a teapot.
 It would be useful to model the cup and the handle as separate meshes and only combine them when you are done.

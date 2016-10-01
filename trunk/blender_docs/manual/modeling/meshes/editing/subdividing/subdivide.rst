@@ -70,7 +70,7 @@ Smoothness
 
 
 Quad/Tri Mode
-   Forces subdivide to create triangles instead of ngons, simulating old behavior (see examples below).
+   Forces subdivide to create triangles instead of n-gons, simulating old behavior (see examples below).
 
 Corner Cut Type
    This select menu controls the way quads with only two adjacent selected edges are subdivided.
@@ -78,9 +78,9 @@ Corner Cut Type
    Fan
       the quad is sub-divided in a fan of four triangles,
       the common vertex being the one opposite to the selected edges.
-   Innervert
-      (i.e. "inner vertex"), The selected edges are sub-divided,
-      then an edge is created between the two new vertices, creating a small triangle.
+   Inner vertices
+      The selected edges are sub-divided, then an edge is created between
+      the two new vertices, creating a small triangle.
       This edge is also sub-divided,
       and the "inner vertex" thus created is linked by another edge to the one opposite
       to the original selected edges. All this results in a quad sub-divided in a triangle and two quad.
@@ -100,7 +100,7 @@ Corner Cut Type
         - .. figure:: /images/subdivide-twoedgesquad-innervert.png
              :width: 200px
 
-             Innervert cut type.
+             Inner vertices cut type.
 
         - .. figure:: /images/subdivide-twoedgesquad-path.png
              :width: 200px
