@@ -10,8 +10,8 @@ It allows you control an
 :doc:`Action </editors/dope_sheet/action>` using the transformations of another object.
 
 The underlying idea of the *Action* constraint is very similar to the one behind the
-:doc:`Drivers </animation/drivers>`, except that the former uses a whole action (i.e.
-a bunch a F-Curves of the same type), while the latter controls a single Fcurve of their "owner"...
+:doc:`Drivers </animation/drivers>`, except that the former uses a whole action
+(i.e. a bunch a F-Curves of the same type), while the latter controls a single F-curve of their "owner"...
 
 Note that even if the constraint accepts the *Mesh* action type,
 only the *Object*,

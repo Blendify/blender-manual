@@ -83,7 +83,7 @@ Changing the Size and Hiding
 Resizing regions works the same way as :doc:`/interface/window_system/areas`
 by dragging its border.
 
-To hide a region scale it down to zero.
+To hide a region scale it down to nothing.
 A hidden region leaves a little plus sign (see picture).
 By :kbd:`LMB` on this, the region will reappear.
 
