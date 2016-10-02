@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|im=update|text=inbetweens, pose menu tools}}.
+..    TODO/Review: {{review|im=update}}.
 
 .. |copy-paste| image:: /images/rigging-copypastepose.png
 
@@ -25,33 +25,14 @@ there are some important specificities:
   (and not e.g. the active bone's root when *Active Object* is selected, etc.).
 
 
-Selecting Bones
-===============
-
-Selection in *Pose Mode* is very similar to the one in :doc:`Edit Mode </rigging/armatures/bones/selecting>`,
-with a few specificities:
-
-- You can only select *whole bones* in *Pose Mode*, not roots/tips...
-- You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu :kbd:`Shift-G`:
-
-  - To select all bones belonging to the same group(s) as the selected ones,
-    use the *In Same Group* entry :kbd:`Shift-G-Numpad1`.
-  - To select all bones belonging to the same layer(s) as the selected ones,
-    use the *In Same Layer* entry :kbd:`Shift-G-Numpad2`.
-
-.. figure:: /images/rigging_posing_editing_select-grouped-menu.png
-
-   The Select Grouped pop-up menu.
-
-
 Basic Posing
 ============
 
 As previously noted,
-bones' transformations are performed based on the *rest position* of the armature,
+bones' transformations are performed based on the *Rest Position* of the armature,
 which is its state as defined in *Edit Mode*. This means that in rest position,
 in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
-(as you can see it in the *Transform Properties* panel, in the 3D Views,
+(as you can see it in the *Transform* panel, in the 3D Views,
 :kbd:`N`).
 
 .. figure:: /images/rigging_posing_editing_local-rotation.png
@@ -83,11 +64,13 @@ transform operation.
 Auto IK
 =======
 
-The auto IK option in the tool shelf enables a temporary ik constraint when posing bones.
+The auto IK option in the tool shelf enables a temporary IK constraint when posing bones.
 The chain acts from the tip of the selected bone to root of the uppermost parent bone.
 Note that this mode lacks options,
 and only works by applying the resulting transform to the bones in the chain.
 
+
+.. (todo) split into reset transformation and skeleton panel
 
 Rest Pose
 =========
@@ -121,17 +104,44 @@ In-Betweens
 
 There are several tools for editing poses in an animation.
 
-Relax Pose :menuselection:`Pose --> In-Betweens --> Relax Pose`, :kbd:`Alt-E`
-   Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones
-   (see the :doc:`animation chapter </animation/index>`).
-   When you edit such a bone (and hence take it "away" from its "keyed position"),
-   using this command will progressively "bring it back" to its "keyed position",
-   with smaller and smaller steps as it comes near it.
 
-Push Pose :menuselection:`Pose --> In-Betweens --> Relax Pose`, :kbd:`Ctrl-E`
-   Push pose exaggerates the current pose.
+Relax Pose
+----------
 
-Breakdowner :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`, :kbd:`Shift-E`
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Menu:    :menuselection:`Pose --> In-Betweens --> Relax Pose`, :kbd:`Alt-E`
+
+Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones
+(see the :doc:`animation chapter </animation/index>`).
+When you edit such a bone (and hence take it "away" from its "keyed position"),
+using this command will progressively "bring it back" to its "keyed position",
+with smaller and smaller steps as it comes near it.
+
+
+Push Pose
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Menu:    :menuselection:`Pose --> In-Betweens --> Relax Pose`, :kbd:`Ctrl-E`
+
+Push pose exaggerates the current pose.
+
+
+Breakdowner
+-----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Menu:    :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`, :kbd:`Shift-E`
+
    Creates a suitable breakdown pose on the current frame
 
 

@@ -51,6 +51,7 @@ Bone Group
 
 To assign a selected bone to a given bone group use the *Bone Group* data-ID.
 
+
 Object Children
 ===============
 
@@ -70,7 +71,7 @@ Parenting
 
 Parent
    A data-ID to select the bone to set as a parent.
-Connect
+Connected
    The *Connected* checkbox set the head of the bone to be connected with its parent root.
 
 
