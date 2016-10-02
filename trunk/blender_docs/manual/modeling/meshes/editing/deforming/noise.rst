@@ -36,12 +36,12 @@ texture's own panel (e.g. *Clouds*, *Marble*, etc.).
 
 .. list-table::
 
-   * - .. figure:: /images/noise1.png
+   * - .. figure:: /images/modeling_meshes_editing_deforming_noise_example-before.png
           :width: 320px
 
           Mesh before noise is added.
 
-     - .. figure:: /images/noise2.png
+     - .. figure:: /images/modeling_meshes_editing_deforming_noise_example-after.png
           :width: 320px
 
           Mesh after noise is added, using basic cloud texture.

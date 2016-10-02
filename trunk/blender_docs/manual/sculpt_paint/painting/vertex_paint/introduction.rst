@@ -14,12 +14,14 @@ of the other connected vertices. (Note that the color of non-visible faces are n
 
 Vertex colors can be painted by first going into Edit Mode, then switching to *Vertex Paint Mode*;
 however, it will not show up in the render unless you check *Vertex Color Paint* in the
-:doc:` Materials Options </render/blender_render/materials/properties/options>` panel.
+:doc:`Materials Options </render/blender_render/materials/properties/options>` panel.
 
-.. figure:: /images/materials_vertexpaint0.jpg
+.. list-table::
 
-   Vertex Painting Mode.
+   * - .. figure:: /images/sculpt-paint_painting_vertex-paint_introduction_mode-menu.png
 
-.. figure:: /images/vertexpaintmat.jpg
+          Vertex Painting Mode.
 
-   Check this box.
+     - .. figure:: /images/sculpt-paint_painting_vertex-paint_introduction_material-options.png
+
+          Check this box.

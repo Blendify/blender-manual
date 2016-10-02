@@ -9,7 +9,7 @@ Tools
 Brush
 -----
 
-.. figure:: /images/painting_weight_brush.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_properties_brush-panel.png
    :align: right
 
    Brush Panel.
@@ -119,7 +119,7 @@ Multi-Paint
 Stroke
 ------
 
-.. figure:: /images/painting_weight_stroke.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_properties_stroke-panel.png
    :align: right
 
    Stroke Panel.
@@ -166,10 +166,10 @@ The weight paint tools are full described in the
 Options
 =======
 
-.. figure:: /images/painting_weight_options-1.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_properties_appearance-panel.png
    :align: right
 
-   Paint Options.
+   Brush appearance.
 
 
 Overlay
@@ -190,10 +190,10 @@ Custom Icon
 Options
 -------
 
-.. figure:: /images/painting_weight_options-2.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_properties_options-panel.png
    :align: right
 
-   Brush appearance.
+   Paint Options.
 
 
 The Weight Paint Options modify the overall brush behavior:
