@@ -75,5 +75,6 @@ A Data ID is a text field with a data-block type icon on the left, which opens a
 It is used to references data-blocks selected by there name. It only accepts data-blocks of the type specified by the icon.
 The text field functions as a search field by matching elements in the list.
 If you type an invalid name, the value will remain unchanged.
+Click  the ``X`` button to remove the reference.
 In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper` available through the pipette icon on the right side.
 
