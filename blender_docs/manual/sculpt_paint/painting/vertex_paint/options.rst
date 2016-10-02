@@ -9,7 +9,8 @@ Tools
 The Tools Shelf contains most of the options for vertex painting.
 The following sections describe the controls in each of the available panels.
 
-.. figure:: /images/materials-vertexpaint-toolshelf-tools.jpg
+.. figure:: /images/sculpt-paint_painting_vertex-paint_options_tools.png
+   :align: right
 
    Vertex Painting Options.
 
@@ -28,21 +29,11 @@ Strength
 Blend
    Mix
       Mixes RGB values. When set to a strength of 1.0, it will cover the underlying "paint".
-
-      .. figure:: /images/mix.jpg
-
-         Mix overlay with full strength.
-
    Add
       Adds RGB values.
       Will eventually turn the entire object white as RGB values accumulate to (1.0, 1.0, 1.0): Pure White.
    Subtract
       Subtracts RGB values. Usually results in Black.
-
-      .. figure:: /images/sub.jpg
-
-         Subtract with full strength.
-
    Multiply
       Multiplies brush colors by the vertex colors.
    Blur
@@ -132,16 +123,16 @@ Curve
 Brush Curves affect how strongly the color is applied depending on distance from the center of
 the brush. In other words, they allow you to edit the Falloff of the brush intensity.
 
-.. figure:: /images/brushcurves.jpg
-   :width: 200px
+.. figure:: /images/sculpt-paint_painting_vertex-paint_options_brush-curve.png
 
-   Various brush curves.
+   Brush curve example.
 
 
 Options
 =======
 
-.. figure:: /images/materials-vertexpaint-toolshelf-options.jpg
+.. figure:: /images/sculpt-paint_painting_vertex-paint_options_panel.png
+   :align: right
 
    Options for vertex painting.
 
