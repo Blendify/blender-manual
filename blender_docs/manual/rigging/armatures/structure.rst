@@ -55,23 +55,5 @@ You create/edit them in *Edit Mode*, but except in case of connected bones,
 their relationships have no effect on bone transformations in this mode
 (i.e. transforming a parent bone will not affect its children).
 
-
-Editing Bones Relationships
----------------------------
-
-This is expressed in detail in the :ref:`editing pages <armature-bone-chain-edit>`,
-but here is a quick look at this important feature.
-
-.. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
-
-   The Relations panel with two bones selected, and their Child of settings highlighted.
-
-
-The easiest way to manage bones relationships is to use the *Relations* panel *Bone* tab:
-
-- First, :doc:`select </rigging/armatures/bones/selecting>` the bones you want to edit
-  (selection order does not matter here).
-- To *parent* a bone to another one, select the name of this parent in its data-ID *Parent*.
-- To *unparent* a bone, just select the void entry in the same *Parent* data-ID.
-- To *connect* a bone to its parent, enable its small *Connected* checkbox.
-- To *unconnect* a bone, disable its *Connected* checkbox.
+The easiest way to manage bones relationships is to use the
+ :ref:`Relations panel <bone_relations_parenting>` in the *Bone* tab.
