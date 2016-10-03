@@ -10,8 +10,12 @@ Keying Sets
 
 
 Keying Sets are a collection of properties.
-They are used to keyframe multiple properties at the same time,
-usually by pressing :kbd:`I` in the 3D View.
+
+.. Keying Sets are a set of keyframe channels.
+
+They are used to record multiple properties at the same time.
+Now when you press :kbd:`I` in the 3D View,
+Blender will add keyframes for all the properties in the active keying set.
 
 There are some built in Keying Sets,
 and also, custom Keying Sets called *Absolute Keying Sets*.

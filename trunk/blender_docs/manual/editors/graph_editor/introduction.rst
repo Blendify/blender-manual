@@ -318,4 +318,4 @@ See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>` for more info.
    - :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves/introduction>`
    - :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fcurves/fmodifiers>`
    - :doc:`Actions </animation/actions>`
-   - :doc:`Drivers </animation/drivers//index>`
+   - :doc:`Drivers </animation/drivers/index>`
