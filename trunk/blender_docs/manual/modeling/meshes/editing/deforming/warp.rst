@@ -9,10 +9,10 @@ Warp
    | Mode:     Object and Edit Modes
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`
 
-.. figure:: /images/modeling_warp.jpg
+.. figure:: /images/modeling_meshes_editing_deforming_warp_operator-panel.png
    :align: right
 
-   Warp tool options.S.
+   Warp tool options.
 
 
 In *Edit Mode*, the *Warp* transformation takes selected elements and

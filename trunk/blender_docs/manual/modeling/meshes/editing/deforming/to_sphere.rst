@@ -28,7 +28,7 @@ Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying
 Usage
 =====
 
-.. figure:: /images/editors_3dview_transformations-advanced-to_sphere_toolshelf-f6.jpg
+.. figure:: /images/modeling_meshes_editing_deforming_to-sphere_operator-panel.png
 
    To Sphere Factor.
 

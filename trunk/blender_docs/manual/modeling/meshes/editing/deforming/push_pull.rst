@@ -9,7 +9,8 @@ Push/Pull
    | Mode:     Object and Edit Modes
    | Menu:     :menuselection:`Object/Mesh --> Transform --> Push Pull`
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_toolshelf-f6.jpg
+.. figure:: /images/modeling_meshes_editing_deforming_push-pull_operator-panel.png
+   :align: right
 
    Push/Pull distance.
 
@@ -37,11 +38,11 @@ Note that the result of the *Push/Pull* transform is also dependant on the numbe
 and type of selected elements (Objects, vertices, faces etc).
 See below for the result of using *Push/Pull* on a number of different elements.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_equidistant_objects.png
+.. figure:: /images/modeling_meshes_editing_deforming_push-pull_objects-equidistant.png
 
    Equidistant Objects being pushed together.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_random_objects.png
+.. figure:: /images/modeling_meshes_editing_deforming_push-pull_objects-random.png
 
    Random Objects being pushed together.
 
