@@ -12,6 +12,7 @@
    actions.rst
    drivers/index.rst
    markers.rst
+   state_colors.rst
    shape_keys/index.rst
 
 

@@ -26,10 +26,12 @@ Coloring from Bone State
 This is the default and oldest way. There are six different color codes,
 ordered here by precedence (i.e. the bone will be of the color of the topmost valid state):
 
-- Orange: A bone with a targetless Solver constraint.
-- Yellow: A bone with an :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
-- Green: A bone with any other kind of constraint.
-- Blue: A bone that is posed (i.e. has keyframes).
-- Gray: Default state.
+.. hue rotation based on the bone solid.
+
+- Gray: Default
+- Blue Outline: Pose
+- Green: Constraint
+- Yellow: :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
+- Orange: Targetless Solver constraint.
 
 
