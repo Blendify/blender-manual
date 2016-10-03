@@ -10,7 +10,7 @@
    introduction.rst
    keyframes/index.rst
    actions.rst
-   drivers.rst
+   drivers/index.rst
    markers.rst
    shape_keys/index.rst
 

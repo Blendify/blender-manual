@@ -66,8 +66,8 @@ See also :doc:`Hook Modifier </modeling/modifiers/deform/hooks>`
 Drivers
 -------
 
-- :doc:`Drivers </animation/drivers>`
-- :doc:`Driven Shape Keys </animation/shape_keys>`
+- :doc:`Drivers </animation/drivers/index>`
+- :ref:`Driven Shape Keys <animation_drivers_shapekey_ex>`
 
 
 Animation Fundamentals
@@ -75,7 +75,7 @@ Animation Fundamentals
 
 :doc:`Actions </animation/actions>`
    Actions are used to record the animation of objects and properties.
-:doc:`Drivers </animation/drivers>`
+:doc:`Drivers </animation/drivers/index>`
    Drivers are used to control and animate properties.
 :doc:`Keying Sets </animation/keyframes/keying_sets>`
    Keying Sets are used to record a set of properties at the same time.
