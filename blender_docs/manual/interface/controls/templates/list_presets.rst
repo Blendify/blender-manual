@@ -1,10 +1,11 @@
 .. _ui-list-view:
 
-*********
-List View
-*********
+********************
+List Views & Presets
+********************
 
-.. Document list view - vertex groups, UV Layers, they have search filtering, rename, scroll, resize etc.
+List Views
+==========
 
 .. figure:: /images/extended_controls_list_view_filter.png
    :align: right

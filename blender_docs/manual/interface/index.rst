@@ -46,7 +46,7 @@ Extended Controls
    :maxdepth: 1
 
    controls/templates/data_block.rst
-   controls/templates/list.rst
+   controls/templates/list_presets.rst
    controls/templates/color_picker.rst
    controls/templates/color_ramp.rst
    controls/templates/curve.rst
