@@ -39,10 +39,11 @@ This are settings of the texture space used by the generated texture mapping.
 The visualization of the texture space can be activated in the :doc`/editors/3dview/object/properties/display`.
 
 Texture Mesh
-   .. transformation in vertex leads to distortion.
+   .. Au: too buggy to doc? transformation in vertex leads to distortion.
 
 Auto Texture Space
    Location, Size
+
 
 Vertex Groups
 =============
