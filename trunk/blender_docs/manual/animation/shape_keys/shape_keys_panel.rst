@@ -103,8 +103,8 @@ Evaluation Time
    This is used to control the shape key influence.
 
 
-Example
-=======
+Examples
+========
 
 Reset Timing
 ------------
@@ -132,6 +132,3 @@ For example, if you have the shape keys, Basis, Key_1, Key_2, in that order, and
 - Basis 10.0
 - Key_1 20.0
 - Key_2 30.0
-
-You can control the shape key influence with Evaluation Time.
-Here keyframes have been used to control Evaluation Time for animation.
