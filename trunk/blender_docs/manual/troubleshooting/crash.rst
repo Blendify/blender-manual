@@ -6,7 +6,7 @@ Crashes
 The most common causes of Blender crashes.
 
 - Running out of memory.
-- Issues with graphics hardware/drivers.
+- Issues with graphics hardware or drivers.
 - Bugs in Blender.
 
 
@@ -21,7 +21,7 @@ machine's hardware (the RAM or graphics card), and disable some options that are
   :menuselection:`User Preferences --> System --> Window Draw Method`.
 - Using multisample, anti-aliasing also increases the memory usage and make display slower.
 - On Linux, the Window Manager (KDE, Gnome, Unity) may be using hardware accelerated effects
-  (eg. window shadows and transparency) that are using up the memory that Blender needs.
+  (e.g. window shadows and transparency) that are using up the memory that Blender needs.
   Try disabling the desktop effects or switch to a lightweight Window Manager.
 
 

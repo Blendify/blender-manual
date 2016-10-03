@@ -77,7 +77,7 @@ Expressions as Drivers
 ----------------------
 
 You may want your expression to be re-evaluated after it is entered.
-Blender supports this using :doc:`Drivers </animation/drivers>` (a feature of the animation system).
+Blender supports this using :doc:`Drivers </animation/drivers/index>` (a feature of the animation system).
 
 Expression beginning with ``#``, have a special use.
 Instead of evaluating the value and discarding the expression,

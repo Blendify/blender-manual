@@ -8,7 +8,7 @@ It allows you to modify the animation for any properties using
 :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`.
 
 The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>`,
-and *Drivers* for :doc:`Drivers </animation/drivers>`. Both are very similar in function.
+and *Drivers* for :doc:`Drivers </animation/drivers/index>`. Both are very similar in function.
 
 .. figure:: /images/editors_graph_example.jpg
    :width: 600px
@@ -120,7 +120,7 @@ Header Controls
 
 Mode
    F-Curve for :doc:`Actions </animation/actions>`,
-   and Drivers for :doc:`Drivers </animation/drivers>`.
+   and Drivers for :doc:`Drivers </animation/drivers/index>`.
 
 .. figure:: /images/graph_header_view.jpg
 
@@ -300,7 +300,7 @@ Drivers Panel
    Drivers Panel.
 
 
-See :ref:`animation-drivers-panel` for more info.
+See :doc:`/animation/drivers/drivers_panel` for more info.
 
 
 Modifiers Panel
@@ -318,4 +318,4 @@ See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>` for more info.
    - :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves/introduction>`
    - :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fcurves/fmodifiers>`
    - :doc:`Actions </animation/actions>`
-   - :doc:`Drivers </animation/drivers>`
+   - :doc:`Drivers </animation/drivers//index>`
