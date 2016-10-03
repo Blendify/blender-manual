@@ -19,7 +19,7 @@ Everything that is "above" this axis will move (Shear)
 in the same direction as your mouse pointer (but always parallel to the horizontal axis).
 Everything that is "below" the horizontal axis will move in the opposite direction.
 
-.. figure:: /images/editors_3dview_transformations-advanced-shear_toolshelf-f6.jpg
+.. figure:: /images/modeling_meshes_editing_deforming_shear_operator-panel.png
 
    Shear Offset Factor.
 

@@ -1,4 +1,4 @@
-.. |pivot-icon| image:: /images/editors_3dview_header-pivot-point.jpg
+.. |pivot-icon| image:: /images/editors_3dview_object_transform-control_pivot-point.png
 
 *******************
 Bounding Box Center

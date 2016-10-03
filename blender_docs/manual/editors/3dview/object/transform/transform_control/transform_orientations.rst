@@ -12,11 +12,6 @@ Transform Orientations
    | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Alt-Spacebar`
 
-.. figure:: /images/editors_3dview_orientations_menu.png
-   :align: right
-
-   Transform Orientations Menu.
-
 
 Orientations affect the behavior of Transformations: Location, Rotation, and Scale.
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
@@ -24,6 +19,11 @@ as well as on transformation constraints
 (like :doc:`axis locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`).
 This means that, when you press :kbd:`G-X`, it will constrain to the *global* X-axis,
 but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s X-axis.
+
+.. figure:: /images/editors_3dview_object_transform-control_transform-orientations_menu.png
+
+   Transform Orientations Menu.
+
 
 The Orientations options can be set on the 3D View's header,
 with :kbd:`Alt-Spacebar`, or through the *Orientation* menu in a 3D View header.
@@ -103,7 +103,7 @@ Custom Orientations
    | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
-.. figure:: /images/transformorientationpanel-custom.png
+.. figure:: /images/editors_3dview_object_transform-control_transform-orientations_custom.png
 
    Custom orientation.
 
