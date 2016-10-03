@@ -56,7 +56,7 @@ Animation Techniques
 Animating Deformation
 ---------------------
 
-- :doc:`Shape Keys </animation/shape_keys>`
+- :doc:`Shape Keys </animation/shape_keys/index>`
 - :doc:`Deforming by a Lattice </modeling/modifiers/deform/lattice>`
 - :doc:`Deforming with Hooks </modeling/modifiers/deform/hooks>`
 
@@ -83,7 +83,7 @@ Animation Fundamentals
    Markers are used to mark key points/events within an animation.
 :doc:`Motion Paths </animation/keyframes/visualization>`
    Motion Paths are used to visualize an animation.
-:doc:`Shape Keys </animation/shape_keys>`
+:doc:`Shape Keys </animation/shape_keys/index>`
    Shape Keys are used to deform objects into new shapes.
 
 

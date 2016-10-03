@@ -33,8 +33,16 @@ Example
 Texture Space
 =============
 
-TODO.
+.. (todo) object --> transform --> tex space
 
+This are settings of the texture space used by the generated texture mapping.
+The visualization of the texture space can be activated in the :doc`/editors/3dview/object/properties/display`.
+
+Texture Mesh
+   .. transformation in vertex leads to distortion.
+
+Auto Texture Space
+   Location, Size
 
 Vertex Groups
 =============
@@ -47,7 +55,7 @@ TODO.
 Shape Keys
 ==========
 
-See :ref:`animation-shape-keys-panel`.
+See :doc:`/animation/shape_keys/shape_keys_panel`.
 
 TODO.
 
