@@ -2,9 +2,9 @@
 
 .. |copy-paste| image:: /images/rigging-copypastepose.png
 
-*************
-Editing Poses
-*************
+*******
+Editing
+*******
 
 .. figure:: /images/rigging-posetools.png
    :align: right
@@ -70,10 +70,8 @@ Note that this mode lacks options,
 and only works by applying the resulting transform to the bones in the chain.
 
 
-.. (todo) split into reset transformation and skeleton panel
-
-Rest Pose
-=========
+Clear Transform
+===============
 
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations (usual :kbd:`Alt-G`/:kbd:`Alt-R`/:kbd:`Alt-S` shortcuts,
@@ -85,18 +83,16 @@ but rather scales the *Distance* influence area of the selected bones (also
 available through the :menuselection:`Pose --> Scale Envelope Distance` menu entry,
 which is only effective in *Envelope* visualization, even though it is always available...).
 
+
+Apply
+=====
+
 Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the *Edit Mode*),
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
 (or :kbd:`Ctrl-A` and confirm the pop-up menu). When you do so,
 the skinned objects/geometry is **also** reset to its default, undeformed state,
 which generally means you will have to skin it again.
-
-Whereas in *Edit Mode*, you always see your armature in its rest position,
-in *Object Mode* and *Pose Mode* you see it by default in its *pose position*
-(i.e. as it was transformed in the *Pose Mode*).
-If you want to see it in the rest position in all modes,
-enable the *Rest Position* button in the *Armature* tab (*Edit Mode*).
 
 
 In-Betweens
@@ -142,7 +138,7 @@ Breakdowner
    | Mode:     Pose Mode
    | Menu:    :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`, :kbd:`Shift-E`
 
-   Creates a suitable breakdown pose on the current frame
+Creates a suitable breakdown pose on the current frame.
 
 
 There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
