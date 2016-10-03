@@ -12,7 +12,7 @@
    actions.rst
    drivers.rst
    markers.rst
-   shape_keys.rst
+   shape_keys/index.rst
 
 
 Animation Techniques
