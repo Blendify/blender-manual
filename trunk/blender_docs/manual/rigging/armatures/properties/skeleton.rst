@@ -10,6 +10,18 @@ Skeleton
 In this panel you can arrange sets of bones into different layers for easier manipulation.
 
 
+Position
+========
+
+A radio button to switch between Pose Position and Rest Position.
+
+Whereas in *Edit Mode*, you always see your armature in its rest position,
+in *Object Mode* and *Pose Mode* you see it by default in its *Pose Position*
+(i.e. as it was transformed in the *Pose Mode*).
+If you want to see it in the rest position in all modes,
+enable the *Rest Position* button in the *Armature* tab (*Edit Mode*).
+
+
 .. _armature-layers:
 
 Armature Layers
