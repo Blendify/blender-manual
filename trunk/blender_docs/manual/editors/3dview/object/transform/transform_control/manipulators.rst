@@ -76,7 +76,7 @@ Extended
    - :doc:`Read more about constraining transformations
      </editors/3dview/object/transform/transform_control/precision/introduction>`.
    - :doc:`Read more about axis locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`.
-   - :doc:`Read more about trackball rotation </editors/3dview/object/transform/basics/rotate>`.
+   - :ref:`Read more about trackball rotation <view3d-transform-trackball>`.
    - :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
 
 .. tip:: Changing the Transform Orientation
