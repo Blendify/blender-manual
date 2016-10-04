@@ -33,7 +33,7 @@ To cancel the movement, press :kbd:`Esc` or :kbd:`RMB`.
 
 
 Chaining
-----------
+--------
 
 To enter numeric values for multiple axes, use :kbd:`Tab` after entering a value for the axis.
 e.g. To move an Object, one (1) Blender unit on all three axes press:
