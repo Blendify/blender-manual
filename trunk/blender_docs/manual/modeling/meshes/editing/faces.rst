@@ -121,7 +121,7 @@ Grid Fill
 
           Input.
 
-     - .. figure:: /images/mesh_fill_grid_surface_after.jpg
+     - .. figure:: /images/mesh_fill_grid_surface_after.png
           :width: 320px
 
           Grid Fill Result.
