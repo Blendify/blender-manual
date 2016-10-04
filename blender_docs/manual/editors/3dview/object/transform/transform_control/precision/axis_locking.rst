@@ -66,6 +66,8 @@ An object, face, vertex or other selectable item will only be able to move,
 scale or rotate in a single dimension.
 
 
+.. _view3d-transform-plane-lock:
+
 Plane locking
 -------------
 

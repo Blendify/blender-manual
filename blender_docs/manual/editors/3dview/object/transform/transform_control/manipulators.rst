@@ -1,8 +1,8 @@
 .. |manip-menu| image:: /images/editors_3dview_transform_control_manipulators_header.png
 
-************
-Manipulators
-************
+**********************
+Transform Manipulators
+**********************
 
 .. admonition:: Reference
    :class: refbox
@@ -12,34 +12,35 @@ Manipulators
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
-In combination with :doc:`axis locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`,
-the normal Transform commands (:kbd:`G` for Grab, :kbd:`R` for Rotation, :kbd:`S` for Scale),
-can be used to manipulate objects along any axis. However,
-there may be times when these options are not adequate. For example,
-when you want to translate a single face on a randomly rotated object in a direction perpendicular to
-the face's normal. In instances like this, *Transform Manipulators* may be useful.
-
-Transform manipulators provide a visual representation of the transform options and allow
-movement, rotation and scaling along any axis, mode and orientation of the 3D View. The
-manipulator can be enabled by clicking on the axis icon from the manipulator options portion
-of the header or via the shortcut key :kbd:`Ctrl-Spacebar`.
-
-There is a separate manipulator for each Transform Command.
+The Transform manipulator widgets allow mouse controlled translation, rotation and scaling in the 3D View.
+There is a separate manipulator for each operation.
 Each manipulator can be used separately or in combination with the others.
-Clicking with :kbd:`Shift-LMB` on multiple manipulator icons (arrow, arc, box)
-will combine manipulator options.
 
-Manipulators can be accessed in the header of the *3D View*:
 
-- Axis: Enable/disable the manipulators.
-- Arrow: Translation.
-- Arc: Rotation.
-- Box: Scale.
-- Transform Orientation menu: choice of the transformation orientation.
+Header Controls
+===============
+
+Manipulators can be accessed in the header of the *3D View*.
 
 .. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_options.png
 
    Manipulator Options.
+
+Axis
+   Enable/disable the manipulators :kbd:`Ctrl-Spacebar`.
+Manipulators
+   Toggles each of the manipulators. Clicking with :kbd:`Shift-LMB` on multiple manipulator icons
+   will combine the manipulators.
+
+   Arrow
+      Translation.
+   Arc
+      Rotation.
+   Box
+      Scale.
+Transform Orientation
+   A select menu of the 
+   :doc:`Transform Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`.
 
 
 Manipulator Controls
@@ -49,37 +50,28 @@ Basic
 -----
 
 You can use the widget by dragging :kbd:`LMB` one of the three colored axes.
+The transformation will be locked to the clicked axis.
 
-.. white circle
+Dragging the small white circle allows free transformation.
+In case of the rotations manipulator this starts a :ref:`trackball rotation <view3d-transform-trackball>`.
+It contains another big outer white circle to activate free transformation.
+
+Releasing the mouse they are confirms the operation (*confirm on release*).
 
 
 Extended
 --------
 
-- Holding down :kbd:`Ctrl` enables
-  :doc:`snapping </editors/3dview/object/transform/transform_control/precision/snap>`.
+The operations work in same way as described in
+:doc:`/editors/3dview/object/transform/transform_control/precision/introduction` except:
 
-- Holding down :kbd:`Shift` *after* you :kbd:`LMB`
-  the manipulator handle will constrain the action to smaller increments.
-- Holding down :kbd:`Shift` *before* you :kbd:`LMB` click on one of the handles will cause the manipulator action
-  to be performed relative to the other two axes (you can let go of :kbd:`Shift` once you have clicked).
-  For example, if you :kbd:`Shift` then :kbd:`LMB` the Z axis handle of the translate manipulator,
-  movement will occur in the X and Y planes.
+Holding down :kbd:`Shift` *after* you :kbd:`LMB`
+the manipulator handle will constrain the action to smaller increments.
+Holding down :kbd:`Shift` *before* you :kbd:`LMB` click on one of the handles will cause the manipulator action
+to be performed relative to the other two axes. See :ref:`view3d-transform-plane-lock`.
 
-- When in rotate mode, :kbd:`LMB` on the white circle (largest circle around the rotation manipulator)
-  will be equivalent to pressing :kbd:`R`.
-- When in rotate mode, :kbd:`LMB` on the gray circle (small inner circle at the center of the rotation manipulator)
-  will be equivalent to pressing :kbd:`R` twice, and will start *trackball* rotation.
 
 .. seealso::
 
-   - :doc:`Read more about constraining transformations
-     </editors/3dview/object/transform/transform_control/precision/introduction>`.
-   - :doc:`Read more about axis locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`.
-   - :ref:`Read more about trackball rotation <view3d-transform-trackball>`.
-   - :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
+   The :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
 
-.. tip:: Changing the Transform Orientation
-
-   The :doc:`Transform Orientation </editors/3dview/object/transform/transform_control/transform_orientations>`
-   for how objects are manipulated can be changed to make some operations easier.
