@@ -10,6 +10,8 @@ Axis Locking
    Axis locking.
 
 
+This option limits the transformation to the specified axis.
+
 :doc:`Transformations (translation/scale/rotation) </editors/3dview/object/transform/introduction>` in *Object Mode*
 and *Edit Mode*, as well as extrusion in *Edit Mode*) can be locked to particular axis relative to the current
 :doc:`transform orientation </editors/3dview/object/transform/transform_control/transform_orientations>`.
@@ -22,8 +24,28 @@ Usage
 A locked axis will display in a brighter color than an unlocked axis. For example in the image to the right,
 the Z axis is drawn in light blue as movement is constrained to this axis. This example, can be achieved in two ways:
 
-- Press :kbd:`G` to enable translation, press :kbd:`Z` to constrain movement to the Z-axis.
-- Press :kbd:`G` to enable translation, move the mouse in the Z direction, then press :kbd:`MMB`.
+
+Hotkey
+------
+
+The axis of movement can be changed at any time during transformation by typing :kbd:`X`, :kbd:`Y`, :kbd:`Z`.
+
+
+Pointing
+--------
+
+   .. figure:: /images/editors_3dview_trans_basics_grab_mmb.jpg
+
+      Axis-Constraint in action.
+
+Holding :kbd:`MMB` after starting a transformation lets you select an axis to constrain to.
+A visual option to constrain the translation will be available,
+showing the three axes in the 3D View space. A dotted white line is used as a pointer.
+The axis of choice to confirm the operation
+will depend on the highlighted axis about which the :kbd:`MMB` is released.
+
+When you already moved the mouse in the desired direction,
+pressing :kbd:`MMB` will lock to the axis in which was pointed at.
 
 
 Axis locking types
@@ -52,7 +74,7 @@ Plane locking
 
    | Mode:     Object and Edit Modes (translate, scale)
    | Hotkey:   :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
-   | after moving the mouse in the desired direction.
+               after moving the mouse in the desired direction.
 
 .. figure:: /images/editors_3dview_transform_control-axis_locking-plane-locking.png
    :width: 150px
@@ -79,12 +101,21 @@ Axis locking modes
 
    Axis locking modes.
 
+   A and B show Z axis locking in *Global* and *Normal* orientations respectively.
+   C and D show the same situation with face selection,
+   E and F with edge selection and G and H with vertex selection.
 
 A single key press constrains movement to the corresponding *Global* axis. A second
 key press of the *same* key constrains movement to the current transform orientation
 selection (except if it is set to *Global*,
 in which case the *Local* orientation is used). Finally,
 a third key press of the same key removes constraints.
+
+The orientation can be set
+in the :doc:`Transform Orientation </editors/3dview/object/transform/transform_control/transform_orientations>`
+selector of the 3D View header.
+
+.. or independent in the Operator panel? 
 
 For example, if the current transform orientation is set to *Normal*,
 pressing :kbd:`G` to start translation, followed by :kbd:`Z` will lock translation
@@ -94,10 +125,7 @@ Pressing :kbd:`Z` again will remove all constraints.
 The current mode will be displayed in the left hand side of the *3D View header*.
 
 As can be seen in the *Axis locking modes* image,
-the direction of the transform also takes into account the selection. Sections A and B show Z
-axis locking in *Global* and *Normal* orientations respectively.
-C and D show the same situation with face selection,
-E and F with edge selection and G and H with vertex selection.
+the direction of the transform also takes into account the selection. 
 
 Note that using a locked axis does not prevent you from using the keyboard to enter
 :doc:`numeric transformation </editors/3dview/object/transform/transform_control/precision/numeric_input>` values.

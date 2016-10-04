@@ -48,49 +48,12 @@ Scaling using the keyboard shortcut
 - Scale the elements by moving the mouse.
 - :kbd:`LMB` click to accept changes.
 
-The amount of scaling will be displayed in the bottom left hand corner of the 3D View editor.
+The amount of scaling will be displayed in the footer of the 3D View editor.
 
 .. figure:: /images/editors_3dview_transform_basics_scale_display-values.png
 
    Scale values.
 
-
-Constraining the scaling axis (axis locking)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Scaling can be constrained to a particular axis or axes through the use of
-:doc:`Axis Locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`.
-To constrain scaling, the following shortcuts can be used:
-
-- :kbd:`S`, :kbd:`X`: Scale only along the *X-Axis*
-- :kbd:`S`, :kbd:`Y`: Scale only along the *Y-Axis*
-- :kbd:`S`, :kbd:`Z`: Scale only along the *Z-Axis*
-
-Axis locking can also be enabled by pressing the :kbd:`MMB` after enabling scaling and
-moving the mouse in the desired direction e.g.
-
-- :kbd:`S`, move the mouse along the X axis, :kbd:`MMB`: Scale only along the *X-Axis*
-
-
-Fine Tuning The Scaling
-^^^^^^^^^^^^^^^^^^^^^^^
-
-:doc:`Precise control </editors/3dview/object/transform/transform_control/precision/introduction>`
-can be had over scaling through the use of the :kbd:`Shift` and :kbd:`Ctrl`
-keys to limit scaling to discrete amounts. You can also enter a
-:doc:`numerical value </editors/3dview/object/transform/transform_control/precision/numeric_input>`
-in Blender Units (BU) to specify the amount of scaling after after initiating a scale transformation.
-
-- Hold :kbd:`Ctrl` down while scaling to scale the selected element in degree 0.1 BU increments.
-- Hold :kbd:`Shift` down while scaling to scale the selected element in very fine increments.
-- Hold :kbd:`Shift-Ctrl` down while scaling to scale the selected element in 0.01 BU increments.
-- Press :kbd:`S`, type in a number and press :kbd:`Return` to confirm.
-
-.. tip:: Orientation dependent scaling
-
-   By default, all scaling happens around a Global Orientation.
-   You can change the scaling orientation by pressing the axis key twice. For example, pressing
-   :kbd:`S`, :kbd:`X`, :kbd:`X` will by default set scaling to occur around the local orientation.
 
 .. seealso::
 
@@ -100,28 +63,5 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
      </editors/3dview/object/transform/transform_control/precision/numeric_input>`
    - :doc:`Read more about Transform Orientations
      </editors/3dview/object/transform/transform_control/transform_orientations>`
-
-
-Scaling with the 3D Transform Manipulator
------------------------------------------
-
-.. figure:: /images/widget3d-transform-scale.png
-
-   Scaling Transform Manipulator.
-
-
-In the 3D View header, ensure that the Transform Manipulator is enabled (the red, green,
-and blue triad is selected). Set the manipulator type to scale
-(the highlighted square icon shown below).
-
-.. figure:: /images/editors_3dview_transform_basics_scale_header.png
-
-
-- Select your element with :kbd:`RMB`.
-- Use :kbd:`LMB` and drag any of the three colored axes on the scaling manipulator to scale
-  your object along that axis.
-  You can also use :kbd:`Shift`, :kbd:`Ctrl` or numeric input with the 3D manipulator widget for further control.
-- Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
-  :kbd:`Return`. Your changes will be canceled if you press :kbd:`RMB` or :kbd:`Esc`.
-
-:doc:`Read more about the 3D Transform Manipulator </editors/3dview/object/transform/transform_control/manipulators>`
+   - :doc:`Read more about the 3D Transform Manipulator
+     </editors/3dview/object/transform/transform_control/manipulators>`.

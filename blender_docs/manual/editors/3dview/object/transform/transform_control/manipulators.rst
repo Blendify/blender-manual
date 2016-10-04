@@ -45,14 +45,27 @@ Manipulators can be accessed in the header of the *3D View*:
 Manipulator Controls
 ====================
 
+Basic
+-----
+
+You can use the widget by dragging :kbd:`LMB` one of the three colored axes.
+
+.. white circle
+
+
+Extended
+--------
+
 - Holding down :kbd:`Ctrl` enables
   :doc:`snapping </editors/3dview/object/transform/transform_control/precision/snap>`.
-  Holding down :kbd:`Shift` *after* you :kbd:`LMB`
+
+- Holding down :kbd:`Shift` *after* you :kbd:`LMB`
   the manipulator handle will constrain the action to smaller increments.
 - Holding down :kbd:`Shift` *before* you :kbd:`LMB` click on one of the handles will cause the manipulator action
   to be performed relative to the other two axes (you can let go of :kbd:`Shift` once you have clicked).
   For example, if you :kbd:`Shift` then :kbd:`LMB` the Z axis handle of the translate manipulator,
   movement will occur in the X and Y planes.
+
 - When in rotate mode, :kbd:`LMB` on the white circle (largest circle around the rotation manipulator)
   will be equivalent to pressing :kbd:`R`.
 - When in rotate mode, :kbd:`LMB` on the gray circle (small inner circle at the center of the rotation manipulator)
