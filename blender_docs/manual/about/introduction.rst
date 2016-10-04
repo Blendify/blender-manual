@@ -6,6 +6,7 @@ Introduction to the Blender Manual
 In this manual aims to be a complete and concise source of information
 to help you to become familiar with the application.
 
+
 Conventions
 ===========
 
@@ -57,4 +58,3 @@ there are several options for helping out. You can:
    in the documentation.
 #. Get involved in discussions through the `mailing list <https://lists.blender.org/mailman/listinfo/bf-docboard>`__
    and ``#blenderwiki`` :ref:`IRC channel <irc-channels>`.
-

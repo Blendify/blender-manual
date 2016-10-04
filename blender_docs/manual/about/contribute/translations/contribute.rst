@@ -149,5 +149,7 @@ If you want only a summary, append ``-q`` to the command above. For more options
 
 .. seealso::
 
-   Instructions on this page are based on
-   `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__
+   - Instructions on this page are based on
+     `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__
+   - The `translation design task <https://developer.blender.org/T43083>`__
+     for discussion on the proposed process.
