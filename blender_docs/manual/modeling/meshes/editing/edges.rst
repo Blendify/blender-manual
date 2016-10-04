@@ -391,7 +391,7 @@ Example of bridge tool between edge loops with different numbers of vertices.
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_uneven_after.jpg
+     - .. figure:: /images/mesh_bridge_uneven_after.png
           :width: 320px
 
           Bridge Result.
@@ -400,12 +400,12 @@ Example using the bridge tool to punch holes in face selections and connect them
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_faces_before.jpg
+   * - .. figure:: /images/mesh_bridge_faces_before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_faces_after.jpg
+     - .. figure:: /images/mesh_bridge_faces_after.png
           :width: 320px
 
           Bridge Result.
@@ -428,12 +428,12 @@ Example of the subdivision option and surface blending with UV's.
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_advanced_before.jpg
+   * - .. figure:: /images/mesh_bridge_advanced_before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_advanced_after.jpg
+     - .. figure:: /images/mesh_bridge_advanced_after.png
           :width: 320px
 
           Bridge Result.

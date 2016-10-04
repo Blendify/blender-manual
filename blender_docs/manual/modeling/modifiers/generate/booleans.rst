@@ -50,7 +50,7 @@ operation for the Boolean modifier at a time.
 Options
 =======
 
-.. figure:: /images/modifiers_boolean.jpg
+.. figure:: /images/modeling_modifiers_generate_booleans.png
 
    Boolean Modifier Options.
 
@@ -84,6 +84,9 @@ Operation
 
 Object
    The name of the target mesh object.
+
+Solver
+   TODO
 
 
 .. _boolean-materials:
@@ -163,11 +166,11 @@ And in the bottom row we show the unwrap in the Blender UV/Image Editor.
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_uv_boolean_difference_operation_op_start.jpg
+   * - .. figure:: /images/modifier_generate_boolean_uv_boolean_difference_operation_op_start.png
 
           A UV Sphere and a Cube with different UV Maps.
 
-     - .. figure:: /images/modifier_generate_boolean_uv_boolean_difference_operation_applied.jpg
+     - .. figure:: /images/modifier_generate_boolean_uv_boolean_difference_operation_applied.png
 
           Difference operation applied.
 
@@ -201,11 +204,6 @@ When the modifier cannot execute, it will show the message ``"Cannot execute boo
 and when the modifier cannot be applied to the mesh,
 Blender will show the message ``"Modifier is disabled, Skipping Apply."``.
 In this case, you either have to remove some modifiers or apply the necessary ones.
-
-.. figure:: /images/modifiers_boolean_error.jpg
-
-   Boolean Modifier with error message.
-
 
 The most common case is when you add or copy a Boolean modifier to use the
 modified mesh in conjunction with another target later; Blender will place the warning in the
