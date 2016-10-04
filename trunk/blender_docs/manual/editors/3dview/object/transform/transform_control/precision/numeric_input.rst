@@ -5,7 +5,7 @@ Numeric Input
 
 .. figure:: /images/editors_3dview_transform_control-numeric_input_numeric-input-header.png
 
-   Numeric input in the 3D View header.
+   Numeric input displayed in the 3D View footer.
 
 
 Using the mouse for transformations is convenient,
@@ -16,6 +16,11 @@ type a number to indicate the magnitude of the transformation.
 You can see the numbers you enter in the bottom left hand corner of the 3D View header.
 Negative numbers and decimals can be entered by pressing :kbd:`Minus` and :kbd:`.` respectively.
 
+- Hitting :kbd:`Backspace` during number entry and deleting the number removes the numerical
+  specification option but the object will remain constrained to the same axis.
+- Hitting :kbd:`/` during number entry switches the number being entered to its reciprocal,
+  e.g. :kbd:`2 /` results in 0.5 (1/2); :kbd:`2/0` results in 0.05 (1/20).
+
 
 Translation
 ===========
@@ -24,8 +29,11 @@ To move Objects, vertices, faces or edges select the element,
 press :kbd:`G` and then type a number.
 By default and with no other key presses, movement will occur along the X-axis.
 To confirm the movement, press :kbd:`Return` or :kbd:`LMB`.
-To cancel the movement, press :kbd:`Esc` or :kbd:`RMB`. If you mistype the value,
-press :kbd:`Backspace` to cancel the current entry and retype a new value.
+To cancel the movement, press :kbd:`Esc` or :kbd:`RMB`.
+
+
+Chaining
+----------
 
 To enter numeric values for multiple axes, use :kbd:`Tab` after entering a value for the axis.
 e.g. To move an Object, one (1) Blender unit on all three axes press:
@@ -35,13 +43,7 @@ followed by the Y-axis and then the Z-axis.
 
 You can also combine numeric input with
 :doc:`Axis Locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`
-to limit movement to a particular axis. To do so, press :kbd:`G` followed by :kbd:`X`,
-:kbd:`Y`, :kbd:`Z` to indicate the axis.  Then type in the transform amount using (:kbd:`0` - :kbd:`9`)
-followed by :kbd:`Return` to confirm. Pressing :kbd:`X`, :kbd:`Y`,
-:kbd:`Z` will initially constrain movement to the *Global* axis.
-Pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` again will constrain movement to the orientation set
-in the :doc:`Transform Orientation </editors/3dview/object/transform/transform_control/transform_orientations>`
-setting of the 3D View header.
+to limit movement to a particular axis.
 
 
 Rotation
@@ -49,7 +51,7 @@ Rotation
 
 To specify a value for clockwise rotation, press :kbd:`R`, (:kbd:`0` - :kbd:`9`),
 then :kbd:`Return` to confirm. To specify counter-clockwise rotation
-press :kbd:`R`, :kbd:`Minus`, (kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm.
+press :kbd:`R`, :kbd:`Minus`, (:kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm.
 Note that 270 degrees of clockwise rotation is
 equivalent to -90 degrees of counter-clockwise rotation.
 
