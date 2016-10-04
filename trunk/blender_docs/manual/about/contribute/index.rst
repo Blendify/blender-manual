@@ -43,8 +43,8 @@ Style Guides
    style_guides/writing_guide.rst
 
 
-Translation
-===========
+Translations
+============
 
 .. toctree::
    :maxdepth: 1
@@ -66,4 +66,3 @@ The Manual Teams `project page <https://developer.blender.org/project/profile/53
 - ``#blenderwiki`` channel in the :ref:`IRC chat <irc-channels>` for informal discussions in real-time.
 - `Workboard <https://developer.blender.org/project/board/53/>`__ for tasks.
 - `Patch tracker <https://developer.blender.org/differential/>`__ shared with the other Blender projects.
-

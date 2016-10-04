@@ -11,8 +11,8 @@ This page covers conventions concerning the translations.
    - The translations are licensed under the same :doc:`/about/license` as the original.
 
 
-Should I translate \.\. ?
-=========================
+Should I translate\.\.\. ?
+==========================
 
 Maybe
 -----
@@ -89,4 +89,3 @@ see :ref:`How to install it <translations-fuzzy-strings>`.
 .. seealso:: 
 
    https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
-
