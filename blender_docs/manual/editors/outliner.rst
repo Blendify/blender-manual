@@ -8,8 +8,8 @@ Outliner
    The Outliner editor.
 
 
-The *Outliner* is a list that organizes data in your scene.
-But also blend-file, user preferences.
+The *Outliner* is a list that organizes data in the blend-file.
+i.e. the scene data and also the User Preferences.
 
 .. rubric:: Usage
 
@@ -25,7 +25,7 @@ But also blend-file, user preferences.
 
 
 Tree View
-==================
+=========
 
 Each row in the *Outliner* shows a data-block. You can click the plus-sign to the
 left of a name to expand the current data-block and see what other data-blocks it contains.
@@ -55,8 +55,8 @@ and enter *Edit Mode* while activating the object data of the
 cube will select the cube and enter *Object Mode* (see right).
 
 
-Toggle pre-selection of a group of data-blocks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Selecting a group of data-blocks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Useful when you want to select/deselect a whole bunch of data-blocks.
 For this you must prepare the selection using, to your liking:
@@ -71,7 +71,7 @@ which brings on a context menu (see bellow).
 
 .. figure:: /images/editors_outliner_column-icons.png
 
-   Toggling pre-selection of a data-block.
+   Selection of a data-block.
 
 
 Context menu
@@ -94,8 +94,7 @@ Depending on the type of the pre-selected data-block(s), you will have all or pa
 Object-level Restrictions
 -------------------------
 
-Toggling
-The three following options, in the right side of the *Outliner* editor,
+The three following toggles, in the right side of the *Outliner* editor,
 are only available for objects:
 
 Visibility (eye icon)
@@ -132,8 +131,7 @@ Show Hierarchy
 Display Mode
 ------------
 
-Filtering the 
-The editors header has a field to let you select what the Outliner should show to help you narrow the
+The editors header has a select menu that let you filter what the Outliner should show. It helps to narrow the
 list of objects so that you can find things quickly and easily.
 
 All Scenes
