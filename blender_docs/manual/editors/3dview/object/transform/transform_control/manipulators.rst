@@ -53,8 +53,8 @@ You can use the widget by dragging :kbd:`LMB` one of the three colored axes.
 The transformation will be locked to the clicked axis.
 
 Dragging the small white circle allows free transformation.
-In case of the rotations manipulator this starts a :ref:`trackball rotation <view3d-transform-trackball>`.
-The rotations manipulator contains another big outer white circle to activate free transformation.
+In case of the rotation manipulator this starts a :ref:`trackball rotation <view3d-transform-trackball>`.
+The rotation manipulator contains another big outer white circle to activate free transformation.
 
 Releasing the mouse confirms the operation (*confirm on release*).
 
