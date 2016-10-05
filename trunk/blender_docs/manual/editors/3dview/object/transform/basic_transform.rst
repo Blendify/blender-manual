@@ -51,7 +51,8 @@ Rotate
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, Object etc)
-around one or more axes or the element's Pivot Point.
+around one or more axes or the element's 
+:doc:`Pivot Point </editors/3dview/object/transform/transform_control/pivot_point/index>`.
 
 The amount of rotation will be displayed in the footer of the 3D View editor.
 
@@ -105,13 +106,28 @@ Common Options
 There are multiple ways to transform an element which include:
 
 - The keyboard shortcut.
-- The menu in the header or Transform panel in the Tool Shelf.
+- The menu in the header or the Transform panel in the Tool Shelf.
 - The :doc:`3D Transform Manipulator </editors/3dview/object/transform/transform_control/manipulators>`
   widget.
-- The Transform panel in the Properties region or the Object tab.
+- The :doc:`Transform panel </editors/3dview/object/properties/transforms>`
+  in the Properties region or the Object tab.
 
-Using combination of shortcuts gives you more control over your transformation.
-See :doc:`Transform Control </editors/3dview/object/transform/transform_control/index>`.
+
+Confirm and Chancel
+-------------------
+
+:kbd:`LMB` click to accept changes.
+This behavior can be changed globally by activating  *Release Confirms*
+in the :doc:`User Preferences </preferences/editing>`,
+so that a single :kbd:`RMB` drag can be used to move and confirm.
+
+To cancel the transformation press :kbd:`RMB` or :kbd:`Esc` instead.
+This will reset the object or element to its original state.
+
+.. seealso::
+
+   Using combination of shortcuts gives you more control over your transformation.
+   See :doc:`Transform Control </editors/3dview/object/transform/transform_control/index>`.
 
 
 Operator Panel
@@ -130,31 +146,26 @@ Constrain Axis
    X, Y, Z
 Orientation
    Shows the :doc:`Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
-   of the restricted axes.
+   of the constraint axes.
 Proportional Editing, Falloff, Size
    Activates/deactivates *Proportional Editing* and configure the type *Falloff* and
-   *Size* of the proportional edit tool.
+   *Size* of the :doc:`/editors/3dview/object/transform/transform_control/proportional_edit` tool.
 Edit Grease Pencil
    ToDo.
 Edit Texture Space
-   This checkbox lets you apply the transformation on the texture space, instead of the object or element itself.
-   Only available in translation and scale.
+   This checkbox lets you apply the transformation on the :ref:`texture space <properties-texture-space>`,
+   instead of the object or element itself. Only available in translation and scale.
 Confirm on Release
-   Functions as a label indicating either the operation was drag-and-release or move-and-confirm.
-   This behavior can be changed globally by activating  *Release Confirms*
-   in the :doc:`User Preferences </preferences/editing>`,
-   so that a single :kbd:`RMB` drag can be used to move and confirm.
+   Shows if either the operation was drag-and-release or move-and-confirm.
 
 
 Workflow
 --------
 
-Using keyboard shortcuts
+Using Keyboard Shortcuts
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Use :kbd:`RMB` to select the elements you want to scale.
+#. Use :kbd:`RMB` to select the elements you want to transform.
 #. Tap :kbd:`G`, or :kbd:`R`, or :kbd:`S` once to enter the transformation mode.
 #. Transform the elements by moving the mouse.
 #. :kbd:`LMB` click to accept changes.
-   To cancel the transformation press :kbd:`RMB` or :kbd:`Esc` instead.
-   This will reset the object or element to its original state.

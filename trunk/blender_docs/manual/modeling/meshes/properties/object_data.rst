@@ -30,13 +30,15 @@ Example
    Example mesh with *Auto Smooth* enabled.
 
 
+.. _properties-texture-space:
+
 Texture Space
 =============
 
 .. (todo) object --> transform --> tex space
 
 This are settings of the texture space used by the generated texture mapping.
-The visualization of the texture space can be activated in the :doc`/editors/3dview/object/properties/display`.
+The visualization of the texture space can be activated in the :doc:`/editors/3dview/object/properties/display`.
 
 Texture Mesh
    .. Au: too buggy to doc? transformation in vertex leads to distortion.
