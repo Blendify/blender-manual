@@ -1,0 +1,34 @@
+.. |pivot-icon| image:: /images/editors_3dview_object_transform-control_pivot-point.png
+
+************************
+Manipulate Center Points
+************************
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode and Pose Mode
+   | Menu:     Select from the |pivot-icon| icon in the 3D View header.
+   | Hotkey:   :kbd:`Alt-,`
+
+
+When this option is enabled, the transformation
+will change the positions of the object’s origins,
+but will not affect the object itself.
+
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_manipulate-center-points_button.png
+
+   Manipulate Center Points button.
+
+
+In the examples below,
+a comparison of the scaling and rotation of objects,
+when *Manipulate Center Points* is enabled (middle) and disabled (right).
+
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_manipulate-center-points_rotate.png
+
+   Rotation example.
+
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_manipulate-center-points_scale.png
+
+   Scaling example.
