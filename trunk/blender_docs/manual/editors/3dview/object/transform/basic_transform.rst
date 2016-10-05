@@ -19,47 +19,18 @@ It also lets you translate any elements that make up the object within the 3D sp
 Grab/Move works similarly here as it does
 in the Node Editor, Graph Editor, UV/Image Editor, Sequencer, etc.
 
-Options and other details will be discussed in their respective sections.
-
-.. figure:: /images/editors_3dview_transform_basics_grab_display-values.png
-
-   Translation Display.
-
-
-While Grab/Move is active, the amount of change in the X, Y,
-and Z co-ordinates is displayed at the bottom left corner of the 3D View editor.
-
-There are two ways to Grab/Move in *3D View*:
-
-- Using shortcuts and combinations of shortcuts.
-- Using the *Transform Manipulator Widget*. This can be toggled in the header of the 3D View.
-
-
-Shortcuts
----------
-
-A quicker way to move objects in 3D space is with :kbd:`G`.
 Pressing :kbd:`G` activates "Grab/Move" transformation mode.
-The selected object or data then moves freely according to the mouse pointer's location and camera.
-Using this shortcut in combination with specific shortcuts which specify a chosen axis gives you
-full control over your transformation.
-
-:kbd:`LMB`
-   Confirm the move, and leave the object or data at its current location on the screen.
-:kbd:`RMB` or :kbd:`Esc`
-   Cancel the move, and return the object or data to its original location.
-
+The selected object or element then moves freely according to the mouse pointer's location and camera.
 
 You can also move an object by clicking and holding :kbd:`RMB` on the object to move it.
 To confirm the action, press :kbd:`LMB`.
 
-.. Footer: This decimal number is displayed at the bottom left corner of the 3D View editor as it is entered.
+While Grab/Move is active, the amount of change in the X, Y,
+and Z coordinates is displayed at the bottom left corner of the 3D View editor.
 
-.. note::
+.. figure:: /images/editors_3dview_transform_basics_grab_display-values.png
 
-   This behavior can be changed using *Release Confirms* in the :doc:`User Preferences </preferences/editing>`,
-   so that a single :kbd:`RMB` drag can be used to move and confirm.
-
+   Translation Display.
 
 .. tip::
 
@@ -81,11 +52,12 @@ Rotate
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, Object etc)
 around one or more axes or the element's Pivot Point.
-There are multiple ways to rotate an element which include:
 
-- The keyboard shortcut :kbd:`R`.
-- The 3D manipulator widget.
-- The Properties region :kbd:`N`.
+The amount of rotation will be displayed in the footer of the 3D View editor.
+
+.. figure:: /images/editors_3dview_transform_basics_rotate_display-values.png
+
+   Rotation values.
 
 
 .. _view3d-transform-trackball:
@@ -93,27 +65,7 @@ There are multiple ways to rotate an element which include:
 Trackball Rotation
 ------------------
 
-A free rotation mode.
-Press :kbd:`R`, :kbd:`R` to enable Trackball rotation.
-
-
-Usage
------
-
-Rotation using the keyboard shortcut
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Use :kbd:`RMB` to select the elements you want to rotate.
-- Tap :kbd:`R` once to enter rotation mode.
-- Rotate the elements by moving the mouse.
-  The closer the mouse is to the elements's center, the higher the rotation influence.
-- :kbd:`LMB` click to accept changes.
-
-The amount of rotation will be displayed in the bottom left hand corner of the 3D View editor.
-
-.. figure:: /images/editors_3dview_transform_basics_rotate_display-values.png
-
-   Rotation values.
+A free rotation mode. Press :kbd:`R`, :kbd:`R` to enable Trackball rotation.
 
 
 Scale
@@ -140,38 +92,69 @@ the scale will continue in the negative direction and flip the element.
    a scaled down Object, a scaled up Object and a scale-flipped Object.
 
 
-There are multiple ways to scale an element which include:
-
-- The keyboard shortcut :kbd:`S`
-- The 3D manipulator widget
-- The Properties menu :kbd:`N`
-
-
-Usage
------
-
-Scaling using the keyboard shortcut
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Use :kbd:`RMB` to select the elements you want to scale.
-- Tap :kbd:`S` once to enter scale mode.
-- Scale the elements by moving the mouse.
-- :kbd:`LMB` click to accept changes.
-
 The amount of scaling will be displayed in the footer of the 3D View editor.
 
 .. figure:: /images/editors_3dview_transform_basics_scale_display-values.png
 
    Scale values.
 
-Precision, Axis Locking, Numeric Input,
-Snapping and the different types of Pivot Point.
 
-.. seealso::
+Common Options
+===============
 
-   For additional information, you may wish to read the 
-   :doc:`Transform Control </editors/3dview/object/transform/transform_control/index>`:
+There are multiple ways to transform an element which include:
 
-   - :doc:`Numerical Transformations </editors/3dview/object/transform/transform_control/precision/numeric_input>`
-   - :doc:`Transform Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
-   - :doc:`3D Transform Manipulator </editors/3dview/object/transform/transform_control/manipulators>`.
+- The keyboard shortcut.
+- The menu in the header or Transform panel in the Tool Shelf.
+- The :doc:`3D Transform Manipulator </editors/3dview/object/transform/transform_control/manipulators>`
+  widget.
+- The Transform panel in the Properties region or the Object tab.
+
+Using combination of shortcuts gives you more control over your transformation.
+See :doc:`Transform Control </editors/3dview/object/transform/transform_control/index>`.
+
+
+Operator Panel
+--------------
+
+In the case of the 3D View, there is the possibility to tweak the operation once accepted,
+using the specific Operator panel corresponding to the tool. 
+
+Value
+   The amount of the transformation.
+
+   Vector, Angle
+Constrain Axis
+   Used to constraint the transformation to one or more axes.
+
+   X, Y, Z
+Orientation
+   Shows the :doc:`Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
+   of the restricted axes.
+Proportional Editing, Falloff, Size
+   Activates/deactivates *Proportional Editing* and configure the type *Falloff* and
+   *Size* of the proportional edit tool.
+Edit Grease Pencil
+   ToDo.
+Edit Texture Space
+   This checkbox lets you apply the transformation on the texture space, instead of the object or element itself.
+   Only available in translation and scale.
+Confirm on Release
+   Functions as a label indicating either the operation was drag-and-release or move-and-confirm.
+   This behavior can be changed globally by activating  *Release Confirms*
+   in the :doc:`User Preferences </preferences/editing>`,
+   so that a single :kbd:`RMB` drag can be used to move and confirm.
+
+
+Workflow
+--------
+
+Using keyboard shortcuts
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Use :kbd:`RMB` to select the elements you want to scale.
+#. Tap :kbd:`G`, or :kbd:`R`, or :kbd:`S` once to enter the transformation mode.
+#. Transform the elements by moving the mouse.
+#. :kbd:`LMB` click to accept changes.
+   To cancel the transformation press :kbd:`RMB` or :kbd:`Esc` instead.
+   This will reset the object or element to its original state.
