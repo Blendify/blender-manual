@@ -3,14 +3,15 @@
 Outliner
 ********
 
-.. figure:: /images/editors_outliner_example.png
-   :align: right
+.. figure:: /images/editors_outliner.png
 
    The Outliner editor.
 
 
 The *Outliner* is a list that organizes data in your scene.
-In the outliner, you can:
+But also blend-file, user preferences.
+
+.. rubric:: Usage
 
 - View the data in the scene.
 - Select and deselect objects in the scene.
@@ -23,7 +24,7 @@ In the outliner, you can:
 - Easily select which render pass to render (for example, you can choose to render just the *Specular* pass).
 
 
-Using the Outliner
+Tree View
 ==================
 
 Each row in the *Outliner* shows a data-block. You can click the plus-sign to the
@@ -35,7 +36,7 @@ To select the data-block in the scene, you have to activate it.
 
 
 Selecting and Activating
-========================
+------------------------
 
 Single selection does not require any pre-selection: just work directly with :kbd:`LMB`
 (and/or :kbd:`RMB` - contextual menu, see below) *inside* the name/icon area.
@@ -43,61 +44,57 @@ Single selection does not require any pre-selection: just work directly with :kb
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 
+
 Activating a data-block
-   To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
-   Activating the data-block will automatically switch to the relevant mode.
-   For example, activating the mesh data of the cube will select the cube
-   and enter *Edit Mode* while activating the object data of the
-   cube will select the cube and enter *Object Mode* (see right).
+^^^^^^^^^^^^^^^^^^^^^^^
+
+To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
+Activating the data-block will automatically switch to the relevant mode.
+For example, activating the mesh data of the cube will select the cube
+and enter *Edit Mode* while activating the object data of the
+cube will select the cube and enter *Object Mode* (see right).
+
 
 Toggle pre-selection of a group of data-blocks
-   Useful when you want to select/deselect a whole bunch of data-blocks.
-   For this you must prepare the selection using, to your liking:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   - :kbd:`RMB` or :kbd:`LMB`,
-   - :kbd:`Shift-RMB` or :kbd:`Shift-LMB`,
-   - :kbd:`RMB` and drag or :kbd:`LMB` and drag,
+Useful when you want to select/deselect a whole bunch of data-blocks.
+For this you must prepare the selection using, to your liking:
 
-   all *outside* the name/icon area. Those pre-selected have their line in a lighter color.
-   You then can (de)select them with a :kbd:`RMB` *on* the name/icon area,
-   which brings on a context menu (see bellow).
+- :kbd:`RMB` or :kbd:`LMB`,
+- :kbd:`Shift-RMB` or :kbd:`Shift-LMB`,
+- :kbd:`RMB` and drag or :kbd:`LMB` and drag,
 
-   .. figure:: /images/outliner-editor-column-icons.png
+all *outside* the name/icon area. Those pre-selected have their line in a lighter color.
+You then can (de)select them with a :kbd:`RMB` *on* the name/icon area,
+which brings on a context menu (see bellow).
 
-      Toggling pre-selection of a data-block.
+.. figure:: /images/editors_outliner_column-icons.png
+
+   Toggling pre-selection of a data-block.
 
 
 Context menu
-   Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
-   Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
+^^^^^^^^^^^^
 
-   - *Select*.
-   - *Deselect*.
-   - *Delete*.
-   - *Unlink* - To unlink a data-block from its "owner" (e.g., a material from its mesh).
-   - *Make Local* - To create a "local" duplicate of this data-block.
+Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
+Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
 
-   .. note::
+- *Select*.
+- *Deselect*.
+- *Delete* :kbd:`X`.
+- *Unlink* - To unlink a data-block from its "owner" (e.g., a material from its mesh).
+- *Make Local* - To create a "local" duplicate of this data-block.
 
-      Some data-block types will not have a context menu at all!
+.. note::
 
-   .. figure:: /images/outliner-object-operation.jpg
-
-      Context menu for the Cube object.
-
-Deleting a data-block
-   Use :kbd:`X` to delete the selected data-block(s).
-Expanding one level
-   Use :kbd:`NumpadPlus` to expand one level down in the tree-list.
-Collapsing one level
-   Use :kbd:`NumpadMinus` to collapse one level up in the tree-list.
-Expanding/collapsing everything
-   Use :kbd:`A` to expand/collapse all levels of the tree-list.
+   Some data-block types will not have a context menu at all!
 
 
-Toggling object-level restrictions
-==================================
+Object-level Restrictions
+-------------------------
 
+Toggling
 The three following options, in the right side of the *Outliner* editor,
 are only available for objects:
 
@@ -113,32 +110,30 @@ Rendering (camera icon)
    :kbd:`R` will toggle this property for any objects that are selected in the *Outliner*.
 
 
-Searching
-=========
+Header
+======
 
-You can search the file for data-blocks,
-either by using the *Search* menu in the header of the *Outliner*,
-or by using one of the following hotkeys:
+View Menu
+---------
 
-- :kbd:`F` - Find.
-- :kbd:`Ctrl-F` - Find (case sensitive).
-- :kbd:`Alt-F` - Find complete.
-- :kbd:`Ctrl-Alt-F` - Find complete (case sensitive).
-- :kbd:`Shift-F` - Find again.
+Sort Alphabetically
+   Sort the entries alphabetically.
+Show Restriction Columns
+   Toggles the three columns of `Object-level Restrictions`_.
 
-Matching data-blocks will be automatically selected.
-
-
-Filtering the display
-=====================
-
-.. figure:: /images/outliner-display-mode.png
-   :align: right
-
-   Outliner Display selector.
+Show Active
+   Centers the Tree View to selected object :kbd:`.`.
+Show/Hide One Level
+   Expand one level down in the tree :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to collapse.
+Show Hierarchy
+   To collapse all levels of the tree :kbd:`Home`.
 
 
-The editors header has a field to let you select what the outliner should show to help you narrow the
+Display Mode
+------------
+
+Filtering the 
+The editors header has a field to let you select what the Outliner should show to help you narrow the
 list of objects so that you can find things quickly and easily.
 
 All Scenes
@@ -171,3 +166,26 @@ User Preferences
 Orphan Data
    Lists :doc:`data-blocks </data_system/data_blocks>`
    which are unused and/or will be lost when the file is reloaded.
+
+
+Searching
+---------
+
+You can search the view for data-blocks,
+by using Search field in the header of the *Outliner*,
+The *Search* menu lets you toggle the following options:
+
+- Case Sensitive Matches Only
+- Complete Matches Only
+
+
+.. Edit menu for data-blocks
+
+
+Example
+=======
+
+.. figure:: /images/editors_outliner_example.png
+
+   The Outliner with different kind of data.
+
