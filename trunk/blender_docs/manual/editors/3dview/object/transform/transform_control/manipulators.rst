@@ -1,8 +1,8 @@
 .. |manip-menu| image:: /images/editors_3dview_transform_control_manipulators_header.png
 
-**********************
-Transform Manipulators
-**********************
+***************************
+Transformation Manipulators
+***************************
 
 .. admonition:: Reference
    :class: refbox
@@ -12,19 +12,19 @@ Transform Manipulators
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
-The Transform manipulator widgets allow mouse controlled translation, rotation and scaling in the 3D View.
+The Transformation manipulator widgets allow mouse controlled translation, rotation and scaling in the 3D View.
 There is a separate manipulator for each operation.
 Each manipulator can be used separately or in combination with the others.
+
+.. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_options.png
+
+   The different Manipulators.
 
 
 Header Controls
 ===============
 
-Manipulators can be accessed in the header of the *3D View*.
-
-.. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_options.png
-
-   Manipulator Options.
+Manipulators can be accessed through the header of the *3D View*.
 
 Axis
    Enable/disable the manipulators :kbd:`Ctrl-Spacebar`.
@@ -54,16 +54,16 @@ The transformation will be locked to the clicked axis.
 
 Dragging the small white circle allows free transformation.
 In case of the rotations manipulator this starts a :ref:`trackball rotation <view3d-transform-trackball>`.
-It contains another big outer white circle to activate free transformation.
+The rotations manipulator contains another big outer white circle to activate free transformation.
 
-Releasing the mouse they are confirms the operation (*confirm on release*).
+Releasing the mouse confirms the operation (*confirm on release*).
 
 
 Extended
 --------
 
 The operations work in same way as described in
-:doc:`/editors/3dview/object/transform/transform_control/precision/introduction` except:
+:doc:`precision control </editors/3dview/object/transform/transform_control/precision/index>` except:
 
 Holding down :kbd:`Shift` *after* you :kbd:`LMB`
 the manipulator handle will constrain the action to smaller increments.
