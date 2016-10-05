@@ -40,3 +40,4 @@ The pages linked below describe each *Pivot Point* mode in more detail.
    individual_origins.rst
    3d_cursor.rst
    bounding_box_center.rst
+   manipulate_center_points.rst
