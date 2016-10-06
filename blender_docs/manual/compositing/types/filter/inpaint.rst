@@ -1,7 +1,7 @@
 
-*******
-Inpaint
-*******
+************
+Inpaint Node
+************
 
 .. figure:: /images/compositing_nodes_inpaint.png
    :align: right

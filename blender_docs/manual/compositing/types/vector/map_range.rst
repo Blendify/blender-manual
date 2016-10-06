@@ -1,7 +1,7 @@
 
-*********
-Map Range
-*********
+**************
+Map Range Node
+**************
 
 .. figure:: /images/compositing_nodes_maprange.png
    :align: right

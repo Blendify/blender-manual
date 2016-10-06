@@ -1,7 +1,7 @@
 
-*******
-ID Mask
-*******
+************
+ID Mask Node
+************
 
 .. figure:: /images/compositing_nodes_idmask.png
    :align: right

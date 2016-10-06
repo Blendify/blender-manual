@@ -1,7 +1,7 @@
 
-******
-Switch
-******
+***********
+Switch Node
+***********
 
 .. figure:: /images/compositing_nodes_switch.png
    :align: right

@@ -1,7 +1,7 @@
 
-*********
-Despeckle
-*********
+**************
+Despeckle Node
+**************
 
 .. figure:: /images/compositing_nodes_despeckle.png
    :align: right

@@ -1,7 +1,7 @@
 
-*******
-Mapping
-*******
+************
+Mapping Node
+************
 
 .. figure:: /images/material-vector-node-mapping.png
 

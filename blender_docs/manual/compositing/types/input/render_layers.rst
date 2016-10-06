@@ -1,7 +1,7 @@
 
-*************
-Render Layers
-*************
+******************
+Render Layers Node
+******************
 
 .. figure:: /images/compositing_nodes_renderlayer.png
    :align: right

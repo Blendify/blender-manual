@@ -1,7 +1,7 @@
 
-*****************
-Extended Material
-*****************
+**********************
+Extended Material Node
+**********************
 
 .. figure:: /images/extended-material-node.jpg
    :align: right

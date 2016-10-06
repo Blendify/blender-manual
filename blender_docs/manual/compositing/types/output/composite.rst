@@ -1,7 +1,7 @@
 
-*********
-Composite
-*********
+**************
+Composite Node
+**************
 
 .. figure:: /images/compositing_nodes_composite.png
    :align: right

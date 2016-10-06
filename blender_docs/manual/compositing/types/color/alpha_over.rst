@@ -1,8 +1,8 @@
 .. TODO: Split "Strange Halo" into properties and glossary
 
-**********
-Alpha Over
-**********
+***************
+Alpha Over Node
+***************
 
 .. figure:: /images/compositing_nodes_alphaover.png
    :align: right

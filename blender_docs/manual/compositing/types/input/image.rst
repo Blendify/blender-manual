@@ -1,7 +1,7 @@
 
-*****
-Image
-*****
+**********
+Image Node
+**********
 
 .. figure:: /images/compositing_nodes_image.png
    :align: right

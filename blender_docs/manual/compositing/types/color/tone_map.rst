@@ -1,7 +1,7 @@
 
-********
-Tone Map
-********
+*************
+Tone Map Node
+*************
 
 .. figure:: /images/compositing_nodes_tonemap.png
    :align: right

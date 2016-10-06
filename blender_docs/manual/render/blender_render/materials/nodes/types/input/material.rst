@@ -1,7 +1,7 @@
 
-********
-Material
-********
+*************
+Material Node
+*************
 
 .. figure:: /images/render_bi_material-node.jpg
    :align: right

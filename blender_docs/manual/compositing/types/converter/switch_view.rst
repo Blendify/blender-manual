@@ -1,7 +1,7 @@
 
-***********
-Switch View
-***********
+****************
+Switch View Node
+****************
 
 .. figure:: /images/compositing_nodes_switchview.png
    :align: right

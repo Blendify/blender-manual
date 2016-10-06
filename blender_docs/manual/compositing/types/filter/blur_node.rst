@@ -1,7 +1,7 @@
 
-****
-Blur
-****
+*********
+Blur Node
+*********
 
 .. figure:: /images/compositing_nodes_blur.png
    :align: right

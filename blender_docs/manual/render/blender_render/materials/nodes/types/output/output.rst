@@ -1,7 +1,7 @@
 
-******
-Output
-******
+***********
+Output Node
+***********
 
 .. figure:: /images/render_bi_material-output-node.jpg
    :align: right

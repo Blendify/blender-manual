@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|copy=X}}.
 
-************
-Dilate/Erode
-************
+*****************
+Dilate/Erode Node
+*****************
 
 .. figure:: /images/compositing_nodes_delateerode.png
    :align: right

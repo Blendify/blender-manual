@@ -1,8 +1,8 @@
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/input/time>`
 
-****
-Time
-****
+*********
+Time Node
+*********
 
 .. figure:: /images/compositing_nodes_input_time.png
    :align: right

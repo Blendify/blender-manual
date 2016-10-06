@@ -1,7 +1,7 @@
 
-*********
-Translate
-*********
+**************
+Translate Node
+**************
 
 .. figure:: /images/compositing_nodes_translate.png
    :align: right

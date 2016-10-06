@@ -1,7 +1,7 @@
 
-***************
-Lens Distortion
-***************
+********************
+Lens Distortion Node
+********************
 
 .. figure:: /images/compositing_nodes_lensdistortion.png
    :align: right

@@ -1,7 +1,7 @@
 
-*****
-Scale
-*****
+**********
+Scale Node
+**********
 
 .. figure:: /images/compositing_nodes_scale.png
    :align: right

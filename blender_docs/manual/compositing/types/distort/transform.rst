@@ -1,7 +1,7 @@
 
-*********
-Transform
-*********
+**************
+Transform Node
+**************
 
 .. figure:: /images/compositing_nodes_transform.png
    :align: right

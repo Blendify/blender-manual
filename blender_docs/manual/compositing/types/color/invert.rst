@@ -2,9 +2,9 @@
 .. Editors Note: This page gets copied into :doc:`</blender_render/materials/nodes/types/color/invert>`
 .. Editors Note: This page gets copied into :doc:`</blender_render/textures/nodes/types/color/invert>`
 
-******
-Invert
-******
+***********
+Invert Node
+***********
 
 .. figure:: /images/compositing_nodes_invert.png
    :align: right

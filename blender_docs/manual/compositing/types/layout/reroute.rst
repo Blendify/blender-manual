@@ -1,7 +1,7 @@
 
-*******
-Reroute
-*******
+************
+Reroute Node
+************
 
 A node used primarily for organization.
 Reroute looks and behaves much like a socket on other nodes in that it supports one input

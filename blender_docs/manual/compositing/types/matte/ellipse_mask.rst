@@ -1,7 +1,7 @@
 
-************
-Ellipse Mask
-************
+*****************
+Ellipse Mask Node
+*****************
 
 .. figure:: /images/compositing_nodes_ellipsemask.png
    :align: right
