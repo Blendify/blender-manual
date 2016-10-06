@@ -16,8 +16,8 @@ and *Drivers* for :doc:`Drivers </animation/drivers/index>`. Both are very simil
    The Graph Editor.
 
 
-Curve Editor Area
-=================
+Curve View
+==========
 
 Here you can see and edit the curves and keyframes.
 

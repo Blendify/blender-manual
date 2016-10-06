@@ -10,8 +10,8 @@
    introduction.rst
 
 
-Sections
-========
+Tabs
+====
 
 .. toctree::
    :maxdepth: 1
