@@ -1,7 +1,7 @@
 
-***
-Add
-***
+********
+Add Node
+********
 
 .. figure:: /images/cycles_nodes_shader_add.png
    :align: right

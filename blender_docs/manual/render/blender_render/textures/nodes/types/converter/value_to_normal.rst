@@ -1,7 +1,7 @@
 
-***************
-Value to Normal
-***************
+********************
+Value to Normal Node
+********************
 
 .. figure:: /images/texture-nodes-valuetonormal.jpg
    :align: right

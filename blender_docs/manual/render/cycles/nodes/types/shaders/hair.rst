@@ -1,7 +1,7 @@
 
-****
-Hair
-****
+*********
+Hair Node
+*********
 
 .. figure:: /images/cycles_nodes_shader_hair.png
    :align: right

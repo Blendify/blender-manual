@@ -1,7 +1,7 @@
 
-****
-Toon
-****
+*********
+Toon Node
+*********
 
 .. figure:: /images/cycles_nodes_shader_toon.png
    :align: right

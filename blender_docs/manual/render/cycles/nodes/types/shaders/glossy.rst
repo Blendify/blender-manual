@@ -1,7 +1,7 @@
 
-******
-Glossy
-******
+***********
+Glossy Node
+***********
 
 .. figure:: /images/cycles_nodes_shader_glossy.png
    :align: right

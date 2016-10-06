@@ -1,7 +1,7 @@
 
-****
-Mask
-****
+*********
+Mask Node
+*********
 
 .. figure:: /images/compositing_nodes_mask.png
    :align: right

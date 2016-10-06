@@ -1,7 +1,7 @@
 
-*****
-Magic
-*****
+**********
+Magic Node
+**********
 
 .. figure:: /images/texture-nodes-magic.jpg
 

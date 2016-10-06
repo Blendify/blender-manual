@@ -1,7 +1,7 @@
 
-***********
-Camera Data
-***********
+****************
+Camera Data Node
+****************
 
 .. figure:: /images/cycles_nodes_camera-data.png
    :align: right

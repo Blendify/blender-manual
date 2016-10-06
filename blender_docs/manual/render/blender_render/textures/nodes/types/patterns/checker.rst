@@ -1,7 +1,7 @@
 
-*******
-Checker
-*******
+************
+Checker Node
+************
 
 .. figure:: /images/texture-nodes_checker.png
    :align: right

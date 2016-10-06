@@ -1,7 +1,7 @@
 
-********
-Geometry
-********
+*************
+Geometry Node
+*************
 
 .. figure:: /images/cycles_nodes_geometry.png
    :align: right

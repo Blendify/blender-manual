@@ -1,7 +1,7 @@
 
-***********
-Translucent
-***********
+****************
+Translucent Node
+****************
 
 .. figure:: /images/cycles_nodes_shader_translucent.png
    :align: right

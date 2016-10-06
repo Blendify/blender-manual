@@ -1,7 +1,7 @@
 
-**********
-Movie Clip
-**********
+***************
+Movie Clip Node
+***************
 
 .. figure:: /images/compositing_nodes_movieclip.png
    :align: right

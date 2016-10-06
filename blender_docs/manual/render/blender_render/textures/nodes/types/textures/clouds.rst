@@ -1,7 +1,7 @@
 
-******
-Clouds
-******
+***********
+Clouds Node
+***********
 
 .. figure:: /images/texture-nodes-cloud.jpg
 

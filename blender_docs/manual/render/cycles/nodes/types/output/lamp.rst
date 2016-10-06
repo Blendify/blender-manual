@@ -1,7 +1,7 @@
 
-****
-Lamp
-****
+*********
+Lamp Node
+*********
 
 The *Lamp Output* node is used to output light information to a lamp object.
 

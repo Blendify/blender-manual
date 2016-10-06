@@ -1,7 +1,7 @@
 
-***********
-Vector Math
-***********
+****************
+Vector Math Node
+****************
 
 .. figure:: /images/material-convertor-node-vectormath.jpg
    :align: right

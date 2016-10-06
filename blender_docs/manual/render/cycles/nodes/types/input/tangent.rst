@@ -1,7 +1,7 @@
 
-*******
-Tangent
-*******
+************
+Tangent Node
+************
 
 .. figure:: /images/cycles_nodes_tangent.png
    :align: right

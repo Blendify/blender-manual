@@ -1,7 +1,7 @@
 
-******
-UV Map
-******
+***********
+UV Map Node
+***********
 
 .. figure:: /images/cycles_nodes_uv-map.png
    :align: right

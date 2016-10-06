@@ -1,7 +1,7 @@
 
-*********
-Hair Info
-*********
+**************
+Hair Info Node
+**************
 
 .. figure:: /images/cycles_nodes_hair-info.png
    :align: right

@@ -1,7 +1,7 @@
 
-******
-Stucci
-******
+***********
+Stucci Node
+***********
 
 .. figure:: /images/texture-nodes-stucci.jpg
 

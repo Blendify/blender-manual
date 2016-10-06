@@ -1,7 +1,7 @@
 
-*****
-Blend
-*****
+**********
+Blend Node
+**********
 
 .. figure:: /images/texture-nodes-blend.png
 

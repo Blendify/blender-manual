@@ -1,7 +1,7 @@
 
-******
-Bricks
-******
+***********
+Bricks Node
+***********
 
 .. figure:: /images/texture-nodes_bricks.png
    :align: right

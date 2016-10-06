@@ -1,7 +1,7 @@
 
-***********
-Anisotropic
-***********
+****************
+Anisotropic Node
+****************
 
 .. figure:: /images/cycles_nodes_shader_anisotropic.png
    :align: right

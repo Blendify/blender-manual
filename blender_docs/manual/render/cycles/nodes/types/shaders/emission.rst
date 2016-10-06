@@ -1,7 +1,7 @@
 
-********
-Emission
-********
+*************
+Emission Node
+*************
 
 .. figure:: /images/cycles_nodes_shader_emission.png
    :align: right

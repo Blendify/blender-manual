@@ -1,7 +1,7 @@
 
-*****************
-Ambient Occlusion
-*****************
+**********************
+Ambient Occlusion Node
+**********************
 
 .. figure:: /images/cycles_nodes_shader_ao.png
    :align: right
