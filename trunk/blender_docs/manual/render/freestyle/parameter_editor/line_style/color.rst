@@ -17,7 +17,7 @@ Base Color
 Modifiers
 =========
 
-There are four color modifiers available, which can be mixed with the base color using the usual methods
+There are several color modifiers available, which can be mixed with the base color using the usual methods
 (see for example the :doc:`Mix compositing node </compositing/types/color/mix>` for further discussion of
 this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
 
@@ -134,7 +134,7 @@ This modifier bases its effect on the traveling direction of the stroke evaluate
 .. figure:: /images/render_freestyle_line-style_color_tangent.png
 
 Color Ramp
-   A standard Blender color ramp that maps the traveling directio to a stroke color.
+   A standard Blender color ramp that maps the traveling direction to a stroke color.
 
 Min Angle and Max Angle
    The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles
