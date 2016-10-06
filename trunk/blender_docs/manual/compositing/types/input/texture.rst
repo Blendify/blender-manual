@@ -1,7 +1,7 @@
 
-*******
-Texture
-*******
+************
+Texture Node
+************
 
 .. figure:: /images/compositing_nodes_texture.png
    :align: right

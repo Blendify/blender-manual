@@ -1,7 +1,7 @@
 
-********
-Displace
-********
+*************
+Displace Node
+*************
 
 .. figure:: /images/compositing_nodes_displace.png
    :align: right

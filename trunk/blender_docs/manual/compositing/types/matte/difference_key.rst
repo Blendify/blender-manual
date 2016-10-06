@@ -1,7 +1,7 @@
 
-**************
-Difference Key
-**************
+*******************
+Difference Key Node
+*******************
 
 .. figure:: /images/compositing_nodes_differencekey.png
    :align: right

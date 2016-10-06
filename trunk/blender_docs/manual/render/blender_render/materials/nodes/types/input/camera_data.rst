@@ -1,7 +1,7 @@
 
-***********
-Camera Data
-***********
+****************
+Camera Data Node
+****************
 
 .. figure:: /images/camera-data-node.jpg
 

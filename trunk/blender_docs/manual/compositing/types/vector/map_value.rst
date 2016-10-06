@@ -1,7 +1,7 @@
 
-*********
-Map Value
-*********
+**************
+Map Value Node
+**************
 
 .. figure:: /images/compositing_nodes_vector_map-value.png
    :align: right

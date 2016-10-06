@@ -1,9 +1,9 @@
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/input/rgb>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/input/rgb>`
 
-***
-RGB
-***
+********
+RGB Node
+********
 
 .. figure:: /images/compositing_nodes_rgb.png
    :align: right

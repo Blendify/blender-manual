@@ -1,7 +1,7 @@
 
-******************
-Plane Track Deform
-******************
+***********************
+Plane Track Deform Node
+***********************
 
 .. figure:: /images/compositing_nodes_planetrackdeform.png
    :align: right

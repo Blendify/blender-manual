@@ -1,7 +1,7 @@
 
-****************
-Double Edge Mask
-****************
+*********************
+Double Edge Mask Node
+*********************
 
 .. figure:: /images/compositing_nodes_doubleedgemask.png
    :align: right

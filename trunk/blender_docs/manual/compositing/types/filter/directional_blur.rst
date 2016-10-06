@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|copy=X}}.
 
-****************
-Directional Blur
-****************
+*********************
+Directional Blur Node
+*********************
 
 .. figure:: /images/compositing_nodes_directionalblur.png
    :align: right

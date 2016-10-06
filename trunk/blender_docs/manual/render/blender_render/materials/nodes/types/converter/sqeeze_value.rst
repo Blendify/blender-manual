@@ -1,7 +1,7 @@
 
-*************
-Squeeze Value
-*************
+******************
+Squeeze Value Node
+******************
 
 .. figure:: /images/material-convertor-node-squeezevalue.jpg
    :align: right

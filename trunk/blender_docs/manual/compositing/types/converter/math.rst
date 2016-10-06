@@ -2,9 +2,9 @@
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/converter/math>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/converter/math>`
 
-****
-Math
-****
+*********
+Math Node
+*********
 
 .. figure:: /images/compositing_nodes_math.png
    :align: right
