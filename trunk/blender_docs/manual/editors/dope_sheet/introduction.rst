@@ -4,7 +4,7 @@
 Introduction
 ************
 
-.. figure:: /images/dopesheet-overview.jpg
+.. figure:: /images/editors_dopesheet_overview.jpg
    :width: 400px
 
    The DopeSheet.
@@ -20,7 +20,7 @@ It gives the animator a "birds-eye-view" of every thing occurring within a scene
 Dope Sheet Modes
 ================
 
-.. figure:: /images/dopesheet-modes.jpg
+.. figure:: /images/editors_dopesheet_modes.jpg
 
    Dope Sheet Modes.
 

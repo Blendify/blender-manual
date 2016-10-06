@@ -13,7 +13,7 @@ according to any given integrator chosen by the animator.
 Forces
 ======
 
-.. figure:: /images/newtonan.jpg
+.. figure:: /images/physics_particle_properties_physics_newtonian_panel.png
 
    Newtonian Physics Settings.
 

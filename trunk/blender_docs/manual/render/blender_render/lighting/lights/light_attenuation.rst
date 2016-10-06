@@ -468,7 +468,7 @@ Sphere Example
 
 .. _fig-bi-light-attenuation-clip:
 
-.. figure:: /images/lamprender-sphereview.png
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_lamprender-sphereview.png
 
    Clipping Sphere.
 

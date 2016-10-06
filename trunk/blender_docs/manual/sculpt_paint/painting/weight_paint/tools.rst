@@ -400,7 +400,7 @@ Limit
 Weight Gradient
 ===============
 
-.. figure:: /images/weightgradient.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_tools_weightgradient.png
    :width: 200px
 
    Example of the gradient tool being used with selected vertices.

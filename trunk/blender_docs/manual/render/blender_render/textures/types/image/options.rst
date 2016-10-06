@@ -25,7 +25,7 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
           Background image.
 
-     - .. figure:: /images/map_to_eingabewerte.jpg
+     - .. figure:: /images/render_blender-render_texture_image_map-to-eingabewerte.jpg
           :width: 100px
 
           Foreground image.
