@@ -1,7 +1,7 @@
 
-************
-Texture Node
-************
+*******
+Texture
+*******
 
 .. figure:: /images/texture-nodes-texture.png
    :align: right

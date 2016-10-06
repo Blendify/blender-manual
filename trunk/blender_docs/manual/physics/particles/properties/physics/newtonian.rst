@@ -9,13 +9,13 @@ and move according to Newtonian forces.
 The response to environment and to forces is computed differently,
 according to any given integrator chosen by the animator.
 
-
-Forces
-======
-
 .. figure:: /images/physics_particle_properties_physics_newtonian_panel.png
 
    Newtonian Physics Settings.
+
+
+Forces
+======
 
 Brownian
    Specify the amount of Brownian motion.

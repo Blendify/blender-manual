@@ -1,7 +1,7 @@
 
-**************
-Lamp Data Node
-**************
+*********
+Lamp Data
+*********
 
 .. figure:: /images/bi_nodes_lamp-data.jpg
    :width: 180px

@@ -1,7 +1,7 @@
 
-*************
-Geometry Node
-*************
+********
+Geometry
+********
 
 .. figure:: /images/geometry-node.jpg
 
