@@ -1,7 +1,7 @@
 
-***********
-Levels Node
-***********
+******
+Levels
+******
 
 .. figure:: /images/compositing_nodes_levels.png
    :align: right

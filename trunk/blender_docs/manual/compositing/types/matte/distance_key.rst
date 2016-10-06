@@ -1,7 +1,7 @@
 
-*****************
-Distance Key Node
-*****************
+************
+Distance Key
+************
 
 .. figure:: /images/compositing_nodes_distancekey.png
    :align: right

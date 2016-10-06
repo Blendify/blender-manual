@@ -1,7 +1,7 @@
 
-****************
-File Output Node
-****************
+***********
+File Output
+***********
 
 .. figure:: /images/compositing_nodes_fileoutput.png
    :align: right

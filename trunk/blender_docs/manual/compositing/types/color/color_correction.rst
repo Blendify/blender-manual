@@ -1,7 +1,7 @@
 
-*********************
-Color Correction Node
-*********************
+****************
+Color Correction
+****************
 
 .. figure:: /images/compositing_nodes_colorcorrect.png
 

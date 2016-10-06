@@ -1,9 +1,9 @@
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/input/value>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/input/value>`
 
-**********
-Value Node
-**********
+*****
+Value
+*****
 
 .. figure:: /images/compositing_nodes_value.png
    :align: right

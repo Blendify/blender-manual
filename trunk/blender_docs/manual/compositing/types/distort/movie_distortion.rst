@@ -1,7 +1,7 @@
 
-*********************
-Movie Distortion Node
-*********************
+****************
+Movie Distortion
+****************
 
 .. figure:: /images/compositing_nodes_undistortion.png
    :align: right

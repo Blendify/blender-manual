@@ -1,7 +1,7 @@
 
-***************
-Corner Pin Node
-***************
+**********
+Corner Pin
+**********
 
 .. figure:: /images/compositing_nodes_cornerpin.png
    :align: right

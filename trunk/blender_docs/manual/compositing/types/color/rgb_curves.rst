@@ -2,9 +2,9 @@
 .. Editors Note: This page gets copied into :doc:`</blender_render/materials/nodes/types/color/rgb_curves>`
 .. Editors Note: This page gets copied into :doc:`</blender_render/textures/nodes/types/color/rgb_curves>`
 
-***************
-RGB Curves Node
-***************
+**********
+RGB Curves
+**********
 
 .. figure:: /images/compositing_nodes_rgbcurves.png
    :align: right

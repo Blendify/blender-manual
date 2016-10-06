@@ -2,9 +2,9 @@
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/converter/rgb_to_bw>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/converter/rgb_to_bw>`
 
-**************
-RGB to BW Node
-**************
+*********
+RGB to BW
+*********
 
 .. figure:: /images/compositing_nodes_rgbtobw.png
    :align: right

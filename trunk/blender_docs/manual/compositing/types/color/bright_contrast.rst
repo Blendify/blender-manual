@@ -1,8 +1,8 @@
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/color/bright_contrast>`
 
-********************
-Bright/Contrast Node
-********************
+***************
+Bright/Contrast
+***************
 
 .. figure:: /images/compositing_nodes_brightcontrast.png
    :align: right

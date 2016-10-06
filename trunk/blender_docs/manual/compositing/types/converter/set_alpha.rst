@@ -1,7 +1,7 @@
 
-**************
-Set Alpha Node
-**************
+*********
+Set Alpha
+*********
 
 .. figure:: /images/compositing_nodes_setalpha.png
    :align: right

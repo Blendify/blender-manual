@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|copy=X}}.
 
-*******************
-Bilateral Blur Node
-*******************
+**************
+Bilateral Blur
+**************
 
 .. figure:: /images/compositing_nodes_bilateralblur.png
    :align: right

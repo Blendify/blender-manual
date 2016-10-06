@@ -1,7 +1,7 @@
 
-******************
-Luminance Key Node
-******************
+*************
+Luminance Key
+*************
 
 .. figure:: /images/compositing_nodes_luminancekey.png
    :align: right

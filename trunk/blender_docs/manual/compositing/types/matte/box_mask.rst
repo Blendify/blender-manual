@@ -1,7 +1,7 @@
 
-*************
-Box Mask Node
-*************
+********
+Box Mask
+********
 
 .. figure:: /images/compositing_nodes_boxmask.png
    :align: right

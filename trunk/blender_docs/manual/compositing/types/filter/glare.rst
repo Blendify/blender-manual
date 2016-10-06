@@ -1,7 +1,7 @@
 
-**********
-Glare Node
-**********
+*****
+Glare
+*****
 
 .. figure:: /images/compositing_nodes_glare.png
    :align: right

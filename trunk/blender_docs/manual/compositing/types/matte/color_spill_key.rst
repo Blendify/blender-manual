@@ -1,7 +1,7 @@
 
-****************
-Color Spill Node
-****************
+***********
+Color Spill
+***********
 
 .. figure:: /images/compositing_nodes_colorspill.png
    :align: right
