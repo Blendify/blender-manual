@@ -102,7 +102,7 @@ Suggestive Contour
    <https://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
 
 Material Boundary
-   Draws lines where two materials meet on the same object. Must be activated in the viewmap settings.
+   Draws lines where two materials meet on the same object.
 
 Ridge & Valley
    Draws ridges and valleys. Depends on your *Sphere Radius* viewmap settings.
