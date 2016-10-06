@@ -1,7 +1,7 @@
 
-*******
-Voronoi
-*******
+************
+Voronoi Node
+************
 
 .. figure:: /images/texture-nodes-voronoi.jpg
 

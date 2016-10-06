@@ -1,7 +1,7 @@
 
-**********
-Background
-**********
+***************
+Background Node
+***************
 
 .. figure:: /images/cycles_nodes_shader_background.png
    :align: right

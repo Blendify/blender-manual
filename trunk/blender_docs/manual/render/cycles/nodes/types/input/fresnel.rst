@@ -1,7 +1,7 @@
 
-*******
-Fresnel
-*******
+************
+Fresnel Node
+************
 
 .. figure:: /images/cycles_nodes_fresnel.png
    :align: right

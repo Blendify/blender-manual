@@ -1,7 +1,7 @@
 
-*************
-Light Falloff
-*************
+******************
+Light Falloff Node
+******************
 
 .. figure:: /images/cycles_nodes_light-falloff.png
    :align: right

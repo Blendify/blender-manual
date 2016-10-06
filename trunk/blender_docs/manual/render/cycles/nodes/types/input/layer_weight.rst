@@ -1,7 +1,7 @@
 
-************
-Layer Weight
-************
+*****************
+Layer Weight Node
+*****************
 
 .. figure:: /images/cycles_nodes_layer-weight.png
    :align: right

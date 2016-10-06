@@ -1,8 +1,8 @@
 .. Todo add links to settings that control these:
 
-*****************
-Volume Absorption
-*****************
+**********************
+Volume Absorption Node
+**********************
 
 .. figure:: /images/cycles_nodes_shader_volume-absorption.png
    :align: right

@@ -1,7 +1,7 @@
 
-**************
-Track Position
-**************
+*******************
+Track Position Node
+*******************
 
 .. figure:: /images/compositing_nodes_trackposition.png
    :align: right

@@ -1,7 +1,7 @@
 
-**********
-Refraction
-**********
+***************
+Refraction Node
+***************
 
 .. figure:: /images/cycles_nodes_shader_refraction.png
    :align: right

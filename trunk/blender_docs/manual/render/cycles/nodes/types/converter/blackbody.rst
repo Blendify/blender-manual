@@ -1,7 +1,7 @@
 
-*********
-Blackbody
-*********
+**************
+Blackbody Node
+**************
 
 .. figure:: /images/cycles_nodes_blackbody.png
    :align: right

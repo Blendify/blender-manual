@@ -1,7 +1,7 @@
 
-**********
-Light Path
-**********
+***************
+Light Path Node
+***************
 
 .. figure:: /images/cycles_nodes_light-path.png
    :align: right

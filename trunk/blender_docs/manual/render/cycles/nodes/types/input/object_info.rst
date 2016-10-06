@@ -1,7 +1,7 @@
 
-***********
-Object Info
-***********
+****************
+Object Info Node
+****************
 
 .. figure:: /images/cycles_nodes_object-info.png
    :align: right

@@ -1,7 +1,7 @@
 
-*********
-Sun Beams
-*********
+**************
+Sun Beams Node
+**************
 
 .. figure:: /images/compositing_nodes_sunbeams.png
    :align: right

@@ -1,7 +1,7 @@
 
-*******
-Mapping
-*******
+************
+Mapping Node
+************
 
 The *Mapping* nodes is used to transform a coordinate; typically used for modifying texture coordinates.
 

@@ -1,7 +1,7 @@
 
-*****
-Glass
-*****
+**********
+Glass Node
+**********
 
 .. figure:: /images/cycles_nodes_shader_glass.png
    :align: right

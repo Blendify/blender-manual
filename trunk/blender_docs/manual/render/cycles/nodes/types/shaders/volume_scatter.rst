@@ -1,7 +1,7 @@
 
-**************
-Volume Scatter
-**************
+*******************
+Volume Scatter Node
+*******************
 
 .. figure:: /images/cycles_nodes_shader_volume-scatter.png
    :align: right

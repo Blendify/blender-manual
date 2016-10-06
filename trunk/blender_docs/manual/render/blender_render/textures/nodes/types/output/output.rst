@@ -1,7 +1,7 @@
 
-******
-Output
-******
+***********
+Output Node
+***********
 
 .. figure:: /images/texture-nodes-coordinate2.jpg
    :align: right

@@ -1,7 +1,7 @@
 
-**********
-Normal Map
-**********
+***************
+Normal Map Node
+***************
 
 The *Normal Map* node generate a perturbed normal from an RGB normal map image.
 This is usually chained with an *Image Texture* node in the color input,

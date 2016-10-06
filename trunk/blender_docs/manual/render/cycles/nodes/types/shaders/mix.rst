@@ -1,7 +1,7 @@
 
-***
-Mix
-***
+********
+Mix Node
+********
 
 .. figure:: /images/cycles_nodes_shader_mix.png
    :align: right

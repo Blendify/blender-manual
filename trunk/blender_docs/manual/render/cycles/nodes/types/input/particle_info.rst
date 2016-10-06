@@ -1,7 +1,7 @@
 
-*************
-Particle Info
-*************
+******************
+Particle Info Node
+******************
 
 .. figure:: /images/cycles_nodes_particle-info.png
    :align: right

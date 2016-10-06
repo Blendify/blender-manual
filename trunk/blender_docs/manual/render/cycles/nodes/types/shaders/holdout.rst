@@ -1,7 +1,7 @@
 
-*******
-Holdout
-*******
+************
+Holdout Node
+************
 
 .. figure:: /images/cycles_nodes_shader_holdout.png
    :align: right

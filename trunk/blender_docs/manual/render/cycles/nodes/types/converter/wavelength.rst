@@ -1,7 +1,7 @@
 
-**********
-Wavelength
-**********
+***************
+Wavelength Node
+***************
 
 .. figure:: /images/cycles_nodes_wavelength.png
    :align: right

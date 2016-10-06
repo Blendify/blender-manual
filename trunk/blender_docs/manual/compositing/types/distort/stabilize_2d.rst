@@ -1,7 +1,7 @@
 
-************
-Stabilize 2D
-************
+*****************
+Stabilize 2D Node
+*****************
 
 .. figure:: /images/compositing_nodes_stabilize2d.png
    :align: right

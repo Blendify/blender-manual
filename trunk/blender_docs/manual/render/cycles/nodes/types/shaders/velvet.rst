@@ -1,7 +1,7 @@
 
-******
-Velvet
-******
+***********
+Velvet Node
+***********
 
 .. figure:: /images/cycles_nodes_shader_velvet.png
    :align: right

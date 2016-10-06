@@ -1,7 +1,7 @@
 
-****
-Wood
-****
+*********
+Wood Node
+*********
 
 .. figure:: /images/texture-nodes-wood.jpg
 

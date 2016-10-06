@@ -1,7 +1,7 @@
 
-**********
-Bokeh Blur
-**********
+***************
+Bokeh Blur Node
+***************
 
 .. figure:: /images/compositing_nodes_bokehblur.png
    :align: right

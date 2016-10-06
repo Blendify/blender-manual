@@ -1,7 +1,7 @@
 
-*********************
-Subsurface Scattering
-*********************
+**************************
+Subsurface Scattering Node
+**************************
 
 .. figure:: /images/cycles_nodes_shader_sss.png
    :align: right
