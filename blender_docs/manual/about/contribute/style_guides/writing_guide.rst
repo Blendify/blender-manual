@@ -59,12 +59,12 @@ To be avoided:
   These details are not useful for users to memorize and they become quickly outdated.
 - Avoid documenting bugs.
 
-  Blender has often has 100's of bugs fixed between releases, so it is not realistic to reference
+  Blender often has 100's of bugs fixed between releases, so it is not realistic to reference
   even a fraction of them from the manual, while keeping this list up to date.
 
   Issues which are known to the developers and are not going to be resolved before the next release
   can be documented as *Known Limitations*,
-  in some cases, it may be best to include them the in the :doc:`troubleshooting </troubleshooting/index>` section.
+  in some cases, it may be best to include them in the :doc:`troubleshooting </troubleshooting/index>` section.
 - Avoid Product Placements, i.e. unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
@@ -79,7 +79,7 @@ To be avoided:
 
   Their contents may be summarized or simply omitted.
   -- Such lists are only showing what is already *obvious* in the interface
-  and end up being a lot of text to read & maintain.
+  and end up being a lot of text to read and maintain.
 - Avoid documenting changes in Blender between releases, that is what the release notes are for.
   We only need to document the current state of Blender.
 - Unless the unit a value is measured in is obscure and unpredictable, there is no need to mention it.
