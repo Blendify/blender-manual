@@ -9,7 +9,7 @@ Blender helps you keep everything organized by allowing you to group like object
 
 .. _fig-view3d-grouped-objects:
 
-.. figure:: /images/3dview_objects_grouped.png
+.. figure:: /images/editors_3dview_object_properties_relations_grouped-cubes.png
 
    Grouped objects.
 

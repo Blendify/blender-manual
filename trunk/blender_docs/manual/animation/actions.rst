@@ -5,7 +5,7 @@ Actions
 
 When animating objects and properties in Blender, Actions record and contain the data.
 
-.. figure:: /images/k_animation_actions_data3.png
+.. figure:: /images/animation_actions_data3.png
 
    Actions.
 
@@ -16,7 +16,7 @@ the animation is saved to the Action.
 Each property has a channel which it is recorded to, for example,
 Cube.location.x is recorded to Channel X Location.
 
-.. figure:: /images/k_animation_actions_keyframes.png
+.. figure:: /images/animation_actions_keyframes.png
 
    Graph Editor. Each Channel has an F-Curve represented by the lines between the keyframes.
 
@@ -40,7 +40,7 @@ Keyframes
 Working with Actions
 ====================
 
-.. figure:: /images/k_animation_actions_create.png
+.. figure:: /images/animation_actions_create.png
    :align: right
 
    The Action data-block menu.

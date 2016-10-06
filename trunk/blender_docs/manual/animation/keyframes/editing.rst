@@ -18,7 +18,7 @@ There are several methods of adding new keys. Namely:
 Auto Keyframe
 -------------
 
-.. figure:: /images/kia_cube03.png
+.. figure:: /images/editors_info_keyframes-auto.png
 
    Timeline Auto Keyframe.
 
@@ -64,7 +64,7 @@ This example shows you how to animate a cubes location, rotation, and scale.
 #. Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
 #. Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
 
-.. figure:: /images/actions_insert_keyframe_00.png
+.. figure:: /images/animation_keyframes_insert_keyframe_00.png
    :width: 500px
 
    Insert Keyframes.
@@ -72,7 +72,7 @@ This example shows you how to animate a cubes location, rotation, and scale.
 
 To test the animation, press :kbd:`Alt-A` to play.
 
-.. figure:: /images/actions_insert_keyframe_01.png
+.. figure:: /images/animation_keyframes_insert_keyframe_01.png
    :width: 500px
 
    The animation on frames 1, 50, 100.

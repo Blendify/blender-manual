@@ -25,7 +25,7 @@ the blunt edges on objects catch the light and change the shading around the edg
 This gives a solid, realistic look,
 as opposed to un-beveled objects which can look too perfect.
 
-.. figure:: /images/bevel-cubes.jpg
+.. figure:: /images/modeling_meshes_editing_subdividing_bevel_cubes.jpg
 
    Cubes with and without bevel.
 
