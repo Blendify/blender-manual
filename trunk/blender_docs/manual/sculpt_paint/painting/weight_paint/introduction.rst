@@ -62,8 +62,7 @@ Weights are visualized by using a cold/hot color system, such that areas of low 
 And all in-between influences are drawn in rainbow colors, depending on their value (blue,
 green, yellow, orange, red).
 
-.. figure:: /images/weight_spec.jpg
-   :width: 610px
+.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code.png
 
    The color spectrum and their respective weights.
 
@@ -73,6 +72,11 @@ a special visual notation for unreferenced vertices: They are drawn in black.
 Thus you can see the referenced areas (drawn in cold/hot colors) and the unreferenced areas
 (in black) at the same time. This is most practical when you look for weighting errors
 (we will get back to this later).
+
+.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code-black.png
+
+   Unreferenced vertices example.
+
 
 .. note::
 
@@ -132,7 +136,7 @@ Then the mirrored groups with the mirrored weights are automatically created.
 Weight Painting for Particles
 -----------------------------
 
-.. figure:: /images/weightpaint-particles.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_particles.png
 
    Weight painted particle emission.
 

@@ -57,6 +57,7 @@ Examples
 Here are some common curves you can use to achieve desired effects:
 
 .. figure:: /images/compositing-common_rgb_node_uses.jpg
+   :width: 600px
 
    From left to right: 1. Lighten 2. Negative 3. Decrease Contrast 4. Posterize.
 
@@ -65,7 +66,7 @@ Color correction using Curves
 -----------------------------
 
 .. figure:: /images/compo-color-rgb.jpg
-   :width: 320px
+   :width: 600px
 
    Color correction with curves.
 
@@ -81,8 +82,8 @@ read on for examples of the Darken and Contrast Enhancement curves.
 Color correction using Black/White Levels
 -----------------------------------------
 
-.. figure:: /images/nodes-curves-example-colorcorrection-levels.jpg
-   :width: 320px
+.. figure:: /images/compositing_nodes_color_rgb-curves_black-white-levels.png
+   :width: 600px
 
    Color correction with Black/White Levels.
 
@@ -107,7 +108,7 @@ Effects
 -------
 
 .. figure:: /images/nodes-rgbcurve-ex.jpg
-   :width: 320px
+   :width: 600px
 
    Changing colors.
 

@@ -45,7 +45,7 @@ Interface
 
 .. _fig-modifiers-panel-layout:
 
-.. figure:: /images/modifier-subsurf.png
+.. figure:: /images/modeling_modifiers_introduction_panel-layout.png
 
    Panel Layout (Subdivision Surface as an example).
 
