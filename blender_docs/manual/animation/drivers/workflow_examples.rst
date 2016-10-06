@@ -23,7 +23,7 @@ Add Drivers
 Add Single Driver
     This will add a single driver to the selected property.
 
-.. figure:: /images/add_driver2.png
+.. figure:: /images/animation_drivers_add_driver2.png
 
 Drivers can also be added by pressing :kbd:`CTRL-D` with the mouse over the property set.
 

@@ -3,7 +3,7 @@
 Velocity
 ********
 
-.. figure:: /images/initial_velocity.jpg
+.. figure:: /images/physics_particle_properties_physics_keyed_panel.png
 
    Initial velocity.
 

@@ -286,7 +286,7 @@ Keyframe Control
 ^^^^^^^^^^^^^^^^
 
 Auto Keyframe
-   .. figure:: /images/kia_cube03.png
+   .. figure:: /images/editors_info_keyframes-auto.png
       :align: right
 
       Timeline Auto Keyframe.
@@ -315,7 +315,7 @@ Keyframe Type
    TODO.
 
 Active Keying Set
-   .. figure:: /images/kia_cube02.png
+   .. figure:: /images/editors_info_keying-sets.png
       :align: right
 
       Timeline Keying Sets.

@@ -20,7 +20,7 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
 .. list-table::
 
-   * - .. figure:: /images/bahnhofstrasse.jpg
+   * - .. figure:: /images/render_blender-render_texture_image_bahnhofstrasse.jpg
           :width: 120px
 
           Background image.
@@ -39,12 +39,12 @@ the horizontal bar has 50% alpha.
 
 .. list-table::
 
-   * - .. figure:: /images/usealpha.jpg
+   * - .. figure:: /images/render_blender-render_texture_image_usealpha.jpg
           :width: 150px
 
           Foreground image with *Use* alpha. The alpha values of the pixels are evaluated.
 
-     - .. figure:: /images/calcalpha.jpg
+     - .. figure:: /images/render_blender-render_texture_image_calcalpha.jpg
           :width: 150px
 
           Foreground image with *Calculate* alpha.
@@ -118,10 +118,10 @@ Interpolation
    .. list-table::
       Enlarged Image texture without and with *Interpolation*
 
-      * - .. figure:: /images/imagetextur-linien.png
+      * - .. figure:: /images/render_blender-render_texture_image_textur-linien.png
              :width: 160px
 
-        - .. figure:: /images/imagetexturinterpol-linien.jpg
+        - .. figure:: /images/render_blender-render_texture_image_texturinterpol-linien.jpg
              :width: 160px
 
 Filter

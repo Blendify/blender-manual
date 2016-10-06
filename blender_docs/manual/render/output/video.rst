@@ -165,7 +165,7 @@ After post-processing (compositing and/or sequencing), you should compress the v
 Note that you might not want to render directly to a video format.
 If a problem occurs while rendering, you have to re-render all frames from the beginning.
 If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR),
-you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor </editors/sequencer/usage>`.
+you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor </editors/sequencer/editing>`.
 This way, you can easily:
 
 - Restart the rendering from the place (the frame) where the problem occurred.

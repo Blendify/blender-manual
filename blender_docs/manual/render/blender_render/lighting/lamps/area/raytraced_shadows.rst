@@ -73,7 +73,7 @@ Technical Details
 
 .. _fig-bi-light-rayshadow-area:
 
-.. figure:: /images/arealightconcept.png
+.. figure:: /images/lighting-lamps-area_concept.png
    :width: 250px
 
    Principles behind the Area light.
