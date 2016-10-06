@@ -1,7 +1,7 @@
 
-*****************
-Split Viewer Node
-*****************
+************
+Split Viewer
+************
 
 .. figure:: /images/compositing_nodes_splitviewer.png
    :align: right

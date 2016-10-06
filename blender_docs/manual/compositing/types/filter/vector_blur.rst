@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|copy=X}}.
 
-*************************
-Vector (Motion) Blur Node
-*************************
+********************
+Vector (Motion) Blur
+********************
 
 .. figure:: /images/compositing_nodes_vectorblur.png
    :align: right

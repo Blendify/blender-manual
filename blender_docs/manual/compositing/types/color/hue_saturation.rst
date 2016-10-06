@@ -2,9 +2,9 @@
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/color/hue_saturation>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/color/hue_saturation>`
 
-*************************
-Hue Saturation Value Node
-*************************
+********************
+Hue Saturation Value
+********************
 
 .. figure:: /images/compositing_nodes_hsv.png
    :align: right

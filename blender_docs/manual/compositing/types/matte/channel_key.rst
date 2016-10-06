@@ -1,7 +1,7 @@
 
-****************
-Channel Key Node
-****************
+***********
+Channel Key
+***********
 
 .. figure:: /images/compositing_nodes_channelkey.png
    :align: right

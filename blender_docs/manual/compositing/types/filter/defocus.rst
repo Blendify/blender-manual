@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|copy=X}}.
 
-************
-Defocus Node
-************
+*******
+Defocus
+*******
 
 .. figure:: /images/compositing_nodes_defocus.png
    :align: right

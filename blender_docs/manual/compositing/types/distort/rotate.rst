@@ -1,7 +1,7 @@
 
-***********
-Rotate Node
-***********
+******
+Rotate
+******
 
 .. figure:: /images/compositing_nodes_rotate.png
    :align: right

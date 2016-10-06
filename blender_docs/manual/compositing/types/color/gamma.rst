@@ -1,9 +1,9 @@
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/color/gamma>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/color/gamma>`
 
-**********
-Gamma Node
-**********
+*****
+Gamma
+*****
 
 .. figure:: /images/compositing_nodes_color_gamma.png
    :align: right

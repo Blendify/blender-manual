@@ -1,7 +1,7 @@
 
-**************
-Z-Combine Node
-**************
+*********
+Z-Combine
+*********
 
 .. figure:: /images/compositing_nodes_zcombine.png
    :align: right

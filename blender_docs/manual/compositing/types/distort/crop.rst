@@ -1,7 +1,7 @@
 
-*********
-Crop Node
-*********
+****
+Crop
+****
 
 .. figure:: /images/compositing_nodes_crop.png
    :align: right

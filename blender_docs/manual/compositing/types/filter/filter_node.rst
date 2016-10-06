@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|copy=X}}.
 
-***********
-Filter Node
-***********
+******
+Filter
+******
 
 .. figure:: /images/compositing_nodes_filter.png
    :align: right

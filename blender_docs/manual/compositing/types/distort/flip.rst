@@ -1,7 +1,7 @@
 
-*********
-Flip Node
-*********
+****
+Flip
+****
 
 .. figure:: /images/compositing_nodes_flip.png
    :align: right

@@ -1,7 +1,7 @@
 
-******************
-Alpha Convert Node
-******************
+*************
+Alpha Convert
+*************
 
 .. figure:: /images/compositing_nodes_alphaconvert.png
    :align: right

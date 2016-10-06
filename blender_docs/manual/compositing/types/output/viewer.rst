@@ -1,7 +1,7 @@
 
-***********
-Viewer Node
-***********
+******
+Viewer
+******
 
 .. figure:: /images/compositing_nodes_viewer.png
    :align: right

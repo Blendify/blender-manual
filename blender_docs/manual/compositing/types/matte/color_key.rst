@@ -1,7 +1,7 @@
 
-**************
-Color Key Node
-**************
+*********
+Color Key
+*********
 
 .. figure:: /images/compositing_nodes_colorkey.png
    :align: right

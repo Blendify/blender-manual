@@ -1,7 +1,7 @@
 
-******************
-Keying Screen Node
-******************
+*************
+Keying Screen
+*************
 
 .. figure:: /images/compositing_nodes_keyingscreen.png
    :align: right

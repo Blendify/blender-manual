@@ -1,7 +1,7 @@
 
-***********
-Keying Node
-***********
+******
+Keying
+******
 
 .. figure:: /images/compositing_nodes_keying.png
    :align: right

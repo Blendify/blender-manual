@@ -1,7 +1,7 @@
 
-***********
-Map UV Node
-***********
+******
+Map UV
+******
 
 .. figure:: /images/compositing_nodes_distort_map-uv.png
    :align: right

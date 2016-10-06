@@ -1,7 +1,7 @@
 
-****************
-Hue Correct Node
-****************
+***********
+Hue Correct
+***********
 
 The Hue Correct node is able to adjust the Hue, Saturation, and Value of an image,
 with an input curve.

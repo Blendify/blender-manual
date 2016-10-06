@@ -1,7 +1,7 @@
 
-***************
-Chroma Key Node
-***************
+**********
+Chroma Key
+**********
 
 .. figure:: /images/compositing_nodes_chromakey.png
    :align: right

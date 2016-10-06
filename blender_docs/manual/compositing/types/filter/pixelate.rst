@@ -1,7 +1,7 @@
 
-*************
-Pixelate Node
-*************
+********
+Pixelate
+********
 
 .. figure:: /images/compositing_nodes_filter_pixelate.png
    :align: right
