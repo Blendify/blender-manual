@@ -31,7 +31,7 @@ You can see the difference between the two in the grid image below.
 Options
 =======
 
-.. figure:: /images/modifier-subsurf.png
+.. figure:: /images/modeling_modifiers_generate_subsurf.png
 
    Modifier's Panel.
 
@@ -191,12 +191,12 @@ shares the overall normal orientation of that original face.
 
 .. list-table::
 
-   * - .. figure:: /images/subsurf05b.png
+   * - .. figure:: /images/modeling_modifiers_generate_subsurf_normal-orientation-1.png
           :width: 320px
 
           Comparison of good normals and bad normals.
 
-     - .. figure:: /images/subsurf05a.png
+     - .. figure:: /images/modeling_modifiers_generate_subsurf_normal-orientation-2.png
           :width: 320px
 
           Side view of image on left.

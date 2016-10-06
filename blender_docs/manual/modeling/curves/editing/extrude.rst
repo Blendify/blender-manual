@@ -18,15 +18,15 @@ Extrude
 
    .. list-table::
 
-      * - .. figure:: /images/curves_extrude_start.jpg
-             :width: 315px
+      * - .. figure:: /images/modeling_curves_editing_extrude_example-1_bezier-circle.png
+             :width: 320px
 
-             Bézier Circle 0.0 extrude.
+             Bézier Circle 0.0 extrude (Edit Mode).
 
-        - .. figure:: /images/curves_extrude_by0.5.jpg
-             :width: 315px
+        - .. figure:: /images/modeling_curves_editing_extrude_example-2_extrude.png
+             :width: 320px
 
-             Extruded by 0.5.
+             Extruded by 0.5 (Object Mode).
 
 Tilt
    This setting controls how the normals (visualization: arrows)
@@ -41,7 +41,7 @@ Tilt
    Linear, Ease, B-Spline, and Cardinal, in the
    :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
 
-   .. figure:: /images/curves_extrude_by0.5_30meantilt.jpg
+   .. figure:: /images/modeling_curves_editing_extrude_example-3_mean-tilt.png
 
       30 degree Mean Tilt of all control points.
 
@@ -50,7 +50,7 @@ Bevel Depth
    Note that the bevel makes the extrusion wider and higher.
    If set to 0.0, there is no bevel.
 
-   .. figure:: /images/curves_extrude_depth_fullfill.jpg
+   .. figure:: /images/modeling_curves_editing_extrude_example-4_bevel-depth.png
 
       Bevel depth of 0.25, fill set to full, zero Mean Tilt.
 
@@ -59,14 +59,14 @@ Bevel Resolution
    If set the to 0 (the default), the bevel is a simple "flat" surface.
    Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself...
 
-   .. figure:: /images/curves_extrude_resolution.jpg
+   .. figure:: /images/modeling_curves_editing_extrude_example-5_bevel-resolution.png
 
       Bevel resolution set to 10.
 
 Offset
    Moves the extrusion parallel to the curve normals. *Almost like scaling*
 
-   .. figure:: /images/curves_extrude_closed2d_fillboth_offset-1.jpg
+   .. figure:: /images/modeling_curves_editing_extrude_example-6_offset.png
 
       -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
@@ -76,7 +76,7 @@ Radius
    the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
    or the :kbd:`N` :menuselection:`--> transform --> Radius`.
 
-   .. figure:: /images/curves_extrude_radius.jpg
+   .. figure:: /images/modeling_curves_editing_extrude_example-7_radius.png
 
       One control point radius set to zero.
 
@@ -92,7 +92,7 @@ Open 2D Curve
    If your normals are facing the wrong way you can switch their direction as shown
    :ref:`here <curve-switch-direction>`
 
-   .. figure:: /images/curves_extrude_open2d_fill_none.jpg
+   .. figure:: /images/modeling_curves_editing_extrude_example-8_open-curve.png
 
       Open 2D Curve with :kbd:`Alt-C`, fill set to none,
       zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
@@ -104,7 +104,7 @@ Closed 2D Curve
 
    The optional bevel depth will always create a 90 degree bevels here.
 
-   .. figure:: /images/curves_extrude_closed2d_fill_both.jpg
+   .. figure:: /images/modeling_curves_editing_extrude_example-9_closed-curve.png
 
       Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both.
 
@@ -174,13 +174,15 @@ with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
 
    * - .. _fig-curves-extrude-taber-curve:
 
-       .. figure:: /images/curves-simple-taper-ex.png
+       .. figure:: /images/modeling_curves_editing_extrude_example-10_bevel-object.png
+          :width: 320px
+
+          Circle curve set as Bevel Object.
+
+     - .. figure:: /images/modeling_curves_editing_extrude_example-11_taper-object.png
+          :width: 320px
 
           Taper extruded curve.
-
-     - .. figure:: /images/curves-simple-taper-ex-solid.png
-
-          Taper solid mode.
 
 
 You can see the *taper curve* being applied to the *extruded object*.
@@ -191,7 +193,7 @@ Of course as an artist that may be what you are looking for!
 
 .. _fig-curves-extrude-taber1:
 
-.. figure:: /images/curvestaper02.png
+.. figure:: /images/modeling_curves_editing_extrude_example-12_taper-curve-closer.png
 
    Taper example 1.
 
@@ -203,7 +205,7 @@ the right.
 
 .. _fig-curves-extrude-taber2:
 
-.. figure:: /images/curvestaper03.png
+.. figure:: /images/modeling_curves_editing_extrude_example-13_taper-curve-away.png
 
    Taper example 2.
 
@@ -213,12 +215,13 @@ center and that gives a wider result to the curve object on the right.
 
 .. _fig-curves-extrude-taber3:
 
-.. figure:: /images/curvestaper04.png
+.. figure:: /images/modeling_curves_editing_extrude_example-14_taper-curve-irregular.png
 
    Taper example 3.
 
 
 In Fig. :ref:`fig-curves-extrude-taber3` we see the use of a more irregular taper curve applied to a curve circle.
 
+.. figure:: /images/modeling_curves_editing_extrude_example-15_bevel-curve-tilt.png
 
-TODO: add some "bevel" extrusion with *Tilt* examples.
+   Bevel extrusion with *Tilt* example.

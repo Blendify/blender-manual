@@ -22,7 +22,7 @@ making it quite useful for creators of game content.
 Options
 =======
 
-.. figure:: /images/reference-panels-modifier-edgesplit.jpg
+.. figure:: /images/modeling_modifiers_generate_edge-split.png
 
    Edge Split modifier.
 
@@ -46,13 +46,24 @@ Sharp Edges
 Examples
 ========
 
-.. figure:: /images/modifier-edgesplit-example01.jpg
+.. list-table::
 
-   Edge Split modifier output with From Marked As Sharp selected.
+   * - .. figure:: /images/modeling_modifiers_generate_edge-split_example-1.png
 
-.. figure:: /images/edge_split_to_improve_smooth_shading.jpg
+          Flat Shading.
 
-   (From Left to right): Flat Shading, Smooth Shading, Smooth Shading with Edge Split.
+     - .. figure:: /images/modeling_modifiers_generate_edge-split_example-2.png
+
+          Smooth Shading.
+
+   * - .. figure:: /images/modeling_modifiers_generate_edge-split_example-3.png
+
+          Smooth Shading with Edge Split.
+
+     - .. figure:: /images/modeling_modifiers_generate_edge-split_example-4.png
+
+          Smooth Shading with Edge Split and Subdivision Surface.
+
 
 .. note::
 

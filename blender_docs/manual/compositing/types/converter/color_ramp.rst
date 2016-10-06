@@ -48,7 +48,8 @@ or a mask that is overlaid on top of another image, and, like a mask,
 allows some of the background to show through.
 The example map below shows how to use the Color Ramp node to do this:
 
-.. figure:: /images/compositing-colorramp_alpha.jpg
+.. figure:: /images/compositing_nodes_converter_color-ramp_create-alpha-mask.png
+   :width: 600px
 
    Using the Color Ramp node to create an alpha mask.
 
@@ -65,10 +66,8 @@ Black is zero, so Color Ramp uses the color at the left end of the spectrum,
 which we have set to transparent.
 The Color Ramp image is fully red and opaque where the image is white (1.00).
 
-We verify that the output image mask is indeed transparent by overlaying it on top of a
-pumpkin image. For fun, we made that Alpha Over node output image 0.66 transparent so that we can,
-in the future, overlay the image on a flashing white background to simulate a scary scene with
-lighting flashes.
+We verify that the output image mask is indeed transparent
+by overlaying it on top of a other image.
 
 
 Colorizing an Image
@@ -77,7 +76,8 @@ Colorizing an Image
 The real power of Color Ramp is that multiple colors can be added to the color spectrum.
 This example compositing map takes a boring BW image and makes it a flaming swirl!
 
-.. figure:: /images/compositing-colorramp_colorize.jpg
+.. figure:: /images/compositing_nodes_converter_color-ramp_colorizing-image.png
+   :width: 600px
 
 In this example, we have mapped the shades of gray in the input image to three colors, blue,
 yellow, and red, all fully opaque (Alpha of 1.00). Where the image is black,
