@@ -252,7 +252,7 @@ Optimization
 Fluid Boundary
 ==============
 
-.. figure:: /images/fluids_domain_boundary.jpg
+.. figure:: /images/physics_fluids_types_domain_boundary_panel.jpg
    :width: 300px
 
    The Domain Boundary panel.

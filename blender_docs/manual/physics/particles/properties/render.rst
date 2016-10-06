@@ -70,7 +70,7 @@ Trail Count
 Path
 ====
 
-.. figure:: /images/visualisationpanelpath.jpg
+.. figure:: /images/physics_particle_properties_render_path.png
 
    The Visualization panel for Path visualization.
 
@@ -169,7 +169,7 @@ Scale
 Billboard
 =========
 
-.. figure:: /images/visualisationpanelbillboard.jpg
+.. figure:: /images/physics_particle_properties_render_billboard.png
 
    Billboard visualization for particles.
 

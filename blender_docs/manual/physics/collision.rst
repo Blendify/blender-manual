@@ -89,7 +89,7 @@ Absorption
 Examples
 ========
 
-.. figure:: /images/um_part_xiii_kst_pi10.jpg
+.. figure:: /images/physics_collision_defected_particles.jpg
 
    Deflected Particles.
 
