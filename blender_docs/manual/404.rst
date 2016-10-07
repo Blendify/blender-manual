@@ -1,0 +1,22 @@
+:orphan:
+
+%%%%%%%%%%%%%%%%
+Not Found -- 404
+%%%%%%%%%%%%%%%%
+
+| It seems the page you are trying to find has been either moved or deleted.
+| You can try one of the following things:
+
+.. raw:: html
+
+    <div role="search">
+      <form id="rtd-search-form" class="wy-form" action="search.html" method="get"
+         style="margin:20px 12px;">
+        <input type="text" name="q" placeholder="Search for the page you are looking for" 
+         style="width:100%;padding:8px 12px;border-radius:50px;border-color:#2472a4;"/>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+
+:doc:`Back to the Home Page </contents>`.
