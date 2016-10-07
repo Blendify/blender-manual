@@ -36,7 +36,7 @@ Animation
    Timeline <timeline.rst>
    graph_editor/index.rst
    dope_sheet/index.rst
-   NLA Editor <nla.rst>
+   NLA Editor <nla/index.rst>
 
 
 Image/Video
