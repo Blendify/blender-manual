@@ -44,10 +44,10 @@ If you will be using the output to mix with other images in the normal range,
 you should clamp the values using the Map Value node (with the Min and Max enabled),
 or put through a Color Ramp node (with all normal defaults).
 
-.. figure:: /images/nodes-brightclamp.jpg
-   :width: 320px
+.. figure:: /images/compositing_nodes_color_bright-contrast_clamp-values.png
+   :width: 600px
 
-   Image clipping.
+   Clamp the values to normal range.
 
 Either of these nodes will scale the values back to normal range. In the example image,
 we want to amp up the specular pass.
@@ -56,7 +56,11 @@ the specular pass has valued much less than one in the dark areas;
 when added to the medium gray, it makes black. Passing the brightened image through either the
 Map Value or the Color Ramp node produces the desired effect.
 
-.. figure:: /images/nodes-brightcontrast.jpg
-   :width: 320px
+
+Example
+=======
+
+.. figure:: /images/compositing_nodes_color_bright-contrast_basic-example.png
+   :width: 600px
 
    A basic example.

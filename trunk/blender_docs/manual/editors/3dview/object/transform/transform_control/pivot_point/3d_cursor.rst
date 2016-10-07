@@ -22,10 +22,9 @@ scaling transformations will now be done relative to the location of the 3D curs
 Example
 =======
 
-The image below shows the difference when rotating an Object from its starting position
-(first panel) 90 degrees around the median point (second panel)
-and 90 degrees around the 3D cursor (third panel).
+The image below shows the difference when rotating an Object
+around the median point (left) and around the 3D cursor (right).
 
-.. figure:: /images/editors_3dview_transform-control_pivot-point_3d-cursor_median-cursor-example.jpg
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_3d-cursor_example.png
 
    Rotation around the 3D cursor compared to the median point.
