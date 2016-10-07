@@ -22,61 +22,13 @@ Animation is typically achieved with the use of :doc:`keyframes </animation/keyf
 Chapters
 ========
 
-General Principles and Tools
-----------------------------
-
-- :doc:`keyframes </animation/keyframes/introduction>`
-- :doc:`Using The Timeline </editors/timeline>`
-- :doc:`Markers </animation/markers>`
-
-
-The Graph Editor
-----------------
-
-- :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
-- :doc:`F-Curve Editing </editors/graph_editor/fcurves/introduction>`
-- :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`
-
-
-The Action Editor
------------------
-
-- :doc:`Actions </animation/actions>`
-- :ref:`animation-basics-actions-working-with-actions`
-
-
-Animation Techniques
---------------------
-
-- :doc:`Constraints </animation/techniques/constraints>`
-- :doc:`Moving objects on a Path </animation/techniques/object_path>`
-- :doc:`Game Engine Physics Recording </game_engine/physics/using_ge>`
-
-
-Animating Deformation
----------------------
-
-- :doc:`Shape Keys </animation/shape_keys/index>`
-- :doc:`Deforming by a Lattice </modeling/modifiers/deform/lattice>`
-- :doc:`Deforming with Hooks </modeling/modifiers/deform/hooks>`
-
-See also :doc:`Hook Modifier </modeling/modifiers/deform/hooks>`
-
-
-Drivers
--------
-
-- :doc:`Drivers </animation/drivers/index>`
-- :ref:`Driven Shape Keys <animation_drivers_shapekey_ex>`
-
-
 Animation Fundamentals
 ----------------------
 
 :doc:`Actions </animation/actions>`
    Actions are used to record the animation of objects and properties.
 :doc:`Drivers </animation/drivers/index>`
-   Drivers are used to control and animate properties.
+   Drivers are scripts used to control and animate properties.
 :doc:`Keying Sets </animation/keyframes/keying_sets>`
    Keying Sets are used to record a set of properties at the same time.
 :doc:`Markers </animation/markers>`
@@ -97,16 +49,13 @@ Animation Editors
    The Graph Editor is mostly used to edit the F-Curves and Keyframes for Channels and Drivers.
 :doc:`Dope Sheet </editors/dope_sheet/introduction>`
    The Dopes Sheet contains a collection of animation editors.
-:doc:`NLA Editor </editors/nla>`
+:doc:`NLA Editor </editors/nla/index>`
    The NLA Editor is used to edit and blend Actions together.
 
 
-Categories
-----------
+Related Sections
+----------------
 
-:doc:`Modifiers </modeling/modifiers/introduction>`
-   Modifiers are automatic operations that affect an object in a non-destructive way.
-   With modifiers, you can perform many effects automatically that would otherwise be tedious to do manually.
 :doc:`Rigging </rigging/introduction>`
    Rigging.
 :doc:`Constraints </rigging/constraints/introduction>`
@@ -117,7 +66,7 @@ Categories
    Soft Bodies are useful for everything that tends to bend, deform, in reaction to forces like gravity or wind.
    Cloth simulation, to simulate clothes or materials.
    Rigid Bodies can simulate dynamic objects that are fairly rigid.
-   Fluids, which include liquids and gasses, can be simulated, including Smoke.
+   Fluids, which include liquids and gases, can be simulated, including Smoke.
    Force Fields can modify the behavior of simulations.
 :doc:`Motion Tracking </editors/movie_clip_editor/index>`
    Motion tracking is a technique available in Blender that supports basic operations for 2D motion tracking,

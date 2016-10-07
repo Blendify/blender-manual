@@ -22,7 +22,7 @@ Modes
 
 Depending on the type of object you are trying to model there are different types
 of modeling :doc:`mode </editors/3dview/modes>`.
-Because modes are not specifec to modeling the are covered in different parts of the manual.
+Because modes are not specific to modeling the are covered in different parts of the manual.
 
 
 Edit Mode
@@ -44,15 +44,12 @@ and therefore have different set of tool. Because of this each has its own secti
 :doc:`Mesh Modeling </modeling/meshes/index>`
    Typically begins with a :doc:`Mesh Primitive </modeling/meshes/primitives>`
    shape (e.g. circle, cube, cylinder...).
-
 :doc:`Curve Modeling </modeling/curves/index>`
    Uses control points to define the shape of the curve.
-
 :doc:`Surface Modeling </modeling/surfaces/index>`
    Similar to curve modeling,
    but instead of being limited to simple linear paths,
    they allow the creation of three dimensional surfaces, potentially with volume.
-
 :doc:`Metaball Modeling </modeling/metas/index>`
    Begins similarly to mesh modeling (see above), with a base shape like a cube or sphere,
    but instead of extruding these base shapes, these objects are clumped together to form a larger object.
@@ -60,7 +57,10 @@ and therefore have different set of tool. Because of this each has its own secti
    together they merge by smoothly rounding out the point of connection, appearing as one unified object.
 
    This can also be a quick way to get started with a rough shape which can be converted to a mesh later.
-
 :doc:`Text Modeling </modeling/texts/index>`
    Text modeling is an easy way to create logos and to simply add text to a scene.
+
+:doc:`Modifiers </modeling/modifiers/introduction>`
+   Modifiers are automatic operations that affect an object in a non-destructive way.
+   With modifiers, you can perform many effects automatically that would otherwise be tedious to do manually.
 
