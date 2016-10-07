@@ -51,14 +51,14 @@ Blender creates an *Action* to record the data.
 
 *Actions* can be managed with the *Action data-block menu*
 in the :doc:`DopeSheet </editors/dope_sheet/introduction>`
-*Action Editor* header, or the properties region of the :doc:`NLA Editor </editors/nla>`.
+*Action Editor* header, or the properties region of the :doc:`NLA Editor </editors/nla/properties_modifiers>`.
 
 If you are making multiple actions for the same object,
 press the *F* button for each action,
 this will give the actions a *Fake User* and will make Blender save the unlinked actions.
 
 Objects can only use one *Action* at a time for editing,
-the :doc:`NLA Editor </editors/nla>` is used to blend multiple actions together.
+the :doc:`NLA Editor </editors/nla/index>` is used to blend multiple actions together.
 
 
 Bake Action

@@ -13,9 +13,9 @@ since both objects have *X location* and *Y location* properties beneath them.
 
 The *Action Editor* enables you to see and edit the F-Curve data-blocks you defined as actions in the
 *F-Curve Editor*. So it takes place somewhere in-between the low-level
-:doc:`F-Curves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla>`.
+:doc:`F-Curves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla/index>`.
 Hence, you do not have to use them for simple F-Curve animations -- and they have not much interest in themselves,
-so you will mostly use this editor when you do :doc:`NLA animation </editors/nla>`
+so you will mostly use this editor when you do :doc:`NLA animation </editors/nla/index>`
 (they do have a few specific usages on their own,
 though, like e.g. with the :doc:`Action constraint </rigging/constraints/relationship/action>`,
 or the :doc:`pose libraries </rigging/armatures/properties/pose_library>`).
