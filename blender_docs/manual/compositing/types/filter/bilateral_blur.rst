@@ -55,21 +55,55 @@ Image
 Examples
 ========
 
+.. figure:: /images/compositing_nodes_filter_bilateral-blur_example-1.png
+   :width: 600px
+
+   Bilateral smoothed AO.
+
 .. list-table::
 
-   * - .. figure:: /images/compositing_nodes-bilateralblur_ex1.jpg
+   * - .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-1_render.jpg
           :width: 320px
 
-          Bilateral smoothed AO.
+          Render result.
 
-     - .. figure:: /images/compositing_nodes-bilateralblur_ex2.jpg
+     - .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-1_composite.jpg
           :width: 320px
 
-          Bilateral faked blurry refraction and smoothed raytraced soft shadow.
+          Composite.
 
-   * - .. figure:: /images/compositing_nodes-bilateralblur_ex3.jpg
+
+.. figure:: /images/compositing_nodes_filter_bilateral-blur_example-2.png
+   :width: 600px
+
+   Bilateral faked blurry refraction and smoothed raytraced soft shadow.
+
+.. list-table::
+
+   * - .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-2_render.jpg
           :width: 320px
 
-          Bilateral smoothed buffered shadow.
+          Render result.
 
-     - ..
+     - .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-2_composite.jpg
+          :width: 320px
+
+          Composite.
+
+
+.. figure:: /images/compositing_nodes_filter_bilateral-blur_example-3.png
+   :width: 600px
+
+   Bilateral smoothed buffered shadow.
+
+.. list-table::
+
+   * - .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-3_render.jpg
+          :width: 320px
+
+          Render result.
+
+     - .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-3_composite.jpg
+          :width: 320px
+
+          Composite.

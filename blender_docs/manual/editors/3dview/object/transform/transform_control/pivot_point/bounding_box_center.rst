@@ -17,7 +17,7 @@ It is oriented parallel to the world axes. In this mode the pivot point lies at 
 You can set the pivot point to bounding box with :kbd:`,` or via the menu in the editors header.
 The image below shows how the Object's Bounding Box size is determined by the size of the Object.
 
-.. figure:: /images/editors_3dview_transform_control-pivot_point-bounding_box_center-bounding-box-demo.jpg
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_bounding-box-center_demo.png
 
    Relationship between an Object and its Bounding Box.
 
@@ -55,3 +55,7 @@ only the center of the selected vertices.
 
    The effects of rotation in different mesh selection modes when the bounding box is set as the pivot point.
    The pivot point is shown by a yellow circle.
+
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_bounding-box-center_median-point.png
+
+   The bounding box center compared to the median point.

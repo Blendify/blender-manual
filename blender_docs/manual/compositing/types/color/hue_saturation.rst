@@ -79,10 +79,7 @@ Changing the effect over time
 HSV Example
 ===========
 
-Here, the image was taken by a cheap digital camera in poor lighting at night using a flash
-(can we do it any worse, eh?) is adjusted by decreasing the Hue
-(decreasing reds and revealing more blues and greens), decreasing Saturation
-(common in digital cameras, and evens out contrast) and increasing Value
-(making it all lighter).
+.. figure:: /images/compositing_nodes_color_hue-saturation_example.jpg
+   :width: 600px
 
-.. figure:: /images/node-hsv_example.jpg
+   A basic example.
