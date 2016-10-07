@@ -2,16 +2,6 @@
       |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]}}.
 
 
-***************************
-Non-Linear Animation Editor
-***************************
-
-The NLA editor can manipulate and repurpose actions, without the tedium of keyframe handling.
-Its often used to make broad, significant changes to a scene's animation, with relative ease.
-It can also repurpose, and "layer" actions, which make it easier to organize,
-and version-control your animation.
-
-
 Tracks
 ======
 
@@ -52,7 +42,7 @@ Creating Transition Strips
 Select two or more strips on the same track,
 and go to: :menuselection:`Add --> Transition`.
 
-.. figure:: /images/nla-basics_transition.png
+.. figure:: /images/editors_nla-basics_transition.png
 
    Transition Strip.
 
@@ -72,12 +62,12 @@ A meta strip can be moved and duplicated like a normal strip.
 
 .. list-table::
 
-   * - .. figure:: /images/nla_meta_strips_01.png
+   * - .. figure:: /images/editors_nla_meta_strips_01.png
           :width: 200px
 
           Shift-select two or more strips..
 
-     - .. figure:: /images/nla_meta_strips_02.png
+     - .. figure:: /images/editors_nla_meta_strips_02.png
           :width: 200px
 
           Combine them into a meta strip.
@@ -106,12 +96,12 @@ The contents of Action strips can be edited, but you must be in *Tweak Mode* to 
 
 .. list-table::
 
-   * - .. figure:: /images/nla_strip_nla_mode.png
+   * - .. figure:: /images/editors_nla_strip_nla_mode.png
           :width: 200px
 
           Strip in NLA mode..
 
-     - .. figure:: /images/nla_strip_editmode.png
+     - .. figure:: /images/editors_nla_strip_editmode.png
           :width: 200px
 
           Strip in Tweak mode.
@@ -122,15 +112,15 @@ you will notice that the keys will go along with it. On occasion,
 you will prefer the keys to remain on their original frames, regardless of where the strip is.
 To do so, hit the *unpin* icon, next to the strip.
 
-.. figure:: /images/nla_pinned_01.png
+.. figure:: /images/editors_nla_pinned_01.png
 
    Nla strip with pinned keys.
 
-.. figure:: /images/nla_pin_02.png
+.. figure:: /images/editors_nla_pin_02.png
 
    Strip moved, notice the keys move with it.
 
-.. figure:: /images/nla_pin_03.png
+.. figure:: /images/editors_nla_pin_03.png
 
    The unpinned keys return to their original frames.
 
@@ -151,96 +141,17 @@ the original will turn to red.
 
 .. list-table::
 
-   * - .. figure:: /images/nla_original_strip.png
+   * - .. figure:: /images/editors_nla_original_strip.png
           :width: 190px
 
           Original strip.
 
-     - .. figure:: /images/nla_linked_duplicate.png
+     - .. figure:: /images/editors_nla_linked_duplicate.png
           :width: 190px
 
           Duplicated strip.
 
-     - .. figure:: /images/nla_linked_duplicate_edited.png
+     - .. figure:: /images/editors_nla_linked_duplicate_edited.png
           :width: 190px
 
           Duplicated strip being edited.
-
-
-Strip Properties
-================
-
-Strip properties can be accessed via the NLA header.
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Menu:     :menuselection:`View --> Properties`
-
-.. figure:: /images/editors_nla_animation-data-panel.png
-
-   Animation Data panel
-
-
-Renaming Strips
----------------
-
-All strips can be renamed, in the "Active Track" section in the Strip Properties.
-
-
-Active Track
-------------
-
-This is which track the strip currently belongs to.
-
-
-Active Strip
-------------
-
-Elements of the strip itself. An Action Strip can be either an Action Clip,
-or a Transition Clip.
-
-.. note::
-
-   Note that the 'Strip Extents' fields determine strictly the strip, and not the action.
-   Also, the "Hold" value in the Extrapolation section means hold both beginning, and after.
-   This can cause previous clips to not work, if checked.
-
-.. figure:: /images/editors_nla_active-strip-panel.png
-
-   Active Strip panel
-
-
-Active Action
--------------
-
-This represents the 'object data' of the strip. Much like the transform values of an object.
-
-.. figure:: /images/editors_nla_action-clip-panel.png
-
-   Action Clip panel
-
-
-Evaluation
-----------
-
-This determines the degree of influence the strip has, and over what time.
-
-.. figure:: /images/editors_nla_evaluation-panel.png
-
-   Evaluation panel
-
-
-If influence is not animated, the strips will fade linearly, during the overlap.
-
-.. figure:: /images/nla_influence_strip.jpg
-
-
-Strip Modifiers
-===============
-
-Like its close cousins in mesh and graph editing,
-Modifiers can stack different combinations of effects for strips.
-Obviously there will be more to come on this.
-
-See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`.
