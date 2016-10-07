@@ -19,7 +19,7 @@ There is also documentation on the :doc:`general interface </interface/index>` o
 
 
 3D
---
+==
 
 .. toctree::
    :maxdepth: 1
@@ -28,7 +28,7 @@ There is also documentation on the :doc:`general interface </interface/index>` o
 
 
 Animation
----------
+=========
 
 .. toctree::
    :maxdepth: 1
@@ -40,7 +40,7 @@ Animation
 
 
 Image/Video
------------
+===========
 
 .. toctree::
    :maxdepth: 1
@@ -51,7 +51,7 @@ Image/Video
 
 
 Nodes/Logic
------------
+===========
 
 .. toctree::
    :maxdepth: 1
@@ -62,7 +62,7 @@ Nodes/Logic
 
 
 Settings
---------
+========
 
 .. toctree::
    :maxdepth: 1
@@ -74,7 +74,7 @@ Settings
 
 
 Other
------
+=====
 
 .. toctree::
    :maxdepth: 1
