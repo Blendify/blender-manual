@@ -36,7 +36,7 @@ Animation
    Timeline <timeline.rst>
    graph_editor/index.rst
    dope_sheet/index.rst
-   NLA Editor <nla/index.rst>
+   nla/index.rst
 
 
 Image/Video
@@ -69,7 +69,7 @@ Settings
 
    properties_editor.rst
    outliner.rst
-   Preferences <../preferences/index.rst>
+   User Preferences <../preferences/index.rst>
    info/index.rst
 
 
