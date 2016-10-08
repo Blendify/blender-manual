@@ -27,7 +27,8 @@ In this section, we will see:
 - The :doc:`visualization features </rigging/armatures/posing/visualization>` specific to *Pose Mode*.
 - How to :doc:`select and edit bones </rigging/armatures/posing/editing>` in this mode.
 - How to :doc:`use pose library </rigging/armatures/properties/pose_library>`.
-- How to :doc:`use constraints </rigging/armatures/posing/constraints>` to control your bones' DoF (degrees of freedom).
+- How to :doc:`use constraints </rigging/armatures/posing/bone_constraints/introduction>`
+  to control your bones' DoF (degrees of freedom).
 - How to :doc:`use inverse kinematics features </rigging/armatures/posing/inverse_kinematics/index>`.
 - How to :doc:`use the Spline inverse kinematics features </rigging/armatures/posing/inverse_kinematics/spline_ik>`.
 
@@ -38,3 +39,27 @@ In this part, we will try to focus on animation-independent posing, but this is 
 So if you know nothing about animation in Blender,
 it might be a good idea to read the :doc:`animation features and techniques </animation/index>` chapter first,
 and then come back here.
+
+
+Visualization
+=============
+
+Bone State Colors
+-----------------
+
+The color of the bones are based on their state.
+There are six different color codes, ordered here by precedence
+(i.e. the bone will be of the color of the bottommost valid state):
+
+.. hue rotation based on the bone solid.
+
+- Gray: Default
+- Blue wireframe: Pose
+- Green: Constraint
+- Yellow: :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
+- Orange: Targetless Solver constraint.
+
+.. note::
+
+   When :doc:`/rigging/armatures/properties/bone_groups` colors are enabled,
+   the state colors will be overridden.

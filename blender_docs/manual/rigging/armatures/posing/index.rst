@@ -10,6 +10,5 @@
    introduction.rst
    selecting.rst
    editing.rst
-   constraints.rst
+   bone_constraints/introduction.rst
    inverse_kinematics/index.rst
-   visualization.rst
