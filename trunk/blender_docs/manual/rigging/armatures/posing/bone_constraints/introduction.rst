@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|}}.
 
-*****************************
-Applying Constraints to Bones
-*****************************
+************
+Introduction
+************
 
 .. figure:: /images/rigging_posing_constraints.png
    :align: right
