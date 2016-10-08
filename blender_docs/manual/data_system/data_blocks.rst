@@ -17,11 +17,11 @@ Some common characteristics:
   (child/parent, object/object-data, with modifiers and constraints too).
 - Their names are unique.
 - They can be added/removed/edited/duplicated.
-- They can be linked between files (only enabled for a limited set of data-blocks)
+- They can be linked between files (only enabled for a limited set of data-blocks).
 - They can have their own animation data.
 - They can have :doc:`Custom Properties </data_system/custom_properties>`.
 
-When doing more complex projects managing data-blocks becomes more important,
+When doing more complex projects, managing data-blocks becomes more important,
 especially when inter-linking blend-files.
 
 .. figure:: /images/data_system_datablocks.jpg
@@ -75,7 +75,7 @@ Examples where sharing data is common.
 - Sharing animated actions between objects,
   for example to make all the lights dim together.
 
-You can also share data-blocks between files, see.
+You can also share data-blocks between files, see:
 
 - :doc:`linked libraries </data_system/linked_libraries>`.
 
