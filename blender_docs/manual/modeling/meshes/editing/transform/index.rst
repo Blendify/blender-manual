@@ -1,7 +1,7 @@
 
-############
-  Deforming
-############
+##################
+  Transformation
+##################
 
 .. toctree::
    :maxdepth: 1

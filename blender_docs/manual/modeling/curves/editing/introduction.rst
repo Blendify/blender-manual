@@ -145,7 +145,7 @@ Mirror
 
 
 The *Mirror* tool is also available, behaving exactly as with
-:doc:`mesh vertices </modeling/meshes/editing/deforming/mirror>`,
+:doc:`mesh vertices </modeling/meshes/editing/transform/mirror>`,
 
 
 Set Bézier Handle Type

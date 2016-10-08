@@ -346,7 +346,7 @@ Smooth
    | Hotkey:   :menuselection:`Mesh --> Vertices --> Smooth vertex`
 
 
-This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/deforming/smooth>`.
+This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/transform/smooth>`.
 
 
 Make Vertex Parent
