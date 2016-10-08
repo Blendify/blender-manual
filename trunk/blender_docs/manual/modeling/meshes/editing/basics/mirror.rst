@@ -77,5 +77,5 @@ Direction
 
 .. seealso::
 
-   See :doc:`Mirror </modeling/meshes/editing/deforming/mirror>`
+   See :doc:`Mirror </modeling/meshes/editing/transform/mirror>`
    for information on mirroring, which allows you to flip geometry across an axis.

@@ -152,9 +152,9 @@ Mesh editing tools
 
 You can apply one of the following in *Edit Mode*:
 
-:doc:`Smooth </modeling/meshes/editing/deforming/smooth>`
+:doc:`Smooth </modeling/meshes/editing/transform/smooth>`
    This relaxes selected components, resulting in a smoother mesh.
-:doc:`Laplacian Smooth </modeling/meshes/editing/deforming/smooth>`
+:doc:`Laplacian Smooth </modeling/meshes/editing/transform/smooth>`
    Smooths geometry by offers controls for better preserving larger details.
 :doc:`Subdivide Smooth </modeling/meshes/editing/subdividing/subdivide>`
    Adjusting the *smooth* parameter after using the *subdivide*

@@ -40,7 +40,7 @@ Advanced Transform Tools
 
 
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
-:doc:`Mesh Deforming </modeling/meshes/editing/deforming/index>` section.
+:doc:`Mesh Transformation </modeling/meshes/editing/transform/index>` section.
 Surfaces have no specific transform tools.
 
 
