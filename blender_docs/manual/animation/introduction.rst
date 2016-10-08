@@ -59,7 +59,7 @@ Related Sections
 :doc:`Rigging </rigging/introduction>`
    Rigging.
 :doc:`Constraints </rigging/constraints/introduction>`
-   Constraints are a way of connecting transform properties (position, rotation and scale) between objects.
+   Constraints are a way of connecting transformation properties (position, rotation and scale) between objects.
 :doc:`Physical Simulation </physics/introduction>`
    This category covers various advanced Blender effects, often used to simulate real physical phenomena.
    There is the Particle System for things like hair, grass, smoke, flocks.

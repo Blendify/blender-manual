@@ -97,13 +97,13 @@ and it is locked if the icon appears as (|lock-button|).
 Delta Transforms
 ================
 
-Delta Tranforms are simply transforms that are applied on top of the tranforms descriped above.
+Delta Transforms are simply transformations that are applied on top of the transforms described above.
 They can be found in the :menuselection:`Properties Editor --> Object --> Delta Transforms`.
 
 
 Usage
 -----
 
-Delta Transforms are particular usful in animations. For example,
+Delta Transforms are particular useful in animations. For example,
 you can animate an object with the "normal" transforms then move them around with Delta Transforms.
 

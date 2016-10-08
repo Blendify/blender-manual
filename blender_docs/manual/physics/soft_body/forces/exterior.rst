@@ -131,7 +131,7 @@ Default
 
    Often :ref:`painting-weight-index` is used to adjust the weight comfortably.
    For non-mesh objects the *Weight* parameter of their vertices/controlpoints is used instead
-   (:kbd:`W` in *Edit Mode*) or use the *Transform Properties* panel.
+   (:kbd:`W` in *Edit Mode*) or use the *Transform* panel.
    The weight of *Hair* particles can also be painted in :doc:`Particle Edit Mode </physics/particles/mode>`.
 
 

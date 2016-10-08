@@ -9,7 +9,7 @@ The *Clamp To* constraint clamps an object to a curve. The *Clamp To* constraint
 to the :doc:`Follow Path </rigging/constraints/relationship/follow_path>` constraint,
 but instead of using the evaluation time of the target curve, *Clamp To*
 will get the actual location properties of its owner
-(those shown in the *Transform Properties* panel, :kbd:`N`),
+(those shown in the *Transform* panel),
 and judge where to put it by "mapping" this location along the target curve.
 
 One benefit is that when you are working with *Clamp To*,

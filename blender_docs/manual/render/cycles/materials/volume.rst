@@ -16,7 +16,7 @@ The world can also use a volume shader to create effects such as mist.
 Volume Shaders
 ==============
 
-Cycle supports three volume shader nodes,
+Cycles supports three volume shader nodes,
 that model particular effects as light passes through the volume and interacts with it:
 
 - Volume Absorption will absorb part of the light as it passes through the volume.

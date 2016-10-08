@@ -36,7 +36,7 @@ UV Snapping
 Active UV Texture Map Selector
    Select which UV texture to use.
 Auto Update Other Affected Windows
-   Update other affected windows automatically to reflect changes during interactive operations e.g. transfom.
+   Update other affected windows automatically to reflect changes during interactive operations e.g. transforms.
 
 
 Properties Region
