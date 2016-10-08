@@ -93,7 +93,7 @@ Relative Paths
 Compress File
    Compress blend-file when saving.
 
-   The option to Compress files will compact your files whenever Blender is saving them.
+   This option will compact your files whenever Blender is saving them.
    Dense meshes, large packed textures or lots of elements in your scene
    will result in a large blend being created.
 
