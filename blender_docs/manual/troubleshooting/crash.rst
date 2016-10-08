@@ -3,7 +3,7 @@
 Crashes
 *******
 
-The most common causes of Blender crashes.
+The most common causes of Blender crashes:
 
 - Running out of memory.
 - Issues with graphics hardware or drivers.

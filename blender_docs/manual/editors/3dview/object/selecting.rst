@@ -27,7 +27,6 @@ Blender distinguishes between two different states of selection:
   Many actions in Blender use the active object as a reference (for example linking operations).
   If you already have a selection and need to make a different object the active one,
   simply re-select it with :kbd:`Shift-RMB`.
-
 - All other selected objects are just selected. You can select any number of objects.
 
 

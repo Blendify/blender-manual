@@ -67,7 +67,6 @@ Editing Strips
 
 - The *entire* strip could be selected by clicking :kbd:`RMB` in the middle of the strip;
   holding it down (or pressing :kbd:`G` rab) and then moving the mouse drags a strip around.
-
 - The *start frame offset* for that strip could be selected by clicking :kbd:`RMB` on the left arrow of the strip;
   holding it down (or pressing :kbd:`G` rab and then moving the mouse left/right
   changes the start frame within the strip by the number of frames you move it:

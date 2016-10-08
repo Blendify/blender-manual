@@ -32,7 +32,7 @@ The Default Screen
 ==================
 
 By default Blender starts up showing the default screen, which is separated into five areas 
-containing the Editors listed below.
+containing the Editors listed below:
 
 - The Info Editor at the top.
 - A large 3D View.

@@ -97,7 +97,7 @@ Viewpoint Object
    Environment maps are created from the perspective of a specified object.
    The location of this object will determine how 'correct' the reflection looks,
    though different locations are needed for different reflecting surfaces.
-   Usually, an Empty is used as this object.
+   Usually, an Empty is used as this object:
 
    - For planar reflections, the object should be in a location mirrored from the camera,
      on the other side of the plane of reflection (see Examples).

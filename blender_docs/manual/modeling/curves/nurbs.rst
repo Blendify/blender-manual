@@ -15,7 +15,7 @@ The following text will concentrate only on those aspects that are unique to NUR
 Editing NURBS Curves
 ====================
 
-A NURBS Curve is edited by moving the location of the Control Points.
+A NURBS Curve is edited by moving the location of the Control Points:
 
 - Place a Curve by :kbd:`Shift-A` to bring up the Add menu, followed by :menuselection:`Curve --> NURBS curve`.
 - Press :kbd:`Tab` to enter *Edit Mode*.

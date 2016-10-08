@@ -248,7 +248,7 @@ Troubleshooting
 
 If you run into a problem with your render, where there are really bright areas,
 or really dark ones, or strange shadows, or lines on your objects,
-here are some good steps to debugging what is wring.
+here are some good steps to debugging what is wring:
 
 #. First, try deactivating all materials
    (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,

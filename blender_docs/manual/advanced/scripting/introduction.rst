@@ -19,7 +19,7 @@ To interact with Blender, scripts can make use of the tightly integrated API
 General information
 ===================
 
-Links that are useful while writing scripts.
+Links that are useful while writing scripts:
 
 - `Python.org <https://www.python.org/>`__
   - General information about Python.
@@ -30,7 +30,7 @@ Links that are useful while writing scripts.
 - `CookBook <https://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook>`__
   - A section of handy code snippets (yet to be written)
 
-Links that deal with distributing your scripts.
+Links that deal with distributing your scripts:
 
 - `Sharing scripts <https://wiki.blender.org/index.php/Dev:Doc/Process/Addons>`__
   - Information on how to share your scripts and get them included in the official Blender distribution.
@@ -56,7 +56,7 @@ concepts of Python scripting for Blender.
 
 .. rubric:: External links
 
-Here are external links containing a lot of good information to start learning how to write scripts for Blender.
+Here are external links containing a lot of good information to start learning how to write scripts for Blender:
 
 - `Introductory tutorial by Satish Goda
   <https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__

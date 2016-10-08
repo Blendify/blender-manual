@@ -84,7 +84,7 @@ Command Line
 You may want to perform batch rendering or some other task from the command line --
 running Blender without an interface.
 
-In this case, the User Preferences are still used but you may want to override them.
+In this case, the User Preferences are still used but you may want to override them:
 
 - Enable with ``-y`` or ``--enable-autoexec``
 - Disable with ``-Y`` or ``--disable-autoexec``

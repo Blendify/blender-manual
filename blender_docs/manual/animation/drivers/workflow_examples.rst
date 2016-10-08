@@ -34,7 +34,7 @@ Expression
 This is a quick way to add drivers with a scripted expression.
 First click the property you want to add a driver to, then add a hash ``#`` and a scripted expression.
 
-Some examples.
+Some examples:
 
 - ``#frame``
 - ``#frame / 20.0``
@@ -62,7 +62,7 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 #. In the channels region, select the *Y Euler Rotation* property.
 #. Press :kbd:`N` to open the properties region, scroll down to Drivers panel.
 #. Change the *Type* to *Averaged Value*, this will return the averaged value of the driver variables.
-#. Modify the driver variable settings.
+#. Modify the driver variable settings:
 
    - Type -- Transform Channel
    - Ob/Bone -- Cube

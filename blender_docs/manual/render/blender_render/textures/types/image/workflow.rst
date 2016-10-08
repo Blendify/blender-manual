@@ -3,7 +3,7 @@
 Workflow
 ********
 
-The process consists of the following steps.
+The process consists of the following steps:
 
 - Create the Mesh. :doc:`Unwrap </editors/uv_image/uv_editing/unwrapping/index>` it into one or more
   :doc:`UV Layouts </editors/uv_image/uv_editing/layout_management>`.

@@ -28,7 +28,7 @@ IK chain takes priority. Such setups are best avoided though,
 since the results may be difficult to control.
 
 To setup Spline IK,
-it is necessary to have a chain of connected bones and a curve to constrain these bones to.
+it is necessary to have a chain of connected bones and a curve to constrain these bones to:
 
 - With the last bone in the chain selected,
   add a :doc:`Spline IK </rigging/constraints/tracking/spline_ik>`

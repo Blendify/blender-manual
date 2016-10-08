@@ -15,7 +15,7 @@ Options
 =======
 
 In the :doc:`Influence panel </render/blender_render/textures/properties/influence/introduction>`,
-the strength of the displacement is controlled by the *Displace* and *Normal* sliders.
+the strength of the displacement is controlled by the *Displace* and *Normal* sliders:
 
 - If a texture provides only normal information (e.g. *Stucci*),
   vertices move according to the texture's normal data.
