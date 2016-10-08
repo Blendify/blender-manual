@@ -13,15 +13,15 @@ Curve Display
 .. figure:: /images/modeling_curves_display.png
    :align: right
 
-   Mesh Display Panel.
+   Curve Display Panel.
 
-
-This panel is available only in Edit Mode.
+When in Edit Mode, the Properties region contains options in the
+*Curve Display* panel for how curves are displayed in the 3D View.
 
 Handles
-   Toggles the option to draw the handles.
+   Toggles the option to draw the Bézier handles.
 Normals
-   Displays the normals of the curve.
+   Toggles the display of the curve normals.
 
-   Size
+   Normal Size
       Length of the axis that points the direction of the normal.
