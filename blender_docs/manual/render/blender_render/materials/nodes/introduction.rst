@@ -59,52 +59,40 @@ not the composite or texture node buttons.
 Enabling Node Materials in the Material Buttons
 -----------------------------------------------
 
-.. list-table::
-
-   * - .. figure:: /images/materials-nodes-start_panel.jpg
-
-          Material's menu with Nodes enabled.
-
-     - .. figure:: /images/materials-nodes-defaultstart-node.png
-
-          Default nodes.
-
-
 Let us take the base material and hit the Nodes button next to the material name in the
 material panel or the node editor. You will see a change in the material panel.
+
+.. figure:: /images/render_blender-render_materials_nodes_introduction_use-nodes-button.png
+
+   Use material nodes button.
+
 
 What you have just done is told Blender to make the material you were on to become the node
 tree. Most of the panels we normally find in the material menu are now gone.
 
-.. figure:: /images/materials-nodes-compositing_screen.png
-
-   Accessing the Compositing screen.
-
-
-If you switch to the *Compositing* screen
+If you switch to the *Compositing* :doc:`screen </interface/window_system/screens>`
 with :kbd:`Ctrl-Left`, if you are on the default screen,
 you will find a *Node Editor* on the top half of the screen.
 When you enabled material nodes,
 a material node and an output node were automatically added to the node editor.
 
+.. figure:: /images/render_blender-render_materials_nodes_introduction_nodes-default.png
+
+   Default nodes.
+
+
 You can also split the 3D View in the default screen in two and change one into a
 *Node Editor*.
-
-.. list-table::
-
-   * - .. figure:: /images/materials-nodes-startwith_material.jpg
-
-          Material's menu with a first material added to the Node Editor.
-
-     - .. figure:: /images/materials-nodes-firstmat.jpg
-
-          A first material added to the node setup.
-
 
 It is important to note that you can add a new material
 (which you can edit and change like any other material in the material panel),
 add an already created material or append a material from another blend-file,
 and also use the material that you used to create the node tree.
+
+.. figure:: /images/render_blender-render_materials_nodes_introduction_nodes-material.png
+
+   A first material added to the node setup.
+
 
 Here, we added a new material in the *Node editor* "Material.001",
 and as we did, we can access the properties of this material in the material's menu.
