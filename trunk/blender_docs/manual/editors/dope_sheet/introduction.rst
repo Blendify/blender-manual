@@ -141,13 +141,19 @@ This part shows the action's channel "headers" and their hierarchy. Basically, t
 Each level can be expended/collapsed by the small arrow to the left of its "parent" channel.
 To the right of the channel's headers, there are some channel's setting controls:
 
-- Clicking on the small "eye" will allow you to mute that channel (and all its "children" channels, if any!).
-- Clicking on the small "lock" will allow you to prevent this channel and its children to be edited.
+Mute (Speaker icon)
+   Will allow you to mute that channel (and all its "children" channels, if any!).
+Lock (Lock icon)
+   Will allow you to prevent this channel and its children to be edited.
 
-  .. note::
+   .. note::
 
       This is also working inside the NLA,
       but that it does not prevent edition of the underlying F-Curve).
+
+F-Modifier (Wrench icon)
+   Disables the F-Modifiers.
+
 
 A channel can be selected (text in white, strip in gray-blue color) or not
 (text in black, strip in pink-brown color.), use :kbd:`LMB` clicks to toggle this state.
