@@ -312,7 +312,7 @@ Auto Keyframe
       in the 3D Views (i.e. you cant use it e.g. to animate the colors of a material in the Properties editor...).
 
 Keyframe Type
-   TODO.
+   See :ref:`keyframe-type`.
 
 Active Keying Set
    .. figure:: /images/editors_info_keying-sets.png
