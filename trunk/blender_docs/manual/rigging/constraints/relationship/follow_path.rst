@@ -12,7 +12,7 @@ when the *Follow Curve* option is enabled.
 
 The owner is always evaluated in the global (world) space:
 
-- Its location (as shown in the *Transform Properties* panel, :kbd:`N`)
+- Its location (as shown in the *Transform* panel)
   is used as an offset from its normal position on the path. E.g.
   if you have an owner with the (1.0, 1.0, 0.0) location,
   it will be one BU away from its normal position on the curve, along the X and Y axis.

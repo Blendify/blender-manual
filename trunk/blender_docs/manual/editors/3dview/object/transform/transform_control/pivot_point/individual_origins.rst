@@ -32,7 +32,7 @@ have its center located on one end of the mesh or even completely outside the me
 For example,
 the orange rectangle in the image has its Origin located on the far left of the mesh.
 
-Now let us examine: Rotation around the individual origins.
+Now let us examine: Rotation around the individual origins:
 
 - The blue rectangle has its Origin located in the center of the mesh,
   while the orange rectangle has its Origin located on the left hand side.

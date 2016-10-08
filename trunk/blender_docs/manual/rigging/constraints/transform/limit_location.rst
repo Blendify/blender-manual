@@ -13,7 +13,8 @@ from its root.
 It is interesting to note that even though the constraint limits the visual and rendered
 location of its owner, its owner's data-block still allows (by default)
 the object or bone to have coordinates outside the minimum and maximum ranges.
-This can be seen in its *Transform Properties* panel :kbd:`N`.
+This can be seen in its *Transform* panel.
+
 When an owner is grabbed and attempted to be moved outside the limit boundaries,
 it will be constrained to those boundaries visually and when rendered, but internally,
 its coordinates will still be changed beyond the limits. If the constraint is removed,
@@ -50,7 +51,7 @@ Maximum X, Maximum Y, Maximum Z
 
 For Transform
    We saw that by default, even though visually constrained,
-   the owner can still have coordinates out of bounds (as shown by the *Transform Properties* panel).
+   the owner can still have coordinates out of bounds (as shown by the *Transform* panel).
    Well, when you enable this button, this is no longer possible --
    the owner's transform properties are also limited by the constraint.
    Note however, that the constraint does not directly modify the coordinates: you have to grab
