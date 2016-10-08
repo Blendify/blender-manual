@@ -54,21 +54,13 @@ Z
 Examples
 ========
 
-.. figure:: /images/node-zcombine_ex_alpha.png
-   :width: 300px
-
-   Alpha and Z-Combine node.
-
-This can be obtained by making an Alpha Over of two Z-Combine, one normal,
-the other having inverted (reversed?) Z-values as inputs, obtained using for each of them a
-*Map Value* node with a *Size* field set to -1.0:
-
-.. figure:: /images/compositing-z-offset-example.png
+.. figure:: /images/compositing_nodes_color_z-combine_example-1.png
+   :width: 700px
 
    Choosing closest pixels.
 
 
-In the example to the right, render output from two scenes are mixed using the Z-Offset node,
+In the example above, render output from two scenes are mixed using the Z-Offset node,
 one from a sphere of size 1.30, and the other a cube of size 1.00.
 The sphere and square are located at the same place. The cube is tipped forward,
 so the corner in the center is closer to the camera than the sphere surface;
@@ -88,8 +80,8 @@ moves to the right created the illusion of depth as Bambi moved through the fore
    Z Input Sockets do not accept fixed values; they must get a vector set (see Map Value node).
    Image Input Sockets will not accept a color since it does not have UV coordinates.
 
-.. figure:: /images/compositing-z-offset-ex_images.jpg
-   :width: 300px
+.. figure:: /images/compositing_nodes_color_z-combine_example-2.png
+   :width: 700px
 
    Mix and Match Images.
 
@@ -99,8 +91,8 @@ using the Z-values put out by two render layers.
 Using the Z-values from the sphere and cube scenes above, but threading different images,
 yields the example to the right.
 
-.. figure:: /images/node-zcombine_example.jpg
-   :width: 300px
+.. figure:: /images/compositing_nodes_color_z-combine_example-3.png
+   :width: 700px
 
    Z-Combine in action.
 

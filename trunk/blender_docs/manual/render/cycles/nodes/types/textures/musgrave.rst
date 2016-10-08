@@ -50,14 +50,15 @@ Factor
 Examples
 ========
 
-.. list-table::
+.. list-table:: Remapped Musgrave texture such that most values are visible.
+   :widths: 65 35
 
-   * - .. figure:: /images/cycles_nodes_tex_musgrave_nodes.jpg
-          :width: 200px
+   * - .. figure:: /images/cycles_nodes_tex_musgrave_nodes.png
+          :width: 460px
 
           Nodes for the image to the right.
 
      - .. figure:: /images/cycles_nodes_tex_musgrave.jpg
-          :width: 200px
+          :width: 320px
 
-          Remapped Musgrave texture such that most values are visible.
+          Musgrave texture.
