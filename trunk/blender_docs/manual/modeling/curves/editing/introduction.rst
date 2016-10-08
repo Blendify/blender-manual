@@ -10,49 +10,6 @@ selecting and advanced editing are covered in the following pages:
 - :doc:`Curve Selecting </modeling/curves/selecting>`
 
 
-Curve Display
-=============
-
-Display Options
----------------
-
-.. figure:: /images/modeling_curves_editing_introduction_curve-display-panel.png
-   :align: right
-
-   Curve Display panel.
-
-
-When in Edit Mode, the Properties region :kbd:`N` contains options in the
-*Curve Display* panel for how curves are displayed in the 3D View.
-
-Handles
-   Toggles the display of Bézier handles while in edit mode. This does not affect the appearance of the curve itself.
-Normals
-   Toggles the display of Curve Normals.
-Normal Size
-   Sets the display scale of curve normals.
-
-
-.. _curves-hiding:
-
-Hiding Elements
----------------
-
-When in *Edit Mode*, you can hide and reveal elements from the display.
-This can be useful in complex models with many elements on the Screen.
-
-Hide Selected elements
-   Use :kbd:`H`, or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D View header.
-
-Show Hidden elements
-   Use :kbd:`Alt-H`, or the
-   :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D View header.
-
-Hide Unselected elements
-   Use :kbd:`Shift-H`,
-   or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D View header.
-
-
 Translation, Rotation, Scale
 ============================
 
@@ -469,3 +426,24 @@ Set Goal Weight
 This sets the "goal weight" of selected control points,
 which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
 forcing the curve to "stick" to their original positions, based on the weight.
+
+
+.. _curves-hiding:
+
+Hiding Elements
+===============
+
+When in *Edit Mode*, you can hide and reveal elements from the display.
+This can be useful in complex models with many elements on the Screen.
+
+Hide Selected elements
+   Use :kbd:`H`, or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D View header.
+
+Show Hidden elements
+   Use :kbd:`Alt-H`, or the
+   :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D View header.
+
+Hide Unselected elements
+   Use :kbd:`Shift-H`,
+   or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D View header.
+
