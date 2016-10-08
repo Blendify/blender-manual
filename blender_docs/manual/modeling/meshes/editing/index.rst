@@ -14,7 +14,7 @@
    faces.rst
    normals.rst
    smoothing.rst
-   deforming/index.rst
+   transform/index.rst
    duplicating/index.rst
    subdividing/index.rst
    cleanup.rst
