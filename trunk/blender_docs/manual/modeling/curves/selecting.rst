@@ -33,11 +33,11 @@ Select Menu
 ===========
 
 With curves, all "advanced" selection options are regrouped in the *Select* menu of
-the 3D Views header. Let us detail them.
+the 3D Views header. Let us detail them:
 
-- *Random...*
-- *Inverse*
-- *Select/Deselect All*
+- Random...
+- Inverse
+- Select/Deselect All
 
 Border Select
    All these options have the same meaning and behavior as in :doc:`Object Mode </editors/3dview/object/selecting>`

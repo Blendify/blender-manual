@@ -5,7 +5,7 @@ Introduction
 
 Physics allows you to simulate real world physical phenomena.
 Blender offers a variety for different physics,
-for example you can use Blender to simulate to following kinds of simulation.
+for example you can use Blender to simulate to following kinds of simulation:
 
 - Smoke
 - Rain

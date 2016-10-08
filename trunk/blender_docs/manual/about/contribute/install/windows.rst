@@ -15,7 +15,6 @@ Installing Python
 
 #. Download the `Python installation package <https://www.python.org/downloads/>`__ for MS-Windows.
    In this guide version 3.5.x is used.
-
 #. Install Python with the installation wizard.
    In this guide the default settings are used.
 

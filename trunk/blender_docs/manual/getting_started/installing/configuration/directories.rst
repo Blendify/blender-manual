@@ -178,7 +178,7 @@ Temporary Directory
 The temporary directory is used to store various files at runtime
 (including render layers, physics cache, copy-paste buffer and crash logs).
 
-The temporary directory is selected based on the following priority.
+The temporary directory is selected based on the following priority:
 
 - User Preference (see :ref:`prefs-file-paths`).
 - Environment variables (``TEMP`` on MS-Windows, ``TMP`` & ``TMP_DIR`` on other platforms).

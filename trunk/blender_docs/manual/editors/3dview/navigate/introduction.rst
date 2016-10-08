@@ -27,7 +27,7 @@ The view menu is located in the header of the 3D View.
 :doc:`Camera </editors/3dview/navigate/camera_view>`
    Switches the view to the current camera view.
 :doc:`Viewing angles </editors/3dview/navigate/3d_view>`:
-   These commands change the view to the default Top/Bottom, Front/Back, or Left/Right views.
+   These commands change the view to the default Top/Bottom, Front/Back, or Left/Right views:
 
    - Top :kbd:`Numpad7`
    - Bottom :kbd:`Ctrl-Numpad7`
@@ -47,7 +47,7 @@ The view menu is located in the header of the 3D View.
    Using these commands through the menu is not that efficient. However, like all Blender menus,
    the much more convenient keyboard shortcuts are listed next to the commands.
 :doc:`Align View </editors/3dview/navigate/3d_view>`
-   This submenu allows you to align the 3D View in certain ways.
+   This submenu allows you to align the 3D View in certain ways:
 
    - Align to selected
    - Center cursor and view all

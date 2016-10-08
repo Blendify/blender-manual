@@ -92,7 +92,7 @@ meaning complex deformations can be achieved by only moving a single object.
           An example of an empty being used to control the track to constraint.
 
 
-.. rubric:: Other common uses.
+.. rubric:: Other common uses:
 
 - Placeholders
 - Rigging controls

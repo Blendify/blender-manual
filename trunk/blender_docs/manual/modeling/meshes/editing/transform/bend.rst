@@ -23,7 +23,7 @@ Usage
 The bend tool can be used in any case where you might want to bend a shape in two
 with a gradual transition between both sides.
 
-This may take a little getting used to, the basics are listed below controls are noted here.
+This may take a little getting used to, the basics are listed below controls are noted here:
 
 - The initial position of the cursors define the axis to bend on.
 - The distance of the mouse-cursor to the 3D-cursor controls how sharp the bend will be.

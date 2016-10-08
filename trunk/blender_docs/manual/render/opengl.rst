@@ -40,7 +40,7 @@ Settings
 ========
 
 For the most part, *OpenGL Render* uses view-port,
-however, some render settings are used too.
+however, some render settings are used too:
 
 - Render Dimensions
 - Render Aspect
@@ -105,7 +105,7 @@ because it does not rely on hardware multi-sample support.
 
 .. hint::
 
-   Exact extensions needed, as listed in output from :ref:`help-system-info` (OpenGL section).
+   Exact extensions needed, as listed in output from :ref:`help-system-info` (OpenGL section):
 
    - ``GL_ARB_texture_multisample``
    - ``GL_EXT_framebuffer_blit``

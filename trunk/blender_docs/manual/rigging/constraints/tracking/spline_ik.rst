@@ -13,7 +13,7 @@ It is particularly well suited for rigging flexible body parts such as tails, te
 and spines, as well as inorganic items such as ropes.
 
 To set up *Spline IK*,
-it is necessary to have a chain of connected bones and a curve to constrain these bones to.
+it is necessary to have a chain of connected bones and a curve to constrain these bones to:
 
 - With the last bone in the chain selected,
   add a *Spline IK* constraint from the *Bone Constraints* tab in the *Properties Editor*.

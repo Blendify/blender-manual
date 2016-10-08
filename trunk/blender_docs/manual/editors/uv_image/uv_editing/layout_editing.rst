@@ -129,7 +129,7 @@ holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 Mirror
 ------
 
-UVs can be mirrored on the Y axis or the X axis.
+UVs can be mirrored on the Y axis or the X axis:
 
 - Mirror X
 - Mirror Y

@@ -23,14 +23,14 @@ Usage
 
 .. figure:: /images/editors_3dview_ruler_basic.png
 
-Here are common steps for using the ruler.
+Here are common steps for using the ruler:
 
-- Activate the Ruler from the Tool Shelf.
-- Click and drag in the view-port to define the initial start/end point for the ruler.
-- Orbit the view and click on either end of the ruler to re-position it.
-  Holding :kbd:`Ctrl` enables snap to elements.
-- Click on the middle to measure angles.
-- Press :kbd:`Return` to store the ruler for later use or :kbd:`Esc` to cancel.
+#. Activate the Ruler from the Tool Shelf.
+#. Click and drag in the view-port to define the initial start/end point for the ruler.
+#. Orbit the view and click on either end of the ruler to re-position it.
+   Holding :kbd:`Ctrl` enables snap to elements.
+#. Click on the middle to measure angles.
+#. Press :kbd:`Return` to store the ruler for later use or :kbd:`Esc` to cancel.
 
 .. note::
 

@@ -27,7 +27,7 @@ Dragging
 Text Input
    Press :kbd:`LMB` or :kbd:`Return` to edit the value as a text field.
 
-   When entering values by hand, this button works like any other text field.
+   When entering values by hand, this button works like any other text field:
 
    - Press :kbd:`Return` or :kbd:`LMB` outside the field to apply the change.
    - Press :kbd:`Esc` or :kbd:`RMB` will cancel the value.

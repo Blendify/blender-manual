@@ -49,7 +49,7 @@ Built-in Function
 -----------------
 
 These are additional formulas, each with the same options to control their shape.
-Consult mathematics reference for more detailed information on each function.
+Consult mathematics reference for more detailed information on each function:
 
 - Sine
 - Cosine

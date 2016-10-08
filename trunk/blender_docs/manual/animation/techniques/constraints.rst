@@ -77,7 +77,7 @@ used to create this animation.
 
 .. note:: Animating Constraints Influence
 
-   More "classically", you can also animate a few properties of each constraint using animation curves.
+   More "classically", you can also animate a few properties of each constraint using animation curves:
 
    - You can animate the *Influence* of a constraint.
      For example, in the `Example`_ above, it is used to first stick the camera to the "moon", then to the "earth",

@@ -96,6 +96,7 @@ Color
 Hardness
    TODO.
 
+
 Viewport Alpha
 --------------
 
@@ -115,7 +116,9 @@ Blend Mode
    Alpha Anti-Aliasing
       Use texture alpha ad an anti-aliasing mask, requires multi-sample OpenGL display.
 
---------------
+
+Pass Index
+----------
 
 Pass Index
    Index number for the *Material Index* :doc:`render pass </render/cycles/settings/passes>`.

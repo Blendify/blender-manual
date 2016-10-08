@@ -24,7 +24,7 @@ Use cases include:
 You can also keep the File Browser open, as with any other editor type.
 In this case the button to load a file is removed.
 
-The main purpose of this is to be able to drag media files.
+The main purpose of this is to be able to drag media files:
 
 - Images into the :ref:`editors-sequencer-index` (to set background or apply as material textures).
 - Media files into the :ref:`editors-sequencer-index`.
@@ -177,7 +177,7 @@ Select
 Arrow Keys
 ^^^^^^^^^^
 
-It is also possible to select/deselect files by "walking" through them using the arrow keys.
+It is also possible to select/deselect files by "walking" through them using the arrow keys:
 
 - Just using an arrow key, the next file in the chosen direction will be selected and all others deselected.
 - Holding down :kbd:`Shift` while doing this does not deselect anything so it extends to the selection,

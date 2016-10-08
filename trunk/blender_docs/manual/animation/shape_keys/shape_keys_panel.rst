@@ -111,13 +111,13 @@ Reset Timing
 
 For example, if you have the shape keys, Basis, Key_1, Key_2, in that order.
 
-Reset Timing will loop the shape keys, and set the shape keyframes to +0.1.
+Reset Timing will loop the shape keys, and set the shape keyframes to +0.1:
 
 - Basis 0.1
 - Key_1 0.2
 - Key_2 0.3
 
-Evaluation Time will show this as frame 100.
+Evaluation Time will show this as frame 100:
 
 - Basis 10.0
 - Key_1 20.0
@@ -127,7 +127,7 @@ Evaluation Time will show this as frame 100.
 Evaluation Time
 ---------------
 
-For example, if you have the shape keys, Basis, Key_1, Key_2, in that order, and you reset timing.
+For example, if you have the shape keys, Basis, Key_1, Key_2, in that order, and you reset timing:
 
 - Basis 10.0
 - Key_1 20.0

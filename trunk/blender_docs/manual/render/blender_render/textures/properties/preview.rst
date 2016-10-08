@@ -18,7 +18,7 @@ Preview
    
    Texture, Material/World, Both
 Show Alpha
-   Show alpha in preview.
+   Show alpha in preview:
 
    - If Alpha: Use is checked in the :doc:`Image Sampling </render/blender_render/textures/types/image/options>`
      panel, the image's alpha channel is displayed.

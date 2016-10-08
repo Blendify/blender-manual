@@ -118,7 +118,7 @@ Properties Region
 =================
 
 The Properties Region contains properties of the active object and selected objects (such as their locations),
-as well as properties of the editor itself.
+as well as properties of the editor itself:
 
 - :doc:`Transform </editors/3dview/object/transform/introduction>`
 - :doc:`Grease Pencil </interface/grease_pencil/introduction>`

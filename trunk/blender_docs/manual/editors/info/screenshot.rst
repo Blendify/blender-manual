@@ -107,7 +107,7 @@ Blender will have to pass those frames to a Video codec.
 
 .. warning::
 
-   Some codecs limit the output width/height or the video quality.
+   Some codecs limit the output width/height or the video quality;
 
    - When you save your *Screencast* in an Image format,
      the Images will be saved using the entire Blender Window, with full width and height,

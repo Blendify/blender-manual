@@ -45,11 +45,11 @@ Fill Holes
 
 This tool is can take a large selection and detect the holes in the mesh, filling them in.
 
-This is different from the face creation operator in three important respects.
+This is different from the face creation operator in three important respects:
 
-- holes are detected, so there is no need to manually find and select the edges around the holes.
-- holes can have a limit for the number of sides (so only quads or tris are filled in for example).
-- mesh data is copied from surrounding geometry (UVs, vertex-colors, multi-res, all layers),
+- Holes are detected, so there is no need to manually find and select the edges around the holes.
+- Holes can have a limit for the number of sides (so only quads or tris are filled in for example).
+- Mesh data is copied from surrounding geometry (UVs, vertex-colors, multi-res, all layers),
   since manually creating this data is very time consuming.
 
 

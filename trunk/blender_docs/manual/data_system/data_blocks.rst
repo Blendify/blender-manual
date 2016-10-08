@@ -68,7 +68,7 @@ Users (Sharing)
 
 Many data-blocks can be shared among other data-blocks,
 
-Examples where sharing data is common.
+Examples where sharing data is common:
 
 - Sharing textures among materials.
 - Sharing meshes between objects (instances).
