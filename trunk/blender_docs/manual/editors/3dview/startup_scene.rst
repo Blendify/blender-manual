@@ -57,8 +57,8 @@ Playback FPS
 Mini Axis
    Shows the axes of world coordinate system as plain lines with name.
 Object Info
-   Shown in brackets is the current frame. Followed by the name of the active object. 
+   Shown in brackets is the current frame. Followed by the name of the :ref:`active object <object-active>` and
+   in brackets (<>) the :doc:`/animation/markers` name on the current frame.
 
-.. object info, origin color (keyframe, ?)
 
-.. saving the startup scene, rendering the startup scene
+.. saving the startup scene, rendering the startup scene and part of the startup file
