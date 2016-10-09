@@ -16,7 +16,6 @@ They are available in many of Blender's editors.
 Markers can be created and edited in the following editors:
 
 - :doc:`Graph Editor </editors/graph_editor/introduction>`
-- :doc:`Action Editor </animation/actions>`
 - :doc:`Dope Sheet </editors/dope_sheet/introduction>`
 - :doc:`NLA Editor </editors/nla/index>`
 - :doc:`Video Sequence Editor </editors/sequencer/index>`
@@ -31,8 +30,8 @@ Types
 =====
 
 Next to the standard markers *Pose markers* are another type of markers,
-which are specific to armatures.
-They are used to denote poses in the Action Editor mode of Dope Sheet.
+which are specific to armatures and shape keys.
+They are used to denote poses in the Action Editor mode and Shape Keys Editor of Dope Sheet.
 
 
 Visualization
@@ -98,7 +97,8 @@ Pose Markers
 
    Pose markers in the Action Editor.
 
-Pose markers show a diamond-shaped icon in Action Editor mode of the Dope Sheet.
+Pose markers show a diamond-shaped icon.
+In the NLA editor the pose marker are shown as a red dashed line.
 
 .. container:: lead
 
@@ -236,10 +236,10 @@ Show Pose Markers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Action Editor
+   | Mode:     Action Editor and Shape Keys Editor
    | Menu:     :menuselection:`Marker --> Show Pose Markers`
 
-Only Pose markers are shown and editable in Action editor by enabling
+Only Pose markers are shown and editable in Action editor or Shape Keys editor by enabling
 the :menuselection:`Marker --> Show Pose Markers` checkbox.
 
 
