@@ -80,7 +80,7 @@ The *Video Sequence Editor* just adds a vertical dashed line to each marker
 
    Marker in a 3D View.
 
-The View does not allow you to create/edit/remove markers,
+The View does not allow you to create, edit, and remove markers,
 they just show their name between ``<>`` at their bottom left corner,
 near the active object's name, when you are at their frame
 (see Marker in a 3D View).
@@ -90,8 +90,8 @@ near the active object's name, when you are at their frame
    .. clear
 
 
-Action Editor
--------------
+Pose Markers
+------------
 
 .. figure:: /images/animation_markers_pose.png
    :align: right
@@ -111,7 +111,7 @@ Add Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     all modes
+   | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Add Marker`
    | Hotkey:   :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE Editor
 
@@ -129,8 +129,8 @@ and press :kbd:`M`.
 Pose Markers
 ------------
 
-If *Show Pose Markers* is checked Pose markers are added 
-and a new pose in the :doc:`Pose Library </rigging/armatures/properties/pose_library>`.
+If *Show Pose Markers* is checked a pose marker and
+a new pose in the :doc:`Pose Library </rigging/armatures/properties/pose_library>` are added.
 
 
 Selecting
@@ -139,7 +139,7 @@ Selecting
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     all modes
+   | Mode:     All modes
    | Hotkey:   :kbd:`RMB`
 
 
@@ -163,7 +163,7 @@ Duplicate Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     all modes
+   | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Duplicate Marker`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -184,7 +184,7 @@ Deleting Markers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     all modes
+   | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Delete Marker`
    | Hotkey:   :kbd:`X`
 
@@ -199,7 +199,7 @@ Rename Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     all modes
+   | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Rename Marker`
    | Hotkey:   :kbd:`Ctrl-M`
 
@@ -215,7 +215,7 @@ Grab/Move Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     all modes
+   | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Grab/Move Marker`
    | Hotkey:   :kbd:`G`
 
@@ -239,5 +239,19 @@ Show Pose Markers
    | Mode:     Action Editor
    | Menu:     :menuselection:`Marker --> Show Pose Markers`
 
-Pose markers are shown in Action editor by enabling the :menuselection:`Marker --> Show Pose Markers` checkbox.
+Only Pose markers are shown and editable in Action editor by enabling
+the :menuselection:`Marker --> Show Pose Markers` checkbox.
+
+
+Make Markers Local
+------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`Marker --> Make Markers Local`
+
+It is possible to convert standard markers into Pose markers with :menuselection:`Marker --> Make Markers Local`.
+Note that the original marker will be gone. If you want to keep it, make a duplicate before you convert.
 
