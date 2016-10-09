@@ -1,7 +1,7 @@
 
-********
-Musgrave
-********
+*************
+Musgrave Node
+*************
 
 .. figure:: /images/texture-nodes-musgrave.jpg
 

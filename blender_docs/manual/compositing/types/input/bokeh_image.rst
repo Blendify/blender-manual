@@ -1,7 +1,7 @@
 
-***********
-Bokeh Image
-***********
+****************
+Bokeh Image Node
+****************
 
 .. figure:: /images/compositing_nodes_bokeh.png
    :align: right

@@ -1,7 +1,7 @@
 
-*************
-Image Texture
-*************
+******************
+Image Texture Node
+******************
 
 The *Image Texture* is used to add an image file as a texture.
 

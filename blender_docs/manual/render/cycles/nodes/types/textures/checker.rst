@@ -1,7 +1,7 @@
 
-***************
-Checker Texture
-***************
+********************
+Checker Texture Node
+********************
 
 The *Checker Texture* is used to add a checkerboard texture.
 

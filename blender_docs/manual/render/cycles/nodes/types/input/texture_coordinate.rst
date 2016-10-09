@@ -1,7 +1,7 @@
 
-******************
-Texture Coordinate
-******************
+***********************
+Texture Coordinate Node
+***********************
 
 .. figure:: /images/cycles_nodes_texture-coordinate.png
    :align: right

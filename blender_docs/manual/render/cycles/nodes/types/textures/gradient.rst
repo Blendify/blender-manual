@@ -1,7 +1,7 @@
 
-****************
-Gradient Texture
-****************
+*********************
+Gradient Texture Node
+*********************
 
 The *Gradient Texture* node is used a gradient texture.
 

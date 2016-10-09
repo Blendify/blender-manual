@@ -1,7 +1,7 @@
 
-********
-Distance
-********
+*************
+Distance Node
+*************
 
 .. figure:: /images/texture-nodes-distance.jpg
    :align: right

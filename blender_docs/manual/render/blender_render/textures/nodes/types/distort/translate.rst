@@ -1,7 +1,7 @@
 
-*********
-Translate
-*********
+**************
+Translate Node
+**************
 
 .. figure:: /images/texture-nodes-translate.jpg
    :align: right

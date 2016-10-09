@@ -1,7 +1,7 @@
 
-*******
-Diffuse
-*******
+************
+Diffuse Node
+************
 
 .. figure:: /images/cycles_nodes_shader_diffuse.png
    :align: right

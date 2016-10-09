@@ -1,7 +1,7 @@
 
-*********
-Wireframe
-*********
+**************
+Wireframe Node
+**************
 
 .. figure:: /images/cycles_nodes_wireframe.png
    :align: right

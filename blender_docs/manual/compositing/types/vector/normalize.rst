@@ -1,7 +1,7 @@
 
-*********
-Normalize
-*********
+**************
+Normalize Node
+**************
 
 .. figure:: /images/compositing_nodes_normalize.png
    :align: right
