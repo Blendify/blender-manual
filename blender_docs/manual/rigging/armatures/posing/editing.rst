@@ -244,7 +244,7 @@ vertices or control points, you can use :kbd:`H`:
 - :kbd:`Shift-H` will hide all bones *but the selected one(s)*.
 - :kbd:`Alt-H` will show all hidden bones.
 
-You can also use the *Hide* check button of the
+You can also use the *Hide* checkbox of the
 :menuselection:`Bone tab --> Display panel`.
 
 Note that hidden bones are specific to a mode,

@@ -58,7 +58,7 @@ Pin (Pin icon)
 Strips
 ======
 
-There are three kinds of strips: Action, Transition, and Meta.
+There are four kinds of strips: Action, Transition, Sound clip and Meta.
 
 
 Action Strips
@@ -68,7 +68,6 @@ An Action Strip is a container of keyframe data of an action.
 Any action used by the NLA first must be turned into an Action strip.
 This is done so by clicking the Push Down action button see above.
 Alternatively, you can go to :menuselection:`Add --> Action`.
-
 
 
 Transition Strips
@@ -81,6 +80,13 @@ and go to: :menuselection:`Add --> Transition`.
 .. figure:: /images/editors_nla-basics_transition.png
 
    Transition Strip.
+
+
+Sound Clip Strips
+-----------------
+
+Controls when a speaker plays a sound clip.
+:menuselection:`Add --> Sound Clip`.
 
 
 Meta Strips

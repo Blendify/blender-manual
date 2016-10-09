@@ -6,8 +6,8 @@ Introduction
 
 Once your armature is :doc:`skinned </rigging/armatures/skinning/index>` by the needed object(s), you can start to pose it.
 Basically, by transforming its bones, you deform or transform the skin object(s).
-But you do not do that in *Edit Mode* - remember that in this mode, you edit *the default, base,
-"rest" position of your armature*. You cannot use the *Object Mode* either,
+But you do not do that in *Edit Mode* -- remember that in this mode, you edit the default, base,
+"rest" position of your armature. You cannot use the *Object Mode* either,
 as here you can only transform whole objects...
 
 So, armatures in Blender have a third mode, *Pose*, dedicated to this process.
