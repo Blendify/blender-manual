@@ -6,8 +6,8 @@ Grease Pencil
 Adjusting Timing of Sketches
 ============================
 
-It is possible to set a Grease-Pencil block to be loaded up in the *DopeSheet* for
-editing of the timings of the drawings.
+It is possible to set a :doc:`grease pencil </interface/grease_pencil/introduction>` block
+to be loaded up in the *DopeSheet* for editing of the timings of the drawings.
 This is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 

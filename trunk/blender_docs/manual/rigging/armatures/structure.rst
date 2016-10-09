@@ -1,7 +1,7 @@
 
-******************
-Armature Structure
-******************
+*********
+Structure
+*********
 
 .. figure:: /images/rigging_armatures_structure_armature-example.png
    :align: right
