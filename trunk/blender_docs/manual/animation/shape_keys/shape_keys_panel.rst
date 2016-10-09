@@ -18,7 +18,7 @@ Active Shape Key Index
 
    Value
       Current Value of the Shape Key (0.0 to 1.0).
-   Mute
+   Mute (eye icon)
       This visually disables the shape key in the 3D View.
 
    Specials
@@ -45,10 +45,10 @@ Relative
    Set the shape keys to *Relative* or *Absolute*.
 
 Show Only (pin icon)
-   Show the shape of the active shape key in the 3D View.
+   Show the shape of the active shape key without interpolation in the 3D View.
    *Show Only* is enabled while the object is in *Edit Mode*, unless the setting below is enabled.
 Edit Mode
-   Modify the shape key settings while the object is in *Edit Mode*.
+   Modify the shape key while the object is in *Edit Mode*.
 
 
 Relative Shape Keys
