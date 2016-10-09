@@ -33,33 +33,32 @@ Active Clip
 Units
 =====
 
-System
-   Common units of measurement to use.
+Length Presets
+   Common unit scales to use.
+Length
+   None
+      Uses :term:`Blender Units`.
+   Metric, Imperial
+      Standard unit of measurement for lengths.
+Angle
+   Standard unit for angular measurement.
 
-   Length
-      None
-         Uses :term:`Blender Units`.
+   Degrees, Radians
 
-      Metric/Imperial
-         Standard unit of measurement for lengths.
+   .. tip::
 
-   Angle
-      Standard unit for angular measurement.
-      
-      .. tip::
-
-         When you are using *Degrees* the radian value is also displayed in the tooltip.
+      When you are using *Degrees* the radian value is also displayed in the tooltip.
 
 Unit Scale
    Scale factor to use when converting between :term:`Blender Units` and *Metric*/*Imperial*.
 
    .. tip::
 
-      Usually you will want to use the *System* presets to change to scale factor,
+      Usually you will want to use the *Length* presets to change to scale factor,
       as this does not require looking up values to use for conversion.
 
 Separate Units
-   When *Metric*/*Imperial* display units as multiple multiple values,
+   When *Metric* or *Imperial* display units as multiple multiple values,
    for example, "2.285m" will become "2m 28.5cm".
 
 .. Normally we would avoid documenting long lists of values
@@ -141,6 +140,8 @@ Options to control how images appear on the screen.
 For :ref:`Color Management settings <render-post-color-management>` for more information.
 
 
+.. move to audio rendering?
+
 .. _data-scenes-audio:
 
 Audio
@@ -150,9 +151,12 @@ Options to control global audio settings.
 
 Volume
    Volume for the scene.
-
 Update Animation Cache
    Updates the audio animation cache. This is useful if you start noticing artifact in the audio.
+
+
+Distance Model
+---------------------
 
 Distance Model
    TODO.
@@ -161,6 +165,15 @@ Speed
    Speed of the sound for the Doppler effect calculations.
 Doppler
    Pitch factor for Doppler effect calculation.
+
+
+Format
+----------
+
+Channels
+   TODO.
+Mix Rate
+   TODO.
 
 
 Gravity
@@ -179,6 +192,8 @@ which holds settings that apply to all rigid bodies in this simulation.
 
 See :doc:`Rigid Body World </physics/rigid_body/world>` for more information.
 
+
+.. todo move to render/settings - engine dependent
 
 Simplify
 ========
