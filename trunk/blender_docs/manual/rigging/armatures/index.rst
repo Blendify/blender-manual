@@ -11,6 +11,5 @@
    bones/index.rst
    properties/index.rst
    structure.rst
-   visualization.rst
    skinning/index.rst
    posing/index.rst

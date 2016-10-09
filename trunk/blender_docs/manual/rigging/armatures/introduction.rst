@@ -61,7 +61,7 @@ In the "Armatures" section, we will only talk about armatures themselves,
 and specifically we will talk about:
 
 - The basics of :doc:`bones </rigging/armatures/bones/index>`.
-- The different :doc:`armature visualizations </rigging/armatures/visualization>`.
+- The different :doc:`armature visualizations </rigging/armatures/properties/display>`.
 - The armature :doc:`structure types </rigging/armatures/structure>`.
 - How to :doc:`Select Bones </rigging/armatures/bones/selecting>`,
 - How to :doc:`Edit Armatures </rigging/armatures/bones/editing/index>`,
