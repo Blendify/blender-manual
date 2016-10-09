@@ -1,7 +1,7 @@
 
-*****
-Scale
-*****
+**********
+Scale Node
+**********
 
 .. figure:: /images/texture-nodes-scale.jpg
    :align: right

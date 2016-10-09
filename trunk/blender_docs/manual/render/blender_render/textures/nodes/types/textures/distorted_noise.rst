@@ -1,7 +1,7 @@
 
-***************
-Distorted Noise
-***************
+********************
+Distorted Noise Node
+********************
 
 .. figure:: /images/texture-nodes-distortednoise.jpg
 

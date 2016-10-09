@@ -1,7 +1,7 @@
 
-*********
-Attribute
-*********
+**************
+Attribute Node
+**************
 
 .. figure:: /images/cycles_nodes_attribute.png
    :align: right

@@ -1,7 +1,7 @@
 
-******
-Rotate
-******
+***********
+Rotate Node
+***********
 
 .. figure:: /images/texture-nodes-rotate.png
    :align: right

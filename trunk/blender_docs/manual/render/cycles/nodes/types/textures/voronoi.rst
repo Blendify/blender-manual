@@ -1,8 +1,8 @@
 .. Define Voronoi? Glossary?
 
-***************
-Voronoi Texture
-***************
+********************
+Voronoi Texture Node
+********************
 
 The *Voronoi Texture* node adds a procedural texture producing Voronoi cells.
 

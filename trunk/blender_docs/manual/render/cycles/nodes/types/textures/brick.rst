@@ -1,7 +1,7 @@
 
-*************
-Brick Texture
-*************
+******************
+Brick Texture Node
+******************
 
 The *Brick Texture* is used to add a procedural texture producing bricks.
 

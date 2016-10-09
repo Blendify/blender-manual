@@ -1,7 +1,7 @@
 
-****************
-Musgrave Texture
-****************
+*********************
+Musgrave Texture Node
+*********************
 
 The *Musgrave Texture* is used to add an advanced procedural noise texture.
 

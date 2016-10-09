@@ -1,7 +1,7 @@
 
-******
-Marble
-******
+***********
+Marble Node
+***********
 
 .. figure:: /images/texture-nodes-marble.jpg
 

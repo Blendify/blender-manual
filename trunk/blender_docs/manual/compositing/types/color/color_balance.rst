@@ -1,7 +1,7 @@
 
-*************
-Color Balance
-*************
+******************
+Color Balance Node
+******************
 
 The Color Balance node can adjust the color and values of an image.
 
