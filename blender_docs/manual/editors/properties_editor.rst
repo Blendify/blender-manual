@@ -62,7 +62,7 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 
 - :doc:`Mesh </modeling/meshes/properties/object_data>`
 - :doc:`Curve </modeling/curves/properties>`
-- :doc:`Surface </modeling/surfaces/introduction>`
+- :doc:`Surface </modeling/surfaces/properties>`
 - :doc:`Metaball </modeling/metas/properties>`
 - :doc:`Text </modeling/texts/properties>`
 - :doc:`Empty </modeling/empties>`
@@ -71,7 +71,7 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 
 - :doc:`Armature </rigging/armatures/properties/index>`
 - :doc:`Bones </rigging/armatures/bones/properties/index>`
-- :doc:`Bone Constraints </rigging/armatures/posing/constraints>`
+- :doc:`Bone Constraints </rigging/armatures/posing/bone_constraints/introduction>`
 - :doc:`Lattice </rigging/lattice>`
 
 ..

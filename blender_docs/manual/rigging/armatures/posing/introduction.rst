@@ -24,13 +24,13 @@ Posing Section Overview
 
 In this section, we will see:
 
-- The :doc:`visualization features </rigging/armatures/posing/visualization>` specific to *Pose Mode*.
 - How to :doc:`select and edit bones </rigging/armatures/posing/editing>` in this mode.
 - How to :doc:`use pose library </rigging/armatures/properties/pose_library>`.
 - How to :doc:`use constraints </rigging/armatures/posing/bone_constraints/introduction>`
   to control your bones' DoF (degrees of freedom).
-- How to :doc:`use inverse kinematics features </rigging/armatures/posing/inverse_kinematics/index>`.
-- How to :doc:`use the Spline inverse kinematics features </rigging/armatures/posing/inverse_kinematics/spline_ik>`.
+- How to :ref:`use inverse kinematics features <bone-constraints-inverse-kinematics>`.
+- How to :doc:`use the Spline inverse kinematics features
+  </rigging/armatures/posing/bone_constraints/inverse_kinematics/spline_ik>`.
 
 Even though it might be used for completely static purposes,
 posing is heavily connected with :doc:`animation features and techniques </animation/index>`.
@@ -53,11 +53,11 @@ There are six different color codes, ordered here by precedence
 
 .. hue rotation based on the bone solid.
 
-- Gray: Default
-- Blue wireframe: Pose
-- Green: Constraint
-- Yellow: :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
-- Orange: Targetless Solver constraint.
+- Gray: Default.
+- Blue wireframe: in Pose Mode.
+- Green: with Constraint.
+- Yellow: with :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
+- Orange: with Targetless Solver constraint.
 
 .. note::
 
