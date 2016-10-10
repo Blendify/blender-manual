@@ -173,19 +173,6 @@ Now, when any strip is tweaked, the others will change too.
 If a strip other than the original is tweaked,
 the original will turn to red.
 
-.. list-table::
+.. figure:: /images/editors_nla_linked-strip-edit.png
 
-   * - .. figure:: /images/editors_nla_original_strip.png
-          :width: 190px
-
-          Original strip.
-
-     - .. figure:: /images/editors_nla_linked_duplicate.png
-          :width: 190px
-
-          Duplicated strip.
-
-     - .. figure:: /images/editors_nla_linked_duplicate_edited.png
-          :width: 190px
-
-          Duplicated strip being edited.
+   Linked duplicated strip being edited.

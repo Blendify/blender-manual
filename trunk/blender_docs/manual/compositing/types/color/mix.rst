@@ -59,7 +59,7 @@ Examples
 
 Below are samples of common mix modes and uses, mixing a color or checker with a mask.
 
-.. figure:: /images/compositing-mix-examples.jpg
+.. figure:: /images/compositing_nodes_color_mix_blend-modes.png
 
 Some explanation of the mixing methods above might help you use the Mix node effectively:
 

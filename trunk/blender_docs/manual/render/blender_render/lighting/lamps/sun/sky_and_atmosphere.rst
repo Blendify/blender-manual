@@ -1,11 +1,10 @@
-..    TODO/Review: {{review|im=The second image is from 2.4}}.
+..    TODO/Review: {{review}}.
 
 ****************
 Sky & Atmosphere
 ****************
 
-.. figure:: /images/lighting-lamps-sun-sky_atmosphere_panel.jpg
-   :width: 304px
+.. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_panel.png
 
    Sky & Atmosphere panel.
 
@@ -33,8 +32,8 @@ the default rotation -- straight down -- is "mid-day",
 a light pointing straight up is "midnight", and so on...).
 And the rotation around the Z axis determines the position of the sun around the camera.
 
-.. figure:: /images/lighting-lamps-sun-position_for_sky_atmosphere.jpg
-   :width: 610px
+.. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_position.png
+   :width: 700px
 
    The dashed "light line" of the Sun lamp crossing the camera focal point.
 

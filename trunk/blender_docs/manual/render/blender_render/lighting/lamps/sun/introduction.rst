@@ -38,8 +38,7 @@ The *Sun* lamp has no light falloff settings: it always uses a constant attenuat
 Sky & Atmosphere
 ================
 
-.. figure:: /images/lighting-lamps-sun-sky_atmosphere_panel.jpg
-   :width: 304px
+.. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_panel.png
 
    Sky & Atmosphere panel.
 

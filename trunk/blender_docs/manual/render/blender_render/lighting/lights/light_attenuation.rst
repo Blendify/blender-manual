@@ -317,8 +317,8 @@ language like GLSL.
 Sphere
 ======
 
-.. figure:: /images/lighting-falloff-point_sphere.png
-   :width: 300px
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_sphere-clipping-circle.png
+   :width: 340px
 
    Screenshot of the 3D View editor, showing the Sphere light clipping circle.
 
@@ -468,7 +468,7 @@ Sphere Example
 
 .. _fig-bi-light-attenuation-clip:
 
-.. figure:: /images/render_blender-render_lighting_lights_attenuation_lamprender-sphereview.png
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_example-sphere-scene.png
 
    Clipping Sphere.
 
