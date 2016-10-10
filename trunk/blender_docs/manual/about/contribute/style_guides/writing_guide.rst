@@ -63,8 +63,8 @@ To be avoided:
   even a fraction of them from the manual, while keeping this list up to date.
 
   Issues which are known to the developers and are not going to be resolved before the next release
-  can be documented as *Known Limitations*,
-  in some cases, it may be best to include them in the :doc:`troubleshooting </troubleshooting/index>` section.
+  can be documented as *Known Limitations*.
+  In some cases, it may be best to include them in the :doc:`troubleshooting </troubleshooting/index>` section.
 - Avoid Product Placements, i.e. unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature

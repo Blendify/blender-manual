@@ -34,8 +34,8 @@ Scene
 Engines
    Gives a list of selectable render and game engines.
 Render/Baking progress
-   A progressbar and a chancel button is shown while rendering or baking.
-   Hovering over it shows a time estimate.
+   A progressbar and a chancel button are shown while rendering or baking.
+   Hovering over them shows a time estimate.
 Capture Stop
    A button shown while :ref:`screen casting <info-screencast>` to stop the recording.
 Blender Icon
@@ -45,7 +45,7 @@ Blender version
 Resource Information
    Scene
       Displays information about the current loaded scene. The number of vertices,
-      faces and triangles. As well as the selected objects or lambs with their total count in the scene.
+      faces and triangles. As well as the selected objects or lamps with their total count in the scene.
    Memory
       The "Mem" label shows the calculated memory consumption by Blender.
       This can help to identify, when you are reaching the limits of your hardware.
@@ -58,7 +58,7 @@ Resource Information
 Report Console
 ==============
 
-When the Info Editors area is scaled up it reveals the Report console,
+When the Info Editor's area is scaled up it reveals the Report console,
 where a scripting trail is displayed.
 Whenever an operator has been executed, it leaves a report, creating a log.
 
