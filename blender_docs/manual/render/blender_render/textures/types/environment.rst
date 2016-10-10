@@ -51,7 +51,7 @@ Options
 
 .. _fig-bi-environment-panel:
 
-.. figure:: /images/texture-envmap-panel.png
+.. figure:: /images/render_blender-render_textures_types_environment_map-panel.png
 
    Reflecting plane Environment Map settings.
 
@@ -181,12 +181,13 @@ location of the empty would mirror the location of the camera across the plane o
 onto which it is being mapped.
 
 .. list-table::
+   :widths: 58 42
 
-   * - .. figure:: /images/envmap01.png
+   * - .. figure:: /images/render_blender-render_textures_types_environment_example-1.png
 
-          Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.
+          Planar reflection example.
 
-     - .. figure:: /images/envmap04.jpg
+     - .. figure:: /images/render_blender-render_textures_types_environment_example-2.jpg
 
           Sphere on a reflecting surface.
 
@@ -199,11 +200,11 @@ in order to get reflections of reflections.
 
 .. list-table::
 
-   * - .. figure:: /images/envmap05.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_environment_example-3.jpg
 
           Reflecting sphere on a reflecting surface.
 
-     - .. figure:: /images/envmap06.jpg
+     - .. figure:: /images/render_blender-render_textures_types_environment_example-4.jpg
 
           Reflecting sphere on a reflecting surface with multiple reflections.
 
@@ -218,6 +219,6 @@ are touching the sides of the large reflecting sphere,
 but because the environment map is calculated from the center of the sphere,
 the surrounding objects look artificially far away.
 
-.. figure:: /images/envmap-offset.jpg
+.. figure:: /images/render_blender-render_textures_types_environment_limitations.jpg
 
    Inaccurate spherical reflection, the colored objects are artificially offset.
