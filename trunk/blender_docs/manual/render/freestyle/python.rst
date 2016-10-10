@@ -95,9 +95,8 @@ Selection
 The selection operator goes through every element of the active set and keeps only the ones
 satisfying a certain predicate.
 The ``Operators.select()`` method takes as the argument a unary
-predicate that works on any ``Interface1D`` that represents a 1D element. For example:
-
-.. code-block:: python
+predicate that works on any ``Interface1D`` that represents a 1D element.
+For example::
 
    Operators.select(QuantitativeInvisibilityUP1D(0))
 
@@ -134,9 +133,7 @@ predicate during the march along the graph.
 Chaining can be either unidirectional ``Operators.chain()`` or bidirectional ``Operators.bidirectional_chain()``.
 In the latter case, the chaining will propagate in the two directions from the starting edge.
 
-The following is a code example of bidirectional chaining:
-
-.. code-block:: python
+The following is a code example of bidirectional chaining::
 
    Operators.bidirectional_chain(
            ChainSilhouetteIterator(),
@@ -171,9 +168,7 @@ parses the Chain at a given arbitrary resolution and evaluates a unary predicate
 (working on 0D elements) at each point along the Chain.
 Every time the predicate is satisfied, the chain is split into two chains.
 At the end of the sequential split operation,
-the active set of chains is set to the new chains.
-
-.. code-block:: python
+the active set of chains is set to the new chains. ::
 
    Operators.sequentialSplit(TrueUP0D(), 2)
 
@@ -188,9 +183,7 @@ Recursive splitting ``Operators.recursiveSplit()`` evaluates a function on the 0
 along the Chain at a given resolution and find the point that gives the maximum value for the
 function. The Chain is then split into two at that point.
 This process is recursively repeated on each of the two new Chains,
-until the input Chain satisfies a user-specified stopping condition.
-
-.. code-block:: python
+until the input Chain satisfies a user-specified stopping condition. ::
 
    func = Curvature2DAngleF0D()
    Operators.recursive_split(func, NotUP1D(HigherLengthUP1D(5)), 5)
@@ -206,9 +199,7 @@ Sorting
 -------
 
 The sorting operator ``Operators.sort()`` arranges the stacking order of active 1D elements.
-It takes as argument a binary predicate used as a "smaller than" operator to order two 1D elements.
-
-.. code-block:: python
+It takes as argument a binary predicate used as a "smaller than" operator to order two 1D elements. ::
 
    Operators.sort(Length2DBP1D())
 
@@ -231,9 +222,7 @@ takes the active set of Chains as input and build Strokes. The operator takes tw
 The first is a unary predicate that works on ``Interface1D`` that is designed to make a last
 selection on the set of chains.
 A Chain that does not satisfy the condition will not lead to a Stroke.
-The second input is a list of shaders that will be responsible for the shading of each built stroke.
-
-.. code-block:: python
+The second input is a list of shaders that will be responsible for the shading of each built stroke. ::
 
    shaders_list = [
        SamplingShader(5.0),

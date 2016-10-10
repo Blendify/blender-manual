@@ -68,10 +68,7 @@ The first step is to create a ``Texture`` object.
 We will do it in a script that runs once. It can be at the start of the game,
 the video is only played when you refresh the texture; we will come to that later. The script is
 normally attached to the object on which we want to display the video so that we can easily
-retrieve the object reference:
-
-
-.. code-block:: python
+retrieve the object reference::
 
    import bge.texture
 
@@ -79,7 +76,6 @@ retrieve the object reference:
    obj = contr.owner
 
    if not hasattr(GameLogic, 'video'):
-
 
 The check on ``video`` attribute is just a trick to make sure we create the texture only once.
 
@@ -101,10 +97,7 @@ it grabs the material that has an image texture channel matching the name as fir
 
 The ``IM`` prefix indicates that we are searching for a texture name but we can also
 search for a material by giving the ``MA`` prefix. For example,
-if we want to find the material called ``VideoMat`` on this object, the code becomes:
-
-
-.. code-block:: python
+if we want to find the material called ``VideoMat`` on this object, the code becomes::
 
    matID = bge.texture.materialID(obj, 'MAVideoMat')
 
@@ -176,9 +169,7 @@ In this example we use a simple video file as source.
 The ``VideoFFmpeg`` constructor takes a file name as argument.
 To avoid any confusion with the location of the file, we will use ``GameLogic.expandPath
 ()`` to build an absolute file name,
-assuming the video file is in the same directory as the blend-file:
-
-.. code-block:: python
+assuming the video file is in the same directory as the blend-file::
 
    movie = GameLogic.expandPath('//trailer_400p.ogg')
    GameLogic.video.source = bge.texture.VideoFFmpeg(movie)
@@ -189,18 +180,14 @@ We create the video source object and assign it to the ``Texture`` object
 as the ``Texture`` object is persistent, the source object will also be persistent.
 
 Note that we can change the ``Texture`` source at any time.
-Suppose we want to switch between two movies during the game. We can do the following:
-
-.. code-block:: python
+Suppose we want to switch between two movies during the game. 
+We can do the following::
 
    GameLogic.mySources[0] = bge.texture.VideoFFmpeg('movie1.avi')
    GameLogic.mySources[1] = bge.texture.VideoFFmpeg('movie2.avi')
 
 
-And then assign (and reassign) the source during the game:
-
-.. code-block:: python
-
+And then assign (and reassign) the source during the game::
 
    GameLogic.video.source = GameLogic.mySources[movieSel]
 
@@ -244,10 +231,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
 We will simply set the ``scale`` attribute to True because the ``gluScaleImage
 ()`` is really too slow for real time video.
-In case the video dimensions are already a power of 2, it has no effect.
-
-.. code-block:: python
-
+In case the video dimensions are already a power of 2, it has no effect. ::
 
    GameLogic.video.source.scale = True
 
@@ -255,20 +239,14 @@ In case the video dimensions are already a power of 2, it has no effect.
 Play the video
 --------------
 
-We are now ready to play the video:
-
-.. code-block:: python
-
+We are now ready to play the video::
 
    GameLogic.video.source.play()
 
 
 Video playback is not a background process: it happens only when we refresh the texture.
 So we must have another script that runs on every frame and calls the ``refresh
-()`` method of the ``Texture`` object:
-
-.. code-block:: python
-
+()`` method of the ``Texture`` object::
 
    if hasattr(GameLogic, 'video'):
    GameLogic.video.refresh(True)
@@ -284,10 +262,8 @@ Checking video status
 ---------------------
 
 Video source classes (such as VideoFFMpeg) have an attribute ``status``.
-If video is playing, its value is 2, if it's stopped, it's 3. So in our example:
-
-.. code-block:: python
-
+If video is playing, its value is 2, if it's stopped, it's 3.
+So in our example::
 
    if GameLogic.video.source.status == 3:
    #video has stopped
@@ -304,41 +280,33 @@ You can also do it manually by calling the ``refresh
 
 Here are some possible advanced work flow:
 
-- Use the image buffer in Python (does not effect the Texture):
+- Use the image buffer in Python (does not effect the Texture)::
 
-.. code-block:: python
-
-   GameLogic.video.refresh(False)
-   image = GameLogic.video.source.image
-   # image is a binary string buffer of row major RGBA pixels
-   # ... use image
-   # invalidates it for next frame
-   GameLogic.video.source.refresh()
+     GameLogic.video.refresh(False)
+     image = GameLogic.video.source.image
+     # image is a binary string buffer of row major RGBA pixels
+     # ... use image
+     # invalidates it for next frame
+     GameLogic.video.source.refresh()
 
 
 - Load image from source for Python processing without download to GPU:
 - Note that we do not even call refresh on the Texture.
-- We could also just create a source object without a Texture object.
+- We could also just create a source object without a Texture object::
 
-.. code-block:: python
-
-   image = GameLogic.video.source.image
-   # ... use image
-   GameLogic.video.source.refresh()
+     image = GameLogic.video.source.image
+     # ... use image
+     GameLogic.video.source.refresh()
 
 
 - If you have more than one material on the mesh and you want to modify a texture of one particular material,
-  get its ID
+  get its ID::
 
-.. code-block:: python
-
-   matID = bge.texture.materialID(gameobj, "MAmat.001")
+     matID = bge.texture.materialID(gameobj, "MAmat.001")
 
 
 GLSL material can have more than one texture channel,
-identify the texture by the texture slot where it is defined, here two.
-
-.. code-block:: python
+identify the texture by the texture slot where it is defined, here two::
 
    tex=bge.texture.Texture(gameobj, matID, 2)
 

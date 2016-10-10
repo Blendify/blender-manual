@@ -12,9 +12,7 @@ A file must be added in the text editor, and is identified simply by its name, n
 Modules are identified by the file name *without* the extension followed by a ``.`` and then the name of the module.
 For example:
 
-A file ``myscript.py`` contains:
-
-.. code-block:: python
+A file ``myscript.py`` contains::
 
    def myModule ():
       print("Go Open Source!");

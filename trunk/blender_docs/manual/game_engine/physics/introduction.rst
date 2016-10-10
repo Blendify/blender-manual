@@ -122,9 +122,7 @@ Also note that you can see how the Bullet triangulation is working
 - *Black* - When in wireframe, this is your mesh's visual appearance.
 
 If you want finer-grained control over the display options,
-you can add this as a Python Controller and uncomment whichever pieces you want to see:
-
-.. code-block:: python
+you can add this as a Python Controller and uncomment whichever pieces you want to see::
 
    import bge
    debugs = (
@@ -289,9 +287,7 @@ Exporting
 .bullet / Bullet compatible engines
 -----------------------------------
 
-You can snapshot the physics world at any time with the following code:
-
-.. code-block:: python
+You can snapshot the physics world at any time with the following code::
 
    import bge
    bge.constraints.exportBulletFile("test.bullet")

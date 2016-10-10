@@ -59,9 +59,7 @@ Examples: ``3 > 2 (True)``, ``1 AND 0 (False)``
 Conditional statement (if)
 ==========================
 
-Use:
-
-.. code-block:: python
+Use::
 
    if( expression, pulse_if_expression_is_true, pulse_if_expression_is_false )
 
@@ -80,12 +78,9 @@ If the controller evaluates ``expression`` to False:
 Examples
 ========
 
-Given the object has a property ``coins`` equal to 30:
-
-.. code-block:: python
+Given the object has a property ``coins`` equal to 30::
 
    coins > 20
-
 
 returns True (the controller sends a positive pulse to the connected actuators).
 
@@ -102,28 +97,21 @@ Given the object has:
 
 returns False (the controller sends a negative pulse to the connected actuators).
 
-This is the same as doing:
-
-.. code-block:: python
+This is the same as doing::
 
    if (Key_Inserted AND Fuel, True, False)
 
 
-Instead, you could do:
-
-.. code-block:: python
+Instead, you could do::
 
    if (Key_Inserted AND Fuel, False, True)
 
 
 to return a positive pulse when ``Key_Inserted AND Fuel`` returns False.
 
-You can also do:
-
-.. code-block:: python
+You can also do::
 
    if ((Key_Inserted AND Fuel) OR (coins > 20), True, False)
-
 
 This expression returns True,
 hence in this case the controller sends a positive pulse to the connected actuators.
