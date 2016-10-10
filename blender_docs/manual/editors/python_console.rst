@@ -115,70 +115,47 @@ bpy.context.mode
 bpy.context.object or bpy.context.active_object
    Will give access to the active object in the 3D View.
 
-.. code-block:: python
+Change X location to a value of 1::
 
    bpy.context.object.location.x = 1
 
-
-Change X location to a value of 1.
-
-.. code-block:: python
+Move object from previous X location by 0.5 unit::
 
    bpy.context.object.location.x += 0.5
 
-
-Move object from previous X location by 0.5 unit.
-
-.. code-block:: python
+Changes X, Y, Z location::
 
    bpy.context.object.location = (1, 2, 3)
 
-
-Changes X, Y, Z location.
-
-.. code-block:: python
+Same as above::
 
    bpy.context.object.location.xyz = (1, 2, 3)
 
-
-Same as above.
-
-.. code-block:: python
+Data type of objects location::
 
    type(bpy.context.object.location)
 
 
-Data type of objects location.
-
-.. code-block:: python
+Now that is a lot of data that you have access to::
 
    dir(bpy.context.object.location)
 
 
-Now that is a lot of data that you have access to.
-
 ``bpy.context.selected_objects``
    Will give access to a list of all selected objects.
 
-.. code-block:: python
+Type this and then press :kbd:`Ctrl-Spacebar`::
 
    bpy.context.selected_objects
 
-... then press :kbd:`Ctrl-Spacebar`.
-
-.. code-block:: python
+To prints out the name of first object in the list::
 
    bpy.context.selected_objects[0]
 
 
-Prints out name of first object in the list.
-
-.. code-block:: python
+The complex one... But this prints a list of objects not including the active object::
 
    [obj for obj in bpy.context.selected_objects if obj != bpy.context.object]
-
-
-Complex one... But this prints a list of objects not including the active object.
 
 
 bpy.data
@@ -202,19 +179,15 @@ Try it out!
 Exercise
 ^^^^^^^^
 
-.. code-block:: python
+After :kbd:`Return` twice it prints the names of all objects
+belonging to the Blender scene with name "Scene"::
 
    for obj in bpy.data.scenes['Scene'].objects: print(obj.name)
 
-:kbd:`Return` twice
-Prints the names of all objects belonging to the Blender scene with name "Scene".
-
-.. code-block:: python
+Unlink the active object from the Blender scene named 'Scene'::
 
    bpy.data.scenes['Scene'].objects.unlink(bpy.context.active_object)
 
-
-Unlink the active object from the Blender scene named 'Scene'.
 
 .. code-block:: python
 
@@ -240,26 +213,18 @@ Try it out!
 ^^^^^^^^^^^
 
 The following commands are used to specify that the objects are created in layer 1.
-So first we define an array variable for later reference:
-
-.. code-block:: python
+So first we define an array variable for later reference::
 
    mylayers = [False] * 20
    mylayers[0] = True
 
-
-We create a reference to the operator that is used for creating a cube mesh primitive.
-
-.. code-block:: python
+We create a reference to the operator that is used for creating a cube mesh primitive::
 
    add_cube = bpy.ops.mesh.primitive_cube_add
 
-
 Now in a *for loop*, we create the five objects like this (In the screenshot above,
 another method is used) :
-Press :kbd:`Return` twice after entering the command at the shell prompt.
-
-.. code-block:: python
+Press :kbd:`Return` twice after entering the command at the shell prompt::
 
    for index in range(5):
        add_cube(location=(index * 3, 0, 0), layers=mylayers)

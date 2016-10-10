@@ -19,9 +19,7 @@ Features:
 Easiest is to look at the Bullet physics demos, how to use them. More information can be found
 `here <http://www.continuousphysics.com/Bullet/phpBB2/viewforum.php?f=17>`__.
 
-Python script example:
-
-.. code-block:: python
+Python script example::
 
    import PhysicsConstraints
    print dir(PhysicsConstraints)

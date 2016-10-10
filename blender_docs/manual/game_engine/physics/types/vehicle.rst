@@ -95,9 +95,8 @@ You should think of your gameplay and research appropriate functions for the inp
 For instance, can the vehicle reverse? jump? drift?
 does it turn slowly? How much time does it take to brake or get to full speed?
 The first part is *response to keys*.
-Whenever the player presses a key, you should set a value accordingly, such as increase acceleration. Example:
-
-.. code-block:: python
+Whenever the player presses a key, you should set a value accordingly, such as increase acceleration.
+Example::
 
     if key[0] == events.UPARROWKEY:
         logic.car["force"] = -15.0
@@ -105,9 +104,7 @@ Whenever the player presses a key, you should set a value accordingly, such as i
         logic.car["steer"] -= 0.05
 
 
-The second part is to *compute the movement* according to your functions.
-
-.. code-block:: python
+The second part is to *compute the movement* according to your functions::
 
     ## apply engine force ##
     for i in range(0, totalWheels):
