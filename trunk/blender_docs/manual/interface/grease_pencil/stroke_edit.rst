@@ -8,7 +8,7 @@ These tools let you move and reshape grease pencil strokes after they have been 
 Open the Grease Pencil tab on the Tool Shelf.
 Look for the tools in the Edit Strokes panel shown here:
 
-.. figure:: /images/grease_pencil_drawing_edit_strokes_panel.jpg
+.. figure:: /images/grease_pencil_drawing_edit_strokes_panel.png
 
    Edit panel with grease pencil strokes.
 
@@ -106,7 +106,7 @@ Interpolate All Layers
 Interpolate Selected Strokes
    Interpolates only the selected strokes in the original frame.
 
-Join Stokes
+Join Strokes
    Type
       Join
          Joins selected strokes.
