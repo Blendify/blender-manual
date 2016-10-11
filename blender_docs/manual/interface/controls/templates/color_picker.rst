@@ -4,8 +4,7 @@
 Color Picker
 ************
 
-.. figure:: /images/interface_controls_hsv.png
-   :width: 175px
+.. figure:: /images/interface_controls_templates_color-picker_circle-hsv.png
    :align: right
 
    Circle HSV.
@@ -54,30 +53,24 @@ Square
 
 .. list-table:: Color Picker types.
 
-   * - .. figure:: /images/interface_controls_hsv.png
-          :width: 200px
+   * - .. figure:: /images/interface_controls_templates_color-picker_circle-hsv.png
 
           Circle HSV.
 
-     - .. figure:: /images/interface_controls_hsl.png
-          :width: 200px
+     - .. figure:: /images/interface_controls_templates_color-picker_circle-hsl.png
 
           Circle HSL.
 
      - ..
 
-   * - .. figure:: /images/interface_controls_sv-h.png
-          :width: 200px
+   * - .. figure:: /images/interface_controls_templates_color-picker_square-sv-h.png
 
           Square (SV + H).
 
-     - .. figure:: /images/interface_controls_hs-v.png
-          :width: 200px
+     - .. figure:: /images/interface_controls_templates_color-picker_square-hs-v.png
 
           Square (HS + V).
 
-
-     - .. figure:: /images/interface_controls_hv-s.png
-          :width: 200px
+     - .. figure:: /images/interface_controls_templates_color-picker_square-hv-s.png
 
           Square (HV + S).

@@ -102,8 +102,9 @@ You may also use the *Select* Menu.
 Select Modes
 ------------
 
-.. figure:: /images/physics_particle_select-display-mode.jpg
+.. figure:: /images/physics_particles_mode_select-modes.png
 
+   Select Modes.
 
 Path
    No keypoints are visible, you can select/deselect only all particles.

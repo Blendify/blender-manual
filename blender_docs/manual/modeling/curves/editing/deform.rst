@@ -40,7 +40,7 @@ to make it control the size of the "curved" object...).
 Interface
 =========
 
-.. figure:: /images/curvesdeform_parentmenu.png
+.. figure:: /images/modeling_curves_editing_deform_parent-menu.png
 
    Make Parent menu.
 

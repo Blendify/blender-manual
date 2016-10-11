@@ -3,12 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_sequencer_strips_effects.png
-   :align: right
-
-   Available Effects.
-
-Blender offers a set of effects that can be added to your sequence. Theses effects are listed to the right.
+Blender offers a set of effects that can be added to your sequence.
 Each effect is explained in the next pages individually, but they all are added and controlled in the same way.
 To add an effect strip, select one base strip (image, movie, or scene) by :kbd:`RMB` clicking on it.
 For some effects, like the Cross transition effect, you will need to :kbd:`Shift-RMB` a second overlapping strip

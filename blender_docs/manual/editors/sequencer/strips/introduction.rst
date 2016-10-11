@@ -3,8 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_sequencer_strips_add-menu.png
-   :width: 115px
+.. figure:: /images/editors_sequencer_strips_introduction_add-menu.png
    :align: right
 
    The Add Menu.

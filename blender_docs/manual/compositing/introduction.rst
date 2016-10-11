@@ -53,7 +53,7 @@ to your heart's content (or physical memory constraints, whichever comes first).
 Options
 =======
 
-.. figure:: /images/compositing_header.png
+.. figure:: /images/compositing_introduction_header.png
 
    Compositing Specific Options.
 

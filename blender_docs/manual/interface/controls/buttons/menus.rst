@@ -45,7 +45,7 @@ simply right click on the header and enable set it to collapsed.
 Select Menus
 ============
 
-.. figure:: /images/interface_select_menu.png
+.. figure:: /images/interface_controls_buttons_menus_select-menu.png
    :align: right
 
    The 3D View mode select menu.

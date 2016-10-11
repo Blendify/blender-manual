@@ -3,6 +3,12 @@
 Custom Properties
 *****************
 
+.. figure:: /images/data-system_custom-properties_add.png
+   :align: right
+
+   Custom Properties Panel.
+
+
 Custom properties are a way to store your own meta-data in Blender's data-blocks
 which can be used for rigging (where bones and objects can have custom properties driving other properties),
 and Python scripts, where it's common to define new settings not available in Blender.
@@ -16,10 +22,6 @@ Only certain data supports custom properties:
 To add a custom property, find the *Custom Properties* panel,
 found at the bottom of most :doc:`Properties Editor </editors/properties_editor>`, and hit *Add*.
 
-.. figure:: /images/data_custom_properties_add.png
-
-   Custom Properties Panel.
-
 
 Editing Properties
 ==================
@@ -29,7 +31,8 @@ User Interface
 
 Custom properties can be edited using the panel available for data types that support it.
 
-.. figure:: /images/data_custom_properties_edit.png
+.. figure:: /images/data-system_custom-properties_edit.png
+   :align: right
 
    Custom Properties Edit Region.
 

@@ -1,9 +1,9 @@
 
 .. |prop-edit-icon| image::
-   /images/editors_3dview_transform-control_proportional-edit-header-icon.png
+   /images/editors_3dview_object_transform-control_proportional-edit_header-object-mode.png
 
 .. |prop-edit-edit-mode-icon| image::
-   /images/editors_3dview_transform-control_proportional-edit-header-icon-edit-mode.jpg
+   /images/editors_3dview_object_transform-control_proportional-edit_header-edit-mode.png
 
 
 *****************

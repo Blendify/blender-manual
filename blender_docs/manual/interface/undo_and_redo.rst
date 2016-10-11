@@ -67,7 +67,7 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 Undo History
 ============
 
-.. figure:: /images/interface_undo-redo_history.png
+.. figure:: /images/interface_undo-and-redo_undo-history-menu.png
    :align: right
 
    The Undo History Menu.
@@ -111,7 +111,7 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 Repeat History
 ==============
 
-.. figure:: /images/interface_undo-redo_repeat.jpg
+.. figure:: /images/interface_undo-and-redo_repeat-history-menu.png
    :align: right
 
    The Repeat Menu.

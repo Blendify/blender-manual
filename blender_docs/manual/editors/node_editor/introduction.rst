@@ -46,7 +46,7 @@ Header
 
 The *Header* contains various menus, buttons and options, partially based on the current node tree type.
 
-.. figure:: /images/editors_node_header.png
+.. figure:: /images/editors_node-editor_introduction_header.png
 
    Common Node Header Options.
 
