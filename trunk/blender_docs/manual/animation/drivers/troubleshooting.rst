@@ -9,11 +9,11 @@ Some common problems people may run into when using drivers.
 Scripted Expression
 ===================
 
-.. figure:: /images/drivers_auto_run_b.png
+.. figure:: /images/animation_drivers_troubleshooting_autorun-graph-editor.png
 
    :menuselection:`Graph Editor --> Properties --> Drivers`
 
-.. figure:: /images/drivers_auto_run_a.png
+.. figure:: /images/animation_drivers_troubleshooting_autorun-info-header.png
 
    Info Header.
 
@@ -24,12 +24,13 @@ If using a *Scripted Expression* Driver Type, you will have to open the file as 
 or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --> Auto Execution`.
 
 .. list-table::
+   :widths: 40 60
 
-   * - .. figure:: /images/drivers_auto_run_c.png
+   * - .. figure:: /images/animation_drivers_troubleshooting_autorun-file-browser.png
 
           File Browser.
 
-     - .. figure:: /images/drivers_auto_run_d.png
+     - .. figure:: /images/animation_drivers_troubleshooting_autorun-user-preference.png
 
           :menuselection:`User Preference --> File --> Auto Execution`
 

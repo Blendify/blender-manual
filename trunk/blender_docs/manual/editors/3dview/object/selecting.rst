@@ -177,7 +177,7 @@ Select Grouped
    | Menu:     :menuselection:`Select --> Grouped`
    | Hotkey:   :kbd:`Shift-G`
 
-.. figure:: /images/editors_3dview_selecting_grouped.png
+.. figure:: /images/editors_3dview_object_selecting_select-grouped-menu.png
    :align: right
 
    Select Grouped menu.

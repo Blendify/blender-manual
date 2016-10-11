@@ -5,7 +5,7 @@ Toggle & Radio Buttons
 Checkboxes & Toggle Buttons
 ===========================
 
-.. figure:: /images/interface_checkbox_toggle.png
+.. figure:: /images/interface_controls_buttons_toggle-radio_checkbox.png
    :align: right
 
    Toggle Buttons.
@@ -33,7 +33,7 @@ This works for checkboxes, toggles and to select a radio button value.
 Radio Buttons
 =============
 
-.. figure:: /images/interface_radiobutton.jpg
+.. figure:: /images/interface_controls_buttons_toggle-radio_radio.png
    :align: right
 
    Radio Buttons.

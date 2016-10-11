@@ -5,9 +5,8 @@
 Texture Influence
 *****************
 
-.. figure:: /images/physics_particle_texture_influence.jpg
+.. figure:: /images/physics_particles_texture-influence_panel.png
    :align: right
-   :width: 300px
 
    Texture influence settings.
 

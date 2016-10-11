@@ -12,7 +12,7 @@ The first is the preview mode, this can be enable by hitting the texture button 
 Several options in the header allow you change the editor
 to display the sequence in real time, and in various ways.
 
-.. figure:: /images/editors_sequencer_view_header.png
+.. figure:: /images/editors_sequencer_display-modes_header.png
 
    Sequencer Display Header.
 
