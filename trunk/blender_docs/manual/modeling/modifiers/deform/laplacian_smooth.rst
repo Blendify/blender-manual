@@ -17,8 +17,7 @@ The Laplacian Smooth modifier is based on a curvature flow Laplace Beltrami oper
 Options
 =======
 
-.. figure:: /images/apinzonf_diagram_modifier_panel.png
-   :width: 369px
+.. figure:: /images/modeling_modifiers_deform_laplacian-smooth_panel.png
 
    Laplacian Smooth modifier.
 

@@ -25,7 +25,6 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 
 .. figure:: /images/multiview_workflow_1.png
    :width: 1213px
-   :figwidth: 700px
 
    Turn Table Creature Factory 2.
 
@@ -33,13 +32,9 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 Views Setup
 ===========
 
-Go to the Render Layers panel and enable *Views* for this scene.
+Go to the :doc:`Render Layers </render/post_process/layers>` panel and enable *Views* for this scene.
 
-.. Go to the Render layers panel and enable :guilabel:`Views` for this scene.
-
-.. figure:: /images/multiview_workflow_2.png
-   :width: 270px
-   :figwidth: 270px
+.. figure:: /images/render_workflows_multiview_views-panel.png
 
    Scene Render Views.
 
@@ -50,7 +45,6 @@ Go to the Render Layers panel and enable *Views* for this scene.
 
 .. figure:: /images/multiview_workflow_3.png
    :width: 1213px
-   :figwidth: 700px
 
    Viewport with 3D visualization.
 
@@ -63,9 +57,7 @@ In the Camera panel go to the Stereoscopy tab and change the *Convergence Distan
 
 The viewport will respond in real-time to those changes allowing you to preview the current depth value of the scene.
 
-.. figure:: /images/multiview_workflow_4.png
-   :width: 468px
-   :figwidth: 247px
+.. figure:: /images/render_workflows_multiview_camera-stereoscopy-panel.png
 
    Stereo Convergence Distance.
 
@@ -81,8 +73,7 @@ You can toggle this and other display settings in the Stereoscopy panel of the 3
 In the following image, the cameras frustum volumes are also visible.
 
 .. figure:: /images/multiview_workflow_5.png
-   :width: 1036px
-   :figwidth: 700px
+   :width: 700px
 
    Viewport Plane and Volume Stereo Preview.
 
@@ -104,7 +95,6 @@ OpenGL Preview
 
 .. figure:: /images/multiview_workflow_6.gif
    :width: 300px
-   :figwidth: 300px
    :align: right
 
    Turn Table OpenGL Rendering Preview.
@@ -197,9 +187,7 @@ on-the-fly and used for rendering and previsualization.
 For all the purposes this works as two cameras that share most parameters (focal length, clipping, ...).
 The stereo pair, however, is offsetted, and can have unique rotation and shift between itself.
 
-.. figure:: /images/multiview_camera.png
-   :width: 473px
-   :figwidth: 300px
+.. figure:: /images/render_workflows_multiview_camera-stereoscopy-panel.png
 
    Stereo 3D Camera Settings.
 
@@ -241,9 +229,7 @@ When you enable 'Views' in the Render Layer panel, a new area is available in th
 In this panel you can pick whether to see the stereo 3D in the viewport, or which camera to see.
 It also allow you to see the Cameras, the Plane and the Volume of the stereo cameras.
 
-.. figure:: /images/multiview_viewport_settings.png
-   :width: 407px
-   :figwidth: 250px
+.. figure:: /images/render_workflows_multiview_3d-view-stereoscopy-panel.png
 
    Viewport Stereo 3D Settings.
 
@@ -266,8 +252,7 @@ Volume
    but are to be avoided at all costs in the positive space (the area from the convergence plane to the camera).
 
    .. figure:: /images/multiview_volume.png
-      :width: 538px
-      :figwidth: 402px
+      :width: 402px
 
       Viewport 3D: Convergence Plane and Volume Display.
 
@@ -314,8 +299,7 @@ View Menu
    This works for Viewer nodes, render results or opened images.
 
    .. figure:: /images/multiview_image_editor_header.png
-      :width: 1225px
-      :figwidth: 700px
+      :width: 700px
 
       Stereo 3D and View menu.
 
@@ -326,8 +310,7 @@ Views Format
    turning on Use Multi-View and picking the corresponding stereo method.
 
    .. figure:: /images/multiview_image_editor_stereo_3d.png
-      :width: 494px
-      :figwidth: 300px
+      :width: 300px
 
       Views Formats and Stereo 3D.
 
@@ -359,7 +342,6 @@ Switch View Node
 
    .. figure:: /images/multiview_compositor_switch_view.png
       :width: 320px
-      :figwidth: 200px
 
       Switch View Node.
 

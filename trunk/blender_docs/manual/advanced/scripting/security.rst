@@ -15,8 +15,9 @@ however, some blend-files need this to function properly.
 When a blend-file tries to execute a script and is not allowed, a message will appear in the
 header with the option to **Reload Trusted** or **Ignore** the message.
 
-.. figure:: /images/python_script_autoexec_header.jpg
-   :width: 800px
+.. figure:: /images/animation_drivers_troubleshooting_autorun-info-header.png
+
+   Info Header.
 
 
 Scripts in Blend Files
@@ -66,7 +67,7 @@ Setting Defaults
 ----------------
 
 In the *File* tab of the User Preferences,
-there is the toggle **Auto-Run Python Scripts**.
+there is the toggle **Auto Run Python Scripts**.
 
 This means the **Trusted Source** option in the File Browser will be enabled by default,
 and scripts can run when blend-files are loaded without using the File Browser.
@@ -74,8 +75,9 @@ and scripts can run when blend-files are loaded without using the File Browser.
 Once enabled you have the option to exclude certain directories,
 a typical configuration would be to trust all paths except for the download directory.
 
-.. figure:: /images/python_script_autoexec_configure.jpg
-   :width: 600px
+.. figure:: /images/animation_drivers_troubleshooting_autorun-user-preference.png
+
+   Auto Run Python Scripts
 
 
 Command Line

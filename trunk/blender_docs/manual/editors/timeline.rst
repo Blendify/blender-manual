@@ -315,7 +315,7 @@ Keyframe Type
    See :ref:`keyframe-type`.
 
 Active Keying Set
-   .. figure:: /images/editors_info_keying-sets.png
+   .. figure:: /images/editors_timeline_keying-sets.png
       :align: right
 
       Timeline Keying Sets.

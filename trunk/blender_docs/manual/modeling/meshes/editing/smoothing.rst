@@ -51,14 +51,16 @@ Smooth Shading
    | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
    | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Shade Smooth / Shade Flat`
 
-.. list-table::
+
+.. figure:: /images/modeling_meshes_editing_smoothing_shading-smooth-flat.png
+   :align: right
+
+   Shading buttons in Tool Shelf.
+
+.. figure:: /images/meshsmooth-example-03rrsmooth.jpg
+   :width: 220px
+
    Same mesh smooth shaded.
-
-   * - .. figure:: /images/meshsmooth-shading.jpg
-          :width: 80px
-
-     - .. figure:: /images/meshsmooth-example-03rrsmooth.jpg
-          :width: 220px
 
 
 The easiest way is to set an entire object as smooth or faceted by selecting a mesh object,
@@ -103,8 +105,9 @@ Auto Smooth
    * - .. figure:: /images/meshsmooth-example-04rrautosmooth.jpg
           :width: 180px
 
-     - .. figure:: /images/meshsmooth-autosmooth.png
-          :width: 180px
+     - .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
+
+          Normals panel with *Auto Smooth* enabled.
 
 
 It can be difficult to create certain combinations of smooth and solid faces using the above
