@@ -29,7 +29,7 @@ Rendered
 
 .. figure:: /images/render_cycles_materials_texture-editing_draw-modes.jpg
 
-   Material draw modes.
+   Material draw modes (Texture, Material, Rendered).
 
 
 Texture Properties

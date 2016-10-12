@@ -8,7 +8,9 @@ Object Data
 Normals
 =======
 
-.. figure:: /images/meshsmooth-autosmooth.png
+.. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
+
+   Normals panel
 
 
 Auto Smooth
@@ -17,6 +19,7 @@ Auto Smooth
 
    Angle
       Angle number button.
+
 Double Sided
    Lighting with positive normals on the backside of the mesh in the viewport (OpenGL).
 

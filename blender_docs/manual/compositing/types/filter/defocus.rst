@@ -118,9 +118,9 @@ The input has to be scaled, because usually the value of a texture is only in th
 Camera Settings
 ---------------
 
-.. figure:: /images/compositing-node-defocus_camera_settings.jpg
+.. figure:: /images/render_blender-render_camera_object-data_depth-of-field-panel.png
 
-   Dof Distance setting for the camera.
+   Distance setting in the Camera Depth of Field panel.
 
 
 The *Defocus* node uses the actual camera data in your scene if supplied by a

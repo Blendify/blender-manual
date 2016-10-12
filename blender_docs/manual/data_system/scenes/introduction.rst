@@ -10,7 +10,7 @@ Scene management and library appending/linking are based on Blender's
 :doc:`Library and Data System </data_system/index>`,
 so it is a good idea to read that manual page first, if you are not familiar with the basics of that system.
 
-.. figure:: /images/data_system_scene_menu.png
+.. figure:: /images/data-system_scenes_introduction.png
    :align: right
 
    Scene data-block menu.

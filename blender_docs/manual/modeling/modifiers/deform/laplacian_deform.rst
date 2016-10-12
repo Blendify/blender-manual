@@ -25,8 +25,9 @@ of a vertex based on its neighbors.
 Options
 =======
 
-.. figure:: /images/apinzonf_diagram_deform_modifier_panel_00.png
-   :width: 369px
+.. figure:: /images/modeling_modifiers_deform_laplacian-deform_panel.png
+
+   Laplacian Deform modifier
 
 
 Repeat

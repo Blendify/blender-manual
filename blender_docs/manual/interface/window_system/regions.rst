@@ -30,7 +30,7 @@ All editors have a header acting as a container for menus and commonly used tool
 the selected object and mode.
 
 
-.. figure:: /images/interface-window_system-headers-header_example.jpg
+.. figure:: /images/modeling_meshes_introduction_3d-view-header-object-mode.png
 
    The Header of the 3D View editor.
 

@@ -4,6 +4,12 @@
 Image Settings
 **************
 
+.. figure:: /images/editors_uv-image_image-settings_movie-image-panel.png
+   :align: right
+
+   Image panel.
+
+
 Image
    Data-block menu.
    
@@ -21,10 +27,6 @@ Single Image
 ------------
 
 Still image or a single frame.
-
-.. figure:: /images/texture-image-panel.jpg
-
-   Image panel for Single Image.
 
 
 Image Sequence
@@ -44,12 +46,8 @@ Movie
 
 Frames packed into a container.
 
-.. figure:: /images/texture-video-imagepanel.jpg
-
-   Image panel for video texture.
-
 Deinterlace
-   ..
+   TODO
 Fields
    Sets the number of fields per rendered frame (2 fields is 1 frame).
    Used with Fields and interlaced video,
@@ -78,11 +76,11 @@ Image generated in Blender or preloaded.
 
 .. list-table::
 
-   * - .. figure:: /images/texture-image-panel-generated.jpg
+   * - .. figure:: /images/editors_uv-image_image-settings_generated-image-panel.png
 
           Image panel for Generated source.
 
-     - .. figure:: /images/texture-uv-layout-testgrid.jpg
+     - .. figure:: /images/editors_uv-image_image-settings_generated-new-image.png
 
           The New Image pop-up menu.
 
@@ -138,7 +136,7 @@ Color Space
 View as Render
    Apply render part of display transformation when displaying this image on the screen.
 Use Multi-View
-   ..
+   See :doc:`Multi-View </render/workflows/multiview/index>`.
 Use Alpha
    Determines whether the alpha channel of the image is used.
 
@@ -153,6 +151,5 @@ Fields
    This option ensures that when fields are rendered,
    the correct field of the image is used in the correct field of the rendering.
    *MIP Mapping* cannot be combined with *Fields*. Order of video fields:
-   
-   Upper First, Lower First.
 
+   Upper First, Lower First.

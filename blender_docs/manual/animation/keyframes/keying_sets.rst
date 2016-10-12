@@ -3,7 +3,7 @@
 Keying Sets
 ***********
 
-.. figure:: /images/editors_info_keying-sets.png
+.. figure:: /images/editors_timeline_keying-sets.png
    :align: right
 
    Timeline Keying Sets.
@@ -30,7 +30,7 @@ Keying Set Panel
 
 This panel is used to add, select, manage *Absolute Keying Sets*.
 
-.. figure:: /images/animation_keyframes_keying_set_panel.png
+.. figure:: /images/animation_keyframes_keying-sets_scene-keying-set-panel.png
 
    :menuselection:`Properties --> Scene --> Keying Set Panel`
 
@@ -68,11 +68,11 @@ Active Keying Set Panel
 
 This panel is used to add properties to the active Keying Set.
 
-.. figure:: /images/animation_keyframes_keying_set_active_panel.png
+.. figure:: /images/animation_keyframes_keying-sets_scene-active-keying-set-panel.png
 
    :menuselection:`Properties --> Scene --> Active Keying Set Panel`
 
-.. figure:: /images/animation_keyframes_keying_set_group.png
+.. figure:: /images/animation_keyframes_keying-sets_graph-editor.png
 
    :menuselection:`Properties --> Graph Editor --> Channels, Named Group`
 

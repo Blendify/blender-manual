@@ -77,10 +77,7 @@ Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the di
 
    If you want to make changes to an object in the new linked duplicate independently of the original object,
    you will have to manually make the object a "single-user" copy by :kbd:`LMB`
-   the number in the *Object Data* panel of the Properties editor.
-
-   .. figure:: /images/editors_3dview_objects_transform_dublication_singleuser.jpg
-      :align: center
+   the number in the *Object Data* panel of the Properties editor. (See :ref:`ui-data-block`.)
 
 
 .. _expl-object-link-duplicate:

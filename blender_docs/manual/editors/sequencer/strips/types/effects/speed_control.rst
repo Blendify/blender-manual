@@ -43,9 +43,10 @@ That is it, set your render to animate (in this example) all 550 frames.
 Keyframing the Speed Control
 ============================
 
-.. figure:: /images/speed-control-keyframe-frame-number.png
+.. figure:: /images/editors_sequencer_strips_types_effects_speed-control_keyframing.png
+   :align: right
 
-   keyframing the Frame number.
+   Keyframing the Frame number.
 
 
 To get even finer control over your clip timing, you can use curves!

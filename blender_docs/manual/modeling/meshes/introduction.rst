@@ -42,7 +42,7 @@ Object Mode
 Operations in *Object Mode* affect the whole object.
 *Object Mode* has the following header in the 3D View:
 
-.. figure:: /images/modeling_meshes_modes_object.png
+.. figure:: /images/modeling_meshes_introduction_3d-view-header-object-mode.png
 
    Object Mode Header.
 
@@ -54,7 +54,7 @@ Operations in *Edit Mode* affect only the geometry of an object,
 but not global properties such as location or rotation.
 *Edit Mode* has the following header in the 3D View:
 
-.. figure:: /images/modeling_meshes_modes_edit.png
+.. figure:: /images/modeling_meshes_introduction_3d-view-header-edit-mode.png
 
    Edit Mode Header.
 
