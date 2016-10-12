@@ -4,8 +4,8 @@
 Introduction
 ************
 
-
 The Info Editor is found at the top of the Default Screen and has the following components.
+
 
 Header
 ======
@@ -14,9 +14,8 @@ Header
 
    Info Editor header.
 
-   Editor Type Selector (red), Menus (blue),
-   Screen Data-block (green), Scene Data-block (orange), Engine Selector (purple),
-   Resource Information (aqua).
+   Editor Type Selector (red), Menus (blue), Screen Data-block (green),
+   Scene Data-block (orange), Engine Selector (purple), Resource Information (aqua).
 
 Editor Type 
    Selector that allows you to change the :doc:`Editor Type </editors/index>`.
@@ -31,7 +30,7 @@ Scene
    :ref:`Data-block menu <ui-data-block>` to select different :doc:`Scenes </data_system/scenes/introduction>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with objects and/or mesh data linked between them.
-Engines
+Engine
    Gives a list of selectable render and game engines.
 Render/Baking progress
    A progressbar and a chancel button are shown while rendering or baking.

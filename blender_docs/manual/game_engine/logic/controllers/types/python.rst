@@ -4,13 +4,13 @@ Python Controller
 *****************
 
 The Python controller runs a Python script when a sensor triggers the controller.
-This Python script can interact with the scene or logic bricks through the
-:doc:`Blender game engine API </game_engine/python_api/index>`.
+This Python script can interact with the scene or logic bricks through
+:doc:`Blender's API </game_engine/python_api/index>`.
 
 A Python script can either run as an entire file or a single module.
-A file must be added in the text editor, and is identified simply by its name, not its path. Names are case sensitive.
-Modules are identified by the file name *without* the extension followed by a ``.`` and then the name of the module.
-For example:
+A file must be added in the text editor, and is identified simply by its name, not its path.
+Names are case sensitive. Modules are identified by the file name *without* the extension followed by a ``.``
+and then the name of the module. For example:
 
 A file ``myscript.py`` contains::
 
@@ -37,9 +37,12 @@ Type
 Name
    The name of the file to be loaded.
 D (Use Debug)
-   Continuously reload the file.
+   Continuously reloads the file.
 
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.
 
-More information on the Python API can be found :doc:`here </game_engine/python_api/index>`.
+.. seealso:: For more information on the Python API see:
+
+   - `The API docs <https://www.blender.org/api/blender_python_api_current/>`__
+   - :doc:`This chapter for more Game Engine related API </game_engine/python_api/index>`.

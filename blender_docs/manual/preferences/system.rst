@@ -18,16 +18,13 @@ DPI
    During typical usage, you may prefer to use zoom which is an available in many parts of Blender interface.
 Virtual Pixel Mode
    Allows you to select global scaling. While the DPI only scales the interface,
-   this will scale line width, vertex-size. This is intended for hi-dpi monitors.
+   this will scale line width, vertex-size. This is intended for hi-dpi monitors,
+   and is auto-detected on macOS.
 
    Native
       The normal pixel size.
    Double
       Double of the native pixel size.
-
-   .. note::
-
-      This is auto-detected on OSX.
 
 Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.

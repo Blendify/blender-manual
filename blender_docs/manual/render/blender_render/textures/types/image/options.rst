@@ -95,15 +95,15 @@ MIP Map
    `MIP Maps <https://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, smaller,
    filtered Textures for a certain size. A series of pictures is generated, each half the size of the former one.
    This optimizes the filtering process. By default, this option is enabled and speeds up rendering
-   (especially useful in the game engine). When this option is OFF, you generally get a sharper image,
-   but this can significantly increase calculation time if the filter dimension (see below) becomes large.
-   Without MIP Maps you may get varying pictures from slightly different camera angles,
+   (especially useful in the :doc:`Game Engine </game_engine/index>`). When this option is OFF,
+   you generally get a sharper image, but this can significantly increase calculation time if the filter dimension
+   (see below) becomes large. Without MIP Maps you may get varying pictures from slightly different camera angles,
    when the Textures become very small. This would be noticeable in an animation.
 
    MIP Map Gaussian filter
       Used in conjunction with MIP Map, it enables the MIP Map to be made smaller based on color similarities.
-      In the game engine, you want your textures, especially your MIP Map textures,
-      to be as small as possible to increase rendering speed and frame rate.
+      In the :doc:`Game Engine </game_engine/index>`, you want your textures,
+      especially your MIP Map textures, to be as small as possible to increase rendering speed and frame rate.
 
 Interpolation
    This option interpolates the pixels of an image.

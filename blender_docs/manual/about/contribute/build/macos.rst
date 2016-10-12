@@ -1,8 +1,8 @@
 .. highlight:: sh
 
-***************
-Building on OSX
-***************
+*****************
+Building on macOS
+*****************
 
 Converting the rst files into pretty html pages.
 

@@ -19,9 +19,7 @@ Usage
 The upper text field displays the current directory path,
 and the lower text field contains the selected filename.
 
-.. warning::
-
-   For Linux and Mac-OSX users:
+.. warning:: For Linux and macOS users:
 
    When exiting you are **not** asked to save unsaved changes to the scene you were previously working on.
    So take care to save your work.

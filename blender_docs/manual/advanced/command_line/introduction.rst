@@ -1,3 +1,4 @@
+.. Information here should be shorter. For example, We do not need to explain what an .app is.
 
 ************
 Introduction
@@ -41,21 +42,21 @@ This screenshot shows Blender started from a Linux Terminal and the
 resulting console text being printed to it.
 
 
-Mac OSX
--------
+macOS
+-----
 
 .. figure:: /images/interface-window_system-console-mac.png
    :align: right
    :width: 360px
 
-   Starting Blender from a Mac OSX console window.
+   Starting Blender from a macOS console window.
 
 
-Mac-OSX uses "files" with the ``.app`` extension called *applications*.
+macOS uses "files" with the ``.app`` extension called *applications*.
 These files are actually folders that appear as files in Finder.
 In order to run Blender you will have to specify that path to the Blender executable inside this folder,
 to get all output printed to the terminal.
-You can start a terminal from Applications --> Utilities.
+You can start a terminal from :menuselection:`Applications --> Utilities`.
 The path to the executable in the ``.app`` folder is ``./blender.app/Contents/MacOS/blender``.
 
 If you have Blender installed in the Applications folder,
