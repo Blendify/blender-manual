@@ -97,7 +97,7 @@ This is the list of image file formats supported internally by Blender:
 
 .. note:: Quicktime
 
-   On OSX, Quicktime can be used to access file formats not natively supported (such as GIF).
+   On macOS, Quicktime can be used to access file formats not natively supported (such as GIF).
 
 
 Channel Depth

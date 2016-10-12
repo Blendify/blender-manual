@@ -12,5 +12,5 @@ The installation is different for each operating system, instructions have been 
    :maxdepth: 1
 
    Linux <linux.rst>
-   Mac OSX <osx.rst>
+   macOS <macos.rst>
    MS-Windows <windows.rst>

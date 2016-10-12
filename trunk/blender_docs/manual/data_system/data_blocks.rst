@@ -265,7 +265,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |tick|
      - | References to sound files.
-       | Used by speaker objects and the game-engine.
+       | Used by speaker objects and the Game Engine.
    * - Speaker
      - |tick|
      - |cross|

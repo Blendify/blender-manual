@@ -26,7 +26,7 @@ Most codecs can only compress the RGB or YUV color space,
 but some support the Alpha channel as well. Codecs that support RGBA include:
 
 - Quicktime
-- PNG TIFF Pixlet is not loss-less, and may be only available on Mac-OSX.
+- PNG TIFF Pixlet is not loss-less, and may be only available on macOS.
 - `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
 AVI Codec
@@ -52,7 +52,7 @@ Ogg Theora
    Encodes movies with the Theora codec as Ogg files.
 QuickTime
    Apple's Quicktime ``.mov`` file.
-   The Quicktime codec dialog is available when this codec is installed on OSX.
+   The Quicktime codec dialog is available when this codec is installed on macOS.
    See *Quicktime* in `Video Containers`_.
 Xvid
    Encodes movies with the Xvid codec.

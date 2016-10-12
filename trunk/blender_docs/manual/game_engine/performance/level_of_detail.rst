@@ -19,7 +19,7 @@ Settings
 
 .. note:: Modifiers on Level of Detail Objects
 
-   Any level of detail objects that have a modifier do not display correctly in the game engine.
+   Any level of detail objects that have a modifier do not display correctly in the Game Engine.
    You will need to apply any modifiers for level of detail objects to appear correctly.
    A fix for this is being looked into.
 

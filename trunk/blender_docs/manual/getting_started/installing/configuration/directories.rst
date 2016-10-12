@@ -50,8 +50,8 @@ SYSTEM
    .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
 
 
-Mac OSX
--------
+macOS
+-----
 
 LOCAL
    .. parsed-literal:: ./|BLENDER_VERSION|/
@@ -61,7 +61,8 @@ SYSTEM
    .. parsed-literal:: /Library/Application Support/Blender/|BLENDER_VERSION|/
 
 .. note::
-   OSX stores the Blender binary in ``./blender.app/Contents/MacOS/blender``,
+
+   macOS stores the Blender binary in ``./blender.app/Contents/MacOS/blender``,
    so the local path to data & config is:
 
    .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/

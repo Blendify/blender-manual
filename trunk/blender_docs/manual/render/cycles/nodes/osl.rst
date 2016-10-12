@@ -43,7 +43,7 @@ Linux
    .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/shaders/
 MS-Windows
    .. parsed-literal:: C:\\Users\\$user\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\shaders\\
-Mac OSX
+macOS
    .. parsed-literal:: /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/shaders/
 
 .. tip::

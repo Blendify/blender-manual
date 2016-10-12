@@ -3,8 +3,8 @@
 Introduction
 ************
 
-Game Logic is the default scripting layer in the game engine.
-Each Game Object in the game may store a collection of logical components (Logic Bricks)
+*Game Logic* is the default scripting layer in the Game Engine.
+Each *Game Object* in the game may store a collection of logical components (Logic Bricks)
 which control its behavior within the scene. Logic bricks can be combined to perform
 user-defined actions that determine the progression of the simulation.
 
@@ -22,8 +22,8 @@ these can be tweaked and combined to create the game/application. There are thre
 Sensors are primitive event listeners, which are triggered by specific events, such as a collision,
 a key press or mouse movement. Controllers carry out logic operations on sensor output,
 and trigger connected actuators when their operating conditions are met.
-Actuators interact with the simulation directly, and are the only components in the game which are able to do so
-(other than the Python controller, and other simulation components such as Physics).
+Actuators interact with the simulation directly, and are the only components in the game which
+are able to do so (other than the Python controller, and other simulation components such as Physics).
 
 
 Properties

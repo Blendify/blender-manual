@@ -62,8 +62,8 @@ If you have Blender installed in your ``PATH``
    blender
 
 
-Mac OSX
--------
+macOS
+-----
 
 Open the terminal application, go to the directory where Blender is installed,
 and run the executable within the app bundle, with commands like this:

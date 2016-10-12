@@ -4,7 +4,7 @@ Scripting & Security
 ********************
 
 The ability to include Python scripts within blend-files is valuable for advanced tasks such
-as rigging, automation and using the game-engine.
+as rigging, automation and using the Game Engine.
 However, it poses a security risk since Python does not restrict what a script can do.
 
 Therefore, you should only run scripts from sources you know and trust.
@@ -46,7 +46,7 @@ but you should be aware that this is the case since it is not necessarily obviou
 
 - Running a script in the text editor.
 - Rendering with FreeStyle, because FreeStyle uses scripts to control line styles.
-- Running the Game-Engine.
+- Running the Game Engine.
 
 
 Controlling Script Execution

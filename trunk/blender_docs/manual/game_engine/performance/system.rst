@@ -26,8 +26,8 @@ Display Lists
    This can help to speed up viewport rendering during the game if
    you have enough GPU memory to allocate geometry and textures.
 Restrict Animation Updates
-   When checked, this will force Blender game engine to discard frames (even at the middle of redrawing,
+   When checked, this will force the Game Engine to discard frames (even at the middle of redrawing,
    sometimes causing *tearing* artifacts) if the rate of frame rendered
    by the GPU is greater than the specified at the :doc:`Display </game_engine/performance/display>` Tab.
 Exit Key
-   Clicking at this button will ask the user to type a key to specify a key to stop the game engine from running.
+   Clicking at this button will ask the user to type a key to specify a key to stop the Game Engine from running.

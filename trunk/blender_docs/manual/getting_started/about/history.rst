@@ -84,7 +84,7 @@ The start!
 - 2.10 -- December 2000: New engine, physics, and Python.
 - 2.20 -- August 2001: Character animation system.
 - 2.21 -- October 2001: Blender Publisher launch.
-- 2.2x -- December 2001: Mac OSX version.
+- 2.2x -- December 2001: macOS version.
 
 
 Blender goes Open Source
@@ -119,7 +119,7 @@ Blender goes Open Source
 - `2.40 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.40>`__ -- December 2005:
   Full rework of armature system, shape keys, fur with particles, fluids, and rigid bodies.
 - `2.41 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.41>`__ -- January 2006:
-  Lots of fixes, and some game engine features.
+  Lots of fixes, and some Game Engine features.
 - `2.42 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.42>`__ -- July 2006:
   The nodes release, array modifier, vector blur, new physics engine, rendering, lip sync, and many other features.
   This was the release following `Project Orange <https://orange.blender.org/>`__.
