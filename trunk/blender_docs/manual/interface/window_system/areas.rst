@@ -82,17 +82,41 @@ and releasing the mouse there. The two areas do not need to be side by side,
 though they must be inside the same window.
 
 
-Maximizing
-==========
+Duplicate Area into new Window
+==============================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`View --> Duplicate Area into new Window`
+
+The new window is a fully functional window, which is part of the same instance of Blender.
+This can be useful, i.e. if you have multiple monitors.
+
+A new window can be created from :menuselection:`View --> Duplicate Area into new Window`.
+
+You can also create a new window from an existing area by :kbd:`Shift-LMB`
+on the area splitter widget, then drag slightly.
+
+The window can be closed with the OS *Close Window* button.
+
+
+Toggle Maximize Area
+====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`View --> Toggle Maximize Area`
+   | Hotkey:   :kbd:`Ctrl-Up`, :kbd:`Shift-Spacebar`
 
 The maximized area fill the whole application window.
 It contains the Info Editor and the select area.
 
 You can maximize an area with the
-:menuselection:`View --> Toggle Full Screen` menu entry.
-To return to normal size,
-use again :menuselection:`View --> Toggle Full Screen`.
-Or :kbd:`RMB` on the editors header and select *Maximize Area* and
+:menuselection:`View --> Toggle Maximize Area` menu entry.
+To return to normal size use again menu entry,
+or :kbd:`RMB` on the editors header and select *Maximize Area* and
 *Tiled Area* to return.
 In the Info Editor header the *Back to Previous* button on the right of the menus
 also returns to tiled areas.
@@ -106,15 +130,14 @@ A quicker way to achieve this is to use the shortcuts: :kbd:`Shift-Spacebar`,
    the keyboard shortcuts.
 
 
-Opening New Windows
-===================
+Toggle Fullscreen Area
+======================
 
-The new window is a fully functional window, which is part of the same instance of Blender.
-This can be useful, i.e. if you have multiple monitors.
+.. admonition:: Reference
+   :class: refbox
 
-A new window can be created from :menuselection:`View --> Duplicate Area into new Window`.
+   | Menu:     :menuselection:`View --> Toggle Full Screen`
+   | Hotkey:   :kbd:`Alt-F10`
 
-You can also create a new window from an existing area by :kbd:`Shift-LMB`
-on the area splitter widget, then drag slightly.
-
-The window can be closed with the OS *Close Window* button.
+The fullscreen area contains only the main region (without the header).
+To exit the fullscreen use the shortcut :kbd:`Alt-F10`.
