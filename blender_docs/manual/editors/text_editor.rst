@@ -37,9 +37,11 @@ Show
    The following three buttons toggle display options.
 
    Line numbers, word-wrap text, syntax highlighting
+
+.. _editors-text-run-script:
+
 Run Script/ Script Node Update
-   Executes the text as a Python script :kbd:`Alt-P`.
-   See `Script and Templates`_.
+   Executes the text as a Python script :kbd:`Alt-P`. See `Script and Templates`_.
 Register
    Todo.
 Label
