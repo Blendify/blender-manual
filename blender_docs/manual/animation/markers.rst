@@ -79,10 +79,9 @@ The *Video Sequence Editor* just adds a vertical dashed line to each marker
 
    Marker in a 3D View.
 
-The View does not allow you to create, edit, and remove markers,
-they just show their name between ``<>`` at their bottom left corner,
-near the active object's name, when you are at their frame
-(see Marker in a 3D View).
+The 3D View does not allow you to create, edit, and remove markers,
+it just show their name in the Object Info in the bottom left corner,
+when on their frame (see Marker in a 3D View).
 
 .. container:: lead
 
@@ -97,7 +96,7 @@ Pose Markers
 
    Pose markers in the Action Editor.
 
-Pose markers show a diamond-shaped icon.
+Pose markers show a diamond-shaped icon in the Dope Sheet.
 In the NLA editor the pose marker are shown as a red dashed line.
 
 .. container:: lead
@@ -221,10 +220,10 @@ Grab/Move Marker
 
 
 Once you have one or more markers selected, press :kbd:`G`,
-while hovering with the mouse over the marker (bar),
+while hovering with the mouse over the marker bar,
 to move them, and confirm the move with :kbd:`LMB` or :kbd:`Return`
 (as usual, cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
-Or drag it with :kbd:`RMB`.
+Or drag them with the :kbd:`RMB`.
 
 By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`,
 the markers will move in steps corresponding to one second (according to the scenes *FPS*).
