@@ -15,6 +15,7 @@
 
 import sys
 import os
+import sphinx_rtd_theme
 
 mathjax_path="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
@@ -147,30 +148,20 @@ highlight_language = 'python3'
 
 
 # -- Options for HTML output ---------------------------------------------------
-
-# use https://read-the-docs.readthedocs.org/en/latest/theme.html if available.
-try:
-    import sphinx_rtd_theme
-except ImportError:
-    sphinx_rtd_theme = None
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-if sphinx_rtd_theme:
-    html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-if sphinx_rtd_theme:
-    html_theme_options = {
-        # included in the title
-        "display_version": False,
-        }
+html_theme_options = {
+    # included in the title
+    "display_version": False,
+    }
 
 # Add any paths that contain custom themes here, relative to this directory.
-if sphinx_rtd_theme:
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
