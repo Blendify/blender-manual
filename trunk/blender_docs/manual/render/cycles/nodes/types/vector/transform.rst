@@ -3,6 +3,12 @@
 Vector Transform Node
 *********************
 
+.. figure:: /images/render_blender-render_materials_nodes_vector_transform.png
+   :align: right
+
+   Vector Transform node.
+
+
 The *Vector Transform* node allows converting a Vector,
 Point or Normal between World <=> Camera <=> Object coordinate space.
 

@@ -8,7 +8,6 @@ Mix Node
 
 .. figure:: /images/compositing_nodes_color_mix.png
    :align: right
-   :width: 150px
 
    Mix Node.
 

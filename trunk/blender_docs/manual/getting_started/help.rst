@@ -74,7 +74,6 @@ The same links can also be found in the :ref:`splash`.
    and have a connection to the Internet.
 
 .. figure:: /images/getting_started-help_menu.png
-   :width: 165px
    :align: right
 
    Help Menu.
