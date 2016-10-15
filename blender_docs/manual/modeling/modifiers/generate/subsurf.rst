@@ -137,7 +137,7 @@ A higher value makes the edge "stronger" and more resistant to the smoothing eff
 Edge Loops
 ----------
 
-.. figure:: /images/cubewithedgeloops.jpg
+.. figure:: /images/cubewithedgeloops.png
 
    Subdivision Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 

@@ -6,9 +6,8 @@
 Hue Saturation Value Node
 *************************
 
-.. figure:: /images/compositing_nodes_hsv.png
+.. figure:: /images/compositing_nodes_color_hue-saturation-value.png
    :align: right
-   :width: 150px
 
    Hue Saturation Node.
 
@@ -80,6 +79,6 @@ HSV Example
 ===========
 
 .. figure:: /images/compositing_nodes_color_hue-saturation_example.jpg
-   :width: 600px
+   :width: 700px
 
    A basic example.

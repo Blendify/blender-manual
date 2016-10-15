@@ -4,9 +4,8 @@
 Alpha Over Node
 ***************
 
-.. figure:: /images/compositing_nodes_alphaover.png
+.. figure:: /images/compositing_nodes_color_alpha-over.png
    :align: right
-   :width: 150px
 
    Alpha Over Node.
 

@@ -1,3 +1,6 @@
+.. TODO. Wrong description in the section "In Edit Mode".
+   Whether the last example image is informative?
+
 .. |pivot-icon| image:: /images/editors_3dview_object_transform-control_pivot-point.png
 
 ******************
@@ -15,8 +18,7 @@ Individual Origins
 In Object Mode
 ==============
 
-.. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-around-center.jpg
-   :width: 300px
+.. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-around-center.png
 
    Rotation around individual origins.
 
@@ -40,6 +42,14 @@ Now let us examine: Rotation around the individual origins:
   the center of each object (indicated by the red arrow)
   remains in place while the object rotates around it in the path shown by the black arrow.
 
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_individual-origins_objects-rotate.png
+
+   Rotation around individual origins (middle) compared to the median point (right).
+
+.. figure:: /images/editors_3dview_object_transform-control_pivot-point_individual-origins_objects-scale.png
+
+   Scaling around individual origins (middle) compared to the median point (right).
+
 
 In Edit Mode
 ============
@@ -51,7 +61,7 @@ Using Individual Origins in Face mode produces the most predictable results.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform_control_individual.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-faces.png
           :width: 320px
 
           Rotation of individual faces with the pivot point indicated by the image text.
@@ -68,7 +78,7 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-individual-faces.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-individual-faces.png
           :width: 320px
 
           Scaling with non-touching faces.

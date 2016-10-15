@@ -298,8 +298,7 @@ View Menu
    the rendered result in the combined stereo 3D or to inspect the individual views.
    This works for Viewer nodes, render results or opened images.
 
-   .. figure:: /images/multiview_image_editor_header.png
-      :width: 700px
+   .. figure:: /images/render_workflows_multiview_image-editor-header.png
 
       Stereo 3D and View menu.
 
@@ -309,8 +308,7 @@ Views Format
    Blender should interpret the image by switching the mode to Stereo 3D,
    turning on Use Multi-View and picking the corresponding stereo method.
 
-   .. figure:: /images/multiview_image_editor_stereo_3d.png
-      :width: 300px
+   .. figure:: /images/render_workflows_multiview_image-editor-multi-view.png
 
       Views Formats and Stereo 3D.
 
@@ -340,8 +338,7 @@ Switch View Node
    If you need to treat the views separately you can use the Switch View node
    to combine the views before an output node.
 
-   .. figure:: /images/multiview_compositor_switch_view.png
-      :width: 320px
+   .. figure:: /images/compositing_nodes_converter_switch-view.png
 
       Switch View Node.
 

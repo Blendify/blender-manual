@@ -3,9 +3,8 @@
 Tone Map Node
 *************
 
-.. figure:: /images/compositing_nodes_tonemap.png
+.. figure:: /images/compositing_nodes_color_tone-map.png
    :align: right
-   :width: 150px
 
    Tone Map Node.
 

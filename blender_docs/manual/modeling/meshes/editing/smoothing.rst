@@ -11,13 +11,13 @@ Mesh Shading
    Note how edges are rendered differently.
    `Sample blend-file <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__.
 
-   * - .. figure:: /images/meshsmooth-example-2rrflat.jpg
+   * - .. figure:: /images/modeling_meshes_editing_smoothing_example-01-flat.png
           :width: 200px
 
-     - .. figure:: /images/meshsmooth-example-05edgesplit.jpg
+     - .. figure:: /images/modeling_meshes_editing_smoothing_example-04-edge-split.png
           :width: 200px
 
-     - .. figure:: /images/meshsmooth-example-10edgeloops.jpg
+     - .. figure:: /images/modeling_meshes_editing_smoothing_example-09-edge-loops.png
           :width: 200px
 
 
@@ -57,7 +57,7 @@ Smooth Shading
 
    Shading buttons in Tool Shelf.
 
-.. figure:: /images/meshsmooth-example-03rrsmooth.jpg
+.. figure:: /images/modeling_meshes_editing_smoothing_example-02-smooth.png
    :width: 220px
 
    Same mesh smooth shaded.
@@ -102,7 +102,7 @@ Auto Smooth
 
 .. list-table:: Example mesh with *Auto Smooth* enabled.
 
-   * - .. figure:: /images/meshsmooth-example-04rrautosmooth.jpg
+   * - .. figure:: /images/modeling_meshes_editing_smoothing_example-03-auto-smooth.png
           :width: 180px
 
      - .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
@@ -126,17 +126,17 @@ based on angle. Those Angles are marked as sharp.
 
 .. list-table::
 
-   * - .. figure:: /images/meshsmooth-example-05edgesplit.jpg
+   * - .. figure:: /images/modeling_meshes_editing_smoothing_example-04-edge-split.png
           :width: 200px
 
           Edge Split modifier enabled, based on angle.
 
-     - .. figure:: /images/meshsmooth-example-07marksharp.jpg
+     - .. figure:: /images/modeling_meshes_editing_smoothing_example-06-mark-sharp.png
           :width: 200px
 
           Edges marked as sharp.
 
-     - .. figure:: /images/meshsmooth-example-06marksharp.jpg
+     - .. figure:: /images/modeling_meshes_editing_smoothing_example-05-mark-sharp.png
           :width: 200px
 
           Resulting render with sharp edge weighting.
@@ -191,22 +191,22 @@ you can smooth the mesh non-destructively with one or several of the following m
 .. list-table::
    Example mesh with *Auto Smooth* enabled.
 
-   * - .. figure:: /images/meshsmooth-example-08subsurf.jpg
+   * - .. figure:: /images/modeling_meshes_editing_smoothing_example-07-subsurf.png
           :width: 320px
 
           Subdivision Surface.
 
-     - .. figure:: /images/meshsmooth-example-09edgecrease.jpg
+     - .. figure:: /images/modeling_meshes_editing_smoothing_example-08-edge-crease.png
           :width: 320px
 
           Using creased edges, and resulting subdivision artifacts.
 
-   * - .. figure:: /images/meshsmooth-example-10edgeloops.jpg
+   * - .. figure:: /images/modeling_meshes_editing_smoothing_example-09-edge-loops.png
           :width: 320px
 
           Extra edge loops added.
 
-     - .. figure:: /images/meshsmooth-example-11edgeloops.jpg
+     - .. figure:: /images/modeling_meshes_editing_smoothing_example-10-edge-loops.png
           :width: 320px
 
           3D View showing creased edges (pink) and added edges loops (yellow).

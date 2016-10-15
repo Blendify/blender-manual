@@ -58,5 +58,5 @@ After generating the sun beams from such a light source image they can then be o
 Usually, a simple "Add" mix node is sufficient,
 and physically correct because the scattered light adds to the final result.
 
-.. figure:: /images/composite_nodes_filter_sun_beams.png
-   :width: 450px
+.. figure:: /images/compositing_nodes_filter_sun-beams_example.jpg
+   :width: 400px

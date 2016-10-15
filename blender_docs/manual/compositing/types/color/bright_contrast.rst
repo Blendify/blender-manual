@@ -4,9 +4,8 @@
 Bright/Contrast Node
 ********************
 
-.. figure:: /images/compositing_nodes_brightcontrast.png
+.. figure:: /images/compositing_nodes_color_bright-contrast.png
    :align: right
-   :width: 150px
 
    Bright/Contrast Node.
 

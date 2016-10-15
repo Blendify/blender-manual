@@ -136,7 +136,7 @@ Normally you would use a linear blend texture for this.
 
           Fading a strand to alpha.
 
-     - .. figure:: /images/strandrenderfade.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_strands_fading.png
 
           The render result.
 

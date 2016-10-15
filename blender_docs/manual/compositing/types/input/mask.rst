@@ -48,6 +48,6 @@ Example
 In the example below the *Mask node* is used to define a rough outline of the island,
 where areas out side of the the island are dark, drawing the eye to the island.
 
-.. figure:: /images/compositing_input_mask_example.png
+.. figure:: /images/compositing_input_mask_example.jpg
 
    Example of the Mask Node.

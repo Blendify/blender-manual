@@ -3,9 +3,8 @@
 Switch View Node
 ****************
 
-.. figure:: /images/compositing_nodes_switchview.png
+.. figure:: /images/compositing_nodes_converter_switch-view.png
    :align: right
-   :width: 150px
 
    Switch View Node.
 

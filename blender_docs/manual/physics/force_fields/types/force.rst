@@ -3,8 +3,7 @@
 Force
 *****
 
-.. figure:: /images/force_field_type_force.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-4_force.png
 
    Force force field.
 
@@ -14,7 +13,6 @@ Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
 .. figure:: /images/force_field_panel_force.jpg
-   :width: 400px
 
    UI for a Force force field.
 

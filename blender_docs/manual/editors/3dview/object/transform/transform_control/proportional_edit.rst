@@ -66,7 +66,7 @@ situations like this the proportional editing tool can be used to smoothly defor
 of the model.
 This is done by the tool's automatic modification of unselected vertices within a given range.
 
-.. figure:: /images/editors_3dview_transform-control_proportional-edit-edit-mode.jpg
+.. figure:: /images/editors_3dview_transform-control_proportional-edit-edit-mode.png
 
    Proportional editing in Edit Mode.
 
@@ -109,7 +109,7 @@ Enable :kbd:`O`, :kbd:`Alt-O`
 Projected (2D)
    Depth along the view is ignored when applying the radius.
 
-   .. figure:: /images/editors_3dview_transform-control_proportional-edit-2d_compare.jpg
+   .. figure:: /images/editors_3dview_transform-control_proportional-edit-2d_compare.png
       :width: 400px
 
       The difference between regular and Projected (2D) proportional option (right).

@@ -3,8 +3,7 @@
 Turbulence
 **********
 
-.. figure:: /images/force_field_type_turbulence.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
 
    Turbulence force field.
 
@@ -12,7 +11,6 @@ A *Turbulence* force field creates a random & chaotic 3D noise effect,
 similar to jets of water or geysers under the ocean.
 
 .. figure:: /images/force_field_panel_turbulence.jpg
-   :width: 400px
 
    UI for a Turbulence force field.
 

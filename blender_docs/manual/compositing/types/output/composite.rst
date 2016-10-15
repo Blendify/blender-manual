@@ -3,7 +3,7 @@
 Composite Node
 **************
 
-.. figure:: /images/compositing_nodes_composite.png
+.. figure:: /images/compositing_nodes_output_composite.png
    :align: right
 
    Composite Node.

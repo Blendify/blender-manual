@@ -17,7 +17,7 @@ known as bump mapping, or a combination of real and virtual displacement.
    It is also possible to use the both method by choosing *Displacement + Bump*
    in the :ref:`Material Setttings <cycles-materials-settings-displace>`.
 
-.. figure:: /images/cycles_materials_displacement_example.png
+.. figure:: /images/cycles_materials_displacement_example.jpg
 
    Subdivision Rate 2, Bump, True, Both
 

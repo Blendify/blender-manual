@@ -9,23 +9,25 @@ You can enhance the colors of a single image or an entire movie clip in a static
 dynamic way that changes over time (as the clip progresses). In this way,
 you use composition nodes to both assemble video clips together and enhance them.
 
-
 .. note:: Term: Image
 
    The term *Image* may refer to a single picture, a picture in
    a numbered sequence of images, or a frame of a movie clip.
    The Compositor processes one image at a time, no matter what kind of input you provide.
 
-.. figure:: /images/editors_node_example.png
-
-   An example of Composition.
-
 
 To process your image, you use nodes to import the image into Blender, change it,
 optionally merge it with other images, and finally, save it.
 
-The example to the right shows the simplest node setup;
-an input node links the camera view to an output node so it can be saved.
+.. figure:: /images/compositing_nodes_distort_map-uv_example-2.png
+   :width: 700px
+
+   An example of Composition.
+
+.. figure:: /images/compositing_nodes_color_hue-saturation_example.jpg
+   :width: 700px
+
+   An example of color correction.
 
 
 Getting Started
@@ -72,7 +74,7 @@ Auto Render
 Backdrop
 --------
 
-.. figure:: /images/compositing_backdrop.png
+.. figure:: /images/compositing_introduction_backdrop.png
    :align: right
 
    Backdrop Options.
@@ -91,7 +93,7 @@ Fit
 Performance
 -----------
 
-.. figure:: /images/composite_performance.png
+.. figure:: /images/compositing_introduction_performance.png
    :align: right
 
    Performance Settings.

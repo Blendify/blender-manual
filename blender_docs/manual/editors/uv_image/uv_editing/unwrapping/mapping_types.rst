@@ -252,8 +252,8 @@ Scale to Bounds
 Cylinder and Sphere Projection
 ==============================
 
-.. figure:: /images/texture-uv-sphereprojection.jpg
-   :width: 250px
+.. figure:: /images/texture-uv-sphereprojection.png
+   :width: 350px
 
    Using a Mercator image with a Sphere Projection.
 

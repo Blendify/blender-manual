@@ -95,13 +95,13 @@ you do **not** want any stretching (unless you want the cloth to look like spand
 
 .. list-table::
 
-   * - .. figure:: /images/texture-uv-layout-testgrid2.png
-          :width: 250px
+   * - .. figure:: /images/editors_uv-image_uv-editing_applying-image_test-grid-uvs.png
+          :width: 320px
 
           The test grid applied to the UVs.
 
-     - .. figure:: /images/texture-uv-layout-testgrid3.jpg
-          :width: 250px
+     - .. figure:: /images/editors_uv-image_uv-editing_applying-image_test-grid-geometry.png
+          :width: 320px
 
           A preview of the texture on the geometry.
 

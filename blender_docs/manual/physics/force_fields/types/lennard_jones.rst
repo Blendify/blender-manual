@@ -3,8 +3,7 @@
 Lennard Jones
 *************
 
-.. figure:: /images/force_field_type_harmonic.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
 
    Lennard Jones force field.
 
@@ -18,7 +17,6 @@ Particles can have for example both a charge and a Lennard-Jones potential,
 which is probably something for the nuclear physicists amongst us.
 
 .. figure:: /images/force_field_panel_ljones.jpg
-   :width: 400px
 
    UI for a Lennard Jones force field.
 

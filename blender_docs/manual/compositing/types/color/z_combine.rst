@@ -3,9 +3,8 @@
 Z-Combine Node
 **************
 
-.. figure:: /images/compositing_nodes_zcombine.png
+.. figure:: /images/compositing_nodes_color_z-combine.png
    :align: right
-   :width: 150px
 
    Z Combine Node.
 

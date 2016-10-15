@@ -3,8 +3,7 @@
 Boid
 ****
 
-.. figure:: /images/force_field_type_boid.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
 
    Boid force field.
 
@@ -18,7 +17,6 @@ the complexity of Boids arises from the interaction of individual agents (the bo
 in this case) adhering to a set of simple rules.
 
 .. figure:: /images/force_field_panel_boid.jpg
-   :width: 400px
 
    UI for a Boid force field.
 

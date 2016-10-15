@@ -178,7 +178,7 @@ Curve controls
 Channels Region
 ===============
 
-.. figure:: /images/graph_channels.png
+.. figure:: /images/editors_graph-editor_introduction_channels-region.png
 
    Channels Region.
 

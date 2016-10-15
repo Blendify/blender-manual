@@ -6,9 +6,8 @@
 Invert Node
 ***********
 
-.. figure:: /images/compositing_nodes_invert.png
+.. figure:: /images/compositing_nodes_color_invert.png
    :align: right
-   :width: 150px
 
    Invert Node.
 

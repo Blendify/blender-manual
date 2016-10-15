@@ -353,7 +353,7 @@ See the graphic at the end of the description of the *Lin/Quad Weighted* attenua
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option active.
 
-     - .. figure:: /images/light-constant_falloff-sphere_deactivated-lighted_plane.jpg
+     - .. figure:: /images/light-constant_falloff-sphere_deactivated-lighted_plane.png
           :width: 320px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option deactivated.

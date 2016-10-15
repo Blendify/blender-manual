@@ -135,21 +135,21 @@ This mode is good for:
 - You can judge if you want to dump the whole thing since it is
   completely distorted and clips at the top or the bottom.
 
-.. hlist::
-   :columns: 2
+.. list-table::
 
-   - .. figure:: /images/editors_sequencer_view_luma-example1.jpg
+   * - .. figure:: /images/editors_sequencer_display-modes_luma-waveform-example-1.png
 
-        The various horizontal lines in the Luma waveform
-        match the uniform-color lines of the picture. Note that the 'gray 20%'
-        one-pixel width line (inside the yellow strip) is represented in the Luma waveform by a gray line.
-        The two lines drawing an "X" are from the two linear tone shades (white --> black and black --> white).
-        Finally, the broken line matches the complex tone shade at the bottom of the picture.
+          The various horizontal lines in the Luma waveform
+          match the uniform-color lines of the picture. Note that the 'gray 20%'
+          one-pixel width line (inside the yellow strip) is represented in the Luma waveform by a gray line.
+          The two lines drawing an "X" are from the two linear tone shades (white --> black and black --> white).
+          Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
-   - .. figure:: /images/editors_sequencer_view_luma-example2.jpg
+     - .. figure:: /images/editors_sequencer_display-modes_luma-waveform-example-2.png
 
-        The curves are quite visible. We found a luma of 80-100% for the sky,
-        a luma around 40% for the sea, and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
+          The curves are quite visible. We found a luma of 80-100% for the sky,
+          a luma around 40% for the sea, and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
+
 
 .. Note::
 
@@ -165,7 +165,11 @@ if two strips were rendered or shot under different lighting conditions but are 
 Chroma Vectorscope
 ------------------
 
-.. figure:: /images/editors_sequencer_view_vectorscope.png
+.. figure:: /images/editors_sequencer_display-modes_example.jpg
+
+   Example image.
+
+.. figure:: /images/editors_sequencer_display-modes_vectorscope.png
 
    Example of Chroma Vectorscope Preview.
 
@@ -206,7 +210,11 @@ This mode is good for:
 Histogram
 ---------
 
-.. figure:: /images/editors_sequencer_view_histogram.png
+.. figure:: /images/editors_sequencer_display-modes_example.jpg
+
+   Example image.
+
+.. figure:: /images/editors_sequencer_display-modes_histogram.png
 
    Example of Histogram Preview.
 

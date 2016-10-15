@@ -7,7 +7,6 @@ Gamma Node
 
 .. figure:: /images/compositing_nodes_color_gamma.png
    :align: right
-   :width: 150px
 
    Gamma Node.
 
@@ -40,5 +39,6 @@ Examples
 ========
 
 .. figure:: /images/compositing_nodes_color_gamma_example.jpg
+   :width: 700px
 
    Example of Gamma node.

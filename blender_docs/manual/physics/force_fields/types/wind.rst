@@ -3,8 +3,7 @@
 Wind
 ****
 
-.. figure:: /images/force_field_type_wind.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-3_wind.png
 
    Wind force field.
 
@@ -12,7 +11,6 @@ The *Wind* force field gives a constant force in a single direction, along the f
 The strength of the force is visualized by the spacing of the circles shown.
 
 .. figure:: /images/force_field_panel_wind.jpg
-   :width: 400px
 
    UI for a Wind force field.
 

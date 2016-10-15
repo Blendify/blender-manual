@@ -27,7 +27,7 @@ Double Sided
 Example
 -------
 
-.. figure:: /images/meshsmooth-example-04rrautosmooth.jpg
+.. figure:: /images/modeling_meshes_editing_smoothing_example-03-auto-smooth.png
    :width: 250px
 
    Example mesh with *Auto Smooth* enabled.

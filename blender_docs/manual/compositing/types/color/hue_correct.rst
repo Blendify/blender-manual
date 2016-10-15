@@ -6,7 +6,7 @@ Hue Correct Node
 The Hue Correct node is able to adjust the Hue, Saturation, and Value of an image,
 with an input curve.
 
-.. figure:: /images/compositing_nodes_huecorrect.png
+.. figure:: /images/compositing_nodes_color_hue-correct.png
 
    Color Balance Node.
 

@@ -6,9 +6,8 @@
 RGB Curves Node
 ***************
 
-.. figure:: /images/compositing_nodes_rgbcurves.png
+.. figure:: /images/compositing_nodes_color_rgb-curves.png
    :align: right
-   :width: 150px
 
    RGB Curves Node.
 
@@ -26,6 +25,10 @@ Black Level
    Defines the input color that is (linear) mapped to black.
 White Level
    Defines the input color that is (linear) mapped to white.
+
+.. container:: lead
+
+   .. clear
 
 .. tip::
 

@@ -3,7 +3,7 @@
 Rotate Node
 ***********
 
-.. figure:: /images/texture-nodes-rotate.png
+.. figure:: /images/render_blender-render_textures_nodes_types_distort_rotate.png
    :align: right
 
    Rotate node.

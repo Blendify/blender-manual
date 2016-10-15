@@ -4,7 +4,7 @@
 Edge Rendering
 **************
 
-.. figure:: /images/bi_post_toon1.jpg
+.. figure:: /images/render_blender-render_post-processing_edges_toon-examples.png
    :width: 240px
 
    A scene with Toon materials.
@@ -42,7 +42,7 @@ Color RGB
 Examples
 ========
 
-.. figure:: /images/bi_post_toon2.jpg
+.. figure:: /images/render_blender-render_post-processing_edges_toon-examples-edge.png
    :width: 400px
 
    Scene re-rendered with toon edge set.

@@ -1,5 +1,4 @@
-.. |node-icon| image:: /images/icons_node.jpg
-   :width: 1.1em
+.. |node-icon| image:: /images/render_blender-render_materials_material-panel_node-icon.png
 
 **************
 Material Panel

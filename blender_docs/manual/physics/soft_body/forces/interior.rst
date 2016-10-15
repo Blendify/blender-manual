@@ -5,7 +5,7 @@ Interior
 
 .. _fig-softbody-force-interior-connection:
 
-.. figure:: /images/physics_bsod-softbody-theory1.jpg
+.. figure:: /images/physics_soft-body_forces_interior_theory-1.png
    :width: 200px
 
    Vertices and forces along their connection edges.
@@ -25,7 +25,7 @@ but would change your mesh topology drastically.
 
 .. _fig-softbody-force-interior-stiff:
 
-.. figure:: /images/physics_bsod-softbody-theory2.jpg
+.. figure:: /images/physics_soft-body_forces_interior_theory-2.png
    :width: 200px
 
    Additional forces with Stiff Quads enabled.
@@ -86,17 +86,17 @@ To show the effect of the different edge settings we will use two cubes
 
 .. list-table:: Without Stiff Quads.
 
-   * - .. figure:: /images/physics_quadvstri-sb-0001.jpg
+   * - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-001.png
           :width: 200px
 
           Frame 1.
 
-     - .. figure:: /images/physics_quadvstri-sb-0036.jpg
+     - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-036.png
           :width: 200px
 
           Frame 36.
 
-     - .. figure:: /images/physics_quadvstri-sb-0401.jpg
+     - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-401.png
           :width: 200px
 
           Frame 401.
@@ -106,22 +106,21 @@ In Fig. :ref:`fig-softbody-force-interior-without`, the default settings are use
 The "quad only" cube will collapse completely, the cube composed of tris keeps its shape,
 though it will deform temporarily because of the forces created during collision.
 
-
 .. _fig-softbody-force-interior-with:
 
 .. list-table:: With Stiff Quads.
 
-   * - .. figure:: /images/physics_quadvstri-sb-0001.jpg
+   * - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-001.png
           :width: 200px
 
           Frame 1.
 
-     - .. figure:: /images/physics_quadvstri-sb-sq-0036.jpg
+     - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-sq-036.png
           :width: 200px
 
           Frame 36.
 
-     - .. figure:: /images/physics_quadvstri-sb-sq-0401.png
+     - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-sq-401.png
           :width: 200px
 
           Frame 401.
@@ -136,17 +135,17 @@ because it has no quads anyway.
 .. list-table:: Bending Stiffness.
    `Blend file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__.
 
-   * - .. figure:: /images/physics_quadvstri-sb-0001.jpg
+   * - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-001.png
           :width: 200px
 
           Frame 1.
 
-     - .. figure:: /images/physics_quadvstri-sb-bs-0036.jpg
+     - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-bs-036.png
           :width: 200px
 
           Frame 36.
 
-     - .. figure:: /images/physics_quadvstri-sb-bs-0401.png
+     - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-bs-401.png
           :width: 200px
 
           Frame 401.
@@ -158,22 +157,21 @@ This includes the diagonal edges (Damping also applies to these connections).
 In Fig. :ref:`fig-softbody-force-interior-bending`, *Be* is activated with a strength setting of 1.
 Now both cubes are more rigid.
 
-
 .. list-table::
 
-   * - .. figure:: /images/physics_quadvstri-bending-001.jpg
+   * - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-bending-001.png
           :width: 200px
 
           Two planes going to collide.
 
      - .. _fig-softbody-force-interior-no-bending:
 
-       .. figure:: /images/physics_quadvstri-bending-101.jpg
+       .. figure:: /images/physics_soft-body_forces_interior_quadvstri-bending-101.png
           :width: 200px
 
           No bending stiffness, Frame 101.
 
-     - .. figure:: /images/physics_quadvstri-bending-high-101.jpg
+     - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-bending-high-101.png
           :width: 200px
 
           High bending stiffness (10), Frame 101.
