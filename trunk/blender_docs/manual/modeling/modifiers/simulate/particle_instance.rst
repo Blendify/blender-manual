@@ -136,7 +136,7 @@ Position
 Random
    Scales the position value of each instance a random value.
 
-.. figure:: /images/particle_instance_modifier-keyed_particle_example_1.jpg
+.. figure:: /images/particle_instance_modifier-keyed_particle_example_1.png
    :width: 500px
 
    Keyed particle following way points (showing one particle).
@@ -151,7 +151,7 @@ The cylinder does not alter any of its other properties when following the parti
 only the cylinders location gets altered, shape and rotation do not get altered.
 See screenshot below:
 
-.. figure:: /images/particle_instance_modifier-keyed_particle_example_2.jpg
+.. figure:: /images/particle_instance_modifier-keyed_particle_example_2.png
    :width: 500px
 
    Keyed particle following way points showing a mesh object
@@ -162,7 +162,7 @@ See screenshot below:
 Both of the above examples had the *Particle Instance* modifier *Path* button deactivated.
 When the *Path* button is activated the effect can be seen in the screenshot below:
 
-.. figure:: /images/particle_instance_modifier-keyed_particle_example_3.jpg
+.. figure:: /images/particle_instance_modifier-keyed_particle_example_3.png
    :width: 500px
 
    Keyed particle following way points showing a mesh object (Particle Instance modifier)
@@ -215,7 +215,7 @@ In this case the mesh of the *Particle Instance*
 modifier will follow the length and profile of the hair strands paths.
 Below is a screenshot showing the effect of the *Path* button on hair:
 
-.. figure:: /images/particle_instance_modifier-strand_mesh_deform.jpg
+.. figure:: /images/particle_instance_modifier-strand_mesh_deform.png
    :width: 500px
 
    Strand with a Particle Instance modifier associated with it and deforming the cylinder along the hair profile.

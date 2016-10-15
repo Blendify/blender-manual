@@ -77,7 +77,7 @@ Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with no parenting
 
 .. _fig-view3d-parent-scene-no:
 
-.. figure:: /images/parent-object_keep_transform-a.jpg
+.. figure:: /images/editors_3dview_object_properties_relations_parents_keep-transform-a.png
 
    Scene with no parenting.
 
@@ -91,7 +91,7 @@ altered respectively.
 
 Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the left a little.
 
-.. figure:: /images/parent-object_keep_transform-b.png
+.. figure:: /images/editors_3dview_object_properties_relations_parents_keep-transform-b.png
 
    The monkey is the child object of "EmptyA".
 
@@ -102,7 +102,7 @@ Parent To* pop-up menu.
 This will result in "EmptyB" object being the *Parent Object* of the Monkey object.
 Notice that when you change the parent of the Monkey the scale of the Monkey changed.
 
-.. figure:: /images/parent-object_keep_transform-c.jpg
+.. figure:: /images/editors_3dview_object_properties_relations_parents_keep-transform-c.png
 
    The monkey is the child object of "EmptyB".
 
@@ -119,7 +119,7 @@ old *Parent Object*; If instead when changing the *Parent Object* of the Monkey 
 would keep its scale information it obtained from the old parent "EmptyA" when it is assigned
 to the new parent "EmptyB";
 
-.. figure:: /images/parent-object_keep_transform-d.png
+.. figure:: /images/editors_3dview_object_properties_relations_parents_keep-transform-d.png
 
    The Object (Keep Transform) parent method.
 

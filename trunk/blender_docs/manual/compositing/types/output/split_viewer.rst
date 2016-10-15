@@ -3,7 +3,7 @@
 Split Viewer Node
 *****************
 
-.. figure:: /images/compositing_nodes_splitviewer.png
+.. figure:: /images/compositing_nodes_output_split-viewer.png
    :align: right
 
    Split Viewer Node.
@@ -42,5 +42,6 @@ Examples
 ========
 
 .. figure:: /images/compositing_nodes_color_gamma_example.jpg
+   :width: 700px
 
    Example of Split Viewer node.

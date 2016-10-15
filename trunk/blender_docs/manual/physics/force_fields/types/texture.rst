@@ -3,8 +3,7 @@
 Texture
 *******
 
-.. figure:: /images/force_field_type_texture.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
 
    Texture force field.
 
@@ -16,7 +15,6 @@ a value larger than 0.5 acceleration in negative axis direction (like -Z),
 a value smaller than 0.5 acceleration in positive axis direction (like +Z).
 
 .. figure:: /images/force_field_panel_texture.jpg
-   :width: 400px
 
    UI for a Texture force field.
 

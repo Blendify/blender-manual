@@ -18,8 +18,7 @@ each with its own unique strengths and limitations. Here are the available lamps
 - :doc:`Sun </render/blender_render/lighting/lamps/sun/introduction>`
   simulates a very far away and punctual light source, like the sun.
 
-.. figure:: /images/lighting-lamps-visual.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_lighting_lamps_introduction_visual.png
 
    Visual height and shadow markers of two points lamps. Ray Shadow is enabled on the left lamp.
 

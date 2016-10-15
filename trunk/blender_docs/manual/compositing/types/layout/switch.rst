@@ -3,9 +3,8 @@
 Switch Node
 ***********
 
-.. figure:: /images/compositing_nodes_switch.png
+.. figure:: /images/compositing_nodes_layout_switch.png
    :align: right
-   :width: 150px
 
    Switch Node.
 

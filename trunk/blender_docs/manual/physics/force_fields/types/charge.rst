@@ -3,8 +3,7 @@
 Charge
 ******
 
-.. figure:: /images/force_field_type_charge.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
 
    Charge force field.
 
@@ -15,7 +14,6 @@ This mean this field has only effect on particles that have also a *Charge* fiel
 (else, they have no "charge", and hence are unaffected)!
 
 .. figure:: /images/force_field_panel_charge.jpg
-   :width: 400px
 
    UI for a Charge force field.
 

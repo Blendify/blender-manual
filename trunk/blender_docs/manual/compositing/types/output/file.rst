@@ -3,7 +3,7 @@
 File Output Node
 ****************
 
-.. figure:: /images/compositing_nodes_fileoutput.png
+.. figure:: /images/compositing_nodes_output_file.png
    :align: right
 
    File Output Node.

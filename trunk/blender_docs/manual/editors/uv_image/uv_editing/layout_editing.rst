@@ -215,7 +215,7 @@ that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for
 The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser with options for saving the layout:
 
-.. figure:: /images/texture-uv-layout-export.png
+.. figure:: /images/editors_uv-image_uv-editing_layout-editing_export-panel.png
 
    Export Options.
 
@@ -246,15 +246,15 @@ For using images as textures, see the page on
 
 .. list-table::
 
-   * - .. figure:: /images/texture-uv-layout.png
-          :width: 250px
+   * - .. figure:: /images/editors_uv-image_uv-editing_layout-editing_uv-layout.png
+          :width: 320px
 
           A UV Layout in the UV/Image Editor.
 
-     - .. figure:: /images/texture-uv-layout2.jpg
-          :width: 250px
+     - .. figure:: /images/editors_uv-image_uv-editing_layout-editing_uv-layout-export.png
+          :width: 320px
 
-          A UV Layout in an Image Editor.
+          A UV Layout in an paint program.
 
 
 Header

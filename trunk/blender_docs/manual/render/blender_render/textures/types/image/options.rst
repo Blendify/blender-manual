@@ -1,4 +1,4 @@
-.. |small-pic| image:: /images/bi_textures_image_linien.jpg
+.. |small-pic| image:: /images/render_blender-render_textures_types_image_options_interpolation.png
 
 *******
 Options
@@ -21,12 +21,12 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_texture_image_bahnhofstrasse.jpg
-          :width: 120px
+          :width: 320px
 
           Background image.
 
-     - .. figure:: /images/render_blender-render_texture_image_map-to-eingabewerte.jpg
-          :width: 100px
+     - .. figure:: /images/render_blender-render_texture_image_map-to-eingabewerte.png
+          :width: 320px
 
           Foreground image.
 
@@ -40,12 +40,12 @@ the horizontal bar has 50% alpha.
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_texture_image_usealpha.jpg
-          :width: 150px
+          :width: 320px
 
           Foreground image with *Use* alpha. The alpha values of the pixels are evaluated.
 
      - .. figure:: /images/render_blender-render_texture_image_calcalpha.jpg
-          :width: 150px
+          :width: 320px
 
           Foreground image with *Calculate* alpha.
 
@@ -71,7 +71,6 @@ Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
 
 .. figure:: /images/texture-imagesampling-panel.jpg
-   :width: 306px
 
    Image Sampling panel.
 
@@ -118,11 +117,9 @@ Interpolation
    .. list-table::
       Enlarged Image texture without and with *Interpolation*
 
-      * - .. figure:: /images/render_blender-render_texture_image_textur-linien.png
-             :width: 160px
+      * - .. figure:: /images/render_blender-render_textures_types_image_options_interpolation-off.png
 
-        - .. figure:: /images/render_blender-render_texture_image_texturinterpol-linien.jpg
-             :width: 160px
+        - .. figure:: /images/render_blender-render_textures_types_image_options_interpolation-on.png
 
 Filter
    The filter size used in rendering, and also by the options *MipMap* and *Interpolation*.
@@ -170,7 +167,6 @@ Image Mapping
 =============
 
 .. figure:: /images/texture-imagemapping-panel.jpg
-   :width: 306px
 
    Image Mapping panel.
 

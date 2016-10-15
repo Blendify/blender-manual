@@ -3,8 +3,7 @@
 Harmonic
 ********
 
-.. figure:: /images/force_field_type_harmonic.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
 
    Harmonic force field.
 
@@ -15,7 +14,6 @@ the movement is stopped in the moment the object is reached.
 This force field is really special if you assign it to particles.
 
 .. figure:: /images/force_field_panel_harmonic.jpg
-   :width: 400px
 
    UI for a Harmonic force field.
 

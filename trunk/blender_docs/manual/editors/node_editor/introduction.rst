@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_node_example.png
+.. figure:: /images/editors_node_example.jpg
 
    The Node Editor.
 

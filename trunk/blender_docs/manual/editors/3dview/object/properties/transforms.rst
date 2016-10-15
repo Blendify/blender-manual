@@ -1,7 +1,3 @@
-.. |lock-button| image:: /images/icons_lock.png
-   :width: 1.1em
-.. |unlock-button| image:: /images/icons_unlock.png
-   :width: 1.1em
 
 ********************
 Transform Properties
@@ -88,8 +84,8 @@ However, you can still translate it using the *Location X* edit field.
 Consider the locking feature as a rigid constraint only changeable from the panel.
 
 To lock a field, click the padlock icon next to the field.
-The field is unlocked if the icon appears as (|unlock-button|),
-and it is locked if the icon appears as (|lock-button|).
+The field is unlocked if the icon appears as "open padlock",
+and it is locked if the icon appears as "closed padlock".
 
 
 .. _transform-delta:

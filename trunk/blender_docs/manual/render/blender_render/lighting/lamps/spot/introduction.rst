@@ -113,7 +113,7 @@ Blend
    *Blend* and *Size* only control the *Spot* light cone's aperture and softness
    ("radial" falloff); they do not control the shadow's softness as shown below.
 
-   .. figure:: /images/shadow_&_spot-spotlight-render-sharp_shadow.jpg
+   .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_shadow-spotlight.png
       :width: 400px
 
       Render showing the soft edge spotlighted area and the sharp/hard object shadow.

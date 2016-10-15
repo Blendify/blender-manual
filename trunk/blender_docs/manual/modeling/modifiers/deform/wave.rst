@@ -127,8 +127,7 @@ Technical Details and Hints
 
 The relationship of the above values is described here:
 
-.. figure:: /images/modifiers_wave_parameters.jpg
-   :width: 600px
+.. figure:: /images/modeling_modifiers_deform_wave_front-characteristics.png
 
    Wave front characteristics.
 

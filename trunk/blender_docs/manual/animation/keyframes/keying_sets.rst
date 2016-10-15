@@ -72,7 +72,7 @@ This panel is used to add properties to the active Keying Set.
 
    :menuselection:`Properties --> Scene --> Active Keying Set Panel`
 
-.. figure:: /images/animation_keyframes_keying-sets_graph-editor.png
+.. figure:: /images/editors_graph-editor_introduction_channels-region.png
 
    :menuselection:`Properties --> Graph Editor --> Channels, Named Group`
 

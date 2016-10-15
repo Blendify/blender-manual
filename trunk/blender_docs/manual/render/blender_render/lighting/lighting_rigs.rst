@@ -25,8 +25,8 @@ Anyway, enough about camera angles; this is about lighting.
 Environment or Ambient Only
 ===========================
 
-.. figure:: /images/lighting-rigs-el.jpg
-   :width: 300px
+.. figure:: /images/lighting-rigs-el.png
+   :width: 320px
 
    Environment (Ambient) lighting only.
 

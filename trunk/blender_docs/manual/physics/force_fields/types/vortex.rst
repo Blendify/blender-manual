@@ -3,8 +3,7 @@
 Vortex
 ******
 
-.. figure:: /images/force_field_type_vortex.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_introduction_visual-2_vortex.png
 
    Vortex force field.
 
@@ -13,7 +12,6 @@ object's local Z axis. This can be useful for making a swirling sink, or tornado
 or kinks in particle hair.
 
 .. figure:: /images/force_field_panel_vortex.jpg
-   :width: 400px
 
    UI for a Vortex force field.
 

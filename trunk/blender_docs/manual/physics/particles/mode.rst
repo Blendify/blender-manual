@@ -1,5 +1,3 @@
-.. |hair-point-button| image:: /images/icons_hair-points.png
-   :width: 1.1em
 
 ******************
 Particle Edit Mode
@@ -73,7 +71,7 @@ version should something happen, or that you do not like the latest changes you 
 .. tip:: To be able to clearly see what you are working on:
 
    #. Open the Options panel in the Tool shelf.
-   #. Select *Point select mode* (|hair-point-button|) in the header of the 3D View.
+   #. Select *Point select mode* (see below) in the header of the 3D View.
       This will display key points along the particle path.
 
 
