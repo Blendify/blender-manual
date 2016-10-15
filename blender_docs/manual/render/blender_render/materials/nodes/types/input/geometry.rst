@@ -3,7 +3,7 @@
 Geometry Node
 *************
 
-.. figure:: /images/render_blender-render_materials_nodes_types_input_geometry.png
+.. figure:: /images/render_blender-render_materials_nodes_input_geometry.png
    :align: right
 
    Geometry node.

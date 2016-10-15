@@ -3,7 +3,7 @@
 Vector Math Node
 ****************
 
-.. figure:: /images/material-convertor-node-vectormath.jpg
+.. figure:: /images/render_blender-render_materials_nodes_converter_vector-math.png
    :align: right
 
    Vector Math Node.

@@ -135,17 +135,19 @@ was adapted to the vertex normals of the parent mesh
 
 (in this case the tentacle was rotated -90° about the X axis in edit mode).
 
-.. figure:: /images/dupliverts-example02-1tentacle.jpg
+.. list-table::
 
-   A simple tentacle set to smooth.
+   * - .. figure:: /images/dupliverts-example02-1tentacle.jpg
 
-.. figure:: /images/dupliverts-example02-2norot.jpg
+          A simple tentacle set to smooth.
 
-   Tentacle dupliverted onto the parent mesh.
+     - .. figure:: /images/dupliverts-example02-2norot.jpg
 
-.. figure:: /images/dupliverts-example02-3rot.jpg
+          Tentacle dupliverted onto the parent mesh.
 
-   Rotation enabled to align duplicates.
+     - .. figure:: /images/dupliverts-example02-3rot.jpg
+
+          Rotation enabled to align duplicates.
 
 
 As in the previous example, the shape and proportions of the arrangement can now be tweaked.
