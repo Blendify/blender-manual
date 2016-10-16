@@ -39,7 +39,8 @@ Emulate 3 Button Mouse
 
    .. list-table:: Shortcuts for supported mouse hardware
       :header-rows: 1
-      :stub-columns: 1
+      :class: valign
+      :widths: 25 25 50
 
       * - 3-button Mouse
         - 2-button Mouse

@@ -16,6 +16,8 @@ In the list below it shows a list of different types of node trees and where eac
 
 .. list-table::
    :header-rows: 1
+   :class: valign
+   :widths: 10 30 60
 
    * - Icon
      - Name

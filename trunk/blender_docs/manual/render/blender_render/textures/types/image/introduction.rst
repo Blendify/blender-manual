@@ -82,6 +82,8 @@ like Clouds, are incredibly simple and useful for adding realism and details to 
 
 .. list-table::
    :header-rows: 1
+   :class: valign
+   :widths: 40 60
 
    * - UV Texture
      - Procedural Texture

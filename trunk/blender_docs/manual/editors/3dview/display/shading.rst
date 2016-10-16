@@ -40,6 +40,8 @@ but this can be overridden for individual objects using the *Display panel* in t
 
 .. list-table::
    :stub-columns: 1
+   :class: valign
+   :widths: 80 20
 
    * - Switches between *Wireframe* and *Solid* draw modes
      - :kbd:`Z`

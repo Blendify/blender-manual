@@ -133,6 +133,8 @@ For reference, here is a table of data-blocks types stored in blend-files.
 
 .. list-table::
    :header-rows: 1
+   :class: valign
+   :widths: 25 10 10 55
 
    * - Type
      - Link
