@@ -38,9 +38,9 @@ Modes might affect many things in Blender:
 
 .. _tab-view3d-modes:
 
-.. list-table::
-   Blender's Modes
+.. list-table:: Blender's Modes
    :header-rows: 1
+   :class: valign
    :widths: 10 25 15 50
 
    * - Icon

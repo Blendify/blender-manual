@@ -70,21 +70,33 @@ input[type="number"], input[type="tel"], input[type="color"] {
 	color:#404040;
 }
 
-/* Moves the table captions to the bottom */ 
-table {caption-side: bottom}
+/* TABLE & FIGURE */
 
-/* Text wrap of figure captions in tables
- * (without this images with captions in tables can cause a log of horizontal scrolling). */
-.wy-table caption, .rst-content table.docutils caption, 
-.rst-content table.field-list caption.rst-content .docutils.caption,
-.rst-content div.figure p.caption {
-	font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
-	font-size: 90%;
-	font-weight: normal;
-	line-height: 24px;
-	white-space: normal;
-	color:#808080;
+/* moves captions to bottom */
+table { caption-side: bottom; }
+
+/* captions text style */
+.rst-content .figure .caption,
+.rst-content table.docutils caption,
+.rst-content table.field-list caption {
+	font: italic 90%/18px Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
+	color: #808080;
 }
+
+/* captions top padding */
+.rst-content .figure .caption { margin-top: 4px; }
+.rst-content table.docutils caption { padding: 0.5em; }
+
+/* text word wrap */
+.wy-table-responsive table td,
+.wy-table-responsive table th { white-space: normal; }
+
+/* cell's vertical align */
+/* use "valign" class for middle align */
+.rst-content table.docutils:not(.valign) td { vertical-align: baseline; }
+
+/* field list align */
+.rst-content table.field-list td { padding-top: 8px; }
 
 /* permalink to table, hide until hover */
 .rst-content table.docutils caption .headerlink { visibility: hidden; }
@@ -92,12 +104,6 @@ table {caption-side: bottom}
 
 /* table header cells border color */
 .rst-content table.docutils th { border-color: #e1e4e5; }
-
-/* table cell align */
-.rst-content table.docutils td { vertical-align: baseline; }
-
-/* table figure legend */
-.rst-content table.docutils .figure .legend { white-space: normal; }
 
 /* figure in table margin */
 .rst-content td div.figure {
@@ -108,9 +114,20 @@ table {caption-side: bottom}
 /* figure legend */
 .legend {
 	font-size: 90%;
-	color: #808080;
+	color: #484848;
 	margin-top: -20px;
 }
+.rst-content dl .legend { margin-top: -10px; }
+
+@media screen and (max-width: 768px){
+
+	.wy-table-responsive table:not(.footnote) { min-width: 520px; }
+	.rst-content table.docutils caption { text-align: left; }
+	img { width: auto; }
+
+}
+
+/* end TABLE & FIGURE */
 
 /* proper seal navigation buttons; jumping on resize */
 .rst-footer-buttons::before , .rst-footer-buttons::after{

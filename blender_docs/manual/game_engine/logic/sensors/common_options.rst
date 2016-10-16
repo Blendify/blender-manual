@@ -63,6 +63,8 @@ Freq
 
 .. list-table::
    :header-rows: 1
+   :class: valign
+   :widths: 10 30 15 15 15 15
 
    * - freq
      - meaning

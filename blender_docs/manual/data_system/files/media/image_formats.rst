@@ -13,6 +13,8 @@ This is the list of image file formats supported internally by Blender:
 
 .. list-table::
    :header-rows: 1
+   :class: valign
+   :widths: 25 25 10 10 10 20
 
    * - Format
      - `Channel Depth`_
