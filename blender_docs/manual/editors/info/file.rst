@@ -5,47 +5,79 @@ File
 
 The options to manage files are:
 
-New
+New :kbd:`Ctrl-N`
    Clears the current scene and loads startup.blend.
-:doc:`Open </data_system/files/open>`
-   Open a blend-file.
-:ref:`Open Recent <other-file-open-options>`
-   Displays a list of recently saved blend-files to open.
-:ref:`Recover last session <other-file-open-options>`
+Open :kbd:`Ctrl-O`
+   :doc:`Open </data_system/files/open>` a blend-file.
+Open Recent :kbd:`Shift-Ctrl-O`
+   Displays a list of :ref:`recently <other-file-open-options>` saved blend-files to open.
+Recover last session
    This will load the ``quit.blend`` file Blender automatically saves just before exiting.
-   So this option enables you to recover your last work session, e.g. if you closed Blender by accident.
-:ref:`Recover Auto Save <other-file-open-options>`
-   This will open an automatically saved file to recover it.
-:doc:`Save </data_system/files/save>`
-   Save the current blend-file.
-:doc:`Save As </data_system/files/save>`
-   Opens file browser to specify file name and location of save.
-:doc:`Save Copy </data_system/files/save>`
-   Saves a copy of the current file.
-:doc:`User Preferences </preferences/introduction>`
-   Opens the user Preferences Editor.
-:ref:`Save User Settings <startup-file>`
-   Saves the current scene and preferences to startup.blend.
-:ref:`Load Factory Settings <factory-settings>`
-   Restore the default scene to the factory settings.
-:doc:`Link or Append </data_system/linked_libraries>`
-   You do not have to load a complete file, you can load in only selected parts from another file if you wish.
-:doc:`Import </data_system/files/import_export>`
+   So this :ref:`option <other-file-open-options>` enables you to :doc:`recover </troubleshooting/recover>`
+   your last work session, e.g. if you closed Blender by accident.
+Recover Auto Save
+   :ref:`This <other-file-open-options>` will open an automatically saved file
+   to :doc:`recover </troubleshooting/recover>` it.
+Save :kbd:`Ctrl-S`
+   :doc:`Save </data_system/files/save>` the current blend-file.
+Save As :kbd:`Shift-Ctrl-S`
+   Opens file browser to specify file name and location of :doc:`save </data_system/files/save>`.
+Save Copy :kbd:`Shift-Alt-S`
+   :doc:`Saves </data_system/files/save>` a copy of the current file.
+User Preferences :kbd:`Ctrl-Alt-U`
+   Opens the :doc:`User Preferences Editor </preferences/introduction>` in new window.
+Save User Settings :kbd:`Ctrl-U`
+   Saves the current scene and preferences to :ref:`startup.blend <startup-file>`.
+Load Factory Settings
+   Restores the default startup-file as :ref:`factory settings <factory-settings>`.
+Link :kbd:`Ctrl-Alt-O`
+   Links data from an external blend-file (library) to the current scene. 
+   The edition of that data is only possible in the external library. 
+   *Link and *Append* is used to load in only selected parts from another file.
+   See :doc:`Linked_libraries </data_system/linked_libraries>`.
+Append :kbd:`Shift-F1`
+   Appends data from an external blend file to the current scene.
+   The new data is copied from the external file, and completely unlinked from it.
+Import
    Blender can use information stored in a variety of other format files which are created by
-   other graphics programs.
-:doc:`Export </data_system/files/import_export>`
+   other graphics programs. See :doc:`Import/Export </data_system/files/import_export>`.
+Export
    Normally you save your work in a blend-file,
    but you can export some or all of your work to a format that can be processed by other graphics programs.
-:ref:`External Data <pack-unpack-data>`
-   Pack into .blend
+   See :doc:`Import/Export </data_system/files/import_export>`.
+External Data
+   External data, like texture images and other resources,
+   can be stored inside the .blend file (packed) or as separate files (unpacked).
+   Blender keeps track of all unpacked resources via a relative or absolute path.
+   See :ref:`pack or unpack external Data <pack-unpack-data>`
+
+   Automatically Pack Into .blend
+      This option activates the file packing.
+      If enabled, every time the blend-file is saved, all external files will be saved (packed) in it.
+   Pack All Into .blend
       Pack all used external files into the blend-file.
-   Unpack into Files
+   Unpack Into Files
       Unpack all files packed into this blend-file to external ones.
-   Make all paths Relative
-      Make all paths to external files relative to current blend-file.
-   Make all paths Absolute
-      Make all paths to external files absolute.
+   Make All Paths Relative
+      Make all paths to external files :doc:`relative </data_system/files/relative_paths>` to current blend-file.
+   Make All Paths Absolute
+      Make all paths to external files absolute. Absolute ones have full path from the systems root.
    Report Missing Files
-      Report all missing external files.
+      This option is useful to check if there are links to '''unpacked''' files that no longer exist.
+      After selecting this option a warning message will appear in the Info editors header.
+      If no warning is shown, there are no missing external files.
    Find Missing Files
-      Try to find missing external files.
+      In case we have broken links in our blend file, this option will help us fix the problem. 
+      A File Browser will show up. Select the desired directory (or a file within that directory), 
+      and a search will be performed in it, recursively in all contained directories. 
+      Every missing file found in the search will be recovered. 
+      Those recoveries will be done as absolute paths, 
+      so if you want to have relative paths you will need to select *Make All Paths Relative*.
+
+      .. note::
+
+         Recovered files might need to be reloaded. You can do that one by one, or
+         you can save the blend file and reload it again, so that all external files are reloaded at once.
+
+Quit :kbd:`Ctrl-Q`
+   Closes Blender and the file is saved into ``quit.blend``.

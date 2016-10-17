@@ -37,6 +37,10 @@ Render/Baking progress
    Hovering over them shows a time estimate.
 Capture Stop
    A button shown while :ref:`screen casting <info-screencast>` to stop the recording.
+Report Message
+   Label for an operator to display results or warnings. It disappears after a short time.
+   You can retrieve that information with :kbd:`LMB` on the icon and
+   by opening the generated text data-block with the Text Editor.
 Blender Icon
    Clicking on the Blender logo opens the :ref:`splash`.
 Blender version
