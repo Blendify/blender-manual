@@ -52,9 +52,9 @@ The *Tool Shelf* by default on the left side contains the tool settings.
 Operator Panel
 --------------
 
-The Operator panel is a region thats part of the Tool Shelf containing only one panel.
+The Operator panel is a region that is part of the Tool Shelf containing only one panel.
 In the 3D View it displays the properties of the :ref:`last operator <ui-redo-last>` executed and
-in the File Browser the file in/export options.
+in the File Browser the file import/export options.
 
 
 Properties Region
@@ -101,7 +101,7 @@ Position
 --------
 
 To flip a region from one side to the opposite press :kbd:`F5`, 
-while the Region is  under the mouse pointer.
+while the Region is under the mouse pointer.
 
 The header can also be flip by :kbd:`RMB` on it and
 select the appropriate item from the pop-up menu.

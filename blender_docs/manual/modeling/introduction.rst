@@ -10,7 +10,7 @@ of a real-world object or expresses your imagination of abstract objects.
 
 Modeling can take many forms in Blender depending on the type of
 :ref:`object <objects-types>` you are trying to model.
-Some objects for example are not able to be modeled, these being:
+Some objects are not able to be modeled, these being:
 
 - Speakers
 - Cameras
@@ -20,16 +20,16 @@ Some objects for example are not able to be modeled, these being:
 Modes
 =====
 
-Depending on the type of object you are trying to model there are different types
+Depending on the type of object you are trying to model, there are different types
 of modeling :doc:`mode </editors/3dview/modes>`.
-Because modes are not specific to modeling the are covered in different parts of the manual.
+Because modes are not specific to modeling they are covered in different parts of the manual.
 
 
 Edit Mode
 ---------
 
 Edit mode is the main mode that modeling takes place.
-Edit mode is used to edit to fallowing types of objects:
+Edit mode is used to edit the following types of objects:
 
 - Meshes
 - Curves
@@ -54,7 +54,7 @@ and therefore have different set of tool. Because of this each has its own secti
    Begins similarly to mesh modeling (see above), with a base shape like a cube or sphere,
    but instead of extruding these base shapes, these objects are clumped together to form a larger object.
    In order to accomplish this, the metaballs have a liquid-like quality, when two or more are brought
-   together they merge by smoothly rounding out the point of connection, appearing as one unified object.
+   together, they merge by smoothly rounding out the point of connection, appearing as one unified object.
 
    This can also be a quick way to get started with a rough shape which can be converted to a mesh later.
 :doc:`Text Modeling </modeling/texts/index>`
