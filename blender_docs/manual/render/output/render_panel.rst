@@ -8,9 +8,9 @@ Render Panel
 
    Render panel.
 
-Render
-   Starts rendering a still image.
-Animation
+Render :kbd:`F12`
+   Starts rendering a still image of the current frame.
+Animation :kbd:`Ctrl-F12`
    Starts rendering an animation.
    See :doc:`Rendering Animations </render/workflows/animations>` for more detail.
 Audio

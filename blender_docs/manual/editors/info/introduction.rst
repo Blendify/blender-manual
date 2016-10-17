@@ -17,10 +17,56 @@ Header
    Editor Type Selector (red), Menus (blue), Screen Data-block (green),
    Scene Data-block (orange), Engine Selector (purple), Resource Information (aqua).
 
-Editor Type 
-   Selector that allows you to change the :doc:`Editor Type </editors/index>`.
+
 Menus
-   Provides access to the main menu options.
+---------
+
+Provides access to the Blenders main menu options.
+
+
+File
+^^^^
+
+See :doc:`/editors/info/file` menu.
+
+
+Render
+^^^^^^
+
+Render
+   See :doc:`/render/output/render_panel`.
+OpenGL Render
+   See :doc:`/render/opengl`
+Show/Hide Render View :kbd:`F11`
+   Shows (or hides) the editor where the last render was performed.
+Play Rendered Animation :kbd:`Ctrl-F11`
+   Plays the last rendered animation using the internal :doc:`/render/output/animation_player` or
+   an external video player, which has to be defined in the File tab of the User Preferences.
+
+
+Window
+^^^^^^
+
+Duplicate Window :kbd:`Ctrl-Alt-W`
+   Duplicates the current window so that a new one is created with the same screen layout and size.
+   Useful for multiple monitors.
+Toggle Window Fullscreen :kbd:`Alt-F11`
+   Toggles full screen on or off.
+Screenshot, Screencast
+   See :doc:`/editors/info/screenshot`.
+Toggle System Console
+   Shows or hides the :doc:`System Console </advanced/command_line/introduction>`.
+
+
+Help
+^^^^
+
+See :ref:`help-menu`.
+
+
+Controls
+-----------
+
 Back to Previous
    A button shown when an area is maximized to return to tiled areas.
 Screen
@@ -39,16 +85,18 @@ Capture Stop
    A button shown while :ref:`screen casting <info-screencast>` to stop the recording.
 Report Message
    Label for an operator to display results or warnings. It disappears after a short time.
-   You can retrieve that information with :kbd:`LMB` on the icon and
-   by opening the generated text data-block with the Text Editor.
+   By clicking with :kbd:`LMB` on the icon on the left side, the full report is copied into a new text data-block,
+   which you can be open in the Text Editor.
 Blender Icon
    Clicking on the Blender logo opens the :ref:`splash`.
 Blender version
    This label displays the Blender version.
 Resource Information
    Scene
-      Displays information about the current loaded scene. The number of vertices,
-      faces and triangles. As well as the selected objects or lamps with their total count in the scene.
+      Displays information about the current loaded scene. 
+      It Depending on the mode and object type. When two numbers are shown, the first one means the selected,
+      and the second one means total. The number of vertices, faces, triangles or bones.
+      As well as the selected objects and lamps.
    Memory
       The "Mem" label shows the calculated memory consumption by Blender.
       This can help to identify, when you are reaching the limits of your hardware.
