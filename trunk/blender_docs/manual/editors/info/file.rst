@@ -11,7 +11,7 @@ Open :kbd:`Ctrl-O`
    :doc:`Open </data_system/files/open>` a blend-file.
 Open Recent :kbd:`Shift-Ctrl-O`
    Displays a list of :ref:`recently <other-file-open-options>` saved blend-files to open.
-Recover last session
+Recover Last Session
    This will load the ``quit.blend`` file Blender automatically saves just before exiting.
    So this :ref:`option <other-file-open-options>` enables you to :doc:`recover </troubleshooting/recover>`
    your last work session, e.g. if you closed Blender by accident.
@@ -33,7 +33,7 @@ Load Factory Settings
 Link :kbd:`Ctrl-Alt-O`
    Links data from an external blend-file (library) to the current scene. 
    The edition of that data is only possible in the external library. 
-   *Link and *Append* is used to load in only selected parts from another file.
+   *Link* and *Append* is used to load in only selected parts from another file.
    See :doc:`Linked_libraries </data_system/linked_libraries>`.
 Append :kbd:`Shift-F1`
    Appends data from an external blend file to the current scene.
@@ -63,7 +63,7 @@ External Data
    Make All Paths Absolute
       Make all paths to external files absolute. Absolute ones have full path from the systems root.
    Report Missing Files
-      This option is useful to check if there are links to '''unpacked''' files that no longer exist.
+      This option is useful to check if there are links to unpacked files that no longer exist.
       After selecting this option a warning message will appear in the Info editors header.
       If no warning is shown, there are no missing external files.
    Find Missing Files
