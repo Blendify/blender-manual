@@ -44,8 +44,23 @@ Unpack Data
 
 When you have received a packed file,
 you can :menuselection:`File --> External Data --> Unpack into Files...`.
-You will be presented with the option to create the original directory structure or put
-the file in the ``//`` (the directory where the blend-file is). Use "original locations"
-if you will be modifying the textures and re-packing and exchanging blend-files,
-so that when you send it back and the originator unpacks,
-his copies of the textures will be updated.
+If files are packed, there is also track of its original path,
+which can also be relative or absolute (this is needed in case of unpacking to original location).
+
+
+Options
+^^^^^^^
+
+Use files in current directory (create when necessary)
+   Unpacks all files in the same directory ``//`` as the blend file, grouping them in proper folders (like ''textures'' for instance).
+   However, if the final file exists already, it will use that file, instead of unpacking it.
+Write files to current directory (overwrite existing files)
+   Unpacks all files in the same directory as the blend file, grouping them in proper folders (like ''textures'' for instance).
+   If the final file exists already, it will overwrite it.
+Use files in original location (create when necessary)
+   Unpacks all files in its original location.
+   However, if the final file exists already, it will use that file, instead of unpacking it.
+Write files to original location (overwrite existing files)
+   Unpacks all files in its original location. If the final file exists already, it will overwrite it.
+Disable AutoPack, keep all packed files
+   Cancels the operation and deactivates the *Automatically Pack Into .blend* option.
