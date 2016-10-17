@@ -12,7 +12,7 @@ Tabs
    Tools tab (selected), Create, etc.
 
 Tabs are overlapping sections in the user-interface.
-The Tabs header can be vertical (Tool Shelf) and
+The Tabs header can be vertical (Tool Shelf) or
 horizontal (Properties Editor, User Preferences).
 
 .. figure:: /images/bge-physics-propertiestabs.jpg
@@ -42,7 +42,7 @@ Panels
 .. figure:: /images/interface_panels.png
    :align: right
 
-   Tool Self panels.
+   Tool Shelf panels.
 
    Orange: Panel Headers.
 

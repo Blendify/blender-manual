@@ -30,7 +30,7 @@ until it changes to a double-headed arrow, and then click and drag.
 Splitting and Joining
 ---------------------
 
-Area Spit Widget
+Area Split Widget
 ^^^^^^^^^^^^^^^^
 
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
@@ -67,7 +67,7 @@ Area Options
 Split Area
    Shows a indicator line that lets you select the area and position where to split.
    :kbd:`Tab` switches between vertical/horizontal. 
-Join Area
+Join Areas
    Shows the join direction overlay.
 
 Confirm or cancel works as described above.

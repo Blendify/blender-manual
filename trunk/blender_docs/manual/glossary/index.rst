@@ -102,7 +102,7 @@ This page lists definitions for terms used in Blender and this manual.
    Boolean
       A type of logic dealing with binary true/false states.
 
-      See also :doc:`boolean modifier </modeling/modifiers/generate/booleans>`
+      See also :doc:`boolean modifier </modeling/modifiers/generate/booleans>`.
 
    Bounce
       Refers to the reflection or transmission of a light ray upon interaction with a material.
@@ -176,7 +176,7 @@ This page lists definitions for terms used in Blender and this manual.
    Controller
       A :term:`logic brick` that acts like the brain of a lifeform.
       It makes decisions to activate muscles (:term:`actuators <actuator>`),
-      either using simple logic or complex Python scripts.
+      using either simple logic or complex Python scripts.
 
    Convex face
       Face where, if lines were drawn from each vertex to every other vertex, all lines would remain in the face.
@@ -270,7 +270,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Focal Length
       The distance required by a lens to focus collimated light.
-      Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`
+      Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`.
 
    FSAA
    Full-Screen Anti-Aliasing
@@ -365,7 +365,7 @@ This page lists definitions for terms used in Blender and this manual.
       A device for organizing objects. See also :doc:`Layers </editors/3dview/object/properties/relations/layers>`.
 
    Local Space
-      A 3D coordinate system that originates (for Objects) at the :term:`Object Center`
+      A 3D coordinate system that originates (for Objects) at the :term:`Object Center`.
       or (for Bones) at the :term:`Head` of the :term:`Bone`.
 
       Compare to :term:`World Space`.
@@ -404,7 +404,7 @@ This page lists definitions for terms used in Blender and this manual.
       Simulating motion blur makes computer animation appear more realistic.
 
    Multi-sampling
-      See :term:`FSAA`
+      See :term:`FSAA`.
 
    Ngon
       A :term:`face` that contains more than four :term:`vertices <vertex>`.
@@ -476,7 +476,7 @@ This page lists definitions for terms used in Blender and this manual.
       Also called Anti-Aliasing.
 
    Overscan
-      The term used to describe the situation
+      The term used to describe the situation.
       when not all of a televised image is present on a viewing screen.
 
       See also `Overscan <https://en.wikipedia.org/wiki/Overscan>`__ on Wikipedia.
@@ -525,7 +525,7 @@ This page lists definitions for terms used in Blender and this manual.
       to achieve an aesthetically pleasing pose for a character.
 
    Premultiplied Alpha
-      See :term:`Alpha Channel`
+      See :term:`Alpha Channel`.
 
    Primitive
       A basic object that can be used as a basis for modeling more complicated objects.
@@ -566,7 +566,7 @@ This page lists definitions for terms used in Blender and this manual.
       but it is quite different from :term:`Axis Angle`.
 
    Radiosity
-      A global lighting method
+      A global lighting method.
       that calculates patterns of light and shadow for rendering graphics images from three-dimensional models.
       One of the many different tools which can simulate diffuse lighting in Blender.
 
@@ -617,7 +617,7 @@ This page lists definitions for terms used in Blender and this manual.
       Also used to refer to highlights on reflective objects.
 
    Straight Alpha
-      See :term:`Alpha Channel`
+      See :term:`Alpha Channel`.
 
    Subsurface scattering
       Mechanism of light transport in which light penetrates the surface of a translucent object,
@@ -639,7 +639,7 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also
       `Catmull-Clark subdivision surface <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
-      on Wikipedia
+      on Wikipedia.
 
    Tail
       A subcomponent of a :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space`

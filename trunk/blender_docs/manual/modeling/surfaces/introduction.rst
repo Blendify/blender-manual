@@ -23,7 +23,7 @@ resolution) *independently* for each of these two dimensions
 (the U and V fields for all these settings, of course).
 
 You may ask yourself "but the surface appears to be 3D, why is it only 2D?".
-In order to be 3D, the object needs to have "Volume," and a surface, even when it is closed,
+In order to be 3D, the object needs to have "Volume", and a surface, even when it is closed,
 does not have volume; it is infinitely thin.
 If it had a volume the surface would have a thickness (its third dimension). Hence,
 it is only a 2D object, and has only two interpolation dimensions or axes or coordinates

@@ -50,7 +50,7 @@ To assign a custom shape to a bone, you have to:
 - Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
 - Select the relevant bone by clicking on it with :kbd:`RMB`.
 - Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
-  in this example we are using a cube and a cone. Tou can optionally set the *At* field to another bone.
+  in this example we are using a cube and a cone. You can optionally set the *At* field to another bone.
 
 .. figure:: /images/rigging_armatures_visualization_custom-shape-field.png
 
