@@ -1,7 +1,8 @@
 .. _ui-eye-dropper:
 
+**********
 Eyedropper
-==========
+**********
 
 The eyedropper (pipette icon) allows you to sample from anywhere in the Blender window.
 The eyedropper can be used to select different kinds of data:

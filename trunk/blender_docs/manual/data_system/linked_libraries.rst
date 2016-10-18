@@ -19,7 +19,7 @@ but changes in the external source file will not be reflected in the referencing
 
    | Mode:     All Modes
    | Menu:     :menuselection:`File --> Append or Link`
-   | Hotkey:   :kbd:`Shift-F1`  or  :kbd:`Ctrl-Alt-O`
+   | Hotkey:   :kbd:`Shift-F1` or :kbd:`Ctrl-Alt-O`
 
 In the :doc:`File Browser </editors/file_browser/introduction>`
 navigate to the external source blend-file and select the data-block you want to reuse.
@@ -31,10 +31,15 @@ Relative Path
 Select
    Makes the object *Active* after it is loaded.
 Active Layer
-   Enabled by default, the object is assigned to the visible layers in your scene.
+   The object will be assigned to the visible layers in your scene.
    Otherwise, it is assigned to the same layers it resides on in the source file.
 Instance Groups
    This option links the Group to an object, adding it to the active scene.
+
+Fake User
+   Sets a :ref:`Fake User <data-system-datablock-fake-user>` for the append items.
+Localize All
+   ToDo.
 
 When you select an Object type, it will be placed in your scene at the cursor.
 Many other data types, cameras, curves, and materials for example,
