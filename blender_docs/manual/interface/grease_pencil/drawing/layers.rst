@@ -99,7 +99,7 @@ Animation
 =========
 
 Parent
-   A :ref:`Object Selector <ui-eye-dropper>` to select the :term:`parent` object.
+   An :ref:`Object Selector <ui-eye-dropper>` to select the :term:`parent` object.
 
    Type
       TODO.
