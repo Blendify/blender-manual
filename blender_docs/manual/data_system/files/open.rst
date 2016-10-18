@@ -33,11 +33,14 @@ Options
 .. _file-load-ui:
 
 Load UI
-   Inside each blend-file, Blender saves the user interface arrangement.
-   By default, this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
-   If you want to work on the blend-file using your own defaults, start a fresh Blender,
-   then open the file browser and turn off the *Load UI* button,
-   and then open the file.
+   When *Load UI* is checked, it loads the screen layout saved inside each blend-file,
+   replacing the current layout. Otherwise the file screen layout is ignored.
+   
+   .. tip::
+
+      If you want to work on the blend-file using your own defaults, start a fresh Blender,
+      then open the file browser and turn off the *Load UI* button, and then open the file.
+
 Trusted Source
    When enabled, Python scripts and drivers that may be included in the file will be run automatically.
    Enable this only if you created the file yourself,

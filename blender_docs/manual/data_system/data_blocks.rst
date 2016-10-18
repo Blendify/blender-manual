@@ -47,6 +47,8 @@ In some cases, you want to save a data-block even when it is unused
 (typically for re-usable asset libraries). see `Fake User`_.
 
 
+.. _data-system-datablock-fake-user:
+
 Fake User
 ---------
 

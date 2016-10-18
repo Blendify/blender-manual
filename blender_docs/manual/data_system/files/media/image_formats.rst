@@ -137,6 +137,16 @@ Images higher than 8 bits per channel will be converted into a float on loading 
    and the Compositor.
 
 
+Export
+------
+
+Save As Render
+   ToDo.
+Copy
+   The Copy checkbox will define if the data-block will reference the newly created file
+   or the reference will be unchanged, maintaining it with the original one.
+
+
 Format Details
 ==============
 

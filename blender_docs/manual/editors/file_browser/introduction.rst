@@ -11,25 +11,28 @@ Introduction
 Usage
 =====
 
-The file browser has multiple uses, while its often used for save/load,
-it can be kept open for other uses too.
+The File Browser is used in all the file-related operations.
+It has multiple use cases, while its often used for save/load.
 
-Use cases include:
+These include:
 
 - Opening and Saving Blend files.
 - Import/Export other file formats.
 - Picking new locations for existing file-paths (images, video, fonts... etc).
 - Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 
-You can also keep the File Browser open, as with any other editor type.
-In this case the button to load a file is removed.
+You can also keep the File Browser open, as with any other editor type,
+to browse through the file system. In this case of confirm/cancel buttons will be absence.
 
 The main purpose of this is to be able to drag media files:
 
 - Images into the :ref:`editors-sequencer-index` (to set background or apply as material textures).
 - Media files into the :ref:`editors-sequencer-index`.
 
-
+On the other hand, if the File Browser is opened for a file action (opening, saving, importing, etc.),
+it will appear maximized and waiting for an operation to complete before returning to the former screen layout. 
+ 
+ 
 .. _file-browser-open-sequence:
 
 Opening an Image Sequence
@@ -50,17 +53,17 @@ Header
 Navigation icon buttons
    Tools for navigation of files.
 
-   Left Arrow
+   Left Arrow :kbd:`Backspace`
       Move to previous folder.
-   Right Arrow
+   Right Arrow :kbd:`Shift-Backspace`
       Move to next folder.
-   Up Arrow
+   Up Arrow :kbd:`P`
       Move up to parent directory.
-   Cycle Arrows
+   Cycle Arrows :kbd:`Numpad .`
       Refresh current folder.
 
 Create Directory
-   Prompts you to enter the name of a newly created directory :kbd:`I`
+   Prompts you to enter the name of a newly created directory inside the current one :kbd:`I`.
 Recursion
    The number of directory levels to show at once.
 
@@ -84,21 +87,21 @@ Sorting
 
    - Alphabetically
    - By file type
-   - By Date of last edit
+   - By date of last edit
    - By file size
 Show hidden
-   Shows files that start with ``.`` :kbd:`H`.
+   Shows hidden files (starting with ``.``) :kbd:`H`.
 File filtering
    Filters files by type.
 
    - Folders
    - blend-files
    - Backup blend-files
-   - Images
+   - Image files
    - Movie files
-   - Scripts
+   - Script files
    - Font files
-   - Music files
+   - Sound files
    - Text files
 
    Search box
@@ -109,44 +112,79 @@ File Region
 ===========
 
 File Path
+   The text field for the current path.
    Auto Complete :kbd:`Tab` will auto-complete an existing paths.
+   If you type a non existing directory path, you will be prompted to create that new directory.
 File Name
-   Textbox to edit the file name and extension.
+   Text field to edit the file name and extension.
    If the background is red, a file with same name already exist in the folder.
+   :kbd:`Tab` will auto-complete to existing names in the current directory.
 Increment Filename ``+``, ``-``
-   Adds/increase or removes/decreases a trailing number to your file name 
+   Adds/increase or removes/decreases a trailing number to your file name
    (use to make *versions* of a file).
-Execute
-   The main button to Open Directory/File or Save (As) :kbd:`Return`.
+Confirm
+   The main button to Open Directory/File or Save (As) :kbd:`Return` or
+   double click with :kbd`LMB` on the entry confirms with that file or data-block.
 
    - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file`).
    - :kbd:`Alt-LMB` -- Open the directory externally (using the systems file manager).
 Chancel
-   Cancels the Open or Save file selection and closes the File browser :kbd:`Esc`.
+   Cancels the Open or Save file selection and closes the File browser :kbd:`Esc` or
+   by using the *Back to Previous* in the Info editor header.
 
 
 Tool Shelf
 ==========
 
 The left region displays different ways to find files and several options.
+Clicking with :kbd:`LMB` on one of the entries, the File Browser will navigate to that folder.
+
 
 System
-   The system menu contains a list of drives that are available
-   to navigate through to find files. Click on one to jump to that drive.
-System Bookmarks
-   Bookmarks that are common for a particular operating system.
-Bookmarks
-   These are folders that you want to be able to access often without 
-   having to navigate to them in the file browser. 
-   To add a directory to the bookmark menu, navigate to that folder,
-   then click the *Add* button.
-   To remove a folder from the list, simply click the *X* icon next to it.
-Recent
-   This is a list of recently accessed folders. You can control how many folders appear in this
-   list by going to the *File* tab of the :doc:`User Preferences </preferences/file>`,
-   in the box labeled *Recent Files*.
+------
 
-.. (todo) link open/save file options.
+The system panel contains a list of drives that are available
+to navigate through to find files.
+
+
+System Bookmarks
+----------------
+
+Bookmarks that are common for a particular operating system.
+
+
+Bookmarks
+---------
+
+A :ref:`List View <ui-list-view>` of shortcuts to folders,
+that you want to be able to access often without having to navigate to them in the file browser. 
+
+Add ``+``
+   This button adds the current directory to the list.
+
+
+Recent
+------
+
+This is a list of recently accessed folders. You can control how many folders appear in this
+list by going to the *File* tab of the :doc:`User Preferences </preferences/file>`,
+in the *Recent Files* number button.
+
+
+Operator Panel
+--------------
+
+Link/Append from Library
+   See :doc:`Linked libraries </data_system/linked_libraries>`.
+Open, Save, Save As Blender File
+   See :doc:`/data_system/files/open` or :doc:`/data_system/files/save`.
+Open, Replace, Save As Image
+   See  :doc:`/data_system/files/media/image_formats`.
+
+For the common option:
+
+Relative Path
+   See :doc:`Relative paths </data_system/files/relative_paths>`.
 
 
 Main Region
@@ -155,6 +193,8 @@ Main Region
 Navigation
 ----------
 
+Entering a Directory
+   A single :kbd:`LMB` click on a directory enters that directory.
 Parent Directory :kbd:`Backspace`, :kbd:`P`
    Takes you up one level of directory.
 
@@ -172,6 +212,8 @@ Select
    Both :kbd:`LMB` and :kbd:`RMB` works.
 (De)select All :kbd:`A`
    Toggles selecting all files.
+Dragging
+   Dragging with :kbd:`LMB` starts a :ref:`border selection <select-border>`.
 
 
 Arrow Keys

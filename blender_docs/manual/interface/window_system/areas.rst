@@ -31,7 +31,7 @@ Splitting and Joining
 ---------------------
 
 Area Split Widget
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
 

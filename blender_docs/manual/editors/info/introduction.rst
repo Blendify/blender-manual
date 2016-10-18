@@ -1,4 +1,3 @@
-..    TODO/Review: {{review}}.
 
 ************
 Introduction
@@ -93,15 +92,14 @@ Blender version
    This label displays the Blender version.
 Resource Information
    Scene
-      Displays information about the current loaded scene. 
-      It Depending on the mode and object type. When two numbers are shown, the first one means the selected,
-      and the second one means total. The number of vertices, faces, triangles or bones.
-      As well as the selected objects and lamps.
+      Displays information about the current loaded scene dependent on the mode and object type.
+      When two numbers are shown, the first one means the selected, and the second one means the total count.
+      This can be the number of vertices, faces, triangles or bones, as well as the selected objects and lamps.
    Memory
       The "Mem" label shows the calculated memory consumption by Blender.
       This can help to identify, when you are reaching the limits of your hardware.
    Active Object
-      The object type of the current selected active object.
+      The object type of the current selected object.
 
 
 .. _info-report-console:
