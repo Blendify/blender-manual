@@ -1,3 +1,4 @@
+.. _bpy.types.Object.location:
 
 ********************
 Transform Properties
