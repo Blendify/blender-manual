@@ -71,3 +71,26 @@ Related Sections
 :doc:`Motion Tracking </editors/movie_clip_editor/index>`
    Motion tracking is a technique available in Blender that supports basic operations for 2D motion tracking,
    3D motion tracking, and camera solution.
+
+
+State Colors
+============
+
+.. figure:: /images/animation_properties.png
+
+   State colors of properties.
+
+Properties have different colors and menu items for different states.
+
+.. object origin, 3d view overlay
+
+.. list-table::
+
+   * - Gray
+     - Default
+   * - Yellow
+     - Keyframes
+   * - Green
+     - Animated
+   * - Purple
+     - Driver
