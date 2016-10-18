@@ -73,7 +73,8 @@ Merge Limit
    In other words, a vertex may be half this distance away from the mirror plane before it snaps to it.
 
 Mirror Object
-   The name of another object (usually an empty), to be used as the reference for the mirror process:
+   An :ref:`Object Selector <ui-eye-dropper>` to select an object (usually an empty),
+   to be used as the reference for the mirror process:
    its center and axes will drive the plane(s) of symmetry.
    You can of course animate its position/rotation to animate the mirror effect.
 
