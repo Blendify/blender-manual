@@ -8,7 +8,7 @@ When an object is selected, a small circle appears, denoting the origin point.
 The location of the origin point is important when translating, rotating or scaling an object.
 See :doc:`Pivot Points </editors/3dview/object/transform/transform_control/pivot_point/index>` for more.
 
-The color of the origin is set by the :doc:`/animation/state_colors` and
+The color of the origin is set by the :ref:`animation-state-colors` and
 the size can be changed in the :doc:`Interface tab </preferences/interface>` of the User Preferences.
 
 
