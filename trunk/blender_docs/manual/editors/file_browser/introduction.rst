@@ -5,7 +5,7 @@ Introduction
 
 .. figure:: /images/editors_file_editor.png
 
-   File Browser.
+   The File Browser.
 
 
 Usage
@@ -22,7 +22,7 @@ These include:
 - Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 
 You can also keep the File Browser open, as with any other editor type,
-to browse through the file system. In this case of confirm/cancel buttons will be absence.
+to browse through the file system. In this case of confirm/cancel buttons will be absent.
 
 The main purpose of this is to be able to drag media files:
 

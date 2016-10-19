@@ -19,15 +19,6 @@ Blender comes with a number of "primitive" mesh shapes that you can start modeli
 
    Blender's standard primitives.
 
-
-Options included in more than one primitive are:
-
-Radius
-   Sets the starting size for *Circle*, *Cylinder*, *Cone*, *UVSphere* and *IcoSphere*.
-Depth
-   Sets the starting length for *Cylinder* and *Cone*.
-
-
 .. note:: Note about planar primitives
 
    You can make a planar mesh three-dimensional by moving one or more of the vertices out of its plane
@@ -35,12 +26,34 @@ Depth
    A simple circle is actually often used as a starting point to create even the most complex of meshes.
 
 
+Common Options
+==============
+
+The Option can be specified in the Operator panel in the *Tool Shelf*,
+which appears when the object is created.
+Options included in more than one primitive are:
+
+Vertices, Segments, Subdivisions
+   Since the edges of a mesh are straight specifying a number of vertices produces polygonal shapes.
+   i.e. six vertices for an hexagon.
+   The higher the vertex count the closer a circular/spherical shape will be approximated and
+   the shape will appear smoother.
+Radius, Size
+   Sets the starting size.
+
+   .. from the center to what? compare plane to circle (3 vertices)
+
+Generate UVs
+   ToDo.
+
+
+
 Plane
 =====
 
-A standard plane contains four vertices, four edges, and one face.
+The standard plane is a single quad face, which is composed out of four vertices, four edges, and one face.
 It is like a piece of paper lying on a table;
-it is not a real three-dimensional object because it is flat and has no thickness.
+it is not a three-dimensional object because it is flat and has no thickness.
 Objects that can be created with planes include floors, tabletops, or mirrors.
 
 
@@ -48,32 +61,22 @@ Cube
 ====
 
 A standard cube contains eight vertices, twelve edges, and six faces,
-and is a real three-dimensional object. Objects that can be created out of cubes include dice,
+and is a three-dimensional object. Objects that can be created out of cubes include dice,
 boxes, or crates.
 
 
 Circle
 ======
 
-A standard circle is comprised of *n* vertices. The number of vertices and radius can be
-specified in the context panel in the *Tool Shelf* which appears when the circle is
-created.
-
 Vertices
-   The number of vertices that define the circle.
-   The more vertices the circle contains, the smoother its contour will be;
-   see ("Circles" obtained with various settings).
-   In contrast, a circle with only three vertices is actually a triangle --
-   the circle is actually the standard way of adding polygons such as triangles, pentagons, et cetera.
-Radius
-   Sets the radius of the circle.
+   The number of vertices that define the circle or polygon.
 Fill Type
    Set how the circle will be filled.
 
    Triangle Fan
       Fill with triangular faces which share a vertex in the middle.
-   Ngon
-      Fill with a single ngon.
+   N-gon
+      Fill with a single n-gon.
    Nothing
       Do not fill. Creates only the outer ring of vertices.
 
@@ -81,67 +84,47 @@ Fill Type
 UV Sphere
 =========
 
-A standard UV sphere is made out of *n* segments and *m* rings. The level of detail and
-radius can be specified in the context panel in the *Tool Shelf* which appears when
-the UV sphere is created.
-Increasing the number of segments and rings makes the surface of the UV sphere smoother.
+A standard UV sphere is made out of quad faces and a triangle fan at the top and bottom.
+It can be used for texturing.
 
 Segments
-   Number of vertical segments. Like Earth's meridians, going pole to pole.
+   Number of vertical segments. Like the Earth's meridians, going pole to pole.
 Rings
-   Number of horizontal segments. These are like Earth's parallels.
+   Number of horizontal segments. These are like the Earth's parallels.
 
+   .. note::
 
-.. note::
-
-   If you specify a six segment, six ring UV sphere you will get something which, in top view,
-   is a hexagon (six segments), with five rings plus two points at the poles.
-   Thus, one ring fewer than expected, or one more, if you count the poles as rings of radius 0.
+      Rings are the face loops and not the edge loops, which would be minus one.
 
 
 Icosphere
 =========
 
-An icosphere is a polyhedra sphere made up of triangles. The number of subdivisions and radius
-can be specified in the context panel in the *Tool Shelf* after the Icosphere is
-created. Icospheres are normally used to achieve a more isotropical and economical layout of
+An icosphere is a polyhedra sphere made up of triangles.
+Icospheres are normally used to achieve a more isotropical layout of
 vertices than a UV sphere.
 
 Subdivisions
    How many recursions are used to define the sphere.
-   Increasing the number of subdivisions makes the surface of the Icosphere smoother.
    At level 1 the Icosphere is an icosahedron, a solid with 20 equilateral triangular faces.
-   Any increasing level of subdivision splits each triangular face into four triangles,
-   resulting in a more spherical appearance.
-
-Size
-   The radius of the sphere.
-
+   Any increasing level of subdivision splits each triangular face into four triangles.
 
 .. note::
 
-   It is possible to add an icosphere subdivided 500 times.
-   Adding such a dense mesh is a sure way to cause a program crash.
-   An icosphere subdivided 10 times would have 5,242,880 triangles, so be very careful about this!
+   Subdividing an icosphere rises the vertex count very high even with few iterations 
+   (10 times creates 5,242,880 triangles),
+   Adding such a dense mesh is a sure way to cause the program to crash.
 
 
 Cylinder
 ========
 
-A standard cylinder is made out of *n* vertices. The number of vertices in the circular
-cross-section can be specified in the context panel in the *Tool Shelf* that appears
-when the object is created; the higher the number of vertices,
-the smoother the circular cross-section becomes.
 Objects that can be created out of cylinders include handles or rods.
 
 Vertices
-   Then number of vertical edge loops used to define the cylinder.
-   Similarly to the circle, specifying a small number of vertices produces an object with a polygonal cross section
-   (a prism).
-Radius
-   Sets the radius of the cylinder.
+   The number of vertical edges between the circles used to define the cylinder or prism.
 Depth
-   Sets the height of the cylinder.
+   Sets the starting height for the cylinder.
 
 Cap Fill Type
    Similar to circle (see above). When set to none, the created object will be a tube.
@@ -152,22 +135,17 @@ Cap Fill Type
 Cone
 ====
 
-A standard cone is made out of *n* vertices. The number of vertices in the circular base,
-dimensions and option to close the base of the cone can be specified in the context panel in
-the *Tool Shelf* that appears when the object is created;
-the higher the number of vertices, the smoother the circular base becomes.
 Objects that can be created out of cones include spikes or pointed hats.
 
 Vertices
-   The number of vertical edge loops used to define the cone.
-   Similarly to the circle and cylinder,
-   specifying a small number of vertices produces an object with a polygonal base section (a pyramid).
+   The number of vertical edges between the circles or tip, used to define the cone or pyramid.
 Radius 1
-   Sets the radius of the base of the cone.
+   Sets the radius of the circular base of the cone.
 Radius 2
-   Sets the radius of the tip of the cone. A value of 0 will produce a standard cone shape.
+   Sets the radius of the tip of the cone. which will creates a frustum.
+   A value of 0 will produce a standard cone shape.
 Depth
-   Sets the height of the cylinder.
+   Sets the starting height for the cone.
 
 Base Fill Type
    Similar to circle (see above).
@@ -177,11 +155,10 @@ Torus
 =====
 
 A doughnut-shaped primitive created by rotating a circle around an axis.
-The overall dimensions are defined by the *Major* and *Minor Radius*.
-The number of vertices (in segments) can be different for the circles and is specified in the
-context panel in the *Tool Shelf* with both radii
-(*Major Segments* and *Minor Segments*).
+The overall dimensions can be defined by two methods.
 
+Operator Presets
+   Torus preset settings for reuse. These presets are stored as scripts in the proper presets directory. 
 Major Segments
    Number of segments for the main ring of the torus.
    If you think of a torus as a "spin" operation around an axis, this is how many steps in the spin.
@@ -214,21 +191,14 @@ Add Mode
 Grid
 ====
 
-A standard grid is made out of *n* by *m* vertices. The resolution of the x-axis and
-y-axis can be specified in the context panel in the *Tool Shelf* which appears when
-the object is created; the higher the resolution, the more vertices are created.
+A regular quadratic grid which is a subdivided plane.
 Example objects that can be created out of grids include landscapes
-(with the proportional editing tool or *Displace* modifier)
-and other organic surfaces. You can also obtain a grid when you create a plane and then use a
-subdivide modifier in *Edit Mode*. However,
-there is a *Landscape* add-on available in the *User Preferences*.
+and other organic surfaces.
 
 X Subdivisions
-   The number of spans in the x direction. Minimum of 3, creating two face loops.
+   The number of spans in the X axis.
 Y Subdivisions
-   The number of spans in the y direction.
-Size
-   The length of the sides of the grid.
+   The number of spans in the Y axis.
 
 
 Monkey

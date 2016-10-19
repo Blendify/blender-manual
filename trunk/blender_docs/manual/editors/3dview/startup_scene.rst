@@ -60,7 +60,7 @@ Object Info
    Shown in brackets is the current frame. Followed by the name of the :ref:`active object <object-active>`.
    And optionally the selected :doc:`shape key </animation/shape_keys/index>` and
    in brackets (<>) the :doc:`/animation/markers` name on the current frame. 
-   The color of the Object Info is set by the`/animation/state_colors` (keyframe only).
+   The color of the Object Info is set by the :ref:`animation-state-colors` (keyframe only).
 
 
 .. saving the startup scene part of the startup file, rendering the startup scene

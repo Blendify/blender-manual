@@ -73,6 +73,8 @@ Related Sections
    3D motion tracking, and camera solution.
 
 
+.. _animation-state-colors:
+
 State Colors
 ============
 

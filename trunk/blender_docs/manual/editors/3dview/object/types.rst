@@ -51,4 +51,25 @@ Force Field
    They give simulations external forces, creating movement,
    and are represented in the 3D View editor as small control objects.
 Group Instance
+   Lets you select from a list of existing object groups. 
+   Once selected, an Empty object will be created, with an instance of the selected group (group duplication active).
    See :doc:`/editors/3dview/object/properties/duplication/dupligroup`.
+
+
+Common Options
+==============
+
+You can change the options of the object in the Operator panel just after creating it:
+
+Type
+   Some objects let you change its type after creation with a selector.
+
+Align to View
+   By default objects are aligned to the global space axes.
+   This option rotates the new object so that it is aligned to the view space.
+Location
+   Objects are placed, by default, at the position of the 3D Cursor. 
+   This values let you place the object in an other position.
+Rotation
+   Values let you rotate the object so that default rotation is overridden.
+
