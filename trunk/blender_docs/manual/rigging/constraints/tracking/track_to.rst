@@ -39,6 +39,9 @@ Targets
       When *Target* is an armature, a new field for a bone is displayed.
    Head/Tail
       When using a bone target, you can choose where along this bone the target point lies.
+   Follow Bendy Bones      
+      When using a b-bone as a target, click on this button to make the target point between head and tail follow the 
+      lenght of the B-Spline curve instead of the absolute distance of the head and tail of the original b-bone.
    Vertex Group
       When *Target* is a mesh, a new field is display where a vertex group can be selected.
 
