@@ -13,9 +13,9 @@ Objects/Object-Data
    This is used with object buttons such as parent, constraints or modifiers to
    select an object from the 3D View.
 Camera Depth
-   Number buttons effecting distance can also use the eye-dropper,
-   this is most useful for camera depth of field.
+   Number buttons effecting distance can also use the eye-dropper.
+This is most useful for camera depth of field.
 
 - :kbd:`E` will activate the eye-dropper while hovering over a button.
-- :kbd:`LMB` dragging will mix the colors you drag over which can help when sampling noisy imagery.
+- :kbd:`LMB` dragging will mix the colors you drag over, which can help when sampling noisy imagery.
 - :kbd:`Spacebar` resets and starts mixing the colors again.
