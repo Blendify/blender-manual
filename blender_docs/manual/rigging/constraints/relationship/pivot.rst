@@ -26,7 +26,7 @@ Target
    Head/Tail
       When using a bone target, you can choose where along this bone the target point lies.
    Vertex Group
-      When *Target* is a mesh, a new field is display where a vertex group can be selected.
+      When *Target* is a mesh, a new field is displayed where a vertex group can be selected.
 
 Pivot Offset
    Offset of pivot from target.

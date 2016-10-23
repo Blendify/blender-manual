@@ -14,5 +14,5 @@ Values between (0.0 and 1.0), will have a partial effect, but be careful. These 
 be difficult to control,
 especially as the :doc:`constraint stack </rigging/constraints/interface/the_stack>` grows in complexity.
 
-The influence value is animatable, allowing constraints to be turned off, or or partially on as needed.
+The influence value is animatable, allowing constraints to be turned off, or partially on as needed.
 (see :doc:`Using Constraints in Animation </animation/techniques/constraints>`)

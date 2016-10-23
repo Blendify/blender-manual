@@ -13,7 +13,7 @@ Editing
 =======
 
 Flip (Distortion Free)
-   Mirrors the vertexes displacement from there base position.
+   Mirrors the vertexes displacement from their base position.
 
    U, V, W
 Make Regular
