@@ -18,7 +18,7 @@ A vertex is primarily a single point or position in 3D space.
 It is usually invisible in rendering and in *Object Mode*.
 Do not mistake the center point of an object for a vertex. It looks similar,
 but it is bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
-shows the center point labeled as "A", "B" and "C" are vertices.
+shows the center point labeled as "A"; "B" and "C" are vertices.
 
 .. _fig-mesh-topo-vector:
 
@@ -33,7 +33,7 @@ Blender cannot determine all three vertex coordinates from a single mouse click,
 so the new vertex is placed at the depth of the 3D cursor. Using the method described above,
 any vertices selected previously are automatically connected to the new ones by an edge.
 In the image above, the vertex labeled "C" is a new vertex added to the cube with a
-new edge added between in "B" and "C".
+new edge added between "B" and "C".
 
 
 Edges

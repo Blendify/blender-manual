@@ -26,7 +26,7 @@ The Overlays section provides controls for highlighting parts of the mesh.
 
 Edges
    Toggles the option to see the selected edges highlighted.
-   If enabled the edges that have both vertices selected will be highlighted
+   If enabled the edges that have both vertices selected will be highlighted.
    This only affects in vertex selection mode and when
    :doc:`UV Unwrapping </editors/uv_image/uv_editing/unwrapping/seams>`.
 Faces
@@ -68,6 +68,6 @@ Numerical measures of the selected elements on screen.
 The :ref:`data-scenes-props-units` can be set in the Scene tab.
 
 Edge Length and Edge Angle
-   Shows the lengths and angle of the selected edges.
+   Shows the length and angle of the selected edges.
 Face Area and Face Angle
    Show the area and angles of the selected faces.

@@ -3,7 +3,7 @@
 The Constraints Stack
 *********************
 
-The combination of all the constraints that affect an object are called the Constraints Stack.
+The combination of all the constraints affecting an object is called the Constraints Stack.
 The Stack is in the Constraints panel, below the "Add Constraint" menu.
 
 Constraints in the stack are evaluated from top to bottom.
