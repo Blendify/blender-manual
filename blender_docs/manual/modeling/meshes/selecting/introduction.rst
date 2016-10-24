@@ -48,7 +48,7 @@ Faces
    Selected faces and their selection point are drawn in orange,
    unselected faces are drawn in black, and the active or last selected face is highlighted in white.
 
-When using these button, you can make use of modifier keys, see: `Switching Select Mode`_.
+When using these buttons, you can make use of modifier keys, see: `Switching Select Mode`_.
 
 Almost all tools are available in all three mesh selection modes.
 So you can *Rotate*, *Scale*, *Extrude*, etc. in all modes.
@@ -130,7 +130,7 @@ Circle Select :kbd:`C`
 (De)select All :kbd:`A`
    Select all or none of the mesh components.
 Invert Selection :kbd:`Ctrl-I`
-   Selects all geometry that are not selected, and deselect currently selected components.
+   Selects all geometries that are not selected, and deselect currently selected components.
 Select Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 Checker Deselect
@@ -168,9 +168,9 @@ Less :kbd:`Ctrl-NumpadMinus`
 Mirror
    Select mesh items at the mirrored location.
 Pick Linked :kbd:`L`
-   Selects all geometry connected to the geometry under the cursor.
+   Selects all geometries connected to the geometry under the cursor.
 Linked :kbd:`Ctrl-L`
-   Selects all geometry that are connected to the current selection.
+   Selects all geometries connected to the current selection.
 Vertex Path
    Selects a vertex path between two selected vertices
 Edge Loop

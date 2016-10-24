@@ -52,7 +52,7 @@ Interface
 
 Each modifier has been brought in from a different part of Blender,
 so each has its own unique settings and special considerations. However,
-each modifier's interface has the same basic components, see Fig. :ref:`fig-modifiers-panel-layout`
+each modifier's interface has the same basic components, see Fig. :ref:`fig-modifiers-panel-layout`.
 
 At the top is the *panel header*.
 The icons each represent different settings for the modifier (left to right):
@@ -104,7 +104,7 @@ Below this header, all of the options unique to each modifier will be displayed.
 The Modifier Stack
 ------------------
 
-Modifiers are a series of non-destructive operations which can be applied on top of an objects geometry.
+Modifiers are a series of non-destructive operations which can be applied on top of an object's geometry.
 They can be applied in just about any order the users chooses.
 
 This kind of functionality is often referred to as a "modifier stack"
