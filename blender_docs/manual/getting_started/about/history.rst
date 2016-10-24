@@ -173,7 +173,7 @@ Blender 2.6x to 2.7x -- Improvements & Stabilizing
 
 - `2.60 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.60>`__ -- October 2011:
   Internationalization of the UI, improvements in animation system and the GE, vertex weight groups modifiers,
-  3D audio and video, bug fixes, and the UI internationalization.
+  3D audio and video, and bug fixes.
 - `2.61 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.61>`__ -- December 2011:
   The Cycles renderer was added in trunk, the camera tracker was added, dynamic paint for modifying textures
   with mesh contact/approximation, the Ocean Sim modifier to simulate ocean and foam, new add-ons, bug fixes,
