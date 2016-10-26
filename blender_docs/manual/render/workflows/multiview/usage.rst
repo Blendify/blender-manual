@@ -335,14 +335,12 @@ regardless of the Image nodes resolutions or Render Layers from different scenes
    the image will be treated as a single-view image.
 
 Switch View Node
-   If you need to treat the views separately you can use the Switch View node
+   If you need to treat the views separately you can use the
+   :doc:`Switch View node </compositing/types/converter/switch_view>`
    to combine the views before an output node.
 
-   .. figure:: /images/compositing_nodes_converter_switch-view.png
+.. tip:: Performance
 
-      Switch View Node.
-
-Performance
-   By default when compositing and rendering from the user interface all views are rendered and then composited.
+   By default, when compositing and rendering from the user interface all views are rendered and then composited.
    During test iterations you can disable all but one view from the Scene Views panel,
    and re-enable it after you get the final look.
