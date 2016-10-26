@@ -14,7 +14,8 @@ Objects/Object-Data
    select an object from the 3D View.
 Camera Depth
    Number buttons effecting distance can also use the eye-dropper.
-This is most useful for camera depth of field.
+
+   This is used to set the cameras depth of field so the depth chosen is in focus.
 
 - :kbd:`E` will activate the eye-dropper while hovering over a button.
 - :kbd:`LMB` dragging will mix the colors you drag over, which can help when sampling noisy imagery.
