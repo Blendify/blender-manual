@@ -10,11 +10,15 @@ Switch View Node
 
 
 The *Switch View* node combines the *views* (left and right) into a single Stereo 3D output.
-This can be useful if for example, you need to treat the view as seperate images by combining each of the views.
+This can be useful if for example, you need to treat the view as separate images by combining each of the views.
+
+.. container:: lead
+
+   .. clear
 
 .. seealso::
 
-   :doc:`Multi-View </render/workflows/multiview/index>`.
+   :doc:`The Multi-View Workflow </render/workflows/multiview/index>`.
 
 
 Inputs
