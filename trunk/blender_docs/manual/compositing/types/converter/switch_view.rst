@@ -8,10 +8,13 @@ Switch View Node
 
    Switch View Node.
 
-TODO - see: https://developer.blender.org/T43469
 
-This node combine the *views* (left and right) into single Stereo 3D output.
-See :doc:`Multi-View </render/workflows/multiview/index>`.
+The *Switch View* node combines the *views* (left and right) into a single Stereo 3D output.
+This can be useful if for example, you need to treat the view as seperate images by combining each of the views.
+
+.. seealso::
+
+   :doc:`Multi-View </render/workflows/multiview/index>`.
 
 
 Inputs
@@ -34,3 +37,16 @@ Outputs
 
 Image
    Stereo 3D image output.
+
+
+Example
+=======
+
+
+.. figure:: /images/multiview_compositor.png
+
+   Compositor, Backdrop and Split Viewer Node.
+
+The views to render are defined in the current scene views,
+in a similar way as you define the composite output resolution in the current scene render panel,
+regardless of the Image nodes resolutions or Render Layers from different scenes.
