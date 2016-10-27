@@ -12,8 +12,7 @@ Tone mapping is a technique used in image processing and computer graphics to ma
 colors to another in order to approximate the appearance of high dynamic range images in a
 medium that has a more limited dynamic range.
 
-Essentially,
-tone mapping addresses the problem of strong contrast reduction from the scene values
+Essentially, tone mapping addresses the problem of strong contrast reduction from the scene values
 (radiance) to the displayable range, while preserving the image details and color appearance.
 This is important to appreciate the original scene content.
 
@@ -22,7 +21,7 @@ Inputs
 ======
 
 Image
-   HDR image.
+   :abbr:`HDR (High Dynamic Range)` image.
 
 
 Properties
@@ -52,5 +51,4 @@ Outputs
 =======
 
 Image
-   LDR image.
-
+   :abbr:`LDR (Low Dynamic Range)` image.
