@@ -17,7 +17,7 @@ Tabs
 The Properties editor shows several tabs,
 which can be chosen via the icon row in the header.
 The tabs are documented in their own manual sections,
-the links are list below.
+the links are listed below.
 
 
 Scene/Render
@@ -45,7 +45,7 @@ Object & Object Data
 --------------------
 
 These tabs are used to add features, and to change properties for the Active Object
-(and other active elements, material, curve... etc).
+(and other active elements, material, curve, etc.).
 
 .. figure:: /images/properties_object.png
    :align: right
@@ -102,7 +102,7 @@ Main View
 
    The Properties Editor with the Mesh tab selected.
 
-At the top of the each tab a list of icons explains the context in which the properties is being edited.
+At the top of the each tab a list of icons explains the context in which the properties are being edited.
 In the example above, the mesh *Cube* is linked to the object *Cube* which is linked to the scene *Scene*.
 
 .. This is a branch of the scene graph?

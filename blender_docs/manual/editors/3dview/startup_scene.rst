@@ -21,7 +21,7 @@ Cube
    
    Object Origin
       The :doc:`Origin of the object </editors/3dview/object/transform/origin>` is displayed as
-      an orange dot and it marks the cubes (relative) position.
+      an orange dot and it marks the cube's (relative) position.
    Transformation Widget
       This :doc:`widget </editors/3dview/object/transform/transform_control/manipulators>`
       is composed out of a white circle and three colored (red, green, and blue) arrows.
@@ -33,9 +33,9 @@ Lamp
 
 Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.
-   Cameras in: :doc:`Blender Internal </render/blender_render/camera/index>`, :doc:`Cycles </render/cycles/camera>`.
+   Cameras in :doc:`Blender Internal </render/blender_render/camera/index>`, :doc:`Cycles </render/cycles/camera>`.
 3D Cursor
-   The :doc:`3D cursor </editors/3dview/3d_cursor>` a cross with a red and white circle
+   The :doc:`3D cursor </editors/3dview/3d_cursor>`, a cross with a red and white circle,
    is used for placing objects in the scene.
 Grid Floor
    The gray squares forming a floor mark the zero height of the world.
@@ -50,7 +50,7 @@ Overlays
 The visibility and settings of the overlays can be set in the :doc:`User Preferences </preferences/interface>`.
 
 View Name
-   If the viewport camera is not aligned the view is named "User" plus
+   If the viewport camera is not aligned, the view is named "User" plus
    the perspective of the viewport camera.
 Playback FPS
    Displays the Frames Per Second screen rate, while playing an animation back.

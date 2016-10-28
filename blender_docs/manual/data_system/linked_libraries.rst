@@ -112,6 +112,6 @@ Object Rigid-Body Constraints
 
 When linking objects *directly* into a blend-file,
 the *Rigid Body* settings **will not** be linked in
-since they are associated with their scenes world.
+since they are associated with their scene's world.
 
 As an alternative, you could link in the entire scene and set it as a :ref:`Background Set <scene-background-set>`.
