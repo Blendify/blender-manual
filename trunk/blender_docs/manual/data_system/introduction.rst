@@ -44,8 +44,8 @@ Unpack Data
 
 When you have received a packed file,
 you can :menuselection:`File --> External Data --> Unpack into Files...`.
-If files are packed, there is also track of its original path,
-which can also be relative or absolute (this is needed in case of unpacking to original location).
+If files are packed, there is also track of their original path,
+which can be relative or absolute (this is needed in case of unpacking to original location).
 
 
 Options
@@ -58,9 +58,9 @@ Write files to current directory (overwrite existing files)
    Unpacks all files in the same directory as the blend file, grouping them in proper folders (like ''textures'' for instance).
    If the final file exists already, it will overwrite it.
 Use files in original location (create when necessary)
-   Unpacks all files in its original location.
+   Unpacks all files in their original location.
    However, if the final file exists already, it will use that file, instead of unpacking it.
 Write files to original location (overwrite existing files)
-   Unpacks all files in its original location. If the final file exists already, it will overwrite it.
+   Unpacks all files in their original location. If the final file exists already, it will overwrite it.
 Disable AutoPack, keep all packed files
    Cancels the operation and deactivates the *Automatically Pack Into .blend* option.

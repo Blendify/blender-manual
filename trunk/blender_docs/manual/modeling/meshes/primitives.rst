@@ -94,7 +94,7 @@ Rings
 
    .. note::
 
-      Rings are the face loops and not the edge loops, which would be minus one.
+      Rings are face loops and not edge loops, which would be minus one.
 
 
 Icosphere
