@@ -26,7 +26,7 @@ Keyframe (yellow diamond)
 Breakdown (cyan small diamond)
    Breakdown state. e.g. for transitions between key poses.
 Moving Hold (slight orange diamond)
-   ToDo.
+   A keyframe that adds a small amount of motion around a holding pose.
 Extreme (red big diamond)
    An ‘extreme’ state, or some other purpose as needed.
 Jitter (green tiny diamond)
