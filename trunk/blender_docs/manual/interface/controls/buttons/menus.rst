@@ -25,9 +25,9 @@ All Menu entries show the relevant shortcut keys, if any.
 Collapsing Menus
 ----------------
 
-Sometimes its helpful to gain some extra horizontal space in the header by collapsing menus,
+Sometimes it's helpful to gain some extra horizontal space in the header by collapsing menus,
 this can be accessed from the header context menu,
-simply right click on the header and enable set it to collapsed.
+simply right click on the header and enable it to collapsed.
 
 .. list-table::
 
@@ -67,7 +67,7 @@ They are spawned by menus showing up and down triangles on the right or
 after a key input at the mouse position.
 
 If the content is too large to fit on the screen, small indicator triangles appear.
-When moving the mouse over them they scrolls the pop-up.
+When moving the mouse over them scrolls the pop-up.
 
 For example, the *Viewport Shading* button will produce a pop-up menu
 with the available shading options.
@@ -78,7 +78,7 @@ Numerical selection
    You can use the number keys or :kbd:`Numpad` to input an item in the list to select.
    For example, :kbd:`Numpad-1` will select the first item and so on.
 
-Pop-ups can be moved by dragging there title.
+Pop-ups can be moved by dragging their title.
 
 
 .. todo duplicate: selection 
@@ -148,7 +148,7 @@ Pie Menus
 =========
 
 A pie menu is a menu, whose items are spread radially around the mouse.
-Pie menus has to be activated in the User Preferences through
+Pie menus have to be activated in the User Preferences through
 :menuselection:`Add-ons --> UI --> Pie Menus Official`.
 
 .. figure:: /images/interface_pie-menu.jpg

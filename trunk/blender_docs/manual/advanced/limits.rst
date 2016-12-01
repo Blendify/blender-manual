@@ -61,7 +61,7 @@ Time
       print(":%d fps: %d hours, %d seconds." %
             (fps, seconds // 3600, seconds % 3600 // 60))
 
-The maximum frame for each scene is currently 500,000, and allows for continuous shots for durations of:
+The maximum number of frames for each scene is currently 500,000, and allows for continuous shots for durations of:
 
 :24 fps: 5 hours, 47 seconds.
 :25 fps: 5 hours, 33 seconds.
@@ -78,7 +78,7 @@ The maximum frame for each scene is currently 500,000, and allows for continuous
 Text Fields
 ===========
 
-Fixed strings are used internally, and while its not useful to list all limits,
+Fixed strings are used internally, and while it's not useful to list all limits,
 here are some common limits.
 
 :directory: 767
@@ -86,9 +86,9 @@ here are some common limits.
 :file-path: 1023
 :identifier: 63
 
-   *Used for data-block names, modifiers, vertex-groups, UV-lauers... etc*.
+   *Used for data-block names, modifiers, vertex-groups, UV-layers...*
 
 .. note::
 
-   Multi-byte encoding means some unicode characters use more than a single ascii character.
+   Multi-byte encoding means some unicode characters use more than a single ASCII character.
 

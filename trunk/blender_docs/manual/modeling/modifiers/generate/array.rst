@@ -119,10 +119,10 @@ Offset Calculation
 
 The transformation applied from one copy to the next is calculated as the sum of the three
 different components (*Relative*, *Constant* and *Object*),
-all of which can be enabled/disabled independently of the others. This allows, for example,
+each of which can be enabled/disabled independently of the others. This allows, for example,
 a relative offset of (1.0, 0.0, 0.0) and a constant offset of (0.1, 0.0, 0.0),
 giving an array of objects neatly spaced along the X axis with a constant 0.1
-units between them, whatever the original object's size.
+unit between them, whatever the original object's size.
 
 
 Examples

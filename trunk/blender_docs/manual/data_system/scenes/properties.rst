@@ -47,7 +47,7 @@ Angle
 
    .. tip::
 
-      When you are using *Degrees* the radian value is also displayed in the tooltip.
+      When you are using *Degrees*, the radian value is also displayed in the tooltip.
 
 Unit Scale
    Scale factor to use when converting between :term:`Blender Units` and *Metric*/*Imperial*.
