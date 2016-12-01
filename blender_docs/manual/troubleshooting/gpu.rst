@@ -12,11 +12,11 @@ This page lists some known issues using Blender on different graphics hardware a
 Performance
 ===========
 
-When the entire interface very slow and unresponsive (*even* with the default startup scene).
-This is likely a problem with the OpenGL configuration.
+When the entire interface is very slow and unresponsive (*even* with the default startup scene),
+this is likely a problem with the OpenGL configuration.
 
 Unfortunately, in this situation, you may have to do some of your own tests to find the cause,
-here are some common causes and possible solutions.
+below are some common causes and possible solutions.
 
 Upgrade your OpenGL Driver
    If you are experiencing any strange graphics problems with Blender,
@@ -25,5 +25,5 @@ Disable Anti-Aliasing :term:`FSAA, Multi-Sampling<FSAA>`
    See :ref:`Invalid Selection, Disable Anti-Aliasing <troubleshooting-3dview-invalid-selection>`.
 Change the *Window Draw Method*
    This is set in the :ref:`system preferences <prefs-system-window-draw>`.
-   It is selected automatically, however, when experiencing problems its worth
+   It is selected automatically, however, when experiencing problems it's worth
    checking if changing this resolves interface drawing problems.

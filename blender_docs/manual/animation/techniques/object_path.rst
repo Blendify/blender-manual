@@ -21,7 +21,7 @@ it automatically is enabled.
 
 You can also directly add a "path" from the :menuselection:`Add --> Curve --> Path` menu entry (in a 3D View).
 This will insert in your scene a *three-dimensional* NURBS curve.
-This is an important point: by default, Blender's curve are *2D* and will not move on the Z axis.
+This is an important point: by default, Blender's curves are *2D* and will not move on the Z axis.
 To turn a standard curve three-dimensional, enable its *3D* button,
 in the same *Curve and Surface* editing panel.
 
@@ -96,7 +96,7 @@ its uses the *location of this owner* along a given axis.
 So to animate the movement of your owner along its target path, you have to animate some way
 (F-Curves or other indirect animation) its location.
 
-This implies that here, the length of the path have no more any effect - and that by default,
+This implies that here, the length of the path have no more any effect -- and that by default,
 the object is static somewhere on the path!
 
 For more details and examples, see the :doc:`Clamp To constraint page </rigging/constraints/tracking/clamp_to>`.

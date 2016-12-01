@@ -34,7 +34,7 @@ Redo Last
 =========
 
 *Redo Last* is short for *Redo(ing the) Last (Action)*.
-Hitting :kbd:`F6` after an action will present you a context-sensitive
+:kbd:`F6` after an action will present you a context-sensitive
 Pop-Up menu based on your last action taken and the Mode and Editor in which Blender is being used.
 
 For example, if your last action was a rotation in *Object Mode*,
@@ -88,7 +88,7 @@ Once you do make a new change, the Undo History is truncated at that point.
 Repeat Last
 ===========
 
-The Repeat Last feature will Repeat your last action when you press :kbd:`Shift-R`.
+The Repeat Last feature will repeat your last action when you press :kbd:`Shift-R`.
 
 In the example Images below, we duplicated a *Monkey* mesh,
 and then we moved the Object a bit.
@@ -117,7 +117,7 @@ Repeat History
 .. figure:: /images/interface_undo-and-redo_repeat-history-menu.png
    :align: right
 
-   The Repeat Menu.
+   The Repeat History Menu.
 
 The *Repeat History* feature will present you a list of the last repeated actions,
 and you can choose the actions you want to repeat.

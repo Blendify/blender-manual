@@ -77,7 +77,7 @@ from the 3D View header access :menuselection:`Object --> Make Links...`
 and choose the scene where you want your objects to appear.
 The selected objects will be added to that scene, but remain linked to the original objects.
 
-To make them single user (independent and unlinked) in a given scene go to that scene,
+To make them single user (independent and unlinked) in a given scene, go to that scene,
 select them, then from the 3D View header access :menuselection:`Object --> Make Single User`.
 You will be presented with a few options that allow you to free up the data-blocks
 (Object, Material, Texture...) that you want.

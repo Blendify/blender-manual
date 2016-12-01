@@ -97,7 +97,7 @@ Pose Markers
    Pose markers in the Action Editor.
 
 Pose markers show a diamond-shaped icon in the Dope Sheet.
-In the NLA editor the pose marker are shown as a red dashed line.
+In the NLA editor the pose markers are shown as a red dashed line.
 
 .. container:: lead
 

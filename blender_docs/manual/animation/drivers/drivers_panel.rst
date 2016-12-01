@@ -81,19 +81,19 @@ Variable Type
       paste an RNA property :kbd:`Ctrl-V`.
 
       ID-Type
-         The ID-Block type, example, Key, Image, Object, Material.
+         The ID-Block type. Example: Key, Image, Object, Material.
       ID
-         The ID of the ID-Block type, example, "Material.001".
+         The ID of the ID-Block type. Example: "Material.001".
       RNA Path
-         The RNA id name of the property, example, 'ambient' from material shading.
+         The RNA id name of the property. Example: 'ambient' from material shading.
 
    Transform Channel
       Use one of the Transform channels from an object or bone.
 
       ID
-         ID of the object, example, Cube, Armature, Camera.
+         ID of the object. Example: Cube, Armature, Camera.
       Bone
-         ID of the Armature bone, example, "Bone", "Bone.002", "Arm.r".
+         ID of the Armature bone. Example: "Bone", "Bone.002", "Arm.r".
          This option is for armatures.
       Type
          Example, X Location, X Rotation, X Scale.

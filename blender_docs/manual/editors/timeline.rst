@@ -228,7 +228,7 @@ Current Frame
 Player Control
 ^^^^^^^^^^^^^^
 
-These button are used to set, play, rewind, the *Time Cursor*.
+These buttons are used to set, play, rewind, the *Time Cursor*.
 
 .. figure:: /images/timeline_player_controls.png
    :align: right
@@ -309,7 +309,7 @@ Auto Keyframe
    .. note::
 
       Note that *Auto Keyframe* only works for transform properties (objects and bones),
-      in the 3D Views (i.e. you cant use it e.g. to animate the colors of a material in the Properties editor...).
+      in the 3D Views (i.e. you can't use it e.g. to animate the colors of a material in the Properties editor...).
 
 Keyframe Type
    See :ref:`keyframe-type`.
@@ -329,7 +329,7 @@ Active Keying Set
 
    There are some built in keying sets, *LocRotScale*, and also custom keying sets.
 
-   Custom keying sets can be defined in the in the panels
+   Custom keying sets can be defined in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 
    Insert Keyframes

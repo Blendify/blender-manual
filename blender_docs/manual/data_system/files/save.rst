@@ -45,7 +45,7 @@ Remap Relative
 Save Copy
    This option saves a copy of the actual working state but does not make the saved file active.
 Legacy Mesh Format
-   Save the blend-file, but ignore faces with more than four vertices ("Ngons")
+   Save the blend-file, but ignore faces with more than four vertices ("n-gons")
    so that older versions of Blender (before 2.63) can open it.
 
 

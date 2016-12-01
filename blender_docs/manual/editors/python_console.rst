@@ -25,7 +25,7 @@ you can change it to a Console Editor.
 .. figure:: /images/extensions-python-console-default-console.jpg
 
 
-From the screen shot above,
+From the screenshot above,
 you will notice that apart from the usual hot keys that are used to navigate,
 by pressing :kbd:`Ctrl-Spacebar` you can enable Auto-complete feature.
 
@@ -148,7 +148,7 @@ Type this and then press :kbd:`Ctrl-Spacebar`::
 
    bpy.context.selected_objects
 
-To prints out the name of first object in the list::
+To print out the name of first object in the list::
 
    bpy.context.selected_objects[0]
 
@@ -222,7 +222,7 @@ We create a reference to the operator that is used for creating a cube mesh prim
 
    add_cube = bpy.ops.mesh.primitive_cube_add
 
-Now in a *for loop*, we create the five objects like this (In the screenshot above,
+Now in a *for loop*, we create the five objects like this (in the screenshot above,
 another method is used) :
 Press :kbd:`Return` twice after entering the command at the shell prompt::
 

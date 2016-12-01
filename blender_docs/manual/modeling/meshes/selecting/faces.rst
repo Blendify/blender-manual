@@ -10,7 +10,7 @@ Selecting Faces
 To select parts of a mesh face-wise, you have to switch to Face Select Mode.
 Do this by clicking the button shown above, or press :kbd:`Ctrl-Tab` to spawn a menu.
 The selection works as usual with :kbd:`RMB` ;
-to add/remove to an existing selection, additionally press :kbd:`Shift`
+to add/remove to an existing selection, additionally press :kbd:`Shift`.
 
 
 .. _modeling-meshes-selecting-face-loops:
@@ -51,15 +51,15 @@ use the :kbd:`Alt-RMB` shortcut.
   while the second click will add the whole vertical running loop to the selection, creating the cross.
 
 
-Ngons in Face Select Mode
+N-gons in Face Select Mode
 =========================
 
 .. figure:: /images/face-mode_ngon_visual-problem.png
 
-   Ngon-Face having its center dot inside another face.
+   N-gon-Face having its center dot inside another face.
 
 As already known, faces are marked with a little square dot in the middle of the face.
-With ngons that can lead in certain cases to a confusing display.
+With n-gons that can lead in certain cases to a confusing display.
 The example shows the center dot of the U-shaped ngon being inside of the oblong face inside the "U".
 It is not easy to say which dot belongs to which face (the orange dot in the image is the object center).
 Luckily, you do not need to care much, because to select a face, you do not have to click the center dot,
@@ -68,4 +68,4 @@ but the face itself.
 
 .. tip:: Face selection
 
-   *To select a face:* Click the face, not the dot!
+   *To select a face*: Click the face, not the dot!

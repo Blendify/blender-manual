@@ -71,7 +71,7 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 
 .. figure:: /images/animation_drivers_transform.jpg
 
-When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left of right.
+When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left to right.
 
 
 Examples
