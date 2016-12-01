@@ -1,5 +1,4 @@
-
-.. _recover-options-for-actions:
+.. _bpy.ops.ed.:
 
 *************
 Undo and Redo
@@ -9,6 +8,7 @@ The commands listed below will let you roll back an accidental action,
 redo your last action, or let you choose to recover to a specific point,
 by picking from a list of recent actions recorded by Blender.
 
+.. _bpy.ops.ed.undo:
 
 Undo
 ====
@@ -19,6 +19,8 @@ If you want to undo your last action, just press :kbd:`Ctrl-Z`
 
    :doc:`Editing Preferences </preferences/editing>` section on undo to change defaults.
 
+
+.. _bpy.ops.ed.redo:
 
 Redo
 ====
@@ -92,7 +94,6 @@ In the example Images below, we duplicated a *Monkey* mesh,
 and then we moved the Object a bit.
 Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 
-
 .. list-table::
 
    * - .. figure:: /images/interface_undo-redo_repeat-last1.png
@@ -107,6 +108,8 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 
           After a :kbd:`Shift-R`.
 
+
+.. _bpy.ops.ed.undo_history:
 
 Repeat History
 ==============
