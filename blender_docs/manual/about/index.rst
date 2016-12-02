@@ -9,4 +9,5 @@
 
    introduction.rst
    license.rst
+   whats_new.rst
    contribute/index.rst
