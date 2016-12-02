@@ -22,6 +22,7 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
      `Zh <https://www.blender.org/manual/zh.cn/>`__
    - This site can be downloaded for offline use:
      `Download the full manual (zipped HTML files) <blender_manual.zip>`__
+   - :doc:`/about/whats_new`
 
 
 Getting Started
