@@ -26,26 +26,27 @@ if "%1" == "help" (
 	echo.Documentation
 	echo.=============
 	echo.
-	echo.  html             to make standalone HTML files
-	echo.  singlehtml       to make a single large HTML file
-	echo.  readme           to create readme.html
-	echo.  pdf              to make LaTeX files, you can set PAPER=a4 or PAPER=letter
-	echo.  gettext          to make PO message catalogs
-	echo.  epub             to make an epub
-	echo.  epub3            to make an epub3
+	echo.  html                 to make standalone HTML files
+	echo.  singlehtml           to make a single large HTML file
+	echo.  readme               to create readme.html
+	echo.  pdf                  to make LaTeX files, you can set PAPER=a4 or PAPER=letter
+	echo.  gettext              to make PO message catalogs
+	echo.  epub                 to make an epub
+	echo.  epub3                to make an epub3
 	echo.
 	echo.Translations
 	echo.============
 	echo.
-	echo.  gettext          to make PO message catalogs
-	echo.  update_po        to update PO message catalogs
+	echo.  gettext              to make PO message catalogs
+	echo.  update_po            to update PO message catalogs
+	echo.  report_po_progress   to check the progress/fuzzy strings
 	echo.
 	echo.Checking
 	echo.========
 	echo.
-	echo.  check_syntax     to check the syntax of all .rst files
-	echo.  check_structure  to check the structure of all .rst files
-	echo.  check_links      to check all external links for integrity
+	echo.  check_syntax         to check the syntax of all .rst files
+	echo.  check_structure      to check the structure of all .rst files
+	echo.  check_links          to check all external links for integrity
 	goto EOF
 )
 
@@ -161,7 +162,7 @@ if "%1" == "update_po" (
     	ECHO SVN is missing. Ensure it is installed and placed in your PATH.
     	GOTO EOF
 	) ELSE (
-    	GOTO CHECK_LOCALE
+    TO CHECK_LOCALE
 	)
 
 	REM Check if locale exists
@@ -198,6 +199,15 @@ if "%1" == "update_po" (
 	:MISSING_LOCALE
 	echo. Locale directory not found... Aborting.
 	goto EOF
+)
+
+if "%1" == "report_po_progress" (
+	IF NOT EXIST %cd%/locale GOTO MISSING_LOCALE
+	python tools/report_translation_progress.py locale/%2 --quite > po_progress.log
+	type po_progress.log
+	DEL po_progress.log
+	goto EOF
+
 )
 
 if "%1" == "check_structure" (          	
