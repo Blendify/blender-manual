@@ -19,6 +19,8 @@ The manual is written in the `reStructuredText <http://www.sphinx-doc.org/en/sta
 For a local preview, you convert (build) the manual source files from RST into HTML web pages.
 
 
+.. _about-getting-started:
+
 Getting Started
 ===============
 
