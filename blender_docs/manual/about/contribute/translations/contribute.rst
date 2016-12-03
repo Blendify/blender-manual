@@ -4,22 +4,18 @@
 Contribute
 **********
 
-.. note::
-
-   At time of writing, we are setting up translations workflow,
-   this page shows the initial steps for translators to get started.
-
-
-On this page French (``fr``) is used for examples,
-however, it can be replaced with other
+On this page French (``fr``) is used for examples, however, it can be replaced with other
 `languages codes <https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
 
 To see which languages are currently available, you can browse the repository:
 https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
 
 
-Installing Dependencies
-=======================
+Installing
+==========
+
+Dependencies
+------------
 
 For translations, we use Sphinx's internationalization package.
 However, this is not included with Sphinx and needs to be installed::
@@ -27,10 +23,14 @@ However, this is not included with Sphinx and needs to be installed::
    pip install sphinx-intl
 
 
-Downloading the Repository
-==========================
+Your Language Repository
+------------------------
 
-First of all, it is assumed that you have the manual already building.
+.. note::
+
+   First of all, it is assumed that you have the manual already building.
+   If you have not done this already go back too the
+   :ref:`Getting Started <about-getting-started>` section.
 
 From the directory containing your checkout of the manual run the following command.
 
@@ -46,14 +46,26 @@ From the directory containing your checkout of the manual run the following comm
 
 This will create a ``locale/fr`` subdirectory.
 
-Now you can edit the PO translation files, eg:
+You should have a directory layout like this::
 
-Original RST File
-   ``manual/getting_started/about_blender/introduction.rst``
-Generated PO File
-   ``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
+   blender_docs
+      |- locale/
+      |  |- fr/
+      |  |  |- LC_MESSAGES/
+      |- manual/
 
-The modified ``.po`` files can be edited and committed back to svn.
+
+A PO Editor
+===========
+
+To make edit the PO files you will need to install a PO editor.
+We recommended that you use `Poedit <https://poedit.net/>`__
+however, any PO editor will do.
+
+.. note::
+
+   For Linux users you will have to check with
+   your distribution's software center for a version of Poedit.
 
 
 Building with Translations
@@ -84,29 +96,17 @@ If you are on MS-Windows and do not have ``make``, run::
 Now you will have a build of the manual with translations applied.
 
 
-Updating PO Files
------------------
+Editing Translation Files
+=========================
 
-As the original manual changes, the templates will need updating.
+Now you can edit the PO translation files, eg:
 
-This can be done as follows::
+Original RST File
+   ``manual/getting_started/about_blender/introduction.rst``
+Generated PO File
+   ``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
 
-   make gettext
-   sphinx-intl update -p build/locale -l fr
-
-The updated templates can then be committed to svn.
-
-*TODO: document how to handle files being added/removed/moved.*
-
-.. note::
-
-   To streamline updating files,
-   we have a convenience Makefile target::
-
-      make update_po
-
-   This runs the update,
-   adds any new files and prints the final command to commit the changes.
+The modified ``.po`` files can be edited and committed back to svn.
 
 
 Maintenance
@@ -120,36 +120,40 @@ Keeping track of fuzzy strings
 When the manual is updated, those translations which are outdated will be marked as fuzzy.
 To keep track with that, you can use a tool we created for that task.
 
-Download the tools/ folder::
+You can do this by running::
 
-   cd path/to/translationfolder
-   svn checkout https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs/tools
+   make report_po_progress
 
-You should have a directory layout like this::
 
-   locale/
-   |- fr/
-   |  |- LC_MESSAGES/
-   |- tools/
+This will only give a quick summery however, you can get more information by running::
 
-Now execute::
-
-   python3 tools/report_translation_progress.py locale/fr/LC_MESSAGES/
+   python tools/report_translation_progress.py locale/fr/
 
 You should get a list of all the files with information about the number of empty and fuzzy strings.
-If you want only a summary, append ``-q`` to the command above. For more options see::
+For more options see::
 
-   python3 tools/report_translation_progress.py --help
+   python tools/report_translation_progress.py --help
 
-
-.. note::
-
-   See the `translation design task <https://developer.blender.org/T43083>`__
-   for discussion on the proposed process.
 
 .. seealso::
 
    - Instructions on this page are based on
      `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__
    - The `translation design task <https://developer.blender.org/T43083>`__
-     for discussion on the proposed process.
+     for discussion on the process.
+
+
+Updating PO Files
+-----------------
+
+As the original manual changes, the templates will need updating.
+Note, doing this is not required,
+as administrator usually update the files for all languages at once.
+This allows all languages to be on the same version of the manual.
+However, if you need to update the files yourself, it can be done as follows::
+
+   make update_po
+
+The updated templates can then be committed to svn.
+
+*TODO: document how to handle files being added/removed/moved.*
