@@ -15,9 +15,9 @@ Name
 Axis
    Displays a object similar to an *Empty* that shows the object's axis.
 Wire
-   Draws an objects wire frame on top of the solid drawing.
+   Draws an object's wire frame on top of the solid drawing.
 Draw All Edges
-   Displays all edges for a mesh objects.
+   Displays all edges for mesh objects.
 Bounds
    Displays a bounding box around an object.
 

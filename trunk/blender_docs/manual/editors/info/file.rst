@@ -61,7 +61,7 @@ External Data
    Make All Paths Relative
       Make all paths to external files :doc:`relative </data_system/files/relative_paths>` to current blend-file.
    Make All Paths Absolute
-      Make all paths to external files absolute. Absolute ones have full path from the systems root.
+      Make all paths to external files absolute. Absolute ones have full path from the system's root.
    Report Missing Files
       This option is useful to check if there are links to unpacked files that no longer exist.
       After selecting this option a warning message will appear in the Info editors header.

@@ -21,7 +21,7 @@ Transform Panel
 
 The *Transform* panel in the Properties region allows you to view and
 manually/numerically control the position, rotation, and other properties of an object, in *Object Mode*.
-In *Edit Mode*, it mainly allows you to enter precise coordinates for a vertex,
+In *Edit Mode*. It mainly allows you to enter precise coordinates for a vertex,
 or median position for a group of vertices (including an edge/face). As each type of object has a different set of
 options in its *Transform* panel in *Edit Mode*,
 see their respective descriptions in the :doc:`Modeling chapter </modeling/index>`.
@@ -31,7 +31,7 @@ Options in Object Mode
 ----------------------
 
 Use this panel to either edit or display the object's transform properties such as position,
-rotation and/or scaling. These fields change the object's center and then affects the aspect
+rotation and/or scaling. These fields change the object's center and then affect the aspect
 of all of its *vertices* and faces.
 
 .. figure:: /images/editors_3dview_transform-control_properties.png
@@ -101,6 +101,6 @@ They can be found in the :menuselection:`Properties Editor --> Object --> Delta 
 Usage
 -----
 
-Delta Transforms are particular useful in animations. For example,
+Delta Transforms are particularly useful in animations. For example,
 you can animate an object with the "normal" transforms then move them around with Delta Transforms.
 

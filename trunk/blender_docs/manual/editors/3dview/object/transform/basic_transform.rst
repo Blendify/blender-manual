@@ -113,7 +113,7 @@ There are multiple ways to transform an element which include:
   in the Properties region or the Object tab.
 
 
-Confirm and Chancel
+Confirm and Cancel
 -------------------
 
 :kbd:`LMB` click to accept changes.
@@ -148,7 +148,7 @@ Orientation
    Shows the :doc:`Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
    of the constraint axes.
 Proportional Editing, Falloff, Size
-   Activates/deactivates *Proportional Editing* and configure the type *Falloff* and
+   Activates/deactivates *Proportional Editing* and configures the type *Falloff* and
    *Size* of the :doc:`/editors/3dview/object/transform/transform_control/proportional_edit` tool.
 Edit Grease Pencil
    ToDo.

@@ -33,7 +33,7 @@ Options
 ^^^^^^^
 
 Random Seed
-   The random seed is an offset to the random transformation.
+   The random seed is an offset to the randomized transformation.
    A different seed will produce a new result.
 Transform Delta
    Randomize :ref:`Delta Transform <transform-delta>`

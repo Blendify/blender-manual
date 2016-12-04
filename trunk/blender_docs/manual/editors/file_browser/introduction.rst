@@ -18,11 +18,11 @@ These include:
 
 - Opening and Saving Blend files.
 - Import/Export other file formats.
-- Picking new locations for existing file-paths (images, video, fonts... etc).
+- Picking new locations for existing file-paths (images, video, fonts...).
 - Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 
 You can also keep the File Browser open, as with any other editor type,
-to browse through the file system. In this case of confirm/cancel buttons will be absent.
+to browse through the file system. In this case, confirm/cancel buttons will be absent.
 
 The main purpose of this is to be able to drag media files:
 
@@ -113,7 +113,7 @@ File Region
 
 File Path
    The text field for the current path.
-   Auto Complete :kbd:`Tab` will auto-complete an existing paths.
+   :kbd:`Tab` will auto-complete an existing path.
    If you type a non existing directory path, you will be prompted to create that new directory.
 File Name
    Text field to edit the file name and extension.
@@ -127,8 +127,8 @@ Confirm
    double click with :kbd`LMB` on the entry confirms with that file or data-block.
 
    - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file`).
-   - :kbd:`Alt-LMB` -- Open the directory externally (using the systems file manager).
-Chancel
+   - :kbd:`Alt-LMB` -- Open the directory externally (using the system's file manager).
+Cancel
    Cancels the Open or Save file selection and closes the File browser :kbd:`Esc` or
    by using the *Back to Previous* in the Info editor header.
 
@@ -179,7 +179,7 @@ Link/Append from Library
 Open, Save, Save As Blender File
    See :doc:`/data_system/files/open` or :doc:`/data_system/files/save`.
 Open, Replace, Save As Image
-   See  :doc:`/data_system/files/media/image_formats`.
+   See :doc:`/data_system/files/media/image_formats`.
 
 For the common option:
 

@@ -69,7 +69,7 @@ Align to View
    This option rotates the new object so that it is aligned to the view space.
 Location
    Objects are placed, by default, at the position of the 3D Cursor. 
-   This values let you place the object in an other position.
+   These values let you place the object in an other position.
 Rotation
    Values let you rotate the object so that default rotation is overridden.
 

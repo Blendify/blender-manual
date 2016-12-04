@@ -20,7 +20,7 @@ Header
 Menus
 ---------
 
-Provides access to the Blenders main menu options.
+Provides access to the Blender's main menu options.
 
 
 File
@@ -74,11 +74,11 @@ Screen
 Scene 
    :ref:`Data-block menu <ui-data-block>` to select different :doc:`Scenes </data_system/scenes/introduction>`.
    Having multiple Scenes allows you to work with separate virtual environments,
-   with completely separate data, or with objects and/or mesh data linked between them.
+   with completely separate data, or with object and/or mesh data linked between them.
 Engine
    Gives a list of selectable render and game engines.
 Render/Baking progress
-   A progressbar and a chancel button are shown while rendering or baking.
+   A progressbar and a cancel button are shown while rendering or baking.
    Hovering over them shows a time estimate.
 Capture Stop
    A button shown while :ref:`screen casting <info-screencast>` to stop the recording.
@@ -107,7 +107,7 @@ Resource Information
 Report Console
 ==============
 
-When the Info Editor's area is scaled up it reveals the Report console,
+When the Info Editor's area is scaled up, it reveals the Report console,
 where a scripting trail is displayed.
 Whenever an operator has been executed, it leaves a report, creating a log.
 
