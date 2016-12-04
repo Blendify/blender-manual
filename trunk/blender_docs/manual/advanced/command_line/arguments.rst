@@ -11,11 +11,11 @@ Render Options
 ==============
 
 ``-b``, ``--background``
-   Run in background (often used for UI-less rendering).
+   Run in background (often used for UI-less rendering)
 ``-a``, ``--render-anim``
-   Render frames from start to end (inclusive).
+   Render frames from start to end (inclusive)
 ``-S``, ``--scene`` ``<name>``
-   Set the active scene ``<name>`` for rendering.
+   Set the active scene ``<name>`` for rendering
 ``-f``, ``--render-frame`` ``<frame>``
    Render frame ``<frame>`` and save it.
 
@@ -28,7 +28,7 @@ Render Options
 ``-e``, ``--frame-end`` ``<frame>``
    Set end to frame ``<frame>``, supports +/- for relative frames too.
 ``-j``, ``--frame-jump`` ``<frames>``
-   Set number of frames to step forward after each rendered frame.
+   Set number of frames to step forward after each rendered frame
 ``-o``, ``--render-output`` ``<path>``
    Set the render path and file name.
    Use ``//`` at the start of the path to render relative to the blend-file.
@@ -48,10 +48,10 @@ Render Options
 
    ``//render_`` becomes ``//render_####``, writing frames as ``//render_0001.png``
 ``-E``, ``--engine`` ``<engine>``
-   Specify the render engine.
-   use -E help to list available engines.
+   Specify the render engine
+   use -E help to list available engines
 ``-t``, ``--threads`` ``<threads>``
-   Use amount of ``<threads>`` for rendering and other operations.
+   Use amount of ``<threads>`` for rendering and other operations
    [1-64], 0 for systems processor count.
 
 
@@ -65,7 +65,7 @@ Format Options
    (formats that can be compiled into blender, not available on all systems)
       HDR TIFF EXR MULTILAYER MPEG FRAMESERVER QUICKTIME CINEON DPX DDS JP2
 ``-x``, ``--use-extension`` ``<bool>``
-   Set option to add the file extension to the end of the file.
+   Set option to add the file extension to the end of the file
 
 
 Animation Playback Options
@@ -85,15 +85,15 @@ Window Options
 ==============
 
 ``-w``, ``--window-border``
-   Force opening without borders.
+   Force opening without borders
 ``-W``, ``--window-borderless``
-   Force opening without borders.
+   Force opening without borders
 ``-p``, ``--window-geometry`` ``<sx>`` ``<sy>`` ``<w>`` ``<h>``
-   Open with lower left corner at ``<sx>``, ``<sy>`` and width and height as ``<w>``, ``<h>``.
+   Open with lower left corner at ``<sx>``, ``<sy>`` and width and height as ``<w>``, ``<h>``
 ``-con``, ``--start-console``
-   Start with the console window open (ignored if -b is set), (Windows only).
+   Start with the console window open (ignored if -b is set), (Windows only)
 ``--no-native-pixels``
-   Do not use native pixel size, for high resolution displays (MacBook ``Retina``).
+   Do not use native pixel size, for high resolution displays (MacBook ``Retina``)
 
 
 Game Engine Specific Options
@@ -110,23 +110,23 @@ Python Options
 ==============
 
 ``-y``, ``--enable-autoexec``
-   Enable automatic Python script execution (default).
+   Enable automatic Python script execution (default)
 ``-Y``, ``--disable-autoexec``
-   Disable automatic Python script execution (pydrivers & startup scripts).
+   Disable automatic Python script execution (pydrivers & startup scripts)
 
 ``-P``, ``--python`` ``<filename>``
-   Run the given Python script file.
+   Run the given Python script file
 ``--python-text`` ``<name>``
-   Run the given Python script text block.
+   Run the given Python script text block
 ``--python-expr`` ``<expression>``
-   Run the given expression as a Python script.
+   Run the given expression as a Python script
 ``--python-console``
-   Run blender with an interactive console.
+   Run blender with an interactive console
 ``--python-exit-code``
    Set the exit-code in [0..255] to exit if a Python exception is raised
    (only for scripts executed from the command line), zero disables.
 ``--addons``
-   Comma separated list of add-ons (no spaces).
+   Comma separated list of add-ons (no spaces)
 
 
 Debug Options
@@ -143,95 +143,95 @@ Debug Options
 
 
 ``--debug-events``
-   Enable debug messages for the event system.
+   Enable debug messages for the event system
 ``--debug-ffmpeg``
-   Enable debug messages from FFmpeg library.
+   Enable debug messages from FFmpeg library
 ``--debug-handlers``
-   Enable debug messages for event handling.
+   Enable debug messages for event handling
 ``--debug-libmv``
-   Enable debug messages from libmv library.
+   Enable debug messages from libmv library
 ``--debug-cycles``
-   Enable debug messages from Cycles.
+   Enable debug messages from Cycles
 ``--debug-memory``
-   Enable fully guarded memory allocation and debugging.
+   Enable fully guarded memory allocation and debugging
 ``--debug-jobs``
    Enable time profiling for background jobs.
 ``--debug-python``
-   Enable debug messages for Python.
+   Enable debug messages for Python
 ``--debug-depsgraph``
-   Enable debug messages from dependency graph.
+   Enable debug messages from dependency graph
 ``--debug-depsgraph-no-threads``
-   Switch dependency graph to a single threaded evaluation.
+   Switch dependency graph to a single threaded evaluation
 ``--debug-gpumem``
-   Enable GPU memory stats in status bar.
+   Enable GPU memory stats in status bar
 ``--debug-wm``
-   Enable debug messages for the window manager, also prints every operator call.
+   Enable debug messages for the window manager, also prints every operator call
 ``--debug-all``
-   Enable all debug messages (excludes libmv).
+   Enable all debug messages
 
 ``--debug-fpe``
-   Enable floating point exceptions.
+   Enable floating point exceptions
 ``--disable-crash-handler``
-   Disable the crash handler.
+   Disable the crash handler
 
 
 Misc Options
 ============
 
 ``--factory-startup``
-   Skip reading the startup.blend in the user's home directory.
+   Skip reading the startup.blend in the users home directory
 
 ``--env-system-datafiles``
-   Set the ``BLENDER_SYSTEM_DATAFILES`` environment variable.
+   Set the ``BLENDER_SYSTEM_DATAFILES`` environment variable
 ``--env-system-scripts``
-   Set the ``BLENDER_SYSTEM_SCRIPTS`` environment variable.
+   Set the ``BLENDER_SYSTEM_SCRIPTS`` environment variable
 ``--env-system-python``
-   Set the ``BLENDER_SYSTEM_PYTHON`` environment variable.
+   Set the ``BLENDER_SYSTEM_PYTHON`` environment variable
 
 ``-nojoystick``
-   Disable joystick support.
+   Disable joystick support
 ``-noglsl``
-   Disable GLSL shading.
+   Disable GLSL shading
 ``-noaudio``
-   Force sound system to None.
+   Force sound system to None
 ``-setaudio``
-   Force sound system to a specific device.
+   Force sound system to a specific device
    NULL SDL OPENAL JACK
 
 ``-h``, ``--help``
-   Print this help text and exit.
+   Print this help text and exit
 ``-R``
-   Register blend-file extension, then exit (Windows only).
+   Register blend-file extension, then exit (Windows only)
 ``-r``
-   Silently register blend-file extension, then exit (Windows only).
+   Silently register blend-file extension, then exit (Windows only)
 ``-v``, ``--version``
-   Print Blender version and exit.
+   Print Blender version and exit
 ``--``
-   Ends option processing, following arguments passed unchanged. Access via Python's ``sys.argv``.
-
-
-Other Options
-=============
-
-``/?``
-   Print this help text and exit (windows only).
-``--debug-freestyle``
-   Enable debug messages for FreeStyle.
-``--debug-gpu``
-   Enable gpu debug context and information for OpenGL 4.3+.
-``--disable-abort-handler``
-   Disable the abort handler.
-``--enable-new-depsgraph``
-   Use new dependency graph.
-``--verbose`` ``<verbose>``
-   Set logging verbosity level.
+   Ends option processing, following arguments passed unchanged. Access via Python's ``sys.argv``
 
 
 Experimental Features
 =====================
 
 ``--enable-new-depsgraph``
-   Use new dependency graph.
+   Use new dependency graph
+``--enable-new-basic-shader-glsl``
+   Use new GLSL basic shader
+
+
+Other Options
+=============
+
+``/?``
+   Print this help text and exit (windows only)
+``--debug-freestyle``
+   Enable debug messages for FreeStyle
+``--debug-gpu``
+   Enable gpu debug context and information for OpenGL 4.3+.
+``--disable-abort-handler``
+   Disable the abort handler
+``--verbose`` ``<verbose>``
+   Set logging verbosity level.
 
 
 Argument Parsing
@@ -261,13 +261,13 @@ Argument Order
 
       blender --background test.blend --render-frame 1 --render-output '/tmp'
 
-   ...will not render to ``/tmp`` because ``--render-frame 1`` renders before the output path is set.
+   ...will not render to ``/tmp`` because ``--render-frame 1`` renders before the output path is set
 
    .. code-block:: sh
 
       blender --background --render-output /tmp test.blend --render-frame 1
 
-   ...will not render to ``/tmp`` because loading the blend-file overwrites the render output that was set.
+   ...will not render to ``/tmp`` because loading the blend-file overwrites the render output that was set
 
    .. code-block:: sh
 
