@@ -111,8 +111,8 @@ Blender will have to pass those frames to a Video codec.
 
    - When you save your *Screencast* in an Image format,
      the Images will be saved using the entire Blender Window, with full width and height,
-     and the quality of the Image will be defined by its type (i.e. JPG, PNG, and so on)
-     and configuration (i.e. Slider *quality* of the .JPG format).
+     and the quality of the Image will be defined by its type (e.g. JPG, PNG, and so on)
+     and configuration (e.g. Slider *quality* of the .JPG format).
    - When you save your *Screencast* in a Video format, it will be sent to a codec.
      Depending on the codec limitations, the resulting output Video could be scaled down.
      Furthermore, some combinations of Window width and height cannot be processed by certain codecs.

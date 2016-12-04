@@ -6,8 +6,8 @@ Introduction
 
 After animating some property in Blender using keyframes you can edit their corresponding curves.
 When something is "animated," it changes over time. This curve in shown as something called an F-Curve.
-Basically what an F-Curve does is it an interpolates between two animated properties. In Blender,
-animating an object means changing one of its properties, such as an objects location, or its scale.
+Basically what an F-Curve does is an interpolation between two animated properties. In Blender,
+animating an object means changing one of its properties, such as the object's location, or its scale.
 
 As mentioned, Blender's fundamental unit of time is the "frame",
 which usually lasts just a fraction of a second, depending on the *frame rate* of the scene.
@@ -196,8 +196,8 @@ For obvious reasons, a property represented by a Curve
 cannot have more than **one** value at a given time, hence:
 
 - when you move a control point ahead of a control point that was previously ahead of the point that you are moving,
-  the two control points switch their order in the edited curve, to avoid that the curve goes back in time
-- for the above reason, it is impossible to have a closed F-Curve
+  the two control points switch their order in the edited curve, to avoid that the curve goes back in time.
+- for the above reason, it is impossible to have a closed F-Curve.
 
 .. list-table:: Two control points switching: the curve cannot go back in time!
 

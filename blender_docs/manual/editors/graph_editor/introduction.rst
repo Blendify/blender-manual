@@ -66,7 +66,7 @@ The green horizontal line is called the *Cursor*.
 This can be disabled via the *View Menu* or the *View Properties* panel.
 
 The *Time Cursor* and the *Cursor* make the *2D Cursor*.
-The *2D Cursor* mostly used for editing tools.
+The *2D Cursor* is mostly used for editing tools.
 
 
 View Axes
@@ -94,7 +94,7 @@ Like with most animation editors, markers are shown at the bottom of the editor.
    Graph Editor Markers.
 
 
-*Markers* can be modified in the *Graph Editor* though its usually best to use the *Timeline*.
+*Markers* can be modified in the *Graph Editor* though it's usually best to use the *Timeline*.
 
 See :doc:`Markers </animation/markers>` for more info.
 
@@ -161,7 +161,7 @@ Curve controls
       Pivot point for rotation.
 
       Bounding Box Center
-         Center of the select keyframes.
+         Center of the selected keyframes.
       2D Cursor
          Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
       Individual Centers
