@@ -52,7 +52,7 @@ use the :kbd:`Alt-RMB` shortcut.
 
 
 N-gons in Face Select Mode
-=========================
+==========================
 
 .. figure:: /images/face-mode_ngon_visual-problem.png
 
