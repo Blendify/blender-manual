@@ -3,9 +3,8 @@
 Bokeh Image Node
 ****************
 
-.. figure:: /images/compositing_nodes_bokeh.png
+.. figure:: /images/compositing_nodes_input_bokeh-image.png
    :align: right
-   :width: 150px
 
    Bokeh Image Node.
 

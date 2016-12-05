@@ -5,9 +5,8 @@
 RGB Node
 ********
 
-.. figure:: /images/compositing_nodes_rgb.png
+.. figure:: /images/compositing_nodes_input_rgb.png
    :align: right
-   :width: 150px
 
    RGB Node.
 

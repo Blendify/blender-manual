@@ -6,7 +6,6 @@ Time Node
 
 .. figure:: /images/compositing_nodes_input_time.png
    :align: right
-   :width: 150px
 
    Time Node.
 

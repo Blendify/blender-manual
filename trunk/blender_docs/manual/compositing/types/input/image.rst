@@ -3,9 +3,8 @@
 Image Node
 **********
 
-.. figure:: /images/compositing_nodes_image.png
+.. figure:: /images/compositing_nodes_input_image.png
    :align: right
-   :width: 150px
 
    Image Node.
 

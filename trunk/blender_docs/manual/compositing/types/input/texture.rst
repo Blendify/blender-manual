@@ -3,9 +3,8 @@
 Texture Node
 ************
 
-.. figure:: /images/compositing_nodes_texture.png
+.. figure:: /images/compositing_nodes_input_texture.png
    :align: right
-   :width: 150px
 
    Texture Node.
 

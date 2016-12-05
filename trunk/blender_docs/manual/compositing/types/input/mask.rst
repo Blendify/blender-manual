@@ -3,9 +3,8 @@
 Mask Node
 *********
 
-.. figure:: /images/compositing_nodes_mask.png
+.. figure:: /images/compositing_nodes_input_mask.png
    :align: right
-   :width: 150px
 
    Mask Node.
 
