@@ -31,15 +31,13 @@ Some common operation could easier executed with the  :doc:`/compositing/types/c
 Separate/Combine RGBA Node
 ==========================
 
-.. figure:: /images/compositing_nodes_combinergba.png
+.. figure:: /images/compositing_nodes_converter_combine-rgba.png
    :align: right
-   :width: 150px
 
    Combine RGBA Node.
 
-.. figure:: /images/compositing_nodes_separatergba.png
+.. figure:: /images/compositing_nodes_converter_separate-rgba.png
    :align: right
-   :width: 150px
 
    Separate RGBA Node.
 
@@ -66,7 +64,7 @@ Examples
 --------
 
 .. figure:: /images/compositing-covert-combinergba.jpg
-   :width: 200px
+   :width: 600px
 
 
 In this first example, we take the Alpha channel and blur it,
@@ -87,15 +85,13 @@ and all the green both Red and Blue, and remove Blue from the image completely.
 Separate/Combine HSVA Nodes
 ===========================
 
-.. figure:: /images/compositing_nodes_combinehsva.png
+.. figure:: /images/compositing_nodes_converter_combine-hsva.png
    :align: right
-   :width: 150px
 
    Combine HSVA Node.
 
-.. figure:: /images/compositing_nodes_separatehsva.png
+.. figure:: /images/compositing_nodes_converter_separate-hsva.png
    :align: right
-   :width: 150px
 
    Separate HSVA Node.
 
@@ -121,15 +117,13 @@ This node has no properties.
 Separate/Combine YUVA Node
 ==========================
 
-.. figure:: /images/compositing_nodes_combineyuva.png
+.. figure:: /images/compositing_nodes_converter_combine-yuva.png
    :align: right
-   :width: 150px
 
    Combine YUVA Node.
 
-.. figure:: /images/compositing_nodes_separateyuva.png
+.. figure:: /images/compositing_nodes_converter_separate-yuva.png
    :align: right
-   :width: 150px
 
    Separate YUVA Node.
 
@@ -155,15 +149,13 @@ This node has no properties.
 Separate/Combine YCbCrA Node
 ============================
 
-.. figure:: /images/compositing_nodes_combineycbcra.png
+.. figure:: /images/compositing_nodes_converter_combine-ycbcra.png
    :align: right
-   :width: 150px
 
    Combine YCbCrA Node.
 
-.. figure:: /images/compositing_nodes_separateycbcra.png
+.. figure:: /images/compositing_nodes_converter_separate-ycbcra.png
    :align: right
-   :width: 150px
 
    Separate YCbCrA Node.
 

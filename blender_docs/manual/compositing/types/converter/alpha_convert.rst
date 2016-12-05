@@ -3,9 +3,8 @@
 Alpha Convert Node
 ******************
 
-.. figure:: /images/compositing_nodes_alphaconvert.png
+.. figure:: /images/compositing_nodes_converter_alpha-convert.png
    :align: right
-   :width: 150px
 
    Alpha Convert Node.
 

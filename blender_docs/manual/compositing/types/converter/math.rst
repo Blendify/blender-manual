@@ -6,9 +6,8 @@
 Math Node
 *********
 
-.. figure:: /images/compositing_nodes_math.png
+.. figure:: /images/compositing_nodes_converter_math.png
    :align: right
-   :width: 150px
 
    Math node.
 

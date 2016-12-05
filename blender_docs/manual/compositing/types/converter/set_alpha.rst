@@ -3,9 +3,8 @@
 Set Alpha Node
 **************
 
-.. figure:: /images/compositing_nodes_setalpha.png
+.. figure:: /images/compositing_nodes_converter_set-alpha.png
    :align: right
-   :width: 150px
 
    Set Alpha Node.
 
