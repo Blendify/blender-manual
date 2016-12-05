@@ -1,3 +1,4 @@
+.. _bpy.types.Cycles:
 
 #######################
   Cycles Render Engine

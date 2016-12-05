@@ -215,5 +215,7 @@ Render
 Preview
    Size of :term:`micropolygons` in pixels while preview rendering.
 
+.. _bpy.types.CyclesRenderSettings.max_subdivisions:
+
 Max Subdivisions
    Stop subdividing when this level is reached even if the dice rate would produce finer :term:`tessellation`.
