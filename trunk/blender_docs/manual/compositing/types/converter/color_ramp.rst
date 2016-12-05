@@ -6,7 +6,7 @@
 Color Ramp Node
 ***************
 
-.. figure:: /images/compositing_nodes_colorramp.png
+.. figure:: /images/compositing_nodes_converter_color-ramp.png
    :align: right
 
    Color Ramp Node.

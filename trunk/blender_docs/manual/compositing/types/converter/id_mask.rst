@@ -3,9 +3,8 @@
 ID Mask Node
 ************
 
-.. figure:: /images/compositing_nodes_idmask.png
+.. figure:: /images/compositing_nodes_converter_id-mask.png
    :align: right
-   :width: 150px
 
    ID Mask Node.
 
