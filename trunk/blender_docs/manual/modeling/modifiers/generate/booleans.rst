@@ -8,8 +8,8 @@ to achieve with as few steps by editing meshes manually. The Boolean modifier
 uses one of three Boolean operations that can be used to create a single mesh out of two mesh objects:
 
 :Difference: Negation
-:Union: Conjunction
-:Intersect: Disjunction
+:Union: Disjunction
+:Intersect: Conjunction
 
 
 .. TODO: Update image with 'Show all Edges' enabled
