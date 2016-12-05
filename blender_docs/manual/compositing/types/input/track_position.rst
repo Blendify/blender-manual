@@ -3,9 +3,8 @@
 Track Position Node
 *******************
 
-.. figure:: /images/compositing_nodes_trackposition.png
+.. figure:: /images/compositing_nodes_input_track-position.png
    :align: right
-   :width: 150px
 
    Render Layers Node.
 

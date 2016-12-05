@@ -3,9 +3,8 @@
 Movie Clip Node
 ***************
 
-.. figure:: /images/compositing_nodes_movieclip.png
+.. figure:: /images/compositing_nodes_input_movie-clip.png
    :align: right
-   :width: 150px
 
    Movie clip node.
 

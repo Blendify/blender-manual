@@ -3,9 +3,8 @@
 Render Layers Node
 ******************
 
-.. figure:: /images/compositing_nodes_renderlayer.png
+.. figure:: /images/compositing_nodes_input_render-layers.png
    :align: right
-   :width: 150px
 
    Render Layers Node.
 

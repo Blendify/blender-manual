@@ -5,9 +5,8 @@
 Value Node
 **********
 
-.. figure:: /images/compositing_nodes_value.png
+.. figure:: /images/compositing_nodes_input_value.png
    :align: right
-   :width: 150px
 
    Value Node.
 
