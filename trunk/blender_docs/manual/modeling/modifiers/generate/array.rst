@@ -58,23 +58,21 @@ Constant Offset, X, Y, Z
    X, Y and Z constant components can be specified.
 
 Relative Offset, X, Y, Z
+   Adds a translation equal to the object's bounding box size along each axis, multiplied by a scaling factor,
+   to the offset. X, Y and Z scaling factors can be specified.
+
    .. figure:: /images/modeling_modifiers_generate_array_offset-relative.png
 
       Relative offset (0.5, 1.0 and 1.5) examples.
 
-   Adds a translation equal to the object's bounding box size along each axis, multiplied by a scaling factor,
-   to the offset. X, Y and Z scaling factors can be specified.
-
-
 Object Offset
-   .. figure:: /images/modeling_modifiers_generate_array_offset-object.png
-
-      Object offset example.
-
    Adds a transformation taken from an object (relative to the current object) to the offset.
    It is good practice to use an Empty object centered or near to the initial object.
    E.g. by rotating this Empty a circle or helix of objects can be created.
 
+   .. figure:: /images/modeling_modifiers_generate_array_offset-object.png
+
+      Object offset example.
 
 Merge
    If enabled, vertices in each copy will be merged with vertices
@@ -128,6 +126,20 @@ unit between them, whatever the original object's size.
 Examples
 ========
 
+.. figure:: /images/modeling_modifiers_generate_array_example-mechanical-chain.png
+
+   A chain created from a single link.
+   `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Chain01.blend>`__.
+
+.. figure:: /images/modeling_modifiers_generate_array_example-organic-tentacle.jpg
+
+   A tentacle created with an Array modifier followed by a Curve modifier.
+
+   The segment in the foreground is the base mesh for the tentacle; the tentacle is capped by two
+   specially-modeled objects deformed by the same Curve object as the main part of the tentacle.
+   `Sample blend-file <https://wiki.blender.org/index.php/Media:Manual-Modifier-Array-Tentacle01.blend>`__.
+
+
 Mechanical
 ----------
 
@@ -155,14 +167,6 @@ Mechanical
 
           A crankshaft.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__.
-
-   * - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-chain.jpg
-          :width: 320px
-
-          A chain created from a single link.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Chain01.blend>`__.
-
-     -
 
 
 Fractal
@@ -206,13 +210,6 @@ Organic
           A double spiral created with two array modifiers and one Subdivision Surface modifier applied to a cube.
           As above, the vertex merge threshold is set very high to give the effect of skinning.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__.
-
-.. figure:: /images/modeling_modifiers_generate_array_example-organic-tentacle.jpg
-
-   A tentacle created with an Array modifier followed by a Curve modifier.
-   The segment in the foreground is the base mesh for the tentacle; the tentacle is capped by two
-   specially-modeled objects deformed by the same Curve object as the main part of the tentacle.
-   `Sample blend-file <https://wiki.blender.org/index.php/Media:Manual-Modifier-Array-Tentacle01.blend>`__.
 
 
 Tutorials
