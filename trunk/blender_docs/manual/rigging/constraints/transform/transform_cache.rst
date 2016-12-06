@@ -3,8 +3,9 @@
 Transform Cache Constraint
 **************************
 
-The *Transform Cache Constraint* is ued to be able to stream animations
-made at the transformation matrix level (for example rigid bodies, or camera movements).
+The *Transform Cache Constraint* is used to stream animations made
+at the transformation matrix level (for example rigid bodies, or camera movements).
+
 
 Options
 =======
