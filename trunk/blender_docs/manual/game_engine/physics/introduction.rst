@@ -30,7 +30,7 @@ which include the Gravity constant and some important engine performance tweaks.
 Object Physics
 ==============
 
-.. figure:: /images/bge-physics-propertiestabs.jpg
+.. figure:: /images/game-engine_physics_introduction_tab-header.png
 
 
 .. _game-engine-physics-types:
