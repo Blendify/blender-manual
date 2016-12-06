@@ -3,6 +3,12 @@
 Sky Texture Node
 ****************
 
+.. figure:: /images/render_cycles_nodes_textures_sky-texture.png
+   :align: right
+
+   Sky Texture Node.
+
+
 The *Sky Texture* node adds a procedural Sky texture.
 
 

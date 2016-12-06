@@ -3,6 +3,12 @@
 Gradient Texture Node
 *********************
 
+.. figure:: /images/render_cycles_nodes_textures_gradient-texture.png
+   :align: right
+
+   Gradient Texture Node.
+
+
 The *Gradient Texture* node is used a gradient texture.
 
 

@@ -3,6 +3,12 @@
 Magic Texture Node
 ******************
 
+.. figure:: /images/render_cycles_nodes_textures_magic-texture.png
+   :align: right
+
+   Magic Texture Node.
+
+
 The *Magic Texture* node is used to add psychedelic color texture.
 
 

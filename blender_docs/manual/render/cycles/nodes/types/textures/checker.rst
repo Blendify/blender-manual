@@ -3,6 +3,12 @@
 Checker Texture Node
 ********************
 
+.. figure:: /images/render_cycles_nodes_textures_checker-texture.png
+   :align: right
+
+   Checker Texture Node.
+
+
 The *Checker Texture* is used to add a checkerboard texture.
 
 

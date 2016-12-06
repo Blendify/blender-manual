@@ -3,6 +3,12 @@
 Environment Texture Node
 ************************
 
+.. figure:: /images/render_cycles_nodes_textures_environment-texture.png
+   :align: right
+
+   Environment Texture Node.
+
+
 The *Environmental Texture* is used to light your scene using an environment map image file as a texture.
 
 

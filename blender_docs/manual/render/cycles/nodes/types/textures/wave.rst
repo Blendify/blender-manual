@@ -3,6 +3,12 @@
 Wave Texture Node
 *****************
 
+.. figure:: /images/render_cycles_nodes_textures_wave-texture.png
+   :align: right
+
+   Wave Texture Node.
+
+
 The *Wave Texture* node adds procedural bands or rings with noise distortion.
 
 
