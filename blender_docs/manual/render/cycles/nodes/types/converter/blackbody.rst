@@ -3,7 +3,7 @@
 Blackbody Node
 **************
 
-.. figure:: /images/cycles_nodes_blackbody.png
+.. figure:: /images/render_cycles_nodes_converter_blackbody.png
    :align: right
 
    Blackbody Node.

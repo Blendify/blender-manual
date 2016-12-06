@@ -15,7 +15,7 @@ Tabs are overlapping sections in the user-interface.
 The Tabs header can be vertical (Tool Shelf) or
 horizontal (Properties Editor, User Preferences).
 
-.. figure:: /images/bge-physics-propertiestabs.jpg
+.. figure:: /images/game-engine_physics_introduction_tab-header.png
 
    Horizontal tab header.
 

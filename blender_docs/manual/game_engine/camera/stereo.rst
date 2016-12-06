@@ -18,7 +18,7 @@ Stereo Settings
 
 *Stereo Mode*
 
-.. figure:: /images/gameengine-stereo-panel.png
+.. figure:: /images/game-engine_camera_stereo.png
 
    Set the type of stereo camera to use. Possible modes are detailed below.
 

@@ -31,7 +31,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 Dome Camera Settings
 ====================
 
-.. figure:: /images/gameengine-dome-panel.png
+.. figure:: /images/game-engine_camera_dome.png
 
 Dome Type
    This menu allows you to select which type of dome camera to use.

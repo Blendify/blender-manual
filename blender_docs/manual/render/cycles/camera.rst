@@ -68,7 +68,7 @@ Field of View
 Depth of Field
 ==============
 
-.. figure:: /images/cycles_camera_dof_panel.jpg
+.. figure:: /images/render_cycles_camera_depth-of-field-panel.png
 
 Focus
   Set an object to be used as a focal point by the camera, causing the camera

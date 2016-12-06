@@ -70,4 +70,4 @@ but can be enabled by setting *Feature Set* to *Experimental* in the Render prop
 Enabling the *Experimental Feature Set* will use experemental
 and incomplete features that might be broken or change in the future.
 
-.. figure:: /images/cycles_render_feature_set.jpg
+.. figure:: /images/render_cycles_features_experimental.png

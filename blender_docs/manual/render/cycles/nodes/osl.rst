@@ -20,6 +20,12 @@ To enable it, select *Open Shading Language* as the shading system in the render
 Script Node
 ===========
 
+.. figure:: /images/render_cycles_nodes_script.png
+   :align: right
+
+   Script Node.
+
+
 OSL was designed for node-based shading,
 and *each* OSL shader corresponds to *one* node in a node setup. To add an OSL shader,
 add a script node and link it to a text data-block or an external file. Input and output
