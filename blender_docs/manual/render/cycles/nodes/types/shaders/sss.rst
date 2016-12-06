@@ -3,9 +3,8 @@
 Subsurface Scattering Node
 **************************
 
-.. figure:: /images/cycles_nodes_shader_sss.png
+.. figure:: /images/render_cycles_nodes_shaders_subsurface-scattering.png
    :align: right
-   :width: 150px
 
    Subsurface Scattering Node.
 

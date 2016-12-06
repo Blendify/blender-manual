@@ -3,9 +3,8 @@
 Background Node
 ***************
 
-.. figure:: /images/cycles_nodes_shader_background.png
+.. figure:: /images/render_cycles_nodes_shaders_background.png
    :align: right
-   :width: 150px
 
    Background Node.
 

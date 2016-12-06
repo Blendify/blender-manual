@@ -3,9 +3,8 @@
 Transparent Node
 ****************
 
-.. figure:: /images/cycles_nodes_shader_transparent.png
+.. figure:: /images/render_cycles_nodes_shaders_transparent-bsdf.png
    :align: right
-   :width: 150px
 
    Transparent Node.
 

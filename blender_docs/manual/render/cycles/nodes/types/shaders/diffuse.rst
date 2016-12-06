@@ -3,9 +3,8 @@
 Diffuse Node
 ************
 
-.. figure:: /images/cycles_nodes_shader_diffuse.png
+.. figure:: /images/render_cycles_nodes_shaders_diffuse-bsdf.png
    :align: right
-   :width: 150px
 
    Diffuse Node.
 

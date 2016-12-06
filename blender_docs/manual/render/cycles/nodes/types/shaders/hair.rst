@@ -3,9 +3,8 @@
 Hair Node
 *********
 
-.. figure:: /images/cycles_nodes_shader_hair.png
+.. figure:: /images/render_cycles_nodes_shaders_hair-bsdf.png
    :align: right
-   :width: 150px
 
    Hair Node.
 

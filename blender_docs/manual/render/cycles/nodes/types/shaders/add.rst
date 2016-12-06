@@ -3,9 +3,8 @@
 Add Node
 ********
 
-.. figure:: /images/cycles_nodes_shader_add.png
+.. figure:: /images/render_cycles_nodes_shaders_add-shader.png
    :align: right
-   :width: 150px
 
    Add Node.
 
