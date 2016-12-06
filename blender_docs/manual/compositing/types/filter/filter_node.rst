@@ -4,9 +4,8 @@
 Filter Node
 ***********
 
-.. figure:: /images/compositing_nodes_filter.png
+.. figure:: /images/compositing_nodes_filter_filter.png
    :align: right
-   :width: 150px
 
    Filter Node.
 

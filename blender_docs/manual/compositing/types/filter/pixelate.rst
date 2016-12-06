@@ -5,7 +5,6 @@ Pixelate Node
 
 .. figure:: /images/compositing_nodes_filter_pixelate.png
    :align: right
-   :width: 150px
 
    Pixelate Node.
 

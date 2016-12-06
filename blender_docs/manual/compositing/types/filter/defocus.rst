@@ -4,9 +4,8 @@
 Defocus Node
 ************
 
-.. figure:: /images/compositing_nodes_defocus.png
+.. figure:: /images/compositing_nodes_filter_defocus.png
    :align: right
-   :width: 150px
 
    Defocus Node.
 
