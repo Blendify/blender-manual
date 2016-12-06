@@ -37,32 +37,26 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/material-matmenu-preview-flat.jpg
-          :width: 200px
+   * - .. figure:: /images/render_blender-render_materials_properties_preview_flat.png
 
           Plane preview.
 
-     - .. figure:: /images/material-matmenu-preview-sphere.jpg
-          :width: 200px
+     - .. figure:: /images/render_blender-render_materials_properties_preview_sphere.png
 
           Sphere preview.
 
-     - .. figure:: /images/material-matmenu-preview-cube.jpg
-          :width: 200px
+     - .. figure:: /images/render_blender-render_materials_properties_preview_cube.png
 
           Cube preview.
 
-   * - .. figure:: /images/material-matmenu-preview-monkey.jpg
-          :width: 200px
+   * - .. figure:: /images/render_blender-render_materials_properties_preview_monkey.png
 
           Monkey preview.
 
-     - .. figure:: /images/material-matmenu-preview-strands.jpg
-          :width: 200px
+     - .. figure:: /images/render_blender-render_materials_properties_preview_hair.png
 
           Hair Strands preview.
 
-     - .. figure:: /images/material-matmenu-preview-spheresky.jpg
-          :width: 200px
+     - .. figure:: /images/render_blender-render_materials_properties_preview_sky.png
 
           Sky Sphere preview.

@@ -67,8 +67,7 @@ Front/Back
 Geometry Node Example using a UV image
 ======================================
 
-.. figure:: /images/geometry-node-example.jpg
-   :width: 500px
+.. figure:: /images/render_blender-render_materials_nodes_input_geometry_example.png
 
    Setup to render a UV-Mapped Image Texture.
 

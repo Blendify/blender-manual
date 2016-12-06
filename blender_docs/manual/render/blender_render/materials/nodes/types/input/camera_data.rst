@@ -4,6 +4,7 @@ Camera Data Node
 ****************
 
 .. figure:: /images/camera-data-node.jpg
+   :align: right
 
    Camera Data node.
 

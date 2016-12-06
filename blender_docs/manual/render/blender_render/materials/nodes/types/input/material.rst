@@ -3,7 +3,7 @@
 Material Node
 *************
 
-.. figure:: /images/render_bi_material-node.jpg
+.. figure:: /images/render_blender-render_materials_nodes_input_material.png
    :align: right
 
    Material node.
@@ -62,8 +62,7 @@ Examples
 Using the Material Node with Specularity
 ----------------------------------------
 
-.. figure:: /images/render_bi_material-node-specular.jpg
-   :width: 250px
+.. figure:: /images/render_blender-render_materials_nodes_input_material_example.png
 
    Material Node using Specularity.
 

@@ -3,8 +3,8 @@
 Lamp Data Node
 **************
 
-.. figure:: /images/bi_nodes_lamp-data.jpg
-   :width: 180px
+.. figure:: /images/render_blender-render_materials_nodes_input_lamp-data.png
+   :align: right
 
    Lamp Data node.
 

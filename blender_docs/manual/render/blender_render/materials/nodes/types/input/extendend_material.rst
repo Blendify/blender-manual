@@ -3,9 +3,8 @@
 Extended Material Node
 **********************
 
-.. figure:: /images/extended-material-node.jpg
+.. figure:: /images/render_blender-render_materials_nodes_input_extendend-material.png
    :align: right
-   :width: 200px
 
    Extended Material node.
 

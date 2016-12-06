@@ -3,7 +3,7 @@
 Output Node
 ***********
 
-.. figure:: /images/render_bi_material-output-node.jpg
+.. figure:: /images/render_blender-render_materials_nodes_output.png
    :align: right
 
    Output material node.
