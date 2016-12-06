@@ -6,7 +6,7 @@ Noise Node
 Noise
 =====
 
-.. figure:: /images/texture-nodes-noise.jpg
+.. figure:: /images/render_blender-render_textures_nodes_textures_noise.png
 
    Noise.
 

@@ -3,7 +3,7 @@
 Clouds Node
 ***********
 
-.. figure:: /images/texture-nodes-cloud.jpg
+.. figure:: /images/render_blender-render_textures_nodes_textures_clouds.png
 
    Clouds node.
 

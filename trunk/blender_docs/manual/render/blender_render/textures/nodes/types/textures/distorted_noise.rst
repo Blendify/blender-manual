@@ -3,7 +3,7 @@
 Distorted Noise Node
 ********************
 
-.. figure:: /images/texture-nodes-distortednoise.jpg
+.. figure:: /images/render_blender-render_textures_nodes_textures_distorted-noise.png
 
    Distorted Noise node.
 

@@ -3,7 +3,7 @@
 Stucci Node
 ***********
 
-.. figure:: /images/texture-nodes-stucci.jpg
+.. figure:: /images/render_blender-render_textures_nodes_textures_stucci.png
 
    Stucci.
 

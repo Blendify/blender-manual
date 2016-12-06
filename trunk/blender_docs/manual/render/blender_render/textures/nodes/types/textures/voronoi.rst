@@ -3,7 +3,7 @@
 Voronoi Node
 ************
 
-.. figure:: /images/texture-nodes-voronoi.jpg
+.. figure:: /images/render_blender-render_textures_nodes_textures_voronoi.png
 
    Voronoi node.
 
