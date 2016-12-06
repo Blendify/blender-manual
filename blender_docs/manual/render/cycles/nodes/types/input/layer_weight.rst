@@ -3,7 +3,7 @@
 Layer Weight Node
 *****************
 
-.. figure:: /images/cycles_nodes_layer-weight.png
+.. figure:: /images/render_cycles_nodes_input_layer-weight.png
    :align: right
 
    Layer Weight Node.

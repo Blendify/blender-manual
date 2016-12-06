@@ -3,7 +3,7 @@
 Light Path Node
 ***************
 
-.. figure:: /images/cycles_nodes_light-path.png
+.. figure:: /images/render_cycles_nodes_input_light-path.png
    :align: right
 
    Light Path Node.

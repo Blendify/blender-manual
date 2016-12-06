@@ -3,7 +3,7 @@
 Texture Coordinate Node
 ***********************
 
-.. figure:: /images/cycles_nodes_texture-coordinate.png
+.. figure:: /images/render_cycles_nodes_input_texture-coordinate.png
    :align: right
 
    Texture Coordinate Node.

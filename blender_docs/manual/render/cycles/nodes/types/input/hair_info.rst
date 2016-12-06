@@ -3,7 +3,7 @@
 Hair Info Node
 **************
 
-.. figure:: /images/cycles_nodes_hair-info.png
+.. figure:: /images/render_cycles_nodes_input_hair-info.png
    :align: right
 
    Hair Info Node.

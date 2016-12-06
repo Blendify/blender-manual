@@ -3,7 +3,7 @@
 Particle Info Node
 ******************
 
-.. figure:: /images/cycles_nodes_particle-info.png
+.. figure:: /images/render_cycles_nodes_input_particle-info.png
    :align: right
 
    Particle Info Node.

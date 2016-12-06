@@ -3,7 +3,7 @@
 UV Map Node
 ***********
 
-.. figure:: /images/cycles_nodes_uv-map.png
+.. figure:: /images/render_cycles_nodes_input_uv-map.png
    :align: right
 
    UV Map Node.

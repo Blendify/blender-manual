@@ -3,7 +3,7 @@
 Object Info Node
 ****************
 
-.. figure:: /images/cycles_nodes_object-info.png
+.. figure:: /images/render_cycles_nodes_input_object-info.png
    :align: right
 
    Object Info Node.
