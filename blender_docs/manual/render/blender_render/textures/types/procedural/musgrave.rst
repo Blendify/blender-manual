@@ -3,7 +3,7 @@
 Musgrave
 ********
 
-.. figure:: /images/texture-procedural-musgrave.jpg
+.. figure:: /images/render_blender-render_textures_procedural_musgrave.png
 
    Musgrave Texture Panels.
 

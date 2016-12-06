@@ -3,7 +3,7 @@
 Stucci
 ******
 
-.. figure:: /images/texture-procedural-stucci.jpg
+.. figure:: /images/render_blender-render_textures_procedural_stucci.png
 
    Stucci Texture Panels.
 

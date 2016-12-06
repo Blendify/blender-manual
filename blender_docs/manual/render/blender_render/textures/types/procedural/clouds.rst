@@ -3,7 +3,7 @@
 Clouds
 ******
 
-.. figure:: /images/texture-procedural-clouds.jpg
+.. figure:: /images/render_blender-render_textures_procedural_clouds.png
 
    Clouds Texture Panels.
 

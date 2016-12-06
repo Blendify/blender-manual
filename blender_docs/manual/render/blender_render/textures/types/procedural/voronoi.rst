@@ -3,7 +3,7 @@
 Voronoi
 *******
 
-.. figure:: /images/texture-procedural-voronoi.jpg
+.. figure:: /images/render_blender-render_textures_procedural_voronoi.png
 
    Voronoi Texture Panels.
 
