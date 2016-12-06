@@ -3,9 +3,8 @@
 Luminance Key Node
 ******************
 
-.. figure:: /images/compositing_nodes_luminancekey.png
+.. figure:: /images/compositing_nodes_matte_luminance-key.png
    :align: right
-   :width: 150px
 
    Luminance Key Node.
 

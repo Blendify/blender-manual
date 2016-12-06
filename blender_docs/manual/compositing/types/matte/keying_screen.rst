@@ -3,9 +3,8 @@
 Keying Screen Node
 ******************
 
-.. figure:: /images/compositing_nodes_keyingscreen.png
+.. figure:: /images/compositing_nodes_matte_keying-screen.png
    :align: right
-   :width: 150px
 
    Keying Screen Node.
 

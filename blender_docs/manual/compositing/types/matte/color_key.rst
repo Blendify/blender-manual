@@ -3,9 +3,8 @@
 Color Key Node
 **************
 
-.. figure:: /images/compositing_nodes_colorkey.png
+.. figure:: /images/compositing_nodes_matte_color-key.png
    :align: right
-   :width: 150px
 
    Color Key Node.
 

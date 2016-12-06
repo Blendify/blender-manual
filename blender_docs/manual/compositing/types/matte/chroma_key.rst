@@ -3,9 +3,8 @@
 Chroma Key Node
 ***************
 
-.. figure:: /images/compositing_nodes_chromakey.png
+.. figure:: /images/compositing_nodes_matte_chroma-key.png
    :align: right
-   :width: 150px
 
    Chroma Key Node.
 

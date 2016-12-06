@@ -3,9 +3,8 @@
 Box Mask Node
 *************
 
-.. figure:: /images/compositing_nodes_boxmask.png
+.. figure:: /images/compositing_nodes_matte_box-mask.png
    :align: right
-   :width: 150px
 
    Box Mask Node.
 

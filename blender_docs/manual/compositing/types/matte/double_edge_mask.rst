@@ -3,9 +3,8 @@
 Double Edge Mask Node
 *********************
 
-.. figure:: /images/compositing_nodes_doubleedgemask.png
+.. figure:: /images/compositing_nodes_matte_double-edge-mask.png
    :align: right
-   :width: 150px
 
    Double Edge Mask Node.
 

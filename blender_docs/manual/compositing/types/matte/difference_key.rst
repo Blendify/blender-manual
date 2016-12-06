@@ -3,9 +3,8 @@
 Difference Key Node
 *******************
 
-.. figure:: /images/compositing_nodes_differencekey.png
+.. figure:: /images/compositing_nodes_matte_difference-key.png
    :align: right
-   :width: 150px
 
    Difference Key Node.
 
