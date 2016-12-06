@@ -3,7 +3,7 @@
 Value to Normal Node
 ********************
 
-.. figure:: /images/texture-nodes-valuetonormal.jpg
+.. figure:: /images/render_blender-render_textures_nodes_converter_value-to-normal.png
    :align: right
 
    Value to Normal node.

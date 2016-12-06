@@ -3,10 +3,10 @@
 Output Node
 ***********
 
-.. figure:: /images/texture-nodes-coordinate2.jpg
+.. figure:: /images/render_blender-render_textures_nodes_output_output.png
    :align: right
 
-   Output node on the right.
+   Output node.
 
 This node contains the result of the node texture.
 

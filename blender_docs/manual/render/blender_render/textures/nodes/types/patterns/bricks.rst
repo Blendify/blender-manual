@@ -3,9 +3,8 @@
 Bricks Node
 ***********
 
-.. figure:: /images/texture-nodes_bricks.png
+.. figure:: /images/render_blender-render_textures_nodes_patterns_bricks.png
    :align: right
-   :width: 200px
 
    Bricks node.
 

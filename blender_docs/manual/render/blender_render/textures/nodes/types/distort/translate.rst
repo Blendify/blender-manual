@@ -3,7 +3,7 @@
 Translate Node
 **************
 
-.. figure:: /images/texture-nodes-translate.jpg
+.. figure:: /images/render_blender-render_textures_nodes_distort_translate.png
    :align: right
 
    Translate node.
