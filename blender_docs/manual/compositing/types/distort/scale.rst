@@ -3,9 +3,8 @@
 Scale Node
 **********
 
-.. figure:: /images/compositing_nodes_scale.png
+.. figure:: /images/compositing_nodes_distort_scale.png
    :align: right
-   :width: 150px
 
    Scale Node.
 

@@ -5,7 +5,6 @@ Map UV Node
 
 .. figure:: /images/compositing_nodes_distort_map-uv.png
    :align: right
-   :width: 150px
 
    Map UV Node.
 

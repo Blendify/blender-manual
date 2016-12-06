@@ -3,9 +3,8 @@
 Translate Node
 **************
 
-.. figure:: /images/compositing_nodes_translate.png
+.. figure:: /images/compositing_nodes_distort_translate.png
    :align: right
-   :width: 150px
 
    Transform Node.
 

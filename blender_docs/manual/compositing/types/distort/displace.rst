@@ -3,9 +3,8 @@
 Displace Node
 *************
 
-.. figure:: /images/compositing_nodes_displace.png
+.. figure:: /images/compositing_nodes_distort_displace.png
    :align: right
-   :width: 150px
 
    Displace Node.
 

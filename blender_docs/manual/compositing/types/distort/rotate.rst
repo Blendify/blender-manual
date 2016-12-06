@@ -3,9 +3,8 @@
 Rotate Node
 ***********
 
-.. figure:: /images/compositing_nodes_rotate.png
+.. figure:: /images/compositing_nodes_distort_rotate.png
    :align: right
-   :width: 150px
 
    Rotate Node.
 

@@ -3,9 +3,8 @@
 Stabilize 2D Node
 *****************
 
-.. figure:: /images/compositing_nodes_stabilize2d.png
+.. figure:: /images/compositing_nodes_distort_stabilize-2d.png
    :align: right
-   :width: 150px
 
    Stabilize 2D Node.
 

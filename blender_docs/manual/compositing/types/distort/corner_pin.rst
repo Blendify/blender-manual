@@ -3,9 +3,8 @@
 Corner Pin Node
 ***************
 
-.. figure:: /images/compositing_nodes_cornerpin.png
+.. figure:: /images/compositing_nodes_distort_corner-pin.png
    :align: right
-   :width: 150px
 
    Corner Pin Node.
 

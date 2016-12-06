@@ -3,9 +3,8 @@
 Movie Distortion Node
 *********************
 
-.. figure:: /images/compositing_nodes_undistortion.png
+.. figure:: /images/compositing_nodes_distort_movie-distortion.png
    :align: right
-   :width: 150px
 
    Movie Distortion Node.
 

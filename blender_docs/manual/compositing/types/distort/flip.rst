@@ -3,9 +3,8 @@
 Flip Node
 *********
 
-.. figure:: /images/compositing_nodes_flip.png
+.. figure:: /images/compositing_nodes_distort_flip.png
    :align: right
-   :width: 150px
 
    Flip Node.
 
