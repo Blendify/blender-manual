@@ -4,14 +4,13 @@
 What's New
 **********
 
-This page temporarily contains demo entries the may date back some time.
-As soon there is new content we will update the page.
+This page lists major changes and additions to the manual.
 
-- :doc:`Track Position node </compositing/types/input/track_position.html>`
+- :doc:`Track Position node </compositing/types/input/track_position>`
   (`rBM3014 <https://developer.blender.org/rBM3014>`__, Dec. 6).
-- :doc:`Inpaint node </compositing/types/filter/inpaint.html>`
+- :doc:`Inpaint node </compositing/types/filter/inpaint>`
   (`rBM3011 <https://developer.blender.org/rBM3011>`__, Dec. 6).
-- :doc:`Glare node </compositing/types/filter/glare.html>`
+- :doc:`Glare node </compositing/types/filter/glare>`
   (`rBM2998 <https://developer.blender.org/rBM2998>`__, Dec. 5).
 - `Korean Translations <https://www.blender.org/manual/ko/>`__
   (`rBM2980 <https://developer.blender.org/rBM2980>`__, Oct. 29).
