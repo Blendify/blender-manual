@@ -3,10 +3,9 @@
 Holdout Node
 ************
 
-.. figure:: /images/cycles_nodes_shader_holdout.png
+.. figure:: /images/render_cycles_nodes_shaders_holdout.png
    :align: right
-   :width: 150px
-
+ 
    Holdout Node.
 
 

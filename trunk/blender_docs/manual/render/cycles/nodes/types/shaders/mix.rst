@@ -3,9 +3,8 @@
 Mix Node
 ********
 
-.. figure:: /images/cycles_nodes_shader_mix.png
+.. figure:: /images/render_cycles_nodes_shaders_mix-shader.png
    :align: right
-   :width: 150px
 
    Mix Node.
 

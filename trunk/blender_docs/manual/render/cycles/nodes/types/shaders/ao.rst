@@ -3,9 +3,8 @@
 Ambient Occlusion Node
 **********************
 
-.. figure:: /images/cycles_nodes_shader_ao.png
+.. figure:: /images/render_cycles_nodes_shaders_ambient-occlusion.png
    :align: right
-   :width: 150px
 
    Ambient Occlusion Node.
 

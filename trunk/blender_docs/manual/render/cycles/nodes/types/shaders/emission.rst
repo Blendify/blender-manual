@@ -3,9 +3,8 @@
 Emission Node
 *************
 
-.. figure:: /images/cycles_nodes_shader_emission.png
+.. figure:: /images/render_cycles_nodes_shaders_emission.png
    :align: right
-   :width: 150px
 
    Emission Node.
 

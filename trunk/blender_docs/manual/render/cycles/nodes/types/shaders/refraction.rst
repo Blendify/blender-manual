@@ -3,9 +3,8 @@
 Refraction Node
 ***************
 
-.. figure:: /images/cycles_nodes_shader_refraction.png
+.. figure:: /images/render_cycles_nodes_shaders_refraction-bsdf.png
    :align: right
-   :width: 150px
 
    Refraction Node.
 

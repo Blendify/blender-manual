@@ -3,9 +3,8 @@
 Glossy Node
 ***********
 
-.. figure:: /images/cycles_nodes_shader_glossy.png
+.. figure:: /images/render_cycles_nodes_shaders_glossy-bsdf.png
    :align: right
-   :width: 150px
 
    Glossy Node.
 

@@ -4,9 +4,8 @@
 Volume Absorption Node
 **********************
 
-.. figure:: /images/cycles_nodes_shader_volume-absorption.png
+.. figure:: /images/render_cycles_nodes_shaders_volume-absorption.png
    :align: right
-   :width: 150px
 
    Volume Absorption Node.
 

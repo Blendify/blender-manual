@@ -3,9 +3,8 @@
 Velvet Node
 ***********
 
-.. figure:: /images/cycles_nodes_shader_velvet.png
+.. figure:: /images/render_cycles_nodes_shaders_velvet-bsdf.png
    :align: right
-   :width: 150px
 
    Velvet Node.
 

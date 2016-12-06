@@ -3,9 +3,8 @@
 Toon Node
 *********
 
-.. figure:: /images/cycles_nodes_shader_toon.png
+.. figure:: /images/render_cycles_nodes_shaders_toon-bsdf.png
    :align: right
-   :width: 150px
 
    Toon Node.
 
