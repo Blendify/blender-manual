@@ -3,9 +3,8 @@
 Distance Key Node
 *****************
 
-.. figure:: /images/compositing_nodes_distancekey.png
+.. figure:: /images/compositing_nodes_matte_distance-key.png
    :align: right
-   :width: 150px
 
    Distance Key Node.
 

@@ -3,9 +3,8 @@
 Keying Node
 ***********
 
-.. figure:: /images/compositing_nodes_keying.png
+.. figure:: /images/compositing_nodes_matte_keying.png
    :align: right
-   :width: 150px
 
    Keying Node.
 

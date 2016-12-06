@@ -3,9 +3,8 @@
 Ellipse Mask Node
 *****************
 
-.. figure:: /images/compositing_nodes_ellipsemask.png
+.. figure:: /images/compositing_nodes_matte_ellipse-mask.png
    :align: right
-   :width: 250px
 
    Ellipse Mask Node.
 

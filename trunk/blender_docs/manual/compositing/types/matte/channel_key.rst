@@ -3,9 +3,8 @@
 Channel Key Node
 ****************
 
-.. figure:: /images/compositing_nodes_channelkey.png
+.. figure:: /images/compositing_nodes_matte_channel-key.png
    :align: right
-   :width: 150px
 
    Channel Key Node.
 
