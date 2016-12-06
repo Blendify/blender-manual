@@ -209,8 +209,7 @@ Rotate Method
 Keymap Editor
 =============
 
-.. figure:: /images/user_prefs_input-keymapeditor.jpg
-   :width: 320px
+.. figure:: /images/preferences_input_keymap-editor.png
 
 
 The Keymap editor lets you change the default Hotkeys. You can change keymaps for each of Blender's editors.

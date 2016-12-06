@@ -3,6 +3,12 @@
 Normal Map Node
 ***************
 
+.. figure:: /images/render_blender-render_materials_nodes_vector_normal-map.png
+   :align: right
+
+   Normal Map Node.
+
+
 The *Normal Map* node generate a perturbed normal from an RGB normal map image.
 This is usually chained with an *Image Texture* node in the color input,
 to specify the normal map image. For tangent space normal maps,

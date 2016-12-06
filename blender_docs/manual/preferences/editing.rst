@@ -11,7 +11,7 @@ These preferences control how several tools will interact with your input.
 Link Materials To
 =================
 
-.. figure:: /images/structure-object-data.jpg
+.. figure:: /images/preferences_editing_data-blocks-hierarchy.png
 
    Example for a Mesh.
 
@@ -25,7 +25,7 @@ the Object data-block contains information about the Object's location while the
 
 A material may be linked in two different ways:
 
-.. figure:: /images/structure-object-material-connection.jpg
+.. figure:: /images/preferences_editing_data-blocks-link.png
 
    A material linked to Object Data (left) and Object (right).
 

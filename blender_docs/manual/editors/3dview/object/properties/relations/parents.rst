@@ -290,7 +290,7 @@ Hints
 
 .. _fig-view3d-parent-outliner:
 
-.. figure:: /images/modeling-objects-parenting-exampel2-outliner.jpg
+.. figure:: /images/editors_3dview_object_properties_relations_parents_outliner-view.png
 
    Outliner view.
 
