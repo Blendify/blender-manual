@@ -28,6 +28,6 @@ Manual Transform Scale
    Value by which to enlarge or shrink the object with respect to the world's origin.
 Object Path
    The path to the Alembic object inside the archive
-*Verts/Faces/UV/Color*
+Verts/Faces/UV/Color
    Type of data to read for a mesh object respectively: vertices,
    polygons, UV layers and Vertex Color layers.
