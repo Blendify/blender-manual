@@ -21,7 +21,7 @@ Platform Dependant Instructions
 Linux
 -----
 
-.. figure:: /images/interface-window_system-console-linux.jpg
+.. figure:: /images/interface-window_system-console-linux.png
    :align: right
    :width: 360px
 
