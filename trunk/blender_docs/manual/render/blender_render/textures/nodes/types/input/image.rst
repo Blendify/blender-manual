@@ -3,7 +3,7 @@
 Image Node
 **********
 
-.. figure:: /images/texture-nodes-image.png
+.. figure:: /images/render_blender-render_textures_nodes_input_image.png
    :align: right
 
    Image node.

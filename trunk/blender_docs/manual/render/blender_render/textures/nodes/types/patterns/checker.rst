@@ -3,9 +3,8 @@
 Checker Node
 ************
 
-.. figure:: /images/texture-nodes_checker.png
+.. figure:: /images/render_blender-render_textures_nodes_patterns_checker.png
    :align: right
-   :width: 200px
 
    Checker node.
 

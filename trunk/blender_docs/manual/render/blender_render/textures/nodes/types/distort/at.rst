@@ -3,7 +3,7 @@
 At Node
 *******
 
-.. figure:: /images/texture-nodes-at.jpg
+.. figure:: /images/render_blender-render_textures_nodes_distort_at.png
    :align: right
 
    At node.

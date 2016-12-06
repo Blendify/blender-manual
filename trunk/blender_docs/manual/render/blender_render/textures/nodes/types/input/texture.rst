@@ -3,7 +3,7 @@
 Texture Node
 ************
 
-.. figure:: /images/render_blender-render_textures_nodes_types_input_texture.png
+.. figure:: /images/render_blender-render_textures_nodes_input_texture.png
    :align: right
 
    Texture node.

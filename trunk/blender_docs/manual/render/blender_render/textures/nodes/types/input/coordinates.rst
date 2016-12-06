@@ -3,7 +3,7 @@
 Coordinates Node
 ****************
 
-.. figure:: /images/texture-nodes-coordinate2.jpg
+.. figure:: /images/render_blender-render_textures_nodes_input_coordinates.png
    :align: right
 
    Coordinates node.
