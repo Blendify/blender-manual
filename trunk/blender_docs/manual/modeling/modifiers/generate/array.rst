@@ -23,7 +23,7 @@ Options
    Array modifier.
 
 
-Fit Type menu
+Fit Type
    Controls how the length of the array is determined. There are three choices, activating respectively the
    display of the *Curve*, *Length* or *Count* settings explained below:
 
@@ -33,16 +33,6 @@ Fit Type menu
       Generates enough copies to fit within the fixed length given by *Length*.
    Fixed Count
       Generates the number of copies specified in *Count*.
-
-Curve
-   The Curve object to use for *Fit Curve*.
-
-Length
-   The length to use for *Fit Length*.
-
-Count
-   The number of duplicates to use for *Fixed Count*.
-
 
 .. note::
 
