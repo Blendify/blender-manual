@@ -3,7 +3,7 @@
 Squeeze Value Node
 ******************
 
-.. figure:: /images/material-convertor-node-squeezevalue.jpg
+.. figure:: /images/render_blender-render_materials_nodes_converter_sqeeze-value.png
    :align: right
 
    Squeeze Value node.
