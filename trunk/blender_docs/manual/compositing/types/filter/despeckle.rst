@@ -3,9 +3,8 @@
 Despeckle Node
 **************
 
-.. figure:: /images/compositing_nodes_despeckle.png
+.. figure:: /images/compositing_nodes_filter_despeckle.png
    :align: right
-   :width: 150px
 
    Despeckle Node.
 

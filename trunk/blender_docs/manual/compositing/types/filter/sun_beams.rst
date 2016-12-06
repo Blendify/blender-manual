@@ -3,9 +3,8 @@
 Sun Beams Node
 **************
 
-.. figure:: /images/compositing_nodes_sunbeams.png
+.. figure:: /images/compositing_nodes_filter_sun-beams.png
    :align: right
-   :width: 150px
 
    Sun Beams Node.
 

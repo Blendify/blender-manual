@@ -3,9 +3,8 @@
 Inpaint Node
 ************
 
-.. figure:: /images/compositing_nodes_inpaint.png
+.. figure:: /images/compositing_nodes_filter_inpaint.png
    :align: right
-   :width: 150px
 
    Inpaint Node.
 

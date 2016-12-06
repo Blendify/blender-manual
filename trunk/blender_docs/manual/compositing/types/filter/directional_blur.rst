@@ -4,9 +4,8 @@
 Directional Blur Node
 *********************
 
-.. figure:: /images/compositing_nodes_directionalblur.png
+.. figure:: /images/compositing_nodes_filter_directional-blur.png
    :align: right
-   :width: 150px
 
    Dilate/Erode Node.
 

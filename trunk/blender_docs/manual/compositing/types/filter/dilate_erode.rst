@@ -4,9 +4,8 @@
 Dilate/Erode Node
 *****************
 
-.. figure:: /images/compositing_nodes_delateerode.png
+.. figure:: /images/compositing_nodes_filter_dilate-erode.png
    :align: right
-   :width: 150px
 
    Dilate/Erode Node.
 

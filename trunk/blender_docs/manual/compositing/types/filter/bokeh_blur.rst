@@ -3,9 +3,8 @@
 Bokeh Blur Node
 ***************
 
-.. figure:: /images/compositing_nodes_bokehblur.png
+.. figure:: /images/compositing_nodes_filter_bokeh-blur.png
    :align: right
-   :width: 150px
 
    Bokeh Blur Node.
 

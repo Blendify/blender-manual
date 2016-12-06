@@ -3,9 +3,8 @@
 Glare Node
 **********
 
-.. figure:: /images/compositing_nodes_glare.png
+.. figure:: /images/compositing_nodes_filter_glare.png
    :align: right
-   :width: 150px
 
    Glare Node.
 
