@@ -3,8 +3,7 @@
 Hemi Lamp
 *********
 
-.. figure:: /images/render_blender-render_lighting_lamps_hemi_scheme.png
-   :width: 250px
+.. figure:: /images/render_blender-render_lighting_lamps_hemi_scheme.svg
 
    Hemi light conceptual scheme.
 
