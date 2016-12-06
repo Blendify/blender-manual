@@ -3,6 +3,12 @@
 Brick Texture Node
 ******************
 
+.. figure:: /images/render_cycles_nodes_textures_brick-texture.png
+   :align: right
+
+   Brick Texture Node.
+
+
 The *Brick Texture* is used to add a procedural texture producing bricks.
 
 

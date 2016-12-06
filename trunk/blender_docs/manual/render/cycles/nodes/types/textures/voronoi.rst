@@ -4,6 +4,12 @@
 Voronoi Texture Node
 ********************
 
+.. figure:: /images/render_cycles_nodes_textures_voronoi-texture.png
+   :align: right
+
+   Voronoi Texture Node.
+
+
 The *Voronoi Texture* node adds a procedural texture producing Voronoi cells.
 
 

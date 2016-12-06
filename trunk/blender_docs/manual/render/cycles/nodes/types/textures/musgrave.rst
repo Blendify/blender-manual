@@ -3,6 +3,12 @@
 Musgrave Texture Node
 *********************
 
+.. figure:: /images/render_cycles_nodes_textures_musgrave-texture.png
+   :align: right
+
+   Musgrave Texture Node.
+
+
 The *Musgrave Texture* is used to add an advanced procedural noise texture.
 
 .. tip::
