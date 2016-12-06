@@ -1,3 +1,4 @@
+.. Editors note, only list large changes/additions limit the list to 20 items
 
 **********
 What's New
