@@ -70,7 +70,7 @@ Alpha
 Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
 
-.. figure:: /images/texture-imagesampling-panel.jpg
+.. figure:: /images/render_blender-render_textures_image_options_image-sampling-panel.png
 
    Image Sampling panel.
 
@@ -166,7 +166,7 @@ Filter
 Image Mapping
 =============
 
-.. figure:: /images/texture-imagemapping-panel.jpg
+.. figure:: /images/render_blender-render_textures_image_options_image-mapping-panel.png
 
    Image Mapping panel.
 
