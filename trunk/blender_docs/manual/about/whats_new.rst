@@ -6,6 +6,16 @@ What's New
 This page temporarily contains demo entries the may date back some time.
 As soon there is new content we will update the page.
 
+- :doc:`Track Position node </compositing/types/input/track_position.html>`
+  (`rBM3014 <https://developer.blender.org/rBM3014>`__, Dec. 6).
+- :doc:`Inpaint node </compositing/types/filter/inpaint.html>`
+  (`rBM3011 <https://developer.blender.org/rBM3011>`__, Dec. 6).
+- :doc:`Glare node </compositing/types/filter/glare.html>`
+  (`rBM2998 <https://developer.blender.org/rBM2998>`__, Dec. 5).
+- `Korean Translations <https://www.blender.org/manual/ko/>`__
+  (`rBM2980 <https://developer.blender.org/rBM2980>`__, Oct. 29).
+- :doc:`Corner Pin node </compositing/types/distort/corner_pin>`
+  (`rBM2978 <https://developer.blender.org/rBM2978>`__, Oct. 28).
 - :doc:`Despeckle node </compositing/types/filter/despeckle>` primer 
   (`rBM2975 <https://developer.blender.org/rBM2975>`__, Oct. 27).
 - :doc:`Stabilizer panel </editors/movie_clip_editor/tracking/clip/stabilization>` update 
