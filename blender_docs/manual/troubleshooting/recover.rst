@@ -56,7 +56,7 @@ Recover Last Session
 
    .. _fig-troubleshooting-file-browser:
    
-   .. figure:: /images/troubleshooting_recover_display-file-date.jpg
+   .. figure:: /images/troubleshooting_recover_display-file-date.png
 
       File Browser with detailed view selected.
 

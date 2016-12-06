@@ -122,7 +122,7 @@ Mode
    F-Curve for :doc:`Actions </animation/actions>`,
    and Drivers for :doc:`Drivers </animation/drivers/index>`.
 
-.. figure:: /images/graph_header_view.jpg
+.. figure:: /images/editors_graph-editor_introduction_header_view.png
 
    View Controls.
 
@@ -143,7 +143,7 @@ View controls
    Auto
       Automatically recalculate curve normalization on every curve edit.
 
-.. figure:: /images/graph_header_edit.jpg
+.. figure:: /images/editors_graph-editor_introduction_header_edit.png
 
    Curve Controls.
 

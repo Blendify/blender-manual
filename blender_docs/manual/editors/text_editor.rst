@@ -15,13 +15,13 @@ Fig. :ref:`fig-text-header-plain`
 
 .. _fig-text-header-plain:
 
-.. figure:: /images/editors_text_header1.jpg
+.. figure:: /images/editors_text-editor_header.png
 
    Text header.
 
 .. _fig-text-header-full:
 
-.. figure:: /images/editors_text_header2.jpg
+.. figure:: /images/editors_text-editor_header-loaded.png
 
    Text header with a text loaded.
 

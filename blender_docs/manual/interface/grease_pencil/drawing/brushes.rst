@@ -38,7 +38,7 @@ Angle
       that change the thickness depending of the angle of drawing.
       This gets a more artistic drawing and less "computer" lines.
 
-.. figure:: /images/interface_gp_draw_brushes.jpg
+.. figure:: /images/interface_grease-pencil_drawing_brushes.png
 
    Preset Brushes.
 
