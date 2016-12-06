@@ -3,7 +3,7 @@
 Fresnel Node
 ************
 
-.. figure:: /images/cycles_nodes_fresnel.png
+.. figure:: /images/render_cycles_nodes_input_fresnel.png
    :align: right
 
    Fresnel Node.

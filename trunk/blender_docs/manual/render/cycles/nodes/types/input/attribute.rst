@@ -3,7 +3,7 @@
 Attribute Node
 **************
 
-.. figure:: /images/cycles_nodes_attribute.png
+.. figure:: /images/render_cycles_nodes_input_attribute.png
    :align: right
 
    Attribute Node.
