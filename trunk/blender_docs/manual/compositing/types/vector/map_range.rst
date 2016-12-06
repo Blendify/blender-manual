@@ -3,9 +3,8 @@
 Map Range Node
 **************
 
-.. figure:: /images/compositing_nodes_maprange.png
+.. figure:: /images/compositing_nodes_vector_map-range.png
    :align: right
-   :width: 150px
 
    Map Range Node.
 

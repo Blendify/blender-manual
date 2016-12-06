@@ -5,7 +5,6 @@ Map Value Node
 
 .. figure:: /images/compositing_nodes_vector_map-value.png
    :align: right
-   :width: 150px
 
    Map Value Node.
 
