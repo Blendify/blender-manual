@@ -18,6 +18,11 @@ can be visualized using a color/alpha ramp gradient.
 Options
 =======
 
+.. figure:: /images/render_blender-render_textures_volume_point-density.png
+
+   Point Density panel.
+
+
 Point Data
    Particle System
       Particle System, Generate point density from a particle system.
@@ -105,6 +110,11 @@ Color Source
 
 Turbulence
 ----------
+
+.. figure:: /images/render_blender-render_textures_volume_point-density-turbulence.png
+
+   Turbulence panel.
+
 
 Adds directed noise to the density at render time.
 

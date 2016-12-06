@@ -17,6 +17,11 @@ which is a common format for medical volume data such as CT scans.
 Settings
 ========
 
+.. figure:: /images/render_blender-render_textures_volume_voxel-data.png
+
+   Voxel Data panel.
+
+
 File Format
    Blender Voxel
       Default binary voxel file format.

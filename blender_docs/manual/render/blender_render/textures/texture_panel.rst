@@ -5,7 +5,7 @@ Texture Panel
 
 In the Properties editor, choose the Texture tab: this will show the Texture panel.
 
-.. figure:: /images/texture-top-panel.png
+.. figure:: /images/render_blender-render_textures_texture-panel.png
 
    Texture panel.
 
