@@ -15,7 +15,7 @@ to get a pixelated (non-smoothed) image from the resultant upscaled image.
 Inputs
 ======
 
-Image
+Color
    Standard image input.
 
 
@@ -28,7 +28,7 @@ This node has no properties.
 Outputs
 =======
 
-Image
+Color
    Standard image output.
 
 
