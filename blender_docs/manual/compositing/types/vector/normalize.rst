@@ -3,9 +3,8 @@
 Normalize Node
 **************
 
-.. figure:: /images/compositing_nodes_normalize.png
+.. figure:: /images/compositing_nodes_vector_normalize.png
    :align: right
-   :width: 150px
 
    Normalize Node.
 

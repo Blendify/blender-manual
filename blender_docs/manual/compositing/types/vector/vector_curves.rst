@@ -5,9 +5,8 @@
 Vector Curves Node
 ******************
 
-.. figure:: /images/compositing_nodes_vectorcurves.png
+.. figure:: /images/compositing_nodes_vector_vector-curves.png
    :align: right
-   :width: 150px
 
    Vector Curves Node.
 
