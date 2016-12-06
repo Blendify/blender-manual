@@ -44,32 +44,30 @@ scaled and shrunk/fattened like any vertex in a mesh.
 Bézier Curve Handle Types
 -------------------------
 
+.. figure:: /images/modeling_curves_bezier_handle-types.png
+   :align: right
+
+   Bézier Curve Handle Types.
+
+
 .. _curve-handle-type-auto:
 
 Automatic :kbd:`V-A`
-   This handle has a completely automatic length and direction which is set by Blender to
-   ensure the smoothest result.
-   These handles convert to *Aligned* handles when moved.
-
-   .. figure:: /images/modeling_curves_automatic-handles.png
+   This handle has a completely automatic length and direction
+   which is set by Blender to ensure the smoothest result.
+   These handles convert to *Aligned* handles when moved. (Red handles.)
 
 Vector :kbd:`V-V`
    Both parts of a handle always point to the previous handle or the next handle which allows
    you to create curves or sections thereof made of straight lines or with sharp corners.
-   Vector handles convert to *Free* handles when moved.
-
-   .. figure:: /images/modeling_curves_vector-handles.png
+   Vector handles convert to *Free* handles when moved. (Green handles.)
 
 Aligned :kbd:`V-L`
-   These handles always lie in a straight line, and give a continuous curve without sharp angles.
-
-   .. figure:: /images/modeling_curves_aligned-handles.png
+   These handles always lie in a straight line,
+   and give a continuous curve without sharp angles. (Purple handles.)
 
 Free :kbd:`V-F`
-   The handles are independent of each other.
-
-   .. figure:: /images/modeling_curves_free-handles.png
+   The handles are independent of each other. (Black handles.)
 
 
 Additionally, the :kbd:`V-T` shortcut can be used to toggle between Free and Aligned handle types.
-
