@@ -3,9 +3,8 @@
 Transform Node
 **************
 
-.. figure:: /images/compositing_nodes_transform.png
+.. figure:: /images/compositing_nodes_distort_transform.png
    :align: right
-   :width: 150px
 
    Transform Node.
 

@@ -3,9 +3,8 @@
 Crop Node
 *********
 
-.. figure:: /images/compositing_nodes_crop.png
+.. figure:: /images/compositing_nodes_distort_crop.png
    :align: right
-   :width: 150px
 
    Crop Node.
 

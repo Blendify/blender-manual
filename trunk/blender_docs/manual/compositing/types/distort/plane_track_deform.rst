@@ -3,9 +3,8 @@
 Plane Track Deform Node
 ***********************
 
-.. figure:: /images/compositing_nodes_planetrackdeform.png
+.. figure:: /images/compositing_nodes_distort_plane-track-deform.png
    :align: right
-   :width: 150px
 
    Plane Track Deform Node.
 
