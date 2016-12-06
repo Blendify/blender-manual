@@ -66,6 +66,13 @@ the installation directory of Blender:
 - templates
   Not all of the folders have to be present.
 
+.. warning::
+
+   Be sure that you have the right privileges for running the executable accessing the path defined.
+   On MS-Windows for instance, if the option "Run this program as an administrator" is enabled for the executable,
+   it will lead to a failure to open the editor due to a limitation within the OS User Account Control.
+   Running a program with elevated privileges is potentially dangerous!
+
 
 Auto Execution
 ==============
