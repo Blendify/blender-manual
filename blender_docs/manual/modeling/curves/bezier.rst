@@ -55,7 +55,7 @@ Bézier Curve Handle Types
 Automatic :kbd:`V-A`
    This handle has a completely automatic length and direction
    which is set by Blender to ensure the smoothest result.
-   These handles convert to *Aligned* handles when moved. (Red handles.)
+   These handles convert to *Aligned* handles when moved. (Yellow handles.)
 
 Vector :kbd:`V-V`
    Both parts of a handle always point to the previous handle or the next handle which allows

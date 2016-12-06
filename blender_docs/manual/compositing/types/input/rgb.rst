@@ -24,5 +24,5 @@ The RGB node uses the :ref:`color picker widget <ui-color-picker>`.
 Outputs
 =======
 
-RGBA
+Color / RGBA
    A single RGBA color value.
