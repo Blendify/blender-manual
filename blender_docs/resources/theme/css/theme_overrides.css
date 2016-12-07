@@ -9,6 +9,10 @@
 
 @import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i';
 
+h5 {
+	margin-bottom: 5px;
+}
+
 /* sidebar menu links */
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover { background: #c0c0c0; }
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover { background: #b5b5b5; }
@@ -191,7 +195,7 @@ a.external {color:#656AE0;}
 	list-style-type: none;
 	margin-bottom: 10px;
 }
-/*Dan Andreasson  on Stack Overflow*/
+/*Dan Andreasson on Stack Overflow*/
 .tocdescr:after {
 	content: "";
 	flex: 1 0 33.3%; -webkit-flex: 1 0 33.3%;
