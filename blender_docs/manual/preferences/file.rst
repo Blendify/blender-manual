@@ -180,5 +180,3 @@ Tabs as Spaces
    When hitting :kbd:`Tab` the tabs get written as keyboard spaces.
 Author
    Name that will be used in exported files when the format supports such feature.
-
-.. Used for I18n? Ask mont29
