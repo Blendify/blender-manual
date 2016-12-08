@@ -30,3 +30,43 @@ you also modify the implicitly related elements of other kinds (e.g. vertices an
 
 You also have in *Edit Mode* an extra option when using these basic manipulations:
 the :doc:`proportional editing </editors/3dview/object/transform/transform_control/proportional_edit>`.
+
+
+Transform Panel
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Properties region --> Transform`
+
+When nothing is selected, the panel is empty.
+When more than one vertex is selected, the median values is edited
+and "Median" is added in front of the labels.
+
+Vertex
+   The first controls (X, Y, Z) show the coordinates of the selected vertex or the median point.
+Space
+   The Space radio buttons let you choose if those coordinates are relative to the object center (local) or
+   the global origin (global).
+
+   Global, Local
+
+
+Vertex Data
+-----------
+
+Bevel Weight
+   ToDo.
+
+
+Edge Data
+---------
+
+When an edge is selected, the following options are available. more buttons appear:
+
+Bevel Weight
+   See :ref:`Edge bevel weight <modeling-edges-bevel-weight>`.
+Crease
+   The :ref:`crease <modeling-edges-crease-subdivision>` value of the edge.

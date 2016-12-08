@@ -29,13 +29,13 @@ Blender comes with a number of "primitive" mesh shapes that you can start modeli
 Common Options
 ==============
 
-The Option can be specified in the Operator panel in the *Tool Shelf*,
+These options can be specified in the Operator panel in the *Tool Shelf*,
 which appears when the object is created.
 Options included in more than one primitive are:
 
 Vertices, Segments, Subdivisions
    Since the edges of a mesh are straight specifying a number of vertices produces polygonal shapes.
-   i.e. six vertices for an hexagon.
+   i.e. six vertices for a hexagon.
    The higher the vertex count the closer a circular/spherical shape will be approximated and
    the shape will appear smoother.
 Radius, Size
@@ -94,7 +94,7 @@ Rings
 
    .. note::
 
-      Rings are face loops and not edge loops, which would be minus one.
+      Rings are the face loops and not the edge loops, which would be one less.
 
 
 Icosphere
@@ -124,7 +124,7 @@ Objects that can be created out of cylinders include handles or rods.
 Vertices
    The number of vertical edges between the circles used to define the cylinder or prism.
 Depth
-   Sets the starting height for the cylinder.
+   Sets the starting height of the cylinder.
 
 Cap Fill Type
    Similar to circle (see above). When set to none, the created object will be a tube.
@@ -145,7 +145,7 @@ Radius 2
    Sets the radius of the tip of the cone. which will creates a frustum.
    A value of 0 will produce a standard cone shape.
 Depth
-   Sets the starting height for the cone.
+   Sets the starting height of the cone.
 
 Base Fill Type
    Similar to circle (see above).
@@ -193,7 +193,7 @@ Grid
 
 A regular quadratic grid which is a subdivided plane.
 Example objects that can be created out of grids include landscapes
-and other organic surfaces.
+and organic surfaces.
 
 X Subdivisions
    The number of spans in the X axis.

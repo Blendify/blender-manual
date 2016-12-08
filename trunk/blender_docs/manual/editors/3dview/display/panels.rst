@@ -3,17 +3,18 @@
 Display and View Panels
 ***********************
 
-
 Display Panel
 =============
 
+This panel lets you configure some visualization parameters of the viewport.
+
 Only Render
    Displays only items that will be rendered.
+   This options hides visualizations, overlays , the 3D cursor, and the grid floor.
+   The :doc:`3D manipulator widget </editors/3dview/object/transform/transform_control/manipulators>`
+   has to toggle separately.
 
-   This can be is useful to preview how animations look without being distracted by
-   rigs, empties, lights & cameras.
-
-   Useful to enable for :doc:`OpenGL Render </render/opengl>`.
+   This can be useful for a preview and for :doc:`OpenGL </render/opengl>` viewport rendering.
 
    .. note::
 
@@ -24,26 +25,33 @@ Only Render
       dupli-parents and render layers are not taken into account.
 
 Outline Selected
-   If disabled, the pink outline around your selected objects in
+   If disabled, the orange outline around your selected objects in
    *Solid*, *Shaded*, *Textured* draw types will no longer be displayed.
+World Background
+   ToDo.
 All Object Origins
    If enabled, the center dot of objects will always be visible, even for non-selected ones
    (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings).
 Relationship Lines
    Controls whether the dashed parenting, constraining, hooking, etc., lines are drawn.
 Grid Floor
-   If disabled, you have no grid in other views than the orthographic top/front/side ones.
+   Grid Floor is a finite grid which is shown in other views than the aligned orthographic (top, front, side).
+   It lays on the global XY plane. The checkbox lets you show or hide that grid.
+   In aligned orthographic views an infinite grid is shown.
 
-   X Axis, Y Axis, Z Axis
-      Control which axes are shown in other views than the orthographic top/front/side ones.
+   Axis
+      Control which global axes are shown as colored lines (Grid floor only).
+      Their length depend on the defined size of that grid.
+
+      X, Y, Z
    Lines
-      Controls the number of lines that make the grid in non-top/front/side orthographic views, in both directions.
+      Controls the total number of lines that make the grid, in both directions. 
+      (odd values will be rounded down).
    Scale
-      Control the scale of the grid floor
+      Controls the distance between the grid lines.
    Subdivisions
-      Controls the number of sub-lines that appear in each cell of the grid when you zoom in,
-      so it is a setting specific to top/front/side orthographic views.
-
+      Controls the number of sub-lines that appear in each cell of the grid.
+      In aligned orthographic views the level of subdivision depend on the zoom.
 Toggle Quad View
    Toggles the four view 3D View.
    :doc:`Read more about arranging areas </interface/window_system/areas>`
@@ -59,22 +67,25 @@ Lens
    Control the focal length of the 3D View camera in millimeters,
    unlike a :doc:`rendering camera </render/blender_render/camera/index>`
 Lock to Object
-   By entering the name of an object in the *Object* field, you lock your view to this object, i.e.
-   it will always be at the center of the view (the only exception is the active camera view, :kbd:`Numpad0`).
-   If the locked object is an armature,
-   you can further center the view on one of its bones by entering its name in the *Bone* field.
+   Lock to Object lets you define an object in the *Object* Data ID as the center of the view.
+   In that case, the view can be rotated around or zoomed towards that central object,
+   but not on translation, unless you translate that itself object.
+   (This option is not available in a camera view).
 Lock to Cursor
    Lock the center of the view to the position of the 3D cursor.
+   It is only available when *Lock to Object* is not active.
 
 .. _3dview-lock-camera-to-view:
 
 Lock Camera to View
-   When in camera view, use this option to move the camera in 3D space, while continuing to remain in camera view.
+   When in camera view, all changes in the view (pans, rotations, zooms) will affect the active camera, 
+   which will follow all those changes. The camera frame will be outlined with an red dashed line.
 
 .. _3dview-view-clip:
 
 Clip Start and Clip End
-   Adjust the minimum and maximum distances to be visible for the view-port.
+   Adjust the minimum and maximum distances range to be visible for the viewport camera.
+   Objects outside the range will not be shown.
 
    .. note::
 
@@ -83,10 +94,9 @@ Clip Start and Clip End
 
       See :ref:`Troubleshooting Depth Buffer Glitches <troubleshooting-depth>` for more information.
 
-
 Local Camera
-   Active camera used in this view.
-
+   Active camera used in this view to override the (global) scene camera. 
+   The option is available only when *lock local camera and layers* toggle in the header is not enabled.
 Render Border
    Use a Render Border when not looking through a camera.
    Using :kbd:`Ctrl-B` to draw a border region will automatically enable this option.

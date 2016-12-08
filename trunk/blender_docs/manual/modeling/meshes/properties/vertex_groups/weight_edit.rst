@@ -3,6 +3,12 @@
 Weight Editing
 **************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit and Weight Paint Modes
+   | Panel:    :menuselection:`Properties region --> Weight Editing`
+
 .. figure:: /images/modeling-meshes-vertex-weights-panel-overview.png
    :width: 235px
 
@@ -133,8 +139,8 @@ arrows displayed around the weight value to change the weight in steps.
    Paste weights.
 
 
-Paste a weight to other verts
------------------------------
+Pasting
+-------
 
 :kbd:`LMB` the Paste Icon allows you to forward a single weight of the active Vertex to all selected vertices.
 But note that weights are only pasted to verts which already have a weight value in the affected Vertex Group.
@@ -145,8 +151,8 @@ But note that weights are only pasted to verts which already have a weight value
    Delete weights.
 
 
-Delete a weight from a Group
-----------------------------
+Deleting
+--------
 
 :kbd:`LMB` the Delete Icon will instantly remove the weight from the active vertex.
 Thus the entire row disappears when you click on the delete icon.
@@ -168,7 +174,7 @@ Normalize
    That is all weights of the active vertex are recalculated
    such that their relative weight is maintained and the weight sum is 1.0.
 Copy
-   Copies all weights defined for the active Vertex to all selected Verts.
+   Copies all weights defined for the active Vertex to all selected vertices.
    Thus all previously defined weights are overwritten.
 
 

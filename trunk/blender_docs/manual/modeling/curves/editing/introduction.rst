@@ -29,6 +29,43 @@ When in *Edit Mode*, :doc:`proportional editing
 is also available for transformation actions.
 
 
+.. _modeling-curves-transform-panel:
+
+Transform Panel
+---------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Properties region --> Transform`
+
+When nothing is selected, the panel is empty.
+When more than one vertex is selected, the median values is edited
+and "Median" is added in front of the labels.
+
+Control Point, Vertex
+   The first controls (X, Y, Z) show the coordinates of the selected point or handle (vertex).
+   In case of a NURBS curve, there is a fourth component available (W),
+   which defines the weight of the selected control point or the median weight.
+Space
+   The Space radio buttons let you choose if those coordinates are relative to the object center (local) or
+   the global origin (global).
+
+   Global, Local
+
+
+Data
+----
+
+Weight
+   ToDo.
+Radius
+   Radius is used for beveling.
+Tilt
+   ToDo.
+
+
 Snapping
 ========
 
@@ -57,7 +94,7 @@ Deforming Tools
 
 
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
-:doc:`Transformations </editors/3dview/object/transform/introduction>` sections.
+:doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
 
