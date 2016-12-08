@@ -114,7 +114,7 @@ Edge Selection Mode:
    Face Angles
       Selects all edges that are between two faces forming a similar angle, as with those already selected.
    Crease
-      Selects all edges that have a similar :ref:`Crease <moddeling-edges-crease-subdivision>`
+      Selects all edges that have a similar :ref:`Crease <modeling-edges-crease-subdivision>`
       value as those already selected.
    Bevel
       Selects all edges that have the same *Bevel Weight* as those already selected.

@@ -10,6 +10,7 @@ Transform Orientations
    :class: refbox
 
    | Mode:     Object and Edit Modes
+   | Panel:    :menuselection:`Properties region --> Transform Orientations`
    | Hotkey:   :kbd:`Alt-Spacebar`
 
 
@@ -22,14 +23,15 @@ but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* 
 
 .. figure:: /images/editors_3dview_object_transform-control_transform-orientations_menu.png
 
-   Transform Orientations Menu.
+   Transform Orientations selector.
 
 
-The Orientations options can be set on the 3D View's header,
-with :kbd:`Alt-Spacebar`, or through the *Orientation* menu in a 3D View header.
+The Orientations options can be set through the *Orientation* selector in a 3D View header,
+with :kbd:`Alt-Spacebar`, or in the Transform Orientations panel in the Properties region.
 
-In addition to the four built-in options,
-you can define your own custom orientation (see `Custom Orientations`_ below).
+Transform Orientations
+   In addition to the four preset options,
+   you can define your own custom orientation (see `Custom Orientations`_ below).
 
 
 Orientations
@@ -101,6 +103,7 @@ Custom Orientations
    :class: refbox
 
    | Mode:     Object and Edit Modes
+   | Panel:    :menuselection:`Properties region --> Transform Orientations`
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
 .. figure:: /images/editors_3dview_object_transform-control_transform-orientations_custom.png
@@ -125,8 +128,27 @@ adding and deleting custom orientations.
 
 The default name for these orientations comes from whatever you have selected.
 If an edge, it will be titled, "Edge," if an object,
-it will take that object's name, etc. The Tool shelf (:kbd:`T` in the 3D View)
-allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Spacebar`.
+it will take that object's name, etc.
+
+
+Create Orientation
+^^^^^^^^^^^^^^^^^^
+
+Just after creating the orientation, the Create Orientation Operator panel gives a few options:
+
+Name
+   Text field for naming the new orientation.
+Use View
+   The new orientation will be aligned to the view space.
+Use after creation
+   If checked it leaves the newly created orientation active.
+Overwrite previous
+   If the new orientation is given an existing name, a suffix will be added to it to avoid overwriting the old one,
+   unless *Overwrite previous* is checked, in which case it will be overwritten.
+
+
+Workflow
+^^^^^^^^
 
 .. _fig-view3d-transform-orientation-extrusion:
 

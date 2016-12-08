@@ -1,7 +1,10 @@
 
-*************
-Editing Metas
-*************
+*******
+Editing
+*******
+
+Active Element
+==============
 
 When in *Edit Mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
@@ -11,15 +14,12 @@ These settings apply only to the selected meta element.
 
    Active element panel.
 
-
-Meta Shape
-==========
-
-The *Type* menu lets you change the shape of the meta object, as explained above.
+Type
+   The *Type* menu lets you change the shape of the meta object.
 
 
 Stiffness
-=========
+---------
 
 Together with *Threshold*, *Stiffness* controls the influencing range.
 While the threshold is common to all metas in the same object
@@ -57,7 +57,7 @@ As you can see, the radius (green ring) is different for each of them.
 
 
 Negative Influence
-==================
+------------------
 
 .. _fig-meta-ball-negative:
 
@@ -81,7 +81,7 @@ and check *negative* in the *active element* panel.
 
 
 Hiding Elements
-===============
+---------------
 
 As in *Object Mode*, you can hide the selected meta(s),
 and then reveal what was hidden. This is very handy for cleaning your views up a bit... Note

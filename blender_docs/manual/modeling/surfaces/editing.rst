@@ -11,7 +11,7 @@ from the basics of surface editing to more advanced topics, like retopology.
 
 
 Translation, Rotation, Scale
-----------------------------
+============================
 
 .. admonition:: Reference
    :class: refbox
@@ -29,8 +29,14 @@ You also have in *Edit Mode* an extra option when using these basic manipulation
 :doc:`proportional editing </editors/3dview/object/transform/transform_control/proportional_edit>`.
 
 
+Transform Panel
+---------------
+
+See :ref:`modeling-curves-transform-panel`.
+
+
 Advanced Transform Tools
-------------------------
+========================
 
 .. admonition:: Reference
    :class: refbox
@@ -45,7 +51,7 @@ Surfaces have no specific transform tools.
 
 
 NURBS Control Points Settings
------------------------------
+=============================
 
 .. admonition:: Reference
    :class: refbox
@@ -62,7 +68,7 @@ or by directly typing a value in the *W* number button of the *Transform* panel.
 
 
 Adding or Extruding
--------------------
+===================
 
 .. admonition:: Reference
    :class: refbox
@@ -100,7 +106,7 @@ so you only can create a new surface by copying (`Duplication`_) an existing one
 
 
 Examples
-^^^^^^^^
+--------
 
 Images Fig. :ref:`fig-surface-edit-select-point` to Fig. :ref:`fig-surface-edit-extruding`
 show a typical extrusion along the side of a surface.
@@ -142,7 +148,7 @@ new surface sections until you have reached the final shape for your model.
 
 
 Opening or Closing a Surface
-----------------------------
+============================
 
 .. admonition:: Reference
    :class: refbox
@@ -169,7 +175,7 @@ The corresponding surface's outer edges will join together to form a "closed" su
 
 
 Duplication
------------
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -200,7 +206,7 @@ only selections forming a *single* valid sub-grid are copyable; let us see this 
 
 
 Deleting Elements
------------------
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -230,7 +236,7 @@ All
 
 
 Example
-^^^^^^^
+-------
 
 .. figure:: /images/modeling_surfaces_editing_deleting.png
 
@@ -244,7 +250,7 @@ the *selected* row of control points is erased, resulting in Fig. *Before and af
 
 
 Joining or Merging Surfaces
----------------------------
+===========================
 
 .. admonition:: Reference
    :class: refbox
@@ -282,7 +288,7 @@ and you just have to "skin" them as described above to get a nice, smooth and ha
 
 
 Examples
-^^^^^^^^
+--------
 
 Fig. Joining ready is an example of two NURBS surface curves, **not** NURBS curves,
 in *Edit Mode*, ready to be joined.
@@ -304,7 +310,7 @@ Fig. Joining complete is the result of joining the two curves.
 
 
 Subdivision
------------
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -325,8 +331,7 @@ this tool works exactly as with :ref:`curves <modeling-curves-subdivision>`.
 
 
 Spin
-----
-
+====
 
 .. admonition:: Reference
    :class: refbox
@@ -346,7 +351,7 @@ as for the *NURBS Tube* or *NURBS Donut* primitives.
 
 
 Switch Direction
-----------------
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -362,7 +367,7 @@ Mainly useful when using a curve as path, or the bevel and taper options...
 
 
 Other Specials Options
-----------------------
+======================
 
 .. admonition:: Reference
    :class: refbox

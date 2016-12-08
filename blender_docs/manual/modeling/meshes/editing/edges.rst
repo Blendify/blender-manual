@@ -54,6 +54,8 @@ which is part of the smoothing technics.
 As seams, it is a property of edges, and these commands set or unset it for selected ones.
 
 
+.. _modeling-edges-bevel-weight:
+
 Adjust Bevel Weight
 -------------------
 
@@ -71,7 +73,7 @@ where by moving the mouse (or typing a value with the keyboard)
 you can set the (average) bevel weight of selected edges.
 
 
-.. _moddeling-edges-crease-subdivision:
+.. _modeling-edges-crease-subdivision:
 
 Crease Subdivision
 ------------------
@@ -91,7 +93,6 @@ This command enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard) you can set the (average)
 crease value of selected edges.
 To clear the crease edge property, enter a value of -1.
-
 
 
 .. _modeling-meshes-editing-edge-slide:

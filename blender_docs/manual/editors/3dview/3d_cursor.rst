@@ -65,8 +65,8 @@ Numeric Input
    The 3D Cursor panel of the Properties region.
 
 
-The 3D cursor can also be positioned by entering Numeric location values into
-the *3D cursor* panel of the *Properties* region :kbd:`N`.
+The 3D cursor can also be positioned by editing the location coordinates values in
+the *3D cursor* panel of the *Properties* region.
 
 
 Usage

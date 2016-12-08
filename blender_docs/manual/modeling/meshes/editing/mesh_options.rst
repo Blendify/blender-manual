@@ -3,18 +3,18 @@
 Mesh Options
 ************
 
-X-Mirror
-========
-
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Mesh Options --> X-mirror`
+   | Panel:    :menuselection:`Tool Shelf --> Options tab --> Mesh Options panel`
 
 
-The *X-mirror* option of the *Mesh Options* panel allows you edit both
-"sides" of your mesh in a single action. When you transform an element (vertex, edge or face),
+X-Mirror
+========
+
+The *X-mirror* option of the *Mesh Options* panel allows you edit symmetrical vertices on the other side
+of the mesh in a single action. When you transform an element (vertex, edge or face),
 if there is its exact X-mirrored counterpart (in local space),
 it will be transformed accordingly, through a symmetry along the local X axis.
 
@@ -28,12 +28,6 @@ it will be transformed accordingly, through a symmetry along the local X axis.
 Topology Mirror
 ===============
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Mesh Options --> Topology Mirror`
-
 .. note::
 
    For *Topology Mirror* to work the *X Mirror* option must be enabled.
@@ -41,13 +35,12 @@ Topology Mirror
 
 When using the *X Mirror* option to work on mirrored Mesh Geometry the vertices that
 are mirrored must be perfectly placed. If they are not exactly positioned in their mirror
-locations then *X Mirror* will not treat those vertices as mirrored. This can be
-annoying because often the out of position vertices are only very slightly out of position.
+locations then *X Mirror* will not treat those vertices as mirrored. 
 
-*Topology Mirror* tries to solve this problem by determining which vertices are mirrored vertices not only by
+*Topology Mirror* tries to address this problem by determining which vertices are mirrored vertices not only by
 using their positions but also by looking at how those vertices are related to others in the Mesh Geometry.
-It looks at the overall Mesh Geometry topology to determine if particular vertices will be treated as mirrored.
-The effect of this is that mirrored vertices can be non-symetrical and yet still be treated as mirrored when
+It looks at the overall topology to determine if particular vertices will be treated as mirrored.
+The effect of this is that mirrored vertices can be non-symmetrical and yet still be treated as mirrored when
 *X Mirror* and *Topology Mirror* are both active.
 
 .. note::
@@ -71,4 +64,29 @@ then delete the default cube and add a Monkey object to the 3D View.
 #. If you then enable *Topology Mirror* and move the same vertices again,
    then *X Mirror* should still mirror the other vertice,
    even though they are not perfectly positioned.
+
+
+Further Options
+===============
+
+Edge Select Mode
+   This select button indicates what should be done when selecting a vertex path with :kbd:`Ctrl-RMB`:
+
+      Select
+         Just selects all the edges in the path.
+      Seam
+         Marks all edges in the path as seams for UV unwrapping.
+      Sharp
+         Marks all edges in the path as sharp for the edge split modifier.
+      Crease
+         Marks all edges in the path as creases for the subdivision surface modifier, with weight 1.0.
+      Bevel
+         Gives bevel weight 1.0 (for the bevel modifier) to all edges in the path.
+
+Live Unwrap
+   If *Live Unwrap* is checked, every time an edge has its seam property changed,
+   UV unwrap is automatically re-calculated.
+Double Threshold
+   Defines the maximum distance between vertices that are merged by
+   the :menuselection:`Mesh --> Vertices --> Remove Doubles` tools.
 

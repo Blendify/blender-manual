@@ -114,7 +114,7 @@ There are multiple ways to transform an element which include:
 
 
 Confirm and Cancel
--------------------
+------------------
 
 :kbd:`LMB` click to accept changes.
 This behavior can be changed globally by activating  *Release Confirms*
@@ -153,7 +153,7 @@ Proportional Editing, Falloff, Size
 Edit Grease Pencil
    ToDo.
 Edit Texture Space
-   This checkbox lets you apply the transformation on the :ref:`texture space <properties-texture-space>`,
+   This checkbox lets you apply the transformation on the :ref:`Texture Space <properties-texture-space>`,
    instead of the object or element itself. Only available in translation and scale.
 Confirm on Release
    Shows if either the operation was drag-and-release or move-and-confirm.
