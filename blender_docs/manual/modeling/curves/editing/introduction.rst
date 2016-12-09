@@ -49,7 +49,7 @@ Control Point, Vertex
    In case of a NURBS curve, there is a fourth component available (W),
    which defines the weight of the selected control point or the median weight.
 Space
-   The Space radio buttons let you choose if those coordinates are relative to the object center (local) or
+   The Space radio buttons let you choose if those coordinates are relative to the object origin (local) or
    the global origin (global).
 
    Global, Local

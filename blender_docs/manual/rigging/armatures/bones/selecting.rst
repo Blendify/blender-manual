@@ -18,81 +18,35 @@ with a few specific differences that will be detailed in the :doc:`posing part <
 Similar to :doc:`vertices/edges selection </modeling/meshes/selecting/introduction>` in meshes,
 there are two ways to select whole bones in *Edit Mode*:
 
-- directly, by selecting the bone's body
-- selecting both of its end points (root and tip)
+- Directly, by selecting the bone's body.
+- Selecting both of its joints (root and tip).
 
 This is an important point to understand,
-because selecting bones' ends only might lead to non-obvious behavior,
+because selecting bones' joints only might lead to non-obvious behavior,
 with respect to which bone you actually select, see the.
 
 Note that unlike the mesh draw type the armature draw type has no effect on selection
 behavior. In other words,
-you can select a bone's end or body the same way regardless of the bone visualization chosen.
+you can select a bone's joint or body the same way regardless of the bone visualization chosen.
 
 
-Selecting bones' ends
+Selecting bone joints
 =====================
 
-To select bones' ends you have the standard selection methods.
-
-.. list-table::
-   :header-rows: 1
-
-   * - action
-     - shortcut
-     - menu
-     - mouse
-   * - Select a bone's end
-     - ..
-     - ..
-     - :kbd:`RMB` -click on it
-   * - Add or Remove from the current selection
-     - ..
-     - ..
-     - :kbd:`Shift-RMB`
-   * - (De)select the ends of all bones
-     - :kbd:`A`
-     - :menuselection:`Select --> Select/Deselect All`
-     - ..
-   * - Invert the current selection
-     - :kbd:`Ctrl-I`
-     - :menuselection:`Select --> Inverse`
-     - ..
-   * - Box selection tool activated
-     - :kbd:`B`
-     - :menuselection:`Select --> Border Select`
-     - ..
-   * - Box selection
-     - | Click and drag :kbd:`LMB` the box around the ends you want to add to the current selection
-       | Click and drag :kbd:`LMB` to remove from the current selection
-       | release :kbd:`LMB` to validate
-       | press :kbd:`Esc` or click :kbd:`RMB` to cancel
-     - ..
-     - ..
-   * - Box selection tool deactivated
-     - :kbd:`B` or :kbd:`Esc`
-     - ..
-     - :kbd:`RMB`
-   * - Lasso selection
-     - | Click and drag :kbd:`Ctrl-LMB` the lasso around the ends you want to add to the current selection
-       | Click and drag :kbd:`Ctrl-Shift-LMB` to remove from the current selection
-       | Release :kbd:`LMB` to validate
-       | Hit :kbd:`Esc` or click :kbd:`RMB` to cancel
-     - ..
-     - ..
+To select bones' joints you have the :doc:`standard selection </editors/3dview/object/selection>` methods.
 
 
 Inverse selection
 -----------------
 
-As stated above, you have to remember that these selection tools are for bones' ends only,
+As stated above, you have to remember that these selection tools are for bones' joints only,
 not the bones' bodies.
 
 For example, the *Inverse* selection option :kbd:`Ctrl-I`
-inverts the selection of bones' ends, not of bones (see *Inverse selection*).
+inverts the selection of bones' joints, not of bones (see *Inverse selection*).
 
-Remember that a bone is selected only if both its ends are selected. So,
-when the selection status of bones' ends is inverted, a new set of bones is selected.
+Remember that a bone is selected only if both its joints are selected. So,
+when the selection status of bones' joints is inverted, a new set of bones is selected.
 
 .. list-table:: Inverse selection.
 
@@ -105,10 +59,10 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
           :width: 320px
 
           The result of the inverse selection :kbd:`Ctrl-I`
-          the bones ends selection has been inverted, and not the bones selection.
+          the bones joints selection has been inverted, and not the bones selection.
 
 
-Selecting connected bones' ends
+Selecting connected bone joints
 -------------------------------
 
 Another example is: when you select the root of a bone connected to its parent,
@@ -116,7 +70,7 @@ you also implicitly select the tip of its parent (and vice versa).
 
 .. note::
 
-   Remember that when selecting bones' ends,
+   Remember that when selecting bones' joints,
    the tip of the parent bone is the "same thing" as the root of its children bones.
 
 
@@ -147,12 +101,15 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
           Its whole chain selected with :kbd:`L`.
 
 
+Parent and Child
+----------------
+
 You can deselect the active bone and select its immediate parent or
-one of its children using respectively :menuselection:`Select --> Select Parent`,
-:kbd:`[` or :menuselection:`Select --> Select Child`, :kbd:`]`.
+one of its children using respectively :menuselection:`Select --> Parent`,
+:kbd:`[` or :menuselection:`Select --> Child`, :kbd:`]`.
 If you prefer to keep the active bone in the selection,
-use :menuselection:`Select --> Extend Select Parent`, :kbd:`Ctrl-[` or
-:menuselection:`Select --> Extend Select Child`, :kbd:`Ctrl-]`.
+use :menuselection:`Select --> Extend Parent`, :kbd:`Shift-[` or
+:menuselection:`Select --> Extend Child`, :kbd:`Shift-]`.
 
 
 Deselecting connected bones

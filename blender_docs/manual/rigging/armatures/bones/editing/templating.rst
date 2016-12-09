@@ -243,7 +243,7 @@ Static text line
    The line just above the *Peel Objects* button gives you two informations:
 
    - The *n* joints part gives you the number of joints
-     (i.e. bones' ends, with connected ends considered as one joint),
+     (i.e. bones' joints, with connected joints considered as one joint),
      either from the selected bones of the edited armature, or in the whole other template armature.
    - The second part is only present when another armature has been selected as template --
      it gives you the *root bone's name* of the chain that will be mapped to the strokes.

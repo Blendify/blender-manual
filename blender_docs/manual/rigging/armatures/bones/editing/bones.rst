@@ -119,7 +119,7 @@ The "_R" bone is its mirror counterpart (along the armature's local X axis), see
 
 
 In case you are wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
-because extrusion selects the newly created tips, and as explained below the delete command ignores bones' ends.
+because extrusion selects the newly created tips, and as explained below the delete command ignores bones' joints.
 To get rid of these extruded bones without undoing, you would have to move the tips,
 then select the bones and delete (`Deleting Bones`_) them.
 
@@ -220,7 +220,7 @@ Fill between joints
    | Hotkey:   :kbd:`F`
 
 
-The main use of this tool is to create one bone between two selected ends by pressing
+The main use of this tool is to create one bone between two selected joints by pressing
 :kbd:`F`, similar to how in mesh editing you can "create edges/faces".
 
 If you have one root and one tip selected, the new bone:
@@ -286,10 +286,10 @@ new bone's root moves to the tip of the parent bone.
           After UI update, correct visualization.
 
 
-Clicking :kbd:`F` with only one bone end selected will create a bone from the selected
-end to the 3D cursor position, and it will not parent it to any bone in the armature.
+Clicking :kbd:`F` with only one bone joint selected will create a bone from the selected
+joint to the 3D cursor position, and it will not parent it to any bone in the armature.
 
-.. list-table:: Fill with only one bone end selected.
+.. list-table:: Fill with only one bone joint selected.
 
    * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-7.png
           :width: 320px
@@ -304,8 +304,8 @@ end to the 3D cursor position, and it will not parent it to any bone in the arma
 
 You will get an error when:
 
-- trying to fill two ends of the same bone, or
-- trying to fill more than two bone ends.
+- trying to fill two joints of the same bone, or
+- trying to fill more than two bone joints.
 
 
 Duplication
@@ -320,7 +320,7 @@ Duplication
 
 .. note::
 
-   This tool works on selected bones; selected ends are ignored.
+   This tool works on selected bones; selected joints are ignored.
 
 
 As in mesh editing, by pressing :kbd:`Shift-D`:
@@ -374,7 +374,7 @@ Standard deletion
 
 .. note::
 
-   This tool works on selected bones: selected ends are ignored.
+   This tool works on selected bones: selected joints are ignored.
 
 
 To delete a bone, you can:
@@ -510,7 +510,7 @@ You can prevent a bone from being transformed in *Edit Mode* in several ways:
 *If the root of a locked bone is connected to the tip of an unlocked bone,
 it will not be locked*, i.e. you will be able to move it to your liking.
 This means that in a chain of connected bones, when you lock one bone,
-you only really lock its tip. With unconnected bones, the locking is effective on both ends of the bone.
+you only really lock its tip. With unconnected bones, the locking is effective on both joints of the bone.
 
 
 X-Axis Mirror Editing

@@ -29,7 +29,7 @@ connected bones must always have parent's tips connected to child's roots,
 so by transforming a bone, you will affect all its connected parent/children/siblings.
 
 Finally, you can edit in the *Transform* panel in the Properties region
-the positions and radius of both ends of the active selected bone,
+the positions and radius of both joints of the active selected bone,
 as well as its :ref:`roll rotation <armature-bone-roll>`.
 
 
@@ -47,7 +47,7 @@ Radius and Scaling in Envelope Visualization
 When bones are displayed using *Octahedron*, *Stick* or *B-Bone* visualizations,
 scaling will behave as expected, similar to scaling mesh objects.
 When bones are displayed using *Envelope* visualization, scaling will have a different effect:
-it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/armatures/skinning/index>`).
+it will scale the radius of the selected bones's joints. (see: :doc:`skinning part </rigging/armatures/skinning/index>`).
 As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones,
 you scale at the same time the radius of the parent's tip and of the children's roots.
 
@@ -72,11 +72,11 @@ you scale at the same time the radius of the parent's tip and of the children's 
      - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-4.png
           :width: 320px
 
-          ...Scaled in Envelope visualization. Its length remains the same, but its ends' radius are bigger.
+          ...Scaled in Envelope visualization. Its length remains the same, but its joints' radius are bigger.
 
 
 Note that when you resize a bone (either by directly scaling it,
-or by moving one of its ends), Blender automatically adjusts the end-radii of its envelope
+or by moving one of its joints), Blender automatically adjusts the end-radii of its envelope
 proportionally to the size of the modification. Therefore,
 it is advisable to place all the bones first, and only then edit these properties.
 

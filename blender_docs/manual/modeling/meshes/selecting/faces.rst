@@ -1,7 +1,7 @@
 
-***************
-Selecting Faces
-***************
+*****
+Faces
+*****
 
 .. figure:: /images/selection-mode_buttons_face-activated.png
 
@@ -22,7 +22,7 @@ Face Loops
    :class: refbox
 
    | Mode:     Edit Mode (Mesh)
-   | Hotkey:   :kbd:`Alt-RMB` - or :kbd:`Shift-Alt-RMB` for modifying existing selection
+   | Hotkey:   :kbd:`Alt-RMB` or :kbd:`Shift-Alt-RMB` for modifying existing selection
 
 
 Face Loops are pretty much the same as Edge Rings. If you want to select a Face Loop,

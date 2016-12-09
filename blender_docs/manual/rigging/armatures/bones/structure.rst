@@ -10,14 +10,14 @@ Structure
 
 They have three elements:
 
-- The "start point" named *root* or *head*,
+- The "start joint" named *root* or *head*,
 - the "body" itself,
-- and the "end point" named *tip* or *tail*.
+- and the "end joint" named *tip* or *tail*.
 
 With the default armature in edit-mode,
 you can select the root and the tip, and move them as you do with mesh vertices.
 
-Both root and tip (the "ends") define the bone by their respective position.
+Both root and tip (the "joints") define the bone by their respective position.
 
 They also have a radius property, only useful for the envelope deformation method (see below).
 

@@ -7,16 +7,12 @@ Surface selection in *Edit Mode* is very similar to
 :doc:`NURBS curve selection </modeling/curves/editing/introduction>`.
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
 so you can select a simple control point with a :kbd:`LMB` -click,
-add to current selection with :kbd:`Shift-LMB` -clicks, :kbd:`B` order-select, and so on.
+add to current selection with :kbd:`Shift-LMB` clicks, :kbd:`B` order-select, and so on.
 
 .. figure:: /images/modeling_surfaces_selecting.png
    :align: right
 
    Select Menu.
-
-
-:kbd:`L`, :kbd:`Ctrl-L` will add to the selection the mouse cursor's nearest control point,
-and all the linked ones, i.e. all points belonging to the same surface.
 
 
 Select Menu
@@ -31,6 +27,13 @@ All these options have the same meaning and behavior as in :doc:`Object Mode </e
 .. container:: lead
 
    .. clear
+
+
+Select Linked
+=============
+
+:kbd:`L`, :kbd:`Ctrl-L` will add to the selection the mouse cursor's nearest control point,
+and all the linked ones, i.e. all points belonging to the same surface.
 
 
 Control Point Row

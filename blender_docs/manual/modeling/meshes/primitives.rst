@@ -35,7 +35,7 @@ Options included in more than one primitive are:
 
 Vertices, Segments, Subdivisions
    Since the edges of a mesh are straight specifying a number of vertices produces polygonal shapes.
-   i.e. six vertices for a hexagon.
+   e.g. six vertices for a hexagon.
    The higher the vertex count the closer a circular/spherical shape will be approximated and
    the shape will appear smoother.
 Radius, Size

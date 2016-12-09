@@ -12,7 +12,7 @@ Only Render
    Displays only items that will be rendered.
    This options hides visualizations, overlays , the 3D cursor, and the grid floor.
    The :doc:`3D manipulator widget </editors/3dview/object/transform/transform_control/manipulators>`
-   has to toggle separately.
+   has to be toggled separately.
 
    This can be useful for a preview and for :doc:`OpenGL </render/opengl>` viewport rendering.
 
