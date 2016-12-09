@@ -54,7 +54,7 @@ A stroke is made of several segments, delimited by small black dots.
 There will be at least one bone per segment
 (except with the *Template* conversion method,
 see :doc:`next page </rigging/armatures/bones/editing/templating>`),
-so all black points represents future bones' ends.
+so all black points represents future bones' joints.
 There are two types of segments, which can be mixed together:
 
 .. figure:: /images/rigging_armatures_editing_sketching_strokes-example.png
@@ -100,7 +100,7 @@ Then draw your segment by moving the mouse cursor -- as in any paint program! Re
 so if you would rather start a new free segment, you must immediately re-press :kbd:`LMB`.
 
 The free segments of a stroke will create different number of bones, in different manners,
-depending on the conversion method used. The future bones' ends for the current selected method are
+depending on the conversion method used. The future bones' joints for the current selected method are
 represented by small green dots for each one of those segments, for the selected strokes only.
 
 The free segment drawing uses the same *Manhattan Distance*
@@ -280,7 +280,7 @@ one as a template for the strokes to convert, and which is detailed in
 :doc:`the next page </rigging/armatures/bones/editing/templating>`.
 Anyway, remember that straight segments are always converted to one and only one bone
 (except for the *Template* conversion method),
-and that the future bones' ends are shown as green dots on selected free segments.
+and that the future bones' joints are shown as green dots on selected free segments.
 
 Remember also that the roll rotation of the created bones has been set during their "parent" stroke drawing
 (except for the *Template* conversion method) - their Z axis will be aligned with the view

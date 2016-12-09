@@ -16,7 +16,7 @@ Motion Paths
    An example of motion paths.
 
 
-This feature allows you to visualize as curves the paths of bones' ends
+This feature allows you to visualize as curves the paths of bones' joints
 (either their tips, by default, or their roots).
 
 Before we look at its options, let us first see how to display/hide these paths.

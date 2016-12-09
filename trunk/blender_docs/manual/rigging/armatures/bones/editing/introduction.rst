@@ -42,5 +42,5 @@ to :doc:`skin </rigging/armatures/skinning/index>` and :doc:`pose </rigging/arma
 
 .. note::
 
-   Please note that some tools work on bones' ends, while others work on bones themselves.
+   Please note that some tools work on bones' joints, while others work on bones themselves.
    Be careful not to get confused.

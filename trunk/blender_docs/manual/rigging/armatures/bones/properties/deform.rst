@@ -40,7 +40,7 @@ Technical Details
 ^^^^^^^^^^^^^^^^^
 
 When you connect bones to form a :ref:`chain <armature-bone-chain>`,
-Blender calculates a Bézier curve passing through all the bones' ends,
+Blender calculates a Bézier curve passing through all the bones' joints,
 and bones' segments in the chain will bend and roll to follow this invisible curve.
 There is no direct access to the curve.
 It can only be controlled by some extent using bone properties.
@@ -82,7 +82,7 @@ Example
      - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-2.png
           :width: 320px
 
-          The Bézier curve superposed to the chain, with its handles placed at bones' ends.
+          The Bézier curve superposed to the chain, with its handles placed at bones' joints.
 
    * - .. _fig-rig-bone-intro-same:
 

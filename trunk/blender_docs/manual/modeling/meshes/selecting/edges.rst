@@ -1,7 +1,7 @@
 
-***************
-Selecting Edges
-***************
+*****
+Edges
+*****
 
 .. figure:: /images/selection-mode_buttons_edge-activated.png
 

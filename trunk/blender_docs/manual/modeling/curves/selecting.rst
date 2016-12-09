@@ -10,8 +10,8 @@ Selecting
    Select Menu.
 
 
-Curve selection in *Edit Mode* is much less complex than with meshes! Mainly this is
-because you have only one selectable element type, the control points
+Curve selection in *Edit Mode* has fewer options than with meshes.
+Mainly this is, because there is only one selectable element type, the control points
 (no select mode needed here...). These points are a bit more complex than simple vertices,
 however, especially for Béziers, as there is the central vertex, and its two handles...
 
@@ -24,10 +24,6 @@ the two handles are automatically selected too, so you can grab it as a whole,
 without creating an angle in the curve. However, when you select a handle,
 only this vertex is selected, allowing you to modify this control vector...
 
-:kbd:`L` (or :kbd:`Ctrl-L`) will add to the selection the cursor's nearest control point, and all the linked ones,
-i.e. all points belonging to the same curve. Note that for Bézier,
-using :kbd:`L` with a handle selected will select the whole control point and all the linked ones.
-
 
 Select Menu
 ===========
@@ -39,7 +35,7 @@ the 3D Views header. Let us detail them:
 - Inverse
 - Select/Deselect All
 
-Border Select
+Border/ Circle Select
    All these options have the same meaning and behavior as in :doc:`Object Mode </editors/3dview/object/selecting>`
    (and the specifics of *Border Select* in *Edit Mode* have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
@@ -71,6 +67,14 @@ Offset
    Offsets at what point to start at.
 
 
+Select Linked
+=============
+
+:kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point, and all the linked ones,
+i.e. all points belonging to the same curve. Note that for Bézier,
+using :kbd:`L` with a handle selected will select the whole control point and all the linked ones.
+
+
 Select/Deselect First/Last
 ==========================
 
@@ -83,8 +87,8 @@ Select/Deselect First/Last
 
 
 These commands will toggle the selection of the first or last control point(s) of the curve(s)
-in the object. This is useful to quickly find the start of a curve (e.g.
-when using it as path...).
+in the object. This is useful to quickly find the start of a curve
+(e.g. when using it as path...).
 
 
 Select Next/Previous
@@ -99,8 +103,9 @@ Select Next/Previous
 
 
 These commands will select the next or previous control point(s),
-based on the current selection (i.e.
-the control points following or preceding the selected ones along the curve).
+based on the current selection
+(i.e. the control points following or preceding the selected ones along the curve).
+In case of a cyclic curve, the first and last points are not considered as neighbors.
 
 
 Select More/Less
@@ -117,9 +122,9 @@ Select More/Less
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
 
 More
-   for each selected control point, select *all* its linked points (i.e. one or two...).
+   For each selected control point, select *all* its linked points (i.e. one or two...).
 Less
-   for each selected control point, if *all* points linked to this point are selected, keep this one selected.
+   For each selected control point, if *all* points linked to this point are selected, keep this one selected.
    Otherwise, de-select it.
 
 This implies two points:

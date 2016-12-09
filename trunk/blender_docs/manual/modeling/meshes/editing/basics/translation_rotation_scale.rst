@@ -48,7 +48,7 @@ and "Median" is added in front of the labels.
 Vertex
    The first controls (X, Y, Z) show the coordinates of the selected vertex or the median point.
 Space
-   The Space radio buttons let you choose if those coordinates are relative to the object center (local) or
+   The Space radio buttons let you choose if those coordinates are relative to the object origin (local) or
    the global origin (global).
 
    Global, Local

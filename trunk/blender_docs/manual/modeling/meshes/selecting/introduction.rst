@@ -53,7 +53,7 @@ When using these buttons, you can make use of modifier keys, see: `Switching Sel
 Almost all tools are available in all three mesh selection modes.
 So you can *Rotate*, *Scale*, *Extrude*, etc. in all modes.
 Of course rotating and scaling a *single* vertex will not do anything useful
-*(without setting the pivot point to another location)*,
+(*without* setting the pivot point to another location),
 so some tools are more or less applicable in some modes.
 
 

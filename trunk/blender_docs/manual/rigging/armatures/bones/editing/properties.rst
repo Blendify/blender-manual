@@ -30,7 +30,7 @@ Deform
 Multiply Vertex Group by Envelope
    (also :kbd:`Shift-W` :menuselection:`--> (Multiply Vertex Group by Envelope, ...)`)
 
-   These settings control how the bone influences its geometry, along with the bones' ends radius.
+   These settings control how the bone influences its geometry, along with the bones' joints radius.
    This will be detailed in the :doc:`skinning part </rigging/armatures/skinning/index>`.
 Inherit Rotation
    These settings affect the behavior of children bones while transforming their parent in *Pose Mode*,

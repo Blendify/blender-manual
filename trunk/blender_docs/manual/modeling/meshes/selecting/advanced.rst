@@ -1,27 +1,32 @@
 ..    TODO/Review: {{review|partial=X|text= expand advanced selection tools|im=examples}}.
 
-******************
-Advanced Selection
-******************
+********
+Advanced
+********
 
 The select menu in edit mode contains additional tool for selecting components:
 
-Mirror
-   Select mesh items at the mirrored location.
-Linked
-   Selects all components that are connected to the current selection. (see `Select Linked`_)
 Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 Checker Deselect
    Deselect alternating faces, to create a checker like pattern.
-Select Every N Number of Vertices
-   Selects vertices that are multiples of N.
 Sharp Edges
    This tool selects all edges between two faces forming an angle greater than the angle option,
    Where an increasing angle selects sharper edges.
 Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
+Mirror
+   Select mesh items at the mirrored location.
+Side of Active
+   Selects all vertices on the mesh in a single axis relative to the active vertex.
+   In Vertex selection mode only.
+Linked
+   Selects all components that are connected to the current selection. (see `Select Linked`_)
+
+
+Select All by Traits
+====================
 
 .. _mesh-select-non-manifold:
 
@@ -43,15 +48,14 @@ Non Manifold :kbd:`Ctrl-Shift-Alt-M`
    Vertices
       Selects vertices that belong to *wire* and *multiple face* edges, isolated vertices,
       and vertices that belong to non adjoining faces.
-
 Interior Faces
    Select faces where all edges have more than two faces.
-Side of Active
-   Selects all data on the mesh in a single axis
 Select Faces by Sides
    Selects all faces that have a specified number of edges.
 Loose Geometry
    Select all vertices or edges that do not form part of a face.
+Ungrouped Vertices
+   ToDo.
 
 
 Select Linked
@@ -68,8 +72,8 @@ Select parts of a mesh connected to already selected elements.
 This is often useful when a mesh has disconnected, overlapping parts,
 where isolating it any other way would be tedious.
 
-To give more control, you can also enable delimiters so the selection is
-constrained by seams, sharp-edges, materials or UV islands.
+To give more control, you can also enable delimiters in the Operator panel,
+so the selection is constrained by seams, sharp-edges, materials or UV islands.
 
 .. hint::
 
@@ -101,7 +105,7 @@ Vertex Selection Mode:
       Selects all vertices that have the same number of faces connected to them.
    Vertex Groups
       Selects all vertices in the same :doc:`vertex group </modeling/meshes/properties/vertex_groups/index>`.
-   Amount of connecting edges
+   Amount of Connecting Edges
       Selects all vertices that have the same number of edges connected to them.
 
 Edge Selection Mode:
@@ -137,12 +141,14 @@ Face Selection Mode:
    Polygon Sides
       Selects all faces that have the same number of edges.
    Perimeter
-      Selects all faces that have a similar perimeter as those already selected.
+      Selects all faces that have a similar perimeter (added values of its edge lengths).
    Normal
       Selects all faces that have a similar normal as those selected.
       This is a way to select faces that have the same orientation (angle).
    Co-planar
       Selects all faces that are (nearly) in the same plane as those selected.
+
+.. (todo) check type: Image in Cycles
 
 
 Selecting Loops
@@ -151,8 +157,8 @@ Selecting Loops
 You can easily select loops of components:
 
 
-Edge Loops and Vertex Loops
----------------------------
+Edge Loops
+----------
 
 .. admonition:: Reference
    :class: refbox
@@ -263,8 +269,8 @@ but two different "groups of edges" were selected, based on the different comman
 One is based on edges during computation and the other is based on faces.
 
 
-Path Selection
---------------
+Shortest Path
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -279,6 +285,14 @@ Path Selection
 
 Selects all geometry along the shortest path from the active vertex/edge/face to the one which
 was selected.
+
+Face Stepping
+   ToDo.
+Topological Distance
+   Which only takes into account the number of edges of the path and
+   not the length of the edges to calculate the distances,
+Fill Region
+   ToDo.
 
 
 Loop Inner-Region
@@ -324,8 +338,8 @@ Boundary Loop
 
 
 *Select Boundary Loop* does the opposite of *Select Loop Inner-Region*,
-based on all regions currently selected, it selects only the edges at the border of these regions.
-It can operate in any select mode, but will always switch to *Edge* select mode when run.
+based on all regions currently selected, it selects only the edges at the border(contour) of these islands.
+It can operate in any select mode, but when in *Face* mode it will switch to *Edge* select mode after running.
 
 All this is much more simple to illustrates with examples:
 

@@ -49,7 +49,7 @@ We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and W
 Octahedral bone
    This is the default visualization, well suited for most of editing tasks. It materializes:
 
-   - The bone root ("big" end) and tip ("small" end).
+   - The bone root ("big" joint) and tip ("small" joint).
    - The bone "size" (its thickness is proportional to its length).
    - The bone roll (as it has a square section).
 

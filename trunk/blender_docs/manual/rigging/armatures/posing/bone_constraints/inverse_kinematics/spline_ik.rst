@@ -82,7 +82,7 @@ Bone Original
 
 In addition to these modes, there is an option, *Use Curve Radius*.
 When this option is enabled, the average radius of the radii of the points on the curve where
-the endpoints of each bone are placed, are used to derive X and Z scaling factors.
+the joints of each bone are placed, are used to derive X and Z scaling factors.
 This allows the scaling effects, determined using the modes above,
 to be tweaked as necessary for artistic control.
 
