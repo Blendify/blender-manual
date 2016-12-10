@@ -41,32 +41,6 @@ Border/ Circle Select
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
 
-.. _modeling-curves-checker-deselect:
-
-Checker Deselect
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Checker Deselect`
-   | Hotkey:   None
-
-
-This only works if you already have at least one control point selected.
-Using the current selection, it will add to it every nth control point,
-before and after the initial selection. The "selection step" is specified in the *N*
-pop-up number button shown during the tool start.
-
-Nth Selection
-   Number of points to select.
-Skip
-   Number of points to skip.
-Offset
-   Offsets at what point to start at.
-
-
 Select Linked
 =============
 

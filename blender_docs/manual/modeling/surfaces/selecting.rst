@@ -30,7 +30,7 @@ All these options have the same meaning and behavior as in :doc:`Object Mode </e
 
 
 Select Linked
-=============
+-------------
 
 :kbd:`L`, :kbd:`Ctrl-L` will add to the selection the mouse cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same surface.

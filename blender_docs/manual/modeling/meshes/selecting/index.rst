@@ -7,7 +7,5 @@
    :maxdepth: 2
 
    introduction.rst
-   basics.rst
    advanced.rst
-   edges.rst
-   faces.rst
+   edges_faces.rst
