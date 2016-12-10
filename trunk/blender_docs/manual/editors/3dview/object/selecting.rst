@@ -34,12 +34,18 @@ Blender distinguishes between two different states of selection:
 Point Selection
 ===============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Hotkey:   :kbd:`RMB` and :kbd:`Shift-RMB`
+
 The simplest form of object *selection* consists of using :kbd:`RMB` on it.
 
 To *add to the selection*, use :kbd:`Shift-RMB` on more objects.
 
 If the *objects are overlapping* in the view,
-you can use :kbd:`Alt-RMB` to cycle through possible choices.
+you can use :kbd:`Alt-RMB` to cycle through possible choices (*Object Mode* only).
 
 If you want *to add to a selection* this way then the shortcut becomes :kbd:`Shift-Alt-RMB`.
 
@@ -64,8 +70,10 @@ Border Select
    | Hotkey:   :kbd:`B`
 
 
+To activate the tool use the :kbd:`B`.
 With *Border Select* you draw a rectangle while holding down :kbd:`LMB`.
 Any object that lies even partially within this rectangle becomes selected.
+If any object that was last active appears in the selection it will become active.
 
 For deselecting objects,
 use :kbd:`MMB` or *Border Select* again with holding :kbd:`Shift` or :kbd:`Alt`.
@@ -109,9 +117,9 @@ Circle Select
    | Hotkey:   :kbd:`C`
 
 
-*Circle Select* is used by moving with dotted circle through objects with :kbd:`LMB`.
+*Circle Select* :kbd:`C` is used by moving with dotted circle through objects with :kbd:`LMB`.
 You can select any object by touching of circle area.
-It is possible to dynamically change the diameter of circle by scrolling :kbd:`MMB`
+It is possible to dynamically change the diameter of circle by scrolling :kbd:`Wheel`
 or with :kbd:`NumpadPlus` and :kbd:`NumpadMinus`as seen in pictures below.
 Deselection is under the same principle -- :kbd:`MMB`.
 To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`or :kbd:`Enter`.
@@ -140,11 +148,11 @@ Lasso Select
    | Hotkey:   :kbd:`Ctrl-LMB`
 
 
-Lasso select is used by drawing a dotted line around the pivot point of the objects,
-in *Object Mode*.
+Lasso select is used by drawing a dotted line around vertices or
+the origin of the objects, in *Object Mode*.
 
-While holding :kbd:`Ctrl` down, you simply have to draw around the pivot point of each
-object you want to select with :kbd:`LMB`.
+While holding :kbd:`Ctrl` down, you simply have to draw around the points
+you want to select with :kbd:`LMB`.
 
 Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shift-LMB`.
 
@@ -173,11 +181,6 @@ Select Grouped
    | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Grouped`
    | Hotkey:   :kbd:`Shift-G`
-
-.. figure:: /images/editors_3dview_object_selecting_select-grouped-menu.png
-   :align: right
-
-   Select Grouped menu.
 
 
 There are two ways to organize the objects in relation to one another.

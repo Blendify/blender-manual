@@ -67,7 +67,7 @@ Tools and modes in the 3D View header are (left to right):
 - Pivot center
 - 3D manipulator widget
 - Selection mode
-- Depth buffer clipping (hide)
+- Limit Selection to Visible
 - Proportional editing
 - Snap
 - OpenGL render

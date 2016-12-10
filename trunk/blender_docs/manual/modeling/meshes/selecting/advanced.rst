@@ -6,12 +6,8 @@ Advanced
 
 The select menu in edit mode contains additional tool for selecting components:
 
-Random
-   Selects a random group of vertices, edges, or faces, based on a percentage value.
-Checker Deselect
-   Deselect alternating faces, to create a checker like pattern.
 Sharp Edges
-   This tool selects all edges between two faces forming an angle greater than the angle option,
+   This tool selects all edges between two faces forming an angle greater than the angle value,
    Where an increasing angle selects sharper edges.
 Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
    Select connected faces based on a threshold of the angle between them.
@@ -23,6 +19,27 @@ Side of Active
    In Vertex selection mode only.
 Linked
    Selects all components that are connected to the current selection. (see `Select Linked`_)
+
+
+Checker Deselect
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Select --> Checker Deselect`
+   | Hotkey:   None
+
+This tool applies a alternating selected/deselected checker pattern.
+This only works if you already have more than one mesh element selected.
+
+Nth Selection
+   Using the current selection, it will deselected every nth element.
+Skip
+   Number of steps to skip the pattern and keep selected.
+Offset
+   Offsets at what point to start at.
 
 
 Select All by Traits
@@ -68,19 +85,17 @@ Select Linked
    | Menu:     :menuselection:`Select --> Linked`
    | Hotkey:   :kbd:`Ctrl-L`
 
-Select parts of a mesh connected to already selected elements.
+Select geometry connected to already selected elements.
 This is often useful when a mesh has disconnected, overlapping parts,
 where isolating it any other way would be tedious.
 
 To give more control, you can also enable delimiters in the Operator panel,
 so the selection is constrained by seams, sharp-edges, materials or UV islands.
 
-.. hint::
+With *Pick Linked* you can also select connected geometry directly under the cursor,
+using the :kbd:`L` shortcut to select or :kbd:`Shift-L` to deselect linked.
 
-   You can also select linked data directly under the cursor,
-   using the :kbd:`L` shortcut to select or :kbd:`Shift-L` to deselect linked.
-
-   This works differently in that it uses the geometry under the cursor instead of the existing selection.
+This works differently in that it uses the geometry under the cursor instead of the existing selection.
 
 
 Select Similar
@@ -94,7 +109,7 @@ Select Similar
    | Hotkey:   :kbd:`Shift-G`
 
 
-Select components that have similar attributes to the ones selected,
+Select geometry that have similar certain properties to the ones selected,
 based on a threshold that can be set in tool properties after activating the tool.
 Tool options change depending on the selection mode:
 
@@ -307,7 +322,7 @@ Loop Inner-Region
    | Hotkey:   :kbd:`Ctrl-E` :menuselection:`--> Select Loop Inner-Region`
 
 
-*Select Loop Inner-Region* selects all edges that are inside a closed loop of edges.
+*Select Loop Inner-Region* selects all faces that are inside a closed loop of edges.
 While it is possible to use this operator in *Vertex* and *Face* selection modes, results may be unexpected.
 Note that if the selected loop of edges is not closed,
 then all connected edges on the mesh will be considered inside the loop.

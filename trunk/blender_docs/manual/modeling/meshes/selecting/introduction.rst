@@ -117,67 +117,129 @@ See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the differ
           Mixed mode example.
 
 
+Limit Selection to Visible
+==========================
+
+If you are in solid, shaded, or textured viewport shading mode
+(not bounding box or wireframe),
+you will have a fourth button in the header that looks like a cube,
+just right of the select mode ones.
+
+When enabled, this limits your ability to view and select vertices occluded by the objects geometry
+(as if the object was solid). This is done by the viewport with depth buffer clipping.
+
+
 Selection Tools
 ===============
 
 The select menu in edit mode contains tools for selecting components.
 These are described in more detail in the following pages.
 
-Border Select :kbd:`B`
-   Enables a rectangular region for selection
-Circle Select :kbd:`C`
-   Enables a circular shaped region for selection
+
+Border Select
+-------------
+
+Enables a rectangular region for selection :kbd:`B`.
+
+.. list-table::
+
+   * - .. _fig-mesh-select-basics-start:
+
+       .. figure:: /images/modeling-meshes-selection-borderselect1.png
+          :width: 200px
+
+          Start.
+
+     - .. _fig-mesh-select-basics-selecting:
+
+       .. figure:: /images/modeling-meshes-selection-borderselect2.png
+          :width: 200px
+
+          Selecting.
+
+     - .. _fig-mesh-select-basics-complete:
+
+       .. figure:: /images/modeling-meshes-selection-borderselect3.png
+          :width: 200px
+
+          Complete.
+
+
+In Fig. :ref:`fig-mesh-select-basics-start`, *Border Select* has been activated and is indicated by showing a
+dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
+the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
+The selection area is only covering the selection handles of three faces. Finally,
+by releasing :kbd:`LMB` the selection is complete; see Fig. :ref:`fig-mesh-select-basics-complete`.
+
+
+Circle Select
+-------------
+
+Enables a circular shaped region for selection :kbd:`C`.
+
+.. _fig-mesh-select-basic-circle:
+
+.. list-table:: Circle Region Select.
+
+   * - .. figure:: /images/modeling-meshes-selection-circularselect1.png
+          :width: 320px
+
+          Before.
+
+     - .. figure:: /images/modeling-meshes-selection-circularselect2.png
+          :width: 320px
+
+          After.
+
+
+Fig. :ref:`fig-mesh-select-basic-circle` is an example of selecting edges while in *Edge Select Mode*.
+As soon as an edge intersects the circle the edge becomes selected.
+The tool is interactive such that edges are selected while the circle region is being dragged with the :kbd:`LMB`.
+
+If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging again.
+
+For *Faces* select mode, the circle must intersect the face indicators usually represented by small pixel squares;
+one at the center of each face.
+
+
+Lasso Select
+------------
+
+Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso select tool* in *Vertex Select Mode*.
+
+.. _fig-mesh-select-basic-lasso:
+
+.. list-table:: Lasso selection.
+
+   * - .. figure:: /images/modeling-meshes-selection-lassoselect1.png
+          :width: 200px
+
+          Start.
+
+     - .. figure:: /images/modeling-meshes-selection-lassoselect2.png
+          :width: 200px
+
+          Selecting.
+
+     - .. figure:: /images/modeling-meshes-selection-lassoselect3.png
+          :width: 200px
+
+          Complete.
+
+
+More Tools
+----------
+
 (De)select All :kbd:`A`
    Select all or none of the mesh components.
-Invert Selection :kbd:`Ctrl-I`
+Inverse :kbd:`Ctrl-I`
    Selects all geometries that are not selected, and deselect currently selected components.
-Select Random
+Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
-Checker Deselect
-   Deselect alternating faces, to create a checker like pattern.
-Select Sharp Edges
-   This option will select all edges that are between two faces forming an angle less than a given value,
-   which is asked you *via* a small pop-up menu.
-   The lower is this angle limit, the sharper will be the selected edges.
-   At 180, **all** :term:`manifold` edges will be selected.
-Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
-   Select connected faces based on a threshold of the angle between them.
-   This is useful for selecting faces that are planar.
-Interior Faces
-   Select faces where all edges have more than two faces.
-Side of Active
-   Selects all data on the mesh in a single axis
-Select Faces by Sides
-   Selects all faces that have a specified number of edges.
-Non Manifold :kbd:`Ctrl-Shift-Alt-M`
-   Selects :term:`non-manifold` geometry.
-   See :doc:`Mesh Advanced Selection </modeling/meshes/selecting/advanced>`.
-Loose
-   Select all vertices or edges that do not form part of a face.
-Similar :kbd:`Shift-G`
-   Select geometry based on how similar certain properties are to it.
 
-   .. note::
-
-      The items shown in the menu depend on the `Selection Mode`_.
 
 More :kbd:`Ctrl-NumpadPlus`
    Propagates selection by adding geometry that are adjacent to selected elements.
 Less :kbd:`Ctrl-NumpadMinus`
-   Deselects geometry that form the bounds of the current selection
-Mirror
-   Select mesh items at the mirrored location.
-Pick Linked :kbd:`L`
-   Selects all geometries connected to the geometry under the cursor.
-Linked :kbd:`Ctrl-L`
-   Selects all geometries connected to the current selection.
-Vertex Path
-   Selects a vertex path between two selected vertices
-Edge Loop
-   Selects a loop of edges from a selected edge
-Edge Ring
-   Selects edges parallel to a selected edge in the same ring of faces
-Loop Inner-Region
-   Converts a closed selection of edges to the region of faces it encloses
-Boundary Loop
-   Converts a selection of faces to the ring of edges enclosing it
+   Deselects geometry that form the bounds of the current selection.
+
