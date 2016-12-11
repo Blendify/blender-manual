@@ -10,29 +10,15 @@ On this page French (``fr``) is used for examples, however, it can be replaced w
 To see which languages are currently available, you can browse the repository:
 https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
 
-
-Installing
-==========
-
-Dependencies
-------------
-
-For translations, we use Sphinx's internationalization package.
-However, this is not included with Sphinx and needs to be installed::
-
-   pip install sphinx-intl
-
-
-Your Language Repository
-------------------------
-
 .. note::
 
    First of all, it is assumed that you have the manual already building.
    If you have not done this already go back too the
    :ref:`Getting Started <about-getting-started>` section.
 
-From the directory containing your checkout of the manual run the following command.
+
+Installing your Language Files
+==============================
 
 .. note::
 
@@ -40,7 +26,7 @@ From the directory containing your checkout of the manual run the following comm
 
    You can remove the suffix to check out all languages too, however, this will be a much larger download.
 
-.. code-block:: sh
+From the directory containing your checkout of the manual run::
 
    svn checkout https://svn.blender.org/svnroot/bf-manual-translations/trunk/blender_docs/locale/fr locale/fr
 
@@ -52,7 +38,7 @@ You should have a directory layout like this::
       |- locale/
       |  |- fr/
       |  |  |- LC_MESSAGES/
-      |- manual/
+      |- manual/  
 
 
 A PO Editor
