@@ -23,9 +23,9 @@ Links that are useful while writing scripts:
 
 - `Python.org <https://www.python.org/>`__
   - General information about Python.
-- :doc:`Blender Python API <blender_api:contents>`
+- `Blender Python API <https://www.blender.org/api/blender_python_api_current/>`__
   - Official API documentation. Use this for referencing while writing scripts.
-- :doc:`API Introduction <blender_api:info_quickstart>`
+- `API Introduction <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__
   - A short introduction to get you started with the API. Contains examples.
 - `CookBook <https://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook>`__
   - A section of handy code snippets (yet to be written)
