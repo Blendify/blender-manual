@@ -6,7 +6,7 @@ What's New
 
 This page lists major changes and additions to the manual.
 
-- :doc:`New Pipeline Section </pipeline/index.html>`
+- :doc:`New Pipeline Section </pipeline/index>`
   (`rBM3026 <https://developer.blender.org/rBM3026>`__, Dec. 7).
 - :doc:`Track Position node </compositing/types/input/track_position>`
   (`rBM3014 <https://developer.blender.org/rBM3014>`__, Dec. 6).
