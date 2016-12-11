@@ -162,7 +162,7 @@ if "%1" == "update_po" (
     	ECHO SVN is missing. Ensure it is installed and placed in your PATH.
     	GOTO EOF
 	) ELSE (
-    TO CHECK_LOCALE
+    GOTO CHECK_LOCALE
 	)
 
 	REM Check if locale exists
