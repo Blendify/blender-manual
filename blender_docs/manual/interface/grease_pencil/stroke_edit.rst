@@ -33,7 +33,7 @@ The selected points are highlighted as in the image above.
 
 
 Use the mouse to select the points, or one of the selection buttons in the panel as detailed in
-:doc:`Basic Selection </modeling/meshes/selecting/basics>`.
+:doc:`Basic Selection </modeling/meshes/selecting/introduction>`.
 
 Various selection functions similar to those available when editing meshes can be used:
 

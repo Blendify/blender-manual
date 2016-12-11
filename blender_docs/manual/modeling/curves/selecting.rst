@@ -15,7 +15,7 @@ Mainly this is, because there is only one selectable element type, the control p
 (no select mode needed here...). These points are a bit more complex than simple vertices,
 however, especially for Béziers, as there is the central vertex, and its two handles...
 
-The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/basics>`,
+The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
 so you can select a simple control point with a :kbd:`RMB`,
 add to current selection with :kbd:`Shift-RMB`, :kbd:`B` border-select, and so on.
 
