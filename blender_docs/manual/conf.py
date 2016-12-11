@@ -44,10 +44,11 @@ extensions = [
     'youtube',
     'vimeo',
     'sphinx.ext.mathjax',
-    'sphinx.ext.intersphinx',
+#    'sphinx.ext.intersphinx',
 ]
 
-intersphinx_mapping = {'blender_api': ('https://www.blender.org/api/blender_python_api_2_78_release/', None)}
+# Sphinx 1.5 not compatible with older versions commenting out until API is re-uploaded 
+#intersphinx_mapping = {'blender_api': ('https://www.blender.org/api/blender_python_api_2_78_release/', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../resources/templates']
