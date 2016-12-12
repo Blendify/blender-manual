@@ -59,11 +59,11 @@ Format Options
 ==============
 
 ``-F``, ``--render-format`` ``<format>``
-   Set the render format, Valid options are...
-      TGA RAWTGA JPEG IRIS IRIZ
-      AVIRAW AVIJPEG PNG BMP
-   (formats that can be compiled into blender, not available on all systems)
-      HDR TIFF EXR MULTILAYER MPEG FRAMESERVER QUICKTIME CINEON DPX DDS JP2
+   Set the render format. Valid options are ``TGA`` ``RAWTGA`` ``JPEG`` ``IRIS`` ``IRIZ`` ``AVIRAW`` ``AVIJPEG`` ``PNG`` 
+   ``BMP``
+
+   Formats that can be compiled into Blender, not available on all systems: ``HDR`` ``TIFF`` ``EXR`` ``MULTILAYER`` 
+   ``MPEG`` ``FRAMESERVER`` ``QUICKTIME`` ``CINEON`` ``DPX`` ``DDS`` ``JP2``
 ``-x``, ``--use-extension`` ``<bool>``
    Set option to add the file extension to the end of the file
 
@@ -73,12 +73,19 @@ Animation Playback Options
 
 ``-a`` ``<options>`` ``<file(s)>``
    Playback ``<file(s)>``, only operates this way when not running in background.
-      -p ``<sx>`` ``<sy>``   Open with lower left corner at ``<sx>``, ``<sy>``
-      -m      Read from disk (Do not buffer)
-      -f ``<fps>`` ``<fps-base>``      Specify FPS to start with
-      -j ``<frame>``   Set frame step to ``<frame>``
-      -s ``<frame>``   Play from ``<frame>``
-      -e ``<frame>``   Play until ``<frame>``
+
+   ``-p`` ``<sx>`` ``<sy>``   
+      Open with lower left corner at ``<sx>``, ``<sy>``
+   ``-m`` 
+      Read from disk (Do not buffer)
+   ``-f`` ``<fps>`` ``<fps-base>``
+      Specify FPS to start with
+   ``-j`` ``<frame>``
+      Set frame step to ``<frame>``
+   ``-s`` ``<frame>``
+      Play from ``<frame>``
+   ``-e`` ``<frame>``
+      Play until ``<frame>``
 
 
 Window Options
@@ -100,10 +107,15 @@ Game Engine Specific Options
 ============================
 
 ``-g`` Game Engine specific options
-   -g fixedtime      Run on 50 hertz without dropping frames
-   -g vertexarrays      Use Vertex Arrays for rendering (usually faster)
-   -g nomipmap      No Texture Mipmapping
-   -g linearmipmap      Linear Texture Mipmapping instead of Nearest (default)
+
+   ``fixedtime`` 
+      Run on 50 hertz without dropping frames
+   ``vertexarrays``
+      Use Vertex Arrays for rendering (usually faster)
+   ``nomipmap``
+      No Texture Mipmapping
+   ``linearmipmap``
+      Linear Texture Mipmapping instead of Nearest (default)
 
 
 Python Options
