@@ -91,7 +91,7 @@ Package into Group
    The base object and all of its levels of detail are placed into a group based on the base object's name.
    Levels other than the base are hidden for both the viewport and rendering.
    This simplifies the appearance of the system and does not affect the appearance of the base object.
-   Finally, all levels are parented to the base object to remove clutter from the outliner.
+   Finally, all levels are parented to the base object to remove clutter from the Outliner.
 
 
 Clear All

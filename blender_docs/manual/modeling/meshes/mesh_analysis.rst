@@ -72,7 +72,7 @@ Unlike other display modes, intersections have no variance and are either on or 
 Distortion
 ==========
 
-Distorted geometry can cause problems since the triangulation of a distorted ngon is undefined.
+Distorted geometry can cause problems since the triangulation of a distorted n-gon is undefined.
 
 Distortion is measured by faces which are not flat,
 with parts of the face pointing in different directions.

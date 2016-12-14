@@ -7,10 +7,14 @@ There are two types of snap operations that you can use in Blender. The first ty
 selection or cursor to a given point while the second type is used during transformations
 (translate, rotate, scale) and snaps your selection to elements within the scene.
 
+
+Snap Menu
+=========
+
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Mode
+   | Mode:     All Modes
    | Menu:     :menuselection:`Object/Object type --> Snap`
    | Hotkey:   :kbd:`Shift-S`
 

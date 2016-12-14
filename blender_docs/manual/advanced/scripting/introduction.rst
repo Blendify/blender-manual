@@ -79,7 +79,7 @@ Add-ons
 -------
 
 Add-ons are scripts you can enable to gain extra functionality within Blender,
-they can be enabled from the user preferences.
+they can be enabled from the User Preferences.
 
 Outside of the Blender executable,
 there are literally hundreds of add-ons written by many people:

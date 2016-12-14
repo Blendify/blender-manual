@@ -134,7 +134,7 @@ Filling Faces
 You can also create faces with at least three vertices selected, using :kbd:`F` to fill them with edges and faces,
 or only fill edges with faces if they are already connected (Fill) (See Fig. :ref:`fig-mesh-basics-fill-tri`).
 For four or more vertices, it is mandatory that you have coplanar vertices.
-four coplanar vertices will create a quad when filled, and more than four coplanar vertices will create a Ngon face.
+four coplanar vertices will create a quad when filled, and more than four coplanar vertices will create a N-gon face.
 
 .. note::
 

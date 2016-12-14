@@ -154,7 +154,7 @@ If the active element is a *bone*
 
 - the new bone's root is placed on the active bone's tip
 - the new bone is parented and connected to the active bone
-  (check the outliner in Fig. :ref:`fig-rig-bone-active-tip`).
+  (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
 
 .. _fig-rig-bone-active-tip:
 
@@ -168,7 +168,7 @@ If the active element is a *tip* :
 
 - the new bone's root is placed on the active tip
 - the new bone is parented and connected to the bone owning the active tip
-  (check the outliner in Fig. :ref:`fig-rig-bone-active-tip`).
+  (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
 
 .. _fig-rig-bone-disconnected-tip:
 
@@ -182,7 +182,7 @@ If the active element is a *disconnected root* :
 
 - the new bone's root is placed on the active root
 - the new bone is **not** parented to the bone owning the active root
-  (check the outliner in Fig. :ref:`fig-rig-bone-disconnected-tip`).
+  (check the Outliner in Fig. :ref:`fig-rig-bone-disconnected-tip`).
 
 And hence the new bone will **not** be connected to any bone.
 
@@ -198,7 +198,7 @@ If the active element is a *connected root* :
 
 - the new bone's root is placed on the active root
 - the new bone **is** parented and connected to the parent of the bone owning the active root
-  (check the outliner in Fig. :ref:`fig-rig-bone-connected-root`).
+  (check the Outliner in Fig. :ref:`fig-rig-bone-connected-root`).
 
 This should be obvious because if the active element is a connected root then the active
 element is also the tip of the parent bone, so it is the same as the second case.

@@ -16,7 +16,7 @@ You can rename your bones, either using the *name* field of the *Item*
 panel in the 3D Views, for the active bone,
 or using the *name* field in each bone of the *Bones* tab in *Edit Mode*.
 
-.. naming with the outliner
+.. (todo) naming with the Outliner
 
 Blender also provides you some tools that take advantage of bones named in a left/right
 symmetry fashion, and others that automatically name the bones of an armature.

@@ -137,7 +137,7 @@ for example.
    Search order: ``LOCAL, USER, SYSTEM``.
 
 ``./scripts/addons/*.py``
-   Python add-ons which may be enabled in the user preferences include import/export format support,
+   Python add-ons which may be enabled in the User Preferences include import/export format support,
    render engine integration and many handy utilities.
 
 ``./scripts/addons/modules/*.py``
