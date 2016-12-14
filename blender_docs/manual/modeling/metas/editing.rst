@@ -83,21 +83,10 @@ and check *negative* in the *active element* panel.
 Hiding Elements
 ---------------
 
-As in *Object Mode*, you can hide the selected meta(s),
+As in :ref:`object-show-hide` in *Object Mode*, you can hide the selected meta(s),
 and then reveal what was hidden. This is very handy for cleaning your views up a bit... Note
 that the two red and green rings always remain visible in *Edit Mode*,
 as well as the select circle (in *Object Mode*...).
-
-To hide the current selection, use :kbd:`H`,
-the *Hide* toggle button in the *Metaball tools*,
-or the :menuselection:`Metaball --> Show/Hide --> Hide Selected` menu option.
-
-To hide everything but the current selection,
-press :kbd:`Shift-H` or use :menuselection:`Metaball --> Show/Hide --> Hide Deselected`.
-
-To reveal what was hidden, use :kbd:`Alt-H`,
-or the relevant option in the same :menuselection:`Metaball --> Show/Hide` menu.
-You can also un-toggle the *Hide* button in the (*Metaball tools* panel).
 
 
 Deleting Elements

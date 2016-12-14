@@ -30,35 +30,20 @@ That way you can control the positioning along two axes in one view and determin
 To place the 3D Cursor on the surface of geometry,
 enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`.
 
+.. seealso::
 
-Using the Snap Menu
--------------------
-
-The *Snap* menu :menuselection:`Object/Mesh --> Snap`, :kbd:`Shift-S`
-will allow you to snap the cursor in the following ways:
+   The :doc:`Snap Menu </editors/3dview/object/transform/transform_control/precision/snap>` 
+   which allows the cursor placement relative to scene objects.
 
 
-Cursor to Selected
-   Snaps the cursor to the center of the current selection.
-Cursor to Center
-   Snaps the cursor to the origin of the scene (location 0, 0, 0).
-Cursor to Grid
-   Snaps the cursor to the nearest *visible* grid line.
-Cursor to Active
-   Snaps the cursor to the *active* (last selected) object, edge, face or vertex.
+3D Cursor panel
+---------------
 
-The *Cursor to Selected* option is also affected by the current :ref:`pivot-point-index`. For example:
+.. admonition:: Reference
+   :class: refbox
 
- - With the *Bounding Box Center* pivot point active,
-   the *Cursor to Selected* option will snap the 3D cursor to the
-   center of the bounding box surrounding the objects' centers.
- - When the *Median Point* pivot point is selected,
-   *Cursor to Selected* will snap the 3D cursor to the
-   `median <https://en.wikipedia.org/wiki/Median>`__ of the object centers.
-
-
-Numeric Input
--------------
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties region --> 3D Cursor`
 
 .. figure:: /images/editors_3dview_3d-cursor_panel.png
 

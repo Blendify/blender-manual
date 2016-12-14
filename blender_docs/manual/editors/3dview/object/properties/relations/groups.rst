@@ -1,7 +1,7 @@
 
-****************
-Grouping objects
-****************
+******
+Groups
+******
 
 There can be many objects in a scene: A typical stage scene consists of furniture, props,
 lights, and backdrops.
@@ -21,37 +21,77 @@ Objects that are part of a group always shows as light green when selected.
 See Fig. :ref:`fig-view3d-grouped-objects`.
 
 
-Options
-=======
+Groups Menu
+===========
 
-Creating a Group
-   :kbd:`Ctrl-G` creates a new group and adds the selected object(s) to it.
-Naming a Group
-   All groups that an object has been assigned to are listed in the Properties editor
-   :menuselection:`Object tab --> Relations panel`.
-   To rename a group, simply click in the groups name field. To name groups in the *Outliner* editor,
-   select *Groups* as the outliner display from the header combo box, and :kbd:`Ctrl-LMB` click on the group name.
-   The name will change to an editable field; make your changes and press :kbd:`Return`.
+.. admonition:: Reference
+   :class: refbox
 
-   .. figure:: /images/modeling-objects-grouping-objprop.png
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Groups`
+   | Hotkey:   :kbd:`Ctrl-G`, etc.
 
-      Naming a Group.
 
-Restricting Group Contents via Layers
-   The cluster of layer buttons attached to each group determines from
+Creating New Group :kbd:`Ctrl-G`
+   Creates a new group and adds the selected object(s) to it.
+   The name of the new group can be specified in the *Create New Group* Operator panel.
+Removing from Group :kbd:`Ctrl-Alt-G`
+   Remove the selected objects from a group.
+   If the object belongs to more one group a pop-up lets you select the group and
+   an option to remove it from all groups.
+Removing from All Groups :kbd:`Ctrl-Alt-G`
+   Remove the selected objects from all group.
+Add Selected to Active Group :kbd:`Shift-Ctrl-G`
+   Adds the selected objects to the groups to which the active object belongs.
+Remove Selected from Active Group :kbd:`Shift-Alt-G`
+   Causes the selected objects to be removed from the groups to which the active object belongs.
+
+
+Groups Panel
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Object tab --> Groups`
+
+.. figure:: /images/modeling-objects-grouping-objprop.png
+
+   Group panel and Outliner.
+
+
+All groups that an object has been assigned to are listed in the Properties editor
+:menuselection:`Object tab --> Group panel`.
+
+Add to Group
+   Adds the selected objects from a group.
+   A pop-up lets you specify the group to add to.
+New ``+``
+   Creates a new group and adds the selected object(s) to it.
+Name
+   To rename a group, simply click in the groups name field.
+Remove ``X``
+   To remove an object from a group, 
+   Find the name of the group from which you wish to remove the object,
+   and click the ``X`` to the right of the group name.
+Specials
+   Unlink Group, Select Group, Set Offset From Cursor
+Dupligroup Visibility
+   Restricting Group Contents via Layers The cluster of layer buttons attached to each group determines from
    which layers the group objects will be included when duplicated.
    If your group contains objects on layers 10, 11 and 12,
    but you disable the layer 12 button in the group controls, duplicates of that group (using the
    :doc:`Dupligroup </editors/3dview/object/properties/duplication/dupligroup>`
    feature) will only show the portions of the group that reside in layers 10 and 11.
-Appending or Linking Groups
+Offset
+   ToDo.
+
+.. seealso:: Appending or Linking Groups
+
    To append a group from another blend-file,
    consult :doc:`this page </data_system/linked_libraries>`.
    In summary, :menuselection:`File --> Link/Append Link` Select a blend-file and, and then the group.
-Removing Groups
-   To remove an object from a group, in the Properties editor *Object* tab, open the "Groups" panel.
-   Find the name of the group from which you wish to remove the object,
-   and click the x to the right of the group name.
 
 .. tip:: Selecting Groups
 

@@ -1,8 +1,15 @@
-..    TODO/Review: {{review|text=add group instance}}.
+..    TODO/Review:
 
 *****************
 Parenting Objects
 *****************
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Parent`
+   | Hotkey:   :kbd:`Ctrl-P`
 
 When modeling a complex object, such as a watch,
 you may choose to model the different parts as separate objects. However,
@@ -38,18 +45,27 @@ the direction of influence is from parent to child and not child to parent.
 In general when using :kbd:`Ctrl-P` or :menuselection:`3D View Header --> Object --> Parent`
 to parent objects, the *Child Objects* can only have one *Parent Object*.
 If a *Child Object* already has a *Parent Object* and you give it another parent then
-Blender will automatically remove the previous parent relationship.
+Blender will remove the previous parent relationship.
 
 Blender supports many different types of parenting, listed below:
 
 - Object
-- Armature Deform
 - Bone
-- Curve Deform
-- Path Constraint
-- Lattice Deform
 - Vertex
 - Vertex (Triangle)
+
+
+.. rubric:: Setups
+
+Besides parenting the selected objects,
+it adds a Modifier or Constraint to the child objects, with the parent as target object
+or activates a parent property i.e. *Follow Path*.
+
+- :doc:`Armature Deform </modeling/modifiers/deform/armature>`
+- :doc:`Curve Deform </modeling/modifiers/deform/curve>`
+- :ref:`Follow Path <curve-path-animation>`
+- :doc:`Path Constraint </rigging/constraints/relationship/follow_path>`
+- :doc:`Lattice Deform </modeling/modifiers/deform/lattice>`
 
 
 .. _object-parenting:
@@ -60,6 +76,7 @@ Object Parent
 *Object Parent* is the most general form of parenting that Blender supports.
 If will take selected objects and make the last selected object the *Parent Object*,
 while all other selected objects will be *Child Objects*.
+The child objects will inherit the transformations of the parent. The parent object can be of any type.
 
 
 Object (Keep Transform) Parent
@@ -97,8 +114,8 @@ Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the l
 
 
 If you select only the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
-click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from the *Set
-Parent To* pop-up menu.
+click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from 
+the *Set Parent To* pop-up menu.
 This will result in "EmptyB" object being the *Parent Object* of the Monkey object.
 Notice that when you change the parent of the Monkey the scale of the Monkey changed.
 
@@ -199,6 +216,8 @@ Notice that the Child Object does not move to the new location of the Pose Bone.
 Vertex Parent
 =============
 
+For objects of type curve, surface, mesh and lattice, 
+there is the possibility to use one of its vertices or points as the parent of other objects.
 You can parent an object to a single vertex or a group of three vertices as well;
 that way the child/children will move when the parent mesh is deformed,
 like a mosquito on a pulsing artery.
@@ -263,8 +282,16 @@ By confirming the child object will snap to the parent's location.
 Use the *Outliner* view to verify that the child object is still parented.
 
 
-Remove relationship/Clear Parent
---------------------------------
+Clear Parent
+------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Parent`
+   | Hotkey:   :kbd:`Alt-P`
+
 
 You can *remove* a parent-child relationship via :kbd:`Alt-P`
 
@@ -278,7 +305,10 @@ Clear and Keep Transformation
    Frees the children from the parent, and *keeps* the location, rotation, and size given to them by the parent.
 Clear Parent Inverse
    Places the children with respect to the parent as if they were placed in the Global reference.
-   This effectively clears the parent's transformation from the children. For example,
+   This effectively clears the parent's transformation from the children. 
+   The hierarchical relationships are not removed, but the correcting matrix (''parent inverse'') is cleared from the selected objects.
+
+   For example,
    if the parent is moved 10 units along the X axis and *Clear Parent Inverse* is invoked,
    any selected children are freed and moved -10 units back along the X axis.
    The "Inverse" only uses the last transformation; if the parent moved twice,
@@ -299,3 +329,4 @@ There is another way to see the parent-child relationship in groups and that is 
 of the :doc:`Outliner editor </editors/outliner>`. Fig. :ref:`fig-view3d-parent-outliner`
 is an example of what the *Outliner* view looks like for the figurers in the :ref:`object-parenting` example.
 Cube A's object name is "Cube_Parent" and cube B is "Cube_Child".
+

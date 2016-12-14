@@ -356,6 +356,8 @@ This is mainly useful when using a curve as path, or using the bevel and taper o
 Converting Tools
 ================
 
+.. _curve-convert-type:
+
 Converting Curve Type
 ---------------------
 
@@ -379,38 +381,9 @@ Note, this is not a "smart" conversion, i.e. Blender does not try to keep the sa
 nor the same number of control points. For example, when converting a NURBS to a Bézier,
 each group of three NURBS control points become a unique Bézier one (center point and two handles).
 
+.. seealso::
 
-Convert Curve to Mesh
----------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Convert to --> Mesh From Curve/Meta/Surface/Text`
-   | Hotkey:   :kbd:`Alt-C`
-
-
-There is also an "external" conversion, from curve to mesh, that only works in *Object Mode*.
-It transforms a *Curve* object into a *Mesh* object,
-using the curve resolution to create edges and vertices.
-Note that it also keeps the faces and volumes created by closed and extruded curves.
-
-
-Convert Mesh to Curve
----------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Convert to --> Curve From Mesh/Text`
-   | Hotkey:   :kbd:`Alt-C`
-
-
-Mesh objects that consist of a series of connected vertices can be converted into curve
-objects. The resulting curve will be a Poly curve type,
-but can be converted to have smooth segments as described above.
+   :ref:`object-convert-to`/from Mesh.
 
 
 Curve Parenting
@@ -472,15 +445,4 @@ Hiding Elements
 
 When in *Edit Mode*, you can hide and reveal elements from the display.
 This can be useful in complex models with many elements on the Screen.
-
-Hide Selected elements
-   Use :kbd:`H`, or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D View header.
-
-Show Hidden elements
-   Use :kbd:`Alt-H`, or the
-   :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D View header.
-
-Hide Unselected elements
-   Use :kbd:`Shift-H`,
-   or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D View header.
-
+See :ref:`object-show-hide` in *Object Mode*.

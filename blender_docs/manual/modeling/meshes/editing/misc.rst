@@ -49,30 +49,6 @@ Reverse
    properties region under :menuselection:`Mesh Display --> Edge Info --> Indices`
 
 
-Join
-====
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Join`
-   | Hotkey:   :kbd:`Ctrl-J`
-
-Joining merges all objects into the last selected *Active* object.
-
-This tools works for meshes, curves, surfaces, metas and armature object types.
-
-.. note::
-
-   Object data has many attributes which may be handled when joining.
-
-   Materials, vertex-groups, UV and Vertex layers will be merged.
-
-   Modifiers, constraints, groups and parent relationships
-   are ignored when joining and will not be applied to the active object.
-
-
 .. _object-separate:
 
 Separate
@@ -100,3 +76,7 @@ All Loose Parts
    Separates the mesh in its unconnected parts.
 By Material
    Creates separate mesh objects for each material.
+
+.. seealso:: 
+
+   :ref:`Joining objects <object-join>`.

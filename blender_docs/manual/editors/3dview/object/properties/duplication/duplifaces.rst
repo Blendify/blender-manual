@@ -8,13 +8,14 @@ DupliFaces
 
    | Mode:     Object Mode
    | Panel:    :menuselection:`Object --> Duplication`
+   | Menu:    :menuselection:`Object --> Make Dupli-Face`
 
 
 *Duplication Faces* or *DupliFaces* is the capability to replicate an object on each face of a parent object.
 One of the best ways to explain this is through an example illustration.
 
 
-.. note:: Example blend-file
+.. seealso:: Example blend-file
 
    Download the blend-file used for the examples on this page
    `here <https://wiki.blender.org/index.php/:File:Manual-2.5-Duplifaces-Example01.blend>`__.

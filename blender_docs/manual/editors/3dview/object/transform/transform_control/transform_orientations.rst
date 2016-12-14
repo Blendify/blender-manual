@@ -169,6 +169,19 @@ In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effec
 #. Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
 
 
+Align to Transform Orientation
+==============================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object and Edit Modes
+   | Menu:     :menuselection:`Object --> Transform --> Align to Transform Orientation`
+
+Aligns (rotates) the selected objects so that their local orientation matches the active transform orientation
+in the Transform orientation panel or the *Orientation* selection in the Transform Operator panels.
+
+
 Examples
 ========
 
