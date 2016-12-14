@@ -10,7 +10,8 @@ selection or cursor to a given point while the second type is used during transf
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Mode
+   | Mode:     All Mode
+   | Menu:     :menuselection:`Object/Object type --> Snap`
    | Hotkey:   :kbd:`Shift-S`
 
 
@@ -22,15 +23,33 @@ This menu provides a number of options to move the cursor or your selection to a
 Selection to Grid
    Snaps the currently selected object(s) to the nearest grid point.
 Selection to Cursor
-   Snaps the currently selected object(s) to the cursor location.
+   Moves each one of the currently selected object(s) to the cursor location.
+Selection to Cursor (Offset)
+   Places the selection at the position of the 3D cursor.
+   If there are multiple objects selected, they are not moved individually at the cursor position;
+   instead, they are centered around the 3D cursor, maintaining their relative distances.
+Selection to Active
+   Moves the selection to the origin of the active object.
+
+..
+
 Cursor to Selected
-   Moves the cursor to the center of the selected object(s).
+   Places the cursor to the center of the current selection, unless see below.
 Cursor to Center
-   Moves the cursor to the center of the grid.
+   Places the cursor to the origin of the world (location 0, 0, 0).
 Cursor to Grid
-   Moves the cursor to the nearest grid point.
+   Places the cursor to the nearest grid point.
 Cursor to Active
-   Moves the cursor to the center of the active object.
+   Places the cursor to the origin of the *active* (last selected) object.
+
+The *Cursor to Selected* option is also affected by the current :ref:`pivot-point-index`. For example:
+
+- With the *Bounding Box Center* pivot point active,
+  the *Cursor to Selected* option will snap the 3D cursor to the
+  center of the bounding box surrounding the objects' centers.
+- When the *Median Point* pivot point is selected,
+  *Cursor to Selected* will snap the 3D cursor to the
+  `median <https://en.wikipedia.org/wiki/Median>`__ of the object centers.
 
 
 .. _transform-snap:

@@ -140,6 +140,8 @@ Start Bevel Factor and End Bevel Factor
       with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
 
 
+.. _curve-path-animation:
+
 Path Animation
 ==============
 

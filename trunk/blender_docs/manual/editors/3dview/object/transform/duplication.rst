@@ -73,11 +73,18 @@ all linked copies are modified. Transform properties (object data-blocks) still 
 not links, so you still can rotate, scale, and move freely without affecting the other copies.
 Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the discussions below.
 
+Linked
+   In the *Duplicate Objects* Operator panel the *Linked* checkbox is checked unlike with *Dublicate*.
+
 .. hint::
 
    If you want to make changes to an object in the new linked duplicate independently of the original object,
    you will have to manually make the object a "single-user" copy by :kbd:`LMB`
    the number in the *Object Data* panel of the Properties editor. (See :ref:`ui-data-block`.)
+
+.. seealso:: 
+
+   :ref:`data-system-datablock-make-single-user` for unlinking data-blocks.
 
 
 .. _expl-object-link-duplicate:
@@ -108,34 +115,10 @@ Linked duplicates also apply to a set of drinking glasses,
 wheels on a car... anywhere there is repetition or symmetry.
 
 
-Copying & Linking Objects Between Scenes
-========================================
+.. seealso:: Linked Library Duplication
 
-Sometimes you may want to link or copy objects between scenes.
-This is possible by first selecting objects you want to link and then using:
-:menuselection:`Object --> Make Links --> Object to Scene`.
-
-This makes the same object exist in two different scenes at once, including its position and animation data.
-You can tell this is a *multi-user* object by the blue color of its center-circle.
-
-If you do not want the objects to be shared between the scenes, you can make them *Single-User* by using:
-:menuselection:`Object --> Make Single User --> Object`.
-
-Further information on working with scenes can be found :doc:`here </data_system/scenes/introduction>`.
-
-
-Linked Library Duplication
-==========================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Menu:     :menuselection:`File --> Link Append`
-   | Hotkey:   :kbd:`Shift-F1`
-
-
-:doc:`Linked Libraries </data_system/linked_libraries>` are also a form of duplication.
-Any object or data-block in other blend-files can be reused in the current file.
+   :doc:`Linked Libraries </data_system/linked_libraries>` are also a form of duplication.
+   Any object or data-block in other blend-files can be reused in the current file.
 
 .. hint::
 

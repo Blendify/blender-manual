@@ -8,22 +8,33 @@ When an object is selected, a small circle appears, denoting the origin point.
 The location of the origin point is important when translating, rotating or scaling an object.
 See :doc:`Pivot Points </editors/3dview/object/transform/transform_control/pivot_point/index>` for more.
 
-The color of the origin is set by the :ref:`animation-state-colors` and
-the size can be changed in the :doc:`Interface tab </preferences/interface>` of the User Preferences.
+The color of the origin is set by the :ref:`animation-state-colors` and 
+light blue when it is a "multi-user" object linked between scenes.
+The size can be changed in the :doc:`Interface tab </preferences/interface>` of the User Preferences.
 
 
-Moving Object Centers
-=====================
+Set Origin
+==========
 
-Object Centers can be moved to different positions through
-:menuselection:`3D View editor --> Transform --> Origin` (press :kbd:`T` to open panel):
+.. admonition:: Reference
+   :class: refbox
 
-Geometry to Origin
-   Move model to origin and this way origin of the object will also be at the center of the object.
-Origin to Geometry
-   Move origin to the center of the object and this way origin of the object will also be at
-   the center of the object.
-Origin to 3D Cursor
-   Move origin of the model to the place of the 3D cursor.
-Origin to Center of Mass
-   Move origin to calculated center of mass of model.
+   | Mode:     Object and Edit Modes
+   | Menu:     :menuselection:`Object --> Transform -->`
+   | Hotkey:   :kbd:`Shift-Ctrl-Alt-C`
+
+The Object Origin and Geometry can be moved relative to each other and to the 3D Cursor.
+
+Type
+   Geometry to Origin
+      Move model to origin and this way origin of the object will also be at the center of the object.
+   Origin to Geometry
+      Move origin to the center of the object and this way origin of the object will also be at
+      the center of the object.
+   Origin to 3D Cursor
+      Move origin of the model to the place of the 3D cursor.
+   Origin to Center of Mass
+      Move origin to calculated center of mass of model (assuming the mesh has uniform density).
+Center
+   Median Point Center, Bounding Box Center
+

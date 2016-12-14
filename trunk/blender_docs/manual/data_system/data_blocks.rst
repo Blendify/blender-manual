@@ -82,6 +82,31 @@ You can also share data-blocks between files, see:
 - :doc:`linked libraries </data_system/linked_libraries>`.
 
 
+.. _data-system-datablock-make-single-user:
+
+Make Single User
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Make Single User`
+   | Hotkey:   :kbd:`U`
+
+Makes the selected or all objects data-blocks a single user, that is,
+not shared (linked) between other objects than the current one.
+
+Type
+   These actions work on the selected objects, or on all the objects of the scene,
+
+   All, Selected Objects
+Data-blocks
+   Lets you, in addition to the menu predefined selection, choose the type of data-blocks individually.
+
+   Object, Object Data, Materials, Textures, Object Animation
+
+
 Removing Data-Blocks
 ====================
 
@@ -199,7 +224,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - |tick|
      - | References to external blend-files.
-       | Access from the outliner's blend-file view.
+       | Access from the Outliner's blend-file view.
    * - LineStyle
      - |tick|
      - |cross|

@@ -169,3 +169,21 @@ Using Keyboard Shortcuts
 #. Tap :kbd:`G`, or :kbd:`R`, or :kbd:`S` once to enter the transformation mode.
 #. Transform the elements by moving the mouse.
 #. :kbd:`LMB` click to accept changes.
+
+
+Texture Space
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode and Edit Mode
+   | Menu:     :menuselection:`Object --> Transform -->`
+   | Hotkey:   :kbd:`Shift-T`, :kbd:`Shift-Alt-T`
+
+Transforms the object :ref:`Texture Space <properties-texture-space>`,
+which will become visible in the 3D View.
+Same as if the *Edit Texture Space* checkbox is enabled.
+
+- Move Texture Space :kbd:`Shift-T`
+- Scale Texture Space :kbd:`Shift-Alt-T`
