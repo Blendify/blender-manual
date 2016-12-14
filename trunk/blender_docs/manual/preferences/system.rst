@@ -99,11 +99,11 @@ CUDA
    If the system has a compatible Nvidia CUDA enabled graphics card you will be able
    to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
 OpenCL
-   If the system has a compatible OpenCL device, it will show up has an option for rendering cycles.
+   If the system has a compatible OpenCL device, it will show up has an option for rendering with Cycles.
 
    .. note::
 
-      that this currently has limited support, see:
+      That this currently has limited support, see:
       :doc:`Cycles Features </render/cycles/features>` page for more information.
 
 

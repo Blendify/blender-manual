@@ -59,7 +59,7 @@ Isolated edges
 N-gon from edges
 ----------------
 
-When there are many edges Blender will make an ngon,
+When there are many edges Blender will make an n-gon,
 note that this does not support holes, to support holes you need to use the
 :ref:`modeling-meshes-editing-fill` Faces tool.
 

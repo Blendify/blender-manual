@@ -13,7 +13,7 @@ World Physics
 World settings enable you to set some basic effects which affect all scenes throughout your
 game, so giving it a feeling of unity and continuity. These include ambient light,
 depth effects (mist) and global physics settings. These effects are a limited subset of the
-more extensive range of effects available with the Blender internal or cycles renderer.
+more extensive range of effects available with the Blender internal or Cycles renderer.
 
 .. tip::
 

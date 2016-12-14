@@ -255,7 +255,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Face Loop
       Chain of consecutive :term:`quads <quad>`.
-      A face loop stops at a :term:`triangle` or :term:`Ngon` (which do not belong to the loop), or at a boundary.
+      A face loop stops at a :term:`triangle` or :term:`N-gon` (which do not belong to the loop), or at a boundary.
       Otherwise, it is cyclic.
 
    Face Normal
@@ -277,7 +277,7 @@ This page lists definitions for terms used in Blender and this manual.
       A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
       Also known as *Multi-Sampling*.
 
-      This can be enabled in the :ref:`user preferences <prefs-system-multi-sampling>`.
+      This can be enabled in the :ref:`User Preferences <prefs-system-multi-sampling>`.
       On many graphics cards, this can also be enabled in the driver options.
 
    Gamma
@@ -406,7 +406,7 @@ This page lists definitions for terms used in Blender and this manual.
    Multi-sampling
       See :term:`FSAA`.
 
-   Ngon
+   N-gon
       A :term:`face` that contains more than four :term:`vertices <vertex>`.
 
    Non-linear animation

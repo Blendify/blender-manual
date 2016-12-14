@@ -49,7 +49,7 @@ Limited Dissolve
       Example showing the how Limited Dissolve can be used.
 
    Face Split
-      When dissolving vertices into surrounding faces, you can often end up with very large, uneven ngons.
+      When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
       The face split option limits dissolve to only use the corners of the faces connected to the vertex.
 
    .. figure:: /images/bmesh_dissolve_face_split.png

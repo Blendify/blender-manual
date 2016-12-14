@@ -54,8 +54,8 @@ If this area does not contain a face,
 it will simply be transparent or non-existent in the rendered image. To create a face,
 select three or more suitable vertices and press :kbd:`F`.
 
-A face is defined as the area between either three (triangles), four (quadrangles) or more (ngons) vertices,
-with an edge on every side. These are often abbreviated to *tris, quads & ngons*.
+A face is defined as the area between either three (triangles), four (quadrangles) or more (n-gons) vertices,
+with an edge on every side. These are often abbreviated to *tris, quads & n-gons*.
 
 Triangles are always flat and therefore easy to calculate. On the other hand,
 quadrangles "deform well" and are therefore preferred for subdivision modeling.

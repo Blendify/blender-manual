@@ -27,7 +27,7 @@ Menu
 ====
 
 Add Constraint (with Targets)
----------------------------------------
+-----------------------------
 
 .. admonition:: Reference
    :class: refbox

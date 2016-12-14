@@ -22,7 +22,7 @@ Usage
 Pre-visualizing the cut
    After the tool is activated, move the cursor over a desired edge.
    The cut to be made is marked with a magenta colored line as you move the mouse over the various edges.
-   The to-be-created edge loop stops at the poles (tris and ngons) where the existing face loop terminates.
+   The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.
 Sliding the new edge loop
    Once an edge is chosen via :kbd:`LMB`,
    you can move the mouse along the edge to determine where the new edge loop will be placed.

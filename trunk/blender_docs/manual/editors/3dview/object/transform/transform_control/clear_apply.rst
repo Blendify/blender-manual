@@ -34,7 +34,7 @@ Clear Rotation :kbd:`Alt-R`
    Clear (reset) the rotation of the selection.
    This will set the rotation of the selection to 0 degrees in each plane.
 Clear Origin :kbd:`Alt-O`
-   Clear (reset) offset of the child objects origin.
+   Clears (resets) the offset of the child objects origin.
    This will cause child objects to move to the origin of the parent.
 
 

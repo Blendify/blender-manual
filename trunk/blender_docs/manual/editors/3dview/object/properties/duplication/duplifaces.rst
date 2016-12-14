@@ -8,7 +8,7 @@ DupliFaces
 
    | Mode:     Object Mode
    | Panel:    :menuselection:`Object --> Duplication`
-   | Menu:    :menuselection:`Object --> Make Dupli-Face`
+   | Menu:     :menuselection:`Object --> Make Dupli-Face`
 
 
 *Duplication Faces* or *DupliFaces* is the capability to replicate an object on each face of a parent object.
