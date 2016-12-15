@@ -8,12 +8,12 @@ Duplicate
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Duplicate`
+   | Menu:     :menuselection:`Mesh --> Add Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
 
 This tool simply duplicates the selected elements,
-without creating any links with the rest of the mesh (unlike extrude, for example),
+without creating any connection with the rest of the mesh (unlike extrude, for example),
 and places the duplicate at the location of the original. Once the duplication is done,
 only the *new* duplicated elements are selected,
 and you are automatically placed in grab/move mode, so you can translate your copy elsewhere...

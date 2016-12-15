@@ -4,6 +4,14 @@
 Edge Tools
 **********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Edges`,
+   | Hotkey:   :kbd:`Ctrl-E`
+
+
 Make Edge/Face
 ==============
 
@@ -75,8 +83,8 @@ you can set the (average) bevel weight of selected edges.
 
 .. _modeling-edges-crease-subdivision:
 
-Crease Subdivision
-------------------
+Edge Crease
+-----------
 
 .. admonition:: Reference
    :class: refbox
@@ -92,6 +100,7 @@ to control the sharpness of the edges in the subdivided mesh.
 This command enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard) you can set the (average)
 crease value of selected edges.
+A negative value will subtract from the actual crease value, if present.
 To clear the crease edge property, enter a value of -1.
 
 
@@ -105,39 +114,30 @@ Edge Slide
 
    | Mode:     Edit Mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Slide Edge` (or the same option in *Edge Specials* menu)
-   | Hotkey:   :kbd:`G`, :kbd:`G`
-
 
 Slides one or more edges across adjacent faces with a few restrictions involving the selection
 of edges (i.e. the selection *must* define a valid loop, see below.)
-
-:kbd:`Shift`
-   Higher precision control.
-:kbd:`Ctrl`
-   Snap to value (useful to combine with auto merge).
-:kbd:`LMB`
-   Confirms the tool.
-:kbd:`RMB` or :kbd:`Esc`
-   Cancels.
 
 Even :kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop.
    You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-Wheel` to change the control edge.
 Flip :kbd:`F`
    When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match.
-:kbd:`Alt` or :kbd:`C`
+Clamp :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.
-
-This tool has a factor, which is displayed in the 3D View footer and in the *Tool Shelf*
-(after confirmation). A numerical value between (-1 to 1) can be entered for precision.
 
 In *Proportional* mode, :kbd:`Wheel`, or :kbd:`Left` and :kbd:`Right`
 changes the selected edge for calculating a proportion.
 Unlike *Percentage* mode, *Proportional*
 
-Holding :kbd:`Ctrl` or :kbd:`Shift` control the precision of the sliding.
-:kbd:`Ctrl` snaps movement to 10% steps per move and :kbd:`Shift` snaps movement
-to 1% steps. The default is 5% steps per move.
+Factor
+   Determines the amount of slide performed.
+   Negative values correspond to slides toward one face, while positive ones, refer to the other one.
+   It is also displayed in the 3D View footer.
+Mirror Editing
+   Lets you propagate the operation to the symmetrical elements of the mesh (if present, in local X direction).
+Correct UVs
+   Corrects the corresponding UV coordinates, if these exist, to avoid image distortions.
 
 
 Usage
@@ -216,6 +216,7 @@ end such that they form a continuous chain. This is *literally* a general rule b
 can still select edges in a chain that are invalid because some of the edges in the chain are
 in different edge loops.
 
+
 .. _modeling-meshes-editing-edges-rotate:
 
 Rotate Edge
@@ -256,78 +257,6 @@ or *Rotate Edge CCW* will produce exactly the same results as if you had
 selected the common edge shown in Fig. Selected edge rotated CW and CCW.
 
 
-Delete Edge Loop
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode (Vertex or Edge select modes)
-   | Menu:     :menuselection:`Mesh --> Delete --> Edge Loop`
-   | Hotkey:   :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loop`
-
-
-*Delete Edge Loop* allows you to delete a selected edge loop if it is between two other edge loops.
-This will create one face-loop where two previously existed.
-
-.. note::
-
-   The *Edge Loop* option is very different to the *Edges* option,
-   even if you use it on edges that look like an edge loop.
-   Deleting an edge loop merges the surrounding faces together to preserve the surface of the mesh.
-   By deleting a chain of edges, the edges are removed, deleting the surrounding faces as well.
-   This will leave holes in the mesh where the faces once were.
-
-
-Example
--------
-
-The selected edge loop on the UV Sphere has been deleted and the faces have been merged with
-the surrounding edges. If the edges had been deleted by choosing *Edges* from the
-(*Erase* menu)
-there would be an empty band of deleted faces all the way around the sphere instead.
-
-.. list-table::
-
-   * - .. figure:: /images/deleteedgeloop1.png
-          :width: 320px
-
-          Selected Edge Loop.
-
-     - .. figure:: /images/deleteedgeloop2.png
-          :width: 320px
-
-          Edge Loop Deleted.
-
-
-Collapse
-========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Delete --> Edge Collapse`
-   | Hotkey:   :kbd:`Alt-M`, :menuselection:`Collapse`
-
-
-This takes a selection of edges and for each edge, merges its two vertices together.
-This is useful for taking a ring of edges and collapsing it,
-removing the face loop it ran through.
-
-.. list-table::
-
-   * - .. figure:: /images/collapse1.png
-          :width: 320px
-
-          Selected Edge Ring.
-
-     - .. figure:: /images/collapse2.png
-          :width: 320px
-
-          Edge Ring Collapsed.
-
-
 Edge Split
 ==========
 
@@ -338,8 +267,8 @@ Edge Split
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Split`
 
 
-*Edge split* is similar to the rip tool. When two or more touching interior edges,
-or a border edge is selected when using *Edge split*,
+*Edge Split* is similar to the *Rip* tool. When two or more touching interior edges,
+or a border edge is selected when using *Edge Split*,
 a hole will be created, and the selected edges are duplicated to form the border of the hole.
 
 .. list-table::
@@ -368,6 +297,34 @@ Bridge Edge Loops
 
 
 *Bridge Edge Loops* connects multiple edge loops with faces.
+
+Connect Loops
+   Open Loop
+      Loops connected with open ends.
+   Closed Loop
+      Tries to connect to a circular loop (where start and end is merged).
+   Loop pairs
+      Connects each even count of loops individually.
+Merge
+   ToDo.
+Merge Factor
+   ToDo.
+Twist
+   Determines which vertices in both loops are connected to each other.
+Number of Cuts
+   The number of intermediate edge loops used to bridge the distance between two loops.
+Interpolation
+   Linear, Blend Path, Blend Surface
+Smoothness
+   Smoothness of the *Blend Path* and *Blend Surface*.
+Profile Factor
+   ToDo.
+Profile Shape
+   ToDo. Compare to Proportional Editing Falloff,
+
+
+Examples
+--------
 
 Simple example showing two closed edge loops.
 

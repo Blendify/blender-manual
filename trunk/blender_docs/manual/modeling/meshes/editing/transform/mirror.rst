@@ -27,7 +27,7 @@ You can also interactively mirror the geometry by holding the :kbd:`MMB` and dra
 the direction of the desired mirror direction.
 
 
-Axis of symmetry
+Axis of Symmetry
 ================
 
 For each transformation orientation,
@@ -90,3 +90,38 @@ Transformation Orientations
 :doc:`Transformation Orientations </editors/3dview/object/transform/transform_control/transform_orientations>`
 are found on the 3D View header, next to the *Widget* buttons.
 They decide which coordinate system will rule the mirroring.
+
+
+Mirror Vertex Group
+===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Mirror --> Mirror Vertex Group`
+
+This tool works only with a perfectly symmetrical mesh (along the local X axis).
+Those vertices that have no corresponding vertex on the other side will not be affected.
+
+Mirror Weights
+   With this option checked, every selected vertex receives the group/weight information of its symmetrical counterpart.
+   If both vertices are selected, it will be a group/weight information exchange;
+   if only one is selected, information from the unselected will be copied into the selected one, that loses its own information.
+   Information on group/weight is passed for the active group only,
+   unless *All Groups* is checked, in which case it is passed for all groups.
+Flip Groups Names
+   Works with selected vertices that belong to vertex groups with "symmetrical names"
+   (with components like ''L'', ''R'', ''right'', ''left'').
+   All selected vertices that belong to the active group, or to the symmetrical of the active group,
+   will have their assignation to that group replaced by an assignation to the symmetrical one;
+   however, its weight will be preserved.
+All Groups
+   If *All Groups* is checked, all assignations to these kind of groups
+   will be replaced by the symmetrical counterpart, also keeping the old weights.
+Topology Mirror
+   Todo.
+
+Usually only one of those operations (*Mirror Weights*, *Flip Groups Names*) will be performed,
+though you can tick both at the same time,
+if you know what you are doing (these 2 operations could even cancel each other).

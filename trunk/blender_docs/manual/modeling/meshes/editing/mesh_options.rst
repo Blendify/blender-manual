@@ -88,5 +88,5 @@ Live Unwrap
    UV unwrap is automatically re-calculated.
 Double Threshold
    Defines the maximum distance between vertices that are merged by
-   the :menuselection:`Mesh --> Vertices --> Remove Doubles` tools.
+   the *AutoMerge Editing* tool.
 

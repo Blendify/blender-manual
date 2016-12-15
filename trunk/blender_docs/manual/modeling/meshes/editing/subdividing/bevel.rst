@@ -86,10 +86,14 @@ Amount
 Amount Type
    Selects how the *Amount* value controls the size of the bevel. According to the selection, the amount is:
 
-   - *Offset* -- The distance of a new edge from the original.
-   - *Width* -- The width of the bevel face.
-   - *Depth* -- The perpendicular distance from the original edge to the bevel face.
-   - *Percent* -- The percentage of the length of adjacent edges that the new edges slide.
+   Offset
+      The distance of a new edge from the original.
+   Width
+      The width of the bevel face.
+   Depth
+      The perpendicular distance from the original edge to the bevel face.
+   Percent
+      The percentage of the length of adjacent edges that the new edges slide.
 
 Segments
    The number of segments in the bevel can be defined by scrolling the

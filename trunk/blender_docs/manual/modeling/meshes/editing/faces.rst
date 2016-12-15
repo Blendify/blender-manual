@@ -2,6 +2,12 @@
 **********
 Face Tools
 **********
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces`,
+   | Hotkey:   :kbd:`Ctrl-F`
 
 These are tools that manipulate faces.
 
@@ -127,15 +133,14 @@ Grid Fill
           Grid Fill Result.
 
 
-Convert Quads to Triangles
---------------------------
+Triangulate Faces
+-----------------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Convert Quads to Triangles` or
-     :menuselection:`Face Specials --> Triangulate`
+   | Menu:     :menuselection:`Mesh --> Faces --> Triangulate Faces` or
    | Hotkey:   :kbd:`Ctrl-T`
 
 
@@ -143,20 +148,22 @@ As its name intimates, this tool converts each selected quadrangle into two tria
 Remember that quads are just a set of two triangles.
 
 
-Convert Triangles to Quads
---------------------------
+.. _mesh-faces-tristoquads:
+
+Triangles to Quads
+------------------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
    | Panel:    Mesh Tools
-   | Menu:     :menuselection:`Mesh --> Faces --> Convert Triangles to Quads`
+   | Menu:     :menuselection:`Mesh --> Faces --> Triangles to Quads`
    | Hotkey:   :kbd:`Alt-J`
 
 
-This tool converts the selected triangles into quads by taking adjacent tris and removes the
-shared edge to create a quad, based on a threshold.
+This tool converts the selected triangles into quads by taking adjacent tris and
+removes the shared edge to create a quad, based on a threshold.
 This tool can be performed on a selection of multiple triangles.
 
 This same action can be done on a selection of two tris,
@@ -192,24 +199,12 @@ Max Angle
    relative to the size of the other edges of the triangles.
 Compare UVs
    When enabled, it will prevent union of triangles that are not also adjacent in the active UV map.
-
-   .. Au: Note that this seems to be the only option working...
-
-Compare Vcol
+Compare Vertex Color
    When enabled, it will prevent union of triangles that have no matching vertex color.
-
-   .. I am not sure how this option works - or even if it really works...
-
 Compare Sharp
-   When enabled, it will prevent union of triangles that share a "sharp" edge.
-
-   .. I am not sure either if this option works, and what is the "sharp" criteria - neither the *Sharp*
-      flag nor the angle between triangles seem to have an influence here...
-
+   When enabled, it will prevent union of triangles that share a edge marked as sharp.
 Compare Materials
-   When enabled, it will prevent union of triangles that do not use the same material index.
-
-   .. This option does not seem to work neither...
+   When enabled, it will prevent union of triangles that do not have the same material assigned.
 
 
 Solidify
@@ -226,11 +221,11 @@ Solidify
 This takes a selection of faces and solidifies them by extruding them
 uniformly to give volume to a :term:`non-manifold` surface.
 This is also available as a :doc:`Modifier </modeling/modifiers/generate/solidify>`.
-After using the tool, you can set the offset distance in the Tool Palette.
+After using the tool, you can set the offset distance in the Operator Panel.
 
 Thickness
    Amount to offset the newly created surface.
-   Positive values offset the surface inward relative to the normals.
+   Positive values offset the surface inward relative to the normals direction.
    Negative values offset outward.
 
 .. list-table::
@@ -249,6 +244,19 @@ Thickness
           :width: 200px
 
           Solidify with a negative thickness.
+
+
+Wireframe
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Wire frame`
+
+The wireframe tool makes a wireframe from faces,
+similar to the :doc:`/modeling/modifiers/generate/wireframe`.
 
 
 Rotate Edges
@@ -278,6 +286,20 @@ It works on the shared edge between two faces and rotates that edge if the edge 
           Full Render.
 
 See :ref:`Rotate Edge <modeling-meshes-editing-edges-rotate>` for more information.
+
+
+Rotate & Reverse
+================
+
+Rotate UVs
+   Todo.
+Reverse UVs
+   Todo.
+Rotate Colors
+   Todo.
+Reverse Colors
+   Todo.
+
 
 Normals
 -------

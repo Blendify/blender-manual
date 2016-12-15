@@ -44,8 +44,8 @@ Center
           After Snap to Symmetry.
 
 
-Symmetrize Mesh
-===============
+Symmetrize
+==========
 
 .. admonition:: Reference
    :class: refbox

@@ -70,13 +70,13 @@ Smoothness
 
 
 Quad/Tri Mode
-   Forces subdivide to create triangles instead of n-gons, simulating old behavior (see examples below).
-
+   Forces subdivide to create triangles or quads instead of n-gons (see examples below).
+   This mode doesn't allow the use of *Straight Cut* on quad corners.
 Corner Cut Type
    This select menu controls the way quads with only two adjacent selected edges are subdivided.
 
    Fan
-      the quad is sub-divided in a fan of four triangles,
+      The quad is sub-divided in a fan of four triangles,
       the common vertex being the one opposite to the selected edges.
    Inner vertices
       The selected edges are sub-divided, then an edge is created between
@@ -139,7 +139,7 @@ Along Normal
 
 
 Random Seed
-   Changes the random seed of the noise function, producing a different result for each seed value.
+   Changes the random seed of the *Fractal* noise function, producing a different result for each seed value.
 
    .. figure:: /images/subdivide-fractal-after2.png
       :width: 200px
@@ -299,3 +299,24 @@ Multicut
           :width: 250px
 
           Quad with two cuts
+
+
+.. _mesh-unsubdivide:
+
+Un-Subdivide
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Edges --> Un-Subdivide`
+
+
+Unsubdivide functions as the reverse of subdivide by attempting to remove edges that were the
+result of a subdivide operation.
+If additional editing has been done after the subdivide operation,
+unexpected results may occur.
+
+Iterations
+   How many subdivisions to remove.

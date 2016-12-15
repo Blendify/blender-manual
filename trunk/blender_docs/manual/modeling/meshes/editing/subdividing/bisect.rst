@@ -1,7 +1,7 @@
 
-***********
-Mesh Bisect
-***********
+******
+Bisect
+******
 
 .. admonition:: Reference
    :class: refbox
