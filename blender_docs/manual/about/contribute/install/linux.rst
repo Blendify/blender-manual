@@ -61,7 +61,7 @@ To install these dependencies, we can use the ``pip`` command::
 
    Every now and then you may want to make sure your lib dependencies are up to date using::
 
-      sudo pip install -r requirements.txt  --upgrade
+      sudo pip install -r requirements.txt --upgrade
 
 
 ------------------------

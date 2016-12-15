@@ -67,7 +67,7 @@ However, if any errors occur, they may cause some problems.
 
    .. code-block:: sh
 
-      pip install -r requirements.txt  --upgrade
+      pip install -r requirements.txt --upgrade
 
 
 ------------------------
