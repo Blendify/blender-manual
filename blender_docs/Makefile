@@ -91,7 +91,7 @@ pdf: .FORCE
 	@echo "  "$(OPEN_CMD)" $(BUILDDIR)/latex/blender_manual.pdf"
 
 readme: .FORCE
-	rst2html readme.rst > readme.html
+	rst2html5 readme.rst > readme.html
 
 check_syntax: .FORCE
 	- python3 tools/rst_check_syntax.py --long > rst_check_syntax.log

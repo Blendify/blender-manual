@@ -100,7 +100,7 @@ if "%1" == "singlehtml" (
 )
 
 if "%1" == "readme" (
-	rst2html.py readme.rst > readme.html
+	rst2html5.py readme.rst > readme.html
 	goto EOF
 )
 
