@@ -11,6 +11,6 @@ pytz==2016.10
 requests==2.12.3
 six==1.10.0
 snowballstemmer==1.2.1
-Sphinx==1.5
+Sphinx==1.5.1
 sphinx-intl==0.9.9
 git+https://github.com/snide/sphinx_rtd_theme@abfa98539a2bfc44198a9ca8c2f16efe84cc4d26
