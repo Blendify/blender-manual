@@ -2,14 +2,16 @@
 **********
 Face Tools
 **********
+
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces`,
+   | Menu:     :menuselection:`Mesh --> Faces`
    | Hotkey:   :kbd:`Ctrl-F`
 
 These are tools that manipulate faces.
+
 
 Creating Faces
 ==============
@@ -64,7 +66,7 @@ or vertices, as long as they form one or more complete perimeters.
    Filled using fill.
 
 
-note, unlike creating n-gons, fill supports holes.
+Note, unlike creating n-gons, fill supports holes.
 
 .. list-table::
 
@@ -140,7 +142,7 @@ Triangulate Faces
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Triangulate Faces` or
+   | Menu:     :menuselection:`Mesh --> Faces --> Triangulate Faces`
    | Hotkey:   :kbd:`Ctrl-T`
 
 

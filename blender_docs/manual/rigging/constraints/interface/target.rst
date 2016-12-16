@@ -13,7 +13,7 @@ Fill in the Target field, and the Copy Location constraint will begin to use loc
 
    The Target field must be filled in for the constraint to function.
 
-By default, the Target will use the :term:`Object Center` as the target point.
+By default, the Target will use the :term:`Object Origin` as the target point.
 
 If the Target field links to a :term:`Mesh` or :term:`Lattice` object, a :term:`Vertex Group` field will appear.
 Enter the name of a vertex group and the constraint will target the median point

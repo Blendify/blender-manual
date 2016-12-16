@@ -200,7 +200,7 @@ Of course as an artist that may be what you are looking for!
 
 In Fig. :ref:`fig-curves-extrude-taber1`
 you can clearly see the effect the left taper curve has on the right curve object. Here the
-left taper curve is closer to the object center and that results in a smaller curve object to
+left taper curve is closer to the object origin and that results in a smaller curve object to
 the right.
 
 .. _fig-curves-extrude-taber2:
@@ -211,7 +211,7 @@ the right.
 
 
 In Fig. :ref:`fig-curves-extrude-taber2` a control point in the taper curve to the left is moved away from the
-center and that gives a wider result to the curve object on the right.
+origin and that gives a wider result to the curve object on the right.
 
 .. _fig-curves-extrude-taber3:
 

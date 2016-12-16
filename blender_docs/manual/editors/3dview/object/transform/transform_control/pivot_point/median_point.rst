@@ -12,8 +12,8 @@ Median Point
    | Hotkey:   :kbd:`Ctrl-,`
 
 
-The Median Point can be considered to be broadly similar to the concept of Center
-of Gravity (COG). If we assume that every element (Object, face, vertex etc)
+The Median Point can be considered to be broadly similar to the concept of
+Center of Gravity (COG). If we assume that every element (Object, face, vertex etc)
 of the selection has the same mass,
 the median point would sit at the point of equilibrium for the selection (the COG).
 
@@ -21,10 +21,10 @@ the median point would sit at the point of equilibrium for the selection (the CO
 In Object Mode
 ==============
 
-In Object Mode, Blender only considers the Object centers when determining the median point.
+In Object Mode, Blender only considers the Object origins when determining the median point.
 This can lead to some counterintuitive results. In the Fig. :ref:`fig-view3d-median-point-object-mode` below,
-you can see that the median point is between the Object centers and can be nowhere near the
-Objects' mesh.
+you can see that the median point is between the Object origins and can be nowhere near the
+Objects' mesh (geometric center).
 
 .. _fig-view3d-median-point-object-mode:
 

@@ -365,7 +365,7 @@ This page lists definitions for terms used in Blender and this manual.
       A device for organizing objects. See also :doc:`Layers </editors/3dview/object/properties/relations/layers>`.
 
    Local Space
-      A 3D coordinate system that originates (for Objects) at the :term:`Object Center`.
+      A 3D coordinate system that originates (for Objects) at the :term:`Object Origin`.
       or (for Bones) at the :term:`Head` of the :term:`Bone`.
 
       Compare to :term:`World Space`.
@@ -453,7 +453,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Object
       Container for a type (Mesh, Curve, Surface, Metaball, Text, Armature,
-      Lattice, Empty, Camera, Lamp) and basic 3D transform data (:term:`Object Center`).
+      Lattice, Empty, Camera, Lamp) and basic 3D transform data (:term:`Object Origin`).
 
    Object Center
    Object Origin

@@ -30,7 +30,7 @@ In Object Mode
 ==============
 
 When in *Object Mode*,
-rotation and scaling happen around the active Object's center.
+rotation and scaling happen around the active Object's origin.
 This is shown by the figure to the below where the active Object (the cube)
 remains in the same location (note its position relative to the 3D cursor)
 while the other Objects rotate and scale in relation to the active element.

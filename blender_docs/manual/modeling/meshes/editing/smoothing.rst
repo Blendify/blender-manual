@@ -79,7 +79,7 @@ Click the *Flat* button in the
 to that shown in the first image above.
 
 
-Smoothing parts of a mesh
+Smoothing Parts of a Mesh
 -------------------------
 
 Alternatively, you can choose which edges to smooth by entering *Edit Mode*,
@@ -144,7 +144,7 @@ based on angle. Those Angles are marked as sharp.
           Resulting render with sharp edge weighting.
 
 
-Smoothing the mesh geometry
+Smoothing the Mesh Geometry
 ===========================
 
 The above techniques do not alter the mesh itself, only the way it is displayed and rendered.
@@ -152,7 +152,7 @@ Instead of just making the mesh look like a smooth surface,
 you can also physically smooth the geometry of the mesh with these tools:
 
 
-Mesh editing tools
+Mesh Editing Tools
 ------------------
 
 You can apply one of the following in *Edit Mode*:

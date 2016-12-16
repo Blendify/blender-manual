@@ -4,7 +4,7 @@ Introduction
 ************
 
 Blender provides a variety of tools for editing meshes.
-These are available through the *Mesh Tools* palette,
+These are available through the *Mesh Tools* shelf,
 the Mesh menu in the 3D View header, and context menus in the 3D View,
 as well as individual shortcut keys.
 
@@ -91,8 +91,8 @@ The mesh tools are found in various places, and available through shortcuts as w
 Accessing Mesh Tools
 ====================
 
-Mesh Tools Palette
-------------------
+Mesh Tools Shelf
+----------------
 
 When you select a mesh and :kbd:`Tab` into edit mode,
 the *Tool Shelf* changes from *Object Tools* to *Mesh Tools*.

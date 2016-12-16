@@ -30,8 +30,8 @@ Outline Selected
 World Background
    ToDo.
 All Object Origins
-   If enabled, the center dot of objects will always be visible, even for non-selected ones
-   (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings).
+   If enabled, the origin dot of objects will always be visible, even for non-selected ones
+   (by default, unselected objects' origins might be hidden by geometry in solid/shaded/textured shadings).
 Relationship Lines
    Controls whether the dashed parenting, constraining, hooking, etc., lines are drawn.
 Grid Floor

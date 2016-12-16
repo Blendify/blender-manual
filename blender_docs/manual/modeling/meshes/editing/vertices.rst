@@ -7,7 +7,7 @@ Vertex Tools
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices`,
+   | Menu:     :menuselection:`Mesh --> Vertices`
    | Hotkey:   :kbd:`Ctrl-V`
 
 This page covers many of the tools in the :menuselection:`Mesh --> Vertices` menu.
@@ -232,7 +232,7 @@ Extend Vertices
 
 This tool takes any number of selected vertices and duplicate-drags them along the closest edge to the mouse,
 When extending an edge loop, it extends the vertices at the endpoints of the loop. 
-Which is similar behavior like *Extrude*, but it creates a n-gon.
+Which is similar behavior like *Extrude* tool, but it creates a n-gon.
 
 
 Separate

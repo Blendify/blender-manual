@@ -13,7 +13,7 @@ Duplicate
 
 
 This tool simply duplicates the selected elements,
-without creating any connection with the rest of the mesh (unlike extrude, for example),
+without creating any connections with the rest of the mesh (unlike extrude, for example),
 and places the duplicate at the location of the original. Once the duplication is done,
 only the *new* duplicated elements are selected,
 and you are automatically placed in grab/move mode, so you can translate your copy elsewhere...
