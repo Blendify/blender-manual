@@ -20,12 +20,10 @@ To process your image, you use nodes to import the image into Blender, change it
 optionally merge it with other images, and finally, save it.
 
 .. figure:: /images/compositing_nodes_distort_map-uv_example-2.png
-   :width: 700px
 
    An example of Composition.
 
 .. figure:: /images/compositing_nodes_color_hue-saturation_example.jpg
-   :width: 700px
 
    An example of color correction.
 
