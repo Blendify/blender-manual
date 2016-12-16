@@ -3,22 +3,30 @@
 Introduction
 ************
 
-.. figure:: /images/getting-started_intro_bigbuckbunny.jpg
-   :align: right
-   :width: 300px
-
-   Blender 2.5 with a Big Buck Bunny scene open.
-
-
-Welcome to Blender, the free and open source 3D animation suite.
+Welcome to Blender, the free and open source 3D creation suite.
 
 Blender can be used to create 3D visualizations such as still images, video, and real-time interactive video games.
 
 Blender is well suited to individuals and small studios who
 benefit from its unified pipeline and responsive development process.
 
-It is cross-platform and runs on Linux, macOS, and MS-Windows systems with a small memory and disk footprint.
+Blender is a cross-platform application, running on Linux, macOS, and MS-Windows systems with a small memory and disk footprint.
 Its interface uses OpenGL to provide a consistent experience across all supported hardware and platforms.
+
+.. figure:: /images/getting-started_intro_bigbuckbunny.jpg
+
+   Blender 2.5 with a Big Buck Bunny scene open.
+
+
+Who uses Blender?
+=================
+
+Blender has a wide variety of tools making it suitable for almost any sort of media production.
+People and studios around the world use it for hobby projects, commercials, feature films,
+games and other interactive applications like kiosks, games and scientific research.
+
+Check out the `User Stories page <https://www.blender.org/features/user-stories/>`__
+on the Blender website for more examples.
 
 
 Key Features
@@ -60,7 +68,7 @@ Despite everything Blender can do, it remains a tool. Great artists do not creat
 by pressing buttons or manipulating brushes, but by learning and practicing subjects
 such as human anatomy, composition, lighting, animation principles, etc.
 
-3D content creation software such as Blender have the added technical complexity and
+3D creation software such as Blender have the added technical complexity and
 jargon associated with the underlying technologies.
 Terms like UV maps, materials, shaders, meshes, and "subsurf" are the mediums of the
 digital artist, and understanding them, even broadly, will help you to use Blender to its best.
