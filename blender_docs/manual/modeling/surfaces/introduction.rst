@@ -52,4 +52,4 @@ except that the U direction is indicated by yellow grid lines,
 and the V one is materialized by pink grid lines, as you can see in
 Fig. :ref:`fig-surface-intro-surface`.
 
-You can :ref:`hide and reveal <curves-hiding>` control points just as with curves.
+You can :ref:`hide and reveal <curves-show-hide>` control points just as with curves.
