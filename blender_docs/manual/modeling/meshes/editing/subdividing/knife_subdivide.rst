@@ -7,7 +7,7 @@ Knife Tool
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife/Select`
    | Hotkey:   :kbd:`K` or :kbd:`Shift-K`
 
 
@@ -111,6 +111,12 @@ This is a limitation of the current geometry that can be modeled in Blender.
 
 Knife Project
 =============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife Project`
 
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into the
 mesh rather than hand drawing the line.

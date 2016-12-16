@@ -4,6 +4,14 @@
 Object Types
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Tool Shelf --> Create --> Add Primitive`
+   | Menu:     :menuselection:`Add`
+   | Hotkey:   :kbd:`Shift-A`
+
 New objects can be created with the *Add* menu in the 3D Views header.
 
 Mesh

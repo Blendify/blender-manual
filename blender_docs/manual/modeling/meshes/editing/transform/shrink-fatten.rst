@@ -7,7 +7,7 @@ Shrink Fatten
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools- -> Transform --> Shrink/Fatten`
    | Menu:     :menuselection:`Mesh --> Transform --> Shrink/Fatten Along Normals`
    | Hotkey:   :kbd:`Alt-S`
 

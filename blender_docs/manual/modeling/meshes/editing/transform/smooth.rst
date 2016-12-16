@@ -7,9 +7,9 @@ Smooth
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
-   | Menu:     :menuselection:`Mesh --> Vertices --> Smooth vertex`
-   | Hotkey:   :kbd:`Ctrl-V` :menuselection:`--> Smooth vertex`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
+   | Menu:     :menuselection:`Mesh --> Vertices --> Smooth Vertex`
+   | Hotkey:   :kbd:`Ctrl-V` :menuselection:`--> Smooth Vertex`
 
 
 This tool smooths the selected components by averaging the angles between faces.

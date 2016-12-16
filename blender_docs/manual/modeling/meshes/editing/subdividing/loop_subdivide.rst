@@ -8,7 +8,7 @@ Loop Subdivide
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Loop Cut and Slide`
    | Hotkey:   :kbd:`Ctrl-R`
 
 

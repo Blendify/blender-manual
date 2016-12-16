@@ -8,7 +8,7 @@ Spin
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Spin`
 
 
 Use the *Spin* tool to create the sort of objects that you would produce on a lathe

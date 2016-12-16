@@ -33,6 +33,7 @@ Delete
    :class: refbox
 
    | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Delete`
    | Menu:     :menuselection:`Object --> Delete`
    | Hotkey:   :kbd:`X`
 
@@ -115,6 +116,7 @@ Join
    :class: refbox
 
    | Mode:     Object Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Join`
    | Menu:     :menuselection:`Object --> Join`
    | Hotkey:   :kbd:`Ctrl-J`
 

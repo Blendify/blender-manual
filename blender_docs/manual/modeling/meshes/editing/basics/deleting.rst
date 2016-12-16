@@ -3,6 +3,14 @@
 Deleting and Dissolving
 ***********************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Delete`
+   | Menu:     :menuselection:`Mesh --> Delete`
+   | Hotkey:   :kbd:`X`, :kbd:`Delete`
+
 These tools can be used to remove components.
 
 

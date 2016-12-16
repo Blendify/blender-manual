@@ -10,6 +10,7 @@ Randomize Transform
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Randomize`
    | Menu:     :menuselection:`Object --> Transform --> Randomize Transform`,
                :menuselection:`Mesh --> Transform --> Randomize`
 

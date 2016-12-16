@@ -11,8 +11,8 @@ Extrude Region
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Mesh Tools --> Extrude`
-   | Menu:     :menuselection:`Mesh --> Extrude Region`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude Region`
+   | Menu:     :menuselection:`Mesh --> Extrude --> Extrude Region`
    | Hotkey:   :kbd:`E` or :kbd:`Alt-E`
 
 
@@ -76,8 +76,8 @@ Extrude Individual
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Mesh Tools --> Extrude Individual`
-   | Menu:     :menuselection:`Mesh --> Extrude Individual`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude Individual`
+   | Menu:     :menuselection:`Mesh --> Extrude --> Individual Faces`
    | Hotkey:   :kbd:`Alt-E`
 
 
@@ -111,6 +111,8 @@ Extrude Edges and Vertices Only
    :class: refbox
 
    | Mode:     Edit Mode, Vertex and Edge
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude`
+   | Menu:     :menuselection:`Mesh --> Extrude --> Extrude Edges/Vertices Only`
    | Hotkey:   :kbd:`Alt-E`
 
 

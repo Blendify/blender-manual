@@ -13,7 +13,15 @@ by picking from a list of recent actions recorded by Blender.
 Undo
 ====
 
-If you want to undo your last action, just press :kbd:`Ctrl-Z`
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Undo`
+   | Menu:     :menuselection:`Object/Object types --> Undo`
+   | Hotkey:   :kbd:`Ctrl-Z`
+
+If you want to undo your last action, just press :kbd:`Ctrl-Z`.
 
 .. seealso::
 
@@ -25,6 +33,14 @@ If you want to undo your last action, just press :kbd:`Ctrl-Z`
 Redo
 ====
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Redo`
+   | Menu:     :menuselection:`Object/Object types --> Redo`
+   | Hotkey:   :kbd:`Ctrl-Shift-Z`
+
 To roll back the Undo action, press :kbd:`Ctrl-Shift-Z`.
 
 
@@ -32,6 +48,13 @@ To roll back the Undo action, press :kbd:`Ctrl-Shift-Z`.
 
 Redo Last
 =========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Operator panel`
+   | Hotkey:   :kbd:`F6`
 
 *Redo Last* is short for *Redo(ing the) Last (Action)*.
 :kbd:`F6` after an action will present you a context-sensitive
@@ -69,6 +92,14 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 Undo History
 ============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Undo History`
+   | Menu:     :menuselection:`Object/Object types --> Undo History`
+   | Hotkey:   :kbd:`Ctrl-Alt-Z`
+
 .. figure:: /images/interface_undo-and-redo_undo-history-menu.png
    :align: right
 
@@ -90,6 +121,13 @@ Selecting one of the entries in the list takes the current status to that positi
 
 Repeat Last
 ===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Repeat: Repeat Last`
+   | Hotkey:   :kbd:`Shift-R`
 
 The Repeat Last feature will repeat your last action when you press :kbd:`Shift-R`.
 
@@ -116,6 +154,13 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 
 Repeat History
 ==============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Repeat: History...`
+   | Hotkey:   :kbd:`F3`
 
 .. figure:: /images/interface_undo-and-redo_repeat-history-menu.png
    :align: right

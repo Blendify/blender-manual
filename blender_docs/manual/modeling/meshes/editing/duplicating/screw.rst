@@ -7,7 +7,7 @@ Screw Tool
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Edit Mode --> Mesh Tools` or :kbd:`T` :menuselection:`--> Add --> Screw Button`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Screw`
 
 
 he *Screw* tool combines a repetitive *Spin* with a translation,

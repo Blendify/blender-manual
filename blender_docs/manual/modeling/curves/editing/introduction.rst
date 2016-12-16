@@ -1,4 +1,4 @@
-.. (todo) spin, split tool; control point: recalc normals, set curve radius
+.. (todo) spin, split tool; control point: recalc normals, set curve radius = Shrink/Fatten
 
 ************
 Introduction
@@ -17,6 +17,7 @@ Translation, Rotation, Scale
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform`
    | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
@@ -104,7 +105,6 @@ Snap
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Curve Tools
    | Menu:     :menuselection:`Curve --> Snap`
    | Hotkey:   :kbd:`Shift-S`
 
@@ -125,6 +125,7 @@ Extrude Curve and Move
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Extrude`
    | Menu:     :menuselection:`Curve --> Extrude Curve and Move`
    | Hotkey:   :kbd:`E`
 
@@ -156,6 +157,7 @@ Add Duplicate
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Duplicate`
    | Menu:     :menuselection:`Curve --> Add Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -218,6 +220,7 @@ Toggle Cyclic
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Delete`
    | Menu:     :menuselection:`Curve --> Toggle Cyclic`
    | Hotkey:   :kbd:`Alt-C`
 
@@ -249,6 +252,7 @@ Delete
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Delete`
    | Menu:     :menuselection:`Curve --> Delete...`
    | Hotkey:   :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
 
@@ -262,7 +266,7 @@ Vertices
    Of course, when only one point remains, there is no more visible curve,
    and when all points are deleted, the curve itself is deleted.
 Segment
-   Deletes the segment that connects the selected control points, disconnecting them.
+   Deletes the segment that connects the selected control points and disconnecting them.
 Dissolve Vertices :kbd:`Ctrl-X`
    Deletes the selected control points, while the remaining segment is fitted to the deleted curve
    by adjusting its handles.
@@ -287,6 +291,14 @@ Control Points
 Tilt
 ----
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Tilt`
+   | Menu:     :menuselection:`Curve --> Control Points --> Tilt/Clear Tilt`
+   | Hotkey:   :kbd:`Ctrl-T`, :kbd:`Alt-T`
+
 Tilt :kbd:`Ctrl-T`
    Lets you define the tilt of the selected control points. 
    The tilt will be interpolated from point to point (you can check it with the normals). 
@@ -302,7 +314,7 @@ Set Handle Type
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Curve Tools --> Handles`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Handles:`
    | Menu:     :menuselection:`Curve --> Control Points --> Set Handle Type`
    | Hotkey:   :kbd:`V`
 
@@ -340,6 +352,7 @@ Smoothing
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Smooth`
    | Hotkey:   :kbd:`W` :menuselection:`--> smooth`
 
 
@@ -368,7 +381,7 @@ Hooks
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> control points --> hooks`
+   | Menu:     :menuselection:`Curve --> Control Points --> Hooks`
    | Hotkey:   :kbd:`Ctrl-H`
 
 
@@ -387,7 +400,7 @@ Subdivision
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Curve Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Subdivide`
    | Menu:     :menuselection:`Surface tools --> Modeling --> Subdivide`
    | Hotkey:   :kbd:`W`
 
@@ -408,6 +421,7 @@ Switch Direction
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Switch Direction`
    | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
 
@@ -440,7 +454,7 @@ Set Spline Type
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Curve Tools --> Set Spline type`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Set Spline type`
 
 .. figure:: /images/modeling_curves_editing_introduction_set-spline-type.png
    :align: right

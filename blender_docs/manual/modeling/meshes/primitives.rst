@@ -7,8 +7,9 @@ Primitives
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Add --> Mesh`
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Create --> Add Mesh`
+   | Menu:     :menuselection:`Add`
    | Hotkey:   :kbd:`Shift-A`
 
 
