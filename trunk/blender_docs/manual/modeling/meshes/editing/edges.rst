@@ -8,7 +8,7 @@ Edge Tools
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Edges`,
+   | Menu:     :menuselection:`Mesh --> Edges`
    | Hotkey:   :kbd:`Ctrl-E`
 
 
@@ -41,7 +41,7 @@ Mark Seam and Clear Seam
    :class: refbox
 
    | Mode:     Edit Mode (Vertex or Edge select modes)
-   | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
+   | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam`
 
 Seams are a way to create separations, "islands", in UV maps.
 See the :ref:`UVTexturing section <editors-uv-image-index>` for more details.
@@ -320,7 +320,7 @@ Smoothness
 Profile Factor
    ToDo.
 Profile Shape
-   ToDo. Compare to Proportional Editing Falloff,
+   ToDo. Compare to Proportional Editing Falloff.
 
 
 Examples

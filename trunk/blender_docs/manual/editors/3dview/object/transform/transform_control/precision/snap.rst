@@ -50,10 +50,10 @@ The *Cursor to Selected* option is also affected by the current :ref:`pivot-poin
 
 - With the *Bounding Box Center* pivot point active,
   the *Cursor to Selected* option will snap the 3D cursor to the
-  center of the bounding box surrounding the objects' centers.
+  center of the bounding box surrounding the objects' origins.
 - When the *Median Point* pivot point is selected,
   *Cursor to Selected* will snap the 3D cursor to the
-  `median <https://en.wikipedia.org/wiki/Median>`__ of the object centers.
+  `median <https://en.wikipedia.org/wiki/Median>`__ of the object origins.
 
 
 .. _transform-snap:

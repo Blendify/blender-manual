@@ -27,14 +27,15 @@ The Object Origin and Geometry can be moved relative to each other and to the 3D
 
 Type
    Geometry to Origin
-      Move model to origin and this way origin of the object will also be at the center of the object.
+      Moves the model to the origin and
+      this way the origin of the object will also be at the center of the object.
    Origin to Geometry
-      Move origin to the center of the object and this way origin of the object will also be at
-      the center of the object.
+      Moves the origin to the center of the object and
+      this way origin of the object will also be at the center of the object.
    Origin to 3D Cursor
-      Move origin of the model to the place of the 3D cursor.
+      Moves the origin of the model to the position of the 3D cursor.
    Origin to Center of Mass
-      Move origin to calculated center of mass of model (assuming the mesh has uniform density).
+      Moves the origin to the calculated center of mass of model (assuming the mesh has a uniform density).
 Center
    Median Point Center, Bounding Box Center
 

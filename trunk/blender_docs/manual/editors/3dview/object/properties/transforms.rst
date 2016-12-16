@@ -31,7 +31,7 @@ Options in Object Mode
 ----------------------
 
 Use this panel to either edit or display the object's transform properties such as position,
-rotation and/or scaling. These fields change the object's center and then affect the aspect
+rotation and/or scaling. These fields change the object's origin and then affect the aspect
 of all of its *vertices* and faces.
 
 .. figure:: /images/editors_3dview_transform-control_properties.png

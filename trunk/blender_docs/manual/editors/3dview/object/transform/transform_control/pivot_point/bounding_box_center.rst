@@ -26,13 +26,13 @@ In Object Mode
 ==============
 
 In *Object Mode*, the bounding box is wrapped around the Object and transformation
-takes place relative to the location of the Object center (indicated by the yellow circle).
+takes place relative to the location of the Object origin (indicated by the yellow circle).
 The image below shows the results of using the Bounding Box as the pivot point in a number of
 situations.
 
 For example, images A (before rotation)
-and B show rotation when the Object center is in its default position, while images C
-(before rotation) and D shows the result when the Object center has been moved.
+and B show rotation when the Object origin is in its default position, while images C
+(before rotation) and D shows the result when the Object origin has been moved.
 Image E shows that when multiple Objects are selected,
 the pivot point is calculated based on the Bounding Box of all the selected Objects.
 
@@ -48,7 +48,7 @@ In Edit Mode
 ============
 
 This time it is the Object Data that is enclosed in the bounding box.
-The bounding box in *Edit Mode* takes no account of the Object(s) centers,
+The bounding box in *Edit Mode* takes no account of the Object(s) origins,
 only the center of the selected vertices.
 
 .. figure:: /images/editors_3dview_transform_control-pivot_point-bounding_box_center-edit-mode-rotation.jpg

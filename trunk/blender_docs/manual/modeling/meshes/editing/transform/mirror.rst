@@ -112,7 +112,7 @@ Mirror Weights
    unless *All Groups* is checked, in which case it is passed for all groups.
 Flip Groups Names
    Works with selected vertices that belong to vertex groups with "symmetrical names"
-   (with components like ''L'', ''R'', ''right'', ''left'').
+   (with components like "L", "R", "right", "left").
    All selected vertices that belong to the active group, or to the symmetrical of the active group,
    will have their assignation to that group replaced by an assignation to the symmetrical one;
    however, its weight will be preserved.
