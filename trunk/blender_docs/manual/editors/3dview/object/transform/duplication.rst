@@ -14,7 +14,8 @@ Duplicate
    :class: refbox
 
    | Mode:     Edit and Object Modes
-   | Menu:     :menuselection:`Object --> Duplicate`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Duplicate`
+   | Menu:     :menuselection:`Object --> Duplicate Objects`
    | Hotkey:   :kbd:`Shift-D`
 
 
@@ -61,6 +62,7 @@ Linked Duplicates
    :class: refbox
 
    | Mode:     Object Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Duplicate Linked`
    | Menu:     :menuselection:`Object --> Duplicate Linked`
    | Hotkey:   :kbd:`Alt-D`
 
@@ -74,7 +76,7 @@ not links, so you still can rotate, scale, and move freely without affecting the
 Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the discussions below.
 
 Linked
-   In the *Duplicate Objects* Operator panel the *Linked* checkbox is checked unlike with *Dublicate*.
+   In the *Duplicate Objects* Operator panel the *Linked* checkbox is checked unlike with *Duplicate*.
 
 .. hint::
 

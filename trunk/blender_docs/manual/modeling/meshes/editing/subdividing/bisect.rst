@@ -7,6 +7,7 @@ Bisect
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Bisect`
    | Menu:     :menuselection:`Mesh --> Bisect`
 
 

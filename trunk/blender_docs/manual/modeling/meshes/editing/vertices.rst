@@ -27,8 +27,9 @@ Merging Vertices
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Merge`
    | Menu:     :menuselection:`Mesh --> Vertices --> Merge...`,
-     :menuselection:`Specials --> Merge` or :menuselection:`Vertex Specials --> Merge`
+               :menuselection:`Specials --> Merge`
    | Hotkey:   :kbd:`Alt-M`
 
 
@@ -92,7 +93,7 @@ Remove Doubles
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Remove Doubles`
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
                :menuselection:`Specials --> Remove Doubles`
 
@@ -327,7 +328,7 @@ Vertex Slide
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Vertex`
    | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide`
    | Hotkey:   :kbd:`Shift-V`
 
@@ -370,7 +371,7 @@ Smooth Vertex
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth Vertex`,
                :menuselection:`Specials --> Smooth`
 

@@ -1,13 +1,14 @@
 
-*****
-Inset
-*****
+***********
+Inset Faces
+***********
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Inset`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Inset Faces`
+   | Menu:     :menuselection:`Mesh --> Faces --> Inset Faces`
    | Hotkey:   :kbd:`I`
 
 

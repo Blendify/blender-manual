@@ -71,7 +71,8 @@ Bake Action
    :class: refbox
 
    | Mode:     Object and Pose Modes
-   | Menu:     :menuselection:`3D View --> Object/Pose --> Animation --> Bake action`
+   | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Action: Bake Action`
+   | Menu:     :menuselection:`3D View --> Object/Pose --> Animation --> Bake Action...`
 
 
 The *Bake Action* tool will apply interpolated frames into individual key frames.

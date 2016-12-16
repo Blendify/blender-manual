@@ -8,7 +8,7 @@ Translation, Rotation, Scale
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform`
    | Menu:     :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 

@@ -28,8 +28,8 @@ Flip Direction
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Flip Direction`
    | Menu:     :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
-   | Hotkey:   :kbd:`W`, :menuselection:`Flip Normals`
 
 
 Well, it will just reverse the normals direction of all selected faces.
@@ -44,6 +44,7 @@ Recalculate Normals
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Recalculate`
    | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
      :menuselection:`Mesh --> Normals --> Recalculate Inside`
    | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`

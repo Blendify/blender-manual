@@ -21,7 +21,8 @@ Motion Paths
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:    *Object*
+   | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Motion Paths: Calculate`
+   | Panel:    :menuselection:`Properties editor --> Object --> Motion Paths`
 
 
 This feature allows you to visualize the animation of objects by displaying their position

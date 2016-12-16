@@ -4,8 +4,16 @@ Editing
 *******
 
 
-Adding Keyframes
+Insert Keyframes
 ================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Insert`
+   | Menu:     :menuselection:`Object --> Animation --> Insert Keyframe...`
+   | Hotkey:   :kbd:`I`
 
 There are several methods of adding new keys. Namely:
 
@@ -29,14 +37,34 @@ keyframes automatically to the set frame if the value for transform type propert
 See :ref:`Timeline Keyframe Control <animation-editors-timeline-autokeyframe>` for more info.
 
 
-Removing Keyframes
-==================
+Delete Keyframes
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Remove`
+   | Menu:     :menuselection:`Object --> Animation --> Delete Keyframes...`
+   | Hotkey:   :kbd:`Alt-I`
 
 There are several methods of removing keyframes:
 
 - In the 3D View press :kbd:`Alt-I` to remove keys on the current frame for selected objects.
 - When the mouse is over a value press :kbd:`Alt-I`.
 - :kbd:`RMB` a value and choose *Delete Keyframe* from the menu.
+
+
+Clear Keyframes
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Animation --> Clear Keyframes...`
+
+ToDo. .. Removes all keyframes from the selected object.
 
 
 Editing Keyframes

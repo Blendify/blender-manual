@@ -159,7 +159,6 @@ Triangles to Quads
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Mesh Tools
    | Menu:     :menuselection:`Mesh --> Faces --> Triangles to Quads`
    | Hotkey:   :kbd:`Alt-J`
 

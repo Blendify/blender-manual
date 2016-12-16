@@ -9,8 +9,9 @@ Grab/Move
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode, Edit Mode, and Pose Mode for the 3D View;
-   | Menu:     Context sensitive, :menuselection:`Object Based --> Transform --> Grab/Move`
+   | Mode:     Object Mode, Edit Mode, and Pose Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Translate`
+   | Menu:     :menuselection:`Object type --> Transform --> Grab/Move`
    | Hotkey:   :kbd:`G`
 
 
@@ -45,6 +46,7 @@ Rotate
    :class: refbox
 
    | Mode:     Object and Edit Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Rotate`
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
    | Hotkey:   :kbd:`R`
 
@@ -76,6 +78,7 @@ Scale
    :class: refbox
 
    | Mode:     Object and Edit Modes
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Scale`
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
    | Hotkey:   :kbd:`S`
 
@@ -178,7 +181,7 @@ Texture Space
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     :menuselection:`Object --> Transform -->`
+   | Menu:     :menuselection:`Object --> Transform`
    | Hotkey:   :kbd:`Shift-T`, :kbd:`Shift-Alt-T`
 
 Transforms the object :ref:`Texture Space <properties-texture-space>`,
