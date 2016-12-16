@@ -82,7 +82,7 @@ Unlike meshes or curves, you cannot generally directly add new control points to
 (with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U- or V-row at once.
 The only exception is when working on a NURBS surface curve, i.e.
 a surface with only one control point on each U- or V-row. In this special case,
-all works exactly as with :ref:`curves <modeling-curves-extending>`.
+all works exactly as with :ref:`curves <modeling-curves-extrude>`.
 
 Most of the time, only extrusion is available. As usual, once the tool is activated the
 extrusion happens immediately and you are placed into *Grab mode*,
@@ -158,7 +158,7 @@ Opening or Closing a Surface
    | Hotkey:   :kbd:`Alt-C`
 
 
-As in :ref:`curves <modeling-curves-opening-and-closing>`,
+As in :ref:`curves <modeling-curves-toggle-cyclic>`,
 surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
 you can control this property independently along the U and V axes.
 
@@ -259,7 +259,7 @@ Joining or Merging Surfaces
    | Menu:     :menuselection:`Surface --> Make Segment`
    | Hotkey:   :kbd:`F`
 
-Just like :ref:`curves <modeling-curves-joining-segments>`,
+Just like :ref:`curves <modeling-curves-make-segment>`,
 merging two surfaces requires that a single edge, a border row of control points,
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
 you cannot join two surfaces while in *Object Mode* - but you can of course, as with any objects of the same type,

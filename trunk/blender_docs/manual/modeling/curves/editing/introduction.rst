@@ -1,17 +1,17 @@
+.. (todo) spin, split tool; control point: recalc normals, set curve radius
 
 ************
 Introduction
 ************
 
-This page covers the basics of curve editing. Curve basics,
-selecting and advanced editing are covered in the following pages:
+This page covers the basics of curve editing.
 
-- :doc:`Curve basics </modeling/curves/introduction>`
-- :doc:`Curve Selecting </modeling/curves/selecting>`
 
+Transform
+=========
 
 Translation, Rotation, Scale
-============================
+----------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -56,7 +56,7 @@ Space
 
 
 Data
-----
+^^^^
 
 Weight
    ToDo.
@@ -66,25 +66,8 @@ Tilt
    ToDo.
 
 
-Snapping
-========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Panel:    Curve Tools
-
-
-:doc:`Mesh snapping </editors/3dview/object/transform/transform_control/precision/snap>`
-also works with curve components.
-Both control points and their handles will be affected by snapping,
-except for within itself (other components of the active curve).
-Snapping works with 2D curves but points will be constrained to the local XY axes.
-
-
-Deforming Tools
-===============
+Tools
+-----
 
 .. admonition:: Reference
    :class: refbox
@@ -97,6 +80,257 @@ The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described i
 :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
+
+
+Mirror
+======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Curve --> Mirror`
+   | Hotkey:   :kbd:`Ctrl-M`
+
+
+The *Mirror* tool is also available, behaving exactly as with
+:doc:`mesh vertices </modeling/meshes/editing/transform/mirror>`.
+
+
+Snap
+====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    Curve Tools
+   | Menu:     :menuselection:`Curve --> Snap`
+   | Hotkey:   :kbd:`Shift-S`
+
+
+:doc:`Mesh snapping </editors/3dview/object/transform/transform_control/precision/snap>`
+also works with curve components.
+Both control points and their handles will be affected by snapping,
+except for within itself (other components of the active curve).
+Snapping works with 2D curves but points will be constrained to the local XY axes.
+
+
+.. _modeling-curves-extrude:
+
+Extrude Curve and Move
+======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Curve --> Extrude Curve and Move`
+   | Hotkey:   :kbd:`E`
+
+Extrudes points by duplicating the selected points, which then can be translated.
+If the selection is an end point a new point will be connected to the selected point,
+else a new unconnected point is created.
+
+Mode
+   ToDo.
+
+
+Add Vertex
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Hotkey:   :kbd:`Ctrl-LMB`
+
+Interactively places new points with :kbd:`Ctrl-LMB` at the cursor position.
+With the selection it deals in same manner as the *Extrude Curve and Move* tool.
+
+
+Add Duplicate
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Curve --> Add Duplicate`
+   | Hotkey:   :kbd:`Shift-D`
+
+
+This command duplicates the selected control points,
+along with the curve segments implicitly selected (if any).
+If only a handle is selected, the full point will be duplicated too.
+The copy is selected and placed in *Grab* mode, so you can move it to another place.
+
+
+Separate
+========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Curve --> Separate`
+   | Hotkey:   :kbd:`P`
+
+
+Curve objects that are made of multiple distinct curves can be separated into their own
+objects by selecting the desired segments and pressing :kbd:`P`.
+Note, if there is only one curve in a Curve object,
+*Separate* will create a new Curve object with no control points.
+
+
+.. _modeling-curves-make-segment:
+
+Make Segment
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Curve --> Make Segment`
+   | Hotkey:   :kbd:`F`
+
+
+Connects two disconnected control points.
+The selection must be loose points, or the first/last point of a curve, then press :kbd:`F`.
+If the points belong to different curves, these are joined by a segment to become a single curve.
+
+.. figure:: /images/editing_curves_two-curves-joined.png
+   :width: 600px
+
+   Curves before and after joining.
+
+Note that you can only join curves of the same type (i.e. Bézier with Bézier, NURBS with NURBS)
+Additionally, you can close a curve by toggling cyclic.
+
+
+.. _modeling-curves-toggle-cyclic:
+
+Toggle Cyclic
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Curve --> Toggle Cyclic`
+   | Hotkey:   :kbd:`Alt-C`
+
+
+This toggles between an open curve and closed curve (Cyclic).
+Only curves with at least one selected control point will be closed/open.
+The shape of the closing segment is based on the start and end handles for Bézier curves,
+and as usual on adjacent control points for NURBS.
+The only time a handle is adjusted after closing is if the handle is an *Auto* one.
+Fig. :ref:`fig-curves-editing-open-close` is the same Bézier curve open and closed.
+
+This action only works on the original starting control-point or the last control-point added.
+Deleting a segment(s) does not change how the action applies;
+it still operates only on the starting and last control-points. This means that
+:kbd:`Alt-C` may actually join two curves instead of closing a single curve! Remember
+that when a 2D curve is closed, it creates a renderable flat face.
+
+.. _fig-curves-editing-open-close:
+
+.. figure:: /images/modeling_curves_editing_introduction_open-closed-cyclic.png
+
+   Open and Closed curves.
+
+
+Delete
+======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Curve --> Delete...`
+   | Hotkey:   :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
+
+Options for the *Erase* pop-up menu:
+
+Vertices
+   This will delete the selected control points, *without* breaking the curve (i.e.
+   the adjacent points will be directly linked, joined, once the intermediary ones are deleted).
+   Remember that NURBS order cannot be higher than its number of control points,
+   so it might decrease when you delete some control point.
+   Of course, when only one point remains, there is no more visible curve,
+   and when all points are deleted, the curve itself is deleted.
+Segment
+   Deletes the segment that connects the selected control points, disconnecting them.
+Dissolve Vertices :kbd:`Ctrl-X`
+   Deletes the selected control points, while the remaining segment is fitted to the deleted curve
+   by adjusting its handles.
+
+
+.. list-table::
+
+   * - .. figure:: /images/editing_curves_delete-selected.png
+          :width: 320px
+
+          Deleting Curve Selected.
+
+     - .. figure:: /images/editing_curves_delete-segment.png
+          :width: 320px
+
+          Deleting Curve segments.
+
+
+Control Points
+==============
+
+Tilt
+----
+
+Tilt :kbd:`Ctrl-T`
+   Lets you define the tilt of the selected control points. 
+   The tilt will be interpolated from point to point (you can check it with the normals). 
+   The tilt angle is defined interactively first, and then it can be adjusted in the Operator panel *Angle*.
+Clear Tilt :kbd:`Alt-T`
+   Brings the tilt of those selected control points back to 0.
+
+
+Set Handle Type
+---------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Curve Tools --> Handles`
+   | Menu:     :menuselection:`Curve --> Control Points --> Set Handle Type`
+   | Hotkey:   :kbd:`V`
+
+
+Handle types are a property of :doc:`Bézier curves </modeling/curves/bezier>` and
+can be used to alter features of the curve.
+For example, switching to *Vector handles* can be used to create curves with sharp corners.
+Read the :doc:`Bézier curves </modeling/curves/bezier>` page for more details.
+
+Toggle Free/Align :kbd:`V-T`
+   Additionally, the this shortcut can be used to toggle between Free and Aligned handle types.
+
+
+.. _modeling-curve-weight:
+
+Set Goal Weight
+---------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :kbd:`W` :menuselection:`--> Set Goal Weight`
+
+
+This sets the "goal weight" of selected control points,
+which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
+forcing the curve to "stick" to their original positions, based on the weight.
 
 
 Smoothing
@@ -127,64 +361,27 @@ Does not effect control point tangents.
    Only three control points in the center smoothed over 200 times.
 
 
-Mirror
-======
+Hooks
+------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Mirror`
-   | Hotkey:   :kbd:`Ctrl-M`
+   | Menu:     :menuselection:`Curve --> control points --> hooks`
+   | Hotkey:   :kbd:`Ctrl-H`
 
 
-The *Mirror* tool is also available, behaving exactly as with
-:doc:`mesh vertices </modeling/meshes/editing/transform/mirror>`,
+:doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
 
 
-Set Bézier Handle Type
-======================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Curve Tools --> Handles`
-   | Menu:     :menuselection:`Curve --> Control Points --> Set Handle Type`
-   | Hotkey:   :kbd:`V`
-
-
-Handle types are a property of :doc:`Bézier curves.
-</modeling/curves/introduction>` and can be used to alter features of the curve.
-For example, switching to *Vector handles* can be used to create curves with sharp corners.
-Read the :doc:`Bézier curves </modeling/curves/introduction>` page for more details.
-
-
-.. _modeling-curves-extending:
-
-Extending Curves
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Extrude`
-   | Hotkey:   :kbd:`Ctrl-LMB`, :kbd:`E`
-
-
-Once a curve is created you can add new segments (in fact,
-new control points defining new segments), either by extruding,
-or placing new handles with :kbd:`Ctrl-LMB`.
-Each new segment is added to one end of the curve.
-The Bézier curve can only be extend at the endpoints.
-:kbd:`Ctrl-LMB` on inner control points will make unconnected duplicates.
-
+Segments
+========
 
 .. _modeling-curves-subdivision:
 
 Subdivision
-===========
+-----------
 
 .. admonition:: Reference
    :class: refbox
@@ -195,149 +392,17 @@ Subdivision
    | Hotkey:   :kbd:`W`
 
 
-Curve subdivision simply subdivides all selected segments by adding one or more control points
-between the selected segments. To control the number of cuts,
-press :kbd:`W` to make a single subdivision.
-Then press :kbd:`F6` to bring up the *Number of Cuts* menu.
+Curve subdivision simply subdivides all selected segments by adding one or
+more control points between the selected segments.
 
-
-Duplication
-===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Duplicate`
-   | Hotkey:   :kbd:`Shift-D`
-
-
-This command duplicates the selected control points,
-along with the curve segments implicitly selected (if any).
-The copy is selected and placed in *Grab* mode, so you can move it to another place.
-
-
-.. _modeling-curves-joining-segments:
-
-Joining Curve Segments
-======================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Make Segment`
-   | Hotkey:   :kbd:`F`
-
-
-Two open curves can be combined into one by creating a segment between the two curves.
-To join two separated curves,
-select one end control point from each curve then press :kbd:`F`.
-The two curves are joined by a segment to become a single curve.
-
-.. figure:: /images/editing_curves_two-curves-joined.png
-   :width: 600px
-
-   Curves before and after joining.
-
-
-Additionally, you can close a curve by joining the endpoints but note that you can only join
-curves of the same type (i.e. Bézier with Bézier, NURBS with NURBS)
-
-
-Separating Curves
-=================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Separate`
-   | Hotkey:   :kbd:`P`
-
-
-Curve objects that are made of multiple distinct curves can be separated into their own
-objects by selecting the desired segments and pressing :kbd:`P`. Note,
-if there is only one curve in a Curve object,
-pressing :kbd:`P` will create a new Curve object with no control points.
-
-
-Deleting Elements
-=================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X`, :kbd:`Delete`
-
-Options for the *Erase* pop-up menu:
-
-Selected
-   This will delete the selected control points, *without* breaking the curve (i.e.
-   the adjacent points will be directly linked, joined, once the intermediary ones are deleted).
-   Remember that NURBS order cannot be higher than its number of control points,
-   so it might decrease when you delete some control point.
-   Of course, when only one point remains, there is no more visible curve,
-   and when all points are deleted, the curve itself is deleted.
-Segment
-   This option is somewhat the opposite to the preceding one, as it will cut the curve,
-   without removing any control points, by erasing one selected segment.
-   This option always removes *only one* segment (the last "selected" one),
-   even when several are in the selection.
-   So to delete all segments in your selection, you will have to repetitively use the same erase option...
-
-.. list-table::
-
-   * - .. figure:: /images/editing_curves_delete-selected.png
-          :width: 320px
-
-          Deleting Curve Selected.
-
-     - .. figure:: /images/editing_curves_delete-segment.png
-          :width: 320px
-
-          Deleting Curve segments.
-
-
-.. _modeling-curves-opening-and-closing:
-
-Opening and Closing a Curve
-===========================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Toggle Cyclic`
-   | Hotkey:   :kbd:`Alt-C`
-
-
-This toggles between an open curve and closed curve (Cyclic).
-Only curves with at least one selected control point will be closed/open.
-The shape of the closing segment is based on the start and end handles for Bézier curves,
-and as usual on adjacent control points for NURBS.
-The only time a handle is adjusted after closing is if the handle is an *Auto* one.
-Fig. :ref:`fig-curves-editing-open-close` is the same Bézier curve open and closed.
-
-This action only works on the original starting control-point or the last control-point added.
-Deleting a segment(s) does not change how the action applies;
-it still operates only on the starting and last control-points. This means that
-:kbd:`Alt-C` may actually join two curves instead of closing a single curve! Remember
-that when a 2D curve is closed, it creates a renderable flat face.
-
-.. _fig-curves-editing-open-close:
-
-.. figure:: /images/modeling_curves_editing_introduction_open-closed-cyclic.png
-
-   Open and Closed curves.
+Number of Cuts
+   The number of cuts can be adjusted from the Operator panel.
 
 
 .. _curve-switch-direction:
 
 Switch Direction
-================
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -345,27 +410,37 @@ Switch Direction
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
-   | Hotkey:   :kbd:`W-Numpad2`
 
 
-This command will "reverse" the direction of any curve with at least one selected element
+This tool will "reverse" the direction of any curve with at least one selected element
 (i.e. the start point will become the end one, and *vice versa*).
 This is mainly useful when using a curve as path, or using the bevel and taper options.
 
 
-Converting Tools
-================
+.. _curves-show-hide:
+
+Show/Hide
+=========
+
+When in *Edit Mode*, you can hide and reveal elements from the display.
+You can only show or hide control points, as segments are always shown,
+unless all control points of the connected curve are hidden,
+in which case the curve is fully hidden.
+
+See :ref:`object-show-hide` in *Object Mode*.
+See also the :doc:`/modeling/curves/curve_display` panel.
+
 
 .. _curve-convert-type:
 
-Converting Curve Type
----------------------
+Set Spline Type
+===============
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Curve Tools --> Set Spline type
+   | Panel:    :menuselection:`Curve Tools --> Set Spline type`
 
 .. figure:: /images/modeling_curves_editing_introduction_set-spline-type.png
    :align: right
@@ -405,44 +480,3 @@ then :kbd:`Ctrl-RMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
 Selecting three control points will make the child follow
 the median point between the three vertices. An alternative would be to use a
 :doc:`Child of Constraint </rigging/constraints/relationship/child_of>`
-
-
-Hooks
-=====
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> control points --> hooks`
-   | Hotkey:   :kbd:`Ctrl-H`
-
-
-:doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
-
-
-.. _modeling-curve-weight:
-
-Set Goal Weight
-===============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :kbd:`W` :menuselection:`--> Set Goal Weight`
-
-
-This sets the "goal weight" of selected control points,
-which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
-forcing the curve to "stick" to their original positions, based on the weight.
-
-
-.. _curves-hiding:
-
-Hiding Elements
-===============
-
-When in *Edit Mode*, you can hide and reveal elements from the display.
-This can be useful in complex models with many elements on the Screen.
-See :ref:`object-show-hide` in *Object Mode*.
