@@ -180,12 +180,12 @@ We create the video source object and assign it to the ``Texture`` object
 as the ``Texture`` object is persistent, the source object will also be persistent.
 
 Note that we can change the ``Texture`` source at any time.
-Suppose we want to switch between two movies during the game. 
+Suppose we want to switch between two movies during the game.
+
 We can do the following::
 
    GameLogic.mySources[0] = bge.texture.VideoFFmpeg('movie1.avi')
    GameLogic.mySources[1] = bge.texture.VideoFFmpeg('movie2.avi')
-
 
 And then assign (and reassign) the source during the game::
 

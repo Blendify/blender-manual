@@ -12,7 +12,7 @@ For example, scaling a camera has no effect on the render dimensions.
 
 :doc:`Basic transformations </editors/3dview/object/transform/basic_transform>` include:
 
-- Grabbing (moving) 
+- Grabbing (moving)
 - Rotating
 - Scaling
 

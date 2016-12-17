@@ -77,8 +77,8 @@ Midpoint snap :kbd:`Ctrl`
    Hold to snap the cursor to the midpoint of edges,
    meaning that all cuts will be performed at the exact center of each cut edge.
 Ignore snap :kbd:`Shift`
-   Hold to make the tool ignore snapping, 
-   unlike the default where mouse cursor snaps to near edges; 
+   Hold to make the tool ignore snapping,
+   unlike the default where mouse cursor snaps to near edges.
 Cut through: :kbd:`Z`
    Allow the cut tool to cut through to obscured faces, instead of only the visible ones.
 Angle constrain :kbd:`C`

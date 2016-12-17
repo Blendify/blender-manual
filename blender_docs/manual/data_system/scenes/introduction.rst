@@ -40,7 +40,7 @@ Add ``+``
       Creates new, duplicate copies of all of the objects in the currently selected scene,
       but each one of those duplicate objects will have links to the object-data (meshes, materials and so on)
       of the corresponding objects in the original scene.
-   
+
       This means that you can change the position,
       orientation and size of the objects in the new scene without affecting other scenes,
       but any modifications to the object-data (meshes, materials, etc.) will also affect other scenes.
@@ -58,7 +58,7 @@ Add ``+``
       To choose between these options,
       it is useful to understand the difference between *Objects* and *Object Data*.
       See :doc:`Duplication </editors/3dview/object/transform/duplication>`.
-   
+
       The choices for adding a scene, therefore, determine just how much of this information will be
       *copied from* the active scene to the new one, and how much will be *shared* (linked).
 

@@ -117,7 +117,7 @@ The orientation can be set
 in the :doc:`Transform Orientation </editors/3dview/object/transform/transform_control/transform_orientations>`
 selector of the 3D View header.
 
-.. or independent in the Operator panel? 
+.. or independent in the Operator panel?
 
 For example, if the current transform orientation is set to *Normal*,
 pressing :kbd:`G` to start translation, followed by :kbd:`Z` will lock translation
@@ -127,7 +127,7 @@ Pressing :kbd:`Z` again will remove all constraints.
 The current mode will be displayed in the left hand side of the *3D View header*.
 
 As can be seen in the *Axis locking modes* image,
-the direction of the transform also takes into account the selection. 
+the direction of the transform also takes into account the selection.
 
 Note that using a locked axis does not prevent you from using the keyboard to enter
 :doc:`numeric transformation </editors/3dview/object/transform/transform_control/precision/numeric_input>` values.

@@ -149,7 +149,7 @@ with animating both the zoom factor and the expected position manually.
 2D Stabilizer Panel
 ===================
 
-.. note:: 
+.. note::
 
    To *activate* the 2D stabilizer, you need to set the toggle in the panel,
    and additionally you need to enable *Display Stabilization* in the *Display* panel.
@@ -213,12 +213,11 @@ Interpolate
       No interpolation, use nearest neighboring pixel.
       This setting basically retains the original image's sharpness.
       The downside is we also retain residual movement below the size of one pixel,
-      and compensation movements are done in 1 pixel steps, which might be noticeable as irregular jumps. 
+      and compensation movements are done in 1 pixel steps, which might be noticeable as irregular jumps.
    Bilinear
       Simple linear interpolation between adjacent pixels.
    Bicubic
       Highest quality interpolation, most expensive to calculate
-
 
 
 Stabilization Workflow
@@ -250,7 +249,7 @@ by an experienced operator also frequently fall into this category.
   before you even think of adding more tracking markers. Because doing so is often not worth the effort.
 - If you need to add more points, the most important goal is to achieve *symmetry.*
   Place location tracking points symmetrically above and below the horizon.
-  Place rotation tracking points into diagonally opposed direction, always centered around the main focal area. 
+  Place rotation tracking points into diagonally opposed direction, always centered around the main focal area.
 
 
 Avoid problematic footage

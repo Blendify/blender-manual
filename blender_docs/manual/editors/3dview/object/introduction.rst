@@ -57,7 +57,7 @@ Show/Hide
 Show Hidden :kbd:`Alt-H`
    Reveals all hidden objects.
 Hide Selected :kbd:`H`
-   Hides all selected objects. 
+   Hides all selected objects.
 Hide Unselected :kbd:`Shift-H`
    Hides all unselected objects of the scene.
    The *Unselected* checkbox in the *Set Restrict View*/*Hide Selected* Operator panel will be checked.

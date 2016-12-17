@@ -12,7 +12,7 @@ Image Settings
 
 Image
    Data-block menu.
-   
+
    New ``+``
       The *New Image* button opens a pop-up to configure a `Generated`_ image.
 

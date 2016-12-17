@@ -159,7 +159,7 @@ that will make a recalculating necessary.
   or with the :kbd:`Ctrl-B` shortcut key to free it for all selected objects.
 - You may run into trouble if your blend-file path is very long and your operating system
   has a limit on the path length that is supported.
- 
+
 .. rubric:: Baking
 
 - The system is protected against changes after baking.

@@ -21,14 +21,17 @@ Blender distinguishes between two different states of selection:
    Unselected object in black, selected object in orange, and active object in yellow.
 
 
-- In *Object Mode* the last (de)selected item is called the "Active Object"
-  and is outlined in yellow (the others are orange).
-  There is exactly one active object at any time (even when nothing is selected).
+In *Object Mode* the last (de)selected item is called the "Active Object"
+and is outlined in yellow (the others are orange).
+There is exactly one active object at any time (even when nothing is selected).
 
-  Many actions in Blender use the active object as a reference (for example linking operations).
-  If you already have a selection and need to make a different object the active one,
-  simply re-select it with :kbd:`Shift-RMB`.
-- All other selected objects are just selected. You can select any number of objects.
+Many actions in Blender use the active object as a reference (for example linking operations).
+If you already have a selection and need to make a different object the active one,
+simply re-select it with :kbd:`Shift-RMB`.
+
+All other selected objects are just selected. You can select any number of objects.
+In order to change a property or to perform an operation on all selected objects
+hold :kbd:`Alt`, while confirming.
 
 
 Point Selection
@@ -342,7 +345,7 @@ Random
    It is important to note that the percentage represents the likelihood of an unselected object being
    selected and not the percentage amount of objects that will be selected.
 Mirror :kbd:`Shift-Ctrl-M`
-   Select the Mirror objects of the selected object, based on their names. 
+   Select the Mirror objects of the selected object, based on their names.
    e.g. "sword.L" and "sword.R".
 Select Camera
    Select the active camera.

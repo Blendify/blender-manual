@@ -112,7 +112,7 @@ Subdivisions
 
 .. note::
 
-   Subdividing an icosphere rises the vertex count very high even with few iterations 
+   Subdividing an icosphere rises the vertex count very high even with few iterations
    (10 times creates 5,242,880 triangles),
    Adding such a dense mesh is a sure way to cause the program to crash.
 
@@ -159,7 +159,7 @@ A doughnut-shaped primitive created by rotating a circle around an axis.
 The overall dimensions can be defined by two methods.
 
 Operator Presets
-   Torus preset settings for reuse. These presets are stored as scripts in the proper presets directory. 
+   Torus preset settings for reuse. These presets are stored as scripts in the proper presets directory.
 Major Segments
    Number of segments for the main ring of the torus.
    If you think of a torus as a "spin" operation around an axis, this is how many steps in the spin.

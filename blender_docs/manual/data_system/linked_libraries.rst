@@ -101,8 +101,8 @@ In some case (i.e. Object Data, Modifier) the target objects must be of the same
 The existing data-block of which will be unlinked from them.
 
 Objects to Scene...
-   Lets you create links to the selected objects into a different scene than the current one. 
-   A scene name must be chosen other than that of the current one. 
+   Lets you create links to the selected objects into a different scene than the current one.
+   A scene name must be chosen other than that of the current one.
    The *Link Objects to Scene* Operator panel lets you choose between scenes.
 
    This makes the same object exist in two different scenes at once, including its position and animation data.
@@ -117,7 +117,7 @@ Type
       If the selected object doesn't have any UV maps, it is created.
       Objects must be of type mesh and must have the same number of faces (matching geometry).
 
-.. seealso:: 
+.. seealso::
 
    :ref:`data-system-datablock-make-single-user` for unlinking data-blocks.
 

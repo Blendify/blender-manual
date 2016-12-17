@@ -31,7 +31,7 @@ with each area containing an *Editor*.
 The Default Screen
 ==================
 
-By default Blender starts up showing the default screen, which is separated into five areas 
+By default Blender starts up showing the default screen, which is separated into five areas
 containing the Editors listed below:
 
 - The Info Editor at the top.
@@ -61,7 +61,7 @@ with buttons, controls and widgets placed within them.
 
    The 3D View editor.
 
-   Yellow: Main Region, green: Header, blue: Tool Shelf, purple: Operator Panel, 
+   Yellow: Main Region, green: Header, blue: Tool Shelf, purple: Operator Panel,
    red: Properties Region.
 
 

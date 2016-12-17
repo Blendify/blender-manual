@@ -45,7 +45,7 @@ Ghost
    - Default: Off.
    - Python property: ``obj.game.use_ghost``
 Invisible
-   Does not display, the same as setting the object to unrendered 
+   Does not display, the same as setting the object to unrendered
    (such as unchecking the "Camera" icon in the Outliner).
 
    - Default: Off.

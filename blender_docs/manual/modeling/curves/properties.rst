@@ -47,7 +47,7 @@ Twisting
 Fill
    Fill determines the way a Curve is displayed when it is Beveled (see below for details on Beveling).
    When set to *Half* (the default) the Curve is displayed as half a cylinder.
-   
+
    Fill Deformed
       Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
 

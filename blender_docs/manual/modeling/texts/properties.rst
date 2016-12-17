@@ -28,7 +28,7 @@ Texture Space
 TODO.
 
 
-Geometry 
+Geometry
 ========
 
 Modification
@@ -102,9 +102,9 @@ object. In all,
 you would need to load a minimum of four different types of fonts to represent each style
 (Normal, Italics, Bold, Bold-Italics).
 
-It is important to understand, that Blender does not care what font 
-you load for "normal", "bold", etc., styles. 
-This is how you can have up to four different fonts in use in the same text, 
+It is important to understand, that Blender does not care what font
+you load for "normal", "bold", etc., styles.
+This is how you can have up to four different fonts in use in the same text,
 but you have to choose between different styles of a same font, or different fonts.
 Blender has a number of typographic controls for changing the style and layout of text,
 found in the *Font* panel.

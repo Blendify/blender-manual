@@ -24,9 +24,9 @@ through the three pop-up menus within the same entry:
 - *Disable Setting*: :kbd:`Alt-W` or :menuselection:`Armature --> Bone Settings --> Disable a Setting`
 
 Draw Wire
-   ..
+   ToDo.
 Deform
-   (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`), 
+   (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`).
 Multiply Vertex Group by Envelope
    (also :kbd:`Shift-W` :menuselection:`--> (Multiply Vertex Group by Envelope, ...)`)
 
@@ -36,7 +36,7 @@ Inherit Rotation
    These settings affect the behavior of children bones while transforming their parent in *Pose Mode*,
    so this will be detailed in the :doc:`posing part </rigging/armatures/posing/index>` !
 Inherit Scale
-   ..
+   ToDo.
 Lock
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
    This will prevent all editing of the bone in *Edit Mode*;

@@ -9,7 +9,7 @@
    introduction.rst
 
 
-Node Types 
+Node Types
 ==========
 
 .. toctree::

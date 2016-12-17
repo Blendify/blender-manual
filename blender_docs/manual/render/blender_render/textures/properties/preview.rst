@@ -13,9 +13,9 @@ The texture preview panel provides a quick pre-visualization of how the texture 
 own, without mapping.
 
 Preview
-   Choose to display only the flat texture, 
+   Choose to display only the flat texture,
    only the material :doc:`/render/blender_render/materials/properties/preview`, or both side-by-side.
-   
+
    Texture, Material/World, Both
 Show Alpha
    Show alpha in preview:

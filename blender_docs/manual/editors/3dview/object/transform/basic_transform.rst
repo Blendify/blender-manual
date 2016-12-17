@@ -53,7 +53,7 @@ Rotate
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, Object etc)
-around one or more axes or the element's 
+around one or more axes or the element's
 :doc:`Pivot Point </editors/3dview/object/transform/transform_control/pivot_point/index>`.
 
 The amount of rotation will be displayed in the footer of the 3D View editor.
@@ -137,7 +137,7 @@ Operator Panel
 --------------
 
 In the case of the 3D View, there is the possibility to tweak the operation once accepted,
-using the specific Operator panel corresponding to the tool. 
+using the specific Operator panel corresponding to the tool.
 
 Value
    The amount of the transformation.

@@ -66,7 +66,7 @@ Default Screens
 Save and Override
 =================
 
-The screen layouts are saved in the blend-file. 
+The screen layouts are saved in the blend-file.
 When you open a file, enabling the *Load UI* in the file browser indicates that Blender should
 use the file's screen layouts and overriding the current layout.
 See :ref:`Load UI <file-load-ui>`.

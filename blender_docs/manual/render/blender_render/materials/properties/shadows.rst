@@ -81,7 +81,7 @@ Cast Only
 Casting Alpha
    Sets the Alpha of shadow casting. Used for irregular and deep shadow buffering.
 Shadows Only
-   Renders shadows as materials alpha value, making materials transparent, 
+   Renders shadows as materials alpha value, making materials transparent,
    except for areas where it receives shadows from other objects,
    and also it retains its own transparency (Fig. :ref:`fig-bi-material-shadow-only`).
    Note the faint image of the partly-transparent post.

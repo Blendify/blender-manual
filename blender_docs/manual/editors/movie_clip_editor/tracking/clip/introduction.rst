@@ -12,7 +12,7 @@ It should be mentioned that the camera solver consists of three quite separate s
 #. Camera intrinsics (focal length, distortion coefficients) specification/estimation/calibration.
 #. Solving camera, scene orientation, and scene reconstruction.
 
-Tools in the clip editor are split depending on which step they are used in, 
+Tools in the clip editor are split depending on which step they are used in,
 so the interface is not cluttered up with scene orientation tools when only 2D tracking can be done.
 The currently displayed tool category can be changed using the Mode menu,
 which is in the editor header.

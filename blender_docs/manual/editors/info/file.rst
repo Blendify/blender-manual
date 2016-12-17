@@ -31,8 +31,8 @@ Save User Settings :kbd:`Ctrl-U`
 Load Factory Settings
    Restores the default startup-file as :ref:`factory settings <factory-settings>`.
 Link :kbd:`Ctrl-Alt-O`
-   Links data from an external blend-file (library) to the current scene. 
-   The edition of that data is only possible in the external library. 
+   Links data from an external blend-file (library) to the current scene.
+   The edition of that data is only possible in the external library.
    *Link* and *Append* is used to load in only selected parts from another file.
    See :doc:`Linked Libraries </data_system/linked_libraries>`.
 Append :kbd:`Shift-F1`
@@ -67,11 +67,11 @@ External Data
       After selecting this option a warning message will appear in the Info editors header.
       If no warning is shown, there are no missing external files.
    Find Missing Files
-      In case we have broken links in our blend file, this option will help us fix the problem. 
-      A File Browser will show up. Select the desired directory (or a file within that directory), 
-      and a search will be performed in it, recursively in all contained directories. 
-      Every missing file found in the search will be recovered. 
-      Those recoveries will be done as absolute paths, 
+      In case we have broken links in our blend file, this option will help us fix the problem.
+      A File Browser will show up. Select the desired directory (or a file within that directory),
+      and a search will be performed in it, recursively in all contained directories.
+      Every missing file found in the search will be recovered.
+      Those recoveries will be done as absolute paths,
       so if you want to have relative paths you will need to select *Make All Paths Relative*.
 
       .. note::

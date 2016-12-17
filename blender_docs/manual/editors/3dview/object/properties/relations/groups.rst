@@ -72,8 +72,8 @@ New ``+``
 Name
    To rename a group, simply click in the groups name field.
 Remove ``X``
-   To remove an object from a group, 
-   Find the name of the group from which you wish to remove the object,
+   To remove an object from a group,
+   find the name of the group from which you wish to remove the object,
    and click the ``X`` to the right of the group name.
 Specials
    Unlink Group, Select Group, Set Offset From Cursor

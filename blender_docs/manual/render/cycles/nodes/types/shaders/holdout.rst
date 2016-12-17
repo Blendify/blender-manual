@@ -5,7 +5,7 @@ Holdout Node
 
 .. figure:: /images/render_cycles_nodes_shaders_holdout.png
    :align: right
- 
+
    Holdout Node.
 
 

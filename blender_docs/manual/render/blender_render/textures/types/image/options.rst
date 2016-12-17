@@ -10,7 +10,7 @@ Image
 In the *Image* panel we tell Blender which source file to use.
 
 Image
-   The Image :ref:`ui-data-block`. For the options see :doc:`/editors/uv_image/image/image_settings`. 
+   The Image :ref:`ui-data-block`. For the options see :doc:`/editors/uv_image/image/image_settings`.
 
 
 Image Sampling

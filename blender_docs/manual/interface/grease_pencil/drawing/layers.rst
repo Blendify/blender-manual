@@ -50,15 +50,12 @@ Layer List
 
 Duplicate Layer
    Creates a copy of the current layer.
-
 Show All
-   Makes all hidden layers visible  
+   Makes all hidden layers visible.
 Hide Others
    Makes all non selected layers hidden.
-
 Lock/Unlock All
    Locks/Unlocks all of the layers. This can be useful to prevent unwanted editing.
-
 Merge Down
    Merges the current layer with the layer below it.
 

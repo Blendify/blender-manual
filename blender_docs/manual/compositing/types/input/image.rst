@@ -22,7 +22,7 @@ Properties
 
 Image
    Selection of different types of media. For controls see :ref:`ui-data-block`.
-   For the options see :doc:`/editors/uv_image/image/image_settings`. 
+   For the options see :doc:`/editors/uv_image/image/image_settings`.
 
 .. note::
 

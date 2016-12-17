@@ -28,7 +28,8 @@ Action Extrapolation
    Hold Forward
       Affects the region after the clip, only.
    Nothing
-      Neither. 
+      Neither.
+
 Action Blending
    Affects the behavior when two tracks simultaneously have a curve affecting the same property.
 
@@ -77,7 +78,7 @@ Blend Out
 Muted
    Mute a single strip (like muting the track, above). Causes the track outline to be dashed.
 Reversed
-   Cause this strip to be played completely backwards. 
+   Cause this strip to be played completely backwards.
 
 
 Action Clip

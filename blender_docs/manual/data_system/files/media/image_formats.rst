@@ -180,7 +180,7 @@ Available options for OpenEXR render output are:
 Color Depth
    Saves images in a custom 16 bits per channel floating point format.
    This reduces the actual "bit depth" to 10 bits, with a 5 bits power value and 1 bit sign.
-   
+
    Float (Half), Float (Full)
 Codec
    ``PIZ``

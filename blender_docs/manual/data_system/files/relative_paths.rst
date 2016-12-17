@@ -20,7 +20,7 @@ When relative paths are supported, the File Browser provides a *Relative Path* c
 when entering the path into a text field, use a double slash prefix (``//``) to make it so.
 
 Relative paths are the default but this can be changed in the
-:doc:`File </preferences/file>` Tab 
+:doc:`File </preferences/file>` tab
 of the User Preferences Editor.
 
 .. note::

@@ -240,7 +240,7 @@ and the Gimp working on the texture, using the saved layout as a guide.
 Note that targa format supports the Alpha channel,
 so you can paint transparent areas of the mesh.
 
-For using images as textures, see the page on 
+For using images as textures, see the page on
 :doc:`Image Textures </render/blender_render/textures/types/image/index>`.
 
 

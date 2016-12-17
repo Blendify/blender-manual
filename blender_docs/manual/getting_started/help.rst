@@ -91,7 +91,7 @@ Blender Store
    The `Blender Store <https://store.blender.org/>`__ , where you can buy
    Training DVD's, books, t-shirts and other products.
 Developer Community
-   The *blender.org* `Get Involved <https://www.blender.org/get-involved/>`__ page. 
+   The *blender.org* `Get Involved <https://www.blender.org/get-involved/>`__ page.
    This is the launch page for Blender software development, bug tracking, patches and scripts,
    education and training, documentation development and functionality research.
 User Community
@@ -110,7 +110,7 @@ Scripting Reference
 -------------------
 
 Python API Reference
-  Python application programming interface (API) 
+  Python application programming interface (API)
   `Reference <https://www.blender.org/api/blender_python_api_current/>`__.
 Operator Cheat Sheet
    Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.

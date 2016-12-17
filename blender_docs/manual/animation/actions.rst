@@ -34,7 +34,7 @@ F-Curves
 Keyframes
     :doc:`Keyframes </animation/keyframes/introduction>` are used to
     set the values of properties bind to a point in time.
- 
+
 .. The hierarchy is created with the RNA data paths,
 
 

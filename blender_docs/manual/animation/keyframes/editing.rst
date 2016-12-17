@@ -18,7 +18,7 @@ Insert Keyframes
 There are several methods of adding new keys. Namely:
 
 - In the 3D View, pressing :kbd:`I` will bring up a menu to choose what to add a keyframe to.
-- Hovering over a property and pressing :kbd:`I` or 
+- Hovering over a property and pressing :kbd:`I` or
   with the context menu by :kbd:`RMB` a property and
   choose *Insert Keyframe* from the menu.
 

@@ -35,7 +35,7 @@ Topology Mirror
 
 When using the *X Mirror* option to work on mirrored Mesh Geometry the vertices that
 are mirrored must be perfectly placed. If they are not exactly positioned in their mirror
-locations then *X Mirror* will not treat those vertices as mirrored. 
+locations then *X Mirror* will not treat those vertices as mirrored.
 
 *Topology Mirror* tries to address this problem by determining which vertices are mirrored vertices not only by
 using their positions but also by looking at how those vertices are related to others in the Mesh Geometry.

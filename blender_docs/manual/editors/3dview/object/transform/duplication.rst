@@ -84,7 +84,7 @@ Linked
    you will have to manually make the object a "single-user" copy by :kbd:`LMB`
    the number in the *Object Data* panel of the Properties editor. (See :ref:`ui-data-block`.)
 
-.. seealso:: 
+.. seealso::
 
    :ref:`data-system-datablock-make-single-user` for unlinking data-blocks.
 

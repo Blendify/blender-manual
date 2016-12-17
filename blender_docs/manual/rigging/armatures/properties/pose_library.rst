@@ -15,7 +15,7 @@ Action
    A :ref:`ui-data-block` for Actions or Pose Libraries.
 Pose Libraries
    A :ref:`ui-list-view` of poses for the active Pose Library.
-   
+
    Add ``+``
       If a pose is added a :ref:`pose marker <marker-pose-add>` is created.
 

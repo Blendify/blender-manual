@@ -41,7 +41,7 @@ Type
             Splits the curve until the tolerance is met (gives better drawing performance).
 
       Detect Corners
-         Detects corners and uses non-aligned handles for them. 
+         Detects corners and uses non-aligned handles for them.
 
          Corner Angle
             Any angles above this are considered corners.

@@ -194,7 +194,6 @@ Fresnel
    * - .. figure:: /images/material-raytrace_transp-fresnelexampel.jpg
           :width: 320px
 
-          
           With ray-traced transparency.
 
      - .. figure:: /images/material-raytrace_transp-fresnelexampelztransp.jpg
@@ -202,7 +201,7 @@ Fresnel
 
           With alpha buffered transparency.
 
-.. list-table:: 
+.. list-table::
 
    * - .. figure:: /images/material-raytrace_transp-fresnelsettings.png
           :width: 320px
