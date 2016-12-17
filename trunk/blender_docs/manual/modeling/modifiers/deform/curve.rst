@@ -19,7 +19,7 @@ Options
 
 .. figure:: /images/modifier-curve.jpg
 
-   Curve modifier.
+   Curve Modifier.
 
 
 Object
@@ -57,7 +57,7 @@ Let us make a simple example:
 
 .. figure:: /images/modifier-curve.jpg
 
-   Assign the Bézier curve to the Curve modifier (for Monkey).
+   Assign the Bézier curve to the Curve Modifier (for Monkey).
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve3.png
    :width: 200px
@@ -80,5 +80,5 @@ Let us make a simple example:
 
 - In the image above you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation, a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
-  modifier with two subdivision levels was applied,
+  Modifier with two subdivision levels was applied,
   and :doc:`smooth </modeling/meshes/editing/smoothing>` shading was used.

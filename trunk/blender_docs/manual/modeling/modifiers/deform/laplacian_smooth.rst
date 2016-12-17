@@ -3,7 +3,7 @@
 Laplacian Smooth Modifier
 *************************
 
-The Laplacian Smooth modifier allows you to reduce noise on a mesh's surface with minimal changes to its shape.
+The Laplacian Smooth Modifier allows you to reduce noise on a mesh's surface with minimal changes to its shape.
 
 It can also exaggerate the shape using a negative *Factor*.
 
@@ -11,7 +11,7 @@ The Laplacian Smooth is useful for objects that have been reconstructed from the
 real world and contain undesirable noise. It removes noise while still
 preserving desirable geometry as well as the shape of the original model.
 
-The Laplacian Smooth modifier is based on a curvature flow Laplace Beltrami operator in a diffusion equation.
+The Laplacian Smooth Modifier is based on a curvature flow Laplace Beltrami operator in a diffusion equation.
 
 
 Options
@@ -19,7 +19,7 @@ Options
 
 .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_panel.png
 
-   Laplacian Smooth modifier.
+   Laplacian Smooth Modifier.
 
 
 Repeat

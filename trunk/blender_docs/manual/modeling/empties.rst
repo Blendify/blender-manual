@@ -75,7 +75,7 @@ a rig can easily be set up to enable a camera to point towards an empty using th
 
 .. rubric:: Array offset
 
-An empty can be used to offset an array modifier,
+An empty can be used to offset an Array Modifier,
 meaning complex deformations can be achieved by only moving a single object.
 
 .. list-table::

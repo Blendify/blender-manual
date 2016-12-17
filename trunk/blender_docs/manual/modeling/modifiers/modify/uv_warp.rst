@@ -3,7 +3,7 @@
 UV Warp Modifier
 ****************
 
-The *UV Warp* modifier uses two objects to define a transformation which is applied to the chosen UV coordinates.
+The UV Warp Modifier uses two objects to define a transformation which is applied to the chosen UV coordinates.
 
 Its purpose is to give you direct control over the object's UVs in the 3D View,
 allowing you to directly translate, rotate and scale existing UV coordinates using controller objects or bones.

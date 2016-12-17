@@ -75,7 +75,7 @@ Generate
 .. figure:: /images/bge_level-of-detail-generation.jpg
 
 This tool generates and sets up levels of details based on the selected object.
-Generation is done using the decimate modifier.
+Generation is done using the Decimate Modifier.
 Generation does not apply the modifier to allow further changing the settings.
 Generated objects are automatically named based on the level they are generated for.
 Below are some settings for the operator.
@@ -83,7 +83,7 @@ Below are some settings for the operator.
 Count
    The number of levels desired after generation. This operator creates Count-1 new objects.
 Target Size
-   The ratio setting for the decimate modifier on the last level of detail.
+   The ratio setting for the Decimate Modifier on the last level of detail.
    The ratio settings for the other levels are determined by linear interpolation.
 Package into Group
    With this setting enabled the operator performs some extra tasks

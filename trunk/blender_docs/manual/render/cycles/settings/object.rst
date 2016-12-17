@@ -25,7 +25,7 @@ These previously mentioned settings get removed/renamed and the following settin
 .. figure:: /images/cycles_materials_displacement_mod.png
    :align: right
 
-   Subdivision Surface modifier.
+   Subdivision Surface Modifier.
 
 .. rubric:: Preview
 

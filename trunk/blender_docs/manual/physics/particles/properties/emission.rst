@@ -94,12 +94,12 @@ Grid
 
 .. tip:: Your mesh must be :term:`manifold` to emit particles from the volume.
 
-   Some modifiers like *Edge Split* break up the surface,
+   Some modifiers like the Edge Split Modifier break up the surface,
    in which case volume emission will not work correctly!
 
 Use Modifier Stack
-   Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the particle modifier in the
-   :ref:`Modifier Stack <modifier-stack>` into account when emitting particles.
+   Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier in the
+   :ref:`modifier stack <modifier-stack>` into account when emitting particles.
 
    .. note::
 

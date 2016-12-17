@@ -6,7 +6,7 @@ Shrinkwrap Constraint
 *********************
 
 The *Shrinkwrap* constraint is the "object counterpart" of the
-:doc:`Shrinkwrap modifier </modeling/modifiers/deform/shrinkwrap>`.
+:doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>`.
 It moves the owner origin and therefore the owner object's location to the surface of its target.
 
 This implies that the target *must* have a surface. In fact,

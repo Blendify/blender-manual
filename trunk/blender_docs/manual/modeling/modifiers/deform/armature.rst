@@ -4,7 +4,7 @@
 Armature Modifier
 *****************
 
-The *Armature* modifier is used for building skeletal systems for animating the
+The Armature Modifier is used for building skeletal systems for animating the
 poses of characters and anything else which needs to be posed.
 
 By adding an armature system to an object,
@@ -19,7 +19,7 @@ Options
 
 .. figure:: /images/modifier-armature.png
 
-   Armature modifier.
+   Armature Modifier.
 
 Object
    The name of the armature object used by this modifier.
@@ -27,7 +27,7 @@ Preserve Volume
    Use quaternions for preserving volume of object during deformation. It can be better in many situations.
 Vertex Group
    The name of a vertex group of the object, the weights of which will be used to determine the influence of this
-   *Armature* modifier's result when mixing it with the results from other *Armature* ones.
+   Armature Modifier's result when mixing it with the results from other *Armature* ones.
 
    Only meaningful when having at least two of these modifiers on the same object,
    with *Multi Modifier* activated.
@@ -39,11 +39,11 @@ Vertex Group
 .. _modifier-armature-multi-modifier:
 
 Multi Modifier
-   Use the same data as a previous modifier (usually also an *Armature* modifier) as input.
+   Use the same data as a previous modifier (usually also an Armature Modifier) as input.
    This allows you to use several armatures to deform the same object, all based on the "non-deformed" data
-   (i.e. this avoids having the second *Armature* modifier deform the result of the first one...).
+   (i.e. this avoids having the second Armature Modifier deform the result of the first one...).
 
-   The results of the *Armature* modifiers are then mixed together, using the weights of the
+   The results of the Armature Modifiers are then mixed together, using the weights of the
    *Vertex Group* as "mixing guides".
 Bind To
    Method to bind the armature to the mesh.
@@ -58,5 +58,5 @@ Bind To
 
 .. tip::
 
-   Armature modifiers can quickly be added to objects using the parenting shortcut
+   Armature Modifiers can quickly be added to objects using the parenting shortcut
    :kbd:`Ctrl-P` when the active object is an armature.

@@ -16,7 +16,7 @@ Decimate Geometry
    | Menu:     :menuselection:`Mesh --> Clean up --> Decimate Geometry`
 
 
-The Decimate modifier allows you to reduce the vertex/face count of a mesh with minimal shape changes.
+The Decimate Modifier allows you to reduce the vertex/face count of a mesh with minimal shape changes.
 
 Ratio
    Ratio of triangles to reduce to.

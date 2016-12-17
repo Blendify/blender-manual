@@ -22,7 +22,7 @@ it will be transformed accordingly, through a symmetry along the local X axis.
 
    The conditions for *X-Mirror* to work are quite strict, which can make it difficult to use.
    To have an exact mirrored version of a (half) mesh,
-   its easier and simpler to use the :doc:`Mirror modifier </modeling/modifiers/generate/mirror>`
+   its easier and simpler to use the :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`
 
 
 Topology Mirror
@@ -77,11 +77,11 @@ Edge Select Mode
       Seam
          Marks all edges in the path as seams for UV unwrapping.
       Sharp
-         Marks all edges in the path as sharp for the edge split modifier.
+         Marks all edges in the path as sharp for the Edge Split Modifier.
       Crease
-         Marks all edges in the path as creases for the subdivision surface modifier, with weight 1.0.
+         Marks all edges in the path as creases for the Subdivision Surface Modifier, with weight 1.0.
       Bevel
-         Gives bevel weight 1.0 (for the bevel modifier) to all edges in the path.
+         Gives bevel weight 1.0 (for the Bevel Modifier) to all edges in the path.
 
 Live Unwrap
    If *Live Unwrap* is checked, every time an edge has its seam property changed,

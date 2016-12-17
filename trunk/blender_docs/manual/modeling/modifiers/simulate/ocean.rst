@@ -56,7 +56,7 @@ Resolution
 
    .. note::
 
-      When using the 'Generate' modifier geometry option,
+      When using the Generate Modifier geometry option,
       this resolution value also determines the resolution of the generated mesh surface,
       equal to the resolution of the internal simulation data.
 
@@ -65,7 +65,8 @@ Size
 Spatial Size
    The width of the ocean surface area being simulated, in meters.
    This also determines the size of the generated mesh, or the displaced area, in Blender units.
-   Of course you can scale the object with ocean modifier in object mode to tweak the apparent size in your scene.
+   Of course you can scale the object with Ocean Modifier in *Object Mode*
+   to tweak the apparent size in your scene.
 
 
 Wave
@@ -125,7 +126,7 @@ Coverage
    (leaving only the topmost peaks), positive values will add it. Typically ranges from (-1.0 to 1.0)
 Foam Data Layer Name
    Optional name for the vertex data layer,
-   used by the Ocean modifier to store foam maps as vertex colors.
+   used by the Ocean Modifier to store foam maps as vertex colors.
    This is required for accessing the foam data in the renderer.
 
 
@@ -146,13 +147,13 @@ Baking can be advantageous for a few reasons:
 Data Files
 ----------
 
-Simulation data is stored in disk as sequences of OpenEXR image maps, one for each of displacement,
+Simulation data is stored in disk as sequences of ``OpenEXR`` image maps, one for each of displacement,
 normal and foam (if enabled to be generated). Upon loading the data from these baked files,
 when a frame of the bake sequence is read from disk, it is cached in memory.
 This means that accessing loaded frames subsequent times is fast,
 not incurring the overhead of disk access.
 
-Since these baked files are plain OpenEXRs,
+Since these baked files are plain ``OpenEXR``\ s,
 they can also be opened and rendered in any other application or renderer that supports them.
 
 

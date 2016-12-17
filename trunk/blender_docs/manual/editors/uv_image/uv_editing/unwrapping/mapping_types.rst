@@ -90,8 +90,8 @@ Fill Holes
 Correct Aspect
    Map UVs taking image aspect into account.
 
-Use Subsurf Modifier
-   Map UVs taking vertex position after subsurf modifier into account.
+Use Subdivision Surface Modifier
+   Map UVs taking vertex position after Subdivision Surface Modifier into account.
 
 Margin
    Space between UV islands.

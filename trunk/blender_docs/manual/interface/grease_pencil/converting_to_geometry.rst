@@ -42,7 +42,7 @@ Normalize Weight
    All this means that with a pressure tablet,
    you can directly control the radius and weight of the created curve, which can affect e.g.
    the width of an extrusion, or the size of an object through a *Follow Path*
-   constraint or *Curve* modifier!
+   Constraint or *Curve* Modifier!
 
 Link Strokes
    Will create a single spline, i.e. curve element. (enabled by default)

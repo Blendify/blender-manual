@@ -4,7 +4,7 @@
 Wave Modifier
 *************
 
-The Wave modifier adds a ripple-like motion to an object's geometry.
+The Wave Modifier adds a ripple-like motion to an object's geometry.
 
 This modifier is available for meshes, lattices, curves,
 surfaces and texts, with one restriction for non-mesh objects:
@@ -34,7 +34,7 @@ Options
 
 .. figure:: /images/modifier-wave.png
 
-   Wave modifier.
+   Wave Modifier.
 
 
 Motion

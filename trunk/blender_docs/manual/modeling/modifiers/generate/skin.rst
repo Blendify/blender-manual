@@ -3,7 +3,7 @@
 Skin Modifier
 *************
 
-The Skin modifier uses vertices and edges to create a skinned surface,
+The Skin Modifier uses vertices and edges to create a skinned surface,
 using a per-vertex radius to better define the shape.
 The output is mostly quads, although some triangles will appear around intersections.
 
@@ -12,7 +12,7 @@ arbitrary topology.
 
 .. note::
 
-   Faces in the original geometry are ignored by the Skin modifier.
+   Faces in the original geometry are ignored by the Skin Modifier.
 
 Options
 =======
@@ -20,7 +20,7 @@ Options
 .. figure:: /images/skin-ui.jpg
    :width: 300px
 
-   Skin modifier UI.
+   Skin Modifier.
 
 
 Create Armature
@@ -36,11 +36,11 @@ Create Armature
 
    #. A new armature object is added with bones matching the input mesh.
       The active selection is switched to the new armature.
-   #. Weight groups are added to the input mesh. The Skin modifier propagates these weights to the output as well.
-   #. An Armature modifier is added directly below the Skin modifier.
-      Note that the Armature modifier is being applied after the
-      Skin modifier because it should only deform the output,
-      whereas if it were above the Skin modifier it might change the resulting topology.
+   #. Weight groups are added to the input mesh. The Skin Modifier propagates these weights to the output as well.
+   #. An Armature Modifier is added directly below the Skin Modifier.
+      Note that the Armature Modifier is being applied after the
+      Skin Modifier because it should only deform the output,
+      whereas if it were above the Skin Modifier it might change the resulting topology.
 
 Branch Smoothing
    A branch point is a vertex with three or more connected edges.
@@ -76,19 +76,19 @@ Symmetry Axes
    .. note::
 
       These symmetry axes checkboxes do not add geometry flipped across an axis.
-      For that, the Mirror modifier should be used, typically placed above the Skin modifier.
+      For that, the Mirror Modifier should be used, typically placed above the Skin Modifier.
 
 Usage
 =====
 
-Add the Skin modifier to a mesh. Disable *Limit selection to visible* in the 3D View so that you can see
+Add the Skin Modifier to a mesh. Disable *Limit selection to visible* in the 3D View so that you can see
 the vertices inside the new geometry.
 
-The skin modifier uses ordinary vertices and edges as input.
+The Skin Modifier uses ordinary vertices and edges as input.
 All of the regular Edit Mode tools (such as extrude, subdivide, grab, scale, and rotate) can be used when building
 a skinned mesh.
 
-The radius of selected vertices can be adjusted in the *Transform* panel of the *Properties* region :kbd:`N`
+The radius of selected vertices can be adjusted in the *Transform* panel of the *Properties* region.
 
 
 Examples
@@ -98,10 +98,10 @@ Examples
 
 .. figure:: /images/modeling_modifiers_generate_skin_example.png
 
-   Simple creature, made with only the Skin modifier.
+   Simple creature, made with only the Skin Modifier.
 
 
-- In the modifiers menu, add a *Skin* modifier.
+- In the *modifiers* menu, add a Skin Modifier.
 - :kbd:`Tab` into edit mode and start extruding.
 - Try to sketch results similar to Fig. :ref:`fig-modifier-skin-creature`,
   through extruding the vertices of the object.
@@ -116,7 +116,7 @@ External links
 
 - `Skin Modifier Development at Blender Nation
   <http://www.blendernation.com/2011/03/11/skin-modifier-development/>`__ --
-  An early demonstration of the skin modifier by Nicholas Bishop (March 2011).
+  An early demonstration of the Skin Modifier by Nicholas Bishop (March 2011).
 - Ji, Zhongping; Liu, Ligang; Wang, Yigang (2010).
   `B-Mesh: A Fast Modeling System for Base Meshes of 3D Articulated Shapes
   <http://www.math.zju.edu.cn/ligangliu/CAGD/Projects/BMesh/>`__,

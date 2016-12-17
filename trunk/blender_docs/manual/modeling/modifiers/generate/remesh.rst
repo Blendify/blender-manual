@@ -13,7 +13,7 @@ Options
 =======
 
 Mode
-   There are three basic modes available in the remesh modifier: Blocks, Smooth and Sharp.
+   There are three basic modes available in the Remesh Modifier: Blocks, Smooth and Sharp.
 
    .. figure:: /images/modifier-remesh-mode-cone-example.png
 
@@ -61,16 +61,16 @@ Remove Disconnected Pieces
    .. figure:: /images/modifier-remesh-remove-disconnected-example.png
 
       The input mesh (left) is fairly noisy,
-      so the initial output of the remesh modifier (center) contains small disconnected pieces.
+      so the initial output of the Remesh Modifier (center) contains small disconnected pieces.
       Enabling Remove Disconnected Pieces (right) deletes those faces.
 
 
 Usage
 =====
 
-In the modifier panel, add a Remesh modifier.
+In the Modifier panel, add a Remesh Modifier.
 The input mesh should have some thickness to it; if the input is completely flat,
-add a :doc:`solidify modifier </modeling/modifiers/generate/solidify>` above the remesh modifier.
+add a :doc:`Solidify Modifier </modeling/modifiers/generate/solidify>` above the Remesh Modifier.
 
 
 Examples
@@ -78,7 +78,7 @@ Examples
 
 .. figure:: /images/modifier-remesh-text-00.png
 
-   Remesh modifier applied to text to improve topology.
+   Remesh Modifier applied to text to improve topology.
 
 .. youtube:: Mh-gUnS2c0Y
 

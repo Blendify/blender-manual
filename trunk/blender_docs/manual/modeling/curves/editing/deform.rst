@@ -31,7 +31,7 @@ to make it control the size of the "curved" object...).
 .. note:: Use modifiers!
 
    The *Curve Deform* relationship is now also a modifier, called :doc:`Curve </modeling/modifiers/deform/curve>`.
-   The *Curve* modifier function acts the same as its counterpart,
+   The *Curve* Modifier function acts the same as its counterpart,
    except that when the modifier is used, the "dominant axis" is set inside its properties --
    and the *Track* X, Y, Z buttons no longer have an effect on it.
    And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups...
@@ -105,8 +105,8 @@ Let us make a simple example:
 - Now, you can use the new, modern, modifier way of "curving" the Monkey:
 
   - Select the Monkey :kbd:`RMB`.
-  - In the *Object Modifiers* properties, *Modifiers* panel, add a *Curve* modifier.
-  - Type the name of the curve (should be "Curve") in the *Ob* field of the modifier,
+  - In the *Object Modifiers* properties, *Modifiers* panel, add a Curve Modifier.
+  - Type the name of the curve (should be "Curve") in the *Object* field of the modifier,
     and optionally change the dominant axis to Y.
 - Or you can choose the old, deprecated method (note that it creates a "virtual" modifier...):
 

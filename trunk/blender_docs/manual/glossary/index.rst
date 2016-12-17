@@ -102,7 +102,7 @@ This page lists definitions for terms used in Blender and this manual.
    Boolean
       A type of logic dealing with binary true/false states.
 
-      See also :doc:`boolean modifier </modeling/modifiers/generate/booleans>`.
+      See also :doc:`Boolean Modifier </modeling/modifiers/generate/booleans>`.
 
    Bounce
       Refers to the reflection or transmission of a light ray upon interaction with a material.

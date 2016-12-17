@@ -20,14 +20,14 @@ That is what we will cover in the next two sections about pinning and colliding.
 Using Simulation to Shape/Sculpt a Mesh
 =======================================
 
-You can *Apply* the *Cloth* modifier at any point to freeze the mesh in
+You can *Apply* the Cloth Modifier at any point to freeze the mesh in
 position at that frame. You can then re-enable the cloth,
 setting the start and end frames from which to run the simulation forward.
 
 Another example of aging is a flag.
 Define the flag as a simple grid shape and pin the edge against the flagpole.
 Simulate for 50 frames or so, and the flag will drop to its "rest" position.
-Apply the *Cloth* modifier.
+Apply the *Cloth* Modifier.
 If you want the flag to flap or otherwise move in the scene,
 re-enable it for the frame range when it is in camera view.
 
@@ -37,7 +37,7 @@ Smoothing of Cloth
 
 Now, if you followed this from the previous section, your cloth is probably looking a little blocky.
 In order to make it look nice and smooth like the picture you need to apply a
-*Smooth* and/or *Subdivision Surface* modifier in the *Modifiers* tab. Then, in the same editor,
+Smooth and/or Subdivision Surface Modifier in the *Modifiers* tab. Then, in the same editor,
 find the *Links and Materials* panel (the same one you used for vertex groups) and press *Set Smooth*.
 
 Now, if you press :kbd:`Alt-A`, things are starting to look pretty nice, do not you think?

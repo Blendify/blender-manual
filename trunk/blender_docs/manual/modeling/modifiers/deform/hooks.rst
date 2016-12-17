@@ -3,7 +3,7 @@
 Hook Modifier
 *************
 
-The Hook modifier is used to deform a *Mesh*, *Curve* a *Lattice* using another object
+The Hook Modifier is used to deform a *Mesh*, *Curve* a *Lattice* using another object
 (usually an *Empty* or a *Bone* but it can be any object).
 
 As the hook moves, it pulls vertices from the mesh with it.
@@ -23,7 +23,7 @@ Options
 
 .. figure:: /images/modifier-hook.jpg
 
-   Hook modifier.
+   Hook Modifier.
 
 
 Object
@@ -62,6 +62,6 @@ Assign
 .. note::
 
    The Hook Modifier stores vertex indices from the original mesh to determine what to effect;
-   this means that modifiers that generate geometry, like a Subdivision Surface modifier,
-   should always be applied **after** the hook modifier;
+   this means that modifiers that generate geometry, like a Subdivision Surface Modifier,
+   should always be applied **after** the Hook Modifier;
    otherwise the generated geometry will be left out of the hook's influence.

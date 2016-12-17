@@ -3,7 +3,7 @@
 Displace Modifier
 *****************
 
-The Displace modifier displaces vertices in a mesh based on the intensity of a texture.
+The Displace Modifier displaces vertices in a mesh based on the intensity of a texture.
 Either procedural or image textures can be used.
 The displacement can be along a particular local axis, along the vertex normal,
 or the separate RGB components of the texture can be used to displace vertices in the local X,

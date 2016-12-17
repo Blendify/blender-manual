@@ -100,7 +100,7 @@ Remove Doubles
 
 Remove Doubles is a useful tool to simplify a mesh by merging the selected vertices that
 are closer than a specified distance to each other.
-An alternate way to simplify a mesh is to use the :doc:`Decimate modifier </modeling/modifiers/generate/decimate>`.
+An alternate way to simplify a mesh is to use the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
 
 Merge Distance
    Sets the distance threshold for merging vertices, in Blender units.
@@ -445,7 +445,7 @@ this action cannot be undone in *Edit Mode* -- because it involves other objects
 When the current object has no hooks associated, only the 2 first options will appear on the menu.
 
 Hook to New Object
-   Creates a new hook modifier for the active object and assigns it to the selected vertices;
+   Creates a new Hook Modifier for the active object and assigns it to the selected vertices;
    it also creates an empty at the center of those vertices, which are hooked to it.
 Hook to Selected Object
    Does the same as *Hook to New Object*, but instead of hooking the vertices to a new empty,
@@ -461,13 +461,13 @@ Assign to Hook
    One vertex can be assigned to more than one hook.
 Remove Hook
    Removes the chosen hook (from the displayed list) from the object:
-   the specific hook modifier is removed from the modifier stack.
+   the specific Hook Modifier is removed from the modifier stack.
 Select Hook
    Selects all vertices assigned to the chosen hook (from the hook list).
 Reset Hook
-   It's equivalent to the *Reset* button of the specific hook modifier (chosen from the hook list).
+   It's equivalent to the *Reset* button of the specific Hook Modifier (chosen from the hook list).
 Recenter Hook
-   It's equivalent to the *Recenter* button of the specific hook modifier (chosen from the hook list).
+   It's equivalent to the *Recenter* button of the specific Hook Modifier (chosen from the hook list).
 
 
 .. _modeling-meshes-editing-vertices-shape-keys:

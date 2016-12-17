@@ -279,7 +279,7 @@ Surface
 
    Subdivisions
       Allows the creation of high-res surface meshes directly during the simulation
-      (as opposed to doing it afterwards like a subdivision modifier).
+      (as opposed to doing it afterwards like a Subdivision Surface Modifier).
       A value of 1 means no subdivision, and each increase results in one further subdivision of each fluid voxel.
       The resulting meshes thus quickly become large, and can require large amounts of disk space.
       Be careful in combination with large smoothing values --

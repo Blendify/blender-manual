@@ -3,14 +3,14 @@
 Mask Modifier
 *************
 
-The Mask modifier allows vertices of an object to be hidden dynamically based on vertex groups.
+The Mask Modifier allows vertices of an object to be hidden dynamically based on vertex groups.
 
 
 Options
 =======
 
 Mode
-   The Mask modifier can hide parts of a mesh based on two different modes, selectable from this select menu.
+   The Mask Modifier can hide parts of a mesh based on two different modes, selectable from this select menu.
 
    Vertex Group
       When the *Vertex Group* option is selected,

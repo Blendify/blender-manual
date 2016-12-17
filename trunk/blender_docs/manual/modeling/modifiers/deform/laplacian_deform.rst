@@ -3,7 +3,7 @@
 Laplacian Deform Modifier
 *************************
 
-The Laplacian Deform modifier allows you to pose a mesh while preserving geometric
+The Laplacian Deform Modifier allows you to pose a mesh while preserving geometric
 details of the surface.
 
 
@@ -19,7 +19,7 @@ of a vertex based on its neighbors.
 
 .. note::
 
-   You must define a *Anchors Vertex Group*. Without a vertex group modifier does nothing.
+   You must define a *Anchors Vertex Group*. Without a Vertex Group Modifier does nothing.
 
 
 Options
@@ -27,7 +27,7 @@ Options
 
 .. figure:: /images/modeling_modifiers_deform_laplacian-deform_panel.png
 
-   Laplacian Deform modifier
+   Laplacian Deform Modifier
 
 
 Repeat
@@ -86,7 +86,7 @@ Anchors Vertex Group
    the method only takes into account vertices with weight greater than 0.
 
 Bind
-   The *Bind* button is what tells the Laplacian Deform modifier to actually capture the geometry details
+   The *Bind* button is what tells the Laplacian Deform Modifier to actually capture the geometry details
    of the object, so that altering the anchors vertices actually alters the shape of the deformed object.
 
 Unbind

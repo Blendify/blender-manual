@@ -73,7 +73,7 @@ Scene and Specific Objects
    Use that texture for that mesh, then disable shadows for that material.
 #. Simplify meshes (remove polygons). The more vertices you have in camera, the more time it takes to render.
 #. Remove Doubles, or use the Decimator mesh edit feature.
-#. Remove Subdivision Surface and Multires modifiers.
+#. Remove Subdivision Surface and Multiresolution modifiers.
 #. Delete backsides of meshes (removing unseen geometry).
 #. Render just a few objects at a time; in the beginning of your project,
    render the background objects and sets that will not change and will always be in the background.

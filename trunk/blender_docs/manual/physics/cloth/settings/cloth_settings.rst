@@ -73,7 +73,7 @@ The typical workflow for pinning:
   (you probably want weight = 1).
   For example the belt area of the tunic would be in the vertex group and have weight one.
 - Designate the clothing objects as "cloth" in the Physics tab of the Properties editor.
-  Make sure the *Cloth* modifier is below the *Armature* modifier in the modifier stack.
+  Make sure the Cloth Modifier is below the Armature Modifier in the modifier stack.
 - press the *Pinning of Cloth* button in the *Cloth* panel and select the vertex group.
 - Designate the character's mesh as "collision" object in the Physics tab of the Properties editor.
 - The clothing is now ready. Non-pinned vertices will be under control of the Cloth modifier.

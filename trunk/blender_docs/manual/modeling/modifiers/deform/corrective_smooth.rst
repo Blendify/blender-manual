@@ -5,7 +5,7 @@ Corrective Smooth
 
 This modifier is used to reduce highly distorted areas of a mesh by smoothing the deformations.
 
-This is typically useful *after* an armature modifier,
+This is typically useful *after* an Armature Modifier,
 where distortion around joints may be hard to avoid, even with careful weight painting.
 
 To use this modifier effectively, it is useful to understand the basics of how it works.
@@ -23,7 +23,7 @@ Options
 
 .. figure:: /images/modifier-corrective_smooth_ui.png
 
-   Corrective smooth modifier.
+   Corrective Smooth Modifier.
 
 
 The modifier also uses a *Rest* state, to use as a reference

@@ -54,6 +54,6 @@ Object Color
    See :doc:`Object Display panel </editors/3dview/object/properties/display>`.
 UV Project
    Use to ensure UV interpolation is correct for camera projections (use with
-   :doc:`UV project </modeling/modifiers/modify/uv_project>` modifier).
+   :doc:`UV Project Modifier</modeling/modifiers/modify/uv_project>`).
 Pass Index
    Index number for the Material Index render pass.

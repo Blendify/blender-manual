@@ -57,7 +57,7 @@ Combining Rigid Bodies with Other Simulations
 Since the rigid body simulation is part of the animation system, it can influence other simulations just like the
 animation system can.
 
-In order for this to work, the rigid body object needs to have a collision modifier.
+In order for this to work, the rigid body object needs to have a Collision Modifier.
 Simply click on *Collision* in the *Physics* tab.
 
 

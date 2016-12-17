@@ -3,7 +3,7 @@
 Edge Split Modifier
 *******************
 
-The Edge Split modifier splits edges within a mesh.
+The Edge Split Modifier splits edges within a mesh.
 The edges to split can be determined from the edge angle (i.e. angle between faces forming this edge),
 and/or edges marked as sharp.
 
@@ -15,7 +15,7 @@ where the user defines which edges should appear smooth or sharp
 (see :doc:`Mesh Smoothing </modeling/meshes/editing/smoothing>` for other ways to do this).
 If desired, both modes can be active at once.
 
-The output of the Edge Split modifier is available to export scripts,
+The output of the Edge Split Modifier is available to export scripts,
 making it quite useful for creators of game content.
 
 
@@ -24,7 +24,7 @@ Options
 
 .. figure:: /images/modeling_modifiers_generate_edge-split.png
 
-   Edge Split modifier.
+   Edge Split Modifier.
 
 
 Edge Angle

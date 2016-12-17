@@ -3,7 +3,7 @@
 Subdivision Surface Modifier
 ****************************
 
-*Subdivision Surface* modifier is used to subdivide the faces of a mesh to give a smooth appearance,
+Subdivision Surface Modifier is used to subdivide the faces of a mesh to give a smooth appearance,
 to enable modeling of complex smooth surfaces with simple, low-vertex meshes.
 This allows high resolution mesh modeling without the need to save and maintain huge amounts of data and gives
 a smooth *organic* look to the object.
@@ -12,7 +12,7 @@ This process creates virtual geometry that is generated non-destructively withou
 but it can be converted to real geometry that you could edit with the *Apply* button.
 
 Also, like the rest of the Modifiers, order of execution has an important bearing on the results.
-For this, see the documentation on the :ref:`Modifier Stack <modifier-stack>`.
+For this, see the documentation on the :ref:`modifier stack <modifier-stack>`.
 
 Keep in mind that this is a different operation than its companion,
 :doc:`Smooth Shading </modeling/meshes/editing/smoothing>`.
@@ -24,8 +24,8 @@ You can see the difference between the two in the grid image below.
 
 .. tip::
 
-   The Subdivision Surface modifier does not allow you to edit the new subdivided geometry without applying it,
-   but the :doc:`Multires </modeling/modifiers/generate/multiresolution>` modifier does (in sculpt mode).
+   The Subdivision Surface Modifier does not allow you to edit the new subdivided geometry without applying it,
+   but the :doc:`Multiresolution Modifier</modeling/modifiers/generate/multiresolution>` does (in sculpt mode).
 
 
 Options
@@ -104,7 +104,7 @@ Improving Performance
 
 In order to utilize maximum performance form OpenSubdiv the following things are required:
 
-- The modifier must be last in the :ref:`Modifier Stack <modifier-stack>`.
+- The modifier must be last in the :ref:`modifier stack <modifier-stack>`.
 - There should be no modifiers prior to the  which changes mesh topology across the time.
 - Other objects should not use geometry of OpenSubdiv mesh
 
@@ -141,8 +141,8 @@ Edge Loops
 
    Subdivision Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
-The Subdivision Surface modifier demonstrates why good, clean topology is so important.
-As you can see in the figure, the Subdivision Surface modifier has a drastic effect on a default Cube.
+The Subdivision Surface Modifier demonstrates why good, clean topology is so important.
+As you can see in the figure, the Subdivision Surface Modifier has a drastic effect on a default Cube.
 Until you add in additional Loops (with :kbd:`Ctrl-R`), the shape is almost unrecognizable as a cube.
 
 A mesh with deliberate topology has good placement of Edge Loops,
@@ -168,14 +168,14 @@ because the render is generated using your Object Data,
 Keyboard Shortcuts
 ==================
 
-To quickly add a Subdivision Surface modifier to one or more objects, select it/them and press :kbd:`Ctrl-1`.
-That will add a Subdivision Surface modifier with *View Subdivisions* on 1.
+To quickly add a Subdivision Surface Modifier to one or more objects, select it/them and press :kbd:`Ctrl-1`.
+That will add a Subdivision Surface Modifier with *View Subdivisions* on 1.
 
 You can use other numbers too, such as :kbd:`Ctrl-2`, :kbd:`Ctrl-3`, etc,
-to add a Subdivision Surface modifier with that number of subdivisions.
+to add a Subdivision Surface Modifier with that number of subdivisions.
 The *Render Subdivisions* will always be on 2 when added like this.
 
-If an object already has a Subdivision Surface modifier,
+If an object already has a Subdivision Surface Modifier,
 doing this will simply change its subdivision level instead of adding another modifier.
 
 

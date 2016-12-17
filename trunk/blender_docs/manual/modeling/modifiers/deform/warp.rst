@@ -11,7 +11,7 @@ with options for using a curve falloff, texture and vertex group.
 
 .. figure:: /images/modifier-warp-example02.png
 
-   Warp modifier applied to a grid.
+   Warp Modifier applied to a grid.
 
 
 The Warp Modifier is a bit tricky at first, but it helps to understand how it works.
@@ -27,7 +27,7 @@ Options
 
 .. figure:: /images/modifier-warp-example01.png
 
-   Warp modifier.
+   Warp Modifier.
 
 
 From
