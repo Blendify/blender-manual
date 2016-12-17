@@ -64,7 +64,9 @@ Clear Keyframes
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Animation --> Clear Keyframes...`
 
-ToDo. .. Removes all keyframes from the selected object.
+ToDo.
+
+.. Removes all keyframes from the selected object.
 
 
 Editing Keyframes
