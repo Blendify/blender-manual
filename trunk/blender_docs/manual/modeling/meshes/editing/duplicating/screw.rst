@@ -166,7 +166,7 @@ Continuous operations without changing the selection will repeat the operation c
 
 
 Center
-   These numeric fields specify the center of the spin. When the tool is called for the first time,
+   These number buttons specify the center of the spin. When the tool is called for the first time,
    it will copy the (X, Y, Z) location (Global Coordinates)
    of the cursor presently in the 3D View to start the operation.
    You can specify the cursor coordinates using the Transform Panel in 3D View,

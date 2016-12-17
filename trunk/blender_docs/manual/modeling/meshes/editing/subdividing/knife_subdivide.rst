@@ -11,7 +11,7 @@ Knife Tool
    | Hotkey:   :kbd:`K` or :kbd:`Shift-K`
 
 
-The knife tool can be used to interactively cut up geometry by drawing lines or closed loops to create holes.
+The knife tool can be used to interactively subdivides (cuts up) geometry by drawing lines or closed loops to create holes.
 
 
 Usage
@@ -19,10 +19,16 @@ Usage
 
 When you press :kbd:`K` (or :kbd:`Shift-K`), the Knife tool becomes active.
 
-Drawing the cut line
-   When using *Knife*, the cursor changes to an icon of a scalpel
-   and the header changes to display options for the tool.
-   You can draw connected straight lines by clicking :kbd:`LMB`.
+
+Drawing the Cut Line
+--------------------
+
+When using *Knife*, the cursor changes to an icon of a scalpel
+and the header changes to display options for the tool.
+You can draw connected straight lines by clicking :kbd:`LMB`,
+marked with small green squares. Red squares are already defined cuts.
+Surrounding red squares mean that there is a cut already in that very position,
+so no additional vertex will be created (besides the first one).
 
 .. list-table::
 
@@ -47,7 +53,8 @@ Options
 
 
 Knife selection :kbd:`Shift-K`
-   Activates the knife so only selected faces are cut.
+   Activates the knife with another set of options so only selected faces are cut and
+   *Cut through* is on by default.
 
 New cut :kbd:`E`
    Begins a new cut. This allows you to define multiple distinct cut lines.
@@ -67,9 +74,11 @@ New cut :kbd:`E`
 
 
 Midpoint snap :kbd:`Ctrl`
-   Hold to snap the cursor to the midpoint of edges
+   Hold to snap the cursor to the midpoint of edges,
+   meaning that all cuts will be performed at the exact center of each cut edge.
 Ignore snap :kbd:`Shift`
-   Hold to make the tool ignore snapping.
+   Hold to make the tool ignore snapping, 
+   unlike the default where mouse cursor snaps to near edges; 
 Cut through: :kbd:`Z`
    Allow the cut tool to cut through to obscured faces, instead of only the visible ones.
 Angle constrain :kbd:`C`

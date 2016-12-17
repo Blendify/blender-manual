@@ -4,6 +4,9 @@
 Loop Subdivide
 **************
 
+Loop Cut and Slide
+==================
+
 .. admonition:: Reference
    :class: refbox
 
@@ -17,50 +20,53 @@ The tool is interactive and has two steps:
 
 
 Usage
-=====
+-----
 
-Pre-visualizing the cut
-   After the tool is activated, move the cursor over a desired edge.
-   The cut to be made is marked with a magenta colored line as you move the mouse over the various edges.
-   The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.
-Sliding the new edge loop
-   Once an edge is chosen via :kbd:`LMB`,
-   you can move the mouse along the edge to determine where the new edge loop will be placed.
-   This is identical to the :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>`.
-   Clicking :kbd:`LMB` again confirms and makes the cut at the pre-visualized location,
-   or clicking :kbd:`RMB` forces the cut to exactly 50%.
-   This step is skipped when using multiple edge loops (see below)
+Pre-visualizing the Cut
+^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. list-table::
+After the tool is activated, move the cursor over a desired edge.
+The cut to be made is marked with a magenta colored line as you move the mouse over the various edges.
+The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.
 
-      * - .. figure:: /images/loopcut-before.png
-             :width: 200px
 
-             Mesh before inserting edge loop.
+Sliding the new Edge Loop
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-        - .. figure:: /images/loopcut-preview.png
-             :width: 200px
+Once an edge is chosen via :kbd:`LMB`,
+you can move the mouse along the edge to determine where the new edge loop will be placed.
+This is identical to the :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>`.
+Clicking :kbd:`LMB` again confirms and makes the cut at the pre-visualized location,
+or clicking :kbd:`RMB` forces the cut to exactly 50%.
+This step is skipped when using multiple edge loops (see below)
 
-             Preview of edge loop location.
+.. list-table::
 
-        - .. figure:: /images/loopcut-placement.png
-             :width: 200px
+   * - .. figure:: /images/loopcut-before.png
+          :width: 200px
 
-             Interactive placement of edge loop between adjacent loops.
+          Mesh before inserting edge loop.
+
+     - .. figure:: /images/loopcut-preview.png
+          :width: 200px
+
+          Preview of edge loop location.
+
+     - .. figure:: /images/loopcut-placement.png
+          :width: 200px
+
+          Interactive placement of edge loop between adjacent loops.
 
 
 Options
-=======
+-------
 
-Options are only available while the tool is in use, and are displayed in the 3D View header.
+The options are available while the tool is in use, and later in the Operator panel.
 
-Even :kbd:`E`
-   Only available for single edge loops.
-   This matches the shape of the edge loop to one of the adjacent edge loops.
-   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
-Flip :kbd:`F`
-   When Even is enabled, this flips the target edge loop to match.
-   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
+
+Loop Cut
+^^^^^^^^
+
 Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
    After activating the tool, but before confirming initial loop location,
    you can increase and decrease the number of cuts to create,
@@ -103,3 +109,30 @@ Smoothing :kbd:`Alt-Wheel`
              :width: 250px
 
              Same edge loops, but with smoothing value.
+
+Falloff
+   ToDo.
+
+
+Edge Slide
+^^^^^^^^^^
+
+Even :kbd:`E`
+   Only available for single edge loops.
+   This matches the shape of the edge loop to one of the adjacent edge loops.
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
+Flip :kbd:`F`
+   When Even is enabled, this flips the target edge loop to match.
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
+
+
+Offset Edge Slide
+=================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Offset Edge Slide`
+
+ToDo.

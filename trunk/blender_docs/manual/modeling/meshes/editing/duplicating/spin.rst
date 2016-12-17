@@ -9,9 +9,12 @@ Spin
 
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Spin`
+   | Hotkey:   :kbd:`Alt-R`
 
+The *Spin* tool extrudes (or duplicates if it the selection is manifold) the selected elements,
+rotating around a specific point and axis.
 
-Use the *Spin* tool to create the sort of objects that you would produce on a lathe
+Use the tool to create the sort of objects that you would produce on a lathe
 (this tool is often called a "lathe"-tool or a "sweep"-tool in the literature,
 for this reason). In fact, it does a sort of circular extrusion of your selected elements,
 centered on the 3D cursor, and around the axis perpendicular to the working view...
@@ -20,7 +23,9 @@ centered on the 3D cursor, and around the axis perpendicular to the working view
 - The point of view will determine around which axis the extrusion spins...
 - The position of the 3D cursor will be the center of the rotation.
 
-Here are its settings:
+
+Options
+=======
 
 Steps
    Specifies how many copies will be extruded along the "sweep".
@@ -28,11 +33,11 @@ Dupli
    When enabled, will keep the original selected elements as separated islands in the mesh
    (i.e. unlinked to the result of the spin extrusion).
 Angle
-   specifies the angle "swept" by this tool, in degrees (e.g. set it to 180 for half a turn).
+   Specifies the angle "swept" by this tool, in degrees (e.g. set it to 180 for half a turn).
 Center
    Specifies the center of the spin. By default it uses the cursor position.
 Axis
-   Specify the spin axis as a vector. By default it uses the view axis.
+   Specify the spin axis as a vector. By default it uses the view axis (viewport).
 
 
 Example

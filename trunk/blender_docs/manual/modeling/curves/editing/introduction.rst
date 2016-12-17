@@ -137,8 +137,8 @@ Mode
    ToDo.
 
 
-Add Vertex
-==========
+Duplicate or Extrude to Cursor
+==============================
 
 .. admonition:: Reference
    :class: refbox
