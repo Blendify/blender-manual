@@ -17,7 +17,7 @@ New objects can be created with the *Add* menu in the 3D Views header.
 Mesh
    :doc:`Meshes </modeling/meshes/introduction>` are objects composed of Polygonal Faces, Edges and/or Vertices,
    and can be edited extensively with Blender's mesh editing tools.
-   See :doc:`Mesh Primitives</modeling/meshes/primitives>`.
+   See :doc:`Mesh Primitives </modeling/meshes/primitives>`.
 Curve
    :doc:`Curves </modeling/curves/introduction>` are mathematically defined objects
    which can be manipulated with control handles or control points (instead of vertices),
@@ -25,7 +25,7 @@ Curve
 Surface
    :doc:`Surfaces </modeling/surfaces/introduction>` are patches that are also manipulated with control points.
    These are useful for simple rounded forms and organic landscapes.
-   See :doc:`Surfaces Primitives</modeling/surfaces/primitives>`.
+   See :doc:`Surfaces Primitives </modeling/surfaces/primitives>`.
 Metaball
    :doc:`Meta Objects </modeling/metas/introduction>` (or Metaballs) are objects formed by a mathematical function
    (with no control points or vertices)  defining the 3D volume in which the object exists.
@@ -33,7 +33,7 @@ Metaball
    they merge by smoothly rounding out the connection, appearing as one unified object.
    See :doc:`Meta Primitives </modeling/metas/primitives>`.
 Text
-   :doc:`Text objects</modeling/texts/introduction>`
+   :doc:`Text objects </modeling/texts/introduction>`
    create a two dimensional representation of a string of characters.
 Armature
    :doc:`Armatures </rigging/armatures/index>` are used for :doc:`rigging </rigging/introduction>`

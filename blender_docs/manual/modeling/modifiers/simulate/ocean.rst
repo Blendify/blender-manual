@@ -56,7 +56,7 @@ Resolution
 
    .. note::
 
-      When using the Generate Modifier geometry option,
+      When using the *Generate* modifier geometry option,
       this resolution value also determines the resolution of the generated mesh surface,
       equal to the resolution of the internal simulation data.
 

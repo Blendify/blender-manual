@@ -154,7 +154,7 @@ so the graphics card driver relies on giving correct results.
 
 Possible Solutions:
 
-Disable Anti-Aliasing :term:`FSAA, Multi-Sampling<FSAA>`
+Disable Anti-Aliasing :term:`FSAA, Multi-Sampling <FSAA>`
    This is by far the most common cause of selection issues.
 
    There are known problems with some graphics cards when using FSAA/multi-sampling.
