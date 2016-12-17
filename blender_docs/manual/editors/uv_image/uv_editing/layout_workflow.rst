@@ -99,7 +99,7 @@ The point of this paragraph is to show you the ultimate goal.
 Note that the mesh shown is Mirrored along the Z axis,
 so the right side of the face is virtual; it is an exact copy of the right,
 so only one set of UVs actually exist. (If more realism is desired,
-the *Mirror* modifier would be applied, resulting in a physical mirror and a complete head.
+the Mirror Modifier would be applied, resulting in a physical mirror and a complete head.
 You could then make both side physically different by editing one side and not the other.
 Unwrapping would produce a full set of UVs (for each side)
 and painting could thus be different for each side of the face, which is more realistic.)

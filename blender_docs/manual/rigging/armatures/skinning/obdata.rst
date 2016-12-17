@@ -69,17 +69,17 @@ With Automatic Weights
    Creates, as with *Envelope Weights* option, the needed vertex groups,
    with vertices assigned and weighted using the newer "bone heat" algorithm.
 
-This "parenting" method will create an :doc:`Armature modifier </modeling/modifiers/deform/armature>`
+This "parenting" method will create an :doc:`Armature Modifier </modeling/modifiers/deform/armature>`
 in the skinning object's modifiers stack.
-And so, of course, adding an :doc:`Armature modifier </modeling/modifiers/deform/armature>`
+And so, of course, adding an :doc:`Armature Modifier </modeling/modifiers/deform/armature>`
 to an object is the second, new skinning method (which also works for curves/surfaces/texts...).
 Follow the above link to read more about this modifier's specific options.
-Note that there is a way with new *Armature* modifiers to automatically create vertex groups and weight them;
+Note that there is a way with new Armature Modifiers to automatically create vertex groups and weight them;
 see the `Vertex Groups`_ description below.
 
 .. warning::
 
-   A single object can have several *Armature* modifiers
+   A single object can have several Armature Modifiers
    (with e.g. different armatures, or different settings...),
    working on top of each other, **or** mixing their respective effects
    (depending whether their *MultiModifier* option is set,
@@ -89,11 +89,11 @@ see the `Vertex Groups`_ description below.
 .. note::
 
    Finally that for settings that are present in both the armature's
-   Armature panel and in the objects' Armature modifier panel
+   Armature panel and in the objects' Armature Modifier panel
    (namely, Vertex Groups , Envelopes, Quaternion and B-Bone Rest),
    the modifier ones always override the armature ones. This means that if, for example,
    you only enable the *Envelopes* deformation method of the armature,
-   and then skin it with an object using an Armature modifier, where only
+   and then skin it with an object using an Armature Modifier, where only
    *Vertex Groups* is enabled,
    the object will only be deformed based on its "bones" vertex groups,
    ignoring completely the bones' envelopes.
@@ -105,7 +105,7 @@ Common Options
 There are two armature-global skinning options that are common to both envelopes and vertex
 groups methods:
 
-Preserve Volume (Armature modifier)
+Preserve Volume (Armature Modifier)
    This affects the way geometry is deformed, especially at bones' joints, when rotating them.
 
    Without *Preserve Volume*, rotations at joints tend to scale down the neighboring geometry,

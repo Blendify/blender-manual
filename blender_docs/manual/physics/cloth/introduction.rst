@@ -50,7 +50,7 @@ So you edit the Cloth settings in two places: use the Physics buttons to edit th
 properties of the cloth and use the Modifier stack to edit the Modifier properties related to
 display and interaction with other modifiers.
 
-You can *Apply* the cloth modifier to freeze, or lock in,
+You can *Apply* the Cloth Modifier to freeze, or lock in,
 the shape of the mesh at that frame, which removes the modifier. For example,
 you can drape a flat cloth over a table, let the simulation run, and then apply the modifier.
 In this sense, you are using the simulator to save yourself a lot of modeling time.

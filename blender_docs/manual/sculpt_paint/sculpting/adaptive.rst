@@ -55,14 +55,14 @@ Dyntopo Symmetrize
 Multi-Resolution Modifier
 =========================
 
-The multires modifier is needed to sculpt. The modifier will subdivide the mesh.
+The Multiresolution Modifier is needed to sculpt. The modifier will subdivide the mesh.
 The more subdivision the more computing will be needed. With the Blender stack
-no-destructive data, multires sculpting will help when you have a clean topology base mesh.
+no-destructive data, multiresolution sculpting will help when you have a clean topology base mesh.
 
-When sculpting with multires we have the ability sculpt in different level of subdivision,
+When sculpting with multiresolution we have the ability sculpt in different level of subdivision,
 this mean we can sculpt some details in subdivision level 1 and add more details in
 subdivision 2 and go back to subdivision 1 correct some mistakes. While this workflow is
-often used, multires modifier has some limitations. You may end up with some mesh distortions.
+often used, Multiresolution Modifier has some limitations. You may end up with some mesh distortions.
 As an advice, add as more details as possible before adding more subdivisions.
 Clay brush, SculptDraw work better with multi-resolution sculpting to sculpt secondary forms.
 

@@ -3,7 +3,7 @@
 Mesh Cache Modifier
 *******************
 
-The *Mesh Cache* modifier is used so animated mesh data can be applied to a mesh and
+The Mesh Cache Modifier is used so animated mesh data can be applied to a mesh and
 played back, deforming the mesh.
 
 This works in a similar way to shape-keys but is aimed at playing back external files and is
@@ -17,7 +17,7 @@ Options
 
 .. figure:: /images/modifiers_mesh_cache.jpg
 
-   Mesh Cache modifier.
+   Mesh Cache Modifier.
 
 
 Format

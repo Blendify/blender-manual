@@ -12,7 +12,7 @@ and other things such as dust or magic spells.
 :doc:`Hair </physics/particles/hair/index>` type particles are a subset of regular particles.
 Hair systems form strands that can represent hair, fur, grass and bristles.
 
-You see particles as a *Particle* modifier,
+You see particles as a Particle Modifier,
 but all settings are done in the *Particle tab*.
 
 .. figure:: /images/physics_particle_introduction_fur_example.jpg

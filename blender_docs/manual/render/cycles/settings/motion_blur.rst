@@ -54,7 +54,7 @@ Rolling Shutter Duration
 
    An object modifier setup that changes mesh topology over time will cause severe problems.
 
-   Common examples of this are animated booleans, deformation before edge-split, remesh, skin or decimate modifiers.
+   Common examples of this are animated Booleans, Deformation before Edge Split, Remesh, Skin or Decimate modifiers.
 
 
 Object Properties

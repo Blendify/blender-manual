@@ -98,8 +98,8 @@ This type of surface outputs intersection depth from brush objects.
 
 .. tip::
 
-   If the displace output seems too rough it usually helps to add a "Smooth"
-   modifier after Dynamic Paint in the modifier stack.
+   If the displace output seems too rough it usually helps to add 
+   a Smooth Modifier after Dynamic Paint in the modifier stack.
 
 
 Waves

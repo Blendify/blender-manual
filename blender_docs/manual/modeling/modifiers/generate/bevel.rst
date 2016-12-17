@@ -3,10 +3,10 @@
 Bevel Modifier
 **************
 
-The Bevel modifier adds the ability to bevel the edges of the mesh it is applied
+The Bevel Modifier adds the ability to bevel the edges of the mesh it is applied
 to, allowing control of how and where the bevel is applied to the mesh.
 
-The Bevel modifier is a non-destructive alternative to the
+The Bevel Modifier is a non-destructive alternative to the
 :doc:`Bevel Operation </modeling/meshes/editing/subdividing/bevel>` in edit mode.
 
 
@@ -31,7 +31,7 @@ Options
 
 .. figure:: /images/modifier_generate_bevel_none_if.png
 
-   Bevel modifier panel.
+   Bevel Modifier panel.
 
 
 Width

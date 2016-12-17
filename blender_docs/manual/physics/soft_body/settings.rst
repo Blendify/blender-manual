@@ -5,7 +5,7 @@ Settings
 ********
 
 Soft Body
-   This creates the soft body modifier on the selected object
+   This creates the Soft Body Modifier on the selected object
 Render
    Enable soft body during render
 Display

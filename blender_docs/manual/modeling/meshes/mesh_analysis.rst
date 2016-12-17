@@ -24,7 +24,7 @@ Currently the different modes target 3D-printing as their primary use.
 
    There are some known limitations with mesh analysis:
 
-   - Currently only displayed with deform modifiers.
+   - Currently only displayed with Deform Modifiers.
    - For high-poly meshes is slow to use while editing the mesh.
 
 

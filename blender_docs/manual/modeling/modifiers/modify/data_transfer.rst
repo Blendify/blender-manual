@@ -3,7 +3,7 @@
 Data Transfer Modifier
 **********************
 
-The *Data Transfer* modifier transfers several types of data from one mesh to another.
+The Data Transfer Modifier transfers several types of data from one mesh to another.
 Data types include vertex groups, UV layers, vertex colors, custom normals...
 
 Transfer works by generating a mapping between source mesh’s items (vertices, edges, etc.)
@@ -22,7 +22,7 @@ Options
 
 .. figure:: /images/modifier-data_transfer_ui.png
 
-   Data Transfer modifier.
+   Data Transfer Modifier.
 
 Source Object
    Mesh object to copy data from.

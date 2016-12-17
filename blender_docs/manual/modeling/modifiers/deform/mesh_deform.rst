@@ -3,7 +3,7 @@
 Mesh Deform Modifier
 ********************
 
-The Mesh Deform modifier allows an arbitrary mesh (of any closed shape)
+The Mesh Deform Modifier allows an arbitrary mesh (of any closed shape)
 to act as a deformation cage around another mesh.
 
 
@@ -15,7 +15,7 @@ Options
    Mesh Deform Modifier.
 
 
-The Mesh Deform modifier is reasonably easy to use but it can be very slow to do
+The Mesh Deform Modifier is reasonably easy to use but it can be very slow to do
 the calculations needed to properly map the deform mesh cage to the deformed object.
 
 Object
@@ -35,8 +35,8 @@ Invert ``<->``
 Precision
    The *Precision* number button controls the accuracy with which the
    deform mesh cage alters the deformed object, when the points on the cage are moved.
-   Raising this value higher can greatly increase the time it takes the *Mesh Deform*
-   modifier to complete its binding calculations,
+   Raising this value higher can greatly increase the time it takes 
+   the Mesh Deform Modifier to complete its binding calculations,
    but it will get more accurate cage mapping to the deformed object.
 
    This setting becomes unavailable once a cage has been bound.
@@ -50,13 +50,13 @@ Dynamic
 
 Bind
    Links the current vertex positions of both the modified geometry and the deformer *Object* chosen together.
-   An unbound Mesh Deform modifier has no effect --
+   An unbound Mesh Deform Modifier has no effect --
    it must be bound so that altering the shape of the deform mesh cage
    actually alters the shape of the modified object.
 
    .. warning::
 
-      Depending on the settings of the Mesh Deform modifier and complexity of the deform mesh cage and/or
+      Depending on the settings of the Mesh Deform Modifier and complexity of the deform mesh cage and/or
       deformed object, it can take a long time for this operation to complete.
       This can result in Blender not responding to user's actions until it has completed.
 
@@ -96,5 +96,5 @@ Hints
 
 .. seealso::
 
-   - The :doc:`Lattice modifier </modeling/modifiers/deform/lattice>`.
+   - The :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
    - `Original paper <http://graphics.pixar.com/library/HarmonicCoordinatesB/>`__

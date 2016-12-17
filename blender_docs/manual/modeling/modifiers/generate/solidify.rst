@@ -3,7 +3,7 @@
 Solidify Modifier
 *****************
 
-The Solidify modifier takes the surface of any mesh and adds depth to it.
+The Solidify Modifier takes the surface of any mesh and adds depth to it.
 
 
 Options

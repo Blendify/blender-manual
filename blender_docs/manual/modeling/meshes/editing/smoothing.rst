@@ -131,7 +131,7 @@ based on angle. Those Angles are marked as sharp.
    * - .. figure:: /images/modeling_meshes_editing_smoothing_example-04-edge-split.png
           :width: 200px
 
-          Edge Split modifier enabled, based on angle.
+          Edge Split Modifier enabled, based on angle.
 
      - .. figure:: /images/modeling_meshes_editing_smoothing_example-06-mark-sharp.png
           :width: 200px
@@ -163,7 +163,7 @@ You can apply one of the following in *Edit Mode*:
    Smooths geometry by offers controls for better preserving larger details.
 :doc:`Subdivide Smooth </modeling/meshes/editing/subdividing/subdivide>`
    Adjusting the *smooth* parameter after using the *subdivide*
-   tool results in a more organic shape. This is similar to using the subdivide modifier.
+   tool results in a more organic shape. This is similar to using the Subdivision Surface Modifier.
 :doc:`Bevel </modeling/meshes/editing/introduction>`
    This Bevels selected edged, causing sharp edges to be flattened.
 
@@ -188,7 +188,7 @@ you can smooth the mesh non-destructively with one or several of the following m
    :ref:`subdivision creases <modifiers-generate-subsurf-creases>`
    or by setting certain edges to "sharp" and adding an
    :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`
-   (set to *From Marked As Sharp*) before the *Subdivision Surface* modifier.
+   (set to *From Marked As Sharp*) before the Subdivision Surface Modifier.
 
 .. list-table::
    Example mesh with *Auto Smooth* enabled.

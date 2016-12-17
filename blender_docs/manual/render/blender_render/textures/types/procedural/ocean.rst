@@ -16,7 +16,7 @@ Options
 
 
 Modifier Object
-   Object containing the ocean modifier.
+   Object containing the Ocean Modifier.
 Output
    The data that is output by the texture.
 

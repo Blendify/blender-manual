@@ -3,7 +3,7 @@
 Shrinkwrap Modifier
 *******************
 
-The *Shrinkwrap* modifier allows an object to "shrink" to the surface of another
+The *Shrinkwrap* Modifier allows an object to "shrink" to the surface of another
 object. It moves each vertex of the object being modified to the closest position on the
 surface of the given mesh (using one of the three methods available).
 
@@ -67,7 +67,7 @@ Axis
    X, Y, Z
 Direction
    This allows you to select the allowed direction(s) of the shrink along the selected axis.
-   With more than one *Shrinkwrap* modifier, negative and positive axes can be combined.
+   With more than one Shrinkwrap Modifier, negative and positive axes can be combined.
 
    Negative, Positive
 Cull Faces

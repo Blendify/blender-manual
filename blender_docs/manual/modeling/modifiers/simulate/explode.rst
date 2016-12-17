@@ -21,7 +21,7 @@ showing a cube with a particle system and Explode Modifier.
 
 .. note::
 
-   The Explode modifier must come after the Particle System Modifier
+   The Explode Modifier must come after the Particle System Modifier
    because the Particle System Modifier has the information needed to drive the Explode Modifier.
 
 
@@ -62,4 +62,4 @@ Size
    Use particle size for shrapnel.
 
 Refresh
-   Refresh data in the explode modifier.
+   Refresh data in the Explode Modifier.
