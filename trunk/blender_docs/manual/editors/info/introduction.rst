@@ -71,7 +71,7 @@ Back to Previous
 Screen
    :ref:`Data-block menu <ui-data-block>` used to select and edit
    :doc:`Screens </interface/window_system/screens>` (window layouts).
-Scene 
+Scene
    :ref:`Data-block menu <ui-data-block>` to select different :doc:`Scenes </data_system/scenes/introduction>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with object and/or mesh data linked between them.

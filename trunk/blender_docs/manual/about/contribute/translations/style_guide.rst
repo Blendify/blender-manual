@@ -86,6 +86,6 @@ When the manual is updated, those translations which are outdated will be marked
 To keep track with that, you can use a tool we created for that task,
 see :ref:`How to install it <translations-fuzzy-strings>`.
 
-.. seealso:: 
+.. seealso::
 
    https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide

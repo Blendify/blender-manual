@@ -38,7 +38,7 @@ You should have a directory layout like this::
       |- locale/
       |  |- fr/
       |  |  |- LC_MESSAGES/
-      |- manual/  
+      |- manual/
 
 
 A PO Editor

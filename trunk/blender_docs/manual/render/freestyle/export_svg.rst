@@ -34,7 +34,7 @@ Split at Invisible
    Some stroke modifiers, like Blueprint, mark vertices as invisible to achieve a certain effect. Enabling this
    option will make the paths split when encountering an invisible vertex, which leads to a better result.
 Fill Contours
-   The contour of objects is filled with their material color. 
+   The contour of objects is filled with their material color.
 
    .. note::
 

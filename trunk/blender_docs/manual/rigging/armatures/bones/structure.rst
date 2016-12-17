@@ -29,8 +29,8 @@ Activating *Axes* checkbox on the :menuselection:`Armature tab --> Display panel
 will show local axes for each bone's tip. The Y axis is always aligned along the bone,
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
+.. short about envelope (move deform or to skinning) then link
 
-.. short about envelope (move deform or to skinning) then link 
 
 .. _armature-bone-influence:
 

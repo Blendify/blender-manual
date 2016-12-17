@@ -18,7 +18,7 @@ Elements
 Cube
    The gray cube in the center of the scene is a :doc:`mesh </modeling/meshes/index>` object.
    Because the cube is selected it is drawn with an orange outline.
-   
+
    Object Origin
       The :doc:`Origin of the object </editors/3dview/object/transform/origin>` is displayed as
       an orange dot and it marks the cube's (relative) position.
@@ -59,7 +59,7 @@ Mini Axis
 Object Info
    Shown in brackets is the current frame. Followed by the name of the :ref:`active object <object-active>`.
    And optionally the selected :doc:`shape key </animation/shape_keys/index>` and
-   in brackets (<>) the :doc:`/animation/markers` name on the current frame. 
+   in brackets (<>) the :doc:`/animation/markers` name on the current frame.
    The color of the Object Info is set by the :ref:`animation-state-colors` (keyframe only).
 
 

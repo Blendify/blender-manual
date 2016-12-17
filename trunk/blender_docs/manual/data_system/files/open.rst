@@ -35,7 +35,7 @@ Options
 Load UI
    When *Load UI* is checked, it loads the screen layout saved inside each blend-file,
    replacing the current layout. Otherwise the file screen layout is ignored.
-   
+
    .. tip::
 
       If you want to work on the blend-file using your own defaults, start a fresh Blender,

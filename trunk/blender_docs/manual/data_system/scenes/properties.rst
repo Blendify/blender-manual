@@ -26,7 +26,7 @@ Background
 
 Active Clip
    Active movie clip for constraints and viewport drawing.
-   
+
 
 .. _data-scenes-props-units:
 
@@ -207,7 +207,7 @@ Child Particles
    to see in the *Viewport*/*Render*.
 
 Use Camera Cull
-   Automatically culls objects based on the camera fulcrum.
-   
+   Automatically culls objects based on the camera frustum.
+
    Margin
       Margin for the camera space culling.

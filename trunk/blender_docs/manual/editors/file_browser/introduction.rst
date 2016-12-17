@@ -30,9 +30,9 @@ The main purpose of this is to be able to drag media files:
 - Media files into the :ref:`editors-sequencer-index`.
 
 On the other hand, if the File Browser is opened for a file action (opening, saving, importing, etc.),
-it will appear maximized and waiting for an operation to complete before returning to the former screen layout. 
- 
- 
+it will appear maximized and waiting for an operation to complete before returning to the former screen layout.
+
+
 .. _file-browser-open-sequence:
 
 Opening an Image Sequence
@@ -157,7 +157,7 @@ Bookmarks
 ---------
 
 A :ref:`List View <ui-list-view>` of shortcuts to folders,
-that you want to be able to access often without having to navigate to them in the file browser. 
+that you want to be able to access often without having to navigate to them in the file browser.
 
 Add ``+``
    This button adds the current directory to the list.

@@ -29,7 +29,7 @@ Underlying Structure
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Properties region --> Transform panel --> Type`, 
+   | Panel:    :menuselection:`Properties region --> Transform panel --> Type`,
                :menuselection:`Metaball tab --> Active Element panel --> Type`
 
 

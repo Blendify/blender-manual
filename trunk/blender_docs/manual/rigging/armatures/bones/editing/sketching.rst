@@ -50,7 +50,7 @@ Drawing Chains
 
 So, each stroke you draw will be a chain of bones, oriented from the starting point
 (the reddest or most orange part of the stroke) to its end (its whitest part).
-A stroke is made of several segments, delimited by small black dots. 
+A stroke is made of several segments, delimited by small black dots.
 There will be at least one bone per segment
 (except with the *Template* conversion method,
 see :doc:`next page </rigging/armatures/bones/editing/templating>`),

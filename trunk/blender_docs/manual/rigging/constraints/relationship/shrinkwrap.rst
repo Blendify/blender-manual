@@ -59,7 +59,7 @@ Projection Axis
    median to both of them (XY, XZ or YZ), or to the three ones (XYZ).
    When the projection of the owner's center along the selected direction does not hit the target's surface,
    the owner's location is left unchanged.
-   
+
    +X, +Y, +Z, -X, -Y, -Z
 Axis Space
    ToDo.

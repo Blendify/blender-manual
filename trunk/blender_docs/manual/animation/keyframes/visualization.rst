@@ -39,10 +39,10 @@ over a series of frames.
    Motion paths panel.
 
 
-Before we look at its options 
+Before we look at its options
 (all regrouped in the same *Visualizations* panel, in the Properties editor),
 let us first see how to display/hide these paths.
-You have to do it manually and 
+You have to do it manually and
 you have to first select the objects you want to show/hide the motion paths. Then:
 
 #. To show the paths (or update them, if needed), click on the *Calculate Path* button.

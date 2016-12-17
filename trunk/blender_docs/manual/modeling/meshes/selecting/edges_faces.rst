@@ -10,7 +10,7 @@ Edges
 
    Buttons for the selection modes.
 
-Edges can be selected in much the same way as vertices and faces 
+Edges can be selected in much the same way as vertices and faces
 by :kbd:`RMB`-clicking them while Edge Select Mode is activated.
 Pressing :kbd:`Shift` while clicking will add/subtract to the existing selection.
 
@@ -86,7 +86,7 @@ To select parts of a mesh face-wise, you have to switch to Face Select Mode.
 Do this by clicking the button shown above, or press :kbd:`Ctrl-Tab` to spawn a menu.
 The selection works as usual with :kbd:`RMB` ;
 to add/remove to an existing selection, additionally press :kbd:`Shift`.
-The Border,Circle and Lasso Selection Tools must intersect the face indicators 
+The Border,Circle and Lasso Selection Tools must intersect the face indicators
 usually represented by small pixel squares; one at the center of each face.
 
 

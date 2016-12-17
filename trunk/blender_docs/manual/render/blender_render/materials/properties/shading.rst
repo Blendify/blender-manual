@@ -21,7 +21,7 @@ Ambient
    Something deep in the cave will not get any ambient light, whereas something close to the entrance will get more.
    Note that you can animate this effect, to change it as the object comes out of the shadows and into the light.
 
-   .. seealso:: 
+   .. seealso::
 
       Settings for Ambient Occlusion and Environment Lighting can be found
       in the World tab, with parameters affecting both these lighting components found
@@ -40,7 +40,7 @@ Tangent Shading
    see also settings for strand rendering in the menu further down and in the Particle System menu.
 Cubic Interpolation
    Use cubic interpolation for diffuse values, for smoother transitions between light areas and shadowed areas.
-   Enhances the perceived contrast. 
+   Enhances the perceived contrast.
 
    .. list-table::
 

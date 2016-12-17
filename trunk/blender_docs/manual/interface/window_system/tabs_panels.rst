@@ -30,7 +30,7 @@ A pinned panel remains visible regardless of which tab has been selected.
 You can pin a panel by :kbd:`Shift` clicking its header,
 or by right clicking on the header and choosing *Pin*.
 
-In the image shown to the right, 
+In the image shown to the right,
 is an example of the *Mesh Options* pinned in the tools tab.
 
 

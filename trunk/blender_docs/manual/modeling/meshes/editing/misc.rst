@@ -78,6 +78,6 @@ All Loose Parts
 By Material
    Creates separate mesh objects for each material.
 
-.. seealso:: 
+.. seealso::
 
    :ref:`Joining objects <object-join>`.

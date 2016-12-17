@@ -6,7 +6,7 @@ Data-Block Menu
 
 A set of menu buttons used to link :doc:`/data_system/data_blocks` to each other.
 Data-blocks are items like meshes, objects, materials, textures, and so on.
-If data-blocks are linked the data will be updated across all of the users when edited. 
+If data-blocks are linked the data will be updated across all of the users when edited.
 
 .. figure:: /images/interface_data-block.jpg
    :align: right
@@ -15,7 +15,9 @@ If data-blocks are linked the data will be updated across all of the users when 
 
 
 Type
-   Shows an icon. Opens up the following pop-up menu.
+   Shows an icon indicating the data-block type. It opens up the following pop-up menu.
+   The data-block can be drag from here. e.g to drag an material onto an object in the 3D View or
+   into a :ref:`ui-data-id` field.
 
    List
       A list of data-block available in the current blend-file or link in to select an item from.
@@ -73,12 +75,19 @@ Data ID
 
    The Data ID.
 
-A Data ID is a text field with a data-block type icon on the left, which opens a gray pop-up.
-It is used to references data-blocks selected by there name. It only accepts data-blocks of the type specified by the icon.
-The text field functions as a search field by matching elements in the list.
-If you type an invalid name, the value will remain unchanged.
-If the selected object is an armature,
-you can further specify one of its bones by entering its name in the *Bone* data ID.
-Click  the ``X`` button to remove the reference.
-In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper` available through the pipette icon on the right side.
+A Data ID is a text field with icon on the left, which opens a gray pop-up.
+It is used to references data-blocks selected by there name.
 
+Type
+   The icon on the left specifies the accepted data-block type.
+Text Field
+   The text field functions as a search field by matching elements in the list.
+   If you type an invalid name, the value will remain unchanged.
+   If the selected object is an armature,
+   you can further specify one of its bones by entering its name in the *Bone* data ID.
+List
+   Lets you select the the data-block directly.
+Eye Dropper
+   In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper` available through the pipette icon on the right side.
+Remove ``X``
+   Click  the ``X`` button on the right to remove the reference.

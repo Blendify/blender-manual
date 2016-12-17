@@ -76,7 +76,7 @@ Example
 
 .. figure:: /images/editors_3dview_transformation_advanced_warp_warp-text.jpg
 
-   Text wrapped around logo. 
+   Text wrapped around logo.
 
 This was made by creating the Blender logo and text as separate Objects.
 The text was converted to a mesh and then warped around the Blender logo.

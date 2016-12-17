@@ -134,8 +134,8 @@ CUDA Error: Invalid kernel image
 
 If you get this error on MS-Windows 64-bit, be sure to use the 64-bit build of Blender,
 not the 32-bit version.
- 
- 
+
+
 CUDA Error: Kernel compilation failed
 -------------------------------------
 
@@ -146,7 +146,7 @@ In this case Blender may try to dynamically build a kernel for your graphics car
 In this case you can:
 
 #. Check if the latest Blender version (official or `experimental builds
-   <https://builder.blender.org/download/experimental/>`_) supports your graphics card. 
+   <https://builder.blender.org/download/experimental/>`_) supports your graphics card.
 #. If you build Blender yourself, try to download and install a newer CUDA developer toolkit.
 
 Normally users do not need to install the CUDA toolkit as Blender comes with precompiled kernels.

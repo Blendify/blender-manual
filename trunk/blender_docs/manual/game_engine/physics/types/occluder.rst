@@ -48,8 +48,8 @@ As far as Physics is concerned, this type is equivalent to Rigid Object "No coll
 reason why the Occluder mode is mutually exclusive with other physics mode is to emphasize
 the fact that occluders should be specifically designed for that purpose and not every mesh
 should be an occluder. However,
-you can enable the Occlusion capability on physics objects using Python and Logic bricks. 
-See (Link- TODO)
+you can enable the Occlusion capability on physics objects using Python and Logic bricks.
+See (Link- TODO).
 
 When an occluder object enters the view frustum,
 the BGE builds a Z-Depth buffer from the faces of that object.

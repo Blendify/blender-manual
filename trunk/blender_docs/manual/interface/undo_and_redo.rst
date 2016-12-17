@@ -109,7 +109,7 @@ Undo History
 There is also an Undo History of the last actions taken, recorded by Blender.
 You can access the history pop-up with :kbd:`Ctrl-Alt-Z`.
 
-First positions correspond to most recent actions. 
+First positions correspond to most recent actions.
 A small icon of an eye next to one of the entries indicates the current status.
 Rolling back actions using the *Undo History* feature will take you back to the
 action you choose. Much like how you can alternate between going backward in

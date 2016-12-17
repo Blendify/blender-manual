@@ -113,7 +113,7 @@ Absolute Path Time
    Path timing is in absolute frames.
 Start
    Start time of the drawn path.
-   
+
    .. Ed: option is missing instead: Trail count
 
 End

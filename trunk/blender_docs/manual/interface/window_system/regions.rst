@@ -23,7 +23,7 @@ See specific documentation about each editor in the
 Header
 ======
 
-A header is a small horizontal strip with a lighter gray background, 
+A header is a small horizontal strip with a lighter gray background,
 which sits either at the top or bottom of the area.
 All editors have a header acting as a container for menus and commonly used tools.
 :ref:`Menus <ui-header-menu>` and buttons will change with the editor type and
@@ -100,7 +100,7 @@ toggle between hide and show.
 Position
 --------
 
-To flip a region from one side to the opposite press :kbd:`F5`, 
+To flip a region from one side to the opposite press :kbd:`F5`,
 while the Region is under the mouse pointer.
 
 The header can also be flip by :kbd:`RMB` on it and

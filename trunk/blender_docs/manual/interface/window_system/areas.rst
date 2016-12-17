@@ -66,7 +66,7 @@ Area Options
 
 Split Area
    Shows a indicator line that lets you select the area and position where to split.
-   :kbd:`Tab` switches between vertical/horizontal. 
+   :kbd:`Tab` switches between vertical/horizontal.
 Join Areas
    Shows the join direction overlay.
 

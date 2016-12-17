@@ -32,9 +32,8 @@ Color Set
 
    The Bone Color Set selector and the color buttons.
 
-
 You can assign a "color theme" to a group (each bone will have these colors).
-Remember you have to enable the *Colors* checkbox (*Display* panel) to see these colors. 
+Remember you have to enable the *Colors* checkbox (*Display* panel) to see these colors.
 
 Bone Color Set
    A select menu.

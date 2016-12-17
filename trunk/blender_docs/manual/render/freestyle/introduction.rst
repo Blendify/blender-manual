@@ -43,7 +43,7 @@ with the introduction of line style modifiers, the sky is the limit!
           (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
 
 
-More artwork can be found at `Release Note Artwork Showcase 
+More artwork can be found at `Release Note Artwork Showcase
 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67/FreeStyle#Freestyle_Artwork_Showcase>`__.
 
 

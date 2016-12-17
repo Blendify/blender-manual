@@ -84,7 +84,7 @@ Preset Weights
 
 NURBS can create pure shapes such as circles, cylinders, and spheres
 (note that a Bézier circle is not a pure circle). To create pure circles, globes,
-or cylinders, you must set to specific values the weights of the control points. 
+or cylinders, you must set to specific values the weights of the control points.
 Some of which are provided as presets in the *Curve Tools* panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
 

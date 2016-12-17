@@ -100,7 +100,7 @@ Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with no parenting
 
 
 If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
-click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the 
+click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the
 *Set Parent To* pop-up menu.
 This will result in "EmptyA" object being the *Parent Object* of the Monkey object. With
 only "EmptyA" selected rotating/scaling/moving it will result in the Monkey object being
@@ -114,7 +114,7 @@ Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the l
 
 
 If you select only the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
-click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from 
+click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from
 the *Set Parent To* pop-up menu.
 This will result in "EmptyB" object being the *Parent Object* of the Monkey object.
 Notice that when you change the parent of the Monkey the scale of the Monkey changed.
@@ -216,7 +216,7 @@ Notice that the Child Object does not move to the new location of the Pose Bone.
 Vertex Parent
 =============
 
-For objects of type curve, surface, mesh and lattice, 
+For objects of type curve, surface, mesh and lattice,
 there is the possibility to use one of its vertices or points as the parent of other objects.
 You can parent an object to a single vertex or a group of three vertices as well;
 that way the child/children will move when the parent mesh is deformed,
@@ -305,7 +305,7 @@ Clear and Keep Transformation
    Frees the children from the parent, and *keeps* the location, rotation, and size given to them by the parent.
 Clear Parent Inverse
    Places the children with respect to the parent as if they were placed in the Global reference.
-   This effectively clears the parent's transformation from the children. 
+   This effectively clears the parent's transformation from the children.
    The hierarchical relationships are not removed, but the correcting matrix (''parent inverse'') is cleared from the selected objects.
 
    For example,

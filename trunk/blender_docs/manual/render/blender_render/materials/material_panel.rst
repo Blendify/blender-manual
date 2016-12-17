@@ -19,7 +19,7 @@ Material slots
 
 Active Material
    The objects material slots displayed in a :ref:`List View <ui-list-view>`.
-   
+
    Specials
       Copy and paste the selected material slot.
 
@@ -58,7 +58,7 @@ Data-block Links
    The Object menu item determines that the material will be linked to the object's data-block directly.
 
    This has consequences of course. For example, different objects may share the same mesh data-block.
-   Since this data-block defines the shape of the object any change in edit mode 
+   Since this data-block defines the shape of the object any change in edit mode
    will be reflected on all of those objects.
    Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
    So, if the material is linked to the mesh, every object will share it.

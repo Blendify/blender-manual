@@ -22,7 +22,7 @@ You set the current mode in the *Mode* selector of *3D View* header
 
 .. warning::
 
-   You can only select objects in *Object Mode*. 
+   You can only select objects in *Object Mode*.
    In all others, the current object selection is "locked"
    (except, to some extent, with an armature's *Pose Mode*).
 

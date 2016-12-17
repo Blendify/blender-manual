@@ -300,8 +300,8 @@ Tilt
    | Hotkey:   :kbd:`Ctrl-T`, :kbd:`Alt-T`
 
 Tilt :kbd:`Ctrl-T`
-   Lets you define the tilt of the selected control points. 
-   The tilt will be interpolated from point to point (you can check it with the normals). 
+   Lets you define the tilt of the selected control points.
+   The tilt will be interpolated from point to point (you can check it with the normals).
    The tilt angle is defined interactively first, and then it can be adjusted in the Operator panel *Angle*.
 Clear Tilt :kbd:`Alt-T`
    Brings the tilt of those selected control points back to 0.

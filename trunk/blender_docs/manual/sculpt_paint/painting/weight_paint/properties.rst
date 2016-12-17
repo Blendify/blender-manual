@@ -16,7 +16,7 @@ Brush
 
 
 Painting needs paint brushes and Blender provides a Brush Panel within the Tool Shelf when it
-operates in *Weight Paint Mode*. 
+operates in *Weight Paint Mode*.
 
 Brush
    In the :ref:`Data-Block menu <ui-data-block>` you find predefined Brush Presets.

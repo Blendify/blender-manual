@@ -86,7 +86,7 @@ Vertical Pan or Pitch
    this works with any axis;
    see the :doc:`axis locking page </editors/3dview/object/transform/transform_control/precision/axis_locking>`).
 Horizontal Pan or Yaw
-   This corresponds to a rotation around the camera's local Y axis. 
+   This corresponds to a rotation around the camera's local Y axis.
    Press :kbd:`R`, and then :kbd:`Y` twice.
 Dolly
    To dolly the camera, press :kbd:`G` then :kbd:`MMB` (or :kbd:`Z` twice).

@@ -38,7 +38,7 @@ Absolute Shape Keys
 
 
 By adding a :doc:`driver </animation/drivers/index>` or
-setting :doc:`keyframes </animation/keyframes/introduction>` 
+setting :doc:`keyframes </animation/keyframes/introduction>`
 to *Evaluation Time* you can create an animation.
 
 

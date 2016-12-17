@@ -45,7 +45,7 @@ Grid Floor
 
       X, Y, Z
    Lines
-      Controls the total number of lines that make the grid, in both directions. 
+      Controls the total number of lines that make the grid, in both directions.
       (odd values will be rounded down).
    Scale
       Controls the distance between the grid lines.
@@ -78,7 +78,7 @@ Lock to Cursor
 .. _3dview-lock-camera-to-view:
 
 Lock Camera to View
-   When in camera view, all changes in the view (pans, rotations, zooms) will affect the active camera, 
+   When in camera view, all changes in the view (pans, rotations, zooms) will affect the active camera,
    which will follow all those changes. The camera frame will be outlined with an red dashed line.
 
 .. _3dview-view-clip:
@@ -95,7 +95,7 @@ Clip Start and Clip End
       See :ref:`Troubleshooting Depth Buffer Glitches <troubleshooting-depth>` for more information.
 
 Local Camera
-   Active camera used in this view to override the (global) scene camera. 
+   Active camera used in this view to override the (global) scene camera.
    The option is available only when *lock local camera and layers* toggle in the header is not enabled.
 Render Border
    Use a Render Border when not looking through a camera.

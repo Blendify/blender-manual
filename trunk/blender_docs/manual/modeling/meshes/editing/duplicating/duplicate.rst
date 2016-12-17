@@ -29,17 +29,3 @@ Note that duplicated elements belong to the same
 :doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>` as the "original" ones.
 The same goes for the :ref:`material indices <bi-multiple-materials>`,
 the edge's *Sharp* and *Seam* flags, and probably for the other vertex/edge/face properties...
-
-
-Duplicate or Extrude to Cursor
-==============================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Ctrl-LMB`
-
-Interactively places new vertices with :kbd:`Ctrl-LMB` at the cursor position.
-
-Selection: ToDo.

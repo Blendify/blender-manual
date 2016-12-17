@@ -68,7 +68,7 @@ While Hovering (when the cursor is held over a button).
 
 - :kbd:`Ctrl` -- While dragging snap the discrete steps.
 - :kbd:`Shift` -- Gives precision control over the value.
-- :kbd:`Ctrl-Shift` -- Precise snap. This option will move the object with high precision 
+- :kbd:`Ctrl-Shift` -- Precise snap. This option will move the object with high precision
   along with the snapping constraint.
 
 .. rubric:: While Editing Text
@@ -92,4 +92,4 @@ While Hovering (when the cursor is held over a button).
 
 
 .. (todo?) deactivation: Some controls can be disabled, in Blender deactivated controls are still editable.
-   That can be due to the current state or context. In that case, they appear in a lighter color. 
+   That can be due to the current state or context. In that case, they appear in a lighter color.

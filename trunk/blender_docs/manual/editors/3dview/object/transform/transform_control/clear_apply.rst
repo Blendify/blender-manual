@@ -130,12 +130,12 @@ Make Duplicate Real
 
 Make Duplicate Real :kbd:`Shift-Ctrl-A`
    *Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.
- 
+
    Literal
-      Parents all the generated objects to the former duplicator when the option is checked; 
+      Parents all the generated objects to the former duplicator when the option is checked;
       otherwise, they will be global objects.
    Keep Hierarchy
       Is useful when the duplicated objects have a hierarchical relationship between them.
-      In that case, if we check this option, the same relationship will be kept in the newly generated objects, 
-      even if {{Literal|Parent}} is also checked, in which case, only the duplicated objects on top of the hierarchy 
+      In that case, if we check this option, the same relationship will be kept in the newly generated objects,
+      even if {{Literal|Parent}} is also checked, in which case, only the duplicated objects on top of the hierarchy
       will be parented to the former duplicator.

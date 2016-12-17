@@ -80,8 +80,8 @@ Numerical selection
 
 Pop-ups can be moved by dragging their title.
 
+.. todo duplicate: selection
 
-.. todo duplicate: selection 
 
 Shortcuts
 ---------
@@ -120,7 +120,7 @@ Copy To Selected
    A use case is if the Properties editor context is pinned.
 Add Shortcut
    Lets you define a keyword or mouse shortcut and associates it with the control.
-   To define the shortcut you must first move the mouse cursor over the button that pops up, 
+   To define the shortcut you must first move the mouse cursor over the button that pops up,
    and when "Press a key" appears you must press and/or click the desired shortcut.
 Change Shortcut
    Lets you redefine the shortcut.
@@ -129,10 +129,10 @@ Remove Shortcut
 Online Manual
    See :ref:`help-manual-access`.
 Online Python Reference
-   Context-sensitive access to the 
+   Context-sensitive access to the
    `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
 Edit Source
-   For UI development -- Creates a text data-block with the source code associated with the control, 
+   For UI development -- Creates a text data-block with the source code associated with the control,
    in case the control is based on a python script. In the Text Editor it points at the code line where the element is defined.
 Edit Translation
    For UI development -- Points at the translation code line.

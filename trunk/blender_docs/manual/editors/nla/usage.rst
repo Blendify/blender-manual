@@ -92,7 +92,7 @@ Controls when a speaker plays a sound clip.
 Meta Strips
 -----------
 
-Meta strips group strips together as a whole, so you can move them as one. 
+Meta strips group strips together as a whole, so you can move them as one.
 If you find yourself moving a lot of strips together, you can group them into a Meta strip.
 A meta strip can be moved and duplicated like a normal strip.
 
@@ -138,7 +138,7 @@ Start Tweaking Strips Action
    | Hotkey:   :kbd:`Tab`
 
 The contents of Action strips can be edited, but you must be in *Tweak Mode* to do so.
-The keyframes of the action can then be edited in the Dope Sheet. 
+The keyframes of the action can then be edited in the Dope Sheet.
 
 .. list-table::
 
