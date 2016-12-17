@@ -63,7 +63,7 @@ Rotation
 
 Scale
    The object's relative scale along the local axis
-   (i.e. the *Scale X* value represents the scale along the local X-axis).
+   (e.g. the *Scale X* value represents the scale along the local X-axis).
    Each object (cube, sphere, etc.), when created, has a scale of one Blender unit in each local direction.
    To make the object bigger or smaller, you scale it in the desired axis.
 Dimensions

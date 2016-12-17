@@ -4,7 +4,7 @@
 Animating Sketches
 ******************
 
-Use the Grease Pencil to do basic pencil tests (i.e. 2D animation in flipbook style).
+Use the Grease Pencil to do basic pencil tests (e.g. 2D animation in flipbook style).
 Sketches are stored on the frame that they were drawn on, as a separate drawing
 (only on the layer that they exist on).
 Each drawing is visible until the next drawing for that layer is encountered.

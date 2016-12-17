@@ -114,11 +114,11 @@ Online Resources
    You can also create a personal directory containing new add-ons and configure your files path in
    the *File* tab of the *User Preferences*. To create a personal script directory:
 
-   #. Create an empty directory in a location of your choice (i.e. ``my_scripts``).
+   #. Create an empty directory in a location of your choice (e.g. ``my_scripts``).
    #. Add a subdirectory under ``my_scripts`` called ``addons``
       (it *must* have this name for Blender to recognize it).
    #. Open the *File* tab of the *User Preferences*.
-   #. Set the *Scripts* in the User Preferences to point to your script directory (i.e. ``my_scripts``).
+   #. Set the *Scripts* in the User Preferences to point to your script directory (e.g. ``my_scripts``).
    #. Save the User Preferences and restart Blender for it to recognize the new add-ons location.
 
    Now when you install add-ons you can select the *Target Path* option to *User Pref*

@@ -19,7 +19,7 @@ UV Center
    With (0, 0) at the bottom left and (1, 1) at the top right. Defaults to (0.5, 0.5).
 UV Axis
    The axes to use when mapping the 3D coordinates into 2D.
-From/To
+From, To
    The two objects used to define the transformation. See *Usage* below.
 Vertex Group
    The vertex group can be used to scale the influence of the transformation per-vertex.

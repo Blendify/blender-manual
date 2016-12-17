@@ -140,7 +140,7 @@ Random
    :width: 500px
 
    Keyed particle following way points (showing one particle).
-   `Example Blend file 
+   `Example Blend file
    <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_1.blend>`__.
 
 When a *Particle Instance* modifier is added to a cylinder object
@@ -156,7 +156,7 @@ See screenshot below:
 
    Keyed particle following way points showing a mesh object
    (Particle Instance modifier) in place of the original particle.
-   `Example Blend file 
+   `Example Blend file
    <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_2.blend>`__.
 
 Both of the above examples had the *Particle Instance* modifier *Path* button deactivated.
@@ -167,7 +167,7 @@ When the *Path* button is activated the effect can be seen in the screenshot bel
 
    Keyed particle following way points showing a mesh object (Particle Instance modifier)
    in place of the original particle, that is also being deformed to fit the travel path of the original particle.
-   `Example Blend file 
+   `Example Blend file
    <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_3.blend>`__.
 
 
@@ -219,7 +219,7 @@ Below is a screenshot showing the effect of the *Path* button on hair:
    :width: 500px
 
    Strand with a Particle Instance modifier associated with it and deforming the cylinder along the hair profile.
-   `Example Blend file 
+   `Example Blend file
    <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Strand_Mesh_Deform.blend>`__.
 
 

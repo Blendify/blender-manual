@@ -52,14 +52,14 @@ Modes might affect many things in Blender:
      - *Object Mode*
      - *None* [1]_
      - The default mode, available for all object types,
-       as it is dedicated to *Object* data-block editing (i.e. position/rotation/size).
+       as it is dedicated to *Object* data-block editing (e.g. position, rotation, size).
    * - .. figure:: /images/icons_edit-mode.png
           :width: 35px
      - *Edit Mode*
      - :kbd:`Tab` [1]_
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *Object Data* data-block editing
-       (i.e. vertices/edges/faces for meshes, control points for curves/surfaces, etc.)
+       (e.g. vertices/edges/faces for meshes, control points for curves/surfaces, etc.)
    * - .. figure:: /images/icons_sculpt-mode.png
           :width: 35px
      - *Sculpt Mode*

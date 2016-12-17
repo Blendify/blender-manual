@@ -171,10 +171,10 @@ texture coordinates *i* a multiplicative intensity factor.
 
 #. You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.
 #. Open the Text Editor :menuselection:`Editor Types --> Text Editor`.
-#. Open your mesh data file (ie. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
+#. Open your mesh data file (e.g. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
 #. Go to Game Framing Settings :menuselection:`Editor Types --> Properties editor --> Scene`.
 #. Enable Dome Mode.
-#. Type filename in Warp Data field (i.e. myDome.data).
+#. Type filename in Warp Data field (e.g. myDome.data).
 
 To create your own Warp Meshes an interactive tool called meshmapper is available as part of
 `Paul Bourke's Warpplayer <http://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__

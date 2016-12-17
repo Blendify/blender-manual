@@ -72,7 +72,7 @@ Direction
    Negative, Positive
 Cull Faces
    This radio button allows you to prevent any projection over the "front side"
-   (respectively the "back side") of the target's faces. The "side" of a face is determined 
+   (respectively the "back side") of the target's faces. The "side" of a face is determined
    by its normal (front being the side "from where" the normal "originates").
 Auxiliary Target
    An additional object to project over.

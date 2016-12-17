@@ -17,7 +17,7 @@ Editing an armature means two main domains of action:
 - :doc:`Editing the bones </rigging/armatures/bones/editing/bones>` - i.e.
   adding/inserting/deleting/extruding/sub-dividing/joining them...
 - :doc:`Editing the bones' properties </rigging/armatures/bones/editing/properties>` - this includes key features,
-  like transform properties (i.e. grab, scale, etc...) and relationships between bones (parenting and connecting),
+  like transform properties (e.g. grab, scale, etc...) and relationships between bones (parenting and connecting),
   as well as bones' names, influence, behavior in *Pose Mode*, etc.
 
 These are standard editing methods, quite similar for example to

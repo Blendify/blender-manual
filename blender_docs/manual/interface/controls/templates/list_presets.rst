@@ -50,7 +50,7 @@ Remove ``-``
 Specials
    The down arrow on dark background opens a pop-up menu with
    operators context-sensitive to the item type.
-   i.e. copy paste, or operations on all items.
+   e.g. copy paste, or operations on all items.
 
 Move Up
    The button showing an up arrow moves the selected item up one position.
@@ -81,6 +81,6 @@ Remove ``-``
 Specials
    The down arrow on dark background opens a pop-up menu with
    operators context-sensitive to the preset type.
-   i.e. copy paste.
+   e.g. copy paste.
 
 .. saving preset: data-system?

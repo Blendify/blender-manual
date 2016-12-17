@@ -15,7 +15,7 @@ with options for using a curve falloff, texture and vertex group.
 
 
 The Warp Modifier is a bit tricky at first, but it helps to understand how it works.
-The modifier requires two points, specified by object centers.
+The modifier requires two points, specified by object origins.
 The "from" point designates a point in space that is pulled toward the "to" point.
 It is akin to using the
 :doc:`Proportional Editing </editors/3dview/object/transform/transform_control/proportional_edit>`

@@ -9,7 +9,7 @@ much like the image layers in the GIMP or Photoshop\ :sup:`®`\ .
 These layers are not related to any of the other layer systems in Blender.
 
 The layers' main purpose is to gather sketches that are related in some
-meaningful way (i.e. "blocking notes", "director's comments on blocking", or "guidelines").
+meaningful way (e.g. "blocking notes", "director's comments on blocking", or "guidelines").
 For this reason, all the strokes on a layer (not just those made after a particular change)
 are affected by that layer's color, opacity, and stroke thickness settings.
 

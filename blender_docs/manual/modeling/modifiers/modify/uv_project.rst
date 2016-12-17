@@ -4,6 +4,8 @@ UV Project Modifier
 *******************
 
 .. figure:: /images/uvproject.jpg
+   :align: center
+   :width: 350px
 
    Projecting the Blender logo onto Suzanne.
 
@@ -27,7 +29,6 @@ UV layer
 Image
    The image associated with this modifier. Not required; you can just project a UV for use elsewhere.
    *Override Image*, below, defines how the image is used.
-
 Override Image
    - When true, the Face Texture of all vertices on the mesh is replaced with the Image.
      This will cause the image to repeat, which is usually undesirable.
@@ -38,12 +39,11 @@ Projectors
    Each face will choose the closest and aligned projector with its surface normal.
    Projections emit from the negative Z-axis (i.e. straight down a camera or lamp).
    If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
-
 Objects
-   Specify the projector Object
+   Specify the projector Object.
 
 Aspect X/Y and Scale X/Y
-   These allow simple manipulation of the image. Only apply when a camera is used as projector Object.
+   These allow simple manipulation of the image. Only apply when a camera is used as projector *Object*.
 
 
 Usage
