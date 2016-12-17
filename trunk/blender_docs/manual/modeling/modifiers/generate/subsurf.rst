@@ -25,7 +25,7 @@ You can see the difference between the two in the grid image below.
 .. tip::
 
    The Subdivision Surface Modifier does not allow you to edit the new subdivided geometry without applying it,
-   but the :doc:`Multiresolution Modifier</modeling/modifiers/generate/multiresolution>` does (in sculpt mode).
+   but the :doc:`Multiresolution Modifier </modeling/modifiers/generate/multiresolution>` does (in sculpt mode).
 
 
 Options

@@ -23,8 +23,8 @@ First, change your start and end frames to 1 and 150.
 Then, add a plane, and scale it five times. Next, go to the physics tab, and add a collision.
 The default settings are fine for this example.
 
-Now add a cube, or use the default cube. Tab into edit mode and subdivide it three times.
-Add a Bevel Modifier to it to smoothen the edges and then to add a little more, press r twice,
+Now add a cube, or use the default cube. Tab into *Edit Mode* and subdivide it three times.
+Add a Bevel Modifier to it to smoothen the edges and then to add a little more, press :kbd:`R` twice,
 and move your cursor a bit.
 
 When finished, your scene should look like this:

@@ -41,7 +41,7 @@ for green screens, but the best results stem from a combination of techniques.
    :doc:`Ellipse Mask </compositing/types/matte/ellipse_mask>`
    More complicated matte shapes using
    :doc:`Double Edge Mask </compositing/types/matte/double_edge_mask>` or
-   using a :doc:`Mask</compositing/types/input/mask>`.
+   using a :doc:`Mask </compositing/types/input/mask>`.
 
 .. toctree::
    :maxdepth: 1
