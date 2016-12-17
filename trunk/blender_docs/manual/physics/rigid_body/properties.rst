@@ -67,7 +67,7 @@ Primitive shapes
    The center of gravity is always in the middle for now.
 
    Box
-      Box-like shapes (i.e. cubes), including planes (i.e. ground planes).
+      Box-like shapes (e.g cubes), including planes (e.g. ground planes).
       The size per axis is calculated from the bounding box.
    Sphere
       Sphere-like shapes. The radius is the largest axis of the bounding box.
@@ -84,7 +84,7 @@ Mesh based shapes
    The center of gravity for these shapes is the object origin.
 
    Convex Hull
-      A mesh-like surface encompassing (i.e. shrinkwrap over) all vertices (best results with fewer vertices).
+      A mesh-like surface encompassing (e.g. shrinkwrap over) all vertices (best results with fewer vertices).
       Convex approximation of the object, has good performance and stability.
    Mesh
       :term:`Mesh` consisting of triangles only, allowing for more detailed interactions than convex hulls.

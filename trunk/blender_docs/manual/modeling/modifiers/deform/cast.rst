@@ -62,7 +62,7 @@ Vertex Group
 
 Control Object
    The name of an object to control the effect.
-   The location of this object's center defines the center of the projection.
+   The location of this object's origin defines the center of the projection.
    Also, its size and rotation transform the projected vertices.
 
    .. hint::

@@ -8,7 +8,7 @@ system, and is created, parameterized and manipulated in similar ways.
 However, because of its use as a real-time device, the Game Engine camera has a number of
 additional features -- it may be used as not only as a static camera,
 but also as a moving device with its default characteristics
-(ie. with its own programmed moves), or it may track another object in the game.
+(i.e. with its own programmed moves), or it may track another object in the game.
 Furthermore, any game object may be used as a camera;
 the view is taken from the object's origin point.
 Lastly, it may be given special capabilities such as Stereo vision, Dome visualization etc.

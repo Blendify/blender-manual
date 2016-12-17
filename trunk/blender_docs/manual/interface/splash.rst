@@ -21,7 +21,7 @@ To reopen the splash click on the Blender icon in the :doc:`Info Editor </editor
 header or select :menuselection:`Info Editor --> Help --> Splash Screen`.
 
 Title
-   Besides the Blender icon and text, it shows the Blender version. i.e. the current version is |BLENDER_VERSION|.
+   Besides the Blender icon and text, it shows the Blender version. e.g. the current version is |BLENDER_VERSION|.
 Image
    An image where you can identify package and version.
 Date

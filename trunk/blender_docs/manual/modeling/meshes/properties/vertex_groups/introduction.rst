@@ -27,7 +27,7 @@ But they are also used in many other areas of Blender, like for example:
 Many more usage scenarios are possible.
 Actually you can use Vertex Groups for whatever makes sense to you.
 In some contexts Vertex Groups can also be automatically generated
-(i.e. for rigged objects). However, in this section we will focus
+(e.g. for rigged objects). However, in this section we will focus
 on manually created (user-defined) Vertex Groups.
 
 .. note:: Vertex groups only apply to Mesh and Lattice Objects

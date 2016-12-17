@@ -25,7 +25,7 @@ Cube
    Transformation Widget
       This :doc:`widget </editors/3dview/object/transform/transform_control/manipulators>`
       is composed out of a white circle and three colored (red, green, and blue) arrows.
-      It is used to move entities (i.e. the cube) in the scene.
+      It is used to move entities (e.g. the cube) in the scene.
 Lamp
    The circle with a thin line to the bottom is a light source illuminating the cube.
    Lights in: :doc:`Blender Internal </render/blender_render/lighting/lights/index>`,

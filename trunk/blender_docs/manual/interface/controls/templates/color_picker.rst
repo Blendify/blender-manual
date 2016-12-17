@@ -26,7 +26,7 @@ Color values
 
    Hexadecimal (Hex) values are expressed as RRGGBB.
    Shorthand hex colors are also supported as RGB,
-   i.e. dark-yellow FFCC00, can be written as FC0.
+   e.g. dark-yellow FFCC00, can be written as FC0.
 
    For operations that are capable of using Alpha,
    another slider "A" is added.

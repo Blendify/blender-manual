@@ -35,7 +35,7 @@ Target
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
 
 X, Y, Z
-   These buttons control which axes (i.e. coordinates) are constrained.
+   These buttons control which axes are constrained.
 
    Invert
       The *Invert* buttons invert their respective preceding coordinates.

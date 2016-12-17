@@ -26,13 +26,11 @@ Options
 
 Start
    The start frame of the building process.
-
 Length
    The number of frames over which to rebuild the object.
 
 Randomize
    Randomizes the order in which the faces are built.
-
 Seed
    The random seed.
    Changing this value gives a different "random" order when *"Randomize"* is checked --

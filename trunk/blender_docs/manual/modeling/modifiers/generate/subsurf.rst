@@ -88,7 +88,7 @@ OpenSubdiv
 ==========
 
 When *OpenSubdiv* is enabled, the modifier evaluation will happen on a compute device.
-To enable OpenSubdiv you must first choose the fastest compute device in the 
+To enable OpenSubdiv you must first choose the fastest compute device in the
 :ref:`User Preferences <prefs-system-opensubdiv>`. Most of the time the
 best performance will be achieved when using *GLSL*.
 As a result performance of the modifier will be much higher which is great for animations.

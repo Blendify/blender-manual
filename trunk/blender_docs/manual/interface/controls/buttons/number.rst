@@ -15,7 +15,7 @@ Number buttons hold numeric values.
 
 Number buttons can be identified by the triangles pointing left (◂) and right (▸) on the sides of the button.
 The second type number sliders have a bar in the background and are used for values in a range,
-i.e. percentage values. Both types have round corners.
+e.g. percentage values. Both types have round corners.
 In most cases they contain a name and a colon followed by the number.
 The value can be edited in several ways:
 

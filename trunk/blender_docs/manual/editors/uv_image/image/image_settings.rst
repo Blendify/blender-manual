@@ -128,7 +128,7 @@ Color Space
    Raw
       Raw space.
    Non-Color
-      Color space used for images which contains non-color data (i.e. normal maps).
+      Color space used for images which contains non-color data (e.g. normal maps).
    Linear ACES
       ACES linear space.
    Linear

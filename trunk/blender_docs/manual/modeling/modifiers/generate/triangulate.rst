@@ -35,8 +35,8 @@ Quad Method
    Shortest Diagonal
       Split the quads based on the distance between the vertices.
 
-Ngon Method
+Ng-on Method
    Beauty
       Arrange the new triangles nicely, slower method.
    Scanfill
-      Split the ngons using a scanfill algorithm.
+      Split the n-gons using a scanfill algorithm.

@@ -91,7 +91,7 @@ Duplicate Area into new Window
    | Menu:     :menuselection:`View --> Duplicate Area into new Window`
 
 The new window is a fully functional window, which is part of the same instance of Blender.
-This can be useful, i.e. if you have multiple monitors.
+This can be useful, e.g. if you have multiple monitors.
 
 A new window can be created from :menuselection:`View --> Duplicate Area into new Window`.
 

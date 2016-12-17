@@ -28,7 +28,7 @@ This is highlighted in the image to the right by the red arrow.
 It tells Blender the relative position of that object in 3D space.
 What you see in the 3D View (vertices, edges etc) is what makes up the object.
 
-The origin does not have to be located in the center of the geometry (i.e. mesh).
+The origin does not have to be located in the center of the geometry (e.g. mesh).
 This means that an object can have its origin located on one end of the mesh or
 even completely outside the mesh. For example,
 the orange rectangle in the image has its Origin located on the far left of the mesh.

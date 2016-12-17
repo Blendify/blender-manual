@@ -13,7 +13,7 @@ The geometry node is used to specify how light reflects off the surface.
 This node is used to change a material's Normal response to lighting conditions.
 
 Use this node to feed the Normal vector input on the Material node,
-to see how the material will look (i.e. shine, or reflect light)
+to see how the material will look (e.g. shine, or reflect light)
 under different lighting conditions. Your choices are:
 
 Inputs
