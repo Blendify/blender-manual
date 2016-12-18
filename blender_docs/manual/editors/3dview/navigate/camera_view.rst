@@ -7,6 +7,7 @@ Camera View
    :class: refbox
 
    | Mode:     All modes
+   | Menu:     :menuselection:`View --> Camera`
    | Menu:     :menuselection:`View --> Camera --> Active Camera`
    | Hotkey:   :kbd:`Numpad0`
 
