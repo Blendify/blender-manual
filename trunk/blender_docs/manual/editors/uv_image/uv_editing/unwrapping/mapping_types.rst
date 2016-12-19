@@ -134,7 +134,7 @@ logical and straightforward UV layout for you.
 Operator panel
 --------------
 
-The Tool Settings panel in the Tool Shelf allows the fine control over how the mesh is
+The Operator panel in the Tool Shelf allows the fine control over how the mesh is
 unwrapped:
 
 Angle Limit

@@ -32,7 +32,7 @@ displayed after the tool is called) with following options:
 - All Groups
 
 All tools also work with Vertex Selection Masking and Face Selection masking.
-In these modes the tools operate only on selected verts or faces.
+In these modes the tools operate only on selected vertices or faces.
 
 .. tip:: About the Blend tool
 
@@ -149,9 +149,9 @@ Operator Parameters
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ about how subsets are defined.
 Add Weights
-   Add verts that have no weight before inverting (these weights will all be set to 1.0)
+   Add vertices that have no weight before inverting (these weights will all be set to 1.0)
 Remove Weights
-   Remove verts from the Vertex Group if they are 0.0 after inverting.
+   Remove vertices from the Vertex Group if they are 0.0 after inverting.
 
 .. note::
 
@@ -190,8 +190,8 @@ Limit
    This is the minimum weight value that will be kept in the Group.
    Weights below this value will be removed from the group.
 Keep Single
-   Ensure that the Clean tool will not create completely unreferenced verts
-   (verts which are not assigned to any Vertex Group),
+   Ensure that the Clean tool will not create completely unreferenced vertices
+   (vertices which are not assigned to any Vertex Group),
    so each vertex will keep at least one weight, even if it is below the limit value!
 
 
@@ -245,7 +245,7 @@ This tool only works in vertex select mode.
 To understand what the tool really does, let us take a look at a simple example.
 The selected vertex is connected to four adjacent vertices
 (marked with a gray circle in the image). All adjacent vertices are unselected.
-Now the tool calculates the average weight of all connected **and** unselected verts.
+Now the tool calculates the average weight of all connected **and** unselected vertices.
 In the example this is:
 
 :math:`(1 + 0 + 0 + 0) / 4 = 0.25`
@@ -262,13 +262,13 @@ This value is multiplied by the factor given in the Operator parameters (see bel
 
 
 Now let us see what happens when we select all but one of the neighbors of the selected vert as
-well. Again all connected and unselected verts are marked with a gray circle.
+well. Again all connected and unselected vertices are marked with a gray circle.
 When we call the Blend tool now and set the Factor to 1.0,
-then we see different results for each of the selected verts:
+then we see different results for each of the selected vertices:
 
-- The topmost and bottommost selected verts:
+- The topmost and bottommost selected vertices:
 
-  are surrounded by three unselected verts, with an average weight of :math:`(1 + 0 + 0) / 3 = 0.333`
+  are surrounded by three unselected vertices, with an average weight of :math:`(1 + 0 + 0) / 3 = 0.333`
   So their color has changed to light green.
 
 - The middle vertex:
@@ -278,7 +278,7 @@ then we see different results for each of the selected verts:
 
 - The right vert:
 
-  is surrounded by three unselected verts with average weight = :math:`(0 + 0 + 0) / 3 = 0.0`
+  is surrounded by three unselected vertices with average weight = :math:`(0 + 0 + 0) / 3 = 0.0`
   So the average weight is 0, thus the selected vert color has not changed at all
   (it was already blue before blend was applied).
 
@@ -291,8 +291,8 @@ Finally let us look at a practical example (and explain why this tool is named B
 In this example, the middle edge loop has been selected
 and it will be used for blending the left side to the right side of the area.
 
-- All selected vertices have two unselected adjacent verts.
-- The average weight of the unselected verts is :math:`(1 + 0) / 2 = 0.5`
+- All selected vertices have two unselected adjacent vertices.
+- The average weight of the unselected vertices is :math:`(1 + 0) / 2 = 0.5`
 - Thus when the Blend Factor is set to 1.0 then the edge loop turns to
   green and finally does blend the cold side (right) to the hot side (left).
 
@@ -308,7 +308,7 @@ Factor
    The effective amount of blending.
    When Factor is set to 0.0 then the Blend tool does not do anything.
    For Factor > 0 the weights of the affected vertices gradually shift from their original value
-   towards the average weight of all connected **and** unselected verts (see examples above).
+   towards the average weight of all connected **and** unselected vertices (see examples above).
 
 
 Transfer Weights

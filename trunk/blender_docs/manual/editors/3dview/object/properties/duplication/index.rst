@@ -6,7 +6,7 @@
 There are currently four ways in Blender to procedurally duplicate objects.
 These options are located in the *Object* menu.
 
-Verts
+Vertices
    This creates an instance of all children of this object on each vertex (for mesh objects only).
 Faces
    This creates an instance of all children of this object on each face (for mesh objects only).

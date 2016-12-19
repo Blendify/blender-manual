@@ -10,7 +10,7 @@ If you have a complex mesh,
 it is sometimes not easy to paint on all vertices in Weight Paint Mode.
 Suppose you only want to paint on a small area of the Mesh and keep the rest untouched.
 This is where *selection masking* comes into play. When this mode is enabled,
-a brush will only paint on the selected verts or faces.
+a brush will only paint on the selected vertices or faces.
 The option is available from the header of the 3D View
 (see icons surrounded by the yellow frame):
 
@@ -99,7 +99,7 @@ However, you can use a trick:
 #. Select the areas you want to hide and then hide the faces (as explained above).
 #. Switch back to Vertex Selection mask mode.
 
-Now the verts belonging to the hidden Faces will remain hidden.
+Now the vertices belonging to the hidden Faces will remain hidden.
 
 
 The Clipping Border

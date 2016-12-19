@@ -100,8 +100,8 @@ thus all corresponding function buttons become disabled for locked Vertex Groups
 Working with Content of Vertex Groups
 =====================================
 
-Assigning Verts to a Group
---------------------------
+Assigning Vertices to a Group
+-----------------------------
 
 .. figure:: /images/modeling-meshes-vertex-group-panel-assign.png
    :align: right
@@ -113,8 +113,8 @@ You add vertices to a group as follows:
 
 - Select the group from the group list, thus make it the Active Group (1).
 - From the 3D View select :kbd:`Shift-RMB` all vertices that you want to add to the group.
-- Set the weight value that shall be assigned to all selected verts (2).
-- :kbd:`LMB` the *Assign* button to assign the selected verts to the active group using the given weight (3).
+- Set the weight value that shall be assigned to all selected vertices (2).
+- :kbd:`LMB` the *Assign* button to assign the selected vertices to the active group using the given weight (3).
 
 Note that weight Assignment is not available for locked Vertex Groups.
 The Assign button is grayed out in that case.
@@ -131,7 +131,7 @@ The Assign button is grayed out in that case.
 Checking Assignments
 --------------------
 
-To be sure the selected verts are in the desired Vertex Group,
+To be sure the selected vertices are in the desired Vertex Group,
 you can try press the deselect button.
 If the vertices remain selected then they are not yet in the current Vertex Group.
 
@@ -139,7 +139,7 @@ At this point you may assign then, but take care since all selected vertices
 will have their weight set to the value in the *Weight:* field.
 
 
-Removing assignments from a Group
+Removing Assignments from a Group
 ---------------------------------
 
 You remove vertices from a group as follows:
@@ -166,19 +166,19 @@ You can quickly select all assigned vertices of a group:
 
 .. note:: Selecting/Deselecting is additive
 
-   If you already have verts selected in the 3D View,
-   then selecting the verts of a group will add the verts
-   but also keep the already-selected verts selected.
-   Vice versa, deselecting the verts of a vertex group
-   will only deselect the verts assigned to the group
-   and keep all other verts selected.
+   If you already have vertices selected in the 3D View,
+   then selecting the vertices of a group will add the vertices
+   but also keep the already-selected vertices selected.
+   Vice versa, deselecting the vertices of a vertex group
+   will only deselect the vertices assigned to the group
+   and keep all other vertices selected.
 
 
-Finding ungrouped Verts
------------------------
+Finding Ungrouped Vertices
+--------------------------
 
 You can find ungrouped vertices as follows:
 
 - Press :kbd:`A` once or twice to unselect all vertices.
-- In the header of the 3D View: Navigate to :menuselection:`Select --> Ungrouped verts`
+- In the header of the 3D View: Navigate to :menuselection:`Select --> Ungrouped Vertices`
 
