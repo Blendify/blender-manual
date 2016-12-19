@@ -1,10 +1,10 @@
 
-**********
-Properties
-**********
+***********
+Object Data
+***********
 
-Curve Properties can be set from the *Object Data*
-option in the *Properties Header* (shown below in blue).
+Curve Properties can be set from the *Object Data* tab
+in the *Properties Header* (shown below in blue).
 
 .. figure:: /images/modeling_curves_properties_header.png
 
@@ -16,10 +16,11 @@ Shape
 
    Curves Shape panel.
 
-
-2D and 3D Curves
+Dimensions
    By default, new curves are set to be 3D, which means that Control Points can be placed anywhere in 3D space.
    Curves can also be set to 2D which constrain the Control Points to the Curve's local XY axis.
+
+   2D, 3D
 
 .. _curve-resolution:
 
@@ -73,80 +74,6 @@ Path/Curve-Deform
    - :doc:`/rigging/constraints/relationship/follow_path`
    - :doc:`/modeling/modifiers/deform/curve`
    - :doc:`Animation Paths </animation/techniques/object_path>`
-
-
-Geometry
-========
-
-.. figure:: /images/modeling_curves_properties_geometry-panel.png
-
-   Curves Geometry panel.
-
-
-Modification
-   Offset
-      By default, text Objects are treated as curves.
-      The Offset option will alter the space between letters.
-   Extrude
-      Will extrude the curve along both the positive and negative local Z axes.
-Bevel
-   Depth
-      Changes the size of the bevel.
-
-      .. figure:: /images/modeling_curves_geometry-bevel-depth.png
-
-         A Curve with different Bevel depths applied.
-
-   Resolution
-      Alters the smoothness of the bevel.
-
-      .. figure:: /images/modeling_curves_geometry-bevel-resolution.png
-
-         A Curve with different resolutions applied.
-
-Taper Object
-   Tapering a Curve causes it to get thinner towards one end.
-   You can also alter the proportions of the Taper throughout the tapered object
-   by moving/scaling/rotating the Control Points of the Taper Object.
-   The Taper Object can only be another Curve.
-   Editing the Handles and Control Points of the Taper Object will cause the original Object to change shape.
-
-   .. figure:: /images/modeling_curves_geometry-taper.jpg
-
-      A Curve before (left) and after (right) a Bézier Curve Taper Object was applied.
-
-Bevel Object
-   Beveling a Bézier Curve with a Bézier Curve as the Bevel Object generally gives it the appearance of a plane,
-   while using a Bézier Circle as the Bevel Object will give it the appearance of a cylinder.
-   The Bevel Object can only be another Curve.
-   Editing the Handles and Control Points of the Bevel Object will cause the original Object to change shape.
-   Given the options available, it is best to experiment and see the results of this operation.
-
-   .. figure:: /images/modeling_curves_geometry-bevel.jpg
-
-      A Curve with the Bevel Object as a Bézier Curve (left) and as a Bézier Circle (right).
-
-Fill Caps
-   Seals the ends of a beveled Curve.
-Map Taper
-   For Curves using a Taper Object and with modifications to the *Start/End Bevel Factor*
-   the *Map Taper* option will apply the taper to the beveled part of the Curve (not the whole Curve).
-
-   .. figure:: /images/modeling_curves_geometry-map-taper.jpg
-
-      A Curve without (left) and with (right) Map Taper applied.
-
-Start Bevel Factor and End Bevel Factor
-   These options determine where to start the Bevel operation on the Curve being beveled.
-   Increasing the *Start Bevel Factor* to 0.5 will start beveling the Curve 50% of the distance from the start
-   of the Curve (in effect shortening the Curve).
-   Decreasing the *End Bevel Factor* by 0.25 will start beveling the Curve 25% of the distance from the end
-   of the Curve (again, shortening the Curve).
-
-   .. figure:: /images/modeling_curves_geometry-bevel-start-end-factor.jpg
-
-      A Curve with no Bevel factor applied (left),
-      with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
 
 
 .. _curve-path-animation:

@@ -33,7 +33,7 @@ you can roll a sheet of paper to create a cylinder; well, even if it "draws" a v
 the sheet itself will remain a (nearly...) 2D object!
 
 In fact, surfaces are very similar to the results you get when
-:doc:`extruding a curve </modeling/curves/editing/extrude>`.
+:doc:`extruding a curve </modeling/curves/properties/geometry>`.
 
 
 Finding Surface Tools

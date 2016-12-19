@@ -1,0 +1,50 @@
+.. (todo) generalize from extrude
+
+************
+Introduction
+************
+
+Attributes
+==========
+
+Weight
+======
+
+ToDo.
+
+
+Radius
+======
+
+The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
+The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
+the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
+or the :kbd:`N` :menuselection:`--> transform --> Radius`.
+
+.. figure:: /images/modeling_curves_editing_extrude_example-7_radius.png
+
+   One control point radius set to zero.
+
+.. tip::
+
+   Remember, these curves can be converted into meshes with :kbd:`Alt-C` in Object Mode
+
+
+Tilt
+====
+
+This setting controls how the normals (visualization: arrows)
+twist around each control point -- so it is only relevant with 3D curves!
+You set it using the *Tilt* transform tool in the :kbd:`T` tool shelf,
+the :kbd:`N` :menuselection:`--> transform --> Mean tilt`, :menuselection:`Curve --> Transform --> Tilt`.
+
+You can also reset it to its default value (i.e. perpendicular to the original curve plane)
+with :kbd:`Alt-T`, :menuselection:`Curve --> Control Points --> Clear Tilt`.
+With NURBS, the tilt is always smoothly interpolated.
+However, with Bézier, you can choose the interpolation algorithm between
+Linear, Ease, B-Spline, and Cardinal, in the
+:menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
+
+.. figure:: /images/modeling_curves_editing_extrude_example-3_mean-tilt.png
+
+   30 degree Mean Tilt of all control points.

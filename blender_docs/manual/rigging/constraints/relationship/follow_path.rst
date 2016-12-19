@@ -77,7 +77,7 @@ Target
    and is not functional (red state) when it has none.
 
 Curve Radius
-   Objects scale by the curve radius. See :doc:`Curve Editing </modeling/curves/editing/extrude>`
+   Objects scale by the curve radius. See :doc:`Curve Editing </modeling/curves/properties/geometry>`
 Fixed Position
    Object will stay locked to a single point somewhere along the length of the curve regardless of time
 Offset

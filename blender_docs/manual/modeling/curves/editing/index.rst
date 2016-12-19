@@ -8,5 +8,4 @@
    :maxdepth: 2
 
    introduction.rst
-   extrude.rst
    draw.rst

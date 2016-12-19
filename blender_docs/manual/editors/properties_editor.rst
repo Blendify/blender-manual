@@ -61,7 +61,7 @@ The Object Data tabs shown depend on what type of object was selected last (The 
 ..
 
 - :doc:`Mesh </modeling/meshes/properties/object_data>`
-- :doc:`Curve </modeling/curves/properties>`
+- :doc:`Curve </modeling/curves/properties/index>`
 - :doc:`Surface </modeling/surfaces/properties>`
 - :doc:`Metaball </modeling/metas/properties>`
 - :doc:`Text </modeling/texts/properties>`
