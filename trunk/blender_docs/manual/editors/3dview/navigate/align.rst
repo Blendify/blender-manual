@@ -28,7 +28,7 @@ Align View to Active
    Hold down :kbd:`Shift` while using the numpad to set the view axis.
 
 Center Cursor and View All :kbd:`Shift-C`
-   moves the cursor back to the origin and zooms in/out so that you can see everything in your scene.
+   Moves the cursor back to the origin and zooms in/out so that you can see everything in your scene.
 Align Active Camera to View :kbd:`Ctrl-Alt-Numpad0`
    Gives your active camera the current viewpoint.
 Align Active Camera to Selected

@@ -13,6 +13,12 @@ the object will move closer or further away from the curve.
 When you move the object beyond the curve endings the object will continue
 to deform based on the direction vector of the curve endings.
 
+If the curve is 3D, the *Tilt* value of its control points will be used
+to twist the deformed object.
+In the :menuselection:`Curve tab --> Shape panel` under 
+:ref:`Path/Curve-Deform <curve-shape-path-curve-deform>`
+are options that influence the modifier.
+
 
 Options
 =======
@@ -21,13 +27,10 @@ Options
 
    Curve Modifier.
 
-
 Object
    The name of the curve object that will affect the deformed object.
-
 Vertex Group
    A vertex group name within the deformed object. The modifier will only affect vertices assigned to this group.
-
 Deformation Axis
    This is the axis that the curve deforms along.
 
@@ -44,7 +47,7 @@ Let us make a simple example:
 
 .. _fig-modifier-curve-edit:
 
-.. figure:: /images/curvesdeform_exampleeditcurve2.png
+.. figure:: /images/modeling_modifiers_deform_curve_example-edit-curve.png
    :width: 300px
 
    Edit Curve.
@@ -59,7 +62,7 @@ Let us make a simple example:
 
    Assign the Bézier curve to the Curve Modifier (for Monkey).
 
-.. figure:: /images/curvesdeform_examplemonkeyoncurve3.png
+.. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve1.png
    :width: 200px
 
    Monkey on a Curve.
@@ -70,9 +73,10 @@ Let us make a simple example:
 
 .. tip::
 
-   If you press :kbd:`MMB` while moving the Monkey you will constrain the movement to one axis only.
+   If you press :kbd:`MMB` (or one of :kbd:`X`, :kbd:`Y`, :kbd:`Z`)
+   while moving the Monkey you will constrain the movement to one axis only.
 
-.. figure:: /images/curvesdeform_examplemonkeyoncurve2.png
+.. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve2.png
    :width: 250px
 
    Monkey deformations.

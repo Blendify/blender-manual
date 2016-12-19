@@ -55,14 +55,23 @@ Fill
 
       Curves with a fill of half (left) and full (right).
 
+.. _curve-shape-path-curve-deform:
+
 Path/Curve-Deform
-   These options are primarily utilized when using a Curve as a Path or when using the Curve Deform property.
-   The *Radius, Stretch* and *Bounds Clamp* options control how Objects use the
-   Curve and are dealt with in more detail in the appropriate links below.
+   These options are primarily utilized when using a Curve as a Path or when using the Curve Deform Modifier.
+   They control how objects use the curve and are dealt with in more detail in the appropriate links below.
+   
+   Radius
+      The *Radius* property can be used to control the size of the deformed object.
+   Stretch
+      The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
+   Bounds Clamp
+      ToDo.
 
 .. seealso::
 
-   - :doc:`Basic Curve Editing </modeling/curves/editing/introduction>`
+   - :doc:`/rigging/constraints/relationship/follow_path`
+   - :doc:`/modeling/modifiers/deform/curve`
    - :doc:`Animation Paths </animation/techniques/object_path>`
 
 
