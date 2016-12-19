@@ -1,20 +1,30 @@
 
 ***************
-Curve Extrusion
+Geometry
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. figure:: /images/modeling_curves_properties_geometry-panel.png
 
-   | Mode:     Object or Edit Mode
-   | Panel:    *Curve and Surface*
+   Curves Geometry panel.
 
+
+Modification
+============
+
+Offset
+   Moves the extrusion parallel to the curve normals.
+   By default, text Objects are treated as curves.
+   The Offset option will alter the space between letters.
+
+   .. figure:: /images/modeling_curves_editing_extrude_example-6_offset.png
+      :width: 320px
+
+      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
 Extrude
+   Will extrude the curve along both the positive and negative local Z axes.
    Turns an one dimensional curve into a two dimensional curve by giving it height.
-   Note that this is not related to *Extrude* used in mesh edit-mode.
-   With a scale of one,
-   an *Extrusion* of 0.5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals.
+   With a scale the sum of both directions, perpendicular to the curves normals.
 
    .. list-table::
 
@@ -28,61 +38,9 @@ Extrude
 
              Extruded by 0.5 (Object Mode).
 
-Tilt
-   This setting controls how the normals (visualization: arrows)
-   twist around each control point -- so it is only relevant with 3D curves!
-   You set it using the *Tilt* transform tool in the :kbd:`T` tool shelf,
-   the :kbd:`N` :menuselection:`--> transform --> Mean tilt`, :menuselection:`Curve --> Transform --> Tilt`.
 
-   You can also reset it to its default value (i.e. perpendicular to the original curve plane)
-   with :kbd:`Alt-T`, :menuselection:`Curve --> Control Points --> Clear Tilt`.
-   With NURBS, the tilt is always smoothly interpolated.
-   However, with Bézier, you can choose the interpolation algorithm between
-   Linear, Ease, B-Spline, and Cardinal, in the
-   :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
-
-   .. figure:: /images/modeling_curves_editing_extrude_example-3_mean-tilt.png
-
-      30 degree Mean Tilt of all control points.
-
-Bevel Depth
-   This will add a bevel to the extrusion. See below for its effects...
-   Note that the bevel makes the extrusion wider and higher.
-   If set to 0.0, there is no bevel.
-
-   .. figure:: /images/modeling_curves_editing_extrude_example-4_bevel-depth.png
-
-      Bevel depth of 0.25, fill set to full, zero Mean Tilt.
-
-Bevel Resolution
-   Controls the resolution of the bevel created by a *Bevel Depth* higher than zero.
-   If set the to 0 (the default), the bevel is a simple "flat" surface.
-   Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself...
-
-   .. figure:: /images/modeling_curves_editing_extrude_example-5_bevel-resolution.png
-
-      Bevel resolution set to 10.
-
-Offset
-   Moves the extrusion parallel to the curve normals. *Almost like scaling*
-
-   .. figure:: /images/modeling_curves_editing_extrude_example-6_offset.png
-
-      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
-
-Radius
-   The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
-   The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
-   the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
-   or the :kbd:`N` :menuselection:`--> transform --> Radius`.
-
-   .. figure:: /images/modeling_curves_editing_extrude_example-7_radius.png
-
-      One control point radius set to zero.
-
-   .. tip::
-
-      Remember, these curves can be converted into meshes with :kbd:`Alt-C` in Object Mode
+Examples
+--------
 
 We have three sub-classes of results, depending on whether the curve is open or closed or 3D:
 
@@ -116,25 +74,75 @@ Closed 2D Curve
    It will make the ribbon twist around the curve to create a mobius strip, for example.
 
 
-Advanced Extrusion
-------------------
+Bevel
+=====
 
-These extrusions use one or two additional curve objects,
-to create very complex organic shapes.
+Depth
+   Changes the size of the bevel.
 
-To enable this type of extrusion, you have to type a valid curve object name in the
-*Bevel Object* field of the curve you are going to use as the "spinal column" of your
-extrusion. The "bevel" curve will control the cross section of the extruded object.
-Whether the *Bevel Object* curve is 2D or 3D has no importance, but if it is closed,
-it will create a "tube-like" extrusion;
-otherwise you will get a sort of gutter or slide object...
+   .. figure:: /images/modeling_curves_geometry-bevel-depth.png
 
-The object is extruded along the whole length of all internal curves. By default,
-the width of the extrusion is constant, but you have two ways to control it,
-the *Radius* property of control points (see above), and the "taper" object.
+      A Curve with different Bevel depths applied.
 
-The taper curve is evaluated along *the local X axis*,
-using *the local Y axis* for width control. Note also that:
+Resolution
+   Alters the smoothness of the bevel.
+
+   .. figure:: /images/modeling_curves_geometry-bevel-resolution.png
+
+      A Curve with different resolutions applied.
+
+Bevel Object
+   The Bevel Object controls the cross section of the extruded curve.
+   The Bevel Object can only be another curve both 2D or 3D, and opened or closed.
+   Editing the Handles and Control Points of the Bevel Object will cause the original Object to change shape.
+
+   .. figure:: /images/modeling_curves_geometry-bevel.jpg
+
+      A Curve with the Bevel Object as a Bézier Curve (left) and as a Bézier Circle (right).
+
+Start Bevel Factor and End Bevel Factor
+   These options determine where to start the Bevel operation on the Curve being beveled.
+   Increasing the *Start Bevel Factor* to 0.5 will start beveling the Curve 50% of the distance from the start
+   of the Curve (in effect shortening the Curve).
+   Decreasing the *End Bevel Factor* by 0.25 will start beveling the Curve 25% of the distance from the end
+   of the Curve (again, shortening the Curve).
+
+   .. figure:: /images/modeling_curves_geometry-bevel-start-end-factor.jpg
+
+      A Curve with no Bevel factor applied (left),
+      with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
+
+Fill Caps
+   Seals the ends of a beveled Curve.
+
+
+Taper
+=====
+
+Taper Object
+   The taper curve is evaluated along the local X axis,
+   using the local Y axis for width control. Note also that:
+   Tapering a Curve causes it to get thinner towards one end.
+   You can also alter the proportions of the Taper throughout the tapered object
+   by moving/scaling/rotating the Control Points of the Taper Object.
+   The Taper Object can only be another Curve.
+   Editing the Handles and Control Points of the Taper Object will cause the original Object to change shape.
+
+   .. figure:: /images/modeling_curves_geometry-taper.jpg
+
+      A Curve before (left) and after (right) a Bézier Curve Taper Object was applied.
+
+Map Taper
+   For Curves using a Taper Object and with modifications to the *Start/End Bevel Factor*
+   the *Map Taper* option will apply the taper to the beveled part of the Curve (not the whole Curve).
+
+   .. figure:: /images/modeling_curves_geometry-map-taper.jpg
+
+      A Curve without (left) and with (right) Map Taper applied.
+
+
+Details
+-------
 
 - It must be an *open curve*.
 - The taper is applied independently to all curves of the extruded object.

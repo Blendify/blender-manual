@@ -26,7 +26,7 @@ less data and so can produce results using less memory and storage space at mode
 time. However, this procedural approach to surfaces can increase demands at render time.
 
 Certain modeling techniques, such as
-:doc:`extruding a profile along a path </modeling/curves/editing/extrude>`,
+:doc:`extruding a profile along a path </modeling/curves/properties/geometry>`,
 are possible only using curves. On the other hand, when using curves,
 vertex-level control is more difficult and if fine control is necessary,
 :doc:`mesh editing </modeling/meshes/editing/introduction>` may be a better modeling option.

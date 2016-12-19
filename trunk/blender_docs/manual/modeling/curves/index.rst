@@ -11,7 +11,7 @@
    primitives.rst
    bezier.rst
    nurbs.rst
-   properties.rst
    selecting.rst
    editing/index.rst
+   properties/index.rst
    curve_display.rst

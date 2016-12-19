@@ -80,7 +80,7 @@ Tools
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
 :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
-:doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
+:doc:`Curve Extrusion </modeling/curves/properties/geometry>`.
 
 
 Mirror
