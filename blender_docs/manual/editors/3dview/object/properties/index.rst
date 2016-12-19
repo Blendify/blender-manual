@@ -1,7 +1,7 @@
 
-#####################
-  Objects Properties
-#####################
+##############
+  Properties
+##############
 
 .. toctree::
    :maxdepth: 2
