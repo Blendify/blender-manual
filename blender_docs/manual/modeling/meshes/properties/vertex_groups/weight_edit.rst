@@ -143,7 +143,7 @@ Pasting
 -------
 
 :kbd:`LMB` the Paste Icon allows you to forward a single weight of the active Vertex to all selected vertices.
-But note that weights are only pasted to verts which already have a weight value in the affected Vertex Group.
+But note that weights are only pasted to vertices which already have a weight value in the affected Vertex Group.
 
 .. figure:: /images/modeling-meshes-vertex-weight-editor-delete.png
    :width: 235px
@@ -198,8 +198,8 @@ Whenever a Weight Group is locked, all data changing functions get disabled:
 
 - Normalize the vertex Weights.
 - Copy the Vertex weights.
-- Change the Weight of the active vert.
-- Paste to selected verts.
+- Change the Weight of the active vertices.
+- Paste to selected vertices.
 
 
 .. tip:: The filter setting is respected

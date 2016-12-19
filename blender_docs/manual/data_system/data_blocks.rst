@@ -242,7 +242,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - Mesh
      - |tick|
      - |cross|
-     - | Geometry verts/edges/faces.
+     - | Geometry vertices/edges/faces.
        | Used as object-data.
    * - MetaBall
      - |tick|

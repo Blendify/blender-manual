@@ -100,8 +100,8 @@ Error Messages
 Vertex group *group_name* is not valid
    This message is displayed when a user deletes a Vertex Group or when the user changes the
    name of the Vertex Group.
-Verts changed from X to Y
-   This message is displayed when a user add or delete verts to the mesh.
+Vertices changed from X to Y
+   This message is displayed when a user add or delete vertices to the mesh.
 Edges changed from X to Y
    This message is displayed when a user add or delete edges to the mesh.
 The system did not find a solution

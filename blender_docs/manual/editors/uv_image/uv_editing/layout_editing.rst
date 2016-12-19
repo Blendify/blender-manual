@@ -88,7 +88,7 @@ Stitch
 ------
 
 *Stitch*, :kbd:`V`, will join selected UVs that share vertices.
-You set the tool to limit stitching by distance in the Tool Settings,
+You set the tool to limit stitching by distance in the Operator panel,
 by activating *Use Limit* and adjusting the *Limit Distance*
 
 
