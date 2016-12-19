@@ -8,13 +8,13 @@ Attributes
 ==========
 
 Weight
-======
+------
 
 ToDo.
 
 
 Radius
-======
+------
 
 The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
 The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
@@ -22,6 +22,7 @@ the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
 or the :kbd:`N` :menuselection:`--> transform --> Radius`.
 
 .. figure:: /images/modeling_curves_editing_extrude_example-7_radius.png
+   :width: 320px
 
    One control point radius set to zero.
 
@@ -31,7 +32,7 @@ or the :kbd:`N` :menuselection:`--> transform --> Radius`.
 
 
 Tilt
-====
+----
 
 This setting controls how the normals (visualization: arrows)
 twist around each control point -- so it is only relevant with 3D curves!
@@ -46,5 +47,6 @@ Linear, Ease, B-Spline, and Cardinal, in the
 :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
 
 .. figure:: /images/modeling_curves_editing_extrude_example-3_mean-tilt.png
+   :width: 320px
 
    30 degree Mean Tilt of all control points.

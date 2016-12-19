@@ -44,6 +44,8 @@ This manual referrers to mouse buttons as:
   Scrolling the wheel.
 
 
+.. _about-user-contribute:
+
 Contribute
 ==========
 

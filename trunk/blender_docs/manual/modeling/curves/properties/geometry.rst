@@ -1,7 +1,7 @@
 
-***************
+********
 Geometry
-***************
+********
 
 .. figure:: /images/modeling_curves_properties_geometry-panel.png
 
@@ -24,7 +24,7 @@ Offset
 Extrude
    Will extrude the curve along both the positive and negative local Z axes.
    Turns an one dimensional curve into a two dimensional curve by giving it height.
-   With a scale the sum of both directions, perpendicular to the curves normals.
+   With a scale is the sum of both directions, perpendicular to the curves normals.
 
    .. list-table::
 
@@ -51,6 +51,7 @@ Open 2D Curve
    :ref:`here <curve-switch-direction>`
 
    .. figure:: /images/modeling_curves_editing_extrude_example-8_open-curve.png
+      :width: 320px
 
       Open 2D Curve with :kbd:`Alt-C`, fill set to none,
       zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
@@ -63,6 +64,7 @@ Closed 2D Curve
    The optional bevel depth will always create a 90 degree bevels here.
 
    .. figure:: /images/modeling_curves_editing_extrude_example-9_closed-curve.png
+      :width: 320px
 
       Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both.
 
