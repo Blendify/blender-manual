@@ -195,7 +195,7 @@ Get Involved
 
 This manual is maintained largely by volunteers.
 
-Please consider to join the effort and :doc:`Contribute to this Manual </about/introduction>`.
+Please consider to join the effort and :ref:`Contribute to this Manual <about-user-contribute>`.
 
 
 .. [1] The White Room model by Jay Hardy.
