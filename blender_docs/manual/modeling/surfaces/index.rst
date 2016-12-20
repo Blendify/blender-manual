@@ -10,6 +10,6 @@
    introduction.rst
    structure.rst
    primitives.rst
-   properties.rst
    selecting.rst
    editing.rst
+   properties.rst

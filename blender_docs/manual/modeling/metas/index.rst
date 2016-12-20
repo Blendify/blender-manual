@@ -10,5 +10,5 @@
    introduction.rst
    primitives.rst
    structure.rst
-   properties.rst
    editing.rst
+   properties.rst
