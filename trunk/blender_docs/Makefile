@@ -114,7 +114,7 @@ check_links: .FORCE
 	      "or in $(BUILDDIR)/linkcheck/output.txt."
 
 clean: .FORCE
-	rm -rf "$(BUILDDIR)/*"
+	rm -rf $(BUILDDIR)/*
 
 update_po: .FORCE
 	- ./tools/maintenance/update_po.sh
