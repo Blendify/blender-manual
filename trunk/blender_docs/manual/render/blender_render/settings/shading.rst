@@ -12,7 +12,7 @@ Shadows
 Subsurface Scattering
    All :doc:`/render/blender_render/materials/properties/subsurface_scattering`.
 Environment Map
-   The :ref:`world-texture <bi-world-texture>`.
+   The :ref:`world texture <bi-world-texture>`.
 Ray Tracing
    The :doc:`shadow tracing </render/blender_render/lighting/shadows/raytraced_properties>`.
 Alpha

@@ -3,6 +3,14 @@
 Primitives
 **********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode and Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Create --> Add Primitive/Metaball`
+   | Menu:     :menuselection:`Add --> Meta`
+   | Hotkey:   :kbd:`Shift-A`
+
 There are five predefined meta "primitives" (or configurations)
 available in the :menuselection:`Add --> Meta` sub-menu:
 
