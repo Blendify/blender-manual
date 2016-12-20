@@ -12,7 +12,7 @@ Introduction
 
 .. _fig-texts-intro-example:
 
-.. figure:: /images/textsamples.jpg
+.. figure:: /images/modeling_textsamples.jpg
    :width: 400px
 
    Text Examples.
