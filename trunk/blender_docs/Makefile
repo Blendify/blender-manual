@@ -114,7 +114,7 @@ check_links: .FORCE
 	      "or in $(BUILDDIR)/linkcheck/output.txt."
 
 clean: .FORCE
-	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex" "$(BUILDDIR)/locale" "$(BUILDDIR)/linkcheck"
+	rm -rf "$(BUILDDIR)/*"
 
 update_po: .FORCE
 	- ./tools/maintenance/update_po.sh
