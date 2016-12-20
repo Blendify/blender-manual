@@ -72,6 +72,8 @@ Exposure and Range
 See :doc:`/render/blender_render/world/exposure`.
 
 
+.. _bi-world-texture:
+
 Textures
 ========
 

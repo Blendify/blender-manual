@@ -60,11 +60,11 @@ clicking the manipulator handle and then holding the shortcut key for precision 
    :doc:`Pivot Points </editors/3dview/object/transform/transform_control/pivot_point/index>`.
 
 
-Holding CTRL
-============
+Snapping
+========
 
-Grab/move transformations
--------------------------
+Grab/move
+---------
 
 .. figure:: /images/interaction-transform_control_precision_blender-units.png
    :align: right
@@ -86,14 +86,14 @@ Zooming out will have the opposite effect and cause movement to happen by increm
    :doc:`Read more about Zooming </editors/3dview/navigate/introduction>`
 
 
-Rotation transformations
-------------------------
+Rotation
+--------
 
 Holding :kbd:`Ctrl` will cause rotations of 5 degrees.
 
 
-Scale transformations
----------------------
+Scale
+-----
 
 Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
 
@@ -106,8 +106,8 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
    :doc:`Read more about Snapping </editors/3dview/object/transform/transform_control/precision/snap>`
 
 
-Holding SHIFT
-=============
+Precision
+=========
 
 Holding :kbd:`Shift` during transformations allows for very fine control that does not
 rely on fixed increments. Rather, large movements of the mouse across the screen only result
@@ -116,11 +116,11 @@ in small transformations of the selection.
 In rotation mode the selected element will be rotate in 0.01 degree increments.
 
 
-Holding CTRL and SHIFT
-======================
+Precision Snapping
+==================
 
-Grab/move transformations
--------------------------
+Grab/move
+---------
 
 For grab/move operations at the default zoom level, holding :kbd:`Ctrl-Shift` will cause
 your selection to move by increments of 1/10 Blender Units. Holding :kbd:`Ctrl-Shift` at
@@ -128,8 +128,8 @@ any zoom level will cause the transformation increments to always be 1/10 of the
 you were only holding :kbd:`Ctrl`.
 
 
-Rotation transformations
-------------------------
+Rotation
+--------
 
 Holding :kbd:`Ctrl-Shift` will cause rotations of 1 degree.
 
