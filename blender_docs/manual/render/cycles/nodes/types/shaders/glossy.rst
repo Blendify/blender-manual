@@ -11,23 +11,31 @@ Glossy Node
 The *Glossy* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add reflection with microfacet distribution, used for materials such as metal or mirrors.
 
+
 Inputs
 ======
 
 Color
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 Roughness
-   Influences sharpness of the reflection; perfectly sharp at 0.0 and smoother with higher values.
+   Input for the surface roughness resulting in sharp to blurry reflections.
 Normal
-   Normal used for shading; if nothing is connected the default shading normal is used.
+   Normal used for shading.
 
 
 Properties
 ==========
 
 Distribution
-   Microfacet distribution to use. *Sharp* results in perfectly sharp reflections like a mirror,
-   while *Beckmann*, *GGX* and *Ashikhmin-Shirley* can use the *Roughness* input for blurry reflections.
+   Microfacet distribution to use.
+
+   Sharp
+      Results in perfectly sharp reflections like a mirror, the *Roughness* value is not used.
+   Multiple-scattering GGX
+      Takes multiple bounces (scattering) events between microfacets into account.
+      This gives a more energy conserving results, which would else be visible as excessive darkening.
+
+   Beckmann, GGX, Ashikhmin-Shirley
 
 
 Outputs

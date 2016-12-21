@@ -160,30 +160,8 @@ Pie menus have to be activated in the User Preferences through
 Interaction
 -----------
 
-The pie menu is spawned by a key press.
-
-.. rubric:: 3D View
-
-- :kbd:`Tab` Interaction Mode
-- :kbd:`Z` Shade and solid or smooth shading
-- :kbd:`Q` View directions and perspective or ortho. and camera
-- :kbd:`Tab-Shift-Ctrl` Snapping
-- :kbd:`.` Pivot
-- :kbd:`Ctrl-Space` Manipulator
-
-.. rubric:: Movie Clip Editor
-
-- :kbd:`W` Clip Setup
-- :kbd:`Q` Marker Setup
-- :kbd:`E` Tracking
-- :kbd:`Shift-S` Solving
-- :kbd:`Shift-W` Scene Reconstruction
-- :kbd:`OS-A` Playback Operators
-
-.. rubric:: Grease Pencil
-
-- :kbd:`D-Q` Main tools menu (context sensitive)
-- :kbd:`D-W` Quick Settings
+The pie menu is spawned by a key press,
+which are listed in the :ref:`Add-on Preferences <user-prefs-addons-prefs>`.
 
 Releasing the key without moving the mouse will keep the menu open and
 the user can then move the mouse pointer towards the direction of a pie menu item and select it by clicking.

@@ -8,6 +8,7 @@ Integrator Panel
 
 See the :doc:`integrator settings </render/cycles/settings/integrator>` for details.
 
+
 Performance Panel
 =================
 
@@ -20,7 +21,9 @@ Threads
       if you want to use your computer while rendering you can set the property
       to a thread count lower the the amount of logical processors on your computer.
 
-.. rubric:: Tiles
+
+Tiles
+-----
 
 Tile Order
    Order of rendering tiles. This does not significantly affect performance.
@@ -43,7 +46,9 @@ Save Buffers
    Save all render layers and passes to disk in the temp directory, and read them back after rendering has
    finished. This saves memory usage during rendering, particularly when using many render layers and passes.
 
-.. rubric:: Viewport
+
+Viewport
+--------
 
 Viewport BVH Type
    Dynamic BVH
@@ -54,18 +59,23 @@ Viewport BVH Type
 Start Resolution
    Resolution to start rendering preview at, progressively increase it to the full viewport size.
 
-.. rubric:: Final Render
+
+Final Render
+------------
 
 Persistent Images
    Keep image data in memory after rendering, for faster re-renders at the cost of extra memory usage when
    performing other tasks in Blender.
 
-.. rubric:: Acceleration Structure
+
+Acceleration Structure
+----------------------
 
 Use Spatial Splits
    Spatial splits improve rendering performance in scenes with a mix of large and small polygons. The
    downsides are longer BVH build times and slightly increased memory usage.
 
 Use Hair BVH
-   Use a special type of :term:`BVH` for rendering hair. Disabling this option will reduce memory, at the cost of
-   increasing hair render time.
+   Use a special type of :term:`BVH` for rendering hair.
+   The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.
+   Disabling this option will reduce memory, at the cost of increasing hair render time.

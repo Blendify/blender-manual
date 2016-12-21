@@ -62,6 +62,8 @@ Here you can also find a button to report a bug specific of this add-on.
    you will need to *Save User Settings*.
 
 
+.. _user-prefs-addons-prefs:
+
 Add-on Preferences
 ------------------
 
