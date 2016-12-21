@@ -6,17 +6,45 @@ Properties
 Shape
 =====
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object or Edit Mode
+   | Panel:    :menuselection:`Properties editor --> Text --> Shape`
+
+
+.. figure:: /images/textshapesettings.jpg
+
+   The Shape panel.
+
+As you can see in the Shape panel, texts have most of the same options as curves.
+
+
 Resolution
-   Preview
-      The surface resolution in the U direction to use in the viewport.
-   Render
-      he surface resolution in the U direction, set to zero to use the the *Preview* resolution.
+----------
+
+Preview
+   The surface resolution in the U direction to use in the viewport.
+Render
+   The surface resolution in the U direction, set to zero to use the the *Preview* resolution.
+
 
 Fill
-   Determines the way a Curve is displayed when it is beveled.
+----
 
-   Fill Deformed
-      Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
+Fill
+   Determines the way a Curve is filled in when it is extruded or beveled.
+
+   Front
+      Fills in the front side of the surface.
+   Back
+      Fills in the back side of the surface.
+Fill Deformed
+   Fills the curves after applying all modification that might deform the curve (i.e. shape keys and modifiers).
+
+
+Display
+-------
 
 Fast Editing
    Does not fill polygons while editing text.
@@ -24,6 +52,16 @@ Fast Editing
 
 Texture Space
 =============
+
+.. figure:: /images/texttexturesettings.jpg
+
+   Texture Settings.
+
+
+Use UV for Mapping
+   Use UV values as generated texture coordinates.
+Auto Texture Space
+   Adjusts the active object's texture space automatically when transforming object.
 
 TODO.
 
