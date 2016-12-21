@@ -43,11 +43,9 @@ though it can be changed later from the *Add Constraint (with Targets)* Operator
 If there is an other object selected besides the active one,
 that object will be the constraint target (if the chosen constraint accepts targets).
 
-.. note::
-
-   When using a bone from another armature as the target for a constraint, the tool
-   will look inside the non-active armature and use its active bone,
-   provided that armature is in Pose Mode.
+When using a bone from another armature as the target for a constraint, the tool
+will look inside the non-active armature and use its active bone,
+provided that armature is in Pose Mode.
 
 
 Copy Constraints to Selected
