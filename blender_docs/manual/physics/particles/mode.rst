@@ -253,4 +253,10 @@ To un-hide all hidden particles press :kbd:`Alt-H`.
 Unify Length
 ------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Particle Edit Mode
+   | Menu:     :menuselection:`Specials --> Unify Length`
+
 This tool is used to make all selected hair uniform length by finding the average length.

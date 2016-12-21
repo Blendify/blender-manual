@@ -306,7 +306,7 @@ Face Stepping
 Topological Distance
    Which only takes into account the number of edges of the path and
    not the length of the edges to calculate the distances,
-Fill Region
+Fill Region :kbd:`Ctrl-Shift-RMB`
    ToDo.
 
 

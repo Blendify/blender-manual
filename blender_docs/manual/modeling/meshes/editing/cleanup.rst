@@ -16,11 +16,11 @@ Decimate Geometry
    | Menu:     :menuselection:`Mesh --> Clean up --> Decimate Geometry`
 
 
-The Decimate Modifier allows you to reduce the vertex/face count of a mesh with minimal shape changes.
+The Decimate Geometry tool allows you to reduce the vertex/face count of a mesh with minimal shape changes.
 
 Ratio
    Ratio of triangles to reduce to.
-Vetex Group
+Vertex Group
    Use the active vertex group as an influence.
 
    Weight
@@ -30,7 +30,9 @@ Vetex Group
 Symmetry
    Maintain symmetry on either the *X*, *Y*, or *Z* axis.
 
-.. seealso:: This tool works similar to the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
+.. seealso:: 
+
+   This tool works similar to the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
 
 
 Fill Holes
