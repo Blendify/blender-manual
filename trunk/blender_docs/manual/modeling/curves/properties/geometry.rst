@@ -13,8 +13,6 @@ Modification
 
 Offset
    Moves the extrusion parallel to the curve normals.
-   By default, text Objects are treated as curves.
-   The Offset option will alter the space between letters.
 
    .. figure:: /images/modeling_curves_editing_extrude_example-6_offset.png
       :width: 320px

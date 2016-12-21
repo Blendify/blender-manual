@@ -83,7 +83,7 @@ Amount
    As usual, the scaling can be controlled to a finer degree by holding :kbd:`Shift` to scale in 0.001 steps.
    :kbd:`LMB` finalizes the operation, :kbd:`RMB` or :kbd:`Esc` aborts the action.
 
-Amount Type
+Amount Type :kbd:`M`
    Selects how the *Amount* value controls the size of the bevel. According to the selection, the amount is:
 
    Offset
@@ -95,10 +95,11 @@ Amount Type
    Percent
       The percentage of the length of adjacent edges that the new edges slide.
 
-Segments
+Segments :kbd:`S`
    The number of segments in the bevel can be defined by scrolling the
    mouse :kbd:`Wheel` to increase or decrease this value.
    The greater the number of segments, the smoother the bevel.
+   Or press :kbd:`S` to change the number with mouse movements, as well as numeric input.
 
    Alternatively, you can manually enter a segment number value while using the tool,
    or in the Mesh Tool options panel after using the tool.
@@ -108,15 +109,16 @@ Segments
 
       Bevel with four segments.
 
-Profile
+Profile :kbd:`P`
    This is a number between 0 and 1 that controls the shape of the profile (side view of a beveled edge).
    The default value, 0.5, gives a circular arc (if the faces meet at right angles).
    Values less than that give a flatter profile, with 0.25 being exactly flat,
    and values less than that giving a concave bevel.
    Values more than 0.5 give a more "bulged-out" profile.
-Vertex Only
+   Similarly as *Segments* it can be set with mouse movements and numeric input after toggling :kbd:`P`.
+Vertex Only :kbd:`V`
    When selected, the tool is in "vertex only" mode, and only vertices will be beveled.
-Clamp Overlap
+Clamp Overlap :kbd:`C`
    When selected, the bevel amount is not allowed to go larger than an amount that causes
    overlapping collisions with other geometry.
 Material

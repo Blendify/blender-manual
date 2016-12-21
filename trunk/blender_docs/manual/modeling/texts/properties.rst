@@ -47,9 +47,12 @@ Taper Object
    You can also alter the proportions of the Taper throughout the tapered object by moving/scaling/rotating
    the Control Points of the *Taper Object*. The *Taper Object* can only be a curve.
    Editing the Handles and Control Points of the *Taper Object* will cause the original object to change shape.
-
 Bevel Object
    Used to select a curve object that can be used to give custom bevel results.
+
+.. seealso::
+
+   :doc:`Curve geometry </modeling/curves/properties/geometry>` for more details and examples.
 
 
 Font
