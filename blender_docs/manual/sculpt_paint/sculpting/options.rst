@@ -10,67 +10,80 @@ Brush
 -----
 
 Brush Type
-   Brushes are brush presets. They are a combination of a 'tool',
-   along with stroke, texture, and options.
+^^^^^^^^^^
 
-   .. figure:: /images/sculpt-paint_sculpting_options_brushes.png
+Brushes are brush presets. They are a combination of a 'tool',
+along with stroke, texture, and options.
 
-      Sculpt brushes.
+.. figure:: /images/sculpt-paint_sculpting_options_brushes.png
 
-   Blob
-      Pushes mesh outward or inward into a spherical shape with settings to
-      control the amount of pinching at the edge of the sphere.
-   Clay
-      Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
-   Clay Strips
-      Similar to the *Clay* brush, but it uses a cube test to define the brush area of influence rather than a sphere.
-   Crease
-      Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
-   Draw
-      Moves vertices inward or outward,
-      based the average normal of the vertices contained within the drawn brush stroke.
-   Fill
-      Works like the Flatten brush, but only brings vertices below the brush plane upwards.
-      The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
-   Flatten
-      The *Flatten* brush finds an 'area plane'
-      located by default at the average height above/below the vertices within the brush area.
-      The vertices are then pulled towards this plane.
-      The inverse of the Flatten brush is the *Contrast*
-      brush which pushes vertices up or down away from the brush plane.
-   Grab
-      Used to drag a group of points around. Unlike the other brushes,
-      *Grab* does not modify different points as the brush is dragged across the model.
-      Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
-      The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
-      except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
-   Inflate
-      Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
-   Layer
-      This brush is similar to *Draw*, except that the height of the displacement layer is capped.
-      This creates the appearance of a solid layer being drawn.
-      This brush does not draw on top of itself; a brush stroke intersects itself.
-      Releasing the mouse button and starting a new stroke
-      will reset the depth and paint on top of the previous stroke.
-   Nudge
-      Moves vertices in the direction of the brush stroke.
+   Sculpt brushes.
+
+Blob
+   Pushes mesh outward or inward into a spherical shape with settings to
+   control the amount of pinching at the edge of the sphere.
+Clay
+   Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
+Clay Strips
+   Similar to the *Clay* brush, but it uses a cube test to define the brush area of influence rather than a sphere.
+Crease
+   Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
+Draw
+   Moves vertices inward or outward,
+   based the average normal of the vertices contained within the drawn brush stroke.
+Fill
+   Works like the Flatten brush, but only brings vertices below the brush plane upwards.
+   The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
+Flatten
+   The *Flatten* brush finds an 'area plane'
+   located by default at the average height above/below the vertices within the brush area.
+   The vertices are then pulled towards this plane.
+   The inverse of the Flatten brush is the *Contrast*
+   brush which pushes vertices up or down away from the brush plane.
+Grab
+   Used to drag a group of points around. Unlike the other brushes,
+   *Grab* does not modify different points as the brush is dragged across the model.
+   Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
+   The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
+   except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
+Inflate
+   Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
+Layer
+   This brush is similar to *Draw*, except that the height of the displacement layer is capped.
+   This creates the appearance of a solid layer being drawn.
+   This brush does not draw on top of itself; a brush stroke intersects itself.
+   Releasing the mouse button and starting a new stroke
+   will reset the depth and paint on top of the previous stroke.
+Nudge
+   Moves vertices in the direction of the brush stroke.
+Pinch
+   Pulls vertices towards the center of the brush.
+   The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
+Rotate
+   Rotates vertices within the brush in the direction the cursor is moved.
+Scrape
+   The *Scrape* brush works like the Flatten brush, but only brings vertices above the plane downwards.
+   The inverse of the Scrape brush is to *Peak* by pushing vertices above the plane up away from the plane.
+Smooth
+   As the name suggests,
+   eliminates irregularities in the area of the mesh within the brush's
+   influence by smoothing the positions of the vertices.
+Snake Hook
+   Pulls vertices along with the movement of the brush to create long, snake-like forms.
+
    Pinch
-      Pulls vertices towards the center of the brush.
-      The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
-   Rotate
-      Rotates vertices within the brush in the direction the cursor is moved.
-   Scrape
-      The *Scrape* brush works like the Flatten brush, but only brings vertices above the plane downwards.
-      The inverse of the Scrape brush is to *Peak* by pushing vertices above the plane up away from the plane.
-   Smooth
-      As the name suggests,
-      eliminates irregularities in the area of the mesh within the brush's
-      influence by smoothing the positions of the vertices.
-   Snake Hook
-      Pulls vertices along with the movement of the brush to create long, snake-like forms.
-   Thumb
-      Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
-      while moving it in the direction of the brush stroke.
+      Snake-hook tended to loose volume along the stroke,
+      with pinch > 0.5 its possible to sculpt shapes without loosing volume
+   Rake
+      A factor to support grabbing the mesh with rotation following the cursors motion.
+Thumb
+   Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
+   while moving it in the direction of the brush stroke.
+
+
+Common Options
+^^^^^^^^^^^^^^
+
 Radius
    This option controls the radius of the brush, measured in pixels.
    :kbd:`F` allows you to change the brush size interactively by
@@ -99,9 +112,10 @@ Strength
 
 Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
-Normal Weight
+Normal Weight :kbd:`Ctrl`
    Constrains brush movement along the surface normal.
    Especially useful with the *Grab Brush*, can be temporarily enabled by holding :kbd:`Ctrl`.
+   e.g. Grab brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set,
 
    Applies to *Grab* and *Snake Hook* brushes.
 Sculpt Plane

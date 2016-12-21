@@ -222,6 +222,7 @@ and/or Y fields. Just an X modification will create a new column.
 To delete the current frame, click the :kbd:`Delete` button.
 Any text in higher frames will be re-flowed downward into lower frames.
 
+
 Examples
 --------
 

@@ -33,7 +33,7 @@ Fill
 ----
 
 Fill
-   Determines the way a Curve is filled in when it is extruded or beveled.
+   Determines the way a Curve is filled in when it is extruded and/or beveled.
 
    Front
       Fills in the front side of the surface.
@@ -61,7 +61,7 @@ Texture Space
 Use UV for Mapping
    Use UV values as generated texture coordinates.
 Auto Texture Space
-   Adjusts the active object's texture space automatically when transforming object.
+   Adjusts the active object's texture space automatically when transforming the object.
 
 TODO.
 

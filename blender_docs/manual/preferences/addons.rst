@@ -70,12 +70,12 @@ Add-on Preferences
 Individual Activation
 ^^^^^^^^^^^^^^^^^^^^^
 
-Addons that activate or change multiple hotkeys now have a special system of activation.
-For example, with the "UI: Pie Menu Offial" add-on
-for each menu there's a selection box to activate the menu & it's hotkey.
+Add-ons that activate or change multiple hotkeys now have a special system of activation.
+For example, with the "UI: Pie Menu Official" add-on
+for each menu there's a selection box to activate the menu and its hotkey.
 
-With Pie menus, First you activate the addon. This activates the "Addons Preferences Submodule Activation".
-You then need to expand the Addons Preferences, then you will see the list of Pie Menu types you can choose from.
+With Pie menus, First you activate the add-on. This activates the "Add-ons Preferences Submodule Activation".
+You then need to expand the Add-ons Preferences, then you will see the list of Pie Menu types you can choose from.
 From here you can individually activate the menus you like to use.
 If the menu conflicts with another favorite, there's no need to activate it.
 You can activate any combination & save as user settings so your activation are available next time you start Blender.
