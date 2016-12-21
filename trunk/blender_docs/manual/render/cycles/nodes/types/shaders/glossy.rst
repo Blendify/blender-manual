@@ -30,9 +30,9 @@ Distribution
    Microfacet distribution to use.
 
    Sharp
-      Results in perfectly sharp reflections like a mirror, the *Roughness* value is not used.
+      Results in perfectly sharp reflections like a mirror. The *Roughness* value is not used.
    Multiple-scattering GGX
-      Takes multiple bounces (scattering) events between microfacets into account.
+      Takes multiple bounce (scattering) events between microfacets into account.
       This gives a more energy conserving results, which would else be visible as excessive darkening.
 
    Beckmann, GGX, Ashikhmin-Shirley

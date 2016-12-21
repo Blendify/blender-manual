@@ -59,7 +59,7 @@ Navigation icon buttons
       Move to next folder.
    Up Arrow :kbd:`P`
       Move up to parent directory.
-   Cycle Arrows :kbd:`Numpad .`
+   Cycle Arrows :kbd:`R`, :kbd:`Numpad .`
       Refresh current folder.
 
 Create Directory
@@ -202,7 +202,18 @@ Parent Directory :kbd:`Backspace`, :kbd:`P`
 Arrow Keys
 ^^^^^^^^^^
 
-With :kbd:`Alt` pressed. ToDo.
+Directory navigation is now also possible through the arrow keys with :kbd:`Alt` pressed:
+
+- Go to Parent :kbd:`Alt-Up`
+- Previous :kbd:`Alt-Left`
+- Next Directory :kbd:`Alt-Right`
+
+
+File Drop
+^^^^^^^^^
+
+You now can simply drag & drop files from your local file explorer into the blender file browser.
+This will relocate the File browser to the directory of the dropped file and the file will be selected. 
 
 
 Selection

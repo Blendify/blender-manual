@@ -166,6 +166,12 @@ Face Selection Mode:
 .. (todo) check type: Image in Cycles
 
 
+More/Less
+=========
+
+ToDo.
+
+
 Selecting Loops
 ===============
 

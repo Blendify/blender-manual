@@ -8,7 +8,7 @@ Mask Node
 
    Mask Node.
 
-The Mask node can be used to select a :doc:`Mask Datablock </editors/movie_clip_editor/masking>`.
+The Mask node can be used to select a :doc:`Mask Data-block </editors/movie_clip_editor/masking>`.
 This node can be used with other nodes, for example to Invert, Multiply or Mix, or use as a factor input.
 
 
@@ -21,6 +21,8 @@ This node has no input sockets.
 Properties
 ==========
 
+Masks
+   The selectable mask data-block. If the label is left blank the mask name will be set.
 Anti-Alias
    Create smooth mask edges rather than hard ones.
 Feather

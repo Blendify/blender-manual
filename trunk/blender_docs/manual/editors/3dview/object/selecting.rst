@@ -326,6 +326,34 @@ Layer
    This method also allows objects to be deselected.
 
 
+More/Less
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Select --> More/Less`
+   | Hotkey:   :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
+
+
+Their purpose, based on the hierarchical.
+
+More
+   Select connected parent/child objects.
+Less
+   Deselect objects at the boundaries of parent/child relationships.
+Parent
+   ToDo.
+Child
+   ToDo.
+Extend Parent
+   Extends the selection to the parent of the selection.
+   ToDo: active object.
+Extend Child
+   ToDo.
+
+
 Other Menu Options
 ------------------
 

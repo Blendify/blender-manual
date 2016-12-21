@@ -300,10 +300,22 @@ For detailed information about how to use color ramps,
 see: to the :doc:`Extended Controls </interface/controls/templates/color_ramp>` page.
 
 
+Fonts
+=====
+
+Interface Font
+--------------
+
+Interface Font
+   Replacement for the default user interface font.
+Mono-space Font
+   Same as above for the mono-space font.
+
+
 .. _prefs-system-international:
 
 Internationalization
-====================
+--------------------
 
 Blender supports a wide range of languages,
 enabling this check box will enable Blender to support International Fonts.
