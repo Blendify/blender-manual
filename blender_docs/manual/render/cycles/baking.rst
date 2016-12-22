@@ -59,8 +59,8 @@ Normals
    Normal Swizzle
       Axis to bake into the red, green and blue channel.
 
-For materials the same spaces can be chosen in the image texture options next to the existing *Normal Map*
-setting. For correct results, the setting here should match the setting used for baking.
+   For materials the same spaces can be chosen in the image texture options next to the existing *Normal Map*
+   setting. For correct results, the setting here should match the setting used for baking.
 
 UV
    Bakes colors of materials and textures only, without shading.
@@ -68,19 +68,17 @@ Emit
    Bakes Emission, or the Glow color of a material.
 Environment
    Bakes the environment as seen from the center of the object.
-Diffuse/Glossy/Transmission/Subsurface
+Diffuse, Glossy, Transmission, Subsurface
    Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
    .. figure:: /images/cycles-bake-diffuse.png
 
       Diffuse Pass Options.
 
-If only color is selected you get the pass color,
-which is a property of the surface and independent of sampling refinement.
-
-If color is not selected, you get the direct and/or indirect contributions in grayscale.
-
-If color and either direct or indirect is selected you get the direct and/or indirect contributions colored.
+   - If only color is selected you get the pass color,
+     which is a property of the surface and independent of sampling refinement.
+   - If color is not selected, you get the direct and/or indirect contributions in grayscale.
+   - If color and either direct or indirect is selected you get the direct and/or indirect contributions colored.
 
 
 Additional Options
