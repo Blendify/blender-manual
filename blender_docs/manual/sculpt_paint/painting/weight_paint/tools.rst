@@ -1,447 +1,160 @@
 
-************
-Weight Tools
-************
+*****
+Tools
+*****
 
-.. figure:: /images/painting_weight_weight-tools.png
+Brush
+=====
+
+.. figure:: /images/sculpt-paint_painting_weight-paint_properties_brush-panel.png
    :align: right
 
-   Weight Paint Tools.
+   Brush Panel.
 
-.. admonition:: Reference
-   :class: refbox
 
-   | Mode:     Edit Mode and Weight Paint Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Weight Tools`
-   | Menu:     :menuselection:`Weights`
+Painting needs paint brushes and Blender provides a Brush Panel within the Tool Shelf when it
+operates in *Weight Paint Mode*.
+
+Brush
+   In the :ref:`Data-Block menu <ui-data-block>` you find predefined Brush Presets.
+   And you can create your own custom presets as needed.
+Weight
+   The weight (color) to be used by the brush.
+   However, the weight value is applied to the Vertex Group
+   in different ways depending on the selected Brush Blending mode (see below).
+Strength
+   This is the amount of paint to be applied per brush stroke.
+   What that means exactly also depends on the Brush Blending mode.
+Radius
+   The radius defines the area of influence of the brush.
+
+   .. note::
+
+      You can also change the Brush radius with a keyboard shortcut while painting.
+      Just press :kbd:`F` at any time, then drag the mouse to increase/reduce the brush radius.
+      Finally click :kbd:`LMB` to use the new setting.
+      Or press :kbd:`Esc` at any time to return to the current settings.
+
+Blend mode
+   The brush Blending mode defines in which way the weight value is applied to the Vertex Group while painting.
+
+   Mix
+      In this Blend mode the Weight value defines the *target weight* that will eventually
+      be reached when you paint long enough on the same location of the mesh.
+      And the strength determines how many strokes you need to arrive at the target weight.
+      Note that for strength = 1.0 the target weight is painted immediately,
+      and for Weight = 0.0 the brush just does nothing.
+   Add
+      In this blend mode the specified weight value is *added* to the vertex weights.
+      The strength determines which fraction of the weight gets added per stroke.
+      However, the brush will not paint weight values above 1.0.
+   Subtract
+      In this blend mode the specified weight is *subtracted* from the vertex weights.
+      The strength determines which fraction of the weight gets removed per stroke.
+      However, the brush will not paint weight values below 0.0.
+   Lighten
+      In this blend mode the specified weight value is interpreted
+      as the target weight very similar to the Mix Blend mode.
+      But only weights below the target weight are affected.
+      Weights above the target weight remain unchanged.
+   Darken
+      This Blend mode is very similar to the Lighten Blend mode.
+      But only weights above the target weight are affected.
+      Weights below the target weight remain unchanged.
+   Multiply
+      Multiplies the vertex weights with the specified weight value.
+      This is somewhat like subtract, but the amount of removed weight is now dependent on the Weight value itself.
+   Blur
+      Smooths out the weighting of adjacent vertices.
+      In this mode the Weight Value is ignored.
+      The strength defines how much the smoothing is applied.
+
+      Accumulate
+         This option keeps applying smoothing on top of the previous result.
+
+         .. hint::
+
+            - Disable when painting individual vertices on lower poly modules.
+            - Enable for more dense geometry, or when you want to increase the blur effect.
+
+Auto Normalize
+   Ensures that all deforming vertex groups add up to one while painting. When this option is turned off,
+   then all weights of a vertex can have any value between 0.0 and 1.0. However, when Vertex Groups are used as
+   Deform Groups for character animation then Blender always interprets the weight values relative to each other.
+   That is, Blender always does a normalization over all deform bones. Hence in practice it is not necessary to
+   maintain a strict normalization and further normalizing weights should not affect animation at all.
+
+   This option works most intuitively when used to maintain normalization while painting on top of weights
+   that are already normalized with some other tool.
+Multi-Paint
+   Paint on all selected Vertex Groups simultaneously, in a way that preserves their relative influence.
+   This can be useful when tweaking weights in an area that is affected by more than three bones at once,
+   e.g. certain areas on a character's face.
+
+   This option is only useful in the Armature tab, where you can select multiple Vertex Groups
+   by selecting multiple Pose bones. Once at least two Vertex Groups are selected, viewport colors and
+   paint logic switch to Multi-Paint Mode, using the sum of the selected groups' weights if Auto Normalize
+   is enabled, and the average otherwise. Any paint operations aimed at this collective weight are applied
+   to individual Vertex Group weights in such way that their ratio stays the same.
+
+   Since the ratio is undefined if all weights are zero, Multi-Paint cannot operate on vertices that do not
+   have any weight assigned to the relevant Vertex Groups. For this reason it also does not allow reducing
+   the weight all the way to zero. When used with X-Mirror, it only guarantees completely symmetrical
+   result if weights are initially symmetrical.
+
+   .. tip::
+
+      While Multi-Paint cannot directly paint on zero-weight vertices,
+      it is possible to use the *Smooth Weight* tool to copy a reasonable non-zero weight
+      distribution from adjacent vertices without leaving Multi-Paint Mode or changing bone selection.
+
+      To do that, enable vertex selection, select target vertices,
+      and apply one iteration of the tool using vertex groups from *Selected Pose Bones* with low Factor.
+      After that simply paint on top to set the desired collective weight.
+
+
+Stroke
+======
+
+.. figure:: /images/sculpt-paint_painting_weight-paint_properties_stroke-panel.png
+   :align: right
+
+   Stroke Panel.
+
+
+Stroke Method
+   Airbrush
+      Keep applying paint effect while holding mouse down (spray).
+   Space
+      Limit brush application to the distance specified by spacing (see below).
+   Dots
+      Apply paint on each mouse move step.
+Rate (only for Airbrush)
+   Interval between paints for airbrush.
+Spacing (only for Space)
+   Limit brush application to the distance specified by spacing.
+Jitter
+   Jitter the position of the brush while painting.
+Smooth Stroke
+   Brush lags behind mouse and follows a smoother path.
+Radius
+   Minimum distance from last point before stroke continues.
+Factor
+   Higher values give a smoother stroke.
+
+
+Curve
+=====
+
+This :ref:`Curve widget <ui-curve-widget>` is used to control the brush falloff.
+Changing the curve allows you to specify the characteristics of your brushes to a large extent.
+
+
+Weight Paint Tools
+==================
 
 Blender provides a set of helper tools for Weight Painting.
-The tools are accessible from the Tool Shelf in Weight Paint Mode.
-And they are located in the weight tools panel.
+The tools are located in the weight tools panel.
 
-
-The Subset Option
-=================
-
-Some of the tools also provide a Subset parameter (in the Operator panel,
-displayed after the tool is called) with following options:
-
-- Active Group
-- Selected Pose Bones
-- Deform pose Bones
-- All Groups
-
-All tools also work with Vertex Selection Masking and Face Selection masking.
-In these modes the tools operate only on selected vertices or faces.
-
-.. tip:: About the Blend tool
-
-   The Blend tool only works when "Vertex selection masking for painting" is enabled.
-   Otherwise the tool button is grayed out.
-
-
-Normalize All
-=============
-
-For each vertex,
-this tool makes sure that the sum of the weights across all Vertex Groups is equal to 1.
-This tool normalizes all of the vertex groups, except for locked groups,
-which keep their weight values untouched.
-
-
-Operator Parameters
--------------------
-
-.. figure:: /images/modeling-meshes-wp-tools-normalize-all.jpg
-
-   Normalize All Options.
-
-Lock Active
-   Keep the values of the active group while normalizing all the others.
-
-.. note::
-
-   Currently this tool normalizes **all** vertex groups except the locked vertex groups.
-
-
-Normalize
-=========
-
-.. figure:: /images/modeling-meshes-wp-tools-normalize.jpg
-
-   Normalize All Options.
-
-This tool only works on the active Vertex Group.
-All vertices keep their relative weights,
-but the entire set of weights is scaled up such that the highest weight value is 1.0 .
-
-
-Mirror
-======
-
-.. figure:: /images/modeling-meshes-wp-tools-mirror.jpg
-
-   Normalize All Options.
-
-
-This tool mirrors the weights from one side of the mesh to the opposite side
-(only mirroring along x-axis is supported). But note,
-the weights are not transferred to the corresponding opposite bone weight group.
-The mirror only takes place within the selected Vertex Group.
-
-
-Operator Parameters
--------------------
-
-.. figure:: /images/modeling-meshes-wp-tools-mirror-options.jpg
-
-   Mirror Options.
-
-
-Mirror Weights
-   Mirrors the weights of the active group to the other side. Note, this only affects the active weight group.
-Flip Group Names
-   Exchange the names of left and right side. This option only renames the groups.
-All Groups
-   Operate on all selected bones.
-Topology Mirror
-   Mirror for meshes which are not 100% symmetric (approximate mirror).
-
-   .. tip:: Mirror to opposite bone
-
-      If you want to create a mirrored weight group for the opposite bone (of a symmetric character),
-      then you can do this:
-
-      #. Delete the target Vertex Group (where the mirrored weights will be placed).
-      #. Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy).
-      #. Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above).
-      #. Select the Target Vertex Group and call the Mirror tool
-         (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric).
-
-
-Invert
-======
-
-.. figure:: /images/modeling-meshes-wp-tools-invert.jpg
-
-   Invert.
-
-
-Replaces each Weight of the selected weight group by × -1.0 weight.
-
-Examples:
-
-- original 1.0 converts to 0.0
-- original 0.5 remains 0.5
-- original 0.0 converts to 1.0
-
-
-Operator Parameters
--------------------
-
-.. _fig-paint-weight-tools-mirror:
-
-.. figure:: /images/modeling-meshes-wp-tools-invert-operator.jpg
-
-   Invert Options.
-
-
-Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ about how subsets are defined.
-Add Weights
-   Add vertices that have no weight before inverting (these weights will all be set to 1.0)
-Remove Weights
-   Remove vertices from the Vertex Group if they are 0.0 after inverting.
-
-.. note::
-
-   Locked vertex Groups are not affected.
-
-
-Clean
-=====
-
-.. figure:: /images/modeling-meshes-wp-tools-clean.jpg
-
-   Invert.
-
-
-Removes weights below a given threshold.
-This tool is useful for clearing your weight groups of very low (or zero-) weights.
-
-In the example shown, a cutoff value of 0.139 is used (see operator options below)
-so all blue parts (left side) are cleaned out (right side).
-
-Note, the images use the *Show Zero weights* =Active option so that unreferenced
-Weights are shown in Black.
-
-
-Operator Parameters
--------------------
-
-.. figure:: /images/modeling-meshes-wp-tools-clean-operator.jpg
-
-   Clean Options.
-
-
-Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
-Limit
-   This is the minimum weight value that will be kept in the Group.
-   Weights below this value will be removed from the group.
-Keep Single
-   Ensure that the Clean tool will not create completely unreferenced vertices
-   (vertices which are not assigned to any Vertex Group),
-   so each vertex will keep at least one weight, even if it is below the limit value!
-
-
-Levels
-======
-
-.. figure:: /images/modeling-meshes-wp-tools-levels.jpg
-
-   Invert.
-
-
-Adds an offset and a scale to all weights of the selected Weight Groups.
-with this tool you can raise or lower the overall "heat" of the weight group.
-
-.. note::
-
-   No weight will ever be set to values above 1.0 or below 0.0 regardless of the settings.
-
-
-Operator Parameters
--------------------
-
-.. figure:: /images/modeling-meshes-wp-tools-levels-operator.jpg
-
-   Levels Options.
-
-Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
-Offset
-   A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex Group.
-Gain
-   All weights in the Subset are multiplied with the gain.
-
-.. note::
-
-   Whichever *Gain* and *Offset* you choose,
-   in all cases the final value of each weight will be clamped to the range (0.0 - 1.0).
-   So you will never get negative weights or overheated areas (weight > 1.0) with this tool.
-
-
-Blend
-=====
-
-Blends the weights of selected vertices with adjacent unselected vertices.
-This tool only works in vertex select mode.
-
-.. figure:: /images/modeling-meshes-wp-tools-blend1.png
-
-   Blending.
-
-To understand what the tool really does, let us take a look at a simple example.
-The selected vertex is connected to four adjacent vertices
-(marked with a gray circle in the image). All adjacent vertices are unselected.
-Now the tool calculates the average weight of all connected **and** unselected vertices.
-In the example this is:
-
-:math:`(1 + 0 + 0 + 0) / 4 = 0.25`
-
-This value is multiplied by the factor given in the Operator parameters (see below).
-
-- If the factor is 0.0 then actually nothing happens at all and the vertex just keeps its value.
-- If the factor is 1.0 then the calculated average weight is taken (0.25 here).
-- Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
-
-.. figure:: /images/modeling-meshes-wp-tools-blend2.png
-
-   Blending.
-
-
-Now let us see what happens when we select all but one of the neighbors of the selected vert as
-well. Again all connected and unselected vertices are marked with a gray circle.
-When we call the Blend tool now and set the Factor to 1.0,
-then we see different results for each of the selected vertices:
-
-- The topmost and bottommost selected vertices:
-
-  are surrounded by three unselected vertices, with an average weight of :math:`(1 + 0 + 0) / 3 = 0.333`
-  So their color has changed to light green.
-
-- The middle vertex:
-
-  is connected to one unselected vert with ``weight = 1``.
-  So the average weight is 1.0 in this case, thus the selected vert color has changed to red.
-
-- The right vert:
-
-  is surrounded by three unselected vertices with average weight = :math:`(0 + 0 + 0) / 3 = 0.0`
-  So the average weight is 0, thus the selected vert color has not changed at all
-  (it was already blue before blend was applied).
-
-.. figure:: /images/modeling-meshes-wp-tools-blend3.png
-
-   Blending.
-
-
-Finally let us look at a practical example (and explain why this tool is named Blend).
-In this example, the middle edge loop has been selected
-and it will be used for blending the left side to the right side of the area.
-
-- All selected vertices have two unselected adjacent vertices.
-- The average weight of the unselected vertices is :math:`(1 + 0) / 2 = 0.5`
-- Thus when the Blend Factor is set to 1.0 then the edge loop turns to
-  green and finally does blend the cold side (right) to the hot side (left).
-
-
-Operator Parameters
--------------------
-
-.. figure:: /images/modeling-meshes-wp-tools-blend-operator.jpg
-
-   Blend Options.
-
-Factor
-   The effective amount of blending.
-   When Factor is set to 0.0 then the Blend tool does not do anything.
-   For Factor > 0 the weights of the affected vertices gradually shift from their original value
-   towards the average weight of all connected **and** unselected vertices (see examples above).
-
-
-Transfer Weights
-================
-
-Copy weights from other objects to the vertex groups of the active Object.
-By default this tool copies all vertex groups contained in the selected objects to the target
-object. However, you can change the tool's behavior in the operator redo panel (see below).
-
-
-Prepare the Copy
-----------------
-
-.. list-table::
-
-   * - .. figure:: /images/modeling-meshes-wp-tools-transfer-wrong.jpg
-
-          Blending.
-
-     - .. figure:: /images/modeling-meshes-wp-tools-transfer-ok.jpg
-
-          Blending.
-
-You first select all source objects, and finally the target object
-(the target object must be the active object).
-
-It is important that the source objects and the target object are at the same location.
-If they are placed side by side, then the weight transfer will not work.
-You can place the objects on different layers,
-but you have to ensure that all objects are visible when you call the tool.
-
-Now ensure that the Target Object is in Weight Paint Mode.
-
-
-Call the Tool
--------------
-
-Open the Tool Shelf and locate the Weight Tools panel.
-From there call the "Transfer weights" tool.
-The tool will initially copy all vertex groups from the source objects.
-However, the tool also has an operator redo panel
-(which appears at the bottom of the tool shelf).
-From the redo panel you can change the parameters to meet your needs.
-(The available Operator parameters are documented below.)
-
-
-Redo Panel Confusion
-^^^^^^^^^^^^^^^^^^^^
-
-You may notice that the Operator Redo Panel (see below)
-stays available after the weight transfer is done.
-The panel only disappears when you call another Operator that has its own redo Panel. This can
-lead to confusion when you use Transfer weights repeatedly after you changed your vertex
-groups. If you then use the still-visible redo panel, then Blender will reset your work to its
-state right before you initially called the Transfer Weights tool.
-
-
-Workaround
-^^^^^^^^^^
-
-When you want to call the Transfer Weights tool again after you made some changes to your
-vertex groups, then always use the "Transfer Weights" Button,
-even if the operator panel is still available.
-Unless you really want to reset your changes to the initial call of the tool.
-
-
-Operator Parameters
-^^^^^^^^^^^^^^^^^^^
-
-.. note::
-
-   This tool now uses the generic 'data transfer' one. Please refer to the
-   :doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for options details and explanations.
-
-
-Limit Total
-===========
-
-Reduce the number of weight groups per vertex to the specified Limit.
-The tool removes lowest weights first until the limit is reached.
-
-.. hint::
-
-   The tool can only work reasonably when more than one weight group is selected.
-
-
-Operator Parameters
--------------------
-
-Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
-Limit
-   Maximum number of weights allowed on each vertex.
-
-
-Weight Gradient
-===============
-
-.. figure:: /images/sculpt-paint_painting_weight-paint_tools_weightgradient.png
-   :width: 200px
-
-   Example of the gradient tool being used with selected vertices.
-
-
-This is an interactive tool for applying a linear/radial weight gradient;
-this is useful at times when painting gradual changes in weight becomes difficult.
-
-The gradient tool can be accessed from the Tool Shelf or as a key shortcut:
-
-- Linear: :kbd:`Alt-LMB` and drag.
-- Radial: :kbd:`Alt-Ctrl-LMB` and drag.
-
-The following weight paint options are used to control the gradient:
-
-Weight
-   The gradient starts at the current selected weight value, blending out to nothing.
-Strength
-   Lower values can be used so the gradient mixes in with the existing weights (just like with the brush).
-Curve
-   The brush falloff curve applies to the gradient too, so you can use this to adjust the blending.
-
-Blends the weights of selected vertices with unselected vertices.
-
-.. hint::
-
-   This tool only works in vertex select mode.
-
-
-Operator Parameters
--------------------
-
-Type
-   - Linear
-   - Radial
-
-..   X Start:   X End:   Y Start:   Y End:
+The weight paint tools are full described in the
+:doc:`Weight Paint Tools </sculpt_paint/painting/weight_paint/tools>` page.
