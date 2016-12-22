@@ -55,57 +55,10 @@ These shortcuts may be customized under
 :menuselection:`File --> User Preferences --> Input --> 3D View --> Sculpt Mode`.
 
 
-.. list-table:: Brush Selection Shortcuts.
-
-   * - *Draw* brush
-     - :kbd:`X`
-   * - *Smooth* brush
-     - :kbd:`S`
-   * - *Pinch/Magnify* brush
-     - :kbd:`P`
-   * - *Inflate/Deflate* brush
-     - :kbd:`I`
-   * - *Grab* brush
-     - :kbd:`G`
-   * - *Layer* brush
-     - :kbd:`L`
-   * - *Flatten/Contrast* brush
-     - :kbd:`Shift-T`
-   * - *Clay* brush
-     - :kbd:`C`
-   * - *Crease* brush
-     - :kbd:`Shift-C`
-   * - *Snake Hook* brush
-     - :kbd:`K`
-   * - *Mask* brush
-     - :kbd:`M`
-   * - Set brush by number
-     - :kbd:`0` - :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`
-
 .. list-table:: Brush Option Shortcuts.
 
-   * - Interactively set brush size
-     - :kbd:`F`
-   * - Increase/decrease brush size
-     - :kbd:`[` and :kbd:`]`
-   * - Interactively set brush strength
-     - :kbd:`Shift-F`
-   * - Interactively rotate brush texture
-     - :kbd:`Ctrl-F`
-   * - Brush direction toggle (*Add* / *Sub*)
-     - :kbd:`Ctrl` pressed while sculpting
-   * - Brush normal weight toggle
-     - :kbd:`Ctrl` toggle *Normal Weight*.
-
-       (for *Grab* and *Snake Hook* brushes).
-   * - Set stroke method (airbrush, anchored, ..)
-     - :kbd:`E`
-   * - Toggle Smooth Stroke
-     - :kbd:`Shift-S`
    * - Smooth stroke toggle
      - :kbd:`Shift`
-   * - Set texture angle type
-     - :kbd:`R`
    * - Translate/scale/rotate stencil texture
      - :kbd:`RMB`, :kbd:`Shift-RMB`, :kbd:`Ctrl-RMB`
    * - Translate/scale/rotate stencil mask

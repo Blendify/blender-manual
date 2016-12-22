@@ -14,6 +14,8 @@ Brush Type
 
 Brushes are brush presets. They are a combination of a 'tool',
 along with stroke, texture, and options.
+The brush cab be selected by number:
+:kbd:`0` to :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`.
 
 .. figure:: /images/sculpt-paint_sculpting_options_brushes.png
 
@@ -22,53 +24,55 @@ along with stroke, texture, and options.
 Blob
    Pushes mesh outward or inward into a spherical shape with settings to
    control the amount of pinching at the edge of the sphere.
-Clay
+Clay :kbd:`C`
    Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
 Clay Strips
    Similar to the *Clay* brush, but it uses a cube test to define the brush area of influence rather than a sphere.
-Crease
+Crease :kbd:`Shift-C`
    Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
-Draw
-   Moves vertices inward or outward,
-   based the average normal of the vertices contained within the drawn brush stroke.
-Fill
+Fill/Deepen
    Works like the Flatten brush, but only brings vertices below the brush plane upwards.
    The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
-Flatten
+Flatten/Contrast :kbd:`Shift-T`
    The *Flatten* brush finds an 'area plane'
    located by default at the average height above/below the vertices within the brush area.
    The vertices are then pulled towards this plane.
    The inverse of the Flatten brush is the *Contrast*
    brush which pushes vertices up or down away from the brush plane.
-Grab
+Grab :kbd:`G`
    Used to drag a group of points around. Unlike the other brushes,
    *Grab* does not modify different points as the brush is dragged across the model.
    Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
    The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
    except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
-Inflate
+Inflate/Deflate :kbd:`I`
    Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
-Layer
+Layer :kbd:`L`
    This brush is similar to *Draw*, except that the height of the displacement layer is capped.
    This creates the appearance of a solid layer being drawn.
    This brush does not draw on top of itself; a brush stroke intersects itself.
    Releasing the mouse button and starting a new stroke
    will reset the depth and paint on top of the previous stroke.
+Mask :kbd:`M`
+   ToDo.
 Nudge
    Moves vertices in the direction of the brush stroke.
-Pinch
+Pinch/Magnify :kbd:`P`
    Pulls vertices towards the center of the brush.
    The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
 Rotate
    Rotates vertices within the brush in the direction the cursor is moved.
-Scrape
+Scrape/Peaks
    The *Scrape* brush works like the Flatten brush, but only brings vertices above the plane downwards.
    The inverse of the Scrape brush is to *Peak* by pushing vertices above the plane up away from the plane.
-Smooth
+SculptDraw :kbd:`X`
+   Moves vertices inward or outward,
+   based the average normal of the vertices contained within the drawn brush stroke.
+Smooth :kbd:`S`
    As the name suggests,
    eliminates irregularities in the area of the mesh within the brush's
    influence by smoothing the positions of the vertices.
-Snake Hook
+Snake Hook :kbd:`K`
    Pulls vertices along with the movement of the brush to create long, snake-like forms.
 
    Pinch
@@ -122,8 +126,8 @@ Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
-Add/Subtract
-   TODO.
+Add/Subtract :kbd:`Ctrl`
+   Brush direction toggle. :kbd:`Ctrl` pressed while sculpting.
 Accumulate
    Causes stroke dabs to accumulate on top of each other.
 
@@ -153,14 +157,12 @@ Angle
 
    User
       Directly input the angle value.
-   Rake
+   Rake :kbd:`R`
       Angle follows the direction of the brush stroke. Not available with *3D* textures.
-   Random
+   Random :kbd:`R`
       Angle is randomized.
-Rake
-   TODO.
-Random
-   TODO.
+   Random Angle
+      ToDo.
 Offset
    Fine tunes the texture map placement in the x, y, and z axes.
 Size
@@ -172,31 +174,32 @@ Sample Bias
 Stroke Panel
 ------------
 
-Stroke Method
+Stroke Method :kbd:`E`
    Defines the way brush strokes are applied to the mesh:
-Dots
-   Standard brush stroke.
-Drag Dot
-   Creates a single displacement in the brush shape. Click then drag on mesh to desired location, then release.
-Space
-   Creates brush stroke as a series of dots, whose spacing is determined by the *Spacing* setting.
-   *Spacing* represents the percentage of the brush diameter.
-Anchored
-   Creates a single displacement at the brush location.
-   Clicking and dragging will resize the brush diameter.
-   When *Edge to Edge* the brush location and orientation is determined by a two point circle,
-   where the first click is one point, and dragging places the second point, opposite from the first.
-Airbrush
-   Flow of the brush continues as long as the mouse click is held, determined by the *Rate* setting.
-   If disabled, the brush only modifies the model when the brush changes its location.
-   This option is not available for the *Grab* brush.
+
+   Dots
+      Standard brush stroke.
+   Drag Dot
+      Creates a single displacement in the brush shape. Click then drag on mesh to desired location, then release.
+   Space
+      Creates brush stroke as a series of dots, whose spacing is determined by the *Spacing* setting.
+      *Spacing* represents the percentage of the brush diameter.
+   Anchored
+      Creates a single displacement at the brush location.
+      Clicking and dragging will resize the brush diameter.
+      When *Edge to Edge* the brush location and orientation is determined by a two point circle,
+      where the first click is one point, and dragging places the second point, opposite from the first.
+   Airbrush
+      Flow of the brush continues as long as the mouse click is held, determined by the *Rate* setting.
+      If disabled, the brush only modifies the model when the brush changes its location.
+      This option is not available for the *Grab* brush.
 
 The following parameters are available for the *Dots*, *Space*,
 and *Airbrush* strokes:
 
 Jitter
    Jitters the position of the brush while painting.
-Smooth stroke
+Smooth Stroke :kbd:`Shift-S`
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
    Radius
