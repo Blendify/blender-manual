@@ -13,6 +13,7 @@
    drivers/index.rst
    markers.rst
    shape_keys/index.rst
+   motion_paths.rst
 
 
 Animation Techniques
