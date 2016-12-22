@@ -230,8 +230,6 @@ Solidify
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Solidify`
-   | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Solidify`
-
 
 This takes a selection of faces and solidifies them by extruding them
 uniformly to give volume to a :term:`non-manifold` surface.
@@ -297,7 +295,7 @@ access to booleans as an edit-mode tool can be useful to quickly perform edits.
 Boolean
    Difference, Union, Intersect
 Swap
-   ToDo.
+   Changes the order of the operation.
 Merge Threshold
    ToDo.
 

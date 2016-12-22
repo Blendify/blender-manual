@@ -1,7 +1,15 @@
 
-***********
+******************
+Motion Blur & Film
+******************
+
 Motion Blur
-***********
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Motion Blur`
 
 Blender's animations are by default rendered as a sequence of *perfectly still* images.
 While great for stop-motion and time-lapses, this is unrealistic, since fast-moving
@@ -20,7 +28,7 @@ both in a movie frame and in a photograph from a real-world camera.
 
 
 Options
-=======
+-------
 
 .. figure:: /images/render-cycles_settings_motion_blur_settings.png
    :width: 175px
@@ -58,7 +66,12 @@ Rolling Shutter Duration
 
 
 Object Properties
-=================
+-----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Object --> Motion Blur`
 
 Motion blur settings can also be applied per object in the
 :doc:`Object Properties </editors/3dview/object/properties/introduction>`
@@ -70,3 +83,28 @@ Deformation
 Steps
    Controls accuracy of deformation motion blur, more steps gives more memory usage.
    The actual number of steps is :math:`2^{steps -1}`.
+
+
+Film
+====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Film`
+
+Exposure
+   ToDo.
+Transparent
+   ToDo.
+Pixel Filter
+   Sensor simulation or Anti-aliasing.
+
+   Blackman-Harris, Box, Gaussian
+Width
+   ToDo.
+   
+
+.. seealso::
+
+   :ref:`Color management <render-post-color-management>`.

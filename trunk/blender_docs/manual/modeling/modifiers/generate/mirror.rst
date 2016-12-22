@@ -9,7 +9,7 @@ Mirror Modifier
    The corner of a cube mirrored across three axes to form... well... a cube.
 
 
-The Mirror modifier mirrors a mesh along its *local* X-, Y- and/or Z-Axes, across the object's center
+The Mirror Modifier mirrors a mesh along its *local* X-, Y- and/or Z-Axes, across the object's center
 (the mirror plane is then defined by the two other axes).
 
 It can also use another object as the mirror center, then use that object's local axes instead of its own.
@@ -20,58 +20,68 @@ Options
 
 .. figure:: /images/modifiers_mirror.png
 
-   Mirror modifier.
+   Mirror Modifier.
 
 
 Axis
-   The X-, Y-, Z-axis along which to mirror
-   (i.e. the axis perpendicular to the mirror plane of symmetry).
+----
 
-   To understand how the axis applies to the mirror direction, if you were to mirror on the X axis,
-   the positive X values of the original mesh would become the negative X values on the mirrored side.
+The X-, Y-, Z-axis along which to mirror
+(i.e. the axis perpendicular to the mirror plane of symmetry).
 
-   You can select more than one of these axes. And will then get more mirrored copies.
-   With one axis you get a single mirror, with two axes four mirrors, and with all three axes eight mirrors.
+To understand how the axis applies to the mirror direction, if you were to mirror on the X axis,
+the positive X values of the original mesh would become the negative X values on the mirrored side.
+
+You can select more than one of these axes. And will then get more mirrored copies.
+With one axis you get a single mirror, with two axes four mirrors, and with all three axes eight mirrors.
+
 
 Options
-   Merge
-      Where a vertex is in the same place (within the *Merge Limit* distance) as its mirror it will be
-      merged with the mirrored vertex.
+-------
 
-   Clipping
-      Prevents vertices from moving through the mirror plane(s) while the user is transforming them in Edit Mode.
+Merge
+   Where a vertex is in the same place (within the *Merge Limit* distance) as its mirror it will be
+   merged with the mirrored vertex.
+Clipping
+   Prevents vertices from moving through the mirror plane(s) while the user is transforming them in Edit Mode.
 
-      If *Clipping* is enabled but vertices are beyond the mirror plane and outside of the
-      *Merge Limit*, the vertices will not be merged. But as soon as the vertices are within
-      *Merge Limit* they are snapped together and cannot be moved beyond the mirror plane.
+   If *Clipping* is enabled but vertices are beyond the mirror plane and outside of the
+   *Merge Limit*, the vertices will not be merged. But as soon as the vertices are within
+   *Merge Limit* they are snapped together and cannot be moved beyond the mirror plane.
 
-      .. note::
+   .. note::
 
-         Vertices on the mirror plane will be unable to move away from the mirror plane
-         as long as *Clipping* is enabled.
-         You must disable *Clipping* to be able to move the vertices along the mirror axis again.
+      Vertices on the mirror plane will be unable to move away from the mirror plane
+      as long as *Clipping* is enabled.
+      You must disable *Clipping* to be able to move the vertices along the mirror axis again.
 
-   Vertex Groups
-      When enabled, the Mirror modifier will try to mirror existing vertex groups.
+Vertex Groups
+   When enabled, the Mirror Modifier will try to mirror existing vertex groups.
 
-      A very nice feature, but one that has very specific prerequisites:
+   A very nice feature, but one that has very specific prerequisites:
 
-      - The vertex groups you want to mirror must be named following the usual left/right pattern
-        (i.e. suffixed by something like ".R", ".right", ".L", etc).
-      - The mirror side vertex group must already exist (it will not be created automatically).
-        It must also be completely empty (no vertices assigned to it).
+   - The vertex groups you want to mirror must be named following the usual left/right pattern
+     (i.e. suffixed by something like ".R", ".right", ".L", etc).
+   - The mirror side vertex group must already exist (it will not be created automatically).
+     It must also be completely empty (no vertices assigned to it).
 
+  
 Textures
-   The U and V options allows you to mirror the UV texture coordinates across the middle
-   of the image.
+--------
 
-   E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
-   its mirror copy will have UV coordinates of (0.7, 0.1).
+The U and V options allows you to mirror the UV texture coordinates across the middle
+of the image.
+
+E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
+its mirror copy will have UV coordinates of (0.7, 0.1).
+
+
+Further Options
+---------------
 
 Merge Limit
    The maximum distance between a vertex and its mirror copy before they are merged together.
    In other words, a vertex may be half this distance away from the mirror plane before it snaps to it.
-
 Mirror Object
    An :ref:`Object Selector <ui-eye-dropper>` to select an object (usually an empty),
    to be used as the reference for the mirror process:
@@ -88,24 +98,24 @@ been discovered by clever Blender artists over the years. A common technique was
 half of an object and use :kbd:`Alt-D` to create a linked duplicate which can then be
 scaled on one axis by -1 to produce a perfect mirror-image copy which updates in real time as you edit.
 
-The Mirror modifier offers a simpler way to do this. Once your modeling is completed you can either
+The Mirror Modifier offers a simpler way to do this. Once your modeling is completed you can either
 click *Apply* to make a real version of your mesh or leave it as is for future editing.
 
 
 Using the Mirror Modifier with a Subdivision Surface Modifier
 -------------------------------------------------------------
 
-When using the Mirror modifier along with a
+When using the Mirror Modifier along with a
 :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
 modifier, the order in which the modifiers are placed is important.
 
 .. figure:: /images/modifier-mirror-subsurf2.png
    :width: 300px
 
-   Subdivision Surface modifier before Mirror modifier.
+   Subdivision Surface Modifier before Mirror Modifier.
 
 
-The above image shows the Subdivision Surface modifier placed before the Mirror one; as you
+The above image shows the Subdivision Surface Modifier placed before the Mirror one; as you
 can see the effect of this is that the mesh is split down the center line of the mirror effect.
 This is because the Subdivision calculation moves vertices away from the mirror plane, too far away from the
 *Merge Limit*.
@@ -113,18 +123,18 @@ This is because the Subdivision calculation moves vertices away from the mirror 
 .. figure:: /images/modifier-mirror-subsurf1.png
    :width: 300px
 
-   Mirror modifier before Subdivision Surface modifier.
+   Mirror Modifier before Subdivision Surface Modifier.
 
 
-The above image shows the Mirror modifier placed before the Subdivision Surface modifier.
+The above image shows the Mirror Modifier placed before the Subdivision Surface Modifier.
 In this order, the mirror calculation is done and the vertices are merged together.
-Only after that does the Subdivision Surface modifier move any vertices.
+Only after that does the Subdivision Surface Modifier move any vertices.
 
 
 Accurately Positioning the Mirror Plane
 ---------------------------------------
 
-To apply a Mirror modifier, it is common to have to move the object's center onto
+To apply a Mirror Modifier, it is common to have to move the object's center onto
 the edge or face that is to be the axis for mirroring.
 This can be tricky when attempted visually.
 

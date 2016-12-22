@@ -5,16 +5,16 @@
 Multiresolution Modifier
 ************************
 
-The Multiresolution modifier (often shortened to *Multires*) gives you the ability to subdivide a mesh similarly
+The Multiresolution Modifier (often shortened to "Multires") gives you the ability to subdivide a mesh similarly
 to the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`,
 but also allows you to edit the new subdivision levels in sculpt mode.
 
 .. note::
 
-   The *Multiresolution Modifier* is the only modifier that cannot be repositioned in the stack if it means that
+   The Multiresolution Modifier is the only modifier that cannot be repositioned in the stack if it means that
    there will be geometry or other object data created or removed before it
-   (i.e. all *Generate*,
-   some *Modify* and some *Simulate* modifiers cannot come before the Multiresolution modifier.)
+   (e.g. all *Generate*, some *Modify* and some *Simulate* modifiers
+   cannot come before the Multiresolution Modifier.)
 
 
 Options
@@ -22,10 +22,10 @@ Options
 
 .. figure:: /images/multires_modifier_image.png
 
-   Multires modifier.
+   Multiresolution Modifier.
 
 
-Catmull-Clark / Simple
+Type
    Set the type of subdivision.
 
    Simple
@@ -35,12 +35,20 @@ Catmull-Clark / Simple
       `Catmull-Clark <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
       subdivision surface algorithm.
 
+
+Level
+-----
+
 Preview
    Set the level of subdivisions to show in the 3D View.
 Sculpt
    Set the number of subdivisions to use in Sculpt Mode.
 Render
    Set the number of subdivisions to show when rendering.
+
+
+Operations
+----------
 
 Subdivide
    Add another level of subdivision.
@@ -53,6 +61,10 @@ Reshape
 Apply Base
    Modifies the original unsubdivided mesh to match the form of the subdivided mesh.
 
+
+Further Options
+---------------
+
 Subdivide UVs
    When enabled, the UV maps will also be subdivided.
    (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
@@ -61,4 +73,4 @@ Optimal Display
    (only draws the edges of the original geometry).
 
 Save External
-   Saves displacements to an external .btx file.
+   Saves displacements to an external ``.btx`` file.

@@ -91,6 +91,7 @@ First Last
 Distance
    Controls the merge distance for *Merge*.
 
+
 Cap
 ---
 
