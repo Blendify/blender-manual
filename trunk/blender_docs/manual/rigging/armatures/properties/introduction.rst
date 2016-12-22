@@ -30,7 +30,8 @@ Pose Library
 Ghost
    Allows you to see a set of different  poses, very useful when animating.
 Motion Paths
-   In this panel you can enable visualization of the motion path your skeleton leaves when animated.
+   In the :doc:`Motion Paths panel </animation/motion_paths>` you can enable visualization
+   of the motion path your skeleton leaves when animated.
 
 
 Inverse Kinematics

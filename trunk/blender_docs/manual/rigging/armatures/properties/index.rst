@@ -12,4 +12,3 @@
    bone_groups.rst
    pose_library.rst
    ghost.rst
-   motion_paths.rst
