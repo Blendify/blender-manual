@@ -13,11 +13,8 @@ Face Tools
 These are tools that manipulate faces.
 
 
-Creating Faces
-==============
-
 Make Edge/Face
---------------
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -46,7 +43,7 @@ Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces
 .. _modeling-meshes-editing-fill:
 
 Fill
-----
+====
 
 .. admonition:: Reference
    :class: refbox
@@ -135,8 +132,26 @@ Grid Fill
           Grid Fill Result.
 
 
+Poke Faces
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Poke Faces`
+   | Hotkey:   :kbd:`Alt-P`
+
+Poke Offset
+   ToDo.
+Offset Relative
+   ToDo.
+Poke Center
+   Weighted Mean, Mean, Bounds
+
+
 Triangulate Faces
------------------
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -145,7 +160,6 @@ Triangulate Faces
    | Menu:     :menuselection:`Mesh --> Faces --> Triangulate Faces`
    | Hotkey:   :kbd:`Ctrl-T`
 
-
 As its name intimates, this tool converts each selected quadrangle into two triangles.
 Remember that quads are just a set of two triangles.
 
@@ -153,7 +167,7 @@ Remember that quads are just a set of two triangles.
 .. _mesh-faces-tristoquads:
 
 Triangles to Quads
-------------------
+==================
 
 .. admonition:: Reference
    :class: refbox
@@ -245,6 +259,47 @@ Thickness
           :width: 200px
 
           Solidify with a negative thickness.
+
+
+Intersect
+=========
+
+Intersect (Knife)
+-----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Intersect (Knife)`
+
+Source
+   Selected/Unselected, Self Intersect
+Separate
+   ToDo.
+Merge Threshold
+   ToDo.
+
+
+Intersect (Boolean)
+-------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Intersect (Boolean)`
+
+Performs boolean operations with the selection on the unselected geometry.
+While the :doc:`/modeling/modifiers/generate/booleans` is useful for non-destructive edits,
+access to booleans as an edit-mode tool can be useful to quickly perform edits.
+
+Boolean
+   Difference, Union, Intersect
+Swap
+   ToDo.
+Merge Threshold
+   ToDo.
 
 
 Wireframe
