@@ -18,18 +18,13 @@ Motion Paths
    | Panel:    :menuselection:`Properties editor --> Armature --> Motion Paths`
    | Menu:     :menuselection:`Pose --> Motion Paths`
 
-.. figure:: /images/animation-keyframes-visualization-motionpath.png
+.. figure:: /images/animation_motion-path_example-object.png
    :width: 400px
 
    An animated cube with its motion path displayed.
 
-.. figure:: /images/animation-keyframes-visualization-motionpath-panel3.png
-   :width: 250px
-
-   Motion paths panel.
-
 This feature allows you to visualize the motion of points as paths over a series of frames.
-These points can be the object origin and bone joints.
+These points can be object origins and bone joints.
 
 Before we look at its options, let us first see how to display/hide these paths.
 Unlike :doc:`/rigging/armatures/properties/ghost`, you have to do it manually
@@ -57,30 +52,17 @@ only useful when the *Around Current Frame* option is enabled.
 Options
 =======
 
-.. figure:: /images/rigging_posing_visualization_motion-paths-panel.png
+.. figure:: /images/animation_motion-paths-panel.png
 
-   The Motion Paths Panel.
+   The Motion Paths Panel in the Armature tab.
 
 Type
    Around Frame
       Display paths of points within a fixed number of frames around the current frame.
       When you enable this button, you get paths for a given number of frames before and after the current one
       (again, as with ghosts).
-
-      .. figure:: /images/animation-keyframes-visualization-motionpath-panel.png
-         :width: 200px
-
-         The Motion Paths Panel set to "Around Frame"
-
    In Range
       Display paths of points within specified range.
-
-      .. figure:: /images/animation-keyframes-visualization-motionpath-panel2.png
-         :width: 200px
-
-         The Motion Paths Panel set to "In Range"
-
-
 Display Range
    Before/After
       Number of frames to show before and after the current frame
@@ -139,6 +121,6 @@ Keyframe Numbers
 Example
 =======
 
-.. figure:: /images/rigging_posing_visualization_motion-paths-example.png
+.. figure:: /images/animation_motion-path_example-armature.png
 
-   An example of a motion paths of a skeleton.
+   An example of a motion paths of a armature.
