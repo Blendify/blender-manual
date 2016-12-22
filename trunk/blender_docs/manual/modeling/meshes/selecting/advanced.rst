@@ -13,7 +13,7 @@ Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
 Mirror
-   Select mesh items at the mirrored location.
+   Select mesh items at the mirrored location across the chosen axis.
 Side of Active
    Selects all vertices on the mesh in a single axis relative to the active vertex.
    In Vertex selection mode only.
@@ -169,7 +169,14 @@ Face Selection Mode:
 More/Less
 =========
 
-ToDo.
+More :kbd:`Ctrl-Numpad+`
+   ToDo.
+Less :kbd:`Ctrl-Numpad-`
+   ToDo.
+Next Active :kbd:`Ctrl-Shift-Numpad+`
+   This uses selection history to select the next vertex/edge/face based on surrounding topology.
+Previous :kbd:`Ctrl-Shift-Numpad-`
+   Select previous just removes the last selected element.
 
 
 Selecting Loops
@@ -308,12 +315,15 @@ Selects all geometry along the shortest path from the active vertex/edge/face to
 was selected.
 
 Face Stepping
-   ToDo.
+   Supports diagonal paths for vertices and faces, and 
+   selects edge-rings with edges.
 Topological Distance
    Which only takes into account the number of edges of the path and
    not the length of the edges to calculate the distances,
 Fill Region :kbd:`Ctrl-Shift-RMB`
    ToDo.
+Checker Deselect
+   See `Checker Deselect`_.
 
 
 Loop Inner-Region

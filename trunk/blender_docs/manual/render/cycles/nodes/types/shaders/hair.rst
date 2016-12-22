@@ -28,6 +28,7 @@ Tangent
 
 Properties
 ==========
+
 Component
    There are two components that can be used to control the look of the hair.
    Usually you are going to want each of these and use a :doc:`Mix Node </render/cycles/nodes/types/shaders/mix>`.

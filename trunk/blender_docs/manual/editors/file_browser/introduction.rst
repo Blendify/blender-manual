@@ -202,7 +202,7 @@ Parent Directory :kbd:`Backspace`, :kbd:`P`
 Arrow Keys
 ^^^^^^^^^^
 
-Directory navigation is now also possible through the arrow keys with :kbd:`Alt` pressed:
+Directory navigation is also possible through the arrow keys with :kbd:`Alt` pressed:
 
 - Go to Parent :kbd:`Alt-Up`
 - Previous :kbd:`Alt-Left`

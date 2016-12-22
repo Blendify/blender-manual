@@ -115,7 +115,7 @@ Autosmooth
 Normal Weight :kbd:`Ctrl`
    Constrains brush movement along the surface normal.
    Especially useful with the *Grab Brush*, can be temporarily enabled by holding :kbd:`Ctrl`.
-   e.g. Grab brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set,
+   e.g. Grab brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set.
 
    Applies to *Grab* and *Snake Hook* brushes.
 Sculpt Plane
