@@ -151,7 +151,7 @@ Type
 .. hint::
 
    Another way to transform a object locally is with the
-   use of :doc:`Dupli-Groups </editors/3dview/object/properties/duplication/dupligroup>`
+   use of :doc:`Dupli-Groups </editors/3dview/object/properties/duplication/dupligroup>`.
    Instead of linking to *Objects* directly, it is often more useful to link in *Groups*,
    which can be assigned to empties and moved, while maintaining the link to the original file.
 

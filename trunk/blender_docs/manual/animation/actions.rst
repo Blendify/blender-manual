@@ -33,7 +33,7 @@ F-Curves
    interpolate the difference between the keyframes.
 Keyframes
     :doc:`Keyframes </animation/keyframes/introduction>` are used to
-    set the values of properties bind to a point in time.
+    set the values of properties bound to a point in time.
 
 .. The hierarchy is created with the RNA data paths,
 

@@ -28,7 +28,7 @@ Settings
 Level of detail settings can be found in the Object settings when the renderer is set to
 Blender Game.
 In the Levels of Detail panel is a button to add a new level of detail to the current object.
-The settings for each level of detail is displayed in its own box.
+The settings for each level of detail are displayed in its own box.
 The exception to this is the base level of detail.
 This is automatically setup as the current object with a distance setting of 0.
 To remove a level of detail,

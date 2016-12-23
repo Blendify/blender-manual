@@ -201,7 +201,7 @@ Region Overlap
 
    If you have a capable graphics card and drivers with *Triple Buffer* support,
    clicking the checkbox will enable the overlapping regions to be drawn using the *Triple Buffer* method,
-   which will also enable them to be drawn using Alpha, showing the 3D View contents trough the regions.
+   which will also enable them to be drawn using Alpha, showing the 3D View contents through the regions.
 
 Text Draw Options
    Enable interface text anti-aliasing.

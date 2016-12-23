@@ -129,7 +129,7 @@ Color Space
 Image Files
 ===========
 
-When loading and saving media formats it is important to color management in mind.
+When loading and saving media formats it is important to have color management in mind.
 File formats such as PNG or JPEG will typically store colors in a color space ready for
 display, not in a linear space. When they are, for example, used as textures in renders,
 they need to be converted to linear first, and when saving renders for display on the web,
