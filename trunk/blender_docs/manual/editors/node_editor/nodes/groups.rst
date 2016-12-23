@@ -21,11 +21,18 @@ Once a group has been defined, it becomes an opaque object; a reusable software 
 ignore exactly how it is "defined", and simply use it as many times as you like.
 
 
-Grouping Nodes
-==============
+Make Group
+==========
 
-To create a node group, in the node editor, select the nodes you want to include, then
-press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`, :kbd:`Shift-A`.
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Group --> Make Group`
+   | Hotkey:   :kbd:`Ctrl-G`
+
+To create a node group, in the Node editor, select the nodes you want to include, then
+press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`.
 A node group will have a green title bar. All of the selected nodes will now be contained within the group node.
 Default naming for the node group is "NodeGroup", "NodeGroup.001" etc.
 There is a name field in the node group you can click into to change the name of the group.
@@ -34,9 +41,9 @@ When appending node groups from one blend file to another,
 Blender does not make a distinction between material node groups or composite node groups,
 so it is recommended some naming convention, that will allow you to easily distinguish between the two types.
 
-.. note::
+.. tip::
 
-   What **not** to include in your groups (all types of Node editors)
+   What **not** to include in your groups (all modes of Node editors)
 
    Remember that the essential idea is that a group should be an easily-reusable,
    self-contained software component. Material node groups should **not** include:
@@ -49,8 +56,16 @@ so it is recommended some naming convention, that will allow you to easily disti
       If you include an output node in the group, there will not be an output socket available *from* the group!
 
 
-Editing Node Groups
-===================
+Edit Group
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Group --> Edit Group`
+   | Header:   :menuselection:`Go to Parent Node Tree`
+   | Hotkey:   :kbd:`Tab`
 
 With a group node selected, :kbd:`Tab` expands the node to a frame, and the individual nodes within
 it are shown. You can move them around, play with their individual controls, re-thread them internally, etc.
@@ -59,17 +74,57 @@ node outside the group; you have to use the external sockets on the side of the 
 remove nodes from the group, you need to ungroup them.
 
 
-Ungrouping Nodes
-================
+Ungroup
+=======
 
-The :kbd:`Alt-G` command removes the group and places the individual nodes into your editor workspace. No internal
-connections are lost, and now you can thread internal nodes to other nodes in your workspace.
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Group --> Ungroup`
+   | Hotkey:   :kbd:`Alt-G`
+
+The :kbd:`Alt-G` command removes the group and places the individual nodes into your editor workspace.
+No internal connections are lost, and now you can thread internal nodes to other nodes in your workspace.
+
+
+Group Insert
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Group --> Group Insert`
+
+ToDo.
+
+.. move node into selected group
+
+
+Adding a Group Instance
+=======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Add --> Group`
+
+ToDo.
 
 
 Appending Node Groups
 =====================
 
-Once you have appended a NodeTree to your blend-file, you can make use of it in the node editor by
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Info Editor --> File --> Link/Append`
+
+
+Once you have appended a NodeTree to your blend-file, you can make use of it in the Node editor by
 pressing :kbd:`Shift-A`, :menuselection:`Add --> Group`, then select the appended group.
 The "control panel" of the Group is the individual controls for the grouped nodes.
 You can change them by working with the Group node like any other node.

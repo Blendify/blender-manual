@@ -98,7 +98,7 @@ Calculate/Update Paths
       You have to *Calculate Paths* again if you modify this setting,
       to update the paths in the 3D Views.
 Clear Paths ``X``
-   Clears paths on all objects/bones and just the selected ones when holding :kbd:`Shift`.
+   Clears paths on all objects/bones or just the selected ones when holding :kbd:`Shift`.
 
 
 Show

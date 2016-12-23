@@ -27,11 +27,43 @@ Text
    This is read-only, so you will need to use the *Text Editor* to modify the contents.
 
 
-Adding and Removing Nodes
-=========================
+Editing
+=======
+
+Join in new Frame
+-----------------
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Node --> Join in new Frame`
+   | Hotkey:   :kbd:`Ctrl-J`
+
+ToDo.
+
+
+Adding
+------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Hotkey:   :kbd:`Ctrl-P`
 
 Once a Frame node is placed in the editor, nodes can be added by simply dropping them onto the frame or by
 selecting the node(s) then the frame and using :kbd:`Ctrl-P`.
+
+
+Remove from Frame
+-----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Node --> Remove from Frame`
+   | Hotkey:   :kbd:`Alt-P`
 
 To remove them select the node(s) and use the :kbd:`Alt-P` shortcut.
 This uses the same default keyboard bindings as Parenting and can be thought of as a similar concept.

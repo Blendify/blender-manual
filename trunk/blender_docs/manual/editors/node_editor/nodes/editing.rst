@@ -1,40 +1,126 @@
 
-*******
-Editing
-*******
+****************
+Adding & Editing
+****************
 
-Translate
-   :kbd:`G` to move the current selection around.
-Rotate
-   :kbd:`R`
-Resize
-   :kbd:`S`
+Adding
+======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:     :menuselection:`Tool Shelf`
+   | Menu:     :menuselection:`Add`
+   | Hotkey:   :kbd:`Shift-A`
+
+
+Nodes are added in two ways to the Node editor:
+
+- By using the Tool Shelf which has buttons for adding nodes, organized with tabs.
+- By using the :menuselection:`Add` menu :kbd:`Shift-A`.
+
+
+Transform
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Node --> Translate, Rotate, Resize`
+   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
+
+Move a single node by click and drag it around. A node can be clicked almost anywhere to start dragging.
+Multiple nodes can be translated after pressing :kbd:`G`.
+
+In general it is recommended to arrange your nodes within the view such that the data flows from
+left to right, top to bottom.
+
+A node can be resized by dragging the edges on the left or right side.
+
+
+Connecting Sockets
+==================
+
+Interactively
+-------------
+
+:kbd:`LMB`-click on a socket and drag. You will see a line coming out of it: This is called a *link*.
+
+Keep dragging and connect the link to an input socket of another node, then release the :kbd:`LMB`.
+
+While multiple links can route out of an output socket, only a single link can be attached to an input socket.
+
+To reposition the outgoing links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an
+output socket. This works for single as well as for multiple outgoing links.
+
+Make Links :kbd:`F`
+   Todo.
+Make and Replace Links :kbd:`Shift F`
+   Todo.
+
+
+Disconnecting Sockets
+=====================
+
+Interactively
+-------------
+
+Drag the link from an input socket and let it go keeping it unconnected.
+
+
+Cut Links
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Node --> Cut Links`
+   | Hotkey:   :kbd:`Ctrl-LMB`
+
+To break a link between sockets :kbd:`Ctrl-LMB`-click in an empty area, near the link you want to disconnect, and
+drag: You will see a little cutter icon appearing at your mouse pointer. Move it over the link itself, and
+release the :kbd:`LMB`.
+
+Detach Links
+   Todo.
+
+
 Duplicate
-   :kbd:`Shift-D`
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Node --> Duplicate`
+   | Hotkey:   :kbd:`Shift-D`
+
+Click :kbd:`LMB` or :kbd:`RMB` on the desired node, press :kbd:`Shift-D` and move the mouse away to see the
+duplicate of the selected node appearing under the mouse pointer.
+
+.. note::
+
+   When you duplicate a node, the new node will be positioned *exactly* on top of the node that was duplicated.
+   If you leave it there (and it is quite easy to do so),
+   you can **not** easily tell that there are *two* nodes there!
+   When in doubt, grab a node and move it slightly to see if something's lurking underneath.
+
+
+Delete
+======
+
 Delete
    :kbd:`X` or :kbd:`Delete` deletes the selected node(s).
 Delete with Reconnect
    :kbd:`Ctrl-X`
-Join in new Frame
-   :kbd:`Ctrl-J`
-Remove from Frame
-   :kbd:`Alt-P`
-Make Links
-   :kbd:`F`
-Make and Replace Links
-   :kbd:`Shift F`
-Cut Links
-   :kbd:`Ctrl-LMB`
-Detach Links
-   ..
-Edit Group
-   :kbd:`Tab`
-Ungroup
-   :kbd:`Alt-G`
-Make Group
-   :kbd:`Ctrl-G`
-Group Insert
-   ..
+
+
+Show/Hide
+=========
+
 Hide
    :kbd:`H`
 Toggle Node Mute
@@ -47,8 +133,12 @@ Toggle Node Options
    ..
 Collaps and Hide Unused Sockets
    ..
+
+
+Layers
+======
+
 Read Render-Layers
    :kbd:`Ctrl-R`
 Read Full Sample Layers
    :kbd:`Shift-R`
-
