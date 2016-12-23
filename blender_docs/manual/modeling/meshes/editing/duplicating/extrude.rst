@@ -176,3 +176,23 @@ Duplicate or Extrude to Cursor
 Interactively places new vertices with :kbd:`Ctrl-LMB` at the cursor position.
 
 Selection: ToDo.
+
+
+Extrude Repeat Mesh
+==============================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Operator Search --> Extrude Repeat Mesh`
+
+This tool has to be called from :doc:`/interface/controls/templates/operator_search`.
+If the selection is not manifold it's extruded the specified times, else
+it behaves similar to the  :doc:`/modeling/modifiers/generate/array`.
+
+
+Offset
+   Distance between the instances.
+Steps
+   Number of instances.

@@ -6,9 +6,17 @@ Adaptive Sculpting
 Dynamic Topology
 ================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Sculpt Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Dyntopo`
+   | Hotkey:   :kbd:`Ctrl-D`
+
 Dynamic topology (aka dyntopo) is a dynamic tessellation sculpting method, adds and
 removes details on the fly. Dyntopo is quick, just get a brush and start to sculpt.
 Dyntopo will add details base upon your brush size, detail type and strength.
+Dytopo can be toggled with the checkbox in the header or with :kbd:`Ctrl-D`.
 
 Detail Type
    Dyntopo uses three different detail methods to create dynamic detail to an object. The
@@ -25,7 +33,7 @@ Detail Type
       based on the brush size. You can increase and lower topology by simply resizing
       the brush itself. The detail size is based the size of the brush itself, where
       100% will create topology the size of the brush ring itself.
-Detail Size
+Detail Size :kbd:`Shift-D`
    Each Detail Type's detail is set here. Depending on the Detail Type being used
    this property will rather show as a pixel count (px), or percentage.
 Detail Refine Method
@@ -65,6 +73,10 @@ subdivision 2 and go back to subdivision 1 correct some mistakes. While this wor
 often used, Multiresolution Modifier has some limitations. You may end up with some mesh distortions.
 As an advice, add as more details as possible before adding more subdivisions.
 Clay brush, SculptDraw work better with multi-resolution sculpting to sculpt secondary forms.
+
+- Step up one multires level :kbd:`PageUp`
+- Step down one multires level :kbd:`PageDown`
+- Set multires level :kbd:`Ctrl-0` to :kbd:`Ctrl-5`
 
 .. seealso::
 

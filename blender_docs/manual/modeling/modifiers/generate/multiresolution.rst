@@ -26,7 +26,7 @@ Options
 
 
 Type
-   Set the type of subdivision.
+   Sets the type of subdivision.
 
    Simple
       Maintains the current shape, and simply subdivides edges.
@@ -36,8 +36,8 @@ Type
       subdivision surface algorithm.
 
 
-Level
------
+Levels
+------
 
 Preview
    Set the level of subdivisions to show in the 3D View.
