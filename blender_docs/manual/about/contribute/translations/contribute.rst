@@ -67,7 +67,7 @@ Building with Translations
 
 ----
 
-To creates the ``.mo`` files (needed for building translation)::
+To create the ``.mo`` files (needed for building translation)::
 
    sphinx-intl build
 
@@ -111,7 +111,7 @@ You can do this by running::
    make report_po_progress
 
 
-This will only give a quick summery however, you can get more information by running::
+This will only give a quick summary however, you can get more information by running::
 
    python tools/report_translation_progress.py locale/fr/
 

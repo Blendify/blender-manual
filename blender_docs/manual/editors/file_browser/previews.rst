@@ -31,13 +31,13 @@ Batch-Generate Previews
    Generates previews for selected blend-files.
 
    Scenes
-      Generate previews for scenes.
+      Generates previews for scenes.
    Groups
-      Generate previews for groups.
+      Generates previews for groups.
    Objects
-      Generate previews for objects.
+      Generates previews for objects.
    Mat/Tex/..
-      Generate Previews for materials, textures.
+      Generates Previews for materials, textures, images, etc.
    Trusted Blend Files
       Enables Python evaluation for blend-files.
    Save Backups
@@ -50,40 +50,21 @@ Batch-Generate Previews
 
 Clear Data-block Previews
    Clears data-block previews.
-
+Batch-Clear Previews
+   Clears previews for selected blend-files.
+   
    Scenes
       Clears previews for scenes.
    Groups
       Clears previews for groups.
    Objects
       Clears previews for objects.
-   Materials
-      Clears previews for materials.
-   Lamps
-      Clears previews for lamps.
-   Worlds
-      Clears previews for worlds.
-   Textures
-      Clears previews for textures.
-   Images
-      Clears previews for images.
-
-Batch-Clear Previews
-   Clears previews for selected blend-files.
-
-   Scenes
-      Generate previews for scenes.
-   Groups
-      Generate previews for groups.
-   Objects
-      Generate previews for objects.
-   Mat/Tex/..
-      Generate Previews for materials, textures.
+   Mat/Tex..
+      Clears previews for materials, textures, images, etc.
    Trusted Blend Files
       Enables Python evaluation for blend-files.
    Save Backups
       Enables backups in case blend-files become corrupt while generating previews.
 
-      .. note::
 
-         If you are generating previews for large files make sure to watch the amount of disk space.
+ 
