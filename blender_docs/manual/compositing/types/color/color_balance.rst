@@ -7,7 +7,7 @@ The Color Balance node can adjust the color and values of an image.
 
 .. figure:: /images/compositing_nodes_color_color-balance.png
 
-   Bright/Contrast Node.
+   Color Balance Node.
 
 Inputs
 ======
@@ -33,7 +33,7 @@ Lift/Gamma/Gain
 
 Offset/Power/Slope (ASC-CDL)
    Offset
-      Summand.
+      A radial color offset from the white center (changes the overall image Hue).
    Power
       Over all exponent.
    Slope
