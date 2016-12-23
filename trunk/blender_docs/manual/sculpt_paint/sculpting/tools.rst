@@ -67,6 +67,7 @@ Layer :kbd:`L`
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as grayscale.
+   See also the options of the :ref:`scupt-mask-menu` menu.
 Nudge
    Moves vertices in the direction of the brush stroke.
 Pinch/Magnify :kbd:`P`

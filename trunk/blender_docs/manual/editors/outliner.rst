@@ -39,7 +39,7 @@ Selecting and Activating
 ------------------------
 
 Single selection does not require any pre-selection: just work directly with :kbd:`LMB`
-(and/or :kbd:`RMB` - contextual menu, see below) *inside* the name/icon area.
+(and/or :kbd:`RMB` -- contextual menu, see below) *inside* the name/icon area.
 
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
@@ -80,11 +80,24 @@ Context menu
 Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
 Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
 
-- *Select*.
-- *Deselect*.
-- *Delete* :kbd:`X`.
-- *Unlink* - To unlink a data-block from its "owner" (e.g., a material from its mesh).
-- *Make Local* - To create a "local" duplicate of this data-block.
+Select, Deselect
+   ..
+Unlink
+   To unlink a data-block from its "owner" (e.g., a material from its mesh).
+Make Local
+   To create a "local" duplicate of this data-block.
+Make Single User
+   ToDo.
+Delete
+   ToDo.
+Remap Users
+   ToDo.
+Add Fake User, Clear Fake User
+   ToDo.
+Rename
+   ToDo.
+Select Linked
+   ToDo.
 
 .. note::
 
