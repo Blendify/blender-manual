@@ -65,7 +65,8 @@ Layer :kbd:`L`
    Releasing the mouse button and starting a new stroke
    will reset the depth and paint on top of the previous stroke.
 Mask :kbd:`M`
-   ToDo.
+   Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
+   The mask values are shown as grayscale.
 Nudge
    Moves vertices in the direction of the brush stroke.
 Pinch/Magnify :kbd:`P`
@@ -151,9 +152,13 @@ Texture
 Brush Mapping
    Sets the way the texture is mapped to the brush stroke:
 
-   Fixed
-      If *Fixed* is enabled, the texture follows the mouse,
-      so it appears that the texture is being dragged across the model.
+   View Plane
+      If *View Plane* is enabled, the current view angle is used to project the brush texture onto the model.
+      I.e. the texture follows the mouse, so it appears that the texture is being dragged across the model.
+   Area Plane
+      Projects the brush texture along the local surface normal,
+      which keeps the texture from stretching when sculpting on a portion of the mesh
+      that is at an extreme angle to the viewpoint.
    Tiled
       The *Tile* option tiles the texture across the screen,
       so moving the brush appears to move separately from the texture.
@@ -161,6 +166,10 @@ Brush Mapping
    3D
       The *3D* option allows the brush to take full advantage of procedural textures.
       This mode uses vertex coordinates rather than the brush location to determine what area of the texture to use.
+   Random
+      ToDo.
+   Stencil
+      ToDo.
 Angle
    This is the rotation angle of the texture brush.
    It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
@@ -231,8 +240,15 @@ intensity of the brush from its center (left part of the curve) towards its bord
    Read more about using the :ref:`ui-curve-widget`.
 
 
-Symmetry Panel
-==============
+Symmetry/Lock Panel
+===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Sculpt Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Symmetry/Lock`
+   | Menu:     :menuselection:`Sculpt --> Symmetry/Lock`
 
 Mirror
   Mirror the brush strokes across the selected local axes.

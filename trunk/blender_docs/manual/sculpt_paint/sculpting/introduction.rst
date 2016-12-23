@@ -51,38 +51,13 @@ You can also set Blender to use the current brush for *Vertex Paint Mode*,
 Keyboard Shortcuts
 ==================
 
-These shortcuts may be customized under
-:menuselection:`File --> User Preferences --> Input --> 3D View --> Sculpt Mode`.
-
-
 .. list-table:: Brush Option Shortcuts.
 
    * - Smooth stroke toggle
      - :kbd:`Shift`
+   * - Invert stroke toggle
+     - :kbd:`Ctrl`
    * - Translate/scale/rotate stencil texture
      - :kbd:`RMB`, :kbd:`Shift-RMB`, :kbd:`Ctrl-RMB`
    * - Translate/scale/rotate stencil mask
      - :kbd:`Alt-RMB`, :kbd:`Alt-Shift-RMB`, :kbd:`Alt-Ctrl-RMB`
-
-.. list-table:: Other Shortcuts.
-
-   * - Hide mesh inside selection
-     - :kbd:`H` then click & drag
-   * - Reveal mesh inside selection
-     - :kbd:`Shift-H` then click & drag
-   * - Show entire mesh
-     - :kbd:`Alt-H`
-   * - Mask clear
-     - :kbd:`Alt-M`
-   * - Mask invert
-     - :kbd:`Ctrl-I`
-   * - Step up one multires level
-     - :kbd:`PageUp`
-   * - Step down one multires level
-     - :kbd:`PageDown`
-   * - Set multires level
-     - :kbd:`Ctrl-0` to :kbd:`Ctrl-5`
-   * - Dynamic Topology toggle
-     - :kbd:`Ctrl-D`
-   * - Dynamic Topology detail
-     - :kbd:`Shift-D`
