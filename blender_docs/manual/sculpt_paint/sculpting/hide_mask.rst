@@ -11,19 +11,20 @@ Hiding & Masking
 
 It is sometimes useful to isolate parts of a mesh to sculpt on.
 
+
 Hide
 ====
 
 Hide Bounding Box :kbd:`H`
-   To hide a part of a mesh, press :kbd:`H` then click & drag around the part you want to hide.
-   Hide mesh inside selection
+   To hide a part of a mesh inside the selection.
+   This works similar to :ref:`Border Select <select-border>` tool.
 Hide Bounding Box :kbd:`Shift-H`
-   To reveal a hidden part of a mesh, press :kbd:`Shift-H` then click & drag around the part you want to reveal.
-   Reveal mesh inside selection
+   To reveal a hidden part of a mesh inside the selection.
 Show All :kbd:`Alt-H`
-   To reveal all hidden parts.
-   Show entire mesh
+   Reveal all hidden parts.
 
+
+.. _scupt-mask-menu:
 
 Mask
 ====

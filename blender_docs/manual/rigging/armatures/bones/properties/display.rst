@@ -3,6 +3,12 @@
 Display Panel
 *************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object and Pose Mode
+   | Panel:    :menuselection:`Bone --> Display`
+
 .. figure:: /images/rigging_armatures_bones_properties_display-panel.png
 
    The Display panel.
@@ -17,19 +23,13 @@ Wireframe
    Useful for non-obstructive custom bone chains.
 
 
-Shaped Bones
+Custom Shape
 ============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object and Pose Mode
-   | Panel:    :menuselection:`Bone --> Display`
-
 
 Blender allows you to give to each bone of an armature a specific shape
 (in *Object Mode* and *Pose Mode*), using another object as "template".
-First of all, you have to enable the *Shapes* button (*Armature* panel).
+In order to be visible the *Shapes* checkbox has to be enabled
+(:menuselection:`Armature --> Display` panel).
 
 
 Options
@@ -37,9 +37,12 @@ Options
 
 Custom Shape
    Object that defines the custom shape of the selected bone.
-Custom At
+Bone Size
+   Option not to use bones length, so that changes in Edit Mode don’t resize the custom-shape.
+Scale
+   Avoids having multiple custom-shapes at different sizes.
+At
    Bone that defines the display transform of this shape bone.
-
 
 
 Workflow

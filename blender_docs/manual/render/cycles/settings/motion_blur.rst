@@ -98,7 +98,7 @@ Exposure
 Transparent
    ToDo.
 Pixel Filter
-   Sensor simulation or Anti-aliasing.
+   .. Sensor simulation or Anti-aliasing.
 
    Blackman-Harris, Box, Gaussian
 Width
