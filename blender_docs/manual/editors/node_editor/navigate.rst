@@ -3,7 +3,7 @@
 Navigating
 **********
 
-Navigating the node editor is done with the use of both mouse movement and keyboard shortcuts.
+Navigating the Node editor is done with the use of both mouse movement and keyboard shortcuts.
 
 Pan :kbd:`MMB`
    Move the view up, down, left and right

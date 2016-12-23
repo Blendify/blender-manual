@@ -8,7 +8,7 @@ Introduction
    The Node Editor.
 
 The *Node Editor* is used to work with node-based work flows.
-The node tree type can be changed using the buttons in the node editor header.
+The node tree type can be changed using the buttons in the Node editor header.
 However, here we will only give an overview of what the *Node Editor* is.
 In the list below it shows a list of different types of node trees and where each is documented.
 
@@ -68,7 +68,36 @@ Use Nodes
 Use Pinned
    This button tells the render engine to use pinned node tree.
 Go to Parent button
-   This button allows you go to parent node tree.
+   This button allows you go to parent node tree e.g. leaving a group.
+
+
+.. _editors-nodes-usage-auto-offset:
+
+Auto-offset
+^^^^^^^^^^^
+
+*Auto-offset* is a feature that helps organizing node layouts interactively without interrupting the user workflow.
+When you drop a node with at least one input and one output socket onto an existing connection between two nodes,
+auto-offset will, depending on the direction setting, automatically move the left or right node away to make room
+for the new node.
+
+.. figure:: /images/editors_node-editor_nodes_auto-offset.png
+
+Auto-offset is enabled by default, but it can be disabled from the Node editor header.
+
+You can toggle the offset direction while you are moving the node by pressing :kbd:`T`.
+
+The offset margin can be changed using the *Auto-offset Margin*
+setting in the editing section of the User Preferences.
+
+.. seealso:: Example Video:
+
+   https://vimeo.com/135125839135125839
+
+
+Further Menus
+^^^^^^^^^^^^^
+
 Snap
    Toggle snap mode for node in the Node Editor.
 Snap Node Element Selector
@@ -103,4 +132,4 @@ and buttons for adding nodes. The Tool Shelf is organized using tabs.
 Properties Region
 -----------------
 
-The *Properties Region* contains properties for the current selected node as well as node editor specific settings.
+The *Properties Region* contains properties for the current selected node as well as Node editor specific settings.

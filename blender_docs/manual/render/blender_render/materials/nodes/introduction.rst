@@ -51,8 +51,8 @@ This section covers:
 Accessing The Node Editor
 =========================
 
-First lets enter the :doc:`node editor </editors/node_editor/index>`
-and make sure that the node editor has the material node button (the sphere icon) pressed,
+First lets enter the :doc:`Node editor </editors/node_editor/index>`
+and make sure that the Node editor has the material node button (the sphere icon) pressed,
 not the composite or texture node buttons.
 
 
@@ -60,7 +60,7 @@ Enabling Node Materials in the Material Buttons
 -----------------------------------------------
 
 Let us take the base material and hit the Nodes button next to the material name in the
-material panel or the node editor. You will see a change in the material panel.
+material panel or the Node editor. You will see a change in the material panel.
 
 .. figure:: /images/render_blender-render_materials_nodes_introduction_use-nodes-button.png
 
@@ -74,7 +74,7 @@ If you switch to the *Compositing* :doc:`screen </interface/window_system/screen
 with :kbd:`Ctrl-Left`, if you are on the default screen,
 you will find a *Node Editor* on the top half of the screen.
 When you enabled material nodes,
-a material node and an output node were automatically added to the node editor.
+a material node and an output node were automatically added to the Node editor.
 
 .. figure:: /images/render_blender-render_materials_nodes_introduction_nodes-default.png
 

@@ -85,7 +85,7 @@ Offset
    Change the screen space position of the backdrop,
    or click the *Move* button, or shortcut :kbd:`Alt-MMB` to manually move it.
 Fit
-   Automatically scales the backdrop to fit the size of the node editor.
+   Automatically scales the backdrop to fit the size of the Node editor.
 
 
 Performance

@@ -241,7 +241,7 @@ It is also possible to select/deselect files by "walking" through them using the
 If no file is selected, the arrow key navigation selects the first or last file in the directory,
 depending on the arrow direction.
 
-If you select a directory and hit enter, you will now go into that directory
+If you select a directory and hit :kbd:`Enter`, you will go into that directory
 (and highlighting 'parent' entry will bring you up one level).
 
 

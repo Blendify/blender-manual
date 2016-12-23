@@ -59,6 +59,13 @@ has a default value which can be edited via a color, numeric, or vector interfac
 In the screen shot of the node above, the second color option is set by a color interface input.
 
 
+Outputs
+-------
+
+The *Outputs* are located on the top right side of the node,
+and can be connected to the input of nodes further down the node tree.
+
+
 Properties
 ==========
 
@@ -81,11 +88,3 @@ The preview can be toggled using the icon on the very top right hand corner of t
 .. figure:: /images/editors_node_previewless.png
 
    How a node appears without the preview.
-
-
-Outputs
--------
-
-The *Outputs* are located on the top right side of the node,
-and can be connected to the input of nodes further down the node tree.
-
