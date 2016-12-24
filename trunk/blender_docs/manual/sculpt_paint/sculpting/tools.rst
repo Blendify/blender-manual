@@ -149,7 +149,7 @@ Texture Panel
 =============
 
 Texture
-   Texture to be used to determine the strength of brush.
+   Texture to be used to determine the strength of the brush.
 Brush Mapping
    Sets the way the texture is mapped to the brush stroke:
 

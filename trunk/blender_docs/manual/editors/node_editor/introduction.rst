@@ -92,7 +92,7 @@ setting in the editing section of the User Preferences.
 
 .. seealso:: Example Video:
 
-   https://vimeo.com/135125839135125839
+   `Auto-Offset. A workflow enhancement for Blender’s node editor. <https://vimeo.com/135125839>`__
 
 
 Further Menus
