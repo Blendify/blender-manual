@@ -32,6 +32,7 @@ Editing
 
 Join in new Frame
 -----------------
+
 .. admonition:: Reference
    :class: refbox
 

@@ -168,7 +168,7 @@ This page lists definitions for terms used in Blender and this manual.
          The color space holds an additional :term:`Alpha Channel`.
 
    Concave face
-      Face in which one vert is inside a triangle formed by other vertices of the face.
+      Face in which one vertex is inside a triangle formed by other vertices of the face.
 
    Constraint
       A way of controlling one :term:`object` with data from another.

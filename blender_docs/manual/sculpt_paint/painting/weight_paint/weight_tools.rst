@@ -49,8 +49,8 @@ This tool normalizes all of the vertex groups, except for locked groups,
 which keep their weight values untouched.
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 .. figure:: /images/modeling-meshes-wp-tools-normalize-all.jpg
 
@@ -90,8 +90,8 @@ the weights are not transferred to the corresponding opposite bone weight group.
 The mirror only takes place within the selected Vertex Group.
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 .. figure:: /images/modeling-meshes-wp-tools-mirror-options.jpg
 
@@ -131,13 +131,13 @@ Replaces each Weight of the selected weight group by × -1.0 weight.
 
 Examples:
 
-- original 1.0 converts to 0.0
-- original 0.5 remains 0.5
-- original 0.0 converts to 1.0
+- Original 1.0 converts to 0.0
+- Original 0.5 remains 0.5
+- Original 0.0 converts to 1.0
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 .. _fig-paint-weight-tools-mirror:
 
@@ -172,12 +172,12 @@ This tool is useful for clearing your weight groups of very low (or zero-) weigh
 In the example shown, a cutoff value of 0.139 is used (see operator options below)
 so all blue parts (left side) are cleaned out (right side).
 
-Note, the images use the *Show Zero weights* =Active option so that unreferenced
+Note, the images use the *Show Zero weights* Active option so that unreferenced
 Weights are shown in Black.
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 .. figure:: /images/modeling-meshes-wp-tools-clean-operator.jpg
 
@@ -211,8 +211,8 @@ with this tool you can raise or lower the overall "heat" of the weight group.
    No weight will ever be set to values above 1.0 or below 0.0 regardless of the settings.
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 .. figure:: /images/modeling-meshes-wp-tools-levels-operator.jpg
 
@@ -261,7 +261,7 @@ This value is multiplied by the factor given in the Operator parameters (see bel
    Blending.
 
 
-Now let us see what happens when we select all but one of the neighbors of the selected vert as
+Now let us see what happens when we select all but one of the neighbors of the selected vertex as
 well. Again all connected and unselected vertices are marked with a gray circle.
 When we call the Blend tool now and set the Factor to 1.0,
 then we see different results for each of the selected vertices:
@@ -273,13 +273,13 @@ then we see different results for each of the selected vertices:
 
 - The middle vertex:
 
-  is connected to one unselected vert with ``weight = 1``.
-  So the average weight is 1.0 in this case, thus the selected vert color has changed to red.
+  is connected to one unselected vertex with ``weight = 1``.
+  So the average weight is 1.0 in this case, thus the selected vertex color has changed to red.
 
-- The right vert:
+- The right vertex:
 
   is surrounded by three unselected vertices with average weight = :math:`(0 + 0 + 0) / 3 = 0.0`
-  So the average weight is 0, thus the selected vert color has not changed at all
+  So the average weight is 0, thus the selected vertex color has not changed at all
   (it was already blue before blend was applied).
 
 .. figure:: /images/modeling-meshes-wp-tools-blend3.png
@@ -297,8 +297,8 @@ and it will be used for blending the left side to the right side of the area.
   green and finally does blend the cold side (right) to the hot side (left).
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 .. figure:: /images/modeling-meshes-wp-tools-blend-operator.jpg
 
@@ -316,7 +316,7 @@ Transfer Weights
 
 Copy weights from other objects to the vertex groups of the active Object.
 By default this tool copies all vertex groups contained in the selected objects to the target
-object. However, you can change the tool's behavior in the operator redo panel (see below).
+object. However, you can change the tool's behavior in the Operator panel (see below).
 
 
 Prepare the Copy
@@ -349,20 +349,20 @@ Call the Tool
 Open the Tool Shelf and locate the Weight Tools panel.
 From there call the "Transfer weights" tool.
 The tool will initially copy all vertex groups from the source objects.
-However, the tool also has an operator redo panel
+However, the tool also has an Operator panel
 (which appears at the bottom of the tool shelf).
-From the redo panel you can change the parameters to meet your needs.
+From the Operator panel you can change the parameters to meet your needs.
 (The available Operator parameters are documented below.)
 
 
-Redo Panel Confusion
-^^^^^^^^^^^^^^^^^^^^
+Operator Panel Confusion
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may notice that the Operator Redo Panel (see below)
+You may notice that the Operator panel (see below)
 stays available after the weight transfer is done.
-The panel only disappears when you call another Operator that has its own redo Panel. This can
+The panel only disappears when you call another Operator that has its own Operator panel. This can
 lead to confusion when you use Transfer weights repeatedly after you changed your vertex
-groups. If you then use the still-visible redo panel, then Blender will reset your work to its
+groups. If you then use the still-visible Operator panel, then Blender will reset your work to its
 state right before you initially called the Transfer Weights tool.
 
 
@@ -375,8 +375,8 @@ even if the operator panel is still available.
 Unless you really want to reset your changes to the initial call of the tool.
 
 
-Operator Parameters
-^^^^^^^^^^^^^^^^^^^
+Options
+^^^^^^^
 
 .. note::
 
@@ -395,8 +395,8 @@ The tool removes lowest weights first until the limit is reached.
    The tool can only work reasonably when more than one weight group is selected.
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
@@ -437,11 +437,9 @@ Blends the weights of selected vertices with unselected vertices.
    This tool only works in vertex select mode.
 
 
-Operator Parameters
--------------------
+Options
+-------
 
 Type
    - Linear
    - Radial
-
-..   X Start:   X End:   Y Start:   Y End:
