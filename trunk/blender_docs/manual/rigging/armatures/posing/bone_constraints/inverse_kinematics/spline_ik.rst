@@ -96,7 +96,7 @@ Tips for Nice Setups
   to minimize the problems in areas where the curve has sharp bends
   which may be especially noticeable when stretching is disabled.
 - For control of the curve, it is recommended that hooks (in particular, Bone Hooks)
-  are used to control the control-vertices of the curve, with one hook per control-vert.
+  are used to control the control-vertices of the curve, with one hook per control-vertex.
   In general, only a few control-vertices should be needed for the curve
   (e.g one for every 3-5 bones offers decent control).
 - The type of curve used does not really matter,

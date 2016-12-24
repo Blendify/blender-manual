@@ -18,7 +18,7 @@ Data
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:    :menuselection:`Object Tools --> Data`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Data`
    | Hotkey:   :kbd:`Shift-Ctrl-T`
 
 
@@ -162,7 +162,7 @@ Data Layout
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:    :menuselection:`Object Tools --> Data layout`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Data Layout`
 
 
 Transfers layout of data layer(s) from active to selected meshes.

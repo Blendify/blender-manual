@@ -118,13 +118,24 @@ Delete with Reconnect
    :kbd:`Ctrl-X`
 
 
+Mute
+====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Node --> Toggle Node Mute`
+   | Hotkey:   :kbd:`M`
+
+ToDo.
+
+
 Show/Hide
 =========
 
 Hide
    :kbd:`H`
-Toggle Node Mute
-   :kbd:`M`
 Toggle Node Preview
    :kbd:`Shift-H`
 Toggle Hidden Node Sockets
