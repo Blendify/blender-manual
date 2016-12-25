@@ -32,7 +32,7 @@ Text fields have a light gray background and a darker outline.
 They hold text strings, and provide the means to edit it
 by :doc:`standard </interface/common_shortcuts>` text editing.
 Search fields show a magnifying glass icon on the left side. Start typing in the field to search.
-Only items which matching text will be shown.
+Only items withcd b  matching text will be shown.
 
 For text fields with an icon and gray pop-up see :ref:`ui-data-id`.
 
