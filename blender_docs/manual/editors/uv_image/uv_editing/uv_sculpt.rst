@@ -17,7 +17,7 @@ The UV Sculpting "mode" can be activated with :kbd:`Q` or in the *UVs* menu.
 Lock Borders
    Locks the borders of UV islands from being moved.
 Sculpt All Islands
-   Edit all islands and not only the island under the brush center.
+   To edit all islands and not only the island under the brush center.
 UV Sculpt Tools
    Grab, Relax, Pinch
 Show Brush

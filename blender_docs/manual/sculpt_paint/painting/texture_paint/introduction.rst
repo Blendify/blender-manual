@@ -42,7 +42,7 @@ In the 3D View in Texture Paint Mode, you paint directly on the mesh by
 Getting Started
 ===============
 
-Once you have unwrapped your model to a UV Map (as explained in previous pages),
+Once you have unwrapped your model to a UV Map,
 you can begin the texturing process.
 You cannot paint on a mesh in Texture Paint Mode without **first** unwrapping your mesh,
 **and** doing one of the following steps. Either:
@@ -85,6 +85,16 @@ the Properties region in the UV/Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
 you must explicitly do so by :menuselection:`Image --> Save` in the UV/Image Editor.
+
+
+Missing Data
+------------
+
+Add Simple UVs
+   The *Add Simple UVs* does a simple cube unwrap followed by a pack operation.
+   It's still recommended to make a custom unwrap.
+Add Paint Slot
+   ToDo.
 
 
 Texture Preview

@@ -12,6 +12,8 @@ Brush
 Radial Control
 --------------
 
-- Interactively set brush size :kbd:`F`
-- Interactively set brush strength :kbd:`Shift-F`
-- Interactively rotate brush texture :kbd:`Ctrl-F`
+- Set brush size :kbd:`F`
+- Set brush strength :kbd:`Shift-F`
+- Rotate brush texture :kbd:`Ctrl-F`
+
+You can then either adjust the value interactively or by typing in numbers.

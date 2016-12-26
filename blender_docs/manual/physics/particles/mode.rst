@@ -97,6 +97,12 @@ You may also use the *Select* Menu.
    :kbd:`RMB` to select, :kbd:`Shift-RMB` to add/remove a point from the selection.
 
 
+Select Random
+-------------
+
+ToDo.
+
+
 Select Modes
 ------------
 
