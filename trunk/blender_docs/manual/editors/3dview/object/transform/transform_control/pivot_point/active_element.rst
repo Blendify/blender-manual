@@ -9,7 +9,7 @@ Active Element
 
    | Mode:     Object Mode and Edit Mode
    | Menu:     Select from the |pivot-icon| icon in the 3D View header.
-   | Hotkey:   :kbd:`Alt-.`
+   | Hotkey:   :kbd:`Alt-Period`
 
 
 The *active* element can be an Object, vertex, edge or a face. The active element is the

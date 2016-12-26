@@ -9,12 +9,12 @@
 
    | Mode:     Object Mode and Edit Mode
    | Menu:     Select from the |pivot-icon| icon in the 3D View header.
-   | Hotkey:   :kbd:`.`
+   | Hotkey:   :kbd:`Period`
 
 
 The 3D cursor is the most intuitive of the pivot points.
 With the 3D cursor selected as the active pivot point
-(from either the *Editors Header* or via :kbd:`.`),
+(from either the *Editors Header* or via :kbd:`Period`),
 simply position the 3D cursor and then do the required transformation. All rotation and
 scaling transformations will now be done relative to the location of the 3D cursor.
 

@@ -169,13 +169,13 @@ Face Selection Mode:
 More/Less
 =========
 
-More :kbd:`Ctrl-Numpad+`
+More :kbd:`Ctrl-NumpadPlus`
    ToDo.
-Less :kbd:`Ctrl-Numpad-`
+Less :kbd:`Ctrl-NumpadMinus`
    ToDo.
-Next Active :kbd:`Ctrl-Shift-Numpad+`
+Next Active :kbd:`Ctrl-Shift-NumpadPlus`
    This uses selection history to select the next vertex/edge/face based on surrounding topology.
-Previous :kbd:`Ctrl-Shift-Numpad-`
+Previous :kbd:`Ctrl-Shift-NumpadMinus`
    Select previous just removes the last selected element.
 
 

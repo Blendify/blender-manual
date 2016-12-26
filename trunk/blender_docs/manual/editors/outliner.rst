@@ -111,7 +111,7 @@ Object-level Restrictions
 
 The three following toggles, in the right side of the *Outliner* editor,
 are available for objects, modifiers and constraints. 
-When holding :kbd:`Ctrl` all its child objects are affect as well.
+When holding :kbd:`Ctrl` all its child objects are affected as well.
 
 Visibility (eye icon)
    Toggles the visibility of the object in the 3D View.
@@ -137,7 +137,7 @@ Show Restriction Columns
    Toggles the three columns of `Object-level Restrictions`_.
 
 Show Active
-   Centers the Tree View to selected object :kbd:`.`.
+   Centers the Tree View to selected object :kbd:`Period`.
 Show/Hide One Level
    Expand one level down in the tree :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to collapse.
 Show Hierarchy

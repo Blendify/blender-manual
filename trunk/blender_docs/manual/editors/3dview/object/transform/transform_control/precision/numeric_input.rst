@@ -14,11 +14,11 @@ After pressing :kbd:`G`, :kbd:`R`, :kbd:`S`
 type a number to indicate the magnitude of the transformation.
 
 You can see the numbers you enter in the bottom left hand corner of the 3D View header.
-Negative numbers and decimals can be entered by pressing :kbd:`Minus` and :kbd:`.` respectively.
+Negative numbers and decimals can be entered by pressing :kbd:`Minus` and :kbd:`Period` respectively.
 
 - Hitting :kbd:`Backspace` during number entry and deleting the number removes the numerical
   specification option but the object will remain constrained to the same axis.
-- Hitting :kbd:`/` during number entry switches the number being entered to its reciprocal,
+- Hitting :kbd:`Slash` during number entry switches the number being entered to its reciprocal,
   e.g. :kbd:`2 /` results in 0.5 (1/2); :kbd:`2/0` results in 0.05 (1/20).
 
 

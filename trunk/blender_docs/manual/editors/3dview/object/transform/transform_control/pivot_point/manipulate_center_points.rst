@@ -9,7 +9,7 @@ Manipulate Center Points
 
    | Mode:     Object Mode and Pose Mode
    | Menu:     Select from the |pivot-icon| icon in the 3D View header.
-   | Hotkey:   :kbd:`Alt-,`
+   | Hotkey:   :kbd:`Alt-Comma`
 
 
 When this option is enabled, the transformation
