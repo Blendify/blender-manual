@@ -19,13 +19,14 @@ Shortcuts
 
 The following table shows the available hotkeys for the animation player.
 
+
 .. rubric:: Playback
 
 .. list-table::
    :header-rows: 1
 
-   * - Hotkey
-     - Action
+   * - Action
+     - Hotkey
    * - Start/Pause:
      - :kbd:`Space`
    * - Start playback (when paused):

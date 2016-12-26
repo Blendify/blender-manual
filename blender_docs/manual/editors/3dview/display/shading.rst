@@ -78,15 +78,16 @@ Depth of Field
    of the active camera: Focal Length, Sensor Size, Focus Object or Focus Distance, and Viewport F-stop.
 Ambient Occlusion
    Improves the realism of the viewport image by simulating the darkening effect that
-   occurs in crevices and corners. Typically such effects are rendered at higher quality,
+   occurs in crevices and corners. This is done by raycasting in screen space.
+   Typically such effects are rendered at higher quality,
    but this is a quick real-time preview which can help when modeling or sculpting.
 
-   These settings control the AO effect.
-
    Strength
-      A higher number makes the corners darker.
+      This factor directly multiplies the computed color of the effect,
+      so increasing this value gives a stronger effect.
    Distance
-      How far out of the corners does the effect extend.
+      The maximum world space distance the effect is computed in.
+      I.e. how far out of the corners does the effect extend.
    Attenuation
       How strongly the effect attenuates with distance.
       Increasing this makes far away surfaces contribute less to the effect.
