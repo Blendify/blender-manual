@@ -27,7 +27,7 @@ Collapsing Menus
 
 Sometimes it's helpful to gain some extra horizontal space in the header by collapsing menus,
 this can be accessed from the header context menu,
-simply right click on the header and enable it to collapsed.
+simply :kbd:`RMB` click on the header and enable it to collapsed.
 
 .. list-table::
 
