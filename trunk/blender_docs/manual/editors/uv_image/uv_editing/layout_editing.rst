@@ -29,8 +29,6 @@ Snap to pixel
 Constraining to Image Bounds
    Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside the
    0 to 1 UV range.
-UV Sculpt
-   ..
 Live Unwrap
    ..
 Unwrap
@@ -237,7 +235,7 @@ area. Edges outside the boundary, even if selected, will not be shown in the sav
 The artist will use this as a transparent layer in their paint program as a guide when
 painting your texture. The example below shows Blender in the background,
 and the Gimp working on the texture, using the saved layout as a guide.
-Note that targa format supports the Alpha channel,
+Note that ``targa`` format supports the Alpha channel,
 so you can paint transparent areas of the mesh.
 
 For using images as textures, see the page on
