@@ -22,6 +22,10 @@ Vertical tabs can be switched with the :kbd:`Wheel` within the tab header and
 
    Horizontal tab header.
 
+.. container:: lead
+
+   .. clear
+
 
 .. _ui-panels:
 

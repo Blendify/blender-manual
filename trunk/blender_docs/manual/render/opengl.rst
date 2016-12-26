@@ -39,20 +39,19 @@ the Cycles Render engine.
 Settings
 ========
 
-For the most part, *OpenGL Render* uses view-port,
-however, some render settings are used too:
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Info Editor --> Render --> OpenGL Render Options`
+
+For the most part, *OpenGL Render* uses the view-port settings,
+Sampling and Alpha Transparency Mode options can be set by
+the :menuselection:`Render --> OpenGL Render Options` from the Info Editor header.
+Additionally, some render settings are used too:
 
 - Render Dimensions
 - Render Aspect
-- Anti-Aliasing, Samples & Full Sample (for slower, higher quality output).
-- Alpha Transparency Mode.
 - File Format & Output (file-path, format, compression settings... etc).
-
-.. note::
-
-   These options are only available in the *Render* properties when using Blender-Internal.
-   When using other rendering engines, access these options from:
-   :menuselection:`Render --> OpenGL Render Options`.
 
 
 Rendering
