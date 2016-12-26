@@ -9,7 +9,7 @@ Median Point
 
    | Mode:     Object Mode and Edit Mode
    | Menu:     Select from the |pivot-icon| icon in the 3D View header.
-   | Hotkey:   :kbd:`Ctrl-,`
+   | Hotkey:   :kbd:`Ctrl-Comma`
 
 
 The Median Point can be considered to be broadly similar to the concept of
