@@ -81,7 +81,7 @@ Clip Start and End
 
    .. seealso::
 
-   :ref:`Camera Clipping <camera-clipping>`.
+      :ref:`Camera Clipping <camera-clipping>`.
 
 
 Depth of Field
