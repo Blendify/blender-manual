@@ -147,7 +147,7 @@ Edit Translation
 Pie Menus
 =========
 
-A pie menu is a menu, whose items are spread radially around the mouse.
+A pie menu is a menu whose items are spread radially around the mouse.
 Pie menus have to be activated in the User Preferences through
 :menuselection:`Add-ons --> UI --> Pie Menus Official`.
 

@@ -147,7 +147,7 @@ Recenter Timeout
    Pie menus will use the initial mouse position as center for this amount of time, measured in 1/100ths of a second.
    This allows for fast dragged selections.
 Radius
-   Size of the Pie Menu.
+   The size of the Pie Menu set with the distance (in pixels) of the menu items from the center of the pie menu.
 Threshold
    Distance from center before a selection can be made.
 Confirm Threshold
