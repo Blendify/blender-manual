@@ -41,7 +41,7 @@ can exist in the node setup. Compare to other types of node contexts, which are 
 See the next section for details.
 
 For instructions on how to add, remove and manipulate the nodes in the tree,
-see the :doc:`Node Editor manual </editors/node_editor/nodes/usage>`.
+see the :doc:`Node Editor </editors/node_editor/index>` reference.
 
 
 Using Multiple Outputs

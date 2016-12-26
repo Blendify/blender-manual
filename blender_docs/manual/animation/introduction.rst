@@ -33,7 +33,7 @@ Animation Fundamentals
    Keying Sets are used to record a set of properties at the same time.
 :doc:`Markers </animation/markers>`
    Markers are used to mark key points/events within an animation.
-:doc:`Motion Paths </animation/keyframes/visualization>`
+:doc:`Motion Paths </animation/motion_paths>`
    Motion Paths are used to visualize an animation.
 :doc:`Shape Keys </animation/shape_keys/index>`
    Shape Keys are used to deform objects into new shapes.
