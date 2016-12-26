@@ -6,8 +6,7 @@ Background Images
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   *3D View*
-   | Panel:    *Background Image*
+   | Panel:    :menuselection:`Properties region --> Background Image`
 
 
 A background picture in your 3D View is very helpful in many situations:

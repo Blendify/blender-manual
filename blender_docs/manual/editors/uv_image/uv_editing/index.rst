@@ -12,5 +12,6 @@
    layout_management.rst
    selecting.rst
    layout_editing.rst
+   uv_sculpt.rst
    layout_workflow.rst
    applying_image.rst
