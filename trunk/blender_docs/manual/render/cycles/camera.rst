@@ -3,8 +3,14 @@
 Camera
 ******
 
+Lens
+====
+
+Type
+----
+
 Perspective
-===========
+^^^^^^^^^^^
 
 Lens Size and Angle
    Control the field of view angle.
@@ -14,7 +20,7 @@ Lens Size and Angle
 
 
 Orthographic
-============
+^^^^^^^^^^^^
 
 Scale
    Controls the size of objects projected on the image.
@@ -26,7 +32,7 @@ Scale
 .. _cycles-panoramic-camera:
 
 Panoramic
-=========
+^^^^^^^^^
 
 Cycles supports Equirectangular and Fisheye panoramic cameras.
 Note that these cannot be displayed with OpenGL rendering in the view-port;
@@ -34,7 +40,7 @@ they will only work for rendering.
 
 
 Equirectangular
----------------
+"""""""""""""""
 
 Render a panoramic view of the scenes from the camera location and use an equirectangular projection,
 always rendering the full 360° over the X-axis and 180° over the Y-axis.
@@ -47,7 +53,7 @@ mapping.
 
 
 Fisheye
--------
+"""""""
 
 Fisheye lenses are typically wide angle lenses with strong distortion,
 useful for creating panoramic images for e.g. dome projection, or as an artistic effect.
@@ -65,18 +71,40 @@ Field of View
    Field of view angle, going to 360 and more to capture the whole environment.
 
 
+Clipping
+--------
+
+Clip Start and End
+   The interval in which objects are directly visible,
+   Any objects outside this range still influence the image indirectly,
+   as further light bounces are not clipped.
+
+   .. seealso::
+
+   :ref:`Camera Clipping <camera-clipping>`.
+
+
 Depth of Field
 ==============
 
 .. figure:: /images/render_cycles_camera_depth-of-field-panel.png
 
+
 Focus
+-----
+
+Object
   Set an object to be used as a focal point by the camera, causing the camera
-  to focus on the selected object.
+  to focus on the selected object origin.
 Distance
-  When an object is not used, the camera can be set to focus on an area in 3D
+  When an *Focus* object is not used, the camera can be set to focus on an area in 3D
   space set by the distance from the camera.
   Using the *Limit* Display option, you are able to view the distance in the 3D space.
+
+
+Viewport
+--------
+
 High Quality
   Enables the High Quality *view-port* depth of field, giving a more accurate
   representation of *depth of field*. This allows the view-port depth of field
@@ -88,9 +116,14 @@ Blades
   The number of polygonal sides to give blurred objects in the view-port.
   The minimum number of blades needed to enable the bokeh effect is 3 (triangle).
   (Only available with High Quality).
+
+
 Aperture
+--------
+
+Aperture type
   Use F-Stop or Radius to set the aperture for the render, and render preview.
-  F-Stop is the focal ratio, where Radius is the the raidus of the focal point.
+  F-Stop is the focal ratio, where Radius is the the radius of the focal point.
 Size/Number
   Aperture radius *size*, or F-Stop *number* used for the render, and render preview.
   Using the F-Stop with a low number, or Radius with a large size will result in a strong blur,
@@ -108,15 +141,4 @@ Ratio
   and a higher number will cause a vertical distortion.
 
 .. figure:: /images/cycles_camera_dof_bokeh.jpg
-
-
-Clipping
-========
-
-Clip Start and End
-   The interval in which objects are directly visible,
-   Any objects outside this range still influence the image indirectly,
-   as further light bounces are not clipped.
-
-   .. seealso:: :ref:`Camera Clipping <camera-clipping>`.
 

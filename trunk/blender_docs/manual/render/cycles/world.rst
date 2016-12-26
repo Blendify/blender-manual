@@ -104,7 +104,7 @@ Map Resolution
    but will take up more memory and render slightly slower.
 
 Max Bounces
-   Maximim number of bounces the background light will contribute to the render.
+   Maximal number of bounces the background light will contribute to the render.
 
 .. seealso::
 
@@ -122,7 +122,7 @@ Sampling Method
    - If you have a combination of both, then the multiple importance sampling will be better.
 
 Interpolation
-   Interpolation meathod to use for world volumes.
+   Interpolation method to use for world volumes.
 
    Linear
       Good smoothness and speed.

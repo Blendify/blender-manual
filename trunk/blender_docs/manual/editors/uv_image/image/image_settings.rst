@@ -37,7 +37,7 @@ How to load a :ref:`file-browser-open-sequence`.
 
 Frame
    A label showing the current frame.
-further options
+Further options
    See `Movie`_ below.
 
 

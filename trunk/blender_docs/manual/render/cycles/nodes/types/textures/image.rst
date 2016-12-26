@@ -56,12 +56,15 @@ Projection
       or assigning stickers to rounded objects. However,
       this is not a cylindrical mapping so the ends of the cylinder are undefined.
 
-Extension Type
-   Extension type defines how the image is extrapolated past the original bounds:
+Extension
+   Extension defines how the image is extrapolated past the original bounds:
 
-   - *Repeat* will repeat the image horizontally and vertically giving tiled-looking result.
-   - *Extend* will extend the image by repeating pixels on its edges.
-   - *Clip* will set all the extended pixels values to transparent black.
+   Repeat
+      Will repeat the image horizontally and vertically giving tiled-looking result.
+   Extend
+      Will extend the image by repeating pixels on its edges.
+   Clip
+      Clip to the original image size and set all the exterior pixels values to transparent black.
 
 
 Outputs
