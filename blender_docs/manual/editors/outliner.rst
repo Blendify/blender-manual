@@ -90,6 +90,8 @@ Make Single User
    ToDo.
 Delete
    ToDo.
+Delete Hierarchy
+   Deletes the object and all of its child objects.
 Remap Users
    ToDo.
 Add Fake User, Clear Fake User
@@ -108,7 +110,8 @@ Object-level Restrictions
 -------------------------
 
 The three following toggles, in the right side of the *Outliner* editor,
-are only available for objects:
+are available for objects, modifiers and constraints. 
+When holding :kbd:`Ctrl` all its child objects are affect as well.
 
 Visibility (eye icon)
    Toggles the visibility of the object in the 3D View.
