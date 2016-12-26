@@ -15,23 +15,12 @@ Tabs are overlapping sections in the user-interface.
 The Tabs header can be vertical (Tool Shelf) or
 horizontal (Properties Editor, User Preferences).
 
+Vertical tabs can be switched with the :kbd:`Wheel` within the tab header and
+:kbd:`Ctrl-Wheel` changes tabs from anywhere in the region.
+
 .. figure:: /images/game-engine_physics_introduction_tab-header.png
 
    Horizontal tab header.
-
-
-Pinning
--------
-
-Often it is desirable to view panels from different tabs at the same time.
-This has been solved by making panels pinnable.
-
-A pinned panel remains visible regardless of which tab has been selected.
-You can pin a panel by :kbd:`Shift` clicking its header,
-or by right clicking on the header and choosing *Pin*.
-
-In the image shown to the right,
-is an example of the *Mesh Options* pinned in the tools tab.
 
 
 .. _ui-panels:
@@ -72,6 +61,20 @@ Position
 
 You can change the position of a panel within its region by clicking and
 dragging it with the :kbd:`LMB` on the grip widget (\:\:\:\:) in the upper right corner.
+
+
+Pinning
+-------
+
+Often it is desirable to view panels from different tabs at the same time.
+This has been solved by making panels pinnable.
+
+A pinned panel remains visible regardless of which tab has been selected.
+You can pin a panel by :kbd:`Shift` clicking its header,
+or by :kbd:`RMB` clicking on the header and choosing *Pin* in the context menu.
+
+In the image shown to the right,
+is an example of the *Mesh Options* pinned in the tools tab.
 
 
 Zoom

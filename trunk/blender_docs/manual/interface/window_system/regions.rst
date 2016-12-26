@@ -18,6 +18,7 @@ the availability of additional regions are different between editors.
 See specific documentation about each editor in the
 :doc:`Editors </editors/index>` chapter.
 
+
 .. _ui-region-header:
 
 Header
