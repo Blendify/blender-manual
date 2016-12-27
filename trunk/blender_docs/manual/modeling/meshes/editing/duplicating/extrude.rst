@@ -28,7 +28,7 @@ Faces are extruded by default along their averaged normal.
 The extrusion can be limited to a single axis by specifying an axis;
 see :doc:`/editors/3dview/object/transform/transform_control/precision/axis_locking`.
 
-The different tools deviate in how the new geometry is connected in itself. 
+The extrude tools differentiate in how the new geometry is connected in itself. 
 
 
 Extrude Region
@@ -42,7 +42,8 @@ Extrude Region
    | Menu:     :menuselection:`Mesh --> Extrude --> Extrude Region`
    | Hotkey:   :kbd:`E`
 
-Only the border loop gets extruded. The inner region of the selection is kept unchanged.
+Only the border loop gets extruded.
+The inner region of the selection gets moved unchanged with extrusion.
 
 .. list-table::
 
