@@ -18,7 +18,7 @@ Inputs
 Image
    Standard image input.
 X, Y
-   Available if Space is relative or absolute. Scale in the axis directions.
+   Scale in the axis directions, only available if *Space* is set to *Relative* or *Absolute*.
 
 
 Properties
@@ -32,14 +32,18 @@ Space
    Absolute
       Size of an image by using absolute pixel values.
    Scene Size
-      TODO.
+      Sizes an image to the size of the final render resolution for the scene.
+      For example, rendering a scene at the standard 1080p resolution but setting the render percentage at 50%,
+      will produce a 1080p image with the scene scaled down 50% and leaving the rest of the image as alpha.
    Render Size
       Image dimensions set in the Render panel.
 
       Stretch, Fit, Crop
-         TODO.
+         Stretch distorts the image so that it fits into the render size.
+         Fit scales the image until the bigger axis "fits" into the render size.
+         Crop cuts the image so that it is the same aspect ratio as the render size.
       X, Y
-         TODO.
+         Offset factor for the final scaled image.
 
 
 Outputs

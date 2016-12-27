@@ -15,7 +15,7 @@ Flip
    X flips (reverses) the image left-to-right, Y reverses top-to-bottom.
 Backwards
    Reverses strip image sequence
-De-Interlace
+Deinterlace
    Removes fields in a video file.
 
 Saturation
