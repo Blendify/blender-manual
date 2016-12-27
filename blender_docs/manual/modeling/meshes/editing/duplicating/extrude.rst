@@ -1,8 +1,35 @@
-..    TODO/Review: {{review|}}.
+.. (todo) Extrude Edges and Vertices Only needs a rewrite.
 
 *******
 Extrude
 *******
+
+Extrusion tools duplicate vertices, while keeping the new geometry connected with the original vertices.
+Vertices are turned into edges and edges will form faces.
+
+.. list-table::
+
+   * - .. figure:: /images/extrude-vert.png
+          :width: 320px
+
+          Single vertex extruded.
+
+     - .. figure:: /images/extrude-edge.png
+          :width: 320px
+
+          Single edge extruded.
+
+This tool is of paramount importance for creating new geometry.
+It allows you to create parallelepipeds from rectangles and cylinders from circles,
+as well as easily create such things as tree limbs.
+
+The axis on which vertices and edges are extruded along can be set interactively.
+Faces are extruded by default along their averaged normal.
+The extrusion can be limited to a single axis by specifying an axis;
+see :doc:`/editors/3dview/object/transform/transform_control/precision/axis_locking`.
+
+The different tools deviate in how the new geometry is connected in itself. 
+
 
 Extrude Region
 ==============
@@ -13,21 +40,9 @@ Extrude Region
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude Region`
    | Menu:     :menuselection:`Mesh --> Extrude --> Extrude Region`
-   | Hotkey:   :kbd:`E` or :kbd:`Alt-E`
+   | Hotkey:   :kbd:`E`
 
-
-One tool of paramount importance for working with meshes is the *Extrude* tool.
-It allows you to create parallelepipeds from rectangles and cylinders from circles,
-as well as easily create such things as tree limbs.
-*Extrude* is one of the most frequently used modeling tools in Blender. It is simple,
-straightforward, and easy to use, yet very powerful.
-
-The selection is extruded along the common normal of selected faces.
-In every other case the extrusion can be limited to a single axis by specifying an axis (e.g.
-:kbd:`X` to limit to the X axis or :kbd:`Shift-X` to the YZ plane.
-When extruding along the face normal,
-limiting movement to the global Z axis requires pressing :kbd:`Z` twice,
-once to disable the face normal Z axis limit, and once to enable the global Z axis limit.
+Only the border loop gets extruded. The inner region of the selection is kept unchanged.
 
 .. list-table::
 
@@ -46,6 +61,9 @@ once to disable the face normal Z axis limit, and once to enable the global Z ax
 
           Set to Z axis.
 
+
+Details
+-------
 
 Although the process is quite intuitive,
 the principles behind *Extrude* are fairly elaborate as discussed below:
@@ -120,20 +138,6 @@ If vertices are selected while doing an extrude, but they do not form an edge or
 they will extrude as expected, forming a :term:`non-manifold` edge. Similarly,
 if edges are selected that do not form a face, they will extrude to form a face.
 
-
-.. list-table::
-
-   * - .. figure:: /images/extrude-vert.png
-          :width: 320px
-
-          Single vertex extruded.
-
-     - .. figure:: /images/extrude-edge.png
-          :width: 320px
-
-          Single edge extruded.
-
-
 When a selection of vertices forms an edge or face,
 it will extrude as if the edge was selected. Likewise for edges that form a face.
 
@@ -188,8 +192,9 @@ Extrude Repeat Mesh
    | Menu:     :menuselection:`Operator Search --> Extrude Repeat Mesh`
 
 This tool has to be called from :doc:`/interface/controls/templates/operator_search`.
-If the selection is not manifold it's extruded the specified times, else
+If the selection is not manifold it's extruded the specified number of times, else
 it behaves similar to the  :doc:`/modeling/modifiers/generate/array`.
+The extrusion is aligned along the Z axis of the view.
 
 
 Offset
