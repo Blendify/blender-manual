@@ -18,8 +18,16 @@ Select Linked From
    :kbd:`L`
 Select Linked To
    :kbd:`Shift-L`
-Select Groued
-   :kbd:`Shift-G`
+Select Grouped :kbd:`Shift-G`
+   Selects similar nodes to the active node
+   by their :doc:`properties </editors/node_editor/nodes/properties>`.
+
+   Type
+      The node type. e.g. all Math nodes.
+   Color
+      The color property.
+   Prefix, Suffix
+      Matches the name property from start/end of the text.
 Activate Same Type Previous
    :kbd:`Shift-]`
 Activate Same Type Next

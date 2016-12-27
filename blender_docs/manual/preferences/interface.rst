@@ -66,7 +66,7 @@ Zoom to Mouse Position
    When enabled, the mouse pointer position becomes the focus point of zooming instead of the 2D window center.
    Helpful to avoid panning if you are frequently zooming in and out.
 Rotate Around Selection
-   The selected object becomes the rotation center of the viewport.
+   The selected object (bounding box center) becomes the rotation center of the viewport.
    When there is no selection the last selection will be used.
 
    .. hint::
