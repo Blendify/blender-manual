@@ -4,8 +4,15 @@
 Ruler and Protractor
 ********************
 
-The ruler can be accessed from the Tool Shelf,
-once activated you can use the ruler to measure lengths and angles in the scene.
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Menu:     :menuselection:`Tool Shelf --> Grease Pencil --> Tools:Ruler/Protractor`
+
+The ruler is an interactive tool where you can drag lines in the scene to measure distances or angles.
+Optionally snapping to geometry could be activated for better accuracy or to measure wall thickness.
+The ruler can be accessed from the Tool Shelf.
 
 .. figure:: /images/editors_3dview_ruler_example.jpg
    :width: 500px

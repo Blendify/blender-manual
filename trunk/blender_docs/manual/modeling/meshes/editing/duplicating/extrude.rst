@@ -43,7 +43,7 @@ Extrude Region
    | Hotkey:   :kbd:`E`
 
 Only the border loop gets extruded.
-The inner region of the selection gets moved unchanged with extrusion.
+The inner region of the selection gets moved unchanged with the extrusion.
 
 .. list-table::
 

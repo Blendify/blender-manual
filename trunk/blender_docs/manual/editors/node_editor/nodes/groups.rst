@@ -3,22 +3,26 @@
 Node Groups
 ***********
 
-Both material and composite nodes can be grouped. Grouping nodes can simplify the node network layout in the node
-editor, making your material or composite node setup easier to work with. Grouping nodes also creates
-what are called NodeGroups (inside a blend-file) or NodeTrees (when appending).
+Grouping nodes can simplify a node tree by allowing instancing and hiding parts of the tree.
+Both material and composite nodes can be grouped. 
 
-Conceptually, "grouping" allows you to specify a *set* of nodes that you can treat as though it were "just one node".
-You can then re-use it one or more times in this or some other blend-file(s).
+Conceptually, grouping allows you to specify a *set* of nodes that you can treat as though it were "just one node".
+Node groups are similar to functions in programming.
+You can then re-use it inside, which are then called "NodeGroups",
+or in other blend-file(s), when appending called "NodeTrees".
 
-As an example:  If you have created a material using nodes that you would like to use in another blend-file, you
-could simply append the material from one blend-file to another. However, what if you would like to create a
-new material, and use a branch from an existing material node network? You could re-create the branch. Or you could
-append the material to the new blend-file, then cut and paste the branch that you want into the new material. Both
-of these options work, but are not very efficient when working across different blend-files. A better method of
-re-use, for either material node branches or composite node networks, would be to create groups of nodes.
+As an example:  If you have created a material that you would like to use with different inputs
+ e.g. diffuse color: red plastic, green plastic. You could create different materials with *Make Single User*
+for each different color with a copy of the tree part describing the plastic material.
+If you like to edit the material you would need to redo the edit on all materials.
+A better method of re-use is to create node groups, exposing only the variable inputs (e.g. diffuse color).
 
-Once a group has been defined, it becomes an opaque object; a reusable software component. You can (if you choose)
-ignore exactly how it is "defined", and simply use it as many times as you like.
+Also nested node groups are supported. I.e. a node group can be inserted or created inside another node group.
+
+.. note:: Recursion
+
+   Recursive node groups are prohibited for all the current node systems to prevent infinite recursion.
+   A node group can never contain itself (or another group that contains it).
 
 
 Make Group
@@ -72,6 +76,31 @@ it are shown. You can move them around, play with their individual controls, re-
 just like you can if they were a normal part of the editor view. You will not be able, though, to thread them to a
 node outside the group; you have to use the external sockets on the side of the group node. To add or
 remove nodes from the group, you need to ungroup them.
+
+
+Interface
+---------
+
+Interactively
+^^^^^^^^^^^^^
+
+The Input/Output sockets are part of the regular nodes Group Input/Group Output.
+
+ToDo.
+
+
+Panel
+^^^^^
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties region --> Interface`
+
+Sockets can be added or removed, descriptive names can be added and the details of the input data value defined here.
+
+ToDo.
 
 
 Ungroup

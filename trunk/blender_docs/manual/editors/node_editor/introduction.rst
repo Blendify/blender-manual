@@ -66,7 +66,8 @@ Use Nodes
    Tells the render engine to use the node map in computing the material color or rendering the final image,
    or not. If not, the map is ignored and the basic render of the material tabs or scene is accomplished.
 Use Pinned
-   This button tells the render engine to use pinned node tree.
+   When enabled, the editor will retain the material or texture, even when the user selects a different object.
+   A node tree can then be edited independent of the object selection in the 3D view.
 Go to Parent button
    This button allows you go to parent node tree e.g. leaving a group.
 
