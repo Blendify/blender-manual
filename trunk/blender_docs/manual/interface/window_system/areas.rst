@@ -141,5 +141,5 @@ Toggle Fullscreen Area
 
 The fullscreen area contains only the main region.
 The headers visibility can still be toggled with the shortcut.
-To exit the fullscreen move the mouse to the top right corner of the editor to reveal the return icon or
+To exit the fullscreen move the mouse to the top right corner of the area to reveal the return icon or
 use the shortcut :kbd:`Alt-F10`.

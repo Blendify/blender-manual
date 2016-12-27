@@ -3,8 +3,13 @@
 Shading
 *******
 
-Shading Modes
-=============
+Viewport Shading
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Header:   :menuselection:`Viewport Shading`
 
 .. figure:: /images/interface_popup-menu.jpg
    :align: right
@@ -13,21 +18,21 @@ Shading Modes
 
 Shading refers to the way objects are drawn and lit in the 3D View.
 
-Rendered
-   An accurate representation using the selected *Render Engine* and lit with the visible scene lights.
-Material
-   A fast approximation of the applied material.
+Bounding Box
+   Only shows rectangular boxes that outline an object's size and shape.
+Wireframe
+   Objects appear as a mesh of lines representing the edges of faces and surfaces.
+Solid
+   The default drawing mode using solid colored surfaces and simple lighting.
 Textured
    Shows meshes with an image applied using the mesh's active UV Map.
    For Cycles materials, the image is the last one selected in the
    :doc:`Node Editor </editors/node_editor/index>`. For other render engine's,
    the UV Map's applied face texture will be shown.
-Solid
-   The default drawing mode using solid colored surfaces and simple lighting.
-Wireframe
-   Objects appear as a mesh of lines representing the edges of faces and surfaces.
-Bounding Box
-   Only shows rectangular boxes that outline an object's size and shape.
+Material
+   A fast approximation of the applied material.
+Rendered
+   An accurate representation using the selected *Render Engine* and lit with the visible scene lights.
 
 Except for *Rendered*, these shading modes are not dependent on light sources in the scene.
 Instead they use a simple default lighting adjusted by the *Solid OpenGL Lights*
@@ -53,6 +58,11 @@ but this can be overridden for individual objects using the *Display panel* in t
 
 Shading Panel
 =============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Shading`
 
 .. figure:: /images/editors_3dview_display_shading.png
    :align: right

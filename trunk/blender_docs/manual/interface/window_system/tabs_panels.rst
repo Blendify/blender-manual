@@ -54,10 +54,11 @@ Collapsing and expanding
 A triangle on the left of the title shows the expanded (▼) and collapsed (►) state of the panel.
 
 
-- A click with the :kbd:`LMB` on the title area of a panel expands or collapses it.
-- A :kbd:`LMB` drag motion over the title area will expand or collapse many at once.
-- A :kbd:`Ctrl-LMB` click on the title area of a specific panel will collapse
+- A click with the :kbd:`LMB` on the panel header expands or collapses it.
+- Pressing :kbd:`A` expand/collapses the panel under the mouse pointer.
+- A :kbd:`Ctrl-LMB` click on the header of a specific panel will collapse
   all other panels and make this the only expanded one.
+- Dragging with :kbd:`LMB` over the headers will expand or collapse many at once.
 
 
 Position
