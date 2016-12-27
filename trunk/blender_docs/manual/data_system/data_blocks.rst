@@ -317,4 +317,5 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - WindowManager
      - |cross|
      - |cross|
-     - | TODO.
+     - | The overarching manger for all of Blender's UI;
+         this includes screens, notification system, operators, and keymaps.
