@@ -9,7 +9,7 @@ Deleting and Dissolving
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Delete`
    | Menu:     :menuselection:`Mesh --> Delete`
-   | Hotkey:   :kbd:`X`, :kbd:`Delete`
+
 
 These tools can be used to remove components.
 
@@ -17,43 +17,51 @@ These tools can be used to remove components.
 Delete
 ======
 
-Delete :kbd:`X`, :kbd:`Delete`
-   Deletes selected vertices, edges, or faces. This operation can also be limited to:
+.. admonition:: Reference
+   :class: refbox
 
-   Vertices
-      Delete all vertices in current selection, removing any faces or edges they are connected to.
-   Edges
-      Deletes any edges in the current selection. Removes any faces that the edge shares with it.
-   Faces
-      Removes any faces in current selection.
-   Only Edges & Faces
-      Limits the operation to only selected edges and adjacent faces.
-   Only Faces
-      Removes faces, but edges within face selection are retained.
+   | Hotkey:   :kbd:`X`, :kbd:`Delete`
 
 
-Dissolve
-========
+Deletes selected vertices, edges, or faces. This operation can also be limited to:
 
-Dissolve operations are also accessed from the delete menu. Instead of removing the geometry,
-which may leave holes that you have to fill in again,
+Vertices
+   Delete all vertices in current selection, removing any faces or edges they are connected to.
+Edges
+   Deletes any edges in the current selection. Removes any faces that the edge shares with it.
+Faces
+   Removes any faces in current selection.
+Only Edges & Faces
+   Limits the operation to only selected edges and adjacent faces.
+Only Faces
+   Removes faces, but edges within face selection are retained.
+
+
+Dissolve & Limited Dissolve
+===========================
+
+Dissolve operations are also accessed from the delete menu.
 dissolve will remove the geometry and fill in the surrounding geometry.
+Instead of removing the geometry, which may leave holes that you have to fill in again,
+
 
 Dissolve
-   Removes selected geometry, but keeps surface closed, effectively turning the selection into a single n-gon.
-   Dissolve works slightly different based on if you have edges, faces or vertices selected.
-   You can add detail where you need it, or quickly remove it where you do not.
-Limited Dissolve
-   Limited Dissolve reduces detail on planar faces and linear edges with an adjustable angle threshold.
+--------
 
-   .. figure:: /images/bmesh_limited-dissolve.jpg
-      :width: 400px
+.. admonition:: Reference
+   :class: refbox
 
-      Example showing the how Limited Dissolve can be used.
+   | Hotkey:   :kbd:`Ctrl-X`
 
-   Face Split
-      When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
-      The face split option limits dissolve to only use the corners of the faces connected to the vertex.
+Removes selected geometry, but keeps surface closed, effectively turning the selection into a single n-gon.
+Dissolve works slightly different based on if you have edges, faces or vertices selected.
+You can add detail where you need it, or quickly remove it where you do not.
+
+Dissolve Vertices
+   ToDo.
+Face Split
+   When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
+   The face split option limits dissolve to only use the corners of the faces connected to the vertex.
 
    .. figure:: /images/bmesh_dissolve_face_split.png
       :width: 500px
@@ -61,6 +69,35 @@ Limited Dissolve
       Dissolve Face Split option.
 
       Left: the input, middle: regular dissolve, right: Face Split enabled.
+Tear Boundaries
+   ToDo.
+
+
+Examples
+^^^^^^^^
+
+.. figure:: /images/modeling_meshes_editing_basics_delete_dissolve-examples.png
+
+   \1) Original mesh 2) Face Split: Off, Tear Boundaries: Off 3) Face Split: On, Tear Boundaries: Off
+   \4) Face Split: On/Off, Tear Boundaries: On
+
+
+Limited Dissolve
+----------------
+
+Limited Dissolve reduces detail on planar faces and linear edges with an adjustable angle threshold.
+
+.. figure:: /images/bmesh_limited-dissolve.jpg
+   :width: 400px
+
+   Example showing the how Limited Dissolve can be used.
+
+Max Angle
+   ToDo.
+All Boundaries
+   ToDo.
+Delimit
+   ToDo.
 
 
 Edge Collapse
