@@ -6,13 +6,13 @@ Node Groups
 Grouping nodes can simplify a node tree by allowing instancing and hiding parts of the tree.
 Both material and composite nodes can be grouped. 
 
-Conceptually, grouping allows you to specify a *set* of nodes that you can treat as though it were "just one node".
-Node groups are similar to functions in programming.
+Conceptually, grouping nodes allows you to specify a *set* of nodes that you can treat as
+though it were "just one node". Node groups are similar to functions in programming.
 You can then re-use it inside, which are then called "NodeGroups",
 or in other blend-file(s), when appending called "NodeTrees".
 
 As an example:  If you have created a material that you would like to use with different inputs
- e.g. diffuse color: red plastic, green plastic. You could create different materials with *Make Single User*
+e.g. diffuse color: red plastic, green plastic. You could create different materials with *Make Single User*
 for each different color with a copy of the tree part describing the plastic material.
 If you like to edit the material you would need to redo the edit on all materials.
 A better method of re-use is to create node groups, exposing only the variable inputs (e.g. diffuse color).

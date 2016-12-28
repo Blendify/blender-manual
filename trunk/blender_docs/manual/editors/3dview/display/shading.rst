@@ -76,16 +76,18 @@ Textured Solid
    Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
    (*Not* available in the Cycles Render Engine).
 Matcap
-   A selection of preset shader effects, (overriding regular materials)
-   which can help visualize your models while editing or sculpting,
-   without having to set up complex materials first.
+   "Matcaps" are images mapped on a normal.
+   It provides a quick way to define visible material properties for modeling and sculpting.
+   Because Matcap rendering fully bypasses the material shader code, it's a very fast rendering option.
+   The selected Matcap is a setting per 3D View. This way you can have multiple views drawing different Matcaps.
+   (Solid Viewport shading only).
 Backface Culling
    Only show the front side of faces. Use this to find faces flipped the wrong way,
    especially when exporting to programs that use single sided drawing.
 Hidden Wire
    Show only front-facing wireframes. This is useful for a retopology workflow.
    Tip: Optimally this could be combined with the *X-Ray* display setting.
-   (Mesh, Edit Mode).
+   (Mesh, Edit Mode only).
 Depth of Field
    Simulates a camera's focal blur effect in the 3D View. This is only visible in a camera view.
    Control the effect using these options in the :ref:`Properties Tab <camera-settings>`
