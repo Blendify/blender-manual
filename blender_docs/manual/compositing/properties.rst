@@ -59,6 +59,8 @@ Performance
 
    Performance Settings.
 
+This panel help you to tweak the performance of the compositor.
+
 Render
    Sets the quality when doing the final render.
 Edit
@@ -78,4 +80,4 @@ Viewer Border
    :kbd:`Ctrl-Alt-B` discards the border back to a full preview.
    This is only a preview option, final compositing during a render ignores this border.
 Highlight
-   Highlights the nodes that are being calculated.
+   Highlights the nodes that are being calculated by the compositor.

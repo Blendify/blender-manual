@@ -26,7 +26,7 @@ The Strip Menu contains additional tools for working with strips:
 - *Cut (hard) at frame*
 - *Cut (soft) at frame*
 - *Separate Images*
-- *De-Interlace Movies*
+- *Deinterlace Movies*
 - *Duplicate Strips*
 - *Erase Strips*
 - *Set Render Size*
