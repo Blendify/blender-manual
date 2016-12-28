@@ -34,32 +34,31 @@ Options
 
 
 Cast Type
-   Menu to choose cast type (target shape): *Sphere*, *Cylinder* or *Cuboid*.
+   Menu to choose target shape of the projection.
 
-X, Y, Z
+   Sphere, Cylinder, Cuboid
+Axis
    Toggle buttons to enable/disable the modifier in the X, Y, Z axes directions
    (X and Y only for *Cylinder* cast type).
 
+   X, Y, Z
 Factor
    The factor to control blending between original and cast vertex positions.
    It is a linear interpolation: 0.0 gives original coordinates (i.e. modifier has no effect),
    1.0 casts to the target shape.
    Values below 0.0 or above 1.0 exaggerate the deformation, sometimes in interesting ways.
-
 Radius
-   If non-zero, this radius defines a sphere of influence. Vertices outside it are not affected by the modifier.
-
+   If non-zero, this radius defines a sphere of influence.
+   Vertices outside it are not affected by the modifier.
 Size
    Alternative size for the projected shape. If zero,
    it is defined by the initial shape and the control object, if any.
-
 From radius
    If activated, calculate *Size* from *Radius*, for smoother results.
 
 Vertex Group
    A vertex group name, to restrict the effect to the vertices in it only.
    This allows for selective, real-time casting, by painting vertex weights.
-
 Control Object
    The name of an object to control the effect.
    The location of this object's origin defines the center of the projection.

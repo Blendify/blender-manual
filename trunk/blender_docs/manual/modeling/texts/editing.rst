@@ -113,7 +113,7 @@ Line Begin/End
 Next/Previous Line
    To jump between lines use :kbd:`Up` or :kbd:`Down`.
 Next/Previous Page
-   To jump between pages use :kbd:`PageUp` or :kbd:`PageDown`.
+   To jump back/forward ten lines at a time use :kbd:`PageUp` or :kbd:`PageDown`.
 
 Hold :kbd:`Shift` while using the arrow keys to select a part of the text.
 You can use it to specify different materials, the normal/bold/italic style,

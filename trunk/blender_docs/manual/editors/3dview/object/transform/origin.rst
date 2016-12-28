@@ -9,7 +9,7 @@ The location of the origin point is important when translating, rotating or scal
 See :doc:`Pivot Points </editors/3dview/object/transform/transform_control/pivot_point/index>` for more.
 
 The color of the origin is set by the :ref:`animation-state-colors` and
-light blue when it is a "multi-user" object linked between scenes.
+in light blue to denote library linkage on both the source and the linked object.
 The size can be changed in the :doc:`Interface tab </preferences/interface>` of the User Preferences.
 
 

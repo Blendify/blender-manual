@@ -80,8 +80,10 @@ It is used to references data-blocks selected by there name.
 
 Type
    The icon on the left specifies the accepted data-block type.
-Text Field
+Name
    The text field functions as a search field by matching elements in the list.
+   Press of :kbd:`Tab` for auto-complete names to the level a match is found.
+   If more than match exist you have to continue typing.
    If you type an invalid name, the value will remain unchanged.
    If the selected object is an armature,
    you can further specify one of its bones by entering its name in the *Bone* data ID.

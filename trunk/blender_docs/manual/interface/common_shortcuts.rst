@@ -40,6 +40,8 @@ While Hovering (when the cursor is held over a button).
 - :kbd:`Ctrl-Wheel` -- Changes the value incremental steps.
 
   For pop-up option menus buttons, this cycles the value.
+- :kbd:`Return` -- Activates menus or toggles the value.
+
 
 .. rubric:: Animation:
 
