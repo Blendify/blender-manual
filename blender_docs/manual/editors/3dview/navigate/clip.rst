@@ -19,16 +19,16 @@ View Clipping Border
 Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
 It can assist in the process of working with complex models and scenes.
 
-Once clipping is used, you will only see whats inside a volume you have defined.
-Tools such as paint, sculpt, selection, transform-snapping, etc.
-will also ignore geometry outside the clipping bounds.
-
 Once activated with :kbd:`Alt-B`, you have to draw a rectangle with the mouse,
-in the wanted 3D View. The created clipping volume will then be:
+in the wanted 3D View. It becomes a clipping volume of four planes:
 
 - A right-angled `parallelepiped <https://en.wikipedia.org/wiki/Parallelepiped>`__
   (of infinite length) if your view is orthographic.
 - A rectangular-based pyramid (of infinite height) if your view is in perspective.
+
+Once clipping is used, you will only see whats inside a volume you have defined.
+Tools such as paint, sculpt, selection, transform-snapping, etc.
+will also ignore geometry outside the clipping bounds.
 
 To delete this clipping, press :kbd:`Alt-B` again.
 

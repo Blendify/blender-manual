@@ -63,13 +63,29 @@ This helps with fitting a UV island to a certain shape or region.
 Pack Islands
 ------------
 
-The *Pack Islands* tool, shortcut :kbd:`Ctrl-P`, will uniformly scale,
-then individually transform each Island so that they fill up the UV space as much as possible.
-This is an important tool for efficiently making use of the texture space.
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Pack Islands`
+   | Hotkey:   :kbd:`Ctrl-P`
+
+The *Pack Islands* tool generates a optimized UV layout with non overlapping islands
+that tries to efficiently fill the texture space.
+
+First it will uniformly scale the selected island,
+then individually transform each island so that they fill up the UV space as much as possible.
 
 
 Average Island Scale
 --------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Average Island Scale`
+   | Hotkey:   :kbd:`Ctrl-A`
 
 Using the *Average Island Scale* tool, shortcut :kbd:`Ctrl-A`,
 will scale each UV island so that they are all approximately the same scale.
@@ -78,12 +94,26 @@ will scale each UV island so that they are all approximately the same scale.
 Minimize Stretch
 -----------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Minimize Stretch`
+   | Hotkey:   :kbd:`Ctrl-V`
+
 The *Minimize Stretch* tool, :kbd:`Ctrl-V`,
 reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 
 
 Stitch
 ------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Stitch`
+   | Hotkey:   :kbd:`V`
 
 *Stitch*, :kbd:`V`, will join selected UVs that share vertices.
 You set the tool to limit stitching by distance in the Operator panel,

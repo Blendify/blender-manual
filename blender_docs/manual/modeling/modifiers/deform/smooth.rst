@@ -19,8 +19,10 @@ Its control factor can be configured outside the (0.0 to 1.0) range
 Options
 =======
 
-X, Y, Z
+Axis
    Toggle buttons to enable/disable the modifier in the X, Y and/or Z axes directions.
+
+   X, Y, Z
 Factor
    The factor to control the smoothing amount.
    Higher values will increase the effect.

@@ -39,7 +39,9 @@ Threaded Sculpt
 Fast Navigation
    For *multiresolution* models, show low resolution while navigation the viewport.
 Use Deform Only
-   Limits active modifiers on the active object to Deform Modifiers, and Multiresolution.
+   Limits the activated modifiers on the active object to Deform Modifiers, and Multiresolution.
+   Constructive modifiers (like Subdivision Surface, Mirror and other) get deactivated,
+   because they could give inaccurate results.
 Show Diffuse Color
    Allows the active object to show it's diffuse color when sculpting.
 Unified Settings
