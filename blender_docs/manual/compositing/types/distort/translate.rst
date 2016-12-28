@@ -27,7 +27,7 @@ Properties
 Relative
    Percentage translation values relative to the input image size.
 Wrapping
-   Repeat image.
+   Repeat pixels on the other side when they extend over the image dimensions, making endless translating possible.
 
    None, X Axis, Y Axis, Both Axis
 

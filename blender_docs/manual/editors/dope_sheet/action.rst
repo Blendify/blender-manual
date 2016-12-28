@@ -41,11 +41,11 @@ Delete :kbd:`X`
    Deletes the whole channel from the current action
    (i.e. unlink the underlying F-Curve data-block from this action data-block).
 
- .. warning::
+   .. warning::
 
-   The :kbd:`X` shortcut is area-dependent: if you use it in the left list part,
-   it will delete the selected channels, whereas if you use it in the main area,
-   it will delete the selected keyframes.
+      The :kbd:`X` shortcut is area-dependent: if you use it in the left list part,
+      it will delete the selected channels, whereas if you use it in the main area,
+      it will delete the selected keyframes.
 
 :menuselection:`Settings --> Toogle/Enable/Disable a Setting`, :kbd:`Shift-W` or :kbd:`Ctrl-Shift-W` or :kbd:`Alt-W`
    Enable/disable a channel's setting (selected in the menu that pops-up) - currently, "lock" and/or "mute" only.

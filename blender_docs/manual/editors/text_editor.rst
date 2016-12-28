@@ -75,18 +75,14 @@ Text
       Executes the text as a Python script :kbd:`Alt-P`.
       See `Script and Templates`_.
 Edit
-   Undo
-      :kbd:`Ctrl-Z`.
-   Redo
-      :kbd:`Ctrl-Shift-Z`.
-   Cut
-      Cuts out the marked text into the text clipboard :kbd:`Ctrl-X`.
-   Copy
-      Copies the marked text into the text clipboard :kbd:`Ctrl-C`.
-   Paste
-      Pastes the text from the clipboard at the cursor location in the Text editor :kbd:`Ctrl-V`.
-   Duplicate Line
-      Duplicates the current line :kbd:`Ctrl-D`.
+   Cut :kbd:`Ctrl-X`
+      Cuts out the marked text into the text clipboard.
+   Copy :kbd:`Ctrl-C`
+      Copies the marked text into the text clipboard.
+   Paste :kbd:`Ctrl-V`
+      Pastes the text from the clipboard at the cursor location in the Text editor.
+   Duplicate Line :kbd:`Ctrl-D`
+      Duplicates the current line.
    Move line(s) up
       Swaps the current line with the above.
    Move line(s) down
@@ -97,10 +93,10 @@ Edit
       Shows the Jump pop-up, which lets you select a line number where to jump to.
    Find...
       Shows the Find panel in the Properties Region.
-   Text Auto Complete
-      Shows a selectable list of Python commands and words already used in the text.
+   Text Auto Complete :kbd:`Ctrl-Space`
+      Shows a selectable list of Python commands and matching against words already used in the text.
    Text To 3D Object
-      One Object, One Object per line
+      One Object, One Object per line.
 Format
    Indent
       Indents the selection :kbd:`Tab`.
