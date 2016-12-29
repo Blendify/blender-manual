@@ -35,9 +35,9 @@ While Hovering (when the cursor is held over a button).
 - :kbd:`Ctrl-C` -- Copy the value of the button.
 - :kbd:`Ctrl-V` -- Paste the value of the button.
 - :kbd:`RMB` -- Open the context menu.
-- :kbd:`Backspace` -- Clears the value (sets to zero or clears a text field).
+- :kbd:`Backspace` -- Clear the value (sets to zero or clears a text field).
 - :kbd:`Minus` -- Negate number values (multiply by -1.0).
-- :kbd:`Ctrl-Wheel` -- Changes the value incremental steps.
+- :kbd:`Ctrl-Wheel` -- Change the value incremental steps.
 
   For pop-up option menus buttons, this cycles the value.
 - :kbd:`Return` -- Activates menus or toggles the value.
@@ -80,9 +80,9 @@ While Hovering (when the cursor is held over a button).
 - :kbd:`Left`, :kbd:`Right` -- Move the cursor a single character.
 - :kbd:`Ctrl-Left`, :kbd:`Ctrl-Right` -- Move the cursor an entire word.
 - :kbd:`Backspace`, :kbd:`Delete` -- Delete characters.
-- :kbd:`Ctrl-Backspace`, :kbd:`Ctrl-Delete` -- Delete words.
+- :kbd:`Ctrl-Backspace`, :kbd:`Ctrl-Delete` -- Deletes words.
 - Holding :kbd:`Shift` -- While moving the cursor selects.
-- :kbd:`Ctrl-A` -- Selects all text.
+- :kbd:`Ctrl-A` -- Select all text.
 - :kbd:`Ctrl-C` -- Copy the selected text.
 - :kbd:`Ctrl-X` -- Cut the selected text.
 - :kbd:`Ctrl-V` -- Paste text at the cursor position.

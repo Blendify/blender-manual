@@ -16,7 +16,7 @@ Bone Groups
 
 
 This panel allows the creation, deletion and editing of Bone Groups.
-The bone groups panel is available in the Armature tab of the Properties editor.
+The panel *Bone Groups* is available in the tab *Armature* of the Properties editor.
 
 Bone Groups can be used for selection or to assign a color theme to a set of bones.
 In example to color the left parts of the rig as blue and right parts as red.
