@@ -25,9 +25,9 @@ This node has no inputs.
 Properties
 ==========
 
-UV layer
+UV Map
    To select a listed UV map.
-Color layer
+Color Layer
    To select a listed vertex color data (Vertex Paint, Weight Paint).
 
 

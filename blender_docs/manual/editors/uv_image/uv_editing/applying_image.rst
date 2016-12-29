@@ -47,7 +47,7 @@ Use UV Coordinates
 
 In the Texture channel panel,
 Add a New Texture and define the texture as an image and load the image you want to use.
-In the Mapping section, choose UV from the Coordinates menu, and select the UV layer to use.
+In the Mapping section, choose UV from the Coordinates menu, and select the UV map to use.
 
 Make sure it is mapped to Color in the Influence section as well
 (it will be mapped to Color by default, and the UV Texture is named "UVTex" by default).

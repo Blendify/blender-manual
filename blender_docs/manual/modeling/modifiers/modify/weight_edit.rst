@@ -6,7 +6,7 @@ Vertex Weight Edit Modifier
 .. figure:: /images/modifiersweightvgedit.jpg
    :width: 300px
 
-   The Vertex Weight Edit modifier panel.
+   The Vertex Weight Edit Modifier panel.
 
 This modifier is intended to edit the weights of one vertex group.
 
@@ -29,13 +29,11 @@ Options
 
 Vertex Group
    The vertex group to affect.
-
 Default Weight
    The default weight to assign to all vertices not in the given vertex group.
 
 Group Add
    Adds vertices with a final weight over *Add Threshold* to the vertex group.
-
 Group Remove
    Removes vertices with a final weight below *Remove Threshold* from the vertex group.
 
@@ -53,6 +51,10 @@ Falloff Type
    Median Step
       Creates binary weights (0.0 or 1.0), with 0.5 as cutting value.
 
+
+Influence/Mask Options
+----------------------
+
 Global Influence
    The overall influence of the modifier
    (0.0 will leave the vertex group's weights untouched, 1.0 is standard influence).
@@ -62,10 +64,18 @@ Global Influence
       Influence only affects weights, adding/removing of vertices
       to/from vertex group is not prevented by setting this value to 0.0.
 
+
+Vertex Group Mask
+^^^^^^^^^^^^^^^^^
+
 Vertex Group Mask
    An additional vertex group, the weights of which will be
    multiplied with the global influence value for each vertex.
    If a vertex is not in the masking vertex group, its weight will be not be affected.
+
+
+Texture Mask
+^^^^^^^^^^^^
 
 Texture Mask
    An additional texture, the values of which will be multiplied with the global influence value for each vertex.
@@ -73,41 +83,41 @@ Texture Mask
    This is a standard texture :doc:`data-block </data_system/data_blocks>` control.
    When set, it reveals other settings:
 
-   Texture Coordinates
-      How the texture is mapped to the mesh.
+Texture Coordinates
+   How the texture is mapped to the mesh.
 
-      Local
-         Use local vertex coordinates.
-      Global
-         Use vertex coordinates in global space.
+   Local
+      Use local vertex coordinates.
+   Global
+      Use vertex coordinates in global space.
+   Object
+      Use vertex coordinates in another object's space.
+
       Object
-         Use vertex coordinates in another object's space.
+         The object to be used as reference for *Object* mapping.
+   UV
+      Use a UV map's coordinates.
 
-         Object
-            The object to be used as reference for *Object* mapping.
-      UV
-         Use a UV layer's coordinates.
+      UV Map
+         The UV map to be used for *UV* mapping.
 
-         UV Layer
-            The UV layer to be used for *UV* mapping.
+Use Channel
+   Which channel to use as weight factor source/
 
-   Use Channel
-      Which channel to use as weight factor source/
+   Red/Green/Blue/Alpha
+      One of the color channels' values.
+   Intensity
+      The average of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 0.33)
+   Value
+      The highest value of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 1.0)
+   Hue
+      Uses the hue value from the standard color wheel (e.g. blue has a higher hue value than yellow)
+   Saturation
+      Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0)
 
-      Red/Green/Blue/Alpha
-         One of the color channels' values.
-      Intensity
-         The average of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 0.33)
-      Value
-         The highest value of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 1.0)
-      Hue
-         Uses the hue value from the standard color wheel (e.g. blue has a higher hue value than yellow)
-      Saturation
-         Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0)
+   .. note::
 
-      .. note::
-
-         All of the channels above are gamma corrected, except for *Intensity*.
+      All of the channels above are gamma corrected, except for *Intensity*.
 
 .. note::
 
@@ -121,15 +131,15 @@ Example
 
 .. rubric:: Using Distance from a Target Object's Geometry
 
-We are going to illustrate this with a *Displace* modifier.
+We are going to illustrate this with a Displace Modifier.
 
 Add a (10×10 BU) 100×100 vertices grid, and in *Edit Mode*,
 add to it a vertex group containing all of its vertices, as above.
-You can even further sub-divide it with a first Subdivision Surface modifier.
+You can even further sub-divide it with a first Subdivision Surface Modifier.
 
 Now add a curve circle, and place it 0.25 BU above the grid. Scale it up a bit (e.g. 4.0 BU).
 
-Back to the grid object, add to it a *Vertex Weight Proximity* modifier,
+Back to the grid object, add to it a Vertex Weight Proximity Modifier,
 in *Geometry Distance* mode. Enable *Edge*
 (if you use *Vertex* only, and your curve has a low U definition,
 you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
@@ -152,14 +162,14 @@ you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
 Set the *Lowest Distance* to 0.2, and the *Highest Distance* to 2.0,
 to map back the computed distances into the regular weight range.
 
-Add a third *Displace* modifier and affect it the texture you like. Now,
+Add a third Displace Modifier and affect it the texture you like. Now,
 we want the vertices of the grid nearest to the curve circle to remain undisplaced.
 As they will get weights near zero, this means that you have to set the *Midlevel*
 of the displace to 0.0. Make it use our affected vertex group,
 and that is it! Your nice mountains just shrink to a flat plane near the curve circle.
 
 As in the previous example,
-you can insert a *Vertex Weight Edit* modifier before the *Displace* one,
+you can insert a Vertex Weight Edit Modifier before the *Displace* one,
 and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
 
 .. list-table::
@@ -186,7 +196,7 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
    Vertices with a computed weight below 0.1 removed from the vertex group.
 
 
-You can also add a fifth *Mask* modifier, and enable *Vertex Weight Edit* 's *Group Remove* option,
+You can also add a fifth Mask Modifier, and enable Vertex Weight Edit's *Group Remove* option,
 with a *Remove Threshold* of 0.1, to see the bottom of your valley disappear.
 
 .. vimeo:: 30188564

@@ -107,7 +107,7 @@ Texture
          Adds an additional field just below,
          to type in the name of the object from which to get the texture coordinates.
       UV
-         Adds an extra *UV Layer* property, to select the UV layer to be used.
+         Adds an extra *UV map* property, to select the UV map to be used.
 
 
 Arguments

@@ -206,7 +206,7 @@ You can use different sections of an image texture:
 Since you use normal materials for the billboard you have all freedoms in mixing textures to
 your liking. The material itself is animated in absolute time.
 
-The main thing to understand is that if the object does not have any *UV Layers*,
+The main thing to understand is that if the object does not have any *UV maps*,
 you need to create at least one in the *Objects Data* tab,
 for any of these to work. Moreover,
 the texture has to be set to UV coordinates in the *Map Input* panel.
@@ -247,7 +247,7 @@ UV Channels
    To texture them in different ways we have to have a way to set what textures we want for the
    billboards and how we want them to be mapped to the squares.
    These can then be set in the texture mapping buttons to set wanted textures for different coordinates.
-   You may use three different UV layers and get three different sets of UV coordinates,
+   You may use three different UV maps and get three different sets of UV coordinates,
    which can then be applied to different (or the same) textures.
 
 Billboard Normal UV
@@ -262,7 +262,7 @@ Billboard Time-Index (X-Y)
 
 The animation of the UV textures is a bit tricky.
 The UV texture is split into rows and columns (N times N). The texture should be square.
-You have to use *UV Split* in the UV channel and fill in the name of the UV layer.
+You have to use *UV Split* in the UV channel and fill in the name of the UV map.
 This generated UV coordinates for this layer.
 
 Split UV's
@@ -272,8 +272,8 @@ Split UV's
    *Animate* controls. These can be used to make each billboard unique or to use an "animated" texture for
    them by having each frame of the animation in a grid in a big image.
 Billboard Split UV
-   Set the name of the *UV layer* to use with billboards
-   (you can use a different one for each *UV Channel*). By default, it is the active UV layer
+   Set the name of the *UV map* to use with billboards
+   (you can use a different one for each *UV Channel*). By default, it is the active UV map
    (check the *Object Data* tab in the Properties editor).
 
 Animate

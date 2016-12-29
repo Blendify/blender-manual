@@ -54,8 +54,8 @@ Texture Coordinates
 
    Object
       Specify an object to use when set to Object.
-   UV Layer
-      Specify a UV layer when set to UV.
+   UV Map
+      Specify a UV map when set to UV.
 
 
 Usage

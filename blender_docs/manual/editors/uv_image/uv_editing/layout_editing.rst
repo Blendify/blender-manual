@@ -231,7 +231,7 @@ Export UV Layout
 Using your favorite image painting program, you could use an exported UV layout to create a texture.
 Then save your changes, and back in Blender,
 use the :menuselection:`Image --> Open` menu command to load it as your UV image
-for the mesh in Edit Mode for the desired (and active) UV Texture layer.
+for the mesh in Edit Mode for the desired (and active) UV map.
 
 .. >
 

@@ -4,7 +4,7 @@ Data Transfer
 *************
 
 The *Data Transfer* tool transfers several types of data from one mesh to another.
-Data types include vertex groups, UV layers, vertex colors, custom normals...
+Data types include vertex groups, UV maps, vertex colors, custom normals...
 
 Transfer works by generating a mapping between source mesh’s items (vertices, edges, etc.)
 and destination ones, either on an one-to-one basis, or mapping several source items

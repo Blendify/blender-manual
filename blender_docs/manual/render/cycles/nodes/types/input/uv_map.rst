@@ -35,4 +35,4 @@ Outputs
 =======
 
 UV
-   UV mapping coordinates from the specified UV layer.
+   UV mapping coordinates from the specified UV map.

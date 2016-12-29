@@ -21,7 +21,7 @@ Initial Rotation Mode
    Normal-Tangent
       As with normal, orient the Y axis to the surface normal.
       Also orient the X axis to the tangent for control over the objects rotation about the normal.
-      requires UV coordinates, the UV rotation effects the objects orientation, currently uses the active UV layer.
+      requires UV coordinates, the UV rotation effects the objects orientation, currently uses the active UV map.
       This allow deformation without the objects rotating in relation to their surface.
    Velocity
       The particle's initial velocity.

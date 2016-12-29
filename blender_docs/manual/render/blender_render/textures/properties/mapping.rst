@@ -42,8 +42,8 @@ UV
    as seen in :ref:`UV Mapping <editors-uv-image-index>`.
    You can use multiple textures with one set of UV coordinates.
 
-   Layer
-      UV layer to use for mapping.
+   UV Map
+      UV map to use for mapping.
 Strand/Particle
    Uses normalized 1D strand texture coordinate or particle age (X) and trail position (Y).
    Use when texture is applied to hair strands or particles.
