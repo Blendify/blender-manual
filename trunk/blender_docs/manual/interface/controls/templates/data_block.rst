@@ -16,7 +16,7 @@ If data-blocks are linked the data will be updated across all of the users when 
 
 Type
    Shows an icon indicating the data-block type. It opens up the following pop-up menu.
-   The data-block can be drag from here. e.g to drag an material onto an object in the 3D View or
+   The data-block can be dragged from here. e.g to drag an material onto an object in the 3D View or
    into a :ref:`ui-data-id` field.
 
    List
@@ -76,7 +76,7 @@ Data ID
    The Data ID.
 
 A Data ID is a text field with icon on the left, which opens a gray pop-up.
-It is used to references data-blocks selected by there name.
+It is used to reference data-blocks selected by their name.
 
 Type
    The icon on the left specifies the accepted data-block type.
@@ -88,7 +88,7 @@ Name
    If the selected object is an armature,
    you can further specify one of its bones by entering its name in the *Bone* data ID.
 List
-   Lets you select the the data-block directly.
+   Lets you select the data-block directly.
 Eye Dropper
    In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper` available through the pipette icon on the right side.
 Remove ``X``

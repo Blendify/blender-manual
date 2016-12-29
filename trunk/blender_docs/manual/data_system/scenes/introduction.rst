@@ -56,7 +56,7 @@ Add ``+``
    .. note::
 
       To choose between these options,
-      it is useful to understand the difference between *Objects* and *Object Data*.
+      it is useful to understand the difference between *Object* and *Object Data*.
       See :doc:`Duplication </editors/3dview/object/transform/duplication>`.
 
       The choices for adding a scene, therefore, determine just how much of this information will be

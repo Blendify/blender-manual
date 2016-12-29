@@ -106,7 +106,7 @@ Only the common options are listed below.
 
 .. for the property associated with the control.
 
-*Single* set or gets the value of the button under the mouse pointer.
+*Single* sets or gets the value of the button under the mouse pointer.
 *All* on the other hand includes all combined buttons.
 
 Reset All/Single to Default Value(s)

@@ -28,7 +28,7 @@ Bone Groups
 Pose Library
    Allows you to save different properties (location, rotation, scale) for selected bones for later use.
 Ghost
-   Allows you to see a set of different  poses, very useful when animating.
+   Allows you to see a set of different poses, very useful when animating.
 Motion Paths
    In the :doc:`Motion Paths panel </animation/motion_paths>` you can enable visualization
    of the motion path your skeleton leaves when animated.
