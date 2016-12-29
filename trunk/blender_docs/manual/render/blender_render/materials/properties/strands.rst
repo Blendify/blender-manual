@@ -99,7 +99,7 @@ Shape
 Width Fade
    To fade out along the width of the strand.
    This works only for Strand Primitives. 0.0 is no fading at all, 1.0 linear fading out.
-UV Layer
+UV Map
    You can texture polygon strands with a UV-Texture.
    Fill in the name of the UV-Set (not the texture) here.
    You also have to load the texture in the *Texture* tab and *Material* tab

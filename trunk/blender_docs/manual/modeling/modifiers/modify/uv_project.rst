@@ -23,8 +23,8 @@ Options
 
 .. figure:: /images/uvproject_ui.png
 
-UV layer
-   Which UV layer to modify. Defaults to the active rendering layer.
+UV Map
+   Which UV map to modify. Defaults to the active rendering layer.
 
 Image
    The image associated with this modifier. Not required; you can just project a UV for use elsewhere.
@@ -55,7 +55,7 @@ General
 UV Project is great for making spotlights more diverse, and also for creating decals to break up repetition.
 
 The modifier's Image property is not generally used.
-Instead, a texture mapped to the UV layer that the modifier targets is added to the object's Material.
+Instead, a texture mapped to the UV map that the modifier targets is added to the object's Material.
 This allows you to prevent the image from repeating by setting
 :menuselection:`Texture --> Image Mapping --> Extension to Clip`.
 

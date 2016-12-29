@@ -55,6 +55,9 @@ While multiple links can route out of an output socket, only a single link can b
 To reposition the outgoing links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an
 output socket. This works for single as well as for multiple outgoing links.
 
+Nodes that have no connections can be inserted on a link. 
+Just move the node over the link and release when the link turns orange.
+
 Make Links :kbd:`F`
    Todo.
 Make and Replace Links :kbd:`Shift F`
@@ -112,10 +115,10 @@ duplicate of the selected node appearing under the mouse pointer.
 Delete
 ======
 
-Delete
-   :kbd:`X` or :kbd:`Delete` deletes the selected node(s).
-Delete with Reconnect
-   :kbd:`Ctrl-X`
+Delete :kbd:`X`, :kbd:`Delete`
+   Deletes the selected node(s).
+Delete with Reconnect :kbd:`Ctrl-X`
+   Delete the node(s) without loosing the connections.
 
 
 Mute

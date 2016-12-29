@@ -175,8 +175,8 @@ Operator panel
 Share Tex Space
    This is useful if mapping more than one mesh.
    It attempts to fit all of the objects' faces in the UV bounds without overlapping.
-New UV Layer
-   If mapping multiple meshes, this option creates a new UV layer for each mesh.
+New UV Map
+   If mapping multiple meshes, this option creates a new UV map for each mesh.
    See :doc:`Managing the Layout </editors/uv_image/uv_editing/layout_management>`.
 New Image
    Assigns new images for every mesh, but only one if *Shared Tex Space* is enabled.

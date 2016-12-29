@@ -29,7 +29,11 @@ Direction
    X, Y, Z
       Displace along a local axis.
    Normal
-      Displace along vertex normal.
+      Displace along the vertex normal.
+   Custom Normal
+      ToDo.
+
+      .. Displace along the average vertex normal (vertex loop?).
    RGB to XYZ
       Displace along local XYZ axes individually using the RGB components of the texture
       (Red values displaced along the X-axis, Green along the Y, Blue along the Z).
@@ -43,11 +47,11 @@ Texture Coordinates
       Take texture coordinates from face UV coordinates.
 
       UV Map
-         The UV coordinate layer from which to take texture coordinates.
+         The UV map from which to take texture coordinates.
          If the object has no UV coordinates, it uses the *Local* coordinate system.
-         If this field is blank, but there is a UV coordinate layer available
-         (e.g. just after adding the first UV layer to the mesh),
-         it will be overwritten with the currently active UV layer.
+         If this field is blank, but there is a UV map available
+         (e.g. just after adding the first UV map to the mesh),
+         it will be overwritten with the currently active UV map.
 
       .. note::
 

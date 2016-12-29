@@ -32,4 +32,4 @@ Object Path
    The path to the Alembic object inside the archive.
 Vertices/Faces/UV/Color
    Type of data to read for a mesh object respectively: vertices,
-   polygons, UV layers and Vertex Color layers.
+   polygons, UV maps and Vertex Color layers.
