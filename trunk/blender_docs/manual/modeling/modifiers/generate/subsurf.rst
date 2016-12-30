@@ -3,10 +3,10 @@
 Subdivision Surface Modifier
 ****************************
 
-Subdivision Surface Modifier is used to subdivide the faces of a mesh to give a smooth appearance,
-to enable modeling of complex smooth surfaces with simple, low-vertex meshes.
-This allows high resolution mesh modeling without the need to save and maintain huge amounts of data and gives
-a smooth *organic* look to the object.
+The Subdivision Surface Modifier is used to split the faces of a mesh into smaller faces giving a smooth appearance.
+Using this modifier, enables you to model complex smooth surfaces with simple, low-vertex meshes.
+This allows high resolution mesh modeling without the need to save and maintain
+huge amounts of data and gives a smooth *organic* look to the object.
 
 This process creates virtual geometry that is generated non-destructively without modifying the original mesh,
 but it can be converted to real geometry that you could edit with the *Apply* button.
@@ -41,12 +41,12 @@ Type
 
    Catmull-Clark
       The default option, subdivides and smooths the surfaces.
-      According to `its Wikipedia page <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__,
+      According to its `Wikipedia page <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__,
       the "arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of the
       resulting surfaces rather than on a mathematical derivation."
    Simple
       Only subdivides the surfaces, without any smoothing
-      (the same as :kbd:`W` :menuselection:`--> Subdivide`, in Edit Mode).
+      (the same as :menuselection:`Specials --> Subdivide`, in Edit Mode).
       Can be used, for example, to increase base mesh resolution when using displacement maps.
 
 Subdivisions
@@ -156,13 +156,19 @@ Performance Considerations
 ==========================
 
 Higher levels of subdivisions mean more vertices, and more vertices means more memory will be used
-(both video memory for display, and system RAM for rendering).
+(both video memory for display (VRAM), and system RAM for rendering).
 Blender could potentially crash or hang if you do not have enough memory.
 
 When using high levels of subdivision with a graphics card that has a low total amount
-of Vram, some parts of the geometry will disappear visually. Your mesh will actually be intact,
+of VRAM, some parts of the geometry will disappear visually. Your mesh will actually be intact,
 because the render is generated using your Object Data,
 (even though it cannot be shown by your graphics card).
+
+.. tip::
+
+   To improve performance in the viewport try enabling :ref:`OpenSubdiv <modeling-modifiers-opensubdiv>`
+   or if you are using the Cycles render engine consider using
+   :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`
 
 
 Keyboard Shortcuts
