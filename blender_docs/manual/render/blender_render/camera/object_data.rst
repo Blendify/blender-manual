@@ -127,9 +127,9 @@ Using lens shift is equivalent to rendering an image with a larger
 Clipping
 --------
 
-Set the clipping limits with the *Start* and *End* values.
-
-Only objects within the limits are rendered.
+Clip Start and End
+   The interval in which objects are directly visible;
+   Only objects within the limits are rendered.
 
 For OpenGL display, setting clipping distances to limited values
 is important to ensure sufficient rasterization precision.
@@ -139,10 +139,16 @@ and as such more extreme values can safely be set.
 When *Limits* in the *Display* panel is enabled,
 the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
-.. note::
+.. tip::
 
-   The *3D View* editor contains settings similar to the camera,
-   see the :doc:`3D View options page </editors/3dview/display/panels>` for more details.
+   Changing the clipping value can have a serious impact on render performance.
+   It is important to always set the *Start* and *End* values to a safe distance that is both not too extreme,
+   nor too small to have the best possible render times.
+
+.. seealso::
+
+   - :ref:`Blender Render Camera Clipping <camera-clipping>`.
+   - :doc:`3D View clipping </editors/3dview/display/panels>`.
 
 
 Camera
