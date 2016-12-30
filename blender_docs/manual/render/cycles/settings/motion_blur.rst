@@ -64,25 +64,11 @@ Rolling Shutter Duration
 
    Common examples of this are animated Booleans, Deformation before Edge Split, Remesh, Skin or Decimate modifiers.
 
+.. seealso::
 
-Object Properties
------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :menuselection:`Properties editor --> Object --> Motion Blur`
-
-Motion blur settings can also be applied per object in the
-:doc:`Object Properties </editors/3dview/object/properties/introduction>`
-tab of the Properties editor.
-
-Deformation
-   Use deformation motion blur for the object.
-
-Steps
-   Controls accuracy of deformation motion blur, more steps gives more memory usage.
-   The actual number of steps is :math:`2^{steps -1}`.
+   Each object has its own settings to control motion blur.
+   These options can be found in the Object Properties tab of the Properties editor.
+   See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
 
 
 Film
@@ -103,7 +89,7 @@ Pixel Filter
    Blackman-Harris, Box, Gaussian
 Width
    ToDo.
-   
+
 
 .. seealso::
 
