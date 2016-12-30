@@ -71,6 +71,8 @@ Field of View
    Field of view angle, going to 360 and more to capture the whole environment.
 
 
+.. _render-cycles-camera-clipping:
+
 Clipping
 --------
 
@@ -79,9 +81,19 @@ Clip Start and End
    Any objects outside this range still influence the image indirectly,
    as further light bounces are not clipped.
 
-   .. seealso::
+When *Limits* in the *Display* panel is enabled,
+the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
-      :ref:`Camera Clipping <camera-clipping>`.
+.. tip::
+
+   Changing the clipping value can have a serious impact on render performance.
+   It is important to always set the *Start* and *End* values to a safe distance that is both not too extreme,
+   nor too small to have the best possible render times.
+
+.. seealso::
+
+   - :ref:`Blender Render Camera Clipping <camera-clipping>`.
+   - :doc:`3D View clipping </editors/3dview/display/panels>`.
 
 
 Depth of Field
@@ -141,4 +153,3 @@ Ratio
   and a higher number will cause a vertical distortion.
 
 .. figure:: /images/cycles_camera_dof_bokeh.jpg
-

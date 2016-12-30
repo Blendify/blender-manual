@@ -28,9 +28,9 @@ Outline Selected
    If disabled, the orange outline around your selected objects in
    *Solid*, *Shaded*, *Textured* draw types will no longer be displayed.
 World Background
-   ToDo.
+   Creates an estimation of what the world background will look like and uses it to draw the background.
 All Object Origins
-   If enabled, the origin dot of objects will always be visible, even for non-selected ones
+   Forces the origin dot of objects to always be visible, even for non-selected objects
    (by default, unselected objects' origins might be hidden by geometry in solid/shaded/textured shadings).
 Relationship Lines
    Controls whether the dashed parenting, constraining, hooking, etc., lines are drawn.
@@ -84,7 +84,7 @@ Lock Camera to View
 .. _3dview-view-clip:
 
 Clip Start and Clip End
-   Adjust the minimum and maximum distances range to be visible for the viewport camera.
+   Adjust the minimum and maximum distances range to be visible for the viewsport camera.
    Objects outside the range will not be shown.
 
    .. note::
