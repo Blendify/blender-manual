@@ -80,17 +80,15 @@ Film
    | Panel:    :menuselection:`Properties editor --> Render --> Film`
 
 Exposure
-   ToDo.
+   This can be used to change the brightness of an image.
+   Different then the *Exposure* option found in the :ref:`Color management <render-post-color-management>`
+   panel this exposure option works  is *on the data* while the Color management exposure is *on the view*.
 Transparent
-   ToDo.
+  ToDo
 Pixel Filter
    .. Sensor simulation or Anti-aliasing.
 
    Blackman-Harris, Box, Gaussian
-Width
-   ToDo.
 
-
-.. seealso::
-
-   :ref:`Color management <render-post-color-management>`.
+   Width
+      ToDo.
