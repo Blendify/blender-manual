@@ -50,7 +50,7 @@ X-mirror
    :doc:`Editing Armatures: Naming conventions </rigging/armatures/bones/editing/properties>`.
    The convention for armatures/bones apply here as well.
 Topology Mirror
-   Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.
+   Use topology-based mirroring, for when both sides of a mesh have matching mirrored topology.
 Show Zero Weights
    To display unreferenced and zero weighted areas in black (by default).
 

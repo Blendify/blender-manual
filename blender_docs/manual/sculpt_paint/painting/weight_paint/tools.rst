@@ -39,26 +39,26 @@ Blend mode
    The brush Blending mode defines in which way the weight value is applied to the Vertex Group while painting.
 
    Mix
-      In this Blend mode the Weight value defines the *target weight* that will eventually
+      In this Blending mode the Weight value defines the *target weight* that will eventually
       be reached when you paint long enough on the same location of the mesh.
       And the strength determines how many strokes you need to arrive at the target weight.
       Note that for strength = 1.0 the target weight is painted immediately,
       and for Weight = 0.0 the brush just does nothing.
    Add
-      In this blend mode the specified weight value is *added* to the vertex weights.
+      In this Blending mode the specified weight value is *added* to the vertex weights.
       The strength determines which fraction of the weight gets added per stroke.
       However, the brush will not paint weight values above 1.0.
    Subtract
-      In this blend mode the specified weight is *subtracted* from the vertex weights.
+      In this Blending mode the specified weight value is *subtracted* from the vertex weights.
       The strength determines which fraction of the weight gets removed per stroke.
       However, the brush will not paint weight values below 0.0.
    Lighten
-      In this blend mode the specified weight value is interpreted
-      as the target weight very similar to the Mix Blend mode.
-      But only weights below the target weight are affected.
+      In this Blending mode the specified weight value is interpreted
+      as the target weight. Very similar to the Mix Blending mode,
+      but only weights below the target weight are affected.
       Weights above the target weight remain unchanged.
    Darken
-      This Blend mode is very similar to the Lighten Blend mode.
+      This Blending mode is very similar to the Lighten Blending mode.
       But only weights above the target weight are affected.
       Weights below the target weight remain unchanged.
    Multiply
@@ -99,7 +99,7 @@ Multi-Paint
 
    Since the ratio is undefined if all weights are zero, Multi-Paint cannot operate on vertices that do not
    have any weight assigned to the relevant Vertex Groups. For this reason it also does not allow reducing
-   the weight all the way to zero. When used with X-Mirror, it only guarantees completely symmetrical
+   the weight all the way to zero. When used with X-Mirror, it only guarantees completely a symmetrical
    result if weights are initially symmetrical.
 
    .. tip::
@@ -132,7 +132,7 @@ Stroke Method
 Rate (only for Airbrush)
    Interval between paints for airbrush.
 Spacing (only for Space)
-   Limit brush application to the distance specified by spacing.
+   Limits brush application to the distance specified by spacing.
 Jitter
    Jitter the position of the brush while painting.
 Smooth Stroke
