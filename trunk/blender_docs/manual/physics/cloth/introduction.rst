@@ -93,5 +93,4 @@ A general process for working with cloth is to:
 
 .. tip::
 
-   To avoid unstable simulation, ensure that the cloth object does not penetrate any of the deflection objects
-   or an unstable simulation will result.
+   To avoid unstable simulation, ensure that the cloth object does not penetrate any of the deflection objects,

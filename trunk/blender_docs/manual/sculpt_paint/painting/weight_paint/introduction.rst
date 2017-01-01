@@ -23,7 +23,7 @@ Weight Paint in a nutshell
 
 .. figure:: /images/modeling-meshes-weight-paint-example.jpg
 
-   Weight Painted Vertex Group.
+   Vertex Group in Weight Paint Mode.
 
 
 - You enter *Weight Paint Mode* from the Mode Menu :kbd:`Ctrl-Tab`.
@@ -41,7 +41,7 @@ Weight Paint in a nutshell
    The shortcuts can speed up your weight painting:
 
    Weight color picker
-      :kbd:`Ctrl-LMB` change current weight value to the weight value of clicked vertex
+      :kbd:`Ctrl-LMB` change the current weight value to the weight value of clicked vertex
    Resize the brush
       :kbd:`F` then drag to new brush size
    Create linear gradient
@@ -140,8 +140,7 @@ Weight Painting for Particles
 
    Weight painted particle emission.
 
-Faces or vertices with zero weight generate no particles. A weight of 0.
-1 will result in 10% of the amounts of particles.
+Faces or vertices with zero weight generate no particles. A weight of 0.1 will result in 10% of the amounts of particles.
 This option "conserves" the total indicated number of particles, adjusting the distributions
 so that the proper weights are achieved while using the actual number of particles called for.
 Use this to make portions of your mesh hairier than others by weight painting a vertex group,
