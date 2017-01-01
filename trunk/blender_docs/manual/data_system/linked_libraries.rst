@@ -106,7 +106,7 @@ Objects to Scene...
    The *Link Objects to Scene* Operator panel lets you choose between scenes.
 
    This makes the same object exist in two different scenes at once, including its position and animation data.
-   The objects origin will change its color.
+   The object's origin will change its color.
 Type
    Data-block type to link.
 

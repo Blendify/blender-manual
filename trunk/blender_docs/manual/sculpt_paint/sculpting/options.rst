@@ -37,13 +37,13 @@ Gravity
 Threaded Sculpt
    Takes advantage of multiple CPU processors to improve sculpting performance.
 Fast Navigation
-   For *multiresolution* models, show low resolution while navigation the viewport.
+   For *multiresolution* models, shows low resolution while navigating in the viewport.
 Use Deform Only
    Limits the activated modifiers on the active object to Deform Modifiers, and Multiresolution.
    Constructive modifiers (like Subdivision Surface, Mirror and other) get deactivated,
    because they could give inaccurate results.
 Show Diffuse Color
-   Allows the active object to show it's diffuse color when sculpting.
+   Allows the active object to show its diffuse color when sculpting.
 Unified Settings
    Size
       Forces the brush size to be shared across brushes.
