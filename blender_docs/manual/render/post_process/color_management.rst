@@ -104,10 +104,10 @@ View
       Raw gives the image without any color space conversion,
       while Log gives a more "flat" view of the image without very dark or light areas.
 Exposure
-   Used to control the image brightness (in stops) applied before color space conversion.
+   Used to control the image brightness (in stops) applied before color space conversion. :math:`2^(stops) × value`
 Gamma
    Extra gamma correction applied after color space conversion. Note that the default sRGB or Rec709 color space
-   conversions already include a gamma correction of approximately 2.2 (except the Raw and Log views),
+   conversions already include a gamma correction of approximately 2.2 (except the *Raw* and *Log* views),
    so this would be applied in addition to that.
 Look
    Choose an artistic effect from set of measured film response data which
