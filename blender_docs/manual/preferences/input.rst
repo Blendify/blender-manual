@@ -172,7 +172,7 @@ Gravity
 Fly
 ^^^
 
-There no additional options for fly mode.
+There are no additional options for fly mode.
 
 
 NDOF Device
