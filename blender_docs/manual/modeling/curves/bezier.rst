@@ -30,7 +30,7 @@ A Bézier curve can be edited by moving the locations of the Control Points and 
 To add more Control Points:
 
 #. Select at least two adjacent Control Points.
-#. Press :kbd:`W` and select *Subdivide*.
+#. Press :kbd:`W` and select :menuselection:`-->Subdivide`.
 #. Optionally, you can press :kbd:`F6` immediately after the subdivision to modify the number of subdivisions.
 
 Note that while in *Edit Mode* you cannot directly select a Segment. To do so,

@@ -8,9 +8,9 @@ Bevel
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Edges --> Bevel` or :kbd:`Ctrl-E` :menuselection:`--> Bevel`
-   | Hotkey:   :kbd:`Ctrl-B` or :kbd:`W` :menuselection:`--> Bevel`
-   | Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel` or :kbd:`Ctrl-V` :menuselection:`--> Bevel`
+   | Menu:     :menuselection:`Mesh --> Edges --> Bevel` or :menuselection:`Specials --> Bevel`
+   | Hotkey:   :kbd:`Ctrl-B`
+   | Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel`
    | Hotkey (vertex-only):  :kbd:`Shift-Ctrl-B`
 
 

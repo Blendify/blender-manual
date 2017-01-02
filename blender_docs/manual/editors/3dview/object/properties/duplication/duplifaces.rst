@@ -46,7 +46,7 @@ enable *Faces*. The sphere is duplicated one for each face of the cube.
 
    The location, orientation, and scale of the duplicated child(ren) matches that of the faces of the parent.
    So, if several objects are parented to the cube, they will all be duplicated once for each face on the cube.
-   If the cube is subdivided (in *Edit Mode* :kbd:`W`), every child will be duplicated for each face on the cube.
+   If the cube is subdivided, every child will be duplicated for each face on the cube.
 
 
 Both the parent object and original are displayed as editable "templates" in 3D View,

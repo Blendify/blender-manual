@@ -337,7 +337,7 @@ Set Goal Weight
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :kbd:`W` :menuselection:`--> Set Goal Weight`
+   | Menu:     :menuselection:`Specials --> Set Goal Weight`
 
 
 This sets the "goal weight" of selected control points,
@@ -353,7 +353,7 @@ Smoothing
 
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Smooth`
-   | Hotkey:   :kbd:`W` :menuselection:`--> smooth`
+   | Hotkey:   :menuselection:`Specials --> Smooth`
 
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
@@ -402,7 +402,6 @@ Subdivision
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Subdivide`
    | Menu:     :menuselection:`Surface tools --> Modeling --> Subdivide`
-   | Hotkey:   :kbd:`W`
 
 
 Curve subdivision simply subdivides all selected segments by adding one or

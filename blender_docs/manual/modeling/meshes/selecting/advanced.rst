@@ -192,8 +192,8 @@ Edge Loops
    :class: refbox
 
    | Mode:     Edit Mode --> Vertex or Edge select mode
-   | Menu:     :menuselection:`Select --> Edge Loop` or :menuselection:`Mesh --> Edges --> Edge Loop`
-   | Hotkey:   :kbd:`Alt-RMB` or :kbd:`Ctrl-E` :menuselection:`--> Edge Loop`
+   | Menu:     :menuselection:`Select --> Edge Loop`
+   | Hotkey:   :kbd:`Alt-RMB`
 
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
@@ -266,13 +266,13 @@ Edge Ring
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode --> Edge select mode
-   | Menu:     :menuselection:`Select --> Edge Ring` or :menuselection:`Mesh --> Edges --> Edge Ring`
-   | Hotkey:   :kbd:`Ctrl-Alt-RMB` or :kbd:`Ctrl-E` :menuselection:`--> Select --> Edge Ring`
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Select --> Edge Ring`
+   | Hotkey:   :kbd:`Ctrl-Alt-RMB`
 
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
-while selecting an edge selects a sequence of edges that are not connected,
+while selecting an edge (or two vertices) selects a sequence of edges that are not connected,
 but on opposite sides to each other continuing along a :doc:`face loop </modeling/meshes/structure>`.
 
 As with edge loops, you can also select edge rings based on current selection,
@@ -333,9 +333,7 @@ Loop Inner-Region
    :class: refbox
 
    | Mode:     Edit Mode --> Edge select mode
-   | Menu:     :menuselection:`Select --> Select Loop Inner-Region` or
-     :menuselection:`Mesh --> Edges --> Select Loop Inner-Region`
-   | Hotkey:   :kbd:`Ctrl-E` :menuselection:`--> Select Loop Inner-Region`
+   | Menu:     :menuselection:`Select --> Select Loop Inner-Region`
 
 
 *Select Loop Inner-Region* selects all faces that are inside a closed loop of edges.
@@ -363,10 +361,7 @@ Boundary Loop
    :class: refbox
 
    | Mode:     Edit Mode --> Edge select mode
-   | Menu:     :menuselection:`Select --> Select Boundary Loop` or
-     :menuselection:`Mesh --> Edges --> Select Boundary Loop`
-   | Hotkey:   :kbd:`Ctrl-E` :menuselection:`--> Select Boundary Loop`
-
+   | Menu:     :menuselection:`Select --> Select Boundary Loop`
 
 *Select Boundary Loop* does the opposite of *Select Loop Inner-Region*,
 based on all regions currently selected, it selects only the edges at the border(contour) of these islands.

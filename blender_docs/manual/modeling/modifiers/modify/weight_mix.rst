@@ -118,18 +118,18 @@ Texture Coordinates
          The UV map to be used for *UV* mapping.
 
 Use Channel
-   Which channel to use as weight factor source/
+   Which channel to use as weight factor source.
 
    Red/Green/Blue/Alpha
       One of the color channels' values.
    Intensity
-      The average of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 0.33)
+      The average of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 0.33).
    Value
-      The highest value of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 1.0)
+      The highest value of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 1.0).
    Hue
-      Uses the hue value from the standard color wheel (e.g. blue has a higher hue value than yellow)
+      Uses the hue value from the standard color wheel (e.g. blue has a higher hue value than yellow).
    Saturation
-      Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0)
+      Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0).
 
    .. note::
 

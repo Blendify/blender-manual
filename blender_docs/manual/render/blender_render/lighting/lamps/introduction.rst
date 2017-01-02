@@ -24,7 +24,7 @@ each with its own unique strengths and limitations. Here are the available lamps
 
 
 You can add new lamps to a scene using the *Add* menu in the top header, or with
-:menuselection:`--> Add --> Lamp`, :kbd:`Shift-A`.
+:menuselection:`Add --> Lamp`, :kbd:`Shift-A`.
 
 Once added, a lamp's position is indicated in the 3D View by a solid dot in a circle, but most
 types also feature dashed wire-frames that help describe their orientation and properties.

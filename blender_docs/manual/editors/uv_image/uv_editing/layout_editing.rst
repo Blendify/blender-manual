@@ -191,6 +191,14 @@ Cursor to Selected
 Weld/Align
 ----------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Weld/Align`
+   | Hotkey:   :kbd:`W`
+
+
 The *Weld or Align* tool, :kbd:`W`.
 
 Weld
