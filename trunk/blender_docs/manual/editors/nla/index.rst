@@ -1,7 +1,7 @@
 
-###########################
-Non-Linear Animation Editor
-###########################
+##########
+NLA Editor
+##########
 
 .. toctree::
    :maxdepth: 2
