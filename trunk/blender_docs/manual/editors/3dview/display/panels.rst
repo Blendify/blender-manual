@@ -84,7 +84,7 @@ Lock Camera to View
 .. _3dview-view-clip:
 
 Clip Start and Clip End
-   Adjust the minimum and maximum distances range to be visible for the viewsport camera.
+   Adjust the minimum and maximum distances range to be visible for the viewport camera.
    Objects outside the range will not be shown.
 
    .. note::

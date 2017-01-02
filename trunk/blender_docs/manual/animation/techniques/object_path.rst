@@ -27,7 +27,8 @@ in the same *Curve and Surface* editing panel.
 
 One last curve property that is important for a path is its *direction*, which is,
 for three-dimensional ones, materialized by its small arrows.
-You can switch it with the :menuselection:`Curve --> Segments --> Switch Direction`, :kbd:`W 2`.
+You can switch it with the :menuselection:`Curve --> Segments --> Switch Direction`,
+:menuselection:`Specials --> Switch Direction`.
 
 For more on editing path/curves, see the :doc:`modeling chapter </modeling/curves/introduction>`.
 

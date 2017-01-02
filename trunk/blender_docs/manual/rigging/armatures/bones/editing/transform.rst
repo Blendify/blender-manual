@@ -196,15 +196,15 @@ Shortest Rotation
    Avoids rolling the bone over 90 degrees from its current value.
 
 
-Bone Direction
-==============
+Switch Direction
+================
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Specials --> Switch Direction`
-   | Hotkey:   :kbd:`W-3`
+   | Menu:     :menuselection:`Armature --> Switch Direction`, :menuselection:`Specials --> Switch Direction`
+   | Hotkey:   :kbd:`Alt-F`
 
 
 This tool is not available from the *Armature* menu,

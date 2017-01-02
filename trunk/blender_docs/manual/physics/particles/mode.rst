@@ -82,7 +82,7 @@ Selecting
 - All: :kbd:`A`.
 - Linked: Move the mouse over a keypoint and press :kbd:`L`.
 - Border select: :kbd:`B`.
-- First/last: :kbd:`W` :menuselection:`--> Select First / Select Last`.
+- First/last: :menuselection:`Specials --> Select First / Select Last`.
 
 You may also use the *Select* Menu.
 
@@ -216,17 +216,23 @@ Moving keypoints or particles
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,
   but you can subdivide particles which adds new keypoints
-  :kbd:`W` :menuselection:`--> Subdivide`or :kbd:`Numpad2`.
+  :menuselection:`Specials --> Subdivide`or :kbd:`Numpad2`.
 - Alternatively you can rekey a particle
-  :kbd:`W` :menuselection:`--> Rekey` or :kbd:`Numpad1` and choose the number of keys.
+  :menuselection:`Specials --> Rekey` or :kbd:`Numpad1` and choose the number of keys.
 
 How smoothly the hair and particle paths are displayed depends on the *Path Steps*
 setting in the Tool Shelf. Low settings produce blocky interpolation between points,
 while high settings produce a smooth curve.
 
 
-Mirroring Particles
--------------------
+Mirror
+------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Particle Edit Mode
+   | Menu:     :menuselection:`Particle --> Mirror`
 
 If you want to create an X-Axis symmetrical haircut you have to do following steps:
 
@@ -240,8 +246,26 @@ you can *Remove doubles* either from the *Specials* :kbd:`W`
 or the *Particle* menu.
 
 
-Hiding/Unhiding
----------------
+Unify Length
+------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Particle Edit Mode
+   | Menu:     :menuselection:`Particle --> Unify Length`, :menuselection:`Specials --> Unify Length`
+
+This tool is used to make all selected hair uniform length by finding the average length.
+
+
+Show/Hide
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Particle Edit Mode
+   | Menu:     :menuselection:`Particle --> Show/Hide`
 
 Hiding and unhiding of particles works similar as with vertices in the 3D View.
 Select one or more keypoints of the particle you want to hide and press :kbd:`H`.
@@ -254,15 +278,3 @@ If you use *Mirror Editing* even particles with hidden keypoints may be moved,
 if their mirrored counterpart is moved.
 
 To un-hide all hidden particles press :kbd:`Alt-H`.
-
-
-Unify Length
-------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Particle Edit Mode
-   | Menu:     :menuselection:`Specials --> Unify Length`
-
-This tool is used to make all selected hair uniform length by finding the average length.

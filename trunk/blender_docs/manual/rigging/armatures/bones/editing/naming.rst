@@ -66,24 +66,23 @@ This will enable you to use some tools that will probably save you time and effo
 
 #. Before Blender handles an armature for mirroring or flipping,
    it first removes the number extension, e.g. ".001".
-#. You can copy a bone named "bla.L" and flip it over using :kbd:`W` :menuselection:`--> Flip Left-Right Names`.
+#. You can copy a bone named "bla.L" and flip it over using :menuselection:`Specials --> Flip Left-Right Names`.
    Blender will name the copy "bla.L.001" and flipping the name will give you "bla.R".
 
 
-Bone Name Flipping
-==================
+Flip Name
+=========
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Flip Left & Right Names`
-   | Hotkey:   :kbd:`W-4`
+   | Menu:     :menuselection:`Armature --> Flip Name`
+               :menuselection:`Specials --> Flip Name`
 
 
 You can flip left/right markers (see above) in selected bone names,
-using either :menuselection:`Armature --> Flip Left & Right Names`,
-or :menuselection:`Specials --> Flip Left-Right Names`, :kbd:`W-4`.
+using :menuselection:`Armature --> Flip Name`.
 This can be useful if you have constructed half of a symmetrical rig
 (marked for a left or right side) and duplicated and mirrored it,
 and want to update the names for the new side.
@@ -91,33 +90,31 @@ Blender will swap text in bone names according to the above naming conventions,
 and remove number extensions if possible.
 
 
-Auto Bone Naming
-================
+AutoName
+========
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> AutoName Left-Right`,
-     :menuselection:`Armature --> AutoName Front-Back`, :menuselection:`Armature --> AutoName Top-Bottom`
-   | Hotkey:   :kbd:`W-5`, :kbd:`W-6`, :kbd:`W-7`
+   | Menu:     :menuselection:`Armature --> AutoName Left/Right`,
+     :menuselection:`Armature --> AutoName Front/Back`, :menuselection:`Armature --> AutoName Top/Bottom`
 
+The three *AutoName* entries of the *Armature* and *Specials* menu :kbd:`W`
+allows you to automatically add a suffix to all selected bones, based
+on the position of their root relative to the armature center and its local coordinates:
 
-The three *AutoName* entries of the *Armature* and *Specials*
-:kbd:`W` menus allows you to automatically add a suffix to all selected bones, based
-on the position of their root relative to the armature center and its local coordinates :
-
-AutoName Left-Right
+AutoName Left/Right
    will add the ".L" suffix to all bones with a *positive* X-coordinate root,
    and the ".R" suffix to all bones with a *negative* X-coordinate root.
    If the root is exactly at 0.0 on the X-axis, the X-coordinate of the tip is used.
    If both joints are at 0.0 on the X-axis, the bone will just get a period suffix, with no "L"/ "R"
    (as Blender cannot decide whether it is a left or right bone...).
-AutoName Front-Back
+AutoName Front/Back
    will add the ".Bk" suffix to all bones with a *positive* Y-coordinate root,
    and the ".Fr" suffix to all bones with a *negative* Y-coordinate root.
    The same as with *AutoName Left-Right* goes for 0.0 Y-coordinate bones...
-AutoName Top-Bottom
+AutoName Top/Bottom
    will add the ".Top" suffix to all bones with a *positive* Z-coordinate root,
    and the ".Bot" suffix to all bones with a *negative* Z-coordinate root.
    The same as with *AutoName Left-Right* goes for 0.0 Z-coordinate bones...

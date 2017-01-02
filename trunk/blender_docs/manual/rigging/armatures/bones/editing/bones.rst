@@ -35,15 +35,16 @@ Add Menu
    :class: refbox
 
    | Mode:     Edit Mode
+   | Menu:     :menuselection:`Add`
    | Hotkey:   :kbd:`Shift-A`
 
 
-In the 3D View, :kbd:`Shift-A` :menuselection:`--> Bone` to add a new bone to your armature.
+In the 3D View, :kbd:`Shift-A` to add a new bone to your armature.
 
 This bone will be:
 
 - of one Blender Unit of length,
-- oriented towards the positive Y axis of the view,
+- oriented towards the global Z axis,
 - with its root placed at the 3D cursor position,
 - with no relationship with any other bone of the armature.
 
@@ -400,6 +401,19 @@ to avoid deforming the whole armature.
           previously connected to the deleted Bone.001, is now parented but not connected to Bone.
 
 
+Dissolve
+--------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     none
+   | Hotkey:   :kbd:`Ctrl-X`
+
+ToDo.
+
+
 Merge
 -----
 
@@ -460,8 +474,7 @@ Subdividing Bones
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Subdivide`
-   | Hotkey:   :kbd:`W 1`
+   | Menu:     :menuselection:`Armature --> Subdivide`, :menuselection:`Specials --> Subdivide`
 
 
 You can subdivide bones, to get two or more bones where there was just one bone.
@@ -470,7 +483,7 @@ the bones created from a subdivision always form a connected chain of bones.
 
 To create two bones out of each selected bone:
 
-- Press :kbd:`W` :menuselection:`--> Subdivide`, same as :kbd:`W-1`, or
+- Press :kbd:`W` :menuselection:`Specials --> Subdivide`, or
 - select :menuselection:`Armature --> Subdivide` from the header menu.
 
 To create an arbitrary number of bones from each selected bone in the
@@ -504,7 +517,7 @@ You can prevent a bone from being transformed in *Edit Mode* in several ways:
 
 - All bones can be locked clicking on the *Lock* checkbox
   of their Transform panel in the *Bones* tab;
-- Press :kbd:`Shift-W` :menuselection:`--> Toggle Settings --> Locked`
+- Press :kbd:`Shift-W` :menuselection:`Toggle Bone Options --> Locked`
 - Select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
 
 *If the root of a locked bone is connected to the tip of an unlocked bone,

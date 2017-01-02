@@ -9,8 +9,6 @@ Smooth
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth Vertex`
-   | Hotkey:   :kbd:`Ctrl-V` :menuselection:`--> Smooth Vertex`
-
 
 This tool smooths the selected components by averaging the angles between faces.
 After using the tool, options appear in the *Tool Shelf*:
@@ -45,7 +43,7 @@ Laplacian Smooth
    :class: refbox
 
    | Mode:     Edit Mode
-   | Hotkey:   :kbd:`W` :menuselection:`--> Laplacian Smooth`
+   | Menu:     :menuselection:`Specials --> Laplacian Smooth`
 
 
 See the :doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>` for details.

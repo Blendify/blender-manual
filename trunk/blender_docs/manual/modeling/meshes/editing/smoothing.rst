@@ -49,8 +49,6 @@ Smooth Shading
    | Mode:     Edit Mode
    | Panel:     :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
    | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
-   | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Shade Smooth / Shade Flat`
-
 
 .. figure:: /images/modeling_meshes_editing_smoothing_shading-smooth-flat.png
    :align: right

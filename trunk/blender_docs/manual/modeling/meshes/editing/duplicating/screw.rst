@@ -47,7 +47,7 @@ Usage
 
 This tool works only with Meshes.
 In *Edit Mode*, the button for the *Screw* tool operation is located in the *Mesh Tools* Panel,
-:kbd:`T` :menuselection:`--> Add --> Screw Button`.
+:menuselection:`Tool Shelf --> Mesh Tools --> Add: Screw`.
 To use this tool, you need to create at least one open profile or line to be used as a vector for the height,
 angular vector and to give Blender a direction.
 
@@ -359,7 +359,7 @@ will assembly perfectly with each other.
    two vertices we used to create the height of the extrusions in the last example.
 #. Use the shortcut :kbd:`X` to delete them.
 #. Press the shortcut :kbd:`A` to select the remaining vertices.
-#. Press the shortcut :kbd:`W` for the *Specials Menu*, and select *Subdivide*
+#. Press the shortcut :kbd:`W`, and select :menuselection:`Specials --> Subdivide`.
 #. Now, click with the Right Mouse button at the middle vertex.
 #. Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
    See Fig. :ref:`fig-mesh-screw-spindle`.
