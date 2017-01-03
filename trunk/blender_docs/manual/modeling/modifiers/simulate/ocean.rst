@@ -5,11 +5,9 @@ Ocean Modifier
 
 The *Ocean Modifier* is an ocean simulation tool to simulate and generate a deforming ocean surface,
 and associated texture, used to render the simulation data.
+It is intended to simulate deep ocean waves and foam.
 
-.. note::
-
-   The *Ocean Modifier* is ported from the open source Houdini Ocean Toolkit
-   and is intended to simulate deep ocean waves and foam.
+The *Ocean Modifier* is a port from the open source Houdini Ocean Toolkit. 
 
 
 Options

@@ -48,7 +48,7 @@ Add ``+``
 Remove ``-``
    To remove the selected item.
 Specials
-   The :ref:`specials <ui-specials-menu>` menu with operators context-sensitive to the item type.
+   A :ref:`Specials <ui-specials-menu>` menu with operators context-sensitive to the item type.
    e.g. copy paste, or operations on all items.
 
 Move Up
@@ -78,8 +78,7 @@ Add ``+``
 Remove ``-``
    Deletes the selected preset.
 Specials
-   The down arrow on dark background opens a pop-up menu with
-   operators context-sensitive to the preset type.
+   A :ref:`Specials <ui-specials-menu>` menu with operators context-sensitive to the preset type.
    e.g. copy paste.
 
 .. saving preset: data-system?

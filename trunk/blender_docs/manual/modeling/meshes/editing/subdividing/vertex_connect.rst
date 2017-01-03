@@ -8,12 +8,12 @@ Vertex Connect
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     Mesh --> Vertices --> Connect
+   | Menu:     :menuselection:`Mesh --> Vertices --> Connect`
    | Hotkey:   :kbd:`J`
 
-
-This tool joins selected vertices by edges, The main difference between this and creating
-edges is that faces are split by the newly joined vertices.
+This tool joins selected vertices by edges.
+The main difference between this and creating edges is
+that faces are split by the newly joined vertices.
 
 When many vertices are selected, faces will be split by their selected vertices.
 

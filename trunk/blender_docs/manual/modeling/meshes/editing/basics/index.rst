@@ -10,4 +10,4 @@
    adding.rst
    deleting.rst
    creating_faces_and_edges.rst
-   mirror.rst
+   symmetry.rst

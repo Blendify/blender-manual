@@ -28,8 +28,8 @@ Normal
 Properties
 ==========
 
-This node has no properties.
-
+Component
+   ToDo
 
 Outputs
 =======
