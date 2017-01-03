@@ -345,15 +345,15 @@ which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physi
 forcing the curve to "stick" to their original positions, based on the weight.
 
 
-Smoothing
----------
+Smooth
+------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Smooth`
-   | Hotkey:   :menuselection:`Specials --> Smooth`
+   | Menu:     :menuselection:`Specials --> Smooth`
 
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
