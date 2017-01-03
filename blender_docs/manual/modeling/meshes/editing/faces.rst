@@ -119,6 +119,14 @@ Grid Fill
 
 *Grid Fill* uses a pair of connected edge-loops to fill in a grid that follows the surrounding geometry.
 
+Span
+   ToDo
+Offset
+   ToDo
+Simple Blending
+   ToDo
+
+
 .. list-table::
 
    * - .. figure:: /images/mesh_fill_grid_surface_before.png

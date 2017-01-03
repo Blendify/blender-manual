@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|}}.
 
-**************
-Mirror Editing
-**************
+********
+Symmetry
+********
 
 Snap to Symmetry
 ================
@@ -14,9 +14,11 @@ Snap to Symmetry
    | Menu:     :menuselection:`Mesh --> Snap to Symmetry`
 
 
-The *Snap to Symmetry* tool works on meshes which are mostly symmetrical but have
-vertices which have been moved enough that Blender does not detect then as mirrored
-(when x-mirror option is enable for example).
+The Snap to Symmetry tool lets you snap a meshes vertices to their mirrored neighbors.
+
+Useful when dealing with meshes which are mostly symmetrical,
+but have vertices which have been moved enough that Blender
+does not detect then as mirrored (when x-mirror option is enable for example).
 
 This can be caused by accident when editing without x-mirror enabled. Sometimes models
 imported from other applications are asymmetrical enough that mirror fails too.

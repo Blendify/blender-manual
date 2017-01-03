@@ -5,21 +5,18 @@
 Introduction
 ************
 
-Dynamic paint is a new modifier and physics system that can turn objects into paint canvases
+Dynamic paint is a modifier and physics system that can turn objects into paint canvases
 and brushes, creating vertex colors, image sequences or displacement.
-This makes many effects possible that were previously difficult to achieve,
-for example footsteps in the snow, raindrops that make the ground wet,
-paint that sticks to walls, or objects that gradually freeze.
-
-This guide explains the very basics of Dynamic Paint user interface and general features.
-
-.. figure:: /images/physics_dynamic-paint_introduction.png
-
-   How to activate the Dynamic Paint.
+This makes many effects possible like, for example footsteps in the snow,
+raindrops that make the ground wet, paint that sticks to walls, or objects that gradually freeze.
 
 
 Activating the modifier
 =======================
+
+.. figure:: /images/physics_dynamic-paint_introduction.png
+
+   How to activate the Dynamic Paint.
 
 Dynamic Paint can be activated from the "Physics" tab of the "Properties" editor.
 
