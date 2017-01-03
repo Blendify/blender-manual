@@ -3,23 +3,16 @@
 Introduction
 ************
 
-.. figure:: /images/physics_rigidbody_panel.jpg
-   :width: 400px
-
-   Default rigid body panel.
-
 The rigid body simulation can be used to simulate the motion of solid objects.
 It affects the position and orientation of objects and does not deform them.
 
-Unlike the other simulations in Blender, the rigid body sim works closer with the animation system. This means that
-rigid bodies can be used like regular objects and be part of parent-child relationships, animation constraints and
-drivers.
+Unlike the other simulations in Blender, the rigid body sim works closer with the animation system.
+This means that rigid bodies can be used like regular objects and be part of parent-child relationships,
+animation constraints and drivers.
 
 
 Creating a Rigid Body
 =====================
-
-Creating the Rigid Body.
 
 Right now only mesh objects can participate in the rigid body simulation.
 To create rigid bodies, either click on *Rigid Body* button in the *Physics* tab of the

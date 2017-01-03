@@ -3,6 +3,15 @@
 Rigid Body Properties
 *********************
 
+.. figure:: /images/physics_rigidbody_panel.jpg
+   :width: 400px
+
+   Default rigid body panel.
+
+
+Rigid Body
+==========
+
 Type
    Role of the rigid body in the simulation.
    Active objects can be simulated dynamically, passive object remain static.
@@ -135,8 +144,7 @@ The margin is *not embedded* for these shapes:
 Rigid Body Dynamics
 ===================
 
-Rigid Body Dynamics panel.
-
+Used to control the physics of the rigid body simulation.
 This panel is available only for *Active* type of rigid bodies.
 
 Deactivation
