@@ -1,19 +1,34 @@
-..    TODO/Review: {{review|}}.
 
 **************
 Vertex Connect
 **************
 
+Connect Vertex Path
+===================
+
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Connect`
+   | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertex Path`
    | Hotkey:   :kbd:`J`
 
-This tool joins selected vertices by edges.
-The main difference between this and creating edges is
-that faces are split by the newly joined vertices.
+This tool connects vertices in the order they are selected, splitting the faces between them.
+
+When there are only two vertices selected, a cut will be made across unselected faces,
+a little like the knife tool; however, this is limited to straight cuts across connected faces.
+
+.. list-table::
+
+   * - .. figure:: /images/bmesh_connect_verts_pair_before.png
+
+          Two disconnected vertices.
+
+     - .. figure:: /images/bmesh_connect_verts_pair_after.png
+
+          Result of connecting.
+
+Running a second time will connect the first/last endpoints.
 
 When many vertices are selected, faces will be split by their selected vertices.
 
@@ -27,16 +42,41 @@ When many vertices are selected, faces will be split by their selected vertices.
 
           After.
 
+Vertices not connected to any faces will create edges,
+so this can be used as a way to quickly connect isolated vertices too.
 
-When there are only two vertices selected, a cut will be made across unselected faces,
-a little like the knife tool; however, this is limited to straight cuts across connected faces.
+
+Connect Vertices
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertices`
+
+
+This tool connects selected vertices by creating edges between them and splitting the face.
+
+This tool can be used on many faces at once.
+
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_connect_verts_pair_before.png
+   * - .. figure:: /images/modeling_vertexconnect-before.png
+          :width: 180px
 
-          Before.
+          Vertices before connecting.
 
-     - .. figure:: /images/bmesh_connect_verts_pair_after.png
+     - .. figure:: /images/modeling_vertexconnect-after.png
+          :width: 180px
 
-          After.
+          After connecting vertices.
+
+     - .. figure:: /images/modeling_vertexconnect-after-faces.png
+          :width: 180px
+
+          Resulting face pair.
+
+The main difference between this tool and `Connect Vertex Path`_,
+is this tool ignores selection order and connects all selected vertices that share a face.

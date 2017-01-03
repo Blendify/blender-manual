@@ -10,7 +10,7 @@ Vector Transform Node
 
 
 The *Vector Transform* node allows converting a Vector,
-Point or Normal between World <=> Camera <=> Object coordinate space.
+Point or Normal between World and Camera and Object coordinate space.
 
 
 Inputs
@@ -19,15 +19,22 @@ Inputs
 Vector Input
    Standard vector input.
 
+
 Properties
 ==========
 
 Type
-   Specifies the input/output type: Vector, Point or Normal.
+   Specifies the input/output type.
+
+   Vector, Point, Normal.
 Convert From
-   Coordinate Space to convert from: World, Object or Camera.
+   Coordinate Space to convert from:
+
+   World, Object, Camera.
 Convert To
-   Coordinate Space to convert to: World, Object or Camera.
+   Coordinate Space to convert to:
+
+   World, Object, Camera.
 
 
 Outputs
@@ -35,6 +42,7 @@ Outputs
 
 Vector Output
    The transformed output vector.
+
 
 Examples
 ========
