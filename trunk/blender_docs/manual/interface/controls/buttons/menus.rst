@@ -1,3 +1,4 @@
+.. |specials-button| image:: /images/interface_controls_buttons_menus_specials.png
 
 *****
 Menus
@@ -97,7 +98,6 @@ Shortcuts
   or by :kbd:`LMB` clicking anywhere out of it.
 
 
-
 Context Menu
 ============
 
@@ -112,7 +112,7 @@ Only the common options are listed below.
 Reset All/Single to Default Value(s)
    Replaces the current value by the default :kbd:`Backspace`.
 Unset
-   ..
+   ToDo
 Copy Data Path
    For scripting -- Copies the Python path of the property, relative to the data-block.
 Copy To Selected
@@ -142,6 +142,16 @@ Edit Translation
    :doc:`/interface/common_shortcuts`.
 
    .. move paragraph there?
+
+
+.. _ui-specials-menu:
+
+Specials Menu
+=============
+
+The Specials pop-up menu contains a context-sensitive list of operators.
+It is opened by a button with a down arrow on dark background |specials-button| or
+with :kbd:`W` in most editors sensitive to the mode.
 
 
 Pie Menus

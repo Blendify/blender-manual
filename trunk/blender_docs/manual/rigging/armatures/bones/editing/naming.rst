@@ -77,7 +77,7 @@ Flip Name
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Flip Name`
+   | Menu:     :menuselection:`Armature --> Flip Name`,
                :menuselection:`Specials --> Flip Name`
 
 
