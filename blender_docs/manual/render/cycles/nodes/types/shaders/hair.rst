@@ -19,7 +19,7 @@ Inputs
 Color
    Color of the hair.
 Offset
-   Controls the way the light is rotated for the reflection/transmission.
+   Controls the way the light is rotated (angular shift) for the reflection/transmission.
 Roughness U/V
    Controls the roughness in the direction light is skewed, and perpendicular to it.
 Tangent
