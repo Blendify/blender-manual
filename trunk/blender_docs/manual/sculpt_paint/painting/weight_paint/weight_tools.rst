@@ -23,8 +23,8 @@ And they are located in the weight tools panel.
 The Subset Option
 =================
 
-Some of the tools also provide a Subset parameter (in the Operator panel,
-displayed after the tool is called) with following options:
+Some of the tools also provide a Subset filter to restrict their functionality to only specific vertex groups
+(in the Operator panel, displayed after the tool is called) with following options:
 
 - Active Group
 - Selected Pose Bones

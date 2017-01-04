@@ -150,6 +150,9 @@ Poke Faces
    | Menu:     :menuselection:`Mesh --> Faces --> Poke Faces`
    | Hotkey:   :kbd:`Alt-P`
 
+This tool fan-fills each face around a central vertex.
+This can be useful as a way to triangulate n-gons, or the *Offset* can be used to make spikes or depressions.
+
 Poke Offset
    ToDo.
 Offset Relative

@@ -13,15 +13,19 @@ Bisect
 
 The bisect tool is a quick way to cut a mesh in-two along a custom plane.
 
-There are three important differences between this and the knife tool.
+Plane Point, Plane Normal
+   The plane can be numerically adjusted for precise values.
+Fill
+   Cuts can optionally fill in the holes created,
+   with materials, UV maps, and vertex-colors based on the surrounding geometry.
+Clear Inner, Clear Outer
+   Cuts may remove geometry on one side.
+Axis Threshold
+   Cut along the straight plane or along the existing geometry below the distance from the plane.
 
 
-- The plane can be numerically adjusted in the operator panel for precise values.
-- Cuts may remove geometry on one side.
-- Cuts can optionally fill in the holes created,
-  with materials and UVs & vertex-colors based on the surrounding geometry.
-
-This means the bisect tool can cut off parts of a mesh without creating any holes.
+Examples
+========
 
 .. list-table::
 

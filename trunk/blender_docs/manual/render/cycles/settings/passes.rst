@@ -13,6 +13,19 @@ Exclude
    Scene layers are shared between all render layers;
    however, sometimes it is useful to leave out some object influence for a particular render layer.
    That is what this option allows you to do.
+Material
+   Overrides all materials in the render layer.
+Samples
+   Render layer samples to override the scene samples.
+   Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the sampling panel.
+Use Environment
+   ToDo
+Use AO
+   ToDo
+Use Surfaces
+   ToDo
+Use Hair
+   ToDo
 
 
 .. _render-cycles-passes:

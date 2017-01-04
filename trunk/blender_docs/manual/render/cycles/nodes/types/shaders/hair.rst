@@ -38,6 +38,7 @@ Component
    Transmission
       The light that passes through the hair and comes out the other side.
 
+
 Outputs
 =======
 
