@@ -49,11 +49,11 @@ giving precise control over their distribution. You may use vertex groups to con
 that is done in the *Vertex Groups* panel.
 
 Vertices
-   Emit particles from the vertices of a mesh.
+   Emits particles from the vertices of a mesh.
 Faces
-   Emit particles from the surface of a mesh's faces.
+   Emits particles from the surface of a mesh's faces.
 Volume
-   Emit particles from the volume of an enclosed mesh.
+   Emits particles from the volume of an enclosed mesh.
 
 
 Distribution Settings
