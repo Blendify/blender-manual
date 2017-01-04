@@ -12,4 +12,3 @@
    displacement.rst
    settings.rst
    texture_editing.rst
-   hair_particles.rst
