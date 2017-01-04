@@ -1,16 +1,8 @@
-
-***************
-Object Settings
-***************
-
-These are options that are scattered though out Blender,
-and are often only available in certain contexts.
-
-
 .. _render-cycles-settings-object-subdivision:
 
+********************
 Adaptive Subdivision
-====================
+********************
 
 .. note::
 
@@ -54,7 +46,7 @@ Levels
 
 
 Known limitations
------------------
+=================
 
 - Missing support for UV subdivision.
 - Creases do not match Blender creases currently.
@@ -63,25 +55,3 @@ Known limitations
 - Multi-view renders can have some inconsistencies between views.
 - Editing displacement shaders while using :ref:`True Displacement <render-cycles-materials-displacement-true>`
   does not update the viewport.
-
-
-.. _render-cycles-settings-object-motion-blur:
-
-Motion Blur
-===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :menuselection:`Properties editor --> Object --> Motion Blur`
-
-Each object has its own motion blur settings along with the
-:doc:`Scene Level Motion Blur </render/cycles/settings/motion_blur>`
-These settings can be found in the :doc:`Object Properties </editors/3dview/object/properties/introduction>`
-tab of the Properties editor.
-
-Deformation
-   Enables motion blur for deformed meshes such as animated characters, including hair.
-Steps
-   Controls accuracy of deformation motion blur, more steps gives more memory usage.
-   The actual number of steps is :math:`2^{steps -1}`.
