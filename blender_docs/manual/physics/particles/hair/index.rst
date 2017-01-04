@@ -8,4 +8,4 @@
    :maxdepth: 2
 
    introduction.rst
-   options.rst
+   properties/index.rst
