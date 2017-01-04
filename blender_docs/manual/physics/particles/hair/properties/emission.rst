@@ -8,20 +8,6 @@ Options
    Hair particle system settings.
 
 
-Regrow
-   Regrows the hair for each frame. This is useful when you are animating options.
-Advanced
-   Enables advanced settings which reflect the same ones as working in Emitter mode.
-
-   .. note::
-
-      This manual assumes that this option is enabled.
-
-Segments
-   Controls the number of parts a hair is made of.
-   Increasing this value will improve the quality of animations.
-
-
 Emission
 ========
 

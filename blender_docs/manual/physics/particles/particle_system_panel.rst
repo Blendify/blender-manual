@@ -19,7 +19,21 @@ Type
    Emitter
       In such a system particles are :doc:`emitted </physics/particles/properties/index>` from the object.
    Hair
-      The :doc:`Hair </physics/particles/hair/index>` type is rendered as strands.
+      Use :doc:`Hair </physics/particles/hair/index>` type, rendered as strands.
+
+      Regrow
+         Regrows the hair for each frame. This is useful when you are animating properties.
+      Advanced
+         Enables advanced settings which reflect the same ones as working in Emitter mode.
+
+         .. note::
+
+            This manual assumes that this option is enabled.
+
+      Segments
+         Controls the number of parts a hair is made of.
+         Increasing this value will improve the quality of animations.
+
 Seed
    This initial value for random properties can be used to create a look, which is slightly different,
    even when using the same settings.
