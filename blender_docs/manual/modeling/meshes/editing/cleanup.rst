@@ -55,6 +55,19 @@ This is different from the face creation operator in three important respects:
   since manually creating this data is very time consuming.
 
 
+Make Planar Faces
+======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Clean up --> Make Planar Faces`
+
+
+ToDo
+
+
 Split Non-Planar Faces
 ======================
 
@@ -67,6 +80,18 @@ Split Non-Planar Faces
 
 This tool avoids ambiguous areas of geometry by splitting non-flat faces when they are bent
 beyond a given limit.
+
+
+Split Concave Faces
+======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Clean up --> Split Concave Faces`
+
+ToDo
 
 
 Delete Loose Geometry

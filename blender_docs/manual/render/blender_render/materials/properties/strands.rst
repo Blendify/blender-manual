@@ -93,8 +93,10 @@ Shape
 
    .. figure:: /images/render_bi_strand_shapes.png
 
-      Various Shape settings. From left to right,
-      0 (root and tip are equal in the first), 0, -0.4, -0.9, 0.4, 0.9.
+      Various Shape settings.
+
+      From left to right,
+      \0 (root and tip are equal in the first), 0, -0.4, -0.9, 0.4, 0.9.
 
 Width Fade
    To fade out along the width of the strand.

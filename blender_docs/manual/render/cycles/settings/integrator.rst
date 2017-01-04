@@ -61,6 +61,18 @@ Pattern
       Uses a Correlated Multi-Jitter pattern to decide the random sapling pattern used by the integrator. See
       `this Pixar paper <http://graphics.pixar.com/library/MultiJitteredSampling/paper.pdf>`__ for more information.
 
+.. _render-cycles-integrator-layer-samples:
+
+Layer Samples
+   When render layers have per layer number of samples set, this option specifies how to use them.
+
+   Use
+      ToDo
+   Bounded
+      Bound render layer samples by scene samples.
+   Ignore
+      Ignore render layer sample settings.
+
 
 Path Tracing
 ------------
