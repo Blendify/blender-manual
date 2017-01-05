@@ -43,6 +43,8 @@ Offset Even
    Scale the offset to give more even thickness.
 Offset Relative
    Scale the offset by surrounding geometry.
+Edge Rail
+   ToDo.
 Thickness
    Set the size of the inset.
 Depth
@@ -51,3 +53,8 @@ Outset
    Create an outset rather than an inset.
 Select Outer
    Toggle which side of the inset is selected after operation.
+Individual
+   By default the Inset tool operates on the region around selected faces,
+   but with this option each selected face can be inset on its own.
+Interpolate
+   Interpolate mesh data: e.g. UV's, vertex colors, weights... etc.

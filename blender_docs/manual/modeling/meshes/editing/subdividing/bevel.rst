@@ -16,6 +16,7 @@ Bevel
 
 The bevel tool allows you to create chamfered or rounded corners to geometry.
 A bevel is an effect that smooths out edges and corners.
+
 True world edges are very seldom exactly sharp.
 Not even a knife blade edge can be considered perfectly sharp.
 Most edges are intentionally beveled for mechanical and practical reasons.
@@ -33,7 +34,7 @@ as opposed to un-beveled objects which can look too perfect.
 Usage
 =====
 
-The *Bevel* tool works only on selected edges.
+The *Bevel* tool works only on selected edges with exactly two adjacent faces.
 It will recognize any edges included in a vertex or face selection as well,
 and perform the bevel the same as if those edges were explicitly selected.
 In "vertex only" mode, the *Bevel* tool works on selected vertices instead of edges.
@@ -114,7 +115,7 @@ Profile :kbd:`P`
    The default value, 0.5, gives a circular arc (if the faces meet at right angles).
    Values less than that give a flatter profile, with 0.25 being exactly flat,
    and values less than that giving a concave bevel.
-   Values more than 0.5 give a more "bulged-out" profile.
+   Values more than 0.5 give a more convex profile.
    Similarly as *Segments* it can be set with mouse movements and numeric input after toggling :kbd:`P`.
 Vertex Only :kbd:`V`
    When selected, the tool is in "vertex only" mode, and only vertices will be beveled.

@@ -83,7 +83,7 @@ This allows you to quickly select Vertices/Edges/Faces,
 without first having to switch modes.
 
 
-Expanding Selection Modes
+Expanding/Contracting Selection Modes
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 By holding :kbd:`Ctrl` when selecting a higher selection mode,
@@ -92,26 +92,28 @@ even if the selection does not form a complete higher element.
 
 See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the different modes.
 
+Or optionally contracting the selection when switching to a lower mode.
+
 .. _fig-mesh-select-intro-selection-modes:
 
 .. list-table:: Selection Modes.
 
-   * - .. figure:: /images/editmodeverticemodeexample.png
+   * - .. figure:: /images/modeling_meshes_selection_vertex-mode-example.png
           :width: 320px
 
           Vertices mode example.
 
-     - .. figure:: /images/editmodeedgemodeexample.png
+     - .. figure:: /images/modeling_meshes_selection_edge-mode-example.png
           :width: 320px
 
           Edges mode example.
 
-   * - .. figure:: /images/editmodefacemodeexample.png
+   * - .. figure:: /images/modeling_meshes_selection_face-mode-example.png
           :width: 320px
 
           Faces mode example.
 
-     - .. figure:: /images/editmodemixedmodeexample.png
+     - .. figure:: /images/modeling_meshes_selection_mixed-mode-example.png
           :width: 320px
 
           Mixed mode example.
