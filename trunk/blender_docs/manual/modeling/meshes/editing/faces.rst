@@ -92,6 +92,9 @@ Beauty Fill
 *Beautify Fill* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
 
+Max Angle
+   An angle delimiter option to limit edge rotation to flat surfaces.
+
 .. list-table::
 
    * - .. figure:: /images/mesh_beauty_fill_before.png
