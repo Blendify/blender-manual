@@ -45,11 +45,9 @@ Fill/Deepen
    Works like the Flatten brush, but only brings vertices below the brush plane upwards.
    The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
 Flatten/Contrast :kbd:`Shift-T`
-   The *Flatten* brush finds an 'area plane'
-   located by default at the average height above/below the vertices within the brush area.
-   The vertices are then pulled towards this plane.
+   The *Flatten* brush pulls the vertices towards the *Sculpt plane*.
    The inverse of the Flatten brush is the *Contrast*
-   brush which pushes vertices up or down away from the brush plane.
+   brush which pushes vertices up or down away from the *Sculpt Plane*.
 Grab :kbd:`G`
    Used to drag a group of points around. Unlike the other brushes,
    *Grab* does not modify different points as the brush is dragged across the model.
@@ -67,7 +65,16 @@ Layer :kbd:`L`
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as grayscale.
+   I.e the darker a masked area is, the less effect sculpting on it will have.
    See also the options of the :ref:`scupt-mask-menu` menu.
+
+   Mask Tool
+      The mask brush has two modes:
+
+      Draw
+         Mask drawing.
+      Smooth :kbd:`Shift`
+         Pressing :kbd:`Shift` with the mask brush active will toggle the mask smoothing mode.
 Nudge
    Moves vertices in the direction of the brush stroke.
 Pinch/Magnify :kbd:`P`
@@ -135,8 +142,24 @@ Normal Weight :kbd:`Ctrl`
    e.g. Grab brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set.
 
    Applies to *Grab* and *Snake Hook* brushes.
+Use Original Normal (lock icon)
+   ToDo.
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
+
+   Area Plane
+      The plane is located at the average height above/below the vertices within the brush area.
+      Essentially, this means that the direction is dependent on the surface beneath the brush.
+
+      .. (alt) The vertices are pushed towards the plane defined by vertices towards the edge of the brush.
+   View Plane
+      ToDo.
+   X, Y, Z Plane
+      Global.
+
+      ToDo.
+Plane Offset
+   ToDo.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
 Add/Subtract :kbd:`Ctrl`
@@ -227,6 +250,8 @@ Smooth Stroke :kbd:`Shift-S`
       Sets the minimum distance from the last point before stroke continues.
    Factor
       Sets the amount of smoothing.
+Input Samples
+   Recent mouse locations (input samples) are averaged together to smooth brush strokes.
 
 
 Curve Panel
