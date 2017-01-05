@@ -19,13 +19,13 @@ Samples
    Render layer samples to override the scene samples.
    Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the sampling panel.
 Use Environment
-   ToDo
+   Disables rendering the *Environment* render pass in the final render.
 Use AO
-   ToDo
+   Disables rendering the *Ambient Occlusion* render pass in the final render.
 Use Surfaces
-   ToDo
+   Disables rendering object materials in the final render.
 Use Hair
-   ToDo
+   Disables rendering hair strands in the final render.
 
 
 .. _render-cycles-passes:
