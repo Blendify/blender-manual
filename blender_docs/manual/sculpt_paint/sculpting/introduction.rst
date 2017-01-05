@@ -61,3 +61,8 @@ Keyboard Shortcuts
      - :kbd:`RMB`, :kbd:`Shift-RMB`, :kbd:`Ctrl-RMB`
    * - Translate/scale/rotate stencil mask
      - :kbd:`Alt-RMB`, :kbd:`Alt-Shift-RMB`, :kbd:`Alt-Ctrl-RMB`
+
+
+Cancel Stroke in Progress :kbd:`Esc`
+   By pressing :kbd:`Esc` while in the middle of a sculpt stroke,
+   the stroke will be canceled and any changes will be undone.
