@@ -50,7 +50,7 @@ Select All by Traits
 Non Manifold :kbd:`Ctrl-Shift-Alt-M`
    Selects the :term:`non-manifold` geometry of a mesh.
    This entry is available when editing a mesh, in Vertex and Edge selection modes only.
-   The *redo* panel provides several selection options:
+   The Operator panel provides several selection options:
 
    Extend
       Lets you extend the current selection.
@@ -122,6 +122,8 @@ Vertex Selection Mode:
       Selects all vertices in the same :doc:`vertex group </modeling/meshes/properties/vertex_groups/index>`.
    Amount of Connecting Edges
       Selects all vertices that have the same number of edges connected to them.
+   Face Regions
+      Select matching features on a mesh that has multiple similar areas based on the topology.
 
 Edge Selection Mode:
    Length

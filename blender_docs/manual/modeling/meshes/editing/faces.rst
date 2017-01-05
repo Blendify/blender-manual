@@ -285,10 +285,17 @@ Intersect (Knife)
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Intersect (Knife)`
 
+The Intersect tool lets you cut intersections into geometry.
+It is a bit like Boolean Tool, but, does not calculate interior/exterior. 
+Faces are split along the intersections, leaving new edges selected.
+
 Source
-   Selected/Unselected, Self Intersect
+   Selected/Unselected
+      Operate between the selected and unselected geometry.
+   Self Intersect
+      Operate on the overlapping geometry of the mesh.
 Separate
-   ToDo.
+   Splits the geometry at the new edge.
 Merge Threshold
    ToDo.
 

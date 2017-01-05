@@ -83,8 +83,8 @@ This allows you to quickly select Vertices/Edges/Faces,
 without first having to switch modes.
 
 
-Expanding/Contracting Selection Modes
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Expanding/Contracting Selection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 By holding :kbd:`Ctrl` when selecting a higher selection mode,
 all elements touching the current selection will be added,
@@ -92,7 +92,7 @@ even if the selection does not form a complete higher element.
 
 See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the different modes.
 
-Or optionally contracting the selection when switching to a lower mode.
+Or contracting the selection when switching to a lower mode.
 
 .. _fig-mesh-select-intro-selection-modes:
 

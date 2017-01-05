@@ -100,7 +100,22 @@ Bevel Object
 
       A Curve with the Bevel Object as a Bézier Curve (left) and as a Bézier Circle (right).
 
-Start Bevel Factor and End Bevel Factor
+
+Bevel Factor
+------------
+
+Mapping
+   Allows to control the relation between bevel factors (number between 0 and 1) and
+   the rendered start and end point of a beveled spline. Map the bevel factor:
+
+   Resolution
+      To the number of subdivisions of a spline (U resolution).
+   Segments
+      To the length of its segments. Mapping to segments treats the subdivisions in each segment of a curve as
+      if they would have all the same length.
+   Spline
+      The length of a spline.
+Start, End
    These options determine where to start the Bevel operation on the Curve being beveled.
    Increasing the *Start Bevel Factor* to 0.5 will start beveling the Curve 50% of the distance from the start
    of the Curve (in effect shortening the Curve).
@@ -111,6 +126,10 @@ Start Bevel Factor and End Bevel Factor
 
       A Curve with no Bevel factor applied (left),
       with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
+
+
+Caps
+----
 
 Fill Caps
    Seals the ends of a beveled Curve.
