@@ -29,10 +29,26 @@ The normal brush; paints a swath of color.
 Fill
 ^^^^
 
-It can be used to fill the image with the brush color. 
-For projective texturing it will bypass some options for projective painting to paint the model.
-This means that occluded, backfacing and normal culled faces will always get filled, regardless of whether the options are activated in the projection paint panel. 
-Also, it is still currently limited to filling the part of the mesh within screen boundaries.
+It can be used to fill the image with the brush color.
+
+.. note:: Overrides
+
+   For projective texturing it will bypass some options for projective painting to paint the model.
+   This means that occluded, backfacing and normal culled faces will always get filled,
+   regardless of whether the options are activated in the projection paint panel. 
+
+.. tip:: Masking
+
+   Use the face selection mask to isolate faces.
+
+
+Mask
+^^^^
+
+The mask feature maps an image to the mesh and uses the image intensity to
+mask out certain parts of the mesh out during painting.
+The mask options can be found mask panel
+in the :doc:`slots tab </sculpt_paint/painting/texture_paint/slots_mask>`.
 
 
 Soften
@@ -55,7 +71,7 @@ Blur Mode
    Gaussian
       Gaussian will sample the pixels near the center of the brush most.
    Box
-      Box samples all surrounding pixels equally
+      Box samples all surrounding pixels equally.
 
 
 Smear
@@ -85,6 +101,7 @@ Most brushes have common settings.
 
 Color
    The color of the brush. See :ref:`ui-color-picker`.
+
    Press :kbd:`S` on any part of the image to sample that color and
    set it as the brush color.
 
@@ -94,6 +111,9 @@ Radius
    The radius of the brush in pixels.
 Strength
    How powerful the brush is when applied.
+
+   Space Attenuation (lock icon)
+      Attenuate the brush strength according to spacing.
 Pressure Sensitivity
    The icon (hand and bulged in blue line) to the right of the following three settings will enable or disable
    tablet pressure sensitivity to control how strong the effect is.
@@ -117,10 +137,23 @@ Blend
       you must enable the alpha channel display by clicking the Display Alpha or the Alpha-Only button.
       Transparent (no alpha) areas will then show a checkered background.
 
+Accumulate
+   This will allow a stroke to accumulate on itself, just like an airbrush would do. 
 Alpha
    Opacity of the clone image display.
 Use Gradient
-   ToDo. See :ref:`ui-color-ramp-widget`.
+   A gradient can be used as color source. ToDo. See :ref:`ui-color-ramp-widget`.
+   To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
+   depending on the *Gradient Fill Mode* the gradient line, or radius, if radial gradient is used.
 
    Mode
-      ToDo.
+      Pressure
+         Will choose a gradient color from the color band according to the stylus pressure.
+      Clamp
+         Will alter the color automatically by the distance covered by the brush and as specified.
+         by *Gradient spacing*. With Clamp it uses the last color of the color band after the specified. 
+      Repeat
+         Similar to *Clamp*. After the last color it resets the color to the first color in the color band and
+         repeating the pattern.
+   Gradient Fill Mode
+      Linear, Radial

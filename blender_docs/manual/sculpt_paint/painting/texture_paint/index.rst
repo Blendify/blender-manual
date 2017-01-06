@@ -9,4 +9,5 @@
 
    introduction.rst
    tools.rst
+   slots_mask.rst
    options.rst

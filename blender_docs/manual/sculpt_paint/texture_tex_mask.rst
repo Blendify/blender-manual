@@ -63,7 +63,7 @@ Angle :kbd:`Ctrl-F`
       Directly input the angle value.
    Rake :kbd:`R`
       Angle follows the direction of the brush stroke. Not available with *3D* textures.
-      (Shortcut sculpting only).
+      (shortcut sculpting only).
    Random :kbd:`R`
       Angle is randomized.
 
@@ -82,5 +82,17 @@ Texture Mask
 ============
 
 TODO.
+
+Pressure Masking
+   A mask cut-off function. It allows to clip the mask result based on pressure,
+   creating areas of no paint when low pressure is applied to the brush,
+   similar to how a real brush would behave.
+
+   Off
+      Deactivated.
+   Cutoff
+      Simply selects between zero and one based on stylus pressure.
+   Ramp
+      Distributes the mask effect above the pressure value.
 
 
