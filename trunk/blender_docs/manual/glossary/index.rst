@@ -138,7 +138,7 @@ This page lists definitions for terms used in Blender and this manual.
    Color Blend Modes
       Methods for blending two colors together.
 
-      See also `Blend Modes <https://en.wikipedia.org/wiki/Blend_modes>`__ on Wikipedia.
+      See also `Blend Modes <https://docs.gimp.org/en/gimp-concepts-layer-modes.html>`__ on GIMP docs.
 
    Color Space
       A coordinate system in which a vector represent a color value.
