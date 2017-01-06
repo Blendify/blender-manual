@@ -23,10 +23,6 @@ Brush Type
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Brush`
    | Menu:     :menuselection:`Brush --> Sculpt Tool`
 
-Brushes are brush presets. They are a combination of a 'tool',
-along with stroke, texture, and options.
-The brush cab be selected by number:
-:kbd:`0` to :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`.
 
 .. figure:: /images/sculpt-paint_sculpting_options_brushes.png
 
@@ -103,6 +99,11 @@ Snake Hook :kbd:`K`
 Thumb
    Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
    while moving it in the direction of the brush stroke.
+Simplify
+   This brush collapses short edges (as defined by the detail size) whether or
+   not the *Collapse Short Edges* option is enabled.
+   This brush has no effect if dynamic topology is not enabled.
+   It can be found in the :menuselection:`Brush --> Sculpt Tool` menu.
 
 
 Common Options
@@ -166,104 +167,6 @@ Add/Subtract :kbd:`Ctrl`
    Brush direction toggle. :kbd:`Ctrl` pressed while sculpting.
 Accumulate
    Causes stroke dabs to accumulate on top of each other.
-
-
-Texture Panel
-=============
-
-Texture
-   Texture to be used to determine the strength of the brush.
-Brush Mapping
-   Sets the way the texture is mapped to the brush stroke:
-
-   View Plane
-      If *View Plane* is enabled, the current view angle is used to project the brush texture onto the model.
-      I.e. the texture follows the mouse, so it appears that the texture is being dragged across the model.
-   Area Plane
-      Projects the brush texture along the local surface normal,
-      which keeps the texture from stretching when sculpting on a portion of the mesh
-      that is at an extreme angle to the viewpoint.
-   Tiled
-      The *Tile* option tiles the texture across the screen,
-      so moving the brush appears to move separately from the texture.
-      The *Tile* option is most useful with tileable images, rather than procedural textures.
-   3D
-      The *3D* option allows the brush to take full advantage of procedural textures.
-      This mode uses vertex coordinates rather than the brush location to determine what area of the texture to use.
-   Random
-      ToDo.
-   Stencil
-      ToDo.
-Angle
-   This is the rotation angle of the texture brush.
-   It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
-   While in the interactive rotation you can enter a value numerically as well. Can be set to:
-
-   User
-      Directly input the angle value.
-   Rake :kbd:`R`
-      Angle follows the direction of the brush stroke. Not available with *3D* textures.
-   Random :kbd:`R`
-      Angle is randomized.
-   Random Angle
-      ToDo.
-Offset
-   Fine tunes the texture map placement in the x, y, and z axes.
-Size
-   This setting allows you to modify the scaling factor of the texture. Not available for *Drag* textures.
-Sample Bias
-   Value added to texture samples.
-
-
-Stroke Panel
-============
-
-Stroke Method :kbd:`E`
-   Defines the way brush strokes are applied to the mesh:
-
-   Dots
-      Standard brush stroke.
-   Drag Dot
-      Creates a single displacement in the brush shape. Click then drag on mesh to desired location, then release.
-   Space
-      Creates brush stroke as a series of dots, whose spacing is determined by the *Spacing* setting.
-      *Spacing* represents the percentage of the brush diameter.
-   Anchored
-      Creates a single displacement at the brush location.
-      Clicking and dragging will resize the brush diameter.
-      When *Edge to Edge* the brush location and orientation is determined by a two point circle,
-      where the first click is one point, and dragging places the second point, opposite from the first.
-   Airbrush
-      Flow of the brush continues as long as the mouse click is held, determined by the *Rate* setting.
-      If disabled, the brush only modifies the model when the brush changes its location.
-      This option is not available for the *Grab* brush.
-
-The following parameters are available for the *Dots*, *Space*,
-and *Airbrush* strokes:
-
-Jitter
-   Jitters the position of the brush while painting.
-Smooth Stroke :kbd:`Shift-S`
-   Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
-
-   Radius
-      Sets the minimum distance from the last point before stroke continues.
-   Factor
-      Sets the amount of smoothing.
-Input Samples
-   Recent mouse locations (input samples) are averaged together to smooth brush strokes.
-
-
-Curve Panel
-===========
-
-The *Curve* section allows you to use a curve control to the right to modify the
-intensity of the brush from its center (left part of the curve) towards its borders
-(right part of the curve).
-
-.. seealso::
-
-   Read more about using the :ref:`ui-curve-widget`.
 
 
 Symmetry/Lock Panel

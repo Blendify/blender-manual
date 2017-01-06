@@ -22,4 +22,21 @@ as well as specify a custom icon.
 Project Paint
 =============
 
-TODO.
+Occlude
+   ToDo.
+Cull
+   ToDo.
+Normal
+   ToDo.
+Cavity Mask
+   ToDo.
+
+   Bleed
+      ToDo.
+   Dither
+      ToDo.
+
+Unified Settings
+   Brush options shared between the brush types.
+
+   Size, Color, Strength
