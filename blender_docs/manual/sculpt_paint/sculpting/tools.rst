@@ -58,6 +58,11 @@ Layer :kbd:`L`
    This brush does not draw on top of itself; a brush stroke intersects itself.
    Releasing the mouse button and starting a new stroke
    will reset the depth and paint on top of the previous stroke.
+   
+   Persistent
+      ToDo.
+   Set Persistent Base
+      ToDo.
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as grayscale.
@@ -161,6 +166,8 @@ Sculpt Plane
       ToDo.
 Plane Offset
    ToDo.
+Trim
+   ToDo.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
 Add/Subtract :kbd:`Ctrl`
@@ -193,7 +200,7 @@ Lock
    of your model along selected local axes, while you are sculpting it.
 Tiling
    Using this option allows you to seamlessly tile your strokes along the given
-   axes.
+   axes. This allows to create repeating patterns.
 Tile Offset
    The default tile size is set to one :abbr:`BU (Blender Unit)`. The offset allows the
    option to alter the tile size along all three axes.

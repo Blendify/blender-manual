@@ -43,6 +43,7 @@ Stroke Method :kbd:`E`
    Line
       Clicking and dragging lets you define a line in screen space.
       The line dabs are separated by *Spacing*, similar to space strokes.
+      With :kbd:`Alt` the line stroke is constrained to 45 degree increments.
    Curve
       Defines a curve in screen space. Curve strokes also uses *Spacing*.
 
@@ -76,12 +77,6 @@ Smooth stroke :kbd:`Shift-S`
       Sets the amount of smoothing.
 Input Samples
    Recent mouse locations (input samples) are averaged together to smooth brush strokes.
-
-.. renamed, replaced, obsolete?
-
-Wrap
-   Wraps your paint to the other side of the image as your brush moves off the **other** side of the canvas
-   (any side, top/bottom, left/right). Very handy for making seamless textures.
 
 
 Curve

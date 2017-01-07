@@ -59,8 +59,6 @@ Angle :kbd:`Ctrl-F`
    It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
    While in the interactive rotation you can enter a value numerically as well.
 
-   User
-      Directly input the angle value.
    Rake :kbd:`R`
       Angle follows the direction of the brush stroke. Not available with *3D* textures.
       (shortcut sculpting only).
@@ -68,7 +66,7 @@ Angle :kbd:`Ctrl-F`
       Angle is randomized.
 
       Random Angle
-         ToDo.
+         Constraints the random deviation to a range value.
 
 Offset
    Offset the texture map placement in X, Y, and Z axes.
