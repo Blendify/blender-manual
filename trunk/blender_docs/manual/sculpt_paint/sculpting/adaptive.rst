@@ -13,14 +13,19 @@ Dynamic Topology
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Dyntopo`
    | Hotkey:   :kbd:`Ctrl-D`
 
-Dynamic topology (aka dyntopo) is a dynamic tessellation sculpting method, adds and
-removes details on the fly. Dyntopo is quick, just get a brush and start to sculpt.
-Dyntopo will add details base upon your brush size, detail type and strength.
-Dytopo can be toggled with the checkbox in the header or with :kbd:`Ctrl-D`.
+Dynamic topology (aka dyntopo) is a dynamic tessellation sculpting method,
+adds and removes details on the fly, whereas regular sculpting only affects the shape of a mesh.
+
+This makes it possible to sculpt complex shapes out of a simple mesh,
+rather than just adding details onto a modeled base mesh. 
+
+
+Dyntopo can be toggled with the checkbox in the header or with :kbd:`Ctrl-D`.
+With dynamic topology active, most brushes will subdivide the mesh during the stroke.
+
 
 Detail Type
-   Dyntopo uses three different detail methods to create dynamic detail to an object. The
-   methods available are Relative Detail (Default), Constant Detail, and Brush Detail.
+   Dyntopo uses three different detail methods to create dynamic detail to an object.
 
    Relative Detail
       This method uses a detail size based on the number of pixels, and in turn
@@ -53,9 +58,15 @@ Detail Refine Method
    Detail Flood Fill
       When using Constant Detail mode, this option is made available, allowing
       you to fill the entire object with a uniform detail, based on the detail size.
+Smooth Shading
+   Toggles whether mesh faces are smooth or flat shaded.
+   In dynamic-topology mode all faces have the same type of shading.
+Optimize
+   If sculpting begins to slow down while dynamic topology is enabled,
+   use the *Optimize* button to recalculate the sculpt BVH.
 Direction
    Determines which direction the model will be symmetrized.
-Dyntopo Symmetrize
+Symmetrize
    Uses direction orientation to symmetrize. Since Dyntopo adds details dynamical
    may happen that the model goes asymmetric, so this a good tool for that.
 

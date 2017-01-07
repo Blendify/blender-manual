@@ -84,7 +84,7 @@ Similar to the "smudge" tool of *Gimp*.
 Clone
 ^^^^^
 
-Copies the colors from the image specified (Tex.Dirt in the example), to the active image.
+Copies the colors from the image specified to the active image.
 
 Clone from paint slot
    The background image is shown when this brush is selected;
@@ -157,3 +157,15 @@ Use Gradient
          repeating the pattern.
    Gradient Fill Mode
       Linear, Radial
+
+
+Tilling
+=======
+
+Wraps the stroke to the other side of the image as your brush moves off the opposite side of the canvas.
+Very handy for making seamless textures.
+
+   X
+      left/right
+   Y
+      top/bottom

@@ -3,12 +3,13 @@
 Slots & Mask
 ************
 
-To access the functionality, click the "Slots" tab in the toolbar and you can find the functionality in the "Slots" panel.
+The Slots tab in the Tool Shelf.
+
 
 Slot
 ====
 
-The combination of images associated with a UV maps is called "slots".
+The combination of images associated with UV maps is called "slots".
 
 Painting Mode
    ToDo.
@@ -41,5 +42,5 @@ Stencil Image
    ToDo.
 Visualization
    ToDo.
-Invert Stencil
+Invert Stencil (black/white icon)
    Inverts the mask.
