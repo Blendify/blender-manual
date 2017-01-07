@@ -29,6 +29,7 @@ Sculpt All Islands
    when the sculpt stroke was started.
 UV Sculpt Tools
    Brushes that operate on UVs.
+   All brushes use Airbrush Stroke Method: they continue to act as long as you keep :kbd:`LMB` pressed.
 
    Grab :kbd:`G`
       The Grab brush moves UVs around.

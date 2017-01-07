@@ -59,10 +59,6 @@ Options
 Lock Active
    Keep the values of the active group while normalizing all the others.
 
-.. note::
-
-   Currently this tool normalizes **all** vertex groups except the locked vertex groups.
-
 
 Normalize
 =========

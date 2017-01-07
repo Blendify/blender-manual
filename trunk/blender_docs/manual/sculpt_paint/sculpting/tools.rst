@@ -82,7 +82,8 @@ Pinch/Magnify :kbd:`P`
    Pulls vertices towards the center of the brush.
    The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
 Rotate
-   Rotates vertices within the brush in the direction the cursor is moved.
+   Rotates vertices within the brush in the direction the cursor is moved. The initial drag direction
+   is the zero angle and by rotating around the center you can create a vortex effect.
 Scrape/Peaks
    The *Scrape* brush works like the Flatten brush, but only brings vertices above the plane downwards.
    The inverse of the Scrape brush is to *Peak* by pushing vertices above the plane up away from the plane.

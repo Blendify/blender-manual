@@ -41,6 +41,10 @@ Detail Type
 Detail Size :kbd:`Shift-D`
    Each Detail Type's detail is set here. Depending on the Detail Type being used
    this property will rather show as a pixel count (px), or percentage.
+
+   Sample Detail Size (pipette icon)
+      With Constant Detail Size it is possible to sample the detail value of a certain mesh area
+      by clicking the eyedropper icon next to the detail setting and then clicking on the area.
 Detail Refine Method
    When using Dynamic Topology, a certain method will be used to tell how topology
    is handled. Setting the option will determine which of the methods will be used when
