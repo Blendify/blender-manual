@@ -402,6 +402,26 @@ Options
    :doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for options details and explanations.
 
 
+Limit Total
+===========
+
+Reduce the number of weight groups per vertex to the specified Limit.
+The tool removes lowest weights first until the limit is reached.
+
+.. hint::
+
+   The tool can only work reasonably when more than one weight group is selected.
+
+
+Options
+-------
+
+Subset
+   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
+Limit
+   Maximum number of weights allowed on each vertex.
+
+
 Weight Gradient
 ===============
 
