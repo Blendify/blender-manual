@@ -52,7 +52,7 @@ which keep their weight values untouched.
 Options
 -------
 
-.. figure:: /images/modeling-meshes-wp-tools-normalize-all.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_normalize-all.jpg
 
    Normalize All Options.
 
@@ -67,7 +67,7 @@ Lock Active
 Normalize
 =========
 
-.. figure:: /images/modeling-meshes-wp-tools-normalize.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_normalize.jpg
 
    Normalize All Options.
 
@@ -79,7 +79,7 @@ but the entire set of weights is scaled up such that the highest weight value is
 Mirror
 ======
 
-.. figure:: /images/modeling-meshes-wp-tools-mirror.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_mirror.jpg
 
    Normalize All Options.
 
@@ -93,7 +93,7 @@ The mirror only takes place within the selected Vertex Group.
 Options
 -------
 
-.. figure:: /images/modeling-meshes-wp-tools-mirror-options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_mirror_options.jpg
 
    Mirror Options.
 
@@ -122,7 +122,7 @@ Topology Mirror
 Invert
 ======
 
-.. figure:: /images/modeling-meshes-wp-tools-invert.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_invert.jpg
 
    Invert.
 
@@ -141,7 +141,7 @@ Options
 
 .. _fig-paint-weight-tools-mirror:
 
-.. figure:: /images/modeling-meshes-wp-tools-invert-operator.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_invert_options.jpg
 
    Invert Options.
 
@@ -161,7 +161,7 @@ Remove Weights
 Clean
 =====
 
-.. figure:: /images/modeling-meshes-wp-tools-clean.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_clean.jpg
 
    Invert.
 
@@ -179,7 +179,7 @@ Weights are shown in Black.
 Options
 -------
 
-.. figure:: /images/modeling-meshes-wp-tools-clean-operator.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_clean_options.jpg
 
    Clean Options.
 
@@ -195,10 +195,19 @@ Keep Single
    so each vertex will keep at least one weight, even if it is below the limit value!
 
 
+Quantize
+========
+
+Clamps each weight to a number of steps between (0 - 1).
+
+Steps
+   ToDo.
+
+
 Levels
 ======
 
-.. figure:: /images/modeling-meshes-wp-tools-levels.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_levels.jpg
 
    Invert.
 
@@ -214,7 +223,7 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 Options
 -------
 
-.. figure:: /images/modeling-meshes-wp-tools-levels-operator.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_levels_options.jpg
 
    Levels Options.
 
@@ -232,15 +241,16 @@ Gain
    So you will never get negative weights or overheated areas (weight > 1.0) with this tool.
 
 
-Blend
-=====
+.. renamed from blend to smooth in v2.76 git c402057
+
+Smooth
+======
 
 Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
 
-.. figure:: /images/modeling-meshes-wp-tools-blend1.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_smooth_ex1.png
 
-   Blending.
 
 To understand what the tool really does, let us take a look at a simple example.
 The selected vertex is connected to four adjacent vertices
@@ -250,20 +260,18 @@ In the example this is:
 
 :math:`(1 + 0 + 0 + 0) / 4 = 0.25`
 
-This value is multiplied by the factor given in the Operator parameters (see below).
+This value is multiplied by the factor given in the Operator options (see below).
 
 - If the factor is 0.0 then actually nothing happens at all and the vertex just keeps its value.
 - If the factor is 1.0 then the calculated average weight is taken (0.25 here).
 - Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
-.. figure:: /images/modeling-meshes-wp-tools-blend2.png
-
-   Blending.
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_smooth_ex2.png
 
 
 Now let us see what happens when we select all but one of the neighbors of the selected vertex as
 well. Again all connected and unselected vertices are marked with a gray circle.
-When we call the Blend tool now and set the Factor to 1.0,
+When we call the Smooth tool now and set the Factor to 1.0,
 then we see different results for each of the selected vertices:
 
 - The topmost and bottommost selected vertices:
@@ -280,35 +288,45 @@ then we see different results for each of the selected vertices:
 
   is surrounded by three unselected vertices with average weight = :math:`(0 + 0 + 0) / 3 = 0.0`
   So the average weight is 0, thus the selected vertex color has not changed at all
-  (it was already blue before blend was applied).
+  (it was already blue before Smooth was applied).
 
-.. figure:: /images/modeling-meshes-wp-tools-blend3.png
-
-   Blending.
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_smooth_ex3.png
 
 
-Finally let us look at a practical example (and explain why this tool is named Blend).
-In this example, the middle edge loop has been selected
+Finally let us look at a practical example.
+The middle edge loop has been selected
 and it will be used for blending the left side to the right side of the area.
 
 - All selected vertices have two unselected adjacent vertices.
 - The average weight of the unselected vertices is :math:`(1 + 0) / 2 = 0.5`
-- Thus when the Blend Factor is set to 1.0 then the edge loop turns to
+- Thus when the *Factor* is set to 1.0 then the edge loop turns to
   green and finally does blend the cold side (right) to the hot side (left).
 
 
 Options
 -------
 
-.. figure:: /images/modeling-meshes-wp-tools-blend-operator.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_wtools_smooth_options.png
 
-   Blend Options.
+   Smooth Options.
 
 Factor
    The effective amount of blending.
    When Factor is set to 0.0 then the Blend tool does not do anything.
    For Factor > 0 the weights of the affected vertices gradually shift from their original value
    towards the average weight of all connected **and** unselected vertices (see examples above).
+Iterations
+   ToDo.
+Expand/Contract
+   ToDo.
+Source
+   ToDo.
+
+
+Fix Deforms
+===========
+
+ToDo.
 
 
 Transfer Weights
@@ -324,11 +342,11 @@ Prepare the Copy
 
 .. list-table::
 
-   * - .. figure:: /images/modeling-meshes-wp-tools-transfer-wrong.jpg
+   * - .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_transfer-wrong.jpg
 
           Blending.
 
-     - .. figure:: /images/modeling-meshes-wp-tools-transfer-ok.jpg
+     - .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_transfer-ok.jpg
 
           Blending.
 
@@ -382,26 +400,6 @@ Options
 
    This tool now uses the generic 'data transfer' one. Please refer to the
    :doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for options details and explanations.
-
-
-Limit Total
-===========
-
-Reduce the number of weight groups per vertex to the specified Limit.
-The tool removes lowest weights first until the limit is reached.
-
-.. hint::
-
-   The tool can only work reasonably when more than one weight group is selected.
-
-
-Options
--------
-
-Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
-Limit
-   Maximum number of weights allowed on each vertex.
 
 
 Weight Gradient
