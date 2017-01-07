@@ -31,6 +31,9 @@ Fill
 
 It can be used to fill the image with the brush color.
 
+Fill Threshold
+   ToDo. (2D only)
+
 .. note:: Overrides
 
    For projective texturing it will bypass some options for projective painting to paint the model.
@@ -85,6 +88,8 @@ Clone
 ^^^^^
 
 Copies the colors from the image specified to the active image.
+The clone cursor can be set with :kbd:`Ctrl-LMB`.
+In 2D painting the clone can be moved dragging it with :kbd:`RMB`.
 
 Clone from paint slot
    The background image is shown when this brush is selected;

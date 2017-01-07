@@ -51,17 +51,8 @@ You can also set Blender to use the current brush for *Vertex Paint Mode*,
 Keyboard Shortcuts
 ==================
 
-.. list-table:: Brush Option Shortcuts.
-
-   * - Smooth stroke toggle
-     - :kbd:`Shift`
-   * - Invert stroke toggle
-     - :kbd:`Ctrl`
-   * - Translate/scale/rotate stencil texture
-     - :kbd:`RMB`, :kbd:`Shift-RMB`, :kbd:`Ctrl-RMB`
-   * - Translate/scale/rotate stencil mask
-     - :kbd:`Alt-RMB`, :kbd:`Alt-Shift-RMB`, :kbd:`Alt-Ctrl-RMB`
-
+- Smooth stroke toggle :kbd:`Shift`
+- Invert stroke toggle :kbd:`Ctrl`
 
 Cancel Stroke in Progress :kbd:`Esc`
    By pressing :kbd:`Esc` while in the middle of a sculpt stroke,
