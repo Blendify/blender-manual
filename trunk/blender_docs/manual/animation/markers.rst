@@ -177,6 +177,19 @@ the new ones are automatically placed in grab mode, so you can move them to the 
    (no ``.001`` numeric counter append).
 
 
+Duplicate Marker
+----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`Marker --> Duplicate Marker to Scene...`
+
+
+ToDo.
+
+
 Deleting Markers
 ----------------
 

@@ -53,7 +53,7 @@ Brush Mapping
       Stencil mapping works by projecting the paint from the camera space on the mesh or canvas.
       Painting is applied only inside the boundaries of the stencil.
       The stencil is displayed as an screen space overlay on the viewport.
-      To the transform the stencil texture and stencil mask with additional :kbd:`Alt` pressed:
+      To the transform the stencil texture and the stencil mask with additional :kbd:`Alt` pressed:
 
       - Translate :kbd:`RMB`, :kbd:`Alt-RMB`
       - Scale :kbd:`Shift-RMB`, :kbd:`Alt-Shift-RMB`

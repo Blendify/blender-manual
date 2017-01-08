@@ -92,6 +92,10 @@ Eye Dropper
 Remove ``X``
    Click  the ``X`` button on the right to remove the reference.
 
+
+Sub IDs
+-------
+
 .. figure:: /images/interface_controls_templates_data_subids.png
 
 Vertex Group
