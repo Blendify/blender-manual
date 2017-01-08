@@ -45,7 +45,6 @@ or pressing :kbd:`Minus` and :kbd:`Plus` on the numpad.
 Time Cursor
 -----------
 
-
 The *Time Cursor* is the green line, it is used to set and display the current time frame.
 
 .. figure:: /images/timeline_cursor.png
@@ -108,14 +107,14 @@ View Menu
 
 The *View Menu* controls what you see, and what it looks like.
 
-Toggle Full Screen
-   Maximize or minimize the *Timeline* editor. :kbd:`Ctrl-Up` or :kbd:`Ctrl-Down`
-Duplicate Area into New Window
-   This creates a new window, and sets it to the *Timeline* editor.
-Bind Camera to Markers
-   This is used switch cameras during animation.
-   It binds the active camera to the selected markers.
-   First select a camera. Then select the marker(s). Then use the function. :kbd:`Ctrl-B`
+Show Seconds :kbd:`Ctrl-T`
+   Show time in seconds for the *Timeline* and the *Time Cursor* based on the FPS.
+Lock Time to Other Windows
+   ToDo.
+Show Frame Number Indicator
+   This will draw the current frame or seconds on the *Time Cursor*.
+Only Selected Channels
+   For *Armatures*, this will draw the object keyframes, and the keyframes for the active and selected pose bones.
 Cache
    Show Cache
       Show all enabled types.
@@ -126,14 +125,14 @@ Cache
 
       Timeline Cache.
 
-Only Selected Channels
-   For *Armatures*, this will draw the object keyframes, and the keyframes for the active and selected pose bones.
-Show Frame Number Indicator
-   This will draw the current frame or seconds on the *Time Cursor*.
-View All
-   Maximize the *Timeline* area based on the Animation Range. :kbd:`Home`
-Show Seconds
-   Show time in seconds for the *Timeline* and the *Time Cursor* based on the FPS. :kbd:`Ctrl-T`
+View All :kbd:`Home`
+   Maximize the Timeline area based on the Animation Range.
+View Frame :kbd:`Numpad0`
+   Centers the Timeline to the Time cursor.
+Bind Camera to Markers :kbd:`Ctrl-B`
+   This is used switch cameras during animation.
+   It binds the active camera to the selected markers.
+   First select a camera. Then select the marker(s). Then use the function.
 
 
 Marker Menu

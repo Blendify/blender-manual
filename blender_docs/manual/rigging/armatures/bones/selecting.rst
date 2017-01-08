@@ -94,8 +94,13 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
 
           Its whole chain selected with :kbd:`L`.
 
+Mirror :kbd:`Shift-Ctrl-M`
+   Flip the selection from one side to another.
+Pick Shortest Path :kbd:`Ctrl-RMB`
+   Selects the path from the active bone to the bone under the mouse.
 
-Deselecting connected bones
+
+Deselecting connected Bones
 ---------------------------
 
 There is a subtlety regarding connected bones.

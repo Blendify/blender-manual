@@ -356,6 +356,19 @@ its copy will be parented, but **not** connected to the unselected bone
           Similarly, Bone.007 is parented but not connected to Bone.003.
 
 
+Split
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Armature --> Split`
+   | Hotkey:   :kbd:`Y`
+
+Disconnects the selection and clears the parent at the start and end. ToDo.
+
+
 Deleting Bones
 ==============
 

@@ -18,7 +18,7 @@ Click on the *Add Modifier* button and select a modifier.
 To add spin to an object or group, select the object/group and add a keyframe to
 the axis of rotation (X, Y, or Z)
 
-To add a modifier, go to :menuselection:`Properties --> Add Modifier`.
+To add a modifier, go to :menuselection:`Properties region --> Modifiers --> Add Modifier`.
 
 
 Types of Modifiers
@@ -33,7 +33,7 @@ and other more complex curves, depending on the values used.
 
 Additive
    This option causes the modifier to be added to the curve, instead of replacing it by default.
-Poly Order
+Polynomial Order
    Specify the order of the polynomial, or the highest power of ``X`` for this polynomial.
    (number of coefficients: 1).
 
@@ -82,12 +82,14 @@ Max
 
 Add Point
    Add a set of control points. They will be created at the current frame.
-Fra
-   Set the frame number for the control point.
-Min
-   Specifies the lower control point's position.
-Max
-   specifies the upper control point's position.
+
+Point
+   Frame
+      Set the frame number for the control point.
+   Min
+      Specifies the lower control point's position.
+   Max
+      Specifies the upper control point's position.
 
 
 Cycles
@@ -104,7 +106,7 @@ Cycle Mode
    Repeat Mirrored
       Each cycle the curve data is flipped across the X-axis.
 
-Before/After Cycles
+Before, After Cycles
    Set the number of times to cycle the data. A value of 0 cycles the data infinitely.
 
 
@@ -129,6 +131,8 @@ Scale
    Adjust the overall size of the noise. Values further from 0 give less frequent noise.
 Strength
    Adjusts the Y scaling of the noise function.
+Offset
+   Offsets the noise in time.
 Phase
    Adjusts the random seed of the noise.
 Depth
@@ -140,9 +144,9 @@ Limits
 
 Limit curve values to specified X and Y ranges.
 
-Minimum/Maximum X
+Minimum, Maximum X
    Cuts a curve off at these frames ranges, and sets their minimum value at those points.
-Minimum/Maximum Y
+Minimum, Maximum Y
    Truncates the curve values to a range.
 
 
