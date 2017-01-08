@@ -27,19 +27,7 @@ Options
 
 
 Target
-   This constraint uses one target, and is not functional (red state) when it has none.
-
-   Bone
-      If *Target* is an *Armature*,
-      a new field is displayed offering the optional choice to set an individual bone as *Target*.
-
-      Head/Tail
-         If a *Bone* is set as *Target*,
-         a new field is displayed offering the optional choice of where along this bone the target point lies.
-   Vertex Group
-      If *Target* is a *Mesh*,
-      a new field is displayed offering the optional choice to set a *Vertex Group* as target.
-
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Distance
    This number button sets the limit distance, i.e. the radius of the constraining sphere.
 Reset Distance

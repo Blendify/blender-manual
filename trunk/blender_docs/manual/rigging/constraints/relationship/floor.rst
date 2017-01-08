@@ -23,22 +23,15 @@ Options
 
 
 Targets
-   This constraint uses one target, and is not functional (red state) when it has none.
-
-   Bone
-      When *Target* is an armature, a new field for a bone is displayed.
-   Vertex Group
-      When *Target* is a mesh, a new field is display where a vertex group can be selected.
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 
 Sticky
    This button makes the owner immovable when touching the "floor" plane
    (it cannot slide around on the surface of the plane any more).
    This is fantastic for making walk and run animations!
-
 Use Rotation
    This button forces the constraint to take the target's rotation into account.
    This allows you to have a "floor" plane of any orientation you like, not just the global XY, XZ and YZ ones...
-
 Offset
    This number button allows you to offset the "floor" plane from the target's center,
    by the given number of Blender Units. Use it e.g.
@@ -55,6 +48,6 @@ Max/Min
    e.g. by default Z, the owner is stuck in the positive Z coordinates.
 
 Space
-   This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
+   Standard conversion between spaces.
 
 .. vimeo:: 171554207

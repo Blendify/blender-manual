@@ -28,5 +28,3 @@ Active Clip
    If unchecked, an option appears to choose from the other clips.
 Constraint to F-Curve
    Applies the constraint, creating Keyframes for the transforms.
-Influence
-   Control how much this constraint effects the owner.

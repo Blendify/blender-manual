@@ -52,9 +52,9 @@ Options
 
 Target
    The Target: field indicates which curve object the Clamp To constraint will track along.
-   The Target: field must be a curve object type. If this field is not filled in then it will be highlighted in red
-   indicating that this constraint does not have all the information it needs to carry out its task and will
-   therefore be ignored on the constraint stack.
+   The Target: field must be a curve object type. If this :ref:`ui-data-id` field is not filled in
+   then it will be highlighted in red indicating that this constraint does not have all the information
+   it needs to carry out its task and will therefore be ignored on the constraint stack.
 
 Main Axis
    This button group controls which global axis (X, Y or Z) is the main direction of the path.

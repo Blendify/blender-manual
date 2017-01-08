@@ -31,20 +31,9 @@ Options
 
 
 Target (Mesh Object Type)
-   This constraint uses one target, and is not functional (red state) when it has none.
-
-   Vertex Group
-      When *Target* is a mesh, a new field is display where a vertex group can be selected.
-
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Target (Armature Object Type)
-   This constraint uses one target, and is not functional (red state) when it has none.
-
-   Bone
-      When *Target* is an armature, a new field for a bone is displayed.
-
-   Head/Tail
-      When using a Bone *Target*, you can choose where along this bone the target point lies.
-
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Rest Length
    This number button sets the rest distance between the owner and its target, i.e.
    the distance at which there is no deformation (stretching) of the owner.

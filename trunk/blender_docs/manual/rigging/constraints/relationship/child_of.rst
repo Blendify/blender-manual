@@ -36,10 +36,7 @@ Options
 
 Target
    The target object that this object will act as a child of.
-   This constraint uses one target, and is not functional (red state) when it has none.
-   If *Target* is an armature or a mesh,
-   a new name field appears where a name of a *Bone* or a *Vertex Group* can be selected.
-
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Location X, Y, Z
    Each of these buttons will make the parent affect or not affect the location along the corresponding axis.
 Rotation X, Y, Z

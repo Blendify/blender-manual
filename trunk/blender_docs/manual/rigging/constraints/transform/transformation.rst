@@ -26,18 +26,7 @@ Options
    Transformation panel.
 
 Target
-   This constraint uses one target, and is not functional (red state) when it has none.
-
-   Bone
-      If *Target* is an *Armature*,
-      a new field is displayed offering the optional choice to set an individual bone as *Target*.
-
-      Head/Tail
-         If a *Bone* is set as *Target*,
-         a new field is displayed offering the optional choice of where along this bone the target point lies.
-   Vertex Group
-      If *Target* is a *Mesh*,
-      a new field is displayed offering the optional choice to set a *Vertex Group* as target.
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Extrapolate
    By default, the *min* and *max* values bound the input and output values;
    all values outside these ranges are clipped to them.
@@ -98,7 +87,7 @@ To
    the constraint behaves as if it had the same value as the max one.
 
 Space
-   This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
+   Standard conversion between spaces.
 
 .. note::
 

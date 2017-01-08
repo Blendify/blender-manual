@@ -1,7 +1,39 @@
+.. (todo) target: move to ui data id if prof 
 
-*****
+******
+Common
+******
+
+Target
+======
+
+The Target field lets you link the constraint to a Target object of your choosing.
+This link provides data to the constraint so that it can begin to function.
+For example, the Copy Location Constraint needs location data to function.
+Fill in the Target field, and the Copy Location constraint will begin to use location data from the Target object.
+
+.. figure:: /images/rigging_constraints_interface_target.png
+
+   The Target field must be filled in for the constraint to function.
+
+By default, the Target will use the :term:`Object Origin` as the target point.
+
+If the Target field links to a :term:`Mesh` or :term:`Lattice` object, a :term:`Vertex Group` field will appear.
+Enter the name of a vertex group and the constraint will target the median point
+of this vertex group instead of the object center.
+
+.. figure:: /images/rigging_constraints_interface_target-vertex-group.png
+
+If the Target field links to an :term:`Armature`, a :term:`Bone` field will appear
+along with a :term:`Head` or :term:`Tail` slider.
+Enter the name of a bone and the constraint will target the bone instead of the entire armature object center.
+Slide the slider and the constraint will target the head, the tail or somewhere inbetween.
+
+.. figure:: /images/rigging_constraints_interface_target-bone.png
+
+
 Space
-*****
+=====
 
 Constraints need a frame of reference in order to function.
 This frame of reference is called the "space" of the constraint.
@@ -23,7 +55,7 @@ moving, rotating and scaling the target in many different ways.
 
 
 Target Space & Owner Space
-==========================
+--------------------------
 
 The space used to evaluate the target of the constraint is called the Target Space.
 The space used to evaluate the constrained object (the object that owns the constraint) is called the owner space.
@@ -38,7 +70,7 @@ the Target and Owner can be any combination of space types.
 
 
 Space Types
-===========
+-----------
 
 World Space
    In this space type the world is the frame of reference for the object (or bone).
@@ -64,3 +96,21 @@ Pose Space (bones only)
    (i.e. independently from the armature transformations in *Object Mode*).
    Hence, if the armature object has null transformations,
    *Pose Space* will have the same effect as *World Space*.
+
+
+Influence
+=========
+
+The influence slider determines how much the constraint will affect the constrained object (target).
+
+.. figure:: /images/rigging_constraints_interface_influence.png
+
+An influence of 0.0 will have no effect.
+An influence of 1.0 will have the full effect.
+
+Values between (0.0 and 1.0), will have a partial effect, but be careful. These partial effects can
+be difficult to control,
+especially as the :doc:`constraint stack </rigging/constraints/interface/the_stack>` grows in complexity.
+
+The influence value is animatable, allowing constraints to be turned off, or partially on as needed.
+(see :doc:`Using Constraints in Animation </animation/techniques/constraints>`)

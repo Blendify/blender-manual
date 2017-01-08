@@ -33,17 +33,7 @@ Options
 
 
 Targets
-   This constraint uses one target, and is not functional (red state) when it has none.
-
-   Bone
-      When *Target* is an armature, a new field for a bone is displayed.
-   Head/Tail
-      When using a bone target, you can choose where along this bone the target point lies.
-   Follow Bendy Bones
-      When using a b-bone as a target, click on this button to make the target point between head and tail follow the
-      length of the B-Spline curve instead of the absolute distance of the head and tail of the original b-bone.
-   Vertex Group
-      When *Target* is a mesh, a new field is display where a vertex group can be selected.
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 To
    The tracking local axis, i.e. the owner's axis to point at the target.
    The negative options force the relevant axis to point away from the target.
@@ -54,9 +44,8 @@ Target Z
    By default, the owner's *Up* axis is (as much as possible) aligned with the global Z axis,
    during the tracking rotations. When this button is enabled, the *Up* axis will be (as much as possible)
    aligned with the target's local Z axis?
-
 Space
-   This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
+   Standard conversion between spaces.
 
 .. warning::
 
