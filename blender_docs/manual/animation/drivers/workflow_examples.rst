@@ -3,51 +3,11 @@
 Workflow & Examples
 *******************
 
+These are some driver examples and workflow.
+
+
 Workflow
 ========
-
-There are some different ways to add drivers in Blender. These are some driver examples and workflow.
-After adding drivers they are usually modified in the *Graph Editor* with the mode set the *Drivers*.
-
-
-UI
---
-
-The common way to add a driver to a property is to right click a property,
-then add a driver via the context menu.
-
-Add Drivers
-    This will add drivers to the set of properties related to the selected one.
-    For example, it will add drivers to X, Y, and Z for Rotation.
-
-Add Single Driver
-    This will add a single driver to the selected property.
-
-.. figure:: /images/animation_drivers_add_driver2.png
-
-Drivers can also be added by pressing :kbd:`CTRL-D` with the mouse over the property set.
-
-
-Expression
-----------
-
-This is a quick way to add drivers with a scripted expression.
-First click the property you want to add a driver to, then add a hash ``#`` and a scripted expression.
-
-Some examples:
-
-- ``#frame``
-- ``#frame / 20.0``
-- ``#sin(frame)``
-- ``#cos(frame)``
-
-
-Copy Paste
-----------
-
-Drivers can be copied and pasted in the UI, via the context menu.
-When adding drivers with the same settings, this can save time modifying settings.
-
 
 Transform Driver
 ----------------

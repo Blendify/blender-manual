@@ -30,9 +30,7 @@ Options
    Stretch To panel.
 
 
-Target (Mesh Object Type)
-   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
-Target (Armature Object Type)
+Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Rest Length
    This number button sets the rest distance between the owner and its target, i.e.

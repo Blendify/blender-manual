@@ -133,7 +133,8 @@ View controls
    Show Hidden
       Include curves from objects/bones that are not visible.
    Show Only Errors
-      Only include curves that are disabled or have errors.
+      Only include curves and drivers that are disabled or have errors.
+      Useful for debugging.
    Search Filter
       Only include curves with keywords contained in the search field.
    Type Filter

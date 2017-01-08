@@ -8,7 +8,7 @@ Brushes
    They are a combination of a 'tool',
    along with stroke, texture, and options.
 
-   The brush cab be selected by number:
+   The brush can be selected by numbers:
    :kbd:`0` to :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`.
 
     Add ``+``
