@@ -177,8 +177,8 @@ the new ones are automatically placed in grab mode, so you can move them to the 
    (no ``.001`` numeric counter append).
 
 
-Duplicate Marker
-----------------
+Duplicate Marker to Scene
+-------------------------
 
 .. admonition:: Reference
    :class: refbox

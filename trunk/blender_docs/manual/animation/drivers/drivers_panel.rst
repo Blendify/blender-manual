@@ -21,7 +21,7 @@ Settings
 Update Dependencies
    This will force an update for the Driver Value dependencies.
 Remove Driver
-   Removes the driver from the object.
+   Removes the driver from the property.
 
 Type
    The type of calculation to use on the set of Driver Variables.

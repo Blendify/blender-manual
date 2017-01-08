@@ -37,20 +37,21 @@ Add Driver
    :class: refbox
 
    | Menu:     :menuselection:`Context menu --> Add Driver`
-   | Hotkey:   :kbd:`CTRL-D`
+   | Hotkey:   :kbd:`Ctrl-D`
 
 The common way to add a driver to a property is to :kbd:`RMB` click a property,
 then add a driver via the context menu.
-Drivers can also be added by pressing :kbd:`CTRL-D` with the mouse over the property set.
+Drivers can also be added by pressing :kbd:`Ctrl-D` with the mouse over the property set.
 
 All from Target (properties icon)
    This will add drivers to the set of properties related to the selected one.
+   It creates a default curve with keyframes at (0, 0) and (1, 1),
    For example, it will add drivers to X, Y, and Z for Rotation.
 Single from Target
    This will add a single driver to the selected property.
 Match Indices (palette icon)
    ToDo.
-Manually Create Later/(Single)
+Manually Create Later/(Single) (hand icon)
    ToDo.
 
 
