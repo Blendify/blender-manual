@@ -73,9 +73,10 @@ Options
 
 
 Target
-   This constraint uses one target, which *must* be a curve object,
+   :ref:`ui-data-id` used to select the constraints target, which *must* be a curve object,
    and is not functional (red state) when it has none.
-
+Animate Path
+   Adds a F-Curve with options for the start and end frame. ToDo: from above.
 Curve Radius
    Objects scale by the curve radius. See :doc:`Curve Editing </modeling/curves/properties/geometry>`
 Fixed Position

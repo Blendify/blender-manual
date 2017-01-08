@@ -19,15 +19,7 @@ Options
 
 
 Target
-   The object to be used as a pivot point.
-
-   Bone
-      When *Target* is an armature, a new field for a bone is displayed.
-   Head/Tail
-      When using a bone target, you can choose where along this bone the target point lies.
-   Vertex Group
-      When *Target* is a mesh, a new field is displayed where a vertex group can be selected.
-
+   :ref:`ui-data-id` for the selection of the object to be used as a pivot point.
 Pivot Offset
    Offset of pivot from target.
 Pivot When

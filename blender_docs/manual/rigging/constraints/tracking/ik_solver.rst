@@ -23,9 +23,7 @@ Options
 
 
 Target
-   Must be an armature.
-Bone
-   A bone in the armature.
+   :ref:`ui-data-id` used to select the an armature.
 Pole Target
    Object for pole rotation.
 Iterations

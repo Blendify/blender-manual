@@ -41,7 +41,7 @@ Options
 
 
 Target
-   This constraint uses one target, and is not functional (red state) when it has none.
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Bone
    When target is an armature object, use this field to select the target bone.
 Transform Channel

@@ -51,12 +51,10 @@ Options
 
 
 Target
-   This constraint uses one target, and is not functional (red state) when it has none.
-
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 To
    The tracking local axis, i.e. the owner's axis to point at the target.
    The negative options force the relevant axis to point away from the target.
-
 Lock
    The locked local axis, i.e. the owner's axis which cannot be re-oriented to track the target.
 

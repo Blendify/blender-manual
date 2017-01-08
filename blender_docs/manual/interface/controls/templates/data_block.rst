@@ -85,11 +85,31 @@ Name
    Press of :kbd:`Tab` for auto-complete names to the level a match is found.
    If more than match exists you have to continue typing.
    If you type an invalid name, the value will remain unchanged.
-   If the selected object is an armature,
-   you can further specify one of its bones by entering its name in the *Bone* data ID.
 List
    Lets you select the data-block directly.
 Eye Dropper
    In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper` available through the pipette icon on the right side.
 Remove ``X``
    Click  the ``X`` button on the right to remove the reference.
+
+.. figure:: /images/interface_controls_templates_data_subids.png
+
+Vertex Group
+   If selected object in the *Name* field is a a mesh or lattice,
+   a additional field is display where a vertex group can be selected.
+Bone
+   If selected object in the *Name* field is an armature,
+   a new field is displayed offering the choice to specify
+   an individual bones by entering its name in the *Bone* data ID.
+
+   Head/Tail
+      If a Bone is set, a new field is displayed offering
+      the choice of whether the head or tail of a Bone will be pointed at. 
+      The slider defines where along this bone the point lies.
+      A value of zero will point the at the Head/Root of a Bone,
+      while a value of one will point at the Tail/Tip of a Bone.
+
+      Use B-Bone Shape
+         When the bone is a Bendy Bone, click on this button to make point between head and tail
+         follow the length of the B-Spline curve instead of the absolute distance
+         of the head and tail of the original b-bone.

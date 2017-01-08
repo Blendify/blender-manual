@@ -19,7 +19,7 @@ Cache File
 Is Sequence
    Whether or not the cache is separated in a series of files.
 Override Frame
-   Whether to use a cuctom frame for looking up data in the cache file,
+   Whether to use a custom frame for looking up data in the cache file,
    instead of using the current scene frame.
 
    Frame

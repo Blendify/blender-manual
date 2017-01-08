@@ -44,5 +44,3 @@ Clear Inverse
    Movie Clip Editor :menuselection:`Tool Shelf --> Solve --> Orientation --> Set Origin`.
 Constraint to F-Curve
    Applies the constraint, creating keyframes for the transforms.
-Influence
-   Control how much this constraint effects the owner.

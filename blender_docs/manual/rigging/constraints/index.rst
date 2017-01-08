@@ -18,9 +18,7 @@ Interface
 
    interface/adding_removing.rst
    interface/header.rst
-   interface/target.rst
-   interface/space.rst
-   interface/influence.rst
+   interface/common.rst
    interface/the_stack.rst
 
 

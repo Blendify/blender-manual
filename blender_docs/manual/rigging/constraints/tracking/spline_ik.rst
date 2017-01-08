@@ -31,7 +31,7 @@ Options
 
 
 Target
-   The target curve.
+   :ref:`ui-data-id` used to select the target curve.
 Spline Fitting
    Chain Length
       How many bones are included in the chain.

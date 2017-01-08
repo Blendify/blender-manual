@@ -40,7 +40,7 @@ Options
 
 
 Target
-   This constraint uses one target, and is not functional (red state) when it has none.
+   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 
 Joint Type
    Ball
@@ -83,6 +83,5 @@ Display Pivot
 
 Pivot
    These three numeric fields allow you to relocate the pivot point, *in the owner's space*.
-
 Axis
    These three numeric fields allow you to rotate the pivot point, *in the owner's space*.
