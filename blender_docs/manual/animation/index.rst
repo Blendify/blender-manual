@@ -26,6 +26,5 @@ Animation Techniques
 .. toctree::
    :maxdepth: 1
 
-   techniques/camera.rst
    techniques/object_path.rst
    techniques/constraints.rst

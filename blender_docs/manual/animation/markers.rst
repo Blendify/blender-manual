@@ -267,3 +267,32 @@ Make Markers Local
 It is possible to convert standard markers into Pose markers with :menuselection:`Marker --> Make Markers Local`.
 Note that the original marker will be gone. If you want to keep it, make a duplicate before you convert.
 
+
+Bind Camera to Marker
+=====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Editor:   Info Editor
+   | Menu:     :menuselection:`View --> Bind Camera to Marker`
+   | Hotkey:   :kbd:`Ctrl-B`
+
+Switching cameras can be done with the *Timeline* operator *Bind Camera to Markers* by
+having both the camera and marker selected.
+
+The triangle above the camera will become shaded when active.
+
+
+Workflow
+--------
+
+.. figure:: /images/animation_camera_switch.png
+
+First in the Timeline, add a set of markers used to switch cameras.
+Press :kbd:`M` to add marker, then :kbd:`Ctrl-M` to rename,
+duplicated markers should retain the same name.
+
+#. In the 3D View, select the Camera the Markers will switch to.
+#. In the Timeline, select the Marker(s) to switch to the Camera.
+#. In the Timeline, press :kbd:`Ctrl-B` to Bind Cameras to Markers.
