@@ -14,16 +14,3 @@
    markers.rst
    shape_keys/index.rst
    motion_paths.rst
-
-
-Animation Techniques
-====================
-
-.. EDITORS NOTE:
-   These could be re-worked, or moved into more general
-   docs which cover features of the object/armature panel?
-
-.. toctree::
-   :maxdepth: 1
-
-   techniques/constraints.rst

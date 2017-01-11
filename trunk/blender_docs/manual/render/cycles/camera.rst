@@ -164,4 +164,4 @@ Ratio
 
 .. seealso:: Switching between Cameras
 
-   By :ref:`Binding the camera to markers <marker-bind-camera>`.
+   By :ref:`binding the camera to markers <marker-bind-camera>`.

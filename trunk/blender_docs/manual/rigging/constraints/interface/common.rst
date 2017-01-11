@@ -1,4 +1,4 @@
-.. (todo) target: move to ui data id if prof 
+.. (todo) target: move to ui data id if proof 
 
 ******
 Common
@@ -113,4 +113,3 @@ be difficult to control,
 especially as the :doc:`constraint stack </rigging/constraints/interface/the_stack>` grows in complexity.
 
 The influence value is animatable, allowing constraints to be turned off, or partially on as needed.
-(see :doc:`Using Constraints in Animation </animation/techniques/constraints>`)

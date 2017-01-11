@@ -3,21 +3,40 @@
 Introduction
 ************
 
-Constraints control the behavior of one object with data from another.
-Constraints can make the eyes of a tennis player track a tennis ball bouncing across the court.
-Constraints allow the wheels on a bus to all rotate together.
-Constraints help a dinosaur's legs bend at the knee automatically.
-Constraints make it easy for a hand to grip the hilt of a sword and the sword to swing with the hand.
+Constraints are a way to control an object's properties
+(e.g. its location, rotation, scale), using either plain static values
+(like the :doc:`"limit" ones </rigging/constraints/transform/limit_location>`),
+or (an)other object, called "target"
+(like e.g. the :doc:`"copy" ones </rigging/constraints/transform/copy_location>`).
+
+Even though constraints are useful in static projects,
+their main usage is obviously in animation.
+
+- You can control an object's animation through the targets used by its constraints
+  (this is a form of indirect animation). Indeed,
+  these targets can then control the constraint's owner's properties, and hence,
+  animating the targets will indirectly animate the owner.
+- You can animate constraints' settings. e.g. the *Influence* or 
+  when using an armature's bone as target,
+  animate where along this bone (between root and tip) lays the real target point.
+
+
+They can make the eyes of a tennis player track a tennis ball bouncing across the court,
+allow the wheels on a bus to all rotate together,
+help a dinosaur's legs bend at the knee automatically, and
+make it easy for a hand to grip the hilt of a sword and the sword to swing with the hand.
 
 Constraints, in Blender, work with :term:`Objects <Object>` and :term:`Bones <Bone>`.
+Read about using constraints in rigging in the :doc:`Armatures </rigging/armatures/posing/bone_constraints/index>`
 
 .. figure:: /images/rigging_constraints_introduction_tab-object.png
 
-   :term:`Object` Constraints.
+   Object Constraints.
 
 .. figure:: /images/rigging_constraints_introduction_tab-bone.png
 
-   :term:`Bone` Constraints.
+   Bone Constraints.
+
 
 Constraints work in combination with each other to form a Constraint Stack.
 
@@ -26,13 +45,15 @@ Constraints work in combination with each other to form a Constraint Stack.
    The Constraint Stack is evaluated from top to bottom.
 
 Constraints are a fantastic way to add sophistication and complexity to a rig.
+
+
 But be careful not to rush in too quickly, piling up constraint upon constraint
 until you lose all sense of how they interact with each other.
 
-Start simply. Get to know a single constraint inside and out. Copy Location is a good first constraint to explore.
-Take the time to understand every fundamental concept behind it, and the other constraints will make far more sense.
-
-.. figure:: /images/rigging_constraints_introduction_add-menu.png
+Start simply. Get to know a single constraint inside and out.
+:doc:`/rigging/constraints/transform/copy_location` is a good first constraint to explore it
+also has an animation example. Take the time to understand every fundamental concept behind it,
+and the other constraints will make far more sense.
 
 
 .. TODO, the 4x4 transform matrix vs. the transform panel
@@ -42,10 +63,5 @@ Take the time to understand every fundamental concept behind it, and the other c
    this information is being derived from the matrix only,
    not from settings in a *Bone* or *Object*. Especially for combining
    rotations with non-uniform or negative scaling this can lead to unpredictable behavior.
-
-.. TODO, To learn more:
-
-   - Read about using constraints in object animation in the :doc:`Animation chapter </animation/index>`
-   - Read about using constraints in rigging in the :doc:`Armatures </rigging/armatures/posing/index>`
 
 .. TODO, the blue dashed line
