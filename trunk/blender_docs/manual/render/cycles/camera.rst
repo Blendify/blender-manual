@@ -13,7 +13,7 @@ Perspective
 ^^^^^^^^^^^
 
 Focal Length/Field of View
-   Control the field of view set by lens property or by angle as selected in the*Lens Unit* menu.
+   Control the field of view set by lens property or by angle as selected in the *Lens Unit* menu.
 
 .. figure:: /images/cycles_camera_persp.png
    :width: 300px
@@ -160,3 +160,8 @@ Ratio
   and a higher number will cause a vertical distortion.
 
 .. figure:: /images/cycles_camera_dof_bokeh.jpg
+
+
+.. seealso:: Switching between Cameras
+
+   By :ref:`Binding the camera to markers <marker-bind-camera>`.

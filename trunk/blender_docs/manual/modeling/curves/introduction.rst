@@ -32,6 +32,14 @@ vertex-level control is more difficult and if fine control is necessary,
 :doc:`mesh editing </modeling/meshes/editing/introduction>` may be a better modeling option.
 
 Bézier curves are the most commonly used curves for designing letters or logos.
-They are also widely used in animation, both as :doc:`paths </animation/techniques/object_path>`
-for objects to move along and as :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
+
+They are also widely used in animation, both as for objects to move along (see constraints below)
+and as :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
 to change the properties of objects as a function of time.
+
+
+.. seealso:: Modifiers & Constraints
+
+   - :doc:`Curve Modifier </modeling/modifiers/deform/curve>`
+   - :doc:`Follow Path Constraint </rigging/constraints/relationship/follow_path>`
+   - :doc:`Clamp To Constraint </rigging/constraints/tracking/clamp_to>`
