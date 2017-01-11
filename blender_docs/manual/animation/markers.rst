@@ -276,7 +276,7 @@ Bind Camera to Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Info Editor
+   | Editor:   Timeline Editor
    | Menu:     :menuselection:`View --> Bind Camera to Marker`
    | Hotkey:   :kbd:`Ctrl-B`
 
