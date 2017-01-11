@@ -132,11 +132,12 @@ This page lists definitions for terms used in Blender and this manual.
    Chroma
    Chrominance
       In general, a resulting image color decomposition, where its (*L* or *Y*) luminance channel is separated.
+      There are two different contexts whereas this term is used:
 
-      In the context of *Video systems*:
-         Refers to the general color decomposition resuling in *Y* (Luminance) and *C* (Chrominance), 
-         whereas the chrominance is represented by: U = ( Blue minus luminance ) and V = ( Red minus Luminance ).
-      In the context of *Matte compositing*:
+      Video systems:
+         Refers to the general color decomposition resulting in *Y* (Luminance) and *C* (Chrominance) channels, 
+         whereas the chrominance is represented by: U = ( Blue minus Luminance ) and V = ( Red minus Luminance ).
+      Matte compositing:
          Refers to a point in the color gamut surrounded by a mixture of a determined spectrum of its RGB neighboring colors.
          This point is called *Chroma key* and this key (a chosen color) is used to create an *Alpha Mask*.         
          The total ammount of gamut space for the chrominance is defined by users in a circular or square shaped format.  
