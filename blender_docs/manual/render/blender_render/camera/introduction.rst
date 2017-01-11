@@ -9,7 +9,7 @@ It defines which portion of a scene is visible in the rendered image.
 By default a scene contains one camera. However, a scene can contain more than one camera,
 but only one of them will be used at a time.
 So you will only need to add a new camera if you are making cuts between them.
-See :doc:`Animating Cameras </animation/techniques/camera>`.
+See :ref:`Animating Cameras <marker-bind-camera>`.
 
 
 Changing the Active Camera

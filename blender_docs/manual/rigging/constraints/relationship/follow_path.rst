@@ -10,6 +10,10 @@ and makes it move along this curve (or path).
 It can also affect its owner's rotation to follow the curve's bends,
 when the *Follow Curve* option is enabled.
 
+It could be used for complex camera traveling,
+a train on his rails and most other vehicles can also use "invisible" tracks,
+the links of a bicycle chain, etc.
+
 The owner is always evaluated in the global (world) space:
 
 - Its location (as shown in the *Transform* panel)
@@ -29,12 +33,13 @@ The owner is always evaluated in the global (world) space:
 The movement of the owner along the target curve/path may be controlled in two different ways:
 
 - The most simple is to define the number of frames of the movement,
-  in the Path Animation panel of the Object Data tab,
+  in the :ref:`Path Animation panel <curve-path-animation>` of the Curve tab,
   via the number button Frames, and its start frame via the constraint's Offset option
   (by default, start frame: 1 [= offset of 0)], duration: 100).
 - The second way, much more precise and powerful,
   is to define a *Evaluation Time* interpolation curve for the *Target* path
-  (in the *Graph Editor*. See the :doc:`animation chapter </animation/index>` to learn more about F-Curves.
+  (in the *Graph Editor*). See the :doc:`Graph Editor chapter </editors/graph_editor/fcurves/index>`
+  to learn more about F-Curves.
 - If you do not want your owner to move along the path, you can give to the target curve a flat *Speed* F-Curve
   (its value will control the position of the owner along the path).
 
@@ -53,7 +58,8 @@ you can use a *Locked Track* and a target object to specify the up direction, as
 
 .. note::
 
-   Note that you also need to keyframe Evaluation Time for the Path. Select the path, go to the path properties,
+   Note that you also need to keyframe Evaluation Time for the Path. Select the path,
+   go to the *Path Animation* panel in the curve properties,
    set the overall frame to the first frame of the path (e.g. frame 1),
    set the value of Evaluation time to the first frame of the path (e.g. 1), right click on Evaluation time,
    select create keyframe, set the overall frame to the last frame of the path (e.g. frame 100),
@@ -80,7 +86,7 @@ Animate Path
 Curve Radius
    Objects scale by the curve radius. See :doc:`Curve Editing </modeling/curves/properties/geometry>`
 Fixed Position
-   Object will stay locked to a single point somewhere along the length of the curve regardless of time
+   Object will stay locked to a single point somewhere along the length of the curve regardless of time.
 Offset
    The number of frames to offset from the "animation" defined by the path (by default, from frame 1).
 Follow Curve

@@ -73,7 +73,6 @@ Path/Curve-Deform
 
    - :doc:`/rigging/constraints/relationship/follow_path`
    - :doc:`/modeling/modifiers/deform/curve`
-   - :doc:`Animation Paths </animation/techniques/object_path>`
 
 
 .. _curve-path-animation:
@@ -98,8 +97,6 @@ Follow
 
    Deprecated, but still available use.
    A more future-proof method is the :doc:`/rigging/constraints/relationship/follow_path`.
-
-:doc:`Read more about utilizing Curves for paths during animation </animation/techniques/object_path>`
 
 
 Active Spline
