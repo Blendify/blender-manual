@@ -12,11 +12,18 @@ Type
 Perspective
 ^^^^^^^^^^^
 
-Lens Size and Angle
-   Control the field of view angle.
+Focal Length/Field of View
+   Control the field of view set by lens property or by angle as selected in the*Lens Unit* menu.
 
 .. figure:: /images/cycles_camera_persp.png
    :width: 300px
+
+.. hint:: Dolly Zoom
+
+   While the camera is moving towards an object the *Focal Length* property can be decreased
+   to produce a *Dolly Zoom* camera effect, or vice versa.
+
+   `This video <https://vimeo.com/15837189>`__ demos the *Dolly Zoom* camera effect.
 
 
 Orthographic
