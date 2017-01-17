@@ -138,7 +138,7 @@ Clip Alpha
    Clip alpha below this threshold in the 3D View.
    Note that the default is set to a low value to prevent issues on some GPU's.
 Mipmaps
-   Scale textures for 3D View using Mipmap filtering. This increases display quality, but uses more memory.
+   Scale textures for 3D View using Mipmap filtering.This increases display quality, but uses more memory.
 GPU MipMap Generation
    Generate MipMaps on the GPU. Offloads the CPU Mimpap generation to the GPU.
 16 Bit Float Textures
@@ -264,7 +264,7 @@ used to illuminate 3D View scenes, which will not display in renders.
 The Lamp Icons allows the user to enable or disable OpenGL Lamps.
 At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D View.
 The lamps are equal, their difference is their positioning and colors.
-You can control the direction of the lamps, as well as their diffuse and specular colors. Available Options are:
+You can control the direction of the lamps, as well as their diffuse and specular colors.
 
 Use
    Toggles the specific lamp.
@@ -283,8 +283,7 @@ Color Picker Type
 
 Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color button.
 
-See the different color picker types at the
-:doc:`Extended Controls </interface/controls/templates/color_picker>` page.
+See the different color picker types at the :doc:`Color picker </interface/controls/templates/color_picker>` page.
 
 
 .. _prefs-system-weight:
@@ -296,8 +295,7 @@ Custom Weight Paint Range
 To visualize and paint these weights, Blender uses a color ramp (from blue to green, and from yellow to red).
 Enabling the checkbox will enable an alternate map using a ramp starting with an empty range.
 Now you can create your custom map using the common color ramp options.
-For detailed information about how to use color ramps,
-see: to the :doc:`Extended Controls </interface/controls/templates/color_ramp>` page.
+For detailed information see the :doc:`Color ramps </interface/controls/templates/color_ramp>` page.
 
 
 Fonts

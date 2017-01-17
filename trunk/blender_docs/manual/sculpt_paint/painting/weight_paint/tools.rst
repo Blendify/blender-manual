@@ -31,13 +31,6 @@ Strength
 Radius
    The radius defines the area of influence of the brush.
 
-   .. note::
-
-      You can also change the Brush radius with a keyboard shortcut while painting.
-      Just press :kbd:`F` at any time, then drag the mouse to increase/reduce the brush radius.
-      Finally click :kbd:`LMB` to use the new setting.
-      Or press :kbd:`Esc` at any time to return to the current settings.
-
 Blend mode
    The brush Blending mode defines in which way the weight value is applied to the Vertex Group while painting.
 
