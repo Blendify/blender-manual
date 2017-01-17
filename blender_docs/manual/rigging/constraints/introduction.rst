@@ -20,14 +20,14 @@ their main usage is obviously in animation.
   when using an armature's bone as target,
   animate where along this bone (between root and tip) lays the real target point.
 
-
 They can make the eyes of a tennis player track a tennis ball bouncing across the court,
 allow the wheels on a bus to all rotate together,
 help a dinosaur's legs bend at the knee automatically, and
 make it easy for a hand to grip the hilt of a sword and the sword to swing with the hand.
 
 Constraints, in Blender, work with :term:`Objects <Object>` and :term:`Bones <Bone>`.
-Read about using constraints in rigging in the :doc:`Armatures </rigging/armatures/posing/bone_constraints/index>`
+Read about using constraints in rigging
+in the :doc:`Armature chapter </rigging/armatures/posing/bone_constraints/index>`.
 
 .. figure:: /images/rigging_constraints_introduction_tab-object.png
 
@@ -37,15 +37,17 @@ Read about using constraints in rigging in the :doc:`Armatures </rigging/armatur
 
    Bone Constraints.
 
-
 Constraints work in combination with each other to form a Constraint Stack.
 
 .. figure:: /images/rigging_constraints_introduction_stack.png
 
    The Constraint Stack is evaluated from top to bottom.
 
-Constraints are a fantastic way to add sophistication and complexity to a rig.
 
+Tips
+====
+
+Constraints are a fantastic way to add sophistication and complexity to a rig.
 
 But be careful not to rush in too quickly, piling up constraint upon constraint
 until you lose all sense of how they interact with each other.

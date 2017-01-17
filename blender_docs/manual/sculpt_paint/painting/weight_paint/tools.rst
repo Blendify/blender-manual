@@ -18,10 +18,13 @@ operates in *Weight Paint Mode*.
 Brush
    In the :ref:`Data-Block menu <ui-data-block>` you find predefined Brush Presets.
    And you can create your own custom presets as needed.
-Weight
+Weight :kbd:`W`
    The weight (color) to be used by the brush.
    However, the weight value is applied to the Vertex Group
    in different ways depending on the selected Brush Blending mode (see below).
+
+   Use :kbd:`Ctrl-LMB` to sample the weight value of clicked vertex.
+   :kbd:`Shift-LMB` lets you select the group from which to sample from.
 Strength
    This is the amount of paint to be applied per brush stroke.
    What that means exactly also depends on the Brush Blending mode.
