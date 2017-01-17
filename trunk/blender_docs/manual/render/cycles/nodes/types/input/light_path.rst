@@ -32,7 +32,7 @@ Is Camera Ray
    1.0 if shading is executed for a camera ray, 0.0 otherwise.
 Is Shadow Ray
    1.0 if shading is executed for a shadow ray, 0.0 otherwise.
-Is Diffuse Ray output
+Is Diffuse Ray
    1.0 if shading is executed for a diffuse ray, 0.0 otherwise.
 Is Glossy Ray
    1.0 if shading is executed for a glossy ray, 0.0 otherwise.
@@ -40,7 +40,7 @@ Is Singular Ray
    1.0 if shading is executed for a singular ray, 0.0 otherwise.
 Is Reflection Ray
    1.0 if shading is executed for a reflection ray, 0.0 otherwise.
-Is Transmission Ray output
+Is Transmission Ray
    1.0 if shading is executed for a transmission ray, 0.0 otherwise.
 Ray Length
    Distance traveled by the light ray from the last bounce or camera.
