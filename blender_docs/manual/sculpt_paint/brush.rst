@@ -28,4 +28,7 @@ Radial Control
 - Set brush strength :kbd:`Shift-F`
 - Rotate brush texture :kbd:`Ctrl-F`
 
-You can then either adjust the value interactively (with precision and/or snapping) or by typing in numbers.
+You can then either adjust the value interactively or by typing in numbers.
+After pressing the hotkey move the mouse to increase/reduce the value
+(additionally with precision and/or snapping activated).
+Finally confirm (:kbd:`LMB`, :kbd:`Enter`) or chancel (:kbd:`RMB`, :kbd:`Esc`).

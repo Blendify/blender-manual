@@ -32,19 +32,18 @@ The Weighting Color Code
 Weights are visualized by a gradient using a cold/hot color system, such that areas of low value
 (with weights close to 0.0) are drawn in blue (cold) and areas of high value
 (with weights close to 1.0) are drawn in red (hot).
-And all in-between values are drawn in rainbow colors, depending on their value (blue,
-green, yellow, orange, red).
+And all in-between values are drawn in rainbow colors (blue, green, yellow, orange, red).
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code.png
 
    The color spectrum and their respective weights.
 
 
-In addition to the above described color code, Blender has added (as an option)
-a special visual notation for unreferenced vertices: They are drawn in black.
+In addition to the above described color code, Blender has a special visual notation (as an option)
+for unreferenced vertices: They are drawn in black.
 Thus you can see the referenced areas (drawn in cold/hot colors) and the unreferenced areas
-(in black) at the same time. This is most practical when you look for weighting errors
-(we will get back to this later).
+(in black) at the same time. This is most practical when you look for weighting errors.
+See :doc:`/sculpt_paint/painting/weight_paint/options`.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code-black.png
 
@@ -52,8 +51,9 @@ Thus you can see the referenced areas (drawn in cold/hot colors) and the unrefer
 
 .. note::
 
-   You can customize the colors in the weight gradient by enabling :ref:`Custom Weight Paint Range <prefs-system-weight>`
-   in the *System* tab of the *User Preferences*.
+   You can customize the colors in the weight gradient by enabling
+   :ref:`Custom Weight Paint Range <prefs-system-weight>` in the *System* tab
+   of the *User Preferences*.
 
 
 Usage
