@@ -25,8 +25,27 @@ Select Both Handles :kbd:`Alt-RMB`
 
       Select with this method
       when you want to change the timing of a cut.
-Linked :kbd:`L`
-   Select all strips linked to the currently selected strip
+Select Linked :kbd:`L`
+   Select all strips linked to the currently selected strip.
+Select Grouped :kbd:`Shift-G`
+   Selects strips according to their relation with other strips.
+   
+   Type
+      Selects any strips of the same type within a category for example, 
+      if you have a cross strip selected this will select all other effect strips. 
+   Global Type
+      Selects any strips of the same type, e.g. Effect, Image, Movie, ect.
+   Effect Type
+      Selects all effect strips.
+   Data
+      Selects strips that share the same data, for example, two image strips sharing the same image file.
+   Effect
+      Selects the strip that is shares an effect strip.
+   Effect/Linked
+      Selects the effect strips, if any, linked to the currently selected strip.
+   Overlap
+      Selects any strips that occur on the same frame as the current.
+   
 Select All :kbd:`A`
    Selects all the strips loaded.
 Select Inverse :kbd:`Ctrl-I`
