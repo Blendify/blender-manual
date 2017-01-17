@@ -33,7 +33,7 @@ Eyeball (open or closed)
 
    Disabling a constraint is useful for turning off a constraint without losing all of its settings.
    Disabling means you can enable the constraint at a later time with the settings intact.
-   Disabling is similar to setting the :doc:`influence </rigging/constraints/interface/influence>` slider to 0.0.
+   Disabling is similar to setting the :ref:`Influence <rigging-constraints-influence>` slider to 0.0.
 
 Up/Down Arrows
    Move a constraint up or down in the :doc:`constraint stack </rigging/constraints/interface/the_stack>`.

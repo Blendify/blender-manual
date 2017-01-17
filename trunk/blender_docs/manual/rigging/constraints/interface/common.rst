@@ -1,4 +1,4 @@
-.. (todo) target: move to ui data id if proof 
+.. (todo) target: move to ui data id if proof
 
 ******
 Common
@@ -97,6 +97,8 @@ Pose Space (bones only)
    Hence, if the armature object has null transformations,
    *Pose Space* will have the same effect as *World Space*.
 
+
+.. _rigging-constraints-influence:
 
 Influence
 =========

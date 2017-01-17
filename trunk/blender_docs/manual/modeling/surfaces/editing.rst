@@ -403,4 +403,4 @@ of one or three control points
 or :doc:`add hooks </modeling/modifiers/deform/hooks>` to control some points with other objects.
 
 The *Mirror* tool is also available, behaving exactly as with
-:doc:`mesh vertices </modeling/meshes/editing/basics/mirror>`.
+:doc:`mesh objects </modeling/meshes/editing/transform/mirror>`.

@@ -16,13 +16,13 @@ shape keys, etc.
 The basic principle of the method is: the weight information is literally *painted*
 on top of the Mesh body by using a set of Weight brushes.
 And since painting is always associated with color, we can convert those colors
-back to values. The standard colors are a gradient starting with blue 
+back to values. The standard colors are a gradient starting with blue
 (for cold and low values, meaning less flexible surfaces), changing from green
-and yellow (for median values, meaning half flexible surfaces), and finnaly 
+and yellow (for median values, meaning half flexible surfaces), and finally
 ending at red (for high values, meaning totally flexible surfaces).
 This means an intuitive standard ranging from 'cold' surfaces to 'hot' surfaces.
-The standard 'heat' colors shown for the values can be overriden using the 
- *Custom Weight Paint Range* present at the *User Preferences* editor. 
+The standard 'heat' colors shown for the values can be overridden using the
+*Custom Weight Paint Range* present at the *User Preferences* editor.
 
 
 
@@ -84,7 +84,6 @@ Thus you can see the referenced areas (drawn in cold/hot colors) and the unrefer
 .. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code-black.png
 
    Unreferenced vertices example.
-
 
 .. note::
 
