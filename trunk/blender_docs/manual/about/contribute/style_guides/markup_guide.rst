@@ -184,7 +184,8 @@ Useful Constructs
 =================
 
 - ``|BLENDER_VERSION|`` -- Resolves to the current Blender version.
-- ``:abbr:`SSAO (Screen Space Ambient Occlusion)``` -- Abbreviations display the full text as a tooltip for the reader.
+- ``:abbr:`SSAO (Screen Space Ambient Occlusion)``` --
+  Abbreviations display the full text as a tooltip for the reader.
 - ``:term:`Manifold``` -- Links to an entry in the :doc:`Glossary </glossary/index>`.
 
 

@@ -34,7 +34,8 @@ Action Blending
    Affects the behavior when two tracks simultaneously have a curve affecting the same property.
 
    Replace
-      Causes the top strip to take precedence according to the parameters of the Blend In/Out (see next option, below).
+      Causes the top strip to take precedence according to the parameters
+      of the Blend In/Out (see next option, below).
 
    Multiply, Subtract, Add
 Action Influence
@@ -91,11 +92,13 @@ Action Clip
 This represents the 'object data' of the strip. Much like the transform values of an object.
 
 Action
-   A reference to the Action contained within the strip. Can be changed to replace the current strip's value with another Action.
+   A reference to the Action contained within the strip.
+   Can be changed to replace the current strip's value with another Action.
 Action Extents
    How much of the Action to use.
 
-   Note: If you select values that are above or below the actual keyframe count of the Action, then the F-Curve Extrapolation will be consulted.
+   Note: If you select values that are above or below the actual keyframe count of the Action,
+   then the F-Curve Extrapolation will be consulted.
    Which can be changed in the Graph Editor, under :menuselection:`Channel --> Extrapolation Mode`.
 Sync Length
    Causes the "Start" and "End" Frames, above, to be reset to the first and last keyframed frames of the Action.

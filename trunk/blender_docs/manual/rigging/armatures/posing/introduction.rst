@@ -4,9 +4,10 @@
 Introduction
 ************
 
-Once your armature is :doc:`skinned </rigging/armatures/skinning/index>` by the needed object(s), you can start to pose it.
-Basically, by transforming its bones, you deform or transform the skin object(s).
-But you do not do that in *Edit Mode* -- remember that in this mode, you edit the default, base,
+Once your armature is :doc:`skinned </rigging/armatures/skinning/index>` by the needed object(s),
+you can start to pose it. Basically, by transforming its bones,
+you deform or transform the skin object(s). But you do not do that in *Edit Mode* --
+remember that in this mode, you edit the default, base,
 "rest" position of your armature. You cannot use the *Object Mode* either,
 as here you can only transform whole objects...
 
@@ -35,10 +36,10 @@ In this section, we will see:
 Even though it might be used for completely static purposes,
 posing is heavily connected with :doc:`animation features and techniques </animation/index>`.
 
-In this part, we will try to focus on animation-independent posing, but this is not always possible.
-So if you know nothing about animation in Blender,
-it might be a good idea to read the :doc:`animation features and techniques </animation/index>` chapter first,
-and then come back here.
+In this part, we will try to focus on animation-independent posing,
+but this is not always possible. So if you know nothing about animation in Blender,
+it might be a good idea to read the :doc:`animation features and techniques </animation/index>`
+chapter first, and then come back here.
 
 
 Visualization

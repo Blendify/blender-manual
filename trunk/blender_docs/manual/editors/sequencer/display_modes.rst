@@ -148,7 +148,8 @@ This mode is good for:
      - .. figure:: /images/editors_sequencer_display-modes_luma-waveform-example-2.png
 
           The curves are quite visible. We found a luma of 80-100% for the sky,
-          a luma around 40% for the sea, and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
+          a luma around 40% for the sea, and a luma of 10-20% for the mountains,
+          growing around 40% for the sunny part.
 
 
 .. Note::

@@ -97,7 +97,8 @@ Make Link
    | Hotkey:   :kbd:`Ctrl-L`
 
 Links objects between scenes or data-blocks of the active object to all selected objects.
-In some case (i.e. Object Data, Modifier) the target objects must be of the same type than the active one or capable of receiving the data.
+In some case (i.e. Object Data, Modifier) the target objects must be of the same type
+than the active one or capable of receiving the data.
 The existing data-block of which will be unlinked from them.
 
 Objects to Scene...
@@ -105,8 +106,8 @@ Objects to Scene...
    A scene name must be chosen other than that of the current one.
    The *Link Objects to Scene* Operator panel lets you choose between scenes.
 
-   This makes the same object exist in two different scenes at once, including its position and animation data.
-   The object's origin will change its color.
+   This makes the same object exist in two different scenes at once,
+   including its position and animation data. The object's origin will change its color.
 Type
    Data-block type to link.
 
@@ -162,7 +163,8 @@ Type
 Known Limitations
 =================
 
-For the most part linking data will work as expected, however, there are some corner-cases which are not supported.
+For the most part linking data will work as expected, however,
+there are some corner-cases which are not supported.
 
 
 Circular Dependencies
@@ -176,8 +178,7 @@ Attempting to link or append data which links back to the current file will like
 Object Rigid-Body Constraints
 -----------------------------
 
-When linking objects *directly* into a blend-file,
-the *Rigid Body* settings **will not** be linked in
-since they are associated with their scene's world.
+When linking objects *directly* into a blend-file, the *Rigid Body* settings
+**will not** be linked in since they are associated with their scene's world.
 
 As an alternative, you could link in the entire scene and set it as a :ref:`Background Set <scene-background-set>`.

@@ -6,7 +6,8 @@ Shading
 Globally de/activates engine features in :menuselection:`Render --> Shading` panel...
 
 Texture
-   All :doc:`/render/blender_render/textures/properties/influence/index` e.g. color, but also normal and displacement maps.
+   All :doc:`/render/blender_render/textures/properties/influence/index`
+   e.g. color, but also normal and displacement maps.
 Shadows
    All :doc:`/render/blender_render/lighting/shadows/index` calculation.
 Subsurface Scattering

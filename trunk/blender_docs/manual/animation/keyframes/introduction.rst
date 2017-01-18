@@ -31,7 +31,8 @@ When the current frame is a keyframe for the current active object, the name of 
 Keyframe Types
 ==============
 
-For visually distinguish regular keyframes from different animation events or states (extremes, breakdowns, or other in betweens)
+For visually distinguish regular keyframes from different animation events or states
+(extremes, breakdowns, or other in betweens)
 there is the possibility the applying different colors on them for visualization.
 
 Keyframe (yellow diamond)

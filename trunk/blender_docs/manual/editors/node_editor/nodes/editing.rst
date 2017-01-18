@@ -60,7 +60,7 @@ Just move the node over the link and release when the link turns orange.
 
 Make Links :kbd:`F`
    Todo.
-Make and Replace Links :kbd:`Shift F`
+Make and Replace Links :kbd:`Shift-F`
    Todo.
 
 
