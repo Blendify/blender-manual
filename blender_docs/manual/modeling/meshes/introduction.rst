@@ -6,7 +6,7 @@ Introduction
 
 Mesh Modeling typically begins with a
 :doc:`Mesh Primitive </modeling/meshes/primitives>` shape (e.g. circle, cube, cylinder...).
-From there you might begin extruding faces and moving vertices to create a larger, more complex shape.
+From there you might begin editing to create a larger, more complex shape.
 
 
 Modeling Modes

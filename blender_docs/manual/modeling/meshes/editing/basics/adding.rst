@@ -23,6 +23,9 @@ Creating Vertices
 
 The most basic element, a vertex, can be added with a left button mouse click while pressing :kbd:`Ctrl`
 when no other vertices are selected, or :kbd:`Ctrl-LMB`.
+Because the camera space (computer screen) is two-dimensional,
+Blender cannot determine all three vertex coordinates from a single mouse click,
+so the new vertex is placed at the depth of the 3D cursor.
 
 To create interconnected vertices, you can add a vertex and continuously make subsequent :kbd:`Ctrl-LMB`
 operations with the last one vertex selected.
