@@ -65,7 +65,6 @@ Building with Translations
    This is quite involved,
    so it is not be expected that translators should be doing their own builds locally.
 
-----
 
 To create the ``.mo`` files (needed for building translation)::
 
