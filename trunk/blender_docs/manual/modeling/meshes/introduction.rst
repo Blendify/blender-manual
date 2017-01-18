@@ -6,7 +6,6 @@ Introduction
 
 Mesh Modeling typically begins with a
 :doc:`Mesh Primitive </modeling/meshes/primitives>` shape (e.g. circle, cube, cylinder...).
-This mesh primitive is defined by an array of points in 3D space called vertices (singular form is :term:`Vertex`).
 From there you might begin extruding faces and moving vertices to create a larger, more complex shape.
 
 
@@ -52,6 +51,10 @@ Edit Mode
 
 Operations in *Edit Mode* affect only the geometry of an object,
 but not global properties such as location or rotation.
+
+You can only modify the mesh of the object you are editing.
+To modify other objects you need to leave, select them and re-enter Edit Mode.
+
 *Edit Mode* has the following header in the 3D View:
 
 .. figure:: /images/modeling_meshes_introduction_3d-view-header-edit-mode.png
@@ -97,18 +100,16 @@ By default, Blender highlights selected geometry in orange in both *Object Mode*
 In *Object Mode* with *Wireframe* shading enabled :kbd:`Z`,
 objects are displayed in black when unselected and in orange when selected.
 If more than one object is selected, all selected objects except the active object,
-typically the object last selected, are displayed in a darker orange color. Similarly,
-in *Edit Mode*, unselected geometry is drawn in black while selected faces, edges,
+typically the object last selected, are displayed in a darker orange color. 
+
+Similarly, in *Edit Mode*, unselected geometry is drawn in black while selected faces, edges,
 or vertices are drawn in orange. The active face is highlighted in white.
-
-In *Edit Mode*, only one mesh can be edited at the time. However, several objects can be joined into a single mesh
-(:kbd:`Ctrl-J` in *Object Mode*) and then separated again (:kbd:`P` in *Edit Mode*).
-If multiple objects are selected before entering *Edit Mode*,
-all the selected objects remain highlighted in orange indicating that they are part of the active selection set.
-
 If two vertices joined by an edge are selected in *Vertex selection mode*,
 the edge between them is highlighted too. Similarly,
 if enough vertices or edges are selected to define a face, that face is also highlighted.
+
+If multiple objects are selected before entering *Edit Mode*,
+all the selected objects remain highlighted in orange indicating that they are part of the active selection set.
 
 
 Tool Shelf

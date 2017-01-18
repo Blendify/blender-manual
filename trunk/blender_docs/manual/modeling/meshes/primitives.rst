@@ -15,6 +15,7 @@ Primitives
 
 A common object type used in a 3D scene is a mesh.
 Blender comes with a number of "primitive" mesh shapes that you can start modeling from.
+You can also add primitives in Edit Mode at the 3D cursor.
 
 .. figure:: /images/editors_3dview_objects_types_primitives.png
 
@@ -25,6 +26,12 @@ Blender comes with a number of "primitive" mesh shapes that you can start modeli
    You can make a planar mesh three-dimensional by moving one or more of the vertices out of its plane
    (applies to *Plane*, *Circle* and *Grid*).
    A simple circle is actually often used as a starting point to create even the most complex of meshes.
+
+.. hint::
+
+   When you are modeling, that, in order to facilitate the modeling,
+   the best solution is to imagine what primitive type suits better for your model.
+   If you will model a cuboid, the best solution is to start with a primitive cube, and so on.
 
 
 Common Options

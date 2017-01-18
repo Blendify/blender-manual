@@ -4,6 +4,8 @@ Introduction
 ************
 
 Blender provides a variety of tools for editing meshes.
+These are tools used to add, duplicate, move and delete elements.
+
 These are available through the *Mesh Tools* shelf,
 the Mesh menu in the 3D View header, and context menus in the 3D View,
 as well as individual shortcut keys.
@@ -28,64 +30,6 @@ Types of Tools
 ==============
 
 The mesh tools are found in various places, and available through shortcuts as well.
-
-.. list-table::
-
-   * - :doc:`Transform and Deform tools </modeling/meshes/editing/basics/index>`:
-
-       - Translate
-       - Rotate
-       - Scale
-       - Mirror
-       - Shrink/Flatten/Along Normal
-       - Push/Pull
-       - To Sphere
-       - Shear
-       - Warp
-       - Edge Slide
-       - Vertex Slide
-       - Noise
-       - Smooth Vertex
-       - Rotate Edge
-
-       :doc:`Merge and Remove tools </modeling/meshes/editing/basics/deleting>`:
-
-       - Delete
-       - Dissolve
-       - Merge
-       - Auto-Merge
-       - Remove Doubles
-       - Tris to Quads
-       - Unsubdivide
-
-     - :doc:`Add and Divide tools </modeling/meshes/editing/duplicating/introduction>`:
-
-       - Make Edge/Face
-       - Fill
-       - Beauty Fill
-       - Solidify
-       - Quads to Tris
-       - Extrude Region
-       - Extrude Individual
-       - Subdivide
-       - Loop Cut/Slide
-       - Knife tool
-       - Vertex connect
-       - Duplicate
-       - Spin
-       - Screw
-       - Symmetrize
-       - Inset
-       - Bevel
-       - Wireframe
-
-       :doc:`Separate tools </modeling/meshes/editing/subdividing/introduction>`:
-
-       - Rip
-       - Rip fill
-       - Split
-       - Separate
-       - Edge Split
 
 
 Accessing Mesh Tools
