@@ -30,11 +30,6 @@ but it is bigger and you cannot select it.
    The origin is labeled as "A"; "B" and "C" are vertices.
 
 
-A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit Mode*.
-Of course, as a computer screen is two-dimensional,
-Blender cannot determine all three vertex coordinates from a single mouse click,
-so the new vertex is placed at the depth of the 3D cursor. Using the method described above,
-any vertices selected previously are automatically connected to the new ones by an edge.
 In the image above, the vertex labeled "C" is a new vertex added to the cube with a
 new edge added between "B" and "C".
 
@@ -45,7 +40,6 @@ Edges
 An edge always connects two vertices by a straight line.
 The edges are the "wires" you see when you look at a mesh in wireframe view.
 They are usually invisible on the rendered image. They are used to construct faces.
-Create an edge by selecting two vertices and pressing :kbd:`F`.
 
 
 Faces
@@ -54,8 +48,7 @@ Faces
 Faces are used to build the actual surface of the object.
 They are what you see when you render the mesh.
 If this area does not contain a face,
-it will simply be transparent or non-existent in the rendered image. To create a face,
-select three or more suitable vertices and press :kbd:`F`.
+it will simply be transparent or non-existent in the rendered image.
 
 A face is defined as the area between either three (triangles), four (quadrangles) or more (n-gons) vertices,
 with an edge on every side. These are often abbreviated to *tris, quads & n-gons*.
