@@ -4,52 +4,21 @@ Adding Geometry
 ***************
 
 In Blender, for modeling, you have several ways of adding mesh elements.
-Some of them are basic objects that adds a starting block of data (called data-block in Blender)
-when adding their basic geometry to the scene. We have ten available mesh Objects,
-and those starting meshes are also called mesh primitives. In Blender,
-we have a set of basic primitives so you can add a starting mesh to modify and model to suit your specific needs.
-Also, you have specific tools to add, duplicate, move and delete elements,
-which will be explained in other pages of the modeling section present in this manual.
-
-This page explains how to add basic geometry creating objects from primitives and how to add more elements
-to your primitives, including the addition of other primitives and basic elements when you are modeling.
-
-To enter Edit you can select Edit from the modes menu as explained in the Interface overview,
-or use :kbd:`Tab` with a mesh object selected.
-
-.. _fig-mesh-basics-b-primitives:
-
-.. figure:: /images/modeling_mesh_add.png
-   :align: right
-
-   Blender's mesh primitives.
-
-To select and add one of the primitives to work with press :kbd:`Shift-A` in Edit mode.
-Blender automatically detects the appropriate context for the object type you are editing,
-and will show a list of compatible, combining elements. If you are editing Mesh types,
-Blender will show a list of primitive meshes to add to your object.
-Other contexts are also automatically detected for the correct element additions.
-(See Fig. :ref:`fig-mesh-basics-b-primitives`, you can add primitives to already existing objects, in Edit Mode)
-
-A menu opens from which you can select the primitive you wish to add to the object.
-
-There are many cases when it is useful to directly add a mesh to an object. Maybe you want to model a teapot.
-It would be useful to model the cup and the handle as separate meshes and only combine them when you are done.
 
 
-Adding elementary parts to meshes
-=================================
+Duplicate or Extrude to Cursor
+==============================
 
-As explained before in :doc:`Mesh Structures </modeling/meshes/structure>`,
-meshes are objects formed from basic elements such as vertices, edges and faces.
+.. admonition:: Reference
+   :class: refbox
 
-The most elementary part of a mesh is the vertex, a point in 3D space;
-the line between two or more interconnected vertices is called an edge,
-and three or more edges can be connected to form a face.
-The geometry of the faces performing the model is called topology.
+   | Mode:     Edit Mode
+   | Hotkey:   :kbd:`Ctrl-LMB`
+
+Interactively places new vertices with :kbd:`Ctrl-LMB` at the cursor position.
 
 
-Creating vertices
+Creating Vertices
 -----------------
 
 The most basic element, a vertex, can be added with a left button mouse click while pressing :kbd:`Ctrl`
@@ -69,19 +38,8 @@ and will continuously connect them creating vertices if you continue repeating t
    Adding vertices one by one.
 
 
-Creating Edges
---------------
-
-In addition to automatically creating edges from vertices, if you have two vertices selected,
-you can connect them with and edge using the shortcut :kbd:`F` (Fill).
-If you have more than two vertices selected, this will automatically create face(s).
-
-
 Creating Faces
 --------------
-
-Creating Faces with the Mouse
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/modeling_meshes_editing_basics_adding_quad.png
 
@@ -121,28 +79,6 @@ which is explained in the :doc:`Extrude </modeling/meshes/editing/duplicating/ex
    This means, once you change your viewport, for example, from top to left, bottom or right,
    the extrusion direction will also follow your viewport and align your extrusions with your planar view.
 
+.. seealso::
 
-Filling Faces
-^^^^^^^^^^^^^
-
-.. _fig-mesh-basics-fill-tri:
-
-.. figure:: /images/modeling_meshes_editing_basics_adding_triangle.png
-
-   Filling a triangle.
-
-You can also create faces with at least three vertices selected, using :kbd:`F` to fill them with edges and faces,
-or only fill edges with faces if they are already connected (Fill) (See Fig. :ref:`fig-mesh-basics-fill-tri`).
-For four or more vertices, it is mandatory that you have coplanar vertices.
-four coplanar vertices will create a quad when filled, and more than four coplanar vertices will create a N-gon face.
-
-.. note::
-
-   Note that you can only modify the mesh of the object you are editing.
-   To modify other objects you need to leave, select them and re-enter Edit Mode.
-
-.. hint::
-
-   When you are modeling, that, in order to facilitate the modeling,
-   the best solution is to imagine what primitive type suits better for your model.
-   If you will model a cuboid, the best solution is to start with a primitive cube, and so on.
+   :doc:`Duplicate tools </modeling/meshes/editing/duplicating/index>`

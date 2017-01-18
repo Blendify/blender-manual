@@ -3,6 +3,10 @@
 Object Data
 ***********
 
+Meshes
+   The mesh :ref:`Data-Block Menu <ui-data-block>` can be used to link the data between objects.
+
+
 .. _mesh-data-normals:
 
 Normals

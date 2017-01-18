@@ -10,21 +10,24 @@ With meshes, everything is built from three basic structures:
 
    Example of mesh structure.
 
+.. The geometry of the faces performing the model is called topology.
+
 
 Vertices
 ========
 
-A vertex is primarily a single point or position in 3D space.
+The most elementary part of a mesh is the vertex which is a single point or position in 3D space.
+The vertices (the plural form of vertex) are stored in an array of coordinates.
+
 It is usually invisible in rendering and in *Object Mode*.
 Do not mistake the origin point of an object for a vertex. It looks similar,
-but it is bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
-shows the origin labeled as "A"; "B" and "C" are vertices.
-
-.. _fig-mesh-topo-vector:
+but it is bigger and you cannot select it.
 
 .. figure:: /images/mesh-structures-cubeexample.png
 
    Vertex example.
+
+   The origin is labeled as "A"; "B" and "C" are vertices.
 
 
 A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit Mode*.
@@ -58,7 +61,7 @@ A face is defined as the area between either three (triangles), four (quadrangle
 with an edge on every side. These are often abbreviated to *tris, quads & n-gons*.
 
 Triangles are always flat and therefore easy to calculate. On the other hand,
-quadrangles "deform well" and are therefore preferred for subdivision modeling.
+quadrangles "deform well" and are therefore preferred for animation and subdivision modeling.
 
 While you could build a cube with triangular faces,
 it would just look more confusing in *Edit Mode*.
