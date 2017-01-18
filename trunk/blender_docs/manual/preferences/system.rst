@@ -138,7 +138,7 @@ Clip Alpha
    Clip alpha below this threshold in the 3D View.
    Note that the default is set to a low value to prevent issues on some GPU's.
 Mipmaps
-   Scale textures for 3D View using Mipmap filtering.This increases display quality, but uses more memory.
+   Scale textures for 3D View using :term:`Mipmap` filtering. This increases display quality, but uses more memory.
 GPU MipMap Generation
    Generate MipMaps on the GPU. Offloads the CPU Mimpap generation to the GPU.
 16 Bit Float Textures
