@@ -5,7 +5,7 @@ Rendering Animations
 
 While rendering stills will allow you to view and save the image from the render buffer when
 it is complete, animations are a series of images, or frames,
-and are automatically saved directly out to disk after being rendered.
+and are automatically saved directly out to a drive after being rendered.
 
 After rendering the frames, you may need to edit the clips,
 or first use the Compositor to do green-screen masking, matting, color correction, DOF,
@@ -58,7 +58,7 @@ Blender creates a file for each frame of the animation.
 You can then use Blender's compositor to perform any frame manipulation (post processing).
 You can then use Blender's VSE to load that final image sequence,
 add an audio track to the animation, and render out to an MPEG format to complete your movie.
-The Frame Sequence approach is a little more complicated and takes more disk space,
+The Frame Sequence approach is a little more complicated and takes more drive space,
 but gives you more flexibility.
 
 Here are some guidelines to help you choose an approach.

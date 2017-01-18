@@ -117,7 +117,7 @@ Commonly used depths:
    (such as DPX and JPEG 2000).
 16 bit half float
    Since full 32bit float is often more than enough precision,
-   half float can save on disk space while providing a high dynamic range.
+   half float can save drive space while still providing a high dynamic range.
 32 bit float
    Highest quality color depth.
 

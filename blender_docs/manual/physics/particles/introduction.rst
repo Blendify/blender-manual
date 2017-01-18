@@ -63,7 +63,7 @@ but options within those sets vary based on the system employed. These sets of c
    Settings for the initial distribution of particles on the emitter and the way they are born into the scene.
 :doc:`Cache </physics/particles/properties/cache>`
    In order to increase realtime response and avoid unnecessary recalculation of particles,
-   the particle data can be cached in memory or stored on disk.
+   the particle data can be cached in memory or stored on a drive.
 :doc:`Velocity </physics/particles/properties/physics/index>`
    Initial speed of particles.
 :doc:`Rotation </physics/particles/properties/physics/index>`

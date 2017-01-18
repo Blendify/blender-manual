@@ -48,11 +48,11 @@ Limitations & Workarounds
   (a plane will not work). To use planes, switch to *Shell*, or extrude the plane.
 - Blender freezes after clicking *bake*.
   Pressing :kbd:`Esc` makes it work again after a while --
-  this can happen if the resolution is too high and memory is swapped to hard disk,
+  this can happen if the resolution is too high and memory is swapped to a drive,
   making everything horribly slow. Reducing the resolution should help in this case.
 - Blender crashes after clicking *bake* --
   this can happen if the resolution is really high and more than 2GB are allocated, causing Blender to crash.
-  Reduce the resolution.
+  Reducing the resolution should help in this case.
   Many operating systems limit the total amount of memory that can be allocated by a *process*,
   such as Blender, even if the *machine* has more memory installed.
 - The meshes should be closed, so if some parts of e.g.

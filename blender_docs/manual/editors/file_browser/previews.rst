@@ -42,17 +42,13 @@ Batch-Generate Previews
       Enables Python evaluation for blend-files.
    Save Backups
       Enables backups in case blend-files become corrupt while generating previews.
-
-      .. note::
-
-         If you are generating previews for large file make sure to watch the amount of disk space.
-
+      This can be useful when you are worried about large files or can be disabled to save drive space. 
 
 Clear Data-block Previews
    Clears data-block previews.
 Batch-Clear Previews
    Clears previews for selected blend-files.
-   
+
    Scenes
       Clears previews for scenes.
    Groups
@@ -65,6 +61,3 @@ Batch-Clear Previews
       Enables Python evaluation for blend-files.
    Save Backups
       Enables backups in case blend-files become corrupt while generating previews.
-
-
- 

@@ -33,11 +33,10 @@ sockets will be created from the shader parameters on clicking the update button
 or the text editor.
 
 OSL shaders can be linked to the node in a few different ways. With the *Internal* mode,
-a text data-block is used to store the OSL shader,
-and the OSO bytecode is stored in the node itself.
+a text data-block is used to store the OSL shader, and the OSO bytecode is stored in the node itself.
 This is useful for distributing a blend-file with everything packed into it.
 
-The *External* mode can be used to specify a ``.osl`` file on disk,
+The *External* mode can be used to specify a ``.osl`` file from a drive,
 and this will then be automatically compiled into a ``.oso`` file in the same directory.
 It is also possible to specify a path to a ``.oso`` file, which will then be used directly,
 with compilation done manually by the user. The third option is to specify just the module name,

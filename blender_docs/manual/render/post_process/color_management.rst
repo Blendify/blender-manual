@@ -144,15 +144,14 @@ for example. Such maps do not actually store colors, just data encoded as colors
 In such cases they should be marked as *Non-Color Data*.
 
 Image data-blocks will always store float buffers in memory in the scene linear color space,
-while a byte buffer in memory and files on disk are stored in the color space specified with
-this setting:
+while a byte buffer in memory and files in a drive are stored in the color space specified with this setting:
 
 Color Space
-   The color space of the image on disk. This depends on the file format,
+   The color space of the image file on a drive. This depends on the file format,
    for example PNG or JPEG images are often stored in sRGB, while OpenEXR images are stored in a linear color space.
    Some images such as normal, bump or stencil maps do not strictly contain 'colors',
    and on such values no color space conversion should ever be applied.
-   For such images the color space should be set to None.
+   For such images the color space should be set to *None*.
 
 .. figure:: /images/render_post_cm_image_settings.jpg
 
@@ -161,7 +160,7 @@ Color Space
 
 By default only renders are displayed and saved with the render view transformations applied.
 These are the Render Result and Viewer image data-blocks,
-and the files saved directly to disk with the Render Animation operator.
+and the files saved directly to a drive with the Render Animation operator.
 However, when loading a render saved to an intermediate OpenEXR file,
 Blender cannot detect automatically that this is a render (it could be e.g.
 an image texture or displacement map).

@@ -87,7 +87,7 @@ the *Shadow* pass will be blank; there is simply nothing to show you.
 If you have not enabled *Ambient Occlusion* in your World environment settings,
 the *AO* pass will be blank, even if you select it here.
 
-To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel
+To save time and drive space, you have to tell Blender each of the passes to render in the Render Layers panel
 (which we first introduced on :doc:`the previous page </render/post_process/layers>`):
 
 Combined
