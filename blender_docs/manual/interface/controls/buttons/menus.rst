@@ -133,7 +133,8 @@ Online Python Reference
    `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
 Edit Source
    For UI development -- Creates a text data-block with the source code associated with the control,
-   in case the control is based on a python script. In the Text Editor it points at the code line where the element is defined.
+   in case the control is based on a python script.
+   In the Text Editor it points at the code line where the element is defined.
 Edit Translation
    For UI development -- Points at the translation code line.
 

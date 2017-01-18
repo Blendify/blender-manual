@@ -8,11 +8,14 @@ This does not necessarily determine how they will appear when rendered.
 
 Draw Method
    None
-      The particles are not shown in the 3D View and are not rendered. The emitter may be rendered though.
+      The particles are not shown in the 3D View and are not rendered.
+      The emitter may be rendered though.
    Point
-      Particles are displayed as square points. Their size is independent of the distance from the camera.
+      Particles are displayed as square points.
+      Their size is independent of the distance from the camera.
    Circle
-      Particles are displayed as circles that face the view. Their size is independent of the distance from the camera.
+      Particles are displayed as circles that face the view.
+      Their size is independent of the distance from the camera.
    Cross
       Particles are displayed as 6-point crosses that align to the rotation of the particles.
       Their size is independent of the distance from the camera.

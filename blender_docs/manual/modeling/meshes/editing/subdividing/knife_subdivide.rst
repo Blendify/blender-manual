@@ -11,7 +11,8 @@ Knife Tool
    | Hotkey:   :kbd:`K` or :kbd:`Shift-K`
 
 
-The knife tool can be used to interactively subdivides (cuts up) geometry by drawing lines or closed loops to create holes.
+The knife tool can be used to interactively subdivides (cuts up)
+geometry by drawing lines or closed loops to create holes.
 
 
 Usage
@@ -50,7 +51,6 @@ so no additional vertex will be created (besides the first one).
 
 Options
 =======
-
 
 Knife selection :kbd:`Shift-K`
    Activates the knife with another set of options so only selected faces are cut and

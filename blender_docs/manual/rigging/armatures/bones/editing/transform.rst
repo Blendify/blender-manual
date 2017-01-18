@@ -46,10 +46,12 @@ Radius and Scaling in Envelope Visualization
 
 When bones are displayed using *Octahedron*, *Stick* or *B-Bone* visualizations,
 scaling will behave as expected, similar to scaling mesh objects.
-When bones are displayed using *Envelope* visualization, scaling will have a different effect:
-it will scale the radius of the selected bones's joints. (see: :doc:`skinning part </rigging/armatures/skinning/index>`).
-As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones,
-you scale at the same time the radius of the parent's tip and of the children's roots.
+When bones are displayed using *Envelope* visualization,
+scaling will have a different effect: it will scale the radius of the selected bones's joints.
+(see: :doc:`skinning part </rigging/armatures/skinning/index>`).
+As you control only one value (the radius), there is no axis locking here.
+And as usual, with connected bones, you scale at the same time the radius
+of the parent's tip and of the children's roots.
 
 .. list-table::
    Scaling of a bone in *Octahedron* and *Envelope* visualizations.
@@ -113,12 +115,12 @@ this is an one-value property, so there is no axis locking and such.
 
 
 In the other visualizations, it allows you to edit the "bone size".
-This seems to only have a visible effect in *B-Bone* visualization, but is available
-also with *Octahedron* and *Stick* ... This tool in this situation has
-another specific behavior: While with other transform tools,
-the "local axes" means the object's axes, here they are the bone's own axes
-(when you lock to a local axis, by pressing the relevant key twice,
-the constraint is applied along the selected bone's local axis,
+This seems to only have a visible effect in *B-Bone* visualization,
+but is available also with *Octahedron* and *Stick*...
+This tool in this situation has another specific behavior:
+While with other transform tools, the "local axes" means the object's axes,
+here they are the bone's own axes (when you lock to a local axis,
+by pressing the relevant key twice, the constraint is applied along the selected bone's local axis,
 not the armature object's axis).
 
 .. list-table:: "Bone size" scaling example.
@@ -232,4 +234,3 @@ but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
           The selected bones have been switched. Bone.005 is no more connected nor parented to anything.
           The chain of switched bones still exists, but reversed (Now Bone.002 is its root, and Bone is its tip).
           Bone.003 is now a free bone.
-

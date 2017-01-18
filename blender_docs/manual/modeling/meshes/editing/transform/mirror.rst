@@ -105,10 +105,11 @@ This tool works only with a perfectly symmetrical mesh (along the local X axis).
 Those vertices that have no corresponding vertex on the other side will not be affected.
 
 Mirror Weights
-   With this option checked, every selected vertex receives the group/weight information of its symmetrical counterpart.
+   With this option checked, every selected vertex receives
+   the group/weight information of its symmetrical counterpart.
    If both vertices are selected, it will be a group/weight information exchange;
-   if only one is selected, information from the unselected will be copied into the selected one, that loses its own information.
-   Information on group/weight is passed for the active group only,
+   if only one is selected, information from the unselected will be copied into the selected one,
+   that loses its own information. Information on group/weight is passed for the active group only,
    unless *All Groups* is checked, in which case it is passed for all groups.
 Flip Groups Names
    Works with selected vertices that belong to vertex groups with "symmetrical names"
@@ -122,6 +123,6 @@ All Groups
 Topology Mirror
    Todo.
 
-Usually only one of those operations (*Mirror Weights*, *Flip Groups Names*) will be performed,
-though you can tick both at the same time,
+Usually only one of those operations (*Mirror Weights*, *Flip Groups Names*)
+will be performed, though you can tick both at the same time,
 if you know what you are doing (these 2 operations could even cancel each other).

@@ -306,10 +306,10 @@ Clear and Keep Transformation
 Clear Parent Inverse
    Places the children with respect to the parent as if they were placed in the Global reference.
    This effectively clears the parent's transformation from the children.
-   The hierarchical relationships are not removed, but the correcting matrix (''parent inverse'') is cleared from the selected objects.
+   The hierarchical relationships are not removed, but the correcting matrix
+   (''parent inverse'') is cleared from the selected objects.
 
-   For example,
-   if the parent is moved 10 units along the X axis and *Clear Parent Inverse* is invoked,
+   For example, if the parent is moved 10 units along the X axis and *Clear Parent Inverse* is invoked,
    any selected children are freed and moved -10 units back along the X axis.
    The "Inverse" only uses the last transformation; if the parent moved twice,
    10 units each time for a total of 20 units, then the "Inverse" will only move the child back 10 units, not 20.
@@ -329,4 +329,3 @@ There is another way to see the parent-child relationship in groups and that is 
 of the :doc:`Outliner editor </editors/outliner>`. Fig. :ref:`fig-view3d-parent-outliner`
 is an example of what the *Outliner* view looks like for the figurers in the :ref:`object-parenting` example.
 Cube A's object name is "Cube_Parent" and cube B is "Cube_Child".
-

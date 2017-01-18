@@ -134,18 +134,21 @@ This page lists definitions for terms used in Blender and this manual.
       In general, a resulting image color decomposition, where its (*L* or *Y*) luminance channel is separated.
       There are two different contexts whereas this term is used:
 
-      Video systems:
+      Video systems
          Refers to the general color decomposition resulting in *Y* (Luminance) and *C* (Chrominance) channels, 
          whereas the chrominance is represented by: U = ( Blue minus Luminance ) and V = ( Red minus Luminance ).
-      Matte compositing:
-         Refers to a point in the color gamut surrounded by a mixture of a determined spectrum of its RGB neighboring colors.
-         This point is called *Chroma key* and this key (a chosen color) is used to create an *Alpha Mask*.         
-         The total ammount of gamut space for this chrominance point is defined by users in a circular or square shaped format.  
+      Matte compositing
+         Refers to a point in the color gamut surrounded by a mixture
+         of a determined spectrum of its RGB neighboring colors.
+         This point is called *Chroma key* and this key
+         (a chosen color) is used to create an *Alpha Mask*.         
+         The total amount of gamut space for this chrominance point is defined
+         by users in a circular or square shaped format.  
 
    Clamp
    Clamping
-      Limits a variable to a range. The values over or under the range are set to the constant values
-      of the ranges minimum or maximum.
+      Limits a variable to a range. The values over or under the range are set
+      to the constant values of the ranges minimum or maximum.
 
    Blend Modes
    Color Blend Modes
@@ -424,7 +427,7 @@ This page lists definitions for terms used in Blender and this manual.
       The mipmapping calculations are made by CPUs, but modern graphic processors
       can be selected for this task and are way faster. 
 
-      See the Mipmap option present in the :doc:`System </preferences/system>` tab, located at the User Preferences editor.
+      See the Mipmap option present in the :doc:`System Preferences </preferences/system>`.
 
    Motion Blur
       The phenomenon that occurs when we perceive a rapidly moving object.
@@ -438,8 +441,9 @@ This page lists definitions for terms used in Blender and this manual.
       A :term:`face` that contains more than four :term:`vertices <vertex>`.
 
    Non-linear animation
-      Animation technique that allows the animator to edit motions as a whole, not just the individual keys.
-      Nonlinear animation allows you to combine, mix, and blend different motions to create entirely new animations.
+      Animation technique that allows the animator to edit motions as a whole,
+      not just the individual keys. Nonlinear animation allows you to combine,
+      mix, and blend different motions to create entirely new animations.
 
    Non-manifold
       Non-Manifold meshes essentially define geometry which cannot exist in the real world.
@@ -518,9 +522,9 @@ This page lists definitions for terms used in Blender and this manual.
    Particle system
       Technique that simulate certain kinds of fuzzy phenomena,
       which are otherwise very hard to reproduce with conventional rendering techniques.
-      Common examples include fire, explosions, smoke, sparks, falling leaves, clouds, fog, snow, dust, meteor tails,
-      stars and galaxies, or abstract visual effects like glowing trails, magic spells.
-      Also used for fur, grass or hair.
+      Common examples include fire, explosions, smoke, sparks, falling leaves, clouds, fog, snow, dust,
+      meteor tails, stars and galaxies, or abstract visual effects like glowing trails, magic spells.
+      Also used for things like: fur, grass or hair.
 
    Phong
       Local illumination model that can produce a certain degree of realism in three-dimensional

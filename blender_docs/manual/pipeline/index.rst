@@ -4,35 +4,38 @@
   Pipeline
 ##########
 
-This section of the manual focuses on the integration of Blender into a production pipeline. This is a vast topic that
-covers many areas of the software, but here we will focus on file/asset management and data I/O.
+This section of the manual focuses on the integration of Blender into a production pipeline.
+This is a vast topic that covers many areas of the software,
+but here we will focus on file/asset management and data I/O.
 
 .. note::
 
-   The tools and workflows documented here require familiarity with working with a command line interface and are 
-   mostly aimed at TDs and technical users. 
+   The tools and workflows documented here require familiarity with working
+   with a command line interface and are mostly aimed at TDs and technical users. 
 
 BAM Asset Manager
 =================
 
-Refactoring linked .blend files is a common practice in a production environment. While some basic operations can be
-accomplished within Blender, sometimes it is more practical to perform them on the command line or via a script.
-During the production of Cosmos Laundromat (Gooseberry Open Movie Project) the *BAM Asset Manager* (BAM) was developed.
-The original scope of BAM included client-server asset management tools going beyond Blender, but it was later refocused
-on core utilities to perform two operations:
+Refactoring linked .blend files is a common practice in a production environment.
+While some basic operations can be accomplished within Blender,
+sometimes it is more practical to perform them on the command line or via a script.
+During the production of Cosmos Laundromat (Gooseberry Open Movie Project)
+the *BAM Asset Manager* (BAM) was developed. The original scope of BAM included
+client-server asset management tools going beyond Blender,
+but it was later refocused on core utilities to perform two operations:
 
-* blendfile packing 
-* automatic dependencies remapping
+- blendfile packing 
+- automatic dependencies remapping
 
 The following section of the manual focuses on how to use BAM. 
 
 Installing BAM
 --------------
-BAM is a standalone Python package, that can be run on any system without any particular configuration. The only 
-requirement is Python 3 (and pip, the Python package manager, to easily install BAM).
+BAM is a standalone Python package, that can be run on any system without any particular configuration.
+The only requirement is Python 3 (and pip, the Python package manager, to easily install BAM).
 
-Windows, Linux and macOS provide different ways to install Python 3 and pip. Check out the online docs to learn more 
-about a specific platform.
+Windows, Linux and macOS provide different ways to install Python 3 and pip.
+Check out the online docs to learn more about a specific platform.
 
 Once Python 3 and pip are available, BAM can be installed via command line by typing:
 
@@ -40,14 +43,15 @@ Once Python 3 and pip are available, BAM can be installed via command line by ty
 
    pip3 install blender-bam
 
-After a successful installation, the `bam` command will be availabe. By typing it and pressing the Enter key, all the 
-available subcommands will be displayed.
+After a successful installation, the `bam` command will be available.
+By typing it and pressing the Enter key, all the available subcommands will be displayed.
 
 
 bam pack
 --------
 
-This command is used for packing a ``.blend`` file and *all* its dependencies into a ``.zip`` file for redistribution.
+This command is used for packing a ``.blend`` file and *all*
+its dependencies into a ``.zip`` file for redistribution.
 
 ::
 
@@ -60,14 +64,15 @@ You can simply pack a blend file like this to create a zip-file of the same name
 
    bam pack /path/to/scene.blend
 
-You may also want to give an explicit output directory. The example shows how to pack a blend with maximum compression
-for online downloads
+You may also want to give an explicit output directory.
+The example shows how to pack a blend with maximum compression for online downloads
 
 .. code-block:: sh
    
    bam pack /path/to/scene.blend --output my_scene.zip --compress=best
 
-The command provides several options to adapt to different workflows (final distribution, partial extraction, rendering).
+The command provides several options to adapt to different workflows
+(final distribution, partial extraction, rendering).
 
 ``-o``, ``--output`` ``<FILE>`` 
    Output file or a directory when multiple inputs are passed
@@ -88,8 +93,8 @@ The command provides several options to adapt to different workflows (final dist
    Compression level for resulting archive
    Possible choices: ``default``, ``fast``, ``best``, ``store``
 ``--repo`` ``<DIR PATH>``
-   Specify a "root" path from where to pack the selected file. This allows for the creation of a sparse copy of the 
-   production tree, without any remapping. 
+   Specify a "root" path from where to pack the selected file.
+   This allows for the creation of a sparse copy of the production tree, without any remapping. 
 ``--warn-external``
    Report external libraries errors (missing paths) 
 
@@ -97,7 +102,8 @@ The command provides several options to adapt to different workflows (final dist
 Examples
 ^^^^^^^^
 
-Consider the following directory layout, and in particular the file *01_01_A.lighting.blend* with its linked libraries.
+Consider the following directory layout,
+and in particular the file *01_01_A.lighting.blend* with its linked libraries.
 
 .. code-block:: sh
    
@@ -113,8 +119,8 @@ Consider the following directory layout, and in particular the file *01_01_A.lig
          └─ 01_01_A.anim.blend  ------>| 
 
 
-Once we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend`` we obtain a *01_01_A.lighting.zip* inside of which 
-we find the following structure.
+Once we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend``
+we obtain a *01_01_A.lighting.zip* inside of which we find the following structure.
 
 .. code-block:: sh
    
@@ -128,8 +134,10 @@ we find the following structure.
                   ├─ agent.blend
                   └─ boris.blend
 
-Note how all paths have been remapped relative to the placement of *01_01_A.lighting.blend* in the root of the output. 
-If we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend --repo ~/agent327``, the output will be different.
+Note how all paths have been remapped relative to the placement
+of *01_01_A.lighting.blend* in the root of the output.
+If we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend --repo ~/agent327``,
+the output will be different.
 
 .. code-block:: sh
    
@@ -143,8 +151,9 @@ If we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend --repo ~/agent327
             ├─ 01_01_A.lighting.blend  < The BAM packed file
             └─ 01_01_A.anim.blend
 
-In this case no path is remapped, and we simply strip out any file that is not referenced as a direct or indirect
-dependency of *01_01_A.lighting.blend*. This is effectively a sparse copy of the original production tree.
+In this case no path is remapped, and we simply strip out any file
+that is not referenced as a direct or indirect dependency of *01_01_A.lighting.blend*.
+This is effectively a sparse copy of the original production tree.
 
 
 bam remap
@@ -184,10 +193,8 @@ This command is a 3 step process:
    take care not to modify the files once remap is started.
 
 
-
 Subcommands
 ^^^^^^^^^^^
-
 
 remap start
 """""""""""
@@ -231,6 +238,3 @@ Cancel path remapping
 
 ``-j``, ``--json``
     Generate JSON output
-
-
-

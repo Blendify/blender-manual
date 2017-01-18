@@ -56,7 +56,7 @@ Octahedral bone
    .. figure:: /images/rigging_armatures_visualization_type-octahedral.png
       :width: 300px
 
-      Note the 40° rolled Bone.001 bone.
+      Note th/home/aaron/BlenderDev/blender_docs/manual/rigging/armatures/properties/display.rste 40° rolled Bone.001 bone.
 
 Stick bone
    This is the simplest and most non-intrusive visualization.
@@ -124,7 +124,7 @@ X-Ray
    Very useful when not in *Wireframe* mode.
 Shapes
    When enabled, the default standard bone shape is replaced,
-   in *Object Mode* and *Pose Mode*,
-   by the shape of a chosen object (see :doc:`Shaped Bones </rigging/armatures/bones/properties/display>` for details).
+   in *Object Mode* and *Pose Mode*, by the shape of a chosen object
+   (see :doc:`Shaped Bones </rigging/armatures/bones/properties/display>` for details).
 Delay Refresh
    When enabled, the bone does not deform its children when manipulating the bone in pose mode.

@@ -44,8 +44,8 @@ Border/ Circle Select
 Select Linked
 =============
 
-:kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point, and all the linked ones,
-i.e. all points belonging to the same curve. Note that for Bézier,
+:kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point,
+and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier,
 using :kbd:`L` with a handle selected will select the whole control point and all the linked ones.
 
 

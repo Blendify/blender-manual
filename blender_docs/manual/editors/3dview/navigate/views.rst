@@ -82,7 +82,7 @@ In this arrangement, you can zoom and pan each view independently but you cannot
 .. rubric:: Shortcuts for all views at once:
 
 - View All :kbd:`Ctrl-Home`
-- View Selected :kbd:`Ctrl-NumpadPeriot`
+- View Selected :kbd:`Ctrl-NumpadPeriod`
 
 
 .. note::

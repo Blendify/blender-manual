@@ -64,10 +64,12 @@ Minimum intensity
 Game Physics
 ============
 
-The *Game Physics* located in the *World* panel determine the type of physical rules that govern the Game Engine scene,
-and the gravity value to be used. Based on the physics engine selected, in physics simulations in the Game Engine,
+The *Game Physics* located in the *World* panel determine the type
+of physical rules that govern the Game Engine scene, and the gravity value to be used.
+Based on the physics engine selected, in physics simulations in the Game Engine,
 Blender will automatically move *Actors* in the downward (-Z) direction.
-After you arrange the actors and they move as you wish, you can then bake this computed motion into keyframes
+After you arrange the actors and they move as you wish,
+you can then bake this computed motion into keyframes
 (see :ref:`game-engine-physics-bake-keyframes` for more info).
 
 Physics Engine
@@ -111,8 +113,8 @@ Physics Deactivation
    Angular Threshold
       Same as linear threshold, but for rotation limit (in rad/s)
    Time
-      The amount of time in which the object must have motion below the thresholds for physics to be disabled
-      (0.0 disables physics deactivation).
+      The amount of time in which the object must have motion below the thresholds
+      for physics to be disabled (0.0 disables physics deactivation).
 
 
 Obstacle Simulation
