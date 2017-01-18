@@ -260,9 +260,9 @@ Color Mode
    *Color Mode* for the active *F-Curve*.
 
    Auto Rainbow
-      Increment the *HUE* of the *F-Curve* color based on the channel index.
+      Increment the *hue* of the *F-Curve* color based on the channel index.
    Auto XYZ to RGB
-      For property sets like location xyz, automatically set the set of colors to red, green, blue.
+      For property sets like location XYZ, automatically set the set of colors to red, green, blue.
    User Defined
       Define a custom color for the active *F-Curve*.
 
@@ -276,14 +276,9 @@ Active Keyframe Panel
 
 
 Interpolation
-   Set the forward interpolation for the active keyframe.
-
-   Constant
-      Keep the same value till the next keyframe.
-   Linear
-      The difference between the next keyframe.
-   Bézier
-      Bézier interpolation to the next keyframe.
+   Set the forward :ref:`editors-graph-fcurves-settings-interpolation` for the active keyframe.
+Easing
+   See :ref:`editors-graph-fcurves-settings-easing`.
 Key
    Frame
       Set the frame for the active keyframe.

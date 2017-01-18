@@ -63,7 +63,11 @@ Interpolation Mode
    | Hotkey:   :kbd:`T`
 
 
-You have three choices:
+Mode for the :term:`Interpolation` between the current and next keyframe. 
+
+
+Interpolation
+^^^^^^^^^^^^^
 
 Constant
    There is no interpolation at all. The curve holds the value of its last keyframe,
@@ -76,7 +80,7 @@ Constant
       Constant.
 
 Linear
-   This simple interpolation creates a straight segment between each neighbor keyframes, giving a broken line.
+   This simple interpolation creates a straight segment, giving a noncontinuous line.
    It can be useful when using only two keyframes and the *Extrapolation* extend mode,
    to easily get an infinite straight line (i.e. a linear curve).
 
@@ -94,9 +98,82 @@ Bézier
 
       Bézier.
 
+.. note::
 
-Remember that some F-Curves can only take discrete values,
-in which case they are always shown as if constant interpolated, whatever option you chose.
+   Remember that some F-Curves can only take discrete values,
+   in which case they are always shown as if constant interpolated, whatever option you chose.
+
+
+Easing (by strength)
+^^^^^^^^^^^^^^^^^^^^
+
+"Robert Penner easing equations" (basically, equations which define some preset ways that
+one keyframe transitions to another) which reduce the amount of manual work (inserting and tweaking keyframes)
+to achieve certain common effects. For example, snappy movements.
+
+- Linear
+- Sinusoidal
+- Quadratic
+- Cubic
+- Quartic
+- Quintic
+- Exponential
+- Circular
+
+.. seealso::
+
+   For more info and a few live demos, see http://easings.net and 
+   http://www.robertpenner.com/easing/
+
+
+Dynamic Effects
+^^^^^^^^^^^^^^^
+
+These additional easing types imitate (fake) physics-based effects like bouncing/springing effects.
+The corresponding settings can be found in the :menuselection:`Properties region --> Active Keyframe panel`.
+
+Elastic
+   This is like bending a stiff pole stuck to some surface, and watching it rebound and settle back to its original state.
+
+   Amplitude
+      The amplitude property controls how strongly the oscillation diverges from the basic curve.
+      At 0.0, there is no oscillation (i.e. it just snaps to the B-value like an extreme exponential transition),
+      and at 1.0 a profile similar to the one shown in the icon occurs.
+   Period
+      The period property controls the frequency with which oscillations occur.
+      Higher values result in denser oscillations.
+Bounce
+   Self-explanatory; e.g. for Bouncing balls, etc.
+Back
+   Use this one when you want a bit of an overshoot coming into the next keyframe,
+   or perhaps for some wind-up anticipation.
+
+   Back
+      The back property controls the size and direction (i.e. above/below the curve) of the overshoot.
+
+
+.. _editors-graph-fcurves-settings-easing:
+
+Easing Type
+-----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Key --> Easing Type`
+   | Hotkey:   :kbd:`Ctrl-E`
+
+The Easing Type controls which end of the segment between the two keyframes that the easing effects apply to. 
+
+Automatic Easing
+   The most commonly expected of the below behaviors is used.
+   For the transitional effects, this is basically *ease in*, while for the physics effects it is *ease out*.
+Ease In
+   Effect builds up to the second keyframe.
+Ease Out
+   Effect fades out from the first keyframe.
+Ease In Out
+   Effect occurs on both ends of the segment.
 
 
 Extrapolation
