@@ -423,7 +423,8 @@ This page lists definitions for terms used in Blender and this manual.
       used to create small antialised samples of an image used for texturing.
       The mipmapping calculations are made by CPUs, but modern graphic processors
       can be selected for this task and are way faster. 
-      See: :doc:`System </preferences/system>`. at the User Preferences editor.
+
+      See the Mipmap option present in the :doc:`System </preferences/system>` tab, located at the User Preferences editor.
 
    Motion Blur
       The phenomenon that occurs when we perceive a rapidly moving object.
