@@ -411,6 +411,19 @@ This page lists definitions for terms used in Blender and this manual.
    Micropolygons
       A polygon roughly the size of a pixel or smaller.
 
+   MIP
+   Mipmaps
+   Mipmapping
+      'MIP' is an acronym of the Latin phrase 'multum in parvo', meaning 'much in little'.
+      Mipmaps are progressively lower resolution representations of an image, 
+      generally reduced by half squared interpolations using antialiasing.
+      Mipmapping is the procces used to calculate lower resolutions of the 
+      same image, reducing memory usage for visualization and also a procces
+      used to create small antialised samples of an image used for texturing.
+      The mipmapping calculations are made by CPUs, but modern graphic processors
+      can be selected for this task and are way faster. 
+      See: :doc:`System </preferences/system>`. at the User Preferences editor.
+
    Motion Blur
       The phenomenon that occurs when we perceive a rapidly moving object.
       The object appears to be blurred because of our persistence of vision.
