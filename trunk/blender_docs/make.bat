@@ -87,6 +87,8 @@ if "%1" == "html" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/html.
+	echo.To view, run:
+	echo.  start %BUILDDIR%/html/contents.html
 	pause
 	goto EOF
 )
@@ -96,11 +98,16 @@ if "%1" == "singlehtml" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
+	echo.To view, run:
+	echo.  start %BUILDDIR%/singlehtml/contents.html
 	goto EOF
 )
 
 if "%1" == "readme" (
-	rst2html5.py readme.rst > readme.html
+	rst2html5.py readme.rst > build/readme.html
+	echo.Build finished. The HTML page is in %BUILDDIR%/readme.html.
+	echo.To view, run:
+	echo.  start %BUILDDIR%/readme.html
 	goto EOF
 )
 
@@ -210,7 +217,7 @@ if "%1" == "report_po_progress" (
 
 )
 
-if "%1" == "check_structure" (          	
+if "%1" == "check_structure" (
 	python tools/rst_check_structure.py --image --locale > rst_check_structure.log
 	type rst_check_structure.log
 	DEL rst_check_structure.log
@@ -220,6 +227,5 @@ if "%1" == "check_structure" (
 	echo.Command not found, type make help for a list of commands. Aborting...
 	goto EOF
 )
-
 
 :EOF

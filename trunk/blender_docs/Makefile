@@ -88,10 +88,16 @@ pdf: .FORCE
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	sphinx-build -b latex ./manual "$(BUILDDIR)/latex"
 	make -C "$(BUILDDIR)/latex" LATEXOPTS="-interaction nonstopmode"
-	@echo "  "$(OPEN_CMD)" $(BUILDDIR)/latex/blender_manual.pdf"
+
+	@echo "To view, run:"
+	@echo "  "$(OPEN_CMD)" $(shell pwd)"/$(BUILDDIR)/latex/blender_manual.pdf"
 
 readme: .FORCE
-	rst2html5 readme.rst > readme.html
+	rst2html5 readme.rst > ./build/readme.html
+
+	@echo "Build finished. The HTML page is in $(BUILDDIR)/readme.html."
+	@echo "To view, run:"
+	@echo "  "$(OPEN_CMD)" $(shell pwd)"/$(BUILDDIR)/readme.html"
 
 check_syntax: .FORCE
 	- python3 tools/rst_check_syntax.py --long > rst_check_syntax.log
