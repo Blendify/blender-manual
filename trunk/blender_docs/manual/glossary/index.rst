@@ -140,7 +140,7 @@ This page lists definitions for terms used in Blender and this manual.
       Matte compositing:
          Refers to a point in the color gamut surrounded by a mixture of a determined spectrum of its RGB neighboring colors.
          This point is called *Chroma key* and this key (a chosen color) is used to create an *Alpha Mask*.         
-         The total ammount of gamut space for the chrominance is defined by users in a circular or square shaped format.  
+         The total ammount of gamut space for this chrominance point is defined by users in a circular or square shaped format.  
 
    Clamp
    Clamping
