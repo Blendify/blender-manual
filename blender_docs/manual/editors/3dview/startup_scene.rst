@@ -1,11 +1,11 @@
-.. this file has many potential placements: interface, data/scenes, 3d view, info editor, user preferences
 
 *************
 Startup Scene
 *************
 
 After closing the splash the startup scene is displayed in the 3D View,
-if no other blend-file was loaded.
+if no other blend-file was loaded. A customized startup scene
+can be saved as a part of the :doc:`startup file </data_system/files/startup_file>`.
 
 .. figure:: /images/editors_3dview_startup_scene.png
 
@@ -63,4 +63,4 @@ Object Info
    The color of the Object Info is set by the :ref:`animation-state-colors` (keyframe only).
 
 
-.. saving the startup scene part of the startup file, rendering the startup scene
+.. (todo) rendering the startup scene

@@ -71,7 +71,7 @@ When you open a file, enabling the *Load UI* in the file browser indicates that 
 use the file's screen layouts and overriding the current layout.
 See :ref:`Load UI <file-load-ui>`.
 
-A custom set of screen layouts can be saved as a part of the :ref:`startup-file`.
+A custom set of screen layouts can be saved as a part of the :doc:`/data_system/files/startup_file`.
 
 
 Additional Layouts
