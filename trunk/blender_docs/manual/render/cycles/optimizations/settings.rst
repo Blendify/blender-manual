@@ -43,7 +43,7 @@ Progressive Refine
    For rendering animations it is best to disable this feature, as stopping a frame early is not possible.
 
 Save Buffers
-   Save all render layers and passes to disk in the temp directory, and read them back after rendering has
+   Saves all render layers and passes to the temp directory on a drive, and read them back after rendering has
    finished. This saves memory usage during rendering, particularly when using many render layers and passes.
 
 

@@ -10,7 +10,8 @@ Blender can be used to create 3D visualizations such as still images, video, and
 Blender is well suited to individuals and small studios who
 benefit from its unified pipeline and responsive development process.
 
-Blender is a cross-platform application, running on Linux, macOS, and MS-Windows systems with a small memory and disk footprint.
+Blender is a cross-platform application, running on Linux, macOS, and MS-Windows systems.
+Blender also has a relatively small memory and drive requirements compared to other 3D creation suites.
 Its interface uses OpenGL to provide a consistent experience across all supported hardware and platforms.
 
 .. figure:: /images/getting-started_intro_bigbuckbunny.jpg

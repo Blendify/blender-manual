@@ -65,8 +65,8 @@ Animated
    The map is calculated each time a rendering takes place.
    This means moving Objects are displayed correctly in mirroring surfaces.
 Image File
-   When saved as an image file, environment maps can be loaded from disk.
-   This option allows the fastest rendering with environment maps,
+   When saved as an image file, environment maps can be loaded from an image file.
+   This allows the fastest rendering with environment maps,
    and also gives the ability to modify or use the environment map in an external application.
 
    When using planar reflections, if the camera is the only moving object and you have a reflecting plane,
@@ -81,7 +81,8 @@ Specials
       things in your scene since the last time the environment map was rendered.
       *Animated* environment maps do this automatically on every render.
    Save Environment Map
-      Saves the currently stored static environment map to disk as an image file. This can be loaded again with *Load*.
+      Saves the currently stored static environment map to an image file on a drive.
+      This can be loaded again with *Load*.
    Clear All Environment Maps
       Does the same as *Free Data*, but with all environment maps in the scene.
       This is a useful shortcut when using recursive environment maps (when the *Depth* is greater than 0).

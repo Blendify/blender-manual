@@ -7,7 +7,7 @@ The *Ocean Modifier* is an ocean simulation tool to simulate and generate a defo
 and associated texture, used to render the simulation data.
 It is intended to simulate deep ocean waves and foam.
 
-The *Ocean Modifier* is a port from the open source Houdini Ocean Toolkit. 
+The *Ocean Modifier* is a port from the open source Houdini Ocean Toolkit.
 
 
 Options
@@ -131,7 +131,7 @@ Foam Data Layer Name
 Baking
 ======
 
-Rather than simulating the ocean data live, the ocean data can be baked to disk.
+Rather than simulating the ocean data live, the ocean data can be baked to a file on a drive.
 When a simulation is baked, the simulator engine is completely bypassed,
 and the modifier/texture retrieves all information from the baked files.
 
@@ -145,11 +145,11 @@ Baking can be advantageous for a few reasons:
 Data Files
 ----------
 
-Simulation data is stored in disk as sequences of ``OpenEXR`` image maps, one for each of displacement,
-normal and foam (if enabled to be generated). Upon loading the data from these baked files,
-when a frame of the bake sequence is read from disk, it is cached in memory.
-This means that accessing loaded frames subsequent times is fast,
-not incurring the overhead of disk access.
+Simulation data is stored on a drive as sequences of ``OpenEXR`` image maps,
+one for each of displacement, normals, and foam (if enabled to be generated).
+Upon loading the data from these baked files, when a frame of the bake sequence is read from a drive,
+it is cached in memory. This means that accessing loaded frames subsequent times is fast,
+not incurring the overhead of drive access.
 
 Since these baked files are plain ``OpenEXR``\ s,
 they can also be opened and rendered in any other application or renderer that supports them.

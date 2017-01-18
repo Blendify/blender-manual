@@ -238,15 +238,6 @@ Image Draw Method
 Sequencer/Clip Editor
 =====================
 
-..
-   NOTE: this is currently commented out in the code.
-   Prefetch Frames
-      Number of frames to render ahead during playback.
-      Useful when the chosen video codec cannot sustain screen frame rates
-      correctly using direct rendering from the disk to video.
-      During video playbacks or editing operations.
-      Minimum: *0*, Maximum: *500*.
-
 Memory Cache Limit
    Upper limit of the sequencer's memory cache (megabytes).
    For optimum clip editor and sequencer performance, high values are recommended.
@@ -260,8 +251,7 @@ mostly during *Solid view*. Lighting is constant and position "world" based.
 There are three virtual light sources, also called OpenGL auxiliary lamps,
 used to illuminate 3D View scenes, which will not display in renders.
 
-
-The Lamp Icons allows the user to enable or disable OpenGL Lamps.
+The Lamp icons allows the user to enable or disable OpenGL lamps.
 At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D View.
 The lamps are equal, their difference is their positioning and colors.
 You can control the direction of the lamps, as well as their diffuse and specular colors.

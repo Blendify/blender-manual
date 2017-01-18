@@ -31,7 +31,7 @@ Compression
       Compression will result in smaller cache files more than *Light*,
       however, requires more CPU time to compress/decompress.
 External
-   Read and write the cache to disk using a user-specified file path.
+   Read and write the cache to a drive using a user-specified file path.
 
    Index Number
       This number specifies which cache should be used
