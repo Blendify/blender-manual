@@ -181,7 +181,7 @@ rounds up to 0 since the Round() function does not return a negative number.
 Sometimes using a spreadsheet can help you figure out how to put these nodes together to get
 the result that you want. Stepping you through the formula for :math:`n = 6` and :math:`x = 0.70`,
 locate the line on the spreadsheet that has the 8-bit value 179 and R value 0.7.
-Multiplying by 6 gives 4.2 . Subtracting 1/2 gives 3.7, which rounds up to
+Multiplying by 6 gives 4.2. Subtracting 1/2 gives 3.7, which rounds up to
 4.4 divided by 5 = 0.8. Thus, f(0.7, 6) = 0.8 or an 8-bit value of 204.
 You can see that this same 8-bit value is output for a range of input values.
 

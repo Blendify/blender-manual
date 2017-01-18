@@ -320,7 +320,7 @@ Character
 Word
    A factor by which whitespace between words is scaled in width.
    You can also control it by pressing :kbd:`Alt-Left` or :kbd:`Alt-Right`
-   to decrease/increase spacing by steps of 0.1 .
+   to decrease/increase spacing by steps of 0.1.
 Line
    A factor by which the vertical space between lines is scaled.
 
