@@ -71,7 +71,7 @@ $(CHAPTERS): $(.DEFAULT_GOAL)
 html: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	$(SPHINXBUILD) -v -w -T -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
+	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
 
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
