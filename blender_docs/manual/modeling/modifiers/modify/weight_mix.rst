@@ -165,7 +165,7 @@ of 1.0. And all those vertices are also added to the affected vertex group.
 
 Now, select or create a masking texture.
 The values of this texture will control how much of the "second weight" of 1.0
-replaces the "first weight" of 0.0 ... In other words, they are taken as weight values!
+replaces the "first weight" of 0.0... In other words, they are taken as weight values!
 
 You can then select which texture coordinates and channel to use.
 Leave the mapping to the default *Local* option, and play with the various channels...

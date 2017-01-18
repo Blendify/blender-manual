@@ -26,14 +26,11 @@ Note that some of these can also be used on other editable objects, like curves,
 and lattices.
 
 
-Types of Tools
-==============
+Accessing Mesh Tools
+====================
 
 The mesh tools are found in various places, and available through shortcuts as well.
 
-
-Accessing Mesh Tools
-====================
 
 Mesh Tools Shelf
 ----------------

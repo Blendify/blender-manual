@@ -69,7 +69,7 @@ Normalize
 
 This tool only works on the active Vertex Group.
 All vertices keep their relative weights,
-but the entire set of weights is scaled up such that the highest weight value is 1.0 .
+but the entire set of weights is scaled up such that the highest weight value is 1.0.
 
 
 Mirror

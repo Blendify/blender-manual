@@ -56,7 +56,7 @@ Octahedral bone
    .. figure:: /images/rigging_armatures_visualization_type-octahedral.png
       :width: 300px
 
-      Note th/home/aaron/BlenderDev/blender_docs/manual/rigging/armatures/properties/display.rste 40° rolled Bone.001 bone.
+      Note the 40° rolled Bone.001 bone.
 
 Stick bone
    This is the simplest and most non-intrusive visualization.
