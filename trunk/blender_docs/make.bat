@@ -121,7 +121,6 @@ if "%1" == "pdf" (
 	goto EOF
 )
 
-
 if "%1" == "gettext" (
 	%SPHINXBUILD% -t builder_html -b gettext %I18NSPHINXOPTS% %BUILDDIR%/locale
 	if errorlevel 1 exit /b 1
@@ -143,6 +142,17 @@ if "%1" == "epub3" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The epub3 file is in %BUILDDIR%/epub3.
+	goto EOF
+)
+
+if "%1" == "translations" (
+	sphinx-intl build
+	%SPHINXBUILD% -b html -D language='%2' %ALLSPHINXOPTS% %BUILDDIR%/html
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
+	echo.To view, run:
+	echo.  start %BUILDDIR%/html/contents.html
 	goto EOF
 )
 
