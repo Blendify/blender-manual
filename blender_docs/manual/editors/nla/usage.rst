@@ -27,8 +27,10 @@ Lock (Lock icon)
 Action Track
 ------------
 
+.. (alt) icon: downwards chevron
+
 Push Down (double down arrow peak icon)
-   Turns the action into a new action strip.
+   Turns the active action into a new NLA strip the top of the NLA stack.
 
    .. figure:: /images/editors_nla_push-down-button.png
 
@@ -42,7 +44,7 @@ Pin (Pin icon)
 
    .. figure:: /images/editors_nla_pinned_01.png
 
-      Nla strip with pinned keys.
+      NLA strip with pinned keys.
 
    .. figure:: /images/editors_nla_pin_02.png
 
@@ -108,7 +110,7 @@ A meta strip can be moved and duplicated like a normal strip.
    * - .. figure:: /images/editors_nla_meta_strips_01.png
           :width: 200px
 
-          Shift-select two or more strips..
+          Shift-select two or more strips.
 
      - .. figure:: /images/editors_nla_meta_strips_02.png
           :width: 200px
@@ -145,7 +147,7 @@ The keyframes of the action can then be edited in the Dope Sheet.
    * - .. figure:: /images/editors_nla_strip_nla_mode.png
           :width: 200px
 
-          Strip in NLA mode..
+          Strip in NLA mode.
 
      - .. figure:: /images/editors_nla_strip_editmode.png
           :width: 200px

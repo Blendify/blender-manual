@@ -102,80 +102,74 @@ See :doc:`Markers </animation/markers>` for more info.
 Header
 ======
 
-Here you will find:
-
-- The menus.
-- Graph Editor mode.
-- View controls.
-- Curve controls.
-
-
-Header Controls
----------------
-
-.. figure:: /images/graph_header_mode.jpg
-
-   Graph Mode.
-
-
 Mode
    F-Curve for :doc:`Actions </animation/actions>`,
    and Drivers for :doc:`Drivers </animation/drivers/index>`.
+
+   .. figure:: /images/graph_header_mode.jpg
+
+      Graph Mode.
+
+
+View Controls
+-------------
 
 .. figure:: /images/editors_graph-editor_introduction_header_view.png
 
    View Controls.
 
+Show Only Selected
+   Only include curves related to the selected objects and data.
+Show Hidden
+   Include curves from objects/bones that are not visible.
+Show Only Errors
+   Only include curves and drivers that are disabled or have errors.
+   Useful for debugging.
+Search Filter
+   Only include curves with keywords contained in the search field.
+Type Filter
+   Filter curves by property type.
+Normalize
+   Normalize curves so the maximum or minimum point equals 1.0 or -1.0.
 
-View controls
-   Show Only Selected
-      Only include curves related to the selected objects and data.
-   Show Hidden
-      Include curves from objects/bones that are not visible.
-   Show Only Errors
-      Only include curves and drivers that are disabled or have errors.
-      Useful for debugging.
-   Search Filter
-      Only include curves with keywords contained in the search field.
-   Type Filter
-      Filter curves by property type.
-   Normalize
-      Normalize curves so the maximum or minimum point equals 1.0 or -1.0.
+   Auto
+      Automatically recalculate curve normalization on every curve edit.
+      This is useful to prevent curves from jumping after tweaking it.
 
-      Auto
-         Automatically recalculate curve normalization on every curve edit.
-         This is useful to prevent curves from jumping after tweaking it.
+
+Curve Controls
+--------------
 
 .. figure:: /images/editors_graph-editor_introduction_header_edit.png
 
    Curve Controls.
 
+Auto Snap
+   Auto snap the keyframes for transformations.
 
-Curve controls
-   Auto Snap
-      Auto snap the keyframes for transformations.
+   - No Auto-Snap
+   - Frame Step
+   - Second Step
+   - Nearest Frame
+   - Nearest Second
+   - Nearest Marker
 
-      - *No Auto-Snap*
-      - *Time Step*
-      - *Nearest Frame*
-      - *Nearest Marker*
+Pivot Point
+   Pivot point for rotation.
 
-   Pivot Point
-      Pivot point for rotation.
+   Bounding Box Center
+      Center of the selected keyframes.
+   2D Cursor
+      Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
+   Individual Centers
+      Rotate the selected keyframe *Bézier* handles.
 
-      Bounding Box Center
-         Center of the selected keyframes.
-      2D Cursor
-         Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
-      Individual Centers
-         Rotate the selected keyframe *Bézier* handles.
-
-   Copy Keyframes
-      Copy the selected keyframes to memory (:kbd:`Ctrl-C`).
-   Paste Keyframes
-      Paste keyframes from memory to the current frame for selected curves (:kbd:`Ctrl-V`).
-   Create Snapshot
-      Creates a picture with the current shape of the curves.
+Copy Keyframes :kbd:`Ctrl-C`
+   Copy the selected keyframes to memory.
+Paste Keyframes :kbd:`Ctrl-V`
+   Paste keyframes from memory to the current frame for selected curves.
+Create Snapshot
+   Creates a picture with the current shape of the curves.
 
 
 Channels Region
@@ -284,10 +278,11 @@ Key
       Set the frame for the active keyframe.
    Value
       Set the value for the active keyframe.
-Left Handle
-   Set the position of the left interpolation handle for the active keyframe.
-Right Handle
-   Set the position of the right interpolation handle for the active keyframe.
+Left/Right Handle
+   Set the position of the left/right interpolation handle for the active keyframe.
+
+   Handle Type
+      See :ref:`editors-graph-fcurves-settings-handles`.
 
 
 Drivers Panel
