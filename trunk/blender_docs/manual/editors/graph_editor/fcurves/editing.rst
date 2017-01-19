@@ -32,7 +32,7 @@ Divide Transformation by 10.0 :kbd:`Shift`.
 
 
 Snap
-----------
+----
 
 .. admonition:: Reference
    :class: refbox
@@ -55,8 +55,7 @@ Nearest Marker
 Flatten Handles
    Flatten the *Bézier* handles for the selected keyframes.
 
-   .. list-table::
-      Flatten Handles snapping example.
+   .. list-table:: Flatten Handles snapping example.
 
       * - .. figure:: /images/animation-f-curves-flatten-handles-1.png
              :width: 200px

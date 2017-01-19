@@ -3,7 +3,7 @@
 Introduction
 ************
 
-The graph editor is the main animation editor.
+The Graph editor is the main animation editor.
 It allows you to modify the animation for any properties using
 :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`.
 
@@ -118,14 +118,14 @@ View Controls
 
    View Controls.
 
-Show Only Selected
+Show Only Selected (mouse cursor icon)
    Only include curves related to the selected objects and data.
-Show Hidden
+Show Hidden (ghost icon)
    Include curves from objects/bones that are not visible.
-Show Only Errors
+Show Only Errors (livesaver icon)
    Only include curves and drivers that are disabled or have errors.
    Useful for debugging.
-Search Filter
+Search Filter (magnifying glass icon)
    Only include curves with keywords contained in the search field.
 Type Filter
    Filter curves by property type.
@@ -168,7 +168,7 @@ Copy Keyframes :kbd:`Ctrl-C`
    Copy the selected keyframes to memory.
 Paste Keyframes :kbd:`Ctrl-V`
    Paste keyframes from memory to the current frame for selected curves.
-Create Snapshot
+Create Snapshot (ghost icon)
    Creates a picture with the current shape of the curves.
 
 
@@ -212,6 +212,9 @@ Properties Region
 The panels in the *Properties Region*.
 
 
+View Tab
+--------
+
 View Properties Panel
 ---------------------
 
@@ -236,79 +239,16 @@ Cursor Y
       Snap selected keyframes to the *Cursor*.
 
 
-Active F-Curve Panel
---------------------
+Further Tabs
+------------
 
-.. figure:: /images/graph_active_fcurve_panel.png
-
-   Active F-Curve Panel.
-
-
-This panel displays properties for the active *F-Curve*.
-
-Channel Name
-   *ID Type* + Channel name (X Location).
-RNA Path
-   *RNA Path* to property + Array index.
-Color Mode
-   *Color Mode* for the active *F-Curve*.
-
-   Auto Rainbow
-      Increment the *hue* of the *F-Curve* color based on the channel index.
-   Auto XYZ to RGB
-      For property sets like location XYZ, automatically set the set of colors to red, green, blue.
-   User Defined
-      Define a custom color for the active *F-Curve*.
-
-
-Active Keyframe Panel
----------------------
-
-.. figure:: /images/graph_active_keyframe_panel.png
-
-   Active Keyframe Panel.
-
-
-Interpolation
-   Set the forward :ref:`editors-graph-fcurves-settings-interpolation` for the active keyframe.
-Easing
-   See :ref:`editors-graph-fcurves-settings-easing`.
-Key
-   Frame
-      Set the frame for the active keyframe.
-   Value
-      Set the value for the active keyframe.
-Left/Right Handle
-   Set the position of the left/right interpolation handle for the active keyframe.
-
-   Handle Type
-      See :ref:`editors-graph-fcurves-settings-handles`.
-
-
-Drivers Panel
--------------
-
-.. figure:: /images/graph_drivers_panel.png
-
-   Drivers Panel.
-
-
-See :doc:`/animation/drivers/drivers_panel` for more info.
-
-
-Modifiers Panel
----------------
-
-.. figure:: /images/graph_modifiers_panel.jpg
-
-   Modifiers Panel.
-
-
-See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>` for more info.
+F-Curve Tab
+   See :doc:`F-Curve </editors/graph_editor/fcurves/properties>`.
+Drivers Tab
+   See :doc:`/animation/drivers/drivers_panel`.
+Modifiers Tab
+   See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>`.
 
 .. seealso::
 
-   - :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves/introduction>`
-   - :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fcurves/fmodifiers>`
-   - :doc:`Actions </animation/actions>`
-   - :doc:`Drivers </animation/drivers/index>`
+   :doc:`Actions </animation/actions>`

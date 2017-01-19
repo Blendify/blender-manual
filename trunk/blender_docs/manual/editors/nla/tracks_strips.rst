@@ -1,9 +1,9 @@
 ..    TODO/Review: {{review|text=Needs clarification & updates.
       |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]}}.
 
-*****
-Usage
-*****
+***************
+Tracks & Strips
+***************
 
 Tracks
 ======
@@ -30,7 +30,7 @@ Action Track
 .. (alt) icon: downwards chevron
 
 Push Down (double down arrow peak icon)
-   Turns the active action into a new NLA strip the top of the NLA stack.
+   Turns the active action into a new NLA strip at the top of the NLA stack.
 
    .. figure:: /images/editors_nla_push-down-button.png
 

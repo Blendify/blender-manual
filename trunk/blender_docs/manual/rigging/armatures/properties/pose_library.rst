@@ -26,10 +26,10 @@ Pose Libraries
          In contrast to *Add New* and *Replace Existing* which automatically allocate a pose to an action frame.
       Replace Existing
          Replace an existing pose in the active Pose Library with the current pose of the armature.
-Apply Pose
-   Apply the active pose to the selected pose bones (magnifying glass icon).
-Sanitize Action
-   Makes a action suitable for use as a Pose Library (livesaver icon).
+Apply Pose (magnifying glass icon)
+   Apply the active pose to the selected pose bones.
+Sanitize Action (livesaver icon)
+   Makes a action suitable for use as a Pose Library.
    This is used to convert an Action to a Pose Library.
    A pose is added to the Pose Library for each frame with keyframes.
 
