@@ -7,5 +7,5 @@ NLA Editor
    :maxdepth: 2
 
    introduction.rst
-   usage.rst
+   tracks_strips.rst
    properties_modifiers.rst
