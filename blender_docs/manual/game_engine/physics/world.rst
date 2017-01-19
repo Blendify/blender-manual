@@ -4,7 +4,7 @@
 World Physics
 *************
 
-.. figure:: /images/bge_world_materials.png
+.. figure:: /images/bge_world_physics.png
    :align: rights
    :width: 290px
 
