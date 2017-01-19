@@ -4,8 +4,15 @@
 World Physics
 *************
 
-Game Physics
-============
+.. figure:: /images/bge_world_materials.png
+   :align: rights
+   :width: 290px
+
+   BGE World Physics Panel.
+
+
+Physics Panel
+=============
 
 The *Game Physics* located in the *World* panel determine the type
 of physical rules that govern the Game Engine scene, and the gravity value to be used.

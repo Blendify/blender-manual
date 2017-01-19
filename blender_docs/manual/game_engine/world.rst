@@ -3,10 +3,11 @@
 World
 *****
 
-.. figure:: /images/bge_world.jpg
-   :width: 292px
+.. figure:: /images/bge_world_materials.png
+   :align: rights
+   :width: 290px
 
-   BGE World Panel (fully expanded).
+   BGE World Panel.
 
 
 World settings enable you to set some basic effects which affect all scenes throughout your
