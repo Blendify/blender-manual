@@ -26,57 +26,71 @@ Transform Snapping
 When transforming keyframes with :kbd:`G`, :kbd:`R`, :kbd:`S`,
 the transformation can be snapped to increments.
 
-Snap Transformation to 1.0 :kbd:`Ctrl`
+Snap Transformation to 1.0 :kbd:`Ctrl`.
 
-Divide Transformation by 10.0 :kbd:`Shift`
+Divide Transformation by 10.0 :kbd:`Shift`.
+
+
+Snap
+----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Key --> Snap`
+   | Hotkey:   :kbd:`Shift-S`
 
 Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 
-Snap Keys :kbd:`Shift-S`
-   Current Frame
-      Snap the selected keyframes to the *Time Cursor*.
-   Cursor Value
-      Snap the selected keyframes to the *Cursor*.
-   Nearest Frame
-      Snap the selected keyframes to their nearest frame individually.
-   Nearest Second
-      Snap the selected keyframes to their nearest second individually, based on the *FPS* of the scene.
-   Nearest Marker
-      Snap the selected keyframes to their nearest marker individually.
-   Flatten Handles
-      Flatten the *Bézier* handles for the selected keyframes.
+Current Frame
+   Snap the selected keyframes to the *Time Cursor*.
+Cursor Value
+   Snap the selected keyframes to the *Cursor*.
+Nearest Frame
+   Snap the selected keyframes to their nearest frame individually.
+Nearest Second
+   Snap the selected keyframes to their nearest second individually, based on the *FPS* of the scene.
+Nearest Marker
+   Snap the selected keyframes to their nearest marker individually.
+Flatten Handles
+   Flatten the *Bézier* handles for the selected keyframes.
 
-      .. list-table::
-         Flatten Handles snapping example.
+   .. list-table::
+      Flatten Handles snapping example.
 
-         * - .. figure:: /images/animation-f-curves-flatten-handles-1.png
-                :width: 200px
+      * - .. figure:: /images/animation-f-curves-flatten-handles-1.png
+             :width: 200px
 
-                Before Flatten Handles.
+             Before Flatten Handles.
 
-           - .. figure:: /images/animation-f-curves-flatten-handles-2.png
-                :width: 200px
+        - .. figure:: /images/animation-f-curves-flatten-handles-2.png
+             :width: 200px
 
-                After Flatten Handles.
+             After Flatten Handles.
 
 
 Mirror
 ======
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Key --> Mirror`
+   | Hotkey:   :kbd:`Shift-M`
+
 Selected keyframes can be mirrored over different properties using the *Mirror Keys*
 tool.
 
-Mirror Keys :kbd:`Shift-M`
-   By Times Over Current Frame
-      Mirror horizontally over the *Time Cursor*.
-   By Values over Cursor Value
-      Mirror vertically over the *Cursor*.
-   By Times over Time 0
-      Mirror horizontally over frame 0.
-   By Values over Value 0
-      Mirror vertically over value 0.
-   By Times over First Selected Marker
-      Mirror horizontally the over the first selected *Marker*.
+By Times Over Current Frame
+   Mirror horizontally over the *Time Cursor*.
+By Values over Cursor Value
+   Mirror vertically over the *Cursor*.
+By Times over Time 0
+   Mirror horizontally over frame 0.
+By Values over Value 0
+   Mirror vertically over value 0.
+By Times over First Selected Marker
+   Mirror horizontally the over the first selected *Marker*.
 
 
 Clean Keyframes
@@ -159,7 +173,7 @@ Lowest frequency
 Highest frequency
    Cutoff frequency of a low-pass filter that is applied to the audio data.
 Attack time
-   Value for the hull curve calcuclation that tells how fast the hull curve can rise.
+   Value for the hull curve calculation that tells how fast the hull curve can rise.
    The lower the value the steeper it can rise.
 Release time
    Value for the hull curve calculation that tells how fast the hull curve can fall.

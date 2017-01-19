@@ -107,7 +107,7 @@ Bézier
 Easing (by strength)
 ^^^^^^^^^^^^^^^^^^^^
 
-"Robert Penner easing equations" (basically, equations which define some preset ways that
+The "Robert Penner easing equations" (basically, equations which define some preset ways that
 one keyframe transitions to another) which reduce the amount of manual work (inserting and tweaking keyframes)
 to achieve certain common effects. For example, snappy movements.
 
