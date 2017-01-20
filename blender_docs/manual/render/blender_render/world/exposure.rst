@@ -61,22 +61,22 @@ so that the darker parts of the image will not be changed at all
 
 .. list-table:: Utah Teapot.
 
-   * - .. figure:: /images/denseteapot.jpg
+   * - .. figure:: /images/render_blender-render_world_exposure_denseteapot.jpg
           :width: 320px
 
           An overexposed teapot.
 
-     - .. figure:: /images/denseteapot-range2.jpg
+     - .. figure:: /images/render_blender-render_world_exposure_denseteapot-range2.jpg
           :width: 320px
 
           Range: 2.0.
 
-   * - .. figure:: /images/denseteapot-range0_5.jpg
+   * - .. figure:: /images/render_blender-render_world_exposure_denseteapot-range0_5.jpg
           :width: 320px
 
           Range: 0.5.
 
-     - .. figure:: /images/denseteapot-range2_0-exposure0_3.jpg
+     - .. figure:: /images/render_blender-render_world_exposure_denseteapot-range2_0-exposure0_3.jpg
           :width: 320px
 
           Range: 2.0, Exposure: 0.3.

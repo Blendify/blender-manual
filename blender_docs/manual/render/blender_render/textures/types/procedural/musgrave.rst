@@ -35,27 +35,27 @@ Examples with Basis: Voronoi: F1, Dimension: 0.5, Lacunarity: 0.15, Octave: 2.0.
 
 .. list-table::
 
-   * - .. figure:: /images/musgrave_heteroterrain.jpg
+   * - .. figure:: /images/render_blender-render_textures_procedural_musgrave_heteroterrain.jpg
           :width: 120px
 
           Hetero Terrain.
 
-     - .. figure:: /images/musgrave_fbm.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_musgrave_fbm.jpg
           :width: 120px
 
           Fractal Brownian Motion.
 
-     - .. figure:: /images/musgrave_hybridmultifractal.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_musgrave_hybridmultifractal.jpg
           :width: 120px
 
           Hybrid Multifractal.
 
-     - .. figure:: /images/musgrave_ridgedmultifractal.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_musgrave_ridgedmultifractal.jpg
           :width: 120px
 
           Ridged Multifractal.
 
-     - .. figure:: /images/musgrave_multifractal.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_musgrave_multifractal.jpg
           :width: 120px
 
           Multifractal.

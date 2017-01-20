@@ -155,7 +155,7 @@ and have activated *Interpolated Children*,
 the *Child Simplification* option appears.
 The strand render has options to remove child strands as the object's faces become smaller.
 
-.. figure:: /images/strandrendersimplification.png
+.. figure:: /images/render_blender-render_materials_properties_strand-simplification.png
 
    Strand render child simplification.
 

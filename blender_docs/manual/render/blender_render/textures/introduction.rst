@@ -27,7 +27,7 @@ In order to deal with this unrealistic uniformity,
 Blender allows the user to apply *textures* which can modify the reflectivity, specularity,
 roughness and other surface qualities of a material.
 
-.. figure:: /images/texture-layers.jpg
+.. figure:: /images/render_blender-render_textures_introduction_layers.jpg
    :width: 320px
 
    Textures Layer on base Material.
@@ -47,7 +47,7 @@ The layers, if you will, are:
   in a misty/foggy sort of way by affecting the Alpha value.
 - These two textures are *mixed* with the base material to provide the net effect: a cube of purplish-brown fog.
 
-.. figure:: /images/somemetal.jpg
+.. figure:: /images/render_blender-render_textures_introduction_somemetal.jpg
    :width: 320px
 
    Some Metal Textures.

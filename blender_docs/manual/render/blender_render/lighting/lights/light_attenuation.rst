@@ -372,19 +372,19 @@ more and more objects become progressively brighter.
 
 .. list-table:: Various Distance settings (shadows disabled).
 
-   * - .. figure:: /images/bi_lamprender-distance10.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_distance10.jpg
 
           Distance: 10.
 
      - .. _fig-bi-light-attenuation-distance100:
 
-       .. figure:: /images/bi_lamprender-distance100.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_distance100.jpg
 
           Distance: 100.
 
      - .. _fig-bi-light-attenuation-distance1000:
 
-       .. figure:: /images/bi_lamprender-distance1000.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_distance1000.jpg
 
           Distance: 1000.
 
@@ -427,19 +427,19 @@ We can see this in the Fig. :ref:`fig-bi-light-attenuation-inverse-square` image
 
    * - .. _fig-bi-light-attenuation-inverse-square10:
 
-       .. figure:: /images/bi_lamprender-quad10.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_quad10.jpg
 
           Inverse Square with 10.
 
      - .. _fig-bi-light-attenuation-inverse-square100:
 
-       .. figure:: /images/bi_lamprender-quad100.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_quad100.jpg
 
           Inverse Square with 100.
 
      - .. _fig-bi-light-attenuation-inverse-square1000:
 
-       .. figure:: /images/bi_lamprender-quad1000.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_quad1000.jpg
 
           Inverse Square with 1000.
 
@@ -491,19 +491,19 @@ the light attenuation is progressive
 
    * - .. _fig-bi-light-attenuation-sphere10:
 
-       .. figure:: /images/bi_lamprender-sphere10.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_sphere10.jpg
 
           Sphere with 10.
 
      - .. _fig-bi-light-attenuation-sphere20:
 
-       .. figure:: /images/bi_lamprender-sphere20.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_sphere20.jpg
 
           Sphere with 20.
 
      - .. _fig-bi-light-attenuation-sphere40:
 
-       .. figure:: /images/bi_lamprender-sphere40.jpg
+       .. figure:: /images/render_blender-render_lighting_lights_attenuation_sphere40.jpg
 
           Sphere with 40.
 
