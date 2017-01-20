@@ -11,9 +11,9 @@ Introduction
 
 
 Classical hand-drawn animators often made a chart, showing exactly when each drawing,
-sound and camera move would occur, and for how long. They nicknamed this the "dopesheet".
+sound and camera move would occur, and for how long. They nicknamed this the "dope sheet".
 While CG foundations dramatically differ from classical hand-drawn animation,
-Blender's *Dopesheet* inherits a similar directive.
+Blender's *DopeSheet* inherits a similar directive.
 It gives the animator a "birds-eye-view" of every thing occurring within a scene.
 
 
@@ -25,23 +25,20 @@ Dope Sheet Modes
    Dope Sheet Modes.
 
 
-There are four basic views for the Dopesheet.These all view different contexts of animation:
+There are four basic views for the DopeSheet. These all view different contexts of animation:
 
-:doc:`DopeSheet </editors/dope_sheet/introduction>`
-   The dopeSheet allow you to edit multiple actions at once.
-:doc:`Action Editor </editors/dope_sheet/action>`
-   *Action Editor* is the default, and most useful one. It is here that you can define and control your actions.
-:doc:`Shape Key Editor </editors/dope_sheet/shapekey>`
-   *ShapeKey Editor* is dedicated to the *Shapekey* data-blocks.
-   It uses/edits the same action data-block as the previous mode.
-   It seems to be an old and useless thing,
-   as the *Action Editor* mode handles *Shape* channels very well, and this mode adds nothing...
-:doc:`Grease Pencil </interface/grease_pencil/index>`
-   *Grease Pencil* is dedicated to the :doc:`grease pencil tool's </interface/grease_pencil/drawing/layers>`
-   keyframes- for each grease pencil layer, you have a strip along which you can grab its keys,
+DopeSheet
+   The DopeSheet Mode allow you to edit multiple actions at once.
+Action Editor
+   :doc:`Action Editor </editors/dope_sheet/action>` is where you can define and control actions.
+Shape Key Editor
+   :doc:`ShapeKey Editor </editors/dope_sheet/shapekey>` is dedicated to the *Shapekey* data-blocks.
+Grease Pencil
+   :doc:`Grease Pencil </editors/dope_sheet/grease_pencil>` is dedicated to
+   the :doc:`grease pencil tool's </interface/grease_pencil/index>`
+   keyframes for each :doc:`grease pencil layer </interface/grease_pencil/drawing/layers>`,
+   you have a strip along which you can grab its keys,
    and hence easily re-time your animated sketches.
-   As it is just another way to see and edit the grease pencil data,
-   this mode uses no data-block (and hence has nothing to do with actions).
 
    .. note::
 
@@ -69,6 +66,9 @@ Header
 Here you find the menus, a first block of controls related to the editor "mode",
 a second one concerning the action data-blocks, and a few other tools
 (like the copy/paste buttons, and snapping type).
+
+Summary
+   ToDo.
 
 
 View Menu
@@ -117,16 +117,18 @@ Main Region
 
 It contains the keyframes for all visible action channels.
 As with the other "time" editor, the X-axis represents time.
-The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels.
+The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is a "stack" of action channels.
+
 Each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
 On these channel strips lay the keyframes, visualized as light-gray (unselected) or yellow (selected) diamonds.
+
 One of the key feature of this editor is that it allow you to visualize immediately which channel (i.e. F-Curve)
 is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes,
 a gray (unselected) or yellow (selected) line is drawn between them.
 
 
-"List-tree" Region
-------------------
+Channels Region
+---------------
 
 This part shows the action's channel "headers" and their hierarchy. Basically, there are:
 
@@ -134,7 +136,7 @@ This part shows the action's channel "headers" and their hierarchy. Basically, t
   (so there is one for *Object* one, one for *Shape* one, etc.).
   They gather *all* keyframes defined in their underlying F-Curve data-block.
 - "Mid-level" channels, which seem currently to have no use
-  (there iss one per top-level channel, they are all named *F-Curves*, and have no option at all).
+  (there is one per top-level channel, they are all named *F-Curves*, and have no option at all).
 - "Low-level" channels, which represent individual F-Curve,
   with their own keyframes (fortunately, only keyed frames are shown!).
 
@@ -155,9 +157,17 @@ F-Modifier (Wrench icon)
    Disables the F-Modifiers.
 
 
+Selecting
+^^^^^^^^^
+
 A channel can be selected (text in white, strip in gray-blue color) or not
 (text in black, strip in pink-brown color.), use :kbd:`LMB` clicks to toggle this state.
 You can access some channel's properties by clicking :kbd:`Ctrl-LMB` on its header.
+
+
+Editing
+^^^^^^^
+
 Finally, you can have another column with value-sliders,
 allowing you to change the value of current keyframes, or to add new ones.
 These are obviously only available for low-level channels (i.e. individual F-Curve ).

@@ -27,11 +27,26 @@ and hence an action can have several of these channels.
 Header
 ======
 
+Layer Previous/Next (down/up arrow peak icon)
+   ToDo.
 Action
    A :ref:`Data-block menu <ui-data-block>`.
 
    Add
       When an action is created it is stored in a NLA Action Stash.
+Push Down (double down arrow peak icon)
+   Adds the active action on to the NLA stack as a contributing strip.
+   This is basically the same as pressing the Push Down button in the NLA Editor.
+Stash (Snowflake icon)
+   Stashes the active action on to the NLA stack. i.e. it is added as a non-contributing stack
+   in the same way that it would if you were creating a new action instead.
+
+.. note::
+
+   In both of these cases (Push Down and Stash), once the action has been added to the NLA stack,
+   it is cleared/unassigned from the active action slot
+   (i.e. it cannot be edited anymore from the Action/Graph Editors,
+   unless you enter "Tweak Mode" on the corresponding strips later). 
 
 
 Channel Menu

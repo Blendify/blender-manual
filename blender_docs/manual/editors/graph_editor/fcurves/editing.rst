@@ -165,6 +165,11 @@ Bake Curves :kbd:`Alt-C`
 Bake Sound to F-Curves
 ======================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Key --> Bake Sound to F-Curves`
+
 The *Bake Sound to F-Curves* tool takes and sound file and uses its sound wave to create the animation data.
 
 Lowest frequency
@@ -191,3 +196,14 @@ Square
 
    Square Threshold
       All values lower than this threshold result in 0.
+
+
+Show/Hide
+=========
+
+Hide :kbd:`H`
+   Hide selected curves.
+Hide Unselected :kbd:`Shift-H`
+   Show only the selected curve (and hide everything else).
+Show Hidden :kbd:`Alt-H`
+   Show all previous hidden curves.

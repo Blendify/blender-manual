@@ -59,7 +59,7 @@ Interpolation Mode
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Curve --> Interpolation Mode`
+   | Menu:     :menuselection:`Key --> Interpolation Mode`
    | Hotkey:   :kbd:`T`
 
 
