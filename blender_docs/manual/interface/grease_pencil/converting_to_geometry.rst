@@ -7,9 +7,12 @@ Converting Sketches to Objects
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil: Tools`
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil --> Tools: Converting Sketches to Objects`
+   | Menu:     :menuselection:`GPencil --> Converting Sketches to Objects`
+   | Hotkey:   :kbd:`Alt-C`
 
-.. figure:: /images/interface_gp_convert.png
+
+.. figure:: /images/interface_grease-pencil_convert.png
    :align: right
 
    The Convert to Curve options.

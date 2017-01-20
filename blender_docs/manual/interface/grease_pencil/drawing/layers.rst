@@ -21,7 +21,7 @@ are affected by that layer's color, opacity, and stroke thickness settings.
 
 Layers are managed in the *Grease Pencil Panel* of the *Properties region* :kbd:`N` shown here.
 
-.. figure:: /images/grease_pencil_layers_list.jpg
+.. figure:: /images/interface_grease_pencil_layers_list.jpg
 
    Grease Pencil Panel.
 
@@ -39,31 +39,35 @@ Source
       Grease Pencil data is attached to the active object are used.
       This is required when using pre 2.73 add-ons.
 
-Data-Block
+Grease Pencil
    Used to select the Grease Pencil data-block to use for layers. For controls see :ref:`ui-data-block`.
 
-Layer List
-   There is a list of layers attached to each scene and a list of layers associated with each object.
+Active Layer
+   A :ref:`ui-list-view` of layers attached to each scene or object.
 
-   Lock
+   Lock (lock icon)
       Locks the ability to edit the current layers layer.
-   Hide
+   Hide (eye icon) :kbd:`H`
       Hides the current layer in the drawing region.
-   Unlock Color
+   Unlock Color (palette with arrow icon)
       Unprotects selected colors from further editing and/or frame changes.
 
-.. rubric:: Layer List Specials
+   Isolate (lock icon) :kbd:`NumpadAsterix`
+      To restrict editing to the active layer only.
+   Isolate (visible) (eye icon)
+      An option of *Isolate* to also affect the visibility.
 
-Duplicate Layer
-   Creates a copy of the current layer.
-Show All
-   Makes all hidden layers visible.
-Hide Others
-   Makes all non selected layers hidden.
-Lock/Unlock All
-   Locks/Unlocks all of the layers. This can be useful to prevent unwanted editing.
-Merge Down
-   Merges the current layer with the layer below it.
+   Specials
+      Duplicate Layer
+         Creates a copy of the current layer.
+      Show All :kbd:`Alt-H`
+         Makes all hidden layers visible.
+      Hide Others :kbd:`Shift-H`
+         Makes all non selected layers hidden.
+      Lock/Unlock All
+         Locks/Unlocks all of the layers. This can be useful to prevent unwanted editing.
+      Merge Down
+         Merges the current layer with the layer below it.
 
 .. note::
 
@@ -93,19 +97,18 @@ Thickness Change
 
    It is also possible to make this be effected by a graphics tablet.
 
-.. seealso::
-
-   There are also option to control :doc:`Stroke Colors </interface/grease_pencil/drawing/colors>`.
-
 
 Animation
 =========
 
 Parent
-   An :ref:`Object Selector <ui-eye-dropper>` to select the :term:`parent` object.
+   An :ref:`ui-data-id` to select the :term:`parent` object.
+   The strokes of the layer will follow parent transformations
 
    Type
-      TODO.
+      Type of :doc:`parent relation </editors/3dview/object/properties/relations/parents>`.
+
+      Object, Armature, Bone
 
 Lock Frame
    Locks the current frame displayed by layer.
@@ -113,35 +116,33 @@ Delete Frame
    Deletes the active frame for the active Grease Pencil Layer.
 
 
+.. _grease-pencil-onion:
+
 Onion Skinning
 --------------
 
 Onion-skinning, also known as ghosting, helps an animator by displaying the neighboring frames as a faded trail.
-Enable the option with the *Onion Skin* button in the grease pencil properties region
-(see :ref:`fig-gp-onion` shown below).
 
-.. _fig-gp-onion:
-
-.. figure:: /images/grease_pencil_layers_onion.jpg
+.. figure:: /images/interface_grease_pencil_layers_onion.jpg
 
    Grease Pencil Onion Skinning.
 
-Use Custom Colors
-   (Marked "A") use the *Before* and *After* controls to change the color of the ghosted frames.
+   (A) Use Custom Colors 
 
-Before
-   Color
-      The color of the strokes before the current frame.
-   Before Range
-      The maximum number of frame to show before the current frame.
-      0 will only show the the previous sketch, and -1 will not show any frames before current.
+Onion Skinning
+   Checkbox to enable onion skinning.
+Always Use (camera icon)
+   If displayed ghosts are not displayed when scrubbing the view and/or playing back animation.
+   This makes it easier to see the motion "as-is" instead of being clouded by all the ghosts.
+Use Custom Colors (palette icon)
+   Toggles to use the *Before* and *After* controls to change the color of the ghosted frames.
 
-After
+Before/After
    Color
-      The color of the strokes before the current frame.
-   After Range
-      The maximum number of frame to show after the current frame.
-      0 will only show the the next sketch, and -1 will not show any frames after current.
+      The color of the strokes before/after the current frame.
+   Before/After Range
+      The maximum number of ghosts to show before/after the current frame.
+      0 will only show the the previous/next sketch, and -1 will not show any frames before/after current.
 
 .. seealso::
 

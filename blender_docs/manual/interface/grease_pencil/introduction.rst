@@ -17,6 +17,7 @@ However, you can also do much more with the digital grease pencil such as:
 
 - Planning animation poses and motion curves.
 - Sketching out model topology.
+- Hand-drawn storyboarding in 3D.
 - As director's tool to review shots.
 
 .. note::

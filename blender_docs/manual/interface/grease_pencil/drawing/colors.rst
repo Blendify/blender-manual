@@ -10,22 +10,42 @@ Colors
    | Panel:    :menuselection:`Properties region--> Grease Pencil Colors`
 
 Palette
+   A :ref:`ui-data-block` to select a palette, which is a set of colors.
+   Switching palettes will change all strokes color in all layers if the same color are linked.
 
+   New ``+``
+      If there are more than one palette, all colors of the old palette will be transferred to the new selected palette.
+
+      - If the color exist in the new palette (same name), the stroke is linked to new color.
+      - If the color does not exist in the new palette, a new color is added to the palette in order to keep the stroke.
 Colors
+      A :ref:`ui-list-view` of colors grouped in the palette linked as stroke or fill colors.
+      If a color with strokes is removed, all strokes of this color are removed.
+      Any change to line color or fill color, will change any stroke of any layer using this color.
+      A palette must contain at least one color, so the last one cannot be deleted.
 
-Isolate
 
-Lock
+   Lock (lock icon)
+      ToDo.
+   Hide (eye icon)
+      ToDo.
+   Ghost (ghost icon)
+      ToDo.
+
+   Specials
+     ToDo.
 
 Stroke
-   Sets the line color and opacity.
+   Sets the line color and the maximum of opacity (also affected by the brush strength).
 Fill
    Sets the color of the interior space enclosed by the strokes.
    Increase the opacity from zero to make the fill visible.
    Fill works best on convex shapes, unless you are using *High Quality Fill* (see below).
 
+.. (alt) screen-aligned discs
+
 Volumetric Strokes
-   Draw strokes as a series of filled spheres, resulting in an interesting volumetric effect.
+   An alternative drawing technique by drawing strokes as a series of filled spheres.
    Get best results with partial opacity and large stroke widths.
 
 High Quality Fill
