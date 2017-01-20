@@ -54,6 +54,6 @@ Image
 Example
 =======
 
-.. figure:: /images/tutorials-ntr-comfilternodeillustration.jpg
+.. figure:: /images/compositing_nodes_filter_filter_example.jpg
 
    The Filter node has seven modes, shown here.

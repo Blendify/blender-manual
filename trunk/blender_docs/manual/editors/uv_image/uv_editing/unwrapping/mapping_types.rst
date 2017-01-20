@@ -51,7 +51,7 @@ Use this unwrapping option to reset the map and undo any unwrapping (go back to 
 Unwrap
 ======
 
-.. figure:: /images/texture-uv-unwrap-unwrap.png
+.. figure:: /images/editors_uv_image_uv_editing_unwrapping_unwrap-example.png
    :width: 300px
 
    Result of unwrapping Suzanne.
@@ -106,7 +106,7 @@ Margin
 Smart UV Project
 ================
 
-.. figure:: /images/texture-uv-unwrap-smartproject.png
+.. figure:: /images/editors_uv_image_uv_editing_unwrapping_smart-project.png
    :width: 250px
 
    Smart UV project on a cube.
@@ -260,7 +260,7 @@ Scale to Bounds
 Cylinder and Sphere Projection
 ==============================
 
-.. figure:: /images/texture-uv-sphereprojection.png
+.. figure:: /images/editors_uv_image_uv_editing_unwrapping_sphere-projection.png
    :width: 350px
 
    Using a Mercator image with a Sphere Projection.

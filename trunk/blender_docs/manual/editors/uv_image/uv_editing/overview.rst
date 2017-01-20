@@ -17,11 +17,11 @@ UVs Explained
 
 .. list-table::
 
-   * - .. figure:: /images/uv-boxprecut.jpg
+   * - .. figure:: /images/editors_uv_image_uv_editing_overview_boxprecut.jpg
 
           Box being inspected.
 
-     - .. figure:: /images/uv-boxcutup.jpg
+     - .. figure:: /images/editors_uv_image_uv_editing_overview_boxcutup.jpg
 
           Box mapped flat.
 
@@ -60,17 +60,17 @@ We "fill in" spaces toward the poles, or change the outline of the map in any of
 
 .. list-table::
 
-   * - .. figure:: /images/uv-projection-mercator.jpg
+   * - .. figure:: /images/editors_uv_image_uv_editing_overview_projection-mercator.jpg
           :width: 190px
 
           Mercator Projection.
 
-     - .. figure:: /images/uv-projection-mollweide.jpg
+     - .. figure:: /images/editors_uv_image_uv_editing_overview_projection-mollweide.jpg
           :width: 190px
 
           Mollweide Projection.
 
-     - .. figure:: /images/uv-projection-albers.jpg
+     - .. figure:: /images/editors_uv_image_uv_editing_overview_projection-albers.jpg
           :width: 190px
 
           Albers-equal Projection.
@@ -91,7 +91,7 @@ to the Equator.)
 Half-Sphere Example
 -------------------
 
-.. figure:: /images/uv-3d_space_vs_uv_space.jpg
+.. figure:: /images/editors_uv_image_uv_editing_overview_3d-uv-space.jpg
    :width: 600px
 
    3D Space (XYZ) versus UV Space (click to enlarge).

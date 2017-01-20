@@ -68,7 +68,7 @@ Here are some common curves you can use to achieve desired effects:
 Color correction using Curves
 -----------------------------
 
-.. figure:: /images/compo-color-rgb.jpg
+.. figure:: /images/compositing_nodes_color_rgb-curves_example-rgb.jpg
    :width: 600px
 
    Color correction with curves.
@@ -110,7 +110,7 @@ setting Black and White Levels.
 Effects
 -------
 
-.. figure:: /images/nodes-rgbcurve-ex.jpg
+.. figure:: /images/compositing_nodes_color_rgb-curves_ex.jpg
    :width: 600px
 
    Changing colors.

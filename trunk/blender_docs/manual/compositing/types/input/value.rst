@@ -39,7 +39,7 @@ Example
 In the example below the *Value Node* is used to control multiple values at once,
 this make the node a useful organizational tool.
 
-.. figure:: /images/composite_input_value_example.jpg
+.. figure:: /images/compositing_nodes_input_value_example.jpg
 
    Example of the *Value Node*.
 

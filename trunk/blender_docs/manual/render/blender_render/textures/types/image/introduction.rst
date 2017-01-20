@@ -42,7 +42,7 @@ the left image is re-used for both the sphere and a portion of the monkey.
 The monkey uses two layouts, one which has one UV map of a few faces,
 and another that has three maps.
 
-.. figure:: /images/uv-overview.jpg
+.. figure:: /images/render_blender-render_textures_image_introduction_uv-overview.jpg
 
    How all the parts of UV Texturing work together.
 

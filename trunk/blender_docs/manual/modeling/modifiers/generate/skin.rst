@@ -17,7 +17,7 @@ arbitrary topology.
 Options
 =======
 
-.. figure:: /images/skin-ui.jpg
+.. figure:: /images/modeling_modifiers_generate_skin.jpg
    :width: 300px
 
    Skin Modifier.

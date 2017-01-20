@@ -86,7 +86,7 @@ meaning complex deformations can be achieved by only moving a single object.
           An example of an empty being used to control an array.
 
 
-     - .. figure:: /images/tracktosimple.png
+     - .. figure:: /images/modeling_empties_example-track-to-simple.png
           :width: 200px
 
           An example of an empty being used to control the track to constraint.

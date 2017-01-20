@@ -40,7 +40,7 @@ the Proper way and the Quick Way:
 Use UV Coordinates
 ------------------
 
-.. figure:: /images/texture-uv-coords.png
+.. figure:: /images/editors_uv-image_uv-editing_applying-image_coords.png
 
    A texture setup to map using its UV coordinates.
 
@@ -72,7 +72,7 @@ Full details of using Image textures are on the
 Face Textures
 -------------
 
-.. figure:: /images/texture-uv-layout-facetex.png
+.. figure:: /images/editors_uv-image_uv-editing_applying-image_facetex.png
 
    The Material panel with activated Face Textures button.
 

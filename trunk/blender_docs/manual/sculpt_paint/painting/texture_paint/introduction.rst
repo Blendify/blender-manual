@@ -25,7 +25,7 @@ Since a UV Texture is just a special-purpose image,
 you can also use any external paint program. For example,
 GIMP is a full-featured image manipulation program that is also open-source.
 
-.. figure:: /images/texture-painting.jpg
+.. figure:: /images/sculpt-paint_painting_texture_example.jpg
    :width: 400px
 
    Texture painting in Blender.
@@ -52,7 +52,7 @@ See: :doc:`Applying Image </editors/uv_image/uv_editing/applying_image>`.
 After you have done one of these two things,
 you can modify the image using the Texture Paint Mode:
 
-.. figure:: /images/texture-painting-paintmode.jpg
+.. figure:: /images/sculpt-paint_painting_texture_paint-mode.jpg
    :width: 250px
 
    Enabling paint mode.
