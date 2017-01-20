@@ -3,7 +3,7 @@
 Fields
 ******
 
-.. figure:: /images/bi_post_fields.png
+.. figure:: /images/render_blender-render_post-progressing_fields.png
 
    Field Rendering result.
 

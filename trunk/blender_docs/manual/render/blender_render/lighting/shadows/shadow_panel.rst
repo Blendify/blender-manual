@@ -34,17 +34,17 @@ Shadow color
 
    .. list-table::
 
-      * - .. figure:: /images/shadow_and_spot-red_buffer_shadow.jpg
+      * - .. figure:: /images/render_blender-render_lighting_shadow_spot-red_buffer_shadow.jpg
              :width: 190px
 
              Red colored shadow example.
 
-        - .. figure:: /images/shadow_and_spot-green_buffer_shadow.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadow_spot-green_buffer_shadow.jpg
              :width: 190px
 
              Green colored shadow example.
 
-        - .. figure:: /images/shadow_and_spot-blue_buffer_shadow.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadow_spot-blue_buffer_shadow.jpg
              :width: 190px
 
              Blue colored shadow example.

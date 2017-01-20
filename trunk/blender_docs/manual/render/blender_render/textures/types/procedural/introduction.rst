@@ -52,52 +52,52 @@ The *Noise Basis* governs the structural appearance of the texture:
 
 .. list-table::
 
-   * - .. figure:: /images/noisebasisblenderoriginal.jpg
+   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-blender-original.jpg
           :width: 160px
 
           Blender Original.
 
-     - .. figure:: /images/noisebasisvoronoif1.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f1.jpg
           :width: 160px
 
           Voronoi F1.
 
-     - .. figure:: /images/noisebasisvoronoif2-f1.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f2-f1.jpg
           :width: 160px
 
           Voronoi F2-F1.
 
-   * - .. figure:: /images/noisebasisoriginalperlin.jpg
+   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-original-perlin.jpg
           :width: 160px
 
           Original Perlin.
 
-     - .. figure:: /images/noisebasisvoronoif2.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f2.jpg
           :width: 160px
 
           Voronoi F2.
 
-     - .. figure:: /images/noisebasisvoronoicrackle.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-crackle.jpg
           :width: 160px
 
           Voronoi Crackle.
 
-   * - .. figure:: /images/noisebasisimprovedperlin.jpg
+   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-improved-perlin.jpg
           :width: 160px
 
           Improved Perlin.
 
-     - .. figure:: /images/noisebasisvoronoif3.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f3.jpg
           :width: 160px
 
           Voronoi F3.
 
-     - .. figure:: /images/noisebasiscellnoise.jpg
+     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-cell-noise.jpg
           :width: 160px
 
           Cell Noise.
 
-   * - .. figure:: /images/noisebasisvoronoif4.jpg
+   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f4.jpg
           :width: 160px
 
           Voronoi F4.
