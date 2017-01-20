@@ -21,7 +21,7 @@ Curve View
 
 Here you can see and edit the curves and keyframes.
 
-.. figure:: /images/graph_curve.png
+.. figure:: /images/editors_graph-editor_introduction_graph_curve.png
 
    A curve with different types of interpolation.
 
@@ -52,7 +52,7 @@ View Selected
 2D Cursor
 ---------
 
-.. figure:: /images/graph_2dcursor.png
+.. figure:: /images/editors_graph-editor_introduction_2dcursor.png
 
    Graph Editor 2D Cursor.
 
@@ -106,7 +106,7 @@ Mode
    F-Curve for :doc:`Actions </animation/actions>`,
    and Drivers for :doc:`Drivers </animation/drivers/index>`.
 
-   .. figure:: /images/graph_header_mode.jpg
+   .. figure:: /images/editors_graph-editor_introduction_header_mode.jpg
 
       Graph Mode.
 
@@ -222,7 +222,7 @@ View Tab
 View Properties Panel
 ---------------------
 
-.. figure:: /images/graph_view_properties_panel.png
+.. figure:: /images/editors_graph-editor_introduction_view-properties-panel.png
 
    View Properties Panel.
 

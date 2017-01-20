@@ -25,7 +25,7 @@ Scene/Render
 
 These tabs are used to add features, and to change properties for the Active Scene.
 
-.. figure:: /images/properties_render.png
+.. figure:: /images/editors_properties_render.png
    :align: right
 
    Scene/Render tabs.
@@ -47,7 +47,7 @@ Object & Object Data
 These tabs are used to add features, and to change properties for the Active Object
 (and other active elements, material, curve, etc.).
 
-.. figure:: /images/properties_object.png
+.. figure:: /images/editors_properties_object.png
    :align: right
 
    Object Data tabs.

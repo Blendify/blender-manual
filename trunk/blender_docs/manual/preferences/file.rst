@@ -6,7 +6,7 @@ File
 The *File* tab in *User Preferences* allows you to configure auto-save preferences and set default file paths for
 blend-files, rendered images, and more.
 
-.. figure:: /images/user_prefs-file_tab.png
+.. figure:: /images/preferences_file_tab.png
 
 
 .. _prefs-file-paths:
@@ -117,7 +117,7 @@ Filter File Extensions
    (i.e. blend-files when loading a complete Blender setting).
    The selection of file types may be changed in the file region.
 
-   .. figure:: /images/user_prefs_file-filefilter.png
+   .. figure:: /images/preferences_file-filefilter.png
 
       File extension filter.
 

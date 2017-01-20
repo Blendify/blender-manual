@@ -7,7 +7,7 @@ List Views & Presets
 List Views
 ==========
 
-.. figure:: /images/extended_controls_list_view_filter.png
+.. figure:: /images/interface_templates_list-presets_view_filter.png
    :align: right
 
 This control is useful to manage lists of items.

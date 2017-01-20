@@ -3,7 +3,7 @@
 Weight Tools
 ************
 
-.. figure:: /images/painting_weight_weight-tools.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools-panel.png
    :align: right
 
    Weight Paint Tools.
