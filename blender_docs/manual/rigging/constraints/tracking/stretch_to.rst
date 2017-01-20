@@ -48,8 +48,7 @@ Volume Variation
    Note that the 0.0 value is not allowed, if you want to disable the volume feature,
    use the *None* button (see below).
 Volume Min/Max
-   Limits for the volume preservation to a minimum and maximum scaling by the *Bulge* factor.
-   It sets restrictions on the minimum and maximum scaling that a object undergoes to reach its target. 
+   Limits for the volume preservation to a minimum and maximum scaling each by a *Bulge* factor.
 Smooth
    Smoothness factor to make limits less visible.
 Volume

@@ -17,12 +17,16 @@ Changes to these settings will affect all strokes on the current layer.
 
 *Grease Pencil* sketches can be converted to editable geometry and used to aid the animation process.
 
-- :doc:`Read more about Layers and Animation </interface/grease_pencil/drawing/layers>`
-- :doc:`Read more about Converting sketches to geometry </interface/grease_pencil/converting_to_geometry>`
-
 
 Drawing
 =======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil`
+
 
 The Tool Shelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
 
@@ -75,7 +79,7 @@ there are several choices for *Drawing Settings*.
 
 View
    New strokes are locked to the view.
-Cursor *(3D View only)*
+Cursor
    New strokes are drawn in 3D-space,
    with position determined by the 3D cursor and the view rotation at the time of drawing.
    *Cursor* is available as an option in the *UV/Image Editor*

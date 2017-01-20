@@ -7,13 +7,13 @@ Introduction
 .. figure:: /images/editors_dopesheet_overview.jpg
    :width: 400px
 
-   The DopeSheet.
+   The Dope Sheet.
 
 
 Classical hand-drawn animators often made a chart, showing exactly when each drawing,
 sound and camera move would occur, and for how long. They nicknamed this the "dope sheet".
 While CG foundations dramatically differ from classical hand-drawn animation,
-Blender's *DopeSheet* inherits a similar directive.
+Blender's *Dope Sheet* inherits a similar directive.
 It gives the animator a "birds-eye-view" of every thing occurring within a scene.
 
 
@@ -25,10 +25,10 @@ Dope Sheet Modes
    Dope Sheet Modes.
 
 
-There are four basic views for the DopeSheet. These all view different contexts of animation:
+There are four basic views for the Dope Sheet. These all view different contexts of animation:
 
-DopeSheet
-   The DopeSheet Mode allow you to edit multiple actions at once.
+Dope Sheet
+   The Dope Sheet Mode allow you to edit multiple actions at once.
 Action Editor
    :doc:`Action Editor </editors/dope_sheet/action>` is where you can define and control actions.
 Shape Key Editor
@@ -49,7 +49,7 @@ Grease Pencil
 Interface
 =========
 
-The *Action Editor* interface is somewhat similar to the *Graph Editor*
+The *Dope Sheet Editor* interface is somewhat similar to the *Graph Editor*
 one, it is divided in three regions:
 
 .. _fig-dope-sheet-action:
@@ -57,7 +57,7 @@ one, it is divided in three regions:
 .. figure:: /images/editors_dopesheet_action-editor.png
    :width: 600px
 
-   The Action Editor, Action Editor mode, with an Object and Shape channels.
+   The Action Editor with object channels.
 
 
 Header
@@ -73,10 +73,6 @@ Summary
 
 View Menu
 ^^^^^^^^^
-
-.. figure:: /images/editors_dopesheet_action-editor-sliders.png
-
-   the action editor showing sliders.
 
 
 Realtime Updates
@@ -130,6 +126,10 @@ a gray (unselected) or yellow (selected) line is drawn between them.
 Channels Region
 ---------------
 
+.. figure:: /images/editors_dopesheet_action-editor-sliders.png
+
+   The action editor showing sliders.
+
 This part shows the action's channel "headers" and their hierarchy. Basically, there are:
 
 - "Top-level" channels, which represent whole F-Curve data-blocks
@@ -143,9 +143,9 @@ This part shows the action's channel "headers" and their hierarchy. Basically, t
 Each level can be expended/collapsed by the small arrow to the left of its "parent" channel.
 To the right of the channel's headers, there are some channel's setting controls:
 
-Mute (Speaker icon)
+Mute (speaker icon)
    Will allow you to mute that channel (and all its "children" channels, if any!).
-Lock (Lock icon)
+Lock (lock icon)
    Will allow you to prevent this channel and its children to be edited.
 
    .. note::
@@ -153,7 +153,7 @@ Lock (Lock icon)
       This is also working inside the NLA,
       but that it does not prevent edition of the underlying F-Curve).
 
-F-Modifier (Wrench icon)
+Modifier (wrench icon)
    Disables the F-Modifiers.
 
 

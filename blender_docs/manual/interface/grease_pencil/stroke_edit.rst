@@ -59,6 +59,12 @@ Various selection functions similar to those available when editing meshes can b
 Edit Strokes Panel
 ==================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Stroke Mode
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Edit Strokes`
+
 Copy
    Copies selected Grease Pencil points and strokes.
 Paste
@@ -88,7 +94,7 @@ Mirror :kbd:`Ctrl-M`
 Shear :kbd:`Shift-Ctrl-Alt-S`
    Shears selected items along the horizontal screen axis.
 To Sphere :kbd:`Shift-Alt-S`
-   Move selected vertieces outward in a spherical shape around the midpoint.
+   Move selected vertices outward in a spherical shape around the midpoint.
 
 Arrange Strokes
    Arranges selected strokes up/down in the drawing order of the active layer.
@@ -117,7 +123,7 @@ Join Strokes
 Flip Direction
    Flips the start and end of a stroke.
 Show Directions
-   Displays stroke drawing direection with a bigger green dot of the start point
+   Displays stroke drawing direction with a bigger green dot of the start point
    and a smaller red dot for the end point.
 
 Reproject Strokes
@@ -127,6 +133,12 @@ Reproject Strokes
 
 Sculpt Strokes Panel
 ====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Stroke Mode
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Sculpt Strokes`
 
 Several tools for editing Grease Pencil strokes are provided in the form of brushes which you can use to "paint"
 or "sculpt" the appearance of the strokes without having to keep doing a tedious select-tweak-select-tweak

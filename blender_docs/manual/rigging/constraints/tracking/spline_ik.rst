@@ -54,6 +54,8 @@ Use Curve Radius
    Average radius of the endpoints is used to tweak the X and Z scaling of the bones,
    on top of the X and Z scale mode.
 XZ Scale Mode
+   Scaling that a object undergoes to reach its target.
+
    None
       Do not scale the X and X axes.
    Bone Original

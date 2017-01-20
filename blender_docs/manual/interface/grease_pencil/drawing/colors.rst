@@ -3,6 +3,12 @@
 Colors
 ******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Stroke Edit Mode
+   | Panel:    :menuselection:`Properties region--> Grease Pencil Colors`
+
 Palette
 
 Colors

@@ -7,15 +7,15 @@ Adjusting Timing of Sketches
 ============================
 
 It is possible to set a :doc:`grease pencil </interface/grease_pencil/introduction>` block
-to be loaded up in the *DopeSheet* for editing of the timings of the drawings.
+to be loaded up in the *Dope Sheet* for editing of the timings of the drawings.
 This is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
 #. In a *Dope Sheet* editor, change the mode selector (found beside the menus) to *Grease Pencil*
-   (by default, it should be set to *DopeSheet*).
-#. At this point, the *DopeSheet* should now display a few "channels" with some "keyframes" on them.
+   (by default, it should be set to *Dope Sheet*).
+#. At this point, the *Dope Sheet* should now display a few "channels" with some "keyframes" on them.
    These "channels" are the layers, and the "keyframes" are the frames at which the layer has a sketch defined.
-   They can be manipulated like any other data in the *DopeSheet* can be.
+   They can be manipulated like any other data in the *Dope Sheet* can be.
 
 .. figure:: /images/editors_dopesheet_greasepencil.png
    :width: 598px
