@@ -12,7 +12,7 @@ the further the object is away from the camera the less its alpha value will be.
 Option
 ======
 
-.. figure:: /images/bi_world-mistpanel.png
+.. figure:: /images/render_blender-render_world_mist-panel.png
    :width: 305px
 
    Mist panel.
@@ -65,7 +65,7 @@ This produces the mist effect but since Mist is off the object transparency (or 
 Examples
 ========
 
-.. figure:: /images/biworld-mist-example1.jpg
+.. figure:: /images/render_blender-render_world_mist-example1.jpg
 
    Mist example.
 

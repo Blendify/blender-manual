@@ -37,7 +37,7 @@ which is a whitish yellow sunny kind of color on a bright-but-not-harshly-bright
 Options
 =======
 
-.. figure:: /images/lighting-ambientocclusion.png
+.. figure:: /images/render_blender-render_world_ambient-occlusion.png
 
    The World panel with ambient color sliders highlighted.
 
@@ -77,9 +77,9 @@ Gather
 Raytrace
 ^^^^^^^^
 
-.. figure:: /images/lighting-ambientocclusion-gather.png
+.. figure:: /images/render_blender-render_world_ambient-occlusion_gather.png
 
-   The Amb Occ panel, Raytrace method.
+   The Ambient Occlusion panel, Raytrace method.
 
 
 The *Raytrace* method gives the more accurate, but also the more noisy results.
@@ -95,7 +95,7 @@ Attenuation
 
 .. rubric:: Sampling
 
-Sampling Meathod
+Sampling Method
    Constant QMC
       The base Quasi-Monte Carlo, gives evenly and randomly distributed rays.
    Adaptive QMC
@@ -134,13 +134,13 @@ Sampling Meathod
 
          .. list-table::
 
-            * - .. figure:: /images/bi_ambientocclusion-bias0-05.jpg
+            * - .. figure:: /images/render_blender-render_world_ambient-occlusion_bias0-05.jpg
                    :width: 200px
 
                    24×24 UV Sphere with Bias: 0.05 (default).
                    Note the facets on the sphere's surface even though it is set to smooth.
 
-              - .. figure:: /images/bi_ambientocclusion-bias0-15.jpg
+              - .. figure:: /images/render_blender-render_world_ambient-occlusion_bias0-15.jpg
                    :width: 200px
 
                    Raising the Bias to 0.15 removes the faceted artifacts.
@@ -156,17 +156,17 @@ Samples
 
    .. list-table::
 
-      * - .. figure:: /images/ambientocclusion-3samples.jpg
+      * - .. figure:: /images/render_blender-render_world_ambient-occlusion_3samples.jpg
              :width: 200px
 
              Ambient Occlusion with 3 Samples.
 
-        - .. figure:: /images/ambientocclusion-6samples.jpg
+        - .. figure:: /images/render_blender-render_world_ambient-occlusion_6samples.jpg
              :width: 200px
 
              Ambient Occlusion with 6 Samples.
 
-        - .. figure:: /images/ambientocclusion-12samples.jpg
+        - .. figure:: /images/render_blender-render_world_ambient-occlusion_12samples.jpg
              :width: 200px
 
              Ambient Occlusion with 12 Samples.
@@ -175,9 +175,9 @@ Samples
 Approximate
 ^^^^^^^^^^^
 
-.. figure:: /images/lighting-ambientocclusion-gather2.png
+.. figure:: /images/render_blender-render_world_ambient-occlusion_gather2.png
 
-   The Amb Occ panel, Approximate method.
+   The Ambient Occlusion panel, Approximate method.
 
 
 The *Approximate* method gives a much smoother result for the same amount of render

@@ -395,7 +395,7 @@ Create the Material
 
 The material must be a volumetric material with a Density of 0, and a high Density Scale.
 
-.. figure:: /images/render_bi_material.jpg
+.. figure:: /images/render_blender-render_materials_volume_tab.jpg
    :width: 300px
 
    The Material Settings.
@@ -452,11 +452,11 @@ Then, add another texture (Keep the old texture or the smoke will not show).
 Give it a fiery color ramp- which colors based on the alpha,
 and change the influence to emission and emission color. Change the blend to Multiply.
 
-.. figure:: /images/render_bi_fire_setteings.jpg
+.. figure:: /images/render_blender-render_materials_volume_fire-texture-tab.jpg
    :width: 300px
 
    The fire texture settings.
 
-.. figure:: /images/render3.jpg
+.. figure:: /images/render_blender-render_materials_volume_fire-render3.jpg
 
    The fire render.
