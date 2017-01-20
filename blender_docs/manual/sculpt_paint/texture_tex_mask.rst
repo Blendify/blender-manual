@@ -6,7 +6,7 @@ Texture & Texture Mask
 Texture
 =======
 
-.. figure:: /images/texture-painting-brushtexture.jpg
+.. figure:: /images/sculpt-paint_tex-mask_brush-texture.jpg
    :width: 250px
 
    Texture options and example.

@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/texture-procedural-menu.jpg
+.. figure:: /images/render_blender-render_textures_procedural_menu.jpg
    :width: 240px
 
    The Texture Type list in the Texture panel of the Texture Buttons. (Non procedural textures darkened out.).

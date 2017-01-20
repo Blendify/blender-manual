@@ -3,7 +3,7 @@
 Preview
 *******
 
-.. figure:: /images/texture-preview-panel.jpg
+.. figure:: /images/render_blender-render_textures_properties_preview-panel.jpg
    :width: 300px
 
    Preview panel.

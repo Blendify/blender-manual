@@ -75,7 +75,7 @@ Image
 Example
 =======
 
-.. figure:: /images/tutorials-ntr-comblurillustration.jpg
+.. figure:: /images/compositing_nodes_filter_blur_example.jpg
 
    Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
 

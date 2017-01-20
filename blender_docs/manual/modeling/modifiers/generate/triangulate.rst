@@ -8,12 +8,12 @@ This modifier does the exact same function as the triangulate function :kbd:`Ctr
 
 .. list-table::
 
-   * - .. figure:: /images/triangulate-before.png
+   * - .. figure:: /images/modeling_modifiers_generate_triangulate-before.png
           :width: 320px
 
           Mesh before Triangulate Modifier.
 
-     - .. figure:: /images/triangulate-after.png
+     - .. figure:: /images/modeling_modifiers_generate_triangulate-after.png
           :width: 320px
 
           Mesh after Triangulate Modifier.
@@ -35,7 +35,7 @@ Quad Method
    Shortest Diagonal
       Split the quads based on the distance between the vertices.
 
-Ng-on Method
+N-gon Method
    Beauty
       Arrange the new triangles nicely, slower method.
    Scanfill

@@ -95,12 +95,12 @@ Layering UV Textures
 
 .. list-table::
 
-   * - .. figure:: /images/uv-layer_one.jpg
+   * - .. figure:: /images/render_blender-render_textures_image_workflow_uv-layer_one.jpg
           :width: 320px
 
           Base UV Texture.
 
-     - .. figure:: /images/uv-layer-two.jpg
+     - .. figure:: /images/render_blender-render_textures_image_workflow_uv-layer-two.jpg
           :width: 320px
 
           Layered UV Texture.
@@ -156,7 +156,7 @@ enables you to layer and combine textures in almost any way you can imagine.
 Mix and Match Materials
 -----------------------
 
-.. figure:: /images/uv-mixmat.jpg
+.. figure:: /images/render_blender-render_textures_image_workflow_uv-mixmat.jpg
    :align: right
 
 You can mix and match procedural materials and textures, vertex paint,
@@ -185,7 +185,7 @@ The vertex colors are used to modulate the brightness or color of the UV image t
 - Area lights shine on the surface, casting shadows and what not, and finally
 - Ambient light lights it up.
 
-.. figure:: /images/uv04.jpg
+.. figure:: /images/render_blender-render_textures_image_workflow_uv-vertex-colors.jpg
    :width: 550px
 
    Vertex colors modulate texture.
@@ -203,7 +203,7 @@ but that is another story ...)
 Using Alpha Transparency
 ------------------------
 
-.. figure:: /images/uv-alpha.jpg
+.. figure:: /images/render_blender-render_textures_image_workflow_uv-alpha.jpg
    :align: right
    :width: 200px
 

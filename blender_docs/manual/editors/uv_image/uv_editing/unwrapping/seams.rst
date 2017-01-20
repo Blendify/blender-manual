@@ -6,7 +6,7 @@ Seams
 Introduction
 ============
 
-.. figure:: /images/texture-uv-unwrap-seam-simple.png
+.. figure:: /images/editors_uv_image_uv_editing_unwrapping_seam_simple.png
    :width: 300px
 
    Simple Seam on a Cylinder.
@@ -44,7 +44,7 @@ The workflow is the following:
 Marking Seams
 =============
 
-.. figure:: /images/texture-uv-unwrap-seams.png
+.. figure:: /images/editors_uv_image_uv_editing_unwrapping_seams.png
    :width: 250px
 
    Seamed Suzanne.
