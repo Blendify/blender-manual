@@ -3,20 +3,18 @@
 Stroke Edit Mode
 ****************
 
+Enter Stroke Edit Mode with the *Mode* select menu in the 3D Views header or
+toggle the *Enable Editing* in the Grease Pencil panel, or use :kbd:`D-Tab`.
+In this mode, many common editing tools will operate on Grease Pencil stroke points instead.
+
 These tools let you move and reshape grease pencil strokes after they have been drawn.
 
 Open the Grease Pencil tab on the Tool Shelf.
 Look for the tools in the Edit Strokes panel shown here:
 
-.. figure:: /images/grease_pencil_drawing_edit_strokes_panel.png
+.. figure:: /images/interface_grease_pencil_drawing_edit_strokes_panel.png
 
    Edit panel with grease pencil strokes.
-
-The basic steps are:
-
-#. Enter Stroke Edit Mode.
-#. Select some strokes.
-#. Move and reshape them.
 
 
 Selecting
@@ -46,8 +44,10 @@ Various selection functions similar to those available when editing meshes can b
      - :kbd:`B`
    * - Circle Select
      - :kbd:`C`
+   * - Lasso Select
+     - :kbd:`Ctrl-LMB`
    * - Select Linked
-     - :kbd:`Ctrl-L`
+     - :kbd:`L`, :kbd:`Ctrl-L`
    * - Select More
      - :kbd:`Ctrl-NumpadPlus`
    * - Select Less
@@ -56,18 +56,33 @@ Various selection functions similar to those available when editing meshes can b
      - :kbd:`Alt-LMB`
 
 
+Editing
+=======
+
+Header
+------
+
+Some tools can be access through the 3D View header. e.g. Copy/Paste.
+
+Onion Skinning
+   Toggles :ref:`grease-pencil-onion`.
+Selection Mask, Alpha
+   See `Further Options`_.
+
+
 Edit Strokes Panel
-==================
+------------------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Stroke Mode
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Edit Strokes`
+   | Menu:     :menuselection:`GPencil`
 
-Copy
-   Copies selected Grease Pencil points and strokes.
-Paste
+Copy :kbd:`Ctrl-C`
+   Copies the selected Grease Pencil strokes (or actually, points and segments).
+Paste :kbd:`Ctrl-V`
    Pastes the previously copied strokes.
 Paste & Merge
    Pastes the previously copied strokes and merge in active layer.
@@ -97,11 +112,11 @@ To Sphere :kbd:`Shift-Alt-S`
    Move selected vertices outward in a spherical shape around the midpoint.
 
 Arrange Strokes
-   Arranges selected strokes up/down in the drawing order of the active layer.
+   Arranges the selection of strokes up/down in the drawing order of the active layer.
 
    Bring Froward, Send Backward, Bring to Front, Send to Back
 Move to Color
-   Moves the selected strokes to active color.
+   Sets the active color as the new color to all selected strokes.
 
 Interpolate
    Interpolates grease pencil strokes between frames.
@@ -132,28 +147,25 @@ Reproject Strokes
 
 
 Sculpt Strokes Panel
-====================
+--------------------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Stroke Mode
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Sculpt Strokes`
+   | Hotkey:   :kbd:`E-LMB`
 
-Several tools for editing Grease Pencil strokes are provided in the form of brushes which you can use to "paint"
-or "sculpt" the appearance of the strokes without having to keep doing a tedious select-tweak-select-tweak
-pattern of edits.
 
-Common Options:
+Several tools for editing Grease Pencil strokes are provided in the form of brushes which
+you can use to "paint" or "sculpt" the appearance of the strokes without having to keep doing
+a tedious select-tweak-select-tweak pattern of edits.
 
-Radius
-   The size of the brush.
-Strength
-   The Strength off the brush, can be changed by the pressure of the stylus.
-Use Falloff
-   Enables a linear falloff to calculate the influence of the brush on a point.
-   That is, a point closer to the midpoint of the brush (i.e. the point under the cursor)
-   will get affected more than the ones at the edges.
+Hold :kbd:`E-LMB` and drag to sculpt.
+
+
+Brushes
+^^^^^^^
 
 The brushes currently implemented are:
 
@@ -164,7 +176,10 @@ Smooth
       Use this option to perform smoothing on stroke thickness values.
 
 Thickness
-   The Thickness Brush can be used to increase or decrease the thickness of the parts of the stroke under the cursor.
+   The Thickness Brush can be used to increase (Add) or decrease (Subtract) the thickness of
+   the parts of the stroke under the cursor.
+Strength
+   ToDo. For creating fading effects.
 Grab
    Takes the stroke points which fall within the brush circle when the sculpting action begins,
    and allows you to translate this set of points.
@@ -177,6 +192,7 @@ Push
 Twist
    Used to twist/rotate points around the cursor, creating a "swirling" effect.
    It is useful for applying low levels of distortion to stroke points.
+   The *Direction* controls whether the points are rotated in a clockwise (CW) or anti-clockwise (CCW) direction.
 Pinch/Inflate
    Used to draw points away from the cursor, or towards it.
 
@@ -184,8 +200,11 @@ Pinch/Inflate
       Draw points towards the cursor.
    Inflate
       Push points away from the cursor.
+Randomize
+   ToDo.
 Clone Brush
-   Used to paste whatever is on the Copy/Paste buffer on the active layer, located at the point where you clicked.
+   Used to paste the previously copied points (in the Copy/Paste buffer on the active layer),
+   located at the point where you clicked. Hold and drag to position and adjust the pasted strokes.
 
    Stamp Mode
       Moves the newly pasted strokes so that their center follows the movements of the brush/cursor
@@ -198,8 +217,30 @@ Clone Brush
       In effect, this treats the contents of the copy buffer as the "brush template/kernel"
       used for "dabbing" samples all over the canvas.
 
+
+Common Options
+^^^^^^^^^^^^^^
+
+Radius :kbd:`Shift-F`/:kbd:`Wheel`
+   The size of the brush. Increase/decrease brush size with :kbd:`Shift-F` when not sculpting or
+   with :kbd:`Wheel` while sculpting (i.e. with the pen tip down, or mouse button held).
+Strength :kbd:`Ctrl--F`/:kbd:`Shift-Wheel`
+   The Strength off the brush, can be changed by the pressure of the stylus.
+   (In/decrease see *Radius*).
+Use Falloff
+   Enables a linear falloff to calculate the influence of the brush on a point.
+   That is, a point closer to the midpoint of the brush (i.e. the point under the cursor)
+   will get affected more than the ones at the edges.
+Direction :kbd:`E-Ctrl-LMB`
+   Radio button to invert the brush effect.
+Affect
+   Enable sculpt for position, strength and thickness in smooth and random brush.
+
+
+Further Options
+^^^^^^^^^^^^^^^
+
 Selection Mask
    Used to restrict the brush to only operating on the selected points.
-
 Alpha
    Alpha value for selected vertices.

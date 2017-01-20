@@ -12,26 +12,22 @@ Drawing Brushes
    | Mode:     Stroke Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Drawing Brushes`
 
+Brushes
+    A :ref:`ui-list-view` of preset brushes.  You can switch between the brushes using keyboard numbers from :kbd:`1` to :kbd:`0`.
+    The selected drawing brush is the brush in the list located at that position.
 Thickness
    Number of pixels for full pressure strokes.
    The thickness can be lower depending of the pressure.
-
 Sensibility
    Adjust the sensibility of the thickness to the pressure of the pencil on the tablet.
    This pressure can be disabled using the right small button.
-
-.. tip::
-
-   These properties additionally have a randomness factor which
-   can be enabled using the icon to the right of the properties.
-
-
 Strength
-   Similar to sensibility, but affect the saturation of the color.
+   Similar to sensibility, but affect the alpha value of the color.
    This parameter allows to get effects as color fading or watercolor.
-
 Randomness
-   Defines the level of randomness (if enabled) for sensibility and strength.
+   The properties for *Sensibility* and *Strength* additionally have a randomness factor which
+   can be enabled using the jagged line icon to the right of the number sliders.
+
 Jitter
    Define a jitter randomness in the stroke.
 Angle
@@ -54,6 +50,11 @@ Angle
 
 Stoke Quality
 -------------
+
+These settings are per-brush settings that are applied after each stroke is drawn
+(when converting from 2D/screenspace coordinates to 3D/dataspace coordinates).
+These are per-brush settings so that you can apply varying proprieties to different types of brushes.
+E.g higher smoothing and/or subdivision for final "beauty", and less smoothing/subdivision for initial "blocking" strokes. 
 
 Smooth
    Defines how much smoothing is applied (using the same method as the "Smooth" Brush).
@@ -91,3 +92,5 @@ The available curves that can be edited are:
 - Sensitivity
 - Strength
 - Jitter
+
+Read more about using the :ref:`ui-curve-widget`.
