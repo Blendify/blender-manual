@@ -32,28 +32,36 @@ Options
 
 Target
    :ref:`ui-data-id` used to select the target curve.
+
+
 Spline Fitting
-   Chain Length
-      How many bones are included in the chain.
-   Even Division
-      Ignore the relative length of the bones when fitting to the curve.
-   Chain Offset
-      Offset the entire chain relative to the root joint.
+--------------
+
+Chain Length
+   How many bones are included in the chain.
+Even Division
+   Ignore the relative length of the bones when fitting to the curve.
+Chain Offset
+   Offset the entire chain relative to the root joint.
+
 
 Chain Scaling
-   Y stretch
-      Stretch the Y axis of the bones to fit the curve.
-   XZ Scale Mode
-      None
-         Do not scale the X and X axes.
-      Bone Original
-         Use the original scaling of the bones.
-      Volume Preservation
-         Scale of the X and Z axes is the inverse of the Y scale.
-   Use Curve Radius
-      Average radius of the endpoints is used to tweak the X and Z scaling of the bones,
-      on top of the X and Z scale mode.
+-------------
 
+Y Stretch
+   Stretch the Y axis of the bones to fit the curve.
+Use Curve Radius
+   Average radius of the endpoints is used to tweak the X and Z scaling of the bones,
+   on top of the X and Z scale mode.
+XZ Scale Mode
+   None
+      Do not scale the X and X axes.
+   Bone Original
+      Use the original scaling of the bones.
+   Inverse Scale
+      Scale of the X and Z axes is the inverse of the Y scale.
+   Volume Preservation
+      Similar to the :ref:`Stretch to <constraints-stretch-to-volume-preservation>` constraint.
 
 .. seealso::
 

@@ -19,7 +19,7 @@ the bottom layer first, to the top, last.
 Solo (Star icon)
    Toggling *Solo Track* causes only the selected tracks effects to be visible when animating.
 Mute (Speaker icon)
-   Keeps the track from having an effect on the animation.
+   Keeps the track from having an effect on the animation. (Mute only applies when *Solo* is not used).
 Lock (Lock icon)
    Prevents changes from being made to this layer.
 

@@ -182,12 +182,16 @@ Channels Region
 
 The channels region is used to select and manage the curves for the graph editor.
 
-Hide curve
-   Represented by the eye icon.
-Deactivate/Mute curve
-   Represented by the speaker icon.
-Lock curve from editing
-   Represented by the padlock icon.
+Pin (pin icon)
+   ToDo.
+Hide (eye icon)
+   Hides the channel(s)/curve.
+Modifiers (wrench icon)
+   Deactivates the F-Modifiers of the curve or all curves in the channel.
+Mute (speaker icon)
+   Deactivates the channel/curve.
+Lock (padlock icon)
+   Toggle channel/curve from being editable.
 
 
 Channel Editing

@@ -157,33 +157,36 @@ Auto-Keyframing Mode
 Playback Menu
 ^^^^^^^^^^^^^
 
-Audio Scrubbing
-   If your animation has sound,
-   this option plays bits of the sound wave while you move the time cursor with :kbd:`LMB` or keyboard arrows.
-Audio Muted
-   Mute the sound from Sequence Editors.
+Top-Left 3D Editor
+   While playing, updates the Timeline, if Animation Editors and All 3D View Editors disabled.
+All 3D View Editors
+   While playing, updates the 3D View and the Timeline.
+Animation Editors
+   While playing, updates the Timeline, Dope Sheet, Graph Editor, Video Sequence Editor.
+Property Editors
+   When the animation is playing, this will update the property values in the UI.
+Image Editors
+   .. Todo Not sure what is updated, maybe gif images or, image sequence.
+Sequencer Editors
+   While playing, updates the Video Sequence Editor.
+Node Editors
+   While playing, updates the Node properties for the Node Editor.
+Clip Editors
+   While playing, updates the Movie Clip Editor.
+Follow
+   Animation editors can be setup to always follow the time indicator as animation is being played back.
+   Following will be done when animating and changing frame.
+Frame Dropping
+   Play back dropping frames if frame display is too slow.
 AV-sync
    Play back and sync with audio clock, dropping frames if frame display is too slow.
    See `Synchronize Playback`_ for more info.
-Frame Dropping
-   Play back dropping frames if frame display is too slow.
    See `Synchronize Playback`_ for more info.
-Clip Editors
-   While playing, updates the Movie Clip Editor.
-Node Editors
-   While playing, updates the Node properties for the Node Editor.
-Sequencer Editors
-   While playing, updates the Video Sequence Editor.
-Image Editors
-   .. Todo Not sure what is updated, maybe gif images or, image sequence.
-Property Editors
-   When the animation is playing, this will update the property values in the UI.
-Animation Editors
-   While playing, updates the Timeline, Dope Sheet, Graph Editor, Video Sequence Editor.
-All 3D View Editors
-   While playing, updates the 3D View and the Timeline.
-Top-Left 3D Editor
-   While playing, updates the Timeline, if Animation Editors and All 3D View Editors disabled.
+Audio Muted
+   Mute the sound from Sequence Editors.
+Audio Scrubbing
+   If your animation has sound,
+   this option plays bits of the sound wave while you move the time cursor with :kbd:`LMB` or keyboard arrows.
 
 
 .. _animation-editors-timeline-headercontrols:
@@ -197,8 +200,8 @@ The Timeline header controls.
 
    Timeline header controls.
 
-   1. Range Control, 2. Frame Control, 3. Player Control,
-   4. Synchronize Playback, 5. Keyframe Control.
+   \1. Range Control, 2. Frame Control, 3. Player Control,
+   \4. Synchronize Playback, 5. Keyframe Control.
 
 
 Range Control
