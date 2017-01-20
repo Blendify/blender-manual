@@ -18,17 +18,17 @@ but reduces the depth precision resulting in artifacts.
 
 .. list-table::
 
-   * - .. figure:: /images/graphics_z_fighting_none.png
+   * - .. figure:: /images/troubleshooting_3dview_graphics_z_fighting_none.png
           :width: 180px
 
           Model with no clipping artifacts.
 
-     - .. figure:: /images/graphics_z_fighting_example.png
+     - .. figure:: /images/troubleshooting_3dview_graphics_z_fighting_example.png
           :width: 180px
 
           Model with clipping artifacts.
 
-     - .. figure:: /images/graphics_z_fighting_example_editmode.png
+     - .. figure:: /images/troubleshooting_3dview_graphics_z_fighting_example_editmode.png
           :width: 180px
 
           Mesh with artifacts in Edit Mode.

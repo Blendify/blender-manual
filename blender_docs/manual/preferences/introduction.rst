@@ -13,7 +13,7 @@ Open User Preferences
 
 To open the *User Preferences* editor go to :menuselection:`File --> User Preferences`.
 
-.. figure:: /images/user_prefs-interface_tab.png
+.. figure:: /images/preferences_interface_tab.png
 
 
 Configure

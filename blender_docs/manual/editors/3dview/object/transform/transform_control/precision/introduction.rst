@@ -66,7 +66,7 @@ Snapping
 Grab/move
 ---------
 
-.. figure:: /images/interaction-transform_control_precision_blender-units.png
+.. figure:: /images/editors_3dview_transform_control_precision_blender-units.png
    :align: right
 
    1 Blender Unit (default zoom level).

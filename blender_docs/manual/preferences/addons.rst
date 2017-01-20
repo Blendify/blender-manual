@@ -6,7 +6,7 @@ Add-ons
 The Add-ons tab lets you manage secondary scripts, called "Add-ons" that extends Blender's functionality.
 In this tab you can search, install, enable and disable Add-ons.
 
-.. figure:: /images/user_prefs-addons_tab.png
+.. figure:: /images/preferences_addons_tab.png
 
    Add-ons tab in the User Preferences.
 
@@ -37,7 +37,7 @@ Enabling and Disabling
 Enable and disable an add-on by checking or unchecking the box on the right of the add-on you chose,
 as shown in the figure.
 
-.. figure:: /images/extensions-python-addons-enabledaddon.png
+.. figure:: /images/preferences_addons-enable.png
 
    Enabling an Add-on.
 

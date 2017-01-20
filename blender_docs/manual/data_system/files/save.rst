@@ -23,7 +23,7 @@ If the file name does not end with ``.blend``, the extension is automatically ap
 If a file with the same given name already exists,
 the text field will turn red as a warning that the file will be overwritten.
 
-.. figure:: /images/file-browser_save.jpg
+.. figure:: /images/data_system_files_save_file-browser_save.jpg
 
 .. tip::
 

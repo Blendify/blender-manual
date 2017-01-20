@@ -6,7 +6,7 @@ Timeline Editor
 The *Timeline* editor, identified by a clock icon,
 is shown by default at the bottom of the screen.
 
-.. figure:: /images/timeline.png
+.. figure:: /images/editors_timeline.png
 
    The Timeline.
 
@@ -27,7 +27,7 @@ Main View
 
 The main *Timeline* region displays the animation frames over time.
 
-.. figure:: /images/timeline_main.png
+.. figure:: /images/editors_timeline_main.png
 
    Timeline Main Area.
 
@@ -47,7 +47,7 @@ Time Cursor
 
 The *Time Cursor* is the green line, it is used to set and display the current time frame.
 
-.. figure:: /images/timeline_cursor.png
+.. figure:: /images/editors_timeline_cursor.png
    :align: center
 
    Time Cursor.
@@ -121,7 +121,7 @@ Cache
 
       Softbody, Particles, Cloth, Smoke, Dynamic Paint, Rigid Body.
 
-   .. figure:: /images/timeline_cache.png
+   .. figure:: /images/editors_timeline_cache.png
 
       Timeline Cache.
 
@@ -232,7 +232,7 @@ Player Control
 
 These buttons are used to set, play, rewind, the *Time Cursor*.
 
-.. figure:: /images/timeline_player_controls.png
+.. figure:: /images/editors_timeline_player_controls.png
    :align: right
 
    Player Controls.

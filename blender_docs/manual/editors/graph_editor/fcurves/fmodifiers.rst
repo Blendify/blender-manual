@@ -11,7 +11,7 @@ that can be adjusted at any time, and layered to create more complex effects.
 Adding a Modifier
 =================
 
-.. figure:: /images/graph_modifiers_panel.jpg
+.. figure:: /images/editors_graph-editor_fcurves_fmodifiers_panel.jpg
 
    Modifiers Panel.
 

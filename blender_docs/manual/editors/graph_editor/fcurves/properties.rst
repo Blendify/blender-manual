@@ -6,7 +6,7 @@ Properties
 Active F-Curve Panel
 ====================
 
-.. figure:: /images/graph_active_fcurve_panel.png
+.. figure:: /images/editors_graph-editor_fcurves_properties_active-fcurve-panel.png
 
    Active F-Curve Panel.
 
@@ -30,7 +30,7 @@ Color Mode
 Active Keyframe Panel
 =====================
 
-.. figure:: /images/graph_active_keyframe_panel.png
+.. figure:: /images/editors_graph-editor_fcurves_properties_active-keyframe-panel.png
 
    Active Keyframe Panel.
 

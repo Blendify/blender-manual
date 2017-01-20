@@ -145,23 +145,23 @@ relationships between your shape keys.
 
 .. list-table::
 
-   * - .. figure:: /images/driver_for_multiple_shape_keys_key1.png
+   * - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-key1.png
 
           Key1 must handle conflicting values from the two bones.
 
-     - .. figure:: /images/driver_for_multiple_shape_keys_key2a.png
+     - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-key2a.png
 
           Key2A has different generator coefficients so it is activated in a different range of the bone's position.
 
-   * - .. figure:: /images/driver_for_multiple_shape_keys_key2b.png
+   * - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-key2b.png
 
           Key2B is the same as Key2A, but is controlled by the second bone.
 
-     - .. figure:: /images/driver_for_multiple_shape_keys_retracted.png
+     - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-retracted.png
 
           When both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
 
-   * - .. figure:: /images/driver_for_multiple_shape_keys_extended.png
+   * - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-extended.png
 
      - ..
 
