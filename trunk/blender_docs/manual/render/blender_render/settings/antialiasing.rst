@@ -41,19 +41,19 @@ Note that each pixel has an identical pattern.
 
 .. list-table::
 
-   * - .. figure:: /images/oversampling-pattern-5.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-pattern-5.jpg
 
           5 samples.
 
-     - .. figure:: /images/oversampling-pattern-8.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-pattern-8.jpg
 
           8 samples.
 
-     - .. figure:: /images/oversampling-pattern-11.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-pattern-11.jpg
 
           11 samples.
 
-     - .. figure:: /images/oversampling-pattern-16.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-pattern-16.jpg
 
           16 samples.
 
@@ -102,31 +102,31 @@ Mitchell-Netravali
 
 .. list-table::
 
-   * - .. figure:: /images/oversampling-graph-box.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-box.jpg
 
           Box.
 
-     - .. figure:: /images/oversampling-graph-tent.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-tent.jpg
 
           Tent.
 
-     - .. figure:: /images/oversampling-graph-quadratic.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-quadratic.jpg
 
           Quadratic.
 
-     - .. figure:: /images/oversampling-graph-cubic.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-cubic.jpg
 
           Cubic.
 
-   * - .. figure:: /images/oversampling-graph-gaussian.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-gaussian.jpg
 
           Gaussian.
 
-     - .. figure:: /images/oversampling-graph-catmullrom.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-catmullrom.jpg
 
           Catmull-Rom.
 
-     - .. figure:: /images/oversampling-graph-mitchell-netravali.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-mitchell-netravali.jpg
 
           Mitchell-Netravali.
 
@@ -147,34 +147,34 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/bi_aa02.png
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_02.png
 
           Todo.
 
-     - .. figure:: /images/osa8_box.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8_box.jpg
 
           AA 8, Box filter.
 
-   * - .. figure:: /images/osa8_tent.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8_tent.jpg
 
           AA 8, Tent filter.
 
-     - .. figure:: /images/osa8_quad.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8_quad.jpg
 
           AA 8, Quadratic filter.
 
-   * - .. figure:: /images/osa8_cubic.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8_cubic.jpg
 
           AA 8, Cubic filter.
 
-     - .. figure:: /images/osa8_gauss.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8_gauss.jpg
 
           AA 8, Gaussian filter.
 
-   * - .. figure:: /images/osa8_catrom.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8_catrom.jpg
 
           AA 8, Catmull-Rom filter.
 
-     - .. figure:: /images/osa8_mitch.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8_mitch.jpg
 
            AA 8, Mitchell-Netravali filter.

@@ -61,7 +61,7 @@ Ambient Occlusion
 
 Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
 
-.. figure:: /images/render-bake-ao.jpg
+.. figure:: /images/render_blender-render_bake_ao.jpg
 
    Ambient Occlusion.
 
@@ -80,11 +80,11 @@ Normals
 
 Bakes tangent and camera-space normals (amongst many others) to an RGB image.
 
-.. figure:: /images/render-bake-norm.jpg
+.. figure:: /images/render_blender-render_bake_norm.jpg
 
    Normals.
 
-.. figure:: /images/render-bake-normspace.jpg
+.. figure:: /images/render_blender-render_bake_normspace.jpg
    :align: right
 
    Normal Space.
@@ -121,7 +121,7 @@ Similar to baking normal maps,
 displacement maps can also be baked from a high-res object to an unwrapped low-res object,
 using the *Selected to Active* option.
 
-.. figure:: /images/render-bake-disp.jpg
+.. figure:: /images/render_blender-render_bake_disp.jpg
 
    Displacement.
 
@@ -160,7 +160,7 @@ Specular Color and Intensity
 
 Bakes specular color or specular intensity values.
 
-.. figure:: /images/render-bake-fullrender.jpg
+.. figure:: /images/render_blender-render_bake_fullrender.jpg
 
    Full Render.
 

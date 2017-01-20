@@ -91,7 +91,7 @@ Shape
 
    .. _fig-bi-material-shadow-shapes:
 
-   .. figure:: /images/render_bi_strand_shapes.png
+   .. figure:: /images/render_blender-render_materials_strand_shapes.png
 
       Various Shape settings.
 
