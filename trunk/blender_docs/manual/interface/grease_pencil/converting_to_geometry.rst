@@ -3,6 +3,12 @@
 Converting Sketches to Objects
 ******************************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil: Tools`
+
 .. figure:: /images/interface_gp_convert.png
    :align: right
 

@@ -3,6 +3,15 @@
 Brushes
 *******
 
+Drawing Brushes
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Stroke Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Drawing Brushes`
+
 Thickness
    Number of pixels for full pressure strokes.
    The thickness can be lower depending of the pressure.
@@ -69,6 +78,12 @@ Subdivision Steps
 
 Brush Curves
 ============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Stroke Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Brush Curves`
 
 This panel allows you to adjust the parameters used with tablets to get personal preferences.
 The available curves that can be edited are:
