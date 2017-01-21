@@ -93,9 +93,12 @@ Tint
       The amount that the *Tint Color* has on the layer.
 
 Thickness Change
-   Change in pixels to apply to the stroke in the current layer.
+   A relative change in pixels to apply to the thickness of all stroke in the active layer
+   (works like a modifier).
 
-   It is also possible to make this be effected by a graphics tablet.
+   Apply (hand and bulged in blue line icon)
+      If the apply button is pressed, the thickness change is applied and
+      the value is reset to zero.
 
 
 Animation
@@ -103,7 +106,7 @@ Animation
 
 Parent
    An :ref:`ui-data-id` to select the :term:`parent` object.
-   The strokes of the layer will follow parent transformations
+   The strokes of the layer will follow parent transformations.
 
    Type
       Type of :doc:`parent relation </editors/3dview/object/properties/relations/parents>`.
@@ -127,13 +130,12 @@ Onion-skinning, also known as ghosting, helps an animator by displaying the neig
 
    Grease Pencil Onion Skinning.
 
-   (A) Use Custom Colors 
+   A: Use Custom Colors 
 
 Onion Skinning
    Checkbox to enable onion skinning.
 Always Use (camera icon)
-   If displayed ghosts are not displayed when scrubbing the view and/or playing back animation.
-   This makes it easier to see the motion "as-is" instead of being clouded by all the ghosts.
+   If enabled ghosts are displayed when scrubbing the view and/or playing back animation.
 Use Custom Colors (palette icon)
    Toggles to use the *Before* and *After* controls to change the color of the ghosted frames.
 
@@ -143,8 +145,3 @@ Before/After
    Before/After Range
       The maximum number of ghosts to show before/after the current frame.
       0 will only show the the previous/next sketch, and -1 will not show any frames before/after current.
-
-.. seealso::
-
-   - Grease Pencil mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` editor.
-   - Grease Pencil :doc:`Animation </interface/grease_pencil/animating>` page.

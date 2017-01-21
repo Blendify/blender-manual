@@ -70,6 +70,22 @@ Selection Mask, Alpha
    See `Further Options`_.
 
 
+.. (todo) move to a better place
+
+Menu
+----
+
+Shrink/Flatten :kbd: `Alt-S`
+   Adjust the pressure values of selected stroke points.
+   This provides a way to modify the thickness of strokes by moving the mouse or the :kbd:`Wheel`.
+Delete All Active Frame :kbd:`D-X`
+   Deletes all strokes in the active frame. It can be accessed using :kbd:`D-X` (anywhere),
+   as well as :kbd:`Shift-X` (Edit Strokes Mode only) or the :menuselection:`GPencil --> Delete` menu.
+   This makes it easier to quickly get rid of throwaway scribbles.
+Move to Layer `M`
+   Can be used to move strokes between layers (including to a new layer).
+
+
 Edit Strokes Panel
 ------------------
 
@@ -117,21 +133,20 @@ Arrange Strokes
    Bring Froward, Send Backward, Bring to Front, Send to Back
 Move to Color
    Sets the active color as the new color to all selected strokes.
-
 Interpolate
-   Interpolates grease pencil strokes between frames.
-Sequence
-   Interpolates full grease pencil strokes sequence between frames.
-Interpolate All Layers
-   Interpolates all layers, not only active.
-Interpolate Selected Strokes
-   Interpolates only the selected strokes in the original frame.
-
+   Interpolate `Ctrl-Alt-E`
+      Interpolates grease pencil strokes between frames.
+   Sequence `Shift-Ctrl-E`
+      Interpolates full grease pencil strokes sequence between frames.
+   Interpolate All Layers
+      Checkbox to interpolates all layers, not only active.
+   Interpolate Selected Strokes
+      Checkbox to interpolates only the selected strokes in the original frame.
 Join Strokes
    Type
-      Join
+      Join `Ctrl-J`
          Joins selected strokes.
-      Join & Copy
+      Join & Copy `Shift-Ctrl-J`
          Joins selected strokes as a new stroke.
    Leave Gaps
       Leaves gaps between joined strokes instead of linking them.
@@ -154,6 +169,7 @@ Sculpt Strokes Panel
 
    | Mode:     Edit Stroke Mode
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Sculpt Strokes`
+   | Menu:     :menuselection:`GPencil --> Sculpt Strokes/Brushes`
    | Hotkey:   :kbd:`E-LMB`
 
 
@@ -170,7 +186,7 @@ Brushes
 The brushes currently implemented are:
 
 Smooth
-   Allows you to selectively smooth out jitter/shake and bumpiness, to tidy up messy parts of your sketches.
+   Allows you to selectively relax jitter/shake and bumpiness, to tidy up messy parts of your sketches.
 
    Affect Pressure
       Use this option to perform smoothing on stroke thickness values.
@@ -179,7 +195,7 @@ Thickness
    The Thickness Brush can be used to increase (Add) or decrease (Subtract) the thickness of
    the parts of the stroke under the cursor.
 Strength
-   ToDo. For creating fading effects.
+   Increase/decrease (:kbd:`Ctrl`) the alpha value of the stroke, E.g. for creating fading effects.
 Grab
    Takes the stroke points which fall within the brush circle when the sculpting action begins,
    and allows you to translate this set of points.
@@ -201,19 +217,22 @@ Pinch/Inflate
    Inflate
       Push points away from the cursor.
 Randomize
-   ToDo.
+   Randomizes the stoke attributes.
+   e.g. with *Position* enabled it displaces the points randomly in screen space to create jittered/jagged lines.
 Clone Brush
    Used to paste the previously copied points (in the Copy/Paste buffer on the active layer),
-   located at the point where you clicked. Hold and drag to position and adjust the pasted strokes.
+   located at the point where you clicked.
 
-   Stamp Mode
-      Moves the newly pasted strokes so that their center follows the movements of the brush/cursor
-   Stamp + Smudge
+   Hold :kbd:`LMB` and drag to position and adjust the pasted strokes.
+   The strokes center follows the movements of the brush/cursor ("Stamp Mode").
+
+   Use Falloff
       When the *Use Falloff* option is enabled, instead of moving all the newly pasted strokes by the same amount,
       only the points that are currently under the cursor get affected. Thus, this in this mode of operation,
-      the brush is closer to a Paste + Push operation instead.
-   Continuous
-      As the brush moves, repeatedly just paste new copies for where the brush is now.
+      the brush is closer to a Paste and Push operation instead ("Stamp and Smudge").
+
+   .. Ed: not available any more? 2.78
+      Continuous: As the brush moves, repeatedly just paste new copies for where the brush is now.
       In effect, this treats the contents of the copy buffer as the "brush template/kernel"
       used for "dabbing" samples all over the canvas.
 
@@ -224,7 +243,7 @@ Common Options
 Radius :kbd:`Shift-F`/:kbd:`Wheel`
    The size of the brush. Increase/decrease brush size with :kbd:`Shift-F` when not sculpting or
    with :kbd:`Wheel` while sculpting (i.e. with the pen tip down, or mouse button held).
-Strength :kbd:`Ctrl--F`/:kbd:`Shift-Wheel`
+Strength :kbd:`Ctrl-F`/:kbd:`Shift-Wheel`
    The Strength off the brush, can be changed by the pressure of the stylus.
    (In/decrease see *Radius*).
 Use Falloff
@@ -234,7 +253,7 @@ Use Falloff
 Direction :kbd:`E-Ctrl-LMB`
    Radio button to invert the brush effect.
 Affect
-   Enable sculpt for position, strength and thickness in smooth and random brush.
+   Enable sculpt for position, strength (alpha value) and thickness in Smooth and Randomize brush.
 
 
 Further Options
@@ -242,5 +261,6 @@ Further Options
 
 Selection Mask
    Used to restrict the brush to only operating on the selected points.
-Alpha
-   Alpha value for selected vertices.
+Alpha :kbd:`Ctrl-H`
+   Alpha value of the visualization for selected vertices.
+   The visibility can be toggled (hide/unhide) using :kbd:`Ctrl-H`.

@@ -13,10 +13,11 @@ Drawing Brushes
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Drawing Brushes`
 
 Brushes
-    A :ref:`ui-list-view` of preset brushes.  You can switch between the brushes using keyboard numbers from :kbd:`1` to :kbd:`0`.
-    The selected drawing brush is the brush in the list located at that position.
+   A :ref:`ui-list-view` of preset brushes. 
+   You can switch between the brushes using keyboard numbers from :kbd:`1` to :kbd:`0`.
+   The selected drawing brush is the brush in the list located at that position.
 Thickness
-   Number of pixels for full pressure strokes.
+   Width of full pressure strokes in pixels constant to the viewport i.e. not affected by the zoom.
    The thickness can be lower depending of the pressure.
 Sensibility
    Adjust the sensibility of the thickness to the pressure of the pencil on the tablet.
@@ -52,7 +53,7 @@ Stoke Quality
 -------------
 
 These settings are per-brush settings that are applied after each stroke is drawn
-(when converting from 2D/screenspace coordinates to 3D/dataspace coordinates).
+(when converting from 2D/screen space coordinates to 3D/data space coordinates).
 These are per-brush settings so that you can apply varying proprieties to different types of brushes.
 E.g higher smoothing and/or subdivision for final "beauty", and less smoothing/subdivision for initial "blocking" strokes. 
 

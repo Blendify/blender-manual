@@ -125,7 +125,7 @@ Show Hidden (ghost icon)
 Show Only Errors (livesaver icon)
    Only include curves and drivers that are disabled or have errors.
    Useful for debugging.
-Search Filter (magnifying glass icon)
+Search Filter (magnifying glass icon) :kbd:`F`
    Only include curves with keywords contained in the search field.
 Type Filter
    Filter curves by property type.

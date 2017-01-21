@@ -119,8 +119,8 @@ Strength
 
    Space Attenuation (lock icon)
       Attenuate the brush strength according to spacing.
-Pressure Sensitivity
-   The icon (hand and bulged in blue line) to the right of the following three settings will enable or disable
+Pressure Sensitivity (hand and bulged in blue line icon) 
+   The toggle to the right of the following three settings will enable or disable
    tablet pressure sensitivity to control how strong the effect is.
 
 Blend

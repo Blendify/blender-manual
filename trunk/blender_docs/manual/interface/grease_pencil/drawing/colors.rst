@@ -36,17 +36,14 @@ Colors
      ToDo.
 
 Stroke
-   Sets the line color and the maximum of opacity (also affected by the brush strength).
+   Sets the line color and the maximum opacity (which is also affected by the brush strength).
 Fill
    Sets the color of the interior space enclosed by the strokes.
    Increase the opacity from zero to make the fill visible.
    Fill works best on convex shapes, unless you are using *High Quality Fill* (see below).
 
-.. (alt) screen-aligned discs
-
 Volumetric Strokes
-   An alternative drawing technique by drawing strokes as a series of filled spheres.
+   An alternative drawing technique by drawing strokes as a series of filled screen-aligned discs.
    Get best results with partial opacity and large stroke widths.
-
 High Quality Fill
    Uses a better fill algorithm that works better for concave drawings.
