@@ -19,11 +19,10 @@ However, you can also do much more with the digital grease pencil such as:
 - Sketching out model topology.
 - Hand-drawn storyboarding in 3D.
 - As director's tool to review shots.
+- 2D animations
 
-.. note::
-
-   The *Grease Pencil* can also be used by different tools that allow you
-   to draw where the tool is to take effect.
+An advanced use of *Grease Pencil* is for different tools (e.g. add-ons).
+Allowing you to draw where the tool is to take effect.
 
 .. figure:: /images/interface_grease-pencil_example.png
 

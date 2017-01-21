@@ -11,8 +11,7 @@ to be loaded up in the *Dope Sheet* for editing of the timings of the drawings.
 This is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
-#. In a *Dope Sheet* editor, change the mode selector (found beside the menus) to *Grease Pencil*
-   (by default, it should be set to *Dope Sheet*).
+#. In a Dope Sheet editor, change the *Mode* selector (found beside the menus) to *Grease Pencil*.
 #. At this point, the *Dope Sheet* should now display a few "channels" with some "keyframes" on them.
    These "channels" are the layers, and the "keyframes" are the frames at which the layer has a sketch defined.
    They can be manipulated like any other data in the *Dope Sheet* can be.
@@ -27,10 +26,25 @@ and are named with relevant info from the views. They are also labeled with the 
 (i.e. "window") index (which is currently not shown anywhere else though).
 
 
-Copying Sketches
-================
+Insert Keyframe
+---------------
 
-It is possible to copy sketches from a layer/layers to other layers in the *Action Editor*,
+Insert Keyframe :kbd:`I` can be used for creating blank Grease Pencil frames at a particular frame.
+It will create blank frames if *Additive Drawing* is disabled, otherwise
+it will make a copy of the active frame on that layer, and use that.
+
+
+Header
+======
+
+Active Only
+   Only show the Grease Pencil blocks attached to the current scene and the objects within it.
+
+
+Copying Sketches
+----------------
+
+It is possible to copy sketches from a layer/layers to other layers
 using the "Copy"/"Paste" buttons in the header.
 This works in a similar way as the copy/paste tools for keyframes in the *Action Editor*.
 

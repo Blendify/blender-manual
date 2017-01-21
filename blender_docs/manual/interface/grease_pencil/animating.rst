@@ -4,7 +4,9 @@
 Animating Sketches
 ******************
 
-Use the Grease Pencil to do basic pencil tests (e.g. 2D animation in flipbook style).
+You can use Grease Pencil to create 2D animations (e.g. in flipbook style) and
+mixing it with 3D objects and composition.
+
 Sketches are stored on the frame that they were drawn on, as a separate drawing
 (only on the layer that they exist on).
 Each drawing is visible until the next drawing for that layer is encountered.
@@ -16,3 +18,20 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 #. Go to first relevant frame. Draw.
 #. Jump to next relevant frame. Draw some more.
 #. Keep repeating process, and drawing until satisfied. Voila! Animated sketches.
+
+.. (todo) keyframes, on properties.
+
+.. seealso::
+
+   Grease Pencil mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` editor.
+
+
+Compositing
+===========
+
+The grease pencil layers create a pass inside OpenGL render result.
+This result can be exported to EXR multilayer and used in composition.
+
+ToDo.
+
+.. youtube:: vSD5mN7LT_g

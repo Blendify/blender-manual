@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|fixes = merge?}}.
 
 ************
 Introduction
@@ -76,7 +75,8 @@ Continuous Drawing
 ------------------
 
 Continuous Drawing allows for rapid sketching with the *Grease Pencil* when
-multiple strokes are desired. Besides the checkbox it is enabled
+multiple strokes are desired. So that you only have to hold :kbd:`D` once for the first stroke.
+Besides the checkbox Continuous Drawing is also enabled
 if the :kbd:`D` key is released while pressing :kbd:`LMB`.
 The eraser for one-off strokes (:kbd:`RMB`) is still available.
 Note that with the *Eraser* both :kbd:`LMB` or :kbd:`RMB` can be used
@@ -105,7 +105,7 @@ Stroke Placement
 Defines how the strokes are converted to 3D (or 2D) space.
 
 View
-   New strokes are locked to the view.
+   New strokes are placed in screen space (2D) and are locked to the view.
 Cursor
    New strokes are drawn in 3D-space,
    with position determined by the 3D cursor and the view rotation at the time of drawing.

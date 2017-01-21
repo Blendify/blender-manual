@@ -74,7 +74,6 @@ Summary
 View Menu
 ^^^^^^^^^
 
-
 Realtime Updates
    When transforming keyframes, changes to the animation data are flushed to other views.
 Show Frame Number Indicator
