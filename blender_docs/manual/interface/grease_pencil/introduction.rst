@@ -24,6 +24,4 @@ However, you can also do much more with the digital grease pencil such as:
 An advanced use of *Grease Pencil* is for different tools (e.g. add-ons).
 Allowing you to draw where the tool is to take effect.
 
-.. figure:: /images/interface_grease-pencil_example.png
-
-   An example of Grease Pencil.
+.. vimeo:: 155635261

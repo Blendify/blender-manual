@@ -75,14 +75,14 @@ Selection Mask, Alpha
 Menu
 ----
 
-Shrink/Flatten :kbd: `Alt-S`
+Shrink/Flatten :kbd:`Alt-S`
    Adjust the pressure values of selected stroke points.
    This provides a way to modify the thickness of strokes by moving the mouse or the :kbd:`Wheel`.
 Delete All Active Frame :kbd:`D-X`
    Deletes all strokes in the active frame. It can be accessed using :kbd:`D-X` (anywhere),
    as well as :kbd:`Shift-X` (Edit Strokes Mode only) or the :menuselection:`GPencil --> Delete` menu.
    This makes it easier to quickly get rid of throwaway scribbles.
-Move to Layer `M`
+Move to Layer :kbd:`M`
    Can be used to move strokes between layers (including to a new layer).
 
 
