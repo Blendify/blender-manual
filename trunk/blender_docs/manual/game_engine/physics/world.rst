@@ -5,7 +5,7 @@ World Physics
 *************
 
 .. figure:: /images/bge_world_physics.png
-   :align: rights
+   :align: right
    :width: 290px
 
    BGE World Physics Panel.

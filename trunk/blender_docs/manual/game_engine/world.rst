@@ -4,7 +4,7 @@ World
 *****
 
 .. figure:: /images/bge_world_materials.png
-   :align: rights
+   :align: right
    :width: 290px
 
    BGE World Panel.
