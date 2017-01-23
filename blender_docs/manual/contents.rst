@@ -7,19 +7,21 @@ Welcome to the Blender Manual!
 
 This is the manual for the 3D animation software from `Blender.org <https://www.blender.org>`__.
 
+.. use /dev only for now
+
 .. only:: builder_html
 
    .. |vertical_separator| unicode:: U+02758
 
    - Other languages:
-     `En <https://www.blender.org/manual/>`__ |vertical_separator|
-     `De <https://www.blender.org/manual/de/>`__ |vertical_separator|
-     `Es <https://www.blender.org/manual/es/>`__ |vertical_separator|
-     `Fr <https://www.blender.org/manual/fr/>`__ |vertical_separator|
-     `Ko <https://www.blender.org/manual/ko/>`__ |vertical_separator|
-     `Pt <https://www.blender.org/manual/pt/>`__ |vertical_separator|
-     `Ru <https://www.blender.org/manual/ru/>`__ |vertical_separator|
-     `Zh <https://www.blender.org/manual/zh.cn/>`__
+     `En <https://docs.blender.org/manual/dev/>`__ |vertical_separator|
+     `De <https://docs.blender.org/manual/de/dev/>`__ |vertical_separator|
+     `Es <https://docs.blender.org/manual/es/dev/>`__ |vertical_separator|
+     `Fr <https://docs.blender.org/manual/fr/dev/>`__ |vertical_separator|
+     `Ko <https://docs.blender.org/manual/ko/dev/>`__ |vertical_separator|
+     `Pt <https://docs.blender.org/manual/pt/dev/>`__ |vertical_separator|
+     `Ru <https://docs.blender.org/manual/ru/dev/>`__ |vertical_separator|
+     `Zh <https://docs.blender.org/manual/zh.cn/dev/>`__
    - This site can be downloaded for offline use:
      `Download the full manual (zipped HTML files) <blender_manual.zip>`__
    - :doc:`/about/whats_new`
