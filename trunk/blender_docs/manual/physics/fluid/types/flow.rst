@@ -23,7 +23,7 @@ This object will put fluid into the simulation, like a water tap.
 Inflow Velocity
    Speed of the fluid that is created inside of the object.
 
-Local Coords/Enable
+Local Coordinates/Enable
    Use local coordinates for the inflow.
    This is useful if the inflow object is moving or rotating, as the inflow stream will
    follow/copy that motion. If disabled, the inflow location and direction do not change.

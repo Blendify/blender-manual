@@ -44,5 +44,5 @@ Part Slip Amount
 Impact Factor
    Amount of fluid volume correction for gain/loss from impacting with moving objects.
    If this object is not moving, this setting has no effect.
-   However, it if is and the fluid collides with it, a negative value takes volume away from the Domain,
+   However, if it is and the fluid collides with it, a negative value takes volume away from the Domain,
    and a positive number adds to it. Ranges from -2.0 to 10.0.
