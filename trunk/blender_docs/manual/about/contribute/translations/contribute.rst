@@ -60,7 +60,7 @@ Building with Translations
 .. note::
 
    This is optional, translations are automatically built online, eg:
-   https://www.blender.org/manual/fr/
+   https://docs.blender.org/manual/fr/dev/
 
    This is quite involved,
    so it is not be expected that translators should be doing their own builds locally.

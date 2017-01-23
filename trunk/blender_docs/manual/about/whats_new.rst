@@ -16,7 +16,7 @@ This page lists major changes and additions to the manual.
   (`rBM3011 <https://developer.blender.org/rBM3011>`__, Dec. 6).
 - :doc:`Glare node </compositing/types/filter/glare>`
   (`rBM2998 <https://developer.blender.org/rBM2998>`__, Dec. 5).
-- `Korean Translations <https://www.blender.org/manual/ko/>`__
+- `Korean Translations <https://docs.blender.org/manual/ko/dev/>`__
   (`rBM2980 <https://developer.blender.org/rBM2980>`__, Oct. 29).
 - :doc:`Corner Pin node </compositing/types/distort/corner_pin>`
   (`rBM2978 <https://developer.blender.org/rBM2978>`__, Oct. 28).

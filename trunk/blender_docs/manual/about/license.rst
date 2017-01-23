@@ -28,7 +28,7 @@ For example:
    is licensed under a |LICENSE|_.
 
 .. |BLENDER_VER_MANUAL| replace:: Blender |version| Manual
-.. _BLENDER_VER_MANUAL: https://www.blender.org/manual/
+.. _BLENDER_VER_MANUAL: https://docs.blender.org/manual/en/dev/
 .. |LICENSE| replace:: CC-BY-SA v4.0
 .. _LICENSE: https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -46,4 +46,3 @@ foundation (at) blender (dot) org
 Previous versions of the Blender Manual are made available under a
 `Open Content License <https://wiki.blender.org/index.php/BlenderWiki:Copyrights#Open_Content_License>`__
 v2.26 -- v2.77.
-
