@@ -20,13 +20,13 @@ BSDF
    It defines how light is reflected and refracted at a surface.
 Reflection
    :abbr:`BSDF (Bidirectional scattering distribution function)` s
-   Reflect an incoming ray on the same side of the surface.
+   reflect an incoming ray on the same side of the surface.
 Transmission
    :abbr:`BSDF (Bidirectional scattering distribution function)` s
-   Transmit an incoming ray through the surface, leaving on the other side.
+   transmit an incoming ray through the surface, leaving on the other side.
 Refraction
    :abbr:`BSDF (Bidirectional scattering distribution function)` s are a type of *Transmission*,
-   Transmitting an incoming ray and changing its direction as it exits on the other side of the surface.
+   transmitting an incoming ray and changing its direction as it exits on the other side of the surface.
 
 
 BSDF Parameters

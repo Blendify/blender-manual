@@ -11,7 +11,7 @@ The *Curve Guide* is used to force particles to follow a certain
 path defined by a :doc:`Curve Object </modeling/curves/index>`.
 A typical scenario would be to move a red blood cell inside a vein,
 or to animate the particle flow in a motor.
-You can use *Curve Guide* s also to shape certain hair strands.
+You can also use *Curve Guide* to shape certain hair strands.
 
 .. note::
 
@@ -30,7 +30,7 @@ But you can limit their influence radius by changing there *Minimum Distance* (s
 
 .. note::
 
-   The Curve Guide does not effect :doc:`Softbodys </physics/soft_body/index>`.
+   The Curve Guide does not effect :doc:`Softbodies </physics/soft_body/index>`.
 
 
 Options

@@ -121,7 +121,7 @@ Time
       since you set 10 seconds of fluid motion to simulate over 10 seconds of animation.
       Having these controls in effect gives you a "speed control" over the simulation.
 
-Generate Speed Vector
+Generate Speed Vectors
    If this button is clicked, no speed vectors will be exported.
    So by default, speed vectors are generated and stored on disk.
    They can be used to compute image based motion blur with the compositing nodes.

@@ -3,7 +3,7 @@
 Game Logic Screen Layout
 ************************
 
-The design, construction, debugging and running of a game utilizes a wide range of Blender functions.
+The design, construction, debugging and running of a game use a wide range of Blender functions.
 To help with the process, Blender incorporates a suggested screen layout for setting up BGE games.
 This includes many already-familiar panels but also a new
 :doc:`Logic Editor </editors/logic_editor>` panel (4) concerned solely with the BGE.
@@ -24,8 +24,8 @@ together with the appropriate options for game setup/debug/running
 .. rubric:: 1) Game Logic
 
 Selected from the list of screen layouts for various applications.
-This includes many already-familiar panels Information, 3D View,
-Properties but also a new Logic Editor panel concerned solely with the BGE.
+This includes many already-familiar panels (Information, 3D View,
+Properties) but also a new Logic Editor panel concerned solely with the BGE.
 
 .. figure:: /images/bge_game_logic_screen_layout2.png
 

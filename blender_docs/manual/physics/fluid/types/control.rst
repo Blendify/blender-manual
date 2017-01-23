@@ -28,7 +28,7 @@ Reverse Frames
    The control particle movement gets reversed.
 
 Time
-   You specify the start and end time during which time the fluid control object is active.
+   You specify the time interval (start and end time) during which the fluid control object is active.
 
 Attraction force
    The attraction force specifies the force which gets emitted by the fluid control object.
@@ -41,7 +41,7 @@ Velocity force
 Examples
 ========
 
-In this examples,
+In these examples,
 we use the Fluid Control option to control part of the fluid so that it has a certain shape
 (the sphere drop or the teapot drop) before it falls in the rest of the fluid:
 
