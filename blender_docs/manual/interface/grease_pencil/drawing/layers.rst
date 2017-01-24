@@ -45,6 +45,8 @@ Grease Pencil
 Active Layer
    A :ref:`ui-list-view` of layers attached to each scene or object.
 
+   Parent (bone icon)
+      Indicates that a parent has been set for the layer.
    Lock (lock icon)
       Locks the ability to edit the current layers layer.
    Hide (eye icon) :kbd:`H`
