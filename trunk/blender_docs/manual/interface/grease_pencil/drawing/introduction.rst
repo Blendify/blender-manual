@@ -37,6 +37,7 @@ Poly :kbd:`Ctrl-D-RMB`
    Draw connected lines by clicking on position you want to add the next point.
    Lines will be automatically added to connect the two points.
    Holding :kbd:`LMB` down and sliding mouse lets you place the new point/segment preview.
+   The transformation of the point is locked to X/Y axis set by initial direction the mouse movement.
 Erase :kbd:`D-RMB`, :kbd:`Eraser`
    Erases segments of strokes that fall within the radius of the eraser "brush"
    (with a linear falloff from the center of the eraser circle).
@@ -90,7 +91,7 @@ Continuous drawing can be disabled using :kbd:`E` key in order to get fast acces
 Draw on Back
 ------------
 
-ToDo.
+New strokes are moved behind the drawing when confirming the drawing tool (lowered to the bottom of the stack).
 
 
 Stroke Placement

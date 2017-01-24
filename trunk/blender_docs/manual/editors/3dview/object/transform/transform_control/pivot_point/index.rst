@@ -8,7 +8,7 @@
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Droplist in the header of the 3D View
+   | Header:   Pivot Point
 
 .. _fig-view3d-pivot-point:
 

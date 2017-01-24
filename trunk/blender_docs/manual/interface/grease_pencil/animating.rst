@@ -8,7 +8,7 @@ You can use Grease Pencil to create 2D animations (e.g. in flipbook style) and
 mixing it with 3D objects and composition.
 
 Sketches are stored on the frame that they were drawn on, as a separate drawing
-(only on the layer that they exist on).
+(only on the layer that they exist on). A keyframe is automatically add per layer.
 Each drawing is visible until the next drawing for that layer is encountered.
 The only exception to this is the first drawing for a layer,
 which will also be visible before the frame it was drawn on.
@@ -29,8 +29,8 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 Compositing
 ===========
 
-The grease pencil layers create a pass inside OpenGL render result.
-This result can be exported to EXR multilayer and used in composition.
+The grease pencil layers create a pass inside :doc:`OpenGL </render/opengl>` render result.
+This result can be exported to ``EXR multilayer`` and used in composition.
 
 ToDo.
 
