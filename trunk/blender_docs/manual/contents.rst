@@ -14,7 +14,7 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
    .. |vertical_separator| unicode:: U+02758
 
    - Other languages:
-     `En <https://docs.blender.org/manual/dev/>`__ |vertical_separator|
+     `En <https://docs.blender.org/manual/en/dev/>`__ |vertical_separator|
      `De <https://docs.blender.org/manual/de/dev/>`__ |vertical_separator|
      `Es <https://docs.blender.org/manual/es/dev/>`__ |vertical_separator|
      `Fr <https://docs.blender.org/manual/fr/dev/>`__ |vertical_separator|
