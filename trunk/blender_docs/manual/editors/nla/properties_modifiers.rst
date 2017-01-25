@@ -123,6 +123,9 @@ This determines the degree of influence the strip has, and over what time.
 Animated Influence
    Enabling alteration of the degree of influence this strip has as a keyframable value.
    If influence isn't animated, the strips will fade linearly, during the overlap.
+
+   These can be found in the Dope Sheet or Graph Editors under the *NLA Control Curves* and
+   look like group channels. They appear before all the groups/FCurves for that channel.
 Animated Strip
    Same as *Animated Influence*, but with *Strip Time*.
 Cyclic Strip Time
@@ -131,8 +134,6 @@ Cyclic Strip Time
 
 Modifiers
 =========
-
-.. http://aligorith.blogspot.com/2010/10/clarifying-animation-workflow-in.html
 
 Like its close cousins in mesh and graph editing,
 Modifiers can stack different combinations of effects for strips.

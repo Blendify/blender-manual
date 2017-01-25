@@ -37,7 +37,7 @@ Poly :kbd:`Ctrl-D-RMB`
    Draw connected lines by clicking on position you want to add the next point.
    Lines will be automatically added to connect the two points.
    Holding :kbd:`LMB` down and sliding mouse lets you place the new point/segment preview.
-   The transformation of the point is locked to X/Y axis set by initial direction the mouse movement.
+   The transformation of the point is locked to X/Y axis set by initial direction of the mouse movement.
 Erase :kbd:`D-RMB`, :kbd:`Eraser`
    Erases segments of strokes that fall within the radius of the eraser "brush"
    (with a linear falloff from the center of the eraser circle).
@@ -67,7 +67,7 @@ Examples of cases where this comes in handy includes animating facial expression
 
 .. note:: 
 
-   Even without this option enabled, this is the default behaviour when using
+   Even without this option enabled, this is the default behavior when using
    the eraser on an "empty" frame. This makes it easier to do shots where you're just
    changing parts of the facial expression, or if you're animating an "eraser" effect.
 
