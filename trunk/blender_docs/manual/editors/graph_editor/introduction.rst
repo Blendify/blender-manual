@@ -102,13 +102,35 @@ See :doc:`Markers </animation/markers>` for more info.
 Header
 ======
 
+View Menu
+---------
+
+.. _graph-preview-range:
+
+Preview Range
+^^^^^^^^^^^^^
+
+Set Preview Range :kbd:`P`
+   Interactively define frame range used for playback.
+   Allow you to define a temporary preview range to use for the :kbd:`Alt-A` realtime playback
+   (this is the same thing as the *Playback Range* option of the
+   :ref:`Tmeline editor header <animation-editors-timeline-headercontrols>`).
+Clear Preview Range :kbd:`Alt-P`
+   Clears the preview range.
+Auto-Set Preview Range :kbd:`Ctrl-Alt-P`
+   Automatically sets the preview range to playback the whole action or
+   the selected NLA strips.
+
+
 Mode
-   F-Curve for :doc:`Actions </animation/actions>`,
-   and Drivers for :doc:`Drivers </animation/drivers/index>`.
+----
 
-   .. figure:: /images/editors_graph-editor_introduction_header_mode.jpg
+F-Curve for :doc:`Actions </animation/actions>`,
+and Drivers for :doc:`Drivers </animation/drivers/index>`.
 
-      Graph Mode.
+.. figure:: /images/editors_graph-editor_introduction_header_mode.jpg
+
+   Graph Mode.
 
 
 View Controls
@@ -144,6 +166,8 @@ Curve Controls
 
    Curve Controls.
 
+Proportional Editing :kbd:`O`
+   See :doc:`Proportional editing </editors/3dview/object/transform/transform_control/proportional_edit>`.
 Auto Snap
    Auto snap the keyframes for transformations.
 

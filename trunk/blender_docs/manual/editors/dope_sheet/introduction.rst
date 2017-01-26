@@ -90,15 +90,8 @@ Sync Markers
 Show Seconds
    Whether to show the time in the X-axis as frames or as seconds.
 
-Set Preview Range :kbd:`P`
-   Interactively define frame range used for playback.
-   Allow you to define a temporary preview range to use for the :kbd:`Alt-A` realtime playback
-   (this is the same thing as the *Playback Range* option of the
-   :ref:`Tmeline editor header <animation-editors-timeline-headercontrols>`).
-Clear Preview Range :kbd:`Alt-P`
-   Clears the preview range.
-Auto-Set Preview Range
-   Automatically sets the preview range to playback the whole action.
+Preview Range :kbd:`P`, :kbd:`Alt-P`
+   See :ref:`graph-preview-range`.
 
 
 Marker Menu

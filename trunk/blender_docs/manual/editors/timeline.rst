@@ -113,7 +113,7 @@ Lock Time to Other Windows
    ToDo.
 Show Frame Number Indicator
    This will draw the current frame or seconds on the *Time Cursor*.
-Only Selected Channels
+Only Keyframes from Selected Channels
    For *Armatures*, this will draw the object keyframes, and the keyframes for the active and selected pose bones.
 Cache
    Show Cache
@@ -210,7 +210,7 @@ Range Control
 Use Preview Range
    This is an alternative range used to preview animations.
    This works for the UI playback, this will not work for rendering an animation.
-
+   See :ref:`graph-preview-range`.
 Lock Time Cursor to Playback Range
    This limits the *Time Cursor* to the *Playback Range*.
 

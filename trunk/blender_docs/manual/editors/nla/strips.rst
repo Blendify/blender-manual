@@ -138,3 +138,17 @@ the original will turn to red.
 .. figure:: /images/editors_nla_linked-strip-edit.png
 
    Linked duplicated strip being edited.
+
+
+Make Single User
+----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Edit --> Make Single User`
+   | Hotkey:   :kbd:`U`
+
+This tools ensures that none of the selected strips use an action which is also used by any other strips.
+
+.. (dev) NOTE: This does not recursively go inside meta's, so care is still advised in that case.
