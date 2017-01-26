@@ -42,6 +42,6 @@ Properties Region
 =================
 
 Grease Pencil
-   See the :doc:`Grease Pencil </interface/grease_pencil/converting_to_geometry>` Docs.
+   See the :doc:`Grease Pencil </interface/grease_pencil/index>` docs.
 Display
    Controls display options.
