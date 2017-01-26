@@ -11,4 +11,4 @@
    drawing/index.rst
    stroke_edit.rst
    animating.rst
-   converting_to_geometry.rst
+   convert_to_geometry.rst

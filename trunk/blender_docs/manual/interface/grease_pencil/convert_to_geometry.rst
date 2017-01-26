@@ -1,14 +1,14 @@
 
-******************************
-Converting Sketches to Objects
-******************************
+*******************
+Convert to Geometry
+*******************
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil --> Tools: Converting Sketches to Objects`
-   | Menu:     :menuselection:`GPencil --> Converting Sketches to Objects`
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil --> Tools: Convert to Geometry...`
+   | Menu:     :menuselection:`GPencil --> Convert to Geometry...`
    | Hotkey:   :kbd:`Alt-C`
 
 
