@@ -95,8 +95,14 @@ By Times over First Selected Marker
 Clean Keyframes
 ===============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Key --> Clean Keyframes`
+   | Hotkey:   :kbd:`X`
+
 *Clean Keyframes* resets the keyframe tangents to their auto-clamped shape,
-if they have been modified. *Clean Keyframes* :kbd:`O`
+if they have been modified.
 
 .. list-table::
 
@@ -109,6 +115,26 @@ if they have been modified. *Clean Keyframes* :kbd:`O`
           :width: 320px
 
           F-Curve after cleaning.
+
+
+Clean Channels
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Key --> Channels`
+   | Hotkey:   :kbd:`X`
+
+Acts like the *Clean Keyframes* tool but will also delete the channel itself if it is only left with
+a single keyframe containing the default property value and it's not being used by any generative f-curve modifiers or drivers.
+
+.. note::
+
+   The modified curve left after the clean tool is run is not the same as the original, 
+   so this tool is better used before doing custom editing of f-curves and after initial keyframe insertion,
+   to get rid of any unwanted keyframes inserted while doing mass keyframe insertion
+   (by selecting all bones and pressing :kbd:`I` for instance).
 
 
 Smoothing
