@@ -17,7 +17,7 @@ Transform Orientations
 Orientations affect the behavior of Transformations: Location, Rotation, and Scale.
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
 as well as on transformation constraints
-(like :doc:`axis locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`).
+(like :doc:`axis locking </editors/3dview/object/transform/control/precision/axis_locking>`).
 This means that, when you press :kbd:`G-X`, it will constrain to the *global* X-axis,
 but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s X-axis.
 
@@ -197,7 +197,7 @@ Demo Cube
 Please note two things:
 
 - The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
-- The :doc:`"Object Manipulator" </editors/3dview/object/transform/transform_control/manipulators>`
+- The :doc:`"Object Manipulator" </editors/3dview/object/transform/control/manipulators>`
   widget emanating from the selection, which represents the current Transform Orientation.
 
   - If you click on one of the axes of the Manipulator with :kbd:`LMB`,

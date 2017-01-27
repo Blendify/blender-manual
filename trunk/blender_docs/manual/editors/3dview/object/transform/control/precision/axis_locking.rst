@@ -14,7 +14,7 @@ This option limits the transformation to the specified axis.
 
 :doc:`Transformations (translation/scale/rotation) </editors/3dview/object/transform/introduction>` in *Object Mode*
 and *Edit Mode*, as well as extrusion in *Edit Mode*) can be locked to particular axis relative to the current
-:doc:`transform orientation </editors/3dview/object/transform/transform_control/transform_orientations>`.
+:doc:`transform orientation </editors/3dview/object/transform/control/orientations>`.
 By locking a transformation to a particular axis you are restricting transformations to a single dimension.
 
 
@@ -114,7 +114,7 @@ in which case the *Local* orientation is used). Finally,
 a third key press of the same key removes constraints.
 
 The orientation can be set
-in the :doc:`Transform Orientation </editors/3dview/object/transform/transform_control/transform_orientations>`
+in the :doc:`Transform Orientation </editors/3dview/object/transform/control/orientations>`
 selector of the 3D View header.
 
 .. or independent in the Operator panel?
@@ -130,4 +130,4 @@ As can be seen in the *Axis locking modes* image,
 the direction of the transform also takes into account the selection.
 
 Note that using a locked axis does not prevent you from using the keyboard to enter
-:doc:`numeric transformation </editors/3dview/object/transform/transform_control/precision/numeric_input>` values.
+:doc:`numeric transformation </editors/3dview/object/transform/control/precision/numeric_input>` values.
