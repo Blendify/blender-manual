@@ -14,7 +14,7 @@
    logic/index.rst
    camera/index.rst
    physics/index.rst
-   performance/index.rst
+   performance.rst
    python_api/index.rst
    blender_player.rst
    licensing.rst
