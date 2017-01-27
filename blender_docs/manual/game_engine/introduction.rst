@@ -13,13 +13,6 @@ for its retargeting and refactoring that, in the very least, will break compatib
 For further information, you should get in touch with the developers via mailing list or IRC and read the
 `development roadmap <https://code.blender.org/2013/06/blender-roadmap-2-7-2-8-and-beyond/>`__.
 
-.. code-block:: none
-
-   data-conversion --> input | animation, physics and logic | rendering
-
-different renderer, logic is done via logic bricks or Python
-press :kbd:`P` to play in preview mode in the embedded player.
-
 
 Use Cases and Sample Games
 ==========================
@@ -32,7 +25,6 @@ Conversely, the Blender Game Engine renders scenes continuously in real-time,
 and incorporates facilities for user interaction during the rendering process.
 
 .. figure:: /images/bge_introduction_screenshot.jpg
-   :width: 512px
 
    Screenshot from "Yo Frankie", produced with Blender Game Engine.
 
