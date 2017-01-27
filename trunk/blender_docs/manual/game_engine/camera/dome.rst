@@ -184,10 +184,10 @@ software package (requires full version).
 Examples
 ========
 
-`Spherical Mirror Dome 4×3 <https://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__,
-`Truncated Dome 4×3 <https://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__,
-`Sample Fullscreen File 4×3 <https://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__,
-`Sample Fullbuffer File 4×3 <https://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
+- `Spherical Mirror Dome 4×3 <https://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__
+- `Truncated Dome 4×3 <https://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__
+- `Sample Fullscreen File 4×3 <https://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__
+- `Sample Fullbuffer File 4×3 <https://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__
 
 .. important::
 
