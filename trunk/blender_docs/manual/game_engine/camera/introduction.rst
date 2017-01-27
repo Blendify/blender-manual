@@ -3,8 +3,8 @@
 Introduction
 ************
 
-The Game Engine camera is in many ways similar to the Camera in the normal Blender Render
-system, and is created, parameterized and manipulated in similar ways.
+The Game Engine camera is in many ways similar to the Camera in the normal Blender Render system,
+and is created, parameterized and manipulated in similar ways.
 However, because of its use as a real-time device, the Game Engine camera has a number of
 additional features -- it may be used as not only as a static camera,
 but also as a moving device with its default characteristics
@@ -18,7 +18,6 @@ When you start the Game Engine, the initial camera view is taken from the latest
 This may be either a selected camera object or the default camera (see below).
 Thus to start the game with a particular camera,
 you must select the camera and press :kbd:`Numpad0` before starting the Game Engine.
-
 
 .. tip:: To avoid camera distortion
 
@@ -36,8 +35,8 @@ scene does not change when the Game Engine is started.
 Camera Object
 =============
 
-The Camera object in the Game Engine follows much the same structure as the conventional Blender camera
--- see :doc:`Camera </render/blender_render/camera/index>` for details of how to set up,
+The Camera object in the Game Engine follows much the same structure as the conventional Blender camera -- see
+:doc:`Camera </render/blender_render/camera/index>` for details of how to set up,
 manipulate and select a camera. The following sections show some of the special facilities available in BGE cameras.
 
 
@@ -54,14 +53,10 @@ To avoid this use `Parent to Vertex`_.
 Parent to Vertex
 ================
 
-The easiest way to accomplish this is to select your object and :kbd:`Tab` to
-*Edit Mode*.
+The easiest way to accomplish this is to select your object and :kbd:`Tab` to *Edit Mode*.
 Now select the vertex and :kbd:`Tab` back to *Object Mode*.
 
 Next, without any objects selected, select the camera and, holding :kbd:`Shift`,
-select the object. :kbd:`Tab` into *Edit Mode*,
-and :kbd:`Ctrl-P` and choose *Make vertex parent*.
+select the object. :kbd:`Tab` into *Edit Mode*, and :kbd:`Ctrl-P` and choose *Make vertex parent*.
 
-Now the camera will follow the object and it will maintain its rotation,
-while the object rotates.
-
+Now the camera will follow the object and it will maintain its rotation, while the object rotates.
