@@ -23,7 +23,7 @@ Cube
       The :doc:`Origin of the object </editors/3dview/object/transform/origin>` is displayed as
       an orange dot and it marks the cube's (relative) position.
    Transformation Widget
-      This :doc:`widget </editors/3dview/object/transform/transform_control/manipulators>`
+      This :doc:`widget </editors/3dview/object/transform/control/manipulators>`
       is composed out of a white circle and three colored (red, green, and blue) arrows.
       It is used to move entities (e.g. the cube) in the scene.
 Lamp

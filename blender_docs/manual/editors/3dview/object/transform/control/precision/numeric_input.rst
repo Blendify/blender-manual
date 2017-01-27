@@ -42,7 +42,7 @@ This will move the element one unit along the X-axis,
 followed by the Y-axis and then the Z-axis.
 
 You can also combine numeric input with
-:doc:`Axis Locking </editors/3dview/object/transform/transform_control/precision/axis_locking>`
+:doc:`Axis Locking </editors/3dview/object/transform/control/precision/axis_locking>`
 to limit movement to a particular axis.
 
 

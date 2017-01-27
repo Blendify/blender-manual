@@ -167,7 +167,7 @@ Curve Controls
    Curve Controls.
 
 Proportional Editing :kbd:`O`
-   See :doc:`Proportional editing </editors/3dview/object/transform/transform_control/proportional_edit>`.
+   See :doc:`Proportional editing </editors/3dview/object/transform/control/proportional_edit>`.
 Auto Snap
    Auto snap the keyframes for transformations.
 
