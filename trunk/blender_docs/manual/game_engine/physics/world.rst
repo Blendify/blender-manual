@@ -67,6 +67,49 @@ Physics Deactivation
       for physics to be disabled (0.0 disables physics deactivation).
 
 
+Navigation Mesh
+===============
+
+Rasterization
+   Cell size
+      rasterized cell size.
+   Cell height
+      rasterized cell height.
+Agent
+   Height
+      Minimum height where the agent can still walk.
+   Radius
+      Radius of the agent.
+   Max climb
+      Maximum height between grid cells the agent can climb.
+   Max slope
+      Maximum walkable slope angle in degrees.
+Region
+   Min Region Size
+      Minimum regions size. Smaller regions will be deleted.
+   Merged Region Size
+      Minimum regions size. Smaller regions will be merged.
+Partitioning
+   Watershed
+      Classic Recast partioning method generating the nicest tessellation.
+   Monotone
+      The fastest navmesh generation method, but may cause long thin polygons.
+   Layers
+      A reasonably fast method that produces better triangles than monotone partitioning.
+Polygonization
+   Max Edge Length
+      Maximum contour edge length.
+   Max Edge Error
+      Maximum distance error from contour to cells.
+   Verts Per Poly
+      Max number of vertices per polygon.
+Detail Mesh
+   Sample Distance
+      Detail mesh sample spacing.
+   Max Sample Error
+      Detail mesh simplification max sample error.
+
+
 Obstacle Simulation
 ===================
 
