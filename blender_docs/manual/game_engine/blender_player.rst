@@ -9,7 +9,6 @@ without their requiring a detailed knowledge of Blender
 (and also without the possibility of unauthorized modification). Note that the Game Engine
 Save as Runtime is an add-on facility which must be pre-loaded before use.
 
-
 The following procedure will give a standalone version of a working game.
 
 #. :menuselection:`File --> User Preferences --> Add-ons --> Game Engine --> Save As Game Engine Runtime`
