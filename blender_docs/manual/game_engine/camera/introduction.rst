@@ -7,12 +7,11 @@ The Game Engine camera is in many ways similar to the Camera in the normal Blend
 and is created, parameterized and manipulated in similar ways.
 However, because of its use as a real-time device, the Game Engine camera has a number of
 additional features -- it may be used as not only as a static camera,
-but also as a moving device with its default characteristics
-(i.e. with its own programmed moves), or it may track another object in the game.
-Furthermore, any game object may be used as a camera;
+but also as a moving device with its default characteristics (i.e. with its own programmed moves),
+or it may track another object in the game. Furthermore, any game object may be used as a camera;
 the view is taken from the object's origin point.
-Lastly, it may be given special capabilities such as Stereo vision, Dome visualization etc.
-which have special relevance to game technology.
+Lastly, it may be given special capabilities such as Stereo vision,
+Dome visualization, etc... which have special relevance to game technology.
 
 When you start the Game Engine, the initial camera view is taken from the latest 3D View.
 This may be either a selected camera object or the default camera (see below).
@@ -36,8 +35,8 @@ Camera Object
 =============
 
 The Camera object in the Game Engine follows much the same structure as the conventional Blender camera -- see
-:doc:`Camera </render/blender_render/camera/index>` for details of how to set up,
-manipulate and select a camera. The following sections show some of the special facilities available in BGE cameras.
+:doc:`Camera </render/blender_render/camera/index>` for details of how to set up, manipulate and select a camera.
+The following sections show some of the special facilities available in BGE cameras.
 
 
 Parent Camera to Object
