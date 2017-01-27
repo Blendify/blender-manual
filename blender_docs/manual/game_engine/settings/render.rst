@@ -174,25 +174,44 @@ Restrict Animation Updates
 Display
 =======
 
-.. figure:: /images/bge_camera_properties_display.jpg
-   :width: 300px
+The *Display* panel in the *Render* tab of the *Properties* editor,
+lets the game developer specify the maximum frame rate of the animations shown during
+the game execution, whether to see informations like framerate and profile, debug properties,
+physics geometry visualization, warnings,
+if the mouse cursor is shown during the game execution, and options to specify the framing
+style of the game to fit the window with the specified resolution.
 
-   Display Panel.
+
+.. figure:: /images/gameengine_performance_render_display.jpg
+
+   Display panel at the Render tab.
 
 
-Gives various display options when running the Game Engine. Under the...
-
+Animation Frame Rate
+   This number button/slider specify the maximum frame rate at which the game will run.
+   Minimum is 1, maximum is 120.
 Debug Properties
-   Show properties marked for debugging while game runs.
-   Note that debug properties to be shown must be requested at source (eg. i-button in state tables).
-   Only available when game is run within Blender -- not in standalone player version.
+   When checked, if a property was previously checked to be debugged during the game,
+   the values of this property will be shown with the ``Framerate and Profile`` contents.
 Framerate and Profile
-   Show framerate and profiling information while game runs.
-   Only available when game is run within Blender -- not in standalone player version.
-Physics Visualization
-   Show physics bounds and interactions while game runs (available in both Blender and standalone versions).
+   When checked, this will show values for each of the calculations Blender is doing while the game is running,
+   plus the properties marked to be debugged.
+Physics visualization
+   Shows a visualization of physics bounds and interactions (like hulls and collision shapes), and their interaction.
 Deprecation Warnings
-   Print warnings when using deprecated features in the Python API.
-   Only available when game is run within Blender -- not in standalone player version.
+   Every time when the game developer uses a deprecated functionality
+   (which in some cases are outdated or crippled OpenGL Graphic cards functions),
+   the system will emit warnings about the deprecated function.
 Mouse Cursor
-   Show mouse cursor while game runs (available in both Blender and standalone versions).
+   Whether to show or not the mouse cursor when the game is running.
+Framing
+   There are three types of framing available:
+
+   Letterbox
+      Show the entire viewport of the game in display window, using horizontal and/or vertical bars when needed.
+   Extend
+      Show the entire viewport of the game in display window, viewing more horizontally or vertically.
+   Scale
+      Stretch or Squeeze the viewport to fill the display window.
+Color Bar
+   This will let the game developer choose the bar colors when using the *Letterbox* Framing mode.
