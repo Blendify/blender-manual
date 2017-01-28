@@ -110,11 +110,10 @@ Bone
    Head/Tail
       If a Bone is set, a new field is displayed offering
       the choice of whether the head or tail of a Bone will be pointed at. 
-      The slider defines where along this bone the point lies.
+      The slider defines where along this bone the point lies interpolating along the bone axis in a straight line.
       A value of zero will point the at the Head/Root of a Bone,
       while a value of one will point at the Tail/Tip of a Bone.
 
       Use B-Bone Shape
-         When the bone is a Bendy Bone, click on this button to make point between head and tail
-         follow the length of the B-Spline curve instead of the absolute distance
-         of the head and tail of the original b-bone.
+         When the bone is a :doc:`/rigging/armatures/bones/properties/bendy_bones`,
+         click on this button to make the point follow the curvature of the B-Spline between head and tail.
