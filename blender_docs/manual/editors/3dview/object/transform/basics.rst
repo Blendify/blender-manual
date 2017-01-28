@@ -152,7 +152,7 @@ Orientation
    of the constraint axes.
 Proportional Editing, Falloff, Size
    Activates/deactivates *Proportional Editing* and configures the type *Falloff* and
-   *Size* of the :doc:`/editors/3dview/object/transform/transform_control/proportional_edit` tool.
+   *Size* of the :doc:`/editors/3dview/object/transform/control/proportional_edit` tool.
 Edit Grease Pencil
    ToDo.
 Edit Texture Space
