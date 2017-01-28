@@ -10,7 +10,7 @@ Each object can be moved, rotated and scaled in *Object Mode*.
 However, not all of these transformations have an effect on all objects.
 For example, scaling a camera has no effect on the render dimensions.
 
-:doc:`Basic transformations </editors/3dview/object/transform/basic_transform>` include:
+:doc:`Basic transformations </editors/3dview/object/transform/basics>` include:
 
 - Grabbing (moving)
 - Rotating

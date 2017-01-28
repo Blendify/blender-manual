@@ -14,5 +14,5 @@ The following pages detail the available control options:
    manipulators.rst
    clear_apply.rst
    proportional_edit.rst
-   transform_orientations.rst
+   orientations.rst
    pivot_point/index.rst

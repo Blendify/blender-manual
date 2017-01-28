@@ -101,7 +101,7 @@ Clean Keyframes
    | Menu:     :menuselection:`Key --> Clean Keyframes`
    | Hotkey:   :kbd:`X`
 
-*Clean Keyframes* resets the keyframe tangents to their auto-clamped shape,
+*Clean Keyframes* resets the keyframe tangents on selected keyframes to their auto-clamped shape,
 if they have been modified.
 
 .. list-table::
