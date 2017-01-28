@@ -64,6 +64,12 @@ transform operation.
 Auto IK
 =======
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Panel:    :menuselection:`Tool Shelf --> Options --> Pose Options`
+
 The auto IK option in the tool shelf enables a temporary IK constraint when posing bones.
 The chain acts from the tip of the selected bone to root of the uppermost parent bone.
 Note that this mode lacks options,
@@ -72,6 +78,13 @@ and only works by applying the resulting transform to the bones in the chain.
 
 Clear Transform
 ===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Menu:    :menuselection:`Pose --> Clear Transform`
+   | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-R`, :kbd:`Alt-S`
 
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations (usual :kbd:`Alt-G`/:kbd:`Alt-R`/:kbd:`Alt-S` shortcuts,
@@ -88,6 +101,13 @@ which is only effective in *Envelope* visualization, even though it is always av
 Apply
 =====
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Menu:    :menuselection:`Pose --> Clear Transform`
+   | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-R`, :kbd:`Alt-S`
+
 Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the *Edit Mode*),
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
@@ -102,22 +122,6 @@ In-Betweens
 There are several tools for editing poses in an animation.
 
 
-Relax Pose
-----------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Pose Mode
-   | Menu:    :menuselection:`Pose --> In-Betweens --> Relax Pose`, :kbd:`Alt-E`
-
-Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones
-(see the :doc:`animation chapter </animation/index>`).
-When you edit such a bone (and hence take it "away" from its "keyed position"),
-using this command will progressively "bring it back" to its "keyed position",
-with smaller and smaller steps as it comes near it.
-
-
 Push Pose
 ---------
 
@@ -125,9 +129,28 @@ Push Pose
    :class: refbox
 
    | Mode:     Pose Mode
-   | Menu:    :menuselection:`Pose --> In-Betweens --> Relax Pose`, :kbd:`Ctrl-E`
+   | Panel:    :menuselection:`Tool Shelf --> Tool --> Tool --> Pose Tools --> In-Betweens: Push`
+   | Menu:    :menuselection:`Pose --> In-Betweens --> Push Pose`
+   | Hotkey:   :kbd:`Ctrl-E`
 
 Push pose exaggerates the current pose.
+
+
+Relax Pose
+----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Relax`
+   | Menu:    :menuselection:`Pose --> In-Betweens --> Relax Pose`
+   | Hotkey:   :kbd:`Alt-E`
+
+Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
+When you edit such a bone (and hence take it "away" from its "keyed position"),
+using this command will progressively "bring it back" to its "keyed position",
+with smaller and smaller steps as it comes near it.
 
 
 Breakdowner
@@ -137,7 +160,9 @@ Breakdowner
    :class: refbox
 
    | Mode:     Pose Mode
-   | Menu:    :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`, :kbd:`Shift-E`
+   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Breakdowner`
+   | Menu:    :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
+   | Hotkey:   :kbd:`Shift-E`
 
 Creates a suitable breakdown pose on the current frame.
 
@@ -148,6 +173,19 @@ like :ref:`auto-bones naming <armature-editing-naming-bones>`,
 that we already described in the armature editing pages. See the links above...
 
 
+Propagate
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Propagate`
+   | Menu:     :menuselection:`Pose --> Propagate`
+
+ToDo.
+
+
 Copy/Paste Pose
 ===============
 
@@ -155,20 +193,21 @@ Copy/Paste Pose
    :class: refbox
 
    | Mode:     Pose Mode
-   | Panel:    *3D View* header (|copy-paste|)
+   | Header:   Copy/Paste (|copy-paste|)
+   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Copy,Paste`
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
-     :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
+     :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste X-Flipped Pose`
 
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
 directly using the three "copy/paste" buttons found at the right part of the 3D Views header:
 
-:menuselection:`Pose --> Copy Current Pose`
-   to copy the current pose of selected bones into the pose buffer.
-:menuselection:`Pose --> Paste Pose`
-   paste the buffered pose to the currently posed armature.
-:menuselection:`Pose --> Paste Flipped Pose`
-   paste the *X axis mirrored* buffered pose to the currently posed armature.
+Copy Current Pose
+   To copy the current pose of selected bones into the pose buffer.
+Paste Pose
+   Paste the buffered pose to the currently posed armature.
+Paste X-Flipped Pose
+   Paste the *X axis mirrored* buffered pose to the currently posed armature.
 
 
 Here are important points:
@@ -234,7 +273,7 @@ Show/Hide
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    :menuselection:`Bone --> Display`
+   | Panel:    :menuselection:`Properties editor --> Bone --> Display`
    | Menu:    :menuselection:`... --> Show/Hide`
 
 
