@@ -6,6 +6,8 @@ What's New
 
 This page lists major changes and additions to the manual.
 
+- :doc:`Bendy Bones </rigging/armatures/bones/properties/bendy_bones>`
+  (`rBM3215 <https://developer.blender.org/rBM3215>`__, Jan. 28).
 - :doc:`Grease Pencil update </interface/grease_pencil/index>`
   (`rBM3188 <https://developer.blender.org/rBM3188>`__, Jan. 20).
 - :doc:`New Pipeline Section </pipeline/index>`

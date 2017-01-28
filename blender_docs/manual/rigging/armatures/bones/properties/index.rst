@@ -7,6 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
-   display.rst
+   bendy_bones.rst
    relations.rst
+   display.rst
    deform.rst

@@ -70,7 +70,7 @@ Stick bone
 
 B-Bone bone
    This visualization shows the curves of "smooth" multi-segmented bones;
-   see the :ref:`bone page <armature-bone-rigid>` for details.
+   see the :doc:`/rigging/armatures/bones/properties/bendy_bones` for details.
 
    .. list-table::
 
