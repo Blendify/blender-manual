@@ -142,5 +142,5 @@ Enable Editing
 Tools
 ======
 
-- :doc:`Converting Sketches to Geometry </interface/grease_pencil/convert_to_geometry>`
+- :doc:`Convert to Geometry </interface/grease_pencil/convert_to_geometry>`
 - :doc:`/interface/ruler_and_protractor`

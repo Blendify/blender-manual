@@ -73,8 +73,8 @@ A meta strip still contains the underlying strips. You can ungroup a Meta strip.
    | Hotkey:   :kbd:`Alt-G`
 
 
-Editing Strips
-==============
+Editing
+=======
 
 Start Tweaking Strips Action
 ----------------------------
@@ -119,6 +119,18 @@ It will enter and exit Tweak Mode as usual, but will also make sure that the act
 This is useful for editing stashed actions, without the rest of the NLA Stack interfering.
 
 
+Duplicate
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Edit --> Duplicate`
+   | Hotkey:   :kbd:`Shift-D`
+
+Creates a new instance of the selected strips with a copy of the action.
+
+
 Linked Duplicate
 ----------------
 
@@ -129,7 +141,8 @@ Linked Duplicate
    | Hotkey:   :kbd:`Alt-D`
 
 The contents of one Action strip can be instanced multiple times. To instance another strip,
-select a strip, go to :menuselection:`Edit --> Linked Duplicate`
+select a strip, go to :menuselection:`Edit --> Linked Duplicate`.
+It will uses the same action as the selected strips.
 
 Now, when any strip is tweaked, the others will change too.
 If a strip other than the original is tweaked,

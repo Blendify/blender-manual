@@ -20,6 +20,19 @@ For precise control of the keyframe position and value,
 you can set values in the *Active Keyframe* of the Properties Region.
 
 
+Insert Keyframe
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Hotkey:   :kbd:`Ctrl-LMB`, :kbd:`Ctrl-Shift-LMB`
+
+:kbd:`Ctrl-LMB` inserts a keyframe to the active F-Curve at the mouse position. 
+The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
+All previously selected keyframes are kept selected by using :kbd:`Ctrl-Shift-LMB`.
+
+
 Transform Snapping
 ==================
 
