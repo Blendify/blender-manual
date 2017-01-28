@@ -105,8 +105,8 @@ Apply
    :class: refbox
 
    | Mode:     Pose Mode
-   | Menu:    :menuselection:`Pose --> Clear Transform`
-   | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-R`, :kbd:`Alt-S`
+   | Menu:    :menuselection:`Pose --> Apply`
+   | Hotkey:   :kbd:`Ctrl-A`
 
 Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the *Edit Mode*),
@@ -171,19 +171,6 @@ There are also in *Pose Mode* a bunch of armature-specific editing options/tools
 like :ref:`auto-bones naming <armature-editing-naming-bones>`,
 :ref:`properties switching/enabling/disabling <armature-bone-properties>`, etc.,
 that we already described in the armature editing pages. See the links above...
-
-
-Propagate
-=========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Propagate`
-   | Menu:     :menuselection:`Pose --> Propagate`
-
-ToDo.
 
 
 Copy/Paste Pose
@@ -262,6 +249,46 @@ Here are important points:
      - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-8.png
 
           ...and mirror-pasted on the destination armature.
+
+
+Propagate
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Propagate`
+   | Menu:     :menuselection:`Pose --> Propagate`
+
+The Propagate tool starts from the current keyframe and
+copies the pose of the selected bones over to the following keyframes.
+It automates the process of copying, pasting.
+
+ToDo.
+
+
+Options
+-------
+
+Termination Mode
+   Modes which determine how it decides when to stop overwriting keyframes.
+
+   While Held
+      The most complicated of the modes available, as it tries to guess when to stop propagating by
+      examining the pauses in the animation curves per control (i.e. all F-Curves for a bone, instead of per F-Curve).
+   Next Keyframe
+      Simply copies the pose to the first keyframe after (but not including any keyframe on) the current frame.
+   Last Keyframe
+      Will simply replace every single keyframe within the F-Curves for the selected controls which
+      occur after the current frame.
+   Before Frame
+      This option needs to be used in conjunction with the *End frame* option.
+      This option is best suited for use from scripts due to the difficulties in setting this frame value,
+      though it is possible to set this manually via the Operator panel if necessary.
+End Frame
+   Defines the upper-bound for the frame range within which keyframes
+   will be affected (with the lower bound being the current frame).
 
 
 .. _armature-bone-hide:
