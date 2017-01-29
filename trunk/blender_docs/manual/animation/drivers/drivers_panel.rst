@@ -43,6 +43,9 @@ Expression
    Scripted Expression.
    Here you can add real numbers, math operators, math functions, python properties, driver functions.
    See Driver Expression below for some examples.
+Use Self
+   Allows for drivers to references their own data. 
+   Useful for objects, bones, to avoid having to create a variable pointing to its self.
 Show Debug Info
    Shows the Driver Value.
    The current value of the variables or scripted expression.
@@ -111,9 +114,6 @@ Value
 
 .. seealso::
 
-   - :doc:`Animation </animation/index>`
-   - :doc:`Graph Editor </editors/graph_editor/introduction>`
-   - :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
    - :ref:`Extending Blender with Python <scripting-index>`.
 
    - `Python <https://www.python.org>`__ and its `documentation <https://www.python.org/doc>`__.
