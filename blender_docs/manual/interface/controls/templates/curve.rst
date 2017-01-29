@@ -13,7 +13,7 @@ The purpose of the *Curve Widget* is to allow the user to modify an input
 (such as an image) in an intuitive manner by
 smoothly adjusting the values up and down using the curve.
 
-The input values are mapped to the X-axis of the graph, and the Y-axis is mapped to the output values.
+The input values are mapped to the X-axis of the graph, and the output values are mapped to the Y-axis.
 
 
 Control Points

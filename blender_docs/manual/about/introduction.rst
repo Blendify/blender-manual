@@ -3,7 +3,7 @@
 Introduction to the Blender Manual
 **********************************
 
-In this manual aims to be a complete and concise source of information
+This manual aims to be a complete and concise source of information
 to help you to become familiar with the application.
 
 

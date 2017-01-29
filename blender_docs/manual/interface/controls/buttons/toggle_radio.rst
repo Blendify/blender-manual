@@ -45,5 +45,5 @@ Radio buttons are used to choose from a small selection of "mutually exclusive" 
 Cycling
 -------
 
-Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over it, to cycle between the the options.
+Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over it, to cycle between the options.
 Cycling works also for number button and select menus.
