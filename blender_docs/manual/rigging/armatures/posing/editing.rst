@@ -281,7 +281,7 @@ Termination Mode
    To Next Keyframe
       Simply copies the pose to the first keyframe after (but not including any keyframe on) the current frame.
    To Last Keyframe
-      Will simply replace the last frame. (i.e. making action cyclic).
+      Will simply replace the last keyframe. (i.e. making action cyclic).
    Before Frame
       To all keyframes between current frame and the *End frame* option.
       This option is best suited for use from scripts due to the difficulties in setting this frame value,

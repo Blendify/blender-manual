@@ -42,17 +42,28 @@ Add Driver
 The common way to add a driver to a property is to :kbd:`RMB` click a property,
 then add a driver via the context menu.
 Drivers can also be added by pressing :kbd:`Ctrl-D` with the mouse over the property set.
+The selected properties will be used as a destination (output) for the driver.
 
 All from Target (properties icon)
-   This will add drivers to the set of properties related to the selected one.
+   This will add drivers to the set of properties used as a destination.
    It creates a default curve with keyframes at (0, 0) and (1, 1),
-   For example, it will add drivers to X, Y, and Z for Rotation.
+   For example, it will add drivers to X, Y, and Z for Location.
 Single from Target
-   This will add a single driver to the selected property.
+   This will add a single driver to the selected property used as a destination.
 Match Indices (palette icon)
-   ToDo.
+   Use the corresponding index to drive the corresponding property on a similar sized vector/array property.
+   This is useful for driving ``ob1.location`` with ``ob2.location``, or ``RGB color`` with ``XYZ location``
 Manually Create Later/(Single) (hand icon)
-   ToDo.
+   It just adds some/a driver(s), each with a single variable (but not filled in). No eyedropper will appear.
+
+The source/target (input) property can then be selected with an :ref:`ui-eye-dropper` (e.g. "Scale Y").
+
+.. note::
+
+   Due to the way that Blender's UI Context works, you'll need *two* Properties editor instances open 
+   (and to have pinned one of the two to show the properties for the unselected object).
+   This necessary as the UI cannot be manipulated while using eyedroppers to pick data.
+   Therefore, you need to be able to see both the source and the destination properties when using the eyedropper.
 
 
 Copy Paste
@@ -84,4 +95,19 @@ Some examples:
 Removing Drivers
 ----------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Driver --> Drivers --> Remove Driver`
+   | Menu:     :menuselection:`Context menu --> Delete (Single) Driver(s)`
+
 ToDo.
+
+
+Graph View
+===========
+
+The main area of the :doc:`Graph editor </editors/graph_editor/index>` in Driver Mode
+is used to create corrective drivers. These are drivers additionally controlled by
+a :doc:`F-Curve </editors/graph_editor/fcurves/introduction>`.
+
