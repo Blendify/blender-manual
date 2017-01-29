@@ -101,17 +101,17 @@ Sub IDs
 
 Vertex Group
    If selected object in the *Name* field is a a mesh or lattice,
-   a additional field is display where a vertex group can be selected.
+   an additional field is displayed where a vertex group can be selected.
 Bone
    If selected object in the *Name* field is an armature,
    a new field is displayed offering the choice to specify
-   an individual bones by entering its name in the *Bone* data ID.
+   an individual bone by entering its name in the *Bone* data ID.
 
    Head/Tail
       If a Bone is set, a new field is displayed offering
       the choice of whether the head or tail of a Bone will be pointed at. 
       The slider defines where along this bone the point lies interpolating along the bone axis in a straight line.
-      A value of zero will point the at the Head/Root of a Bone,
+      A value of zero will point at the Head/Root of a Bone,
       while a value of one will point at the Tail/Tip of a Bone.
 
       Use B-Bone Shape

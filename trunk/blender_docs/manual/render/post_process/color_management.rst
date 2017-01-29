@@ -25,7 +25,7 @@ which corresponds more closely to nature, and makes computations more physically
 
 .. figure:: /images/render_post-processing_linear-workflow.png
 
-   Example linear workflow.
+   Example of linear workflow.
 
 
 If the colors are linear, it means that if in reality we double the amount of photons,
@@ -190,7 +190,7 @@ OCIO environment variable to read an OpenColorIO configuration other than the de
 one. More information about how to set up such a workflow can be found on the
 `OpenColorIO website <http://opencolorio.org/>`__.
 
-We currently use the following color space roles:
+We currently use the following color space rules:
 
 scene_linear
    color space used for rendering, compositing, and storing all float precision images in memory.
