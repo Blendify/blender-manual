@@ -3,24 +3,8 @@
 Introduction
 ************
 
-.. figure:: /images/animation_driver_fcurve.png
-   :align: right
-
-   Graph Editor: Driver example.
-
-
-Drivers can use properties, numbers, transformations, and scripts,
-to control the values of properties.
-
-Using a F-Curve, the driver reads the value of the Driver Value and sets the value of the
-selected property it was added to.
-
-So from this example, if the Driver Value is 2.0 the property will be 0.5.
-
-The Driver Value is determined by Driver Variables or a Scripted Expression.
-
-Most the settings for the drivers :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` are found in
-the :doc:`Graph Editor </editors/graph_editor/introduction>`.
+Drivers are scripts. Their main purpose is to control properties with other properties.
+In example the rotation of one object is controlled with the location of another object.
 
 
 Adding & Removing
@@ -54,7 +38,7 @@ Match Indices (palette icon)
    Use the corresponding index to drive the corresponding property on a similar sized vector/array property.
    This is useful for driving ``ob1.location`` with ``ob2.location``, or ``RGB color`` with ``XYZ location``
 Manually Create Later/(Single) (hand icon)
-   It just adds some/a driver(s), each with a single variable (but not filled in). No eyedropper will appear.
+   It adds a/set of driver(s), each with a single variable (but not filled in). No eyedropper will appear.
 
 The source/target (input) property can then be selected with an :ref:`ui-eye-dropper` (e.g. "Scale Y").
 
@@ -103,11 +87,24 @@ Removing Drivers
 
 ToDo.
 
+.. seealso::
+
+   :doc:`Auto run </advanced/scripting/security>`
+
 
 Graph View
 ===========
 
-The main area of the :doc:`Graph editor </editors/graph_editor/index>` in Driver Mode
-is used to create corrective drivers. These are drivers additionally controlled by
-a :doc:`F-Curve </editors/graph_editor/fcurves/introduction>`.
+.. figure:: /images/animation_driver_fcurve.png
+   :align: right
 
+   Graph Editor: Driver example.
+
+The main area of the :doc:`Graph editor </editors/graph_editor/index>` in Driver Mode
+shows a :doc:`F-Curve </editors/graph_editor/fcurves/introduction>` that maps the Driver Value to
+the target property. The Driver Value is the output of the driver script.
+The X-axis is the Driver Value and the Y-axis the value of the target property.
+In the example image, if the Driver Value is 2.0 the property will be 0.5.
+
+The default F-curve is an identity map i.e. the value is not changed.
+It can be used to create corrective drivers.

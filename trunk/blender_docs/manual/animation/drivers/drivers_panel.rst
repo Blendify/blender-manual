@@ -24,8 +24,8 @@ Remove Driver
    Removes the driver from the property.
 
 Type
-   The type of calculation to use on the set of Driver Variables.
-   (If you only have one driver variable there is no real difference between average, sum, minimum and maximum)
+   There are two categories of scripts: built-in (average, sum, minimum and maximum) and
+   custom scripts (Scripted Expressions).
 
    Average Value
       Uses the average value of the referenced Driver Variables.
@@ -41,20 +41,19 @@ Type
 
 Expression
    Scripted Expression.
-   Here you can add real numbers, math operators, math functions, Python properties, driver functions.
+   Here you can add variables, real numbers, math operators, math functions, Python properties, driver functions.
    See Driver Expression below for some examples.
 Use Self
    This allows for drivers to references their own data using the variable ``self``.
    Useful for objects, bones, to avoid having to create a variable pointing to its self.
 Show Debug Info
-   Shows the Driver Value.
-   The current value of the variables or scripted expression.
-Add Variable
-   Adds a new Driver Variable.
+   Shows the *Driver Value*.
+Driver Value
+   The output value of the driver script.
 
-.. figure:: /images/animation_driver_single_property.jpg
 
-   Setup of a Single Property.
+Driver Variables
+----------------
 
 .. list-table::
 
@@ -66,10 +65,10 @@ Add Variable
 
           Distance Setup.
 
+Variable are references to properties or delta transformation which are a reference to two properties.
 
-Driver Variables
-----------------
-
+Add Variable
+   Adds a new Driver Variable.
 Name
    Name to use for scripted expressions/functions.
    No spaces or dots are allowed and must start with a letter.
@@ -82,6 +81,7 @@ Variable Type
       For example, the Ambient shading color from a material.
       First select the type of ID-block, then the ID of the ID-block, then copy and
       paste an RNA property :kbd:`Ctrl-V`.
+      See also :doc:`/data_system/custom_properties`.
 
       ID-Type
          The ID-Block type. Example: Key, Image, Object, Material.
@@ -112,9 +112,17 @@ Value
    Shows the value of the variable.
 
 
+Example
+^^^^^^^^^^
+
+.. figure:: /images/animation_driver_single_property.jpg
+
+   Setup of a Single Property.
+
+
 .. seealso::
 
    - :ref:`Extending Blender with Python <scripting-index>`.
 
-   - `Python <https://www.python.org>`__ and its `documentation <https://www.python.org/doc>`__.
+   - `Python <https://www.python.org>`__ and its `documentation <https://www.docs.python.org/>`__.
    - `functions.wolfram.com <http://functions.wolfram.com/>`__.
