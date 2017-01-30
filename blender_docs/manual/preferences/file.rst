@@ -74,6 +74,8 @@ the installation directory of Blender:
    Running a program with elevated privileges is potentially dangerous!
 
 
+.. _prefs-auto-execution:
+
 Auto Execution
 ==============
 

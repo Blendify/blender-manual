@@ -67,7 +67,7 @@ Setting Defaults
 ----------------
 
 In the *File* tab of the User Preferences,
-there is the toggle **Auto Run Python Scripts**.
+there is the toggle :ref:`Auto Run Python Scripts <prefs-auto-execution>`.
 
 This means the **Trusted Source** option in the File Browser will be enabled by default,
 and scripts can run when blend-files are loaded without using the File Browser.
