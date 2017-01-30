@@ -36,7 +36,7 @@ Depending on your desktop environment setup, a Blender icon may appear on your d
 entry for Blender added to your menu after you install Blender.
 When you start Blender using a desktop icon or menu entry rather than a Terminal window, the
 Blender *Console Window* text will most likely be hidden on the Terminal that your
-`XWindow <https://en.wikipedia.org/wiki/Xwindows>`__ server was started from.
+`XWindow <https://en.wikipedia.org/wiki/X_Window_System>`__ server was started from.
 
 This screenshot shows Blender started from a Linux Terminal and the
 resulting console text being printed to it.

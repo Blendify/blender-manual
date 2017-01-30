@@ -82,7 +82,7 @@ Changing the Size and Hiding
 ----------------------------
 
 Resizing regions works the same way as :doc:`/interface/window_system/areas`
-by dragging its border.
+by dragging their border.
 
 To hide a region scale it down to nothing.
 A hidden region leaves a little plus sign (see picture).
