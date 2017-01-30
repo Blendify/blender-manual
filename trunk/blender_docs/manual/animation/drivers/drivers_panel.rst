@@ -41,10 +41,10 @@ Type
 
 Expression
    Scripted Expression.
-   Here you can add real numbers, math operators, math functions, python properties, driver functions.
+   Here you can add real numbers, math operators, math functions, Python properties, driver functions.
    See Driver Expression below for some examples.
 Use Self
-   Allows for drivers to references their own data. 
+   This allows for drivers to references their own data using the variable ``self``.
    Useful for objects, bones, to avoid having to create a variable pointing to its self.
 Show Debug Info
    Shows the Driver Value.
