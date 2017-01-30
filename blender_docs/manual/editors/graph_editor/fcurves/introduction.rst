@@ -107,6 +107,7 @@ Bézier
 Easing (by strength)
 ^^^^^^^^^^^^^^^^^^^^
 
+Different methods of easing interpolations for F-Curve segment.
 The "Robert Penner easing equations" (basically, equations which define some preset ways that
 one keyframe transitions to another) which reduce the amount of manual work (inserting and tweaking keyframes)
 to achieve certain common effects. For example, snappy movements.
@@ -133,6 +134,7 @@ These additional easing types imitate (fake) physics-based effects like bouncing
 The corresponding settings can be found in the :menuselection:`Properties region --> Active Keyframe panel`.
 
 Elastic
+   Exponentially decaying sine wave, like an elastic band.
    This is like bending a stiff pole stuck to some surface, and watching it rebound and settle back to its original state.
 
    Amplitude
@@ -143,8 +145,10 @@ Elastic
       The period property controls the frequency with which oscillations occur.
       Higher values result in denser oscillations.
 Bounce
-   Self-explanatory; e.g. for Bouncing balls, etc.
+   Exponentially decaying parabolic bounce, like when objects collide.
+   e.g. for Bouncing balls, etc.
 Back
+   Cubic easing with overshoot and settle.
    Use this one when you want a bit of an overshoot coming into the next keyframe,
    or perhaps for some wind-up anticipation.
 

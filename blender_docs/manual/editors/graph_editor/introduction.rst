@@ -149,8 +149,22 @@ Show Only Errors (livesaver icon)
    Useful for debugging.
 Search Filter (magnifying glass icon) :kbd:`F`
    Only include curves with keywords contained in the search field.
+
+   Multi-Word (az icon)
+      Fuzzy/Multi-Word name filtering matches word snippets/partial words,
+      instead of having to match everything. It breaks down the search string based on whitespace placement.
+      e.g. "lo ro" will filter all location and rotation, while "lc rt" will *not* work.
 Type Filter
    Filter curves by property type.
+
+   Data-block Sort (az icon)
+      Objects data-blocks appear in alphabetical order, so that it is easier to find where they occur 
+      (as well as helping to keep the animation of related objects together in the NLA for instance).
+
+      If you find that your playback speed suffers from this being enabled
+      (it should only really be an issue when working with lots of objects in the scene),
+      you can turn this off.
+
 Normalize
    Normalize curves so the maximum or minimum point equals 1.0 or -1.0.
 
