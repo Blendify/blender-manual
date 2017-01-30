@@ -28,7 +28,7 @@ Faces are extruded by default along their averaged normal.
 The extrusion can be limited to a single axis by specifying an axis;
 see :doc:`/editors/3dview/object/transform/control/precision/axis_locking`.
 
-The extrude tools differentiate in how the new geometry is connected in itself. 
+The extrude tools differentiate in how the new geometry is connected in itself.
 
 
 Extrude Region

@@ -203,7 +203,6 @@ Rotate Method
       Is less restrictive, allowing any orientation.
 
 
-
 .. _prefs-input-keymap-editor:
 
 Keymap Editor

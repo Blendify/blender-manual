@@ -13,7 +13,7 @@ Drawing Brushes
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Drawing Brushes`
 
 Brushes
-   A :ref:`ui-list-view` of preset brushes. 
+   A :ref:`ui-list-view` of preset brushes.
    You can switch between the brushes using keyboard numbers from :kbd:`1` to :kbd:`0`.
    The selected drawing brush is the brush in the list located at that position.
 Thickness
@@ -55,7 +55,8 @@ Stoke Quality
 These settings are per-brush settings that are applied after each stroke is drawn
 (when converting from 2D/screen space coordinates to 3D/data space coordinates).
 These are per-brush settings so that you can apply varying proprieties to different types of brushes.
-E.g higher smoothing and/or subdivision for final "beauty", and less smoothing/subdivision for initial "blocking" strokes. 
+E.g higher smoothing and/or subdivision for final "beauty",
+and less smoothing/subdivision for initial "blocking" strokes.
 
 Smooth
    Defines how much smoothing is applied (using the same method as the "Smooth" Brush).

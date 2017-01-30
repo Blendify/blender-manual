@@ -55,7 +55,7 @@ While multiple links can route out of an output socket, only a single link can b
 To reposition the outgoing links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an
 output socket. This works for single as well as for multiple outgoing links.
 
-Nodes that have no connections can be inserted on a link. 
+Nodes that have no connections can be inserted on a link.
 Just move the node over the link and release when the link turns orange.
 
 Make Links :kbd:`F`

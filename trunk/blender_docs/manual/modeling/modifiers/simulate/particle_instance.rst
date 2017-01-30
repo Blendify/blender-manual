@@ -82,7 +82,7 @@ Normal
    emitted from the underlying particle system. So if the current modifier is a sphere shape,
    when normal particles are emitted they will be spheres.
 Children
-   When selected, the *Children* button tells the modifier 
+   When selected, the *Children* button tells the modifier
    to draw instances of itself wherever children/child particles are
    emitted/used on the underlying particle system. So if the current modifier is a sphere shape,
    when children/child particles are emitted they will be spheres.

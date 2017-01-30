@@ -331,7 +331,7 @@ Selects all geometry along the shortest path from the active vertex/edge/face to
 was selected.
 
 Face Stepping
-   Supports diagonal paths for vertices and faces, and 
+   Supports diagonal paths for vertices and faces, and
    selects edge-rings with edges.
 Topological Distance
    Which only takes into account the number of edges of the path and

@@ -63,7 +63,7 @@ Interpolation Mode
    | Hotkey:   :kbd:`T`
 
 
-Mode for the :term:`Interpolation` between the current and next keyframe. 
+Mode for the :term:`Interpolation` between the current and next keyframe.
 
 
 Interpolation
@@ -123,7 +123,7 @@ to achieve certain common effects. For example, snappy movements.
 
 .. seealso::
 
-   For more info and a few live demos, see http://easings.net and 
+   For more info and a few live demos, see http://easings.net and
    http://www.robertpenner.com/easing/
 
 
@@ -135,7 +135,8 @@ The corresponding settings can be found in the :menuselection:`Properties region
 
 Elastic
    Exponentially decaying sine wave, like an elastic band.
-   This is like bending a stiff pole stuck to some surface, and watching it rebound and settle back to its original state.
+   This is like bending a stiff pole stuck to some surface,
+   and watching it rebound and settle back to its original state.
 
    Amplitude
       The amplitude property controls how strongly the oscillation diverges from the basic curve.
@@ -167,7 +168,7 @@ Easing Type
    | Menu:     :menuselection:`Key --> Easing Type`
    | Hotkey:   :kbd:`Ctrl-E`
 
-The Easing Type controls which end of the segment between the two keyframes that the easing effects apply to. 
+The Easing Type controls which end of the segment between the two keyframes that the easing effects apply to.
 
 Automatic Easing
    The most commonly expected of the below behaviors is used.

@@ -32,7 +32,6 @@ including :doc:`Smoke </physics/smoke/index>`.
 :doc:`Force Fields </physics/force_fields/index>` can modify the behavior of simulations.
 
 
-
 .. _physics-intro-gravity:
 
 Gravity

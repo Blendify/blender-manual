@@ -283,7 +283,7 @@ def wrap_lines(fn, data_src):
 
 
 # define the operation to call
-operation = find_and_replace
+operation = strip_trailing_space
 
 
 if __name__ == "__main__":

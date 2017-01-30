@@ -11,7 +11,7 @@ but here we will focus on file/asset management and data I/O.
 .. note::
 
    The tools and workflows documented here require familiarity with working
-   with a command line interface and are mostly aimed at TDs and technical users. 
+   with a command line interface and are mostly aimed at TDs and technical users.
 
 BAM Asset Manager
 =================
@@ -24,10 +24,10 @@ the *BAM Asset Manager* (BAM) was developed. The original scope of BAM included
 client-server asset management tools going beyond Blender,
 but it was later refocused on core utilities to perform two operations:
 
-- blendfile packing 
+- blendfile packing
 - automatic dependencies remapping
 
-The following section of the manual focuses on how to use BAM. 
+The following section of the manual focuses on how to use BAM.
 
 Installing BAM
 --------------
@@ -68,22 +68,22 @@ You may also want to give an explicit output directory.
 The example shows how to pack a blend with maximum compression for online downloads
 
 .. code-block:: sh
-   
+
    bam pack /path/to/scene.blend --output my_scene.zip --compress=best
 
 The command provides several options to adapt to different workflows
 (final distribution, partial extraction, rendering).
 
-``-o``, ``--output`` ``<FILE>`` 
+``-o``, ``--output`` ``<FILE>``
    Output file or a directory when multiple inputs are passed
-``-m``, ``--mode`` ``<MODE>`` 
+``-m``, ``--mode`` ``<MODE>``
    Output file or a directory when multiple inputs are passed. Possible choices: ``ZIP``, ``FILE``
-``-e``, ``--exclude`` ``<PATTERN(S)>`` 
-   Optionally exclude files from the pack. 
+``-e``, ``--exclude`` ``<PATTERN(S)>``
+   Optionally exclude files from the pack.
 
-   ``--exclude="*.png"`` 
-      Using Unix shell-style wildcards *(case insensitive)*. 
-   ``--exclude="*.txt;*.avi;*.wav"`` 
+   ``--exclude="*.png"``
+      Using Unix shell-style wildcards *(case insensitive)*.
+   ``--exclude="*.txt;*.avi;*.wav"``
       Multiple patterns can be passed using the ``;`` separator.
 ``-a``, ``--all-deps``
    Follow all dependencies (unused indirect dependencies too)
@@ -94,9 +94,9 @@ The command provides several options to adapt to different workflows
    Possible choices: ``default``, ``fast``, ``best``, ``store``
 ``--repo`` ``<DIR PATH>``
    Specify a "root" path from where to pack the selected file.
-   This allows for the creation of a sparse copy of the production tree, without any remapping. 
+   This allows for the creation of a sparse copy of the production tree, without any remapping.
 ``--warn-external``
-   Report external libraries errors (missing paths) 
+   Report external libraries errors (missing paths)
 
 
 Examples
@@ -106,27 +106,27 @@ Consider the following directory layout,
 and in particular the file *01_01_A.lighting.blend* with its linked libraries.
 
 .. code-block:: sh
-   
+
    ~/agent327/
    └─ lib/
       ├─ chars/
-      |  ├─ agent.blend  ------------->| 
+      |  ├─ agent.blend  ------------->|
       |  ├─ boris.blend  ------------->|
       |  └─ barber.blend               |
       └─ scenes/                       |
          ├─ 01-opening                 |
          ├─ 01_01_A.lighting.blend  <--|  < BAM pack this file
-         └─ 01_01_A.anim.blend  ------>| 
+         └─ 01_01_A.anim.blend  ------>|
 
 
 Once we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend``
 we obtain a *01_01_A.lighting.zip* inside of which we find the following structure.
 
 .. code-block:: sh
-   
+
    ~/01_01_A.lighting
       ├─ 01_01_A.lighting.blend
-      └─ __/ 
+      └─ __/
          ├─ 01_01_A.anim.blend
          └─ __/
             └─ lib/
@@ -140,9 +140,9 @@ If we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend --repo ~/agent327
 the output will be different.
 
 .. code-block:: sh
-   
+
    ~/01_01_A.lighting
-      ├─ lib/ 
+      ├─ lib/
       |  └─ chars/
       |     ├─ agent.blend
       |     └─ boris.blend

@@ -132,7 +132,7 @@ Onion-skinning, also known as ghosting, helps an animator by displaying the neig
 
    Grease Pencil Onion Skinning.
 
-   A: Use Custom Colors 
+   A: Use Custom Colors
 
 Onion Skinning
    Checkbox to enable onion skinning.

@@ -89,7 +89,7 @@ Clear Transform
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations (usual :kbd:`Alt-G`/:kbd:`Alt-R`/:kbd:`Alt-S` shortcuts,
 or :menuselection:`Pose --> Clear Transform --> Clear User Transform`,
-:menuselection:`Pose --> Clear Transform --> All`, to clear everything at once... 
+:menuselection:`Pose --> Clear Transform --> All`, to clear everything at once...
 -- commands also available in the *Specials* menu).
 
 Note that in *Envelope* visualization, :kbd:`Alt-S` does not clear the scale,

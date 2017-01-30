@@ -100,7 +100,7 @@ By default, Blender highlights selected geometry in orange in both *Object Mode*
 In *Object Mode* with *Wireframe* shading enabled :kbd:`Z`,
 objects are displayed in black when unselected and in orange when selected.
 If more than one object is selected, all selected objects except the active object,
-typically the object last selected, are displayed in a darker orange color. 
+typically the object last selected, are displayed in a darker orange color.
 
 Similarly, in *Edit Mode*, unselected geometry is drawn in black while selected faces, edges,
 or vertices are drawn in orange. The active face is highlighted in white.

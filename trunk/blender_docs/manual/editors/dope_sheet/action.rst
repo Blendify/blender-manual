@@ -34,18 +34,22 @@ Layer Previous/Next (down/up arrow peak icon)
    Clicking on the up/down arrow buttons to go to the action in the NLA Track above/below the NLA Strip being
    whose action is being tweaked in the Action Editor.
 
-   If there are multiple actions/strips on the same layer/track, then only the one closest to the current frame will be used.
+   If there are multiple actions/strips on the same layer/track,
+   then only the one closest to the current frame will be used.
 
    The operators will take into account the settings to view/edit the action in isolation (i.e. Solo and NLA Muting).
    This was done to make it easier to preview different stashed actions.
 
-   - If moving from a solo'd NLA Track to the active action, the NLA stack will be muted so that the action can be edited in isolation. 
-   - Likewise, if the NLA stack is muted when editing the action action, the NLA Track below it will be edited with solo enabled. 
+   - If moving from a solo'd NLA Track to the active action,
+     the NLA stack will be muted so that the action can be edited in isolation.
+   - Likewise, if the NLA stack is muted when editing the action action,
+     the NLA Track below it will be edited with solo enabled.
    - If switching between NLA Tracks, the solo status for the previous track will be transferred to the new track.
 
    .. note::
 
-      These still work when you're not editing the action used by a NLA Strip. If you're just animating a new action normally,
+      These still work when you're not editing the action used by a NLA Strip.
+      If you're just animating a new action normally,
       it is possible to use the "down arrow" to temporarily jump down to the previous action
       without losing the new action you're working on, and then use the "up arrow" to get back to
       it once you're done checking the other action(s).
@@ -67,7 +71,7 @@ Stash (Snowflake icon)
    In both of these cases (Push Down and Stash), once the action has been added to the NLA stack,
    it is cleared/unassigned from the active action slot
    (i.e. it cannot be edited anymore from the Action/Graph Editors,
-   unless you enter "Tweak Mode" on the corresponding strips later). 
+   unless you enter "Tweak Mode" on the corresponding strips later).
 
 
 Channel Menu
