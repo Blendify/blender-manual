@@ -146,4 +146,4 @@ Before/After
       The color of the strokes before/after the current frame.
    Before/After Range
       The maximum number of ghosts to show before/after the current frame.
-      0 will only show the the previous/next sketch, and -1 will not show any frames before/after current.
+      0 will only show the previous/next sketch, and -1 will not show any frames before/after current.

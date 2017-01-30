@@ -7,7 +7,7 @@ Common
 Target
 ======
 
-The Target field lets you link the constraint to a Target object of your choosing.
+The Target :ref:`ui-data-id` field lets you link the constraint to a Target object of your choosing.
 This link provides data to the constraint so that it can begin to function.
 For example, the Copy Location Constraint needs location data to function.
 Fill in the Target field, and the Copy Location constraint will begin to use location data from the Target object.

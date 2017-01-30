@@ -39,7 +39,7 @@ Proxy Storage
       All proxies are stored in one directory.
 
       Proxy Directory
-         The location to to store the proxies for the project.
+         The location to store the proxies for the project.
 
 Proxy Size
    Buttons to control how big the proxies are.

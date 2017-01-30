@@ -100,7 +100,7 @@ Sub IDs
 .. figure:: /images/interface_controls_templates_data_subids.png
 
 Vertex Group
-   If selected object in the *Name* field is a a mesh or lattice,
+   If selected object in the *Name* field is a mesh or a lattice,
    an additional field is displayed where a vertex group can be selected.
 Bone
    If selected object in the *Name* field is an armature,

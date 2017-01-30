@@ -4,8 +4,8 @@ Meta Strips
 ***********
 
 Meta-Strips are a kind of organization tool. For example,
-if you are using a lot of strips and they are complicated
-the the interface you can group them together using Meta-Strips.
+if you are using a lot of strips and they are complicated in
+the interface you can group them together using Meta-Strips.
 A Meta-Strip spans from the beginning of the first strip to the end of the last one,
 and condenses all channels into a single strip. Separating (ungrouping)
 them restores them to their relative positions and channels.

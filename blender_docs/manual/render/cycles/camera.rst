@@ -142,7 +142,7 @@ Aperture
 
 Aperture type
   Use F-Stop or Radius to set the aperture for the render, and render preview.
-  F-Stop is the focal ratio, where Radius is the the radius of the focal point.
+  F-Stop is the focal ratio, where Radius is the radius of the focal point.
 Size/Number
   Aperture radius *size*, or F-Stop *number* used for the render, and render preview.
   Using the F-Stop with a low number, or Radius with a large size will result in a strong blur,
