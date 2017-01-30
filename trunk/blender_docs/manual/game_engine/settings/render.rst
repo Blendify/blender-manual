@@ -123,6 +123,8 @@ GLSL
    Use GLSL shading. GLSL should be used whenever possible for real-time image rendering.
 
 
+.. _game-engine-settings-render-system:
+
 System
 ======
 
@@ -140,15 +142,16 @@ and whether to maintain geometry in the internal memory of the Graphic card.
 Use Frame Rate
    When checked, this will inform Blender whether to run freely without frame rate restrictions or not.
    The frame rate is specified at the *Display* panel in the *Render* tab of the Properties editor.
-   For more information about frame rates, see the :doc:`Display </game_engine/performance/display>` page.
+   For more information about frame rates,
+   see the :ref:`Display panel <game-engine-settings-render-display>` page.
 Display Lists
    When checked, this will tell Blender to maintain the lists of the meshes geometry allocated at the GPU memory.
    This can help to speed up viewport rendering during the game if
    you have enough GPU memory to allocate geometry and textures.
 Restrict Animation Updates
    When checked, this will force the Game Engine to discard frames (even at the middle of redrawing,
-   sometimes causing *tearing* artifacts) if the rate of frame rendered
-   by the GPU is greater than the specified at the :doc:`Display </game_engine/performance/display>` Tab.
+   sometimes causing *tearing* artifacts) if the rate of frame rendered by the GPU is greater than
+   the specified in the :ref:`Display panel <game-engine-settings-render-display>`.
 Exit Key
    Clicking at this button will ask the user to type a key to specify a key to stop the Game Engine from running.
 
@@ -170,6 +173,8 @@ Restrict Animation Updates
    Restrict number of animation updates to the animation FPS
    (this is better for performance but can cause issues with smooth playback).
 
+
+.. _game-engine-settings-render-display:
 
 Display
 =======
