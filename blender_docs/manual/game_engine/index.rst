@@ -9,6 +9,7 @@
 
    introduction.rst
    screen_layout.rst
+   settings/index.rst
    materials.rst
    world.rst
    logic/index.rst

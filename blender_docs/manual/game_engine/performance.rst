@@ -22,8 +22,8 @@ ways to control the frame rate or the way the contents are rendered in Blender w
 as well as controls for maintaining geometry allocated in graphic cards memory.
 
 Blender Game Engine rendering system controls:
-   :doc:`System </game_engine/performance/system>` --
+   :ref:`System <game-engine-settings-render-system>` --
    Controls for Scene rendering while the game is running.
 Blender Game Engine Performance measurements:
-   :doc:`Display </game_engine/performance/display>` --
+   :ref:`Display <game-engine-settings-render-display>` --
    Controls for showing specific data about performance while the game is running.
