@@ -14,10 +14,13 @@ Palette
    Switching palettes will change all strokes color in all layers if the same color are linked.
 
    New ``+``
-      If there are more than one palette, all colors of the old palette will be transferred to the new selected palette.
+      If there are more than one palette,
+      all colors of the old palette will be transferred to the new selected palette.
 
-      - If the color exist in the new palette (same name), the stroke is linked to new color.
-      - If the color does not exist in the new palette, a new color is added to the palette in order to keep the stroke.
+      - If the color exist in the new palette (same name),
+        the stroke is linked to new color.
+      - If the color does not exist in the new palette,
+        a new color is added to the palette in order to keep the stroke.
 Colors
       A :ref:`ui-list-view` of colors grouped in the palette linked as stroke or fill colors.
       If a color with strokes is removed, all strokes of this color are removed.

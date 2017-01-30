@@ -23,7 +23,8 @@ Lock (Lock icon)
 Action Track
 ============
 
-By default, the Action Editor automatically stores the keyframes you create through the 3D View by storing them into an action based on the name as the object you are working on.
+By default, the Action Editor automatically stores the keyframes you create through the 3D View
+by storing them into an action based on the name as the object you are working on.
 
 .. (alt) icon: downwards chevron
 

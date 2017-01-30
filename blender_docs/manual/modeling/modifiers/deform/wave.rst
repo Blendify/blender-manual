@@ -45,7 +45,7 @@ Axis
    (if both X and Y are enabled),
    or with rectilinear wave fronts (if only one axis is enabled),
    then parallel to the axis corresponding to the X or Y button activated.
-   
+
    X, Y
 Cyclic
    Repeats the waves cyclically, rather than a single pulse.
@@ -91,7 +91,7 @@ Delimiter & Noise
 
 Vertex Group
    For meshes only. A vertex group name, used to control the parts of the mesh affected by the wave effect,
-   and to what extent (using vertex weights). Note a newly created vertex group has empty weights 
+   and to what extent (using vertex weights). Note a newly created vertex group has empty weights
 Texture
    Use this texture to control the object's displacement level.
    Animated textures can give very interesting results here.

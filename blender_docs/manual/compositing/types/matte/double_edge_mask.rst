@@ -44,7 +44,6 @@ Inner Edge
              Adjacent Only.
 
 
-
 Buffer Edge
    Keep In
       Parts of the *Outer Mask* that touch the edge of the image are treated as if

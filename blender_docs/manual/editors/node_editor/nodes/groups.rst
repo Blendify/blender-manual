@@ -4,7 +4,7 @@ Node Groups
 ***********
 
 Grouping nodes can simplify a node tree by allowing instancing and hiding parts of the tree.
-Both material and composite nodes can be grouped. 
+Both material and composite nodes can be grouped.
 
 Conceptually, grouping nodes allows you to specify a *set* of nodes that you can treat as
 though it were "just one node". Node groups are similar to functions in programming.

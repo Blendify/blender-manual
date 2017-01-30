@@ -65,7 +65,7 @@ Vertex Groups
    - The mirror side vertex group must already exist (it will not be created automatically).
      It must also be completely empty (no vertices assigned to it).
 
-  
+
 Textures
 --------
 

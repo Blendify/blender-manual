@@ -213,7 +213,7 @@ File Drop
 ^^^^^^^^^
 
 You now can simply drag & drop files from your local file explorer into the blender file browser.
-This will relocate the File browser to the directory of the dropped file and the file will be selected. 
+This will relocate the File browser to the directory of the dropped file and the file will be selected.
 
 
 Selection

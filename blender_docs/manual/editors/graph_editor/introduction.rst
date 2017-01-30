@@ -158,7 +158,7 @@ Type Filter
    Filter curves by property type.
 
    Data-block Sort (az icon)
-      Objects data-blocks appear in alphabetical order, so that it is easier to find where they occur 
+      Objects data-blocks appear in alphabetical order, so that it is easier to find where they occur
       (as well as helping to keep the animation of related objects together in the NLA for instance).
 
       If you find that your playback speed suffers from this being enabled

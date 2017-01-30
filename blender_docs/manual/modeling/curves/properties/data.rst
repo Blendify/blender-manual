@@ -61,7 +61,7 @@ Fill
 Path/Curve-Deform
    These options are primarily utilized when using a Curve as a Path or when using the Curve Deform Modifier.
    They control how objects use the curve and are dealt with in more detail in the appropriate links below.
-   
+
    Radius
       Causes the deformed object to be scaled by the set curve radius.
    Stretch

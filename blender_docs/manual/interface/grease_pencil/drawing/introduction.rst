@@ -55,7 +55,7 @@ Additive Drawing
 ----------------
 
 With the "Additive Drawing" option enabled the active frame's
-strokes will be carried over/copied if you start drawing on an empty frame 
+strokes will be carried over/copied if you start drawing on an empty frame
 (i.e. one without any keyframe already). This saves the effort of keeping a Dopes sheet
 open, and to remember to duplicate the current frame before starting to draw the
 next pose (or risk managing to draw the perfect pose, but without everything else).
@@ -65,7 +65,7 @@ Examples of cases where this comes in handy includes animating facial expression
 (when all outlines are on the same layer), or animating "growing" things
 (e.g. vines, or concentric circles growing from a central point).
 
-.. note:: 
+.. note::
 
    Even without this option enabled, this is the default behavior when using
    the eraser on an "empty" frame. This makes it easier to do shots where you're just
@@ -84,7 +84,7 @@ Note that with the *Eraser* both :kbd:`LMB` or :kbd:`RMB` can be used
 when drawing has started.
 
 Use :kbd:`Esc` or :kbd:`Return` or clicking outside the current viewport
-(e.g. another region or editor) to exit the mode. 
+(e.g. another region or editor) to exit the mode.
 Continuous drawing can be disabled using :kbd:`E` key in order to get fast access to sculpt mode.
 
 

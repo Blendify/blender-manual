@@ -15,7 +15,7 @@ They can be found inside the *Cycles Hair Rendering* panel under the particle ta
 .. Which also can to be deactivated.
 
 The resolution of the strands is controlled by the step values in particle settings.
-Each hair system uses the material identified in the particle settings in the same way as Blender Internal. 
+Each hair system uses the material identified in the particle settings in the same way as Blender Internal.
 
 
 Primitive
@@ -57,7 +57,7 @@ Max Extension
 Hair Settings
 =============
 
-The Cycles Hair Settings, under the particle tab, are used to control each hair particle system's strand properties. 
+The Cycles Hair Settings, under the particle tab, are used to control each hair particle system's strand properties.
 
 Shape
    A shape parameter that controls the transition in thickness between the root and tip.

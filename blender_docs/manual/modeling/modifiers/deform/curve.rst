@@ -15,7 +15,7 @@ to deform based on the direction vector of the curve endings.
 
 If the curve is 3D, the *Tilt* value of its control points will be used
 to twist the deformed object.
-In the :menuselection:`Curve tab --> Shape panel` under 
+In the :menuselection:`Curve tab --> Shape panel` under
 :ref:`Path/Curve-Deform <curve-shape-path-curve-deform>`
 are options that influence the modifier.
 

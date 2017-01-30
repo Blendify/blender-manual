@@ -34,7 +34,7 @@ Getting Started
 Access the :doc:`Node Editor </editors/node_editor/index>` and enable
 *Composite Nodes* by clicking on the *Image* icon.
 
-To activate nodes for compositing, click the *Use Nodes* checkbox 
+To activate nodes for compositing, click the *Use Nodes* checkbox
 (see :doc:`/compositing/properties`).
 
 .. note::

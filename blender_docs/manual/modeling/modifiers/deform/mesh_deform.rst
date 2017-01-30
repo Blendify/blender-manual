@@ -35,7 +35,7 @@ Invert ``<->``
 Precision
    The *Precision* number button controls the accuracy with which the
    deform mesh cage alters the deformed object, when the points on the cage are moved.
-   Raising this value higher can greatly increase the time it takes 
+   Raising this value higher can greatly increase the time it takes
    the Mesh Deform Modifier to complete its binding calculations,
    but it will get more accurate cage mapping to the deformed object.
 

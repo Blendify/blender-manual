@@ -163,9 +163,9 @@ Similar
 
 
 Children
-   Extends the selection to all hierarchical descendant bones. 
+   Extends the selection to all hierarchical descendant bones.
 Immediate Children
-   Extends the selection to all direct child bones. 
+   Extends the selection to all direct child bones.
 Siblings
    Selects bones that have the same parent as the active bone.
 Length

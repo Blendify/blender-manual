@@ -16,7 +16,7 @@ their main usage is obviously in animation.
   (this is a form of indirect animation). Indeed,
   these targets can then control the constraint's owner's properties, and hence,
   animating the targets will indirectly animate the owner.
-- You can animate constraints' settings. e.g. the *Influence* or 
+- You can animate constraints' settings. e.g. the *Influence* or
   when using an armature's bone as target,
   animate where along this bone (between root and tip) lays the real target point.
 

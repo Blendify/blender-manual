@@ -111,7 +111,7 @@ Object-level Restrictions
 -------------------------
 
 The three following toggles, in the right side of the *Outliner* editor,
-are available for objects, modifiers and constraints. 
+are available for objects, modifiers and constraints.
 When holding :kbd:`Ctrl` all its child objects are affected as well.
 
 Visibility (eye icon)

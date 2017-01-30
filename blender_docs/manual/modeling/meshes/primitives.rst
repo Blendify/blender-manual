@@ -52,7 +52,7 @@ Radius, Size
    .. from the center to what? compare plane to circle (3 vertices)
 
 Generate UVs
-   Generates a default UV-unwrapping of new geometry. 
+   Generates a default UV-unwrapping of new geometry.
    This will be defined in the first UVLayer (which will get added if needed).
    (available for plane, cube, circle, UV-/icosphere, tube and cone).
 

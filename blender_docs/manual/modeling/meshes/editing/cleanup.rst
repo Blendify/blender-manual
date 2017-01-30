@@ -30,7 +30,7 @@ Vertex Group
 Symmetry
    Maintain symmetry on either the *X*, *Y*, or *Z* axis.
 
-.. seealso:: 
+.. seealso::
 
    This tool works similar to the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
 
