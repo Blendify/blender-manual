@@ -21,4 +21,4 @@ Color Panel
 Color Presets
    Colors saved as a preset for re-use in other nodes.
 Color
-   Color of the node background. Node colors can can be used to provide a visual cue.
+   Color of the node background. Node colors can be used to provide a visual cue.

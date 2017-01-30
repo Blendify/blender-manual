@@ -105,7 +105,7 @@ Freq
 The following parameters specifies how the sensor's status gets evaluated:
 
 *Tap* Button
-   Changes the sensor's state to to negative one frame after changing
+   Changes the sensor's state to negative one frame after changing
    to positive even if the sensor evaluation remains positive.
    As this is a state change it triggers the connected controllers as well.
    Only one of *Tap* or *Level* can be activated.

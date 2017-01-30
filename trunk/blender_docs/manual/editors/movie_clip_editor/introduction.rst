@@ -12,7 +12,7 @@ The default layout looks like the image below.
    Movie Clip Editor interface.
 
 In order to get to either the masking or the tracking tools you must first add a movie file.
-There are several ways to to this:
+There are several ways to do this:
 
 - Use *Open* button from movie editor header.
 - Use :menuselection:`Clip --> Open` menu.

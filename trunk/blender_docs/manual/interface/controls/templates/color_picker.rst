@@ -12,7 +12,7 @@ Color Picker
 The color picker is a pop-up that lets you define a color value.
 
 Color field
-   Lets you pick the the first and second color component. The shape can be selected by the `Types`_.
+   Lets you pick the first and second color component. The shape can be selected by the `Types`_.
 Color slider
    The slider with a gradient in the background lets you define the third color component.
    It can also be controlled with the :kbd:`Wheel`.

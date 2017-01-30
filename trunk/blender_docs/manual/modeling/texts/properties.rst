@@ -27,7 +27,7 @@ Resolution
 Preview
    The surface resolution in the U direction to use in the viewport.
 Render
-   The surface resolution in the U direction, set to zero to use the the *Preview* resolution.
+   The surface resolution in the U direction, set to zero to use the *Preview* resolution.
 
 
 Fill
