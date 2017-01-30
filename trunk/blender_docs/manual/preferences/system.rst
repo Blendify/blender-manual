@@ -94,7 +94,7 @@ The Options here will set the compute device used by the Cycles render engine.
 
 None
    When set to *None* or the only option is *None*:
-   your CPU will be used as a computing device for Cycles Render Engine
+   your CPU will be used as a computing device for Cycles Render Engine.
 CUDA
    If the system has a compatible Nvidia CUDA enabled graphics card you will be able
    to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
@@ -103,7 +103,7 @@ OpenCL
 
    .. note::
 
-      That this currently has limited support, see:
+      That currently has limited support, see:
       :doc:`Cycles Features </render/cycles/features>` page for more information.
 
 
@@ -148,7 +148,7 @@ Selection
    Selection method to use for selecting.
 
    Automatic
-      Automatically choses the best setting depending on your OS, GPU, and drivers.
+      Automatically chooses the best setting depending on your OS, GPU, and drivers.
    OpenGL Select
       Legacy OpenGL selection method for legacy hardware.
    OpenGL Occlusion Queries
@@ -213,8 +213,8 @@ Textures
 
 Limit Size
    Limit the maximum resolution for pictures used in textured display to save memory.
-   The limit options are specified in a square of pixels,
-   (e.g.: the option 256 means a texture of 256×256 pixels) This is useful for game engineers,
+   The limit options are specified in a square of pixels 
+   (e.g.: the option 256 means a texture of 256×256 pixels). This is useful for game engineers,
    whereas the texture limit matches paging blocks of the textures in the target graphic card memory.
    Available Options are: *Off* (No limit), *128*, *256*, *512*, *1024*, *2048*, *4096*, and *8192*.
 Time Out

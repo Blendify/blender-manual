@@ -124,7 +124,7 @@ In many situations, animation is controlled by keyframes. The state of a value (
 is recorded in a keyframe and the animation between two keyframes is interpolated by Blender.
 
 Visual Keying
-   When an object is using constraints, the objects property value does not actually change.
+   When an object is using constraints, the object property value does not actually change.
    *Visual Keying* will add keyframes to the object property,
    with a value based on the visual transformation from the constraint.
 Only Insert Needed

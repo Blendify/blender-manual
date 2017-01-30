@@ -21,7 +21,7 @@ or any interesting ones you find on the web.
 Filtering
 ---------
 
-Support Level
+Supported Level
    Blender's add-ons are split into two groups depending on who writes/supports them:
 
    - Official: Add-ons that are written by Blender developers.

@@ -71,8 +71,8 @@ Rotate Around Selection
 
    .. hint::
 
-      This may seem ideal behavior,
-      however, it can become problematic with larger objects such as a terrain-mesh,
+      This may seem ideal behavior.
+      However, it can become problematic with larger objects such as a terrain-mesh,
       where the center is not necessarily your point of interest.
 
 Global Pivot
