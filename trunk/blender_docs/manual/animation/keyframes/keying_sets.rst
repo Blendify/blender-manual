@@ -11,7 +11,7 @@ Keying Sets
 
 Keying Sets are a collection of properties.
 
-.. Keying Sets are a set of keyframe channels.
+.. (alt) Keying Sets are a set of keyframe channels.
 
 They are used to record multiple properties at the same time.
 Now when you press :kbd:`I` in the 3D View,
@@ -28,11 +28,16 @@ or the Keying Set panel, or press :kbd:`Ctrl-Alt-Shift-I` in the 3D View.
 Keying Set Panel
 ================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Keying Set`
+
 This panel is used to add, select, manage *Absolute Keying Sets*.
 
 .. figure:: /images/animation_keyframes_keying-sets_scene-keying-set-panel.png
 
-   :menuselection:`Properties --> Scene --> Keying Set Panel`
+   The Keying Set panel.
 
 
 Active Keying Set
@@ -66,15 +71,20 @@ Keyframing Settings
 Active Keying Set Panel
 =======================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Active Keying Set`
+
 This panel is used to add properties to the active Keying Set.
 
 .. figure:: /images/animation_keyframes_keying-sets_scene-active-keying-set-panel.png
 
-   :menuselection:`Properties --> Scene --> Active Keying Set Panel`
+   The Active Keying Set panel.
 
 .. figure:: /images/editors_graph-editor_introduction_channels-region.png
 
-   :menuselection:`Properties --> Graph Editor --> Channels, Named Group`
+   The Graph Editors channels region with named groups.
 
 
 Active Keying Set Paths
@@ -114,6 +124,13 @@ Keyframing Settings
 
 Adding Properties
 =================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Context menu --> Add All/Single to Keying Set`
+   | Hotkey:   :kbd:`K`
+
 
 Some ways to add properties to keying sets.
 
