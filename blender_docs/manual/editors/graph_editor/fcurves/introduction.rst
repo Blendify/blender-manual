@@ -181,6 +181,8 @@ Ease In Out
    Effect occurs on both ends of the segment.
 
 
+.. _editors-graph-fcurves-settings-extrapolation:
+
 Extrapolation
 -------------
 

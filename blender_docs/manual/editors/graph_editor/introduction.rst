@@ -210,44 +210,6 @@ Create Snapshot (ghost icon)
    Creates a picture with the current shape of the curves.
 
 
-Channels Region
-===============
-
-.. figure:: /images/editors_graph-editor_introduction_channels-region.png
-
-   Channels Region.
-
-
-The channels region is used to select and manage the curves for the graph editor.
-
-Pin (pin icon)
-   ToDo.
-Hide (eye icon)
-   Hides the channel(s)/curve.
-Modifiers (wrench icon)
-   Deactivates the F-Modifiers of the curve or all curves in the channel.
-Mute (speaker icon)
-   Deactivates the channel/curve.
-Lock (padlock icon)
-   Toggle channel/curve from being editable.
-
-
-Channel Editing
----------------
-
-- Select channel: :kbd:`LMB`
-- Multi Select/Deselect: :kbd:`Shift-LMB`
-- Toggle Select All: :kbd:`A`
-- Border Select: (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
-- Border Deselect: (:kbd:`Shift-LMB` drag) or :kbd:`B` (:kbd:`Shift-LMB` drag)
-- Delete selected: :kbd:`X` or :kbd:`Delete`
-- Lock selected: :kbd:`Tab`
-- Make only selected visible: :kbd:`V`
-- Enable Mute Lock selected: :kbd:`Shift-Ctrl-W`
-- Disable Mute Lock selected: :kbd:`Alt-W`
-- Toggle Mute Lock selected: :kbd:`Shift-W`
-
-
 Properties Region
 =================
 
@@ -290,7 +252,3 @@ Drivers Tab
    See :doc:`/animation/drivers/drivers_panel`.
 Modifiers Tab
    See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>`.
-
-.. seealso::
-
-   :doc:`Actions </animation/actions>`

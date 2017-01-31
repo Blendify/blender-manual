@@ -111,8 +111,9 @@ Each one being shown as an horizontal colored strip (of a darker shade "during" 
 On these channel strips lay the keyframes, visualized as light-gray (unselected) or yellow (selected) diamonds.
 
 One of the key feature of this editor is that it allow you to visualize immediately which channel (i.e. F-Curve)
-is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes,
-a gray (unselected) or yellow (selected) line is drawn between them.
+is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes
+("long keyframes"), a gray (unselected) or yellow (selected) bar is drawn between them.
+Similar bars are drawn between keyframes tagged as moving hold.
 
 
 Channels Region

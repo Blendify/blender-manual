@@ -65,10 +65,12 @@ Driver Variables
 
           Distance Setup.
 
-Variable are references to properties or delta transformation which are a reference to two properties.
+Variable are references to properties or delta transformations which are a reference to two properties.
 
 Add Variable
    Adds a new Driver Variable.
+Copy/Paste
+   ToDo.
 Name
    Name to use for scripted expressions/functions.
    No spaces or dots are allowed and must start with a letter.
@@ -124,5 +126,5 @@ Example
 
    - :ref:`Extending Blender with Python <scripting-index>`.
 
-   - `Python <https://www.python.org>`__ and its `documentation <https://www.docs.python.org/>`__.
+   - `Python <https://www.python.org>`__ and its `documentation <https://docs.python.org/>`__.
    - `functions.wolfram.com <http://functions.wolfram.com/>`__.

@@ -4,6 +4,12 @@
 F-Curve Modifiers
 *****************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Modifiers --> Modifiers`
+
+
 F-Curve modifiers are similar to object modifiers, in that they add non-destructive effects,
 that can be adjusted at any time, and layered to create more complex effects.
 
@@ -11,18 +17,13 @@ that can be adjusted at any time, and layered to create more complex effects.
 Adding a Modifier
 =================
 
-.. figure:: /images/editors_graph-editor_fcurves_fmodifiers_panel.jpg
+.. figure:: /images/editors_graph-editor_fcurves_fmodifiers_panel.png
 
    Modifiers Panel.
 
 The F-Curve modifier panel is located in the Properties region.
 Select a curve by selecting one of its curve points, or by selecting the channel list.
-Click on the *Add Modifier* button and select a modifier.
-
-To add spin to an object or group, select the object/group and add a keyframe to
-the axis of rotation (X, Y, or Z)
-
-To add a modifier, go to :menuselection:`Properties region --> Modifiers --> Add Modifier`.
+Click on the *Add Modifier* menu to select a modifier.
 
 
 Types of Modifiers
