@@ -102,19 +102,23 @@ Header
 Menus
 -----
 
+.. _timeline-view-menu:
+
 View Menu
 ^^^^^^^^^
 
 The *View Menu* controls what you see, and what it looks like.
 
 Show Seconds :kbd:`Ctrl-T`
-   Show time in seconds for the *Timeline* and the *Time Cursor* based on the FPS.
+   Whether to show the time in the X-axis and the *Time Cursor* as
+   frames (based on the FPS) or as seconds.
 Lock Time to Other Windows
    ToDo.
 Show Frame Number Indicator
    This will draw the current frame or seconds on the *Time Cursor*.
 Only Keyframes from Selected Channels
-   For *Armatures*, this will draw the object keyframes, and the keyframes for the active and selected pose bones.
+   For *Armatures*, this will draw the object keyframes,
+   and the keyframes for the active and selected pose bones.
 Cache
    Show Cache
       Show all enabled types.
@@ -126,7 +130,7 @@ Cache
       Timeline Cache.
 
 View All :kbd:`Home`
-   Maximize the Timeline area based on the Animation Range.
+   Maximize the area based on the Animation Range.
 View Frame :kbd:`Numpad0`
    Centers the Timeline to the Time cursor.
 Bind Camera to Markers :kbd:`Ctrl-B`
