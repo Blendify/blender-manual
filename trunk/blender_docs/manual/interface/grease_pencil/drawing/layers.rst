@@ -47,14 +47,14 @@ Active Layer
 
    Parent (bone icon)
       Indicates that a parent has been set for the layer.
-   Lock (lock icon)
+   Lock (padlock icon)
       Locks the ability to edit the current layers layer.
    Hide (eye icon) :kbd:`H`
       Hides the current layer in the drawing region.
    Unlock Color (palette with arrow icon)
       Unprotects selected colors from further editing and/or frame changes.
 
-   Isolate (lock icon) :kbd:`NumpadAsterix`
+   Isolate (padlock icon) :kbd:`NumpadAsterix`
       To restrict editing to the active layer only.
    Isolate (visible) (eye icon)
       An option of *Isolate* to also affect the visibility.

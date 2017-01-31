@@ -117,7 +117,7 @@ Radius
 Strength
    How powerful the brush is when applied.
 
-   Space Attenuation (lock icon)
+   Space Attenuation (padlock icon)
       Attenuate the brush strength according to spacing.
 Pressure Sensitivity (hand and bulged in blue line icon) 
    The toggle to the right of the following three settings will enable or disable
