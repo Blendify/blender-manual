@@ -74,24 +74,10 @@ Summary
 View Menu
 ^^^^^^^^^
 
-Realtime Updates
-   When transforming keyframes, changes to the animation data are flushed to other views.
-Show Frame Number Indicator
-   Show frame number beside the current frame indicator line.
-Show Sliders
-   A toggle option that shows the value sliders for the channels.
-   See the Fig. :ref:`fig-dope-sheet-action`.
-Use Group Colors
-   Draw groups and channels with colors matching their corresponding groups.
-AutoMerge Keyframes
-   Automatically merge nearby keyframes.
 Sync Markers
    Sync Markers with keyframe edits.
-Show Seconds
-   Whether to show the time in the X-axis as frames or as seconds.
 
-Preview Range :kbd:`P`, :kbd:`Alt-P`
-   See :ref:`graph-preview-range`.
+See :ref:`graph-view-menu`.
 
 
 Marker Menu

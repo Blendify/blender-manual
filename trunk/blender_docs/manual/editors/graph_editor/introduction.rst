@@ -41,13 +41,6 @@ Zoom
 Scale View
    Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
 
-These are some other useful tools.
-
-View All
-   Reset viewable area to show all keyframes (:kbd:`Home`).
-View Selected
-   Reset viewable area to show selected keyframes (:kbd:`NumpadPeriod`).
-
 
 2D Cursor
 ---------
@@ -102,8 +95,37 @@ See :doc:`Markers </animation/markers>` for more info.
 Header
 ======
 
+.. _graph-view-menu:
+
 View Menu
 ---------
+
+Realtime Updates
+   When transforming keyframes, changes to the animation data are flushed to other views.
+Show Cursor
+   ToDo.
+Show Sliders
+   A toggle option that shows the value sliders for the channels.
+   See the Fig. :ref:`fig-dope-sheet-action`.
+Show Group Colors
+   Draw groups and channels with colors matching their corresponding groups.
+AutoMerge Keyframes
+   Automatically merge nearby keyframes.
+Use High Quality Drawing
+   ToDo.
+Show Handles :kbd:`Ctrl-H`
+   ToDo.
+Only Selected Curve Keyframes
+   ToDo.
+Only Selected Keyframes Handles
+   ToDo.
+View All :kbd:`Home`
+   Reset viewable area to show all keyframes.
+View Selected :kbd:`NumpadPeriod`
+   Reset viewable area to show selected keyframes.
+
+See :ref:`timeline-view-menu`.
+
 
 .. _graph-preview-range:
 
