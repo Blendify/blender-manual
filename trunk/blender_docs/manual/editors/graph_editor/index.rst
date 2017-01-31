@@ -8,4 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
+   channels.rst
    fcurves/index.rst

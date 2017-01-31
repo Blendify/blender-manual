@@ -316,7 +316,7 @@ Auto Keyframe
       in the 3D Views (i.e. you can't use it e.g. to animate the colors of a material in the Properties editor...).
 
 Keyframe Type
-   See :ref:`keyframe-type`.
+   :ref:`keyframe-type` on insertion.
 
 Active Keying Set
    .. figure:: /images/editors_timeline_keying-sets.png

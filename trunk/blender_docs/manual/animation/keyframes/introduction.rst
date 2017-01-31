@@ -41,7 +41,8 @@ Breakdown (cyan small diamond)
    Breakdown state. e.g. for transitions between key poses.
 Moving Hold (slight orange diamond)
    A keyframe that adds a small amount of motion around a holding pose.
+   In the Dope Sheet it will also draw a bar between them.
 Extreme (red big diamond)
-   An ‘extreme’ state, or some other purpose as needed.
+   An 'extreme' state, or some other purpose as needed.
 Jitter (green tiny diamond)
    A filler or baked keyframe for keying on ones, or some other purpose as needed.

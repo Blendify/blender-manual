@@ -36,7 +36,7 @@ Single from Target
    This will add a single driver to the selected property used as a destination.
 Match Indices (palette icon)
    Use the corresponding index to drive the corresponding property on a similar sized vector/array property.
-   This is useful for driving ``ob1.location`` with ``ob2.location``, or ``RGB color`` with ``XYZ location``
+   This is useful for driving ``ob1.location`` with ``ob2.location``, or ``RGB color`` with ``XYZ location``.
 Manually Create Later/(Single) (hand icon)
    It adds a/set of driver(s), each with a single variable (but not filled in). No eyedropper will appear.
 
@@ -103,7 +103,7 @@ Graph View
 The main area of the :doc:`Graph editor </editors/graph_editor/index>` in Driver Mode
 shows a :doc:`F-Curve </editors/graph_editor/fcurves/introduction>` that maps the Driver Value to
 the target property. The Driver Value is the output of the driver script.
-The X-axis is the Driver Value and the Y-axis the value of the target property.
+The X-axis represents the Driver Value and the Y-axis is the value of the target property.
 In the example image, if the Driver Value is 2.0 the property will be 0.5.
 
 The default F-curve is an identity map i.e. the value is not changed.
