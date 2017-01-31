@@ -23,6 +23,10 @@ and hence an action can have several of these channels.
    :doc:`Action constraint </rigging/constraints/relationship/action>` or
    the :doc:`pose libraries </rigging/armatures/properties/pose_library>`
 
+.. figure:: /images/editors_dopesheet_action-editor.png
+
+   The Action Editor.
+
 
 Header
 ======

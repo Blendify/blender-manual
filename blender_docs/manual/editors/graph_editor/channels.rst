@@ -11,11 +11,24 @@ Channels Region
    Channels Region.
 
 The channels region is used to select and manage the curves for the Graph editor.
+This part shows the objects and their animation data hierarchy each as headers.
+Each level can be expended/collapsed by the small arrow to the left of its header.
+
+- Objects (dark blue)
+- :doc:`Actions </animation/actions>`, :doc:`Shape keys </animation/shape_keys/index>` (light blue)
+- Groups (green)
+- Channels (gray)
+
+
+Controls
+--------
+
+On the headers, there are toggles to control channel's setting:
 
 Pin (pin icon)
-   ToDo.
+   ToDo (Graph editor only).
 Hide (eye icon)
-   Hides the channel(s)/curve.
+   Hides the channel(s)/curve (Graph editor only).
 Modifiers (wrench icon)
    Deactivates the F-Modifiers of the curve or all curves in the channel.
 Mute (speaker icon)
@@ -23,11 +36,16 @@ Mute (speaker icon)
 Lock (padlock icon)
    Toggle channel/curve from being editable.
 
+   .. note::
+
+      In the Dope Sheet this is also working inside the NLA,
+      but that it does not prevent edition of the underlying F-Curve).
+
 
 Selecting
 ---------
 
-- Select channel: :kbd:`LMB`
+- Select channel (text in white/black): :kbd:`LMB`
 - Multi Select/Deselect: :kbd:`Shift-LMB`
 - Toggle Select All: :kbd:`A`
 - Border Select: (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
@@ -37,6 +55,7 @@ Selecting
 Editing
 -------
 
+- Rename: :kbd:`Ctrl-LMB`
 - Delete selected: :kbd:`X` or :kbd:`Delete`
 - Lock selected: :kbd:`Tab`
 - Make only selected visible: :kbd:`V`
@@ -75,7 +94,3 @@ Move...
    or directly to the top/bottom :kbd:`Ctrl-Shift-PageUp`, :kbd:`Ctrl-Shift-PageDown`.
 Revive Disabled F-Curves
    Clears "disabled" tag from all F-Curves to get broken F-Curves working again.
-
-.. seealso::
-
-   :doc:`Actions </animation/actions>`

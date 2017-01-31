@@ -123,45 +123,12 @@ Channels Region
 
    The action editor showing sliders.
 
-This part shows the action's channel "headers" and their hierarchy. Basically, there are:
-
-- "Top-level" channels, which represent whole F-Curve data-blocks
-  (so there is one for *Object* one, one for *Shape* one, etc.).
-  They gather *all* keyframes defined in their underlying F-Curve data-block.
-- "Mid-level" channels, which seem currently to have no use
-  (there is one per top-level channel, they are all named *F-Curves*, and have no option at all).
-- "Low-level" channels, which represent individual F-Curve,
-  with their own keyframes (fortunately, only keyed frames are shown!).
-
-Each level can be expended/collapsed by the small arrow to the left of its "parent" channel.
-To the right of the channel's headers, there are some channel's setting controls:
-
-Mute (speaker icon)
-   Will allow you to mute that channel (and all its "children" channels, if any!).
-Lock (lock icon)
-   Will allow you to prevent this channel and its children to be edited.
-
-   .. note::
-
-      This is also working inside the NLA,
-      but that it does not prevent edition of the underlying F-Curve).
-
-Modifier (wrench icon)
-   Disables the F-Modifiers.
-
-
-Selecting
-^^^^^^^^^
-
-A channel can be selected (text in white, strip in gray-blue color) or not
-(text in black, strip in pink-brown color.), use :kbd:`LMB` clicks to toggle this state.
-You can access some channel's properties by clicking :kbd:`Ctrl-LMB` on its header.
+See :doc:`/editors/graph_editor/channels`.
 
 
 Editing
 ^^^^^^^
 
-Finally, you can have another column with value-sliders,
+On channels you can have another column with value-sliders,
 allowing you to change the value of current keyframes, or to add new ones.
-These are obviously only available for low-level channels (i.e. individual F-Curve ).
 See `View Menu`_ above for how to show these sliders.
