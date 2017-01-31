@@ -28,7 +28,7 @@ Colors
       A palette must contain at least one color, so the last one cannot be deleted.
 
 
-   Lock (lock icon)
+   Lock (padlock icon)
       ToDo.
    Hide (eye icon)
       ToDo.

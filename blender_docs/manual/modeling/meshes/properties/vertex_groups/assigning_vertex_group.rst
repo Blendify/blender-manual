@@ -85,13 +85,13 @@ Locking Vertex Groups
 
 
 Right after creation of a Vertex Group,
-an open lock icon shows up on the right side of the Vertex Group List entry.
+an open padlock icon shows up on the right side of the Vertex Group List entry.
 This icon indicates that the Vertex Group can be edited.
 You can add vertex assignments to the group or remove assignments from the group.
 And you can change it with the weight paint brushes, etc.
 
 When you click on the icon,
-it changes to a closed lock icon and all vertex group modifications get disabled.
+it changes to a closed padlock icon and all vertex group modifications get disabled.
 You can only rename or delete the group, and unlock it again.
 No other operations are allowed on locked Vertex Groups,
 thus all corresponding function buttons become disabled for locked Vertex Groups.

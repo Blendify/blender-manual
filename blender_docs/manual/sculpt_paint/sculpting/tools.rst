@@ -149,7 +149,7 @@ Normal Weight :kbd:`Ctrl`
    e.g. Grab brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set.
 
    Applies to *Grab* and *Snake Hook* brushes.
-Use Original Normal (lock icon)
+Use Original Normal (padlock icon)
    ToDo.
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.

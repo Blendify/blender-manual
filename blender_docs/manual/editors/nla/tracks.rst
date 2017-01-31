@@ -11,12 +11,12 @@ the bottom layer first, to the top, last.
 
    NLA Tracks and Strips.
 
-Solo (Star icon)
+Solo (star icon)
    Toggling *Solo Track* causes only the selected tracks effects to be visible when animating.
-Mute (Speaker icon)
+Mute (speaker icon)
    Keeps the track from having an effect on the animation. (Mute only applies when *Solo* is not used).
    All strips in that track are drawn as being muted (dashed outline).
-Lock (Lock icon)
+Lock (padlock icon)
    Prevents changes from being made to this layer.
 
 
@@ -35,7 +35,7 @@ Push Down (double down arrow peak icon)
 
    Push Down action button.
 
-Pin (Pin icon)
+Pin (pin icon)
    If you try moving the strip, while in *Tweak Mode*,
    you will notice that the keys will go along with it. On occasion,
    you will prefer the keys to remain on their original frames, regardless of where the strip is.
