@@ -42,7 +42,10 @@ Fill Contours
 
 Stroke Cap Style
    Defines the style the stroke caps will have in the SVG output.
-
+   The options are:  
+      Mitter: Corners with sharp edges.
+      Round:  Corners are smoothed.
+      Bevel:  Corners are bevelled.
 
 Exportable Properties
 =====================
