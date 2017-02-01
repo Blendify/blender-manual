@@ -10,5 +10,6 @@
    integrator.rst
    light_paths.rst
    passes.rst
+   performance.rst
    motion_blur.rst
    objects/index.rst

@@ -1,7 +1,7 @@
 
-***************
-Audio Rendering
-***************
+************
+Introduction
+************
 
 Audio can be rendered from the :menuselection:`Properties Editor --> Render tab --> Render --> Audio`.
 
