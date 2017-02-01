@@ -13,8 +13,8 @@ The world environment can emit light, ranging from a single solid color, physica
 to arbitrary textures.
 
 
-Surface Shader
-==============
+Surface
+=======
 
 The surface shader defines the light emission from the environment into the scene.
 The world surface is rendered as if it is very distant from the scene,
@@ -32,8 +32,8 @@ This supports *Equirectangular* (also known as Lat/Long) for environment maps,
 and *Mirror Ball* mapping for converting photos of mirror balls to environment maps.
 
 
-Volume Shader
-=============
+Volume
+======
 
 A volume shader can be applied to the entirely world, filling the entire space.
 
@@ -72,17 +72,37 @@ An alternative method of using Ambient Occlusion on a per-shader basis is to use
 :doc:`Ambient Occlusion </render/cycles/nodes/types/shaders/ao>` shader.
 
 
+.. _render-cycles-integrator-world-mist:
+
+Mist Pass
+=========
+
+Shown when the Mist pass is enabled.
+
+Start
+   ToDo.
+Depth
+   ToDo.
+Falloff
+   ToDo.
+
+.. tip::
+
+   A visualization can be activated in the :menuselection:`Camera --> Display` panel.
+
+
 .. _render-cycles-integrator-world-settings:
 
-World Settings
-==============
+Settings
+========
 
 Surface
 -------
 
 Multiple Importance Sample
    Enabling this will sample the background texture such that lighter parts are favored,
-   producing less noise in the render. It is almost always a good idea to enable this when
+   creating an importance map. It will producing less noise in the render in trade of artifacts (fireflies).
+   It is almost always a good idea to enable this when
    using an image texture to light the scene, otherwise noise can take a very long time to converge.
 
    Below is a comparison between *Multiple Importance Sample* off and on.
@@ -99,10 +119,10 @@ Multiple Importance Sample
              Multiple Importance Sample On.
 
 Map Resolution
-   Sets the resolution of the 'Multiple Importance Sample' map.
-   Higher values may produce less noise when using high-res images,
-   but will take up more memory and render slightly slower.
-
+   Sets the resolution of the importance map.
+   A higher resolution will better detect small features in the map and give more accurate sampling.
+   but conversely will take up more memory and render slightly slower.
+   Higher values also may produce less noise when using high-res images.
 Max Bounces
    Maximal number of bounces the background light will contribute to the render.
 
@@ -112,17 +132,22 @@ Max Bounces
    for more information on how to reduce noise.
 
 
+.. _render-cycles-integrator-world-settings-volume:
+
 Volume
 ------
 
 Sampling Method
-   Options are *Multiple Importance*, *Distance*, or *Equiangular*.
-   - If you have got a pretty dense volume that is lit from far away then distance sampling is usually more efficient.
-   - If you have got a light inside or near the volume then equiangular sampling is better.
-   - If you have a combination of both, then the multiple importance sampling will be better.
+   Distance
+      If you have got a pretty dense volume that is lit from far away
+      then *Distance* sampling is usually more efficient.
+   Equiangular
+      If you have got a light inside or near the volume then *equiangular* sampling is better.
+   Multiple Importance
+      If you have a combination of both, then the multiple importance sampling will be better.
 
 Interpolation
-   Interpolation method to use for world volumes.
+   Interpolation method to use for the volume.
 
    Linear
       Good smoothness and speed.

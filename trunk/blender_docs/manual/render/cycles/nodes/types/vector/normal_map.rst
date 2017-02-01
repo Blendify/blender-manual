@@ -18,6 +18,7 @@ and the image texture should be set to *Non-Color* mode to give correct results.
 
 Inputs
 ======
+
 Strength
    Strength of the normal mapping effect.
 Color

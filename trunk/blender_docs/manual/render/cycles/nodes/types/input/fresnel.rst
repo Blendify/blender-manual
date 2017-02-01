@@ -30,7 +30,7 @@ Inputs
 IOR
    Index of refraction (:term:`IOR`) of the material being entered.
 Normal
-   Todo.
+   Input meant for plugging in bump or normal maps which will affect the output.
 
 
 Properties

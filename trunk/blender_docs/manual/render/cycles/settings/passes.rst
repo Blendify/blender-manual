@@ -73,7 +73,7 @@ Environment
    Emission from the directly visible background. When the film is set to transparent,
    this can be used to get the environment color and composite it back in.
 Shadow
-   Shadows from lamp objects.
+   Shadows from lamp objects. Mostly useful for compositing objects with shadow into existing footage.
 Ambient Occlusion
    Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
    it gives a 'normalized' value between 0 and 1.
@@ -110,7 +110,8 @@ Z
 
 Mist
    Distance to visible surfaces, mapped to the 0.0-1.0 range.
-   When enabled, settings are in :menuselection:`Properties --> World --> Mist Pass`.
+   When enabled, settings are in :ref:`World tab <render-cycles-integrator-world-mist>`.
+   This pass can be used in compositing to add fade out object that are further away.
 
 Normal
    Surface normal used for shading.
@@ -129,7 +130,7 @@ Material Index
 .. note:: The Z, Object Index and Material Index passes are not anti-aliased.
 
 Alpha Threshold
-   Z, Index, normal,
-   UV and vector passes are only affected by surfaces with alpha transparency equal to or higher than this threshold.
+   Z, Index, normal, UV and vector passes are
+   only affected by surfaces with alpha transparency equal to or higher than this threshold.
    With value 0.0 the first surface hit will always write to these passes, regardless of transparency.
    With higher values surfaces that are mostly transparent can be skipped until an opaque surface is encountered.
