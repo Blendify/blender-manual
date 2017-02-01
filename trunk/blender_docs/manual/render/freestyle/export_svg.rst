@@ -23,7 +23,7 @@ Options
 .. figure:: /images/render_freestyle_svg-export-panel.png
    :align: right
 
-   Freestyle SVG Export panel.
+   Freestyle SVG Export panel, located at the Render context tab of the Properties editor.
 
 
 Mode
@@ -54,6 +54,10 @@ Because the representation of Freestyle strokes and SVG path objects is fundamen
 translation between Freestyle and SVG is not possible. The main shortcoming of SVG compared to Freestyle is that
 Freestyle defines style per-point, where SVG defines it per-path. This means that Freestyle can produce much more
 complex results that are impossible to achieve in SVG.
+
+There are extended options for the exporter, located at the specific panels of the Freestyle renderer at the 
+Render Layers context tab of the Properties editor. Those options are located at the Freestyle Line Style SVG 
+Export panel, at the bottom of the context tab. 
 
 The properties that can be exported are:
 
