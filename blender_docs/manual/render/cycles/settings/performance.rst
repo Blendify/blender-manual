@@ -1,18 +1,12 @@
 
-***************
-Render Settings
-***************
-
-Integrator Panel
-================
-
-See the :doc:`integrator settings </render/cycles/settings/integrator>` for details.
-
-
-Performance Panel
-=================
+***********
+Performance
+***********
 
 Threads
+-------
+
+Mode
    Auto-detect
       Automatically chooses the amount threads to match the number of logical processors on your computer.
 

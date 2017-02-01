@@ -18,6 +18,11 @@ and direct light sampling (picking a light source and tracing a ray towards it) 
 Sampling
 ========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Sampling`
+
 Sample Method
    There are two integrator modes that can be used: *Path Tracing* and *Branched Path Tracing*.
 Square Samples
@@ -122,10 +127,18 @@ Volume Samples
    Number of volume scattering samples to take for each AA sample.
 
 
+Light Paths
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Light Paths`
+
 .. _cycles-bounces:
 
 Bounces
-=======
+-------
 
 Max Bounces
    Maximum number of light bounces. For best quality, this should be set to the maximum. However, in practice,
@@ -148,7 +161,7 @@ Volume Bounces
 
 
 Transparency
-============
+------------
 
 Transparency Max
    Maximum number of transparency bounces.
@@ -159,8 +172,8 @@ Transparent Shadows
    use transparency of surfaces in between to produce shadows affected by transparency of those surfaces.
 
 
-Tricks
-======
+Caustics & Filter Glossy
+------------------------
 
 .. _render-cycles-integrator-no-caustics:
 
@@ -198,6 +211,11 @@ Filter Glossy
 
 Geometry
 ========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Geometry`
 
 Volume Sampling
 ---------------

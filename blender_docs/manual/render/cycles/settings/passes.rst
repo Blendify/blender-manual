@@ -6,6 +6,11 @@ Render Layers and Passes
 Layers
 ======
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Layer`
+
 This section covers only the Render Layer settings appropriate for the Blender Render engine.
 For the engine-independent settings, see :doc:`this section </render/post_process/layers>`.
 
@@ -32,6 +37,15 @@ Use Hair
 
 Passes
 ======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Passes`
+
+Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
+and also to extract data such as depth or normals.
+
 
 Lighting Passes
 ---------------

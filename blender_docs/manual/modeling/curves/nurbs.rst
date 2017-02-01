@@ -1,8 +1,9 @@
 
-**************************************
-Non-Uniform Rational B-Splines (NURBS)
-**************************************
+*****
+NURBS
+*****
 
+N.U.R.B.S. is the abbreviation of Non-Uniform Rational B-Splines.
 One of the major differences between Bézier Objects and NURBS Objects is that Bézier Curves
 are approximations. For example, a Bézier circle is an *approximation* of a circle,
 whereas a NURBS circle is an *exact* circle.

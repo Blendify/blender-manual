@@ -3,11 +3,6 @@
 Render Layers
 *************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Editor:    Properties
-
 
 Render layers allow you to render your scene in separate layers,
 usually with the intension of compositing them back together afterwards.
@@ -22,6 +17,11 @@ allowing you to instead re-render only the layer(s) that you need.
 
 Layer List
 ==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Scene`
 
 .. figure:: /images/render_post-processing_layer-list.png
 
@@ -38,6 +38,12 @@ and existing layers can be renamed by double clicking on their name.
 
 Layer Panel
 ===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Layer`
+
 
 .. figure:: /images/render_post-processing_layer-panel.png
 
