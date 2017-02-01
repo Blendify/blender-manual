@@ -64,6 +64,7 @@ Fisheye
 
 Fisheye lenses are typically wide angle lenses with strong distortion,
 useful for creating panoramic images for e.g. dome projection, or as an artistic effect.
+
 The *Fisheye Equisolid* lens will best match real cameras.
 It provides a lens focal length and field of view angle,
 and will also take the sensor dimensions into account.
@@ -76,6 +77,12 @@ Lens
    Lens focal length in millimeter.
 Field of View
    Field of view angle, going to 360 and more to capture the whole environment.
+
+
+Mirror Ball
+"""""""""""
+
+ToDo.
 
 
 .. _render-cycles-camera-clipping:

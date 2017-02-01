@@ -24,13 +24,22 @@ Properties
 ==========
 
 Sky Type
-   Sky model to use (Preetham or Hosek/Wilkie).
+   Sky model to use.
+
+   Preetham, Hosek/Wilkie
 Sun Direction
    Sun direction vector.
 Turbidity
-   Atmospheric turbidity. (2: Arctic like, 3: clear sky, 6: warm/moist day, 10: hazy day)
+   Atmospheric turbidity.
+
+   - 2: Arctic like
+   - 3: clear sky
+   - 6: warm/moist day
+   - 10: hazy day
+
 Ground Albedo
-   Amount of light reflected from the planet surface back into the atmosphere. (RGB 0,0,0 is black, 1,1,1 is white).
+   Amount of light reflected from the planet surface back into the atmosphere.
+   (RGB 0,0,0 is black, 1,1,1 is white).
 
 
 Outputs

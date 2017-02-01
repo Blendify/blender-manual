@@ -1,3 +1,4 @@
+.. (alt) BXDF instead of S.urface
 
 *************
 Emission Node
@@ -40,14 +41,15 @@ Strength
 Properties
 ==========
 
-This node has no properites.
+This node has no properties.
 
 
 Outputs
 =======
 
 Emission
-   Standard shader output.
+   The Emission shader output can both be plugged in the *Surface Input* as well as
+   the *Volume Input* of the :doc:`Material </render/cycles/nodes/types/output/material>` output node.
 
 
 Examples

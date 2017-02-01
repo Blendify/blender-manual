@@ -30,24 +30,7 @@ Transparent Shadows
 Volume
 ======
 
-Sampling Method
-   Options are *Multiple Importance*, *Distance*, or *Equiangular*.
-   If you have got a pretty dense volume that is lit from far away then distance sampling is usually more efficient.
-   If you have got a light inside or near the volume then equiangular sampling is better.
-   If you have a combination of both, then the multiple importance sampling will be better.
-
-Interpolation
-   Controls the type of interpolation to use for smoke simulations.
-
-   Linear
-      Good smoothness and speed.
-   Cubic
-      Smoothed high quality interpolation, but slower.
-
-Homogeneous Volume
-   Assume volume has the same density everywhere (not using any textures), for faster rendering.
-   For example absorption in a glass object would typically not have any textures,
-   and by knowing this we can avoid taking small steps to sample the volume shader.
+Similar volume settings as the :ref:`World settings <render-cycles-integrator-world-settings>` per material.
 
 
 .. _cycles-materials-settings-displace:

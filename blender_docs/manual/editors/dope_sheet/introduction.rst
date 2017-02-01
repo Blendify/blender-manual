@@ -52,8 +52,6 @@ Interface
 The *Dope Sheet Editor* interface is somewhat similar to the *Graph Editor*
 one, it is divided in three regions:
 
-.. _fig-dope-sheet-action:
-
 .. figure:: /images/editors_dopesheet_action-editor.png
    :width: 600px
 
@@ -90,7 +88,7 @@ Key Menu
 ^^^^^^^^
 
 Keyframe Type :kbd:`R`
-   Sets the :ref:`keyframe-type` of the selected keyframe.
+   Sets the :ref:`keyframe-type` of the selected keyframes.
 
 See :doc:`F-Curve </editors/graph_editor/fcurves/index>`.
 
@@ -113,6 +111,8 @@ Similar bars are drawn between keyframes tagged as moving hold.
 
 Channels Region
 ---------------
+
+.. _fig-dope-sheet-action:
 
 .. figure:: /images/editors_dopesheet_action-editor-sliders.png
 

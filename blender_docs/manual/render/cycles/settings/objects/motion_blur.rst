@@ -18,4 +18,4 @@ Deformation
    Enables motion blur for deformed meshes such as animated characters, including hair.
 Steps
    Controls accuracy of deformation motion blur, more steps gives more memory usage.
-   The actual number of steps is :math:`2^{steps -1}`.
+   The actual number of time steps is :math:`2^{steps -1}`.

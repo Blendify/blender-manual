@@ -67,7 +67,7 @@ Rolling Shutter Duration
 .. seealso::
 
    Each object has its own settings to control motion blur.
-   These options can be found in the Object Properties tab of the Properties editor.
+   These options can be found in the Object tab of the Properties editor.
    See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
 
 

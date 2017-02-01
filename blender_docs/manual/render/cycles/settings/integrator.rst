@@ -39,7 +39,7 @@ Seed
 
 Clamp Direct
    This option limits the maximum intensity a sample from rays which have not yet bounced can contribute to a pixel.
-   Setting this option to 0.0 disables clamping altogether.
+   It reduces noise at the cost of accuracy. Setting this option to 0.0 disables clamping altogether.
    Lower have a greater affect (dimmer samples) on the resulting image than higher values.
 
    .. note::
@@ -97,9 +97,10 @@ Preview Samples
 Branched Path Tracing
 ---------------------
 
-The *Branched Path Tracing* integrator is similar,
-but at the first hit it will split the path for different surface components and
-will take all lights into account for shading instead of just one.
+The non-progressive Branched Path Tracing integrator offers finer control over sampling.
+It is similar to *Path Tracing*, but at the first hit it will split the path for
+different surface components and will take all lights into account for shading instead of just one.
+
 This makes each sample slower, but will reduce noise,
 especially in scenes dominated by direct or one-bounce lighting.
 To get the same number of diffuse samples as in the path tracing integrator, note that e.g.
@@ -125,6 +126,12 @@ Subsurface Samples
    Number of subsurface scattering samples to take for each AA sample.
 Volume Samples
    Number of volume scattering samples to take for each AA sample.
+
+Sample All Direct Lights
+   When enabled, Cycles will samples all lights in the scene for direct bounces, instead of randomly picking one.
+   Disabling this can improve performance, when using a lot of AA Samples anyway, to clear up the render.
+Sample All Indirect Lights
+   Similar to direct light, but for indirects lights. This can reduce noise in scenes with many lights.
 
 
 Light Paths
@@ -216,6 +223,7 @@ Geometry
    :class: refbox
 
    | Panel:    :menuselection:`Properties editor --> Render --> Geometry`
+
 
 Volume Sampling
 ---------------

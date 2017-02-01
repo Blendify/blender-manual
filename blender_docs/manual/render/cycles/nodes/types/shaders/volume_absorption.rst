@@ -10,11 +10,10 @@ Volume Absorption Node
    Volume Absorption Node.
 
 
-The *Volume Absorption* node allows light to be absorbed as is passes through it.
+The *Volume Absorption* node allows light to be absorbed as is passes through the volume.
 Typical usage for this node would be water and glass.
 It can also be used with the :doc:`Volume Scatter </render/cycles/nodes/types/shaders/volume_scatter>`
-node to create smoke. This node must be plugged into the *Volume Input*
-of the :doc:`Material </render/cycles/nodes/types/output/material>` output node.
+node to create smoke. 
 
 
 Inputs
@@ -36,7 +35,8 @@ Outputs
 =======
 
 Volume
-   Standard shader output.
+   The Volume Shader output must be plugged into the *Volume Input*
+   of the :doc:`Material </render/cycles/nodes/types/output/material>` output node.
 
 
 Examples
