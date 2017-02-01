@@ -77,13 +77,22 @@ View Menu
 Sync Markers
    Sync Markers with keyframe edits.
 
-See :ref:`graph-view-menu`.
+See Graph editor's :ref:`graph-view-menu`.
 
 
 Marker Menu
 ^^^^^^^^^^^
 
 See the :doc:`Markers page </animation/markers>`.
+
+
+Key Menu
+^^^^^^^^
+
+Keyframe Type :kbd:`R`
+   Sets the :ref:`keyframe-type` of the selected keyframe.
+
+See :doc:`F-Curve </editors/graph_editor/fcurves/index>`.
 
 
 Main Region
@@ -107,14 +116,6 @@ Channels Region
 
 .. figure:: /images/editors_dopesheet_action-editor-sliders.png
 
-   The action editor showing sliders.
+   The Action editor's channels region.
 
 See :doc:`/editors/graph_editor/channels`.
-
-
-Editing
-^^^^^^^
-
-On channels you can have another column with value-sliders,
-allowing you to change the value of current keyframes, or to add new ones.
-See `View Menu`_ above for how to show these sliders.

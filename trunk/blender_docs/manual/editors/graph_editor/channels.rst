@@ -8,7 +8,7 @@ Channels Region
 
 .. figure:: /images/editors_graph-editor_introduction_channels-region.png
 
-   Channels Region.
+   The Channels Region.
 
 The channels region is used to select and manage the curves for the Graph editor.
 This part shows the objects and their animation data hierarchy each as headers.
@@ -50,6 +50,7 @@ Selecting
 - Toggle Select All: :kbd:`A`
 - Border Select: (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
 - Border Deselect: (:kbd:`Shift-LMB` drag) or :kbd:`B` (:kbd:`Shift-LMB` drag)
+- Select all keyframes in the channel: double :kbd:`LMB` on a channel header.
 
 
 Editing
@@ -62,6 +63,18 @@ Editing
 - Enable Mute Lock selected: :kbd:`Shift-Ctrl-W`
 - Disable Mute Lock selected: :kbd:`Alt-W`
 - Toggle Mute Lock selected: :kbd:`Shift-W`
+
+
+Sliders
+^^^^^^^
+
+.. figure:: /images/editors_dopesheet_action-editor-sliders.png
+
+   The Action editor showing sliders.
+
+On channels headers you can have another column with number buttons or sliders,
+allowing you to change the value on the current keyframes, or to add new keyframes.
+See :ref:`graph-view-menu` for how to show these sliders.
 
 
 Menu

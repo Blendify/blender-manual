@@ -17,9 +17,10 @@ Animation Data
    Animation Data panel
 
 Context
-   ..
+   ToDo.
 Action
    :ref:`Data-Block <ui-data-block>` allows you to edit actions shown in the action track.
+   See also the Action Editor's :ref:`Action <dopesheet-action-action>`.
 Action Extrapolation
    Action to take for gaps past the strip extents.
 
@@ -39,7 +40,7 @@ Action Blending
 
    Multiply, Subtract, Add
 Action Influence
-   ..
+   ToDo.
 
 
 Active Track
