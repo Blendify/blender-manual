@@ -58,11 +58,16 @@ Layer Previous/Next (down/up arrow peak icon)
       without losing the new action you're working on, and then use the "up arrow" to get back to
       it once you're done checking the other action(s).
 
+.. _dopesheet-action-action:
+
 Action
    A :ref:`Data-block menu <ui-data-block>`.
 
-   Add
+   Add ``+``
       When an action is created it is stored in a NLA Action Stash.
+   Unlink ``X``
+      When :kbd:`Shift-LMB` clicking it clears the Fake User and
+      removes the stashed action from the NLA stack too.
 Push Down (double down arrow peak icon)
    Adds the active action on to the NLA stack as a contributing strip.
    This is basically the same as pressing the Push Down button in the NLA Editor.

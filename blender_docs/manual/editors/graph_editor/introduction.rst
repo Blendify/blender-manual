@@ -123,8 +123,10 @@ View All :kbd:`Home`
    Reset viewable area to show all keyframes.
 View Selected :kbd:`NumpadPeriod`
    Reset viewable area to show selected keyframes.
+View Frame :kbd:`Numpad0`
+   Centers the area to the Time cursor.
 
-See :ref:`timeline-view-menu`.
+See Timeline's :ref:`timeline-view-menu`.
 
 
 .. _graph-preview-range:
