@@ -13,3 +13,4 @@
    thickness.rst
    geometry.rst
    texture.rst
+   nodes/index.rst

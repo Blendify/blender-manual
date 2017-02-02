@@ -12,7 +12,7 @@ Core Options
 
    Freestyle core options.
 
-Freestyle can be activated with the checkbox in the header of the Freestyle panel.
+Freestyle can be activated with the checkbox in the header of the Freestyle panel in the *Render* tab.
 
 Line Thickness
    There are two different modes for defining the base line thickness:
