@@ -43,7 +43,7 @@ Splitting
 
 You can split up chains of Freestyle lines by checking one of the following:
 
-Min 2D Angle and Max 2D Angle
+Min, Max 2D Angle
    Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 2D Length
    Splits chains when they are longer than the given value.
@@ -73,6 +73,8 @@ Sort key
       Lines closer to the camera lie on top of further lines.
    2D length
       Longer lines lie on top of shorter lines.
+   Projected X, Y
+      Sort by the projected X or Y value in the image coordinate system.
 Integration Type
    Use in tandem with the Sort Key to determine the range for sorting.
    Since the distance of a line from the camera may vary over vertices,
@@ -100,9 +102,12 @@ Selection
 
    Selection.
 
+You can also choose to only render selected chains.
 
-You can also choose to only select (i.e. render)
-chains longer than *Min 2D Length* and/or shorter than *Max 2D Length*.
+Minimal, Maximal 2D Length
+   Chains longer and/or shorter than * 2D Length*. 
+Chain Count
+   Allows the selection of first N chains.
 
 
 Caps
