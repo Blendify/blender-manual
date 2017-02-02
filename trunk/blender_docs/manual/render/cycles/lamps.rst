@@ -79,8 +79,8 @@ Area lamps can also function as light portals to help sample the environment lig
 and significantly reduce noise in interior scenes.
 Note that rendering with portals is usually slower, but as it converges more quickly, less samples are required.
 
-Light portals work by enabling the *Portal* option, and placing areas lamps in windows,
-door openings, and any place where light will enter the interior.
+Light portals work by enabling the *Portal* option, and placing areas lamps in
+windows, door openings, and any place where light will enter the interior.
 
 In outdoor scenes most rays do not bounce much and just fly off into the sky and therefore,
 light portals are not helpful for outdoor scenes.
@@ -89,6 +89,7 @@ light portals are not helpful for outdoor scenes.
 .. figure:: /images/cycles_portals.jpg
 
    White Room model by Jay Hardy.
+
 
 Sun Lamp
 --------

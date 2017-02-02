@@ -58,6 +58,9 @@ set the camera object rotation to (90, 0, -90) or pointing along the positive X-
 corresponds to looking at the center of the image using the default environment texture
 mapping.
 
+Minimum/Maximum Latitude/Longitude
+   Limits of the vertical and horizontal field of view angles.
+
 
 Fisheye
 """""""
