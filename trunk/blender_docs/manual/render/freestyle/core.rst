@@ -3,13 +3,16 @@
 Core Options
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Freestyle`
+
 .. figure:: /images/render_freestyle_core-options.png
 
    Freestyle core options.
 
-
-Activating Freestyle in the *Render* tab of the Properties Editor will
-give you the following options:
+Freestyle can be activated with the checkbox in the header of the Freestyle panel.
 
 Line Thickness
    There are two different modes for defining the base line thickness:

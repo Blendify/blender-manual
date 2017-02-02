@@ -176,7 +176,7 @@ Sample as Lamp
 ==============
 
 Materials with emission shaders can be configured to be *sampled as lamp*
-(:ref:`render-cycles-integrator-material-settings`).
+(:doc:`/render/cycles/materials/settings`).
 This means that they will get rays sent directly towards them,
 rather than ending up there based on rays randomly bouncing around.
 For very bright mesh light sources, this can reduce noise significantly.

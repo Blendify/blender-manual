@@ -81,8 +81,8 @@ Material Override
    - :doc:`Cycles </render/cycles/settings/passes>`
 
 
-Using Render Layers
-===================
+Usage
+=====
 
 Each Render Layer has an associated set of :doc:`Scene Layers </editors/3dview/object/properties/relations/layers>`.
 Objects which are on one of the associated Scene Layers are shown in that Render Layer,

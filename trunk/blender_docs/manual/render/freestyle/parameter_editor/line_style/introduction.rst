@@ -3,6 +3,11 @@
 Introduction
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Freestyle Line Style`
+
 .. figure:: /images/render_freestyle_line-style_introduction_line-style-panel.png
 
    Line Style UI.

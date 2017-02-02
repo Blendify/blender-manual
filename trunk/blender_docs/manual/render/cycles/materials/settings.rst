@@ -1,4 +1,3 @@
-.. _render-cycles-integrator-material-settings:
 
 *****************
 Material Settings
