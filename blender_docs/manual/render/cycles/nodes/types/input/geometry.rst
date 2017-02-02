@@ -45,3 +45,4 @@ Backfacing
 Pointiness
    An approximation of the curvature of the mesh per-vertex.
    Lighter values indicate convex angles, darker values indicate concave angles.
+   It allows you to do effects like dirt maps and wear-off effects.

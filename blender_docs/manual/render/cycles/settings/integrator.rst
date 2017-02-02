@@ -30,7 +30,7 @@ Square Samples
 Seed
    Seed value for integrator to get different noise patterns.
 
-   Animate Seed
+   Animate Seed (clock icon)
       This button which can be found on the right side of the *Seed*
       value can be used to give different seed values. It is a good idea to enable this
       when making animation because in the real world each frame has a different noise pattern.

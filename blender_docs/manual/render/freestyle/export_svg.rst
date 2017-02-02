@@ -20,11 +20,15 @@ The exported .svg file is written to the default output path :menuselection:`Pro
 Options
 =======
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Freestyle SVG Export`
+
 .. figure:: /images/render_freestyle_svg-export-panel.png
    :align: right
 
-   Freestyle SVG Export panel, located at the Render context tab of the Properties editor.
-
+   Freestyle SVG Export panel.
 
 Mode
    Option between Frame and Animation. Frame will render a single frame,
@@ -42,10 +46,14 @@ Fill Contours
 
 Stroke Cap Style
    Defines the style the stroke caps will have in the SVG output.
-   The options are:  
-      Mitter: Corners with sharp edges.
-      Round:  Corners are smoothed.
-      Bevel:  Corners are bevelled.
+
+   Mitter
+      Corners with sharp edges.
+   Round
+      Corners are smoothed.
+   Bevel
+      Corners are beveled.
+
 
 Exportable Properties
 =====================
@@ -56,8 +64,8 @@ Freestyle defines style per-point, where SVG defines it per-path. This means tha
 complex results that are impossible to achieve in SVG.
 
 There are extended options for the exporter, located at the specific panels of the Freestyle renderer at the 
-Render Layers context tab of the Properties editor. Those options are located at the Freestyle Line Style SVG 
-Export panel, at the bottom of the context tab. 
+Render Layers tab of the Properties editor. Those options are located at the Freestyle Line Style SVG 
+Export panel, at the bottom of the tab. 
 
 The properties that can be exported are:
 
