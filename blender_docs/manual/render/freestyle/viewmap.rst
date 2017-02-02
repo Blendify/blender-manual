@@ -3,6 +3,11 @@
 Viewmaps
 ********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Freestyle`
+
 There is only one viewmap per render layer. It controls the edge detection parameters.
 Which detected edges are actually rendered, and how,
 can be controlled either through the user-friendly

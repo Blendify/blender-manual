@@ -44,12 +44,15 @@ so we have to take care to do the right conversion into and out of this linear c
 Settings
 ========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Color Management`
+
+
 .. figure:: /images/render_post-processing_color-management-panel.png
 
    Scene settings for color management.
-
-
-These settings are found in the :menuselection:`Properties Editor --> Scene --> Color Management`
 
 
 Display
@@ -193,13 +196,13 @@ one. More information about how to set up such a workflow can be found on the
 We currently use the following color space rules:
 
 scene_linear
-   color space used for rendering, compositing, and storing all float precision images in memory.
+   Color space used for rendering, compositing, and storing all float precision images in memory.
 default_sequencer
-   default color space for sequencer, *scene_linear* if not specified
+   Default color space for sequencer, *scene_linear* if not specified
 default_byte
-   default color space for byte precision images and files, *texture_paint* if not specified.
+   Default color space for byte precision images and files, *texture_paint* if not specified.
 default_float
-   default color space for float precision images and files, *scene_linear* if not specified.
+   Default color space for float precision images and files, *scene_linear* if not specified.
 
 The standard Blender configuration also includes some support for
 `ACES <https://www.oscars.org/science-technology/sci-tech-projects/aces>`__

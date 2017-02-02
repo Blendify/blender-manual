@@ -3,14 +3,17 @@
 Post Processing Panel
 *********************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Post Processing`
+
 The Post Processing panel is used to control different options used to process your image after rendering.
-It can be found in the *Render* tab of the :doc:`Properties Editor </editors/properties_editor>`.
 
 .. figure:: /images/render_post-processing_post-processing-panel.png
    :align: right
 
    Post Processing Panel.
-
 
 Sequencer
    Renders the output of the sequence editor, instead of the view from the 3D scene's active camera.

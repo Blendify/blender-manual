@@ -1,7 +1,7 @@
 
-********************************
-Introduction to Parameter Editor
-********************************
+************
+Introduction
+************
 
 .. figure:: /images/render_freestyle_parameter-editor-mode.png
 

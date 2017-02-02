@@ -3,6 +3,12 @@
 Line Set
 ********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Scene --> Freestyle Line Set`
+
+
 A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
@@ -22,15 +28,13 @@ There are three choices for selecting edges by visibility.
 
 Visible
    Only lines occluded by no surfaces are rendered.
-
 Hidden
    Lines occluded by at least one surface are rendered.
 
-.. figure:: /images/render_freestyle_line-set_visibility_hidden-edges.png
+   .. figure:: /images/render_freestyle_line-set_visibility_hidden-edges.png
 
-   Proof of concept of visible and hidden edges by LightBWK
-   (`Sample blend-file <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
-
+      Proof of concept of visible and hidden edges by LightBWK
+      (`Sample blend-file <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
 
 QI Range
    QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
