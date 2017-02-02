@@ -6,18 +6,21 @@ Viewmaps
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Freestyle`
-
-There is only one viewmap per render layer. It controls the edge detection parameters.
-Which detected edges are actually rendered, and how,
-can be controlled either through the user-friendly
-:doc:`parameter editor </render/freestyle/parameter_editor/index>`,
-or powerful but complex :doc:`Python scripting </render/freestyle/python>`.
+   | Panel:    :menuselection:`Properties editor --> Render Layer --> Freestyle`
 
 .. figure:: /images/render_freestyle_view-map_freestyle-panel.png
 
    Freestyle panel.
 
+There is only one viewmap per render layer. It controls the edge detection parameters.
+
+Control Mode
+   Which detected edges are actually rendered, and how, can be controlled either through:
+
+   Parameter Editor Mode
+      The user-friendly :doc:`parameter editor </render/freestyle/parameter_editor/index>`.
+   Python Scripting Mode
+      Powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 
 View Map Cache
    TODO. See `wiki

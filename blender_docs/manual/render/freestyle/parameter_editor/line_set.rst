@@ -6,7 +6,7 @@ Line Set
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Freestyle Line Set`
+   | Panel:    :menuselection:`Properties editor --> Render Layer --> Freestyle Line Set`
 
 
 A line set selects, among the lines (edges) detected by Freestyle,

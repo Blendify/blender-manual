@@ -12,4 +12,5 @@
    viewmap.rst
    parameter_editor/index.rst
    python.rst
+   line.rst
    export_svg.rst

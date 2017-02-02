@@ -3,11 +3,6 @@
 Stroke
 ******
 
-.. figure:: /images/render_freestyle_line-style_stroke.png
-
-   Stroke Line Style.
-
-
 Strokes are the final rendered lines. Yet you can tweaks them, for example,
 by removing the ones longer/shorter than some threshold,
 chaining lines into a single stroke or breaking a stroke into several ones based on angles,
@@ -16,6 +11,10 @@ dashed pattern, etc.
 
 Chaining
 ========
+
+.. figure:: /images/render_freestyle_line-style_stroke_chaining.png
+
+   Chaining.
 
 By default all retrieved lines from the line set are chained together.
 There are two basic chaining methods:
@@ -34,33 +33,28 @@ Rounds
 Chaining can also be turned off to render each line separately,
 which can be useful for line styles which depend on accurate representation of the line set.
 
-.. figure:: /images/render_freestyle_line-style_stroke_chaining.png
-
-   Chaining.
-
 
 Splitting
 =========
-
-You can split up chains of Freestyle lines by checking one of the following:
-
-Material Boundary
-   Splits chains of feature edges if they cross from one material to another.
-
-Min 2D Angle and Max 2D Angle
-   Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 
 .. figure:: /images/render_freestyle_line-style_stroke_splitting.png
 
    Splitting.
 
+You can split up chains of Freestyle lines by checking one of the following:
 
+Min 2D Angle and Max 2D Angle
+   Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 2D Length
    Splits chains when they are longer than the given value.
+Material Boundary
+   Splits chains of feature edges if they cross from one material to another.
 
-D1/G1/D2/G2/D3/G3
+Split Dash, Gap
    Splits the chains using the given dashed pattern ("D" stands for "dash",
    "G" stands for "gap"; see also `Dashed Line`_).
+
+   D1, G1, D2, G2, D3, G3
 
 
 Sorting
@@ -73,9 +67,28 @@ Sorting
 You can sort the order of your strokes, allowing the lines to stack in the order given.
 
 Sort key
-   Choose which way you would like to sort your strokes.
+   A sort key is used to determine the stacking order of lines.
+
+   Distance from camera
+      Lines closer to the camera lie on top of further lines.
+   2D length
+      Longer lines lie on top of shorter lines.
 Integration Type
    Use in tandem with the Sort Key to determine the range for sorting.
+   Since the distance of a line from the camera may vary over vertices,
+   this option computes the sort key for a line from the values computed at
+   individual vertices. The value computed for the line is:
+
+   Mean
+      The mean of the values obtained for the vertices.
+   Min
+      The minimum of the values obtained for the vertices.
+   Max
+      The maximum of the values obtained for the vertices.
+   First
+      The value obtained for the first vertex.
+   Last
+      The value obtained for the last vertex.
 Sort Order
    With the given result you can choose to "Reverse" the sort order.
 
