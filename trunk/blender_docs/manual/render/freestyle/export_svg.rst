@@ -1,4 +1,3 @@
-.. Move to wiki (TODO)?
 
 **********************
 Freestyle SVG Exporter
@@ -9,12 +8,12 @@ SVG exporting for Freestyle is available through an add-on.
 .. figure:: /images/render_freestyle_svg-export_suzanne.svg
    :align: center
 
-   An example of a .svg result produced by the Freestyle SVG Exporter.
+   An example of a SVG result produced by the Freestyle SVG Exporter.
 
 
 This add-on can be enabled via :menuselection:`User Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The GUI for the exporter should now be visible in the render tab of the Properties editor.
-The exported .svg file is written to the default output path :menuselection:`Properties editor --> Render --> Output`.
+The exported ``.svg`` file is written to the default output path :menuselection:`Properties editor --> Render --> Output`.
 
 
 Options
@@ -72,7 +71,7 @@ There are extended options for the exporter, located at the specific panels of t
 Render Layers tab of the Properties editor. Those options are located at the Freestyle Line Style SVG 
 Export panel, at the bottom of the tab. 
 
-The properties that can be exported are:
+The properties (no modifiers applied) that can be exported are:
 
 - Base color
 - Base alpha
