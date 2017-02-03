@@ -75,7 +75,7 @@ it applies a gradient along each stroke.
 Calligraphy
 -----------
 
-The *Calligraphy* (thickness only) modifier mimics some broad and flat pens for calligraphy.
+The *Calligraphy* modifier (thickness only) mimics some broad and flat pens for calligraphy.
 It generates different thickness based on the orientation of the stroke.
 
 .. figure:: /images/render_freestyle_line-style_thickness_calligraphy.png
@@ -207,7 +207,7 @@ You can use various properties of the materials, among which many are mono-compo
 map these grayscale values to colored ones.
 
 In the reverse case properties of the materials, which are multi-components
-(i.e. give RGB results) the mean value will be used for alpha and thickness modifier.
+(i.e. give RGB results) the mean value will be used for alpha and thickness modifiers.
 
 If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.

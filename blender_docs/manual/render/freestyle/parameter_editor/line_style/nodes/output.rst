@@ -1,8 +1,12 @@
-.. (todo) image
 
 **********************
 Line Style Output Node
 **********************
+
+.. figure:: /images/render_freestyle_line-style_nodes_ouput.png
+   :align: right
+
+   Line Style Output Node.
 
 The *Line Style Output* node specifies how to mix the texture information
 into the base color of line styles.
