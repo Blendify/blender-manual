@@ -23,7 +23,7 @@ Color
 Color Factor
    Standard mix factor of the *Color* value.
 Alpha
-   Color input for the texture.
+   Alpha input for the texture.
 Alpha Factor
    Standard mix factor of the *Alpha* value.
 
