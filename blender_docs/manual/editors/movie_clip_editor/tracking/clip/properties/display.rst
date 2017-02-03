@@ -75,4 +75,3 @@ Thin
    But sometimes it can be annoying and this option will make the marker display
    more compactly -- the outline is replaced by dashed black lines drawn on top of the foreground,
    so that marker areas are only 1px thick.
- 

@@ -16,11 +16,7 @@ Introduction
 In Freestyle, the line style settings define the appearance of a line set using five main aspects:
 
 - :doc:`Stroke </render/freestyle/parameter_editor/line_style/strokes>`
-- :doc:`Color </render/freestyle/parameter_editor/line_style/color>`
-- :doc:`Alpha </render/freestyle/parameter_editor/line_style/alpha>`
-- :doc:`Thickness </render/freestyle/parameter_editor/line_style/thickness>`
-- :doc:`Geometry </render/freestyle/parameter_editor/line_style/geometry>`
-- :doc:`Texture </render/freestyle/parameter_editor/line_style/texture>`
+- :doc:`Color, Alpha, Thickness, Geometry, Texture </render/freestyle/parameter_editor/line_style/alpha>`
 
 These allow you to get many different styles of renders
 (technical draw, rough sketch, cartoon, oriental calligraphy, etc.).
