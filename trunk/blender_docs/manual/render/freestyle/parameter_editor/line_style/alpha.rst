@@ -1,7 +1,24 @@
 
-*****
+****
+Tabs
+****
+
+Color
+=====
+
+.. figure:: /images/render_freestyle_line-style_color.png
+
+   Line Style Color UI.
+
+
+In this tab you control the color of your strokes.
+
+Base Color
+   The base color for this line style.
+
+
 Alpha
-*****
+=====
 
 .. figure:: /images/render_freestyle_line-style_alpha.png
 
@@ -14,190 +31,59 @@ Base Transparency
    The base alpha for this line style.
 
 
-Modifiers
+Thickness
 =========
 
-There are four alpha modifiers available, which can be mixed with the base alpha using a subset of the usual methods
-(see for example the :doc:`Mix compositing node </compositing/types/color/mix>` for further discussion of
-this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
+In this tab you control the thickness of your strokes.
 
-Influence
-   How much the result of this modifier affects the current transparency.
+.. figure:: /images/render_freestyle_line-style_thickness.png
 
+Base Thickness
+   The base thickness for this line style.
 
-Along Stroke
-------------
+Thickness Position
+   Control the position of stroke thickness from the original (backbone) stroke geometry. There are four choices:
 
-.. figure:: /images/render_freestyle_line-style_alpha_along-stroke.png
+   Center
+      The thickness is evenly split to the left and right side of the stroke geometry.
+   Inside
+      The strokes are drawn within object boundary.
+   Outside
+      The strokes are drawn outside the object boundary.
+   Relative
+      This allows you to specify the relative position by a number between ``0.0`` (inside) and ``1.0`` (outside),
+      in the *Thickness Ratio* number button just below.
 
-The *Along Stroke* modifier alters the base alpha with a new one from either a
-linear progression or a custom curve, mapped along each stroke's length. In other words,
-it applies the selected progression along each stroke.
-
-Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
-   or a custom mapping curve.
-
-
-Distance from Camera
---------------------
-
-The *Distance from Camera* modifier alters the base alpha with a new one from either
-a linear progression or a custom curve, using the distance to the active camera as parameter.
-
-.. figure:: /images/render_freestyle_line-style_alpha_distance-from-camera.png
-
-Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
-   or a custom mapping curve.
-
-Range Min and Range Max
-   The limits of the mapping from "distance to camera" to "alpha in mapping".
-   If the current point of the stroke is at *Range Min* or less from the active camera,
-   it will take the start alpha of the mapping, and conversely,
-   if it is at *Range Max* or more from the camera, it will take the end alpha of the mapping.
-   These values are in the current scene's units, not in pixels!
-
-Fill Range by Selection
-   Set the min/max range values from the distances between the current selected objects and the camera.
+The thickness position options are applied only to strokes of edge types
+*Silhouette* and *Border*,
+since these are the only edge types defined in terms of the object boundary.
+Strokes of other edge types are always drawn using the *Center* option.
 
 
-Distance from Object
---------------------
+Geometry
+========
 
-The *Distance from Object* modifier alters the base alpha with a new one from either
-a linear progression or a custom curve, using the distance to a given object as parameter.
+.. figure:: /images/render_freestyle_line-style_geometry.png
 
-.. figure:: /images/render_freestyle_line-style_alpha_distance-from-object.png
-
-Target
-   The object to measure distance from.
-
-Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
-   or a custom mapping curve.
-
-Range Min and Range Max
-   The limits of the mapping from "distance to object" to "alpha in mapping".
-   If the current point of the stroke is at *Range Min* or less from the target,
-   it will take the start alpha of the mapping, and conversely,
-   if it is at *Range Max* or more from the target, it will take the end alpha of the mapping.
-   These values are in the current scene's units, not in pixels!
-
-Fill Range by Selection
-   Set the min/max range values from the distances between the current selected objects and the target.
+   Line Style Geometry Overall UI.
 
 
-Material
---------
-
-The *Material* modifier alters the base alpha with a new one taken from the current
-material under the stroke.
-
-You can use various properties of the materials, among which some are multi-components (i.e.
-give RGB results). In that case, the mean value will be used.
-
-.. figure:: /images/render_freestyle_line-style_alpha_material.png
-
-Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
-   or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
-   as original values from materials are already in the ``[0.0, 1.0]`` range.
-
-If used with the *Split by Material* option in the *Stroke* tab,
-the result will not be blurred between materials along the strokes.
+In this tab you control the geometry of your strokes.
+It contains only the option to add modifiers.
 
 
-Noise
------
+Texture
+=======
 
-The *Noise* modifier uses a pseudo-random number generator to variably distribute transparency along the stroke.
+.. figure:: /images/render_freestyle_line-style_texture.png
 
-.. figure:: /images/render_freestyle_line-style_alpha_noise.png
+   Line Style Texture.
 
-Amplitude
-   The maximum value of the noise. A higher amplitude means a less transparent (more solid) stroke.
-
-Period
-   The period of the noise. This means how quickly the alpha value can change. A higher value means a more smoothly
-   changing transparency along the stroke.
-
-Seed
-   Seed used by the pseudo-random numer generator.
-
-Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
-   or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
-   as original values from materials are already in the ``[0.0, 1.0]`` range.
-
-
-Tangent
--------
-
-.. figure:: /images/render_freestyle_line-style_alpha_tangent.png
-
-This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
-
-Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
-   or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
-   as original values from materials are already in the ``[0.0, 1.0]`` range.
-
-Min Angle and Max Angle
-   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles
-   and their corresponding alpha values.
-
-
-3D Curvature
-------------
-
-A modifier based on radial curvatures of the underlying 3D surface.
-The `curvature <https://en.wikipedia.org/wiki/Curvature>`__ of a 2D curve
-at a point is a measure of how quickly the curve turns at the point.
-The quicker the turn is, the larger the curvature is at the point.
-The curvature is zero if the curve is a straight line.
-Radial curvatures are those computed for a 2D curve that appears at the cross-section
-between the 3D surface and a plane defined by the view point (camera location)
-and the normal direction of the surface at the point.
-
-For radial curvatures to be calculated (and therefore for this modifier to have any effect),
-the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
-
-.. figure:: /images/render_freestyle_line-style_alpha_curvature-3d.png
-
-Mapping
-   Either a linear progression (from 0.0 to 1.0, which may be inverted with the *Invert* option),
-   or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
-   as original values from materials are already in the (0.0 to 1.0) range.
-
-Min Curvature and Max Curvature
-   The limits of the mapping.
-   If the current point of the stroke is at *Min Curvature* or less from the target,
-   it will take the start alpha of the mapping, and conversely,
-   if it is at *Max Curvature* or more from the target, it will take the end alpha of the mapping.
-
-
-Crease Angle
-------------
-
-.. figure:: /images/render_freestyle_line-style_alpha_crease-angle_example.png
-   :width: 430px
-
-   Crease Angle modifier demo by T.K.
-   `File:Render_freestyle_modifier_crease_angle.blend
-   <https://wiki.blender.org/uploads/b/b4/Render_freestyle_modifier_crease_angle.blend>`__.
-
-A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment does not lie on a crease
-(i.e., the edge does not have the *Crease Angle nature*,
-its alpha value is not touched by this modifier.
-
-.. figure:: /images/render_freestyle_line-style_alpha_crease-angle.png
-
-Mapping
-   Either a linear progression (from 0.0 to 1.0, which may be inverted with the *Invert* option),
-   or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
-   as original values from materials are already in the (0.0 to 1.0) range.
-
-Min Angle and Max Angle
-   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles
-   and their corresponding alpha values.
+Use Nodes/Textures
+   Blender Render uses texture mapping and influence panels.
+   In Cycles textures are defined by means of
+   shader :doc:`nodes </render/freestyle/parameter_editor/line_style/nodes/index>`.
+Spacing Along Stroke
+   Allows to set the "pace" of textures mapped along the length of strokes.
+Go to LineStyle Textures
+   The "Go to LineStyle Textures" button is a shortcut to texture settings in the other tab.
