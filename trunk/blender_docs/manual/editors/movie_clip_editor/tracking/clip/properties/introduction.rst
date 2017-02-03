@@ -13,16 +13,13 @@ Objects Panel
    Objects Panel.
 
 
-This panel contains a list of all objects which can be used for tracking,
+This panel contains a :ref:`list view <ui-list-view>` with all objects which can be used for tracking,
 camera or object solving.
 By default there is only one object in this list which is used for camera solving.
 It cannot be deleted and other objects cannot be used for camera solving;
 all added objects are used for object tracking and solving only.
 These objects can be referenced from Follow Track and Object Solver constraints.
 Follow Track uses the camera object by default.
-
-New objects can be added using :kbd:`Plus` and the active object can be deleted with the
-:kbd:`Minus` button. Text field at the bottom of this panel is used to rename the active object.
 
 If some tracks were added and tracked to the wrong object, they can be copied to another
 object using :menuselection:`Track --> Copy Tracks` and :menuselection:`Track --> Paste Tracks`.
@@ -41,20 +38,22 @@ Track Panel
 
    Track Panel.
 
+Name
+   The track name can be changed with this field.
+   Track names are used for linking tracking data to other areas, like a Follow Track constraint.
+Enable (eye icon)
+   This toggle controlled the marker's enabled flag.
+   If a marker is disabled, its position is not used either by solver nor by constraints.
+Lock (padlock icon)
+   The toggle controls whether the track is locked. Locked tracks cannot be edited at all.
+   This helps to prevent accidental changes to tracks which are "finished"
+   (tracked accurate along the whole footage).
 
-First of all, track name can be changed in this panel.
-Track names are used for linking tracking data to other areas, like a Follow Track constraint.
 
-The next thing which can be controlled here is the marker's enabled flag
-(using the button with the eye icon). If a marker is disabled,
-its position is not used either by solver nor by constraints.
+Track Preview Widget
+--------------------
 
-The button with the lock icon to the right of the button with the eye controls whether the
-track is locked. Locked tracks cannot be edited at all.
-This helps to prevent accidental changes to tracks which are "finished"
-(tracked accurate along the whole footage).
-
-The next widget in this panel is called "Track Preview" and it displays the content of the
+The widget in this panel is called "Track Preview" and it displays the content of the
 pattern area. This helps to check how accurately the feature is being tracked
 (controlling that there is no sliding off original position)
 and also helps to move the track back to the correct position.
@@ -69,20 +68,30 @@ placed. Details of this technique will be written later.
 There is small area below the preview widget which can be used to enlarge the vertical size of
 preview widget (the area is highlighted with two horizontal lines).
 
-The next setting is channels control. Tracking happens in gray-scale space,
-so a high contrast between the feature and its background yields more accurate tracking.
-In such cases disabling some color channels can help.
 
-When several tracks are used for 3D camera reconstruction or for 2D stabilization, it is possible
-to assign a reduced weight to some tracks to control their influence on the solution result.
-The *Weight* parameter is used for 3D reconstruction, while the *Stab Weight* parameter is used
-to control 2D stabilization. This parameter can (and often need to be) animated.
+Further Options
+---------------
 
-The last thing is custom color, and the preset for it.
-This setting overrides the default marker color used in the clip editor and 3D View,
-and it helps to distinguish different type of features (for example,
-features in the background vs. foreground and so on). Color also can be used for "grouping"
-tracks so a whole group of tracks can be selected by color using the Select Grouped operator.
+Channels
+   Tracking happens in gray-scale space, so a high contrast between the feature and
+   its background yields more accurate tracking.
+   In such cases disabling some color channels can help.
+
+Weight
+   When several tracks are used for 3D camera reconstruction or for 2D stabilization, it is possible
+   to assign a reduced weight to some tracks to control their influence on the solution result.
+   The *Weight* parameter is used for 3D reconstruction.
+Stab Weight
+   While the *Stab Weight* parameter is used to control 2D stabilization.
+   This parameter can (and often need to be) animated.
+
+Color Presets
+   The preset for the *Custom Color*.
+Custom Color
+   This setting overrides the default marker color used in the clip editor and 3D View,
+   and it helps to distinguish different type of features (for example,
+   features in the background vs. foreground and so on). Color also can be used for "grouping"
+   tracks so a whole group of tracks can be selected by color using the Select Grouped operator.
 
 .. tip::
 
