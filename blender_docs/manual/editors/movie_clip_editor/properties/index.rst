@@ -1,8 +1,7 @@
-.. _movieclip-properties-index:
 
-#########################
-  Movie Clip Properties
-#########################
+##############
+  Properties
+##############
 
 .. toctree::
    :maxdepth: 2
