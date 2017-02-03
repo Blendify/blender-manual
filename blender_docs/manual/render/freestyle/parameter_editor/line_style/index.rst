@@ -8,9 +8,6 @@
 
    introduction.rst
    strokes.rst
-   color.rst
    alpha.rst
-   thickness.rst
-   geometry.rst
-   texture.rst
    nodes/index.rst
+   modifiers/index.rst
