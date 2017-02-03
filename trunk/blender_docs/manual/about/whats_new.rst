@@ -24,7 +24,7 @@ This page lists major changes and additions to the manual.
   (`rBM2978 <https://developer.blender.org/rBM2978>`__, Oct. 28).
 - :doc:`Despeckle node </compositing/types/filter/despeckle>` primer
   (`rBM2975 <https://developer.blender.org/rBM2975>`__, Oct. 27).
-- :doc:`Stabilizer panel </editors/movie_clip_editor/tracking/clip/stabilization>` update
+- :doc:`Stabilizer panel </editors/movie_clip_editor/tracking/clip/properties/stabilization/index>` update
   (`rBM2840 <https://developer.blender.org/rBM2840>`__, Sep. 27).
 - :doc:`Displacement controls & bump mapping </render/cycles/materials/displacement>`
   (`rBM2776 <https://developer.blender.org/rBM2776>`__,
