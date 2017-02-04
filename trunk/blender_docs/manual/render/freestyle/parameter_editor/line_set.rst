@@ -126,9 +126,9 @@ These marked edges are available to render when you select *Edge Mark*.
 
 This is done as follows:
 
-- Select your mesh and tab into *Edit Mode*.
-- Select the edges you want to be marked.
-- Press :kbd:`Ctrl-E` and select *Mark Freestyle Edge*.
+#. Select the mesh object and enter *Edit Mode*.
+#. Select the edges you want to be marked.
+#. Press :kbd:`Ctrl-E` and select *Mark Freestyle Edge*.
 
 Edge marks are useful when you want to draw lines along particular mesh edges.
 The examples below explain the use of edge marks.
@@ -174,9 +174,9 @@ Face Marks
 
 To set a face mark:
 
-- Select a mesh and tab into *Edit Mode*.
-- Select the faces you want to be marked.
-- Press :kbd:`Ctrl-F` and select *Mark Freestyle Face*.
+#. Select a mesh object and enter *Edit Mode*.
+#. Select the faces you want to be marked.
+#. Press :kbd:`Ctrl-F` and select *Mark Freestyle Face*.
 
 Face marks are useful for removing lines from certain areas of a mesh.
 
