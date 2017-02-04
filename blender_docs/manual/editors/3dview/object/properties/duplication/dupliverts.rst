@@ -96,7 +96,6 @@ The orientation of the base objects can be controlled by enabling *Rotation* in 
 *Duplication* panel.
 This will rotate all base objects according to the vertex normals of the parent mesh.
 
-
 To change the orientation of the duplicated objects, select the base object and in the
 :menuselection:`Object --> Relations extras` panel change the :menuselection:`Tracking Axes`.
 
@@ -114,12 +113,11 @@ Output of various orientations:
 
    Positive Z, up X.
 
-
 .. note::
 
    The axes of an object can be made visible in the :menuselection:`Object --> Display` panel.
    To display the vertex normals of the parent mesh,
-   tab into edit mode and enable this function in :menuselection:`Properties --> Display`
+   enter *Edit Mode* and enable this function in :menuselection:`Properties --> Display`
    panel where you can also resize the displayed normals as necessary.
 
 

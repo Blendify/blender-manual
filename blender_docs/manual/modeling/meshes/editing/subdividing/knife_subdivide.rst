@@ -135,9 +135,9 @@ resulting geometry inside the cutters outline will be selected.
 
 Outlines can be wire or boundary edges.
 
-To use Knife Project,
-in 'object' mode select the "cutting object" first then shift select the "object to be cut".
-Now tab into edit mode and press "knife project".
+To use Knife Project, first while in *Object Mode* select the "cutting object"
+then add to that selection with :kbd:`Shift-RMB` the "object to be cut".
+Now, enter *Edit Mode* and press *Knife Project* (found in the Tool Shelf).
 
 
 Examples

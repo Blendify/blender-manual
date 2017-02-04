@@ -1,13 +1,13 @@
 
-***************
-Simple Examples
-***************
+********
+Examples
+********
 
 Here are some simple examples showing the power of softbody physics.
 
 
-Bouncing Cube
-=============
+A Bouncing Cube
+===============
 
 The Process
 -----------
@@ -23,9 +23,9 @@ First, change your start and end frames to 1 and 150.
 Then, add a plane, and scale it five times. Next, go to the physics tab, and add a collision.
 The default settings are fine for this example.
 
-Now add a cube, or use the default cube. Tab into *Edit Mode* and subdivide it three times.
-Add a Bevel Modifier to it to smoothen the edges and then to add a little more, press :kbd:`R` twice,
-and move your cursor a bit.
+Now add a cube, or use the default cube, then enter *Edit Mode* to subdivide it three times.
+Add a Bevel Modifier to it to smoothen the edges and then to add a little more,
+press :kbd:`R` twice, and move your cursor a bit.
 
 When finished, your scene should look like this:
 
@@ -35,9 +35,10 @@ When finished, your scene should look like this:
    The scene, ready for softbody physics.
 
 
-Everything is ready to add the softbody physics. Go to :menuselection:`Properties --> Physics` and choose *Softbody*.
-Uncheck the soft body goal, and check softbody self collision. Also, under soft body edges,
-increase the bending to 10.
+Everything is ready to add the softbody physics.
+Go to :menuselection:`Properties --> Physics` and choose *Softbody*.
+Uncheck the soft body goal, and check softbody self collision.
+Also, under soft body edges,increase the bending to 10.
 
 Playing tha animation with :kbd:`Alt-A` will now give a slow animation of a bouncing cube.
 To speed things up, we need to bake the softbody physics.
