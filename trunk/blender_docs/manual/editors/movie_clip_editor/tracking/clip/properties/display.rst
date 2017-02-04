@@ -4,7 +4,7 @@
 Display Panel
 *************
 
-This panel contains all settings which control things displayed in the clip editor.
+This panel contains display settings related on editor itself.
 
 Channels
    R, G, B and *B/W* buttons at the top of this panel are used to control color channels used for frame preview and to
@@ -35,12 +35,6 @@ Calibration
 Display Aspect Ratio
    Changes the aspect ratio for displaying only. It does not affect the tracking or solving process.
 
-.. moved?
-
-Pyramid
-   Makes the highest pyramid level be visible. Pyramids are defined later in the Tracking Settings panel section,
-   but basically it helps to determine how much a track is allowed to move from one frame to another.
-
 
 Marker Display
 ==============
@@ -49,14 +43,14 @@ Pattern
    Can be used to disable displaying of rectangles which correspond to pattern areas of tracks.
    In some cases it helps
    to make the clip view cleaner to check how good tracking is.
-Search
+Search :kbd:`Alt-S`
    Can be used to disable displaying of rectangles which correspond to search areas of tracks.
    In some cases it helps to make the clip view cleaner to check how good tracking is.
    Only search areas for selected tracks will be displayed.
 Path
    And *Length* control displaying of the paths of tracks. The ways tracks are moving can be visible looking
    at only one frame. It helps to determine if a track jumps from its position or not.
-Disabled
+Disabled :kbd:`Alt-D`
    Makes it possible to hide all tracks which are disabled on the current frame.
    This helps to make view more clear, to see if tracking is happening accurately enough.
 Info
