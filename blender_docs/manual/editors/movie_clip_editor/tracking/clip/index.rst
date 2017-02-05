@@ -8,5 +8,5 @@
 
    introduction.rst
    marker.rst
-   tools.rst
+   editing/index.rst
    properties/index.rst
