@@ -41,7 +41,7 @@ Fill Contours
 
    .. note::
 
-      This features is somewhat unstable -- especially with animations.
+      This feature is somewhat unstable -- especially with animations.
 
 Stroke Cap Style
    Defines the style the stroke caps will have in the SVG output.

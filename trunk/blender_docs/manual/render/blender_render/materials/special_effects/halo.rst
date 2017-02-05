@@ -216,7 +216,7 @@ You can now animate the texture to move over the billboard,
 using the *Offset X* value in the *Texture* tab of the Mapping panel.
 (You could use a higher resolution for the grid,
 but if you do you will have to adjust the size of the halos by shrinking them,
-or they will overlap. Fig. :ref:`fig-bi-material-halo-dotmatrix`.
+or they will overlap. Fig. :ref:`fig-bi-material-halo-dotmatrix`).
 
 .. note:: Note about material indices
 
