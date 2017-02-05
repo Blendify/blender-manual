@@ -18,7 +18,7 @@ Material slots
 --------------
 
 Active Material
-   The objects material slots displayed in a :ref:`List View <ui-list-view>`.
+   The object's material slots displayed in a :ref:`List View <ui-list-view>`.
 
    Specials
       Copy and paste the selected material slot.
@@ -74,8 +74,7 @@ Data-block Links
 Material type
 -------------
 
-Material added in edit mode
-These toggles tell Blender where this material fits into the Render Pipeline,
+Material added in edit mode. These toggles tell Blender where this material fits into the Render Pipeline,
 and what aspects of the material are to be rendered.
 
 Surface

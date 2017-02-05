@@ -147,7 +147,7 @@ Handles
    Controls the default :ref:`Handle <editors-graph-fcurves-settings-handles>` for newly created F-Curves.
 XYZ to RGB
    Color for X, Y or Z animation curves (location, scale or rotation)
-   are the same as the color for the X, Y and Z axis.
+   is the same as the color for the X, Y and Z axis.
 
 
 Transform

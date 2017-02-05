@@ -6,7 +6,7 @@ Volume Rendering
 .. figure:: /images/materials-volumerender-activate.jpg
    :width: 300px
 
-   Activation volume rendering.
+   Activating Volume rendering.
 
 
 Volume rendering is a method for rendering light as it passes through participating media,
@@ -17,7 +17,7 @@ which represents the various interactions of light in a volume relatively realis
 
    Volume rendering.
 
-Rendering a volume is different then
+Rendering a volume is different from
 :doc:`Solid Render </render/blender_render/materials/properties/diffuse_shaders>`.
 For volume light enters a 3D region of space (defined as the volume)
 that may be filled with small particles, such as smoke, mist or clouds.
@@ -431,9 +431,9 @@ by turning *Emission Color* back on.
 
    Finished Result.
 
-.. tip:: To see the smoke more clearly
+.. tip:: To see the smoke more clearly.
 
-   Under the world tab, chose a very dark color for the horizon.
+   Under the world tab, choose a very dark color for the horizon.
 
 
 Smoke Simulator with fire texture

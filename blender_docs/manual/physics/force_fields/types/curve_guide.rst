@@ -30,7 +30,7 @@ But you can limit their influence radius by changing there *Minimum Distance* (s
 
 .. note::
 
-   The Curve Guide does not effect :doc:`Softbodies </physics/soft_body/index>`.
+   The Curve Guide does not affect :doc:`Softbodies </physics/soft_body/index>`.
 
 
 Options

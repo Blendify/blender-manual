@@ -27,7 +27,7 @@ If you get an error on startup like:
 
    Fatal Python error: Py_Initialize: unable to load the file system codec
 
-you may have set your systems ``PYTHONPATH`` environment variable.
+you may have set your system's ``PYTHONPATH`` environment variable.
 
 In this case, Blender's bundled Python will attempt to use the ``PYTHONPATH``.
 If the Python version is different from the version used by Blender, this will crash Blender on startup.
