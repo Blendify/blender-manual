@@ -1,0 +1,27 @@
+
+***************
+Tracking Marker
+***************
+
+.. figure:: /images/editors_movie-clip_tracking_clip_marker_schematic.svg
+   :align: center
+
+   Marker schematic.
+
+:kbd:`S` scales the whole marker.
+The whole pattern area only will be scaled by pressing :kbd:`S` twice;
+The Pattern can also be rotated using the :kbd:`R` button which, depending on the used pivot point,
+will either rotate patterns around their own centers or rotate the whole markers around e.g. the median point.
+
+To match the perspective transformation of a marker on a plane, the individual corners must be edited manually.
+Each marker corner can deform individually to define the shapes.
+Corner positions can be edited by dragging them with a mouse.
+Dragging with :kbd:`LMB` will change the position of an individual corner.
+
+.. note::
+
+   Note that deforming a pattern is not only useful for planar / affine tracking.
+   Since only pixels within the pattern will be considered this can help to
+   specify a better pattern to track even for simple position tracking.
+
+The Search area can not be rotated; this is intentional. It doesn't make sense to deform the search area.
