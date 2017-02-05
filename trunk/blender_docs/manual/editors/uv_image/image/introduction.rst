@@ -69,7 +69,7 @@ Pin Image
 
 
 Multi-Layer
-^^^^^^^^^^^^
+^^^^^^^^^^^
 
 When a rendered image is displayed in the UV/Image Editor,
 several new menu items become available.
