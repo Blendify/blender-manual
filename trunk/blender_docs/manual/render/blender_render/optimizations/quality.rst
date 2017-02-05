@@ -59,7 +59,7 @@ This can be achieved through lighting settings, or better, through
 Motion Blur
 ===========
 
-Cameras have a certain shutter speed, or the length of time the film is exposed to the image.
+Cameras have a certain shutter speed (the length of time the film is exposed to the lights of the scene).
 Things that are in motion while the picture is taken will have some degree of blurring.
 Faster-moving objects will appear more blurred than slower objects.
 This is an important effect in CG because it is an artifact that we expect to see,
