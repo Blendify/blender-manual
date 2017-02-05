@@ -6,19 +6,20 @@ Introduction
 .. The UV/Image Editor offers few options to edit images > Compositor texture mode.
 
 
-Image Menu
-==========
+Header
+======
 
-.. Header.
+Image Menu
+----------
 
 New Image
    Creates a new :ref:`image-generated` Image.
 Open Image
    Load image from a file.
 Read Render Layers
-   ..
+   ToDo.
 Save All Images
-   ..
+   ToDo.
 Replace Image
    Replaces the current image, while preserving the link to UV maps,
    with an selected file.
@@ -45,21 +46,18 @@ Pack
       ..
    Pack As PNG
       Packs the image inside the blend-file.
+      See :ref:`pack-unpack-data`.
 
-   .. seealso::
+.. important::
 
-      :ref:`pack-unpack-data`.
-
-.. warning::
-
-   Rendered images had to be saved externally.
+   Rendered images had to be saved externally or packed.
 
 
-Header Controls
-===============
+Controls
+========
 
 Image
-   Data-block menu used for selecting images.
+   :ref:`Data-block menu <ui-data-block>` used for selecting images.
    When an image has been loaded or created in the UV/Image editor,
    the Image panel appears in the *Properties region*.
    See :doc:`/editors/uv_image/image/image_settings`.

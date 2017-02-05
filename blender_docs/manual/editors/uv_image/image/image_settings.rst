@@ -57,8 +57,12 @@ Frame
       Sets the range of frames to use.
    Start
       Global starting frame of the sequence, when the playback should start.
+      This is a global setting which means it affects all clip users such as the Movie clip editor itself,
+      motion tracking constraints and compositor nodes.
    Offset
-      Offsets the first frame of the clip.
+      Offsets the first frame of the clip. It adds an extra offset to the frame number when
+      converting a scene frame to the frame number in the file name.
+      This option does not affect tracking data or any other associated data.
 Match Movie Length
    This button set image's user's length to the one of selected movie.
 Auto Refresh
@@ -132,7 +136,7 @@ Color Space
    Linear ACES
       ACES linear space.
    Linear
-      709 (full range). Blender native linear space.
+      Linear 709 (full range). Blender native linear space.
 View as Render
    Apply render part of display transformation when displaying this image on the screen.
 Use Multi-View
