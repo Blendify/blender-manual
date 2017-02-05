@@ -54,7 +54,7 @@ Pack
 
 
 Controls
-========
+--------
 
 Image
    :ref:`Data-block menu <ui-data-block>` used for selecting images.
@@ -69,7 +69,7 @@ Pin Image
 
 
 Multi-Layer
-------------
+^^^^^^^^^^^^
 
 When a rendered image is displayed in the UV/Image Editor,
 several new menu items become available.
@@ -88,7 +88,7 @@ Render Pass
 
 
 Channels
---------
+^^^^^^^^
 
 Draw Channels
    The radio buttons set which channels of the image are displayed.
