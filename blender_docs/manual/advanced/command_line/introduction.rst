@@ -33,7 +33,7 @@ if Blender is manually started from a terminal, as Blender outputs to the
 *Console Window* it is started from.
 
 Depending on your desktop environment setup, a Blender icon may appear on your desktop or an
-entry for Blender added to your menu after you install Blender.
+entry for Blender is added to your menu after you install Blender.
 When you start Blender using a desktop icon or menu entry rather than a Terminal window, the
 Blender *Console Window* text will most likely be hidden on the Terminal that your
 `XWindow <https://en.wikipedia.org/wiki/X_Window_System>`__ server was started from.
