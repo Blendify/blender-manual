@@ -27,8 +27,8 @@ Hardware Improvements
 =====================
 
 - Install more system memory.
-- Upgrade your CPU to a multi-core/multiprocessor
-- Upgrade your OpenGL video drivers
+- Upgrade your CPU to a multi-core/multiprocessor.
+- Upgrade your OpenGL video drivers.
 - Get faster memory, up to your PC's motherboard limit.
 - Use or set up a render farm using all available PCs in your house, or use a render farm.
 
@@ -37,9 +37,9 @@ Operating System Configuration
 ==============================
 
 - Increase Blender's processing priority through your OS.
-- Increase your swap file space used by the OS for memory swapping. Also called virtual memory pagefile size,
+- Increase your swap file space used by the OS for memory swapping, also called virtual memory pagefile size,
   up to the size of your physical memory.
-- Use a system-monitor to check if any other processes are using significant CPU or RAM, which can be closed.
+- Use a system-monitor to check if any other processes using significant CPU or RAM can be closed.
 - Render in *background mode* (from the command line), saves extra memory.
 
 
@@ -68,7 +68,7 @@ Scene and Specific Objects
 #. Remove lamps, or move them to unrendered layers, or tie them to layers.
 #. Turn off some lamp's shadows, using only one or two main sun lamps to cast shadows.
    A few "shadows only" lights will render faster than every light having shadows on.
-#. Use Buffer Shadows rather than ray-traced Shadows
+#. Use Buffer Shadows rather than ray-traced Shadows.
 #. Bake your shadows using Render Baking Full Render bake on surfaces that do not move.
    Use that texture for that mesh, then disable shadows for that material.
 #. Simplify meshes (remove polygons). The more vertices you have in camera, the more time it takes to render.
@@ -77,7 +77,7 @@ Scene and Specific Objects
 #. Delete backsides of meshes (removing unseen geometry).
 #. Render just a few objects at a time; in the beginning of your project,
    render the background objects and sets that will not change and will always be in the background.
-#. Put the buildings on another layer, and through render layers, do not render them.
+#. Put the buildings on another layer, and, through render layers, do not render them.
    Then composite them back in later.
 #. Make the camera static so that you can better accomplish the above two ideas.
 #. Avoid use of Area lights.
@@ -165,27 +165,27 @@ For instance:
   having been generated *once,* can be re-used as many times as necessary over as many frames as necessary.
 - Both shadows and highlights can be captured separately from the objects that are being illuminated or shadowed,
   such that the intensity, color, and depth of the effect can be adjusted later without re-rendering.
-- Start by using lights that do not cast shadows. (Shadow calculations are big time-killers.) Then,
+- Start by using lights that do not cast shadows (shadow calculations are big time-killers). Then,
   use "shadow-only" lights (which cast shadows, but do not cast light)
-  to create shadows *only* where you judge that they are actually necessary.
-  (It is very often the case that only a few of the shadows which could exist in the scene actually matter,
-  and that the rest of them simply will not be noticed.)
+  to create shadows *only* where you judge that they are actually necessary
+  (it is very often the case that only a few of the shadows which could exist in the scene actually matter,
+  and that the rest of them simply will not be noticed).
 - Tricky lighting situations can be avoided by handling the objects separately,
   then combining the individually-rendered clips and "tweaking" the result.
 
 This is a very familiar idea. Modern sound recordings, for example, always use a "multi-track" approach.
 Individual components of the song are captured separately and in isolation, then the components are "mixed" together.
 The "final mix" then goes through additional processing stages, called *mastering*,
-to produce the finished product(s). (In fact, the features and design of modern
-sound-processing software are directly comparable to that of Blender's node-based compositor.)
+to produce the finished product(s) (in fact, the features and design of modern
+sound-processing software are directly comparable to that of Blender's node-based compositor).
 
 There are compelling advantages to this approach:
 
 - If something is "not quite right," you do not necessarily have to start over from scratch.
 - In practice, the deadline-killer is *re-* rendering, which ordinarily must be done (in its entirety)
   just because "'one little thing' about the shot is wrong." Compositing helps to avoid this, because (ideally...)
-  only the specific parts that are found to be in error must be repeated. (Or, maybe,
-  the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place.
+  only the specific parts that are found to be in error must be repeated (or, maybe,
+  the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place).
 - Sometimes you might find that it is *almost* what you wanted, but now you would like to *add*
   this and maybe *take away* that." A compositing-based approach enables you to do just that, and furthermore,
   to do so *non-destructively.* In other words, having generated the "addition" (or the "mask")
