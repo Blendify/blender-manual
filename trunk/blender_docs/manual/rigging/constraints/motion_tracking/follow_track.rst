@@ -28,3 +28,9 @@ Depth Object
    can be used to make faked facial makeup.
 Constraint to F-Curve
    ToDo.
+
+
+Example
+=======
+
+.. youtube:: KZalGrjGKSA

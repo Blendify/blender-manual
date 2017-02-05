@@ -7,15 +7,17 @@ Display Panel
 This panel contains display settings related on editor itself.
 
 Channels
-   R, G, B and *B/W* buttons at the top of this panel are used to control color channels used for frame preview and to
-   make the whole frame gray scale. It is needed because the tracking algorithm works with gray-scale images and it
-   is not always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
-Mute (eye icon)
+   The R, G, B toggles control the color channels used for frame preview.
+   It is needed because the tracking algorithm works with gray-scale images and it is not
+   always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
+Grayscale Preview (B/W)
+   Shows the whole frame gray scale.
+Mute (eye icon) :kbd:`M`
    Changes displaying on movie frame itself with black square,
    It helps to find tracks which are tracked inaccurately or which were not tracked at all.
 Render Undistorted
    ToDo.
-Lock to Selection
+Lock to Selection :kbd:`L`
    Makes the editor display selected tracks at the same screen position
    along the whole footage during playback or tracking.
    This option helps to control the tracking process and

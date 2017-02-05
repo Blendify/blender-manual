@@ -20,7 +20,7 @@ See Tab. :ref:`tab-view3d-modes` below for details.
 You set the current mode in the *Mode* selector of *3D View* header
 (see Fig. :ref:`fig-view3d-mode-select`).
 
-.. warning::
+.. note::
 
    You can only select objects in *Object Mode*.
    In all others, the current object selection is "locked"
