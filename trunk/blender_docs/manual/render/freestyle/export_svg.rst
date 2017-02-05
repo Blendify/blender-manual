@@ -83,7 +83,7 @@ Animations
 ==========
 
 The exporter supports the creation of SVG animations. When the Mode is set to Animation, all frames from a render --
-one when rendering a frame (:kbd:`F12`) or all when rendering an animation (:kbd:`Shift-F12`) -- into a single file.
+one when rendering a frame (:kbd:`F12`) or all when rendering an animation (:kbd:`Shift-F12`) -- are saved into a single file.
 Most modern browsers support the rendering of SVG animations.
 
 .. figure:: /images/render_freestyle_svg-export_cube.svg
