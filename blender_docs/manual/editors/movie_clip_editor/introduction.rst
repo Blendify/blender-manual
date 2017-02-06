@@ -20,6 +20,7 @@ Clip Menu
 
 - Open Clip :kbd:`Alt-O`
 
+
 Controls
 --------
 
@@ -48,3 +49,11 @@ Properties Region
 
 Footage Settings
    See :doc:`/editors/uv_image/image/image_settings`.
+
+.. (todo) main view: mini timeline
+   yellow: track
+   yellow line: keyframe
+   purple: prefetched frames
+   green line: time cursor
+   light green: solve start/end keyframe
+   area fill with between the animation start/end
