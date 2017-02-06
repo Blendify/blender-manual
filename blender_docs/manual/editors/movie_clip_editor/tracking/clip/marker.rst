@@ -33,7 +33,7 @@ The Search area can not be rotated; this is intentional. It doesn't make sense t
 Plain
 =====
 
-The feft bottom corner of the plane does have X/Y axis (X is red, Y is green) to
+The left bottom corner of the plane does have X/Y axis (X is red, Y is green) to
 help distinguishing orientation of the plane in space.
 
 It is likely that corner of the plane object need to be manually adjusted.
