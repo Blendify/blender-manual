@@ -10,6 +10,16 @@ Tracks can also be used to move and deform masks for rotoscoping in the Mask Edi
 which is available as a special mode in the Movie Clip Editor.
 
 
+Views
+======
+
+In Tracking Mode offers three different views. You can toggle between view modes using
+the View menu, which is located in the header.
+When you selected a view in the whole area of the movie clip editor will change.
+Hence, to display a curve or dope sheet view, the editor must be split into two,
+with one switched to the curve or dope sheet view.
+
+
 Manual Lens Calibration
 =======================
 

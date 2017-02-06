@@ -3,13 +3,27 @@
 Solve
 *****
 
+.. _clip-tracking-plane:
+
 Plane Track Panel
 =================
 
 The *Create Plane Track* operator creates a new plane track.
-Four markers are needed to be selected which will form the four corners of the plane.
 This can be used to replace things like billboards and screens on the footage with another image or video.
 It also might be used for masking.
+
+This button will create a plane object
+which is deforming in the same way as plane defined by all selected point tracks.
+At least four feature points tracked across the footage which belongs to
+the plane one wants to replace are needed. More tracks will give better estimation of plane motion.
+
+Feature points used to estimate plane motion could be used from any place on the plane,
+meaning it's not necessarily need to be corners. Corners are not always easy to be tracked,
+they might be occluded. In this case you can position tracked features that lay on the same plane
+far away from the actual plane which should be replaced.
+
+It is also possible to have some tracks appear and disappear during the time,
+it's only required that two neighbor frames have at least 4 common tracks.
 
 
 Solve Panel
@@ -35,11 +49,11 @@ Keyframe
 --------
 
 Keyframe
-   ToDo.
-Keyframe A :kbd:`Q`
-   ToDo.
-Keyframe B :kbd:`E`
-   ToDo.
+   Automatically select keyframes for initial reconstruction.
+   This option enables complex algorithms which tries to find a keyframe pair
+   with minimal reconstruction error and best scene scale guess.
+Keyframe A, B :kbd:`Q`, :kbd:`E`
+   Start (A) and End (B) frame of the range used for reconstruction.
 
 
 Refine
@@ -96,7 +110,7 @@ Geometry Panel
 ==============
 
 3D Markers to Mesh
-   ToDo.
+   Converts the reconstructed points into a point cloud (single mesh). ToDo.
 Link Empty to Track
    ToDo.
 
@@ -107,7 +121,7 @@ Orientation Panel
 Scene orientation tools can be used for orienting object to bundles.
 
 Floor
-   ToDo.
+   Select three markers that should lay on the floor plane. ToDo.
 Wall
    Define world orientation based on points on the wall.
 Set Origin

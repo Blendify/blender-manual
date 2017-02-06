@@ -3,6 +3,9 @@
 Tracking Marker
 ***************
 
+Point
+=====
+
 .. figure:: /images/editors_movie-clip_tracking_clip_marker_schematic.svg
    :align: center
 
@@ -25,3 +28,16 @@ Dragging with :kbd:`LMB` will change the position of an individual corner.
    specify a better pattern to track even for simple position tracking.
 
 The Search area can not be rotated; this is intentional. It doesn't make sense to deform the search area.
+
+
+Plain
+=====
+
+The feft bottom corner of the plane does have X/Y axis (X is red, Y is green) to
+help distinguishing orientation of the plane in space.
+
+It is likely that corner of the plane object need to be manually adjusted.
+To do this sliding individual corners with mouse :kbd:`LMB` or general transform tools
+:kbd:`G`, :kbd:`R`, :kbd:`S` could be used.
+
+Adjusting plane corners will keep it following the plane defined by tracks it was originally created from.

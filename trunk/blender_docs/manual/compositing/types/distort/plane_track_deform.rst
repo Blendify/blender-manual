@@ -11,12 +11,12 @@ Plane Track Deform Node
 The Plane Track Deform Node is used to incorporate the special "plane track" in your composite by checking areas
 which are planes, and replacing their footage with some other image.
 
+
 Plane Track
 ===========
 
-Before using this node, plane track for the footage should be made in the *Movie Clip Editor*.
-
-.. TODO: add link to plane track's documentation when that is made.
+Before using this node, :ref:`plane track <clip-tracking-plane>` for the footage
+should be made in the *Movie Clip Editor*.
 
 
 Inputs
@@ -60,9 +60,9 @@ Outputs
 =======
 
 Image
-   The output by wrapping the image to that plane track.
+   The output by perspective wrapping the image to that plane track.
 Plane
-   Produces a bw mask of the plane track.
+   Produces a black and white mask of the plane track.
 
 
 Examples

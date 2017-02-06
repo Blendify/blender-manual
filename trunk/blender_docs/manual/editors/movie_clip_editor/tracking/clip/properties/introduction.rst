@@ -80,14 +80,24 @@ Grayscale Preview (B/W)
    Display the preview image as grayscale even if all channels are enabled.
 Alpha Preview (B/W icon)
    ToDo.
-Weight
-   When several tracks are used for 3D camera reconstruction or for 2D stabilization, it is possible
-   to assign a reduced weight to some tracks to control their influence on the solution result.
-   The *Weight* parameter is used for 3D reconstruction.
-Stab Weight
-   While the *Stab Weight* parameter is used to control 2D stabilization.
-   This parameter can (and often need to be) animated.
 
+.. _clip-tracking-weight:
+
+Weight
+   When several tracks are used for 3D camera reconstruction, it is possible
+   to assign a reduced weight to some tracks to control their influence on the solution result.
+   This parameter can (and often need to be) animated.
+   
+   Altering the weights of problem tracking markers can correct or greatly reduce undesirable jumps.
+   Another use of Track Weights is when you want to reconstruct a scene from your camera solution.
+   In that case you can first carefully track and solve your scene, and once you're done,
+   lock all your markers with :kbd:`Ctrl-L`, set the tracker weight in the Extra Settings of
+   the tracker settings to zero and use the feature detection to quickly add lots of markers.
+   Now track them and solve the scene again. Since their weight is zero
+   they will not influence your solution at all, but you will have lots of good reference points in your scene.
+Stabilization Weight
+   While *Weight* parameter is used for 3D reconstruction,
+   the *Stabilization Weight* is used to control 2D stabilization.
 Color Presets
    The preset for the *Custom Color*.
 Custom Color
@@ -118,17 +128,11 @@ Firstly, the name of the selected plane track is shown. It can also be changed f
 Auto Keyframe
    Toggles the auto-keyframing for corners of the plane track.
    With this enabled, keyframes will automatically get inserted when any corner is moved.
-
-   .. note:: Corners can be moved using :kbd:`LMB`.
-
 Image
-   Used to select an image which will be inside the plane track.
-
-   .. note::
-
-      This image is for viewing purposes in movie clip editor only. To include it in your final render,
-      see :doc:`Plane Track Deform node </compositing/types/distort/plane_track_deform>`.
-
+   Field to select an image which will be displayed inside the plane track.
+   This image is for preview purposes in movie clip editor only.
+   To include it in your final render,
+   see :doc:`Plane Track Deform node </compositing/types/distort/plane_track_deform>`.
 Opacity
    Used to set the opacity of this image. Again,
    this is for display purposes only, and will not affect your final render.

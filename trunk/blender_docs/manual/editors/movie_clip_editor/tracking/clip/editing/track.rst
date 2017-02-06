@@ -116,9 +116,7 @@ Prepass
 Normalize
    Means patterns will be normalized by their average intensity while tracking,
    to make them invariant to illumination changes. An example where this is useful is a scene where
-   a marker moves in the shadow of an actress. Previously it would not be possible to track such a situation,
-   scale adaption would shrink the area to compensate for the change in illumination, losing the track.
-   With Normalize turned on, the patch is correctly tracked and scale is maintained.
+   a marker moves in the shadow of an object.
 Copy From Active Track
    Tracker settings only -- ToDo.
 
@@ -150,7 +148,7 @@ Speed
    tracking two frames, so slide-off would be noticed earlier and the tracking process can be canceled to
    adjust positions of tracks.
 Weight
-   Tracker settings only -- ToDo.
+   See Track :ref:`Weight <clip-tracking-weight>`.
 
 
 .. hybrid tracker:
