@@ -66,10 +66,12 @@ But you still have to know approximate initial values --
 it will fail to find correct values if they were set completely incorrectly initially.
 
 
+.. _editors-movie-clip-tracking-clip-solve-camera-mostion:
+
 Solve Camera/Object Motion
 --------------------------
 
-*Camera Motion* operator solves the motion of camera using all tracks placed
+The *Camera Motion* operator solves the motion of camera using all tracks placed
 on the footage and two keyframes specified on this panel. There are some requirements:
 
 - There should be at least eight common tracks on the both of the selected keyframes.

@@ -1,7 +1,7 @@
 
-**************
-Camera Editing
-**************
+***************
+Render Settings
+***************
 
 .. figure:: /images/bge_camera_properties.png
    :width: 300px
@@ -217,7 +217,6 @@ physics geometry visualization, warnings,
 whether the mouse cursor is shown during the game execution, and options to specify the framing
 style of the game to fit the window with the specified resolution.
 
-
 .. figure:: /images/gameengine_performance_render_display.jpg
 
    Display panel at the Render tab.
@@ -267,12 +266,11 @@ Color Bar
 .. _game-engine-settings-render-bake:
 
 Bake
-=======
+====
 
 The *Bake* panel in the *Render* tab of the *Properties* editor is very similar to it's
 Blender Render couterpart and serves much the same purpose.
 See :doc:`Render Baking </render/blender_render/bake>` for further details.
-
 
 .. figure:: /images/gameengine_performance_render_bake.png
 
