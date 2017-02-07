@@ -331,6 +331,9 @@ This page lists definitions for terms used in Blender and this manual.
       heavy computational requirements of calculating lighting for each pixel.
       The technique was first presented by Henri Gouraud in 1971.
 
+   Glossy Map
+      See :term:`Roughness Map`.
+
    Head
       A subcomponent of a :term:`Bone`. The point of rotation for that :term:`Bone`.
       Has X, Y and Z coordinates measured in the :term:`Local Space` of the :term:`Armature` :term:`Object`.
@@ -627,6 +630,10 @@ This page lists definitions for terms used in Blender and this manual.
    Roll Angle
       The orientation of the local X and Z axes of a :term:`Bone`.
       Has no effect on the local Y axis as local Y is determined by the location of the :term:`Head` and :term:`Tail`.
+
+   Roughness Map
+      A gray scale texture that defines how rough or smooth the surface of a material is.
+      This may also be known as a :term:`Glossy Map`.
 
    Scanline
       Rendering technique. Much faster than :term:`raytracing`,
