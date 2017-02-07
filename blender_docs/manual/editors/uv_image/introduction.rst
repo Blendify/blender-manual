@@ -35,7 +35,7 @@ Modes
    Paint
       :doc:`/sculpt_paint/painting/texture_paint/index`.
    Mask
-      :doc:`/editors/movie_clip_editor/masking`.
+      :doc:`/editors/movie_clip_editor/masking/index`.
 
 
 Properties Region

@@ -10,4 +10,4 @@
    introduction.rst
    properties/index.rst
    tracking/index.rst
-   masking.rst
+   masking/index.rst

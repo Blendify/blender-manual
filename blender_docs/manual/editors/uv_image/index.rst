@@ -13,4 +13,3 @@
    uv_editing/index.rst
    display_panel.rst
    painting.rst
-   masking.rst
