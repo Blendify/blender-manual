@@ -43,6 +43,10 @@ Grid Floor
    They meet at the origin, which is also the position of the *Cube*.
    The Grid Floor settings are in the :doc:`Display panel </editors/3dview/display/panels>`.
 
+.. figure:: /images/editors_3dview_startup_scene_single.png
+
+   The elements of the startup scene.
+
 
 Overlays
 ========
