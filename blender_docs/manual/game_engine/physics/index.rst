@@ -9,7 +9,7 @@
 
    introduction.rst
    world.rst
-   using_ge.rst
+   usage.rst
 
 
 Physics Types
