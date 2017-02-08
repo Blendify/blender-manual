@@ -24,8 +24,8 @@ the two handles are automatically selected too, so you can grab it as a whole,
 without creating an angle in the curve. However, when you select a handle,
 only this vertex is selected, allowing you to modify this control vector...
 
-Note that unlike mesh edges you cannot directly select a Segment. Instead,
-select all of the Control Points that make up the Segment you want to edit.
+Note that unlike mesh edges you cannot directly select a segment. Instead,
+select all of the control points that make up the segment you want to edit.
 
 
 Select Menu

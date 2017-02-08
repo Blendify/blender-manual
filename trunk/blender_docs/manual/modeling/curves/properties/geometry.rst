@@ -94,7 +94,7 @@ Resolution
 Bevel Object
    The Bevel Object controls the cross section of the extruded curve.
    The Bevel Object can only be another curve both 2D or 3D, and opened or closed.
-   Editing the Handles and Control Points of the Bevel Object will cause the original Object to change shape.
+   Editing the handles and control points of the Bevel Object will cause the original Object to change shape.
 
    .. figure:: /images/modeling_curves_geometry-bevel.jpg
 
@@ -141,23 +141,23 @@ Taper
 Taper Object
    The taper curve is evaluated along the local X axis,
    using the local Y axis for width control. Note also that:
-   Tapering a Curve causes it to get thinner towards one end.
+   Tapering a curve causes it to get thinner towards one end.
    You can also alter the proportions of the Taper throughout the tapered object
-   by moving/scaling/rotating the Control Points of the Taper Object.
-   The Taper Object can only be another Curve.
-   Editing the Handles and Control Points of the Taper Object will cause the original Object to change shape.
+   by moving/scaling/rotating the control points of the Taper Object.
+   The Taper Object can only be another curve.
+   Editing the handles and control points of the Taper Object will cause the original Object to change shape.
 
    .. figure:: /images/modeling_curves_geometry-taper.jpg
 
-      A Curve before (left) and after (right) a Bézier Curve Taper Object was applied.
+      A curve before (left) and after (right) a Bézier curve Taper Object was applied.
 
 Map Taper
-   For Curves using a Taper Object and with modifications to the *Start/End Bevel Factor*
-   the *Map Taper* option will apply the taper to the beveled part of the Curve (not the whole Curve).
+   For curves using a Taper Object and with modifications to the *Start/End Bevel Factor*
+   the *Map Taper* option will apply the taper to the beveled part of the curve (not the whole curve).
 
    .. figure:: /images/modeling_curves_geometry-map-taper.jpg
 
-      A Curve without (left) and with (right) Map Taper applied.
+      A curve without (left) and with (right) Map Taper applied.
 
 
 Details
@@ -187,12 +187,12 @@ Examples
 Let us taper a simple curve circle extruded object using a taper curve. Add a curve,
 then exit *Edit Mode*. Add another one (a closed one, like a circle); call it "BevelCurve",
 and enter its name in the *Bevel Object* field of the first curve
-(*Curve and Surface* tab). We now have a pipe.
+(*Curve* tab). We now have a pipe.
 Add a third curve while in *Object Mode* and call it "TaperCurve".
 Adjust the left control-point by raising it up about 5 units.
 
 Now return to the Object tab,
-and edit the first curve's *Taper Object* field in the Curve and Surface panel to reference the new taper curve
+and edit the first curve's *Taper Object* field in the Geometry panel to reference the new taper curve
 which we called "TaperCurve".
 When you hit enter the taper curve is applied immediately,
 with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
