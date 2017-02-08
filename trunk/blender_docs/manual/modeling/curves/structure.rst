@@ -1,10 +1,18 @@
 
-*************
+*********
+Structure
+*********
+
+.. _curve-bezier:
+
 Bézier Curves
-*************
+=============
 
 The main elements used in editing Bézier Curves are the Control Points and Handles.
-A Segment (the actual Curve) is found between two Control Points. In the image below,
+A Segment (the actual Curve) is found between two Control Points.
+Handles define the curvature of the curve.
+
+In the image below,
 the Control Points can be found in the middle of the pink line,
 while the Handles comprise the extensions from the Control Point.
 By default the arrows on the Segment represents the direction and
@@ -16,26 +24,7 @@ This can be altered by defining a custom F-Curve.
    Bézier Curve in Edit Mode.
 
 
-Editing Bézier Curves
-=====================
-
-A Bézier curve can be edited by moving the locations of the Control Points and Handles:
-
-#. Add a Curve by :kbd:`Shift-A` to bring up the *Add* menu, followed by :menuselection:`Curve --> Bézier`.
-#. Press :kbd:`Tab` to enter *Edit Mode*.
-#. Select one of the Control Points and move it around.
-   Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
-#. Now select one of the Handles and move it around. Notice how this changes the curvature of the curve.
-
-To add more Control Points:
-
-#. Select at least two adjacent Control Points.
-#. Press :kbd:`W` and select :menuselection:`-->Subdivide`.
-#. Optionally, you can press :kbd:`F6` immediately after the subdivision to modify the number of subdivisions.
-
-Note that while in *Edit Mode* you cannot directly select a Segment. To do so,
-select all of the Control Points that make up the Segment you want to move.
-
+.. _curve-bezier-handle-type:
 
 Handle Types
 ------------
@@ -66,3 +55,16 @@ Aligned :kbd:`V-L`
    and give a continuous curve without sharp angles. (Purple handles.)
 Free :kbd:`V-F`
    The handles are independent of each other. (Black handles.)
+
+
+.. _curve-nurbs:
+
+NURBS
+=====
+
+N.U.R.B.S. is the abbreviation of Non-Uniform Rational B-Splines.
+One of the major differences between Bézier Objects and NURBS Objects is that Bézier Curves
+are approximations. For example, a Bézier circle is an *approximation* of a circle,
+whereas a NURBS circle is an *exact* circle.
+NURBS theory can be a *very* complicated topic. For an introduction,
+please consult the `Wikipedia page. <https://en.wikipedia.org/wiki/NURBS>`__.

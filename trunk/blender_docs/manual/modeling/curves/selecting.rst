@@ -24,6 +24,9 @@ the two handles are automatically selected too, so you can grab it as a whole,
 without creating an angle in the curve. However, when you select a handle,
 only this vertex is selected, allowing you to modify this control vector...
 
+Note that you cannot directly select a Segment. To do so,
+select all of the Control Points that make up the Segment you want to move.
+
 
 Select Menu
 ===========
@@ -44,9 +47,49 @@ Border/ Circle Select
 Select Linked
 =============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Select --> Select Linked`
+   | Hotkey:  :kbd:`L`, :kbd:`Ctrl-L`, :kbd:`Shift-L`
+
 :kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier,
 using :kbd:`L` with a handle selected will select the whole control point and all the linked ones.
+
+
+Select Similar
+==============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Select --> Select Similar`
+   | Hotkey:  :kbd:`Shift-G`
+
+ToDo.
+
+Type
+   ToDo.
+Compare
+   ToDo.
+Threshold
+   ToDo.
+
+
+Shortest Path
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Operator Search --> Pick Shortest Path`
+   | Hotkey:  :kbd:`Ctrl`
+
+ToDo.
 
 
 Select/Deselect First/Last
@@ -90,7 +133,7 @@ Select More/Less
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`Ctrl-NumpadPlus`/:kbd:`Ctrl-NumpadMinus`
+   | Hotkey:   :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
 
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.

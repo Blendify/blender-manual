@@ -95,7 +95,7 @@ and higher than 6 or the number of control points on the relevant axis.
 Resolution
 ----------
 
-Just like :doc:`NURBS curves </modeling/curves/nurbs>`, *Resolution* controls the detail of the surface.
+Just like :ref:`NURBS curves <curve-nurbs>`, *Resolution* controls the detail of the surface.
 The higher the *Resolution* the more detailed and smoother the surface is.
 The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
 one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
