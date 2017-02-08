@@ -8,7 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   primitives.rst
    structure.rst
+   primitives.rst
    editing.rst
    properties.rst
