@@ -8,7 +8,7 @@ Manipulate Center Points
    :class: refbox
 
    | Mode:     Object Mode and Pose Mode
-   | Menu:     Select from the |pivot-icon| icon in the 3D View header.
+   | Header:   |pivot-icon| Manipulate Center Points
    | Hotkey:   :kbd:`Alt-Comma`
 
 

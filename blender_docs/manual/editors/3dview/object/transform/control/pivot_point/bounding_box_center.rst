@@ -8,7 +8,7 @@ Bounding Box Center
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Select from the |pivot-icon| icon in the 3D View header.
+   | Header:   |pivot-icon| :menuselection:`Pivot Point --> Bounding Box Center`
    | Hotkey:   :kbd:`Comma`
 
 

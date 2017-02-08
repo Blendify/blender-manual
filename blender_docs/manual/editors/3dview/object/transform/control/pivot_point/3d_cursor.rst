@@ -1,14 +1,14 @@
 .. |pivot-icon| image:: /images/editors_3dview_object_transform-control_pivot-point.png
 
-******************
-3D Cursor as Pivot
-******************
+*********
+3D Cursor
+*********
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Select from the |pivot-icon| icon in the 3D View header.
+   | Header:   |pivot-icon| :menuselection:`Pivot Point --> 3D Cursor`
    | Hotkey:   :kbd:`Period`
 
 
