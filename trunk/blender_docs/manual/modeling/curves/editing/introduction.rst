@@ -10,7 +10,7 @@ This page covers the basics of curve editing.
 Transform
 =========
 
-A Bézier curve can be edited by transforming the locations of the control points and handles.
+A Bézier curve can be edited by transforming the locations of both control points and handles.
 NURBS curve on the other hand have only control points.
 
 
