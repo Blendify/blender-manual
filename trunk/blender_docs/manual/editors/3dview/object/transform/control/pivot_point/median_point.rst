@@ -8,7 +8,7 @@ Median Point
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Select from the |pivot-icon| icon in the 3D View header.
+   | Header:   |pivot-icon| :menuselection:`Pivot Point --> Median Point`
    | Hotkey:   :kbd:`Ctrl-Comma`
 
 

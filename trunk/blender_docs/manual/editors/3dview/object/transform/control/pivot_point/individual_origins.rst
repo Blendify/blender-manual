@@ -11,7 +11,7 @@ Individual Origins
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Select from the |pivot-icon| icon in the 3D View header.
+   | Header:   |pivot-icon| :menuselection:`Pivot Point --> Individual Origins`
    | Hotkey:   :kbd:`Ctrl-Period`
 
 
