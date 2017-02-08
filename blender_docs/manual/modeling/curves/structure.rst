@@ -8,16 +8,15 @@ Structure
 Bézier Curves
 =============
 
-The main elements used in editing Bézier Curves are the Control Points and Handles.
-A Segment (the actual Curve) is found between two Control Points.
-Handles define the curvature of the curve.
+The main elements used in editing Bézier curves are the control points and handles.
+A segment (the actual curve) is found between two control points.
+The handles define the curvature of the segment.
 
 In the image below,
-the Control Points can be found in the middle of the pink line,
-while the Handles comprise the extensions from the Control Point.
-By default the arrows on the Segment represents the direction and
-*relative* speed and direction of movement Objects will have when moving along the curve.
-This can be altered by defining a custom F-Curve.
+the control points can be found in the middle of the pink line,
+while the handles comprise the extensions from the control point.
+The arrows visualize the normals of the curve, which indicate i.a.
+the direction and the tilt.
 
 .. figure:: /images/modeling_curves_control-points-handles.png
 
@@ -62,7 +61,7 @@ NURBS
 =====
 
 N.U.R.B.S. is the abbreviation of Non-Uniform Rational B-Splines.
-One of the major differences between Bézier Objects and NURBS Objects is that Bézier Curves
+One of the major differences between Bézier objects and NURBS objects is that Bézier curves
 are approximations. For example, a Bézier circle is an *approximation* of a circle,
 whereas a NURBS circle is an *exact* circle.
 NURBS theory can be a *very* complicated topic. For an introduction,

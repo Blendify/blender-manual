@@ -3,7 +3,7 @@
 Object Data
 ***********
 
-Curve Properties can be set from the *Object Data* tab
+The curve properties can be set from the *Object Data* tab
 in the *Properties Header* (shown below in blue).
 
 .. figure:: /images/modeling_curves_properties_header.png
@@ -17,18 +17,18 @@ Shape
    Curves Shape panel.
 
 Dimensions
-   By default, new curves are set to be 3D, which means that Control Points can be placed anywhere in 3D space.
-   Curves can also be set to 2D which constrain the Control Points to the Curve's local XY axis.
+   By default, new curves are set to be 3D, which means that control points can be placed anywhere in 3D space.
+   Curves can also be set to 2D which constrain the control points to the curve's local XY axis.
 
    2D, 3D
 
 .. _curve-resolution:
 
 Resolution
-   The *resolution* property defines the number of points that are computed between every pair of Control Points.
+   The *resolution* property defines the number of points that are computed between every pair of control points.
    Curves can be made more or less smooth by increasing and decreasing the resolution respectively.
    The *Preview U* setting determines the resolution in the 3D View while the *Render U* setting
-   determines the Curve's render resolution. If *Render U* is set to zero (0),
+   determines the curve's render resolution. If *Render U* is set to zero (0),
    then the *Preview U* setting is used for both the 3D View and render resolution.
 
    .. figure:: /images/modeling_curves_shape-resolution.jpg
@@ -36,9 +36,9 @@ Resolution
       Curves with a resolution of 3 (left) and 12 (right).
 
 Twisting
-   A 3D Curve has Control Points that are not located on the Curve's local XY plane.
-   This gives the Curve a twist which can affect the Curve normals.
-   You can alter how the twist of the Curve is calculated by choosing from *Minimum,
+   A 3D curve has control points that are not located on the curve's local XY plane.
+   This gives the curve a twist which can affect the curve normals.
+   You can alter how the twist of the curve is calculated by choosing from *Minimum,
    Tangent* and *Z-Up* options from the select menu.
 
    .. figure:: /images/modeling_curves_shape-twist.jpg
@@ -46,8 +46,8 @@ Twisting
       Curves with a twist of minimum (left) and tangent (right).
 
 Fill
-   Fill determines the way a Curve is displayed when it is Beveled (see below for details on Beveling).
-   When set to *Half* (the default) the Curve is displayed as half a cylinder.
+   Fill determines the way a curve is displayed when it is beveled (see below for details on Beveling).
+   When set to *Half* (the default) the curve is displayed as half a cylinder.
 
    Fill Deformed
       Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
@@ -59,7 +59,7 @@ Fill
 .. _curve-shape-path-curve-deform:
 
 Path/Curve-Deform
-   These options are primarily utilized when using a Curve as a Path or when using the Curve Deform Modifier.
+   These options are primarily utilized when using a curve as a path or when using the Curve Deform Modifier.
    They control how objects use the curve and are dealt with in more detail in the appropriate links below.
 
    Radius
@@ -110,17 +110,17 @@ Active Spline
 The *Active Spline* panel becomes available during *Edit Mode*.
 
 Cyclic
-   Closes the Curve.
+   Closes the curve.
 Resolution
    Alters the smoothness of each segment by changing the number of subdivisions.
 Interpolation
    Tilt
       Alters how the tilt of a segment is calculated.
    Radius
-      Alters how the radius of a Beveled Curve is calculated.
+      Alters how the radius of a beveled curve is calculated.
       The effects are easier to see after Shrinking/Fattening a control point :kbd:`Alt-S`.
    Smooth
-      Smooths the normals of the Curve.
+      Smooths the normals of the curve.
 
 
 NURBS Curves
