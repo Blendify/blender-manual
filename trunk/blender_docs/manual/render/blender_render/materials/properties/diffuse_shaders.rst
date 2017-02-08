@@ -131,15 +131,15 @@ Toon
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-.. figure:: /images/material-shader-toon.jpg
-   :width: 320px
+.. list-table::
 
-   Toon Shader, Different Spec.
+   * - .. figure:: /images/material-shader-toon.jpg
 
-.. figure:: /images/material-shader-toon-vary.jpg
-   :width: 320px
+          Toon Shader, Different Spec.
 
-   Toon Shader Variations.
+     - .. figure:: /images/material-shader-toon-vary.jpg
+
+          Toon Shader Variations.
 
 
 The Toon shader is a very 'un-physical' shader in that it is not meant to fake reality,
@@ -206,15 +206,16 @@ Fresnel
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-.. figure:: /images/material-shader-fresnel-vary.jpg
-   :width: 320px
+.. list-table::
 
-   Various settings for the Fresnel shader, Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50.
+   * - .. figure:: /images/material-shader-fresnel-vary.jpg
 
-.. figure:: /images/material-shader-fresnel.jpg
-   :width: 320px
+          Various settings for the Fresnel shader,
+          Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50.
 
-   Fresnel Shader, Different Spec.
+     - .. figure:: /images/material-shader-fresnel.jpg
+
+          Fresnel Shader, Different Spec.
 
 
 With a Fresnel shader the amount of diffuse reflected light depends on the incidence angle,
