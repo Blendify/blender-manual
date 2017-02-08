@@ -10,6 +10,10 @@ This page covers the basics of curve editing.
 Transform
 =========
 
+A Bézier curve can be edited by transforming the locations of the control points and handles.
+NURBS curve on the other hand have only control points.
+
+
 Translation, Rotation, Scale
 ----------------------------
 
@@ -22,7 +26,7 @@ Translation, Rotation, Scale
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 
-Like other elements in Blender, Curve control points can be grabbed/moved :kbd:`G`,
+Like other elements in Blender, curve control points and handles can be grabbed/moved :kbd:`G`,
 rotated :kbd:`R` or scaled :kbd:`S`
 as described in the :doc:`Basic Transformations </editors/3dview/object/transform/introduction>` section.
 When in *Edit Mode*, :doc:`proportional editing
@@ -319,10 +323,10 @@ Set Handle Type
    | Hotkey:   :kbd:`V`
 
 
-Handle types are a property of :doc:`Bézier curves </modeling/curves/bezier>` and
+Handle types are a property of :ref:`Bézier curves <curve-bezier>` and
 can be used to alter features of the curve.
 For example, switching to *Vector handles* can be used to create curves with sharp corners.
-Read the :doc:`Bézier curves </modeling/curves/bezier>` page for more details.
+Read the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details.
 
 Toggle Free/Align :kbd:`V-T`
    Additionally, the this shortcut can be used to toggle between Free and Aligned handle types.
@@ -401,7 +405,7 @@ Subdivision
 
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Subdivide`
-   | Menu:     :menuselection:`Surface tools --> Modeling --> Subdivide`
+   | Menu:     :menuselection:`Curve --> Segments --> Subdivide`
 
 
 Curve subdivision simply subdivides all selected segments by adding one or

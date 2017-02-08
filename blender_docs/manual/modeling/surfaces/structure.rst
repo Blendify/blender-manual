@@ -4,7 +4,7 @@ Structure
 *********
 
 Many of the concepts from :doc:`curves </modeling/curves/introduction>`,
-especially :doc:`NURBS </modeling/curves/nurbs>` ones,
+especially :ref:`NURBS <curve-nurbs>` ones,
 carry directly over to NURBS surfaces,
 such as control points, *Order*, *Weight*, *Resolution*, etc.
 Here we will just talk about the differences.

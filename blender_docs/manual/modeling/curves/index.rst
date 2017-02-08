@@ -8,9 +8,8 @@
    :maxdepth: 2
 
    introduction.rst
+   structure.rst
    primitives.rst
-   bezier.rst
-   nurbs.rst
    selecting.rst
    editing/index.rst
    properties/index.rst

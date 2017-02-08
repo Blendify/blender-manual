@@ -6,7 +6,7 @@ Introduction
 Curves and :doc:`Surfaces </modeling/surfaces/introduction>` are particular types of Blender Objects.
 They are expressed by mathematical functions rather than a series of points.
 
-Blender offers both :doc:`/modeling/curves/bezier` and :doc:`/modeling/curves/nurbs`.
+Blender offers both :ref:`curve-bezier` and :ref:`curve-nurbs`.
 Both Bézier curves and NURBS curves and surfaces are defined in terms of a set of "control points"
 (or "control vertices") which define a "control polygon".
 
