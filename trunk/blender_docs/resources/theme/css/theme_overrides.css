@@ -146,6 +146,18 @@ iframe {
 
 /*copyright font scale down*/
 footer p{ font-size: smaller}
+/*view page source to icon: text-file*/
+.wy-breadcrumbs-aside a{line-height: 0; font-size: 0;}
+.wy-breadcrumbs-aside a::before {
+   content:"\f0f6";
+   font: normal normal normal 16px/1 FontAwesome;
+   vertical-align: middle; padding: 10px;
+}
+.wy-breadcrumbs-aside a:hover::after {
+	content: "View page source";
+	position: absolute; transform: translate(-120px,26px); -ms-transform: translate(-120px,26px); -webkit-transform: translate(-120px,26px);
+	line-height: 0.5em; font-size: 16px; color: gray;white-space: nowrap;
+}
 
 /*intermediate headline*/
 .rubric {font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
