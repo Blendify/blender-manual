@@ -75,7 +75,7 @@ Scale Feather :kbd:`Alt-S`
 
 
 Animation
-=========
+---------
 
 Masks can be animated with the shape keying system.
 This can be useful when there are not enough good feature points to track in the footage,
@@ -95,7 +95,7 @@ Re-Key Points of Selected Shapes
 
 
 Show/Hide
-=========
+---------
 
 - Hide selected :kbd:`H` 
 - Hide unselected :kbd:`Shift-H`

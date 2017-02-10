@@ -6,8 +6,8 @@ Shape Key
 
 .. _dope-sheet-shape-key:
 
-Shape Key
-=========
+Shape Key Editor
+================
 
 Shape Key Editor is used to adjust the animation timing of :doc:`shape keys </animation/shape_keys/index>`.
 These are stored inside a Action data-block. It lets you edit the :ref:`value <animation-shapekey-relative-value>`

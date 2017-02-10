@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Masks can be created in the UV/Image and Movie Clip editors, by changing the mode from View to Mask in the header.
+Masks can be created in the UV/Image and Movie Clip editors, by changing the mode to Mask in the header.
 This will add various tools and properties to the editor panels,
 while hiding others that are not needed for interacting with masks.
 
