@@ -25,6 +25,8 @@ far away from the actual plane which should be replaced.
 It is also possible to have some tracks appear and disappear during the time,
 it's only required that two neighbor frames have at least 4 common tracks.
 
+.. (todo) link node or mask first?: /compositing/types/distort/plane_track_deform
+
 
 Solve Panel
 ===========
@@ -85,6 +87,8 @@ position of tracks. Basically, reprojection error below 0.3 means accurate repro
 (0.3 - 3.0) means quite nice solving which still can be used.
 Values above 3 means some tracks should be tracked more accurately,
 or that values for focal length or distortion coefficients were set incorrectly.
+
+.. (todo) object solver
 
 
 Cleanup Panel

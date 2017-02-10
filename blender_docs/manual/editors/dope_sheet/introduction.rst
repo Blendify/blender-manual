@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|partial=X}}.
 
 ************
 Introduction
@@ -32,18 +31,17 @@ Dope Sheet
 Action Editor
    :doc:`Action Editor </editors/dope_sheet/action>` is where you can define and control actions.
 Shape Key Editor
-   :doc:`ShapeKey Editor </editors/dope_sheet/shapekey>` is dedicated to the *Shapekey* data-blocks.
+   :ref:`ShapeKey Editor <dope-sheet-shape-key>` is dedicated to the shape key data-blocks.
 Grease Pencil
-   :doc:`Grease Pencil </editors/dope_sheet/grease_pencil>` is dedicated to
+   :doc:`Grease Pencil </editors/dope_sheet/grease_pencil>` Mode is dedicated to
    the :doc:`grease pencil tool's </interface/grease_pencil/index>`
    keyframes for each :doc:`grease pencil layer </interface/grease_pencil/drawing/layers>`,
    you have a strip along which you can grab its keys,
    and hence easily re-time your animated sketches.
-
-   .. note::
-
-      Note that you will have as much top-level grease pencil channels as you have sketched areas
-      (3D Views, *UV/Image Editor*, etc.)
+Mask
+   :ref:`Mask <dope-sheet-mask>` Mode is dedicated to the mask data-blocks.
+Cache File
+   Todo.
 
 
 Interface
