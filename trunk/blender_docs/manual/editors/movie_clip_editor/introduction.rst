@@ -51,9 +51,11 @@ Footage Settings
    See :doc:`/editors/uv_image/image/image_settings`.
 
 .. (todo) main view: mini timeline
+   area fill with between the animation start/end
+
    yellow: track
    yellow line: keyframe
+   orange line: shape keyframe
    purple: prefetched frames
    green line: time cursor
-   light green: solve start/end keyframe
-   area fill with between the animation start/end
+   light green line: solve start/end keyframe

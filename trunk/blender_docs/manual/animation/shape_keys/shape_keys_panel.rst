@@ -63,6 +63,9 @@ By default, all relative shape keys deform from the first shape key called the B
 
 Clear Weights ``X``
    Set all values to zero.
+
+.. _animation-shapekey-relative-value:
+
 Value
    The value of the active shape key.
 Range

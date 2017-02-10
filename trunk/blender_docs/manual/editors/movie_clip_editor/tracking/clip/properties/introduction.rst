@@ -3,6 +3,8 @@
 Introduction
 ************
 
+.. _movie-clip-tracking-properties-object:
+
 Objects Panel
 =============
 
