@@ -24,8 +24,9 @@ Blend
 Falloff
    Feather. ToDo.
 Overlap
-   ToDo.
+   Detect self intersections. ToDo.
 Holes
+   Option not to treat overlapping curves as holes.
    Concentric splines will generating holes in the mask.
    
    By creating overlapping splines holes can be created, and
@@ -105,7 +106,7 @@ Parent
 Type
    Point Track, Plane Track
 Object
-   :ref:`object <movie-clip-tracking-properties-object>` to parent to.
+   :ref:`Object <movie-clip-tracking-properties-object>` to parent to.
 Track
    Name of individual tracks.
 
