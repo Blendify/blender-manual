@@ -44,8 +44,8 @@ Mask
    which will limit the modification to the masked image's zones.
 
 
-Type
-====
+Types
+=====
 
 Currently, the following modifiers are supported:
 
