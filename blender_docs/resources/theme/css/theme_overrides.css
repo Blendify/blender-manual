@@ -9,17 +9,15 @@
 
 @import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i';
 
-h5 {
-	margin-bottom: 5px;
-}
+h5 {margin-bottom: 5px}
 
 /* sidebar menu links */
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover { background: #c0c0c0; }
-.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover { background: #b5b5b5; }
-.wy-menu-vertical li.toctree-l4 { font-size: 1em; }
-.wy-menu-vertical li.current a { border: 0; }
-.wy-side-nav-search > a:hover { background: none; opacity: 0.9; }
-.wy-side-nav-search > a.icon::before { content: none; }
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {background: #c0c0c0}
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover {background: #b5b5b5}
+.wy-menu-vertical li.toctree-l4 {font-size: 1em}
+.wy-menu-vertical li.current a {border: 0}
+.wy-side-nav-search > a:hover {background: none; opacity: 0.9}
+.wy-side-nav-search > a.icon::before {content: none}
 
 /* kbd role */
 .kbd.docutils.literal {
@@ -39,27 +37,17 @@ input[type="number"], input[type="tel"], input[type="color"] {
 }
 
 /*boxed paragraphs*/
-.rst-content .refbox .admonition-title {
-	background-color: #bbb;
-}
+.rst-content .refbox .admonition-title {background-color: #bbb}
 .rst-content .refbox {
 	-webkit-font-smoothing: antialiased;
 	background-color: #e3e3e3;
 	line-height: 24px;
 	margin-bottom: 24px; padding: 12px;
 }
-.rst-content .seealso .admonition-title {
-	background-color: #7a87e6;
-}
-.rst-content .seealso {
-	background-color: #e7ebfa;
-}
-.rst-content .important .admonition-title {
-	background-color: #ddca3b;
-}
-.rst-content .important {
-	background-color: #f6f3a5;
-}
+.rst-content .seealso .admonition-title {background-color: #7a87e6}
+.rst-content .seealso {background-color: #e7ebfa}
+.rst-content .important .admonition-title {background-color: #ddca3b}
+.rst-content .important {background-color: #f6f3a5}
 
 /* rb =, see ( > ), note ( i ), tip i , hint (+), warn / ! \ */
 .refbox .admonition-title::before {content:"\f00b"}
@@ -77,7 +65,7 @@ input[type="number"], input[type="tel"], input[type="color"] {
 /* TABLE & FIGURE */
 
 /* moves captions to bottom */
-table { caption-side: bottom; }
+table {caption-side: bottom}
 
 /* captions text style */
 .rst-content .figure .caption,
@@ -111,8 +99,7 @@ table { caption-side: bottom; }
 
 /* figure in table margin */
 .rst-content td div.figure {
-	margin-top: 4px;
-	margin-bottom: 0;
+	margin-top: 4px; margin-bottom: 0;
 }
 
 /* figure legend */
@@ -146,6 +133,13 @@ iframe {
 
 /*copyright font scale down*/
 footer p{ font-size: smaller}
+
+/*download link (zip)*/
+.download span {color: #2980B9; font-weight: normal; cursor: pointer !important}
+.download span:hover {color:#3091d1}
+.download span:visited {color:#9B59B6}
+.download span:first-child::before {color:#4e4a4a}
+
 /*view page source to icon: text-file*/
 .wy-breadcrumbs-aside a{line-height: 0; font-size: 0;}
 .wy-breadcrumbs-aside a::before {
@@ -169,8 +163,8 @@ footer p{ font-size: smaller}
 
 /*mark external links*/
 a.external {color:#656AE0;}
-/*white list blender.org and wiki.blender.org as internal*/
-.external[href^="https://www.blender.org"], .external[href^="https://wiki.blender.org"] {
+/*white list blender.org as internal*/
+.external[href^="https://www.blender.org"], .external[href^="https://docs.blender.org"], .external[href^="https://wiki.blender.org"] {
 	color:#2980B9;
 }
 
