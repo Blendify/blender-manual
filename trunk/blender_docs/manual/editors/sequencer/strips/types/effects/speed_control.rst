@@ -12,8 +12,25 @@ action will appear to freeze. To avoid this,
 position the next strip under the original at a point where you want motion to continue.
 
 
+Options
+=======
+
+Stretch to Input Strip Length
+   Todo.
+Use as Speed
+   Speed Factor
+   Todo.
+Scale to Length
+   Todo.
+Multiply Speed
+   Todo.
+
+
+Examples
+========
+
 Creating a Slow-Motion Effect
-=============================
+-----------------------------
 
 .. figure:: /images/editors_sequencer_strips_speed-control.jpg
    :width: 300px
@@ -41,7 +58,7 @@ That is it, set your render to animate (in this example) all 550 frames.
 
 
 Keyframing the Speed Control
-============================
+----------------------------
 
 .. figure:: /images/editors_sequencer_strips_types_effects_speed-control_keyframing.png
    :align: right
@@ -66,7 +83,7 @@ effect.
 
 
 Changing Video Frame Rates
-==========================
+--------------------------
 
 You can use the speed control to change the frames per second (fps), or framerate, of a video.
 If you are rendering your video to a sequence set,

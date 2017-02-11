@@ -3,6 +3,7 @@
 Selecting
 *********
 
+The active sequence strip is displayed with a light outline.
 The Select Menu helps you select strips in different ways.
 
 Strips to the Left
@@ -45,7 +46,7 @@ Select Grouped :kbd:`Shift-G`
       Selects the effect strips, if any, linked to the currently selected strip.
    Overlap
       Selects any strips that occur on the same frame as the current.
-   
+
 Select All :kbd:`A`
    Selects all the strips loaded.
 Select Inverse :kbd:`Ctrl-I`

@@ -13,12 +13,18 @@ Video
 =====
 
 Strobe
-   To display only a defined number of images. For example, if you set this to 10,
+   To only display each nth frame. For example, if you set this to 10,
    the strip will only display frames 1, 11, 21, 31, 41... of the source.
+   *Strobe* is a float value -- this way you can get a strobe effect synced exactly to a beat,
+   for example, by using non-integer values.
 Flip
-   X flips (reverses) the image left-to-right, Y reverses top-to-bottom.
+   Flips (mirrors) the image.
+
+   - X: left-to-right
+   - Y: top-to-bottom
+
 Backwards
-   Reverses strip image sequence
+   Plays the strip in reverse.
 Deinterlace
    Removes fields in a video file.
 
