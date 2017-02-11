@@ -23,7 +23,7 @@ Clamp
 Boost Factor
    Multiplier of the brightness.
 Blur Distance
-   The size of the blur ,
+   The size of the blur.
 Quality
    ToDo.
 Only boost

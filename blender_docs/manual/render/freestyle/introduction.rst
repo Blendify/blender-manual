@@ -20,23 +20,23 @@ with the introduction of line style modifiers, the sky is the limit!
 
 .. list-table::
 
-   * - .. figure:: /images/render_FreeStyle_introduction_example-1.png
+   * - .. figure:: /images/render_freestyle_introduction_example-1.png
 
           ATV buggy by Rylan Wright (RONIN). CC BY.
           (`File:AtvBuggy.zip <https://wiki.blender.org/index.php/File:AtvBuggy.zip>`__)
 
-     - .. figure:: /images/render_FreeStyle_introduction_example-2.png
+     - .. figure:: /images/render_freestyle_introduction_example-2.png
 
           By mato.sus304. CC BY-SA.
           (`File:Mato_sus304_cut02.zip <https://wiki.blender.org/index.php/File:Mato_sus304_cut02.zip>`__)
 
-   * - .. figure:: /images/render_FreeStyle_introduction_example-3.png
+   * - .. figure:: /images/render_freestyle_introduction_example-3.png
 
           A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
           © Mechanimotion Entertainment.
           (`the blend-file <https://download.blender.org/demo/test/FreeStyle_demo_file.blend.zip>`__).
 
-     - .. figure:: /images/render_FreeStyle_introduction_example-4.png
+     - .. figure:: /images/render_freestyle_introduction_example-4.png
 
           Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. Warning:
           heavy file! designed for stress test Blender to the limits and may crash Blender.
@@ -61,7 +61,7 @@ The Big Picture
 - A line style tells FreeStyle how to render the linked line sets in terms of color, alpha,
   thickness and other aspects.
 
-.. figure:: /images/render_FreeStyle_introduction_view-map-processes.png
+.. figure:: /images/render_freestyle_introduction_view-map-processes.png
 
    Block diagram of FreeStyle view map and processes.
 
