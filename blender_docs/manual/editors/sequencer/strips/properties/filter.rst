@@ -8,6 +8,10 @@ Filter Panel
 
 Enables you to quickly set common image pre-processing options.
 
+
+Video
+=====
+
 Strobe
    To display only a defined number of images. For example, if you set this to 10,
    the strip will only display frames 1, 11, 21, 31, 41... of the source.
@@ -17,6 +21,10 @@ Backwards
    Reverses strip image sequence
 Deinterlace
    Removes fields in a video file.
+
+
+Colors
+======
 
 Saturation
    Increase or decrease the saturation of an image.

@@ -5,12 +5,12 @@
 Introduction
 ************
 
-Sequence Display Modes
-======================
-
 By default, the VSE only displays the strips, however, there are a few ways to preview the result of your sequence.
 The first is the preview mode, this can be enable by hitting the texture button (|texture-button|).
 
+
+Header
+======
 
 Several options in the header allow you change the editor
 to display the sequence in real time, and in various ways.
@@ -22,34 +22,40 @@ to display the sequence in real time, and in various ways.
 The second button will change the editor to display only the preview,
 and the third button displays both the sequencer and the preview.
 
-The VSE workspace can show you different aspects of the composite result,
-for the current frame:
 
-:Image/Sequence: Colors (what you see).
-:Chroma: Color hue and saturation.
-:Luma: Brightness/contrast.
-:Histogram: Levels of red, green, and blue.
+Display Mode
+   The VSE workspace can show you different aspects of the composite result,
+   for the current frame:
 
-In the Chroma, Luma, and Image modes, a channel selector appears;
-channel 0 is the result of compositing the strips with their special effects strips.
-Channel 1 is what the current frame's image from the strip in channel 1 looks like
-(channel 1 is at the bottom of the heap). The display of these modes is either the composite
-(channel 0) or the frame from the strip (channels 1 through n).
+   :Image/Sequence: Colors (what you see).
+   :Chroma: Color hue and saturation.
+   :Luma: Brightness/contrast.
+   :Histogram: Levels of red, green, and blue.
+
+Channel
+   Channel 0 is the result of compositing the strips with their special effects strips.
+   Channel 1 is what the current frame's image from the strip in channel 1 looks like
+   (channel 1 is at the bottom of the heap). The display of these modes is either the composite
+   (channel 0) or the frame from the strip (channels 1 through n).
+Overlay (ghost icon)
+   Frame Lock (padlock icon)
+   Type
 
 
-Previews
-========
+Display Mode
+============
 
 The are an array of different display modes available, each having a specific purpose.
-You can adjust the view by zooming in with :kbd:`Plus` and zoom out with :kbd:`Minus`.
-You can also reset the view with :kbd:`Home`.
+
+..
+   You can adjust the view by zooming in with :kbd:`Plus` and zoom out with :kbd:`Minus`.
+   You can also reset the view with :kbd:`Home`.
 
 
 Image Preview
 -------------
 
-In the upper area of the Sequence screen layout is another VSE editor,
-this one set to Image Preview mode. It shows you what the resulting video will look like when saved.
+The Image Preview mode shows you what the resulting video will look like when saved.
 This is the main working mode for adding strips and moving them around,
 cutting, grouping (making meta) and splicing them through special effects.
 

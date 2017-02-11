@@ -14,9 +14,9 @@ Blend Mode
    See :term:`Color Blend Modes` for details on each blending mode.
 Opacity
    Set the opacity of the strip.
-Mute
+Mute (eye icon)
    Hides the strip so that it does not participate in the final image computation
-Lock
+Lock (padlock icon)
    Prevents the strip from being moved.
 Channel
    Changes the channel number, or row, of the strip.

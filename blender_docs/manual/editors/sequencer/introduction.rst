@@ -19,7 +19,9 @@ Finally, you can audio and synchronize the timing of the video sequence to match
    Default Video Editing screen layout.
 
 The Video Sequence Editor has a header (where the menu and view modes are shown) and a workspace,
-and works in one of several view modes. The Marker menu allows you to add markers in the VSE.
+and works in one of several view modes.
+
+The Marker menu allows you to add markers in the VSE.
 Markers are shared across animation editors. See :doc:`Markers </animation/markers>`
 
 The sequencer workspace is horizontally striped into channels and each video strip will go in
@@ -33,7 +35,9 @@ a horizontal channel. Each channel is numbered on the left-hand side, starting f
 
 Stripes toward the bottom are more dominant, which we will get to in a minute.
 In the x direction, seconds of animation or frames of animation,
+
 :kbd:`Ctrl-T` to choose, are used as the measure of time (seconds 1 through 7 are shown).
+
 You can scale the time using the zoom keys or mouse actions (see the Reference for more info).
 
 .. figure:: /images/editors_sequencer_introduction_header.png

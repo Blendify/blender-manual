@@ -16,14 +16,25 @@ which allows you to apply these modifiers onto several strips the same time.
 Use Linear Modifiers
    Calculate modifiers in linear space instead of sequencer space.
 Copy to Selected Strips
-  Allows you to copy the modifiers to selected strips.
-  This works two ways, you can either replace the old modifiers or append/add to the previous modifiers.
+   Allows you to copy the modifiers to selected strips.
+   This works two ways, you can either replace the old modifiers or append/add to the previous modifiers.
+
+
+Common Options
+==============
 
 Each modifiers have several buttons at their top:
 
-- The "eye" is to disable the modifier. Very useful to compare the image, with / without modifications.
-- The next two buttons (up and down arrows) are used to change the modifier's position in the stack.
-- The cross is to delete the modifier from the stack.
+Mute (eye icon)
+   Disables the modifier. Very useful to compare the image, with / without modifications.
+Move (up and down arrows icon)
+   The next two buttons are used to change the modifier's position in the stack.
+Remove ``X``
+   The cross is to delete the modifier from the stack.
+
+
+Input Mask Type
+---------------
 
 Strip
    Use this to apply the modification on the whole image, or to use another strip's image (with alpha channel)
@@ -32,29 +43,24 @@ Mask
    This allows you to choose a Mask created in the Mask editor
    which will limit the modification to the masked image's zones.
 
+
+Type
+====
+
 Currently, the following modifiers are supported:
 
 Color Balance
    Color balance adjustments, through Lift, Gamma, and Gain.
 
-   .. note::
-
-      This modifier works the same as the :doc:`Color Balance Node </compositing/types/color/color_balance>`
-
+   This modifier works the same as the :doc:`Color Balance Node </compositing/types/color/color_balance>`.
 Curves
-   C/RGB curves.
+   Color and RGB curves.
 
-   .. note::
-
-      This modifier works the same as the :doc:`Curves Node </compositing/types/color/rgb_curves>`
-
+   This modifier works the same as the :doc:`Curves Node </compositing/types/color/rgb_curves>`.
 Hue Correct
    HSV multi points curves.
 
-   .. note::
-
-      This modifier works the same as the :doc:`Curves Node </compositing/types/color/hue_correct>`
-
+   This modifier works the same as the :doc:`Curves Node </compositing/types/color/hue_correct>`.
 Bright/Contrast
    Adjusts the brightness and contrast of the modifier input.
 Mask
@@ -65,14 +71,10 @@ Mask
    just before it in the stack. You can choose to use a Mask created in the Mask editor,
    or to use another strip as a mask (the image of this strip must have an alpha channel).
    This mask will be applied on all the others modifiers below it in the stack.
-
 White Balance
    Use it to adjust the white balance by choosing the color that should be white.
-
 Tone Map
    Used to map one set of colors to another in order to approximate the appearance
    of high dynamic range images in a medium that has a more limited dynamic range.
 
-   .. note::
-
-      This modifier works the same as the :doc:`Tone Map Node </compositing/types/color/tone_map>`
+   This modifier works the same as the :doc:`Tone Map Node </compositing/types/color/tone_map>`.
