@@ -62,7 +62,7 @@ source_suffix = '.rst'
 # The master toctree document.
 if os.environ.get('QUICKY_CHAPTERS') is None:
     exclude_patterns = ["contents_quicky.rst"]
-    master_doc = 'contents'
+    master_doc = 'index'
 else:
     # Call quicky_index_gen.from_chapters()
     # and use the QUICKY_CHAPTERS env var if its set
