@@ -16,7 +16,7 @@ def from_chapters():
     Return conf.py: (master_doc, exclude_patterns) values.
     """
 
-    master_doc = "contents"
+    master_doc = "index"
     exclude_patterns = []
 
     quicky_chapters = [c for c in os.environ.get('QUICKY_CHAPTERS', "").strip(":").split(":") if c]

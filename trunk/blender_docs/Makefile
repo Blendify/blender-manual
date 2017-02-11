@@ -21,7 +21,7 @@ QUICKY_CHAPTERS=$(filter $(MAKECMDGOALS),$(CHAPTERS))
 # -----------------------
 # for echoing output only
 ifeq ($(QUICKY_CHAPTERS), )
-	CONTENTS_HTML="contents.html"
+	CONTENTS_HTML="index.html"
 else
 	CONTENTS_HTML="contents_quicky.html"
 endif
