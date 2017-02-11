@@ -9,8 +9,6 @@
 
    introduction.rst
    navigating.rst
-   selecting.rst
    frame.rst
-   editing.rst
    strips/index.rst
-   display_modes.rst
+   preview/index.rst

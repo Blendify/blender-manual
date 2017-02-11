@@ -28,7 +28,7 @@ a horizontal channel. Each channel is numbered on the left-hand side, starting f
 .. note::
 
    The first channel 0 is unusable as a place to put strips.
-   This is because it is used by the :doc:`Sequencer Display </editors/sequencer/display_modes>`
+   This is because it is used by the :doc:`Sequencer Display </editors/sequencer/preview/introduction>`
    to show a composite of all strips above channel 0.
 
 Stripes toward the bottom are more dominant, which we will get to in a minute.
