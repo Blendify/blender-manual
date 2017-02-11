@@ -36,6 +36,7 @@ Transition
 
 Direction
    Control whether to fade *In* or *Out*.
-
 Blur Width
    The width of the blur used to blur the transition.
+Angle
+   Todo.

@@ -18,18 +18,16 @@ Text
    The actual text displayed.
 Size
    Size of the text.
+Color
+   The text color.
 Shadow
    Creates a shadow under the text.
-Auto Center
-   Centers the text on the x axis.
-X Position
-   Positions the text on the x axis. Only appears if auto center is off.
-Y Position
-   Positions the text on the y axis.
-
-
+Align X, Y
+   Horizontal (X) or vertical (Y) alignment of the text relative to the location.
+Location X, Y
+   Positions the text on the X, Y axis.
+Wrap Width
+   Todo,
 Export Subtitles
-================
-
-Exporting subtitles in .srt format is also supported.
-The exported subtitles contain all text strips in the sequence editing.
+   Exporting subtitles in .srt format is also supported.
+   The exported subtitles contain all text strips in the sequence editing.

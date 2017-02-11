@@ -21,4 +21,4 @@ Options
 Size X
    Distance of the blur effect on the X axis.
 Size Y
-   Distance of the blur effect on the X axis.
+   Distance of the blur effect on the Y axis.

@@ -8,6 +8,7 @@ Multi camera editing is when a scene is recorded using multiple cameras from dif
 and then edited together after words. This process can be rather easy in the :abbr:`VSE (Video Sequence Editor)`
 if you properly setup every to improve your workflow.
 
+
 Options
 =======
 

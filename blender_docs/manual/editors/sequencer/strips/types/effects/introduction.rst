@@ -38,3 +38,5 @@ thus layering effects on top of one another.
 If you picked the wrong effect from the menu, you can always change it by selecting the strip :kbd:`RMB`
 and using the :menuselection:`Strip --> Change Effect` selection.
 Or, you can press :kbd:`C` to switch effects on a selected Effects strip.
+
+.. (todo) Common Option: Fade
