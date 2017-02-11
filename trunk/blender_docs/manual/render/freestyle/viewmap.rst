@@ -53,7 +53,7 @@ Advanced Options
    Advanced Options enabled.
 
 
-*Sphere Radius* It affects the calculation of curvatures for *Ridge*,
+*Sphere Radius* affects the calculation of curvatures for *Ridge*,
 *Valley* and *Suggestive Contour* edge type selection in a line set.
 
 Kr Derivative Epsilon

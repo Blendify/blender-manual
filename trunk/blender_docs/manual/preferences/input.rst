@@ -13,7 +13,7 @@ Interaction
 ===========
 
 Interaction Presets
-   Presets that allow Blender to act like other software or you personal preference.
+   Presets that allow Blender to act like other software on your personal preference.
 
 
 Mouse

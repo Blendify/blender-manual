@@ -84,12 +84,13 @@ Manhattan Distance
 Euclidian Distance
    The minimum distance that mouse has to travel before movement is recorded.
 
-Default Color
-   The default color for new Grease Pencil layers.
-
 Simplify Stroke
    This turns on the post-processing step of simplifying the stroke to remove about half of current points in it.
    It is only relevant when not drawing straight lines.
+
+Default Color
+   The default color for new Grease Pencil layers.
+
 
 :doc:`Read more about Grease Pencil </interface/grease_pencil/index>`
 
@@ -153,7 +154,7 @@ XYZ to RGB
 Transform
 =========
 
-Release confirm
+Release confirms
    Dragging :kbd:`LMB` on an object will move it.
    To confirm this (and other) transforms, a :kbd:`LMB` is necessary by default.
    When this option is activated, the release of :kbd:`LMB` acts as confirmation of the transform.

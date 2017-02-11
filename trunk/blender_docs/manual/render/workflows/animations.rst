@@ -138,7 +138,7 @@ Your computer accidentally turns off in the middle of rendering your movie!
    Just disable the *Overwrite* option to start rendering where you left off.
 
    You can then make a movie out of the separate frames with Blender's sequence editor
-   or using 3rd party encoding software.
+   or use 3rd party encoding software.
 
 Animation Preview
    It can be useful to render a subset of the animated sequence,
