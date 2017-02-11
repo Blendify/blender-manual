@@ -3,8 +3,15 @@
 Editing
 *******
 
-Moving and Modifying Strips
-===========================
+Grab/Move
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Strip --> Grab/Move`
+   | Hotkey:   :kbd:`G`
+
 
 :kbd:`G` Moves the selected strip(s) in time or in channels.
 Move your mouse horizontally (left/right) to change the strip's position in time.
@@ -13,53 +20,6 @@ Move vertically (up/down) to change channels.
 
 - To snap while dragging hold :kbd:`Ctrl`
 - To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
-
-If you have added a strip by mistake or no longer want it,
-delete it by pressing *X* or using this menu option.
-
-*Duplicate* a strip to make an unlinked copy; drag it to a time and channel, and drop it by :kbd:`LMB` click.
-
-The Strip Menu contains additional tools for working with strips:
-
-- *Grab/Move*
-- *Grab/Extend from Frame*
-- *Cut (hard) at frame*
-- *Cut (soft) at frame*
-- *Separate Images*
-- *Deinterlace Movies*
-- *Duplicate Strips*
-- *Erase Strips*
-- *Set Render Size*
-- *Make Meta Strip*
-- *UnMeta Strip*
-- *Reload Strips*
-- *Reassign Inputs*
-- *Swap Inputs*
-- *Lock Strips*
-- *UnLock Strips*
-- *Mute Strips*
-- *Un-Mute Strips*
-- *Mute Deselected Strips*
-- *Snap Strips*
-- *Swap Strips*
-
-
-Snap to Frame
--------------
-
-:kbd:`Shift-S`
-Position your cursor (vertical green line) to the time you want.
-Snap to current frame to start a strip exactly at the beginning of the frame.
-If your Time display is in seconds,
-you can get to fractional parts of a second by zooming the display;
-you can get all the way down to an individual frame.
-
-
-Separate Images to Strips
--------------------------
-
-:kbd:`Y` Converts the strip into multiple strips, one strip for each frame.
-Very useful for slide shows and other cases where you want to bring in a set on non-continuous images.
 
 
 Editing Strips
@@ -93,13 +53,89 @@ Editing Strips
      everything that is selected will move with your mouse- this means that,
      for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
-- Strip Extend
 
-  With a number of strips selected, pressing :kbd:`E` lets you interactively extend the strips.
-  This is is similar to grabbing but is useful for extending (or shortening) time around the current frame.
+Grab/Extend from Frame
+======================
 
-  All selected strip handles to the "mouse side" of the current frame indicator will transform together,
-  so you can change the duration of the current frame.
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Strip --> Grab/Extend from Frame`
+   | Hotkey:   :kbd:`E`
+
+With a number of strips selected, pressing :kbd:`E` lets you interactively extend the strips.
+This is is similar to grabbing but is useful for extending (or shortening) time around the current frame.
+
+All selected strip handles to the "mouse side" of the current frame indicator will transform together,
+so you can change the duration of the current frame.
+
+
+Tools
+=====
+
+Erase Strips :kbd:`X`
+   If you have added a strip by mistake or no longer want it,
+   delete it by pressing :kbd:`X` or using this menu option.
+
+Duplicate Strips :kbd:`Shift-D`
+   Duplicate a strip to make an unlinked copy;
+   drag it to a time and channel, and drop it by :kbd:`LMB` click.
+
+The Strip Menu contains additional tools for working with strips:
+
+- Cut (hard) at frame
+- Deinterlace Movies
+- Set Render Size
+- Make Meta Strip
+- UnMeta Strip
+- Reload Strips
+- Reassign Inputs
+- Swap Inputs
+- Lock Strips
+- UnLock Strips
+- Mute Strips
+- Un-Mute Strips
+- Mute Deselected Strips
+- Swap Strips
+
+
+Snap Strips
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Strip --> Snap Strips`
+   | Hotkey:   :kbd:`Shift-S`
+
+Position your cursor (vertical green line) to the time you want.
+Snap to current frame to start a strip exactly at the beginning of the frame.
+If your Time display is in seconds,
+you can get to fractional parts of a second by zooming the display;
+you can get all the way down to an individual frame.
+
+
+Separate Images
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Strip --> Separate Images`
+   | Hotkey:   :kbd:`Y`
+
+Converts the strip into multiple strips, one strip for each frame.
+Useful for slide shows and other cases where you want to bring in a set on non-continuous images.
+
+
+Cut (soft) at Frame
+===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Strip --> Cut (soft) at Frame`
+   | Hotkey:   :kbd:`K`
 
 While splicing two strips happens just by placing them finish-to-start,
 cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected strips,
@@ -121,7 +157,7 @@ cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected 
    but there are still there, winded, as in a film reel, under your frame 11:
    you just have deleted one of the two copies of your strip created by the cut.
    And you can at any time get your lost frames back
-   (just :kbd:`RMB` -click on the left arrow of the strip,
+   (just :kbd:`RMB` click on the left arrow of the strip,
    then :kbd:`G` grab it to the left to display the desired number of frames again (or to
    the right to hid more frames -- this is another way to remove frames at the beginning/end of a strip!).
 
