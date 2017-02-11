@@ -80,7 +80,7 @@ The first options of this menu provide direct links to Blender related websites:
 The same links can also be found in the :ref:`splash`.
 
 Manual
-   This is a link to the :doc:`Official Blender Manual </contents>`
+   This is a link to the :doc:`Official Blender Manual </index>`
    which you are now reading.
 Release Log
    The `release notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__ on the Web
