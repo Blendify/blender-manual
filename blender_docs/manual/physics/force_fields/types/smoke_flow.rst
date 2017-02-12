@@ -7,7 +7,7 @@ Smoke Flow
 
    Smoke Flow force field.
 
-A *Smoke Flow* force field directs the smoke within a smoke simulation.
+Will make particles follow the smoke.
 
 .. figure:: /images/force_field_panel_smokef.jpg
 
