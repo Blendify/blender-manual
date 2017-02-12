@@ -68,7 +68,7 @@ But you still have to know approximate initial values --
 it will fail to find correct values if they were set completely incorrectly initially.
 
 
-.. _editors-movie-clip-tracking-clip-solve-camera-mostion:
+.. _editors-movie-clip-tracking-clip-solve-motion:
 
 Solve Camera/Object Motion
 --------------------------
