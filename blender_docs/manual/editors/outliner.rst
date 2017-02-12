@@ -170,7 +170,7 @@ Groups
    Lists only :doc:`Groups </editors/3dview/object/properties/relations/groups>` and their members.
 Sequence
    Lists :doc:`data-block </data_system/data_blocks>`
-   that are used by the :doc:`Sequencer </editors/sequencer/index>`.
+   that are used by the :doc:`Sequencer </editors/vse/index>`.
 Blender File
    Lists all data in the current blend-file.
 Data-Blocks
