@@ -7,7 +7,7 @@ Scene Preview/Render
 ====================
 
 OpenGL Preview
-   When enabled :doc:`Scene Strips </editors/vse/strips/types/scene>`
+   When enabled :doc:`Scene Strips </editors/vse/sequencer/types/scene>`
    use a quick OpenGL preview (see :doc:`OpenGL render </render/opengl>` for more on this subject).
 
    Otherwise a full render is used, which can be very slow.
