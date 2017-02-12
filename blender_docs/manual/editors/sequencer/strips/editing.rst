@@ -13,7 +13,8 @@ Grab/Move
    | Hotkey:   :kbd:`G`
 
 
-:kbd:`G` Moves the selected strip(s) in time or in channels.
+Holding down :kbd:`RMB` and then moving the mouse drags the active strip in time or in channels.
+Pressing :kbd:`G` moves the all selected strip(s).
 Move your mouse horizontally (left/right) to change the strip's position in time.
 Move vertically (up/down) to change channels.
 
@@ -22,36 +23,38 @@ Move vertically (up/down) to change channels.
 - To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
 
 
-Editing Strips
---------------
+Start Frame Offset
+------------------
 
-- The *entire* strip could be selected by clicking :kbd:`RMB` in the middle of the strip;
-  holding it down (or pressing :kbd:`G` rab) and then moving the mouse drags a strip around.
-- The *start frame offset* for that strip could be selected by clicking :kbd:`RMB` on the left arrow of the strip;
-  holding it down (or pressing :kbd:`G` rab and then moving the mouse left/right
-  changes the start frame within the strip by the number of frames you move it:
+The *start frame offset* for that strip could be selected by clicking :kbd:`RMB` on the left arrow of the strip;
+holding it down (or pressing :kbd:`G` rab and then moving the mouse left/right
+changes the start frame within the strip by the number of frames you move it:
 
-  - If you have a 20-image sequence strip, and drag the left arrow to the right by 10 frames,
-    the strip will start at image 11 (images 1 to 10 will be skipped).
-    Use this to clip off a rollup or useless lead-in.
-  - Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it.
-    Use this when you want some frames for transitions to the this clip.
+- If you have a 20-image sequence strip, and drag the left arrow to the right by 10 frames,
+  the strip will start at image 11 (images 1 to 10 will be skipped).
+  Use this to clip off a rollup or useless lead-in.
+- Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it.
+  Use this when you want some frames for transitions to the this clip.
 
-- The *end frame* of the strip could be selected by clicking :kbd:`RMB` on the right arrow of the strip;
-  holding it down (or pressing :kbd:`G` rab) and then moving the mouse changes the ending frame within the strip:
+ 
+End Frame
+---------
 
-  - Dragging the right arrow to the left shortens the clip;
-    any original images at the tail are ignored. Use this to quickly clip off a rolldown.
-  - Dragging the right arrow right extends the clip.
-    For movies and images sequences, more of the animation is used until exhausted.
-    Extending a clip beyond its end results in Blender making a copy of the last image.
-    Use this for transitions out of this clip.
+The *end frame* of the strip could be selected by clicking :kbd:`RMB` on the right arrow of the strip;
+holding it down (or pressing :kbd:`G` rab) and then moving the mouse changes the ending frame within the strip:
 
-  .. note:: Multiple selection
+- Dragging the right arrow to the left shortens the clip;
+  any original images at the tail are ignored. Use this to quickly clip off a rolldown.
+- Dragging the right arrow right extends the clip.
+  For movies and images sequences, more of the animation is used until exhausted.
+  Extending a clip beyond its end results in Blender making a copy of the last image.
+  Use this for transitions out of this clip.
 
-     You can select several (handles of) strips by :kbd:`Shift-RMB` clicking: when you press :kbd:`G`,
-     everything that is selected will move with your mouse- this means that,
-     for example, you can at the same time move a strip, shorten two others, and extend a forth one.
+.. note:: Multiple selection
+
+   You can select several (handles of) strips by :kbd:`Shift-RMB` clicking: when you press :kbd:`G`,
+   everything that is selected will move with your mouse- this means that,
+   for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
 
 Grab/Extend from Frame
@@ -70,6 +73,18 @@ All selected strip handles to the "mouse side" of the current frame indicator wi
 so you can change the duration of the current frame.
 
 
+Slip Strip Content
+==================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Strip --> Slip Strip Content`
+   | Hotkey:   :kbd:`S`
+
+The slip tool allows you to change the position of the contents of a strip without moving the strip itself.
+
+
 Tools
 =====
 
@@ -79,18 +94,15 @@ Erase Strips :kbd:`X`
 Duplicate Strips :kbd:`Shift-D`
    Duplicate a strip to make an unlinked copy;
    drag it to a time and channel, and drop it by :kbd:`LMB` click.
-Clear Strips offsets :kbd:`Alt-O`
+Clear Strips Offsets :kbd:`Alt-O`
    To reset the start/end frames around the strip data.
 
 The Strip Menu contains additional tools for working with strips:
 
 - Insert/Remove Gap
-- Slip Strip Content
 - Cut (hard) at frame
 - Deinterlace Movies
 - Set Render Size
-- Make Meta Strip
-- UnMeta Strip
 - Reload Strips
 - Swap Inputs
 - Lock Strips

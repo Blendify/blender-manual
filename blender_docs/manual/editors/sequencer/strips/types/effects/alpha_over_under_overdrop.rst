@@ -1,13 +1,12 @@
 
-********************************
-Alpha Over, Under, and Over Drop
-********************************
+*****************************
+Alpha Over, Under & Over Drop
+*****************************
 
 .. figure:: /images/editors_sequencer_strips_alpha.png
    :width: 300px
 
    Alpha Over Effect.
-
 
 Using the alpha (transparency channel), this effect composites a
 result based on transparent areas of the dominant image.
@@ -22,21 +21,41 @@ areas is ignored and does not change the color of the background.
 
 Select two strips :kbd:`Shift-RMB`:
 
-- With *Alpha Over*, the strips are layered up in the order selected; the first strip selected is the background,
-  and the second one goes *over* the first one selected.
-  The *Factor* controls the transparency of the *foreground*, i.e. *Factor* of 0.0;
-  will only show the background, and a *Factor* of 1.0 will completely override the background with the foreground
-  (except in the transparent areas of this one, of course!)
-- With *Alpha Under*, this is the contrary: the first strip selected is the
-  foreground, and the second one, the background.
-  Moreover, the *Factor* controls the transparency of the *background*, i.e. a *Factor* of 0.0;
-  will only show the foreground (the background is completely transparent),
-  and a *Factor* of 1.0 will give the same results as with *Alpha Over*.
-- *Alpha Over Drop* is between the two others:
-  as with *Alpha Under*, the first strip selected will be the foreground, but as with *Alpha Over*,
-  the *Factor* controls the transparency of this foreground.
+
+Alpha Over
+==========
+
+
+With *Alpha Over*, the strips are layered up in the order selected; the first strip selected is the background,
+and the second one goes *over* the first one selected.
+The *Factor* controls the transparency of the *foreground*, i.e. *Factor* of 0.0;
+will only show the background, and a *Factor* of 1.0 will completely override the background with the foreground
+(except in the transparent areas of this one, of course!)
+
+
+Alpha Under
+===========
+
+With *Alpha Under*, this is the contrary: the first strip selected is the
+foreground, and the second one, the background.
+Moreover, the *Factor* controls the transparency of the *background*, i.e. a *Factor* of 0.0;
+will only show the foreground (the background is completely transparent),
+and a *Factor* of 1.0 will give the same results as with *Alpha Over*.
+
+
+Alpha Over Drop
+===============
+
+*Alpha Over Drop* is between the two others:
+as with *Alpha Under*, the first strip selected will be the foreground, but as with *Alpha Over*,
+the *Factor* controls the transparency of this foreground.
+
+
 
 .. Todo, update text for new image.
+
+Example
+=======
 
 The example shows layering of Alpha Over effects. The very bottom channel is red,
 and an arrow is on top of that. Those two are Alpha Over to Channel 3.

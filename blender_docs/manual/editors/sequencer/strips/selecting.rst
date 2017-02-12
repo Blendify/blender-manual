@@ -4,6 +4,8 @@ Selecting
 *********
 
 The active sequence strip is displayed with a light outline.
+The *entire* strip could be selected by clicking :kbd:`RMB` in the middle of the strip.
+
 The Select Menu helps you select strips in different ways.
 
 Strips to the Left
