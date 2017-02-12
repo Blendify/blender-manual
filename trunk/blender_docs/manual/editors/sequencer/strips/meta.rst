@@ -9,8 +9,11 @@ the interface you can group them together using Meta-Strips.
 A Meta-Strip spans from the beginning of the first strip to the end of the last one,
 and condenses all channels into a single strip. Separating (ungrouping)
 them restores them to their relative positions and channels.
-To create a Meta-Strip select all the strips you want to group, and :kbd:`Ctrl-G` to group them.
-If you choose to delete a Meta-Strip and want to keep the strips inside, use :kbd:`Alt-G`.
+
+Make Meta Strip :kbd:`Ctrl-G`
+   To create a Meta-Strip select all the strips you want to group, and :kbd:`Ctrl-G` to group them.
+UnMeta Strip :kbd:`Alt-G`
+   If you choose to delete a Meta-Strip and want to keep the strips inside, use :kbd:`Alt-G`.
 
 .. figure:: /images/editors_sequencer_strips_meta.png
 
