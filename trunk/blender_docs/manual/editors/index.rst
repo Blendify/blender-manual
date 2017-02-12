@@ -46,7 +46,7 @@ Image/Video
    :maxdepth: 1
 
    uv_image/index.rst
-   sequencer/index.rst
+   vse/index.rst
    movie_clip_editor/index.rst
 
 
