@@ -75,9 +75,9 @@ The command provides several options to adapt to different workflows
 (final distribution, partial extraction, rendering).
 
 ``-o``, ``--output`` ``<FILE>``
-   Output file or a directory when multiple inputs are passed
+   Output file or a directory when multiple inputs are passed.
 ``-m``, ``--mode`` ``<MODE>``
-   Output file or a directory when multiple inputs are passed. Possible choices: ``ZIP``, ``FILE``
+   Output file or a directory when multiple inputs are passed. Possible choices: ``ZIP``, ``FILE``.
 ``-e``, ``--exclude`` ``<PATTERN(S)>``
    Optionally exclude files from the pack.
 
@@ -86,17 +86,17 @@ The command provides several options to adapt to different workflows
    ``--exclude="*.txt;*.avi;*.wav"``
       Multiple patterns can be passed using the ``;`` separator.
 ``-a``, ``--all-deps``
-   Follow all dependencies (unused indirect dependencies too)
+   Follow all dependencies (unused indirect dependencies too).
 ``-q``, ``--quiet``
-   Suppress status output
+   Suppress status output.
 ``-c``, ``--compress`` ``<LEVEL>``
-   Compression level for resulting archive
-   Possible choices: ``default``, ``fast``, ``best``, ``store``
+   Compression level for resulting archive.
+   Possible choices: ``default``, ``fast``, ``best``, ``store``.
 ``--repo`` ``<DIR PATH>``
    Specify a "root" path from where to pack the selected file.
    This allows for the creation of a sparse copy of the production tree, without any remapping.
 ``--warn-external``
-   Report external libraries errors (missing paths)
+   Report external libraries errors (missing paths).
 
 
 Examples

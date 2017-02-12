@@ -28,7 +28,7 @@ Collapsing Menus
 
 Sometimes it's helpful to gain some extra horizontal space in the header by collapsing menus,
 this can be accessed from the header context menu,
-simply :kbd:`RMB` click on the header and enable it to collapsed.
+simply :kbd:`RMB` click on the header and enable it to collapse.
 
 .. list-table::
 
@@ -102,7 +102,7 @@ Context Menu
 ============
 
 Context menus are pop-ups opened with the :kbd:`RMB`.
-Only the common options are listed below.
+Only the common options are listed below:
 
 .. for the property associated with the control.
 
@@ -116,7 +116,7 @@ Unset
 Copy Data Path
    For scripting -- Copies the Python path of the property, relative to the data-block.
 Copy To Selected
-   Copies the property value to the selected objects corresponding property.
+   Copies the property value to the selected object's corresponding property.
    A use case is if the Properties editor context is pinned.
 Add Shortcut
    Lets you define a keyword or mouse shortcut and associates it with the control.

@@ -10,7 +10,7 @@ Checkboxes & Toggle Buttons
 
    Toggle Buttons.
 
-These buttons are used to activate or deactivate options. Use :kbd:`LMB` to change its state.
+These buttons are used to activate or deactivate options. Use :kbd:`LMB` to change their state.
 
 On checkboxes a tick is shown when the option is activated.
 Toggle buttons are used to set an on/off status. When state is on, they appear like pressed (dark).
@@ -21,7 +21,7 @@ Some toggle buttons have an icon version for each state.
 Dragging
 --------
 
-To change many value at once, you can :kbd:`LMB` drag over multiple buttons,
+To change many values at once, you can :kbd:`LMB` drag over multiple buttons,
 This works for checkboxes, toggles and to select a radio button value.
 
 .. tip::

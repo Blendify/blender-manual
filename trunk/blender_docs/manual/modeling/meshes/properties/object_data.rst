@@ -44,7 +44,7 @@ Texture Space
 
 .. (todo) object --> transform --> tex space
 
-This are settings of the texture space used by the generated texture mapping.
+These are settings of the texture space used by the generated texture mapping.
 The visualization of the texture space can be activated in the :doc:`/editors/3dview/object/properties/display`.
 
 Texture Mesh
