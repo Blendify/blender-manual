@@ -1,13 +1,14 @@
 
-##########
-  Strips
-##########
+#############
+  Sequencer
+#############
 
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
-   types/index.rst
+   navigating.rst
+   frame.rst
+   strips/index.rst
    selecting.rst
    editing.rst
    meta.rst

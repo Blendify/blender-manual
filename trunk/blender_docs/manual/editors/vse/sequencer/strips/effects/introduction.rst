@@ -10,7 +10,7 @@ For some effects, like the Cross transition effect, you will need to :kbd:`Shift
 (it depends on the effect you want). Then select :menuselection:`Add --> Effect`
 and pick the effect you want from the pop-up menu. When you do,
 the Effect strip will be shown above the source strips. If it is an independent effect,
-like the :doc:`Color Generator </editors/vse/sequencer/types/effects/color>`,
+like the :doc:`Color Generator </editors/vse/sequencer/strips/effects/color>`,
 it will be rubberbanded to your mouse; click to drop the strip.
 
 .. note::
@@ -24,14 +24,14 @@ you must Box select :kbd:`B` or shift-right-click two of them. When you add the 
 it will be placed in a channel above the two in Grab mode (click to drop it on a channel).
 Its duration will be the overlap between the two strips as a maximum.
 
-With some effects, like the :doc:`Alpha Over </editors/vse/sequencer/types/effects/alpha_over_under_overdrop>`,
+With some effects, like the :doc:`Alpha Over </editors/vse/sequencer/strips/effects/alpha_over_under_overdrop>`,
 the order in which you select the strips is important.
 You can also use one effect strip as the input or source strip with another strip,
 thus layering effects on top of one another.
 
 .. note::
 
-   The only exception is the :doc:`Color Generator </editors/vse/sequencer/types/effects/color>` effect.
+   The only exception is the :doc:`Color Generator </editors/vse/sequencer/strips/effects/color>` effect.
    It does not depend on a base strip; you can add and position it independent of any other strip.
    Change the length as you would any strip.
 
