@@ -12,7 +12,7 @@ Use Sequence
    Expand the scenes sequence strips, allowing one scene to re-use another scenes edit,
    (instead of taking the render output from the scene).
 
-   This is similar to how :doc:`Meta Strips </editors/vse/strips/meta>` work,
+   This is similar to how :doc:`Meta Strips </editors/vse/sequencer/meta>` work,
    with the added advantage of supporting multiple instances of the same data.
 Camera Override
    This can be used to override the scenes camera with any other object.

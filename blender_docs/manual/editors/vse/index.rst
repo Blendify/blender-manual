@@ -10,5 +10,5 @@
    introduction.rst
    navigating.rst
    frame.rst
-   strips/index.rst
+   sequencer/index.rst
    preview/index.rst
