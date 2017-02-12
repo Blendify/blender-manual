@@ -14,7 +14,7 @@ Can be used to add a mesh to video for example.
 .. note::
 
    This constraint only works after you have set up a minimum of eight markers and pressed
-   :doc:`Solve object Motion </editors/movie_clip_editor/tracking/clip/tools>`.
+   :ref:`Solve object Motion <editors-movie-clip-tracking-clip-solve-motion>`.
    Located at :menuselection:`Movie Clip Editor --> Tool Shelf --> Solve --> Solve Camera Motion`
 
    If it says *Solve Camera Motion* instead of *Solve Object Motion* then go into the
