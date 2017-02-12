@@ -24,7 +24,7 @@ Workflow
 
 #. First your going to want to add in each of your video strips.
 #. Next, you will want to sync all your cameras by either using
-   :doc:`Audio Waveforms </editors/vse/sequencer/types/audio>` or by the movement of objects.
+   :doc:`Audio Waveforms </editors/vse/sequencer/strips/audio>` or by the movement of objects.
 
    .. tip::
 
