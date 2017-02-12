@@ -32,17 +32,6 @@ Sync Markers
 .. (todo) missing entries.
 
 
-View Types
-----------
-
-The icons in the header allow to change the view of the VSE. By default,
-only the sequencer is displayed. The second button displays only the Preview region,
-and the third button displays both the Sequencer and the Preview.
-
-When the preview is enabled, you have several options to change what type pf preview to display.
-They are explained in the :doc:`Display Modes Page </editors/vse/preview/index>`.
-
-
 Refresh View
 ------------
 
