@@ -17,19 +17,23 @@ View Selected :kbd:`NumpadPeriod`
    Zooms in the display to fit only the selected strips.
 View Frame :kbd:`Numpad0`
    ToDo.
-Fit preview in window :kbd:`Home`
-   ToDo.
-Zoom 1:1 :kbd:`Numpad1`
-   Resizes preview to a 1:1 scale (actual size).
-
 Show Seconds :kbd:`Ctrl-T`
    Displays the time instead of the frame number, in the Frame Number Indicator.
 Show Frame Number Indicator
    Toggles the units of measure across the bottom of the workspace between seconds or frames.
+Show Offsets
+   ToDo.
+Waveform Drawing
+   ToDo.
 Sync Markers
    Transform Markers as well as Strips.
 
-.. (todo) missing entries.
+.. (todo) move to preview entries.
+   Fit preview in window :kbd:`Home`
+      ToDo.
+   Zoom 1:1 :kbd:`Numpad1`
+      Resizes preview to a 1:1 scale (actual size).
+
 
 
 Refresh View

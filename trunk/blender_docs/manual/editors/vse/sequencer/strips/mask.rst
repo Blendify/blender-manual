@@ -9,3 +9,10 @@ This works similar to the :doc:`Mask Node </compositing/types/input/mask>`
 but without the options available for finer control.
 The mask image is always generated at the render resolution,
 scaling along with different proxy levels.
+
+
+Options
+=======
+
+Mask
+   :ref:`Data-block menu <ui-data-block>` to select a mask.

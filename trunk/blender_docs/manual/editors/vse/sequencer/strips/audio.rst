@@ -66,9 +66,9 @@ as the output with an audio codec and hit the render *Animation* button in the p
 Read more on how to do this :doc:`here </render/output/video>`. To render as an audio file simple
 use the *Audio* button. Read more on how to do this :doc:`here </render/output/video>`.
 
+
 Known Limitations
 =================
-
 
 Hiss, Crackle and Pop
 ---------------------
