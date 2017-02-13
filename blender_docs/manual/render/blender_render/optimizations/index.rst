@@ -1,7 +1,7 @@
 
-################
-  Optimization
-################
+#####################
+  Optimizing Renders
+#####################
 
 .. toctree::
    :maxdepth: 2
