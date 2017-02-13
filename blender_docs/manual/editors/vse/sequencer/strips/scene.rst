@@ -8,6 +8,10 @@ Instead of rendering out a video, then inserting the video file, you can insert 
 
 The strip length will be determined based on the animation settings in that scene.
 
+
+Options
+=======
+
 Use Sequence
    Expand the scenes sequence strips, allowing one scene to re-use another scenes edit,
    (instead of taking the render output from the scene).

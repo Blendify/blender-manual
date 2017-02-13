@@ -1,7 +1,7 @@
 
-*********************
-Cross and Gamma Cross
-*********************
+*******************
+Cross & Gamma Cross
+*******************
 
 .. figure:: /images/editors_sequencer_strips_cross.png
 
