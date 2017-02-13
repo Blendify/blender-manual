@@ -89,8 +89,10 @@ Weight
    When several tracks are used for 3D camera reconstruction, it is possible
    to assign a reduced weight to some tracks to control their influence on the solution result.
    This parameter can (and often need to be) animated.
-   
-   Altering the weights of problem tracking markers can correct or greatly reduce undesirable jumps.
+
+   Altering the weights of problem tracking markers can correct or greatly reduce undesirable jumps
+   as feature disappear or become difficult to track.
+
    Another use of Track Weights is when you want to reconstruct a scene from your camera solution.
    In that case you can first carefully track and solve your scene, and once you're done,
    lock all your markers with :kbd:`Ctrl-L`, set the tracker weight in the Extra Settings of

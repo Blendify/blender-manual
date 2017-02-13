@@ -31,14 +31,26 @@ Lens
 
 Focal Length
    Is self-explanatory; it is the focal length with which the movie was shot.
-   It can be set in millimeters or pixels. In most cases focal length is given in millimeters,
-   but sometimes (for example in some tutorials on the Internet) it is given in pixels.
-   In such cases it is possible to set it directly in the known unit.
+   It can be set in millimeters or pixels.
+
+
 Lens Distortion
-   Are coefficients used to compensate for lens distortion when the movie was shot. Currently these values can be
+---------------
+
+Distortion Model
+   Polynomial
+      Polynomial radial distortion.
+   Division
+      It defines high distortions, which makes this model suitable much better for cameras with fish-eye lenses.
+
+Coefficients
+   Coefficients are used to compensate for lens distortion when the movie was shot. Currently these values can be
    tweaked by hand only (there are no calibration tools yet)
    using tools available in Distortion mode. Basically, just
    tweak K1 until solving is most accurate for the known focal length (but also take grid and grease pencil into
    account to prevent "impossible" distortion).
-   
+
+   The coefficients of the division model work independent from each other and
+   positive values will give a barrel distortion.
+
    K1, K2 and K3
