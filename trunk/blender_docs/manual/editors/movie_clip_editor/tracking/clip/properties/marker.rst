@@ -1,42 +1,7 @@
-.. split common version with masking?
 
-*************
-Display Panel
-*************
-
-This panel contains display settings related on editor itself.
-
-Channels
-   The R, G, B toggles control the color channels used for frame preview.
-   It is needed because the tracking algorithm works with gray-scale images and it is not
-   always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
-Grayscale Preview (B/W)
-   Shows the whole frame gray scale.
-Mute (eye icon) :kbd:`M`
-   Changes displaying on movie frame itself with black square,
-   It helps to find tracks which are tracked inaccurately or which were not tracked at all.
-Render Undistorted
-   ToDo.
-Lock to Selection :kbd:`L`
-   Makes the editor display selected tracks at the same screen position
-   along the whole footage during playback or tracking.
-   This option helps to control the tracking process and
-   stop it when the track is starting to slide off or when it jumped.
-Display Stabilization
-   This option makes the displayed frame be affected by the 2D stabilization settings
-   (available in reconstruction mode only).
-   It is only a preview option, which does not actually change the footage itself.
-Grid
-   Displays a grid which is originally orthographic, but is affected by the
-   distortion model (available in distortion mode only). This grid can be used for manual calibration --
-   distorted lines of grids are equal to straight lines in the footage.
-Calibration
-   Applies the distortion model for grease pencil strokes (available in distortion mode only).
-   This option also helps to perform manual calibration.
-   A more detailed description of this process will be added later.
-Display Aspect Ratio
-   Changes the aspect ratio for displaying only. It does not affect the tracking or solving process.
-
+******
+Marker
+******
 
 Marker Display
 ==============
@@ -71,3 +36,17 @@ Thin
    But sometimes it can be annoying and this option will make the marker display
    more compactly -- the outline is replaced by dashed black lines drawn on top of the foreground,
    so that marker areas are only 1px thick.
+
+
+Marker Panel
+============
+
+.. figure:: /images/editors_movie-clip_tracking_clip_properties_introduction_marker.svg
+   :width: 350px
+   :align: center
+
+   Marker schematic.
+
+This panel contains numerical settings for marker position,
+pattern and search area dimensions, and offset of anchor point from pattern center.
+All sliders are self-explanatory.

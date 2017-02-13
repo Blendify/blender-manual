@@ -146,20 +146,6 @@ Tracking Settings Panel
 This panel contains :ref:`tracker settings <clip-tracking-settings>` for each marker.
 
 
-Marker Panel
-============
-
-.. figure:: /images/editors_movie-clip_tracking_clip_properties_introduction_marker.svg
-   :width: 350px
-   :align: center
-
-   Marker schematic.
-
-This panel contains numerical settings for marker position,
-pattern and search area dimensions, and offset of anchor point from pattern center.
-All sliders are self-explanatory.
-
-
 Grease Pencil Panel
 ===================
 

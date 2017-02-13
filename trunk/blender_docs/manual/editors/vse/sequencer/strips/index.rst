@@ -13,7 +13,7 @@ Types
 =====
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    scene.rst
    mask.rst
