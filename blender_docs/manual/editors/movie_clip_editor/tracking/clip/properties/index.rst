@@ -8,5 +8,5 @@
 
    introduction.rst
    camera_data.rst
-   display.rst
+   marker.rst
    stabilization/index.rst
