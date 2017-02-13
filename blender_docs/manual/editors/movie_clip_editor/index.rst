@@ -8,6 +8,6 @@
    :maxdepth: 2
 
    introduction.rst
-   properties/index.rst
    tracking/index.rst
    masking/index.rst
+   properties/index.rst
