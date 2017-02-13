@@ -1,9 +1,9 @@
 .. |tick|  unicode:: U+2714
 .. |cross| unicode:: U+2717
 
-********
-Features
-********
+***************
+Render Features
+***************
 
 This page offers a comparison of available features on CPU, CUDA and OpenCL.
 
