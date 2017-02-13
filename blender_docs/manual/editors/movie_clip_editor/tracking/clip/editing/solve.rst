@@ -9,7 +9,9 @@ Plane Track Panel
 =================
 
 The *Create Plane Track* operator creates a new plane track.
-This can be used to replace things like billboards and screens on the footage with another image or video.
+Planar tracking takes advantage of the fact that there are often planar surfaces in footage,
+by attaching markers to points on these flat planes.
+It can be used to replace things like billboards and screens on the footage with another image or video.
 It also might be used for masking.
 
 This button will create a plane object
@@ -22,10 +24,12 @@ meaning it's not necessarily need to be corners. Corners are not always easy to 
 they might be occluded. In this case you can position tracked features that lay on the same plane
 far away from the actual plane which should be replaced.
 
-It is also possible to have some tracks appear and disappear during the time,
-it's only required that two neighbor frames have at least 4 common tracks.
+This provides more information about the possible deformation of the marker in following frames,
+and such markers can be tracked even if partially occluded (appear and disappear during the time).
+It is only required that two neighbor frames have at least 4 common tracks.
 
-.. (todo) link node or mask first?: /compositing/types/distort/plane_track_deform
+An image can be projected onto the plane with the
+:doc:`/compositing/types/distort/plane_track_deform` compositing node.
 
 
 Solve Panel
