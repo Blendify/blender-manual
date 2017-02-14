@@ -47,6 +47,12 @@ To force Blender to re-read in files, and to force a re-render of the 3D View,
 click the *Refresh* button to force Blender to clear all cached images and compute the current frame.
 
 
+Backdrop
+--------
+
+Displays the current frame in the background of the main view like in the node editor.
+
+
 Main View
 =========
 
@@ -68,12 +74,14 @@ To move back and forth through your movie, use the Timeline editor.
 moving the vertical bar which indicates the current frame. As you do,
 the image for that frame is displayed in the VSE editor.
 
-When you :kbd:`LMB` directly on a sequence strip, this will show the strip *solo*,
-(temporarily disregarding effects and other strips, showing only this strips output).
+When you drag the frame indicator with :kbd:`LMB` directly on a sequence strip,
+this will show the strip *solo*, (temporarily disregarding effects and other strips,
+showing only this strips output) and the strip will be highlighted.
+
+When holding :kbd:`Ctrl` while dragging it will snap to the start and endpoints of strips.
 
 Real-time scrubbing and image display is possible on reasonable computers when viewing an
-image sequence or movie (avi/mov) file.
+image sequence or movie (``avi``/``mov``) file.
 
 Scene strips can use OpenGL previews or proxies for realtime playback,
 otherwise displaying rendered frame is supported, but typically too slow for real-time playback.
-
