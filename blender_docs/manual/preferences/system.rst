@@ -3,10 +3,17 @@
 System
 ******
 
-The *System* tab allows you to set resolution, scripting console preferences, sound, graphics cards,
-and internationalization.
+The *System* tab allows you to set resolution, scripting console preferences,
+sound, graphics cards, and internationalization.
+
+If your hardware does not support some of the options described on this page,
+then it will either not show up or get corrected on startup.
+If this happens do not worry, you can either consult you computer manual
+to find a supported value or just let Blender correct it.
 
 .. figure:: /images/preferences_system.png
+
+   User Preferences System tab.
 
 
 General
@@ -18,7 +25,7 @@ DPI
    During typical usage, you may prefer to use zoom which is an available in many parts of Blender interface.
 Virtual Pixel Mode
    Allows you to select global scaling. While the DPI only scales the interface,
-   this will scale line width, vertex-size. This is intended for hi-dpi monitors,
+   this will scale line width, vertex-size. This is intended for hi-dpi monitors
    and is auto-detected on macOS.
 
    Native
@@ -30,7 +37,7 @@ Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
    Used when working with distributed rendering.
    Avoid changing this port value unless it is conflicting with already
-   existing service ports used by your Operating System and/or softwares.
+   existing service ports used by your Operating System and/or other software.
    Always consult your operating system documentation and services or
    consult your system administrator before changing this value.
 Console Scrollback
@@ -44,10 +51,10 @@ Sound
 =====
 
 Audio Device
-   Set the audio output device or no audio support:
+   Sets the audio engine to use to process and output audio.
 
    None
-        No Audio support (no audio output, audio strips can be loaded normally)
+      No Audio support (audio strips can still be loaded normally).
    SDL
       Uses Simple Direct Media Layer API from `libsdl.org <https://www.libsdl.org>`__
       to render sounds directly to the sound device output. Very useful for sequencer strips editing.
@@ -59,17 +66,17 @@ Audio Device
 Sound options
 -------------
 
-Specific to *SDL* or *OpenAL* enabled.
+These settings are specific to *SDL* or *OpenAL* enabled.
 
 Channels
-   Set the audio channel count. Available options are: *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*
+   Sets the audio channel count. Available options are: *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*.
 Mixing Buffer
-   Set the number of samples used by the audio mixing buffer. Available options are:
-   *512* , *1024* , *2048*, *4096* , *8192*, *16384*, and *32768*
+   Sets the number of samples used by the audio mixing buffer. Available options are:
+   *512* , *1024* , *2048*, *4096* , *8192*, *16384*, and *32768*.
 Sample Rate
-   Set the audio sample rate. Available options are: *44.1 Khz*, *48 Khs*, *96 Khz* and *192Khz*
+   Sets the audio sample rate. Available options are: *44.1 Khz*, *48 Khz*, *96 Khz* and *192 Khz*.
 Sample Format
-   Set the audio sample format. Available options are:
+   Sets the audio sample format. Available options are:
    *32 bit float*, *8 bit Unsigned*, *16 Bits Signed*, *24 Bits Signed*,
    *32 Bits Signed*, *32 Bits Float*, and *64 Bits Float*.
 
@@ -82,7 +89,7 @@ Screencast
 These settings are used to control the frame-rate for recording a :ref:`Screencast <info-screencast>`.
 
 FPS
-   Frame-rate for screencast playback.
+   The frame-rate for screencast playback.
 Wait Timer
    Time in milliseconds between each frame recorded for screencast.
 
@@ -213,7 +220,7 @@ Textures
 
 Limit Size
    Limit the maximum resolution for pictures used in textured display to save memory.
-   The limit options are specified in a square of pixels 
+   The limit options are specified in a square of pixels
    (e.g.: the option 256 means a texture of 256×256 pixels). This is useful for game engineers,
    whereas the texture limit matches paging blocks of the textures in the target graphic card memory.
    Available Options are: *Off* (No limit), *128*, *256*, *512*, *1024*, *2048*, *4096*, and *8192*.
