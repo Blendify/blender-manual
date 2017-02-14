@@ -6,9 +6,7 @@ Fluid Control
 
 Using the Lattice-boltzman method, the fluid is controlled using particles which define local
 force fields and are generated automatically from either a physical simulation or a sequence
-of target shapes. At the same time,
-as much as possible of the natural fluid motion is preserved.
-
+of target shapes. At the same time, as much as possible of the natural fluid motion is preserved.
 
 .. youtube:: WruTNnF6Ztg
 
@@ -20,29 +18,35 @@ Options
 
    Fluid control options.
 
-
+Enabled
+   Controls weather the control object contributes to the fluid system.
+   This is useful when animating the fluid control object.
 Quality
    Higher quality result in more control particles for the fluid control object.
-
 Reverse Frames
-   The control particle movement gets reversed.
-
+     Reverses the control object's movement.
 Time
    You specify the time interval (start and end time) during which the fluid control object is active.
+Attraction Force
+   Specifies the force which gets emitted by the fluid control object.
 
-Attraction force
-   The attraction force specifies the force which gets emitted by the fluid control object.
-   Positive force results in attraction of the fluid, negative force in avoidance.
-
-Velocity force
+   Strength
+      The strength of the force.
+      Positive force results in attraction of the fluid, negative force in avoidance.
+Velocity Force
    If the fluid control object moves, the resulting velocity can also introduce a force to the fluid.
+
+   Strength
+      The strength of the effect.
+   Radius
+      The radius of the force.
 
 
 Examples
 ========
 
 In these examples,
-we use the Fluid Control option to control part of the fluid so that it has a certain shape
+the Fluid Control is used to control part of the fluid so that it has a certain shape
 (the sphere drop or the teapot drop) before it falls in the rest of the fluid:
 
 .. figure:: /images/physics_fluid_types_control_example1.jpg
