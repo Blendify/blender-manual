@@ -170,7 +170,7 @@ Animation Editors
 Property Editors
    When the animation is playing, this will update the property values in the UI.
 Image Editors
-   .. Todo Not sure what is updated, maybe gif images or, image sequence.
+   The UV/Image editor in Mask mode.
 Sequencer Editors
    While playing, updates the Video Sequence Editor.
 Node Editors

@@ -1,39 +1,47 @@
 
 ********************
-Image & Movie Strips
+Movie & Image Strips
 ********************
 
-When adding a Movie or Movie with Audio :kbd:`LMB` to put the name of the file into
-the text field at the top; this selects a *single* file (like a movie)
+Movie
+=====
 
-In the case of (numbered) *image sequences*, you have a choice:
+When adding a Movie or Movie with Audio select a *single* movie file
+e.g. in the Audio-Video Interleaved format (``*.avi`` file).
+You cannot load multiple movies at the same time only the active one will be taken into account.
 
-Directory
-   :kbd:`RMB` right-click on a directory name, and all files in that directory
-   will be brought in as part of the image, in sort order, one image per frame.
+.. note:: Clips can be Huge
+
+   A three minute quicktime ``.mov`` file can be 140Megs.
+   Loading it, even over a high-speed LAN can take some time.
+   Do not assume your computer or Blender has locked up if nothing happens for awhile.
+
+
+Image
+=====
+
+Single Image
+------------
+
+When you add a single still image (``*.jpg``, ``*.png``, etc.),
+Blender creates a 25 frames long strip which will show this image along the strips range.
+
+
+Image Sequence
+--------------
+
+In the case of (numbered) image sequences
+(e.g.``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format), you have a choice:
+
 Range
    Navigate into the directory and right-click and drag over a range of names to highlight multiple files.
    You can page down and continue right-click-dragging to add more to the selection
 Batch
    Shift-right-click selected non-related stills for batch processing; each image will be one frame,
-   in sort order, and can be a mix of file types (jpg, png, exr, etc.)
+   in sort order, and can be a mix of file types (``jpg``, ``png``, ``exr,`` etc.)
 All
    Press :kbd:`A` to select/deselect All files in the directory.
 
-When you click the *Select ...* button,
-the area will switch back to VSE, and the strip will be rubber-banded to your mouse.
-You cannot load multiple movies at the same time by right-clicking them;
-no movies load if you right click them. Right-clicking only works for images.
-
-In order to add items to the VSE, left-click for movies, left-click for single images,
-or right-click and drag for image sequences. Move your mouse to the frame/time and stripe you want,
-and click to break the rubberband and drop the strip in place (in a channel and starting at a frame).
-
-When you add an image, Blender makes it into a 50-frame strip,
-which means that image will be in your video for two seconds (at 25 fps PAL).
-Aside from re-positioning it, you will want to scale it by :kbd:`RMB` on either the start or end arrow,
-and dragging left or right. As you move, the frame number updates to say where the arrow is.
-Use :kbd:`LMB` to validate, or :kbd:`RMB` to cancel the modification.
 
 .. tip:: Dealing with Different Sizes
 
@@ -44,11 +52,32 @@ Use :kbd:`LMB` to validate, or :kbd:`RMB` to cancel the modification.
    panel to move and select a region of the image within the output. When you use *Crop* or *Offset*,
    the auto-scaling will be disabled and you can manually re-scale by adding the Transform effect.
 
+
+Add Image Strip
+---------------
+
+Placeholder Images
+^^^^^^^^^^^^^^^^^^
+
+Image sequences can use placeholder files. This works by enabling *Use placeholders* checkbox
+when adding an image strip. The option detects the frame range of opened images using
+blender's frame naming scheme (filename + frame number + .extension) and makes an image sequence with
+all files in between even if they are missing.
+This allows you to render an image sequence with a few frames missing and
+still the image strip will have the correct range to account for the missing frames displayed as black.
+When the missing frames are rendered or placed in the same folder, you can refresh the sequencer and
+get the missing frames in the strip. The option is also available when using the *Change Data/File* operator and
+allows you to add more images to the range.
+
+
+Example
+=======
+
 .. figure:: /images/editors_sequencer_example.png
 
 If you scroll up the workspace, you will see an information channel
 (at vertical location channel 0) that gives you some helpful hints about the active strip.
-The example above shows a color strip from frames 1 to 25, then a mov file,
+The example above shows a color strip from frames 1 to 25, then a ``mov`` file,
 and then an image strip. The info channel shows handy information about the image strip,
 whose name has been scrunched in the strip display,
 but is clearly spelled out in the information strip.
