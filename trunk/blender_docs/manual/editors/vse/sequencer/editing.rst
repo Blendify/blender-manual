@@ -18,9 +18,12 @@ Pressing :kbd:`G` moves the all selected strip(s).
 Move your mouse horizontally (left/right) to change the strip's position in time.
 Move vertically (up/down) to change channels.
 
+Holding down :kbd:`Ctrl` while dragging snaps to the start and endpoints of other strips.
+The position of the mouse relative to the selection influences where the strips are snapped.
+If it is closer to the start of the selection, then the start frame of the selection gets snapped,
+else the end frame will get snapped.
 
-- To snap while dragging hold :kbd:`Ctrl`
-- To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
+To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
 
 
 Start Frame Offset
