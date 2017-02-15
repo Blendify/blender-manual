@@ -158,6 +158,8 @@ Auto-Keyframing Mode
       Only Replace existing keyframes.
 
 
+.. _timeline-playback:
+
 Playback Menu
 ^^^^^^^^^^^^^
 
@@ -185,12 +187,11 @@ Frame Dropping
 AV-sync
    Play back and sync with audio clock, dropping frames if frame display is too slow.
    See `Synchronize Playback`_ for more info.
-   See `Synchronize Playback`_ for more info.
 Audio Muted
    Mute the sound from Sequence Editors.
 Audio Scrubbing
-   If your animation has sound,
-   this option plays bits of the sound wave while you move the time cursor with :kbd:`LMB` or keyboard arrows.
+   If your animation has sound, this option plays bits of the sound wave
+   while you move the time cursor with :kbd:`LMB` or keyboard arrows (like a moving playhead) .
 
 
 .. _animation-editors-timeline-headercontrols:
@@ -282,7 +283,7 @@ Frame Dropping
    Drop frames if playback is too slow.
    This enables *Frame Dropping* from the *Playback Menu*.
 AV-sync
-   Sync to audio clock, dropping frames if playback is slow.
+   (Audio Video Synchronization). Sync to audio clock, dropping frames if playback is slow.
    This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*.
 
 

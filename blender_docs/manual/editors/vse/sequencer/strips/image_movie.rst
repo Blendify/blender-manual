@@ -6,9 +6,8 @@ Movie & Image Strips
 Movie
 =====
 
-When adding a Movie or Movie with Audio select a movie file(s)
+To add a movie (with or without audio) select a movie file(s) in the File Browser
 e.g. in the Audio-Video Interleaved format (``*.avi`` file).
-You can load multiple movies at the same time. Each will be add after the other. 
 
 .. note:: Clips can be Huge
 
@@ -34,13 +33,13 @@ In the case of (numbered) image sequences
 (e.g. ``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format), you have a choice:
 
 Range
-   Navigate into the directory and right-click and drag over a range of names to highlight multiple files.
-   You can page down and continue right-click-dragging to add more to the selection
+   Navigate into the directory and :kbd:`RMB` click and drag over a range of names to highlight multiple files.
+   You can page down and continue :kbd:`RMB` click-dragging to add more to the selection.
 Batch
-   Shift-right-click selected non-related stills for batch processing; each image will be one frame,
-   in sort order, and can be a mix of file types (``jpg``, ``png``, ``exr,`` etc.)
+   :kbd:`Shift-RMB` click selected non-related stills for batch processing; each image will be one frame,
+   in sort order, and can be a mix of file types (``jpg``, ``png``, ``exr,`` etc.).
 All
-   Press :kbd:`A` to select/deselect All files in the directory.
+   Press :kbd:`A` to select/deselect all files in the directory.
 
 
 .. tip:: Dealing with Different Sizes

@@ -46,6 +46,11 @@ Overlapping strips are automatically mixed down during the rendering process. Fo
 you can have the announcer on channel 5, background music on channel 6,
 and Foley sound effects on channel 7.
 
+.. seealso::
+
+   In the :ref:`timeline-playback` menu of the Timeline you will find some options
+   concerning audio playback behavior.
+
 
 Animating Audio Track Properties
 ================================
