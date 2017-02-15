@@ -6,9 +6,9 @@ Movie & Image Strips
 Movie
 =====
 
-When adding a Movie or Movie with Audio select a *single* movie file
+When adding a Movie or Movie with Audio select a movie file(s)
 e.g. in the Audio-Video Interleaved format (``*.avi`` file).
-You cannot load multiple movies at the same time only the active one will be taken into account.
+You can load multiple movies at the same time. Each will be add after the other. 
 
 .. note:: Clips can be Huge
 

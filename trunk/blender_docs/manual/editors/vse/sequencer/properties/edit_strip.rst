@@ -15,18 +15,14 @@ Blend Mode
 Opacity
    Set the opacity of the strip.
 Mute (eye icon)
-   Hides the strip so that it does not participate in the final image computation
+   Hides the strip so that it does not participate in the final image computation.
 Lock (padlock icon)
    Prevents the strip from being moved.
 Channel
    Changes the channel number, or row, of the strip.
 Start Frame
    Changes the starting frame number of the strip, which is the same as grabbing and moving the strip.
-
-   .. tip::
-
-      When you add a strip, just drop the strip and then use *Start Frame* to place it at the desired frame.
-      This helpful when it is hard to drag and drop in exactly the right place.
-
 Length
    Specify the number of frames to use for the strip.
+
+At the bottom you can see several informations about the input media.

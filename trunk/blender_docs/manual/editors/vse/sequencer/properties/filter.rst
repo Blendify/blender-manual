@@ -24,9 +24,10 @@ Flip
    - Y: top-to-bottom
 
 Backwards
-   Plays the strip in reverse.
+   Plays the strip in reverse (time).
 Deinterlace
    Removes fields in a video file.
+   In example if it is a broadcast video and it has even or odd interlacing fields.
 
 
 Colors
@@ -35,6 +36,7 @@ Colors
 Saturation
    Increase or decrease the saturation of an image.
 Multiply
-   Multiplies the colors by this value.
+   Multiplies the colors by this value. This will increases the brightness.
+
 Convert Float
    Converts input to float data.
