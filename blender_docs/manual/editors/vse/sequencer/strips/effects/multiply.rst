@@ -54,4 +54,4 @@ vegetation becomes more lush, water becomes more Caribbean and inviting, skies b
 Options
 =======
 
-This strip  has no options.
+This strip has no options.

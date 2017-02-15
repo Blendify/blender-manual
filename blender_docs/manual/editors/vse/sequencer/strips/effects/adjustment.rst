@@ -17,4 +17,4 @@ each other (probably using the new mask input for area selection).
 Options
 =======
 
-This strip  has no options.
+This strip has no options.
