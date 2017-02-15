@@ -73,7 +73,9 @@ Use this effect when adding a foreground strip that has a variable alpha channel
 (some opaque areas, some transparent, some in between) over a strip that has a flat opaque
 (Alpha=1.0 or greater) channel. If you notice a glow around your foreground objects,
 or strange transparent areas of your foreground object when using Alpha Over,
-enable *Premultiply*. The Alpha Over Drop effect is much like the Cross,
+enable *Premultiply*.
+
+The Alpha Over Drop effect is much like the Cross,
 but puts preference to the top or second image,
 giving more of a gradual overlay effect than a blend like the Cross does. Of course,
 all of the Alpha effects respect the alpha (transparency) channel, whereas Cross does not.

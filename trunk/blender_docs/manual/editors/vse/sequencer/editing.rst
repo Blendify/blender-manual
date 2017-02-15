@@ -25,6 +25,8 @@ else the end frame will get snapped.
 
 To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
 
+You can also lock the direction to time with :kbd:`X` or to change the strip's channel with :kbd:`Y`.
+
 
 Start Frame Offset
 ------------------
@@ -93,28 +95,23 @@ The slip tool allows you to change the position of the contents of a strip witho
 Tools
 =====
 
-Erase Strips :kbd:`X`
-   If you have added a strip by mistake or no longer want it,
-   delete it by pressing :kbd:`X` or using this menu option.
+Erase Strips :kbd:`X`, :kbd:`Delete`
+   Delete the selected strip(s).
 Duplicate Strips :kbd:`Shift-D`
    Duplicate a strip to make an unlinked copy;
    drag it to a time and channel, and drop it by :kbd:`LMB` click.
 Clear Strips Offsets :kbd:`Alt-O`
-   To reset the start/end frames around the strip data.
+   To reset the (soft) start/end frame handles.
 
 The Strip Menu contains additional tools for working with strips:
 
 - Insert/Remove Gap
-- Cut (hard) at frame
 - Deinterlace Movies
 - Set Render Size
 - Reload Strips
 - Swap Inputs
 - Lock Strips
 - UnLock Strips
-- Mute Strips
-- Un-Mute Strips
-- Mute Deselected Strips
 - Swap Strips
 
 
@@ -143,8 +140,11 @@ Separate Images
    | Menu:     :menuselection:`Strip --> Separate Images`
    | Hotkey:   :kbd:`Y`
 
-Converts the strip into multiple strips, one strip for each frame.
+For images sequence only -- Converts the strip into multiple strips, one strip for each frame.
 Useful for slide shows and other cases where you want to bring in a set on non-continuous images.
+
+Length
+   You have to specify the duration you want the resulting strips will be.
 
 
 Reassign Inputs
@@ -173,6 +173,8 @@ Cut (soft) at Frame
 .. While splicing two strips happens just by placing them finish-to-start,
 
 Cut the selected strip in two by pressing :kbd:`K` at the current frame.
+This will result in two strips of the same source, but resized to fit the original strip's length.
+You will still be able to resize them after.
 Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
 
 .. note:: Note on the *Cut*
@@ -207,6 +209,30 @@ Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
 Change the length of an effect strip by changing the start/end frame of the origin strips.
 
 
+Cut (hard) at Frame
+===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Strip --> Cut (hard) at Frame`
+   | Hotkey:   :kbd:`Shift-K`
+
+Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips,
+but this time you will not be able enlarge the resulting strips.
+
+
+Mute
+====
+
+Mute Strips :kbd:`H`
+   Mute the selected strip(s).
+Un-Mute Strips :kbd:`Alt-H`
+   Un-Mutes all strips.
+Mute Deselected Strips :kbd:`Shift-H`
+   You can mute all strips but the selected.
+
+
 .. (todo) to header
 
 Copy and Paste
@@ -223,6 +249,7 @@ Change
 .. admonition:: Reference
    :class: refbox
 
+   | Panel:    :menuselection:`Properties Region --> Strip Input`
    | Menu:     :menuselection:`Strip --> Change`
    | Hotkey:   :kbd:`C`
 
@@ -230,3 +257,5 @@ The Change sequence operator modifies the file path or effect inputs/type on sel
 
 Effect
    Switch the effects on a selected Effect strips.
+Path/Files
+   Changes the source file contained in a selected strip.

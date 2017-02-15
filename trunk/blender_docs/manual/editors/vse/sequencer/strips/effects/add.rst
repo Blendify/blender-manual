@@ -3,9 +3,6 @@
 Add Effect
 **********
 
-The Add effect adds two colors together. Red and Cyan (Green and Blue) make White.
-Red and Blue make "Magenta" (i.e. Purple!). Red and Green make Yellow.
-
 The Add Effect adds the colors of two strips together,
 Use this effect with a base image strip, and a modifier strip.
 The modifier strip is either a solid color or a black-and-white mask,
@@ -15,6 +12,8 @@ You can use this effect to increase the brightness of an image, or if you use a 
 selectively increase the brightness of certain areas of the image. The Mix node, in Add mode,
 does exactly the same thing as the Add SFX strip here,
 and is controlled the same way by feeding the Factor input.
+
+.. Red and Cyan (Green and Blue) make White. Red and Blue make Magenta. Red and Green make Yellow.
 
 
 Options

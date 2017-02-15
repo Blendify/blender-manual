@@ -3,6 +3,12 @@
 Introduction
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Add`
+   | Hotkey:   :kbd:`Shift-A`
+
 .. figure:: /images/editors_sequencer_strips_introduction_add-menu.png
    :align: right
 
@@ -20,6 +26,7 @@ the VSE editor will switch to a File Browser for you to select what you want to 
 Supported files are filtered by default.
 
 The start frame of the newly created strips will be placed at the position of the frame indicator. 
+When loading multiple files (movie and sound) at the same time each will be add one after the other. 
 
 
 Visualization

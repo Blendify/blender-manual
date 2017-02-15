@@ -11,7 +11,7 @@ Multiply
 
 The *Multiply* effect multiplies two colors.
 Blender uses values between (0.0 to 1.0) for the colors,
-he does not have to normalize this operation, the multiplication of two terms
+this operation does not have to be normalized, the multiplication of two terms
 between (0.0 to 1.0) always gives a result between (0.0 to 1.0).
 
 (with the "traditional" representation of three bytes, like RGB(124, 255, 56) ,
@@ -24,7 +24,7 @@ This effect has two main usages:
 
 .. rubric:: With a Mask
 
-A mask is a B&W picture witch, after multiplication with a "normal" image,
+A mask is a black and white picture which, after multiplication with a "normal" image,
 only show this one in the white areas of the mask (everything else is black).
 
 The opening title sequence to James Bond movies,
