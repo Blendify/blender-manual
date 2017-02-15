@@ -18,15 +18,17 @@ Options
 Pack
    This allows you to save the audio file into the blend-file.
 Caching
-   Caching loads a file into ram and plays it from there, apposed to reading it for the hard drive.
+   Caching loads a file into RAM and plays it from there, apposed to reading it for the hard drive.
 Draw Waveform
    Draws a waveform over top of the sequence strip. This can be useful for syncing two or more audio strips.
 Volume
    Changes the loudness of the audio.
 Pitch
-   Changes the frequency of the audio.
+   Transposes the frequency of the audio.
 Pan
-   Used to pan the audio from left an right channels -2 being hard left, 2 being hard right.
+   Used to pan the audio from left and right channels -2 being hard left, 2 being hard right.
+Trim Duration
+   Offset the start and end of a sound strip.
 
 
 Working with Audio Tracks

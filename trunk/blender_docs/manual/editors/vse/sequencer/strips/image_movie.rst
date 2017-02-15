@@ -31,7 +31,7 @@ Image Sequence
 --------------
 
 In the case of (numbered) image sequences
-(e.g.``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format), you have a choice:
+(e.g. ``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format), you have a choice:
 
 Range
    Navigate into the directory and right-click and drag over a range of names to highlight multiple files.

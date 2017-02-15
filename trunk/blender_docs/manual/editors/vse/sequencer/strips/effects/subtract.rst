@@ -19,4 +19,4 @@ since red and green make yellow.
 Options
 =======
 
-This strip  has no options.
+This strip has no options.

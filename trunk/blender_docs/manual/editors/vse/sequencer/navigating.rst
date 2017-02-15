@@ -54,6 +54,7 @@ Adjusting the View
 ------------------
 
 Use these shortcuts to adjust the sequence area of the VSE:
+
 - Pan :kbd:`MMB`
 - Zoom :kbd:`Wheel`
 - Vertical Scroll use :kbd:`Shift-Wheel`, or drag on the left scroll bar.

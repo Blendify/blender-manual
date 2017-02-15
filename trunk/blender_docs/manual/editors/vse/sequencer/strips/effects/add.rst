@@ -20,7 +20,7 @@ and is controlled the same way by feeding the Factor input.
 Options
 =======
 
-This strip  has no options.
+This strip has no options.
 
  
 Example

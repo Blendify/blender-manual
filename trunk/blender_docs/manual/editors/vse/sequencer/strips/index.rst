@@ -16,7 +16,7 @@ Types
    :maxdepth: 2
 
    scene.rst
-   mask.rst
+   clip_mask.rst
    image_movie.rst
    audio.rst
    effects/index.rst
