@@ -11,7 +11,7 @@ For some effects, like the Cross transition effect, you will need to :kbd:`Shift
 and pick the effect you want from the pop-up menu. When you do,
 the Effect strip will be shown above the source strips. If it is an independent effect,
 like the :doc:`Color Generator </editors/vse/sequencer/strips/effects/color>`,
-it will be rubberbanded to your mouse; click to drop the strip.
+it will be placed at the position of the frame indicator.
 
 .. note::
 
@@ -19,9 +19,9 @@ it will be rubberbanded to your mouse; click to drop the strip.
   their frame location and duration depends on their source strips. Thus,
   you may not be able to move it; you have to move the source strips in order to affect the effect strip.
 
-To use an effect that combines or makes a transition between (or composites) two strips,
-you must Box select :kbd:`B` or shift-right-click two of them. When you add the effect strip,
-it will be placed in a channel above the two in Grab mode (click to drop it on a channel).
+To use an effect that combines or makes a transitions select two strips,
+When you add the effect strip, it will be placed in a channel above the two in Grab mode 
+(click to drop it on a channel).
 Its duration will be the overlap between the two strips as a maximum.
 
 With some effects, like the :doc:`Alpha Over </editors/vse/sequencer/strips/effects/alpha_over_under_overdrop>`,
@@ -35,8 +35,7 @@ thus layering effects on top of one another.
    It does not depend on a base strip; you can add and position it independent of any other strip.
    Change the length as you would any strip.
 
-If you picked the wrong effect from the menu, you can always change it by selecting the strip :kbd:`RMB`
-and using the :menuselection:`Strip --> Change Effect` selection.
-Or, you can press :kbd:`C` to switch effects on a selected Effects strip.
+If you picked the wrong effect from the menu,
+you can always exchange it with :ref:`Change <sequencer-edit-change>` operator.
 
 .. (todo) Common Option: Fade

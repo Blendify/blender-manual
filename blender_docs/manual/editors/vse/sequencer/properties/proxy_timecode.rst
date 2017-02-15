@@ -14,7 +14,7 @@ Proxy
 .. figure:: /images/editors_sequencer_timecode.png
    :align: right
 
-A proxy is a smaller image (faster to load) that stands in for the main image.
+A proxy is a lower resolution versions (faster to load) that stands in for the main image or video.
 When you Rebuild proxy Blender computes small images (like thumbnails)
 for the big images and may take some time. After computing them, though, editing functions
 like scrubbing and scrolling and compositing functions like cross using these proxies is much
@@ -67,6 +67,7 @@ There are two possible ways to avoid this:
 
 - Preprocess your video with, say, mencoder to repair file header and insert correct keyframes.
 - Use Proxy/Timecode option in Blender.
+
 
 Options
 -------

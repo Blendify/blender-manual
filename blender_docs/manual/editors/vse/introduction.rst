@@ -22,9 +22,9 @@ Finally, you can audio and synchronize the timing of the video sequence to match
 View Types
 ==========
 
-The Video Sequence Editor has a header (where the menu and view modes are shown) and a workspace,
-and works in one of several view modes.
+The Video Sequence Editor has a three view types for the main view.
 
-The view types toggles in the header allow to change the view of the VSE. By default,
-only the sequencer is displayed. The second button displays only the Preview region,
-and the third button displays both the Sequencer and the Preview.
+The View Types toggles in the header allow to change the view of the VSE. 
+When the first button is toggled only the sequencer is displayed (the default).
+The second button displays only the Preview region, and
+the third button displays both the Sequencer and the Preview.

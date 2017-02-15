@@ -9,7 +9,7 @@ Header
 View Menu
 ---------
 
-As usual, the View Menu controls what and how you view in the workspace.
+As usual, the View Menu controls the editors view settings.
 
 View all Sequences :kbd:`Home`
    Zooms the display to show all strips.
@@ -20,7 +20,7 @@ View Frame :kbd:`Numpad0`
 Show Seconds :kbd:`Ctrl-T`
    Displays the time instead of the frame number, in the Frame Number Indicator.
 Show Frame Number Indicator
-   Toggles the units of measure across the bottom of the workspace between seconds or frames.
+   Toggles the units of measure across the bottom of the time cursor between seconds or frames.
 Show Offsets
    ToDo.
 Waveform Drawing
@@ -28,23 +28,17 @@ Waveform Drawing
 Sync Markers
    Transform Markers as well as Strips.
 
-.. (todo) move to preview entries.
-   Fit preview in window :kbd:`Home`
-      ToDo.
-   Zoom 1:1 :kbd:`Numpad1`
-      Resizes preview to a 1:1 scale (actual size).
 
+Refresh Sequencer
+-----------------
 
-
-Refresh View
-------------
+To force Blender to re-read in files, and to force a re-render of the 3D View,
+click the *Refresh Sequencer* button. Blender will clear all cached images and compute the current frame.
 
 Certain operations, like moving an object in 3D View, may not force the *Sequencer*
 to call for a refresh of the rendered image (since the movement may not affect the rendered image).
 If an image or video, used as a strip, is changed by some application outside of Blender,
 Blender has no real way of being notified from your operating system.
-To force Blender to re-read in files, and to force a re-render of the 3D View,
-click the *Refresh* button to force Blender to clear all cached images and compute the current frame.
 
 
 Backdrop
@@ -60,10 +54,13 @@ Adjusting the View
 ------------------
 
 Use these shortcuts to adjust the sequence area of the VSE:
-Pan :kbd:`MMB` Zoom :kbd:`Wheel` Vertical Scroll use :kbd:`Shift-Wheel`,
-or drag on the left scroll bar. Horizontal Scroll use :kbd:`Ctrl-Wheel`,
-or drag on the lower scroll bar. Scale View Vertically, drag on the circles on the vertical scroll bar.
-Scale View Horizontally, drag on the circles on the horizontal scroll bar.
+- Pan :kbd:`MMB`
+- Zoom :kbd:`Wheel`
+- Vertical Scroll use :kbd:`Shift-Wheel`, or drag on the left scroll bar.
+- Horizontal Scroll use :kbd:`Ctrl-Wheel`, or drag on the lower scroll bar.
+- Scale View, :kbd:`Ctrl-MMB` and drag up/down (vertical scale) or left/right (horizontal scale).
+- Scale View Vertically, drag on the circles on the vertical scroll bar.
+- Scale View Horizontally, drag on the circles on the horizontal scroll bar.
 
 
 Scrubbing

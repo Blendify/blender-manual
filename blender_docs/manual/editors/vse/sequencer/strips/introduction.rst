@@ -29,7 +29,7 @@ They all become a color-coded strip in the VSE:
 
 - Scene strip: Light green.
 - Clip strip: Dark blue.
-- Mask strip: Brown.
+- Mask strip: Red.
 - Movie strip: Aquamarine.
 - Image strip: Purple.
 - Sound strip: Turquoise.

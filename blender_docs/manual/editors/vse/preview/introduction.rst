@@ -12,6 +12,20 @@ The first is the preview mode, this can be enable by hitting the texture button 
 Header
 ======
 
+View Menu
+---------
+
+Fit preview in window :kbd:`Home`
+   Resizes preview so that it fits in the window.
+Zoom 1:1 :kbd:`Numpad1`
+   Resizes preview to a 1:1 scale (actual size).
+Safe Areas
+   Displays an overlay on the preview, marking where title safe region is.
+
+
+Controls
+--------
+
 Several options in the header allow you change the editor
 to display the sequence in real time, and in various ways.
 
@@ -24,17 +38,19 @@ and the third button displays both the sequencer and the preview.
 
 
 Display Mode
-   The VSE workspace can show you different aspects of the composite result,
+   Mode to show different aspects of the composite result,
    for the current frame:
 
    - Image/Sequence: Colors (what you see).
-   - Chroma: Color hue and saturation.
    - Luma: Brightness/contrast.
+   - Chroma: Color hue and saturation.
    - Histogram: Levels of red, green, and blue.
 
 Channel
-   Channel 0 is the result of compositing the strips with their special effects strips.
-   Channel 1 is what the current frame's image from the strip in channel 1 looks like
+   Selects the channels to show in the preview.
+
+   Channel 0 is the compositing result of all strips.
+   Channel 1 is the current frame's image from the strip in channel 1 only
    (channel 1 is at the bottom of the heap). The display of these modes is either the composite
    (channel 0) or the frame from the strip (channels 1 through n).
 Overlay (ghost icon)

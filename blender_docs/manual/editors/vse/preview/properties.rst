@@ -6,11 +6,12 @@ Properties
 Scene Preview/Render
 ====================
 
-OpenGL Preview
-   When enabled :doc:`Scene Strips </editors/vse/sequencer/strips/scene>`
-   use a quick OpenGL preview (see :doc:`OpenGL render </render/opengl>` for more on this subject).
+It allows you to control how the images of :doc:`Scene Strips </editors/vse/sequencer/strips/scene>`
+are displayed in the preview.
 
-   Otherwise a full render is used, which can be very slow.
+OpenGL Preview
+   Use a quick OpenGL preview (see :doc:`OpenGL render </render/opengl>` for more on this subject),
+   otherwise a full render is used, which can be very slow.
 
    Sequencer Preview Shading
       Method for rendering OpenGL renders.

@@ -215,6 +215,8 @@ Copy and Paste
 You can copy a clip and paste it using the two header buttons.
 
 
+.. _sequencer-edit-change:
+
 Change
 ======
 
@@ -225,3 +227,6 @@ Change
    | Hotkey:   :kbd:`C`
 
 The Change sequence operator modifies the file path or effect inputs/type on selected strips.
+
+Effect
+   Switch the effects on a selected Effect strips.
