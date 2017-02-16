@@ -28,7 +28,7 @@ Transition
       Like the blink of an eye.
    Iris
       Reveals the next strip through an expanding (or contracting) circle.
-      Like the aperture of a camera or pupil of a eye.
+      Like the aperture of a camera or pupil of an eye.
       You can blur the transition, so it looks like ink bleeding through a paper.
    Clock
       Like the hands of an analog clock, it sweeps clockwise or (if Wipe In is enabled)

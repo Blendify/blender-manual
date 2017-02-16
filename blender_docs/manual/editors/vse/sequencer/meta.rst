@@ -24,6 +24,7 @@ UnMeta Strip :kbd:`Alt-G`
    Example of Meta strips.
 
 You can edit the content inside a Meta strip by pressing :kbd:`Tab`.
+It will expand the strip to the whole view and hide any other strips.
 To exit the Meta strips press :kbd:`Tab` again.
 Meta strips can also be nested, which make editing them a little confusing.
 To exit out one level of Meta Strip make sure you do not have a Meta strips selected when you press :kbd:`Tab`.
