@@ -40,9 +40,9 @@ Separate Colors
 
 This mode is good for:
 
-- If the waveform does not fill the whole picture you might want to play with the "setup" and "gain"
-  master-sliders in the "gamma"-plugin until it fills the whole picture (contrast autostretch).
-- With the more advanced gamma-plugin you can decide where you have to desaturated (especially in dark regions).
+- If the waveform does not fill the whole picture you might want to play with the Bright/Contrast modifier
+  until it fills the whole picture (contrast autostretch).
+- With the more advanced Curves or Color Balance modifiers, you can be more precise.
 - You can judge if you want to dump the whole thing since it is
   completely distorted and clips at the top or the bottom.
 
@@ -115,7 +115,8 @@ This mode is good for:
 
 - If you picture looks very moody or desaturated you might want to take a look at the U/V-plot.
   You will most likely see all pixels building a crowd at the origin.
-  If you add saturation using the "gamma"-plugin you can see in the U/V-plot if you distort the color.
+  If you add saturation using the *Saturation* slider in the Filter panel or any modifiers that change color, 
+  you can see in the U/V-plot if you distort the color.
 - If you do color-matching on a by hand basis you can match the angle you see of different channels monitors.
 
 

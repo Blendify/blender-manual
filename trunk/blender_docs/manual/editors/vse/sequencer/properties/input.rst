@@ -8,7 +8,8 @@ Strip Input Panel
 
    Strip Input Settings.
 
-The Strip Input panel is used to controls the duration of the strip along with some basic transforms.
+The Strip Input panel is used to controls the source,
+the duration of the strip along with some basic transforms.
 
 Path
    A text field that lets you edit/update the path of the file used by a strip.

@@ -242,22 +242,22 @@ These buttons are used to set, play, rewind, the *Time Cursor*.
 
    Player Controls.
 
-Jump to start
-   This sets the cursor to the start of frame range. :kbd:`Shift-Ctrl-Down` or :kbd:`Shift-Left`
-Jump to previous keyframe
-   This sets the cursor to the previous keyframe. :kbd:`Down`
-Rewind
-   This plays the animation sequence in reverse. :kbd:`Shift-Alt-A`
+Jump to start :kbd:`Shift-Ctrl-Down`, :kbd:`Shift-Left`
+   This sets the cursor to the start of frame range.
+Jump to previous keyframe :kbd:`Down`
+   This sets the cursor to the previous keyframe.
+Rewind :kbd:`Shift-Alt-A`
+   This plays the animation sequence in reverse.
    When playing the play buttons switch to a pause button.
-Play
-   This plays the animation sequence. :kbd:`Alt-A`
+Play :kbd:`Alt-A`
+   This plays the animation sequence.
    When playing the play buttons switch to a pause button.
-Jump to next keyframe
-   This sets the cursor to the next keyframe. :kbd:`Up`
-Jump to end
-   This sets the cursor to the end of frame range. :kbd:`Shift-Ctrl-Up` or :kbd:`Shift-Right`
-Pause
-   This stops the animation. :kbd:`Alt-A`
+Jump to next keyframe :kbd:`Up`
+   This sets the cursor to the next keyframe.
+Jump to end :kbd:`Shift-Ctrl-Up`, :kbd:`Shift-Right`
+   This sets the cursor to the end of frame range.
+Pause :kbd:`Alt-A`
+   This stops the animation.
 
 
 Synchronize Playback

@@ -15,7 +15,7 @@ they have an alpha value of 0. If you use a movie strip, that movie has an alpha
 
 So, you can use the *Alpha Over* / *Alpha Under* effect to composite the CGI Scene on top of your movie.
 The result is your model doing whatever as if it was part of the movie.
-The Factor curve controls how much the foreground is mixed over the background,
+The :menuselection:`Edit Strip --> Opacity` controls how much the foreground is mixed over the background,
 fading in the foreground on top of the background. The colors of transparent foreground image
 areas is ignored and does not change the color of the background.
 
@@ -28,8 +28,8 @@ Alpha Over
 
 With *Alpha Over*, the strips are layered up in the order selected; the first strip selected is the background,
 and the second one goes *over* the first one selected.
-The *Factor* controls the transparency of the *foreground*, i.e. *Factor* of 0.0;
-will only show the background, and a *Factor* of 1.0 will completely override the background with the foreground
+The *Opacity* controls the transparency of the *foreground*, i.e. *Opacity* of 0.0;
+will only show the background, and a *Opacity* of 1.0 will completely override the background with the foreground
 (except in the transparent areas of this one, of course!)
 
 
@@ -38,9 +38,9 @@ Alpha Under
 
 With *Alpha Under*, this is the contrary: the first strip selected is the
 foreground, and the second one, the background.
-Moreover, the *Factor* controls the transparency of the *background*, i.e. a *Factor* of 0.0;
+Moreover, the *Opacity* controls the transparency of the *background*, i.e. a *Opacity* of 0.0;
 will only show the foreground (the background is completely transparent),
-and a *Factor* of 1.0 will give the same results as with *Alpha Over*.
+and a *Opacity* of 1.0 will give the same results as with *Alpha Over*.
 
 
 Alpha Over Drop
@@ -48,7 +48,7 @@ Alpha Over Drop
 
 *Alpha Over Drop* is between the two others:
 as with *Alpha Under*, the first strip selected will be the foreground, but as with *Alpha Over*,
-the *Factor* controls the transparency of this foreground.
+the *Opacity* controls the transparency of this foreground.
 
 
 

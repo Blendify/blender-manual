@@ -11,9 +11,12 @@ Type
    Displays the type of strip selected.
 Blend Mode
    Controls how the strip affects other strips.
-   See :term:`Color Blend Modes` for details on each blending mode.
+   Autoblending modes remove the need for separate effect strips.
+
+   Replace
+      A strip replaces the output image of any lower-level strips.
 Opacity
-   Set the opacity of the strip.
+   Set the opacity (alpha) of the strip.
 Mute (eye icon)
    Hides the strip so that it does not participate in the final image computation.
 Lock (padlock icon)
