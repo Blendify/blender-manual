@@ -7,6 +7,8 @@ Navigating in the 3D space is done with the use of both mouse movement and keybo
 
 Orbit :kbd:`MMB`
    Rotate the view around the point of interest.
+Roll
+   Rotate the viewport camera around its local Z axis.
 Pan :kbd:`Shift-MMB`
    Move the view up, down, left and right.
 Zoom :kbd:`Ctrl-MMB`, :kbd:`Wheel`
@@ -24,44 +26,31 @@ For example, it is possible to translate and zoom a Properties editor and its pa
    page of the manual to learn how to use them with Blender.
 
 
-Rotating
-========
+Orbit
+=====
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     :menuselection:`View --> Navigation`
+   | Menu:     :menuselection:`View --> Navigation --> Orbit`
    | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
       :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
-Blender provides four default viewing directions: *Side*, *Front*, *Top* and *Camera* view.
-Blender uses a right-angled "Cartesian" coordinate system with the Z axis pointing upwards.
-"Side" corresponds to looking along the X axis, in the negative direction,
-"Front" along the Y axis, and "top" along the Z axis.
-The *Camera* view shows the current scene as seen from the camera view point.
-
-
-Options
--------
-
-You can select the viewing direction for a 3D View with the *View* menu entries,
-or by pressing the hotkeys :kbd:`Numpad3` for "side", :kbd:`Numpad1` for "front",
-:kbd:`Numpad7` for "top". You can select the opposite directions if you hold
-:kbd:`Ctrl` while using the same numpad shortcuts.
-Finally :kbd:`Numpad0` gives access to the "camera" viewpoint.
 
 Apart from these four default directions, the view can be rotated to any angle you wish.
 Click and drag :kbd:`MMB` on the viewport's area.
 If you start in the middle of the area and move up and down or left and right,
-the view is rotated around the middle of the area. Alternatively,
-if the *Emulate 3 button mouse* option is select in the *User Preferences* you can press and hold
-:kbd:`Alt` while dragging :kbd:`LMB` in the viewport's area.
+the view is rotated around the middle of the area.
+
+Alternatively, if the *Emulate 3 button mouse* option is select in the *User Preferences*
+you can press and hold :kbd:`Alt` while dragging :kbd:`LMB` in the viewport's area.
 
 To change the viewing angle in discrete steps, use :kbd:`Numpad8` and :kbd:`Numpad2`
 (which correspond to vertical :kbd:`MMB` dragging, from any viewpoint),
 or use :kbd:`Numpad4` and :kbd:`Numpad6` (or :kbd:`Ctrl-Alt-Wheel`)
 to rotate the scene around the Z global axis from your current point of view.
+Finally :kbd:`Numpad9` switches to the opposite side of the view.
 
 .. note:: Hotkeys
 
@@ -74,6 +63,19 @@ to rotate the scene around the Z global axis from your current point of view.
    - :ref:`Auto-Perspective Preference <prefs-interface-auto-perspective>`
 
 
+Roll
+====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`View --> Navigation --> Roll`
+   | Hotkey:   :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`
+
+Rotate the viewport camera around its local Z axis in 15° discrete steps.
+
+
 Panning
 =======
 
@@ -81,14 +83,15 @@ Panning
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     :menuselection:`View --> Navigation`
+   | Menu:     :menuselection:`View --> Navigation --> Pan`
    | Hotkey:   :kbd:`Shift-MMB` , :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
-      :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`, :kbd:`Shift-Alt-LMB`
+      :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`
 
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D View.
 For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
 :kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with rotating (note:
 you can replace :kbd:`Ctrl` by :kbd:`Shift`).
+
 For those without a middle mouse button,
 you can hold :kbd:`Shift-Alt` while dragging with :kbd:`LMB`.
 
@@ -100,7 +103,7 @@ Zooming
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     :menuselection:`View --> Navigation`
+   | Menu:     :menuselection:`View --> Navigation --> Zoom`
    | Hotkey:   :kbd:`Ctrl-MMB`, :kbd:`Wheel`, :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
 
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.

@@ -12,8 +12,9 @@ Camera View
    | Hotkey:   :kbd:`Numpad0`
 
 
-Cameras View can be used to virtually compose shots and preview how the scene will look when rendered.
-Pressing :kbd:`Numpad0` will show the scene as viewed from the currently active camera.
+The Camera view shows the current scene as seen from the currently active camera's view point.
+It can be activated by pressing :kbd:`Numpad0`.
+The Camera view can be used to virtually compose shots and preview how the scene will look when rendered.
 In this view you can also set the *Render Border* which defines the portion of the 3D View to be rendered.
 
 .. list-table:: Camera view provides a preview for the final rendered image.
