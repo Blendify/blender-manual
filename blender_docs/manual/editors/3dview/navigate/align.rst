@@ -5,8 +5,20 @@ Aligning
 
 These options allow you to align and orient the view.
 
+
+.. (todo) add negative/positive direction
+
 Axes
 ====
+
+Blender uses a right-angled "Cartesian" coordinate system with the Z axis pointing upwards.
+*Left*/ *Right* corresponds to looking along the X axis,
+*Front*/ *Back* along the Y axis, and
+*Top*/ *Bottom* along the Z axis.
+
+You can select the viewing direction for a 3D View with the *View* menu entries,
+or by pressing the hotkeys. You can select the opposite directions if you hold
+:kbd:`Ctrl` while using the same numpad shortcuts.
 
 These operators change the view to be aligned with the specified global axes:
 
