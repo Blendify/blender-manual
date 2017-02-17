@@ -75,6 +75,8 @@ The shading panel in the Properties Region provides additional control over the 
 Textured Solid
    Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
    (*Not* available in the Cycles Render Engine).
+Shadeless
+   Textured mode only -- Draws textures without shading.
 Matcap
    "Matcaps" are images mapped on a normal.
    It provides a quick way to define visible material properties for modeling and sculpting.
