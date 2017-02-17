@@ -20,6 +20,10 @@ When moving the original object, it might be necessary to delete the particle sy
 disable the fluidsim particles, and enable them again.
 The fluidsim particles are currently also unaffected by any other particle forces or settings.
 
+
+Options
+=======
+
 Influence
    Size Influence
       The particles can have different sizes, if this value is 0 all are forced to be the same size.

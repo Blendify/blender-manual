@@ -18,6 +18,9 @@ The Hinge is the only 1-axis rotational constraint that uses the Z axis instead 
 If something is wrong with your hinge, check your other constraints to see if this might be the problem.
 
 
+Options
+=======
+
 Limits
    Z Angle
       Enables/disables limit rotation around Z axis.

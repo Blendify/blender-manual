@@ -13,6 +13,10 @@ and radiating properly (use the *Flip Normal* button, in *Edit Mode*,
 Applying a :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
 before baking the simulation could also be a good idea if the mesh is not animated.
 
+
+Options
+=======
+
 Volume Initialization Type
    See :ref:`Volume Initialization Type <fluid-initialization>`
 

@@ -35,6 +35,9 @@ Options
    Collision Panel.
 
 
+Particle
+--------
+
 Permeability
    Fraction of particles passing through the mesh.
 Stickiness
@@ -59,8 +62,8 @@ Random friction
    A softbody vertex colliding with a plane.
 
 
-Soft Body and Cloth Interaction
-===============================
+Soft Body and Cloth
+-------------------
 
 Outer
    Size of the outer collision zone.
@@ -69,6 +72,10 @@ Inner
 
 Outside and inside is defined by the face normal, depicted as blue arrow in Fig. :ref:`fig-collision-soft-plane`.
 
+
+Soft Body Damping
+-----------------
+
 Damping Factor
    Damping during a collision.
 
@@ -76,8 +83,8 @@ Damping Factor
 the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies </physics/soft_body/index>`.
 
 
-Force Field Interaction
-=======================
+Force Field
+-----------
 
 Absorption
    A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific
