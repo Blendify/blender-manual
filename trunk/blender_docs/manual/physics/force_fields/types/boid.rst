@@ -21,8 +21,9 @@ in this case) adhering to a set of simple rules.
    UI for a Boid force field.
 
 The rules applied in the simplest Boids world are as follows:
-- separation: steer to avoid crowding local flock mates
-- alignment: steer towards the average heading of local flock mates
-- cohesion: steer to move toward the average position (center of mass) of local flock mates
+
+- Separation: steer to avoid crowding local flock mates
+- Alignment: steer towards the average heading of local flock mates
+- Cohesion: steer to move toward the average position (center of mass) of local flock mates
 
 More complex rules can be added, such as obstacle avoidance and goal seeking.

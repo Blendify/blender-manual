@@ -54,6 +54,10 @@ Fall-off
    This setting governs the strength of the guide between *Min Distance* and *Max Distance*.
    A *Fall-off* of 1 means a linear progression.
 
+
+Path
+-----
+
 A particle follows a *Curve Guide* during its lifetime,
 the velocity depends on its lifetime and the length of the path.
 
@@ -64,6 +68,10 @@ Weights
 Maximum Distance / Use Max
    The maximum influence radius. Shown by an additional circle around the curve object.
 
+
+Clumping
+--------
+
 The other settings govern the form of the force field along the curve.
 
 Clumping Amount
@@ -73,9 +81,13 @@ Shape
    +0.99: the particles meet at the end of the curve.
    0: linear progression along the curve. -0.99: the particles meet at the beginning of the curve.
 
-Kink
-   Changes the shape that the particles can take:
 
+Kink
+----
+
+Changes the shape that the particles can take:
+
+Type
    Curl
       The radius of the influence depends on the distance of the curve to the emitter.
    Radial
@@ -95,11 +107,17 @@ It is not so easy to describe the resulting shapes, so have a look at the exampl
    Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
    `Animation <https://vimeo.com/1866538>`__.
 
+Axis
+   ToDo.
 Frequency
    The frequency of the offset.
-Shape
-   Adjust the offset to the beginning/end.
 Amplitude
    The Amplitude of the offset.
+Shape
+   Adjust the offset to the beginning/end.
+
+
+Example
+=======
 
 .. vimeo:: 182780872
