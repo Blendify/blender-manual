@@ -5,19 +5,10 @@ Navigation
 
 Navigating in the 3D space is done with the use of both mouse movement and keyboard shortcuts.
 
-Orbit :kbd:`MMB`
-   Rotate the view around the point of interest.
-Roll
-   Rotate the viewport camera around its local Z axis.
-Pan :kbd:`Shift-MMB`
-   Move the view up, down, left and right.
-Zoom :kbd:`Ctrl-MMB`, :kbd:`Wheel`
-   Move the camera forwards and backwards.
-
 To be able to work in the three dimensional space that Blender uses,
 you must be able to change your viewpoint as well as the viewing direction of the scene.
-While we will describe the *3D View* editor, most of the other windows have similar functions.
-For example, it is possible to translate and zoom a Properties editor and its panels.
+While we will describe the *3D View* editor, most of the other editors have similar functions.
+For example, it is possible to translate and zoom in the UV/Image editor.
 
 .. tip:: Mouse Buttons and Numpad
 
@@ -37,20 +28,19 @@ Orbit
    | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
       :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
-
-Apart from these four default directions, the view can be rotated to any angle you wish.
+Rotate the view around the point of interest.
 Click and drag :kbd:`MMB` on the viewport's area.
 If you start in the middle of the area and move up and down or left and right,
 the view is rotated around the middle of the area.
 
-Alternatively, if the *Emulate 3 button mouse* option is select in the *User Preferences*
-you can press and hold :kbd:`Alt` while dragging :kbd:`LMB` in the viewport's area.
-
 To change the viewing angle in discrete steps, use :kbd:`Numpad8` and :kbd:`Numpad2`
 (which correspond to vertical :kbd:`MMB` dragging, from any viewpoint),
 or use :kbd:`Numpad4` and :kbd:`Numpad6` (or :kbd:`Ctrl-Alt-Wheel`)
-to rotate the scene around the Z global axis from your current point of view.
+to rotate the scene around the global Z axis from your current point of view.
 Finally :kbd:`Numpad9` switches to the opposite side of the view.
+
+Alternatively, if the *Emulate 3 button mouse* option is select in the *User Preferences*
+you can press and hold :kbd:`Alt` while dragging :kbd:`LMB` in the viewport's area.
 
 .. note:: Hotkeys
 
@@ -71,7 +61,7 @@ Roll
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation --> Roll`
-   | Hotkey:   :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`
+   | Hotkey:   :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`, :kbd:`Ctrl-Shift-Wheel`
 
 Rotate the viewport camera around its local Z axis in 15° discrete steps.
 
@@ -87,10 +77,11 @@ Panning
    | Hotkey:   :kbd:`Shift-MMB` , :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
       :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`
 
+Moves the view up, down, left and right.
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D View.
 For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
-:kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with rotating (note:
-you can replace :kbd:`Ctrl` by :kbd:`Shift`).
+:kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with orbiting
+(note: you can replace :kbd:`Ctrl` by :kbd:`Shift`).
 
 For those without a middle mouse button,
 you can hold :kbd:`Shift-Alt` while dragging with :kbd:`LMB`.
@@ -106,15 +97,12 @@ Zooming
    | Menu:     :menuselection:`View --> Navigation --> Zoom`
    | Hotkey:   :kbd:`Ctrl-MMB`, :kbd:`Wheel`, :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
 
+Moves the camera forwards and backwards.
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
 The hotkeys are :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
 The :menuselection:`View --> Navigation` sub-menu holds these functions too as well.
 Refer to the 3D View's *View* menu image above for more information.
-
-If you have a wheel mouse, you can perform all of the actions in the 3D View that you
-would do with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` by rotating the :kbd:`Wheel`.
-To zoom a Properties editor,
-hold :kbd:`Ctrl-MMB` and move your mouse up and down.
+If you have a wheel mouse, you can zoom by rotating the :kbd:`Wheel`.
 
 .. hint:: If You Get Lost
 
