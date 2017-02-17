@@ -14,6 +14,10 @@ green for the Y-axis and blue for the Z-axis
 a value larger than 0.5 acceleration in negative axis direction (like -Z),
 a value smaller than 0.5 acceleration in positive axis direction (like +Z).
 
+
+Options
+=======
+
 .. figure:: /images/force_field_panel_texture.jpg
 
    UI for a Texture force field.

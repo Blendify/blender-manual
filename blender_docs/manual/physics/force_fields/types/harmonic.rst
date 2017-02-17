@@ -13,6 +13,10 @@ If you set the *Damping* parameter to 1,
 the movement is stopped in the moment the object is reached.
 This force field is really special if you assign it to particles.
 
+
+Options
+=======
+
 .. figure:: /images/force_field_panel_harmonic.jpg
 
    UI for a Harmonic force field.
@@ -25,6 +29,10 @@ Multiple Springs
 Normally every particle of the field system influences every particle of the target system.
 Not with *Harmonic* ! Here every target particle is assigned to a field particle.
 So particles will move to the place of other particles, thus forming shapes.
+
+
+Example
+=======
 
 Tutorial: `Particles forming Shapes
 <https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particles_forming_Shapes>`__.

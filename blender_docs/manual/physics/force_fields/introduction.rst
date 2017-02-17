@@ -5,8 +5,8 @@ Introduction
 
 Force Fields offer a way to add extra movement to dynamic systems.
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`,
-`Rigid Bodies <https://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and
-:doc:`Cloth objects </physics/cloth/index>` can all be affected by forces fields.
+`Rigid Bodies </physics/rigid_body/index>`, and :doc:`Cloth objects </physics/cloth/index>`
+can all be affected by forces fields.
 Force Fields automatically affect everything.
 To remove a simulation or particle system from their influence,
 simply turn down the influence of that type of Force Field in its Field Weights panel.
@@ -75,8 +75,16 @@ Settings unique to a field type are described below.
 Curve Guide and Texture Fields have very different options.
 
 Shape
-   The field is either a *Point*, with omni-directional influence, or a *Plane*,
-   constant in the XY-plane, changes only in Z direction.
+   The field is either a:
+
+   Point
+      Point with omni-directional influence.
+   Plane
+      Constant in the XY-plane, changes only in Z direction.
+   Surface
+      ToDo.
+   Every Point
+      ToDo.
 Strength
    The strength of the field effect.
    This can be positive or negative to change the direction that the force operates in.
@@ -89,7 +97,7 @@ Noise
 Seed
    Changes the seed of the random noise.
 Effect Point
-   You can toggle the field's effect on particle *Location* and *Rotation*
+   You can toggle the field's effect on particle *Location* and *Rotation*.
 
 Collision Absorption
    Force gets absorbed by collision objects.
@@ -101,18 +109,18 @@ Falloff
 Here you can specify the shape of the force field
 (if the *Fall-off* Power is greater than 0).
 
-Sphere
-   Falloff is uniform in all directions, as in a sphere.
-Tube
-   Fall off results in a tube shaped force field.
-   The Field's *Radial falloff* can be adjusted,
-   as well as the *Minimum* and *Maximum* distances of the field.
-Cone
-   Fall off results in a cone shaped force field. Additional options are the same as those of *Tube* options.
+Falloff Type
+   Sphere
+      Falloff is uniform in all directions, as in a sphere.
+   Tube
+      Fall off results in a tube shaped force field.
+      The Field's *Radial falloff* can be adjusted,
+      as well as the *Minimum* and *Maximum* distances of the field.
+   Cone
+      Fall off results in a cone shaped force field. Additional options are the same as those of *Tube* options.
 
 Z Direction
    *Fall-off* can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.
-
 Power (Power)
    How the power of the force field changes with the distance from the force field.
    If *r* is the distance from the center of the object, the force changes with 1/ *r*\ :sup:`power`\.
