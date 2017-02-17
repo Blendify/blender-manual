@@ -10,6 +10,10 @@ To define any mesh object as a *Smoke Collision* object,
 add smoke physics by clicking *Smoke* in :menuselection:`Properties --> Physics`.
 Then select *Collision* as the *Smoke Type*.
 
+
+Options
+=======
+
 .. figure:: /images/smoke_collision_settings.png
    :align: right
 

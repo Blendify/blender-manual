@@ -70,7 +70,7 @@ Collision shapes
 The *Shape* option determines the collision shape of the object. The following Collision Shapes are available:
 
 Primitive shapes
-   these are best in terms of memory/performance but do not
+   These are best in terms of memory/performance but do not
    necessarily reflect the actual shape of the object.
    They are calculated based on the object's bounding box.
    The center of gravity is always in the middle for now.
@@ -89,7 +89,7 @@ Primitive shapes
       This points up the Z-Axis.
       The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
 Mesh based shapes
-   these are calculated based on the geometry of the object so they are a better representation of the object.
+   These are calculated based on the geometry of the object so they are a better representation of the object.
    The center of gravity for these shapes is the object origin.
 
    Convex Hull
@@ -153,10 +153,10 @@ Deactivation
       (improves performance and stability, but can cause glitches).
    Start Deactivated
       Starts objects deactivated. They are activated on collision with other objects.
-   Linear Vel
+   Linear Velocity
       Specifies the linear deactivation velocity below which the rigid body is deactivated and simulation stops
       simulating object.
-   Angular Vel
+   Angular Velocity
       Specifies the angular deactivation velocity below which the rigid body is deactivated and simulation stops
       simulating object.
 

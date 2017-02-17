@@ -14,6 +14,10 @@ Combining an absolute rotation and translation clamp would behave much like the 
 Using a non-zero spread on any parameter allows it to rattle
 around in that range throughout the course of the simulation.
 
+
+Options
+=======
+
 Limits
    X Axis/Y Axis/Z axis
       Enables/disables limit translation on X, Y or Z axis respectively.

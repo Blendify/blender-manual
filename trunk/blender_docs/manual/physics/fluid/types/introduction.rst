@@ -13,14 +13,15 @@ Animated Mesh/Export
 
 Click this button if the network is animated (eg . Deformed by an armature, shape keys, or lattice).
 It can become very slow and is not necessary if the network's position and rotation are animated.
-(ie only object transformations).
+(i.e. only object transformations).
+
 
 .. _fluid-initialization:
 
 Volume Initialization Type
 --------------------------
 
-A common option amoung the different fluid types is *Volume Initialization*.
+A common option among the different fluid types is *Volume Initialization*.
 
 Volume
    The inside of the object is initialized as fluid all. This works only if the mesh is closed.

@@ -8,6 +8,10 @@ It also allows rotation around the X axis of the constraint object.
 It is like a combination of the freedoms of a slider with the freedoms of a hinge
 (neither of which is very free alone).
 
+
+Options
+=======
+
 Limits
    X Axis
       Enables/disables limit translation around X axis.

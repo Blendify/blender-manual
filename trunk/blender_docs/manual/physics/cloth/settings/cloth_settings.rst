@@ -140,6 +140,10 @@ Sewing Force
    recommended to leave the field at zero in most cases, as it can cause instability due to
    extreme forces in the initial frames where the ends of the sewing springs are far apart.
 
+
+Shrinking
+---------
+
 The *Cloth Sewing Springs* panel also contains controls for shrinking the actual cloth faces.
 
 Shrinking Group
