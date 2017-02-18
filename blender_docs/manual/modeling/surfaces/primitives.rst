@@ -11,8 +11,8 @@ Primitives
    | Menu:     :menuselection:`Add --> Surface`
    | Hotkey:   :kbd:`Shift-A`
 
-To help get started in creating surfaces there are four preset NURBS surfaces, found in the
-:menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:`NURBS Tube`,
+To help get started in creating surfaces there are four preset :term:`NURBS` surfaces,
+found in the :menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:`NURBS Tube`,
 :menuselection:`NURBS Sphere` and :menuselection:`NURBS Torus`.
 
 .. figure:: /images/modeling_surfaces_introduction_primitives-surface.png
@@ -28,4 +28,10 @@ There are also two preset NURBS surface curves (with only one control point on e
    NURBS curve primitives.
 
 
-Note how a circle NURBS surface is never filled, unlike its "real" curve counterpart...
+Note how a circle :term:`NURBS` surface is never filled, unlike its "real" curve counterpart...
+
+Common Options
+==============
+
+Radius, Align to View, Location, Rotation
+   See :ref:`Common Object Options <object-common-options>`.

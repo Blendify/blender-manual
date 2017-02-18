@@ -48,8 +48,8 @@ Speaker
    :doc:`Speaker </render/audio/speaker>` brings to scene source of sound.
 Camera
    This is the virtual camera that is used to determine what appears in the render.
-   See Cameras in :doc:`Blender Internal </render/blender_render/camera/index>`,
-   :doc:`Cycles </render/cycles/camera>`.
+   See Cameras in :doc:`Blender Internal </render/blender_render/camera/index>`
+   and :doc:`Cycles </render/cycles/camera>`.
 Lamp
    These are used to place light sources in the scene.
    See Lamps in :doc:`Blender Internal </render/blender_render/lighting/lamps/index>`,
@@ -63,6 +63,7 @@ Group Instance
    Once selected, an Empty object will be created, with an instance of the selected group (group duplication active).
    See :doc:`/editors/3dview/object/properties/duplication/dupligroup`.
 
+.. _object-common-options:
 
 Common Options
 ==============
@@ -71,6 +72,10 @@ You can change the options of the object in the Operator panel just after creati
 
 Type
    Some objects let you change its type after creation with a selector.
+Radius/Size
+   Sets the starting size.
+
+   .. from the center to what? compare plane to circle (3 vertices)
 
 Align to View
    By default objects are aligned to the global space axes.
@@ -80,4 +85,3 @@ Location
    These values let you place the object in an other position.
 Rotation
    Values let you rotate the object so that default rotation is overridden.
-
