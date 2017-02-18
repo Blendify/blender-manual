@@ -37,22 +37,22 @@ Repeat
 
    .. list-table:: With a factor of 0.5.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_repeat0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat0.jpg
              :width: 130px
 
              Repeat: 0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_repeat1.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat1.jpg
              :width: 130px
 
              Repeat: 1.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_repeat5.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat5.jpg
              :width: 130px
 
              Repeat: 5.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_repeat10.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat10.jpg
              :width: 130px
 
              Repeat: 10.
@@ -60,22 +60,22 @@ Repeat
 
    .. list-table:: With a factor of 2.0.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat0.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_repeat0.png
              :width: 130px
 
              Repeat: 0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat1.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_repeat1.png
              :width: 130px
 
              Repeat: 1.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat5.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_repeat5.png
              :width: 130px
 
              Repeat: 5.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat10.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_repeat10.png
              :width: 130px
 
              Repeat: 10.
@@ -83,22 +83,22 @@ Repeat
 
    .. list-table:: With a factor of -0.5.
 
-      * - .. figure:: /images/apinzonf_diagram_camel_repeat0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_repeat0.jpg
              :width: 130px
 
              Repeat: 0.
 
-        - .. figure:: /images/apinzonf_diagram_camel_repeat1.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_repeat1.jpg
              :width: 130px
 
              Repeat: 1.
 
-        - .. figure:: /images/apinzonf_diagram_camel_repeat5.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_repeat5.jpg
              :width: 130px
 
              Repeat: 5.
 
-        - .. figure:: /images/apinzonf_diagram_camel_repeat10.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_repeat10.jpg
              :width: 130px
 
              Repeat: 10.
@@ -115,62 +115,62 @@ Factor
 
    .. list-table::
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_lambda0_0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_lambda0_0.jpg
              :width: 130px
 
              Factor: 0.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_lambda0_5.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_lambda0_5.jpg
              :width: 130px
 
              Factor: 0.5.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_lambda.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_lambda.jpg
              :width: 130px
 
              Factor: 2.5.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_lambda5_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_lambda5_0.jpg
              :width: 130px
 
              Factor: 5.0.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_lambda0_0.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_lambda0_0.png
              :width: 130px
 
              Factor: 0.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_lambda1_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_lambda1_0.jpg
              :width: 130px
 
              Factor: 1.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_lambda10_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_lambda10_0.jpg
              :width: 130px
 
              Factor: 10.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_lambda50_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_lambda50_0.jpg
              :width: 130px
 
              Factor: 50.0.
 
-      * - .. figure:: /images/apinzonf_diagram_camel_lambda0_0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_lambda0_0.jpg
              :width: 130px
 
              Factor: 0.0.
 
-        - .. figure:: /images/apinzonf_diagram_camel_lambda20_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_lambda20_0.jpg
              :width: 130px
 
              Factor: -20.0.
 
-        - .. figure:: /images/apinzonf_diagram_camel_lambda50_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_lambda50_0.jpg
              :width: 130px
 
              Factor: -50.0.
 
-        - .. figure:: /images/apinzonf_diagram_camel_lambda300_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_lambda300_0.jpg
              :width: 130px
 
              Factor: -300.0.
@@ -186,22 +186,22 @@ Border
 
    .. list-table:: With a factor of 2.5.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_border0_0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_border0_0.jpg
              :width: 130px
 
              Border: 0.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_border1_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_border1_0.jpg
              :width: 130px
 
              Border: 1.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_border.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_border.jpg
              :width: 130px
 
              Border: 2.5.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_border10_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_border10_0.jpg
              :width: 130px
 
              Border: 10.0.
@@ -209,22 +209,22 @@ Border
 
    .. list-table:: With a factor of 20.0.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_border0_0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_border0_0.jpg
              :width: 130px
 
              Border: 0.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_border1_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_border1_0.jpg
              :width: 130px
 
              Border: 1.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_border5_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_border5_0.jpg
              :width: 130px
 
              Border: 5.0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_border20_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_border20_0.jpg
              :width: 130px
 
              Border: 20.0.
@@ -253,48 +253,50 @@ Border
              Border: -200.0.
 
 
-X, Y, Z
+Axis
    Toggle buttons to enable/disable deforming vertices in the X, Y and/or Z axis directions.
+
+   X, Y, Z
 
 
    .. list-table::
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_axis.png
              :width: 130px
 
              X, Y, Z: Unselected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis_xyz.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_axis_xyz.jpg
              :width: 130px
 
              X, Y, Z: Selected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis_xy.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_axis_xy.jpg
              :width: 130px
 
              X, Y: Selected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis_x.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_axis_x.png
              :width: 130px
 
              X: Selected.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_axis.png
              :width: 130px
 
              X, Y, Z: Unselected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis_xyz.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_axis_xyz.jpg
              :width: 130px
 
              X, Y, Z: Selected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis_xy.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_axis_xy.jpg
              :width: 130px
 
              X, Y: Selected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis_x.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_axis_x.png
              :width: 130px
 
              X: Selected.
@@ -307,22 +309,22 @@ Preserve Volume
 
    .. list-table::
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_volumefalse.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_volumefalse.png
              :width: 130px
 
              Off.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_volumetrue.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_volumetrue.jpg
              :width: 130px
 
              On.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_volume2false.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_volume2false.jpg
              :width: 130px
 
              Off.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_volume2true.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_volume2true.jpg
              :width: 130px
 
              On.
@@ -340,40 +342,40 @@ Vertex Group
         - No Group Chosen
         - Vertex Weights
         - Result
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_repeat0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat0.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_lambda.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_lambda.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_femme_paint.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_femme_paint.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_femme_wgroup.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_femme_wgroup.jpg
              :width: 130px
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_normal.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_normal.png
              :width: 130px
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_smooth.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_smooth.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_paint.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_paint.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_wgroup.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_wgroup.png
              :width: 130px
 
-      * - .. figure:: /images/apinzonf_diagram_camel_vertex0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_vertex0.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_diagram_camel_vertex1.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_vertex1.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_diagram_camel_vertex2.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_vertex2.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_diagram_camel_vertex3.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_vertex3.jpg
              :width: 130px
 
 
@@ -383,22 +385,22 @@ Normalized
 
    .. list-table::
 
-      * - .. figure:: /images/apinzonf_diagram_monkey_normalized0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_monkey_normalized0.jpg
              :width: 130px
 
              Original Geometry.
 
-        - .. figure:: /images/apinzonf_diagram_monkey_normalized1.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_monkey_normalized1.jpg
              :width: 130px
 
              On.
 
-        - .. figure:: /images/apinzonf_diagram_monkey_normalized2.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_monkey_normalized2.jpg
              :width: 130px
 
              Off.
 
-        - .. figure:: /images/apinzonf_diagram_monkey_normalized3.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_monkey_normalized3.jpg
              :width: 130px
 
              Off, High Factor.
@@ -416,13 +418,13 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/apinzonf_gsoc_2012_diagram_repeat0.jpg
+   * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat0.jpg
           :width: 200px
 
           `Femme Front blend-file
           <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__.
 
-     - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_wgroup.png
+     - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t_wgroup.png
           :width: 200px
 
           `Cube Smooth blend-file
