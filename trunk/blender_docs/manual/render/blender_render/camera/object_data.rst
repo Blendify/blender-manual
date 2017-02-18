@@ -200,9 +200,9 @@ Distance
       Then click on a point in the 3D View to sample the distance from that point to the camera.
 
 High Quality
-   In order for the viewport to offer an accurate representation of depth of field,
+   In order for the viewport to offer an accurate representation of depth of field (blur radius calculation),
    like a render, you must enable High Quality. Without it, you may notice a
-   difference in shading.
+   difference in shading. (Greyed out if not supported by the GPU).
 Viewport F-stop
    Controls the real-time focal blur effect used during sequencer or OpenGL rendering and,
    when enabled, camera views in the 3D View.
@@ -247,8 +247,11 @@ Size
    Size of the camera icon in the 3D View. This setting has no effect on the render output of a camera,
    and is only a cosmetic setting.
    The camera icon can also be scaled using the standard Scale :kbd:`S` transform key.
-Passepartout, Alpha
-   This mode darkens the area outside of the camera's field of view, based on the *Alpha* setting.
+Passepartout
+   This option darkens the area outside of the camera's field of view.
+
+   Alpha
+      Controls the transparency of the passepartout mask.
 
 
 Composition Guides
@@ -302,6 +305,10 @@ In Blender, safe areas can be set from the Camera and Sequencer views.
 
    The Safe areas panel found in the camera properties,
    and the view mode of the sequencer.
+
+The Safe Areas can be customized by their outer margin,
+which is a percentage scale of the area between middle and render size.
+Values are shared between the video sequencer and camera view.
 
 
 Main Safe Areas

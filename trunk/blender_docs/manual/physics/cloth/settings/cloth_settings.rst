@@ -135,6 +135,10 @@ For example the corners of a cloak.
 
 To activate the springs, enable the *Cloth Sewing Springs* panel.
 
+
+Options
+-------
+
 Sewing Force
    Maximum force that can be applied by sewing springs. Zero means unbounded, but it is not
    recommended to leave the field at zero in most cases, as it can cause instability due to
@@ -142,7 +146,7 @@ Sewing Force
 
 
 Shrinking
----------
+^^^^^^^^^
 
 The *Cloth Sewing Springs* panel also contains controls for shrinking the actual cloth faces.
 

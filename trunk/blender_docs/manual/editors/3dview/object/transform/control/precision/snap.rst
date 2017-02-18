@@ -14,7 +14,7 @@ Snap Menu
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
+   | Mode:     Object, Edit, and Pose Mode
    | Menu:     :menuselection:`Object/Object type --> Snap`
    | Hotkey:   :kbd:`Shift-S`
 
@@ -61,6 +61,13 @@ The *Cursor to Selected* option is also affected by the current :ref:`pivot-poin
 Transform Snapping
 ==================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object, Edit, and Pose Mode
+   | Header:    :menuselection:`Snap`
+   | Hotkey:   :kbd:`Shift-Tab`
+
 The ability to snap Objects and Mesh element to various types of scene elements during a
 transformation is available by toggling the magnet icon (which will turn red)
 in the 3D View's header buttons.
@@ -73,13 +80,19 @@ in the 3D View's header buttons.
 .. _transform-snap-element:
 
 Snap Element
-============
+------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object, Edit, and Pose Mode
+   | Header:    :menuselection:`Snap Element`
+   | Hotkey:   :kbd:`Ctrl-Shift-Tab`
 
 .. figure:: /images/editors_3dview_transform_control_precision_snap_element-menu.png
    :align: right
 
    Snap Element menu.
-
 
 Volume
    Snaps to regions within the volume of the first Object found below the mouse cursor.
@@ -104,7 +117,7 @@ Increment
 
 
 Snap Target
-===========
+-----------
 
 Snap target options become active when either *Vertex*, *Edge*,
 *Face*, or *Volume* is selected as the snap element.
@@ -135,7 +148,7 @@ Closest
 
 
 Additional Snap Options
-=======================
+-----------------------
 
 .. list-table::
 
@@ -176,7 +189,7 @@ additional controls are available to alter snap behavior. These options vary bet
 
 
 Multiple Snap Targets
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/editors_3dview_transform_control_precision_snap_target-multiple.png
 
