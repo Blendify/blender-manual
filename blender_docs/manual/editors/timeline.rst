@@ -227,7 +227,7 @@ Start Frame
    The start frame of the animation/playback range.
 End Frame
    The end frame of the animation/playback range.
-Current Frame
+Current Frame :kbd:`Alt-Wheel`
    The current frame of the animation/playback range.
    Also the position of the *Time Cursor*.
 

@@ -30,7 +30,7 @@ If you already have a selection and need to make a different object the active o
 simply re-select it with :kbd:`Shift-RMB`.
 
 All other selected objects are just selected. You can select any number of objects.
-In order to change a property or to perform an operation on all selected objects
+In order to change a property or to perform an operation on all selected objects (bones, and sequencer-strips)
 hold :kbd:`Alt`, while confirming.
 
 

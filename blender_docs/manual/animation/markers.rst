@@ -268,6 +268,18 @@ It is possible to convert standard markers into Pose markers with :menuselection
 Note that the original marker will be gone. If you want to keep it, make a duplicate before you convert.
 
 
+Jump to Next/Previous Marker
+----------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`Marker --> Make Markers Local`
+
+Moves the Time Cursor to the next/previous marker relative to the current Time Cursor position.
+
+
 .. _marker-bind-camera:
 
 Bind Camera to Marker

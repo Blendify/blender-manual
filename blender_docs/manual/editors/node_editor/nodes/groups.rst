@@ -69,13 +69,14 @@ Edit Group
    | Mode:     All Modes
    | Menu:     :menuselection:`Group --> Edit Group`
    | Header:   :menuselection:`Go to Parent Node Tree`
-   | Hotkey:   :kbd:`Tab`
+   | Hotkey:   :kbd:`Tab`, :kbd:`Ctrl-Tab`
 
 With a group node selected, :kbd:`Tab` expands the node to a frame, and the individual nodes within
 it are shown. You can move them around, play with their individual controls, re-thread them internally, etc.
 just like you can if they were a normal part of the editor view. You will not be able, though, to thread them to a
 node outside the group; you have to use the external sockets on the side of the group node. To add or
 remove nodes from the group, you need to ungroup them.
+While :kbd:`Tab` can be used to both enter and exit a group, :kbd:`Ctrl-Tab` only exits.
 
 
 Interface

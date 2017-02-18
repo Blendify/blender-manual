@@ -3,6 +3,12 @@
 Collisions
 **********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Physics --> Collision`
+
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`
 and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
 :doc:`Boids </physics/particles/properties/physics/boids>` try to avoid *Collision* objects.
@@ -18,13 +24,6 @@ and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
 If you change the deflection settings for an object you have to recalculate the particle,
 softbody or cloth system by *Free Cache*, this is not done automatically. You can
 clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
-
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Physics --> Collision`
 
 
 Options

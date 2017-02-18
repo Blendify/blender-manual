@@ -77,10 +77,10 @@ Go to Parent button
 Auto-offset
 ^^^^^^^^^^^
 
-*Auto-offset* is a feature that helps organizing node layouts interactively without interrupting the user workflow.
 When you drop a node with at least one input and one output socket onto an existing connection between two nodes,
 auto-offset will, depending on the direction setting, automatically move the left or right node away to make room
 for the new node.
+Auto-offset is a feature that helps organizing node layouts interactively without interrupting the user workflow.
 
 .. figure:: /images/editors_node-editor_nodes_auto-offset.png
 
