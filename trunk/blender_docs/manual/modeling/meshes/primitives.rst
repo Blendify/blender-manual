@@ -41,21 +41,12 @@ These options can be specified in the Operator panel in the *Tool Shelf*,
 which appears when the object is created.
 Options included in more than one primitive are:
 
-Radius/Size
-   Sets the starting size.
-
-   .. from the center to what? compare plane to circle (3 vertices)
-
 Generate UVs
    Generates a default UV-unwrapping of new geometry.
    This will be defined in the first UVLayer (which will get added if needed).
    (available for plane, cube, circle, UV-/icosphere, tube and cone).
-Align to View
-   Aligns to object to the current viewing plane.
-Location
-   The location of the object in the 3D View.
-Rotation
-   The rotation of the object in the 3D View.
+Radius/Size, Align to View, Location, Rotation
+   See :ref:`Common Object Options <object-common-options>`.
 
 
 Plane

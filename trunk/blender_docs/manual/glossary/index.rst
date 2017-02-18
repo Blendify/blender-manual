@@ -129,21 +129,24 @@ This page lists definitions for terms used in Blender and this manual.
    Child
       An :term:`Object` that is affected by its :term:`Parent`.
 
+   Chromacities
+      The coordinates of the :term:`primaries` on the CIE 1931 xy chromaticity diagram.
+
    Chroma
    Chrominance
       In general, a resulting image color decomposition, where its (*L* or *Y*) luminance channel is separated.
       There are two different contexts whereas this term is used:
 
       Video systems
-         Refers to the general color decomposition resulting in *Y* (Luminance) and *C* (Chrominance) channels, 
+         Refers to the general color decomposition resulting in *Y* (Luminance) and *C* (Chrominance) channels,
          whereas the chrominance is represented by: U = ( Blue minus Luminance ) and V = ( Red minus Luminance ).
       Matte compositing
          Refers to a point in the color gamut surrounded by a mixture
          of a determined spectrum of its RGB neighboring colors.
          This point is called *Chroma key* and this key
-         (a chosen color) is used to create an *Alpha Mask*.         
+         (a chosen color) is used to create an *Alpha Mask*.
          The total amount of gamut space for this chrominance point is defined
-         by users in a circular or square shaped format.  
+         by users in a circular or square shaped format.
 
    Clamp
    Clamping
@@ -158,16 +161,23 @@ This page lists definitions for terms used in Blender and this manual.
 
    Color Space
       A coordinate system in which a vector represent a color value.
+      By doing so, the color space defines three things:
+      
+      - The exact color of each of the primaries
+      - The :term:`White Point`
+      - A transfer function
 
-      RGB
-         Red-Green-Blue traditional primary colors also broadcast directly to most computer monitors.
+      sRGB
+         A color space that uses the Rec .709 primaries and white point but,
+         with a slightly different transfer function.
       HSV
          Three values, often considered as more intuitive (human perception) than the RGB system.
 
          Hue
             The Hue of the color.
          Saturation
-            The quantity of hue in the color (from desaturated -- a shade of gray -- to saturated -- brighter colors).
+            Also known has colorfullness, saturation is the quantity of hue in the color
+            (from desaturated -- a shade of gray -- to saturated -- brighter colors).
          Value
             The brightness of the color (dark to light).
       HSL
@@ -183,7 +193,7 @@ This page lists definitions for terms used in Blender and this manual.
       \+A
          The color space holds an additional :term:`Alpha Channel`.
 
-   Concave face
+   Concave Face
       Face in which one vertex is inside a triangle formed by other vertices of the face.
 
    Constraint
@@ -194,7 +204,7 @@ This page lists definitions for terms used in Blender and this manual.
       It makes decisions to activate muscles (:term:`actuators <actuator>`),
       using either simple logic or complex Python scripts.
 
-   Convex face
+   Convex Face
       Face where, if lines were drawn from each vertex to every other vertex, all lines would remain in the face.
       Opposite of a :term:`concave face`.
 
@@ -421,14 +431,14 @@ This page lists definitions for terms used in Blender and this manual.
    Mipmap
    Mipmapping
       'MIP' is an acronym of the Latin phrase 'multum in parvo', meaning 'much in little'.
-      Mipmaps are progressively lower resolution representations of an image, 
+      Mipmaps are progressively lower resolution representations of an image,
       generally reduced by half squared interpolations using antialiasing.
-      Mipmapping is the procces used to calculate lower resolutions of the 
-      same image, reducing memory usage to help speed visualization, but increasing 
+      Mipmapping is the procces used to calculate lower resolutions of the
+      same image, reducing memory usage to help speed visualization, but increasing
       memory usage for calculations and allocation. Mipmapping is also a procces
       used to create small antialised samples of an image used for texturing.
       The mipmapping calculations are made by CPUs, but modern graphic processors
-      can be selected for this task and are way faster. 
+      can be selected for this task and are way faster.
 
       See the Mipmap option present in the :doc:`System Preferences </preferences/system>`.
 
@@ -443,7 +453,7 @@ This page lists definitions for terms used in Blender and this manual.
    N-gon
       A :term:`face` that contains more than four :term:`vertices <vertex>`.
 
-   Non-linear animation
+   Non-linear Animation
       Animation technique that allows the animator to edit motions as a whole,
       not just the individual keys. Nonlinear animation allows you to combine,
       mix, and blend different motions to create entirely new animations.
@@ -477,13 +487,14 @@ This page lists definitions for terms used in Blender and this manual.
       Normals can be assigned to vertices,
       faces and modulated across a surface using :term:`normal mapping`.
 
-   Normal mapping
+   Normal Mapping
       Is similar to :term:`Bump mapping`, but instead of the image being a grayscale heightmap,
       the colors define in which direction the normal should be shifted,
       the three color channels being mapped to the three directions X, Y and Z.
       This allows more detail and control over the effect.
 
    NURBS
+   Non-uniform Rational Basis Spline
       A computer graphics technique for generating and representing curves and surfaces.
 
    Object
@@ -562,6 +573,9 @@ This page lists definitions for terms used in Blender and this manual.
    Premultiplied Alpha
       See :term:`Alpha Channel`.
 
+   Primaries
+      In color theory, a primary is the absolute maximum value for each of the color models.
+
    Primitive
       A basic object that can be used as a basis for modeling more complicated objects.
 
@@ -623,6 +637,10 @@ This page lists definitions for terms used in Blender and this manual.
    Render
       The process of computationally generating a 2D image from 3D geometry.
 
+   RGB
+      A color model based on the traditional primary colors, Red/Green/Blue.
+      RGB colors are also directly broadcasted to most computer monitors.
+
    Rig
       A system of relationships that determine how something moves. The act of building of such a system.
 
@@ -651,14 +669,14 @@ This page lists definitions for terms used in Blender and this manual.
       Face can be either solid (faces are rendered flat)
       or smooth (faces are smoothed by interpolating the normal on every point of the face).
 
-   Specular light
+   Specular Light
       A light which is reflected precisely, like a mirror.
       Also used to refer to highlights on reflective objects.
 
    Straight Alpha
       See :term:`Alpha Channel`.
 
-   Subsurface scattering
+   Subsurface Scattering
       Mechanism of light transport in which light penetrates the surface of a translucent object,
       is scattered by interacting with the material, and exits the surface at a different point.
       All non-metallic materials are translucent to some degree.
@@ -671,7 +689,7 @@ This page lists definitions for terms used in Blender and this manual.
       If new edges cross a new vertex is created at their crossing point.
 
    Subsurf
-   Subdivision surface
+   Subdivision Surface
       A method of creating smooth higher poly surfaces which can take a low polygon mesh as input.
 
       Sometimes abbreviated to **Subsurf**.
@@ -739,6 +757,10 @@ This page lists definitions for terms used in Blender and this manual.
 
    Weight Painting
       Assigning :term:`vertices` to :term:`Vertex Groups <Vertex Group>` with a weight of 0.0 - 1.0.
+
+   White Point
+      A reference value for white light defined by what happens when all the primaries,
+      of the particular color model, are combined evenly.
 
    World Space
       A 3D coordinate system that originates at a point at the origin of the world.

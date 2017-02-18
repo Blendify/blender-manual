@@ -17,9 +17,7 @@ Primitives
    Add Curve menu.
 
 
-
-In Object Mode, the *Add Curve* menu,
-Blender provides five different curve primitives:
+In Object Mode, the *Add Curve* menu, provides five different curve primitives:
 
 
 Bézier Curve
@@ -37,19 +35,19 @@ Adds a closed, circle-shaped 2D Bézier curve (made of four control points).
 NURBS Curve
 ===========
 
-Adds an open 2D NURBS curve, with four control points, with *Uniform* knots.
+Adds an open 2D :term:`NURBS` curve, with four control points, with *Uniform* knots.
 
 
 NURBS Circle
 ============
 
-Adds a closed, circle-shaped 2D NURBS curve (made of eight control points).
+Adds a closed, circle-shaped 2D :term:`NURBS` curve (made of eight control points).
 
 
 Path
 ====
 
-Adds a NURBS open 3D curve made of five aligned control points,
+Adds a :term:`NURBS` open 3D curve made of five aligned control points,
 with *Endpoint* knots and the *Curve Path* setting enabled.
 
 
@@ -57,3 +55,10 @@ Draw Curve
 ==========
 
 A freehand :doc:`draw tool </modeling/curves/editing/draw>` for curve creation by dragging the mouse.
+
+
+Common Options
+==============
+
+Radius, Align to View, Location, Rotation
+   See :ref:`Common Object Options <object-common-options>`.
