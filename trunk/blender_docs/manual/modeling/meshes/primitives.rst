@@ -41,12 +41,7 @@ These options can be specified in the Operator panel in the *Tool Shelf*,
 which appears when the object is created.
 Options included in more than one primitive are:
 
-Vertices, Segments, Subdivisions
-   Since the edges of a mesh are straight, specifying a number of vertices produces polygonal shapes.
-   e.g. six vertices for a hexagon.
-   The higher the vertex count the closer a circular/spherical shape will be approximated and
-   the shape will appear smoother.
-Radius, Size
+Radius/Size
    Sets the starting size.
 
    .. from the center to what? compare plane to circle (3 vertices)
@@ -55,6 +50,12 @@ Generate UVs
    Generates a default UV-unwrapping of new geometry.
    This will be defined in the first UVLayer (which will get added if needed).
    (available for plane, cube, circle, UV-/icosphere, tube and cone).
+Align to View
+   Aligns to object to the current viewing plane.
+Location
+   The location of the object in the 3D View.
+Rotation
+   The rotation of the object in the 3D View.
 
 
 Plane
@@ -85,7 +86,7 @@ Fill Type
    Triangle Fan
       Fill with triangular faces which share a vertex in the middle.
    N-gon
-      Fill with a single n-gon.
+      Fill with a single :term:`n-gon`.
    Nothing
       Do not fill. Creates only the outer ring of vertices.
 
@@ -163,7 +164,7 @@ Base Fill Type
 Torus
 =====
 
-A doughnut-shaped primitive created by rotating a circle around an axis.
+A dough-nut-shaped primitive created by rotating a circle around an axis.
 The overall dimensions can be defined by two methods.
 
 Operator Presets
