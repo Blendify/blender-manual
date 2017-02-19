@@ -25,6 +25,7 @@ Properties
 Normal Direction
    To manually set a fixed normal direction vector.
    :kbd:`LMB` click and drag on the sphere to set the direction of the normal.
+   Holding :kbd:`Ctrl` while dragging snaps to 45 degree rotation increments.
 
 
 Outputs

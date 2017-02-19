@@ -39,7 +39,7 @@ Delete
 
 The selected objects are deleted from the scene.
 
-Delete Globally
+Delete Globally :kbd:`Shift-X`
    This checkbox in the Operator panel will cause the objects to be deleted from all the scenes where they are linked.
 
 
