@@ -143,99 +143,6 @@ Simple Blending
           Grid Fill Result.
 
 
-Poke Faces
-==========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Poke Faces`
-   | Hotkey:   :kbd:`Alt-P`
-
-This tool fan-fills each face around a central vertex.
-This can be useful as a way to triangulate n-gons, or the *Offset* can be used to make spikes or depressions.
-
-Poke Offset
-   ToDo.
-Offset Relative
-   ToDo.
-Poke Center
-   Weighted Mean, Mean, Bounds
-
-
-Triangulate Faces
-=================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Triangulate Faces`
-   | Hotkey:   :kbd:`Ctrl-T`
-
-As its name intimates, this tool converts each selected quadrangle into two triangles.
-Remember that quads are just a set of two triangles.
-
-
-.. _mesh-faces-tristoquads:
-
-Triangles to Quads
-==================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Triangles to Quads`
-   | Hotkey:   :kbd:`Alt-J`
-
-
-This tool converts the selected triangles into quads by taking adjacent tris and
-removes the shared edge to create a quad, based on a threshold.
-This tool can be performed on a selection of multiple triangles.
-
-This same action can be done on a selection of two tris,
-by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting the
-shared edge and dissolving it with the shortcut :kbd:`X` :menuselection:`--> Dissolve`.
-
-To create a quad, this tool needs at least two adjacent triangles.
-If you have an even number of selected triangles,
-it is also possible not to obtain only quads. In fact,
-this tool tries to create "squarishest" quads as possible from the given triangles,
-which means some triangles could remain.
-
-.. list-table::
-
-   * - .. figure:: /images/fill5.png
-          :width: 320px
-
-          Before converting tris to quads.
-
-     - .. figure:: /images/quadtotris.png
-          :width: 320px
-
-          After converting tris to quads.
-
-All the menu entries and hotkey use the settings defined in the *Mesh Tools* panel:
-
-Max Angle
-   This values, between (0 to 180), controls the threshold for this tool to work on adjacent triangles.
-   With a threshold of 0.0,
-   it will only join adjacent triangles that form a perfect rectangle
-   (i.e. right-angled triangles sharing their hypotenuses).
-   Larger values are required for triangles with a shared edge that is small,
-   relative to the size of the other edges of the triangles.
-Compare UVs
-   When enabled, it will prevent union of triangles that are not also adjacent in the active UV map.
-Compare Vertex Color
-   When enabled, it will prevent union of triangles that have no matching vertex color.
-Compare Sharp
-   When enabled, it will prevent union of triangles that share a edge marked as sharp.
-Compare Materials
-   When enabled, it will prevent union of triangles that do not have the same material assigned.
-
-
 Solidify
 ========
 
@@ -332,6 +239,112 @@ Wireframe
 
 The wireframe tool makes a wireframe from faces by to turning edges into wireframe tubes,
 similar to the :doc:`/modeling/modifiers/generate/wireframe`.
+
+
+Poke Faces
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Poke Faces`
+   | Hotkey:   :kbd:`Alt-P`
+
+This tool fan-fills each face around a central vertex.
+This can be useful as a way to triangulate n-gons, or the *Offset* can be used to make spikes or depressions.
+
+Poke Offset
+   ToDo.
+Offset Relative
+   ToDo.
+Poke Center
+   Weighted Mean, Mean, Bounds
+
+
+Triangulate Faces
+=================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Triangulate Faces`
+   | Hotkey:   :kbd:`Ctrl-T`
+
+As its name intimates, this tool converts each selected quadrangle into two triangles.
+Remember that quads are just a set of two triangles.
+
+
+.. _mesh-faces-tristoquads:
+
+Triangles to Quads
+==================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Triangles to Quads`
+   | Hotkey:   :kbd:`Alt-J`
+
+
+This tool converts the selected triangles into quads by taking adjacent tris and
+removes the shared edge to create a quad, based on a threshold.
+This tool can be performed on a selection of multiple triangles.
+
+This same action can be done on a selection of two tris,
+by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting the
+shared edge and dissolving it with the shortcut :kbd:`X` :menuselection:`--> Dissolve`.
+
+To create a quad, this tool needs at least two adjacent triangles.
+If you have an even number of selected triangles,
+it is also possible not to obtain only quads. In fact,
+this tool tries to create "squarishest" quads as possible from the given triangles,
+which means some triangles could remain.
+
+.. list-table::
+
+   * - .. figure:: /images/fill5.png
+          :width: 320px
+
+          Before converting tris to quads.
+
+     - .. figure:: /images/quadtotris.png
+          :width: 320px
+
+          After converting tris to quads.
+
+All the menu entries and hotkey use the settings defined in the *Mesh Tools* panel:
+
+Max Angle
+   This values, between (0 to 180), controls the threshold for this tool to work on adjacent triangles.
+   With a threshold of 0.0,
+   it will only join adjacent triangles that form a perfect rectangle
+   (i.e. right-angled triangles sharing their hypotenuses).
+   Larger values are required for triangles with a shared edge that is small,
+   relative to the size of the other edges of the triangles.
+Compare UVs
+   When enabled, it will prevent union of triangles that are not also adjacent in the active UV map.
+Compare Vertex Color
+   When enabled, it will prevent union of triangles that have no matching vertex color.
+Compare Sharp
+   When enabled, it will prevent union of triangles that share a edge marked as sharp.
+Compare Materials
+   When enabled, it will prevent union of triangles that do not have the same material assigned.
+
+
+Weld Edges into Faces
+=====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Faces --> Weld Edges into Faces`
+
+A Tool to split selected faces by loose wire edges.
+This can be used in a similar way to the knife tool, but the edges are manually setup first.
 
 
 Rotate Edges

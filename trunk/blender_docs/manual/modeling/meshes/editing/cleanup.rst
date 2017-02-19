@@ -1,7 +1,7 @@
 
-*************
-Mesh Clean-up
-*************
+********
+Clean up
+********
 
 These tools are to help cleanup degenerate geometry and fill in missing areas of a mesh.
 

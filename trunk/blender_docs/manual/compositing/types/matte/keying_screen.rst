@@ -10,6 +10,35 @@ Keying Screen Node
 
 The *Keying Screen* node creates plates for use as a color reference for keying nodes.
 It generates gradients from sampled colors on motion tracking points on movie clips.
+It can be used to deal with uneven colors of green screens.
+
+
+Inputs
+======
+
+This node has no input sockets.
+
+
+Properties
+==========
+
+Movie Clip
+   The selectable clip data-block used as input for the gradient colors.
+Tracking Object
+   Tracking Object to generate the gradient.
+   You will probably want to create new a tracking object in the :ref:`Object <movie-clip-tracking-properties-object>` panel,
+   because tracks used for gradients can not actually be used for camera/object tracking.
+   After this tracks might be placed in places where gradient colors should be sampled. 
+   These tracks could be tracked or moved manually,
+   so gradients would be updating automatically along the movie.
+   Tracks might have an offset for easier tracking of feature-less screens.
+
+
+Outputs
+=======
+
+Screen
+   Gradient image output.
 
 
 Example
@@ -31,7 +60,7 @@ That can result in a bad matte.
 
 .. figure:: /images/compositing-node-keying_screen_bad.jpg
 
-   Exanple of a poor mask: Some of the backdrop is opaque,
+   Example of a poor mask: Some of the backdrop is opaque,
    and some parts of the gun in the foreground are transparent.
 
 If you increase the tolerances on the keying node, it will accept
