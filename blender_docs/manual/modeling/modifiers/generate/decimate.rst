@@ -55,7 +55,7 @@ Ratio
       This is only true if the *Triangulate* option is disabled.
 
 Vertex Group
-   ToDo.
+   A vertex group that controls what parts of the mesh are reduced.
 Factor
    ToDo.
 Triangulate
@@ -69,6 +69,7 @@ Un-Subdivide
 
 Can be thought of as the reverse of subdivide.
 Attempts to remove edges that were the result of a subdivide operation.
+For meshes with a mainly grid based topology (without giving uneven geometry).
 If additional editing has been done after the subdivide operation, the results may be unexpected.
 
 Iterations
@@ -79,7 +80,7 @@ Iterations
 Planar
 ^^^^^^
 
-Dissolve geometry on the same plane.
+Reduces detail on forms comprised of mainly flat surfaces.
 
 Angle Limit
    Dissolve geometry which form angles lower than this setting.

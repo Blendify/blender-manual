@@ -65,9 +65,10 @@ Navigation icon buttons
 Create Directory
    Prompts you to enter the name of a newly created directory inside the current one :kbd:`I`.
 Recursion
-   The number of directory levels to show at once.
+   The number of directory levels to show at once in a flat way.
 
    - None (only the current directory)
+   - Blend File (inside blend-files)
    - One level
    - Two Levels
    - Three levels
@@ -92,18 +93,21 @@ Sorting
 Show hidden
    Shows hidden files (starting with ``.``) :kbd:`H`.
 File filtering
-   Filters files by type.
+   File Type
+      Filters files by type.
 
-   - Folders
-   - blend-files
-   - Backup blend-files
-   - Image files
-   - Movie files
-   - Script files
-   - Font files
-   - Sound files
-   - Text files
+      - Folders
+      - blend-files
+      - Backup blend-files
+      - Image files
+      - Movie files
+      - Script files
+      - Font files
+      - Sound files
+      - Text files
 
+   Data-Block Type
+      Data-block type filtering inside blend-files.
    Search box
       Filter files by name.
 

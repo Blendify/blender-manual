@@ -275,7 +275,7 @@ Jump to Next/Previous Marker
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Make Markers Local`
+   | Menu:     :menuselection:`Marker --> Jump to Next/Previous Marker`
 
 Moves the Time Cursor to the next/previous marker relative to the current Time Cursor position.
 

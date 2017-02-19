@@ -57,6 +57,8 @@ Move Down
    The down arrow moves the item down.
 
 
+.. _ui-presets:
+
 Presets
 =======
 
