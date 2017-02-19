@@ -20,7 +20,7 @@ Erase Paint
 Wetness
    Defines how "wet" new paint is. Wetness is visible on "Paint" surface "wetmap".
    Speed of "Drip" and "Spread" effects also depends on how wet the paint is.
-Use object material
+Use Object Material
    When enabled, you can define a material to be used as brush color.
    This includes material's base color and all textures linked to it, eventually matching the rendered diffuse color.
    This setting is only available when using "Blender Internal" renderer at the moment.
@@ -35,17 +35,16 @@ Source Panel
 
 .. figure:: /images/physics_dynamic-paint_brush_source-panel.png
 
-   Brush source panel.
+   Paint source panel.
 
 
-Brush "Source" setting lets you define how brush influence/intersection is defined.
+Paint Source
+------------
 
-
-There are currently five brush behavior types to choose from,
-each having individual settings for further tweaking:
+Paint Source setting lets you define how brush influence/intersection is defined.
 
 Mesh Volume
-   This the default option. Brush affects all surface point inside the mesh volume.
+   The Brush affects all surface point inside the mesh volume.
 
    .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume.png
 
@@ -55,23 +54,12 @@ Proximity
    Only uses defined distance to the closest point on brush mesh surface.
    Note that inside of the volume is not necessarily affected because it is not close to the surface.
 
-   Proximity falloff type can be "Smooth", "Sharp" or tweaked with a color ramp.
-
    .. figure:: /images/physics_dynamic-paint_brush_source_proximity.png
 
       Source: Proximity. Brush affects all canvas pixels around it.
 
-Project
-   Projects brush to the canvas from a defined direction.
-   Basically this can be considered as "direction aligned" proximity.
-
-   .. figure:: /images/physics_dynamic-paint_brush_source_project.png
-
-      "Project" setting enabled. See how brush only affects canvas in normal direction.
-
 Mesh Volume + Proximity
    Same as volume type, but also has influence over defined distance.
-   Same falloff types as for "Proximity" type are available.
 
    Inner Proximity
       Applies proximity inside the mesh volume.
@@ -82,7 +70,7 @@ Mesh Volume + Proximity
 
       * - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-1.png
 
-             "Volume + Proximity" brush with no additional settings.
+             The Volume + Proximity brush with no additional settings.
 
         - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-2.png
 
@@ -107,9 +95,30 @@ Object Center
 Particle System
    Brush influence is defined by particles from a selected particle system.
 
+   Particle Effect: Solid Radius
+      ToDo.
+   Use Particle Radius
+      Smooth Radius
+
    .. figure:: /images/physics_dynamic-paint_brush_source_particle-system.png
 
       Source: Particle System.
+
+
+Common Options
+--------------
+
+Paint Distance
+   ToDo.
+Project
+   Projects brush to the canvas from a defined direction.
+   Basically this can be considered as "direction aligned" proximity.
+
+   .. figure:: /images/physics_dynamic-paint_brush_source_project.png
+
+      The Project option enabled. See how brush only affects canvas in normal direction.
+Falloff
+   Falloff type can be "Smooth", "Sharp" or tweaked with a color ramp.
 
 
 Velocity Panel
@@ -136,13 +145,13 @@ Replace Color
 Multiply Depth
    Multiplies brushes "depth intersection" effect.
    Basically you can adjust displace and wave strength depending on brush speed.
-Smudge settings
+Do Smudge
    Enabling Smudge makes the brush "smudge" (or "smear") existing colors on the surface as it moves.
-   The strength of this effect can be defined from the "Smudge Strength" property.
+   The strength of this effect can be defined from the *Smudge Strength* property.
 
    Even when smudge is enabled brush still does its normal paint effect.
    If you want a purely smudging brush use zero alpha.
-   It is also possible to have "Erase" option enabled together with smudge.
+   It is also possible to have *Erase* option enabled together with smudge.
 
 
 Waves Panel
