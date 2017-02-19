@@ -259,19 +259,22 @@ Fluid Boundary
 
 This box has all the slip and surface options.
 
-Boundary type
+Slip Type
    The stickiness of the surface of the obstacle,
    to determine the "tacky surface (Surface Adhesion)."
    In the real world, and the tackiness and fluid,
    the granularity of the object surface, tack, determined by the elasticity.
 
    No Slip
-      Fluid will stick To snugly (speed 0).
+      Fluid will stick to snugly (speed 0).
    Free Slip
       Fluid will move on the object (0 normal direction of speed).
    Part Slip
-      It is a two intermediate. It is almost No slip, 1 in the Free exactly the same in 0.
-
+      It is a two intermediate. It is almost *No slip*, 1 in the *Free* exactly the same in 0.
+Amount
+   ToDo.
+Remove Air Bubbles
+   Enable the possibility to remove the "air bubble" around submerged collision object.
 Surface
    Surface Smoothing
       Amount of smoothing to be applied to the fluid surface.

@@ -8,33 +8,37 @@ Dynamic Paint Canvas
 
    Canvas main panel.
 
+Paint Surface
+   A :ref:`list <ui-list-view>` of Dynamic Paint surfaces.
+   These surfaces are basically layers of paint, that work independently from each other.
+   You can define individual settings for them and bake them separately.
 
-The first panel of canvas contains the list of Dynamic Paint surfaces.
-These surfaces are basically layers of paint, that work independently from each other.
-You can define individual settings for them and bake them separately.
-
-If surface type/format allows previewing results in 3D View,
-an eye icon is visible to toggle preview.
-
-The checkbox toggles whether surface is active at all. If not selected,
-no calculations or previews are done.
-
-You can also give each surface a unique name to easily identify them.
+   Show Preview (eye icon)
+      If surface type/format allows previewing results in 3D View,
+      this toggle is visible.
+   Is Active
+      The checkbox toggles whether surface is active at all.
+      If not selected, no calculations or previews are done.
 
 Below you can set surface type and adjust quality and timing settings.
 
-Each surface has a certain format and type.
-Format determines how data is stored and outputted. Currently there are two formats available:
+Format
+   Each surface has a certain format and type.
+   Format determines how data is stored and outputted.
 
-- Image Sequences. Dynamic Paint generates UV wrapped image files of defined resolution as output.
-- Vertex. Dynamic Paint operates directly on mesh vertex data.
-  Results are stored by point cache and can be displayed in viewports.
-  However, using vertex level also requires a highly subdivided mesh to work.
+   Vertex
+      Dynamic Paint operates directly on mesh vertex data.
+      Results are stored by point cache and can be displayed in viewports.
+      However, using vertex level also requires a highly subdivided mesh to work.
+   Image Sequences
+      Dynamic Paint generates UV wrapped image files of defined resolution as output.
 
-From quality settings you can adjust image resolution (for image sequences) and anti-aliasing.
-
-Then you can define surface processing start and end frame, and number of used sub-steps.
-Sub-steps are extra samples between frames, usually required when there is a very fast brush.
+Anti-aliasing/ Quality: Resolution
+   From quality settings you can adjust image resolution (for image sequences) and anti-aliasing.
+Frames
+   Defines surface processing start and end frame.
+Sub-steps
+   Sub-steps are extra samples between frames, usually required when there is a very fast brush.
 
 
 Advanced Panel
@@ -45,54 +49,46 @@ Advanced Panel
 
    Canvas advanced panel.
 
-
 From "Advanced" panel you can adjust surface type and related settings.
 
-Each surface has a "type" that defines what surface is used for. Available types are:
 
-- Paint
-- Displace
-- Waves
-- Weight
+Surface Type
+------------
 
-
-Common Options
---------------
-
-For each surface type there are special settings to adjust.
-Most types have the settings *Dissolve* and *Brush* :
-
-Dissolve
-   used to make the surface smoothly return to its original state during a defined time period.
-Brush Group
-   used to define a specific object group to pick brush objects from.
+Each surface has a "type" that defines what surface is used for.
 
 
 Paint
------
+^^^^^
 
 .. figure:: /images/physics_dynamic-paint_canvas_surface-type_paint.jpg
    :width: 320px
 
    Paint Surface.
 
-
-"Paint" is the basic surface type that outputs color and wetness values.
+Paint is the basic surface type that outputs color and wetness values.
 In case of vertex surfaces results are outputted as vertex colors.
 
 Wetmap is a black-and-white output that visualizes paint wetness. White being maximum wetness,
 black being completely dry. It is usually used as mask for rendering.
 Some "paint effects" affect wet paint only.
 
+Dry
+   Completely disable drying, useful for indefinitely spreading paint
+
+   Color Dry
+      It can be used to define wetness level when paint colors start to shift to surface "background".
+      Lower values can be useful to prevent spreading paint from becoming transparent as it dries,
+      while higher values give better results in general.
+
 
 Displace
---------
+^^^^^^^^
 
 .. figure:: /images/physics_dynamic-paint_canvas_surface-type_displace.jpg
    :width: 320px
 
    Displace Surface.
-
 
 This type of surface outputs intersection depth from brush objects.
 
@@ -103,13 +99,12 @@ This type of surface outputs intersection depth from brush objects.
 
 
 Waves
------
+^^^^^
 
 .. figure:: /images/physics_dynamic-paint_canvas_surface-type_waves.jpg
    :width: 320px
 
    Waves Surface.
-
 
 This surface type produces simulated wave motion. Like displace,
 wave surface also uses brush intersection depth to define brush strength.
@@ -137,13 +132,12 @@ Spring
 
 
 Weight
-------
+^^^^^^
 
 .. figure:: /images/physics_dynamic-paint_canvas_surface-type_weight.jpg
    :width: 320px
 
    Weight Surface.
-
 
 This is a special surface type only available for vertex format.
 It outputs vertex weight groups that can be used by other Blender modifiers and tools.
@@ -154,6 +148,20 @@ It outputs vertex weight groups that can be used by other Blender modifiers and 
    weight surfaces to allow smooth falloff between weight values.
 
 
+Common Options
+--------------
+
+For each surface type there are special settings to adjust.
+Most types have the settings *Dissolve* and *Brush* :
+
+Dissolve
+   Used to make the surface smoothly return to its original state during a defined time period.
+Brush Group
+   Used to define a specific object group to pick brush objects from.
+Influence Scale, Radius Scale
+   For tweaking brush settings individually for each surface.
+
+
 Output Panel
 ============
 
@@ -161,16 +169,29 @@ Output Panel
 
    Canvas output panel.
 
+From Output panel you can adjust how surface outputs its results.
 
-From "Output" panel you can adjust how surface outputs its results.
 
-For "Vertex" format surfaces, you can select a mesh data layer
+Vertex
+------
+
+For *Vertex* format surfaces, you can select a mesh data layer
 (color / weight depending on surface type) to generate results to.
 You can use the "+"/"-" icons to add/remove a data layers of given name.
 If layer with given name is not found, it is shown as red.
 
-For "Image Sequence" surfaces,
-you can define used "UV Layer" and output file saving directory, filenames and image format.
+
+Image Sequence
+--------------
+
+For *Image Sequence* surfaces,
+you can define used UV Maps and output file saving directory, filenames and image format.
+
+
+Initial Color Panel
+===================
+
+ToDo.
 
 
 Effects Panel
@@ -205,5 +226,5 @@ Cache Panel
    Canvas cache panel.
 
 
-This panel is currently only visible for "vertex" format surfaces.
+This panel is currently only visible for *Vertex* format surfaces.
 You can use it to adjust and bake point cache.
