@@ -204,7 +204,7 @@ Distance
 High Quality
    In order for the viewport to offer an accurate representation of depth of field (blur radius calculation),
    like a render, you must enable High Quality. Without it, you may notice a
-   difference in shading. (Greyed out if not supported by the GPU).
+   difference in shading. (Grayed out if not supported by the GPU).
 Viewport F-stop
    Controls the real-time focal blur effect used during sequencer or OpenGL rendering and,
    when enabled, camera views in the 3D View.
@@ -262,7 +262,6 @@ Composition Guides
 *Composition Guides* are available from the menu, which can help when framing a shot.
 There are eight types of guides available:
 
-
 Center
    Adds lines dividing the frame in half vertically and horizontally.
 Center Diagonal
@@ -309,8 +308,8 @@ In Blender, safe areas can be set from the Camera and Sequencer views.
    and the view mode of the sequencer.
 
 The Safe Areas can be customized by their outer margin,
-which is a percentage scale of the area between middle and render size.
-Values are shared between the video sequencer and camera view.
+which is a percentage scale of the area between the center and the render size.
+Values are shared between the Video Sequence editor and camera view.
 
 
 Main Safe Areas

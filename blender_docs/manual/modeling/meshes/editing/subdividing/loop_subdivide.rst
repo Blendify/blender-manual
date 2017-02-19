@@ -134,5 +134,11 @@ Offset Edge Slide
 
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Offset Edge Slide`
+   | Hotkey:   :kbd:`Ctrl-Shift-E`
 
-ToDo.
+Add two edge loops on either side of selected loops.
+
+Cap Endpoint
+   ToDo.
+Edge Slide
+   See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>`.
