@@ -98,6 +98,14 @@ Since it is common for these faces to butt up against one another,
 your geometry will have lots of duplicate vertices.
 Use the Remove Doubles button in the Tools panel.
 
-A short video illustrating this workflow:
+.. rubric:: Demo Video
 
-.. youtube:: diI8xJ9oo_8
+.. only:: builder_html and (not singlehtml)
+
+   A short video illustrating this workflow:
+
+   .. youtube:: diI8xJ9oo_8
+
+.. only:: not builder_html and (singlehtml)
+
+   A short video illustrating this workflow can be found at https://www.youtube.com/watch?v=diI8xJ9oo_8
