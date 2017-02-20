@@ -9,7 +9,7 @@
 
    introduction.rst
    particle_system_panel.rst
-   properties/index.rst
+   emitter/index.rst
    hair/index.rst
    texture_influence.rst
    mode.rst
