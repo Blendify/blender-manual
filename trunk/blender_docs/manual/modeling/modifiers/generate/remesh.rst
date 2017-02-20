@@ -79,6 +79,12 @@ Examples
 
    Remesh Modifier applied to text to improve topology.
 
-.. youtube:: Mh-gUnS2c0Y
+.. only:: builder_html and (not singlehtml)
 
-.. vimeo:: 21096739
+   .. youtube:: Mh-gUnS2c0Y
+
+   .. vimeo:: 21096739
+
+   .. only:: not builder_html and (singlehtml)
+
+      A video can be found at https://www.youtube.com/watch?v=Mh-gUnS2c0Y and https://vimeo.com/21096739

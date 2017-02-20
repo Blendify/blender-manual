@@ -33,4 +33,10 @@ Constraint to F-Curve
 Example
 =======
 
-.. youtube:: KZalGrjGKSA
+.. only:: builder_html and (not singlehtml)
+
+   .. youtube:: KZalGrjGKSA
+
+.. only:: not builder_html and (singlehtml)
+
+   A video can be found at https://www.youtube.com/watch?v=KZalGrjGKSA
