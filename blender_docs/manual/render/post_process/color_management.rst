@@ -24,7 +24,8 @@ along with integrating your own set of color profiles to keep your work lineariz
 Scene Linear Color Space
 ========================
 
-For correct results, different :term:`color spaces` are needed for rendering display and storage of images.
+For correct results, different :term:`color spaces <color space>`
+are needed for rendering display and storage of images.
 Rendering and compositing is best done in scene *linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
@@ -107,9 +108,9 @@ View
    Raw
       Intended for inspecting the image but not for final export.
       Raw gives the image without any color space conversion.
-  Log
-     Intended for inspecting the image but not for final export.
-     Log works similar to Raw but gives a more "flat" view of the image without very dark or light areas.
+   Log
+      Intended for inspecting the image but not for final export.
+      Log works similar to Raw but gives a more "flat" view of the image without very dark or light areas.
 Exposure
    Used to control the image brightness (in stops) applied before color space conversion. :math:`2^(stops) × value`
 Gamma
