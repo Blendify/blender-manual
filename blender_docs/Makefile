@@ -76,6 +76,12 @@ html: .FORCE .SPHINXBUILD_EXISTS
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
 
+html_server: .FORCE .SPHINXBUILD_EXISTS
+	# './' (input), './html/' (output)
+	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
+	manual_use_analytics = True
+	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
+
 singlehtml: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
