@@ -45,7 +45,6 @@ Advanced Panel
 ==============
 
 .. figure:: /images/physics_dynamic-paint_canvas_advanced-panel.png
-   :align: right
 
    Canvas advanced panel.
 
@@ -74,7 +73,7 @@ black being completely dry. It is usually used as mask for rendering.
 Some "paint effects" affect wet paint only.
 
 Dry
-   Completely disable drying, useful for indefinitely spreading paint
+   Completely disable drying is useful for indefinitely spreading paint.
 
    Color Dry
       It can be used to define wetness level when paint colors start to shift to surface "background".

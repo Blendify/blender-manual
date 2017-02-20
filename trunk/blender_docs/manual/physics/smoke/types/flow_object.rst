@@ -26,15 +26,13 @@ Flow Type
 
 Fire
    Emit only fire. Note that the domain will automatically create some smoke to simulate smoke left by burnt fuel.
-
 Smoke
    Emit only smoke.
-
 Fire + Smoke
    Emit both fire and smoke.
-
 Outflow
    Remove smoke and fire. Note that the shape of the outflow will use the object's :term:`bounding box`.
+
 
 Flow Source
 -----------
@@ -77,7 +75,6 @@ Initial Velocity
 
    Source
       Multiplier for inherited velocity. A value of 1 will emit smoke moving at the same speed as the source.
-
    Normal
       When using a mesh source,
       this option controls how much velocity smoke is given along the source's :term:`normal`.
@@ -86,13 +83,23 @@ Initial Velocity
 Initial Values
 --------------
 
+Absolute Density
+   Maximum density of smoke allowed within range of the source.
+Density
+   Amount of smoke to emit at once.
+
+.. _smoke-flow-temp-diff:
+
+Temperature Difference
+   Difference between the temperature of emitted smoke and the domain's ambient temperature.
+   This setting's effect on smoke depends on the domain's :ref:`Temperature Difference <smoke-domain-temp-diff>`.
 Smoke Color
    Color of emitted smoke. When smoke of different colors are mixed they will blend together,
    eventually settling into a new combined color.
 
    .. figure:: /images/smoke_flow_color_blending.jpg
 
-Flame Rate:
+Flame Rate
    Amount of "fuel" being burned per second. Larger values result in larger flames,
    smaller values result in smaller flames:
 
@@ -101,19 +108,7 @@ Flame Rate:
       Example showing two fire sources.
       The object on the left has a *Flame Rate* of 5, while the one on the right has 0.3.
 
-Absolute Density
-   Maximum density of smoke allowed within range of the source.
-
-Density
-   Amount of smoke to emit at once.
-
-.. _smoke-flow-temp-diff:
-
-Temp. Diff.
-   Difference between the temperature of emitted smoke and the domain's ambient temperature.
-   This setting's effect on smoke depends on the :ref:`domain's *Temp. Diff.* setting <smoke-domain-temp-diff>`.
-
-Sampling
+Sampling: Subframes
    Number of sub-frames used to reduce gaps in emission of smoke from fast-moving sources.
 
    .. figure:: /images/smoke_flow_subframes.jpg
@@ -123,7 +118,7 @@ Sampling
 
 
 Smoke Flow Advanced
--------------------
+===================
 
 .. figure:: /images/smoke_flow_advanced.png
    :align: right

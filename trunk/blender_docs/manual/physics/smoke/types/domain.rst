@@ -64,22 +64,23 @@ Border Collisions
 Density
    Controls how much smoke is affected by density.
 
-   * Values above 0 will cause the smoke to rise (simulating smoke which is lighter than ambient air).
-   * Values below 0 will cause smoke to sink (simulating smoke which is heavier than ambient air).
+   - Values above 0 will cause the smoke to rise (simulating smoke which is lighter than ambient air).
+   - Values below 0 will cause smoke to sink (simulating smoke which is heavier than ambient air).
 
 .. _smoke-domain-temp-diff:
 
-Temp. Diff.
+Temperature Difference
    The *Temperature Difference* setting controls how much smoke is affected by temperature.
 
    The effect this setting has on smoke depends on the
-   :ref:`per flow object *Temp. Diff.* setting <smoke-flow-temp-diff>`:
+   per flow object :ref:` Temperature Difference <smoke-flow-temp-diff>`:
 
-   - Values above 0 will result in the smoke rising when the flow object *Temp. Diff.* is set to a positive value,
-     and smoke sinking when the flow object *Temp. Diff.* is set to a negative value.
+   - Values above 0 will result in the smoke rising when the flow object *Temperature Difference* is
+     set to a positive value, and smoke sinking when the flow object *Temperature Difference* is
+     set to a negative value.
    - Values below 0 will result in the opposite of positive values, i.e.
-     smoke emitted from flow objects with a positive *Temp. Diff.* will sink,
-     and smoke from flow objects with a negative *Temp. Diff.* will rise.
+     smoke emitted from flow objects with a positive *Temperature Difference* will sink,
+     and smoke from flow objects with a negative *Temperature Difference* will rise.
 
    Note that smoke from multiple flow objects with different temperatures
    will mix and warm up/cool down until an equilibrium is reached.
@@ -148,7 +149,7 @@ to enhance the resolution without actually computing it. This allows animators t
 resolution simulation quickly and later add details without changing the overall fluid motion.
 Also see `Note on Divisions and High Resolution`_.
 
-Resolution/Divisions
+Resolution: Divisions
    Factor by which to enhance the resolution of smoke using the specified noise method.
 Show High Resolution
    Show high resolution in the viewport (may cause viewport responsiveness to suffer).
@@ -166,13 +167,13 @@ Noise Method
       *Wavelet* is an implementation of `Turbulence for Fluid Simulation
       <http://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
 
-Strength
-   Strength of noise.
+   Strength
+      Strength of noise.
 
-   .. figure:: /images/smoke_domain_high_resolution_strength.jpg
-      :width: 400px
+      .. figure:: /images/smoke_domain_high_resolution_strength.jpg
+         :width: 400px
 
-      From left to right, the domains' high resolution strengths are set to 0, 2, and 6.
+         From left to right, the domains' high resolution strengths are set to 0, 2, and 6.
 
 
 Smoke Groups
