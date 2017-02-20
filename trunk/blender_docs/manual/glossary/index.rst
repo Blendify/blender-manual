@@ -162,7 +162,7 @@ This page lists definitions for terms used in Blender and this manual.
    Color Space
       A coordinate system in which a vector represent a color value.
       By doing so, the color space defines three things:
-      
+
       - The exact color of each of the primaries
       - The :term:`White Point`
       - A transfer function
@@ -761,6 +761,9 @@ This page lists definitions for terms used in Blender and this manual.
    White Point
       A reference value for white light defined by what happens when all the primaries,
       of the particular color model, are combined evenly.
+
+      A white point is defined by a set of CIE illuminants which correspond to a color temperature.
+      For example, D65 corresponds to 6500K light, D70 corresponding to 7000K and so on.
 
    World Space
       A 3D coordinate system that originates at a point at the origin of the world.
