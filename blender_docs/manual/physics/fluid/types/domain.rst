@@ -125,18 +125,22 @@ Generate Speed Vectors
    If this button is clicked, no speed vectors will be exported.
    So by default, speed vectors are generated and stored on disk.
    They can be used to compute image based motion blur with the compositing nodes.
-Reverse fluid frames
-   The simulation is calculated backward
-*Bake* directory
+Reverse Frames
+   The simulation is calculated backward.
+Speed
+   Fluid motion rate. The speed option can be animated to slow down or speed up time.
+Offset
+   Time offset when reading backed cache.
+Bake Directory
    For baking options see :doc:`Baking </physics/fluid/baking>`.
 
 
-Domain World
-============
+Fluid World
+===========
 
 .. figure:: /images/physics_fluid_types_domain_world.jpg
 
-   The Domain World options.
+   The Fluid World panel.
 
 
 Viscosity Presets
@@ -240,10 +244,9 @@ Real World Size
    The size set here is for the longest side of the domain bounding box.
 
 Optimization
-   Gridlevel
+   Grid Levels
       How many adaptive grid levels to be used during simulation.
       Setting this to -1 will perform automatic selection.
-
    Compressibility
       If you have problems with large standing fluid regions at high resolution,
       it might help to reduce this number (note that this will increase computation times).
@@ -255,7 +258,7 @@ Fluid Boundary
 .. figure:: /images/physics_fluids_types_domain_boundary_panel.jpg
    :width: 300px
 
-   The Domain Boundary panel.
+   The Fluid Boundary panel.
 
 This box has all the slip and surface options.
 
@@ -294,7 +297,7 @@ Fluid Particles
 
 .. figure:: /images/physics_fluid_domain_particles.png
 
-   The Domain Particles Panel.
+   The Fluid Particles panel.
 
 
 Here you can add particles to the fluid simulated, to enhance the visual effect.
