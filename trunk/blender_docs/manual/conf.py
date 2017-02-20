@@ -17,8 +17,6 @@ import sys
 import os
 import sphinx_rtd_theme
 
-mathjax_path="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -47,11 +45,12 @@ extensions = [
 #    'sphinx.ext.intersphinx',
 ]
 
-# Sphinx 1.5 not compatible with older versions commenting out until API is re-uploaded 
+# Sphinx 1.5 not compatible with older versions commenting out until API is re-uploaded
 #intersphinx_mapping = {'blender_api': ('https://www.blender.org/api/blender_python_api_2_78_release/', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../resources/templates']
+mathjax_path="js/MathJax.js"
 
 # The suffix(es) of source filenames.
 source_suffix = '.rst'
