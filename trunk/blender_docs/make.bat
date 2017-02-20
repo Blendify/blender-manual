@@ -88,7 +88,7 @@ if "%1" == "html" (
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/html.
 	echo.To view, run:
-	echo.  start %BUILDDIR%/html/contents.html
+	echo.  start %BUILDDIR%/html/index.html
 	pause
 	goto EOF
 )
@@ -99,7 +99,7 @@ if "%1" == "singlehtml" (
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
 	echo.To view, run:
-	echo.  start %BUILDDIR%/singlehtml/contents.html
+	echo.  start %BUILDDIR%/singlehtml/index.html
 	goto EOF
 )
 
@@ -152,7 +152,7 @@ if "%1" == "translations" (
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
 	echo.To view, run:
-	echo.  start %BUILDDIR%/html/contents.html
+	echo.  start %BUILDDIR%/html/index.html
 	goto EOF
 )
 
