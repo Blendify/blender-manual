@@ -67,7 +67,7 @@ Resolution
    .. note:: Resolution and Real-size of the Domain
 
       Be sure to set the resolution appropriate to the real-world size of the domain
-      (see the *Realworld-size* in the `Domain World`_).
+      (see the *Realworld-size* in the `Fluid World`_).
       If the domain is not cubic, the resolution will be taken for the longest side.
       The resolutions along the other sides will be reduced according to their lengths
       (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
