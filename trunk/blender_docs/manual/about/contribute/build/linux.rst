@@ -4,7 +4,7 @@
 Building on Linux
 *****************
 
-Converting the rst files into pretty html pages.
+Converting the rst files into pretty HTML pages.
 
 Open a terminal to the folder ``~/blender_docs`` and simply run::
 
