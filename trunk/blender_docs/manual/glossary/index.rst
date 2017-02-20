@@ -163,12 +163,12 @@ This page lists definitions for terms used in Blender and this manual.
       A coordinate system in which a vector represent a color value.
       By doing so, the color space defines three things:
 
-      - The exact color of each of the primaries
+      - The exact color of each of the :term:`primaries`
       - The :term:`White Point`
       - A transfer function
 
       sRGB
-         A color space that uses the Rec .709 primaries and white point but,
+         A color space that uses the Rec .709 :term:`primaries` and white point but,
          with a slightly different transfer function.
       HSV
          Three values, often considered as more intuitive (human perception) than the RGB system.
@@ -574,13 +574,14 @@ This page lists definitions for terms used in Blender and this manual.
       See :term:`Alpha Channel`.
 
    Primaries
-      In color theory, a primary is the absolute maximum value for each of the color models.
+      In color theory, a primary (often known as primary color) is the abstract lights,
+      using an absolute model, that make up a :term:`color space`.
 
    Primitive
       A basic object that can be used as a basis for modeling more complicated objects.
 
    Procedural Texture
-      Computer generated (generic) textures. Procedural textures can be configured via parameters.
+      Computer generated (generic) textures that can be configured via different parameters.
 
    Projection
       In computer graphics, there are two common camera projections used.
@@ -599,8 +600,7 @@ This page lists definitions for terms used in Blender and this manual.
          In an *orthographic* projection,
          you have a viewing direction but not a viewing point *O*. The line is then drawn
          through point *P* so that it is parallel to the viewing direction. The intersection
-         *S* between the line and the plane is the orthographic projection of the point
-         *P*.
+         *S* between the line and the plane is the orthographic projection of the point *P*.
          By projecting all points *P* of the scene you get the orthographic view.
 
    Quad
