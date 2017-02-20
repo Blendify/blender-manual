@@ -8,14 +8,14 @@ With particles physics: there are five different systems:
 
 None (`No Physics`_)
    It does not give the particles any motion, which makes them belong to no physics system.
-:doc:`Newtonian </physics/particles/properties/physics/newtonian>`
+:doc:`Newtonian </physics/particles/emitter/physics/newtonian>`
    Movement according to physical laws.
-:doc:`Keyed </physics/particles/properties/physics/keyed>`
+:doc:`Keyed </physics/particles/emitter/physics/keyed>`
    Dynamic or static particles where the (animated) targets are other particle systems.
-:doc:`Boids </physics/particles/properties/physics/boids>`
+:doc:`Boids </physics/particles/emitter/physics/boids>`
    Particles with limited artificial intelligence, including behavior and rules programming,
    ideal for flocks of birds or schools of fishes, or predators vs preys simulations.
-:doc:`Fluid </physics/particles/properties/physics/fluid>`
+:doc:`Fluid </physics/particles/emitter/physics/fluid>`
    Movement according to fluid laws (based on Smoothed Particle Hydrodynamics technique).
 
 Additional ways of moving particles:

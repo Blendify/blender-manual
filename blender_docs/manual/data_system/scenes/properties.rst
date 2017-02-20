@@ -203,7 +203,7 @@ Subdivision
    :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`
 
 Child Particles
-   Percentage of :doc:`Child Particles </physics/particles/properties/children>`
+   Percentage of :doc:`Child Particles </physics/particles/emitter/children>`
    to see in the *Viewport*/*Render*.
 
 Use Camera Cull

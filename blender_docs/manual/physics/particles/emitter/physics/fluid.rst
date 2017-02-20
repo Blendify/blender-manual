@@ -23,7 +23,7 @@ From liquids to slime, goo to sand and wispy smoke the possibilities are endless
 Settings
 ========
 
-Fluid physics share options with :doc:`Newtonian Physics </physics/particles/properties/physics/newtonian>`.
+Fluid physics share options with :doc:`Newtonian Physics </physics/particles/emitter/physics/newtonian>`.
 These are covered on that page.
 
 

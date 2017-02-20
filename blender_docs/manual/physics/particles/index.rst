@@ -1,8 +1,8 @@
 .. _particles-index:
 
-############
-  Particles
-############
+###################
+  Particles System
+###################
 
 .. toctree::
    :maxdepth: 2

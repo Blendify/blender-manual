@@ -17,7 +17,7 @@ Parents
    Children have a lot of different deformation options,
    so the straight parents would stand between their curly children.
    So by default *Parents* are not rendered if you activate *Children*..
-   See :doc:`Children </physics/particles/properties/children>`
+   See :doc:`Children </physics/particles/emitter/children>`
 
 Unborn
    Render particles before they are born.
@@ -76,7 +76,7 @@ Path
 
 
 The *Path* visualization needs a :doc:`Hair </physics/particles/hair/index>` particle system or
-:doc:`Keyed </physics/particles/properties/physics/keyed>` particles.
+:doc:`Keyed </physics/particles/emitter/physics/keyed>` particles.
 
 Strand render
    [Keypointstrands] Use the strand primitive for rendering. Very fast and effective renderer.
