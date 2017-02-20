@@ -85,6 +85,6 @@ Examples
 
    .. vimeo:: 21096739
 
-   .. only:: not builder_html and (singlehtml)
+.. only:: not builder_html and (singlehtml)
 
-      A video can be found at https://www.youtube.com/watch?v=Mh-gUnS2c0Y and https://vimeo.com/21096739
+   A video can be found at https://www.youtube.com/watch?v=Mh-gUnS2c0Y and https://vimeo.com/21096739
