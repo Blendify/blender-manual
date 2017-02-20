@@ -219,7 +219,7 @@ Misc Options
 ``-v``, ``--version``
    Print Blender version and exit.
 ``--``
-   Ends option processing, following arguments passed unchanged. Access via Python's ``sys.argv``.
+   End option processing, following arguments passed unchanged. Access via Python's ``sys.argv``.
 
 
 Experimental Features

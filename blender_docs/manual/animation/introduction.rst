@@ -48,7 +48,7 @@ Animation Editors
 :doc:`Graph Editor </editors/graph_editor/introduction>`
    The Graph Editor is mostly used to edit the F-Curves and Keyframes for Channels and Drivers.
 :doc:`Dope Sheet </editors/dope_sheet/introduction>`
-   The Dopes Sheet contains a collection of animation editors.
+   The Dope Sheet contains a collection of animation editors.
 :doc:`NLA Editor </editors/nla/index>`
    The NLA Editor is used to edit and blend Actions together.
 
