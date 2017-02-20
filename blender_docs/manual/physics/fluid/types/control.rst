@@ -8,7 +8,13 @@ Using the Lattice-boltzman method, the fluid is controlled using particles which
 force fields and are generated automatically from either a physical simulation or a sequence
 of target shapes. At the same time, as much as possible of the natural fluid motion is preserved.
 
-.. youtube:: WruTNnF6Ztg
+.. only:: builder_html and (not singlehtml)
+
+   .. youtube:: WruTNnF6Ztg
+
+   .. only:: not builder_html and (singlehtml)
+
+      A video can be found at https://www.youtube.com/watch?v=WruTNnF6Ztg 
 
 
 Options

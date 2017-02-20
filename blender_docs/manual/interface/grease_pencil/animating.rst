@@ -34,4 +34,14 @@ This result can be exported to ``EXR multilayer`` and used in composition.
 
 ToDo.
 
-.. youtube:: vSD5mN7LT_g
+
+Example
+=======
+
+.. only:: builder_html and (not singlehtml)
+
+   .. youtube:: vSD5mN7LT_g
+
+.. only:: not builder_html and (singlehtml)
+
+   A video can be found at https://www.youtube.com/watch?v=vSD5mN7LT_g

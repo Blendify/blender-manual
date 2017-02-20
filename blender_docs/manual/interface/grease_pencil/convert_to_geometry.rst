@@ -110,7 +110,14 @@ Example
 
 Here is a simple "hand writing" video created with curves converted from sketch data:
 
-.. youtube:: VwWEXrnQAFI
+.. only:: builder_html and (not singlehtml)
+
+   .. youtube:: VwWEXrnQAFI
+
+.. only:: not builder_html and (singlehtml)
+
+   A video can be found at https://www.youtube.com/watch?v=VwWEXrnQAFI
+
 
 The blend-file from the above example can be found
 `here <https://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__.

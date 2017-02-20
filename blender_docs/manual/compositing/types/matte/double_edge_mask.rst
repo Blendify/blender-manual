@@ -69,6 +69,13 @@ Mask
    Standard mask output.
 
 
-.. rubric:: Demo Video
+Example
+=======
 
-.. youtube:: VcjEfoNIHZs
+.. only:: builder_html and (not singlehtml)
+
+  .. youtube:: VcjEfoNIHZs
+
+  .. only:: not builder_html and (singlehtml)
+
+     A video can be found at https://www.youtube.com/watch?v=VcjEfoNIHZs
