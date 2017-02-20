@@ -11,15 +11,20 @@ Color Management
    Different views and exposures of the same render.
 
 
-`OpenColorIO <http://opencolorio.org/>`__ is integrated into Blender,
-meaning many color spaces are supported with fine control over which color transformations are used.
+Color management is one of the most important tools that an artist can use.
+It allows an artist to make sure that an image stays the same from rendering, to saving, to post prorcessing.
+Color management also allows an artist to tweak things like exposure, gamma, or the overall color grade.
+
+To achieve color management in Blender, the `OpenColorIO <http://opencolorio.org/>`__
+(OCIO) library has been integrated into Blender.
+This library offers fine control over different :abbr:`LUTS (Light Ultering Transforms)`
+along with integrating your own set of color profiles to keep your work lineralized with other software.
 
 
 Scene Linear Color Space
 ========================
 
-For correct results, different color spaces are needed for rendering,
-display and storage of images.
+For correct results, different color spaces are needed for rendering display and storage of images.
 Rendering and compositing is best done in scene *linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
@@ -48,7 +53,6 @@ Settings
    :class: refbox
 
    | Panel:    :menuselection:`Properties editor --> Scene --> Color Management`
-
 
 .. figure:: /images/render_post-processing_color-management-panel.png
 
@@ -102,10 +106,12 @@ View
       Uses the ACES Reference Rendering Transform, to simulate a film-like look.
    Film
       This option is another film-like look.
-   Raw and Log
+   Raw
       Intended for inspecting the image but not for final export.
-      Raw gives the image without any color space conversion,
-      while Log gives a more "flat" view of the image without very dark or light areas.
+      Raw gives the image without any color space conversion.
+  Log
+     Intended for inspecting the image but not for final export.
+     Log works simmilar to Raw but gives a more "flat" view of the image without very dark or light areas.
 Exposure
    Used to control the image brightness (in stops) applied before color space conversion. :math:`2^(stops) × value`
 Gamma
@@ -181,10 +187,10 @@ Save as Render
 OpenColorIO Configuration
 =========================
 
-Blender comes with a standard OpenColorIO configuration that contains a number of useful
-display devices and view transforms.
-The reference linear color space used is the linear color space with Rec.
-709 chromaticities and D65 white point.
+Blender comes with a standard OpenColorIO configuration that
+contains a number of useful display devices and view transforms.
+The reference linear :term:`color space` used is the linear color space
+with Rec. 709 chromaticities and D65 white point.
 
 However, OpenColorIO was also designed to give a consistent user experience across
 `multiple applications <http://opencolorio.org/CompatibleSoftware.html>`__,
@@ -212,5 +218,5 @@ It is possible to load and save EXR files with the Linear ACES color space,
 and the RRT view transform can be used to view images with their standard display transform.
 However, the ACES gamut is larger than the Rec. 709 gamut,
 so for best results an ACES specific configuration file should be used.
-OpenColorIO provides an `ACES configuration <http://opencolorio.org/configurations/index.html>`__,
+OpenColorIO provides an `ACES configuration <http://opencolorio.org/configurations/index.html>`__ file,
 though it may need a few more tweaks to be usable in production.
