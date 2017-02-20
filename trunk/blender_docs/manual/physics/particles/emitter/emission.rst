@@ -9,7 +9,7 @@ frame to the *End* frame and have a certain lifespan.
 These particles are rendered default as :doc:`Halos </render/blender_render/materials/special_effects/halo>`,
 but you may also render these kind of particles as objects
 (depending on the particle system's render settings,
-see :doc:`Visualization </physics/particles/properties/render>`).
+see :doc:`Visualization </physics/particles/emitter/render>`).
 
 
 Options

@@ -11,12 +11,12 @@ Collisions
 
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`
 and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
-:doc:`Boids </physics/particles/properties/physics/boids>` try to avoid *Collision* objects.
+:doc:`Boids </physics/particles/emitter/physics/boids>` try to avoid *Collision* objects.
 
 
 - The objects need to share at least one common layer to have effect.
 - You may limit the effect on particles to a group of objects
-  (in the :doc:`Field Weights panel </physics/particles/properties/physics/index>`).
+  (in the :doc:`Field Weights panel </physics/particles/emitter/physics/index>`).
 - *Deflection* for softbody objects is difficult, they often penetrate the colliding objects.
 - Hair particles ignore deflecting objects
   (but you can animate them as softbodies which take deflection into account).

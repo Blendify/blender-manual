@@ -17,7 +17,7 @@ Type
    Main selector of the system type.
 
    Emitter
-      In such a system particles are :doc:`emitted </physics/particles/properties/index>` from the object.
+      In such a system particles are :doc:`emitted </physics/particles/emitter/index>` from the object.
    Hair
       Use :doc:`Hair </physics/particles/hair/index>` type, rendered as strands.
 

@@ -27,10 +27,10 @@ Styling
 =======
 
 The next step is to style the hair. You can change the look of base hairs by changing the
-:doc:`Physics Settings </physics/particles/properties/physics/index>`.
+:doc:`Physics Settings </physics/particles/emitter/physics/index>`.
 
 A more advanced way of changing the hair appearance is to use
-:doc:`Children </physics/particles/properties/children>`.
+:doc:`Children </physics/particles/emitter/children>`.
 This adds child hairs to the original ones, and has settings for giving them different types of shapes.
 
 You can also interactively style hairs in :doc:`Particle Edit Mode </physics/particles/mode>`.

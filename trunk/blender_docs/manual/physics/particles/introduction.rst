@@ -59,26 +59,26 @@ but options within those sets vary based on the system employed. These sets of c
 
 :doc:`Particle System Panel </physics/particles/particle_system_panel>`
    Basic Settings.
-:doc:`Emission </physics/particles/properties/emission>`
+:doc:`Emission </physics/particles/emitter/emission>`
    Settings for the initial distribution of particles on the emitter and the way they are born into the scene.
-:doc:`Cache </physics/particles/properties/cache>`
+:doc:`Cache </physics/particles/emitter/cache>`
    In order to increase realtime response and avoid unnecessary recalculation of particles,
    the particle data can be cached in memory or stored on a drive.
-:doc:`Velocity </physics/particles/properties/physics/index>`
+:doc:`Velocity </physics/particles/emitter/physics/index>`
    Initial speed of particles.
-:doc:`Rotation </physics/particles/properties/physics/index>`
+:doc:`Rotation </physics/particles/emitter/physics/index>`
    Rotational behavior of particles.
-:doc:`Physics </physics/particles/properties/physics/index>`
+:doc:`Physics </physics/particles/emitter/physics/index>`
    How the movement of the particles behaves.
-:doc:`Render </physics/particles/properties/render>`
+:doc:`Render </physics/particles/emitter/render>`
    Rendering options.
-:doc:`Display </physics/particles/properties/display>`
+:doc:`Display </physics/particles/emitter/display>`
    Realtime display in the 3D View.
-:doc:`Children </physics/particles/properties/children>`
+:doc:`Children </physics/particles/emitter/children>`
    Control the creation of additional child particles.
-:doc:`Field Weights </physics/particles/properties/physics/index>`
+:doc:`Field Weights </physics/particles/emitter/physics/index>`
    Factors for external forces.
-:doc:`Force Field Settings </physics/particles/properties/physics/index>`
+:doc:`Force Field Settings </physics/particles/emitter/physics/index>`
    Makes particles force fields.
-:doc:`Vertex Groups </physics/particles/properties/vertex_groups>`
+:doc:`Vertex Groups </physics/particles/emitter/vertex_groups>`
    Influencing various settings with vertex groups.

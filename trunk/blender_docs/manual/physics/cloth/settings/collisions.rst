@@ -149,7 +149,7 @@ Cloth Cache
 ===========
 
 Cache settings for cloth are the same as with other dynamic systems.
-See :doc:`Particle Cache </physics/particles/properties/cache>` for details.
+See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
 
 
 Bake Collision

@@ -130,7 +130,7 @@ Cache and Bake
 ==============
 
 Soft Bodies and other physic simulations use a unified system for caching and baking.
-See :doc:`Particle Cache </physics/particles/properties/cache>` for reference.
+See :doc:`Particle Cache </physics/particles/emitter/cache>` for reference.
 
 The results of the simulation are automatically cached to disk when the animation is played,
 so that the next time it runs,
