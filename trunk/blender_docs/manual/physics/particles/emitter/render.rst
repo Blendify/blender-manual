@@ -26,15 +26,18 @@ Died
    This is very useful if particles die in a collision *Die on hit*, so you can cover objects with particles.
 
 
-None
+Type
 ====
+
+None
+----
 
 When set to *None* particles are not rendered.
 This is useful if you are using the particles to duplicate objects.
 
 
 Halo
-====
+----
 
 Halo particles are rendered as :doc:`Halo Type Materials </render/blender_render/materials/special_effects/halo>`.
 
@@ -49,7 +52,7 @@ Random
 
 
 Line
-====
+----
 
 The Line visualization mode creates (more or less thin)
 polygon lines with the strand renderer in the direction of particles velocities. The thickness
@@ -68,7 +71,7 @@ Trail Count
 
 
 Path
-====
+----
 
 .. figure:: /images/physics_particle_properties_render_path.png
 
@@ -107,7 +110,7 @@ Steps
 
 
 Timing
-^^^^^^
+""""""
 
 Absolute Path Time
    Path timing is in absolute frames.
@@ -126,7 +129,7 @@ Please see also the manual page about
 
 
 Object
-======
+------
 
 Dupli Object
    The specified object is duplicated in place of each particle.
@@ -140,7 +143,7 @@ Scale
 
 
 Group
-=====
+-----
 
 Dupli Group
    The objects that belong to a group are duplicated sequentially in the place of the particles.
@@ -167,7 +170,7 @@ Scale
 
 
 Billboard
-=========
+---------
 
 .. figure:: /images/physics_particle_properties_render_billboard.png
 

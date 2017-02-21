@@ -3,13 +3,8 @@
 Velocity
 ********
 
-.. figure:: /images/physics_particle_properties_physics_keyed_panel.png
-
-   Initial velocity.
-
-
 The initial velocity of particles can be set through different parameters,
-based on the type of the particle system (see Particle System tab).
+based on the type of the particle system.
 If the particle system type is Emitter or Hair,
 then the following parameters give the particle an initial velocity in the direction of...
 
@@ -21,7 +16,7 @@ Normal
    The emitter's surface normals (i.e. let the surface normal give the particle a starting speed).
 Tangent
    Let the tangent speed give the particle a starting speed.
-Rot
+Rotation
    Rotates the surface tangent.
 
 
@@ -36,4 +31,4 @@ Object
    The emitter objects movement (i.e. let the object give the particle a starting speed).
 Random
    Gives the starting speed a random variation.
-   You can use a texture to only change the value, see Controlling Emission, Interaction and Time).
+   You can use a texture to only change the value, see Controlling Emission, Interaction and Time.

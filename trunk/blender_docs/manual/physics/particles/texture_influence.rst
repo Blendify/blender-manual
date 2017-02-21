@@ -12,7 +12,9 @@ Texture Influence
 
 Defines the settings of a Particle system spatial with a texture.
 
-.. rubric:: General
+
+General
+=======
 
 Time
    Affect the emission time of the particles.
@@ -24,7 +26,8 @@ Size
    Affect the particles size.
 
 
-.. rubric:: Physics
+Physics
+=======
 
 Velocity
    Affect the particles initial velocity.
@@ -32,11 +35,12 @@ Damp
    Affect the particles velocity damping.
 Gravity
    Affect the particles gravity.
-Force Fiels
+Force Fields
    Affect the particles force fields.
 
 
-.. rubric:: Hair
+Hair
+====
 
 Length
    Affect the child hair length.
