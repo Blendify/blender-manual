@@ -23,7 +23,7 @@ Samples
    For the branch path tracing integrator, this specifies the number of direct light samples per AA sample.
    Point lamps might need only one sample, while area lamps typically need more.
 Max Bounces
-   Maximum number of times light from the lamp is allowed to :term:`bounce`.
+   Maximum number of times light from the lamp is allowed to :term:`bounce <light bounces>`.
    Limited by :ref:`scene-wide bounce settings <cycles-bounces>`
 Cast Shadow
    By disabling this option, light from lamps will not be blocked by objects in-between.

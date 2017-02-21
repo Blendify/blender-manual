@@ -104,10 +104,6 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also :doc:`Boolean Modifier </modeling/modifiers/generate/booleans>`.
 
-   Bounce
-      Refers to the reflection or transmission of a light ray upon interaction with a material.
-      See also :doc:`Light Paths </render/cycles/settings/light_paths>`.
-
    Bounding Box
       The box that encloses the shape of an object. The box is aligned with the local space of the object.
 
@@ -392,6 +388,10 @@ This page lists definitions for terms used in Blender and this manual.
 
    Layer
       A device for organizing objects. See also :doc:`Layers </editors/3dview/object/properties/relations/layers>`.
+
+   Light Bounces
+      Refers to the reflection or transmission of a light ray upon interaction with a material.
+      See also :doc:`Light Paths </render/cycles/settings/light_paths>`.
 
    Local Space
       A 3D coordinate system that originates (for Objects) at the :term:`Object Origin`.
