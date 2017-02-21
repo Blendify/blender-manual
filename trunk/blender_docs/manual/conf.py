@@ -87,8 +87,10 @@ print("Using Index:", master_doc)
 if os.environ.get('manual_use_analytics') is True:
     googleanalytics_id = 'UA-1418081-1'
     googleanalytics_enabled = True
+    print("Google Analytics: enabled")
 else:
     googleanalytics_enabled = False
+    print("Google Analytics: disabled")
 
 # General information about the project.
 project = 'Blender %s Manual' % blender_version
