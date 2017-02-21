@@ -32,7 +32,7 @@ Add
    Gives a list of different :ref:`objects types <objects-types>` that can be added to a scene.
 Object
    This menu appears when in Object Mode.
-   it contains tools to edit :doc:`objects </editors/3dview/object/transform/introduction>`.
+   it contains tools to edit :doc:`objects </editors/3dview/object/editing/transform/introduction>`.
    In edit mode, it will change to the appropriate menu with :doc:`editing tools </modeling/index>`.
 
 
@@ -58,12 +58,12 @@ Viewport Shading
 Pivot Point
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
-   :doc:`Read more about Pivot Points </editors/3dview/object/transform/control/pivot_point/index>`
+   :doc:`Read more about Pivot Points </editors/3dview/object/editing/transform/control/pivot_point/index>`
 Transform Manipulator
    These handy selectors allow you to rotate or move objects by grabbing
    (clicking with your mouse) their controls and moving your mouse in the axis.
 
-   :doc:`Read more about Transform Manipulators </editors/3dview/object/transform/control/manipulators>`
+   :doc:`Read more about Transform Manipulators </editors/3dview/object/editing/transform/control/manipulators>`
 Layer
    The Layers Widget is documented in the :doc:`Layers page </editors/3dview/object/properties/relations/layers>`.
 Lock to Scene
@@ -82,9 +82,9 @@ Lock to Scene
 
    :doc:`Read more about Scenes </data_system/scenes/introduction>`
 Proportional Edit
-   :doc:`Proportional Edit </editors/3dview/object/transform/control/proportional_edit>`.
+   :doc:`Proportional Edit </editors/3dview/object/editing/transform/control/proportional_edit>`.
 Snap
-   Controls the :doc:`snapping tools </editors/3dview/object/transform/control/precision/snap>`
+   Controls the :doc:`snapping tools </editors/3dview/object/editing/transform/control/precision/snap>`
    that help with transforming and modeling objects.
 OpenGL Render
    The Render Buttons render an OpenGL version of the 3D View.
@@ -99,7 +99,7 @@ The Tool shelf is a context-sensitive region containing tools depending on the c
 
 For more information on specific tools available, see:
 
-- :doc:`Transformations </editors/3dview/object/transform/index>`
+- :doc:`Transformations </editors/3dview/object/editing/transform/index>`
 - :doc:`History </interface/undo_and_redo>`
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
 - :doc:`Parents </editors/3dview/object/properties/relations/parents>`
@@ -120,8 +120,8 @@ Properties Region
 The Properties Region contains properties of the active object and selected objects (such as their locations),
 as well as properties of the editor itself:
 
-- :doc:`Transform </editors/3dview/object/transform/introduction>`
+- :doc:`Transform </editors/3dview/object/editing/transform/introduction>`
 - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
 - :doc:`Display & View Panels </editors/3dview/display/panels>`
 - :doc:`Background Images </editors/3dview/display/background_images>`
-- :doc:`Transform Orientations </editors/3dview/object/transform/control/orientations>`
+- :doc:`Transform Orientations </editors/3dview/object/editing/transform/control/orientations>`

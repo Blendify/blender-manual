@@ -23,10 +23,10 @@ Translation, Rotation, Scale
 
 Once you have a selection of one or more control points,
 you can grab/move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
-as described in the :doc:`Manipulation in 3D Space </editors/3dview/object/transform/introduction>` section.
+as described in the :doc:`Manipulation in 3D Space </editors/3dview/object/editing/transform/introduction>` section.
 
 You also have in *Edit Mode* an extra option when using these basic manipulations: the
-:doc:`proportional editing </editors/3dview/object/transform/control/proportional_edit>`.
+:doc:`proportional editing </editors/3dview/object/editing/transform/control/proportional_edit>`.
 
 
 Transform Panel

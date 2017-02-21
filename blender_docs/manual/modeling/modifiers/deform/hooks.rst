@@ -8,7 +8,7 @@ The Hook Modifier is used to deform a *Mesh*, *Curve* a *Lattice* using another 
 
 As the hook moves, it pulls vertices from the mesh with it.
 You can think of it as animated
-:doc:`proportional editing </editors/3dview/object/transform/control/proportional_edit>`.
+:doc:`proportional editing </editors/3dview/object/editing/transform/control/proportional_edit>`.
 
 While hooks do not give you the fine control over vertices movement that shape keys do,
 they have the advantage that you can grab vertices directly for manipulation.

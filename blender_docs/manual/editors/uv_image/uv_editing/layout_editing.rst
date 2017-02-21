@@ -170,7 +170,7 @@ Snap
 ----
 
 Snapping in UV/image editor is similar to
-:doc:`Snapping in 3D </editors/3dview/object/transform/control/precision/snap>`.
+:doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/precision/snap>`.
 For the snap to pixel options to work an image has to be loaded.
 
 Selected to Pixels
@@ -217,7 +217,7 @@ Proportional Editing
 --------------------
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
-See :doc:`Proportional Editing in 3D </editors/3dview/object/transform/control/proportional_edit>`
+See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
 for full reference.
 
 
@@ -318,7 +318,7 @@ Proportional Editing
 --------------------
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
-See :doc:`Proportional Editing in 3D </editors/3dview/object/transform/control/proportional_edit>`
+See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
 for full reference.
 
 

@@ -157,4 +157,4 @@ make sure they are all selected and go to :menuselection:`Object --> Join`, :kbd
 
 .. seealso::
 
-   Other duplication methods are listed :doc:`here </editors/3dview/object/transform/duplication>`.
+   Other duplication methods are listed :doc:`here </editors/3dview/object/editing/transform/duplication>`.

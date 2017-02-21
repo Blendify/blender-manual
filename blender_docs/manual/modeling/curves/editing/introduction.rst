@@ -28,9 +28,9 @@ Translation, Rotation, Scale
 
 Like other elements in Blender, curve control points and handles can be grabbed/moved :kbd:`G`,
 rotated :kbd:`R` or scaled :kbd:`S`
-as described in the :doc:`Basic Transformations </editors/3dview/object/transform/introduction>` section.
+as described in the :doc:`Basic Transformations </editors/3dview/object/editing/transform/introduction>` section.
 When in *Edit Mode*, :doc:`proportional editing
-</editors/3dview/object/transform/control/proportional_edit>`
+</editors/3dview/object/editing/transform/control/proportional_edit>`
 is also available for transformation actions.
 
 
@@ -113,7 +113,7 @@ Snap
    | Hotkey:   :kbd:`Shift-S`
 
 
-:doc:`Mesh snapping </editors/3dview/object/transform/control/precision/snap>`
+:doc:`Mesh snapping </editors/3dview/object/editing/transform/control/precision/snap>`
 also works with curve components.
 Both control points and their handles will be affected by snapping,
 except for within itself (other components of the active curve).

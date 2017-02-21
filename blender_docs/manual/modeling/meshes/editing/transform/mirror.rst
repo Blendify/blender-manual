@@ -15,7 +15,7 @@ Mirror
 The mirror tool mirrors a selection across a selected axis.
 
 The mirror tool in *Edit Mode* is similar to
-:doc:`Mirroring in Object Mode </editors/3dview/object/transform/mirror>`.
+:doc:`Mirroring in Object Mode </editors/3dview/object/editing/transform/mirror>`.
 It is exactly equivalent to scaling by -1 vertices,
 edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.
 
@@ -41,14 +41,14 @@ choose one transformation orientation and then one axis on it.
 Pivot Point
 ===========
 
-:doc:`Pivot points </editors/3dview/object/transform/control/pivot_point/index>` must be set first.
+:doc:`Pivot points </editors/3dview/object/editing/transform/control/pivot_point/index>` must be set first.
 Pivot points will become the center of symmetry.
 If the widget is turned on it will always show where the pivot point is.
 
 In Fig. :ref:`fig-mesh-deform-mirror-center` the pivot point default to
 median point of the selection of vertices in *Edit Mode*.
 This is a special case of the *Edit Mode* as explained on the
-:doc:`pivot point page </editors/3dview/object/transform/control/pivot_point/index>`.
+:doc:`pivot point page </editors/3dview/object/editing/transform/control/pivot_point/index>`.
 
 .. _fig-mesh-deform-mirror-center:
 
@@ -87,7 +87,7 @@ and the axis of transformation is X.
 Transformation Orientations
 ===========================
 
-:doc:`Transformation Orientations </editors/3dview/object/transform/control/orientations>`
+:doc:`Transformation Orientations </editors/3dview/object/editing/transform/control/orientations>`
 are found on the 3D View header, next to the *Widget* buttons.
 They decide which coordinate system will rule the mirroring.
 

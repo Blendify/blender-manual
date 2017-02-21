@@ -26,7 +26,7 @@ as well as easily create such things as tree limbs.
 The axis on which vertices and edges are extruded along can be set interactively.
 Faces are extruded by default along their averaged normal.
 The extrusion can be limited to a single axis by specifying an axis;
-see :doc:`/editors/3dview/object/transform/control/precision/axis_locking`.
+see :doc:`/editors/3dview/object/editing/transform/control/precision/axis_locking`.
 
 The extrude tools differentiate in how the new geometry is connected in itself.
 

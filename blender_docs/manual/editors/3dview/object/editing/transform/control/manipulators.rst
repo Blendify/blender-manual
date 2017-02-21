@@ -40,7 +40,7 @@ Manipulators
       Scale.
 Transform Orientation
    A select menu of the
-   :doc:`Transform Orientations </editors/3dview/object/transform/control/orientations>`.
+   :doc:`Transform Orientations </editors/3dview/object/editing/transform/control/orientations>`.
 
 
 Manipulator Controls
@@ -63,7 +63,7 @@ Extended
 --------
 
 The operations work in same way as described in
-:doc:`precision control </editors/3dview/object/transform/control/precision/index>` except:
+:doc:`precision control </editors/3dview/object/editing/transform/control/precision/index>` except:
 
 Holding down :kbd:`Shift` *after* you :kbd:`LMB`
 the manipulator handle will constrain the action to smaller increments.
