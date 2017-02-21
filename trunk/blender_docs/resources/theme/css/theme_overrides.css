@@ -177,20 +177,20 @@ a.external {color:#656AE0;}
 	white-space: nowrap;
 	padding: 2px 5px;
 }
-@media screen and (max-width: 420px) { 
+@media screen and (max-width: 420px) {
 	.menuselection {white-space: normal}
 }
-.caption .menuselection { 
+.caption .menuselection {
 	background-color: none;
 	border: none;
-} 
+}
 .caption .kbd {background-color: none}
 
 /*remove indent on line break*/
 .rst-content .line-block {margin-left:0px}
 
 /*applied on contents:sections*/
-/*start section description*/ 
+/*start section description*/
 @media screen and (min-width: 450px){
 .tocdescr {
 	display: flex; display: -webkit-flex;
@@ -227,7 +227,7 @@ a.external {color:#656AE0;}
 .descr {
 	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
 	margin: 15px; padding: 0px;
-	transition: width 0.7s ease-out; -webkit-transition: width 0.7s ease-out; 
+	transition: width 0.7s ease-out; -webkit-transition: width 0.7s ease-out;
 }
 .descr div.figure{margin-bottom: 18px}
 .descr dl {margin-bottom: 10px}
