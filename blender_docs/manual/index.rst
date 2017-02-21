@@ -30,10 +30,9 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
 Getting Started
 ===============
 
-.. toctree::
-   :maxdepth: 2
-
-   getting_started/index.rst
+- :doc:`/getting_started/about/index`
+- :doc:`/getting_started/installing/index`
+- :doc:`/getting_started/help`
 
 
 Sections
@@ -174,6 +173,7 @@ Sections
    .. toctree::
       :maxdepth: 1
 
+      getting_started/index.rst
       interface/index.rst
       editors/index.rst
       data_system/index.rst
@@ -199,9 +199,7 @@ This manual is maintained largely by volunteers.
 
 Please consider to join the effort and :ref:`Contribute to this Manual <about-user-contribute>`.
 
-
 .. [1] The White Room model by Jay Hardy.
-
 
 .. just so this is included in the toc (not user visible).
 

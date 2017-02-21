@@ -4,6 +4,8 @@
   Getting Started
 ##################
 
+.. keep up to date with :doc:`</index>`
+
 .. toctree::
    :maxdepth: 2
 
