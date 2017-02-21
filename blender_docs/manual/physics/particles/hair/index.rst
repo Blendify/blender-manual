@@ -8,4 +8,8 @@
    :maxdepth: 2
 
    introduction.rst
-   properties/index.rst
+   emission.rst
+   dynamics.rst
+   render.rst
+   children
+   display.rst

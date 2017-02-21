@@ -6,10 +6,7 @@ Hair Dynamics
 
 
 Hair particles can have dynamic properties using physics.
-
 To enable hair physics, click the check box beside *Hair Dynamics*.
-
-.. Particle type: you can also animate the strands with :doc:`Cloth Simulation </physics/cloth/index>`.
 
 
 Structure
@@ -18,7 +15,7 @@ Structure
 Mass
    Value for the mass of the hair.
 Stiffness
-   Controls how stiff the root of the hair strands are.
+   Controls the bending stiffness of the hair strands.
 
    Random
       Random stiffness of hair.
@@ -29,6 +26,10 @@ Damping
 
 Volume
 ------
+
+Some phenomena of real world hair can be simulated more efficiently using a volumetric model instead
+of the basic geometric strand model. This means constructing a regular grid such as those used in
+fluid simulations and interpolating hair properties between the grid cells.
 
 Air Drag
    Controls how thick the hair is around the hair causing the hair to flow slower.
