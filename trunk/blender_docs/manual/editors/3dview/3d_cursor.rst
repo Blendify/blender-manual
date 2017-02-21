@@ -32,7 +32,7 @@ enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`.
 
 .. seealso::
 
-   The :doc:`Snap Menu </editors/3dview/object/transform/control/precision/snap>`
+   The :doc:`Snap Menu </editors/3dview/object/editing/transform/control/precision/snap>`
    which allows the cursor placement relative to scene objects.
 
 

@@ -39,9 +39,9 @@ Modes
    - :doc:`Masking </editors/movie_clip_editor/masking/index>`
 
 Pivot Point
-   See :doc:`Pivot Points </editors/3dview/object/transform/control/pivot_point/index>`.
+   See :doc:`Pivot Points </editors/3dview/object/editing/transform/control/pivot_point/index>`.
 Proportional Edit
-   See :doc:`Proportional Edit </editors/3dview/object/transform/control/proportional_edit>`.
+   See :doc:`Proportional Edit </editors/3dview/object/editing/transform/control/proportional_edit>`.
 
 
 Properties Region

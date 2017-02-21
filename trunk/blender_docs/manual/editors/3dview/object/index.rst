@@ -10,5 +10,5 @@
    introduction.rst
    types.rst
    selecting.rst
-   transform/index.rst
+   editing/index.rst
    properties/index.rst
