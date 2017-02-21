@@ -19,11 +19,12 @@ Type
    Active
       Object is directly controlled by simulation results.
       The possibility to select this type also available with *Add Active*
-      button in the *Physics* tab of the *Tool Shelf*.
+      button in the Physics tab of the Tool Shelf.
    Passive
-      Object is directly controlled by animation system. Thus, this type is not available for `Rigid Body Dynamics`_.
-      The possibility to select this type also available with *Add Passive*
-      button in the *Physics* tab of the *Tool Shelf*.
+      Object is directly controlled by animation system.
+      Thus, this type is not available for `Rigid Body Dynamics`_.
+      The possibility to select this type also available with *Add Passive* button
+      in the Physics tab of the Tool Shelf.
 
 Dynamic
    Enables/disables rigid body simulation for object.
@@ -31,8 +32,8 @@ Animated
    Allows the rigid body additionally to be controlled by the animation system.
 Mass
    Specifies how heavy the object is and "weights" irrespective of gravity.
-   There are predefined mass preset available with the *Calculate Mass*
-   button in the *Physics* tab of the *Tool Shelf*.
+   There are predefined mass preset available with the *Calculate Mass* button
+   in the Physics tab of the Tool Shelf.
 
    Calculate Mass
       Automatically calculate mass values for Rigid Body Objects based on volume.
@@ -50,7 +51,67 @@ Rigid Body Collisions
 Rigid Body Collisions panel.
 
 
-General settings
+Collision Shapes
+----------------
+
+The Shape option determines the collision shape of the object.
+The changing collision shape is available also with *Change Shape* button in the Physics tab of the Tool Shelf.
+
+
+.. rubric:: Primitive Shapes
+
+These are best in terms of memory/performance but do not
+necessarily reflect the actual shape of the object.
+They are calculated based on the object's bounding box.
+The center of gravity is always in the middle for now.
+Primitive shapes can be shown in the viewport by
+enabling *Bounds* in the :menuselection:`Object --> Display` panel.
+ 
+Box
+   Box-like shapes (e.g cubes), including planes (e.g. ground planes).
+   The size per axis is calculated from the bounding box.
+Sphere
+   Sphere-like shapes. The radius is the largest axis of the bounding box.
+Capsule
+   This points up the Z-Axis.
+Cylinder
+   This points up the Z-Axis.
+   The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
+Cone
+   This points up the Z-Axis.
+   The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
+
+
+.. rubric:: Mesh based shapes
+
+These are calculated based on the geometry of the object so they are a better representation of the object.
+The center of gravity for these shapes is the object origin.
+
+Convex Hull
+   A mesh-like surface encompassing (e.g. shrink wrap over) all vertices (best results with fewer vertices).
+   Convex approximation of the object, has good performance and stability.
+Mesh
+   :term:`Mesh` consisting of triangles only, allowing for more detailed interactions than convex hulls.
+   Allows to simulate concave objects, but is rather slow and unstable.
+
+
+Mesh Source
+-----------
+
+Users can now specify the mesh *Source* for *Mesh* bases collision shapes:
+
+Base
+   The base mesh of the object.
+Deform
+   Includes any deformations added to the mesh (shape keys, deform modifiers).
+
+   Deforming
+      Mesh shapes can deform during simulation.
+Final
+   Includes all deformations and modifiers.
+
+
+General Settings
 ----------------
 
 Surface Response
@@ -62,59 +123,6 @@ Surface Response
 
 Collision Groups
    Allows rigid body collisions allocate on different groups (maximum 20).
-
-
-Collision shapes
-----------------
-
-The *Shape* option determines the collision shape of the object. The following Collision Shapes are available:
-
-Primitive shapes
-   These are best in terms of memory/performance but do not
-   necessarily reflect the actual shape of the object.
-   They are calculated based on the object's bounding box.
-   The center of gravity is always in the middle for now.
-
-   Box
-      Box-like shapes (e.g cubes), including planes (e.g. ground planes).
-      The size per axis is calculated from the bounding box.
-   Sphere
-      Sphere-like shapes. The radius is the largest axis of the bounding box.
-   Capsule
-      This points up the Z-Axis.
-   Cylinder
-      This points up the Z-Axis.
-      The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
-   Cone
-      This points up the Z-Axis.
-      The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
-Mesh based shapes
-   These are calculated based on the geometry of the object so they are a better representation of the object.
-   The center of gravity for these shapes is the object origin.
-
-   Convex Hull
-      A mesh-like surface encompassing (e.g. shrinkwrap over) all vertices (best results with fewer vertices).
-      Convex approximation of the object, has good performance and stability.
-   Mesh
-      :term:`Mesh` consisting of triangles only, allowing for more detailed interactions than convex hulls.
-      Allows to simulate concave objects, but is rather slow and unstable.
-
-The changing collision shape is available also with *Change Shape* button in the *Physics* tab of the *Tool Shelf*.
-
-
-Mesh source
------------
-
-Users can now specify the mesh *Source* for *Mesh* bases collision shapes:
-
-Base
-   The base mesh of the object.
-Deform
-   Includes any deformations added to the mesh (shape keys, deform modifiers).
-Deforming
-   Rigid body deforms during simulation.
-Final
-   Includes all modifiers.
 
 
 Collision Margin

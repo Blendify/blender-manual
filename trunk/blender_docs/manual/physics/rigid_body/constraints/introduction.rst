@@ -15,18 +15,26 @@ objects can move far from the constraint object, but the constraint anchor moves
 seems limiting, consider using multiple objects with a non-physics *Child-of* constraint and animate
 the relative location of the child.
 
+
+Connect
+=======
+
 The quickest way to constrain two objects is to select both and click the *Connect* button in the *Physics* tab of the
 *Tool Shelf*. This creates a new *Empty* object (named "Constraint") with a physics constraint already attached and
 pointing at the two selected objects.
 
-Also you can create *Rigid Body Constaint* on of the two constrained objects with
-*Rigid Body Constaint* button of the *Physics* tab in the Properties editor.
+
+Physics Tab
+===========
+
+Also you can create *Rigid Body Constraint* on of the two constrained objects with
+*Rigid Body Constraint* button of the *Physics* tab in the Properties editor.
 This constraint is dependent on the object location and rotation on which it was created.
 This way, there are no *Empty* object created for the constraint.
 The role of the *Empty* object is put on this object.
 The constrained object can be then set as *Passive* type for better driving the constrain.
 
-Additional parameters appear in the *Rigid Body Constaint* panel of the *Physics* tab in the Properties editor
+Additional parameters appear in the *Rigid Body Constraint* panel of the *Physics* tab in the Properties editor
 for the selected *Empty* object or the one of the two constrained objects with the created constraint.
 
 
@@ -45,6 +53,7 @@ Object 2
    Second object to be constrained.
 Breakable
    Allows constraint to break during simulation. Disabled for the *Motor* constraint.
+   This can be used to simulate destruction.
 
    Threshold
       Impulse strength that needs to be reached before constraint breaks.

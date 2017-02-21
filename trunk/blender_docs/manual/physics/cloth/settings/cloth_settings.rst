@@ -7,7 +7,7 @@ Cloth
 =====
 
 Presets
-   Contains a number of preset cloth examples.
+   Contains a number of :ref:`preset <ui-presets>` cloth examples.
 Quality
    Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
 Speed
@@ -65,19 +65,19 @@ For example, a character could have a baggy tunic pinned to the character's wais
 
 The typical workflow for pinning:
 
-- Set the armature to its bind pose.
-- Model clothing that encloses but does not penetrate the character's mesh.
-- Parent the clothing objects to the armature. The armature will now have several child meshes bound to it.
-- Create a new vertex group on each cloth object for its pinned vertices
-- Add vertexes to be pinned to this vertex group and give these vertices non-zero weights
-  (you probably want weight = 1).
-  For example the belt area of the tunic would be in the vertex group and have weight one.
-- Designate the clothing objects as "cloth" in the Physics tab of the Properties editor.
-  Make sure the Cloth Modifier is below the Armature Modifier in the modifier stack.
-- press the *Pinning of Cloth* button in the *Cloth* panel and select the vertex group.
-- Designate the character's mesh as "collision" object in the Physics tab of the Properties editor.
-- The clothing is now ready. Non-pinned vertices will be under control of the Cloth modifier.
-  Pinned vertices will be under control of the Armature modifier.
+#. Set the armature to its bind pose.
+#. Model clothing that encloses but does not penetrate the character's mesh.
+#. Parent the clothing objects to the armature. The armature will now have several child meshes bound to it.
+#. Create a new vertex group on each cloth object for its pinned vertices
+#. Add vertexes to be pinned to this vertex group and give these vertices non-zero weights
+   (you probably want weight = 1).
+   For example the belt area of the tunic would be in the vertex group and have weight one.
+#. Designate the clothing objects as "cloth" in the Physics tab of the Properties editor.
+   Make sure the Cloth Modifier is below the Armature Modifier in the modifier stack.
+#. press the *Pinning of Cloth* button in the *Cloth* panel and select the vertex group.
+#. Designate the character's mesh as "collision" object in the Physics tab of the Properties editor.
+#. The clothing is now ready. Non-pinned vertices will be under control of the Cloth modifier.
+   Pinned vertices will be under control of the Armature modifier.
 
 .. note::
 
@@ -105,16 +105,30 @@ The typical workflow for pinning:
 Dynamic Mesh
 ------------
 
+Dynamic Mesh allows animating the rest shape of cloth using shape keys or
+modifiers (e.g. an Armature modifier or any deformation modifier) placed above the Cloth modifier.
+When it is enabled, the rest shape is recalculated every frame, allowing unpinned
+cloth to squash and stretch following the character with the help of shape keys or modifiers, but
+otherwise move freely under control of the physics simulation.
+
 Normally cloth uses the state of the object in the first frame to compute the natural rest
 shape of the cloth, and keeps that constant throughout the simulation. This is reasonable
 for fully realistic scenes, but does not quite work for clothing on cartoon style characters
 that use a lot of squash and stretch.
 
-When *Dynamic Mesh* is enabled, the rest shape is recalculated every frame, allowing unpinned
-cloth to squash and stretch following the character with the help of an Armature modifier, but
-otherwise move freely under control of the physics simulation.
 
-*Dynamic Mesh* is incompatible with using a shape key to specify the rest shape.
+Cloth Stiffness Scaling
+=======================
+
+Structural Stiffness
+   Defines a vertex group to control over structural stiffness.
+Maximum
+   Maximum structural stiffness value.
+
+Bending Stiffness
+   Defines a vertex croup to control over bending stiffness.
+Maximum
+   Maximum structural bending value.
 
 
 Cloth Sewing Springs
@@ -161,3 +175,9 @@ Max
 
 Like unbounded sewing forces, immediately applying a large amount of shrink can cause
 instability, so it is advisable to keyframe these fields and ease in from 0 during draping.
+
+
+Cloth Field Weights
+===================
+
+As other physics dynamics systems, Cloth simulation also are influenced external force effectors.
