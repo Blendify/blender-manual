@@ -28,20 +28,8 @@ Damp
    Reduces particle velocity (deceleration, friction, dampening).
 
 
-Collision
-=========
-
-Size Deflect
-   Use the particle size in deflections.
-Die on Hit
-   Kill particle when it hits a deflector object.
-Collision Group
-   If set, particles collide with objects from the group, instead of using objects that are on the same layer.
-
-
 Integration
 ===========
-
 
 Integrators are a set of mathematical methods available to calculate the movement of
 particles. The following guidelines will help to choose a proper integrator,
@@ -78,3 +66,14 @@ Timestep
 Subframes
    Subframes to simulate for improved stability and finer granularity in simulations.
    Use higher values for faster moving particles.
+
+
+Collision
+=========
+
+Size Deflect
+   Use the particle size in deflections.
+Die on Hit
+   Kill particle when it hits a deflector object.
+Collision Group
+   If set, particles collide with objects from the group, instead of using objects that are on the same layer.

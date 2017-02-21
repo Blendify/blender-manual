@@ -22,7 +22,7 @@ Options
 
 The buttons in the *Emission* panel control the way particles are emitted over time:
 
-Amount
+Number
    The maximum amount of parent particles used in the simulation.
 Start
    The start frame of particle emission. You may set negative values,
@@ -99,7 +99,8 @@ Grid
 
 Use Modifier Stack
    Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier in the
-   :ref:`modifier stack <modifier-stack>` into account when emitting particles.
+   :ref:`modifier stack <modifier-stack>` into account when emitting particles, else
+   it uses the original mesh geometry.
 
    .. note::
 

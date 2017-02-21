@@ -1,3 +1,4 @@
+..(todo) Angular Velocity: Axis changed, added options
 
 ********
 Rotation
@@ -11,7 +12,11 @@ These parameters specify how the individual particles are rotated during their t
 visualize the rotation of a particle you should choose visualization type Axis in the
 Visualization panel and increase the Draw Size.
 
-Initial Rotation Mode
+
+Initial Rotation
+----------------
+
+Orientation Axis
    Sets the initial rotation of the particle by aligning the x-axis in the direction of:
 
    None
@@ -25,36 +30,47 @@ Initial Rotation Mode
       This allow deformation without the objects rotating in relation to their surface.
    Velocity
       The particle's initial velocity.
-   Global X/Global Y/Global Z
+   Global X, Y, Z
       One of the global axes.
-   Object X/Object Y/Object Z
+   Object X, Y, Z
       One of the emitter object axes.
 
    Random
       Randomizes rotation.
-
-Dynamic
-   If enabled, only initializes particles to the wanted rotation and angular velocity and let us
-   physics handle the rest.
-   Particles then change their angular velocity if they collide with other objects
-   (like in the real world due to friction between the colliding surfaces).
-   Otherwise the angular velocity is predetermined at all times (i.e. set rotation to dynamic/constant).
 
 Phase
    Initial rotation phase.
 Random
    Rand allows a random variation of the Phase.
 
+
 Angular Velocity
-   The magnitude of angular velocity, the selector specifies the axis of angular velocity to be.
+----------------
+
+Axis
+   The selector specifies the axis of angular velocity to be.
 
    None
-      a zero vector (no rotation).
+      A zero vector (no rotation).
    Spin
-      the particles velocity vector.
+      The particles velocity vector.
    Random
-      a random vector.
+      A random vector.
 
-If you use a Curve Guide and want the particles to follow the curve,
-you have to set Angular Velocity to Spin and leave the rotation on Constant (i.e.
-do not turn on Dynamic). Curve Follow does not work for particles.
+   .. hint:: Curve Guide
+
+      If you use a Curve Guide and want the particles to follow the curve,
+      you have to set Angular Velocity to Spin and leave the rotation on Constant (i.e.
+      do not turn on Dynamic). Curve Follow does not work for particles.
+Factor
+   The magnitude of angular velocity.
+
+
+Dynamic
+-------
+
+If Dynamic is enabled, only initializes particles to the wanted rotation and angular velocity and
+let the physics simulation handle the rest.
+Particles then change their angular velocity if they collide with other objects
+(like in the real world due to friction between the colliding surfaces).
+Otherwise the angular velocity is predetermined at all times (i.e. set rotation to dynamic/constant).

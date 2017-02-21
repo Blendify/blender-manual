@@ -32,24 +32,18 @@ Settings
 ========
 
 Child Type
-   None
-      No Children are generated.
-   Simple
-      Children are emitted from the parent position.
-   Interpolated
-      Children are emitted between the *Parent* particles on the faces of a mesh.
-      They interpolate between adjacent parents. This is especially useful for fur,
-      because you can achieve an even distribution.
-      Some of the children can become virtual parents, which are influencing other particles nearby.
+----------
 
-Display
-   The number of children in the 3D View.
-Render
-   The number of children to be rendered.
+None
+^^^^
+
+No Children are generated.
 
 
 Simple
-------
+^^^^^^
+
+Children are emitted from the parent position.
 
 Size
    Only for *Emitter*. A multiplier for children size.
@@ -58,7 +52,12 @@ Random
 
 
 Interpolated
-------------
+^^^^^^^^^^^^
+
+Children are emitted between the *Parent* particles on the faces of a mesh.
+They interpolate between adjacent parents. This is especially useful for fur,
+because you can achieve an even distribution.
+Some of the children can become virtual parents, which are influencing other particles nearby.
 
 Seed
    Offset the random number table for child particles, to get a different result.
@@ -66,6 +65,15 @@ Virtual
    Relative amount of virtual parents.
 Long Hair
    Calculate children that suit long hair well.
+
+
+Common Options
+^^^^^^^^^^^^^^
+
+Display
+   The number of children in the 3D View.
+Render
+   The number of children to be rendered.
 
 
 Effects
@@ -76,9 +84,10 @@ Effects
    From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.
 
 Use Clump Curve
-   Todo.
+   Use :ref:`ui-curve-widget` instead of parameters.
 Clump
-   Clumping. The children may meet at their tip (1.0) or start together at their root (-1.0).
+   Clumping amount along child strands.
+   The children may meet at their tip (1.0) or start together at their root (-1.0).
 Shape
    Form of *Clump*. Either inverse parabolic (0.99) or exponentially (-0.99).
 Use Clump Noise
@@ -101,7 +110,7 @@ Roughness
 ---------
 
 Use Roughness Curve
-   Todo.
+   Use :ref:`ui-curve-widget` instead of parameters.
 Uniform, Size
    It is based on children location so it varies the paths in a similar way when the children are near.
 Endpoint, Shape
@@ -120,7 +129,9 @@ Kink
 
 .. figure:: /images/physics_particles_properties_children_kink.png
 
-   Child particles with Kink. From left to right: Curl, Radial, Wave, Braid, Roll.
+   Child particles with Kink.
+
+   From left to right: Curl, Radial, Wave, Braid, Spiral.
 
 
 With *Kink* you can rotate the children around the parent.
@@ -138,7 +149,22 @@ Kink
    Braid
       Children braid themselves around the parent hair.
    Spiral
-      Todo.
+      Generates a spiral at the end of each hair.
+
+      Radius, Resolution
+         Define the overall size.
+      Shape
+         Makes a the spiral grow in- or outward.
+
+   .. note:: Alignment Limitations
+
+      When hair is pointing straight up (along the chosen spiral axis, default Z), spirals may not show up!
+      This is a limitation of the projection method used.
+      Giving a slight tilt or random orientation to hairs fixes this.
+
+
+Common Options
+^^^^^^^^^^^^^^
 
 Amplitude
    The amplitude of the offset.
