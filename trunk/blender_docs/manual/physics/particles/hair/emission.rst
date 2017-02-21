@@ -7,7 +7,7 @@ Emission
 
    Hair particle system settings.
 
-Amount
+Number
    Set the amount of hair strands. Use as little particles as possible,
    especially if you plan to use softbody animation later.
    But you need enough particles to have good control.
@@ -18,7 +18,7 @@ Hair Length
   Controls how long the hair are.
 
 Emit From
-   Verts
+   Vertices
       Emits hair particles from the vertices of a mesh.
       When using this the distribution settings (see below) are not available.
    Faces
