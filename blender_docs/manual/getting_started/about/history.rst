@@ -176,7 +176,7 @@ Blender 2.6x to 2.7x -- Improvements & Stabilizing
   3D audio and video, and bug fixes.
 - `2.61 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.61>`__ -- December 2011:
   The Cycles renderer was added in trunk, the camera tracker was added, dynamic paint for modifying textures
-  with mesh contact/approximation, the Ocean Sim modifier to simulate ocean and foam, new add-ons, bug fixes,
+  with mesh contact/approximation, the Ocean modifier to simulate ocean and foam, new add-ons, bug fixes,
   and more extensions added for the Python API.
 - `2.62 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.62>`__ -- February 2012:
   The `Carve library <https://code.google.com/archive/p/carve/>`__ was added to improve boolean operations,

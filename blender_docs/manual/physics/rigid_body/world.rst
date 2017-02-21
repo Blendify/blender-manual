@@ -17,6 +17,10 @@ there yours Rigid Body objects with *Groups* panel in *Object* tab.
 Rigid body objects and constraints are only taken into account by the simulation if they are in the groups specified
 in *Group* field of the *Rigid Body World* panel in the *Scene* tab.
 
+
+Settings
+========
+
 Rigid Body World
    Enable/disable evaluation of the Rigid Body simulation based on the rigid body objects
    participating in the specified group of Rigid Body World.

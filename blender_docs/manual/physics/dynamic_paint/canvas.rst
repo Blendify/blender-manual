@@ -33,9 +33,11 @@ Format
    Image Sequences
       Dynamic Paint generates UV wrapped image files of defined resolution as output.
 
-Anti-aliasing/ Quality: Resolution
-   From quality settings you can adjust image resolution (for image sequences) and anti-aliasing.
-Frames
+Quality: Resolution
+   For image sequences -- From quality settings you can adjust the output image dimensions.
+Anti-aliasing
+   :term:`Anti-aliasing` smoothen paint edges using a 5x multisampling method.
+Frames: Start, End
    Defines surface processing start and end frame.
 Sub-steps
    Sub-steps are extra samples between frames, usually required when there is a very fast brush.

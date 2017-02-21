@@ -67,7 +67,7 @@ Resolution
    .. note:: Resolution and Real-size of the Domain
 
       Be sure to set the resolution appropriate to the real-world size of the domain
-      (see the *Realworld-size* in the `Fluid World`_).
+      (see the *Real World Size* in the `Fluid World`_).
       If the domain is not cubic, the resolution will be taken for the longest side.
       The resolutions along the other sides will be reduced according to their lengths
       (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
@@ -115,9 +115,9 @@ Time
       This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid
       will look like it had already been flowing for 3 seconds at the start of the simulation,
       *but* will play in slow motion (one-tenth normal speed),
-      since the 1 second fluid sim plays out over the course of 10 video seconds. To correct this,
-      change the end time to 13.0 (3.0 + 10.0) to match the 250 frames at 25 fps. Now,
-      the simulation will be real-time,
+      since the 1 second fluid simulation plays out over the course of 10 video seconds.
+      To correct this, change the end time to 13.0 (3.0 + 10.0) to match the 250 frames at 25 fps.
+      Now, the simulation will be real-time,
       since you set 10 seconds of fluid motion to simulate over 10 seconds of animation.
       Having these controls in effect gives you a "speed control" over the simulation.
 

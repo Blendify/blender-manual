@@ -6,7 +6,7 @@ Introduction
 The rigid body simulation can be used to simulate the motion of solid objects.
 It affects the position and orientation of objects and does not deform them.
 
-Unlike the other simulations in Blender, the rigid body sim works closer with the animation system.
+Unlike the other simulations in Blender, the rigid body simulation works closer with the animation system.
 This means that rigid bodies can be used like regular objects and be part of parent-child relationships,
 animation constraints and drivers.
 
