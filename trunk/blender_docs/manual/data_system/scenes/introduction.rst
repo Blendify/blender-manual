@@ -57,7 +57,7 @@ Add ``+``
 
       To choose between these options,
       it is useful to understand the difference between *Object* and *Object Data*.
-      See :doc:`Duplication </editors/3dview/object/editing/transform/duplication>`.
+      See :doc:`Duplication </editors/3dview/object/editing/duplication>`.
 
       The choices for adding a scene, therefore, determine just how much of this information will be
       *copied from* the active scene to the new one, and how much will be *shared* (linked).
