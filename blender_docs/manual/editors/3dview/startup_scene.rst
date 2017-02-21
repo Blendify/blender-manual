@@ -20,7 +20,7 @@ Cube
    Because the cube is selected it is drawn with an orange outline.
 
    Object Origin
-      The :doc:`Origin of the object </editors/3dview/object/editing/transform/origin>` is displayed as
+      The :doc:`Origin of the object </editors/3dview/object/origin>` is displayed as
       an orange dot and it marks the cube's (relative) position.
    Transformation Widget
       This :doc:`widget </editors/3dview/object/editing/transform/control/manipulators>`
