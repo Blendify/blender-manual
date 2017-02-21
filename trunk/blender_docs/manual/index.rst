@@ -18,7 +18,7 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
      `De <https://docs.blender.org/manual/de/dev/>`__ |vertical_separator|
      `Es <https://docs.blender.org/manual/es/dev/>`__ |vertical_separator|
      `Fr <https://docs.blender.org/manual/fr/dev/>`__ |vertical_separator|
-     `Ko <https://docs.blender.org/manual/ko/dev/>`__ |vertical_separator|
+     `It <https://docs.blender.org/manual/it/dev/>`__ |vertical_separator|
      `Pt <https://docs.blender.org/manual/pt/dev/>`__ |vertical_separator|
      `Ru <https://docs.blender.org/manual/ru/dev/>`__ |vertical_separator|
      `Zh <https://docs.blender.org/manual/zh.cn/dev/>`__
