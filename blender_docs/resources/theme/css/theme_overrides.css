@@ -279,3 +279,9 @@ a.external {color:#656AE0;}
 	margin-left: 0px;
 }
 /*end custom toctree*/
+
+/*start genindex consentecy*/
+.genindextable * strong {font-weight: normal}
+.genindex-jumpbox {margin-bottom: 1.245em}
+.indextable {margin-bottom: 1.245em}
+/*end genindex consistency*/
