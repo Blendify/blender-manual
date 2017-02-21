@@ -2,7 +2,6 @@ SPHINXOPTS    =
 PAPER         =
 SPHINXBUILD   = sphinx-build
 BUILDDIR      = build
-manual_use_analytics =
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -80,7 +79,7 @@ html: .FORCE .SPHINXBUILD_EXISTS
 html_server: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	manual_use_analytics = True
+	manual_use_analytics="True" \
 	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
 
 singlehtml: .FORCE .SPHINXBUILD_EXISTS
