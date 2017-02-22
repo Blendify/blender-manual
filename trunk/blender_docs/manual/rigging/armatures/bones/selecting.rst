@@ -27,7 +27,7 @@ you can select a bone's joint or body the same way regardless of the bone visual
 Selecting Bone Joints
 =====================
 
-To select bones' joints you have the :doc:`standard selection </editors/3dview/object/selecting>` methods.
+To select bones' joints you have the :doc:`standard selection </editors/3dview/object/selecting/index>` methods.
 
 
 Inverse selection

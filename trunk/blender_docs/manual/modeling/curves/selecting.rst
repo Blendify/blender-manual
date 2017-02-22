@@ -39,7 +39,7 @@ the 3D Views header. Let us detail them:
 - Select/Deselect All
 
 Border/ Circle Select
-   All these options have the same meaning and behavior as in :doc:`Object Mode </editors/3dview/object/selecting>`
+   All these options have the same meaning and behavior as in :doc:`Object Mode </editors/3dview/object/selecting/tools>`
    (and the specifics of *Border Select* in *Edit Mode* have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
