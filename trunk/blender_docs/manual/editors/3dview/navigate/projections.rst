@@ -41,12 +41,6 @@ making it easier to draw and judge proportions.
 Options
 =======
 
-.. _fig-view3d-camera-view:
-
-.. figure:: /images/editors_3dview_navigate_3d-view_camera-view.png
-
-   Demonstration of camera view.
-
 
 To change the projection for a 3D View, choose the :menuselection:`View --> Orthographic`
 or the :menuselection:`View --> Perspective` menu entry.
@@ -56,15 +50,7 @@ Rendering is in perspective by default. If you need to create an orthographic re
 select the camera, go to the Camera tab and press the
 *Orthographic* button in the *Lens* panel.
 
-The :menuselection:`View --> Camera` menu entry sets the 3D View to camera mode :kbd:`Numpad0`.
-The scene is then displayed as it will be rendered later (see Fig. :ref:`fig-view3d-camera-view`).
-The rendered image will contain everything within the orange dotted line.
-Zooming in and out is possible in this view, but to change the viewpoint,
-you have to move or rotate the camera.
-
 .. seealso::
 
    - :ref:`Render perspectives <camera-lens-type>`
-   - :doc:`Camera View </editors/3dview/navigate/camera_view>`
-   - :ref:`Camera Clipping <camera-clipping>`
    - :term:`Camera Projections <projection>`
