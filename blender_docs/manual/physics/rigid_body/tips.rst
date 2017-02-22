@@ -67,5 +67,5 @@ Scaling Rigid Bodies
 Rigid body objects can be scaled, also during the simulation.
 This work well in most cases, but can sometimes cause problems.
 
-If dynamic scaling is not needed, rigid body objects should have the scale applied by using the *Apply Scale* command
-:kbd:`Ctrl-A`.
+If dynamic scaling is not needed, rigid body objects should have the scale applied by
+using the *Apply Scale* tool :kbd:`Ctrl-A`.

@@ -12,7 +12,7 @@ Node Optimizations
 ==================
 
 As the first step in preparing a node shader for execution,
-Cycles expands all node groups, as if using the Ungroup command,
+Cycles expands all node groups, as if using the Ungroup tool,
 and discards UI only features like frames and reroute nodes.
 
 After that, it applies some obvious transformations

@@ -185,8 +185,8 @@ Duplication
    | Hotkey:   :kbd:`Shift-D`
 
 
-Well, as with meshes and curves, this command just duplicates the selection. As usual,
-the copy is selected and placed in *Grab* mode, so you can move it to another place.
+Similar as with meshes and curves, this tool duplicates the selection.
+The copy is selected and placed in *Grab* mode, so you can move it to another place.
 
 However, with surfaces there are some selections that cannot be duplicated,
 in which case they will just be placed in *Grab* mode... In fact,
@@ -266,7 +266,7 @@ you cannot join two surfaces while in *Object Mode* - but you can of course, as 
 join two or more *Surface* objects
 into one object :kbd:`Ctrl-J` - they just will not be "linked" or merged in a single one... Yes, it's a bit confusing!
 
-This command is equivalent to creating edges or :kbd:`F` aces for meshes
+This tool is equivalent to creating edges or faces for meshes
 (hence its shortcut), and so it only works in *Edit Mode*.
 The selection must contains only border rows of the same resolution
 (with the same number of control points),
@@ -361,7 +361,7 @@ Switch Direction
      :menuselection:`Specials --> Switch Direction`
 
 
-This command will "reverse" the direction of any curve with at least one selected element
+This tool will "reverse" the direction of any curve with at least one selected element
 (i.e. the start point will become the end one, and *vice versa*).
 Mainly useful when using a curve as path, or the bevel and taper options...
 

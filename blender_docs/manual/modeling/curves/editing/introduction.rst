@@ -166,7 +166,7 @@ Add Duplicate
    | Hotkey:   :kbd:`Shift-D`
 
 
-This command duplicates the selected control points,
+This tool duplicates the selected control points,
 along with the curve segments implicitly selected (if any).
 If only a handle is selected, the full point will be duplicated too.
 The copy is selected and placed in *Grab* mode, so you can move it to another place.

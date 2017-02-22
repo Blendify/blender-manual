@@ -114,7 +114,7 @@ Ungroup
    | Menu:     :menuselection:`Group --> Ungroup`
    | Hotkey:   :kbd:`Alt-G`
 
-The :kbd:`Alt-G` command removes the group and places the individual nodes into your editor workspace.
+The :kbd:`Alt-G` tool removes the group and places the individual nodes into your editor workspace.
 No internal connections are lost, and now you can thread internal nodes to other nodes in your workspace.
 
 

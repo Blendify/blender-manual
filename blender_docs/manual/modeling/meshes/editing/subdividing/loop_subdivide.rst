@@ -92,7 +92,7 @@ Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
 Smoothing :kbd:`Alt-Wheel`
    Smoothing causes edge loops to be placed in an interpolated position, relative to the face it is added to,
    causing them to be shifted outwards or inwards by a given percentage,
-   similar to the *Subdivide Smooth* command. When not using smoothing,
+   similar to the *Subdivide Smooth* tool. When not using smoothing,
    new vertices for the new edge loop are placed exactly on the pre-existing edges.
    This keeps subdivided faces flat, but can distort geometry,
    particularly when using :doc:`Subdivision Surfaces </modeling/modifiers/generate/subsurf>`.

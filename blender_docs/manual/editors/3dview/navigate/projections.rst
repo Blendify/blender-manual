@@ -11,7 +11,7 @@ Projections
    | Menu:     :menuselection:`View --> View Perspective/Orthographic`
    | Hotkey:   :kbd:`Numpad5`
 
-These commands change the projection of the viewport camera.
+These operators change the projection of the viewport camera.
 Each 3D View supports two different types of projection.
 These are demonstrated in the Fig. below.
 
@@ -40,7 +40,6 @@ making it easier to draw and judge proportions.
 
 Options
 =======
-
 
 To change the projection for a 3D View, choose the :menuselection:`View --> Orthographic`
 or the :menuselection:`View --> Perspective` menu entry.

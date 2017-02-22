@@ -357,7 +357,7 @@ Rotate Edges
    | Menu:     :menuselection:`Mesh --> Faces --> Rotate Edge CW`
 
 
-This command functions the same edge rotation in edge mode.
+This tool functions the same edge rotation in edge mode.
 
 It works on the shared edge between two faces and rotates that edge if the edge was selected.
 

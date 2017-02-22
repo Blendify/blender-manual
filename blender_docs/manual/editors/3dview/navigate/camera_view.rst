@@ -80,7 +80,7 @@ To perform these camera moves, the camera must first be *selected*,
 so that it becomes the active object (while viewing through it,
 you can :kbd:`RMB` -- click on the solid rectangular edges to select it).
 The following actions also assume that you are in camera view :kbd:`Numpad0`!
-Having done so, you can now manipulate the camera using the same commands
+Having done so, you can now manipulate the camera using the same tools
 that are used to manipulate any object:
 
 Roll
@@ -104,5 +104,5 @@ Sideways Tracking
 
    :ref:`Fly/Walk Mode <3dview-walk-fly>`
       When you are in walk/fly mode, navigation actually moves your camera:
-   :ref:`Lock Camera to View <3dview-lock-camera-to-view>` When enabled,
-      performing typical view manipulation operations will move the camera object.
+   :ref:`Lock Camera to View <3dview-lock-camera-to-view>`
+      When enabled, performing typical view manipulation operations will move the camera object.

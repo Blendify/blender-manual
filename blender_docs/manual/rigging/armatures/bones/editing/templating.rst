@@ -41,7 +41,7 @@ The result is shown at right:
 Blender creates a copy of "chain_a" and matches the bones with the stroke.
 
 Blender also creates a copy of "chain_b", but this chain is not altered in any way;
-because this command can map only one selected chain with a stroke.
+because this tool can map only one selected chain with a stroke.
 
 
 In the following example, no template is selected. (In other words, all the action is within the armature itself.)
@@ -68,7 +68,7 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
 If you had selected both the chains ("Chain_a" and "Chain_b"),
 you would have still got the same result as in the example above,
-because the command maps to stroke only one selected chain.
+because the tool maps to stroke only one selected chain.
 
 In the following example also, only one chain is selected,
 but there are three strokes to map to. In this case, the same chain is copied three times
@@ -96,7 +96,7 @@ OK now, here are some important ground rules:
   In general, it is a better idea to create new "templated" bones inside the "reference"
   armature, so you can precisely select which bones to use as template --
   if you want the new bones in a different armature, you can then use the *Separate*
-  :kbd:`Ctrl-Alt-P` and optionally *Join* (:kbd:`Ctrl-J` in *Object Mode*) commands...
+  :kbd:`Ctrl-Alt-P` and optionally *Join* (:kbd:`Ctrl-J` in *Object Mode*) tools...
 - This tool only considers *one* chain of bones,
   so it is better to select only one chain of bones inside the current armature
   (or use a single-chain armature object as template).

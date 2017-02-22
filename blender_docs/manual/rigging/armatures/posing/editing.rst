@@ -158,7 +158,7 @@ Relax Pose
 
 Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
 When you edit such a bone (and hence take it "away" from its "keyed position"),
-using this command will progressively "bring it back" to its "keyed position",
+using this tool will progressively "bring it back" to its "keyed position",
 with smaller and smaller steps as it comes near it.
 
 

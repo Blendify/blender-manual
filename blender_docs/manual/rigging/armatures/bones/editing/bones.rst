@@ -120,7 +120,7 @@ The "_R" bone is its mirror counterpart (along the armature's local X axis), see
 
 
 In case you are wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
-because extrusion selects the newly created tips, and as explained below the delete command ignores bones' joints.
+because extrusion selects the newly created tips, and as explained below the Delete tool ignores bones' joints.
 To get rid of these extruded bones without undoing, you would have to move the tips,
 then select the bones and delete (`Deleting Bones`_) them.
 

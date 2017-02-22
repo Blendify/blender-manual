@@ -51,7 +51,7 @@ Detail Refine Method
    altering the topology.
 
    Subdivide
-      Just like the subdivide command, this method will only subdivide topology
+      Just like the subdivide tool, this method will only subdivide topology
       to match the detail given.
    Collapse
       When topology is too dense, and is smaller than the detail given, edges will

@@ -128,7 +128,7 @@ Increment Filename ``+``, ``-``
    (use to make *versions* of a file).
 Confirm
    The main button to Open Directory/File or Save (As) :kbd:`Return` or
-   double click with :kbd`LMB` on the entry confirms with that file or data-block.
+   double click with :kbd:`LMB` on the entry confirms with that file or data-block.
 
    - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file`).
    - :kbd:`Alt-LMB` -- Open the directory externally (using the system's file manager).

@@ -46,7 +46,7 @@ Mark Seam and Clear Seam
 
 Seams are a way to create separations, "islands", in UV maps.
 See the :ref:`UVTexturing section <editors-uv-image-index>` for more details.
-These commands set or unset this flag for selected edges.
+These operators set or unset this flag for selected edges.
 
 
 Mark Sharp and Clear Sharp
@@ -59,8 +59,8 @@ Mark Sharp and Clear Sharp
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
 
 The *Sharp* flag is used by the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`,
-which is part of the smoothing technics.
-As seams, it is a property of edges, and these commands set or unset it for selected ones.
+which is part of the smoothing techniques.
+As seams, it is a property of edges, and these operators set or unset it for selected ones.
 
 
 .. _modeling-edges-bevel-weight:
@@ -77,7 +77,7 @@ Adjust Bevel Weight
 
 This edge property, a value between (0.0 to 1.0),
 is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` to control the bevel intensity of the edges.
-This command enters an interactive mode (a bit like transform tools),
+This operator enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard)
 you can set the (average) bevel weight of selected edges.
 
@@ -98,7 +98,7 @@ Edge Crease
 This edge property, a value between (0.0 to 1.0), is used by the
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
 to control the sharpness of the edges in the subdivided mesh.
-This command enters an interactive mode (a bit like transform tools),
+This operator enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard) you can set the (average)
 crease value of selected edges.
 A negative value will subtract from the actual crease value, if present.
