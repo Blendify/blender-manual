@@ -309,7 +309,7 @@ or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
 
 In Fig. :ref:`fig-mesh-select-advanced-loop-ring` the same edge was clicked on,
-but two different "groups of edges" were selected, based on the different commands.
+but two different "groups of edges" were selected, based on the different tools.
 One is based on edges during computation and the other is based on faces.
 
 

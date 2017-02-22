@@ -103,7 +103,7 @@ Select/Deselect First/Last
    | Hotkey:   None
 
 
-These commands will toggle the selection of the first or last control point(s) of the curve(s)
+These operators will toggle the selection of the first or last control point(s) of the curve(s)
 in the object. This is useful to quickly find the start of a curve
 (e.g. when using it as path...).
 
@@ -119,7 +119,7 @@ Select Next/Previous
    | Hotkey:   None
 
 
-These commands will select the next or previous control point(s),
+These operators will select the next or previous control point(s),
 based on the current selection
 (i.e. the control points following or preceding the selected ones along the curve).
 In case of a cyclic curve, the first and last points are not considered as neighbors.

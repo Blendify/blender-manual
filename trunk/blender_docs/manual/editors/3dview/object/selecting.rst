@@ -123,9 +123,9 @@ Circle Select
 *Circle Select* :kbd:`C` is used by moving with dotted circle through objects with :kbd:`LMB`.
 You can select any object by touching of circle area.
 It is possible to dynamically change the diameter of circle by scrolling :kbd:`Wheel`
-or with :kbd:`NumpadPlus` and :kbd:`NumpadMinus`as seen in pictures below.
+or with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` as seen in pictures below.
 Deselection is under the same principle -- :kbd:`MMB`.
-To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`or :kbd:`Enter`.
+To cancel the selection use :kbd:`RMB` or key :kbd:`Esc` or :kbd:`Enter`.
 
 .. list-table::
 
@@ -369,7 +369,7 @@ Inverse :kbd:`Ctrl-I`
    Selects all objects that were not selected, while deselecting all those which were.
 Random
    Randomly selects unselected objects based on percentage probability on currently active layers.
-   On selecting the command a numerical selection box becomes available in the *Tool Shelf*.
+   On selecting the operator a numerical selection box becomes available in the *Tool Shelf*.
    It is important to note that the percentage represents the likelihood of an unselected object being
    selected and not the percentage amount of objects that will be selected.
 Mirror :kbd:`Shift-Ctrl-M`

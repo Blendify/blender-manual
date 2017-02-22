@@ -105,8 +105,6 @@ Unwrapping would produce a full set of UVs (for each side)
 and painting could thus be different for each side of the face, which is more realistic.)
 
 
-
-
 Iteration and Refinement
 ------------------------
 
@@ -131,7 +129,7 @@ As you start to edit the image,
 you realize that there just are not enough pixels available to paint the detail that you want.
 
 Your only choice is to expand the size (scale out) that UV face.
-Using the minimize stretch or scale commands,
+Using the minimize stretch or scale tools,
 you expand the UV faces around the eyes or chest, allocating more pixels to those areas,
 but at the same time taking away pixels (detail) from something else,
 like the back of the head. After refining the UV map,

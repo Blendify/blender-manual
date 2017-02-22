@@ -50,7 +50,7 @@ Recalculate Normals
    | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`
 
 
-These commands will recalculate the normals of selected faces so that they point outside
+These tools will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.
 This volume do not need to be closed. In fact, this means that the face of interest must be
 adjacent with at least one non-coplanar other face.

@@ -3,6 +3,10 @@
 Introduction
 ************
 
+In this section will be described tools for manipulating objects in Object Mode.
+All editing tools can be found in Object menu and/or in Tools Shelf.
+
+
 Delete
 ======
 

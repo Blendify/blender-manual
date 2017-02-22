@@ -144,7 +144,7 @@ on the distance from those vertices to a particular Armature Bone.
 
 Once Blender has calculated the Influence Weight vertices should have it will assign that Influence Weight to the
 Vertex Groups that were previously created automatically by Blender on the Child Object when Armature Deform With
-Automatic Weights parenting command was carried out.
+Automatic Weights parenting tool was carried out.
 
 If all went well it should be possible to select the Armature Object switch it into Pose Mode and transform the bones
 of the Armature and the Child Object should deform in response.
