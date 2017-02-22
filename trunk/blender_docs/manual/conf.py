@@ -51,7 +51,8 @@ extensions = [
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../resources/templates']
-mathjax_path="js/MathJax.js"
+mathjax_path = 'js/MathJax.js'
+googleanalytics_id = 'UA-1418081-1'
 
 # The suffix(es) of source filenames.
 source_suffix = '.rst'
@@ -87,7 +88,6 @@ print("Using Index:", master_doc)
 
 if os.environ.get('manual_use_analytics') == "True":
     googleanalytics_enabled = True
-    googleanalytics_id = 'UA-1418081-1'
     print("Google Analytics: enabled")
 else:
     googleanalytics_enabled = False
