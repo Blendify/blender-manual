@@ -5,10 +5,12 @@ Common Shortcuts
 
 There are shortcuts shared among many button types.
 
+
+Mouse
+=====
+
 In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for Selection
 and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
-
-.. rubric:: The mouse usage summarized:
 
 .. list-table::
    :widths: 15 85
@@ -28,9 +30,13 @@ Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/7633505
    For example, the :doc:`File Browser </editors/file_browser/introduction>`.
 
 
-While Hovering (when the cursor is held over a button).
+Hovering
+========
 
-.. rubric:: Properties:
+While hovering (when the cursor is held over a button).
+
+Properties
+----------
 
 - :kbd:`Ctrl-C` -- Copy the value of the button.
 - :kbd:`Ctrl-V` -- Paste the value of the button.
@@ -43,17 +49,20 @@ While Hovering (when the cursor is held over a button).
 - :kbd:`Return` -- Activates menus or toggles the value.
 
 
-.. rubric:: Animation:
+Animation
+---------
 
 - :kbd:`I` -- Insert a keyframe.
 - :kbd:`Alt-I` -- Clear the keyframe.
 - :kbd:`Alt-Shift-I` -- Clear all keyframes (removing all F-Curves).
-- :kbd:`D` -- Assign a driver.
-- :kbd:`Alt-D` -- Clear the driver.
+- :kbd:`Ctrl-D` -- Assign a driver.
+- :kbd:`Ctrl-Alt-D` -- Clear the driver.
 - :kbd:`K` -- Add a Keying Set.
 - :kbd:`Alt-K` -- Clear the Keying Set.
 
-.. rubric:: Python Scripting:
+
+Python Scripting
+----------------
 
 - :kbd:`Ctrl-C` -- Over any :ref:`ui-operation-buttons` copies their Python command into the clipboard.
 
@@ -66,14 +75,20 @@ While Hovering (when the cursor is held over a button).
 
   Note that in most cases it is best to access values based on the context, instead of by name.
 
-.. rubric:: While Dragging
+
+Dragging
+========
 
 - :kbd:`Ctrl` -- While dragging snap the discrete steps.
 - :kbd:`Shift` -- Gives precision control over the value.
-- :kbd:`Ctrl-Shift` -- Precise snap. This option will move the object with high precision
+- :kbd:`Ctrl-Shift` -- Precise snap will move the object with high precision
   along with the snapping constraint.
 
-.. rubric:: While Editing Text
+
+.. _ui-text-editing:
+
+Text Editing
+============
 
 - :kbd:`Home` -- Go to the start.
 - :kbd:`End` -- Go to the end.
@@ -81,13 +96,15 @@ While Hovering (when the cursor is held over a button).
 - :kbd:`Ctrl-Left`, :kbd:`Ctrl-Right` -- Move the cursor an entire word.
 - :kbd:`Backspace`, :kbd:`Delete` -- Delete characters.
 - :kbd:`Ctrl-Backspace`, :kbd:`Ctrl-Delete` -- Deletes words.
-- Holding :kbd:`Shift` -- While moving the cursor selects.
+- :kbd:`Shift` -- While holding the key and moving the cursor selects.
 - :kbd:`Ctrl-A` -- Select all text.
 - :kbd:`Ctrl-C` -- Copy the selected text.
 - :kbd:`Ctrl-X` -- Cut the selected text.
 - :kbd:`Ctrl-V` -- Paste text at the cursor position.
 
-.. rubric:: All Modes
+
+Confirm and Chancel
+===================
 
 - :kbd:`Esc`, :kbd:`RMB` -- Cancels.
 - :kbd:`Return`, :kbd:`LMB` -- Confirms.
