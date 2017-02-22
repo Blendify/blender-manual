@@ -16,7 +16,9 @@ Grab/Move
 
 
 In Object Mode, the grab/move option lets you translate (move) objects.
+Translation means changing location of objects. 
 It also lets you translate any elements that make up the object within the 3D space of the active 3D View.
+
 Grab/Move works similarly here as it does
 in the Node Editor, Graph Editor, UV/Image Editor, Sequencer, etc.
 
@@ -53,10 +55,10 @@ Rotate
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, Object etc)
-around one or more axes or the element's
-:doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`.
+around one or more axes or
+the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`.
 
-The amount of rotation will be displayed in the footer of the 3D View editor.
+The angle of rotation will be displayed in the footer of the 3D View editor.
 
 .. figure:: /images/editors_3dview_transform_basics_rotate_display-values.png
 
@@ -83,6 +85,7 @@ Scale
    | Hotkey:   :kbd:`S`
 
 
+Scaling means changing proportions of objects.
 Pressing :kbd:`S` will enter the *Scale* transformation mode where the
 selected element is scaled inward or outward according to the mouse pointer's location. The
 element's scale will increase as the mouse pointer is moved away from the Pivot Point and

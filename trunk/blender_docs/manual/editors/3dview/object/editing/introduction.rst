@@ -13,7 +13,7 @@ Delete
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
+   | Mode:     Object Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Delete`
    | Menu:     :menuselection:`Object --> Delete`
    | Hotkey:   :kbd:`X`
