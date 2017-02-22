@@ -11,10 +11,14 @@ Camera View
    | Menu:     :menuselection:`View --> Camera --> Active Camera`
    | Hotkey:   :kbd:`Numpad0`
 
+.. figure:: /images/editors_3dview_navigate_3d-view_camera-view.png
+
+   Demonstration of camera view.
 
 The Camera view shows the current scene as seen from the currently active camera's view point.
 It can be activated by pressing :kbd:`Numpad0`.
 The Camera view can be used to virtually compose shots and preview how the scene will look when rendered.
+The rendered image will contain everything within the dashed line.
 In this view you can also set the *Render Border* which defines the portion of the 3D View to be rendered.
 
 .. list-table:: Camera view provides a preview for the final rendered image.
@@ -30,13 +34,13 @@ In this view you can also set the *Render Border* which defines the portion of t
           Rendered image.
 
 
-There are several different ways to navigate and position the camera in your scene, some of them are explained below.
-
-
 Camera Navigation
 =================
 
 There are several different ways to navigate and position the camera in your scene, some of them are explained below.
+
+Zooming in and out is possible in this view, but to change the viewpoint,
+you have to move or rotate the camera.
 
 .. note::
 
