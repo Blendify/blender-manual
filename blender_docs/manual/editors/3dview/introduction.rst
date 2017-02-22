@@ -27,7 +27,7 @@ Menus
 View
    This menu offers tools to :doc:`navigate </editors/3dview/navigate/index>` in 3D space.
 Select
-   Contains tools for :doc:`selecting </editors/3dview/object/selecting>` objects.
+   Contains tools for :doc:`selecting </editors/3dview/object/selecting/index>` objects.
 Add
    Gives a list of different :ref:`objects types <objects-types>` that can be added to a scene.
 Object

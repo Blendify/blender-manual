@@ -10,6 +10,6 @@
    introduction.rst
    origin.rst
    types.rst
-   selecting.rst
+   selecting/index.rst
    editing/index.rst
    properties/index.rst
