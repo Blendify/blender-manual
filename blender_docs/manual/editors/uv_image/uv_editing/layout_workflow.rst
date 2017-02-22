@@ -70,7 +70,7 @@ To work on the ear, in the 3D View, we now select only the "ear" faces.
 You can use Vertex Groups to select the ear faces. Selecting sub-meshes is easy too,
 since they are not connected to the rest of the mesh.
 Simply selecting Linked vertices will select that entire submesh. Basically,
-since you are in edit mode, all of the selecting/unselecting features are available to you.
+since you are in Edit Mode, all of the selecting/deselecting features are available to you.
 
 Now re-unwrap the ear using the *Project* calculation from side view,
 and scale and rotate them somewhat (discussed in the next section),
