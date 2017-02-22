@@ -84,7 +84,7 @@ Lock to Scene
 Proportional Edit
    :doc:`Proportional Edit </editors/3dview/object/editing/transform/control/proportional_edit>`.
 Snap
-   Controls the :doc:`snapping tools </editors/3dview/object/editing/transform/control/precision/snap>`
+   Controls the :doc:`snapping tools </editors/3dview/object/editing/transform/control/snap>`
    that help with transforming and modeling objects.
 OpenGL Render
    The Render Buttons render an OpenGL version of the 3D View.

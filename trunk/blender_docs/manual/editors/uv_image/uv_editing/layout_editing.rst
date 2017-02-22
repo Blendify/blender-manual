@@ -170,7 +170,7 @@ Snap
 ----
 
 Snapping in UV/image editor is similar to
-:doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/precision/snap>`.
+:doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/snap>`.
 For the snap to pixel options to work an image has to be loaded.
 
 Selected to Pixels

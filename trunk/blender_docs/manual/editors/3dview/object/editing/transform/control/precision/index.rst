@@ -9,4 +9,3 @@
    introduction.rst
    numeric_input.rst
    axis_locking.rst
-   snap.rst

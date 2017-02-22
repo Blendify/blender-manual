@@ -12,7 +12,7 @@ The following pages detail the available control options:
 
    precision/index.rst
    manipulators.rst
-   clear_apply.rst
    proportional_edit.rst
    orientations.rst
+   snap.rst
    pivot_point/index.rst

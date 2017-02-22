@@ -8,6 +8,7 @@
 
    introduction.rst
    basics.rst
-   mirror.rst
-   tools.rst
    control/index.rst
+   tools.rst
+   mirror.rst
+   clear_apply.rst
