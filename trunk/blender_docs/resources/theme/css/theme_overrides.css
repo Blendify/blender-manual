@@ -181,10 +181,10 @@ a.external {color:#656AE0;}
 	.menuselection {white-space: normal}
 }
 .caption .menuselection {
-	background-color: none;
+	background-color: transparent;
 	border: none;
 }
-.caption .kbd {background-color: none}
+.caption .kbd {background-color: transparent}
 
 /*remove indent on line break*/
 .rst-content .line-block {margin-left:0px}
