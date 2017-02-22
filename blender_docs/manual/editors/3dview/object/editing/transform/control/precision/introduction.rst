@@ -103,7 +103,7 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
    :ref:`Snap Element <transform-snap-element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
-   :doc:`Read more about Snapping </editors/3dview/object/editing/transform/control/precision/snap>`
+   :doc:`Read more about Snapping </editors/3dview/object/editing/transform/control/snap>`
 
 
 Precision

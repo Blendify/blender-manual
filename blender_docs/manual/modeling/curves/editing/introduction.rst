@@ -113,7 +113,7 @@ Snap
    | Hotkey:   :kbd:`Shift-S`
 
 
-:doc:`Mesh snapping </editors/3dview/object/editing/transform/control/precision/snap>`
+:doc:`Mesh snapping </editors/3dview/object/editing/transform/control/snap>`
 also works with curve components.
 Both control points and their handles will be affected by snapping,
 except for within itself (other components of the active curve).
