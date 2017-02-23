@@ -23,10 +23,8 @@ once_words = set()
 bad_words = set()
 
 def check_spelling_body(text):
-    ww = text.split()
-
     for w in text.split():
-
+        # skip directive args (figure target for eg), could do differently?
         if w.startswith(":") and w.endswith(":"):
             continue
         if w.startswith("<") and w.endswith(">"):
@@ -42,7 +40,6 @@ def check_spelling_body(text):
         # now we've gotten rid of typical roles, strip other chars
         w = w.strip(":`()<>{}")
 
-        # if w:
         w_ = w
         for w in w_.split("/"):
             if not w:
@@ -140,6 +137,7 @@ directives.register_directive('code-block', directive_ignore_recursive)
 directives.register_directive('youtube', directive_ignore_recursive)
 directives.register_directive('vimeo', directive_ignore_recursive)
 directives.register_directive('highlight', directive_ignore_recursive)
+directives.register_directive('parsed-literal', directive_ignore_recursive)
 
 # workaround some bug? docutils wont load relative includes!
 directives.register_directive('include', directive_ignore_recursive)
@@ -154,14 +152,24 @@ def role_ignore(
     # Recursively parse the contents of the index term, in case it
     # contains a substitiution (like |alpha|).
     nodes, msgs = inliner.parse(text, lineno, memo=inliner, parent=inliner.parent)
-    return [RoleIgnore(rawtext, '', *nodes, **options)], []
+    # 'text' instead of 'rawtext' because it doesnt contain the :role:
+    return [RoleIgnore(text, '', *nodes, **options)], []
 
-roles.register_canonical_role('kbd', role_ignore)
-roles.register_canonical_role('doc', role_ignore)
-roles.register_canonical_role('ref', role_ignore)
-roles.register_canonical_role('term', role_ignore)
+class RoleIgnoreRecursive(docutils.nodes.Inline, docutils.nodes.TextElement): pass
+def role_ignore_recursive(
+        name, rawtext, text, lineno, inliner,
+        options={}, content=[],
+        ):
+    return [RoleIgnore("", '', *(), **{})], []
+
+
 roles.register_canonical_role('abbr', role_ignore)
 roles.register_canonical_role('menuselection', role_ignore)
+
+roles.register_canonical_role('doc', role_ignore_recursive)
+roles.register_canonical_role('kbd', role_ignore_recursive)
+roles.register_canonical_role('ref', role_ignore_recursive)
+roles.register_canonical_role('term', role_ignore_recursive)
 
 # -----------------------------------------------------------------------------
 
@@ -239,7 +247,7 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
         align = self.node_align(node)
         elem = BElemListItem(align, self.indent, "style_body",
                              self.list_types[-1], self.list_count[-1])
-        self.bdoc.add_elem(elem) 
+        self.bdoc.add_elem(elem)
         '''
         pass
 
@@ -276,19 +284,19 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
         '''
 
     def visit_paragraph(self, node):
-        # TODO
+        pass
+    def depart_paragraph(self, node):
         pass
 
-    def depart_paragraph(self, node):
-        text = node.astext()
+        ## Just text for now
+        # text = node.astext()
         # print(text)
-        check_spelling_body(text)
+        # check_spelling_body(text)
 
     def visit_Text(self, node):
         text = node.astext()
         # print(text)
         check_spelling_body(text)
-
 
     def depart_Text(self, node):
         pass
@@ -302,15 +310,34 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
     def depart_emphasis(self, node):
         self.is_emphasis = False
 
+    def visit_math(self, node):
+        raise docutils.nodes.SkipNode
+    def depart_math(self, node):
+        pass
+
+    def visit_literal(self, node):
+        raise docutils.nodes.SkipNode
+    def depart_literal(self, node):
+        pass
 
     def visit_literal_block(self, node):
-        pass
+        raise docutils.nodes.SkipNode
     def depart_literal_block(self, node):
         pass
 
     def visit_code_block(self, node):
-        pass
+        raise docutils.nodes.SkipNode
     def depart_code_block(self, node):
+        pass
+
+    def visit_reference(self, node):
+        raise docutils.nodes.SkipNode
+    def depart_reference(self, node):
+        pass
+
+    def visit_download_reference(self, node):
+        raise docutils.nodes.SkipNode
+    def depart_download_reference(self, node):
         pass
 
     def visit_date(self, node):
