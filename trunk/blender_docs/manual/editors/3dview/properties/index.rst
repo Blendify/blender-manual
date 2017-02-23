@@ -1,7 +1,7 @@
 
-##################
-  Display Options
-##################
+##############
+  Properties
+##############
 
 .. toctree::
    :maxdepth: 2

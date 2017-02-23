@@ -23,10 +23,23 @@ Show Frame Number Indicator
    Toggles the units of measure across the bottom of the time cursor between seconds or frames.
 Show Offsets
    ToDo.
+
+   .. (wip) Show overflow bars when sliding the content.
 Waveform Drawing
    ToDo.
 Sync Markers
    Transform Markers as well as Strips.
+
+
+Frame Menu
+----------
+
+Preview Range :kbd:`P`, :kbd:`Alt-P`
+   See :ref:`graph-preview-range`.
+Jump to end of strip :kbd:`PageUp`
+   Current frame will jump to end of strip.
+Jump to beginning of strip :kbd:`PageDown`
+   Current frame will jump to beginning of strip.
 
 
 Refresh Sequencer
@@ -65,8 +78,8 @@ Use these shortcuts to adjust the sequence area of the VSE:
 - Scale View Horizontally, drag on the circles on the horizontal scroll bar.
 
 
-Scrubbing
----------
+Time Cursor
+-----------
 
 To move back and forth through your movie, :kbd:`LMB` click and drag left/right
 in the Sequencer's main view by moving the Time cursor (the vertical bar which indicates the current frame).
@@ -78,7 +91,7 @@ showing only this strips output) and the strip will be highlighted.
 
 When holding :kbd:`Ctrl` while dragging it will snap to the start and endpoints of strips.
 
-Real-time scrubbing and image display is possible on reasonable computers when viewing an
+Real-time preview is possible on reasonable computers when viewing an
 image sequence or movie (``avi``/``mov``) file.
 Scene strips can use OpenGL previews or proxies for realtime playback,
 otherwise displaying rendered frame is supported, but typically too slow for real-time playback.
