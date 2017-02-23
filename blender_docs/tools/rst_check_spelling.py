@@ -103,6 +103,8 @@ def directive_ignore(
     """
     Used to explicitly mark as doctest blocks things that otherwise
     wouldn't look like doctest blocks.
+
+    Note this doesn't ignore child nodes.
     """
     text = '\n'.join(content)
     '''
@@ -125,16 +127,9 @@ def directive_ignore_recursive(
 directive_ignore_recursive.content = True
 
 
+# ones we want to check
 directives.register_directive('index', directive_ignore)
 directives.register_directive('toctree', directive_ignore)
-directives.register_directive('youtube', directive_ignore)
-directives.register_directive('vimeo', directive_ignore)
-directives.register_directive('highlight', directive_ignore)
-directives.register_directive('include', directive_ignore)
-
-# workaround some bug? docutils wont load relative includes!
-
-# ones we want to check
 directives.register_directive('seealso', directive_ignore)
 directives.register_directive('only', directive_ignore)
 directives.register_directive('hlist', directive_ignore)
@@ -142,6 +137,13 @@ directives.register_directive('glossary', directive_ignore)
 
 # Recursive ignore, take care!
 directives.register_directive('code-block', directive_ignore_recursive)
+directives.register_directive('youtube', directive_ignore_recursive)
+directives.register_directive('vimeo', directive_ignore_recursive)
+directives.register_directive('highlight', directive_ignore_recursive)
+
+# workaround some bug? docutils wont load relative includes!
+directives.register_directive('include', directive_ignore_recursive)
+
 
 # Dummy roles
 class RoleIgnore(docutils.nodes.Inline, docutils.nodes.TextElement): pass
@@ -166,10 +168,11 @@ roles.register_canonical_role('menuselection', role_ignore)
 import docutils.parsers.rst
 
 
-def rst_to_doctree(filedata):
+def rst_to_doctree(filedata, filename):
+    # filename only used as an ID
     import docutils.parsers.rst
     parser = docutils.parsers.rst.Parser()
-    doc = docutils.utils.new_document("test")
+    doc = docutils.utils.new_document(filename)
     doc.settings.tab_width = 3
     doc.settings.pep_references = False
     doc.settings.rfc_references = False
@@ -187,7 +190,7 @@ def rst_to_doctree(filedata):
 def check_spelling(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         filedata = f.read()
-        doc = rst_to_doctree(filedata)
+        doc = rst_to_doctree(filedata, filename)
         # print(doc)
 
     visitor = RstSpellingVisitor(doc)
