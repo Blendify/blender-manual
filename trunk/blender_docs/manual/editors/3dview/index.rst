@@ -13,4 +13,4 @@
    navigate/index.rst
    3d_cursor.rst
    object/index.rst
-   display/index.rst
+   properties/index.rst

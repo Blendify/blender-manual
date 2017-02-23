@@ -41,7 +41,7 @@ Grid Floor
    The gray squares forming a floor mark the zero height of the world.
    The red and green lines are the axis of the world coordinate system.
    They meet at the origin, which is also the position of the *Cube*.
-   The Grid Floor settings are in the :doc:`Display panel </editors/3dview/display/panels>`.
+   The Grid Floor settings are in the :doc:`Display panel </editors/3dview/properties/panels>`.
 
 .. figure:: /images/editors_3dview_startup_scene_single.png
 

@@ -31,7 +31,7 @@ Edges
    :doc:`UV Unwrapping </editors/uv_image/uv_editing/unwrapping/seams>`.
 Faces
    Defines if the selected faces will be highlighted in the
-   :doc:`3D View </editors/3dview/display/index>`.
+   :doc:`3D View </editors/3dview/properties/index>`.
    This affects all selection modes.
 Creases and Bevel Weight
    Highlights edges marked with a crease weight for the

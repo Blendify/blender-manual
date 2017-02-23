@@ -30,7 +30,7 @@ the Cycles Render engine.
 
 .. tip:: Showing Only Rendered Objects
 
-   To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display/panels>`.
+   To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/properties/panels>`.
 
    While this option is not specific to OpenGL rendering, its often useful to enable,
    since it removes data such as rigs and empties that can be a distraction.

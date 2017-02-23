@@ -148,7 +148,7 @@ the clip bounds will be visible as two yellow connected dots on the camera line 
 .. seealso::
 
    - :ref:`Blender Render Camera Clipping <camera-clipping>`.
-   - :doc:`3D View clipping </editors/3dview/display/panels>`.
+   - :doc:`3D View clipping </editors/3dview/properties/panels>`.
 
 
 Camera
