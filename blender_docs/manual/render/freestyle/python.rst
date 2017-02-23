@@ -254,31 +254,32 @@ Predicates, functions, chaining iterators, and stroke shaders can be defined by 
 base classes and overriding appropriate methods. See the reference manual entries of the
 following base classes for more information on the user-scriptable constructs.
 
+.. TODO: should these really be listed??? link to API docs seems more appropriate - ideasman42
 
 .. hlist::
    :columns: 2
 
-   - UnaryPredicate0D
-   - UnaryPredicate1D
-   - BinaryPredicate0D
-   - BinaryPredicate1D
-   - UnaryFunction0DDouble
-   - UnaryFunction0DEdgeNature
-   - UnaryFunction0DFloat
-   - UnaryFunction0DId
-   - UnaryFunction0DMaterial
-   - UnaryFunction0DUnsigned
-   - UnaryFunction0DVec2f
-   - UnaryFunction0DVec3f
-   - UnaryFunction0DVectorViewShape
-   - UnaryFunction0DViewShape
-   - UnaryFunction1DDouble
-   - UnaryFunction1DEdgeNature
-   - UnaryFunction1DFloat
-   - UnaryFunction1DUnsigned
-   - UnaryFunction1DVec2f
-   - UnaryFunction1DVec3f
-   - UnaryFunction1DVectorViewShape
-   - UnaryFunction1DVoid
-   - ViewEdgeIterator
-   - StrokeShader
+   - ``UnaryPredicate0D``
+   - ``UnaryPredicate1D``
+   - ``BinaryPredicate0D``
+   - ``BinaryPredicate1D``
+   - ``UnaryFunction0DDouble``
+   - ``UnaryFunction0DEdgeNature``
+   - ``UnaryFunction0DFloat``
+   - ``UnaryFunction0DId``
+   - ``UnaryFunction0DMaterial``
+   - ``UnaryFunction0DUnsigned``
+   - ``UnaryFunction0DVec2f``
+   - ``UnaryFunction0DVec3f``
+   - ``UnaryFunction0DVectorViewShape``
+   - ``UnaryFunction0DViewShape``
+   - ``UnaryFunction1DDouble``
+   - ``UnaryFunction1DEdgeNature``
+   - ``UnaryFunction1DFloat``
+   - ``UnaryFunction1DUnsigned``
+   - ``UnaryFunction1DVec2f``
+   - ``UnaryFunction1DVec3f``
+   - ``UnaryFunction1DVectorViewShape``
+   - ``UnaryFunction1DVoid``
+   - ``ViewEdgeIterator``
+   - ``StrokeShader``
