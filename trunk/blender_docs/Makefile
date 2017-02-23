@@ -119,6 +119,9 @@ check_structure: .FORCE
 #	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
 #	- rm rst_check_structure.log
 
+check_spelling: .FORCE
+	- python3 tools/rst_check_spelling.py
+
 check_links: .FORCE
 	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(BUILDDIR)/linkcheck
 	@echo
@@ -167,8 +170,9 @@ help:
 	@echo "Checking"
 	@echo "========"
 	@echo ""
-	@echo "- check_syntax       - Check the syntax of all .rst files."
+	@echo "- check_spelling     - Check spelling for text in RST files."
 	@echo "- check_structure    - Check the structure of all .rst files."
+	@echo "- check_syntax       - Check the syntax of all .rst files."
 	@echo "- check_links        - Check all external links for integrity."
 	@echo ""
 	@echo ""
