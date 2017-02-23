@@ -17,6 +17,10 @@ import re
 import enchant
 dict_spelling = enchant.Dict("en_US")
 
+from rst_check_spelling_config import (
+    dict_custom,
+    dict_ignore,
+)
 
 USE_ONCE = True
 once_words = set()
@@ -46,6 +50,10 @@ def check_spelling_body(text):
                 continue
 
             w_lower = w.lower()
+
+            if w_lower in dict_custom or w_lower in dict_ignore:
+                continue
+
             if USE_ONCE and w_lower in once_words:
                 continue
 
