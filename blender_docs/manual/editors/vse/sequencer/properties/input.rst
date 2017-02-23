@@ -38,6 +38,9 @@ Image Offset
 Image Crop
    Used to crop the source image, use *Top*, *Left*,
    *Bottom*, and *Right* to control which part of the image is cropped.
+
+.. _sequencer-duration-hard:
+
 Trim Duration (hard)
    Controls at what frame the source of the strip starts and ends at.
 Trim Duration (soft)

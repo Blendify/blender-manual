@@ -32,12 +32,12 @@ You can see the numbers you enter in the 3D View's footer.
 Simple Mode
 ===========
 
-Blender has two "modes", simple and advanced ones.
+Blender has two "modes" a simple and an advanced one.
 Simple mode only accepts simple numbers.
 You can use basic :ref:`text editing <ui-text-editing>` except selection.
 
 Decimals :kbd:`Period`
-   Decimals can be entered by pressing :kbd:`Period` respectively.
+   Decimals can be entered by pressing :kbd:`Period`.
 Negate :kbd:`Minus`
    Negate the whole value by pressing :kbd:`Minus`.
 Inverse :kbd:`Slash`

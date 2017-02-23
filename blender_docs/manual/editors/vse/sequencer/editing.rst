@@ -220,6 +220,8 @@ Cut (hard) at Frame
 
 Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips,
 but this time you will not be able enlarge the resulting strips.
+You can still adjust the :ref:`duration (hard) <sequencer-duration-hard>` number buttons
+in the Strip Input panel.
 
 
 Mute
