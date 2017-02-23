@@ -216,7 +216,7 @@ Moving keypoints or particles
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,
   but you can subdivide particles which adds new keypoints
-  :menuselection:`Specials --> Subdivide`or :kbd:`Numpad2`.
+  :menuselection:`Specials --> Subdivide` or :kbd:`Numpad2`.
 - Alternatively you can rekey a particle
   :menuselection:`Specials --> Rekey` or :kbd:`Numpad1` and choose the number of keys.
 
