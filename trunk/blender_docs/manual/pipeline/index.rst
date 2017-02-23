@@ -13,6 +13,7 @@ but here we will focus on file/asset management and data I/O.
    The tools and workflows documented here require familiarity with working
    with a command line interface and are mostly aimed at TDs and technical users.
 
+
 BAM Asset Manager
 =================
 
@@ -24,13 +25,15 @@ the *BAM Asset Manager* (BAM) was developed. The original scope of BAM included
 client-server asset management tools going beyond Blender,
 but it was later refocused on core utilities to perform two operations:
 
-- blendfile packing
-- automatic dependencies remapping
+- Blend-file packing
+- Automatic dependencies remapping
 
 The following section of the manual focuses on how to use BAM.
 
+
 Installing BAM
 --------------
+
 BAM is a standalone Python package, that can be run on any system without any particular configuration.
 The only requirement is Python 3 (and pip, the Python package manager, to easily install BAM).
 
@@ -51,9 +54,7 @@ bam pack
 --------
 
 This command is used for packing a ``.blend`` file and *all*
-its dependencies into a ``.zip`` file for redistribution.
-
-::
+its dependencies into a ``.zip`` file for redistribution. ::
 
    usage: bam pack [-h] [-o FILE] [-m MODE] [-e PATTERNS] [-a] [-q] [-c LEVEL]
                 paths [paths ...]
@@ -105,7 +106,7 @@ Examples
 Consider the following directory layout,
 and in particular the file *01_01_A.lighting.blend* with its linked libraries.
 
-.. code-block:: sh
+.. code-block:: none
 
    ~/agent327/
    └─ lib/
@@ -122,7 +123,7 @@ and in particular the file *01_01_A.lighting.blend* with its linked libraries.
 Once we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend``
 we obtain a *01_01_A.lighting.zip* inside of which we find the following structure.
 
-.. code-block:: sh
+.. code-block:: none
 
    ~/01_01_A.lighting
       ├─ 01_01_A.lighting.blend
@@ -139,7 +140,7 @@ of *01_01_A.lighting.blend* in the root of the output.
 If we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend --repo ~/agent327``,
 the output will be different.
 
-.. code-block:: sh
+.. code-block:: none
 
    ~/01_01_A.lighting
       ├─ lib/
@@ -159,17 +160,15 @@ This is effectively a sparse copy of the original production tree.
 bam remap
 ---------
 
-Remap blend file paths
-
-::
+Remap blend file paths::
 
    usage: bam remap [-h] {start,finish,reset} ...
 
-This command is a 3 step process:
+This command is a three step process:
 
-- first run ``bam remap start .`` which stores the current state of your project (recursively).
-- then re-arrange the files on the filesystem (rename, relocate).
-- finally run ``bam remap finish`` to apply the changes, updating the ``.blend`` files internal paths.
+#. First run ``bam remap start .`` which stores the current state of your project (recursively).
+#. Then re-arrange the files on the filesystem (rename, relocate).
+#. Finally run ``bam remap finish`` to apply the changes, updating the ``.blend`` files internal paths.
 
 
 .. code-block:: sh
@@ -199,42 +198,36 @@ Subcommands
 remap start
 """""""""""
 
-Start remapping the blend files
-
-::
+Start remapping the blend files::
 
    usage: bam remap start [-h] [-j] [paths [paths ...]]
 
 
 ``-j``, ``--json``
-   Generate JSON output
+   Generate JSON output.
 
 
 remap finish
 """"""""""""
 
-Finish remapping the blend files
-
-::
+Finish remapping the blend files::
 
    usage: bam remap finish [-h] [-r] [-d] [-j] [paths [paths ...]]
 
 ``-r``, ``--force-relative``
-   Make all remapped paths relative (even if they were originally absolute)
+   Make all remapped paths relative (even if they were originally absolute).
 ``-d``, ``--dry-run``
-   Just print output as if the paths are being run
+   Just print output as if the paths are being run.
 ``-j``, ``--json``
-   Generate JSON output
+   Generate JSON output.
 
 
 remap reset
 """""""""""
 
-Cancel path remapping
-
-::
+Cancel path remapping::
 
    usage: bam remap reset [-h] [-j]
 
 ``-j``, ``--json``
-    Generate JSON output
+    Generate JSON output.

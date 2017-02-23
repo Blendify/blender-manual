@@ -50,12 +50,22 @@ Properties Region
 Footage Settings
    See :doc:`/editors/uv_image/image/image_settings`.
 
-.. (todo) main view: mini timeline
-   area fill with between the animation start/end
 
-   yellow: track
-   yellow line: keyframe
-   orange line: shape keyframe
-   purple: prefetched frames
-   green line: time cursor
-   light green line: solve start/end keyframe
+Main View
+=========
+
+Mini Timeline
+-------------
+
+When a clip is loaded a Timeline is shown at bottom of the Preview.
+It expands over the full area limited by the animation range.
+You can move the Time Cursor by dragging with :kbd:`LMB`.
+
+The Timeline is composed of the following visual elements:
+
+- Green line: Time Cursor
+- Yellow: Motion track
+- Yellow line: Keyframe
+- Orange line: Shape keyframe
+- Purple: Prefetched frames
+- Light green line: Solve start/end keyframe

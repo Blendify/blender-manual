@@ -1,7 +1,7 @@
 
-##########
-NLA Editor
-##########
+##############
+  NLA Editor
+##############
 
 .. toctree::
    :maxdepth: 2
