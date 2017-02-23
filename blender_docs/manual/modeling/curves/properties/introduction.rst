@@ -16,7 +16,7 @@ ToDo.
 Radius
 ------
 
-The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
+The Radius allows you to directly control the width of the extrusion along the "spinal" curve.
 The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
 the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
 or the :menuselection:`Properties region --> Transform --> Radius`.

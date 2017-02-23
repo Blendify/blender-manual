@@ -340,7 +340,7 @@ Bake to Vertex Color
 Clear
    If selected, clears the image to selected background color (default is black) before baking render.
 Margin
-   Baked result is extended this many pixels beyond the border of each UV “island,” to soften seams in the texture.
+   Baked result is extended this many pixels beyond the border of each UV "island", to soften seams in the texture.
 Selected to Active
    Bake shading on the surface of selected objects to the active object.
 
