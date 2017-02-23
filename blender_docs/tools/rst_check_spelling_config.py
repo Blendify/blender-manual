@@ -75,11 +75,6 @@ dict_custom = {
     "voxel", "voxels",
     "wiki",
 
-    # specific computer terms/brands
-    "ffmpeg",
-    "unix",
-    "xinerama",
-
     # general computer graphics terms
     "atomics",
     "barycentric",
@@ -98,26 +93,18 @@ dict_custom = {
     "ngon", "ngons",
     "normals",
     "nurbs",
+    "perlin",
     "quaternions",
     "radiosity",
     "reflectance",
-    "shader",
-    "shaders",
+    "shader", "shaders",
     "specular",
 
-    # blender terms
-    "animsys",
-    "animviz",
-    "bge",
-    "bmain",
-    "bmesh",
-    "bpy",
-    "depsgraph",
-    "doctree",
-    "editmode",
-    "eekadoodle",
-    "fcurve",
-    "mathutils",
+    # specific computer terms/brands
+    "ffmpeg",
+    "pixar",
+    "unix",
+    "xinerama",
 
     # should have apostrophe but ignore for now
     # unless we want to get really picky!
@@ -127,39 +114,48 @@ dict_custom = {
 
 # incorrect spelling but ignore anyway
 dict_ignore = {
-    "tri",
-    "quad",
-    "eg",
-    "ui",
-    "uv",
+    "a-z",
     "arg", "args",
-    "vec",
-    "loc",
-    "dof",
     "bool",
+    "dirpath",
+    "dof",
     "dupli",
-    "readonly",
+    "eg",
+    "filename", "filenames",
     "filepath",
     "filepaths",
-    "filename", "filenames",
+    "loc",
+    "node-trees",
+    "quad",
+    "readonly",
     "submodule", "submodules",
-    "dirpath",
+    "tri",
+    "ui",
+    "uv",
+    "vec",
     "x-axis",
     "y-axis",
     "z-axis",
-    "a-z",
-    "node-trees",
 
     # acronyms
-    "cpu",
-    "gpu",
-    "rgb",
-    "gpl",
-    "nla",
     "api",
-    "rhs",
-    "lhs",
-    "ik",
-    "smpte",
+    "cpu",
     "gl",
+    "gpl",
+    "gpu",
+    "ik",
+    "lhs",
+    "nla",
+    "rgb",
+    "rhs",
+    "smpte",
+    "tcp",
+
+    # file formats
+    "svg",
+    "png",
+    "exr",
+
+    # names
+    "Roosendaal",
 }
