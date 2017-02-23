@@ -73,7 +73,9 @@ Driver Namespace
 ^^^^^^^^^^^^^^^^
 
 There is a list of built-in driver functions and properties.
-These can be displayed via the Python Console::
+These can be displayed via the Python Console
+
+.. code-block:: python
 
    >>> bpy.app.driver_namespace['
                                  __builtins__']
@@ -97,7 +99,10 @@ These can be displayed via the Python Console::
 
 
 This script will add a function to the driver namespace,
-which can then be used in the expression ``driver_func(frame)``::
+which can then be used in the expression ``driver_func(frame)``
+
+
+.. code-block:: python
 
    import bpy
 
