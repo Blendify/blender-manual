@@ -129,13 +129,13 @@ directive_ignore_recursive.content = True
 
 # ones we want to check
 directives.register_directive('index', directive_ignore)
-directives.register_directive('toctree', directive_ignore)
 directives.register_directive('seealso', directive_ignore)
 directives.register_directive('only', directive_ignore)
 directives.register_directive('hlist', directive_ignore)
 directives.register_directive('glossary', directive_ignore)
 
 # Recursive ignore, take care!
+directives.register_directive('toctree', directive_ignore_recursive)
 directives.register_directive('code-block', directive_ignore_recursive)
 directives.register_directive('youtube', directive_ignore_recursive)
 directives.register_directive('vimeo', directive_ignore_recursive)
