@@ -94,6 +94,7 @@ dict_custom = {
     "normals",
     "nurbs",
     "perlin",
+    "phong",
     "quaternions",
     "radiosity",
     "reflectance",
@@ -102,9 +103,14 @@ dict_custom = {
 
     # specific computer terms/brands
     "ffmpeg",
+    "nvidia",
     "pixar",
+    "redhat",
     "unix",
     "xinerama",
+
+    # Blender specific terms
+    "matcap", "matcaps",
 
     # should have apostrophe but ignore for now
     # unless we want to get really picky!
@@ -146,6 +152,7 @@ dict_ignore = {
     "ik",
     "lhs",
     "nla",
+    "ntsc",
     "rgb",
     "rhs",
     "smpte",

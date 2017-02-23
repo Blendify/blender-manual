@@ -83,7 +83,7 @@ Lighten
    Like bleach makes your whites whiter. Use with a mask to lighten up a little.
 Difference
    Kinda cute in that it takes out a color. The color needed to turn Yellow into White is Blue.
-   Use this to compare two verrry similar images to see what had been done to one to make it the other;
+   Use this to compare two very similar images to see what had been done to one to make it the other;
    sorta like a change log for images. You can use this to see a watermark (see `Watermark images`_)
    you have placed in an image for theft detection.
 Darken
