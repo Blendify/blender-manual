@@ -39,7 +39,7 @@ The *Timeline* can be panned by holding :kbd:`MMB`,
 then dragging the area left or right.
 
 You can zoom the *Timeline* by using :kbd:`Ctrl-MMB`, the mouse :kbd:`Wheel`,
-or pressing :kbd:`Minus` and :kbd:`Plus` on the numpad.
+or pressing :kbd:`NumpadMinus` and :kbd:`NumpadPlus`.
 
 
 Time Cursor
