@@ -23,17 +23,18 @@ Control Mode
       Powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 
 View Map Cache
-   A option to reuse a previously computed view map for subsequent rendering. 
+   A option to reuse a previously computed view map for subsequent rendering.
    The cache is automatically updated when the mesh geometry of the input 3D scene has been changed.
 
-   This functionality offers a major performance boost for Freestyle animation rendering 
+   This functionality offers a major performance boost for Freestyle animation rendering
    when camera-space mesh geometry is static, as well as for repeated still renders
    with updates of line stylization options.
 
    Although the ''View map cache'' checkbox is a render layer option, the cache memory is
    shared by all render layers and scenes. This means that if Freestyle is used for two or more render layers
-   (possibly in different scenes through the compositor), then the cached view map
-   for one render layer is replaced by a new view map for another render layer and hence no performance gain is expected.
+   (possibly in different scenes through the compositor),
+   then the cached view map for one render layer is replaced by a new view map
+   for another render layer and hence no performance gain is expected.
 Face Smoothness
    When enabled, *Smooth Shading* will be taken into account for edges calculation.
 Crease Angle

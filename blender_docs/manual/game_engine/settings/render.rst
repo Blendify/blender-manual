@@ -75,11 +75,13 @@ This panel provides information for the Standalone Game Player which allows game
 See :doc:`Standalone Player </game_engine/blender_player>` for further details.
 
 The semantics of the Standalone Player *Resolution* controls differ for Windowed and Fullscreen modes.
-In Windowed mode (*Fullscreen* checkbox unchecked), the *Resolution* controls set the initial dimensions of the desktop window.
+In Windowed mode (*Fullscreen* checkbox unchecked),
+the *Resolution* controls set the initial dimensions of the desktop window.
 The user may resize the window at any time, causing the rendering resolution to change accordingly.
 In Fullscreen mode (*Fullscreen* checkbox checked), the *Resolution* controls set the internal rendering resolution.
 The actual display resolution will be a best fit depending on the user's hardware.
-In either mode, the aspect ratio/cropping/scaling are determined by the *Framing* selection under the *Display* heading.
+In either mode, the aspect ratio/cropping/scaling are determined
+by the *Framing* selection under the *Display* heading.
 
 Regarding *Fullscreen* mode, it is important to remember that the *Resolution* settings in *Fullscreen* mode
 are only hints to the operating system. Each display and monitor combination will have a different set of
@@ -240,7 +242,8 @@ Deprecation Warnings
 Mouse Cursor
    Whether to show or not the mouse cursor when the game is running.
 Framing
-   Selects how the scene is to be fitted onto the display window or screen. There are three types of framing available:
+   Selects how the scene is to be fitted onto the display window or screen.
+   There are three types of framing available:
 
    Letterbox
       In Windowed mode:

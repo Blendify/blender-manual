@@ -41,8 +41,8 @@ Tripod
 Tripod Motion can be used for footage where the camera does not move and only rotates.
 Such footage can't be tracked with a generic solver approach, and
 it is impossible to determine the actual feature points in space due to a lack of information.
-So this solver will solve only the relative camera rotation and
-then reproject the feature points into a sphere, with the same distance between feature and camera for all feature points.
+So this solver will solve only the relative camera rotation and then reproject the feature points into a sphere,
+with the same distance between feature and camera for all feature points.
 
 .. note::
 

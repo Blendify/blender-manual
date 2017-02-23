@@ -123,7 +123,8 @@ Clamp Overlap :kbd:`C`
    When selected, the bevel amount is not allowed to go larger than an amount that causes
    overlapping collisions with other geometry.
 Loop Slide
-   If there are unbeveled edges along with beveled edges into a vertex, the bevel tries to slide along those edges when possible.
+   If there are unbeveled edges along with beveled edges into a vertex,
+   the bevel tries to slide along those edges when possible.
    Turning the option off can lead to more even bevel widths.
 Material
    The *Material* number specifies which material should be assigned to the new faces created by the *Bevel* tool.
