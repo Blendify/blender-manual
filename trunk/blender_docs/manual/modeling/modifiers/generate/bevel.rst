@@ -62,7 +62,8 @@ Clamp Overlap
    When enabled, the width of each beveled edge will be limited such that they cannot intersect each other.
    Edges that are far apart will still bevel with the full width, only edges too close to each other are affected.
 Loop Slide
-   If there are unbeveled edges along with beveled edges into a vertex, the bevel tries to slide along those edges when possible.
+   If there are unbeveled edges along with beveled edges into a vertex,
+   the bevel tries to slide along those edges when possible.
    Turning the option off can lead to more even bevel widths.
 
 Limit Method

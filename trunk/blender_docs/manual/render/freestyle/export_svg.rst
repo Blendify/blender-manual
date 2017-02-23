@@ -13,7 +13,8 @@ SVG exporting for Freestyle is available through an add-on.
 
 This add-on can be enabled via :menuselection:`User Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The GUI for the exporter should now be visible in the render tab of the Properties editor.
-The exported ``.svg`` file is written to the default output path :menuselection:`Properties editor --> Render --> Output`.
+The exported ``.svg`` file is written to the default output path
+:menuselection:`Properties editor --> Render --> Output`.
 
 
 Options
@@ -67,9 +68,9 @@ translation between Freestyle and SVG is not possible. The main shortcoming of S
 Freestyle defines style per-point, where SVG defines it per-path. This means that Freestyle can produce much more
 complex results that are impossible to achieve in SVG.
 
-There are extended options for the exporter, located at the specific panels of the Freestyle renderer at the 
-Render Layers tab of the Properties editor. Those options are located at the Freestyle Line Style SVG 
-Export panel, at the bottom of the tab. 
+There are extended options for the exporter, located at the specific panels of the Freestyle renderer at the
+Render Layers tab of the Properties editor. Those options are located at the Freestyle Line Style SVG
+Export panel, at the bottom of the tab.
 
 The properties (no modifiers applied) that can be exported are:
 
@@ -83,7 +84,8 @@ Animations
 ==========
 
 The exporter supports the creation of SVG animations. When the Mode is set to Animation, all frames from a render --
-one when rendering a frame (:kbd:`F12`) or all when rendering an animation (:kbd:`Shift-F12`) -- are saved into a single file.
+one when rendering a frame (:kbd:`F12`)
+or all when rendering an animation (:kbd:`Shift-F12`) -- are saved into a single file.
 Most modern browsers support the rendering of SVG animations.
 
 .. figure:: /images/render_freestyle_svg-export_cube.svg

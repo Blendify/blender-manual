@@ -119,7 +119,7 @@ create material image textures as described in the procedural materials section.
 Instead of mapping to Original Coordinates (OrCo), map to UV.
 
 Use that map name repeatedly in the :menuselection:`Material --> Textures --> Map Input`
-panel by selecting :guilabel:`UV` and typing the name in the text field. In the example to the right,
+panel by selecting *UV* and typing the name in the text field. In the example to the right,
 our UV Texture is called "Head" (you may have to expand the image to see the panel settings).
 Then, the image texture shown will be mapped using the UV coordinates.
 In the "Base UV Texture" example to the right, the face has two textures UV mapped;

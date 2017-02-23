@@ -26,9 +26,10 @@ Movie Clip
    The selectable clip data-block used as input for the gradient colors.
 Tracking Object
    Tracking Object to generate the gradient.
-   You will probably want to create new a tracking object in the :ref:`Object <movie-clip-tracking-properties-object>` panel,
+   You will probably want to create new a tracking object in the
+   :ref:`Object <movie-clip-tracking-properties-object>` panel,
    because tracks used for gradients can not actually be used for camera/object tracking.
-   After this tracks might be placed in places where gradient colors should be sampled. 
+   After this tracks might be placed in places where gradient colors should be sampled.
    These tracks could be tracked or moved manually,
    so gradients would be updating automatically along the movie.
    Tracks might have an offset for easier tracking of feature-less screens.
