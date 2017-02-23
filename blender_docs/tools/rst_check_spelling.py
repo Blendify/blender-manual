@@ -12,6 +12,7 @@ import os
 import sys
 import re
 
+
 # for spelling
 import enchant
 dict_spelling = enchant.Dict("en_US")
@@ -113,13 +114,24 @@ def directive_ignore(
     return [docutils.nodes.doctest_block(text, text, codeblock=True)]
 directive_ignore.content = True
 
+def directive_ignore_recursive(
+        name, arguments, options, content, lineno,
+        content_offset, block_text, state, state_machine,
+        ):
+    """
+    Ignore everything under this directive (use with care!)
+    """
+    return []
+directive_ignore_recursive.content = True
+
+
 directives.register_directive('index', directive_ignore)
 directives.register_directive('toctree', directive_ignore)
 directives.register_directive('youtube', directive_ignore)
 directives.register_directive('vimeo', directive_ignore)
-directives.register_directive('vimeo', directive_ignore)
 directives.register_directive('highlight', directive_ignore)
 directives.register_directive('include', directive_ignore)
+
 # workaround some bug? docutils wont load relative includes!
 
 # ones we want to check
@@ -128,6 +140,8 @@ directives.register_directive('only', directive_ignore)
 directives.register_directive('hlist', directive_ignore)
 directives.register_directive('glossary', directive_ignore)
 
+# Recursive ignore, take care!
+directives.register_directive('code-block', directive_ignore_recursive)
 
 # Dummy roles
 class RoleIgnore(docutils.nodes.Inline, docutils.nodes.TextElement): pass
