@@ -42,7 +42,7 @@ Limit and mist indicators of cameras are drawn darker if the camera is not the a
 
    The active camera, as well as the layers, can be specific to a given view,
    or global (locked) to the whole scene.
-   See :doc:`Local Camera </editors/3dview/display/panels>`.
+   See :doc:`Local Camera </editors/3dview/properties/panels>`.
 
 
 Render Border

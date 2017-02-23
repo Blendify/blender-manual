@@ -5,8 +5,6 @@
 
 Transform controls can be used to modify and control the effects of the available transformations.
 
-The following pages detail the available control options:
-
 .. toctree::
    :maxdepth: 2
 

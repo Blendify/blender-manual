@@ -54,7 +54,7 @@ Mode
 
 Viewport Shading
    Allows you to change the way objects are displayed in the viewport.
-   :doc:`Read more about the different shading modes </editors/3dview/display/shading>`
+   :doc:`Read more about the different shading modes </editors/3dview/properties/shading>`
 Pivot Point
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
@@ -122,6 +122,6 @@ as well as properties of the editor itself:
 
 - :doc:`Transform </editors/3dview/object/editing/transform/introduction>`
 - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
-- :doc:`Display & View Panels </editors/3dview/display/panels>`
-- :doc:`Background Images </editors/3dview/display/background_images>`
+- :doc:`Display & View Panels </editors/3dview/properties/panels>`
+- :doc:`Background Images </editors/3dview/properties/background_images>`
 - :doc:`Transform Orientations </editors/3dview/object/editing/transform/control/orientations>`
