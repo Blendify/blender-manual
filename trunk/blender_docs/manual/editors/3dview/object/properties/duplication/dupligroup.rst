@@ -42,7 +42,7 @@ You can dynamically link groups from one blend-file to another.
 When you do so, the linked group does not appear anywhere in your scene
 until you create an object controlling where the group instance appears.
 
-.. warning::
+.. important::
 
    Material Transparency will not display when instancing dupli-groups;
    this is a known limitation of Blender's viewport.

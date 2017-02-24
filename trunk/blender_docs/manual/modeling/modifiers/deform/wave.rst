@@ -131,7 +131,7 @@ Narrowness
    That is, if *Narrowness* is 1 the *pulse* is 4 units wide, and if *Narrowness*
    is 4 the *pulse* is 1 unit wide.
 
-.. warning::
+.. important::
 
    All the values described above must be multiplied with the corresponding *Scale* values of the
    object to get the real dimensions.

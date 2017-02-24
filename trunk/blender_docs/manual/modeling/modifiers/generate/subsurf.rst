@@ -60,7 +60,7 @@ Subdivisions
 The right combination of these settings will allow you to keep a fast and lightweight
 approximation of your model when interacting with it in 3D, but use a higher quality version when rendering.
 
-.. warning::
+.. tip::
 
    Be careful not to set the *View* subdivisions higher than the *Render* subdivisions,
    this would mean the 3D View will be higher quality than the render.

@@ -18,7 +18,7 @@ The general process is the following, for each vertex:
 - It applies back the weight to the vertex, and/or it might optionally remove the vertex
   from the group if its weight is below a given threshold, or add it if it is above a given threshold.
 
-.. warning::
+.. important::
 
    This modifier does implicit clamping of weight values in the standard (0.0 to 1.0) range.
    All values below 0.0 will be set to 0.0, and all values above 1.0 will be set to 1.0.
@@ -59,7 +59,7 @@ Global Influence
    The overall influence of the modifier
    (0.0 will leave the vertex group's weights untouched, 1.0 is standard influence).
 
-   .. warning::
+   .. important::
 
       Influence only affects weights, adding/removing of vertices
       to/from vertex group is not prevented by setting this value to 0.0.

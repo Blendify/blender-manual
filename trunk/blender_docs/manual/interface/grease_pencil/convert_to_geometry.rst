@@ -69,7 +69,7 @@ a path animation), that can be used e.g. to control another object's position al
 (*Follow Path* constraint, or, trough a driver, *Curve* modifier).
 So this allows you to reproduce your drawing movements.
 
-.. warning::
+.. important::
 
    All those "timing" options need *Link Stroke* to be enabled,
    else they would not make much sense!

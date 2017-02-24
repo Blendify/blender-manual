@@ -111,7 +111,7 @@ The "_L" bone behaves like the single one produced by the default extrusion --
 you can grab/rotate/scale it exactly the same way.
 The "_R" bone is its mirror counterpart (along the armature's local X axis), see Fig. :ref:`fig-rig-bone-mirror`.
 
-.. warning::
+.. important::
 
    Canceling the extrude action causes the newly created bones to snap back to the source position,
    (creating zero length bones). These will be removed when exiting Edit Mode,

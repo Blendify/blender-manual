@@ -42,7 +42,7 @@ Shortcuts
 
 To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
-.. warning::
+.. note::
 
    On macOS you may need to disable the shortcuts for "Mission Control" in your computer's preferences.
    These can be found in :menuselection:`System Preferences --> Keyboard --> Shortcuts`.

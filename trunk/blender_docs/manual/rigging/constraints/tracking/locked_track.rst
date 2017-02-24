@@ -58,7 +58,7 @@ To
 Lock
    The locked local axis, i.e. the owner's axis which cannot be re-oriented to track the target.
 
-.. warning::
+.. important::
 
    If you choose the same axis for *To* and *Lock*, the constraint will no
    longer be functional (red state).

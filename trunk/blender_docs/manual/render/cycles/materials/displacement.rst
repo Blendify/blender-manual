@@ -41,7 +41,7 @@ Bump maps are really great for creating tiny details on a model, for example, po
 Bump maps can be created in a 2D drawing,
 or photo editing application just remember to save the image as a greyscale to save memory while rendering.
 
-.. warning::
+.. important::
 
    Because bump mapping is a fake effect, it is easily broken when viewing a model at the wrong angle.
    This means that it is not recommended for animations.

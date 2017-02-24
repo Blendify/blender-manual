@@ -5,7 +5,7 @@ Copy Location Constraint
 
 The *Copy Location* constraint forces its owner to have the same location as its target.
 
-.. warning::
+.. important::
 
    Note that if you use such a constraint on a *connected* bone, it will have
    no effect, as it is the parent's tip which controls the position of your
