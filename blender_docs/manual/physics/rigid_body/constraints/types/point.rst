@@ -3,7 +3,7 @@
 Point
 *****
 
-.. figure:: /images/rigid_body_constraints_point.png
+.. figure:: /images/physics_rigid-body_constraints_point.png
    :width: 500px
 
    Options available to a *Point* constraint.

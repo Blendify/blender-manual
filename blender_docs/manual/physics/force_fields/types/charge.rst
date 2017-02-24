@@ -3,7 +3,7 @@
 Charge
 ******
 
-.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
+.. figure:: /images/physics_force-field_types_empty.png
 
    Charge force field.
 
@@ -13,7 +13,7 @@ like real particles with a charge.
 This mean this field has only effect on particles that have also a *Charge* field
 (else, they have no "charge", and hence are unaffected)!
 
-.. figure:: /images/force_field_panel_charge.jpg
+.. figure:: /images/physics_force-field_types_charge.jpg
 
    UI for a Charge force field.
 

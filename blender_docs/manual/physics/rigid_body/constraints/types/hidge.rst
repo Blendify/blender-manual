@@ -3,7 +3,7 @@
 Hinge
 *****
 
-.. figure:: /images/rigid_body_constraints_hinge.png
+.. figure:: /images/physics_rigid-body_constraints_hinge.png
    :width: 500px
 
    Options available to a *Hinge* constraint.

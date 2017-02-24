@@ -23,7 +23,7 @@ there are several items that have to be set up and working together:
 Collision Settings
 ==================
 
-.. figure:: /images/physics_cloth_collisionpanel.png
+.. figure:: /images/physics_cloth_settings_collisions_panel.png
    :width: 200px
 
    Cloth Collisions panel.
@@ -103,7 +103,7 @@ and in the 3D View header, select :menuselection:`Object --> Convert Object Type
 Cloth - Object collisions
 -------------------------
 
-.. figure:: /images/panel-collision.png
+.. figure:: /images/physics_collision.png
    :width: 200px
 
    Collision settings.
@@ -131,7 +131,7 @@ soft bodies, and cloth).
 Mesh Object Modifier Stack
 ==========================
 
-.. figure:: /images/simulation-cloth-colliderstack.jpg
+.. figure:: /images/physics_cloth_settings_collitions_stack.jpg
    :width: 200px
 
    Collision stack.
@@ -155,7 +155,7 @@ See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
 Bake Collision
 --------------
 
-.. figure:: /images/simulation-cloth-collisionbake.jpg
+.. figure:: /images/physics_cloth_settings_collitions_bake.jpg
    :width: 200px
 
    After Baking.

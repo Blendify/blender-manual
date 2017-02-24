@@ -3,14 +3,14 @@
 Magnetic
 ********
 
-.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
+.. figure:: /images/physics_force-field_types_empty.png
 
    Magnetic force field.
 
 This field depends on the speed of the particles.
 It simulates the force of magnetism on magnetized objects.
 
-.. figure:: /images/force_field_panel_magnetic.jpg
+.. figure:: /images/physics_force-field_types_harmonic.jpg
 
    UI for a Magnetic force field.
 

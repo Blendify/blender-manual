@@ -3,7 +3,7 @@
 Force
 *****
 
-.. figure:: /images/physics_force-fields_introduction_visual-4_force.png
+.. figure:: /images/physics_force-field_types_force_visualzation.png
 
    Force force field.
 
@@ -12,7 +12,7 @@ The *Force* field is the simplest of the fields. It gives a constant force towar
 Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
-.. figure:: /images/force_field_panel_force.jpg
+.. figure:: /images/physics_force-field_types_force.jpg
 
    UI for a Force force field.
 

@@ -3,7 +3,7 @@
 Rigid Body Properties
 *********************
 
-.. figure:: /images/physics_rigidbody_panel.jpg
+.. figure:: /images/physics_rigid-body_properties_panel.jpg
    :width: 400px
 
    Default rigid body panel.

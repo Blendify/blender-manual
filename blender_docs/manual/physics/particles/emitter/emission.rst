@@ -15,7 +15,7 @@ see :doc:`Visualization </physics/particles/emitter/render>`).
 Options
 =======
 
-.. figure:: /images/particle_emission_settings.png
+.. figure:: /images/physics_particle_emission_settings.png
 
    Particle Emission Settings.
 

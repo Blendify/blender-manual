@@ -3,7 +3,7 @@
 Motor
 *****
 
-.. figure:: /images/rigid_body_constraints_motor.png
+.. figure:: /images/physics_rigid-body_constraints_motor.png
    :width: 500px
 
    Options available to a *Motor* constraint.
