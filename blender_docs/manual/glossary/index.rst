@@ -762,7 +762,7 @@ This page lists definitions for terms used in Blender and this manual.
       A reference value for white light defined by what happens when all the primaries,
       of the particular color model, are combined evenly.
 
-      A white point is defined by a set of CIE illuminants which correspond to a color temperature.
+      A white point is defined by a set of CIE illuminates which correspond to a color temperature.
       For example, D65 corresponds to 6500K light, D70 corresponding to 7000K and so on.
 
    World Space

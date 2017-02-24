@@ -26,9 +26,7 @@ and set *Frames* to something more reasonable than 100 (say 16).
    Settings for the object.
 
 
-Add a *Monkey*. In the *Object* menu under *Duplication* enable
-*Frames* and disable *Speed*.
-
+Add a *Monkey*. In the *Object* menu under *Duplication* enable *Frames* and disable *Speed*.
 
 .. note:: Speed
 
@@ -52,16 +50,13 @@ Select the monkey and :kbd:`Alt-O` to reset its origin.
 
 
 You can now change the orientation of the monkey by either rotating it
-(either in *Edit Mode* or *Object Mode*)
-or by changing the *Tracking Axes* under *Relations Extras*
-(with the monkey selected). The arrangement of monkeys can, of course,
-be further enhanced by editing the curve.
+(either in *Edit Mode* or *Object Mode*) or by changing the *Tracking Axes*
+under *Relations Extras* (with the monkey selected).
+The arrangement of monkeys can, of course, be further enhanced by editing the curve.
 
-
-To transform all monkeys into real objects,
-first :kbd:`Ctrl-Shift-A` to *Make Duplicates Real*.
-All monkeys are now real objects, but still linked copies. To change this,
-:menuselection:`Object --> Make Single User --> Object&Data --> All`.
+To transform all monkeys into real objects, first :kbd:`Ctrl-Shift-A`
+to *Make Duplicates Real*. All monkeys are now real objects, but still linked copies.
+To change this, :menuselection:`Object --> Make Single User --> Object & Data --> All`.
 
 .. note::
 
@@ -71,7 +66,6 @@ All monkeys are now real objects, but still linked copies. To change this,
      simply use the former as a *Bevel Object* to the latter.
    - To arrange objects along a curve, combining an *Array Modifier* and a *Curve Modifier* is often useful.
    - Dupliverts can be used to arrange objects, for example, along a circle or across a subdivided plane.
-
 
 .. seealso::
 
