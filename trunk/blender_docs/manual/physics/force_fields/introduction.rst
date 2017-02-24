@@ -23,13 +23,13 @@ You may limit the effect on particles to a group of objects
 
 .. list-table:: Force field types
 
-   * - .. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
+   * - .. figure:: /images/physics_force-field_types_empty.png
 
-     - .. figure:: /images/physics_force-fields_introduction_visual-2_vortex.png
+     - .. figure:: /images/physics_force-field_types_vortex_visualzation.png
 
-   * - .. figure:: /images/physics_force-fields_introduction_visual-3_wind.png
+   * - .. figure:: /images/physics_force-field_types_wind_visualzation.png
 
-     - .. figure:: /images/physics_force-fields_introduction_visual-4_force.png
+     - .. figure:: /images/physics_force-field_types_force_visualzation.png
 
 .. Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard Jones,
    Texture, Curve Guide, Boid, Turbulence, Drag, and Smoke Flow.

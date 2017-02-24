@@ -56,7 +56,7 @@ Random friction
 
 .. _fig-collision-soft-plane:
 
-.. figure:: /images/physics_vertexplanecollision.gif
+.. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
 
    A softbody vertex colliding with a plane.
 

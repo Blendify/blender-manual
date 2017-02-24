@@ -3,7 +3,7 @@
 Harmonic
 ********
 
-.. figure:: /images/physics_force-fields_introduction_visual-1_empty.png
+.. figure:: /images/physics_force-field_types_empty.png
 
    Harmonic force field.
 
@@ -17,7 +17,7 @@ This force field is really special if you assign it to particles.
 Options
 =======
 
-.. figure:: /images/force_field_panel_harmonic.jpg
+.. figure:: /images/physics_force-field_types_harmonic.jpg
 
    UI for a Harmonic force field.
 
