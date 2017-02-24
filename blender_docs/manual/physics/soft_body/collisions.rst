@@ -33,19 +33,19 @@ Examples
 
    * - .. _fig-softbody-collision-plane1:
 
-       .. figure:: /images/cubeplanecollision2.gif
+       .. figure:: /images/physics_soft-body_collision_cubeplane1.gif
 
           A Soft Body cube colliding with a plane.
 
      - .. _fig-softbody-collision-plane2:
 
-       .. figure:: /images/cubeplanecollision3.gif
+       .. figure:: /images/physics_soft-body_collision_cubeplane2.gif
 
           A Soft Body plane colliding with a cube, so no interaction at all.
 
      - .. _fig-softbody-collision-plane3:
 
-       .. figure:: /images/physics_collidingplane_cface.gif
+       .. figure:: /images/physics_soft-body_collision_cubeplane-cface.gif
 
           Collision with Face activated.
 
@@ -69,13 +69,13 @@ Calculating Collisions
 
    * - .. _fig-softbody-collision-vertex:
 
-       .. figure:: /images/physics_vertexplanecollision.gif
+       .. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
 
           Visualization of the collision of a Soft Body vertex with a plane.
 
      - .. _fig-softbody-collision-vertex2:
 
-       .. figure:: /images/physics_vertexplanecollision2.gif
+       .. figure:: /images/physics_soft-body_collision_vertex-plane2.gif
 
           Six Soft Body vertices with different speed.
 
@@ -104,7 +104,7 @@ zone. The first three vertices collide correctly.
 
 .. _fig-softbody-collision-vertex3:
 
-.. figure:: /images/softbodycollidingedges.png
+.. figure:: /images/physics_soft-body_collision_edges.png
 
    Also Edges and Faces can be used for the collision calculation.
 
@@ -120,7 +120,7 @@ Good collisions
 
 .. _fig-softbody-collision-parameter:
 
-.. figure:: /images/softbodysolverparameters.png
+.. figure:: /images/physics_soft-body_collision_solver-parameters.png
 
    Parameters for Soft Body calculation.
 

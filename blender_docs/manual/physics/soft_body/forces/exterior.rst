@@ -52,7 +52,7 @@ Mass Vertex Group
    You can paint weight values for an mesh's mass, and select that vertex group here.
 
 Speed
-   You can control the internal timing of the Softbody system with this value.
+   You can control the internal timing of the softbody system with this value.
    It sets the correlation between frame rate and tempo of the simulation.
    A free falling body should cover a distance of about five meters after one second.
    You can adjust the scale of your scene and your simulation with this correlation. If you
@@ -130,7 +130,7 @@ Default
    If you use a vertex group the weight of a vertex defines its goal.
 
    Often :ref:`painting-weight-index` is used to adjust the weight comfortably.
-   For non-mesh objects the *Weight* parameter of their vertices/controlpoints is used instead
+   For non-mesh objects the *Weight* parameter of their vertices/control points is used instead
    (:kbd:`W` in *Edit Mode*) or use the *Transform* panel.
    The weight of *Hair* particles can also be painted in :doc:`Particle Edit Mode </physics/particles/mode>`.
 
@@ -155,5 +155,5 @@ Stiffness
    (more flexible "attachment" to the goal), a high value creates a strong spring
    (a stiffer "attachment" to the goal).
 
-Dampimg
+Damping
    The friction of the spring. With a high value the movement will soon come to an end (little jiggle).

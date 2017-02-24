@@ -54,7 +54,7 @@ Pull
    The Soft Body simulation tends to get unstable if you use a value of 0.999,
    so you should lower this value a bit if that happens.
 Push
-   How much the Softbody resist being scrunched together,
+   How much the softbody resist being scrunched together,
    like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
 Damp
    The friction for edge springs. High values (max of 50) dampen the *Push* / *Pull* effect and calm down the cloth.

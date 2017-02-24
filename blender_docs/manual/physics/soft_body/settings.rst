@@ -34,7 +34,7 @@ Soft Body Cache
 
 .. note::
 
-   Caching and cach options are documented :doc:`Here </physics/baking>`.
+   Caching and cache options are documented :doc:`Here </physics/baking>`.
 
 
 Soft Body Goal
@@ -85,7 +85,7 @@ Pull
    (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
    0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
 Push
-   How much the Softbody resist being scrunched together, like a compression spring. Low values for fabric,
+   How much the softbody resist being scrunched together, like a compression spring. Low values for fabric,
    high values for inflated objects and stiff material.
 Damp
    The friction for edge springs. High values (max of 50) dampen the edge stiffness effect and calm down the cloth.

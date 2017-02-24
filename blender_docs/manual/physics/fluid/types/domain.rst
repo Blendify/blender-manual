@@ -295,7 +295,7 @@ Surface
 Fluid Particles
 ===============
 
-.. figure:: /images/physics_fluid_domain_particles.png
+.. figure:: /images/physics_fluids_types_domain_particles.png
 
    The Fluid Particles panel.
 

@@ -19,7 +19,7 @@ In Blender, this system is best for simple cloth objects and closed meshes.
 There is dedicated :doc:`Cloth Simulation </physics/cloth/index>` physics that use a different solver,
 and is better for cloth.
 
-This simulation is done by applying forces to the vertices or controlpoints of the object.
+This simulation is done by applying forces to the vertices or control points of the object.
 There are exterior forces like gravity or forcefields and interior forces that hold the
 vertices together.
 This way you can simulate the shapes that an object would take on in reality if it had volume,

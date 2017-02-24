@@ -34,7 +34,7 @@ Boundary type
 
    Note that if the mesh is moving, it will be treated as no slip automatically.
 
-.. figure:: /images/physics_fluid_bndtcomp.jpg
+.. figure:: /images/physics_fluid_types_obstacle_bndtcomp.jpg
 
    Example of the different boundary types for a drop falling onto the slanted wall.
    From left to right: no-slip, part-slip 0.3, part-slip 0.7 and free-slip.

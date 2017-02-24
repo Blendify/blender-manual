@@ -22,7 +22,7 @@ in :menuselection:`Properties --> Physics`, then select *Domain* as the *Smoke T
    but the smoke simulator will use the shape's :term:`bounding box`
    as the domain bounds. In other words, the actual shape of the domain will still be rectangular.
 
-.. figure:: /images/smoke_domain_settings.png
+.. figure:: /images/physics_smoke_type_domain_settings.png
    :align: right
 
    *Smoke Domain* settings.
@@ -89,7 +89,7 @@ Vorticity
    Controls the amount of turbulence in the smoke. Higher values will make lots of small swirls,
    while lower values make smoother shapes.
 
-   .. figure:: /images/smoke_domain_vorticity.jpg
+   .. figure:: /images/physics_smoke_type_domain_vorticity.jpg
       :width: 400px
 
       Comparison of different amounts of vorticity. The domain on the left has a vorticity of 3,
@@ -157,7 +157,7 @@ Show High Resolution
 Noise Method
    The two options, *Wavelet* and *FFT*, are very similar.
 
-   .. figure:: /images/smoke_domain_high_resolution_method.jpg
+   .. figure:: /images/physics_smoke_type_domain_high-resolution-method.jpg
       :width: 400px
 
       Comparison of noise methods. *Wavelet* on the left, *FFT* on the right.
@@ -170,7 +170,7 @@ Noise Method
    Strength
       Strength of noise.
 
-      .. figure:: /images/smoke_domain_high_resolution_strength.jpg
+      .. figure:: /images/physics_smoke_type_domain_high-resolution-strength.jpg
          :width: 400px
 
          From left to right, the domains' high resolution strengths are set to 0, 2, and 6.
@@ -209,7 +209,7 @@ All
 
 The other settings determine how much influence individual force field types have.
 
-.. figure:: /images/smoke_domain_force_field_demo.jpg
+.. figure:: /images/physics_smoke_type_domain_force-field-demo.jpg
    :width: 500px
 
    Smoke with a wind force field.
@@ -222,7 +222,7 @@ Note on Divisions and High Resolution
 and :ref:`Domain Subdivisions <smoke-resolution>` are not equivalent.
 By using different combinations of these resolution settings you can obtain a variety of different styles of smoke.
 
-.. figure:: /images/smoke_domain_high_resolution_comparison.jpg
+.. figure:: /images/physics_smoke_type_domain_high-resolution-comparison.jpg
    :align: center
 
    Comparison between a domain with 24 divisions and 4 *High Resolution* divisions (left),
@@ -232,7 +232,7 @@ Low division simulations with lots of *High Resolution*
 divisions generally appear smaller in real-world scale
 (larger flames etc.) and can be used to achieve pyroclastic plumes such as this:
 
-.. figure:: /images/smoke_domain_note_on_resolution.jpg
+.. figure:: /images/physics_smoke_type_domain_note-on-resolution.jpg
    :align: center
    :width: 550px
 

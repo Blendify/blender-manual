@@ -30,6 +30,6 @@ Shell
 Both
    It is a state, such as the sum of the Volume and Shell. This also must be a closed mesh.
 
-.. figure:: /images/physics_fluid_initialization.jpg
+.. figure:: /images/physics_fluid_types_introduction_initialization.jpg
 
    Example of different types of initiation of volume.
