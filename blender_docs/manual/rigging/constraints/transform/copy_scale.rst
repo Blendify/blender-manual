@@ -5,7 +5,7 @@ Copy Scale Constraint
 
 The *Copy Scale* constraint forces its owner to have the same scale as its target.
 
-.. warning::
+.. note::
 
    Here we talk of *scale*, not of *size*! Indeed, you can have two
    objects, one much bigger than the other, and yet both of them have the same

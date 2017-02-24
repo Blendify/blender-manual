@@ -26,4 +26,13 @@ the other feathers will be automatically stretched uniformly along that segment
 and the overall shape will be almost the same as artists would want it to be.
 
 
-.. (todo) primitives: add circle, square
+Primitives
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Tool Shelf --> Mask --> Add`
+   | Hotkey:   :kbd:`Shift-A`
+
+There are two primitives available: a Bezier Circle and a Square with vector handles.

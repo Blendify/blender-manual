@@ -182,7 +182,9 @@ but rather create a new one, as if *Overdraw Sketching* was disabled.
 
           Stroke adjusted.
 
-.. warning:: There is no undo/redo for sketch drawing...
+.. warning:: Undo/Redo
+
+   There is no undo/redo for sketch drawing.
 
 
 Gestures

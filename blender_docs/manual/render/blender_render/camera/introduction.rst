@@ -38,7 +38,7 @@ The active camera can also be set in the *Scene* tab of the *Properties Editor*.
 The camera with the solid triangle on top is the active camera.
 Limit and mist indicators of cameras are drawn darker if the camera is not the active camera for the current scene.
 
-.. warning::
+.. note::
 
    The active camera, as well as the layers, can be specific to a given view,
    or global (locked) to the whole scene.

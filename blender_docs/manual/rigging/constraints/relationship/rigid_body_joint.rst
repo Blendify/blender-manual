@@ -10,7 +10,7 @@ physics part of the Blender Game Engine to simulate a joint between its owner an
 It offers four joint types: hinge type, ball-and-socket type, cone-twist, and generic six-DoF
 (degrees of freedom) type.
 
-.. warning::
+.. important::
 
    This constraint only works with the :doc:`Game Engine </game_engine/index>`.
 

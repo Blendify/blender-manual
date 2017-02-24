@@ -86,7 +86,7 @@ Material Index Offset
    Rim
       Similarly, you can give another material to the rim faces.
 
-.. warning::
+.. important::
 
    The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
    the thickness will vary on different sides of the object.

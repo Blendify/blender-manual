@@ -51,7 +51,7 @@ Absolute 2D Point
    The *Pivot X* and *Pivot Y* allows you to define the position of the pivot point in the final
    render (from the bottom left corner).
 
-   .. warning::
+   .. important::
 
       Currently, you have to take into account the *real* render size,
       i.e. resolution **and** resolution percentage.

@@ -141,9 +141,9 @@ More/Less
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select`
 
-More :kbd:`Ctrl-Numpad+`
+More :kbd:`Ctrl-NumpadPlus`
    ToDo.
-Less :kbd:`Ctrl-Numpad-`
+Less :kbd:`Ctrl-NumpadMinus`
    ToDo.
 Parent :kbd:`[`, Child :kbd:`]`
    You can deselect the active bone and select its immediate parent or one of its children.

@@ -17,7 +17,7 @@ compared to the traditional method:
   This allows the object which has a Child Of constraint upon it to change over time which
   target object will be considered the parent, and therefore have influence over the Child Of constrained object.
 
-  .. warning::
+  .. important::
 
      Do not confuse this "basic" object parenting with the one that defines the
      :ref:`chains of bones <armature-bone-chain>`

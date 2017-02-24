@@ -12,7 +12,7 @@ Vertex Weight Mix Modifier
 This modifier mixes a second vertex group (or a simple value) into the affected vertex group,
 using different operations.
 
-.. warning::
+.. important::
 
    This modifier does implicit clamping of weight values in the standard (0.0 to 1.0) range.
    All values below 0.0 will be set to 0.0, and all values above 1.0 will be set to 1.0.
@@ -62,7 +62,7 @@ Mix Set
    Vertices from both groups
       Affects only vertices belonging to both vertex groups.
 
-   .. warning::
+   .. important::
 
       When using *All vertices*, *Vertices from group B* or *Vertices from one group*,
       vertices might be added to the affected vertex group.
@@ -75,7 +75,7 @@ Global Influence
    The overall influence of the modifier
    (0.0 will leave the vertex group's weights untouched, 1.0 is standard influence).
 
-   .. warning::
+   .. important::
 
       Influence only affects weights, adding/removing of vertices
       to/from vertex group is not prevented by setting this value to 0.0.
