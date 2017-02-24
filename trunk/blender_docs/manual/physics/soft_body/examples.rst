@@ -14,7 +14,7 @@ The Process
 
 First, change your start and end frames to 1 and 150.
 
-.. figure:: /images/softbody-examples-timeline.png
+.. figure:: /images/physics_soft-body_examples_timeline.png
    :width: 600px
 
    The timeline.
@@ -29,7 +29,7 @@ press :kbd:`R` twice, and move your cursor a bit.
 
 When finished, your scene should look like this:
 
-.. figure:: /images/softbody-examples-scene-ready.png
+.. figure:: /images/physics_soft-body_examples_scene-ready.png
    :width: 400px
 
    The scene, ready for softbody physics.
@@ -49,7 +49,7 @@ but for the final animation it is better to reduce it to 1, to cache everything.
 
 When finished, your physics panel should look like this:
 
-.. figure:: /images/softbody-examples-physics-settings.jpg
+.. figure:: /images/physics_soft-body_examples_physics-settings.jpg
    :width: 500px
 
    The physics settings.

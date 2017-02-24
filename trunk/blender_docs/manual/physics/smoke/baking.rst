@@ -3,7 +3,7 @@
 Baking Smoke Simulations
 ************************
 
-.. figure:: /images/smoke_baking_interface.png
+.. figure:: /images/physics_smoke_baking_interface.png
    :align: right
 
    *Smoke Cache* options.

@@ -14,7 +14,7 @@ Then select *Collision* as the *Smoke Type*.
 Options
 =======
 
-.. figure:: /images/smoke_collision_settings.png
+.. figure:: /images/physics_smoke_type_collisions_settings.png
    :align: right
 
    *Smoke Collision* settings.
@@ -36,6 +36,7 @@ Collision type
 
    Rigid
       Identical to *Static* (unfinished code).
+
 
 Forces
 ======

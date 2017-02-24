@@ -15,7 +15,7 @@ Now you should have a default smoke flow source object. You can test this by pla
 Settings
 ========
 
-.. figure:: /images/smoke_flow_settings.png
+.. figure:: /images/physics_smoke_type_flow-object_settings.png
    :align: right
 
    Smoke Flow settings.
@@ -97,13 +97,13 @@ Smoke Color
    Color of emitted smoke. When smoke of different colors are mixed they will blend together,
    eventually settling into a new combined color.
 
-   .. figure:: /images/smoke_flow_color_blending.jpg
+   .. figure:: /images/physics_smoke_type_flow-object_color_blending.jpg
 
 Flame Rate
    Amount of "fuel" being burned per second. Larger values result in larger flames,
    smaller values result in smaller flames:
 
-   .. figure:: /images/smoke_flow_flame_rate.jpg
+   .. figure:: /images/physics_smoke_type_flow-object_flame_rate.jpg
 
       Example showing two fire sources.
       The object on the left has a *Flame Rate* of 5, while the one on the right has 0.3.
@@ -111,7 +111,7 @@ Flame Rate
 Sampling: Subframes
    Number of sub-frames used to reduce gaps in emission of smoke from fast-moving sources.
 
-   .. figure:: /images/smoke_flow_subframes.jpg
+   .. figure:: /images/physics_smoke_type_flow-object_subframes.jpg
 
       Example showing two fast moving sources.
       The object on the left uses 0 subframes, while the one on the right uses 6.
@@ -120,7 +120,7 @@ Sampling: Subframes
 Smoke Flow Advanced
 ===================
 
-.. figure:: /images/smoke_flow_advanced.png
+.. figure:: /images/physics_smoke_type_flow-object_advanced.png
    :align: right
 
 When using a mesh as the *Flow Source*, you can use these settings to control where on the
@@ -137,12 +137,13 @@ Vertex Group
 
    .. clear
 
+
 Example
 =======
 
 These settings are useful for effects like this:
 
-.. figure:: /images/smoke_flow_texture_usecase.jpg
+.. figure:: /images/physics_smoke_type_flow-object_texture_usecase.jpg
    :align: center
    :width: 500px
 
