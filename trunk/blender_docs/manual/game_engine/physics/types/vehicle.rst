@@ -11,7 +11,7 @@ that the Physics Engine (bullet) recognizes.
 
 It is composed of a *rigid body*
 representing the chassis and a set of wheels that are set to *no collision*.
-Emphasizing the distinction between a GameEngine,
+Emphasizing the distinction between a Game Engine,
 Logical or Render object and its representation for the Physics Engine is important.
 
 To simulate a vehicle as a true rigid body, on top of also rigid body wheels, with a real suspension system made with

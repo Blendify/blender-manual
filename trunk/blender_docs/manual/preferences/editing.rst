@@ -129,7 +129,7 @@ Visual Keying
    *Visual Keying* will add keyframes to the object property,
    with a value based on the visual transformation from the constraint.
 Only Insert Needed
-   This will only insert keyframes if the value of the propery is different.
+   This will only insert keyframes if the value of the property is different.
 Auto Keyframing
    Enables *Auto Keyframe* by default for new scenes.
 Show Auto Keying Warning

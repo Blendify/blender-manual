@@ -18,7 +18,7 @@ Use this mode to balance out the tonal range in an image.
 A well balanced image should a nice smooth distribution of color values.
 
 Luma
-   Shows the luminacity of an image.
+   Shows the luminosity of an image.
 RGB
    Shows the :abbr:`RGB (Red, Green, Blue)` channels stacked on top of each other.
 R/G/B/A
@@ -62,7 +62,7 @@ Scope Samples
 =============
 
 Full Sample
-   Sample every pixle.
+   Sample every pixel.
 
 Accuracy
    Proportion of original image source pixel lines to sample.

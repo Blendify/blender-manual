@@ -63,10 +63,10 @@ There are two kinds of lens distortion possible and, in simple terms, they can b
 #. When the movie clip is bulging out.
 #. When the movie clip is bulging in.
 
-For the first case, it is recommended to distort the render and leave the movie clip as it is,
-because, undistorting the movie clip will require extra pixel information, which is not available to Blender.
-Similarly, in the second case, it is recommended to undistort the movie clip and leave the render as it is, becuase,
-distorting the render will require those extra unavailable pixels.
+For the first case, it is recommended to distort the render and leave the movie clip as it is, because,
+undistorting the movie clip will require extra pixel information, which is not available to Blender.
+Similarly, in the second case, it is recommended to undistort the movie clip and leave the render as it is,
+because, distorting the render will require those extra unavailable pixels.
 Doing the wrong method in the wrong case can create weird results around the edges, such as in the image shown.
 
 .. figure:: /images/compositing_node_distort_moviedistortion_problems.jpg

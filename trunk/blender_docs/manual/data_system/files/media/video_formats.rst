@@ -10,8 +10,7 @@ These formats are primarily used for compressing rendered sequences into a playa
 (they can also be used to make plain audio files).
 
 A codec is a little routine that compresses the video so that it will fit on a DVD,
-or be able to be streamed out over the Internet, over a cable,
-or just be a reasonable file size.
+or be able to be streamed out over the Internet, over a cable, or just be a reasonable file size.
 Codecs compress the channels of a video down to save space and enable continuous playback.
 *Lossy* codecs make smaller files at the expense of image quality. Some codecs, like H.264,
 are great for larger images. Codecs are used to encode and decode the movie,
@@ -22,7 +21,7 @@ There are dozens, if not hundreds, of codecs, including XviD, H.264, DivX, Micro
 and so on. Each has advantages and disadvantages and compatibility with different players on
 different operating systems.
 
-Most codecs can only compress the RGB or YUV color space,
+Most codecs can only compress the RGB or YUV :term:`color space`,
 but some support the Alpha channel as well. Codecs that support RGBA include:
 
 - Quicktime

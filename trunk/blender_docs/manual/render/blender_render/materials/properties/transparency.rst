@@ -315,8 +315,8 @@ transparency is used for various liquids, solids (gems), and gases:
 
 .. Sections ordered by density (low -> high)
 
-Gasses
-^^^^^^
+Gases
+^^^^^
 
 .. hlist::
    :columns: 3

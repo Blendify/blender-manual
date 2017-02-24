@@ -68,7 +68,6 @@ The maximum number of frames for each scene is currently 500,000, and allows for
 :30 fps: 4 hours, 37 seconds.
 :60 fps: 2 hours, 18 seconds.
 
-
 .. note::
 
    In practice, a finished work is typically composted of output from many scenes.
@@ -78,17 +77,15 @@ The maximum number of frames for each scene is currently 500,000, and allows for
 Text Fields
 ===========
 
-Fixed strings are used internally, and while it's not useful to list all limits,
-here are some common limits.
+Fixed strings are used internally, and while it is not useful to list all limits, here are some common limits.
 
 :directory: 767
 :file-name: 255
 :file-path: 1023
 :identifier: 63
 
-   *Used for data-block names, modifiers, vertex-groups, UV-layers...*
+*Used for data-block names, modifiers, vertex-groups, UV-layers...*
 
 .. note::
 
    Multi-byte encoding means some unicode characters use more than a single ASCII character.
-

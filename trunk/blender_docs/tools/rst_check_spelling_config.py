@@ -145,6 +145,7 @@ dict_ignore = {
 
     # acronyms
     "api",
+    "bvh",
     "cpu",
     "gl",
     "gpl",
@@ -159,10 +160,13 @@ dict_ignore = {
     "tcp",
 
     # file formats
+    "fbx",
     "svg",
     "png",
     "exr",
 
     # names
+    "Dalai",
+    "Goralczyk",
     "Roosendaal",
 }

@@ -46,9 +46,8 @@ The type of collision capability depends on the shape:
   they do less synchronizations because of the Scenegraph optimizations and they can
   have multiple collision sensors on them (with different property filtering for example).
 - Always prefer simple shape (box, sphere) to complex shape whenever possible.
-- Always use broadphase filtering (avoid collision sensor with empty propery/material)
-- Use collision sensor only when you need them.
-  When no collision sensor is active on the sensor object,
+- Always use broadphase filtering (avoid collision sensor with empty property/material).
+- Use collision sensor only when you need them. When no collision sensor is active on the sensor object,
   it is removed from the simulation and consume no CPU.
 
 .. rubric:: Known limitations
@@ -57,7 +56,7 @@ The type of collision capability depends on the shape:
 
    .. code-block:: sh
 
-      warning btCollisionDispatcher::needsCollision: static-static collision!"
+      warning btCollisionDispatcher::needsCollision: static-static collision!
       In release mode this message is not printed.
 
 - Collision margin has no effect on sphere, cone and cylinder shape.

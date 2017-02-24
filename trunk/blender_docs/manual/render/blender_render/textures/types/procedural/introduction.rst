@@ -44,8 +44,7 @@ Noise Basis
 Each noise-based Blender texture (with the exception of Voronoi and simple noise) has a
 *Noise Basis* setting that allows the user to select which algorithm is used to
 generate the texture. This list includes the original Blender noise algorithm.
-The *Noise Basis* settings makes the procedural textures extremely flexible
-(especially *Musgrave*).
+The *Noise Basis* settings makes the procedural textures extremely flexible (especially *Musgrave*).
 
 The *Noise Basis* governs the structural appearance of the texture:
 
@@ -107,25 +106,22 @@ The *Noise Basis* governs the structural appearance of the texture:
      - ..
 
 
-There are two more possible settings for *Noise Basis*,
-which are relatively similar to *Blender Original*:
+There are two more possible settings for *Noise Basis*, which are relatively similar to *Blender Original*:
 Improved Perlin and Original Perlin.
 
 
 Nabla
 -----
 
-Almost all procedural textures in Blender use derivatives for calculating normals for texture
-mapping (with as exception *Blend* and *Magic*).
-This is important for Normal and Displacment Maps.
+Almost all procedural textures in Blender use derivatives for calculating normals for texture mapping
+(with as exception *Blend* and *Magic*). This is important for Normal and Displacement Maps.
 The strength of the effect is controlled with the *Nabla* Number Button.
 
 
 Hints
 =====
 
-Use the size buttons in the *Mapping* panel to set the size that the procedural
-textures are mapped to.
+Use the size buttons in the *Mapping* panel to set the size that the procedural textures are mapped to.
 
 Procedural textures can either produce colored textures, intensity only textures,
 textures with alpha values and normal textures.

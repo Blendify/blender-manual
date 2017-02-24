@@ -73,7 +73,7 @@ Free All Bakes
 Update All To Frame
    Update cache to current frame.
 
-If you haven’t saved the blend-file, the cache is created in memory,
+If you have not saved the blend-file, the cache is created in memory,
 so save your file first or the cache may be lost.
 
 
