@@ -244,8 +244,12 @@ a.external {color:#656AE0;}
 	font-style: normal;
 	margin: 0px; padding: 0px;
 }
-.descr .figure img{box-shadow: 2px 2px 3px rgba(0,0,0,0.5)}
+.descr .figure img{
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  transition: box-shadow 0.33s;	
+}
 .descr .figure img:hover{box-shadow: none}
+
 /*end section description*/
 
 /*start custom toctree*/
