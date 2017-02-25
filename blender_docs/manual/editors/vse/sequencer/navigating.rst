@@ -26,7 +26,8 @@ Show Offsets
 
    .. (wip) Show overflow bars when sliding the content.
 Waveform Drawing
-   ToDo.
+   Global option to either draw the waveform, or the strip info,
+   or use the individual :ref:`strip option <sequencer-sound-waveform>`.
 Sync Markers
    Transform Markers as well as Strips.
 

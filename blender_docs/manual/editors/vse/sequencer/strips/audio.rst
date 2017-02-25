@@ -19,8 +19,12 @@ Pack
    This allows you to save the audio file into the blend-file.
 Caching
    Caching loads a file into RAM and plays it from there, apposed to reading it for the hard drive.
+   
+.. _sequencer-sound-waveform:
+
 Draw Waveform
-   Draws a waveform over top of the sequence strip. This can be useful for syncing two or more audio strips.
+   Draws either the waveform or the strip name, file name, duration.
+   This can be useful for syncing two or more audio strips.
 Volume
    Changes the loudness of the audio.
 Pitch

@@ -26,6 +26,12 @@ Show Grease Pencil
    Shows :doc:`Grease Pencil </interface/grease_pencil/index>` in OpenGL preview.
 Audio Volume
    Volume of the audio taken from the chosen scene.
+Alpha Mode
+   Sky
+      Fills in a solid background.
+   Transparent
+      Creates a transparent background.
+      This is useful for doing overlays like rendering out Grease Pencil films via the Sequencer.
 
 .. hint::
 

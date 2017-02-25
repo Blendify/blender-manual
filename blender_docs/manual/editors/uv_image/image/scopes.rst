@@ -36,7 +36,13 @@ Waveform Opacity
    Opacity of the points.
 
 Waveform Mode
-   TODO.
+   Luma
+      ToDo.
+   Parade
+      The RGB channels are shown side-by-side.
+   Red Green Blue
+      Shows the RGB channels overlaid as a "Full color" waveform.
+      It is useful for color grading. 
 
 
 Vectorscope
