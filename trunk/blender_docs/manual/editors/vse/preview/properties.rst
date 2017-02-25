@@ -15,14 +15,14 @@ OpenGL Preview
 
    Sequencer Preview Shading
       Method for rendering OpenGL renders.
+      See the 3D view's :ref:`view3d-viewport-shading` options.
    Textured Solid
       Display textures even when in solid mode.
 
    Settings used by OpenGL Previews:
 
    - The anti-alias setting from the active scene is used for all scenes.
-   - The alpha setting is taken from each scene,
-     where *Sky* fills in a solid background and *Transparent* has a transparent background.
+   - The alpha setting is taken from each scene strip *Alpha Mode* option.
 
 
 View Settings

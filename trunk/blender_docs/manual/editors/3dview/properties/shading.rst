@@ -3,6 +3,8 @@
 Shading
 *******
 
+.. _view3d-viewport-shading:
+
 Viewport Shading
 ================
 
