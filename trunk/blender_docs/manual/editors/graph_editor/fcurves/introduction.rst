@@ -24,7 +24,7 @@ The idea is simple: you define a few Keyframes, which are multiple frames apart.
 Between these keyframes, the properties' values are computed (interpolated)
 by Blender and filled in. Thus, the animators' workload is significantly reduced.
 
-.. figure:: /images/animation-f-curves-concept.png
+.. figure:: /images/editors_graph-editor_fcurves_introduction_f-curves-concept.png
    :align: right
    :width: 200px
 
@@ -74,7 +74,7 @@ Constant
    giving a discrete (stairway) "curve".
    Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
 
-   .. figure:: /images/fcurve-constant.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_constant.png
       :width: 300px
 
       Constant.
@@ -84,7 +84,7 @@ Linear
    It can be useful when using only two keyframes and the *Extrapolation* extend mode,
    to easily get an infinite straight line (i.e. a linear curve).
 
-   .. figure:: /images/fcurve-linear.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_linear.png
       :width: 300px
 
       Linear.
@@ -93,7 +93,7 @@ Bézier
    The more powerful and useful interpolation, and the default one.
    It gives nicely smoothed curves, i.e. smooth animations!
 
-   .. figure:: /images/fcurve-clean1.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_clean1.png
       :width: 300px
 
       Bézier.
@@ -201,7 +201,7 @@ Constant
    The default one, curves before their first keyframe and after their last one have a constant value
    (the one of these first and last keyframes).
 
-   .. figure:: /images/fcurve-extrapolate1.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_extrapolate1.png
       :width: 300px
 
       Constant extrapolation.
@@ -210,7 +210,7 @@ Linear
    Curves ends are straight lines (linear), as defined by their first two keyframes
    (respectively their last two keyframes).
 
-   .. figure:: /images/fcurve-extrapolate2.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_extrapolate2.png
       :width: 300px
 
       Linear extrapolation.
@@ -231,7 +231,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
 Automatic
    Keyframes are automatically interpolated.
 
-   .. figure:: /images/fcurve-auto.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_auto.png
       :width: 400px
 
       Auto handles.
@@ -240,7 +240,7 @@ Vector
    Creates linear interpolation between keyframes.
    The linear segments remain if keyframe centers are moved. If handles are moved, the handle becomes Free.
 
-   .. figure:: /images/fcurve-vector.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_vector.png
       :width: 400px
 
       Vector handles.
@@ -248,7 +248,7 @@ Vector
 Aligned
    Handle maintain rotation when moved, and curve tangent is maintained.
 
-   .. figure:: /images/fcurve-aligned.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_aligned.png
       :width: 400px
 
       Aligned handles.
@@ -256,7 +256,7 @@ Aligned
 Free
    Breaks handles tangents.
 
-   .. figure:: /images/fcurve-free.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_free.png
       :width: 400px
 
       Free handles.
@@ -264,7 +264,7 @@ Free
 Auto Clamped
    Auto handles clamped to not overshoot.
 
-   .. figure:: /images/fcurve-autoclamped.png
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_autoclamped.png
       :width: 400px
 
       Auto clamped handles.
@@ -279,16 +279,16 @@ there are some important differences.
 For obvious reasons, a property represented by a Curve
 cannot have more than **one** value at a given time, hence:
 
-- when you move a control point ahead of a control point that was previously ahead of the point that you are moving,
+- When you move a control point ahead of a control point that was previously ahead of the point that you are moving,
   the two control points switch their order in the edited curve, to avoid that the curve goes back in time.
-- for the above reason, it is impossible to have a closed F-Curve.
+- For the above reason, it is impossible to have a closed F-Curve.
 
 .. list-table:: Two control points switching: the curve cannot go back in time!
 
-   * - .. figure:: /images/animation-f-curves-moving-1.png
+   * - .. figure:: /images/editors_graph-editor_fcurves_introduction_moving1.png
 
           Before moving the second keyframe.
 
-     - .. figure:: /images/animation-f-curves-moving-2.png
+     - .. figure:: /images/editors_graph-editor_fcurves_introduction_moving2.png
 
           After moving the second keyframe.

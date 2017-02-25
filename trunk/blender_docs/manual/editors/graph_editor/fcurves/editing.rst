@@ -70,12 +70,12 @@ Flatten Handles
 
    .. list-table:: Flatten Handles snapping example.
 
-      * - .. figure:: /images/animation-f-curves-flatten-handles-1.png
+      * - .. figure:: /images/editors_graph-editor_fcurves_editing_flatten-handles-1.png
              :width: 200px
 
              Before Flatten Handles.
 
-        - .. figure:: /images/animation-f-curves-flatten-handles-2.png
+        - .. figure:: /images/editors_graph-editor_fcurves_editing_flatten-handles-2.png
              :width: 200px
 
              After Flatten Handles.
@@ -119,12 +119,12 @@ if they have been modified.
 
 .. list-table::
 
-   * - .. figure:: /images/fcurve-clean1.png
+   * - .. figure:: /images/editors_graph-editor_fcurves_introduction_clean1.png
           :width: 320px
 
           F-Curve before cleaning.
 
-     - .. figure:: /images/fcurve-clean2.png
+     - .. figure:: /images/editors_graph-editor_fcurves_introduction_clean2.png
           :width: 320px
 
           F-Curve after cleaning.
@@ -168,12 +168,12 @@ seem to be never modified by this tool.
 
 .. list-table::
 
-   * - .. figure:: /images/fcurve-clean1.png
+   * - .. figure:: /images/editors_graph-editor_fcurves_introduction_clean1.png
           :width: 320px
 
           F-Curve before smoothing.
 
-     - .. figure:: /images/fcurve-smooth.png
+     - .. figure:: /images/editors_graph-editor_fcurves_editing_smooth.png
           :width: 320px
 
           F-Curve after smoothing.
@@ -187,12 +187,12 @@ Sample Keyframes :kbd:`Shift-O`
 
    .. list-table::
 
-      * - .. figure:: /images/fcurve-sample.png
+      * - .. figure:: /images/editors_graph-editor_fcurves_editing_sample.png
              :width: 320px
 
              F-Curve before sampling.
 
-        - .. figure:: /images/fcurve-sample2.png
+        - .. figure:: /images/editors_graph-editor_fcurves_editing_sample2.png
              :width: 320px
 
              F-Curve after sampling.
