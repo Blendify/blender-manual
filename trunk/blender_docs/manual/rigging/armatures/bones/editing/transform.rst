@@ -13,9 +13,8 @@ Transform
    The Transform panel for armatures in Edit Mode.
 
 We will not detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
-as they are common to most object editing, and already described
-:doc:`here </editors/3dview/object/editing/transform/control/index>`
-(note however, that some options, like snapping, do not seem to work, even though they are available...).
+as they are common to most object editing, and already described in the
+:doc:`mesh section </editors/3dview/object/editing/transform/control/index>`.
 The same goes for mirroring,
 as it is nearly the same as with :doc:`mesh editing </modeling/meshes/editing/transform/mirror>`.
 Just keep in mind that bones' roots and tips behave more or less like meshes' vertices,
