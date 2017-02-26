@@ -121,8 +121,13 @@ Tip
 Brush
 =====
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Particle Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Brush`
+
 With the buttons you can select the type of "Comb" utility you want to use.
-Below the brush types, their settings appear:
 
 None
    No special tool, just edit the keypoints as "normal" vertices.
@@ -162,23 +167,30 @@ Weight
       not for each keypoint, so it's a bit difficult to paint'''
 
 
+Common Options
+--------------
+
+Below the brush types, their settings appear:
+
+Radius :kbd:`F`
+   Set the radius if the brush.
+Strength :kbd:`Shift-F`
+   Set the strength of the brush effect (not for Add brush).
+Add/Sub Grow/Shrink
+   Sets the brush to add the effect or reverse it.
+
+
 Options
--------
+=======
 
-Common Options:
-   Radius
-      Set the radius if the brush.
+.. admonition:: Reference
+   :class: refbox
 
-      .. tip:: Brush Size
+   | Mode:     Particle Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Options`
 
-         Press :kbd:`F` to resize the brush while working.
-
-   Strength
-      Set the strength of the brush effect (not for Add brush).
-   Add/Sub Grow/Shrink
-      Sets the brush to add the effect or reverse it.
-Deflect Emitter,
-   Do not move keypoints through the emitting mesh.
+Deflect Emitter
+   Hair particles only -- Do not move keypoints through the emitting mesh.
 
    Distance
       The distance to keep from the Emitter.
@@ -188,15 +200,42 @@ Keep
       This is done by moving all the other keypoints.
    Root
       Keep first key unmodified, so you cannot transplant hair.
+Correct
+   ToDo.
 X Mirror
-   Enable mirror editing across the local x axis.
+   Enable mirror editing across the local X axis.
+Shape Object
+   A mesh object which boundary is used by the *Shape Cut* tool.
+
+   Shape Cut
+      This grooming tool trims hairs to a shape defined by the *Shape Object*.
+      This is a quicker way of avoiding protruding hair sections from lengthening than using the cutting tool.
+      It works especially well for characters with extensive fur,
+      where working in a single plane with the cutting tool becomes tedious.
+
+.. list-table:: Shape Cut example.
+
+   * - .. figure:: /images/physics_particles_mode_shapecut-before.png
+
+         Before.
+
+     - .. figure:: /images/physics_particles_mode_shapecut-after.png
+
+         After.
+
+
 Draw
-   Path Steps
-      Drawing steps, sets the smoothness of the drawn path.
-   Show Children
-      Draws the children of the particles too.
-      This allows to fine tune the particles and see their effects on the result,
-      but it may slow down your system if you have many children.
+----
+
+Path Steps
+   Drawing steps, sets the smoothness of the drawn path.
+Fade Time
+   Frames
+      ToDo.
+Show Children
+   Draws the children of the particles too.
+   This allows to fine tune the particles and see their effects on the result,
+   but it may slow down your system if you have many children.
 
 
 Editing

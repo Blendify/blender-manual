@@ -77,8 +77,7 @@ First Last
    If enabled **and** *Merge* is enabled, vertices in the first copy will be merged with vertices
    in the last copy (this is useful for circular objects).
 
-   .. list-table::
-      *First Last* merge example.
+   .. list-table:: First Last merge example.
 
       * - .. figure:: /images/modeling_modifiers_generate_array_first-last-off.png
 
