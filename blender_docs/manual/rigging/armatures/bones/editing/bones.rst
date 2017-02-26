@@ -3,33 +3,10 @@
 Editing Bones
 *************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Tab`
-
-
-You will learn here how to add (`Adding Bones`_),
-delete (`Deleting Bones`_) or subdivide (`Subdividing Bones`_) bones.
-We will also see how to prevent any bone transformation (`Locking Bones`_) in *Edit Mode*,
-and the option that features an automatic mirroring (`X-Axis Mirror Editing`_) of editing actions along the X axis.
-
-
-Adding Bones
-============
-
-To add bones to your armature, you have more or less the same options as when editing meshes:
-
-- *Add* menu,
-- extrusion,
-- :kbd:`Ctrl-LMB` clicks,
-- fill between joints,
-- duplication.
-
+.. (todo) same as armature
 
 Add Menu
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -49,8 +26,8 @@ This bone will be:
 - with no relationship with any other bone of the armature.
 
 
-Extrusion
----------
+Extrude
+=======
 
 .. admonition:: Reference
    :class: refbox
@@ -104,7 +81,7 @@ extrusion along a global or local axis.
 Bones have an extra "mirror extruding" tool, called by pressing :kbd:`Shift-E`.
 By default, it behaves exactly like the standard extrusion.
 But once you have enabled the X-Axis mirror editing option
-(see `X-Axis Mirror Editing`_),
+(see `X-Axis Mirror`_),
 each extruded tip will produce *two new bones*, having the same name except for the "_L"/ "_R" suffix
 (for left/right, see the :ref:`next page <armature-editing-naming-conventions>`).
 The "_L" bone behaves like the single one produced by the default extrusion --
@@ -122,7 +99,7 @@ The "_R" bone is its mirror counterpart (along the armature's local X axis), see
 In case you are wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
 because extrusion selects the newly created tips, and as explained below the Delete tool ignores bones' joints.
 To get rid of these extruded bones without undoing, you would have to move the tips,
-then select the bones and delete (`Deleting Bones`_) them.
+then select the bones and delete (`Delete Selected Bone(s)`_) them.
 
 
 Mouse Clicks
@@ -210,8 +187,8 @@ you can repeat these :kbd:`Ctrl-RMB` several times,
 to consecutively add several bones to the end of the same chain.
 
 
-Fill between joints
--------------------
+Fill between Joints
+===================
 
 .. admonition:: Reference
    :class: refbox
@@ -305,12 +282,12 @@ joint to the 3D cursor position, and it will not parent it to any bone in the ar
 
 You will get an error when:
 
-- trying to fill two joints of the same bone, or
-- trying to fill more than two bone joints.
+- Trying to fill two joints of the same bone.
+- Trying to fill more than two bone joints.
 
 
-Duplication
------------
+Duplicate
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -369,32 +346,17 @@ Split
 Disconnects the selection and clears the parent at the start and end. ToDo.
 
 
-Deleting Bones
-==============
-
-You have two ways to remove bones from an armature: the standard deletion,
-and merging several bones in one.
-
-
-Standard deletion
------------------
+Delete Selected Bone(s)
+=======================
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Delete`
+   | Menu:     :menuselection:`Armature --> Delete Selected Bone(s)`
    | Hotkey:   :kbd:`X`
 
-.. note::
-
-   This tool works on selected bones: selected joints are ignored.
-
-
-To delete a bone, you can:
-
-- press :kbd:`X` and confirm, or
-- use the menu :menuselection:`Armature --> Delete` and confirm.
+This tool delete selected bones, selected *joints* are ignored.
 
 If you delete a bone in a chain, its child(ren)
 will be automatically re-parented to its own parent, but **not** connected,
@@ -415,7 +377,7 @@ to avoid deforming the whole armature.
 
 
 Dissolve
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -427,14 +389,14 @@ Dissolve
 ToDo.
 
 
-Merge
------
+Merge Bones
+===========
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Merge`
+   | Menu:     :menuselection:`Armature --> Merge Bones`
    | Hotkey:   :kbd:`Alt-M`
 
 
@@ -480,8 +442,8 @@ differently depending in which chain is the edited bone
           The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of "Bone.006"
 
 
-Subdividing Bones
-=================
+Subdivide
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -493,11 +455,6 @@ Subdividing Bones
 You can subdivide bones, to get two or more bones where there was just one bone.
 The tool will subdivide all selected bones, preserving the existing relationships:
 the bones created from a subdivision always form a connected chain of bones.
-
-To create two bones out of each selected bone:
-
-- Press :kbd:`W` :menuselection:`Specials --> Subdivide`, or
-- select :menuselection:`Armature --> Subdivide` from the header menu.
 
 To create an arbitrary number of bones from each selected bone in the
 Subdivide Multi Operator panel.
@@ -539,9 +496,16 @@ This means that in a chain of connected bones, when you lock one bone,
 you only really lock its tip. With unconnected bones, the locking is effective on both joints of the bone.
 
 
-X-Axis Mirror Editing
-=====================
+X-Axis Mirror
+=============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool Shelf --> Options --> Armature Options --> X-Axis Mirror`
+
+This option enables automatic mirroring of editing actions along the X axis.
 Another very useful tool is the *X-Axis Mirror* editing option by
 :menuselection:`Tool panel --> Armature Options`, while Armature is selected in *Edit Mode*.
 When you have pairs of bones of the same name with just a different "side suffix"
@@ -556,8 +520,8 @@ it is an easy way to spare you half of the editing work!
    :ref:`naming bones <armature-editing-naming-bones>`.
 
 
-Separating Bones in a new Armature
-==================================
+Separate Bones
+==============
 
 You can, as with meshes, separate the selected bones in a new armature object
 :menuselection:`Armature --> Separate`, :kbd:`Ctrl-Alt-P` and of course,

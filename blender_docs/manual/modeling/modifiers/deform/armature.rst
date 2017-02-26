@@ -10,9 +10,9 @@ poses of characters and anything else which needs to be posed.
 By adding an armature system to an object,
 that object can be deformed accurately so that geometry does not have to be animated by hand.
 
-.. note::
+.. seealso::
 
-   For more details on armatures usage, see the :doc:`rigging chapter </rigging/introduction>`.
+   For more details on armatures usage, see the :doc:`armature section </rigging/armatures/index>`.
 
 Options
 =======
