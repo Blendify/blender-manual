@@ -59,6 +59,8 @@ See :doc:`/sculpt_paint/painting/weight_paint/options`.
 Usage
 =====
 
+.. _weight-painting-bones:
+
 Weight Painting for Bones
 -------------------------
 
@@ -90,12 +92,14 @@ Pick up here for modifying automatically assigned weights.
    The mesh around the bone itself should be red (generally)
    and fade out through the rainbow to blue for vertices farther away from the bone.
 
-You may select a different bone with :kbd:`RMB` while weight painting,
-provided the armature was left in *Pose Mode* as described above.
-This will activate the vertex group sharing the name with the selected bone,
-and display related weights. If the mesh skins the bones,
-you will not be able to see the bones because the mesh is painted.
-If so, turn on *X-Ray* view (:menuselection:`Properties Editor --> Armature tab`).
+When you select a bone of the armature (which remained in *Pose Mode*),
+it will activate the corresponding vertex group and display related weights.
+You can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
+
+.. tip::
+
+   If the mesh skins the bones, you will not be able to see the bones because the mesh is painted.
+   If so, turn on *X-Ray* view (:menuselection:`Properties Editor --> Armature tab`).
 
 If you paint on the mesh, a vertex group is created for the bone.
 If you paint on vertices outside the group,

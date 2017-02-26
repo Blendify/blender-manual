@@ -24,8 +24,6 @@ Bones can affect the object's shape in two ways:
   using vertices' :ref:`weights <painting-weight-index>` as influence value.
   A much more precise method, but also generally longer to set up.
 
-Both methods have some `Common Options`_, and can be mixed together.
-
 
 Parenting to Whole Armatures
 ============================
@@ -74,149 +72,10 @@ in the skinning object's modifiers stack.
 And so, of course, adding an :doc:`Armature Modifier </modeling/modifiers/deform/armature>`
 to an object is the second, new skinning method (which also works for curves/surfaces/texts...).
 Follow the above link to read more about this modifier's specific options.
-Note that there is a way with new Armature Modifiers to automatically create vertex groups and weight them;
-see the `Vertex Groups`_ description below.
-
-.. warning::
-
-   A single object can have several Armature Modifiers
-   (with e.g. different armatures, or different settings...),
-   working on top of each other, **or** mixing their respective effects
-   (depending whether their *MultiModifier* option is set,
-   see :ref:`their description <modifier-armature-multi-modifier>` for more details),
-   and only one "virtual old parenting" one, which will always be at the top of the stack.
-
-.. note::
-
-   Finally that for settings that are present in both the armature's
-   Armature panel and in the objects' Armature Modifier panel
-   (namely, Vertex Groups , Envelopes, Quaternion and B-Bone Rest),
-   the modifier ones always override the armature ones. This means that if, for example,
-   you only enable the *Envelopes* deformation method of the armature,
-   and then skin it with an object using an Armature Modifier, where only
-   *Vertex Groups* is enabled,
-   the object will only be deformed based on its "bones" vertex groups,
-   ignoring completely the bones' envelopes.
-
-
-Common Options
-==============
-
-There are two armature-global skinning options that are common to both envelopes and vertex
-groups methods:
-
-Preserve Volume (Armature Modifier)
-   This affects the way geometry is deformed, especially at bones' joints, when rotating them.
-
-   Without *Preserve Volume*, rotations at joints tend to scale down the neighboring geometry,
-   up to nearly zero at 180 degrees from rest position.
-   With *Preserve Volume*, the geometry is no longer scaled down, but there is a "gap",
-   a discontinuity when reaching 180 degrees from rest position.
-
-.. list-table::
-   Example of Quaternion option effects.
-
-   * - .. figure:: /images/rigging_skinning_preserve-volume-1.png
-          :width: 200px
-
-          Initial state.
-
-     - .. figure:: /images/rigging_skinning_preserve-volume-2.png
-          :width: 200px
-
-          100° rotation, Preserve Volume disabled.
-
-     - .. figure:: /images/rigging_skinning_preserve-volume-3.png
-          :width: 200px
-
-          180° rotation, Preserve Volume disabled.
-
-   * - .. figure:: /images/rigging_skinning_preserve-volume-4.png
-          :width: 200px
-
-          100° rotation, Preserve Volume enabled.
-
-     - .. figure:: /images/rigging_skinning_preserve-volume-5.png
-          :width: 200px
-
-          179.9° rotation, Preserve Volume enabled.
-
-     - .. figure:: /images/rigging_skinning_preserve-volume-6.png
-          :width: 200px
-
-          180.1° rotation, Preserve Volume enabled.
-
-.. note::
-
-   Note that the IcoSphere is deformed using the envelopes method.
 
 
 Vertex Groups
 =============
-
-Vertex groups skinning method is only available for meshes and lattices. Which are the only objects having
-:doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>`. Its principle is very simple:
-each bone only affects vertices belonging to a vertex group having the same name as the bone.
-So if you have e.g. a ``forearm`` bone, it will only affect the ``forearm`` vertex group of its skin object(s).
-
-The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group.
-Thus, the :ref:`Weight Paint Mode <painting-weight-index>`.
-:kbd:`Ctrl-Tab`, if a mesh is selected is most useful here, to easily set/adjust the vertices' weights.
-
-However, you have a few goodies when weight-painting a mesh already parented to (skinning)
-an armature. For these to work, you must:
-
-#. Select the armature.
-#. Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
-#. Select the mesh to weight.
-#. Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint Mode*.
-
-Now, when you select a bone of the armature (which remained in *Pose Mode*),
-you automatically activate the corresponding vertex group of the mesh -- Very handy! Obviously,
-you can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
-
-This way, you can also apply to the active bone/vertex group one of the same "auto-weighting"
-methods as available when doing an "old-parenting" to armature :kbd:`Ctrl-P`:
-
-- Select the bone (and hence the vertex group) you want.
-- Hit :kbd:`W`, and in the *Specials* menu that pops up,
-  choose either *Apply Bone Envelopes to Vertex Groups*
-  or *Apply Bone Heat Weights to Vertex Groups*.
-  Once again, even though these names are plural,
-  you can only affect *one* vertex group's weights at a time with these options.
-
-To automatically weight multiple bones, you can simply:
-
-- :kbd:`Ctrl-Tab` out of Weight Paint Mode
-- Select the Armature. It should be in Pose Mode. If it is not, go :kbd:`Ctrl-Tab`
-- Select multiple bones :kbd:`Shift-LMB` or press :kbd:`A` (once or twice).
-- Select Mesh again
-- If not in weight paint already, toggle back into :kbd:`Ctrl-Tab`
-- Use the :kbd:`W` menu to automatic weight. This will weight all the bones you selected in Pose Mode.
-
-.. list-table::
-   Example of vertex groups skinning method.
-
-   * - .. figure:: /images/rigging_skinning_vertex-groups-skinning-1.png
-          :width: 320px
-
-          The weights of the arm vertex group.
-
-     - .. figure:: /images/rigging_skinning_vertex-groups-skinning-2.png
-          :width: 320px
-
-          The weights of the forearm vertex group.
-
-   * - .. figure:: /images/rigging_skinning_vertex-groups-skinning-3.png
-          :width: 320px
-
-          The result when posing the armature.
-
-     - .. figure:: /images/rigging_skinning_vertex-groups-skinning-4.png
-          :width: 320px
-
-          The same pose, but using envelopes method rather that vertex groups.
-
 
 Obviously, the same vertex can belong to several groups, and hence be affected by several bones,
 with a fine tuning of each bone's influence using these vertex weights.
@@ -227,3 +86,7 @@ when reaching the forearm zone and vice versa for the forearm group weights...
 Of course, this is a very raw example skinning a realistic joint is a big job,
 as you have to carefully find good weights for each vertex,
 to have the most realistic behavior, when bending -- and this is not an easy thing!
+
+.. seealso::
+
+   :ref:`weight-painting-bones`.

@@ -12,7 +12,7 @@ that object can be deformed accurately so that geometry does not have to be anim
 
 .. note::
 
-   For more details on armatures usage, see :doc:`this chapter </rigging/introduction>`.
+   For more details on armatures usage, see the :doc:`rigging chapter </rigging/introduction>`.
 
 Options
 =======
@@ -25,6 +25,45 @@ Object
    The name of the armature object used by this modifier.
 Preserve Volume
    Use quaternions for preserving volume of object during deformation. It can be better in many situations.
+
+   Without *Preserve Volume*, rotations at joints tend to scale down the neighboring geometry,
+   up to nearly zero at 180 degrees from rest position.
+   With *Preserve Volume*, the geometry is no longer scaled down, but there is a "gap",
+   a discontinuity when reaching 180 degrees from rest position.
+
+.. list-table:: Example of Quaternion option effects.
+   Note that the IcoSphere is deformed using the envelopes weights.
+
+   * - .. figure:: /images/rigging_skinning_preserve-volume-1.png
+          :width: 200px
+
+          Initial state.
+
+     - .. figure:: /images/rigging_skinning_preserve-volume-2.png
+          :width: 200px
+
+          100° rotation, Preserve Volume disabled.
+
+     - .. figure:: /images/rigging_skinning_preserve-volume-3.png
+          :width: 200px
+
+          180° rotation, Preserve Volume disabled.
+
+   * - .. figure:: /images/rigging_skinning_preserve-volume-4.png
+          :width: 200px
+
+          100° rotation, Preserve Volume enabled.
+
+     - .. figure:: /images/rigging_skinning_preserve-volume-5.png
+          :width: 200px
+
+          179.9° rotation, Preserve Volume enabled.
+
+     - .. figure:: /images/rigging_skinning_preserve-volume-6.png
+          :width: 200px
+
+          180.1° rotation, Preserve Volume enabled.
+
 Vertex Group
    The name of a vertex group of the object, the weights of which will be used to determine the influence of this
    Armature Modifier's result when mixing it with the results from other *Armature* ones.
@@ -36,24 +75,58 @@ Vertex Group
       Inverts the influence set by the vertex group defined in previous setting
       (i.e. reverses the weight values of this group).
 
+
+Bind To
+-------
+
+Methods to bind the armature to the mesh.
+
+Vertex Groups
+   When enabled, bones of a given name will deform vertices which belong to
+   :doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>` of the same name.
+   e.g. a bone named "forearm" , will only affect the vertices in the "forearm" vertex group.
+
+   The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group.
+Bone Envelopes
+   When enabled, bones will deform vertices near them (defined by each bones envelope radius)
+   Enable/Disable bone :ref:`envelopes <armature-bones-envelope>` defining the deformation
+   (i.e. bones deform vertices in their neighborhood).
+
+.. list-table::
+   Example of vertex groups skinning method.
+
+   * - .. figure:: /images/rigging_skinning_vertex-groups-skinning-1.png
+          :width: 320px
+
+          The weights of the arm vertex group.
+
+     - .. figure:: /images/rigging_skinning_vertex-groups-skinning-2.png
+          :width: 320px
+
+          The weights of the forearm vertex group.
+
+   * - .. figure:: /images/rigging_skinning_vertex-groups-skinning-3.png
+          :width: 320px
+
+          The result when posing the armature.
+
+     - .. figure:: /images/rigging_skinning_vertex-groups-skinning-4.png
+          :width: 320px
+
+          The same pose, but using envelopes method rather that vertex groups.
+
+
 .. _modifier-armature-multi-modifier:
 
 Multi Modifier
-   Use the same data as a previous modifier (usually also an Armature Modifier) as input.
-   This allows you to use several armatures to deform the same object, all based on the "non-deformed" data
-   (i.e. this avoids having the second Armature Modifier deform the result of the first one...).
+--------------
 
-   The results of the Armature Modifiers are then mixed together, using the weights of the
-   *Vertex Group* as "mixing guides".
-Bind To
-   Method to bind the armature to the mesh.
+Use the same data as a previous modifier (usually also an Armature Modifier) as input.
+This allows you to use several armatures to deform the same object, all based on the "non-deformed" data
+(i.e. this avoids having the second Armature Modifier deform the result of the first one...).
 
-   Vertex Groups
-      When enabled, bones of a given name will deform vertices which belong to vertex groups of the same name.
-
-   Bone Envelopes
-      When enabled, bones will deform vertices near them (defined by each bones envelope radius)
-      Enable/Disable bone envelopes defining the deformation (i.e. bones deform vertices in their neighborhood).
+The results of the Armature Modifiers are then mixed together, using the weights of the
+*Vertex Group* as "mixing guides".
 
 
 .. tip::
