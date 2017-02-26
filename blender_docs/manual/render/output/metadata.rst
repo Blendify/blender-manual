@@ -26,7 +26,7 @@ Stamp Output
       Set the size of the text.
    Draw Labels
       Draws the labels before the metadata text. For example,
-      "Camera" infront of camera name ect...
+      "Camera" infront of camera name etc.
 
 
 .. rubric:: Enabled Metadata
