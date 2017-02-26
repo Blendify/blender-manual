@@ -27,3 +27,8 @@ In Blender, you have two main skinning types:
   This is the more complex and powerful method,
   and the only way to really deform the geometry of the object,
   i.e. to modify its vertices/control points relative positions.
+
+.. hint:: Retargeting
+
+   Retargeting which is a way to apply motion-capture data (acquired from real world) to a rig is available through
+   add-ons and importers.
