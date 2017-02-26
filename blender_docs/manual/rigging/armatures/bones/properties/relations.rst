@@ -70,7 +70,7 @@ Parenting
 =========
 
 Parent
-   A data-ID to select the bone to set as a parent.
+   A :ref:`ui-data-id` to select the bone to set as a parent.
 Connected
    The *Connected* checkbox set the head of the bone to be connected with its parent root.
 

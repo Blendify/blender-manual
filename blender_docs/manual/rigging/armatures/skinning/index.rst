@@ -11,4 +11,3 @@
    objects.rst
    obdata.rst
    parenting.rst
-   retargeting.rst

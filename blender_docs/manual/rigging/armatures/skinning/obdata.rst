@@ -16,7 +16,7 @@ This type of skinning is available for meshes, lattices, curves, surfaces, and t
 
 Bones can affect the object's shape in two ways:
 
-- The `Envelope`_ process is available for all type of skinnable objects.
+- The :ref:`armature-bones-envelope` process is available for all type of skinnable objects.
   It uses the "proximity" and "influence" of the bones to determine which part of the object they can deform.
 - The `Vertex Groups`_ method is (obviously) reserved to meshes and lattices.
   One bone only affect the vertices in the
@@ -124,107 +124,31 @@ Preserve Volume (Armature Modifier)
      - .. figure:: /images/rigging_skinning_preserve-volume-2.png
           :width: 200px
 
-          100- rotation, Preserve Volume disabled.
+          100° rotation, Preserve Volume disabled.
 
      - .. figure:: /images/rigging_skinning_preserve-volume-3.png
           :width: 200px
 
-          180- rotation, Preserve Volume disabled.
+          180° rotation, Preserve Volume disabled.
 
    * - .. figure:: /images/rigging_skinning_preserve-volume-4.png
           :width: 200px
 
-          100- rotation, Preserve Volume enabled.
+          100° rotation, Preserve Volume enabled.
 
      - .. figure:: /images/rigging_skinning_preserve-volume-5.png
           :width: 200px
 
-          179.9- rotation, Preserve Volume enabled.
+          179.9° rotation, Preserve Volume enabled.
 
      - .. figure:: /images/rigging_skinning_preserve-volume-6.png
           :width: 200px
 
-          180.1- rotation, Preserve Volume enabled.
+          180.1° rotation, Preserve Volume enabled.
 
 .. note::
 
    Note that the IcoSphere is deformed using the envelopes method.
-
-
-Bone Deform Options
-===================
-
-.. figure:: /images/rigging_armatures_bones_properties_deform-panel.png
-
-   Bone Deform Options.
-
-
-The bones also have some deforming options in the Deform panel
-(*Bone* tab),
-that you can therefore define independently for each of them.
-
-Deform
-   By disabling this setting (enabled by default),
-   you can completely prevent a bone from deforming the geometry of the skin object.
-
-
-Envelope
---------
-
-.. figure:: /images/rigging_armatures_bones_introduction_envelope-edit-mode.png
-   :align: right
-   :figwidth: 180px
-
-   Bone influence areas for envelopes method.
-
-
-Envelopes is the most general skinning method. It works with all available object types for
-skinning (meshes, lattices, curves, surfaces and texts).
-It is based on proximity between bones and their geometry,
-each bone having two different areas of influence,
-shown in the *Envelope* visualization:
-
-- The inside area, materialized by the "solid" part of the bone, and controlled by both root and tip radius.
-  Inside this zone, the geometry if fully affected by the bone.
-- The outside area, materialized by the lighter part around the bone,
-  and controlled by the *Distance* setting. Inside this zone,
-  the geometry is less and less affected by the bone as it goes away by following a quadratic decay.
-
-.. seealso::
-
-   The :doc:`editing pages </rigging/armatures/bones/editing/properties>` for how to edit these properties.
-
-
-There is also a bone property, *Weight* (Deform panel,
-in *Edit Mode* only, defaults is set to 1.0),
-that controls the global influence of the bone over the deformed object,
-when using the envelopes method.
-It is only useful for the parts of geometry that are "shared",
-influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
-have more influence on the result than one with a low weight...
-Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
-
-Mult
-   Short for 'Multiply'. This option controls how the two deforming methods interact, when they are both enabled.
-   By default, when they are both active, all vertices belonging to at least one vertex group are only deformed
-   through the vertex groups method. The other "orphan" vertices being handled by the envelopes one.
-   When you enable this option, the "deformation influence" that this bone would have on a vertex
-   (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
-   In other words, the vertex groups method is further "weighted" by the envelopes method.
-
-Radius
-   Set the radius for the head and the tail of envelope bones.
-
-
-Curved Bone
------------
-
-*Curved Bones* (previously known as B-bones) allow you make bones act like Bézier curve segments,
-which results in smoother deformations for longer bones.
-
-.. seealso::
-
-   The :doc:`editing pages </rigging/armatures/bones/editing/properties>` for how to edit these properties.
 
 
 Vertex Groups

@@ -8,17 +8,62 @@ Deform
    The Deform panel.
 
 
-In this panel you can set basic properties of the bones.
+In this panel you can set deformation options for each bone.
 
-Turning the Deform option on and off,
-includes the active bone in the Automatic Weight Calculation when the Mesh is
-Parented to the Armature using the Armature Deform with the "With Automatic Weights" option.
-
-Also it is worth noting that by turning off a bone's deform option, makes it not influence the mesh at all,
+Turning the Deform option off,
+prevent a bone from deforming the geometry at all,
 overriding any weights that it might have been assigned before; It mutes its influence.
 
+It also excludes the active bone in the automatic weight calculation when the mesh is
+parented to the armature using the *Armature Deform* tool with the "With Automatic Weights" option.
+
+
+.. _armature-bones-envelope:
 
 Envelope
 ========
 
-ToDo.
+.. figure:: /images/rigging_armatures_bones_introduction_envelope-edit-mode.png
+   :align: right
+   :figwidth: 180px
+
+   Bone influence areas for envelopes method.
+
+
+Envelopes is the most general skinning method. It works with all available object types for
+skinning (meshes, lattices, curves, surfaces and texts).
+It is based on proximity between bones and their geometry,
+each bone having two different areas of influence,
+shown in the *Envelope* visualization:
+
+- The inside area, materialized by the "solid" part of the bone, and controlled by both root and tip radius.
+  Inside this zone, the geometry if fully affected by the bone.
+- The outside area, materialized by the lighter part around the bone,
+  and controlled by the *Distance* setting. Inside this zone,
+  the geometry is less and less affected by the bone as it goes away by following a quadratic decay.
+
+.. seealso::
+
+   The :doc:`editing pages </rigging/armatures/bones/editing/properties>` for how to edit these properties.
+
+
+There is also a bone property, *Weight* (Deform panel,
+in *Edit Mode* only, defaults is set to 1.0),
+that controls the global influence of the bone over the deformed object,
+when using the envelopes method.
+It is only useful for the parts of geometry that are "shared",
+influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
+have more influence on the result than one with a low weight...
+Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
+
+Multiply
+   This option controls how the two deforming methods interact, when they are both enabled.
+   By default, when they are both active, all vertices belonging to at least one vertex group are only deformed
+   through the vertex groups method. The other "orphan" vertices being handled by the envelopes one.
+   When you enable this option, the "deformation influence" that this bone would have on a vertex
+   (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
+   In other words, the vertex groups method is further "weighted" by the envelopes method.
+
+Radius
+   Set the radius for the head and the tail of envelope bones.
+
