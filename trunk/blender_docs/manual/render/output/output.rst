@@ -80,14 +80,14 @@ File Path
    You can set a custom padding size by adding the appropriate number of ``#`` anywhere in the file name
    (e.g. ``image_##_test.png`` translates to ``image_01_test.png``).
 
-   This settings expands :doc:`relative paths </data_system/files/relative_paths>`
+   This setting expands :doc:`relative paths </data_system/files/relative_paths>`
    where a ``//`` prefix represents the directory of the current blend-file.
 Overwrite
-   Overwrite existing files when rendering
+   Overwrite existing files when rendering.
 Placeholders
-   Create empty placeholder frames while rendering
+   Create empty placeholder frames while rendering.
 File Extensions
-   Adds the correct file extensions per file type to the output files
+   Adds the correct file extensions per file type to the output files.
 Cache Result
    Saves the rendered image and passes to a Multilayer EXR-file in temporary location on your hard drive.
    This allows the compositor to read these to improve performance, especially for heavy compositing.
