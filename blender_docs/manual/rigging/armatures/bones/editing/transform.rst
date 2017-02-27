@@ -44,7 +44,7 @@ Scale Radius
    :class: refbox
 
    | Mode:     Edit Mode, Envelope visualization
-   | Menu:     :menuselection:`Armature --> Transform --> Scale`
+   | Menu:     :menuselection:`Armature --> Transform --> Scale Radius`
    | Hotkey:   :kbd:`Alt-S`
 
 It will scale the mean radius of the selected bones.
@@ -86,6 +86,7 @@ Scale Envelope Distance
    :class: refbox
 
    | Mode:     Edit Mode
+   | Menu:     :menuselection:`Armature --> Transform --> Scale Envelope Distance`
    | Hotkey:   :kbd:`Ctrl-Alt-S`
 
 
