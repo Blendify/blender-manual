@@ -27,54 +27,51 @@ a parent bone without affecting its descendants. However,
 connected bones must always have parent's tips connected to child's roots,
 so by transforming a bone, you will affect all its connected parent/children/siblings.
 
+While with other transform tools, the "local axes" means the object's axes,
+here they are the bone's own axes (when you lock to a local axis,
+by pressing the relevant key twice, the constraint is applied along the selected bone's local axis,
+not the armature object's axis).
+
 Finally, you can edit in the *Transform* panel in the Properties region
 the positions and radius of both joints of the active selected bone,
 as well as its :ref:`roll rotation <armature-bone-roll>`.
 
 
-Radius and Scaling in Envelope Visualization
---------------------------------------------
+Scale Radius
+============
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode, Envelope visualization
    | Menu:     :menuselection:`Armature --> Transform --> Scale`
-   | Hotkey:   :kbd:`S`
+   | Hotkey:   :kbd:`Alt-S`
 
-
-When bones are displayed using *Octahedron*, *Stick* or *B-Bone* visualizations,
-scaling will behave as expected, similar to scaling mesh objects.
-When bones are displayed using *Envelope* visualization,
-scaling will have a different effect: it will scale the radius of the selected bones's joints.
-(see: :doc:`skinning part </rigging/armatures/skinning/index>`).
-As you control only one value (the radius), there is no axis locking here.
+It will scale the mean radius of the selected bones.
 And as usual, with connected bones, you scale at the same time the radius
 of the parent's tip and of the children's roots.
 
-.. list-table::
-   Scaling of a bone in *Octahedron* and *Envelope* visualizations.
+.. list-table:: Bone Scale and Scale Radius comparison.
 
    * - .. figure:: /images/rigging_armatures_bones_selecting_single-bone.png
           :width: 320px
 
-          A single selected bone...
+          A single selected bone in Octahedron visualization.
 
      - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-2.png
           :width: 320px
 
-          ...Scaled in Octahedron visualization.
+          After normal scale.
 
    * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-3.png
           :width: 320px
 
-          A single selected bone...
+          A single selected bone in Envelope visualization.
 
      - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-4.png
           :width: 320px
 
-          ...Scaled in Envelope visualization. Its length remains the same, but its joints' radius are bigger.
-
+          After Scaled Radius. Its length remains the same, but its joints' radius are bigger.
 
 Note that when you resize a bone (either by directly scaling it,
 or by moving one of its joints), Blender automatically adjusts the end-radii of its envelope
@@ -82,8 +79,8 @@ proportionally to the size of the modification. Therefore,
 it is advisable to place all the bones first, and only then edit these properties.
 
 
-ScaleB and Envelope
--------------------
+Scale Envelope Distance
+=======================
 
 .. admonition:: Reference
    :class: refbox
@@ -92,13 +89,7 @@ ScaleB and Envelope
    | Hotkey:   :kbd:`Ctrl-Alt-S`
 
 
-:kbd:`Ctrl-Alt-S` activates a transform tool that is specific to armatures.
-It has different behavior depending on the active visualization, as explained below:
-
-In *Envelope* visualization, it allows you to edit the influence of the selected bones
-(their *Distance* property, see the :doc:`skinning part </rigging/armatures/skinning/index>`) --
-as with the "standard" scaling with this visualization (see the previous section),
-this is an one-value property, so there is no axis locking and such.
+It allows you to edit the influence of the selected bones their *Distance* property.
 
 .. list-table:: Envelope scaling example.
 
@@ -110,17 +101,7 @@ this is an one-value property, so there is no axis locking and such.
      - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-5.png
           :width: 320px
 
-          Its envelope scaled with :kbd:`Ctrl-Alt-S`.
-
-
-In the other visualizations, it allows you to edit the "bone size".
-This seems to only have a visible effect in *B-Bone* visualization,
-but is available also with *Octahedron* and *Stick*...
-This tool in this situation has another specific behavior:
-While with other transform tools, the "local axes" means the object's axes,
-here they are the bone's own axes (when you lock to a local axis,
-by pressing the relevant key twice, the constraint is applied along the selected bone's local axis,
-not the armature object's axis).
+          Its envelope distance scaled.
 
 .. list-table:: "Bone size" scaling example.
 
@@ -132,7 +113,7 @@ not the armature object's axis).
      - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-size-2.png
           :width: 200px
 
-          Its size scaled with :kbd:`Ctrl-Alt-S`.
+          Its envelope distance scaled.
 
      - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-size-3.png
           :width: 200px
