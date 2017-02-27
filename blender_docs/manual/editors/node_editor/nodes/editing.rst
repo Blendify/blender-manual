@@ -59,9 +59,11 @@ Nodes that have no connections can be inserted on a link.
 Just move the node over the link and release when the link turns orange.
 
 Make Links :kbd:`F`
-   Todo.
+   Select multiple nodes with open sockets, then use the Make Links to create links between them.
+   Use Make Links again if there are other nodes which can be connected.
+
 Make and Replace Links :kbd:`Shift-F`
-   Todo.
+   Make and Replace Links replaces similarly to Make Links, but it will replace existing links if any exist.
 
 
 Disconnecting Sockets
@@ -88,7 +90,7 @@ drag: You will see a little cutter icon appearing at your mouse pointer. Move it
 release the :kbd:`LMB`.
 
 Detach Links
-   Todo.
+   Use Detach Links in order to cut all links attached to selected nodes at once.
 
 
 Duplicate
@@ -131,7 +133,9 @@ Mute
    | Menu:     :menuselection:`Node --> Toggle Node Mute`
    | Hotkey:   :kbd:`M`
 
-ToDo.
+Muting a node removes the contribution of the node to the node tree,
+and makes all links pass through that node without change.
+Links will appear red as an indicator of passing through the muted node.
 
 
 Show/Hide
