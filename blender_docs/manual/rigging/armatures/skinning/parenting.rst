@@ -173,7 +173,7 @@ The created Vertex Groups will then be assigned Influence Weights.
 The major difference is in the way those Influence Weights are calculated.
 
 Influence Weights that are calculated when using Armature Deform With Envelope Weights
-parenting are calculated entirely visually using Bone Envelopes.
+parenting are calculated entirely visually using :ref:`Bone Envelopes <armature-bones-envelope>`.
 
 .. _fig-view3d-parent-envelope:
 
@@ -195,42 +195,6 @@ When the bones are transformed in Pose Mode the results are very different.
 .. figure:: /images/rigging_armatures_parenting_envelope-influence.png
 
    Two sets of Armatures each with three bones.
-
-
-The default size of the Bone Envelope volume does not extend very far from the surface of a bone;
-You can alter the size of the Bone Envelope volume by clicking on the body of the bone you want to alter,
-switch to Edit Mode or Pose Mode and then pressing
-:kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
-
-.. figure:: /images/rigging_armatures_parenting_envelope-distance.png
-
-   Single Armature Bone with various different Bone Envelope sizes.
-
-   Envelope distance fields highlighted.
-
-
-You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and
-switching to Edit Mode or Pose Mode,
-then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Envelope --> Distance`
-then enter a new value into it.
-
-Altering the Bone Envelope volume does not alter the size of the Armature Bone just the range
-within which it can influence vertices of Child Objects.
-
-You can alter the radius that a bone has by selecting the head, body or tail parts of a bone while in Edit Mode,
-and then press :kbd:`Alt-S` and move the mouse left or right.
-This will make the selected bone fatter or thinner without altering the thickness of the Bone Envelope volume.
-
-.. figure:: /images/rigging_armatures_parenting_envelope-radius.png
-
-   Three Armature Bones all using Envelope Weight.
-
-   The 1st with a default radius value, the two others with differing Tail and Head radius values.
-
-
-You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
-Mode, then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
-and entering new values for the *Tail* and *Head* fields.
 
 .. note::
 

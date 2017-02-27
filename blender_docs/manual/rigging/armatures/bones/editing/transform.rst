@@ -43,13 +43,19 @@ Scale Radius
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode, Envelope visualization
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Transform --> Scale Radius`
    | Hotkey:   :kbd:`Alt-S`
 
-It will scale the mean radius of the selected bones.
+You can alter the radius that a bone has by selecting the head, body or tail of a bone,
+and then press :kbd:`Alt-S` and move the mouse left or right.
+If the body is selected the mean radius will be scaled.
 And as usual, with connected bones, you scale at the same time the radius
 of the parent's tip and of the children's roots.
+
+You can also alter the bone radius by selecting the tail or head of the bone you wish to alter,
+then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
+and entering new values for the *Tail* and *Head* number buttons.
 
 .. list-table:: Bone Scale and Scale Radius comparison.
 
@@ -85,12 +91,19 @@ Scale Envelope Distance
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
+   | Mode:     Edit Mode and Pose Mode 
    | Menu:     :menuselection:`Armature --> Transform --> Scale Envelope Distance`
    | Hotkey:   :kbd:`Ctrl-Alt-S`
 
+You can alter the size of the Bone Envelope volume by clicking on the body of the bone you want to alter,
+:kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
 
-It allows you to edit the influence of the selected bones their *Distance* property.
+You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and
+then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Envelope --> Distance`
+then enter a new value into it.
+
+Altering the Bone Envelope volume does not alter the size of the bone just the range
+within which it can influence vertices of child objects.
 
 .. list-table:: Envelope scaling example.
 
@@ -120,6 +133,19 @@ It allows you to edit the influence of the selected bones their *Distance* prope
           :width: 200px
 
           The same armature in Object Mode and B-Bone visualization, with Bone.004's size scaled up.
+
+
+Align Bones
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Armature --> Transform --> Align Bones`
+   | Hotkey:   :kbd:`Ctrl-Alt-A`
+
+ToDo.
 
 
 .. _armature-bone-roll:
