@@ -44,17 +44,31 @@ shown in the *Envelope* visualization:
 
 .. seealso::
 
-   The :doc:`editing pages </rigging/armatures/bones/editing/properties>` for how to edit these properties.
+   The :doc:`editing pages </rigging/armatures/bones/editing/transform>` for how to edit these properties.
 
+Distance
+   The Distance defines a volume which is the range within the bone has an influence on vertices of the deformed object.
 
-There is also a bone property, *Weight* (Deform panel,
-in *Edit Mode* only, defaults is set to 1.0),
-that controls the global influence of the bone over the deformed object,
-when using the envelopes method.
-It is only useful for the parts of geometry that are "shared",
-influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
-have more influence on the result than one with a low weight...
-Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
+   .. figure:: /images/rigging_armatures_parenting_envelope-distance.png
+
+      Single bone with various different envelope sizes.
+
+Weight
+   A bone property, that controls the global influence of the bone over the deformed object,
+   when using the envelopes method.
+
+   It is only useful for the parts of geometry that are "shared",
+   influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
+   have more influence on the result than one with a low weight...
+   Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
+Radius
+   Set the radius for the head and the tail of envelope bones.
+
+   .. figure:: /images/rigging_armatures_parenting_envelope-radius.png
+
+      Three Armature Bones all using Envelope Weight.
+
+      The 1st with a default radius value, the two others with differing Tail and Head radius values.
 
 Multiply
    This option controls how the two deforming methods interact, when they are both enabled.
@@ -63,7 +77,4 @@ Multiply
    When you enable this option, the "deformation influence" that this bone would have on a vertex
    (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
    In other words, the vertex groups method is further "weighted" by the envelopes method.
-
-Radius
-   Set the radius for the head and the tail of envelope bones.
 
