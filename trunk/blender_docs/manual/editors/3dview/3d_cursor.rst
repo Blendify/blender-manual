@@ -57,6 +57,6 @@ the *3D cursor* panel of the *Properties* region.
 Usage
 =====
 
-Todo.
-
-.. TODO: uses (placement of objects, moving objects, modeling tools...)
+The 3D Cursor is used as the origin for any added object, can be used and moved with the
+:doc:`snap tool </editors/3dview/object/editing/transform/control/snap>`, and is an option for
+the :doc:`pivot point </editors/3dview/object/editing/transform/control/pivot_point/index>`.
