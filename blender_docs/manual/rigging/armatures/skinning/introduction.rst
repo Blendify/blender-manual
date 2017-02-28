@@ -18,11 +18,11 @@ it should transform and/or deform is called the "skinning" process...
 
 In Blender, you have two main skinning types:
 
-- You can :doc:`Parent/Constrain Objects to Bones </rigging/armatures/skinning/objects>` - then,
+- You can :doc:`Parent/Constrain Objects to Bones </editors/3dview/object/properties/relations/parents>` - then,
   when you transform the bones in *Pose Mode*, their "children" objects are also transformed,
   exactly as with a standard parent/children relationship...
   The "children" are **never** deformed when using this method.
-- You can :doc:`Using the Armature Modifier on entire Mesh </rigging/armatures/skinning/obdata>`,
+- You can :doc:`Using the Armature Modifier on entire Mesh </rigging/armatures/skinning/parenting>`,
   and then, some parts of this object to some bones inside this armature.
   This is the more complex and powerful method,
   and the only way to really deform the geometry of the object,
