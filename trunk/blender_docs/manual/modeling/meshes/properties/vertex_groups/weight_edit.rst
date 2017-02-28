@@ -125,7 +125,7 @@ weight values.
    Change Weight Value.
 
 
-Change a weight
+Change a Weight
 ---------------
 
 You can either enter a new weight value manually (click on the number and edit the value),
@@ -158,7 +158,7 @@ Deleting
 Thus the entire row disappears when you click on the delete icon.
 
 
-Function bar
+Function Bar
 ============
 
 .. figure:: /images/modeling-meshes-vertex-weight-editor-functions.png
@@ -185,14 +185,13 @@ Copy
    then Normalize and Copy only affect the Deform bones.
 
 
-About locked Vertex Groups
-==========================
+Locking
+=======
 
 .. figure:: /images/modeling-meshes-vertex-weight-editor-locked.png
    :width: 235px
 
    Vertex Weights panel Locked.
-
 
 Whenever a Weight Group is locked, all data changing functions get disabled:
 
