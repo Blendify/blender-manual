@@ -34,8 +34,8 @@ Align View Menu
 ===============
 
 Align View to Active
-   The options in this menu align your view with specified local axes of the selected active object, bone, or
-   in *Edit Mode* with the normal of the selected face.
+   The options in this menu align your view with specified local axes of the selected active object,
+   bone, or, in *Edit Mode* with the normal of the selected face.
 
    Hold down :kbd:`Shift` while using the numpad to set the view axis.
 
@@ -44,16 +44,16 @@ Center Cursor and View All :kbd:`Shift-C`
 Align Active Camera to View :kbd:`Ctrl-Alt-Numpad0`
    Gives your active camera the current viewpoint.
 Align Active Camera to Selected
-   ToDo.
+   Points the active camera toward the selected object; based on the direction of the current viewpoint. 
 View Selected :kbd:`NumpadPeriod`
    Focuses view on currently selected object/s by centering them in the viewport,
    and zooming in until they fill the screen.
 Center View to Cursor :kbd:`Alt-Home`
    Centers view to 3D-cursor.
 View Lock to Active :kbd:`Shift-NumpadPeriod`
-   ToDo.
+   Centers view to the last selected active object, overriding other view alignment settings.
 View Lock Clear :kbd:`Alt-NumpadPeriod`
-   ToDo.
+   Returns the view alignment to the view align settings before use of *View Lock to Active*.
 
 
 View Menu
