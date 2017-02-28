@@ -26,3 +26,4 @@ Physic Types
    smoke/index.rst
    rigid_body/index.rst
    particles/index.rst
+   gravity.rst
