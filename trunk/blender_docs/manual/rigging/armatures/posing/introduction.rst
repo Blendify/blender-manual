@@ -4,20 +4,19 @@
 Introduction
 ************
 
-Once your armature is :doc:`skinned </rigging/armatures/skinning/index>` by the needed object(s),
-you can start to pose it. Basically, by transforming its bones,
-you deform or transform the skin object(s). But you do not do that in *Edit Mode* --
-remember that in this mode, you edit the default, base,
-"rest" position of your armature. You cannot use the *Object Mode* either,
-as here you can only transform whole objects...
+Once an armature is :doc:`skinned </rigging/armatures/skinning/index>` by the needed object(s),
+you need a way to configure the armature into postionions know as poses.
+Basically, by transforming the bones, you deform or transform the skinned object(s).
+However, you will notice that you cannot do not this in *Edit Mode* --
+remember that *Edit Mode* is used to edit the default, base, or "rest" position of an armature.
+You may also notice that you cannot use *Object Mode* either, as here you can only transform whole objects.
 
-So, armatures in Blender have a third mode, *Pose*, dedicated to this process.
-It is a sort of "object mode for bones". In rest position (as edited in *Edit Mode*),
-each bone has its own position/rotation/scale to neutral values
-(i.e. 0.0 for position and rotation, and 1.0 for scale).
-Hence, when you edit a bone in *Pose Mode*,
-you create an offset in its transform properties, from its rest position --
-this is quite similar to :doc:`meshes relative shape keys </animation/shape_keys/index>`, in fact.
+So, armatures have a third mode dedicated to the process of posing known as *Pose Mode*.
+In rest position (as edited in *Edit Mode*), each bone has its own position/rotation/scale to neutral values
+(i.e. 0.0 for position and rotation, and 1.0 for scale). Hence, when you edit a bone in *Pose Mode*,
+you create an offset in the transform properties, from its rest position.
+This may seem quite similar if you have worked with :doc:`relative shape keys </animation/shape_keys/index>`
+or :ref:`Delta Transformsin <transform-delta>`.
 
 
 Posing Section Overview
@@ -28,7 +27,7 @@ In this section, we will see:
 - How to :doc:`select and edit bones </rigging/armatures/posing/editing>` in this mode.
 - How to :doc:`use pose library </rigging/armatures/properties/pose_library>`.
 - How to :doc:`use constraints </rigging/armatures/posing/bone_constraints/introduction>`
-  to control your bones' DoF (degrees of freedom).
+  to control your bones' :abbr:`DoF (degrees of freedom)`.
 - How to :ref:`use inverse kinematics features <bone-constraints-inverse-kinematics>`.
 - How to :doc:`use the Spline inverse kinematics features
   </rigging/armatures/posing/bone_constraints/inverse_kinematics/spline_ik>`.
