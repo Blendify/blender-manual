@@ -15,4 +15,4 @@ The *Mars* has g = 3.69.
 
 .. note::
 
-   The gravity value per physics system can be scale down in the *Field Weights tab*.
+   The gravity value per physics system can be scaled down in the *Field Weights* tab.
