@@ -29,8 +29,8 @@ will have a Armature Modifier with the armature associated (*Object* field).
 With Empty Groups
 =================
 
-When parenting it will create empty vertex groups on the child objects (if they do not already exist)
-for and named after each deforming bone in the armature.
+When parenting it will create empty :doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>`
+on the child objects (if they do not already exist) for and named after each deforming bone in the armature.
 The newly created vertex groups will be empty this means they will not have any weights assigned.
 Vertex groups will only be created for bones which are setup as deforming 
 (:menuselection:`Properties Editor --> Bone --> Deform Panel`).
