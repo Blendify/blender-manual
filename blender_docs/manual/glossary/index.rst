@@ -19,7 +19,7 @@ This page lists definitions for terms used in Blender and this manual.
       Area of the screen visible on most devices. Place content inside it to ensure it does not get cut off.
 
    Actuator
-      A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or make a sound.
+      A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object or make a sound.
 
    Aliasing
       Rendering artifacts in the form of jagged lines.
@@ -51,7 +51,7 @@ This page lists definitions for terms used in Blender and this manual.
 
          Straight alpha can be considered to be an RGB color image with a separate alpha mask.
          In areas where this mask is fully transparent, there can still be colors in the RGB channels.
-         On conversion to premultiplied alpha this mask is *applied'*
+         On conversion to premultiplied alpha, this mask is *applied'*
          and the colors in such areas become black and are lost.
 
          Premultiplied alpha, on the other hand, can represent renders
@@ -125,7 +125,7 @@ This page lists definitions for terms used in Blender and this manual.
    Child
       An :term:`Object` that is affected by its :term:`Parent`.
 
-   Chromacities
+   Chromaticities
       The coordinates of the :term:`primaries` on the CIE 1931 xy chromaticity diagram.
 
    Chroma
@@ -155,6 +155,10 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also `Blend Modes <https://docs.gimp.org/en/gimp-concepts-layer-modes.html>`__ on GIMP docs.
 
+   Color Gamut
+      A gamut traditionally refers to the volume of color a particular color model/space can cover.
+      In many instances, it is often illustrated via a 2D model using CIE Yxy coordinates.
+
    Color Space
       A coordinate system in which a vector represent a color value.
       By doing so, the color space defines three things:
@@ -167,12 +171,12 @@ This page lists definitions for terms used in Blender and this manual.
          A color space that uses the Rec .709 :term:`primaries` and white point but,
          with a slightly different transfer function.
       HSV
-         Three values, often considered as more intuitive (human perception) than the RGB system.
+         Three values often considered as more intuitive (human perception) than the RGB system.
 
          Hue
             The Hue of the color.
          Saturation
-            Also known has colorfullness, saturation is the quantity of hue in the color
+            Also known has colorfulness, saturation is the quantity of hue in the color
             (from desaturated -- a shade of gray -- to saturated -- brighter colors).
          Value
             The brightness of the color (dark to light).
@@ -180,7 +184,7 @@ This page lists definitions for terms used in Blender and this manual.
          Hue, Saturation
             See HSV.
          Luminance
-            TODO.
+            See :term:`Luminance`.
       YUV
          Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
       YCbCr
@@ -240,9 +244,14 @@ This page lists definitions for terms used in Blender and this manual.
       A Directional Light illuminates all objects in the scene, no matter where they are.
 
    Displacement Mapping
-      Method for distorting vertices based on an image or texture.
+      A method for distorting vertices based on an image or texture.
       Similar to :term:`Bump Mapping`, but instead operates on the mesh's actual geometry.
       This relies on the mesh having enough geometry to represent details in the image.
+
+   Display Referenced
+      Refers to an image whose :term:`Luminance` channel is limited to a certain range of values (usually 0-1).
+      The reason it is called display referenced is because a display cannot display an infinite range of values.
+      So, the term :term:`Scene Referenced` must go through a transfer function to be converted from one to the other.
 
    Double Buffer
       Technique for drawing and displaying content on the screen.
@@ -270,19 +279,17 @@ This page lists definitions for terms used in Blender and this manual.
 
    Euler
    Euler Rotation
-      Rotation method where rotations applied on each X, Y, Z axis component.
+      Rotation method where rotations applied on each X, Y, Z-axis component.
 
    Face
       Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.
 
    Face Loop
-      Chain of consecutive :term:`quads <quad>`.
-      A face loop stops at a :term:`triangle` or :term:`N-gon` (which do not belong to the loop), or at a boundary.
-      Otherwise, it is cyclic.
+      Chain of consecutive :term:`quads <quad>`. A face loop stops at a :term:`triangle` or :term:`N-gon`
+      (which do not belong to the loop), or at a boundary. Otherwise, it is cyclic.
 
    Face Normal
-      The normalized vector perpendicular to the plane that a :term:`face` lies in.
-      Each face has its own normal.
+      The normalized vector perpendicular to the plane that a :term:`face` lies in. Each face has its own normal.
 
    F-Curve
       A curve that holds the animation values of a specific property.
@@ -348,8 +355,8 @@ This page lists definitions for terms used in Blender and this manual.
 
    HDRI
    High Dynamic Range Image
-      A set of techniques that allow a far greater dynamic range of exposures than normal digital imaging
-      techniques. The intention is to accurately represent the wide range of intensity levels found in real scenes,
+      A set of techniques that allow a far greater dynamic range of exposures than normal digital imaging techniques.
+      The intention is to accurately represent the wide range of intensity levels found in real scenes,
       ranging from direct sunlight to the deepest shadows.
 
       See also `HDRI <https://en.wikipedia.org/wiki/HDRI>`__ on Wikipedia.
@@ -362,7 +369,7 @@ This page lists definitions for terms used in Blender and this manual.
       The angle by which the ray is bent can be determined by the IOR of the materials of both volumes.
 
    Interpolation
-      Method of calculating new data between points of known value, like :term:`keyframes <keyframe>`.
+      The process of calculating new data between points of known value, like :term:`keyframes <keyframe>`.
 
    Inverse Kinematics
       The process of determining the movement of interconnected segments of a body or model.
@@ -403,6 +410,10 @@ This page lists definitions for terms used in Blender and this manual.
       A graphical representation of a functional unit in Blender's game logic.
       A Logic brick can be a :term:`Sensor`, :term:`Controller` or :term:`Actuator`.
 
+   Luminance
+      The intensity of light either in an image/model channel,
+      or emitted from a surface per square unit in a given direction.
+
    Manifold
       Manifold meshes, also called *water tight* meshes,
       define a *closed non-self-intersecting volume* (see also :term:`non-manifold`).
@@ -417,9 +428,9 @@ This page lists definitions for terms used in Blender and this manual.
 
    Matte
    Mask
-      A grayscale image used to include or exclude parts of an image. A matte is
-      applied as an :term:`Alpha Channel`, or it is used as a mix factor when
-      applying :term:`Color Blend Modes`.
+      A grayscale image used to include or exclude parts of an image.
+      A matte is applied as an :term:`Alpha Channel`,
+      or it is used as a mix factor when applying :term:`Color Blend Modes`.
 
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
@@ -433,10 +444,10 @@ This page lists definitions for terms used in Blender and this manual.
       'MIP' is an acronym of the Latin phrase 'multum in parvo', meaning 'much in little'.
       Mipmaps are progressively lower resolution representations of an image,
       generally reduced by half squared interpolations using antialiasing.
-      Mipmapping is the procces used to calculate lower resolutions of the
+      Mipmapping is the process used to calculate lower resolutions of the
       same image, reducing memory usage to help speed visualization, but increasing
-      memory usage for calculations and allocation. Mipmapping is also a procces
-      used to create small antialised samples of an image used for texturing.
+      memory usage for calculations and allocation. Mipmapping is also a process
+      used to create small antialiased samples of an image used for texturing.
       The mipmapping calculations are made by CPUs, but modern graphic processors
       can be selected for this task and are way faster.
 
@@ -534,11 +545,11 @@ This page lists definitions for terms used in Blender and this manual.
       Creating a :term:`Parent`-:term:`Child` relationship between two :term:`objects <Object>`.
 
    Particle system
-      Technique that simulate certain kinds of fuzzy phenomena,
+      Technique that simulates certain kinds of fuzzy phenomena,
       which are otherwise very hard to reproduce with conventional rendering techniques.
       Common examples include fire, explosions, smoke, sparks, falling leaves, clouds, fog, snow, dust,
-      meteor tails, stars and galaxies, or abstract visual effects like glowing trails, magic spells.
-      Also used for things like: fur, grass or hair.
+      meteor tails, stars, and galaxies, or abstract visual effects like glowing trails, magic spells.
+      Also used for things like fur, grass or hair.
 
    Phong
       Local illumination model that can produce a certain degree of realism in three-dimensional
@@ -610,7 +621,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Quaternion
    Quaternion Rotation
-      Rotation method where rotations are defined by four values (X, Y, Z and W).
+      Rotation method where rotations are defined by four values (X, Y, Z, and W).
       X, Y, and Z also define an :term:`axis`, and W an angle,
       but it is quite different from :term:`Axis Angle`.
 
@@ -657,6 +668,11 @@ This page lists definitions for terms used in Blender and this manual.
       Rendering technique. Much faster than :term:`raytracing`,
       but allows fewer effects, such as reflections, refractions, motion blur and focal blur.
 
+   Scene Referenced
+      An image whose :term:`Luminance` channel is not limited.
+      
+      See also :term:`Display Referenced`. 
+
    Sensor
       A :term:`logic brick` that acts like a sense of a lifeform. It reacts to touch, vision, collision etc.
 
@@ -665,8 +681,7 @@ This page lists definitions for terms used in Blender and this manual.
       based on its angle to lights and its distance from lights to create a photorealistic effect.
 
    Smoothing
-      Defines how :term:`faces <face>` are shaded.
-      Face can be either solid (faces are rendered flat)
+      Defines how :term:`faces <face>` are shaded. Face can be either solid (faces are rendered flat)
       or smooth (faces are smoothed by interpolating the normal on every point of the face).
 
    Specular Light
@@ -725,7 +740,7 @@ This page lists definitions for terms used in Blender and this manual.
       See :term:`vertex`, :term:`edge`, and :term:`face`.
 
    Transforms
-      The combined idea of location, rotation and scale.
+      The combined idea of location, rotation, and scale.
 
    Triangle
       :term:`Face` with exactly three :term:`vertices <vertex>`.
@@ -752,7 +767,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Walk Cycle
       In animation, a walk cycle is a character that has just the walking function animated.
-      Later on in the animation process the character is placed in an environment
+      Later on in the animation process, the character is placed in an environment
       and the rest of the functions are animated.
 
    Weight Painting
