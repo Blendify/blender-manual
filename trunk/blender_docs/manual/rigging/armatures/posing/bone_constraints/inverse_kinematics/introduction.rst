@@ -20,6 +20,12 @@ This effort is effectively avoided by use of IK.
 Automatic IK
 ============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Panel:    :menuselection:`Tool Shelf --> Options --> Pose Options`
+
 Automatic IK is a tool for quick posing, it can be enabled in the tool shelf in the 3D View,
 when in pose mode. When the Auto IK option is enabled, translating a bone will activate
 inverse kinematics and rotate the parent bone, and the parent’s parent, and so on, to
@@ -55,11 +61,17 @@ Please refer to these pages for detail about the settings for the constraints:
 Armature IK Panel
 =================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Panel:    :menuselection:`Properties editor --> Armature --> Inverse Kinematics`
+
 This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
 
 .. figure:: /images/rigging_armatures_properties_inverse-kinematics-panel.png
 
-   :menuselection:`Properties --> Armature --> Inverse Kinematics Panel`
+   The armature IK panel.
 
 
 Most the time people will use the *Standard* IK solver.
@@ -74,11 +86,17 @@ Constraints" IK solver here.
 Bone IK Panel
 =============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Panel:    :menuselection:`Properties editor --> Bone --> Inverse Kinematics`
+
 This panel is used to control how the *Pose Bones* work in the IK chain.
 
 .. figure:: /images/rigging_armatures_bones_properties_inverse-kinematics-panel.png
 
-   :menuselection:`Properties --> Bone --> Inverse Kinematics Panel`
+   The bone IK panel.
 
 
 Lock
