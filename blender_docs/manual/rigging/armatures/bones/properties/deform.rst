@@ -37,10 +37,8 @@ each bone having two different areas of influence,
 shown in the *Envelope* visualization:
 
 - The inside area, materialized by the "solid" part of the bone, and controlled by both root and tip radius.
-  Inside this zone, the geometry if fully affected by the bone.
 - The outside area, materialized by the lighter part around the bone,
-  and controlled by the *Distance* setting. Inside this zone,
-  the geometry is less and less affected by the bone as it goes away by following a quadratic decay.
+  and controlled by the *Distance* setting.
 
 .. seealso::
 
@@ -48,6 +46,7 @@ shown in the *Envelope* visualization:
 
 Distance
    The Distance defines a volume which is the range within the bone has an influence on vertices of the deformed object.
+   The geometry is less and less affected by the bone as it goes away by following a quadratic decay.
 
    .. figure:: /images/rigging_armatures_parenting_envelope-distance.png
 
@@ -63,6 +62,7 @@ Weight
    Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
 Radius
    Set the radius for the head and the tail of envelope bones.
+   Inside this volume, the geometry if fully affected by the bone.
 
    .. figure:: /images/rigging_armatures_parenting_envelope-radius.png
 

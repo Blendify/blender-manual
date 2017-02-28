@@ -35,35 +35,36 @@ on manually created (user-defined) Vertex Groups.
    Any other Object type has no vertices, hence it cannot have Vertex Groups.
 
 
-Typical Usage Scenarios for Vertex groups
-=========================================
+Usage
+=====
 
-Skinning an armature
-   If you want to animate your mesh and make it move, you will
-   define an armature which consists of a bunch of bones.
-   Vertex Groups are used to associate parts of the Mesh
-   to Bones of the Armature, where you can specify an influence
-   *weight* in the range (0.0 - 1.0) for each vertex
-   in the Vertex Group.
+Typical use cases for vertex groups.
 
-Working with Modifiers
-   Many modifiers contain the ability to control the modifier
-   influence on each vertex separately.
-   This is also done via Vertex Groups and the weight values
-   associated to the vertices.
 
-Quickly select/edit/hide parts of a mesh
-   By defining mesh regions with Vertex Groups you can easily
-   select entire parts of your mesh with three clicks and work
-   on them in isolation without having to create separate objects.
-   With the hide function you can even remove a vertex
-   group from the view (for later unhide).
+Skinning an Armature
+--------------------
 
-Cull out and duplicate parts of a mesh
-   Consider modeling a Lego block. The most simple brick consists
-   of a base and a stud (the bump to connect the bricks together).
-   To create a four-stud block, you would want to be able to
-   easily select the stud vertices, and, still in
-   *Edit Mode*, duplicate them and position them
-   where you want them.
+If you want to animate your mesh and make it move, you will
+define an armature which consists of a bunch of bones.
+Vertex Groups are used to associate parts of the Mesh
+to Bones of the Armature, where you can specify an influence
+*weight* in the range (0.0 - 1.0) for each vertex
+in the Vertex Group.
 
+
+Modifiers
+---------
+Many modifiers contain the ability to control the modifier
+influence on each vertex separately.
+This is also done via Vertex Groups and the weight values
+associated to the vertices.
+
+
+Mesh Selection
+--------------
+
+By defining mesh regions with Vertex Groups you can easily
+select entire parts of your mesh with three clicks and work
+on them in isolation without having to create separate objects.
+With the hide function you can even remove a vertex
+group from the view (for later unhide).
