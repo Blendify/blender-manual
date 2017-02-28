@@ -61,7 +61,7 @@ Besides parenting the selected objects,
 it adds a Modifier or Constraint to the child objects, with the parent as target object
 or activates a parent property i.e. *Follow Path*.
 
-- :doc:`Armature Deform </modeling/modifiers/deform/armature>`
+- :doc:`Armature Deform </rigging/armatures/skinning/parenting>`
 - :doc:`Curve Deform </modeling/modifiers/deform/curve>`
 - :ref:`Follow Path <curve-path-animation>`
 - :doc:`Path Constraint </rigging/constraints/relationship/follow_path>`

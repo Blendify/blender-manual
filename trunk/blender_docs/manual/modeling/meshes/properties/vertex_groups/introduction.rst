@@ -16,7 +16,7 @@ In addition you can assign different *weight values*
 Hence Vertex Groups are sometimes also named *Weight Groups*.
 
 Vertex Groups are most commonly used for Armatures
-(See also :doc:`Skinning Mesh Objects </rigging/armatures/skinning/obdata>`).
+(See also :doc:`Skinning Mesh Objects </rigging/armatures/skinning/introduction>`).
 But they are also used in many other areas of Blender, like for example:
 
 - Shape keys
@@ -50,6 +50,16 @@ Vertex Groups are used to associate parts of the Mesh
 to Bones of the Armature, where you can specify an influence
 *weight* in the range (0.0 - 1.0) for each vertex
 in the Vertex Group.
+
+Obviously, the same vertex can belong to several groups, and hence be affected by several bones,
+with a fine tuning of each bone's influence using these vertex weights.
+Quite useful when you want to have a smooth joint. For example, when you skin an elbow,
+the upperarm vertex group contains the vertices of this part at full weight (*1.0*),
+and when reaching the elbow area, these weights decrease progressively to *0.0*
+when reaching the forearm zone and vice versa for the forearm group weights...
+Of course, this is a very raw example skinning a realistic joint is a big job,
+as you have to carefully find good weights for each vertex,
+to have the most realistic behavior, when bending -- and this is not an easy thing!
 
 
 Modifiers

@@ -9,6 +9,7 @@ around and anything that they are attached to or associated with will move and d
 similar way.
 
 An "armature" is a type of object used for :doc:`rigging </rigging/index>`.
+A rig are the controls and strings that move a marionette (puppet).
 Armature object borrows many ideas from real life skeletons.
 
 
