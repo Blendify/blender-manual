@@ -66,13 +66,13 @@ Non Manifold :kbd:`Ctrl-Shift-Alt-M`
       Selects vertices that belong to *wire* and *multiple face* edges, isolated vertices,
       and vertices that belong to non adjoining faces.
 Interior Faces
-   Select faces where all edges have more than two faces.
+   Selects faces where all edges have more than two faces.
 Select Faces by Sides
    Selects all faces that have a specified number of edges.
 Loose Geometry
-   Select all vertices or edges that do not form part of a face.
+   Selects all vertices or edges that do not form part of a face.
 Ungrouped Vertices
-   ToDo.
+   Selects all vertices which are not part of a :doc:`vertex group <modeling/meshes/properties/vertex_groups/index>`.
 
 
 Select Linked
@@ -172,9 +172,12 @@ More/Less
 =========
 
 More :kbd:`Ctrl-NumpadPlus`
-   ToDo.
+   Expands the selection to the adjacent elements of the selection type.
 Less :kbd:`Ctrl-NumpadMinus`
-   ToDo.
+   Contracts the selection from the adjacent elements of the selection type.
+
+.. todo how to handle face step
+
 Next Active :kbd:`Ctrl-Shift-NumpadPlus`
    This uses selection history to select the next vertex/edge/face based on surrounding topology.
 Previous :kbd:`Ctrl-Shift-NumpadMinus`
@@ -204,8 +207,7 @@ Holding :kbd:`Alt-Shift` while clicking adds to the current selection.
 
 Edge loops can also be selected based on an existing edge selection,
 using either :menuselection:`Select --> Edge Loop`,
-or the *Edge Loop Select* option of the *Edge Specials* menu
-:kbd:`Ctrl-E`.
+or the *Edge Loop Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
 .. note:: *Vertex* mode
 
@@ -337,7 +339,7 @@ Topological Distance
    Which only takes into account the number of edges of the path and
    not the length of the edges to calculate the distances,
 Fill Region :kbd:`Ctrl-Shift-RMB`
-   ToDo.
+   Selects all elements in the shortest paths from the active selection to the clicked area.
 Checker Deselect
    See `Checker Deselect`_.
 
