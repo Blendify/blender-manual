@@ -290,7 +290,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('contents', 'blender_manual.tex', 'Blender User Manual',
+  ('index', 'blender_manual.tex', 'Blender User Manual',
    'Blender Community', 'manual'),
 ]
 
@@ -320,7 +320,7 @@ latex_logo = "../resources/theme/sidebar_logo.png"
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('contents', 'manual_docs', 'Blender Manual Documentation Documentation',
+    ('index', 'manual_docs', 'Blender Manual Documentation Documentation',
      [''], 1)
 ]
 
@@ -334,7 +334,7 @@ man_show_urls = False
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('contents', 'Blender Reference Manual', 'Blender Manual Documentation',
+  ('index', 'Blender Reference Manual', 'Blender Manual Documentation',
    'Blender Documentation Team', 'Blender Reference Manual'),
 ]
 
