@@ -5,7 +5,7 @@ Introduction
 
 Blender's physics system allows you to simulate a number of different real world physical phenomena.
 
-Currently, these physics tools are supported:
+Currently, these physics systems are supported:
 
 - :doc:`Particle Systems </physics/particles/index>` can be used to simulate many things such as hair, grass, smoke, and flocks.
 - :doc:`Hair </physics/particles/hair/index>` is a subset of the particle system, and can be used for strand-like objects, such as hair, fur, grass, quills, etc.
