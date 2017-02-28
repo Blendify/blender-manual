@@ -650,7 +650,7 @@ This page lists definitions for terms used in Blender and this manual.
       Has no effect on the local Y axis as local Y is determined by the location of the :term:`Head` and :term:`Tail`.
 
    Roughness Map
-      A gray scale texture that defines how rough or smooth the surface of a material is.
+      A grayscale texture that defines how rough or smooth the surface of a material is.
       This may also be known as a :term:`Glossy Map`.
 
    Scanline
