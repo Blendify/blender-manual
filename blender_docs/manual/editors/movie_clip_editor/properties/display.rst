@@ -10,7 +10,7 @@ Channels
    It is needed because the tracking algorithm works with gray-scale images and it is not
    always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
 Grayscale Preview (B/W)
-   Shows the whole frame gray scale.
+   Shows the whole frame grayscale.
 Mute (eye icon) :kbd:`M`
    Changes displaying on movie frame itself with black square,
    It helps to find tracks which are tracked inaccurately or which were not tracked at all.

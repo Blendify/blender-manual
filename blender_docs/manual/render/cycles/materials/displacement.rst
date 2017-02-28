@@ -39,7 +39,7 @@ To contrast that, when values closer to black, they appear to be pushing into th
 
 Bump maps are really great for creating tiny details on a model, for example, pores or wrinkles on skin.
 Bump maps can be created in a 2D drawing,
-or photo editing application just remember to save the image as a greyscale to save memory while rendering.
+or photo editing application just remember to save the image as a grayscale to save memory while rendering.
 
 .. important::
 
