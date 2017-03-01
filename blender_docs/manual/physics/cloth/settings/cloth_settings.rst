@@ -95,7 +95,7 @@ The typical workflow for pinning:
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
 
    Finally, use the Timeline editor Play button,
-   or press {{Shortcut|alt|A}} in the 3D View to run the simulation.
+   or press :kbd:`Alt-A` in the 3D View to run the simulation.
    Your cloth will fall and interact with Deflection objects as it would in the real world.
 
 .. This is jumping ahead and not clear and not true at this point.

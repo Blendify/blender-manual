@@ -120,7 +120,8 @@ Grid Fill
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Grid Fill`
 
 
-*Grid Fill* uses a pair of connected edge-loops to fill in a grid that follows the surrounding geometry.
+*Grid Fill* uses a pair of connected edge-loops or a single, closed edge-loop to fill in a grid
+that follows the surrounding geometry.
 
 Span
    ToDo

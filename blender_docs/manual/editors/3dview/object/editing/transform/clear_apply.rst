@@ -128,21 +128,32 @@ Animated Transform to Deltas
 Visual Transform
 ----------------
 
-Apply Visual Transform :kbd:`Ctrl-A`
-   Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale.
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Apply --> Visual Transform`
+   | Hotkey:   :kbd:`Ctrl-A`
+
+Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale.
 
 
 Make Duplicate Real
 -------------------
 
-Make Duplicate Real :kbd:`Shift-Ctrl-A`
-   *Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.
+.. admonition:: Reference
+   :class: refbox
 
-   Literal
-      Parents all the generated objects to the former duplicator when the option is checked;
-      otherwise, they will be global objects.
-   Keep Hierarchy
-      Is useful when the duplicated objects have a hierarchical relationship between them.
-      In that case, if we check this option, the same relationship will be kept in the newly generated objects,
-      even if {{Literal|Parent}} is also checked, in which case, only the duplicated objects on top of the hierarchy
-      will be parented to the former duplicator.
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Apply --> Make Duplicate Real`
+   | Hotkey:   :kbd:`Shift-Ctrl-A`
+
+*Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.
+
+Parent
+   Parents all the generated objects to the former duplicator when the option is checked;
+   otherwise, they will be global objects.
+Keep Hierarchy
+   If this option is checked, the internal hierarchies (i.e. parent relationships) will be preserved in the newly generated objects,
+   even if *Parent* is also checked, in which case, only the duplicated objects on top of the hierarchy
+   will be parented to the former duplicator.

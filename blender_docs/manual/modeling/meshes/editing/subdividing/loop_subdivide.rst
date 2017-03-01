@@ -67,10 +67,10 @@ The options are available while the tool is in use, and later in the Operator pa
 Loop Cut
 ^^^^^^^^
 
-Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
+Number of Cuts :kbd:`Wheel` or :kbd:`PageUp` / :kbd:`PageDown`
    After activating the tool, but before confirming initial loop location,
    you can increase and decrease the number of cuts to create,
-   by entering a number with the keyboard, scrolling :kbd:`Wheel` or using :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
+   by entering a number with the keyboard, scrolling :kbd:`Wheel` or using :kbd:`PageUp` and :kbd:`PageDown`.
 
    .. note::
 

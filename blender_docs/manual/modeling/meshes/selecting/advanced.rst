@@ -72,7 +72,7 @@ Select Faces by Sides
 Loose Geometry
    Selects all vertices or edges that do not form part of a face.
 Ungrouped Vertices
-   Selects all vertices which are not part of a :doc:`vertex group <modeling/meshes/properties/vertex_groups/index>`.
+   Selects all vertices which are not part of a :doc:`vertex group </modeling/meshes/properties/vertex_groups/index>`.
 
 
 Select Linked
@@ -180,7 +180,7 @@ Less :kbd:`Ctrl-NumpadMinus`
 
 Next Active :kbd:`Ctrl-Shift-NumpadPlus`
    This uses selection history to select the next vertex/edge/face based on surrounding topology.
-Previous :kbd:`Ctrl-Shift-NumpadMinus`
+Previous Active :kbd:`Ctrl-Shift-NumpadMinus`
    Select previous just removes the last selected element.
 
 

@@ -14,6 +14,12 @@ Editing
 
 An Empty can only be edited in *Object Mode*, which includes its transformation and parenting properties.
 
+Apply Scale :kbd:`Ctrl-A`
+   While Empties don't exactly have any object data attached to them which can be used for supporting
+   "true" apply scale (i.e. with non-uniform scaling), they do have a draw size value which controls how
+   large the empties are drawn (before scaling). This works by taking the scale factor on the most-scaled axis,
+   and combines this with the existing empty draw size to maintain the correct dimensions on that axis.
+
 
 Properties
 ==========
