@@ -81,7 +81,7 @@ Baking processing time
 .. ===="St"/"Ad"/"Bn"/"Par" Buttons====
    Till now, we were in the |Standard buttons.
    Clicking another one of these buttons will show other "panels" (groups of controls:
-   Advanced, {{Literal|Bn}} for boundary, and Particle)
+   Advanced, ``Bn`` for boundary, and Particle)
    of more advanced options, that often are fine set at the defaults.
 
    Standard

@@ -98,7 +98,7 @@ Bevel Object
 
    .. figure:: /images/modeling_curves_geometry-bevel.jpg
 
-      A Curve with the Bevel Object as a Bézier Curve (left) and as a Bézier Circle (right).
+      A curve with the Bevel Object as a Bézier curve (left) and as a Bézier circle (right).
 
 
 Bevel Factor
@@ -116,15 +116,17 @@ Mapping
    Spline
       The length of a spline.
 Start, End
-   These options determine where to start the Bevel operation on the Curve being beveled.
-   Increasing the *Start Bevel Factor* to 0.5 will start beveling the Curve 50% of the distance from the start
-   of the Curve (in effect shortening the Curve).
-   Decreasing the *End Bevel Factor* by 0.25 will start beveling the Curve 25% of the distance from the end
-   of the Curve (again, shortening the Curve).
+   These options determine where to start/end the Bevel operation on the curve.
+   This allows to make a bevelled curve which is not fully covered with a bevel.
+
+   Increasing the *Start Bevel Factor* to 0.5 will start beveling the curve 50% of the distance from the start
+   of the curve (in effect shortening the curve).
+   Decreasing the *End Bevel Factor* by 0.25 will start beveling the curve 25% of the distance from the end
+   of the curve (again, shortening the curve).
 
    .. figure:: /images/modeling_curves_geometry-bevel-start-end-factor.jpg
 
-      A Curve with no Bevel factor applied (left),
+      A curve with no Bevel factor applied (left),
       with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
 
 
@@ -132,7 +134,7 @@ Caps
 ----
 
 Fill Caps
-   Seals the ends of a beveled Curve.
+   Seals the ends of a beveled curve.
 
 
 Taper
