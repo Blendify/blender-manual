@@ -66,6 +66,13 @@ To apply a transform select the *Apply* sub-menu from the *Object menu* or
 use the shortcut :kbd:`Ctrl-A` and select the appropriate transform to apply.
 The Operator panel lets you choose the combination of transformations to apply.
 
+.. warning:: Armature Objects
+
+   While applying transformation to armatures is supported,
+   this does **not** apply to their pose position, animation curves or constraints.
+
+   This tool should be used before rigging and animation.
+
 
 Options
 ^^^^^^^
