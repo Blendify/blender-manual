@@ -18,6 +18,11 @@ Based on the average contribution of these tracks, a compensating movement is ca
 When the footage includes panning and traveling movements, the stabilizer tends to push the image out of the
 visible area. This can be compensated by animating the parameters for the intentional, "expected" camera movement.
 
+.. note::
+
+   To *activate* the 2D stabilizer, you need to set the toggle in the panel,
+   and additionally you need to enable *Display Stabilization* in the *Display* panel.
+
 
 Options
 =======
@@ -27,11 +32,6 @@ Options
    :width: 130px
 
    2D Stabilization Panel.
-
-.. note::
-
-   To *activate* the 2D stabilizer, you need to set the toggle in the panel,
-   and additionally you need to enable *Display Stabilization* in the *Display* panel.
 
 
 Anchor Frame
