@@ -18,7 +18,7 @@ h1 {
 h2 {
 	margin-left: 1em;
 	display: inline;
-	line-height: 58px;
+	line-height: 56px;
 	padding-top: 28px;
 	vertical-align: top;
 }
@@ -41,9 +41,8 @@ p {
 	opacity: 0.9;
 }
 #searchwrap{
-	display: none;
-	max-width: 500px;
-	margin: 0 auto;
+	display: block;
+	margin: 0 10px;
 }
 input[type="text"] {
 	width: 80%;
@@ -64,19 +63,19 @@ input[type="text"] {
 	</div>
 	<p>It seems the page you are trying to find has been either moved or deleted. <br>
 		You can try one of the following things:</p>
-	<ul>
-	<li><a href="https://docs.blender.org/manual/en/dev/search.html">Search for the page you are looking for.</a></li>
-	<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page.</a></li>
-	</ul>
 	 <div id="searchwrap" role="search">
-		<form id="search" accept-charset="UTF-8" action="manual/en/dev/search.html" method="get">
-		  <label for="search">Testing porpose only:</label>
-		  <input name="q" type="text" placeholder="" />
+		<form id="search" accept-charset="UTF-8" action="/manual/en/dev/search.html" method="get">
+		  <label for="search">Search for the page you are looking for:</label>
+		  <input name="q" type="text" placeholder="Search Docs" />
 		  <input type="hidden" name="check_keywords" value="yes" />
 		  <input type="hidden" name="area" value="default" />
 		  <input class="btn" value="Search" type="submit">
 		</form>
 	 </div>
+	<ul>
+	<li><a href="https://docs.blender.org/manual/en/dev/search.html">Go to the Search page.</a></li>
+	<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page.</a></li>
+	</ul>
  </div>
  
  <ext type="image/svg+xml" style="display:none">
