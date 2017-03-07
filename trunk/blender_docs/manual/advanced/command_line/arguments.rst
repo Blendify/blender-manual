@@ -92,7 +92,7 @@ Window Options
 ==============
 
 ``-w``, ``--window-border``
-   Force opening without borders.
+   Force opening with borders.
 ``-W``, ``--window-borderless``
    Force opening without borders.
 ``-p``, ``--window-geometry`` ``<sx>`` ``<sy>`` ``<w>`` ``<h>``
