@@ -12,4 +12,4 @@ six==1.10.0
 snowballstemmer==1.2.1
 Sphinx==1.5.3
 sphinx-intl==0.9.9
-sphinx_rtd_theme==0.2.2
+sphinx_rtd_theme==0.2.4
