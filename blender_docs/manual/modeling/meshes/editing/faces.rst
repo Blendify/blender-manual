@@ -232,7 +232,7 @@ Merge Threshold
 
    .. warning::
 
-      Large values can cause slow calculation,
+      A threshold approaching size of faces may cause very slow calculation,
       in general keep this value small.
 
 
