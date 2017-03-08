@@ -205,7 +205,7 @@ Source
 Separate
    Splits the geometry at the new edge.
 Merge Threshold
-   ToDo.
+   *See Intersect (Boolean)*
 
 
 Intersect (Boolean)
@@ -226,7 +226,14 @@ Boolean
 Swap
    Changes the order of the operation.
 Merge Threshold
-   ToDo.
+   Tolerance for close faces to be considered touching,
+   It may be useful to increase this when some intersections aren't detected that should be and
+   when extra geometry is being created because edges aren't detected as overlapping.
+
+   .. warning::
+
+      Large values can cause slow calculation,
+      in general keep this value small.
 
 
 Wireframe
