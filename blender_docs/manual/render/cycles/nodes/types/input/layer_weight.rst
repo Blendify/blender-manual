@@ -16,7 +16,7 @@ Inputs
 ======
 
 Blend
-   Blend between the first and second shader.
+   Bias the output towards all 0 or all 1. Useful for uneven mixing of shaders.
 Normal
    Input meant for plugging in bump or normal maps which will affect the output.
 
