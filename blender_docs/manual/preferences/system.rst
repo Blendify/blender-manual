@@ -25,7 +25,7 @@ DPI
    During typical usage, you may prefer to use zoom which is an available in many parts of Blender interface.
 Virtual Pixel Mode
    Allows you to select global scaling. While the DPI only scales the interface,
-   this will scale line width, vertex-size. This is intended for hi-dpi monitors
+   this will scale line width, vertex-size. This is intended for HiDPI monitors
    and is auto-detected on macOS.
 
    Native
