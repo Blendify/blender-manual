@@ -130,7 +130,7 @@ Images higher than 8 bits per channel will be converted into a float on loading 
 
 .. note::
 
-   Floating point is often used for :term:`HDRI`,
+   Floating point is often used for :term:`HDRI`.
 
    When an image has float colors, all imaging functions in Blender default to use that.
    This includes the Video Sequence Editor, texture mapping, background images,

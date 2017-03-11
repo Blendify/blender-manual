@@ -16,7 +16,7 @@ the animation is saved to the Action.
 Each property has a channel which it is recorded to, for example,
 Cube.location.x is recorded to Channel X Location.
 The *X location* and *Y location* properties can be shared across multiple objects,
-if both objects have *X location* and *Y location* properties beneath them.
+if all objects have *X location* and *Y location* properties beneath them.
 
 .. figure:: /images/animation_actions_keyframes.png
 
