@@ -239,7 +239,7 @@ to move them, and confirm the move with :kbd:`LMB` or :kbd:`Return`
 Or drag them with the :kbd:`RMB`.
 
 By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`,
-the markers will move in steps corresponding to one second (according to the scenes *FPS*).
+the markers will move in steps corresponding to one second (according to the scene's *FPS*).
 
 
 Show Pose Markers

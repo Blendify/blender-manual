@@ -25,7 +25,7 @@ Save As :kbd:`Shift-Ctrl-S`
 Save Copy :kbd:`Shift-Alt-S`
    :doc:`Saves </data_system/files/save>` a copy of the current file.
 User Preferences :kbd:`Ctrl-Alt-U`
-   Opens the :doc:`User Preferences Editor </preferences/introduction>` in new window.
+   Opens the :doc:`User Preferences Editor </preferences/introduction>` in a new window.
 Save User Settings :kbd:`Ctrl-U`
    Saves the current scene and preferences to :doc:`startup.blend </data_system/files/startup_file>`.
 Load Factory Settings

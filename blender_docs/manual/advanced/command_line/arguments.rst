@@ -48,8 +48,8 @@ Render Options
 
    ``//render_`` becomes ``//render_####``, writing frames as ``//render_0001.png``
 ``-E``, ``--engine`` ``<engine>``
-   Specify the render engine
-   use -E help to list available engines.
+   Specify the render engine.
+   Use -E help to list available engines.
 ``-t``, ``--threads`` ``<threads>``
    Use amount of ``<threads>`` for rendering and other operations
    [1-64], 0 for systems processor count.
