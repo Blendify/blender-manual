@@ -138,6 +138,21 @@ Visual Transform
 Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale.
 
 
+Visual Geometry as Mesh
+-----------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Menu:     :menuselection:`Object --> Apply --> Visual Geometry as Mesh`
+   | Hotkey:   :kbd:`Ctrl-A`
+
+Apply the visual state of all selected objects (modifiers, shape keys, hooks... etc) to object data.
+
+This is a way to freeze all object data into static meshes, as well as converts non-mesh types to mesh.
+
+
 Make Duplicate Real
 -------------------
 
