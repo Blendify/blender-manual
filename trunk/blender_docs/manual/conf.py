@@ -15,7 +15,6 @@
 
 import sys
 import os
-import sphinx_rtd_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -161,18 +160,24 @@ highlight_language = 'python3'
 # -- Options for HTML output ---------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-    # included in the title
-    "display_version": False,
-    }
+html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = []
+
+if html_theme == "sphinx_rtd_theme":
+    import sphinx_rtd_theme
+    html_theme_path.append(sphinx_rtd_theme.get_html_theme_path())
+    del sphinx_rtd_theme
+
+    # included in the title
+    html_theme_options["display_version"] = False
+
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
@@ -198,7 +203,8 @@ html_favicon = "../resources/theme/favicon.ico"
 html_static_path = ["../resources/theme"]
 
 def setup(app):
-    app.add_stylesheet("css/theme_overrides.css")
+    if html_theme == "sphinx_rtd_theme":
+        app.add_stylesheet("css/theme_overrides.css")
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
