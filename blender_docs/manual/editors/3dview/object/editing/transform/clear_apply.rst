@@ -154,6 +154,7 @@ Parent
    Parents all the generated objects to the former duplicator when the option is checked;
    otherwise, they will be global objects.
 Keep Hierarchy
-   If this option is checked, the internal hierarchies (i.e. parent relationships) will be preserved in the newly generated objects,
+   If this option is checked, the internal hierarchies (i.e. parent relationships)
+   will be preserved in the newly generated objects,
    even if *Parent* is also checked, in which case, only the duplicated objects on top of the hierarchy
    will be parented to the former duplicator.
