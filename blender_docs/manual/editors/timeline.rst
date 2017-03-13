@@ -1,10 +1,10 @@
 
 .. |first| unicode:: U+023EE
-.. |previous| unicode:: U+023EA
+.. |last|  unicode:: U+023ED
 .. |rewind| unicode:: U+025C0
-.. |play|  unicode:: U+025B6
-.. |next|   unicode:: U+023E9
-.. |last| unicode:: U+023ED
+.. |play|   unicode:: U+025B6
+.. |previous| unicode:: U+023EA
+.. |next|     unicode:: U+023E9
 .. |pause| unicode:: U+023F8
 
 ***************
@@ -248,7 +248,7 @@ These buttons are used to set, play, rewind, the *Time Cursor*.
 .. figure:: /images/editors_timeline_player_controls.png
    :align: right
 
-   Player Controls. 
+   Player Controls.
 
 Jump to start (|first|) :kbd:`Shift-Ctrl-Down`, :kbd:`Shift-Left`
    This sets the cursor to the start of frame range.
