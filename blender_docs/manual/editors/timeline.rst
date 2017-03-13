@@ -1,4 +1,12 @@
 
+.. |first| unicode:: U+023EE
+.. |previous| unicode:: U+023EA
+.. |rewind| unicode:: U+025C0
+.. |play|  unicode:: U+025B6
+.. |next|   unicode:: U+023E9
+.. |last| unicode:: U+023ED
+.. |pause| unicode:: U+023F8
+
 ***************
 Timeline Editor
 ***************
@@ -212,11 +220,11 @@ The Timeline header controls.
 Range Control
 ^^^^^^^^^^^^^
 
-Use Preview Range
+Use Preview Range (clock icon)
    This is an alternative range used to preview animations.
    This works for the UI playback, this will not work for rendering an animation.
    See :ref:`graph-preview-range`.
-Lock Time Cursor to Playback Range
+Lock Time Cursor to Playback Range (padlock icon)
    This limits the *Time Cursor* to the *Playback Range*.
 
 
@@ -240,23 +248,23 @@ These buttons are used to set, play, rewind, the *Time Cursor*.
 .. figure:: /images/editors_timeline_player_controls.png
    :align: right
 
-   Player Controls.
+   Player Controls. 
 
-Jump to start :kbd:`Shift-Ctrl-Down`, :kbd:`Shift-Left`
+Jump to start (|first|) :kbd:`Shift-Ctrl-Down`, :kbd:`Shift-Left`
    This sets the cursor to the start of frame range.
-Jump to previous keyframe :kbd:`Down`
+Jump to previous keyframe (|previous|) :kbd:`Down`
    This sets the cursor to the previous keyframe.
-Rewind :kbd:`Shift-Alt-A`
+Rewind (|rewind|) :kbd:`Shift-Alt-A`
    This plays the animation sequence in reverse.
    When playing the play buttons switch to a pause button.
-Play :kbd:`Alt-A`
+Play (|play|) :kbd:`Alt-A`
    This plays the animation sequence.
    When playing the play buttons switch to a pause button.
-Jump to next keyframe :kbd:`Up`
+Jump to next keyframe (|next|) :kbd:`Up`
    This sets the cursor to the next keyframe.
-Jump to end :kbd:`Shift-Ctrl-Up`, :kbd:`Shift-Right`
+Jump to end (|last|) :kbd:`Shift-Ctrl-Up`, :kbd:`Shift-Right`
    This sets the cursor to the end of frame range.
-Pause :kbd:`Alt-A`
+Pause (|pause|) :kbd:`Alt-A`
    This stops the animation.
 
 
@@ -309,10 +317,9 @@ Auto Keyframe
    Other use cases are :ref:`Fly/Walk Mode <3dview-walk-fly>` to record the walk/flight path
    and :ref:`Lock Camera to View <3dview-lock-camera-to-view>` to record the navigation in camera view.
 
-   Auto Keying Set
+   Auto Keying Set (red record icon)
       When enabled *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
-
-   Layered
+   Layered (two keys icon)
       Adds a new NLA Track and strip for every loop/pass made over the animation to allow non-distructive tweaking.
 
    .. note::
@@ -341,7 +348,7 @@ Active Keying Set
    Custom keying sets can be defined in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 
-   Insert Keyframes
+   Insert Keyframes (key icon)
       Insert keyframes on the current frame for the properties in the active *Keying Set*.
-   Delete Keyframes
+   Delete Keyframes (striked through key icon)
       Delete keyframes on the current frame for the properties in the active *Keying Set*.
