@@ -9,11 +9,11 @@ Blender operations, status, and internal errors.
 
 Use Cases:
 
+- For automation and batch processing which require launching Blender
+  with different :doc:`arguments </advanced/command_line/arguments>`.
+- For Python development, to see the output of the ``print()`` command.
 - If Blender exits unexpectedly, the messages may indicate the cause or error.
-- To see the output of Python scripts ``print()`` command.
-- To launch Blender with different :doc:`Arguments </advanced/command_line/arguments>`.
 - When troubleshooting, to see the output of ``--debug`` messages.
-
 
 Platform Dependant Instructions
 ===============================
