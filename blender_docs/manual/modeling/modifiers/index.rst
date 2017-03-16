@@ -70,6 +70,7 @@ Deform
    deform/shrinkwrap.rst
    deform/simple_deform.rst
    deform/smooth.rst
+   deform/surface_deform.rst
    deform/warp.rst
    deform/wave.rst
 
