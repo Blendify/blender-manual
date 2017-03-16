@@ -104,7 +104,8 @@ View
    RRT
       Uses the ACES Reference Rendering Transform, to simulate a film-like look.
    Film
-      This option is another film-like look.
+      Uses a technique known as film emulation to give renders a look similar to what might be expected from a film based camera.
+      This is usually down by crushing the blacks and decreasing the contrast pf the image.
    Raw
       Intended for inspecting the image but not for final export.
       Raw gives the image without any color space conversion.
