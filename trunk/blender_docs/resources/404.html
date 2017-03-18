@@ -103,10 +103,9 @@ pre {
 		</form>
 	 </div>
 	<ul id="linklist">
-	<li><a href="https://docs.blender.org/manual/en/dev/search.html">Go to the Search page (en dev).</a></li>
-	<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page (en dev).</a></li>
+		<li><a href="https://docs.blender.org/manual/en/dev/search.html">Go to the Search page (en dev).</a></li>
+		<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page (en dev).</a></li>
 	</ul>
-	<ul id="testlist" style="display:none"></ul>
  </div>
 
  <noscript><span style="font-style: italic">*JavaScript disabled:
@@ -184,7 +183,7 @@ function loadDoc(requestUrl, title) {
 			newA.setAttribute("href", requestUrl);
 			newA.innerHTML = title;
 			newLi.appendChild(newA);
-			document.getElementById("testlist").appendChild(newLi);
+			document.getElementById("linklist").appendChild(newLi);
 		}
 	};
 	xhttp.open("GET", requestUrl, true);
