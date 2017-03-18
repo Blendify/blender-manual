@@ -63,8 +63,8 @@ pre {
 <div class="container">
 	<h1 align="center">404</h1>
 	<div id="subtitle">
-		<a id="blender" href ="https://www.blender.org">
-			<svg height="50px"  width="172,679px"><use xlink:href="#svg8"></use></svg>
+		<a id="blender" href ="https://www.blender.org" alt="blender.org">
+			<svg height="50px"  width="172.679px"><use xlink:href="#svg8"></use></svg>
 		</a>
 		<h2>Blender Manual</h2>
 	</div>
@@ -96,18 +96,63 @@ pre {
 	 <div id="searchwrap" role="search">
 		<form id="search" accept-charset="UTF-8" action="/manual/en/dev/search.html" method="get">
 		  <label for="search">Search for the page you are looking for:</label>
-		  <input name="q" type="text" placeholder="Search Docs" />
+		  <input name="q" type="text" placeholder="Search Docs (en dev)" />
 		  <input type="hidden" name="check_keywords" value="yes" />
 		  <input type="hidden" name="area" value="default" />
 		  <input class="btn" value="Search" type="submit">
 		</form>
 	 </div>
-	<ul>
-	<li><a href="https://docs.blender.org/manual/en/dev/search.html">Go to the Search page.</a></li>
-	<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page.</a></li>
+	<ul id="linklist">
+	<li><a href="https://docs.blender.org/manual/en/dev/search.html">Go to the Search page (en dev).</a></li>
+	<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page (en dev).</a></li>
 	</ul>
  </div>
- 
+
+ <noscript><span style="font-style: italic">*JavaScript disabled:
+	This inline script would adapt links to the current language and version.</span></noscript>
+ <script>
+function init() {
+	var versions = getVersion();
+	if(versions !== null) {
+		//replaceSearch(versions);
+		replaceLinks(versions);
+	}
+}
+/*get language and version from url*/
+function getVersion() {
+	var url = window.location.href;
+	var versions = url.match(/\/manual\/([\w|\-]*\/(?:dev|\d\.\d[\w\d\.]*))\//);
+	if(versions !== null) {
+		versions = versions[1];
+		var seperator = versions.search(/\//);
+		return [versions.substr(0, seperator), versions.substr(seperator + 1, versions.length)];
+	}
+	return null;
+}
+/*replace search form url*/
+function replaceSearch(version) {
+	var searchform = document.getElementById("search");
+	searchform.setAttribute("action", "/manual/" + version[0] + "/" + version[1] + "/search.html");
+	var searchtext = document.getElementsByName("q")[0];
+	searchtext.setAttribute("placeholder", "Search Docs (" + version[0] + " " + version[1] + ")" );
+}
+function replaceLinks(version) {
+	var linklist = document.getElementById("linklist");
+	var baseurl = "https://docs.blender.org/manual/";
+	var newLi = document.createElement("li");
+	var newA = document.createElement("a");
+	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/search.html");
+	newA.innerHTML = "Test Search page (" + version[0] + " " + version[1] + ").";
+	newLi.appendChild(newA);
+	newA = document.createElement("a");
+	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/");
+	newA.innerHTML = "Test Home Page (" + version[0] + " " + version[1] + ").";
+	newLi.appendChild(newA);
+	linklist.appendChild(newLi);
+}
+window.onload=init();
+</script>
+
  <ext type="image/svg+xml" style="display:none">
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
