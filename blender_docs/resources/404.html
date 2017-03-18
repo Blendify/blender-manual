@@ -114,14 +114,14 @@ pre {
 function init() {
 	var versions = getVersion();
 	if(versions !== null) {
-		//replaceSearch(versions);
 		replaceLinks(versions);
+		replaceSearch(versions);
 	}
 }
 /*get language and version from url*/
 function getVersion() {
 	var url = window.location.href;
-	var versions = url.match(/\/manual\/([\w|\-]*\/(?:dev|\d\.\d[\w\d\.]*))\//);
+	var versions = url.match(/\/manual\/([\w|\-|\.]*\/(?:dev|\d\.\d[\w\d\.]*))\//);
 	if(versions !== null) {
 		versions = versions[1];
 		var seperator = versions.search(/\//);
@@ -138,15 +138,21 @@ function replaceSearch(version) {
 }
 function replaceLinks(version) {
 	var linklist = document.getElementById("linklist");
+	while (linklist.firstChild) {
+		linklist.removeChild(linklist.firstChild);
+	}
 	var baseurl = "https://docs.blender.org/manual/";
 	var newLi = document.createElement("li");
 	var newA = document.createElement("a");
 	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/search.html");
-	newA.innerHTML = "Test Search page (" + version[0] + " " + version[1] + ").";
+	newA.innerHTML = "Go to the Search page (" + version[0] + " " + version[1] + ").";
 	newLi.appendChild(newA);
+	linklist.appendChild(newLi);
+
+	newLi = document.createElement("li");
 	newA = document.createElement("a");
 	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/");
-	newA.innerHTML = "Test Home Page (" + version[0] + " " + version[1] + ").";
+	newA.innerHTML = "Back to the Home Page (" + version[0] + " " + version[1] + ").";
 	newLi.appendChild(newA);
 	linklist.appendChild(newLi);
 }
