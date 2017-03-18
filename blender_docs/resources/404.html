@@ -106,10 +106,12 @@ pre {
 	<li><a href="https://docs.blender.org/manual/en/dev/search.html">Go to the Search page (en dev).</a></li>
 	<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page (en dev).</a></li>
 	</ul>
+	<ul id="testlist" style="display:none"></ul>
  </div>
 
  <noscript><span style="font-style: italic">*JavaScript disabled:
-	This inline script would adapt links to the current language and version.</span></noscript>
+	The inline script would adapt links to the current language and version. 
+	It would also add links to index pages (if they exist) .</span></noscript>
  <script>
 function init() {
 	var versions = getVersion();
@@ -117,6 +119,7 @@ function init() {
 		replaceLinks(versions);
 		replaceSearch(versions);
 	}
+	indexPages();
 }
 /*get language and version from url*/
 function getVersion() {
@@ -156,6 +159,37 @@ function replaceLinks(version) {
 	newLi.appendChild(newA);
 	linklist.appendChild(newLi);
 }
+/*add links to index pages*/
+function indexPages() {
+	var url = window.location.href;
+	var url_re = /\/[\w|\-|_|\.|#]*$/;
+	var new_url = url.replace(url_re, "/index.html");
+	var base_re = /^https\:\/\/docs.blender.org\/manual\//;
+	if(base_re.test(new_url)) {
+		if(url !== new_url) { loadDoc(new_url, "Go to the Index page.");}
+	}
+	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.|#]*$/;
+	new_url = url.replace(url_re, "/index.html");
+	if(base_re.test(new_url)) {
+		loadDoc(new_url, "Go to the Parent Index page.");
+	}
+}
+/*check if index links are not 404*/
+function loadDoc(requestUrl, title) {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var newLi = document.createElement("li");
+			var newA = document.createElement("a");
+			newA.setAttribute("href", requestUrl);
+			newA.innerHTML = title;
+			newLi.appendChild(newA);
+			document.getElementById("testlist").appendChild(newLi);
+		}
+	};
+	xhttp.open("GET", requestUrl, true);
+	xhttp.send();
+} 
 window.onload=init();
 </script>
 
