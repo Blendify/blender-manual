@@ -177,6 +177,7 @@ function replaceLinks(version) {
 	var newLi = document.createElement("li");
 	var newA = document.createElement("a");
 	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/search.html");
+	newA.setAttribute("id", "searchpage");
 	newA.setAttribute("title", "Go to the Search page");
 	newA.innerHTML = "Search page";
 	newLi.appendChild(newA);
@@ -185,6 +186,7 @@ function replaceLinks(version) {
 	newLi = document.createElement("li");
 	newA = document.createElement("a");
 	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/");
+	newA.setAttribute("id", "homepage");
 	newA.setAttribute("title", "Back to the Home Page");
 	newA.innerHTML = "Home";
 	newLi.appendChild(newA);
