@@ -59,6 +59,7 @@ pre {
 }
 #linklist li {
 	display: inline-block;
+	margin: 0 4px;
 	background-color: #f3f6f6;
 	text-align: center;
 	border: 1px solid rgba(0,0,0,0.1);
@@ -201,7 +202,7 @@ function indexPages() {
 	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.|#]*$/;
 	new_url = url.replace(url_re, "/index.html");
 	if(base_re.test(new_url)) {
-		loadDoc(new_url, "Parent Index", "pix", "Go to the Parent Index page");
+		loadDoc(new_url, "pix", "Parent Index", "Go to the Parent Index page");
 	}
 }
 /*check if index links are not 404*/
