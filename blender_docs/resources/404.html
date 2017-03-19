@@ -57,6 +57,35 @@ pre {
 	white-space: pre;
 	text-align: center;
 }
+#linklist li {
+	display: inline-block;
+	background-color: #f3f6f6;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px -1px rgba(255,255,255,0.5) inset,0px -2px 0px 0px rgba(0,0,0,0.1) inset;
+}
+#linklist li:hover {
+	background-color: #e5ebeb;
+}
+#linklist li a {
+	display: block;
+	color: #404040;
+	font-size: 16px;
+	line-height: 1.5em;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	padding: 6px 12px 8px 12px;
+	text-decoration: none;
+}
+#homepage::after, #ix::after, #pix::after {
+	padding-left: 0.25em;
+	font-size: 20px;
+}
+#homepage::after {content:"\2302"}
+#ix::after {content:"\21E8"}
+#pix::after {content:"\2BB5"}
 </style>
 </head>
 <body>
@@ -103,8 +132,8 @@ pre {
 		</form>
 	 </div>
 	<ul id="linklist">
-		<li><a href="https://docs.blender.org/manual/en/dev/search.html">Go to the Search page (en dev).</a></li>
-		<li><a href="https://docs.blender.org/manual/en/dev/">Back to the Home Page (en dev).</a></li>
+		<li><a id="searchpage" href="https://docs.blender.org/manual/en/dev/search.html" title="Go to the Search page">Search page</a></li>
+		<li><a id="homepage" href="https://docs.blender.org/manual/en/dev/" title="Back to the Home Page">Home</a></li>
 	</ul>
  </div>
 
@@ -147,14 +176,16 @@ function replaceLinks(version) {
 	var newLi = document.createElement("li");
 	var newA = document.createElement("a");
 	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/search.html");
-	newA.innerHTML = "Go to the Search page (" + version[0] + " " + version[1] + ").";
+	newA.setAttribute("title", "Go to the Search page");
+	newA.innerHTML = "Search page";
 	newLi.appendChild(newA);
 	linklist.appendChild(newLi);
 
 	newLi = document.createElement("li");
 	newA = document.createElement("a");
 	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/");
-	newA.innerHTML = "Back to the Home Page (" + version[0] + " " + version[1] + ").";
+	newA.setAttribute("title", "Back to the Home Page");
+	newA.innerHTML = "Home";
 	newLi.appendChild(newA);
 	linklist.appendChild(newLi);
 }
@@ -165,23 +196,25 @@ function indexPages() {
 	var new_url = url.replace(url_re, "/index.html");
 	var base_re = /^https\:\/\/docs.blender.org\/manual\//;
 	if(base_re.test(new_url)) {
-		if(url !== new_url) { loadDoc(new_url, "Go to the Index page.");}
+		if(url !== new_url) { loadDoc(new_url, "ix", "Index", "Go to the Index page");}
 	}
 	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.|#]*$/;
 	new_url = url.replace(url_re, "/index.html");
 	if(base_re.test(new_url)) {
-		loadDoc(new_url, "Go to the Parent Index page.");
+		loadDoc(new_url, "Parent Index", "pix", "Go to the Parent Index page");
 	}
 }
 /*check if index links are not 404*/
-function loadDoc(requestUrl, title) {
+function loadDoc(requestUrl, id, text, title) {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			var newLi = document.createElement("li");
 			var newA = document.createElement("a");
 			newA.setAttribute("href", requestUrl);
-			newA.innerHTML = title;
+			newA.setAttribute("id", id);
+			newA.setAttribute("title", title);
+			newA.innerHTML = text;
 			newLi.appendChild(newA);
 			document.getElementById("linklist").appendChild(newLi);
 		}
