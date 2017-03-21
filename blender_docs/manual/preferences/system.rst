@@ -8,7 +8,7 @@ sound, graphics cards, and internationalization.
 
 If your hardware does not support some of the options described on this page,
 then it will either not show up or get corrected on startup.
-If this happens do not worry, you can either consult you computer manual
+If this happens do not worry, you can either consult your computer manual
 to find a supported value or just let Blender correct it.
 
 .. figure:: /images/preferences_system.png
@@ -106,11 +106,11 @@ CUDA
    If the system has a compatible Nvidia CUDA enabled graphics card you will be able
    to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
 OpenCL
-   If the system has a compatible OpenCL device, it will show up has an option for rendering with Cycles.
+   If the system has a compatible OpenCL device, it will show up an option for rendering with Cycles.
 
    .. note::
 
-      That currently has limited support, see:
+      That currently has limited support. See:
       :doc:`Cycles Features </render/cycles/features>` page for more information.
 
 
@@ -119,7 +119,7 @@ OpenCL
 OpenSubdiv Compute
 ==================
 
-The Options here will set the compute device used by OpenSubdiv for the
+The options here will set the compute device used by OpenSubdiv for the
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
 
 None

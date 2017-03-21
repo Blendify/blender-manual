@@ -6,7 +6,7 @@ Halo Rendering
 .. figure:: /images/materials-helorender-activate.jpg
    :width: 300px
 
-   Activating helo rendering.
+   Activating halo rendering.
 
 
 Halo materials renders each of the objects points as glowing dots or a little clouds of light.
@@ -71,7 +71,7 @@ Texture
    This technique proves very useful when you want to create a realistic rain effect using particle systems,
    or similar.
 Vertex Normal
-   Use the vertex normal to specify the dimension of the halo.
+   Uses the vertex normal to specify the dimension of the halo.
 Extreme Alpha
    Boosts alpha.
 Shaded
@@ -111,7 +111,7 @@ Enabling Flare Renders the halo as a lens flare.
 Size
    Sets the factor by which the flare is larger than the halo.
 Boost
-   Give the flare extra strength.
+   Gives the flare extra strength.
 Seed
    Specifies an offset in the flare seed table.
 Subflares
