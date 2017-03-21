@@ -60,8 +60,8 @@ If you are making multiple actions for the same object,
 press the *F* button for each action,
 this will give the actions a *Fake User* and will make Blender save the unlinked actions.
 
-Objects can only use one *Action* at a time for editing,
-the :doc:`NLA Editor </editors/nla/index>` is used to blend multiple actions together.
+Objects can only use one *Action* at a time for editing.
+The :doc:`NLA Editor </editors/nla/index>` is used to blend multiple actions together.
 
 
 Bake Action

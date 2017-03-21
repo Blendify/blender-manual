@@ -73,7 +73,7 @@ OpenCL
 Buffer Groups
    Enables buffering of group nodes to increase the speed at the cost of more memory.
 Two Pass
-   Use two pass execution during editing: first calculate fast nodes, the second pass calculate all nodes.
+   Use two pass execution during editing: the first pass calculates fast nodes, the second pass calculates all nodes.
 Viewer Border
    This allows to set an area of interest for the backdrop and preview.
    The border is started by :kbd:`Ctrl-B` and finished by selection of a rectangular area.
