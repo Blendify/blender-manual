@@ -26,7 +26,7 @@ def from_chapters():
 
     master_doc = "contents_quicky"
 
-    fn_src = os.path.join(CURRENT_DIR, "contents.rst")
+    fn_src = os.path.join(CURRENT_DIR, "index.rst")
     fn_dst = os.path.join(CURRENT_DIR, "contents_quicky.rst")
 
     f = open(fn_src, 'r')
