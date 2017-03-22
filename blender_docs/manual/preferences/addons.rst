@@ -78,7 +78,8 @@ With Pie menus, First you activate the add-on. This activates the "Add-ons Prefe
 You then need to expand the Add-ons Preferences, then you will see the list of Pie Menu types you can choose from.
 From here you can individually activate the menus you like to use.
 If the menu conflicts with another favorite, there's no need to activate it.
-You can activate any combination & save as user settings so your activations are available next time you start Blender.
+You can activate any combination & save as user settings
+so your activations are available next time you start Blender.
 
 
 Header
