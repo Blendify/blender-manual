@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
+   gravity.rst
    baking.rst
 
 
@@ -26,4 +27,3 @@ Physic Types
    smoke/index.rst
    rigid_body/index.rst
    particles/index.rst
-   gravity.rst

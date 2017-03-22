@@ -181,7 +181,7 @@ Gravity
 
 Options to control global gravity used for physic effects.
 
-See the :doc:`Physics Introduction </physics/gravity>` for more information.
+See the :doc:`Physics chapter </physics/gravity>` for more information.
 
 
 Rigid Body World
