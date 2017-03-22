@@ -103,9 +103,11 @@ dict_custom = {
 
     # specific computer terms/brands
     "ffmpeg",
+    "macos",
     "nvidia",
     "pixar",
     "redhat",
+    "sgi",
     "unix",
     "xinerama",
 
@@ -152,6 +154,7 @@ dict_ignore = {
     "gpu",
     "ik",
     "lhs",
+    "lut",
     "nla",
     "ntsc",
     "rgb",
