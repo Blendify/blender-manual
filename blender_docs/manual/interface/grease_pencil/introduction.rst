@@ -12,7 +12,7 @@ So a digital version was made, also called a grease pencil.
 You can use the Grease Pencil tool to draw freehand sketches and
 annotations in most of the :doc:`Editors </editors/index>`.
 The sketches that are made are saved with the blend-file so they can be seen at any time,
-a disadvantage of the old grease pencil.
+an advantage over the old grease pencil.
 However, you can also do much more with the digital grease pencil such as:
 
 - Planning animation poses and motion curves.
