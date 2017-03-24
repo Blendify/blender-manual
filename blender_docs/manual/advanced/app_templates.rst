@@ -35,7 +35,7 @@ Motivation
 ----------
 
 In some cases its not enough to write a single script or add-on,
-and asking someone to replace their user-preferences and startup file, install scripts and change their key-map.
+and expect someone to replace their user-preferences and startup file, install scripts and change their key-map.
 
 The goal of application-templates is to support switching to a customized configuration
 without disrupting your existing settings & installation.

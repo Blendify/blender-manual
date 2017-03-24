@@ -6,6 +6,8 @@ What's New
 
 This page lists major changes and additions to the manual.
 
+- :doc:`Application Templates </advanced/app_templates>`
+  (`rBM3462 <https://developer.blender.org/rBM3462>`__, Mar. 25).
 - :doc:`Bendy Bones </rigging/armatures/bones/properties/bendy_bones>`
   (`rBM3215 <https://developer.blender.org/rBM3215>`__, Jan. 28).
 - :doc:`Grease Pencil update </interface/grease_pencil/index>`
