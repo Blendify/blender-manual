@@ -9,6 +9,7 @@ This chapter covers advanced use (topics which may not be required for typical u
 .. toctree::
    :maxdepth: 1
 
-   scripting/index.rst
    command_line/index.rst
+   scripting/index.rst
+   app_templates.rst
    limits.rst
