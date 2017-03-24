@@ -25,7 +25,7 @@ ignoring the **USER** and **SYSTEM** files.
    You may need to have the "show hidden files" option checked in your file browser settings.
 
 
-Platform Dependant Paths
+Platform Dependent Paths
 ========================
 
 Here are the default locations for each system:
