@@ -25,10 +25,11 @@ without requiring a separate Blender installation or overwriting your personal s
 
 Application templates can be selected from the splash screen or the file menu *(as shown above)*.
 
-
 When there are no templates found the menu will not be displayed on the splash screen.
 
 New application-templates can be installed from the file menu.
+
+If you would like to keep the current application-template active on restarting Blender, save your user-preferences.
 
 
 Motivation
