@@ -210,7 +210,8 @@ if "%1" == "update_po" (
 	type update_po.log
 	DEL update_po.log
 
-	echo. svn ci -m
+	echo. cd locale
+	echo. svn ci -m "Update PO"
 	goto EOF
 
 	:MISSING_LOCALE
