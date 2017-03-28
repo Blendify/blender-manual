@@ -29,3 +29,5 @@ Building the Manual
   page for building the manual.
 - See the `contribute <manual/about/contribute/>`__
   page for an explanation on the full work-flow and other tips.
+
+.. seealso:: See :doc:`releases.rst` for information on releasing new versions of the manual and old revisions.
