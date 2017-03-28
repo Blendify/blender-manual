@@ -22,7 +22,7 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
      `Ja <https://docs.blender.org/manual/ja/dev/>`__ |vertical_separator|
      `Pt <https://docs.blender.org/manual/pt/dev/>`__ |vertical_separator|
      `Ru <https://docs.blender.org/manual/ru/dev/>`__ |vertical_separator|
-     `Zh (Mainland) <https://docs.blender.org/manual/zh.cn/dev/>`__ |vertical_separator|
+     `Zh (Simplified) <https://docs.blender.org/manual/zh.cn/dev/>`__ |vertical_separator|
      `Zh (Traditional) <https://docs.blender.org/manual/zh.tw/dev/>`__
    - This site can be downloaded for offline use:
      :download:`Download the full manual (zipped HTML files) <blender_manual.zip>`
