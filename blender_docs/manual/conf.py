@@ -190,7 +190,7 @@ html_title = "Blender Manual"
 # of the sidebar.
 #
 # Socket logo from: https://www.blender.org/about/logo
-html_logo = "../resources/theme/sidebar_logo.png"
+html_logo = "../resources/theme/blender-logo.svg"
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
