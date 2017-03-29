@@ -51,7 +51,8 @@ input[type="text"] {
 	border: solid 1px #2472a4;
 }
 pre {
-	font-family: "Lucida Console", monospace;
+	font-family: "Lucida Console", "Droid Sans Mono", "DejaVu Mono", Monaco, "Liberation Mono",
+			Inconsolata, "Fira Mono", "Source Code Pro", "Andale Mono", Menlo, monospace;
 	font-size: 10px;
 	line-height: 1;
 	white-space: pre;
@@ -204,7 +205,7 @@ function indexPages() {
 	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.|#]*$/;
 	new_url = url.replace(url_re, "/index.html");
 	if(base_re.test(new_url)) {
-		loadDoc(new_url, "pix", "Parent Index", "Go to the Parent Index page");
+		loadDoc(new_url, "pix", "Parent Index", "Go to the parent folders Index page");
 	}
 }
 /*check if index links are not 404*/
