@@ -36,8 +36,8 @@ When you choose to add one of these, it lets you either choose a data-block or
 the VSE editor will switch to a File Browser for you to select what you want to add.
 Supported files are filtered by default.
 
-The start frame of the newly created strips will be placed at the position of the frame indicator. 
-When loading multiple files (movie and sound) at the same time each will be add one after the other. 
+The start frame of the newly created strips will be placed at the position of the frame indicator.
+When loading multiple files (movie and sound) at the same time each will be add one after the other.
 
 
 Visualization

@@ -115,7 +115,7 @@ This mode is good for:
 
 - If you picture looks very moody or desaturated you might want to take a look at the U/V-plot.
   You will most likely see all pixels building a crowd at the origin.
-  If you add saturation using the *Saturation* slider in the Filter panel or any modifiers that change color, 
+  If you add saturation using the *Saturation* slider in the Filter panel or any modifiers that change color,
   you can see in the U/V-plot if you distort the color.
 - If you do color-matching on a by hand basis you can match the angle you see of different channels monitors.
 

@@ -44,7 +44,7 @@ Center Cursor and View All :kbd:`Shift-C`
 Align Active Camera to View :kbd:`Ctrl-Alt-Numpad0`
    Gives your active camera the current viewpoint.
 Align Active Camera to Selected
-   Points the active camera toward the selected object; based on the direction of the current viewpoint. 
+   Points the active camera toward the selected object; based on the direction of the current viewpoint.
 View Selected :kbd:`NumpadPeriod`
    Focuses view on currently selected object/s by centering them in the viewport,
    and zooming in until they fill the screen.

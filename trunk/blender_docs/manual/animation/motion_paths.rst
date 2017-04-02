@@ -112,7 +112,7 @@ Keyframes
    When enabled, big yellow square dots are drawn on motion paths, showing the keyframes of their bones
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 \+ Non-Grouped Keyframes
-   For bone motion paths, it searches the whole Action for keyframes instead of 
+   For bone motion paths, it searches the whole Action for keyframes instead of
    in groups with matching name only (this is slower).
 Keyframe Numbers
    When enabled, you will see the numbers of the displayed keyframes,

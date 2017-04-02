@@ -10,7 +10,7 @@ Display Panel
    | Panel:    :menuselection:`Bone --> Display`
 
 .. figure:: /images/rigging_armatures_visualization_custom-shape-field.png
-   
+
    The Display panel.
 
 Display panel lets you customize the look of your bones taking the shape of another existing object.

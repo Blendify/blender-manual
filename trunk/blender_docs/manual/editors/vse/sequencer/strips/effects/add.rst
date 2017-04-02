@@ -21,7 +21,7 @@ Options
 
 This strip has no options.
 
- 
+
 Example
 =======
 

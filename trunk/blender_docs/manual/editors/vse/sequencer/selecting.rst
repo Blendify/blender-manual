@@ -32,10 +32,10 @@ Select Linked :kbd:`L`
    Select all strips linked to the currently selected strip.
 Select Grouped :kbd:`Shift-G`
    Selects strips according to their relation with other strips.
-   
+
    Type
-      Selects any strips of the same type within a category for example, 
-      if you have a cross strip selected this will select all other effect strips. 
+      Selects any strips of the same type within a category for example,
+      if you have a cross strip selected this will select all other effect strips.
    Global Type
       Selects any strips of the same type, e.g. Effect, Image, Movie, ect.
    Effect Type

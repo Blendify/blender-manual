@@ -42,7 +42,7 @@ The frame number label under the strip displays the start frame of the strip.
 - Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it.
   Use this when you want some frames for transitions to the this clip.
 
- 
+
 End Frame
 ---------
 

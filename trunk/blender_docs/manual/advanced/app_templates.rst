@@ -86,11 +86,11 @@ Template locations:
 User configuration is stored in a sub directory,
 
 Without a template:
-   | ``./config/startup.blend`` 
-   | ``./config/userpref.blend`` 
+   | ``./config/startup.blend``
+   | ``./config/userpref.blend``
 With a template:
-   | ``./config/{APP_TEMPLATE_ID}/startup.blend`` 
-   | ``./config/{APP_TEMPLATE_ID}/userpref.blend`` 
+   | ``./config/{APP_TEMPLATE_ID}/startup.blend``
+   | ``./config/{APP_TEMPLATE_ID}/userpref.blend``
 
 See :ref:`getting-started_installing-config-directories` for details on script and configuration locations.
 

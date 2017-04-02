@@ -104,7 +104,7 @@ tracks which are not tracked long enough or which failed to reconstruct accurate
 Frames
    ToDo.
 Error
-   Error threshold value. 
+   Error threshold value.
 Action
    Several actions can be performed for bad tracks:
 

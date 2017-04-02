@@ -202,7 +202,7 @@ Material
 The *Material* modifier alters the base property with a new one taken from a given range mapped on
 the current material under the stroke.
 
-You can use various properties of the materials, among which many are mono-component 
+You can use various properties of the materials, among which many are mono-component
 (i.e. give B&W results). In this case for the color modifier, an optional color ramp can be used to
 map these grayscale values to colored ones.
 

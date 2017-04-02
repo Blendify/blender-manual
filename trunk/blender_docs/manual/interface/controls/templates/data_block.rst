@@ -109,7 +109,7 @@ Bone
 
    Head/Tail
       If a Bone is set, a new field is displayed offering
-      the choice of whether the head or tail of a Bone will be pointed at. 
+      the choice of whether the head or tail of a Bone will be pointed at.
       The slider defines where along this bone the point lies interpolating along the bone axis in a straight line.
       A value of zero will point at the Head/Root of a Bone,
       while a value of one will point at the Tail/Tip of a Bone.

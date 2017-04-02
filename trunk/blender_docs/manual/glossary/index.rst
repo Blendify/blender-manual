@@ -670,8 +670,8 @@ This page lists definitions for terms used in Blender and this manual.
 
    Scene Referenced
       An image whose :term:`Luminance` channel is not limited.
-      
-      See also :term:`Display Referenced`. 
+
+      See also :term:`Display Referenced`.
 
    Sensor
       A :term:`logic brick` that acts like a sense of a lifeform. It reacts to touch, vision, collision etc.

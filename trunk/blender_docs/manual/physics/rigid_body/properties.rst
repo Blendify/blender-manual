@@ -66,7 +66,7 @@ They are calculated based on the object's bounding box.
 The center of gravity is always in the middle for now.
 Primitive shapes can be shown in the viewport by
 enabling *Bounds* in the :menuselection:`Object --> Display` panel.
- 
+
 Box
    Box-like shapes (e.g cubes), including planes (e.g. ground planes).
    The size per axis is calculated from the bounding box.

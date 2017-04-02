@@ -91,7 +91,7 @@ Scale Envelope Distance
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode and Pose Mode 
+   | Mode:     Edit Mode and Pose Mode
    | Menu:     :menuselection:`Armature --> Transform --> Scale Envelope Distance`
    | Hotkey:   :kbd:`Ctrl-Alt-S`
 
