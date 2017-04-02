@@ -46,7 +46,7 @@ Bézier
 Endpoint
 --------
 
-Just like with :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
+Just like :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
 one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
 or *Bézier*, with the same properties as for curves. And as with curves, only open surfaces
 (in the relevant direction) are affected by this setting...

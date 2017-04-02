@@ -58,7 +58,7 @@ Unit Scale
       as this does not require looking up values to use for conversion.
 
 Separate Units
-   When *Metric* or *Imperial* display units as multiple multiple values,
+   When *Metric* or *Imperial* display units as multiple values,
    for example, "2.285m" will become "2m 28.5cm".
 
 .. Normally we would avoid documenting long lists of values

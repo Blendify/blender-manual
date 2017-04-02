@@ -64,7 +64,7 @@ Add
 
 Texture
    Gives halo a texture. By default,
-   textures are applied to objects with Object coordinates and reflects on the halos by affecting their color,
+   textures are applied to objects with Object coordinates and reflect on the halos by affecting their color,
    as a whole, on the basis of the color of the vertex originating the halo.
    Enable this feature to have the texture take effect *within* the halo,
    and hence to have it with varying colors or transparencies; this will map the whole texture to *every* halo.

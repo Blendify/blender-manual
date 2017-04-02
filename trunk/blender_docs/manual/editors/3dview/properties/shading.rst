@@ -29,7 +29,7 @@ Solid
 Textured
    Shows meshes with an image applied using the mesh's active UV Map.
    For Cycles materials, the image is the last one selected in the
-   :doc:`Node Editor </editors/node_editor/index>`. For other render engine's,
+   :doc:`Node Editor </editors/node_editor/index>`. For other render engines,
    the UV Map's applied face texture will be shown.
 Material
    A fast approximation of the applied material.
@@ -50,7 +50,7 @@ but this can be overridden for individual objects using the *Display panel* in t
    :class: valign
    :widths: 80 20
 
-   * - Switches between *Wireframe* and *Solid* draw modes
+   * - Switches between *Wireframe* and *Solid* draw modes.
      - :kbd:`Z`
    * - Switches between the current and *Rendered* draw modes.
      - :kbd:`Shift-Z`
@@ -78,7 +78,7 @@ Textured Solid
    Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
    (*Not* available in the Cycles Render Engine).
 Shadeless
-   Textured mode only -- Draws textures without shading. It's most common use case is texture painting. 
+   Textured mode only -- Draws textures without shading. Its most common use case is texture painting. 
 Matcap
    "Matcaps" are images mapped on a normal.
    It provides a quick way to define visible material properties for modeling and sculpting.

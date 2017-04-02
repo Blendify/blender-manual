@@ -20,20 +20,20 @@ There are four types of modifiers:
 
 
 Modify
-   The *Modify* group of modifiers are tools similar to the *Deform Modifiers* (see below),
+   The *Modify* group of modifiers include tools similar to the *Deform Modifiers* (see below),
    but which do not directly affect the shape of the object;
    rather they affect some other data, such as vertex groups.
 
 Generate
-   The *Generate* group of modifiers are constructive tools that either change the
+   The *Generate* group of modifiers include constructive tools that either change the
    general appearance of or automatically add new geometry to an object.
 
 Deform
-   The *Deform* group of modifiers only change the shape of an object without adding new geometry,
+   The *Deform* group of modifiers only changes the shape of an object without adding new geometry,
    and are available for meshes, and often texts, curves, surfaces and/or lattices.
 
 Simulate
-   The *Simulate* group of modifiers activate simulations. In most cases, these
+   The *Simulate* group of modifiers activates simulations. In most cases, these
    modifiers are automatically added to the modifiers stack whenever a *Particle System*
    or *Physics* simulation is enabled. Their only role is to define the
    place in the modifier stack used as base data by the tool they represent. Generally,
