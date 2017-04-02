@@ -60,7 +60,7 @@ Overlay (ghost icon)
    Frame
       The slider control the offset of the reference frame relative to current frame.
    Lock (padlock icon)
-      It's still possible to lock the reference frame to its current position. 
+      It's still possible to lock the reference frame to its current position.
    Type
       It describes the way the reference frame should be displayed.
 

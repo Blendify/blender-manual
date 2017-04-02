@@ -83,7 +83,7 @@ or the mask is not based on footage.
 Mask animation timing can be edited from the Dope Sheet :ref:`Mask <dope-sheet-mask>` mode.
 
 Insert Shape Key :kbd:`I`
-   Will insert a shape key for the active mask layer at the current frame. 
+   Will insert a shape key for the active mask layer at the current frame.
    This works on the level of mask layers,
    so inserting a shape key will keyframe all the splines and points contained in it.
 Clear Shape Key :kbd:`Alt-I`
@@ -97,6 +97,6 @@ Re-Key Points of Selected Shapes
 Show/Hide
 ---------
 
-- Hide selected :kbd:`H` 
+- Hide selected :kbd:`H`
 - Hide unselected :kbd:`Shift-H`
 - Reveal :kbd:`Alt-H`

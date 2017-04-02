@@ -16,7 +16,7 @@ Grab/Move
 
 
 In Object Mode, the grab/move option lets you translate (move) objects.
-Translation means changing location of objects. 
+Translation means changing location of objects.
 It also lets you translate any elements that make up the object within the 3D space of the active 3D View.
 
 Grab/Move works similarly here as it does

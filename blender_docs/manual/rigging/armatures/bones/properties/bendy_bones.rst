@@ -13,9 +13,9 @@ Technical Details
 =================
 
 Blender treats the bone as a section of a Bézier curve passing through the bones' joints.
-Each *Segments* will bend and roll the  to follow this invisible curve 
+Each *Segments* will bend and roll the  to follow this invisible curve
 representing a tessellated point of the Bézier curve.
-The control points at each end of the curve are the endpoints of the bone.  
+The control points at each end of the curve are the endpoints of the bone.
 The shape of the B-Bones can be controlled using a series of properties or
 indirectly through the neighboring bones (i.e. first child and parent).
 The properties construct handles on either end of the bone to control the curvature.
@@ -167,7 +167,7 @@ Relative
 
 .. tip:: Keying Set
 
-   The "BBone Shape" Keying Set includes all Bendy Bones properties. 
+   The "BBone Shape" Keying Set includes all Bendy Bones properties.
 
 
 Example

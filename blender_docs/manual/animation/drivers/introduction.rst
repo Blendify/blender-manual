@@ -44,7 +44,7 @@ The source/target (input) property can then be selected with an :ref:`ui-eye-dro
 
 .. note::
 
-   Due to the way that Blender's UI Context works, you'll need *two* Properties editor instances open 
+   Due to the way that Blender's UI Context works, you'll need *two* Properties editor instances open
    (and to have pinned one of the two to show the properties for the unselected object).
    This is necessary as the UI cannot be manipulated while using eyedroppers to pick data.
    Therefore, you need to be able to see both the source and the destination properties when using the eyedropper.

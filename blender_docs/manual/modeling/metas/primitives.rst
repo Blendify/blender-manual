@@ -18,7 +18,7 @@ available in the :menuselection:`Add --> Meta` sub-menu:
    :width: 600px
 
    The five Meta primitives.
-   
+
 Options
 =======
 

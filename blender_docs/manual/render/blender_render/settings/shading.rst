@@ -21,5 +21,5 @@ Alpha
 
    Sky, Transparency
 World Space Shading
-   Shading can optionally be computed in world space rather than camera space. 
+   Shading can optionally be computed in world space rather than camera space.
    This affects e.g. normal and lamp vectors. This is often more convenient and matches other engines behavior.

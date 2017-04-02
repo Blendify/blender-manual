@@ -35,7 +35,7 @@ Mask
 ====
 
 The mask can be deactivated by the checkbox in the header.
- 
+
 UV Map
    ToDo.
 Stencil Image

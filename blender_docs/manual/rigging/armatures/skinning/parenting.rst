@@ -32,7 +32,7 @@ With Empty Groups
 When parenting it will create empty :doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>`
 on the child objects (if they do not already exist) for and named after each deforming bone in the armature.
 The newly created vertex groups will be empty this means they will not have any weights assigned.
-Vertex groups will only be created for bones which are setup as deforming 
+Vertex groups will only be created for bones which are setup as deforming
 (:menuselection:`Properties Editor --> Bone --> Deform Panel`).
 
 You can then manually select the vertices and assign them to a particular vertex group of your
@@ -66,7 +66,7 @@ This method of parenting is certainly easier setup but it can often lead to arma
 objects in ways you would want. Overlaps can occur when it comes to determining which bones should
 influence certain vertices when calculating influences for more complex armatures and child objects. Symptoms
 of this confusion are that when transforming the armature in *Pose Mode* parts of the child objects do not deform
-as you expect; If Blender does not give you the results you require you will have to manually alter the weights 
+as you expect; If Blender does not give you the results you require you will have to manually alter the weights
 of vertices in relation to the vertex groups they belong to and have influence in.
 
 

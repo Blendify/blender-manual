@@ -97,7 +97,7 @@ Pattern Match
    (next tracking frame). But a different first image
    (instead of the one that immediately precedes the second image in the footage)
    can be sent to the tracker.
-   
+
    Keyframe
       An image created from a frame on which the track was keyframed.
       This configuration prevents sliding from the original position
@@ -217,6 +217,6 @@ Join Tracks :kbd:`Ctrl-J`
 
 .. (wip)
    Joining two tracks now works better for tracks which have got intersection by frames:
-   coordinates of joined track would be interpolated linearly on segments with intersection. 
+   coordinates of joined track would be interpolated linearly on segments with intersection.
    This is still not perfect from accurate solving point of view,
    but this allows to prevent camera jump which is much more annoying than sight camera slide.

@@ -28,7 +28,7 @@ Overlap
 Holes
    Option not to treat overlapping curves as holes.
    Concentric splines will generating holes in the mask.
-   
+
    By creating overlapping splines holes can be created, and
    it's the layer membership that defines which splines interact to create holes.
    As addition, splines from the same layer are behaving in a way, that concentric splines are defining holes in mask,

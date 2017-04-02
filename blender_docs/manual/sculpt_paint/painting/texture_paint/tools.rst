@@ -38,7 +38,7 @@ Fill Threshold
 
    For projective texturing it will bypass some options for projective painting to paint the model.
    This means that occluded, backfacing and normal culled faces will always get filled,
-   regardless of whether the options are activated in the projection paint panel. 
+   regardless of whether the options are activated in the projection paint panel.
 
 .. tip:: Masking
 
@@ -100,7 +100,7 @@ Clone from paint slot
 
 
 Common
--------------
+------
 
 Most brushes have common settings.
 
@@ -111,7 +111,7 @@ Color
    set it as the brush color.
 
    Flip (cycle icon) :kbd:`X`
-      Swaps the foreground and background color. 
+      Swaps the foreground and background color.
 Radius
    The radius of the brush in pixels.
 Strength
@@ -119,7 +119,7 @@ Strength
 
    Space Attenuation (padlock icon)
       Attenuate the brush strength according to spacing.
-Pressure Sensitivity (hand and bulged in blue line icon) 
+Pressure Sensitivity (hand and bulged in blue line icon)
    The toggle to the right of the following three settings will enable or disable
    tablet pressure sensitivity to control how strong the effect is.
 
@@ -143,7 +143,7 @@ Blend
       Transparent (no alpha) areas will then show a checkered background.
 
 Accumulate
-   This will allow a stroke to accumulate on itself, just like an airbrush would do. 
+   This will allow a stroke to accumulate on itself, just like an airbrush would do.
 Alpha
    Opacity of the clone image display.
 Use Gradient
@@ -156,7 +156,7 @@ Use Gradient
          Will choose a gradient color from the color band according to the stylus pressure.
       Clamp
          Will alter the color automatically by the distance covered by the brush and as specified.
-         by *Gradient spacing*. With Clamp it uses the last color of the color band after the specified. 
+         by *Gradient spacing*. With Clamp it uses the last color of the color band after the specified.
       Repeat
          Similar to *Clamp*. After the last color it resets the color to the first color in the color band and
          repeating the pattern.

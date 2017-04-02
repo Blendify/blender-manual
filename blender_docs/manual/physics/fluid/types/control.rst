@@ -14,7 +14,7 @@ of target shapes. At the same time, as much as possible of the natural fluid mot
 
    .. only:: not builder_html and (singlehtml)
 
-      A video can be found at https://www.youtube.com/watch?v=WruTNnF6Ztg 
+      A video can be found at https://www.youtube.com/watch?v=WruTNnF6Ztg
 
 
 Options

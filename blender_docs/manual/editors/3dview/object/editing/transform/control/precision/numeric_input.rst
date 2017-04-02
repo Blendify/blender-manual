@@ -67,7 +67,7 @@ Use :kbd:`=` or :kbd:`NumpadAsterix` to enable advanced mode, and
 :kbd:`Ctrl-=` or :kbd:`Ctrl-NumpadAsterix` to switch back to simple mode.
 
 It features:
- 
+
 - Units (cm, ", deg, etc.).
 - Basic operations from python/BKE_unit (``+``, ``*``, ``**``, etc.), and
   math constants and functions (pi, sin, etc.).

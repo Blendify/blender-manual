@@ -45,7 +45,6 @@ We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and W
           Envelope bone display.
 
 
-
 Octahedral bone
    This is the default visualization, well suited for most of editing tasks. It materializes:
 
