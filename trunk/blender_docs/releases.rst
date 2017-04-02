@@ -26,8 +26,8 @@ Blender Manual Releases
 2.78
 ====
 
-:Main: rBM3461 (taken right before app templates documentation was added)
-:Languages: rBMT1533
+:Main: rBM3427
+:Languages: rBMT1443
 
 2.79
 ====
