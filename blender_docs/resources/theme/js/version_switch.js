@@ -104,12 +104,13 @@ build_list: function(curr, st) {
 	var buf = [];
 	var l = st;
 	var v = st;
+	var that=this;
 	$.each(dyn, function(ix, title) {
 		buf.push("<li");
 		if (ix === curr) {
 			buf.push(' class="selected" tabindex="-1" role="presentation"><span tabindex="-1" role="menuitem" aria-current="page">' + title + '</spanp></li>');
 		} else {
-			if(this.type) {
+			if(that.type) {
 				v = ix;
 			} else {
 				l = ix;
