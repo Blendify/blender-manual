@@ -205,11 +205,12 @@ html_static_path = ["../resources/theme"]
 def setup(app):
     if html_theme == "sphinx_rtd_theme":
         app.add_stylesheet("css/theme_overrides.css")
+        app.add_javascript("js/version_switch.js")
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ["../resources/404.html"]
+html_extra_path = ["../resources/404.html", "../resources/versions.json"]
 
 # If not None, a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.
