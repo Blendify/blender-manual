@@ -291,8 +291,15 @@ a.external {color:#656AE0;}
 /*end genindex consistency*/
 
 /*start version*/
-.rst-versions {
+.rst-versions, .rst-versions.shift {
 	display: none;
+}
+.version-btn.vdeact{
+	cursor: default;
+	color: dimgray;
+}
+.version-btn.vdeact::after{
+	content: "";
 }
 #versionwrap {
 	display: inline-block;
