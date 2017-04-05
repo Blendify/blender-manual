@@ -291,6 +291,10 @@ a.external {color:#656AE0;}
 /*end genindex consistency*/
 
 /*start version*/
+/*Override RTD theme*/
+.rst-versions {
+	border-top: 0px
+}
 .version-btn.vdeact {
 	cursor: default;
 	color: dimgray;
