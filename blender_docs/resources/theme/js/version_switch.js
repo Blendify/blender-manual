@@ -36,7 +36,7 @@ Drop.prototype={
 beforeInit: function() {
 	var that=this;
 	this.$btn.on("click", function(e){that.init();e.preventDefault();e.stopPropagation();});
-	this.$btn.on("keypress", function(e) {if(that.keybtnfilter(e)){that.init();e.preventDefault();e.stopPropagation();}});
+	this.$btn.on("keypress", function(e) { if(that.keybtnfilter(e)){that.init();e.preventDefault();e.stopPropagation();} });
 },
 init: function() {
 	this.$btn.off("click");
@@ -81,7 +81,7 @@ afterload: function() {
 	that.$btn.removeClass("wait");
 	this.btnhandler();
 	this.$btn.on("mousedown", function(e){that.btnhandler(); e.preventDefault()});
-	this.$btn.on("keypress", function(e){ if(that.keybtnfilter(e)){that.btnhandler();}});
+	this.$btn.on("keypress", function(e){ if(that.keybtnfilter(e)){that.btnhandler();} });
 },
 build_list: function(v, l) {
 	var neutral_url = this.get_neutral();
@@ -153,7 +153,7 @@ listtoggle: function(speed) {
 		this.$list.off("focusout");
 		this.$list.slideUp(speed, function() {
 			if(document.activeElement !== null && document.activeElement !== document && document.activeElement !== document.body) {
-				if(that.$sel) { that.$sel.attr("tabindex", -1);}
+				if(that.$sel) {that.$sel.attr("tabindex", -1);}
 				that.$btn.focus();
 			}
 		});
@@ -194,7 +194,7 @@ lvehandler: function(e) {
 	}
 },
 keybtnfilter: function(e) {
-	if (e.ctrlKey || e.shiftKey) { return false;}
+	if (e.ctrlKey || e.shiftKey) {return false;}
 	var k = e.which || e.keyCode;
 	if(e.key === " " || e.key === "Enter" || (e.key === "ArrowDown" && e.altKey) || e.key === "ArrowDown" || e.key === "ArrowUp" ||
 			k === 32 || k === 13 || (k === 40 && e.altKey) || k === 40 || k === 38) {
@@ -203,7 +203,7 @@ keybtnfilter: function(e) {
 	return false;
 },
 keymove: function(e) {
-	if (e.ctrlKey || e.shiftKey) { return true;}
+	if (e.ctrlKey || e.shiftKey) {return true;}
 	var p = false;
 	var k = e.which || e.keyCode;
 	var $nw = $(e.target);
@@ -265,13 +265,13 @@ return Drop}();
 
 $(document).ready(function() {
 	var lang = DOCUMENTATION_OPTIONS.LANGUAGE;
-	if(lang === "None") { lang = "en"; }
-	if(lang === undefined) { lang = $("#lang-dropdown").html().trim(); DOCUMENTATION_OPTIONS.LANGUAGE = lang;} //@
+	if(lang === "None") {lang = "en";}
+	if(lang === undefined) {lang = $("#lang-dropdown").html().trim(); DOCUMENTATION_OPTIONS.LANGUAGE = lang;} //@
 	var n =  all_langs[lang];
 	if(n) {$("#lang-dropdown").html(n);}
-	//var lng=new Drop("version-dropdown"); //@b
+	//var lng_drop=new Drop("version-dropdown"); //@b
 	$("#version-dropdown").addClass("vdeact"); //@b
 	$("#version-dropdown").attr("title", "coming soon..."); //@b
-	var vsn=new Drop("lang-dropdown");
+	var vsn_drop=new Drop("lang-dropdown");
 });
 })();

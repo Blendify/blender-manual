@@ -294,11 +294,11 @@ a.external {color:#656AE0;}
 .rst-versions, .rst-versions.shift {
 	display: none;
 }
-.version-btn.vdeact{
+.version-btn.vdeact {
 	cursor: default;
 	color: dimgray;
 }
-.version-btn.vdeact::after{
+.version-btn.vdeact::after {
 	content: "";
 }
 #versionwrap {
@@ -324,7 +324,7 @@ a.external {color:#656AE0;}
 	border-radius: 3px;
 	cursor: pointer;
 }
-.version-btn::after{
+.version-btn::after {
 	content:"\f0d8";
 	display: inline;
 	font: normal normal normal 16px/1 FontAwesome;
@@ -332,7 +332,7 @@ a.external {color:#656AE0;}
 	vertical-align: top;
 	padding-left: 0.5em;
 }
-.version-btn:hover, .version-btn::focus {
+.version-btn:hover, .version-btn:focus {
 	border-color: #525252;
 }
 .version-btn-open {
@@ -368,6 +368,7 @@ a.external {color:#656AE0;}
 	overflow-y: auto;
 }
 .version-list a, .version-list span, .version-list li {
+	position: relative;
 	display: block;
 	font-size: 14px;
 	line-height: 1.15;
@@ -381,13 +382,13 @@ a.external {color:#656AE0;}
 	color: #404040;
 	padding: 1px;
 }
-.version-list li:hover, .version-list li a:focus  {
+.version-list li:hover, .version-list li a:focus {
 	background-color: #b9cfda;
 }
 .version-list li.selected, .version-list li.selected:hover {
 	background-color: #8d8c8c;
 }
-.version-list li.selected span{
+.version-list li.selected span {
 	cursor: default;
 	outline-color: red;
 }
