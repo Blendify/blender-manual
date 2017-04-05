@@ -176,7 +176,10 @@ if html_theme == "sphinx_rtd_theme":
     del sphinx_rtd_theme
 
     # included in the title
-    html_theme_options["display_version"] = False
+    html_theme_options = {
+    "display_version": False,
+    "canonical_url": "https://docs.blender.org/manual/en/current",
+    }
 
 
 # The name for this set of Sphinx documents.
