@@ -6,6 +6,11 @@ What's New
 
 This page lists major changes and additions to the manual.
 
+- The new Version Switch is located at the bottom of the navigation (beta language switch only).
+  Please `report a bug 
+  <https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-c4nvvrxuczix2326vlti>`__
+  if it behaves in unexpected manner.
+  (`rBM3490 <https://developer.blender.org/rBM3490>`__, Apr. 5).
 - :doc:`Application Templates </advanced/app_templates>`
   (`rBM3462 <https://developer.blender.org/rBM3462>`__, Mar. 25).
 - :doc:`Bendy Bones </rigging/armatures/bones/properties/bendy_bones>`
