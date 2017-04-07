@@ -10,6 +10,7 @@
 This page lists definitions for terms used in Blender and this manual.
 
 .. glossary::
+   :sorted:
 
    Active
       One of the three :ref:`selection states <object-active>`.
