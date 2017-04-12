@@ -316,7 +316,7 @@ a.external {color:#656AE0;}
 	padding: 3px 10px;
 	margin: 0 5px;
 	vertical-align: middle; 
-	z-index: 399;
+	z-index: 400;
 	transition: border-color 0.4s;
 }
 .version-btn {
@@ -354,9 +354,10 @@ a.external {color:#656AE0;}
 .version-list {
 	display: none;
 	position: absolute;
-	bottom: 32px;
+	bottom: 28px;
 	width: 140px;
 	margin: 0 5px;
+	padding-bottom: 4px;
 	text-align: center;
 	background-color: #000C;
 	border-style: solid;
@@ -364,7 +365,7 @@ a.external {color:#656AE0;}
 	border-color: gray;
 	border-radius: 3px 3px 0px 0px;
 	box-shadow: 0 0 6px #000C;
-	z-index: 400;
+	z-index: 399;
 	max-height: calc(100vh - 30px);
 	overflow-y: auto;
 }

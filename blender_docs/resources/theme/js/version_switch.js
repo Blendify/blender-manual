@@ -78,7 +78,7 @@ afterload: function() {
 	var that = this;
 	this.$list.on("keypress", function(e) {that.keymove(e);});
 
-	that.$btn.removeClass("wait");
+	this.$btn.removeClass("wait");
 	this.btnhandler();
 	this.$btn.on("mousedown", function(e){that.btnhandler(); e.preventDefault()});
 	this.$btn.on("keypress", function(e){ if(that.keybtnfilter(e)){that.btnhandler();} });
