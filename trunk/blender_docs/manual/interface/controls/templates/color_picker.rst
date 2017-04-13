@@ -29,16 +29,16 @@ Color values
    Shorthand hex colors are also supported as RGB,
    e.g. dark-yellow FFCC00, can be written as FC0.
 
-   For operations that are capable of using Alpha,
-   another slider "A" is added.
+   For operations that are capable of using Alpha, another slider "A" is added.
 Eyedropper
    The :doc:`/interface/controls/buttons/eye_dropper` (pipette icon) can be used
    to sample a color value from inside the Blender window.
 
-.. note:: Blender corrects Gamma by default
+.. note::
 
-   For more information about how to disable Gamma correction in Blender,
-   see: :doc:`Color Management and Exposure </render/post_process/color_management>` page.
+   In Blender, the *Hex* and HSV/HSL values are automatically :term:`gamma` corrected however,
+   for the RGB values, they are in Scene Linear colorspace, and are therefor not gamma corrected.
+   For more information, see the :doc:`Color Management and Exposure </render/post_process/color_management>` page.
 
 
 Types
