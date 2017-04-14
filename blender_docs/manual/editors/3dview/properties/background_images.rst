@@ -51,16 +51,16 @@ Stretch/Fit/Crop
       Scales the image up so that it fills the entire camera view,
       but without altering the aspect ratio (some of the image will be cropped)
 X/Y
-   Position the background image using these offsets.
+   Positions the background image using these offsets.
 
    In orthographic views, this is measured in the normal scene units.
    In the camera view, this is measured relative to the camera bounds
    (0.1 will offset it by 10% of the view width/height)
 Flip Horizontally
-   Swap the image around, such that the left side is now on the right, and the right now on the left.
+   Swaps the image around, such that the left side is now on the right, and the right now on the left.
 Flip Vertically
-   Swap the image around, such that the top side is now on the bottom, and the bottom now on the top.
+   Swaps the image around, such that the top side is now on the bottom, and the bottom now on the top.
 Rotation
-   Rotate the image around its center.
+   Rotates the image around its center.
 Size
-   Scale the image up or down from its center.
+   Scales the image up or down from its center.
