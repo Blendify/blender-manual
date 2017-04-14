@@ -67,7 +67,7 @@ Mist
 Mist can greatly enhance the illusion of depth in your rendering.
 To create mist, Blender makes objects farther away more transparent (decreasing their Alpha value)
 so that they mix more of the background color with the object color.
-With Mist enabled, the further the object is away from the camera the less it is alpha value will be.
+With Mist enabled, the further the object is away from the camera the less its alpha value will be.
 For full details, see :doc:`Mist </render/blender_render/world/mist>`.
 
 Mist

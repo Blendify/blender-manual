@@ -7,7 +7,7 @@ The *System* tab allows you to set resolution, scripting console preferences,
 sound, graphics cards, and internationalization.
 
 If your hardware does not support some of the options described on this page,
-then it will either not show up or get corrected on startup.
+then they will either not show up or get corrected on startup.
 If this happens do not worry, you can either consult your computer manual
 to find a supported value or just let Blender correct it.
 
@@ -262,7 +262,7 @@ mostly during *Solid view*. Lighting is constant and position "world" based.
 There are three virtual light sources, also called OpenGL auxiliary lamps,
 used to illuminate 3D View scenes, which will not display in renders.
 
-The Lamp icons allows the user to enable or disable OpenGL lamps.
+The Lamp icons allow the user to enable or disable OpenGL lamps.
 At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D View.
 The lamps are equal, their difference is their positioning and colors.
 You can control the direction of the lamps, as well as their diffuse and specular colors.

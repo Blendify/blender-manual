@@ -10,7 +10,7 @@ This panel lets you configure some visualization parameters of the viewport.
 
 Only Render
    Displays only items that will be rendered.
-   This options hides visualizations, overlays , the 3D cursor, and the grid floor.
+   This option hides visualizations, overlays, the 3D cursor, and the grid floor.
    The :doc:`3D manipulator widget </editors/3dview/object/editing/transform/control/manipulators>`
    has to be toggled separately.
 
@@ -40,12 +40,12 @@ Grid Floor
    In aligned orthographic views an infinite grid is shown.
 
    Axis
-      Control which global axes are shown as colored lines (Grid floor only).
+      Controls which global axes are shown as colored lines (Grid floor only).
       Their length depend on the defined size of that grid.
 
       X, Y, Z
    Lines
-      Controls the total number of lines that make the grid, in both directions.
+      Controls the total number of lines that make the grid, in both directions
       (odd values will be rounded down).
    Scale
       Controls the distance between the grid lines.
@@ -54,7 +54,7 @@ Grid Floor
       In aligned orthographic views the level of subdivision depend on the zoom.
 Toggle Quad View
    Toggles the four view 3D View.
-   :doc:`Read more about arranging areas </interface/window_system/areas>`
+   :doc:`Read more about arranging areas </interface/window_system/areas>`.
 
 
 View Panel
@@ -65,12 +65,12 @@ You can show it with the :menuselection:`View --> View Properties...` menu entry
 
 Lens
    Control the focal length of the 3D View camera in millimeters,
-   unlike a :doc:`rendering camera </render/blender_render/camera/index>`
+   unlike a :doc:`rendering camera </render/blender_render/camera/index>`.
 Lock to Object
    Lock to Object lets you define an object in the *Object* Data ID as the center of the view.
    In that case, the view can be rotated around or zoomed towards that central object,
-   but not on translation, unless you translate that itself object.
-   (This option is not available in a camera view).
+   but not on translation, unless you translate that itself object 
+   (this option is not available in a camera view).
 Lock to Cursor
    Lock the center of the view to the position of the 3D cursor.
    It is only available when *Lock to Object* is not active.

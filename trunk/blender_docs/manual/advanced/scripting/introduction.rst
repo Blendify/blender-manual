@@ -28,7 +28,7 @@ Links that are useful while writing scripts:
 - `API Introduction <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__
   - A short introduction to get you started with the API. Contains examples.
 - `CookBook <https://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook>`__
-  - A section of handy code snippets (yet to be written)
+  - A section of handy code snippets (yet to be written).
 
 Links that deal with distributing your scripts:
 
@@ -102,7 +102,7 @@ Apart from add-ons, there are also scripts you can use to extend Blender's funct
 - Startup: These files are imported when starting Blender.
   They define most of Blender's UI, as well as some additional core operators.
 - Custom scripts: In contrast to add-ons they are typically intended for one-time execution via the
-  :doc:`Text Editor </editors/text_editor>`
+  :doc:`Text Editor </editors/text_editor>`.
 
 
 Saving your own scripts
