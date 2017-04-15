@@ -36,7 +36,7 @@ Motivation
 ----------
 
 In some cases its not enough to write a single script or add-on,
-and expect someone to replace their user-preferences and startup file, install scripts and change their key-map.
+and expect someone to replace his user-preferences and startup file, install scripts and change his key-map.
 
 The goal of application-templates is to support switching to a customized configuration
 without disrupting your existing settings & installation.
@@ -47,7 +47,7 @@ This means people can build their own *applications* on top of Blender that can 
 Details
 -------
 
-An application-template may defines its own:
+An application-template may define its own:
 
 Startup File
    The default file to load with this template.
@@ -70,7 +70,7 @@ Python Scripts
 
 
 Templates also have their own user configuration so saving startup while using a template
-wont overwrite your default startup file.
+won't overwrite your default startup file.
 
 
 Directory Layout
@@ -111,14 +111,14 @@ Each of the following files can be used for application templates but are option
 
    Must be ``501x230`` or ``1002x460`` (used for HiDPI monitors).
 ``__init__.py``
-   A Python script which mush contain ``register`` and ``unregister`` functions.
+   A Python script which must contain ``register`` and ``unregister`` functions.
 
 .. note::
 
    Bundled blend files ``startup.blend`` and ``userpref.blend`` are considered *Factory Settings*
    and are never overwritten.
 
-   The user may save their own startup/preferences while using this template which will override them.
+   The user may save his own startup/preferences while using this template which will override them.
 
    The original template settings can be loaded using: *Load Template Factory Settings*
    from the file menu in much the same way *Load Factory Settings* works.

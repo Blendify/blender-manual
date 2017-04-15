@@ -41,7 +41,7 @@ Filter
          Sort objects in ascending or descending order. This also applies to alphabetical sorting, if selected.
 
 
-One the right of the list view are additional buttons:
+On the right of the list view are additional buttons:
 
 Add ``+``
    Adds a new item.
