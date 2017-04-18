@@ -1,4 +1,4 @@
 Sphinx==1.5.5
 sphinx-intl==0.9.9
-sphinx_rtd_theme==0.2.4
+sphinx_rtd_theme==0.2.5b1
 sphinxcontrib-googleanalytics==0.1
