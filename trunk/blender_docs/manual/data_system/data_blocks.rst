@@ -3,9 +3,8 @@
 Data-Blocks
 ***********
 
-The base unit for any Blender project is the data-block.
-Examples of data-blocks include:
-meshes, objects, materials, textures, node-trees, scenes, texts, brushes and even screens.
+The base unit for any Blender project is the data-block. Examples of data-blocks include:
+meshes, objects, materials, textures, node-trees, scenes, texts, brushes, and even screens.
 
 For clarity, bones, sequence strips and vertex groups are **not** data-blocks,
 they belong to armature, scene and mesh types respectively.
@@ -58,10 +57,8 @@ there are times when you want to force the data to be kept irrespective of its u
 If you are building a blend-file to serve as a library of things that you intend to link to and from other files,
 you will need to make sure that they do not accidentally get deleted from the library file.
 
-Do this by giving the data-blocks a *Fake User*,
-by pressing the *F* button next to the name of the data-block.
-This prevents the user count from ever becoming zero: therefore,
-the data-block will not be deleted.
+Do this by giving the data-blocks a *Fake User*, by pressing the *F* button next to the name of the data-block.
+This prevents the user count from ever becoming zero: therefore, the data-block will not be deleted.
 (since Blender does not keep track of how many other files link to this one.)
 
 
@@ -114,10 +111,9 @@ As covered in `Users (Garbage Collection)`_, data-blocks are typically removed w
 
 There are some exceptions to this, however.
 
-The following data-blocks can be removed directly:
-Scene, Text, Group and Screen.
+The following data-blocks can be removed directly: Scene, Text, Group, and Screen.
 
-Other data-blocks such as groups and actions can be *Unlinked* from the *Outliner* context menu.
+Other data-blocks such as Groups and Actions can be *Unlinked* from the *Outliner* context menu.
 
 .. tip::
 
@@ -140,12 +136,20 @@ Data-Block Types
    ::
    TODO, add links to related docs for each type.
 
-For reference, here is a table of data-blocks types stored in blend-files.
 
+.. image source: Scene tab --> Active keying set panel --> ID-block (sound replaced)
+
+.. figure:: /images/data_system_id-types.png
+   :align: right
+   :width: 250px
+
+   Data-blocks types with their icon.
+
+
+For reference, here is a table of data-blocks types stored in blend-files.
 
 :Link: Library Linking, supports being linked into other blend-files.
 :Pack: File Packing, supports file contents being packed into the blend-file.
-
 
 .. EDITORS NOTE:
    For each data-block, we have 2 lines.
@@ -154,6 +158,9 @@ For reference, here is a table of data-blocks types stored in blend-files.
    ::
    Keep these short.
 
+.. container:: lead
+
+   .. clear
 
 .. |tick|  unicode:: U+2713
 .. |cross| unicode:: U+2717
@@ -161,7 +168,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
 .. list-table::
    :header-rows: 1
    :class: valign
-   :widths: 25 10 10 55
+   :widths: 20 5 5 70
 
    * - Type
      - Link
@@ -200,7 +207,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - | 2D/3D sketch data.
        | Used as overlay *helper* info, by the
-       | 3D View, Image, Sequencer & MovieClip editors.
+       | 3D View, Image, Sequencer & Movie Clip editors.
    * - Group
      - |tick|
      - |cross|
