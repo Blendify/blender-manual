@@ -16,7 +16,7 @@ If data-blocks are linked the data will be updated across all of the users when 
 
 Type
    Shows an icon indicating the data-block type. It opens up the following pop-up menu.
-   The data-block can be dragged from here. e.g to drag an material onto an object in the 3D View or
+   The data-block can be dragged from here e.g to drag an material onto an object in the 3D View or
    into a :ref:`ui-data-id` field.
 
    List
@@ -38,22 +38,16 @@ Open file
 Unpack file
    :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to external ones.
 Unlink data-block ``X``
-   Clears the link.
+   Clears the link, :kbd:`Shift-LMB` to set the users to zer
+   allowing the data to be fully deleted from the blend-file.
 
 Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 (such as a list of materials used on the object).
 
-
-Data-Block Types
-----------------
-
-.. image source: Scene tab --> Active keying set panel --> ID-block (sound replaced)
-
-.. figure:: /images/data_system_id-types.png
-
-   Data-blocks types with their icon.
-
-
+.. seealso::
+  
+   Data-blocks are discussed farther in the :doc:`Data System chapter </data_system/data_blocks>`.
+   
 Preview
 =======
 
