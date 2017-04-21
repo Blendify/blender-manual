@@ -32,7 +32,7 @@ header {
 #blender:hover {
 	opacity: 0.9;
 }
-header span {
+#manual {
 	display: inline-block;
 	margin: 0  0 0 1em;
 	padding: 18px 0;
@@ -42,6 +42,7 @@ header span {
 	vertical-align: top;
 	white-space: nowrap;
 	color: white;
+	text-decoration: none;
 }
 
 section {
@@ -94,7 +95,7 @@ input[type="text"] {
 #linklist li:hover, .btn:hover {
 	background-color: #e5ebeb;
 }
-#linklist li a {
+#linklist li a, #linklist li p {
 	display: block;
 	font-family: sans-serif;
 	font-size: 90%;
@@ -102,15 +103,15 @@ input[type="text"] {
 	white-space: nowrap;
 	text-align: center;
 	vertical-align: middle;
-	padding: 6px 12px 8px 12px;
+	margin:0; padding: 6px 12px 8px 12px;
 	color: inherit;
 	text-decoration: none;
+	cursor: pointer;
 }
-#homepage::after, #ix::after, #pix::after {
+#ix::after, #pix::after {
 	padding-left: 0.25em;
 	font-size: 20px;
 }
-#homepage::after {content:"\2302"}
 #ix::after {content:"\21E8"}
 #pix::after {content:"\2BB5"}
 </style>
@@ -121,7 +122,7 @@ input[type="text"] {
 			<a id="blender" href ="https://www.blender.org" alt="blender.org">
 				<svg height="37.063px"  width="128px"><use xlink:href="#svg8"></use></svg>
 			</a>
-			<span>Blender Manual</span>
+			<a id="manual" href="https://docs.blender.org/manual/en/dev/">Blender Manual</a>
 		</div>
 	</header>
 <section>
@@ -160,10 +161,7 @@ input[type="text"] {
 		  <input class="btn" value="Search" type="submit">
 		</form>
 	 </div>
-	<ul id="linklist">
-		<li><a id="searchpage" href="https://docs.blender.org/manual/en/dev/search.html" title="Go to the Search page">Search page</a></li>
-		<li><a id="homepage" href="https://docs.blender.org/manual/en/dev/" title="Back to the Home Page">Home</a></li>
-	</ul>
+	<ul id="linklist"></ul>
  </section>
 
  <noscript><span style="font-style: italic">*JavaScript disabled:
@@ -176,6 +174,7 @@ function init() {
 		replaceLinks(versions);
 		replaceSearch(versions);
 	}
+	insertbtns();
 	indexPages();
 }
 /*get language and version from url*/
@@ -196,29 +195,57 @@ function replaceSearch(version) {
 	var searchtext = document.getElementsByName("q")[0];
 	searchtext.setAttribute("placeholder", "Search Docs (" + version[0] + " " + version[1] + ")" );
 }
+/*replace header home url*/
 function replaceLinks(version) {
-	var linklist = document.getElementById("linklist");
-	while (linklist.firstChild) {
-		linklist.removeChild(linklist.firstChild);
-	}
+	var home = document.getElementById("manual");
 	var baseurl = "https://docs.blender.org/manual/";
-	var newLi = document.createElement("li");
-	var newA = document.createElement("a");
-	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/search.html");
-	newA.setAttribute("id", "searchpage");
-	newA.setAttribute("title", "Go to the Search page");
-	newA.innerHTML = "Search page";
-	newLi.appendChild(newA);
-	linklist.appendChild(newLi);
+	home.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/");
+}
+/*add buttons to insert page name and the hash into the search field*/
+function insertbtns() {
+	var url = window.location.href;
+	var linklist = document.getElementById("linklist");
+	var pageName = url.match(/\/([\w|\-|_|\.]*)\.html/)[1];
+	var resp = /[\-|_|\.]/g;
+	pageName = pageName.replace(resp, " ");
 
-	newLi = document.createElement("li");
-	newA = document.createElement("a");
-	newA.setAttribute("href", baseurl + version[0] + "/" + version[1] + "/");
-	newA.setAttribute("id", "homepage");
-	newA.setAttribute("title", "Back to the Home Page");
-	newA.innerHTML = "Home";
-	newLi.appendChild(newA);
+	var newLi = document.createElement("li");
+	var newP = document.createElement("p");
+	newP.setAttribute("data-txt", pageName);
+	if(pageName.length > 9) {
+		pageName = pageName.substr(0, 8);
+		pageName += "...";
+	}
+	newP.setAttribute("title", "Insert page name into the search field");
+	newP.innerHTML = "Insert" + ' "' + pageName + '"';
+	newLi.appendChild(newP);
 	linklist.appendChild(newLi);
+	newP.addEventListener("click", click_handler, true);
+
+	var hash = location.hash;
+	if(hash !== "") {
+		hash = hash.substr(1, hash.length);
+		hash = hash.replace(resp, " ");
+		console.log(hash);
+		newLi = document.createElement("li");
+		newP = document.createElement("p");
+		newP.setAttribute("data-txt", hash);
+		newP.setAttribute("title", "Insert hash into the search field");
+		if(hash.length > 9) {
+			hash = hash.substr(0, 8);
+			hash += "...";
+		}
+		newP.innerHTML = "Insert" + ' "' + hash + '"';
+		newLi.appendChild(newP);
+		linklist.appendChild(newLi);
+		newP.addEventListener("click", click_handler, true);
+	}
+}
+function click_handler(e) {
+	var text = e.target.getAttribute("data-txt");
+	var field = document.getElementsByName("q")[0];
+	if(field.value.substr(field.value.length - 1, field.value.length) !== " " && field.value !== "") {field.value += " ";}
+	field.value += text;
 }
 /*add links to index pages*/
 function indexPages() {
@@ -232,7 +259,7 @@ function indexPages() {
 	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.|#]*$/;
 	new_url = url.replace(url_re, "/index.html");
 	if(base_re.test(new_url)) {
-		loadDoc(new_url, "pix", "Parent Index", "Go to the parent folders Index page");
+		loadDoc(new_url, "pix", "Parent Index", "Go to the Parent folders Index page");
 	}
 }
 /*check if index links are not 404*/

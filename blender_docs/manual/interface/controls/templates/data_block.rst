@@ -38,7 +38,7 @@ Open file
 Unpack file
    :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to external ones.
 Unlink data-block ``X``
-   Clears the link, :kbd:`Shift-LMB` to set the users to zer
+   Clears the link, :kbd:`Shift-LMB` to set the users to zero
    allowing the data to be fully deleted from the blend-file.
 
 Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
