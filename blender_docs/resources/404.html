@@ -205,23 +205,25 @@ function replaceLinks(version) {
 function insertbtns() {
 	var url = window.location.href;
 	var linklist = document.getElementById("linklist");
-	var pageName = url.match(/\/([\w|\-|_|\.]*)\.html/)[1];
-	var resp = /[\-|_|\.]/g;
-	pageName = pageName.replace(resp, " ");
+	var pageName = url.match(/\/([\w|\-|_|\.]*)\.html/);
+	if(pageName !== null) {
+		pageName = pageName[1];
+		var resp = /[\-|_|\.]/g;
+		pageName = pageName.replace(resp, " ");
 
-	var newLi = document.createElement("li");
-	var newP = document.createElement("p");
-	newP.setAttribute("data-txt", pageName);
-	if(pageName.length > 12) {
-		pageName = pageName.substr(0, 10);
-		pageName += "...";
+		var newLi = document.createElement("li");
+		var newP = document.createElement("p");
+		newP.setAttribute("data-txt", pageName);
+		if(pageName.length > 12) {
+			pageName = pageName.substr(0, 10);
+			pageName += "...";
+		}
+		newP.setAttribute("title", "Insert the page name ("  + pageName + ") into the search field");
+		newP.innerHTML = "Insert" + ' "' + pageName + '"';
+		newLi.appendChild(newP);
+		linklist.appendChild(newLi);
+		newP.addEventListener("click", click_handler, true);
 	}
-	newP.setAttribute("title", "Insert the page name ("  + pageName + ") into the search field");
-	newP.innerHTML = "Insert" + ' "' + pageName + '"';
-	newLi.appendChild(newP);
-	linklist.appendChild(newLi);
-	newP.addEventListener("click", click_handler, true);
-
 	var hash = location.hash;
 	if(hash !== "") {
 		hash = hash.substr(1, hash.length);
