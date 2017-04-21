@@ -212,11 +212,11 @@ function insertbtns() {
 	var newLi = document.createElement("li");
 	var newP = document.createElement("p");
 	newP.setAttribute("data-txt", pageName);
-	if(pageName.length > 9) {
-		pageName = pageName.substr(0, 8);
+	if(pageName.length > 12) {
+		pageName = pageName.substr(0, 10);
 		pageName += "...";
 	}
-	newP.setAttribute("title", "Insert page name into the search field");
+	newP.setAttribute("title", "Insert the page name ("  + pageName + ") into the search field");
 	newP.innerHTML = "Insert" + ' "' + pageName + '"';
 	newLi.appendChild(newP);
 	linklist.appendChild(newLi);
@@ -230,9 +230,9 @@ function insertbtns() {
 		newLi = document.createElement("li");
 		newP = document.createElement("p");
 		newP.setAttribute("data-txt", hash);
-		newP.setAttribute("title", "Insert hash into the search field");
-		if(hash.length > 9) {
-			hash = hash.substr(0, 8);
+		newP.setAttribute("title", "Insert the hash (" + hash + ") into the search field");
+		if(hash.length > 12) {
+			hash = hash.substr(0, 10);
 			hash += "...";
 		}
 		newP.innerHTML = "Insert" + ' "' + hash + '"';
@@ -244,7 +244,7 @@ function insertbtns() {
 function click_handler(e) {
 	var text = e.target.getAttribute("data-txt");
 	var field = document.getElementsByName("q")[0];
-	if(field.value.substr(field.value.length - 1, field.value.length) !== " " && field.value !== "") {field.value += " ";}
+	if(field.value !== "" && field.value.substr(field.value.length - 1, field.value.length) !== " ") {field.value += " ";}
 	field.value += text;
 }
 /*add links to index pages*/
