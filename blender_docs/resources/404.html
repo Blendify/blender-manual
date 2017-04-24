@@ -228,7 +228,6 @@ function insertbtns() {
 	if(hash !== "") {
 		hash = hash.substr(1, hash.length);
 		hash = hash.replace(resp, " ");
-		console.log(hash);
 		newLi = document.createElement("li");
 		newP = document.createElement("p");
 		newP.setAttribute("data-txt", hash);
@@ -252,13 +251,17 @@ function click_handler(e) {
 /*add links to index pages*/
 function indexPages() {
 	var url = window.location.href;
-	var url_re = /\/[\w|\-|_|\.|#]*$/;
+	var hash = location.hash;
+	if(hash !== "") {
+		url = url.replace(hash, "");
+	}
+	var url_re = /\/[\w|\-|_|\.]*$/;
 	var new_url = url.replace(url_re, "/index.html");
 	var base_re = /^https\:\/\/docs.blender.org\/manual\//;
 	if(base_re.test(new_url)) {
 		if(url !== new_url) { loadDoc(new_url, "ix", "Index", "Go to the Index page");}
 	}
-	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.|#]*$/;
+	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.]*$/;
 	new_url = url.replace(url_re, "/index.html");
 	if(base_re.test(new_url)) {
 		loadDoc(new_url, "pix", "Parent Index", "Go to the Parent folders Index page");
