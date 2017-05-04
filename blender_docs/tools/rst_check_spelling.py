@@ -26,6 +26,17 @@ USE_ONCE = True
 once_words = set()
 bad_words = set()
 
+
+def find_vcs_root(test, dirs=(".svn", ".git", ".hg"), default=None):
+    import os
+    prev, test = None, os.path.abspath(test)
+    while prev != test:
+        if any(os.path.isdir(os.path.join(test, d)) for d in dirs):
+            return test
+        prev, test = test, os.path.abspath(os.path.join(test, os.pardir))
+    return default
+
+
 def check_spelling_body(text):
     for w in text.split():
         # skip directive args (figure target for eg), could do differently?
@@ -65,11 +76,8 @@ def check_spelling_body(text):
                     once_words.add(w_lower)
 
 
-
-# if you want to operate on a subdir, eg: "render"
-SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
-RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
+RST_DIR = find_vcs_root(CURRENT_DIR)
 
 
 def rst_files(path):
