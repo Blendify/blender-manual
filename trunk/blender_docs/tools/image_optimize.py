@@ -14,16 +14,14 @@ VERBOSE = False
 # Ignore result unless it's at least 7.5% improvement
 FACTOR = 0.075
 
-
-def find_vcs_base(d, vcs_dirs=(".svn", ".git", ".hg")):
-    d_prev = None
-    while d != d_prev:
-        d_prev = d
-        for d_vcs in vcs_dirs:
-            d_vcs = os.path.join(d, d_vcs)
-            if os.path.isdir(d_vcs):
-                return d
-        d = os.path.dirname(d)
+def find_vcs_root(test, dirs=(".svn", ".git"), default=None):
+    import os
+    prev, test = None, os.path.abspath(test)
+    while prev != test:
+        if any(os.path.isdir(os.path.join(test, d)) for d in dirs):
+            return test
+        prev, test = test, os.path.abspath(os.path.join(test, os.pardir))
+    return default
 
 
 def run(cmd):
@@ -48,7 +46,7 @@ def files_recursive(path, ext_test):
 
 
 def main():
-    vcs_dir = find_vcs_base(BASEDIR)
+    vcs_dir = find_vcs_root(BASEDIR)
     print(vcs_dir)
     if vcs_dir is None:
         print("Can't find version directory, aborting!")
