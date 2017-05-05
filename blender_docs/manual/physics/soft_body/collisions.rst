@@ -29,27 +29,6 @@ For a *Soft Body* to collide with another object there are a few prerequisites:
 Examples
 --------
 
-.. list-table::
-
-   * - .. _fig-softbody-collision-plane1:
-
-       .. figure:: /images/physics_soft-body_collision_cubeplane1.gif
-
-          A Soft Body cube colliding with a plane.
-
-     - .. _fig-softbody-collision-plane2:
-
-       .. figure:: /images/physics_soft-body_collision_cubeplane2.gif
-
-          A Soft Body plane colliding with a cube, so no interaction at all.
-
-     - .. _fig-softbody-collision-plane3:
-
-       .. figure:: /images/physics_soft-body_collision_cubeplane-cface.gif
-
-          Collision with Face activated.
-
-
 A cube colliding with a plane works pretty well Fig. :ref:`fig-softbody-collision-plane1`,
 but a plane falls right through a cube that it is supposed to collide with
 Fig. :ref:`fig-softbody-collision-plane2`. Why is that?
@@ -58,46 +37,75 @@ the plane collides with the cube as the plane is pulled down by gravity. You can
 *CFace* to enable collision between the face of the plane and the object instead
 Fig. :ref:`fig-softbody-collision-plane3`, but this type of calculation takes much longer.
 
-Let us have a closer look at the collision calculation,
-so you can get an idea of how we might optimize it.
+Let us have a closer look at the collision calculation, so you can get an idea of how we might optimize it.
+
+.. only:: builder_html
+
+   .. list-table::
+
+      * - .. _fig-softbody-collision-plane1:
+
+          .. figure:: /images/physics_soft-body_collision_cubeplane1.gif
+
+             A Soft Body cube colliding with a plane.
+
+        - .. _fig-softbody-collision-plane2:
+
+          .. figure:: /images/physics_soft-body_collision_cubeplane2.gif
+
+             A Soft Body plane colliding with a cube, so no interaction at all.
+
+        - .. _fig-softbody-collision-plane3:
+
+          .. figure:: /images/physics_soft-body_collision_cubeplane-cface.gif
+
+             Collision with Face activated.
+
+.. only:: latex or epub
+
+   An example image can be found at:
+   https://docs.blender.org/manual/en/dev/physics/soft_body/collisions.html#examples
 
 
 Calculating Collisions
 ----------------------
 
-.. list-table::
+.. only:: builder_html
 
-   * - .. _fig-softbody-collision-vertex:
+   .. list-table::
 
-       .. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
+      * - .. _fig-softbody-collision-vertex:
 
-          Visualization of the collision of a Soft Body vertex with a plane.
+          .. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
 
-     - .. _fig-softbody-collision-vertex2:
+             Visualization of the collision of a Soft Body vertex with a plane.
 
-       .. figure:: /images/physics_soft-body_collision_vertex-plane2.gif
+        - .. _fig-softbody-collision-vertex2:
 
-          Six Soft Body vertices with different speed.
+          .. figure:: /images/physics_soft-body_collision_vertex-plane2.gif
 
-          `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
+             Six Soft Body vertices with different speed.
 
+             `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
 
-Soft Body simulation is by default done on a per vertex basis. If the vertices of the Soft
-Body do not collide with the collision object there will be no interaction between the two
-objects.
+.. only:: latex or epub
+
+   An example image can be found at:
+   https://docs.blender.org/manual/en/dev/physics/soft_body/collisions.html#calculating-collisions
+
+Soft Body simulation is by default done on a per vertex basis. If the vertices of the Soft Body
+do not collide with the collision object, there will be no interaction between the two objects.
 
 In Fig. :ref:`fig-softbody-collision-vertex` you can see a vertex colliding with a plane.
-If a vertex penetrates the zone between *Outer* and *Inner*,
-it is repulsed by a force in the direction of the face normal.
-The position that a vertex finally ends up in is dependent on the forces that act upon it.
-In the example gravity and the repulsion force of the face balance out. The speed at which the
-vertex is pulled out of the collision zone is influenced by the *Choke* parameter
+If a vertex penetrates the zone between *Outer* and *Inner*, it is repulsed by a force in
+the direction of the face normal. The position that a vertex finally ends up in is dependent
+on the forces that act upon it. In the example gravity and the repulsion force of the face balance out.
+The speed at which the vertex is pulled out of the collision zone is influenced by the *Choke* parameter
 Fig. :ref:`fig-softbody-collision-parameter`.
 
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
 In Fig. :ref:`fig-softbody-collision-vertex2` you can see vertices traveling at different speeds.
-The two on the far right (5 and 6)
-are traveling so fast that they pass right through the collision zone
+The two on the far right (5 and 6) are traveling so fast that they pass right through the collision zone
 (this is because of the default solver precision, which we can fix later). You will notice
 that the fourth vertex also travels quite fast and because it is heavier it breaches the inner
 zone. The first three vertices collide correctly.
@@ -109,10 +117,9 @@ zone. The first three vertices collide correctly.
    Also Edges and Faces can be used for the collision calculation.
 
 
-You can set up your collision so that edges and even faces are included in the collision
-calculation Fig. :ref:`fig-softbody-collision-vertex3`. The collision is then calculated differently.
-It is checked whether the edge or face intersects with the collision object,
-the collision zones are not used.
+You can set up your collision so that edges and even faces are included in the collision calculation Fig.
+:ref:`fig-softbody-collision-vertex3`. The collision is then calculated differently. It is checked whether
+the edge or face intersects with the collision object, the collision zones are not used.
 
 
 Good collisions

@@ -18,12 +18,6 @@ The face/vertex order can be altered in Edit Mode by selecting
 Options
 =======
 
-.. figure:: /images/build_modifier_animated.gif
-   :width: 285px
-
-   Build Modifier in action.
-
-
 Start
    The start frame of the building process.
 Length
@@ -50,3 +44,15 @@ and has the build modifier on it. Such a setup is a workaround/technique for bei
 art-direct some semi-random layout of a collection of objects (i.e. leaves/balls forming a carpet of sorts)
 when doing so with particles is not desirable
 (e.g. due to undesirable distribution of items leaving random gaps and overlapping in other places).
+
+.. only:: builder_html
+
+   .. figure:: /images/build_modifier_animated.gif
+      :width: 285px
+
+      Build Modifier in action.
+  
+.. only:: latex or epub
+      
+   An example of the build modifier at work can be found at:
+   https://docs.blender.org/manual/en/dev/_images/build_modifier_animated.gif

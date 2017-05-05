@@ -102,15 +102,6 @@ Soft Size
 
              Soft Size: 3.0, Samples: 6.
 
-
-   Below is an animated version of the above table of images showing the effects:
-
-   .. figure:: /images/light-ray_shadow-soft_size_samples-cube_animated.gif
-
-      Animated version renders with different Soft Size and Samples settings
-      showing the effect of various values on the softness of shadow edges.
-
-
 Threshold
    Threshold for Adaptive Sampling.
    This field is used with the *Adaptive QMC* shadow calculation method.

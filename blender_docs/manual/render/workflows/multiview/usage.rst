@@ -93,17 +93,24 @@ Be aware that some modes require a fullscreen editor to work.
 OpenGL Preview
 ==============
 
-.. figure:: /images/multiview_workflow_6.gif
-   :width: 300px
-   :align: right
+.. only:: builder_html
 
-   Turn Table OpenGL Rendering Preview.
+   .. figure:: /images/multiview_workflow_6.gif
+      :width: 300px
+      :align: right
+
+      Turn Table OpenGL Rendering Preview.
 
 Before rendering your scene you can save an OpenGL preview of the animation for testing in the final display.
 In the Render Output panel you can choose the output *Views Format*.
 
 The options include individual files per view, top-bottom, anaglyph among others.
 Pick the one that fits your display requirements.
+
+.. only:: latex or epub
+
+   An example image can be found at:
+   https://docs.blender.org/manual/en/dev/_images/multiview_workflow_6.gif
 
 
 Rendering and UV/Image Editor
