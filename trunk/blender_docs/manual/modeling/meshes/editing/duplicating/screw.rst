@@ -216,17 +216,17 @@ The Spring example
    using the shortcut :kbd:`Shift-S` choosing *Cursor to Center* or the Transform Panel,
    placing your cursor at (0, 0, 0) typing directly into the Cursor 3D Location.
 #. Add a circle using shortcut :kbd:`Shift-A` :menuselection:`--> Mesh --> Circle`.
-#. Rotate this circle using the shortcut :kbd:`R X 9 0` and :kbd:`Return`.
+#. Rotate this circle using the shortcut :kbd:`R X 9 0` and :kbd:`Enter`.
 #. Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*
 #. Grab and move this circle three Blender Units on the *X-Axis* to the left;
    you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
    (clicking on the red arrow shown with the object and grabbing while using shortcut
    :kbd:`Ctrl` until the down left info in the 3D View marks ``D. -3.0000 (3.0000) Global`` ),
-   or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
+   or press the shortcut :kbd:`G X Minus 3` and :kbd:`Enter`.
    You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
-   and type  :kbd:`Minus 3` and :kbd:`Return` in the Location too.
+   and type  :kbd:`Minus 3` and :kbd:`Enter` in the Location too.
    (See the Fig. :ref:`fig-mesh-screw-circle`).
-#. You will have to scale your circle using the shortcut :kbd:`S . 5`, then :kbd:`Return`.
+#. You will have to scale your circle using the shortcut :kbd:`S . 5`, then :kbd:`Enter`.
 #. Now enter *Edit Mode* using shortcut :kbd:`Tab`.
 #. De-select all vertices using the shortcut :kbd:`A`.
 
@@ -361,7 +361,7 @@ will assembly perfectly with each other.
 #. Press the shortcut :kbd:`A` to select the remaining vertices.
 #. Press the shortcut :kbd:`W`, and select :menuselection:`Specials --> Subdivide`.
 #. Now, click with the Right Mouse button at the middle vertex.
-#. Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
+#. Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Enter`.
    See Fig. :ref:`fig-mesh-screw-spindle`.
 #. At this point, we will save this blend-file to recycle the generated Screw for another exercise;
    click with :kbd:`LMB` in *File* --

@@ -28,9 +28,9 @@ The following table shows the available hotkeys for the animation player.
    * - Action
      - Hotkey
    * - Start/Pause:
-     - :kbd:`Space`
+     - :kbd:`Spacebar`
    * - Start playback (when paused):
-     - :kbd:`Return`
+     - :kbd:`Enter`
    * - Quit:
      - :kbd:`Esc`
 

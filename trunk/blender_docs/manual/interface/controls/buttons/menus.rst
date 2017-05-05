@@ -93,7 +93,7 @@ Shortcuts
 - Number keys or numpad can be used to access menu items.
   (Where :kbd:`1` is the first menu item, :kbd:`2` the second... etc.
   For larger menus :kbd:`Alt-1` the 11th... up to :kbd:`Alt-0` the 20th)
-- Press :kbd:`Return` to activate the selected menu item.
+- Press :kbd:`Enter` to activate the selected menu item.
 - Press :kbd:`Esc` to cancel the menu, or move the mouse cursor far from the pop-up,
   or by :kbd:`LMB` clicking anywhere out of it.
 

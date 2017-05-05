@@ -104,7 +104,7 @@ warn_role_kbd.valid_kbd = (
     "Tab", "Esc", "Backspace", "Delete", "Return", "Spacebar",
     "PageUp", "PageDown", "Home", "End",
     "Up", "Down", "Left", "Right",
-    "Plus", "Minus",
+    "Comma", "Period", "Slash", "Backslash", "Plus", "Minus",
     "NumpadPlus", "NumpadMinus", "NumpadDelete", "NumpadSlash", "NumpadPeriod", "NumpadAsterix",
     } |
     # single characters

@@ -157,7 +157,7 @@ Try it out!
 Exercise
 ^^^^^^^^
 
-After :kbd:`Return` twice it prints the names of all objects
+After :kbd:`Enter` twice it prints the names of all objects
 belonging to the Blender scene with name "Scene"::
 
    for obj in bpy.data.scenes['Scene'].objects: print(obj.name)
@@ -202,7 +202,7 @@ We create a reference to the operator that is used for creating a cube mesh prim
 
 Now in a *for loop*, we create the five objects like this (in the screenshot above,
 another method is used) :
-Press :kbd:`Return` twice after entering the command at the shell prompt::
+Press :kbd:`Enter` twice after entering the command at the shell prompt::
 
    for index in range(5):
        add_cube(location=(index * 3, 0, 0), layers=mylayers)
@@ -235,7 +235,7 @@ Key Bindings
 - :kbd:`Shift-Tab` -- Unindent.
 - :kbd:`Ctrl-Backspace` / :kbd:`Ctrl-Delete` -- Erase words.
 - :kbd:`Ctrl-Spacebar` -- Auto complete.
-- :kbd:`Return` -- Execute command.
+- :kbd:`Enter` -- Execute command.
 - :kbd:`Shift-Return` -- Add to command history without executing.
 - :kbd:`Ctrl-C` -- Copy the selection.
 - :kbd:`Ctrl-V` -- Paste into the command line.

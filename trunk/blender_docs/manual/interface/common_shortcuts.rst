@@ -46,7 +46,7 @@ Properties
 - :kbd:`Ctrl-Wheel` -- Change the value incremental steps.
 
   For pop-up option menus buttons, this cycles the value.
-- :kbd:`Return` -- Activates menus or toggles the value.
+- :kbd:`Enter` -- Activates menus or toggles the value.
 
 
 Animation
@@ -107,7 +107,7 @@ Confirm and Chancel
 ===================
 
 - :kbd:`Esc`, :kbd:`RMB` -- Cancels.
-- :kbd:`Return`, :kbd:`LMB` -- Confirms.
+- :kbd:`Enter`, :kbd:`LMB` -- Confirms.
 
 
 .. (todo?) deactivation: Some controls can be disabled, in Blender deactivated controls are still editable.
