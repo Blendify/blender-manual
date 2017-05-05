@@ -25,9 +25,12 @@ This strip has no options.
 Example
 =======
 
-.. figure:: /images/editors_sequencer_strips_add-example.gif
+.. only:: builder_html
 
-   Can you hear the thunder?
+   .. figure:: /images/editors_sequencer_strips_add-example.gif
+      :align: right
+
+      Can you hear the thunder?
 
 The example to the right shows what happens when you add gray to an image,
 and animate the effect over time. The image gets bright because we are adding gray
@@ -35,3 +38,8 @@ and animate the effect over time. The image gets bright because we are adding gr
 which retains the original hue (relationship between the colors) but is much brighter
 (has a higher value). When applied to the whole image like this,
 the whole image seems to flash.
+
+.. only:: latex or epub
+
+   The image described above can be found at:
+   https://docs.blender.org/manual/en/dev/_images/editors_sequencer_strips_add-example.gif

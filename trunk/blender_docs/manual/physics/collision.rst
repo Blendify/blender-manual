@@ -56,9 +56,16 @@ Random friction
 
 .. _fig-collision-soft-plane:
 
-.. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
+.. only:: builder_html
 
-   A softbody vertex colliding with a plane.
+   .. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
+
+      A softbody vertex colliding with a plane.
+
+.. only:: latex or epub
+
+   An example image can be found at:
+   https://docs.blender.org/manual/en/dev/_images/physics_soft-body_collision_vertex-plane1.gif
 
 
 Soft Body and Cloth
