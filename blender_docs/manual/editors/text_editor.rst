@@ -93,7 +93,7 @@ Edit
       Shows the Jump pop-up, which lets you select a line number where to jump to.
    Find...
       Shows the Find panel in the Properties Region.
-   Text Auto Complete :kbd:`Ctrl-Space`
+   Text Auto Complete :kbd:`Ctrl-Spacebar`
       Shows a selectable list of Python commands and matching against words already used in the text.
    Text To 3D Object
       One Object, One Object per line.
@@ -107,7 +107,7 @@ Format
    Uncomment
       Uncomments the selected lines.
    Convert Whitespace
-      To Space, To Tab.
+      Converts sigular space characters, to tab characters.
 Template
    See `Script and Templates`_.
 

@@ -24,7 +24,7 @@ Add Marker and Move
    (which is under the button in this case, not ideal but it is just how things work)
    and then it can be moved to the needed location. When it is moved to the desired position,
    :kbd:`LMB` can be used to finish placing the new marker.
-   Also, :kbd:`Return` and :kbd:`Spacebar` can be used to finish placing the marker.
+   Also, :kbd:`Enter` and :kbd:`Spacebar` can be used to finish placing the marker.
    But it is faster to use :kbd:`Ctrl-LMB` to place markers directly on the footage.
    This shortcut will place the marker in the place you have clicked.
    One more feature here: until you have released the mouse button,

@@ -106,9 +106,9 @@ Confirming and selection
 ========================
 
 Pressing :kbd:`Esc` or :kbd:`RMB` at any time cancels the tool,
-and pressing :kbd:`LMB` or :kbd:`Return` confirms the cut, with the following options:
+and pressing :kbd:`LMB` or :kbd:`Enter` confirms the cut, with the following options:
 
-:kbd:`Return` will leave selected every edge except the new edges created from the cut.
+:kbd:`Enter` will leave selected every edge except the new edges created from the cut.
 
 
 Limitations

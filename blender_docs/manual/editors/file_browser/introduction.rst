@@ -40,7 +40,7 @@ Opening an Image Sequence
 
 The filename of the images must contain a digit, indicating the frame.
 The sequence could be opened by the selection of the images and
-by the confirmation with the *Open Image* button or :kbd:`Return`.
+by the confirmation with the *Open Image* button or :kbd:`Enter`.
 
 .. To load image sequence in any of the supported image
    file formats, first click on the first frame and then Accept.
@@ -59,7 +59,7 @@ Navigation icon buttons
       Move to next folder.
    Up Arrow :kbd:`P`
       Move up to parent directory.
-   Cycle Arrows :kbd:`R`, :kbd:`Numpad .`
+   Cycle Arrows :kbd:`R`, :kbd:`NumpadPeriod`
       Refresh current folder.
 
 Create Directory
@@ -127,7 +127,7 @@ Increment Filename ``+``, ``-``
    Adds/increase or removes/decreases a trailing number to your file name
    (use to make *versions* of a file).
 Confirm
-   The main button to Open Directory/File or Save (As) :kbd:`Return` or
+   The main button to Open Directory/File or Save (As) :kbd:`Enter` or
    double click with :kbd:`LMB` on the entry confirms with that file or data-block.
 
    - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file`).
