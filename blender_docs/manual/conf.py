@@ -156,6 +156,10 @@ highlight_language = 'python3'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 #todo_include_todos = False
 
+# translations
+locale_dirs = ['../locale/']   # Path to locale
+gettext_compact = False     # optional.
+
 
 # -- Options for HTML output ---------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -335,7 +339,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = "../resources/theme/blender-logo.svg"
+latex_logo = "../resources/theme/sidebar_logo.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -388,10 +392,6 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
-
-# translations
-locale_dirs = ['../locale/']   # Path to locale
-gettext_compact = False     # optional.
 
 
 # -- Options for Epub output ----------------------------------------------
