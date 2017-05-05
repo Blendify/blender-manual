@@ -277,6 +277,7 @@ html_use_opensearch = 'https://docs.blender.org/manual/en/dev'
 htmlhelp_basename = 'Blender Reference Manual'
 
 # -- Options for LaTeX output --------------------------------------------------
+# see https://github.com/sphinx-doc/sphinx/issues/3289
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -286,7 +287,9 @@ latex_elements = {
   'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-  'preamble': r'\usepackage[left=0.75in, right=0.75in, top=1.0in, bottom=1.0in]{geometry}',
+  'sphinxsetup': 'hmargin=0.75in, vmargin=1in',
+
+  'preamble': r'\renewenvironment{wrapfigure}[2]{\begin{figure}[H]}{\end{figure}}',
 
   'classoptions': ',openany,oneside',
   'babel': '\\usepackage[english]{babel}',
