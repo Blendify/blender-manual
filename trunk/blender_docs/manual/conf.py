@@ -279,6 +279,8 @@ htmlhelp_basename = 'Blender Reference Manual'
 # -- Options for LaTeX output --------------------------------------------------
 # see https://github.com/sphinx-doc/sphinx/issues/3289
 
+latex_engine = 'xelatex'
+
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
   'papersize': 'a4paper',
@@ -287,15 +289,39 @@ latex_elements = {
   'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
+
   'sphinxsetup': 'hmargin=0.75in, vmargin=1in',
 
-  'preamble': r'\renewenvironment{wrapfigure}[2]{\begin{figure}[H]}{\end{figure}}',
-
   'classoptions': ',openany,oneside',
-  'babel': '\\usepackage[english]{babel}',
+#  'babel': '\\usepackage[english]{babel}',
+# note that xelatex will use polyglossia by default, but if 'babel' key is redefined like above, it will use babel package.
 
-# Latex figure (float) alignment
-  'figure_align': 'htbp',
+    'fontpkg': r'''
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+''',
+
+   'preamble': r'''
+\renewenvironment{wrapfigure}[2]{\begin{figure}[H]}{\end{figure}}
+
+\usepackage{newunicodechar}
+\usepackage{pifont}
+\newunicodechar{✔}{\ding{52}}%
+% nota bene Sphinx already replaced ✓ by \checkmark, which uses a math font
+% and is provided by amssymb. But it can not be boldened! (easily)
+\newunicodechar{✗}{\ding{55}}
+\newunicodechar{✛}{\ding{59}}
+
+\newfontfamily{\FA}{FontAwesome}
+\newunicodechar{⏮}{\faFastBackward}
+\newunicodechar{⏪}{\faBackward}
+\newunicodechar{▶}{\faPlay}
+\newunicodechar{⏩}{\faForward}
+\newunicodechar{⏭}{\faFastForward}
+\newunicodechar{⏸}{\faPause}
+\newunicodechar{◀}{\reflectbox{▶}}
+''',
 
 }
 
@@ -319,7 +345,7 @@ latex_logo = "../resources/theme/blender-logo.svg"
 #latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
