@@ -105,7 +105,7 @@ warn_role_kbd.valid_kbd = (
     "PageUp", "PageDown", "Home", "End",
     "Up", "Down", "Left", "Right",
     "Plus", "Minus",
-    "NumpadPlus", "NumpadMinus", "NumpadDelete", "NumpadSlash", "NumpadPeriod",
+    "NumpadPlus", "NumpadMinus", "NumpadDelete", "NumpadSlash", "NumpadPeriod", "NumpadAsterix",
     } |
     # single characters
     set("[]<>./\\~!?'\"") |
@@ -150,4 +150,3 @@ if __name__ == "__main__":
     else:
         print_help()
         print("No arguments passed")
-
