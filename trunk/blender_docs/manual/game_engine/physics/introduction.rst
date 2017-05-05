@@ -88,7 +88,7 @@ Your options include:
   This can be good either to simply automate their setup, or to truly make them dynamic.
   A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend
   <https://wiki.blender.org/index.php/Media:BGE-Physics-DynamicallyCreateConstraint.blend>`__
-- `Python Controllers </game_engine/logic/controllers/python>`__ -- As always, in the BGE,
+- :doc:`Python Controllers </game_engine/logic/controllers/types/python>` -- As always, in the BGE,
   you can get the most power when you drop into Python and start toying with the settings directly.
   For instance, the *Copy Rotation* mentioned above is not hard --
   All you have to do is something to the effect of
