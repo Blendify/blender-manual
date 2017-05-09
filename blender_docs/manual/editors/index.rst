@@ -33,7 +33,7 @@ Animation
 .. toctree::
    :maxdepth: 1
 
-   Timeline <timeline.rst>
+   timeline.rst
    graph_editor/index.rst
    dope_sheet/index.rst
    nla/index.rst
@@ -46,8 +46,8 @@ Image/Video
    :maxdepth: 1
 
    uv_image/index.rst
-   vse/index.rst
    movie_clip_editor/index.rst
+   vse/index.rst
 
 
 Nodes/Logic
@@ -69,7 +69,7 @@ Settings
 
    properties_editor.rst
    outliner.rst
-   User Preferences <../preferences/index.rst>
+   ../preferences/index.rst
    info/index.rst
 
 
