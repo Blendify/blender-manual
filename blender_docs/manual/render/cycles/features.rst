@@ -21,7 +21,7 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
    * - Transparent Shadows
      - |tick|
      - |tick|
-     - |cross|
+     - |tick|
    * - Motion Blur
      - |tick|
      - |tick|
@@ -33,15 +33,15 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
    * - Volume
      - |tick|
      - |tick|
-     - |cross|
+     - |tick|
    * - Smoke / Fire
      - |tick|
      - |tick|
-     - |cross|
+     - |tick|
    * - Subsurface Scattering
      - |tick|
      - |tick|
-     - |cross|
+     - |tick|
    * - Open Shading Language
      - |tick|
      - |cross|
@@ -49,11 +49,11 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
    * - CMJ sampling
      - |tick|
      - |tick|
-     - |cross|
+     - |tick|
    * - Branched Path integrator
      - |tick|
      - |tick|
-     - |cross|
+     - |tick|
    * - Displacement/Subdivision
      - |tick| :sup:`(experimental)`
      - |tick| :sup:`(experimental)`
@@ -67,7 +67,7 @@ Experimental Features
 
 Experimental features are disabled / hidden by default,
 but can be enabled by setting *Feature Set* to *Experimental* in the Render properties.
-Enabling the *Experimental Feature Set* will use experemental
+Enabling the *Experimental Feature Set* will use experimental
 and incomplete features that might be broken or change in the future.
 
 .. figure:: /images/render_cycles_features_experimental.png
