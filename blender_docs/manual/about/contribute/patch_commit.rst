@@ -8,7 +8,7 @@ Submit Patches
 ==============
 
 The first few times you make changes to the manual,
-you will need to submit them as patches for the section owner to review.
+you will need to submit them as patches for an administrator to review.
 This is just to make sure that we maintain a quality user manual,
 and that you do not accidentally break anything vital before you get used to the system.
 
@@ -29,12 +29,8 @@ In order to submit a patch, follow this process:
    you can `register for one <https://developer.blender.org/auth/register/>`__.
 #. After submitting the diff, you will be asked to "Create a new Revision"
    before you can add a title and description of your changes.
-#. If you know who the Section Owner
-   (see `Documentation Team <https://developer.blender.org/project/profile/53>`__) of that chapter is,
-   assign them as the *Reviewer* and they will be notified of your patch.
-   If you cannot find out who that is (or there is no one),
-   instead, mail the `bf-docboard <https://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
-   or tell someone in ``#blenderwiki`` on :ref:`IRC <irc-channels>`.
+#. Please check if the Documentation project is assign in the tags field in order to notify the team of your patch.
+   You can also :ref:`contact <contribute-contact>` the team over the mailing list or the IRC channel.
 #. They will review your patch and let you know about any changes you could make,
    or commit the patch if it is accepted.
 
