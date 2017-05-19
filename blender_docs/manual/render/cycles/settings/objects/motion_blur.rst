@@ -10,7 +10,7 @@ Motion Blur
    | Panel:    :menuselection:`Properties editor --> Object --> Motion Blur`
 
 Each object has its own motion blur settings along with the
-:doc:`Scene Level Motion Blur </render/cycles/settings/motion_blur>`
+:doc:`Scene Level Motion Blur </render/cycles/settings/scene/render/motion_blur>`
 These settings can be found in the :doc:`Object Properties </editors/3dview/object/properties/introduction>`
 tab of the Properties editor.
 

@@ -10,7 +10,7 @@ Light Path Node
 
 The *Light Path* node is used to find out for which kind of incoming ray the shader is being executed;
 particularly useful for non-physically based tricks. More information about the meaning of each type
-is in the :doc:`Light Paths </render/cycles/settings/light_paths>` documentation.
+is in the :doc:`Light Paths </render/cycles/settings/scene/render/light_paths>` documentation.
 
 
 Inputs

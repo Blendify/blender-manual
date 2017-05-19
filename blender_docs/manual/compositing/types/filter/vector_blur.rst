@@ -21,7 +21,7 @@ Z
    Standard Z depth.
 Speed
    Input for the "Vector" render pass.
-   See :doc:`Cycles render passes </render/cycles/settings/passes>` or
+   See :doc:`Cycles render passes </render/cycles/settings/scene/render_layers/passes>` or
    :doc:`Blender internal render passes </render/blender_render/settings/passes>`.
 
 
