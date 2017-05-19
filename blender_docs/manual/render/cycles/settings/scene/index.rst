@@ -1,4 +1,3 @@
-.. _bpy.types.CyclesRenderSettings.:
 
 ##################
   Scene Settings
