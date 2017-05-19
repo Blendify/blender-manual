@@ -41,6 +41,7 @@ extensions = [
     'googleanalytics',
     'youtube',
     'vimeo',
+    'sphinx.ext.imgconverter',
     'sphinx.ext.mathjax',
 #    'sphinx.ext.intersphinx',
 ]
@@ -308,28 +309,29 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 ''',
 
-   'preamble': r'''
-\renewenvironment{wrapfigure}[2]{\begin{figure}[H]}{\end{figure}}
+   'preamble': u'''
+\\renewenvironment{wrapfigure}[2]{\\begin{figure}[H]}{\\end{figure}}
+\\usepackage{newunicodechar}
 
-\usepackage{newunicodechar}
-\usepackage{pifont}
-\newunicodechar{✔}{\ding{52}}%
+\\usepackage{pifont}
+\\newunicodechar{✔}{\\ding{52}}
 % nota bene Sphinx already replaced ✓ by \checkmark, which uses a math font
 % and is provided by amssymb. But it can not be boldened! (easily)
-\newunicodechar{✗}{\ding{55}}
-\newunicodechar{✛}{\ding{59}}
+\\newunicodechar{✗}{\\ding{55}}
+\\newunicodechar{✛}{\\ding{59}}
 
-\newfontfamily{\FA}{FontAwesome}
-\newunicodechar{⏮}{\faFastBackward}
-\newunicodechar{⏪}{\faBackward}
-\newunicodechar{▶}{\faPlay}
-\newunicodechar{⏩}{\faForward}
-\newunicodechar{⏭}{\faFastForward}
-\newunicodechar{⏸}{\faPause}
-\newunicodechar{◀}{\reflectbox{▶}}
+\\usepackage{fontawesome}
+\\newunicodechar{⏮}{\\faFastBackward}
+\\newunicodechar{⏪}{\\faBackward}
+\\newunicodechar{▶}{\\faPlay}
+\\newunicodechar{⏩}{\\faForward}
+\\newunicodechar{⏭}{\\faFastForward}
+\\newunicodechar{⏸}{\\faPause}
+\\newunicodechar{◀}{\\reflectbox{▶}}
 ''',
 
 }
+
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -341,7 +343,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = "../resources/theme/sidebar_logo.png"
+latex_logo = "../resources/theme/blender-logo.svg"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
