@@ -142,13 +142,15 @@ Format
 Location
    Place the image in the ``manual/images`` folder. Use no other subfolders.
 Naming
-   Image files should be named: ``chapter_subsection_id.png``, eg:
+   For naming files use underscores to separate chapters and sections,
+   and use dashes to separate sections that are two or more words.
+   So for image files should look like: ``chapter_subsection_sub-subsection_id.png``, eg:
 
    - ``render_cycles_lighting_example_01.jpg``
    - ``interface_intro_splash.jpg``
    - ``interface_ui_panel.jpg``
 
-   Do not use special characters or spaces
+   Do not use special characters or spaces!
 
 
 Usage Guides
