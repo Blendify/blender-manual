@@ -108,9 +108,22 @@ Images
 
 Figures should be used to place images::
 
-   .. figure:: /images/editors_menu.png
+   .. figure:: /images/render_cycles_nodes_shaders_principled-bsdf.png
 
       Image Caption.
+
+For consistency, and since it would be good to ensure screenshots are
+all a similar size when floated next to text,
+writers should take screenshots in the following manner:
+
+#. Prepare a the area you would like to capture making sure to use the default theme and setting.
+   (In some cases you may not want to use the default settings e.g. if some options are hidden behind a checkbox)
+#. Zoom to the maximum zoom level (hold :kbd:`NumpadPlus` or :kbd:`Ctrl-MMB` or similar)
+#. Zoom out 8 zoom levels (:kbd:`NumpadMinus` -- 8 times)
+#. In some cases you will want to leave a small margin around the thing you are trying to capture.
+   This should be around 30px but does not have to be exact.
+
+This can be applied to several parts of the interface but might not work for all cases.
 
 
 Files
