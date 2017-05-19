@@ -160,6 +160,8 @@ highlight_language = 'python3'
 locale_dirs = ['../locale/']   # Path to locale
 gettext_compact = False     # optional.
 
+# Quit warnings about missing download file
+suppress_warnings = ['download.not_readable']
 
 # -- Options for HTML output ---------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
