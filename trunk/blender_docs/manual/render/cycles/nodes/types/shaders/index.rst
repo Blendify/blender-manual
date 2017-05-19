@@ -18,6 +18,7 @@
    hair.rst
    holdout.rst
    mix.rst
+   principled.rst
    refraction.rst
    sss.rst
    toon.rst
