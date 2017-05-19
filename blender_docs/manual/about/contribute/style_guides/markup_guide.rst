@@ -119,7 +119,7 @@ writers should take screenshots in the following manner:
 #. Prepare a the area you would like to capture making sure to use the default theme and setting.
    (In some cases you may not want to use the default settings e.g. if some options are hidden behind a checkbox)
 #. Zoom to the maximum zoom level (hold :kbd:`NumpadPlus` or :kbd:`Ctrl-MMB` or similar)
-#. Zoom out 8 zoom levels (:kbd:`NumpadMinus` -- 8 times)
+#. Zoom out eight zoom levels (:kbd:`NumpadMinus` -- eight times)
 #. In some cases you will want to leave a small margin around the thing you are trying to capture.
    This should be around 30px but does not have to be exact.
 
@@ -144,7 +144,7 @@ Location
 Naming
    For naming files use underscores to separate chapters and sections,
    and use dashes to separate sections that are two or more words.
-   So for image files should look like: ``chapter_subsection_sub-subsection_id.png``, eg:
+   So for image files should look like: ``chapter_subsection_sub-subsection_id.png``, e.g:
 
    - ``render_cycles_lighting_example_01.jpg``
    - ``interface_intro_splash.jpg``
@@ -171,6 +171,7 @@ Usage Guides
 
 .. Editors Note:
    In some cases, it is better to specify the image location e.g. tall and narrow images such as nodes.
+
 
 Videos
 ======

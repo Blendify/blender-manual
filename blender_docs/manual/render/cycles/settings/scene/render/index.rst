@@ -7,7 +7,7 @@
 .. toctree::
    :maxdepth: 2
 
-   intergrator.rst
+   integrator.rst
    light_paths.rst
    motion_blur.rst
    performance.rst

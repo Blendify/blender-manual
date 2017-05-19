@@ -12,12 +12,12 @@ Principled Node
 The *Principled* :abbr:`BSDF (Bidirectional scattering distribution function)`
 that combines multiple layers into a single easy to use node.
 It is based on the Disney principled model also known as the "PBR" shader,
-making it compatible with other software such as Unreal Engine\ :sup:`Â®`\
-and Pixar's Renderman\ :sup:`Â®`\ . Image textures painted or baked from
-software like Substance Painter\ :sup:`Â®`\ may be directly linked to the
+making it compatible with other software such as Pixar's Renderman\ :sup:`®`\
+and Unreal Engine\ :sup:`®`\. Image textures painted or baked from
+software like Substance Painter\ :sup:`®`\ may be directly linked to the
 corresponding parameters in this shader.
 
-This shader includes multiple layers to create a wide variety of materials.
+This "Uber" shader includes multiple layers to create a wide variety of materials.
 The base layer is a user controlled mix between diffuse, metal,
 subsurface scattering and transmission.
 On top of that there is a specular layer, sheen layer and clearcoat layer.
@@ -99,4 +99,4 @@ Examples
 Below are some examples of how all the Principled Node's
 parameters interact with each other.
 
-.. todo:: Add images
+.. (todo) Add images
