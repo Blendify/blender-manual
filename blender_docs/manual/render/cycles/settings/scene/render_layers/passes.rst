@@ -7,7 +7,7 @@ Passes
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Passes`
+   | Panel:    :menuselection:`Properties editor --> Render Layers --> Passes`
 
 
 Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
