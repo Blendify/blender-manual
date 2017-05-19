@@ -100,6 +100,7 @@ dict_custom = {
     "reflectance",
     "shader", "shaders",
     "specular",
+    "uber",
 
     # specific computer terms/brands
     "ffmpeg",

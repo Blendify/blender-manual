@@ -138,7 +138,7 @@ Format
    and ``.jpg`` for images with a lot of color variances, such as sample renders and photographs.
 
    Do not use animated ``.gif`` files, these are hard to maintain, can be distracting
-   and are usually large in file size. If a video is needed, use YouTube or Vimeo (see `Videos`_ below).
+   and are usually large in file size. Instead use a video if needed (see `Videos`_ below).
 Location
    Place the image in the ``manual/images`` folder. Use no other subfolders.
 Naming
@@ -176,7 +176,7 @@ Usage Guides
 Videos
 ======
 
-Videos from YouTube and Vimeo can be embedded using::
+Videos from YouTube\ :sup:`™` and Vimeo\ :sup:`™` can be embedded using::
 
    .. youtube:: ID
 
