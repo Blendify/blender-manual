@@ -1,54 +1,21 @@
-
-************************
-Render Layers and Passes
-************************
-
-Layers
-======
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :menuselection:`Properties editor --> Scene --> Layer`
-
-This section covers only the Render Layer settings appropriate for the Blender Render engine.
-For the engine-independent settings, see :doc:`this section </render/post_process/layers>`.
-
-Exclude
-   Scene layers are shared between all render layers;
-   however, sometimes it is useful to leave out some object influence for a particular render layer.
-   That is what this option allows you to do.
-Material
-   Overrides all materials in the render layer.
-Samples
-   Render layer samples to override the scene samples.
-   Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the sampling panel.
-Use Environment
-   Disables rendering the *Environment* render pass in the final render.
-Use AO
-   Disables rendering the *Ambient Occlusion* render pass in the final render.
-Use Surfaces
-   Disables rendering object materials in the final render.
-Use Hair
-   Disables rendering hair strands in the final render.
-
-
 .. _render-cycles-passes:
 
+******
 Passes
-======
+******
 
 .. admonition:: Reference
    :class: refbox
 
    | Panel:    :menuselection:`Properties editor --> Scene --> Passes`
 
+
 Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
 and also to extract data such as depth or normals.
 
 
 Lighting Passes
----------------
+===============
 
 Diffuse Direct
    Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces,
@@ -88,7 +55,7 @@ Ambient Occlusion
 
 
 Combining
-^^^^^^^^^
+---------
 
 All these lighting passes can be combined to produce the final image as follows:
 
@@ -96,7 +63,7 @@ All these lighting passes can be combined to produce the final image as follows:
 
 
 Data Passes
------------
+===========
 
 Combined
    The final combination of render passes with everything included.
