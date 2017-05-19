@@ -8,5 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
-   render.rst
-   render_layers.rst
+   render/index.rst
+   render_layers/index.rst

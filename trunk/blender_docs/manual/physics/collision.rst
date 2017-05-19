@@ -54,9 +54,9 @@ Friction Factor
 Random friction
    Random variation of friction.
 
-.. _fig-collision-soft-plane:
-
 .. only:: builder_html
+
+   .. _fig-collision-soft-plane:
 
    .. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
 
