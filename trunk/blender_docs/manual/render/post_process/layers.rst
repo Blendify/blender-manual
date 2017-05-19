@@ -78,7 +78,7 @@ Material Override
    Additional options shown in this panel are different for each render engine. See these options for:
 
    - :doc:`Blender Render </render/blender_render/settings/layers>`
-   - :doc:`Cycles </render/cycles/settings/passes>`
+   - :doc:`Cycles </render/cycles/settings/scene/render_layers/passes>`
 
 
 Usage

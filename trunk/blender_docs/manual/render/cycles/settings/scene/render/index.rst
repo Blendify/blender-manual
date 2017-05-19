@@ -1,11 +1,13 @@
 .. _bpy.types.CyclesRenderSettings.:
 
 ###################
-  Cycles Settings
+  Render Settings
 ###################
 
 .. toctree::
    :maxdepth: 2
 
-   scene/index.rst
-   objects/index.rst
+   intergrator.rst
+   light_paths.rst
+   motion_blur.rst
+   performance.rst
