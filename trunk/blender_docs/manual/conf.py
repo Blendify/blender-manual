@@ -41,10 +41,14 @@ extensions = [
     'googleanalytics',
     'youtube',
     'vimeo',
-    'sphinx.ext.imgconverter',
     'sphinx.ext.mathjax',
 #    'sphinx.ext.intersphinx',
 ]
+
+# Is there a better way to check for PDF building?
+if "latex" in sys.argv:
+    # To convert gif's when making a PDF.
+    extensions.append('sphinx.ext.imgconverter')
 
 # Sphinx 1.5 not compatible with older versions commenting out until API is re-uploaded
 #intersphinx_mapping = {'blender_api': ('https://www.blender.org/api/blender_python_api_2_78_release/', None)}
