@@ -20,7 +20,10 @@ Color 1/2 and Mortar
 Scale
    Overall texture scale.
 Mortar Size
-   The Mortar size; 0 means no Mortar.
+   The size of the filling between the bricks known as "mortar"; 0 means no mortar.
+Mortar Smooth
+   Blurs/softens then edge between the mortar and the bricks.
+   This can be useful with a texture and displacement textures.
 Bias
    The color variation between *Color 1/2*.
    Values of -1 and 1 only use one of the two colors; values in between mix the colors.
