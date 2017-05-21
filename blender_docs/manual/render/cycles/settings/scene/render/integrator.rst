@@ -64,6 +64,7 @@ Light Sampling Threshold
    some might only contribute a small amount to the final image, and increase render times.
    Using this setting can decease the render times needed to calculate
    the rays which in the end have very little affect on the image.
+
 Pattern
    Random sampling pattern used by the integrator.
 
