@@ -6,7 +6,7 @@ Principled Node
 .. figure:: /images/render_cycles_nodes_shaders_principled-bsdf.png
    :align: right
 
-   Refraction Node.
+   Principled Node.
 
 
 The *Principled* :abbr:`BSDF (Bidirectional scattering distribution function)`
@@ -22,6 +22,9 @@ The base layer is a user controlled mix between diffuse, metal,
 subsurface scattering and transmission.
 On top of that there is a specular layer, sheen layer and clearcoat layer.
 
+.. note::
+    The emphasis on compatibility with other software means that it interprets
+    certain input parameters differently from older blender nodes.
 
 Inputs
 ======
@@ -35,20 +38,46 @@ Subsurface Radius
 Subsurface Color
    Subsurface scattering base color.
 Metallic
-   Mix between dielectric (diffuse and specular)
+   Mix between dielectric (diffuse and specular with possible transparency)
    and metallic (fully specular with complex Fresnel).
 Specular
-   Amount of specular reflection.
+   Amount of dielectric specular reflection. Specifies facing (along normal)
+   reflectivity in the most common 0 - 8% range.
+
+   .. hint::
+      To compute this value for a realistic material with a known index of
+      refraction, you may use this special case of the Fresnel formula:
+      *specular = square((ior - 1)/(ior + 1)) / 0.08*
+
+      For example:
+        * water: ior = 1.33, specular = 0.25
+        * glass: ior = 1.5, specular = 0.5
+        * diamond: ior = 2.417, specular = 2.15
+
+      Since materials with reflectivity above 8% do exist, the field allows values above 1.
+
 Specular Tint
-   Mix between white (typical for dielectric surfaces)
-   and using base color for specular reflection.
+   Tints the facing specular reflection using the base color, while glancing reflection remains white.
+
+   Normal dielectrics have colorless reflection, so this parameter
+   is not technically physically correct and is provided for artistic
+   licence and/or faking the appearance of materials with complex
+   surface structure.
 Roughness
-   Specular reflection rough from perfect sharp reflection
-   at zero to almost diffuse at one.
+   Specifies microfacet roughness of the surface for diffuse and specular reflection.
+
+   .. hint::
+      When converting from the older *Glossy BSDF* node, use the square root of the original value.
+
 Anisotropic
    Amount of anisotropy for specular reflection.
 Anisotropic Rotation
-   Rotate the anisotropic reflection.
+   Rotates the direction of anisotropy, with 1.0 going full circle.
+
+   .. hint::
+      Compared to the *Anisotropic BSDF* node, the direction of highlight elongation
+      is rotated by 90°. Add 0.25 to the value to correct.
+
 Sheen
    Amount of soft velvet like reflection near edges,
    for simulating materials such as cloth.
@@ -64,6 +93,8 @@ IOR
    Index of refraction for transmission.
 Transmission
    Mix between fully opaque surface at zero and fully glass like transmission at one.
+Transmission Roughness
+   With **GGX** distribution controls roughness used for transmitted light.
 Normal
    Controls the normals of the base layers
 Clearcoat Normal
@@ -80,10 +111,10 @@ Distribution
 
    GGX
       A method that is faster than *Multiple-scattering GGX*
-      but is less physically accurate and does not all for *Refraction Roughness*
+      but is less physically accurate. Selecting it enables the *Transmission Roughness* input.
    Multiple-scattering GGX
       Takes multiple bounce (scattering) events between microfacets into account.
-      This gives a more energy conserving results, which would else be visible as excessive darkening.
+      This gives a more energy conserving results, which would otherwise be visible as excessive darkening.
 
 
 Outputs
