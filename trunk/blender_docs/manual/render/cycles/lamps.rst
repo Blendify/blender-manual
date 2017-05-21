@@ -19,9 +19,6 @@ Common Settings
 Type
    Currently *Point*, *Spot*, *Area* and *Sun* lamps are supported.
    *Hemi* lamps are not supported, and will be rendered as sun lamps.
-
-.. Hemi lamps may start working in the future, so it's best not to enable them to preserve compatibility.
-
 Size
    Size of the lamp in Blender Units; increasing this will result in softer shadows and shading.
 Samples
