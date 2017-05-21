@@ -5,53 +5,10 @@ Hair Particles
 
 These are extra settings for :doc:`Hair Particles </physics/particles/hair/index>` used by Cycles.
 
+.. seealso::
 
-Hair Rendering
-==============
-
-These are global settings that apply to all instances of hair systems.
-They can be found inside the *Cycles Hair Rendering* panel under the particle tab.
-
-.. Which also can to be deactivated.
-
-The resolution of the strands is controlled by the step values in particle settings.
-Each hair system uses the material identified in the particle settings in the same way as Blender Internal.
-
-
-Primitive
----------
-
-Triangles
-   Uses a triangle mesh.
-
-   Resolution
-      ToDo.
-Line Segments
-   Uses a straight curve primitive.
-Curve Segments
-   Uses a smooth Cardinal curve primitive. These interpolate a path through the curve keys.
-   However, it renders slower than line segments.
-
-   Curve Subdivisions
-      The interpolated path is subdivided to give points to connect.
-      The parameter subdivisions sets the number of divisions used.
-
-
-Further Options
----------------
-
-Shape
-   Thick
-      Cylindrical segments between two points.
-   Ribbons
-      Are flat planes following the strand direction facing the camera.
-Cull back-faces
-   Excludes strands emitted from the mesh back facing the camera.
-Min Pixels
-   Strands that are further away will be made wider, which is compensated with transparency to keep the look similar.
-   This effect is only applied for camera rays. It works best with ribbon primitives.
-Max Extension
-   ToDo.
+   There are also scene level hair settings which can be found with the
+   :ref:`Geometry <cycles-settings-scene-render-geometry>` settings.
 
 
 Hair Settings

@@ -148,8 +148,8 @@ Bounces
 -------
 
 Max Bounces
-   Maximum number of light bounces. For best quality, this should be set to the maximum. However, in practice,
-   it may be good to set it to lower values for faster rendering.
+   Maximum number of light bounces. For best quality, this should be set to the maximum.
+   However, in practice, it may be good to set it to lower values for faster rendering.
    Setting it to maximum 0 bounces results in direct lighting only.
 Min Bounces
    Minimum number of light bounces for each path,
@@ -199,9 +199,9 @@ Filter Glossy
    to reduce noise at the cost of accuracy. 1.0 is a good starting value to tweak.
 
    Some light paths have a low probability of being found while contributing much light to the pixel.
-   As a result these light paths will be found in some pixels and not in others, causing fireflies. An example of
-   such a difficult path might be a small light that is causing a small specular highlight on a sharp glossy
-   material, which we are seeing through a rough glossy material.
+   As a result these light paths will be found in some pixels and not in others, causing fireflies.
+   An example of such a difficult path might be a small light that is causing a small specular highlight
+   on a sharp glossy material, which we are seeing through a rough glossy material.
    In fact in such a case we practically have a caustic.
 
 
@@ -257,3 +257,50 @@ Preview
 
 Max Subdivisions
    Stop subdividing when this level is reached even if the dice rate would produce finer :term:`tessellation`.
+
+
+.. _cycles-settings-scene-render-geometry:
+
+Hair
+----
+
+These are global settings that apply to all instances of hair systems.
+The resolution of the strands is controlled by the step values in particle settings.
+Each hair system uses the material identified in the particle settings in the same way as Blender Internal.
+
+.. seealso::
+
+   There are also object level hair settings for each particle system which can be found in the
+   :doc:`Hair Settings </render/cycles/settings/objects/hair>`.
+
+Use Hair
+   Enables rendering of hair particle systems.
+
+Primitive
+   Triangles
+      Uses a triangle mesh.
+
+      Resolution
+         ToDo.
+   Line Segments
+      Uses a straight curve primitive.
+   Curve Segments
+      Uses a smooth Cardinal curve primitive. These interpolate a path through the curve keys.
+      However, it renders slower than line segments.
+
+      Curve Subdivisions
+         The interpolated path is subdivided to give points to connect.
+         The parameter subdivisions sets the number of divisions used.
+
+Shape
+   Thick
+      Cylindrical segments between two points.
+
+      Cull back-faces
+         Excludes strands emitted from the mesh back facing the camera.
+
+   Ribbons
+      Are flat planes following the strand direction facing the camera.
+Min Pixels
+   Strands that are further away will be made wider, which is compensated with transparency to keep the look similar.
+   This effect is only applied for camera rays. It works best with ribbon primitives.
