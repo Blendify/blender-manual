@@ -56,6 +56,14 @@ Clamp Direct
 Clamp Indirect
    The same as *Clamp Direct*, but for rays which have bounced multiple times.
 
+Light Sampling Threshold
+   Probabilistically terminates light samples when the light contribution
+   is below this threshold (more noise but faster rendering).
+   Zero disables the test and never ignores lights.
+   This is useful because in large scenes with many light sources,
+   some might only contribute a small amount to the final image, and increase render times.
+   Using this setting can decease the render times needed to calculate
+   the rays which in the end have very little affect on the image.
 Pattern
    Random sampling pattern used by the integrator.
 
