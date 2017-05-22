@@ -80,7 +80,7 @@ html_server: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	manual_use_analytics="True" \
-	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
+	$(SPHINXBUILD) -a -E -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
 
 singlehtml: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
