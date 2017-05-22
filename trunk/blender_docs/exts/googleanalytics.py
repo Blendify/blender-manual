@@ -7,8 +7,7 @@ def add_ga_javascript(app, pagename, templatename, context, doctree):
     if not app.config.googleanalytics_enabled:
         return
 
-    metatags = context.get('metatags', '')
-    metatags += """<script type="text/javascript">
+    metatags = """%s<script type="text/javascript">
 
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '%s']);
@@ -19,7 +18,10 @@ def add_ga_javascript(app, pagename, templatename, context, doctree):
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-    </script>""" % app.config.googleanalytics_id
+    </script>""" % (
+        context.get('metatags', ''),
+        app.config.googleanalytics_id,
+    )
     context['metatags'] = metatags
 
 def check_config(app):
@@ -31,4 +33,7 @@ def setup(app):
     app.add_config_value('googleanalytics_enabled', True, 'html')
     app.connect('html-page-context', add_ga_javascript)
     app.connect('builder-inited', check_config)
-    return {'version': '0.1'}
+    return {
+        "version": '0.1',
+        "parallel_read_safe": True,
+    }
