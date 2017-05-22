@@ -50,6 +50,11 @@ if "latex" in sys.argv:
     # To convert gif's when making a PDF.
     extensions.append('sphinx.ext.imgconverter')
 
+if os.environ.get('manual_use_analytics') == "True":
+    extensions.append('googleanalytics')
+    googleanalytics_enabled = True
+
+
 # Sphinx 1.5 not compatible with older versions commenting out until API is re-uploaded
 #intersphinx_mapping = {'blender_api': ('https://www.blender.org/api/blender_python_api_2_78_release/', None)}
 
@@ -89,13 +94,6 @@ else:
     del namespace
 
 print("Using Index:", master_doc)
-
-if os.environ.get('manual_use_analytics') == "True":
-    googleanalytics_enabled = True
-    print("Google Analytics: enabled")
-else:
-    googleanalytics_enabled = False
-    print("Google Analytics: disabled")
 
 # General information about the project.
 project = 'Blender %s Manual' % blender_version
