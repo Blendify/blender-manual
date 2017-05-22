@@ -9,6 +9,7 @@ and are often only available in certain contexts.
 .. toctree::
    :maxdepth: 2
 
+   object_data.rst
    adaptive_subsurf.rst
    motion_blur.rst
    hair.rst
