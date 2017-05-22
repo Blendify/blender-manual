@@ -130,3 +130,6 @@ def setup(app):
             text=(nop_node, nop_node),
             )
     app.add_directive("youtube", YouTube)
+    return {
+        "parallel_read_safe": True,
+    }
