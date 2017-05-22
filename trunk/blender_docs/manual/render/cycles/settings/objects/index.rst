@@ -11,5 +11,4 @@ and are often only available in certain contexts.
 
    object_data.rst
    adaptive_subsurf.rst
-   motion_blur.rst
    hair.rst
