@@ -8,8 +8,8 @@ Introduction
 ============
 
 :abbr:`GPU (Graphics Processing Unit)` rendering makes it possible to use your
-graphics card for rendering, instead of the CPU.
-This can speed up rendering, because modern GPUs are designed to do quite a lot of number crunching.
+graphics card for rendering, instead of the CPU. This can speed up rendering,
+because modern GPUs are designed to do quite a lot of number crunching.
 On the other hand, they also have some limitations in rendering complex scenes, due to more limited memory,
 and issues with interactivity when using the same graphics card for display and rendering.
 
@@ -41,13 +41,14 @@ Cycles requires recent Nvidia drivers to be installed, on all operating systems.
 OpenCL
 ------
 
-:abbr:`OpenCL (Open Computing Language)` is supported for GPU
-rendering with *AMD* graphics cards.
-We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture (HD 7xxx and above).
-Not all HD 7xxx cards are GCN cards though, you can check if your card is
-`here <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
+:abbr:`OpenCL (Open Computing Language)` is supported for GPU rendering with *AMD* graphics cards.
+We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture 2.0 and above).
+To make sure your GPU is supported checkout
+`this Wikipedia page <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
 
-Cycles requires recent AMD drivers to be installed, on all operating systems.
+.. note::
+
+   Cycles requires recent AMD drivers to be installed, on all operating systems.
 
 
 Supported Features and Limitations
@@ -106,15 +107,13 @@ No, each GPU can only access its own memory.
 What renders faster, Nvidia or AMD, CUDA or OpenCL?
 ---------------------------------------------------
 
-Currently Nvidia with CUDA is rendering faster. There is no fundamental reason why this should
-be so, because we do not use any CUDA specific features, but the compiler appears to be more mature,
-and can better support big kernels.
-OpenCL support is still in an early stage and has not been optimized as much.
+Currently Nvidia with CUDA is rendering fastest, but this really depends on the hardware you buy.
+Currently, CUDA and OpenCL are about the same in the newest mid range GPUs.
+However, CUDA is fastest in the respect of high end GPUs.
 
 
 Error Messages
 ==============
-
 
 Unsupported GNU version! gcc 4.7 and up are not supported!
 ----------------------------------------------------------
