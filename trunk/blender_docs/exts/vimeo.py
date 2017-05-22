@@ -130,3 +130,6 @@ def setup(app):
             text=(nop_node, nop_node),
             )
     app.add_directive("vimeo", Vimeo)
+    return {
+        "parallel_read_safe": True,
+    }
