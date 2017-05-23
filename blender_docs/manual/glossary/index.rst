@@ -302,6 +302,18 @@ This page lists definitions for terms used in Blender and this manual.
       The distance required by a lens to focus collimated light.
       Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`.
 
+   Frame Types
+      In video compression, a frame can be compressed by several different algorithms.
+      These algorithms are known as *picture types* or *frame types*
+      and there are three major types: **I**, **P**, and **B** frames.
+
+      I‑frames
+         The least compressible but don't require other video frames to decode.
+      P‑frames
+         Use data from previous frames to decompress and are more compressible than I‑frames.
+      B‑frames
+         Use both previous and forward frames for data reference to get the highest amount of compression.
+
    FSAA
    Full-Screen Anti-Aliasing
       A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.

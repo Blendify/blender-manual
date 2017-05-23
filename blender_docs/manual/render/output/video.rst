@@ -6,133 +6,155 @@ Video Output
 Preparing your work for video
 =============================
 
-Once you master the trick of animation you will surely start to produce wonderful
-animations, encoded with your favorite codecs,
-and possibly you will share them on the Internet with the rest of the community.
+Once you master the art of 3D animation, you will probably want to share your work with others;
+either on the internet (YouTube, Vimeo, etc) or with family and friends (DVD/Bluray)
+or even possibly for television broadcast.
 
-Sooner or later you will be struck with the desire to build an animation for television,
-or maybe burn your own DVDs. To spare you some disappointment,
-here are some tips specifically targeted at Video preparation.
-The first and principal one is to remember the double-dashed white lines in the camera view!
-
-If you render for PC then the whole rendered image which lies within the *outer* dashed
-rectangle will be shown. For television, some lines and some part of the lines will be lost
-due to the mechanics of the electron beam scanning in your TV's cathode ray tube. You are
-guaranteed that what is within the *inner* dashed rectangle in camera view will be visible
-on the screen. Everything within the two rectangles may or may not be visible,
-depending on the given TV set that your audience watches the video on.
+To spare you some disappointment, here are some tips specifically targeted at video preparation.
 
 
-.. Remove:? Talk to Sergey.
+Safe Areas and Overscan
+-----------------------
 
-Color Saturation
-================
+For anyone creating motion graphics or simple text overlays, overscan is an important consideration.
+Although its origins are rooted in historic analog TV systems, unfortunately even in 2017,
+for various reasons it can still be an issue with modern digital flatscreen TVs.
 
-Most video tapes and video signals are not based on the RGB model but on the YCrCb model:
-more precisely, the YUV in Europe (PAL), and the YIQ in the USA (NTSC),
-the latter being quite similar to the former. Hence some knowledge of this is necessary too.
+.. note::
 
-The YCrCb model sends information as 'Luminance', or intensity (Y)
-and two 'Crominance' signals, red and blue (Cr and Cb).
-Actually a Black and White TV set shows only luminance,
-while color TV sets reconstruct color from Crominances (and from luminance).
-Construction of the YCrCb values from the RGB ones takes two steps
-(the constants *in italics* depend on the system: PAL or NTSC):
+   Due to various limitations in analog TV equipment, the displayed image could sometimes
+   end up shifted horizontally or vary in size, which could lead to the area beyond the
+   intended visible picture being shown. This hidden area sometimes contained junk noise,
+   timing signals or closed-caption/subtitle data. To avoid this being visible to the viewer,
+   the standard approach for TV manufacturers was to 'overscan' (zoom in) the displayed picture
+   by a small amount (between 5-10% edge crop) to ensure that at no time would the hidden areas be visible.
 
-First, the Gamma correction (*g* varies: 2.2 for NTSC, 2.8 for PAL):
+   Although modern digital electronics have eliminated the issue of shifting image position,
+   unfortunately, some TV manufacturers have included overscan on their flatscreen TVs.
+   Why? Because for many years it was a given that the edge of the visible image would rarely be seen,
+   so broadcasters would sometimes overlay 'hidden' data to the very edge of the image
+   (e.g. some types of closed captions). Also, legacy analog recordings might still
+   contain unwanted noise around the edge. To avoid consumer complaints,
+   overscan is quite often enabled by default. For some flatscreen TVs, it is not possible to disable
 
-- R' = R\ :sup:`1/g`
-- G' = G\ :sup:`1/g`
-- B' = B\ :sup:`1/g`
 
-Then, the conversion itself:
+Enabling Safe Areas
+-------------------
 
-- Y = 0.299R' + 0.587G' + 0.114B'
-- Cr = *a*\ :sub:`1` (R' - Y) + *b*\ :sub:`1` (B' - Y)
-- Cb = *a*\ :sub:`2` (R' - Y) + *b*\ :sub:`2` (B' - Y)
+Blender has configurable safe-area markings which can be made visible by selecting the scene camera,
+then in the camera settings by enabling :ref:`Safe Areas <camera-safe-areas>`. Several presets are available.
+If you are producing work for a television network or indeed any client,
+they may have their own rules and requirements on safe area dimensions -- so consult with them.
 
-Whereas a standard 24 bit RGB picture has 8 bits for each channel, to keep bandwidth down,
-and considering that the human eye is more sensitive to luminance than to chrominance,
-the luminance signal is sent with more bits than the two chrominance signals.
-This bit expansion results in a smaller dynamic of colors in video,
-than what you are used to on monitors.
-You hence have to keep in mind that not all colors can be correctly displayed.
 
-A rule of thumb is to keep the colors as 'grayish' or 'unsaturated' as possible;
-this roughly means keeping the dynamics of your colors within 80% of one another.
-In other words,
-the difference between the highest RGB value and the lowest RGB value should not exceed 0.8
-(0 - 1 range) or 200 (0 - 255 range).
+Color Reproduction
+------------------
 
-This is not strict, something more than 0.8 is acceptable, but an RGB display with color
-contrast that ranges from 0.0 to 1.0 will appear to be very ugly (over-saturated) on video,
-while appearing bright and dynamic on a computer monitor.
+When exporting to many of the common video formats, the rendered RGB(A) images go through a conversion process
+whereby they are translated to the YCbCr color model. Y corresponds to a grayscale representation of the image,
+Cb and Cr contain data for the blue and red channels respectively.
+Green is encoded into the Y and Cb, Cr channels with some clever math.
+
+Importantly, the color components are often stored at a lower resolution to the Y (grayscale) channel.
+This can cause blurring/smearing which can be a problem with small text and some saturated color combinations --
+so it is well worth doing test encodes to make sure that text remains legible. As with safe areas,
+a TV network or client might have their own rules on minimum text size and positioning,
+so always seek clarification when unsure.
 
 
 Encoding Panel
 ==============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Render --> Encoding`
+
 .. figure:: /images/render_output_encoding-panel.png
 
    Encoding panel.
 
-Here you choose which video codec you want to use, and compression settings.
+Here you choose which video container, codec, and compression settings you want to use.
 With all of these compression choices, there is a tradeoff between file size,
 compatibility across platforms, and playback quality.
 
-When you view the :doc:`System Console </advanced/command_line/introduction>`,
-you can see some of the output of the encoding process.
-You will see even more output if you execute Blender as ``blender -d``.
+.. tip::
+
+   When you view the :doc:`System Console </advanced/command_line/introduction>`,
+   you can see some of the output of the encoding process.
+   You will see even more output if you execute Blender as ``blender -d``.
 
 Presets
    You can use the presets, which choose optimum settings for you for that type of output.
-Format
+Container
    Video container or file type. For a list of all available options see
    :doc:`video formats </data_system/files/media/video_formats>`.
+Autosplit Output
+   If your video is huge and exceeds 2Gig, enable Autosplit Output.
+   This will automatically split the output into multiple files after the first file is 2Gig.
+Codec
+   Chooses the method of compression and encoding.
+   For a list of all available options see :doc:`video formats </data_system/files/media/video_formats>`.
 
-   Codec
-      Chooses the method of compression and encoding.
-      For a list of all available options see :doc:`video formats </data_system/files/media/video_formats>`.
-   Lossless Output
-      Allows the ability to perfectly reconstruct compressed data from compressed data.
-Bitrate
-   Set the average `bitrate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
-   which is the count of binary digits per frame.
-   See also: `FFmpeg -b:v <https://ffmpeg.org/ffmpeg.html#Description>`__.
-GOP Size
+.. note:: Standards
+
+   Some containers and codecs are not compatible with each other,
+   so if you are getting errors check that your container and codec are compatible.
+   Like containers and codecs are sometime not compatible with each other some codecs
+   do not work with arbitrary dimensions. So, try to stick with common dimensions
+   or research the limitations of the codec you are trying to use.
+
+Output Quality
+   These are preset `Rates <Rate>`_
+Encoding Speed
+   Presets to change between a fast encode (bigger file size) and more compression (smaller file size)
+
+Key Frame Interval
    The number of pictures per `Group of Pictures <https://en.wikipedia.org/wiki/Group_of_pictures>`__.
    Set to 0 for "intra_only", which disables `inter-frame <https://en.wikipedia.org/wiki/Inter-frame>`__ video.
-   From FFmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
-   This is especially true for RealVideo where the Linux player does not seem to be very fast,
-   so it can miss frames".
-Autosplit Output
-   If your video is HUGE and exceeds 2Gig, enable Autosplit Output.
-   The main control over output filesize is the GOP or keyframe interlace.
    A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
-Mux
-   `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
+Max B-frames
+   Enables the use of :term:`B‑frames <Frame Types>`.
 
-   Rate
-      Maximum bit rate of the multiplexed stream.
-   Packet Size
-      Reduces data fragmentation or muxer overhead depending on the source.
+   Interval
+      The maximum number of :term:`B‑frames <Frame Types>` between non-B-frames.
 
-   .. note:: Standards
-
-      Some codecs cannot encode off-the-wall video sizes,
-      so stick to the XY sizes used in the presets for standard TV sizes.
 
 Rate
-   The bitrate control also includes a *Minimum* and a *Maximum*.
+----
 
-   Buffer
-      The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
+Bitrate
+   Sets the average `bitrate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
+   which is the count of binary digits per frame.
+   See also: `FFmpeg -b:v <https://ffmpeg.org/ffmpeg.html#Description>`__.
+Rate
+   Video files can use what is called variable bitrate (VBR).
+   This is used to give some segments of the video less compressing to frames that need more data
+   and less to frames with less data. This can be controlled by the *Minimum* and a *Maximum* values.
+Buffer
+   The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
+
+
+Mux
+---
+
+Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__
+is the process of combining separate video and audio streams into a single file,
+similar to packing a video file and .mp3 audio file in a zip-file.
+
+Rate
+   Maximum bit rate of the multiplexed stream.
+Packet Size
+   Reduces data fragmentation or muxer overhead depending on the source.
 
 
 .. _render-output-video-encoding-audio:
 
+Audio
+-----
+
 Audio Codec
-   Audio conainer used, For a list of all available options see
+   Audio format to use, For a list of all available options see
    :doc:`video formats </data_system/files/media/video_formats>`.
 Bitrate
    For each codec, you can control the bitrate (quality) of the sound in the movie.
@@ -145,31 +167,29 @@ Volume
 Tips
 ----
 
-Choosing which format to use depends on what you are going to do with the image.
+.. tip:: The choice of video format depends on what you are planning to do.
 
-If you are animating a movie and are not going to do any post-processing or special effects on
-it, use either ``AVI-JPEG`` or ``AVI Codec`` and choose the XviD open codec.
-If you want to output your movie with sound that you have loaded into the VSE,
-use M-PEG.
+It's not recommended to render directly to a video format in the first instance.
+If a problem occurs while rendering, the file might become unplayable and you will
+have to re-render all frames from the beginning. If you first render out a set
+of static images such as the default PNG format or the higher-quality OpenEXR
+(which can retain HDR pixel data), you can combine them as an
+:doc:`Image Strip </editors/vse/sequencer/strips/image_movie>`
+in the Video Sequence Editor (VSE). This way, you can easily:
 
-If you are going to do post-processing on your movie, it is best to use a frameset rendered as "OpenEXR" images;
-if you only want one file, then choose "AVI Raw". While AVI Raw is huge,
-it preserves the exact quality of output for post-processing.
-After post-processing (compositing and/or sequencing), you should compress the video.
+- Restart the rendering from the place (the frame) where any problem occurred.
+- Try out different video encoding options in seconds,
+  rather than minutes or hours as encoding is usually much faster than rendering the 3d scene.
+- Enjoy the rest of the features of the VSE, such as adding
+  :doc:`Image Strips </editors/vse/sequencer/strips/image_movie>`
+  from previous renders, audio, video clips, etc.
 
 .. tip::
 
-   You do not want to post-process a compressed file because the compression artifacts might
-   throw off what you are trying to accomplish with the post-processing.
+   You shouldn’t post-process a lossy-compressed file as the compression artifacts may become visible.
+   Lossy compression should be reserved as a final 'delivery format'.
 
-Note that you might not want to render directly to a video format.
-If a problem occurs while rendering, you have to re-render all frames from the beginning.
-If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR),
-you can stitch them together with an :doc:`Image Strip </editors/vse/sequencer/strips/image_movie>`
-in the Video Sequence Editor.
-This way, you can easily:
-
-- Restart the rendering from the place (the frame) where the problem occurred.
-- Try out different video options in seconds, rather than minutes or hours.
-- Enjoy the rest of the features of the VSE,
-  such as adding Image Strips from previous renders, audio, video clips, etc.
+If you are planning on doing significant post-processing and color correction,
+it is best to output a frameset rendered in OpenEXR format.
+If you plan to do only minimal changes after rendering and would prefer a single file,
+choose lossless H.264 for high quality, or regular H.264 for lower quality.
