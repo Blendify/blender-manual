@@ -3,7 +3,7 @@
 OpenGL Render
 *************
 
-OpenGL rendering uses the 3d View's drawing for quick *preview* renders.
+OpenGL rendering uses the 3D View's drawing for quick *preview* renders.
 
 This allows you to inspect your animatic
 (for object movements, alternate angles, etc.).

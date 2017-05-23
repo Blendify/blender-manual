@@ -290,8 +290,7 @@ Safe Areas
 Safe areas are guides used to position elements to ensure that the most important
 parts of the content can be seen across all screens.
 
-Different screens have varying amounts of :term:`overscan`.
-(specially older TV sets).
+Different screens have varying amounts of :term:`overscan`. (specially older TV sets).
 That means that not all content will be visible to all viewers,
 since parts of the image surrounding the edges are not shown.
 To work around this problem TV producers defined two areas where content is guaranteed to be shown:
