@@ -248,6 +248,28 @@ You then will need to modify its shape to match that of the opening that you are
 .. figure:: /images/cycles_portals.jpg
 
 
+Denoising
+=========
+
+Even with all the settings described above there will always end
+up being some render noise no matter how many samples you use.
+To fix this there is a post processing technique to cleanup the final bit of noise.
+To use this enable :doc:`Denoising </render/cycles/settings/scene/render_layers/denoising>`
+in the *Render Layers* tab of the Properties editor.
+
+Below is an example render by `The Pixelary <http://blog.thepixelary.com/post/160451378592/denoising-in-cycles-tested>`__.
+
+.. list-table::
+
+   * - .. figure:: /images/render_cycles_settings_scene_render-layers_denoising_example1.jpg
+
+          Example render before denoising.
+
+     - .. figure:: /images/render_cycles_settings_scene_render-layers_denoising_example2.jpg
+
+          Example render after denoising.
+
+
 .. _render-cycles-reducing-noise-clamp-samples:
 
 Clamp Fireflies

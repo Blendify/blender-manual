@@ -8,3 +8,4 @@
 
    layers.rst
    passes.rst
+   denoising.rst
