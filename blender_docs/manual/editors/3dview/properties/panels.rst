@@ -49,6 +49,8 @@ Grid Floor
       (odd values will be rounded down).
    Scale
       Controls the distance between the grid lines.
+
+      This is also used for the size of newly added objects.
    Subdivisions
       Controls the number of sub-lines that appear in each cell of the grid.
       In aligned orthographic views the level of subdivision depend on the zoom.
