@@ -105,7 +105,10 @@ html_server: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	manual_use_analytics="True" \
-	$(SPHINXBUILD) -a -E -j 8 -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
+	# - Single thread because we run many builds at once.
+	# - Optimize to use less memory per-process.
+	PYTHONOPTIMIZE=2 \
+	$(SPHINXBUILD) -a -E -b html $(SPHINXOPTS) -j 1 ./manual "$(BUILDDIR)/html"
 
 singlehtml: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
