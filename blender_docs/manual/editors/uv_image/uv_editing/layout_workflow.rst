@@ -1,7 +1,7 @@
 
-**************
-Layout Worflow
-**************
+***************
+Layout Workflow
+***************
 
 Optimizing the UV Layout
 ========================
