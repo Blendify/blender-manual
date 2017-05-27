@@ -107,7 +107,7 @@ Format
    Uncomment
       Uncomments the selected lines.
    Convert Whitespace
-      Converts sigular space characters, to tab characters.
+      Converts between tab or space indentation.
 Template
    See `Script and Templates`_.
 

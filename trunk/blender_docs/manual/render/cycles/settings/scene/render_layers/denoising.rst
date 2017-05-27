@@ -59,7 +59,8 @@ The denoiser will change in the future and some features are not implemented yet
 If denoising fails to produce good results, more samples or clamping will often resolve the issue.
 
 - Setting the radius too high is generally not advisable. It increases denoising time a lot and,
-  while the result might be smoother, it is not more accurate since there isn't any additional info coming out of the renderer.
+  while the result might be smoother, it is not more accurate
+  since there isn't any additional info coming out of the renderer.
   Beyond a radius of ~15, the additional rendering time is probably better spent on increasing the amount of samples.
 - Denoising cannot be used for baking yet.
 - For animation denoising can be used, however it still requires high sample counts for good results.
@@ -72,7 +73,8 @@ If denoising fails to produce good results, more samples or clamping will often 
 Examples
 ========
 
-Below is an example render by `The Pixelary <http://blog.thepixelary.com/post/160451378592/denoising-in-cycles-tested>`__.
+Below is an example render by
+`The Pixelary <http://blog.thepixelary.com/post/160451378592/denoising-in-cycles-tested>`__.
 
 .. list-table::
 

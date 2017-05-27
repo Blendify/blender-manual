@@ -40,7 +40,7 @@ Go to :menuselection:`Properties --> Physics` and choose *Softbody*.
 Uncheck the soft body goal, and check softbody self collision.
 Also, under soft body edges,increase the bending to 10.
 
-Playing tha animation with :kbd:`Alt-A` will now give a slow animation of a bouncing cube.
+Playing the animation with :kbd:`Alt-A` will now give a slow animation of a bouncing cube.
 To speed things up, we need to bake the softbody physics.
 
 Under *Soft Body Cache* change the start and end values to your start and end frames. In this case 1 and 150.
