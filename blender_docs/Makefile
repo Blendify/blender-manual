@@ -1,4 +1,29 @@
-SPHINXOPTS    =
+# -----------
+# System Vars
+OS:=$(shell uname -s)
+
+# ------------------------------------------
+# Get the number of cores for threaded build
+ifndef NPROCS
+	NPROCS:=1
+	ifeq ($(OS), Linux)
+		NPROCS:=$(shell nproc)
+	endif
+	ifeq ($(OS), Darwin)
+		NPROCS:=$(shell sysctl -n hw.ncpu)
+	endif
+	ifeq ($(OS), FreeBSD)
+		NPROCS:=$(shell sysctl -n hw.ncpu)
+	endif
+	ifeq ($(OS), NetBSD)
+		NPROCS:=$(shell sysctl -n hw.ncpu)
+	endif
+endif
+
+# End System Vars
+# ---------------
+
+SPHINXOPTS    = -j "$(NPROCS)"
 PAPER         =
 SPHINXBUILD   = sphinx-build
 BUILDDIR      = build
