@@ -32,7 +32,7 @@ using a "shadow buffer" rather than using raytracing,
 and various extra options and buttons appear in the *Shadow* panel.
 
 Buffer Type
-   There more than one way to generate buffered shadows.
+   There are more than one way to generate buffered shadows.
    The shadow buffer generation type controls which generator to use.
 There are four shadow generation types, those being:
    - Classical
@@ -221,7 +221,7 @@ Compress
 Common options
 ==============
 
-The following settings are common to all buffered shadow generation method.
+The following settings are common to all buffered shadow generation methods.
 
 Bias
    The *Bias* number button can have a value between (0.001 to 5.0).

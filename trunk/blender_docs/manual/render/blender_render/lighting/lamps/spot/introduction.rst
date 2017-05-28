@@ -128,5 +128,5 @@ Square
 Show Cone
    Draw a transparent cone in 3D View to visualize which objects are contained in it.
 Halo
-   Adds a volumetric effects to the spot lamp.
+   Adds a volumetric effect to the spot lamp.
    See :doc:`Spot Halos </render/blender_render/lighting/lamps/spot/halos>`.

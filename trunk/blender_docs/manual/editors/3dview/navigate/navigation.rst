@@ -45,7 +45,7 @@ you can press and hold :kbd:`Alt` while dragging :kbd:`LMB` in the viewport's ar
 .. note:: Hotkeys
 
    Remember that most hotkeys affect the **active** area (the one that has focus),
-   so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
+   so check that the mouse cursor is in the area you want to work in before you use the hotkeys.
 
 .. seealso::
 
@@ -149,9 +149,9 @@ Dolly Zoom
 In most cases its sufficient to zoom the view to get a closer look at something,
 however, you may notice that at a certain point you cannot zoom any closer.
 
-This is because Blender stores a view-point thats used for orbiting and zooming.
+This is because Blender stores a view-point that is used for orbiting and zooming.
 It works well in many cases, but sometimes you want to move the view-point to a different place.
 This is what Dolly supports, allowing you to transport the view from one place to another.
 
-You can dolly back and fourth by holding down :kbd:`Ctrl-Shift` and dragging
+You can dolly back and forth by holding down :kbd:`Ctrl-Shift` and dragging
 :kbd:`MMB`.

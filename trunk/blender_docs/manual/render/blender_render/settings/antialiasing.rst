@@ -15,7 +15,7 @@ each pixel is 'oversampled', by rendering it as if it were five pixels or more,
 and assigning an 'average' color to the rendered pixel.
 
 The buttons to control Anti-Aliasing, or Over Sampling (OSA),
-are below the rendering button in the *Render* Panel (*Render Panel.*).
+are below the rendering button in the *Render* Panel.
 
 
 Options

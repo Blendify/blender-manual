@@ -9,7 +9,7 @@ Blender
 There are some common causes for problems when using Blender. If you cannot find a solution to your problem here,
 try asking the :doc:`community </getting_started/about/community>` for help.
 
-If Blender crashes on startup there are a few things to check for:
+If Blender crashes on startup, there are a few things to check for:
 
 - See if your computer meets the `minimum requirements <https://www.blender.org/download/requirements/>`__.
 - Confirm that your graphics card is supported and that the drivers support at least OpenGL 2.1.
