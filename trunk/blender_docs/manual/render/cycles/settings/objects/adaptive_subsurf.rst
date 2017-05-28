@@ -22,7 +22,6 @@ These previously mentioned settings get removed/renamed and the following settin
 
 .. rubric:: Preview
 
-
 Levels
    The levels of subdivision to see in the 3D View,
    this works the same as the *View* setting on the original *Subdivision Modifier*.
@@ -51,8 +50,15 @@ Known limitations
 
 - Missing support for UV subdivision.
 - Creases do not match Blender creases currently.
-- Instanced are currently uninstanced, leading to increased memory usage.
+- Multi-user object data are currently made single users, leading to increased memory usage.
   For those it is better to use non-adaptive subdivision still.
 - Multi-view renders can have some inconsistencies between views.
 - Editing displacement shaders while using :ref:`True Displacement <render-cycles-materials-displacement-true>`
   does not update the viewport.
+
+.. warning::
+
+   Particle instances, Group instances, Dupliverts and Dupligroups are not tessellated individually.
+   Instead, the original object is tessellated and then duplicated on all instances.
+   To take advantage of both adaptive subdivision and instancing you should place
+   the original object at the position of the instance that is closest from the camera.
