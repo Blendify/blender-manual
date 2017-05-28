@@ -32,7 +32,7 @@ the Cycles Render engine.
 
    To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/properties/panels>`.
 
-   While this option is not specific to OpenGL rendering, its often useful to enable,
+   While this option is not specific to OpenGL rendering, it's often useful to enable,
    since it removes data such as rigs and empties that can be a distraction.
 
 

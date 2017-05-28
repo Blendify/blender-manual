@@ -9,7 +9,7 @@ Shadow Panel
    Common shadowing options for lamps.
 
 
-All lamps able to cast shadows. Share some options, described below:
+All lamps able to cast shadows share some options, described below:
 
 Shadow Method
    No Shadow

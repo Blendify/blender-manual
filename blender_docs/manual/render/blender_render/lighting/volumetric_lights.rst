@@ -32,7 +32,7 @@ but by default is not activated.
 
 The only lamp able to create volumetric effects is the
 :doc:`Spot lamp </render/blender_render/lighting/lamps/spot/halos>`
-(even thought you might consider some of the :doc:`"Sky & Atmosphere" effects
+(even though you might consider some of the :doc:`"Sky & Atmosphere" effects
 </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>`
 of the *Sun* lamp as volumetric as well).
 
