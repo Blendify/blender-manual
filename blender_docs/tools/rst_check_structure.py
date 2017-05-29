@@ -61,7 +61,7 @@ def warn_images(fn, data_src):
     #
     # note: no checks for commented text currently.
     for match in re.finditer(
-        r"^\s*\.\.\s+"
+        r"\.\.\s+"
         # |SomeID|  (optional)
         "(|\|[a-zA-Z0-9\-_]+\|\s+)"
         # figure/image::
