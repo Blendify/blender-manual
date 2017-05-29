@@ -63,24 +63,10 @@ Operation
 
    Difference
       The modified mesh is subtracted from the target mesh.
-
-      - If the target Mesh has inverted normals, Blender will Intersect the modified mesh.
-      - If the modified Mesh has inverted normals, Blender will add both meshes (Union).
-      - If both Meshes use inverted normals, Blender will Intersect the target Mesh.
-
    Union
       The target mesh is added to the modified mesh.
-
-      - If the target Mesh has inverted normals, Blender will Intersect the target Mesh.
-      - If the modified Mesh has inverted normals, Blender will subtract the target Mesh.
-      - If both Meshes use inverted normals, Blender will Intersect the modified Mesh.
-
    Intersect
       The target mesh is subtracted from the modified mesh.
-
-      - If the target Mesh has inverted normals, Blender will subtract the target Mesh.
-      - If the modified Mesh has inverted normals, Blender will intersect the target Mesh.
-      - If both Meshes use inverted normals, Blender will add both meshes (Union).
 
 Object
    The name of the target mesh object.
@@ -266,80 +252,6 @@ certain circumstances.
 
    The best way to work with this modifier when you need to make lots of sequential operations
    of the same modifier is to define the target at the time you need to apply the changes to the topology.
-
-
-Face Normals
-============
-
-When using the Boolean Modifier,
-Blender will use the face normal directions to calculate the three Boolean operations.
-The direction of the normals will define the result of the three available operations.
-When one of the participants has inverted normals, you are in fact multiplying the operation by -1
-and inverting the calculation order. You can, at any time, select your modified mesh,
-enter Edit Mode and flip the normals to change the behavior of the Boolean Modifier.
-See Tips: Fixing Mixed Normals below.
-
-Blender also cannot perform any optimal Boolean operation when one or more of the
-mesh Normals of the participants that are touching has outwards/inwards normals mixed.
-
-This means you can use the normals of the meshes pointed completely towards the inside or
-outside of your participants in the operation, but you cannot mix normals pointed inwards and
-outwards for the faces of the topology used for calculations. In this case,
-Blender will enable the modifier and you may apply the modifier, but with bad to no effects.
-We made some examples with a cube and an icosphere showing the results.
-
-In the images below, all face normals are pointing outwards (Normal meshes).
-
-.. list-table::
-
-   * - .. figure:: /images/modifier_generate_boolean_normals_pointing_outwards.png
-
-          Faces with normals pointing outwards.
-
-     - .. figure:: /images/modifier_boolean_difference_normals_pointing_outwards.png
-
-          Normal Boolean Modifier operation (Difference operation).
-
-
-In the images below, all face normals are inverted and using the intersection operation
-
-.. list-table::
-
-   * - .. figure:: /images/modifier_generate_boolean_normals_pointing_inwards.png
-
-          Boolean Operation with inverted normals.
-
-     - .. figure:: /images/modifier_generate_boolean_intersection_normals_pointing_inwards.png
-
-          Normal Boolean Modifier operation.
-
-
-Now, let us see what happens when the normal directions are mixed for one of the
-participants in the Boolean Modifier operation. The images below show face normals mixed,
-pointed to different directions and the resulting operation,
-you can see that the modifier has bad effects when applied, leaving faces opened:
-
-.. list-table::
-
-   * - .. figure:: /images/modifier_generate_boolean_normals_mixed_inwards_outwards.png
-
-          Face normals mixed, pointed to different directions.
-
-     - .. figure:: /images/modifier_generate_boolean_resulting_mesh_normals_mixed.png
-
-          Resulting operation leaves faces opened.
-
-
-As you can see, the normal directions can be pointing to any of the Mesh sides,
-but cannot be mixed in opposite directions for the faces of the participants.
-The Library cannot determine properly what is positive and negative for the operation, so the
-results will be bad or you will have no effect when using the Boolean Modifier operation.
-
-A quick way to fix this is to use Blender's
-:doc:`Recalculate Normals </modeling/meshes/editing/normals>` operation in Edit Mode.
-
-If you still have some ugly black gouges you will have to
-:doc:`Manually Flip the Normals </modeling/meshes/editing/normals>`.
 
 
 Empty or Duplicated Faces
