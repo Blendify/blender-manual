@@ -55,3 +55,18 @@ Object
 
 Solver
    TODO
+
+
+Known Limitations
+=================
+
+Boolean operates best on *water-tight* meshes, where inside/outside is clearly defined.
+
+The following characteristics are known to give bad output.
+
+- Open volumes.
+- Overlapping geometry.
+- Self-intersections.
+- Zero-area faces.
+
+While they may not fail in all situations, they aren't guaranteed to work properly.
