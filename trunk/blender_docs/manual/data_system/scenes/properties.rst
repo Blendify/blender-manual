@@ -8,6 +8,7 @@ Scene
 
 Camera
    Used to select which camera is used as the active camera.
+   You can also set the active camera the 3D View with :kbd:`Ctrl-0`.
 
 .. _scene-background-set:
 
