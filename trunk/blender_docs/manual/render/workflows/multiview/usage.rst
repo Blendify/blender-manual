@@ -24,7 +24,6 @@ Start opening up your project file, in this case ``turntable.blend`` from the *C
 Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 
 .. figure:: /images/multiview_workflow_1.png
-   :width: 1213px
 
    Turn Table Creature Factory 2.
 
@@ -44,7 +43,6 @@ Go to the :doc:`Render Layers </render/post_process/layers>` panel and enable *V
    as well as multiple panels that are now accessible all over the user interface.
 
 .. figure:: /images/multiview_workflow_3.png
-   :width: 1213px
 
    Viewport with 3D visualization.
 
@@ -93,24 +91,13 @@ Be aware that some modes require a fullscreen editor to work.
 OpenGL Preview
 ==============
 
-.. only:: builder_html
-
-   .. figure:: /images/multiview_workflow_6.gif
-      :width: 300px
-      :align: right
-
-      Turn Table OpenGL Rendering Preview.
-
 Before rendering your scene you can save an OpenGL preview of the animation for testing in the final display.
 In the Render Output panel you can choose the output *Views Format*.
 
 The options include individual files per view, top-bottom, anaglyph among others.
 Pick the one that fits your display requirements.
 
-.. only:: latex or epub
-
-   An example image can be found at:
-   https://docs.blender.org/manual/en/dev/_images/multiview_workflow_6.gif
+.. youtube:: COmIIjlH-to
 
 
 Rendering and UV/Image Editor
