@@ -18,4 +18,4 @@ The only option available on No Collision types is:
 
 Invisible
    Does not display, the same as setting the object to unrendered
-   (such as unchecking the "Camera" icon in the Outliner). Python property: ``obj.use_render``
+   (such as unchecking the "Camera" icon in the Outliner).
