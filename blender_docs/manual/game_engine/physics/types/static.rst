@@ -36,27 +36,17 @@ Options
 
 Actor
    Enables detection by Near and Radar Sensors.
-
-   - Default: On.
-   - Python property: ``obj.game.use_actor``
 Ghost
    Disables collisions completely, similar to No Collision.
-
-   - Default: Off.
-   - Python property: ``obj.game.use_ghost``
 Invisible
    Does not display, the same as setting the object to unrendered
    (such as unchecking the "Camera" icon in the Outliner).
-
-   - Default: Off.
-   - Python property: ``obj.use_render``
-
 Radius
    If you have the "Collision Bounds: Sphere"
    set explicitly (or implicitly through having the Collision Bounds subpanel unchecked),
    this will multiply with the Object's (unapplied) Scale. Note that none of the other bounds types are affected.
    Also note that in the 3D View the display will show this for all types,
-   even though it is only actually used with Sphere. Python property: ``obj.game.radius``
+   even though it is only actually used with Sphere.
 
 .. list-table::
    :header-rows: 1
@@ -204,7 +194,6 @@ Compound
    the child's collisions will not have an effect on that object "family"
    (though it will still push other objects around). If you do have it checked,
    the parent's physics will respond to the child's collision (thus updating the whole family).
-   Python property: ``obj.game.use_collision_compound``
 
 
 Create Obstacle
