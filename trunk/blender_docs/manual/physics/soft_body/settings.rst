@@ -133,6 +133,8 @@ Face
    but Deflection dampening value on a collision object does not seem to affect the face collision.
 
 
+.. _physics-softbody-settings-self-collision:
+
 Soft Body Self Collision
 ========================
 
@@ -152,13 +154,13 @@ Manual
 Average
    The average length of all edges attached to the vertex is calculated and then multiplied
    with the *Ball Size* setting. Works well with evenly distributed vertices.
-Minimal / Maximal
+Minimal/Maximal
    The ball size is as large as the smallest/largest spring length of the vertex multiplied with the *Ball Size*.
 Average Min Max
    Size = ((Min + Max)/2) × *Ball Size*.
 
 Size
-   Default 0.49 BU or fraction of the length of attached edges.
+   Fraction of the length of attached edges.
    The edge length is computed based on the algorithm you choose.
    You know how when someone stands too close to you, and feel uncomfortable?
    We call that our "personal space", and this setting is the factor that is multiplied by the spring length.
@@ -170,20 +172,27 @@ Size
    there will not be enough time to slow them down.
 
 Stiffness
-   Default 1.0. How elastic that ball of personal space is.
+   How elastic that ball of personal space is.
 
 Dampening
-   Default 0.5. How the vertex reacts.
+   How the vertex reacts.
    A low value just slows down the vertex as it gets too close. A high value repulses it.
 
 Collisions with other objects are set in the (other) :doc:`Collision panel </physics/collision>`.
 To collide with another object they have to share at least one common layer.
 
 
+.. _physics_softbody_settings_solver:
+
 Soft Body Solver
 ================
 
 These settings determine the accurateness of the simulation.
+
+.. figure:: /images/physics_soft-body_collision_solver-parameters.png
+
+   Soft Body Solver Settings.
+
 
 Min Step
    Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
