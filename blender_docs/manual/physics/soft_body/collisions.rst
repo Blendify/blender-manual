@@ -101,7 +101,7 @@ If a vertex penetrates the zone between *Outer* and *Inner*, it is repulsed by a
 the direction of the face normal. The position that a vertex finally ends up in is dependent
 on the forces that act upon it. In the example gravity and the repulsion force of the face balance out.
 The speed at which the vertex is pulled out of the collision zone is influenced by the *Choke* parameter
-Fig. :ref:`fig-softbody-collision-parameter`.
+in the :ref:`Soft Body Solver settings <physics_softbody_settings_solver>`.
 
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
 In Fig. :ref:`fig-softbody-collision-vertex2` you can see vertices traveling at different speeds.
@@ -122,22 +122,15 @@ You can set up your collision so that edges and even faces are included in the c
 the edge or face intersects with the collision object, the collision zones are not used.
 
 
-Good collisions
+Good Collisions
 ---------------
-
-.. _fig-softbody-collision-parameter:
-
-.. figure:: /images/physics_soft-body_collision_solver-parameters.png
-
-   Parameters for Soft Body calculation.
-
 
 If the collision you have set up is not behaving properly, you can try the following:
 
 .. tip:: The best way
 
-   Add *Loop Cuts* to your Soft Body object in strategic areas that you know are most likely to
-   be involved in a collision.
+   Add *Loop Cuts* to your Soft Body object in strategic areas that
+   you know are most likely to  be involved in a collision.
 
 
 - The Soft Body object must have more subdivisions than the collision object.
@@ -154,49 +147,7 @@ If the collision you have set up is not behaving properly, you can try the follo
 Often it is better to create a simplified mesh to use as your collision object,
 however, this may be difficult if you are using an animated mesh.
 
+Self Collisions
+===============
 
-Self Collision
-==============
-
-*Self Collision* is working only if you have activated *Use Edges*.
-
-When enabled,
-allows you to control how Blender will prevent the Soft Body from intersecting with itself.
-Every vertex is surrounded with an elastic virtual ball.
-Vertices may not penetrate the balls of other vertices.
-If you want a good result you may have to adjust the size of these balls.
-Normally it works pretty well with the default options.
-
-Ball Size Calculation
-   Man ("manual")
-      The *Ball Size* directly sets the ball size (in BU).
-   Av ("average")
-      The average length of all edges attached to the vertex is calculated and then multiplied
-      with the *Ball Size* setting. Works well with evenly distributed vertices.
-   Min / Max
-      The ball size is as large as the smallest/largest spring length of the vertex multiplied with the *Ball Size*.
-   AvMiMax ("average min/max")
-      Size = ((Min + Max)/2) × *Ball Size*.
-
-Ball Size
-   Default 0.49 BU or fraction of the length of attached edges.
-   The edge length is computed based on the algorithm you choose. You know how when someone stands too close to you,
-   and feel uncomfortable? We call that our "personal space",
-   and this setting is the factor that is multiplied by the spring length. It is a spherical distance (radius)
-   within which, if another vertex of the same mesh enters,
-   the vertex starts to deflect in order to avoid a self-collision.
-
-   Set this value to the fractional distance between vertices that you want them to have their own "space".
-   Too high of a value will include too many vertices all the time and slow down the calculation.
-   Too low of a level will let other vertices get too close and thus possibly intersect
-   because there will not be enough time to slow them down.
-
-Stiffness
-   Default 1.0. How elastic that ball of personal space is.
-
-Damping
-   Default 0.5. How the vertex reacts.
-   A low value just slows down the vertex as it gets too close. A high value repulses it.
-
-Collisions with other objects are set in the (other) :doc:`Collision panel </physics/collision>`.
-To collide with another object they have to share at least one common layer.
+For information on self collision please refer to the :ref:`Self Collision <physics-softbody-settings-self-collision>` settings.
