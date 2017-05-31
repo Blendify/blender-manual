@@ -20,6 +20,10 @@ Background
    This scene can have its own animation, physics-simulations etc,
    but you will have to select it from the *Scene* data-block menu, if you want to edit any of its contents.
 
+   Set's can themselves have a background set (they're recursively included).
+   So you can always make additions to existing scenes by using them as a background
+   to a newly created scene where your additions are made.
+
    .. tip::
 
       This can also be used in combination with :ref:`Linking to a Scene <data-system-linked-libraries-make-link>`,
