@@ -45,14 +45,4 @@ art-direct some semi-random layout of a collection of objects (i.e. leaves/balls
 when doing so with particles is not desirable
 (e.g. due to undesirable distribution of items leaving random gaps and overlapping in other places).
 
-.. only:: builder_html
-
-   .. figure:: /images/build_modifier_animated.gif
-      :width: 285px
-
-      Build Modifier in action.
-  
-.. only:: latex or epub
-      
-   An example of the build modifier at work can be found at:
-   https://docs.blender.org/manual/en/dev/_images/build_modifier_animated.gif
+.. youtube:: -7SqfX5vt_8&
