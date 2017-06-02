@@ -51,7 +51,7 @@ If this area does not contain a face,
 it will simply be transparent or non-existent in the rendered image.
 
 A face is defined as the area between either three (triangles), four (quadrangles) or more (n-gons) vertices,
-with an edge on every side. These are often abbreviated to *tris, quads & n-gons*.
+with an edge on every side. The faces are often abbreviated to *tris, quads & n-gons*.
 
 Triangles are always flat and therefore easy to calculate. On the other hand,
 quadrangles "deform well" and are therefore preferred for animation and subdivision modeling.
@@ -95,7 +95,7 @@ For a detailed description of how to work with loops in Blender, see:
 Edge Loops
 ----------
 
-Loops (1 and 2) in Fig Edge and Face Loops are edge Loops.
+Loops (1 and 2) in Fig. :ref:`fig-mesh-topo-loop` are edge Loops.
 They connect vertices so that each one on the loop has exactly two neighbors that are not on the
 loop and placed on both sides of the loop (except the start and end vertex in case of poles).
 

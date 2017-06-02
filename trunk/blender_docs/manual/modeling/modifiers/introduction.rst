@@ -20,12 +20,12 @@ There are four types of modifiers:
 
 
 Modify
-   The *Modify* group of modifiers include tools similar to the *Deform Modifiers* (see below),
+   The *Modify* group of modifiers includes tools similar to the *Deform Modifiers* (see below),
    but which do not directly affect the shape of the object;
    rather they affect some other data, such as vertex groups.
 
 Generate
-   The *Generate* group of modifiers include constructive tools that either change the
+   The *Generate* group of modifiers includes constructive tools that either change the
    general appearance of or automatically add new geometry to an object.
 
 Deform
