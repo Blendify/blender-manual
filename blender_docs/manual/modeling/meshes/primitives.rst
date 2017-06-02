@@ -29,7 +29,7 @@ You can also add primitives in Edit Mode at the 3D cursor.
 
 .. hint::
 
-   When you are modeling, that, in order to facilitate the modeling,
+   In order to facilitate the modeling,
    the best solution is to imagine what primitive type suits better for your model.
    If you will model a cuboid, the best solution is to start with a primitive cube, and so on.
 
