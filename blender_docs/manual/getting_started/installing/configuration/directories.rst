@@ -20,15 +20,15 @@ For locally extracted Blender distributions, the user configuration and data run
 kept in the same sub-directory, allowing multiple Blender versions to run without conflict,
 ignoring the **USER** and **SYSTEM** files.
 
-.. note::
-
-   You may need to have the "show hidden files" option checked in your file browser settings.
-
 
 Platform Dependent Paths
 ========================
 
 Here are the default locations for each system:
+
+.. note::
+   The path ``./|BLENDER_VERSION|/`` is relative to the Blender executable &
+   used for self-contained bundles distributed by official blender.org builds.
 
 
 Linux
@@ -40,10 +40,6 @@ USER
    .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/
 SYSTEM
    .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
-
-.. note::
-   The path ./|BLENDER_VERSION|/ is relative to the Blender Executable &
-   used for self-contained bundles distributed by official blender.org builds.
 
 .. note::
    The **USER** path will use ``$XDG_CONFIG_HOME`` if its set:
@@ -69,21 +65,15 @@ SYSTEM
    .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/
 
 
-.. MS-Windows no longer works loke this: update paths (TODO).
-
 MS-Windows
 ----------
 
 LOCAL
    .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.
 USER
-   .. parsed-literal::
-
-      C:\\Documents and Settings\\$USERNAME\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: %USERPROFILE%Users\\AppData\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 SYSTEM
-   .. parsed-literal::
-
-      C:\\Documents and Settings\\All Users\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: %USERPROFILE%Users\\AppData\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
 
 Path Layout
@@ -91,9 +81,7 @@ Path Layout
 
 This is the path layout which is used within the directories described above.
 
-Where ``./config/startup.blend`` could be ~/.blender/|BLENDER_VERSION|/config/startup.blend
-for example.
-
+Where ``./config/startup.blend`` could be ``~/.blender/|BLENDER_VERSION|/config/startup.blend`` for example.
 
 ``./autosave/ ...``
    Autosave blend-file location. (Windows only, temp directory used for other systems).
@@ -124,12 +112,6 @@ for example.
 
 ``./datafiles/locale/{language}/``
    Static precompiled language files for UI translation.
-
-``./datafiles/icons/*.png``
-   Icon themes for Blender's user interface. (Not currently selectable in the theme preferences).
-
-``./datafiles/brushicons/*.png``
-   Images for each brush.
 
 ``./scripts/ ...``
    Python scripts for the user interface and tools.
@@ -167,7 +149,7 @@ for example.
    :menuselection:`Text Editor --> Templates --> Open Shading Language`.
 
 ``./python/ ...``
-   Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.
+   Bundled Python distribution.
 
    Search order: ``LOCAL, SYSTEM``.
 
