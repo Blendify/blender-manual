@@ -72,8 +72,8 @@ There are two possible ways to avoid this:
 Options
 -------
 
-:term:`Timecode`
-   Timecode to use on the selected movie strip.
+Timecode
+   :term:`Timecode` to use on the selected movie strip.
 
 The following timecodes are supported:
 

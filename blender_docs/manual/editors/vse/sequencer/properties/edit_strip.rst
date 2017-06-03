@@ -17,12 +17,16 @@ Blend Mode
       A strip replaces the output image of any lower-level strips.
 Opacity
    Set the opacity (alpha) of the strip.
-Mute (eye icon)
-   Hides the strip so that it does not participate in the final image computation.
-Lock (padlock icon)
-   Prevents the strip from being moved.
+
+   Mute (eye icon)
+      Hides the strip so that it does not participate in the final image computation.
+
 Channel
    Changes the channel number, or row, of the strip.
+   
+   Lock (padlock icon)
+      Prevents the strip from being moved.
+
 Start Frame
    Changes the starting frame number of the strip, which is the same as grabbing and moving the strip.
 Length
