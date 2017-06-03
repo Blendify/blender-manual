@@ -69,11 +69,11 @@ MS-Windows
 ----------
 
 LOCAL
-   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.
+   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\
 USER
-   .. parsed-literal:: %USERPROFILE%Users\\AppData\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 SYSTEM
-   .. parsed-literal:: %USERPROFILE%Users\\AppData\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
 
 Path Layout
