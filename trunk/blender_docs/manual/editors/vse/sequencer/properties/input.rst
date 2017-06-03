@@ -21,16 +21,17 @@ Input Color Space
 Alpha mode
    If the source file has an Alpha (transparency) channel, you can choose:
 
-   :term:`Straight Alpha`, :term:`Premultiplied Alpha`
-Change Data/File :kbd:`C`
+   :term:`Straight Alpha` or :term:`Premultiplied Alpha`
+Change Data/File
    Same as the *Path* and *File* fields, but
    this time combined to open the file browser in order to find the file(s) you search.
+   :menuselection:`Strip --> Change --> Paths/files`
+
 MPEG Preseek
    Movie strip only -- Use the Preseek field to tell Blender to look backward and
    compose the image based on the n previous frames (e.g. 15 for Mpeg2 DVD).
 Stream index
    Movie strip only -- For files with several movie streams, use the stream with the given index.
-
 
 Image Offset
    Used to translate the frames along the X and Y axis.
