@@ -57,7 +57,7 @@ Physics Deactivation
    These settings help reducing the processing spent on Physics simulation during the game.
 
    Linear Threshold
-      The speed limit under which a rigid bodies will go to sleep (stop moving)
+      The speed limit under which a rigid body will go to sleep (stop moving)
       if it stays below the limits for a time equal or longer than the deactivation time
       (sleeping is disabled when deactivation time is set to 0).
    Angular Threshold
@@ -122,7 +122,7 @@ for more details.
 
 Type
    None
-      Obstacle simulation is disabled, actors are not able to avoid obstacles
+      Obstacle simulation is disabled, actors are not able to avoid obstacles.
    RVO (cells)
       Obstacle simulation is based on the `RVO method <http://gamma.cs.unc.edu/RVO/>`__ with cell sampling.
    RVO (rays)
