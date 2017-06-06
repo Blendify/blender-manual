@@ -1,3 +1,4 @@
+.. _bpy.types.NormalEditModifier.:
 
 ********************
 Normal Edit Modifier
@@ -69,4 +70,3 @@ The only mandatory prerequisite to use it is to enable *Auto Smooth* option in M
 
    More complex normal manipulations can be achieved by copying normals from one mesh to another,
    see the :doc:`Data Transfer Modifier </modeling/modifiers/modify/data_transfer>`.
-

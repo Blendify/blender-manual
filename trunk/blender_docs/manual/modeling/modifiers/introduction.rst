@@ -18,7 +18,6 @@ and *Apply* a modifier if you wish to make its changes permanent.
 
 There are four types of modifiers:
 
-
 Modify
    The *Modify* group of modifiers includes tools similar to the *Deform Modifiers* (see below),
    but which do not directly affect the shape of the object;
@@ -39,6 +38,8 @@ Simulate
    place in the modifier stack used as base data by the tool they represent. Generally,
    the attributes of these modifiers are accessible in separate panels.
 
+
+.. _bpy.types.Modifier.show:
 
 Interface
 =========

@@ -1,3 +1,4 @@
+.. _bpy.types.ArrayModifier.:
 
 **************
 Array Modifier
