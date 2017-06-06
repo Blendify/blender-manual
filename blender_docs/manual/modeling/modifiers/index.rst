@@ -1,3 +1,4 @@
+.. _bpy.types.Modifier.:
 .. _modifiers-index:
 
 ############

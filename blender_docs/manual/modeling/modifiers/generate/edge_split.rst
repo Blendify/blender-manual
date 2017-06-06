@@ -1,3 +1,4 @@
+.. _bpy.types.EdgeSplitModifier.:
 
 *******************
 Edge Split Modifier

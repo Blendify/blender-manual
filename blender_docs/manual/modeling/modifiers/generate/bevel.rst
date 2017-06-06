@@ -1,3 +1,4 @@
+.. _bpy.types.BevelModifier.:
 
 **************
 Bevel Modifier
@@ -8,7 +9,6 @@ to, allowing control of how and where the bevel is applied to the mesh.
 
 The Bevel Modifier is a non-destructive alternative to the
 :doc:`Bevel Operation </modeling/meshes/editing/subdividing/bevel>` in edit mode.
-
 
 .. list-table::
 
