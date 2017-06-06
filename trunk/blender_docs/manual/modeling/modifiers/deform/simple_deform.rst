@@ -1,3 +1,4 @@
+.. _bpy.types.SimpleDeformModifier.:
 
 **********************
 Simple Deform Modifier
@@ -58,5 +59,3 @@ Limits
 Lock X Axis / Lock Y Axis (Taper and Stretch modes only)
    These controls whether the X and/or Y coordinates are allowed to change or not.
    Thus it is possible to squash the X coordinates of an object and keep the Y coordinates intact.
-
-

@@ -1,3 +1,4 @@
+.. _bpy.types.ParticleSystemModifier.:
 .. _particles-index:
 
 ###################

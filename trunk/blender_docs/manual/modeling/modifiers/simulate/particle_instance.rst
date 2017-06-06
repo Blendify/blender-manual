@@ -1,5 +1,6 @@
 ..    TODO/Review: {{Review|im=new?}}.
 
+.. _bpy.types.ParticleInstanceModifier.:
 
 **************************
 Particle Instance Modifier
