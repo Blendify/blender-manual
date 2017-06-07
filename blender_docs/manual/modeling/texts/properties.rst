@@ -186,7 +186,6 @@ this object is duplicated on this char. The original chars remain visible. The o
 duplicated so that their center is positioned at the *lower right corner* of the
 corresponding characters.
 
-
 Text on Curve
    Used to select a curve for the text object to follow.
 
@@ -332,6 +331,7 @@ X offset and Y offset
    Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
    frames (see :doc:`Text Boxes </modeling/texts/editing>`), it applies to all frames' content...
 
+.. _bpy.types.TextBox.:
 
 Text Boxes
 ==========

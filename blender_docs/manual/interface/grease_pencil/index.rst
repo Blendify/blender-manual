@@ -1,4 +1,5 @@
 .. _grease-pencil-index:
+.. _bpy.types.GreasePencil.:
 
 ################
   Grease Pencil

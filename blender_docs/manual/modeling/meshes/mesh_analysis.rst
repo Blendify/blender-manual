@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|split=X|text=splitted mesh - mesh analysis}}.
+.. _bpy.types.MeshStatVis.:
 
 *************
 Mesh Analysis

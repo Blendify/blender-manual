@@ -1,3 +1,4 @@
+.. _bpy.types.Brush.:
 
 *****
 Brush
@@ -5,8 +6,7 @@ Brush
 
 Brushes
    :ref:`ui-data-block` to select a preset Brush Types or a custom brush.
-   They are a combination of a 'tool',
-   along with stroke, texture, and options.
+   They are a combination of a 'tool', along with stroke, texture, and options.
 
    The brush can be selected by numbers:
    :kbd:`0` to :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`.

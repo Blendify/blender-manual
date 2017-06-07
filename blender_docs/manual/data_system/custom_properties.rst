@@ -1,3 +1,4 @@
+.. _bpy.types.bpy_struct:
 
 *****************
 Custom Properties

@@ -1,4 +1,5 @@
 .. _modeling-text-index:
+.. _bpy.types.TextCurve.:
 
 #######
   Text

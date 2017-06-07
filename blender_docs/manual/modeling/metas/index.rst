@@ -1,4 +1,5 @@
 .. _modeling-metas-index:
+.. _bpy.types.MetaBall.:
 
 ############
   Metaball
