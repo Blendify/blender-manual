@@ -1,3 +1,5 @@
+.. _bpy.types.ID.:
+.. _bpy.types.BlendData:
 
 ***********
 Data-Blocks
