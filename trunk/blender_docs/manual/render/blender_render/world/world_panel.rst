@@ -72,6 +72,7 @@ Exposure and Range
 See :doc:`/render/blender_render/world/exposure`.
 
 
+.. _bpy.types.WorldTextureSlot.:
 .. _bi-world-texture:
 
 Textures

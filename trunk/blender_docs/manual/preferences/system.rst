@@ -1,3 +1,4 @@
+.. _bpy.types.UserPreferencesSystem.:
 
 ******
 System
@@ -254,7 +255,9 @@ Memory Cache Limit
    For optimum clip editor and sequencer performance, high values are recommended.
 
 
-Solid OpenGL lights
+.. _bpy.types.UserSolidLight.:
+
+Solid OpenGL Lights
 ===================
 
 *Solid OpenGL Lights* are used to light the 3D View,

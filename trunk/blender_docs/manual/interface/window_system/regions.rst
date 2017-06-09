@@ -1,3 +1,4 @@
+.. _bpy.types.Region.:
 
 *******
 Regions
@@ -20,6 +21,7 @@ See specific documentation about each editor in the
 
 
 .. _ui-region-header:
+.. _bpy.types.Header.:
 
 Header
 ======

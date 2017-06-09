@@ -28,6 +28,7 @@ Vertical tabs can be switched with the :kbd:`Wheel` within the tab header and
 
 
 .. _ui-panels:
+.. _bpy.types.Panel.:
 
 Panels
 ======

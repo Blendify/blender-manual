@@ -1,3 +1,4 @@
+.. bpy.types.SpaceImageEditor.:
 
 ########
   Image

@@ -1,4 +1,6 @@
 .. _interface-index:
+.. _bpy.types.WindowManager.:
+.. _bpy.types.Window:
 
 #################
   User Interface

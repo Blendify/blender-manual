@@ -1,4 +1,5 @@
 .. _editors-3dview-index:
+.. _bpy.types.SpaceView3D.:
 
 ##########
   3D View

@@ -1,4 +1,6 @@
 .. _prefs-index:
+.. _bpy.types.UserPreferences.:
+.. _bpy.types.SpaceUserPreferences.:
 
 ###################
   User Preferences

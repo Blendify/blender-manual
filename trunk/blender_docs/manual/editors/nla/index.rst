@@ -1,3 +1,4 @@
+.. _bpy.types.SpaceNLA.:
 
 ##############
   NLA Editor
