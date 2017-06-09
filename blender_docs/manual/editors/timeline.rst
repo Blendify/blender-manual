@@ -1,4 +1,3 @@
-
 .. |first| unicode:: U+023EE
 .. |last|  unicode:: U+023ED
 .. |rewind| unicode:: U+025C0
@@ -6,6 +5,8 @@
 .. |previous| unicode:: U+023EA
 .. |next|     unicode:: U+023E9
 .. |pause| unicode:: U+023F8
+
+.. bpy.types.SpaceTimeline.:
 
 ***************
 Timeline Editor

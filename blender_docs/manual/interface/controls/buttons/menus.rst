@@ -1,5 +1,7 @@
 .. |specials-button| image:: /images/interface_controls_buttons_menus_specials.png
 
+.. _bpy.types.Menu.:
+
 *****
 Menus
 *****
@@ -54,6 +56,8 @@ Select Menus
 The Select menu or short selector lets you choose between a set of options. They can show a text and/or a icon.
 The options are shown in a pop-up. The selected option is then shows as active.
 
+
+.. _bpy.types.UIPopupMenu.:
 
 Pop-Up Menus
 ============
@@ -154,6 +158,8 @@ The Specials pop-up menu contains a context-sensitive list of operators.
 It is opened by a button with a down arrow on dark background |specials-button| or
 with :kbd:`W` in most editors giving quick access to tools sensitive to the editors mode.
 
+
+.. _bpy.types.UIPieMenu.:
 
 Pie Menus
 =========

@@ -1,3 +1,4 @@
+.. _bpy.types.WorldMistSettings.:
 
 ****
 Mist
@@ -9,8 +10,8 @@ so that they mix more of the background color with the object color. With Mist e
 the further the object is away from the camera the less its alpha value will be.
 
 
-Option
-======
+Options
+=======
 
 .. figure:: /images/render_blender-render_world_mist-panel.png
    :width: 305px

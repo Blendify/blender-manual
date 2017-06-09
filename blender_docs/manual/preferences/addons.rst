@@ -1,3 +1,4 @@
+.. _bpy.types.Addon:
 
 *******
 Add-ons
@@ -63,6 +64,7 @@ Here you can also find a button to report a bug specific of this add-on.
 
 
 .. _user-prefs-addons-prefs:
+.. _bpy.types.AddonPreferences.:
 
 Add-on Preferences
 ------------------

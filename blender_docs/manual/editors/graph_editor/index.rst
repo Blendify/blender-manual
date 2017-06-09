@@ -1,4 +1,5 @@
 .. _editors-graph-index:
+.. _bpy.types.SpaceGraphEditor.:
 
 ################
   Graph Editor

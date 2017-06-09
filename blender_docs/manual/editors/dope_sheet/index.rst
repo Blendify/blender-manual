@@ -1,3 +1,5 @@
+.. _bpy.types.DopeSheet.:
+.. _bpy.types.SpaceDopeSheetEditor.:
 .. _editors-dope-sheet-index:
 
 ##############

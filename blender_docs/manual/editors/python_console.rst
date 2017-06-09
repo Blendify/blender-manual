@@ -1,3 +1,5 @@
+.. _bpy.types.ConsoleLine.:
+.. _bpy.types.SpaceConsole.:
 
 **************
 Python Console
@@ -239,4 +241,3 @@ Key Bindings
 - :kbd:`Shift-Return` -- Add to command history without executing.
 - :kbd:`Ctrl-C` -- Copy the selection.
 - :kbd:`Ctrl-V` -- Paste into the command line.
-

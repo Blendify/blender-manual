@@ -1,4 +1,6 @@
 .. _editors-index:
+.. _bpy.types.Space:
+.. _bpy.types.Space.:
 
 ###########
   Editors

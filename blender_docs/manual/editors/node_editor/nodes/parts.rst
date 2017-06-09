@@ -1,4 +1,5 @@
 .. (todo) links
+.. _bpy.types.NodeSocket:
 
 **********
 Node Parts

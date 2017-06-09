@@ -1,3 +1,4 @@
+.. _bpy.types.SpaceOutliner.:
 
 ********
 Outliner
@@ -203,4 +204,3 @@ Example
 .. figure:: /images/editors_outliner_example.png
 
    The Outliner with different kind of data.
-
