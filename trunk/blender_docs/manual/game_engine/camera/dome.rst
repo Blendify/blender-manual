@@ -142,7 +142,7 @@ For more information on the mesh format see `Paul Bourke's article <http://paulb
 .. figure:: /images/bge_dome-warped.jpg
 
 
-In order to produce that images, we are using a specific file format.
+In order to produce those images, we are using a specific file format.
 
 File template:
 

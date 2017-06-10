@@ -101,6 +101,6 @@ State Index
 Preference Button
    If on, this controller will operate before all other non-preference controllers (useful for start-up scripts).
 Active Checkbox
-   When unchecked the controller is deactivated, no pluses will be sent to the connect actuators.
+   When unchecked the controller is deactivated, no pulses will be sent to the connect actuators.
 ``X`` Button
    Deletes the sensor.

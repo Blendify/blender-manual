@@ -40,7 +40,7 @@ Embedded Player
 .. figure:: /images/bge_camera_properties_embedded.png
    :width: 300px
 
-   Game Panel.
+   Embedded Player Panel.
 
 
 This panel provides information for the Embedded Game Player which allows games to be run
@@ -68,7 +68,7 @@ Standalone Player
 .. figure:: /images/bge_camera_properties_standalone.png
    :width: 300px
 
-   Standalone Panel.
+   Standalone Player Panel.
 
 
 This panel provides information for the Standalone Game Player which allows games to be run without Blender.
@@ -271,7 +271,7 @@ Color Bar
 Bake
 ====
 
-The *Bake* panel in the *Render* tab of the *Properties* editor is very similar to it's
+The *Bake* panel in the *Render* tab of the *Properties* editor is very similar to its
 Blender Render couterpart and serves much the same purpose.
 See :doc:`Render Baking </render/blender_render/bake>` for further details.
 
