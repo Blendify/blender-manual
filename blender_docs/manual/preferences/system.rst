@@ -23,7 +23,7 @@ General
 DPI
    Value of the screen resolution which controls the size of Blender's interface fonts and internal icons shown.
    Useful for taking screen shots for book printing and use of high resolution monitors.
-   During typical usage, you may prefer to use zoom which is an available in many parts of Blender interface.
+   During typical usage, you may prefer to use zoom which is available in many parts of Blender interface.
 Virtual Pixel Mode
    Allows you to select global scaling. While the DPI only scales the interface,
    this will scale line width, vertex-size. This is intended for HiDPI monitors
