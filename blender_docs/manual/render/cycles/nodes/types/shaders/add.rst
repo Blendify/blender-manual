@@ -8,7 +8,7 @@ Add Node
 
    Add Node.
 
-The *Add* node is uses to add to *Shaders* together.
+The *Add* node is used to add to *Shaders* together.
 
 
 Inputs
