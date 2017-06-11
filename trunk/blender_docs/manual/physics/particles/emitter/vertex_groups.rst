@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|partial=X}}.
 
+.. _bpy.types.ParticleDupliWeight.:
+
 *************
 Vertex Groups
 *************

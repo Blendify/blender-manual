@@ -1,3 +1,4 @@
+.. _bpy.types.SmokeFlowSettings.:
 
 *****************
 Smoke Flow Object
@@ -146,4 +147,3 @@ These settings are useful for effects like this:
 .. figure:: /images/physics_smoke_type_flow-object_texture_usecase.jpg
    :align: center
    :width: 500px
-
