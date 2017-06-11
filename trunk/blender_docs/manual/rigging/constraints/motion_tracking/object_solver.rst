@@ -1,3 +1,4 @@
+.. _bpy.types.ObjectSolverConstraint.:
 
 ************************
 Object Solver Constraint

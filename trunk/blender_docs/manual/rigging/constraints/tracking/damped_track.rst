@@ -1,5 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
+.. _bpy.types.DampedTrackConstraint.:
 
 ***********************
 Damped Track Constraint

@@ -99,6 +99,7 @@ Pose Space (bones only)
 
 
 .. _rigging-constraints-influence:
+.. _bpy.types.Constraint.influence:
 
 Influence
 =========

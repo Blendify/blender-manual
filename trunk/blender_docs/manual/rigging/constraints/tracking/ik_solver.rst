@@ -1,5 +1,6 @@
 ..    TODO/Review: {{review|}}.
 
+.. _bpy.types.KinematicConstraint.:
 
 ********************
 IK Solver Constraint

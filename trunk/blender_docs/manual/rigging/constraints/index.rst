@@ -1,4 +1,5 @@
 .. _constraints-index:
+.. _bpy.types.Constraint.:
 
 ##############
   Constraints

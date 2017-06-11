@@ -1,5 +1,6 @@
 ..    TODO/Review: {{review|im= examples}}.
 
+.. _bpy.types.SplineIKConstraint.:
 
 ********************
 Spline IK Constraint

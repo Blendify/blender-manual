@@ -1,5 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
+.. _bpy.types.FloorConstraint.:
 
 ****************
 Floor Constraint
@@ -7,9 +8,9 @@ Floor Constraint
 
 The *Floor* constraint allows you to use its target position
 (and optionally rotation) to specify a plane with a "forbidden side",
-where the owner cannot go. This plane can have any orientation you like. In other words,
-it creates a floor (or a ceiling,
-or a wall)! Note that it is only capable of simulating entirely flat planes,
+where the owner cannot go. This plane can have any orientation you like.
+In other words, it creates a floor (or a ceiling, or a wall)!
+Note that it is only capable of simulating entirely flat planes,
 even if you use the *Vertex Group* option.
 It cannot be used for uneven floors or walls.
 

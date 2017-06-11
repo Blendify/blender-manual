@@ -1,5 +1,6 @@
 ..    TODO/Review: {{review|text=This needs a complete rewrite}}.
 
+.. _bpy.types.PivotConstraint.:
 
 ****************
 Pivot Constraint
