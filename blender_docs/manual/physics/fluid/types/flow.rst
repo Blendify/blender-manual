@@ -7,6 +7,8 @@ To control the volume of the fluid simulation,
 you can set objects in the scene to add or absorb fluid within the :doc:`Fluid Domain </physics/fluid/types/domain>`.
 
 
+.. _bpy.types.InflowFluidSettings.:
+
 Inflow
 ======
 
@@ -31,6 +33,8 @@ Local Coordinates/Enable
 Animated Mesh/Export
    See :ref:`Animated Mesh/Export <fluid-animated-mesh>`
 
+
+.. _bpy.types.OutflowFluidSettings.:
 
 Outflow
 =======

@@ -1,5 +1,6 @@
 .. _editors-sequencer-index:
 .. _bpy.types.SpaceSequenceEditor.:
+.. _bpy.types.Sequence:
 
 #########################
   Video Sequence Editor

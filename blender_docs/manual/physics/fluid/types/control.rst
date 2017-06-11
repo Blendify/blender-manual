@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review}}.
 
+.. _bpy.types.ControlFluidSettings.:
+
 *************
 Fluid Control
 *************

@@ -1,3 +1,4 @@
+.. _bpy.types.DynamicPaintBrushSettings.:
 
 *******************
 Dynamic Paint Brush

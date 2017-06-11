@@ -1,4 +1,5 @@
 .. _rigid-body-index:
+.. _bpy.types.RigidBodyObject.:
 
 #############
   Rigid Body

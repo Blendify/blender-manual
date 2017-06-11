@@ -1,3 +1,6 @@
+.. _bpy.types.ParticleHairKey.:
+.. _bpy.types.ParticleKey.:
+.. _bpy.types.ParticleTarget.:
 
 *****
 Keyed

@@ -1,3 +1,4 @@
+.. _bpy.types.ParticleEdit.:
 
 ******************
 Particle Edit Mode
@@ -113,6 +114,8 @@ Point
 Tip
    You can see and edit (including the brushes) only the tip of the particles, i.e. the last keypoint.
 
+
+.. _bpy.types.ParticleBrush.:
 
 Brush
 =====

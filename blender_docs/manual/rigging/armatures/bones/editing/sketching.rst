@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|im=some images need updated|text=retarget conversion method}}.
 
+.. _bpy.ops.sketch.:
+
 ******************
 Skeleton Sketching
 ******************
@@ -271,8 +273,7 @@ Converting to Bones
 ===================
 
 Once you have one or more selected strokes, you can convert them to bones, using either the *Convert*
-button of the *Bone Sketching* panel, or the corresponding gesture
-(see `Gestures`_).
+button of the *Bone Sketching* panel, or the corresponding gesture (see `Gestures`_).
 Each selected stroke will generate a chain of bones, oriented from its reddest end to its whitest one.
 Note that converting a stroke does not delete it.
 
@@ -285,7 +286,7 @@ Anyway, remember that straight segments are always converted to one and only one
 and that the future bones' joints are shown as green dots on selected free segments.
 
 Remember also that the roll rotation of the created bones has been set during their "parent" stroke drawing
-(except for the *Template* conversion method) - their Z axis will be aligned with the view
+(except for the *Template* conversion method) -- their Z axis will be aligned with the view
 Z axis of the active 3D View at draw time.
 
 
@@ -310,7 +311,7 @@ each free segment of the selected strokes will be uniformly divided in *n* parts
 
 
 Adaptive
-----------
+--------
 
 With this method, each free segment of the selected strokes will create as many bones as
 necessary to follow its shape closely enough. This "closely enough" parameter being set by
@@ -365,7 +366,6 @@ Retarget template bone chain to stroke.
 Template
    Template armature that will be retargeted to the stroke.
    This is a more complex topic, detailed in its :doc:`own page </rigging/armatures/bones/editing/templating>`.
-
 
 Retarget roll mode
    None
