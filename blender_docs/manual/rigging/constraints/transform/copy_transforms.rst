@@ -1,3 +1,4 @@
+.. _bpy.types.CopyTransformsConstraint.:
 
 **************************
 Copy Transforms Constraint

@@ -1,3 +1,4 @@
+.. _bpy.types.TrackToConstraint.:
 
 *******************
 Track To Constraint
@@ -21,7 +22,7 @@ This constraint shares a close relationship to the
    where it is used for plane objects always facing the camera (they are indeed "trackers",
    the camera being their "target"). Their main usage is as support for tree or mist textures:
    if they were not permanently facing the camera, you would often see your trees squeezing to nothing,
-   or your mist turning into a millefeuille paste, which would be funny but not so credible.
+   or your mist turning into a mille-feuille paste, which would be funny but not so credible.
 
 
 Options

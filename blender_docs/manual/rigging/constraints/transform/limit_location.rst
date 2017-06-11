@@ -1,3 +1,4 @@
+.. _bpy.types.LimitLocationConstraint.:
 
 *************************
 Limit Location Constraint
