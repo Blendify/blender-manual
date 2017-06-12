@@ -4,16 +4,19 @@
 Joystick Sensor
 ***************
 
+The *Joystick* sensor triggers whenever the joystick moves.
+It also detects events on a range of ancillary controls on the joystick device (hat, buttons, etc.).
+More than one joystick may be used (see "Index").
+The exact layout of the joystick controls will depend on the make and model of joystick used.
+
 .. figure:: /images/bge_sensor_joystick1.jpg
    :width: 200px
 
    Joystick sensor.
 
 
-The *Joystick* sensor triggers whenever the joystick moves.
-It also detects events on a range of ancillary controls on the joystick device (hat, buttons,
-etc.). More than one joystick may be used (see "Index").
-The exact layout of the joystick controls will depend on the make and model of joystick used.
+Properties
+==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
@@ -24,7 +27,6 @@ Index
 All Events
    Sensor triggers for all events on this joystick's current type.
 
-
 .. figure:: /images/bge_sensor_joystick_event.jpg
    :width: 200px
 
@@ -33,7 +35,6 @@ All Events
 
 Event Type
    A menu to select which joystick event to use.
-
 
 .. rubric:: Single Axis
 
@@ -54,7 +55,6 @@ Single Axis
    Axis Threshold
       Threshold at which joystick fires (Range 0 - 32768)
 
-
 .. rubric:: Hat
 
 .. figure:: /images/bge_sensor_joystick_hat.png
@@ -71,14 +71,12 @@ Hat
    Hat Direction
       Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
 
-
 .. rubric:: Axis
 
 .. figure:: /images/bge_sensor_joystick_axis.jpg
    :width: 200px
 
    Joystick Axis.
-
 
 Axis
    Axis Number
@@ -91,7 +89,6 @@ Axis
       - (Axis Number = 1) Joystick Left, Right, Up, Down
       - (Axis Number = 2) Paddle upper (Left); paddle Lower (Right);
       - Joystick twist left (Up) Joystick twist right (Down)
-
 
 .. rubric:: Button
 

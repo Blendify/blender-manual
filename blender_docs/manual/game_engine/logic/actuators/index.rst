@@ -18,7 +18,8 @@ Actuators Types
 
 .. toctree::
    :maxdepth: 1
-
+   
+   types.armature.rst
    types/action.rst
    types/camera.rst
    types/constraint.rst

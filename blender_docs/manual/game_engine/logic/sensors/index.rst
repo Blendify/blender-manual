@@ -20,6 +20,7 @@ Sensor Types
 
    types/actuator.rst
    types/always.rst
+   types/armature.rst
    types/collision.rst
    types/delay.rst
    types/joystick.rst

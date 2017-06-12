@@ -4,6 +4,8 @@
 Common
 ******
 
+.. _rigging_constraints_interface_common_target:
+
 Target
 ======
 
