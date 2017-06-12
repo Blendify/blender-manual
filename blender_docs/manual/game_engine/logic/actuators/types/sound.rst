@@ -1,5 +1,7 @@
 ..    TODO/Review: {{WikiTask/Inprogress}}.
 
+.. _bpy.types.SoundActuator.:
+
 **************
 Sound Actuator
 **************

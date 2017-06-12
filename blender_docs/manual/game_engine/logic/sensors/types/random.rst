@@ -1,3 +1,4 @@
+.. _bpy.types.RandomSensor.:
 
 *************
 Random Sensor

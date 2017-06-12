@@ -1,3 +1,4 @@
+.. _bpy.types.ActuatorSensor.:
 
 ***************
 Actuator Sensor
@@ -10,9 +11,7 @@ Actuator Sensor
 
 
 The Actuator sensor detects when a particular actuator receives an activation pulse.
-
 The *Actuator* sensor sends a TRUE pulse when the specified actuator is activated.
-
 The sensor also sends a FALSE pulse when the specified actuator is deactivated.
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.

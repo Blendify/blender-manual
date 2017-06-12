@@ -30,7 +30,6 @@ Checkbox button
 X button
   Deletes the sensor.
 
-
 .. note:: Note about triggers
 
    If a controller does not get trigger by any connected sensor
