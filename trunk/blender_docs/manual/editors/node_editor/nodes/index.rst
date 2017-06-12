@@ -13,3 +13,5 @@
    editing.rst
    properties.rst
    groups.rst
+   frames.rst
+   reroute.rst

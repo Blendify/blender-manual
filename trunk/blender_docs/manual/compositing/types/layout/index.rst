@@ -10,6 +10,4 @@ These are nodes which help you control the layout and connectivity of nodes with
 .. toctree::
    :maxdepth: 1
 
-   frame.rst
-   reroute.rst
    switch.rst
