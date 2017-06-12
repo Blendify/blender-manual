@@ -1,3 +1,4 @@
+.. _bpy.types.CollisionSensor.:
 
 ****************
 Collision Sensor

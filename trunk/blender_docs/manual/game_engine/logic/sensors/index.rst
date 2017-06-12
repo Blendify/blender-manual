@@ -1,4 +1,5 @@
 .. _sensors-index:
+.. _bpy.types.Sensor.:
 
 ##########
   Sensors

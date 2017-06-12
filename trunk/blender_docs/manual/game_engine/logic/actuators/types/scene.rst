@@ -1,3 +1,4 @@
+.. _bpy.types.SceneActuator.:
 
 **************
 Scene Actuator
@@ -11,7 +12,6 @@ Scene Actuator
 
 The *Scene* actuator manages the scenes in your blend-file,
 these can be used as levels or for UI and background.
-
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
