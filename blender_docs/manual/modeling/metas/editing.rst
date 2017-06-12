@@ -14,10 +14,11 @@ These settings apply only to the selected meta element.
 
    Active element panel.
 
+
 Type
 ----
 
-   The *Type* menu lets you change the shape of the meta object.
+The *Type* menu lets you change the shape of the meta object.
 
 
 Stiffness

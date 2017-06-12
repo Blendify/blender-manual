@@ -47,7 +47,7 @@ Specular
    .. hint::
       To compute this value for a realistic material with a known index of
       refraction, you may use this special case of the Fresnel formula:
-      *specular = square((ior - 1)/(ior + 1)) / 0.08*
+      :math:`specular = sqr((ior - 1)/(ior + 1)) / 0.08`
 
       For example:
         * water: ior = 1.33, specular = 0.25
@@ -59,10 +59,8 @@ Specular
 Specular Tint
    Tints the facing specular reflection using the base color, while glancing reflection remains white.
 
-   Normal dielectrics have colorless reflection, so this parameter
-   is not technically physically correct and is provided for artistic
-   licence and/or faking the appearance of materials with complex
-   surface structure.
+   Normal dielectrics have colorless reflection, so this parameter is not technically physically correct
+   and is provided for and/or faking the appearance of materials with complex surface structure.
 Roughness
    Specifies microfacet roughness of the surface for diffuse and specular reflection.
 
