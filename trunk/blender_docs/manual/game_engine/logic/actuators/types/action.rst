@@ -4,19 +4,20 @@
 Action Actuator
 ***************
 
+The *Action Actuator* controls animation actions, and sets the playback method.
+The *Action Actuator* is only visible when an armature is selected,
+because actions are stored in the armature.
+
 .. figure:: /images/bge_actuator_action.png
    :width: 292px
 
    Action Actuator.
 
 
-Actuates armature actions, and sets the playback method.
-The Action actuator is only visible when an armature is selected,
-because actions are stored in the armature.
+Properties
+==========
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
-
-Special Options:
 
 Action Playback Type
    Play
@@ -57,3 +58,8 @@ Layer
    The animation layer to play the action on.
 Layer Weight
    How much of the previous layer to blend into this one.
+
+Example
+=======
+
+TODO.

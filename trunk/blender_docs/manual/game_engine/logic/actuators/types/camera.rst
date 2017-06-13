@@ -4,17 +4,18 @@
 Camera Actuator
 ***************
 
-Makes the camera follow or track an object.
-
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
-
-Special Options:
+The *Camera Actuator* makes the camera follow or track an object.
 
 .. figure:: /images/bge_actuator_camera.png
    :width: 271px
 
    Camera Actuator.
 
+
+Properties
+==========
+
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Camera Object
    Name of the Game Object that the camera follows/tracks.
@@ -30,3 +31,9 @@ Damping
    Strength of the constraint that drives the camera behind the target.
    The higher the parameter,
    the quicker the camera will adjust to be inside the constrained range (of min, max and height).
+
+
+Example
+=======
+
+TODO.

@@ -4,39 +4,34 @@
 Steering Actuator
 *****************
 
-The steering actuator moves an object towards a target object, with options to seek, flee, or follow a path.
+The *Steering Actuator* moves an object towards a target object, with options to seek, flee, or follow a path.
 This actuator will not actually try to avoid obstacles by deviating the objects course.
-
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
-
-Options
-=======
 
 .. figure:: /images/bge_actuator_steering-steering_panel.jpg
 
-   Steering Actuator Panel.
+   Steering Actuator.
 
+
+Properties
+==========
+
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Behavior
    Seek, Flee or Path following
 Target Object
    The game object to seek.
 
-Navigation Mesh Object:
+Navigation Mesh Object
    The name of the navigation mesh object used by the Steering Actuator when in Path following behavior.
    The game object will use the Navigation Mesh to create a path to follow the Target Object.
 
+   .. tip::
 
-.. tip::
-
-   You can create your own mesh to use for navigation and make it a Navigation Mesh in:
-
-   :menuselection:`Properties editor --> Physics --> Physics panel --> choosing Physics Type: Navigation Mesh`
-
-   Or you can let Blender create a Navigation Mesh, then select a mesh.  (Floor or ground or etc.)
-
-   :menuselection:`Properties editor --> Scene --> Navigation mesh object panel --> Build navigation mesh`
-
+      You can create your own mesh to use for navigation and make it a Navigation Mesh in:
+      :menuselection:`Properties editor --> Physics --> Physics panel --> choosing Physics Type: Navigation Mesh`
+      Or you can let Blender create a Navigation Mesh, then select a mesh.  (Floor or ground or etc.)
+      :menuselection:`Properties editor --> Scene --> Navigation mesh object panel --> Build navigation mesh`
 
 Distance
    The maximum distance for the game object approach the Target Object.
@@ -54,7 +49,6 @@ Axis
 Axis N
    Use the Normal of the Navigation Mesh to align the up vector of the game object.
 
-
 .. rubric:: Self Terminated
 
 Disabled
@@ -66,3 +60,9 @@ Enabled
 Visualize
    This checkbox let the user specify whether to show or not the debug informations of the actuator.
    It is also necessary to enable Debug Properties in the Display menu of the *Render* tab.
+
+
+Example
+=======
+
+TODO.
