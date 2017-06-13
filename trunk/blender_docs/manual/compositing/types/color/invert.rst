@@ -11,7 +11,7 @@ Invert Node
 
    Invert Node.
 
-This node inverts the colors in the input image, producing a negative.
+The *Invert Node* inverts the colors in the input image, producing a negative.
 
 
 Inputs
@@ -39,3 +39,9 @@ Outputs
 
 Color
    Standard image output.
+
+
+Example
+=======
+
+TODO.

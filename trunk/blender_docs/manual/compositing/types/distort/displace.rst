@@ -8,7 +8,7 @@ Displace Node
 
    Displace Node.
 
-This node displaces the pixel position based on an input vector.
+The *Displace Node* displaces the pixel position based on an input vector.
 
 This node could be used to model phenomena, like hot air distortion,
 refractions of uneven glass or for surreal video effects.
@@ -41,4 +41,3 @@ Outputs
 
 Image
    Standard image output.
-

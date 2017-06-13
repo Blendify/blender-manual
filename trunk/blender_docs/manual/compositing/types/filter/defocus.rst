@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|copy=X}}.
+.. Todo: review examples section
 
 ************
 Defocus Node
@@ -9,7 +9,7 @@ Defocus Node
 
    Defocus Node.
 
-This node blurs areas of an image based on a map/mask input.
+The *Defocus Node* blurs areas of an image based on a map/mask input.
 
 It is typically used to emulate depth of field (:term:`DOF`) using a post-processing method with a Z-buffer input.
 But also allows to blur images that are not based on Z depth too.
@@ -122,8 +122,7 @@ Camera Settings
    Distance setting in the Camera Depth of Field panel.
 
 
-The *Defocus* node uses the actual camera data in your scene if supplied by a
-*Render Layer* node.
+The *Defocus* node uses the actual camera data in your scene if supplied by a *Render Layer* node.
 
 To set the point of focus, the camera now has a *Distance* parameter,
 which is shorthand for Depth of Field Distance.

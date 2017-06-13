@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|copy=X}}.
 
 *********************
 Directional Blur Node
@@ -48,3 +47,9 @@ Outputs
 
 Image
    Standard image output.
+
+
+Example
+=======
+
+TODO.

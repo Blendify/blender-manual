@@ -9,7 +9,7 @@ ID Mask Node
    ID Mask Node.
 
 
-This node can be used to access an alpha mask per object or per material.
+The *ID Mask Node* can be used to access an alpha mask per object or per material.
 
 
 Inputs

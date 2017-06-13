@@ -11,7 +11,7 @@ Mix Node
 
    Mix Node.
 
-This node mixes images by working on the individual and corresponding pixels
+The *Mix Node* mixes images by working on the individual and corresponding pixels
 of the two input images.
 Called "MixRGB" in the shader and texture context.
 

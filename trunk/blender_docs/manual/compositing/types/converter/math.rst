@@ -11,7 +11,7 @@ Math Node
 
    Math node.
 
-This node performs math operations.
+The *Math Node* performs math operations.
 
 
 Inputs
