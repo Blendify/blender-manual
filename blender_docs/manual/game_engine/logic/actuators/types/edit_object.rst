@@ -53,7 +53,7 @@ The Y-axis is considered the front of the object.
 Object
    Object to follow.
 Time
-   Number of frames it will take to turn towards the target object (Range 0-2000).
+   Number of frames it will take to turn towards the target object.
 3D Button (toggle).
    Enable 2D (X, Y) or 3D (X, Y, Z) tracking.
 
