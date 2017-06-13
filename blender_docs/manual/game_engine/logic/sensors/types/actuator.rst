@@ -4,19 +4,26 @@
 Actuator Sensor
 ***************
 
+The *Actuator Sensor* detects when a particular actuator receives an activation pulse.
+The *Actuator* sensor sends a TRUE pulse when the specified actuator is activated.
+The sensor also sends a FALSE pulse when the specified actuator is deactivated.
+
 .. figure:: /images/bge_sensor_actuator.png
    :width: 300px
 
    Actuator sensor.
 
 
-The Actuator sensor detects when a particular actuator receives an activation pulse.
-The *Actuator* sensor sends a TRUE pulse when the specified actuator is activated.
-The sensor also sends a FALSE pulse when the specified actuator is deactivated.
+Properties
+==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
-Special Options:
-
 Actuator
    Name of actuator (NB This must be owned by the same object).
+
+
+Example
+=======
+
+TODO.

@@ -4,27 +4,26 @@
 Keyboard Sensor
 ***************
 
+The *Keyboard* sensor is for detecting keyboard input.
+It can also save keyboard input to a :ref:`String property <game-engine-property-types>`.
+
 .. figure:: /images/bge_sensor_keyboard.png
    :width: 300px
 
    Keyboard sensor.
 
 
-The *Keyboard* sensor is for detecting keyboard input.
-It can also save keyboard input to a :ref:`String property <game-engine-property-types>`.
+properties
+==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
-
-Special Options:
 
 Key
    This field detects presses on a named key.
    Press the button with no label and a key to assign that key to the sensor.
    This is the active key, which will trigger the TRUE pulse.
    Click the button and then click outside of the button to deassign the key.
-
-A FALSE pulse is given when the key is released.
-
+   A FALSE pulse is given when the key is released.
 All keys button
    Sends a TRUE pulse when any key is pressed.
    This is useful for custom key maps with a
@@ -41,3 +40,8 @@ Log Toggle
 Target
    The name of property to which the keystrokes are saved. This property must be of type *String*.
    Together with a *Property* sensor this can be used for example to enter passwords.
+
+Example
+=======
+
+TODO.
