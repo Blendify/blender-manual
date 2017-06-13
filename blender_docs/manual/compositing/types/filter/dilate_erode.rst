@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|copy=X}}.
 
 *****************
 Dilate/Erode Node
@@ -10,7 +9,7 @@ Dilate/Erode Node
    Dilate/Erode Node.
 
 
-This node provides a morphology (mathematical shape analysis) filter.
+The *Dilate/Erode node* provides a morphology (mathematical shape analysis) filter.
 
 
 Inputs

@@ -11,7 +11,7 @@ RGB to BW Node
 
    RGB to BW Node.
 
-This node maps a RGB color image to a grayscale by the luminance.
+The *RGB to BW Node* maps a RGB color image to a grayscale by the luminance.
 
 
 Inputs

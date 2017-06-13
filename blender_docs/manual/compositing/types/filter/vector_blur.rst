@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|copy=X}}.
 
 *************************
 Vector (Motion) Blur Node
@@ -52,7 +51,6 @@ Outputs
 Image
    Standard image output.
 
-
 .. hint::
 
    You can make vector blur results in a little smoother by passing the Speed pass through a blur node
@@ -62,3 +60,9 @@ Image
 .. note::
 
    Does not work when reading from a multilayer OpenEXR sequence set
+
+
+Example
+=======
+
+TODO.

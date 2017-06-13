@@ -8,7 +8,7 @@ Set Alpha Node
 
    Set Alpha Node.
 
-This node adds an alpha channel to an image.
+The *Set Alpha Node* adds an alpha channel to an image.
 
 Inputs
 ======

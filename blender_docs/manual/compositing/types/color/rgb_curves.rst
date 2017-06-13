@@ -11,7 +11,8 @@ RGB Curves Node
 
    RGB Curves Node.
 
-This node allows color corrections for each color channel and levels adjustments in the compositing context.
+The *RGB Curves Node* allows color corrections for each color channel
+and levels adjustments in the compositing context.
 
 
 Inputs

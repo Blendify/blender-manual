@@ -8,7 +8,7 @@ Alpha Convert Node
 
    Alpha Convert Node.
 
-This node converts the alpha channel interpretation of an image.
+The *Alpha Convert Node* converts the alpha channel interpretation of an image.
 
 Inputs
 ======
@@ -31,4 +31,3 @@ Outputs
 
 Image
    Standard image output.
-
