@@ -57,17 +57,17 @@ Time
 3D Button (toggle).
    Enable 2D (X, Y) or 3D (X, Y, Z) tracking.
 
-.. figure:: /images/bge_actuator_edit_object_replace_mesh.jpg
-   :width: 271px
-
-   Edit Object: Replace Mesh.
-
 
 Replace Mesh
 ------------
 
 Replace mesh with another. Both the mesh and/or its physics can be replaced,
 together or independently.
+
+.. figure:: /images/bge_actuator_edit_object_replace_mesh.jpg
+   :width: 271px
+
+   Edit Object: Replace Mesh.
 
 Mesh
    Name of mesh to replace the current mesh.
