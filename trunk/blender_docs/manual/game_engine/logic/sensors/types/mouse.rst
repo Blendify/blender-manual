@@ -4,19 +4,21 @@
 Mouse Sensor
 ************
 
+The *Mouse Sensor* is for detecting mouse events.
+
 .. figure:: /images/bge_sensor_mouse1.jpg
    :width: 300px
 
    Mouse sensor.
 
 
-The *Mouse* sensor is for detecting mouse events.
+Properties
+==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
-Special Options:
-The controller consist only of a list of types of mouse events. These are:
-
+The controller consist only of a list of types of mouse events.
+A FALSE pulse is given when any of these conditions ends.
 
 Mouse over any
    Gives a TRUE pulse if the mouse moves over any game object.
@@ -35,7 +37,7 @@ Middle button
 Left button
    Gives a TRUE pulse.
 
-A FALSE pulse is given when any of the above conditions ends.
+.. note::
 
-There is no logic brick for specific mouse movement and reactions
-(such as first person camera), these have to be coded in Python.
+   There is no logic brick for specific mouse movement and reactions
+   (such as first person camera), these have to be coded in Python.

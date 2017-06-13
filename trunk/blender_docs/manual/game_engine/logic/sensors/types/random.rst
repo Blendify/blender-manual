@@ -4,21 +4,21 @@
 Random Sensor
 *************
 
+The *Random Sensor* generates random pulses.
+
 .. figure:: /images/bge_sensor_random.jpg
    :width: 300px
 
    Random sensor.
 
 
-The *Random* sensor generates random pulses.
-
+Properies
+=========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
-Special Options:
-
 Seed
-   This field to enter the initial seed for the random number algorithm. (Range 0-1000).
+   This field to enter the initial seed for the random number algorithm.
 
 .. note::
 
@@ -26,5 +26,11 @@ Seed
 
 .. note::
 
-   If you run several times with the same Seed, the sequence of intervals you get will be the same in each run,
-   although the intervals will be randomly distributed.
+   If you run several times with the same Seed, the sequence of intervals you get
+   will be the same for each run, although the intervals will be randomly distributed.
+
+
+Example
+=======
+
+TODO.

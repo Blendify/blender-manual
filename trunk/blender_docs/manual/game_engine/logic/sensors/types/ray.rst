@@ -4,20 +4,19 @@
 Ray Sensor
 **********
 
+The *Ray Sensor* shoots a ray in the direction of an axis and sends a positive pulse once it hits something.
+It can be filtered to only detect objects with a given material or property.
+
 .. figure:: /images/bge_sensor_ray.png
    :width: 300px
 
    Ray sensor.
 
 
-The *Ray* sensor shoots a ray in the direction of an axis and sends a positive pulse
-once it hits something.
-It can be filtered to only detect objects with a given material or property.
+Properties
+==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
-
-Special Options:
-It shares a lot of buttons and fields with *Radar* sensor.
 
 Property
    This field can be used to limit the sensor to look for only those objects with this property.
@@ -35,3 +34,9 @@ Range
 X-Ray Mode button
    Makes it x-ray, so that it sees through objects that do not
    have the property or material specified in the filter field.
+
+
+Example
+=======
+
+TODO.

@@ -4,23 +4,18 @@
 Property Sensor
 ***************
 
+The *Property Sensor* detects changes in the properties of its owner object.
+
 .. figure:: /images/bge_sensor_property1.png
    :width: 300px
 
    Property sensor.
 
 
-The *Property* sensor detects changes in the properties of its owner object.
+Properties
+==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
-
-Special Options:
-
-.. figure:: /images/property_evaluation_types.jpg
-   :width: 300px
-
-   Property Evaluation.
-
 
 Evaluation Type
    Specifies how the property will be evaluated against the value(s).
@@ -40,3 +35,9 @@ Equal
 .. note::
 
    The names of other properties can also be entered to compare properties.
+
+
+Example
+=======
+
+TODO.
