@@ -4,25 +4,21 @@
 Scene Actuator
 **************
 
-.. figure:: /images/bge_actuator_sound.png
+The *Scene Actuator* manages the scenes in the user's blend-file,
+these can be used as levels or for UI and background.
+
+.. figure:: /images/bge_actuator_scene.png
    :width: 257px
 
    Scene actuator.
 
 
-The *Scene* actuator manages the scenes in your blend-file,
-these can be used as levels or for UI and background.
+properties
+==========
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
-Special Options:
-The actuator has eight modes:
-
-.. figure:: /images/bge_actuator_scene_options.jpg
-   :width: 257px
-
-   Scene actuator options.
-
+The actuator has several modes described below:
 
 Restart
    Restarts the current scene, everything in the scene is reset.
@@ -46,3 +42,9 @@ Resume Scene
 .. note::
    A scene that it is paused cannot resume itself.
    You need an active scene to resume other scene that it is paused.
+
+
+Example
+=======
+
+TODO.

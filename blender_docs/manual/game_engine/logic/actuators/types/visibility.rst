@@ -4,7 +4,13 @@
 Visibility Actuator
 *******************
 
-The Visibility actuator allows the user to change the visibility of objects during runtime.
+The *Visibility Actuator* allows the user to change the visibility of objects during runtime.
+
+.. note::
+
+   Using the visibility actuator will save on Rasterizer usage, however, not Physics,
+   and so is limited in terms of Level of Detail (LOD). For LOD look at replace mesh,
+   but be aware that the logic required can negate the effect of the LOD.
 
 .. figure:: /images/bge_actuator_visibility.jpg
    :width: 271px
@@ -12,9 +18,10 @@ The Visibility actuator allows the user to change the visibility of objects duri
    Visibility actuator.
 
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+Properties
+==========
 
-Special Options:
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Visible
    Toggle checkbox to toggle visibility
@@ -25,9 +32,7 @@ Children
    will set visibility / occlusion state to all child objects, children of children (recursively)
 
 
-Usage Notes
-===========
+Example
+=======
 
-Using the visibility actuator will save on Rasterizer usage, however, not Physics,
-and so is limited in terms of Level of Detail (LOD). For LOD look at replace mesh,
-but be aware that the logic required can negate the effect of the LOD.
+TODO.
