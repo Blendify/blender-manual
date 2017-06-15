@@ -9,3 +9,4 @@
 
    introduction.rst
    security.rst
+   addon_tutorial.rst
