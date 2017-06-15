@@ -48,7 +48,6 @@ Getting Started
 The following links take you from the basics to the more advanced
 concepts of Python scripting for Blender.
 
-
 - :doc:`Text Editor </editors/text_editor>`
 - :doc:`Python Console </editors/python_console>`
 - Info Editors :ref:`info-report-console`
@@ -58,9 +57,9 @@ concepts of Python scripting for Blender.
 
 Here are external links containing a lot of good information to start learning how to write scripts for Blender:
 
-- `Introductory tutorial by Satish Goda
+`- `Introductory tutorial by Satish Goda
   <https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__
-  - Takes you from the beginning and teaches how to do basic API manipulations.
+  - Takes you from the beginning and teaches how to do basic API manipulations.`
 - `Ira Krakow's video tutorials <https://www.youtube.com/watch?v=vmhU_whC6zw>`__
   - First video in a series of video tutorials.
 - `Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
@@ -124,8 +123,7 @@ Installation
 Add-ons are conveniently installed through Blender in the :doc:`User Preferences </preferences/addons>`.
 Click the :menuselection:`Install from File...` button and select the ``.py`` or ``.zip`` file.
 
-To manually install scripts or add-ons place them in the ``add-ons``,
-``modules``, ``presets`` or ``startup`` directory according to their type.
-See the description above.
+To manually install scripts or add-ons place them in the ``add-ons``, ``modules``, ``presets``,
+or ``startup`` directory according to their type. See the description above.
 
 You can also run scripts by loading them in the :doc:`Text Editor </editors/text_editor>`.
