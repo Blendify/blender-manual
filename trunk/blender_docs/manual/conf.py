@@ -41,7 +41,7 @@ extensions = [
     'youtube',
     'vimeo',
     'sphinx.ext.mathjax',
-#    'sphinx.ext.intersphinx',
+    'sphinx.ext.intersphinx',
 ]
 
 # Is there a better way to check for PDF building?
@@ -53,9 +53,7 @@ if os.environ.get('manual_use_analytics') == "True":
     extensions.append('googleanalytics')
     googleanalytics_enabled = True
 
-
-# Sphinx 1.5 not compatible with older versions commenting out until API is re-uploaded
-#intersphinx_mapping = {'blender_api': ('https://www.blender.org/api/blender_python_api_2_78_release/', None)}
+intersphinx_mapping = {'blender_api': ('https://docs.blender.org/api/current/', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../resources/templates']
@@ -69,7 +67,6 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-
 master_doc = 'index'
 
 if os.environ.get('QUICKY_CHAPTERS') is None:
