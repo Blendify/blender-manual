@@ -49,7 +49,7 @@ Technical Terms
 
 .. Modified from https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
 
-In general, the technical terms used in CG are quite new or even downright neologisms invented for the needs,
+In general, the technical terms used in computer graphics are quite new or even downright neologisms invented for the needs,
 so they do not always have a translation in your language. Moreover,
 a large part of Blender users use its English interface.
 
@@ -62,7 +62,7 @@ do not hesitate to use its English version from times to times, to get the reade
 If a term is definitively not translatable, simply use the English one,
 but make sure its manual entry is translated.
 
-In the manual, the English term is written first (to maintain alphabetic order)
+In the glossary, the English term is written first (to maintain alphabetic order)
 with the translated entry following in parenthesis, when appropriate.
 
 
