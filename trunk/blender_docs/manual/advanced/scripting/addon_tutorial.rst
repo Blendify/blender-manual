@@ -86,10 +86,11 @@ Notice this add-on does not do anything related to Blender,
 This is a contrived example of an add-on that serves to illustrate the point
 that the base requirements of an add-on are simple.
 
-An add-on will typically register operators, panels, menu items etc, but its worth noting that _any_ script can do this,
-when executed from the text editor or even the interactive console -- there is nothing inherently different about an
-add-on that allows it to integrate with Blender, such functionality is just provided by the :mod:`blender_api:bpy`
-module for any script to access.
+An add-on will typically register operators, panels, menu items etc,
+but its worth noting that _any_ script can do this,
+when executed from the text editor or even the interactive console --
+there is nothing inherently different about an add-on that allows it to integrate with Blender,
+such functionality is just provided by the :mod:`blender_api:bpy` module for any script to access.
 
 So an add-on is just a way to encapsulate a Python module in a way a user can easily utilize.
 
@@ -237,8 +238,8 @@ if you want it to be enabled on restart, press *Save as Default*.
 Your Second Add-on
 ==================
 
-For our second add-on, we will focus on object instancing - this is - to make linked copies of an object in a
-similar way to what you may have seen with the array modifier.
+For our second add-on, we will focus on object instancing -- this is -- to make linked
+copies of an object in a similar way to what you may have seen with the array modifier.
 
 
 Write The Script
@@ -273,7 +274,7 @@ As before, first we will start with a script, develop it, then convert into an a
 Now try copy this script into Blender and run it on the default cube.
 Make sure you click to move the 3D cursor before running as the duplicate will appear at the cursor's location.
 
-After running, notice that when you go into edit-mode to change the cube - all of the copies change,
+After running, notice that when you go into edit-mode to change the cube -- all of the copies change,
 in Blender this is known as *Linked-Duplicates*.
 
 Next, we're going to do this in a loop, to make an array of objects between the active object and the cursor.
@@ -303,8 +304,9 @@ Next, we're going to do this in a loop, to make an array of objects between the 
 
 Try run this script with with the active object and the cursor spaced apart to see the result.
 
-With this script you'll notice we're doing some math with the object location and cursor, this works because both are
-3D :class:`blender_api:mathutils.Vector` instances, a convenient class provided by the :mod:`blender_api:mathutils` module and
+With this script you'll notice we're doing some math with the object location and cursor,
+this works because both are 3D :class:`blender_api:mathutils.Vector` instances,
+a convenient class provided by the :mod:`blender_api:mathutils` module and
 allows vectors to be multiplied by numbers and matrices.
 
 If you are interested in this area, read into :class:`blender_api:mathutils.Vector`
@@ -365,11 +367,11 @@ The first step is to convert the script as-is into an add-on.
        register()
 
 
-Everything here has been covered in the previous steps, you may want to try run the add-on still
-and consider what could be done to make it more useful.
+Everything here has been covered in the previous steps, you may want to try run
+the add-on still and consider what could be done to make it more useful.
 
-The two of the most obvious missing things are - having the total fixed at 10, and having to access the operator from
-space-bar is not very convenient.
+The two of the most obvious missing things are -- having the total fixed at 10,
+and having to access the operator from space-bar is not very convenient.
 
 Both these additions are explained next, with the final script afterwards.
 
@@ -400,9 +402,10 @@ Operator properties are defined via bpy.props module, this is added to the class
    self.total
 
 
-These properties from :mod:`blender_api:bpy.props` are handled specially by Blender when the class is registered
-so they display as buttons in the user interface.
-There are many arguments you can pass to properties to set limits, change the default and display a tooltip.
+These properties from :mod:`blender_api:bpy.props` are handled specially by Blender
+when the class is registered so they display as buttons in the user interface.
+There are many arguments you can pass to properties to set limits,
+change the default and display a tooltip.
 
 .. seealso:: :mod:`blender_api:bpy.props.IntProperty`
 
@@ -443,8 +446,8 @@ Keymap
 In Blender, add-ons have their own keymaps so as not to interfere with Blenders built in key-maps.
 
 In the example below, a new object-mode :class:`blender_api:bpy.types.KeyMap` is added,
-then a :class:`blender_api:bpy.types.KeyMapItem` is added to the key-map which references our newly added operator,
-using :kbd:`Ctrl-Shift-Space` as the key shortcut to activate it.
+then a :class:`blender_api:bpy.types.KeyMapItem` is added to the key-map which references
+our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to activate it.
 
 .. code-block:: python
 
@@ -476,8 +479,9 @@ this allows you to have multiple keys accessing the same operator with different
 
 .. note::
 
-   While :kbd:`Ctrl-Shift-Space` isn't a default Blender key shortcut, its hard to make sure add-ons won't
-   overwrite each others keymaps, At least take care when assigning keys that they don't
+   While :kbd:`Ctrl-Shift-Space` is not a default Blender key shortcut,
+   it is hard to make sure add-ons will not overwrite each others keymaps,
+   At least take care when assigning keys that they do not
    conflict with important functionality within Blender.
 
 
@@ -599,8 +603,8 @@ for common tasks that you can expand on to write your own tools.
 Further Reading
 ---------------
 
-Blender comes commented templates which are accessible from the text editor header, if you have specific areas
-you want to see example code for, this is a good place to start.
+Blender comes commented templates which are accessible from the text editor header,
+if you have specific areas you want to see example code for, this is a good place to start.
 
 Here are some sites you might like to check on after completing this tutorial.
 
