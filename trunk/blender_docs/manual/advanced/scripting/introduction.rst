@@ -57,18 +57,18 @@ concepts of Python scripting for Blender.
 
 Here are external links containing a lot of good information to start learning how to write scripts for Blender:
 
-`- `Introductory tutorial by Satish Goda
+- `Introductory tutorial by Satish Goda
   <https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__
-  - Takes you from the beginning and teaches how to do basic API manipulations.`
+  Takes you from the beginning and teaches how to do basic API manipulations.
 - `Ira Krakow's video tutorials <https://www.youtube.com/watch?v=vmhU_whC6zw>`__
-  - First video in a series of video tutorials.
+  First video in a series of video tutorials.
 - `Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
-  - A quick start guide for people who already have some familiarity with Python and Blender.
+  A quick start guide for people who already have some familiarity with Python and Blender.
 - `Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__
-  - A forum thread containing many short working script examples.
+  A forum thread containing many short working script examples.
 - `Introduction to Python
   <https://cgcookie.com/archive/introduction-to-scripting-with-python-in-blender/>`__
-  - An one-hour video tutorial introducing Python and the Blender API.
+  An one-hour video tutorial introducing Python and the Blender API.
 
 
 Extending Blender
