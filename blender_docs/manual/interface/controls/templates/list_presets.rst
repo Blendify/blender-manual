@@ -73,7 +73,7 @@ Selector
    A list of available presets. A selection will overrides the included properties.
 Add ``+``
    New presets can be added based on the in the preset included properties,
-   which will be saved for later re-use.
+   which will be saved for later reuse.
    A pop-up opens where you can set a name
    after which you can select it from the list and
    in some cases additional settings.

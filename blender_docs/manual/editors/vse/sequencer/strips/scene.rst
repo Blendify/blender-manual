@@ -13,7 +13,7 @@ Options
 =======
 
 Use Sequence
-   Expand the scenes sequence strips, allowing one scene to re-use another scenes edit,
+   Expand the scenes sequence strips, allowing one scene to reuse another scenes edit,
    (instead of taking the render output from the scene).
 
    This is similar to how :doc:`Meta Strips </editors/vse/sequencer/meta>` work,

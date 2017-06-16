@@ -19,6 +19,6 @@ Color Panel
 ===========
 
 Color Presets
-   Colors saved as a preset for re-use in other nodes.
+   Colors saved as a preset for reuse in other nodes.
 Color
    Color of the node background. Node colors can be used to provide a visual cue.
