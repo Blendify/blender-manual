@@ -34,7 +34,7 @@ Suggested reading before starting this tutorial.
   to help become familiar with Blender/Python basics.
 
 
-To best troubleshoot any error message Python prints while writing scripts you run blender with from a terminal,
+To best troubleshoot any error message Python prints while writing scripts you run Blender with from a terminal,
 see :ref:`Use The Terminal <use_the_terminal>`.
 
 
@@ -72,12 +72,15 @@ To give an example, here is the simplest possible add-on.
        print("Goodbye World")
 
 
-- ``bl_info`` is a dictionary containing add-on metadata such as the title,
-  version and author to be displayed in the user preferences add-on list.
-- ``register`` is a function which only runs when enabling the add-on,
-  this means the module can be loaded without activating the add-on.
-- ``unregister`` is a function to unload anything setup by ``register``,
-  this is called when the add-on is disabled.
+``bl_info``
+   is a dictionary containing add-on meta-data such as the title,
+   version and author to be displayed in the user preferences add-on list.
+``register``
+   is a function which only runs when enabling the add-on,
+   this means the module can be loaded without activating the add-on.
+``unregister``
+   is a function to unload anything setup by ``register``,
+   this is called when the add-on is disabled.
 
 
 Notice this add-on does not do anything related to Blender,
@@ -87,7 +90,7 @@ This is a contrived example of an add-on that serves to illustrate the point
 that the base requirements of an add-on are simple.
 
 An add-on will typically register operators, panels, menu items etc,
-but its worth noting that _any_ script can do this,
+but its worth noting that *any* script can do this,
 when executed from the text editor or even the interactive console --
 there is nothing inherently different about an add-on that allows it to integrate with Blender,
 such functionality is just provided by the :mod:`blender_api:bpy` module for any script to access.
@@ -146,19 +149,19 @@ This add-on takes the body of the script above, and adds them to an operator's `
 
 
    class ObjectMoveX(bpy.types.Operator):
-       """My Object Moving Script"""      # blender will use this as a tooltip for menu items and buttons.
-       bl_idname = "object.move_x"        # unique identifier for buttons and menu items to reference.
-       bl_label = "Move X by One"         # display name in the interface.
-       bl_options = {'REGISTER', 'UNDO'}  # enable undo for the operator.
+       """My Object Moving Script"""      # Use this as a tool-tip for menu items and buttons.
+       bl_idname = "object.move_x"        # Unique identifier for buttons and menu items to reference.
+       bl_label = "Move X by One"         # Display name in the interface.
+       bl_options = {'REGISTER', 'UNDO'}  # Enable undo for the operator.
 
-       def execute(self, context):        # execute() is called by blender when running the operator.
+       def execute(self, context):        # execute() is called when running the operator.
 
            # The original script
            scene = context.scene
            for obj in scene.objects:
                obj.location.x += 1.0
 
-           return {'FINISHED'}            # this lets blender know the operator finished successfully.
+           return {'FINISHED'}            # Lets Blender know the operator finished successfully.
 
    def register():
        bpy.utils.register_class(ObjectMoveX)
@@ -384,12 +387,12 @@ int, float, vector, color, boolean and string.
 
 These properties are handled differently to typical Python class attributes
 because Blender needs to be display them in the interface,
-store their settings in key-maps and keep settings for re-use.
+store their settings in key-maps and keep settings for reuse.
 
 While this is handled in a fairly Pythonic way, be mindful that you are in fact defining tool settings that
 are loaded into Blender and accessed by other parts of Blender, outside of Python.
 
-To get rid of the literal 10 for `total`, we'll us an operator property.
+To get rid of the literal 10 for ``total``, we'll us an operator property.
 Operator properties are defined via bpy.props module, this is added to the class body.
 
 .. code-block:: python
@@ -405,7 +408,7 @@ Operator properties are defined via bpy.props module, this is added to the class
 These properties from :mod:`blender_api:bpy.props` are handled specially by Blender
 when the class is registered so they display as buttons in the user interface.
 There are many arguments you can pass to properties to set limits,
-change the default and display a tooltip.
+change the default and display a tool-tip.
 
 .. seealso:: :mod:`blender_api:bpy.props.IntProperty`
 
