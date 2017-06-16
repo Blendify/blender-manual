@@ -53,7 +53,7 @@ if os.environ.get('manual_use_analytics') == "True":
     extensions.append('googleanalytics')
     googleanalytics_enabled = True
 
-intersphinx_mapping = {'blender_api': ('https://docs.blender.org/api/current/', None)}
+intersphinx_mapping = {'blender_api': ('https://docs.blender.org/api/' + blender_version + '/', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../resources/templates']
