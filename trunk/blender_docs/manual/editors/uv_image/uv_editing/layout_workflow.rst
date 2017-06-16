@@ -140,7 +140,7 @@ Reusing Textures
 ----------------
 
 Another consideration is the need to conserve resources. Each image file is loaded in memory.
-If you can re-use the same image on different meshes, it saves memory. So, for example,
+If you can reuse the same image on different meshes, it saves memory. So, for example,
 you might want to have a generic face painting, and use that on different characters,
 but alter the UV map and shape and props (sunglasses) to differentiate.
 
@@ -149,4 +149,4 @@ and unwrap just the legs of characters to use that image.
 It would be good to have a generic skin image, and use that for character's hands, feet, arms,
 legs, and neck. When modeling a fantasy sword,
 a small image for a piece of the sword blade would suffice,
-and you would Reset Unwrap the sword faces to re-use that image down the length of the blade.
+and you would Reset Unwrap the sword faces to reuse that image down the length of the blade.

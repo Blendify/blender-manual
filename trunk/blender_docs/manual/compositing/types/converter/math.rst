@@ -207,7 +207,7 @@ To get the 6:6:7, we set the three Multiply Nodes to {6, 6, 7} and the divide no
 .. figure:: /images/compositing-node-math_quantize-red.jpg
 
 
-If you make this into a node group, you can easily re-use this setup from project to project.
+If you make this into a node group, you can easily reuse this setup from project to project.
 When you do, consider using a math node to drive the different values that you would have to
 otherwise set manually, just to error-proof your work.
 

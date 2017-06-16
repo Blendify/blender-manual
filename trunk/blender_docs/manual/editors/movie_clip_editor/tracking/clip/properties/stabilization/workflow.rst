@@ -118,7 +118,7 @@ to get a smooth transition without visible jump.
 
 The stabilizer is able to deal with gaps and partial coverage within the given tracks.
 However, the basic assumption is that each track covers a single, fixed reference point whenever there is any
-usable/enabled data. Thus, you must not "re-use" a given track to follow several different points,
+usable/enabled data. Thus, you must not "reuse" a given track to follow several different points,
 rather you should disable and thus end one track, when tracking this feature is no longer feasible.
 You may include "gaps", when a tracking point is temporarily disabled or unavailable,
 but you should start a new track for each distinct new feature to be tracked.

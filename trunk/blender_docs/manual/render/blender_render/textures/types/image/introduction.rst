@@ -35,10 +35,10 @@ model and to provide work space when rendering your image.
 For the most efficient memory usage, image textures should be square, with dimensions as powers of 2,
 such as 32×32, 64×64, 128×128, 256×256, 1024×1024, 2048×2048, and 4096×4096.
 
-If you can re-use images across different meshes, this greatly reduces memory requirements.
-You can re-use images if you map those areas of the meshes that "look alike" to a layout that
+If you can reuse images across different meshes, this greatly reduces memory requirements.
+You can reuse images if you map those areas of the meshes that "look alike" to a layout that
 uses the common image. In the overview below,
-the left image is re-used for both the sphere and a portion of the monkey.
+the left image is reused for both the sphere and a portion of the monkey.
 The monkey uses two layouts, one which has one UV map of a few faces,
 and another that has three maps.
 

@@ -27,7 +27,7 @@ Background
    .. tip::
 
       This can also be used in combination with :ref:`Linking to a Scene <data-system-linked-libraries-make-link>`,
-      where one blend-file contains the environment, which can be re-used in many places.
+      where one blend-file contains the environment, which can be reused in many places.
 
 Active Clip
    Active movie clip for constraints and viewport drawing.

@@ -162,7 +162,7 @@ For instance:
 
 - If the camera is not moving, then neither is the background: only a single frame is needed.
   (The same is true of any non-moving object within the frame.) These individual elements,
-  having been generated *once,* can be re-used as many times as necessary over as many frames as necessary.
+  having been generated *once,* can be reused as many times as necessary over as many frames as necessary.
 - Both shadows and highlights can be captured separately from the objects that are being illuminated or shadowed,
   such that the intensity, color, and depth of the effect can be adjusted later without re-rendering.
 - Start by using lights that do not cast shadows (shadow calculations are big time-killers). Then,

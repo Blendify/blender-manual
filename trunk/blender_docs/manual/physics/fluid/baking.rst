@@ -65,7 +65,7 @@ Reusing Bakes
    Manually entering (or searching for) a previously saved (baked)
    computational directory and filename mask will switch the fluid
    flow and mesh deformation to use that which existed during the old bake.
-   Thus, you can re-use baked flows by simply pointing to them in this field.
+   Thus, you can reuse baked flows by simply pointing to them in this field.
 
 Baking processing time
    Baking takes a **lot** of compute power (hence time).
