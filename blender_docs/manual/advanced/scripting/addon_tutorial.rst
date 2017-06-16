@@ -1,4 +1,9 @@
-.. _advanced_scripting_tutorial:
+.. _advanced_scripting_addon_tutorial:
+
+.. This document is an exception to the rule of not having tutorials in the reference manual.
+   Since this doesn't quite beling on the API docs either.
+   It's important we have at least one place with good basic info on how to write an add-on.
+   - ideasman42
 
 ***************
 Add-on Tutorial
@@ -533,8 +538,8 @@ Bringing it all together
 
        # handle the keymap
        wm = bpy.context.window_manager
-       # Note that in background mode (no GUI available), keyconfigs are not available either, so we have to check this
-       # to avoid nasty errors in background case.
+       # Note that in background mode (no GUI available), keyconfigs are not available either,
+       # so we have to check this to avoid nasty errors in background case.
        kc = wm.keyconfigs.addon
        if kc:
            km = wm.keyconfigs.addon.keymaps.new(name='Object Mode', space_type='EMPTY')
