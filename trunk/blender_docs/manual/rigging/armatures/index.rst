@@ -1,5 +1,6 @@
 .. _armatures-index:
-.. _bpy.types.Armature.:
+.. _bpy.types.Armature:
+.. _bpy.ops.armature:
 
 ############
   Armatures

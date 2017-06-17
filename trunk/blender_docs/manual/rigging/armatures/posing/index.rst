@@ -1,4 +1,6 @@
 .. _posing-index:
+.. _bpy.types.Pose:
+.. _bpy.ops.pose:
 
 #########
   Posing

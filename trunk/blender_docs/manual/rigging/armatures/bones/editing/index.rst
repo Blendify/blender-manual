@@ -1,3 +1,5 @@
+.. _bpy.types.EditBone:
+.. _bpy.types.ArmatureEditBones:
 
 ##########
   Editing

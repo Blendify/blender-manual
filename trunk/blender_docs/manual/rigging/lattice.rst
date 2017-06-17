@@ -1,4 +1,6 @@
-.. _bpy.types.Lattice.:
+.. _bpy.types.Lattice:
+.. _bpy.ops.lattice:
+.. _bpy.types.LatticePoint:
 
 *******
 Lattice
