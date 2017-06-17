@@ -62,7 +62,7 @@ these common options are explained for the *Spherical* field.
    softbody or cloth system by *Free Cache*, this is not done automatically. You can
    clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
 
-   Particles react to all kind of *Force Fields*,
+   Particles react to all kinds of *Force Fields*,
    Soft Bodies only to *Spherical*, *Wind*, *Vortex*
    (they react on *Harmonic* fields but not in a useful way).
 

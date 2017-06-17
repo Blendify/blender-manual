@@ -67,7 +67,7 @@ Tools
       .. figure:: /images/interface_curve-extendextrapolate.png
          :width: 150px
 
-         Extend Extrapolate.
+         Extend Extrapolated.
 
    Reset Curve
       Resets the curve in default (removes all points added to the curve).

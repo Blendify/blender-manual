@@ -3,18 +3,18 @@
 Hue Correct Node
 ****************
 
-The Hue Correct node is able to adjust the Hue, Saturation, and Value of an image,
+The *Hue Correct Node* is able to adjust the Hue, Saturation, and Value of an image,
 with an input curve.
 
 .. figure:: /images/compositing_nodes_color_hue-correct.png
 
-   Color Balance Node.
+   Hue Correct Node.
 
 Inputs
 ======
 
 Factor
-   Controls the amount of influence the node exerts on the output image
+   Controls the amount of influence the node exerts on the output image.
 Image
    Standard image input.
 
