@@ -8,6 +8,8 @@ you need to use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`
 to generate the proxy clip and it will be available after Blender makes it.
 
 
+.. _bpy.types.SequenceProxy:
+
 Proxy
 =====
 

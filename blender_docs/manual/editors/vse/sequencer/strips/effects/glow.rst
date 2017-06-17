@@ -1,3 +1,4 @@
+.. _bpy.types.GlowSequence.:
 
 ****
 Glow
@@ -37,4 +38,3 @@ Example
 .. figure:: /images/editors_sequencer_strips_glow.png
 
    Example of a Glow effect applied to a picture.
-

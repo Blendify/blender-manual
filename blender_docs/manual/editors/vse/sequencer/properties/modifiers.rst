@@ -1,3 +1,9 @@
+.. _bpy.types.BrightContrastModifier:
+.. _bpy.types.ColorBalanceModifier:
+.. _bpy.types.CurvesModifier:
+.. _bpy.types.HueCorrectModifier:
+.. _bpy.types.WhiteBalanceModifier:
+.. _bpy.types.SequenceModifier:
 
 ***************
 Modifiers Panel
