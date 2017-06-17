@@ -1,3 +1,4 @@
+.. _bpy.types.SpeedControlSequence.:
 
 *************
 Speed Control

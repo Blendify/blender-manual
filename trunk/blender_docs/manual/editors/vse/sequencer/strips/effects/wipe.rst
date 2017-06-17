@@ -1,3 +1,4 @@
+.. _bpy.types.WipeSequence.:
 
 ****
 Wipe
@@ -40,4 +41,3 @@ Blur Width
    The width of the blur used to blur the transition.
 Angle
    Control the angle of the line for *Single* and *Double* transition types.
-

@@ -3,6 +3,8 @@
 Movie & Image Strips
 ********************
 
+.. _bpy.types.MovieSequence.:
+
 Movie
 =====
 
@@ -15,6 +17,8 @@ e.g. in the Audio-Video Interleaved format (``*.avi`` file).
    Loading it, even over a high-speed LAN can take some time.
    Do not assume your computer or Blender has locked up if nothing happens for awhile.
 
+
+.. _bpy.types.ImageSequence.:
 
 Image
 =====
