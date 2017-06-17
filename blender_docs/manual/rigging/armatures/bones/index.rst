@@ -1,3 +1,5 @@
+.. _bpy.types.Bone:
+.. _bpy.types.ArmatureBones:
 
 ########
   Bones
