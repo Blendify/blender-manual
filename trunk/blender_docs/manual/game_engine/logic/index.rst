@@ -1,4 +1,5 @@
 .. _logic-index:
+.. _bpy.ops.logic:
 
 ########
   Logic
