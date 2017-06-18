@@ -1,7 +1,8 @@
-.. _bpy.types.ParticleSystemModifier.:
+.. _bpy.types.ParticleSystemModifier:
 .. _bpy.types.Particle:
 .. _bpy.types.ParticleSystem:
-.. _bpy.types.ParticleSettings.:
+.. _bpy.types.ParticleSettings:
+.. _bpy.ops.particle:
 .. _particles-index:
 
 ###################

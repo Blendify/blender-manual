@@ -1,4 +1,5 @@
-.. _bpy.types.RigidBodyWorld.:
+.. _bpy.types.RigidBodyWorld:
+.. _bpy.ops.rigidbody.world:
 
 ****************
 Rigid Body World
