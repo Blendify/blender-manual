@@ -222,9 +222,3 @@ Subdivision
 Child Particles
    Percentage of :doc:`Child Particles </physics/particles/emitter/children>`
    to see in the *Viewport*/*Render*.
-
-Use Camera Cull
-   Automatically culls objects based on the camera frustum.
-
-   Margin
-      Margin for the camera space culling.
