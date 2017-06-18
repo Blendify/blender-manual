@@ -9,4 +9,8 @@ Introduction
 Simplify
 ========
 
-TODO.
+Use Camera Cull
+   Automatically culls objects based on the camera frustum.
+
+   Margin
+      Margin for the camera space culling.
