@@ -1,4 +1,5 @@
 .. _bpy.types.Boid:
+.. _bpy.ops.boid:
 
 *****
 Boids

@@ -2,6 +2,7 @@
 .. _bpy.types.FluidSettings.:
 .. _bpy.types.FluidMeshVertex.:
 .. _bpy.types.SPHFluidSettings.:
+.. _bpy.ops.fluid:
 .. _fluid-simulation-index:
 
 ###################

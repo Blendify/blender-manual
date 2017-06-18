@@ -1,4 +1,5 @@
 .. _bpy.types.PointCache:
+.. _bpy.ops.ptcache:
 
 **************************
 Baking Physics Simulations
