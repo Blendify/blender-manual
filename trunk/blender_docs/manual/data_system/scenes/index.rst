@@ -1,3 +1,5 @@
+.. _bpy.types.Scene:
+.. _bpy.ops.scene:
 
 #########
   Scenes

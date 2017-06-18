@@ -3,6 +3,10 @@
 Scene Properties
 ****************
 
+.. _bpy.types.Scene.camera:
+.. _bpy.types.Scene.background_set:
+.. _bpy.types.Scene.active_clip:
+
 Scene
 =====
 
@@ -34,6 +38,7 @@ Active Clip
 
 
 .. _data-scenes-props-units:
+.. _bpy.types.UnitSettings:
 
 Units
 =====
@@ -148,6 +153,8 @@ For :ref:`Color Management settings <render-post-color-management>` for more inf
 .. move to audio rendering?
 
 .. _data-scenes-audio:
+.. _bpy.ops.sound.bake_animation:
+.. _bpy.types.Scene.audio_volume:
 
 Audio
 =====
@@ -202,6 +209,8 @@ See :doc:`Rigid Body World </physics/rigid_body/world>` for more information.
 
 
 .. todo move to render/settings - engine dependent
+
+.. _bpy.types.RenderSettings.simplify_subdivision:
 
 Simplify
 ========
