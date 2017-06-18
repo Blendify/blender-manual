@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|text = Blender version|fixes=move page}}.
 
+.. _bpy.ops.view3d.ruler:
+
 ********************
 Ruler and Protractor
 ********************

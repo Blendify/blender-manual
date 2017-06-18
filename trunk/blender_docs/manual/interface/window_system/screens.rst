@@ -1,3 +1,5 @@
+.. _bpy.types.Screen:
+.. _bpy.ops.screen:
 
 *******
 Screens
