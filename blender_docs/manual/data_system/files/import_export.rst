@@ -1,3 +1,5 @@
+.. _bpy.ops.export:
+.. _bpy.ops.import:
 
 *****************************
 Importing and Exporting Files

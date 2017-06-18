@@ -1,4 +1,5 @@
 .. _bpy.types.bpy_struct:
+.. _bpy.ops.wm.properties:
 
 *****************
 Custom Properties
