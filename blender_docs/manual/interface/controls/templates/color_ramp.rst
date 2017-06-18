@@ -1,4 +1,5 @@
 .. _ui-color-ramp-widget:
+.. _bpy.types.ColorRamp:
 
 *****************
 Color Ramp Widget

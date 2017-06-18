@@ -89,6 +89,8 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
    you get a perfect equilateral triangle.
 
 
+.. _bpy.ops.ed.undo_history:
+
 Undo History
 ============
 
@@ -118,6 +120,8 @@ you can hop around on the Undo timeline as much as you want as long as you do no
 Once you do make a new change, the Undo History is truncated at that point.
 Selecting one of the entries in the list takes the current status to that position.
 
+
+.. _bpy.ops.screen.repeat_last:
 
 Repeat Last
 ===========
@@ -150,7 +154,7 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
           After a :kbd:`Shift-R`.
 
 
-.. _bpy.ops.ed.undo_history:
+.. _bpy.ops.screen.repeat_history:
 
 Repeat History
 ==============

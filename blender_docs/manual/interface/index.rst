@@ -1,7 +1,8 @@
 .. _interface-index:
-.. _bpy.types.WindowManager.:
+.. _bpy.types.WindowManager:
 .. _bpy.types.Window:
-.. _bpy.ops.wm.:
+.. _bpy.ops.wm:
+.. _bpy.ops.ui:
 
 #################
   User Interface
@@ -28,6 +29,8 @@ Window System
 
 Interface Controls
 ==================
+
+.. _bpy.ops.buttons:
 
 Buttons and Controls
 --------------------
