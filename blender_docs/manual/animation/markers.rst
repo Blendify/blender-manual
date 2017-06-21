@@ -1,4 +1,5 @@
-.. _bpy.types.TimelineMarker.:
+.. _bpy.types.TimelineMarker:
+.. _bpy.ops.marker:
 
 *******
 Markers

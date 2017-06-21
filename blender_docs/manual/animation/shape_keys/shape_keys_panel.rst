@@ -1,3 +1,4 @@
+.. _bpy.ops.object.join_shapes:
 
 ****************
 Shape Keys Panel

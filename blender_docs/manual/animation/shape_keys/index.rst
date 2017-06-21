@@ -1,5 +1,6 @@
-.. _bpy.types.ShapeKey.:
-.. _bpy.types.Key.:
+.. _bpy.types.ShapeKey:
+.. _bpy.types.Key:
+.. _bpy.ops.object.*shape_key:
 
 ##############
   Shape Keys

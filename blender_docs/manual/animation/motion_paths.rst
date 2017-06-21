@@ -1,3 +1,4 @@
+.. _bpy.types.AnimViz:
 
 ************
 Motion Paths
