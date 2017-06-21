@@ -84,9 +84,8 @@ Sheen Tint
 Clearcoat
    Extra white specular layer on top of others.
    This is useful for materials like car paint and the like.
-Clearcoat Gloss:
-   Roughness of clear coat specular,
-   from zero almost diffuse to perfect sharp reflection at one.
+Clearcoat Roughness:
+   Roughness of clear coat specular.
 IOR
    Index of refraction for transmission.
 Transmission
