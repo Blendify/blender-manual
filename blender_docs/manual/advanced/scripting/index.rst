@@ -1,4 +1,5 @@
 .. _scripting-index:
+.. _bpy.ops.script:
 
 ################################
   Scripting & Extending Blender
