@@ -1,4 +1,6 @@
 .. _bpy.types.NodeGroup:
+.. Editors Note: This page gets copied into :doc:`</compositing/types/groups.rst>`
+.. --- copy below this line ---
 
 ***********
 Node Groups

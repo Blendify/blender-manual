@@ -22,3 +22,4 @@ Node Types
    types/output/index.rst
    types/patterns/index.rst
    types/textures/index.rst
+   types/groups.rst

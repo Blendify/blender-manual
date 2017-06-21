@@ -24,3 +24,4 @@ Node Types
    types/vector/index.rst
    types/converter/index.rst
    types/script.rst
+   types/groups.rst
