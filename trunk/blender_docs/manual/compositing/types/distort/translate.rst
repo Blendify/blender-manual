@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeTranslate:
 
 **************
 Translate Node
@@ -37,4 +38,3 @@ Outputs
 
 Image
    Standard image output.
-

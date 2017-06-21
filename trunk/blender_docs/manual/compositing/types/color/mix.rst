@@ -1,6 +1,9 @@
+.. _bpy.types.CompositorNodeMixRGB:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/color/mix>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/color/mix_rgb>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/color/mix_rgb>`
+
+.. --- copy below this line ---
 
 ********
 Mix Node
@@ -12,8 +15,7 @@ Mix Node
    Mix Node.
 
 The *Mix Node* mixes images by working on the individual and corresponding pixels
-of the two input images.
-Called "MixRGB" in the shader and texture context.
+of the two input images. Called "MixRGB" in the shader and texture context.
 
 Inputs
 ======

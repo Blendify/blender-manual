@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeDefocus:
 .. Todo: review examples section
 
 ************

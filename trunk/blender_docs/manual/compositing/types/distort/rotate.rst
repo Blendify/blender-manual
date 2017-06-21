@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeRotate:
 
 ***********
 Rotate Node
@@ -40,4 +41,3 @@ Outputs
 
 Image
    Standard image output.
-

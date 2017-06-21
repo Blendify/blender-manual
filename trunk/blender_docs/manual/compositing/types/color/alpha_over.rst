@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeAlphaOver:
 .. TODO: Split "Strange Halo" into properties and glossary
 
 ***************

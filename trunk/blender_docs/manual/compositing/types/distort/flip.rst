@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeFlip:
 
 *********
 Flip Node
@@ -34,4 +35,3 @@ Outputs
 
 Image
    Standard image output.
-

@@ -1,5 +1,8 @@
+.. _bpy.types.CompositorNodeNormal:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/vector/normal>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/vector/normal>`
+
+.. --- copy below this line ---
 
 ***********
 Normal Node

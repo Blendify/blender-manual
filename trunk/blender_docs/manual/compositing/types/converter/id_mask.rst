@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeIDMask:
 
 ************
 ID Mask Node

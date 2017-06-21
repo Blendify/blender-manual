@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeMapValue:
 
 **************
 Map Value Node

@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeLensdist:
 
 ********************
 Lens Distortion Node
@@ -39,4 +40,3 @@ Outputs
 
 Image
    Standard image output.
-

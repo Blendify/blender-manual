@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeVecBlur:
 
 *************************
 Vector (Motion) Blur Node

@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeScale:
 
 **********
 Scale Node

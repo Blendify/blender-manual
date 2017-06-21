@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeZcombine:
 
 **************
 Z-Combine Node
@@ -109,4 +110,3 @@ The resulting image appears to have the cube on the table.
    the outline of the transparent area will distort the background,
    enough to make it look like seeing a part of the background through
    an invisible yet Fresnel-lens object.
-

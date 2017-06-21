@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeTonemap:
 
 *************
 Tone Map Node

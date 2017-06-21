@@ -1,5 +1,8 @@
+.. _bpy.types.CompositorNodeGamma:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/color/gamma>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/color/gamma>`
+
+.. --- copy below this line ---
 
 **********
 Gamma Node

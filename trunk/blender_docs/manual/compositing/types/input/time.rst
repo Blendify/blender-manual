@@ -1,4 +1,7 @@
+.. _bpy.types.CompositorNodeTime:
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/input/time>`
+
+.. --- copy below this line ---
 
 *********
 Time Node

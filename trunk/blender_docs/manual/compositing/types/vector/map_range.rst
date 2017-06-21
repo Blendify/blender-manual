@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeMapRange:
 
 **************
 Map Range Node

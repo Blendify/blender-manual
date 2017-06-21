@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeDoubleEdgeMask:
 
 *********************
 Double Edge Mask Node

@@ -1,10 +1,10 @@
-.. Editors Note: This page gets copied into
-   :doc:`</render/cycles/nodes/types/converter/combine_separate>`
+.. _bpy.types.CompositorNodeSep:
+.. _bpy.types.CompositorNodeComb:
+.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/converter/combine_separate>`
 .. Editors Note: This page gets copied into
    :doc:`</render/blender_render/materials/nodes/types/converter/combine_separate>`
-.. Editors Note: This page gets copied into
-   :doc:`</render/blender_render/textures/nodes/types/converter/combine_separate>`
-.. TODO Cycles vector (XYZ) nodes
+
+.. --- copy below this line ---
 
 **********************
 Combine/Separate Nodes
