@@ -208,9 +208,8 @@ which holds settings that apply to all rigid bodies in this simulation.
 See :doc:`Rigid Body World </physics/rigid_body/world>` for more information.
 
 
-.. todo move to render/settings - engine dependent
-
 .. _bpy.types.RenderSettings.simplify_subdivision:
+.. _data-system_scenes_properties_simplify:
 
 Simplify
 ========
@@ -222,3 +221,9 @@ Subdivision
 Child Particles
    Percentage of :doc:`Child Particles </physics/particles/emitter/children>`
    to see in the *Viewport*/*Render*.
+
+.. seealso::
+
+   There are also render engine specific *Simplify* settings for both
+   Blender Render and :ref:`Cycles <render_cycles_settings_scene_simplify>`.
+   
