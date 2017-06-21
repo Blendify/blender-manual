@@ -1,4 +1,5 @@
-.. _bpy.types.Brush.:
+.. _bpy.types.Brush:
+.. _bpy.ops.brush:
 
 *****
 Brush

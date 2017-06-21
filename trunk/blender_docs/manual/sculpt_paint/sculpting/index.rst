@@ -1,4 +1,6 @@
 .. _painting-sculpting-index:
+.. _bpy.types.Sculpt:
+.. _bpy.ops.sculpt:
 
 ############
   Sculpting
