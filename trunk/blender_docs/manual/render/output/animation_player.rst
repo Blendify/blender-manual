@@ -1,3 +1,4 @@
+.. _bpy.ops.render.play-rendered-anim:
 .. |numsp| unicode:: U+2007
 
 ****************

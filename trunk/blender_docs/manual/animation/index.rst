@@ -1,4 +1,5 @@
 .. _animation-index:
+.. _bpy.ops.anim:
 
 ############
   Animation

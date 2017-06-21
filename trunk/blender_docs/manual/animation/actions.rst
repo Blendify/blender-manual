@@ -1,4 +1,5 @@
-.. _bpy.types.Action.:
+.. _bpy.types.Action:
+.. _bpy.ops.action:
 
 *******
 Actions
