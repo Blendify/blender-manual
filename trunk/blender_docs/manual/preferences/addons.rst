@@ -1,4 +1,5 @@
 .. _bpy.types.Addon:
+.. _bpy.ops.wm.addon:
 
 *******
 Add-ons
