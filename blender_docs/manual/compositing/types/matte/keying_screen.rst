@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeKeyingScreen:
 
 ******************
 Keying Screen Node

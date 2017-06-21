@@ -1,3 +1,5 @@
+.. _bpy.types.CompositorNodeOutputFile:
+.. _bpy.types.NodeOutputFileSlot:
 
 ****************
 File Output Node

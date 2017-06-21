@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeTexture:
 
 ************
 Texture Node
@@ -32,5 +33,3 @@ Value
    Gray scale color values.
 Color
    Color values.
-
-

@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeRLayers:
 
 ******************
 Render Layers Node
@@ -50,4 +51,3 @@ See :doc:`Cycles render passes </render/cycles/settings/scene/render_layers/pass
 
 Z
    By default the Z depth pass is enabled.
-

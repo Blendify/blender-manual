@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodePremulKey:
 
 ******************
 Alpha Convert Node

@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeDilateErode:
 
 *****************
 Dilate/Erode Node

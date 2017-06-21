@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeSetAlpha:
 
 **************
 Set Alpha Node

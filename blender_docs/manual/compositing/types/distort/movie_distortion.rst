@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeMovieDistortion:
 
 *********************
 Movie Distortion Node

@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeComposite:
 
 **************
 Composite Node
@@ -45,5 +46,3 @@ This node has no output sockets.
 
    If multiple Composite nodes are added, only the active one
    (last selected, indicated with a slightly darker header) will be used.
-
-

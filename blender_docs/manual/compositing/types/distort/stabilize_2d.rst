@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeStabilize:
 
 *****************
 Stabilize 2D Node

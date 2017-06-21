@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeInpaint:
 
 ************
 Inpaint Node

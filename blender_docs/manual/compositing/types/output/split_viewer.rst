@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeSplitViewer:
 
 *****************
 Split Viewer Node

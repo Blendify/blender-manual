@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeLevels:
 
 ***********
 Levels Node
@@ -41,5 +42,3 @@ Standard deviation
    A high standard deviation indicates that the values are spread out over a large range of values.
 
 The visualization of such data is just a gray rectangle.
-
-

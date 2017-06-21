@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeEllipseMask:
 
 *****************
 Ellipse Mask Node

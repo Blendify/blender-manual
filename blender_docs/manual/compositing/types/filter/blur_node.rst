@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeBlur:
 
 *********
 Blur Node

@@ -1,3 +1,4 @@
+.. _bpy.types.NodeFrame:
 
 **********
 Frame Node

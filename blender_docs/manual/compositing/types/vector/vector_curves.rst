@@ -1,5 +1,8 @@
+.. _bpy.types.CompositorNodeCurveVec:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/vector/curves>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/vector/curves>`
+
+.. --- copy below this line ---
 
 ******************
 Vector Curves Node
@@ -38,4 +41,3 @@ Outputs
 
 Vector
    Standard vector output.
-

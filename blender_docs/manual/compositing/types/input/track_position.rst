@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeTrackPos:
 
 *******************
 Track Position Node

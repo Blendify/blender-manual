@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeColorBalance:
 
 ******************
 Color Balance Node
@@ -61,4 +62,3 @@ where:
 - *s*: Slope (any number 0 or greater, nominal value is 1.0).
 - *o*: Offset (any number, the nominal value is 0).
 - *p*: Power (any number greater than 0, nominal value is 1.0).
-

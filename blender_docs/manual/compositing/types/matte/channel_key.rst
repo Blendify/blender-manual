@@ -1,3 +1,4 @@
+.. _bpy.types.CompositorNodeChannelMatte:
 
 ****************
 Channel Key Node
@@ -53,4 +54,3 @@ Image
    Image with an alpha channel adjusted for the keyed selection.
 Matte
    A black and white alpha mask of the key.
-

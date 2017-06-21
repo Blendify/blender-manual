@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|copy=X}}.
+.. _bpy.types.CompositorNodeBilateralblur:
 
 *******************
 Bilateral Blur Node
@@ -11,11 +11,9 @@ Bilateral Blur Node
 
 The Bilateral Blur node performs a high-quality adaptive blur on the source image.
 
-It can be used for various purposes like:
-smoothing results from Blender's raytraced ambient occlusion
-smoothing results from various unbiased renderers,
-to fake some performance-heavy processes, like blurry refractions/reflections, soft shadows,
-to make non-photorealistic compositing effects.
+It can be used for various purposes like: smoothing results from Blender's raytraced ambient occlusion
+smoothing results from various unbiased renderers, to fake some performance-heavy processes,
+like blurry refractions/reflections, soft shadows, to make non-photorealistic compositing effects.
 
 
 Inputs
