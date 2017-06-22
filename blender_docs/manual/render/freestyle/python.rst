@@ -93,10 +93,8 @@ Selection
 ---------
 
 The selection operator goes through every element of the active set and keeps only the ones
-satisfying a certain predicate.
-The ``Operators.select()`` method takes as the argument a unary
-predicate that works on any ``Interface1D`` that represents a 1D element.
-For example::
+satisfying a certain predicate. The ``Operators.select()`` method takes as the argument a unary
+predicate that works on any ``Interface1D`` that represents a 1D element. For example::
 
    Operators.select(QuantitativeInvisibilityUP1D(0))
 
@@ -105,15 +103,12 @@ This selection operation uses the ``QuantitativeInvisibilityUP1D`` predicate to 
 visible ``ViewEdge`` (more precisely, those whose quantitative invisibility is equal to 0).
 The selection operator is intended to selectively apply the style to a fraction of the active 1D elements.
 
-It is noted that ``QuantitativeInvisibilityUP1D`` is a class implementing the predicate that tests
-line visibility, and the ``Operators.select()``
-method takes an instance of the predicate class as argument. The testing of the predicate for
-a given 1D element is actually done by calling the predicate instance, that is,
-by invoking the ``__call__`` method of the predicate class.
-In other words, the ``Operators.select()`` method takes as argument a functor
-which in turn takes an ``Interface0D`` object as argument.
-The Freestyle Python API employs functors extensively to implement predicates,
-as well as functions.
+It is noted that ``QuantitativeInvisibilityUP1D`` is a class implementing the predicate that tests line visibility,
+and the ``Operators.select()`` method takes an instance of the predicate class as argument.
+The testing of the predicate for a given 1D element is actually done by calling the predicate instance,
+that is, by invoking the ``__call__`` method of the predicate class. In other words, the ``Operators.select()``
+method takes as argument a functor which in turn takes an ``Interface0D`` object as argument.
+The Freestyle Python API employs functors extensively to implement predicates, as well as functions.
 
 
 Chaining
@@ -121,10 +116,9 @@ Chaining
 
 The chaining operators act on the set of active ``ViewEdge`` objects and determine the topology of the future strokes.
 The idea is to implement an iterator to traverse the ViewMap graph by marching along ViewEdges.
-The iterator defines a chaining rule that determines the next
-``ViewEdge`` to follow at a given vertex (see ``ViewEdgeIterator``).
-Several such iterators are provided as part of the Freestyle Python API
-(see ``ChainPredicateIterator`` and ``ChainSilhouetteIterator``).
+The iterator defines a chaining rule that determines the next ``ViewEdge``
+to follow at a given vertex (see ``ViewEdgeIterator``). Several such iterators are provided
+as part of the Freestyle Python API (see ``ChainPredicateIterator`` and ``ChainSilhouetteIterator``).
 Custom iterators can be defined by inheriting the ``ViewEdgeIterator`` class.
 The chaining operator also takes as argument a UnaryPredicate working on ``Interface1D`` as a stopping criterion.
 The chaining stops when the iterator has reached a ``ViewEdge`` satisfying this
@@ -150,8 +144,7 @@ It starts a chain with the first ``ViewEdge`` of the active set.
 All ViewEdges that have already been involved in the chaining process are marked
 (in the case of the example above, the time stamp of each ``ViewEdge`` is modified by default),
 in order not to process the same ``ViewEdge`` twice.
-Once the chaining reaches a ``ViewEdge`` that satisfies the stopping predicate,
-the chain is terminated.
+Once the chaining reaches a ``ViewEdge`` that satisfies the stopping predicate, the chain is terminated.
 Then a new chain is started from the first unmarked ``ViewEdge`` in the active set.
 This operation is repeated until the last unmarked ``ViewEdge`` of the active set was processed.
 At the end of the chaining operation,
