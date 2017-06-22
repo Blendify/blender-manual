@@ -1,3 +1,5 @@
+.. _bpy.types.Linesets:
+.. _bpy.types.FreestyleLineSet:
 
 ********
 Line Set
