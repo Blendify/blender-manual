@@ -66,9 +66,10 @@ It is also possible to use probabilistic termination of transparent bounces,
 which might help rendering many layers of transparency.
 
 Note that while semantically the ray passes through as if no geometry was hit, rendering
-performance is affected as each transparency step requires executing the shader and tracing a
-ray.
+performance is affected as each transparency step requires executing the shader and tracing a ray.
 
+
+.. _bpy.types.CyclesVisibilitySettings:
 
 Ray Visibility
 ==============

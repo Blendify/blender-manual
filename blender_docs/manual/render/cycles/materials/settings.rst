@@ -1,3 +1,4 @@
+.. _bpy.types.CyclesMaterialSettings:
 
 *****************
 Material Settings
@@ -32,6 +33,7 @@ Volume
 Similar volume settings as the :ref:`World settings <render-cycles-integrator-world-settings>` per material.
 
 
+.. _bpy.types.CyclesMaterialSettings.displacement:
 .. _cycles-materials-settings-displace:
 
 Displacement
