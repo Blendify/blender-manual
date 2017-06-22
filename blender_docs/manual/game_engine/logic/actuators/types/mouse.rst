@@ -14,7 +14,7 @@ Properties
 ==========
 
 Mode
-   Determines the mouse mode
+   Determines the mouse mode.
 
    Visibility
       Allows to show/hide the mouse cursor.
@@ -26,7 +26,7 @@ Mode
 Visibility
 ----------
 
-Mouse actuator for Visibility
+Mouse actuator for Visibility.
 
 .. figure:: /images/bge_actuator_mouse_visibility.png
 
