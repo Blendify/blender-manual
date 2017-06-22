@@ -1,5 +1,7 @@
 .. _bpy.types.ShaderNodeParticleInfo:
 
+.. --- copy below this line ---
+
 ******************
 Particle Info Node
 ******************

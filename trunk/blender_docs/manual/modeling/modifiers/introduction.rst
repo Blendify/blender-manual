@@ -22,15 +22,12 @@ Modify
    The *Modify* group of modifiers includes tools similar to the *Deform Modifiers* (see below),
    but which do not directly affect the shape of the object;
    rather they affect some other data, such as vertex groups.
-
 Generate
    The *Generate* group of modifiers includes constructive tools that either change the
    general appearance of or automatically add new geometry to an object.
-
 Deform
    The *Deform* group of modifiers only changes the shape of an object without adding new geometry,
    and are available for meshes, and often texts, curves, surfaces and/or lattices.
-
 Simulate
    The *Simulate* group of modifiers activates simulations. In most cases, these
    modifiers are automatically added to the modifiers stack whenever a *Particle System*
@@ -58,26 +55,24 @@ each modifier's interface has the same basic components, see Fig. :ref:`fig-modi
 At the top is the *panel header*.
 The icons each represent different settings for the modifier (left to right):
 
-Arrow
+Expand (down/right arrow)
    Collapse modifier to show only the header and not its options.
-Icon
-   A quick visual reference of the modifier's type.
+Type
+   An icon as a quick visual reference of the modifier's type.
 Name
    Every modifier has a unique name per object. Two modifiers on one object must have unique names,
    but two modifiers on different objects can have the same name. The default name is based off the modifier type.
-Camera
+Render (camera icon)
    Toggles visibility of the modifier effect in the render.
-Eye
+Show in viewport (eye icon)
    Toggles visibility of the modifier effect in the 3D View.
-Box
+Show in Edit Mode (box icon)
    Displays the modified geometry in edit mode, as well as the original geometry which you can edit.
-Triangle
+Show on cage (triangle icon)
    When enabled, the final modified geometry will be shown in Edit Mode and can be edited directly.
-Up arrow
-   Moves modifier up in the stack.
-Down arrow
-   Moves modifier down in the stack.
-Cross
+Move (up/down arrow)
+   Moves modifier up/down in the stack.
+Delete ``X``
    Deletes the modifier.
 
 .. note::
