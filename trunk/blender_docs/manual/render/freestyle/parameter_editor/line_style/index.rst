@@ -8,6 +8,6 @@
    :maxdepth: 2
 
    introduction.rst
-   alpha.rst
+   tabs.rst
    nodes/index.rst
    modifiers/index.rst
