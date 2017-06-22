@@ -1,4 +1,6 @@
 .. _render-cycles-settings-object-subdivision:
+.. _bpy.types.CyclesObjectSettings.use_adaptive_subdivision:
+.. _bpy.types.CyclesObjectSettings.dicing_rate:
 
 ********************
 Adaptive Subdivision

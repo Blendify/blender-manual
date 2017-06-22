@@ -245,6 +245,7 @@ Max Steps
    to protect from extremely long render times with big objects or small step sizes.
 
 
+.. _bpy.types.CyclesRenderSettings.*dicing_rate:
 .. _cycles-subdivision-rate:
 
 Subdivision Rate
