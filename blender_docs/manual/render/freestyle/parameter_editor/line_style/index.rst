@@ -1,3 +1,4 @@
+.. _bpy.types.FreestyleLineStyle:
 
 #########################
   Line Style & Modifiers

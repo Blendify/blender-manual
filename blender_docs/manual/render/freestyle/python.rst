@@ -1,3 +1,4 @@
+.. _bpy.types.FreestyleModuleSettings:
 
 *********************
 Python Scripting Mode
@@ -14,9 +15,8 @@ feature edges based on one or more user-defined selection conditions (predicates
 The selected edges are processed with the chaining,
 splitting and sorting operators to build chains of feature edges. These operators are also
 controlled by user-supplied predicates and functions in order to determine how to transform
-the feature edges into chains. Finally,
-the chains are transformed into stylized strokes by the stroke creation operator,
-which takes a list of user-defined stroke shaders.
+the feature edges into chains. Finally, the chains are transformed into stylized strokes
+by the stroke creation operator, which takes a list of user-defined stroke shaders.
 
 Python style modules are stored within blend-files as text data-blocks.
 External style module files first need to be loaded in the Text Editor.

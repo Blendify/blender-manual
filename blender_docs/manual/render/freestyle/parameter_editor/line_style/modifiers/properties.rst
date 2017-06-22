@@ -19,7 +19,7 @@ Influence
 
 
 Mapping
----------
+-------
 
 Mapping between the defined range and the range input of the modifier.
 e.g. a range of crease values.

@@ -1,4 +1,5 @@
 .. _render-freestyle:
+.. _bpy.types.Freestyle:
 
 ############
   Freestyle
