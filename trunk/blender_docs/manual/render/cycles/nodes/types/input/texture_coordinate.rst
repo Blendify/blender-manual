@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeTexCoord:
 
 ***********************
 Texture Coordinate Node

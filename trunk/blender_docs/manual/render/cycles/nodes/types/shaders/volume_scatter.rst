@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeVolumeScatter:
 
 *******************
 Volume Scatter Node

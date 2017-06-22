@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeTexSky:
 
 ****************
 Sky Texture Node

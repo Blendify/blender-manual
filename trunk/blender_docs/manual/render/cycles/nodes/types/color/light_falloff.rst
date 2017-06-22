@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeLightFalloff:
 
 ******************
 Light Falloff Node

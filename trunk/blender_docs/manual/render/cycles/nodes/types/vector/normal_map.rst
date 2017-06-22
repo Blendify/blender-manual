@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeNormalMap:
 
 ***************
 Normal Map Node

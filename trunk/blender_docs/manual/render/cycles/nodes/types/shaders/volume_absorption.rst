@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeVolumeAbsorption:
 .. Todo add links to settings that control these:
 
 **********************

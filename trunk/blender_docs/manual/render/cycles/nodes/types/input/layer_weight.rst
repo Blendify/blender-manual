@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeLayerWeight:
 
 *****************
 Layer Weight Node

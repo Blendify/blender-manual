@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeTexVoronoi:
 .. Define Voronoi? Glossary?
 
 ********************

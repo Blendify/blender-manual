@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeHairInfo:
 
 **************
 Hair Info Node

@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeLightPath:
 
 ***************
 Light Path Node
