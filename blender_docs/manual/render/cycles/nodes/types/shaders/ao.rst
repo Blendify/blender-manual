@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeAmbientOcclusion:
 
 **********************
 Ambient Occlusion Node

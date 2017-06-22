@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeTexNoise:
 
 ******************
 Noise Texture Node

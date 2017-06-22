@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeVectorMath:
 
 ****************
 Vector Math Node

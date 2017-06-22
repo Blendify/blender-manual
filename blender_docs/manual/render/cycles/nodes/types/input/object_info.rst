@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeObjectInfo:
 
 ****************
 Object Info Node

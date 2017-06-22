@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeTexMagic:
 
 ******************
 Magic Texture Node

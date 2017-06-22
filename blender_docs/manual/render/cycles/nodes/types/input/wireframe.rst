@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeWireframe:
 
 **************
 Wireframe Node

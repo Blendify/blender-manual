@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderNodeTexEnvironment:
 
 ************************
 Environment Texture Node
