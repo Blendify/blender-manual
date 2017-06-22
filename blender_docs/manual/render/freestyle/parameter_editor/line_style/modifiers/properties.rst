@@ -64,6 +64,8 @@ Invert
 Types
 =====
 
+.. _bpy.types.LineStyle*Modifier_AlongStroke:
+
 Along Stroke
 ------------
 
@@ -71,6 +73,8 @@ The *Along Stroke* modifier alters the base property with a new one from
 a given range mapped along each stroke's length. In other words,
 it applies a gradient along each stroke.
 
+
+.. _bpy.types.LineStyleThicknessModifier_Calligraphy:
 
 Calligraphy
 -----------
@@ -92,6 +96,8 @@ Orientation
    Calligraphy modifier demo by T.K.
    `File:Toycar_Calligraphy.zip <https://wiki.blender.org/index.php/File:Toycar_Calligraphy.zip>`__.
 
+
+.. _bpy.types.LineStyle*Modifier_CreaseAngle:
 
 Crease Angle
 ------------
@@ -117,6 +123,8 @@ Min Angle and Max Angle
    `File:Render_freestyle_modifier_crease_angle.blend
    <https://wiki.blender.org/uploads/b/b4/Render_freestyle_modifier_crease_angle.blend>`__.
 
+
+.. _bpy.types.LineStyle*Modifier_Curvature_3D:
 
 Curvature 3D
 ------------
@@ -151,6 +159,8 @@ Min Curvature and Max Curvature
    if it is at *Max Curvature* or more from the target, it will take the end point value of the mapping.
 
 
+.. _bpy.types.LineStyle*Modifier_DistanceFromCamera:
+
 Distance from Camera
 --------------------
 
@@ -170,6 +180,8 @@ Range Min and Range Max
 Fill Range by Selection
    Set the min/max range values from the distances between the current selected objects and the camera.
 
+
+.. _bpy.types.LineStyle*Modifier_DistanceFromObject:
 
 Distance from Object
 --------------------
@@ -191,6 +203,8 @@ Fill Range by Selection
 
 The other settings are those of the standard Blender color ramp!
 
+
+.. _bpy.types.LineStyle*Modifier_Material:
 
 Material
 --------
@@ -219,6 +233,8 @@ the result will not be blurred between materials along the strokes.
    `File:Lilies_Color_Material.zip <https://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__.
 
 
+.. _bpy.types.LineStyle*Modifier_Noise:
+
 Noise
 -----
 
@@ -242,12 +258,13 @@ Asymmetric
    For the Noise shader however, a meaningful (and good-looking) result
    can be created by assigning different values to either side of the backbone.
 
-
 .. figure:: /images/render_freestyle_line-style_thickness_noise_example.png
    :width: 430px
 
    Effect generated with a noise thickness modifier using asymmetric thickness.
 
+
+.. _bpy.types.LineStyle*Modifier_Tangent:
 
 Tangent
 -------
