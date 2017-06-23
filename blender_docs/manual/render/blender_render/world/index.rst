@@ -1,5 +1,6 @@
 .. _world-index:
-.. _bpy.types.World.:
+.. _bpy.types.World:
+.. _bpy.ops.world:
 
 ########
   World

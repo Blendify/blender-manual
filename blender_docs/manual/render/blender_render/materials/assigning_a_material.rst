@@ -16,6 +16,8 @@ In this section we look at how to assign or remove a material to/from the Active
 We also give hints about practical material usage.
 
 
+.. _bpy.ops.material.new:
+
 Creating a new Material
 =======================
 

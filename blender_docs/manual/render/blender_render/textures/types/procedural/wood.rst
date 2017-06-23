@@ -1,17 +1,14 @@
+.. _bpy.types.WoodTexture:
 
 ****
 Wood
 ****
 
+The wood texture is used to generate wood and ring-shaped patterns.
+
 .. figure:: /images/render_blender-render_textures_procedural_wood.png
 
    Wood Texture Panels.
-
-
-Often used for
-   Woods and ring-shaped patterns.
-Result(s)
-   Intensity only.
 
 
 Options

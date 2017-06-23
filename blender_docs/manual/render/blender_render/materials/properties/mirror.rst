@@ -1,3 +1,4 @@
+.. _bpy.types.MaterialRaytraceMirror:
 
 ******************
 Mirror Reflections

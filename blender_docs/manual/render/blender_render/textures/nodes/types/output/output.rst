@@ -1,3 +1,4 @@
+.. _bpy.types.TextureNodeOutput:
 
 ***********
 Output Node

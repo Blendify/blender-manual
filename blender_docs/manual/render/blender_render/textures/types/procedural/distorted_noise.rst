@@ -1,19 +1,15 @@
+.. _bpy.types.DistortedNoiseTexture:
 
 ***************
 Distorted Noise
 ***************
 
+*Distortion Noise* takes the option that you pick from *Noise Basis* and filters it, to create hybrid pattern.
+It is often used for grunge but is also very complex and versatile.
+
 .. figure:: /images/render_blender-render_textures_procedural_distorted-noise.png
 
    Distorted Noise Texture Panels.
-
-
-*Distortion Noise* takes the option that you pick from *Noise Basis* and filters it, to create hybrid pattern.
-
-Often used for
-   Grunge, very complex and versatile.
-Result(s)
-   Intensity.
 
 
 Options

@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|partial=X|im=examples}}.
+.. _bpy.types.PointDensityTexture:
 
 *********************
 Point Density Texture

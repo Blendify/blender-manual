@@ -282,6 +282,8 @@ Harmonious Triangle B
    Same as A, but with the opposite corners.
 
 
+.. _bpy.types.DisplaySafeAreas:
+.. _bpy.ops.safe_areas:
 .. _camera-safe-areas:
 
 Safe Areas

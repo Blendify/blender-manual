@@ -1,3 +1,4 @@
+.. _bpy.types.Material.preview_render_type:
 
 *******
 Preview

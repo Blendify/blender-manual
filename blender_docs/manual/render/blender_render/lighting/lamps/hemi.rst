@@ -1,3 +1,4 @@
+.. _bpy.types.HemiLamp:
 
 *********
 Hemi Lamp

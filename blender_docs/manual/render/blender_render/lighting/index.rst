@@ -1,4 +1,6 @@
 .. _lighting-index:
+.. _bpy.types.Lamp:
+.. _bpy.ops.lamp:
 
 ###########
   Lighting

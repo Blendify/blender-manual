@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|text=area filter|im=update screenshot?}}.
+.. _bpy.types.EnvironmentMapTexture:
 
 ****************
 Environment Maps

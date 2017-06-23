@@ -1,3 +1,4 @@
+.. _bpy.types.TextureNodeBricks:
 
 ***********
 Bricks Node
@@ -48,4 +49,3 @@ Outputs
 
 Color
    Standard color output.
-
