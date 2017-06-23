@@ -1,4 +1,5 @@
-.. _bpy.types.SpaceUVEditor.:
+.. _bpy.types.SpaceUVEditor:
+.. _bpy.ops.uv:
 
 ##############
   UV Editing

@@ -6,7 +6,8 @@
 .. |next|     unicode:: U+023E9
 .. |pause| unicode:: U+023F8
 
-.. bpy.types.SpaceTimeline.:
+.. _bpy.types.SpaceTimeline:
+.. _bpy.ops.time:
 
 ***************
 Timeline Editor

@@ -1,4 +1,4 @@
-.. _"bpy.types.TextureNodeImage:
+.. _bpy.types.TextureNodeImage:
 
 **********
 Image Node

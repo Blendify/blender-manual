@@ -1,4 +1,5 @@
-.. _bpy.types.SpaceOutliner.:
+.. _bpy.types.SpaceOutliner:
+.. _bpy.ops.outliner:
 
 ********
 Outliner

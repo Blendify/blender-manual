@@ -1,4 +1,5 @@
-.. _bpy.types.SpaceTextEditor.:
+.. _bpy.types.SpaceTextEditor:
+.. _bpy.ops.text:
 
 ***********
 Text Editor

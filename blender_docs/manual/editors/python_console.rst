@@ -1,5 +1,6 @@
-.. _bpy.types.ConsoleLine.:
-.. _bpy.types.SpaceConsole.:
+.. _bpy.types.ConsoleLine:
+.. _bpy.types.SpaceConsole:
+.. _bpy.ops.console:
 
 **************
 Python Console
