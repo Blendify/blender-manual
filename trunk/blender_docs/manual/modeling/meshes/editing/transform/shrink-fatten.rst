@@ -1,3 +1,4 @@
+.. _bpy.ops.transform.shrink_fatten:
 
 *************
 Shrink Fatten

@@ -1,3 +1,4 @@
+.. _bpy.ops.mesh.screw:
 
 **********
 Screw Tool

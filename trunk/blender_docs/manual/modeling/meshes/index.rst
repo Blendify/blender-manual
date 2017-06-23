@@ -1,4 +1,5 @@
-.. _bpy.types.Mesh.:
+.. _bpy.types.Mesh:
+.. _bpy.ops.mesh:
 
 #########
   Meshes

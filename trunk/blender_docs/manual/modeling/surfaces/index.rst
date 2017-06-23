@@ -1,4 +1,5 @@
 .. _modeling-surfaces-index:
+.. _bpy.ops.surface:
 
 ###########
   Surfaces

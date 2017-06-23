@@ -259,6 +259,8 @@ By loose parts
    Creates one object for every independent (disconnected) fragment of the original mesh.
 
 
+.. _bpy.ops.transform.vert_slide:
+
 Vertex Slide
 ============
 
