@@ -1,4 +1,4 @@
-.. _bpy.ops.ed.:
+.. _bpy.ops.ed:
 
 *************
 Undo and Redo

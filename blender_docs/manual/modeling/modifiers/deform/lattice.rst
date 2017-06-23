@@ -1,4 +1,4 @@
-.. _bpy.types.LatticeModifier.:
+.. _bpy.types.LatticeModifier:
 
 ****************
 Lattice Modifier

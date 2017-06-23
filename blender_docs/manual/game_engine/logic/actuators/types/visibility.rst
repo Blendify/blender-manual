@@ -1,4 +1,4 @@
-.. _bpy.types.VisibilityActuator.:
+.. _bpy.types.VisibilityActuator:
 
 *******************
 Visibility Actuator

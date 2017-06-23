@@ -1,4 +1,4 @@
-.. _bpy.types.ClothSettings.:
+.. _bpy.types.ClothSettings:
 
 ********
 Settings

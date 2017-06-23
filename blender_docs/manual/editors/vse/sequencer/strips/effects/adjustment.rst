@@ -1,4 +1,4 @@
-.. _bpy.types.AdjustmentSequence.:
+.. _bpy.types.AdjustmentSequence:
 
 ****************
 Adjustment Layer

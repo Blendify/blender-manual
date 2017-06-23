@@ -1,4 +1,4 @@
-.. _bpy.types.SpaceFileBrowser.:
+.. _bpy.types.SpaceFileBrowser:
 .. _bpy.ops.file:
 
 ################

@@ -1,4 +1,4 @@
-.. _bpy.types.RaySensor.:
+.. _bpy.types.RaySensor:
 
 **********
 Ray Sensor

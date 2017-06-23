@@ -1,4 +1,4 @@
-.. _bpy.types.EffectSequence.:
+.. _bpy.types.EffectSequence:
 
 ************
 Filter Panel

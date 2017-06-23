@@ -1,4 +1,4 @@
-.. _bpy.types.SmoothModifier.:
+.. _bpy.types.SmoothModifier:
 
 ***************
 Smooth Modifier

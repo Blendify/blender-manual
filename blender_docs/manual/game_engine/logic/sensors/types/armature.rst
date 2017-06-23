@@ -1,4 +1,4 @@
-.. _bpy.types.ArmatureSensor.:
+.. _bpy.types.ArmatureSensor:
 
 ***************
 Armature Sensor

@@ -1,4 +1,4 @@
-.. _bpy.types.ArrayModifier.:
+.. _bpy.types.ArrayModifier:
 
 **************
 Array Modifier

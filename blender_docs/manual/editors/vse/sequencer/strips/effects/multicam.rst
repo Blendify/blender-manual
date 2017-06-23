@@ -1,4 +1,4 @@
-.. _bpy.types.MulticamSequence.:
+.. _bpy.types.MulticamSequence:
 
 *****************
 Multicam Selector

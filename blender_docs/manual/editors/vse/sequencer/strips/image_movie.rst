@@ -3,7 +3,7 @@
 Movie & Image Strips
 ********************
 
-.. _bpy.types.MovieSequence.:
+.. _bpy.types.MovieSequence:
 
 Movie
 =====
@@ -18,7 +18,7 @@ e.g. in the Audio-Video Interleaved format (``*.avi`` file).
    Do not assume your computer or Blender has locked up if nothing happens for awhile.
 
 
-.. _bpy.types.ImageSequence.:
+.. _bpy.types.ImageSequence:
 
 Image
 =====

@@ -1,4 +1,4 @@
-.. _bpy.types.AddSequence.:
+.. _bpy.types.AddSequence:
 
 **********
 Add Effect

@@ -1,7 +1,7 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. _bpy.types.FCurveModifiers.:
-.. _bpy.types.FModifier.:
+.. _bpy.types.FCurveModifiers:
+.. _bpy.types.FModifier:
 
 *****************
 F-Curve Modifiers
@@ -32,7 +32,7 @@ Click on the *Add Modifier* menu to select a modifier.
 Types of Modifiers
 ==================
 
-.. _bpy.types.FModifierGenerator.:
+.. _bpy.types.FModifierGenerator:
 
 Generator
 ---------
@@ -55,7 +55,7 @@ Polynomial Order
       for more information on polynomials.
 
 
-.. _bpy.types.FModifierFunctionGenerator.:
+.. _bpy.types.FModifierFunctionGenerator:
 
 Built-in Function
 -----------------
@@ -80,8 +80,8 @@ Value Offset
    Adjusts the Y offset.
 
 
-.. _bpy.types.FModifierEnvelope.:
-.. _bpy.types.FModifierEnvelopeControlPoint.:
+.. _bpy.types.FModifierEnvelope:
+.. _bpy.types.FModifierEnvelopeControlPoint:
 
 Envelope
 --------
@@ -107,7 +107,7 @@ Point
       Specifies the upper control point's position.
 
 
-.. _bpy.types.FModifierCycles.:
+.. _bpy.types.FModifierCycles:
 
 Cycles
 ------
@@ -127,7 +127,7 @@ Before, After Cycles
    Set the number of times to cycle the data. A value of 0 cycles the data infinitely.
 
 
-.. _bpy.types.FModifierNoise.:
+.. _bpy.types.FModifierNoise:
 
 Noise
 -----
@@ -158,7 +158,7 @@ Depth
    Adjusts how detailed the noise function is.
 
 
-.. _bpy.types.FModifierLimits.:
+.. _bpy.types.FModifierLimits:
 
 Limits
 ------
@@ -171,7 +171,7 @@ Minimum, Maximum Y
    Truncates the curve values to a range.
 
 
-.. _bpy.types.FModifierStepped.:
+.. _bpy.types.FModifierStepped:
 
 Stepped Interpolation
 ---------------------

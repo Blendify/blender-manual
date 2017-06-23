@@ -1,4 +1,4 @@
-.. _bpy.types.ExplodeModifier.:
+.. _bpy.types.ExplodeModifier:
 
 ****************
 Explode Modifier

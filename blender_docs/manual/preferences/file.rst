@@ -1,4 +1,4 @@
-.. _bpy.types.UserPreferencesFilePaths.:
+.. _bpy.types.UserPreferencesFilePaths:
 
 ****
 File

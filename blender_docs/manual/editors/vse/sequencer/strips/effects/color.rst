@@ -1,4 +1,4 @@
-.. _bpy.types.ColorSequence.:
+.. _bpy.types.ColorSequence:
 
 *****
 Color

@@ -1,4 +1,4 @@
-.. _bpy.types.VertexWeightMixModifier.:
+.. _bpy.types.VertexWeightMixModifier:
 
 **************************
 Vertex Weight Mix Modifier

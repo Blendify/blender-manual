@@ -1,4 +1,4 @@
-.. _bpy.types.MeshStatVis.:
+.. _bpy.types.MeshStatVis:
 
 *************
 Mesh Analysis

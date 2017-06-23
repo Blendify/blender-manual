@@ -1,4 +1,4 @@
-.. _bpy.types.BooleanModifier.:
+.. _bpy.types.BooleanModifier:
 
 ****************
 Boolean Modifier

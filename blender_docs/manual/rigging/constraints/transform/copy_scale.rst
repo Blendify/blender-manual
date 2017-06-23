@@ -1,4 +1,4 @@
-.. _bpy.types.CopyScaleConstraint.:
+.. _bpy.types.CopyScaleConstraint:
 
 *********************
 Copy Scale Constraint

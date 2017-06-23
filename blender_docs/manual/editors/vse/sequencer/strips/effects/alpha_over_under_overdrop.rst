@@ -22,7 +22,7 @@ areas is ignored and does not change the color of the background.
 Select two strips :kbd:`Shift-RMB`:
 
 
-.. _bpy.types.AlphaOverSequence.:
+.. _bpy.types.AlphaOverSequence:
 
 Alpha Over
 ==========
@@ -34,7 +34,7 @@ will only show the background, and a *Opacity* of 1.0 will completely override t
 (except in the transparent areas of this one, of course!)
 
 
-.. _bpy.types.AlphaUnderSequence.:
+.. _bpy.types.AlphaUnderSequence:
 
 Alpha Under
 ===========
@@ -46,7 +46,7 @@ will only show the foreground (the background is completely transparent),
 and a *Opacity* of 1.0 will give the same results as with *Alpha Over*.
 
 
-.. _bpy.types.OverDropSequence.:
+.. _bpy.types.OverDropSequence:
 
 Alpha Over Drop
 ===============

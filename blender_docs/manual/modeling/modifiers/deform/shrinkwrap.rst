@@ -1,4 +1,4 @@
-.. _bpy.types.ShrinkwrapModifier.:
+.. _bpy.types.ShrinkwrapModifier:
 
 *******************
 Shrinkwrap Modifier

@@ -1,6 +1,6 @@
 .. TODO/Review: {{review|text=Complete rewrite needed. Unclear and Child object field not explained what it does}}.
 
-.. _bpy.types.RigidBodyJointConstraint.:
+.. _bpy.types.RigidBodyJointConstraint:
 
 ***************************
 Rigid Body Joint Constraint

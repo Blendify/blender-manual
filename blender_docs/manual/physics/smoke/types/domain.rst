@@ -1,4 +1,4 @@
-.. _bpy.types.SmokeDomainSettings.:
+.. _bpy.types.SmokeDomainSettings:
 
 ************
 Smoke Domain

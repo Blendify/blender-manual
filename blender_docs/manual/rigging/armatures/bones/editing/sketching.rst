@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=some images need updated|text=retarget conversion method}}.
 
-.. _bpy.ops.sketch.:
+.. _bpy.ops.sketch:
 
 ******************
 Skeleton Sketching

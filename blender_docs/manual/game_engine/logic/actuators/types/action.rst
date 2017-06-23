@@ -1,4 +1,4 @@
-.. _bpy.types.ActionActuator.:
+.. _bpy.types.ActionActuator:
 
 ***************
 Action Actuator

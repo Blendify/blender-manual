@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. _bpy.types.ShrinkwrapConstraint.:
+.. _bpy.types.ShrinkwrapConstraint:
 
 *********************
 Shrinkwrap Constraint

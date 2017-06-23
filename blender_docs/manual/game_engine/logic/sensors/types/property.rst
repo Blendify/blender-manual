@@ -1,4 +1,4 @@
-.. _bpy.types.PropertySensor.:
+.. _bpy.types.PropertySensor:
 
 ***************
 Property Sensor

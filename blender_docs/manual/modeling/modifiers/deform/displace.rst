@@ -1,4 +1,4 @@
-.. _bpy.types.DisplaceModifier.:
+.. _bpy.types.DisplaceModifier:
 
 *****************
 Displace Modifier

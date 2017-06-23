@@ -1,4 +1,4 @@
-.. _bpy.types.UVProjectModifier.:
+.. _bpy.types.UVProjectModifier:
 
 *******************
 UV Project Modifier

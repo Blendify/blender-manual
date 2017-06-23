@@ -1,4 +1,4 @@
-.. _bpy.types.AlwaysSensor.:
+.. _bpy.types.AlwaysSensor:
 
 *************
 Always Sensor

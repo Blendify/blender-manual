@@ -1,4 +1,4 @@
-.. _bpy.types.WaveModifier.:
+.. _bpy.types.WaveModifier:
 
 *************
 Wave Modifier

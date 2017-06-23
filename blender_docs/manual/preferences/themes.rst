@@ -1,5 +1,5 @@
 .. _bpy.types.Theme:
-.. _bpy.types.Theme.:
+.. _bpy.types.Theme:
 
 ******
 Themes

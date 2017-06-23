@@ -1,4 +1,4 @@
-.. _bpy.types.SpaceProperties.:
+.. _bpy.types.SpaceProperties:
 
 *****************
 Properties Editor

@@ -1,4 +1,4 @@
-.. _bpy.types.ClothModifier.:
+.. _bpy.types.ClothModifier:
 .. _bpy.ops.cloth:
 
 ####################

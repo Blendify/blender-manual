@@ -1,4 +1,4 @@
-.. _bpy.types.ParentActuator.:
+.. _bpy.types.ParentActuator:
 
 ***************
 Parent Actuator

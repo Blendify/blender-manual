@@ -1,5 +1,5 @@
 .. _controllers-index:
-.. _bpy.types.Controller.:
+.. _bpy.types.Controller:
 
 ##############
   Controllers

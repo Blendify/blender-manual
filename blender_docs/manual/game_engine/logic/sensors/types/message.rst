@@ -1,4 +1,4 @@
-.. _bpy.types.MessageSensor.:
+.. _bpy.types.MessageSensor:
 
 **************
 Message Sensor

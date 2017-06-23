@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. _bpy.types.FloorConstraint.:
+.. _bpy.types.FloorConstraint:
 
 ****************
 Floor Constraint

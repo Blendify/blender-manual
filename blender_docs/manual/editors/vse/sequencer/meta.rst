@@ -1,4 +1,4 @@
-.. _bpy.types.MetaSequence.:
+.. _bpy.types.MetaSequence:
 
 ***********
 Meta Strips

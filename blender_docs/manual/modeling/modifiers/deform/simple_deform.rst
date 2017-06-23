@@ -1,4 +1,4 @@
-.. _bpy.types.SimpleDeformModifier.:
+.. _bpy.types.SimpleDeformModifier:
 
 **********************
 Simple Deform Modifier

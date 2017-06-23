@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. _bpy.types.TransformConstraint.:
+.. _bpy.types.TransformConstraint:
 
 *************************
 Transformation Constraint

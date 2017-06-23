@@ -1,4 +1,4 @@
-.. _bpy.types.NearSensor.:
+.. _bpy.types.NearSensor:
 
 ***********
 Near Sensor

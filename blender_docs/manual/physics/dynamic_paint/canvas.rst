@@ -1,4 +1,4 @@
-.. _bpy.types.DynamicPaintCanvasSettings.:
+.. _bpy.types.DynamicPaintCanvasSettings:
 
 ********************
 Dynamic Paint Canvas

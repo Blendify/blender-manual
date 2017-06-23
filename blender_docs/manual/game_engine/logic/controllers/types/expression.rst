@@ -1,4 +1,4 @@
-.. _bpy.types.ExpressionController.:
+.. _bpy.types.ExpressionController:
 
 *********************
 Expression Controller

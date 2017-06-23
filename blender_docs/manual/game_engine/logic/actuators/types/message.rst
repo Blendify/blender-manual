@@ -1,4 +1,4 @@
-.. _bpy.types.MessageActuator.:
+.. _bpy.types.MessageActuator:
 
 ****************
 Message Actuator

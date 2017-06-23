@@ -1,5 +1,5 @@
 .. _painting-index:
-.. _bpy.ops.paint.:
+.. _bpy.ops.paint:
 
 #######################
   Painting & Sculpting

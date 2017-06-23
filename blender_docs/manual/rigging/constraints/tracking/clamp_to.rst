@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. _bpy.types.ClampToConstraint.:
+.. _bpy.types.ClampToConstraint:
 
 *******************
 Clamp To Constraint

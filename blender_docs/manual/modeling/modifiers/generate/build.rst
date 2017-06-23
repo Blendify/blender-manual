@@ -1,4 +1,4 @@
-.. _bpy.types.BuildModifier.:
+.. _bpy.types.BuildModifier:
 
 **************
 Build Modifier

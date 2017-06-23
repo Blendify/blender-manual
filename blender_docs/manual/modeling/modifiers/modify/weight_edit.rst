@@ -1,4 +1,4 @@
-.. _bpy.types.VertexWeightEditModifier.:
+.. _bpy.types.VertexWeightEditModifier:
 
 ***************************
 Vertex Weight Edit Modifier

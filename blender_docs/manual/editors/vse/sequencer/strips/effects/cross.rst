@@ -1,5 +1,5 @@
-.. _bpy.types.CrossSequence.:
-.. _bpy.types.GammaCrossSequence.:
+.. _bpy.types.CrossSequence:
+.. _bpy.types.GammaCrossSequence:
 
 *******************
 Cross & Gamma Cross

@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. _bpy.types.StretchToConstraint.:
+.. _bpy.types.StretchToConstraint:
 
 *********************
 Stretch To Constraint

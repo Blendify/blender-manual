@@ -1,4 +1,4 @@
-.. _bpy.types.CameraActuator.:
+.. _bpy.types.CameraActuator:
 
 ***************
 Camera Actuator

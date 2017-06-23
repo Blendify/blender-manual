@@ -1,4 +1,4 @@
-.. _bpy.types.PropertyActuator.:
+.. _bpy.types.PropertyActuator:
 
 *****************
 Property Actuator

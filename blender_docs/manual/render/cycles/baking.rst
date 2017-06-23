@@ -1,4 +1,4 @@
-.. _bpy.types.BakeSettings.:
+.. _bpy.types.BakeSettings:
 
 *************
 Render Baking

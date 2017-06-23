@@ -1,4 +1,4 @@
-.. _bpy.types.ActuatorSensor.:
+.. _bpy.types.ActuatorSensor:
 
 ***************
 Actuator Sensor

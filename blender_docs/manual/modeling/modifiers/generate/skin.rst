@@ -1,4 +1,4 @@
-.. _bpy.types.SkinModifier.:
+.. _bpy.types.SkinModifier:
 
 *************
 Skin Modifier

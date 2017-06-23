@@ -1,4 +1,4 @@
-.. _bpy.types.DelaySensor.:
+.. _bpy.types.DelaySensor:
 
 ************
 Delay Sensor

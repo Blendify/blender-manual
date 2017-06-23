@@ -1,4 +1,4 @@
-.. _bpy.types.MaintainVolumeConstraint.:
+.. _bpy.types.MaintainVolumeConstraint:
 
 **************************
 Maintain Volume Constraint

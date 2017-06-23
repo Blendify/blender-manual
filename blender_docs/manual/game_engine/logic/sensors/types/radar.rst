@@ -1,4 +1,4 @@
-.. _bpy.types.RadarSensor.:
+.. _bpy.types.RadarSensor:
 
 ************
 Radar Sensor

@@ -1,4 +1,4 @@
-.. _bpy.types.SceneSequence.:
+.. _bpy.types.SceneSequence:
 
 ***********
 Scene Strip

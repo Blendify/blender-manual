@@ -1,4 +1,4 @@
-.. _bpy.types.GameActuator.:
+.. _bpy.types.GameActuator:
 
 *************
 Game Actuator

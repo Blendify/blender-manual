@@ -1,4 +1,4 @@
-.. _bpy.types.MaskModifier.:
+.. _bpy.types.MaskModifier:
 
 *************
 Mask Modifier

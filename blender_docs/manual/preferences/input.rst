@@ -1,4 +1,4 @@
-.. _bpy.types.UserPreferencesInput.:
+.. _bpy.types.UserPreferencesInput:
 
 *****
 Input

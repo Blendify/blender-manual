@@ -1,4 +1,4 @@
-.. _bpy.types.LaplacianSmoothModifier.:
+.. _bpy.types.LaplacianSmoothModifier:
 
 *************************
 Laplacian Smooth Modifier
