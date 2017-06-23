@@ -1,3 +1,4 @@
+.. _bpy.types.ColorManaged:
 ..    TODO/Review: {{review|partial=X|im=needs images}}.
 
 ****************

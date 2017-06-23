@@ -1,4 +1,6 @@
 .. _render-index:
+.. _bpy.types.Render:
+.. _bpy.types.RenderSettings:
 
 #########
   Render

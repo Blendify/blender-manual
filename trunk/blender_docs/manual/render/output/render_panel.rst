@@ -23,6 +23,8 @@ To chancel the rendering process click the chancel button ``X`` besides the prog
 or press :kbd:`Esc`.
 
 
+.. _bpy.types.RenderSettings.display_mode:
+
 Display
 =======
 

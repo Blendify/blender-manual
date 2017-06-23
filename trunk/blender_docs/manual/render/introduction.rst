@@ -37,6 +37,8 @@ In general, the process for rendering is:
 #. Save your image to a file, or render the animation to a video or image sequence.
 
 
+.. _bpy.types.RenderSettings.engine:
+
 Render Engines
 ==============
 

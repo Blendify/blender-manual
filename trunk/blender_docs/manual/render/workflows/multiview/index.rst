@@ -1,3 +1,5 @@
+.. _bpy.types.RenderView:
+
 #############
   Multiview
 #############
