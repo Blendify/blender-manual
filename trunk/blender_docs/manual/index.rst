@@ -1,3 +1,5 @@
+.. _bpy.types:
+.. _bpy.ops:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
   Blender Reference Manual
