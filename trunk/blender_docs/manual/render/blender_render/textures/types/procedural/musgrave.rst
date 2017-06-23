@@ -1,17 +1,15 @@
+.. _bpy.types.MusgraveTexture:
 
 ********
 Musgrave
 ********
 
+The musgrave texture is used to generate organic materials,
+but it is very flexible. You can do nearly everything with it.
+
 .. figure:: /images/render_blender-render_textures_procedural_musgrave.png
 
    Musgrave Texture Panels.
-
-
-Often used for
-   Organic materials, but it is very flexible. You can do nearly everything with it.
-Result(s)
-   Intensity.
 
 
 Options

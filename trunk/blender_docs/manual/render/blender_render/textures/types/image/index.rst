@@ -1,3 +1,4 @@
+.. _bpy.types.ImageTexture:
 
 ##################
   Image or Movie

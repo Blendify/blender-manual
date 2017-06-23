@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|im=examples}}.
+.. _bpy.types.PointLamp:
 
 *****
 Point

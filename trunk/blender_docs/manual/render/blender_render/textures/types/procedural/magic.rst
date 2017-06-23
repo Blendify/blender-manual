@@ -1,18 +1,16 @@
+.. _bpy.types.MagicTexture:
 
 *****
 Magic
 *****
 
+The magic texture is not frequently used. It can be used for "Thin Film Interference",
+if you set *Mapping* to *Reflection* and use a relatively high *Turbulence*.
+The RGB components are generated independently with a sine formula.
+
 .. figure:: /images/render_blender-render_textures_procedural_magic.png
 
    Magic Texture Panels.
-
-
-Often used for
-   Not frequently used. It can be used for "Thin Film Interference",
-   if you set *Mapping* to *Reflection* and use a relatively high *Turbulence*.
-Result(s)
-   RGB color. The RGB components are generated independently with a sine formula.
 
 
 Options

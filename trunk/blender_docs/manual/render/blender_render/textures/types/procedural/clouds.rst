@@ -1,21 +1,17 @@
+.. _bpy.types.CloudsTexture:
 
 ******
 Clouds
 ******
 
+Clouds represent Perlin noise. In addition, each noise-based Blender texture
+(with the exception of Voronoi and simple noise) has a "Noise Basis" setting that allows the
+user to select which algorithm is used to generate the texture. This is often used for
+Clouds, Fire, Smoke. Well-suited to be used as a Bump map, giving an overall irregularity to the material.
+
 .. figure:: /images/render_blender-render_textures_procedural_clouds.png
 
    Clouds Texture Panels.
-
-
-Clouds represent Perlin noise. In addition, each noise-based Blender texture
-(with the exception of Voronoi and simple noise) has a "Noise Basis" setting that allows the
-user to select which algorithm is used to generate the texture.
-
-Often used for
-   Clouds, Fire, Smoke. Well-suited to be used as a Bump map, giving an overall irregularity to the material.
-Result(s)
-   *Greyscale* (default) or RGB *Color*
 
 
 Options

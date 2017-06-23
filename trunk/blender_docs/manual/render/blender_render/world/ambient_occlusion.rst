@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|}}.
+.. _bpy.types.WorldLighting.ao:
 
 *****************
 Ambient Occlusion
@@ -67,9 +67,9 @@ Multiply
 The *Gather* panel contains settings for the ambient occlusion quality.
 Note that these settings also apply to Environment Lighting and Indirect Lighting.
 
-Ambient occlusion has two main methods of calculation:
-*Raytrace* and *Approximate*.
+Ambient occlusion has two main methods of calculation: *Raytrace* and *Approximate*.
 
+.. _bpy.types.WorldLighting.:
 
 Gather
 ------

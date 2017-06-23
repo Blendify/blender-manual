@@ -1,3 +1,5 @@
+.. _bpy.types.Camera:
+.. _bpy.ops.camera:
 
 #########
   Camera

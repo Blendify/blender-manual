@@ -1,3 +1,4 @@
+.. _bpy.types.TextureNodeTexture:
 
 ************
 Texture Node
@@ -36,4 +37,3 @@ Outputs
 
 Color
    Standard color output.
-

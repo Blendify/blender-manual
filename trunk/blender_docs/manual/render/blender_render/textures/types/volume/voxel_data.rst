@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|partial=X|text=elaborate|im=needs images}}.
+.. _bpy.types.VoxelDataTexture:
 
 **********
 Voxel Data

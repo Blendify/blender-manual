@@ -1,17 +1,15 @@
+.. _bpy.types.VoronoiTexture:
 
 *******
 Voronoi
 *******
 
+The voronoi texture is used to generate very convincing Metal,
+especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
+
 .. figure:: /images/render_blender-render_textures_procedural_voronoi.png
 
    Voronoi Texture Panels.
-
-
-Often used for
-   Very convincing Metal, especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
-Result(s)
-   Intensity (default) and Color.
 
 
 Options

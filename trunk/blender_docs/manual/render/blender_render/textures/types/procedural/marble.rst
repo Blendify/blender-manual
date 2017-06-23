@@ -1,19 +1,15 @@
+.. _bpy.types.MarbleTexture:
 
 ******
 Marble
 ******
 
+The marble texture is used to generate marble, fire, or noise with a structure.
+Bands are generated based on the sine, saw, or triangular formula and noise turbulence.
+
 .. figure:: /images/render_blender-render_textures_procedural_marble.png
 
    Marble Texture Panels.
-
-
-Often used for
-   Marble, Fire, Noise with a structure.
-Result(s)
-   Intensity value only.
-
-Bands are generated based on the sine, saw, or triangular formula and noise turbulence.
 
 
 Options

@@ -77,13 +77,13 @@ and the color of the pixel is determined from the objects/background behind it.
 Only basic settings are available with this option; it does not calculate refractions.
 
 
+.. _bpy.types.MaterialRaytraceTransparency:
+
 Raytraced Transparency
 ======================
 
-Uses ray tracing to calculate refractions. Ray tracing allows for complex refractions,
-falloff, and blurring,
-and is used for simulating the refraction of light rays through a transparent material,
-like a lens.
+Uses ray tracing to calculate refractions. Ray tracing allows for complex refractions, falloff, and blurring,
+and is used for simulating the refraction of light rays through a transparent material, like a lens.
 
 .. note::
 
@@ -91,15 +91,12 @@ like a lens.
    engines, but not in the Game Engine.
 
 A ray is sent from the camera and travels through the scene until it encounters an object.
-If the first object hit by the ray is non-transparent,
-then the ray takes the color of the object.
+If the first object hit by the ray is non-transparent, then the ray takes the color of the object.
 
 If the object is transparent, then the ray continues its path through it to the next object,
 and so on, until a non-transparent object is finally encountered which gives the whole chain
-of rays its color. Eventually,
-the first transparent object inherits the colors of its background,
-proportional to its *Alpha* value
-(and the Alpha value of each transparent Material hit in between).
+of rays its color. Eventually, the first transparent object inherits the colors of its background,
+proportional to its *Alpha* value (and the Alpha value of each transparent Material hit in between).
 
 But while the ray travels through the transparent object,
 it can be deflected from its course according to the Index of Refraction (IOR)

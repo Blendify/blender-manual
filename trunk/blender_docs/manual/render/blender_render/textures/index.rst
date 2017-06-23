@@ -1,5 +1,6 @@
 .. _textures-index:
-.. _bpy.types.Texture.:
+.. _bpy.types.Texture:
+.. _bpy.ops.texture:
 
 ###########
   Textures

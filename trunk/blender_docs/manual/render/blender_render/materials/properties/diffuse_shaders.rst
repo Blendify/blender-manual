@@ -1,3 +1,4 @@
+.. _bpy.types.Material.diffuse:
 
 ***************
 Diffuse Shaders

@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|copy=X}}.
+.. _bpy.types.RenderPass:
 
 *************
 Render Passes
