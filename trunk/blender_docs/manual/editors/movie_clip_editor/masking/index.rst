@@ -1,4 +1,5 @@
-.. _bpy.types.Mask.:
+.. _bpy.types.Mask:
+.. _bpy.ops.mask:
 
 ###########
   Masking
