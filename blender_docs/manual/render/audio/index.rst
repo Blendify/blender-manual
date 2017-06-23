@@ -1,3 +1,5 @@
+.. _bpy.types.Sound:
+.. _bpy.ops.sound:
 
 ###################
   Audio Rendering

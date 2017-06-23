@@ -1,8 +1,8 @@
+.. _bpy.types.RenderLayer:
 
 *************
 Render Layers
 *************
-
 
 Render layers allow you to render your scene in separate layers,
 usually with the intension of compositing them back together afterwards.
