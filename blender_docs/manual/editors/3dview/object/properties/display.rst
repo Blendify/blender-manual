@@ -1,3 +1,6 @@
+.. _bpy.types.Object.show:
+.. _bpy.types.Object.draw_type:
+.. _bpy.types.Object.color:
 
 *******
 Display

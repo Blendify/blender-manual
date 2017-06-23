@@ -32,6 +32,8 @@ Alternatively you can call the individual modes from the View Navigation menu.
    it moves the active camera, which is another way to place and aim it.
 
 
+.. _bpy.types.WalkNavigation:
+
 Walk Mode
 ---------
 

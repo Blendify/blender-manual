@@ -13,6 +13,8 @@ in light blue to denote library linkage on both the source and the linked object
 The size can be changed in the :doc:`Interface tab </preferences/interface>` of the User Preferences.
 
 
+.. _bpy.ops.object.origin_set:
+
 Set Origin
 ==========
 
@@ -39,4 +41,3 @@ Type
       Moves the origin to the calculated center of mass of model (assuming the mesh has a uniform density).
 Center
    Median Point Center, Bounding Box Center
-

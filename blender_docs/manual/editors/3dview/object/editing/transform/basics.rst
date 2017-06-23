@@ -3,6 +3,8 @@
 Basic Transformations
 *********************
 
+.. _bpy.ops.transform.translate:
+
 Grab/Move
 =========
 
@@ -41,6 +43,8 @@ and Z coordinates is displayed at the bottom left corner of the 3D View editor.
    Moving the object's vertices/edges/faces in Edit Mode does not change the object's origin.
 
 
+.. _bpy.ops.transform.rotate:
+
 Rotate
 ======
 
@@ -72,6 +76,8 @@ Trackball Rotation
 
 A free rotation mode. Press :kbd:`R`, :kbd:`R` to enable Trackball rotation.
 
+
+.. _bpy.ops.transform.resize:
 
 Scale
 =====

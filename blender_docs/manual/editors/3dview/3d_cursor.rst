@@ -1,3 +1,4 @@
+.. _bpy.types.SpaceView3D.cursor_location:
 
 *********
 3D Cursor

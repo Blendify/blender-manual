@@ -1,3 +1,8 @@
+.. _bpy.types.Object.use_slow_parent:
+.. _bpy.types.Object.slow_parent_offset:
+.. _bpy.types.Object.track_axis:
+.. _bpy.types.Object.up_axis:
+.. _bpy.types.Object.use_extra:
 
 ****************
 Relations Extras

@@ -7,6 +7,8 @@ There are two types of object duplication,
 being `Duplicate`_ and `Linked Duplicates`_ which instance their Object Data.
 
 
+.. _bpy.ops.object.duplicate_move:
+
 Duplicate
 =========
 
@@ -54,6 +56,8 @@ The cone in the middle has been (1) link duplicated to the left and (2) duplicat
 
 See above if you want separate copies of the data-blocks normally linked.
 
+
+.. _bpy.ops.object.duplicate_move_linked:
 
 Linked Duplicates
 =================

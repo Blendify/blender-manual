@@ -58,6 +58,10 @@ but this can be overridden for individual objects using the *Display panel* in t
      - :kbd:`Alt-Z`
 
 
+.. _bpy.types.GPUDOFSettings:
+.. _bpy.types.GPUFXSettings:
+.. _bpy.types.GPUSSAOSettings:
+
 Shading Panel
 =============
 

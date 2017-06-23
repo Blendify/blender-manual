@@ -1,3 +1,4 @@
+.. _bpy.types.Object.use_dupli_vertices:
 
 **********
 DupliVerts
