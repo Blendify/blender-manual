@@ -11,6 +11,8 @@ and destination ones, either on an one-to-one basis, or mapping several source i
 to a single destination one by interpolated mapping.
 
 
+.. _bpy.ops.object.data_transfer:
+
 Data
 ====
 
@@ -154,6 +156,8 @@ Mix Mode
 Mix Factor
    How much of the transfered data gets mixed into existing one (not supported by all data types).
 
+
+.. _bpy.ops.object.datalayout_transfer:
 
 Data Layout
 ===========

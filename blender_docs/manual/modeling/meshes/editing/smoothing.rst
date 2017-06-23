@@ -3,6 +3,8 @@
 Smoothing
 *********
 
+.. _bpy.ops.object.shade_flat:
+
 Mesh Shading
 ============
 
@@ -33,6 +35,8 @@ filter to quickly and easily combine smooth and faceted polygons in the same obj
 The last section on this page shows possibilities for smoothing a mesh's geometry,
 not only its appearance.
 
+
+.. _bpy.ops.object.shade_smooth:
 
 Smooth Shading
 ==============

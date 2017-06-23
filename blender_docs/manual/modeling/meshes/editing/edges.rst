@@ -105,6 +105,7 @@ A negative value will subtract from the actual crease value, if present.
 To clear the crease edge property, enter a value of -1.
 
 
+.. _bpy.ops.transform.edge_slide:
 .. _modeling-meshes-editing-edge-slide:
 
 Edge Slide
@@ -286,6 +287,7 @@ a hole will be created, and the selected edges are duplicated to form the border
           Adjacent face moved to reveal hole left by split.
 
 
+.. _bpy.ops.mesh.bridge-edge-loops:
 .. _modeling-meshes-editing-bridge-edge-loops:
 
 Bridge Edge Loops

@@ -1,5 +1,6 @@
 .. _modeling-curves-index:
-.. _bpy.types.Curve.:
+.. _bpy.types.Curve:
+.. _bpy.ops.curve:
 
 #########
   Curves
