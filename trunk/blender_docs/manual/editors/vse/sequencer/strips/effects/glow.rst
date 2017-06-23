@@ -1,4 +1,4 @@
-.. _bpy.types.GlowSequence.:
+.. _bpy.types.GlowSequence:
 
 ****
 Glow

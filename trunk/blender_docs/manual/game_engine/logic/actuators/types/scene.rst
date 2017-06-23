@@ -1,4 +1,4 @@
-.. _bpy.types.SceneActuator.:
+.. _bpy.types.SceneActuator:
 
 **************
 Scene Actuator

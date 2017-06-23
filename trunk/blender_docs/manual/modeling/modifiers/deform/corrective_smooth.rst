@@ -1,4 +1,4 @@
-.. _bpy.types.CorrectiveSmoothModifier.:
+.. _bpy.types.CorrectiveSmoothModifier:
 
 *****************
 Corrective Smooth

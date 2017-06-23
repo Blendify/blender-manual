@@ -1,4 +1,4 @@
-.. _bpy.types.MouseActuator.:
+.. _bpy.types.MouseActuator:
 
 **************
 Mouse Actuator

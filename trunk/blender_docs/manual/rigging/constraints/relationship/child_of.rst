@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=update}}.
 
-.. _bpy.types.ChildOfConstraint.:
+.. _bpy.types.ChildOfConstraint:
 
 *******************
 Child Of Constraint

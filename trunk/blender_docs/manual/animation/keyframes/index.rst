@@ -1,4 +1,4 @@
-.. _bpy.types.Keyframe.:
+.. _bpy.types.Keyframe:
 
 #############
   Keyframes

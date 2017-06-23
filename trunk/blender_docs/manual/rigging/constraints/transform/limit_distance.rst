@@ -1,4 +1,4 @@
-.. _bpy.types.LimitDistanceConstraint.:
+.. _bpy.types.LimitDistanceConstraint:
 
 *************************
 Limit Distance Constraint

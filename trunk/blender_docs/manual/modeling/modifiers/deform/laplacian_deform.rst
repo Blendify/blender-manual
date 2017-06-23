@@ -1,4 +1,4 @@
-.. _bpy.types.LaplacianDeformModifier.:
+.. _bpy.types.LaplacianDeformModifier:
 
 *************************
 Laplacian Deform Modifier

@@ -1,5 +1,5 @@
-.. _bpy.types.CollisionModifier.:
-.. _bpy.types.CollisionSettings.:
+.. _bpy.types.CollisionModifier:
+.. _bpy.types.CollisionSettings:
 
 **********
 Collisions

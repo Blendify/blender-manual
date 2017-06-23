@@ -1,4 +1,4 @@
-.. _bpy.types.KeyboardSensor.:
+.. _bpy.types.KeyboardSensor:
 
 ***************
 Keyboard Sensor

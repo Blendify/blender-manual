@@ -1,4 +1,4 @@
-.. _bpy.types.PythonController.:
+.. _bpy.types.PythonController:
 
 *****************
 Python Controller

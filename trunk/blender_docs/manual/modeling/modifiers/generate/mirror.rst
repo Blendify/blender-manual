@@ -1,4 +1,4 @@
-.. _bpy.types.MirrorModifier.:
+.. _bpy.types.MirrorModifier:
 
 ***************
 Mirror Modifier

@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review}}.
 
-.. _bpy.types.ObstacleFluidSettings.:
+.. _bpy.types.ObstacleFluidSettings:
 
 **************
 Fluid Obstacle

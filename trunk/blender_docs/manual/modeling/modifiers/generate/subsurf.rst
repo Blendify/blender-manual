@@ -1,4 +1,4 @@
-.. _bpy.types.SubsurfModifier.:
+.. _bpy.types.SubsurfModifier:
 
 ****************************
 Subdivision Surface Modifier

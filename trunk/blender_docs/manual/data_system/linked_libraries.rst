@@ -1,4 +1,4 @@
-.. _bpy.types.Library.:
+.. _bpy.types.Library:
 
 ****************
 Linked Libraries

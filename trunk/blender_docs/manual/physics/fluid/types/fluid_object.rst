@@ -1,4 +1,4 @@
-.. _bpy.types.FluidFluidSettings.:
+.. _bpy.types.FluidFluidSettings:
 
 ************
 Fluid Object

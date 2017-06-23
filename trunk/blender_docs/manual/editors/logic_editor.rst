@@ -1,4 +1,4 @@
-.. _bpy.types.SpaceLogicEditor.:
+.. _bpy.types.SpaceLogicEditor:
 
 ************
 Logic Editor

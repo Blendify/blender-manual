@@ -1,4 +1,4 @@
-.. _bpy.types.RemeshModifier.:
+.. _bpy.types.RemeshModifier:
 
 ***************
 Remesh Modifier

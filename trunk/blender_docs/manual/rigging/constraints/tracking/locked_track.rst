@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=examples}}.
 
-.. _bpy.types.LockedTrackConstraint.:
+.. _bpy.types.LockedTrackConstraint:
 
 ***********************
 Locked Track Constraint

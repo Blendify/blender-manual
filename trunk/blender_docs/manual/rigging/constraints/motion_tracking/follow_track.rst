@@ -1,4 +1,4 @@
-.. _bpy.types.FollowTrackConstraint.:
+.. _bpy.types.FollowTrackConstraint:
 
 ***********************
 Follow Track Constraint

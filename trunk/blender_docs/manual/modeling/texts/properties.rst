@@ -331,7 +331,7 @@ X offset and Y offset
    Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
    frames (see :doc:`Text Boxes </modeling/texts/editing>`), it applies to all frames' content...
 
-.. _bpy.types.TextBox.:
+.. _bpy.types.TextBox:
 
 Text Boxes
 ==========

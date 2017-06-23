@@ -1,4 +1,4 @@
-.. _bpy.types.ConstraintActuator.:
+.. _bpy.types.ConstraintActuator:
 
 ********************
 Constraints Actuator

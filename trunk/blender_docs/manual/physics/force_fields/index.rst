@@ -1,5 +1,5 @@
 .. _physics-force-fields-index:
-.. _bpy.types.FieldSettings.:
+.. _bpy.types.FieldSettings:
 
 ###############
   Force Fields

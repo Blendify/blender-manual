@@ -1,4 +1,4 @@
-.. _bpy.types.CyclesRenderSettings.:
+.. _bpy.types.CyclesRenderSettings:
 
 ###################
   Cycles Settings

@@ -1,4 +1,4 @@
-.. _bpy.types.EditObjectActuator.:
+.. _bpy.types.EditObjectActuator:
 
 ********************
 Edit Object Actuator
@@ -101,7 +101,7 @@ The object that is added needs to be on another, hidden, layer.
 
 
 Object
-   The name of the object that is going to be added.:
+   The name of the object that is going to be added.
 Time
    The time (in frames) the object stays alive before it disappears.
    Zero makes it stay forever.

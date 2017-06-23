@@ -1,4 +1,4 @@
-.. _bpy.types.FCurve.:
+.. _bpy.types.FCurve:
 
 ############
   F-Curves

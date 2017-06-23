@@ -1,4 +1,4 @@
-.. _bpy.types.ArmatureModifier.:
+.. _bpy.types.ArmatureModifier:
 
 *****************
 Armature Modifier

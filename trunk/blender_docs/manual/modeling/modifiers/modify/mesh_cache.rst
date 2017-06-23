@@ -1,4 +1,4 @@
-.. _bpy.types.MeshCacheModifier.:
+.. _bpy.types.MeshCacheModifier:
 
 *******************
 Mesh Cache Modifier

@@ -1,4 +1,4 @@
-.. _bpy.types.LodLevel.:
+.. _bpy.types.LodLevel:
 
 ***************
 Level of Detail

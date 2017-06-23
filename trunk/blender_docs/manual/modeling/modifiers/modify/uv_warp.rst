@@ -1,4 +1,4 @@
-.. _bpy.types.UVWarpModifier.:
+.. _bpy.types.UVWarpModifier:
 
 ****************
 UV Warp Modifier

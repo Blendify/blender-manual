@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|im=add}}.
 
-.. bpy.types.SoftBodySettings.:
+.. bpy.types.SoftBodySettings:
 
 ********
 Settings

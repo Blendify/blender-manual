@@ -1,4 +1,4 @@
-.. _bpy.types.TransformCacheConstraint.:
+.. _bpy.types.TransformCacheConstraint:
 
 **************************
 Transform Cache Constraint

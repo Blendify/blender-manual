@@ -1,4 +1,4 @@
-.. _bpy.types.ScrewModifier.:
+.. _bpy.types.ScrewModifier:
 
 **************
 Screw Modifier

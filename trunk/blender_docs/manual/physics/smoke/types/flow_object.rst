@@ -1,4 +1,4 @@
-.. _bpy.types.SmokeFlowSettings.:
+.. _bpy.types.SmokeFlowSettings:
 
 *****************
 Smoke Flow Object

@@ -1,4 +1,4 @@
-.. _bpy.types.MeshDeformModifier.:
+.. _bpy.types.MeshDeformModifier:
 
 ********************
 Mesh Deform Modifier

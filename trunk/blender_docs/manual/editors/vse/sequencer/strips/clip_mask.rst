@@ -3,7 +3,7 @@
 Clip & Mask Strip
 *****************
 
-.. _bpy.types.MovieClipSequence.:
+.. _bpy.types.MovieClipSequence:
 
 Clip
 ====
@@ -17,7 +17,7 @@ Options
 This strip has no options.
 
 
-.. _bpy.types.MaskSequence.:
+.. _bpy.types.MaskSequence:
 
 Mask
 ====

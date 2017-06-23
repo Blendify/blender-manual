@@ -1,4 +1,4 @@
-.. _bpy.types.SmokeCollSettings.:
+.. _bpy.types.SmokeCollSettings:
 
 **********
 Collisions

@@ -1,4 +1,4 @@
-.. _bpy.types.SoundActuator.:
+.. _bpy.types.SoundActuator:
 
 **************
 Sound Actuator

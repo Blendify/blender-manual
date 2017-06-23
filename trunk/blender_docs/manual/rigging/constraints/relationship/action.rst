@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|text=Notes section is a mess.}}.
 
-.. _bpy.types.ActionConstraint.:
+.. _bpy.types.ActionConstraint:
 
 *****************
 Action Constraint

@@ -1,6 +1,6 @@
 ..    TODO/Review: {{review|text=todo: review the viscosity table commented text}}.
 
-.. _bpy.types.DomainFluidSettings.:
+.. _bpy.types.DomainFluidSettings:
 
 ************
 Fluid Domain

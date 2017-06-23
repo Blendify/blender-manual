@@ -1,5 +1,5 @@
 .. _smoke-index:
-.. _bpy.types.SmokeModifier.:
+.. _bpy.types.SmokeModifier:
 
 ###################
   Smoke Simulation

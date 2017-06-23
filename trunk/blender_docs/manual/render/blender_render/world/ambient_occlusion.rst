@@ -69,7 +69,7 @@ Note that these settings also apply to Environment Lighting and Indirect Lightin
 
 Ambient occlusion has two main methods of calculation: *Raytrace* and *Approximate*.
 
-.. _bpy.types.WorldLighting.:
+.. _bpy.types.WorldLighting:
 
 Gather
 ------

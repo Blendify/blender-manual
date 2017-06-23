@@ -1,4 +1,4 @@
-.. _bpy.types.WireframeModifier.:
+.. _bpy.types.WireframeModifier:
 
 ******************
 Wireframe Modifier

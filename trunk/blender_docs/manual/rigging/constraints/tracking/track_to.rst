@@ -1,4 +1,4 @@
-.. _bpy.types.TrackToConstraint.:
+.. _bpy.types.TrackToConstraint:
 
 *******************
 Track To Constraint

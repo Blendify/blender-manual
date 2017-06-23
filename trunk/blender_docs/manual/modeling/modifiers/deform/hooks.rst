@@ -1,4 +1,4 @@
-.. _bpy.types.HookModifier.:
+.. _bpy.types.HookModifier:
 
 *************
 Hook Modifier

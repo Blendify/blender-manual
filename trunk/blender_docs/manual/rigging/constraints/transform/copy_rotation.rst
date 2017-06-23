@@ -1,4 +1,4 @@
-.. _bpy.types.CopyRotationConstraint.:
+.. _bpy.types.CopyRotationConstraint:
 
 ************************
 Copy Rotation Constraint

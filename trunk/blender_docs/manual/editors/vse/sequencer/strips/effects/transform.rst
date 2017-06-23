@@ -1,4 +1,4 @@
-.. _bpy.types.TransformSequence.:
+.. _bpy.types.TransformSequence:
 
 *********
 Transform

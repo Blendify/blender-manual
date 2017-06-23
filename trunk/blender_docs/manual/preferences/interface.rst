@@ -1,4 +1,4 @@
-.. _bpy.types.UserPreferencesView.:
+.. _bpy.types.UserPreferencesView:
 
 *********
 Interface

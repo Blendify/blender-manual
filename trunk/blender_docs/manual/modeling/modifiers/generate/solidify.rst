@@ -1,4 +1,4 @@
-.. _bpy.types.SolidifyModifier.:
+.. _bpy.types.SolidifyModifier:
 
 *****************
 Solidify Modifier

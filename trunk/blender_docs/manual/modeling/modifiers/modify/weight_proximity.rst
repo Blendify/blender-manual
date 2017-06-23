@@ -1,4 +1,4 @@
-.. _bpy.types.VertexWeightProximityModifier.:
+.. _bpy.types.VertexWeightProximityModifier:
 
 ********************************
 Vertex Weight Proximity Modifier

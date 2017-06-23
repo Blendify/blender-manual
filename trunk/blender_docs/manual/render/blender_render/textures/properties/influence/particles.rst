@@ -1,6 +1,6 @@
 :orphan:
 
-.. _bpy.types.ParticleSettingsTextureSlot.:
+.. _bpy.types.ParticleSettingsTextureSlot:
 
 *********
 Particles

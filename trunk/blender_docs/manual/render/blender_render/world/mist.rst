@@ -1,4 +1,4 @@
-.. _bpy.types.WorldMistSettings.:
+.. _bpy.types.WorldMistSettings:
 
 ****
 Mist

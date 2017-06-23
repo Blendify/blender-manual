@@ -1,4 +1,4 @@
-.. _bpy.types.JoystickSensor.:
+.. _bpy.types.JoystickSensor:
 
 ***************
 Joystick Sensor

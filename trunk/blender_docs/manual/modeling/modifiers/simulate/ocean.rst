@@ -1,4 +1,4 @@
-.. _bpy.types.OceanModifier.:
+.. _bpy.types.OceanModifier:
 
 **************
 Ocean Modifier

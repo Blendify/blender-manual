@@ -1,4 +1,4 @@
-.. _bpy.types.CastModifier.:
+.. _bpy.types.CastModifier:
 
 *************
 Cast Modifier

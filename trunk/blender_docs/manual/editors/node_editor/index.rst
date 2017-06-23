@@ -1,5 +1,5 @@
 .. _editors-node-index:
-.. _bpy.types.SpaceNodeEditor.:
+.. _bpy.types.SpaceNodeEditor:
 
 ###############
   Node Editor

@@ -1,4 +1,4 @@
-.. _bpy.types.StateActuator.:
+.. _bpy.types.StateActuator:
 
 **************
 State Actuator

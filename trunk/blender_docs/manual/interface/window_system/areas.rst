@@ -1,5 +1,5 @@
-.. _bpy.types.Area.:
-.. _bpy.types.AreaSpaces.:
+.. _bpy.types.Area:
+.. _bpy.types.AreaSpaces:
 
 *****
 Areas

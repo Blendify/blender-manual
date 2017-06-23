@@ -1,5 +1,5 @@
 .. _soft-body-index:
-.. _bpy.types.SoftBodyModifier.:
+.. _bpy.types.SoftBodyModifier:
 
 ############
   Soft Body

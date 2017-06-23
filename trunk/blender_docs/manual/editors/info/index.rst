@@ -1,5 +1,5 @@
-.. _bpy.types.SpaceInfo.:
-.. _bpy.ops.info.:
+.. _bpy.types.SpaceInfo:
+.. _bpy.ops.info:
 
 ###############
   Info Editor

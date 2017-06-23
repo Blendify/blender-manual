@@ -1,4 +1,4 @@
-.. _bpy.types.MouseSensor.:
+.. _bpy.types.MouseSensor:
 
 ************
 Mouse Sensor

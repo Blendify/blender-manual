@@ -1,4 +1,4 @@
-.. _bpy.types.Modifier.:
+.. _bpy.types.Modifier:
 .. _modifiers-index:
 
 ############

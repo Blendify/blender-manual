@@ -1,4 +1,4 @@
-.. _bpy.types.TriangulateModifier.:
+.. _bpy.types.TriangulateModifier:
 
 ********************
 Triangulate Modifier

@@ -1,4 +1,4 @@
-.. _bpy.types.CurveModifier.:
+.. _bpy.types.CurveModifier:
 
 **************
 Curve Modifier

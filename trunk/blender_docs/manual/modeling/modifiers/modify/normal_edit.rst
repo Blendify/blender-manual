@@ -1,4 +1,4 @@
-.. _bpy.types.NormalEditModifier.:
+.. _bpy.types.NormalEditModifier:
 
 ********************
 Normal Edit Modifier

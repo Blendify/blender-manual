@@ -1,4 +1,4 @@
-.. _bpy.types.BevelModifier.:
+.. _bpy.types.BevelModifier:
 
 **************
 Bevel Modifier

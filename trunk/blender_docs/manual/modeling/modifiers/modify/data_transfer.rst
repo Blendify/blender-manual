@@ -1,4 +1,4 @@
-.. _bpy.types.DataTransferModifier.:
+.. _bpy.types.DataTransferModifier:
 
 **********************
 Data Transfer Modifier
