@@ -1,3 +1,4 @@
+.. _bpy.types.StucciTexture:
 
 ******
 Stucci
@@ -8,12 +9,8 @@ Stucci
    Stucci Texture Panels.
 
 
-The *Stucci* texture is based on noise functions.
-
-Often used for
-   Stone, Asphalt, Oranges. Normally for Bump-Mapping to create grainy surfaces.
-Result(s)
-   Normals and Intensity.
+The *Stucci* texture is based on noise functions. It is often used for stone, asphalt, or oranges,
+normally for bump-mapping to create grainy surfaces.
 
 
 Options
