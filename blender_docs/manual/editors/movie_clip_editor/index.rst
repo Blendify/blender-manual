@@ -1,3 +1,5 @@
+.. _bpy.types.SpaceClipEditor:
+.. _bpy.types.MovieClip:
 .. _editors-movieclip-index:
 
 #####################

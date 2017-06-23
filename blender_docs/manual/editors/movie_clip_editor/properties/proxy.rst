@@ -8,6 +8,8 @@ you need to use :menuselection:`Clip --> Proxy --> Rebuild Proxy and Timecode in
 to generate the proxy clip and it will be available after Blender makes it.
 
 
+.. _bpy.types.MovieClipProxy:
+
 Proxy
 =====
 

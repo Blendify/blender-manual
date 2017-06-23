@@ -1,3 +1,4 @@
+.. _bpy.types.MovieTrackingStabilization:
 
 ####################
   2D Stabilization
