@@ -1,4 +1,5 @@
-.. _bpy.types.Group.:
+.. _bpy.types.Group:
+.. _bpy.ops.group:
 
 ******
 Groups

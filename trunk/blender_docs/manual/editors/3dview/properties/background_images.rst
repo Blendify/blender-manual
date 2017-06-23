@@ -1,4 +1,6 @@
+.. _bpy.types.BackgroundImage:
 .. _bpy.types.SpaceView3D.show_background_images:
+.. _bpy.ops.view3d.background_image:
 
 *****************
 Background Images

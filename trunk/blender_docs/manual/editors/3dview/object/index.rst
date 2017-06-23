@@ -1,3 +1,5 @@
+.. _bpy.types.Object:
+.. _bpy.ops.object:
 .. _objects-index:
 
 ##########

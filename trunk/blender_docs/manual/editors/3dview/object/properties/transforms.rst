@@ -1,4 +1,7 @@
 .. _bpy.types.Object.location:
+.. _bpy.types.Object.rotation:
+.. _bpy.types.Object.scale:
+.. _bpy.types.Object.dimensions:
 
 ********************
 Transform Properties
@@ -71,6 +74,8 @@ Dimensions
    (aligned with the local axes -- think of a cardboard box just big enough to hold the object).
 
 
+.. _bpy.types.Object.lock:
+
 Transform Properties Locking
 ----------------------------
 
@@ -88,6 +93,7 @@ The button is unlocked if the icon shows a open padlock,
 and it is locked if the icon appears as a closed padlock.
 
 
+.. _bpy.types.Object.delta:
 .. _transform-delta:
 
 Delta Transforms
@@ -102,4 +108,3 @@ Usage
 
 Delta Transforms are particularly useful in animations. For example,
 you can animate an object with the "normal" transforms then move them around with Delta Transforms.
-
