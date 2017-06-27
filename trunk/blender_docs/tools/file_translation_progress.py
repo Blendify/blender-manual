@@ -23,7 +23,8 @@ def parse_file(po_filepath):
                 if last_line_was_empty_msg_str:
                     msgstrs_empty -= 1
             else:
-                if result == 'FUZZY':
+                if result == 'FUZZY' and msgstrs_complete >= 0:
+                    # ignore fuzzy on "fake" msgstr
                     msgstrs_fuzzy += 1
             last_line_was_empty_msg_str = False
     return msgstrs_complete, msgstrs_empty, msgstrs_fuzzy
@@ -35,6 +36,8 @@ def parse_line(line):
         return 'COMPLETE'
     if line[0] == '"':
         return 'CONTINUATION'
-    if line.startswith('#') and 'fuzzy' in line:
+    # only search in flag comments, "fuzzy" could occur
+    # in filenames ("#:"), translator e-mail ("# ") etc.
+    if line.startswith('#,') and 'fuzzy' in line:
         return 'FUZZY'
     return 'NONE'
