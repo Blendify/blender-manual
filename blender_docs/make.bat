@@ -221,7 +221,7 @@ if "%1" == "update_po" (
 
 if "%1" == "report_po_progress" (
 	IF NOT EXIST %cd%/locale GOTO MISSING_LOCALE
-	python tools/report_translation_progress.py locale/%2 --quite > po_progress.log
+	python tools/report_translation_progress.py locale/%2 --quiet > po_progress.log
 	type po_progress.log
 	DEL po_progress.log
 	goto EOF
