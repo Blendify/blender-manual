@@ -66,6 +66,8 @@ Objects can only use one *Action* at a time for editing.
 The :doc:`NLA Editor </editors/nla/index>` is used to blend multiple actions together.
 
 
+.. _bpy.ops.nla.bake:
+
 Bake Action
 ===========
 
@@ -78,6 +80,5 @@ Bake Action
 
 
 The *Bake Action* tool will apply interpolated frames into individual key frames.
-
 This can be useful for adding deviation to a cyclic action like a :term:`walk cycle`.
 This can also useful for keyframe animations created from drivers or constraints.

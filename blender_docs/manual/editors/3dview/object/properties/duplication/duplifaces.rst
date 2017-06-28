@@ -1,4 +1,5 @@
 .. _bpy.types.Object.use_dupli_faces:
+.. _bpy.ops.object.make_dupli_face:
 
 **********
 DupliFaces

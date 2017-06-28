@@ -1,9 +1,13 @@
 .. _bpy.types.Object.parent:
-..    TODO/Review:
 
 *****************
 Parenting Objects
 *****************
+
+.. _bpy.ops.object.parent_set:
+
+Make Parent
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -283,6 +287,8 @@ By confirming the child object will snap to the parent's location.
 Use the *Outliner* view to verify that the child object is still parented.
 
 
+.. _bpy.ops.object.parent_clear:
+
 Clear Parent
 ------------
 
@@ -295,8 +301,6 @@ Clear Parent
 
 
 You can *remove* a parent-child relationship via :kbd:`Alt-P`
-
-The menu contains:
 
 Clear Parent
    If the parent in the group is selected nothing is done.

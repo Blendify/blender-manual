@@ -1,3 +1,4 @@
+.. _bpy.ops.transform.tosphere:
 
 *********
 To Sphere
@@ -6,7 +7,7 @@ To Sphere
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
+   | Mode:     Object/Edit Modes
    | Menu:     :menuselection:`Mesh --> Transform --> To Sphere`
    | Hotkey:   :kbd:`Shift-Alt-S`
 

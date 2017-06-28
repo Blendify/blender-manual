@@ -61,6 +61,7 @@ Look in the Outliner, with display mode set to *blend-file*, to see all your lin
 
 
 .. _object-proxy:
+.. _bpy.ops.object.proxy_make:
 
 Proxy Objects
 =============
@@ -86,6 +87,7 @@ when the referencing file is reloaded.
 
 
 .. _data-system-linked-libraries-make-link:
+.. _bpy.ops.object.make_links:
 
 Make Link
 =========
@@ -102,7 +104,7 @@ In some case (i.e. Object Data, Modifier) the target objects must be of the same
 than the active one or capable of receiving the data.
 The existing data-block of which will be unlinked from them.
 
-Objects to Scene...
+Objects to Scene
    Lets you create links to the selected objects into a different scene than the current one.
    A scene name must be chosen other than that of the current one.
    The *Link Objects to Scene* Operator panel lets you choose between scenes.
@@ -124,6 +126,8 @@ Type
    :ref:`data-system-datablock-make-single-user` for unlinking data-blocks.
 
 
+.. _bpy.ops.object.make_local:
+
 Make Local
 ==========
 
@@ -136,7 +140,6 @@ Make Local
 
 Makes the selected or all external objects local in the current blend-file.
 This makes e.g. the position editable, because its position is defined in its source file.
-
 
 Type
    Optionally unlinks the objects Object Data and Material Data.

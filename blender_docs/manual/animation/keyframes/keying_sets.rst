@@ -1,3 +1,4 @@
+.. _bpy.ops.anim.keying_set:
 
 ***********
 Keying Sets

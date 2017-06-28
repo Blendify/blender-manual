@@ -8,6 +8,8 @@ selection or cursor to a given point while the second type is used during transf
 (translate, rotate, scale) and snaps your selection to elements within the scene.
 
 
+.. _bpy.ops.view3d.snap:
+
 Snap Menu
 =========
 
@@ -34,8 +36,6 @@ Selection to Cursor (Offset)
    instead, they are centered around the 3D cursor, maintaining their relative distances.
 Selection to Active
    Moves the selection to the origin of the active object.
-
-..
 
 Cursor to Selected
    Places the cursor to the center of the current selection, unless see below.
@@ -65,7 +65,7 @@ Transform Snapping
    :class: refbox
 
    | Mode:     Object, Edit, and Pose Mode
-   | Header:    :menuselection:`Snap`
+   | Header:   :menuselection:`Snap`
    | Hotkey:   :kbd:`Shift-Tab`
 
 The ability to snap Objects and Mesh element to various types of scene elements during a

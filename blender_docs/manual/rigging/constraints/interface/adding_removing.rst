@@ -26,6 +26,8 @@ in the :doc:`header </rigging/constraints/interface/header>`.
 Menu
 ====
 
+.. _bpy.ops.object.constraint_add_with_targets:
+
 Add Constraint (with Targets)
 -----------------------------
 
@@ -48,21 +50,24 @@ will look inside the non-active armature and use its active bone,
 provided that armature is in Pose Mode.
 
 
+.. _bpy.ops.object.constraints_copy:
+
 Copy Constraints to Selected
------------------------------------
+----------------------------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Object Mode and Pose Mode
-   | Menu:    :menuselection:`Object --> Constraint --> Copy Constraints to Selected Objects`
-   | Hotkey:   none
+   | Menu:     :menuselection:`Object --> Constraint --> Copy Constraints to Selected Objects`
 
 Copies the active object Constraints to the rest of the selected objects.
 
 
+.. _bpy.ops.object.constraints_clear:
+
 Clear Constraints
------------------------------------
+-----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -73,6 +78,8 @@ Clear Constraints
 
 Removes all Constraints of the selected object(s).
 
+.. _bpy.ops.object.track_set:
+.. _bpy.ops.object.track_clear:
 
 Track
 =====

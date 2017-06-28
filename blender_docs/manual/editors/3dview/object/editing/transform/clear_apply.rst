@@ -3,6 +3,8 @@
 Clear & Apply
 *************
 
+.. _bpy.ops.object.*clear:
+
 Clear
 =====
 
@@ -45,6 +47,8 @@ These operations lets you apply several transformations to the selected objects.
 The object transformation coordinates are transferred to the object data.
 If the objects have hierarchical descendants, it also applies those transformations to their children.
 
+
+.. _bpy.ops.object.transform_apply:
 
 Apply Object Transformations
 ----------------------------
@@ -98,6 +102,9 @@ Rotation and Scale
    Apply (set) the rotation and scale of the selection. Do the above two applications simultaneously.
 
 
+.. _bpy.ops.object.transforms_to_deltas:
+.. _bpy.ops.object.anim_transforms_to_deltas:
+
 Transforms to Deltas
 --------------------
 
@@ -119,11 +126,12 @@ All Transforms to Deltas
 Reset Values
    ToDo.
 Animated Transform to Deltas
-   Converts the "normal" transformation animations (animations done to the translation,
-   scale, and rotation values) to Delta transforms.
-   To use this tool simply select the object with the animations that you want to convert press :kbd:`Ctrl-A`
-   and select *Animated Transform to Deltas*.
+   Converts the "normal" transformation animations (animations done to the translation, scale,
+   and, rotation values) to Delta transforms. To use this tool simply select the object with the
+   animations that you want to convert press :kbd:`Ctrl-A` and select *Animated Transform to Deltas*.
 
+
+.. _bpy.ops.object.visual_transform_apply:
 
 Visual Transform
 ----------------
@@ -149,9 +157,10 @@ Visual Geometry as Mesh
    | Hotkey:   :kbd:`Ctrl-A`
 
 Apply the visual state of all selected objects (modifiers, shape keys, hooks... etc) to object data.
-
 This is a way to freeze all object data into static meshes, as well as converts non-mesh types to mesh.
 
+
+.. _bpy.ops.object.duplicates_make_real:
 
 Make Duplicate Real
 -------------------
