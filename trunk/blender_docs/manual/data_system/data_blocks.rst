@@ -82,6 +82,7 @@ You can also share data-blocks between files, see:
 
 
 .. _data-system-datablock-make-single-user:
+.. _bpy.ops.object.make_single_user:
 
 Make Single User
 ================

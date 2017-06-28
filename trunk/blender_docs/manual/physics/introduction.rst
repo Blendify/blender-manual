@@ -35,3 +35,9 @@ You can use these systems to create many different effects such as:
 - Water
 - Jello
 - etc.
+
+
+.. _bpy.ops.object.quick:
+
+Quick Effects
+=============

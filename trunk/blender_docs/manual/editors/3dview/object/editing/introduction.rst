@@ -27,6 +27,7 @@ Delete Globally :kbd:`Shift-X`
 
 
 .. _object-show-hide:
+.. _bpy.ops.object.hide_view:
 
 Show/Hide
 =========
@@ -47,6 +48,7 @@ Hide Unselected :kbd:`Shift-H`
 
 
 .. _object-convert-to:
+.. _bpy.ops.object.convert:
 
 Convert To
 ==========

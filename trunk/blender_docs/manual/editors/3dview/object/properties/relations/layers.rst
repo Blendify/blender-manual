@@ -1,4 +1,5 @@
 .. _bpy.types.Object.layers:
+.. _bpy.ops.object.move_to_layer:
 
 ******
 Layers

@@ -170,6 +170,8 @@ In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effec
 #. Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
 
 
+.. _bpy.ops.transform.transform:
+
 Align to Transform Orientation
 ==============================
 

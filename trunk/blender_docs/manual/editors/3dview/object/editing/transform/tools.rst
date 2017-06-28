@@ -3,6 +3,8 @@
 Transform Tools
 ***************
 
+.. _bpy.ops.object.randomize_transform:
+
 Randomize Transform
 ===================
 
@@ -78,6 +80,8 @@ Random Seed
    The random seed is an offset to the random transformation.
    A different seed will produce a new result.
 
+
+.. _bpy.ops.object.align:
 
 Align Objects
 =============

@@ -3,6 +3,7 @@
 Editing
 *******
 
+.. _bpy.ops.anim.keyframe_insert:
 
 Insert Keyframes
 ================
@@ -18,9 +19,8 @@ Insert Keyframes
 There are several methods of adding new keys. Namely:
 
 - In the 3D View, pressing :kbd:`I` will bring up a menu to choose what to add a keyframe to.
-- Hovering over a property and pressing :kbd:`I` or
-  with the context menu by :kbd:`RMB` a property and
-  choose *Insert Keyframe* from the menu.
+- Hovering over a property and pressing :kbd:`I` or with the context menu by :kbd:`RMB`
+  a property and choose *Insert Keyframe* from the menu.
 
 
 Auto Keyframe
@@ -36,6 +36,8 @@ keyframes automatically to the set frame if the value for transform type propert
 
 See :ref:`Timeline Keyframe Control <animation-editors-timeline-autokeyframe>` for more info.
 
+
+.. _bpy.ops.anim.keyframe_delete:
 
 Delete Keyframes
 ================
@@ -55,6 +57,8 @@ There are several methods of removing keyframes:
 - :kbd:`RMB` a value and choose *Delete Keyframe* from the menu.
 
 
+.. _bpy.ops.anim.keyframe_clear:
+
 Clear Keyframes
 ===============
 
@@ -64,9 +68,7 @@ Clear Keyframes
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Animation --> Clear Keyframes...`
 
-ToDo.
-
-.. Removes all keyframes from the selected object.
+Removes all keyframes from the selected object.
 
 
 Editing Keyframes
@@ -106,4 +108,3 @@ To test the animation, press :kbd:`Alt-A` to play.
    :width: 500px
 
    The animation on frames 1, 50, 100.
-
