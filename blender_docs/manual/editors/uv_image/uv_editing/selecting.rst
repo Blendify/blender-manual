@@ -11,11 +11,11 @@ Menu
 
 Border Select
    Use the box lasso to select UV coordinates :kbd:`B`.
-   See :ref:`select-border`.
+   See :ref:`bpy.ops.view3d.select_border`.
 Border Select Pinned
    Use the box lasso to select only pinned UV coordinates :kbd:`Shift-B`.
 Circle Select
-   See :ref:`select-circle`.
+   See :ref:`bpy.ops.view3d.select_circle`.
 Select/Deselect All
    Selects or de-selects all UV coordinates :kbd:`A`.
 Inverse
@@ -89,5 +89,3 @@ When selecting Faces, it behaves as in *Disabled Stick Selection* above.
 - Vertex
 - Edge
 - Face
-
-

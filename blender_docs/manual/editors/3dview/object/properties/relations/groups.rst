@@ -97,4 +97,4 @@ Offset
 
 .. tip:: Selecting Groups
 
-   Groups can be selected, see :ref:`Select Grouped <select-grouped>` for more information.
+   Groups can be selected, see :ref:`Select Grouped <bpy.ops.object.select_grouped>` for more information.

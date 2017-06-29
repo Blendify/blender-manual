@@ -12,16 +12,12 @@ Point Selection
    | Mode:     All Modes
    | Hotkey:   :kbd:`RMB` and :kbd:`Shift-RMB`
 
-The simplest form of object *selection* consists of using :kbd:`RMB` on it.
-
-To *add to the selection*, use :kbd:`Shift-RMB` on more objects.
-
-If the *objects are overlapping* in the view,
-you can use :kbd:`Alt-RMB` to cycle through possible choices (*Object Mode* only).
-
-If you want *to add to a selection* this way then the shortcut becomes :kbd:`Shift-Alt-RMB`.
-
-To *activate an object* that is already selected, click :kbd:`Shift-RMB` on it.
+The simplest form of object selection consists of using :kbd:`RMB` on it.
+To add to the selection, use :kbd:`Shift-RMB` on more objects.
+If the objects are overlapping in the view, you can use :kbd:`Alt-RMB`
+to cycle through possible choices (*Object Mode* only).
+If you want to add to a selection this way then the shortcut becomes :kbd:`Shift-Alt-RMB`.
+To activate an object that is already selected, click :kbd:`Shift-RMB` on it.
 
 To *deselect* an active object,
 click :kbd:`Shift-RMB` one time and hence, two clicks if the object is not active.
@@ -29,7 +25,7 @@ Note that this only works if there are no other objects under the mouse.
 Otherwise it just adds those to the selection. There appears to be no workaround for this bug.
 
 
-.. _select-border:
+.. _bpy.ops.view3d.select_border:
 
 Border Select
 =============
@@ -72,11 +68,11 @@ the last selected object prior to using the *Border Select* tool.
 
 .. hint::
 
-   *Border Select* adds to the previous selection, so in order to select only the contents of the rectangle,
-   deselect all with :kbd:`A` first.
+   *Border Select* adds to the previous selection, so in order to select
+   only the contents of the rectangle, deselect all with :kbd:`A` first.
 
 
-.. _select-circle:
+.. _bpy.ops.view3d.select_circle:
 
 Circle Select
 =============
@@ -108,6 +104,8 @@ To cancel the selection use :kbd:`RMB` or key :kbd:`Esc` or :kbd:`Enter`.
 
           ...with huge circle.
 
+
+.. _bpy.ops.view3d.select_lasso:
 
 Lasso Select
 ============
