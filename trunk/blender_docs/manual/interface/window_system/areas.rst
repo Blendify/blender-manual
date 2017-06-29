@@ -16,8 +16,7 @@ Arranging
 
 Blender uses a novel screen-splitting approach to arrange areas.
 The idea is that you split up that big application window into any number of smaller
-(but still rectangular) non-overlapping areas. That way,
-each area is always fully visible,
+(but still rectangular) non-overlapping areas. That way, each area is always fully visible,
 and it is very easy to work in one area and hop over to work in another.
 
 
@@ -57,8 +56,8 @@ This is so that the combined area space results in a rectangle.
 The area that will closed gets a dark overlaid with an arrow.
 Now you can select the area to be closed by moving the mouse over it.
 
-Release the :kbd:`LMB` to complete the join.
-If you press :kbd:`Esc` or  :kbd:`RMB` before releasing the mouse, the operation will be aborted.
+Release the :kbd:`LMB` to complete the join. If you press :kbd:`Esc`
+or :kbd:`RMB` before releasing the mouse, the operation will be aborted.
 
 
 Area Options
@@ -83,6 +82,8 @@ on one of the splitters of the initial area, dragging towards the target area,
 and releasing the mouse there. The two areas do not need to be side by side,
 though they must be inside the same window.
 
+
+.. _bpy.ops.screen.area_dupli:
 
 Duplicate Area into new Window
 ==============================
@@ -115,22 +116,21 @@ Toggle Maximize Area
 The maximized area fill the whole application window.
 It contains the Info Editor and the select area.
 
-You can maximize an area with the
-:menuselection:`View --> Toggle Maximize Area` menu entry.
-To return to normal size use again menu entry,
-or :kbd:`RMB` on the editors header and select *Maximize Area* and
-*Tiled Area* to return.
-In the Info Editor header the *Back to Previous* button on the right of the menus
-also returns to tiled areas.
+You can maximize an area with the :menuselection:`View --> Toggle Maximize Area` menu entry.
+To return to normal size use again menu entry, or :kbd:`RMB` on the editors header and select
+*Maximize Area* and *Tiled Area* to return. In the Info Editor header the *Back to Previous*
+button on the right of the menus also returns to tiled areas.
 
 A quicker way to achieve this is to use the shortcuts: :kbd:`Shift-Spacebar`,
 :kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and normal areas.
 
 .. note::
 
-   The area your mouse is currently hovering over is the one that will be maximized using
-   the keyboard shortcuts.
+   The area your mouse is currently hovering over is the one
+   that will be maximized using the keyboard shortcuts.
 
+
+.. _bpy.ops.screen.screen_full_area:
 
 Toggle Fullscreen Area
 ======================
@@ -138,10 +138,9 @@ Toggle Fullscreen Area
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`View --> Toggle Full Screen`
+   | Menu:     :menuselection:`View --> Toggle Fullscreen Area`
    | Hotkey:   :kbd:`Alt-F10`
 
-The fullscreen area contains only the main region.
-The headers visibility can still be toggled with the shortcut.
-To exit the fullscreen move the mouse to the top right corner of the area to reveal the return icon or
-use the shortcut :kbd:`Alt-F10`.
+The fullscreen area contains only the main region. The headers visibility can still
+be toggled with the shortcut. To exit the fullscreen move the mouse to the top right corner
+of the area to reveal the return icon or use the shortcut :kbd:`Alt-F10`.
