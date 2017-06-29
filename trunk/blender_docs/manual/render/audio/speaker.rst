@@ -1,4 +1,5 @@
 .. _bpy.types.Speaker:
+.. _bpy.ops.object.speaker:
 
 *******
 Speaker

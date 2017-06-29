@@ -1,6 +1,8 @@
+.. _bpy.ops.curve.draw:
 
+**********
 Draw Curve
-==========
+**********
 
 .. admonition:: Reference
    :class: refbox
@@ -14,7 +16,7 @@ The Curve draw tool allows you to freehand draw curves.
 
 
 Stroke Options
---------------
+==============
 
 .. figure:: /images/modeling_curves_editing_draw_curve-stroke-panel.png
    :align: right
@@ -77,7 +79,7 @@ Projection Depth
 
 
 Draw Options
-------------
+============
 
 .. figure:: /images/modeling_curves_editing_draw_draw-curve-panel.png
    :align: right

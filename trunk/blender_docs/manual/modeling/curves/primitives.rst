@@ -1,3 +1,4 @@
+.. _bpy.ops.curve.primitive*add:
 
 **********
 Primitives

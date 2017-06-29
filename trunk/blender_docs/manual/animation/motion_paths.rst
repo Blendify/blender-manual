@@ -1,4 +1,5 @@
 .. _bpy.types.AnimViz:
+.. _bpy.ops.object.paths_calculate:
 
 ************
 Motion Paths

@@ -1,3 +1,4 @@
+.. _bpy.ops.gpencil.convert:
 
 *******************
 Convert to Geometry
@@ -10,7 +11,6 @@ Convert to Geometry
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil --> Tools: Convert to Geometry...`
    | Menu:     :menuselection:`GPencil --> Convert to Geometry...`
    | Hotkey:   :kbd:`Alt-C`
-
 
 .. figure:: /images/interface_grease-pencil_convert.png
    :align: right

@@ -3,6 +3,7 @@
 .. _bpy.types.VectorFont:
 .. _bpy.types.Text:
 .. _bpy.ops.font:
+.. _bpy.ops.object.text:
 
 #######
   Text
