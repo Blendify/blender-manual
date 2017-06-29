@@ -322,15 +322,16 @@ Shortest Path
    :class: refbox
 
    | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Ctrl-RMB` and the menu item :menuselection:`Select --> Shortest Path`
+   | Menu:     :menuselection:`Select --> Shortest Path`
+   | Hotkey:   :kbd:`Ctrl-RMB`
 
 .. figure:: /images/modeling_meshes_selection_shortest-path.png
 
    Select a face or vertex path with :kbd:`Ctrl-RMB`.
 
 
-Selects all geometry along the shortest path from the active vertex/edge/face to the one which
-was selected.
+Selects all geometry along the shortest path from the active
+vertex/edge/face to the one which was selected.
 
 Face Stepping
    Supports diagonal paths for vertices and faces, and
