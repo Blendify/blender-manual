@@ -162,6 +162,8 @@ Reproject Strokes
    This can be useful to fix problem from accidental 3D cursor movement, or viewport changes.
 
 
+.. _bpy.types.GPencilSculptSettings:
+
 Sculpt Strokes Panel
 --------------------
 

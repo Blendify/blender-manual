@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|}}.
+.. _bpy.ops.mesh.primitive*add:
 
 **********
 Primitives

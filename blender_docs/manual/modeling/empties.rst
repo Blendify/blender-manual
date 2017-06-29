@@ -1,3 +1,5 @@
+.. _bpy.types.Object.empty:
+.. _bpy.ops.object.empty:
 .. (todo) Needs more detailed use cases.
 
 *******

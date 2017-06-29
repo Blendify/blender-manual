@@ -17,6 +17,8 @@ Changes to these settings will affect all strokes on the current layer.
 *Grease Pencil* sketches can be converted to editable geometry and used to aid the animation process.
 
 
+.. _bpy.ops.gpencil.draw:
+
 Drawing
 =======
 
@@ -51,6 +53,8 @@ Erase :kbd:`D-RMB`, :kbd:`Eraser`
    :kbd:`NumpadPlus` and :kbd:`NumpadMinus`, while still holding :kbd:`RMB`.
 
 
+.. _bpy.types.ToolSettings.use_gpencil_additive_drawing:
+
 Additive Drawing
 ----------------
 
@@ -72,6 +76,8 @@ Examples of cases where this comes in handy includes animating facial expression
    changing parts of the facial expression, or if you're animating an "eraser" effect.
 
 
+.. _bpy.types.ToolSettings.use_gpencil_continuous_drawing:
+
 Continuous Drawing
 ------------------
 
@@ -88,11 +94,15 @@ Use :kbd:`Esc` or :kbd:`Enter` or clicking outside the current viewport
 Continuous drawing can be disabled using :kbd:`E` key in order to get fast access to sculpt mode.
 
 
+.. _bpy.types.ToolSettings.use_gpencil_draw_onback:
+
 Draw on Back
 ------------
 
 New strokes are moved behind the drawing when confirming the drawing tool (lowered to the bottom of the stack).
 
+
+.. _bpy.types.ToolSettings.gpencil_stroke_placement_view3d:
 
 Stroke Placement
 ================
@@ -108,17 +118,23 @@ Defines how the strokes are converted to 3D (or 2D) space.
 View
    New strokes are placed in screen space (2D) and are locked to the view.
 Cursor
-   New strokes are drawn in 3D-space,
-   with position determined by the 3D cursor and the view rotation at the time of drawing.
-   *Cursor* is available as an option in the *UV/Image Editor*
-   but it functions identically to the *View* option.  *(3D View only)*
+   New strokes are drawn in 3D-space, with position determined by the 3D cursor
+   and the view rotation at the time of drawing. *Cursor* is available as an option
+   in the *UV/Image Editor* but it functions identically to the *View* option. *(3D View only)*
+
+.. _bpy.types.GPencilSculptSettings.lockaxis:
+
+   Lock axis
+      Lock projection to a specified axis.
 Surface
-   New strokes are drawn in 3D-space, with their position projected onto the first visible surface.
-   *(3D View only)*
+   New strokes are drawn in 3D-space, with their position projected
+   onto the first visible surface. *(3D View only)*
 Stroke
    New strokes are drawn in 3D-space, with their position projected onto existing visible strokes.
    Note that strokes created with *View* are not in 3D-space and are not considered for this projection.
    *(3D View only)*
+
+.. _bpy.types.ToolSettings.use_gpencil_stroke_endpoints:
 
 Only Endpoints
    Applies the drawing setting only to the endpoints of the stroke.
@@ -140,7 +156,7 @@ Enable Editing
 
 
 Tools
-======
+=====
 
 - :doc:`Convert to Geometry </interface/grease_pencil/convert_to_geometry>`
 - :doc:`/interface/ruler_and_protractor`
