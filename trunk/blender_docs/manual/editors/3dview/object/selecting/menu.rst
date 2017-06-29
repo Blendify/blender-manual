@@ -7,7 +7,7 @@ There are also many more options accessible through the *Select* menu of the 3D 
 Each is more adapted to certain operations.
 
 
-.. _select-grouped:
+.. _bpy.ops.object.select_grouped:
 
 Select Grouped
 ==============
@@ -63,6 +63,8 @@ Pass Index
    Select matching object pass index.
 
 
+.. _bpy.ops.object.select_linked:
+
 Select Linked
 =============
 
@@ -100,6 +102,8 @@ Library (Object Data)
    and limited to *object data*.
 
 
+.. _bpy.ops.object.select_by_type:
+
 Select All by Type
 ==================
 
@@ -121,6 +125,8 @@ The types are Mesh, Curve, Surface, Meta, Font,
 Armature, Lattice, Empty, Camera, Lamp, Speaker.
 
 
+.. _bpy.ops.object.select_by_layer:
+
 Select All by Layer
 ===================
 
@@ -139,9 +145,6 @@ Select All by Layer
 This option allows the selection of every single object that belongs to a given layer.
 Selected objects become visible.
 
-.. Comment: Not implemented yet?:
-   This selection is added to anything that was already selected at that moment.
-
 
 Options
 -------
@@ -159,6 +162,10 @@ Layer
    it might be more efficient to make the needed layers visible and use :kbd:`A` on them.
    This method also allows objects to be deselected.
 
+
+.. _bpy.ops.object.select_more:
+.. _bpy.ops.object.select_less:
+.. _bpy.ops.object.select_hierarchy:
 
 More/Less
 =========
@@ -193,24 +200,39 @@ Other Menu Options
 
 Available options on the first level of the menu are:
 
+.. _bpy.ops.object.select_all:
+
 (De)select All :kbd:`A`
    If anything was selected it is first deselected.
    Otherwise it toggles between selecting and deselecting every visible object.
 
    Action
       Select, Deselect, Invert, Toggle
+
 Inverse :kbd:`Ctrl-I`
    Selects all objects that were not selected, while deselecting all those which were.
+
+.. _bpy.ops.object.select_random:
+
 Random
    Randomly selects unselected objects based on percentage probability on currently active layers.
    On selecting the operator a numerical selection box becomes available in the *Tool Shelf*.
    It is important to note that the percentage represents the likelihood of an unselected object being
    selected and not the percentage amount of objects that will be selected.
+
+.. _bpy.ops.object.select_mirror:
+
 Mirror :kbd:`Shift-Ctrl-M`
    Select the Mirror objects of the selected object, based on their names.
    e.g. "sword.L" and "sword.R".
+
+.. _bpy.ops.object.select_camera:
+
 Select Camera
    Select the active camera.
+
+.. _bpy.ops.object.select_pattern:
+
 Select Pattern
    Selects all objects whose name matches a given pattern.
    Supported wildcards: \* matches everything, ? matches any single character,
