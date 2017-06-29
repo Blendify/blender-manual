@@ -154,7 +154,6 @@ Select All by Layer
 
    | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Select All by Layer`
-   | Hotkey:   None
 
 .. figure:: /images/editors_3dview_select_allbylayer.png
    :align: right
