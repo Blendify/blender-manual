@@ -9,4 +9,3 @@
 
    introduction.rst
    tools.rst
-   menu.rst
