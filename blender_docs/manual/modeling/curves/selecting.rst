@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|im = add images}}.
 
 *********
 Selecting
@@ -100,9 +99,8 @@ Select/Deselect First/Last
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Select/Deselect First`, :menuselection:`Select --> Select/Deselect Last`
-   | Hotkey:   None
-
+   | Menu:     :menuselection:`Select --> Select/Deselect First`,
+               :menuselection:`Select --> Select/Deselect Last`
 
 These operators will toggle the selection of the first or last control point(s) of the curve(s)
 in the object. This is useful to quickly find the start of a curve
@@ -117,8 +115,6 @@ Select Next/Previous
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Select Next`, :menuselection:`Select --> Select Previous`
-   | Hotkey:   None
-
 
 These operators will select the next or previous control point(s),
 based on the current selection

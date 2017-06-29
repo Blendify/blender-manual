@@ -29,7 +29,6 @@ Checker Deselect
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Checker Deselect`
-   | Hotkey:   None
 
 This tool applies a alternating selected/deselected checker pattern.
 This only works if you already have more than one mesh element selected.
