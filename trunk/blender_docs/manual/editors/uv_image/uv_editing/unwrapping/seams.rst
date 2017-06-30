@@ -33,11 +33,10 @@ as opposed to 2D texturing, where it is difficult to match the edges of differen
 
 The workflow is the following:
 
-- Create seams.
-  A seam is marked in Edit Mode by selecting edges to make the seam and then issuing the Mark Seam operator.
-- Unwrap.
-- Adjust seams and repeat.
-- Manually adjust UVs. See the next section on Editing UVs.
+#. Create seams.
+#. Unwrap.
+#. Adjust seams and repeat.
+#. Manually adjust UVs.
 
 
 Marking Seams
