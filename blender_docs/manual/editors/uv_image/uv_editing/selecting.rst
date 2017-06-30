@@ -26,18 +26,15 @@ Select Pinned
 Select Linked
    This operator selects all UVs that are connected to currently selected UVs :kbd:`Ctrl-L`.
    This works similarly to the tools in 3D View.
-More
-   ..
-Less
+More/Less
    ..
 
 .. Ed. Unlink not working? Ctrl-shift-L is key-mapped.
 
 Unlink Selection :kbd:`Alt-L`
-   Cuts apart the selected UVs from the map.
-   Only those UVs which belong to fully selected faces remain selected.
-   As the name implies, this is particularly useful to unlink faces and move them elsewhere.
-   The hotkey is analogous to the mesh Separate tool.
+   Cuts apart the selected UVs from the map. Only those UVs which belong to fully
+   selected faces remain selected. As the name implies, this is particularly useful
+   to unlink faces and move them elsewhere. The hotkey is analogous to the mesh Separate tool.
 
 
 Header

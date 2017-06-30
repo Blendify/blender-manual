@@ -134,11 +134,9 @@ the image gets mapped. These 2D coordinates are called UVs
 The operation of generating these UV maps is also called "unwrap",
 since it is as if the mesh were unfolded onto a 2D plane.
 
-For most simple 3D models,
-Blender has an automatic set of unwrapping algorithms that you can easily apply.
-For more complex 3D models, regular Cubic, Cylindrical or Spherical mapping,
-is usually not sufficient. For even and accurate projection,
-use seams to guide the UV mapping.
+For most simple 3D models, Blender has an automatic set of unwrapping algorithms that you can easily apply.
+For more complex 3D models, regular Cubic, Cylindrical or Spherical mapping, is usually not sufficient.
+For even and accurate projection, use seams to guide the UV mapping.
 This can be used to apply textures to arbitrary and complex shapes,
 like human heads or animals. Often these textures are painted images,
 created in applications like the Gimp, Photoshop, or your favorite painting application.

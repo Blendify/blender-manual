@@ -17,12 +17,10 @@ Applying Textures to UVs
 The UV/Image Editor allows you to map textures directly to the mesh faces.
 The 3D View editor shows you the object being textured.
 If you set this editor into Textured viewport shading,
-you will immediately see any changes made in the UV/Image and this editor,
-and vice versa.
+you will immediately see any changes made in the UV/Image and this editor, and vice versa.
 
-You can edit and load images,
-and even play a game in the Blender Game Engine with UV textures for characters and object,
-without a material, and still see them in the 3D View.
+You can edit and load images, and even play a game in the Blender Game Engine with
+UV textures for characters and object, without a material, and still see them in the 3D View.
 This is because no real rendering is taking place; it is all just viewport shading.
 If you were to apply an image to UVs then render, the texture would not show up by default.
 
@@ -67,6 +65,7 @@ Full details of using Image textures are on the
    or enable *Face Texture*, your object will render according to the procedural material settings.
 
 
+.. Removed in 2.8 TODO
 .. _face-textures:
 
 Face Textures

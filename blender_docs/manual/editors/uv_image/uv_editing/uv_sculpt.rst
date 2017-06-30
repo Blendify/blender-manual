@@ -7,7 +7,8 @@ UV Sculpting
    :class: refbox
 
    | Mode:     Paint Mode and Mask Mode
-   | Panel:    :menuselection:`Tools Shelf --> Tools`
+   | Panel:    :menuselection:`Tools Shelf --> Options --> UV Sculpt`,
+               :menuselection:`Tools Shelf --> Tools`
    | Menu:     :menuselection:`UVs --> UV Sculpt`
    | Hotkey:   :kbd:`Q`
 
