@@ -7,7 +7,6 @@ Editing UVs
 After unwrap, you will likely need to arrange the UV maps into something that can be logically
 textured or painted. Your goals for editing are:
 
-
 - Stitch some pieces (UV maps) back together.
 - Minimize wasted space in the image.
 - Enlarge the faces where you want more detail.
@@ -21,8 +20,8 @@ or as large as an entire image. You probably want to make some major adjustments
 and then tweak the layout.
 
 
-Menu
-====
+UV Options
+==========
 
 Snap to pixel
    Will force the UVs to snap to the nearest pixels of an image if loaded.
@@ -36,11 +35,9 @@ Unwrap
 
 
 Pin and Unpin
--------------
+=============
 
 You can pin UVs so they do not move between multiple unwrap operations.
-
-.. >
 
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
 so that parts of a UV layout stay the same shape, and/or in the same place.
@@ -61,7 +58,7 @@ This helps with fitting a UV island to a certain shape or region.
 
 
 Pack Islands
-------------
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -78,7 +75,7 @@ then individually transform each island so that they fill up the UV space as muc
 
 
 Average Island Scale
---------------------
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -92,7 +89,7 @@ will scale each UV island so that they are all approximately the same scale.
 
 
 Minimize Stretch
------------------
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -106,7 +103,7 @@ reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 
 
 Stitch
-------
+======
 
 .. admonition:: Reference
    :class: refbox
@@ -121,7 +118,7 @@ by activating *Use Limit* and adjusting the *Limit Distance*
 
 
 Seams
------
+=====
 
 Mark Seam
    ..
@@ -132,13 +129,13 @@ Seams From Island
 
 
 Copy Mirrored UV coords
-------------------------
+=======================
 
 ..
 
 
-Transform
----------
+Transforms
+==========
 
 - Translate :kbd:`G`
 - Rotate :kbd:`R`
@@ -147,7 +144,7 @@ Transform
 
 
 Axis Locking
-^^^^^^^^^^^^
+------------
 
 Transformations can be locked to an axis by pressing :kbd:`X` or :kbd:`Y` after
 one of the transform tools. Also,
@@ -155,7 +152,7 @@ holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 
 
 Mirror
-------
+======
 
 UVs can be mirrored on the Y axis or the X axis:
 
@@ -166,8 +163,8 @@ You can also use the hotkey :kbd:`Ctrl-M`, then enter :kbd:`X` or :kbd:`Y`,
 or hold the :kbd:`MMB` and drag in the mirror direction.
 
 
-Snap
-----
+Snapping
+========
 
 Snapping in UV/image editor is similar to
 :doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/snap>`.
@@ -189,7 +186,7 @@ Cursor to Selected
 
 
 Weld/Align
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -214,7 +211,7 @@ Align
 
 
 Proportional Editing
---------------------
+====================
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
 See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
@@ -222,7 +219,7 @@ for full reference.
 
 
 Show/Hide Faces
----------------
+===============
 
 - Reveal Hidden :kbd:`Alt-H`
 - Hide Select :kbd:`H`
@@ -232,16 +229,12 @@ Show/Hide Faces
 .. _uv-image-export-layout:
 
 Export UV Layout
-----------------
-
-.. <
+================
 
 Using your favorite image painting program, you could use an exported UV layout to create a texture.
 Then save your changes, and back in Blender,
 use the :menuselection:`Image --> Open` menu entry to load it as your UV image
 for the mesh in Edit Mode for the desired (and active) UV map.
-
-.. >
 
 As a way of communicating to an artist who is painting your UV Texture for you,
 Blender has a tool called *Save UV Face Layout*
@@ -270,15 +263,13 @@ Fill Opacity
 The image will be lines defining the UV edges that are within the image area of the UV mapping
 area. Edges outside the boundary, even if selected, will not be shown in the saved graphic.
 
-The artist will use this as a transparent layer in their paint program as a guide when
-painting your texture. The example below shows Blender in the background,
-and the Gimp working on the texture, using the saved layout as a guide.
-Note that ``targa`` format supports the Alpha channel,
+The artist will use this as a transparent layer in their paint program as a guide when painting your texture.
+The example below shows Blender in the background, and the Gimp working on the texture,
+using the saved layout as a guide. Note that ``targa`` format supports the Alpha channel,
 so you can paint transparent areas of the mesh.
 
 For using images as textures, see the page on
 :doc:`Image Textures </render/blender_render/textures/types/image/index>`.
-
 
 .. list-table::
 
@@ -299,38 +290,16 @@ Header
 Pivot Point
 -----------
 
-The UV/Image editor has a 2D cursor.
-Its position can be changed by :kbd:`LMB` clicking in the UV/Image editor.
-You can also manually adjust its position in the Properties region.
+The UV/Image editor has a 2D cursor. Its position can be changed by :kbd:`LMB`
+clicking in the UV/Image editor. You can also manually adjust its position in the Properties region.
 The range by default is from 0 to 256 starting from the lower left corner.
-By enabling *Normalized* under *Coordinates*,
-the range changes from 0 to 1.
-
+By enabling *Normalized* under *Coordinates*, the range changes from 0 to 1.
 
 The Pivot Point can be changed to:
 
 - Bounding Box Center
 - Median Point
 - 2D Cursor Location
-
-
-Proportional Editing
---------------------
-
-Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
-See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
-for full reference.
-
-
-Snap
-----
-
-..
-
-UV Data
--------
-
-..
 
 
 3D View
@@ -346,4 +315,3 @@ menu to rotate the UVs per face in 90-degree turns.
 
 The :menuselection:`Face --> Mirror UVs` tool mirrors the UVs per face,
 which flips the image over, showing you the image reversed.
-

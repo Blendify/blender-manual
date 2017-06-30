@@ -6,8 +6,7 @@ Layout Workflow
 Optimizing the UV Layout
 ========================
 
-When you have unwrapped, possibly using seams,
-your UV layout may be quite disorganized and chaotic.
+When you have unwrapped, possibly using seams, your UV layout may be quite disorganized and chaotic.
 You may need to proceed with the following tasks: Orientation of the UV mapping,
 arranging the UV maps, stitching several maps together.
 
@@ -60,11 +59,9 @@ rotate them somewhat to fit logically within the image area of the UV/Image Edit
    Unwrap ear only, using the *Project From View*.
 
 
-Once we are satisfied with the face, it is time to turn our attention to the ear. First,
-unselect the faces you were working with. Their
-UVs will disappear from the UV/Image Editor, but they are still there, just not shown.
-(To verify this,
-you can select a few faces in 3D View and it will show up in the UV/Image Editor.)
+Once we are satisfied with the face, it is time to turn our attention to the ear. First, unselect
+the faces you were working with. Their UVs will disappear from the UV/Image Editor, but they are still there,
+just not shown. (To verify this, you can select a few faces in 3D View and it will show up in the UV/Image Editor.)
 
 To work on the ear, in the 3D View, we now select only the "ear" faces.
 You can use Vertex Groups to select the ear faces. Selecting sub-meshes is easy too,

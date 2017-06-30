@@ -28,11 +28,10 @@ The target Mesh will now have a UV map that matches the original mesh.
 Multiple UV Maps
 ================
 
-You are not limited to one UV Map per mesh.
-You can have multiple UV maps for parts of the mesh by creating new UV maps.
-This can be done by clicking the *Add* button next to UV maps list
-(in *Object Data* tab in the Properties Editor)
-and unwrapping a different part of the mesh. UV maps always include the whole mesh.
+You are not limited to one UV Map per mesh. You can have multiple UV maps for parts of the mesh
+by creating new UV maps. This can be done by clicking the *Add* button next to UV maps list
+(in *Object Data* tab in the Properties Editor) and unwrapping a different part of the mesh.
+UV maps always include the whole mesh.
 
 .. (todo) continue image clipping
 
@@ -55,7 +54,6 @@ Active Render
 
 Add ``+``
    Clicking the *Add* button duplicates the selected UV map.
-
 
 .. seealso::
 
