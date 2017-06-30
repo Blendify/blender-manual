@@ -69,40 +69,41 @@ For this you must prepare the selection using, to your liking:
 
 all *outside* the name/icon area. Those pre-selected have their line in a lighter color.
 You then can (de)select them with a :kbd:`RMB` *on* the name/icon area,
-which brings on a context menu (see bellow).
-:kbd:`A` to select/deselect all open items.
+which brings on a context menu (see bellow). :kbd:`A` to select/deselect all open items.
 
 .. figure:: /images/editors_outliner_column-icons.png
 
    Selection of a data-block.
 
 
-Context menu
+Context Menu
 ^^^^^^^^^^^^
 
 Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
 Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
 
 Select, Deselect
-   ..
+   This feature is not yet implemented.
 Unlink
    To unlink a data-block from its "owner" (e.g., a material from its mesh).
 Make Local
    To create a "local" duplicate of this data-block.
 Make Single User
-   ToDo.
+   This feature is not yet implemented.
 Delete
-   ToDo.
+   Deletes the selected data-block.
 Delete Hierarchy
    Deletes the object and all of its child objects.
 Remap Users
-   ToDo.
+   Remap Users of a datablock to another one (of same type of course) -- means you can e.g.
+   replace all usages of a material or texture by another one.
 Add Fake User, Clear Fake User
-   ToDo.
-Rename
-   ToDo.
+   Adds a "dummy" (fake) user so that the selected data-block always gets saved even if it has no users.
+   The fake user can be removed with *Clear Fake User*.
+Rename :kbd:`CTRL-LMB`
+   Ranames the selected data-block.
 Select Linked
-   ToDo.
+   Selects the linked data, see :ref:`bpy.ops.object.select_linked` for more information.
 
 .. note::
 
@@ -197,7 +198,6 @@ The *Search* menu lets you toggle the following options:
 
 
 .. Edit menu for data-blocks
-
 
 Example
 =======

@@ -4,7 +4,7 @@
 Views
 *****
 
-.. _3dview-local-view:
+.. _bpy.ops.view3d.localview:
 
 View Global/Local
 =================
@@ -16,11 +16,9 @@ View Global/Local
    | Menu:     :menuselection:`View --> View Global/Local`
    | Hotkey:   :kbd:`NumpadSlash`
 
-Global view shows all of the 3D objects in the scene.
-Local view isolates the selected object or objects,
-so that they are the only ones visible in the viewport.
-This is useful for working on objects that are obscured by other ones, or
-to speed up viewport performance in heavy scenes.
+Global view shows all of the 3D objects in the scene. Local view isolates the selected object or
+objects, so that they are the only ones visible in the viewport. This is useful for working on
+objects that are obscured by other ones, or to speed up viewport performance in heavy scenes.
 
 You can toggle between *Global* and *Local View* by selecting the option
 from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
@@ -62,6 +60,8 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 
 
+.. _bpy.ops.screen.region_quadview:
+
 Quad View
 =========
 
@@ -77,7 +77,6 @@ Toggling Quad View will split the 3D View into four views:
 Three *Orthographic* "side views" and one *Camera*/*User View*.
 This view will allow you to instantly see your model from a number of view points.
 In this arrangement, you can zoom and pan each view independently but you cannot rotate the view.
-
 
 .. rubric:: Shortcuts for all views at once:
 

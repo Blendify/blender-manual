@@ -1,4 +1,4 @@
-.. _shaders:
+.. _bpy.types.Shader:
 
 ###############
   Shader Nodes
