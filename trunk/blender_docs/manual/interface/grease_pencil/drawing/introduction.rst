@@ -81,17 +81,14 @@ Examples of cases where this comes in handy includes animating facial expression
 Continuous Drawing
 ------------------
 
-Continuous Drawing allows for rapid sketching with the *Grease Pencil* when
-multiple strokes are desired. So that you only have to hold :kbd:`D` once for the first stroke.
-Besides the checkbox Continuous Drawing is also enabled
-if the :kbd:`D` key is released while pressing :kbd:`LMB`.
-The eraser for one-off strokes (:kbd:`RMB`) is still available.
-Note that with the *Eraser* both :kbd:`LMB` or :kbd:`RMB` can be used
-when drawing has started.
+Continuous Drawing allows for rapid sketching with the *Grease Pencil* when multiple strokes are desired.
+So that you only have to hold :kbd:`D` once for the first stroke. Besides the checkbox *Continuous Drawing*
+is also enabled if the :kbd:`D` key is released while pressing :kbd:`LMB`. The eraser for one-off strokes
+(:kbd:`RMB`) is still available. Note that with the *Eraser* both :kbd:`LMB` or :kbd:`RMB`
+can be used when drawing has started.
 
-Use :kbd:`Esc` or :kbd:`Enter` or clicking outside the current viewport
-(e.g. another region or editor) to exit the mode.
-Continuous drawing can be disabled using :kbd:`E` key in order to get fast access to sculpt mode.
+Use :kbd:`Esc` or :kbd:`Enter` or clicking outside the current viewport (e.g. another region or editor)
+to exit the mode. Continuous drawing can be disabled using :kbd:`E` key in order to get fast access to sculpt mode.
 
 
 .. _bpy.types.ToolSettings.use_gpencil_draw_onback:
@@ -103,6 +100,7 @@ New strokes are moved behind the drawing when confirming the drawing tool (lower
 
 
 .. _bpy.types.ToolSettings.gpencil_stroke_placement_view3d:
+.. _bpy.types.GPencilSculptSettings.lockaxis:
 
 Stroke Placement
 ================
@@ -121,8 +119,6 @@ Cursor
    New strokes are drawn in 3D-space, with position determined by the 3D cursor
    and the view rotation at the time of drawing. *Cursor* is available as an option
    in the *UV/Image Editor* but it functions identically to the *View* option. *(3D View only)*
-
-.. _bpy.types.GPencilSculptSettings.lockaxis:
 
    Lock axis
       Lock projection to a specified axis.
