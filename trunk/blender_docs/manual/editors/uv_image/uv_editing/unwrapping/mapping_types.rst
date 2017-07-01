@@ -4,6 +4,8 @@
 Mapping Types
 *************
 
+.. _bpy.ops.uv.unwrap:
+
 .. admonition:: Reference
    :class: refbox
 
