@@ -64,6 +64,7 @@ Pack Islands
    :class: refbox
 
    | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Pack Islands`
    | Menu:     :menuselection:`UVs --> Pack Islands`
    | Hotkey:   :kbd:`Ctrl-P`
 
@@ -84,8 +85,8 @@ Average Island Scale
    | Menu:     :menuselection:`UVs --> Average Island Scale`
    | Hotkey:   :kbd:`Ctrl-A`
 
-Using the *Average Island Scale* tool, shortcut :kbd:`Ctrl-A`,
-will scale each UV island so that they are all approximately the same scale.
+Using the *Average Island Scale* tool, will scale each
+UV island so that they are all approximately the same scale.
 
 
 Minimize Stretch
@@ -98,8 +99,7 @@ Minimize Stretch
    | Menu:     :menuselection:`UVs --> Minimize Stretch`
    | Hotkey:   :kbd:`Ctrl-V`
 
-The *Minimize Stretch* tool, :kbd:`Ctrl-V`,
-reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
+The *Minimize Stretch* tool, reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 
 
 Stitch
@@ -112,7 +112,7 @@ Stitch
    | Menu:     :menuselection:`UVs --> Stitch`
    | Hotkey:   :kbd:`V`
 
-*Stitch*, :kbd:`V`, will join selected UVs that share vertices.
+The *Stitch* tool, will join selected UVs that share vertices.
 You set the tool to limit stitching by distance in the Operator panel,
 by activating *Use Limit* and adjusting the *Limit Distance*
 
@@ -153,6 +153,15 @@ holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 
 Mirror
 ======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Align --> Mirror X/Y`
+   | Menu:     :menuselection:`UVs --> Mirror`
+   | Hotkey:   :kbd:`Ctrl-M`
+
 
 UVs can be mirrored on the Y axis or the X axis:
 
