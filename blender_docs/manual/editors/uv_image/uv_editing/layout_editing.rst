@@ -20,28 +20,46 @@ or as large as an entire image. You probably want to make some major adjustments
 and then tweak the layout.
 
 
+Transforms
+==========
+
+- Translate :kbd:`G`
+- Rotate :kbd:`R`
+- Scale :kbd:`S`
+- Shear :kbd:`Shift-Ctrl-Alt-S`
+
+
+.. _bpy.types.SpaceUVEditor.use_live_unwrap:
+.. _bpy.types.SpaceUVEditor.use_snap_to_pixels:
+.. _bpy.types.SpaceUVEditor.lock_bounds:
+
 UV Options
 ==========
 
+Live Unwrap
+   Continuously unwraps the selected UV islands while transforming pinned vertices. 
 Snap to pixel
    Will force the UVs to snap to the nearest pixels of an image if loaded.
 Constraining to Image Bounds
-   Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside the
-   0 to 1 UV range.
-Live Unwrap
-   ..
-Unwrap
-   ..
+   Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside the 0 to 1 UV range.
 
+
+.. _bpy.ops.uv.pin:
 
 Pin and Unpin
 =============
 
-You can pin UVs so they do not move between multiple unwrap operations.
+.. admonition:: Reference
+   :class: refbox
 
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Pin/Unpin`
+   | Menu:     :menuselection:`UVs --> Pin/Unpin`
+   | Hotkey:   :kbd:`P` / :kbd:`Alt-P`
+
+You can pin UVs so they do not move between multiple unwrap operations.
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
 so that parts of a UV layout stay the same shape, and/or in the same place.
-
 Pinning is done selecting a UV, then by selecting *Pin* from the *UVs* menu,
 or the shortcut :kbd:`P`. You can *Unpin a UV* with the shorctut :kbd:`Alt-P`
 
@@ -56,6 +74,19 @@ Pinning also work great with the Live Unwrap tool. If you pin two or more UVs,
 with Live Unwrap on, dragging pinned UVs will interactively unwrap the model.
 This helps with fitting a UV island to a certain shape or region.
 
+
+Seams
+=====
+
+Mark Seam
+   ..
+Clear Seam
+   ..
+Seams From Island
+   ..
+
+
+.. _bpy.ops.uv.pack_islands:
 
 Pack Islands
 ============
@@ -75,6 +106,8 @@ First it will uniformly scale the selected island,
 then individually transform each island so that they fill up the UV space as much as possible.
 
 
+.. _bpy.ops.uv.average_islands_scale:
+
 Average Island Scale
 ====================
 
@@ -82,12 +115,15 @@ Average Island Scale
    :class: refbox
 
    | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Average Island Scale`
    | Menu:     :menuselection:`UVs --> Average Island Scale`
    | Hotkey:   :kbd:`Ctrl-A`
 
 Using the *Average Island Scale* tool, will scale each
 UV island so that they are all approximately the same scale.
 
+
+.. _bpy.ops.uv.minimize_stretch:
 
 Minimize Stretch
 ================
@@ -96,11 +132,14 @@ Minimize Stretch
    :class: refbox
 
    | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Minimize Stretch`
    | Menu:     :menuselection:`UVs --> Minimize Stretch`
    | Hotkey:   :kbd:`Ctrl-V`
 
 The *Minimize Stretch* tool, reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 
+
+.. _bpy.ops.uv.stitch:
 
 Stitch
 ======
@@ -109,6 +148,7 @@ Stitch
    :class: refbox
 
    | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Stitch`
    | Menu:     :menuselection:`UVs --> Stitch`
    | Hotkey:   :kbd:`V`
 
@@ -117,38 +157,17 @@ You set the tool to limit stitching by distance in the Operator panel,
 by activating *Use Limit* and adjusting the *Limit Distance*
 
 
-Seams
-=====
-
-Mark Seam
-   ..
-Clear Seam
-   ..
-Seams From Island
-   ..
-
-
 Copy Mirrored UV coords
 =======================
 
 ..
 
 
-Transforms
-==========
-
-- Translate :kbd:`G`
-- Rotate :kbd:`R`
-- Scale :kbd:`S`
-- Shear :kbd:`Shift-Ctrl-Alt-S`
-
-
 Axis Locking
 ------------
 
-Transformations can be locked to an axis by pressing :kbd:`X` or :kbd:`Y` after
-one of the transform tools. Also,
-holding the :kbd:`MMB` will constrain movement to the X or Y axis.
+Transformations can be locked to an axis by pressing :kbd:`X` or :kbd:`Y` after one of the transform tools.
+Also, holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 
 
 Mirror
@@ -161,7 +180,6 @@ Mirror
    | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Align --> Mirror X/Y`
    | Menu:     :menuselection:`UVs --> Mirror`
    | Hotkey:   :kbd:`Ctrl-M`
-
 
 UVs can be mirrored on the Y axis or the X axis:
 
@@ -194,23 +212,51 @@ Cursor to Selected
    Moves the Cursor to the center of the selection.
 
 
-Weld/Align
-==========
+.. _bpy.ops.uv.weld:
+
+Weld
+====
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     View mode
-   | Menu:     :menuselection:`UVs --> Weld/Align`
-   | Hotkey:   :kbd:`W`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Weld`
+   | Menu:     :menuselection:`UVs --> Weld/Align --> Weld`,
+               :menuselection:`Specials --> Weld`
+
+The *Weld* tool will move selected UVs to their average position.
 
 
-The *Weld or Align* tool, :kbd:`W`.
+.. _bpy.ops.uv.remove_doubles:
 
-Weld
-   The *Weld* tool will move selected UVs to their average position.
 Remove Doubles UV
-   ..
+=================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Remove Doubles UV`
+   | Menu:     :menuselection:`UVs --> Weld/Align --> Remove Doubles UV`,
+               :menuselection:`Specials --> Remove Doubles UV`
+
+The *Remove Doubles UV* tool will merge selected UVs within the specified *Margin*.
+
+
+.. _bpy.ops.uv.align:
+
+Align
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Straighten/Align`
+   | Menu:     :menuselection:`UVs --> Weld/Align --> Straighten/Align`,
+               :menuselection:`Specials --> Straighten/Align`
+
 Straighten
    Auto, X, Y
 Align
@@ -241,9 +287,8 @@ Export UV Layout
 ================
 
 Using your favorite image painting program, you could use an exported UV layout to create a texture.
-Then save your changes, and back in Blender,
-use the :menuselection:`Image --> Open` menu entry to load it as your UV image
-for the mesh in Edit Mode for the desired (and active) UV map.
+Then save your changes, and back in Blender, use the :menuselection:`Image --> Open`
+to load it as your UV image for the mesh in Edit Mode for the desired (and active) UV map.
 
 As a way of communicating to an artist who is painting your UV Texture for you,
 Blender has a tool called *Save UV Face Layout*

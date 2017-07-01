@@ -1,3 +1,4 @@
+.. _bpy.types.ToolSettings.use_uv_sculpt:
 
 ************
 UV Sculpting
