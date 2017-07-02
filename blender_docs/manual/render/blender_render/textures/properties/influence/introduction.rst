@@ -25,9 +25,9 @@ Diffuse
 -------
 
 Intensity
-   Amount texture affects affects diffuse reflectivity
+   Amount texture affects diffuse reflectivity
 Color
-   Amount texture affect the basic color or RGB value of the material
+   Amount texture affects the basic color or RGB value of the material
 Alpha
    Influences the opacity of the material.
    Also use *Z Transparency* for light and if combining multiple channels.
@@ -39,7 +39,7 @@ Specular
 --------
 
 Intensity
-   Amount texture affect specular reflectivity
+   Amount texture affects specular reflectivity
 Color
    Influences the *Specular* color, the color of the reflections created by the lamps on a glossy material.
 Hardness
@@ -53,7 +53,7 @@ Shading
 Ambient
    Influences the amount of Ambient light the material receives.
 Emit
-   Influences the amount of light Emitted by the material.
+   Influences the amount of light emitted by the material.
 Mirror
    Influences the mirror color. This works with environment maps and raytraced reflection.
 Ray Mirror

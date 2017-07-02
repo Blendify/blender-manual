@@ -12,7 +12,7 @@ Scene
 
 Camera
    Used to select which camera is used as the active camera.
-   You can also set the active camera the 3D View with :kbd:`Ctrl-0`.
+   You can also set the active camera in the 3D View with :kbd:`Ctrl-0`.
 
 .. _scene-background-set:
 
@@ -24,7 +24,7 @@ Background
    This scene can have its own animation, physics-simulations etc,
    but you will have to select it from the *Scene* data-block menu, if you want to edit any of its contents.
 
-   Set's can themselves have a background set (they're recursively included).
+   Sets can themselves have a background set (they're recursively included).
    So you can always make additions to existing scenes by using them as a background
    to a newly created scene where your additions are made.
 
