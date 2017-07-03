@@ -118,7 +118,7 @@ The constructor takes one mandatory and three optional arguments:
 ``textureObj``
    Reference to another ``Texture`` object of which we want to reuse the texture.
    If we use this argument,
-   we should not create any source on this texture and there is no need to refresh it either:
+   we should not create any source on this texture and there is no need to refresh it either ;
    the other ``Texture`` object will provide the texture for both materials/textures.
 
 
@@ -131,7 +131,7 @@ Make texture persistent
 -----------------------
 
 Note that we have assigned the object to a ``GameLogic``, ``video``
-attribute that we create for the occasion.
+attribute that we have created for the occasion.
 The reason is that the ``Texture`` object must be persistent across the game scripts.
 A local variable would be deleted at the end of the script and the GPU texture deleted at the
 same time. ``GameLogic`` module object is a handy place to store persistent objects.
@@ -316,8 +316,8 @@ Advanced demos
 
 Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2video.blend>`__
 that demonstrates the use of two videos alternatively on the same texture.
-Note that it requires an additional video file which is the elephant dream teaser.
-You can replace with another other file that you want to run the demo.
+Note that it requires an additional video file which is the *Elephant Dream* teaser.
+You can replace it with another file that you want to run the demo.
 
 Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2videoMix.blend>`__
 that demonstrates the use of the ``ImageMix`` source.
@@ -330,4 +330,4 @@ and that the sum of all weights should be 255.
 ``ImageMix`` makes a mix of all the sources according to their weights.
 The sources must all have the same image size
 (after reduction to the nearest power of two dimension). If they do not,
-you get a Python error on the console.
+you will get a Python error on the console.

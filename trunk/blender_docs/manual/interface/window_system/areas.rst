@@ -53,7 +53,7 @@ This is so that the combined area space results in a rectangle.
 
    The Properties Editor is being merged "over" the Outliner.
 
-The area that will closed gets a dark overlaid with an arrow.
+The area that will be closed gets a dark overlaid with an arrow.
 Now you can select the area to be closed by moving the mouse over it.
 
 Release the :kbd:`LMB` to complete the join. If you press :kbd:`Esc`
