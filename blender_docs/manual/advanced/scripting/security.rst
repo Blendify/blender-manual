@@ -33,7 +33,7 @@ Registered Text-Blocks
 Animation Drivers
   Python expressions can be used to *Drive* values and are often used in more advanced rigs and animations.
 Game Engine Auto-Start
-  Scripts are often used for game logic, blend-files can have *Auto Start* enabled with runs the game on load.
+  Scripts are often used for game logic, blend-files can have *Auto Start* enabled which runs the game on load.
 
 
 Manual Execution

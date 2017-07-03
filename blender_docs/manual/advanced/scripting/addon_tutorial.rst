@@ -21,11 +21,11 @@ Prerequisites
 
 Before going through the tutorial you should...
 
-- Familiarity with the basics of working in Blender.
+- Be familiar with the basics of working in Blender.
 - Know how to run a script in Blender's text editor.
 - Have an understanding of Python primitive types (int, boolean, string, list, tuple, dictionary, and set).
 - Be familiar with the concept of Python modules.
-- Basic understanding of classes (object orientation) in Python.
+- Have a basic understanding of classes (object orientation) in Python.
 
 Suggested reading before starting this tutorial.
 
@@ -34,14 +34,14 @@ Suggested reading before starting this tutorial.
   to help become familiar with Blender/Python basics.
 
 
-To best troubleshoot any error message Python prints while writing scripts you run Blender with from a terminal,
-see :ref:`Use The Terminal <use_the_terminal>`.
+To best troubleshoot any error message Python prints while writing scripts, you run Blender from a terminal.
+See :ref:`Use The Terminal <use_the_terminal>`.
 
 
 Documentation Links
 ===================
 
-While going through the tutorial you may want to look into our reference documentation.
+While going through the tutorial, you may want to look into our reference documentation.
 
 - :ref:`blender_api:Blender API Overview <info_overview>`. -
   *This document is rather detailed but helpful if you want to know more on a topic.*
@@ -83,14 +83,14 @@ To give an example, here is the simplest possible add-on.
    this is called when the add-on is disabled.
 
 
-Notice this add-on does not do anything related to Blender,
+Notice this add-on does not do anything related to Blender
 (the :mod:`blender_api:bpy` module is not imported for example).
 
 This is a contrived example of an add-on that serves to illustrate the point
 that the base requirements of an add-on are simple.
 
-An add-on will typically register operators, panels, menu items etc,
-but its worth noting that *any* script can do this,
+An add-on will typically register operators, panels, menu items, etc,
+but it's worth noting that *any* script can do this,
 when executed from the text editor or even the interactive console --
 there is nothing inherently different about an add-on that allows it to integrate with Blender,
 such functionality is just provided by the :mod:`blender_api:bpy` module for any script to access.
@@ -135,7 +135,7 @@ all objects in the active scene are moved by 1.0 Blender unit.
 Write the Add-on (Simple)
 -------------------------
 
-This add-on takes the body of the script above, and adds them to an operator's ``execute()`` function.
+This add-on takes the body of the script above, and adds it to an operator's ``execute()`` function.
 
 
 .. code-block:: python
@@ -184,13 +184,13 @@ This add-on takes the body of the script above, and adds them to an operator's `
 .. note::
 
    Rather than using ``bpy.context.scene``, we use the ``context.scene`` argument passed to ``execute()``.
-   In most cases these will be the same however in some cases operators will be passed a custom context
+   In most cases these will be the same. However in some cases, operators will be passed a custom context
    so script authors should prefer the ``context`` argument passed to operators.
 
-To test the script you can copy and paste this into Blender text editor and run it,
-this will execute the script directly and call register immediately.
+To test the script, you can copy and paste it into Blender text editor and run it.
+This will execute the script directly and call register immediately.
 
-However running the script wont move any objects, for this you need to execute the newly registered operator.
+However running the script won't move any objects. For this, you need to execute the newly registered operator.
 
 .. figure:: /images/advanced_scripting_tutorial_spacebar-menu.png
 
@@ -210,9 +210,9 @@ Install The Add-on
 Once you have your add-on within in Blender's text editor,
 you will want to be able to install it so it can be enabled in the user preferences to load on startup.
 
-Even though the add-on above is a test, lets go through the steps anyway so you know how to do it for later.
+Even though the add-on above is a test, let's go through the steps anyway so you know how to do it for later.
 
-To install the Blender text as an add-on you will first have to save it to disk, take care to obey the naming
+To install the Blender text as an add-on, you will first have to save it to disk, take care to obey the naming
 restrictions that apply to Python modules and end with a ``.py`` extension.
 
 Once the file is on disk, you can install it as you would for an add-on downloaded online.
@@ -220,13 +220,13 @@ Once the file is on disk, you can install it as you would for an add-on download
 Open the user :menuselection:`File --> User Preferences`,
 Select the *Add-on* section, press *Install Add-on...* and select the file.
 
-Now the add-on will be listed and you can enable it by pressing the check-box,
+Now the add-on will be listed and you can enable it by pressing the checkbox,
 if you want it to be enabled on restart, press *Save as Default*.
 
 .. note::
 
    The destination of the add-on depends on your Blender configuration.
-   When installing an add-on the source and destination path are printed in the console.
+   When installing an add-on the source and destination paths are printed in the console.
    You can also find add-on path locations by running this in the Python console.
 
    .. code-block:: python
@@ -248,7 +248,7 @@ copies of an object in a similar way to what you may have seen with the array mo
 Write The Script
 ----------------
 
-As before, first we will start with a script, develop it, then convert into an add-on.
+As before, first we will start with a script, develop it, then convert it into an add-on.
 
 .. code-block:: python
 
@@ -274,10 +274,10 @@ As before, first we will start with a script, develop it, then convert into an a
    obj_new.location = cursor
 
 
-Now try copy this script into Blender and run it on the default cube.
+Now try copy this script into Blender and run it on the default Cube.
 Make sure you click to move the 3D cursor before running as the duplicate will appear at the cursor's location.
 
-After running, notice that when you go into edit-mode to change the cube -- all of the copies change,
+.. ~ After running, notice that when you go into *Edit Mode* to change the Cube -- all of the copies change,
 in Blender this is known as *Linked-Duplicates*.
 
 Next, we're going to do this in a loop, to make an array of objects between the active object and the cursor.
@@ -305,10 +305,10 @@ Next, we're going to do this in a loop, to make an array of objects between the 
        obj_new.location = (obj.location * factor) + (cursor * (1.0 - factor))
 
 
-Try run this script with with the active object and the cursor spaced apart to see the result.
+Try run this script with the active object and the cursor spaced apart to see the result.
 
 With this script you'll notice we're doing some math with the object location and cursor,
-this works because both are 3D :class:`blender_api:mathutils.Vector` instances,
+this works because both are 3D :class:`blender_api:mathutils. Vector` instances,
 a convenient class provided by the :mod:`blender_api:mathutils` module and
 allows vectors to be multiplied by numbers and matrices.
 
@@ -317,7 +317,7 @@ If you are interested in this area, read into :class:`blender_api:mathutils.Vect
 cross product, dot products as well as more advanced functions in :mod:`blender_api:mathutils.geometry`
 such as Bézier Spline interpolation and ray-triangle intersection.
 
-For now we will focus on making this script an add-on, but its good to know that this
+For now we will focus on making this script an add-on, but it's good to know that this
 3D math module is available and can help you with more advanced functionality later on.
 
 
@@ -386,13 +386,13 @@ There are a variety of property types that are used for tool settings, common pr
 int, float, vector, color, boolean and string.
 
 These properties are handled differently to typical Python class attributes
-because Blender needs to be display them in the interface,
+because Blender needs to display them in the interface,
 store their settings in key-maps and keep settings for reuse.
 
 While this is handled in a fairly Pythonic way, be mindful that you are in fact defining tool settings that
 are loaded into Blender and accessed by other parts of Blender, outside of Python.
 
-To get rid of the literal 10 for ``total``, we'll us an operator property.
+To get rid of the literal 10 for ``total``, we'll use an operator property.
 Operator properties are defined via bpy.props module, this is added to the class body.
 
 .. code-block:: python
@@ -427,7 +427,7 @@ For this example we'll add to an existing menu.
 
    Menu Identifier
 
-To find the identifier of a menu you can hover your mouse over the menu item and the identifier is displayed.
+To find the identifier of a menu, you can hover your mouse over the menu item and the identifier is displayed.
 
 The method used for adding a menu item is to append a draw function into an existing class.
 
@@ -440,7 +440,7 @@ The method used for adding a menu item is to append a draw function into an exis
        bpy.types.VIEW3D_MT_object.append(menu_func)
 
 
-For docs on extending menus see: :doc:`blender_api:bpy.types.Menu`.
+For docs on extending menus, see: :doc:`blender_api:bpy.types.Menu`.
 
 
 Keymap
@@ -477,7 +477,7 @@ our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to a
        addon_keymaps.clear()
 
 
-Notice how the key-map item can have a different ``total`` setting then the default set by the operator,
+Notice how the keymap item can have a different ``total`` setting then the default set by the operator,
 this allows you to have multiple keys accessing the same operator with different settings.
 
 .. note::
@@ -581,13 +581,13 @@ Run the script (or save it and add it through the Preferences like before) and i
    Operator Property.
 
 
-After selecting it from the menu, you can choose how many instance of the cube you want created.
+After selecting it from the menu, you can choose how many instances of the cube you want create.
 
 .. note::
 
    Directly executing the script multiple times will add the menu each time too.
-   While not useful behavior, theres nothing to worry about since add-ons will not
-   register them selves multiple times when enabled through the user preferences.
+   While not useful behavior, there's nothing to worry about since add-ons will not
+   register themselves multiple times when enabled through the user preferences.
 
 
 Conclusions
@@ -606,7 +606,7 @@ for common tasks that you can expand on to write your own tools.
 Further Reading
 ---------------
 
-Blender comes commented templates which are accessible from the text editor header,
+Blender comes with commented templates which are accessible from the text editor header,
 if you have specific areas you want to see example code for, this is a good place to start.
 
 Here are some sites you might like to check on after completing this tutorial.
