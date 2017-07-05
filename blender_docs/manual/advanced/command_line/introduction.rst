@@ -4,8 +4,8 @@
 Introduction
 ************
 
-The *Console Window* is an operating system text window that displays messages about
-Blender's operations, status, and internal errors.
+The *Console Window*, also called a *Terminal*, is an operating system text window that displays
+messages about Blender's operations, status, and internal errors.
 
 Use Cases:
 
@@ -22,27 +22,27 @@ Linux
 -----
 
 The Blender *Console Window* in Linux will typically only be visible on the desktop
-if Blender is manually started from a terminal, as Blender outputs to the
+if Blender is manually started from a terminal. Blender outputs to the
 *Console Window* it is started from.
 
 Depending on your desktop environment setup, a Blender icon may appear on your desktop or an
-entry for Blender is added to your menu after you install Blender.
-When you start Blender using a desktop icon or menu entry rather than a Terminal window, the
-Blender *Console Window* text will most likely be hidden on the Terminal that your
-`XWindow <https://en.wikipedia.org/wiki/X_Window_System>`__ server was started from.
+entry for Blender is added to your menu after you install Blender. Often you can edit such an icon
+and enable "Run in terminal".
+
+.. figure:: /images/interface-window_system-console-kde.png
+
+   Configuring the KDE menu icon to start Blender from a terminal.
 
 This screenshot shows Blender started from a Linux Terminal and the
-resulting console text being printed to it:
+resulting text output written to it:
 
 .. figure:: /images/interface-window_system-console-linux.png
-   :align: right
-   :width: 360px
 
-   Starting Blender from a Linux console window.
+   Starting Blender from a Linux terminal window.
 
 
-macOS
------
+Apple macOS
+-----------
 
 macOS uses "files" with the ``.app`` extension called *applications*.
 These files are actually folders that appear as files in Finder.
@@ -56,29 +56,28 @@ If you have Blender installed in the Applications folder, the following command 
 .. parsed-literal:: /Applications/blender-\ |BLENDER_VERSION|/blender.app/Contents/MacOS/blender
 
 .. figure:: /images/interface-window_system-console-mac.png
-   :align: right
-   :width: 360px
 
    Starting Blender from a macOS console window.
 
 
-MS-Windows
-----------
+Microsoft Windows
+-----------------
 
-When Blender is started on a MS-Windows operating system, the *Console Window*
+When Blender is started on a Microsoft Windows operating system, the *Console Window*
 (called the Command Prompt) is first created as a separate window on the desktop.
 The main Blender window will also appear and the *Console Window* will then be toggled off.
 To display the console again, go to :menuselection:`Window --> Toggle System Console`.
 
 To start Blender from the command line you need to open an instance of Command Prompt.
-To do this run :kbd:`OSkey-R` then type :kbd:`cmd` this will open the Command Prompt window.
-You then need to find the path to the Blender executable if you installed Blender Via the installer then it can be found here:
+To do this run :kbd:`WinKey-R` then type :kbd:`cmd` this will open the Command Prompt window.
+You then need to find the path to the Blender executable. If you installed Blender via the installer
+then it can be found here:
 
-.. parsed-literal:: /Applications/blender-\ |BLENDER_VERSION|/blender.app/Contents/MacOS/blender
+.. parsed-literal:: C:\\Program Files\\Blender Foundation\\Blender\\blender.exe
 
 .. figure:: /images/interface_window_system-console_windows.png
 
-   Blender’s Console Window on MS-Windows.
+   Blender’s Console Window on Microsoft Windows.
 
 
 The screenshot shows the Blender *Console Window* on MS-Windows directly after starting
