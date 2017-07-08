@@ -17,7 +17,7 @@ Brushes
 
 .. note::
 
-   In order to save in a blend-user a custom brush set a Fake User.
+   In order to save in a blend-user a custom brush, set a Fake User.
 
 - Increase/decrease brush size :kbd:`[` and :kbd:`]`
 
@@ -32,4 +32,4 @@ Radial Control
 You can then either adjust the value interactively or by typing in numbers.
 After pressing the hotkey move the mouse to increase/reduce the value
 (additionally with precision and/or snapping activated).
-Finally confirm (:kbd:`LMB`, :kbd:`Enter`) or chancel (:kbd:`RMB`, :kbd:`Esc`).
+Finally confirm (:kbd:`LMB`, :kbd:`Enter`) or cancel (:kbd:`RMB`, :kbd:`Esc`).

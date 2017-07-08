@@ -639,7 +639,7 @@ This page lists definitions for terms used in Blender and this manual.
       but it is quite different from :term:`Axis Angle`.
 
    Radiosity
-      A global lighting method.
+      A global lighting method
       that calculates patterns of light and shadow for rendering graphics images from three-dimensional models.
       One of the many different tools which can simulate diffuse lighting in Blender.
 

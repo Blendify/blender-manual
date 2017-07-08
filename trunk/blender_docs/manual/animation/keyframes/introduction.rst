@@ -23,7 +23,7 @@ When the current frame is a keyframe for the current active object, the name of 
 
 .. figure:: /images/animation_keyframes_visualization.png
 
-   Buttom: Current frame at 0. Top: Current frame is a keyframe for Cube.
+   Bottom: Current frame at 0. Top: Current frame is a keyframe for Cube.
 
 
 .. _keyframe-type:
