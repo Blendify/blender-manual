@@ -79,9 +79,9 @@ The shape of the area light can be set to *Square* or *Rectangle*.
 
 
 Square / Rectangular
-   Emit light from either a square or a rectangular area
+   Emit light from either a square or a rectangular area.
 Size / Size X / Size Y
-   Dimensions for the *Square* or *Rectangle*
+   Dimensions for the *Square* or *Rectangle*.
 
 .. note:: Shape Tips
 
@@ -89,4 +89,4 @@ Size / Size X / Size Y
    For example, you may have an indoor scene and would like to simulate light entering through a window.
    You could place a *Rectangular* area lamp in a window (vertical) or from neons (horizontal)
    with proper ratios for *Size X* and *Size Y*. For the simulation of the light emitted by a
-   TV screen a vertical *Square* area lamp would be better in most cases.
+   TV screen, a vertical *Square* area lamp would be better in most cases.

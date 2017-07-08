@@ -31,11 +31,11 @@ for various reasons it can still be an issue with modern digital flatscreen TVs.
 
    Although modern digital electronics have eliminated the issue of shifting image position,
    unfortunately, some TV manufacturers have included overscan on their flatscreen TVs.
-   Why? Because for many years it was a given that the edge of the visible image would rarely be seen,
+   Why? Because for many years it was given that the edge of the visible image would rarely be seen,
    so broadcasters would sometimes overlay 'hidden' data to the very edge of the image
    (e.g. some types of closed captions). Also, legacy analog recordings might still
    contain unwanted noise around the edge. To avoid consumer complaints,
-   overscan is quite often enabled by default. For some flatscreen TVs, it is not possible to disable
+   overscan is quite often enabled by default. For some flatscreen TVs, it is not possible to disable it.
 
 
 Enabling Safe Areas

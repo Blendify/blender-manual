@@ -7,7 +7,7 @@ Spot Volumetric Effects
 .. figure:: /images/lighting-lamps-spot-halo_options.png
    :width: 310px
 
-   Spot lamps's Halo options.
+   Spot lamps' Halo options.
 
 
 *Spot* lights also can produce "volumetric" effects.

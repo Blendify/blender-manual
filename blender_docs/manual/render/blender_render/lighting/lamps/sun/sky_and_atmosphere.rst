@@ -140,7 +140,7 @@ Scattering
       into atmosphere between the camera and objects in the scene.
       This value should be 1.0 but can be changed to create some nice, but not realistic, images.
    Extinction
-      This factor can be use to decrease the effect of extinction light from objects in the scene.
+      This factor can be used to decrease the effect of extinction light from objects in the scene.
       Like *Inscattering* factor, this parameter should be 1.0 but you can change it;
       low values result in less light extinction. Its value is in the range (0.0 to 1.0).
 

@@ -7,7 +7,7 @@ Spot Buffered Shadows
 .. figure:: /images/lighting-shadow-spot_buf_shad.png
    :width: 310px
 
-   Buffer Shadow enabled for a Spot lamp.
+   Buffered Shadow enabled for a Spot lamp.
 
 
 Spotlights can use either
@@ -236,7 +236,7 @@ Bias
    and can usually be fixed by increasing the *Bias* value, which exists for that purpose!
 
    Other methods for correcting self shadowing include increasing the size of the *Shadow
-   Buffer Size* or using a different buffer shadow calculation method such as *Classic-Halfway* or *Irregular*.
+   Buffer Size* or using a different buffered shadow calculation method such as *Classic-Halfway* or *Irregular*.
 
    Self shadowing interference tends to affect curved surfaces more than flat ones,
    meaning that if your scene has a lot of curved surfaces it may be necessary to increase the
@@ -264,7 +264,7 @@ Clip Start & Clip End
 
    The start point of the line represents *Clip Start* 's value and the end of the line
    represents *Clip End* 's value.
-   *Clip Start* can have a value between (0.1 to 1000.0), and *Clip End*,
+   *Clip Start* can have a value between (0.1 to 1000.0), and *Clip End*
    between (1.0 to 5000.0). Both values are represented in Blender Units.
 
    *Clip Start* indicates the point after which buffered shadows can be present within the *Spot* light area.
