@@ -12,15 +12,12 @@ which would otherwise not be suitable for simulation.
 Options
 =======
 
-.. TODO update image
+.. figure:: /images/modifiers_surface-deform.png
 
-.. figure:: /images/modifier-simpledeform.png
-
-   Surface Deform.
+   Surface Deform Modifier.
 
 Target
-   The object to which to bind. (This setting is unavailable after
-   binding)
+   The object to which to bind. (This setting is unavailable after binding)
 Interpolation falloff
    How much a vertex bound to one face of the target will be affected by the surrounding faces.
    This essentially controls how smooth the deformations are.
@@ -51,8 +48,7 @@ Unbind
    The further a mesh deviates from the target mesh surface, the more
    likely it is to get undesirable artifacts. This is an inherent
    characteristic of surface binding in general, so it is recommended
-   to have reasonably well matching meshes, in order to get a good
-   bind.
+   to have reasonably well matching meshes, in order to get a good bind.
 
 .. warning::
 
