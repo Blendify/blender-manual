@@ -9,23 +9,10 @@ Welcome to the Blender Manual!
 
 This is the manual for the 3D animation software from `Blender.org <https://www.blender.org>`__.
 
-.. use /dev only for now
-
 .. only:: builder_html
 
    .. |vertical_separator| unicode:: U+02758
 
-   - Other languages:
-     `En <https://docs.blender.org/manual/en/dev/>`__ |vertical_separator|
-     `De <https://docs.blender.org/manual/de/dev/>`__ |vertical_separator|
-     `Es <https://docs.blender.org/manual/es/dev/>`__ |vertical_separator|
-     `Fr <https://docs.blender.org/manual/fr/dev/>`__ |vertical_separator|
-     `It <https://docs.blender.org/manual/it/dev/>`__ |vertical_separator|
-     `Ja <https://docs.blender.org/manual/ja/dev/>`__ |vertical_separator|
-     `Pt <https://docs.blender.org/manual/pt/dev/>`__ |vertical_separator|
-     `Ru <https://docs.blender.org/manual/ru/dev/>`__ |vertical_separator|
-     `Zh (Simplified) <https://docs.blender.org/manual/zh.cn/dev/>`__ |vertical_separator|
-     `Zh (Traditional) <https://docs.blender.org/manual/zh.tw/dev/>`__
    - This site can be downloaded for offline use:
      :download:`Download the full manual (zipped HTML files) <blender_manual.zip>`
 
