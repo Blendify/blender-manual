@@ -51,10 +51,6 @@ While going through the tutorial, you may want to look into our reference docume
   *The following add-ons define operators, these docs give details and more examples of operators.*
 
 
-*******
-Add-ons
-*******
-
 What is an Add-on?
 ==================
 
@@ -277,7 +273,7 @@ As before, first we will start with a script, develop it, then convert it into a
 Now try copy this script into Blender and run it on the default Cube.
 Make sure you click to move the 3D cursor before running as the duplicate will appear at the cursor's location.
 
-.. ~ After running, notice that when you go into *Edit Mode* to change the Cube -- all of the copies change,
+After running, notice that when you go into *Edit Mode* to change the Cube -- all of the copies change,
 in Blender this is known as *Linked-Duplicates*.
 
 Next, we're going to do this in a loop, to make an array of objects between the active object and the cursor.
