@@ -60,7 +60,7 @@ Specular Tint
    Tints the facing specular reflection using the base color, while glancing reflection remains white.
 
    Normal dielectrics have colorless reflection, so this parameter is not technically physically correct
-   and is provided for and/or faking the appearance of materials with complex surface structure.
+   and is provided for faking the appearance of materials with complex surface structure.
 Roughness
    Specifies microfacet roughness of the surface for diffuse and specular reflection.
 
@@ -127,4 +127,6 @@ Examples
 Below are some examples of how all the Principled Node's
 parameters interact with each other.
 
-.. (todo) Add images
+.. figure:: /images/cycles_nodes_shader_principled_example_1a.jpg
+.. figure:: /images/cycles_nodes_shader_principled_example_2a.jpg
+.. figure:: /images/cycles_nodes_shader_principled_example_2b.jpg
