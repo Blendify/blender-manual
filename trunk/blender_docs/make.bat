@@ -26,27 +26,30 @@ if "%1" == "help" (
 	echo.Documentation
 	echo.=============
 	echo.
-	echo.  html                 to make standalone HTML files
-	echo.  singlehtml           to make a single large HTML file
-	echo.  readme               to create readme.html
-	echo.  pdf                  to make LaTeX files, you can set PAPER=a4 or PAPER=letter
-	echo.  gettext              to make PO message catalogs
-	echo.  epub                 to make an epub
-	echo.  epub3                to make an epub3
+	echo.Convenience targets provided for building docs
+	echo.- html                 to make standalone HTML files (default)
+	echo.- singlehtml           to make a single large HTML file
+	echo.- pdf                  to make a PDF using LaTeX warning: this currently has some problems,
+	echo.                       though the PDF generates, there are various unresolved issues."
+	echo.- gettext              to make PO message catalogs
+	echo.- epub                 to make an epub
+	echo.- epub3                to make an epub3
+  echo.- readme               to make a 'readme.html' file
+	echo.- clean                to delete all old build files
 	echo.
 	echo.Translations
 	echo.============
 	echo.
-	echo.  gettext              to make PO message catalogs
-	echo.  update_po            to update PO message catalogs
-	echo.  report_po_progress   to check the progress/fuzzy strings
+	echo.- gettext              to make PO message catalogs
+	echo.- update_po            to update PO message catalogs
+	echo.- report_po_progress   to check the progress/fuzzy strings
 	echo.
 	echo.Checking
 	echo.========
 	echo.
-	echo.  check_syntax         to check the syntax of all .rst files
-	echo.  check_structure      to check the structure of all .rst files
-	echo.  check_links          to check all external links for integrity
+	echo.- check_structure      to check the structure of all .rst files
+	echo.- check_syntax         to check the syntax of all .rst files
+	echo.- check_links          to check all external links for integrity
 	goto EOF
 )
 
