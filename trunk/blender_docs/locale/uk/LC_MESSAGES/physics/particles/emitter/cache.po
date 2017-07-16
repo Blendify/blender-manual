@@ -1,0 +1,134 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/particles/properties/cache.rst:6
+msgid "Cache"
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:10
+msgid "Particles Cache Settings."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:13
+msgid ""
+"*Emitter* systems use a unified system for caching and baking (together "
+"with softbody and cloth). The results of the simulation are automatically"
+" cached to disk when the animation is played, so that the next time it "
+"runs, it can play again quickly by reading in the results from the disk. "
+"If you *Bake* the simulation the cache is protected and you will be asked"
+" when you are trying to change a setting that will make a recalculating "
+"necessary."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:19
+msgid "Beware of the *Start* and *End* Settings"
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:21
+msgid ""
+"The simulation is only calculated for the positive frames in-between the "
+"*Start* and *End* frames of the *Bake* panel, whether you bake or not. So"
+" if you want a simulation longer than 250 frames you have to change the "
+"*End* frame!"
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:27
+msgid "Caching"
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:29
+msgid ""
+"As animation is played, each physics system writes each frame to disk, "
+"between the simulation start and end frames. These files are stored in "
+"folders with prefix ``blendcache``, next to the blend-file. Note that for"
+" the cache to fill up, one has to start playback before or on the frame "
+"that the simulation starts."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:33
+msgid ""
+"The cache is cleared automatically on changes. But not on all changes, so"
+" it may be necessary to free it manually e.g. if you change a force "
+"field."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:35
+msgid "If it is impossible to write in the subdirectory there will be no caching."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:36
+msgid ""
+"The cache can be freed per physics system with a button in the panels, or"
+" with the :kbd:`Ctrl-B` shortcut key to free it for all selected objects."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:38
+msgid ""
+"If the file path to the cache is longer than what is possible with your "
+"operating system (more than 250 characters for example), strange things "
+"might happen."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:43
+msgid "Baking"
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:45
+msgid "The system is protected against changes after baking."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:46
+msgid ""
+"The *Bake* result is cleared also with :kbd:`Ctrl-B` for all selected "
+"objects or click on *Free Bake* for a singular particle system."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:48
+msgid "If the mesh changes the simulation is not calculated anew."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:49
+msgid "Sorry: no bake editing for particles like for softbodies and clothes."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:51
+msgid "Two notes at the end:"
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:53
+msgid ""
+"For renderfarms, it is best to bake all the physics systems, and then "
+"copy the blendcache to the renderfarm as well."
+msgstr ""
+
+#: ../../manual/physics/particles/properties/cache.rst:55
+msgid ""
+"Be careful with the sequence of modifiers in the modifier stack (as "
+"always). You may have a different number of faces in the 3D View and for "
+"rendering (e.g. when using subdivision surface), if so, the rendered "
+"result may be very different from what you see in the 3D View."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The cache is cleared automatically on"
+#~ " changes - but not on all "
+#~ "changes, so it may be necessary to"
+#~ " free it manually e.g. if you "
+#~ "change a force field."
+#~ msgstr ""
+

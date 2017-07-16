@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# FULL NAME <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-13 19:43+0300\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/about/contribute/editing.rst:4
+msgid "Editing the manual"
+msgstr "Редагування довідника"
+
+#: ../../manual/about/contribute/editing.rst:7
+msgid "Update"
+msgstr "Оновлення"
+
+#: ../../manual/about/contribute/editing.rst:9
+msgid "Firstly, make sure that your local copy of the manual is up to date with the online repository using:"
+msgstr "Спершу, переконайтеся, що ваша локальна копія довідника є актуальною з онлайн-репозиторієм за допомогою:"
+
+#: ../../manual/about/contribute/editing.rst:17
+msgid "Writing"
+msgstr "Писання"
+
+#: ../../manual/about/contribute/editing.rst:19
+msgid "You can now edit the documentation files, which are the ``.rst`` files inside the ``manual`` folder using a text editor of your choice."
+msgstr "Ви можете редагувати файли цієї документації, що є файлами ``.rst`` всередині теки ``manual`` , використовуючи будь-який текстовий редактор на ваш вибір."
+
+#: ../../manual/about/contribute/editing.rst:22
+msgid "For instructions on using different editors, see the `Editor Configuration <https://wiki.blender.org/index.php/Dev:Doc/Tools/User_Reference_Manual>`__ section of the community wiki."
+msgstr "Для інструкцій щодо використання різних редакторів, дивіться секцію `Editor Configuration <https://wiki.blender.org/index.php/Dev:Doc/Tools/User_Reference_Manual>`__ на вікі спільноти."
+
+#: ../../manual/about/contribute/editing.rst:26
+msgid "Be sure to check the :doc:`/about/contribute/style_guides/writing_guide` for conventions and :doc:`/about/contribute/style_guides/markup_guide` to learn how to write in the reStructuredText markup language."
+msgstr "Переконайтесь, що ви ознайомилися із :doc:`/about/contribute/style_guides/writing_guide` про умовності та :doc:`/about/contribute/style_guides/markup_guide` , щоб дізнатися, як писати мовою розмітки reStructuredText."
+
+#: ../../manual/about/contribute/editing.rst:30
+msgid "Happy writing!"
+msgstr "Щасливого писання!"
+
+#: ../../manual/about/contribute/editing.rst:34
+msgid "Bigger Changes"
+msgstr "Більші Зміни"
+
+#: ../../manual/about/contribute/editing.rst:36
+msgid "If you are going to add or overhaul a section, be sure to check carefully that it does not already exist. In some places, the docs are so disorganized that sections may be duplicated or in a strange location. In the case that you find a duplicate or out of place section, `create a task <https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-c4nvvrxuczix2326vlti>`__ explaining the issue, and optionally include a revision (actual changes)."
+msgstr "Якщо ви збираєтеся додати або переписати секцію, то переконайтеся, що ретельно перевірили, що така вже не існує. У деяких місцях, документи є так дезорганізовані, що секції можуть бути дубльовані або у дивному місці. У такому випадку, якщо ви виявите дублікат або секцію не у тому місці, `створіть завдання <https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-c4nvvrxuczix2326vlti>`__ з поясненням проблеми та додатковим вкладенням ревізії (фактичні зміни)."
+
+#: ../../manual/about/contribute/editing.rst:42
+msgid "Before you make any edits that are not simple and plainly justified (for example, moving folders around), you should verify with a manual maintainer that your contribution is along the community's vision for the manual. This ensures the best use of your time and good will as it is otherwise possible that, for some reason, your changes will conflict and be rejected or need time-consuming review. For example, another person may be already working on the section you wish to change, the section may be scheduled for deletion or to be updated according to a planned change to Blender."
+msgstr "Перед тим, як робити будь-які правки, які не є простими та явно виправданими (наприклад, переміщення тек), ви повинні перевірити у головного підтримувача, що ваш внесок відповідає баченню спільноти щодо цього довідника. Це гарантує найкраще використання вашого часу та доброзичливість, інакше можливо, що з якоїсь причини, ваші зміни будуть конфліктувати та будуть відкинуті або потребуватимуть трудомісткої перевірки. Наприклад, інша особа можливо вже працює над секцією, яку ви бажаєте змінити, ця секція може бути запланована для видалення або для оновлення відповідно до запланованої зміни у Blender."
+
+#: ../../manual/about/contribute/editing.rst:49
+msgid ":ref:`Communicating <contribute-contact>` early and frequently is the key to have a productive environment, to not waste people's effort and to attain a better Blender manual as a result."
+msgstr ":ref:`Спілкування <contribute-contact>` заздалегідь та часто - це ключ до продуктивного середовища, без витрачання зайвих зусиль людей та отримання кращого довідника Blender у результаті."
+
+#: ../../manual/about/contribute/editing.rst:57
+msgid "Getting help/answers"
+msgstr "Отримання довідки/відповіді"
+
+#: ../../manual/about/contribute/editing.rst:59
+msgid "If you are in doubt about functionality that you wish to document, you should pose your questions to the Blender developers responsible for that area or ask at the unofficial user support channel at ``#blender`` :ref:`IRC channel <irc-channels>`."
+msgstr "Якщо ви сумніваєтеся з приводу функціональності, яку ви бажаєте задокументувати, ви повинні поставити питання розробникам Blender, відповідальним за відповідну ділянку розробки, або запитати на неофіційному каналі підтримки користувачів ``#blender`` :ref:`IRC channel <irc-channels>`."
+
+#: ../../manual/about/contribute/editing.rst:63
+msgid "Blender has its own system of module owners with developer and artist members who are responsible for the design and maintenance of the assigned Blender areas. See the `module owners page <https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List>`__ for more information."
+msgstr "Blender має власну систему власників модулів з розробриками та учасниками-митцями, котрі відповідальні за розробку та підтримку у відповідних областях Blender'а. Дивіться сторінку `власників модулів <https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List> `__ для отримання додаткової інформації."
+
+#: ../../manual/about/contribute/editing.rst:70
+msgid "Preview"
+msgstr "Передогляд"
+
+#: ../../manual/about/contribute/editing.rst:72
+msgid "To view your changes, build the manual :doc:`as instructed </about/contribute/build/index>`. Keep in mind that you can also build only the chapter you just edited to view it quickly. Open the generated ``.html`` files inside the ``build/html`` folder using your web browser, or refresh the page if you have it open already."
+msgstr "Для перегляду ваших змін вибудуйте цей довідник doc:`як вказано </about/contribute/build/index>`. Майте на увазі, що ви можете також вибудувати лише главу, щойно вами відредаговану, для швидкого її перегляду. Відкрийте згенеровані ``.html`` файли всередині теки ``build/html`` , використовуючи ваш веб-оглядач, або оновіть сторінку, якщо потрібна сторінка вже відкрита у ньому."
+
+#: ../../manual/about/contribute/editing.rst:79
+msgid "Upload"
+msgstr "Вивантаження"
+
+#: ../../manual/about/contribute/editing.rst:81
+msgid "When you are happy with your changes, you can upload them, so that they will be in the online manual. At first, this is done by submitting patches so that someone can review your changes and give you feedback. After, you can commit your changes directly. This process is described in detail in the next section."
+msgstr "Коли ви щасливі вашими змінами, ви можете вивантажити їх, щоб вони були доступні в онлайн-довіднику. Спершу, це робиться шляхом подання латок, патчів, щоб кожен зміг перевірити ваші зміни та дати вам відзив. Після, ви можете зафіксувати ваші зміни безпосередньо. Цей процес описується детально у наступній секції."

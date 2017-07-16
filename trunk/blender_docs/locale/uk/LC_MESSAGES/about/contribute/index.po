@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-13 19:43+0300\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/about/contribute/index.rst:4
+msgid "Contribute"
+msgstr "Зроблення внеску"
+
+#: ../../manual/about/contribute/index.rst:6
+msgid "Whether you like to fix a tiny spelling mistake or rewrite an entire chapter, your help with the Blender manual is most welcome!"
+msgstr "Вам подобається виправляти дрібні помилки правопису або переписувати цілі глави, ваша допомога з довідником Blender повністю вітається!"
+
+#: ../../manual/about/contribute/index.rst:11
+msgid "How It Works"
+msgstr "Як це працює"
+
+#: ../../manual/about/contribute/index.rst:13
+msgid "You can modify the manual by editing local text files. These files are kept in sync with those online via a repository, based on this the server will update the online manual."
+msgstr "Ви можете модифікувати цей довідник, редагуючи текстові файли локально. Ці файли зберігаються у синхронізації зі своїми онлайн-версіями через репозиторій, базуючись на сервері, який буде оновлювати останні."
+
+#: ../../manual/about/contribute/index.rst:17
+msgid "The manual is written in the `reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`__ (RST) markup language and can be edit using a plain text editor. For a local preview, you convert (build) the manual source files from RST into HTML web pages."
+msgstr "Цей довідник написаний мовою розмітки `reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`__ (RST) і може редагуватися за допомогою звичайного текстового редактора. Для локального передогляду ви конвертуєте (вибудовуєте) джерельні файли цього довідника з RST у HTML веб-сторінки."
+
+#: ../../manual/about/contribute/index.rst:23
+msgid "Getting Started"
+msgstr "Почин"
+
+#: ../../manual/about/contribute/index.rst:25
+msgid "The following guides lead you through the process."
+msgstr "Наступні вказівки проведуть вас через цей процес."
+
+#: ../../manual/about/contribute/index.rst:37
+msgid "Style Guides"
+msgstr "Вказівки щодо стилю"
+
+#: ../../manual/about/contribute/index.rst:47
+msgid "Translations"
+msgstr "Переклади"
+
+#: ../../manual/about/contribute/index.rst:59
+msgid "Contacts"
+msgstr "Контакти"
+
+#: ../../manual/about/contribute/index.rst:61
+msgid "The Manual Teams `project page <https://developer.blender.org/project/profile/53/>`__."
+msgstr "Команди розробки цього Довідника `project page <https://developer.blender.org/project/profile/53/>`__."
+
+#: ../../manual/about/contribute/index.rst:63
+msgid "`Mailing list <https://lists.blender.org/mailman/listinfo/bf-docboard>`__ is our main way of distributing documents, discussing ideas, and keeping track of progress.(Registration required)."
+msgstr "`Список розсилки <https://lists.blender.org/mailman/listinfo/bf-docboard>`__ - це наш головний спосіб поширення документів, обговорення ідей та відстеження прогресу.(Вимагається реєстрація)."
+
+#: ../../manual/about/contribute/index.rst:66
+msgid "``#blenderwiki`` channel in the :ref:`IRC chat <irc-channels>` for informal discussions in real-time."
+msgstr "``#blenderwiki`` канал у :ref:`IRC chat <irc-channels>` для інформаційних дискусій у реальному часі."
+
+#: ../../manual/about/contribute/index.rst:67
+msgid "`Workboard <https://developer.blender.org/project/board/53/>`__ for tasks."
+msgstr "`Робоча дошка <https://developer.blender.org/project/board/53/>`__ для завдань."
+
+#: ../../manual/about/contribute/index.rst:68
+msgid "`Patch tracker <https://developer.blender.org/differential/>`__ shared with the other Blender projects."
+msgstr "`Відстежувач патчів <https://developer.blender.org/differential/>`__ спільно з іншими проектами Blender."

@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/particles/texture_influence.rst:6
+msgid "Texture Influence"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:11
+msgid "Texture influence settings."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:13
+msgid "Defines the settings of a Particle system spatial with a texture."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:17
+msgid "General"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:19
+msgid "Time"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:20
+msgid "Affect the emission time of the particles."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:21
+msgid "Lifetime"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:22
+msgid "Affect the life time of the particles."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:23
+msgid "Density"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:24
+msgid "Affect the density of the particles."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:27
+msgid "Size"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:26
+msgid "Affect the particles size."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:30
+msgid "Physics"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:32
+msgid "Velocity"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:33
+msgid "Affect the particles initial velocity."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:34
+msgid "Damp"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:35
+msgid "Affect the particles velocity damping."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:36
+msgid "Gravity"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:37
+msgid "Affect the particles gravity."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:40
+msgid "Force Fields"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:39
+msgid "Affect the particles force fields."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:43
+msgid "Hair"
+msgstr "Cheveu"
+
+#: ../../manual/physics/particles/texture_influence.rst:45
+msgid "Length"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:46
+msgid "Affect the child hair length."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:47
+msgid "Clump"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:48
+msgid "Affect the child clumping."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:49
+msgid "Kink"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:50
+msgid "Affect the child kink."
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:53
+msgid "Rough"
+msgstr ""
+
+#: ../../manual/physics/particles/texture_influence.rst:52
+msgid "Affect the child roughness."
+msgstr ""
+
+#~ msgid "Force Fiels"
+#~ msgstr ""
+

@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:4
+msgid "DupliVerts"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst
+msgid "Mode:     Object Mode"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst
+msgid "Panel:    :menuselection:`Object --> Duplication`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:13
+msgid ""
+"*Duplication Vertices* or *DupliVerts* is the duplication of a base "
+"object at the location of the vertices of a mesh. In other words, when "
+"using *DupliVerts* on a mesh, an instance of the base object is placed on"
+" every vertex of the mesh."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:17
+msgid ""
+"There are actually two approaches to modeling using *DupliVerts*. They "
+"can be used as an arranging tool, allowing to model geometrical "
+"arrangements of objects (e.g. the columns of a Greek temple, the trees in"
+" a garden, an army of robot soldiers, the desks in a classroom). The "
+"object can be of any object type which Blender supports. The second "
+"approach is to use them to model an object starting from a single part of"
+" it (e.g. the spikes in a club, the thorns of a sea-urchin, the tiles in "
+"a wall, the petals in a flower)."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:26
+msgid "Download example blend-file"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:28
+msgid ""
+"You can download a file with the examples described on this page. In "
+"`this blend <https://wiki.blender.org/index.php/:File:Manual-2.5"
+"-DupliVerts-Examples.blend>`__, the first example, a monkey parented to a"
+" circle is on layer 1; while a tentacle parented to an icosphere is on "
+"layer 2."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:35
+msgid "DupliVerts as an Arranging Tool"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:38
+msgid "Setup"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:42
+msgid "A monkey head and a circle."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:45
+msgid ""
+"All you need is a base object (e.g. the *tree* or the *column*) and a "
+"pattern mesh with its vertices following the pattern you have in mind. In"
+" this section, we will use a simple scene for the following part. We will"
+" be using a monkey head located at the origin of the coordinate system as"
+" our base object and a circle at the same location as our parent mesh."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:53
+msgid "Dupliverted monkeys."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:56
+msgid ""
+"First, in *Object Mode*, select the base object and :kbd:`Shift-RMB` to "
+"add the circle to the selection (order is very important here), and "
+":kbd:`Ctrl-P` to parent the base object to the circle. Now, the circle is"
+" the parent of the monkey; if you move the circle, the monkey will follow"
+" it."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:63
+msgid ""
+"With only the circle selected, enable *Duplication vertices* in the "
+":menuselection:`Object panel --> Duplication --> Vertices`. A monkey head"
+" should be placed at every vertex of the circle."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:67
+msgid ""
+"The original monkey head at the center and the parent mesh are still "
+"shown in the 3D View but neither will be rendered. If the placement and "
+"rotation of your monkey head is odd, you might need to clear its rotation"
+" :kbd:`Alt-R`, scale :kbd:`Alt-S`, location :kbd:`Alt-G`, and origin "
+":kbd:`Alt-O`."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:74
+msgid "Rearranging"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:76
+msgid ""
+"If you now select the base object and modify it in either object or edit "
+"mode, all changes will also affect the shape of all duplicate objects. "
+"You can also select the parent mesh to modify the arrangement of the "
+"duplicates; adding vertices will also add more base objects."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:81
+msgid ""
+"Note that the base objects will inherit changes made to the parent mesh "
+"in Object Mode, but not in Edit Mode. So scaling the circle up in object "
+"mode will enlarge the monkey head, while scaling the circle up in edit "
+"mode will only increase the distance between the base objects."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:88
+msgid "Orientation"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:92
+msgid "Orientation enabled, orientation +Y."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:95
+msgid ""
+"The orientation of the base objects can be controlled by enabling "
+"*Rotation* in the *Duplication* panel. This will rotate all base objects "
+"according to the vertex normals of the parent mesh."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:99
+msgid ""
+"To change the orientation of the duplicated objects, select the base "
+"object and in the :menuselection:`Object --> Relations extras` panel "
+"change the :menuselection:`Tracking Axes`."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:102
+msgid "Output of various orientations:"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:106
+msgid "Negative Y."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:110
+msgid "Positive X."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:114
+msgid "Positive Z, up X."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:118
+msgid ""
+"The axes of an object can be made visible in the :menuselection:`Object "
+"--> Display` panel. To display the vertex normals of the parent mesh, "
+"enter *Edit Mode* and enable this function in :menuselection:`Properties "
+"--> Display` panel where you can also resize the displayed normals as "
+"necessary."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:125
+msgid "DupliVerts as a Modeling Tool"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:127
+msgid ""
+"Very interesting models can be made using DupliVerts and a standard "
+"primitive. In this example, a simple tentacle was made by extruding a "
+"cube a couple of times. The tentacle object was then parented to an "
+"icosphere. With dupli *Rotation* enabled for the parent mesh (the "
+"icosphere), the orientation of the base object (the tentacle) was adapted"
+" to the vertex normals of the parent mesh"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:134
+msgid ""
+"(in this case the tentacle was rotated -90° about the X axis in edit "
+"mode)."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:140
+msgid "A simple tentacle set to smooth."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:144
+msgid "Tentacle dupliverted onto the parent mesh."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:148
+msgid "Rotation enabled to align duplicates."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:151
+msgid ""
+"As in the previous example, the shape and proportions of the arrangement "
+"can now be tweaked."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:153
+msgid ""
+"To turn all duplicates into real objects, simply select the icosphere and"
+" :menuselection:`Object --> Apply --> Make Duplicates Real`, :kbd:`Ctrl-"
+"Shift-A`. To make the icosphere and the tentacle a single object, make "
+"sure they are all selected and go to :menuselection:`Object --> Join`, "
+":kbd:`Ctrl-J`."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliverts.rst:160
+msgid ""
+"Other duplication methods are listed :doc:`here "
+"</editors/3dview/object/editing/duplication>`."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Other duplication methods are listed "
+#~ ":doc:`here </editors/3dview/object/transform/duplication>`."
+#~ msgstr ""
+

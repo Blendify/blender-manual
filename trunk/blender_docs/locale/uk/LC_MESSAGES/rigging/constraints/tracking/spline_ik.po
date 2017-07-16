@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:6
+msgid "Spline IK Constraint"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:8
+msgid ""
+"The *Spline IK* constraint aligns a chain of bones along a curve. By "
+"leveraging the ease and flexibility of achieving aesthetically pleasing "
+"shapes offered by curves and the predictability and well-integrated "
+"control offered by bones, *Spline IK* is an invaluable tool in the "
+"riggers' toolbox. It is particularly well suited for rigging flexible "
+"body parts such as tails, tentacles, and spines, as well as inorganic "
+"items such as ropes."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:15
+msgid ""
+"To set up *Spline IK*, it is necessary to have a chain of connected bones"
+" and a curve to constrain these bones to:"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:18
+msgid ""
+"With the last bone in the chain selected, add a *Spline IK* constraint "
+"from the *Bone Constraints* tab in the *Properties Editor*."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:20
+msgid ""
+"Set the 'Chain Length' setting to the number of bones in the chain "
+"(starting from and including the selected bone) that should be influenced"
+" by the curve."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:22
+msgid "Finally, set *Target* to the curve that should control the curve."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:26
+msgid "Options"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:30
+msgid "Spline IK panel."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:35
+msgid "Target"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:34
+msgid ":ref:`ui-data-id` used to select the target curve."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:38
+msgid "Spline Fitting"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:40
+msgid "Chain Length"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:41
+msgid "How many bones are included in the chain."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:42
+msgid "Even Division"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:43
+msgid "Ignore the relative length of the bones when fitting to the curve."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:46
+msgid "Chain Offset"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:45
+msgid "Offset the entire chain relative to the root joint."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:49
+msgid "Chain Scaling"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:51
+msgid "Y Stretch"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:52
+msgid "Stretch the Y axis of the bones to fit the curve."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:54
+msgid "Use Curve Radius"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:54
+msgid ""
+"Average radius of the endpoints is used to tweak the X and Z scaling of "
+"the bones, on top of the X and Z scale mode."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:66
+msgid "XZ Scale Mode"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:57
+msgid "Scaling that a bone undergoes to reach its target."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:59
+msgid "None"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:60
+msgid "Do not scale the X and X axes."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:61
+msgid "Bone Original"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:62
+msgid "Use the original scaling of the bones."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:63
+msgid "Inverse Scale"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:64
+msgid "Scale of the X and Z axes is the inverse of the Y scale."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:66
+msgid "Volume Preservation"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:66
+msgid ""
+"Similar to the :ref:`Stretch to <constraints-stretch-to-volume-"
+"preservation>` constraint."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/spline_ik.rst:70
+msgid ""
+"This subject is seen in depth in the :doc:`Armature Posing section "
+"</rigging/armatures/posing/bone_constraints/inverse_kinematics/spline_ik>`."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "See also"
+#~ msgstr ""
+
+#~ msgid "Spline IK panel"
+#~ msgstr ""
+
+#~ msgid "Chain Scaling:"
+#~ msgstr ""
+
+#~ msgid "Don't scale the X and X axes (default)"
+#~ msgstr ""
+
+#~ msgid "Spline Fitting:"
+#~ msgstr ""
+
+#~ msgid "XZ Scale Mode:"
+#~ msgstr ""
+
+#~ msgid "The target curve"
+#~ msgstr ""
+
+#~ msgid "How many bones are included in the chain"
+#~ msgstr ""
+
+#~ msgid "Ignore the relative length of the bones when fitting to the curve"
+#~ msgstr ""
+
+#~ msgid "Offset the entire chain relative to the root joint"
+#~ msgstr ""
+
+#~ msgid "Stretch the Y axis of the bones to fit the curve"
+#~ msgstr ""
+
+#~ msgid "Do not scale the X and X axes (default)"
+#~ msgstr ""
+
+#~ msgid "Use the original scaling of the bones"
+#~ msgstr ""
+
+#~ msgid "Scale of the X and Z axes is the inverse of the Y scale"
+#~ msgstr ""
+
+#~ msgid "The target curve."
+#~ msgstr ""
+
+#~ msgid "Y stretch"
+#~ msgstr ""
+

@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:4
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:6
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:42
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform:"
+" Smooth Vertex`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst
+msgid "Menu:     :menuselection:`Mesh --> Vertices --> Smooth Vertex`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:13
+msgid ""
+"This tool smooths the selected components by averaging the angles between"
+" faces. After using the tool, options appear in the *Tool Shelf*:"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:16
+msgid "Number of times to smooth"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:17
+msgid "The number of smoothing iterations"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:19
+msgid "Axes"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:19
+msgid "Limit the effect to certain axes."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:26
+msgid "Mesh before smoothing."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:31
+msgid "Mesh after one smoothing iteration."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:36
+msgid "Mesh after ten smoothing iterations."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:40
+msgid "Laplacian Smooth"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst
+msgid "Menu:     :menuselection:`Specials --> Laplacian Smooth`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:49
+msgid ""
+"See the :doc:`Laplacian Smooth Modifier "
+"</modeling/modifiers/deform/laplacian_smooth>` for details."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:51
+msgid ""
+"Laplacian smooth is uses an alternative smoothing algorithm that better "
+"preserves the overall mesh shape. Laplacian smooth exists as a mesh "
+"operation and as a non-destructive modifier."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:56
+msgid ""
+"The :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`, which can"
+" be limited to a *Vertex Group*, is a non-destructive alternative to the "
+"smooth tool."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:59
+msgid "Real Smoothing versus Shading Smoothing"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/smooth.rst:61
+msgid ""
+"Do not mistake this tool with the shading smoothing options described at "
+":doc:`this page </modeling/meshes/editing/smoothing>`, they do not work "
+"the same! This tool modifies the mesh itself, to reduce its sharpness, "
+"whereas *Set Smooth* / *AutoSmooth* and co. only control the way the mesh"
+" is shaded, creating an *illusion* of softness, but without modifying the"
+" mesh at all..."
+msgstr ""
+
+#~ msgid "Panel:    Mesh Tools"
+#~ msgstr ""
+
+#~ msgid "Menu:     :menuselection:`Mesh --> Vertices --> Smooth vertex`"
+#~ msgstr ""
+
+#~ msgid "Hotkey:   :kbd:`Ctrl-V` :menuselection:`--> Smooth vertex`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Hotkey:   :kbd:`Ctrl-V` :menuselection:`--> Smooth Vertex`"
+#~ msgstr ""
+
+#~ msgid "Hotkey:   :kbd:`W` :menuselection:`--> Laplacian Smooth`"
+#~ msgstr ""
+

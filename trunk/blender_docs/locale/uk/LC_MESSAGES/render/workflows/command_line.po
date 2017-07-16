@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/workflows/command_line.rst:4
+msgid "Command Line"
+msgstr "Командний Рядок"
+
+#: ../../manual/render/workflows/command_line.rst:6
+msgid ""
+"In some situations we want to increase the render speed, access Blender "
+"remotely to render something or build scripts that use the command line."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:9
+msgid ""
+"One advantage of using the command line is that we do not need a graphical "
+"display (no need for X server on Linux for example) and consequently we can "
+"render via a remote shell (typically SSH)."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:13
+msgid ""
+"See :doc:`Command Line Arguments </advanced/command_line/arguments>` for a "
+"full list of arguments (for example to specify which scene to render, the "
+"end frame number, etc...), or simply run:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:24
+msgid "Arguments are executed in the order they are given!"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:26
+msgid ""
+"The following command will not work, since the output and extension are set "
+"after Blender is told to render:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:32
+msgid "The following command will behave as expected:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:38
+msgid "**Always** position ``-f`` or ``-a`` as the last arguments."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:42
+msgid "Platforms"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:44
+msgid ""
+"How to actually execute Blender from the command line depends on the "
+"platform and where you have installed Blender. Here are basic instructions "
+"for the different platforms."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:49
+msgid "Linux"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:51
+msgid ""
+"Open a terminal, then go to the directory where Blender is installed, and "
+"run Blender like this:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:59
+msgid ""
+"If you have Blender installed in your ``PATH`` (usually when Blender is "
+"installed through a distribution package), you can simply run:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:68
+msgid "macOS"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:70
+msgid ""
+"Open the terminal application, go to the directory where Blender is "
+"installed, and run the executable within the app bundle, with commands like "
+"this:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:78
+msgid ""
+"If you need to do this often, you can make an alias so that typing just "
+"``blender`` in the terminal works. For that you can run a command like this "
+"in the terminal (with the appropriate path)."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:86
+msgid "If you then open a new terminal, the following command will work:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:94
+msgid "MS-Windows"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:96
+msgid ""
+"Open the Command Prompt, go to the directory where Blender is installed, and "
+"then run Blender:"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:104
+msgid ""
+"You can also add the Blender folder to your system ``PATH`` so that do you "
+"do not have to ``cd`` to it each time."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:108
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/render/workflows/command_line.rst:111
+msgid "Single Image"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:118
+msgid "``-b``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:119
+msgid "Render in the background (without UI)."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:120
+msgid "``file.blend``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:121
+msgid "Path to the blend-file to render."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:124
+msgid "``-f 10``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:123
+msgid "Render only the 10th frame."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:130
+msgid "``-o /project/renders/frame_#####``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:131
+msgid ""
+"Path of where to save the rendered image, using five padded zeros for the "
+"frame number."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:132
+msgid "``-F EXR``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:133
+msgid ""
+"Override the image format specified in the blend-file and save to an OpenEXR "
+"image."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:135
+msgid "``-f -2``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:135
+msgid "Render only the second last frame."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:139
+msgid "Arguments are case sensitive! ``-F`` and ``-f`` are not the same."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:143
+msgid "Animation"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:151
+msgid "``-a``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:150
+msgid ""
+"Render the whole animation using all the settings saved in the blend-file."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:158
+msgid "``-E BLENDER_RENDER``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:158
+msgid ""
+"Use the \"Blender Render\" engine. For a list of available render engines, "
+"run ``blender -E help``."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:160
+msgid "``-s 10 -e 500``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:161
+msgid "Set the start frame to ``10`` and the end frame to ``500``."
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:164
+msgid "``-t 2``"
+msgstr ""
+
+#: ../../manual/render/workflows/command_line.rst:163
+msgid "Use only two threads."
+msgstr ""

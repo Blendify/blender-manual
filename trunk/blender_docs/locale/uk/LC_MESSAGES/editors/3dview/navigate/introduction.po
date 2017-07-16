@@ -1,0 +1,599 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:5
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:8
+msgid "View Menu"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:10
+msgid ""
+"The view menu is located in the header of the 3D View. The list below "
+"includes all menu entries discussed in *other* sections of the manual."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:13
+msgid "Show all Layers"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:14
+msgid ""
+"Makes all :doc:`layers "
+"</editors/3dview/object/properties/relations/layers>` visible."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:15
+msgid "Play Back Animation"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:16
+msgid "Plays back the :doc:`animation </animation/index>` from the current frame."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:17
+msgid "Duplicate Area in New Window"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:18
+msgid ""
+"Clones the current :doc:`area </interface/window_system/areas>` (3D View)"
+" in a new window."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:19
+msgid "Toggle Maximized Area"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:20
+msgid "Maximizes the :doc:`area </interface/window_system/areas>` (3D View)."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:23
+msgid "Toggle Fullscreen Area"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/introduction.rst:22
+msgid ""
+"Maximizes the :doc:`area </interface/window_system/areas>` (3D View)  to "
+"fill the full screen area."
+msgstr ""
+
+#~ msgid ":doc:`Display & View Panels </editors/3dview/display>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Background Images </editors/3dview/background_images>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Read more about 3D view options </editors/3dview/shading>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ":doc:`Quad View </interface/window_system/arranging_frames>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Toggle Full Screen </interface/window_system/arranging_frames>`"
+#~ msgstr ""
+
+#~ msgid "Camera"
+#~ msgstr ""
+
+#~ msgid "Viewing angles:"
+#~ msgstr ""
+
+#~ msgid "Cameras Menu:"
+#~ msgstr ""
+
+#~ msgid "Perspective/Orthographic View"
+#~ msgstr ""
+
+#~ msgid "Navigation Menu"
+#~ msgstr ""
+
+#~ msgid "Align View"
+#~ msgstr ""
+
+#~ msgid "Clipping Border..."
+#~ msgstr ""
+
+#~ msgid "Zoom Border..."
+#~ msgstr ""
+
+#~ msgid "Show all Layers"
+#~ msgstr ""
+
+#~ msgid "Global View/Local View"
+#~ msgstr ""
+
+#~ msgid "View Selected"
+#~ msgstr ""
+
+#~ msgid "View All"
+#~ msgstr ""
+
+#~ msgid "Play Back Animation"
+#~ msgstr ""
+
+#~ msgid "Duplicate area in new window"
+#~ msgstr ""
+
+#~ msgid "Quad View"
+#~ msgstr ""
+
+#~ msgid "Toggle Full Screen"
+#~ msgstr ""
+
+#~ msgid "Sculpt Mode"
+#~ msgstr ""
+
+#~ msgid ":ref:`Clipping Border... <3dview-clip_border>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Zoom Border... </editors/3dview/navigate/3d_view>`"
+#~ msgstr ""
+
+#~ msgid "Top (:kbd:`Numpad7`)"
+#~ msgstr ""
+
+#~ msgid "Bottom (:kbd:`Ctrl-Numpad7`)"
+#~ msgstr ""
+
+#~ msgid "Front (:kbd:`Numpad1`)"
+#~ msgstr ""
+
+#~ msgid "Back (:kbd:`Ctrl-Numpad1`)"
+#~ msgstr ""
+
+#~ msgid "Right (:kbd:`Numpad3`)"
+#~ msgstr ""
+
+#~ msgid "Left (:kbd:`Ctrl-Numpad3`)"
+#~ msgstr ""
+
+#~ msgid "3D Window Header"
+#~ msgstr ""
+
+#~ msgid "This submenu allows you to align the 3D view in certain ways."
+#~ msgstr ""
+
+#~ msgid "Zooms the 3D view to encompass all the *selected* objects."
+#~ msgstr ""
+
+#~ msgid "Zooms the 3D view to encompass *all* the objects in the current scene."
+#~ msgstr ""
+
+#~ msgid "Clones the current 3D view in a new window"
+#~ msgstr ""
+
+#~ msgid "3D View Header"
+#~ msgstr ""
+
+#~ msgid "The Mode drop-down list."
+#~ msgstr ""
+
+#~ msgid "Blender has several modes of operation."
+#~ msgstr ""
+
+#~ msgid "Object Mode"
+#~ msgstr ""
+
+#~ msgid "mode allows you to work with objects as a whole."
+#~ msgstr ""
+
+#~ msgid "Edit Mode"
+#~ msgstr ""
+
+#~ msgid "Allows you to modify the shape of the object."
+#~ msgstr ""
+
+#~ msgid ":ref:`Sculpt Mode <painting_sculping-index>`"
+#~ msgstr ""
+
+#~ msgid "In this mode your cursor becomes a tool to shape the object"
+#~ msgstr ""
+
+#~ msgid "The cursor becomes a brush in:"
+#~ msgstr ""
+
+#~ msgid ":ref:`painting_vertex-index` mode"
+#~ msgstr ""
+
+#~ msgid ":ref:`painting_weight-index` mode"
+#~ msgstr ""
+
+#~ msgid ":ref:`painting_texture-index` mode."
+#~ msgstr ""
+
+#~ msgid "ViewPort Shading List"
+#~ msgstr ""
+
+#~ msgid "Bounding Box"
+#~ msgstr ""
+
+#~ msgid "Wireframe"
+#~ msgstr ""
+
+#~ msgid "Solid"
+#~ msgstr ""
+
+#~ msgid "Texture"
+#~ msgstr ""
+
+#~ msgid "Material"
+#~ msgstr ""
+
+#~ msgid "Rendered"
+#~ msgstr ""
+
+#~ msgid "Pivot point selector."
+#~ msgstr ""
+
+#~ msgid "Active Element"
+#~ msgstr ""
+
+#~ msgid "Median Point *the average center spot of the selected items*"
+#~ msgstr ""
+
+#~ msgid "Individual Origins"
+#~ msgstr ""
+
+#~ msgid "3D Cursor"
+#~ msgstr ""
+
+#~ msgid "Bounding Box Center"
+#~ msgstr ""
+
+#~ msgid "Transform (Manipulator) Selectors"
+#~ msgstr ""
+
+#~ msgid "The Render Buttons render an OpenGL version of the 3D view."
+#~ msgstr ""
+
+#~ msgid "Clones the current 3D View in a new window"
+#~ msgstr ""
+
+#~ msgid ":doc:`Quad View </interface/window_system/arranging_areas>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Toggle Full Screen </interface/window_system/arranging_areas>`"
+#~ msgstr ""
+
+#~ msgid "Maximizes the *3D View* window to fill the full screen area."
+#~ msgstr ""
+
+#~ msgid "These commands change the projection of the 3D view"
+#~ msgstr ""
+
+#~ msgid "Properties Panel"
+#~ msgstr ""
+
+#~ msgid ":ref:`Clipping Border <3dview-clip_border>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`Global View/Local View <3dview-local_view>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`View All <3dview-view_all>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Quad View </interface/editors/arranging_areas>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Toggle Full Screen </interface/editors/arranging_areas>`"
+#~ msgstr ""
+
+#~ msgid "Layer Selector"
+#~ msgstr ""
+
+#~ msgid ":doc:`Read more about Scenes </data_system/scenes>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Show all Layers </editors/3dview/layers>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Transform </editors/3dview/transform/introduction>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Read more about Selecting </editors/3dview/selecting>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Read more about Objects </editors/3dview/transform/introduction>`"
+#~ msgstr ""
+
+#~ msgid "Menus"
+#~ msgstr ""
+
+#~ msgid "3D View header."
+#~ msgstr ""
+
+#~ msgid "Properties region"
+#~ msgstr ""
+
+#~ msgid ":doc:`Transform </editors/3dview/object/transform/introduction>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Grease Pencil </interface/grease_pencil/introduction>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Display & View Panels </editors/3dview/display/panels>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Background Images </editors/3dview/display/background_images>`"
+#~ msgstr ""
+
+#~ msgid "Tool Shelf"
+#~ msgstr ""
+
+#~ msgid "*Set Active object as camera* *Active camera*"
+#~ msgstr ""
+
+#~ msgid "*Align to selected*"
+#~ msgstr ""
+
+#~ msgid "*Center cursor and view all*"
+#~ msgstr ""
+
+#~ msgid "*Align active camera to view*"
+#~ msgstr ""
+
+#~ msgid "*View Selected*"
+#~ msgstr ""
+
+#~ msgid "*Center View to cursor*"
+#~ msgstr ""
+
+#~ msgid "Select Menu"
+#~ msgstr ""
+
+#~ msgid "This menu contains tools for selecting objects."
+#~ msgstr ""
+
+#~ msgid ":doc:`Read more about Selecting </editors/3dview/object/selecting>`"
+#~ msgstr ""
+
+#~ msgid "Add Menu"
+#~ msgstr ""
+
+#~ msgid "Object Menu"
+#~ msgstr ""
+
+#~ msgid "General Options"
+#~ msgstr ""
+
+#~ msgid "Mode List"
+#~ msgstr ""
+
+#~ msgid "Viewport Shading"
+#~ msgstr ""
+
+#~ msgid "Allows you to change the way 3D objects are displayed in the viewport."
+#~ msgstr ""
+
+#~ msgid "Pivot Point Selector"
+#~ msgstr ""
+
+#~ msgid "Manipulator Selector"
+#~ msgstr ""
+
+#~ msgid "Layer Widget"
+#~ msgstr ""
+
+#~ msgid "Lock to Scene"
+#~ msgstr ""
+
+#~ msgid ":doc:`Read more about Scenes </data_system/scenes/introduction>`"
+#~ msgstr ""
+
+#~ msgid "Snap to Mesh"
+#~ msgstr ""
+
+#~ msgid "Render Buttons"
+#~ msgstr ""
+
+#~ msgid "This submenu allows you to align the 3D View in certain ways."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigating in the 3D space is done"
+#~ " with the use of both mouse "
+#~ "movement and keyboard shortcuts."
+#~ msgstr ""
+
+#~ msgid "Orbit :kbd:`MMB`"
+#~ msgstr ""
+
+#~ msgid "Rotate the view around the point of interest."
+#~ msgstr ""
+
+#~ msgid "Pan :kbd:`Shift-MMB`"
+#~ msgstr ""
+
+#~ msgid "Move the view up, down, left and right."
+#~ msgstr ""
+
+#~ msgid "Zoom :kbd:`Ctrl-MMB`, :kbd:`Wheel`"
+#~ msgstr ""
+
+#~ msgid "Move the camera forwards and backwards."
+#~ msgstr ""
+
+#~ msgid "The view menu is located in the header of the 3D View."
+#~ msgstr ""
+
+#~ msgid "The View menu."
+#~ msgstr ""
+
+#~ msgid ":doc:`Camera </editors/3dview/navigate/camera_view>`"
+#~ msgstr ""
+
+#~ msgid "Switches the view to the current camera view."
+#~ msgstr ""
+
+#~ msgid ":doc:`Viewing angles </editors/3dview/navigate/3d_view>`:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These commands change the view to "
+#~ "the default Top/Bottom, Front/Back, or "
+#~ "Left/Right views:"
+#~ msgstr ""
+
+#~ msgid "Top :kbd:`Numpad7`"
+#~ msgstr ""
+
+#~ msgid "Bottom :kbd:`Ctrl-Numpad7`"
+#~ msgstr ""
+
+#~ msgid "Front :kbd:`Numpad1`"
+#~ msgstr ""
+
+#~ msgid "Back :kbd:`Ctrl-Numpad1`"
+#~ msgstr ""
+
+#~ msgid "Right :kbd:`Numpad3`"
+#~ msgstr ""
+
+#~ msgid "Left :kbd:`Ctrl-Numpad3`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Cameras Menu </editors/3dview/navigate/camera_view>`:"
+#~ msgstr ""
+
+#~ msgid "Set Active object as camera"
+#~ msgstr ""
+
+#~ msgid "Active camera"
+#~ msgstr ""
+
+#~ msgid ":ref:`Perspective/Orthographic View <3dview-projections>`"
+#~ msgstr ""
+
+#~ msgid "These commands change the projection of the 3D View"
+#~ msgstr ""
+
+#~ msgid ":doc:`Navigation Menu </editors/3dview/navigate/3d_view>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This sub-menu contains commands for "
+#~ "rotating and panning the view. Using "
+#~ "these commands through the menu is "
+#~ "not that efficient. However, like all"
+#~ " Blender menus, the much more "
+#~ "convenient keyboard shortcuts are listed "
+#~ "next to the commands."
+#~ msgstr ""
+
+#~ msgid ":doc:`Align View </editors/3dview/navigate/3d_view>`"
+#~ msgstr ""
+
+#~ msgid "This submenu allows you to align the 3D View in certain ways:"
+#~ msgstr ""
+
+#~ msgid "Align to selected"
+#~ msgstr ""
+
+#~ msgid "Center cursor and view all"
+#~ msgstr ""
+
+#~ msgid "Align active camera to view"
+#~ msgstr ""
+
+#~ msgid "Center View to cursor"
+#~ msgstr ""
+
+#~ msgid ":ref:`Clipping Border <3dview-clip-border>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Allows you to define a clipping "
+#~ "border to limit the 3D View "
+#~ "display to a portion of 3D space."
+#~ msgstr ""
+
+#~ msgid ":doc:`Zoom Border </editors/3dview/navigate/3d_view>`"
+#~ msgstr ""
+
+#~ msgid "Allows you to define the area you want to zoom into."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`Show all Layers "
+#~ "</editors/3dview/object/properties/relations/layers>`"
+#~ msgstr ""
+
+#~ msgid "Makes all of the display layers visible."
+#~ msgstr ""
+
+#~ msgid ":ref:`Global View/Local View <3dview-local-view>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Global view shows all of the 3D"
+#~ " objects in the scene. Local view "
+#~ "only displays the selected objects. This"
+#~ " helps if there are many objects "
+#~ "in the scene, that may be in "
+#~ "the way. Accidentally pressing "
+#~ ":kbd:`NumpadSlash` can happen rather often "
+#~ "if you are new to Blender, so "
+#~ "if a bunch of the objects in "
+#~ "your scene seem to have mysteriously "
+#~ "vanished, try turning off local view."
+#~ msgstr ""
+
+#~ msgid ":doc:`View Selected </editors/3dview/navigate/3d_view>`"
+#~ msgstr ""
+
+#~ msgid "Zooms the 3D View to encompass all the *selected* objects."
+#~ msgstr ""
+
+#~ msgid ":ref:`View All <3dview-view-all>`"
+#~ msgstr ""
+
+#~ msgid "Zooms the 3D View to encompass *all* the objects in the current scene."
+#~ msgstr ""
+
+#~ msgid ":doc:`Play Back Animation </animation/index>`"
+#~ msgstr ""
+
+#~ msgid "Plays back the animation from the current frame."
+#~ msgstr ""
+
+#~ msgid ":doc:`Duplicate area in new window </interface/window_system/areas>`"
+#~ msgstr ""
+
+#~ msgid "Clones the current 3D View in a new window."
+#~ msgstr ""
+
+#~ msgid ":doc:`Quad View </interface/window_system/areas>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Toggles a four view 3D View, each"
+#~ " showing a different angle of the "
+#~ "scene."
+#~ msgstr ""
+
+#~ msgid ":doc:`Toggle Full Screen </interface/window_system/areas>`"
+#~ msgstr ""
+
+#~ msgid "Maximizes the *3D View* editor to fill the full screen area."
+#~ msgstr ""
+

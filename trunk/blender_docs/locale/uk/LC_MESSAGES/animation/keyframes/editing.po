@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-16 17:46+0300\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/animation/keyframes/editing.rst:4
+msgid "Editing"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:9
+msgid "Insert Keyframes"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:11
+#: ../../manual/animation/keyframes/editing.rst:45
+#: ../../manual/animation/keyframes/editing.rst:65
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid "Mode:     Object Mode"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> "
+"Keyframes: Insert`"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid "Menu:     :menuselection:`Object --> Animation --> Insert Keyframe...`"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid "Hotkey:   :kbd:`I`"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:19
+msgid "There are several methods of adding new keys. Namely:"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:21
+msgid ""
+"In the 3D View, pressing :kbd:`I` will bring up a menu to choose what to add a "
+"keyframe to."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:22
+msgid ""
+"Hovering over a property and pressing :kbd:`I` or with the context menu by :"
+"kbd:`RMB` a property and choose *Insert Keyframe* from the menu."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:27
+msgid "Auto Keyframe"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:31
+msgid "Timeline Auto Keyframe."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:34
+msgid ""
+"Auto Keyframe is the red record button in the *Timeline* header. Auto Keyframe "
+"adds keyframes automatically to the set frame if the value for transform type "
+"properties changes."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:37
+msgid ""
+"See :ref:`Timeline Keyframe Control <animation-editors-timeline-autokeyframe>` "
+"for more info."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:43
+msgid "Delete Keyframes"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> "
+"Keyframes: Remove`"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid "Menu:     :menuselection:`Object --> Animation --> Delete Keyframes...`"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid "Hotkey:   :kbd:`Alt-I`"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:53
+msgid "There are several methods of removing keyframes:"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:55
+msgid ""
+"In the 3D View press :kbd:`Alt-I` to remove keys on the current frame for "
+"selected objects."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:56
+msgid "When the mouse is over a value press :kbd:`Alt-I`."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:57
+msgid ":kbd:`RMB` a value and choose *Delete Keyframe* from the menu."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:63
+msgid "Clear Keyframes"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst
+msgid "Menu:     :menuselection:`Object --> Animation --> Clear Keyframes...`"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:71
+msgid "Removes all keyframes from the selected object."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:75
+msgid "Editing Keyframes"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:77
+msgid ""
+"Keyframes can be edited in two editors. To do so go to either the :doc:`Graph "
+"Editor </editors/graph_editor/index>` or the :doc:`Dopesheet </editors/"
+"dope_sheet/index>`."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:83
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/animation/keyframes/editing.rst:86
+msgid "Keyframe Animation"
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:88
+msgid ""
+"This example shows you how to animate a cubes location, rotation, and scale."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:91
+msgid "First, in the *Timeline*, or other animation editors, set the frame to 1."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:92
+msgid "With the *Cube* selected in *Object Mode*, press :kbd:`I` in the 3D View."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:93
+msgid ""
+"From the *Insert Keyframe Menu* select *LocRotScale*. This will record the "
+"location, rotation, and scale, for the *Cube* on frame 1."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:95
+msgid "Set the frame to 100."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:96
+msgid ""
+"Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:97
+msgid ""
+"Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select "
+"*LocRotScale*."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:102
+msgid "Insert Keyframes."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:105
+msgid "To test the animation, press :kbd:`Alt-A` to play."
+msgstr ""
+
+#: ../../manual/animation/keyframes/editing.rst:110
+msgid "The animation on frames 1, 50, 100."
+msgstr ""
+
+#~ msgid "Adding Keyframes"
+#~ msgstr "Ajout de Keyframes"
+
+#~ msgid "Removing Keyframes"
+#~ msgstr "Suppression de keyframes"

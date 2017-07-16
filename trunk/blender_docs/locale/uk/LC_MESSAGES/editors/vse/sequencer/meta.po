@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/vse/sequencer/meta.rst:4
+msgid "Meta Strips"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:6
+msgid ""
+"A Meta Strip is a strip which contain multiple strips treated as if it "
+"was one strip. It allows you to reduce the vertical space used in the "
+"sequencer. You can edited the same way as strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:10
+msgid ""
+"It is a kind of organization tool. For example, if you are using a lot of"
+" strips and they are complicated in the interface you can group them "
+"together using Meta strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:16
+msgid "Make Meta Strip :kbd:`Ctrl-G`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:15
+msgid ""
+"To create a Meta strips select all the strips you want to group, and "
+":kbd:`Ctrl-G` to group them. The Meta strips will span from the beginning"
+" of the first strip to the end of the last one, and condenses all "
+"channels into a single strip."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:20
+msgid "UnMeta Strip :kbd:`Alt-G`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:19
+msgid ""
+"Separating (ungrouping) the Meta strip restores the strips to their "
+"relative positions and channels. This can be used if you choose to delete"
+" a Meta strips and want to keep the strips inside."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:24
+msgid "Example of Meta strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:26
+msgid ""
+"You can edit the content inside a Meta strip by pressing :kbd:`Tab`. It "
+"will expand the strip to the whole view and hide any other strips. To "
+"exit the Meta strips press :kbd:`Tab` again. Meta strips can also be "
+"nested, which make editing them a little confusing. To exit out one level"
+" of Meta Strip make sure you do not have a Meta strips selected when you "
+"press :kbd:`Tab`."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:34
+msgid ""
+"The default blend mode for a Meta strip is Replace. There are many cases "
+"where this alters the results of the animation so be sure to check the "
+"results and adjust the blend mode if necessary."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:37
+msgid ""
+"One convenient use for Meta strips is when you want to apply the same "
+"effect to multiple strips. For example: if you have a video that was "
+"recorded in different files and want to add an effect strip. It is much "
+"more convenient to apply a single set of effects to one Meta strips then "
+"applying it to each individual strip."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/meta.rst:44
+msgid ""
+"It is also possible to do the similar task described above with a "
+":doc:`Adjustment Layer "
+"</editors/vse/sequencer/strips/effects/adjustment>` effect strip."
+msgstr ""
+
+#~ msgid ""
+#~ "Meta-Strips are a kind of "
+#~ "organization tool. For example, if you"
+#~ " are using a lot of strips and"
+#~ " they are complicated in the "
+#~ "interface you can group them together"
+#~ " using Meta-Strips. A Meta-Strip "
+#~ "spans from the beginning of the "
+#~ "first strip to the end of the "
+#~ "last one, and condenses all channels "
+#~ "into a single strip. Separating "
+#~ "(ungrouping) them restores them to their"
+#~ " relative positions and channels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To create a Meta-Strip select all"
+#~ " the strips you want to group, "
+#~ "and :kbd:`Ctrl-G` to group them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you choose to delete a Meta-"
+#~ "Strip and want to keep the strips"
+#~ " inside, use :kbd:`Alt-G`."
+#~ msgstr ""
+
+#~ msgid "Example of Meta-Strip."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After creating a Meta-Strip it is"
+#~ " also possible to edit the contents"
+#~ " inside a Meta-Strip. To do "
+#~ "this select the desired Meta-strip "
+#~ "and press :kbd:`Tab`. Once you are "
+#~ "done editing the contents inside a "
+#~ "Meta-Strip press :kbd:`Tab` again to "
+#~ "exit the Meta-Strip. Meta-Strips "
+#~ "can also be nested, which make "
+#~ "editing them a little confusing. To "
+#~ "exit out one level of Meta-Strip"
+#~ " make sure you do not have a"
+#~ " Meta-Strip selected when you press"
+#~ " :kbd:`Tab`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "One convenient use for Meta-Strips "
+#~ "is when you want to apply the "
+#~ "same effect to multiple strips. For "
+#~ "example: if you have a video that"
+#~ " was recorded in different files and"
+#~ " want to add an effect strip. "
+#~ "It is much more convenient to "
+#~ "apply a single set of effects to"
+#~ " one Meta-Strip then applying it "
+#~ "to each individual strip."
+#~ msgstr ""
+

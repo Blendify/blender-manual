@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/physics/introduction.rst:6
+msgid ""
+"Blender's physics system allows you to simulate a number of different "
+"real world physical phenomena."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:8
+msgid "Currently, these physics systems are supported:"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:10
+msgid ""
+":doc:`Particle Systems </physics/particles/index>` can be used to "
+"simulate many things such as hair, grass, smoke, and flocks."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:12
+msgid ""
+":doc:`Hair </physics/particles/hair/index>` is a subset of the particle "
+"system, and can be used for strand-like objects, such as hair, fur, "
+"grass, quills, etc."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:15
+msgid ""
+":doc:`Soft Bodies </physics/soft_body/index>` are useful for everything "
+"that tends to bend, deform, in reaction to forces like gravity or wind, "
+"or when colliding with other objects. It can be used for skin, rubber, "
+"and even clothes."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:19
+msgid ""
+":doc:`Cloth Simulation </physics/cloth/index>` is specific for cloth-like"
+" objects."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:21
+msgid ""
+":doc:`Rigid Bodies </physics/rigid_body/index>` can simulate dynamic "
+"objects that are fairly rigid."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:23
+msgid ""
+":doc:`Fluids </physics/fluid/index>` include standard liquids as well as "
+"gasses."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:25
+msgid ""
+":doc:`Smoke </physics/smoke/index>` is a subset of the fluids system, and"
+" can be used for simulating volumes such as smoke."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:27
+msgid ""
+":doc:`Force Fields </physics/force_fields/index>` can modify the behavior"
+" of simulations."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:29
+msgid "You can use these systems to create many different effects such as:"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:31
+msgid "Smoke"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:32
+msgid "Rain"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:33
+msgid "Dust"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:34
+msgid "Cloth"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:35
+msgid "Water"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:36
+msgid "Jello"
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:37
+msgid "etc."
+msgstr ""
+
+#: ../../manual/physics/introduction.rst:43
+msgid "Quick Effects"
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Gravity"
+#~ msgstr "Gravité"
+

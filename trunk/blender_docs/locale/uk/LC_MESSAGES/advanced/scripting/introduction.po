@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-16 13:32+0300\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/advanced/scripting/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/advanced/scripting/introduction.rst:6
+msgid "Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high-level dynamic data types, and classes. Python combines remarkable power with very clear syntax."
+msgstr "Python — інтерпретована, інтерактивна, об'єктно орієнтована мова програмування. Вона включає в собі модулі, винятки, динамічну типізацію, дуже високо-рівневі динамічні типи даних та класи. Python поєднує в собі надзвичайну потужність з дуже чітким синтаксисом."
+
+#: ../../manual/advanced/scripting/introduction.rst:11
+msgid "Python scripts are a powerful and versatile way to extend Blender functionality. Most areas of Blender can be scripted, including Animation, Rendering, Import and Export, Object Creation and the scripting of repetitive tasks."
+msgstr "Скрипти Python є потужним та універсальним способом розширення функціональності Blender. Більшість областей Blender можуть бути заскриптовані, включаючи Анімацію, Зображування, Імпорт і Експорт, Створення та скриптування повторюваних завдань."
+
+#: ../../manual/advanced/scripting/introduction.rst:15
+msgid "To interact with Blender, scripts can make use of the tightly integrated API (Application Programming Interface)."
+msgstr "Для взаємодії з Blender скрипти можуть використовувати тісно інтегрований API (Application Programming Interface)."
+
+#: ../../manual/advanced/scripting/introduction.rst:20
+msgid "General information"
+msgstr "Загальна інформація"
+
+#: ../../manual/advanced/scripting/introduction.rst:22
+msgid "Links that are useful while writing scripts:"
+msgstr "Посилання, корисні при написанні скриптів:"
+
+#: ../../manual/advanced/scripting/introduction.rst:24
+msgid "`Python.org <https://www.python.org/>`__ - General information about Python."
+msgstr "`Python.org <https://www.python.org/>`__ - Загальні інформація про Python."
+
+#: ../../manual/advanced/scripting/introduction.rst:26
+msgid "`Blender Python API <https://www.blender.org/api/blender_python_api_current/>`__ - Official API documentation. Use this for referencing while writing scripts."
+msgstr "`Blender Python API <https://www.blender.org/api/blender_python_api_current/>`__ - Офіційна документація API. Використовуйте це для орієнтування при написанні скриптів."
+
+#: ../../manual/advanced/scripting/introduction.rst:28
+msgid "`API Introduction <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__ - A short introduction to get you started with the API. Contains examples."
+msgstr "`API Introduction <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__ - Короткий вступ, щоб почати працювати API. Містить приклади."
+
+#: ../../manual/advanced/scripting/introduction.rst:30
+msgid "`CookBook <https://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook>`__ - A section of handy code snippets (yet to be written)."
+msgstr "`CookBook <https://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook>`__ - Розділ зі зручними фрагментами коду (ще пишеться)."
+
+#: ../../manual/advanced/scripting/introduction.rst:33
+msgid "Links that deal with distributing your scripts:"
+msgstr "Посилання, що стосуються розповсюдження ваших скриптів:"
+
+#: ../../manual/advanced/scripting/introduction.rst:35
+msgid "`Sharing scripts <https://wiki.blender.org/index.php/Dev:Doc/Process/Addons>`__ - Information on how to share your scripts and get them included in the official Blender distribution."
+msgstr "`Sharing scripts <https://wiki.blender.org/index.php/Dev:Doc/Process/Addons>`__ - Інформація про те, як поділитися своїми сценаріями та мати їх у офіційному дистрибутиві Blender."
+
+#: ../../manual/advanced/scripting/introduction.rst:37
+msgid "`Creating Add-ons <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__ - Add-ons are used to encapsulate and distribute scripts."
+msgstr "`Creating Add-ons <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__ - Для інкапсулювання та розповсюдження скриптів використовуються додатки."
+
+#: ../../manual/advanced/scripting/introduction.rst:39
+msgid "`Add-ons project <https://developer.blender.org/project/profile/3/>`__ - Project to maintain a central repository of extensions to Blender."
+msgstr "`Add-ons project <https://developer.blender.org/project/profile/3/>`__ - Проект для підтримки центрального сховища розширень для Blender."
+
+#: ../../manual/advanced/scripting/introduction.rst:44
+msgid "Getting Started"
+msgstr "Почин"
+
+#: ../../manual/advanced/scripting/introduction.rst:47
+msgid "Manual links"
+msgstr "Посилання на Довідник"
+
+#: ../../manual/advanced/scripting/introduction.rst:48
+msgid "The following links take you from the basics to the more advanced concepts of Python scripting for Blender."
+msgstr "Наступні посилання переведуть вас із основних до більш просунутих концепцій скриптування на Python для Blender."
+
+#: ../../manual/advanced/scripting/introduction.rst:51
+msgid ":doc:`Text Editor </editors/text_editor>`"
+msgstr ":doc:`Text Editor </editors/text_editor>`"
+
+#: ../../manual/advanced/scripting/introduction.rst:52
+msgid ":doc:`Python Console </editors/python_console>`"
+msgstr ":doc:`Python Console </editors/python_console>`"
+
+#: ../../manual/advanced/scripting/introduction.rst:53
+msgid "Info Editors :ref:`info-report-console`"
+msgstr "Редактори Інформації :ref:`info-report-console`"
+
+#: ../../manual/advanced/scripting/introduction.rst:57
+msgid "External links"
+msgstr "Зовнішні посилання"
+
+#: ../../manual/advanced/scripting/introduction.rst:58
+msgid "Here are external links containing a lot of good information to start learning how to write scripts for Blender:"
+msgstr "Ось зовнішні посилання, що містять багато корисної інформації, щоб почати вчитися писати скрипти для Blender:"
+
+#: ../../manual/advanced/scripting/introduction.rst:60
+msgid "`Introductory tutorial by Satish Goda <https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__ Takes you from the beginning and teaches how to do basic API manipulations."
+msgstr "`Introductory tutorial by Satish Goda <https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__ Розповідає, як почати, та вчить, як здійснювати базові маніпуляції з API."
+
+#: ../../manual/advanced/scripting/introduction.rst:63
+msgid "`Ira Krakow's video tutorials <https://www.youtube.com/watch?v=vmhU_whC6zw>`__ First video in a series of video tutorials."
+msgstr "`Ira Krakow's video tutorials <https://www.youtube.com/watch?v=vmhU_whC6zw>`__ Перше відео в серії відеоуроків."
+
+#: ../../manual/advanced/scripting/introduction.rst:65
+msgid "`Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__ A quick start guide for people who already have some familiarity with Python and Blender."
+msgstr "`Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__ Швидкий путівник для людей, які вже знайомі з Python та Blender.."
+
+#: ../../manual/advanced/scripting/introduction.rst:67
+msgid "`Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__ A forum thread containing many short working script examples."
+msgstr "`Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__ Віртуальний форум, що містить багато коротких робочих прикладів скриптів."
+
+#: ../../manual/advanced/scripting/introduction.rst:69
+msgid "`Introduction to Python <https://cgcookie.com/archive/introduction-to-scripting-with-python-in-blender/>`__ An one-hour video tutorial introducing Python and the Blender API."
+msgstr "`Introduction to Python <https://cgcookie.com/archive/introduction-to-scripting-with-python-in-blender/>`__ Одно-годинний відео навчальник, що знайомить з Python та Blender API."
+
+#: ../../manual/advanced/scripting/introduction.rst:75
+msgid "Extending Blender"
+msgstr "Розширення Blender"
+
+#: ../../manual/advanced/scripting/introduction.rst:78
+msgid "Add-ons"
+msgstr "Додатки"
+
+#: ../../manual/advanced/scripting/introduction.rst:80
+msgid "Add-ons are scripts you can enable to gain extra functionality within Blender, they can be enabled from the User Preferences."
+msgstr "Додатки - це скрипти, які ви можете вмикати для отримання додаткової функціональності у Blender'і, в Уподобаннях Користувача."
+
+#: ../../manual/advanced/scripting/introduction.rst:83
+msgid "Outside of the Blender executable, there are literally hundreds of add-ons written by many people:"
+msgstr "Поза середовищем самого Blender'а існують буквально сотні додатків, написаних багатьма людьми:"
+
+#: ../../manual/advanced/scripting/introduction.rst:86
+msgid "Officially supported add-ons are bundled with Blender."
+msgstr "Офіційно підтримувані надбудови поставляються в комплекті з Blender."
+
+#: ../../manual/advanced/scripting/introduction.rst:87
+msgid "Other **Testing** add-ons are included in development builds but not official releases. Many of them work reliably and are very useful but are not ensured to be stable for release."
+msgstr "Інші додатки категорії «тестування» **Testing**, включаються у розробницькі будови, але не в офіційні випуски. Багато хто з них працюють надійно і дуже корисні, але не є гарантовано стабільними для офіційного випуску."
+
+#: ../../manual/advanced/scripting/introduction.rst:90
+msgid "For an overview of all add-ons available see the `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__."
+msgstr "Для огляду усіх доступних додатків, дивіться `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__."
+
+#: ../../manual/advanced/scripting/introduction.rst:95
+msgid "Scripts"
+msgstr "Скрипти"
+
+#: ../../manual/advanced/scripting/introduction.rst:97
+msgid "Apart from add-ons, there are also scripts you can use to extend Blender's functionality:"
+msgstr "Окрім додатків, існують також інші скрипти, які ви можете використовувати для розширення функціональності Blender'а:"
+
+#: ../../manual/advanced/scripting/introduction.rst:99
+msgid "Modules: Utility libraries for import into other scripts."
+msgstr "Модулі (modules): Корисні бібліотеки для імпорту в інші скрипти."
+
+#: ../../manual/advanced/scripting/introduction.rst:100
+msgid "Presets: Settings for Blender's tools and key configurations."
+msgstr "Передустави (presets): Устави для засобів Blender'а та конфігурацій клавіш."
+
+#: ../../manual/advanced/scripting/introduction.rst:101
+msgid "Startup: These files are imported when starting Blender. They define most of Blender's UI, as well as some additional core operators."
+msgstr "Запуск: Ці файли імпортуються при запуску Blender'а. Вони визначають більшість інтерфейсу Blender, а також деякі додаткові основні оператори."
+
+#: ../../manual/advanced/scripting/introduction.rst:103
+msgid "Custom scripts: In contrast to add-ons they are typically intended for one-time execution via the :doc:`Text Editor </editors/text_editor>`."
+msgstr "Власні скрипти: на відміну від додатків, вони, як правило, призначені для одноразового виконання за допомогою Редактора Тексту -- :doc:`Text Editor </editors/text_editor>`."
+
+#: ../../manual/advanced/scripting/introduction.rst:108
+msgid "Saving your own scripts"
+msgstr "Збереження ваших власних скриптів"
+
+#: ../../manual/advanced/scripting/introduction.rst:111
+msgid "File location"
+msgstr "Розташування файлів"
+
+#: ../../manual/advanced/scripting/introduction.rst:113
+msgid "All scripts are loaded from the ``scripts`` folder of the :doc:`local, system and user paths </getting_started/installing/configuration/directories>`."
+msgstr "Усі скрипти завантажуються з теки ``scripts``, яка може знаходитися по :doc:`локальному, системному та користувацькому шляху </getting_started/installing/configuration/directories>`."
+
+#: ../../manual/advanced/scripting/introduction.rst:116
+msgid "You can setup an additional search path for scripts in :ref:`prefs-file-paths` :menuselection:`User Preferences --> File Paths`."
+msgstr "Ви можете установити додатковий шлях для пошуку скриптів в Уподобання Користувача :ref:`prefs-file-paths` :menuselection:`User Preferences --> File Paths`."
+
+#: ../../manual/advanced/scripting/introduction.rst:121
+msgid "Installation"
+msgstr "Установлення"
+
+#: ../../manual/advanced/scripting/introduction.rst:123
+msgid "Add-ons are conveniently installed through Blender in the :doc:`User Preferences </preferences/addons>`. Click the :menuselection:`Install from File...` button and select the ``.py`` or ``.zip`` file."
+msgstr "Додатки зручно установлювати у Blender'і в Уподобаннях Користувача -- :doc:`User Preferences </preferences/addons>`. Для цього клацайте на кнопці «Установити з Файлу» :menuselection:`Install from File...` та вказуйте на файл з розширенням ``.py`` або ``.zip``."
+
+#: ../../manual/advanced/scripting/introduction.rst:126
+msgid "To manually install scripts or add-ons place them in the ``add-ons``, ``modules``, ``presets``, or ``startup`` directory according to their type. See the description above."
+msgstr "Для установлення вручну скриптів або додатків поміщайте їх файли у теки ``add-ons``, ``modules``, ``presets``, або ``startup`` відповідно до їх типу. Дивіться опис про це вище."
+
+#: ../../manual/advanced/scripting/introduction.rst:129
+msgid "You can also run scripts by loading them in the :doc:`Text Editor </editors/text_editor>`."
+msgstr "Ви можете також напряму виконувати скрипти, завантаживши їх у текстовий редактор -- :doc:`Text Editor </editors/text_editor>`."
+
+#~ msgid "Getting Started - Manual links"
+#~ msgstr "Démarrage - Liens manuels"

@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/physics/world.rst:5
+msgid "World Physics"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:11
+msgid "BGE World Physics Panel."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:15
+msgid "Physics Panel"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:17
+msgid ""
+"The *Game Physics* located in the *World* panel determine the type of "
+"physical rules that govern the Game Engine scene, and the gravity value "
+"to be used. Based on the physics engine selected, in physics simulations "
+"in the Game Engine, Blender will automatically move *Actors* in the "
+"downward (-Z) direction. After you arrange the actors and they move as "
+"you wish, you can then bake this computed motion into keyframes (see :ref"
+":`game-engine-physics-bake-keyframes` for more info)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:33
+msgid "Physics Engine"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:26
+msgid "Set the type of physics engine to use."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:30
+msgid "Bullet"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:29
+msgid ""
+"The default physics engine, in active development. It handles movement "
+"and collision detection. The things that collide transfer momentum to the"
+" collided object."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:33
+#: ../../manual/game_engine/physics/world.rst:124
+msgid "None"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:33
+msgid ""
+"No physics in use. Things are not affected by gravity and can fly about "
+"in a virtual space. Objects in motion stay in that motion."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:38
+msgid "Gravity"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:36
+msgid ""
+"The gravitational acceleration, m.s\\ :sup:`-2` (in units of meters per "
+"squared second), of this world. Each object that is an actor has a mass "
+"and size slider. In conjunction with the frame rate (see :doc:`Render "
+"</render/index>` section), Blender uses this info to calculate how fast "
+"the object should accelerate downward."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:41
+msgid "Culling Resolution"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:41
+msgid ""
+"The size of the occlusion culling buffer in pixel, use higher value for "
+"better precision (slower). The optimized Bullet DBVT for view frustum and"
+" occlusion culling is activated internally by default."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:50
+msgid "Physics Steps"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:45
+msgid "Max"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:45
+msgid ""
+"Sets the maximum number of physics steps per game frame if graphics slow "
+"down the game. higher value allows physics to keep up with realtime."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:47
+msgid "Substeps"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:48
+msgid ""
+"Sets the number of simulation substeps per physics timestep. Higher value"
+" give better physics precision."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:50
+msgid "FPS"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:50
+msgid ""
+"Set the nominal number of game frames per second. Physics fixed timestep "
+"= 1/fps, independently of actual frame rate."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:53
+msgid "Logic Steps"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:53
+msgid ""
+"Sets the maximum number of logic frame per game frame if graphics slows "
+"down the game, higher value allows better synchronization with physics."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:68
+msgid "Physics Deactivation"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:56
+msgid ""
+"These settings control the threshold at which physics is deactivated. "
+"These settings help reducing the processing spent on Physics simulation "
+"during the game."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:61
+msgid "Linear Threshold"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:60
+msgid ""
+"The speed limit under which a rigid body will go to sleep (stop moving) "
+"if it stays below the limits for a time equal or longer than the "
+"deactivation time (sleeping is disabled when deactivation time is set to "
+"0)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:63
+msgid "Angular Threshold"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:64
+msgid "Same as linear threshold, but for rotation limit (in rad/s)"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:68
+msgid "Time"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:66
+msgid ""
+"The amount of time in which the object must have motion below the "
+"thresholds for physics to be disabled (0.0 disables physics "
+"deactivation)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:71
+msgid "Navigation Mesh"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:76
+msgid "Rasterization"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:74
+msgid "Cell size"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:75
+msgid "rasterized cell size."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:76
+msgid "Cell height"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:77
+msgid "rasterized cell height."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:85
+msgid "Agent"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:79
+msgid "Height"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:80
+msgid "Minimum height where the agent can still walk."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:81
+msgid "Radius"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:82
+msgid "Radius of the agent."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:83
+msgid "Max climb"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:84
+msgid "Maximum height between grid cells the agent can climb."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:85
+msgid "Max slope"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:86
+msgid "Maximum walkable slope angle in degrees."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:90
+msgid "Region"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:88
+msgid "Min Region Size"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:89
+msgid "Minimum regions size. Smaller regions will be deleted."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:90
+msgid "Merged Region Size"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:91
+msgid "Minimum regions size. Smaller regions will be merged."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:97
+msgid "Partitioning"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:93
+msgid "Watershed"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:94
+msgid "Classic Recast partioning method generating the nicest tessellation."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:95
+msgid "Monotone"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:96
+msgid "The fastest navmesh generation method, but may cause long thin polygons."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:97
+msgid "Layers"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:98
+msgid ""
+"A reasonably fast method that produces better triangles than monotone "
+"partitioning."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:104
+msgid "Polygonization"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:100
+msgid "Max Edge Length"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:101
+msgid "Maximum contour edge length."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:102
+msgid "Max Edge Error"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:103
+msgid "Maximum distance error from contour to cells."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:104
+msgid "Verts Per Poly"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:105
+msgid "Max number of vertices per polygon."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:111
+msgid "Detail Mesh"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:107
+msgid "Sample Distance"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:108
+msgid "Detail mesh sample spacing."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:111
+msgid "Max Sample Error"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:110
+msgid "Detail mesh simplification max sample error."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:114
+msgid "Obstacle Simulation"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:116
+msgid ""
+"Simulation used for obstacle avoidance in the Game Engine, based on the "
+"RVO (Reciprocal Velocity Obstacles) principle. The aim is to prevent one "
+"or more actors colliding with obstacles."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:120
+msgid ""
+"See `Path finding and steering behaviors "
+"<https://wiki.blender.org/index.php/User:Nicks/Gsoc2010/Docs>`__ for more"
+" details."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:129
+msgid "Type"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:125
+msgid "Obstacle simulation is disabled, actors are not able to avoid obstacles."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:126
+msgid "RVO (cells)"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:127
+msgid ""
+"Obstacle simulation is based on the `RVO method "
+"<http://gamma.cs.unc.edu/RVO/>`__ with cell sampling."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:129
+msgid "RVO (rays)"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:129
+msgid ""
+"Obstacle simulation is based on the `RVO method "
+"<http://gamma.cs.unc.edu/RVO>`__ with ray sampling."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:133
+msgid "Level height"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:132
+msgid ""
+"Max difference in heights of obstacles to enable their interaction. Used "
+"to define minimum margin between obstacles by height, when they are "
+"treated as those which are situated one above the other i.e. they does "
+"not influence to each other."
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:137
+msgid "Visualization"
+msgstr ""
+
+#: ../../manual/game_engine/physics/world.rst:136
+msgid "Enable debug visualization for obstacle simulation."
+msgstr ""
+

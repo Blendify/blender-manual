@@ -1,0 +1,670 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:5
+msgid "Sky & Atmosphere"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:9
+msgid "Sky & Atmosphere panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:12
+msgid ""
+"This panel allows you to enable an effect that simulates various "
+"properties of real sky and atmosphere: the scattering of sunlight as it "
+"crosses the kilometers of air overhead. For example, when the Sun is "
+"high, the sky is blue (and the horizon, somewhat whitish). When the Sun "
+"is near the horizon, the sky is dark blue/purple, and the horizon turns "
+"orange. The dispersion of the atmosphere is also more visible when it is "
+"a bit foggy: the farther away an object is, the more \"faded\" in light "
+"gray it is... Go out into the countryside on a nice hot day, and you will"
+" see."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:20
+msgid ""
+"To enable this effect, you have to use a *Sun* light source. If, as "
+"usual, the *position* of the lamp has no importance, its *rotation* is "
+"crucial: it determines which hour it is. As a starting point, you should "
+"reset rotation of your *Sun* (with :kbd:`Alt-R`, or typing :kbd:`0` in "
+"each of the three *Rotation* fields X, Y, Z in the *Transform* panel). "
+"This way, you will have a nice mid-day sun (in the tropics)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:28
+msgid ""
+"Now, there are two important angles for the *Sky/Atmosphere* effect: the "
+"\"incidence\" angle (between the light direction and the X-Y plane), "
+"which determines the \"hour\" of the day (as you might expect, the "
+"default rotation -- straight down -- is \"mid-day\", a light pointing "
+"straight up is \"midnight\", and so on...). And the rotation around the Z"
+" axis determines the position of the sun around the camera."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:38
+msgid "The dashed \"light line\" of the Sun lamp crossing the camera focal point."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:41
+msgid ""
+"In fact, to have a good idea of where the sun is in your world, relative "
+"to the camera in your 3D View, you should always try to have the dashed "
+"\"light line\" of the lamp crossing the center of the camera (its "
+"\"focal\" point), as shown in (The dashed \"light line\" of the *Sun "
+"lamp* crossing the camera focal point). This way, in camera view "
+"(:kbd:`Numpad0`, center area in the example picture), you will see where "
+"the \"virtual\" sun created by this effect will be."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:48
+msgid ""
+"It is important to understand that the *position* of the sun has no "
+"importance for the effect: only its *orientation* is relevant. The "
+"position just might help you in your scene design."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:54
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:60
+msgid "Sun & Sky Presets"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:57
+msgid "Classic"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:58
+msgid "Desert"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:59
+msgid "Mountain"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:63
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:67
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:209
+msgid "Sky"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:66
+msgid ""
+"This button enables the sky settings: it will create a \"sky\", with a "
+"\"sun\" if visible, and mix it with the background as defined in *World* "
+"settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:75
+msgid "Turbidity"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:70
+msgid ""
+"This is a general parameter that affects sun view, sky and atmosphere; it"
+" is an atmosphere parameter where low values describe clear sky, and high"
+" values shows more foggy sky. In general, low values give a clear, deep "
+"blue sky, with \"little\" sun; high values give a more reddish sky, with "
+"a big halo around the sun. Note that this parameter is one which can "
+"really modify the \"intensity\" of the sun lighting. See examples below."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:77
+msgid "Here are its specific controls:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:86
+msgid "Blending"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:80
+msgid ""
+"The select menu shows various mix methods. The one selected will be used "
+"to blend the sky and sun with the background defined in the *World* "
+"settings. The mixing methods are the same as described e.g. in the "
+":doc:`Mix Compositing Node </compositing/types/color/mix>` page."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:86
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:86
+msgid ""
+"Controls how much the sky and sun effect is applied to the World "
+"background."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:96
+msgid "Color space"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:89
+msgid ""
+"These buttons allows you to select which color space the effect uses, "
+"with the following choices:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:91
+msgid "CIE"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:92
+msgid "REC709"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:93
+msgid "SMPTE"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:94
+msgid "Exposure"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:96
+msgid ""
+"This number button allows you to modify the exposure of the rendered Sky "
+"and Sun (0.0 for no correction)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:107
+msgid "Horizon"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:102
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:111
+msgid "Brightness"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:100
+msgid ""
+"Controls brightness of colors at the horizon. Its value should be in the "
+"range (0.0 to 10.0); values near zero means no horizontal brightness, and"
+" large values for this parameter increase horizon brightness. See "
+"examples below."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:107
+msgid "Spread"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:105
+msgid ""
+"Controls spread of light at the horizon. Its value should be in the range"
+" (0.0 to 10.0); values low in the range result in less spread of light at"
+" horizon, and values high in the range result in horizon light spread in "
+"through all the sky."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:121
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:132
+msgid "Sun"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:111
+msgid ""
+"Controls the sun brightness. Its value should be in the range (0.0 to "
+"10.0); with low values the sky has no sun and with high values the sky "
+"only has sun."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:116
+msgid "Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:114
+msgid ""
+"Controls the size of sun. Its values should be in the range (0.0 to "
+"10.0), but note that low values result in large sun size, and high values"
+" result in small sun size. Note that the overall brightness of the sun "
+"remains constant (set by *Brightness*), so the larger the sun (the "
+"smaller *Size*), the more it \"vanishes\" in the sky, and *vice versa*."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:121
+msgid "Back Light"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:119
+msgid ""
+"For \"Back Scatter Light\", result on sun's color, high values result in "
+"more light around the sun. Its values range is (-1.0 to 1.0). Negative "
+"values result in less light around sun."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:124
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:128
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:328
+msgid "Atmosphere"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:127
+msgid ""
+"This button enables the atmosphere settings. It will not modify the "
+"background, but it tries to simulate the effects of an atmosphere: "
+"scattering of the sunlight in the atmosphere, its attenuation, ..."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:135
+msgid "Intensity"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:132
+msgid ""
+"Sets sun intensity. Its values are in range (0.0 to 10.0). High values "
+"result in bluer light on far objects."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:135
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:135
+msgid ""
+"This factor is used to convert Blender units into an understandable unit "
+"for atmosphere effect, it starts from 0 and high values result in more "
+"yellow light in the scene."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:146
+msgid "Scattering"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:140
+msgid "Inscattering"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:139
+msgid ""
+"This factor can be used to decrease the effect of light inscattered into "
+"atmosphere between the camera and objects in the scene. This value should"
+" be 1.0 but can be changed to create some nice, but not realistic, "
+"images."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:146
+msgid "Extinction"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:143
+msgid ""
+"This factor can be use to decrease the effect of extinction light from "
+"objects in the scene. Like *Inscattering* factor, this parameter should "
+"be 1.0 but you can change it; low values result in less light extinction."
+" Its value is in the range (0.0 to 1.0)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:149
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:151
+msgid "First, let us see what happens when we modify the orientation of the sun:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:154
+msgid ""
+"Variations in Sun orientation, Sun Size to 5.0, all other settings to "
+"default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:160
+msgid "With sun right overhead (mid-day)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:165
+msgid "With sun deep \"under the Earth\" (midnight)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:170
+msgid "Sun slightly above the horizon (start of twilight)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:175
+msgid "Sun slightly below the horizon (end of twilight)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:177
+msgid ""
+"`The 2.4 blend-file of these examples "
+"<https://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-"
+"SkyAtmosphere-Examples-SunOrientation.blend>`__."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:180
+msgid ""
+"And now, the effects of various settings (examples created with `this 2.4"
+" blend-file <https://wiki.blender.org/index.php/Media:Manual-Lighting-"
+"Lamps-Sun-SkyAtmosphere-Examples-Settings.blend>`__):"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:184
+msgid "Variations in Turbidity parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:190
+msgid "Turbidity: 2.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:195
+msgid "Turbidity: 2.3."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:200
+msgid "Turbidity: 5.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:205
+msgid "Turbidity: 10.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:211
+msgid "Variations in Horizon Brightness parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:217
+msgid "Horizon Brightness: 0.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:222
+msgid "Horizon Brightness: 0.85."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:227
+msgid "Horizon Brightness: 1.04."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:232
+msgid "Horizon Brightness: 1.13."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:234
+msgid "Variations in Horizon Spread parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:240
+msgid "Horizon Spread: 0.7."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:245
+msgid "Horizon Spread: 1.2."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:250
+msgid "Horizon Spread: 2.2."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:255
+msgid "Horizon Spread: 5.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:257
+msgid "Variations in Sun Brightness parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:263
+msgid "Sun Brightness: 0.2."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:268
+msgid "Sun Brightness: 0.5."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:273
+msgid "Sun Brightness: 0.75."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:278
+msgid "Sun Brightness: 1.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:280
+msgid "Variations in Sun Size parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:286
+msgid "Sun Size: 2.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:291
+msgid "Sun Size: 4.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:296
+msgid "Sun Size: 7.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:301
+msgid "Sun Size: 10.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:303
+msgid ""
+"Variations in Back Light parameter, Sun Bright to 2.5, all other settings"
+" to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:309
+msgid "Back Light: -1.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:314
+msgid "Back Light: -0.33."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:319
+msgid "Back Light: 0.33."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:324
+msgid "Back Light: 1.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:330
+msgid ""
+"For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to "
+"2.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:332
+msgid "Variations in Sun Intensity parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:338
+msgid "Sun Intensity: 1.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:343
+msgid "Sun Intensity: 3.33."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:348
+msgid "Sun Intensity: 6.66."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:353
+msgid "Sun Intensity: 10.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:355
+msgid "Variations in Inscattering parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:361
+msgid "Inscattering: 0.1."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:366
+msgid "Inscattering: 0.33."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:371
+msgid "Inscattering: 0.66."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:376
+msgid "Inscattering: 1.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:378
+msgid "Variations in Extinction parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:384
+msgid "Extinction: 0.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:389
+msgid "Extinction: 0.33."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:394
+msgid "Extinction: 0.66."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:399
+msgid "Extinction: 1.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:401
+msgid "Variations in Distance parameter, all other settings to default."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:407
+msgid "Distance: 1.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:412
+msgid "Distance: 2.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:417
+msgid "Distance: 3.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:422
+msgid "Distance: 4.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:426
+msgid "Hints and limitations"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:428
+msgid ""
+"To always have the *Sun* pointing at the camera center, you can use a "
+":doc:`Track To constraint </rigging/constraints/tracking/track_to>` on "
+"the sun object, with the camera as target, and -Z as the \"To\" axis (use"
+" either X or Y as \"Up\" axis). This way, to modify height/position of "
+"the sun in the rendered picture, you just have to move it; orientation is"
+" automatically handled by the constraint. Of course, if your camera "
+"itself is moving, you should also add e.g. a :doc:`Copy Location "
+"constraint </rigging/constraints/transform/copy_location>` to your *Sun* "
+"lamp, with the camera as target and the *Offset* option activated... This"
+" way, the sun light will not change as the camera moves around."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:438
+msgid ""
+"If you use the default *Add* mixing type, you should use a very dark-blue"
+" world color, to get correct \"nights\"..."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:441
+msgid ""
+"This effect works quite well with a *Hemi* lamp, or some ambient "
+"occlusion, to fill in the *Sun* shadows."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/sun/sky_and_atmosphere.rst:444
+msgid ""
+"Atmosphere shading currently works incorrectly in reflections and "
+"refractions and is only supported for solid shaded surfaces. This will be"
+" addressed in a later release."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Variations in *Turbidity* parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in *Sun Size* parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in *Sun Intensity* parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in *Inscattering* parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in *Extinction* parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in *Distance* parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Sky & Atmosphere panel"
+#~ msgstr ""
+
+#~ msgid "*Sun & Sky Presets*:"
+#~ msgstr ""
+
+#~ msgid "Back Light: -1.0."
+#~ msgstr ""
+
+#~ msgid "Back Light: -0.33."
+#~ msgstr ""
+
+#~ msgid "Back Light: −1.0."
+#~ msgstr ""
+
+#~ msgid "Back Light: −0.33."
+#~ msgstr ""
+
+#~ msgid "Sun: Sky & Atmosphere"
+#~ msgstr ""
+
+#~ msgid "Variations in Turbidity parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in Horizon Spread parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in Sun Brightness parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in Sun Size parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in Sun Intensity parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in Inscattering parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in Extinction parameter, all other settings to default."
+#~ msgstr ""
+
+#~ msgid "Variations in Distance parameter, all other settings to default."
+#~ msgstr ""
+

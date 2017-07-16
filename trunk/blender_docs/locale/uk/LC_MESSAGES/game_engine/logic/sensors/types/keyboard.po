@@ -1,0 +1,132 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:5
+msgid "Keyboard Sensor"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:7
+msgid ""
+"The *Keyboard* sensor is for detecting keyboard input. It can also save "
+"keyboard input to a :ref:`String property <game-engine-property-types>`."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:13
+msgid "Keyboard sensor."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:17
+msgid "properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:19
+msgid ""
+"See :doc:`Sensor Common Options "
+"</game_engine/logic/sensors/common_options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:25
+msgid "Key"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:22
+msgid ""
+"This field detects presses on a named key. Press the button with no label"
+" and a key to assign that key to the sensor. This is the active key, "
+"which will trigger the TRUE pulse. Click the button and then click "
+"outside of the button to deassign the key. A FALSE pulse is given when "
+"the key is released."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:29
+msgid "All keys button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:28
+msgid ""
+"Sends a TRUE pulse when any key is pressed. This is useful for custom key"
+" maps with a :doc:`Python controller "
+"</game_engine/logic/controllers/types/python>`."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:35
+msgid "First Modifier, Second Modifier"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:32
+msgid ""
+"Specifies additional key(s), all of which must be held down while the "
+"active key is pressed in order for the sensor to give a TRUE pulse. These"
+" are selected in the same way as Key. This is useful if you wish to use "
+"key combinations, for example :kbd:`Ctrl-R` or :kbd:`Shift-Alt-Esc` to do"
+" a specific action."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:38
+msgid "Log Toggle"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:38
+msgid ""
+"Assigns a *Bool* property which determines if the keystroke will or will "
+"not be logged in the target *String*. This property needs to be TRUE if "
+"you wish to log your keystrokes."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:42
+msgid "Target"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:41
+msgid ""
+"The name of property to which the keystrokes are saved. This property "
+"must be of type *String*. Together with a *Property* sensor this can be "
+"used for example to enter passwords."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:45
+msgid "Example"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/keyboard.rst:47
+msgid "TODO."
+msgstr ""
+
+#~ msgid "Keyboard sensor"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "LogToggle"
+#~ msgstr ""
+
+#~ msgid "Special Options:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This field detects presses on a "
+#~ "named key. Press the button with "
+#~ "no label and a key to assign "
+#~ "that key to the sensor. This is"
+#~ " the active key, which will trigger"
+#~ " the TRUE pulse. Click the button "
+#~ "and then click outside of the "
+#~ "button to deassign the key."
+#~ msgstr ""
+
+#~ msgid "A FALSE pulse is given when the key is released."
+#~ msgstr ""
+

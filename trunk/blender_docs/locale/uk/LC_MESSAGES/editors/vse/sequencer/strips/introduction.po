@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:8
+msgid "Strip schematic."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:10
+msgid ""
+"A strip is a container which carries frames provided by one or more "
+"sources (input). It is defined by a *Start Frame* and a *Length*, and is "
+"displayed as a colored horizontal rectangle."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:15
+msgid "Add"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:17
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst
+msgid "Menu:     :menuselection:`Add`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst
+msgid "Hotkey:   :kbd:`Shift-A`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:26
+msgid "The Add Menu."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:28
+msgid ""
+"The Add menu is the main menu you will be using to add content to the "
+"VSE. In general, you load up your strips, create strips of special "
+"transition effects, and then animate out your sequence by selecting \"Do "
+"Sequence\" and clicking the *Animation* button. You can use the Add menu "
+"in the header, or hover your mouse cursor over the Sequence workspace and"
+" press :kbd:`Shift-A`."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:34
+msgid ""
+"Blender does not care which of these you use; you can freely mix and "
+"match any of them. When you choose to add one of these, it lets you "
+"either choose a data-block or the VSE editor will switch to a File "
+"Browser for you to select what you want to add. Supported files are "
+"filtered by default."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:39
+msgid ""
+"The start frame of the newly created strips will be placed at the "
+"position of the frame indicator. When loading multiple files (movie and "
+"sound) at the same time each will be add one after the other."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:44
+msgid "Visualization"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:46
+msgid "They all become a color-coded strip in the VSE:"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:48
+msgid "Scene strip: Light green."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:49
+msgid "Clip strip: Dark blue."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:50
+msgid "Mask strip: Red."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:51
+msgid "Movie strip: Aquamarine."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:52
+msgid "Image strip: Purple."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:53
+msgid "Sound strip: Turquoise."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/introduction.rst:55
+msgid "Each of the effect strips has its own color."
+msgstr ""
+
+#~ msgid "Clips can be Huge"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "First, let us add a clip:"
+#~ msgstr ""
+
+#~ msgid "A movie clip in the Audio-Video Interleaved format (``*.avi`` file)."
+#~ msgstr ""
+
+#~ msgid "A movie clip in the Apple QuickTime format (``*.mov``)."
+#~ msgstr ""
+
+#~ msgid "One or more images from a directory."
+#~ msgstr ""
+
+#~ msgid "A Scene in your blend-file."
+#~ msgstr ""
+
+#~ msgid "Blue is used for Avi/mov codec strips."
+#~ msgstr ""
+
+#~ msgid "Grey is a single image that is repeated/copied."
+#~ msgstr ""
+
+#~ msgid "Green is an Audio track."
+#~ msgstr ""
+

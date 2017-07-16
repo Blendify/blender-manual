@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.77 Manual 2.77\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-28 11:47-0500\n"
+"PO-Revision-Date: 2017-06-05 09:27+0200\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: français <bf-docboard@blender.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Language: fr\n"
+
+#: ../../manual/interface/splash.rst:5
+msgid "Splash Screen"
+msgstr "Екран Заставки."
+
+#: ../../manual/interface/splash.rst:7
+msgid ""
+"When starting Blender, the splash screen appears in the center of the "
+"window. It contains help options under link and the recently open blend-"
+"files. A more detailed description can be found below."
+msgstr ""
+
+#: ../../manual/interface/splash.rst:14
+msgid "Blender Splash Screen."
+msgstr "Écran d'accueil de Blender."
+
+#: ../../manual/interface/splash.rst:16
+msgid ""
+"To close the splash screen and start a new project, click anywhere outside "
+"the splash screen (but inside the Blender Window) or press :kbd:`Esc`. The "
+"splash screen will disappear revealing the default screen."
+msgstr ""
+
+#: ../../manual/interface/splash.rst:20
+msgid ""
+"To reopen the splash click on the Blender icon in the :doc:`Info Editor </"
+"editors/info/index>` header or select :menuselection:`Info Editor --> Help --"
+"> Splash Screen`."
+msgstr "Pour rouvrir l'écran d'accueil, cliquez sur l'icône Blender dans l'entête de l':doc:`Éditeur Info </editors/info/index>` ou sélectionnez :menuselection:`Info Editor --> Help --> Splash Screen`."
+
+#: ../../manual/interface/splash.rst:23
+msgid "Title"
+msgstr "Titre"
+
+#: ../../manual/interface/splash.rst:24
+msgid ""
+"Besides the Blender icon and text, it shows the Blender version. e.g. the "
+"current version is |BLENDER_VERSION|."
+msgstr ""
+
+#: ../../manual/interface/splash.rst:25
+msgid "Image"
+msgstr ""
+
+#: ../../manual/interface/splash.rst:26
+msgid "An image where you can identify package and version."
+msgstr "Une image sur laquelle vous pouvez identifier le paquet et la version."
+
+#: ../../manual/interface/splash.rst:27
+msgid "Date"
+msgstr ""
+
+#: ../../manual/interface/splash.rst:28
+msgid ""
+"At the top-right corner, you can see the date on that Blender version was "
+"compiled."
+msgstr "Dans le coin en haut à droite, vous pouvez voir la date à laquelle cette version de Blender a été compilée."
+
+#: ../../manual/interface/splash.rst:29
+msgid "Hash"
+msgstr ""
+
+#: ../../manual/interface/splash.rst:30
+msgid ""
+"The Git Hash. This can be useful to give to support personnel, when "
+"diagnosing a problem."
+msgstr ""
+
+#: ../../manual/interface/splash.rst:32
+msgid "Branch"
+msgstr ""
+
+#: ../../manual/interface/splash.rst:32
+msgid "Optional branch id."
+msgstr "ID de branche facultative."
+
+#: ../../manual/interface/splash.rst:34
+msgid "Interaction"
+msgstr "Utilisation"
+
+#: ../../manual/interface/splash.rst:35
+msgid ""
+"Key configuration the same as :menuselection:`User preferences --> Input`."
+msgstr "Configuration des touches, la même dans que celle définie dans :menuselection:`User preferences --> Input`."
+
+#: ../../manual/interface/splash.rst:37
+msgid "Links"
+msgstr ""
+
+#: ../../manual/interface/splash.rst:37
+msgid ""
+"Links official web pages, the same could be found in the *Help* Menu of the "
+"Info Editor. See :ref:`help-menu`."
+msgstr ""
+
+#: ../../manual/interface/splash.rst:39
+msgid "Recent"
+msgstr ""
+
+#: ../../manual/interface/splash.rst:40
+msgid ""
+"Your most recently opened blend-files. This gives quick and easy access to "
+"your recent projects."
+msgstr ""
+
+#: ../../manual/interface/splash.rst:43
+msgid "Recover Last Session"
+msgstr ""
+
+#: ../../manual/interface/splash.rst:42
+msgid ""
+"Blender will try to recover the last session based on temporary files. See :"
+"doc:`/troubleshooting/recover`."
+msgstr ""

@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:6
+msgid ""
+"Not only can textures affect the color of a material, they can also "
+"affect many of the other properties of a material. The different aspects "
+"of a material that a texture influences are controlled in the *Influence*"
+" panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:13
+msgid ""
+"Texture options for *Surface* and *Wire* materials and in some cases also"
+" for *Volume* and *Halo* materials."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:17
+msgid "Surface and Wire materials"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:22
+msgid "Texture Influence panel for a Surface material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:26
+msgid "Diffuse"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:28
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:42
+msgid "Intensity"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:29
+msgid "Amount texture affects affects diffuse reflectivity"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:30
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:44
+msgid "Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:31
+msgid "Amount texture affect the basic color or RGB value of the material"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:33
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:33
+msgid ""
+"Influences the opacity of the material. Also use *Z Transparency* for "
+"light and if combining multiple channels."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:37
+msgid "Translucency"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:36
+msgid "Influences the Translucency amount."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:40
+msgid "Specular"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:43
+msgid "Amount texture affect specular reflectivity"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:45
+msgid ""
+"Influences the *Specular* color, the color of the reflections created by "
+"the lamps on a glossy material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:49
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:131
+msgid "Hardness"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:47
+msgid ""
+"Influences the specular hardness amount. A DVar of 1 is equivalent to a "
+"Hardness of 130, a DVar of 0.5 is equivalent to a Hardness of 65."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:52
+msgid "Shading"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:54
+msgid "Ambient"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:55
+msgid "Influences the amount of Ambient light the material receives."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:56
+msgid "Emit"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:57
+msgid "Influences the amount of light Emitted by the material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:58
+msgid "Mirror"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:59
+msgid ""
+"Influences the mirror color. This works with environment maps and "
+"raytraced reflection."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:62
+msgid "Ray Mirror"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:61
+msgid "Influences the strength of raytraced mirror reflection."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:65
+msgid "Geometry"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:68
+msgid "Normal"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:68
+msgid ""
+"Commonly called bump mapping, this alters the direction of the surface "
+"normal. This is used to fake surface imperfections or unevenness via bump"
+" mapping, or to create reliefs."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:72
+msgid "Warp"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:71
+msgid ""
+"*Warp* allows textures to influence/distort the texture coordinates of a "
+"next texture channel. The distortion remains active over all subsequent "
+"channels, until a new Warp has been set. Setting the factor at zero "
+"cancels out the effect."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:77
+msgid "Displace"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:75
+msgid ""
+"Influences the Displacement of vertices, for using :doc:`Displacement "
+"Maps "
+"</render/blender_render/textures/properties/influence/displacement>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:80
+msgid "Other Controls"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:89
+msgid "Bump Mapping"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:83
+msgid "Settings for bump mapping."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:85
+msgid "Method"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:86
+msgid "Best Quality, Default, Compatible, Original"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:89
+msgid "Space"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:88
+msgid "Texture Space, Object Space, View Space"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:92
+msgid "Volume materials"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:97
+msgid "Texture Influence panel for Volume material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:100
+msgid "Special texture options for *Volume* materials."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:102
+msgid "Density"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:103
+msgid "Causes the texture to affect the volume's density."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:104
+msgid "Emission"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:105
+msgid "Causes the texture to affect the volume's emission."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:106
+msgid "Scattering"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:107
+msgid "Amount the texture affects scattering."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:108
+msgid "Reflection"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:109
+msgid "Amount the texture affects brightness of out-scattered light"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:110
+msgid "Emission Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:111
+msgid "Amount the texture affects emission color."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:112
+msgid "Transmission"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:113
+msgid ""
+"Amount the texture affects result color after light has been "
+"scattered/absorbed."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:116
+msgid "Reflection Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:115
+msgid "Amount the texture affects color of out-scattered light."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:119
+msgid "Halo materials"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:124
+msgid "Texture Influence panel for a Halo material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:127
+msgid "Special texture options for *Halo* materials."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:129
+msgid "Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:130
+msgid "Amount the texture affects ray mirror."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:132
+msgid "Amount the texture affects hardness."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:135
+msgid "Add"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/properties/influence/introduction.rst:134
+msgid "Amount the texture affects translucency."
+msgstr ""
+

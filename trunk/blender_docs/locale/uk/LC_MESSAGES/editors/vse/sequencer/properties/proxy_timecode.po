@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:4
+msgid "Proxy/Timecode Panel"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:6
+msgid ""
+"Once you have chosen the Proxy/Timecode parameters, you need to use "
+":menuselection:`Strip --> Rebuild Proxy and Timecode indices` to generate"
+" the proxy clip and it will be available after Blender makes it."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:12
+msgid "Proxy"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:17
+msgid ""
+"A proxy is a lower resolution version (faster to load) that stands in for"
+" the main image or video. When you Rebuild proxy Blender computes small "
+"images (like thumbnails) for the big images and may take some time. After"
+" computing them, though, editing functions like scrubbing and scrolling "
+"and compositing functions like cross using these proxies is much faster "
+"but gives a low-res result. Disable proxies before final rendering."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:23
+msgid ""
+"In order to actually use the proxies, the proper Proxy Render Size "
+"selector value must be selected in the Properties region of the Sequencer"
+" View (where the edit plays back)."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:42
+msgid "Proxy Storage"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:27
+msgid ""
+"Defines whether the proxies are for individual strips or the entire "
+"sequence."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:36
+msgid "Per Strip"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:30
+msgid "Proxies are stored in the directory of the input."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:33
+msgid "Proxy Custom Directory"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:33
+msgid ""
+"By default, all generated proxy images are storing to the <path of "
+"original footage> /BL_proxy/<clip name> folder, but this location can be "
+"set by hand using this option."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:36
+msgid "Proxy Custom File"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:36
+msgid "Allows you to use pre-existing proxies."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:42
+msgid "Project"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:39
+msgid "All proxies are stored in one directory."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:42
+msgid "Proxy Directory"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:42
+msgid "The location to store the proxies for the project."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:45
+msgid "Proxy Size"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:45
+msgid ""
+"Buttons to control how big the proxies are. The available options are "
+"25%, 50%, 75%, 100 percent of original strip size."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:47
+msgid "Overwrite"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:48
+msgid "Saves over any existing proxies in the proxy storage directory."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:49
+msgid "Quality"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:50
+msgid "Defines the quality of the JPEG images used for proxies."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:51
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:60
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:76
+msgid "Timecode"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:52
+msgid "See `Timecode`_."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:53
+msgid "Set Selected Strip Proxies"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:54
+msgid "Same as choosing the *Proxy Size* and *Overwrite*."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:57
+msgid "Rebuild Proxy and Timecode Indices"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:56
+msgid ""
+"Generates Proxies and Timecodes, same as doing :menuselection:`Strip --> "
+"Rebuild Proxy and Timecode indices`."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:62
+msgid ""
+"When you are working with footage directly copied from a camera without "
+"pre-processing it, there might be bunch of artifacts, mostly due to "
+"seeking a given frame in sequence. This happens because such footage "
+"usually does not have correct frame rate values in their headers. So, for"
+" Blender to calculate the position of a needed frame in the stream works "
+"inaccurately and can give errant result. There are two possible ways to "
+"avoid this:"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:68
+msgid ""
+"Preprocess your video with, say, mencoder to repair file header and "
+"insert correct keyframes."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:69
+msgid "Use Proxy/Timecode option in Blender."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:73
+msgid "Options"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:76
+msgid ":term:`Timecode` to use on the selected movie strip."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:78
+msgid "The following timecodes are supported:"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:80
+msgid "No TC in use- do not use any timecode"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:81
+msgid "Record Run"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:82
+msgid "Free Run"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:83
+msgid "Free Run (rec date)"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:84
+msgid "Record Run No Gaps"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/properties/proxy_timecode.rst:88
+msgid ""
+"Record Run is the timecode which usually is best to use, but if the "
+"clip's file is totally damaged, *Record Run No Gaps* will be the only "
+"chance of getting acceptable result."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ":term:`Timecode`"
+#~ msgstr ""
+
+#~ msgid "Timecode to use on the selected movie strip."
+#~ msgstr ""
+

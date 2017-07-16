@@ -1,0 +1,318 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:4
+msgid "Set Alpha Node"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:9
+msgid "Set Alpha Node."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:11
+msgid "The *Set Alpha Node* adds an alpha channel to an image."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:14
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:16
+#: ../../manual/compositing/types/converter/set_alpha.rst:34
+msgid "Image"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:17
+msgid "Standard image input."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:21
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:19
+msgid ""
+"The amount of Alpha can be set for the whole image by using the input "
+"field or per pixel by connecting to the socket."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:26
+msgid "This node has no properties."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:30
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:33
+msgid "Standard image output."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:38
+msgid ""
+"This is not, and is not intended to be, a general-purpose solution to the"
+" problem of compositing an image that does not contain Alpha information."
+" You might wish to use \"Chroma Keying\" or \"Difference Keying\" (as "
+"discussed elsewhere) if you can. This node is most often used (with a "
+"suitable input being provided by means of the socket) in those "
+"troublesome cases when you *cannot*, for some reason, use those "
+"techniques directly."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:46
+msgid "Example"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:49
+msgid "Fade To Black"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:51
+msgid ""
+"To transition the audience from one scene or shot to another, a common "
+"technique is to \"fade to black\". As its name implies, the scene fades "
+"to a black screen. You can also \"fade to white\" or whatever color you "
+"wish, but black is a good neutral color that is easy on the eyes and "
+"intellectually \"resets\" the viewer's mind. The node map below shows how"
+" to do this using the Set Alpha node."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:59
+msgid "Fade To Black."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:62
+msgid ""
+"In the example above, the alpha channel of the swirl image is ignored. "
+"Instead, a :doc:`time node </compositing/types/input/time>` introduces a "
+"factor from 0.00 to 1.00 over 60 frames, or about 2 seconds, to the Set "
+"Alpha node. Note that the time curve is exponentially-shaped, so that the"
+" overall blackness will fade in slowly and then accelerate toward the "
+"end. The Set Alpha node does not need an input image; instead, the flat "
+"(shadeless) black color is used. The Set Alpha Node uses the input factor"
+" and color to create a black image that has an alpha set which goes from "
+"0.00 to 1.00 over 60 frames, or completely transparent to completely "
+"opaque. Think of alpha as a multiplier for how vivid you can see that "
+"pixel. These two images are combined by our trusty Alpha Over node "
+"completely (a *Factor* of 1.00) to produce the composite image. The Set "
+"Alpha node will thus, depending on the frame being rendered, produce a "
+"black image that has some degree of transparency. Setup and Animate, and "
+"you have an image sequence that fades to black over a 2-second period."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:76
+msgid "No Scene information used"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:78
+msgid ""
+"This example node map does not use the Render Layer node. To produce this"
+" 2-second animation, no Blender scene information was used. This is an "
+"example of using Blender's powerful compositing abilities separate from "
+"its modeling and animation capabilities. (A Render Layer could be "
+"substituted for the Image layer, and the \"fade-network\" effect will "
+"still produce the same effect)."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:87
+msgid "Fade In a Title"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:89
+msgid ""
+"To introduce your animation, you will want to present the title of your "
+"animation over a background. You can have the title fly in, or fade it "
+"in. To fade it in, use the Set Alpha node with the Time node as shown "
+"below."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:96
+msgid "Using Set Alpha to Fade in a Title."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:99
+msgid ""
+"In the above example, a Time curve provides the Alpha value to the input "
+"socket. The current Render Layer node, which has the title in view, "
+"provides the image. As before, the trusty Alpha Over node mixes (using "
+"the alpha values) the background swirl and the alpha title to produce the"
+" composite image. Notice the *Convert Premultiplied* - checkbox is "
+"**not** enabled; this produces a composite where the title lets the "
+"background image show through where even the background image is "
+"transparent, allowing you to layer images on top of one another."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:109
+msgid "Colorizing a BW Image"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:113
+msgid "Using Set Alpha to Colorize an Image."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:116
+msgid ""
+"In the example above, notice how the blue tinge of the render input "
+"colors the swirl. You can use the Set Alpha node's color button with this"
+" kind of node map to add a consistent color to a BW image."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/set_alpha.rst:119
+msgid ""
+"In the example map to the right, use the *Alpha* value of the Set Alpha "
+"node to give a desired degree of colorization. Thread the input image and"
+" the Set Alpha node into an Alpha Over node to colorize any black and "
+"white image in this manner. Note the *Convert Premultiplied* checkbox is "
+"enabled, which tells the Alpha Over node not to multiply the alpha values"
+" of the two images together."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Fade To Black"
+#~ msgstr ""
+
+#~ msgid "Using Set Alpha to Fade in a Title"
+#~ msgstr ""
+
+#~ msgid "Using Set Alpha to Colorize an Image"
+#~ msgstr ""
+
+#~ msgid "Input"
+#~ msgstr ""
+
+#~ msgid "Output"
+#~ msgstr ""
+
+#~ msgid "Using SetAlpha to Fade to Black"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the example above, the alpha "
+#~ "channel of the swirl image is "
+#~ "ignored. Instead, a :doc:`time node "
+#~ "</compositing/types/input/time>` introduces a factor"
+#~ " from 0.00 to 1.00 over 60 "
+#~ "frames, or about 2 seconds, to the"
+#~ " Set Alpha node. Note that the "
+#~ "time curve is exponentially-shaped, so"
+#~ " that the overall blackness will fade"
+#~ " in slowly and then accelerate toward"
+#~ " the end. The Set Alpha node "
+#~ "does not need an input image; "
+#~ "instead, the flat (shadeless) black "
+#~ "color is used. The Set Alpha Node"
+#~ " uses the input factor and color "
+#~ "to create a black image that has"
+#~ " an alpha set which goes from "
+#~ "0.00 to 1.00 over 60 frames, or"
+#~ " completely transparent to completely "
+#~ "opaque. Think of alpha as a "
+#~ "multiplier for how vivid you can "
+#~ "see that pixel. These two images "
+#~ "are combined by our trusty AlphaOver "
+#~ "node completely (a *Fac* tor of "
+#~ "1.00) to produce the composite image."
+#~ " The SetAlpha node will thus, "
+#~ "depending on the frame being rendered,"
+#~ " produce a black image that has "
+#~ "some degree of transparency. Setup and"
+#~ " Animate, and you have an image "
+#~ "sequence that fades to black over "
+#~ "a 2-second period."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example node map does not use"
+#~ " the RenderLayer. To produce this "
+#~ "2-second animation, no Blender scene "
+#~ "information was used. This is an "
+#~ "example of using Blender's powerful "
+#~ "compositing abilities separate from its "
+#~ "modeling and animation capabilities. (A "
+#~ "Render Layer could be substituted for"
+#~ " the Image layer, and the \"fade-"
+#~ "network\" effect will still produce the"
+#~ " same effect)"
+#~ msgstr ""
+
+#~ msgid "Using SetAlpha to Fade In a Title"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To introduce your animation, you will"
+#~ " want to present the title of "
+#~ "your animation over a background. You"
+#~ " can have the title fly in, or"
+#~ " fade it in. To fade it in, "
+#~ "use the SetAlpha node with the "
+#~ "Time node as shown below."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the above example, a Time curve"
+#~ " provides the Alpha value to the "
+#~ "input socket. The current RenderLayer, "
+#~ "which has the title in view, "
+#~ "provides the image. As before, the "
+#~ "trusty AlphaOver node mixes (using the"
+#~ " alpha values) the background swirl "
+#~ "and the alpha title to produce the"
+#~ " composite image. Notice the *ConvertPre*"
+#~ " -Multiply button is **not** enabled; "
+#~ "this produces a composite where the "
+#~ "title lets the background image show "
+#~ "through where even the background image"
+#~ " is transparent, allowing you to "
+#~ "layer images on top of one "
+#~ "another."
+#~ msgstr ""
+
+#~ msgid "Using SetAlpha to Colorize a BW Image"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the example above, notice how "
+#~ "the blue tinge of the render input"
+#~ " colors the swirl. You can use "
+#~ "the Set Alpha node's color swatch "
+#~ "with this kind of node map to "
+#~ "add a consistent color to a BW "
+#~ "image."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the example map to the right,"
+#~ " use the *Alpha* value of the "
+#~ "SetAlpha node to give a desired "
+#~ "degree of colorization. Thread the input"
+#~ " image and the Set Alpha node "
+#~ "into an AlphaOver node to colorize "
+#~ "any black and white image in this"
+#~ " manner. Note the *ConvertPre* -Multiply"
+#~ " button is enabled, which tells the"
+#~ " AlphaOver node not to multiply the"
+#~ " alpha values of the two images "
+#~ "together."
+#~ msgstr ""
+
+#~ msgid "This node adds an alpha channel to an image."
+#~ msgstr ""
+

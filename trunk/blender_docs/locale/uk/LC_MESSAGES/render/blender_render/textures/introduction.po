@@ -1,0 +1,406 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/textures/introduction.rst:5
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/render/blender_render/textures/introduction.rst:7
+msgid ""
+"In CGI, texture mapping is a method to add detail to surfaces by "
+"projecting images and patterns onto those surfaces. The projected images "
+"and patterns can be set to affect not only color, but also specularity, "
+"reflection, transparency, and even fake 3-dimensional depth. Most often, "
+"the images and patterns are projected during render time, but texture "
+"mapping is also used to sculpt, paint and deform objects."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:16
+msgid ""
+"Texture processing for :doc:`Combined Textures "
+"</render/blender_render/textures/nodes/introduction>` in the Compositor."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:21
+msgid "Material Textures"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:23
+msgid ""
+"The material settings that we've seen so far produce smooth, *uniform* "
+"objects, but such objects are not particularly true to reality, where "
+"uniformity tends to be uncommon and out of place. In order to deal with "
+"this unrealistic uniformity, Blender allows the user to apply *textures* "
+"which can modify the reflectivity, specularity, roughness and other "
+"surface qualities of a material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:33
+msgid "Textures Layer on base Material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:36
+msgid ""
+"Textures are like additional layers on top of the base material. Textures"
+" affect one or more aspects of the object's net coloring. The net color "
+"you see is a sort of layering of effects, as shown in this example image."
+" The layers, if you will, are:"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:41
+msgid "Your object, lit with *ambient* light based on your world settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:42
+msgid ""
+"Your base *material*, which colors the whole surface in a uniform color "
+"that reacts to light, giving different shades of the diffuse, specular, "
+"and mirror colors based on the way light passes through and into the "
+"surface of the object."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:45
+msgid "A *primary texture* layer that overlays a purple marble coloring."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:46
+msgid ""
+"A *second cloud texture* that makes the surface transparent in a "
+"misty/foggy sort of way by affecting the Alpha value."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:48
+msgid ""
+"These two textures are *mixed* with the base material to provide the net "
+"effect: a cube of purplish-brown fog."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:53
+msgid "Some Metal Textures."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:55
+msgid ""
+"This notion of using *more than one* texture, to achieve a combined "
+"effect, is one of the \"hidden secrets\" of creating realistic-looking "
+"objects. If you carefully \"look at the light\" while examining any real-"
+"life object, you will observe that the final appearance of that object is"
+" best described as the combination, in different ways and in different "
+"amounts, of several distinct underlying visual characteristics. These "
+"characteristics might be more (or less) strongly apparent at different "
+"angles, under different lighting conditions, and so forth. Blender allows"
+" you to achieve this in many ways."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/introduction.rst:64
+msgid ""
+"You can use \"a stack of texture layers\" as described in :doc:`this "
+"section </render/blender_render/textures/texture_panel>`, or you can also"
+" use arbitrarily-complex networks of \"texture nodes\" as discussed "
+":doc:`here </render/blender_render/textures/nodes/introduction>`."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid "Applied Brush texture in different painting modes"
+#~ msgstr ""
+
+#~ msgid "Your object, lit with **ambient** light based on your world settings."
+#~ msgstr ""
+
+#~ msgid "A **primary texture** layer that overlays a purple marble coloring."
+#~ msgstr ""
+
+#~ msgid "Some Metal Textures"
+#~ msgstr ""
+
+#~ msgid "Textures Layer on base Material"
+#~ msgstr ""
+
+#~ msgid "Panel:    Shading/World Context --> Preview"
+#~ msgstr ""
+
+#~ msgid "Brush textures can be used to :ref:`painting_texture-index` textures."
+#~ msgstr ""
+
+#~ msgid "Brush textures can be used to :ref:`painting_vertex-index` vertices."
+#~ msgstr ""
+
+#~ msgid "Introduction to Textures"
+#~ msgstr ""
+
+#~ msgid "applied to a *Material*"
+#~ msgstr ""
+
+#~ msgid "associated with *Modifiers*, see: - Particles textures - Ocean textures"
+#~ msgstr ""
+
+#~ msgid "volumetric materials use Voxel Data textures, or Point Density textures"
+#~ msgstr ""
+
+#~ msgid "textures can be obtained from an Ocean Modifier"
+#~ msgstr ""
+
+#~ msgid "`CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__"
+#~ msgstr ""
+
+#~ msgid "In Blender, *Texture* s can be:"
+#~ msgstr ""
+
+#~ msgid "applied to a *Material*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "applied to a :doc:`light "
+#~ "</render/blender_render/lighting/lights/textures>`, that "
+#~ "coming from lamp."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "applied to the :doc:`World Background "
+#~ "</render/blender_render/world/background>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "applied to a *Brush*, see for "
+#~ "example: - :ref:`painting-sculping-index`. "
+#~ "- :ref:`painting-texture-index`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "associated with *Modifiers*, see: - "
+#~ "Particles textures. - Ocean textures."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This notion of using *more than "
+#~ "one* texture, to achieve a combined "
+#~ "effect, is one of the \"hidden "
+#~ "secrets\" of creating realistic-looking "
+#~ "objects. If you carefully \"look at "
+#~ "the light\" while examining any real-"
+#~ "life object, you will observe that "
+#~ "the final appearance of that object "
+#~ "is best described as the combination,"
+#~ " in different ways and in different"
+#~ " amounts, of several distinct underlying"
+#~ " visual characteristics. These characteristics"
+#~ " might be more (or less) strongly "
+#~ "apparent at different angles, under "
+#~ "different lighting conditions, and so "
+#~ "forth. Blender allows you to achieve "
+#~ "this in many ways. You can use "
+#~ "\"a stack of texture layers\" as "
+#~ "described in :doc:`this section "
+#~ "</render/blender_render/textures/options>`, or you "
+#~ "can also use arbitrarily-complex "
+#~ "networks of \"texture nodes\" as "
+#~ "discussed :doc:`here "
+#~ "</render/blender_render/textures/nodes/introduction>`; the "
+#~ "choice is yours."
+#~ msgstr ""
+
+#~ msgid "Materials Textures fall into three primary categories:"
+#~ msgstr ""
+
+#~ msgid "Procedural Textures"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Textures generated by a mathematical "
+#~ "formula. For example, *Wood*, *Clouds*, "
+#~ "and *Distorted Noise*. See :doc:`Procedural"
+#~ " Textures "
+#~ "</render/blender_render/textures/types/procedural/introduction>`."
+#~ msgstr ""
+
+#~ msgid "Images or Movies"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Photos and films projected onto objects."
+#~ " For example, a flat map of "
+#~ "Earth mapped to a sphere. See "
+#~ ":doc:`Image Textures "
+#~ "</render/blender_render/textures/types/image>` and "
+#~ ":doc:`Video Textures "
+#~ "</render/blender_render/textures/types/video>`."
+#~ msgstr ""
+
+#~ msgid "Environment Maps"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Textures used to create the impression"
+#~ " of reflections and refractions. For "
+#~ "example, an image of a street "
+#~ "reflected in a car window."
+#~ msgstr ""
+
+#~ msgid "Data or Modifiers Textures"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Textures obtained from raw data or "
+#~ "obtained by a certain modifier in "
+#~ "the scene. For example:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Volumetric materials use Voxel Data "
+#~ "textures, or Point Density textures. See"
+#~ " :doc:`Volume Textures "
+#~ "</render/blender_render/textures/types/volume/index>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Textures can be obtained from an "
+#~ ":doc:`Ocean Modifier</modeling/modifiers/simulate/ocean>`. "
+#~ "See :doc:`Ocean Textures "
+#~ "</render/blender_render/textures/types/procedural/ocean>`."
+#~ msgstr ""
+
+#~ msgid "World Textures"
+#~ msgstr ""
+
+#~ msgid "Reference"
+#~ msgstr ""
+
+#~ msgid "Mode:     All Modes"
+#~ msgstr ""
+
+#~ msgid "Panel:    :menuselection:`World --> Preview`"
+#~ msgstr ""
+
+#~ msgid "Hotkey:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The world buttons let you set up"
+#~ " the shading of your scene in "
+#~ "general. It can provide ambient color,"
+#~ " and special effects such as mist,"
+#~ " but a very common use of a "
+#~ "*World* is to shade a background "
+#~ "color."
+#~ msgstr ""
+
+#~ msgid "HoR, HoG, HoB"
+#~ msgstr ""
+
+#~ msgid "The RGB color at the horizon"
+#~ msgstr ""
+
+#~ msgid "ZeR, ZeG, ZeB"
+#~ msgstr ""
+
+#~ msgid "The RGB color at the zenith (overhead)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These colors are interpreted differently, "
+#~ "according to the Buttons in the "
+#~ ":menuselection:`Preview --> Background colors` "
+#~ "panel:"
+#~ msgstr ""
+
+#~ msgid "None Enabled"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If none of these three buttons is"
+#~ " checked, your background will just "
+#~ "be plain flat color (using the "
+#~ "horizon one)."
+#~ msgstr ""
+
+#~ msgid "Blend"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The background color is blended from "
+#~ "horizon to zenith. If only this "
+#~ "button is pressed, the gradient runs "
+#~ "from the bottom to the top of "
+#~ "the rendered image regardless of the "
+#~ "camera orientation."
+#~ msgstr ""
+
+#~ msgid "Real"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If this option is added, the "
+#~ "gradient produced has two transitions, "
+#~ "from nadir (same color as zenith) "
+#~ "to horizon to zenith; the blending "
+#~ "is also dependent on the camera "
+#~ "orientation, which makes it more "
+#~ "realistic. The horizon color is exactly"
+#~ " at the horizon (on the XY "
+#~ "plane), and the zenith color is "
+#~ "used for points vertically above and "
+#~ "below the camera."
+#~ msgstr ""
+
+#~ msgid "Paper"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If this option is added, the "
+#~ "gradient keeps its characteristics, but "
+#~ "it is clipped in the image (it "
+#~ "stays on a horizontal plane (parallel"
+#~ " to XY plane): what ever the "
+#~ "angle of the camera may be, the"
+#~ " horizon is always at the middle "
+#~ "of the image)."
+#~ msgstr ""
+
+#~ msgid "Brush Textures"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Image textures can be loaded into "
+#~ "Blender. These images can then be "
+#~ "applied to a mesh model that has"
+#~ " been unwrapped and assigned an image"
+#~ " of user defined size."
+#~ msgstr ""
+
+#~ msgid "Applied Brush texture in different painting modes."
+#~ msgstr ""
+
+#~ msgid "Brush textures can be used to :ref:`painting-texture-index` textures."
+#~ msgstr ""
+
+#~ msgid "Brush textures can be used to :ref:`painting-vertex-index` vertices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Brush textures can also be used in"
+#~ " :ref:`painting-sculping-index` to create"
+#~ " topology."
+#~ msgstr ""
+

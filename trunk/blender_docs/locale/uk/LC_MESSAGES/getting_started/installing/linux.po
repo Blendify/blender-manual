@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/getting_started/installing/linux.rst:4
+msgid "Installing on Linux"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:6
+msgid ""
+"Check the :doc:`minimum requirements and where to get Blender </"
+"getting_started/installing/introduction>`, if you have not done so yet."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:11
+msgid "Specific packages for distributions"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:13
+msgid ""
+"Some Linux distributions may have on their repositories a specific package "
+"for Blender."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:15
+msgid ""
+"Installing Blender via the distribution's native mechanisms ensures "
+"consistency with other packages on the system and may provide other features "
+"(given by the package manager), such as listing of packages, update "
+"notifications and automatic menu configuration. Be aware, though, that the "
+"package may be outdated comparing to the latest official release, or not "
+"include some features of Blender. For example, some distributions do not "
+"build Blender with CUDA support for licensing reasons."
+msgstr ""
+
+# la version anglaise est perfectible
+#: ../../manual/getting_started/installing/linux.rst:22
+msgid ""
+"If there is a specific package for your distribution, you may choose what is "
+"preferable and most convenient, otherwise, there is nothing wrong with the "
+"official binary on `blender.org <https://www.blender.org/download/>`__."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:27
+msgid "Download from blender.org"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:29
+msgid ""
+"Download the Linux version for your architecture and uncompress the file to "
+"the desired location (eg. ``~/software`` or ``/usr/local``)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:32
+msgid "Blender can now be launched by double-clicking the executable."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:34
+msgid ""
+"For easy access, you can configure your system by adding a menu entry or "
+"shortcut for Blender and associate and open blend-files with Blender when "
+"opening from the file browser. These settings typically belong to the Window "
+"Manager (KDE, Gnome, Unity)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:40
+msgid "Running from the terminal"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:42
+msgid ""
+"To run Blender from the terminal without needing to be in the executable "
+"directory, add the extracted folder to the environment ``PATH``."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:45
+msgid ""
+"Add the following command to ``~/.bashrc`` or ``~/.profile`` pointing to the "
+"directory with Blender's binary:"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:54
+msgid ""
+"If you use daily builds and update Blender frequently, you can link or "
+"always rename your folder to 'blender' and use this name for the ``PATH`` "
+"environment variable and for keeping the window manager menu up to date."
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:60
+msgid "Avoiding Alt+Mouse Conflict"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:62
+msgid ""
+"Many Window Managers default to :kbd:`Alt-LMB` for moving windows, which is "
+"a shortcut that Blender uses to simulate a three button mouse. You can "
+"either have this feature disabled :menuselection:`User Preferences --> Input "
+"--> Emulate 3 Button Mouse` or you can change the Window Manager settings to "
+"use the *Meta* key instead (also called *Super* or *Windows key*):"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:67
+msgid ""
+"**KDE:** System Settings > Window Behavior > Window Behavior > Window "
+"Actions , Switch 'Alt' for 'Meta' key"
+msgstr ""
+
+#: ../../manual/getting_started/installing/linux.rst:68
+msgid ""
+"**Unity/Gnome:** enter the following in a command line (effective at next "
+"login):"
+msgstr ""
+
+#~ msgid ""
+#~ "Many Window Managers default to :kbd:`Alt-LMB` for moving windows, which "
+#~ "is a shortcut that Blender uses to simulate a 3 button mouse. You can "
+#~ "either have this feature disabled :menuselection:`User Preferences --> "
+#~ "Input --> Emulate 3 Button Mouse` or you can change the Window Manager "
+#~ "settings to use the *Meta* key instead (also called *Super* or *Windows "
+#~ "key*):"
+#~ msgstr ""
+#~ "Beaucoup de gestionnaires de fenêtres utilisent par défaut :kbd:`Alt-LMB` "
+#~ "pour déplacer le fenêtre, qui est également le raccourci qu'utilise "
+#~ "Blender pour simuler une souris à 3 boutons. Vous pouvez soit désactiver "
+#~ "cette fonctionnalité :menuselection:`User Preferences --> Input --> "
+#~ "Emulate 3 Button Mouse`, soit changer la configuration du gestionnaire de "
+#~ "fenêtres pour utiliser la touche *Meta* (également appelée *Super* ou "
+#~ "*Windows Key*)"

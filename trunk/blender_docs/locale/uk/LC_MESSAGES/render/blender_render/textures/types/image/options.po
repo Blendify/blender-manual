@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:5
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:8
+#: ../../manual/render/blender_render/textures/types/image/options.rst:14
+msgid "Image"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:10
+msgid "In the *Image* panel we tell Blender which source file to use."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:13
+msgid ""
+"The Image :ref:`ui-data-block`. For the options see "
+":doc:`/editors/uv_image/image/image_settings`."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:17
+msgid "Image Sampling"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:19
+msgid ""
+"In the *Image Sampling* panel we can control how the information is "
+"retrieved from the image."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:26
+msgid "Background image."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:31
+msgid "Foreground image."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:34
+msgid ""
+"The two images presented here are used to demonstrate the different image"
+" options. The *background image* is an ordinary JPG-file, the *foreground"
+" image* is a PNG-file with various alpha and grayscale values. The "
+"vertical bar on the right side of the foreground image is an Alpha blend,"
+" the horizontal bar has 50% alpha."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:45
+msgid ""
+"Foreground image with *Use* alpha. The alpha values of the pixels are "
+"evaluated."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:50
+msgid "Foreground image with *Calculate* alpha."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:68
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:54
+msgid "Options related to transparency."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:58
+msgid "Use"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:57
+msgid ""
+"Works with PNG and TGA files since they can save transparency information"
+" (Foreground Image with Use Alpha). Where the alpha value in the image is"
+" less than 1.0, the object will be partially transparent and stuff behind"
+" it will show."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:64
+msgid "Calculate"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:61
+msgid ""
+"Calculate an alpha based on the RGB values of the Image. Black (0, 0, 0) "
+"is transparent, white (1, 1, 1) opaque. Enable this option if the image "
+"texture is a mask. Note that mask images can use shades of gray that "
+"translate to semi-transparency, like ghosts, flames, and smoke/fog."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:68
+msgid "Invert"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:67
+msgid ""
+"Reverses the alpha value. Use this option if the mask image has white "
+"where you want it transparent and vice-versa."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:71
+msgid "Flip X/Y Axis"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:71
+msgid "Rotates the image 90 degrees counterclockwise when rendered."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:75
+msgid "Image Sampling panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:88
+msgid "Normal Map"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:79
+msgid ""
+"This tells Blender that the image is to be used to create the illusion of"
+" a bumpy surface, with each of the three RGB channels controlling how to "
+"fake a shadow from a surface irregularity. Needs specially prepared input"
+" pictures. See :doc:`Bump and Normal Maps "
+"</render/blender_render/textures/properties/influence/bump_and_normal>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:88
+msgid "Normal Map Space:"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:85
+msgid "*Tangent*"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:86
+msgid "*Object*"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:87
+msgid "*World*"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:88
+msgid "*Camera*"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:91
+msgid "Derivative Map"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:91
+msgid "Use red and green as derivative values."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:105
+msgid "MIP Map"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:94
+msgid ""
+"`MIP Maps <https://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, "
+"smaller, filtered Textures for a certain size. A series of pictures is "
+"generated, each half the size of the former one. This optimizes the "
+"filtering process. By default, this option is enabled and speeds up "
+"rendering (especially useful in the :doc:`Game Engine "
+"</game_engine/index>`). When this option is OFF, you generally get a "
+"sharper image, but this can significantly increase calculation time if "
+"the filter dimension (see below) becomes large. Without MIP Maps you may "
+"get varying pictures from slightly different camera angles, when the "
+"Textures become very small. This would be noticeable in an animation."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:105
+msgid "MIP Map Gaussian filter"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:103
+msgid ""
+"Used in conjunction with MIP Map, it enables the MIP Map to be made "
+"smaller based on color similarities. In the :doc:`Game Engine "
+"</game_engine/index>`, you want your textures, especially your MIP Map "
+"textures, to be as small as possible to increase rendering speed and "
+"frame rate."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:122
+msgid "Interpolation"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:108
+msgid ""
+"This option interpolates the pixels of an image. This becomes visible "
+"when you enlarge the picture. By default, this option is on. Turn this "
+"option off to keep the individual pixels visible and if they are "
+"correctly anti-aliased. This last feature is useful for regular patterns,"
+" such as lines and tiles; they remain 'sharp' even when enlarged "
+"considerably. When you enlarge this 10×10 pixel Image |small-pic| the "
+"difference with and without *Interpolation* is clearly visible. Turn this"
+" image off if you are using digital photos to preserve crispness."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:117
+msgid "Enlarged Image texture without and with *Interpolation*"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:164
+msgid "Filter"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:125
+msgid ""
+"The filter size used in rendering, and also by the options *MipMap* and "
+"*Interpolation*. If you notice gray lines or outlines around the textured"
+" object, particularly where the image is transparent, turn this value "
+"down from 1.0 to 0.1 or so."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:158
+msgid "Texture Filter Type"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:130
+msgid ""
+"Texture filter to use for image sampling. Just like a *pixel* represents "
+"a *pic* ture *el* ement, a *texel* represents a *tex* ture *el* ement. "
+"When a texture (2D texture space) is mapped onto a 3D model (3D model "
+"space), different algorithms can be used to compute a value for each "
+"pixel based on samplings from several texels."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:135
+msgid "Box"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:136
+msgid ""
+"A fast and simple nearest-neighbor interpolation known as Monte Carlo "
+"integration"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:143
+msgid "EWA (Elliptical Weighted Average)"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:138
+msgid ""
+"One of the most efficient direct convolution algorithms developed by Paul"
+" Heckbert and Ned Greene in the 1980s. For each texel, EWA samples, "
+"weights, and accumulates texels within an elliptical footprint and then "
+"divides the result by the sum of the weights."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:143
+#: ../../manual/render/blender_render/textures/types/image/options.rst:158
+msgid "Eccentricity"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:144
+msgid ""
+"Maximum Eccentricity. Higher values give less blur at distant/oblique "
+"angles, but is slower"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:152
+msgid "FELINE (Fast Elliptical Lines)"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:146
+msgid ""
+"Uses several isotropic probes at several points along a line in texture "
+"space to produce an anisotropic filter to reduce aliasing artifacts "
+"without considerably increasing rendering time."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:152
+msgid "Probes"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:150
+msgid ""
+"Number of probes to use. An integer between 1 and 256. Further reading: "
+"McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999) `Simple and Table "
+"Feline: Fast Elliptical Lines for Anisotropic Texture Mapping "
+"<http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__, WRL"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:158
+msgid "Area"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:155
+msgid "Area filter to use for image sampling."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:158
+msgid ""
+"Maximum Eccentricity. Higher values give less blur at distant/oblique "
+"angles, but is slower."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:160
+msgid "Filter Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:161
+msgid "The filter size used by MIP Map and Interpolation."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:164
+msgid "Minimum Filter Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:163
+msgid "Use Filter Size as a minimal filter value in pixels."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:167
+msgid "Image Mapping"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:171
+msgid "Image Mapping panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:174
+msgid ""
+"In the *Image Mapping* panel, we can control how the image is mapped or "
+"projected onto the 3D model."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:203
+msgid "Extension"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:178
+msgid "Extend"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:179
+msgid "Outside the image the colors of the edges are extended."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:182
+msgid "Clip"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:181
+msgid ""
+"Clip to image size and set exterior pixels as transparent. Outside the "
+"image, an alpha value of 0.0 is returned. This allows you to 'paste' a "
+"small logo on a large object."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:186
+msgid "Clip Cube"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:185
+msgid ""
+"Clips to cubic-shaped area around the images and sets exterior pixels as "
+"transparent. The same as Clip, but now the 'Z' coordinate is calculated "
+"as well. An alpha value of 0.0 is returned outside a cube-shaped area "
+"around the image."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:191
+#: ../../manual/render/blender_render/textures/types/image/options.rst:194
+msgid "Repeat"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:189
+msgid "The image is repeated horizontally and vertically."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:192
+msgid "X/Y repetition multiplier."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:194
+msgid "Mirror"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:194
+msgid ""
+"Mirror on X/Y axes. This buttons allow you to map the texture as a "
+"mirror, or automatic flip of the image, in the corresponding X and/or Y "
+"direction."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:203
+msgid "Checker"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:197
+msgid ""
+"Checkerboards quickly made. You can use the option *size* on the "
+"*Mapping* panel as well to create the desired number of checkers."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:200
+msgid "Even / Odd"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:201
+msgid "Set even/odd tiles"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:203
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:203
+msgid "Governs the distance between the checkers in parts of the texture size."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:209
+msgid "Crop Minimum / Crop Maximum"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/image/options.rst:206
+msgid ""
+"The offset and the size of the texture in relation to the texture space. "
+"Pixels outside this space are ignored. Use these to crop, or choose a "
+"portion of a larger image to use as the texture."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Enlarged Image texture without and with *Interpolation*"
+#~ msgstr ""
+

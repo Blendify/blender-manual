@@ -1,0 +1,766 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/particles/mode.rst:4
+msgid "Particle Edit Mode"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:6
+msgid ""
+"Using *Particle Edit Mode* you can edit the key-points (Keyframes) and "
+"paths of *Baked* :doc:`Hair </physics/particles/hair/index>`, "
+":doc:`Particle </physics/particles/index>`, :doc:`Cloth "
+"</physics/cloth/index>`, and :doc:`Soft Body </physics/soft_body/index>` "
+"simulations. (You can also edit and style hair before baking)."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:14
+msgid ""
+"Since working in Particle Edit Mode is pretty easy and very similar to "
+"working with vertices in the 3D View, we will show how to set up a "
+"particle system and then give a reference of the various functions."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:20
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/physics/particles/mode.rst:22
+msgid "Only Frames Baked to Memory are Editable!"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:24
+msgid ""
+"If you cannot edit the particles, check that you are not baking to a "
+":doc:`Disk Cache </physics/particles/emitter/cache>`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:29
+msgid "Setup for Hair Particles"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:31
+msgid "Create a *Hair* particle system."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:32
+msgid "Give it an initial velocity in the *Normal* direction."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:33
+msgid "Create a simulation"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:34
+msgid "Check the *Hair Dynamics* box."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:38
+msgid "Editing hair strands in Particle Edit Mode."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:42
+msgid "Setup for Particle, Cloth, and Soft Body Simulations"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:44
+msgid "Use *Emitter* particles, or a cloth/soft-body simulation"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:45
+msgid ""
+"Create a simulation by setting up objects and or emitters, set your time "
+"range (use a small range if you are just starting out and experimenting),"
+" set up the simulation how you want it, using :kbd:`Alt-A` to preview it."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:51
+msgid "Bake the Simulation"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:53
+msgid ""
+"Once you are happy with the general simulation, :doc:`bake "
+"</physics/particles/emitter/cache>` the simulation from object mode. The "
+"simulation must be baked to enable editing."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:58
+msgid "Edit the Simulation"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:60
+msgid ""
+"Switch to *Particle Edit* from the *Mode select menu* in the header of "
+"the *3D View* to edit the particle's paths/Keyframes. You may need to "
+"press :kbd:`T` from within the 3D View to see the *Particle Edit* panel. "
+"Move to the frame you want to edit and use the various *Particle Edit* "
+"tools to edit your simulation. Work slowly, previewing your changes with "
+":kbd:`Alt-A`, and save often so that you can go back to the previous "
+"version should something happen, or that you do not like the latest "
+"changes you have made."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:67
+msgid "To be able to clearly see what you are working on:"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:69
+msgid "Open the Options panel in the Tool shelf."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:70
+msgid ""
+"Select *Point select mode* (see below) in the header of the 3D View. This"
+" will display key points along the particle path."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:75
+msgid "Selecting"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:77
+msgid "Single: :kbd:`RMB`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:78
+msgid "All: :kbd:`A`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:79
+msgid "Linked: Move the mouse over a keypoint and press :kbd:`L`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:80
+msgid "Border select: :kbd:`B`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:81
+msgid "First/last: :menuselection:`Specials --> Select First / Select Last`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:83
+msgid "You may also use the *Select* Menu."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:85
+msgid "Selections"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:87
+msgid ""
+"Selections are extremely useful for modifying only the particles that you"
+" want. Hover over a particle path and press :kbd:`L` to link-select it, "
+"hover over the next and press :kbd:`L` to add that path to the selection."
+" To remove a path, hold :kbd:`Shift` and press :kbd:`L`. To Deselect all "
+"press :kbd:`A`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:92
+msgid ""
+"The method to select individual points is the same as in edit mode. "
+":kbd:`RMB` to select, :kbd:`Shift-RMB` to add/remove a point from the "
+"selection."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:97
+msgid "Select Random"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:99
+#: ../../manual/physics/particles/mode.rst:200
+#: ../../manual/physics/particles/mode.rst:230
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:103
+msgid "Select Modes"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:107
+msgid "Select Modes."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:109
+msgid "Path"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:110
+msgid "No keypoints are visible, you can select/deselect only all particles."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:111
+msgid "Point"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:112
+msgid "You see all of the keypoints."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:115
+msgid "Tip"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:114
+msgid ""
+"You can see and edit (including the brushes) only the tip of the "
+"particles, i.e. the last keypoint."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:118
+msgid "Brush"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:120
+#: ../../manual/physics/particles/mode.rst:182
+#: ../../manual/physics/particles/mode.rst:266
+#: ../../manual/physics/particles/mode.rst:287
+#: ../../manual/physics/particles/mode.rst:299
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst
+msgid "Mode:     Particle Edit Mode"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst
+msgid "Panel:    :menuselection:`Tool Shelf --> Tools --> Brush`"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:126
+msgid ""
+"With the buttons you can select the type of \"Comb\" utility you want to "
+"use."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:128
+msgid "None"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:129
+msgid "No special tool, just edit the keypoints as \"normal\" vertices."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:130
+msgid "Comb"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:131
+msgid "Moves the keypoints (similar to \"proportional editing\")."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:132
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:133
+msgid "Parallels visually adjacent segments."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:143
+msgid "Add"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:135
+msgid "Adds new particles."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:137
+msgid "Count"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:138
+msgid "The number of new particles per step."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:139
+msgid "Interpolate"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:140
+msgid "Interpolate the shape of new hairs from existing ones."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:141
+msgid "Steps"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:142
+msgid "Amount of brush steps"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:143
+msgid "Keys"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:144
+msgid "How many keys to make new particles with."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:145
+#: ../../manual/physics/particles/mode.rst:195
+msgid "Length"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:146
+msgid ""
+"Scales the segments, so it makes the hair longer with *Grow* or shorter "
+"with *Shrink*."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:151
+msgid "Puff"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:148
+msgid ""
+"Rotates the hair around its first keypoint (root). So it makes the hair "
+"stand up with *Add* or lay down with *Sub*."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:151
+msgid "Puff Volume"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:152
+msgid ""
+"Apply puff to unselected end-points, (helps maintain hair volume when "
+"puffing root)"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:154
+msgid "Cut"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:154
+msgid "Scales the segments until the last keypoint reaches the brush."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:164
+msgid "Weight"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:157
+msgid ""
+"This is especially useful for softbody animations, because the weight "
+"defines the softbody *Goal*. A keypoint with a weight of 1 will not move "
+"at all, a keypoint with a weight of 0 subjects fully to softbody "
+"animation. This value is scaled by the *GMin* to *GMax* range of softbody"
+" goals..."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:167
+msgid "Common Options"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:169
+msgid "Below the brush types, their settings appear:"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:171
+msgid "Radius :kbd:`F`"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:172
+msgid "Set the radius if the brush."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:173
+msgid "Strength :kbd:`Shift-F`"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:174
+msgid "Set the strength of the brush effect (not for Add brush)."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:177
+msgid "Add/Sub Grow/Shrink"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:176
+msgid "Sets the brush to add the effect or reverse it."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:180
+msgid "Options"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst
+msgid "Panel:    :menuselection:`Tool Shelf --> Tools --> Options`"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:191
+msgid "Deflect Emitter"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:189
+msgid "Hair particles only -- Do not move keypoints through the emitting mesh."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:191
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:192
+msgid "The distance to keep from the Emitter."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:197
+msgid "Keep"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:195
+msgid ""
+"Keep the length of the segments between the keypoints when combing or "
+"smoothing the hair. This is done by moving all the other keypoints."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:197
+msgid "Root"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:198
+msgid "Keep first key unmodified, so you cannot transplant hair."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:199
+msgid "Correct"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:201
+msgid "X Mirror"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:202
+msgid "Enable mirror editing across the local X axis."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:210
+msgid "Shape Object"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:204
+msgid "A mesh object which boundary is used by the *Shape Cut* tool."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:210
+msgid "Shape Cut"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:207
+msgid ""
+"This grooming tool trims hairs to a shape defined by the *Shape Object*. "
+"This is a quicker way of avoiding protruding hair sections from "
+"lengthening than using the cutting tool. It works especially well for "
+"characters with extensive fur, where working in a single plane with the "
+"cutting tool becomes tedious."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:212
+msgid "Shape Cut example."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:216
+msgid "Before."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:220
+msgid "After."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:224
+msgid "Draw"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:226
+msgid "Path Steps"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:227
+msgid "Drawing steps, sets the smoothness of the drawn path."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:229
+msgid "Fade Time"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:229
+msgid "Frames"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:235
+msgid "Show Children"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:232
+msgid ""
+"Draws the children of the particles too. This allows to fine tune the "
+"particles and see their effects on the result, but it may slow down your "
+"system if you have many children."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:238
+msgid "Editing"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:240
+msgid "Beware of Undo!"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:242
+msgid ""
+"Using *Undo* in *Particle Edit Mode* can have strange results. Remember "
+"to save often!"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:246
+msgid "Moving keypoints or particles"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:248
+msgid ""
+"To move selected keypoints press :kbd:`G`, or use one of the various "
+"other methods to grab vertices."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:249
+msgid ""
+"To move a particle root you have to turn off Keep *Root* in the Tool "
+"Shelf."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:250
+msgid ""
+"You can do many of the things like with vertices, including scaling, "
+"rotating and removing (complete particles or single keys)."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:252
+msgid ""
+"You may not duplicate or extrude keys or particles, but you can subdivide"
+" particles which adds new keypoints :menuselection:`Specials --> "
+"Subdivide` or :kbd:`Numpad2`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:255
+msgid ""
+"Alternatively you can rekey a particle :menuselection:`Specials --> "
+"Rekey` or :kbd:`Numpad1` and choose the number of keys."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:258
+msgid ""
+"How smoothly the hair and particle paths are displayed depends on the "
+"*Path Steps* setting in the Tool Shelf. Low settings produce blocky "
+"interpolation between points, while high settings produce a smooth curve."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:264
+msgid "Mirror"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst
+msgid "Menu:     :menuselection:`Particle --> Mirror`"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:272
+msgid ""
+"If you want to create an X-Axis symmetrical haircut you have to do "
+"following steps:"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:274
+msgid "Select all particles with :kbd:`A`."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:275
+msgid ""
+"Mirror the particles with :kbd:`Ctrl-M`, or use the "
+":menuselection:`Particle --> Mirror` menu."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:276
+msgid "Turn on *X-Axis Mirror Editing* in the *Particle* menu."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:278
+msgid ""
+"It may happen that after mirroring two particles occupy nearly the same "
+"place. Since this would be a waste of memory and rendertime, you can "
+"*Remove doubles* either from the *Specials* :kbd:`W` or the *Particle* "
+"menu."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:285
+msgid "Unify Length"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst
+msgid ""
+"Menu:     :menuselection:`Particle --> Unify Length`, "
+":menuselection:`Specials --> Unify Length`"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:293
+msgid ""
+"This tool is used to make all selected hair uniform length by finding the"
+" average length."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:297
+msgid "Show/Hide"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst
+msgid "Menu:     :menuselection:`Particle --> Show/Hide`"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:305
+msgid ""
+"Hiding and unhiding of particles works similar as with vertices in the 3D"
+" View. Select one or more keypoints of the particle you want to hide and "
+"press :kbd:`H`. The particle in fact does not vanish, only the key "
+"points."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:309
+msgid ""
+"Hidden particles (i.e. particles whose keypoints are hidden) do not react"
+" on the various brushes. But:"
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:312
+msgid ""
+"If you use *Mirror Editing* even particles with hidden keypoints may be "
+"moved, if their mirrored counterpart is moved."
+msgstr ""
+
+#: ../../manual/physics/particles/mode.rst:315
+msgid "To un-hide all hidden particles press :kbd:`Alt-H`."
+msgstr ""
+
+#~ msgid "Select *Point select mode*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "First/last: :kbd:`W` --> *Select First* / *Select Last*."
+#~ msgstr ""
+
+#~ msgid "**Setup for Hair Particles**"
+#~ msgstr ""
+
+#~ msgid "**Setup for Particle, Cloth, and Soft Body Simulations**"
+#~ msgstr ""
+
+#~ msgid "**Bake the Simulation**"
+#~ msgstr ""
+
+#~ msgid "**Edit the Simulation**"
+#~ msgstr ""
+
+#~ msgid "Turn on the *Particle Edit Properties* (*PEP*) panel with :kbd:`N`."
+#~ msgstr ""
+
+#~ msgid "Editing hair strands in Particle Mode"
+#~ msgstr ""
+
+#~ msgid "Editing a baked particle simulation's particle paths in Particle Mode"
+#~ msgstr ""
+
+#~ msgid "Keep first key unmodified, so you can't transplant hair."
+#~ msgstr ""
+
+#~ msgid "Ways to use Particle Mode"
+#~ msgstr ""
+
+#~ msgid "Turn on the *Particle Edit Properties* panel with :kbd:`N`."
+#~ msgstr ""
+
+#~ msgid "Press :kbd:`F` to resize the brush while working"
+#~ msgstr ""
+
+#~ msgid "Using Particle Mode"
+#~ msgstr ""
+
+#~ msgid "Selecting Points"
+#~ msgstr ""
+
+#~ msgid "Mirroring particles"
+#~ msgstr ""
+
+#~ msgid "To un-hide all hidden particles press Alt+H."
+#~ msgstr ""
+
+#~ msgid "Sets the brush to add the effect or reverse it.."
+#~ msgstr ""
+
+#~ msgid "Deflect Emitter, Dist"
+#~ msgstr ""
+
+#~ msgid "Particle Mode"
+#~ msgstr ""
+
+#~ msgid "Editing hair strands in Particle Mode."
+#~ msgstr ""
+
+#~ msgid "Editing a baked particle simulation's particle paths in Particle Mode."
+#~ msgstr ""
+
+#~ msgid "Open the *Particle Edit Properties* panel with :kbd:`N`."
+#~ msgstr ""
+
+#~ msgid "First/last: :kbd:`W` :menuselection:`--> Select First / Select Last`."
+#~ msgstr ""
+
+#~ msgid "Mirroring Particles"
+#~ msgstr ""
+
+#~ msgid "Hiding/Unhiding"
+#~ msgstr ""
+
+#~ msgid "Menu:     :menuselection:`Specials --> Unify Length`"
+#~ msgstr ""
+
+#~ msgid "Common Options:"
+#~ msgstr ""
+
+#~ msgid "Radius"
+#~ msgstr ""
+
+#~ msgid "Brush Size"
+#~ msgstr ""
+
+#~ msgid "Press :kbd:`F` to resize the brush while working."
+#~ msgstr ""
+
+#~ msgid "Strength"
+#~ msgstr ""
+
+#~ msgid "Deflect Emitter,"
+#~ msgstr ""
+
+#~ msgid "Do not move keypoints through the emitting mesh."
+#~ msgstr ""
+
+#~ msgid "Enable mirror editing across the local x axis."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Editing a baked particle simulation's "
+#~ "particle paths in Particle Edit Mode."
+#~ msgstr ""
+

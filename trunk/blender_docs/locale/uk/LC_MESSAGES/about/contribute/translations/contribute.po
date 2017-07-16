@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# FULL NAME <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-13 19:45+0300\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/about/contribute/translations/contribute.rst:5
+msgid "Contribute"
+msgstr "Зроблення внеску"
+
+#: ../../manual/about/contribute/translations/contribute.rst:7
+msgid "On this page French (``fr``) is used for examples, however, it can be replaced with other `languages codes <https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__."
+msgstr "На цій сторінці код французької (``fr``) використовується для прикладів, однак, він може бути замінений іншими `кодами мов <https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__."
+
+#: ../../manual/about/contribute/translations/contribute.rst:10
+msgid "To see which languages are currently available, you can browse the repository: https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale"
+msgstr "Для перегляду, які мови поточно доступні, можна подивитися у репозиторії: https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale"
+
+#: ../../manual/about/contribute/translations/contribute.rst:15
+msgid "First of all, it is assumed that you have the manual already building. If you have not done this already go back too the :ref:`Getting Started <about-getting-started>` section."
+msgstr "Перш за все, тут вважається, що ви вже вибудували цей довідник локально. Якщо ви це ще не зробили, то поверніть у секцію :ref:`Почин <about-getting-started>`."
+
+#: ../../manual/about/contribute/translations/contribute.rst:21
+msgid "Installing your Language Files"
+msgstr "Установлення ваших мовних файлів"
+
+#: ../../manual/about/contribute/translations/contribute.rst:25
+msgid "Be sure to change the ``/fr`` suffixes to the language you are translating!"
+msgstr "Переконайтеся, що змінили суфікси ``/fr`` на мову, яку будете перекладати!"
+
+#: ../../manual/about/contribute/translations/contribute.rst:27
+msgid "You can remove the suffix to check out all languages too, however, this will be a much larger download."
+msgstr "Ви можете вилучити взагалі ці суфікси для установлення всіх доступних мов, однак, це буде набагато довше завантажуватися."
+
+#: ../../manual/about/contribute/translations/contribute.rst:29
+msgid "From the directory containing your checkout of the manual run::"
+msgstr "З теки, що містить вашу відладку цього довідника, запустіть::"
+
+#: ../../manual/about/contribute/translations/contribute.rst:33
+msgid "This will create a ``locale/fr`` subdirectory."
+msgstr "Це створить підтеку ``locale/fr``."
+
+#: ../../manual/about/contribute/translations/contribute.rst:35
+msgid "You should have a directory layout like this::"
+msgstr "Ви повинні отримати таку розставу тек:"
+
+#: ../../manual/about/contribute/translations/contribute.rst:45
+msgid "A PO Editor"
+msgstr "Редактор PO Editor"
+
+#: ../../manual/about/contribute/translations/contribute.rst:47
+msgid "To make edit the PO files you will need to install a PO editor. We recommended that you use `Poedit <https://poedit.net/>`__ however, any PO editor will do."
+msgstr "Для редагування файлів PO ви повинні інсталювати редактор PO editor. Ми рекомендуємо використовувати редактор `Poedit <https://poedit.net/>`__ , однак, ви можете використати будь-який редактор цього формату (PO) файлів."
+
+#: ../../manual/about/contribute/translations/contribute.rst:53
+msgid "For Linux users you will have to check with your distribution's software center for a version of Poedit."
+msgstr "Для користувачів Linux ви маєте перевірити, щоб завантажити відповідну до виду операційної системи версію Poedit."
+
+#: ../../manual/about/contribute/translations/contribute.rst:58
+msgid "Building with Translations"
+msgstr "Вибудування з Перекладами"
+
+#: ../../manual/about/contribute/translations/contribute.rst:62
+msgid "This is optional, translations are automatically built online, eg: https://docs.blender.org/manual/fr/dev/"
+msgstr "Це факультативно, переклади автоматично вибудовуються онлайн, наприклад: https://docs.blender.org/manual/fr/dev/"
+
+#: ../../manual/about/contribute/translations/contribute.rst:65
+msgid "This is quite involved, so it is not be expected that translators should be doing their own builds locally."
+msgstr "Це повністю визначено, а тому не очікується, що перекладчі повинні робити свої побудови локально."
+
+#: ../../manual/about/contribute/translations/contribute.rst:69
+msgid "Now you can build the manual with the translation applied::"
+msgstr "Тепер ви можете вибудувати цей довідник із застосованим до нього перекладом::"
+
+#: ../../manual/about/contribute/translations/contribute.rst:73
+msgid "If you are on MS-Windows and do not have ``make``, run::"
+msgstr "Якщо ви на MS-Windows і не маєте ``make``, запустіть::"
+
+#: ../../manual/about/contribute/translations/contribute.rst:77
+msgid "Now you will have a build of the manual with translations applied."
+msgstr "Тепер ви будете мати побудову довідника із застосованим перекладом."
+
+#: ../../manual/about/contribute/translations/contribute.rst:81
+msgid "Editing Translation Files"
+msgstr "Редагування Файлів Перекладу"
+
+#: ../../manual/about/contribute/translations/contribute.rst:83
+msgid "Now you can edit the PO translation files, eg:"
+msgstr "Тепер ви можете редагувати файли перекладу РО, наприклад:"
+
+#: ../../manual/about/contribute/translations/contribute.rst:85
+msgid "Original RST File"
+msgstr "Початковий файл RST"
+
+#: ../../manual/about/contribute/translations/contribute.rst:86
+msgid "``manual/getting_started/about_blender/introduction.rst``"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:88
+msgid "Generated PO File"
+msgstr "Генерований файл РО"
+
+#: ../../manual/about/contribute/translations/contribute.rst:88
+msgid "``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:90
+msgid "The modified ``.po`` files can be edited and committed back to svn."
+msgstr "Модифіковані файли ``.po`` можуть бути відредаговані та зафіксовані назад у svn."
+
+#: ../../manual/about/contribute/translations/contribute.rst:94
+msgid "Maintenance"
+msgstr "Підтримування"
+
+#: ../../manual/about/contribute/translations/contribute.rst:99
+msgid "Keeping track of fuzzy strings"
+msgstr "Відстежуйте нечіткі рядки"
+
+#: ../../manual/about/contribute/translations/contribute.rst:101
+msgid "When the manual is updated, those translations which are outdated will be marked as fuzzy. To keep track with that, you can use a tool we created for that task."
+msgstr "Коли цей довідник оновлюється, ці переклади, які не актуальні, будуть позначені, як нечіткі (fuzzy). Для відстеження цього ви можете використати інструмент, який ми створили для цього."
+
+#: ../../manual/about/contribute/translations/contribute.rst:104
+msgid "You can do this by running::"
+msgstr "Ви можете для цього запустити::"
+
+#: ../../manual/about/contribute/translations/contribute.rst:109
+msgid "This will only give a quick summary however, you can get more information by running::"
+msgstr "Це дасть тільки швидке узагальнення, однак, ви можете отримати більше інформації, запустивши::"
+
+#: ../../manual/about/contribute/translations/contribute.rst:113
+msgid "You should get a list of all the files with information about the number of empty and fuzzy strings. For more options see::"
+msgstr "Ви повинні отримати список усіх цих файлів з інформацією про кількість порожніх та нечітких рядків. Детальніше дивіться::"
+
+#: ../../manual/about/contribute/translations/contribute.rst:121
+msgid "Instructions on this page are based on `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__"
+msgstr "Вказівки на цій сторінці базуються на `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__"
+
+#: ../../manual/about/contribute/translations/contribute.rst:123
+msgid "The `translation design task <https://developer.blender.org/T43083>`__ for discussion on the process."
+msgstr "`Завдання розробки перекладу <https://developer.blender.org/T43083>`__ для обговорення цього процесу."
+
+#: ../../manual/about/contribute/translations/contribute.rst:128
+msgid "Updating PO Files"
+msgstr "Оновлення PO файлів"
+
+#: ../../manual/about/contribute/translations/contribute.rst:130
+msgid ""
+"As the original manual changes, the templates will need updating. Note, doing this is not required, as administrator usually update the files for all languages at once. This allows all languages to be on the same version of the manual. However, if you need to update the files yourself, it can be done as "
+"follows::"
+msgstr "Після змін початкового довідника, шаблони потребують оновлення. Зауважте, це не обов'язково робити, оскільки адміністратор зазвичай оновлює файли для всіх мов за раз. Це дозволяє бути усім мовам однакової версії для довідника. Однак, якщо ви потребуєте оновити ці файли самі, то можете зробити наступне::"
+
+#: ../../manual/about/contribute/translations/contribute.rst:138
+msgid "The updated templates can then be committed to svn."
+msgstr "Оновлені шаблони можуть бути далі зафіксовані у svn."
+
+#: ../../manual/about/contribute/translations/contribute.rst:140
+msgid "*TODO: document how to handle files being added/removed/moved.*"
+msgstr "*ЗРОБИТИ: документ, як обробляти файли, що були додані/вилучені/переміщені.*"
+
+#~ msgid "Download the tools/ folder::"
+#~ msgstr "Téléchargez le dossier tools/ ::"
+
+#~ msgid "Now execute::"
+#~ msgstr "Maintenant exécutez ::"
+
+#~ msgid "This can be done as follows::"
+#~ msgstr "Ceci peut se réaliser comme suit ::"
+
+#~ msgid "Dependencies"
+#~ msgstr "Installation des dépendances"
+
+#~ msgid "Your Language Repository"
+#~ msgstr "Téléchargement du dépôt"
+
+#~ msgid "To create the ``.mo`` files (needed for building translation)::"
+#~ msgstr "Pour créer les fichiers ``.mo`` (nécessaires pour construire la traduction) :"

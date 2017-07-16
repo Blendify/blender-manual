@@ -1,0 +1,235 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:4
+msgid "Expression Controller"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:6
+msgid ""
+"This controller evaluates a user written expression, and gives a positive"
+" (TRUE) output when The result of the expression is TRUE, and The object "
+"is in the designated State. For all other conditions the controller gives"
+" a negative (FALSE) output."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:14
+msgid "Expression Controller."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:18
+msgid "Expression"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:20
+msgid ""
+"The expression, which is written in the box, can consist of variables, "
+"constants and operators. These must follow the rules laid out below."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:25
+msgid "Variables"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:27
+msgid "You can use:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:29
+msgid "*sensors names*,"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:30
+msgid ""
+"*properties* : assign a game property to an object and use it in a "
+"controller expression."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:32
+msgid "These cannot contain blank spaces."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:36
+msgid "Operations"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:39
+msgid "Mathematical operations"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:41
+msgid "Operators: ``*``, ``/``, ``+``, ``-``"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:43
+msgid "Returns: a number"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:45
+msgid "Examples: ``3 + 2``, ``35 / 5``"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:49
+msgid "Logical operations"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:51
+msgid "Comparison operators: ``<``, ``>``, ``>=``, ``<=``, ``==``, ``!=``"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:52
+msgid "Booleans operators: ``AND``, ``OR``, ``NOT``"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:54
+msgid "Returns: ``True`` or ``False``."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:56
+msgid "Examples: ``3 > 2 (True)``, ``1 AND 0 (False)``"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:60
+msgid "Conditional statement (if)"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:62
+msgid "Use::"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:67
+msgid "If the controller evaluates ``expression`` to True:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:69
+msgid ""
+"if ``pulse_if_expression_is_true`` is ``True``, the controller sends a "
+"positive pulse to the connected actuators."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:70
+msgid ""
+"if ``pulse_if_expression_is_true`` is ``False``, the controller sends a "
+"negative pulse to the connected actuators."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:72
+msgid "If the controller evaluates ``expression`` to False:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:74
+msgid ""
+"if ``pulse_if_expression_is_false`` is ``True``, the controller sends a "
+"positive pulse to the connected actuators."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:75
+msgid ""
+"if ``pulse_if_expression_is_false`` is ``False``, the controller sends a "
+"negative pulse to the connected actuators."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:79
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:81
+msgid "Given the object has a property ``coins`` equal to 30::"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:85
+msgid ""
+"returns True (the controller sends a positive pulse to the connected "
+"actuators)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:88
+msgid "Given the object has:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:90
+msgid "a sensor called ``Key_Inserted`` equal to True,"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:91
+msgid "a property named ``Fuel`` equal to False,"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:98
+msgid ""
+"returns False (the controller sends a negative pulse to the connected "
+"actuators)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:100
+msgid "This is the same as doing::"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:105
+msgid "Instead, you could do::"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:110
+msgid "to return a positive pulse when ``Key_Inserted AND Fuel`` returns False."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:112
+msgid "You can also do::"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:116
+msgid ""
+"This expression returns True, hence in this case the controller sends a "
+"positive pulse to the connected actuators."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:121
+msgid "Parts of the Expression Controller"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:125
+msgid "The Expression to calculate."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/expression.rst:129
+msgid ""
+"See :ref:`standard controller parts <standard-controller-parts>` for "
+"descriptions of the remaining options."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "**sensors names**,"
+#~ msgstr ""
+
+#~ msgid "Expression."
+#~ msgstr ""
+
+#~ msgid "Use:"
+#~ msgstr ""
+
+#~ msgid "Given the object has a property ``coins`` equal to 30:"
+#~ msgstr ""
+
+#~ msgid "This is the same as doing:"
+#~ msgstr ""
+
+#~ msgid "Instead, you could do:"
+#~ msgstr ""
+
+#~ msgid "You can also do:"
+#~ msgstr ""
+

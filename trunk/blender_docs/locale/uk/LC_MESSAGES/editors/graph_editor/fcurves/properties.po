@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:4
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:7
+msgid "Active F-Curve Panel"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:11
+msgid "Active F-Curve Panel."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:13
+msgid "This panel displays properties for the active *F-Curve*."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:15
+msgid "Channel Name"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:16
+msgid "*ID Type* + Channel name (X Location)."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:17
+msgid "RNA Path"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:18
+msgid "*RNA Path* to property + Array index."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:28
+msgid "Color Mode"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:20
+msgid "*Color Mode* for the active *F-Curve*."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:22
+msgid "Auto Rainbow"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:23
+msgid "Increment the *hue* of the *F-Curve* color based on the channel index."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:24
+msgid "Auto XYZ to RGB"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:25
+msgid ""
+"For property sets like location XYZ, automatically set the set of colors "
+"to red, green, blue."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:28
+msgid "User Defined"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:27
+msgid "Define a custom color for the active *F-Curve*."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:31
+msgid "Active Keyframe Panel"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:35
+msgid "Active Keyframe Panel."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:38
+msgid "Interpolation"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:39
+msgid ""
+"Set the forward :ref:`editors-graph-fcurves-settings-interpolation` for "
+"the active keyframe."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:40
+msgid "Easing"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:41
+msgid "See :ref:`editors-graph-fcurves-settings-easing`."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:45
+msgid "Key"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:43
+msgid "Frame"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:44
+msgid "Set the frame for the active keyframe."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:45
+msgid "Value"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:46
+msgid "Set the value for the active keyframe."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:53
+msgid "Left/Right Handle"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:48
+msgid ""
+"Set the position of the left/right interpolation handle for the active "
+"keyframe."
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:53
+msgid "Handle Type"
+msgstr ""
+
+#: ../../manual/editors/graph_editor/fcurves/properties.rst:51
+msgid "See :ref:`editors-graph-fcurves-settings-handles`."
+msgstr ""
+

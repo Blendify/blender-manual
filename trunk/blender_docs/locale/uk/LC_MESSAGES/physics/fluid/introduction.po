@@ -1,0 +1,108 @@
+#
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/fluid/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/physics/fluid/introduction.rst:6
+msgid ""
+"Fluid physics are used to simulate physical properties of liquids especially "
+"water. While creating a scene in Blender, certain objects can be marked to "
+"participate in the fluid simulation. These can include but not limited to, "
+"being a fluid or as an obstacle. For a fluid simulation you have to have a "
+"domain to define the space that the simulation takes up. In the domain "
+"settings you will be able to define the global simulation parameters (such "
+"as viscosity and gravity)."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:14
+msgid "Example of Fluid Simulation."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:18
+msgid "Workflow"
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:20
+msgid "In general, you follow these steps:"
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:23
+msgid ""
+"First you want to set the :doc:`simulation domain </physics/fluid/types/"
+"domain>`,"
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:25
+msgid ""
+"Next set the :doc:`fluid source(s) </physics/fluid/types/fluid_object>`, and "
+"specify there physical properties."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:27
+msgid ""
+"In some cases you may want to set other objects to :doc:`Control the Flow </"
+"physics/fluid/types/flow>` of the fluid."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:29
+msgid ""
+"You can also depending on your scene add other objects related to the fluid, "
+"like: :doc:`Obstacles </physics/fluid/types/obstacle>`, :doc:`Particles </"
+"physics/fluid/types/particle>` floating on the fluid."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:32
+msgid ""
+"And lastly you must :doc:`Bake the Simulation </physics/fluid/types/domain>`."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:35
+msgid "Baking is done on the Domain object!"
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:37
+msgid ""
+"When you calculate the fluid simulation, you bake the simulation on the "
+"domain object."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:39
+msgid "For this reason:"
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:41
+msgid ""
+"All the baking options are visible only when selecting the Domain Object,"
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:42
+msgid ""
+"Baking options are explained in the :ref:`the baking section <fluid-baking>` "
+"of the Domain manual page."
+msgstr ""
+
+#: ../../manual/physics/fluid/introduction.rst:47
+msgid ""
+"To know more about simulating fluids in Blender you can read the :doc:"
+"`fluids appendix </physics/fluid/appendix>`. There you can find the "
+"limitations and workarounds, and some additional links."
+msgstr ""
+
+#~ msgid ":doc:`Obstacles </physics/fluid/types/obstacle>`,"
+#~ msgstr ":doc:`Obstacles </physics/fluid/types/obstacle>`,"
