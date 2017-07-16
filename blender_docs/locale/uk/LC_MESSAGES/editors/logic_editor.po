@@ -1,0 +1,170 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/logic_editor.rst:4
+msgid "Logic Editor"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:6
+msgid ""
+"The Logic Editor provides the main method of setting up and editing the "
+"game logic for the various actors (i.e. objects) that make up the game. "
+"The logic for the objects which are currently selected in the associated "
+"3D View are displayed as logic bricks, which are shown as a table with "
+"three columns, showing sensors, controllers, and actuators, respectively."
+" The links joining the logic bricks conduct the pulses between sensor-"
+"controller and controller-actuator."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:13
+msgid ""
+"To give you a better understanding of the Logic Editor, the image below "
+"shows a typical editor content in which the major components have been "
+"labeled. We will look at each one individually."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:19
+msgid "The different parts of the Logic Editor."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:21
+msgid ""
+"1) Property Region, 2) Object Name, 3a) Links, 3b) Link socket, 4) Sensor"
+" column, 5) Controller Column, 6) Actuator Column."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:26
+msgid "Main view"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:28
+msgid "Object Name"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:29
+msgid "This box shows the name of the object which owns the logic bricks below."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:45
+msgid "Links"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:31
+msgid ""
+"Links (3A) indicate the direction of logical flow between objects. Link "
+"lines are drawn by :kbd:`LMB` dragging from one Link socket (3B) to "
+"another. Links can only be drawn from Sensors to Controllers, or from "
+"Controllers to Actuators. You cannot directly link Sensors to Actuators; "
+"likewise, Actuators cannot be linked back to Sensors (however, special "
+"actuator and sensor types are available to provide these connections)."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:38
+msgid ""
+"Sending nodes (the black circles found on the right-hand side of Sensors "
+"and Controllers) can send to multiple Reception nodes (the white circles "
+"found on the left-hand side of Controllers and Actuators). Reception "
+"nodes can likewise receive multiple links."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:43
+msgid ""
+"Links can be created between logic bricks belonging to different objects."
+" To delete a link between two nodes, :kbd:`LMB` drag between the two "
+"nodes."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:48
+msgid "Sensor Column"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:50
+msgid ""
+"This column contains a list of all sensors owned by the active object "
+"(and any other selected objects). New sensors for the active object are "
+"created using the \"Add Sensor\" button. For a more in-depth look at the "
+"content, layout and available operations in this area, see :doc:`Sensors "
+"</game_engine/logic/sensors/introduction>`."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:57
+msgid "Controller Column"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:59
+msgid ""
+"This column contains a list of all controllers owned by the active object"
+" (and any other selected objects). New controllers for the active object "
+"are created using the \"Add Controller\" button, together with the "
+"creation of states for the active object. For a more in-depth look at the"
+" content, layout, and available operations in this area, see "
+":doc:`Controllers </game_engine/logic/controllers/introduction>`."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:67
+msgid "Actuator Column"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:69
+msgid ""
+"This column contains a list of all actuators owned by the active object "
+"(and any other selected objects). New actuators for the active object are"
+" created using the \"Add Actuator\" button. For a more in-depth look at "
+"the content, layout, and available operations in this area, see "
+":doc:`Actuators </game_engine/logic/actuators/introduction>`."
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:76
+msgid "Property Region"
+msgstr ""
+
+#: ../../manual/editors/logic_editor.rst:78
+msgid ""
+"Game properties are like variables in other programming languages. They "
+"are used to save and access data associated with an object. Several types"
+" of properties are available. Properties are declared by clicking the "
+"*Add Game Property* button in this region. For a more in-depth look at "
+"the content, layout and available operations in this region, see "
+":doc:`Properties </game_engine/logic/properties>`."
+msgstr ""
+
+#~ msgid "TODO."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "The different parts of the Logic Panel."
+#~ msgstr ""
+
+#~ msgid "Game Property Area"
+#~ msgstr ""
+
+#~ msgid "Sensor Area"
+#~ msgstr ""
+
+#~ msgid "Controller Area"
+#~ msgstr ""
+
+#~ msgid "Actuator Area"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "1) Property Region, 2) Object Name, "
+#~ "3a) Links, 3b) Link socket, 4) "
+#~ "Sensor column, 5) Controller Column, 6)"
+#~ " Actuator Column"
+#~ msgstr ""
+

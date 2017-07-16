@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:4
+msgid "Add Node"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:9
+msgid "Add Node."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:11
+msgid "The *Add* node is used to add to *Shaders* together."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:15
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:18
+msgid "Shaders"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:18
+msgid "Standard shader inputs."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:21
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:23
+msgid "This node has no properties."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:27
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:31
+msgid "Shader"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:30
+msgid "Standard shader output."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:34
+msgid "Example"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/add.rst:38
+msgid "A mix of a glossy and a diffuse shader makes a nice ceramic material."
+msgstr ""
+<<<<<<< .mine
+msgstr "Un mélange d'un shader *glossy* et d'un shader *diffuse* fait un joli matériau céramique. "
+||||||| .r1620
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Shader inputs"
+#~ msgstr ""
+
+#~ msgid "Fac input"
+#~ msgstr ""
+
+#~ msgid "Shader output"
+#~ msgstr ""
+
+#~ msgid "Mixed shader."
+#~ msgstr ""
+
+#~ msgid "Add"
+#~ msgstr ""
+
+=======
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Shader inputs"
+#~ msgstr ""
+
+#~ msgid "Fac input"
+#~ msgstr ""
+
+#~ msgid "Shader output"
+#~ msgstr ""
+
+#~ msgid "Mixed shader."
+#~ msgstr ""
+
+#~ msgid "Add"
+#~ msgstr ""
+
+#~ msgid "The *Add* node is uses to add to *Shaders* together."
+#~ msgstr ""
+
+>>>>>>> .r1625

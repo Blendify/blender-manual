@@ -1,0 +1,900 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:4
+msgid "Stroke Edit Mode"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:6
+msgid ""
+"Enter Stroke Edit Mode with the *Mode* select menu in the 3D Views header"
+" or toggle the *Enable Editing* in the Grease Pencil panel *(only "
+"available in 2D editors such as UV-Image editor, Node editor, etc.)*, or "
+"use :kbd:`D-Tab`. In this mode, many common editing tools will operate on"
+" Grease Pencil stroke points instead."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:11
+msgid ""
+"These tools let you move and reshape grease pencil strokes after they "
+"have been drawn."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:13
+msgid ""
+"Open the Grease Pencil tab on the Tool Shelf. Look for the tools in the "
+"Edit Strokes panel shown here:"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:18
+msgid "Edit panel with grease pencil strokes."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:22
+msgid "Selecting"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:24
+msgid ""
+"Grease pencil strokes are formed from a series of connected vertex "
+"points. To make changes, first select points on the strokes that you want"
+" to edit. You can only select points on the active layer. The selected "
+"points are highlighted as in the image above."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:31
+msgid "Set the layer's *Stroke Thickness* to 1 to make the points more visible."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:34
+msgid ""
+"Use the mouse to select the points, or one of the selection buttons in "
+"the panel as detailed in :doc:`Basic Selection "
+"</modeling/meshes/selecting/introduction>`."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:37
+msgid ""
+"Various selection functions similar to those available when editing "
+"meshes can be used:"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:42
+msgid "Select All"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:43
+msgid ":kbd:`A`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:44
+msgid "Border Select"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:45
+msgid ":kbd:`B`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:46
+msgid "Circle Select"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:47
+msgid ":kbd:`C`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:48
+msgid "Lasso Select"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:49
+msgid ":kbd:`Ctrl-LMB`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:50
+msgid "Select Linked"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:51
+msgid ":kbd:`L`, :kbd:`Ctrl-L`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:52
+msgid "Select More"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:53
+msgid ":kbd:`Ctrl-NumpadPlus`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:54
+msgid "Select Less"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:55
+msgid ":kbd:`Ctrl-NumpadMinus`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:56
+msgid "Select Stroke"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:57
+msgid ":kbd:`Alt-LMB`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:61
+msgid "Editing"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:64
+msgid "Header"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:66
+msgid "Some tools can be access through the 3D View header. e.g. Copy/Paste."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:68
+msgid "Onion Skinning"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:69
+msgid "Toggles :ref:`grease-pencil-onion`."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:72
+msgid "Selection Mask, Alpha"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:71
+msgid "See `Further Options`_."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:77
+msgid "Menu"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:80
+msgid "Shrink/Flatten :kbd:`Alt-S`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:80
+msgid ""
+"Adjust the pressure values of selected stroke points. This provides a way"
+" to modify the thickness of strokes by moving the mouse or the "
+":kbd:`Wheel`."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:84
+msgid "Delete All Active Frame :kbd:`D-X`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:83
+msgid ""
+"Deletes all strokes in the active frame. It can be accessed using "
+":kbd:`D-X` (anywhere), as well as :kbd:`Shift-X` (Edit Strokes Mode only)"
+" or the :menuselection:`GPencil --> Delete` menu. This makes it easier to"
+" quickly get rid of throwaway scribbles."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:88
+msgid "Move to Layer :kbd:`M`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:87
+msgid "Can be used to move strokes between layers (including to a new layer)."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:91
+msgid "Edit Strokes Panel"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:93
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:168
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst
+msgid "Mode:     Edit Stroke Mode"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst
+msgid "Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Edit Strokes`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst
+msgid "Menu:     :menuselection:`GPencil`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:100
+msgid "Copy :kbd:`Ctrl-C`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:101
+msgid ""
+"Copies the selected Grease Pencil strokes (or actually, points and "
+"segments)."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:102
+msgid "Paste :kbd:`Ctrl-V`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:103
+msgid "Pastes the previously copied strokes."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:105
+msgid "Paste & Merge"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:105
+msgid "Pastes the previously copied strokes and merge in active layer."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:114
+msgid "Delete :kbd:`X`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:108
+msgid "Points"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:109
+msgid "Delete the selected points, leaving a gap in the stroke."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:110
+msgid "Dissolve"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:111
+msgid "Reconnect the ends so there is no gap in the stroke."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:112
+msgid "Strokes"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:113
+msgid "Delete the entire stroke containing any selected points."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:114
+msgid "Frame"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:115
+msgid ""
+"Delete a frame when doing :doc:`Animating Sketches "
+"</interface/grease_pencil/drawing/layers>`."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:117
+msgid "Duplicate :kbd:`Shift-D`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:117
+msgid ""
+"Make a copy of the selected points at the same location. Use the mouse to"
+" *Translate* them into position. :kbd:`LMB` places them at their new "
+"position. :kbd:`RMB` cancels and removes the duplicates."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:120
+msgid "Toggle Cyclic"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:120
+msgid ""
+"Close or open the selected stroke by adding an edge from the last to "
+"first point."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:122
+msgid "Bend :kbd:`Shift-W`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:123
+msgid "Bends selected item between the 3D cursor and the mouse."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:124
+msgid "Mirror :kbd:`Ctrl-M`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:125
+msgid "Mirrors selected strokes along one or more axises."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:126
+msgid "Shear :kbd:`Shift-Ctrl-Alt-S`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:127
+msgid "Shears selected items along the horizontal screen axis."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:129
+msgid "To Sphere :kbd:`Shift-Alt-S`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:129
+msgid "Move selected vertices outward in a spherical shape around the midpoint."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:133
+msgid "Arrange Strokes"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:132
+msgid ""
+"Arranges the selection of strokes up/down in the drawing order of the "
+"active layer."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:134
+msgid "Bring Froward, Send Backward, Bring to Front, Send to Back"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:135
+msgid "Move to Color"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:136
+msgid "Sets the active color as the new color to all selected strokes."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:144
+msgid "Interpolate"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:138
+msgid "Interpolate `Ctrl-Alt-E`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:139
+msgid "Interpolates grease pencil strokes between frames."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:140
+msgid "Sequence `Shift-Ctrl-E`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:141
+msgid "Interpolates full grease pencil strokes sequence between frames."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:142
+msgid "Interpolate All Layers"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:143
+msgid "Checkbox to interpolates all layers, not only active."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:144
+msgid "Interpolate Selected Strokes"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:145
+msgid "Checkbox to interpolates only the selected strokes in the original frame."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:152
+msgid "Join Strokes"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:150
+msgid "Type"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:148
+msgid "Join `Ctrl-J`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:149
+msgid "Joins selected strokes."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:150
+msgid "Join & Copy `Shift-Ctrl-J`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:151
+msgid "Joins selected strokes as a new stroke."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:152
+msgid "Leave Gaps"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:153
+msgid "Leaves gaps between joined strokes instead of linking them."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:154
+msgid "Flip Direction"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:155
+msgid "Flips the start and end of a stroke."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:158
+msgid "Show Directions"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:157
+msgid ""
+"Displays stroke drawing direction with a bigger green dot of the start "
+"point and a smaller red dot for the end point."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:163
+msgid "Reproject Strokes"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:161
+msgid ""
+"Reprojects the selected strokes from the current viewpoint to get all "
+"points on the same plane again. This can be useful to fix problem from "
+"accidental 3D cursor movement, or viewport changes."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:166
+msgid "Sculpt Strokes Panel"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst
+msgid "Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Sculpt Strokes`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst
+msgid "Menu:     :menuselection:`GPencil --> Sculpt Strokes/Brushes`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst
+msgid "Hotkey:   :kbd:`E-LMB`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:177
+msgid ""
+"Several tools for editing Grease Pencil strokes are provided in the form "
+"of brushes which you can use to \"paint\" or \"sculpt\" the appearance of"
+" the strokes without having to keep doing a tedious select-tweak-select-"
+"tweak pattern of edits."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:181
+msgid "Hold :kbd:`E-LMB` and drag to sculpt."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:185
+msgid "Brushes"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:187
+msgid "The brushes currently implemented are:"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:193
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:190
+msgid ""
+"Allows you to selectively relax jitter/shake and bumpiness, to tidy up "
+"messy parts of your sketches."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:193
+msgid "Affect Pressure"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:193
+msgid "Use this option to perform smoothing on stroke thickness values."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:196
+msgid "Thickness"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:196
+msgid ""
+"The Thickness Brush can be used to increase (Add) or decrease (Subtract) "
+"the thickness of the parts of the stroke under the cursor."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:198
+msgid "Strength"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:199
+msgid ""
+"Increase/decrease (:kbd:`Ctrl`) the alpha value of the stroke, E.g. for "
+"creating fading effects."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:201
+msgid "Grab"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:201
+msgid ""
+"Takes the stroke points which fall within the brush circle when the "
+"sculpting action begins, and allows you to translate this set of points."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:207
+msgid "Push"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:204
+msgid ""
+"The Push Brush is very similar to the Grab brush, in that it also allows "
+"the user to translate stroke points. However, unlike the Grab Brush, the "
+"Push Brush is not restricted to operating only on the first set of points"
+" which were under the brush when the sculpt action was initiated. "
+"Instead, on each brush movement, the points currently under the brush get"
+" moved based on the amount the brush has moved since the last time it was"
+" evaluated."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:211
+msgid "Twist"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:210
+msgid ""
+"Used to twist/rotate points around the cursor, creating a \"swirling\" "
+"effect. It is useful for applying low levels of distortion to stroke "
+"points. The *Direction* controls whether the points are rotated in a "
+"clockwise (CW) or anti-clockwise (CCW) direction."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:218
+msgid "Pinch/Inflate"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:214
+msgid "Used to draw points away from the cursor, or towards it."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:216
+msgid "Pinch"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:217
+msgid "Draw points towards the cursor."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:218
+msgid "Inflate"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:219
+msgid "Push points away from the cursor."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:221
+msgid "Randomize"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:221
+msgid ""
+"Randomizes the stoke attributes. e.g. with *Position* enabled it "
+"displaces the points randomly in screen space to create jittered/jagged "
+"lines."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:239
+msgid "Clone Brush"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:224
+msgid ""
+"Used to paste the previously copied points (in the Copy/Paste buffer on "
+"the active layer), located at the point where you clicked."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:227
+msgid ""
+"Hold :kbd:`LMB` and drag to position and adjust the pasted strokes. The "
+"strokes center follows the movements of the brush/cursor (\"Stamp "
+"Mode\")."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:233
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:252
+msgid "Use Falloff"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:231
+msgid ""
+"When the *Use Falloff* option is enabled, instead of moving all the newly"
+" pasted strokes by the same amount, only the points that are currently "
+"under the cursor get affected. Thus, this in this mode of operation, the "
+"brush is closer to a Paste and Push operation instead (\"Stamp and "
+"Smudge\")."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:242
+msgid "Common Options"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:245
+msgid "Radius :kbd:`Shift-F`/:kbd:`Wheel`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:245
+msgid ""
+"The size of the brush. Increase/decrease brush size with :kbd:`Shift-F` "
+"when not sculpting or with :kbd:`Wheel` while sculpting (i.e. with the "
+"pen tip down, or mouse button held)."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:248
+msgid "Strength :kbd:`Ctrl-F`/:kbd:`Shift-Wheel`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:248
+msgid ""
+"The Strength off the brush, can be changed by the pressure of the stylus."
+" (In/decrease see *Radius*)."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:251
+msgid ""
+"Enables a linear falloff to calculate the influence of the brush on a "
+"point. That is, a point closer to the midpoint of the brush (i.e. the "
+"point under the cursor) will get affected more than the ones at the "
+"edges."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:254
+msgid "Direction :kbd:`E-Ctrl-LMB`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:255
+msgid "Radio button to invert the brush effect."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:258
+msgid "Affect"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:257
+msgid ""
+"Enable sculpt for position, strength (alpha value) and thickness in "
+"Smooth and Randomize brush."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:261
+msgid "Further Options"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:263
+msgid "Selection Mask"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:264
+msgid "Used to restrict the brush to only operating on the selected points."
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:268
+msgid "Alpha :kbd:`Ctrl-H`"
+msgstr ""
+
+#: ../../manual/interface/grease_pencil/stroke_edit.rst:266
+msgid ""
+"Alpha value of the visualization for selected vertices. The visibility "
+"can be toggled (hide/unhide) using :kbd:`Ctrl-H`."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Enters or exits the edit mode (:kbd:`D-Tab`)."
+#~ msgstr ""
+
+#~ msgid "*Delete* (:kbd:`X`)"
+#~ msgstr ""
+
+#~ msgid "*Duplicate* (:kbd:`Shift-D`)"
+#~ msgstr ""
+
+#~ msgid "*Translate* (:kbd:`G`) *Rotate* (:kbd:`R`) *Scale* (:kbd:`S`)"
+#~ msgstr ""
+
+#~ msgid "enter the grease pencil edit mode"
+#~ msgstr ""
+
+#~ msgid "select some strokes"
+#~ msgstr ""
+
+#~ msgid "move and reshape them"
+#~ msgstr ""
+
+#~ msgid "*Delete* :kbd:`X`"
+#~ msgstr ""
+
+#~ msgid "Points - delete the selected points, leaving a gap in the stroke"
+#~ msgstr ""
+
+#~ msgid "Dissolve - reconnect the ends so there is no gap in the stroke"
+#~ msgstr ""
+
+#~ msgid "Strokes - delete the entire stroke containing any selected points"
+#~ msgstr ""
+
+#~ msgid "*Duplicate* :kbd:`Shift-D`"
+#~ msgstr ""
+
+#~ msgid "*Translate* :kbd:`G` *Rotate* :kbd:`R` *Scale* :kbd:`S`"
+#~ msgstr ""
+
+#~ msgid "Choose from:"
+#~ msgstr ""
+
+#~ msgid "Points - delete the selected points, leaving a gap in the stroke."
+#~ msgstr ""
+
+#~ msgid "Dissolve - reconnect the ends so there is no gap in the stroke."
+#~ msgstr ""
+
+#~ msgid "Strokes - delete the entire stroke containing any selected points."
+#~ msgstr ""
+
+#~ msgid "Translate :kbd:`G` Rotate :kbd:`R` Scale :kbd:`S`"
+#~ msgstr ""
+
+#~ msgid "Stroke Edit"
+#~ msgstr ""
+
+#~ msgid "Enter the Grease Pencil Edit Mode."
+#~ msgstr ""
+
+#~ msgid "Edit Mode"
+#~ msgstr ""
+
+#~ msgid "Enable Editing"
+#~ msgstr ""
+
+#~ msgid "Enters or exits the edit mode :kbd:`D-Tab`."
+#~ msgstr ""
+
+#~ msgid "Select"
+#~ msgstr ""
+
+#~ msgid "Edit"
+#~ msgstr ""
+
+#~ msgid "Translate: :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`"
+#~ msgstr ""
+
+#~ msgid "Sensitivity When Drawing"
+#~ msgstr ""
+
+#~ msgid "Manhattan Distance"
+#~ msgstr ""
+
+#~ msgid "Euclidean Distance"
+#~ msgstr ""
+
+#~ msgid "Eraser Radius"
+#~ msgstr ""
+
+#~ msgid "The size of the eraser \"brush\"."
+#~ msgstr ""
+
+#~ msgid "Smooth Stroke"
+#~ msgstr ""
+
+#~ msgid "Simplify Stroke"
+#~ msgstr ""
+
+#~ msgid "Additional Notes For Tablet Users"
+#~ msgstr ""
+
+#~ msgid "The \"eraser\" end of the stylus can be used to erase strokes."
+#~ msgstr ""
+
+#~ msgid "Brushes"
+#~ msgstr ""
+
+#~ msgid "Join Stokes"
+#~ msgstr ""
+
+#~ msgid "The basic steps are:"
+#~ msgstr ""
+
+#~ msgid "Enter Stroke Edit Mode."
+#~ msgstr ""
+
+#~ msgid "Select some strokes."
+#~ msgstr ""
+
+#~ msgid "Move and reshape them."
+#~ msgstr ""
+
+#~ msgid ":kbd:`Ctrl-L`"
+#~ msgstr ""
+
+#~ msgid "Copy"
+#~ msgstr ""
+
+#~ msgid "Copies selected Grease Pencil points and strokes."
+#~ msgstr ""
+
+#~ msgid "Paste"
+#~ msgstr ""
+
+#~ msgid "Moves the selected strokes to active color."
+#~ msgstr ""
+
+#~ msgid "Sequence"
+#~ msgstr ""
+
+#~ msgid "Interpolates all layers, not only active."
+#~ msgstr ""
+
+#~ msgid "Interpolates only the selected strokes in the original frame."
+#~ msgstr ""
+
+#~ msgid "Join"
+#~ msgstr ""
+
+#~ msgid "Join & Copy"
+#~ msgstr ""
+
+#~ msgid "Common Options:"
+#~ msgstr ""
+
+#~ msgid "Radius"
+#~ msgstr ""
+
+#~ msgid "The size of the brush."
+#~ msgstr ""
+
+#~ msgid "Stamp Mode"
+#~ msgstr ""
+
+#~ msgid "Stamp + Smudge"
+#~ msgstr ""
+
+#~ msgid "Continuous"
+#~ msgstr ""
+
+#~ msgid "Alpha"
+#~ msgstr ""
+
+#~ msgid "Alpha value for selected vertices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enter Stroke Edit Mode with the "
+#~ "*Mode* select menu in the 3D Views"
+#~ " header or toggle the *Enable "
+#~ "Editing* in the Grease Pencil panel(only"
+#~ " available in 2D editors such as "
+#~ "UV-Image editor, Node editor, etc.), "
+#~ "or use :kbd:`D-Tab`. In this mode, "
+#~ "many common editing tools will operate"
+#~ " on Grease Pencil stroke points "
+#~ "instead."
+#~ msgstr ""
+

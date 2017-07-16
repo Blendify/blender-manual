@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:4
+msgid "Push/Pull"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst
+msgid "Mode:     Object and Edit Modes"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> "
+"Push/Pull`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst
+msgid "Menu:     :menuselection:`Object/Mesh --> Transform --> Push Pull`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:16
+msgid "Push/Pull distance."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:19
+msgid ""
+"*Push/Pull* will move the selected elements (Objects, vertices, edges or "
+"faces) closer together (Push) or further apart (Pull). Specifically, each"
+" element is moved towards or away from the center by the same distance. "
+"This distance is controlled by moving the mouse up (Push) or down (Pull),"
+" numeric input or through slider control."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:26
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:28
+msgid ""
+"Select the elements you want to operate on and activate the Push/Pull "
+"transform function. The Push/Pull option can be invoked from the "
+":menuselection:`Object/Mesh --> Transform --> Push/Pull` menu option or "
+"by pressing :kbd:`Spacebar` and using the search menu to search for "
+"*Push* or *Pull*. The amount of movement given to the selection can be "
+"determined interactively by moving the mouse or by typing a number. "
+"Pressing :kbd:`Enter` will confirm the transformation. The confirmed "
+"transformation can be further edited by pressing :kbd:`F6` or by going "
+"into the Tool Shelf :kbd:`T` and altering the Distance slider provided "
+"that no other actions take place between the *Push/Pull* transform "
+"confirmation and accessing the slider."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:38
+msgid ""
+"Note that the result of the *Push/Pull* transform is also dependant on "
+"the number and type of selected elements (Objects, vertices, faces etc). "
+"See below for the result of using *Push/Pull* on a number of different "
+"elements."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:44
+msgid "Equidistant Objects being pushed together."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:48
+msgid "Random Objects being pushed together."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:52
+msgid "Vertices being pushed together, then pulled apart."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/transform/push_pull.rst:56
+msgid "Edges on separate meshes being pushed together, then pulled apart."
+msgstr ""
+
+#~ msgid ""
+#~ "Select the elements you want to "
+#~ "operate on and activate the Push/Pull"
+#~ " transform function. The Push/Pull option"
+#~ " can be invoked from the "
+#~ ":menuselection:`Object/Mesh --> Transform --> "
+#~ "Push/Pull` menu option or by pressing"
+#~ " :kbd:`Spacebar` and using the search "
+#~ "menu to search for *Push* or "
+#~ "*Pull*. The amount of movement given "
+#~ "to the selection can be determined "
+#~ "interactively by moving the mouse or "
+#~ "by typing a number. Pressing "
+#~ ":kbd:`Return` will confirm the transformation."
+#~ " The confirmed transformation can be "
+#~ "further edited by pressing :kbd:`F6` or"
+#~ " by going into the Tool Shelf "
+#~ ":kbd:`T` and altering the Distance "
+#~ "slider provided that no other actions"
+#~ " take place between the *Push/Pull* "
+#~ "transform confirmation and accessing the "
+#~ "slider."
+#~ msgstr ""
+

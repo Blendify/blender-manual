@@ -1,0 +1,883 @@
+#
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/settings/render.rst:4
+msgid "Render Settings"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:9
+msgid "Camera Properties."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:12
+msgid ""
+"The camera (or cameras) used in a Blender game have a wide-ranging effect on "
+"the way in which the game is rendered and displayed. Mostly this is "
+"controlled using the Properties panel of the camera(s) used in the game."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:16
+msgid ""
+"There are two separate game \"players\" for previewing the game during "
+"development. The Embedded Player renders onto the 3D scene pane in the "
+"Blender GUI using the current perspective and zoom level of the 3D preview. "
+"The Standalone Player renders the scene from the perspective of the active "
+"scene camera and either creates a new desktop window or switches into "
+"fullscreen rendering mode. Note that while the Game Engine is running in "
+"either player, the computer's mouse and keyboard are captured by the game "
+"and by default, the mouse cursor is not visible. To exit the game, press the "
+"<ESC> key."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:26
+msgid "Render Engine"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:28
+msgid ""
+"Make sure that the render engine is set to Blender Game when attempting to "
+"set these controls, otherwise this description will not tally with what you "
+"see!"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:32
+msgid ""
+"In the Camera Properties area, there are seven panels available, as shown. "
+"Each can be expanded or contracted using the usual triangle button. The "
+"features in each panel will be described in detail below."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:38
+msgid "Embedded Player"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:43
+msgid "Embedded Player Panel."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:46
+msgid ""
+"This panel provides information for the Embedded Game Player which allows "
+"games to be run inside a Blender render pane."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:49
+msgid ""
+"Note that the *Resolution* settings are independent of the size of the "
+"viewport preview pane. In fact, the *Resolution* controls seem to have no "
+"effect at all. The resolution and aspect ratio of the embedded preview are "
+"always fixed to the 3D preview pane, which behaves much like the *Extend* "
+"framing mode for the standalone player as described below. The *Framing* "
+"selection under the *Display* heading has no effect on the embedded preview."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:56
+#: ../../manual/game_engine/settings/render.rst:97
+msgid "Start"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:57
+msgid ""
+"Starts the Game Engine inside the blender viewport preview pane. Shortcut :"
+"kbd:`P`."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:63
+#: ../../manual/game_engine/settings/render.rst:102
+msgid "Resolution"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:59
+#: ../../manual/game_engine/settings/render.rst:100
+msgid "X"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:60
+msgid "Sets the internal X rendering resolution."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:63
+#: ../../manual/game_engine/settings/render.rst:102
+msgid "Y"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:62
+msgid "Sets the internal Y rendering resolution."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:66
+msgid "Standalone Player"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:71
+msgid "Standalone Player Panel."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:74
+msgid ""
+"This panel provides information for the Standalone Game Player which allows "
+"games to be run without Blender. See :doc:`Standalone Player </game_engine/"
+"blender_player>` for further details."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:77
+msgid ""
+"The semantics of the Standalone Player *Resolution* controls differ for "
+"Windowed and Fullscreen modes. In Windowed mode (*Fullscreen* checkbox "
+"unchecked), the *Resolution* controls set the initial dimensions of the "
+"desktop window. The user may resize the window at any time, causing the "
+"rendering resolution to change accordingly. In Fullscreen mode (*Fullscreen* "
+"checkbox checked), the *Resolution* controls set the internal rendering "
+"resolution. The actual display resolution will be a best fit depending on "
+"the user's hardware. In either mode, the aspect ratio/cropping/scaling are "
+"determined by the *Framing* selection under the *Display* heading."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:86
+msgid ""
+"Regarding *Fullscreen* mode, it is important to remember that the "
+"*Resolution* settings in *Fullscreen* mode are only hints to the operating "
+"system. Each display and monitor combination will have a different set of "
+"resolutions that they are capable of displaying; so there can be little "
+"confidence that all end-users will actually get the resolution you suggest; "
+"unless you choose one of the most standard resolutions (e.g. 800x600 or "
+"1024x768). If you insist on using higher resolutions, then you may want to "
+"state clearly in your documentation that only certain resolutions are "
+"supported. In most other cases, the user's machine may select a resolution "
+"that is close to the one suggested; but the results can be unpredictable, "
+"especially in *Letterbox* mode."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:94
+msgid "Note that the *Desktop* checkbox has no effect in Windowed mode."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:98
+msgid "Lanuches the current .blend file with the Standalone Player."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:101
+msgid "Sets the X window size or full-screen display resolution."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:103
+msgid "Sets the Y window size or full-screen display resolution."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:107
+msgid "Fullscreen"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:105
+#: ../../manual/game_engine/settings/render.rst:110
+msgid "Off"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:106
+msgid "Opens standalone game as a new window."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:107
+#: ../../manual/game_engine/settings/render.rst:112
+msgid "On"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:108
+msgid "Opens standalone game in full-screen."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:112
+msgid "Desktop"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:111
+msgid ""
+"Attempts to obey the *Resolution* specified above when in *Fullscreen* mode."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:113
+msgid "Keeps the current desktop resolution when in *Fullscreen* mode."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:121
+msgid "Quality"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:115
+msgid "AA Samples"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:116
+msgid "The number of AA samples to use for MSAA."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:117
+msgid "Bit Depth"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:118
+msgid ""
+"Number of bits used to represent color of each pixel in full-screen display."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:121
+msgid "Refresh Rate"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:120
+msgid "Number of frames per second of full-screen display."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:124
+#: ../../manual/game_engine/settings/render.rst:138
+msgid "Stereo"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:129
+msgid "Stereo Panel."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:132
+msgid ""
+"Select a stereo mode that will be used to capture stereo images of the game "
+"(and also, by implication, that stereo displays will use to render images in "
+"the standalone player)."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:135
+msgid "None"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:136
+msgid "Render single images with no stereo."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:138
+msgid ""
+"Render dual images for stereo viewing using appropriate equipment. See :doc:"
+"`Stereo Camera </game_engine/camera/stereo>` for full details of available "
+"options."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:143
+msgid "Dome"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:141
+msgid ""
+"Provides facilities for an immersive dome environment in which to view the "
+"game. See :doc:`Dome Camera </game_engine/camera/dome>` for full details of "
+"available options."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:146
+msgid "Shading"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:151
+msgid "Shading Panel."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:154
+msgid ""
+"Specifies the shading mode to be used in rendering the game. The shading "
+"facilities available in Blender for use in :doc:`Materials </render/"
+"blender_render/materials/index>` and :doc:`Textures </render/blender_render/"
+"textures/index>` are essentially the same in the Blender Game Engine. "
+"However, the constraints of real-time display mean that only some of the "
+"facilities are available."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:160
+msgid "Multitexture"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:161
+msgid "Use Multitexture shading."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:164
+msgid "GLSL"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:163
+msgid "Use GLSL shading whenever possible for real-time image rendering."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:169
+msgid "System"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:171
+msgid ""
+"The *System* panel at the Render tab of the Properties editor lets the game "
+"developer specify options about the system performance regarding to frame "
+"discards and restrictions about frame renderings, the key to stop the "
+"Blender Game Engine, and whether to maintain geometry in the internal memory "
+"of the Graphic card."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:179
+msgid "System panel in the Render tab."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:186
+msgid "Use Frame Rate"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:183
+msgid ""
+"Respect the frame rate rather than rendering as many frames as possible. "
+"When unchecked, this will inform Blender to run freely without frame rate "
+"restrictions. The frame rate is specified at the *Display* panel in the "
+"*Render* tab of the Properties editor. For more information about frame "
+"rates, see the :ref:`Display panel <game-engine-settings-render-display>` "
+"page."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:191
+msgid "Display Lists"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:189
+msgid ""
+"Use display lists to speed up rendering by keeping geometry on the GPU. When "
+"checked, this will tell Blender to maintain the lists of the meshes geometry "
+"allocated at the GPU memory. This can help to speed up viewport rendering "
+"during the game if you have enough GPU memory to allocate geometry and "
+"textures."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:197
+msgid "Restrict Animation Updates"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:194
+msgid ""
+"Restrict number of animation updates to the animation FPS (this is better "
+"for performance but can cause issues with smooth playback). When checked, "
+"this will force the Game Engine to discard frames (even at the middle of "
+"redrawing, sometimes causing *tearing* artifacts) if the rate of frames "
+"rendered by the GPU is greater than the specified in the :ref:`Display panel "
+"<game-engine-settings-render-display>`."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:200
+msgid "Use Material Caching"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:200
+msgid ""
+"Cache materials in the converter. This is faster but can cause problems with "
+"older single-texture and multi-texture games."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:202
+msgid "Vsync"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:203
+msgid "Change Vsync settings."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:204
+msgid "Storage"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:205
+msgid "Set the storage node used by the rasterizer."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:208
+msgid "Exit Key"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:207
+msgid "This button specifies which keypress will exit the game."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:213
+msgid "Display"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:215
+msgid ""
+"The *Display* panel in the *Render* tab of the *Properties* editor lets the "
+"game developer specify the maximum frame rate of the animations shown during "
+"the game execution, whether to see informations like framerate and profile, "
+"debug properties, physics geometry visualization, warnings, whether the "
+"mouse cursor is shown during the game execution, and options to specify the "
+"framing style of the game to fit the window with the specified resolution."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:224
+msgid "Display panel at the Render tab."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:228
+msgid "Animation Frame Rate"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:228
+msgid ""
+"This number button/slider specify the maximum frame rate at which the game "
+"will run. Minimum is 1, maximum is 120."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:231
+msgid "Debug Properties"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:231
+msgid ""
+"When checked, the values of any properties which are selected to be debugged "
+"in the *Game Properties* panel will be shown with the *Framerate and "
+"Profile* contents."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:234
+msgid "Framerate and Profile"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:234
+msgid ""
+"When checked, this will show values for each of the calculations Blender is "
+"doing while the game is running, plus the properties marked to be debugged "
+"if *Debug Properties* above is also checked."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:236
+msgid "Physics visualization"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:237
+msgid ""
+"Shows a visualization of physics bounds and interactions (like hulls and "
+"collision shapes), and their interaction."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:240
+msgid "Deprecation Warnings"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:239
+msgid ""
+"Every time when the game developer uses a deprecated functionality (which in "
+"some cases are outdated or crippled OpenGL Graphic cards functions), the "
+"system will emit warnings about the deprecated function."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:242
+msgid "Mouse Cursor"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:243
+msgid "Whether to show or not the mouse cursor when the game is running."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:263
+msgid "Framing"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:245
+msgid ""
+"Selects how the scene is to be fitted onto the display window or screen. "
+"There are three types of framing available:"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:255
+msgid "Letterbox"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:250
+msgid "In Windowed mode:"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:250
+msgid ""
+"Maintains a 4:3 aspect ratio by scaling to fit the current window dimensions "
+"without cropping, covering any portions of the display that lie outside of "
+"the aspect ratio with color bars."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:255
+msgid "In Fullscreen mode:"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:253
+msgid ""
+"The behavior of this combination seems to be heavily dependent on the user's "
+"hardware. The result can be quite unpredictable, especially with resolutions "
+"and aspect ratios that differ too much from the machine's capabilities. For "
+"this reason, *Extend* mode should be preferred for *Fullscreen* applications."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:260
+msgid "Extend"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:258
+msgid ""
+"This mode behaves much like *Letterbox* mode, maintaining a 4:3 aspect ratio "
+"by scaling whenever possible; except that the camera frustrum is expanded or "
+"contracted wherever necessary to fill any portions of the display that lie "
+"outside of the aspect ratio, instead of covering those portions of the scene "
+"with color bars, as with *Letterbox* mode, or distorting then scene, as with "
+"*Scale* mode."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:263
+msgid "Scale"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:263
+msgid ""
+"In this mode, no attempt is made to maintain a particular aspect ratio. The "
+"scene and objects within will be stretched or squashed to fit the display "
+"exactly."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:267
+msgid "Color Bar"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:266
+msgid ""
+"This will let the game developer choose the bar colors when using the "
+"*Letterbox* Framing mode."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:272
+#: ../../manual/game_engine/settings/render.rst:283
+msgid "Bake"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:274
+msgid ""
+"The *Bake* panel in the *Render* tab of the *Properties* editor is very "
+"similar to its Blender Render couterpart and serves much the same purpose. "
+"See :doc:`Render Baking </render/blender_render/bake>` for further details."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:280
+msgid "Bake panel at the Render tab (showing different bake modes)."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:284
+msgid "Bake image textures of selected objects."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:315
+msgid "Bake Mode"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:286
+msgid "Shading information to bake into the image."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:288
+msgid "Full Render"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:289
+msgid "Bakes all materials, textures, and lighting except specularity and SSS."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:290
+msgid "Ambient Occlusion"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:291
+msgid ""
+"Bakes ambient occlusion as specified in the World panels. Ignores all lights "
+"in the scene."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:292
+msgid "Shadows"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:293
+msgid "Bakes shadows and lighting."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:294
+msgid "Normals"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:295
+msgid ""
+"Bakes tangent and camera-space normals (amongst many others) to an RGB image."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:296
+msgid "Textures"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:297
+msgid "Bakes colors of materials and textures only, without shading."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:299
+msgid "Displacement"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:299
+msgid ""
+"Similar to baking normal maps, displacement maps can also be baked from a "
+"high-res object to an unwrapped low-res object, using the Selected to Active "
+"option."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:301
+msgid "Derivative"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:302
+msgid "Bake derivative map."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:303
+msgid "Vertex Colors"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:304
+msgid "Bake vertex colors."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:305
+msgid "Emissions"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:306
+msgid "Bakes Emit, or the Glow color of a material."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:307
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:308
+msgid "Bakes Alpha values, or transparency of a material."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:309
+msgid "Mirror Intensity"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:310
+msgid "Bake mirror intensity values."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:311
+msgid "Mirror Colors"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:312
+msgid "Bake mirror colors."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:313
+msgid "Specular Intensity"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:314
+msgid "Bake specular intensity values."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:315
+msgid "Specular Colors"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:316
+msgid "Bake specular colors."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:317
+msgid "Bake from Multires"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:318
+msgid "Bake directly from Multires object."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:322
+msgid "Normalized"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:320
+msgid "In Displacement Mode:"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:321
+msgid "Normalize to the distance."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:322
+msgid "In Ambient Occlusion Mode:"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:323
+msgid "Normalize without using material’s settings."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:336
+msgid "Normal Space"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:325
+msgid "Normals can be baked in different spaces:"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:327
+msgid "Camera space"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:328
+msgid "Default method."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:329
+msgid "World space"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:330
+msgid ""
+"Normals in world coordinates, dependent on object transformation and "
+"deformation."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:332
+msgid "Object space"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:332
+msgid ""
+"Normals in object coordinates, independent of object transformation, but "
+"dependent on deformation."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:336
+msgid "Tangent space"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:335
+msgid ""
+"Normals in tangent space coordinates, independent of object transformation "
+"and deformation. This is the new default, and the right choice in most "
+"cases, since then the normal map can be used for animated objects too."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:338
+msgid "Bake to Vertex Color"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:339
+msgid "Bake to vertex colors instead of to a UV-mapped image."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:340
+msgid "Clear"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:341
+msgid ""
+"If selected, clears the image to selected background color (default is "
+"black) before baking render."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:342
+msgid "Margin"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:343
+msgid ""
+"Baked result is extended this many pixels beyond the border of each UV "
+"\"island\", to soften seams in the texture."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:349
+msgid "Selected to Active"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:345
+msgid "Bake shading on the surface of selected objects to the active object."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:347
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:348
+msgid "Maximum distance in blender units from active object to other object."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:349
+msgid "Bias"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:350
+msgid "Bias in blender units toward faces further away from the object."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:358
+msgid "Split"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:352
+msgid "The method used to split a quad into two triangles for baking."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:354
+msgid "Fixed"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:355
+msgid "Split quads predictably (0,1,2)(0,2,3)."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:356
+msgid "Fixed Alternate"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:357
+msgid "Split quads predictably (1,2,3)(1,3,0)."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:358
+msgid "Automatic"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:359
+msgid "Split quads to give the least distortion while baking."
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:362
+msgid "User Scale"
+msgstr ""
+
+#: ../../manual/game_engine/settings/render.rst:361
+msgid ""
+"Apply a custom scale to the derivative map instead of normalizing to the "
+"default (0.1)."
+msgstr ""
+
+#~ msgid "Game Panel."
+#~ msgstr "Panneau Embedded Player."
+
+#~ msgid "Standalone Panel."
+#~ msgstr "Panneau Standalone Player."

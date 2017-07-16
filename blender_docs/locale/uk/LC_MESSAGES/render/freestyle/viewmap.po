@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/freestyle/viewmap.rst:4
+msgid "Viewmaps"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst
+msgid ""
+"Panel:    :menuselection:`Properties editor --> Render Layer --> "
+"Freestyle`"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:13
+msgid "Freestyle panel."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:15
+msgid ""
+"There is only one viewmap per render layer. It controls the edge "
+"detection parameters."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:23
+msgid "Control Mode"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:18
+msgid ""
+"Which detected edges are actually rendered, and how, can be controlled "
+"either through:"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:20
+msgid "Parameter Editor Mode"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:21
+msgid ""
+"The user-friendly :doc:`parameter editor "
+"</render/freestyle/parameter_editor/index>`."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:23
+msgid "Python Scripting Mode"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:23
+msgid "Powerful but complex :doc:`Python scripting </render/freestyle/python>`."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:35
+msgid "View Map Cache"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:26
+msgid ""
+"A option to reuse a previously computed view map for subsequent "
+"rendering. The cache is automatically updated when the mesh geometry of "
+"the input 3D scene has been changed."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:29
+msgid ""
+"This functionality offers a major performance boost for Freestyle "
+"animation rendering when camera-space mesh geometry is static, as well as"
+" for repeated still renders with updates of line stylization options."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:33
+msgid ""
+"Although the ''View map cache'' checkbox is a render layer option, the "
+"cache memory is shared by all render layers and scenes. This means that "
+"if Freestyle is used for two or more render layers (possibly in different"
+" scenes through the compositor), then the cached view map for one render "
+"layer is replaced by a new view map for another render layer and hence no"
+" performance gain is expected."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:37
+msgid "Face Smoothness"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:38
+msgid ""
+"When enabled, *Smooth Shading* will be taken into account for edges "
+"calculation."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:41
+msgid "Crease Angle"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:40
+msgid ""
+"If two adjacent faces form an angle less than the defined *Crease Angle*,"
+" the edge between them will be rendered when using *Crease* edge type "
+"selection in a line set. The value also affects *Silhouette* edge type "
+"selection."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:46
+msgid "Culling"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:44
+msgid ""
+"Ignore the edges that are out of view (saves some processing time and "
+"memory, but may reduce the quality of the result in some cases)."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:49
+msgid "Advanced Options"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:53
+msgid "Advanced Options enabled."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:56
+msgid ""
+"*Sphere Radius* affects the calculation of curvatures for *Ridge*, "
+"*Valley* and *Suggestive Contour* edge type selection in a line set."
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:63
+msgid "Kr Derivative Epsilon"
+msgstr ""
+
+#: ../../manual/render/freestyle/viewmap.rst:60
+msgid ""
+"It provides you with control over the output of *Suggestive Contour* and "
+"*Silhouette* edge type selection (further information in `this pdf "
+"<https://wiki.blender.org/index.php/file:Manual-2.6-Render-Freestyle-"
+"PrincetownLinestyle.pdf>`__)."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Parameter Editor Mode UI"
+#~ msgstr ""
+
+#~ msgid "Parameter Editor Mode UI."
+#~ msgstr ""
+
+#~ msgid "Advanced Options."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Sphere Radius* It affects the "
+#~ "calculation of curvatures for *Ridge*, "
+#~ "*Valley* and *Suggestive Contour* edge "
+#~ "type selection in a line set."
+#~ msgstr ""
+

@@ -1,0 +1,266 @@
+#
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/metas/editing.rst:4
+msgid "Editing"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:7
+msgid "Active Element"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:9
+msgid ""
+"When in *Edit Mode*, the *Active Element* panel appears. These settings "
+"apply only to the selected meta element."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:15
+msgid "Active element panel."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:18
+msgid "Type"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:20
+msgid "The *Type* menu lets you change the shape of the meta object."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:24
+msgid "Stiffness"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:26
+msgid ""
+"Together with *Threshold*, *Stiffness* controls the influencing range. While "
+"the threshold is common to all metas in the same object (or even the same "
+"`Object Families`_), the stiffness is specific to each meta."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:31
+msgid ""
+"Scaling the inner green circle changes the *Stiffness* value. Stiffness "
+"defines how much the meta object is filled. This essentially defines how "
+"sensitive a meta is to being affected by other metas. With a low stiffness, "
+"the meta will begin to deform from further away. A higher value means the "
+"meta needs to be close to another one to begin merging."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:37
+msgid ""
+"When a *Meta* object comes within \"range\" of another meta, the two will "
+"begin to interact with each other. They do not necessarily need to "
+"intersect, and depending on the *Threshold* and *Stiffness* settings, they "
+"most likely will not need to. *Stiffness* is materialized by the *green ring*"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:43
+msgid ""
+"The range is from (0.0 to 10.0). But to be visible, the *Stiffness* must be "
+"slightly larger than the *Threshold* value. You can also visually adjust the "
+"*Stiffness* ring by using the :kbd:`RMB` to select it and activate *Scale* "
+"mode with :kbd:`S`."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:53
+msgid "Stiffness."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:56
+msgid ""
+"In Fig. :ref:`fig-meta-edit-stiffness`, the meta ball labeled \"A\", has a "
+"smaller *Stiffness* value than the one labeled \"B\". As you can see, the "
+"radius (green ring) is different for each of them."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:62
+msgid "Negative Influence"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:69
+msgid "Negative."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:72
+msgid ""
+"The opposite effect of a *positive* influence would be a *negative* "
+"influence: the objects repel each other. Fig. :ref:`fig-meta-ball-negative` "
+"shows a meta ball and a meta plane where the first is negative and the "
+"second, positive. Notice how the negative meta is not visible: only the "
+"surrounding circles appear. This is how Blender indicates that the object is "
+"negative."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:78
+msgid ""
+"Moving the sphere to the plane causes the plane's mesh to \"cave in\" or "
+"collapse inward. If you move the plane away from the sphere, the plane's "
+"mesh will restore itself."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:81
+msgid ""
+"To make a meta *negative*, just select the meta in edit mode, and check "
+"*negative* in the *active element* panel."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:86
+msgid "Hiding Elements"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:88
+msgid ""
+"As in :ref:`object-show-hide` in *Object Mode*, you can hide the selected "
+"meta(s), and then reveal what was hidden. This is very handy for cleaning "
+"your views up a bit... Note that the two red and green rings always remain "
+"visible in *Edit Mode*, as well as the select circle (in *Object Mode*...)."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:95
+msgid "Deleting Elements"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:97
+msgid ""
+"There is no *Erase* menu for metas, just a confirmation pop-up asking you if "
+"you want to delete the selected metas. Clear and simple!"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:103
+msgid "Conversion"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:108
+msgid "Convert Menu."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:111
+msgid ""
+"You can only convert metas to meshes, but here you have the option to keep "
+"the original *Meta* object (i.e. create a new *Mesh* one, instead of a \"real"
+"\" conversion...). Note that the resolution used for the new mesh is the "
+"*Wiresize* one, not the *Rendersize* one."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:117
+msgid ""
+"To convert the meta, press :kbd:`Alt-C` in *Object Mode*, and select *Mesh/"
+"Text*,"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:121
+msgid "Object Families"
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:123
+msgid ""
+"*Meta* objects have different behavior in *Object Mode* than other object "
+"types. They can be \"regrouped\" into so-called \"families\"."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:126
+msgid ""
+"A \"family\" is a way to regroup several meta objects, producing something "
+"very similar to having several metas inside the same object."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:129
+msgid ""
+"A family is defined by the left part of an object's name (the one before the "
+"dot). Remember, an object's name is the one in the *OB* field, in most "
+"panels, **not** the *MB* field, which is the meta data-block's name... For "
+"example, the *family* part of \"MetaPlane.001\" is ``MetaPlane``. Each meta "
+"object in the same \"family\" is associated with one another as discussed "
+"below."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:140
+msgid "Meta ball base."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:143
+msgid ""
+"Families of metas are controlled by a *base* meta object which is identified "
+"by an object name **without** a right number part. For example, if we have "
+"five metas called \"MetaThing\", \"MetaThing.001\", \"MetaThing.002\", "
+"\"MetaThing.003\" and \"MetaThing.004\", the *base* meta object would be "
+"\"MetaThing\"."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:149
+msgid ""
+"The *base* meta object determines the basis, the resolution, the threshold, "
+"*and* the transformations. It also has the material and texture area. The "
+"*base* meta is effectively the parent of (or perhaps a better word to use is "
+"\"the owner of\") the other metas in the group (i.e. it is as if the other "
+"metas were \"included\" or joined into the base one)."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:157
+msgid ""
+"When working with multiple scenes, take care naming your meta objects so the "
+"*base* is always in the same scene as other metas."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:160
+msgid ""
+"Failing to do this will give confusing behavior (invisible meta objects)."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:164
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/modeling/metas/editing.rst:166
+msgid ""
+"Fig. :ref:`fig-meta-ball-base` shows the *base* meta labeled \"B\". The "
+"other two *Meta* objects are *children*. Children's selection rings are "
+"always black, while the group's mesh is orange. Because the metas are "
+"grouped, they form a unified mesh which can always be selected by selecting "
+"the mesh of any meta in the group. For example, in Fig. :ref:`fig-meta-ball-"
+"base`, only the lower sphere (the parent) has been selected, and you see "
+"that both the parent's mesh *and* all of the children's meshes are now "
+"highlighted."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:179
+msgid "Scaling the \"base\"."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:182
+msgid ""
+"The *base* meta object controls the *polygonalization* (mesh structure) for "
+"the group, and as such, also controls the polygonalization for the children "
+"(non-base) metas. If we transform the *base* meta, the children's "
+"polygonalization changes. However, if we transform the children, the "
+"polygonalization remains unchanged."
+msgstr ""
+
+#: ../../manual/modeling/metas/editing.rst:189
+msgid ""
+"This discussion of \"polygonization\" does *not* mean that the various "
+"meshes do not deform towards or away from each other (meta objects always "
+"influence one another in the usual way, whether or not they are members of "
+"the same family). Rather, it means that the underlying mesh structure "
+"changes only when the *base* object transforms. For example, if you scale "
+"the *base*, the children's mesh structure changes. In Fig. :ref:`fig-meta-"
+"ball-scale`, the *base* has been scaled down, which has the effect of "
+"scaling the mesh structure of each of the children. As you can see, the "
+"children's mesh resolution has increased, while the *base* decreased. The "
+"children did *not* change size!"
+msgstr ""

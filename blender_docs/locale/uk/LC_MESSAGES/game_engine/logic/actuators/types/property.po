@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:5
+msgid "Property Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:7
+msgid ""
+"The *Property Actuator* changes the value of a given property once the "
+"actuator itself is activated."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:12
+msgid "Property Actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:16
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:18
+msgid ""
+"See :doc:`Actuator Common Options "
+"</game_engine/logic/actuators/common_options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:32
+msgid "Mode"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:21
+msgid "Assign"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:22
+msgid ""
+"The *Property* target property will become equal to the set *Value* once "
+"the actuator is activated"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:25
+msgid "Add"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:24
+msgid ""
+"Adds *Value* to the value of the property *Property* once the actuator is"
+" activated (enter a negative value to decrease). For *Bool*, a value "
+"other than 0 (also negative) is counted as True."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:27
+msgid "Copy"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:28
+msgid ""
+"Copies a property from another *Object* to a property of the actuator "
+"owner once the actuator is activated."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:29
+msgid "Toggle"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:30
+msgid ""
+"Switches 0 to 1 and any other number than 0 to 0 once the actuator is "
+"activated. Useful for on/off switches."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:32
+msgid "Level"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:32
+msgid "TODO."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:34
+msgid "Property"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:35
+msgid "The target property that this actuator will change."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:38
+msgid "Value"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:37
+msgid "The value to be used to change the property."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:41
+msgid "Example"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:43
+msgid ""
+"You have a character, it has a property called \"hp\" (hit points) to "
+"determine when he has taken enough damage to die. hp is an int with the "
+"start value of 100."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/property.rst:46
+msgid ""
+"You set up two *Collision* sensors, one for enemy bullets, and one for "
+"picking up more health. The first one is connected (through an *AND* "
+"controller) to an *Add Property* actuator with the property hp and the "
+"value -10. Every time the player is hit by an enemy bullet he loses 10 "
+"hp. The other sensor is connected (through an *AND* controller) to an "
+"other *Add Property* actuator, this one with the value 50. So every time "
+"the player collides with a health item the hp increases by 50. Next you "
+"set up a *Property* sensor for an interval, greater than 100. This is "
+"connected (through an *AND* controller) to an *Assign Property* actuator "
+"which is set to 100. So if the players hp increases over 100 it is set to"
+" 100."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "**Mode**"
+#~ msgstr ""
+
+#~ msgid "Property actuator"
+#~ msgstr ""
+
+#~ msgid "The target property that this actuator will change"
+#~ msgstr ""
+
+#~ msgid "The value to be used to change the property"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using the Property actuator you can "
+#~ "change the value of a given "
+#~ "property once the actuator itself is "
+#~ "activated."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`Actuator Common Options "
+#~ "</game_engine/logic/actuators/common_options>` for common"
+#~ " options."
+#~ msgstr ""
+
+#~ msgid "Special Options:"
+#~ msgstr ""
+
+#~ msgid "Property actuator."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the *Property* target property will "
+#~ "become equal to the set *Value* "
+#~ "once the actuator is activated"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "adds *Value* to the value of the"
+#~ " property *Property* once the actuator "
+#~ "is activated (enter a negative value "
+#~ "to decrease). For *Bool*, a value "
+#~ "other than 0 (also negative) is "
+#~ "counted as True."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "copies a property from another object"
+#~ " to a property of the actuator "
+#~ "owner once the actuator is activated."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "switches 0 to 1 and any other "
+#~ "number than 0 to 0 once the "
+#~ "actuator is activated. Useful for on/off"
+#~ " switches."
+#~ msgstr ""
+

@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:5
+msgid "Clouds"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:7
+msgid ""
+"Clouds represent Perlin noise. In addition, each noise-based Blender "
+"texture (with the exception of Voronoi and simple noise) has a \"Noise "
+"Basis\" setting that allows the user to select which algorithm is used to"
+" generate the texture. This is often used for Clouds, Fire, Smoke. Well-"
+"suited to be used as a Bump map, giving an overall irregularity to the "
+"material."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:14
+msgid "Clouds Texture Panels."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:18
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:20
+msgid "Greyscale"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:21
+msgid "The standard noise, gives an intensity"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:22
+msgid "Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:23
+msgid "The noise gives an RGB value"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:24
+msgid "Noise"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:25
+msgid "*Soft* or *Hard*, changes contrast and sharpness"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:26
+msgid "Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:27
+msgid "The dimension of the Noise table"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:31
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/types/procedural/clouds.rst:29
+msgid ""
+"The depth of the *Clouds* calculation. A higher number results in a long "
+"calculation time, but also in finer details."
+msgstr ""
+
+#~ msgid "Clouds Texture Panels"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Clouds represent Perlin noise. In "
+#~ "addition, each noise-based Blender "
+#~ "texture (with the exception of Voronoi"
+#~ " and simple noise) has a \"Noise "
+#~ "Basis\" setting that allows the user "
+#~ "to select which algorithm is used "
+#~ "to generate the texture."
+#~ msgstr ""
+
+#~ msgid "Often used for"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Clouds, Fire, Smoke. Well-suited to "
+#~ "be used as a Bump map, giving "
+#~ "an overall irregularity to the material."
+#~ msgstr ""
+
+#~ msgid "Result(s)"
+#~ msgstr ""
+
+#~ msgid "*Greyscale* (default) or RGB *Color*"
+#~ msgstr ""
+

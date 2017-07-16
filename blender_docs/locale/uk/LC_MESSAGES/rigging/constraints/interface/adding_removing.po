@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:4
+msgid "Adding/Removing a Constraint"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:6
+msgid ""
+"What is described on this page about Object Constraints can be also be "
+"applied on Bone Constraints."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:10
+msgid "Tab"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:12
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:34
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:58
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:72
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:87
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid "Mode:     Object Mode"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid "Menu:    :menuselection:`Properties Editor --> Constraint tab`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:18
+msgid ""
+"To add a constraint click on the *Add Object Constraint* menu in the "
+"Constraints tab."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:22
+msgid ""
+"To remove a constraint click on the \"X\" button in the :doc:`header "
+"</rigging/constraints/interface/header>`."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:27
+msgid "Menu"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:32
+msgid "Add Constraint (with Targets)"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid "Mode:     Object Mode and Pose Mode"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid ""
+"Menu:    :menuselection:`Object --> Constraint --> Add constraint (with "
+"Targets)`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid "Hotkey:   :kbd:`Ctrl-Shift-C`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:42
+msgid ""
+"Adds a constraint to the active object. The type of constraint must be "
+"chosen from a popup window, though it can be changed later from the *Add "
+"Constraint (with Targets)* Operator panel. If there is an other object "
+"selected besides the active one, that object will be the constraint "
+"target (if the chosen constraint accepts targets)."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:48
+msgid ""
+"When using a bone from another armature as the target for a constraint, "
+"the tool will look inside the non-active armature and use its active "
+"bone, provided that armature is in Pose Mode."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:56
+msgid "Copy Constraints to Selected"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid ""
+"Menu:     :menuselection:`Object --> Constraint --> Copy Constraints to "
+"Selected Objects`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:64
+msgid "Copies the active object Constraints to the rest of the selected objects."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:70
+msgid "Clear Constraints"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid ""
+"Panel:    :menuselection:`Object --> Constraint --> Clear Object "
+"Constraints`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid "Hotkey:   :kbd:`Ctrl-Alt-C`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:79
+msgid "Removes all Constraints of the selected object(s)."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:85
+msgid "Track"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid "Panel:    :menuselection:`Object --> Track`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst
+msgid "Hotkey:   :kbd:`Ctrl-T`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:94
+msgid ""
+"These tools add a tracking constraint :kbd:`Ctrl-T` to the selected "
+"objects; the target object of the constraint will be the active object, "
+"which won't have a constraint added."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:97
+msgid ""
+":doc:`Damped Track Constraint "
+"</rigging/constraints/tracking/damped_track>`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:98
+msgid ":doc:`Track To Constraint </rigging/constraints/tracking/track_to>`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:99
+msgid ":doc:`Lock Track Constraint </rigging/constraints/tracking/locked_track>`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:101
+msgid "Clear Track :kbd:`Alt-T`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:102
+msgid ""
+"Removes all Damped Track, Track To and Lock Track Constraints from the "
+"selected objects."
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:105
+msgid "Clear and Keep Transformation (Clear Track) :kbd:`Alt-T`"
+msgstr ""
+
+#: ../../manual/rigging/constraints/interface/adding_removing.rst:104
+msgid ""
+"Removes all Track Constraint from the selected objects, while keeping the"
+" final transform caused by them."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Click on the \"Add Constraint\" menu."
+#~ msgstr "Cliquez sur le menu \"Add Constraint\"."
+
+#~ msgid "To add a constraint in the 3D View:"
+#~ msgstr "Pour ajouter une contrainte dans la Vue 3D :"
+
+#~ msgid "Hotkey:   none"
+#~ msgstr "Raccourci :   aucun"
+

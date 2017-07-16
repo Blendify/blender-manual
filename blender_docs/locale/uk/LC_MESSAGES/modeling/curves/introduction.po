@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/curves/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/modeling/curves/introduction.rst:6
+msgid ""
+"Curves and :doc:`Surfaces </modeling/surfaces/introduction>` are particular "
+"types of Blender Objects. They are expressed by mathematical functions "
+"rather than a series of points."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:9
+msgid ""
+"Blender offers both :ref:`curve-bezier` and :ref:`curve-nurbs`. Both Bézier "
+"curves and NURBS curves and surfaces are defined in terms of a set of "
+"\"control points\" (or \"control vertices\") which define a \"control polygon"
+"\"."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:15
+msgid "Blender logo made from Bézier curves."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:18
+msgid ""
+"Both Bézier and NURBs curves are named after their mathematical definitions, "
+"and choosing between them is often more a matter of how they are computed "
+"behind the scenes than how they appear from a modeler's perspective. Bézier "
+"curves are generally more intuitive because they start and end at the "
+"control points that you set, but NURBs curves are more efficient for the "
+"computer to calculate when there are many twists and turns in a curve."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:24
+msgid ""
+"The main advantage to using curves instead of polygonal meshes is that "
+"curves are defined by less data and so can produce results using less memory "
+"and storage space at modeling time. However, this procedural approach to "
+"surfaces can increase demands at render time."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:28
+msgid ""
+"Certain modeling techniques, such as :doc:`extruding a profile along a path "
+"</modeling/curves/properties/geometry>`, are possible only using curves. On "
+"the other hand, when using curves, vertex-level control is more difficult "
+"and if fine control is necessary, :doc:`mesh editing </modeling/meshes/"
+"editing/introduction>` may be a better modeling option."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:34
+msgid ""
+"Bézier curves are the most commonly used curves for designing letters or "
+"logos."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:36
+msgid ""
+"They are also widely used in animation, both as for objects to move along "
+"(see constraints below) and as :doc:`F-Curves </editors/graph_editor/fcurves/"
+"introduction>` to change the properties of objects as a function of time."
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:41
+msgid "Modifiers & Constraints"
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:43
+msgid ":doc:`Curve Modifier </modeling/modifiers/deform/curve>`"
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:44
+msgid ""
+":doc:`Follow Path Constraint </rigging/constraints/relationship/follow_path>`"
+msgstr ""
+
+#: ../../manual/modeling/curves/introduction.rst:45
+msgid ":doc:`Clamp To Constraint </rigging/constraints/tracking/clamp_to>`"
+msgstr ""

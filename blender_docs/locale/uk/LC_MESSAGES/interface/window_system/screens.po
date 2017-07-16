@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/interface/window_system/screens.rst:4
+msgid "Screens"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:9
+msgid "The Screen data-block menu with pop-up."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:12
+msgid ""
+"*Screens* are essentially pre-defined window layouts. Blender's flexibility "
+"with areas lets you create customized working environments for different "
+"tasks such as modeling, animating, and scripting. It is often useful to "
+"quickly switch between different environments within the same file. See :doc:"
+"`area controls </interface/window_system/areas>` for how to move frame "
+"borders, split and consolidate areas."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:19
+msgid ""
+"The Screen data-block menu, that lets you select the layouts, is located in "
+"the *Info Editors* header."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:24
+msgid "Controls"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:26
+msgid "Screen Layout"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:27
+msgid "A list of available Screen layouts. See `Default Screens`_."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:29
+msgid "Add ``+``"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:29
+msgid ""
+"Click on the *Add* button and a new frame layout will be created based on "
+"your current layout."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:32
+msgid "Delete ``X``"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:32
+msgid "You can delete the selected screen by using the *Delete* button."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:36
+msgid ""
+"By default, each screen layout 'remembers' the last :doc:`scene </"
+"data_system/scenes/introduction>` it was used on. Selecting a different "
+"screen layout will switch to the layout **and** jump to that scene."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:41
+msgid "Shortcuts"
+msgstr "Raccourcis"
+
+#: ../../manual/interface/window_system/screens.rst:43
+msgid "To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:47
+msgid ""
+"On macOS you may need to disable the shortcuts for \"Mission Control\" in "
+"your computer's preferences. These can be found in :menuselection:`System "
+"Preferences --> Keyboard --> Shortcuts`."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:52
+msgid "Default Screens"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "3D View Full"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:54
+msgid "A full screen 3D View, used to preview your scene."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Animation"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:55
+msgid "Making actors and other objects move about, change shape or color, etc."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Compositing"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:56
+msgid ""
+"Combining different parts of a scene (e.g. background, actors, special "
+"effects) and filter them (e.g. color correction)."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Default"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:58
+msgid ""
+"The default layout used by Blender for new files. Useful for modeling new "
+"objects."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Game Logic"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:59
+msgid "Planning and programming of games within Blender."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Motion Tracking"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:60
+msgid "Used for motion tracking with the movie clip editor."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Scripting"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:61
+msgid ""
+"Documenting your work and/or writing custom scripts to automate Blender."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "UV Editing"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:62
+msgid ""
+"Flattening a projection of an object mesh in 2D to control how a texture "
+"maps to the surface."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Video Editing"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:63
+msgid "Cutting and editing of animation sequences."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:67
+msgid "Save and Override"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:69
+msgid ""
+"The screen layouts are saved in the blend-file. When you open a file, "
+"enabling the *Load UI* in the file browser indicates that Blender should use "
+"the file's screen layouts and overriding the current layout. See :ref:`Load "
+"UI <file-load-ui>`."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:74
+msgid ""
+"A custom set of screen layouts can be saved as a part of the :doc:`/"
+"data_system/files/startup_file`."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:78
+msgid "Additional Layouts"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:80
+msgid ""
+"As you become more experienced with Blender, consider adding some other "
+"screen layouts to suit your workflow as this will help increase your "
+"productivity. Some examples could include:"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Modeling"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:83
+msgid ""
+"Four 3D Views (top, front, side and perspective), Properties editor for "
+"Editing."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Lighting"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:84
+msgid ""
+"3D Views for moving lights, UV/Image editor for displaying Render Result, "
+"Properties editor for rendering and lamp properties and controls."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Materials"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:86
+msgid ""
+"Properties editor for Material settings, 3D View for selecting objects, "
+"Outliner, Library script (if used), Node Editor (if using :doc:`Node based "
+"materials </render/blender_render/materials/nodes/index>`)."
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst
+msgid "Painting"
+msgstr ""
+
+#: ../../manual/interface/window_system/screens.rst:89
+msgid ""
+"UV/Image Editor for texture painting image, 3D View for painting directly on "
+"object in UV Face Select mode, three mini-3D Views down the side that have "
+"background reference pictures set to full strength, Properties editor."
+msgstr ""

@@ -1,0 +1,430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:4
+msgid "Diffuse Shaders"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:6
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:60
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:92
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:128
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:167
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:203
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst
+msgid "Mode:     All Modes"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst
+msgid "Panel:    :menuselection:`Shading/Material --> Diffuse`"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:13
+msgid ""
+"A diffuse shader determines, simply speaking, the general color of a "
+"material when light shines on it. Most shaders that are designed to mimic"
+" reality give a smooth falloff from bright to dark from the point of the "
+"strongest illumination to the shadowed areas, but Blender also has other "
+"shaders for various special effects."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:21
+msgid "Common Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:23
+msgid "All diffuse shaders have the following options:"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:25
+msgid "Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:26
+msgid "Select the base *diffuse color* of the material."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:28
+msgid "Intensity"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:28
+msgid ""
+"The shader's brightness, or more accurately, the amount of incident light"
+" energy that is actually diffusely reflected towards the camera."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:33
+msgid "Ramp"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:31
+msgid ""
+"Allows you to set a range of colors for the *Material*, and define how "
+"the range will vary over a surface. See :doc:`Color Ramps "
+"</render/blender_render/materials/properties/ramps>` for details."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:36
+msgid "Technical Details"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:38
+msgid ""
+"Light striking a surface and then re-irradiated via a Diffusion "
+"phenomenon will be scattered, i.e., re-irradiated in all directions "
+"isotropically. This means that the camera will see the same amount of "
+"light from that surface point no matter what the *incident viewing angle*"
+" is. It is this quality that makes diffuse light *viewpoint independent*."
+" Of course, the amount of light that strikes the surface depends on the "
+"incident light angle. If most of the light striking a surface is "
+"reflected diffusely, the surface will have a matte appearance (Light re-"
+"irradiated in the diffusion phenomenon)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:49
+msgid "Light re-irradiated in the diffusion phenomenon."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:51
+msgid "Shader Names"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:53
+msgid ""
+"Some shaders are -- traditionally -- named after the people, who first "
+"introduced the models on which they are based."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:58
+msgid "Lambert"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst
+msgid "Panel:    :menuselection:`Shading/Material --> Shaders`"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:69
+msgid "Lambert Shader."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:72
+msgid ""
+"This is Blender's default diffuse shader, and is a good general all-"
+"around workhorse for materials showing low levels of specular reflection."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:78
+msgid ""
+"`Johann Heinrich Lambert "
+"<https://en.wikipedia.org/wiki/Johann_Heinrich_Lambert>`__ (1728-1777)"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:76
+#, python-format
+msgid ""
+"was a Swiss mathematician, physicist and astronomer who published works "
+"on the reflection of light, most notably the `Beer-Lambert Law "
+"<https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law>`__ which "
+"formulates the law of light absorption."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:80
+msgid ""
+"This shader has only the default option, determining how much of "
+"available light is reflected. Default is 0.8, to allow other objects to "
+"be brighter."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:86
+msgid "The Lambert diffuse shader settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:90
+msgid "Oren-Nayar"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:101
+msgid "Oren-Nayar Shader."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:104
+#, python-format
+msgid ""
+"Oren-Nayar takes a somewhat more 'physical' approach to the diffusion "
+"phenomena as it takes into account the amount of microscopic roughness of"
+" the surface. `Michael Oren <http://dblp.uni-"
+"trier.de/pers/hd/o/Oren:Michael.html>`__ and `Shree K. Nayar "
+"<https://en.wikipedia.org/wiki/Shree_K._Nayar>`__ Their `reflectance "
+"model "
+"<https://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model>`__, "
+"developed in the early 1990s, is a generalization of Lambert's law now "
+"widely used in computer graphics."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:113
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:151
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:189
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:229
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:116
+msgid "Roughness"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:116
+msgid "The roughness of the surface, and hence, the amount of diffuse scattering."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:121
+msgid "The Oren-Nayar diffuse shader settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:125
+msgid "Toon"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:137
+msgid "Toon Shader, Different Spec."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:142
+msgid "Toon Shader Variations."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:145
+msgid ""
+"The Toon shader is a very 'un-physical' shader in that it is not meant to"
+" fake reality, but to produce cartoon cel styled rendering, with clear "
+"boundaries between light and shadow and uniformly lit/shadowed regions."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:153
+msgid "Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:154
+msgid "The size of the lit area."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:156
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:156
+msgid "The softness of the boundary between lit and shadowed areas."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:161
+msgid "The Toon diffuse shader settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:165
+msgid "Minnaert"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:176
+msgid "Minnaert Shader."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:179
+msgid ""
+"Minnaert works by darkening parts of the standard Lambertian shader, so "
+"if *Dark* is 1 you get exactly the Lambertian result. Higher darkness "
+"values will darken the center of an object (where it points towards the "
+"viewer). Lower darkness values will lighten the edges of the object, "
+"making it look somewhat velvet. `Marcel Minnaert "
+"<https://en.wikipedia.org/wiki/Marcel_Minnaert>`__ (1893-1970) was a "
+"Belgian astronomer interested in the effects of the atmosphere on light "
+"and images who in 1954 published a book entitled \"The Nature of Light "
+"and Color in the Open Air\"."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:192
+msgid "Dark"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:192
+msgid ""
+"The darkness of the 'lit' areas (higher) or the darkness of the edges "
+"pointing away from the light source (lower)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:197
+msgid "The Minnaert diffuse shader settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:201
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:231
+msgid "Fresnel"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:212
+msgid ""
+"Various settings for the Fresnel shader, Cook-Torr Specular shader kept "
+"at Intensity 0.5, Hardness: 50."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:217
+msgid "Fresnel Shader, Different Spec."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:220
+msgid ""
+"With a Fresnel shader the amount of diffuse reflected light depends on "
+"the incidence angle, i.e. from the direction of the light source. Areas "
+"pointing directly towards the light source appear darker; areas "
+"perpendicular to the incoming light become brighter. `Augustin-Jean "
+"Fresnel <https://en.wikipedia.org/wiki/Augustin-Jean_Fresnel>`__ "
+"(1788-1827) was a French physicist who contributed significantly to the "
+"establishment of the theory of wave optics."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:232
+msgid "Power of the Fresnel effect, 5.0 is max."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:234
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:234
+msgid "Blending factor of the Fresnel factor to blend in, 5.0 is max."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:239
+msgid "The Fresnel diffuse shader settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:241
+msgid "Emit"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:242
+msgid "Amount of light to emit"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:243
+msgid "Ambient"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:244
+msgid "Amount of global ambient color the material receives"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:245
+msgid "Translucency"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:246
+msgid "Amount of diffuse shading on the back side"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:247
+msgid "Shadeless"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:248
+msgid "Make this material insensitive to light or shadow"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:256
+msgid "Tangent Shading"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:250
+msgid ""
+"Use the material's tangent vector instead of the normal for shading -- "
+"for anisotropic shading effects (e.g. soft hair and brushed metal)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:255
+msgid ""
+"Settings for strand rendering in the menu further down and in the "
+"Particle System menu."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:260
+msgid "Cubic Interpolation"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/diffuse_shaders.rst:259
+msgid ""
+"Use cubic interpolation for diffuse values, for smoother transitions "
+"between light areas and dark areas."
+msgstr ""
+
+#~ msgid "Johann Heinrich Lambert (1728-1777)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Panel:    Shading/Material Context --> Diffuse"
+#~ msgstr ""
+
+#~ msgid "Panel:    Shading/Material Context --> Shaders"
+#~ msgstr ""
+
+#~ msgid "Lambert Shader"
+#~ msgstr ""
+
+#~ msgid "Oren-Nayar Shader"
+#~ msgstr ""
+
+#~ msgid "Toon Shader, Different Spec"
+#~ msgstr ""
+
+#~ msgid "Toon Shader Variations"
+#~ msgstr ""
+
+#~ msgid "Minnaert Shader"
+#~ msgstr ""
+
+#~ msgid "Fresnel Shader, Different Spec"
+#~ msgstr ""
+
+#~ msgid "The size of the lit area"
+#~ msgstr ""
+
+#~ msgid "The softness of the boundary between lit and shadowed areas"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Oren-Nayar takes a somewhat more "
+#~ "'physical' approach to the diffusion "
+#~ "phenomena as it takes into account "
+#~ "the amount of microscopic roughness of"
+#~ " the surface. `Michael Oren "
+#~ "<https://www.informatik.uni-"
+#~ "trier.de/~ley/db/indices/a-tree/o/Oren:Michael.html>`__ and "
+#~ "`Shree K. Nayar "
+#~ "<https://en.wikipedia.org/wiki/Shree_K._Nayar>`__ Their "
+#~ "`reflectance model "
+#~ "<https://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model>`__,"
+#~ " developed in the early 1990s, is "
+#~ "a generalization of Lambert's law now"
+#~ " widely used in computer graphics."
+#~ msgstr ""
+

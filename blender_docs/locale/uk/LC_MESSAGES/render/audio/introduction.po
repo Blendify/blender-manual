@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/audio/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/render/audio/introduction.rst:6
+msgid ""
+"Audio can be rendered from the :menuselection:`Properties Editor --> Render "
+"tab --> Render --> Audio`."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:10
+msgid "Render panel."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:14
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:17
+msgid "Relative Path"
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:17
+msgid "Select the file relative to the blend-file."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:20
+msgid "Accuracy"
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:20
+msgid ""
+"Sample accuracy, important for animation data (the lower the value, the more "
+"accurate)."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:23
+msgid "Audio Containers"
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:23
+msgid "See :doc:`here </data_system/files/media/video_formats>`."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:27
+msgid "Codec"
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:26
+msgid ""
+"Some *Audio Containers* also have option to choose a codec. For more "
+"information see :doc:`here </data_system/files/media/video_formats>`."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:30
+msgid "Split Channels"
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:30
+msgid "Each audio channel will be rendered into a separate file."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:34
+msgid "See :ref:`Scene Audio <data-scenes-audio>` settings."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:35
+msgid ""
+"See :ref:`Audio Output Settings <render-output-video-encoding-audio>` "
+"settings."
+msgstr ""
+
+#: ../../manual/render/audio/introduction.rst:36
+msgid "See :ref:`Audio Preferences <prefs-system-sound>`."
+msgstr ""

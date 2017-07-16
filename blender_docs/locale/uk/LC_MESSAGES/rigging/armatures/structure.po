@@ -1,0 +1,92 @@
+#
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/rigging/armatures/structure.rst:4
+msgid "Structure"
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:9
+msgid "Example of a very basic armature."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:11
+msgid ""
+"Armatures mimic real skeletons. They are made out of bones, which are (by "
+"default) rigid elements. But you have more possibilities than with real "
+"skeletons: In addition to the \"natural\" rotation of bones, you can also "
+"translate and even scale them! And your bones do not have to be connected to "
+"each other; they can be completely free if you want. However, the most "
+"natural and useful setups imply that some bones are related to others, "
+"forming so-called \"chains of bones\", which create some sort of \"limbs\" "
+"in your armature, as detailed in `Chains of Bones`_."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:26
+msgid "Chains of Bones"
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:28
+msgid ""
+"The bones inside an armature can be completely independent from each other "
+"(i.e. the modification of one bone does not affect the others). But this is "
+"not often a useful set up: To create a leg, all bones \"after\" the thigh "
+"bone should move \"with\" it in a well-coordinated manner. This is exactly "
+"what happens in armatures by parenting a bone to the next one in the limb, "
+"you create a \"chains of bones\". These chains can be ramified. For example, "
+"five fingers attached to a single \"hand\" bone."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:38
+msgid "An armature with two chains of bones."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:41
+msgid ""
+"Bones are chained by linking the tip of the parent to the root of the child. "
+"Root and tip can be *connected*, i.e. they are always exactly at the same "
+"point; or they can be *free*, like in a standard parent-child object "
+"relationship."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:45
+msgid ""
+"A given bone can be the parent of several children, and hence be part of "
+"several chains at the same time."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:48
+msgid ""
+"The bone at the beginning of a chain is called its *root bone*, and the last "
+"bone of a chain is the *tip bone* (do not confuse them with similar names of "
+"bones' joints!)."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:52
+msgid ""
+"Chains of bones are a particularly important topic in :doc:`posing </rigging/"
+"armatures/posing/index>` (especially with the standard *forward kinematics* "
+"versus \"automatic\" *inverse kinematics* posing techniques). You create/"
+"edit them in *Edit Mode*, but except in case of connected bones, their "
+"relationships have no effect on bone transformations in this mode (i.e. "
+"transforming a parent bone will not affect its children)."
+msgstr ""
+
+#: ../../manual/rigging/armatures/structure.rst:58
+msgid ""
+"The easiest way to manage bones relationships is to use the :ref:`Relations "
+"panel <bone_relations_parenting>` in the *Bone* tab."
+msgstr ""

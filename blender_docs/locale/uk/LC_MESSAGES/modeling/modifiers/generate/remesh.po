@@ -1,0 +1,201 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:4
+msgid "Remesh Modifier"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:6
+msgid ""
+"The Remesh modifier is a tool for generating new mesh topology. The "
+"output follows the surface curvature of the input, but its topology "
+"contains only quads."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:14
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:35
+msgid "Mode"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:17
+msgid ""
+"There are three basic modes available in the Remesh Modifier: Blocks, "
+"Smooth and Sharp."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:21
+msgid ""
+"This example shows a cone with each of the different remesh modes. From "
+"left to right: original cone, Blocks, Smooth, and Sharp."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:25
+msgid ""
+"The output topology is almost identical between the three modes; what "
+"changes is the smoothing."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:28
+msgid "Blocks"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:29
+msgid "There is no smoothing at all."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:30
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:31
+msgid "Output a smooth surface."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:35
+msgid "Sharp"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:33
+msgid ""
+"Similar to *Smooth*, but preserves sharp edges and corners. In the above "
+"image, the circular bottom of the cone and the top point of the cone are "
+"more accurately reproduced in Sharp mode."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:43
+msgid "Octree Depth"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:38
+msgid ""
+"The Octree Depth sets the resolution of the output. Low values will "
+"generate larger faces relative to the input, higher values will generate "
+"a denser output."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:43
+msgid "Input mesh, and the low to high resolution output meshes."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:46
+msgid "Scale"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:46
+msgid ""
+"The result can be tweaked further by setting the Scale; lower values "
+"effectively decrease the output resolution."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:49
+msgid "Sharpness"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:49
+msgid ""
+"Shown when using the *Sharp Mode* -- Higher values produce edges more "
+"similar to the input, while lower values filter out noise."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:52
+msgid "Smooth Shading"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:52
+msgid ""
+"Output faces with smooth shading rather than flat shading. The "
+"smooth/flat shading of the input faces is not preserved."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:65
+msgid "Remove Disconnected Pieces"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:55
+msgid "Filter out small disconnected pieces of the output."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:58
+msgid "Threshold"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:58
+msgid ""
+"Use this to control how small a disconnected component must be to be "
+"removed."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:62
+msgid ""
+"The input mesh (left) is fairly noisy, so the initial output of the "
+"Remesh Modifier (center) contains small disconnected pieces. Enabling "
+"Remove Disconnected Pieces (right) deletes those faces."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:68
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:70
+msgid ""
+"In the Modifier panel, add a Remesh Modifier. The input mesh should have "
+"some thickness to it; if the input is completely flat, add a "
+":doc:`Solidify Modifier </modeling/modifiers/generate/solidify>` above "
+"the Remesh Modifier."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:76
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:80
+msgid "Remesh Modifier applied to text to improve topology."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/remesh.rst:90
+msgid ""
+"A video can be found at https://www.youtube.com/watch?v=Mh-gUnS2c0Y and "
+"https://vimeo.com/21096739"
+msgstr ""
+
+#~ msgid "Input mesh, and the low to high resolution output meshes"
+#~ msgstr ""
+
+#~ msgid "Remesh modifier applied to text to improve topology"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Remesh modifier applied to text to improve topology."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example shows a cone with "
+#~ "each of the different remesh modes. "
+#~ "From left to right: original cone, "
+#~ "Blocks, Smooth, and Sharp"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Shown when using the *Sharp Mode* "
+#~ "- Higher values produce edges more "
+#~ "similar to the input, while lower "
+#~ "values filter out noise."
+#~ msgstr ""
+

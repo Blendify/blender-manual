@@ -1,0 +1,789 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:4
+msgid "Weight Tools"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:9
+msgid "Weight Paint Tools."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:11
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst
+msgid "Mode:     Edit Mode and Weight Paint Mode"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst
+msgid "Panel:    :menuselection:`Tool Shelf --> Tools --> Weight Tools`"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst
+msgid "Menu:     :menuselection:`Weights`"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:18
+msgid ""
+"Blender provides a set of helper tools for Weight Painting. The tools are"
+" accessible from the Tool Shelf in Weight Paint Mode. And they are "
+"located in the weight tools panel."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:24
+msgid "The Subset Option"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:26
+msgid ""
+"Some of the tools also provide a Subset filter to restrict their "
+"functionality to only specific vertex groups (in the Operator panel, "
+"displayed after the tool is called) with following options:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:29
+msgid "Active Group"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:30
+msgid "Selected Pose Bones"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:31
+msgid "Deform pose Bones"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:32
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:101
+msgid "All Groups"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:34
+msgid ""
+"All tools also work with Vertex Selection Masking and Face Selection "
+"masking. In these modes the tools operate only on selected vertices or "
+"faces."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:37
+msgid "About the Blend tool"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:39
+msgid ""
+"The Blend tool only works when \"Vertex selection masking for painting\" "
+"is enabled. Otherwise the tool button is grayed out."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:44
+msgid "Normalize All"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:46
+msgid ""
+"For each vertex, this tool makes sure that the sum of the weights across "
+"all Vertex Groups is equal to 1. This tool normalizes all of the vertex "
+"groups, except for locked groups, which keep their weight values "
+"untouched."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:53
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:90
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:136
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:176
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:220
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:303
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:393
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:413
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:455
+msgid "Options"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:57
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:68
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:80
+msgid "Normalize All Options."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:61
+msgid "Lock Active"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:60
+msgid "Keep the values of the active group while normalizing all the others."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:64
+msgid "Normalize"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:70
+msgid ""
+"This tool only works on the active Vertex Group. All vertices keep their "
+"relative weights, but the entire set of weights is scaled up such that "
+"the highest weight value is 1.0."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:76
+msgid "Mirror"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:83
+msgid ""
+"This tool mirrors the weights from one side of the mesh to the opposite "
+"side (only mirroring along x-axis is supported). But note, the weights "
+"are not transferred to the corresponding opposite bone weight group. The "
+"mirror only takes place within the selected Vertex Group."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:94
+msgid "Mirror Options."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:97
+msgid "Mirror Weights"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:98
+msgid ""
+"Mirrors the weights of the active group to the other side. Note, this "
+"only affects the active weight group."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:99
+msgid "Flip Group Names"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:100
+msgid ""
+"Exchange the names of left and right side. This option only renames the "
+"groups."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:102
+msgid "Operate on all selected bones."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:116
+msgid "Topology Mirror"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:104
+#, python-format
+msgid "Mirror for meshes which are not 100% symmetric (approximate mirror)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:106
+msgid "Mirror to opposite bone"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:108
+msgid ""
+"If you want to create a mirrored weight group for the opposite bone (of a"
+" symmetric character), then you can do this:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:111
+msgid ""
+"Delete the target Vertex Group (where the mirrored weights will be "
+"placed)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:112
+msgid ""
+"Create a copy of the source bone Vertex Group (the group containing the "
+"weights which you want to copy)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:113
+msgid ""
+"Rename the new Vertex Group to the name of the target Vertex Group (the "
+"group you deleted above)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:114
+msgid ""
+"Select the Target Vertex Group and call the Mirror tool (use only the "
+"Mirror weights option and optionally Topology Mirror if your mesh is not "
+"symmetric)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:119
+msgid "Invert"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:123
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:162
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:208
+msgid "Invert."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:126
+msgid "Replaces each Weight of the selected weight group by × -1.0 weight."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:128
+msgid "Examples:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:130
+msgid "Original 1.0 converts to 0.0"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:131
+msgid "Original 0.5 remains 0.5"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:132
+msgid "Original 0.0 converts to 1.0"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:142
+msgid "Invert Options."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:145
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:183
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:226
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:415
+msgid "Subset"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:146
+msgid ""
+"Restrict the tool to a subset. See above `The Subset Option`_ about how "
+"subsets are defined."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:147
+msgid "Add Weights"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:148
+msgid ""
+"Add vertices that have no weight before inverting (these weights will all"
+" be set to 1.0)"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:150
+msgid "Remove Weights"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:150
+msgid "Remove vertices from the Vertex Group if they are 0.0 after inverting."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:154
+msgid "Locked vertex Groups are not affected."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:158
+msgid "Clean"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:165
+msgid ""
+"Removes weights below a given threshold. This tool is useful for clearing"
+" your weight groups of very low (or zero-) weights."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:168
+msgid ""
+"In the example shown, a cutoff value of 0.139 is used (see operator "
+"options below) so all blue parts (left side) are cleaned out (right "
+"side)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:171
+msgid ""
+"Note, the images use the *Show Zero weights* Active option so that "
+"unreferenced Weights are shown in Black."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:180
+msgid "Clean Options."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:184
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:227
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:416
+msgid ""
+"Restrict the tool to a subset. See above `The Subset Option`_ for how "
+"subsets are defined."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:186
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:419
+msgid "Limit"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:186
+msgid ""
+"This is the minimum weight value that will be kept in the Group. Weights "
+"below this value will be removed from the group."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:192
+msgid "Keep Single"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:189
+msgid ""
+"Ensure that the Clean tool will not create completely unreferenced "
+"vertices (vertices which are not assigned to any Vertex Group), so each "
+"vertex will keep at least one weight, even if it is below the limit "
+"value!"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:195
+msgid "Quantize"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:197
+msgid "Clamps each weight to a number of steps between (0 - 1)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:201
+msgid "Steps"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:200
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:315
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:317
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:319
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:325
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:204
+msgid "Levels"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:211
+msgid ""
+"Adds an offset and a scale to all weights of the selected Weight Groups. "
+"with this tool you can raise or lower the overall \"heat\" of the weight "
+"group."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:216
+msgid ""
+"No weight will ever be set to values above 1.0 or below 0.0 regardless of"
+" the settings."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:224
+msgid "Levels Options."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:228
+msgid "Offset"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:229
+msgid ""
+"A value from the range (-1.0 - 1.0) to be added to all weights in the "
+"Vertex Group."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:231
+msgid "Gain"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:231
+msgid "All weights in the Subset are multiplied with the gain."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:235
+msgid ""
+"Whichever *Gain* and *Offset* you choose, in all cases the final value of"
+" each weight will be clamped to the range (0.0 - 1.0). So you will never "
+"get negative weights or overheated areas (weight > 1.0) with this tool."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:243
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:245
+msgid ""
+"Blends the weights of selected vertices with adjacent unselected "
+"vertices. This tool only works in vertex select mode."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:251
+msgid ""
+"To understand what the tool really does, let us take a look at a simple "
+"example. The selected vertex is connected to four adjacent vertices "
+"(marked with a gray circle in the image). All adjacent vertices are "
+"unselected. Now the tool calculates the average weight of all connected "
+"**and** unselected vertices. In the example this is:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:257
+msgid ":math:`(1 + 0 + 0 + 0) / 4 = 0.25`"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:259
+msgid ""
+"This value is multiplied by the factor given in the Operator options (see"
+" below)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:261
+msgid ""
+"If the factor is 0.0 then actually nothing happens at all and the vertex "
+"just keeps its value."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:262
+msgid ""
+"If the factor is 1.0 then the calculated average weight is taken (0.25 "
+"here)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:263
+msgid ""
+"Dragging the factor from 0 to 1 gradually changes from the old value to "
+"the calculated average."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:268
+msgid ""
+"Now let us see what happens when we select all but one of the neighbors "
+"of the selected vertex as well. Again all connected and unselected "
+"vertices are marked with a gray circle. When we call the Smooth tool now "
+"and set the Factor to 1.0, then we see different results for each of the "
+"selected vertices:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:273
+msgid "The topmost and bottommost selected vertices:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:275
+msgid ""
+"are surrounded by three unselected vertices, with an average weight of "
+":math:`(1 + 0 + 0) / 3 = 0.333` So their color has changed to light "
+"green."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:278
+msgid "The middle vertex:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:280
+msgid ""
+"is connected to one unselected vertex with ``weight = 1``. So the average"
+" weight is 1.0 in this case, thus the selected vertex color has changed "
+"to red."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:283
+msgid "The right vertex:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:285
+msgid ""
+"is surrounded by three unselected vertices with average weight = "
+":math:`(0 + 0 + 0) / 3 = 0.0` So the average weight is 0, thus the "
+"selected vertex color has not changed at all (it was already blue before "
+"Smooth was applied)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:292
+msgid ""
+"Finally let us look at a practical example. The middle edge loop has been"
+" selected and it will be used for blending the left side to the right "
+"side of the area."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:296
+msgid "All selected vertices have two unselected adjacent vertices."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:297
+msgid "The average weight of the unselected vertices is :math:`(1 + 0) / 2 = 0.5`"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:298
+msgid ""
+"Thus when the *Factor* is set to 1.0 then the edge loop turns to green "
+"and finally does blend the cold side (right) to the hot side (left)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:307
+msgid "Smooth Options."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:312
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:310
+msgid ""
+"The effective amount of blending. When Factor is set to 0.0 then the "
+"Blend tool does not do anything. For Factor > 0 the weights of the "
+"affected vertices gradually shift from their original value towards the "
+"average weight of all connected **and** unselected vertices (see examples"
+" above)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:314
+msgid "Iterations"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:316
+msgid "Expand/Contract"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:320
+msgid "Source"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:323
+msgid "Fix Deforms"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:329
+msgid "Transfer Weights"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:331
+msgid ""
+"Copy weights from other objects to the vertex groups of the active "
+"Object. By default this tool copies all vertex groups contained in the "
+"selected objects to the target object. However, you can change the tool's"
+" behavior in the Operator panel (see below)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:337
+msgid "Prepare the Copy"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:343
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:347
+msgid "Blending."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:349
+msgid ""
+"You first select all source objects, and finally the target object (the "
+"target object must be the active object)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:352
+msgid ""
+"It is important that the source objects and the target object are at the "
+"same location. If they are placed side by side, then the weight transfer "
+"will not work. You can place the objects on different layers, but you "
+"have to ensure that all objects are visible when you call the tool."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:357
+msgid "Now ensure that the Target Object is in Weight Paint Mode."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:361
+msgid "Call the Tool"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:363
+msgid ""
+"Open the Tool Shelf and locate the Weight Tools panel. From there call "
+"the \"Transfer weights\" tool. The tool will initially copy all vertex "
+"groups from the source objects. However, the tool also has an Operator "
+"panel (which appears at the bottom of the tool shelf). From the Operator "
+"panel you can change the parameters to meet your needs. (The available "
+"Operator parameters are documented below.)"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:373
+msgid "Operator Panel Confusion"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:375
+msgid ""
+"You may notice that the Operator panel (see below) stays available after "
+"the weight transfer is done. The panel only disappears when you call "
+"another Operator that has its own Operator panel. This can lead to "
+"confusion when you use Transfer weights repeatedly after you changed your"
+" vertex groups. If you then use the still-visible Operator panel, then "
+"Blender will reset your work to its state right before you initially "
+"called the Transfer Weights tool."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:384
+msgid "Workaround"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:386
+msgid ""
+"When you want to call the Transfer Weights tool again after you made some"
+" changes to your vertex groups, then always use the \"Transfer Weights\" "
+"Button, even if the operator panel is still available. Unless you really "
+"want to reset your changes to the initial call of the tool."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:397
+msgid ""
+"This tool now uses the generic 'data transfer' one. Please refer to the "
+":doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for "
+"options details and explanations."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:402
+msgid "Limit Total"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:404
+msgid ""
+"Reduce the number of weight groups per vertex to the specified Limit. The"
+" tool removes lowest weights first until the limit is reached."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:409
+msgid ""
+"The tool can only work reasonably when more than one weight group is "
+"selected."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:418
+msgid "Maximum number of weights allowed on each vertex."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:422
+msgid "Weight Gradient"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:427
+msgid "Example of the gradient tool being used with selected vertices."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:430
+msgid ""
+"This is an interactive tool for applying a linear/radial weight gradient;"
+" this is useful at times when painting gradual changes in weight becomes "
+"difficult."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:433
+msgid ""
+"The gradient tool can be accessed from the Tool Shelf or as a key "
+"shortcut:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:435
+msgid "Linear: :kbd:`Alt-LMB` and drag."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:436
+msgid "Radial: :kbd:`Alt-Ctrl-LMB` and drag."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:438
+msgid "The following weight paint options are used to control the gradient:"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:440
+msgid "Weight"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:441
+msgid ""
+"The gradient starts at the current selected weight value, blending out to"
+" nothing."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:442
+msgid "Strength"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:443
+msgid ""
+"Lower values can be used so the gradient mixes in with the existing "
+"weights (just like with the brush)."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:445
+msgid "Curve"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:445
+msgid ""
+"The brush falloff curve applies to the gradient too, so you can use this "
+"to adjust the blending."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:447
+msgid "Blends the weights of selected vertices with unselected vertices."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:451
+msgid "This tool only works in vertex select mode."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:460
+msgid "Type"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:458
+msgid "Linear"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:459
+msgid "Radial"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:463
+msgid "Assign"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:465
+msgid "Assign from Bone Envelopes"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:466
+msgid ""
+"Applies the envelope weight of the select the bone(s) to the selected "
+"vertex group."
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:470
+msgid "Assign Automatic from Bone"
+msgstr ""
+
+#: ../../manual/sculpt_paint/painting/weight_paint/weight_tools.rst:468
+msgid ""
+"Apply from the selected bone(s) to the vertex group the same \"auto-"
+"weighting\" methods as available in the Parent armature menu."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Blend"
+#~ msgstr ""
+
+#~ msgid "Blend Options."
+#~ msgstr ""
+

@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/uv_image/image/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/uv_image/image/introduction.rst:10
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:13
+msgid "Image Menu"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:15
+msgid "New Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:16
+msgid "Creates a new :ref:`image-generated` Image."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:17
+msgid "Open Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:18
+msgid "Load image from a file."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:19
+msgid "Read Render Layers"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:20
+#: ../../manual/editors/uv_image/image/introduction.rst:22
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:21
+msgid "Save All Images"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:24
+msgid "Replace Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:24
+msgid ""
+"Replaces the current image, while preserving the link to UV maps, with an"
+" selected file."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:26
+msgid "Reload Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:27
+msgid "Reloading the image from an external file."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:28
+msgid "Save Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:29
+msgid "Save the image, if the image is already a file :kbd:`Alt-S`."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:31
+msgid "Save As Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:31
+msgid ""
+"Save the (rendered) image in a separate file :kbd:`F3` or you want to "
+"save it under a different name."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:34
+msgid "Save a Copy"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:34
+msgid ""
+"Using *Save as Copy* will save the file to a specified name, but will "
+"keep the old one open in the UV/Image editor."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:37
+msgid "Edit Externally"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:37
+msgid ""
+"Using the *Edit Externally* tool Blender will open an external image "
+"editor, as specified in the *User Preferences* and load in the image to "
+"be edited."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:42
+msgid "Invert"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:40
+msgid "Invert Image Colors"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:41
+msgid "Invert the colors of an image."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:42
+msgid "Invert Channel"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:43
+msgid "Red, Green, Blue, Alpha"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:49
+msgid "Pack"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:45
+msgid "Pack Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:49
+msgid "Pack As PNG"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:48
+msgid "Packs the image inside the blend-file. See :ref:`pack-unpack-data`."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:53
+msgid "Rendered images had to be saved externally or packed."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:57
+msgid "Controls"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:65
+msgid "Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:60
+msgid ""
+":ref:`Data-block menu <ui-data-block>` used for selecting images. When an"
+" image has been loaded or created in the UV/Image editor, the Image panel"
+" appears in the *Properties region*. See "
+":doc:`/editors/uv_image/image/image_settings`."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:65
+msgid "Render Result"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:66
+msgid "Viewer Node"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:69
+msgid "Pin Image"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:68
+msgid "Displays current image regardless of selected object."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:72
+msgid "Multi-Layer"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:74
+msgid ""
+"When a rendered image is displayed in the UV/Image Editor, several new "
+"menu items become available."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:80
+msgid "Slot"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:78
+msgid ""
+"You can save successive renders into the render buffer by selecting a new"
+" slot before rendering. If an image has been rendered to a slot, it can "
+"be viewed by selecting that slot. Empty slots appear as blank grids in "
+"the UV/Image editor. Use the :kbd:`J` and :kbd:`Alt-J` to cycle forwards "
+"and backwards through saved renders."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:83
+msgid "Render Layer"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:83
+msgid ""
+"If you are using :doc:`Render Layers </render/post_process/layers>`, use "
+"this menu to select which layer is displayed."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:88
+msgid "Render Pass"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:86
+msgid ""
+"If you are using :doc:`Render Passes "
+"</render/blender_render/settings/passes>`, use this menu to select which "
+"pass is displayed."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:91
+msgid "Channels"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:107
+msgid "Draw Channels"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:94
+msgid "The radio buttons set which channels of the image are displayed."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:96
+msgid "RGBA"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:97
+msgid ""
+"Replaces transparent pixels with background checkerboard, denoting the "
+"alpha channel."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:98
+msgid "RGB"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:99
+msgid "Draw the colored image, without alpha channel."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:100
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:101
+msgid ""
+"Displays the Alpha channel a gray-scale image. White areas are opaque, "
+"black areas have an alpha of 0."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:103
+msgid "Z-Buffer"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:103
+msgid ""
+"Display the depth from the camera, from Clip Start to Clip End, as "
+"specified in the :doc:`Camera settings "
+"</render/blender_render/camera/introduction>`."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:107
+msgid "Red, Green, Blue"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:106
+msgid "Single Color Channel visualized as a gray-scale image."
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:110
+msgid "Main View"
+msgstr ""
+
+#: ../../manual/editors/uv_image/image/introduction.rst:112
+msgid ""
+"When :kbd:`LMB` dragging mouse the color under the cursor is shown in the"
+" footer as well the cursor position and the color values in the RGBA, HSV"
+" and Luminance :term:`color space`."
+msgstr ""
+
+#~ msgid "Set the name if the generated image"
+#~ msgstr ""
+
+#~ msgid "Set the size if the image in pixels"
+#~ msgstr ""
+
+#~ msgid "Generates a `New Image`_."
+#~ msgstr ""
+
+#~ msgid "Reloading the image from a external file."
+#~ msgstr ""
+
+#~ msgid "The new Image pop-up menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Image Name"
+#~ msgstr ""
+
+#~ msgid "Set the name if the generated image."
+#~ msgstr ""
+
+#~ msgid "Width and Height"
+#~ msgstr ""
+
+#~ msgid "Set the size if the image in pixels."
+#~ msgstr ""
+
+#~ msgid "Color"
+#~ msgstr ""
+
+#~ msgid "Sets the default fill color if creating a blank image."
+#~ msgstr ""
+
+#~ msgid "Adds an alpha channel to the image"
+#~ msgstr ""
+
+#~ msgid "Generated Type"
+#~ msgstr ""
+
+#~ msgid "The type of image to generate:"
+#~ msgstr ""
+
+#~ msgid "UV Grid"
+#~ msgstr ""
+
+#~ msgid "Color Grid"
+#~ msgstr ""
+
+#~ msgid "Blank"
+#~ msgstr ""
+
+#~ msgid "Generates a blank image of a single specified color."
+#~ msgstr ""
+
+#~ msgid "32 bit float"
+#~ msgstr ""
+
+#~ msgid "Packs the image inside the blend-file."
+#~ msgstr ""
+
+#~ msgid ":ref:`pack-unpack-data`."
+#~ msgstr ""
+
+#~ msgid "Rendered images had to be saved externally."
+#~ msgstr ""
+
+#~ msgid "Header Controls"
+#~ msgstr ""
+

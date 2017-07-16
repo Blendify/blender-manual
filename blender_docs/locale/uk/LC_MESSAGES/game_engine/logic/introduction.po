@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/game_engine/logic/introduction.rst:6
+msgid ""
+"*Game Logic* is the default scripting layer in the Game Engine. Each "
+"*Game Object* in the game may store a collection of logical components "
+"(Logic Bricks) which control its behavior within the scene. Logic bricks "
+"can be combined to perform user-defined actions that determine the "
+"progression of the simulation."
+msgstr ""
+
+#: ../../manual/game_engine/logic/introduction.rst:13
+msgid "Logic Bricks"
+msgstr ""
+
+#: ../../manual/game_engine/logic/introduction.rst:15
+msgid ""
+"The main part of game logic can be set up through a graphical interface "
+"the :doc:`Logic Editor </editors/logic_editor>`, and therefore does not "
+"require detailed programming knowledge. Logic is set up as blocks (or "
+"\"bricks\") which represent preprogrammed functions; these can be tweaked"
+" and combined to create the game/application. There are three types of "
+"logic brick: :doc:`Sensors </game_engine/logic/sensors/introduction>`, "
+":doc:`Controllers </game_engine/logic/controllers/introduction>` and "
+":doc:`Actuators </game_engine/logic/actuators/introduction>`. Sensors are"
+" primitive event listeners, which are triggered by specific events, such "
+"as a collision, a key press or mouse movement. Controllers carry out "
+"logic operations on sensor output, and trigger connected actuators when "
+"their operating conditions are met. Actuators interact with the "
+"simulation directly, and are the only components in the game which are "
+"able to do so (other than the Python controller, and other simulation "
+"components such as Physics)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/introduction.rst:30
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/introduction.rst:32
+msgid ""
+":doc:`Properties </game_engine/logic/properties>` are like variables in "
+"other programming languages. They are used to save and access data values"
+" either for the whole game (eg. scores), or for particular "
+"objects/players (e.g. names). However, in the Blender Game Engine, a "
+"property is associated with an object. Properties can be of different "
+"types, and are set up in a special area of the :doc:`Logic Editor "
+"</editors/logic_editor>`."
+msgstr ""
+
+#: ../../manual/game_engine/logic/introduction.rst:41
+msgid "States"
+msgstr ""
+
+#: ../../manual/game_engine/logic/introduction.rst:43
+msgid ""
+"Another useful feature is object :doc:`States "
+"</game_engine/logic/states>`. At any time while the simulation is "
+"running, the object will process any logic which belongs to the current "
+"state of the object. States can be used to define groups of behavior -- "
+"e.g. an actor object may be \"sleeping\", \"awake\" or \"dead\", and its "
+"logic behavior may be different in each of these three states. The states"
+" of an object are set up, displayed and edited in the Controller logic "
+"bricks for the object."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Game Logic is the default scripting "
+#~ "layer in the game engine. Each "
+#~ "Game Object in the game may store"
+#~ " a collection of logical components "
+#~ "(Logic Bricks) which control its "
+#~ "behavior within the scene. Logic bricks"
+#~ " can be combined to perform user-"
+#~ "defined actions that determine the "
+#~ "progression of the simulation."
+#~ msgstr ""
+

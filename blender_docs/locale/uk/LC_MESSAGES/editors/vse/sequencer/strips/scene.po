@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:4
+msgid "Scene Strip"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:6
+msgid ""
+"Scene strips are a way to insert the render output of a scene into your "
+"sequence. Instead of rendering out a video, then inserting the video "
+"file, you can insert the scene directly."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:9
+msgid ""
+"The strip length will be determined based on the animation settings in "
+"that scene."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:13
+msgid "Options"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:19
+msgid "Use Sequence"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:16
+msgid ""
+"Expand the scenes sequence strips, allowing one scene to reuse another "
+"scenes edit, (instead of taking the render output from the scene)."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:19
+msgid ""
+"This is similar to how :doc:`Meta Strips </editors/vse/sequencer/meta>` "
+"work, with the added advantage of supporting multiple instances of the "
+"same data."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:23
+msgid "Camera Override"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:22
+msgid "This can be used to override the scenes camera with any other object."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:24
+msgid "It is useful to support switching views within a single scene."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:25
+msgid "Show Grease Pencil"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:26
+msgid ""
+"Shows :doc:`Grease Pencil </interface/grease_pencil/index>` in OpenGL "
+"preview."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:27
+msgid "Audio Volume"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:28
+msgid "Volume of the audio taken from the chosen scene."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:34
+msgid "Alpha Mode"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:30
+msgid "Sky"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:31
+msgid "Fills in a solid background."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:34
+msgid "Transparent"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:33
+msgid ""
+"Creates a transparent background. This is useful for doing overlays like "
+"rendering out Grease Pencil films via the Sequencer."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/scene.rst:38
+msgid ""
+"Its best not add a scene strip for the scene you are currently editing. "
+"While this is supported, it can be confusing when changing the start and "
+"end frame."
+msgstr ""
+
+#~ msgid ""
+#~ "Expand the scenes sequence strips, "
+#~ "allowing one scene to re-use "
+#~ "another scenes edit, (instead of taking"
+#~ " the render output from the scene)."
+#~ msgstr ""
+
