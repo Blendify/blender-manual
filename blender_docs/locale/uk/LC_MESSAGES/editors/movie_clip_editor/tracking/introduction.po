@@ -1,0 +1,138 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:6
+msgid ""
+"Motion Tracking is used to track the motion of objects and applying that "
+"data to 3D object through the compositor. Blender's motion tracker "
+"supports a couple of very powerful tools for 2D tracking and 3D motion "
+"tracking, including camera tracking and object tracking, as well as some "
+"special features like the plane track for compositing. Tracks can also be"
+" used to move and deform masks for rotoscoping in the Mask Editor, which "
+"is available as a special mode in the Movie Clip Editor."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:14
+msgid "Views"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:16
+msgid ""
+"In Tracking Mode there are three different views available. You can "
+"toggle between view modes using the View menu, which is located in the "
+"header. When you selected a view in the whole area of the Movie Clip "
+"editor will change. Hence, to display a curve or dope sheet view, the "
+"editor must be split into two, with one switched to the curve or dope "
+"sheet view."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:24
+msgid "Manual Lens Calibration"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:26
+msgid ""
+"All cameras record distorted video. Nothing can be done about this "
+"because of the manner in which optical lenses work. For accurate camera "
+"motion, the exact value of the focal length and the \"strength\" of "
+"distortion are needed."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:31
+msgid ""
+"Currently, focal length can be automatically obtained only from the "
+"camera's settings or from the EXIF information. There are some tools "
+"which can help to find approximate values to compensate for distortion. "
+"There are also fully manual tools where you can use a grid which is "
+"getting affected by distortion model and deformed cells defines straight "
+"lines in the footage."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:36
+msgid ""
+"You can also use the grease pencil for this -- just draw a line which "
+"should be straight on the footage using poly line brush and adjust the "
+"distortion values to make the grease pencil match lines on the footage."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:39
+msgid ""
+"To calibrate your camera more accurately, use the grid calibration tool "
+"from OpenCV. OpenCV is using the same distortion model, so it should not "
+"be a problem."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:44
+msgid "Camera and Object Motion Solving"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:46
+msgid ""
+"Blender not only supports the solving of camera motion, including tripod "
+"shots, but also the solving of object motion in relation to the motion of"
+" the camera. In addition to that there is the Plane Track, which solves "
+"the motion of all markers on one plane."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:50
+msgid ""
+"There are also plans to add more tools in the future, for example more "
+"automatic tracking and solving, multi-camera solving and constrained "
+"solutions."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:55
+msgid "Tools for Scene Orientation and Stabilization"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:57
+msgid ""
+"After solve, you need to orient the real scene in the 3D scene for more "
+"convenient compositing. There are tools to define the floor, the scene "
+"origin, and the X/Y axes to perform scene orientation."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/introduction.rst:60
+msgid ""
+"Sometimes, the video footage includes spurious jumps and tilting "
+"movements, like e.g. when using a hand held camera. Based on some tracked"
+" image elements, the "
+":doc:`/editors/movie_clip_editor/tracking/clip/properties/stabilization/index`"
+" is able to detect and compensate such movements to improve the quality "
+"of the final result."
+msgstr ""
+
+#~ msgid "Motion Tracking"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sometimes, the video footage includes "
+#~ "spurious jumps and tilting movements, "
+#~ "like e.g. when using a hand held"
+#~ " camera. Based on some tracked image"
+#~ " elements, the "
+#~ ":doc:`/editors/movie_clip_editor/tracking/clip/stabilization` is"
+#~ " able to detect and compensate such"
+#~ " movements to improve the quality of"
+#~ " the final result."
+#~ msgstr ""
+

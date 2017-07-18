@@ -1,0 +1,652 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:4
+msgid "Laplacian Smooth Modifier"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:6
+msgid ""
+"The Laplacian Smooth Modifier allows you to reduce noise on a mesh's "
+"surface with minimal changes to its shape."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:8
+msgid "It can also exaggerate the shape using a negative *Factor*."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:10
+msgid ""
+"The Laplacian Smooth is useful for objects that have been reconstructed "
+"from the real world and contain undesirable noise. It removes noise while"
+" still preserving desirable geometry as well as the shape of the original"
+" model."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:14
+msgid ""
+"The Laplacian Smooth Modifier is based on a curvature flow Laplace "
+"Beltrami operator in a diffusion equation."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:18
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:22
+msgid "Laplacian Smooth Modifier."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:105
+msgid "Repeat"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:26
+msgid ""
+"Repetitions allow you to run the Laplacian smoothing multiple times. Each"
+" repetition causes the flow curvature of the mesh to be recalculated "
+"again, and as a result it removes more noise with every new iteration "
+"using a small *Factor* < 1.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:30
+msgid "When on 0, no smoothing is done."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:34
+msgid ""
+"More repetitions will take longer to calculate. So beware of doing so on "
+"meshes with a large number of vertices."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:38
+msgid "With a factor of 0.5."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:43
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:66
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:89
+msgid "Repeat: 0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:48
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:71
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:94
+msgid "Repeat: 1."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:53
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:76
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:99
+msgid "Repeat: 5."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:58
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:81
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:104
+msgid "Repeat: 10."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:61
+msgid "With a factor of 2.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:84
+msgid "With a factor of -0.5."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:177
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:108
+msgid ""
+"Controls the amount of displacement of every vertex along the curvature "
+"flow."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:110
+msgid ""
+"Using a small *Factor*, you can remove noise from the shape without "
+"affecting desirable geometry."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:111
+msgid ""
+"Using a large *Factor*, you get smoothed versions of the shape at the "
+"cost of fine geometry details."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:112
+msgid ""
+"Using a negative *Factor*, you can enhance the shape, preserving "
+"desirable geometry."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:113
+msgid "When the *Factor* is negative, multiple iterations can magnify the noise."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:121
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:141
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:161
+msgid "Factor: 0.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:126
+msgid "Factor: 0.5."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:131
+msgid "Factor: 2.5."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:136
+msgid "Factor: 5.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:146
+msgid "Factor: 1.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:151
+msgid "Factor: 10.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:156
+msgid "Factor: 50.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:166
+msgid "Factor: -20.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:171
+msgid "Factor: -50.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:176
+msgid "Factor: -300.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:254
+msgid "Border"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:180
+msgid ""
+"Since there is no way to calculate the curvature flow on border edges, "
+"they must be controlled separately. Border edges are smoothed using a "
+"much simpler method, using this property to control the influence."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:183
+msgid ""
+"Positive values will smooth the vertex positions, while negative values "
+"will \"enhance\" them by transforming them in the opposite direction."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:187
+msgid "With a factor of 2.5."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:192
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:215
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:238
+msgid "Border: 0.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:197
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:220
+msgid "Border: 1.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:202
+msgid "Border: 2.5."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:207
+msgid "Border: 10.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:210
+msgid "With a factor of 20.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:225
+msgid "Border: 5.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:230
+msgid "Border: 20.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:233
+msgid "With a factor of -30.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:243
+msgid "Border: -20.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:248
+msgid "Border: -50.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:253
+msgid "Border: -200.0."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:303
+msgid "Axis"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:257
+msgid ""
+"Toggle buttons to enable/disable deforming vertices in the X, Y and/or Z "
+"axis directions."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:259
+msgid "X, Y, Z"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:267
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:287
+msgid "X, Y, Z: Unselected."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:272
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:292
+msgid "X, Y, Z: Selected."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:277
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:297
+msgid "X, Y: Selected."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:282
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:302
+msgid "X: Selected."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:331
+msgid "Preserve Volume"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:306
+msgid ""
+"The smoothing process can produce shrinkage. That is significant for "
+"large *Factor* or large *Repeat* values; to reduce that effect you can "
+"use this option."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:315
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:325
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:401
+msgid "Off."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:320
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:330
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:396
+msgid "On."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:380
+msgid "Vertex Group"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:334
+msgid ""
+"A vertex group name, to constrain the effect to a group of vertices only."
+" Allows for selective, real-time smoothing or enhancing, by painting "
+"vertex weights."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:341
+msgid "Original Geometry"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:342
+msgid "No Group Chosen"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:343
+msgid "Vertex Weights"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:344
+msgid "Result"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:407
+msgid "Normalized"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:383
+msgid ""
+"When enabled, the results will depend on face sizes. When disabled, "
+"geometry spikes may occur."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:391
+msgid "Original Geometry."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:406
+msgid "Off, High Factor."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:411
+msgid ""
+"Meshes with a great number of vertices, more than ten thousand (10,000), "
+"may take several minutes for processing; you can use small portions of "
+"the mesh for testing before executing the modifier on the entire model."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:417
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:424
+msgid ""
+"`Femme Front blend-file "
+"<https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:430
+msgid ""
+"`Cube Smooth blend-file "
+"<https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/deform/laplacian_smooth.rst:436
+msgid ":doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Laplacian Smooth modifier"
+#~ msgstr ""
+
+#~ msgid "Hints"
+#~ msgstr ""
+
+#~ msgid "See Also"
+#~ msgstr ""
+
+#~ msgid "When on ``0``, no smoothing is done."
+#~ msgstr ""
+
+#~ msgid "(with a *factor* of ``0.5``)"
+#~ msgstr ""
+
+#~ msgid "Repeat: ``0``"
+#~ msgstr ""
+
+#~ msgid "Repeat: ``1``"
+#~ msgstr ""
+
+#~ msgid "Repeat: ``5``"
+#~ msgstr ""
+
+#~ msgid "Repeat: ``10``"
+#~ msgstr ""
+
+#~ msgid "(with a *factor* of ``2.0``)"
+#~ msgstr ""
+
+#~ msgid "(with a *factor* of ``-0.5``)"
+#~ msgstr ""
+
+#~ msgid "Factor: ``0.0``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``0.5``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``2.5``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``5.0``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``1.0``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``10.0``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``50.0``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``-20.0``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``-50.0``"
+#~ msgstr ""
+
+#~ msgid "Factor: ``-300.0``"
+#~ msgstr ""
+
+#~ msgid "(with a *factor* of ``2.5``)"
+#~ msgstr ""
+
+#~ msgid "(with a *factor* of ``20.0``)"
+#~ msgstr ""
+
+#~ msgid "(with a *factor* of ``-30.0``)"
+#~ msgstr ""
+
+#~ msgid "Repeat: 0"
+#~ msgstr ""
+
+#~ msgid "Repeat: 1"
+#~ msgstr ""
+
+#~ msgid "Repeat: 5"
+#~ msgstr ""
+
+#~ msgid "Repeat: 10"
+#~ msgstr ""
+
+#~ msgid "Factor: 0.0"
+#~ msgstr ""
+
+#~ msgid "Factor: 0.5"
+#~ msgstr ""
+
+#~ msgid "Factor: 2.5"
+#~ msgstr ""
+
+#~ msgid "Factor: 5.0"
+#~ msgstr ""
+
+#~ msgid "Factor: 1.0"
+#~ msgstr ""
+
+#~ msgid "Factor: 10.0"
+#~ msgstr ""
+
+#~ msgid "Factor: 50.0"
+#~ msgstr ""
+
+#~ msgid "Factor: -20.0"
+#~ msgstr ""
+
+#~ msgid "Factor: -50.0"
+#~ msgstr ""
+
+#~ msgid "Factor: -300.0"
+#~ msgstr ""
+
+#~ msgid "Border: 0.0"
+#~ msgstr ""
+
+#~ msgid "Border: 1.0"
+#~ msgstr ""
+
+#~ msgid "Border: 2.5"
+#~ msgstr ""
+
+#~ msgid "Border: 10.0"
+#~ msgstr ""
+
+#~ msgid "Border: 5.0"
+#~ msgstr ""
+
+#~ msgid "Border: 20.0"
+#~ msgstr ""
+
+#~ msgid "Border: -20.0"
+#~ msgstr ""
+
+#~ msgid "Border: -50.0"
+#~ msgstr ""
+
+#~ msgid "Border: -200.0"
+#~ msgstr ""
+
+#~ msgid "X, Y, Z: Unselected"
+#~ msgstr ""
+
+#~ msgid "X, Y, Z: Selected"
+#~ msgstr ""
+
+#~ msgid "X, Y: Selected"
+#~ msgstr ""
+
+#~ msgid "X: Selected"
+#~ msgstr ""
+
+#~ msgid "Off"
+#~ msgstr ""
+
+#~ msgid "On"
+#~ msgstr ""
+
+#~ msgid "Off, High Factor"
+#~ msgstr ""
+
+#~ msgid "with a factor of -0.5"
+#~ msgstr ""
+
+#~ msgid "Factor: -20.0."
+#~ msgstr ""
+
+#~ msgid "Factor: -50.0."
+#~ msgstr ""
+
+#~ msgid "Factor: -300.0."
+#~ msgstr ""
+
+#~ msgid "with a factor of -30.0"
+#~ msgstr ""
+
+#~ msgid "Border: -20.0."
+#~ msgstr ""
+
+#~ msgid "Border: -50.0."
+#~ msgstr ""
+
+#~ msgid "Border: -200.0."
+#~ msgstr ""
+
+#~ msgid "with a factor of −0.5"
+#~ msgstr ""
+
+#~ msgid "Factor: −20.0."
+#~ msgstr ""
+
+#~ msgid "Factor: −50.0."
+#~ msgstr ""
+
+#~ msgid "Factor: −300.0."
+#~ msgstr ""
+
+#~ msgid "with a factor of −30.0"
+#~ msgstr ""
+
+#~ msgid "Border: −20.0."
+#~ msgstr ""
+
+#~ msgid "Border: −50.0."
+#~ msgstr ""
+
+#~ msgid "Border: −200.0."
+#~ msgstr ""
+
+#~ msgid "with a factor of 0.5"
+#~ msgstr ""
+
+#~ msgid "with a factor of 2.0"
+#~ msgstr ""
+
+#~ msgid "with a factor of 2.5"
+#~ msgstr ""
+
+#~ msgid "with a factor of 20.0"
+#~ msgstr ""
+
+#~ msgid ":doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`"
+#~ msgstr ""
+
+#~ msgid "Laplacian Smooth modifier."
+#~ msgstr ""
+
+#~ msgid "With a factor of 0.5 ."
+#~ msgstr ""
+
+#~ msgid "With a factor of 2.0 ."
+#~ msgstr ""
+
+#~ msgid "With a factor of -0.5 ."
+#~ msgstr ""
+
+#~ msgid "With a factor of 2.5 ."
+#~ msgstr ""
+
+#~ msgid "With a factor of 20.0 ."
+#~ msgstr ""
+
+#~ msgid "With a factor of -30.0 ."
+#~ msgstr ""
+
+#~ msgid "With a factor of 0.5."
+#~ msgstr ""
+
+#~ msgid "With a factor of 2.0."
+#~ msgstr ""
+
+#~ msgid "With a factor of -0.5."
+#~ msgstr ""
+
+#~ msgid "With a factor of 2.5."
+#~ msgstr ""
+
+#~ msgid "With a factor of 20.0."
+#~ msgstr ""
+
+#~ msgid "With a factor of -30.0."
+#~ msgstr ""
+

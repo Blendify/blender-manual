@@ -1,0 +1,243 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:6
+msgid ""
+"Blender provides a variety of tools for editing meshes. These are tools "
+"used to add, duplicate, move and delete elements."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:9
+msgid ""
+"These are available through the *Mesh Tools* shelf, the Mesh menu in the "
+"3D View header, and context menus in the 3D View, as well as individual "
+"shortcut keys."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:15
+msgid ""
+"All the \"transform precision/snap\" keys :kbd:`Ctrl` and/ or "
+":kbd:`Shift` work also for all these advanced operations... However, most"
+" of them do not have :doc:`axis locking "
+"</editors/3dview/object/editing/transform/control/precision/axis_locking>`"
+" possibilities, and some of them do not take into account :doc:`pivot "
+"point "
+"</editors/3dview/object/editing/transform/control/pivot_point/index>` "
+"and/or :doc:`transform orientation "
+"</editors/3dview/object/editing/transform/control/orientations>` either."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:23
+msgid ""
+"These transform tools are available in the *Transform* section of the "
+"*Mesh* menu in the header. Note that some of these can also be used on "
+"other editable objects, like curves, surfaces, and lattices."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:30
+msgid "Accessing Mesh Tools"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:32
+msgid ""
+"The mesh tools are found in various places, and available through "
+"shortcuts as well."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:36
+msgid "Mesh Tools Shelf"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:38
+msgid ""
+"When you select a mesh and :kbd:`Tab` into edit mode, the *Tool Shelf* "
+"changes from *Object Tools* to *Mesh Tools*. These are only some of the "
+"mesh editing tools."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:44
+msgid "Menus"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/introduction.rst:46
+msgid ""
+"The *Mesh* menu is located in the header. Some of the menus can be "
+"accessed with shortcuts: :kbd:`Ctrl-F` brings up the Face tool menu "
+":kbd:`Ctrl-E` brings up the Edge tool menu :kbd:`Ctrl-V` brings up the "
+"Vertex tool menu"
+msgstr ""
+
+#~ msgid "Mesh Editing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Mesh Tools Palette"
+#~ msgstr ""
+
+#~ msgid "Types of Tools"
+#~ msgstr ""
+
+#~ msgid "Translate"
+#~ msgstr ""
+
+#~ msgid "Rotate"
+#~ msgstr ""
+
+#~ msgid "Scale"
+#~ msgstr ""
+
+#~ msgid "Mirror"
+#~ msgstr ""
+
+#~ msgid "Shrink/Flatten/Along Normal"
+#~ msgstr ""
+
+#~ msgid "Push/Pull"
+#~ msgstr ""
+
+#~ msgid "To Sphere"
+#~ msgstr ""
+
+#~ msgid "Shear"
+#~ msgstr ""
+
+#~ msgid "Warp"
+#~ msgstr ""
+
+#~ msgid "Edge Slide"
+#~ msgstr ""
+
+#~ msgid "Vertex Slide"
+#~ msgstr ""
+
+#~ msgid "Noise"
+#~ msgstr ""
+
+#~ msgid "Smooth Vertex"
+#~ msgstr ""
+
+#~ msgid "Rotate Edge"
+#~ msgstr ""
+
+#~ msgid "Delete"
+#~ msgstr ""
+
+#~ msgid "Dissolve"
+#~ msgstr ""
+
+#~ msgid "Merge"
+#~ msgstr ""
+
+#~ msgid "Auto-Merge"
+#~ msgstr ""
+
+#~ msgid "Remove Doubles"
+#~ msgstr ""
+
+#~ msgid "Tris to Quads"
+#~ msgstr ""
+
+#~ msgid "Unsubdivide"
+#~ msgstr ""
+
+#~ msgid "Make Edge/Face"
+#~ msgstr ""
+
+#~ msgid "Fill"
+#~ msgstr ""
+
+#~ msgid "Beauty Fill"
+#~ msgstr ""
+
+#~ msgid "Solidify"
+#~ msgstr ""
+
+#~ msgid "Quads to Tris"
+#~ msgstr ""
+
+#~ msgid "Extrude Region"
+#~ msgstr ""
+
+#~ msgid "Extrude Individual"
+#~ msgstr ""
+
+#~ msgid "Subdivide"
+#~ msgstr ""
+
+#~ msgid "Loop Cut/Slide"
+#~ msgstr ""
+
+#~ msgid "Knife tool"
+#~ msgstr ""
+
+#~ msgid "Vertex connect"
+#~ msgstr ""
+
+#~ msgid "Duplicate"
+#~ msgstr ""
+
+#~ msgid "Spin"
+#~ msgstr ""
+
+#~ msgid "Screw"
+#~ msgstr ""
+
+#~ msgid "Symmetrize"
+#~ msgstr ""
+
+#~ msgid "Inset"
+#~ msgstr ""
+
+#~ msgid "Bevel"
+#~ msgstr ""
+
+#~ msgid "Wireframe"
+#~ msgstr ""
+
+#~ msgid "Rip"
+#~ msgstr ""
+
+#~ msgid "Rip fill"
+#~ msgstr ""
+
+#~ msgid "Split"
+#~ msgstr ""
+
+#~ msgid "Separate"
+#~ msgstr ""
+
+#~ msgid "Edge Split"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All the \"transform precision/snap\" keys "
+#~ ":kbd:`Ctrl` and/ or :kbd:`Shift` work "
+#~ "also for all these advanced "
+#~ "operations... However, most of them do"
+#~ " not have :doc:`axis locking "
+#~ "</editors/3dview/object/transform/control/precision/axis_locking>` "
+#~ "possibilities, and some of them do "
+#~ "not take into account :doc:`pivot point"
+#~ " </editors/3dview/object/transform/control/pivot_point/index>` "
+#~ "and/or :doc:`transform orientation "
+#~ "</editors/3dview/object/transform/control/orientations>` either."
+#~ msgstr ""
+

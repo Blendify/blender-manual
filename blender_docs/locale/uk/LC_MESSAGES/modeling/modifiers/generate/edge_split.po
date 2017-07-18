@@ -1,0 +1,142 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:4
+msgid "Edge Split Modifier"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:6
+msgid ""
+"The Edge Split Modifier splits edges within a mesh. The edges to split "
+"can be determined from the edge angle (i.e. angle between faces forming "
+"this edge), and/or edges marked as sharp."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:10
+msgid ""
+"Splitting an edge affects vertex normal generation at that edge, making "
+"the edge appear sharp. Hence, this modifier can be used to achieve the "
+"same effect as :ref:`Auto Smooth <auto-smooth>`, making edges appear "
+"sharp when their angle is above a certain threshold. It can also be used "
+"for manual control of the smoothing process, where the user defines which"
+" edges should appear smooth or sharp (see :doc:`Mesh Smoothing "
+"</modeling/meshes/editing/smoothing>` for other ways to do this). If "
+"desired, both modes can be active at once."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:18
+msgid ""
+"The output of the Edge Split Modifier is available to export scripts, "
+"making it quite useful for creators of game content."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:23
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:27
+msgid "Edge Split Modifier."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:35
+msgid "Edge Angle"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:31
+msgid ""
+"When enabled, edges will be split if the angle between its two adjacent "
+"faces is greater than the *Split Angle*."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:35
+msgid "Split Angle"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:35
+msgid "On 0: all edges are split. On 180: no edges are split."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:39
+msgid "Sharp Edges"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:38
+msgid ""
+"When enabled, edges will be split if they were marked as sharp using "
+":menuselection:`Edge Specials --> Mark Sharp` (Menu shortcut: "
+":kbd:`Ctrl-E` in Edit Mode)."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:43
+msgid ""
+":term:`Non-manifold` edges (edges shared by more than two faces) will "
+"always be split."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:47
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:53
+msgid "Flat Shading."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:57
+msgid "Smooth Shading."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:61
+msgid "Smooth Shading with Edge Split."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:65
+msgid "Smooth Shading with Edge Split and Subdivision Surface."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/edge_split.rst:70
+msgid ""
+"Splitting edges can also be performed manually in Edit Mode using: "
+":menuselection:`Edge Specials --> Edge Split` (Menu shortcut: "
+":kbd:`Ctrl-E`)."
+msgstr ""
+
+#~ msgid "On ``0``, all edges are split. On ``180``, no edges are split."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Edge Split modifier output with From Marked As Sharp selected."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Edge Split modifier splits edges "
+#~ "within a mesh. The edges to split"
+#~ " can be determined from the edge "
+#~ "angle (i.e. angle between faces forming"
+#~ " this edge), and/or edges marked as"
+#~ " sharp."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The output of the Edge Split "
+#~ "modifier is available to export scripts,"
+#~ " making it quite useful for creators"
+#~ " of game content."
+#~ msgstr ""
+
+#~ msgid "Edge Split modifier."
+#~ msgstr ""
+

@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/getting_started/installing/windows.rst:4
+msgid "Installing on MS-Windows"
+msgstr ""
+
+#: ../../manual/getting_started/installing/windows.rst:6
+msgid ""
+"Check the :doc:`minimum requirements and where to get Blender </"
+"getting_started/installing/introduction>`, if you have not done so yet."
+msgstr ""
+
+#: ../../manual/getting_started/installing/windows.rst:9
+msgid ""
+"You will also need the `Visual C++ 2013 Redistributable Package <https://www."
+"microsoft.com/en-us/download/details.aspx?id=40784>`__."
+msgstr ""
+
+#: ../../manual/getting_started/installing/windows.rst:12
+msgid ""
+"Download the ``.zip`` or ``.msi`` for your architecture (64-bit is "
+"preferable if your machine supports it)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/windows.rst:14
+msgid ""
+"The ``.msi`` will run an installer to choose where to place Blender and to "
+"configure MS-Windows to have an entry on the menu and to open .blend-files "
+"with Blender. Administrator rights are needed to install Blender on your "
+"system."
+msgstr ""
+
+#: ../../manual/getting_started/installing/windows.rst:21
+msgid "MS-Windows installer."
+msgstr ""
+
+#: ../../manual/getting_started/installing/windows.rst:25
+msgid ""
+"With ``.zip`` you have to manually extract Blender to the desired folder, "
+"where you can double-click the executable to run Blender."
+msgstr ""
+
+#: ../../manual/getting_started/installing/windows.rst:28
+msgid ""
+"There is no installer to place Blender on the menu, but there is also no "
+"need for administrator rights. With this option, it is possible to have "
+"multiple versions of Blender without conflicting, as they are not actually "
+"installed on the system."
+msgstr ""
+
+# the ou then
+#: ../../manual/getting_started/installing/windows.rst:32
+msgid ""
+"However, if you want a particular version to be registered with your "
+"computer the simply run ``blender -r`` from the :doc:`Command Line </"
+"advanced/command_line/arguments>`."
+msgstr ""

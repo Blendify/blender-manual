@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:4
+msgid "DupliFrames"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:6
+msgid ""
+"DupliFrames is a tool to duplicate objects at frames distributed along a "
+"path. This is a useful tool to quickly arrange objects."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:11
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:16
+msgid "Settings for the curve."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:19
+msgid ""
+":kbd:`Shift-A` to add a *Bézier Circle* and scale it up. In the *Curve* "
+"menu under *Path Animation* enable *Follow* and set *Frames* to something"
+" more reasonable than 100 (say 16)."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:26
+msgid "Settings for the object."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:29
+msgid ""
+"Add a *Monkey*. In the *Object* menu under *Duplication* enable *Frames* "
+"and disable *Speed*."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:31
+msgid "Speed"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:33
+msgid ""
+"The *Speed* option is used when the parent-child relationship is set to "
+"*Follow Path* (see below). In this example, the monkey will then travel "
+"along the circle over 16 frames."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:39
+msgid "Parenting."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:42
+msgid ""
+"To parent the monkey to the Bézier circle, first select the monkey then "
+"the curve (so that the curve is the active object) and :kbd:`Ctrl-P`. "
+"Select the monkey and :kbd:`Alt-O` to reset its origin."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:49
+msgid "Orientation tweaks."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:52
+msgid ""
+"You can now change the orientation of the monkey by either rotating it "
+"(either in *Edit Mode* or *Object Mode*) or by changing the *Tracking "
+"Axes* under *Relations Extras* (with the monkey selected). The "
+"arrangement of monkeys can, of course, be further enhanced by editing the"
+" curve."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:57
+msgid ""
+"To transform all monkeys into real objects, first :kbd:`Ctrl-Shift-A` to "
+"*Make Duplicates Real*. All monkeys are now real objects, but still "
+"linked copies. To change this, :menuselection:`Object --> Make Single "
+"User --> Object & Data --> All`."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:63
+msgid ""
+"There are many alternatives to Dupliframes. Which tool to use depends on "
+"context:"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:65
+msgid ""
+"To use a small curve as a profile and a larger curve as a path, simply "
+"use the former as a *Bevel Object* to the latter."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:67
+msgid ""
+"To arrange objects along a curve, combining an *Array Modifier* and a "
+"*Curve Modifier* is often useful."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:68
+msgid ""
+"Dupliverts can be used to arrange objects, for example, along a circle or"
+" across a subdivided plane."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/properties/duplication/dupliframes.rst:72
+msgid ""
+"`Blender Artists: Dupliframes in 2.5 "
+"<http://blenderartists.org/forum/showthread.php?181911-Dupliframes-"
+"in-2-5>`__"
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To transform all monkeys into real "
+#~ "objects, first :kbd:`Ctrl-Shift-A` to "
+#~ "*Make Duplicates Real*. All monkeys are"
+#~ " now real objects, but still linked"
+#~ " copies. To change this, "
+#~ ":menuselection:`Object --> Make Single User"
+#~ " --> Object&Data --> All`."
+#~ msgstr ""
+

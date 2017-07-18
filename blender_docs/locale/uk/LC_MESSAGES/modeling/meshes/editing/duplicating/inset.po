@@ -1,0 +1,197 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:4
+msgid "Inset Faces"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: "
+"Inset Faces`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst
+msgid "Menu:     :menuselection:`Mesh --> Faces --> Inset Faces`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst
+msgid "Hotkey:   :kbd:`I`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:15
+msgid ""
+"This tool takes the currently selected faces and creates an inset of "
+"them, with adjustable thickness and depth. Think of it as like creating "
+"an edge loop, but relative to the selected edges, even in complex meshes."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:19
+msgid ""
+"The tool is modal, such that when you activate it, you may adjust the "
+"thickness with your mouse position. You may also adjust the depth of the "
+"inset during the modal operation by holding :kbd:`Ctrl`."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:28
+msgid "Selection to inset."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:33
+msgid "Selection with inset."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:37
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:41
+msgid "Inset Operator Settings."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:43
+msgid "Boundary"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:44
+msgid "Determines whether open edges will be inset or not."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:45
+msgid "Offset Even"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:46
+msgid "Scale the offset to give more even thickness."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:47
+msgid "Offset Relative"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:48
+msgid "Scale the offset by surrounding geometry."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:49
+msgid "Edge Rail"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:50
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:51
+msgid "Thickness"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:52
+msgid "Set the size of the offset."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:53
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:54
+msgid "Raise or lower the newly inset faces to add depth."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:56
+msgid "Outset"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:56
+msgid ""
+"Create an outset rather than an inset. Causes the geometry to be created "
+"surrounding selection (instead of within)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:58
+msgid "Select Outer"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:59
+msgid "Toggle which side of the inset is selected after operation."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:61
+msgid "Individual"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:61
+msgid ""
+"By default the Inset tool operates on the region around selected faces, "
+"but with this option each selected face can be inset on its own."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:65
+msgid "Interpolate"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/duplicating/inset.rst:64
+msgid "Interpolate mesh data: e.g. UV's, vertex colors, weights... etc."
+msgstr ""
+
+#~ msgid "Selection to inset"
+#~ msgstr ""
+
+#~ msgid "Selection with inset"
+#~ msgstr ""
+
+#~ msgid "Inset Operator Settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Mode:     *Edit* mode"
+#~ msgstr ""
+
+#~ msgid "Mode:     Edit mode"
+#~ msgstr ""
+
+#~ msgid "Inset"
+#~ msgstr ""
+
+#~ msgid "Menu:     :menuselection:`Mesh --> Faces --> Inset`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This tool takes the currently selected"
+#~ " faces and creates an inset of "
+#~ "them, with adjustable thickness and "
+#~ "depth. The tool is modal, such "
+#~ "that when you activate it, you may"
+#~ " adjust the thickness with your mouse"
+#~ " position. You may also adjust the"
+#~ " depth of the inset during the "
+#~ "modal operation by holding :kbd:`Ctrl`."
+#~ msgstr ""
+
+#~ msgid "Set the size of the inset."
+#~ msgstr ""
+
+#~ msgid "Create an outset rather than an inset."
+#~ msgstr ""
+

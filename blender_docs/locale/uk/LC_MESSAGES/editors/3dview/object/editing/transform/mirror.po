@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:4
+msgid "Mirror"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst
+msgid "Mode:     Object and Edit Modes"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst
+msgid "Menu:     :menuselection:`Object/Mesh --> Mirror`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst
+msgid "Hotkey:   :kbd:`Ctrl-M`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:14
+msgid ""
+"Mirroring an Object or Mesh selection will create a reversed version of "
+"the selection. The position of the mirrored version of the selection is "
+"determined by the :doc:`Pivot Point "
+"</editors/3dview/object/editing/transform/control/pivot_point/index>`. A "
+"common use of mirroring is to model half an object, duplicate it and then"
+" use the mirror transform to create a reversed version to complete the "
+"model."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:22
+msgid ""
+"Mirrored duplicates can also be created with a :doc:`Mirror Modifier "
+"</modeling/modifiers/generate/mirror>`."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:28
+msgid "Mirroring a Selection."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:32
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:34
+msgid ""
+"To mirror a selection along a particular global axis press: "
+":kbd:`Ctrl-M`, followed by :kbd:`X`, :kbd:`Y` or :kbd:`Z`. The image "
+":ref:`Mirroring a Selection <fig-mesh-duplicating-mirror-selection>` "
+"shows the results of this action after a mesh element has been "
+"duplicated."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:39
+msgid ""
+"In Mesh mode, you can mirror the selection on the currently selected "
+":doc:`Transform Orientations "
+"</editors/3dview/object/editing/transform/control/orientations>` by "
+"pressing the appropriate axis key a second time. For example, if the "
+"Transform Orientation is set to *Normal*, pressing: :kbd:`Ctrl-M`, "
+"followed by :kbd:`X` and then :kbd:`X` again will mirror the selection "
+"along the X-axis of the *Normal Orientation*."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:48
+msgid "Interactive Mirror."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/mirror.rst:50
+msgid ""
+"You can alternatively hold the :kbd:`MMB` to interactively mirror the "
+"object by moving the mouse in the direction of the mirror axis."
+msgstr ""
+

@@ -1,0 +1,217 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:4
+msgid "Fluid"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:8
+msgid "Fluid Physics Settings."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:10
+msgid ""
+"Fluid simulations are widely used in CG, and a very desired feature of "
+"any particle system, fluid particles are similar to newtonian ones but "
+"this time particles are influenced by internal forces like pressure, "
+"surface tension, viscosity, springs, etc. Blender particle fluids use the"
+" SPH techniques to solve the particles fluid equations."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:15
+msgid ""
+"Smoothed-particle hydrodynamics (SPH) is a computational method used for "
+"simulating fluid flows. It has been used in many fields of research, "
+"including astrophysics, ballistics, vulcanology, and oceanography. It is "
+"a mesh-free Lagrangian method (where the co-ordinates move with the "
+"fluid), and the resolution of the method can easily be adjusted with "
+"respect to variables such as the density."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:20
+msgid ""
+"From liquids to slime, goo to sand and wispy smoke the possibilities are "
+"endless."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:24
+msgid "Settings"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:26
+msgid ""
+"Fluid physics share options with :doc:`Newtonian Physics "
+"</physics/particles/emitter/physics/newtonian>`. These are covered on "
+"that page."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:31
+msgid "Fluid Properties"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:33
+msgid "Stiffness"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:34
+msgid "How incompressible the fluid is."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:35
+msgid "Viscosity"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:36
+msgid "Linear viscosity. Use lower viscosity for thicker fluids."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:39
+msgid "Buoyancy"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:38
+msgid ""
+"Artificial buoyancy force in negative gravity direction based on pressure"
+" differences inside the fluid."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:42
+msgid "Advanced"
+msgstr "Просунуте"
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:45
+msgid "Repulsion Factor"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:45
+msgid ""
+"How strongly the fluid tries to keep from clustering (factor of "
+"stiffness). Check box sets repulsion as a factor of stiffness."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:47
+msgid "Stiff Viscosity"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:48
+msgid ""
+"Creates viscosity for expanding fluid. Check box sets this to be a factor"
+" of normal viscosity."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:49
+msgid "Interaction Radius"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:50
+msgid ""
+"Fluid's interaction radius. Check box sets this to be a factor of 4 × "
+"*particle size*."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:53
+msgid "Rest Density"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:52
+msgid ""
+"Density of fluid when at rest. Check box sets this to be a factor of "
+"default density."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:56
+msgid "Springs"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:58
+msgid "Force"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:59
+msgid "Spring force"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:61
+msgid "Rest Length"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:61
+msgid ""
+"Rest length of springs. Factor of particle radius. Check box sets this to"
+" be a factor of 2 × *particle size*."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:63
+msgid "Viscoelastic Springs"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:64
+msgid "Use viscoelastic springs instead of Hooke's springs."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:65
+msgid "Elastic Limit"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:66
+msgid ""
+"How much the spring has to be stretched/compressed in order to change its"
+" rest length"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:67
+msgid "Plasticity"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:68
+msgid ""
+"How much the spring rest length can change after the elastic limit is "
+"crossed."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:69
+msgid "Initial Rest Length"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:70
+msgid "Use initial length as spring rest length instead of 2 × *particle size*."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:73
+msgid "Frames"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/fluid.rst:72
+msgid ""
+"Create springs for this number of frames since particle's birth (0 is "
+"always)."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Fluid Physics"
+#~ msgstr ""
+
+#~ msgid "Use initial length as spring rest length instead of 2*particle size."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fluid physics share options with "
+#~ ":doc:`Newtonian Physics "
+#~ "</physics/particles/properties/physics/newtonian>`. These "
+#~ "are covered on that page."
+#~ msgstr ""
+

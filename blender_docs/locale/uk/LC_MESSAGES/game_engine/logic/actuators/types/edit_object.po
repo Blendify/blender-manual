@@ -1,0 +1,336 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:5
+msgid "Edit Object Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:7
+msgid ""
+"The *Edit Object Actuator* allows the user to edit settings of objects in"
+" game."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:11
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:13
+msgid ""
+"See :doc:`Actuator Common Options "
+"</game_engine/logic/actuators/common_options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:17
+msgid "Edit Object"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:16
+msgid "How the object is modified, each is described below."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:20
+msgid "Dynamics"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:22
+msgid ""
+"Provides a menu of *Dynamic Operations* to set up dynamics options for "
+"object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:27
+msgid "Edit Object: Dynamics."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:29
+msgid "Set Mass"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:30
+msgid "Enables the user to set the mass of the current object for Physics."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:31
+msgid "Disable Rigid Body"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:32
+msgid "Disables the Rigid Body state of the object -- disables collision."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:33
+msgid "Enable Rigid Body"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:34
+msgid "Disables the Rigid Body state of the object -- enables collision."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:35
+msgid "Suspend Dynamics"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:36
+msgid "Suspends the object dynamics (object velocity)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:39
+msgid "Restore Dynamics"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:38
+msgid "Resumes the object dynamics (object velocity)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:42
+msgid "Track To"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:44
+msgid ""
+"Makes the object \"look at\" another object, in 2D or 3D. The Y-axis is "
+"considered the front of the object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:50
+msgid "Edit Object: Track To."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:53
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:103
+msgid "Object"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:54
+msgid "Object to follow."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:55
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:106
+msgid "Time"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:56
+msgid "Number of frames it will take to turn towards the target object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:59
+msgid "3D Button (toggle)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:58
+msgid "Enable 2D (X, Y) or 3D (X, Y, Z) tracking."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:62
+msgid "Replace Mesh"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:64
+msgid ""
+"Replace mesh with another. Both the mesh and/or its physics can be "
+"replaced, together or independently."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:70
+msgid "Edit Object: Replace Mesh."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:72
+msgid "Mesh"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:73
+msgid "Name of mesh to replace the current mesh."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:74
+msgid "Gfx Button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:75
+msgid "Replace visible mesh."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:78
+msgid "Phys Button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:77
+msgid "Replace physics mesh (not compound shapes)"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:81
+msgid "End Object"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:83
+msgid ""
+"Destroy the current object (Note, debug properties will display error "
+"Zombie Object in console)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:88
+msgid "Edit Object: End Object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:92
+msgid "Add Object"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:94
+msgid ""
+"Adds an object at the center of the current object. The object that is "
+"added needs to be on another, hidden, layer."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:100
+msgid "Edit Object: Add Object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:104
+msgid "The name of the object that is going to be added."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:106
+msgid ""
+"The time (in frames) the object stays alive before it disappears. Zero "
+"makes it stay forever."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:109
+msgid "Linear Velocity"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:109
+msgid ""
+"Linear Velocity, works like in the motion actuator but on the created "
+"object instead of the object itself. Useful for shooting objects, create "
+"them with an initial speed."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:113
+msgid "Angular Velocity"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/edit_object.rst:112
+msgid ""
+"Angular velocity, works like in the motion actuator but on the created "
+"object instead of the object itself."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "**Add Object**"
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator"
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Dynamics"
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Track to"
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Replace Mesh"
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - End Object"
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Add Object"
+#~ msgstr ""
+
+#~ msgid "*Dynamics* *Track To* *Replace Mesh* *End Object* *Add Object*"
+#~ msgstr ""
+
+#~ msgid "Disables the Rigid Body state of the object - disables collision."
+#~ msgstr ""
+
+#~ msgid "Disables the Rigid Body state of the object - enables collision."
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - End Object."
+#~ msgstr ""
+
+#~ msgid "Adds an object at the centre of the current object."
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Dynamics."
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Track to."
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Replace Mesh."
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator -- End Object."
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator - Add Object."
+#~ msgstr ""
+
+#~ msgid "Menu of options for Edit Object actuator"
+#~ msgstr ""
+
+#~ msgid "Enable 2D (X,Y) or 3D (X,Y,Z) tracking."
+#~ msgstr ""
+
+#~ msgid "Special Options:"
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator."
+#~ msgstr ""
+
+#~ msgid "Menu of options for Edit Object actuator."
+#~ msgstr ""
+
+#~ msgid ":menuselection:`Edit Object actuator --> Dynamics`."
+#~ msgstr ""
+
+#~ msgid ":menuselection:`Edit Object actuator --> Track to`."
+#~ msgstr ""
+
+#~ msgid ":menuselection:`Edit Object actuator --> Replace Mesh`."
+#~ msgstr ""
+
+#~ msgid "name of mesh to replace the current mesh."
+#~ msgstr ""
+
+#~ msgid "replace visible mesh."
+#~ msgstr ""
+
+#~ msgid "replace physics mesh (not compound shapes)"
+#~ msgstr ""
+
+#~ msgid ":menuselection:`Edit Object actuator --> End Object`."
+#~ msgstr ""
+
+#~ msgid ":menuselection:`Edit Object actuator --> Add Object`."
+#~ msgstr ""
+
+#~ msgid "Adds an object at the center of the current object."
+#~ msgstr ""
+
+#~ msgid "The object that is added needs to be on another, hidden, layer."
+#~ msgstr ""
+
+#~ msgid "The name of the object that is going to be added.:"
+#~ msgstr ""
+

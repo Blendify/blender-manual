@@ -1,0 +1,126 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:4
+msgid "Bisect"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: "
+"Bisect`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst
+msgid "Menu:     :menuselection:`Mesh --> Bisect`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:14
+msgid "The bisect tool is a quick way to cut a mesh in-two along a custom plane."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:16
+msgid "Plane Point, Plane Normal"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:17
+msgid "The plane can be numerically adjusted for precise values."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:19
+msgid "Fill"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:19
+msgid ""
+"Cuts can optionally fill in the holes created, with materials, UV maps, "
+"and vertex-colors based on the surrounding geometry."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:21
+msgid "Clear Inner, Clear Outer"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:22
+msgid "Cuts may remove geometry on one side."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:25
+msgid "Axis Threshold"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:24
+msgid ""
+"Cut along the straight plane or along the existing geometry below the "
+"distance from the plane."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:28
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:35
+msgid "Example of a common use of bisect."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bisect.rst:40
+msgid "Example of bisect with fill option"
+msgstr ""
+
+#~ msgid "Example of a common use of bisect"
+#~ msgstr ""
+
+#~ msgid "Mode:     *Edit* mode"
+#~ msgstr ""
+
+#~ msgid "Mode:     Edit mode"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Mesh Bisect"
+#~ msgstr ""
+
+#~ msgid "There are three important differences between this and the knife tool."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The plane can be numerically adjusted"
+#~ " in the operator panel for precise"
+#~ " values."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Cuts can optionally fill in the "
+#~ "holes created, with materials and UVs"
+#~ " & vertex-colors based on the "
+#~ "surrounding geometry."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This means the bisect tool can cut"
+#~ " off parts of a mesh without "
+#~ "creating any holes."
+#~ msgstr ""
+

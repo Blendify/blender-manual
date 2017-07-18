@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:7
+msgid "Color Ramp Node"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:12
+msgid "Color Ramp Node."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:14
+msgid ""
+"The Color Ramp Node is used for mapping values to colors with the use of "
+"a gradient."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:18
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:22
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:21
+msgid "The Factor input is used as an index for the color ramp."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:25
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:29
+msgid "Color Ramp"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:28
+msgid "For controls see :ref:`ui-color-ramp-widget`."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:32
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:34
+msgid "Image"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:35
+msgid "Standard image output."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:38
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:37
+msgid "Standard alpha output."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:41
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:44
+msgid "Creating an Alpha Mask"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:46
+msgid ""
+"A powerful but often overlooked feature of the Color Ramp is to create an"
+" Alpha Mask, or a mask that is overlaid on top of another image, and, "
+"like a mask, allows some of the background to show through. The example "
+"map below shows how to use the Color Ramp node to do this:"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:54
+msgid "Using the Color Ramp node to create an alpha mask."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:57
+msgid ""
+"In the map above, a black and white swirl image, which is lacking an "
+"alpha channel, is fed into the Color Ramp node as a *Factor*. "
+"(Technically, we should have converted the image to a value using the "
+"RGB-to-BW node, buy hey, this works just as well since we are using a BW "
+"image as input.)"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:62
+msgid ""
+"We have set the Color Ramp node to a purely transparent color on the left"
+" end of the spectrum, and a fully Red color on the right. As seen in the "
+"viewer, the Color Ramp node puts out a mask that is fully transparent "
+"where the image is black. Black is zero, so Color Ramp uses the color at "
+"the left end of the spectrum, which we have set to transparent. The Color"
+" Ramp image is fully red and opaque where the image is white (1.00)."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:69
+msgid ""
+"We verify that the output image mask is indeed transparent by overlaying "
+"it on top of a other image."
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:74
+msgid "Colorizing an Image"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:76
+msgid ""
+"The real power of Color Ramp is that multiple colors can be added to the "
+"color spectrum. This example compositing map takes a boring BW image and "
+"makes it a flaming swirl!"
+msgstr ""
+
+#: ../../manual/compositing/types/converter/color_ramp.rst:82
+msgid ""
+"In this example, we have mapped the shades of gray in the input image to "
+"three colors, blue, yellow, and red, all fully opaque (Alpha of 1.00). "
+"Where the image is black, Color Ramp substitutes blue, the currently "
+"selected color. Where it is some shade of gray, Color Ramp chooses a "
+"corresponding color from the spectrum (bluish, yellow, to reddish). Where"
+" the image is fully white, Color Ramp chooses red."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Inputs"
+#~ msgstr ""
+
+#~ msgid "Outputs"
+#~ msgstr ""
+
+#~ msgid "Input"
+#~ msgstr ""
+
+#~ msgid "Output"
+#~ msgstr ""
+
+#~ msgid "For controls see :ref:`ui-color_ramp_widget`."
+#~ msgstr ""
+
+#~ msgid "ColorRamp Node"
+#~ msgstr ""
+
+#~ msgid "Fac"
+#~ msgstr ""
+
+#~ msgid "Using ColorRamp to create an Alpha Mask"
+#~ msgstr ""
+
+#~ msgid "Using the ColorRamp node to create an alpha mask."
+#~ msgstr ""
+
+#~ msgid "Using ColorRamp to Colorize an Image"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We verify that the output image "
+#~ "mask is indeed transparent by overlaying"
+#~ " it on top of a pumpkin image."
+#~ " For fun, we made that Alpha "
+#~ "Over node output image 0.66 transparent"
+#~ " so that we can, in the future,"
+#~ " overlay the image on a flashing "
+#~ "white background to simulate a scary "
+#~ "scene with lighting flashes."
+#~ msgstr ""
+

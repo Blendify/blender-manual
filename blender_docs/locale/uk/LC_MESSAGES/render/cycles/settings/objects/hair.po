@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:4
+msgid "Hair Particles"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:6
+msgid ""
+"These are extra settings for :doc:`Hair Particles "
+"</physics/particles/hair/index>` used by Cycles."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:10
+msgid ""
+"There are also scene level hair settings which can be found with the "
+":ref:`Geometry <cycles-settings-scene-render-geometry>` settings."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:15
+msgid "Hair Settings"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:17
+msgid ""
+"The Cycles Hair Settings, under the particle tab, are used to control "
+"each hair particle system's strand properties."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:24
+msgid "Shape"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:20
+msgid ""
+"A shape parameter that controls the transition in thickness between the "
+"root and tip. Negative values make the primitive rounded more towards the"
+" top, the value of zero gives makes the primitive linear, and positive "
+"values makes the primitive rounded more towards the bottom."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:27
+msgid "Thickness"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:29
+msgid "Root"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:30
+msgid "Multiplier of the hair width at the root."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:31
+msgid "Tip"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:32
+msgid "Multiplier of the hair width at the tip."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:36
+msgid "Scaling"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:34
+msgid ""
+"Multiplier for the *Root* and *Tip* values. This can be used to change "
+"the thickness of the hair."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:40
+msgid "Close tip"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:39
+msgid ""
+"Sets the thickness at the tip to zero, even when using a non-zero tip "
+"multiplier."
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:43
+msgid "Texture"
+msgstr ""
+
+#: ../../manual/render/cycles/settings/objects/hair.rst:45
+msgid "ToDo"
+msgstr ""
+
+#~ msgid "Hair Rendering"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These are global settings that apply "
+#~ "to all instances of hair systems. "
+#~ "They can be found inside the "
+#~ "*Cycles Hair Rendering* panel under the"
+#~ " particle tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The resolution of the strands is "
+#~ "controlled by the step values in "
+#~ "particle settings. Each hair system uses"
+#~ " the material identified in the "
+#~ "particle settings in the same way "
+#~ "as Blender Internal."
+#~ msgstr ""
+
+#~ msgid "Primitive"
+#~ msgstr ""
+
+#~ msgid "Triangles"
+#~ msgstr ""
+
+#~ msgid "Uses a triangle mesh."
+#~ msgstr ""
+
+#~ msgid "Resolution"
+#~ msgstr ""
+
+#~ msgid "ToDo."
+#~ msgstr ""
+
+#~ msgid "Line Segments"
+#~ msgstr ""
+
+#~ msgid "Uses a straight curve primitive."
+#~ msgstr ""
+
+#~ msgid "Curve Segments"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses a smooth Cardinal curve primitive."
+#~ " These interpolate a path through the"
+#~ " curve keys. However, it renders "
+#~ "slower than line segments."
+#~ msgstr ""
+
+#~ msgid "Curve Subdivisions"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The interpolated path is subdivided to"
+#~ " give points to connect. The "
+#~ "parameter subdivisions sets the number "
+#~ "of divisions used."
+#~ msgstr ""
+
+#~ msgid "Further Options"
+#~ msgstr ""
+
+#~ msgid "Thick"
+#~ msgstr ""
+
+#~ msgid "Cylindrical segments between two points."
+#~ msgstr ""
+
+#~ msgid "Ribbons"
+#~ msgstr ""
+
+#~ msgid "Are flat planes following the strand direction facing the camera."
+#~ msgstr ""
+
+#~ msgid "Cull back-faces"
+#~ msgstr ""
+
+#~ msgid "Excludes strands emitted from the mesh back facing the camera."
+#~ msgstr ""
+
+#~ msgid "Min Pixels"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Strands that are further away will "
+#~ "be made wider, which is compensated "
+#~ "with transparency to keep the look "
+#~ "similar. This effect is only applied "
+#~ "for camera rays. It works best "
+#~ "with ribbon primitives."
+#~ msgstr ""
+
+#~ msgid "Max Extension"
+#~ msgstr ""
+

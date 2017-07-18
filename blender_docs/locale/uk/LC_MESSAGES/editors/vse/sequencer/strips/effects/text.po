@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:4
+msgid "Text Effect"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:6
+msgid ""
+"The text effect strip allows you to directly displaying text in the "
+"sequence editor. The strip will display the text inserted in its text "
+"field on the final sequence."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:11
+msgid "Text Effect."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:15
+msgid "Options"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:17
+msgid "Text"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:18
+msgid "The actual text displayed."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:19
+msgid "Size"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:20
+msgid "Size of the text."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:21
+msgid "Color"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:22
+msgid "The text color."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:23
+msgid "Shadow"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:24
+msgid "Creates a shadow under the text."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:25
+msgid "Align X, Y"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:26
+msgid ""
+"Horizontal (X) or vertical (Y) alignment of the text relative to the "
+"location."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:27
+msgid "Location X, Y"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:28
+msgid "Positions the text on the X, Y axis."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:29
+msgid "Wrap Width"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:30
+msgid "Todo,"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:34
+msgid "Export Subtitles"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/strips/effects/text.rst:32
+msgid ""
+"Exporting subtitles in .srt format is also supported. The exported "
+"subtitles contain all text strips in the sequence editing."
+msgstr ""
+

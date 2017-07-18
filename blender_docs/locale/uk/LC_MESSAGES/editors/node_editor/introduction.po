@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/node_editor/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/node_editor/introduction.rst:8
+msgid "The Node Editor."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:10
+msgid ""
+"The *Node Editor* is used to work with node-based work flows. The node "
+"tree type can be changed using the buttons in the Node editor header. "
+"However, here we will only give an overview of what the *Node Editor* is."
+" In the list below it shows a list of different types of node trees and "
+"where each is documented."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:22
+msgid "Icon"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:23
+msgid "Name"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:24
+msgid "Documentation"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:27
+msgid "Material Nodes"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:28
+msgid ""
+"Because there are two different render engines documentation is split "
+"between :doc:`Blender Internal "
+"</render/blender_render/materials/nodes/index>` and :doc:`Cycles "
+"</render/cycles/nodes/index>`."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:32
+msgid "Composite Nodes"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:33
+msgid ""
+"Documentation can be found in the :doc:`Compositing </compositing/index>`"
+" section."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:36
+msgid "Texture Nodes"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:37
+msgid ""
+"Texture Nodes are covered in the :doc:`Blender Internal "
+"</render/blender_render/textures/nodes/introduction>` docs."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:40
+msgid ""
+"After choosing what node context you want to use, you have to enable "
+"nodes with the *Use Nodes* button."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:44
+msgid "Interface"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:47
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:49
+msgid ""
+"The *Header* contains various menus, buttons and options, partially based"
+" on the current node tree type."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:53
+msgid "Common Node Header Options."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:55
+msgid "View"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:56
+msgid "This menu changes your view of the editor."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:57
+msgid "Select"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:58
+msgid "This menu allows you to select a node or groups of nodes."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:59
+msgid "Add"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:60
+msgid "This menu allows you to add nodes."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:61
+msgid "Node"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:62
+msgid "To do things with selected nodes, akin to vertices."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:63
+msgid "Material, Compositing or Texture buttons"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:64
+msgid ""
+"Nodes are grouped into three categories, to see the list see :ref:`Node "
+"Tree Types <node-tree-types>`."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:66
+msgid "Use Nodes"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:66
+msgid ""
+"Tells the render engine to use the node map in computing the material "
+"color or rendering the final image, or not. If not, the map is ignored "
+"and the basic render of the material tabs or scene is accomplished."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:69
+msgid "Use Pinned"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:69
+msgid ""
+"When enabled, the editor will retain the material or texture, even when "
+"the user selects a different object. A node tree can then be edited "
+"independent of the object selection in the 3D view."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:73
+msgid "Go to Parent button"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:72
+msgid "This button allows you go to parent node tree e.g. leaving a group."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:78
+msgid "Auto-offset"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:80
+msgid ""
+"When you drop a node with at least one input and one output socket onto "
+"an existing connection between two nodes, auto-offset will, depending on "
+"the direction setting, automatically move the left or right node away to "
+"make room for the new node. Auto-offset is a feature that helps "
+"organizing node layouts interactively without interrupting the user "
+"workflow."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:87
+msgid ""
+"Auto-offset is enabled by default, but it can be disabled from the Node "
+"editor header."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:89
+msgid ""
+"You can toggle the offset direction while you are moving the node by "
+"pressing :kbd:`T`."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:91
+msgid ""
+"The offset margin can be changed using the *Auto-offset Margin* setting "
+"in the editing section of the User Preferences."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:94
+msgid "Example Video:"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:96
+msgid ""
+"`Auto-Offset. A workflow enhancement for Blender’s node editor. "
+"<https://vimeo.com/135125839>`__"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:100
+msgid "Further Menus"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:102
+msgid "Snap"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:103
+msgid "Toggle snap mode for node in the Node Editor."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:110
+msgid "Snap Node Element Selector"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:105
+msgid "This selector provide the follow node elements for snap:"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Grid"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:107
+msgid "(default) Snap to grid of the Node Editor."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Node X"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:108
+msgid "Snap to left/right node border."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Node Y"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:109
+msgid "Snap to top/bottom node border."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Node X/Y"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:110
+msgid "Snap to any node border."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:118
+msgid "Snap Target"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:113
+msgid "Which part to snap onto the target."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Closest"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:115
+msgid "Snap closest point onto target."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Center"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:116
+msgid "Snap center onto target."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Median"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:117
+msgid "Snap median onto target."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst
+msgid "Active"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:118
+msgid "Snap active onto target."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:120
+msgid "Copy Nodes"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:121
+msgid "This button allows you copy selected nodes to the clipboard."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:124
+msgid "Paste Nodes"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:123
+msgid ""
+"This button allows you paste nodes from the clipboard to the active node "
+"tree."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:127
+msgid "Tool Shelf"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:129
+msgid ""
+"The *Tool Shelf* is a context-sensitive region, natively containing tools"
+" for the Grease Pencil and buttons for adding nodes. The Tool Shelf is "
+"organized using tabs."
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:134
+msgid "Properties Region"
+msgstr ""
+
+#: ../../manual/editors/node_editor/introduction.rst:136
+msgid ""
+"The *Properties Region* contains properties for the current selected node"
+" as well as Node editor specific settings."
+msgstr ""
+
+#~ msgid "Regions of the Node Editor"
+#~ msgstr "Régions de l'Éditeur de nœuds"
+
+#~ msgid "Navigating"
+#~ msgstr "Navigation"
+
+#~ msgid "Move the view up, down, left and right"
+#~ msgstr "Déplace la vue haut, bas, gauche, droite"
+
+#~ msgid "Move the camera forwards and backwards"
+#~ msgstr "Déplace la caméra en avant et en arrière"
+
+#~ msgid "Grid"
+#~ msgstr ""
+
+#~ msgid "Node X"
+#~ msgstr ""
+
+#~ msgid "Node Y"
+#~ msgstr ""
+
+#~ msgid "Node X/Y"
+#~ msgstr ""
+
+#~ msgid "Closest"
+#~ msgstr ""
+
+#~ msgid "Center"
+#~ msgstr ""
+
+#~ msgid "Median"
+#~ msgstr ""
+
+#~ msgid "Active"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+

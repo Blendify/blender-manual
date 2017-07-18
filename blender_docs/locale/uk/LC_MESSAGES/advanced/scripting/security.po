@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-16 17:36+0300\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/advanced/scripting/security.rst:4
+msgid "Scripting & Security"
+msgstr "Скриптування та Безпека"
+
+#: ../../manual/advanced/scripting/security.rst:6
+msgid "The ability to include Python scripts within blend-files is valuable for advanced tasks such as rigging, automation and using the Game Engine. However, it poses a security risk since Python does not restrict what a script can do."
+msgstr "Можливість включення скриптів Python у blend-файли є цінною для просунутих завдань таких, як оснащення, автоматизація та використання ігрового рушія Game Engine. Однак це створює ризик для безпеки, оскільки Python не обмежує те, що може робити скрипт."
+
+#: ../../manual/advanced/scripting/security.rst:10
+msgid "Therefore, you should only run scripts from sources you know and trust."
+msgstr "Тому, вам слід виконувати скрипти лише джерел, які ви знаєте та яким довіряєте."
+
+#: ../../manual/advanced/scripting/security.rst:12
+msgid "Automatic execution is disabled by default, however, some blend-files need this to function properly."
+msgstr "Автоматичне виконання стандартно вимкнене, однак, деякі з blend-файлів потребують його для правильного функціонуванн."
+
+#: ../../manual/advanced/scripting/security.rst:15
+msgid "When a blend-file tries to execute a script and is not allowed, a message will appear in the header with the option to **Reload Trusted** or **Ignore** the message."
+msgstr "При спробі blend-файлом виконати скрипт і при відсутності дозволу на це у заголовку вікна з'являється повідомлення про це з кнопками «Перевантажити Довірене» **Reload Trusted** та «Ігнорувати» **Ignore**."
+
+#: ../../manual/advanced/scripting/security.rst:20
+msgid "Info Header."
+msgstr "Заголовок вікна «Інфо» -- Info."
+
+#: ../../manual/advanced/scripting/security.rst:24
+msgid "Scripts in Blend Files"
+msgstr "Скрипти у blend-файлах"
+
+#: ../../manual/advanced/scripting/security.rst:27
+msgid "Auto Execution"
+msgstr "Авто Виконання"
+
+#: ../../manual/advanced/scripting/security.rst:29
+msgid "Here are the different ways blend-files may automatically run scripts."
+msgstr "Ось різні способи, якими blend-файли можуть автоматично запускати скрипти."
+
+#: ../../manual/advanced/scripting/security.rst:31
+msgid "Registered Text-Blocks"
+msgstr "Зареєстровані текстові блоки"
+
+#: ../../manual/advanced/scripting/security.rst:32
+msgid "A text block can have its *Register* option enabled which means it will load on start."
+msgstr "Текстовий блок може мати увімкнену опцію реєстрації *Register*, що означає, що він буде завантажуватися при запуску програми."
+
+#: ../../manual/advanced/scripting/security.rst:33
+msgid "Animation Drivers"
+msgstr "Драйвери Анімації"
+
+#: ../../manual/advanced/scripting/security.rst:34
+msgid "Python expressions can be used to *Drive* values and are often used in more advanced rigs and animations."
+msgstr "Вирази на Python можуть бути використані для значень *Drive* та часто використовуються у більш просунутих оснастках та анімаціях."
+
+#: ../../manual/advanced/scripting/security.rst:37
+msgid "Game Engine Auto-Start"
+msgstr "Авто-Старт Ігрового Рушія"
+
+#: ../../manual/advanced/scripting/security.rst:36
+msgid "Scripts are often used for game logic, blend-files can have *Auto Start* enabled with runs the game on load."
+msgstr "Скрипти часто використовуються для ігрової логіки, а blend-файли з ними можуть мати увімкнену опцію авто-старту *Auto Start* для запуску гри при запуску програми."
+
+#: ../../manual/advanced/scripting/security.rst:40
+msgid "Manual Execution"
+msgstr "Виконання Вручну"
+
+#: ../../manual/advanced/scripting/security.rst:42
+msgid "There are other ways scripts in a blend-file may execute that require user interaction (therefore will run even when auto-execution is off), but you should be aware that this is the case since it is not necessarily obvious."
+msgstr "Існують і інші способи, якими можна запускати скрипти у blend-файлах, які вимагають взаємодії користувача (а тому ці скрипти будуть запускатися, коли опція авто-виконання вимкнута), але ви повинні знати, що так буває, і це не є обов'язково очевидним."
+
+#: ../../manual/advanced/scripting/security.rst:47
+msgid "Running a script in the text editor."
+msgstr "Виконання скрипту у текстовому редакторі."
+
+#: ../../manual/advanced/scripting/security.rst:48
+msgid "Rendering with FreeStyle, because FreeStyle uses scripts to control line styles."
+msgstr "Зображування рушієм FreeStyle, оскільки цей рушій використовує скрипти для керування стилями ліній."
+
+#: ../../manual/advanced/scripting/security.rst:49
+msgid "Running the Game Engine."
+msgstr "Виконання Ігровим Рушієм."
+
+#: ../../manual/advanced/scripting/security.rst:53
+msgid "Controlling Script Execution"
+msgstr "Керування Виконанням Скрипту"
+
+#: ../../manual/advanced/scripting/security.rst:55
+msgid "Blender provides a number of ways to control whether scripts from a blend-file are allowed to automatically execute."
+msgstr "Blender передбачає кілька способів контролювання, чи скриптам з blend-файлу дозволено автоматично виконуватися."
+
+#: ../../manual/advanced/scripting/security.rst:58
+msgid "First of all, the File Browser has the option **Trusted Source** which you can use on a case-by-case basis to control auto-execution."
+msgstr "Перш за все, Оглядач Файлів -- File Browser має опцію «Довірене Джерело» **Trusted Source**, яка може використовуватися у кожному конкретному випадку для керування авто-виконанням."
+
+#: ../../manual/advanced/scripting/security.rst:61
+msgid "However, you may forget to set this, or open a file without going through the File Browser -- so you can change the default (described next)."
+msgstr "Однак, ви можете забути про цю установку або відкривати файл не через Оглядач Файлів -- а тому існує можливість зміни стандартної поведінки опції авто-виконання (описана нижче)."
+
+#: ../../manual/advanced/scripting/security.rst:67
+msgid "Setting Defaults"
+msgstr "Установлення Стандартів"
+
+#: ../../manual/advanced/scripting/security.rst:69
+msgid "In the *File* tab of the User Preferences, there is the toggle :ref:`Auto Run Python Scripts <prefs-auto-execution>`."
+msgstr "У вкладці «Файл»*File* вікна Уподобання Користувача є стяг-перемикач «Авто Виконувати Скрипти Python» :ref:`Auto Run Python Scripts <prefs-auto-execution>`."
+
+#: ../../manual/advanced/scripting/security.rst:72
+msgid "This means the **Trusted Source** option in the File Browser will be enabled by default, and scripts can run when blend-files are loaded without using the File Browser."
+msgstr "При увімкненні це означатиме, що опція «Довірене Джерело» **Trusted Source** в Оглядачі Файлів також буде стандартно увімкнена і скрипти зможуть виконуватися при завантаженні blend-файлів у Blender без потреби використання Оглядача Файлів."
+
+#: ../../manual/advanced/scripting/security.rst:75
+msgid "Once enabled you have the option to exclude certain directories, a typical configuration would be to trust all paths except for the download directory."
+msgstr "Після увімкнення цієї опції в Уподобаннях Користувача ви можете задати винятки її застосування для файлів із зазначених тек, інакше типова конфігурація буде довіряти всім шляхам, окрім типової теки для звантажень."
+
+#: ../../manual/advanced/scripting/security.rst:80
+msgid "Auto Run Python Scripts"
+msgstr "Авто Виконання Скриптів Python"
+
+#: ../../manual/advanced/scripting/security.rst:84
+msgid "Command Line"
+msgstr "Командний Рядок"
+
+#: ../../manual/advanced/scripting/security.rst:86
+msgid "You may want to perform batch rendering or some other task from the command line -- running Blender without an interface."
+msgstr "Ви можете забажати здійснювати пакетне зображування або деякі інші завдання з командного рядка -- виконуючи Blender без інтерфейс."
+
+#: ../../manual/advanced/scripting/security.rst:89
+msgid "In this case, the User Preferences are still used but you may want to override them:"
+msgstr "У такому випадку, Уподобання Користувача (User Preferences) все одно будуть використовуватися і вам слід змінювати стан цієї опції через командний рядок:"
+
+#: ../../manual/advanced/scripting/security.rst:91
+msgid "Enable with ``-y`` or ``--enable-autoexec``"
+msgstr "Умикання здійснюється через додання до команди виконання Blender'а аргументу ``-y`` або ``--enable-autoexec``"
+
+#: ../../manual/advanced/scripting/security.rst:92
+msgid "Disable with ``-Y`` or ``--disable-autoexec``"
+msgstr "Вимикання здійснюється через додання до команди виконання Blender'а аргументу ``-Y`` or ``--disable-autoexec``"
+
+#: ../../manual/advanced/scripting/security.rst:96
+msgid "Example"
+msgstr "Приклад"
+
+#: ../../manual/advanced/scripting/security.rst:98
+msgid "Rendering an animation in background mode, allowing drivers and other scripts to run:"
+msgstr "Зображування анімації у фоновому режими з дозволом виконання драйверів та інших скриптів:"
+
+#: ../../manual/advanced/scripting/security.rst:106
+msgid "These command line arguments can be used to start a regular Blender instance and will still override the User Preferences."
+msgstr "Ці аргументи командного рядка можуть використовуватися для запуску звичайного примірника Blender'а та заміщувати Уподобання Користувача."

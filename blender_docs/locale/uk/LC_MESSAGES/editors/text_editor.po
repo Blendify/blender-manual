@@ -1,0 +1,407 @@
+#
+# urko <urkokul@gmail.com>, 2016, 2017.
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/text_editor.rst:4
+msgid "Text Editor"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:6
+msgid ""
+"Blender has a *Text Editor* among its editor types, accessible via the "
+"*Editor type* menu, or the shortcut :kbd:`Shift-F11`."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:11
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:13
+msgid ""
+"The newly opened Text editor is gray and empty, with a very simple header"
+" Fig. :ref:`fig-text-header-plain`"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:20
+msgid "Text header."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:26
+msgid "Text header with a text loaded."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:28
+msgid "Editor type"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:29
+msgid "The standard editor selection button."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:30
+#: ../../manual/editors/text_editor.rst:53
+msgid "Menus"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:31
+msgid "Editors `Menus`_."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:34
+#: ../../manual/editors/text_editor.rst:75
+msgid "Text"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:33
+msgid ""
+"Data-block menu. Once a text is selected or newly created, the header "
+"changes. Fig. :ref:`fig-text-header-full`"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:39
+msgid "Show"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:37
+msgid "The following three buttons toggle display options."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:39
+msgid "Line numbers, word-wrap text, syntax highlighting"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:43
+msgid "Run Script/ Script Node Update"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:44
+#: ../../manual/editors/text_editor.rst:75
+msgid ""
+"Executes the text as a Python script :kbd:`Alt-P`. See `Script and "
+"Templates`_."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:45
+msgid "Register"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:46
+msgid "Todo."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:50
+msgid "Label"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:48
+msgid ""
+"This Label shows, if the text is saved internal or external and if there "
+"are unsaved changes to an external file."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:58
+msgid "View"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:56
+msgid "Bottom of File"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:57
+msgid "Moves the view and cursor to the end of the text."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:58
+msgid "Top of File"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:59
+msgid "Moves the view and cursor to the start of the text."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:61
+msgid "Create Text Block"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:62
+msgid "Creates a new internal text."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:63
+msgid "Open Text Block"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:64
+msgid ""
+"Loads a text, a :doc:`File Browser </editors/file_browser/index>` appears"
+" :kbd:`Alt-O`."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:65
+msgid "Reload"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:66
+msgid ""
+"Reopens (reloads) the current buffer (all non-saved modifications are "
+"lost) :kbd:`Alt-R`."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:67
+msgid "Save"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:68
+msgid "Saves an already open file :kbd:`Alt-S`."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:70
+msgid "Save As"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:70
+msgid ""
+"Saves unsaved text as a text file, a :doc:`File Browser "
+"</editors/file_browser/index>` appears :kbd:`Shift-Ctrl-Alt-S`."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:72
+msgid "Make Internal"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:73
+msgid "Stores the text inside the blend-file."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:75
+msgid "Run Script"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:98
+msgid "Edit"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:78
+msgid "Cut :kbd:`Ctrl-X`"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:79
+msgid "Cuts out the marked text into the text clipboard."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:80
+msgid "Copy :kbd:`Ctrl-C`"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:81
+msgid "Copies the marked text into the text clipboard."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:82
+msgid "Paste :kbd:`Ctrl-V`"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:83
+msgid ""
+"Pastes the text from the clipboard at the cursor location in the Text "
+"editor."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:84
+msgid "Duplicate Line :kbd:`Ctrl-D`"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:85
+msgid "Duplicates the current line."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:86
+msgid "Move line(s) up"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:87
+msgid "Swaps the current line with the above."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:88
+msgid "Move line(s) down"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:89
+msgid "Swaps the current line with the below."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:90
+msgid "Select"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:91
+msgid "Select Line, Select All."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:92
+msgid "Jump"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:93
+msgid ""
+"Shows the Jump pop-up, which lets you select a line number where to jump "
+"to."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:94
+msgid "Find..."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:95
+msgid "Shows the Find panel in the Properties Region."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:96
+msgid "Text Auto Complete :kbd:`Ctrl-Spacebar`"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:97
+msgid ""
+"Shows a selectable list of Python commands and matching against words "
+"already used in the text."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:98
+msgid "Text To 3D Object"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:99
+msgid "One Object, One Object per line."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:109
+msgid "Format"
+msgstr "Формат"
+
+#: ../../manual/editors/text_editor.rst:101
+msgid "Indent"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:102
+msgid "Indents the selection :kbd:`Tab`."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:103
+msgid "Unindent"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:104
+msgid "Un-indents the selection :kbd:`Shift-Tab`."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:105
+msgid "Comment"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:106
+msgid "Turns the selected lines into a Python comment."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:107
+msgid "Uncomment"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:108
+msgid "Uncomments the selected lines."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:109
+msgid "Convert Whitespace"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:110
+msgid "Converts between tab or space indentation."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:115
+msgid "Template"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:112
+msgid "See `Script and Templates`_."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:114
+msgid "Python, OpenShading Language"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:118
+msgid "Script and Templates"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:120
+msgid ""
+"The most notable keystroke is :kbd:`Alt-P` which makes the content of the"
+" buffer being parsed by the internal Python interpreter built into "
+"Blender. Before going on it is worth noticing that Blender comes with a "
+"fully functional Python interpreter built in, and with a lots of Blender-"
+"specific modules, as described in the :doc:`/advanced/scripting/index` "
+"section."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:126
+msgid ""
+"The *Text Editor* has now also some dedicated Python scripts, which add "
+"some useful writing tools, like a class/function/variable browser, "
+"completion... You can access them through the Template menu in the "
+"header."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:132
+msgid "Main View"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:134
+msgid ""
+"Typing on the keyboard produces text in the text buffer. As usual, "
+"pressing, dragging and releasing :kbd:`LMB` selects text."
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:138
+msgid "Usages for the Text editor"
+msgstr ""
+
+#: ../../manual/editors/text_editor.rst:140
+msgid ""
+"The Text editor is handy also when you want to share your blend-files "
+"with others. The Text editor can be used to write in a ``README`` text "
+"explaining the contents of your blend-file. Be sure to keep it visible "
+"when saving!"
+msgstr ""
+
+#~ msgid ":kbd:`Shift-Tab` - Un-indent the selection."
+#~ msgstr ":kbd:`Shift-Tab` - Désindente la sélection."
+
+#~ msgid ":kbd:`Alt-P` - Executes the text as a Python script."
+#~ msgstr ":kbd:`Alt-P` - Exécute un texte en tant que script Python."
+
+#~ msgid ":kbd:`Ctrl-Shift-Z`."
+#~ msgstr ":kbd:`Ctrl-Maj-Z`."
+
+#~ msgid "Text Auto Complete :kbd:`Ctrl-Space`"
+#~ msgstr ""
+
+#~ msgid "To Space, To Tab."
+#~ msgstr "En espace, en tabulation."
+
+#~ msgid "Converts sigular space characters, to tab characters."
+#~ msgstr ""
+

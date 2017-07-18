@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <bruno.sanchiz@free.fr>, 2016.
+# urko <urkokul@gmail.com>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/compositing/types/input/index.rst:5
+msgid "Input Nodes"
+msgstr ""
+
+#: ../../manual/compositing/types/input/index.rst:7
+msgid ""
+"Input nodes produce information from some source. For instance, an input "
+"could be:"
+msgstr ""
+
+#: ../../manual/compositing/types/input/index.rst:10
+msgid "Taken directly from the active camera in a selected scene,"
+msgstr ""
+
+#: ../../manual/compositing/types/input/index.rst:11
+msgid "from a ``JPG``, ``PNG``, etc. file as a static picture,"
+msgstr ""
+
+#: ../../manual/compositing/types/input/index.rst:12
+msgid "a movie clip (such as an image sequence or video), or"
+msgstr ""
+
+#: ../../manual/compositing/types/input/index.rst:13
+msgid "just a color or value."
+msgstr ""
+
+#: ../../manual/compositing/types/input/index.rst:15
+msgid ""
+"These nodes generate the information that feeds other nodes. As such, they "
+"have no input-connectors; only outputs."
+msgstr ""

@@ -1,0 +1,105 @@
+#
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/troubleshooting/crash.rst:4
+msgid "Crashes"
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:6
+msgid "The most common causes of Blender crashes:"
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:8
+msgid "Running out of memory."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:9
+msgid "Issues with graphics hardware or drivers."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:10
+msgid "Bugs in Blender."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:13
+msgid ""
+"Firstly, you may be able to recover your work with :menuselection:`File --> "
+"Recover Last Session`."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:15
+msgid ""
+"To prevent the problem from happening again, you can check that the graphics "
+"drivers are up to date, upgrade your machine's hardware (the RAM or graphics "
+"card), and disable some options that are more memory intensive:"
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:18
+msgid ""
+"Reduce undo steps :menuselection:`User Preferences --> Editing --> Undo "
+"Steps`."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:20
+msgid ""
+"Disable *Region Overlap* and *Triple buffering* at :menuselection:`User "
+"Preferences --> System --> Window Draw Method`."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:22
+msgid ""
+"Using multisample, anti-aliasing also increases the memory usage and make "
+"display slower."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:23
+msgid ""
+"On Linux, the Window Manager (KDE, Gnome, Unity) may be using hardware "
+"accelerated effects (e.g. window shadows and transparency) that are using up "
+"the memory that Blender needs. Try disabling the desktop effects or switch "
+"to a lightweight Window Manager."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:29
+msgid "Crash Log"
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:31
+msgid ""
+"When Blender crashes it writes out a text file which contains informations "
+"that may help identify the cause of the crash."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:34
+msgid ""
+"On a crash, a file is written based on the name of the currently loaded "
+"blend file, so ``test.blend`` will create a file called ``test.crash.txt``. "
+"The crash log for unsaved files will be written into the :ref:`temp-dir` "
+"directory."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:38
+msgid ""
+"This file contains a log of tools used up until the crash as well as some "
+"other debug information."
+msgstr ""
+
+#: ../../manual/troubleshooting/crash.rst:40
+msgid ""
+"When reporting bugs on crashes it can be helpful to attach this file to your "
+"reports, especially when others are unable to reproduce the crash."
+msgstr ""

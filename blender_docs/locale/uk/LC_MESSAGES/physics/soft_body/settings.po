@@ -1,0 +1,704 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/soft_body/settings.rst:5
+msgid "Settings"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:7
+#: ../../manual/physics/soft_body/settings.rst:16
+msgid "Soft Body"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:8
+msgid "This creates the Soft Body Modifier on the selected object."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:9
+msgid "Render"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:10
+msgid "Enable soft body during render."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:13
+msgid "Display"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:12
+msgid "Display soft body in real time."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:18
+msgid "Friction"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:19
+msgid ""
+"The friction of the surrounding medium. Generally friction dampens a "
+"movement."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:22
+msgid "Mass"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:21
+msgid ""
+"Mass value for vertices. Larger mass slows down acceleration, except for "
+"gravity where the motion is constant regardless of mass. Larger mass "
+"means larger inertia, so also braking a Soft Body is more difficult."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:24
+msgid "Vertex Group Mass"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:25
+msgid "Use a specified vertex group for mass values."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:26
+msgid "Speed"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:27
+msgid ""
+"You can control the internal timing of the Softbody system with this "
+"value."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:30
+msgid "Collision Group"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:29
+msgid ""
+"If set, Soft Body collides with objects from the group, instead of using "
+"objects that are on the same layer."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:33
+msgid "Soft Body Cache"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:37
+msgid "Caching and cache options are documented :doc:`Here </physics/baking>`."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:41
+msgid "Soft Body Goal"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:49
+msgid "Use Goal"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:44
+msgid ""
+"Soft Body Goal acts like a pin on a chosen set of vertices; controlling "
+"how much of an effect soft body has on them. Enabling this tells Blender "
+"to use the position / animated position of a vertex in the simulation. "
+"Animating the vertices can be done in all the usual ways before the Soft "
+"Body simulation is applied. The *goal* is the desired end-position for "
+"vertices. How a softbody tries to achieve this goal can be defined using "
+"stiffness forces and damping."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:56
+msgid "Default"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:52
+msgid ""
+"A *Goal* value of 1.0 means no Soft Body simulation, the vertex stays at "
+"its original (animated) position. When setting *Goal* to 0.0, the object "
+"is only influenced by physical laws. By setting goal values between 0.0 "
+"and 1.0, you can blend between having the object affected only by the "
+"animation system, and having the object affected only by the soft body "
+"effect."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:62
+msgid "Minimum / Maximum"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:59
+msgid ""
+"When you paint the values in vertex-groups (using *Weight Paint Mode*), "
+"you can use the *G Min* and *G Max* to fine-tune (clamp) the weight "
+"values. The lowest vertex-weight (blue) will become *G Min*, the highest "
+"value (red) becomes *G Max* (please note that the blue-red color scale "
+"may be altered by User Preferences)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:67
+#: ../../manual/physics/soft_body/settings.rst:175
+msgid "Stiffness"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:65
+msgid ""
+"The spring stiffness for *Goal*. A low value creates very weak springs "
+"(more flexible \"attachment\" to the goal), a high value creates a strong"
+" spring (a stiffer \"attachment\" to the goal)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:70
+msgid "Damping"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:70
+msgid ""
+"The friction for *Goal*. Higher values dampen the effect of the goal on "
+"the soft body."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:75
+msgid "Vertex Group"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:73
+msgid ""
+"Use a vertex group to allow per-vertex goal weights (multiplied by the "
+"*Default* goal)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:78
+msgid "Soft Body Edges"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:81
+msgid "Use Edges"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:81
+msgid ""
+"The edges in a Mesh Object can act as springs as well, like threads in "
+"fabric."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:85
+msgid "Pull"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:84
+msgid ""
+"The spring stiffness for edges (how much the edges are stretched). A low "
+"value means very weak springs (a very elastic material), a high value is "
+"a strong spring (a stiffer material) that resists being pulled apart. 0.5"
+" is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or "
+"leather."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:88
+msgid "Push"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:88
+msgid ""
+"How much the softbody resist being scrunched together, like a compression"
+" spring. Low values for fabric, high values for inflated objects and "
+"stiff material."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:90
+msgid "Damp"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:91
+msgid ""
+"The friction for edge springs. High values (max of 50) dampen the edge "
+"stiffness effect and calm down the cloth."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:92
+msgid "Plastic"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:93
+msgid "Plasticity, permanent deformation of the object."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:95
+msgid "Bending"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:95
+msgid ""
+"This option creates virtual connections between a vertex and the one "
+"after the next. This includes diagonal edges. Damping applies also to "
+"these connections."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:99
+msgid "Length"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:98
+#, python-format
+msgid ""
+"The edges can shrink or been blown up. This value is given in percent, 0 "
+"disables this function. 100% means no change, the body keeps 100% of his "
+"size."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:102
+msgid "Stiff Quads"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:102
+msgid ""
+"For quad faces, the diagonal edges are used as springs. This stops quad "
+"faces to collapse completely on collisions (what they would do "
+"otherwise)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:105
+msgid "Shear"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:105
+msgid "Stiffness of the virtual springs for quad faces."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:122
+msgid "Aerodynamics"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:116
+msgid "Simple"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:109
+msgid ""
+"If you turn on *Aero* the force is not confined to the vertices, but has "
+"an effect also on the edges. The angle and the relative speed between "
+"medium and edge is used to calculate the force on the edge. This force "
+"results that vertices with little connecting edges (front of a plane) "
+"fall faster than vertices with more connecting edges (middle of a plane)."
+" If all vertices have the same amount of edges in a direction they fall "
+"with equal speed. An edge moving in its own direction feels no force, and"
+" an edge moving perpendicular to its own direction feels maximum force "
+"(think of a straw moving through air). Try it with an *Factor* of 30 at "
+"first."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:119
+msgid "Lift Force"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:119
+msgid ""
+"Use an aerodynamic model that is closer to physical laws and looks more "
+"interesting. Disable for a more muted simulation."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:122
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:122
+msgid "How much aerodynamic effect to use"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:125
+msgid "Edge"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:125
+msgid "Checks for edges of the softbody mesh colliding."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:134
+msgid "Face"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:128
+msgid ""
+"Checks for any portion of the face of the softbody mesh colliding "
+"(compute intensive!). While *CFace* enabled is great, and solves lots of "
+"collision errors, there does not seem to be any dampening settings for "
+"it, so parts of the softbody object near a collision mesh tend to "
+"\"jitter\" as they bounce off and fall back, even when there is no motion"
+" of any meshes. Edge collision has dampening, so that can be controlled, "
+"but Deflection dampening value on a collision object does not seem to "
+"affect the face collision."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:139
+msgid "Soft Body Self Collision"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:143
+msgid "*Self Collision* is working only if you have activated *Use Edges*."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:150
+msgid "Self Collision"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:146
+msgid ""
+"When enabled, allows you to control how Blender will prevent the Soft "
+"Body from intersecting with itself. Every vertex is surrounded with an "
+"elastic virtual ball. Vertices may not penetrate the balls of other "
+"vertices. If you want a good result you may have to adjust the size of "
+"these balls. Normally it works pretty well with the default options."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:152
+msgid "Manual"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:153
+msgid "The *Ball Size* directly sets the ball size (in BU)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:155
+msgid "Average"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:155
+msgid ""
+"The average length of all edges attached to the vertex is calculated and "
+"then multiplied with the *Ball Size* setting. Works well with evenly "
+"distributed vertices."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:157
+msgid "Minimal/Maximal"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:158
+msgid ""
+"The ball size is as large as the smallest/largest spring length of the "
+"vertex multiplied with the *Ball Size*."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:160
+msgid "Average Min Max"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:160
+msgid "Size = ((Min + Max)/2) × *Ball Size*."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:172
+msgid "Size"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:163
+msgid ""
+"Fraction of the length of attached edges. The edge length is computed "
+"based on the algorithm you choose. You know how when someone stands too "
+"close to you, and feel uncomfortable? We call that our \"personal "
+"space\", and this setting is the factor that is multiplied by the spring "
+"length. It is a spherical distance (radius) within which, if another "
+"vertex of the same mesh enters, the vertex starts to deflect in order to "
+"avoid a self-collision. Set this value to the fractional distance between"
+" vertices that you want them to have their own \"space\". Too high of a "
+"value will include too many vertices all the time and slow down the "
+"calculation. Too low of a level will let other vertices get too close and"
+" thus possibly intersect because there will not be enough time to slow "
+"them down."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:175
+msgid "How elastic that ball of personal space is."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:179
+msgid "Dampening"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:178
+msgid ""
+"How the vertex reacts. A low value just slows down the vertex as it gets "
+"too close. A high value repulses it."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:181
+msgid ""
+"Collisions with other objects are set in the (other) :doc:`Collision "
+"panel </physics/collision>`. To collide with another object they have to "
+"share at least one common layer."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:188
+msgid "Soft Body Solver"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:190
+msgid "These settings determine the accurateness of the simulation."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:194
+msgid "Soft Body Solver Settings."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:198
+msgid "Min Step"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:198
+msgid ""
+"Minimum simulation steps per frame. Increase this value, if the Soft Body"
+" misses fast moving collision objects."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:203
+msgid "Max Step"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:201
+msgid ""
+"Maximum simulation steps per frame. Normally the number of simulation "
+"steps is set dynamically (with the *Error Limit*) but you have probably a"
+" good reason to change it."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:206
+msgid "Auto-Step"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:206
+msgid ""
+"helps the Solver figure out how much work it needs to do based on how "
+"fast things are moving."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:214
+msgid "Error Limit"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:209
+msgid ""
+"Rules the overall quality of the solution delivered. Default 0.1. The "
+"most critical setting that says how precise the solver should check for "
+"collisions. Start with a value that is 1/2 the average edge length. If "
+"there are visible errors, jitter, or over-exaggerated responses, decrease"
+" the value. The solver keeps track of how \"bad\" it is doing and the "
+"*Error Limit* causes the solver to do some \"adaptive step sizing\"."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:217
+msgid "Fuzzy"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:217
+msgid ""
+"Fuzziness while on collision, high values make collision handling faster "
+"but less stable."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:220
+msgid "Choke"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:220
+msgid ""
+"Calms down (reduces the exit velocity of) a vertex or edge once it "
+"penetrates a collision mesh."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:222
+msgid "Print Performance to Console"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:223
+msgid "Prints on the console how the solver is doing."
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:226
+msgid "Estimate Matrix"
+msgstr ""
+
+#: ../../manual/physics/soft_body/settings.rst:225
+msgid "Estimate matrix... split to COM, ROT, SCALE"
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Soft Body settings"
+#~ msgstr ""
+
+#~ msgid "Start- and Endframe"
+#~ msgstr ""
+
+#~ msgid "Cache"
+#~ msgstr ""
+
+#~ msgid "Select cache to use for simulation. Add, and remove caches."
+#~ msgstr ""
+
+#~ msgid "Cache Name"
+#~ msgstr ""
+
+#~ msgid "Specify the name of the cache."
+#~ msgstr ""
+
+#~ msgid "Start / End"
+#~ msgstr ""
+
+#~ msgid "Cache Step"
+#~ msgstr ""
+
+#~ msgid "Number of frames between cache steps."
+#~ msgstr ""
+
+#~ msgid "Disk Cache"
+#~ msgstr ""
+
+#~ msgid "Save cache files to disk. Blend file must be saved first."
+#~ msgstr ""
+
+#~ msgid "Use Lib Path"
+#~ msgstr ""
+
+#~ msgid "Use this files path when library linked into another file."
+#~ msgstr ""
+
+#~ msgid "Compression"
+#~ msgstr ""
+
+#~ msgid "Compression method to be used"
+#~ msgstr ""
+
+#~ msgid "No"
+#~ msgstr ""
+
+#~ msgid "No compression."
+#~ msgstr ""
+
+#~ msgid "Light"
+#~ msgstr ""
+
+#~ msgid "Fast but not so effective compression."
+#~ msgstr ""
+
+#~ msgid "Heavy"
+#~ msgstr ""
+
+#~ msgid "Effective but slow compression."
+#~ msgstr ""
+
+#~ msgid "Bake"
+#~ msgstr ""
+
+#~ msgid "Free Bake"
+#~ msgstr ""
+
+#~ msgid "Clears the cache."
+#~ msgstr ""
+
+#~ msgid "Calculate to Frame"
+#~ msgstr ""
+
+#~ msgid "Bake physics to current frame"
+#~ msgstr ""
+
+#~ msgid "Current Cache to Bake"
+#~ msgstr ""
+
+#~ msgid "Bake from Cache."
+#~ msgstr ""
+
+#~ msgid "Bake All Dynamics"
+#~ msgstr ""
+
+#~ msgid "Bake all physics"
+#~ msgstr ""
+
+#~ msgid "Free All Bakes"
+#~ msgstr ""
+
+#~ msgid "Free all baked caches of all objects in the current scene"
+#~ msgstr ""
+
+#~ msgid "Update All To Frame"
+#~ msgstr ""
+
+#~ msgid "Update cache to current frame"
+#~ msgstr ""
+
+#~ msgid "Use a specified vertex group for mass values"
+#~ msgstr ""
+
+#~ msgid "Averavge (\"average\")"
+#~ msgstr ""
+
+#~ msgid "AvMiMax"
+#~ msgstr ""
+
+#~ msgid "This creates the soft body modifier on the selected object"
+#~ msgstr ""
+
+#~ msgid "Enable soft body during render"
+#~ msgstr ""
+
+#~ msgid "Caching and cach options are documented :doc:`Here </physics/baking>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "How much the Softbody resist being "
+#~ "scrunched together, like a compression "
+#~ "spring. Low values for fabric, high "
+#~ "values for inflated objects and stiff"
+#~ " material."
+#~ msgstr ""
+
+#~ msgid "Minimal / Maximal"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Default 0.49 BU or fraction of the"
+#~ " length of attached edges. The edge"
+#~ " length is computed based on the "
+#~ "algorithm you choose. You know how "
+#~ "when someone stands too close to "
+#~ "you, and feel uncomfortable? We call "
+#~ "that our \"personal space\", and this"
+#~ " setting is the factor that is "
+#~ "multiplied by the spring length. It "
+#~ "is a spherical distance (radius) within"
+#~ " which, if another vertex of the "
+#~ "same mesh enters, the vertex starts "
+#~ "to deflect in order to avoid a "
+#~ "self-collision. Set this value to "
+#~ "the fractional distance between vertices "
+#~ "that you want them to have their"
+#~ " own \"space\". Too high of a "
+#~ "value will include too many vertices "
+#~ "all the time and slow down the "
+#~ "calculation. Too low of a level "
+#~ "will let other vertices get too "
+#~ "close and thus possibly intersect "
+#~ "because there will not be enough "
+#~ "time to slow them down."
+#~ msgstr ""
+
+#~ msgid "Default 1.0. How elastic that ball of personal space is."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Default 0.5. How the vertex reacts. "
+#~ "A low value just slows down the"
+#~ " vertex as it gets too close. A"
+#~ " high value repulses it."
+#~ msgstr ""
+

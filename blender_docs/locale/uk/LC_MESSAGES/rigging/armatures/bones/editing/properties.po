@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:5
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:9
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst
+msgid "Menu:     :menuselection:`Armature --> Bone Settings --> ...`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst
+msgid "Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:16
+msgid ""
+"Most bones' properties (excepted the transform ones) are regrouped in each "
+"bone's panels, in the *Bones* tab in *Edit Mode*. Let us detail them."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:19
+msgid ""
+"Note that some of them are also available in the 3D Views, through the three "
+"pop-up menus within the same entry:"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:22
+msgid ""
+"*Toggle Setting*: :kbd:`Shift-W` or :menuselection:`Armature --> Bone "
+"Settings --> Toggle a Setting`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:23
+msgid ""
+"*Enable Setting*: :kbd:`Ctrl-Shift-W` or :menuselection:`Armature --> Bone "
+"Settings --> Enable a Setting`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:24
+msgid ""
+"*Disable Setting*: :kbd:`Alt-W` or :menuselection:`Armature --> Bone "
+"Settings --> Disable a Setting`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:26
+msgid "Draw Wire"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:27
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:39
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:28
+msgid "Deform"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:29
+msgid "(also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`)."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:33
+msgid "Multiply Vertex Group by Envelope"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:31
+msgid ""
+"(also :kbd:`Shift-W` :menuselection:`--> (Multiply Vertex Group by "
+"Envelope, ...)`)"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:33
+msgid ""
+"These settings control how the bone influences its geometry, along with the "
+"bones' joints radius. This will be detailed in the :doc:`skinning part </"
+"rigging/armatures/skinning/index>`."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:36
+msgid "Inherit Rotation"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:36
+msgid ""
+"These settings affect the behavior of children bones while transforming "
+"their parent in *Pose Mode*, so this will be detailed in the :doc:`posing "
+"part </rigging/armatures/posing/index>` !"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:38
+msgid "Inherit Scale"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:44
+msgid "Lock"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/properties.rst:41
+msgid ""
+"(also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`) This will prevent "
+"all editing of the bone in *Edit Mode*; see :doc:`previous page </rigging/"
+"armatures/bones/editing/bones>`."
+msgstr ""

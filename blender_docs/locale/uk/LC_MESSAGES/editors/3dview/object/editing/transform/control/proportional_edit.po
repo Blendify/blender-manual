@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:11
+msgid "Proportional Edit"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:13
+msgid ""
+"Proportional Edit is a way of transforming selected elements (such as "
+"vertices) while having that transformation affect other nearby elements. "
+"For example, having the movement of a single vertex cause the movement of"
+" unselected vertices within a given range. Unselected vertices that are "
+"closer to the selected vertex will move more than those farther from it "
+"(i.e. they will move proportionally relative to the location of the "
+"selected element). Since proportional editing affects the nearby "
+"geometry, it is very useful when you need to smoothly deform the surface "
+"of a dense mesh."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:21
+msgid "Sculpting"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:23
+msgid ""
+"Blender also has :ref:`painting-sculpting-index` that contains brushes "
+"and tools for proportionally editing a mesh without seeing the individual"
+" vertices."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:28
+msgid "Object Mode"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:30
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:55
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst
+msgid "Mode:     Object Mode"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst
+msgid ""
+"Menu:     Via the |prop-edit-icon| icon in the header indicated by the "
+"yellow square in the below image."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst
+msgid "Hotkey:   :kbd:`O`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:38
+msgid ""
+"Proportional editing is typically used in *Edit Mode*, however, it can "
+"also be used in *Object Mode*. In *Object Mode* the tool works on entire "
+"objects rather than individual mesh components. In the image below, the "
+"green cube is the active Object, while the red and blue cubes are located"
+" within the proportional edit tool's radius of influence. When the green "
+"cube is moved to the right, the other two cubes follow the movement."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:47
+msgid "Proportional editing in Object Mode."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:53
+msgid "Edit Mode"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst
+msgid ""
+"Menu:     :menuselection:`Mesh --> Proportional Editing` and via the "
+"|prop-edit-edit-mode-icon| highlighted icon"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst
+msgid "Hotkey:   :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:63
+msgid ""
+"When working with dense geometry, it can become difficult to make subtle "
+"adjustments to the vertices without causing visible lumps and creases in "
+"the model's surface. When you face situations like this the proportional "
+"editing tool can be used to smoothly deform the surface of the model. "
+"This is done by the tool's automatic modification of unselected vertices "
+"within a given range."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:71
+msgid "Proportional editing in Edit Mode."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:75
+msgid "Influence"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:77
+msgid ""
+"You can increase or decrease the radius of the proportional editing "
+"influence with the mouse wheel :kbd:`WheelUp`, :kbd:`WheelDown` or "
+":kbd:`PageUp`, :kbd:`PageDown` respectively. As you change the radius, "
+"the points surrounding your selection will adjust their positions "
+"accordingly."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:84
+msgid "Influence circle."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:88
+msgid "Options"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:95
+msgid "Proportional Editing tool."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:100
+msgid "Falloff menu."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:103
+msgid "The *Proportional Editing* mode menu is on the *3D View* header."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:105
+msgid "Disable :kbd:`O`, :kbd:`Alt-O`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:106
+msgid "Proportional Editing is Off, only selected vertices will be affected."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:107
+msgid "Enable :kbd:`O`, :kbd:`Alt-O`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:108
+msgid ""
+"Vertices other than the selected vertex are affected, within a defined "
+"radius."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:115
+msgid "Projected (2D)"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:110
+msgid "Depth along the view is ignored when applying the radius."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:115
+msgid ""
+"The difference between regular and Projected (2D) proportional option "
+"(right)."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:124
+msgid "Connected :kbd:`Alt-O`"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:118
+msgid ""
+"Rather than using a radius only, the proportional falloff spreads via "
+"connected geometry. This means that you can proportionally edit the "
+"vertices in a finger of a hand without affecting the other fingers. While"
+" the other vertices are physically close (in 3D space), they are far away"
+" following the topological edge connections of the mesh. The icon will "
+"have a gray center when *Connected* is active. This mode is only "
+"available in *Edit Mode*."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:129
+msgid "Falloff"
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:127
+msgid ""
+"While editing, you can change the curve profile used by either using the "
+":menuselection:`Mesh --> Proportional Falloff` submenu, using the header "
+"icon *Falloff menu*, or by pressing :kbd:`Shift-O` to toggle between the "
+"various options."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:136
+msgid "Constant, No Falloff."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:141
+msgid "Random Falloff."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:146
+msgid "Linear Falloff."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:151
+msgid "Sharp Falloff."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:156
+msgid "Root Falloff."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:161
+msgid "Sphere Falloff."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:166
+msgid "Smooth Falloff."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:172
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:174
+msgid ""
+"Switch to a front view :kbd:`Numpad1` and activate the grab tool with "
+":kbd:`G`. As you drag the point upwards, notice how nearby vertices are "
+"dragged along with it. When you are satisfied with the placement, click "
+":kbd:`LMB` to fix the position. If you are not satisfied, cancel the "
+"operation and revert your mesh to the way it looked before with "
+":kbd:`RMB`, :kbd:`Esc`."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:181
+msgid ""
+"You can use the proportional editing tool to produce great effects with "
+"the scaling :kbd:`S` and rotation :kbd:`R` tools, as Fig. :ref:`fig-"
+"view3d-transform-landscape` shows."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:189
+msgid "A landscape obtained via proportional editing."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:192
+msgid ""
+"Combine these techniques with vertex painting to create fantastic "
+"landscapes. The Fig. :ref:`fig-view3d-transform-landscape-rendered` below"
+" shows the results of proportional editing after the application of "
+"textures and lighting."
+msgstr ""
+
+#: ../../manual/editors/3dview/object/editing/transform/control/proportional_edit.rst:201
+msgid "Final rendered landscape."
+msgstr ""
+

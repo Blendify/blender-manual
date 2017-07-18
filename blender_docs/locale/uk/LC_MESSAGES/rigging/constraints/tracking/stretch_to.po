@@ -1,0 +1,182 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:6
+msgid "Stretch To Constraint"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:8
+msgid ""
+"The *Stretch To* constraint causes its owner to rotate and scale its Y "
+"axis towards its target. So it has the same tracking behavior as the "
+":doc:`Track To constraint </rigging/constraints/tracking/track_to>`. "
+"However, it assumes that the Y axis will be the tracking and stretching "
+"axis, and does not give you the option of using a different one."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:13
+msgid ""
+"It also optionally has some raw volumetric features, so the owner can "
+"squash down as the target moves closer, or thin out as the target moves "
+"farther away. Note however, that it is not the real volume of the owner "
+"which is thus preserved, but rather the virtual one defined by its scale "
+"values. Hence, this feature works even with non-volumetric objects, like "
+"empties, 2D meshes or surfaces, and curves."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:21
+msgid ""
+"With bones, the \"volumetric\" variation scales them along their own "
+"local axes (remember that the local Y axis of a bone is aligned with it, "
+"from root to tip)."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:26
+msgid "Options"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:30
+msgid "Stretch To panel."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:33
+msgid "Target"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:34
+msgid ""
+":ref:`ui-data-id` used to select the constraints target, and is not "
+"functional (red state) when it has none."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:42
+msgid "Rest Length"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:36
+msgid ""
+"This number button sets the rest distance between the owner and its "
+"target, i.e. the distance at which there is no deformation (stretching) "
+"of the owner."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:42
+msgid "Reset"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:40
+msgid ""
+"When clicked, this small button will recalculate the *Rest Length* value,"
+" so that it corresponds to the actual distance between the owner and its "
+"target (i.e. the distance before this constraint is applied)."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:48
+msgid "Volume Variation"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:47
+msgid ""
+"This number button controls the amount of \"volume\" variation "
+"exponentially to the stretching amount. Note that the 0.0 value is not "
+"allowed, if you want to disable the volume feature, use the *None* button"
+" (see below)."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:50
+msgid "Volume Min/Max"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:51
+msgid ""
+"Limits for the volume preservation to a minimum and maximum scaling each "
+"by a *Bulge* factor."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:52
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:53
+msgid "Smoothness factor to make limits less visible."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:56
+msgid "Volume"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:55
+msgid ""
+"These buttons control which of the X and/or Z axes should be affected "
+"(scaled up/down) to preserve the virtual volume while stretching along "
+"the Y axis. If you enable the *none* button, the volumetric features are "
+"disabled."
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:62
+msgid "Plane"
+msgstr ""
+
+#: ../../manual/rigging/constraints/tracking/stretch_to.rst:59
+msgid ""
+"These buttons are equivalent to the *Up* ones of the :doc:`Track To "
+"constraint </rigging/constraints/tracking/track_to>`: they control which "
+"of the X or Z axes should be maintained (as much as possible) aligned "
+"with the global Z axis, while tracking the target with the Y axis."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Stretch To panel for a Mesh Object"
+#~ msgstr ""
+
+#~ msgid "Stretch To panel for a Armature Object"
+#~ msgstr ""
+
+#~ msgid "Stretch To panel for a Mesh Object."
+#~ msgstr ""
+
+#~ msgid "Stretch To panel for a Armature Object."
+#~ msgstr ""
+
+#~ msgid "Target (Mesh Object Type)"
+#~ msgstr ""
+
+#~ msgid "Vertex Group"
+#~ msgstr ""
+
+#~ msgid "Target (Armature Object Type)"
+#~ msgstr ""
+
+#~ msgid "Bone"
+#~ msgstr ""
+
+#~ msgid "When *Target* is an armature, a new field for a bone is displayed."
+#~ msgstr ""
+
+#~ msgid "Head/Tail"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This number button controls the amount"
+#~ " of \"volume\" variation proportionally to"
+#~ " the stretching amount. Note that the"
+#~ " 0.0 value is not allowed, if "
+#~ "you want to disable the volume "
+#~ "feature, use the *None* button (see "
+#~ "below)."
+#~ msgstr ""
+

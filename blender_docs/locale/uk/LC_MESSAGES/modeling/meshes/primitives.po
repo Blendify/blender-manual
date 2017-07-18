@@ -1,0 +1,458 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/primitives.rst:5
+msgid "Primitives"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:7
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst
+msgid "Mode:     Object Mode and Edit Mode"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst
+msgid "Panel:    :menuselection:`Tool Shelf --> Create --> Add Primitive/Mesh`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst
+msgid "Menu:     :menuselection:`Add --> Mesh`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst
+msgid "Hotkey:   :kbd:`Shift-A`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:16
+msgid ""
+"A common object type used in a 3D scene is a mesh. Blender comes with a "
+"number of \"primitive\" mesh shapes that you can start modeling from. You "
+"can also add primitives in Edit Mode at the 3D cursor."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:22
+msgid "Blender's standard primitives."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:24
+msgid "Note about planar primitives"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:26
+msgid ""
+"You can make a planar mesh three-dimensional by moving one or more of the "
+"vertices out of its plane (applies to *Plane*, *Circle* and *Grid*). A "
+"simple circle is actually often used as a starting point to create even the "
+"most complex of meshes."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:32
+msgid ""
+"In order to facilitate the modeling, the best solution is to imagine what "
+"primitive type suits better for your model. If you will model a cuboid, the "
+"best solution is to start with a primitive cube, and so on."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:38
+msgid "Common Options"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:40
+msgid ""
+"These options can be specified in the Operator panel in the *Tool Shelf*, "
+"which appears when the object is created. Options included in more than one "
+"primitive are:"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:46
+msgid "Generate UVs"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:45
+msgid ""
+"Generates a default UV-unwrapping of new geometry. This will be defined in "
+"the first UVLayer (which will get added if needed). (available for plane, "
+"cube, circle, UV-/icosphere, tube and cone)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:50
+msgid "Radius/Size, Align to View, Location, Rotation"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:49
+msgid "See :ref:`Common Object Options <object-common-options>`."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:53
+msgid "Plane"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:55
+msgid ""
+"The standard plane is a single quad face, which is composed out of four "
+"vertices, four edges, and one face. It is like a piece of paper lying on a "
+"table; it is not a three-dimensional object because it is flat and has no "
+"thickness. Objects that can be created with planes include floors, "
+"tabletops, or mirrors."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:62
+msgid "Cube"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:64
+msgid ""
+"A standard cube contains eight vertices, twelve edges, and six faces, and is "
+"a three-dimensional object. Objects that can be created out of cubes include "
+"dice, boxes, or crates."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:70
+msgid "Circle"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:72
+#: ../../manual/modeling/meshes/primitives.rst:125
+#: ../../manual/modeling/meshes/primitives.rst:141
+msgid "Vertices"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:73
+msgid "The number of vertices that define the circle or polygon."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:83
+msgid "Fill Type"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:75
+msgid "Set how the circle will be filled."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:77
+msgid "Triangle Fan"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:78
+msgid "Fill with triangular faces which share a vertex in the middle."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:79
+msgid "N-gon"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:80
+msgid "Fill with a single :term:`n-gon`."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:83
+msgid "Nothing"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:82
+msgid "Do not fill. Creates only the outer ring of vertices."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:86
+msgid "UV Sphere"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:88
+msgid ""
+"A standard UV sphere is made out of quad faces and a triangle fan at the top "
+"and bottom. It can be used for texturing."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:91
+msgid "Segments"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:92
+msgid ""
+"Number of vertical segments. Like the Earth's meridians, going pole to pole."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:99
+msgid "Rings"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:94
+msgid "Number of horizontal segments. These are like the Earth's parallels."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:98
+msgid "Rings are face loops and not edge loops, which would be one less."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:102
+msgid "Icosphere"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:104
+msgid ""
+"An icosphere is a polyhedra sphere made up of triangles. Icospheres are "
+"normally used to achieve a more isotropical layout of vertices than a UV "
+"sphere."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:111
+msgid "Subdivisions"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:109
+msgid ""
+"How many recursions are used to define the sphere. At level 1 the Icosphere "
+"is an icosahedron, a solid with 20 equilateral triangular faces. Any "
+"increasing level of subdivision splits each triangular face into four "
+"triangles."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:115
+msgid ""
+"Subdividing an icosphere rises the vertex count very high even with few "
+"iterations (10 times creates 5,242,880 triangles), Adding such a dense mesh "
+"is a sure way to cause the program to crash."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:121
+msgid "Cylinder"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:123
+msgid "Objects that can be created out of cylinders include handles or rods."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:126
+msgid ""
+"The number of vertical edges between the circles used to define the cylinder "
+"or prism."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:128
+#: ../../manual/modeling/meshes/primitives.rst:149
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:128
+msgid "Sets the starting height of the cylinder."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:134
+msgid "Cap Fill Type"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:131
+msgid ""
+"Similar to circle (see above). When set to none, the created object will be "
+"a tube. Objects that can be created out of tubes include pipes or drinking "
+"glasses (the basic difference between a cylinder and a tube is that the "
+"former has closed ends)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:137
+msgid "Cone"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:139
+msgid ""
+"Objects that can be created out of cones include spikes or pointed hats."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:142
+msgid ""
+"The number of vertical edges between the circles or tip, used to define the "
+"cone or pyramid."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:143
+msgid "Radius 1"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:144
+msgid "Sets the radius of the circular base of the cone."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:146
+msgid "Radius 2"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:146
+msgid ""
+"Sets the radius of the tip of the cone. which will creates a frustum. A "
+"value of 0 will produce a standard cone shape."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:149
+msgid "Sets the starting height of the cone."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:153
+msgid "Base Fill Type"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:152
+msgid "Similar to circle (see above)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:156
+msgid "Torus"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:158
+msgid ""
+"A dough-nut-shaped primitive created by rotating a circle around an axis. "
+"The overall dimensions can be defined by two methods."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:161
+msgid "Operator Presets"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:162
+msgid ""
+"Torus preset settings for reuse. These presets are stored as scripts in the "
+"proper presets directory."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:164
+msgid "Major Segments"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:164
+msgid ""
+"Number of segments for the main ring of the torus. If you think of a torus "
+"as a \"spin\" operation around an axis, this is how many steps in the spin."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:169
+msgid "Minor segments"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:167
+msgid ""
+"Number of segments for the minor ring of the torus. This is the number of "
+"vertices of each circular segment."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:172
+msgid "Torus Dimensions"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:190
+msgid "Add Mode"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:175
+msgid "Change the way the torus is defined."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:177
+msgid "Major/Minor, Exterior/Interior"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:179
+msgid "Major Radius"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:180
+msgid "Radius from the origin to the center of the cross sections."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:182
+msgid "Minor Radius"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:182
+msgid "Radius of the torus's cross section."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:185
+msgid "Exterior Radius"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:185
+msgid ""
+"If viewed along the major axis, this is the radius from the center to the "
+"outer edge."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:190
+msgid "Interior Radius"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:188
+msgid ""
+"If viewed along the major axis, this is the radius of the hole in the center."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:193
+msgid "Grid"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:195
+msgid ""
+"A regular quadratic grid which is a subdivided plane. Example objects that "
+"can be created out of grids include landscapes and organic surfaces."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:199
+msgid "X Subdivisions"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:200
+msgid "The number of spans in the X axis."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:203
+msgid "Y Subdivisions"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:202
+msgid "The number of spans in the Y axis."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:206
+msgid "Monkey"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:208
+msgid ""
+"This is a gift from old NaN to the community and is seen as a programmer's "
+"joke or \"Easter Egg\". It creates a monkey's head once you press the "
+"*Monkey* button. The Monkey's name is \"Suzanne\" and is Blender's mascot. "
+"Suzanne is very useful as a standard test mesh, much like the `Utah Tea Pot "
+"<https://en.wikipedia.org/wiki/Utah_teapot>`__ or the `Stanford Bunny "
+"<https://en.wikipedia.org/wiki/Stanford_Bunny>`__."
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:215
+msgid "Add-ons"
+msgstr ""
+
+#: ../../manual/modeling/meshes/primitives.rst:217
+msgid ""
+"In addition to the basic geometric primitives, Blender has a number of "
+"script generated meshes to offer as pre-installed add-ons. These become "
+"available when enabled in the :doc:`User Preferences </preferences/addons>` "
+"(filter by *Add Mesh*)."
+msgstr ""

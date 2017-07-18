@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:4
+msgid "Harmonic"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:8
+msgid "Harmonic force field."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:10
+msgid ""
+"In a *Harmonic* force field, the source of the force field is the zero "
+"point of a harmonic oscillator (spring, pendulum). If you set the "
+"*Damping* parameter to 1, the movement is stopped in the moment the "
+"object is reached. This force field is really special if you assign it to"
+" particles."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:18
+msgid "Options"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:22
+msgid "UI for a Harmonic force field."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:24
+msgid "Rest Length"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:25
+msgid "Controls the rest length of the harmonic force."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:27
+msgid "Multiple Springs"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:27
+msgid "Causes every point to be affected by multiple springs."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:29
+msgid ""
+"Normally every particle of the field system influences every particle of "
+"the target system. Not with *Harmonic* ! Here every target particle is "
+"assigned to a field particle. So particles will move to the place of "
+"other particles, thus forming shapes."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:35
+msgid "Example"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/harmonic.rst:37
+msgid ""
+"Tutorial: `Particles forming Shapes "
+"<https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particles_forming_Shapes>`__."
+msgstr ""
+

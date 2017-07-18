@@ -1,0 +1,177 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/world/exposure.rst:5
+msgid "Exposure and Range"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:7
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst
+msgid "Mode:     All modes"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst
+msgid "Panel:    :menuselection:`Render Layer --> Color management`"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:14
+msgid ""
+"*Exposure* and *Range* are similar to the \"Color Curves\" tool in Gimp "
+"or Photoshop."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:16
+msgid ""
+"These controls affect the rendered image, and the results are baked into "
+"the render. For information on achieving similar affects with render "
+"controls, see :doc:`Color Management and Exposure "
+"</render/post_process/color_management>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:20
+msgid ""
+"Previously Blender clipped color directly with 1.0 (or 255) when it "
+"exceeded the possible RGB space. This caused ugly banding and overblown "
+"highlights when light overflowed Fig. :ref:`fig-bi-light-exposure-"
+"teapot`."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:25
+msgid "Using an exponential correction formula, this now can be nicely corrected."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:29
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:33
+msgid "Exposure and Range sliders."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:35
+msgid "Exposure"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:36
+msgid "The exponential curvature, with (0.0 to 1.0) (linear to curved)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:50
+msgid "Range"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:38
+msgid "The range of input colors that are mapped to visible colors (0.0 to 1.0)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:40
+msgid "So without *Exposure* we will get a linear correction of all color values:"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:44
+msgid "Range > 1.0"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:43
+msgid ""
+"The picture will become darker; with *Range* = 2.0, a color value of 1.0 "
+"(the brightest by default) will be clipped to 0.5 (half bright) (*Range*:"
+" 2.0)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:50
+msgid "Range < 1.0"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:47
+msgid ""
+"The picture will become brighter; with *Range* = 0.5, a color value of "
+"0.5 (half bright by default) will be clipped to 1.0 (the brightest) "
+"(*Range*: 0.5)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:53
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/render/blender_render/world/exposure.rst:55
+msgid ""
+"With a linear correction every color value will get changed, which is "
+"probably not what we want. *Exposure* brightens the darker pixels, so "
+"that the darker parts of the image will not be changed at all (*Range* : "
+"2.0, *Exposure* : 0.3)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:62
+msgid "Utah Teapot."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:67
+msgid "An overexposed teapot."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:72
+msgid "Range: 2.0."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:77
+msgid "Range: 0.5."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:82
+msgid "Range: 2.0, Exposure: 0.3."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/exposure.rst:87
+msgid ""
+"Try to find the best *Range* value, so that overexposed parts are barely "
+"not too bright. Now turn up the *Exposure* value until the overall "
+"brightness of the image is satisfying. This is especially useful with "
+"area lamps."
+msgstr ""
+
+#~ msgid "Range` > 1.0"
+#~ msgstr ""
+
+#~ msgid "Range` < 1.0"
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid "Hints"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Range` > ``1.0``"
+#~ msgstr ""
+
+#~ msgid "Range` < ``1.0``"
+#~ msgstr ""
+
+#~ msgid "Panel:    *World* (*Shading* context, *World* sub-context)"
+#~ msgstr ""
+
+#~ msgid "Teapot"
+#~ msgstr ""
+
+#~ msgid "Utah Teapot."
+#~ msgstr ""
+

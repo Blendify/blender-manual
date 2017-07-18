@@ -1,0 +1,346 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:7
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:11
+msgid "UV/Image Editor Header."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:13
+msgid "The header contains several menus and options for working with UVs."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:15
+msgid "Select"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:16
+msgid ""
+"Tools for :doc:`Selecting UVs "
+"</editors/uv_image/uv_editing/layout_editing>`."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:19
+msgid "UVs"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:18
+msgid ""
+"Contains tools for :doc:`Unwrapping Meshes "
+"</editors/uv_image/uv_editing/overview>` and :doc:`Editing UVs "
+"</editors/uv_image/uv_editing/layout_editing>`."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:21
+msgid "Pivot Point Selector"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:22
+msgid "Similar to working with Pivot Points in the 3D View."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:23
+msgid "Sync Selection"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:24
+msgid "Keeps UV and Mesh component selections in sync."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:28
+msgid "Selection Modes"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:26
+msgid "Vertex"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:27
+msgid "Edge"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:28
+msgid "Face"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:29
+msgid "Island"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:30
+msgid "Sticky Selection Mode"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:31
+msgid ""
+"When Sync Selection is disabled, these options control how UVs are "
+"selected."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:32
+msgid "Proportional Editing"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:33
+msgid ""
+"See :doc:`Proportional Editing "
+"</editors/3dview/object/editing/transform/control/proportional_edit>`."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:34
+msgid "UV Snapping"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:35
+msgid "Similar to Snapping in the 3D View."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:36
+msgid "Active UV Texture Map Selector"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:37
+msgid "Select which UV texture to use."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:40
+msgid "Auto Update Other Affected Windows"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:39
+msgid ""
+"Update other affected windows automatically to reflect changes during "
+"interactive operations e.g. transforms."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:43
+msgid "Properties Region"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:46
+msgid "UV Vertex Panel"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:51
+msgid "UV Vertex Panel."
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:56
+msgid "UV Vertex"
+msgstr ""
+
+#: ../../manual/editors/uv_image/uv_editing/introduction.rst:54
+msgid ""
+"Transform Properties :doc:`Selecting UVs "
+"</editors/uv_image/uv_editing/layout_editing>`."
+msgstr ""
+
+#~ msgid "UV/Image Editor Header"
+#~ msgstr ""
+
+#~ msgid "Image Editor Properties Panel"
+#~ msgstr ""
+
+#~ msgid "UV/Image Editor window for texturing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Similar to working with Pivot Points in the 3D view."
+#~ msgstr ""
+
+#~ msgid "Header Region"
+#~ msgstr ""
+
+#~ msgid "The header bar contains several menus and options for working with UVs"
+#~ msgstr ""
+
+#~ msgid "View Menu"
+#~ msgstr ""
+
+#~ msgid "Select Menu"
+#~ msgstr ""
+
+#~ msgid "Image Menu"
+#~ msgstr ""
+
+#~ msgid "UVs Menu"
+#~ msgstr ""
+
+#~ msgid "Image Selector Menu"
+#~ msgstr ""
+
+#~ msgid "Selection Modes:"
+#~ msgstr ""
+
+#~ msgid "Similar to Snapping in the 3D View"
+#~ msgstr ""
+
+#~ msgid "Select which UV texture to use"
+#~ msgstr ""
+
+#~ msgid "Properties Panel"
+#~ msgstr ""
+
+#~ msgid "Image Editor Properties Panel."
+#~ msgstr ""
+
+#~ msgid "Display Options"
+#~ msgstr ""
+
+#~ msgid "You can set how UVs are displayed in the *Display Panel*:"
+#~ msgstr ""
+
+#~ msgid "Display UV coordinates"
+#~ msgstr ""
+
+#~ msgid "Display UV coordinates from 0.0 to 1.0 rather than in pixels"
+#~ msgstr ""
+
+#~ msgid "2D cursor location for this view"
+#~ msgstr ""
+
+#~ msgid "Outline/Dash/Black/White"
+#~ msgstr ""
+
+#~ msgid "Sets how UV edges are displayed"
+#~ msgstr ""
+
+#~ msgid "Draw faces over the image"
+#~ msgstr ""
+
+#~ msgid "Makes edges appeared Antialiased"
+#~ msgstr ""
+
+#~ msgid "Show results of modifiers in the UV display"
+#~ msgstr ""
+
+#~ msgid "UV/Image Editor for texturing."
+#~ msgstr ""
+
+#~ msgid "View"
+#~ msgstr ""
+
+#~ msgid "Image"
+#~ msgstr ""
+
+#~ msgid "Image data-block menu"
+#~ msgstr ""
+
+#~ msgid "Pin Image"
+#~ msgstr ""
+
+#~ msgid "Displays current image regardless of selected object."
+#~ msgstr ""
+
+#~ msgid "Image Channels to Draw"
+#~ msgstr ""
+
+#~ msgid "Grease Pencil"
+#~ msgstr ""
+
+#~ msgid "Contains the properties of the current Image."
+#~ msgstr ""
+
+#~ msgid "Display"
+#~ msgstr ""
+
+#~ msgid "UV/Image Editor Properties region."
+#~ msgstr ""
+
+#~ msgid "Display Panel"
+#~ msgstr ""
+
+#~ msgid "You can set the editors display options in the this panel."
+#~ msgstr ""
+
+#~ msgid "Aspect Ratio"
+#~ msgstr ""
+
+#~ msgid "Display Aspect for this image. Does not affect rendering."
+#~ msgstr ""
+
+#~ msgid "Coordinates"
+#~ msgstr ""
+
+#~ msgid "Display UV coordinates."
+#~ msgstr ""
+
+#~ msgid "Repeat"
+#~ msgstr ""
+
+#~ msgid "Draw the image repeated outside of the main view."
+#~ msgstr ""
+
+#~ msgid "Normalized"
+#~ msgstr ""
+
+#~ msgid "Display UV coordinates from 0.0 to 1.0 rather than in pixels."
+#~ msgstr ""
+
+#~ msgid "Cursor Location"
+#~ msgstr ""
+
+#~ msgid "2D cursor location for this view."
+#~ msgstr ""
+
+#~ msgid "Edge Draw Type"
+#~ msgstr ""
+
+#~ msgid "Sets how UV edges are displayed."
+#~ msgstr ""
+
+#~ msgid "Outline, Dash, Black, White"
+#~ msgstr ""
+
+#~ msgid "Draw Faces"
+#~ msgstr ""
+
+#~ msgid "Draw faces over the image."
+#~ msgstr ""
+
+#~ msgid "Smooth"
+#~ msgstr ""
+
+#~ msgid "Makes edges appeared anti-aliased."
+#~ msgstr ""
+
+#~ msgid "Modified"
+#~ msgstr ""
+
+#~ msgid "Show results of modifiers in the UV display."
+#~ msgstr ""
+
+#~ msgid "Stretch"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "See :doc:`Proportional Editing "
+#~ "</editors/3dview/object/transform/control/proportional_edit>`."
+#~ msgstr ""
+

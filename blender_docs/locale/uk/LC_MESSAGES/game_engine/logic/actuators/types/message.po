@@ -1,0 +1,131 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:5
+msgid "Message Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:7
+msgid ""
+"The *Message Actuator* allows the user to send data across a scene, and "
+"between scenes themselves."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:13
+msgid "Message actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:19
+msgid ""
+"See :doc:`Actuator Common Options "
+"</game_engine/logic/actuators/common_options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:21
+msgid "To"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:22
+msgid ""
+"Object to broadcast to. Leave blank if broadcast to all (or sending to "
+"another scene)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:24
+msgid "Subject"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:24
+msgid ""
+"Subject of message. Useful if sending certain types of message, such as "
+"\"end-game\", to a message sensor listening for \"end game\" ``and`` Quit"
+" Game actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:32
+msgid "Body"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:27
+msgid "Body of message sent (only read by Python)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:29
+msgid "Text"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:30
+msgid "User specified text in body."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:32
+msgid "Property"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:32
+msgid "User specified property."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:36
+msgid ""
+"You can use the *Message Actuator* to send data, such as scores to other "
+"objects, or even across scenes! (alternatively use "
+"``bge.logic.globalDict``)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:41
+msgid "Example"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/message.rst:43
+msgid "TODO."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Body of message sent (only read by Python*)."
+#~ msgstr ""
+
+#~ msgid "Message actuator"
+#~ msgstr ""
+
+#~ msgid "Message actuator Options"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Message actuator allows the user "
+#~ "to send data across a scene, and"
+#~ " between scenes themselves."
+#~ msgstr ""
+
+#~ msgid "Message actuator Options."
+#~ msgstr ""
+
+#~ msgid "Special Options:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the Message Actuator "
+#~ "to send data, such as scores to"
+#~ " other objects, or even across "
+#~ "scenes! (alternatively use "
+#~ "``bge.logic.globalDict``)."
+#~ msgstr ""
+
