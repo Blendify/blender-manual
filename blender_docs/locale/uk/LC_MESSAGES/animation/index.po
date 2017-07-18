@@ -2,15 +2,15 @@
 # Copyright (C) : This page is public domain as CC0
 # This file is distributed under the same license as the Blender Reference
 # Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-# urko <urkokul@gmail.com>, 2016.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# urko <urkokul@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Blender 2.78 Manual 2.78\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-07-16 17:45+0300\n"
+"PO-Revision-Date: 2017-07-19 01:49+0300\n"
 "Last-Translator: urko <urkokul@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,4 @@ msgstr ""
 
 #: ../../manual/animation/index.rst:5
 msgid "Animation"
-msgstr ""
-
-#~ msgid "Animation Techniques"
-#~ msgstr "Techniques d'animation"
+msgstr "Анімація"
