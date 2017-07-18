@@ -1,0 +1,412 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/dope_sheet/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/dope_sheet/introduction.rst:9
+msgid "The Dope Sheet."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:12
+msgid ""
+"Classical hand-drawn animators often made a chart, showing exactly when "
+"each drawing, sound and camera move would occur, and for how long. They "
+"nicknamed this the \"dope sheet\". While CG foundations dramatically "
+"differ from classical hand-drawn animation, Blender's *Dope Sheet* "
+"inherits a similar directive. It gives the animator a \"birds-eye-view\" "
+"of every thing occurring within a scene."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:20
+msgid "Dope Sheet Modes"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:24
+msgid "Dope Sheet Modes."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:27
+msgid ""
+"There are four basic views for the Dope Sheet. These all view different "
+"contexts of animation:"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:29
+msgid "Dope Sheet"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:30
+msgid "The Dope Sheet Mode allow you to edit multiple actions at once."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:31
+msgid "Action Editor"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:32
+msgid ""
+":doc:`Action Editor </editors/dope_sheet/action>` is where you can define"
+" and control actions."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:33
+msgid "Shape Key Editor"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:34
+msgid ""
+":ref:`ShapeKey Editor <dope-sheet-shape-key>` is dedicated to the shape "
+"key data-blocks."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:39
+msgid "Grease Pencil"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:36
+msgid ""
+":doc:`Grease Pencil </editors/dope_sheet/grease_pencil>` Mode is "
+"dedicated to the :doc:`grease pencil tool's "
+"</interface/grease_pencil/index>` keyframes for each :doc:`grease pencil "
+"layer </interface/grease_pencil/drawing/layers>`, you have a strip along "
+"which you can grab its keys, and hence easily re-time your animated "
+"sketches."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:41
+msgid "Mask"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:42
+msgid ":ref:`Mask <dope-sheet-mask>` Mode is dedicated to the mask data-blocks."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:45
+msgid "Cache File"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:44
+msgid "Todo."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:48
+msgid "Interface"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:50
+msgid ""
+"The *Dope Sheet Editor* interface is somewhat similar to the *Graph "
+"Editor* one, it is divided in three regions:"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:56
+msgid "The Action Editor with object channels."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:60
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:62
+msgid ""
+"Here you find the menus, a first block of controls related to the editor "
+"\"mode\", a second one concerning the action data-blocks, and a few other"
+" tools (like the copy/paste buttons, and snapping type)."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:68
+msgid "Summary"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:67
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:71
+msgid "View Menu"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:74
+msgid "Sync Markers"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:74
+msgid "Sync Markers with keyframe edits."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:76
+msgid "See Graph editor's :ref:`graph-view-menu`."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:80
+msgid "Marker Menu"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:82
+msgid "See the :doc:`Markers page </animation/markers>`."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:86
+msgid "Key Menu"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:89
+msgid "Keyframe Type :kbd:`R`"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:89
+msgid "Sets the :ref:`keyframe-type` of the selected keyframes."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:91
+msgid "See :doc:`F-Curve </editors/graph_editor/fcurves/index>`."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:95
+msgid "Main Region"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:97
+msgid ""
+"It contains the keyframes for all visible action channels. As with the "
+"other \"time\" editor, the X-axis represents time. The Y-axis has no mean"
+" in itself, unlike with the *Graph Editor*, it is a \"stack\" of action "
+"channels."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:101
+msgid ""
+"Each one being shown as an horizontal colored strip (of a darker shade "
+"\"during\" the animated/keyed period). On these channel strips lay the "
+"keyframes, visualized as light-gray (unselected) or yellow (selected) "
+"diamonds."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:104
+msgid ""
+"One of the key feature of this editor is that it allow you to visualize "
+"immediately which channel (i.e. F-Curve) is *really* affected. When the "
+"value of a given channel does not change at all between two neighboring "
+"keyframes (\"long keyframes\"), a gray (unselected) or yellow (selected) "
+"bar is drawn between them. Similar bars are drawn between keyframes "
+"tagged as moving hold."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:111
+msgid "Channels Region"
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:117
+msgid "The Action editor's channels region."
+msgstr ""
+
+#: ../../manual/editors/dope_sheet/introduction.rst:119
+msgid "See :doc:`/editors/graph_editor/channels`."
+msgstr ""
+
+#~ msgid "DopeSheet"
+#~ msgstr ""
+
+#~ msgid "Action Editor"
+#~ msgstr ""
+
+#~ msgid "Shape Key Editor"
+#~ msgstr ""
+
+#~ msgid "Grease Pencil"
+#~ msgstr ""
+
+#~ msgid "Set Preview Range P"
+#~ msgstr ""
+
+#~ msgid "Clear Preview Range Alt-P"
+#~ msgstr ""
+
+#~ msgid "The Dopesheet"
+#~ msgstr ""
+
+#~ msgid "The DopeSheet"
+#~ msgstr ""
+
+#~ msgid "DopeSheet modes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "the action editor showing sliders"
+#~ msgstr ""
+
+#~ msgid ":doc:`DopeSheet </editors/dope_sheet/dope_sheet>`"
+#~ msgstr ""
+
+#~ msgid "The header bar"
+#~ msgstr ""
+
+#~ msgid "The main area"
+#~ msgstr ""
+
+#~ msgid "The left \"list-tree\""
+#~ msgstr ""
+
+#~ msgid "Show frame number beside the current frame indicator line"
+#~ msgstr ""
+
+#~ msgid "Automatically merge nearby keyframes"
+#~ msgstr ""
+
+#~ msgid "Sync Markers with keyframe edits"
+#~ msgstr ""
+
+#~ msgid "Whether to show the time in the X-axis as frames or as seconds"
+#~ msgstr ""
+
+#~ msgid "Clears the preview range"
+#~ msgstr ""
+
+#~ msgid "The DopeSheet."
+#~ msgstr ""
+
+#~ msgid ":doc:`DopeSheet </editors/dope_sheet/introduction>`"
+#~ msgstr ""
+
+#~ msgid "The dopeSheet allow you to edit multiple actions at once."
+#~ msgstr ""
+
+#~ msgid ":doc:`Action Editor </editors/dope_sheet/action>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Shape Key Editor </editors/dope_sheet/shapekey>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Grease Pencil </interface/grease_pencil/index>`"
+#~ msgstr ""
+
+#~ msgid "the action editor showing sliders."
+#~ msgstr ""
+
+#~ msgid "\"List-tree\" Region"
+#~ msgstr ""
+
+#~ msgid "Mute (Speaker icon)"
+#~ msgstr ""
+
+#~ msgid "Lock (Lock icon)"
+#~ msgstr ""
+
+#~ msgid "F-Modifier (Wrench icon)"
+#~ msgstr ""
+
+#~ msgid "Set Preview Range :kbd:`P`"
+#~ msgstr ""
+
+#~ msgid "Clear Preview Range :kbd:`Alt-P`"
+#~ msgstr ""
+
+#~ msgid "Clears the preview range."
+#~ msgstr ""
+
+#~ msgid "Auto-Set Preview Range"
+#~ msgstr ""
+
+#~ msgid "Automatically sets the preview range to playback the whole action."
+#~ msgstr ""
+
+#~ msgid "Realtime Updates"
+#~ msgstr ""
+
+#~ msgid "Show Frame Number Indicator"
+#~ msgstr ""
+
+#~ msgid "Show frame number beside the current frame indicator line."
+#~ msgstr ""
+
+#~ msgid "Show Sliders"
+#~ msgstr ""
+
+#~ msgid "Use Group Colors"
+#~ msgstr ""
+
+#~ msgid "AutoMerge Keyframes"
+#~ msgstr ""
+
+#~ msgid "Automatically merge nearby keyframes."
+#~ msgstr ""
+
+#~ msgid "Show Seconds"
+#~ msgstr ""
+
+#~ msgid "Whether to show the time in the X-axis as frames or as seconds."
+#~ msgstr ""
+
+#~ msgid "Preview Range :kbd:`P`, :kbd:`Alt-P`"
+#~ msgstr ""
+
+#~ msgid "See :ref:`graph-preview-range`."
+#~ msgstr ""
+
+#~ msgid "The action editor showing sliders."
+#~ msgstr ""
+
+#~ msgid "Mute (speaker icon)"
+#~ msgstr ""
+
+#~ msgid "Lock (lock icon)"
+#~ msgstr ""
+
+#~ msgid "Will allow you to prevent this channel and its children to be edited."
+#~ msgstr ""
+
+#~ msgid "Modifier (wrench icon)"
+#~ msgstr ""
+
+#~ msgid "Disables the F-Modifiers."
+#~ msgstr ""
+
+#~ msgid "Selecting"
+#~ msgstr ""
+
+#~ msgid "Editing"
+#~ msgstr ""
+
+#~ msgid "Sets the :ref:`keyframe-type` of the selected keyframe."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`ShapeKey Editor </editors/dope_sheet/shapekey>` "
+#~ "is dedicated to the *Shapekey* data-"
+#~ "blocks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`Grease Pencil </editors/dope_sheet/grease_pencil>`"
+#~ " is dedicated to the :doc:`grease "
+#~ "pencil tool's </interface/grease_pencil/index>` "
+#~ "keyframes for each :doc:`grease pencil "
+#~ "layer </interface/grease_pencil/drawing/layers>`, you "
+#~ "have a strip along which you can"
+#~ " grab its keys, and hence easily "
+#~ "re-time your animated sketches."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that you will have as much"
+#~ " top-level grease pencil channels as"
+#~ " you have sketched areas (3D Views,"
+#~ " *UV/Image Editor*, etc.)"
+#~ msgstr ""
+

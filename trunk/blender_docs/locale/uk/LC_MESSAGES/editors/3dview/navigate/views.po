@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/3dview/navigate/views.rst:5
+msgid "Views"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:10
+msgid "View Global/Local"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:12
+#: ../../manual/editors/3dview/navigate/views.rst:68
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst
+msgid "Mode:     All modes"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst
+msgid "Menu:     :menuselection:`View --> View Global/Local`"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst
+msgid "Hotkey:   :kbd:`NumpadSlash`"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:19
+msgid ""
+"Global view shows all of the 3D objects in the scene. Local view isolates"
+" the selected object or objects, so that they are the only ones visible "
+"in the viewport. This is useful for working on objects that are obscured "
+"by other ones, or to speed up viewport performance in heavy scenes."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:25
+msgid ""
+"You can toggle between *Global* and *Local View* by selecting the option "
+"from the *View Menu* or using the shortcut :kbd:`NumpadSlash`."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:33
+msgid "Global View."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:38
+msgid "Local View."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:42
+msgid "These notes cover changes in local-view which are not immediately obvious."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:45
+msgid "3D Cursor"
+msgstr "Curseur 3D"
+
+#: ../../manual/editors/3dview/navigate/views.rst:45
+msgid ""
+"In local-view the 3D cursor is not locked to the scene. Instead, each "
+"view has an independent cursor location."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:52
+msgid "Layers"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:48
+msgid ""
+"Local-view bypasses layers, using only the selected objects when entering"
+" local-view. Although new objects may be added while in local-view."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:51
+msgid ""
+"Its also possible to send objects out of local view, using "
+":menuselection:`Object --> Move Objects out of Local View`, which can be "
+"useful to further isolate a selection."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:56
+msgid "Preview Renders"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:55
+msgid ""
+"Preview renders will still use lamps outside the local-view, this allows "
+"you to quickly render previews without having to remember to select all "
+"lamps when entering local-view."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:61
+msgid ""
+"Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you "
+"are new to Blender, so if a bunch of the objects in your scene seem to "
+"have mysteriously vanished, try turning off local view."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:66
+msgid "Quad View"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst
+msgid "Menu:     :menuselection:`View --> Toggle Quad View`"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst
+msgid ""
+"Panel     :menuselection:`Properties region --> Display --> Toggle Quad "
+"View`"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst
+msgid "Hotkey:   :kbd:`Ctrl-Alt-Q`"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:76
+msgid ""
+"Toggling Quad View will split the 3D View into four views: Three "
+"*Orthographic* \"side views\" and one *Camera*/*User View*. This view "
+"will allow you to instantly see your model from a number of view points. "
+"In this arrangement, you can zoom and pan each view independently but you"
+" cannot rotate the view."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:83
+msgid "Shortcuts for all views at once:"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:84
+msgid "View All :kbd:`Ctrl-Home`"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:85
+msgid "View Selected :kbd:`Ctrl-NumpadPeriod`"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:90
+msgid ""
+"Quad View is different from :doc:`splitting the area "
+"</interface/window_system/areas>` and aligning the view manually. In Quad"
+" View, the four views are still part of a single 3D View. So they share "
+"the same draw options and layers."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:96
+msgid "Quad View."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:100
+msgid "Options"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:102
+msgid ""
+"These options can be found in :menuselection:`Properties region --> "
+"Display`."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:104
+msgid "Lock"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:105
+msgid ""
+"If you want to be able to rotate each view, you can un-check the *Locked*"
+" option."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:106
+msgid "Box"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:107
+msgid "Syncs view position between side views."
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:110
+msgid "Clip"
+msgstr ""
+
+#: ../../manual/editors/3dview/navigate/views.rst:109
+msgid "Clip objects based on what is visible in other side views."
+msgstr ""
+
+#~ msgid "View Selected :kbd:`Ctrl-NumpadPeriot`"
+#~ msgstr ""
+

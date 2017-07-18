@@ -1,0 +1,378 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:4
+msgid "Knife Tool"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:6
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:124
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: "
+"Knife/Select`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst
+msgid "Hotkey:   :kbd:`K` or :kbd:`Shift-K`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:14
+msgid ""
+"The knife tool can be used to interactively subdivides (cuts up) geometry"
+" by drawing lines or closed loops to create holes."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:19
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:21
+msgid ""
+"When you press :kbd:`K` (or :kbd:`Shift-K`), the Knife tool becomes "
+"active."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:25
+msgid "Drawing the Cut Line"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:27
+msgid ""
+"When using *Knife*, the cursor changes to an icon of a scalpel and the "
+"header changes to display options for the tool. You can draw connected "
+"straight lines by clicking :kbd:`LMB`, marked with small green squares. "
+"Red squares are already defined cuts. Surrounding red squares mean that "
+"there is a cut already in that very position, so no additional vertex "
+"will be created (besides the first one)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:39
+msgid "Mesh before knife cut."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:44
+msgid "Knife cut active."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:49
+msgid "After confirming knife cut."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:53
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:57
+msgid "Knife selection :kbd:`Shift-K`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:56
+msgid ""
+"Activates the knife with another set of options so only selected faces "
+"are cut and *Cut through* is on by default."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:61
+msgid "New cut :kbd:`E`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:60
+msgid ""
+"Begins a new cut. This allows you to define multiple distinct cut lines. "
+"If multiple cuts have been defined, they are recognized as new snapping "
+"points."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:68
+msgid "Creating multiple cuts."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:73
+msgid "Result of starting new cuts while in the tool."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:77
+msgid "Midpoint snap :kbd:`Ctrl`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:77
+msgid ""
+"Hold to snap the cursor to the midpoint of edges, meaning that all cuts "
+"will be performed at the exact center of each cut edge."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:80
+msgid "Ignore snap :kbd:`Shift`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:80
+msgid ""
+"Hold to make the tool ignore snapping, unlike the default where mouse "
+"cursor snaps to near edges."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:82
+msgid "Cut through: :kbd:`Z`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:83
+msgid ""
+"Allow the cut tool to cut through to obscured faces, instead of only the "
+"visible ones."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:84
+msgid "Angle constrain :kbd:`C`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:85
+msgid "Constrains the cut to 45 degree increments."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:86
+msgid "Close loop: Double click :kbd:`LMB`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:87
+msgid "This is a quick way to close the loop you are currently cutting."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:90
+msgid "Draw a continuous line: :kbd:`LMB` drag."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:89
+msgid ""
+"So you can draw a freehand line over a surface, points will be created at"
+" edge intersections."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:97
+msgid "Constraining cut angle."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:102
+msgid "Result of constraining cut angle."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:106
+msgid "Confirming and selection"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:108
+msgid ""
+"Pressing :kbd:`Esc` or :kbd:`RMB` at any time cancels the tool, and "
+"pressing :kbd:`LMB` or :kbd:`Enter` confirms the cut, with the following "
+"options:"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:111
+msgid ""
+":kbd:`Enter` will leave selected every edge except the new edges created "
+"from the cut."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:115
+msgid "Limitations"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:117
+msgid ""
+"Cuts that begin or end in the middle of a face, will be ignored. This is "
+"a limitation of the current geometry that can be modeled in Blender."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:122
+msgid "Knife Project"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: "
+"Knife Project`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:130
+msgid ""
+"Knife projection is a non-interactive tool where you can use objects to "
+"cookie-cut into the mesh rather than hand drawing the line."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:133
+msgid ""
+"This works by using the outlines of other selected objects in edit-mode "
+"to cut into the mesh, resulting geometry inside the cutters outline will "
+"be selected."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:136
+msgid "Outlines can be wire or boundary edges."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:138
+msgid ""
+"To use Knife Project, first while in *Object Mode* select the \"cutting "
+"object\" then add to that selection with :kbd:`Shift-RMB` the \"object to"
+" be cut\". Now, enter *Edit Mode* and press *Knife Project* (found in the"
+" Tool Shelf)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:144
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:151
+msgid "Before projecting from a text object."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:156
+msgid "Resulting knife projection."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:161
+msgid "Before projecting from a mesh object."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:166
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:176
+msgid "Resulting knife projection (extruded after)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:171
+msgid "Before projecting from a 3D curve object."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:180
+msgid "Known Issues"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/knife_subdivide.rst:182
+msgid ""
+"Cutting holes into single faces may fail, this is the same limitation as "
+"with the regular knife tool but more noticeable for text, this can be "
+"avoided by projecting onto more highly subdivided geometry."
+msgstr ""
+
+#~ msgid "Knife selection Shift-K"
+#~ msgstr ""
+
+#~ msgid "New cut E"
+#~ msgstr ""
+
+#~ msgid "Midpoint snap Ctrl"
+#~ msgstr ""
+
+#~ msgid "Ignore snap Shift"
+#~ msgstr ""
+
+#~ msgid "Cut through: Z"
+#~ msgstr ""
+
+#~ msgid "Angle constrain C"
+#~ msgstr ""
+
+#~ msgid "Close loop: Double click LMB"
+#~ msgstr ""
+
+#~ msgid "Draw a continuous line: LMB drag."
+#~ msgstr ""
+
+#~ msgid "Mesh before knife cut"
+#~ msgstr ""
+
+#~ msgid "Knife cut active"
+#~ msgstr ""
+
+#~ msgid "After confirming knife cut"
+#~ msgstr ""
+
+#~ msgid "Creating multiple cuts"
+#~ msgstr ""
+
+#~ msgid "Result of starting new cuts while in the tool"
+#~ msgstr ""
+
+#~ msgid "Constraining cut angle"
+#~ msgstr ""
+
+#~ msgid "Result of constraining cut angle"
+#~ msgstr ""
+
+#~ msgid "Before projecting from a text object"
+#~ msgstr ""
+
+#~ msgid "Resulting knife projection"
+#~ msgstr ""
+
+#~ msgid "Before projecting from a mesh object"
+#~ msgstr ""
+
+#~ msgid "Resulting knife projection (extruded after)"
+#~ msgstr ""
+
+#~ msgid "Before projecting from a 3D curve object"
+#~ msgstr ""
+
+#~ msgid "Mode:     *Edit* mode"
+#~ msgstr ""
+
+#~ msgid "Mode:     Edit mode"
+#~ msgstr ""
+
+#~ msgid "Panel:    *Mesh Tools* (*Editing* context)"
+#~ msgstr ""
+
+#~ msgid "This is a quick way to close the loop you're currently cutting."
+#~ msgstr ""
+
+#~ msgid "Panel:    Mesh Tools"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Drawing the cut line"
+#~ msgstr ""
+
+#~ msgid "Activates the knife so only selected faces are cut."
+#~ msgstr ""
+
+#~ msgid "Hold to snap the cursor to the midpoint of edges"
+#~ msgstr ""
+
+#~ msgid "Hold to make the tool ignore snapping."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Pressing :kbd:`Esc` or :kbd:`RMB` at any"
+#~ " time cancels the tool, and pressing"
+#~ " :kbd:`LMB` or :kbd:`Return` confirms the"
+#~ " cut, with the following options:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":kbd:`Return` will leave selected every "
+#~ "edge except the new edges created "
+#~ "from the cut."
+#~ msgstr ""
+

@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:4
+msgid "Light Falloff Node"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:9
+msgid "Light Falloff Node."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:11
+msgid ""
+"The *Light Falloff* node allows you to manipulate how light intensity "
+"decreases over distance. In reality light will always fall off "
+"quadratically; however, it can be useful to manipulate as a non-"
+"physically based lighting trick. Note that using Linear or Constant "
+"falloff may cause more light to be introduced with every global "
+"illumination bounce, making the resulting image extremely bright if many "
+"bounces are used."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:19
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:21
+msgid "Strength"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:22
+msgid "Light strength before applying falloff modification."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:27
+msgid "Smooth"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:24
+msgid ""
+"Smooth intensity of light near light sources. This can avoid harsh "
+"highlights, and reduce global illumination noise. 0.0 corresponds to no "
+"smoothing; higher values smooth more. The maximum light strength will be "
+"strength/smooth."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:30
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:32
+msgid "This node has no properties."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:36
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:38
+msgid "Quadratic"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:39
+msgid ""
+"Quadratic light falloff; this will leave strength unmodified if smooth is"
+" 0.0 and corresponds to reality."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:40
+msgid "Linear"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:41
+msgid "Linear light falloff, giving a slower decrease in intensity over distance."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:44
+msgid "Constant"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:43
+msgid ""
+"Constant light falloff, where the distance to the light has no influence "
+"on its intensity."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:47
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/render/cycles/nodes/types/color/light_falloff.rst:49
+msgid "Todo."
+msgstr ""
+
+#~ msgid "Light Falloff"
+#~ msgstr ""
+

@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:5
+msgid "Point"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:10
+msgid "Point lamp."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:13
+msgid ""
+"The *Point* lamp is an omni-directional point of light, that is, a point "
+"radiating the same amount of light in all directions. It's visualized by "
+"a plain, circled dot. Being a point light source, the direction of the "
+"light hitting an object's surface is determined by the line joining the "
+"lamp and the point on the surface of the object itself."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:19
+msgid ""
+"Light intensity/energy decays based on (among other variables) distance "
+"from the *Point* lamp to the object. In other words, surfaces that are "
+"further away are rendered darker."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:25
+msgid "Lamp Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:29
+msgid "Distance, Energy and Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:28
+msgid ""
+"These settings are common to most types of lamps, and are described in "
+":doc:`Light Properties "
+"</render/blender_render/lighting/lights/lamp_panel>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:33
+msgid "Negative, This Layer Only, Specular, and Diffuse"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:32
+msgid ""
+"These settings control what the lamp affects, as described in :ref:`What "
+"Light Affects <bi-lamp-influence>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:38
+msgid "Falloff and Sphere"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:36
+msgid ""
+"These settings control how the light of the *Lamp* decays with distance. "
+"See :doc:`Light Attenuation "
+"</render/blender_render/lighting/lights/light_attenuation>` for details."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:41
+msgid "Shadows"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:46
+msgid "Without ray shadows."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:51
+msgid "Point lamp with ray shadows and Adaptive QMC sample generator enabled."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:54
+msgid ""
+"The *Point* light source can only cast ray-traced shadows. It shares with"
+" other lamp types the common shadow options described in "
+":doc:`/render/blender_render/lighting/shadows/shadow_panel`."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lamps/point.rst:58
+msgid ""
+"The ray-traced shadows settings of this lamp are shared with other lamps,"
+" and are described :doc:`Raytraced Properties "
+"</render/blender_render/lighting/shadows/raytraced_properties>`."
+msgstr ""
+
+#~ msgid ""
+#~ "These settings are common to most "
+#~ "types of lamps, and are described "
+#~ "in :doc:`Light Properties "
+#~ "</render/blender_render/lighting/lights/light_properties>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These settings control what the lamp "
+#~ "affects, as described in :doc:`What "
+#~ "Light Affects "
+#~ "</render/blender_render/lighting/lights/what_light_affects>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Point* light source can only "
+#~ "cast ray-traced shadows. It shares "
+#~ "with other lamp types the common "
+#~ "shadow options described in :doc:`Shadow "
+#~ "Properties "
+#~ "</render/blender_render/lighting/shadows/properties>`."
+#~ msgstr ""
+

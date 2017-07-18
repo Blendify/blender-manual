@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:4
+msgid "Checker Texture Node"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:9
+msgid "Checker Texture Node."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:12
+msgid "The *Checker Texture* is used to add a checkerboard texture."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:16
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:19
+msgid "Vector"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:19
+msgid ""
+"Texture coordinate to sample texture at; defaults to Generated texture "
+"coordinates if the socket is left unconnected."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:21
+msgid "Color1, Color 2"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:22
+msgid "Color of the checkers."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:28
+msgid "Scale"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:24
+msgid ""
+"Overall texture scale. The scale is a factor of the bounding box of the "
+"face divided by the scale. For example, a scale of 15 will result in 15 "
+"alternate patterns over the overall UV bounding box. Different patterns "
+"could be achieved using other nodes to give different input patterns to "
+"this socket. For example, using the Math Node."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:33
+msgid "This node has no properties."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:37
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:39
+msgid "Color"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:40
+msgid "Texture color output."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:43
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:42
+msgid "Checker 1 mask (1 = Checker 1)."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:46
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/render/cycles/nodes/types/textures/checker.rst:51
+msgid "Default Checker texture."
+msgstr ""
+
+#~ msgid "Default Checker texture"
+#~ msgstr ""
+
+#~ msgid "Vector input"
+#~ msgstr ""
+
+#~ msgid "Color1/2 input"
+#~ msgstr ""
+
+#~ msgid "Scale input"
+#~ msgstr ""
+
+#~ msgid "Color output"
+#~ msgstr ""
+
+#~ msgid "Fac output"
+#~ msgstr ""
+
+#~ msgid "Color1/2"
+#~ msgstr ""
+
+#~ msgid "Checkerboard texture."
+#~ msgstr ""
+
+#~ msgid "Fac"
+#~ msgstr ""
+
+#~ msgid "Checker Texture"
+#~ msgstr ""
+

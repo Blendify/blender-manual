@@ -1,0 +1,152 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/compositing/types/input/track_position.rst:4
+msgid "Track Position Node"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:9
+msgid "Track Position Node."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:11
+msgid ""
+"The *Track Position node* is used to return information about a tracking "
+"marker to the compositor."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:15
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:17
+msgid "This node as no inputs."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:21
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:29
+msgid "Movie Clip"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:24
+msgid ""
+"Used to select a Movie Clip data-block to use, for controls see :ref:`ui-"
+"data-block`."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:26
+msgid "Tracking Object"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:27
+msgid "Camera object to get track information from."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:29
+msgid "Track Name"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:29
+msgid "The name of the track to get track information from."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:42
+msgid "Position"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:32
+msgid "Which marker position to use for output."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:34
+msgid "Absolute"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:35
+msgid "Outputs a absolute position of a marker."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:36
+msgid "Relative Start"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:37
+msgid "Outputs the positions of a marker relative to the first marker of a track."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:38
+msgid "Relative Frame"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:39
+msgid ""
+"Outputs the positions of a marker relative to the markers of the given "
+"*Frame*."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:42
+msgid "Absolute Frame"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:41
+msgid "Outputs the absolute positions of a marker at the given *Frame*."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:45
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:47
+msgid "X/Y"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:48
+msgid "The markers X and Y location."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:52
+msgid "Speed"
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:50
+msgid ""
+"The velocity of the marker, measured in pixels per frame. This could be "
+"used to fake effects like motion blur by connecting it to the Vector Blur"
+" Node."
+msgstr ""
+
+#: ../../manual/compositing/types/input/track_position.rst:55
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/compositing/types/input/track_position.rst:57
+msgid "TODO."
+msgstr ""
+
+#~ msgid "Render Layers Node"
+#~ msgstr ""
+
+#~ msgid "Track Position"
+#~ msgstr ""
+
+#~ msgid "Render Layers Node."
+#~ msgstr ""
+
+#~ msgid "TODO - see: https://developer.blender.org/T43469"
+#~ msgstr ""
+

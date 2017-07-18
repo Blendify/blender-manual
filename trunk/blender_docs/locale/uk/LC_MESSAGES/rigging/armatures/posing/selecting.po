@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/rigging/armatures/posing/selecting.rst:4
+msgid "Selecting"
+msgstr ""
+
+#: ../../manual/rigging/armatures/posing/selecting.rst:6
+msgid ""
+"Selection in *Pose Mode* is very similar to the one in :doc:`Edit Mode </"
+"rigging/armatures/bones/selecting>`, with a few specificities:"
+msgstr ""
+
+#: ../../manual/rigging/armatures/posing/selecting.rst:9
+msgid "You can only select *whole bones* in *Pose Mode*, not roots/tips..."
+msgstr ""
+
+#: ../../manual/rigging/armatures/posing/selecting.rst:13
+msgid "Grouped"
+msgstr ""
+
+#: ../../manual/rigging/armatures/posing/selecting.rst:15
+msgid ""
+"You can select bones based on their group and/or layer, through the *Select "
+"Grouped* pop-up menu :kbd:`Shift-G`:"
+msgstr ""
+
+#: ../../manual/rigging/armatures/posing/selecting.rst:17
+msgid ""
+"To select all bones belonging to the same group(s) as the selected ones, use "
+"the *In Same Group* entry :kbd:`Shift-G-Numpad1`."
+msgstr ""
+
+#: ../../manual/rigging/armatures/posing/selecting.rst:19
+msgid ""
+"To select all bones belonging to the same layer(s) as the selected ones, use "
+"the *In Same Layer* entry :kbd:`Shift-G-Numpad2`."
+msgstr ""

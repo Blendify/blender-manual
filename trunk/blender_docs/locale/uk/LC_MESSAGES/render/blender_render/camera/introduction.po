@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/camera/introduction.rst:5
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/render/blender_render/camera/introduction.rst:7
+msgid ""
+"A *Camera* is an object that provides a means of rendering images from "
+"Blender. It defines which portion of a scene is visible in the rendered "
+"image. By default a scene contains one camera. However, a scene can contain "
+"more than one camera, but only one of them will be used at a time. So you "
+"will only need to add a new camera if you are making cuts between them. See :"
+"ref:`Animating Cameras <marker-bind-camera>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:16
+msgid "Changing the Active Camera"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:18
+#: ../../manual/render/blender_render/camera/introduction.rst:51
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst
+msgid "Mode:     Object Mode"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst
+msgid "Hotkey:   :kbd:`Ctrl-Numpad0`"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:26
+msgid "Active camera (left one)."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:29
+msgid ""
+"The *active* camera is the camera that is currently being used for rendering "
+"and camera view :kbd:`Numpad0`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:32
+msgid ""
+"Select the camera you would like to make active and press :kbd:`Ctrl-"
+"Numpad0` (by doing so, you also switch the view to camera view). In order to "
+"render, each scene **must** have an active camera."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:36
+msgid ""
+"The active camera can also be set in the *Scene* tab of the *Properties "
+"Editor*."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:38
+msgid ""
+"The camera with the solid triangle on top is the active camera. Limit and "
+"mist indicators of cameras are drawn darker if the camera is not the active "
+"camera for the current scene."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:43
+msgid ""
+"The active camera, as well as the layers, can be specific to a given view, "
+"or global (locked) to the whole scene. See :doc:`Local Camera </"
+"editors/3dview/properties/panels>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:49
+msgid "Render Border"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst
+msgid "Mode:     All modes"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst
+msgid "Menu:     :menuselection:`View --> Render Border`"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst
+msgid "Hotkey:   :kbd:`Ctrl-B`"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:61
+msgid "Render Border toggle."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:64
+msgid ""
+"While in camera view, you can define a subregion to render by drawing out a "
+"rectangle within the camera's frame. Your renders will now be limited to the "
+"part of scene visible within the render border. This can be very useful for "
+"reducing render times for quick previews on an area of interest."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:68
+msgid ""
+"The border can be disabled by disabling the *Border* option in the "
+"*Dimensions* panel in the *Render* tab or by activating the option again."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:77
+msgid ""
+"When Render Border is activated, :doc:`Sampled Motion Blur </render/"
+"blender_render/settings/motion_blur>` will become available to view in the "
+"3D View."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/introduction.rst:80
+msgid "Render border and associated render."
+msgstr ""
+
+#~ msgid "The camera with the solid triangle on top is the active camera."
+#~ msgstr "La caméra avec le triangle solide en haut est la caméra active."

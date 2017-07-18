@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/world/world_panel.rst:4
+msgid "World panel"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:6
+msgid "World"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:7
+msgid "The World :ref:`ui-data-block`."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:9
+msgid "Texture Count"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:9
+msgid "Shows the count of textures in the world texture stack."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:11
+msgid "Background Image in 3D"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:13
+msgid ""
+"To use an image as a background image in your 3D View, for example as a "
+"reference when doing a model, see :doc:`using a Background Image "
+"</editors/3dview/properties/background_images>`"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:19
+msgid "Preview"
+msgstr "Передогляд"
+
+#: ../../manual/render/blender_render/world/world_panel.rst:21
+msgid "Shows a view inside a sphere, on which the background textures are mapped."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:25
+msgid "World (Background)"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:29
+msgid "World panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:33
+msgid "Sky"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:35
+msgid "How colors below are interpreted depends on which kind of *Sky* is chosen."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:37
+msgid "None Enabled"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:38
+msgid ""
+"If none of these three buttons is checked, your background will just be "
+"plain flat color (using the horizon one)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:41
+msgid "Paper Sky"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:40
+msgid ""
+"If this option is added, the gradient keeps its characteristics, but it "
+"is clipped in the image (it stays on a horizontal plane (parallel to XY "
+"plane): what ever the angle of the camera may be, the horizon is always "
+"at the middle of the image)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:44
+msgid "Blend Sky"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:44
+msgid ""
+"The background color is blended from horizon to zenith. If only this "
+"button is pressed, the gradient runs from the bottom to the top of the "
+"rendered image regardless of the camera orientation."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:50
+msgid "Real Sky"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:47
+msgid ""
+"If this option is added, the gradient produced has two transitions, from "
+"nadir (same color as zenith) to horizon to zenith; the blending is also "
+"dependent on the camera orientation, which makes it more realistic. The "
+"horizon color is exactly at the horizon (on the XY plane), and the zenith"
+" color is used for points vertically above and below the camera."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:54
+msgid ""
+"When using a *Sun Lamp* options for "
+":doc:`/render/blender_render/lighting/lamps/sun/sky_and_atmosphere` are "
+"available in the *Lamp* tab."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:59
+msgid "Colors"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:61
+msgid "Horizon Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:62
+msgid "The RGB color at the horizon."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:63
+msgid "Zenith Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:64
+msgid "The RGB color at the zenith (overhead)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:67
+msgid "Ambient Color"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:66
+msgid ""
+":term:`Ambient Light`. See also "
+":doc:`/render/blender_render/world/indirect_lighting`."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:70
+msgid "Exposure and Range"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:72
+msgid "See :doc:`/render/blender_render/world/exposure`."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:78
+msgid "Textures"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:81
+msgid "Mapping"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:83
+msgid ""
+"Instead of a color, or blend of two colors, Blender can use an 2D image "
+"which it maps to a very large Box or sphere which encompasses the entire "
+"scene, or which it maps to a virtual space around the scene."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:87
+msgid ""
+"The World textures are accessible in the texture menu (just select "
+"*World* first, then *Texture*. They are used much like the Materials "
+"textures, except for a couple of differences. The textures can be mapped "
+"according to:"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:95
+msgid "Texture Coordinates select menu."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:113
+msgid "Texture Coordinates"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:98
+msgid "View"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:99
+msgid ""
+"The default orientation, aligned with the co-ordinates of the final "
+"render."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:100
+msgid "Global"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:101
+msgid "Uses global coordinates."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:105
+msgid "Angular Map"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:103
+msgid ""
+"Used to wrap a standard hemisphere angular map around the scene in a "
+"dome. This can be used for image based lighting with *Ambient Occlusion* "
+"set to sky color. You will generally need a high dynamic range image "
+"(HDRI) angular map. (It will look like a weird spherical image)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:107
+msgid "Sphere"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:108
+msgid "Sphere mapping, similar to that of materials."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:109
+msgid "Tube"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:110
+msgid ""
+"Wrap the rectangular texture around in a cylinder, similar to that of "
+"materials."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:113
+msgid "Object"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:112
+msgid "Position the texture relative to a specified object's local texture space."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:116
+msgid "Influence"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:120
+msgid "Texture Influence panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:123
+msgid "The texture affects color only, but in four different ways:"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:125
+msgid "Blend"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:126
+msgid "Makes the Horizon color appear where the texture is non-zero."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:127
+msgid "Horizon"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:128
+msgid "Affect the color of the horizon."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:129
+msgid "Zenith Up"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:130
+msgid "Affect the zenith color overhead."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:132
+msgid "Zenith Down"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:132
+msgid "Affect the zenith color underneath."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/world_panel.rst:134
+msgid ""
+"If you are disappointed that your camera appears to carry the texture "
+"with it rather than rotate through the texture, you should check the Real"
+" Sky checkbox in the World panel."
+msgstr ""
+
+#~ msgid "AngMap"
+#~ msgstr ""
+
+#~ msgid "Texture Coordinates pop-up menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To use an image as a background"
+#~ " image in your 3D View, for "
+#~ "example as a reference when doing "
+#~ "a model, see :doc:`using a Background"
+#~ " Image </editors/3dview/display/background_images>`"
+#~ msgstr ""
+

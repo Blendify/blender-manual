@@ -1,0 +1,172 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:4
+msgid "Assigning a Texture"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:6
+msgid ""
+"This page just shows how to add a texture to a slot. The "
+":doc:`/render/blender_render/textures/texture_panel` is explained on the "
+"previous page."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:12
+msgid "Texture panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:16
+msgid "Creating a new Texture Data-Block in a new Texture Slot"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:18
+msgid "Select an empty slot, then click on the *New* button."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:20
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:31
+msgid "This will do two things:"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:22
+msgid "It will create a new texture data-block."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:23
+msgid "Also, it will add a new slot in the textures stack."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:27
+msgid "Creating a new Texture Data-Block in a non-empty slot"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:29
+msgid "Select a non-empty slot, then click on the *Plus* button."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:33
+msgid ""
+"It will create a new texture data-block, with a new name, by making a "
+"copy of the texture data-block assigned to the selected slot."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:35
+msgid "It will assign this new data-block to the selected slot."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:39
+msgid "Sharing a Texture Data-Block in a non-empty slot"
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:41
+msgid ""
+"Select a non-empty slot, then click on the *Browse* button. This will "
+"open a menu showing all the available Texture data-blocks in this file."
+msgstr ""
+
+#: ../../manual/render/blender_render/textures/assigning_a_texture.rst:43
+msgid ""
+"Choose a texture data-block in the menu to assign it to the selected "
+"slot. This will share the chosen texture with more than one object, hence"
+" the *Number of users* shown in the texture data-block will increase by "
+"one."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Texture panel"
+#~ msgstr ""
+
+#~ msgid "Texture panel with button for Lamp textures highlighted"
+#~ msgstr ""
+
+#~ msgid "Choosing the Texture context"
+#~ msgstr ""
+
+#~ msgid "it will create a new texture data-block"
+#~ msgstr ""
+
+#~ msgid "also, it will add a new slot in the textures stack"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This page just shows how to add"
+#~ " a texture to a slot. The "
+#~ "textures' commons options are explained "
+#~ ":doc:`here </render/blender_render/textures/options>`."
+#~ msgstr ""
+
+#~ msgid "Choosing the Texture tab"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Properties editor, choose the "
+#~ "Texture tab: this will show the "
+#~ "Texture panels."
+#~ msgstr ""
+
+#~ msgid "Choosing the Texture data type"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Texture panel with buttons for Material,"
+#~ " World, and Brush textures highlighted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The three buttons *Material*, *World*, "
+#~ "*Brush* at the top of the texture"
+#~ " panel indicate the texture data "
+#~ "type, that is, the kind of texture"
+#~ " that is being edited."
+#~ msgstr ""
+
+#~ msgid "Texture panel with button for Lamp textures highlighted."
+#~ msgstr ""
+
+#~ msgid "Textures Slots"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The list below these buttons represent"
+#~ " the *Stack* of textures that we "
+#~ "can manage. It can have up to "
+#~ "eighteen *Texture Slots*:"
+#~ msgstr ""
+
+#~ msgid "Tick or untick a texture to enable/disable it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the three buttons on the right"
+#~ " side to move individual textures up"
+#~ " and down in the stack or to"
+#~ " copy/paste material's settings between "
+#~ "slots."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "it will create a new texture "
+#~ "data-block, with a new name, by "
+#~ "making a copy of the texture "
+#~ "data-block assigned to the selected "
+#~ "slot"
+#~ msgstr ""
+
+#~ msgid "it will assign this new data-block to the selected slot"
+#~ msgstr ""
+

@@ -1,0 +1,330 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:5
+msgid "Filter 2D Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:7
+msgid ""
+"The *Filter 2D Actuator* adds image filters, that apply on final render "
+"of objects. There are several 2D filters each listed below. Most are self"
+" explanatory, however, some are special and will be described in detail "
+"later."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:11
+msgid "Custom Filter"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:12
+msgid "Invert"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:13
+msgid "Sepia"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:14
+msgid "Gray Scale"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:15
+msgid "Prewitt"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:16
+msgid "Sobel"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:17
+msgid "Laplacian"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:18
+msgid "Erosion"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:19
+msgid "Dilation"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:20
+msgid "Sharpen"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:21
+msgid "Blur"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:22
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:49
+msgid "Motion Blur"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:23
+msgid "Remove Filter"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:24
+msgid "Disable Filter"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:25
+msgid "Enable Filter"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:30
+msgid "Edit Object actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:34
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:40
+msgid "Filter 2D Type"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:37
+msgid ""
+"Selects the type of 2D filter to use. All 2D filters are rendered with "
+"fragment shaders so your hardware must support fragment shaders. Several "
+"of the filters are called \"built in filters\", these are: Blur, Sharpen,"
+" Dilation, Erosion, Laplacian, Sobel, Prewitt, Gray Scale, Sepia, and "
+"Invert. There are however some filters that work differently then the "
+"ones above and are discribed seperatly."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:43
+msgid "Pass Number"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:43
+msgid "The pass number for the filter to use."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:45
+msgid "Details of special filters are described below."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:51
+msgid ""
+"*Motion Blur* is a *2D Filter* that needs previous rendering information "
+"to produce motion effect on objects. Below you can see *Motion Blur* "
+"filter in Blender window, along with its logic bricks:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:56
+msgid "2D Filters: Motion Blur."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:59
+msgid "You can enable Motion Blur filter using a *Python* controller::"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:64
+msgid "And disable it::"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:71
+msgid ""
+"Your graphic hardware and OpenGL driver must support accumulation buffer "
+"(``glAccum`` function)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:74
+msgid "Enable/Disable Filters"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:76
+msgid ""
+"There are two filters which can be used to either *Enable* or *Disable* "
+"other filters"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:78
+msgid "To enable/disable a filter on a specific pass:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:80
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:93
+msgid "Create appropriate sensor(s) and controller(s)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:81
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:94
+msgid "Create a *2D Filter* actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:82
+msgid ""
+"Select either a *Enable Filter* or *Disable Filter* dependng on what you "
+"want to do."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:83
+msgid "Set the pass number you want to disable the filter on it."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:87
+msgid "Removing Filters"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:89
+msgid "The *Remove Filter* is used to remove other 2D filters."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:91
+msgid "To remove a filter on a specific pass:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:95
+msgid "Select *Remove Filter*."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:96
+msgid "Set the pass number you want to remove the filter from it."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:100
+msgid "Custom Filters"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:102
+msgid ""
+"Custom filters give you the ability to define your own 2D filter using "
+"GLSL. Its usage is the same as built-in filters, but you must select "
+"*Custom Filter* in *2D Filter* actuator, then write shader program into "
+"the Text Editor, and then place shader script name on actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:109
+msgid "2D Filters: Custom Filter."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:111
+msgid "Blue Sepia Example:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:124
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:127
+msgid "Built in filters"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:133
+msgid "Sepia Filter."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/2d_filters.rst:137
+msgid "Sobel Filter."
+msgstr ""
+
+#~ msgid "**Filter 2D Type** Select the type of 2D Filter required."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Edit Object actuator"
+#~ msgstr ""
+
+#~ msgid "And disable it: from bge import render render.disableMotionBlur()"
+#~ msgstr ""
+
+#~ msgid "You can enable Motion Blur filter using a *Python* controller:"
+#~ msgstr ""
+
+#~ msgid "And disable it:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*2D Filter* s are image filtering "
+#~ "actuators, that apply on final render"
+#~ " of objects."
+#~ msgstr ""
+
+#~ msgid "Select the type of 2D Filter required."
+#~ msgstr ""
+
+#~ msgid "Only one parameter is required for all filters:"
+#~ msgstr ""
+
+#~ msgid "The pass number for which this filter is to be used."
+#~ msgstr ""
+
+#~ msgid "Details of the filters are given in the descriptive text below."
+#~ msgstr ""
+
+#~ msgid "Built-In 2D Filters"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All 2D filters you can see in "
+#~ "*2D Filter* actuator have the same "
+#~ "architecture, all built-in filters use"
+#~ " fragment shader to produce final "
+#~ "render view, so your hardware must "
+#~ "support shaders."
+#~ msgstr ""
+
+#~ msgid "2D Filters: Sepia."
+#~ msgstr ""
+
+#~ msgid "2D Filters: Sobel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Blur, Sharpen, Dilation, Erosion, Laplacian,"
+#~ " Sobel, Prewitt, Gray Scale, Sepia "
+#~ "and Invert"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Are built-in filters. These filters "
+#~ "can be set to be available in "
+#~ "some passes."
+#~ msgstr ""
+
+#~ msgid "To use a filter you should:"
+#~ msgstr ""
+
+#~ msgid "Select your filter, for example *Blur*."
+#~ msgstr ""
+
+#~ msgid "Set the pass number that the filter will be applied."
+#~ msgstr ""
+
+#~ msgid "To disable a filter on a specific pass:"
+#~ msgstr ""
+
+#~ msgid "Select *Disable Filter*."
+#~ msgstr ""
+
+#~ msgid "To enable a filter on a specific pass:"
+#~ msgstr ""
+
+#~ msgid "Create appropriate sensor(s) and controller(s)"
+#~ msgstr ""
+
+#~ msgid "Select *Enable Filter*."
+#~ msgstr ""
+
+#~ msgid "Set the pass number you want to enable the filter on it."
+#~ msgstr ""
+

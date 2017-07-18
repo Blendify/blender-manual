@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/soft_body/forces/interior.rst:4
+msgid "Interior"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:11
+msgid "Vertices and forces along their connection edges."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:14
+msgid ""
+"To create a connection between the vertices of a Soft Body object there "
+"have to be forces that hold the vertices together. These forces are "
+"effective along the edges in a mesh, the connections between the "
+"vertices. The forces act like a spring. Fig. :ref:`fig-softbody-force-"
+"interior-connection` illustrates how a 3×3 grid of vertices (a mesh plane"
+" in Blender) are connected in a Soft Body simulation."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:20
+msgid ""
+"But two vertices could freely rotate if you do not create additional "
+"edges between them. Have you ever tried building a storage shelf out of "
+"four planks alone? Well, do not do it, it will not be stable. The logical"
+" method to keep a body from collapsing would be to create additional "
+"edges between the vertices. This works pretty well, but would change your"
+" mesh topology drastically."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:31
+msgid "Additional forces with Stiff Quads enabled."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:34
+msgid ""
+"Luckily, Blender allows to define additional *virtual* connections. On "
+"one hand we can define virtual connections between the diagonal edges of "
+"a quad face (*Stiff Quads* Fig. :ref:`fig-softbody-force-interior-"
+"stiff`), on the other hand we can define virtual connections between a "
+"vertex and any vertices connected to its neighbors *Bending Stiffness*. "
+"In other words, the amount of bend that is allowed between a vertex and "
+"any other vertex that is separated by two edge connections."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:43
+msgid "Edges Settings"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:45
+msgid "The characteristics of edges are set with the *Soft Body Edge* properties."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:48
+msgid "Use Edges"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:48
+msgid "Allow the edges in a Mesh Object to act like springs."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:54
+msgid "Pull"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:51
+msgid ""
+"The spring stiffness for edges (how much the edges are allowed to "
+"stretch). A low value means very weak springs (a very elastic material), "
+"a high value is a strong spring (a stiffer material) that resists being "
+"pulled apart. 0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-"
+"starched napkin or leather. The Soft Body simulation tends to get "
+"unstable if you use a value of 0.999, so you should lower this value a "
+"bit if that happens."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:57
+msgid "Push"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:57
+msgid ""
+"How much the softbody resist being scrunched together, like a compression"
+" spring. Low values for fabric, high values for inflated objects and "
+"stiff material."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:59
+msgid "Damp"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:60
+msgid ""
+"The friction for edge springs. High values (max of 50) dampen the *Push* "
+"/ *Pull* effect and calm down the cloth."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:62
+msgid "Plastic"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:62
+msgid ""
+"Permanent deformation of the object after a collision. The vertices take "
+"a new position without applying the modifier."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:65
+msgid "Bending"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:65
+msgid ""
+"This option creates virtual connections between a vertex and the vertices"
+" connected to its neighbors. This includes diagonal edges. Damping also "
+"applies to these connections."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:69
+msgid "Length"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:68
+#, python-format
+msgid ""
+"The edges can shrink or been blown up. This value is given in percent, 0 "
+"disables this function. 100% means no change, the body keeps 100% of his "
+"size."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:72
+msgid "Stiff Quads"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:72
+msgid ""
+"For quad faces, the diagonal edges are used as springs. This stops quad "
+"faces to collapse completely on collisions (what they would do "
+"otherwise)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:76
+msgid "Shear"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:75
+msgid "Stiffness of the virtual springs created for quad faces."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:79
+msgid "Preventing Collapse"
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:81
+msgid ""
+"To show the effect of the different edge settings we will use two cubes "
+"(blue: only quads, red: only tris) and let them fall without any goal "
+"onto a plane (how to set up collision is shown on the page "
+":doc:`Collisions </physics/soft_body/collisions>`)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:87
+msgid "Without Stiff Quads."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:92
+#: ../../manual/physics/soft_body/forces/interior.rst:116
+#: ../../manual/physics/soft_body/forces/interior.rst:141
+msgid "Frame 1."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:97
+#: ../../manual/physics/soft_body/forces/interior.rst:121
+#: ../../manual/physics/soft_body/forces/interior.rst:146
+msgid "Frame 36."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:102
+#: ../../manual/physics/soft_body/forces/interior.rst:126
+#: ../../manual/physics/soft_body/forces/interior.rst:151
+msgid "Frame 401."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:105
+msgid ""
+"In Fig. :ref:`fig-softbody-force-interior-without`, the default settings "
+"are used (without *Stiff Quads*). The \"quad only\" cube will collapse "
+"completely, the cube composed of tris keeps its shape, though it will "
+"deform temporarily because of the forces created during collision."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:111
+msgid "With Stiff Quads."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:129
+msgid ""
+"In Fig. :ref:`fig-softbody-force-interior-with`, *Stiff Quads* is "
+"activated (for both cubes). Both cubes keep their shape, there is no "
+"difference for the red cube, because it has no quads anyway."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:135
+msgid ""
+"Bending Stiffness. `Blend file "
+"<https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-"
+"Stiffness.blend>`__."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:154
+msgid ""
+"The second method to stop an object from collapsing is to change its "
+"*Bending Stiffness*. This includes the diagonal edges (Damping also "
+"applies to these connections)."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:157
+msgid ""
+"In Fig. :ref:`fig-softbody-force-interior-bending`, *Be* is activated "
+"with a strength setting of 1. Now both cubes are more rigid."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:165
+msgid "Two planes going to collide."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:172
+msgid "No bending stiffness, Frame 101."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:177
+msgid "High bending stiffness (10), Frame 101."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:180
+msgid ""
+"Bending stiffness can also be used if you want to make a subdivided plane"
+" more plank like. Without *Be* the faces can freely rotate against each "
+"other like hinges Fig. :ref:`fig-softbody-force-interior-no-bending`. "
+"There would be no change in the simulation if you activated *Stiff "
+"Quads*, because the faces are not deformed at all in this example."
+msgstr ""
+
+#: ../../manual/physics/soft_body/forces/interior.rst:186
+msgid "Bending stiffness is the strength needed for the plane to be deformed."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Interior Forces"
+#~ msgstr ""
+
+#~ msgid "Image 1a: Vertices and forces along their connection edges."
+#~ msgstr ""
+
+#~ msgid "Image 1b: Additional forces with Stiff Quads enabled."
+#~ msgstr ""
+
+#~ msgid "Image 3a: Frame 1 without Stiff Quads."
+#~ msgstr ""
+
+#~ msgid "Image 3b: Frame 36."
+#~ msgstr ""
+
+#~ msgid "Image 3c: Frame 401."
+#~ msgstr ""
+
+#~ msgid "Image 4a: Frame 1 with Stiff Quads."
+#~ msgstr ""
+
+#~ msgid "Image 4b: Frame 36."
+#~ msgstr ""
+
+#~ msgid "Image 4c: Frame 401."
+#~ msgstr ""
+
+#~ msgid "Image 5b: Frame 36."
+#~ msgstr ""
+
+#~ msgid "Image 5c: Frame 401."
+#~ msgstr ""
+
+#~ msgid "Image 6a: Two planes going to collide."
+#~ msgstr ""
+
+#~ msgid "Image 6b: No bending stiffness, Frame 101."
+#~ msgstr ""
+
+#~ msgid "Image 6c: High bending stiffness (10), Frame 101."
+#~ msgstr ""
+
+#~ msgid "Without Stiff Quads."
+#~ msgstr ""
+
+#~ msgid "With Stiff Quads."
+#~ msgstr ""
+

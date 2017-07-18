@@ -1,0 +1,341 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:5
+msgid "Bevel"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:7
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst
+msgid ""
+"Menu:     :menuselection:`Mesh --> Edges --> Bevel` or "
+":menuselection:`Specials --> Bevel`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst
+msgid "Hotkey:   :kbd:`Ctrl-B`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst
+msgid "Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst
+msgid "Hotkey (vertex-only):  :kbd:`Shift-Ctrl-B`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:17
+msgid ""
+"The bevel tool allows you to create chamfered or rounded corners to "
+"geometry. A bevel is an effect that smooths out edges and corners."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:20
+msgid ""
+"True world edges are very seldom exactly sharp. Not even a knife blade "
+"edge can be considered perfectly sharp. Most edges are intentionally "
+"beveled for mechanical and practical reasons."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:24
+msgid ""
+"Bevels are also useful for giving realism to non-organic models. In the "
+"real world, the blunt edges on objects catch the light and change the "
+"shading around the edges. This gives a solid, realistic look, as opposed "
+"to un-beveled objects which can look too perfect."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:31
+msgid "Cubes with and without bevel."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:35
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:37
+msgid ""
+"The *Bevel* tool works only on selected edges with exactly two adjacent "
+"faces. It will recognize any edges included in a vertex or face selection"
+" as well, and perform the bevel the same as if those edges were "
+"explicitly selected. In \"vertex only\" mode, the *Bevel* tool works on "
+"selected vertices instead of edges. The *Bevel* tool smooths the edges "
+"and/or \"corners\" (vertices) by replacing them with faces making smooth "
+"profiles with a specified number of *segments* (see the options below for"
+" details about the bevel algorithm)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:45
+msgid ""
+"Use :kbd:`Ctrl-B` or a method listed above to run the tool. Move the "
+"mouse to interactively specify the bevel offset, and scroll the "
+":kbd:`Wheel` to increase or decrease the number of segments. (see below)"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:54
+msgid "Selected edge before beveling."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:59
+msgid "Result of bevel (one segment)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:64
+msgid "Result of bevel (vertex only)."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:69
+msgid ""
+"Normal (edge) beveling only works on edges that have exactly two faces "
+"attached to them. Vertex bevel has no such restriction."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:74
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:85
+msgid "Amount"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:81
+msgid ""
+"You can change the bevel amount by moving the mouse towards and away from"
+" the object, a bit like with transform tools. The exact meaning of the "
+"value depends on the *Amount Type* option (see below). As usual, the "
+"scaling can be controlled to a finer degree by holding :kbd:`Shift` to "
+"scale in 0.001 steps. :kbd:`LMB` finalizes the operation, :kbd:`RMB` or "
+":kbd:`Esc` aborts the action."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:97
+msgid "Amount Type :kbd:`M`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:88
+msgid ""
+"Selects how the *Amount* value controls the size of the bevel. According "
+"to the selection, the amount is:"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:90
+msgid "Offset"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:91
+msgid "The distance of a new edge from the original."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:92
+msgid "Width"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:93
+msgid "The width of the bevel face."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:94
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:95
+msgid "The perpendicular distance from the original edge to the bevel face."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:97
+msgid "Percent"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:97
+msgid "The percentage of the length of adjacent edges that the new edges slide."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:111
+msgid "Segments :kbd:`S`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:100
+msgid ""
+"The number of segments in the bevel can be defined by scrolling the mouse"
+" :kbd:`Wheel` to increase or decrease this value. The greater the number "
+"of segments, the smoother the bevel. Or press :kbd:`S` to change the "
+"number with mouse movements, as well as numeric input."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:105
+msgid ""
+"Alternatively, you can manually enter a segment number value while using "
+"the tool, or in the Mesh Tool options panel after using the tool."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:111
+msgid "Bevel with four segments."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:118
+msgid "Profile :kbd:`P`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:114
+msgid ""
+"This is a number between 0 and 1 that controls the shape of the profile "
+"(side view of a beveled edge). The default value, 0.5, gives a circular "
+"arc (if the faces meet at right angles). Values less than that give a "
+"flatter profile, with 0.25 being exactly flat, and values less than that "
+"giving a concave bevel. Values more than 0.5 give a more convex profile. "
+"Similarly as *Segments* it can be set with mouse movements and numeric "
+"input after toggling :kbd:`P`."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:120
+msgid "Vertex Only :kbd:`V`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:121
+msgid ""
+"When selected, the tool is in \"vertex only\" mode, and only vertices "
+"will be beveled."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:123
+msgid "Clamp Overlap :kbd:`C`"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:123
+msgid ""
+"When selected, the bevel amount is not allowed to go larger than an "
+"amount that causes overlapping collisions with other geometry."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:126
+msgid "Loop Slide"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:126
+msgid ""
+"If there are unbeveled edges along with beveled edges into a vertex, the "
+"bevel tries to slide along those edges when possible. Turning the option "
+"off can lead to more even bevel widths."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:132
+msgid "Material"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:129
+msgid ""
+"The *Material* number specifies which material should be assigned to the "
+"new faces created by the *Bevel* tool. With the default, -1, the material"
+" is inherited from the closest existing face (\"closest\" can be a bit "
+"ambiguous). Otherwise, the number is the slot index of the material to "
+"use for all newly created faces."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:135
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:142
+msgid "Result of beveling multiple edges."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:147
+msgid "Another example of beveling multiple edges."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:152
+msgid "An example using Profile=0.150."
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:155
+msgid "Bevel Modifier"
+msgstr ""
+
+#: ../../manual/modeling/meshes/editing/subdividing/bevel.rst:157
+msgid ""
+"The :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` is a non "
+"destructive alternative to the bevel tool."
+msgstr ""
+
+#~ msgid "With bevel and without bevel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Selected edge before beveling"
+#~ msgstr ""
+
+#~ msgid "Result of bevel (one segment)"
+#~ msgstr ""
+
+#~ msgid "Result of bevel (vertex only)"
+#~ msgstr ""
+
+#~ msgid "Result of beveling multiple edges"
+#~ msgstr ""
+
+#~ msgid "Another example of beveling multiple edges"
+#~ msgstr ""
+
+#~ msgid "Mode:     *Edit* mode"
+#~ msgstr ""
+
+#~ msgid "Hotkey:   :kbd:`Ctrl-B` or :menuselection:`[W] --> Bevel`"
+#~ msgstr ""
+
+#~ msgid "Bevel with 4 segments"
+#~ msgstr ""
+
+#~ msgid "An example using Profile=0.150"
+#~ msgstr ""
+
+#~ msgid "Mode:     Edit mode"
+#~ msgstr ""
+
+#~ msgid "Bevel with 4 segments."
+#~ msgstr ""
+
+#~ msgid "Amount Type"
+#~ msgstr ""
+
+#~ msgid "*Offset* -- The distance of a new edge from the original."
+#~ msgstr ""
+
+#~ msgid "*Width* -- The width of the bevel face."
+#~ msgstr ""
+
+#~ msgid "Segments"
+#~ msgstr ""
+
+#~ msgid "Profile"
+#~ msgstr ""
+
+#~ msgid "Vertex Only"
+#~ msgstr ""
+
+#~ msgid "Clamp Overlap"
+#~ msgstr ""
+
+#~ msgid "Hotkey:   :kbd:`Ctrl-B` or :kbd:`W` :menuselection:`--> Bevel`"
+#~ msgstr ""
+

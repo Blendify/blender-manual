@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/world/mist.rst:5
+msgid "Mist"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:7
+msgid ""
+"Mist can greatly enhance the illusion of depth in your rendering. To "
+"create mist, Blender makes objects farther away more transparent "
+"(decreasing their Alpha value) so that they mix more of the background "
+"color with the object color. With Mist enabled, the further the object is"
+" away from the camera the less its alpha value will be."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:14
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:19
+msgid "Mist panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:21
+msgid "Mist check box"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:22
+msgid "Toggles mist on and off."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:23
+msgid "Minimum"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:24
+msgid "An overall minimum intensity, or strength, of the mist."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:25
+msgid "Start"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:26
+msgid "The distance from the camera at which the mist starts to fade in"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:28
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:28
+msgid ""
+"The distance from *Start* of the mist, that it fades in over. Objects "
+"further from the camera than *Start + Depth* are completely hidden by the"
+" mist."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:32
+msgid "Height"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:31
+msgid ""
+"Makes the mist intensity decrease with height, for a more realistic "
+"effect. If greater than 0, it sets, in Blender units, an interval around "
+"z=0 in which the mist goes from maximum intensity (below) to zero "
+"(above)."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:37
+msgid "Falloff"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:35
+msgid ""
+"The decay rate of the mist (*Quadratic*, *Linear*, *Inverse Quadratic*). "
+"These settings control the rate of change of the mist's strength further "
+"and further into the distance."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:39
+msgid "Mist distances"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:41
+msgid ""
+"To visualize the mist distances in the 3D View, select your camera, go to"
+" the camera menu, and enable *Show Mist*."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:43
+msgid ""
+"The camera will show mist limits as a line projecting from the camera "
+"starting from *Start* and of distance *Depth*."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:46
+msgid ""
+"To get a better view to evaluate the *Mist* visualization, :kbd:`Shift-"
+"Numpad1` with the camera selected and :kbd:`Numpad5` to toggle "
+"perspective view on and off. This will place the 3D View right over the "
+"camera looking down."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:53
+msgid "Transparency"
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:55
+msgid ""
+"Because *Mist* works by adjusting transparency, this can sometimes cause "
+"objects to be partially transparent when they should not be. One "
+"workaround is to set the Mist settings as desired, but turn Mist off. The"
+" Mist data is still available for compositing even though it is off. Use "
+":doc:`Do Composite </compositing/index>` and the :doc:`Node Editor "
+"</editors/node_editor/index>` to feed the Mist pass to an :doc:`Alpha "
+"Over </compositing/types/color/alpha_over>` to blend the background color"
+" (or a render layer with just the sky) with the rendered image. This "
+"produces the mist effect but since Mist is off the object transparency "
+"(or lack of) is preserved."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:67
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../manual/render/blender_render/world/mist.rst:71
+msgid "Mist example."
+msgstr ""
+
+#: ../../manual/render/blender_render/world/mist.rst:74
+msgid ""
+"In this example (`blend-file <https://wiki.blender.org/index.php/:File:25"
+"-Manual-World-Mist-Example1.blend>`__) the :menuselection:`Mist --> "
+"Height` options has been limited to create smoke covering the floor."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid "Mist panel"
+#~ msgstr ""
+
+#~ msgid "Mist example"
+#~ msgstr ""
+
+#~ msgid "Toggles mist on and off"
+#~ msgstr ""
+
+#~ msgid "Option"
+#~ msgstr ""
+

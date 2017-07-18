@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:4
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:7
+msgid "Transform"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:13
+msgid "The Transform panel for armatures in Edit Mode."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:15
+msgid ""
+"We will not detail here the various transformations of bones, nor things "
+"like axis locking, pivot points, and so on, as they are common to most "
+"object editing, and already described in the :doc:`mesh section "
+"</editors/3dview/object/editing/transform/control/index>`. The same goes "
+"for mirroring, as it is nearly the same as with :doc:`mesh editing "
+"</modeling/meshes/editing/transform/mirror>`. Just keep in mind that "
+"bones' roots and tips behave more or less like meshes' vertices, and "
+"bones themselves act like edges in a mesh."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:23
+msgid ""
+"As you know, bones can have two types of relationships: They can be "
+"parented, and in addition connected. Parented bones behave in *Edit Mode*"
+" exactly as if they had no relations. They can be grabbed, rotated, "
+"scaled, etc. a parent bone without affecting its descendants. However, "
+"connected bones must always have parent's tips connected to child's "
+"roots, so by transforming a bone, you will affect all its connected "
+"parent/children/siblings."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:30
+msgid ""
+"While with other transform tools, the \"local axes\" means the object's "
+"axes, here they are the bone's own axes (when you lock to a local axis, "
+"by pressing the relevant key twice, the constraint is applied along the "
+"selected bone's local axis, not the armature object's axis)."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:35
+msgid ""
+"Finally, you can edit in the *Transform* panel in the Properties region "
+"the positions and radius of both joints of the active selected bone, as "
+"well as its :ref:`roll rotation <armature-bone-roll>`."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:41
+msgid "Scale Radius"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:43
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:91
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:141
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:166
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:179
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:211
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Mode:     Edit Mode"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Menu:     :menuselection:`Armature --> Transform --> Scale Radius`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Hotkey:   :kbd:`Alt-S`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:50
+msgid ""
+"You can alter the radius that a bone has by selecting the head, body or "
+"tail of a bone, and then press :kbd:`Alt-S` and move the mouse left or "
+"right. If the body is selected the mean radius will be scaled. And as "
+"usual, with connected bones, you scale at the same time the radius of the"
+" parent's tip and of the children's roots."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:56
+msgid ""
+"You can also alter the bone radius by selecting the tail or head of the "
+"bone you wish to alter, then navigate to :menuselection:`Properties "
+"Editor --> Bone --> Deform --> Radius Section` and entering new values "
+"for the *Tail* and *Head* number buttons."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:60
+msgid "Bone Scale and Scale Radius comparison."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:65
+msgid "A single selected bone in Octahedron visualization."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:70
+msgid "After normal scale."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:75
+msgid "A single selected bone in Envelope visualization."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:80
+msgid ""
+"After Scaled Radius. Its length remains the same, but its joints' radius "
+"are bigger."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:82
+msgid ""
+"Note that when you resize a bone (either by directly scaling it, or by "
+"moving one of its joints), Blender automatically adjusts the end-radii of"
+" its envelope proportionally to the size of the modification. Therefore, "
+"it is advisable to place all the bones first, and only then edit these "
+"properties."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:89
+msgid "Scale Envelope Distance"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Mode:     Edit Mode and Pose Mode"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid ""
+"Menu:     :menuselection:`Armature --> Transform --> Scale Envelope "
+"Distance`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Hotkey:   :kbd:`Ctrl-Alt-S`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:98
+msgid ""
+"You can alter the size of the Bone Envelope volume by clicking on the "
+"body of the bone you want to alter, :kbd:`Ctrl-Alt-S` then drag your "
+"mouse left or right and the Bone Envelope volume will alter accordingly."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:101
+msgid ""
+"You can also alter the Bone Envelope volume by selecting the Bone you "
+"wish to alter and then navigate to :menuselection:`Properties Editor --> "
+"Bone --> Deform --> Envelope --> Distance` then enter a new value into "
+"it."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:105
+msgid ""
+"Altering the Bone Envelope volume does not alter the size of the bone "
+"just the range within which it can influence vertices of child objects."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:108
+msgid "Envelope scaling example."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:113
+msgid "A single bone selected in Envelope visualization."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:118
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:130
+msgid "Its envelope distance scaled."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:120
+msgid "\"Bone size\" scaling example."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:125
+msgid "A single \"default size\" bone selected in B-Bone visualization."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:135
+msgid ""
+"The same armature in Object Mode and B-Bone visualization, with "
+"Bone.004's size scaled up."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:139
+msgid "Align Bones"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Menu:     :menuselection:`Armature --> Transform --> Align Bones`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Hotkey:   :kbd:`Ctrl-Alt-A`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:148
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:154
+msgid "Bone Roll"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:156
+msgid ""
+"In *Edit Mode*, you can control of the bones roll (i.e. the rotation "
+"around the Y axis of the bone)."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:159
+msgid ""
+"However, after editing the armature, or when using :term:`euler "
+"rotation`, you may want to set the bone roll."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:164
+msgid "Set Bone Roll"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Menu:     :menuselection:`Armature --> Bone Roll --> Set`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Hotkey:   :kbd:`Ctrl-R`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:173
+msgid ""
+"This is a transform mode where you can edit the roll of all selected "
+"bones."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:177
+msgid "Recalculate Bone Roll"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Menu:     :menuselection:`Armature --> Bone Roll --> Recalculate`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Hotkey:   :kbd:`Ctrl-N`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:200
+msgid "Axis Orientation"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:190
+msgid "Local Tangent"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:189
+msgid "Align roll relative to the axis defined by the bone and its parent."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:191
+msgid "X, Z"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:194
+msgid "Global Axis"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:193
+msgid "Align roll to global X, Y, Z axis."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:195
+msgid "X, Y, Z"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:196
+msgid "Active Bone"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:197
+msgid "Follow the rotation of the active bone."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:198
+msgid "View Axis"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:199
+msgid "Set the roll to align with the view-port."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:200
+msgid "Cursor"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:201
+msgid "Set the roll towards the 3D cursor."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:202
+msgid "Flip Axis"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:203
+msgid "Reverse the axis direction."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:206
+msgid "Shortest Rotation"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:205
+msgid "Avoids rolling the bone over 90 degrees from its current value."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:209
+msgid "Switch Direction"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid ""
+"Menu:     :menuselection:`Armature --> Switch Direction`, "
+":menuselection:`Specials --> Switch Direction`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst
+msgid "Hotkey:   :kbd:`Alt-F`"
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:219
+msgid ""
+"This tool is not available from the *Armature* menu, but only from the "
+"*Specials* pop-up menu :kbd:`W`. It allows you to switch the direction of"
+" the selected bones (i.e. their root will become their tip, and vice "
+"versa)."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:224
+msgid ""
+"Switching the direction of a bone will generally break the chain(s) it "
+"belongs to. However, if you switch a whole (part of a) chain, the "
+"switched bones will still be parented/connected, but in \"reversed "
+"order\". See the Fig. :ref:`fig-rig-properties-switch`."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:230
+msgid "Switching example."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:236
+msgid ""
+"An armature with one selected bone, and one selected chain of three "
+"bones, just before switching."
+msgstr ""
+
+#: ../../manual/rigging/armatures/bones/editing/transform.rst:241
+msgid ""
+"The selected bones have been switched. Bone.005 is no more connected nor "
+"parented to anything. The chain of switched bones still exists, but "
+"reversed (Now Bone.002 is its root, and Bone is its tip). Bone.003 is now"
+" a free bone."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Bone Direction"
+#~ msgstr ""
+
+#~ msgid "Menu:     :menuselection:`Specials --> Switch Direction`"
+#~ msgstr ""
+
+#~ msgid "Hotkey:   :kbd:`W-3`"
+#~ msgstr ""
+
+#~ msgid "Scaling of a bone in *Octahedron* and *Envelope* visualizations."
+#~ msgstr ""
+
+#~ msgid "Envelope scaling example."
+#~ msgstr ""
+
+#~ msgid "\"Bone size\" scaling example."
+#~ msgstr ""
+
+#~ msgid "Switching example."
+#~ msgstr ""
+
+#~ msgid "Radius and Scaling in Envelope Visualization"
+#~ msgstr ""
+
+#~ msgid "Mode:     Edit Mode, Envelope visualization"
+#~ msgstr ""
+
+#~ msgid "Menu:     :menuselection:`Armature --> Transform --> Scale`"
+#~ msgstr ""
+
+#~ msgid "Hotkey:   :kbd:`S`"
+#~ msgstr ""
+
+#~ msgid "A single selected bone..."
+#~ msgstr ""
+
+#~ msgid "...Scaled in Octahedron visualization."
+#~ msgstr ""
+
+#~ msgid "ScaleB and Envelope"
+#~ msgstr ""
+
+#~ msgid "Its envelope scaled with :kbd:`Ctrl-Alt-S`."
+#~ msgstr ""
+
+#~ msgid "Its size scaled with :kbd:`Ctrl-Alt-S`."
+#~ msgstr ""
+

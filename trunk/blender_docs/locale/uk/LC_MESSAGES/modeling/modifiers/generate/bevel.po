@@ -1,0 +1,225 @@
+#
+# urko <urkokul@gmail.com>, 2016.
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:4
+msgid "Bevel Modifier"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:6
+msgid ""
+"The Bevel Modifier adds the ability to bevel the edges of the mesh it is "
+"applied to, allowing control of how and where the bevel is applied to the"
+" mesh."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:9
+msgid ""
+"The Bevel Modifier is a non-destructive alternative to the :doc:`Bevel "
+"Operation </modeling/meshes/editing/subdividing/bevel>` in edit mode."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:18
+msgid "Not beveled."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:23
+msgid "Beveled."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:26
+msgid ""
+"The images above show the side views of a plain (Not beveled) cube and a "
+"beveled one."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:30
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:34
+msgid "Bevel Modifier panel."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:44
+#: ../../manual/modeling/modifiers/generate/bevel.rst:93
+msgid "Width"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:38
+msgid "The size of the bevel affect. See *Width Method* below."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:43
+msgid "Three Cubes with 0.1, 0.3 and 0.5 bevel Widths."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:46
+msgid "Segments"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:47
+msgid "The number of edge loops added along the bevel's face."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:48
+msgid "Profile"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:49
+msgid ""
+"The shape of the bevel, from concave to convex. It has no effect if "
+"*Segments* is less than 2."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:51
+msgid "Material"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:51
+msgid ""
+"The index of the material slot to use for the bevel. When set to -1, the "
+"material of the nearest original face will be used."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:59
+msgid "Only Vertices"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:54
+msgid ""
+"When enabled, only the areas near vertices are beveled; the edges are "
+"left not beveled."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:59
+msgid ""
+"Three cubes with 0.1, 0.3 and 0.5 bevel Widths, with Only Vertices option"
+" enabled."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:62
+msgid "Clamp Overlap"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:62
+msgid ""
+"When enabled, the width of each beveled edge will be limited such that "
+"they cannot intersect each other. Edges that are far apart will still "
+"bevel with the full width, only edges too close to each other are "
+"affected."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:66
+msgid "Loop Slide"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:65
+msgid ""
+"If there are unbeveled edges along with beveled edges into a vertex, the "
+"bevel tries to slide along those edges when possible. Turning the option "
+"off can lead to more even bevel widths."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:84
+msgid "Limit Method"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:69
+msgid "Used to control where a bevel is applied to the mesh."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:71
+msgid "None"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:72
+msgid "No limit, all edges will be beveled."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:74
+msgid "Angle"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:74
+msgid ""
+"Only edges where the adjacent faces form an angle smaller than the "
+"defined threshold will be beveled. Intended to allow you to bevel only "
+"the sharp edges of an object without affecting its smooth surfaces."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:78
+msgid "Weight"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:77
+msgid ""
+"Use each edge's bevel weight to determine the width of the bevel. When "
+"the bevel weight is 0.0, no bevel is applied. See :doc:`here "
+"</modeling/meshes/editing/edges>` about adjusting bevel weights."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:84
+msgid "Vertex Group"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:81
+msgid ""
+"Use weights from a vertex group to determine the width of the bevel. When"
+" the vertex weight is 0.0, no bevel is applied. An edge is only beveled "
+"if both of its vertices are in the vertex group. See :doc:`here "
+"</modeling/meshes/properties/vertex_groups/vertex_groups>` about "
+"adjusting vertex group weights."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:99
+msgid "Width Method"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:89
+msgid "Used to control how the *Width* is measured."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:91
+msgid "Offset"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:92
+msgid "Amount is offset of new edges from original."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:94
+msgid "Amount is width of new face."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:95
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:96
+msgid "Amount is perpendicular distance from original edge to bevel face."
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:99
+msgid "Percent"
+msgstr ""
+
+#: ../../manual/modeling/modifiers/generate/bevel.rst:98
+msgid "Amount is percent of adjacent edge length."
+msgstr ""
+
+#~ msgid "Beveled"
+#~ msgstr "Biseauté"
+

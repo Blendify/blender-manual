@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/modeling/metas/primitives.rst:4
+msgid "Primitives"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst
+msgid "Mode:     Object Mode and Edit Mode"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst
+msgid ""
+"Panel:    :menuselection:`Tool Shelf --> Create --> Add Primitive/Metaball`"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst
+msgid "Menu:     :menuselection:`Add --> Meta`"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst
+msgid "Hotkey:   :kbd:`Shift-A`"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:14
+msgid ""
+"There are five predefined meta \"primitives\" (or configurations) available "
+"in the :menuselection:`Add --> Meta` sub-menu:"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:20
+msgid "The five Meta primitives."
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:23
+msgid "Options"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:35
+msgid "Primitive"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:26
+msgid "Meta Ball"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:27
+msgid "Adds a meta with a point underlying structure."
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:28
+msgid "Meta Tube"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:29
+msgid "Adds a meta with a line segment underlying structure."
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:30
+msgid "Meta Plane"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:31
+msgid "Adds a meta with a planar underlying structure."
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:32
+msgid "Meta Ellipsoid"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:33
+msgid "Adds a meta with an ellipsoidal underlying structure."
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:35
+msgid "Meta Cube"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:35
+msgid "Adds a meta with a volumetric cubic underlying structure."
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:39
+msgid "Radius, Align to View, Location, Rotation"
+msgstr ""
+
+#: ../../manual/modeling/metas/primitives.rst:38
+msgid "See :ref:`Common Object Options <object-common-options>`."
+msgstr ""

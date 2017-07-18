@@ -1,0 +1,345 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:6
+msgid ""
+"The movement of particles may be controlled in a multitude of ways. With "
+"particles physics: there are five different systems:"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:9
+msgid "None (`No Physics`_)"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:10
+msgid ""
+"It does not give the particles any motion, which makes them belong to no "
+"physics system."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:11
+msgid ":doc:`Newtonian </physics/particles/emitter/physics/newtonian>`"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:12
+msgid "Movement according to physical laws."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:13
+msgid ":doc:`Keyed </physics/particles/emitter/physics/keyed>`"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:14
+msgid ""
+"Dynamic or static particles where the (animated) targets are other "
+"particle systems."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:16
+msgid ":doc:`Boids </physics/particles/emitter/physics/boids>`"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:16
+msgid ""
+"Particles with limited artificial intelligence, including behavior and "
+"rules programming, ideal for flocks of birds or schools of fishes, or "
+"predators vs preys simulations."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:19
+msgid ":doc:`Fluid </physics/particles/emitter/physics/fluid>`"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:19
+msgid ""
+"Movement according to fluid laws (based on Smoothed Particle "
+"Hydrodynamics technique)."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:21
+msgid "Additional ways of moving particles:"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:23
+msgid "By softbody animation (only for Hair particle systems)."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:24
+msgid "By forcefields and along curves."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:25
+msgid "By lattices."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:27
+msgid ""
+"Here we will discuss only the particle physics in the narrower sense, "
+"i.e. the settings in the Physics panel."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:32
+msgid "Common Physics Settings"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:34
+msgid "Size"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:35
+msgid "Sets the size of the particles."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:36
+msgid "Random Size"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:37
+msgid "Give the particles a random size variation."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:38
+msgid "Mass"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:39
+msgid "Specify the mass of the particles."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:42
+msgid "Multiply mass with particle size"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:41
+msgid "Causes larger particles to have larger masses."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:45
+msgid "No Physics"
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:47
+msgid ""
+"At first a Physics type that makes the particles do nothing could seem a "
+"bit strange, but it can be very useful at times. None physics make the "
+"particles stick to their emitter their whole life time. The initial "
+"velocities here are for example used to give a velocity to particles that"
+" are affected by a harmonic effector with this physics type when the "
+"effect of the effector ends."
+msgstr ""
+
+#: ../../manual/physics/particles/emitter/physics/introduction.rst:53
+msgid ""
+"Moreover, it can be very convenient to have particles at disposal (whose "
+"both Unborn and Died are visible on render) to groom vegetation and/or "
+"ecosystems using Object, Group or Billboard types of visualization."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "None (No Physics)"
+#~ msgstr ""
+
+#~ msgid "Newtonian"
+#~ msgstr ""
+
+#~ msgid "Keyed"
+#~ msgstr ""
+
+#~ msgid "Boids"
+#~ msgstr ""
+
+#~ msgid "Fluid"
+#~ msgstr ""
+
+#~ msgid "Image 3: Initial velocity."
+#~ msgstr ""
+
+#~ msgid ":doc:`Newtonian </physics/particles/physics/newtonian>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Keyed </physics/particles/physics/keyed>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Boids </physics/particles/physics/boids>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Fluid </physics/particles/physics/fluid>`"
+#~ msgstr ""
+
+#~ msgid "the particle's initial velocity."
+#~ msgstr ""
+
+#~ msgid "one of the global axes"
+#~ msgstr ""
+
+#~ msgid "one of the emitter object axes."
+#~ msgstr ""
+
+#~ msgid "Initial rotation phase"
+#~ msgstr ""
+
+#~ msgid "Align X,Y,Z"
+#~ msgstr ""
+
+#~ msgid "Velocity"
+#~ msgstr ""
+
+#~ msgid "Initial velocity."
+#~ msgstr ""
+
+#~ msgid "Emitter Geometry"
+#~ msgstr ""
+
+#~ msgid "Normal"
+#~ msgstr ""
+
+#~ msgid "Tangent"
+#~ msgstr ""
+
+#~ msgid "Let the tangent speed give the particle a starting speed."
+#~ msgstr ""
+
+#~ msgid "Rot"
+#~ msgstr ""
+
+#~ msgid "Rotates the surface tangent."
+#~ msgstr ""
+
+#~ msgid "Emitter Object"
+#~ msgstr ""
+
+#~ msgid "Align"
+#~ msgstr ""
+
+#~ msgid "Give an initial velocity in the X, Y, and Z axes."
+#~ msgstr ""
+
+#~ msgid "X, Y, Z"
+#~ msgstr ""
+
+#~ msgid "Object"
+#~ msgstr ""
+
+#~ msgid "Random"
+#~ msgstr ""
+
+#~ msgid "Rotation"
+#~ msgstr ""
+
+#~ msgid "Particles rotation settings."
+#~ msgstr ""
+
+#~ msgid "Initial Rotation Mode"
+#~ msgstr ""
+
+#~ msgid "None"
+#~ msgstr ""
+
+#~ msgid "the global x-axis."
+#~ msgstr ""
+
+#~ msgid "Normal-Tangent"
+#~ msgstr ""
+
+#~ msgid "The particle's initial velocity."
+#~ msgstr ""
+
+#~ msgid "Global X/Global Y/Global Z"
+#~ msgstr ""
+
+#~ msgid "One of the global axes."
+#~ msgstr ""
+
+#~ msgid "Object X/Object Y/Object Z"
+#~ msgstr ""
+
+#~ msgid "One of the emitter object axes."
+#~ msgstr ""
+
+#~ msgid "Randomizes rotation."
+#~ msgstr ""
+
+#~ msgid "Dynamic"
+#~ msgstr ""
+
+#~ msgid "Phase"
+#~ msgstr ""
+
+#~ msgid "Initial rotation phase."
+#~ msgstr ""
+
+#~ msgid "Rand allows a random variation of the Phase."
+#~ msgstr ""
+
+#~ msgid "Angular Velocity"
+#~ msgstr ""
+
+#~ msgid "a zero vector (no rotation)."
+#~ msgstr ""
+
+#~ msgid "Spin"
+#~ msgstr ""
+
+#~ msgid "the particles velocity vector."
+#~ msgstr ""
+
+#~ msgid "a random vector."
+#~ msgstr ""
+
+#~ msgid "Field Weights"
+#~ msgstr ""
+
+#~ msgid "Effector Group"
+#~ msgstr ""
+
+#~ msgid "Gravity"
+#~ msgstr ""
+
+#~ msgid "Control how much the Global Gravity has an effect on the system."
+#~ msgstr ""
+
+#~ msgid "All"
+#~ msgstr ""
+
+#~ msgid "Scale all of the effector weights."
+#~ msgstr ""
+
+#~ msgid "Force Fields"
+#~ msgstr ""
+
+#~ msgid "Self Effect"
+#~ msgstr ""
+
+#~ msgid "Amount"
+#~ msgstr ""
+
+#~ msgid ":doc:`Newtonian </physics/particles/properties/physics/newtonian>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Keyed </physics/particles/properties/physics/keyed>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Boids </physics/particles/properties/physics/boids>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Fluid </physics/particles/properties/physics/fluid>`"
+#~ msgstr ""
+

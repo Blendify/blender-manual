@@ -1,0 +1,400 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:5
+msgid "Random Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:7
+msgid "The *Random Actuator* sets a random value into a property of the object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:12
+msgid "Camera Actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:16
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:18
+msgid ""
+"See :doc:`Actuator Common Options "
+"</game_engine/logic/actuators/common_options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:22
+msgid "Seed"
+msgstr "Graine"
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:21
+msgid "Starting seed for random generator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:25
+msgid "Distribution"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:27
+msgid ""
+"Distributions from which to select the random value. The default entry of"
+" *Boolean Constant* gives either True or False, which is useful for test "
+"purposes."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:30
+msgid ""
+"Each distribution has one common property called: *Property*. This can be"
+" either a float, interger, or a boolean depending on the distribution "
+"type."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:36
+msgid "Float Neg. Exp."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:34
+msgid "Values drop off exponentially with the specified half-life time."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:36
+msgid "Half-Life Time"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:37
+msgid "Half-life time."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:43
+msgid "Float normal"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:39
+msgid "Random numbers from a normal distribution."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:41
+msgid "Mean"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:42
+msgid "Mean of normal distribution."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:43
+msgid "SD"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:44
+msgid "Standard deviation of normal distribution."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:45
+msgid "Float uniform"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:46
+#: ../../manual/game_engine/logic/actuators/types/random.rst:53
+msgid ""
+"Random values selected uniformly between a minimum (*Min*) and maximum "
+"(*Max*) values."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:47
+msgid "Float constant"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:48
+msgid "Returns a constant value specified in the *Value* field."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:50
+msgid "Int Poisson"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:50
+msgid ""
+"Random numbers from a `Poisson distribution "
+"<https://en.wikipedia.org/wiki/Poisson_distribution>`. The mean of the "
+"equation is defined by the *Mean* value."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:52
+msgid "Int uniform"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:54
+msgid "Int constant"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:55
+msgid "Returns a constant value specified by the *Value* field."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:58
+msgid "Bool Bernoulli"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:57
+msgid ""
+"Returns a random distribution using the `Bernoulli distribution "
+"<https://en.wikipedia.org/wiki/Bernoulli_distribution>`__ with specified "
+"ratio of TRUE pulses. This ratio is calcualted by the *Chance* value."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:60
+msgid "Bool uniform"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:61
+msgid "A 50/50 chance of obtaining True/False."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:64
+msgid "Bool constant"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:63
+msgid ""
+"Returns a constant value specified in the value field, must be either "
+"``True`` or ``False``."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:67
+msgid "Example"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/random.rst:69
+msgid "TODO."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "**Seed** Starting seed for random generator (range 1 - 1000)"
+#~ msgstr ""
+
+#~ msgid "Camera Actuator"
+#~ msgstr ""
+
+#~ msgid "Float Normal"
+#~ msgstr ""
+
+#~ msgid "Float Uniform"
+#~ msgstr ""
+
+#~ msgid "Float Constant"
+#~ msgstr ""
+
+#~ msgid "Random Integer Poisson"
+#~ msgstr ""
+
+#~ msgid "Random Integer Uniform"
+#~ msgstr ""
+
+#~ msgid "Random Integer Constant"
+#~ msgstr ""
+
+#~ msgid "Random Bool Bernoulli"
+#~ msgstr ""
+
+#~ msgid "Random Bool Uniform"
+#~ msgstr ""
+
+#~ msgid "Random Bool Constant"
+#~ msgstr ""
+
+#~ msgid "Half-life time (Range 0.00 -10000.00)"
+#~ msgstr ""
+
+#~ msgid "Mean of normal distribution (Range -10000.00 to +10000.00)"
+#~ msgstr ""
+
+#~ msgid "Minimum value (Range -10000.00 to +10000.00)"
+#~ msgstr ""
+
+#~ msgid "Maximum value (Range -10000.00 to +10000.00)"
+#~ msgstr ""
+
+#~ msgid "Minimum value (Range -1000 to +1000)"
+#~ msgstr ""
+
+#~ msgid "Maximum value (Range -1000 to +1000)"
+#~ msgstr ""
+
+#~ msgid "Mean of normal distribution (Range −10000.00 to +10000.00)"
+#~ msgstr ""
+
+#~ msgid "Minimum value (Range −10000.00 to +10000.00)"
+#~ msgstr ""
+
+#~ msgid "Maximum value (Range −10000.00 to +10000.00)"
+#~ msgstr ""
+
+#~ msgid "Minimum value (Range −1000 to +1000)"
+#~ msgstr ""
+
+#~ msgid "Maximum value (Range −1000 to +1000)"
+#~ msgstr ""
+
+#~ msgid "Sets a random value into a property of the object"
+#~ msgstr ""
+
+#~ msgid "Starting seed for random generator (range 1 - 1000)"
+#~ msgstr ""
+
+#~ msgid "Float property to receive value"
+#~ msgstr ""
+
+#~ msgid "Half-life time (Range 0.00 - 10000.00)"
+#~ msgstr ""
+
+#~ msgid "Standard deviation of normal distribution (Range 0.00 to +10000.00)"
+#~ msgstr ""
+
+#~ msgid "Value (Range 0.00 to +1.00)"
+#~ msgstr ""
+
+#~ msgid "Integer property to receive value"
+#~ msgstr ""
+
+#~ msgid "Mean of Poisson distribution (Range 0.01 to +100.00)"
+#~ msgstr ""
+
+#~ msgid "Boolean property to receive value"
+#~ msgstr ""
+
+#~ msgid "Value (True or False)"
+#~ msgstr ""
+
+#~ msgid "Sets a random value into a property of the object."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`Actuator Common Options "
+#~ "</game_engine/logic/actuators/common_options>` for common"
+#~ " options."
+#~ msgstr ""
+
+#~ msgid "Special Options:"
+#~ msgstr ""
+
+#~ msgid "Starting seed for random generator (range 1 - 1000)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Menu of distributions from which to "
+#~ "select the random value. The default "
+#~ "entry of Boolean Constant gives either"
+#~ " True or False, which is useful "
+#~ "for test purposes."
+#~ msgstr ""
+
+#~ msgid "Property"
+#~ msgstr ""
+
+#~ msgid "Float property to receive value."
+#~ msgstr ""
+
+#~ msgid "Half-life time (Range 0.00 - 10000.00)."
+#~ msgstr ""
+
+#~ msgid "Float Normal."
+#~ msgstr ""
+
+#~ msgid "Mean of normal distribution (Range -10000.00 to +10000.00)."
+#~ msgstr ""
+
+#~ msgid "Standard deviation of normal distribution (Range 0.00 to +10000.00)."
+#~ msgstr ""
+
+#~ msgid "Float Uniform."
+#~ msgstr ""
+
+#~ msgid "Random values selected uniformly between maximum and minimum."
+#~ msgstr ""
+
+#~ msgid "Min"
+#~ msgstr ""
+
+#~ msgid "Minimum value (Range -10000.00 to +10000.00)."
+#~ msgstr ""
+
+#~ msgid "Max"
+#~ msgstr ""
+
+#~ msgid "Maximum value (Range -10000.00 to +10000.00)."
+#~ msgstr ""
+
+#~ msgid "Float Constant."
+#~ msgstr ""
+
+#~ msgid "Returns a constant value."
+#~ msgstr ""
+
+#~ msgid "Value"
+#~ msgstr ""
+
+#~ msgid "Value (Range 0.00 to +1.00)."
+#~ msgstr ""
+
+#~ msgid "Random Integer Poisson."
+#~ msgstr ""
+
+#~ msgid "Random numbers from a Poisson distribution."
+#~ msgstr ""
+
+#~ msgid "Integer property to receive value."
+#~ msgstr ""
+
+#~ msgid "Mean of Poisson distribution (Range 0.01 to +100.00)."
+#~ msgstr ""
+
+#~ msgid "Random Integer Uniform."
+#~ msgstr ""
+
+#~ msgid "Minimum value (Range -1000 to +1000)."
+#~ msgstr ""
+
+#~ msgid "Maximum value (Range -1000 to +1000)."
+#~ msgstr ""
+
+#~ msgid "Random Integer Constant."
+#~ msgstr ""
+
+#~ msgid "Random Bool Bernoulli."
+#~ msgstr ""
+
+#~ msgid "Returns a random distribution with specified ratio of TRUE pulses."
+#~ msgstr ""
+
+#~ msgid "Boolean property to receive value."
+#~ msgstr ""
+
+#~ msgid "Chance"
+#~ msgstr ""
+
+#~ msgid "Proportion of TRUE responses required."
+#~ msgstr ""
+
+#~ msgid "Random Bool Uniform."
+#~ msgstr ""
+
+#~ msgid "Random Bool Constant."
+#~ msgstr ""
+
+#~ msgid "Value (True or False)."
+#~ msgstr ""
+

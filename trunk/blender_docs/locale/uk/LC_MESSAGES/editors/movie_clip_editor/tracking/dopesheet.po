@@ -1,0 +1,207 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:4
+msgid "Dope Sheet View"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:8
+msgid "Dope Sheet View."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:10
+msgid ""
+"The dope sheet view is used to visualize motion tracking data, it "
+"implemented as separate view of the movie clip editor just like the Graph"
+" View."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:13
+msgid ""
+"It displays channels for selected tracks and each channel visualizes "
+"tracked segments of tracks as dark bars and keyframed positions of tracks"
+" as small diamonds."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:16
+msgid ""
+"The background is highlighted depending on the number of tracks in a "
+"frame. This means that if for a frame (or sequence of frames) there are "
+"less than eight tracks, the background will turn red;if there are from "
+"eight to sixteen tracks, the background will be yellow."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:20
+msgid ""
+"This is only a visual feedback, which doesn't mean that the camera motion"
+" will not reconstruct with less than eight tracks. It only means that you"
+" should pay attention to those frames and check if all possible good "
+"feature points are tracked there. Remember, if there are no good feature "
+"points in the frame and there are less than 16 tracks in the frame, it "
+"doesn't mean the solution won't be accurate. Rather, adding more tracks "
+"on bad feature points will reduce the accuracy of solution."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:28
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:33
+msgid "Sort Channels Order."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:38
+msgid "Show"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:36
+msgid "Only selected (mouse cursor icon)"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:37
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:39
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:38
+msgid "Hidden (ghost icon)"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:49
+msgid "Sort Method"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:41
+msgid "Sort order of the tracks."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:43
+msgid "Name"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:44
+msgid "Sort selected tracks in alphabetical order based on their names."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:45
+msgid "Longest"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:46
+msgid "Sort tracks by longest tracked segment length."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:47
+msgid "Total"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:48
+msgid "Sort tracks by overall amount of frames."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:49
+msgid "Average Error"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:50
+msgid ""
+"Sort tracks by their average reprojection error after solving camera or "
+"object motion."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:53
+msgid "Invert"
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:52
+msgid "To change the sort order from ascending to descending."
+msgstr ""
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:56
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/editors/movie_clip_editor/tracking/dopesheet.rst:58
+msgid ""
+"Currently the dope sheet view is for visualization and does not have any "
+"tools to actually edit data."
+msgstr ""
+
+#~ msgid "Sort Channels Order"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Introduction"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The dope sheet view is used to "
+#~ "visualize motion tracking data, it "
+#~ "implemented as separate view of the "
+#~ "movie clip editor just like the "
+#~ ":doc:`Graph View "
+#~ "</editors/movie_clip_editor/tracking/graph>`. To support"
+#~ " this in a nice way, you must"
+#~ " toggle between modes specified to a"
+#~ " view in the whole area of the"
+#~ " movie clip editor. Hence, to display"
+#~ " a curve or dope sheet view, "
+#~ "the editor must be split into two,"
+#~ " with one switched to the curve "
+#~ "or dope sheet view."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Currently the dope sheet view is "
+#~ "for visualization and does not have "
+#~ "any tools to actually edit data. "
+#~ "It displays channels for selected tracks"
+#~ " and each channel visualizes tracked "
+#~ "segments of tracks as dark bars "
+#~ "and keyframed positions of tracks as "
+#~ "small diamonds."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By default, this view sorts tracks "
+#~ "in alphabetical order, but here is "
+#~ "list of all possible sort orders "
+#~ "with the Sort Order option:"
+#~ msgstr ""
+
+#~ msgid "Name: sort selected tracks in alphabetical order based on their names."
+#~ msgstr ""
+
+#~ msgid "Longest: sort tracks by longest tracked segment length."
+#~ msgstr ""
+
+#~ msgid "Total: sort tracks by overall amount of frames."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Average Error: sort tracks by their "
+#~ "average reprojection error after solving "
+#~ "camera or object motion."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There is also an option called "
+#~ "*Invert* to change the sort order "
+#~ "from ascending to descending, next to"
+#~ " the sort order method option."
+#~ msgstr ""
+

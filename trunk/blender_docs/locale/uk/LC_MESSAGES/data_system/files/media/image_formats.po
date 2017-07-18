@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender Reference
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/data_system/files/media/image_formats.rst:4
+msgid "Supported Graphics Formats"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:7
+msgid "Image Formats"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:9
+msgid "This is the list of image file formats supported internally by Blender:"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:19
+msgid "Format"
+msgstr "Формат"
+
+#: ../../manual/data_system/files/media/image_formats.rst:20
+msgid "`Channel Depth`_"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:21
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:22
+msgid ":doc:`Metadata </render/output/metadata>`"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:23
+msgid "DPI"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:24
+msgid "Extensions"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:25
+msgid "BMP"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:26
+#: ../../manual/data_system/files/media/image_formats.rst:32
+#: ../../manual/data_system/files/media/image_formats.rst:44
+#: ../../manual/data_system/files/media/image_formats.rst:56
+msgid "8bit"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:27
+#: ../../manual/data_system/files/media/image_formats.rst:28
+#: ../../manual/data_system/files/media/image_formats.rst:34
+#: ../../manual/data_system/files/media/image_formats.rst:35
+#: ../../manual/data_system/files/media/image_formats.rst:45
+#: ../../manual/data_system/files/media/image_formats.rst:52
+#: ../../manual/data_system/files/media/image_formats.rst:53
+#: ../../manual/data_system/files/media/image_formats.rst:58
+#: ../../manual/data_system/files/media/image_formats.rst:59
+#: ../../manual/data_system/files/media/image_formats.rst:64
+#: ../../manual/data_system/files/media/image_formats.rst:65
+#: ../../manual/data_system/files/media/image_formats.rst:76
+#: ../../manual/data_system/files/media/image_formats.rst:77
+#: ../../manual/data_system/files/media/image_formats.rst:82
+msgid "|cross|"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:29
+#: ../../manual/data_system/files/media/image_formats.rst:33
+#: ../../manual/data_system/files/media/image_formats.rst:39
+#: ../../manual/data_system/files/media/image_formats.rst:40
+#: ../../manual/data_system/files/media/image_formats.rst:41
+#: ../../manual/data_system/files/media/image_formats.rst:46
+#: ../../manual/data_system/files/media/image_formats.rst:47
+#: ../../manual/data_system/files/media/image_formats.rst:51
+#: ../../manual/data_system/files/media/image_formats.rst:57
+#: ../../manual/data_system/files/media/image_formats.rst:63
+#: ../../manual/data_system/files/media/image_formats.rst:69
+#: ../../manual/data_system/files/media/image_formats.rst:70
+#: ../../manual/data_system/files/media/image_formats.rst:71
+#: ../../manual/data_system/files/media/image_formats.rst:75
+#: ../../manual/data_system/files/media/image_formats.rst:81
+#: ../../manual/data_system/files/media/image_formats.rst:83
+msgid "|tick|"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:30
+msgid "``.bmp``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:31
+msgid "Iris"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:36
+msgid "``.sgi`` ``.rgb`` ``.bw``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:37
+msgid "PNG"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:38
+#: ../../manual/data_system/files/media/image_formats.rst:80
+msgid "8, 16bit"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:42
+msgid "``.png``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:43
+msgid "JPEG"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:48
+msgid "``.jpg`` ``.jpeg``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:49
+msgid "JPEG 2000"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:50
+msgid "8, 12, 16bit"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:54
+msgid "``.jp2`` ``.jp2`` ``.j2c``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:55
+msgid "Targa"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:60
+msgid "``.tga``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:61
+msgid "`Cineon & DPX`_"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:62
+msgid "8, 10, 12, 16bit"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:66
+msgid "``.cin`` ``.dpx``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:67
+msgid "`OpenEXR`_"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:68
+msgid "float 16, 32bit"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:72
+msgid "``.exr``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:73
+msgid "`Radiance HDR`_"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:74
+msgid "float"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:78
+msgid "``.hdr``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:79
+msgid "TIFF"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:84
+msgid "``.tif`` ``.tiff``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:88
+msgid ""
+"If you are not interested in technical details, a good rule of thumb for "
+"selecting output formats for your project is:"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:91
+msgid "Use OpenEXR"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:92
+msgid "if you intend to do compositing or color-grading on these images."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:93
+msgid "Use PNG"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:94
+msgid "if you intend on-screen output or encoding into multiple video formats."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:96
+msgid "Use JPEG"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:96
+msgid ""
+"for on-screen output where file size is a concern and quality loss is "
+"acceptable."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:98
+msgid ""
+"*All these formats support compression which can be important when "
+"rendering out animations.*"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:102
+msgid "Channel Depth"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:104
+msgid ""
+"Image file formats support a varying number of bits per pixel. This "
+"affects the color quality and file-size."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:107
+msgid "Commonly used depths:"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:109
+msgid "8 bit (256 levels)"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:110
+msgid "Most common for on-screen graphics and video"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:112
+msgid "10, 12, 16 bit (1024, 4096, 65536 levels)"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:112
+msgid ""
+"Used for some formats focusing on photography and digital films (such as "
+"DPX and JPEG 2000)."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:115
+msgid "16 bit half float"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:115
+msgid ""
+"Since full 32bit float is often more than enough precision, half float "
+"can save drive space while still providing a high dynamic range."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:118
+msgid "32 bit float"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:118
+msgid "Highest quality color depth."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:120
+msgid "Internally Blender's image system supports either:"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:122
+msgid "8 bit per channel (4 x 8 bits)."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:123
+msgid "32 bit float per channel (4 x 32 bits) - *using 4x as much memory.*"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:125
+msgid ""
+"Images higher than 8 bits per channel will be converted into a float on "
+"loading into Blender."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:129
+msgid "Floating point is often used for :term:`HDRI`."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:131
+msgid ""
+"When an image has float colors, all imaging functions in Blender default "
+"to use that. This includes the Video Sequence Editor, texture mapping, "
+"background images, and the Compositor."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:137
+msgid "Export"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:139
+msgid "Save As Render"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:140
+msgid "ToDo."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:144
+msgid "Copy"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:142
+msgid ""
+"The Copy checkbox will define if the data-block will reference the newly "
+"created file or the reference will be unchanged, maintaining it with the "
+"original one."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:147
+msgid "Format Details"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:150
+msgid "Cineon & DPX"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:152
+msgid ""
+"Cineon is Kodak's standard for film scanning, 10 bits/channel and "
+"logarithmic. DPX has been derived from Cineon as the ANSI/SMPTE industry "
+"standard. DPX supports 16 bits color/channel, linear as well as "
+"logarithmic. DPX is currently a widely adopted standard used in the film "
+"hardware/software industry."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:157
+msgid ""
+"DPX as well as Cineon only stores and converts the \"visible\" color "
+"range of values between 0.0 and 1.0 (as a result of rendering or "
+"composite)."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:162
+msgid "OpenEXR"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:164
+msgid ""
+"`ILM's OpenEXR <http://www.openexr.com/>`__ has become a software "
+"industry standard for HDR image files, especially because of its flexible"
+" and expandable structure."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:167
+msgid ""
+"An OpenEXR file can store multiple layers and passes. This means OpenEXR "
+"images can be loaded into a compositor keeping render layers, passes "
+"intact."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:172
+msgid "Output Options"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:174
+msgid "Available options for OpenEXR render output are:"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:179
+msgid "Color Depth"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:177
+msgid ""
+"Saves images in a custom 16 bits per channel floating point format. This "
+"reduces the actual \"bit depth\" to 10 bits, with a 5 bits power value "
+"and 1 bit sign."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:180
+msgid "Float (Half), Float (Full)"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:188
+msgid "Codec"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:182
+msgid "``PIZ``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:183
+msgid "Lossless wavelet compression. Compresses images with grain well."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:184
+msgid "``ZIP``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:185
+msgid "Standard lossless compression using Zlib."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:186
+msgid "``RLE``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:187
+msgid "Run-length encoded, lossless, works well when scanlines have same values."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:188
+msgid "``PXR24``"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:189
+msgid "Lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:192
+msgid "Z Buffer"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:191
+msgid ""
+"Save the depth information. In Blender, this now is written in floats "
+"too, denoting the exact distance from the camera in \"Blender unit\" "
+"values."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:197
+msgid "Preview"
+msgstr "Передогляд"
+
+#: ../../manual/data_system/files/media/image_formats.rst:195
+msgid ""
+"On rendering animations (or single frames via command line), Blender "
+"saves the same image also as a JPEG, for quick preview or download."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:200
+msgid "Radiance HDR"
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:202
+msgid ""
+"Radiance is a suite of tools for lighting simulation. Since Radiance had "
+"the first (and for a long time the only) HDR image format, this format is"
+" supported by many other software packages."
+msgstr ""
+
+#: ../../manual/data_system/files/media/image_formats.rst:206
+msgid ""
+"Radiance (.hdr) files store colors still in 8 bits per component, but "
+"with an additional (shared) 8 bits exponent value, making it 32 bits per "
+"pixel."
+msgstr ""
+
+#~ msgid "Half"
+#~ msgstr "Half"
+
+#~ msgid "Zbuf"
+#~ msgstr "OpenEXRZbuf"
+
+#~ msgid "Compression"
+#~ msgstr "Compression"
+
+#~ msgid "Quicktime"
+#~ msgstr "Quicktime"
+
+#~ msgid ""
+#~ "On macOS, Quicktime can be used to"
+#~ " access file formats not natively "
+#~ "supported (such as GIF)."
+#~ msgstr ""
+#~ "Sous macOS, Quicktime peut être utilisé"
+#~ " pour accéder aux formats de fichier"
+#~ " non nativement pris en charge (tels"
+#~ " que GIF)."
+

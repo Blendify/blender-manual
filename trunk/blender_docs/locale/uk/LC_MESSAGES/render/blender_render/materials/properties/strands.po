@@ -1,0 +1,386 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:4
+msgid "Strands"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:6
+msgid ""
+"The Strand section of the Material tab is specific to the rendering of "
+"Hair particles. There are two different strand methods available:"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:12
+#: ../../manual/render/blender_render/materials/properties/strands.rst:40
+msgid "Polygon strands"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:11
+msgid ""
+"This is the default (old) method. The strands are rendered as flat "
+"polygons. The number of polygons depend on the *Steps* settings in the "
+"*Particles system* tab."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:20
+msgid "Strand Primitive"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:15
+msgid ""
+"You activate Strand Primitive with the button *Strand render* in the "
+"*Render* panel of the particle system. The hair curves are not stored as "
+"polygons; only the key points are stored, which are then converted to "
+"polygons on the fly. A second difference is the way transparency works. "
+"Rather than rendering using the existing system, all strand segments in a"
+" part are sorted front to back and rendered in that order."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:23
+msgid "Strand Primitives"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:24
+msgid ""
+"Are more memory efficient and faster, to make rendering of large amounts "
+"of fur and grass possible. For good performance, the render steps button "
+"should be lowered (e.g. 2 should be good enough fur), since the result "
+"will be a smoothed curve anyway. You need 1 to 2 render steps less than "
+"steps in the 3D View. Also, using more render parts helps to reduce "
+"memory usage."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:30
+msgid ""
+"Have a distance of vision reduction (in the *Render* panel under *Child "
+"Simplification*) for children from faces."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:32
+msgid "May be faded out towards the tip without an additional texture."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:33
+msgid ""
+"Are not ray traced. So they are not visible through ray-transparent "
+"materials or in a ray mirror (you can use *Environment Mapping* for "
+"that)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:36
+msgid "Have shape problems if they are rendered with a greater width."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:37
+msgid "Cannot carry a UV-Texture along the strand."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:41
+msgid ""
+"Work well with greater width, so you can use them as an alternative to "
+"billboards because the strands may have an animated shape."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:43
+msgid "Can be textured with a UV-Texture along the strands."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:44
+msgid "Are seen by ray tracing."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:48
+msgid "Strands Shading"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:53
+msgid "Strands Panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:56
+msgid ""
+"Strands are rendered with the material of the underlying face/vertex, "
+"including shading with a UV-Texture. Since you can assign more than one "
+"material to each face, each particle system may have its own material and"
+" the material of the underlying face can be different from the material "
+"of the strands."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:61
+msgid ""
+"Additionally strands can be shaded along the strand (from root to tip) "
+"with a mono-dimensional texture; only polygon strands can carry a two-"
+"dimensional UV-Texture."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:64
+msgid ""
+"The options for strand shading are in the *Strands* section of the "
+"*Material* tab."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:67
+msgid "Root"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:68
+msgid "Width of the hair at the root."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:75
+msgid "Tip"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:70
+msgid "Width of the hair at the tip."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:75
+msgid "Minimum"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:73
+msgid ""
+"This is the minimum thickness (in pixels) of the strands. Strands below "
+"that size are not rendered smaller, but are faded to alpha (well, the "
+"fading works only for strand primitives). This gives a much better "
+"rendering result for thin hair."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:80
+msgid "Blender Units"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:78
+msgid ""
+"Normally strands are quite thin; the thickness is given in screenpixels. "
+"If you use Blender units (BU) you may set the root value up to 2 BU, and "
+"the tip value up to 1 BU. You have to consider the overall object size, "
+"because the smallest possible size is 0.001 BU. So if you use 1 BU for 1 "
+"meter the smallest possible size would be 1 mm (too thick for thin hair)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:85
+msgid "Use Tangent Shading"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:83
+msgid ""
+"Calculates the light as if the strands were very thin and round. This "
+"makes the hair appear brighter and shinier. Disabling the \"Tangent "
+"Shading\" option will still render nicely, but resembles more solid "
+"strands, as though made of metal or wood."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:99
+msgid "Shape"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:88
+msgid ""
+"This slider allows you to control the interpolation. Default (0.0) is a "
+"linear interpolation between *Root* and *Tip*. A negative value will make"
+" the strand narrower (spiky), a positive value will make it fatter."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:96
+msgid "Various Shape settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:98
+msgid ""
+"From left to right, \\0 (root and tip are equal in the first), 0, -0.4, "
+"-0.9, 0.4, 0.9."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:102
+msgid "Width Fade"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:102
+msgid ""
+"To fade out along the width of the strand. This works only for Strand "
+"Primitives. 0.0 is no fading at all, 1.0 linear fading out."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:108
+msgid "UV Map"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:105
+msgid ""
+"You can texture polygon strands with a UV-Texture. Fill in the name of "
+"the UV-Set (not the texture) here. You also have to load the texture in "
+"the *Texture* tab and *Material* tab (*Mapping*: *UV*; you may use every "
+"*Influence* setting you like -- especially the alpha value; see Fig. :ref"
+":`fig-bi-material-shadow-shapes`)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:119
+msgid "Surface Diffuse"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:111
+msgid ""
+"Computes the strand normal, taking the normal at the surface into "
+"account. This eases the coloring and lighting of hair a lot, especially "
+"for Strand Primitives. Essentially hair reacts similar to ordinary "
+"surfaces and do not show exaggerated strong and large specular "
+"highlights."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:119
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:117
+msgid ""
+"The distance in Blender units over which to blend in the normal at the "
+"surface (if you want to use *Surface Diffuse* only for Grass/Fur at "
+"greater distances)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:122
+msgid "Texturing along the Strand"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:124
+msgid ""
+"Strands can be textured along the strand, i.e. from root to tip. To do "
+"that you have to select *Strand/Particle* in the *Coordinates* select "
+"menu in the *Mapping* panel of the *Material* tab."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:128
+msgid ""
+"Pretty much the most important setting is shown in Fig. :ref:`fig-bi-"
+"material-strands-alpha`, how to fade the tip of a strand to alpha to make"
+" nice, fuzzy-looking hair. Normally you would use a linear blend texture "
+"for this."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:139
+msgid "Fading a strand to alpha."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:143
+msgid "The render result."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:146
+msgid ""
+"You may of course set any attribute you like, especially color. Be "
+"careful with specularity; hairs tend to get too shiny."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:151
+msgid "Strand Render Simplification"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:153
+msgid ""
+"If you use Strand Primitives (*Strand render* button) and have activated "
+"*Interpolated Children*, the *Child Simplification* option appears. The "
+"strand render has options to remove child strands as the object's faces "
+"become smaller."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:160
+msgid "Strand render child simplification."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:163
+msgid "Reference Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:164
+msgid ""
+"This is the approximate size of the object on screen (in pixels), after "
+"which simplification starts."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:165
+#: ../../manual/render/blender_render/materials/properties/strands.rst:174
+msgid "Rate"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:166
+msgid "How fast strands are removed."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:167
+msgid "Transition"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:168
+msgid "The transition period for fading out strands as they are removed."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:174
+msgid "Viewport"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:170
+msgid "This removes strands on faces that are outside of the viewport."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/strands.rst:173
+msgid "Controls how fast these are removed."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Image 1: Strands Panel."
+#~ msgstr ""
+
+#~ msgid "Image 4: Fading a strand to alpha..."
+#~ msgstr ""
+
+#~ msgid "Image 5: ...And the render result."
+#~ msgstr ""
+
+#~ msgid "Image 5: Strand render child simplification."
+#~ msgstr ""
+
+#~ msgid "Strand Primitives:"
+#~ msgstr ""
+
+#~ msgid "Polygon strands:"
+#~ msgstr ""
+
+#~ msgid "Strand Shapes"
+#~ msgstr ""
+
+#~ msgid "Fading a strand to alpha..."
+#~ msgstr ""
+
+#~ msgid "... And the render result."
+#~ msgstr ""
+
+#~ msgid "Strand render Simplification"
+#~ msgstr ""
+
+#~ msgid "UV Layer"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Various Shape settings. From left to "
+#~ "right, 0 (root and tip are equal"
+#~ " in the first), 0, -0.4, -0.9, "
+#~ "0.4, 0.9."
+#~ msgstr ""
+

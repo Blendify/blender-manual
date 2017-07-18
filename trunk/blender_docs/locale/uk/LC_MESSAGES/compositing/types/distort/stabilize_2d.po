@@ -1,0 +1,125 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:4
+msgid "Stabilize 2D Node"
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:9
+msgid "Stabilize 2D Node."
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:11
+msgid ""
+"Stabilizes the footage according to the settings set in "
+":menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization` "
+"For more information, see :doc:`2D Stabilization "
+"</editors/movie_clip_editor/tracking/clip/properties/stabilization/index>`."
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:18
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:22
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:48
+msgid "Image"
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:21
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:47
+msgid "Standard image input."
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:25
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:28
+msgid "Movie Clip"
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:28
+msgid "The movie clip whose stabilization to use."
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:36
+msgid "Filter"
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:31
+msgid ""
+"Various methods for the stabilization. Usually, the same as used in "
+":menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization -->"
+" Filter`. For technical details on their difference, `see this "
+"<http://www.mathworks.com/help/vision/ug/interpolation-methods.html>`_. "
+"But for most purposes, default of Bilinear should suffice."
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:41
+msgid "Invert"
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:39
+msgid ""
+"Invert the stabilization. If the stabilization calculated is to move the "
+"movie clip up by 5 units, this will move the movie clip down by 5 units."
+msgstr ""
+
+#: ../../manual/compositing/types/distort/stabilize_2d.rst:44
+msgid "Outputs"
+msgstr ""
+
+#~ msgid "Scale Node"
+#~ msgstr ""
+
+#~ msgid "TODO - see: https://developer.blender.org/T43469"
+#~ msgstr ""
+
+#~ msgid "Scale Node."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "The movie clip you want to stabilize."
+#~ msgstr ""
+
+#~ msgid "Options"
+#~ msgstr ""
+
+#~ msgid "The movie clip whose stabilization you want to use."
+#~ msgstr ""
+
+#~ msgid "Stabilized movie clip."
+#~ msgstr ""
+
+#~ msgid "Input"
+#~ msgstr ""
+
+#~ msgid "Output"
+#~ msgstr ""
+
+#~ msgid "Stabilize 2D"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Stabilizes the footage according to the"
+#~ " settings set in :menuselection:`Movie Clip"
+#~ " Editor --> Properties --> 2D "
+#~ "Stabilization` For more information, "
+#~ ":ref:`check this out <2D-stabilization>`."
+#~ msgstr ""
+

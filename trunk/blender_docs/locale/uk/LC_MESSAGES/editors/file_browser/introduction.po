@@ -1,0 +1,664 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is public domain as CC0
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/editors/file_browser/introduction.rst:4
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../manual/editors/file_browser/introduction.rst:8
+msgid "The File Browser."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:12
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../manual/editors/file_browser/introduction.rst:14
+msgid ""
+"The File Browser is used in all the file-related operations. It has "
+"multiple use cases, while its often used for save/load."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:17
+msgid "These include:"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:19
+msgid "Opening and Saving Blend files."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:20
+msgid "Import/Export other file formats."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:21
+msgid "Picking new locations for existing file-paths (images, video, fonts...)."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:22
+msgid ""
+"Browsing inside other blend-files, when using :doc:`Linked Libraries "
+"</data_system/linked_libraries>`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:24
+msgid ""
+"You can also keep the File Browser open, as with any other editor type, "
+"to browse through the file system. In this case, confirm/cancel buttons "
+"will be absent."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:27
+msgid "The main purpose of this is to be able to drag media files:"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:29
+msgid ""
+"Images into the :ref:`editors-sequencer-index` (to set background or "
+"apply as material textures)."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:30
+msgid "Media files into the :ref:`editors-sequencer-index`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:32
+msgid ""
+"On the other hand, if the File Browser is opened for a file action "
+"(opening, saving, importing, etc.), it will appear maximized and waiting "
+"for an operation to complete before returning to the former screen "
+"layout."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:39
+msgid "Opening an Image Sequence"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:41
+msgid ""
+"The filename of the images must contain a digit, indicating the frame. "
+"The sequence could be opened by the selection of the images and by the "
+"confirmation with the *Open Image* button or :kbd:`Enter`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:51
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:63
+msgid "Navigation icon buttons"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:54
+msgid "Tools for navigation of files."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:56
+msgid "Left Arrow :kbd:`Backspace`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:57
+msgid "Move to previous folder."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:58
+msgid "Right Arrow :kbd:`Shift-Backspace`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:59
+msgid "Move to next folder."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:60
+msgid "Up Arrow :kbd:`P`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:61
+msgid "Move up to parent directory."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:63
+msgid "Cycle Arrows :kbd:`R`, :kbd:`NumpadPeriod`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:63
+msgid "Refresh current folder."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:65
+msgid "Create Directory"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:66
+msgid ""
+"Prompts you to enter the name of a newly created directory inside the "
+"current one :kbd:`I`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:74
+msgid "Recursion"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:68
+msgid "The number of directory levels to show at once in a flat way."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:70
+msgid "None (only the current directory)"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:71
+msgid "Blend File (inside blend-files)"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:72
+msgid "One level"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:73
+msgid "Two Levels"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:74
+msgid "Three levels"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:80
+msgid "Display type"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:77
+msgid "Controls how files are displayed."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:79
+msgid "Short list"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:80
+msgid "Detailed list"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:81
+msgid "Thumbnails (show :doc:`previews </editors/file_browser/previews>`)"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:84
+msgid "Display size"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:83
+msgid "The size of thumbnails or the width of columns."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:85
+msgid "Tiny, small, normal, large"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:91
+msgid "Sorting"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:87
+msgid "Sorts files by on of the following methods:"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:89
+msgid "Alphabetically"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:90
+msgid "By file type"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:91
+msgid "By date of last edit"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:92
+msgid "By file size"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:93
+msgid "Show hidden"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:94
+msgid "Shows hidden files (starting with ``.``) :kbd:`H`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:113
+msgid "File filtering"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:107
+msgid "File Type"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:97
+msgid "Filters files by type."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:99
+msgid "Folders"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:100
+msgid "blend-files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:101
+msgid "Backup blend-files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:102
+msgid "Image files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:103
+msgid "Movie files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:104
+msgid "Script files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:105
+msgid "Font files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:106
+msgid "Sound files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:107
+msgid "Text files"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:109
+msgid "Data-Block Type"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:110
+msgid "Data-block type filtering inside blend-files."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:113
+msgid "Search box"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:112
+msgid "Filter files by name."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:116
+msgid "File Region"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:120
+msgid "File Path"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:119
+msgid ""
+"The text field for the current path. :kbd:`Tab` will auto-complete an "
+"existing path. If you type a non existing directory path, you will be "
+"prompted to create that new directory."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:124
+msgid "File Name"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:123
+msgid ""
+"Text field to edit the file name and extension. If the background is red,"
+" a file with same name already exist in the folder. :kbd:`Tab` will auto-"
+"complete to existing names in the current directory."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:127
+msgid "Increment Filename ``+``, ``-``"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:127
+msgid ""
+"Adds/increase or removes/decreases a trailing number to your file name "
+"(use to make *versions* of a file)."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:133
+msgid "Confirm"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:130
+msgid ""
+"The main button to Open Directory/File or Save (As) :kbd:`Enter` or "
+"double click with :kbd:`LMB` on the entry confirms with that file or "
+"data-block."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:133
+msgid ""
+":kbd:`Shift-LMB` -- Open the file externally (selected in "
+":doc:`/preferences/file`)."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:134
+msgid ""
+":kbd:`Alt-LMB` -- Open the directory externally (using the system's file "
+"manager)."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:138
+msgid "Cancel"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:136
+msgid ""
+"Cancels the Open or Save file selection and closes the File browser "
+":kbd:`Esc` or by using the *Back to Previous* in the Info editor header."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:141
+msgid "Tool Shelf"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:143
+msgid ""
+"The left region displays different ways to find files and several "
+"options. Clicking with :kbd:`LMB` on one of the entries, the File Browser"
+" will navigate to that folder."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:148
+msgid "System"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:150
+msgid ""
+"The system panel contains a list of drives that are available to navigate"
+" through to find files."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:155
+msgid "System Bookmarks"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:157
+msgid "Bookmarks that are common for a particular operating system."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:161
+msgid "Bookmarks"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:163
+msgid ""
+"A :ref:`List View <ui-list-view>` of shortcuts to folders, that you want "
+"to be able to access often without having to navigate to them in the file"
+" browser."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:168
+msgid "Add ``+``"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:167
+msgid "This button adds the current directory to the list."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:171
+msgid "Recent"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:173
+msgid ""
+"This is a list of recently accessed folders. You can control how many "
+"folders appear in this list by going to the *File* tab of the :doc:`User "
+"Preferences </preferences/file>`, in the *Recent Files* number button."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:179
+msgid "Operator Panel"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:181
+msgid "Link/Append from Library"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:182
+msgid "See :doc:`Linked libraries </data_system/linked_libraries>`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:183
+msgid "Open, Save, Save As Blender File"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:184
+msgid "See :doc:`/data_system/files/open` or :doc:`/data_system/files/save`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:186
+msgid "Open, Replace, Save As Image"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:186
+msgid "See :doc:`/data_system/files/media/image_formats`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:188
+msgid "For the common option:"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:192
+msgid "Relative Path"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:191
+msgid "See :doc:`Relative paths </data_system/files/relative_paths>`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:195
+msgid "Main Region"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:198
+msgid "Navigation"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:200
+msgid "Entering a Directory"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:201
+msgid "A single :kbd:`LMB` click on a directory enters that directory."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:204
+msgid "Parent Directory :kbd:`Backspace`, :kbd:`P`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:203
+msgid "Takes you up one level of directory."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:207
+#: ../../manual/editors/file_browser/introduction.rst:235
+msgid "Arrow Keys"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:209
+msgid ""
+"Directory navigation is also possible through the arrow keys with "
+":kbd:`Alt` pressed:"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:211
+msgid "Go to Parent :kbd:`Alt-Up`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:212
+msgid "Previous :kbd:`Alt-Left`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:213
+msgid "Next Directory :kbd:`Alt-Right`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:217
+msgid "File Drop"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:219
+msgid ""
+"You now can simply drag & drop files from your local file explorer into "
+"the blender file browser. This will relocate the File browser to the "
+"directory of the dropped file and the file will be selected."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:224
+msgid "Selection"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:226
+msgid "Select"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:227
+msgid "Both :kbd:`LMB` and :kbd:`RMB` works."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:228
+msgid "(De)select All :kbd:`A`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:229
+msgid "Toggles selecting all files."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:232
+msgid "Dragging"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:231
+msgid ""
+"Dragging with :kbd:`LMB` starts a :ref:`border selection "
+"<bpy.ops.view3d.select_border>`."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:237
+msgid ""
+"It is also possible to select/deselect files by \"walking\" through them "
+"using the arrow keys:"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:239
+msgid ""
+"Just using an arrow key, the next file in the chosen direction will be "
+"selected and all others deselected."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:240
+msgid ""
+"Holding down :kbd:`Shift` while doing this does not deselect anything so "
+"it extends to the selection, plus it allows to deselect files by "
+"navigating into a block of already selected ones (minimum two files in "
+"sequence)."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:243
+msgid ""
+"Holding down :kbd:`Ctrl-Shift` further selects/deselects all files in-"
+"between."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:245
+msgid ""
+"If no file is selected, the arrow key navigation selects the first or "
+"last file in the directory, depending on the arrow direction."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:248
+msgid ""
+"If you select a directory and hit :kbd:`Enter`, you will go into that "
+"directory (and highlighting 'parent' entry will bring you up one level)."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:253
+msgid "File Management"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:255
+msgid "Delete Files :kbd:`Delete`, :kbd:`X`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:256
+msgid "Delete the currently selected files."
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:259
+msgid "Rename :kbd:`Ctrl-LMB`"
+msgstr ""
+
+#: ../../manual/editors/file_browser/introduction.rst:258
+msgid "Can be used on a file or directory to rename it."
+msgstr ""
+
+#~ msgid "Shortcuts"
+#~ msgstr "Raccourcis"
+
+#~ msgid "Path Fields"
+#~ msgstr "Chemins d'accès"
+
+#~ msgid "Auto Complete :kbd:`Tab`"
+#~ msgstr "Complétion automatique :kbd:`Tab`"
+
+#~ msgid "Enter Path :kbd:`Return`"
+#~ msgstr "Entrez un chemin :kbd:`Return`"
+
+#~ msgid "Enter the directory."
+#~ msgstr "Entrez le répertoire."
+
+#~ msgid "View"
+#~ msgstr "Vue"
+
+#~ msgid "Hidden Files :kbd:`H`"
+#~ msgstr "Fichiers cachés :kbd:`H`"
+
+#~ msgid "Toggle displaying hidden files."
+#~ msgstr "Bascule l'affichage des fichiers cachés."
+
+#~ msgid "Arrow Keys Navigation"
+#~ msgstr "Navigation avec les touches fléchées"
+
+#~ msgid "Left Arrow"
+#~ msgstr "Flèche gauche"
+
+#~ msgid "Right Arrow"
+#~ msgstr "Flèche droite"
+
+#~ msgid "Up Arrow"
+#~ msgstr "Flèche "
+
+#~ msgid "Cycle Arrows"
+#~ msgstr "Flèches "
+

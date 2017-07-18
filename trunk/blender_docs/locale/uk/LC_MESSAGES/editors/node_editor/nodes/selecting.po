@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.77 Manual 2.77\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-09 22:52-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: uk\n"
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:4
+msgid "Selecting"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:7
+msgid "Border Select"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:7
+msgid ""
+":kbd:`B` starts the bounding box selection process. Position your cursor "
+"and :kbd:`LMB` click & drag to select a set of nodes."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:11
+msgid "Cut connections (lasso)"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:10
+msgid ""
+":kbd:`Ctrl-Alt-LMB` click & drag starts a lasso selection, **but** when "
+"you let up the mouse button, all threads (connections) within the lasso "
+"are broken."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:13
+msgid "(De)select All"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:14
+msgid ":kbd:`A`"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:15
+msgid "Inverse"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:16
+msgid ":kbd:`Ctrl-I`"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:17
+msgid "Select Linked From"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:18
+msgid ":kbd:`L`"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:19
+msgid "Select Linked To"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:20
+msgid ":kbd:`Shift-L`"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:29
+msgid "Select Grouped :kbd:`Shift-G`"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:22
+msgid ""
+"Selects similar nodes to the active node by their :doc:`properties "
+"</editors/node_editor/nodes/properties>`."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:25
+msgid "Type"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:26
+msgid "The node type. e.g. all Math nodes."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:27
+msgid "Color"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:28
+msgid "The color property."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:29
+msgid "Prefix, Suffix"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:30
+msgid "Matches the name property from start/end of the text."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:31
+msgid "Activate Same Type Previous/Next :kbd:`Shift-]`/:kbd:`Shift-[`"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:32
+msgid ""
+"Finds the previous/next node of same type, activates the node, and "
+"ensures the node is visible."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:34
+msgid "Find Node :kbd:`Ctrl-F`"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:34
+msgid ""
+"To search for a node. On selecting a node, it activates the node and "
+"makes sure the node is visible."
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:38
+msgid "Select multiple"
+msgstr ""
+
+#: ../../manual/editors/node_editor/nodes/selecting.rst:37
+msgid ":kbd:`Shift-LMB` or :kbd:`Shift-RMB` used for multiple node selection."
+msgstr ""
+
+#~ msgid "Select Groued"
+#~ msgstr ""
+
+#~ msgid ":kbd:`Shift-G`"
+#~ msgstr ""
+
+#~ msgid "Activate Same Type Previous"
+#~ msgstr ""
+
+#~ msgid ":kbd:`Shift-]`"
+#~ msgstr ""
+
+#~ msgid "Activate Same Type Next"
+#~ msgstr ""
+
+#~ msgid ":kbd:`Shift-[`"
+#~ msgstr ""
+
+#~ msgid "Find Node"
+#~ msgstr ""
+
+#~ msgid ":kbd:`Ctrl-F`"
+#~ msgstr ""
+

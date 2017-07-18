@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Intl. License
+# This file is distributed under the same license as the Blender 2.77 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# urko <urkokul@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-13 19:45+0300\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/about/contribute/install/macos.rst:5
+msgid "Installation on macOS"
+msgstr "Установлення на macOS"
+
+#: ../../manual/about/contribute/install/macos.rst:7
+msgid "This guide covers the following topics:"
+msgstr "Цей путівник охоплює такі теми:"
+
+#: ../../manual/about/contribute/install/macos.rst:9
+msgid "`Installing Dependencies`_"
+msgstr "`Установлення Залежностей`_"
+
+#: ../../manual/about/contribute/install/macos.rst:10
+msgid "`Downloading the Repository`_"
+msgstr "`Завантаження Репозиторію`_"
+
+#: ../../manual/about/contribute/install/macos.rst:11
+msgid "`Setting up the Build Environment`_"
+msgstr "`Установка Середовища Вибудування`_"
+
+#: ../../manual/about/contribute/install/macos.rst:16
+msgid "This guide relies heavily on command-line tools. It assumes you are the least familiar with the macOS Terminal application."
+msgstr "Цей путівник здебільшого опирається на інструменти командного рядка. Він припускає, що ви мінімально знайомі з програмою терміналу на macOS."
+
+#: ../../manual/about/contribute/install/macos.rst:21
+msgid "Installing Dependencies"
+msgstr "Установлення Залежностей"
+
+#: ../../manual/about/contribute/install/macos.rst:23
+msgid "Install those packages or make sure you have them in your system."
+msgstr "Установіть ці пакети або переконайтеся, що вони є вже у вашій системі."
+
+#: ../../manual/about/contribute/install/macos.rst:25
+msgid "`Python <https://www.python.org/>`__"
+msgstr ""
+
+#: ../../manual/about/contribute/install/macos.rst:26
+msgid "`PIP <https://pip.pypa.io/en/latest/installing/>`__"
+msgstr ""
+
+#: ../../manual/about/contribute/install/macos.rst:27
+msgid "`Subversion <https://subversion.apache.org/>`__"
+msgstr ""
+
+#: ../../manual/about/contribute/install/macos.rst:31
+msgid "Downloading the Repository"
+msgstr "Завантаження Репозиторію"
+
+#: ../../manual/about/contribute/install/macos.rst:33
+msgid "Simply check out the blender-manual repository using::"
+msgstr "Просто підтвердіть репозиторій Blender-довідника, використовуючи:"
+
+#: ../../manual/about/contribute/install/macos.rst:42
+msgid "Setting up the Build Environment"
+msgstr "Установка Середовища Вибудування"
+
+#: ../../manual/about/contribute/install/macos.rst:44
+msgid "In a terminal, enter the ``blender_docs`` folder which was just added by the SVN checkout::"
+msgstr "У терміналі уведіть ``blender_docs``, в яку буде додана SVN відладка::"
+
+#: ../../manual/about/contribute/install/macos.rst:48
+msgid "Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need. To install these dependencies, we can use the ``pip`` command::"
+msgstr "Всередині цієї теки є файл під назвою ``requirements.txt``, який містить список усіх необхідних залежностей. Для установлення цих залежностей ви можете скористатися ``pip`` командою: "
+
+#: ../../manual/about/contribute/install/macos.rst:55
+msgid "Every now and then you may want to make sure your dependencies are up to date using::"
+msgstr "Час від часу ви можете переконуватися, що ваші залежностей в актуальному стані за допомогою::"
+
+#: ../../manual/about/contribute/install/macos.rst:62
+msgid "Continue with the next step: :doc:`Building </about/contribute/build/macos>`"
+msgstr "Продовжимо на наступному етапі: :doc:`Вибудування </about/contribute/build/macos>`"

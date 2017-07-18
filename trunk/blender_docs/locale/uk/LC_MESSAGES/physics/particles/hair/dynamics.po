@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.78 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/physics/particles/hair/dynamics.rst:5
+msgid "Hair Dynamics"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:8
+msgid ""
+"Hair particles can have dynamic properties using physics. To enable hair "
+"physics, click the check box beside *Hair Dynamics*."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:13
+msgid "Structure"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:15
+msgid "Mass"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:16
+msgid "Value for the mass of the hair."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:21
+msgid "Stiffness"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:18
+msgid "Controls the bending stiffness of the hair strands."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:21
+msgid "Random"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:21
+msgid "Random stiffness of hair."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:25
+msgid "Damping"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:24
+msgid "Damping of bending motion."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:28
+msgid "Volume"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:30
+msgid ""
+"Some phenomena of real world hair can be simulated more efficiently using"
+" a volumetric model instead of the basic geometric strand model. This "
+"means constructing a regular grid such as those used in fluid simulations"
+" and interpolating hair properties between the grid cells."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:34
+msgid "Air Drag"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:35
+msgid ""
+"Controls how thick the hair is around the hair causing the hair to flow "
+"slower."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:37
+msgid "Internal Friction"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:37
+msgid "Amount of friction between individual hairs."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:43
+msgid "Density Target"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:40
+msgid "Maximum density if the hair."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:43
+msgid "Strength"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:43
+msgid "The influence that the *Density Target* has on the simulation."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:47
+msgid "Voxel Grid Cell Size"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:46
+msgid "Size of the voxel grid cells for interaction effects."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:50
+msgid "Pinning"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:54
+msgid "Goal Strength"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:53
+msgid "Spring stiffness of the vertex target position."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:57
+msgid "Quality"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:59
+msgid "Steps"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:60
+msgid ""
+"Quality of the simulation in steps per frame. (higher is better quality "
+"but slower)."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:62
+msgid "Hair Grid"
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:62
+msgid "Show hair simulation grid."
+msgstr ""
+
+#: ../../manual/physics/particles/hair/dynamics.rst:66
+msgid ""
+"If you use motion blur in your animation, you will need to bake one extra"
+" frame past the last frame which you will be rendering."
+msgstr ""
+

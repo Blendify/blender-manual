@@ -1,0 +1,198 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:4
+msgid "Navigation Mesh Physics"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:6
+msgid ""
+"Path-finding in Blender is based on the concept of `navigation meshes "
+"<http://en.wikipedia.org/wiki/Navigation_mesh>`. Now you can create "
+"navigation mesh for your level geometry directly in Blender and use it in"
+" Blender Game Engine (BGE) to get your actors to find path to the target "
+"and move along it. Besides path following, there are also a few other "
+"steering behaviors which can be assigned to the actor: *seek* and *flee*."
+" Path-finding with navigation mesh is effective for big static obstacles."
+" To enable actors to avoid small dynamic objects during their movement "
+"local obstacle avoidance can be used. If the obstacle simulation is "
+"enabled the actor will try to choose direction which is free of collision"
+" with obstacles on each frame during execution one of the steering "
+"behaviors."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:17
+msgid "Options"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:19
+msgid "NavMesh Copy Face Index"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:20
+msgid ""
+"Copies the navigation polygon index from the active face to selected "
+"faces."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:22
+msgid "NavMesh New Face Index"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:22
+msgid "Adds a new navigation polygon index to selected faces."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:24
+msgid "NavMesh Reset Index Values"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:25
+msgid "Assigns a new index to every faces."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:28
+msgid "NavMesh Clear Data"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:27
+msgid "Removes the navigation data from the mesh."
+msgstr ""
+
+#~ msgid "TODO."
+#~ msgstr ""
+
+#~ msgid "Scene Settings"
+#~ msgstr ""
+
+#~ msgid "Rasterization"
+#~ msgstr ""
+
+#~ msgid "Cell size"
+#~ msgstr ""
+
+#~ msgid "rasterized cell size."
+#~ msgstr ""
+
+#~ msgid "Cell height"
+#~ msgstr ""
+
+#~ msgid "rasterized cell height."
+#~ msgstr ""
+
+#~ msgid "Agent"
+#~ msgstr ""
+
+#~ msgid "Height"
+#~ msgstr ""
+
+#~ msgid "Minimum height where the agent can still walk."
+#~ msgstr ""
+
+#~ msgid "Radius"
+#~ msgstr ""
+
+#~ msgid "Radius of the agent."
+#~ msgstr ""
+
+#~ msgid "Max climb"
+#~ msgstr ""
+
+#~ msgid "Maximum height between grid cells the agent can climb."
+#~ msgstr ""
+
+#~ msgid "Max slope"
+#~ msgstr ""
+
+#~ msgid "Maximum walkable slope angle in degrees."
+#~ msgstr ""
+
+#~ msgid "Region"
+#~ msgstr ""
+
+#~ msgid "Min Region Size"
+#~ msgstr ""
+
+#~ msgid "Minimum regions size. Smaller regions will be deleted."
+#~ msgstr ""
+
+#~ msgid "Merged Region Size"
+#~ msgstr ""
+
+#~ msgid "Minimum regions size. Smaller regions will be merged."
+#~ msgstr ""
+
+#~ msgid "Partitioning"
+#~ msgstr ""
+
+#~ msgid "Watershed"
+#~ msgstr ""
+
+#~ msgid "Classic Recast partioning method generating the nicest tessellation."
+#~ msgstr ""
+
+#~ msgid "Monotone"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The fastest navmesh generation method, "
+#~ "but may cause long thin polygons."
+#~ msgstr ""
+
+#~ msgid "Layers"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A reasonably fast method that produces"
+#~ " better triangles than monotone "
+#~ "partitioning."
+#~ msgstr ""
+
+#~ msgid "Polygonization"
+#~ msgstr ""
+
+#~ msgid "Max Edge Length"
+#~ msgstr ""
+
+#~ msgid "Maximum contour edge length."
+#~ msgstr ""
+
+#~ msgid "Max Edge Error"
+#~ msgstr ""
+
+#~ msgid "Maximum distance error from contour to cells."
+#~ msgstr ""
+
+#~ msgid "Verts Per Poly"
+#~ msgstr ""
+
+#~ msgid "Max number of vertices per polygon."
+#~ msgstr ""
+
+#~ msgid "Detail Mesh"
+#~ msgstr ""
+
+#~ msgid "Sample Distance"
+#~ msgstr ""
+
+#~ msgid "Detail mesh sample spacing."
+#~ msgstr ""
+
+#~ msgid "Max Sample Error"
+#~ msgstr ""
+
+#~ msgid "Detail mesh simplification max sample error."
+#~ msgstr ""
+

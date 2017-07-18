@@ -1,0 +1,210 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Blender 2.78 Manual 2.78\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: urko <urkokul@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: uk\n"
+
+#: ../../manual/compositing/types/filter/glare.rst:4
+msgid "Glare Node"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:9
+msgid "Glare Node."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:11
+msgid ""
+"The *Glare node* is used add lens flares, fog, glows around exposed parts"
+" of an image an much more."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:16
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:20
+#: ../../manual/compositing/types/filter/glare.rst:82
+msgid "Image"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:19
+msgid "Standard image input."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:23
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:26
+msgid "Glare Type"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:28
+msgid "Ghosts"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:29
+msgid "Creates a haze over the image."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:34
+#: ../../manual/compositing/types/filter/glare.rst:38
+msgid "Streaks"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:31
+msgid "Creates bright streaks used to simulate lens flares."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:34
+msgid "Total number of streaks."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:36
+msgid "Angle Offset"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:37
+msgid "The rotation offset factor of the streaks."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:38
+#: ../../manual/compositing/types/filter/glare.rst:49
+msgid "Fade"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:39
+#: ../../manual/compositing/types/filter/glare.rst:50
+msgid "Fade out factor for the streaks."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:44
+msgid "Fog Glow"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:41
+msgid ""
+"Looks similar to *Ghost* however, it is much smaller in size and gives "
+"more of a atmospheric haze or \"glow\" around the image."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:44
+msgid "Size"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:45
+msgid "Scale of the glow relative to the size of the original bright pixels."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:53
+msgid "Simple Star"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:47
+msgid "Works similar to *Streaks* but gives a simpler shape looking like a star."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:53
+msgid "Rotate 45"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:52
+msgid "Rotate the streaks by 45°."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:56
+msgid "Common Options"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:60
+msgid "Quality"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:59
+msgid ""
+"If not set to something other the *High*, then the glare effect will only"
+" be applied to a low resolution copy of the image. This can be helpful to"
+" save render times while only doing preview renders."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:64
+msgid "Iterations"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:63
+msgid ""
+"The number of times to run through the filter algorithm. Higher values "
+"will give more accurate results but will take longer to compute. Note, "
+"that this is not available for *Fog Glow* as it does not use an iterative"
+" based algorithm."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:68
+msgid "Color Modulation"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:67
+msgid "Used for *Streaks* and *Ghosts* to create a special dispersion effect."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:69
+msgid ""
+"Johannes Itten describes this effect, Color Modulation, as subtle "
+"variations in tones and chroma."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:71
+msgid "Mix"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:71
+msgid ""
+"Value to control how much of the effect is added on to the image. A value"
+" of -1 would give just the original image, 0 gives a 50/50 mix, and 1 "
+"gives just the effect."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:75
+msgid "Threshold"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:74
+msgid "Pixels brighter than this value will be affected by the glare filter."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:78
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:81
+msgid "Standard image output."
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:85
+msgid "Example"
+msgstr ""
+
+#: ../../manual/compositing/types/filter/glare.rst:89
+msgid "TODO."
+msgstr ""
+
+#~ msgid "TODO - see: https://developer.blender.org/T43469"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Used for *Streaks* and *Ghosts* to "
+#~ "create a special dispersion effect. "
+#~ "Johannes Itten describes this effect, "
+#~ "Color Modulation, as subtle variations "
+#~ "in tones and chroma."
+#~ msgstr ""
+
