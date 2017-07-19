@@ -24,8 +24,6 @@ Installing your Language Files
 
    Be sure to change the ``/fr`` suffixes to the language you are translating!
 
-   You can remove the suffix to check out all languages too, however, this will be a much larger download.
-
 From the directory containing your checkout of the manual run::
 
    svn checkout https://svn.blender.org/svnroot/bf-manual-translations/trunk/blender_docs/locale/fr locale/fr
