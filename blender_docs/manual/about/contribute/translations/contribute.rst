@@ -1,11 +1,14 @@
 .. highlight:: sh
 
+.. TODO: document how to handle files being added/removed/moved.
+
 **********
 Contribute
 **********
 
 On this page French (``fr``) is used for examples, however, it can be replaced with other
 `languages codes <https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
+So, be sure to change the ``/fr`` suffixes in this guide to the language you are translating!
 
 To see which languages are currently available, you can browse the repository:
 https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
@@ -17,12 +20,11 @@ https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
    :ref:`Getting Started <about-getting-started>` section.
 
 
-Installing your Language Files
-==============================
+Installing
+==========
 
-.. note::
-
-   Be sure to change the ``/fr`` suffixes to the language you are translating!
+Language Files
+--------------
 
 From the directory containing your checkout of the manual run::
 
@@ -40,7 +42,7 @@ You should have a directory layout like this::
 
 
 A PO Editor
-===========
+-----------
 
 To make edit the PO files you will need to install a PO editor.
 We recommended that you use `Poedit <https://poedit.net/>`__
@@ -59,10 +61,6 @@ Building with Translations
 
    This is optional, translations are automatically built online, eg:
    https://docs.blender.org/manual/fr/dev/
-
-   This is quite involved,
-   so it is not be expected that translators should be doing their own builds locally.
-
 
 Now you can build the manual with the translation applied::
 
@@ -113,13 +111,10 @@ For more options see::
 
    python tools/report_translation_progress.py --help
 
-
 .. seealso::
 
    - Instructions on this page are based on
      `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__
-   - The `translation design task <https://developer.blender.org/T43083>`__
-     for discussion on the process.
 
 
 Updating PO Files
@@ -134,5 +129,3 @@ However, if you need to update the files yourself, it can be done as follows::
    make update_po
 
 The updated templates can then be committed to svn.
-
-*TODO: document how to handle files being added/removed/moved.*
