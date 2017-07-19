@@ -31,7 +31,7 @@ Groups
 Channels
    Record properties.
 F-Curves
-   :doc:`F-Curve </editors/graph_editor/fcurves/introduction>` are used to
+   :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` are used to
    interpolate the difference between the keyframes.
 Keyframes
     :doc:`Keyframes </animation/keyframes/introduction>` are used to

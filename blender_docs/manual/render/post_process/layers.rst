@@ -63,7 +63,7 @@ Layer
 Mask Layer
    Objects on these will mask out other objects appearing behind them.
    This can be used for compositing objects into footage,
-   to take into accounts objects in front of the virtual objects blocking the view from the camera.
+   to take into account objects in front of the virtual objects blocking the view from the camera.
 Material Override
    Overrides all material settings to use the Material chosen here.
 
