@@ -157,7 +157,7 @@ Transform
 
 Release confirms
    Dragging :kbd:`LMB` on an object will move it.
-   To confirm this (and other) transforms, a :kbd:`LMB` is necessary by default.
+   To confirm this (and other) transform, a :kbd:`LMB` is necessary by default.
    When this option is activated, the release of :kbd:`LMB` acts as confirmation of the transform.
 
 

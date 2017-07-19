@@ -51,12 +51,12 @@ Joint Type
       (joint point).
 
       Limits
-         Angular limits for the X axis
+         Angular limits for the X axis.
    Cone Twist
-      similar to *Ball*, this is a point-to-point joint with limits added for the cone and twist axis
+      similar to *Ball*, this is a point-to-point joint with limits added for the cone and twist axis.
 
       Limits
-         Angular limits
+         Angular limits.
    Generic 6DOF
       works like the *Ball* option,
       but the target is no longer constrained at a fixed distance from the pivot point, by default

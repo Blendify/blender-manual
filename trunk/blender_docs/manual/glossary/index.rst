@@ -52,7 +52,7 @@ This page lists definitions for terms used in Blender and this manual.
 
          Straight alpha can be considered to be an RGB color image with a separate alpha mask.
          In areas where this mask is fully transparent, there can still be colors in the RGB channels.
-         On conversion to premultiplied alpha, this mask is *applied'*
+         On conversion to premultiplied alpha, this mask is *applied*
          and the colors in such areas become black and are lost.
 
          Premultiplied alpha, on the other hand, can represent renders

@@ -19,7 +19,7 @@ Ghost
           :width: 240px
 
 
-In traditional cartoon creation animators use tracing paper,
+In traditional cartoon creation, animators use tracing paper,
 to see several frames preceding the one they are working on.
 This allows them to visualize the overall movement of their character,
 without having to play it back.
@@ -56,7 +56,7 @@ Range
    (i.e. a value of 5 will give you ten ghosts, five before the current frame, and five after).
 Start, End
    This number button specifies the start/end frame of the range (exclusive).
-   Note that unfortunately, it cannot take a null or negative value,
+   Note that unfortunately it cannot take a null or negative value,
    which means you can only see ghosts starting from frame 2 included...
 Step
    This number button specifies whether you have a ghost for every frame
@@ -68,7 +68,7 @@ Display
 
 Selected Only
    When enabled, you will only see the ghosts of selected bones
-   (otherwise, every bone in the armatures has ghosts...)
+   (otherwise, every bone in the armatures has ghosts...).
 
 Finally, these ghosts are also active when playing the animation :kbd:`Alt-A`
 -- this is only useful with the *Around Current Frame* option, of course...

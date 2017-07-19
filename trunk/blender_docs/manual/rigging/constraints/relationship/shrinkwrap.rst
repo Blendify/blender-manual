@@ -26,7 +26,7 @@ Options
 
 
 Target
-   :ref:`ui-data-id` used to select the constraints target, which *must* be a mesh object,
+   :ref:`ui-data-id` used to select the constraint's target, which *must* be a mesh object,
    and is not functional (red state) when it has none.
 Distance
    This number button controls the offset of the owner from the shrunk computed position on the target's surface.

@@ -69,7 +69,7 @@ The main Blender window will also appear and the *Console Window* will then be t
 To display the console again, go to :menuselection:`Window --> Toggle System Console`.
 
 To start Blender from the command line you need to open an instance of Command Prompt.
-To do this run :kbd:`WinKey-R` then type :kbd:`cmd` this will open the Command Prompt window.
+To do this, type :kbd:`WinKey-R` then type :kbd:`cmd`; this will open the Command Prompt window.
 You then need to find the path to the Blender executable. If you installed Blender via the installer
 then it can be found here:
 
@@ -80,7 +80,7 @@ then it can be found here:
    Blender’s Console Window on Microsoft Windows.
 
 
-The screenshot shows the Blender *Console Window* on MS-Windows directly after starting
+The screenshot shows the Blender *Console Window* on Microsoft Windows directly after starting
 Blender and then a short while later after opening a file along with the relevant messages.
 
 .. tip:: Closing the Blender Console Window

@@ -6,7 +6,7 @@
 Contribute
 **********
 
-On this page French (``fr``) is used for examples, however, it can be replaced with other
+On this page French (``fr``) is used for examples. However, it can be replaced with other
 `languages codes <https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
 So, be sure to change the ``/fr`` suffixes in this guide to the language you are translating!
 
