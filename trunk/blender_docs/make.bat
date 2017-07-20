@@ -27,10 +27,10 @@ if "%1" == "help" (
 	echo.=============
 	echo.
 	echo.Convenience targets provided for building docs
-	echo.- html                 to make standalone HTML files (default)
+	echo.- html                 to make standalone HTML files ^(default^)
 	echo.- singlehtml           to make a single large HTML file
 	echo.- pdf                  to make a PDF using LaTeX warning: this currently has some problems,
-	echo.                       though the PDF generates, there are various unresolved issues."
+	echo.                       though the PDF generates, there are various unresolved issues
 	echo.- gettext              to make PO message catalogs
 	echo.- epub                 to make an epub
 	echo.- epub3                to make an epub3
