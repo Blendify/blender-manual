@@ -12,7 +12,6 @@ DupliGroup
 
 
 *Duplication Group* or *DupliGroup* allows you to create an instance of a group for each instance of another object.
-
 *DupliGroups* may contain animations, objects with physics simulations and even other nested *DupliGroups*.
 
 
@@ -29,8 +28,8 @@ Change the Group Instance of existing objects:
    - In the properties editor: :menuselection:`Object --> Duplication`, enable *Group*.
    - Select the name of your newly created group.
 
-At this point, an instance of the group will appear. You can duplicate the empty,
-and the DupliGroup settings will be preserved for each empty.
+At this point, an instance of the group and a :doc:`empty object </modeling/empties>` will appear.
+You can duplicate the empty, and the DupliGroup settings will be preserved for each empty.
 This way, you can get multiple copies of linked data very easily.
 
 
@@ -53,7 +52,6 @@ Making a DupliGroup Object Real
 ===============================
 
 Say you want to make further edits on an DupliGroup instance:
-
 Simply select your DupliGroup and press :kbd:`Ctrl-Shift-A` to convert the DupliGroup
 into regular objects that can be transformed and animated normally.
 
