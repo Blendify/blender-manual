@@ -184,7 +184,7 @@ help:
 	@echo "- html                 to make standalone HTML files (default)"
 	@echo "- singlehtml           to make a single large HTML file"
 	@echo "- pdf                  to make a PDF using LaTeX warning: this currently has some problems,"
-	@echo "                       though the PDF generates, there are various unresolved issues"
+	@echo "                       though the PDF generates, there are various unresolved issues	"
 	@echo "- readme               to make a 'readme.html' file"
 	@echo "- clean                to delete all old build files"
 	@echo ""
