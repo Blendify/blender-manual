@@ -242,3 +242,6 @@ Blender 2.6x to 2.7x -- Improvements & Stabilizing
    Cycles support for spherical stereo images for VR,
    Grease Pencil works more similar to other 2D drawing softwares,
    Alembic import and export support, and improvements to Bendy Bones for easier and simpler rigging.
+- `2.79 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.79>`__ -- August 2017:
+   New cycles features: Denoising, Shadow catcher, and new Principled shader.
+   Other improvements were made to Grease Pencil and Alembic. Support was also added for application templates.
