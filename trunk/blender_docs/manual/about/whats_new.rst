@@ -4,8 +4,19 @@
 What's New
 **********
 
-This page lists major changes and additions to the manual.
+This page lists major changes and additions to the manual. The Blender release notes 
+are located in the `Wiki <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes>`__.
 
+- :doc:`Alembic </pipeline/alembic>`
+  (`rBM3580 <https://developer.blender.org/rBM3580>`__, May 30).
+- :doc:`Cycles Denoising </render/cycles/settings/scene/render_layers/denoising>`
+  (`rBM3562 <https://developer.blender.org/rBM3562>`__, May 24).
+- :doc:`Video Output (Update) </render/output/video>`
+  (`rBM3559 <https://developer.blender.org/rBM3559>`__, May 23).
+- :doc:`Shadow Catcher </render/cycles/settings/objects/object_data>`
+  (`rBM3548 <https://developer.blender.org/rBM3548>`__, May 22).
+- :doc:`Principled Node </render/cycles/nodes/types/shaders/principled>`
+  (`rBM3527 <https://developer.blender.org/rBM3527>`__, May 19).
 - The new Version Switch is located at the bottom of the navigation (beta language switch only).
   Please `report a bug 
   <https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-c4nvvrxuczix2326vlti>`__

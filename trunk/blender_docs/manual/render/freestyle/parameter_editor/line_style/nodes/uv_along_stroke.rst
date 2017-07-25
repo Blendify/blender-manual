@@ -1,6 +1,6 @@
 
 ********************
-Node UV Along Stroke
+UV Along Stroke Node
 ********************
 
 .. figure:: /images/render_freestyle_line-style_nodes_uv-along-stoke.png

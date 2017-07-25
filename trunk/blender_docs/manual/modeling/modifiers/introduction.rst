@@ -67,7 +67,7 @@ Render (camera icon)
 Show in viewport (eye icon)
    Toggles visibility of the modifier effect in the 3D View.
 Show in Edit Mode (box icon)
-   Displays the modified geometry in edit mode, as well as the original geometry which you can edit.
+   Displays the modified geometry in Edit Mode, as well as the original geometry which you can edit.
 Show on cage (triangle icon)
    When enabled, the final modified geometry will be shown in Edit Mode and can be edited directly.
 Move (up/down arrow)
