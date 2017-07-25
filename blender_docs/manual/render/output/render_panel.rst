@@ -19,7 +19,7 @@ Audio
 
 By default the biggest area is replaced with the UV/Image Editor and the render appears.
 
-To chancel the rendering process click the chancel button ``X`` besides the progressbar in the Info Editor,
+To cancel the rendering process click the cancel button ``X`` besides the progressbar in the Info Editor,
 or press :kbd:`Esc`.
 
 

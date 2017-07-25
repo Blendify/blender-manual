@@ -87,7 +87,8 @@ Version/Revision Milestones
 
 .. rubric:: Blender goes Open Source
 
-**13 October 2002: Blender goes Open Source, 1st Blender Conference.**
+13 October 2002:
+   **Blender goes Open Source, 1st Blender Conference.**
 2.25 -- October 2002:
    `Blender Publisher <https://download.blender.org/release/Publisher2.25/>`__ becomes freely available,
    and the experimental tree of Blender is created, a coder's playground.

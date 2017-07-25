@@ -11,7 +11,7 @@ Numeric Input
 Using the mouse for transformations is convenient,
 but if you require more precise control, you can also enter numeric values.
 After pressing the shortcut type a number to indicate the magnitude of the transformation.
-Then confirm or chancel. e.g. pressing :kbd:`S 2`, :kbd:`Enter` will double the scale of an object.
+Then confirm or cancel. e.g. pressing :kbd:`S 2`, :kbd:`Enter` will double the scale of an object.
 
 Translate :kbd:`G`
    By default and with no other key presses, the translation will occur along the X-axis.

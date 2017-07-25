@@ -103,8 +103,8 @@ Text Editing
 - :kbd:`Ctrl-V` -- Paste text at the cursor position.
 
 
-Confirm and Chancel
-===================
+Confirm and Cancel
+==================
 
 - :kbd:`Esc`, :kbd:`RMB` -- Cancels.
 - :kbd:`Enter`, :kbd:`LMB` -- Confirms.

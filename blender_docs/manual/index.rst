@@ -11,10 +11,9 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
 
 .. only:: builder_html
 
-   .. |vertical_separator| unicode:: U+02758
-
    - This site can be downloaded for offline use:
      :download:`Download the full manual (zipped HTML files) <blender_manual.zip>`
+   - :doc:`/about/whats_new`
 
 
 Getting Started
