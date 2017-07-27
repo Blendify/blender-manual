@@ -18,7 +18,7 @@ View Menu
 Fit preview in window :kbd:`Home`
    Resizes preview so that it fits in the window.
 Zoom 1:1 :kbd:`Numpad1`
-   Resizes preview to a 1:1 scale (actual size).
+   Resizes preview to an 1:1 scale (actual size).
 Safe Areas
    Displays an overlay on the preview, marking where title safe region is.
 

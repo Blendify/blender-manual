@@ -15,7 +15,7 @@ and judge where to put it by "mapping" this location along the target curve.
 
 One benefit is that when you are working with *Clamp To*,
 it is easier to see what your owner will be doing; since you are working in the 3D View, it
-will just be a lot more precise than sliding keys around on a F-Curve and playing the
+will just be a lot more precise than sliding keys around on an F-Curve and playing the
 animation over and over.
 
 A downside is that unlike in the :doc:`Follow Path constraint </rigging/constraints/relationship/follow_path>`,
