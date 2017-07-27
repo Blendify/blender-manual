@@ -67,7 +67,7 @@ which we have set to transparent.
 The Color Ramp image is fully red and opaque where the image is white (1.00).
 
 We verify that the output image mask is indeed transparent
-by overlaying it on top of a other image.
+by overlaying it on top of another image.
 
 
 Colorizing an Image

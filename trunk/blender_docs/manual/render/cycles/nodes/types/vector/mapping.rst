@@ -12,7 +12,7 @@ know that these can also be accomplished by modifing an object's UVs in the
 it is sometimes useful to have easy access to these functions through
 nodes rather then having to modify the UVs. One oexample of this might be
 when you have several textures which each needs to be transformed indidually
-e.g. decals on a object.
+e.g. decals on an object.
 
 .. figure:: /images/render_blender-render_materials_nodes_vector_mapping.png
 

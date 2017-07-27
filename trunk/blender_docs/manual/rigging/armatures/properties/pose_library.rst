@@ -30,7 +30,7 @@ Pose Libraries
 Apply Pose (magnifying glass icon)
    Apply the active pose to the selected pose bones.
 Sanitize Action (livesaver icon)
-   Makes a action suitable for use as a Pose Library.
+   Makes an action suitable for use as a Pose Library.
    This is used to convert an Action to a Pose Library.
    A pose is added to the Pose Library for each frame with keyframes.
 

@@ -16,8 +16,8 @@ Options
 Source Channel
    The channel which the Multicam Selector gets its input from.
 Cut To
-   Cuts the Multicam strip at the current frame an changes
-   the *Source Channel* automatically to the selected channels.
+   Cuts the Multicam strip at the current frame and
+   changes the *Source Channel* automatically to the selected channels.
 
 
 Workflow

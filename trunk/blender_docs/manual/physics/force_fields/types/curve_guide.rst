@@ -97,7 +97,7 @@ Type
    Braid
       Braid.
    Roll
-      An one dimensional, standing wave.
+      A one dimensional, standing wave.
 
 It is not so easy to describe the resulting shapes, so have a look at the example below.
 

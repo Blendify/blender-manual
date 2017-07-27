@@ -22,7 +22,7 @@ Save All Images
    ToDo.
 Replace Image
    Replaces the current image, while preserving the link to UV maps,
-   with an selected file.
+   with a selected file.
 Reload Image
    Reloading the image from an external file.
 Save Image

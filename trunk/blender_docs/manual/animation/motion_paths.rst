@@ -126,4 +126,4 @@ Example
 
 .. figure:: /images/animation_motion-path_example-armature.png
 
-   An example of a motion path of a armature.
+   An example of a motion path of an armature.

@@ -33,7 +33,7 @@ Position
    Which marker position to use for output.
 
    Absolute
-      Outputs a absolute position of a marker.
+      Outputs an absolute position of a marker.
    Relative Start
       Outputs the positions of a marker relative to the first marker of a track.
    Relative Frame

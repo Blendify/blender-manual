@@ -26,7 +26,7 @@ When using the B-bone as a constraint target :ref:`ui-data-id` offers an option 
 
 .. note::
 
-   However, if the bone is used as an target rather than to deform geometry,
+   However, if the bone is used as a target rather than to deform geometry,
    the roll is not taken in account.
 
 

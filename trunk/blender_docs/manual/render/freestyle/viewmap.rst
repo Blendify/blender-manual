@@ -24,7 +24,7 @@ Control Mode
       Powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 
 View Map Cache
-   A option to reuse a previously computed view map for subsequent rendering.
+   An option to reuse a previously computed view map for subsequent rendering.
    The cache is automatically updated when the mesh geometry of the input 3D scene has been changed.
 
    This functionality offers a major performance boost for Freestyle animation rendering

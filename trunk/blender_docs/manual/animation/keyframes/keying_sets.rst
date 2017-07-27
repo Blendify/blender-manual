@@ -45,7 +45,7 @@ Active Keying Set
    The :ref:`List View <ui-list-view>` of Keying Sets in the active Scene.
 
    Add ``+``
-      Adds a empty Keying Set.
+      Adds an empty Keying Set.
 
 
 Properties
@@ -93,7 +93,7 @@ Active Keying Set Paths
    to add to the active Keying Set.
 
    Add ``+``
-      Adds a empty path.
+      Adds an empty path.
 
 
 Properties

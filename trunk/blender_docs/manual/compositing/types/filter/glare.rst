@@ -10,7 +10,7 @@ Glare Node
    Glare Node.
 
 The *Glare node* is used add lens flares, fog,
-glows around exposed parts of an image an much more.
+glows around exposed parts of an image and much more.
 
 
 Inputs
@@ -40,7 +40,7 @@ Streaks
       Fade out factor for the streaks.
 Fog Glow
    Looks similar to *Ghost* however, it is much smaller in size
-   and gives more of a atmospheric haze or "glow" around the image.
+   and gives more of an atmospheric haze or "glow" around the image.
 
    Size
       Scale of the glow relative to the size of the original bright pixels.
