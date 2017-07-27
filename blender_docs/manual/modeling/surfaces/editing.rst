@@ -264,7 +264,8 @@ merging two surfaces requires that a single edge, a border row of control points
 from two separate surfaces is selected. This means that the surfaces must be part of the same object. For example,
 you cannot join two surfaces while in *Object Mode* - but you can of course, as with any objects of the same type,
 join two or more *Surface* objects
-into one object :kbd:`Ctrl-J` - they just will not be "linked" or merged in a single one... Yes, it's a bit confusing!
+into one object :kbd:`Ctrl-J` - they just will not be "linked" or merged in a single one...
+Yes, it's a bit confusing!
 
 This tool is equivalent to creating edges or faces for meshes
 (hence its shortcut), and so it only works in *Edit Mode*.

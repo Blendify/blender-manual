@@ -158,7 +158,8 @@ and so on up to values between 0.83 and 1.0 get mapped to 1.0.
    (add, subtract, multiply, sine, cosine, etc) that operate on an input value to provide the desired output value.
 
 
-`Spreadsheet showing a function <https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_spreadsheet>`__.
+`Spreadsheet showing a function
+<https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_spreadsheet>`__.
 
 
 The theory behind this function is scaled truncation.

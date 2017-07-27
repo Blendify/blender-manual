@@ -3,8 +3,10 @@
 Navigation Mesh Physics
 ***********************
 
-Path-finding in Blender is based on the concept of `navigation meshes <http://en.wikipedia.org/wiki/Navigation_mesh>`.
-Now you can create navigation mesh for your level geometry directly in Blender and use it in Blender Game Engine (BGE)
+Path-finding in Blender is based on the concept of `navigation meshes
+<http://en.wikipedia.org/wiki/Navigation_mesh>`.
+Now you can create navigation mesh for your level geometry directly in Blender and use it in Blender Game Engine
+(BGE)
 to get your actors to find path to the target and move along it. Besides path following,
 there are also a few other steering behaviors which can be assigned to the actor: *seek* and *flee*.
 Path-finding with navigation mesh is effective for big static obstacles.

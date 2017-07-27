@@ -12,8 +12,10 @@ object without checking the *Animated* box. The object will move, but the physic
 Animation
 =========
 
-The most common trick is to :term:`keyframe` animate the location or rotation of an *Active* physics object as well as
-the *Animated* checkbox. When the curve on the *Animated* property switches to disabled, the physics engine takes over
+The most common trick is to
+:term:`keyframe` animate the location or rotation of an *Active* physics object as well as
+the *Animated* checkbox.
+When the curve on the *Animated* property switches to disabled, the physics engine takes over
 using the object's last known location, rotation and velocities.
 
 Animating the strengths of various other parameters
@@ -47,7 +49,8 @@ while generally not recommended, can help making small object behave more natura
 
 When objects are small and/or move very fast, they can pass through each other. Besides what is mentioned above it's
 also good to avoid using mesh shapes in this case. Mesh shapes consist of individual triangles and therefore do not
-really have any thickness, so objects can pass through more easily. You can give them some thickness by increasing the
+really have any thickness, so objects can pass through more easily.
+You can give them some thickness by increasing the
 collision margin.
 
 

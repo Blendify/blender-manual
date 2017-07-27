@@ -30,7 +30,8 @@ Play Mode
     Loop Stop
        The sound is played as infinite loop when activated. Stops instantly when deactivated.
     Loop End
-       The sound is played as infinite loop when activated. When deactivated, stops after finishing playing the sound.
+       The sound is played as infinite loop when activated.
+       When deactivated, stops after finishing playing the sound.
     Loop Bidirectional
        The sound is played as infinite ping-pong loop. When deactivated, stops after finishing playing the sound.
     Loop Bidirectional Stop

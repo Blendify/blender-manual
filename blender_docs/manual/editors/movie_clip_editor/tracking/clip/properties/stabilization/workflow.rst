@@ -92,7 +92,8 @@ Animating Stabilization Parameters
 ==================================
 
 Animating some parameters over duration of the shot is often necessary, at least to get the final touch,
-including control of the scale factor to hide the dancing black borders. Unfortunately there is a **known limitation**
+including control of the scale factor to hide the dancing black borders.
+Unfortunately there is a **known limitation**
 in the current version: it is not possible to open the generic animation editors (F-curve and dope sheet)
 for animation data beyond the 3D scene. So, while it *is possible* to set key frames *right within the UI controls*
 of the stabilizer (either through pressing the :kbd:`I` key or with the help of the context menu), it is not possible
@@ -105,7 +106,8 @@ Irregular Track Setup
 =====================
 
 It might not be possible to track a given feature over the whole duration of the shot.
-The feature might be blurred or obscured; it might even move out of sight entirely, due to deliberate camera movement.
+The feature might be blurred or obscured; it might even move out of sight entirely,
+due to deliberate camera movement.
 In such a situation, we need *another tracked feature* to take on it's role, and we need some *overlap time*
 to get a smooth transition without visible jump.
 
@@ -126,7 +128,8 @@ but you should start a new track for each distinct new feature to be tracked.
 Each track contributes to the overall result by the degree controlled through its *Stab Weight* parameter.
 It is evaluated on a per frame base, which enables us to control the influence of a track by *animating* this
 *Stab Weight*. You may imagine the overall working of the stabilizer as if each tracking point "drags" the image
-through a flexible spring: When you turn down the *Stab Weight* of a tracking point, you decrease the amount of "drag"
+through a flexible spring: When you turn down the *Stab Weight* of a tracking point,
+you decrease the amount of "drag"
 it creates. Sometimes the contribution of different tracks has to work partially counter each other.
 This effect might be used to cancel out spurious movement, e.g. as caused by perspective.
 But when, in such a situation, one of the involved tracks suddenly goes away,

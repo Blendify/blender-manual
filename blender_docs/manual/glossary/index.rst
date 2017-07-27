@@ -252,7 +252,8 @@ This page lists definitions for terms used in Blender and this manual.
    Display Referenced
       Refers to an image whose :term:`Luminance` channel is limited to a certain range of values (usually 0-1).
       The reason it is called display referenced is because a display cannot display an infinite range of values.
-      So, the term :term:`Scene Referenced` must go through a transfer function to be converted from one to the other.
+      So, the term :term:`Scene Referenced` must go through a transfer function to be converted
+      from one to the other.
 
    Double Buffer
       Technique for drawing and displaying content on the screen.
@@ -671,7 +672,8 @@ This page lists definitions for terms used in Blender and this manual.
    Roll
    Roll Angle
       The orientation of the local X and Z axes of a :term:`Bone`.
-      Has no effect on the local Y axis as local Y is determined by the location of the :term:`Head` and :term:`Tail`.
+      Has no effect on the local Y axis as local Y is determined by the location of the
+      :term:`Head` and :term:`Tail`.
 
    Roughness Map
       A grayscale texture that defines how rough or smooth the surface of a material is.

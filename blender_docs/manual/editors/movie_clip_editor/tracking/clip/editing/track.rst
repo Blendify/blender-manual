@@ -197,7 +197,8 @@ Refine
 ------
 
 This operator will run a tracker from previous keyframe to current frame for all selected markers.
-Current markers positions are considering initial position guess which could be updated by a tracker for better match.
+Current markers positions are considering initial position guess which could be updated by a
+tracker for better match.
 
 Useful in cases when feature disappears from the frame and then appears again. Usage in this case is the following:
 

@@ -94,7 +94,8 @@ Scene and Specific Objects
 #. Make a matte render of background objects, like buildings,
    and put the image of them on a billboard in the scene instead of the object themselves.
    This will reduce vertex/face count.
-#. If you have lots of linked instances of an object, use DupliFaces, as these are instanced. If you have 100 of them,
+#. If you have lots of linked instances of an object, use DupliFaces, as these are instanced.
+   If you have 100 of them,
    Blender will only store the geometry for 1 (Instances themselves take a small amount of memory).
 
 

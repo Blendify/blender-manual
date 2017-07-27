@@ -13,7 +13,8 @@ Interior
 
 To create a connection between the vertices of a Soft Body object there have to be forces that
 hold the vertices together. These forces are effective along the edges in a mesh,
-the connections between the vertices. The forces act like a spring. Fig. :ref:`fig-softbody-force-interior-connection`
+the connections between the vertices. The forces act like a spring. Fig.
+:ref:`fig-softbody-force-interior-connection`
 illustrates how a 3×3 grid of vertices (a mesh plane in Blender)
 are connected in a Soft Body simulation.
 
