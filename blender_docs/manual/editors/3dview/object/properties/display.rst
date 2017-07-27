@@ -16,7 +16,7 @@ The *Display* panel is used to enable extra drawing or viewing options for the 3
 Name
    Displays the name of the object in the 3D View.
 Axis
-   Displays a object similar to an *Empty* that shows the object's axis.
+   Displays an object similar to an *Empty* that shows the object's axis.
 Wire
    Draws an object's wire frame on top of the solid drawing.
 Draw All Edges

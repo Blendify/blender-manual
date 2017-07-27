@@ -99,7 +99,7 @@ Pack Islands
    | Menu:     :menuselection:`UVs --> Pack Islands`
    | Hotkey:   :kbd:`Ctrl-P`
 
-The *Pack Islands* tool generates a optimized UV layout with non overlapping islands
+The *Pack Islands* tool generates an optimized UV layout with non overlapping islands
 that tries to efficiently fill the texture space.
 
 First it will uniformly scale the selected island,
@@ -335,7 +335,7 @@ For using images as textures, see the page on
      - .. figure:: /images/editors_uv-image_uv-editing_layout-editing_uv-layout-export.png
           :width: 320px
 
-          A UV Layout in an paint program.
+          A UV Layout in a paint program.
 
 
 Header

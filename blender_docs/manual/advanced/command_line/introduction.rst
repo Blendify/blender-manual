@@ -15,6 +15,7 @@ Use Cases:
 - If Blender exits unexpectedly, the messages may indicate the cause or error.
 - When troubleshooting, to see the output of ``--debug`` messages.
 
+
 Platform Dependent Instructions
 ===============================
 

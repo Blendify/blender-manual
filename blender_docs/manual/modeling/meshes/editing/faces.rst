@@ -337,7 +337,7 @@ Compare UVs
 Compare Vertex Color
    When enabled, it will prevent union of triangles that have no matching vertex color.
 Compare Sharp
-   When enabled, it will prevent union of triangles that share a edge marked as sharp.
+   When enabled, it will prevent union of triangles that share an edge marked as sharp.
 Compare Materials
    When enabled, it will prevent union of triangles that do not have the same material assigned.
 

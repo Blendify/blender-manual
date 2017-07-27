@@ -26,7 +26,7 @@ Active Vertex Group
       Locks the group from being edible. You can only rename or delete the group.
 
    Add ``+``
-      Create a empty vertex group.
+      Create an empty vertex group.
    Remove ``-``
       Deletes the active vertex group.
 

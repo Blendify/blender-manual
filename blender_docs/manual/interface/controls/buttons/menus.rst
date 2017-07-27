@@ -53,7 +53,7 @@ Select Menus
 
    The 3D View mode select menu.
 
-The Select menu or short selector lets you choose between a set of options. They can show a text and/or a icon.
+The Select menu or short selector lets you choose between a set of options. They can show a text and/or an icon.
 The options are shown in a pop-up. The selected option is then shows as active.
 
 

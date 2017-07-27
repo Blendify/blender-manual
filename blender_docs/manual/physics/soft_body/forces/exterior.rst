@@ -49,7 +49,7 @@ Mass
    Larger mass means larger inertia, so also braking a Soft Body is more difficult.
 
 Mass Vertex Group
-   You can paint weight values for an mesh's mass, and select that vertex group here.
+   You can paint weight values for a mesh's mass, and select that vertex group here.
 
 Speed
    You can control the internal timing of the softbody system with this value.
@@ -126,7 +126,7 @@ Default
    (or no *Goal*) means, that the vertex moves only according to Soft Body simulation.
    If no vertex group is used/assigned, this number button is the default goal weight for all vertices.
    If a vertex group is present and assigned,
-   this button instead shows an list field, that allows you to choose the name of the goal vertex group.
+   this button instead shows a list field, that allows you to choose the name of the goal vertex group.
    If you use a vertex group the weight of a vertex defines its goal.
 
    Often :ref:`painting-weight-index` is used to adjust the weight comfortably.

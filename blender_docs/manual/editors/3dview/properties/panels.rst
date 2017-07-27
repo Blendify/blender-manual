@@ -81,7 +81,7 @@ Lock to Cursor
 
 Lock Camera to View
    When in camera view, all changes in the view (pans, rotations, zooms) will affect the active camera,
-   which will follow all those changes. The camera frame will be outlined with an red dashed line.
+   which will follow all those changes. The camera frame will be outlined with a red dashed line.
 
 .. _3dview-view-clip:
 

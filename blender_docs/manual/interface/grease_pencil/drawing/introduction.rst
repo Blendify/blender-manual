@@ -148,7 +148,7 @@ Only Endpoints
 
 Enable Editing
    See :doc:`/interface/grease_pencil/stroke_edit`.
-   A overlay is displayed in the top-right corner of editors when enabled.
+   An overlay is displayed in the top-right corner of editors when enabled.
 
 
 Tools

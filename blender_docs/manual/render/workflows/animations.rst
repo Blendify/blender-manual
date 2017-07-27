@@ -25,10 +25,10 @@ you are ready to make a final render of the complete animation for publication.
 There are two approaches you can use when making a movie, or animation, with or without sound.
 The approach you should use depends on the amount of CPU time you will need to render the movie.
 You can render a "typical" frame at the desired resolution,
-and then multiply by the number of frames that will ultimately go into the movie, to arrive at an total render time.
+and then multiply by the number of frames that will ultimately go into the movie, to arrive at a total render time.
 
 If the total render time is an hour or more, you want to use the "Frame Sequence" approach.
-For example, if you are rendering an one-minute video clip for film, there will be
+For example, if you are rendering a one-minute video clip for film, there will be
 (60 seconds per minute) X (24 frames per second) or 1440 frames per minute.
 If each frame takes 30 seconds to render,
 then you will be able to render two frames per minute, or need 720 minutes (12 hours)

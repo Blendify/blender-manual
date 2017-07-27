@@ -60,7 +60,7 @@ Rotation
          as well as possible :term:`gimbal lock`.
       Axis Angle
          The X, Y, and Z coordinates define a point relative to the object origin.
-         This point and the origin define a axis around the W value defines the rotation.
+         This point and the origin define an axis around the W value defines the rotation.
       Quaternion
          X, Y, Z and W correspond to the :term:`Quaternion` components.
 
@@ -89,7 +89,7 @@ However, you can still translate it using the *Location X* number button.
 Consider the locking feature as a rigid constraint only changeable from the panel.
 
 To lock a property, click the padlock icon next to the button.
-The button is unlocked if the icon shows a open padlock,
+The button is unlocked if the icon shows an open padlock,
 and it is locked if the icon appears as a closed padlock.
 
 
