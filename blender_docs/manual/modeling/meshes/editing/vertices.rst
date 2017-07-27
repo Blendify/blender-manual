@@ -233,7 +233,7 @@ Extend Vertices
 
 This tool takes any number of selected vertices and duplicate-drags them along the closest edge to the mouse,
 When extending an edge loop, it extends the vertices at the endpoints of the loop.
-Which is similar behavior like *Extrude* tool, but it creates a n-gon.
+Which is similar behavior like *Extrude* tool, but it creates an n-gon.
 
 It helps to easily add details to existing edges.
 

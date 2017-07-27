@@ -16,7 +16,7 @@ If data-blocks are linked the data will be updated across all of the users when 
 
 Type
    Shows an icon indicating the data-block type. It opens up the following pop-up menu.
-   The data-block can be dragged from here e.g to drag an material onto an object in the 3D View or
+   The data-block can be dragged from here e.g to drag a material onto an object in the 3D View or
    into a :ref:`ui-data-id` field.
 
    List

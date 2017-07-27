@@ -12,7 +12,7 @@ It allows you control an
 
 The underlying idea of the *Action* constraint is very similar to the one behind the
 :doc:`Drivers </animation/drivers/index>`, except that the former uses a whole action
-(i.e. a bunch a F-Curves of the same type), while the latter controls a single F-curve of their "owner"...
+(i.e. a bunch of F-Curves of the same type), while the latter controls a single F-curve of their "owner"...
 
 Note that even if the constraint accepts the *Mesh* action type,
 only the *Object*,
