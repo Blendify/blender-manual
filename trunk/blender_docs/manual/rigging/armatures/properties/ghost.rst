@@ -45,7 +45,8 @@ Type
       This will display the ghosts of the armature's bones inside a given range of frames.
       The ghosts are shaded from transparent for the first frame, to opaque at the last frame. It has four options:
    On Keyframes
-      This is very similar to the *In Range* option, but there are ghosts only for keyframes in the armature animation
+      This is very similar to the *In Range* option,
+      but there are ghosts only for keyframes in the armature animation
       (i.e. frames at which you keyed one or more of the bones).
       So it has the same options as above, except for the *Step* one (as only keyframes generate ghosts).
       Oddly, the shading of ghosts is reversed compared to *In Range* - from opaque for the first keyframe,

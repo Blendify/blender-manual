@@ -203,7 +203,8 @@ Version/Revision Milestones
    improvements in text editors, new add-ons for 3D printing, over 260 bug fixes.
 `2.68 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.68>`__ -- July 2013:
    New and improved modeling tools, three new Cycles nodes, big improvements in the motion tracker,
-   Python scripts and drivers are disabled by default when loading files for security reasons, and over 280 bug fixes.
+   Python scripts and drivers are disabled by default when loading files for security reasons,
+   and over 280 bug fixes.
 `2.69 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.69>`__ -- October 2013:
    Even more modeling tools, Cycles improved in many areas, plane tracking is added to the motion tracker,
    better support for FBX import/export, and over 270 bugs fixed.

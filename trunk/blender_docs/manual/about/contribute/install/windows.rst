@@ -28,7 +28,8 @@ In this guide, we will use TortoiseSVN though any Subversion client will do.
 #. Install TortoiseSVN with the installation wizard. When choosing which features will be installed,
    it is recommended that you enable *command line client tools* to give you access to SVN from the command line
    (there is no harm in doing this, and it may be helpful if you ever run into any trouble).
-#. Once the installation has finished, create a new folder that will contain everything related to the Blender Manual.
+#. Once the installation has finished,
+   create a new folder that will contain everything related to the Blender Manual.
    In this guide, we will use ``C:\blender_docs``.
 #. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
 #. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs``.

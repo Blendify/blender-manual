@@ -59,7 +59,8 @@ Format Options
 ==============
 
 ``-F``, ``--render-format`` ``<format>``
-   Set the render format. Valid options are ``TGA`` ``RAWTGA`` ``JPEG`` ``IRIS`` ``IRIZ`` ``AVIRAW`` ``AVIJPEG`` ``PNG``
+   Set the render format.
+   Valid options are ``TGA`` ``RAWTGA`` ``JPEG`` ``IRIS`` ``IRIZ`` ``AVIRAW`` ``AVIJPEG`` ``PNG``
    ``BMP``
 
    Formats that can be compiled into Blender, not available on all systems: ``HDR`` ``TIFF`` ``EXR`` ``MULTILAYER``

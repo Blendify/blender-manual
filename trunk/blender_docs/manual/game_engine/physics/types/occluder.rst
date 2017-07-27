@@ -28,7 +28,8 @@ Now observe what happens to the profiling stats for each of the following (in or
 #. Make the "Occluder" object take up the whole camera's view with :kbd:`S-X-5`.
    You will see a huge leap in framerate,
    since almost nothing is being Rasterized. On my system the Rasterizer step drops to 5ms.
-#. Try a run with :menuselection:`World properties --> Physics --> Occlusion Culling` disabled. It will be slow again.
+#. Try a run with :menuselection:`World properties --> Physics --> Occlusion Culling` disabled.
+   It will be slow again.
 #. Reenable :menuselection:`World properties --> Physics --> Occlusion Culling`
    and run it one more time to prove to yourself that your speed is back.
 #. Change the Occluder to "Physics Type: Static". Notice that it is back to the original slowness.

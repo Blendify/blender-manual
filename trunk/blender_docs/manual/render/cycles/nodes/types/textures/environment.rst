@@ -40,7 +40,8 @@ Texture Interpolation
    Cubic
       Only available when rendering on the CPU.
    Smart
-      Bicubic when magnifying else Bilinear is used. This is only available for :doc:`OSL </render/cycles/nodes/osl>`.
+      Bicubic when magnifying else Bilinear is used.
+      This is only available for :doc:`OSL </render/cycles/nodes/osl>`.
 
 Projection Method
    Allows you to use different types of environmental maps. The following methods are supported:

@@ -82,7 +82,8 @@ First Last
 
       * - .. figure:: /images/modeling_modifiers_generate_array_first-last-off.png
 
-            Subdivision discontinuity caused by not merging vertices between first and last copies (*First Last* off).
+            Subdivision discontinuity caused by not merging vertices between first and last copies
+            (*First Last* off).
 
         - .. figure:: /images/modeling_modifiers_generate_array_first-last-on.png
 
@@ -215,7 +216,8 @@ Tutorials
 =========
 
 - `Neal Hirsig's Array Modifier Screencast on Vimeo <https://vimeo.com/46061877>`__.
-- `Creating A Double Helix With Modifiers <https://wiki.blender.org/index.php/Doc:2.4/Tutorials/Modifiers/A_Double_Helix>`__.
+- `Creating A Double Helix With Modifiers
+  <https://wiki.blender.org/index.php/Doc:2.4/Tutorials/Modifiers/A_Double_Helix>`__.
 
 The 'Double Helix' tutorial explains the Array Modifier.
 It is for an old Blender Version (2.44) but except for the keyboard

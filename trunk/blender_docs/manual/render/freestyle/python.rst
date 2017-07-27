@@ -114,7 +114,8 @@ The Freestyle Python API employs functors extensively to implement predicates, a
 Chaining
 --------
 
-The chaining operators act on the set of active ``ViewEdge`` objects and determine the topology of the future strokes.
+The chaining operators act on the set of active ``ViewEdge`` objects and determine the topology
+of the future strokes.
 The idea is to implement an iterator to traverse the ViewMap graph by marching along ViewEdges.
 The iterator defines a chaining rule that determines the next ``ViewEdge``
 to follow at a given vertex (see ``ViewEdgeIterator``). Several such iterators are provided

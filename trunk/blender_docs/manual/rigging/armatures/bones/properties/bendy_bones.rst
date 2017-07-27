@@ -135,7 +135,8 @@ Ease In, Out
    The *Ease In/Out* number buttons, change the "length" of the :ref:`"auto" <curve-handle-type-auto>` Bézier handle
    to control the "root handle" and "tip handle" of the bone, respectively.
 
-   These values are proportional to the default length, which of course automatically varies depending on bone length,
+   These values are proportional to the default length,
+   which of course automatically varies depending on bone length,
    angle with the handle reference, and so on.
 
 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.

@@ -8,7 +8,8 @@ Introduction
 The physics constraints available in the non-game modes are meant to be attached to an :term:`Empty` object.
 The constraint then has fields which can be pointed at the two physics-enabled object which will be bound by the
 constraint. The *Empty* object provides a location and axis for the constraint distinct from the two constrained
-objects. The location of the entity hosting the physics constraint marks a location and set of axes on each of the two
+objects. The location of the entity hosting the physics constraint marks a location and set of
+axes on each of the two
 constrained objects. These two anchor points are calculated at the beginning of the animation and their position and
 orientation remain fixed in the *local* coordinate system of the object for the duration of the animation. The
 objects can move far from the constraint object, but the constraint anchor moves with the object. If this feature
@@ -19,7 +20,8 @@ the relative location of the child.
 Connect
 =======
 
-The quickest way to constrain two objects is to select both and click the *Connect* button in the *Physics* tab of the
+The quickest way to constrain two objects is to select both and click the *Connect* button in
+the *Physics* tab of the
 *Tool Shelf*. This creates a new *Empty* object (named "Constraint") with a physics constraint already attached and
 pointing at the two selected objects.
 

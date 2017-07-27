@@ -304,7 +304,8 @@ Counterclockwise effect.
 
    The high sensibility for the vector does not apply to vectors that give the Screw Tool a starting angle
    (Ex: any non-parallel vector),
-   meaning Blender will not need to clamp the values to stabilize a direction for the extrusion, as the inclination of
+   meaning Blender will not need to clamp the values to stabilize a direction for the extrusion,
+   as the inclination of
    the vector will be clear for Blender and you will have the full degree of freedom to change the vectors. Our
    example is important because it only changes the direction of the profile without the tilt and/or bending effect,
    as there is only one direction for the extrusion, parallel to one of the Blender Axes.

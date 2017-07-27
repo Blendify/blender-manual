@@ -101,7 +101,8 @@ the actual image contents move towards the left side *within* the original image
 But let's assume the stabilizer was successful with "fixing" any image contents relative to the *canvas* --
 which in turn means, that the original image boundaries start to move irregularly towards the right side,
 and the *contents* of the image will begin to disappear gradually behind the left boundary of the original image.
-After some amount of panning, we'll have lost all of our original contents and just see an empty black image backdrop.
+After some amount of panning,
+we'll have lost all of our original contents and just see an empty black image backdrop.
 The only solution to deal with that problem is to *move the final image frame along to the right,*
 thus following the originally intended panning movement. Of course, this time, we do want to perform this
 newly added panning movement in a smooth and clean way.

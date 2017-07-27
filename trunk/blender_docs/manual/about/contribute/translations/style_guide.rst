@@ -49,7 +49,8 @@ Technical Terms
 
 .. Modified from https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
 
-In general, the technical terms used in computer graphics are quite new or even downright neologisms invented for the needs,
+In general, the technical terms used in computer graphics are quite new or even downright
+neologisms invented for the needs,
 so they do not always have a translation in your language. Moreover,
 a large part of Blender users use its English interface.
 
