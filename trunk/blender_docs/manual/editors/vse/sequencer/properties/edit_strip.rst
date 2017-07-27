@@ -23,7 +23,7 @@ Opacity
 
 Channel
    Changes the channel number, or row, of the strip.
-   
+
    Lock (padlock icon)
       Prevents the strip from being moved.
 

@@ -4,7 +4,7 @@
 What's New
 **********
 
-This page lists major changes and additions to the manual. The Blender release notes 
+This page lists major changes and additions to the manual. The Blender release notes
 are located in the `Wiki <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes>`__.
 
 - :doc:`Alembic </pipeline/alembic>`
@@ -18,7 +18,7 @@ are located in the `Wiki <https://wiki.blender.org/index.php/Dev:Ref/Release_Not
 - :doc:`Principled Node </render/cycles/nodes/types/shaders/principled>`
   (`rBM3527 <https://developer.blender.org/rBM3527>`__, May 19).
 - The new Version Switch is located at the bottom of the navigation (beta language switch only).
-  Please `report a bug 
+  Please `report a bug
   <https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-c4nvvrxuczix2326vlti>`__
   if it behaves in unexpected manner.
   (`rBM3490 <https://developer.blender.org/rBM3490>`__, Apr. 5).

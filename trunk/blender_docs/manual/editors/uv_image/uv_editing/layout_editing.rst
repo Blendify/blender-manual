@@ -37,7 +37,7 @@ UV Options
 ==========
 
 Live Unwrap
-   Continuously unwraps the selected UV islands while transforming pinned vertices. 
+   Continuously unwraps the selected UV islands while transforming pinned vertices.
 Snap to pixel
    Will force the UVs to snap to the nearest pixels of an image if loaded.
 Constraining to Image Bounds

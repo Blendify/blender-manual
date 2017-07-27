@@ -26,7 +26,7 @@ Constraint Name
 
 Test
    How the sensor checks for changes in the bone.
-   
+
    State Changed
       Any changes will invoke the sensor.
    Lin error below/above
@@ -35,7 +35,7 @@ Test
       TODO.
 
    Value
-      Some tests will take a value, this value is used in the comparison when detecting changes. 
+      Some tests will take a value, this value is used in the comparison when detecting changes.
 
 Example
 =======
