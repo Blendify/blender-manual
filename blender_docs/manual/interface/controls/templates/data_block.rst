@@ -45,9 +45,9 @@ Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 (such as a list of materials used on the object).
 
 .. seealso::
-  
+
    Data-blocks are discussed farther in the :doc:`Data System chapter </data_system/data_blocks>`.
-   
+
 Preview
 =======
 

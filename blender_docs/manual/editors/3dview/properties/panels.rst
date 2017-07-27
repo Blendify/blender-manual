@@ -71,7 +71,7 @@ Lens
 Lock to Object
    Lock to Object lets you define an object in the *Object* Data ID as the center of the view.
    In that case, the view can be rotated around or zoomed towards that central object,
-   but not on translation, unless you translate that itself object 
+   but not on translation, unless you translate that itself object
    (this option is not available in a camera view).
 Lock to Cursor
    Lock the center of the view to the position of the 3D cursor.
