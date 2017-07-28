@@ -77,7 +77,7 @@ Subdivision Steps
    Strokes are subdivided before smoothing is applied.
 
    Randomness
-      Amount of randomness to add new new strokes after subdivision.
+      Amount of randomness to add to new strokes after subdivision.
 
 
 Brush Curves

@@ -205,7 +205,7 @@ since the function rounds down,
 and then dividing by five results in six values {0.0, 0.2, 0.4, 0.6, 0.8, 1.0}.
 
 The result is that the output value can only be one of a certain set of values,
-stair-stepped, because of the rounding function of the math node node setup.
+stair-stepped, because of the rounding function of the math node.
 Copying this one channel to operate on Green and Blue gives the node setup below.
 To get the 6:6:7, we set the three Multiply Nodes to {6, 6, 7} and the divide nodes to {5, 5, 6}.
 
@@ -234,7 +234,7 @@ so you will have to first add on a half to bring the range between 0 and 1,
 and then after dividing, subtract a half to bring in back into standard range.
 
 The ``JPG`` or ``PNG`` image format will store each of the colors according to their image standard
-for color depth (e.g. ``JPG`` is 24-bit), but the image will be very very small since reducing
+for color depth (e.g. ``JPG`` is 24-bit), but the image will be very small since reducing
 color depth and quantizing colors are essentially what the ``JPEG`` compression algorithm
 accomplishes.
 

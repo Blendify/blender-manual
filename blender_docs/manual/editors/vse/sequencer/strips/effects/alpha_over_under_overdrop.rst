@@ -66,10 +66,10 @@ and an arrow is on top of that. Those two are Alpha Over to Channel 3.
 My favorite toucan is Channel 4, and Channel 5 alpha over composes the toucan on top of the composited red arrow.
 The last effect added is tied to Channel 0 which will be rendered.
 
-..    Comment: Not (more) true, I think!
-      Alpha Channel Needed for Alpha Over|The foreground strip must have an alpha channel,
-      such as Scene or a .PNG image sequence, for Alpha Over to work properly; .avi and .mov
-      files do not have an alpha channel so they can only be used as a background.
+.. Comment: Not (more) true, I think!
+   Alpha Channel Needed for Alpha Over|The foreground strip must have an alpha channel,
+   such as Scene or a .PNG image sequence, for Alpha Over to work properly; .avi and .mov
+   files do not have an alpha channel so they can only be used as a background.
 
 By clicking the Premultiply Alpha button in the properties panel of the foreground strip,
 the Alpha values of the two strips are not multiplied or added together.

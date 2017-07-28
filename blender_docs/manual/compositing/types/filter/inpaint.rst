@@ -43,7 +43,7 @@ with a blank space -- it's shown as a black line here but it will be alpha in yo
 
    Inpaint Node Example.
 
-Inpainting fills in a couple of pixels using the surrounding image and voila... your wire is removed.
+Inpainting fills in a couple of pixels using the surrounding image and voilà... your wire is removed.
 
 .. note::
 

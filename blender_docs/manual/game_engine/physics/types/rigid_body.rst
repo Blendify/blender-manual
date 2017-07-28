@@ -1,4 +1,4 @@
-.. xxx this is the same as game_engine/physics/object/dynamic.rst
+.. Ed: this is the same as game_engine/physics/object/dynamic.rst
 
 ******************
 Rigid Body Physics

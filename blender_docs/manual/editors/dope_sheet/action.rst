@@ -46,7 +46,7 @@ Layer Previous/Next (down/up arrow peak icon)
 
    - If moving from a solo'd NLA Track to the active action,
      the NLA stack will be muted so that the action can be edited in isolation.
-   - Likewise, if the NLA stack is muted when editing the action action,
+   - Likewise, if the NLA stack is muted when editing the action,
      the NLA Track below it will be edited with solo enabled.
    - If switching between NLA Tracks, the solo status for the previous track will be transferred to the new track.
 

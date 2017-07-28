@@ -30,7 +30,7 @@ Navigation Mesh Object
 
       You can create your own mesh to use for navigation and make it a Navigation Mesh in:
       :menuselection:`Properties editor --> Physics --> Physics panel --> choosing Physics Type: Navigation Mesh`
-      Or you can let Blender create a Navigation Mesh, then select a mesh.  (Floor or ground or etc.)
+      Or you can let Blender create a Navigation Mesh, then select a mesh. (Floor or ground or etc.)
       :menuselection:`Properties editor --> Scene --> Navigation mesh object panel --> Build navigation mesh`
 
 Distance
