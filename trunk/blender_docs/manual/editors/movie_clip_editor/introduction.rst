@@ -4,7 +4,7 @@ Introduction
 ************
 
 
-The Movie Clip Editor has two main purposes, it can be used for for tracking or masking movies.
+The Movie Clip Editor has two main purposes, it can be used for tracking or masking movies.
 The empty editor looks like the image below.
 
 .. figure:: /images/editors_movie-clip.png

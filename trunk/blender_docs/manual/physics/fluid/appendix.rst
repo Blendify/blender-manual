@@ -61,7 +61,7 @@ Limitations & Workarounds
   the Suzanne (monkey) mesh in Blender is not a closed mesh (the eyes are separate).
 - If the fluid simulation exits with an error message (stating e.g. that the "init has failed"),
   make sure you have valid settings for the domain object, e.g. by resetting them to the defaults.
-- Note that first frame may well take only a few hundred MBs of RAM memory,
+- Note that first frame may well take only a few hundred MBs of ram-memory,
   but latter ones go over one GB, which may be why your bake fails after awhile.
   If so, try to bake one frame at the middle or end at full res so you will see if it works.
 - Memory used doubles when you set surface subdivision from 1 to 2.

@@ -74,7 +74,7 @@ Grab/Extend from Frame
    | Hotkey:   :kbd:`E`
 
 With a number of strips selected, pressing :kbd:`E` lets you interactively extend the strips.
-This is is similar to grabbing but is useful for extending (or shortening) time around the current frame.
+This is similar to grabbing but is useful for extending (or shortening) time around the current frame.
 
 All selected strip handles to the "mouse side" of the current frame indicator will transform together,
 so you can change the duration of the current frame.

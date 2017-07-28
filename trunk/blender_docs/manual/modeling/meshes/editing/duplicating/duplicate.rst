@@ -1,5 +1,5 @@
 .. _bpy.ops.mesh.duplicate_move:
-..    TODO/Review: {{review|im=needs example}}.
+.. TODO/Review: {{review|im=needs example}}.
 
 *********
 Duplicate

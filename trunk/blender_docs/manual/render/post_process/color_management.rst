@@ -1,5 +1,5 @@
 .. _bpy.types.ColorManaged:
-..    TODO/Review: {{review|partial=X|im=needs images}}.
+.. TODO/Review: {{review|partial=X|im=needs images}}.
 
 ****************
 Color Management

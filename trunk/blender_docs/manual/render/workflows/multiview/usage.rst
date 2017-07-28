@@ -149,7 +149,7 @@ Anaglyph
    Anaglyph glasses are required. We support Red-Cyan, Green-Magenta and Yellow-Blue glasses.
 Interlace
    Render two images for each eye into one interlaced image.
-   A 3D-ready monitor is required.  We support Row, Column and Checkerboard Interleaved.
+   A 3D-ready monitor is required. We support Row, Column and Checkerboard Interleaved.
    An option to Swap Left/Right helps to adjust the image for the screen. This method works better in fullscreen.
 Time Sequential
    Renders alternate eyes.

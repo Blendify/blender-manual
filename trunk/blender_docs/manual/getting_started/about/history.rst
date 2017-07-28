@@ -108,7 +108,7 @@ Version/Revision Milestones
    Game Engine returns, ambient occlusion, new procedural textures.
 `2.34 <https://archive.blender.org/development/release-logs/blender-234/>`__ -- August 2004:
    Particle interactions, LSCM UV mapping, functional YafRay integration, weighted creases in subdivision surfaces,
-   ramp shaders, full OSA, and many many more.
+   ramp shaders, full OSA, and many (many) more.
 `2.35 <https://archive.blender.org/development/release-logs/blender-235a/>`__ -- November 2004:
    Another version full of improvements: object hooks, curve deforms and curve tapers,
    particle duplicators and much more.
@@ -244,7 +244,7 @@ Version/Revision Milestones
 
 .. rubric:: Blender 2.8
 
-Blender 2.8 is the the next phase in Blender's development seeking to bring an improved viewport
+Blender 2.8 is the next phase in Blender's development seeking to bring an improved viewport
 and a better workflow allowing artist to use Blender faster and easier. Currently, Blender 2.8
 is still in development and will probably be released in late 2.8 however, test builds can be found
 on `Blender's test build website <https://builder.blender.org/download/>`__.

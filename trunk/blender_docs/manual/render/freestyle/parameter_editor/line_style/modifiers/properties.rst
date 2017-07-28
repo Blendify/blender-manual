@@ -43,7 +43,7 @@ Mapping
 
       Note the linear non-inverted option is equivalent to "do nothing",
       as original values from materials are already in the (0.0 to 1.0) range.
-      Thats the case for: Crease Angle, 3D Curvature, Material, Noise, Tangent.
+      That is the case for: Crease Angle, 3D Curvature, Material, Noise, Tangent.
 
 Invert
    Inverts the *Mapping*.

@@ -81,5 +81,5 @@ since the matte is white (1.0) where we do not want to use the model picture,
 we feed the background photo to the bottom socket
 (recall the mix node uses the top socket where the factor is 0.0,
 and the bottom socket where the factor is 1.0). Feeding our original photo into the top socket
-means it will be used where the Luminance Key node has spit out Black. Voila,
+means it will be used where the Luminance Key node has spit out Black. Voilà,
 our model is teleported from Atlanta to aboard a cruise ship docked in Miami.

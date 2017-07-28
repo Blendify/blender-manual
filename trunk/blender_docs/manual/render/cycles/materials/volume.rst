@@ -133,7 +133,7 @@ but in practice one might have to limit the number of bounces to keep render tim
 Limitations
 ===========
 
-Currently, the following are not not support:
+Currently, the following are not supported:
 
 - Correct ray visibility for volume meshes
 
