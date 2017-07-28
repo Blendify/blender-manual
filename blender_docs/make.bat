@@ -192,7 +192,6 @@ if "%1" == "update_po" (
 
 	REM Update the locale dir:
 	svn cleanup .
-	svn up .
 	cd ../
 
 	REM Create PO files:

@@ -6,7 +6,7 @@ import os
 # if you want to operate on a subdir, eg: "render"
 SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
-RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
+RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "locale/uk", SUBDIR))
 
 
 def rst_files(path):
@@ -67,7 +67,8 @@ def find_and_replace(fn, data_src):
     use_whole_words = False
 
     find_replace_pairs = (
-        ("−", "-"),
+        ("\"PO-Revision-Date:*", "\"PO-Revision-Date: 2016-01-06 23:13+0800\n\""),
+        ("\"POT-Creation-Date:*", "\"POT-Creation-Date: 2016-01-06 23:13+0800\n\""),
         )
 
 
@@ -97,6 +98,17 @@ def find_and_replace(fn, data_src):
     data_dst = "\n".join(lines)
     return data_dst
 
+
+def fix_po(fn, data_src):
+    
+    lines = data_src.split("\n")
+    
+    if 'PO-Revision-Date:' in line:
+        line = '\"PO-Revision-Date: 2016-01-06 23:13+0800\"\n'
+
+    data_dst = "\n".join(lines)
+
+    return data_dst
 
 def replace_table(fn, data_src):
 
@@ -283,8 +295,7 @@ def wrap_lines(fn, data_src):
 
 
 # define the operation to call
-operation = strip_trailing_space
-
+operation = fix_po
 
 if __name__ == "__main__":
     main()
