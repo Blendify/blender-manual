@@ -101,7 +101,7 @@ AutoName
      :menuselection:`Armature --> AutoName Front/Back`, :menuselection:`Armature --> AutoName Top/Bottom`
 
 The three *AutoName* entries of the *Armature* and *Specials* menu :kbd:`W`
-allows you to automatically add a suffix to all selected bones, based
+allow you to automatically add a suffix to all selected bones, based
 on the position of their root relative to the armature center and its local coordinates:
 
 AutoName Left/Right

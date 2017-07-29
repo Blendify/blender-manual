@@ -13,10 +13,10 @@ Armature Deform Parent
 Armature Deform Parenting is a way of creating and setting up
 an :doc:`Armature Modifier </modeling/modifiers/deform/armature>`.
 
-To use Armature Deform Parenting you must first select all the child objects that will be
+To use *Armature Deform Parenting* you must first select all the child objects that will be
 influenced by the armature and then lastly, select the armature object itself. Once all the
-child objects and the armature are selected press :kbd:`Ctrl-P` and select
-Armature Deform in the Set Parent To pop-up menu.
+child objects and the armature are selected, press :kbd:`Ctrl-P` and select
+*Armature Deform* in the *Set Parent To* pop-up menu.
 
 The armature will be the parent object of all the other child objects and each child object
 will have a Armature Modifier with the armature associated (*Object* field).
@@ -31,7 +31,7 @@ With Empty Groups
 
 When parenting it will create empty :doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>`
 on the child objects (if they do not already exist) for and named after each deforming bone in the armature.
-The newly created vertex groups will be empty this means they will not have any weights assigned.
+The newly created vertex groups will be empty. This means they will not have any weights assigned.
 Vertex groups will only be created for bones which are setup as deforming
 (:menuselection:`Properties Editor --> Bone --> Deform Panel`).
 
@@ -46,7 +46,7 @@ Example
 
 For example, if you have an armature which consists of three bones named "BoneA",
 "BoneB" and "BoneC" and cube mesh called "Cube". If you parent the cube to
-the armature the cube will get three new vertex groups created on it called "BoneA",
+the armature, the cube will get three new vertex groups created on it called "BoneA",
 "BoneB" and "BoneC". Notice that each vertex group is empty.
 
 .. figure:: /images/rigging_armatures_parenting_bone-empty-groups.png
@@ -57,43 +57,43 @@ the armature the cube will get three new vertex groups created on it called "Bon
 With Automatic Weights
 ======================
 
-With Automatic Weights parenting works similar to With Empty Groups, but it will not leave the vertex groups empty.
+*With Automatic Weights* parenting works similar to With Empty Groups, but it will not leave the vertex groups empty.
 It calculates how much influence a particular bone would have on vertices
 based on the distance from those vertices to a particular bone ("bone heat" algorithm).
 This influence will be assigned as weights in the vertex groups.
 
-This method of parenting is certainly easier setup but it can often lead to armatures which do not deform child
+This method of parenting is certainly easier setup, but it can often lead to armatures which do not deform child
 objects in ways you would want. Overlaps can occur when it comes to determining which bones should
 influence certain vertices when calculating influences for more complex armatures and child objects. Symptoms
-of this confusion are that when transforming the armature in *Pose Mode* parts of the child objects do not deform
-as you expect; If Blender does not give you the results you require you will have to manually alter the weights
+of this confusion are that when transforming the armature in *Pose Mode*, parts of the child objects do not deform
+as you expect; If Blender does not give you the results you require, you will have to manually alter the weights
 of vertices in relation to the vertex groups they belong to and have influence in.
 
 
 With Envelope Weights
 =====================
 
-Works in a similar way to With Automatic Weights. The difference is that the influences are calculated
+Works in a similar way to *With Automatic Weights*. The difference is that the influences are calculated
 based on the :ref:`Bone Envelopes <armature-bones-envelope>` settings.
-It will assign to each vertex groups the vertices that are inside its bone's influence volume,
-weighted depending on their distance to this bone.
+It will assign a weight to each vertex group the vertices that is inside its bone's influence volume,
+depending on their distance to this bone.
 
 This means newly included/excluded vertices or new envelope settings will not be taken into account.
 You will have to apply Armature Deform With Envelope Weights parenting again.
 
 .. tip::
 
-   If want the envelope setting to be used instantly bind the Armature Modifier to *Bone Envelopes*.
+   If you want the envelope setting to be used instantly bind the Armature Modifier to *Bone Envelopes*.
 
 .. figure:: /images/rigging_armatures_parenting_envelope-influence.png
 
-   Two sets of Armatures each with three bones.
+   Two sets of Armatures, each with three bones.
 
 .. warning::
 
    If you had defined vertex groups using same names as skinned bones, their content will be
-   completely overridden by both Automatic and Envelope Weights.
-   In this case With Empty Groups could be used instead.
+   completely overridden by both *Automatic* and *Envelope Weights*.
+   In this case *With Empty Groups* could be used instead.
 
 .. seealso::
 

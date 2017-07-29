@@ -5,9 +5,9 @@ Introduction
 ************
 
 Once an armature is :doc:`skinned </rigging/armatures/skinning/index>` by the needed object(s),
-you need a way to configure the armature into postionions know as poses.
+you need a way to configure the armature into postions known as poses.
 Basically, by transforming the bones, you deform or transform the skinned object(s).
-However, you will notice that you cannot do not this in *Edit Mode* --
+However, you will notice that you cannot do this in *Edit Mode* --
 remember that *Edit Mode* is used to edit the default, base, or "rest" position of an armature.
 You may also notice that you cannot use *Object Mode* either, as here you can only transform whole objects.
 
