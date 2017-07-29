@@ -32,7 +32,7 @@ To parent and/or connect bones, you can:
   .. note::
 
       With this method, the newly-children bones will not be scaled nor rotated --
-      they will just be translated if you chose to connect them to their parent's tip.
+      they will just be translated if you choose to connect them to their parent's tip.
 
 - In the Properties editor, *Bones* tab, for each selected bone,
   you can select its parent in the *Parent* data-ID to the upper right corner of its Relations panel.

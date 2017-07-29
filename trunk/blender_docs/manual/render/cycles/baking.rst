@@ -78,7 +78,7 @@ Diffuse, Glossy, Transmission, Subsurface
    - If only color is selected you get the pass color,
      which is a property of the surface and independent of sampling refinement.
    - If color is not selected, you get the direct and/or indirect contributions in grayscale.
-   - If color and either direct or indirect is selected you get the direct and/or indirect contributions colored.
+- If color and either direct or indirect are selected, you get the direct and/or indirect contributions colored.
 
 
 Additional Options

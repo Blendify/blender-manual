@@ -18,7 +18,7 @@ Pose Libraries
    A :ref:`ui-list-view` of poses for the active Pose Library.
 
    Add ``+``
-      If a pose is added a :ref:`pose marker <marker-pose-add>` is created.
+      If a pose is added, a :ref:`pose marker <marker-pose-add>` is created.
 
       Add New
          Adds a new pose to the active Pose Library with the current pose of the armature.
@@ -28,7 +28,7 @@ Pose Libraries
       Replace Existing
          Replace an existing pose in the active Pose Library with the current pose of the armature.
 Apply Pose (magnifying glass icon)
-   Apply the active pose to the selected pose bones.
+   Applies the active pose to the selected pose bones.
 Sanitize Action (livesaver icon)
    Makes an action suitable for use as a Pose Library.
    This is used to convert an Action to a Pose Library.

@@ -148,7 +148,7 @@ This page lists definitions for terms used in Blender and this manual.
    Clamp
    Clamping
       Limits a variable to a range. The values over or under the range are set
-      to the constant values of the ranges minimum or maximum.
+      to the constant values of the range's minimum or maximum.
 
    Blend Modes
    Color Blend Modes
