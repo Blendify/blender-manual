@@ -19,13 +19,13 @@ BSDF
    stands for bidirectional scattering distribution function.
    It defines how light is reflected and refracted at a surface.
 Reflection
-   :abbr:`BSDF (Bidirectional scattering distribution function)`s
+   :abbr:`BSDF (Bidirectional scattering distribution function)`\ s
    reflect an incoming ray on the same side of the surface.
 Transmission
-   :abbr:`BSDF (Bidirectional scattering distribution function)`s
+   :abbr:`BSDF (Bidirectional scattering distribution function)`\ s
    transmit an incoming ray through the surface, leaving on the other side.
 Refraction
-   :abbr:`BSDF (Bidirectional scattering distribution function)`s are a type of *Transmission*,
+   :abbr:`BSDF (Bidirectional scattering distribution function)`\ s are a type of *Transmission*,
    transmitting an incoming ray and changing its direction as it exits on the other side of the surface.
 
 
@@ -39,7 +39,7 @@ This limits the possibilities a bit, but we believe overall it is helpful in cre
 consistent-looking renders with fewer parameters to tune.
 
 Roughness
-For the glossy :abbr:`BSDF (Bidirectional scattering distribution function)`s,
+   For the glossy :abbr:`BSDF (Bidirectional scattering distribution function)`\ s,
    the *roughness* parameter controls the sharpness of the reflection, from 0.0 (perfectly sharp)
    to 1.0 (very soft). Compared to *hardness* or *exponent* parameters,
    it has the advantage of being in the range 0.0..1.0,
