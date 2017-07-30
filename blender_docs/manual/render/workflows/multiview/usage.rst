@@ -68,7 +68,7 @@ convergence plane in the viewport based in your scene depth layout.
 Go outside the camera view and you will instantly see the convergence plane in front of the camera.
 
 You can toggle this and other display settings in the Stereoscopy panel of the 3D Views properties region.
-In the following image, the cameras frustum volumes are also visible.
+In the following image, the camera's frustum volumes are also visible.
 
 .. figure:: /images/multiview_workflow_5.png
    :width: 700px
@@ -91,7 +91,7 @@ Be aware that some modes require a fullscreen editor to work.
 OpenGL Preview
 ==============
 
-Before rendering your scene you can save an OpenGL preview of the animation for testing in the final display.
+Before rendering your scene, you can save an OpenGL preview of the animation for testing in the final display.
 In the Render Output panel you can choose the output *Views Format*.
 
 The options include individual files per view, top-bottom, anaglyph among others.
@@ -103,7 +103,7 @@ Pick the one that fits your display requirements.
 Rendering and UV/Image Editor
 =============================
 
-Once you are happy with the results you can render out the final animation.
+Once you are happy with the results, you can render out the final animation.
 In the UV/Image Editor you can inspect the individual views and the stereo result.
 
 
@@ -131,7 +131,7 @@ Window Stereo 3D Display
 
 An essential component of the Stereoscopy pipeline is the ability to display the stereo image in a proper display.
 Blender supports from high-end 3D displays to simple red-cyan glasses.
-On top of that you can set a different display mode for each window.
+On top of that, you can set a different display mode for each window.
 
 The display mode can be changed via the Window menu
 or if you create your own shortcuts for the ``wm.set_stereo_3d`` operator.
@@ -152,7 +152,7 @@ Interlace
    A 3D-ready monitor is required. We support Row, Column and Checkerboard Interleaved.
    An option to Swap Left/Right helps to adjust the image for the screen. This method works better in fullscreen.
 Time Sequential
-   Renders alternate eyes.
+   Render alternate eyes.
    This method is also known as Page Flip.
    This requires the graphic card to support Quad Buffer and it only works in fullscreen.
 Side-by-Side
@@ -165,8 +165,8 @@ Top-Bottom
 
 .. note:: Full Screen Stereo 3D Modes
 
-   If you have a 3D display most of the time
-   you will use it to see in stereo 3D you will have to go to the fullscreen mode.
+   If you have a 3D display most of the time,
+   you will use it to see in stereo 3D, you will have to go to the fullscreen mode.
    In fact some modes will only work in the full window mode that hides most of the user
    interface from the work area.
    In this case it is recommended to work with two monitors,
@@ -177,7 +177,7 @@ Top-Bottom
 Stereo 3D Camera
 ================
 
-When using the Stereo 3D scene view setup a stereo pair is created
+When using the Stereo 3D scene view setup, a stereo pair is created
 on-the-fly and used for rendering and previsualization.
 For all the purposes this works as two cameras that share most parameters (focal length, clipping, ...).
 The stereo pair, however, is offsetted, and can have unique rotation and shift between itself.
@@ -230,7 +230,7 @@ It also allow you to see the Cameras, the Plane and the Volume of the stereo cam
 
 
 Cameras
-   When working with the Stereo 3D Views setup you can inspect what
+   When working with the Stereo 3D Views setup, you can inspect what
    each individual generated camera is looking or the combined result of them.
    In the Multi-View mode you can see the combined result of the left and right cameras
    (when available) or the current selected camera.
@@ -314,7 +314,7 @@ Compositor
 
 The compositor works smoothly with Multi-View.
 The compositing of a view is completed before the remaining views start to be composited.
-The pipeline is the same as the single-view workflow, with the difference that you can use Image,
+The pipeline is the same as the single-view workflow, with the difference that you can use Images,
 Movies or Image Sequences in any of the supported Multi-View formats.
 
 .. figure:: /images/multiview_compositor.png
@@ -331,7 +331,7 @@ regardless of the Image nodes resolutions or Render Layers from different scenes
    the image will be treated as a single-view image.
 
 Switch View Node
-   If you need to treat the views separately you can use the
+   If you need to treat the views separately, you can use the
    :doc:`Switch View node </compositing/types/converter/switch_view>`
    to combine the views before an output node.
 
