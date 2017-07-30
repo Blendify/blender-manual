@@ -16,7 +16,7 @@ The *Metadata* panel includes options for writing meta-data into render output.
 
 
 Stamp Output
-   Add metadata has text to the render.
+   Add metadata as text to the render.
 
    Stamp Text Color
       Set the color and alpha of the stamp text.
@@ -34,7 +34,7 @@ Stamp Output
 Stamping can include the following data.
 
 Time
-   Includes the current scene time and render frame as ``HH:MM:SS.FF``
+   Includes the current scene time and render frame at ``HH:MM:SS.FF``
 Date
    Includes the current date and time.
 Render Time
