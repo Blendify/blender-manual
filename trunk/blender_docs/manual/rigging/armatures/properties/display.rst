@@ -20,7 +20,7 @@ This controls the way the bones appear in 3D View; you have four different visua
 Bone Types
 ==========
 
-We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire.
+Blender has four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire.
 
 .. list-table::
 
