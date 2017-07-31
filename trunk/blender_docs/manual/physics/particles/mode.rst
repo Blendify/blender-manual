@@ -12,9 +12,9 @@ and paths of *Baked*
 :doc:`Soft Body </physics/soft_body/index>` simulations.
 (You can also edit and style hair before baking).
 
-Since working in Particle Edit Mode is pretty easy and very similar to working with vertices in the
-3D View, we will show how to set up a particle system and then give a reference of the
-various functions.
+Since working in Particle Edit Mode is pretty easy and very similar
+to working with vertices in the 3D View, we will show how to set up
+a particle system and then give a reference of the various functions.
 
 
 Usage
