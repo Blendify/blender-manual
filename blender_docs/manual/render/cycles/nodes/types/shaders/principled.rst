@@ -23,6 +23,7 @@ subsurface scattering and transmission.
 On top of that there is a specular layer, sheen layer and clearcoat layer.
 
 .. note::
+
     The emphasis on compatibility with other software means that it interprets
     certain input parameters differently from older blender nodes.
 
@@ -45,6 +46,7 @@ Specular
    reflectivity in the most common 0 - 8% range.
 
    .. hint::
+
       To compute this value for a realistic material with a known index of
       refraction, you may use this special case of the Fresnel formula:
       :math:`specular = sqr((ior - 1)/(ior + 1)) / 0.08`
@@ -65,6 +67,7 @@ Roughness
    Specifies microfacet roughness of the surface for diffuse and specular reflection.
 
    .. hint::
+
       When converting from the older *Glossy BSDF* node, use the square root of the original value.
 
 Anisotropic
@@ -73,6 +76,7 @@ Anisotropic Rotation
    Rotates the direction of anisotropy, with 1.0 going full circle.
 
    .. hint::
+
       Compared to the *Anisotropic BSDF* node, the direction of highlight elongation
       is rotated by 90°. Add 0.25 to the value to correct.
 

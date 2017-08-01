@@ -40,6 +40,7 @@ Resume Scene
    Resumes a paused scene.
 
 .. note::
+
    A scene that it is paused cannot resume itself.
    You need an active scene to resume other scene that it is paused.
 
