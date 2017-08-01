@@ -18,14 +18,12 @@ Dimensions panel
 
 Render Presets
    Common format presets for TVs and screens.
-
 Resolution
    X/Y
       The number of pixels horizontally and vertically in the image.
    Percentage
       Slider to reduce or increase the size of the rendered image relative to the X/Y values above.
       This is useful for small test renders that are the same proportions as the final image.
-
 Aspect Ratio
    Older televisions may have non-square pixels,
    so this can be used to control the shape of the pixels along the respective axis.
@@ -35,7 +33,6 @@ Aspect Ratio
    resulting in lowered image quality.
 
    See :doc:`Video Output </render/output/video>` for details on pixel aspect ratio.
-
 Border
    You can render just a portion of the view instead of the entire frame. While in Camera View,
    press :kbd:`Ctrl-B` and drag a rectangle to define the area you want to render.
@@ -47,21 +44,22 @@ Border
 
    Enabling *Crop* will crop the rendered image to the *Border* size,
    instead of rendering a black region around it.
-
 Frame Range
    Set the *Start* and *End* frames for :doc:`Rendering Animations </render/workflows/animations>`.
    *Step* controls the number of frames to advance by for each frame in the timeline.
-
 Frame Rate
    For an :doc:`Animation </render/workflows/animations>`
    the frame rate is how many frames will be displayed per second.
-
 Time Remapping
    Use to remap the length of an animation.
 
 
 .. _render-tab-output:
 .. _bpy.types.RenderSettings.filepath:
+.. _bpy.types.RenderSettings.use_overwrite:
+.. _bpy.types.RenderSettings.use_placeholder:
+.. _bpy.types.RenderSettings.use_file_extension:
+.. _bpy.types.RenderSettings.use_render_cache:
 
 Output Panel
 ============
@@ -93,8 +91,16 @@ Cache Result
    Saves the rendered image and passes to a Multilayer EXR-file in temporary location on your hard drive.
    This allows the compositor to read these to improve performance, especially for heavy compositing.
 Output Format
-   Choose the file format to save to.
-   Based on which format is used, other options such as channels, bit-depth and compression level are available.
+   Choose the file format to save to. Based on which format is used,
+   other options such as channels, bit-depth and compression level are available.
+   
+   For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`
+   for rendering to videos see :doc:`rendering to videos </render/output/video>`
+Color Mode
+   Choose the color format to save the image to.
+   Note that *RGBA* will not be avaible for all image formats.
+   
+   BW, RGB, RGBA
 
 .. hint:: Primitive Render-Farm
 

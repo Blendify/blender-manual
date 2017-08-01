@@ -61,6 +61,7 @@ so it is well worth doing test encodes to make sure that text remains legible. A
 a TV network or client might have their own rules on minimum text size and positioning,
 so always seek clarification when unsure.
 
+
 .. _bpy.types.FFmpegSettings:
 
 Encoding Panel
