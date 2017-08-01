@@ -27,6 +27,7 @@ Platform Dependent Paths
 Here are the default locations for each system:
 
 .. note::
+
    The path ``./|BLENDER_VERSION|/`` is relative to the Blender executable &
    used for self-contained bundles distributed by official blender.org builds.
 
@@ -42,6 +43,7 @@ SYSTEM
    .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
 
 .. note::
+
    The **USER** path will use ``$XDG_CONFIG_HOME`` if its set:
 
    .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/

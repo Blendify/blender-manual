@@ -27,6 +27,7 @@ Scene
    (pre-compositing and pre-sequencing).
 
    .. hint::
+
       To use composited footage from another scene, it has to be rendered into a multilayer e.g. ``OpenEXR`` frameset
       as an intermediate file store and then imported with Image input node again.
 

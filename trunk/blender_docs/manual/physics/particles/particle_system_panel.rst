@@ -9,7 +9,7 @@ Particle System Panel
 
 Active Particle System
    The :ref:`List View <ui-list-view>` of the objects Particle Modifier(s).
-   
+
    Specials
       Copy Active to Selected Objects
          Copies the active particle system to all selected objects.

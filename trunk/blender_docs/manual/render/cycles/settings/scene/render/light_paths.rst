@@ -55,7 +55,7 @@ special treatment. When a ray passes through it, light passes straight on,
 as if there was no geometry there.
 The ray type does not change when passing through a transparent BSDF.
 
-Alpha pass output is also different for the transparent 
+Alpha pass output is also different for the transparent
 :abbr:`BSDF (Bidirectional scattering distribution function)`. Other transmission
 :abbr:`BSDF (Bidirectional scattering distribution function)`\ s are considered opaque,
 because they change the light direction. As such they cannot be used for
