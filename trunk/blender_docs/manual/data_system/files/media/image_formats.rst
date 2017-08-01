@@ -20,7 +20,7 @@ This is the list of image file formats supported internally by Blender:
    :widths: 25 25 10 10 10 20
 
    * - Format
-     - `Channel Depth`_
+     - Channel Depth
      - Alpha
      - :doc:`Metadata </render/output/metadata>`
      - DPI
@@ -101,49 +101,61 @@ This is the list of image file formats supported internally by Blender:
    *All these formats support compression which can be important when rendering out animations.*
 
 
-Channel Depth
--------------
+Opening Images
+==============
 
-Image file formats support a varying number of bits per pixel.
-This affects the color quality and file-size.
-
-Commonly used depths:
-
-8 bit (256 levels)
-   Most common for on-screen graphics and video
-10, 12, 16 bit (1024, 4096, 65536 levels)
-   Used for some formats focusing on photography and digital films
-   (such as DPX and JPEG 2000).
-16 bit half float
-   Since full 32bit float is often more than enough precision,
-   half float can save drive space while still providing a high dynamic range.
-32 bit float
-   Highest quality color depth.
-
-Internally Blender's image system supports either:
-
-- 8 bit per channel (4 x 8 bits).
-- 32 bit float per channel (4 x 32 bits) - *using 4x as much memory.*
-
-Images higher than 8 bits per channel will be converted into a float on loading into Blender.
-
-.. note::
-
-   Floating point is often used for :term:`HDRI`.
-
-   When an image has float colors, all imaging functions in Blender default to use that.
-   This includes the Video Sequence Editor, texture mapping, background images,
-   and the Compositor.
+Relative Path
+   Sets the file path to be relative to the currently open blend-file.
+Detect Sequences
+   Automatically detects animated image sequences in the selected images (based on file name).
 
 
-Export
-------
+.. _bpy.types.ImageFormatSettings:
 
+Saving Images
+=============
+
+File Format
+   Choose what format to save the image as.
+Color Mode
+   Choose the color format to save the image (or video) to.
+   Note that *RGBA* is not avaible for all image formats, check the list above for details.
+      
+   BW, RGB, RGBA
+Color Depth
+   Image file formats support a varying number of bits per pixel.
+   This affects the color quality and file-size. Commonly used depths:
+
+   8 bit (256 levels)
+      Most common for on-screen graphics and video
+   10, 12, 16 bit (1024, 4096, 65536 levels)
+      Used for some formats focusing on photography and digital films
+      (such as DPX and JPEG 2000).
+   16 bit half float
+      Since full 32bit float is often more than enough precision,
+      half float can save drive space while still providing a high dynamic range.
+   32 bit float
+      Highest quality color depth.
+
+    .. note::
+
+       Internally Blender's image system supports either:
+
+       - 8 bit per channel (4 x 8 bits).
+       - 32 bit float per channel (4 x 32 bits) - *using 4x as much memory.*
+
+       Images higher than 8 bits per channel will be converted into a float on loading into Blender.
+Compression
+    Used to reduce the size of the image file. How this is done may vary depending on the
+    file format and settings used.
+Quality
+   Similar to *Compression* but is used for JPEG based file formats.
+   The quality is a percentage, 0% being the maximum amount of compression and 100% is no compression.
 Save As Render
-   ToDo.
+  Applies :doc:`color transform </render/post_process/color_management>` to the saved image.
 Copy
-   The Copy checkbox will define if the data-block will reference the newly created file
-   or the reference will be unchanged, maintaining it with the original one.
+  The Copy checkbox will define if the data-block will reference the newly created file
+  or the reference will be unchanged, maintaining it with the original one.
 
 
 Format Details
@@ -164,8 +176,8 @@ and 1.0 (as a result of rendering or composite).
 OpenEXR
 -------
 
-`ILM's OpenEXR <http://www.openexr.com/>`__ has become a software industry standard for HDR image files,
-especially because of its flexible and expandable structure.
+`ILM's OpenEXR <http://www.openexr.com/>`__ has become a software industry standard
+for HDR image files, especially because of its flexible and expandable structure.
 
 An OpenEXR file can store multiple layers and passes.
 This means OpenEXR images can be loaded into a compositor keeping render layers, passes intact.
