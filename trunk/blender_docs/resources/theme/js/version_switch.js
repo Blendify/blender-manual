@@ -17,8 +17,8 @@ var all_langs = {
 	"pt": "Portugu&ecirc;s",
 	"ru": "&#x3A1;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;",
 	"uk": "Ukra&#1111;na",
-	"zh.cn": "&#x4E2D;&#x6587;(&#x7B80;&#x4F53;)",
-	"zh.tw": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)"
+	"zh-hans": "&#x4E2D;&#x6587;(&#x7B80;&#x4F53;)",
+	"zh-hant": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)"
 };
 
 var Drop=function(){
