@@ -54,14 +54,14 @@ Hide Unselected :kbd:`Shift-H`
 Convert To
 ==========
 
-Curve to Mesh/Text
-------------------
+Curve from Mesh/Text
+--------------------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Convert to --> Curve From Mesh/Text`
+   | Menu:     :menuselection:`Object --> Convert to --> Curve from Mesh/Text`
    | Hotkey:   :kbd:`Alt-C`
 
 Mesh objects and text objects can be converted into curve objects.
@@ -70,14 +70,14 @@ The resulting curve will be a Poly curve type,
 but can be converted to have smooth segments as described in :ref:`curve-convert-type`.
 
 
-Mesh to Curve/Metaball/Surface/Text
------------------------------------
+Mesh from Curve/Metaball/Surface/Text
+-------------------------------------
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Convert to --> Mesh From Curve/Metaball/Surface/Text`
+   | Menu:     :menuselection:`Object --> Convert to --> Mesh from Curve/Metaball/Surface/Text`
    | Hotkey:   :kbd:`Alt-C`
 
 
