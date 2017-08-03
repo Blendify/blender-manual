@@ -189,7 +189,7 @@ Viscosity Presets
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
    ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\, which gives a kinematic viscosity of
    0.000001002 m\ :sup:`2`\.s\ :sup:`-1` -- so the entry would be 1.002 times 10 to the minus six
-   (1.002×10\ :sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
+   (1.002×10\ :sup:`-6` in scientific notation). Hot Glass and melting iron are fluids, but very thick;
    you should enter something like 1.0×10\ :sup:`0` (= 1.0) as its kinematic viscosity
    (indicating a value of 1.0×10\ :sup:`6`\ cP).
 

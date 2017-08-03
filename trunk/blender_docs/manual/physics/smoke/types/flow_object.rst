@@ -62,10 +62,10 @@ Source
       can add smoke.
       See :doc:`Particles </physics/particles/introduction>` for information on how to create a particle system.
 
-      With this option selected there is a box to select a particle system and one addition setting, *Set Size*.
+      With this option selected, there is a box to select a particle system and one addition setting, *Set Size*.
 
          Set Size
-            When this setting is enabled it allows the *Size* setting to define
+            When this setting is enabled, it allows the *Size* setting to define
             the maximum distance in voxels at which particles can emit smoke,
             similar to the :ref:`*Surface* <smoke-flow-surface>` setting for mesh sources.
 

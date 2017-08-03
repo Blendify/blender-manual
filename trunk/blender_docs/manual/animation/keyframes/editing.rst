@@ -76,7 +76,7 @@ Editing Keyframes
 
 Keyframes can be edited in two editors. To do so go to either the
 :doc:`Graph Editor </editors/graph_editor/index>`
-or the :doc:`Dopesheet </editors/dope_sheet/index>`.
+or the :doc:`Dope Sheet </editors/dope_sheet/index>`.
 
 
 Examples

@@ -4,7 +4,7 @@ Exterior
 ********
 
 Exterior forces are applied to the vertices (and nearly exclusively to the vertices)
-of Soft Body objects. This is done using Newtons Laws of Physics:
+of Soft Body objects. This is done using Newton's Laws of Physics:
 
 - If there is no force on a vertex, it stays either unmoved or moves with constant speed in a straight line.
 - The acceleration of a vertex depends on its mass and the force.
@@ -77,7 +77,7 @@ So if you use a *Harmonic* field for particles move the Soft body to another lay
 See the section :doc:`Force Fields </physics/force_fields/index>` for details.
 The force fields are quite strong,
 a *Spherical* field with a strength of -1.0 has the same effect that gravity has --
-approximately -- a force of 10 Newton.
+approximately -- a force of 10 Newtons.
 
 
 Aerodynamics

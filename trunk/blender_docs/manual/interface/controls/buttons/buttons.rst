@@ -34,7 +34,7 @@ by :doc:`standard </interface/common_shortcuts>` text editing.
 Search fields show a magnifying glass icon on the left side. Start typing in the field to search.
 Only items with matching text will be shown.
 
-For text fields with an icon and gray pop-up see :ref:`ui-data-id`.
+For text fields with an icon and gray pop-up, see :ref:`ui-data-id`.
 
 
 Color Buttons
@@ -51,4 +51,4 @@ The color button stores a color value shown in its background.
 :kbd:`LMB` color buttons opens the :doc:`/interface/controls/templates/color_picker`.
 Color buttons with an alpha channel are divided in half: On the left the color is shown without an alpha channel and
 on the right the color with an alpha channel drawn over a checker pattern.
-Colors can be drag and dropped.
+Colors can be dragged and dropped.

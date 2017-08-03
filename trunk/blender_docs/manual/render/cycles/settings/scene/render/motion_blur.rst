@@ -52,7 +52,7 @@ Shutter Curve
 Shutter Type
    Replicates CMOS cameras by rendering a rolling shutter effect using scanlines.
 
-   - Top Bottom: Renders rolling shutter from the top of the image from the bottom.
+   - Top Bottom: Renders rolling shutter from the top of the image to the bottom.
 
 Rolling Shutter Duration
    Controls balance between pure rolling shutter effect and pure motion blur effect.
@@ -82,7 +82,7 @@ Film
 Exposure
    This can be used to change the brightness of an image.
    Different then the *Exposure* option found in the :ref:`Color management <render-post-color-management>`
-   panel this exposure option works  is *on the data* while the Color management exposure is *on the view*.
+   panel this exposure option works is *on the data* while the Color management exposure is *on the view*.
 Transparent
   ToDo
 Pixel Filter
