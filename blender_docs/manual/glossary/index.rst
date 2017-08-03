@@ -696,7 +696,7 @@ This page lists definitions for terms used in Blender and this manual.
       based on its angle to lights and its distance from lights to create a photorealistic effect.
 
    Smoothing
-      Defines how :term:`faces <face>` are shaded. Face can be either solid (faces are rendered flat)
+      Defines how :term:`faces <face>` are shaded. Faces can be either solid (faces are rendered flat)
       or smooth (faces are smoothed by interpolating the normal on every point of the face).
 
    Specular Light

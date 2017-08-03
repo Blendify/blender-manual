@@ -89,10 +89,10 @@ compatibility across platforms, and playback quality.
 Presets
    You can use the presets, which choose optimum settings for you for that type of output.
 Container
-   Video container or file type. For a list of all available options see
+   Video container or file type. For a list of all available options, see
    :doc:`video formats </data_system/files/media/video_formats>`.
 Autosplit Output
-   If your video is huge and exceeds 2Gig, enable Autosplit Output.
+   If your video is huge and exceeds 2GiB, enable Autosplit Output.
    This will automatically split the output into multiple files after the first file is 2Gig.
 Codec
    Chooses the method of compression and encoding.
@@ -102,7 +102,7 @@ Codec
 
    Some containers and codecs are not compatible with each other,
    so if you are getting errors check that your container and codec are compatible.
-   Like containers and codecs are sometime not compatible with each other some codecs
+   Like containers and codecs are sometimes not compatible with each other, some codecs
    do not work with arbitrary dimensions. So, try to stick with common dimensions
    or research the limitations of the codec you are trying to use.
 
@@ -157,7 +157,7 @@ Audio
 -----
 
 Audio Codec
-   Audio format to use, For a list of all available options see
+   Audio format to use. For a list of all available options, see
    :doc:`video formats </data_system/files/media/video_formats>`.
 Bitrate
    For each codec, you can control the bitrate (quality) of the sound in the movie.

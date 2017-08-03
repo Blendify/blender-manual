@@ -160,7 +160,7 @@ Size
    Note however, that chars with different fonts (different styles, see below) might have different visible sizes.
 Shear
    Controls the inclination of the whole text.
-   Different to as it may seems, this is not similar to italics style.
+   Different to as it may seem, this is not similar to italics style.
 
    .. figure:: /images/modeling_text_properties_shear-example.png
       :width: 300px
@@ -267,7 +267,7 @@ The *Paragraph* Panel has settings for the alignment and spacing of text.
 .. figure:: /images/modeling_text_properties_paragraph-settings.png
    :width: 300px
 
-   The paragraph tab.
+   The Paragraph tab.
 
 
 Horizontal Alignment
@@ -443,7 +443,7 @@ Multiple Columns
    Text 5.
 
 
-To create two columns of text just create a text object and adjust the initial frame's
+To create two columns of text, just create a text object and adjust the initial frame's
 *Width* and *Height* to your requirements, then insert a new frame.
 The new frame will have the same size as the initial frame. Set the X position to
 something greater or less than the width of the initial frame; see Fig. :ref:`fig-texts-edit-text5`.
