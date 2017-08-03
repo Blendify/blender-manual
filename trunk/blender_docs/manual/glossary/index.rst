@@ -39,11 +39,10 @@ This page lists definitions for terms used in Blender and this manual.
          Method where RGBA channels are stored as (R × A, G × A, B × A, A),
          with the alpha multiplied into the RGB channel.
 
-         This is the natural output of render engines,
-         with the RGB channels representing the amount of light that comes toward the viewer,
-         and alpha representing how much of the light from the background is blocked.
-         The OpenEXR file format uses this alpha type.
-         So, intermediate files for rendering and compositing are often stored as premultiplied alpha.
+         This is the natural output of render engines, with the RGB channels representing the amount
+         of light that comes toward the viewer, and alpha representing how much of the light from the
+         background is blocked. The OpenEXR file format uses this alpha type. So, intermediate files
+         for rendering and compositing are often stored as premultiplied alpha.
 
 
       Conversion (Straight/Premultiplied) Alpha
@@ -52,13 +51,12 @@ This page lists definitions for terms used in Blender and this manual.
 
          Straight alpha can be considered to be an RGB color image with a separate alpha mask.
          In areas where this mask is fully transparent, there can still be colors in the RGB channels.
-         On conversion to premultiplied alpha, this mask is *applied*
-         and the colors in such areas become black and are lost.
+         On conversion to premultiplied alpha, this mask is *applied* and the colors in such areas
+         become black and are lost.
 
-         Premultiplied alpha, on the other hand, can represent renders
-         that are both emitting light and letting through light from the background.
-         For example, a transparent fire render might be emitting light,
-         but also letting through all light from objects behind it.
+         Premultiplied alpha, on the other hand, can represent renders that are both emitting light
+         and letting through light from the background. For example, a transparent fire render might
+         be emitting light, but also letting through all light from objects behind it.
          On converting to straight alpha, this effect is lost.
 
    Ambient Light
@@ -86,8 +84,8 @@ This page lists definitions for terms used in Blender and this manual.
       while W corresponds to the angle around that axis, in radians.
 
    Baking
-      The process of computing and storing the result of a potentially time-consuming calculation
-      so as to avoid needing to calculate it again.
+      The process of computing and storing the result of a potentially
+      time-consuming calculation so as to avoid needing to calculate it again.
 
    Bevel
       The operation to chamfer or bevel edges of an object.
@@ -138,12 +136,10 @@ This page lists definitions for terms used in Blender and this manual.
          Refers to the general color decomposition resulting in *Y* (Luminance) and *C* (Chrominance) channels,
          whereas the chrominance is represented by: U = ( Blue minus Luminance ) and V = ( Red minus Luminance ).
       Matte compositing
-         Refers to a point in the color gamut surrounded by a mixture
-         of a determined spectrum of its RGB neighboring colors.
-         This point is called *Chroma key* and this key
-         (a chosen color) is used to create an *Alpha Mask*.
-         The total amount of gamut space for this chrominance point is defined
-         by users in a circular or square shaped format.
+         Refers to a point in the color gamut surrounded by a mixture of a determined spectrum of its RGB
+         neighboring colors. This point is called *Chroma key* and this key (a chosen color) is used to create
+         an *Alpha Mask*. The total amount of gamut space for this chrominance point is defined by users in a
+         circular or square shaped format.
 
    Clamp
    Clamping
@@ -206,8 +202,8 @@ This page lists definitions for terms used in Blender and this manual.
       using either simple logic or complex Python scripts.
 
    Convex Face
-      Face where, if lines were drawn from each vertex to every other vertex, all lines would remain in the face.
-      Opposite of a :term:`concave face`.
+      Face where, if lines were drawn from each vertex to every other vertex,
+      all lines would remain in the face. Opposite of a :term:`concave face`.
 
    Coplanar
       Refers to any set of elements that are all aligned to the same 2D plane in 3D space.
@@ -224,12 +220,11 @@ This page lists definitions for terms used in Blender and this manual.
 
    DOF
    Depth Of Field
-      The distance in front of and behind the subject which appears to be in focus.
-      For any given lens setting, there is only one distance at which a subject is precisely in focus,
-      but focus falls off gradually on either side of that distance,
-      so there is a region in which the blurring is tolerable.
-      This region is greater behind the point of focus than it is in front,
-      as the angle of the light rays change more rapidly; they approach being parallel with increasing distance.
+      The distance in front of and behind the subject which appears to be in focus. For any given lens setting,
+      there is only one distance at which a subject is precisely in focus, but focus falls off gradually on either
+      side of that distance, so there is a region in which the blurring is tolerable. This region is greater behind
+      the point of focus than it is in front, as the angle of the light rays change more rapidly;
+      they approach being parallel with increasing distance.
 
    Diffuse Light
       Even, directed light coming off a surface.
@@ -344,11 +339,10 @@ This page lists definitions for terms used in Blender and this manual.
       - See also `Gimbal lock <https://blender.stackexchange.com/questions/469>`__ on Stackexchange.
 
    Global Illumination
-      A superset of radiosity and ray tracing.
-      The goal is to compute all possible light interactions in a given scene,
-      and thus, obtain a truly photo-realistic image.
-      All combinations of diffuse and specular reflections and transmissions must be accounted for.
-      Effects such as color bleeding and caustics must be included in a global illumination simulation.
+      A superset of :term:`radiosity` and ray tracing. The goal is to compute all possible light interactions
+      in a given scene, and thus, obtain a truly photo-realistic image. All combinations of diffuse and specular
+      reflections and transmissions must be accounted for. Effects such as color bleeding and caustics must be
+      included in a global illumination simulation.
 
    Global Space
       See :term:`World Space`.
@@ -429,13 +423,11 @@ This page lists definitions for terms used in Blender and this manual.
       or emitted from a surface per square unit in a given direction.
 
    Manifold
-      Manifold meshes, also called *water tight* meshes,
-      define a *closed non-self-intersecting volume* (see also :term:`non-manifold`).
-      A manifold mesh is a mesh in which the structure of the connected
-      faces in a closed volume will always point the normals (and there
-      surfaces) to the outside or to the inside of the mesh without any overlaps.
-      If you recalculate those normals, they will always point at
-      a predictable direction (To the outside or to the inside of the volume).
+      Manifold meshes, also called *water tight* meshes, define a *closed non-self-intersecting volume*
+      (see also :term:`non-manifold`). A manifold mesh is a mesh in which the structure of the connected
+      faces in a closed volume will always point the normals (and there surfaces) to the outside
+      or to the inside of the mesh without any overlaps. If you recalculate those normals,
+      they will always point at a predictable direction (To the outside or to the inside of the volume).
       When working with non-closed volumes, a manifold mesh is a mesh in which
       the normals will always define two different and non-consecutive surfaces.
       A manifold mesh will always define an even number of non-overlapped surfaces.
@@ -541,8 +533,8 @@ This page lists definitions for terms used in Blender and this manual.
       See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
    Oversampling
-      Is the technique of minimizing :term:`aliasing` when representing a high-resolution
-      signal at a lower resolution.
+      Is the technique of minimizing :term:`aliasing`
+      when representing a high-resolution signal at a lower resolution.
 
       Also called Anti-Aliasing.
 
@@ -612,15 +604,12 @@ This page lists definitions for terms used in Blender and this manual.
       In computer graphics, there are two common camera projections used.
 
       Perspective
-         A *perspective* view is geometrically constructed by taking a scene in 3D
-         and placing an observer at point *O*.
-         The 2D perspective scene is built by placing a plane (e.g. a sheet of paper)
-         where the 2D scene is to be drawn in front of point *O*,
-         perpendicular to the viewing direction.
-         For each point *P* in the 3D scene a *PO* line is drawn,
-         passing by *O* and *P*. The intersection point *S* between
-         this *PO* line and the plane is the perspective projection of that point.
-         By projecting all points *P* of the scene you get a perspective view.
+         A *perspective* view is geometrically constructed by taking a scene in 3D and placing an observer
+         at point *O*. The 2D perspective scene is built by placing a plane (e.g. a sheet of paper)
+         where the 2D scene is to be drawn in front of point *O*, perpendicular to the viewing direction.
+         For each point *P* in the 3D scene a *PO* line is drawn, passing by *O* and *P*.
+         The intersection point *S* between this *PO* line and the plane is the perspective projection
+         of that point. By projecting all points *P* of the scene you get a perspective view.
       Orthographic
          In an *orthographic* projection,
          you have a viewing direction but not a viewing point *O*. The line is then drawn
@@ -650,13 +639,13 @@ This page lists definitions for terms used in Blender and this manual.
 
    Raytracing
       Rendering technique that works by tracing the path taken by a ray of light through the scene,
-      and calculating reflection, refraction, or absorption of the ray whenever it intersects an object in the world.
-      More accurate than :term:`scanline`, but much slower.
+      and calculating reflection, refraction, or absorption of the ray whenever it intersects
+      an object in the world. More accurate than :term:`scanline`, but much slower.
 
    Refraction
       The change in direction of a wave due to a change in velocity.
-      It happens when waves travel from a medium with a given :term:`index of refraction` to a medium with another.
-      At the boundary between the media, the wave changes direction;
+      It happens when waves travel from a medium with a given :term:`index of refraction`
+      to a medium with another. At the boundary between the media, the wave changes direction;
       its wavelength increases or decreases but frequency remains constant.
 
    Render
@@ -706,11 +695,11 @@ This page lists definitions for terms used in Blender and this manual.
    Straight Alpha
       See :term:`Alpha Channel`.
 
+   SSS
    Subsurface Scattering
       Mechanism of light transport in which light penetrates the surface of a translucent object,
       is scattered by interacting with the material, and exits the surface at a different point.
-      All non-metallic materials are translucent to some degree.
-      In particular, materials such as marble, skin,
+      All non-metallic materials are translucent to some degree. In particular, materials such as marble, skin,
       and milk are extremely difficult to simulate realistically without taking subsurface scattering into account.
 
    Subdividing
@@ -721,8 +710,6 @@ This page lists definitions for terms used in Blender and this manual.
    Subsurf
    Subdivision Surface
       A method of creating smooth higher poly surfaces which can take a low polygon mesh as input.
-
-      Sometimes abbreviated to **Subsurf**.
 
       See also
       `Catmull-Clark subdivision surface <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
@@ -760,7 +747,7 @@ This page lists definitions for terms used in Blender and this manual.
    Triangle
       :term:`Face` with exactly three :term:`vertices <vertex>`.
 
-   UV map
+   UV Map
       Defines a relation between the surface of a mesh and a 2D texture. In detail,
       each face of the mesh is mapped to a corresponding face on the texture.
       It is possible and often common practice to map several faces of the mesh to the same
