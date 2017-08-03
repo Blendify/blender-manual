@@ -1,5 +1,4 @@
 .. _bpy.types.Image:
-.. _bpy.types.ImageFormatSettings:
 .. _bpy.ops.image:
 
 **************************
