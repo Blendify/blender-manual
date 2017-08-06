@@ -99,7 +99,7 @@ Select to Active
 .. note:: Memory Usage
 
    There is a CPU fixed memory footprint for every object used to bake from.
-   In order to avoid crashes due to lack of memory the highpoly objects can be joined before the baking process.
+   In order to avoid crashes due to lack of memory, the highpoly objects can be joined before the baking process.
    The render tiles parameter also influence the memory usage, so the bigger the tile the less overhead you have,
    but the more memory it will take during baking (either in GPU or CPU).
 

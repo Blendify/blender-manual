@@ -118,7 +118,7 @@ File Format
    Choose what format to save the image as.
 Color Mode
    Choose the color format to save the image (or video) to.
-   Note that *RGBA* is not avaible for all image formats, check the list above for details.
+   Note that *RGBA* is not available for all image formats, check the list above for details.
       
    BW, RGB, RGBA
 Color Depth

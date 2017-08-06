@@ -119,7 +119,7 @@ Axes
 X-Ray
    When enabled, the bones of the armature will always be drawn on top of the solid objects
    (meshes, surfaces, ...) -- i.e. they will always be visible and selectable
-   (this is the same option as the one found in the *Display* panel of the *Object data* tab.
+   (this is the same option as the one found in the *Display* panel of the *Object data* tab).
    Very useful when not in *Wireframe* mode.
 Shapes
    When enabled, the default standard bone shape is replaced,
