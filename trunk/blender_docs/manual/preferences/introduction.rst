@@ -44,20 +44,9 @@ Save User Settings
 
 Once you have set your preferences, you will need to manually save them,
 otherwise the new configuration will be lost after a restart.
-Blender saves its preferences to *userpref.blend* in your user folder
-(see next section, "Load Factory Settings", for details).
 
 In the *User Preferences* editor, click on the *Save User Settings* button in the bottom left.
 This will save all of the new preferences.
-
-
-.. _factory-settings:
-
-Load Factory Settings
-=====================
-
-Go to :menuselection:`File --> Load Factory Settings`
-then save the preferences via the *User Preferences* editor.
 
 .. hint::
 
@@ -65,3 +54,15 @@ then save the preferences via the *User Preferences* editor.
 
    See the :doc:`directory layout </getting_started/installing/configuration/directories>`
    section to see where your preferences are stored.
+
+
+.. _factory-settings:
+
+Load Factory Settings
+=====================
+
+Use this to restore the default configuration,
+note that no permanent changes are made until you save the preferences.
+
+Go to :menuselection:`File --> Load Factory Settings`
+then optionally save the preferences via the *User Preferences* editor.
