@@ -265,7 +265,7 @@ Cylinder and Sphere Projection
 .. figure:: /images/editors_uv_image_uv_editing_unwrapping_sphere-projection.png
    :width: 350px
 
-   Using a Mercator image with a Sphere Projection.
+   Using an equirectangular image with a Sphere Projection.
 
 
 Cylindrical and Spherical mappings have the same settings. The difference is that a
@@ -282,9 +282,9 @@ This same idea works for the sphere mapping:
 Recall the opening cartographer's approaching to mapping the world? Well,
 you can achieve the same here when unwrapping a sphere from different perspectives. Normally,
 to unwrap a sphere, view the sphere with the poles at the top and bottom. After unwrapping,
-Blender will give you a Mercator projection;
+Blender will give you an equirectangular projection;
 the point at the equator facing you will be in the middle of the image.
-A polar view will give a very different but common projection map. Using a Mercator projection
+A polar view will give a very different but common projection map. Using an equirectangular projection
 map of the earth as the UV image will give a very nice planet mapping onto the sphere.
 
 
