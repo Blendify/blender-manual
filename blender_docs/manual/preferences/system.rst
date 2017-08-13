@@ -98,21 +98,19 @@ Wait Timer
 Compute Device
 ==============
 
-The Options here will set the compute device used by the Cycles render engine.
+The *Compute Device* option allows the user to change the computing device the
+:doc:`Cycles </render/cycles/index` render engine uses to render images.
+Cycles can use either the CPU or certain GPU's to render images,
+for more information see the :doc:`GPU Rendering </render/cycles/gpu_rendering>` page.
 
 None
    When set to *None* or the only option is *None*:
-   your CPU will be used as a computing device for Cycles Render Engine.
+   the CPU will be used as the computing device for the Cycles Render Engine.
 CUDA
    If the system has a compatible Nvidia CUDA enabled graphics card you will be able
    to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
 OpenCL
-   If the system has a compatible OpenCL device, it will show up an option for rendering with Cycles.
-
-   .. note::
-
-      That currently has limited support. See:
-      :doc:`Cycles Features </render/cycles/features>` page for more information.
+   If the system has a compatible AMD OpenCL device, it will show up an option for rendering with Cycles.
 
 
 .. _prefs-system-opensubdiv:
