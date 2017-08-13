@@ -17,7 +17,7 @@ var all_langs = {
 	"nb": "Norsk Bokm&#x00E5;l",
 	"pt": "Portugu&ecirc;s",
 	"ru": "&#x3A1;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;",
-	"fi": "Suomalainen",
+	"fi": "Suomeksi",
 	"uk": "Ukra&#1111;na",
 	"zh-hans": "&#x4E2D;&#x6587;(&#x7B80;&#x4F53;)",
 	"zh-hant": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)"
