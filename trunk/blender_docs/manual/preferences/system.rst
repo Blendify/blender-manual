@@ -104,7 +104,7 @@ Cycles can use either the CPU or certain GPU's to render images,
 for more information see the :doc:`GPU Rendering </render/cycles/gpu_rendering>` page.
 
 None
-   When set to *None* or the only option is *None*:
+   When set to *None* or when the only option is *None*:
    the CPU will be used as the computing device for the Cycles Render Engine.
 CUDA
    If the system has a compatible Nvidia CUDA enabled graphics card you will be able
