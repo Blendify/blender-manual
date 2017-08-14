@@ -60,8 +60,8 @@ Pin and Unpin
 You can pin UVs so they do not move between multiple unwrap operations.
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
 so that parts of a UV layout stay the same shape, and/or in the same place.
-Pinning is done selecting a UV, then by selecting *Pin* from the *UVs* menu,
-or the shortcut :kbd:`P`. You can *Unpin a UV* with the shorctut :kbd:`Alt-P`
+Pinning is done by selecting a UV, then selecting *Pin* from the *UVs* menu,
+or the shortcut :kbd:`P`. You can *Unpin a UV* with the shortcut :kbd:`Alt-P`
 
 Pinning is most effective when using the Unwrap method of UV mapping, for organic objects.
 An example is when you are modeling a symmetrical object using the
@@ -193,7 +193,7 @@ or hold the :kbd:`MMB` and drag in the mirror direction.
 Snapping
 ========
 
-Snapping in UV/image editor is similar to
+Snapping in the UV/image editor is similar to
 :doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/snap>`.
 For the snap to pixel options to work an image has to be loaded.
 
