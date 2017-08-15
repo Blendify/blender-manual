@@ -18,7 +18,7 @@ While object positions, vertex locations are not clamped, larger values become i
 
 To get an idea of the precision you can work with using different scales.
 
-Heres a table of scales and their associated accuracy.
+Here's a table of scales and their associated accuracy.
 
 .. # Python script used to generate the values below
    import ctypes
