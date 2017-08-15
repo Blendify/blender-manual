@@ -254,7 +254,7 @@ This may, or not, be desired according to the situation.
 
 .. figure:: /images/bge-physics-recordanimation.png
 
-   Menu to record Keyframes to the Dopesheet.
+   Menu to record Keyframes to the Dope Sheet.
 
 All you have to do to achieve this effect is go to the Info Editor
 (the bar at the top of the window) :menuselection:`Game --> Record Animation`,
@@ -273,7 +273,7 @@ Keyframe Clean-up
    Resulting recorded animation.
 
 *Record Animation* keys redundant data (data that was did not change relative to the last frame).
-Pressing :kbd:`O` while in the *DopeSheet* will remove all superfluous keyframes.
+Pressing :kbd:`O` while in the *Dope Sheet* will remove all superfluous keyframes.
 Unwanted channels can also be removed.
 
 .. figure:: /images/bge-physics-dopesheetcleaned.png

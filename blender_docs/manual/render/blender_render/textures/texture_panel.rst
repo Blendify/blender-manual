@@ -17,10 +17,10 @@ Texture Context
       :doc:`World Background </render/blender_render/world/world_panel>`.
    Material/Lamp
       Material type is described in the following section.
-      :doc:`/render/blender_render/lighting/lights/textures` in the lightning section.
+      :doc:`/render/blender_render/lighting/lights/textures` in the lighting section.
    Brush
       Brush textures are applied in :doc:`/sculpt_paint/index`.
-
+ 
 
 Textures Stack
 ==============
