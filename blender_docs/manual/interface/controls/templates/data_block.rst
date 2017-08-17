@@ -20,14 +20,14 @@ Type
    into a :ref:`ui-data-id` field.
 
    List
-      A list of data-block available in the current blend-file or link in to select an item from.
+      A list of data-blocks available in the current blend-file, or a link to select an item from.
       The menu may show a preview besides the items and
       a search box to search the items in the list by name.
 Name
    Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
-   If a name already is in assigned Blender will add a digit to the name like ".001".
+   If a name is already assigned, Blender will add a digit to the name like ".001".
 User count
-   Displays the number of users of the data. Clicking on it to make it a single-user copy,
+   Displays the number of users of the data. Clicking on it will make it a single-user copy,
    with it linked only to the active object/object's data.
 Fake User ``F``
    Keeps the data-block saved in the blend-file, even if it has no real users.
@@ -38,7 +38,7 @@ Open file
 Unpack file
    :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to external ones.
 Unlink data-block ``X``
-   Clears the link, :kbd:`Shift-LMB` to set the users to zero
+   Clears the link. :kbd:`Shift-LMB` to set the users to zero
    allowing the data to be fully deleted from the blend-file.
 
 Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
@@ -94,10 +94,10 @@ Sub IDs
 .. figure:: /images/interface_controls_templates_data_subids.png
 
 Vertex Group
-   If selected object in the *Name* field is a mesh or a lattice,
+   If the selected object in the *Name* field is a mesh or a lattice,
    an additional field is displayed where a vertex group can be selected.
 Bone
-   If selected object in the *Name* field is an armature,
+   If the selected object in the *Name* field is an armature,
    a new field is displayed offering the choice to specify
    an individual bone by entering its name in the *Bone* data ID.
 
