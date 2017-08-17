@@ -11,7 +11,7 @@ List Views
    :align: right
 
 This control is useful to manage lists of items.
-They can be found in example in the object data properties.
+They can be found, for example, in the object data properties.
 
 Select
    To select an item, :kbd:`LMB` on it.
@@ -46,15 +46,13 @@ On the right of the list view are additional buttons:
 Add ``+``
    Adds a new item.
 Remove ``-``
-   To remove the selected item.
+   Removes the selected item.
 Specials
    A :ref:`Specials <ui-specials-menu>` menu with operators context-sensitive to the item type.
    e.g. copy paste, or operations on all items.
 
-Move Up
-   The button showing an up arrow moves the selected item up one position.
-Move Down
-   The down arrow moves the item down.
+Move (up/down arrow icon)
+   Moves the selected item up/down one position.
 
 
 .. _ui-presets:
@@ -70,12 +68,10 @@ Presets
 .. Share between properties. i.e different nodes color presets.
 
 Selector
-   A list of available presets. A selection will overrides the included properties.
+   A list of available presets. A selection will override the included properties.
 Add ``+``
-   New presets can be added based on the in the preset included properties,
-   which will be saved for later reuse.
-   A pop-up opens where you can set a name
-   after which you can select it from the list and
+   New presets can be added based on a predefined set of properties, which will be saved for later reuse.
+   A pop-up opens where you can set a name after which you can select it from the list and
    in some cases additional settings.
 Remove ``-``
    Deletes the selected preset.

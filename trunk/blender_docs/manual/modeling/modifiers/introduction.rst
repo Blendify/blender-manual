@@ -55,7 +55,7 @@ each modifier's interface has the same basic components, see Fig. :ref:`fig-modi
 At the top is the *panel header*.
 The icons each represent different settings for the modifier (left to right):
 
-Expand (down/right arrow)
+Expand (down/right arrow icon)
    Collapse modifier to show only the header and not its options.
 Type
    An icon as a quick visual reference of the modifier's type.
@@ -70,7 +70,7 @@ Show in Edit Mode (box icon)
    Displays the modified geometry in Edit Mode, as well as the original geometry which you can edit.
 Show on cage (triangle icon)
    When enabled, the final modified geometry will be shown in Edit Mode and can be edited directly.
-Move (up/down arrow)
+Move (up/down arrow icon)
    Moves modifier up/down in the stack.
 Delete ``X``
    Deletes the modifier.
