@@ -44,7 +44,7 @@ Multi-Value Editing
 
    Multi-value editing.
 
-Number buttons can be edited multiple values at once (object scale or render resolution for example).
+Number buttons can edit multiple values at once (object scale or render resolution for example).
 This can be done by clicking on the button and dragging vertically to include buttons above/below.
 After the vertical motion you can drag from side to side, or release the :kbd:`LMB` to type in a value.
 
@@ -52,8 +52,8 @@ After the vertical motion you can drag from side to side, or release the :kbd:`L
 Limits
 ======
 
-Most *Number Buttons* has two types of "limits" imposed on them. The first of these is a "soft limit",
-this means that the property cannot surpassed the value of the "soft limit" without having to :kbd:`LMB`
+Most *Number Buttons* have two types of "limits" imposed on them. The first of these is a "soft limit",
+this means that the property cannot surpass the value of the "soft limit" without having to :kbd:`LMB`
 and input the value with the :kbd:`Numpad`. The second is the "hard limit",
 this is the value that cannot be surpassed even by :kbd:`LMB` and inputing a value.
 

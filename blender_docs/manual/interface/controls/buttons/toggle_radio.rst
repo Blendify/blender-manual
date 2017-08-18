@@ -13,7 +13,7 @@ Checkboxes & Toggle Buttons
 These buttons are used to activate or deactivate options. Use :kbd:`LMB` to change their state.
 
 On checkboxes a tick is shown when the option is activated.
-Toggle buttons are used to set an on/off status. When state is on, they appear like pressed (dark).
+Toggle buttons are used to set an on/off status. When state is on, they appear pressed (dark).
 Clicking this type of button will toggle a state but will not perform any operation.
 Some toggle buttons have an icon version for each state.
 
