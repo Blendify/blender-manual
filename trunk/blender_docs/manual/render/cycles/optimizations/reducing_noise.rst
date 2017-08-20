@@ -41,8 +41,9 @@ or in the direction of known light sources (lamps, emitting meshes with Sample a
 Where Noise Comes From
 ======================
 
-To understand where noise can come from, take for example this scene.
-When we trace a light ray into the specified location, this is what the diffuse shader "sees".
+To understand where noise can come from, take for example the scene below.
+When we trace a light ray into the location marked by the white circle on a red dot, 
+the second image below gives an impression of what the diffuse shader "sees".
 To find the light that is reflected from this surface,
 we need to find the average color from all these pixels.
 Note the glossy highlight on the sphere,
@@ -54,14 +55,20 @@ other parts of the image and will contribute significantly to the lighting of th
    * - .. figure:: /images/cycles_noise_fisheye_reference.jpg
           :width: 180px
 
+          The Scene.
+
      - .. figure:: /images/cycles_noise_fisheye.jpg
           :width: 180px
+
+          What the Shader sees.
 
      - .. figure:: /images/cycles_noise_fisheye_hotspot.jpg
           :width: 180px
 
+          The detected Highlights.
 
-The lamp is a known light source, so it will not be too hard to find,
+
+The lamp is a known light source, so its location is already known,
 but the glossy highlight(s) that it causes are a different matter.
 The best we can do with path tracing is to distribute light rays randomly over the hemisphere,
 hoping to find all the important bright spots. If for some pixels we miss some bright spot,
@@ -72,27 +79,34 @@ With some tricks we can reduce this noise. If we blur the bright spots,
 they become bigger and less intense, making them easier to find and less noisy.
 This will not give the same exact result,
 but often it's close enough when viewed through a diffuse or soft glossy reflection.
-Below is an example of using Filter Glossy and Smooth Light Falloff.
+Below is an example of using :ref:`Filter Glossy <render-cycles-integrator-filter-glossy>`
+and :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`.
 
 .. list-table::
 
    * - .. figure:: /images/cycles_noise_fisheye_blur_reference.jpg
           :width: 180px
 
+          Using Glossy Filter & Light Falloff.
+
      - .. figure:: /images/cycles_noise_fisheye_blur.jpg
           :width: 180px
+
+          What the Shader sees.
 
      - .. figure:: /images/cycles_noise_fisheye_blur_hotspot.jpg
           :width: 180px
 
+          The detected Highlights.
 
 Bounces
 =======
 
 In reality light will bounce a huge number of times due to the speed of light being very high.
 In practice more bounces will introduce more noise, and it might be good to use something like
-the Limited Global Illumination preset that uses *fewer* bounces for different shader
-types. Diffuse surfaces typically can get away with fewer bounces,
+the Limited Global Illumination preset in the :ref:`Light Paths <render-cycles-integrator-light-paths>` 
+Section that uses *fewer* bounces for different shader types. 
+Diffuse surfaces typically can get away with fewer bounces,
 while glossy surfaces need a few more,
 and transmission shaders such as glass usually need the most.
 
@@ -101,12 +115,17 @@ and transmission shaders such as glass usually need the most.
    * - .. figure:: /images/cycles_noise_0bounce.jpg
           :width: 180px
 
+          No bounces.
+
      - .. figure:: /images/cycles_noise_2bounce.jpg
           :width: 180px
+
+          2 bounces at max.
 
      - .. figure:: /images/cycles_noise_4bounce.jpg
           :width: 180px
 
+          4 bounces at max.
 
 Also important is to use shader colors that do **not** have components of value 1.0 or
 values near that; try to keep the maximum value to 0.8 or less and make your lights brighter.
@@ -132,12 +151,17 @@ Many render engines will typically disable caustics by default.
    * - .. figure:: /images/cycles_noise_reference.jpg
           :width: 180px
 
+          Default Settings.
+
      - .. figure:: /images/cycles_noise_no_caustics.jpg
           :width: 180px
+
+          Caustics Disabled.
 
      - .. figure:: /images/cycles_noise_filter_glossy.jpg
           :width: 180px
 
+          Filter Glossy > 0
 
 However, using No Caustics will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
@@ -163,20 +187,23 @@ This is a typical recipe for fireflies.
    * - .. figure:: /images/cycles_noise_falloff_hard.jpg
           :width: 180px
 
+          Hard Falloff.
+
      - .. figure:: /images/cycles_noise_falloff_soft.jpg
           :width: 180px
 
+          Soft Falloff.
 
 To reduce this problem, the :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`
 node has a *Smooth factor*, that can be used to reduce the maximum intensity
 a light can contribute to nearby surfaces. The images above show default falloff and smooth value 1.0.
 
 
-Sample as Lamp
-==============
+Multiple Importance sampling
+============================
 
-Materials with emission shaders can be configured to be *sampled as lamp*
-(:doc:`/render/cycles/materials/settings`).
+Materials with emission shaders can be configured to use 
+Multiple Importance Sampling (:doc:`/render/cycles/materials/settings`).
 This means that they will get rays sent directly towards them,
 rather than ending up there based on rays randomly bouncing around.
 For very bright mesh light sources, this can reduce noise significantly.
@@ -187,18 +214,21 @@ The optimal setting here is difficult to guess; it may be a matter of trial and 
 but often it is clear that a somewhat glowing object may be only contributing light locally,
 while a mesh light used as a lamp would need this option enabled.
 Here is an example where the emissive spheres contribute little to the lighting,
-and the image renders with slightly less noise by disabling Sample as Lamp on them.
+and the image renders with slightly less noise by disabling Multiple Importance on them.
 
 .. list-table::
 
    * - .. figure:: /images/cycles_noise_sample_lamp.jpg
           :width: 180px
 
+          Multiple Importance off.
+
      - .. figure:: /images/cycles_noise_no_sample_lamp.jpg
           :width: 180px
 
+          Multiple Importance on.
 
-The world background also has a *Sample as Lamp* (:ref:`render-cycles-integrator-world-settings`) option.
+The world background also has a *Multiple Importance* (:ref:`render-cycles-integrator-world-settings`) option.
 This is mostly useful for environment maps that have small bright spots in them, rather than being smooth.
 This option will then, in a preprocess, determine the bright spots, and send light rays directly towards them. Again,
 enabling this option may take samples away from more important light sources if it is not needed.
@@ -231,9 +261,12 @@ and on the right the render with the trick.
    * - .. figure:: /images/cycles_noise_glass_too_much_shadow.jpg
           :width: 180px
 
+          Default Glas BSDF.
+
      - .. figure:: /images/cycles_noise_glass_trick.jpg
           :width: 180px
 
+          Optimized Glass Shader.
 
 Light Portals
 =============
@@ -290,5 +323,9 @@ leaving highlights directly visible to the camera untouched.
    * - .. figure:: /images/cycles_noise_noclamp.jpg
           :width: 180px
 
+          No Clamp (0)
+
      - .. figure:: /images/cycles_noise_clamp_4.jpg
           :width: 180px
+
+          Clamp = 4
