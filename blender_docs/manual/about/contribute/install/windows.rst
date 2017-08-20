@@ -14,9 +14,15 @@ Installing Python
 =================
 
 #. Download the `Python installation package <https://www.python.org/downloads/>`__ for MS-Windows.
-   In this guide version 3.5.x is used.
+   In this guide version 3.6.x is used.
 #. Install Python with the installation wizard.
-   In this guide the default settings are used.
+   Please make sure that you enable the "Add Python to Path" option:
+   
+   .. figure:: /images/about_contribute_install_windows.png
+   
+      The Option must be enabled so you can use the command box!   
+
+   All other settings can remain as set by default.
 
 
 Installing SVN and Downloading the Repository
