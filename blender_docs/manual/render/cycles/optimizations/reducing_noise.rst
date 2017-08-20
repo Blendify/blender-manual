@@ -22,7 +22,6 @@ compared to e.g. bidirectional path tracing.
 
 .. figure:: /images/render_cycles_settings_light-path-rays.png
 
-
 We do the inverse of what reality does,
 tracing light rays from the camera into the scene and onto lights,
 rather than from the light sources into the scene and then into the camera.
@@ -100,6 +99,7 @@ and :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`.
 
           The detected Highlights.
 
+
 Bounces
 =======
 
@@ -121,12 +121,12 @@ and transmission shaders such as glass usually need the most.
      - .. figure:: /images/cycles_noise_2bounce.jpg
           :width: 180px
 
-          2 bounces at max.
+          Two bounces at max.
 
      - .. figure:: /images/cycles_noise_4bounce.jpg
           :width: 180px
 
-          4 bounces at max.
+          Four bounces at max.
 
 Also important is to use shader colors that do **not** have components of value 1.0 or
 values near that; try to keep the maximum value to 0.8 or less and make your lights brighter.
@@ -162,7 +162,7 @@ Many render engines will typically disable caustics by default.
      - .. figure:: /images/cycles_noise_filter_glossy.jpg
           :width: 180px
 
-          Filter Glossy > 0
+          Filter Glossy greater zero.
 
 However, using No Caustics will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
@@ -269,6 +269,7 @@ and on the right the render with the trick.
 
           Optimized Glass Shader.
 
+
 Light Portals
 =============
 
@@ -324,9 +325,9 @@ leaving highlights directly visible to the camera untouched.
    * - .. figure:: /images/cycles_noise_noclamp.jpg
           :width: 180px
 
-          No Clamp (0)
+          No Clamp (0).
 
      - .. figure:: /images/cycles_noise_clamp_4.jpg
           :width: 180px
 
-          Clamp = 4
+          Clamp is set to 4.
