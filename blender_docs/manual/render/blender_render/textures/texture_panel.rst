@@ -20,7 +20,7 @@ Texture Context
       :doc:`/render/blender_render/lighting/lights/textures` in the lighting section.
    Brush
       Brush textures are applied in :doc:`/sculpt_paint/index`.
- 
+
 
 Textures Stack
 ==============

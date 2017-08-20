@@ -58,7 +58,7 @@ These settings are per-brush settings that are applied after each stroke is draw
 These are per-brush settings so that you can apply varying properties to different types of brushes.
 E.g higher smoothing and/or subdivision for final "beauty",
 and less smoothing/subdivision for initial "blocking" strokes.
- 
+
 Smooth
    Defines how much smoothing is applied (using the same method as the "Smooth" Brush).
    It is used to get rid of jagged edges and jitter/hand shake.
