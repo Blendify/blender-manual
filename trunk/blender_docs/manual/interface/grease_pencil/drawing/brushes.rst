@@ -20,14 +20,14 @@ Brushes
 Thickness
    Width of full pressure strokes in pixels constant to the viewport i.e. not affected by the zoom.
    The thickness can be lower depending of the pressure.
-Sensibility
-   Adjust the sensibility of the thickness to the pressure of the pencil on the tablet.
-   This pressure can be disabled using the right small button.
+Sensitivity
+   Adjust the sensitivity of the thickness to the pressure of the pen on the tablet.
+   The pressure can be disabled by clicking the small button to the right.
 Strength
-   Similar to sensibility, but affect the alpha value of the color.
-   This parameter allows to get effects as color fading or watercolor.
+   Similar to sensitivity, but affect the alpha value of the color.
+   This parameter gives the effect of color fading or watercolor.
 Randomness
-   The properties for *Sensibility* and *Strength* additionally have a randomness factor which
+   The properties for *Sensitivity* and *Strength* additionally have a randomness factor which
    can be enabled using the jagged line icon to the right of the number sliders.
 
 Jitter
@@ -37,13 +37,13 @@ Angle
    Any change in the direction will change the thickness.
 
    Factor
-      Defines the effect for drawing angle changes in the thickness.
+      Defines the effect for drawing angle changes in thickness.
 
    .. tip::
 
-      The *Angle* and *Angle Factor* parameters allow to create drawing brushes such as markers
-      that change the thickness depending of the angle of drawing.
-      This gets a more artistic drawing and less "computer" lines.
+      The *Angle* and *Angle Factor* parameters allow you to create drawing brushes such as markers
+      that change the thickness depending on the angle of drawing.
+      This can help create a more natural-looking line.
 
 .. figure:: /images/interface_grease-pencil_drawing_brushes.png
 
@@ -55,10 +55,10 @@ Stoke Quality
 
 These settings are per-brush settings that are applied after each stroke is drawn
 (when converting from 2D/screen space coordinates to 3D/data space coordinates).
-These are per-brush settings so that you can apply varying proprieties to different types of brushes.
+These are per-brush settings so that you can apply varying properties to different types of brushes.
 E.g higher smoothing and/or subdivision for final "beauty",
 and less smoothing/subdivision for initial "blocking" strokes.
-
+ 
 Smooth
    Defines how much smoothing is applied (using the same method as the "Smooth" Brush).
    It is used to get rid of jagged edges and jitter/hand shake.
