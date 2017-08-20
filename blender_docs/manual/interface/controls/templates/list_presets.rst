@@ -1,8 +1,9 @@
-.. _ui-list-view:
 
 ********************
 List Views & Presets
 ********************
+
+.. _ui-list-view:
 
 List Views
 ==========
