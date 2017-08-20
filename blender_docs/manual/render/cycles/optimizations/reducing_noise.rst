@@ -42,8 +42,9 @@ Where Noise Comes From
 ======================
 
 To understand where noise can come from, take for example the scene below.
-When we trace a light ray into the location marked by the white circle on a red dot, 
+When we trace a light ray into the location marked by the white circle on a red dot,
 the second image below gives an impression of what the diffuse shader "sees".
+
 To find the light that is reflected from this surface,
 we need to find the average color from all these pixels.
 Note the glossy highlight on the sphere,
@@ -104,8 +105,8 @@ Bounces
 
 In reality light will bounce a huge number of times due to the speed of light being very high.
 In practice more bounces will introduce more noise, and it might be good to use something like
-the Limited Global Illumination preset in the :ref:`Light Paths <render-cycles-integrator-light-paths>` 
-Section that uses *fewer* bounces for different shader types. 
+the Limited Global Illumination preset in the :ref:`Light Paths <render-cycles-integrator-light-paths>`
+Section that uses *fewer* bounces for different shader types.
 Diffuse surfaces typically can get away with fewer bounces,
 while glossy surfaces need a few more,
 and transmission shaders such as glass usually need the most.
@@ -199,10 +200,10 @@ node has a *Smooth factor*, that can be used to reduce the maximum intensity
 a light can contribute to nearby surfaces. The images above show default falloff and smooth value 1.0.
 
 
-Multiple Importance sampling
+Multiple Importance Sampling
 ============================
 
-Materials with emission shaders can be configured to use 
+Materials with emission shaders can be configured to use
 Multiple Importance Sampling (:doc:`/render/cycles/materials/settings`).
 This means that they will get rays sent directly towards them,
 rather than ending up there based on rays randomly bouncing around.
