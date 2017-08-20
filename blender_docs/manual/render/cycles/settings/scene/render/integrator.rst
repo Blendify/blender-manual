@@ -142,6 +142,7 @@ Sample All Direct Lights
 Sample All Indirect Lights
    Similar to direct light, but for indirects lights. This can reduce noise in scenes with many lights.
 
+.. _render-cycles-integrator-light-paths:
 
 Light Paths
 ===========
