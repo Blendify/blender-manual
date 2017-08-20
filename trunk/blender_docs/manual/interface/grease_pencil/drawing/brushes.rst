@@ -24,7 +24,7 @@ Sensitivity
    Adjust the sensitivity of the thickness to the pressure of the pen on the tablet.
    The pressure can be disabled by clicking the small button to the right.
 Strength
-   Similar to sensitivity, but affect the alpha value of the color.
+   Similar to sensitivity, but affects the alpha value of the color.
    This parameter gives the effect of color fading or watercolor.
 Randomness
    The properties for *Sensitivity* and *Strength* additionally have a randomness factor which

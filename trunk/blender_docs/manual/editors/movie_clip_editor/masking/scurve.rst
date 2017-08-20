@@ -35,4 +35,4 @@ Primitives
    | Panel:    :menuselection:`Tool Shelf --> Mask --> Add`
    | Hotkey:   :kbd:`Shift-A`
 
-There are two primitives available: a Bezier Circle and a Square with vector handles.
+There are two primitives available: a Bézier Circle and a Square with vector handles.

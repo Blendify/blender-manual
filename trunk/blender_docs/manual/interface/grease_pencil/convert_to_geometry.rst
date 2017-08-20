@@ -37,25 +37,25 @@ Type
    Bézier Curve
       Create Bézier curves, with free "aligned" handles (i.e. also behaving like polylines).
    Polygon Curve
-      Bézier Curve with strait line segments (auto handles).
+      Bézier Curve with straight line segments (auto handles).
 
    .. note:: Converting to Mesh
 
       If you want to convert your sketch to a mesh,
-      simply choose first *NURBS*, and then convert the created curve to a mesh.
+      simply choose *NURBS* first, and then convert the created curve to a mesh.
 
 
 Normalize Weight
-   Will scale weights value so that they tightly fit into the (0.0 to 1.0) range. (enabled by default)
+   Will scale weights value so that they fit tightly into the (0.0 to 1.0) range. (enabled by default)
 
-   All this means that with a pressure tablet,
+   All this means is that with a pressure tablet,
    you can directly control the radius and weight of the created curve, which can affect e.g.
    the width of an extrusion, or the size of an object through a *Follow Path*
    Constraint or *Curve* Modifier!
 
 Link Strokes
    Will create a single spline, i.e. curve element. (enabled by default)
-   from all strokes in active grease pencil layer. This especially useful if you want to use the curve as a path.
+   from all strokes in active grease pencil layer. This is especially useful if you want to use the curve as a path.
    All the strokes are linked in the curve by "zero weights/radii" sections.
 
 
@@ -66,17 +66,17 @@ Grease pencil stores "dynamic" data, i.e. how fast strokes are drawn.
 When converting to curve,
 this data can be used to create an *Evaluate Time* F-Curve (in other words,
 a path animation), that can be used e.g. to control another object's position along that curve
-(*Follow Path* constraint, or, trough a driver, *Curve* modifier).
+(*Follow Path* constraint, or, through a driver, *Curve* modifier).
 So this allows you to reproduce your drawing movements.
 
 .. important::
 
    All those "timing" options need *Link Stroke* to be enabled,
-   else they would not make much sense!
+   otherwise they would not make much sense!
 
 
 Timing Mode
-   This control let you choose how timing data are used.
+   This control lets you choose how timing data is used.
 
    No Timing
       Just create the curve, without any animation data (hence all following options will be hidden).
@@ -102,7 +102,7 @@ End Frame
 Gap Duration
    *Custom Gaps* only. The average duration (in frames) of each gap between actual strokes.
    Please note that the value entered here will only be exact if *Realtime* is enabled,
-   else it will be scaled, exactly as the actual strokes' timing is!
+   otherwise it will be scaled, exactly as the actual strokes' timing is!
 
 
 Example

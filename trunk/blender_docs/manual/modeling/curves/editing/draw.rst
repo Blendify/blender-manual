@@ -30,7 +30,7 @@ Type
    Type of curve to use for drawing.
 
    Poly
-      Bézier Curve with strait line segments (auto handles).
+      Bézier Curve with straight line segments (auto handles).
    Bézier
       Tolerance
          Lower values give a result that is closer to the drawing stroke,

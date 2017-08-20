@@ -110,7 +110,7 @@ Join
 Join merges all selected objects into the last selected *Active* object.
 All object data is linked to the active object (which must be selected).
 All objects must be of the same type: mesh, curve, surface or armature.
-If several curves are joined, each one will keep its subtype (NURBS or Bezier).
+If several curves are joined, each one will keep its subtype (NURBS or Bézier).
 
 .. note::
 
