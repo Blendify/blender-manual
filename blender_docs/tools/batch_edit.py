@@ -41,9 +41,9 @@ def main():
 # returns the new file_contents (or None to skip the operation)
 
 
-def strip_trailing_space(fn, data_src):
+def preset_strip_trailing_space(fn, data_src):
     """
-    Strips trailing whitespace
+    Strips trailing white-space from all RST files.
     """
 
     lines = data_src.split("\n")
@@ -59,7 +59,7 @@ def strip_trailing_space(fn, data_src):
     return data_dst
 
 
-def find_and_replace(fn, data_src):
+def preset_find_and_replace(fn, data_src):
     """
     Simply finds and replaces text
     """
@@ -68,15 +68,14 @@ def find_and_replace(fn, data_src):
 
     find_replace_pairs = (
         ("−", "-"),
-        )
-
+    )
 
     if use_whole_words:
         import re
         find_replace_pairs_re = [
-                (re.compile("\b" + src + "\b"), dst)
-                for src, dst in find_replace_pairs
-                ]
+            (re.compile("\b" + src + "\b"), dst)
+            for src, dst in find_replace_pairs
+        ]
 
     lines = data_src.split("\n")
 
@@ -98,7 +97,10 @@ def find_and_replace(fn, data_src):
     return data_dst
 
 
-def replace_table(fn, data_src):
+def preset_replace_table(fn, data_src):
+    """
+    Replace ascii tables with list-table.
+    """
 
     lines = data_src.split("\n")
 
@@ -122,6 +124,7 @@ def replace_table(fn, data_src):
             else:
                 # table is [is_table : i]
                 table_content = []
+
                 def add_col():
                     table_content.append([[] for k in range(tot_row)])
 
@@ -193,10 +196,9 @@ def replace_table(fn, data_src):
     return data_dst
 
 
-
-def wrap_lines(fn, data_src):
+def preset_wrap_lines(fn, data_src):
     """
-    Wrap long lines, attempt to split on delimiters
+    Wrap long lines, attempt to split on delimiters.
     """
 
     # ideal margin
@@ -231,7 +233,6 @@ def wrap_lines(fn, data_src):
                 indent = 0
             indent += len(l_orig) - len(l)
 
-
             index_best = -1
             index_weight_best = 1000000.0
             c_best = ""
@@ -251,7 +252,7 @@ def wrap_lines(fn, data_src):
                     (" :", 2.0),
                     # last resort
                     (" ", 10.0),
-                    ):
+            ):
 
                 index = l_orig[:(MARGIN_TARGET + MARGIN_MAX) // 2].rfind(c)
                 if index == -1:
@@ -282,9 +283,54 @@ def wrap_lines(fn, data_src):
     return data_dst
 
 
-# define the operation to call
-operation = strip_trailing_space
+def preset_help(operations):
+    """
+    Shows help text.
+    """
+    import textwrap
+    print("Operations:\n")
+    for op, op_arg, op_fn in operations:
+        print("%s:" % op_arg)
+        print(textwrap.indent(op_fn.__doc__.strip(), "  "))
+        print()
 
+
+def operation_from_args():
+    import sys
+    namespace = globals()
+
+    operations = []
+    for op, op_fn in namespace.items():
+        if op.startswith("preset_"):
+            if callable(op_fn):
+                op_arg = "--%s" % op[7:]
+                operations.append((op, op_arg, op_fn))
+    operations.sort()
+
+    operations_map = {op_arg: (op, op_fn) for (op, op_arg, op_fn) in operations}
+
+    for arg in sys.argv:
+        if arg.startswith("--"):
+            op, op_fn = operations_map.get(arg, (None, None))
+            if op is not None:
+                operation = op_fn
+                break
+            else:
+                print(
+                    "Argument '%s' not in %s" %
+                    (arg, " ".join(sorted(operations_map.keys()))))
+                return None
+
+    if operation is preset_help:
+        preset_help(operations)
+        operation = None
+    return operation
+
+
+# define the operation to call
+# operation = preset_strip_trailing_space
+operation = operation_from_args()
 
 if __name__ == "__main__":
-    main()
+    if operation is not None:
+        main()
