@@ -162,7 +162,7 @@ Many render engines will typically disable caustics by default.
      - .. figure:: /images/cycles_noise_filter_glossy.jpg
           :width: 180px
 
-          Filter Glossy greater zero.
+          Filter Glossy greater than zero.
 
 However, using No Caustics will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
@@ -330,4 +330,4 @@ leaving highlights directly visible to the camera untouched.
      - .. figure:: /images/cycles_noise_clamp_4.jpg
           :width: 180px
 
-          Clamp is set to 4.
+          With Clamp set to 4.
