@@ -55,13 +55,13 @@ Time
 
 .. # Python script used to generate the values below
    from datetime import timedelta
-   maxframe = 1048575
+   maxframe = 1048574
    for fps in (24, 25, 30, 60):
       seconds = maxframe / fps
       print(":%d fps: %d hours, %d seconds." %
             (fps, seconds // 3600, seconds % 3600 // 60))
 
-The maximum number of frames for each scene is currently 1,048,575, and allows for continuous shots for durations of:
+The maximum number of frames for each scene is currently 1,048,574, and allows for continuous shots for durations of:
 
 :24 fps: 12 hours, 8 seconds.
 :25 fps: 11 hours, 39 seconds.
