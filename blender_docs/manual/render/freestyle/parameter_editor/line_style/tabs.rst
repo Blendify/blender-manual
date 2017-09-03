@@ -108,7 +108,7 @@ Selection
 You can also choose to only render selected chains.
 
 Minimal, Maximal 2D Length
-   Chains longer and/or shorter than * 2D Length*.
+   Chains longer and/or shorter than *2D Length*.
 Chain Count
    Allows the selection of first N chains.
 

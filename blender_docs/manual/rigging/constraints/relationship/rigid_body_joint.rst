@@ -8,7 +8,7 @@ Rigid Body Joint Constraint
 
 The *Rigid Body Joint* constraint is very special, it is used by the
 physics part of the Blender Game Engine to simulate a joint between its owner and its target.
-It offers four joint types: hinge type, ball-and-socket type, cone-twist, and generic six-DoF
+It offers four joint types: hinge type, ball-and-socket type, cone-twist type, and generic six-DoF
 (degrees of freedom) type.
 
 .. important::
@@ -80,7 +80,7 @@ Linked Collision
 
 Display Pivot
    When enabled, this will draw the pivot of the joint in the 3D Views.
-   Most useful, especially with the *Generic 6DOF* joint type!
+   The most useful, especially with the *Generic 6DOF* joint type!
 
 Pivot
    These three numeric fields allow you to relocate the pivot point, *in the owner's space*.

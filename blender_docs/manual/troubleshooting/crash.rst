@@ -28,7 +28,7 @@ machine's hardware (the RAM or graphics card), and disable some options that are
 Crash Log
 =========
 
-When Blender crashes it writes out a text file which contains informations
+When Blender crashes, it writes out a text file which contains informations
 that may help identify the cause of the crash.
 
 On a crash, a file is written based on the name of the currently loaded blend file,

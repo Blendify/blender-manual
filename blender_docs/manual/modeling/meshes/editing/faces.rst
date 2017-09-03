@@ -63,7 +63,7 @@ or vertices, as long as they form one or more complete perimeters.
    Filled using fill.
 
 
-Note, unlike creating n-gons, fill supports holes.
+Note, unlike creating n-gons, *Fill* supports holes.
 
 .. list-table::
 
@@ -298,8 +298,8 @@ Triangles to Quads
 
 
 This tool converts the selected triangles into quads by taking adjacent tris and
-removes the shared edge to create a quad, based on a threshold.
-This tool can be performed on a selection of multiple triangles.
+removing the shared edge to create a quad, based on a threshold.
+This tool can be applied on a selection of multiple triangles.
 
 This same action can be done on a selection of two tris,
 by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting the
@@ -323,10 +323,10 @@ which means some triangles could remain.
 
           After converting tris to quads.
 
-All the menu entries and hotkey use the settings defined in the *Mesh Tools* panel:
+All the menu entries and hotkeys use the settings defined in the *Mesh Tools* panel:
 
 Max Angle
-   This values, between (0 to 180), controls the threshold for this tool to work on adjacent triangles.
+   This value, between (0 to 180), controls the threshold for this tool to work on adjacent triangles.
    With a threshold of 0.0,
    it will only join adjacent triangles that form a perfect rectangle
    (i.e. right-angled triangles sharing their hypotenuses).

@@ -12,7 +12,7 @@ It can also affect its owner's rotation to follow the curve's bends,
 when the *Follow Curve* option is enabled.
 
 It could be used for complex camera traveling,
-a train on his rails and most other vehicles can also use "invisible" tracks,
+a train on its rails and most other vehicles can also use "invisible" tracks,
 the links of a bicycle chain, etc.
 
 The owner is always evaluated in the global (world) space:
@@ -53,7 +53,7 @@ you can use a *Locked Track* and a target object to specify the up direction, as
 
    Do not confuse these two constraints. Both of them constraint the location of their owner along a curve,
    but *Follow Path* is an "animation-only" constraint,
-   inasmuch that the position of the owner along the curve is determined by the time (i.e. current frame),
+   inasmuch as the position of the owner along the curve is determined by the time (i.e. current frame),
    whereas the :doc:`Clamp To </rigging/constraints/tracking/clamp_to>` *constraint* determines the position of its
    owner along the curve using one of its location properties' values.
 
@@ -80,7 +80,7 @@ Options
 
 
 Target
-   :ref:`ui-data-id` used to select the constraints target, which *must* be a curve object,
+   :ref:`ui-data-id` used to select the constraint's target, which *must* be a curve object,
    and is not functional (red state) when it has none.
 Animate Path
    Adds an F-Curve with options for the start and end frame. ToDo: from above.

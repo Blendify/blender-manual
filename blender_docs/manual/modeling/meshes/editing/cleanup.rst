@@ -45,7 +45,7 @@ Fill Holes
    | Menu:     :menuselection:`Mesh --> Clean up --> Fill Holes`
 
 
-This tool is can take a large selection and detect the holes in the mesh, filling them in.
+This tool can take a large selection and detect the holes in the mesh, filling them in.
 
 This is different from the face creation operator in three important respects:
 
