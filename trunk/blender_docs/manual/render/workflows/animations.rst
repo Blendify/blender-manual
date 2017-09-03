@@ -111,7 +111,7 @@ Frame Sequence Workflow
    The video codecs are described on the previous page: :doc:`Output Options </render/output/output>`.
 #. Click the *Animation* render button and Blender will render out the sequence editor output into your movie.
 
-Why go through all this hassle? Well, first of all, if you render out single frames you can
+Why go through all this hassle? Well, first of all, if you render out single frames, you can
 stop the render at any time by pressing :kbd:`Esc` in the render window or UV/image editor.
 You will not lose the frames you have already rendered,
 since they have been written out to individual files.

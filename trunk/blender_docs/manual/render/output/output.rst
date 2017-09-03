@@ -98,7 +98,7 @@ Output Format
    for rendering to videos see :doc:`rendering to videos </render/output/video>`
 Color Mode
    Choose the color format to save the image to.
-   Note that *RGBA* will not be avaible for all image formats.
+   Note that *RGBA* will not be available for all image formats.
 
    BW, RGB, RGBA
 

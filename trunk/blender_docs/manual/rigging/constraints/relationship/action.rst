@@ -80,7 +80,7 @@ Action Range Start/End
    .. note::
 
       - These values must be strictly positive.
-      - By default, both values are set to 0 which disables the mapping (i.e.
+      - By default, both values are set to 0, which disables the mapping (i.e.
         the owner just gets the properties defined at frame 0 of the linked action...).
 
 
