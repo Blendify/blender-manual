@@ -49,7 +49,7 @@ Manipulator Controls
 Basic
 -----
 
-You can use the widget by dragging :kbd:`LMB` one of the three colored axes.
+You can use the widget by dragging one of the three colored axes with :kbd:`LMB`.
 The transformation will be locked to the clicked axis.
 
 Dragging the small white circle allows free transformation.

@@ -37,12 +37,12 @@ Border Select
    | Menu:     :menuselection:`Select --> Border Select`
    | Hotkey:   :kbd:`B`
 
-To activate the tool use the :kbd:`B`.
+To activate the tool, press :kbd:`B`.
 With *Border Select* you draw a rectangle while holding down :kbd:`LMB`.
 Any object that lies even partially within this rectangle becomes selected.
 If any object that was last active appears in the selection it will become active.
 
-For deselecting objects, use :kbd:`MMB` or *Border Select* again with holding
+For deselecting objects, use :kbd:`MMB` or *Border Select* again while holding
 :kbd:`Shift` or :kbd:`Alt`. To cancel the selection use :kbd:`RMB`.
 
 .. hint::

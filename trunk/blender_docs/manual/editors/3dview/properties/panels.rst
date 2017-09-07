@@ -19,7 +19,7 @@ Only Render
    .. note::
 
       While the option displays the regular view-port without distracting elements,
-      the objects displayed are **not** matching the final render output.
+      the objects displayed do **not** match the final render output.
 
       Options such as restrict-render, modifiers render option,
       dupli-parents and render layers are not taken into account.
@@ -35,7 +35,7 @@ All Object Origins
 Relationship Lines
    Controls whether the dashed parenting, constraining, hooking, etc., lines are drawn.
 Grid Floor
-   Grid Floor is a finite grid which is shown in other views than the aligned orthographic (top, front, side).
+   Grid Floor is a finite grid which is shown in views that are not orthographically aligned (top, front, side).
    It lays on the global XY plane. The checkbox lets you show or hide that grid.
    In aligned orthographic views an infinite grid is shown.
 
