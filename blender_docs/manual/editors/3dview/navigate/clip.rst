@@ -26,7 +26,7 @@ in the wanted 3D View. It becomes a clipping volume of four planes:
   (of infinite length) if your view is orthographic.
 - A rectangular-based pyramid (of infinite height) if your view is in perspective.
 
-Once clipping is used, you will only see whats inside a volume you have defined.
+Once clipping is used, you will only see what's inside the volume you have defined.
 Tools such as paint, sculpt, selection, transform-snapping, etc.
 will also ignore geometry outside the clipping bounds.
 

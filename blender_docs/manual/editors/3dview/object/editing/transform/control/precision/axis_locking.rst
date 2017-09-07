@@ -14,7 +14,7 @@ This option limits the transformation to the specified axis.
 
 :doc:`Transformations (translation/scale/rotation) </editors/3dview/object/editing/transform/introduction>`
 in *Object Mode* and *Edit Mode*, as well as extrusion in *Edit Mode*)
-can be locked to particular axis relative to the current
+can be locked to a particular axis relative to the current
 :doc:`transform orientation </editors/3dview/object/editing/transform/control/orientations>`.
 By locking a transformation to a particular axis you are restricting transformations to a single dimension.
 
@@ -46,7 +46,7 @@ The axis of choice to confirm the operation
 will depend on the highlighted axis about which the :kbd:`MMB` is released.
 
 When you already moved the mouse in the desired direction,
-pressing :kbd:`MMB` will lock to the axis in which was pointed at.
+pressing :kbd:`MMB` will lock to the axis which was pointed at.
 
 
 Axis locking types
