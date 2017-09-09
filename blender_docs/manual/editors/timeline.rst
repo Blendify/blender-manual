@@ -20,8 +20,8 @@ but more used to view information and control animation playback.
 
    The Timeline.
 
-The *Timeline* is one of an animators most useful tools as it can give a broad overview of a scene's animation.
-The Timeline can comunicate the current time frame, either in frames or in seconds,
+The *Timeline* is one of an animator's most useful tools as it can give a broad overview of a scene's animation.
+The Timeline can communicate the current time frame, either in frames or in seconds,
 where are the keyframes of the active object, the start and end frames of your animation, markers, etc...
 
 The *Timeline* has *Player Controls*, to play, pause the animation,
@@ -321,7 +321,7 @@ Auto Keyframe
    Auto Keying Set (red record icon)
       When enabled *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
    Layered (two keys icon)
-      Adds a new NLA Track and strip for every loop/pass made over the animation to allow non-distructive tweaking.
+      Adds a new NLA Track and strip for every loop/pass made over the animation to allow non-destructive tweaking.
 
    .. note::
 
