@@ -46,7 +46,7 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
       Local-view bypasses layers, using only the selected objects when entering local-view.
       Although new objects may be added while in local-view.
 
-      Its also possible to send objects out of local view,
+      It's also possible to send objects out of local view,
       using :menuselection:`Object --> Move Objects out of Local View`,
       which can be useful to further isolate a selection.
    Preview Renders
@@ -70,7 +70,7 @@ Quad View
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Toggle Quad View`
-   | Panel     :menuselection:`Properties region --> Display --> Toggle Quad View`
+   | Panel:    :menuselection:`Properties region --> Display --> Toggle Quad View`
    | Hotkey:   :kbd:`Ctrl-Alt-Q`
 
 Toggling Quad View will split the 3D View into four views:

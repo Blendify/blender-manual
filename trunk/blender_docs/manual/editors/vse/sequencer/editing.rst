@@ -52,7 +52,7 @@ The frame number label over the strip displays the end frame of the strip.
 
 - Dragging the right arrow to the left shortens the clip;
   any original images at the tail are ignored. Use this to quickly clip off a rolldown.
-- Dragging the right arrow right extends the clip.
+- Dragging the right arrow to the right extends the clip.
   For movies and images sequences, more of the animation is used until exhausted.
   Extending a clip beyond its end results in Blender making a copy of the last image.
   Use this for transitions out of this clip.
@@ -187,7 +187,7 @@ Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
    and that you want to delete the first ten ones.
    You have to go to frame 11, and press :kbd:`K`;
    the cut divides your strip in two parts. You now can select the first small part
-   (frame 1 to frame 10), and delete it press :kbd:`X`.
+   (frame 1 to frame 10), and delete it by pressing :kbd:`X`.
 
    You might think that you have really erased the frames (1 to 10),
    but there are still there, winded, as in a film reel, under your frame 11:
@@ -195,7 +195,7 @@ Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
    And you can at any time get your lost frames back
    (just :kbd:`RMB` click on the left arrow of the strip,
    then :kbd:`G` grab it to the left to display the desired number of frames again (or to
-   the right to hid more frames -- this is another way to remove frames at the beginning/end of a strip!).
+   the right to hide more frames -- this is another way to remove frames at the beginning/end of a strip!).
 
    This is at the heart of nearly every editor solution, and that is quite handy!
 
@@ -258,6 +258,6 @@ Change
 The Change sequence operator modifies the file path or effect inputs/type on selected strips.
 
 Effect
-   Switch the effects on a selected Effect strips.
+   Switch the effects on a selected Effect strip.
 Path/Files
    Changes the source file contained in a selected strip.
