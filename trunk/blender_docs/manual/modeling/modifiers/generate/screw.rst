@@ -52,3 +52,8 @@ Iterations
    Number of revolutions.
 Stretch U/V
    Stretch the UV coordinates from (0.0 to 1.0) when UVs are present.
+Merge Vertices
+   Merge vertices that lie on the axis of rotation.
+   Use this to close off end-points with a triangle fan.
+Merge Distance
+   Vertices under this distance to the axis are merged.
