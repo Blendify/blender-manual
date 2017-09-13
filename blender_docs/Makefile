@@ -104,6 +104,14 @@ html_server: .FORCE .SPHINXBUILD_EXISTS
 	PYTHONOPTIMIZE=2 \
 	$(SPHINXBUILD) -a -E -b html $(SPHINXOPTS) -j 1 ./manual "$(BUILDDIR)/html"
 
+epub: .FORCE .SPHINXBUILD_EXISTS
+	# './' (input), './epub/' (output)
+	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
+	$(SPHINXBUILD) -b epub $(SPHINXOPTS) ./manual "$(BUILDDIR)/epub"
+
+	@echo "To view, run:"
+	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/epub/*.epub"
+
 singlehtml: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
