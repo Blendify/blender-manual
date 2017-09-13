@@ -238,7 +238,7 @@ Version/Revision Milestones
    Cycles support for spherical stereo images for VR,
    Grease Pencil works more similar to other 2D drawing softwares,
    Alembic import and export support, and improvements to Bendy Bones for easier and simpler rigging.
-`2.79 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.79>`__ -- August 2017:
+`2.79 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.79>`__ -- September 2017:
    New cycles features: Denoising, Shadow catcher, and new Principled shader.
    Other improvements were made to Grease Pencil and Alembic. Support was also added for application templates.
 
@@ -246,5 +246,6 @@ Version/Revision Milestones
 
 Blender 2.8 is the next phase in Blender's development seeking to bring an improved viewport
 and a better workflow allowing artist to use Blender faster and easier. Currently, Blender 2.8
-is still in development and will probably be released in late 2.8 however, test builds can be found
-on `Blender's test build website <https://builder.blender.org/download/>`__.
+is still in development and will probably be released in late 2018 however. You can find out more
+information by visiting the 2.8 webpage on `blender.org <https://www.blender.org/2.8/>`__ or you can
+download test builds that can be found on `Blender's test build website <https://builder.blender.org/download/>`__.
