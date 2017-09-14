@@ -112,13 +112,6 @@ and pressing :kbd:`LMB` or :kbd:`Enter` confirms the cut, with the following opt
 :kbd:`Enter` will leave selected every edge except the new edges created from the cut.
 
 
-Limitations
-===========
-
-Cuts that begin or end in the middle of a face, will be ignored.
-This is a limitation of the current geometry that can be modeled in Blender.
-
-
 Knife Project
 =============
 
@@ -177,9 +170,24 @@ Examples
           Resulting knife projection (extruded after).
 
 
-Known Issues
-------------
+Known Limitations
+=================
 
-Cutting holes into single faces may fail,
-this is the same limitation as with the regular knife tool but more noticeable for text,
-this can be avoided by projecting onto more highly subdivided geometry.
+Duplicate Vertices
+------------------
+
+If you experience problems where duplicate vertices are being created by cuts,
+this is often caused by too large a near/far clipping range.
+
+Try increasing the *Clip Start* to avoid this problem,
+see :ref:`Depth Troubleshooting <troubleshooting-depth>` for details.
+
+
+Unconnected Cuts
+----------------
+
+Cuts that begin or end in the middle of a face, will be ignored.
+
+*This is constrained by the kinds of geometry Blender can represent.*
+
+
