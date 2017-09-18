@@ -31,7 +31,7 @@ This is the list of image file formats supported internally by Blender:
      - |tick|
      - ``.bmp``
    * - Iris
-     - 8bit
+     - 8bit, 16bit
      - |tick|
      - |cross|
      - |cross|
