@@ -6,7 +6,7 @@ Introduction
 ************
 
 By default, the VSE only displays the strips, however, there are a few ways to preview the result of your sequence.
-The first is the preview mode, this can be enable by hitting the texture button (|texture-button|).
+The first is the preview mode, this can be enabled by hitting the texture button (|texture-button|).
 
 
 Header
@@ -70,7 +70,7 @@ Overlay (ghost icon)
       Reference
          Only the reference frame is displayed in the preview region.
       Current
-         Only the current frame is be displayed in the preview region.
+         Only the current frame is displayed in the preview region.
 
    .. tip::
 

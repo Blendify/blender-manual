@@ -117,7 +117,7 @@ you can quickly link all selected objects to the material (and other aspects)
 of the :ref:`active object <object-active>`.
 Very useful if you need to set a large number of objects to the same material;
 just select all of them,
-then the object that has the desired material, and :kbd:`Ctrl-L` link them to that "parent".
+then the object that has the desired material, and :kbd:`Ctrl-L` links them to that "parent".
 (See Tip on Linking Data in Creating about data linking.)
 
 
@@ -180,7 +180,7 @@ material is as follows:
 
 You can also make this new material a copy of an existing material by adding the data-block:
 
-Select the object, get the material, (R Click) and Copy data to clipboard.
+Select the object, get the material, :kbd:`RMB` and Copy data to clipboard.
 When you have renamed the material, click "Link: Data" to link to the existing material.
 Proceed to assign faces as required.
 NB: If you change the material on the original object, the new object color changes too.

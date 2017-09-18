@@ -11,7 +11,7 @@ Colors
 
 Palette
    A :ref:`ui-data-block` to select a palette, which is a set of colors.
-   Switching palettes will change all strokes color in all layers if the same color are linked.
+   Switching palettes will change all strokes color in all layers if the same colors are linked.
 
    New ``+``
       If there are more than one palette,
