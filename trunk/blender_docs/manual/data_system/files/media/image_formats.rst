@@ -31,7 +31,7 @@ This is the list of image file formats supported internally by Blender:
      - |tick|
      - ``.bmp``
    * - Iris
-     - 8bit, 16bit
+     - 8, 16bit
      - |tick|
      - |cross|
      - |cross|
@@ -99,6 +99,15 @@ This is the list of image file formats supported internally by Blender:
 
    *All these formats support compression which can be important when rendering out animations.*
 
+.. hint::
+
+   Bit depths for image formats represent the following numbers of tonal levels per channel:
+
+   :8: 256 levels
+   :10: 1024 levels
+   :12: 4096 levels
+   :16: 65536 levels
+
 
 Opening Images
 ==============
@@ -127,7 +136,7 @@ Color Depth
 
    8 bit (256 levels)
       Most common for on-screen graphics and video
-   10, 12, 16 bit (1024, 4096, 65536 levels)
+   10, 12, 16 bit
       Used for some formats focusing on photography and digital films
       (such as DPX and JPEG 2000).
    16 bit half float
