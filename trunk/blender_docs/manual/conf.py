@@ -183,7 +183,7 @@ if html_theme == "sphinx_rtd_theme":
     # included in the title
     html_theme_options = {
     "display_version": False,
-    "canonical_url": "https://docs.blender.org/manual/en/latest/",
+    "canonical_url": "https://docs.blender.org/manual/en/dev/",
     }
 
 
