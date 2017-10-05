@@ -1,4 +1,5 @@
 .. _bpy.types.NodeGroup:
+
 .. Editors Note: This page gets copied into :doc:`</compositing/types/groups.rst>`
 .. --- copy below this line ---
 
@@ -88,9 +89,16 @@ Interface
 Interactively
 ^^^^^^^^^^^^^
 
-The Input/Output sockets are part of the regular nodes Group Input/Group Output.
+When a node group is created, new *Group Input* and a *Group Output* nodes are generated to represent the
+data flow into and out of the group. When created, connections to input sockets coming from
+unselected nodes will become attached to new sockets on the *Group Input* node. Similarly, outgoing
+connections to input sockets of unselected nodes will become attached to the new *Group Output* node.
 
-ToDo.
+If during node group development an additional parameter needs to be passed into the group, an
+additional socket must be added to the *Group Input* node. This is easily done by adding a connection
+between the hollow socket on the right side of the *Group Input* node to the desired input socket on
+the node requiring input. The process is similar for the *Group Output* regarding data you want to be
+made available outside the group.
 
 
 Panel
@@ -102,9 +110,21 @@ Panel
    | Mode:     All Modes
    | Panel:    :menuselection:`Properties region --> Interface`
 
-Sockets can be added or removed, descriptive names can be added and the details of the input data value defined here.
 
-ToDo.
+.. figure:: /images/editors_node-editor_nodes_node-groups_interface_panel.png
+   :align: right
+
+   The interface panel for editing groups.
+
+Sockets can be added, re-ordered, or removed, descriptive names can be added and the details of the
+input data value defined here.
+
+If you have multiple inputs or outputs, they can be re-ordered by selecting the socket in the list
+and then moving it up or down with the arrow buttons on the right side of the panel.
+The larger plus sign buttons below the list will add an unconnected socket of the same type as the
+selected socket or a value socket if there is no selection.
+The small circled plus sign at the bottom of the list has filtering functions to facilitate finding
+nodes if the group has a large number of sockets.
 
 
 Ungroup
@@ -130,21 +150,14 @@ Group Insert
    | Mode:     All Modes
    | Menu:     :menuselection:`Group --> Group Insert`
 
-ToDo.
-
 .. move node into selected group
 
-
-Adding a Group Instance
-=======================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Add --> Group`
-
-ToDo.
+Selecting a set of nodes, ending with the destination group node,
+and pressing :menuselection:`Group --> Group Insert` will move those nodes into that group.
+The moved nodes are collected into a group of their own to preserve their connection context,
+having their own group input and output nodes.
+The group's existing input and output nodes are updated with new sockets, if any, from the new
+nodes. The node group must be edited to contain a single *Group Input* and a single *Group Output* node.
 
 
 Appending Node Groups
