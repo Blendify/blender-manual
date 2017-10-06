@@ -46,7 +46,7 @@ Transform Panel
    | Panel:    :menuselection:`Properties region --> Transform`
 
 When nothing is selected, the panel is empty.
-When more than one vertex is selected, the median values is edited
+When more than one vertex is selected, the median values are edited
 and "Median" is added in front of the labels.
 
 Control Point, Vertex
@@ -134,7 +134,7 @@ Extrude Curve and Move
    | Hotkey:   :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be translated.
-If the selection is an end point a new point will be connected to the selected point,
+If the selection is an end point, a new point will be connected to the selected point,
 else a new unconnected point is created.
 
 Mode
@@ -329,7 +329,7 @@ For example, switching to *Vector handles* can be used to create curves with sha
 Read the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details.
 
 Toggle Free/Align :kbd:`V-T`
-   Additionally, the this shortcut can be used to toggle between Free and Aligned handle types.
+   Additionally, this shortcut can be used to toggle between Free and Aligned handle types.
 
 
 .. _modeling-curve-weight:

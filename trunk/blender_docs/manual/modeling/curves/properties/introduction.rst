@@ -28,7 +28,7 @@ or the :menuselection:`Properties region --> Transform --> Radius`.
 
 .. tip::
 
-   Remember, these curves can be converted into meshes with :kbd:`Alt-C` in Object Mode
+   Remember, these curves can be converted into meshes with :kbd:`Alt-C` in Object Mode.
 
 
 Tilt

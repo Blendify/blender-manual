@@ -10,7 +10,7 @@ Color Spill Node
    Color Spill Node.
 
 The *Color Spill* node reduces one of the RGB channels so that it is not greater
-then any of the others.
+than any of the others.
 
 This is common when compositing images that were shot in front of a green or blue screen.
 In some cases, if the foreground object is reflective, it will show the green or blue color;

@@ -35,7 +35,7 @@ If you would like to keep the current application-template active on restarting 
 Motivation
 ----------
 
-In some cases its not enough to write a single script or add-on,
+In some cases it's not enough to write a single script or add-on,
 and expect someone to replace his user-preferences and startup file, install scripts and change his key-map.
 
 The goal of application-templates is to support switching to a customized configuration
