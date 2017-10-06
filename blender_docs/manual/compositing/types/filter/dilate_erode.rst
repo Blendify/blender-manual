@@ -27,7 +27,7 @@ Mode
    Step, Threshold, Distance, Feather
 Distance
    The Distance is the filter radius.
-   A *positive* value of Distance dilate (expands) the influence of a pixel on its surrounding pixels.
+   A *positive* value of Distance dilates (expands) the influence of a pixel on its surrounding pixels.
    A *negative* value erodes (shrinks) its influence.
 
 
