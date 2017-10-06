@@ -27,7 +27,7 @@ Resolution
 Aspect Ratio
    Older televisions may have non-square pixels,
    so this can be used to control the shape of the pixels along the respective axis.
-   This will *pre-distorted* the images which will look stretched on a computer screen,
+   This will *pre-distort* the images which will look stretched on a computer screen,
    but which will display correctly on a TV set.
    It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
    resulting in lowered image quality.

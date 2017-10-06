@@ -15,7 +15,7 @@ All of these nodes do essentially the same thing:
 - Separate: Split out an image into its composite color channels.
 - Combine: Re/combine an image from it is composite color channels.
 
-These nodes could be use this to manipulate on each color channel independently.
+These nodes can be used to manipulate each color channel independently.
 Each type is differentiate in the applied :term:`color space`.
 
 In compositing and texture context each node supports the Alpha channel.

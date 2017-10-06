@@ -81,8 +81,8 @@ Film
 
 Exposure
    This can be used to change the brightness of an image.
-   Different then the *Exposure* option found in the :ref:`Color management <render-post-color-management>`
-   panel this exposure option works is *on the data* while the Color management exposure is *on the view*.
+   Different than the *Exposure* option found in the :ref:`Color management <render-post-color-management>`
+   panel this exposure option works *on the data* while the Color management exposure is *on the view*.
 Transparent
   ToDo
 Pixel Filter

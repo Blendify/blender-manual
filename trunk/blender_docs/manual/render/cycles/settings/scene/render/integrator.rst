@@ -117,7 +117,7 @@ To get the same number of diffuse samples as in the path tracing integrator, not
 The Sampling panel shows this total number of samples.
 
 AA Render Samples
-   Number of samples to take for each pixel in the final render. More samples will improve antialiasing.
+   Number of samples to take for each pixel in the final render. More samples will improve anti-aliasing.
 AA Preview Samples
    Number of samples for viewport rendering.
 

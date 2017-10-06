@@ -24,7 +24,7 @@ RGB
 R/G/B/A
    Depending on the channel you choose the scope will show the appropriate channel.
 Show line
-   Displays lines rather then filled shapes.
+   Displays lines rather than filled shapes.
 
 
 Waveform

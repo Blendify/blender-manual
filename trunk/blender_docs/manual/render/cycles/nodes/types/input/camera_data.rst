@@ -11,7 +11,7 @@ Camera Data Node
 
 
 The *Camera Data* node is used for getting information about what
-the camera is view in order to achieve different effects.
+the camera is viewing in order to achieve different effects.
 
 .. Add more explanation of what it is and how it works (TODO).
    http://blender.stackexchange.com/questions/27764
