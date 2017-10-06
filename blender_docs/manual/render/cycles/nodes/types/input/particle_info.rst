@@ -11,12 +11,12 @@ Particle Info Node
 
    Particle Info Node.
 
-The *Particle Info* node is for objects instanced from a :doc:`Particle System </physics/particles/index>`,
-this node give access to the data of the particle that spawned the instance.
+The *Particle Info* node is for objects instanced from a :doc:`Particle System </physics/particles/index>`.
+This node gives access to the data of the particle that spawned the instance.
 
 .. note::
 
-   This node currently only supports parent particles, info from child particles is not available.
+   This node currently only supports parent particles. Info from child particles is not available.
 
    .. is this still true? ^^
 

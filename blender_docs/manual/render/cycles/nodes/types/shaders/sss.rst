@@ -38,10 +38,10 @@ Texture Blur
    mixing the texture at the incoming and outgoing points on the surface.
    Note that the right choice depends on the texture.
    Consider for example a texture created from a photograph of skin,
-   in this cases the colors will already be pre-blurred and texture blur could be set to 0.
-   Even for hand painted textures no or minimal blurring might be appropriate,
-   as a texture artist would likely paint in softening already,
-   one would usually not even know what an unblurred skin texture looks like, we always see it blurred.
+   in this case the colors will already be pre-blurred and texture blur could be set to 0.
+   Even for hand-painted textures, no blurring or minimal blurring might be appropriate,
+   as a texture artist would likely paint in softening already.
+   One would usually not even know what an unblurred skin texture looks like; we always see it blurred.
    For a procedural texture on the other hand this option would likely have a higher value.
 
 

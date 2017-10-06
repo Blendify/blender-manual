@@ -21,8 +21,8 @@ Volume
 
    .. note::
 
-      It is not possible to have and HDR and volumetric due to the fact that
-      HDR's are assumed to be an infant distance from the camera.
+      It is not possible to have an HDR and volumetric due to the fact that
+      HDR's are assumed to be an infinite distance from the camera.
 
 
 Properties

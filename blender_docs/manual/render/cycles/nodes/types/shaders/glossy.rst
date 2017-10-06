@@ -34,7 +34,7 @@ Distribution
       Results in perfectly sharp reflections like a mirror. The *Roughness* value is not used.
    Multiple-scattering GGX
       Takes multiple bounce (scattering) events between microfacets into account.
-      This gives a more energy conserving results, which would else be visible as excessive darkening.
+      This gives a more energy conserving results, which would otherwise be visible as excessive darkening.
 
    Beckmann, GGX, Ashikhmin-Shirley
 

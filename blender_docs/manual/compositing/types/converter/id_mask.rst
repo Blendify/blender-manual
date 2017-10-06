@@ -63,7 +63,7 @@ Example
 In this example, the left rear red cube is assigned Pass Index 1, and the right cube Pass Index 2.
 Where the two cubes intersect, there is going to be noticeable pixelation because they come together
 at a sharp angle and are different colors. Using the mask from object 1,
-which is smoothed (antialiased) at the edges, we use a *Mix Node* set on *Multiply*
+which is smoothed (anti-aliased) at the edges, we use a *Mix Node* set on *Multiply*
 to multiply the smoothed edges of the image, thus removing those nasty lines, thus, being smoothed out.
 
 .. figure:: /images/compositing_nodes_converter_id-mask_example.png

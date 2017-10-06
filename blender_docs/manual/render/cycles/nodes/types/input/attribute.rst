@@ -37,7 +37,7 @@ Name
       Gives the color of the smoke inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
       The color and vector outputs are the same. The Factor output is an average of the channels.
    Ocean Foam
-      Gives a scalar define where foam might appear when using an
+      Gives a scalar defining where foam might appear when using an
       :doc:`Ocean Modifier </modeling/modifiers/simulate/ocean>`.
       This depends on the name you give this property.
 
