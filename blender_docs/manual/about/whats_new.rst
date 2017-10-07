@@ -4,8 +4,9 @@
 What's New
 **********
 
-This page lists major changes and additions to the manual. The Blender release notes
-are located in the `Wiki <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes>`__.
+This page lists major changes and additions to the manual. 
+The `Blender release notes <https://www.blender.org/features/releases/>`__
+are located on the webside and in the Wiki.
 
 - :doc:`Alembic </pipeline/alembic>`
   (`rBM3580 <https://developer.blender.org/rBM3580>`__, May 30).
