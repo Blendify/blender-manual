@@ -40,7 +40,7 @@ The frame number label under the strip displays the start frame of the strip.
   the strip will start at image 11 (images 1 to 10 will be skipped).
   Use this to clip off a rollup or useless lead-in.
 - Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it.
-  Use this when you want some frames for transitions to the this clip.
+  Use this when you want some frames for a transition at the start of the clip.
 
 
 End Frame

@@ -83,7 +83,7 @@ Manual
    This is a link to the :doc:`Official Blender Manual </index>`
    which you are now reading.
 Release Log
-   The `release notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__ on the Web
+   The `release notes <https://www.blender.org/features/releases/>`__ on the Web
    for the changes made for the current Blender version.
 Blender Website
    The `blender.org <https://www.blender.org/>`__ home page.

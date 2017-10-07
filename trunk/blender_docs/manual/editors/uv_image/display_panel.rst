@@ -3,7 +3,7 @@
 Display Panel
 *************
 
-You can set the editors display options in the this panel.
+You can set the editors display options in this panel.
 
 .. figure:: /images/editors_uv-image_display.png
    :align: right

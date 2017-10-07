@@ -27,8 +27,8 @@ that you can choose from, to better suit your needs.
 The options comprise binary packages for all the supported platforms and the source code. Within the binary packages,
 you can choose from a stable release or a daily build. The first has the benefit of being more reliable, the latter
 provides the newest features, as they are developed. Blender is released approximately every three months.
-You can keep up to date with the newest changes
-through the `release notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__.
+You can keep up to date with the latest changes
+through the `release notes <https://www.blender.org/features/releases/>`__.
 
 `Latest Stable Release <https://www.blender.org/download/>`__
    This is a binary distribution of the latest version of Blender.

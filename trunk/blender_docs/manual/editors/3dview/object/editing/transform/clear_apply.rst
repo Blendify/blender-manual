@@ -72,7 +72,7 @@ The Operator panel lets you choose the combination of transformations to apply.
 
 .. warning:: Armature Objects
 
-   While applying transformation to armatures is supported,
+   While applying transformations to armatures is supported,
    this does **not** apply to their pose position, animation curves or constraints.
 
    This tool should be used before rigging and animation.
