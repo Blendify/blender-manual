@@ -269,6 +269,17 @@ def text_extract_help(text, args, static_strings):
 
         text_rst[i] = l.rstrip(" ")
 
+    # finally, make switches literal if they proceed literal args
+    # or have their own line.
+    # -a ``<b>`` ... --> ``-a`` ``<b>`` 
+    # and...
+    # -a --> ``-a``
+    for i, l in enumerate(text_rst):
+        if l.lstrip().startswith("-"):
+            l = re.sub(r"(\s+)(\-[a-z])(\s+``)", r"\1``\2``\3", l)
+            l = re.sub(r"^(\s+)(\-[a-z])$", r"\1``\2``", l)
+        text_rst[i] = l
+    
     text_rst = "\n".join(text_rst)
     text_rst = text_rst.replace("\n\n\n\n", "\n\n\n")
 
