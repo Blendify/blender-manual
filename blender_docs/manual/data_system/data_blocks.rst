@@ -67,7 +67,7 @@ This prevents the user count from ever becoming zero: therefore, the data-block 
 Users (Sharing)
 ===============
 
-Many data-blocks can be shared among other data-blocks,
+Many data-blocks can be shared among other data-blocks.
 
 Examples where sharing data is common:
 
@@ -98,7 +98,7 @@ Makes the selected or all objects data-blocks a single user, that is,
 not shared (linked) between other objects than the current one.
 
 Type
-   These actions work on the selected objects, or on all the objects of the scene,
+   These actions work on the selected objects, or on all the objects of the scene.
 
    All, Selected Objects
 Data-blocks

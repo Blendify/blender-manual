@@ -107,6 +107,7 @@ Apply Properties *(access from the toolbar)*
    - Metaball radius.
    - Armature bone radius and envelope size.
 
+
 .. _bpy.ops.object.transforms_to_deltas:
 .. _bpy.ops.object.anim_transforms_to_deltas:
 

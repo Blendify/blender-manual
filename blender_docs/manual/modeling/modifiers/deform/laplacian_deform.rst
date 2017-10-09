@@ -26,8 +26,7 @@ Options
 
 .. figure:: /images/modeling_modifiers_deform_laplacian-deform_panel.png
 
-   Laplacian Deform Modifier
-
+   Laplacian Deform Modifier.
 
 Repeat
    Repetitions iteratively improve the solution found.
@@ -77,7 +76,6 @@ Repeat
              :width: 130px
 
              Repeat: 10.
-
 
 Anchors Vertex Group
    A vertex group name, to define the group of vertices that the user uses to transform the model.

@@ -10,7 +10,6 @@ Line Set
 
    | Panel:    :menuselection:`Properties editor --> Render Layer --> Freestyle Line Set`
 
-
 A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
@@ -62,8 +61,7 @@ Edge types can also be excluded from calculation by pressing the *X* next to the
 
    Examples of some basic edge types:
    Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
-   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__ by LightBWK)
-
+   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__ by LightBWK).
 
 Silhouette
    Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
@@ -77,8 +75,7 @@ Crease
       :width: 600px
 
       Crease Angle proof of concept for 121º by LightBWK
-      ( `the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
-
+      ( `the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__).
 
 Border
    Border is for open/unclosed edge meshes; an open cylinder has an open edge at the top and bottom,
@@ -100,7 +97,6 @@ External Contour
 
    Left pair: Contour; Right pair: External Contour.
 
-
 Suggestive Contour
    Draws some lines which would form the contour of the mesh if the viewport was shifted.
    Depends on your viewmap settings for *Kr Derivative Epsilon* and *Sphere Radius*
@@ -120,7 +116,6 @@ Edge Marks
 .. figure:: /images/render_freestyle_line-set_edge-marks.png
 
    Edge Mark setting in the Line Sets tab.
-
 
 In edit mode you can mark "Freestyle Edges" in the same manner you can mark "Seams" for UV
 unwrapping or "Sharp" for edge split.
@@ -151,7 +146,6 @@ The examples below explain the use of edge marks.
 
           Render with Edge Marks enabled.
 
-
 With edge marks enabled, the previously-marked lines are always rendered.
 You can see the black contour lines and the blue lines that are made with edge marks.
 
@@ -173,7 +167,6 @@ Face Marks
 
    Face mark options.
 
-
 To set a face mark:
 
 #. Select a mesh object and enter *Edit Mode*.
@@ -194,7 +187,6 @@ On the right is a render without face marks activated.
      - .. figure:: /images/render_freestyle_line-set_face-marks_example-2.png
 
           Render Output.
-
 
 The line selection can be controlled via inclusion and faces options:
 

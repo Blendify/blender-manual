@@ -15,7 +15,6 @@ Decimate Geometry
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Decimate Geometry`
 
-
 The Decimate Geometry tool allows you to reduce the vertex/face count of a mesh with minimal shape changes.
 
 Ratio
@@ -44,7 +43,6 @@ Fill Holes
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Fill Holes`
 
-
 This tool can take a large selection and detect the holes in the mesh, filling them in.
 
 This is different from the face creation operator in three important respects:
@@ -64,7 +62,6 @@ Make Planar Faces
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Make Planar Faces`
 
-
 ToDo
 
 
@@ -76,7 +73,6 @@ Split Non-Planar Faces
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Split Non-Planar Faces`
-
 
 This tool avoids ambiguous areas of geometry by splitting non-flat faces when they are bent
 beyond a given limit.
@@ -103,7 +99,6 @@ Delete Loose Geometry
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Delete Loose`
 
-
 This tool removes disconnected vertices and edges (optionally faces).
 
 
@@ -115,7 +110,6 @@ Degenerate Dissolve
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Degenerate Dissolve`
-
 
 This tool collapses / removes geometry which you typically will not want.
 

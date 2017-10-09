@@ -13,7 +13,6 @@ Bevel
    | Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel`
    | Hotkey (vertex-only):  :kbd:`Shift-Ctrl-B`
 
-
 The bevel tool allows you to create chamfered or rounded corners to geometry.
 A bevel is an effect that smooths out edges and corners.
 
@@ -75,7 +74,6 @@ Options
 
 .. figure:: /images/modeling_meshes_editing_subdividing_bevel_panel.png
    :align: right
-
 
 Amount
    You can change the bevel amount by moving the mouse towards and away from the object,
@@ -151,7 +149,6 @@ Examples
           :width: 320px
 
           An example using Profile=0.150.
-
 
 .. seealso:: Bevel Modifier
 

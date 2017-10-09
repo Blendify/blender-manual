@@ -34,7 +34,6 @@ Repeat
       More repetitions will take longer to calculate.
       So beware of doing so on meshes with a large number of vertices.
 
-
    .. list-table:: With a factor of 0.5.
 
       * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat0.jpg
@@ -57,7 +56,6 @@ Repeat
 
              Repeat: 10.
 
-
    .. list-table:: With a factor of 2.0.
 
       * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_repeat0.png
@@ -79,7 +77,6 @@ Repeat
              :width: 130px
 
              Repeat: 10.
-
 
    .. list-table:: With a factor of -0.5.
 
@@ -110,7 +107,6 @@ Factor
    - Using a large *Factor*, you get smoothed versions of the shape at the cost of fine geometry details.
    - Using a negative *Factor*, you can enhance the shape, preserving desirable geometry.
    - When the *Factor* is negative, multiple iterations can magnify the noise.
-
 
    .. list-table::
 
@@ -181,7 +177,6 @@ Border
    Positive values will smooth the vertex positions,
    while negative values will "enhance" them by transforming them in the opposite direction.
 
-
    .. list-table:: With a factor of 2.5.
 
       * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_border0_0.jpg
@@ -204,7 +199,6 @@ Border
 
              Border: 10.0.
 
-
    .. list-table:: With a factor of 20.0.
 
       * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube_border0_0.jpg
@@ -226,7 +220,6 @@ Border
              :width: 130px
 
              Border: 20.0.
-
 
    .. list-table:: With a factor of -30.0.
 
@@ -254,7 +247,6 @@ Axis
    Toggle buttons to enable/disable deforming vertices in the X, Y and/or Z axis directions.
 
    X, Y, Z
-
 
    .. list-table::
 
@@ -298,7 +290,6 @@ Axis
 
              X: Selected.
 
-
 Preserve Volume
    The smoothing process can produce shrinkage.
    That is significant for large *Factor* or large *Repeat* values;
@@ -326,11 +317,9 @@ Preserve Volume
 
              On.
 
-
 Vertex Group
    A vertex group name, to constrain the effect to a group of vertices only.
    Allows for selective, real-time smoothing or enhancing, by painting vertex weights.
-
 
    .. list-table::
       :header-rows: 1
@@ -375,10 +364,8 @@ Vertex Group
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel_vertex3.jpg
              :width: 130px
 
-
 Normalized
    When enabled, the results will depend on face sizes. When disabled, geometry spikes may occur.
-
 
    .. list-table::
 
@@ -401,7 +388,6 @@ Normalized
              :width: 130px
 
              Off, High Factor.
-
 
 .. hint::
 
@@ -426,7 +412,6 @@ Examples
 
           `Cube Smooth blend-file
           <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__.
-
 
 .. seealso::
 
