@@ -22,7 +22,6 @@ Options
 
    Inverse Kinematics panel.
 
-
 Target
    :ref:`ui-data-id` used to select the an armature.
 Pole Target

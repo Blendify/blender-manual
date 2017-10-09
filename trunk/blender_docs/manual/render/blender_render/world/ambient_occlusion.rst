@@ -41,7 +41,6 @@ Options
 
    The World panel with ambient color sliders highlighted.
 
-
 Factor
    The strength of the AO effect, a multiplier for addition.
 

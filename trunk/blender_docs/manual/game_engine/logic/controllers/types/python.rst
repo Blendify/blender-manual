@@ -32,7 +32,6 @@ Parts of the Python Controller
 
    Python Controller.
 
-
 Type
    Specifies whether it is a module or entire file.
 Name

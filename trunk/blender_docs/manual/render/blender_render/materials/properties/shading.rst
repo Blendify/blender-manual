@@ -10,7 +10,6 @@ In the separate *Shading* panel six more options are available:
 
    Shading menu, default settings.
 
-
 Emit
    Amount of light to emit.
 Ambient

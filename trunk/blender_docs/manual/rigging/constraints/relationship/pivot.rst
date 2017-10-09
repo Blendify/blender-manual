@@ -18,7 +18,6 @@ Options
 
    Pivot panel.
 
-
 Target
    :ref:`ui-data-id` for the selection of the object to be used as a pivot point.
 Pivot Offset

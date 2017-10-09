@@ -13,7 +13,6 @@ If data-blocks are linked the data will be updated across all of the users when 
 
    The Data-Block menu with a search input.
 
-
 Type
    Shows an icon indicating the data-block type. It opens up the following pop-up menu.
    The data-block can be dragged from here e.g to drag a material onto an object in the 3D View or

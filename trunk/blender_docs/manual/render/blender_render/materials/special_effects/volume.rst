@@ -76,7 +76,6 @@ light beams as they travel though a volume and are scattered towards the eye.
 
    Shading options.
 
-
 Scattering
    The amount of light that is scattered out of the volume.
    The more light that is scattered out of the volume, the less it will penetrate through the rest of the volume.
@@ -373,7 +372,6 @@ Options
 .. figure:: /images/materials-volumerender-options.jpg
 
    Material volume options.
-
 
 Traceable
    Allow this material to calculate raytracing.

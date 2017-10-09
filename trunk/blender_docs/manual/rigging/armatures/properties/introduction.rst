@@ -17,7 +17,6 @@ in Properties editor, *Object* tab:
 
    The Object property in the Properties editor.
 
-
 Skeleton
    In this panel you can arrange sets of bones into different layers for easier manipulation.
 Display

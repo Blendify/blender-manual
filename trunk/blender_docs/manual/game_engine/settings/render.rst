@@ -279,7 +279,6 @@ See :doc:`Render Baking </render/blender_render/bake>` for further details.
 
    Bake panel at the Render tab (showing different bake modes).
 
-
 Bake
    Bake image textures of selected objects.
 Bake Mode

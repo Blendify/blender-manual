@@ -34,7 +34,6 @@ Active Keyframe Panel
 
    Active Keyframe Panel.
 
-
 Interpolation
    Set the forward :ref:`editors-graph-fcurves-settings-interpolation` for the active keyframe.
 Easing

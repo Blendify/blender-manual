@@ -149,7 +149,6 @@ Minimum / Maximum
    Now we will move to the next step,
    the forces that keep the structure of the object and make the Soft Body to a real Body.
 
-
 Stiffness
    The spring stiffness for Goal. A low value creates very weak springs
    (more flexible "attachment" to the goal), a high value creates a strong spring

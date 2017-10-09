@@ -9,7 +9,6 @@ Image Settings
 
    Image panel.
 
-
 Image
    Data-block menu.
 

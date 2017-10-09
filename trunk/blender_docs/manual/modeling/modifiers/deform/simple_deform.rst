@@ -18,7 +18,6 @@ Options
 
    Simple Deform.
 
-
 Mode
    This radio button defines the deform function applied, among four available:
 

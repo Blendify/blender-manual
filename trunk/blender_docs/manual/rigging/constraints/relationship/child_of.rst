@@ -34,7 +34,6 @@ Options
 
    Child Of panel.
 
-
 Target
    The target object that this object will act as a child of.
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.

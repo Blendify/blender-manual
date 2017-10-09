@@ -26,7 +26,6 @@ Create a force field buffer zone along one axis of the object.
 
    Force Field Constraint.
 
-
 Damping
    Damping factor of the Fh spring force.
 Distance
@@ -63,7 +62,6 @@ Constrain the specified axis in the Game to a specified direction in the World a
 
    Orientation Constraint.
 
-
 Direction
    Game axis to be modified (X, Y, Z or none).
 Damping
@@ -87,7 +85,6 @@ Maintain the distance the Game Object has to be from a surface.
    :width: 271px
 
    Distance Constraint.
-
 
 Direction
    Axis Direction (X, Y, Z, -X, -Y, -Z, or None).
@@ -125,7 +122,6 @@ To limit movement within an area or volume, use two or three constraints.
    :width: 271px
 
    Location Constraint.
-
 
 Limit
    Axis in which to apply limits (LocX, LocY, LocZ or none).

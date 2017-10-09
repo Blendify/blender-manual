@@ -30,7 +30,6 @@ Options
 
    Spline IK panel.
 
-
 Target
    :ref:`ui-data-id` used to select the target curve.
 

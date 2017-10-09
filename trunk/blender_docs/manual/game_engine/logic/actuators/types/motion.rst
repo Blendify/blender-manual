@@ -42,7 +42,6 @@ and leaves updating the position to the physics simulation.
 
    Motion actuator for Simple Motion.
 
-
 Loc
    The object jumps the number of Blender units entered,
    each time a pulse is received.

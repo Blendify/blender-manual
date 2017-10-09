@@ -18,7 +18,6 @@ Options
 
    Nearest Surface Point.
 
-
 Target
    Shrink target, the mesh to shrink to/wrap around.
 Offset

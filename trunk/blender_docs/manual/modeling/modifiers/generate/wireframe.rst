@@ -18,7 +18,6 @@ Options
 
    Wireframe Modifier.
 
-
 Thickness
    The depth or size of the wireframes.
 Offset

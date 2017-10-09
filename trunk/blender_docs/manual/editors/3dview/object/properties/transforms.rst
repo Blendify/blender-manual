@@ -42,7 +42,6 @@ of all of its *vertices* and faces.
 
    Transform Properties.
 
-
 Location
    The object's origin location in global coordinates.
 Rotation

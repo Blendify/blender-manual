@@ -36,7 +36,6 @@ Options
 
    Modifier's Panel.
 
-
 Type
    This toggle button allows you to choose the subdivision algorithm:
 
@@ -65,7 +64,6 @@ approximation of your model when interacting with it in 3D, but use a higher qua
 
    Be careful not to set the *View* subdivisions higher than the *Render* subdivisions,
    this would mean the 3D View will be higher quality than the render.
-
 
 Options
    Subdivide UVs

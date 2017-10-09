@@ -23,7 +23,6 @@ Options
 
    Screw Modifier.
 
-
 Axis
    The axis along which the helix will be built.
 

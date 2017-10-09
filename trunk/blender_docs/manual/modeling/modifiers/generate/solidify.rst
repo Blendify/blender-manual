@@ -14,7 +14,6 @@ Options
 
    Solidify Modifier.
 
-
 Thickness
    The depth to be solidified.
 Offset

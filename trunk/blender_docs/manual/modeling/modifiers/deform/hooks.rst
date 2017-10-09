@@ -26,7 +26,6 @@ Options
 
    Hook Modifier.
 
-
 Object
    The name of the object to hook vertices to.
 Vertex Group

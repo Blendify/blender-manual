@@ -165,7 +165,6 @@ Continuous operations without changing the selection will repeat the operation c
 
    Screw Tools Operator Panel (Edit Mode).
 
-
 Center
    These number buttons specify the center of the spin. When the tool is called for the first time,
    it will copy the (X, Y, Z) location (Global Coordinates)

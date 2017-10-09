@@ -110,7 +110,6 @@ Error Limit
    or over-exaggerated responses, decrease the value. The solver keeps track of how "bad" it is doing and the
    *Error Limit* causes the solver to do some "adaptive step sizing".
 
-
 Fuzzy
    Simulation is faster, but less accurate.
 Choke

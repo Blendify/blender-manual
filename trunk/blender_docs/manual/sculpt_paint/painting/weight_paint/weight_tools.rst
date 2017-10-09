@@ -141,7 +141,6 @@ Options
 
    Invert Options.
 
-
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ about how subsets are defined.
 Add Weights
@@ -178,7 +177,6 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_clean_options.jpg
 
    Clean Options.
-
 
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.

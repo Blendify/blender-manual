@@ -108,7 +108,6 @@ Corner Cut Type
 
              Path cut type.
 
-
 Fractal
    Displaces the vertices in random directions after the mesh is subdivided.
 

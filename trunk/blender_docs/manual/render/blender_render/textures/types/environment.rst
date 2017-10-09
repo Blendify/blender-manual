@@ -143,7 +143,6 @@ Environment Map Sampling
 
    Environment Map Sampling.
 
-
 Filter
    Box
       Box Filter
