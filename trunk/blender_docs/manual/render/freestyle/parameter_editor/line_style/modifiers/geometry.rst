@@ -295,6 +295,7 @@ Pure Random
    When disabled, the next generated random value depends on the previous one;
    otherwise they are completely independent. Disabling this setting gives a more "consistent" noise along a stroke.
 
+
 .. _bpy.types.LineStyleGeometryModifier_TipRemover:
 
 Tip Remover

@@ -25,7 +25,6 @@ this parameter sets the maximum number of bounces allowed for a single ray.
    You need to enable ray tracing in your scene settings if you want to use ray-traced
    reflections. This is done in the :menuselection:`Render --> Shading` panel.
 
-
 The *Mirror Color* in the mirror panel is the color of the light reflected back. Usually,
 for normal mirrors, use white. However, some mirrors color the reflection (e.g. metals),
 so you can change the color by clicking on the color button.
@@ -85,8 +84,7 @@ Fade to
 .. figure:: /images/material-raymirror-example.jpg
 
    Suzanne in the Fun House
-   (`blend-file <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__)
-
+   (`blend-file <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__).
 
 Gloss
    In paint, a high-gloss finish is very smooth and shiny. A flat, or low gloss,
@@ -112,8 +110,7 @@ Gloss
 .. figure:: /images/material-raymirror-anisotropicexample.jpg
 
    Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0.
-   (`.blend <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__)
-
+   (`.blend <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__).
 
    Anisotropic
       The shape of the reflection, from 0.0 (circular) to 1.0 (fully stretched along the tangent).
@@ -136,7 +133,6 @@ Fresnel
 .. figure:: /images/material-mirrorfresnel-example.jpg
 
    Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0, 2.5 and 5.0.
-
 
 Let us undertake a small experiment in order to understand what Fresnel is really about.
 After a rainy day, go out and stand over a puddle of water.

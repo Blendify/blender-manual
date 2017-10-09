@@ -63,6 +63,7 @@ Group Instance
    Once selected, an Empty object will be created, with an instance of the selected group (group duplication active).
    See :doc:`/editors/3dview/object/properties/duplication/dupligroup`.
 
+
 .. _object-common-options:
 
 Common Options

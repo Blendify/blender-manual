@@ -42,7 +42,7 @@ Dissolve & Limited Dissolve
 
 Dissolve operations are also accessed from the delete menu.
 Dissolve will remove the geometry and fill in the surrounding geometry.
-Instead of removing the geometry, which may leave holes that you have to fill in again,
+Instead of removing the geometry, which may leave holes that you have to fill in again.
 
 
 Dissolve

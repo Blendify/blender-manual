@@ -125,7 +125,6 @@ To understand this, look at Fig. :ref:`fig-rig-bone-select-deselect`.
 
           Two selected bones.
 
-
 After :kbd:`Shift-RMB` -clicking "Bone.003":
 
 - "Bone.003" 's tip (which is same as "Bone.004" 's root) is deselected.
@@ -161,7 +160,6 @@ Similar
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Similar`
    | Hotkey:   :kbd:`Shift-G`
-
 
 Children
    Extends the selection to all hierarchical descendant bones.

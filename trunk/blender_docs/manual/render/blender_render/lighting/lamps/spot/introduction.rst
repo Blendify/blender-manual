@@ -25,7 +25,6 @@ Lamp options
 
    Common Lamp options of a Spot.
 
-
 Distance, Energy and Color
    These settings are common to most types of lamps, and are described in
    :doc:`Light Properties </render/blender_render/lighting/lights/lamp_panel>`.
@@ -90,7 +89,6 @@ Size
 
         - .. figure:: /images/lighting-lamps-spot-size_60.png
              :width: 320px
-
 
 Blend
    The *Blend* slider controls the inner cone of the *Spot*.

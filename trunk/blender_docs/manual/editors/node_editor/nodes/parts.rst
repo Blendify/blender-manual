@@ -25,6 +25,7 @@ which can be used to collapse the node this can also be done with :kbd:`H`.
 
    How a node appears when collapsed.
 
+
 .. _bpy.types.NodeLink:
 
 Sockets
@@ -68,6 +69,7 @@ Outputs
 
 The *Outputs* are located on the top right side of the node,
 and can be connected to the input of nodes further down the node tree.
+
 
 .. _bpy.types.NodeSetting:
 
