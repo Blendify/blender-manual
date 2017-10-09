@@ -11,6 +11,7 @@ Alpha Convert Node
 
 The *Alpha Convert Node* converts the alpha channel interpretation of an image.
 
+
 Inputs
 ======
 

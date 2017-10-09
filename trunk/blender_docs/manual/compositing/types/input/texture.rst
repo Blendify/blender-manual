@@ -11,6 +11,7 @@ Texture Node
 
 The Texture node makes 3D textures available to the compositor.
 
+
 Inputs
 ======
 
@@ -19,12 +20,14 @@ Offset
 Scale
    A vector (XYZ) to scale the texture.
 
+
 Properties
 ==========
 
 Texture
    The texture could be selected from a list of textures available in the current blend-file or link in textures.
    The textures themselves could not be edited in this note, but in the Texture panel.
+
 
 Outputs
 =======

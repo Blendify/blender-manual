@@ -6,6 +6,7 @@ Selecting
 Selection tools are available in the *Select Menu* in the header,
 and the shortcuts listed below:
 
+
 Menu
 ====
 

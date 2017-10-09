@@ -11,6 +11,7 @@ Output Node
 
 The preview could also be used for a non shader color input.
 
+
 Inputs
 ======
 
@@ -18,6 +19,7 @@ Color
    Color applied to the geometry.
 Alpha
    Alpha transparency.
+
 
 Properties
 ==========

@@ -17,6 +17,7 @@ This node can be used as a way to automatically save the image after a render;
 In addition, since this node can be hooked in anywhere in the node tree,
 it can also save intermediate images automatically.
 
+
 Inputs
 ======
 
@@ -28,6 +29,7 @@ Image
 
    To support subsequent arrangement and layering of images, the node can supply a Z-depth map.
    However, please note that only the OpenEXR image formats save the Z information.
+
 
 Properties
 ==========

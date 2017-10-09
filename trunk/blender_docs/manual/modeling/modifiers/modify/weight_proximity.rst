@@ -148,6 +148,7 @@ Use Channel
    This also implies that you will have to disable the *Vertex Weight Proximity Modifier*
    if you want to see the original weights of the vertex group you are editing.
 
+
 Example
 =======
 

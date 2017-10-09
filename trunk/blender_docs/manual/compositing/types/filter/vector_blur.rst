@@ -12,6 +12,7 @@ Vector (Motion) Blur Node
 The Vector Blur node applies a **non** physically based method of simulating :term:`Motion blur`.
 It uses the vector speed render pass to blur the image pixels in 2D.
 
+
 Inputs
 ======
 

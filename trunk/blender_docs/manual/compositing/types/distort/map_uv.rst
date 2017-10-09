@@ -28,6 +28,7 @@ UV
 
    To store the UV pass a multilayer OpenEXR format could be used.
 
+
 Properties
 ==========
 

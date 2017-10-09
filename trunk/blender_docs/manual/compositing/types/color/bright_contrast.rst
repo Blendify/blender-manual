@@ -25,10 +25,12 @@ Contrast
    A scaling type factor by which to make brighter pixels brighter, but keeping the darker pixels dark.
    Higher values make details stand out. Use a negative number to decrease the overall contrast in the image.
 
+
 Properties
 ==========
 
 This node has no properties.
+
 
 Outputs
 =======

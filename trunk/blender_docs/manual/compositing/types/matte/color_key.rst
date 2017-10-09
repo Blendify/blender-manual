@@ -11,6 +11,7 @@ Color Key Node
 
 The color key node creates a matte based on a specified color of the input image.
 
+
 Inputs
 ======
 

@@ -10,6 +10,7 @@ The Color Balance node can adjust the color and values of an image.
 
    Color Balance Node.
 
+
 Inputs
 ======
 
@@ -46,6 +47,7 @@ Outputs
 
 Color
    Standard output image.
+
 
 Advanced
 ========

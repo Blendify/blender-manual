@@ -103,6 +103,7 @@ and line numbers can be optionally shown with the ``:linenos:`` option::
       def some_function():
           ...
 
+
 Images
 ======
 

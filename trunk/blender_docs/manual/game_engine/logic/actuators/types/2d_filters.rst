@@ -120,6 +120,7 @@ Blue Sepia Example:
      gl_FragColor = vec4(gray * vec3(0.8, 1.0, 1.2), texcolor.a);
    }
 
+
 Examples
 ========
 

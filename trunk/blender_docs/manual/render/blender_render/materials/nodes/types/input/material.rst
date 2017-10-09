@@ -11,6 +11,7 @@ Material Node
 
 The Material node is used for shading.
 
+
 Inputs
 ======
 

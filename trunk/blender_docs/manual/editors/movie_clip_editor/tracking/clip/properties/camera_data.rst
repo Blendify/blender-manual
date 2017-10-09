@@ -7,6 +7,7 @@ Camera Data
 This panel contains all settings of the camera used for filming the movie which is currently
 being edited in the clip editor.
 
+
 Camera
 ======
 

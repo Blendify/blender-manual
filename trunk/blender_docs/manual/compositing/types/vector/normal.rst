@@ -15,6 +15,7 @@ Normal Node
 
 The Normal node generates a normal vector and a dot product.
 
+
 Inputs
 ======
 

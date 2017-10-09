@@ -21,6 +21,7 @@ Image
 Image
    And respectively the left or bottom half.
 
+
 Properties
 ==========
 
@@ -28,6 +29,7 @@ Axis
    X or Y used as the split axis.
 Factor
    Percentage factor setting the space distribution between the two images.
+
 
 Outputs
 =======
@@ -38,6 +40,7 @@ This node has no output sockets.
 
    This node could be used to plan scene transitions by comparison of the end frame of one scene
    with the start frame of another to make sure that they align.
+
 
 Examples
 ========

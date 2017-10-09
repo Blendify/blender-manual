@@ -19,10 +19,12 @@ Inputs
 
 This node has no input sockets.
 
+
 Properties
 ==========
 
 The RGB node uses the :ref:`color picker widget <ui-color-picker>`.
+
 
 Outputs
 =======

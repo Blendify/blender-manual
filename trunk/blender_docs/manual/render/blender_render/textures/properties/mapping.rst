@@ -14,6 +14,7 @@ a 2D image texture could be configured to wrap itself around a cylindrical shape
 
    Mapping panel.
 
+
 Coordinates
 ===========
 

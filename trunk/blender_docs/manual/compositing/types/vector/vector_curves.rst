@@ -17,6 +17,7 @@ The Vector Curves node maps an input vector components to a curve.
 
 Use this curve node to slow things down or speed them up from the original scene.
 
+
 Inputs
 ======
 
@@ -35,6 +36,7 @@ Channel
    X, Y, Z
 Curve
    For the curve controls see: :ref:`Curve widget <ui-curve-widget>`.
+
 
 Outputs
 =======
