@@ -23,7 +23,6 @@ Options
 
    Toon edge buttons.
 
-
 Edge
    This makes Blender search for edges in your rendering and add an 'outline' to them.
 

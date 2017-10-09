@@ -20,7 +20,6 @@ Options
 
    Mesh Cache Modifier.
 
-
 Format
    The input file format (currently ``.mdd`` and ``.pc2`` are supported).
 File Path

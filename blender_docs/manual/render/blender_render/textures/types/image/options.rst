@@ -49,7 +49,6 @@ the horizontal bar has 50% alpha.
 
           Foreground image with *Calculate* alpha.
 
-
 Alpha
    Options related to transparency.
 

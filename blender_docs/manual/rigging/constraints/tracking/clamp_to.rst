@@ -50,7 +50,6 @@ Options
 
    Clamp To panel.
 
-
 Target
    The Target: field indicates which curve object the Clamp To constraint will track along.
    The Target: field must be a curve object type. If this :ref:`ui-data-id` field is not filled in

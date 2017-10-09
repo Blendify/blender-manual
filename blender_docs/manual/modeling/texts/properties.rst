@@ -226,7 +226,6 @@ Character
 
           Character options to, for example, type bold text.
 
-
 Bold
    Toggled with the *Bold* button before typing.
    Text can also be set to Bold by selecting it then using the *Bold* button in the Tool Shelf.

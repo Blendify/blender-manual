@@ -58,7 +58,6 @@ For more information on the different shadow generation methods see these links:
 
    Buffer Shadowset to Classic-Halfway.
 
-
 Classical
    A shadow generation which used to be the Blender default and unique method for generation of buffered shadows.
    It used an older way of generating buffered shadows,

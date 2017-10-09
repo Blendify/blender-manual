@@ -122,6 +122,7 @@ Connected :kbd:`Alt-O`
    The icon will have a gray center when *Connected* is active.
    This mode is only available in *Edit Mode*.
 
+..
 
 Falloff
    While editing, you can change the curve profile used by either using the

@@ -24,7 +24,6 @@ Options
 
    Shrinkwrap panel.
 
-
 Target
    :ref:`ui-data-id` used to select the constraint's target, which *must* be a mesh object,
    and is not functional (red state) when it has none.

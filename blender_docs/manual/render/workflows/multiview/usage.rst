@@ -228,7 +228,6 @@ It also allow you to see the Cameras, the Plane and the Volume of the stereo cam
 
    Viewport Stereo 3D Settings.
 
-
 Cameras
    When working with the Stereo 3D Views setup, you can inspect what
    each individual generated camera is looking or the combined result of them.

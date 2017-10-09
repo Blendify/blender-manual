@@ -33,7 +33,6 @@ Options
 
    Bevel Modifier panel.
 
-
 Width
    The size of the bevel affect. See *Width Method* below.
 
@@ -41,7 +40,6 @@ Width
       :width: 610px
 
       Three Cubes with 0.1, 0.3 and 0.5 bevel Widths.
-
 
 Segments
    The number of edge loops added along the bevel's face.

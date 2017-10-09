@@ -26,7 +26,6 @@ Options
 
    Limit Distance panel.
 
-
 Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Distance

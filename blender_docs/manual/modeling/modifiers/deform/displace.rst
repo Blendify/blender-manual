@@ -18,7 +18,6 @@ Options
 
    Displace Modifier.
 
-
 Texture
    The name of the texture from which the displacement for each vertex is derived.
    If this field is empty, the modifier defaults to 1.0 (white).

@@ -19,7 +19,6 @@ the panels change depending on which mode you are working in.
 
    The Bone tab.
 
-
 Relations
    In this panel you can arrange sets of bones in different layers for easier manipulation.
 Display

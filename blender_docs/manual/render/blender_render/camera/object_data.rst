@@ -227,7 +227,6 @@ Display
 
    Camera Display Panel.
 
-
 Limits
    Shows a line which indicates *Start* and *End Clipping* values.
 Mist
@@ -239,7 +238,6 @@ Mist
 .. figure:: /images/render_blender-render_camera_object-data_display-view.png
 
    Camera view displaying safe areas, sensor and name.
-
 
 Sensor
    Displays a dotted frame in camera view.

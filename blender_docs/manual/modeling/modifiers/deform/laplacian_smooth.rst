@@ -22,7 +22,6 @@ Options
 
    Laplacian Smooth Modifier.
 
-
 Repeat
    Repetitions allow you to run the Laplacian smoothing multiple times.
    Each repetition causes the flow curvature of the mesh to be recalculated again,
@@ -104,7 +103,6 @@ Repeat
 
              Repeat: 10.
 
-
 Factor
    Controls the amount of displacement of every vertex along the curvature flow.
 
@@ -175,7 +173,6 @@ Factor
              :width: 130px
 
              Factor: -300.0.
-
 
 Border
    Since there is no way to calculate the curvature flow on border edges, they must be controlled separately.
@@ -252,7 +249,6 @@ Border
              :width: 130px
 
              Border: -200.0.
-
 
 Axis
    Toggle buttons to enable/disable deforming vertices in the X, Y and/or Z axis directions.

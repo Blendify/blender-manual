@@ -49,7 +49,6 @@ The Y-axis is considered the front of the object.
 
    Edit Object: Track To.
 
-
 Object
    Object to follow.
 Time
@@ -98,7 +97,6 @@ The object that is added needs to be on another, hidden, layer.
    :width: 271px
 
    Edit Object: Add Object.
-
 
 Object
    The name of the object that is going to be added.

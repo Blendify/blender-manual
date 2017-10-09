@@ -98,7 +98,6 @@ This panel is used to control how the *Pose Bones* work in the IK chain.
 
    The bone IK panel.
 
-
 Lock
    Disallow movement around the axis.
 Stiffness

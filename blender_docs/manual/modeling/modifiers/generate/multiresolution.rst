@@ -25,7 +25,6 @@ Options
 
    Multiresolution Modifier.
 
-
 Type
    Sets the type of subdivision.
 
