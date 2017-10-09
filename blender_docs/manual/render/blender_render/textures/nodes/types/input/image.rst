@@ -12,6 +12,7 @@ Image Node
 
 The image node can be used to load an external image.
 
+
 Inputs
 ======
 

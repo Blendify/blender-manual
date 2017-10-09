@@ -41,6 +41,7 @@ Target
    The name of property to which the keystrokes are saved. This property must be of type *String*.
    Together with a *Property* sensor this can be used for example to enter passwords.
 
+
 Example
 =======
 

@@ -13,6 +13,7 @@ uses one of three Boolean operations that can be used to create a single mesh ou
    The Union, Intersection and Difference between a Cube and a UV Sphere,
    with the modifier applied to the Sphere and using the cube as target.
 
+
 Usage
 =====
 
@@ -29,6 +30,7 @@ operation for the Boolean Modifier at a time.
    (in :menuselection:`Properties Editor --> Object --> Display`, enable *Wire*),
    you will see the Edge creation process while you are moving your Objects. Depending on your mesh topology,
    you can also enable X-Ray and Transparency and see the topology being created in real time.
+
 
 Options
 =======

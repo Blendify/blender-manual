@@ -86,6 +86,7 @@ Axis Direction
    - (Axis Number = 2) Paddle upper (Left); paddle Lower (Right);
    - Joystick twist left (Up) Joystick twist right (Down)
 
+
 Button
 ------
 

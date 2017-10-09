@@ -14,6 +14,7 @@ The *Chroma Key* node determines if a pixel is a foreground or background
 
 Use this, for example, to composite images that have been shot in front of a green or blue screen.
 
+
 Inputs
 ======
 

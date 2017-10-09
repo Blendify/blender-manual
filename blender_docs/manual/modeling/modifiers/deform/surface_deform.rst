@@ -9,6 +9,7 @@ One great use for this is to have a proxy mesh for cloth simulation,
 which will in turn drive the motion of your final and more detailed mesh,
 which would otherwise not be suitable for simulation.
 
+
 Options
 =======
 

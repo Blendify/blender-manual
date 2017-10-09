@@ -59,6 +59,7 @@ Layer
 Layer Weight
    How much of the previous layer to blend into this one.
 
+
 Example
 =======
 

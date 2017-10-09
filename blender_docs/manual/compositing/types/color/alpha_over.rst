@@ -14,6 +14,7 @@ Alpha Over Node
 The *Alpha Over Node* is used to layer images on top of one another.
 Alpha Over does not work on the colors of an image.
 
+
 Inputs
 ======
 

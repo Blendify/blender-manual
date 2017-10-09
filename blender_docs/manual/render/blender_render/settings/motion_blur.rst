@@ -48,6 +48,7 @@ scene without any blur, plus a pass that has movement information for each pixel
 This information is a vector map which describes a 2D or 3D direction and magnitude.
 The compositor uses that data to blur each pixel in the given direction.
 
+
 Examples
 ========
 

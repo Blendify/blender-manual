@@ -16,6 +16,7 @@ For example in YUV color space,
 this is useful when compositing stock footage of explosions (very bright)
 which are normally shot against a solid, dark background.
 
+
 Inputs
 ======
 

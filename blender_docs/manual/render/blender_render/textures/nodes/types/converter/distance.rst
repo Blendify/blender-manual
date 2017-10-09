@@ -11,6 +11,7 @@ Distance Node
 
 Computes the distance between two 3D coordinates.
 
+
 Inputs
 ======
 
@@ -18,6 +19,7 @@ Coordinate 1
    First coordinate point.
 Coordinate 2
    Second coordinate point.
+
 
 Properties
 ==========

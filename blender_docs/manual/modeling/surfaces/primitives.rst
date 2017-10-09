@@ -30,6 +30,7 @@ There are also two preset NURBS surface curves (with only one control point on e
 
 Note how a circle :term:`NURBS` surface is never filled, unlike its "real" curve counterpart...
 
+
 Common Options
 ==============
 

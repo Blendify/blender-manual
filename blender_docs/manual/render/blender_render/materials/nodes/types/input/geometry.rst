@@ -16,6 +16,7 @@ Use this node to feed the Normal vector input on the Material node,
 to see how the material will look (e.g. shine, or reflect light)
 under different lighting conditions. Your choices are:
 
+
 Inputs
 ======
 

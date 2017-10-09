@@ -11,6 +11,7 @@ with an input curve.
 
    Hue Correct Node.
 
+
 Inputs
 ======
 
@@ -32,6 +33,7 @@ Curve
    To change an H, S, or V level, move the curve points up or down. Pixels with hue values each
    point in the horizontal position of the graph will be changed depending on the shape of the
    curve.
+
 
 Outputs
 =======

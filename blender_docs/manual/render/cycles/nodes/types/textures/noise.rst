@@ -13,6 +13,7 @@ Noise Texture Node
 The *Noise Texture* is used to add procedural Perlin noise texture,
 similar to the *Clouds* texture in *Blender Internal*.
 
+
 Inputs
 ======
 

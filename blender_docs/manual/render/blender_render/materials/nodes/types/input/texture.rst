@@ -10,11 +10,13 @@ Texture Node
 
 Can be used to input image or procedural textures.
 
+
 Inputs
 ======
 
 Vector
    Uses for map the texture to a specific geometric space.
+
 
 Properties
 ==========

@@ -15,6 +15,7 @@ You can copy a UV Map from one mesh to another Mesh provided both meshes have th
 geometry/vertex order. This is useful for example when you want to recreate a UV map from an
 earlier version of your model with intact UVs.
 
+
 Workflow
 --------
 

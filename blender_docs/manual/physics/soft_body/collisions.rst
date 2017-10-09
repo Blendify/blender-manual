@@ -147,6 +147,7 @@ If the collision you have set up is not behaving properly, you can try the follo
 Often it is better to create a simplified mesh to use as your collision object,
 however, this may be difficult if you are using an animated mesh.
 
+
 Self Collisions
 ===============
 
