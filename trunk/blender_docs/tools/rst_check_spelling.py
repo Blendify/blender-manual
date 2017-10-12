@@ -68,7 +68,11 @@ def check_spelling_body(text):
             if USE_ONCE and w_lower in once_words:
                 continue
 
-            if not dict_spelling.check(w):
+            if dict_spelling.check(w):
+                pass
+            elif "-" in w and all(w_split == "" or dict_spelling.check(w_split) for w_split in w.split("-")):
+                pass  # all words split by dash are correct, also pass
+            else:
                 bad_words.add(w)
                 # print(" %r" % w)
 
@@ -101,6 +105,7 @@ def main():
     words_sorted.sort(key=lambda s: s.lower())
     for w in words_sorted:
         print(w)
+        # print(w, "->", " ".join(dict_spelling.suggest(w)))
 
 
 # -----------------------------------------------------------------------------
