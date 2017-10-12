@@ -78,7 +78,7 @@ then it can be found here:
 
 .. figure:: /images/interface_window_system-console_windows.png
 
-   Blender’s Console Window on Microsoft Windows.
+   Blender's Console Window on Microsoft Windows.
 
 
 The screenshot shows the Blender *Console Window* on Microsoft Windows directly after starting

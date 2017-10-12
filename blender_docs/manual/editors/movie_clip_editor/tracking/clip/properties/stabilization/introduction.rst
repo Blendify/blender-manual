@@ -13,7 +13,7 @@ and finally gives some hints about usage in practice.
 Typical **usage scenarios** of the stabilizer:
 
 - fix minor deficiencies (shaky tripod, jerk in camera movement)
-- "poor man’s steadycam" (when a real steadycam was not available, affordable or applicable)
+- "poor man's steadycam" (when a real steadycam was not available, affordable or applicable)
 - as preparation for masking, matching and rotoscoping
 
 It is not uncommon for 2D stabilization to have to deal with somewhat imperfect and flawed footage.

@@ -37,7 +37,7 @@ Options
 Custom Shape
    Object that defines the custom shape of the selected bone.
 Bone Size
-   Option not to use bones length, so that changes in Edit Mode don’t resize the custom-shape.
+   Option not to use bones length, so that changes in Edit Mode don't resize the custom-shape.
 Scale
    Avoids having multiple custom-shapes at different sizes.
 At

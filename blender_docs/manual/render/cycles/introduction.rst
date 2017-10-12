@@ -5,7 +5,7 @@ Introduction
 
 .. figure:: /images/cycles_introduction.jpg
 
-Cycles is Blender’s ray-tracing production render engine.
+Cycles is Blender's ray-tracing production render engine.
 
 To use Cycles, it must be set as the active render engine in the top header. Once that is done,
 interactive rendering can be started by setting a 3D View editor to draw mode Rendered using :kbd:`Shift-Z`.
@@ -21,7 +21,7 @@ To see if and how you can use your GPU for rendering, see the documentation on
 .. note:: Cycles Outside of Blender
 
    Since its release under a permissive open-source (Apache 2.0) license,
-   it’s also in use by other 3D tools, such as Poser and Rhino.
+   it's also in use by other 3D tools, such as Poser and Rhino.
    Cycles can be used as part of Blender and as stand-alone,
    making it a flexible solution for ray-traced rendering.
 

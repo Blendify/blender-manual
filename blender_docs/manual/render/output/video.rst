@@ -189,7 +189,7 @@ in the Video Sequence Editor (VSE). This way, you can easily:
 
 .. tip::
 
-   You shouldn’t post-process a lossy-compressed file as the compression artifacts may become visible.
+   You shouldn't post-process a lossy-compressed file as the compression artifacts may become visible.
    Lossy compression should be reserved as a final 'delivery format'.
 
 If you are planning on doing significant post-processing and color correction,

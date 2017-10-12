@@ -105,7 +105,7 @@ The higher this setting, the smoother "bends" the bone, but the heavier the pose
 Curve XY Offsets
 ----------------
 
-Applies an offsets the curve handle positions on the plane perpendicular to the bone’s primary (Y) axis.
+Applies an offsets the curve handle positions on the plane perpendicular to the bone's primary (Y) axis.
 As a result, the handle moves per-axis (XY) further from its original location, causing the curve to bend.
 
 
@@ -158,12 +158,12 @@ Custom Handle Reference
 B-Bones can use custom bones as their reference bone handles, instead of only using the parent/child bones.
 To do so, enable the *Use Custom Reference Handles* toggle in Pose Mode.
 If none are specified, then the BBone will only use the Bendy Bone properties.
-When the option is on, just use the specified bones instead of using trying looking at the bone’s neighbors.
+When the option is on, just use the specified bones instead of using trying looking at the bone's neighbors.
 
 Relative
    Instead of using the endpoints of the bones as absolute points in 3D space
    it computes how far the reference bone has moved away from its rest pose.
-   The delta transformation is then applied as to the bone’s own endpoints to get the handle locations.
+   The delta transformation is then applied as to the bone's own endpoints to get the handle locations.
    This is useful if the custom control bone is far away from its target.
 
 .. tip:: Keying Set
