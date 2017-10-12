@@ -13,7 +13,7 @@ Manipulate Center Points
 
 
 When this option is enabled, the transformation
-will change the positions of the object’s origins,
+will change the positions of the object's origins,
 but will not affect the object itself.
 
 .. figure:: /images/editors_3dview_object_transform-control_pivot-point_manipulate-center-points_button.png

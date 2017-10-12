@@ -319,7 +319,7 @@ Normalized
    In Displacement Mode:
       Normalize to the distance.
    In Ambient Occlusion Mode:
-      Normalize without using material’s settings.
+      Normalize without using material's settings.
 Normal Space
    Normals can be baked in different spaces:
 

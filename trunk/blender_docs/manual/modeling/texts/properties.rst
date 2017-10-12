@@ -283,8 +283,8 @@ Right
    Aligns text to right of frames when using them,
    else uses the center point of the *Text* object as the ending point of the text (which grows to the left).
 Justify
-   Only flushes a line when it is terminated by a wordwrap (**not** by :kbd:`Enter`),
-   it uses *whitespace* instead of *character spacing* (kerning) to fill lines.
+   Only flushes a line when it is terminated by a word-wrap (**not** by :kbd:`Enter`),
+   it uses *white-space* instead of *character spacing* (kerning) to fill lines.
 Flush
    Always flushes the line, even when it is still being entered;
    it uses character spacing (kerning) to fill lines.

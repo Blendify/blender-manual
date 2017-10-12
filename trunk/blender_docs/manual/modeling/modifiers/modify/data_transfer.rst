@@ -7,7 +7,7 @@ Data Transfer Modifier
 The Data Transfer Modifier transfers several types of data from one mesh to another.
 Data types include vertex groups, UV maps, vertex colors, custom normals...
 
-Transfer works by generating a mapping between source mesh’s items (vertices, edges, etc.)
+Transfer works by generating a mapping between source mesh's items (vertices, edges, etc.)
 and destination ones, either on a one-to-one basis, or mapping several source items
 to a single destination one by interpolated mapping.
 
@@ -50,11 +50,11 @@ Mix Mode
    All
       Replaces everything in destination (note that *Mix Factor* is still used).
    Above Threshold
-      Only replaces destination value if it’s above given threshold *Mix Factor*.
+      Only replaces destination value if it's above given threshold *Mix Factor*.
       How that threshold is interpreted depends on data type,
       note that for boolean values this option fakes a logical AND.
    Below Threshold
-      Only replaces destination value if it’s below given threshold *Mix Factor*.
+      Only replaces destination value if it's below given threshold *Mix Factor*.
       How that threshold is interpreted depends on data type,
       note that for boolean values this option fakes a logical OR.
    Mix, Add, Subtract, Multiply
@@ -123,69 +123,69 @@ One-To-One Mappings
 
    Vertices
       Nearest Vertex
-         Uses source’s nearest vertex.
+         Uses source's nearest vertex.
 
       Nearest Edge Vertex
-         Uses source’s nearest vertex of source’s nearest edge.
+         Uses source's nearest vertex of source's nearest edge.
       Nearest Face Vertex
-         Uses source’s nearest vertex of source’s nearest face.
+         Uses source's nearest vertex of source's nearest face.
 
    Edges
       Nearest Vertices
-         Uses source’s edge which vertices are nearest from destination edge’s vertices.
+         Uses source's edge which vertices are nearest from destination edge's vertices.
       Nearest Edge
-         Uses source’s nearest edge (using edge’s midpoints).
+         Uses source's nearest edge (using edge's midpoints).
       Nearest Face Edge
-         Uses source’s nearest edge of source’s nearest face (using edge’s midpoints).
+         Uses source's nearest edge of source's nearest face (using edge's midpoints).
 
    Face Corners
-      A face corner is not a real item by itself, it’s some kind of split vertex attached to a specific face.
+      A face corner is not a real item by itself, it's some kind of split vertex attached to a specific face.
       Hence both vertex (location) and face (normal, ...) aspects are used to match them together.
 
       Nearest Corner and Best Matching Normal
-         Uses source’s corner having the most similar *split* normal with destination one,
-         from those sharing the nearest source’s vertex.
+         Uses source's corner having the most similar *split* normal with destination one,
+         from those sharing the nearest source's vertex.
       Nearest Corner and Best Matching Face Normal
-         Uses source’s corner having the most similar *face* normal with destination one,
-         from those sharing the nearest source’s vertex.
+         Uses source's corner having the most similar *face* normal with destination one,
+         from those sharing the nearest source's vertex.
       Nearest Corner of Nearest Face
-         Uses source’s nearest corner of source’s nearest face.
+         Uses source's nearest corner of source's nearest face.
 
    Faces
       Nearest Face
-         Uses source’s nearest face.
+         Uses source's nearest face.
       Best Normal-Matching
-         Uses source’s face which normal is most similar with destination one.
+         Uses source's face which normal is most similar with destination one.
 
 Interpolated Mappings
    Those use several source items for each destination one, interpolating their data during the transfer.
 
    Vertices
       Nearest Edge Interpolated
-         Uses nearest point on nearest source’s edge, interpolates data from both source edge’s vertices.
+         Uses nearest point on nearest source's edge, interpolates data from both source edge's vertices.
       Nearest Face Interpolated
-         Uses nearest point on nearest source’s face, interpolates data from all that source face’s vertices.
+         Uses nearest point on nearest source's face, interpolates data from all that source face's vertices.
       Projected Face Interpolated
          Uses point of face on source hit by projection of destination vertex along its own normal,
-         interpolates data from all that source face’s vertices.
+         interpolates data from all that source face's vertices.
 
    Edges
       Projected Edge Interpolated
-         This is a sampling process. Several rays are cast from along the destination’s edge
-         (interpolating both edge’s vertex normals), and if enough of them hit a source’s edge,
-         all hit source edges’ data are interpolated into destination one.
+         This is a sampling process. Several rays are cast from along the destination's edge
+         (interpolating both edge's vertex normals), and if enough of them hit a source's edge,
+         all hit source edges' data are interpolated into destination one.
 
    Face Corners
-      A face corner is not a real item by itself, it’s some kind of split vertex attached to a specific face.
+      A face corner is not a real item by itself, it's some kind of split vertex attached to a specific face.
       Hence both vertex (location) and face (normal, ...) aspects are used to match them together.
 
       Nearest Face Interpolated
-         Uses nearest point of nearest source’s face, interpolates data from all that source face’s corners.
+         Uses nearest point of nearest source's face, interpolates data from all that source face's corners.
       Projected Face Interpolated
          Uses point of face on source hit by projection of destination corner along its own normal,
-         interpolates data from all that source face’s corners.
+         interpolates data from all that source face's corners.
 
    Faces
       Projected Face Interpolated
-         This is a sampling process. Several rays are cast from the whole destination’s face (along its own normal),
-         and if enough of them hit a source’s face, all hit source faces’ data are interpolated into destination one.
+         This is a sampling process. Several rays are cast from the whole destination's face (along its own normal),
+         and if enough of them hit a source's face, all hit source faces' data are interpolated into destination one.
