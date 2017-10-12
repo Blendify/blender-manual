@@ -182,8 +182,10 @@ def role_ignore_recursive(
 roles.register_canonical_role('abbr', role_ignore)
 roles.register_canonical_role('menuselection', role_ignore)
 
+roles.register_canonical_role('class', role_ignore_recursive)
 roles.register_canonical_role('doc', role_ignore_recursive)
 roles.register_canonical_role('kbd', role_ignore_recursive)
+roles.register_canonical_role('mod', role_ignore_recursive)
 roles.register_canonical_role('ref', role_ignore_recursive)
 roles.register_canonical_role('term', role_ignore_recursive)
 
