@@ -23,7 +23,6 @@ Options
 
    Array Modifier.
 
-
 Fit Type
    Controls how the length of the array is determined. There are three choices, activating respectively the
    display of the *Curve*, *Length* or *Count* settings explained below:

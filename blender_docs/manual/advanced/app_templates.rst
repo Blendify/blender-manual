@@ -21,7 +21,6 @@ without requiring a separate Blender installation or overwriting your personal s
 
    Selecting a template from the splash screen.
 
-
 Application templates can be selected from the splash screen or the file menu *(as shown above)*.
 
 When there are no templates found the menu will not be displayed on the splash screen.
