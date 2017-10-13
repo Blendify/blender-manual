@@ -51,7 +51,6 @@ and the property panel is set to map the joints with the stroke. So these two se
 are copied and the newly created copy of the chain is matched with the stroke.
 (Note that the newly created bones are named in continuation of the original chain.)
 
-
 .. list-table::
 
    * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-1.png
@@ -75,9 +74,7 @@ but there are three strokes to map to. In this case, the same chain is copied th
 (once for each stroke) and then mapped to individual strokes.
 Note how a two-bone chain is fitted to a three-segment stroke.
 
-
-.. list-table::
-   The newly created bones are numbered sequentially, after the original bones' names.
+.. list-table:: The newly created bones are numbered sequentially, after the original bones' names.
 
    * - .. figure:: /images/rigging_armatures_editing_templating_stroke-multi-conversion-1.png
 
@@ -117,9 +114,7 @@ OK now, here are some important ground rules:
   or no bones selected in the current edited armature),
   you will get the error message ``No Template and no deforming bones selected``, and nothing will occur.
 
-
-.. list-table::
-   The *Skeleton Sketching* panel with *Retarget* conversion method enabled.
+.. list-table:: The *Skeleton Sketching* panel with *Retarget* conversion method enabled.
 
    * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-1.png
 
@@ -143,7 +138,6 @@ No, View, Joint buttons
    Joint
       New bones roll fit their original rotation (as *No* option),
       but with regards to the bend of the joint with its parent.
-
 
 .. list-table:: Templating: bone roll example.
 
@@ -181,7 +175,6 @@ Template
       Controls the influence of the stroke's shape. The higher this value,
       the more the conversion process will try to follow the stroke with the new chain.
 
-
 .. figure:: /images/rigging_armatures_editing_templating_influence-weights.png
 
    Examples of Template conversions for various influence weights values,
@@ -199,8 +192,7 @@ Side and Number text fields, *auto* button
    and the "&s" placeholder is replaced by the side of the bone (relative to the local X axis:
    "r" for negative X values, "l" for positive ones).
 
-.. list-table::
-   Naming and placeholders, using a simple leg template.
+.. list-table:: Naming and placeholders, using a simple leg template.
 
    * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-3.png
           :width: 200px
@@ -219,8 +211,7 @@ Side and Number text fields, *auto* button
           After conversion: the placeholders have been replaced by the
           content of the S and N text fields of the Bone Sketching panel.
 
-.. list-table::
-   Auto naming and placeholders, using a simple leg template.
+.. list-table:: Auto naming and placeholders, using a simple leg template.
 
    * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-4.png
           :width: 200px

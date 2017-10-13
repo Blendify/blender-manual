@@ -14,4 +14,3 @@ As the name implies, these nodes convert the colors in the material in some way.
    rgb_to_bw.rst
    sqeeze_value.rst
    vector_math.rst
-

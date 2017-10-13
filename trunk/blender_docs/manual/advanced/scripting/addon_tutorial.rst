@@ -133,7 +133,6 @@ Write the Add-on (Simple)
 
 This add-on takes the body of the script above, and adds it to an operator's ``execute()`` function.
 
-
 .. code-block:: python
 
    bl_info = {
@@ -171,7 +170,6 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
    # to test the add-on without having to install it.
    if __name__ == "__main__":
        register()
-
 
 .. note::
 

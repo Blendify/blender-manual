@@ -3,7 +3,6 @@
   Converter Nodes
 ###################
 
-
 .. toctree::
    :maxdepth: 1
 
@@ -12,4 +11,3 @@
    math.rst
    rgb_to_bw.rst
    value_to_normal.rst
-

@@ -3,7 +3,6 @@
   Input Nodes
 ###############
 
-
 .. toctree::
    :maxdepth: 1
 
@@ -16,4 +15,3 @@
    rgb.rst
    texture.rst
    value.rst
-

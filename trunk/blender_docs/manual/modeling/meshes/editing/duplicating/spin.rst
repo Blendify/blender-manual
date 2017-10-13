@@ -139,7 +139,6 @@ Notice the selected vertex count before and after the *Remove Doubles* operation
 If not, some vertices were missed and you will need to weld them manually.
 Or, worse, too many vertices will have been merged.
 
-
 .. note:: Merging two vertices into one
 
    To merge (weld) two vertices together, select both of them by :kbd:`Shift-RMB`

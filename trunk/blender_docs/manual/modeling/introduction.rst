@@ -63,4 +63,3 @@ and therefore have different set of tool. Because of this each has its own secti
 :doc:`Modifiers </modeling/modifiers/introduction>`
    Modifiers are automatic operations that affect an object in a non-destructive way.
    With modifiers, you can perform many effects automatically that would otherwise be tedious to do manually.
-

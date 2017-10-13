@@ -28,4 +28,3 @@ While these world settings offers a simple way of adding effects to a scene,
 for the additional control and options they offer.
 For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
 through compositing nodes can further increase the depth and spacial clarity of a scene.
-

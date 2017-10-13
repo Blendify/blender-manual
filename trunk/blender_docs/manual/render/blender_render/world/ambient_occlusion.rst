@@ -52,7 +52,6 @@ Add
 Multiply
    Ambient occlusion is multiplied over the shading, making things darker.
 
-
 .. note::
 
    If *Multiply* is chosen, there must be other light sources; otherwise the scene will be pitch black.

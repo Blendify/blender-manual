@@ -246,7 +246,6 @@ Bias
    At that point altering *Bias*, *Shadow Buffer Size* or *Spot Size* values,
    among other things, may be required to fix the problem.
 
-
 .. note:: Finer Bias tuning
 
    You can now refine the *Bias* value independently for each

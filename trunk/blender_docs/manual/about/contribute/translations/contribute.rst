@@ -40,7 +40,6 @@ You should have a directory layout like this::
       |  |  |- LC_MESSAGES/
       |- manual/
 
-
 .. note::
 
    When running subversion from the command-line (such as updating or committing),

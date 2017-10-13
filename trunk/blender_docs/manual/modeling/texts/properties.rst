@@ -13,7 +13,6 @@ Shape
    | Mode:     Object or Edit Mode
    | Panel:    :menuselection:`Properties editor --> Text --> Shape`
 
-
 .. figure:: /images/modeling_text_properties_shape-settings.jpg
 
    The Shape panel.

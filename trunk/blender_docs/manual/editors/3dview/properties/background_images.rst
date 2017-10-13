@@ -17,7 +17,6 @@ modeling is obviously one, but it is also useful when painting (e.g.
 you can have reference pictures of faces when painting textures directly on your model...),
 or animation (when using a video as background), etc.
 
-
 .. note::
 
    Background images are only available for orthographic views.

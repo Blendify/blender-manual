@@ -10,8 +10,8 @@ It is also more computationally expensive.
 Take a look at the following examples of a scene lit with Direct Lighting and both
 Direct and Indirect Lighting:
 
-.. list-table::
-   Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__.
+.. list-table:: Images courtesy of
+   `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__.
 
    * - .. figure:: /images/lighting-inderect_lighting-01.png
 

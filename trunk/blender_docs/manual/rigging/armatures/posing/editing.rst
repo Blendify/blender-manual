@@ -222,7 +222,6 @@ Here are important points:
   - The rest position of the bones, and
   - The current pose of their parents.
 
-
 .. list-table::
 
    * - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-1.png

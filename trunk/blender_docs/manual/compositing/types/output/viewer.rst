@@ -47,7 +47,6 @@ Outputs
 
 This node has no output sockets.
 
-
 .. note::
 
    It is possible to add multiple Viewer nodes, though only the active one

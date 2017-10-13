@@ -46,4 +46,3 @@ Example
 
 In the example to the right, a cloud texture, as it would appear to a viewer,
 is added to a base purple material, giving a velvet effect.
-

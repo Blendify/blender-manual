@@ -8,7 +8,6 @@ The settings in the *Metaball* section apply to all meta objects.
 In *Edit Mode*,
 the *Active Element* panel appears for editing individual meta elements.
 
-
 .. list-table::
 
    * - .. figure:: /images/modeling_metas_properties_metaball-panel.png

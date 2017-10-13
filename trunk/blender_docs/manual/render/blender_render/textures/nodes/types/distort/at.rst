@@ -33,4 +33,3 @@ Outputs
 
 Texture
    Standard image output.
-

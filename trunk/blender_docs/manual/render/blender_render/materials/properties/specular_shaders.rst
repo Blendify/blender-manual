@@ -151,7 +151,6 @@ Options
 Hardness
    Size of the specular highlight.
 
-
 .. tip:: Planet Atmosphere
 
    Because of its fuzziness, this shader is good for atmosphere around a planet.

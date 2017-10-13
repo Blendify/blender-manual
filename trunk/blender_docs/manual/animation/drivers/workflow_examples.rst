@@ -101,7 +101,6 @@ These can be displayed via the Python Console
 This script will add a function to the driver namespace,
 which can then be used in the expression ``driver_func(frame)``
 
-
 .. code-block:: python
 
    import bpy

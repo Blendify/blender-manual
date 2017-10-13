@@ -78,4 +78,3 @@ Multiply
    When you enable this option, the "deformation influence" that this bone would have on a vertex
    (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
    In other words, the vertex groups method is further "weighted" by the envelopes method.
-

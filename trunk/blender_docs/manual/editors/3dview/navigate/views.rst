@@ -78,11 +78,11 @@ Three *Orthographic* "side views" and one *Camera*/*User View*.
 This view will allow you to instantly see your model from a number of view points.
 In this arrangement, you can zoom and pan each view independently but you cannot rotate the view.
 
+
 .. rubric:: Shortcuts for all views at once:
 
 - View All :kbd:`Ctrl-Home`
 - View Selected :kbd:`Ctrl-NumpadPeriod`
-
 
 .. note::
 

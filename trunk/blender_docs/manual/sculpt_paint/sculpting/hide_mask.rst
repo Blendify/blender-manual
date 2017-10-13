@@ -48,11 +48,9 @@ Masks can be edited across the entire model:
 - Fill Mask
 - Clear Mask :kbd:`Alt-M`
 
-
 .. figure:: /images/sculpt-paint_sculpting_hide-mask.jpg
 
    Black part (hair) is masked.
 
    The `.blend file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__
    from `OHA Studio <http://oha-studios.com/>`__ © Mechanimotion Entertainment.
-

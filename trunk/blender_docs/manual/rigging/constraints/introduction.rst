@@ -57,7 +57,6 @@ Start simply. Get to know a single constraint inside and out.
 also has an animation example. Take the time to understand every fundamental concept behind it,
 and the other constraints will make far more sense.
 
-
 .. TODO, the 4x4 transform matrix vs. the transform panel
 
    Also note that constraints internally work using 4x4 transformation matrices only.

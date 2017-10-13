@@ -65,7 +65,6 @@ thus you can continue working while the simulation is computed. However, it is C
 and depending on the power of your PC and the complexity of the simulation,
 the amount of CPU needed to compute the mesh varies, as does the lag you might notice.
 
-
 .. note:: Do not jump ahead
 
    If you set up a cloth simulation but Blender has not computed the shapes for the duration of the simulation,
@@ -89,7 +88,6 @@ A general process for working with cloth is to:
   The Timeline editors VCR controls are great for this step.
 - Optionally age the mesh to some point in the simulation to obtain a new default starting shape.
 - Make minor edits to the mesh on a frame-by-frame basis to correct minor tears.
-
 
 .. tip::
 

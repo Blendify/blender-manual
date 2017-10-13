@@ -31,4 +31,3 @@ Coordinates
    - Red channel corresponds to X value.
    - Green channel corresponds to Y value.
    - Green channel corresponds to Z value.
-

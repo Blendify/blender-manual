@@ -69,7 +69,6 @@ Examples
 
           Composite.
 
-
 .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-2.png
    :width: 600px
 
@@ -86,7 +85,6 @@ Examples
           :width: 320px
 
           Composite.
-
 
 .. figure:: /images/compositing_nodes_filter_bilateral-blur_example-3.png
    :width: 600px

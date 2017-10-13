@@ -42,7 +42,6 @@ Alpha
 Z
    Z-depth layer.
 
-
 .. note:: MultiLayer format:
 
    When a MultiLayer file format, like ``EXR``, is loaded, each

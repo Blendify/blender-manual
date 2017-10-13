@@ -463,7 +463,6 @@ Number of Cuts
    Specifies the number of cuts. As in mesh editing,
    if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 
-
 .. list-table:: Subdivision example.
 
    * - .. figure:: /images/rigging_armatures_editing_bones_subdivision-1.png

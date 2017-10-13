@@ -297,7 +297,6 @@ As with edge loops, you can also select edge rings based on current selection,
 using either :menuselection:`Select --> Edge Ring`,
 or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
-
 .. note:: *Vertex* mode
 
    In *Vertex* select mode, you can use the same hotkeys when *clicking on the edges* (not on the vertices),

@@ -22,7 +22,6 @@ Note that while the Game Engine is running in either player,
 the computer's mouse and keyboard are captured by the game and by default,
 the mouse cursor is not visible. To exit the game, press the <ESC> key.
 
-
 .. tip:: Render Engine
 
    Make sure that the render engine is set to Blender Game when attempting to set these controls,

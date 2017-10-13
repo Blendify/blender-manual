@@ -8,4 +8,3 @@
 
    checker.rst
    bricks.rst
-

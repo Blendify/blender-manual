@@ -29,4 +29,3 @@ Outputs
 =======
 
 This node has no outputs.
-

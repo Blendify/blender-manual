@@ -74,7 +74,6 @@ Walt Disney pioneered the use of multi-plane mattes, where three or four partial
 painted on glass and placed on the left and right at different Z positions; minimal camera
 moves to the right created the illusion of depth as Bambi moved through the forest.
 
-
 .. note:: Valid Input
 
    Z Input Sockets do not accept fixed values; they must get a vector set (see Map Value node).

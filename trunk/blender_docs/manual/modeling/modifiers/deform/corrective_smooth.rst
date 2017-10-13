@@ -69,8 +69,7 @@ Rest Source
 Example
 =======
 
-.. list-table::
-   An example of a rig using bone envelopes and not weight painting.
+.. list-table:: An example of a rig using bone envelopes and not weight painting.
 
    * - .. figure:: /images/modifier-corrective_smooth_example_pose_before.png
           :width: 350px

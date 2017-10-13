@@ -130,7 +130,6 @@ This allows you to use several armatures to deform the same object, all based on
 The results of the Armature Modifiers are then mixed together, using the weights of the
 *Vertex Group* as "mixing guides".
 
-
 .. tip::
 
    Armature Modifiers can quickly be added to objects using the parenting shortcut

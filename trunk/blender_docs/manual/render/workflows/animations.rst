@@ -38,6 +38,7 @@ Rendering takes all available CPU time; you should render overnight,
 when the computer is not needed, or set Blender to a low priority while rendering,
 and work on other things (be careful with the RAM space!).
 
+
 .. rubric:: Direct Approach
 
 The Direct Approach, which is highly **not** recommended and not a standard practice,
@@ -46,6 +47,7 @@ and click *Animation* to render your scene directly out to a movie file.
 Blender creates one file that holds all the frames of your animation. You can then use
 Blender's VSE to add an audio track to the animation and render out to an MPEG format to
 complete your movie.
+
 
 .. rubric:: Frame Sequence
 
@@ -63,23 +65,25 @@ but gives you more flexibility.
 
 Here are some guidelines to help you choose an approach.
 
+
 .. rubric:: Direct Approach
 
-- short segments with total render time < 1 hour
-- stable power supply
-- computer not needed for other uses
+- Short segments with total render time < 1 hour.
+- Stable power supply.
+- Computer not needed for other uses.
+
 
 .. rubric:: Frame Sequence Approach
 
-- total render time > 1 hour
-- post-production work needed
+- Total render time > 1 hour.
+- Post-production work needed:
    - Color/lighting adjustment
    - Green screen/matte replacement
    - Layering/compositing
    - Multiple formats and sizes of ultimate product
-- intermediate frames/adjustments needed for compression/codec
-- precise timing (e.g. lip-sync to audio track) needed in parts
-- may need to interrupt rendering to use the computer, and want to be able to resume rendering where you left off.
+- Intermediate frames/adjustments needed for compression/codec.
+- Precise timing (e.g. lip-sync to audio track) needed in parts.
+- May need to interrupt rendering to use the computer, and want to be able to resume rendering where you left off.
 
 
 Frame Sequence Workflow
@@ -94,11 +98,11 @@ Frame Sequence Workflow
 #. Confirm the range of your animation frame Start and End.
 #. Save your blend-file.
 #. Press the big *Animation* button.
-   Do a long task [like sleeping, playing a video game, or cleaning your driveway]
+   Do a long task (like sleeping, playing a video game, or cleaning your driveway)
    while you wait for your computer to finish rendering the frames.
 #. Once the animation is finished,
-   use your OS file explorer to navigate into the output folder ("``render`` in this example).
-   You will see lots of images (.png or .exr, etc. depending on the format you chose to render)
+   use your OS file explorer to navigate into the output folder (``render`` in this example).
+   You will see lots of images (``.png`` or ``.exr``, etc. depending on the format you chose to render)
    that have a sequence number attached to them ranging from 0000 to a max of 9999. These are your single frames.
 #. In Blender, now go into the :doc:`video sequence editor </editors/vse/index>`.
 #. Choose *Add Image* from the add menu. Select all the frames from your output folder that you want to include

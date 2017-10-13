@@ -153,6 +153,7 @@ Version/Revision Milestones
    script catalog. GE enhancements included video textures, where you can play movies in-game, upgrades
    to the Bullet physics engine, dome (fish-eye) rendering, and more API GE calls made available.
 
+
 .. rubric:: Blender 2.5x -- The Recode!
 
 `2.5x <https://wiki.blender.org/index.php/Dev:2.5/Source>`__ -- From 2009 to August 2011:
@@ -162,9 +163,11 @@ Version/Revision Milestones
    the software with new functions, redesign of the internal window manager and event/tool/data handling system,
    and new Python API. The final version of this project was Blender 2.59 in August 2011.
 
+
 .. rubric:: Video: From Blender 1.60 to 2.50
 
 .. vimeo:: 8567074
+
 
 .. rubric:: Blender 2.6x to 2.7x -- Improvements & Stabilizing
 
@@ -241,6 +244,7 @@ Version/Revision Milestones
 `2.79 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.79>`__ -- September 2017:
    New cycles features: Denoising, Shadow catcher, and new Principled shader.
    Other improvements were made to Grease Pencil and Alembic. Support was also added for application templates.
+
 
 .. rubric:: Blender 2.8
 

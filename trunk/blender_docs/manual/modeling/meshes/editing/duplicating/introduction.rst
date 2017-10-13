@@ -12,7 +12,6 @@ geometry in some way.
 - :doc:`Spin </modeling/meshes/editing/duplicating/spin>`.
 - :doc:`Screw </modeling/meshes/editing/duplicating/screw>`.
 
-
 .. note:: Multiple Viewports
 
    When you use one of the duplication tools in the *Mesh Tools* panel,

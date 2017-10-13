@@ -9,7 +9,6 @@ Curve Display
    | Mode:     Edit Mode
    | Panel:     :menuselection:`Properties region --> Curve Display`
 
-
 .. figure:: /images/modeling_curves_display.png
    :align: right
 

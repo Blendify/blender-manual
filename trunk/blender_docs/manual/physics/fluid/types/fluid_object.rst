@@ -28,7 +28,6 @@ Animated Mesh/Export
 Initial velocity
    Speed of the fluid at the beginning of the simulation, in meters per second.
 
-
 .. tip:: The direction of Surface Normals makes a big difference!
 
    Blender uses the orientation of the Surface Normals to determine what is "inside of" the Fluid object and what is

@@ -42,7 +42,6 @@ Here's a table of scales and their associated accuracy.
 :100,000: 1/128\ :sup:`th`
 :1,000,000: 1/16\ :sup:`th`
 
-
 .. hint::
 
    For a rough rule of thumb, values within -5,000/+5,000 are typically reliable (range of 10,000).

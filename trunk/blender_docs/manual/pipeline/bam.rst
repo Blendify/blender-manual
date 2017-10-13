@@ -159,7 +159,6 @@ This command is a three step process:
 #. Then re-arrange the files on the filesystem (rename, relocate).
 #. Finally run ``bam remap finish`` to apply the changes, updating the ``.blend`` files internal paths.
 
-
 .. code-block:: sh
 
    cd /my/project

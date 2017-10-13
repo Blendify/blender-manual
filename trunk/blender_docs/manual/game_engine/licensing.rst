@@ -31,4 +31,3 @@ More Information
 ================
 
 More information you can find in the `blender.org FAQ <https://www.blender.org/support/faq/>`__.
-

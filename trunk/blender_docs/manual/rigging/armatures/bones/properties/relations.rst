@@ -86,8 +86,7 @@ By default, children bones inherit:
 - Their parent rotation (i.e. they keep a constant rotation relatively to their parent).
 - Their parent scale, here again with their own offset.
 
-.. list-table::
-   Examples of transforming parented/connected bones.
+.. list-table:: Examples of transforming parented/connected bones.
 
    * - .. figure:: /images/rigging_posing_editing_bones-relationships-1.png
           :width: 200px
@@ -125,8 +124,7 @@ However, if you set one bone's *Inherit Scale* or *Inherit Rotation*
 property on in this "family", this will break the scaling propagation, i.e. this bone *and
 all its descendants* will no longer be affected when you scale one of its ancestors.
 
-.. list-table::
-   Examples of transforming parented/connected bones with Inherit Rotation disabled.
+.. list-table:: Examples of transforming parented/connected bones with Inherit Rotation disabled.
 
    * - .. figure:: /images/rigging_posing_editing_bones-relationships-4.png
           :width: 200px

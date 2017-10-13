@@ -70,8 +70,6 @@ the manipulator handle will constrain the action to smaller increments.
 Holding down :kbd:`Shift` *before* you :kbd:`LMB` click on one of the handles will cause the manipulator action
 to be performed relative to the other two axes. See :ref:`view3d-transform-plane-lock`.
 
-
 .. seealso::
 
    The :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
-

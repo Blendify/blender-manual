@@ -141,7 +141,6 @@ Use Channel
 
       All of the channels above are gamma corrected, except for *Intensity*.
 
-
 .. note::
 
    You can view the modified weights in *Weight Paint Mode*.

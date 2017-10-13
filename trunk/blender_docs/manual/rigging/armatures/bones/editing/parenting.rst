@@ -43,9 +43,7 @@ To parent and/or connect bones, you can:
       With this method, the tip of the child bone will never be translated --
       so if *Connected* is enabled, the child bone will be completely transformed by the operation.
 
-
-.. list-table::
-   Parenting example.
+.. list-table:: Parenting example.
 
    * - .. figure:: /images/rigging_armatures_editing_properties_parenting-1.png
           :width: 320px

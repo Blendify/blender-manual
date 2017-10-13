@@ -7,6 +7,7 @@
 These nodes generate procedural textures,
 and function just like their non node based counterparts.
 
+
 .. rubric:: Common Options
 
 Color 1/Color 2
@@ -26,4 +27,3 @@ Color 1/Color 2
    stucci.rst
    voronoi.rst
    wood.rst
-

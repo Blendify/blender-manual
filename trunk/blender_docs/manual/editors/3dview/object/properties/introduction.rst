@@ -17,4 +17,3 @@ Item panel
 
 
 This panel lets you edit the name of the active object.
-

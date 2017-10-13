@@ -28,7 +28,6 @@ called :doc:`Etch-a-Ton </rigging/armatures/bones/editing/sketching>`.
 The same tool might also be used in :doc:`templating </rigging/armatures/bones/editing/templating>`,
 i.e. using another armature as template for the current one...
 
-
 .. important::
 
    One important thing to understand about armature editing is that you
@@ -40,7 +39,6 @@ you might create afterwards are based on this rest position.
 So if you modify it in *Edit Mode*, all the poses already existing will also be modified.
 Thus you should in general be sure that your armature is definitive before starting to
 :doc:`skin </rigging/armatures/skinning/index>` and :doc:`pose </rigging/armatures/posing/index>` it!
-
 
 .. note::
 

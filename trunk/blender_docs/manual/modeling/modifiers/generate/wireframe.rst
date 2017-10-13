@@ -77,7 +77,6 @@ in the examples below.
 
    Cube and Subdivision Surface with 0 / 0.5 / 1 crease weight.
 
-
 .. warning::
 
   Wireframe thickness is an approximation. While *Even Thickness* should yield good results in many cases,

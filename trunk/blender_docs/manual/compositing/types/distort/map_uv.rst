@@ -45,7 +45,6 @@ Image
    the texture on top of the original. Adjust alpha and the mix factor to control
    how much the new texture overlays the old.
 
-
 .. hint::
 
    When painting the new texture,

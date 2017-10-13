@@ -7,6 +7,7 @@ Building on MS-Windows
 Converting the rst files into pretty HTML pages.
 There are two ways to run the build process.
 
+
 .. rubric:: File browser
 
 Run ``make.bat`` in the ``C:\blender_docs`` folder.
@@ -14,6 +15,7 @@ Run ``make.bat`` in the ``C:\blender_docs`` folder.
 .. tip::
 
    Create a desktop shortcut to ``make``.
+
 
 .. rubric:: Command prompt
 
@@ -46,4 +48,3 @@ Try opening ``\build\html\contents.html`` in your web browser and read the manua
 ------------------------
 
 Continue with the next step: :doc:`Editing </about/contribute/editing>`
-

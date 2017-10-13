@@ -60,7 +60,6 @@ This tool connects selected vertices by creating edges between them and splittin
 
 This tool can be used on many faces at once.
 
-
 .. list-table::
 
    * - .. figure:: /images/modeling_vertexconnect-before.png

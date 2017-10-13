@@ -32,4 +32,3 @@ Outputs
 
 Color
    Standard image output.
-

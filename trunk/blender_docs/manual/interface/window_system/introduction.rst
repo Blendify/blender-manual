@@ -88,6 +88,7 @@ Customization
 Blender also makes heavy use of keyboard shortcuts to speed up work.
 These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap-editor>`.
 
+
 .. rubric:: Theme colors
 
 Blender allows for most of its interface color settings to be changed to suit the needs of the user.

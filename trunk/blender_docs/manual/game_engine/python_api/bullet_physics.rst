@@ -24,7 +24,6 @@ Python script example::
    import PhysicsConstraints
    print dir(PhysicsConstraints)
 
-
 .. note:: Note about parameter settings
 
    Since this API is not well documented, it can be unclear what kind of values to use for setting parameters.

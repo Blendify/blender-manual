@@ -9,7 +9,6 @@ Mesh Display
    | Mode:     Edit Mode
    | Panel:     :menuselection:`Properties region --> Mesh Display`
 
-
 .. figure:: /images/modeling_meshes_display.png
    :align: right
 

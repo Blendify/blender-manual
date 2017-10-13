@@ -81,4 +81,3 @@ Upload
 When you are happy with your changes, you can upload them, so that they will be in the online manual.
 At first, this is done by submitting patches so that someone can review your changes and give you feedback.
 After, you can commit your changes directly. This process is described in detail in the next section.
-

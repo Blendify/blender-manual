@@ -44,6 +44,7 @@ Image
 Alpha
    Alpha channel.
 
+
 .. rubric:: Render passes sockets
 
 Depending on the Render passes that are enabled, other sockets are available.

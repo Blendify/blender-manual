@@ -99,7 +99,6 @@ Catmull-Rom
 Mitchell-Netravali
    A good all-around filter that gives reasonable sharpness.
 
-
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_settings_antialiasing_oversampling-graph-box.jpg

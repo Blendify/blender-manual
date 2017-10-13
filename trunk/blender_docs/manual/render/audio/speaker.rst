@@ -37,6 +37,7 @@ Distance
 .. figure:: /images/render_audio_speaker_properties.png
    :align: right
 
+
 .. rubric:: Volume
 
 Minimum
@@ -45,6 +46,7 @@ Maximum
    Maximum volume, no matter how far the object is.
 Attenuation
    How strong the distance affects the volume.
+
 
 .. rubric:: Distance
 
@@ -64,6 +66,7 @@ Outer
    Between the inner and outer cone the volume is interpolated.
 Inner
    Angle of the inner cone in degrees. Inside the cone the volume is 100%.
+
 
 .. rubric:: Volume
 

@@ -81,7 +81,6 @@ so that the darker parts of the image will not be changed at all
 
           Range: 2.0, Exposure: 0.3.
 
-
 .. hint::
 
    Try to find the best *Range* value,

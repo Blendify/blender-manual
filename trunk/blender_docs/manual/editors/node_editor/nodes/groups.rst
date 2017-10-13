@@ -110,7 +110,6 @@ Panel
    | Mode:     All Modes
    | Panel:    :menuselection:`Properties region --> Interface`
 
-
 .. figure:: /images/editors_node-editor_nodes_node-groups_interface_panel.png
    :align: right
 

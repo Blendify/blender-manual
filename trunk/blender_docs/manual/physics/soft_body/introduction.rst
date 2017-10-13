@@ -137,7 +137,6 @@ it can play again quickly by reading in the results from the disk. If you *Bake*
 simulation the cache is protected and you will be asked when you are trying to change a setting
 that will make a recalculating necessary.
 
-
 .. tip:: Beware of the *Start* and *End* settings
 
    The simulation is only calculated for the frames in-between the *Start* and *End* frames
@@ -159,6 +158,7 @@ that will make a recalculating necessary.
 - You may run into trouble if your blend-file path is very long and your operating system
   has a limit on the path length that is supported.
 
+
 .. rubric:: Baking
 
 - The system is protected against changes after baking.
@@ -178,7 +178,6 @@ You can change between frames and the simulation will always be shown in the act
 The option *Continue Physics* in the *Playback* menu
 of the *Timeline* editor lets you interact in real time with the simulation,
 e.g. by moving collision objects or shaking a Soft Body object.
-
 
 .. tip:: *Continue Physics* does not work while playing the animation with :kbd:`Alt-A`.
 

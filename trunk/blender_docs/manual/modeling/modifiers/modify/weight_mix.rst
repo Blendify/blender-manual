@@ -171,8 +171,7 @@ replaces the "first weight" of 0.0... In other words, they are taken as weight v
 You can then select which texture coordinates and channel to use.
 Leave the mapping to the default *Local* option, and play with the various channels...
 
-.. list-table::
-   Texture channel variations.
+.. list-table:: Texture channel variations.
 
    * - .. figure:: /images/modifiersweightvgrouptexexintensity.jpg
           :width: 200px

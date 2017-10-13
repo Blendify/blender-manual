@@ -18,7 +18,6 @@ for a full list of arguments
 
    blender --help
 
-
 .. note::
 
    Arguments are executed in the order they are given!
@@ -122,7 +121,6 @@ Single Image
 ``-f 10``
    Render only the 10th frame.
 
-
 .. code-block:: sh
 
    blender -b file.blend -o /project/renders/frame_##### -F EXR -f -2
@@ -148,7 +146,6 @@ Animation
 
 ``-a``
    Render the whole animation using all the settings saved in the blend-file.
-
 
 .. code-block:: sh
 

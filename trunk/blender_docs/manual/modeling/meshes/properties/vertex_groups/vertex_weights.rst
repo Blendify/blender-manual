@@ -173,7 +173,6 @@ Copy
    Copies all weights defined for the active Vertex to all selected vertices.
    Thus all previously defined weights are overwritten.
 
-
 .. tip:: The filter setting is respected
 
    Note that both functions only work on the Vertex Groups currently displayed in the Weights Table.
@@ -195,7 +194,6 @@ Whenever a Weight Group is locked, all data changing functions get disabled:
 - Copy the Vertex weights.
 - Change the Weight of the active vertices.
 - Paste to selected vertices.
-
 
 .. tip:: The filter setting is respected
 

@@ -20,7 +20,6 @@ Options
 
    *Smoke Collision* settings.
 
-
 .. TODO, cannot figure out what the differences between the collision types are :/
 .. Wild speculation on SE: https://blender.stackexchange.com/q/1723/599
 

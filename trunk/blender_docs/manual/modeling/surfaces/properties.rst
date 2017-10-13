@@ -127,4 +127,4 @@ Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface res
 Smooth
 ------
 
-
+ToDo.

@@ -121,7 +121,6 @@ Example
 
    Setup of a Single Property.
 
-
 .. seealso::
 
    - :ref:`Extending Blender with Python <scripting-index>`.

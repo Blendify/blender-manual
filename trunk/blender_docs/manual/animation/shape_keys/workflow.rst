@@ -41,7 +41,6 @@ By adding a :doc:`driver </animation/drivers/index>` or
 setting :doc:`keyframes </animation/keyframes/introduction>`
 to *Evaluation Time* you can create an animation.
 
-
 .. seealso:: Shape Key Operators
 
    There are two modeling tools used to control Shape Keys and are

@@ -34,7 +34,6 @@ Outputs
 Image
    Standard image output.
 
-
 .. note::
 
    This is not, and is not intended to be,

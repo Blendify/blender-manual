@@ -16,7 +16,6 @@ DupliFaces
 *Duplication Faces* or *DupliFaces* is the capability to replicate an object on each face of a parent object.
 One of the best ways to explain this is through an example illustration.
 
-
 .. seealso:: Example blend-file
 
    Download the blend-file used for the examples on this page
@@ -99,6 +98,7 @@ Repeat this process until you have enough faces.
 Since it is common for these faces to butt up against one another,
 your geometry will have lots of duplicate vertices.
 Use the Remove Doubles button in the Tools panel.
+
 
 .. rubric:: Demo Video
 

@@ -41,7 +41,6 @@ In general, you follow these steps:
    - All the baking options are visible only when selecting the Domain Object,
    - Baking options are explained in the :ref:`the baking section <fluid-baking>` of the Domain manual page.
 
-
 .. seealso::
 
    To know more about simulating fluids in Blender you can read the

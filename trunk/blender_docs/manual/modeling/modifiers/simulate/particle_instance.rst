@@ -222,7 +222,6 @@ Below is a screenshot showing the effect of the *Path* button on hair:
    `Example Blend file
    <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Strand_Mesh_Deform.blend>`__.
 
-
 .. note::
 
    Strands when they are generated instantly die when created so for the *Path* button

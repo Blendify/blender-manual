@@ -8,8 +8,7 @@ Smoothing
 Mesh Shading
 ============
 
-.. list-table::
-   Example mesh rendered flat, smoothed using edge split, and using Subdivision Surface.
+.. list-table:: Example mesh rendered flat, smoothed using edge split, and using Subdivision Surface.
    Note how edges are rendered differently.
    `Sample blend-file <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__.
 
@@ -192,8 +191,7 @@ you can smooth the mesh non-destructively with one or several of the following m
    :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`
    (set to *From Marked As Sharp*) before the Subdivision Surface Modifier.
 
-.. list-table::
-   Example mesh with *Auto Smooth* enabled.
+.. list-table:: Example mesh with *Auto Smooth* enabled.
 
    * - .. figure:: /images/modeling_meshes_editing_smoothing_example-07-subsurf.png
           :width: 320px
