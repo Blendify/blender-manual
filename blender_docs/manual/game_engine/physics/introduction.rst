@@ -177,7 +177,7 @@ The mesh itself is both a display and a physics mesh, so there is not much to co
 
 To use an Armature as the deformer will require a bit of extra thought and effort.
 Basically the Armature will only deform a mesh if the Armature is the parent of that mesh.
-But at that point, your mesh will lose its physics responsivenes, and only hang in the air
+But at that point, your mesh will lose its physics responsiveness, and only hang in the air
 (it is copying the location/rotation of the Armature).
 To somewhat fix this you can then parent the Armature to a collision mesh
 (perhaps a simple box or otherwise very-low-poly mesh).
