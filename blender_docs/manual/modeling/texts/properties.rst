@@ -316,7 +316,7 @@ Spacing
 Character
    A factor by which space between each character is scaled in width.
 Word
-   A factor by which whitespace between words is scaled in width.
+   A factor by which white-space between words is scaled in width.
    You can also control it by pressing :kbd:`Alt-Left` or :kbd:`Alt-Right`
    to decrease/increase spacing by steps of 0.1.
 Line
