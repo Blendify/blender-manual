@@ -119,7 +119,7 @@ This page lists definitions for terms used in Blender and this manual.
       See also `Bounding Volume Hierarchy <https://en.wikipedia.org/wiki/Bounding_volume_hierarchy>`__ on Wikipedia.
 
    Caustics
-      Bright concentrations of light focused by specularly reflecting or refracting objects.
+      Bright concentrations of light focused by specular reflections or refracting objects.
 
    Child
       An :term:`Object` that is affected by its :term:`Parent`.

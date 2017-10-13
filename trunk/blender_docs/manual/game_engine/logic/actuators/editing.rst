@@ -28,7 +28,7 @@ Column Heading
 
 
 The column headings contain controls to set which actuators, and the level of detail given,
-in the actuator column. This is very useful for hiding unecessary actuators so that the
+in the actuator column. This is very useful for hiding unnecessary actuators so that the
 necessary ones are visible and easier to reach. Both these can be controlled individually.
 
 .. rubric:: Actuators

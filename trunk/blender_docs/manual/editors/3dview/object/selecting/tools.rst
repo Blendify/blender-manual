@@ -339,7 +339,7 @@ Select Pattern
    | Menu:     :menuselection:`Select --> Pattern`
 
 Selects all objects whose name matches a given pattern.
-Supported wildcards: \* matches everything, ? matches any single character,
+Supported wild-cards: \* matches everything, ? matches any single character,
 [abc] matches characters in "abc", and [!abc] match any character not in "abc".
 As an example \*house\* matches any name that contains "house",
 while floor\* matches any name starting with "floor".

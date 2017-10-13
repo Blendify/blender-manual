@@ -72,7 +72,7 @@ The command provides several options to adapt to different workflows
    Optionally exclude files from the pack.
 
    ``--exclude="*.png"``
-      Using Unix shell-style wildcards *(case insensitive)*.
+      Using Unix shell-style wild-cards *(case insensitive)*.
    ``--exclude="*.txt;*.avi;*.wav"``
       Multiple patterns can be passed using the ``;`` separator.
 ``-a``, ``--all-deps``
