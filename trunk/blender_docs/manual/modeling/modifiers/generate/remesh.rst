@@ -22,7 +22,6 @@ Mode
       This example shows a cone with each of the different remesh modes.
       From left to right: original cone, Blocks, Smooth, and Sharp.
 
-
    The output topology is almost identical between the three modes;
    what changes is the smoothing.
 

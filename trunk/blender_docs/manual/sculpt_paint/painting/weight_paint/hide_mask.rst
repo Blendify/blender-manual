@@ -54,7 +54,6 @@ Vertex Selection Masking
 
    Vertex Selection masking.
 
-
 In this mode you can select one or more vertices and then paint only on the selection.
 All unselected vertices are protected from unintentional changes.
 
@@ -75,7 +74,6 @@ Face Selection Masking
      - .. figure:: /images/modeling-meshes-weight-paint-face-select-hidden.jpg
 
           Hidden faces.
-
 
 The *Face Selection masking* allows you to select faces and limit the weight paint
 tool to those faces, very similar to Vertex selection masking.
@@ -113,7 +111,6 @@ The rest of the 3D View gets hidden.
 .. figure:: /images/modeling-meshes-weight-paint-border-select.jpg
 
    The Clipping Border is used to select interesting parts for local painting.
-
 
 You make the entire mesh visible again by pressing :kbd:`Alt-B` a second time.
 

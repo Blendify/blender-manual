@@ -9,7 +9,6 @@ Area Raytraced Shadows
 
    Adaptive QMC settings.
 
-
 The *Area* light source can only cast ray-traced shadows.
 The ray-traced shadows settings of this lamp are mostly shared with other lamps,
 as described in :doc:`Raytraced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
@@ -44,7 +43,6 @@ Constant Jittered
 
       Constant Jittered settings.
 
-
    The following three parameters are only available when using the *Constant Jittered* sample generator method,
    and are intended to artificially boost the "soft" shadow effect, with possible loss in quality:
 
@@ -77,7 +75,6 @@ Technical Details
    :width: 250px
 
    Principles behind the Area light.
-
 
 The Fig. :ref:`fig-bi-light-rayshadow-area`
 picture helps to understand how the soft shadows are simulated.

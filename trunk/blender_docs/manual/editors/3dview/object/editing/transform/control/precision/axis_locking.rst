@@ -9,7 +9,6 @@ Axis Locking
 
    Axis locking.
 
-
 This option limits the transformation to the specified axis.
 
 :doc:`Transformations (translation/scale/rotation) </editors/3dview/object/editing/transform/introduction>`

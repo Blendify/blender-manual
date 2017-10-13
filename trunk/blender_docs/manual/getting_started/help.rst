@@ -13,7 +13,6 @@ Tooltips
 
    Tooltip of the Render Engine selector in the Info Editor.
 
-
 When hovering the mouse cursor over a button or setting, after a few instants a tooltip appears.
 
 

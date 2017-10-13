@@ -12,7 +12,6 @@ in that it takes a profile object, a Mesh or a Curve, to create a helix-like sha
 
    Properly aligning the profile object is important.
 
-
 The profile should be properly aligned to the cardinal direction of the object rather than to the screw axis.
 
 

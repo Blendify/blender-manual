@@ -41,7 +41,6 @@ Filter
       Inverse
          Sort objects in ascending or descending order. This also applies to alphabetical sorting, if selected.
 
-
 On the right of the list view are additional buttons:
 
 Add ``+``

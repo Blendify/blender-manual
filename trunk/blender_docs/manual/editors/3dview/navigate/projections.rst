@@ -27,7 +27,6 @@ These are demonstrated in the Fig. below.
 
           Perspective projections.
 
-
 Our eye is used to perspective viewing because distant objects appear smaller.
 Orthographic projection often seems a bit odd at first,
 because objects stay the same size regardless of their distance.

@@ -28,7 +28,6 @@ and incorporates facilities for user interaction during the rendering process.
 
    Screenshot from "Yo Frankie", produced with Blender Game Engine.
 
-
 The Blender Game Engine oversees a game loop, which processes logic, sound,
 physics and rendering simulations in sequential order. The engine is written in C++.
 

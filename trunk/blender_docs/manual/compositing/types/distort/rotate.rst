@@ -9,7 +9,6 @@ Rotate Node
 
    Rotate Node.
 
-
 This node rotates an image.
 
 

@@ -32,7 +32,6 @@ Topology Mirror
 
    For *Topology Mirror* to work the *X Mirror* option must be enabled.
 
-
 When using the *X Mirror* option to work on mirrored Mesh Geometry the vertices that
 are mirrored must be perfectly placed. If they are not exactly positioned in their mirror
 locations then *X Mirror* will not treat those vertices as mirrored.

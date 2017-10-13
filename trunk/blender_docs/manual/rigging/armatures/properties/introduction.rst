@@ -39,7 +39,6 @@ Inverse Kinematics
 
    The Inverse Kinematics panel.
 
-
 Defines the type of IK solver used in your animation.
 
 

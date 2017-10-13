@@ -11,7 +11,6 @@ Texture
 
    Texture options and example.
 
-
 Use the texture data-block at the bottom of the paint panel to select a pre-loaded image or
 procedural texture to use as your brush pattern.
 
@@ -24,7 +23,6 @@ it must only be defined.
 The example to the right shows the effects of painting with a flat
 (banded) wood texture.
 Switching the texture to Rings makes a target/flower type of brush painting pattern.
-
 
 Texture
    In paint modes the texture is used as a color source,

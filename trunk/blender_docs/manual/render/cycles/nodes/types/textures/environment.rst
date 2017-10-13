@@ -9,7 +9,6 @@ Environment Texture Node
 
    Environment Texture Node.
 
-
 The *Environmental Texture* is used to light your scene using an environment map image file as a texture.
 
 

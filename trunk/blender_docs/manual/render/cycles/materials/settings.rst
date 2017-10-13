@@ -43,7 +43,6 @@ Displacement
 
    These Options are only available if :ref:`Experimental Feature Set <cycles-experimental-features>` is turned on.
 
-
 Displacement Method
    Method used preform :doc:`Displacement </render/cycles/materials/displacement>` on materials.
 

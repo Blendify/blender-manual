@@ -104,7 +104,6 @@ Layering UV Textures
 
           Layered UV Texture.
 
-
 Great textures are formed by layering images on top of one another.
 You start with a base layer, which is the base paint. Each successive layer on top of that is
 somewhat transparent to let the bottom layers show through,
@@ -189,7 +188,6 @@ The vertex colors are used to modulate the brightness or color of the UV image t
 
    Vertex colors modulate texture.
 
-
 A UV Layout can only have one image, although you can tile and animate the image.
 Since a layout is a bunch of arranged UV Maps, and a UV Map maps many mesh faces,
 a face can therefore only have one UV Texture image,
@@ -207,7 +205,6 @@ Using Alpha Transparency
    :width: 200px
 
    Alpha UV Textures.
-
 
 Alpha 0.0 (transparent) areas of a UV Image render as black.
 Unlike a procedural texture, they do not make the base material transparent,

@@ -7,7 +7,6 @@ Data Previews
 
    File Browser Previews.
 
-
 The File Browser supports many types of previews. These include:
 
 - Image and video formats

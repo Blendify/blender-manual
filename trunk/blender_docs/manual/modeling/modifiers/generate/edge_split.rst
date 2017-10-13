@@ -27,7 +27,6 @@ Options
 
    Edge Split Modifier.
 
-
 Edge Angle
    When enabled, edges will be split if the angle between its
    two adjacent faces is greater than the *Split Angle*.

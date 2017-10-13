@@ -42,7 +42,6 @@ Use UV Coordinates
 
    A texture setup to map using its UV coordinates.
 
-
 In the Texture channel panel,
 Add a New Texture and define the texture as an image and load the image you want to use.
 In the Mapping section, choose UV from the Coordinates menu, and select the UV map to use.
@@ -74,7 +73,6 @@ Face Textures
 
    The Material panel with activated Face Textures button.
 
-
 An alternate way is to set up a Face Textures Material as shown. To do so,
 with the Properties editor displayed, press :kbd:`F5` to display the Shader Buttons.
 In the Properties editor, Material settings, click *Add New* material.
@@ -103,7 +101,6 @@ you do **not** want any stretching (unless you want the cloth to look like spand
 
           A preview of the texture on the geometry.
 
-
 When you render, the mesh will have the test grid as its colors,
 and the UV Texture will be the size image you specified.
 
@@ -115,7 +112,6 @@ Modifying your Image Texture
 
    - :doc:`Render Bake </render/blender_render/bake>`
    - :doc:`Texture Paint </sculpt_paint/painting/texture_paint/introduction>`.
-
 
 The advantage to saving as a separate file is that you can easily switch textures just by
 copying other image files over it, and you can use external editing programs to work on it.

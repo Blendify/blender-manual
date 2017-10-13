@@ -8,7 +8,6 @@ Material Node
 
    Material node.
 
-
 The Material node is used for shading.
 
 
@@ -66,7 +65,6 @@ Using the Material Node with Specularity
 .. figure:: /images/render_blender-render_materials_nodes_input_material_example.png
 
    Material Node using Specularity.
-
 
 To make a material node actually generate a color, at least
 a basic input color have to be specified, and optionally a specularity color.

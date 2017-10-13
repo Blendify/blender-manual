@@ -215,7 +215,6 @@ The Keymap editor lets you change the default Hotkeys. You can change keymaps fo
 
    Keymap Editor.
 
-
 Keymap Presets
    A list of predefined keymaps.
 

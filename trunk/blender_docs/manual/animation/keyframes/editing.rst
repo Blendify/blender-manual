@@ -30,7 +30,6 @@ Auto Keyframe
 
    Timeline Auto Keyframe.
 
-
 Auto Keyframe is the red record button in the *Timeline* header. Auto Keyframe adds
 keyframes automatically to the set frame if the value for transform type properties changes.
 
@@ -87,7 +86,6 @@ Keyframe Animation
 
 This example shows you how to animate a cubes location, rotation, and scale.
 
-
 #. First, in the *Timeline*, or other animation editors, set the frame to 1.
 #. With the *Cube* selected in *Object Mode*, press :kbd:`I` in the 3D View.
 #. From the *Insert Keyframe Menu* select *LocRotScale*.
@@ -100,7 +98,6 @@ This example shows you how to animate a cubes location, rotation, and scale.
    :width: 500px
 
    Insert Keyframes.
-
 
 To test the animation, press :kbd:`Alt-A` to play.
 

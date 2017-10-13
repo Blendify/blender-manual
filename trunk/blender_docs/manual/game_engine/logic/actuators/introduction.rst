@@ -11,7 +11,6 @@ The logic blocks for all types of actuator may be constructed and changed using 
 :doc:`Logic Editor </editors/logic_editor>`; details of this process are given in the
 :doc:`Actuator Editing </game_engine/logic/actuators/editing>` page.
 
-
 The following types of actuator are currently available:
 
 :doc:`Action </game_engine/logic/actuators/types/action>`

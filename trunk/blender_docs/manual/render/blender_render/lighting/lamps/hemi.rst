@@ -8,7 +8,6 @@ Hemi Lamp
 
    Hemi light conceptual scheme.
 
-
 The *Hemi* lamp provides light from the direction of a 180- hemisphere,
 designed to simulate the light coming from a heavily clouded or otherwise uniform sky.
 In other words, it is a light which is shed, uniformly,
@@ -30,7 +29,6 @@ Options
    :width: 307px
 
    Hemi lamp's panel.
-
 
 Energy and Color
    These settings are common to most types of lamps, and are described in

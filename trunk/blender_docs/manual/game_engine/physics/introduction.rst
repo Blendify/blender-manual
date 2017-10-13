@@ -107,7 +107,6 @@ before you press :kbd:`P`.
 Also note that you can see how the Bullet triangulation is working
 (it busts all your Quads to Tris at run-time, but the BGE meshes are still quads at run-time).
 
-
 - *RGB/XYZ Widget* - Representing the object's Local Orientation and Origin.
 - *Green* - "sleeping meshes" that are not moving, saving calculations until an external event "wakes" it.
 - *White* - White lines represent active bounding meshes at are undergoing physics calculations,

@@ -106,7 +106,6 @@ and the combined effect when they are *mixed* equally.
 
    Example node setup showing "Darken", "Enhance Contrast" and "Mix" nodes for composition.
 
-
 As you can hopefully see, our original magic monkey was overexposed by too much light.
 To cure an overexposure, you must both darken the image and enhance the contrast.
 
@@ -153,7 +152,6 @@ making the ones containing the mark ever-so-slightly brighter.
 
    Embedding your mark in an Image using a Mark and Specific Position.
 
-
 Of course, if you *want* people to notice your mark, do not scale it so much,
 or make it a contrasting color. There are also many other ways,
 using other mix settings and fancier rigs. Feel free to experiment!
@@ -178,7 +176,6 @@ and you can see how the original mark stands out, clear as a bell:
    :width: 700px
 
    Checking an image for your watermark.
-
 
 Various image compression algorithms lose some of the original; the difference shows as noise.
 Experiment with different compression settings and marks to see which works best for you by

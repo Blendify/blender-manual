@@ -10,7 +10,6 @@ Alpha Over Node
 
    Alpha Over Node.
 
-
 The *Alpha Over Node* is used to layer images on top of one another.
 Alpha Over does not work on the colors of an image.
 
@@ -95,7 +94,6 @@ The resulting image is a composite of the two source images.
           :width: 320px
 
           Animated See-Through/Sheer SFX using Alpha Over on Frame 11.
-
 
 In this example, we use the Factor control to make a sheer cloth or onion-skin effect.
 This effect can be animate, allowing the observer to "see-through" walls

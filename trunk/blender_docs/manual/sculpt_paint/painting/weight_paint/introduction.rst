@@ -38,7 +38,6 @@ And all in-between values are drawn in rainbow colors (blue, green, yellow, oran
 
    The color spectrum and their respective weights.
 
-
 In addition to the above described color code, Blender has a special visual notation (as an option)
 for unreferenced vertices: They are drawn in black.
 Thus you can see the referenced areas (drawn in cold/hot colors) and the unreferenced areas

@@ -55,7 +55,6 @@ Options
 
    Reflecting plane Environment Map settings.
 
-
 Blender allows three types of environment maps,
 as you can see in Fig. :ref:`fig-bi-environment-panel`:
 
@@ -92,7 +91,6 @@ Specials
    Environment Map calculation can be disabled at a global level
    by the *Environment Map* Tog Button in the Render
    Panel of the Rendering Buttons.
-
 
 Viewpoint Object
    Environment maps are created from the perspective of a specified object.
@@ -166,7 +164,6 @@ Filter
       Eccentricity
          Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower)
 
-
 Filter Size
    The amount of blurring applied to the texture.
    Higher values will blur the environment map to fake blurry reflections.
@@ -195,7 +192,6 @@ onto which it is being mapped.
      - .. figure:: /images/render_blender-render_textures_types_environment_example-2.jpg
 
           Sphere on a reflecting surface.
-
 
 The following images show the effect of the *Depth*.
 The first render has depth set to 0. This means the environment map on the plane has rendered

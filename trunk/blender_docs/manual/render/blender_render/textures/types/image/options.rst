@@ -30,7 +30,6 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
           Foreground image.
 
-
 The two images presented here are used to demonstrate the different image options.
 The *background image* is an ordinary JPG-file,
 the *foreground image* is a PNG-file with various alpha and grayscale values.
@@ -72,7 +71,6 @@ Flip X/Y Axis
 .. figure:: /images/render_blender-render_textures_image_options_image-sampling-panel.png
 
    Image Sampling panel.
-
 
 Normal Map
    This tells Blender that the image is to be used to create the illusion of a bumpy surface,
@@ -168,7 +166,6 @@ Image Mapping
 .. figure:: /images/render_blender-render_textures_image_options_image-mapping-panel.png
 
    Image Mapping panel.
-
 
 In the *Image Mapping* panel,
 we can control how the image is mapped or projected onto the 3D model.

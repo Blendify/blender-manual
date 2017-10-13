@@ -9,7 +9,6 @@ Outliner
 
    The Outliner editor.
 
-
 The *Outliner* is a list that organizes data in the blend-file.
 i.e. the scene data and also the User Preferences.
 

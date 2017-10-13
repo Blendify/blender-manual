@@ -28,7 +28,6 @@ allows you to select a module from the list of loaded style modules.
    A screen capture of a style module (cartoon.py) loaded in the Text Editor (left),
    as well as Freestyle options in the Python Scripting mode in the Render Layers buttons (right).
 
-
 Freestyle for Blender comes with a number of Python style modules that can serve as a starting
 point of your own style module writing. See also the section of the Freestyle Python API in
 the Blender Python API reference manual for the full detail of style module constructs.
@@ -60,7 +59,6 @@ structured as a pipeline of operations that allow for building strokes from the 
 within the view map.
 
 There are five kinds of operations (listed with corresponding operator functions):
-
 
 - Selection ``Operators.select()``
 - Chaining ``Operators.chain(), Operators.bidirectional_chain()``
@@ -96,7 +94,6 @@ satisfying a certain predicate. The ``Operators.select()`` method takes as the a
 predicate that works on any ``Interface1D`` that represents a 1D element. For example::
 
    Operators.select(QuantitativeInvisibilityUP1D(0))
-
 
 This selection operation uses the ``QuantitativeInvisibilityUP1D`` predicate to select only the
 visible ``ViewEdge`` (more precisely, those whose quantitative invisibility is equal to 0).
@@ -134,7 +131,6 @@ The following is a code example of bidirectional chaining::
            NotUP1D(QuantitativeInvisibilityUP1D(0)),
            )
 
-
 The chaining operator uses the ``ChainSilhouetteIterator`` as the chaining rule and stops chaining
 as soon as the iterator has come to an invisible ``ViewEdge``.
 
@@ -165,7 +161,6 @@ the active set of chains is set to the new chains. ::
 
    Operators.sequentialSplit(TrueUP0D(), 2)
 
-
 In this example, the chain is split every 2 units.
 A more elaborated version uses two predicates instead of one: One to determine the starting
 point of the new chain and the other to determine its ending point. This second version can
@@ -180,7 +175,6 @@ until the input Chain satisfies a user-specified stopping condition. ::
 
    func = Curvature2DAngleF0D()
    Operators.recursive_split(func, NotUP1D(HigherLengthUP1D(5)), 5)
-
 
 In the code example above,
 the Chains are recursively split at points of the highest 2D curvature.
@@ -223,7 +217,6 @@ The second input is a list of shaders that will be responsible for the shading o
        ConstantColorShader(0.2,0.2,0.2,1),
        ]
    Operators.create(DensityUP1D(8,0.1, IntegrationType.MEAN), shaders_list)
-
 
 In this example,
 the ``DensityUP1D`` predicate is used to remove all Chains whose mean density is higher than 0.1.

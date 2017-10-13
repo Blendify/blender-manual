@@ -42,7 +42,6 @@ Blender creates a copy of "chain_a" and matches the bones with the stroke.
 Blender also creates a copy of "chain_b", but this chain is not altered in any way;
 because this tool can map only one selected chain with a stroke.
 
-
 In the following example, no template is selected. (In other words, all the action is within the armature itself.)
 
 Two bones are selected in "chain_b",
@@ -83,9 +82,7 @@ Note how a two-bone chain is fitted to a three-segment stroke.
 
           After conversion.
 
-
 OK now, here are some important ground rules:
-
 
 - This conversion method can use as reference bones either the selected bones in the *currently* edited armature,
   or *all* bones from another armature.
@@ -122,7 +119,6 @@ OK now, here are some important ground rules:
      - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-2.png
 
           With another armature as template.
-
 
 Now, here are the settings of this conversion method:
 
@@ -179,7 +175,6 @@ Template
    Examples of Template conversions for various influence weights values,
    with one stroke quite similar to the template chain's shape, and one stroke very different.
 
-
 Side and Number text fields, *auto* button
    These control how the new bones are named. By default,
    they just take the same names as the originals from the template, except for the final number,
@@ -227,7 +222,6 @@ Side and Number text fields, *auto* button
           :width: 200px
 
           After conversion.
-
 
 Static text line
    The line just above the *Peel Objects* button gives you two informations:

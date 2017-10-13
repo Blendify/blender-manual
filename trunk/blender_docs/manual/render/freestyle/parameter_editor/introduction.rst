@@ -7,7 +7,6 @@ Introduction
 
    Parameter Editor Mode.
 
-
 The Freestyle *Parameter Editor Mode* is a user-friendly interface
 to define and control line sets and line styles.
 

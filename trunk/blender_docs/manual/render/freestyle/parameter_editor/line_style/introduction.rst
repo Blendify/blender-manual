@@ -12,7 +12,6 @@ Introduction
 
    Line Style UI.
 
-
 In Freestyle, the line style settings define the appearance of a line set using five main aspects:
 
 - :doc:`Stroke </render/freestyle/parameter_editor/line_style/tabs>`

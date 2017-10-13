@@ -19,7 +19,6 @@ See :doc:`Shadows </render/blender_render/lighting/shadows/index>` for a more co
 
    Shadow Panel.
 
-
 The Shadow panel in the Materials Properties editor (see Fig. :ref:`fig-bi-material-shadow-panel`)
 controls the effects that the material can have on the shadows that appear in the scene.
 The various properties are described in the sections below.
@@ -46,7 +45,6 @@ Shadow Receiving Object Material
 --------------------------------
 
 The following options affect the material that receives shadows:
-
 
 Receive
    Allows this material to receive full-intensity shadows (Fig. :ref:`fig-bi-material-shadow-receive`).

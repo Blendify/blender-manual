@@ -42,7 +42,6 @@ Sky & Atmosphere
 
    Sky & Atmosphere panel.
 
-
 Various settings for the appearance of the sun in the sky,
 and the atmosphere through which it shines, are available. For details, see
 :doc:`Sky and Atmosphere </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>`.
@@ -55,7 +54,6 @@ Shadow
    :width: 304px
 
    Shadow panel.
-
 
 The *Sun* light source can only cast ray-traced shadows.
 It shares with other lamp types the same common shadowing options,

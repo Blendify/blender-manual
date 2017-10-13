@@ -44,7 +44,6 @@ Type
       If you want to convert your sketch to a mesh,
       simply choose *NURBS* first, and then convert the created curve to a mesh.
 
-
 Normalize Weight
    Will scale weights value so that they fit tightly into the (0.0 to 1.0) range. (enabled by default)
 
@@ -73,7 +72,6 @@ So this allows you to reproduce your drawing movements.
 
    All those "timing" options need *Link Stroke* to be enabled,
    otherwise they would not make much sense!
-
 
 Timing Mode
    This control lets you choose how timing data is used.

@@ -7,7 +7,6 @@ Lamps Textures
 
    Lamp Texture panels.
 
-
 When a new lamp is added, it produces light in a uniform, flat color.
 While this might be sufficient in simple renderings,
 more sophisticated effects can be accomplished through the use of

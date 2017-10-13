@@ -117,7 +117,6 @@ Size
    The reverse is true also -- the quality of the generated shadows will usually improve
    (up to a point) as the *Spot* lamp covers a smaller area.
 
-
 Filter Type
    The *Box*, *Tent*, and *Gauss* filter types control what filtering algorithm to use to
    anti-alias the buffered shadows.
@@ -193,7 +192,6 @@ Sample Buffers
 
    Buffer Shadow set to Irregular.
 
-
 Irregular shadow method is used to generate sharp/hard shadows that are placed as accurately as raytraced shadows.
 This method offers very good performance because it can be done as a multi-threaded process.
 
@@ -254,7 +252,6 @@ Bias
    This value is a factor by which the *Bias* value of each *Spot* buffered shadows lamp is multiplied,
    each time its light hits an object using this material.
    The (0.0 and 1.0) values are equivalent. They do not alter the lamp's *Bias* original value.
-
 
 Clip Start & Clip End
    When a *Spot* light with buffered shadows is added to a scene,

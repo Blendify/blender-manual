@@ -31,7 +31,6 @@ Options
 
    Cast Modifier.
 
-
 Cast Type
    Menu to choose target shape of the projection.
 

@@ -55,7 +55,6 @@ Below you can see *Motion Blur* filter in Blender window, along with its logic b
 
    2D Filters: Motion Blur.
 
-
 You can enable Motion Blur filter using a *Python* controller::
 
    from bge import render

@@ -106,7 +106,6 @@ Active Spline
 
    Curves Active Spline panel.
 
-
 The *Active Spline* panel becomes available during *Edit Mode*.
 
 Cyclic

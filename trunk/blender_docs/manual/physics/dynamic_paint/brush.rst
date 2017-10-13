@@ -8,7 +8,6 @@ Dynamic Paint Brush
 
    Brush main panel.
 
-
 From the first brush panel you can define how brush affects canvas color surfaces.
 
 Absolute Alpha
@@ -129,7 +128,6 @@ Velocity Panel
 
    Velocity panel.
 
-
 This panel shows brush options that are based on object velocity.
 
 On top you have a color ramp and several related settings.
@@ -161,7 +159,6 @@ Waves Panel
 .. figure:: /images/physics_dynamic-paint_brush_waves-panel.png
 
    Brush Waves panel.
-
 
 This panel is used to adjust brush influence to "Wave" surfaces.
 

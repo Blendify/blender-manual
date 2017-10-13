@@ -124,8 +124,7 @@ to select the rest of the control points.
 
        .. figure:: /images/modeling_surfaces_editing_selecting-row.png
 
-          Shift-R
-
+          :kbd:`Shift-R`
 
 The edge is then extruded using :kbd:`E` as shown in Fig. :ref:`fig-surface-edit-extruding`.
 Notice how the mesh has bunched up next to the highlighted edge.
@@ -234,7 +233,6 @@ Example
 .. figure:: /images/modeling_surfaces_editing_deleting.png
 
    Before and after.
-
 
 In Fig. *Before and after (left)* a row of control points has been selected by initially
 selecting the one control point and using :kbd:`Shift-R` to select the remaining

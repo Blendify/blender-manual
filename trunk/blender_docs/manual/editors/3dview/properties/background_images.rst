@@ -26,7 +26,6 @@ Settings
 
 .. figure:: /images/editors_3dview_background_images.png
 
-
 Axis
    Choose which views the image is visible from.
    This is helpful when you have several reference images from different views (e.g. top, front and side).

@@ -19,7 +19,6 @@ Markup Style Guide
    so please avoid making this page into a wall-of-text,
    many conventions can be noticed along the way by reading existing text.
 
-
 This page covers the conventions for writing and use of the reStructuredText (RST) markup syntax.
 
 
@@ -229,7 +228,6 @@ Linking to a title in the same file::
    Body text.
 
    Implicit references, like `Titles are Targets`_
-
 
 Linking to the outside world::
 

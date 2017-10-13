@@ -11,7 +11,6 @@ Keep in mind that large domains require higher resolutions and longer bake times
 You will want to make it just large enough that the simulation will fit inside it,
 but not so large that it takes too long to compute the simulation.
 
-
 To create a domain, add a cube :menuselection:`Add --> Mesh --> Cube`, :kbd:`Shift-A`
 and transform it until it encloses the area where you want smoke. Translation, rotation,
 and scaling are all allowed. To turn it into a smoke domain, click *Smoke*
@@ -43,7 +42,6 @@ Resolution
    larger domains will need more divisions to get an equivalent resolution to a small domain.
 
    Also see `Note on Divisions and High Resolution`_.
-
 
 Time Scale
    Controls the speed of the simulation. Low values result in a "slow motion" simulation,

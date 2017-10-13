@@ -9,7 +9,6 @@ Point
 
    Point lamp.
 
-
 The *Point* lamp is an omni-directional point of light, that is,
 a point radiating the same amount of light in all directions. It's visualized by a plain,
 circled dot. Being a point light source, the direction of the light hitting an object's
@@ -49,7 +48,6 @@ Shadows
    :width: 307px
 
    Point lamp with ray shadows and Adaptive QMC sample generator enabled.
-
 
 The *Point* light source can only cast ray-traced shadows.
 It shares with other lamp types the common shadow options described in

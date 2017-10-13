@@ -9,7 +9,6 @@ Vertex Weight Mix Modifier
 
    The Vertex Weight Mix Modifier panel.
 
-
 This modifier mixes a second vertex group (or a simple value) into the affected vertex group,
 using different operations.
 
@@ -187,7 +186,6 @@ Leave the mapping to the default *Local* option, and play with the various chann
           :width: 200px
 
           Using Saturation.
-
 
 Do not forget to add a Wave Modifier, and select your vertex group in it!
 

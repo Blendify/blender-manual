@@ -8,7 +8,6 @@ Follow Track Constraint
 
    Follow Track Constraint panel.
 
-
 TODO - see: https://developer.blender.org/T46926
 
 By default Follow Track constraint is making object have the same position at frame as track has and

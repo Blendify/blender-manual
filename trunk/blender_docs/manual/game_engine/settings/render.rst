@@ -8,7 +8,6 @@ Render Settings
 
    Camera Properties.
 
-
 The camera (or cameras) used in a Blender game have a wide-ranging effect on the way in which
 the game is rendered and displayed.
 Mostly this is controlled using the Properties panel of the camera(s) used in the game.
@@ -27,7 +26,6 @@ the mouse cursor is not visible. To exit the game, press the <ESC> key.
    Make sure that the render engine is set to Blender Game when attempting to set these controls,
    otherwise this description will not tally with what you see!
 
-
 In the Camera Properties area, there are seven panels available, as shown.
 Each can be expanded or contracted using the usual triangle button.
 The features in each panel will be described in detail below.
@@ -41,7 +39,6 @@ Embedded Player
 
    Embedded Player Panel.
 
-
 This panel provides information for the Embedded Game Player which allows games to be run
 inside a Blender render pane.
 
@@ -50,7 +47,6 @@ In fact, the *Resolution* controls seem to have no effect at all.
 The resolution and aspect ratio of the embedded preview are always fixed to the 3D preview pane,
 which behaves much like the *Extend* framing mode for the standalone player as described below.
 The *Framing* selection under the *Display* heading has no effect on the embedded preview.
-
 
 Start
    Starts the Game Engine inside the blender viewport preview pane. Shortcut :kbd:`P`.
@@ -68,7 +64,6 @@ Standalone Player
    :width: 300px
 
    Standalone Player Panel.
-
 
 This panel provides information for the Standalone Game Player which allows games to be run without Blender.
 See :doc:`Standalone Player </game_engine/blender_player>` for further details.
@@ -91,7 +86,6 @@ only certain resolutions are supported. In most other cases, the user's machine 
 close to the one suggested; but the results can be unpredictable, especially in *Letterbox* mode.
 
 Note that the *Desktop* checkbox has no effect in Windowed mode.
-
 
 Start
    Lanuches the current .blend file with the Standalone Player.
@@ -127,7 +121,6 @@ Stereo
 
    Stereo Panel.
 
-
 Select a stereo mode that will be used to capture stereo images of the game (and also,
 by implication, that stereo displays will use to render images in the standalone player).
 
@@ -148,7 +141,6 @@ Shading
    :width: 300px
 
    Shading Panel.
-
 
 Specifies the shading mode to be used in rendering the game.
 The shading facilities available in Blender for use in
@@ -176,7 +168,6 @@ and whether to maintain geometry in the internal memory of the Graphic card.
    :width: 300px
 
    System panel in the Render tab.
-
 
 Use Frame Rate
    Respect the frame rate rather than rendering as many frames as possible.
@@ -221,7 +212,6 @@ style of the game to fit the window with the specified resolution.
 .. figure:: /images/gameengine_performance_render_display.jpg
 
    Display panel at the Render tab.
-
 
 Animation Frame Rate
    This number button/slider specify the maximum frame rate at which the game will run.

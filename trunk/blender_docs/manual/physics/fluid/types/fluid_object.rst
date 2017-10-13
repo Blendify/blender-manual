@@ -9,7 +9,6 @@ Fluid Object
 
    Fluid object settings.
 
-
 All regions of this object that are inside the domain bounding box will be used as actual
 fluid in the simulation. If you place more than one fluid object inside the domain,
 they should currently not intersect. Also make sure the surface normals are pointing outwards.

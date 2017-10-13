@@ -15,7 +15,6 @@ you use composition nodes to both assemble video clips together and enhance them
    a numbered sequence of images, or a frame of a movie clip.
    The Compositor processes one image at a time, no matter what kind of input you provide.
 
-
 To process your image, you use nodes to import the image into Blender, change it,
 optionally merge it with other images, and finally, save it.
 

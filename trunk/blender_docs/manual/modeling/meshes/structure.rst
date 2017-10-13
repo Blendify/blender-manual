@@ -29,7 +29,6 @@ but it is bigger and you cannot select it.
 
    The origin is labeled as "A"; "B" and "C" are vertices.
 
-
 In the image above, the vertex labeled "C" is a new vertex added to the cube with a
 new edge added between "B" and "C".
 
@@ -80,7 +79,6 @@ the bottom row (5 - 8) a wireframe view of the same loops.
    Loops stop at so called poles because there is no unique way to continue a loop from a pole.
    Poles are vertices that are connected to either three, five, or more edges. Accordingly,
    vertices connected to exactly one, two or four edges are not poles.
-
 
 In the image above, loops that do not end in poles are cyclic (1 and 3).
 They start and end at the same vertex and divide the model into two partitions.

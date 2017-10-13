@@ -9,7 +9,6 @@ Z-Combine Node
 
    Z Combine Node.
 
-
 The Z-Combine node combines two images based on their Z-depth maps.
 It overlays the images using the provided Z values to
 detect which parts of one image are in front of the other.
@@ -59,7 +58,6 @@ Examples
 
    Choosing closest pixels.
 
-
 In the example above, render output from two scenes are mixed using the Z-Offset node,
 one from a sphere of size 1.30, and the other a cube of size 1.00.
 The sphere and square are located at the same place. The cube is tipped forward,
@@ -84,7 +82,6 @@ moves to the right created the illusion of depth as Bambi moved through the fore
 
    Mix and Match Images.
 
-
 The Z-Combine can be used to merge two images as well,
 using the Z-values put out by two render layers.
 Using the Z-values from the sphere and cube scenes above, but threading different images,
@@ -94,7 +91,6 @@ yields the example to the right.
    :width: 700px
 
    Z-Combine in action.
-
 
 In this node setup a render scene is mixed with a flat image. In the side view of the scene,
 the purple cube is 10 units away from the camera, and the gray ball is 20.

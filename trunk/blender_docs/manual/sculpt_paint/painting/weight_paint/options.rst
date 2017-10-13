@@ -32,7 +32,6 @@ Options
 
    Paint Options.
 
-
 The Weight Paint Options modify the overall brush behavior:
 
 Normals

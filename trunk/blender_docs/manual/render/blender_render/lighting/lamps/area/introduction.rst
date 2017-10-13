@@ -75,7 +75,6 @@ The shape of the area light can be set to *Square* or *Rectangle*.
 
           Rectangle options.
 
-
 Square / Rectangular
    Emit light from either a square or a rectangular area.
 Size / Size X / Size Y

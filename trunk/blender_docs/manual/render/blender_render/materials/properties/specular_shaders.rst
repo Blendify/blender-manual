@@ -53,7 +53,6 @@ Technical Details
 
    Specular Reflection.
 
-
 In reality, the quality of Diffuse and Specular reflection are generated during the same
 process of light scattering, but are not the same.
 Diffusion is actually subsurface scattering at a very small scale.
@@ -101,7 +100,6 @@ Cook-Torrance
 
    Cook-Torrance Shader (Lambert 0.8).
 
-
 Cook-Torrance
 is a basic specular shader that is most useful for creating shiny plastic surfaces.
 It is a slightly optimized version of Phong.
@@ -133,7 +131,6 @@ Phong
    :width: 320px
 
    Phong Shader (Lambert 0.8).
-
 
 Phong is a basic shader that is very similar to CookTorr,
 but is better for skin and organic surfaces.
@@ -211,7 +208,6 @@ Toon
 
    Toon Specular Shader (Toon Diffuse, Int 0.8, Size & Smooth match).
 
-
 The Toon specular shader matches the Toon diffuse shader. It is designed to produce the sharp,
 uniform highlights of cartoon cels.
 
@@ -242,7 +238,6 @@ Ward Isotropic
    :width: 320px
 
    Ward isotropic Shader.
-
 
 Ward isotropic is a flexible specular shader that can be useful for metal or plastic.
 

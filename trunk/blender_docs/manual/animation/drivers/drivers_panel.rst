@@ -8,7 +8,6 @@ Drivers Panel
 
    Drivers Panel.
 
-
 This panel is located in the :doc:`Graph Editor </editors/graph_editor/introduction>` with the mode set to Drivers.
 
 The drivers panel is for setting up *Driver Variables* or a *Scripted Expression* which

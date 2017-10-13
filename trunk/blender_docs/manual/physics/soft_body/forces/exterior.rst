@@ -117,7 +117,6 @@ The vertex tries to reach its target position with a certain, adjustable intensi
 
    Shock absorber description.
 
-
 Imagine the vertex is connected with its target through a spring Fig. :ref:`fig-softbody-force-exterior-shock`.
 
 Default
@@ -133,7 +132,6 @@ Default
    For non-mesh objects the *Weight* parameter of their vertices/control points is used instead
    (:kbd:`W` in *Edit Mode*) or use the *Transform* panel.
    The weight of *Hair* particles can also be painted in :doc:`Particle Edit Mode </physics/particles/mode>`.
-
 
 Minimum / Maximum
    When you paint the values in vertex-groups (using *Weight Paint Mode*),

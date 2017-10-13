@@ -11,7 +11,6 @@ Introduction
    The Constraints panel in Pose Mode,
    with one Limit Rotation constraint applied to the active bone.
 
-
 As bones behave like objects in *Pose Mode*, they can also be constrained. This is
 why the *Constraints* tab is shown in both *Object Mode* and
 *Edit Mode*. This panel contains the constraints *of the active

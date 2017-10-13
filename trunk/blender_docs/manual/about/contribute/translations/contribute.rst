@@ -108,7 +108,6 @@ You can do this by running::
 
    make report_po_progress
 
-
 This will only give a quick summary however, you can get more information by running::
 
    python tools/report_translation_progress.py locale/fr/

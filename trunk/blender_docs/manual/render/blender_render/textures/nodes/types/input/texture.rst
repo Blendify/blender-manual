@@ -9,7 +9,6 @@ Texture Node
 
    Texture node.
 
-
 The texture node can be used to load another node based or non-node based texture.
 
 

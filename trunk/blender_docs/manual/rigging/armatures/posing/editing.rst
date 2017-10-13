@@ -89,7 +89,6 @@ Clear Transform
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations.
 
-
 Location, Rotation, Scale :kbd:`Alt-G`, :kbd:`Alt-R`, :kbd:`Alt-S`
    Clears individual transforms.
 All
@@ -175,7 +174,6 @@ Breakdowner
 
 Creates a suitable breakdown pose on the current frame.
 
-
 There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
 like :ref:`auto-bones naming <armature-editing-naming-bones>`,
 :ref:`properties switching/enabling/disabling <armature-bone-properties>`, etc.,
@@ -203,7 +201,6 @@ Paste Pose
    Paste the buffered pose to the currently posed armature.
 Paste X-Flipped Pose
    Paste the *X axis mirrored* buffered pose to the currently posed armature.
-
 
 Here are important points:
 

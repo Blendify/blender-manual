@@ -8,7 +8,6 @@ Sensor Editing
 
    Sensor Column with Typical Sensor.
 
-
 Blender sensors can be set up and edited in the left-hand column of the Logic Panel.
 This page describes the general column controls,
 and also those parameters which are common to all individual sensor types.
@@ -26,7 +25,6 @@ Column Heading
 
    Sensor Column Heading.
 
-
 The column headings contain controls to set which sensors, and the level of detail given,
 in the sensor column. This is very useful for hiding unnecessary sensors so that the necessary
 ones are visible and easier to reach. Both these can be controlled individually.
@@ -43,7 +41,6 @@ Show Sensors
    Expands all sensors.
 Hide Sensors
    Collapses all sensors to bars with their names.
-
 
 It is also possible to filter which sensors are viewed using the four heading buttons:
 
@@ -64,7 +61,6 @@ Object Heading
    :width: 292px
 
    Sensor Object Heading.
-
 
 In the column list, sensors are grouped by object. By default,
 sensors for every selected object appear in the list,

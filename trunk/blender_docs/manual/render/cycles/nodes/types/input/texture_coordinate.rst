@@ -9,7 +9,6 @@ Texture Coordinate Node
 
    Texture Coordinate Node.
 
-
 The *Texture Coordinate* node is commonly used for the coordinates of textures,
 typically used as inputs for the *Vector* input for texture nodes.
 

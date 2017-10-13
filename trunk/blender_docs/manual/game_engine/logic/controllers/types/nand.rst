@@ -15,7 +15,6 @@ This controller *deactivates* all connected actuators if...
 - at least one connected sensor triggers the controller.
 - ALL connected sensor evaluated True.
 
-
 Options:
 
 .. figure:: /images/bge_controller_nan.png

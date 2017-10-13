@@ -29,7 +29,6 @@ View
 Render
    The rendered resolution of the generated mesh. The range is from (0.05 to 1.0) (finest to coarsest).
 
-
 One way to see the underlying mathematical structure is to lower the *Resolution*,
 increase the *Threshold* and set the *Stiffness* (see below)
 a fraction above the *Threshold*. Fig. :ref:`fig-meta-intro-underlying` is a *Meta cube*
@@ -74,7 +73,6 @@ A negative meta will push away or repel the meshes of positive *Meta* objects.
    :width: 400px
 
    Positive.
-
 
 A *positive* influence is defined as an attraction,
 meaning the meshes will stretch towards each other as the *rings of influence* intersect.

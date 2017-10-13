@@ -66,7 +66,6 @@ Examples
 .. figure:: /images/compositing-covert-combinergba.jpg
    :width: 600px
 
-
 In this first example, we take the Alpha channel and blur it,
 and then combine it back with the colors. When placed in a scene,
 the edges of it will blend in, instead of having a hard edge.
@@ -76,7 +75,6 @@ Animating this effect on a broader scale will make the object appear to "phase" 
 as an "out-of-phase" time-traveling sync effect.
 
 .. figure:: /images/compositing_nodes_converter_combine-separate_rgba-example-2.jpg
-
 
 In this node set up, we make all the reds become green,
 and all the green both Red and Blue, and remove Blue from the image completely.

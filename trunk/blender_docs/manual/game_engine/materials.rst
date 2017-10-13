@@ -66,7 +66,6 @@ Material Physics
 
    Panel Physics in Material context.
 
-
 This panel contains physical properties that control how the object surfaces that use the
 material are rendered in real time by the Blender Game Engine.
 

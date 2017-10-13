@@ -120,7 +120,6 @@ Caps
 
    Line tip caps.
 
-
 You can choose between three types of line caps:
 
 Butt
@@ -143,7 +142,6 @@ Dashed Line
 
    Dashes Line UI.
 
-
 By enabling the *Dashed Line* check box,
 you can specify three pairs of dash and gap lengths.
 Dash values define the lengths of dash strokes,
@@ -163,7 +161,6 @@ Color
 
    Line Style Color UI.
 
-
 In this tab you control the color of your strokes.
 
 Base Color
@@ -176,7 +173,6 @@ Alpha
 .. figure:: /images/render_freestyle_line-style_alpha.png
 
    Line Style Alpha UI.
-
 
 In this tab you control the alpha (transparency) of your strokes.
 
@@ -219,7 +215,6 @@ Geometry
 .. figure:: /images/render_freestyle_line-style_geometry.png
 
    Line Style Geometry Overall UI.
-
 
 In this tab you control the geometry of your strokes.
 It contains only the option to add modifiers.

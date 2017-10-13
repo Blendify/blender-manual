@@ -82,7 +82,6 @@ by pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`).
    firstly in the wider use of the Property Display Panel as described here,
    and secondly as the term used for specific Game Engine logic variables which are also called "properties".
 
-
 The Property panel of the screen is selected as usual from the main Information menu.
 However, note that several sections of the Property panel are changed when the render engine
 (2) is changed from Blender Render to Blender Game.

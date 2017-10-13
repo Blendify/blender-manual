@@ -67,7 +67,6 @@ To parent and/or connect bones, you can:
 
           Using the Parent data-ID of Bone.005 Relations panel.
 
-
 To disconnect and/or free bones, you can:
 
 - In a 3D View, select the desired bones, and press :kbd:`Alt-P`

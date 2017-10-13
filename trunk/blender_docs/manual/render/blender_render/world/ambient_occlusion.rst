@@ -61,7 +61,6 @@ Multiply
    it is best to light a scene properly with Blender's standard lamps, then use AO on top of that,
    set to *Multiply*, for the additional details and contact shadows.
 
-
 The *Gather* panel contains settings for the ambient occlusion quality.
 Note that these settings also apply to Environment Lighting and Indirect Lighting.
 
@@ -79,7 +78,6 @@ Raytrace
 .. figure:: /images/render_blender-render_world_ambient-occlusion_gather.png
 
    The Ambient Occlusion panel, Raytrace method.
-
 
 The *Raytrace* method gives the more accurate, but also the more noisy results.
 You can get a nearly noiseless image, but at the cost of render time... It is the only option if
@@ -177,7 +175,6 @@ Approximate
 .. figure:: /images/render_blender-render_world_ambient-occlusion_gather2.png
 
    The Ambient Occlusion panel, Approximate method.
-
 
 The *Approximate* method gives a much smoother result for the same amount of render
 time, but as its name states, it is only an approximation of the *Raytrace* method,

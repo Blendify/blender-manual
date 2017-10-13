@@ -16,20 +16,17 @@ Link Materials To
 
    Example for a Mesh.
 
-
 To understand this option properly, you need to understand how Blender works with Objects.
 Almost everything in Blender is organized in a hierarchy of data-blocks.
 A data-block can be thought of as containers for certain pieces of information. For example,
 the Object data-block contains information about the Object's location while the Object Data
 "ObData" data-block contains information about the mesh.
 
-
 A material may be linked in two different ways:
 
 .. figure:: /images/preferences_editing_data-blocks-link.png
 
    A material linked to Object Data (left) and Object (right).
-
 
 Object Data
    Any created material will be created as part of the Object Data data-block.

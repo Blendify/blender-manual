@@ -32,7 +32,6 @@ roughness and other surface qualities of a material.
 
    Textures Layer on base Material.
 
-
 Textures are like additional layers on top of the base material.
 Textures affect one or more aspects of the object's net coloring.
 The net color you see is a sort of layering of effects, as shown in this example image.

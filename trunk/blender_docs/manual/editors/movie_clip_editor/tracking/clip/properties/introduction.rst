@@ -15,7 +15,6 @@ Objects Panel
 
    Objects Panel.
 
-
 This panel contains a :ref:`list view <ui-list-view>` with all objects which can be used for tracking,
 camera or object solving.
 By default there is only one object in this list which is used for camera solving.

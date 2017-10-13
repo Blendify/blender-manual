@@ -279,7 +279,6 @@ Synchronize Playback
 
    60:54.75
 
-
 When you play an animation, the FPS is displayed at the top left of the 3D View.
 If the scene is detailed and playback is slower than the set
 *Frame Rate* (see :ref:`render-tab-dimensions`,

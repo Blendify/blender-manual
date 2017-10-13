@@ -32,7 +32,6 @@ Usage
 
    To Sphere Factor.
 
-
 Select the elements you want to operate on and activate the *To Sphere* transform function.
 The *To Sphere* option can be invoked from the :menuselection:`Mesh --> Transform --> To Sphere`
 menu option or by pressing :kbd:`Shift-Alt-S`. The amount of sphericity given
@@ -42,7 +41,6 @@ The confirmed transformation can be further edited by pressing :kbd:`F6`
 or by going into the *Tool Shelf* and altering the *Factor* slider provided
 that no other actions take place between the *To Sphere* transform confirmation and
 accessing the slider.
-
 
 Note that the result of the *To Sphere* transform is also dependant on the number of
 selected mesh elements (vertices, faces, etc.). As can be seen in the below image, the result
@@ -54,7 +52,6 @@ will be smoother and more spherical when there are more mesh elements available 
 
    In this image sequence, To Sphere was applied to the entire cube
    at levels of 0, 0.25 (25%), 0.5 (50%) and 1 (100%) respectively.
-
 
 The *To Sphere* transform will generate different results depending on the number
 and arrangement of elements that were selected (as shown by the below image).

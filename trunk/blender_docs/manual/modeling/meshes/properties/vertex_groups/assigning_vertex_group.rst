@@ -35,7 +35,6 @@ Vertex Groups Panel Controls
 Once a new Vertex Group has been added, the new Group appears in the
 vertex Groups panel. There you find three clickable elements:
 
-
 Group Name
    The Groupname can be changed by double clicking :kbd:`LMB` on the name itself.
    Then you can edit the name as you like.
@@ -83,7 +82,6 @@ Locking Vertex Groups
 
    Lock a Vertex Group.
 
-
 Right after creation of a Vertex Group,
 an open padlock icon shows up on the right side of the Vertex Group List entry.
 This icon indicates that the Vertex Group can be edited.
@@ -107,7 +105,6 @@ Assigning Vertices to a Group
    :align: right
 
    Assign weights to active group.
-
 
 You add vertices to a group as follows:
 

@@ -9,7 +9,6 @@ Halo Rendering
 
    Activating halo rendering.
 
-
 Halo materials renders each of the objects points as glowing dots or a little clouds of light.
 Although they are not really lights because they do not cast light into the scene like a lamp.
 These are called *Halos* because you can see them, but they do not have any substance.
@@ -26,7 +25,6 @@ Options
    :width: 309px
 
    Halo panels.
-
 
 To enable *Halos*, press the *Halo* button in the *Material* menu's top panel.
 
@@ -145,7 +143,6 @@ Fig. :ref:`fig-bi-material-halo-flare` settings.
 Note that this tool does not simulate the physics of photons
 traveling through a glass lens; it's just an eye candy.
 
-
 Blender's lens flare looks nice in motion,
 and disappears when another object occludes the flare mesh.
 
@@ -193,7 +190,6 @@ Let us use a halo material to create a dotmatrix display:
 
    Dot matrix image texture.
 
-
 - Add a material for the billboard, and set it to the type *Halo*.
   Set the *Halo Size* to 0.06 and when you render the scene you should see a grid of white spots.
 - Add a Texture, then change to the Texture Buttons and make it an image texture.
@@ -211,7 +207,6 @@ Let us use a halo material to create a dotmatrix display:
 .. figure:: /images/render_blender-render_materials_special-effects_halo_dotmatrix.jpg
 
    Dot Matrix display.
-
 
 You can now animate the texture to move over the billboard,
 using the *Offset X* value in the *Texture* tab of the Mapping panel.

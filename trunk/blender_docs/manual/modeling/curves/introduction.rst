@@ -14,7 +14,6 @@ Both Bézier curves and NURBS curves and surfaces are defined in terms of a set 
 
    Blender logo made from Bézier curves.
 
-
 Both Bézier and NURBs curves are named after their mathematical definitions, and choosing between them
 is often more a matter of how they are computed behind the scenes than how they appear from a modeler's
 perspective. Bézier curves are generally more intuitive because they start and end at the

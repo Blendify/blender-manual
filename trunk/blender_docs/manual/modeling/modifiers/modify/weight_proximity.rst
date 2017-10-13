@@ -9,7 +9,6 @@ Vertex Weight Proximity Modifier
 
    The Vertex Weight Proximity Modifier panel.
 
-
 This modifier sets the weights of the given vertex group,
 based on the distance between the object (or its vertices),
 and another target object (or its geometry).
@@ -57,7 +56,6 @@ Highest
 .. tip::
 
    *Lowest* can be set above *Highest* to reverse the mapping.
-
 
 Falloff Type
    Type of mapping:

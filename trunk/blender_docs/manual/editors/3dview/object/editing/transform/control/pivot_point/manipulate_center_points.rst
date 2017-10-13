@@ -19,7 +19,6 @@ but will not affect the object itself.
 
    Manipulate Center Points button.
 
-
 In the examples below,
 a comparison of the scaling and rotation of objects,
 when *Manipulate Center Points* is enabled (middle) and disabled (right).

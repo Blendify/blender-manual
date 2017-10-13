@@ -37,7 +37,6 @@ Options
 
    Limit Location panel.
 
-
 Minimum X, Minimum Y, Minimum Z
    These buttons enable the lower boundary for the location of the owner's center along,
    respectively, the X, Y and Z axes of the chosen *Space*.

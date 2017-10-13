@@ -9,7 +9,6 @@ Dilate/Erode Node
 
    Dilate/Erode Node.
 
-
 The *Dilate/Erode node* provides a morphology (mathematical shape analysis) filter.
 
 

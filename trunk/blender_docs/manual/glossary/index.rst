@@ -44,7 +44,6 @@ This page lists definitions for terms used in Blender and this manual.
          background is blocked. The OpenEXR file format uses this alpha type. So, intermediate files
          for rendering and compositing are often stored as premultiplied alpha.
 
-
       Conversion (Straight/Premultiplied) Alpha
          Conversion between the two alpha types is not a simple operation and can involve data loss,
          as both alpha types can represent data that the other cannot though it is often subtle.

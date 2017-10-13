@@ -8,7 +8,6 @@ Controller Editing
 
    Controller Column with Typical Sensor.
 
-
 Blender controllers can be set up and edited in the central column of the Logic Panel.
 This page describes the general column controls,
 those parameters which are common to all individual controller types,
@@ -26,7 +25,6 @@ Column Heading
    :width: 292px
 
    Controller Column Headings.
-
 
 The column headings contain controls to set which controllers appear,
 and the level of detail given, in the controller column. This is very useful for hiding
@@ -46,7 +44,6 @@ Show Controllers
 Hide Controllers
    Collapses all Controllers to bars with their names.
 
-
 It is also possible to filter which controllers are viewed using the three heading buttons:
 
 Sel
@@ -65,7 +62,6 @@ Object Heading
 
 .. figure:: /images/bge_controller_column4.png
    :width: 292px
-
 
 In the column list, controllers are grouped by object. By default,
 controllers for every selected object appear in the list,

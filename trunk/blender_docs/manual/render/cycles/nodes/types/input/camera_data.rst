@@ -9,7 +9,6 @@ Camera Data Node
 
    Camera Data Node.
 
-
 The *Camera Data* node is used for getting information about what
 the camera is viewing in order to achieve different effects.
 

@@ -59,7 +59,6 @@ viewer's mind. The node map below shows how to do this using the Set Alpha node.
 
    Fade To Black.
 
-
 In the example above, the alpha channel of the swirl image is ignored.
 Instead, a :doc:`time node </compositing/types/input/time>`
 introduces a factor from 0.00 to 1.00 over 60 frames, or about 2 seconds,
@@ -96,7 +95,6 @@ use the Set Alpha node with the Time node as shown below.
 
    Using Set Alpha to Fade in a Title.
 
-
 In the above example, a Time curve provides the Alpha value to the input socket.
 The current Render Layer node, which has the title in view, provides the image. As before,
 the trusty Alpha Over node mixes (using the alpha values)
@@ -112,7 +110,6 @@ Colorizing a BW Image
 .. figure:: /images/compositing_nodes_converter_set-alpha_colorizing-image.png
 
    Using Set Alpha to Colorize an Image.
-
 
 In the example above, notice how the blue tinge of the render input colors the swirl.
 You can use the Set Alpha node's color button with this kind of node map to add a consistent color to a BW image.

@@ -181,7 +181,6 @@ If the selection is not manifold it's extruded the specified number of times, el
 it behaves similar to the  :doc:`/modeling/modifiers/generate/array`.
 The extrusion is aligned along the Z axis of the view.
 
-
 Offset
    Distance between the instances.
 Steps

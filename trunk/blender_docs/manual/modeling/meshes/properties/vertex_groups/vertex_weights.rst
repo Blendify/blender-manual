@@ -16,7 +16,6 @@ Vertex Weights
 
    Vertex Group Categories (1), Weight Table (2), Function Bar (3).
 
-
 As mentioned before in :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index>`
 each entry in a Vertex Group also contains a weight value in the range of (0.0 to 1.0).
 Blender provides a *Vertex Weights* panel from where you can get (and edit)
@@ -71,7 +70,6 @@ In that case the Vertex Weights Panel is not displayed.
    This vertex is always highlighted so that you can see it easily in the mesh.
    If the active Vertex does not have weights, or there is no active vertex selected at the moment,
    then the Vertex Weights Panel disappears.
-
 
 Each row in the Weight table contains four active elements:
 
@@ -161,7 +159,6 @@ Function Bar
    :width: 235px
 
    Vertex Weights panel.
-
 
 The function bar contains two functions:
 

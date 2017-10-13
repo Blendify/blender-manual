@@ -11,7 +11,6 @@ Introduction
 
    Simple Seam on a Cylinder.
 
-
 For many cases, using the Unwrap calculations of Cube, Cylinder, Sphere,
 or best fit will produce a good UV layout. However, for more complex meshes,
 especially those with lots of indentations, you may want to define a *seam* to limit and
@@ -48,7 +47,6 @@ Marking Seams
    :width: 250px
 
    Seamed Suzanne.
-
 
 To add an edge to a seam, simply select the edge and :kbd:`Ctrl-E` *Mark Seam*.
 To take an edge out of a seam, select it, :kbd:`Ctrl-E` and *Clear Seam*.

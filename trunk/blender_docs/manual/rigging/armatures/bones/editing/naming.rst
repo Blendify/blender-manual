@@ -39,7 +39,6 @@ This will enable you to use some tools that will probably save you time and effo
 
    An example of left/right bone naming in a simple rig.
 
-
 #. First you should give your bones meaningful base-names, like "leg", "arm", "finger", "back", "foot", etc.
 #. If you have a bone that has a copy on the other side (a pair), like an arm,
    give it one of the following separators:

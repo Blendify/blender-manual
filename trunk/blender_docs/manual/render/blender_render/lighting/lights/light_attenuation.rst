@@ -7,7 +7,6 @@ Light Attenuation
 
    Lamp panel, falloff options highlighted.
 
-
 There are two main controls for light falloff for *Point* and *Spot* lamps:
 
 - The lamp *Falloff* type selector.
@@ -67,7 +66,6 @@ Quadratic
 
    Lamp with Lin/Quad Weighted falloff default settings.
 
-
 This slider input field can have a value between (0.0 to 1.0). A value of 1.0
 in the *Quadratic* field and 0.0 in the *Linear* field means that
 the light from this source is completely quadratic.
@@ -81,7 +79,6 @@ the light intensity is half when it reaches the *Distance* value from the lamp.
 Comparing the quadratic falloff to the linear falloff,
 the intensity decays much slower at distances lower than the set *Distance*,
 but it attenuates much quicker after *Distance* is reached.
-
 
 When the *Linear* slider is set to 0.0, the formula for working out the
 attenuation at a particular range for full quadratic attenuation is:
@@ -208,7 +205,6 @@ the graph shows that the intensity of the light starts off at its maximum
 
           Render showing the Custom Curve lamp falloff type effect with default settings.
 
-
 If you want to have a light attenuation profile that gets more intense as it moves away from
 the light source, you could alter the graph as below:
 
@@ -223,7 +219,6 @@ the light source, you could alter the graph as below:
           :width: 250px
 
           Falloff Curve for reversed attenuation rendered.
-
 
 You are obviously not just limited to simple changes such as reversing the attenuation
 profile, you can have almost any profile you desire.
@@ -252,7 +247,6 @@ Inverse Square
 
    Render showing the Inverse Square lamp falloff type effect with default settings.
 
-
 This lamp falloff type attenuates its intensity according to inverse square law,
 scaled by the *Distance* value. Inverse square is a sharper, realistic decay,
 useful for lighting such as desk lamps and street lights.
@@ -269,7 +263,6 @@ Inverse Linear
 
    Render showing the Inverse Linear lamp falloff type effect with default settings.
 
-
 This lamp falloff type attenuates its intensity linearly,
 scaled by the *Distance* value. This is the default setting, behaving the same as the
 default in previous Blender versions without *Quad* switched on, and consequently,
@@ -285,7 +278,6 @@ Constant
    :width: 300px
 
    Render showing the Constant lamp falloff type effect with default settings.
-
 
 This lamp falloff type does not attenuate its intensity with distance.
 This is useful for distant light sources like the sun or sky,
@@ -388,7 +380,6 @@ more and more objects become progressively brighter.
 
           Distance: 1000.
 
-
 The *Distance* parameter is controlling where the light is falling -- at a linear
 rate by default -- to half its original value from the light's origin.
 As you increase or decrease this value, you are changing where this half falloff occurs. You
@@ -442,7 +433,6 @@ We can see this in the Fig. :ref:`fig-bi-light-attenuation-inverse-square` image
        .. figure:: /images/render_blender-render_lighting_lights_attenuation_quad1000.jpg
 
           Inverse Square with 1000.
-
 
 With *Inverse Square* selected, the *Distance* field specifies where the light begins to fall off faster,
 roughly speaking; see the light attenuation description in `Falloff types`_ for more info.
@@ -506,7 +496,6 @@ the light attenuation is progressive
        .. figure:: /images/render_blender-render_lighting_lights_attenuation_sphere40.jpg
 
           Sphere with 40.
-
 
 In Fig. :ref:`fig-bi-light-attenuation-sphere10`, the clipping sphere's radius is 10 units,
 which means the light's intensity is also being controlled by 10 units of distance.

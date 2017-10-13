@@ -14,7 +14,6 @@ They are available in many of Blender's editors.
 
    Unlike keyframes, markers are always placed at a whole frame number, you cannot set a marker at frame 2.5.
 
-
 Markers can be created and edited in the following editors:
 
 - :doc:`Graph Editor </editors/graph_editor/introduction>`

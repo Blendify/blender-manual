@@ -37,7 +37,6 @@ five fingers attached to a single "hand" bone.
 
    An armature with two chains of bones.
 
-
 Bones are chained by linking the tip of the parent to the root of the child.
 Root and tip can be *connected*, i.e. they are always exactly at the same point;
 or they can be *free*, like in a standard parent-child object relationship.

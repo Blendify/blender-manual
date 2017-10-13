@@ -8,7 +8,6 @@ Lamp Data Node
 
    Lamp Data node.
 
-
 The Lamp Data node is used to obtain information related to a specified lamp object.
 
 

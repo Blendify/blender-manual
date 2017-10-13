@@ -86,7 +86,6 @@ Examples
    :width: 200px
    :figwidth: 200px
 
-
 In this `blend-file example <https://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball
 array image is blurred as if it was taken by a camera with an f-stop of 2.8 resulting in a
 fairly narrow depth of field centered on 7.5 Blender units from the camera.
@@ -122,7 +121,6 @@ Camera Settings
 .. figure:: /images/render_blender-render_camera_object-data_depth-of-field-panel.png
 
    Distance setting in the Camera Depth of Field panel.
-
 
 The *Defocus* node uses the actual camera data in your scene if supplied by a *Render Layer* node.
 
@@ -166,7 +164,6 @@ Edge Artifacts
      but with one of them inverted. (e.g. using a "Map Value" node with a Size of -1.)
      As the defocus of one increases,
      the defocus on the other decreases at the same rate, creating a smooth transition.
-
 
 Aliasing at Low f-Stop Values
    At very low values, less than 5,

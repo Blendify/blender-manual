@@ -38,7 +38,6 @@ Detect movement in a single joystick Axis.
 
    Joystick Single Axis.
 
-
 Axis Number
    Axis to detect a change.
 
@@ -73,7 +72,6 @@ Axis
    :width: 200px
 
    Joystick Axis.
-
 
 Axis Number
    Specifies the axis (1 or 2).

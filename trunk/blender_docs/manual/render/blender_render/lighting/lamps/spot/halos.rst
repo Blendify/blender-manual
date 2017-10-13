@@ -37,7 +37,6 @@ Step
 
    A value of 8 for *Halo Step* is usually a good compromise between speed and accuracy.
 
-
    Blender only simulates volumetric lighting in *Spot* lamps when using its internal renderer.
    This can lead to some strange results for certain combinations of settings for the light's
    *Energy* and the halo's *Intensity*.

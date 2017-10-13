@@ -10,7 +10,6 @@ They are used to animate deform the object vertices into a new shape.
 
    Example of a mesh with different shape keys applied.
 
-
 There are two types of Shape Keys:
 
 Relative

@@ -26,7 +26,6 @@ but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* 
 
    Transform Orientations selector.
 
-
 The Orientations options can be set through the *Orientation* selector in a 3D View header,
 with :kbd:`Alt-Spacebar`, or in the Transform Orientations panel in the Properties region.
 
@@ -111,7 +110,6 @@ Custom Orientations
 
    Custom orientation.
 
-
 You can define custom transform orientations, using object or mesh elements. Custom transform
 orientations defined from objects use the local orientation of the object whereas those
 defined from selected mesh elements (vertices, edges, faces)
@@ -125,7 +123,6 @@ adding and deleting custom orientations.
    :width: 300px
 
    Renaming a Custom Orientation.
-
 
 The default name for these orientations comes from whatever you have selected.
 If an edge, it will be titled, "Edge," if an object,
@@ -156,7 +153,6 @@ Workflow
 .. figure:: /images/orientations-custom-extrusion.png
 
    Custom Extrusion.
-
 
 The technique of creating custom orientations can become important in creating precise meshes.
 In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effect:
@@ -195,7 +191,6 @@ Demo Cube
 
    To demonstrate the various behaviors, we add some colors to the default cube,
    rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
-
 
 Please note two things:
 

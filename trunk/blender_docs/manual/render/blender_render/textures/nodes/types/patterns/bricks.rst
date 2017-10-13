@@ -9,7 +9,6 @@ Bricks Node
 
    Bricks node.
 
-
 The Bricks node creates a brick like pattern.
 
 

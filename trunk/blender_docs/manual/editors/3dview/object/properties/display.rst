@@ -10,7 +10,6 @@ Display
 
    Display panel.
 
-
 The *Display* panel is used to enable extra drawing or viewing options for the 3D View.
 
 Name

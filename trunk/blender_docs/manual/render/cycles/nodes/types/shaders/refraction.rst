@@ -9,7 +9,6 @@ Refraction Node
 
    Refraction Node.
 
-
 The *Refraction* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add glossy refraction with sharp or microfacet distribution,
 used for materials that transmit light. For best results this node should be considered as a

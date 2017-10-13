@@ -50,7 +50,6 @@ Getting Started
 
    UV Editing screen layout.
 
-
 By default, meshes are not created with UVs. First you must map the faces, then
 you can :doc:`edit them </editors/uv_image/uv_editing/layout_editing>`.
 The process of unwrapping your model is done within Edit Mode in the 3D View editor.

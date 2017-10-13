@@ -18,7 +18,6 @@ A file ``myscript.py`` contains::
    def myModule ():
       print("Go Open Source!");
 
-
 The function can be accessed as ``myscript.myModule``, which will run ``print("Go Open Source!");``
 every time the controller is triggered.
 
@@ -38,7 +37,6 @@ Name
    The name of the file to be loaded.
 D (Use Debug)
    Continuously reloads the file.
-
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.
 

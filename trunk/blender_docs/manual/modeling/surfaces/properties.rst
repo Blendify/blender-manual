@@ -59,7 +59,6 @@ or *Bézier*, with the same properties as for curves. And as with curves, only o
 
    Endpoint U.
 
-
 In Fig. :ref:`fig-surface-intro-endpoint` the U interpolation axis is labeled as "U" and the V
 interpolation axis is labeled as "V". The U's interpolation axis has
 been set to *Endpoint* and as such the surface now extends to the outer edges from
@@ -84,7 +83,6 @@ creating a surface that tends to follow the grid cage.
 .. figure:: /images/modeling_surfaces_introduction_order.png
 
    Order 2 and order 4 surface.
-
 
 For illustration purposes, in both Fig. :ref:`fig-surface-intro-order`,
 the knot vectors were set to *Endpoint*, causing the surface to extend to all edges.
@@ -120,7 +118,6 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
        .. figure:: /images/modeling_surfaces_introduction_resolution-3x3.png
 
           Resolution 3×3.
-
 
 Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 1 for both U and V.
 Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 3 for both U and V.

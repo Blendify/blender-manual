@@ -8,7 +8,6 @@ properties. While a blending mode defines the specific operation performed,
 blending factor controls the amount, the overall "strength" of this operation.
 For textures such blending factor is set via sliders in the Influence panel.
 
-
 Blend
    Blending operation to perform. See :term:`Color Blend Modes` for details on each blending mode.
 RGB to Intensity

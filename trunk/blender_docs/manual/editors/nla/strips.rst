@@ -63,7 +63,6 @@ A meta strip can be moved and duplicated like a normal strip.
 
           Combine them into a meta strip.
 
-
 A meta strip still contains the underlying strips. You can ungroup a Meta strip.
 
 .. admonition:: Reference
@@ -99,7 +98,6 @@ The keyframes of the action can then be edited in the Dope Sheet.
           :width: 200px
 
           Strip in Tweak mode.
-
 
 When your finished editing the strip, simply go to :menuselection:`Edit --> Tweaking Strips Action`
 or press :kbd:`Tab`.

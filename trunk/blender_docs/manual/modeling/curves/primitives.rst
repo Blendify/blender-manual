@@ -17,7 +17,6 @@ Primitives
 
    Add Curve menu.
 
-
 In Object Mode, the *Add Curve* menu, provides five different curve primitives:
 
 

@@ -10,7 +10,6 @@ SVG exporting for Freestyle is available through an add-on.
 
    An example of a SVG result produced by the Freestyle SVG Exporter.
 
-
 This add-on can be enabled via :menuselection:`User Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The GUI for the exporter should now be visible in the render tab of the Properties editor.
 The exported ``.svg`` file is written to the default output path

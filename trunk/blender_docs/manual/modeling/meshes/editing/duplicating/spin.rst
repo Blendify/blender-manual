@@ -20,7 +20,6 @@ Use the tool to create the sort of objects that you would produce on a lathe
 for this reason). In fact, it does a sort of circular extrusion of your selected elements,
 centered on the 3D cursor, and around the axis perpendicular to the working view...
 
-
 - The point of view will determine around which axis the extrusion spins...
 - The position of the 3D cursor will be the center of the rotation.
 
@@ -51,7 +50,6 @@ Example
 
    Glass profile.
 
-
 First, create a mesh representing the profile of your object.
 If you are modeling a hollow object, it is a good idea to thicken the outline.
 Fig. :ref:`fig-mesh-spin-glass` shows the profile for a wine glass we will model as a demonstration.
@@ -68,12 +66,10 @@ so switch to the top view with :kbd:`Numpad7`.
 
    Glass profile, top view in Edit Mode, just before spinning.
 
-
 Place the cursor along the center of the profile by selecting one of the vertices along the
 center, and snapping the 3D cursor to that location with :menuselection:`Mesh --> Cursor --> Selection`.
 (Fig. :ref:`fig-mesh-spin-glass-top`)
 shows the wine glass profile from top view, with the cursor correctly positioned.
-
 
 Click the *Spin* button. If you have more than one 3D View open, the cursor will
 change to an arrow with a question mark and you will have to click in the area containing
@@ -125,12 +121,10 @@ Merge Duplicates
 
    Duplicate vertices.
 
-
 The spin operation leaves duplicate vertices along the profile.
 You can select all vertices at the seam with Box select :kbd:`B` (shown in
 Fig. :ref:`fig-mesh-screw-duplicate`) and
 perform a *Remove Doubles* operation.
-
 
 Notice the selected vertex count before and after the *Remove Doubles* operation
 ``Vertex count after removing doubles``. If all goes well, the final vertex count

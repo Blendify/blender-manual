@@ -9,7 +9,6 @@ that is used to color the surface of a mesh.
 The UV Texture is mapped to the mesh through one or more UV maps.
 There are three ways to establish the image used by the UV Texture:
 
-
 - Paint a flat image in the UV/Image Editor onto the currently selected UV Texture,
   using its UV map to transfer the colors to the faces of the mesh.
 - Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture.
@@ -29,7 +28,6 @@ GIMP is a full-featured image manipulation program that is also open-source.
    :width: 400px
 
    Texture painting in Blender.
-
 
 Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
 However, each UV Texture only has one image.
@@ -124,7 +122,6 @@ option to save your work with a different name or overwrite the original image.
 
    Since images used as UV Textures are functionally different from other images,
    you should keep them in a directory separate from other images.
-
 
 The image format for saving is independent of the format for rendering.
 The format for saving a UV image is selected in the header of the File browser,

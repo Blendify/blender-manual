@@ -73,7 +73,6 @@ This panel is used to select the IK Solver type for the armature. *Standard* or 
 
    The armature IK panel.
 
-
 Most the time people will use the *Standard* IK solver.
 There is some documentation for the *iTaSC* "instantaneous Task Specification using
 Constraints" IK solver here.

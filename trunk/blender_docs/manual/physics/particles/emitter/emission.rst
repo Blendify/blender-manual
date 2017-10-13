@@ -19,7 +19,6 @@ Options
 
    Particle Emission Settings.
 
-
 The buttons in the *Emission* panel control the way particles are emitted over time:
 
 Number

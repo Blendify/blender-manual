@@ -9,7 +9,6 @@ Keying Sets
 
    Timeline Keying Sets.
 
-
 Keying Sets are a collection of properties.
 
 .. (alt) Keying Sets are a set of keyframe channels.
@@ -39,7 +38,6 @@ This panel is used to add, select, manage *Absolute Keying Sets*.
 .. figure:: /images/animation_keyframes_keying-sets_scene-keying-set-panel.png
 
    The Keying Set panel.
-
 
 Active Keying Set
    The :ref:`List View <ui-list-view>` of Keying Sets in the active Scene.
@@ -86,7 +84,6 @@ This panel is used to add properties to the active Keying Set.
 .. figure:: /images/editors_graph-editor_introduction_channels-region.png
 
    The Graph Editors channels region with named groups.
-
 
 Active Keying Set Paths
    A collection of paths in a :ref:`List View <ui-list-view>` each with a *Data Path* to a property

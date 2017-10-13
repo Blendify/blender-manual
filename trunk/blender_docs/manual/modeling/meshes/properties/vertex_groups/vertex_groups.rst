@@ -14,7 +14,6 @@ Vertex Groups Panel
 
    The Vertex Group Panel.
 
-
 Vertex Groups are maintained within the *Object Data* Properties Editor,
 and there in the *Vertex Groups* panel.
 

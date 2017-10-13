@@ -449,7 +449,6 @@ Set Spline Type
 
    Set Spline Type button.
 
-
 You can convert splines in a curve object between Bézier, NURBS, and Poly curves.
 Press :kbd:`T` to bring up the Tool Shelf. Clicking on the *Set Spline Type*
 button will allow you to select the Spline type (Poly, Bézier or NURBS).

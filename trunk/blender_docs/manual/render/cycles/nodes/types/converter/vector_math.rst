@@ -9,7 +9,6 @@ Vector Math Node
 
    Vector Math Node.
 
-
 The *Vector Math* node performs the selected math operation on vectors.
 Select the math function by clicking the up-down selector where the "Add" selection is shown.
 

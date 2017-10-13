@@ -27,7 +27,6 @@ Colors
       Any change to line color or fill color, will change any stroke of any layer using this color.
       A palette must contain at least one color, so the last one cannot be deleted.
 
-
    Lock (padlock icon)
       ToDo.
    Hide (eye icon)

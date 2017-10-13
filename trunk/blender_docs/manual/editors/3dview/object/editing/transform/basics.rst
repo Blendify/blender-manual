@@ -101,7 +101,6 @@ the scale will continue in the negative direction and flip the element.
    Basic scale usage. From left to right, the panels show: the original Object,
    a scaled down Object, a scaled up Object and a scale-flipped Object.
 
-
 The amount of scaling will be displayed in the footer of the 3D View editor.
 
 .. figure:: /images/editors_3dview_transform_basics_scale_display-values.png

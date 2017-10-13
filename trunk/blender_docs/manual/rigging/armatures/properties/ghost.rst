@@ -17,7 +17,6 @@ Ghost
      - .. figure:: /images/rigging_posing_visualization_ghost-example-2.png
           :width: 240px
 
-
 In traditional cartoon creation, animators use tracing paper,
 to see several frames preceding the one they are working on.
 This allows them to visualize the overall movement of their character,

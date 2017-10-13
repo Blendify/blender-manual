@@ -11,7 +11,6 @@ Force Fields automatically affect everything.
 To remove a simulation or particle system from their influence,
 simply turn down the influence of that type of Force Field in its Field Weights panel.
 
-
 - All types of objects and particles can generate fields,
   but only curve object can bear *Curve Guides* fields.
 - Force Fields can also be generated from particles.

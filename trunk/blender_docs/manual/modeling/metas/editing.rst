@@ -53,7 +53,6 @@ select it and activate *Scale* mode with :kbd:`S`.
 
    Stiffness.
 
-
 In Fig. :ref:`fig-meta-edit-stiffness`, the meta ball labeled "A",
 has a smaller *Stiffness* value than the one labeled "B".
 As you can see, the radius (green ring) is different for each of them.
@@ -68,7 +67,6 @@ Negative Influence
    :width: 630px
 
    Negative.
-
 
 The opposite effect of a *positive* influence would be a *negative* influence:
 the objects repel each other. Fig. :ref:`fig-meta-ball-negative`
@@ -108,7 +106,6 @@ Conversion
 
    Convert Menu.
 
-
 You can only convert metas to meshes,
 but here you have the option to keep the original *Meta* object (i.e.
 create a new *Mesh* one, instead of a "real" conversion...).
@@ -139,7 +136,6 @@ Each meta object in the same "family" is associated with one another as discusse
    :width: 300px
 
    Meta ball base.
-
 
 Families of metas are controlled by a *base* meta object which is identified by
 an object name **without** a right number part. For example,
@@ -178,7 +174,6 @@ and you see that both the parent's mesh *and* all of the children's meshes are n
    :width: 300px
 
    Scaling the "base".
-
 
 The *base* meta object controls the *polygonalization* (mesh structure)
 for the group, and as such, also controls the polygonalization for the children (non-base)

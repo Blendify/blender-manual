@@ -110,6 +110,5 @@ Confirm and Cancel
 - :kbd:`Esc`, :kbd:`RMB` -- Cancels.
 - :kbd:`Enter`, :kbd:`LMB` -- Confirms.
 
-
 .. (todo?) deactivation: Some controls can be disabled, in Blender deactivated controls are still editable.
    That can be due to the current state or context. In that case, they appear in a lighter color.

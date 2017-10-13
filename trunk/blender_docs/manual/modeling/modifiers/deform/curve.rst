@@ -53,7 +53,6 @@ Let us make a simple example:
 
    Edit Curve.
 
-
 - While in Edit Mode, move the control points of the curve as shown in Fig. :ref:`fig-modifier-curve-edit`,
   then exit Edit Mode :kbd:`Tab`.
 - Select the Monkey :kbd:`RMB` in *Object Mode*
@@ -68,7 +67,6 @@ Let us make a simple example:
 
    Monkey on a Curve.
 
-
 - Now if you select the Monkey, and move it in the Y-direction :kbd:`G-Y`,
   the monkey will deform nicely along the curve.
 
@@ -81,7 +79,6 @@ Let us make a simple example:
    :width: 250px
 
    Monkey deformations.
-
 
 - In the image above you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation, a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`

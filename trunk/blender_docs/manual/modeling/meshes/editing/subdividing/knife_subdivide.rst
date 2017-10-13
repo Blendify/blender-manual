@@ -72,7 +72,6 @@ New cut :kbd:`E`
 
           Result of starting new cuts while in the tool.
 
-
 Midpoint snap :kbd:`Ctrl`
    Hold to snap the cursor to the midpoint of edges,
    meaning that all cuts will be performed at the exact center of each cut edge.

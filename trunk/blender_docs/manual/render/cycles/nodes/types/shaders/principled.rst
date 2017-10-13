@@ -8,7 +8,6 @@ Principled Node
 
    Principled Node.
 
-
 The *Principled* :abbr:`BSDF (Bidirectional scattering distribution function)`
 that combines multiple layers into a single easy to use node.
 It is based on the Disney principled model also known as the "PBR" shader,

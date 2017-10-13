@@ -147,7 +147,6 @@ Data-Block Types
 
    Data-blocks types with their icon.
 
-
 For reference, here is a table of data-blocks types stored in blend-files.
 
 :Link: Library Linking, supports being linked into other blend-files.

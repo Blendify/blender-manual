@@ -117,7 +117,6 @@ to get a smooth transition without visible jump.
 
    Irregular Tracks.
 
-
 The stabilizer is able to deal with gaps and partial coverage within the given tracks.
 However, the basic assumption is that each track covers a single, fixed reference point whenever there is any
 usable/enabled data. Thus, you must not "reuse" a given track to follow several different points,

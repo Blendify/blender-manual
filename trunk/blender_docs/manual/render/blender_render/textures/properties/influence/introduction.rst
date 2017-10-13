@@ -94,7 +94,6 @@ Volume materials
 
    Texture Influence panel for Volume material.
 
-
 Special texture options for *Volume* materials.
 
 Density
@@ -119,7 +118,6 @@ Halo materials
 .. figure:: /images/render_blender-render_textures_properties_influence_halo.png
 
    Texture Influence panel for a Halo material.
-
 
 Special texture options for *Halo* materials.
 

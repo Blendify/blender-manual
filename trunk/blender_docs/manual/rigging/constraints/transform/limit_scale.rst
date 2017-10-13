@@ -17,7 +17,6 @@ through lower and upper bounds.
    inverted to positive ones... And the boundary settings can only take
    strictly positive values.
 
-
 It is interesting to note that even though the constraint limits the visual and rendered scale
 of its owner, its owner's data-block still allows (by default)
 the object or bone to have scale values outside the minimum and maximum ranges

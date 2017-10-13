@@ -77,7 +77,6 @@ Using Cloth for Softbodies
 
    Using cloth for softbodies.
 
-
 Cloth can also be used to simulate softbodies.
 It is for sure not its main purpose but it works nonetheless.
 The example image uses standard *Rubber* material, no fancy settings,

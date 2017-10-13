@@ -80,7 +80,6 @@ then it can be found here:
 
    Blender's Console Window on Microsoft Windows.
 
-
 The screenshot shows the Blender *Console Window* on Microsoft Windows directly after starting
 Blender and then a short while later after opening a file along with the relevant messages.
 

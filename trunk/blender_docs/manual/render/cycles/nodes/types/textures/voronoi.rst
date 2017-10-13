@@ -10,7 +10,6 @@ Voronoi Texture Node
 
    Voronoi Texture Node.
 
-
 The *Voronoi Texture* node adds a procedural texture producing Voronoi cells.
 
 

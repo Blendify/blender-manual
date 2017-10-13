@@ -66,7 +66,6 @@ material panel or the Node editor. You will see a change in the material panel.
 
    Use material nodes button.
 
-
 What you have just done is told Blender to make the material you were on to become the node
 tree. Most of the panels we normally find in the material menu are now gone.
 
@@ -92,7 +91,6 @@ and also use the material that you used to create the node tree.
 .. figure:: /images/render_blender-render_materials_nodes_introduction_nodes-material.png
 
    A first material added to the node setup.
-
 
 Here, we added a new material in the *Node editor* "Material.001",
 and as we did, we can access the properties of this material in the material's menu.

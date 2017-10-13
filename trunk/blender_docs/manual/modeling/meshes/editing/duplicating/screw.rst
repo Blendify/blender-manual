@@ -205,7 +205,6 @@ The Spring example
 
    Circle placed at X (-3, 0, 0).
 
-
 #. Open Blender and delete the default Cube.
 #. Change from perspective to orthographic view using shortcut :kbd:`Numpad5`.
 #. Change your view from *User Ortho* to *Front Ortho*, using the shortcut :kbd:`Numpad1`.
@@ -235,7 +234,6 @@ Now we will create a height vector for Blender:
 .. figure:: /images/modeling_mesh_screw_spring_profile_ready.png
 
    Profile and vector created.
-
 
 #. Press :kbd:`Ctrl` and Left click :kbd:`LMB` near the circle,
    in more or less at the light gray line of the square above the circle,
@@ -281,7 +279,6 @@ changed the angular vector of the height you have given to Blender to the opposi
      - .. figure:: /images/modeling_mesh_screw_screw_spring_clockwise.png
 
           Flipped to Clockwise direction.
-
 
 It is also important to note that this vector is related to the same height vector axis used
 for the extrusion and we have created a parallel line with the *Z-Axis*, so, the
@@ -391,7 +388,6 @@ will assembly perfectly with each other.
 
           You can use this technique to perform normal screw modeling.
 
-
 Here, in Fig. :ref:`fig-mesh-screw-ramp`, we show you an example using a different profile,
 but maintaining the beginning and ending vertices at the same position.
 The generated mesh looks like a medieval ramp!
@@ -408,7 +404,6 @@ The generated mesh looks like a medieval ramp!
      - .. figure:: /images/modeling_mesh_screw_ramp_like_generated.png
 
           Generated Mesh with the profile at the left. We have inclined the visualization a bit.
-
 
 As you can see, the Screw spindles are perfectly assembled with each other,
 and they follow a straight line from top to bottom.
@@ -456,7 +451,6 @@ To make this new example as short as possible, we will recycle our last example 
        .. figure:: /images/modeling_mesh_screw_generated_with_base_vector_angle.png
 
           Generated Mesh with the Profile.
-
 
 As you can see in Fig. :ref:`fig-mesh-screw-start-mesh`,
 Blender follows the basic angular vector of the profile, and the

@@ -61,7 +61,6 @@ To modify other objects you need to leave, select them and re-enter Edit Mode.
 
    Edit Mode Header.
 
-
 Tools and modes in the 3D View header are (left to right):
 
 - View, Select, and Mesh menus
@@ -94,7 +93,6 @@ Visualization
 
           Two cubes selected before entering Edit Mode.
 
-
 By default, Blender highlights selected geometry in orange in both *Object Mode* and *Edit Mode*.
 
 In *Object Mode* with *Wireframe* shading enabled :kbd:`Z`,
@@ -119,7 +117,6 @@ Tool Shelf
 
    The Tool Shelf panel in edit mode.
 
-
 Open/close the *Mesh Tools* panel using :kbd:`T`.
 When entering *Edit Mode*, several mesh tools become available.
 
@@ -137,7 +134,6 @@ Properties Region
 .. figure:: /images/modeling_meshes_introduction_properties-region.png
 
    The Properties region in edit mode.
-
 
 Open/close the *Properties region* using :kbd:`N`.
 

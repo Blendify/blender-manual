@@ -14,7 +14,6 @@ with options for using a curve falloff, texture and vertex group.
 
    Warp Modifier applied to a grid.
 
-
 The Warp Modifier is a bit tricky at first, but it helps to understand how it works.
 The modifier requires two points, specified by object origins.
 The "from" point designates a point in space that is pulled toward the "to" point.

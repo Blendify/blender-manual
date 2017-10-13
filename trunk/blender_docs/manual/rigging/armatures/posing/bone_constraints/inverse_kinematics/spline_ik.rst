@@ -71,7 +71,6 @@ axes of each bone in the chain.
 
 The available modes are:
 
-
 None
    this option keeps the X and Z scaling factors as 1.0.
 Volume Preserve

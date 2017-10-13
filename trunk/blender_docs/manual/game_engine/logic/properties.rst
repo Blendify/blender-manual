@@ -43,7 +43,6 @@ Panel. The top menu provides a list of the available property types.
 
    Properties Panel of the Logic Editor.
 
-
 Add Game Property button
    This button adds a new property to the list, default is a *Float* property named ``prop``,
    followed by a number if there already is one with this name.

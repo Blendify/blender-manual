@@ -9,7 +9,6 @@ Double Edge Mask Node
 
    Double Edge Mask Node.
 
-
 The *Double Edge Mask* node creates a gradient between two masks.
 
 
@@ -43,7 +42,6 @@ Inner Edge
         - .. figure:: /images/compositing_nodes_double_edge_adjacent.png
 
              Adjacent Only.
-
 
 Buffer Edge
    Keep In

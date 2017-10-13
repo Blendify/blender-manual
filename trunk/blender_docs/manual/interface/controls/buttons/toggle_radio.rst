@@ -38,7 +38,6 @@ Radio Buttons
 
    Radio Buttons.
 
-
 Radio buttons are used to choose from a small selection of "mutually exclusive" options.
 
 

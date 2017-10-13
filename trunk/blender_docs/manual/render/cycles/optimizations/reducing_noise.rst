@@ -67,7 +67,6 @@ other parts of the image and will contribute significantly to the lighting of th
 
           The detected Highlights.
 
-
 The lamp is a known light source, so its location is already known,
 but the glossy highlight(s) that it causes are a different matter.
 The best we can do with path tracing is to distribute light rays randomly over the hemisphere,
@@ -251,7 +250,6 @@ The Light Path node is used to determine when to use which of the two shaders.
 .. figure:: /images/render_cycles_noise_glass_group.png
 
    Optimized glass shader.
-
 
 Above we can see the node setup used for the glass transparency trick;
 on the left the render has too much shadow due to missing caustics,

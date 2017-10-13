@@ -25,7 +25,6 @@ Here you can see and edit the curves and keyframes.
 
    A curve with different types of interpolation.
 
-
 See :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` for more info.
 
 
@@ -48,7 +47,6 @@ Scale View
 .. figure:: /images/editors_graph-editor_introduction_2dcursor.png
 
    Graph Editor 2D Cursor.
-
 
 The current frame is represented by a green vertical line called the *Time Cursor*.
 
@@ -249,7 +247,6 @@ View Properties Panel
 .. figure:: /images/editors_graph-editor_introduction_view-properties-panel.png
 
    View Properties Panel.
-
 
 Show Cursor
    Show the vertical *Cursor*.

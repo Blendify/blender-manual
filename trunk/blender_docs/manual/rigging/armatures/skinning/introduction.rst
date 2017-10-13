@@ -15,7 +15,6 @@ it should transform and/or deform is called the "skinning" process...
 
    The human mesh skinned on its armature.
 
-
 In Blender, you have two main skinning types:
 
 - You can :doc:`Parent/Constrain Objects to Bones </editors/3dview/object/properties/relations/parents>` - then,

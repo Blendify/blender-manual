@@ -41,7 +41,6 @@ Creating a Slow-Motion Effect
 
    50% Slow motion using Speed Control.
 
-
 Suppose you want to slow your strip down.
 You need to affect the speed of the video clip without affecting the overall frame rate.
 Select the clip and :menuselection:`Add --> Effect --> Speed Control` effect strip.
@@ -68,7 +67,6 @@ Keyframing the Speed Control
    :align: right
 
    Keyframing the Frame number.
-
 
 To get even finer control over your clip timing, you can use curves!
 While it is possible to keyframe the Speed factor,

@@ -50,7 +50,6 @@ Working with Actions
 
    The Action data-block menu.
 
-
 When you first animate an object by adding keyframes,
 Blender creates an *Action* to record the data.
 

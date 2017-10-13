@@ -107,7 +107,6 @@ Simulation Data Generation Options
 
    Using foam vertex colors with a named data layer.
 
-
 By default, the simulator only generates displacement data,
 since it takes the least amount of work and gives the fastest feedback.
 Additional simulation data can be generated for rendering as well.

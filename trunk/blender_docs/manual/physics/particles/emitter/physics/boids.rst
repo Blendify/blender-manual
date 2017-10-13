@@ -9,7 +9,6 @@ Boids
 
    Boid Physics Settings.
 
-
 Boids particle systems can be set to follow basic rules and behaviors.
 They are useful for simulating flocks, swarms, herds and schools of various kind of animals,
 insects and fishes. They can react on the presence of other objects and on the members of their own system.

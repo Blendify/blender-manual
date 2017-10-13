@@ -36,7 +36,6 @@ Area Split Widget
 
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
 
-
 In the upper right and lower left corners of an area are the area split widgets,
 and they look like a little ridged thumb grip. It both splits and combines areas.
 When you hover over it, your cursor will change to a cross (✛).

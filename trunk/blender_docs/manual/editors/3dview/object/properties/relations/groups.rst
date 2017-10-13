@@ -15,7 +15,6 @@ Blender helps you keep everything organized by allowing you to group like object
 
    Grouped objects.
 
-
 Group objects together without any kind of transformation relationship.
 Use groups to just logically organize your scene,
 or to facilitate one-step appending or linking between files or across scenes.

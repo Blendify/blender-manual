@@ -39,7 +39,6 @@ Texture Properties
    :width: 225px
    :align: right
 
-
 In the texture properties,
 the texture can now be selected from a list that contains all texture nodes from the world,
 lamps and materials, but also from e.g. modifiers, brushes and physics fields.

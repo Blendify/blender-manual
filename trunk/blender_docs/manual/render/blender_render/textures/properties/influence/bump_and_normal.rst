@@ -31,7 +31,6 @@ Normal maps
    normal maps usually have to be generated in some way,
    often from higher resolution geometry than the geometry you are applying the map to.
 
-
    Normal maps in Blender store a normal as follows:
 
    - Red maps from (0 - 255) to X (-1.0 - 1.0)

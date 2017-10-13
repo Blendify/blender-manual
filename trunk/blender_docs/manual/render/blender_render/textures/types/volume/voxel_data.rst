@@ -21,7 +21,6 @@ Settings
 
    Voxel Data panel.
 
-
 File Format
    Blender Voxel
       Default binary voxel file format.
