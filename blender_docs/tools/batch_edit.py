@@ -309,6 +309,7 @@ def operation_from_args():
 
     operations_map = {op_arg: (op, op_fn) for (op, op_arg, op_fn) in operations}
 
+    operation = None
     for arg in sys.argv:
         if arg.startswith("--"):
             op, op_fn = operations_map.get(arg, (None, None))
@@ -321,7 +322,9 @@ def operation_from_args():
                     (arg, " ".join(sorted(operations_map.keys()))))
                 return None
 
-    if operation is preset_help:
+    if operation is None:
+        print("No command passed")
+    elif operation is preset_help:
         preset_help(operations)
         operation = None
     return operation
