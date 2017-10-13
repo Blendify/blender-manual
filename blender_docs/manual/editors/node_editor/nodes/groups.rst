@@ -47,7 +47,7 @@ There is a name field in the node group you can click into to change the name of
 Change the name of the node group to something meaningful.
 When appending node groups from one blend file to another,
 Blender does not make a distinction between material node groups or composite node groups,
-so it is recommended some naming convention, that will allow you to easily distinguish between the two types.
+so it is recommended to use some naming convention that will allow you to easily distinguish between the two types.
 
 .. tip::
 

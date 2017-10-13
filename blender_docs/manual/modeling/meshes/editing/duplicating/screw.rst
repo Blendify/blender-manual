@@ -11,14 +11,14 @@ Screw Tool
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Screw`
 
 
-he *Screw* tool combines a repetitive *Spin* with a translation,
+The *Screw* tool combines a repetitive *Spin* with a translation,
 to generate a screw-like, or spiral-shaped, object. Use this tool to create screws, springs,
 or shell-shaped structures (Sea shells, Wood Screw Tips, Special profiles, etc).
 
 The main difference between the Screw Tool and the :doc:`Screw Modifier </modeling/modifiers/generate/screw>`
 is that the Screw Tool can calculate the angular progressions using the basic profile angle automatically.
-Or it can adjusting the Axis angular vector without using a second modifier (for example,
-using the Screw Modifier with a Bevel Modifier, Curve Modifier, etc...),
+It can also adjust the Axis angular vector without using a second modifier (for example,
+using the Screw Modifier with a Bevel Modifier, Curve Modifier, etc.),
 resulting in a much cleaner approach for vertex distribution and usage.
 
 This tool works using open or closed profiles, as well as profiles closed with faces.
@@ -72,7 +72,7 @@ Limitations
 There are strict conditions about your profile selection when you want to use this tool.
 You must have at least one open line or open profile,
 giving Blender the starting Vector for extrusion,
-angular vector and height. (e.g. a simple edge, a half circle, etc...).
+angular vector and height. (e.g. a simple edge, a half circle, etc.).
 You need only to ensure that at least one reference line has two "free" ends.
 If two open Lines are given, Blender will not determine which of them is the vector,
 and will then show you an error message,
@@ -125,7 +125,7 @@ will be closed automatically at their ends, like if you were extruding a region.
 Options
 =======
 
-This tool is an interactive and modal tool, and only works in the *Edit Mode*.
+This tool is an interactive and modal tool, and only works in *Edit Mode*.
 
 Once you click in the *Screw* tool in the Mesh Tools Panel,
 Blender will enter in the *Screw* interactive mode, and the Operator Panel at the
@@ -221,7 +221,7 @@ The Spring example
 #. Grab and move this circle three Blender Units on the *X-Axis* to the left;
    you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
    (clicking on the red arrow shown with the object and grabbing while using shortcut
-   :kbd:`Ctrl` until the down left info in the 3D View marks ``D. -3.0000 (3.0000) Global`` ),
+   :kbd:`Ctrl` until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global`` ),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Enter`.
    You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
    and type  :kbd:`Minus 3` and :kbd:`Enter` in the Location too.
@@ -245,16 +245,16 @@ Now we will create a height vector for Blender:
    You have created two vertices and an Edge, which Blender will use as the first height and angle vector.
 #. Now, in the Transform Panel, in the median, clicking in the Global coordinates,
    for the (X, Y, Z) coordinates, put (-2, 0, -1).
-#. Right Click :kbd:`RMB` in the other vertex,
+#. :kbd:`RMB` click on the other vertex,
    and again, type its coordinates for (X, Y, Z) to (-2, 0, 1).
    This will create a straight vertical line with 2 Blender units of Height.
 #. De-select and select everything again with the shortcut :kbd:`A`.
    (See Fig. :ref:`fig-mesh-screw-profile`)
-#. Place again your cursor at the center. (Repeat step 2)
+#. Again, place again your cursor at the center. (Repeat step 2)
 #. At this point, we will save this blend-file to recycle the
-   Spring for another exercise; click with :kbd:`LMB` in *File*,
-   it is placed at the header of the Info editor, (At the top left side), and choose *Save as*.
-   Our suggestion is to name it *Screw Spring Example.blend* and click in *Save as blend-file*.
+   Spring for another exercise; :kbd:`LMB` click on *File*,
+   located in the header of the Info editor, (at the top left side), and choose *Save as*.
+   Our suggestion is to name it *Screw Spring Example.blend* and click on *Save as Blender file*.
    You can also use the shortcut :kbd:`Shift-Ctrl-S`
    to open the File Browser in order to save your blend-file.
 #. Click Screw and adjust the Steps and Turns as you like and we have a nice spring,
@@ -266,7 +266,7 @@ Clockwise and Counterclockwise using the Spring Example
 
 Still in the interactive session of the *Screw Tool*,
 you will see that the *Z-Axis* Value of the *Screw* Panel is set to 1.000.
-Left click :kbd:`LMB` in the middle of the Value and set this value to -1.000.
+:kbd:`LMB` click in the middle of the Value and set this value to -1.000.
 At first, the Spring was being constructed in a Counterclockwise direction,
 and you reverted the operation 180 degrees in the *Z-Axis*. This is because you have
 changed the angular vector of the height you have given to Blender to the opposite direction
@@ -302,7 +302,7 @@ Counterclockwise effect.
 .. note:: Vectors that are not parallel with Blender Axis
 
    The high sensibility for the vector does not apply to vectors that give the Screw Tool a starting angle
-   (Ex: any non-parallel vector),
+   (e.g. any non-parallel vector),
    meaning Blender will not need to clamp the values to stabilize a direction for the extrusion,
    as the inclination of
    the vector will be clear for Blender and you will have the full degree of freedom to change the vectors. Our
@@ -349,7 +349,7 @@ any of the vertices present in the middle but those two to take its angular vect
 so the spindles of the screw (which are defined by the turns value)
 will assembly perfectly with each other.
 
-#. Open Blender and click in *File* located at the header of the Info editor again,
+#. Open Blender and click on *File* located in the header of the Info editor again,
    choose *Open Recent* and the file we saved for this exercise.
    All of the things will be placed exactly the way you saved before.
    Choose the last saved blend-file; in the last exercise,
@@ -361,13 +361,13 @@ will assembly perfectly with each other.
 #. Use the shortcut :kbd:`X` to delete them.
 #. Press the shortcut :kbd:`A` to select the remaining vertices.
 #. Press the shortcut :kbd:`W`, and select :menuselection:`Specials --> Subdivide`.
-#. Now, click with the Right Mouse button at the middle vertex.
+#. Now, click with the :kbd:`RMB` on the middle vertex.
 #. Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Enter`.
    See Fig. :ref:`fig-mesh-screw-spindle`.
 #. At this point, we will save this blend-file to recycle the generated Screw for another exercise;
-   click with :kbd:`LMB` in *File* --
+   click with :kbd:`LMB` on *File* --
    it is in the header of the Info editor (at the top left side), and choose *Save as*.
-   Our suggestion is to name it *Screw Hardware Example.blend* and click in *Save as blend-file*.
+   Our suggestion is to name it *Screw Hardware Example.blend* and click on *Save as Blender File*.
    You can also use the shortcut :kbd:`Shift-Ctrl-S` to open the
    File Browser in order to save your blend-file.
 #. Press shortcut :kbd:`A` twice to de-select and select all vertices again.
@@ -435,7 +435,7 @@ In this example, you will learn how to create a simple Screw Tip
 (like the ones we use for wood; we have shown an example at the beginning of this page).
 To make this new example as short as possible, we will recycle our last example (again).
 
-#. Open Blender and click in *File* located in the header of the Info editor again;
+#. Open Blender and click on *File* located in the header of the Info editor again;
    choose *Open Recent* and the file we saved for this exercise.
    All of the things will be placed exactly the way you saved before.
    Choose the last saved blend-file; in the last exercise, we gave it the name *Screw Hardware Example.blend*.

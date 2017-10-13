@@ -35,7 +35,7 @@ The transformations are relative shifts.
 In the shader and texture context the following properties are available as input sockets.
 
 Hue
-   Specifies how the hue rotation of the image. 360° are mapped to (0 to 1).
+   Specifies the hue rotation of the image. 360° are mapped to (0 to 1).
    The hue shifts of 0 (-180°) and 1 (+180°) have the same result.
 Saturation
    A saturation of 0 removes hues from the image, resulting in a grayscale image.

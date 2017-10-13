@@ -33,7 +33,7 @@ Properties
 ==========
 
 Mix
-   The Blend types could be selected in the select menu.
+   The Blend types can be selected in the select menu.
    See :term:`Color Blend Modes` for details on each blending mode.
 
    Add, Subtract, Multiply, Screen, Divide, Difference,
@@ -67,7 +67,7 @@ Below are samples of common mix modes and uses, mixing a color or checker with a
 Some explanation of the mixing methods above might help you use the Mix node effectively:
 
 Add
-   adding blue to blue keeps it blue, but adding blue to red makes purple.
+   Adding blue to blue keeps it blue, but adding blue to red makes purple.
    White already has a full amount of blue, so it stays white.
    Use this to shift a color of an image. Adding a blue tinge makes the image feel colder.
 Subtract
@@ -90,7 +90,7 @@ Difference
    sorta like a change log for images. You can use this to see a watermark (see `Watermark images`_)
    you have placed in an image for theft detection.
 Darken
-   with the colors set here, is like looking at the world through rose-colored glasses.
+   With the colors set here, it's like looking at the world through rose-colored glasses.
 
 
 Contrast Enhancement
@@ -146,7 +146,7 @@ this helps later because we only have to look at a specific location for the mar
 the RGB to BW node to convert the image to numbers that the Map Value node can use to make the
 image subliminal. In this case, it reduces the mark to one-tenth of its original intensity.
 The Add node adds the corresponding pixels,
-make the ones containing the mark ever-so-slightly brighter.
+making the ones containing the mark ever-so-slightly brighter.
 
 .. figure:: /images/compositing_nodes_color_mix_watermark-encode.png
    :width: 700px

@@ -79,7 +79,7 @@ Color correction using Curves
    Color correction with curves.
 
 
-In this example, the image has very too much red in it,
+In this example, the image has too much red in it,
 so we run it through an RGB node and reduce the Red channel by about half.
 
 We added a middle dot so we could make the line into a sideways exponential curve.

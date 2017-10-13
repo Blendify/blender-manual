@@ -43,7 +43,7 @@ Options
 Boundary
    Determines whether open edges will be inset or not.
 Offset Even
-   Scale the offset to give more even thickness.
+   Scale the offset to give a more even thickness.
 Offset Relative
    Scale the offset by surrounding geometry.
 Edge Rail
@@ -56,9 +56,9 @@ Outset
    Create an outset rather than an inset.
    Causes the geometry to be created surrounding selection (instead of within).
 Select Outer
-   Toggle which side of the inset is selected after operation.
+   Toggle which side of the inset is selected after the operation.
 Individual
    By default the Inset tool operates on the region around selected faces,
    but with this option each selected face can be inset on its own.
 Interpolate
-   Interpolate mesh data: e.g. UV's, vertex colors, weights... etc.
+   Interpolate mesh data: e.g. UV's, vertex colors, weights, etc.

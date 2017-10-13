@@ -27,7 +27,7 @@ Properties
 ==========
 
 Operation
-   Selector the math function for conversion.
+   Select the math function for conversion.
 
    Add
       Adding input 1 and 2.
