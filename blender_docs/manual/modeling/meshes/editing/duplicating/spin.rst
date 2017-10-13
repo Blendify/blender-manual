@@ -147,7 +147,6 @@ Or, worse, too many vertices will have been merged.
    to complete the scaling operation and click the *Remove Doubles* button in
    the Tool shelf in *Edit Mode* (also available with :menuselection:`Specials --> Remove Doubles`).
 
-
    Alternatively, you can use :menuselection:`Specials --> Merge` from the same *Specials* menu
    (or :kbd:`Alt-M`). Then, in the new pop-up menu, choose whether the merged vertex will
    be at the center of the selected vertices or at the 3D cursor.

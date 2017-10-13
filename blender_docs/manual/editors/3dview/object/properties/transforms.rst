@@ -21,7 +21,6 @@ Transform Panel
    | Menu:     :menuselection:`Object --> Transform`
    | Panel:    :menuselection:`Properties region --> Transform`
 
-
 The *Transform* panel in the Properties region allows you to view and
 manually/numerically control the position, rotation, and other properties of an object, in *Object Mode*.
 In *Edit Mode*. It mainly allows you to enter precise coordinates for a vertex,

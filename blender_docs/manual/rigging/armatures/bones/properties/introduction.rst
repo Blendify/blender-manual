@@ -9,7 +9,6 @@ Introduction
    | Mode:     Object Mode, Edit Mode and Pose Mode
    | Panel:    All in Properties editor, *Bone* property
 
-
 When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
 properties are shown in the *Bone* tab of the Properties editor.
 This shows different panels used to control features of each selected bone;

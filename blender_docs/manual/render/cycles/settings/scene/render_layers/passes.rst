@@ -9,7 +9,6 @@ Passes
 
    | Panel:    :menuselection:`Properties editor --> Render Layers --> Passes`
 
-
 Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
 and also to extract data such as depth or normals.
 

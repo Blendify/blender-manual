@@ -44,7 +44,6 @@ Creating a Force Field
    | Mode:     Object Mode
    | Panel:    :menuselection:`Physics --> Fields`
 
-
 To create a single Force Field,
 you can select :menuselection:`Add --> Force Field` and select the desired force field.
 This method creates an Empty with the force field attached.

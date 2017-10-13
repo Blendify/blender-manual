@@ -194,7 +194,6 @@ Copy/Paste Pose
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste X-Flipped Pose`
 
-
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
 directly using the three "copy/paste" buttons found at the right part of the 3D Views header:
 
@@ -317,7 +316,6 @@ Show/Hide
    | Mode:     All Modes
    | Panel:    :menuselection:`Properties editor --> Bone --> Display`
    | Menu:    :menuselection:`... --> Show/Hide`
-
 
 You do not have to use bone layers to show/hide some bones. As with objects,
 vertices or control points, you can use :kbd:`H`:

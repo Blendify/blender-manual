@@ -11,7 +11,6 @@ Transformation Manipulators
    | Menu:     |manip-menu|
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
-
 The Transformation manipulator widgets allow mouse controlled translation, rotation and scaling in the 3D View.
 There is a separate manipulator for each operation.
 Each manipulator can be used separately or in combination with the others.

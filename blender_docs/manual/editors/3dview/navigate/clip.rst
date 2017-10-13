@@ -15,7 +15,6 @@ View Clipping Border
    | Menu:     :menuselection:`View --> Set Clipping Border`
    | Hotkey:   :kbd:`Alt-B`
 
-
 Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
 It can assist in the process of working with complex models and scenes.
 

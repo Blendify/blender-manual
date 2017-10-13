@@ -24,7 +24,6 @@ Using Bone Sketching
    | Menu:     :menuselection:`Armature --> Bone Sketching`
    | Hotkey:   :kbd:`P`
 
-
 The *Template* conversion method of *Bone Sketching* tool maps a copy of
 existing bones to each selected stroke. The new bones will inherit some of their properties
 (influence, number of segments, etc.) from the corresponding bones in the template,

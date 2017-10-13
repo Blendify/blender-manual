@@ -11,7 +11,6 @@ Naming
    | Panel:    :menuselection:`Properties region --> Item`,
                :menuselection:`Bones tab --> Bones panel`
 
-
 You can rename your bones, either using the *name* field of the *Item*
 panel in the 3D Views, for the active bone,
 or using the *name* field in each bone of the *Bones* tab in *Edit Mode*.
@@ -79,7 +78,6 @@ Flip Name
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Flip Name`,
                :menuselection:`Specials --> Flip Name`
-
 
 You can flip left/right markers (see above) in selected bone names,
 using :menuselection:`Armature --> Flip Name`.

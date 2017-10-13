@@ -16,7 +16,6 @@ The Color Correction node can adjust the color of an image, separately in severa
 Properties
 ==========
 
-
 Red, Green, Blue
    Specifies which RGB-channels will be affected by correction.
 

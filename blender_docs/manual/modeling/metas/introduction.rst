@@ -10,7 +10,6 @@ Introduction
    | Menu:     :menuselection:`Add --> Meta`
    | Hotkey:   :kbd:`Shift-A`
 
-
 Meta objects are *implicit surfaces*,
 meaning that they are *not explicitly* defined by vertices (as meshes are)
 or control points (as surfaces are): they exist *procedurally*.

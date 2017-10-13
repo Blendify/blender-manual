@@ -8,7 +8,6 @@ Denoising
 
    | Panel:    :menuselection:`Properties editor --> Render Layers --> Denoising`
 
-
 Denoising filters the resulting image using information (known as feature passes)
 gathered during rendering to get rid of noise while preserving visual detail as well as possible.
 

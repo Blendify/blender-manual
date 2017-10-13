@@ -43,7 +43,6 @@ Screencasts
    | Menu:     :menuselection:`Window --> Make Screencast`
    | Hotkey:   :kbd:`Alt-F3`
 
-
 This is a quick way to make screen-casts from within Blender.
 
 .. note::
@@ -84,7 +83,6 @@ and it will show you a button for stopping your capture.
 .. figure:: /images/editors_info_screenshot_frame-range.png
 
    :menuselection:`Render --> Dimensions Panel --> Frame Range`
-
 
 The frames are stored using a suffix added to their file name,
 where the suffix is composed of the numbers present in the fields for *start* and *end frames*,

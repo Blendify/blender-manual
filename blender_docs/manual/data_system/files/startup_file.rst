@@ -10,7 +10,6 @@ Startup File
    | Menu:     :menuselection:`File --> Save Startup File`
    | Hotkey:   :kbd:`Ctrl-U`
 
-
 Saves the current file as the default Blender file ``startup.blend``.
 This file is loaded every time Blender is opened or a new file is generated (:menuselection:`File --> New`).
 

@@ -10,7 +10,6 @@ Mesh Analysis
    | Mode:     Edit Mode
    | Panel:     :menuselection:`Properties region --> Mesh Analysis`
 
-
 Mesh analysis is useful for displaying attributes of the mesh,
 that may impact certain use cases.
 

@@ -11,7 +11,6 @@ Manipulate Center Points
    | Header:   |pivot-icon| Manipulate Center Points
    | Hotkey:   :kbd:`Alt-Comma`
 
-
 When this option is enabled, the transformation
 will change the positions of the object's origins,
 but will not affect the object itself.

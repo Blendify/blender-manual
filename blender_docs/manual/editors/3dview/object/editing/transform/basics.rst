@@ -16,7 +16,6 @@ Grab/Move
    | Menu:     :menuselection:`Object type --> Transform --> Grab/Move`
    | Hotkey:   :kbd:`G`
 
-
 In Object Mode, the grab/move option lets you translate (move) objects.
 Translation means changing location of objects.
 It also lets you translate any elements that make up the object within the 3D space of the active 3D View.
@@ -56,7 +55,6 @@ Rotate
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
    | Hotkey:   :kbd:`R`
 
-
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, object, etc.)
 around one or more axes or
@@ -89,7 +87,6 @@ Scale
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Scale`
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
    | Hotkey:   :kbd:`S`
-
 
 Scaling means changing proportions of objects.
 Pressing :kbd:`S` will enter the *Scale* transformation mode where the

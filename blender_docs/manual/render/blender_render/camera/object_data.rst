@@ -10,7 +10,6 @@ Object Data
    | Mode:     Object Mode
    | Editor:   :menuselection:`Properties -->  Camera`
 
-
 Cameras are invisible in renders, so they do not have any material or texture settings.
 However, they do have *Object* and *Editing* setting panels available
 which are displayed when a camera is the selected (active!) object.

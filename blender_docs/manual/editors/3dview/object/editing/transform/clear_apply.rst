@@ -8,15 +8,15 @@ Clear & Apply
 Clear
 =====
 
-Clearing transforms simply resets the transform values.
-The objects location and rotation values return to 0, and the scale returns to 1.
-
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Clear --> Clear Location/Clear Scale/Clear Rotation/Clear Origin`
    | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-S`, :kbd:`Alt-R`, :kbd:`Alt-O`
+
+Clearing transforms simply resets the transform values.
+The objects location and rotation values return to 0, and the scale returns to 1.
 
 
 Options
@@ -59,7 +59,6 @@ Apply Object Transformations
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Apply -->`
    | Hotkey:   :kbd:`Ctrl-A`
-
 
 Applying transform values essentially resets the values of object's position, rotation,
 or scale, but does not actually do anything to the object.

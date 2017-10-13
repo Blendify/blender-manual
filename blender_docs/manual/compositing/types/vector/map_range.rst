@@ -36,7 +36,6 @@ Clamp
 Outputs
 =======
 
-
 Value
    Standard value output.
 

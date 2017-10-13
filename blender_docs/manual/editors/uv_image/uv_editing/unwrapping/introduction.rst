@@ -3,7 +3,6 @@
 Introduction
 ************
 
-
 The first step is to unwrap your mesh. You want to unwrap when you feel your mesh is complete
 with respect to the number of faces it needs to have.
 If you do add faces or subdivide existing faces when a model is already unwrapped,

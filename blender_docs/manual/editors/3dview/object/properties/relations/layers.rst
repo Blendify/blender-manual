@@ -13,7 +13,6 @@ Layers
    | Menu:     :menuselection:`Object --> Move to Layer...`
    | Hotkey:   :kbd:`M`
 
-
 3D scenes often become exponentially more confusing as they grow more complex.
 Sometimes the artist also needs precise control over how individual objects are lit,
 and does not want lights for one object to affect nearby objects.

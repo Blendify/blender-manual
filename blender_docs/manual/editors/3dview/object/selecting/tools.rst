@@ -222,7 +222,6 @@ Select More/Less
    | Menu:     :menuselection:`Select --> More/Less`
    | Hotkey:   :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
-
 Their purpose, based on the hierarchical.
 
 More
@@ -251,7 +250,6 @@ Select Grouped
    | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Grouped`
    | Hotkey:   :kbd:`Shift-G`
-
 
 There are two ways to organize the objects in relation to one another.
 The first one is *parenting*, and the second is simple *grouping*.
@@ -303,7 +301,6 @@ Select Linked
    | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Linked`
    | Hotkey:   :kbd:`Shift-L`
-
 
 Selects all objects which share a common data-block with the active object.
 *Select Linked* uses the active object as a basis to select all others.

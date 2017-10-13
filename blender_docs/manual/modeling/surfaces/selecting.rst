@@ -47,7 +47,6 @@ Control Point Row
    | Menu:     :menuselection:`Select --> Control Point Row`
    | Hotkey:   :kbd:`Shift-R`
 
-
 This option works a bit like
 :ref:`edge loop selection <modeling-meshes-selecting-edge-loops>` for meshes,
 inasmuch it selects a whole :ref:`row <modeling-surfaces-rows-grids>` of control points,
@@ -66,7 +65,6 @@ More and Less
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> More/Less`
    | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
-
 
 These two options are complementary and very similar to
 :doc:`those for meshes </modeling/meshes/selecting/introduction>`.

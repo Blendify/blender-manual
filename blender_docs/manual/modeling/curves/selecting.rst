@@ -132,7 +132,6 @@ Select More/Less
    | Menu:     :menuselection:`Select --> More/Less`
    | Hotkey:   :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
-
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
 
 More

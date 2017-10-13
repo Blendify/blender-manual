@@ -28,7 +28,6 @@ Drawing
    | Mode:     All Modes
    | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil`
 
-
 The Tool Shelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
 
 Draw :kbd:`D-LMB`

@@ -46,7 +46,6 @@ Laplacian Smooth
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Specials --> Laplacian Smooth`
 
-
 See the :doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>` for details.
 
 Laplacian smooth is uses an alternative smoothing algorithm that better preserves the overall

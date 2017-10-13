@@ -102,7 +102,6 @@ Font
    | Mode:     Edit Mode
    | Panel:    Font
 
-
 The *Font* panel has several options for changing the look of characters.
 
 

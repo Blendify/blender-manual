@@ -299,7 +299,6 @@ Clear Parent
    | Menu:     :menuselection:`Object --> Parent`
    | Hotkey:   :kbd:`Alt-P`
 
-
 You can *remove* a parent-child relationship via :kbd:`Alt-P`
 
 Clear Parent

@@ -12,7 +12,6 @@ Translation, Rotation, Scale
    | Menu:     :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
-
 Once you have a selection of one or more elements, you can grab/move :kbd:`G`,
 rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </editors/3dview/object/editing/transform/introduction>` section.

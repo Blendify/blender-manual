@@ -10,7 +10,6 @@ Deleting and Dissolving
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Delete`
    | Menu:     :menuselection:`Mesh --> Delete`
 
-
 These tools can be used to remove components.
 
 
@@ -21,7 +20,6 @@ Delete
    :class: refbox
 
    | Hotkey:   :kbd:`X`, :kbd:`Delete`
-
 
 Deletes selected vertices, edges, or faces. This operation can also be limited to:
 
@@ -109,7 +107,6 @@ Edge Collapse
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Delete --> Edge Collapse`
    | Hotkey:   :kbd:`Alt-M`, :menuselection:`Collapse`
-
 
 Merges each edge into single vertices.
 This is useful for taking a ring of edges and collapsing it,

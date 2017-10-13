@@ -10,7 +10,6 @@ Exposure and Range
    | Mode:     All modes
    | Panel:    :menuselection:`Render Layer --> Color management`
 
-
 *Exposure* and *Range* are similar to the "Color Curves" tool in Gimp or Photoshop.
 
 These controls affect the rendered image, and the results are baked into the render.

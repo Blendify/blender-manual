@@ -33,7 +33,6 @@ Armature Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Object data --> Skeleton`
 
-
 Each armature has 32 "Armature layers" which allow you to organize your armature by
 "regrouping" sets of bones into layers; this works similar to scene layers
 (those containing your objects). You can then "move" a bone to a given layer,

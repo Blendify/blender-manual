@@ -168,7 +168,6 @@ Appending Node Groups
    | Mode:     All Modes
    | Menu:     :menuselection:`Info Editor --> File --> Link/Append`
 
-
 Once you have appended a NodeTree to your blend-file, you can make use of it in the Node editor by
 pressing :kbd:`Shift-A`, :menuselection:`Add --> Group`, then select the appended group.
 The "control panel" of the Group is the individual controls for the grouped nodes.

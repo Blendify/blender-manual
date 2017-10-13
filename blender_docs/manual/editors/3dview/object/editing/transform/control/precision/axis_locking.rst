@@ -61,7 +61,6 @@ Axis locking
    | Mode:     Object and Edit Modes (translate, rotate, scale, extrude)
    | Hotkey:   :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
 
-
 Axis locking limits the transformation to a single axis (or forbids transformations along two axes).
 An object, face, vertex or other selectable item will only be able to move,
 scale or rotate in a single dimension.

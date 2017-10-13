@@ -36,7 +36,6 @@ Arch Linux
 Downloading the Repository
 ==========================
 
-
 Simply check out the blender-manual repository using::
 
       cd ~

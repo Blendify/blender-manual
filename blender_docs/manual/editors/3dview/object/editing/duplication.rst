@@ -20,7 +20,6 @@ Duplicate
    | Menu:     :menuselection:`Object --> Duplicate Objects`
    | Hotkey:   :kbd:`Shift-D`
 
-
 This will create a visually-identical copy of the selected object(s).
 The copy is created at the same position as the original object and
 you are automatically placed in *Grab* mode. See the examples below.
@@ -69,7 +68,6 @@ Linked Duplicates
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Duplicate Linked`
    | Menu:     :menuselection:`Object --> Duplicate Linked`
    | Hotkey:   :kbd:`Alt-D`
-
 
 You also have the choice of creating a *Linked Duplicate* rather than a *Duplicate*;
 this is called a deep link.

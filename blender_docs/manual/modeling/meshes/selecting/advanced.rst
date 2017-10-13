@@ -108,7 +108,6 @@ Select Similar
    | Menu:     :menuselection:`Select --> Similar...`
    | Hotkey:   :kbd:`Shift-G`
 
-
 Select geometry that have similar certain properties to the ones selected,
 based on a threshold that can be set in tool properties after activating the tool.
 Tool options change depending on the selection mode:
@@ -200,7 +199,6 @@ Edge Loops
    | Menu:     :menuselection:`Select --> Edge Loop`
    | Hotkey:   :kbd:`Alt-RMB`
 
-
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
 a line end to end, passing through the edge under the mouse pointer.
 Holding :kbd:`Alt-Shift` while clicking adds to the current selection.
@@ -234,7 +232,6 @@ Face Loops
 
    | Mode:     Edit Mode --> Face or Vertex select modes
    | Hotkey:   :kbd:`Alt-RMB`
-
 
 In face select mode, holding :kbd:`Alt` while selecting an *edge* selects a loop of
 faces that are connected in a line end to end, along their opposite edges.
@@ -287,7 +284,6 @@ Edge Ring
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Edge Ring`
    | Hotkey:   :kbd:`Ctrl-Alt-RMB`
-
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
 while selecting an edge (or two vertices) selects a sequence of edges that are not connected,
@@ -352,7 +348,6 @@ Loop Inner-Region
 
    | Mode:     Edit Mode --> Edge select mode
    | Menu:     :menuselection:`Select --> Select Loop Inner-Region`
-
 
 *Select Loop Inner-Region* selects all faces that are inside a closed loop of edges.
 While it is possible to use this operator in *Vertex* and *Face* selection modes, results may be unexpected.

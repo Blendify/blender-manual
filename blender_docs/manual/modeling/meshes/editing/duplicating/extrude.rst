@@ -100,7 +100,6 @@ Extrude Individual
    | Menu:     :menuselection:`Mesh --> Extrude --> Individual Faces`
    | Hotkey:   :kbd:`Alt-E`
 
-
 *Extrude Individual* allows you to extrude a selection of multiple faces as individuals, instead of as a region.
 The faces are extruded along their own normals, rather than their average.
 This has several consequences: first, "internal" edges
@@ -134,7 +133,6 @@ Extrude Edges and Vertices Only
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude`
    | Menu:     :menuselection:`Mesh --> Extrude --> Extrude Edges/Vertices Only`
    | Hotkey:   :kbd:`Alt-E`
-
 
 If vertices are selected while doing an extrude, but they do not form an edge or face,
 they will extrude as expected, forming a :term:`non-manifold` edge. Similarly,

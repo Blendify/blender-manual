@@ -182,7 +182,6 @@ Recalculate Bone Roll
    | Menu:     :menuselection:`Armature --> Bone Roll --> Recalculate`
    | Hotkey:   :kbd:`Ctrl-N`
 
-
 Axis Orientation
    Local Tangent
       Align roll relative to the axis defined by the bone and its parent.
@@ -213,7 +212,6 @@ Switch Direction
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Switch Direction`, :menuselection:`Specials --> Switch Direction`
    | Hotkey:   :kbd:`Alt-F`
-
 
 This tool is not available from the *Armature* menu,
 but only from the *Specials* pop-up menu :kbd:`W`.

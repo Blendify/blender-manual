@@ -11,7 +11,6 @@ Active Element
    | Header:   |pivot-icon| :menuselection:`Pivot Point --> Active Element`
    | Hotkey:   :kbd:`Alt-Period`
 
-
 The *active* element can be an Object, vertex, edge or a face. The active element is the
 last one to be selected and will be shown in a lighter orange color when in *Object Mode*
 and white when in *Edit Mode*. With *Active element as Pivot* set to active,

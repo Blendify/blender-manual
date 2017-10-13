@@ -116,7 +116,6 @@ Add Marker
    | Menu:     :menuselection:`Marker --> Add Marker`
    | Hotkey:   :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE Editor
 
-
 The simplest way to add a marker is to move to the frame where you would like it to appear,
 and press :kbd:`M`.
 
@@ -143,7 +142,6 @@ Selecting
    | Mode:     All modes
    | Hotkey:   :kbd:`RMB`
 
-
 Click :kbd:`RMB` on the marker's triangle to select it.
 Use :kbd:`Shift-RMB` to select multiple markers.
 
@@ -168,7 +166,6 @@ Duplicate Marker
    | Menu:     :menuselection:`Marker --> Duplicate Marker`
    | Hotkey:   :kbd:`Shift-D`
 
-
 You can duplicate the selected markers by pressing :kbd:`Shift-D`. Once duplicated,
 the new ones are automatically placed in grab mode, so you can move them to the desired location.
 
@@ -188,7 +185,6 @@ Duplicate Marker to Scene
    | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Duplicate Marker to Scene...`
 
-
 ToDo.
 
 
@@ -201,7 +197,6 @@ Deleting Markers
    | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Delete Marker`
    | Hotkey:   :kbd:`X`
-
 
 To delete the selected markers simply press :kbd:`X`,
 and confirm the pop-up message with :kbd:`LMB`.
@@ -217,7 +212,6 @@ Rename Marker
    | Menu:     :menuselection:`Marker --> Rename Marker`
    | Hotkey:   :kbd:`Ctrl-M`
 
-
 Having dozens of markers scattered throughout your scene's time will not help you much unless you
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
 typing the name, and pressing the OK button.
@@ -232,7 +226,6 @@ Grab/Move Marker
    | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Grab/Move Marker`
    | Hotkey:   :kbd:`G`
-
 
 Once you have one or more markers selected, press :kbd:`G`,
 while hovering with the mouse over the marker bar,

@@ -12,7 +12,6 @@ Primitives
    | Menu:     :menuselection:`Add --> Mesh`
    | Hotkey:   :kbd:`Shift-A`
 
-
 A common object type used in a 3D scene is a mesh.
 Blender comes with a number of "primitive" mesh shapes that you can start modeling from.
 You can also add primitives in Edit Mode at the 3D cursor.

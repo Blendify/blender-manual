@@ -11,7 +11,6 @@ Bisect
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Bisect`
    | Menu:     :menuselection:`Mesh --> Bisect`
 
-
 The bisect tool is a quick way to cut a mesh in-two along a custom plane.
 
 Plane Point, Plane Normal

@@ -13,7 +13,6 @@ Subdivide
    | Menu:     :menuselection:`Mesh --> Edges --> Subdivide`,
      :menuselection:`Specials --> Subdivide/Subdivide Smooth`
 
-
 Subdividing splits selected edges and faces by cutting them in half or more,
 adding necessary vertices, and subdividing accordingly the faces involved,
 following a few rules, depending on the settings:
@@ -311,7 +310,6 @@ Un-Subdivide
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Edges --> Un-Subdivide`
-
 
 Unsubdivide functions as the reverse of subdivide by attempting to remove edges that were the
 result of a subdivide operation.

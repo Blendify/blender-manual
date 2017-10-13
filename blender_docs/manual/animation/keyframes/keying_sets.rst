@@ -132,7 +132,6 @@ Adding Properties
    | Menu:     :menuselection:`Context menu --> Add All/Single to Keying Set`
    | Hotkey:   :kbd:`K`
 
-
 Some ways to add properties to keying sets.
 
 :kbd:`RMB` the property in the *User Interface*, then select *Add Single to Keying Set* or *Add All to Keying Set*.

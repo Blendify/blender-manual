@@ -215,7 +215,6 @@ Press :kbd:`Enter` twice after entering the command at the shell prompt::
 Usage
 =====
 
-
 Aliases
 -------
 
