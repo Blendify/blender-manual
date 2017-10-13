@@ -121,7 +121,6 @@ Examples
 
    Simple creature, made with only the Skin Modifier.
 
-
 #. In the *modifiers* menu, add a Skin Modifier.
 #. :kbd:`Tab` into edit mode and start extruding.
 #. Try to sketch results similar to Fig. :ref:`fig-modifier-skin-creature`,

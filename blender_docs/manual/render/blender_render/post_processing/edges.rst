@@ -9,7 +9,6 @@ Edge Rendering
 
    A scene with Toon materials.
 
-
 Blender's toon shaders can give your rendering a comic-book-like or manga-like appearance,
 affecting the shades of colors.
 The effect is not perfect since real comics and manga also usually have china ink outlines.
@@ -45,7 +44,6 @@ Examples
    :width: 400px
 
    Scene re-rendered with toon edge set.
-
 
 It is possible to separate out the edge layer using a render layer dedicated to that purpose.
 The alpha channel is 0 where there is no edge, and 1 where the edge is.

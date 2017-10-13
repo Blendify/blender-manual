@@ -39,7 +39,6 @@ and you have to first select the bones you want to show/hide the motion paths. T
 
    Remember that only selected bones and their paths are affected by these actions!
 
-
 The paths are drawn in a light shade of gray for unselected points,
 and a slightly blueish gray for selected ones.
 Around the current frame a glow indicate the direction of movement:

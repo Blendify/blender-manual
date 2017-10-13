@@ -104,7 +104,6 @@ Example::
     elif key[0] == events.RIGHTARROWKEY:
         logic.car["steer"] -= 0.05
 
-
 The second part is to *compute the movement* according to your functions::
 
     ## apply engine force ##

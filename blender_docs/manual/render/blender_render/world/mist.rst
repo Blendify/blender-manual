@@ -69,6 +69,5 @@ Examples
 
    Mist example.
 
-
 In this example (`blend-file <https://wiki.blender.org/index.php/:File:25-Manual-World-Mist-Example1.blend>`__)
 the :menuselection:`Mist --> Height` options has been limited to create smoke covering the floor.

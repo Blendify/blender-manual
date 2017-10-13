@@ -54,7 +54,6 @@ reflected back along the incident viewing angle *(Rendering engine basic princip
 
    Rendering engine basic principle.
 
-
 Two basic types of phenomena take place at any point on a surface when a light ray strikes it:
 diffusion and specular reflection. Diffusion and specular reflection are distinguished from
 each other mainly by the relationship between the incident light angle and the reflected light
@@ -100,7 +99,6 @@ Using Materials
    When designing materials (and textures and lighting), frequently check the rendered appearance of your scene,
    using your chosen render engine/shader settings.
    The appearance might be quite different from that shown in the texture display in the 3D panel.
-
 
 As stated above, the material settings usually determine the surface properties of the object.
 There are several ways in which materials can be set up in Blender.

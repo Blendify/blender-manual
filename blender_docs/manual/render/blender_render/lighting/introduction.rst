@@ -91,7 +91,6 @@ Overriding Materials to Reset Lighting
 
    Material field in the Render Layers panel.
 
-
 If you have started down the road of assigning materials,
 and are now fiddling with the lighting, we suggest that you create a default,
 generic gray material -- no *Vertex Color*, no *Face Texture*,

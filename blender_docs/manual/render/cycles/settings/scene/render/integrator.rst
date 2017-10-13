@@ -216,7 +216,6 @@ Filter Glossy
    on a sharp glossy material, which we are seeing through a rough glossy material.
    In fact in such a case we practically have a caustic.
 
-
    With path tracing it is difficult to find the specular highlight,
    but if we increase the roughness on the material, the highlight gets bigger and softer, and so easier to find.
    Often this blurring will hardly be noticeable, because we are seeing it through a blurry material anyway,

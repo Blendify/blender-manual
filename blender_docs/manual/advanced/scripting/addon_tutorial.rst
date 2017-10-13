@@ -33,7 +33,6 @@ Suggested reading before starting this tutorial.
 - :ref:`Blender API Quickstart <blender_api:info_quickstart>`
   to help become familiar with Blender/Python basics.
 
-
 To best troubleshoot any error message Python prints while writing scripts, you run Blender from a terminal.
 See :ref:`Use The Terminal <use_the_terminal>`.
 
@@ -122,7 +121,6 @@ Add the following script to the text editor in Blender.
    scene = bpy.context.scene
    for obj in scene.objects:
        obj.location.x += 1.0
-
 
 Click the :ref:`Run Script button <editors-text-run-script>`,
 all objects in the active scene are moved by 1.0 Blender unit.
@@ -267,7 +265,6 @@ As before, first we will start with a script, develop it, then convert it into a
    # Now we can place the object
    obj_new.location = cursor
 
-
 Now try copy this script into Blender and run it on the default Cube.
 Make sure you click to move the 3D cursor before running as the duplicate will appear at the cursor's location.
 
@@ -297,7 +294,6 @@ Next, we're going to do this in a loop, to make an array of objects between the 
        # and the active object based on 'i'
        factor = i / total
        obj_new.location = (obj.location * factor) + (cursor * (1.0 - factor))
-
 
 Try run this script with the active object and the cursor spaced apart to see the result.
 
@@ -363,7 +359,6 @@ The first step is to convert the script as-is into an add-on.
    if __name__ == "__main__":
        register()
 
-
 Everything here has been covered in the previous steps, you may want to try run
 the add-on still and consider what could be done to make it more useful.
 
@@ -398,7 +393,6 @@ Operator properties are defined via bpy.props module, this is added to the class
    # instance within the execute() function as...
    self.total
 
-
 These properties from :mod:`blender_api:bpy.props` are handled specially by Blender
 when the class is registered so they display as buttons in the user interface.
 There are many arguments you can pass to properties to set limits,
@@ -432,7 +426,6 @@ The method used for adding a menu item is to append a draw function into an exis
 
    def register():
        bpy.types.VIEW3D_MT_object.append(menu_func)
-
 
 For docs on extending menus, see: :doc:`blender_api:bpy.types.Menu`.
 
@@ -470,7 +463,6 @@ our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to a
            km.keymap_items.remove(kmi)
        addon_keymaps.clear()
 
-
 Notice how the keymap item can have a different ``total`` setting then the default set by the operator,
 this allows you to have multiple keys accessing the same operator with different settings.
 
@@ -480,7 +472,6 @@ this allows you to have multiple keys accessing the same operator with different
    it is hard to make sure add-ons will not overwrite each others keymaps,
    At least take care when assigning keys that they do not
    conflict with important functionality within Blender.
-
 
 For API documentation on the functions listed above, see:
 
@@ -567,13 +558,11 @@ Bringing it all together
 
    In the menu.
 
-
 Run the script (or save it and add it through the Preferences like before) and it will appear in the menu.
 
 .. figure:: /images/advanced_scripting_tutorial_op-prop.png
 
    Operator Property.
-
 
 After selecting it from the menu, you can choose how many instances of the cube you want create.
 

@@ -19,10 +19,8 @@ adds and removes details on the fly, whereas regular sculpting only affects the 
 This makes it possible to sculpt complex shapes out of a simple mesh,
 rather than just adding details onto a modeled base mesh.
 
-
 Dyntopo can be toggled with the checkbox in the header or with :kbd:`Ctrl-D`.
 With dynamic topology active, most brushes will subdivide the mesh during the stroke.
-
 
 Detail Type
    Dyntopo uses three different detail methods to create dynamic detail to an object.

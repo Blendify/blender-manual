@@ -132,7 +132,6 @@ If the collision you have set up is not behaving properly, you can try the follo
    Add *Loop Cuts* to your Soft Body object in strategic areas that
    you know are most likely to  be involved in a collision.
 
-
 - The Soft Body object must have more subdivisions than the collision object.
 - Check the direction of the face normals.
 - If the collision object has sharp spikes they might penetrate the Soft Body.

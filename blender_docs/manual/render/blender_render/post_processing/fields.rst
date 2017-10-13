@@ -7,7 +7,6 @@ Fields
 
    Field Rendering result.
 
-
 The TV standards prescribe that there should be 25 frames per second (PAL)
 or 30 frames per second (NTSC).
 Since the phosphors of the screen do not maintain luminosity for very long,

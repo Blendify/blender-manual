@@ -9,7 +9,6 @@ World
 
    Lighting with an HDR image.
 
-
 The world environment can emit light, ranging from a single solid color,
 physical sky model, to arbitrary textures.
 

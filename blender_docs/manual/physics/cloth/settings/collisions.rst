@@ -29,7 +29,6 @@ Collision Settings
 
    Cloth Collisions panel.
 
-
 Now you must tell the *Cloth* object that you want it to participate in collisions.
 For the cloth object, locate the *Cloth Collision* panel, shown to the right:
 
@@ -109,7 +108,6 @@ Cloth - Object collisions
 
    Collision settings.
 
-
 The cloth object needs to be deflected by some other object. To deflect a cloth,
 the object must be enabled as an object that collides with the cloth object.
 To enable Cloth - Object collisions, you have to enable deflections on the collision object
@@ -136,7 +134,6 @@ Mesh Object Modifier Stack
    :width: 200px
 
    Collision stack.
-
 
 The object's shape deforms the cloth,
 so the cloth simulation must know the "true" shape of that mesh object at that frame.
@@ -205,7 +202,6 @@ Troubleshooting
 ===============
 
 If you encounter some problems with collision detection, there are two ways to fix them:
-
 
 - The fastest solution is to increase the *Min Distance* setting under the *Cloth Collision* panel.
   This will be the fastest way to fix the clipping; however, it will be less accurate and will not look as good.

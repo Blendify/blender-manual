@@ -12,7 +12,6 @@ Time Node
 
    Time Node.
 
-
 The *Time node* generates a factor value (from 0.00 to 1.00)
 that changes according to the curve was drawn as time progresses through the *Timeline*.
 

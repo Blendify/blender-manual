@@ -8,7 +8,6 @@ Squeeze Value Node
 
    Squeeze Value node.
 
-
 This node is used primarily in conjunction with the Camera Data node used.
 The camera data generate large output values,
 both in terms of the depth information as well as the extent in the width.

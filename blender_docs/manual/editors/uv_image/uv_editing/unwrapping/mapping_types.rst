@@ -58,7 +58,6 @@ Unwrap
 
    Result of unwrapping Suzanne.
 
-
 Begin by selecting all faces to be unwrapped in the 3D View. With our faces selected,
 it is now time to unwrap them.
 In the 3D View, select :menuselection:`Mesh --> UV Unwrap --> Unwrap` or
@@ -112,7 +111,6 @@ Smart UV Project
    :width: 250px
 
    Smart UV project on a cube.
-
 
 Smart UV Project, (previously called the Archimapper)
 gives you fine control over how automatic seams should be created,
@@ -266,7 +264,6 @@ Cylinder and Sphere Projection
    :width: 350px
 
    Using an equirectangular image with a Sphere Projection.
-
 
 Cylindrical and Spherical mappings have the same settings. The difference is that a
 cylindrical mapping projects the UVs on a plan toward the cylinder shape,

@@ -18,7 +18,6 @@ The mirror tool in *Edit Mode* is similar to
 It is exactly equivalent to scaling by -1 vertices,
 edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.
 
-
 After this tool becomes active, select an axis to mirror the selection
 on entering :kbd:`X`, :kbd:`Y`, or :kbd:`Z`.
 
@@ -62,7 +61,6 @@ This is a special case of the *Edit Mode* as explained on the
           :width: 320px
 
           Mesh after mirrored along X axis.
-
 
 In Fig. :ref:`fig-mesh-deform-mirror-cursor` the pivot point is the *3D Cursor*,
 the transformation orientation is *Local*, a.k.a. the Object space,

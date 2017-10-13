@@ -8,7 +8,6 @@ Point Density Node
 
    Point Density Node.
 
-
 The *Point Density* node is used to add volumetric points for each particle or vertex of another object.
 
 

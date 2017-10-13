@@ -97,7 +97,6 @@ These can be displayed via the Python Console
                                  cosh']
                                  ..
 
-
 This script will add a function to the driver namespace,
 which can then be used in the expression ``driver_func(frame)``
 
@@ -123,7 +122,6 @@ This example is a Shape Key Driver. The driver was added to the shape key Value.
    :width: 400px
 
    Shape Key Driver. Click to enlarge.
-
 
 This example uses the Armature Bone "b" 's Z Rotation to control the Value of a Shape Key.
 The bone rotation mode is set to XYZ Euler.
@@ -168,7 +166,6 @@ relationships between your shape keys.
    * - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-extended.png
 
      - ..
-
 
 The Basis shape key has the stacks fully retracted. Key1 has the base fully extended.
 Key2A has the left stack fully extended. Key2B has the right stack fully extended.

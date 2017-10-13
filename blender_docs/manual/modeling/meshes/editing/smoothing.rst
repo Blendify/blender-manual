@@ -21,7 +21,6 @@ Mesh Shading
      - .. figure:: /images/modeling_meshes_editing_smoothing_example-09-edge-loops.png
           :width: 200px
 
-
 As seen in the previous sections, polygons are central to Blender.
 Most objects are represented by polygons and truly curved objects
 are often approximated by polygon meshes. When rendering images,
@@ -62,7 +61,6 @@ Smooth Shading
    :width: 220px
 
    Same mesh smooth shaded.
-
 
 The easiest way is to set an entire object as smooth or faceted by selecting a mesh object,
 and in *Object Mode*, click *Smooth* in the *Tool Shelf*.
@@ -111,7 +109,6 @@ Auto Smooth
      - .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
 
           Normals panel with *Auto Smooth* enabled.
-
 
 It can be difficult to create certain combinations of smooth and solid faces using the above
 techniques alone. Though there are workarounds

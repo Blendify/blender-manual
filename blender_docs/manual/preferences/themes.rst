@@ -8,7 +8,6 @@ The *Themes* tab allows you to customize interface appearance and colors.
 
 .. figure:: /images/preferences_themes_tab.png
 
-
 The colors for each editor can be set separately by simply selecting the editor you wish to
 change in the multi-choice list at the left, and adjusting colors as required.
 Notice that changes appear in real-time on your screen. In addition, details such as the dot

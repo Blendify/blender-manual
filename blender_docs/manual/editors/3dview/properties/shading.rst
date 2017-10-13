@@ -76,7 +76,6 @@ Shading Panel
 
    3D View Shading Panel.
 
-
 The shading panel in the Properties Region provides additional control over the way objects in the 3D View appear.
 
 Textured Solid

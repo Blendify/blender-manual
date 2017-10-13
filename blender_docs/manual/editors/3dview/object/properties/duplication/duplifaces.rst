@@ -28,7 +28,6 @@ Basic Usage
 
    A cube and a sphere.
 
-
 In this example we will use a UV sphere with an extruded "north pole" as our base object and
 cube as our parent mesh. To parent the sphere to the cube, in *Object Mode*,
 first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
@@ -38,7 +37,6 @@ first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 
    Duplication Faces applied to the cube.
 
-
 Next, in the :menuselection:`Object tab --> Duplication panel`,
 enable *Faces*. The sphere is duplicated one for each face of the cube.
 
@@ -47,7 +45,6 @@ enable *Faces*. The sphere is duplicated one for each face of the cube.
    The location, orientation, and scale of the duplicated child(ren) matches that of the faces of the parent.
    So, if several objects are parented to the cube, they will all be duplicated once for each face on the cube.
    If the cube is subdivided, every child will be duplicated for each face on the cube.
-
 
 Both the parent object and original are displayed as editable "templates" in 3D View,
 but neither is rendered.
@@ -63,7 +60,6 @@ Scale
 .. figure:: /images/dupliface-example01-4scalechanged.jpg
 
    Top face of cube scaled down.
-
 
 By enabling *Scale* for the parent object,
 the scale of the child objects will be adapted to the size of each face in the parent object.

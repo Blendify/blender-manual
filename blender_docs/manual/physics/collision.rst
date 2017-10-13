@@ -15,7 +15,6 @@ Collisions
 and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
 :doc:`Boids </physics/particles/emitter/physics/boids>` try to avoid *Collision* objects.
 
-
 - The objects need to share at least one common layer to have effect.
 - You may limit the effect on particles to a group of objects
   (in the :doc:`Field Weights panel </physics/particles/emitter/physics/index>`).
@@ -107,7 +106,6 @@ Examples
 .. figure:: /images/physics_collision_defected_particles.jpg
 
    Deflected Particles.
-
 
 Here is a *Meta* object, dupliverted to a particle system emitting downwards, and deflected by a mesh cube:
 

@@ -115,7 +115,6 @@ modifier, the order in which the modifiers are placed is important.
 
    Subdivision Surface Modifier before Mirror Modifier.
 
-
 The above image shows the Subdivision Surface Modifier placed before the Mirror one; as you
 can see the effect of this is that the mesh is split down the center line of the mirror effect.
 This is because the Subdivision calculation moves vertices away from the mirror plane, too far away from the
@@ -125,7 +124,6 @@ This is because the Subdivision calculation moves vertices away from the mirror 
    :width: 300px
 
    Mirror Modifier before Subdivision Surface Modifier.
-
 
 The above image shows the Mirror Modifier placed before the Subdivision Surface Modifier.
 In this order, the mirror calculation is done and the vertices are merged together.

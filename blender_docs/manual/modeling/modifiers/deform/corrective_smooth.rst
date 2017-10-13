@@ -26,7 +26,6 @@ Options
 
    Corrective Smooth Modifier.
 
-
 The modifier also uses a *Rest* state, to use as a reference
 Internally this modifier uses smoothing, so some of the options adjust the kind of smoothing.
 

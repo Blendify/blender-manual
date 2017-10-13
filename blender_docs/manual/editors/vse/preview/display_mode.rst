@@ -84,7 +84,6 @@ Chroma Vectorscope
 
    Example of Chroma Vectorscope Preview.
 
-
 Use this mode judge the quality of the color-distribution and saturation, you can also view a U/V scatter-plot.
 
 The picture is converted to YUV-format. The U- and V-values represent the angle of the color.

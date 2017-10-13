@@ -8,7 +8,6 @@ Translate Node
 
    Translate node.
 
-
 Translate the texture coordinates of an image or texture.
 
 

@@ -30,7 +30,6 @@ States are set up and edited in the object's Controller settings (for details se
    if a game does not need multiple states, everything will work without explicitly setting
    states -- you do not need to bother about states at all.
 
-
 One of the actuators, the State actuator, can set or unset the object's State bits,
 and so allow the object's reaction to a sensor signal to depend on its current state. So,
 in the above example, the actor will have a number of controllers connected to the "loud bang"

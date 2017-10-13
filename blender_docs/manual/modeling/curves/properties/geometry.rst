@@ -213,7 +213,6 @@ with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
 
           Taper extruded curve.
 
-
 You can see the *taper curve* being applied to the *extruded object*.
 Notice how the pipe's volume shrinks to nothing as the taper curve goes from left to right.
 If the taper curve went below the local Y axis the pipe's inside would become the outside,
@@ -226,7 +225,6 @@ Of course as an artist that may be what you are looking for!
 
    Taper example 1.
 
-
 In Fig. :ref:`fig-curves-extrude-taber1`
 you can clearly see the effect the left taper curve has on the right curve object. Here the
 left taper curve is closer to the object origin and that results in a smaller curve object to
@@ -238,7 +236,6 @@ the right.
 
    Taper example 2.
 
-
 In Fig. :ref:`fig-curves-extrude-taber2` a control point in the taper curve to the left is moved away from the
 origin and that gives a wider result to the curve object on the right.
 
@@ -247,7 +244,6 @@ origin and that gives a wider result to the curve object on the right.
 .. figure:: /images/modeling_curves_editing_extrude_example-14_taper-curve-irregular.png
 
    Taper example 3.
-
 
 In Fig. :ref:`fig-curves-extrude-taber3` we see the use of a more irregular taper curve applied to a curve circle.
 

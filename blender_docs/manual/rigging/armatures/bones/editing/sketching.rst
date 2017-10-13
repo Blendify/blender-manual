@@ -11,7 +11,6 @@ Skeleton Sketching
 
    The Bone Sketching panel.
 
-
 If you think that creating a whole rig by hand, bone after bone, is quite boring, be happy:
 some Blender developers had the same feeling, and created the Skeleton Sketching tool,
 formerly the Etch-a-ton tool, which basically allows you to "draw" (sketch)

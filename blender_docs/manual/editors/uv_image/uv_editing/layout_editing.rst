@@ -302,7 +302,6 @@ Activating the tool brings up the File Browser with options for saving the layou
 
    Export Options.
 
-
 All UVs
    if disabled, then only the UV faces selected will be outlined
 Modified

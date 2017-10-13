@@ -113,7 +113,6 @@ Single Image
 
    blender -b file.blend -f 10
 
-
 ``-b``
    Render in the background (without UI).
 ``file.blend``

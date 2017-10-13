@@ -10,7 +10,6 @@ Interior
 
    Vertices and forces along their connection edges.
 
-
 To create a connection between the vertices of a Soft Body object there have to be forces that
 hold the vertices together. These forces are effective along the edges in a mesh,
 the connections between the vertices. The forces act like a spring. Fig.
@@ -30,7 +29,6 @@ but would change your mesh topology drastically.
    :width: 200px
 
    Additional forces with Stiff Quads enabled.
-
 
 Luckily, Blender allows to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
@@ -102,7 +100,6 @@ To show the effect of the different edge settings we will use two cubes
 
           Frame 401.
 
-
 In Fig. :ref:`fig-softbody-force-interior-without`, the default settings are used (without *Stiff Quads*).
 The "quad only" cube will collapse completely, the cube composed of tris keeps its shape,
 though it will deform temporarily because of the forces created during collision.
@@ -125,7 +122,6 @@ though it will deform temporarily because of the forces created during collision
           :width: 200px
 
           Frame 401.
-
 
 In Fig. :ref:`fig-softbody-force-interior-with`, *Stiff Quads* is activated (for both cubes).
 Both cubes keep their shape, there is no difference for the red cube,
@@ -151,7 +147,6 @@ because it has no quads anyway.
 
           Frame 401.
 
-
 The second method to stop an object from collapsing is to change its *Bending Stiffness*.
 This includes the diagonal edges (damping also applies to these connections).
 
@@ -176,7 +171,6 @@ Now both cubes are more rigid.
           :width: 200px
 
           High bending stiffness (10), Frame 101.
-
 
 Bending stiffness can also be used if you want to make a subdivided plane more plank like.
 Without *Be* the faces can freely rotate against each other like hinges

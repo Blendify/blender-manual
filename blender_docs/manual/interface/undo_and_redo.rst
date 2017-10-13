@@ -108,7 +108,6 @@ Undo History
 
    The Undo History Menu.
 
-
 There is also an Undo History of the last actions taken, recorded by Blender.
 You can access the history pop-up with :kbd:`Ctrl-Alt-Z`.
 

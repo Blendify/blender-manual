@@ -14,7 +14,6 @@ Mesh Display
 
    Mesh Display Panel.
 
-
 This panel is available only in edit mode, when the object being edited is a mesh.
 
 

@@ -70,7 +70,6 @@ Grab/move
 
    1 Blender Unit (default zoom level).
 
-
 For grab/move operations at the default zoom level,
 holding :kbd:`Ctrl` will cause your selection to move by increments of 1 Blender Unit
 (1 BU) (i.e. between the two light gray lines). Zooming in enough to see the next set of gray

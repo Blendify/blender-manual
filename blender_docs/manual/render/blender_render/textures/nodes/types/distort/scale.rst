@@ -8,7 +8,6 @@ Scale Node
 
    Scale node.
 
-
 Scale the texture coordinates of an image or texture.
 
 

@@ -8,7 +8,6 @@ Introduction
 
    The Texture Type list in the Texture panel of the Texture Buttons. (Non procedural textures darkened out.).
 
-
 Procedural textures are textures that are defined mathematically.
 They are generally relatively simple to use,
 because they do not need to be mapped in a special way.
@@ -21,7 +20,6 @@ Procedural textures are not filtered or anti-aliased. This is hardly ever a prob
 the user can easily keep the specified frequencies within acceptable limits.
 
 These are the available types:
-
 
 - :doc:`Blend </render/blender_render/textures/types/procedural/blend>`
 - :doc:`Clouds </render/blender_render/textures/types/procedural/clouds>`
@@ -103,7 +101,6 @@ The *Noise Basis* governs the structural appearance of the texture:
      - ..
 
      - ..
-
 
 There are two more possible settings for *Noise Basis*, which are relatively similar to *Blender Original*:
 Improved Perlin and Original Perlin.

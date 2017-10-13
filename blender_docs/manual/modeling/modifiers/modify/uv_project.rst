@@ -10,7 +10,6 @@ UV Project Modifier
 
    Projecting the Blender logo onto Suzanne.
 
-
 The *UV Project* Modifier acts like a slide projector.
 It emits a UV map from the negative Z-axis of a controller object
 (such as an :doc:`empty </modeling/empties>`),

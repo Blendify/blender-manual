@@ -97,7 +97,6 @@ Options
 
          Falloff menu.
 
-
 The *Proportional Editing* mode menu is on the *3D View* header.
 
 Disable :kbd:`O`, :kbd:`Alt-O`
@@ -186,7 +185,6 @@ as Fig. :ref:`fig-view3d-transform-landscape` shows.
 .. figure:: /images/editors_3dview_transform-control_proportional-edit-landscape.jpg
 
    A landscape obtained via proportional editing.
-
 
 Combine these techniques with vertex painting to create fantastic landscapes.
 The Fig. :ref:`fig-view3d-transform-landscape-rendered` below shows the results of proportional editing after the

@@ -38,7 +38,6 @@ Vertex Group
    Wireframes on a displaced plane.
    In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.
 
-
 Crease Edges
    This option is intended for usage with the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`.
    Enable this option to crease edges on their junctions and prevent large curved intersections.

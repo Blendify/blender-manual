@@ -14,7 +14,6 @@ Warp
 
    Warp tool options.
 
-
 In *Edit Mode*, the *Warp* transformation takes selected elements and
 warps them around the 3D cursor by a certain angle.
 Note that this transformation is always dependent on the location of the 3D cursor.
@@ -35,7 +34,6 @@ Usage
 .. figure:: /images/editors_3dview_transformation_advanced_warp_warp-mesh.png
 
    In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
-
 
 Select the elements you want to operate on and activate the *Warp* transform function.
 The *Warp* option can be invoked from the

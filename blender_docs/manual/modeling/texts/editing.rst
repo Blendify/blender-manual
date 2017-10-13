@@ -20,7 +20,6 @@ in *Edit Mode* do not exist for texts. The second place is the Properties Editor
 
    Text in Edit Mode.
 
-
 The menu of the 3D View header offers few options,
 and there is no *Specials* menu... You have no transform nor mirror tools, and so on.
 However, you can apply to texts the same modifiers as for curves.
@@ -100,7 +99,6 @@ Cursor & Selection
 
    Text in Edit Mode.
 
-
 In *Edit Mode*, your text has a white cursor, and as in any text editor,
 it determines where new chars will be inserted.
 
@@ -139,7 +137,6 @@ Converting to Text Object
 -------------------------
 
 .. figure:: /images/modeling_text_editing_convert-to.jpg
-
 
 Using an existing text-block, you can convert it to an object from the text editor's header,
 select :menuselection:`Edit --> Text to 3D Object`,
@@ -185,7 +182,6 @@ on the *Assign* button in the Materials panel.
 .. figure:: /images/modeling_text_editing_material-index-example.png
 
    Red Green Blue.
-
 
 For example, to create Fig. :ref:`fig-texts-edit-rgb`
 you would need to create three separate materials and three separate material indices. Each

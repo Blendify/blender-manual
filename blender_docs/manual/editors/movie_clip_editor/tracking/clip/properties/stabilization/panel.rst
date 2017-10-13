@@ -33,7 +33,6 @@ Options
 
    2D Stabilization Panel.
 
-
 Anchor Frame
    Reference point to anchor stabilization:
    other frames will be adjusted relative to this frame's position, orientation and scale.

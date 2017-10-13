@@ -8,7 +8,6 @@ Subtract Effect
 
    Subtract Effect.
 
-
 This effect takes away one strip's color from the second.
 
 Make a negative of an image using this effect,

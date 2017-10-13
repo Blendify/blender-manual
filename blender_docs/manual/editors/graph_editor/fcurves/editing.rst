@@ -196,7 +196,6 @@ Sample Keyframes :kbd:`Shift-O`
 
              F-Curve after sampling.
 
-
 Bake Curves :kbd:`Alt-C`
    Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
 

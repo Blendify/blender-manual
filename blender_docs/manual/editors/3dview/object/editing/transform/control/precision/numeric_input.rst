@@ -7,7 +7,6 @@ Numeric Input
 
    Numeric input displayed in the 3D View footer.
 
-
 Using the mouse for transformations is convenient,
 but if you require more precise control, you can also enter numeric values.
 After pressing the shortcut type a number to indicate the magnitude of the transformation.

@@ -44,7 +44,6 @@ auto-complete feature in action.
 
 .. figure:: /images/editors_python-console_3-completion.png
 
-
 You will notice that a list of sub-modules inside of ``bpy`` appear. These modules encapsulate all
 that we can do with Blender Python API and are very powerful tools.
 
@@ -116,7 +115,6 @@ Data type of objects location::
 
    type(bpy.context.object.location)
 
-
 Now that is a lot of data that you have access to::
 
    dir(bpy.context.object.location)
@@ -132,7 +130,6 @@ Type this and then press :kbd:`Ctrl-Spacebar`::
 To print out the name of first object in the list::
 
    bpy.context.selected_objects[0]
-
 
 The complex one... But this prints a list of objects not including the active object::
 

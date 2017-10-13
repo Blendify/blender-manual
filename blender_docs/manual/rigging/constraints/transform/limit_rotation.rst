@@ -37,7 +37,6 @@ Options
 
    Limit Rotation panel.
 
-
 Limit X, Y, Z
    These buttons enable the rotation limit around respectively the X, Y and Z axes of the owner,
    in the chosen *Space*.

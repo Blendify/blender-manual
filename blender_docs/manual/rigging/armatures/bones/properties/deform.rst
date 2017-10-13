@@ -7,7 +7,6 @@ Deform
 
    The Deform panel.
 
-
 In this panel you can set deformation options for each bone.
 
 Turning the Deform option off,
@@ -28,7 +27,6 @@ Envelope
    :figwidth: 180px
 
    Bone influence areas for envelopes method.
-
 
 Envelopes is the most general skinning method. It works with all available object types for
 skinning (meshes, lattices, curves, surfaces and texts).

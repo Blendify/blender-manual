@@ -107,7 +107,6 @@ like Clouds, are incredibly simple and useful for adding realism and details to 
    * - Takes very limited graphics memory
      - Uses no or little memory; instead uses CPU compute power.
 
-
 So, in a sense, a single UV texture for a mesh is simpler but more limited than using multiple textures
 (mapped to UV coordinates), because they do one specific thing very well:
 adding image details to a range of faces of a mesh.

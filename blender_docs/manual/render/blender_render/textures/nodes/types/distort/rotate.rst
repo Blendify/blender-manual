@@ -8,7 +8,6 @@ Rotate Node
 
    Rotate node.
 
-
 Rotate the texture coordinates of an image or texture.
 
 

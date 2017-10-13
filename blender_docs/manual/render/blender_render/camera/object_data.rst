@@ -54,7 +54,6 @@ Settings which adjust this projection include:
 - `Shift`_
 - :ref:`Sensor size <render-camera-sensor-size>`
 
-
 Focal length
    The :term:`focal length` setting controls the amount of zoom, i.e.
    the amount of the scene which is visible all at once.
@@ -65,7 +64,6 @@ Focal length
    .. figure:: /images/perspective_perspective_traintracks_telephoto.jpg
 
       Render of the same scene as above, but with a focal length of 210mm instead of 35mm.
-
 
 Lens Unit
    The focal length can be set either in terms of millimeters or the actual :term:`Field of View` as an angle.
@@ -112,7 +110,6 @@ To see how this works, take the following examples:
 .. figure:: /images/perspective_perspective_traintracks_camera_rotate.jpg
 
    Render of a train track scene with a rotation of the camera object instead of a lens shift.
-
 
 Notice how the horizontal lines remain perfectly horizontal when using the lens shift,
 but do get skewed when rotating the camera object.
@@ -178,7 +175,6 @@ Depth of Field
 .. figure:: /images/render_blender-render_camera_object-data_depth-of-field-panel.png
 
    Camera Depth of Field Panel.
-
 
 Real world cameras transmit light through a lens that bends and focuses it onto the sensor.
 Because of this, objects that are a certain distance away are in focus,
@@ -317,7 +313,6 @@ Main Safe Areas
 
    Red line: Action safe. Green line: Title safe.
 
-
 Title Safe
    Also known as *Graphics Safe*.
    Place all important information (graphics or text) inside this area to
@@ -341,7 +336,6 @@ Center-Cuts
 .. figure:: /images/render_blender-render_camera_object-data_safe-areas-cuts.png
 
    Cyan line: action center safe. Blue line: title center safe.
-
 
 Center-cuts are a second set of safe areas to ensure content
 is seen correctly on screens with a different aspect ratio.

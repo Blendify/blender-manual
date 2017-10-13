@@ -8,7 +8,6 @@ Introduction
 
    The Dope Sheet.
 
-
 Classical hand-drawn animators often made a chart, showing exactly when each drawing,
 sound and camera move would occur, and for how long. They nicknamed this the "dope sheet".
 While CG foundations dramatically differ from classical hand-drawn animation,
@@ -22,7 +21,6 @@ Dope Sheet Modes
 .. figure:: /images/editors_dopesheet_modes.jpg
 
    Dope Sheet Modes.
-
 
 There are four basic views for the Dope Sheet. These all view different contexts of animation:
 

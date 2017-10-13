@@ -9,7 +9,6 @@ Tangent Node
 
    Tangent Node.
 
-
 The *Tangent* node generates a tangent direction for the Anisotropic BSDF.
 
 

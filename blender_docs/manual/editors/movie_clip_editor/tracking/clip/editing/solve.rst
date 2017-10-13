@@ -83,7 +83,6 @@ on the footage and two keyframes specified on this panel. There are some require
 - There should be at least eight common tracks on the both of the selected keyframes.
 - There should be noticeable parallax effects between these two keyframes.
 
-
 If everything goes smoothly during the solve, the average reprojection error is reported to
 the information space and to the clip editor header. Reprojeciton error means the average
 distance between reconstructed 3D position of tracks projected back to footage and original

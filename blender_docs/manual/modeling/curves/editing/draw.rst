@@ -23,7 +23,6 @@ Stroke Options
 
    Curve Stroke panel.
 
-
 These options can be found in :menuselection:`Tool Shelf --> Options --> Curve Stroke`.
 
 Type
@@ -85,7 +84,6 @@ Draw Options
    :align: right
 
    Draw Curve panel.
-
 
 These options can be found in the :ref:`Redo Last Panel <ui-redo-last>`.
 

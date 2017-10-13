@@ -15,7 +15,6 @@ Options
 
    Mesh Deform Modifier.
 
-
 The Mesh Deform Modifier is reasonably easy to use but it can be very slow to do
 the calculations needed to properly map the deform mesh cage to the deformed object.
 

@@ -30,7 +30,6 @@ Environment or Ambient Only
 
    Environment (Ambient) lighting only.
 
-
 In the *World* tab, there is a panel *Environment Lighting*,
 where you enable environment or ambient lighting of your scene. Ambient light is the scattered
 light that comes from sunlight being reflected off every surface it hits, hitting your object,
@@ -40,7 +39,6 @@ and traveling to camera.
    :width: 256px
 
    Ambient occlusion.
-
 
 Ambient light illuminates, in a perfectly balanced, shadeless way, without casting shadows.
 You can vary the intensity of the ambient light across your scene via
@@ -54,7 +52,6 @@ Single Rig
    :width: 300px
 
    Standard Spot light rig.
-
 
 The sole, or key, spot light rig provides a dramatic, showy,
 yet effective illumination of one object or a few objects close together.
@@ -94,7 +91,6 @@ Two-Point Rig
    :width: 300px
 
    Standard two-point light rig.
-
 
 The two-point lighting rig provides a balanced illumination of an object.
 Shown to the right are the views of the standard two-point lighting rig.
@@ -145,7 +141,6 @@ Studio rig
 
    Studio three-point light rig.
 
-
 Shown to the right are the "Studio" top, front,
 and side views of the standard three-point lighting rig. It changes the dynamics of the scene,
 by making a brighter "key" light give some highlights to the object,
@@ -182,7 +177,6 @@ Standard Rig
 
    Standard three-point light rig.
 
-
 Without a curtain in back of your main subject, you have depth to work with.
 The left fill light has been moved behind the subject (so it is now called a backlight)
 and is just off-camera, while the right side fill light remains the same. The keylight gives
@@ -214,7 +208,6 @@ Four-point Rig
    :width: 300px
 
    Four-point light rig.
-
 
 The four-point lighting rig provides a better simulation of outside lighting,
 by adding a *Sun* lamp 30 Blender Units above, 10 to the side,

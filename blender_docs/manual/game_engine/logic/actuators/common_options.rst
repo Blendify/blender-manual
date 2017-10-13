@@ -8,9 +8,7 @@ Actuator Common Options
 
    Common Actuator Options.
 
-
 All actuators have a set of common buttons, fields and menus. They are organized as follows:
-
 
 Triangle button
    Collapses the sensor information to a single line (toggle).

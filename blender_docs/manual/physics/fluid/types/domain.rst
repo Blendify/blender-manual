@@ -38,7 +38,6 @@ Options
 
    Fluid Domain Settings.
 
-
 Bake button
    For baking options, see :doc:`Baking </physics/fluid/baking>`.
 Resolution
@@ -143,7 +142,6 @@ Fluid World
 
    The Fluid World panel.
 
-
 Viscosity Presets
    The "thickness" of the fluid and actually the force needed to move an object of a certain surface area through it
    at a certain speed.
@@ -181,7 +179,6 @@ Viscosity Presets
       * - Melting Glass
         - 1.0×10\ :sup:`15`
         - 1.0×10\ :sup:`0` (1.0)
-
 
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
@@ -237,7 +234,6 @@ Viscosity Presets
    Do not know, I am not a physicist, but there definitively something wrong here,
    so if someone who knows better about this matter could check and correct it, it would be nice!
    --Mont29, 2009/08
-
 
 Real World Size
    Size of the domain object in the real world in meters.
@@ -299,7 +295,6 @@ Fluid Particles
 .. figure:: /images/physics_fluids_types_domain_particles.png
 
    The Fluid Particles panel.
-
 
 Here you can add particles to the fluid simulated, to enhance the visual effect.
 

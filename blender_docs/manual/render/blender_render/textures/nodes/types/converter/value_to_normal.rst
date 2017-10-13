@@ -8,7 +8,6 @@ Value to Normal Node
 
    Value to Normal node.
 
-
 Computes a normal map.
 
 

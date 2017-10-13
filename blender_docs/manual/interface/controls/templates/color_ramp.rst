@@ -14,7 +14,6 @@ Color-stops are similar to a mark indicating where exactly the chosen color shou
 The interval from each of the color-stops added to the ramp is a result of the color interpolation and
 chosen interpolation method. The available options for Color Ramps are:
 
-
 Add ``+``
    Clicking on this button will add a stop to your custom weight paint map.
    The stops are added from the last selected stop to the next one, from left to right and

@@ -21,7 +21,6 @@ Volume Initialization Type
 
 This object will put fluid into the simulation, like a water tap.
 
-
 Inflow Velocity
    Speed of the fluid that is created inside of the object.
 
@@ -42,7 +41,6 @@ Outflow
 .. figure:: /images/physics_fluid_types_outflow.jpg
 
    Fluid Outflow Settings.
-
 
 Any fluid that enters the region of this object will be deleted (think of a drain or a black hole).
 This can be useful in combination with an inflow to prevent the whole domain from filling up.

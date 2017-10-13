@@ -21,7 +21,6 @@ Direct Placement with the Mouse
 
    Positioning the 3D cursor with two orthogonal views.
 
-
 Using :kbd:`LMB` in the 3D View will place the 3D cursor directly under your mouse pointer.
 
 For accuracy you should use two perpendicular orthogonal 3D Views, i.e.
@@ -49,7 +48,6 @@ enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`.
 .. figure:: /images/editors_3dview_3d-cursor_panel.png
 
    The 3D Cursor panel of the Properties region.
-
 
 The 3D cursor can also be positioned by editing the location coordinates values in
 the *3D cursor* panel of the *Properties* region.

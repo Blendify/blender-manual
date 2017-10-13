@@ -119,7 +119,6 @@ Influence
 
    Texture Influence panel.
 
-
 The texture affects color only, but in four different ways:
 
 Blend

@@ -9,7 +9,6 @@ Wave Texture Node
 
    Wave Texture Node.
 
-
 The *Wave Texture* node adds procedural bands or rings with noise distortion.
 
 

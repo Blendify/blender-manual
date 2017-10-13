@@ -20,7 +20,6 @@ With walk/fly modes you move, pan, tilt, and dolly the camera around without any
 
    View Navigation.
 
-
 In the :doc:`User Preferences editor </preferences/index>`
 select the navigation mode you want to use as default when invoking the View Navigation operator.
 Alternatively you can call the individual modes from the View Navigation menu.
@@ -71,7 +70,6 @@ Shortcuts
   - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to decrease the movement speed for this open session.
   - :kbd:`Shift` (hold) - to speed up the movement temporarily.
   - :kbd:`Alt` (hold) - to slow down the movement temporarily.
-
 
 When you are happy with the new view, click :kbd:`LMB` to confirm.
 In case you want to go back from where you started, press :kbd:`Esc` or :kbd:`RMB`, as usual.

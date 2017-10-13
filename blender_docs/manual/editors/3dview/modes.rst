@@ -26,7 +26,6 @@ You set the current mode in the *Mode* selector of *3D View* header
    In all others, the current object selection is "locked"
    (except, to some extent, with an armature's *Pose Mode*).
 
-
 Modes might affect many things in Blender:
 
 - They can modify the panels and/or controls available in some Properties editor tabs.

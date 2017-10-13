@@ -67,7 +67,6 @@ Python Scripts
    - Defining new menus, key-maps & tools.
    - Defining a custom add-on path for template specific add-ons.
 
-
 Templates also have their own user configuration so saving startup while using a template
 won't overwrite your default startup file.
 

@@ -8,7 +8,6 @@ Wire Render
 
    Wire Render.
 
-
 The Wire Render option in the Materials section provides a way of showing a rendered image of
 the edges in an object.
 Each edge is rendered as a single-pixel image of the edges which make up the mesh. The colors,

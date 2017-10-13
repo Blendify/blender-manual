@@ -44,7 +44,6 @@ The answer to each of the above questions is an image or map, as shown below:
 .. figure:: /images/render_blender-render_settings_passes_example.jpg
    :width: 600px
 
-
 Each Render Pass puts out an image or a map. For the purposes of this example,
 a Render Layer was defined to produce all possible outputs. When a Render Layer input-node
 was added to the node diagram and the Render Layer input-node was subsequently associated with
@@ -70,7 +69,6 @@ Selecting Render Passes
 =======================
 
 .. figure:: /images/render_blender-render_settings_renderlayer-panel.png
-
 
 Render Passes are the various distinct outputs that the renderer is able to generate.
 All of the following render outputs are normally combined into a single output known,
@@ -132,7 +130,6 @@ Reflection
 Refraction
    Refraction of colors through transparent meshes. Mix Add this pass to the Diffuse pass to use it.
 
-
 When you enable a pass, the appropriate socket on the Render Layers node shows up like magic,
 and can be used as shown in the example above.
 
@@ -174,7 +171,6 @@ Recoloring Shadows
 
 .. figure:: /images/render_blender-render_settings_passes_example2.png
    :width: 600px
-
 
 Let us run the Shadow buffer through a colorization node setup, then recombine it;
 all your shadows will be artificially colored.
@@ -221,7 +217,6 @@ Compositing Ambient Occlusion
 .. figure:: /images/render_blender-render_settings_passes_ao.png
    :width: 600px
 
-
 AO is a geometry-based dirt shader, making corners darker.
 It is separately enabled in the World settings and computed as a separate pass. When enabled,
 it has one of three Modes: *Add*, *Subtract* , *Both* and a variable *Energy* level
@@ -252,7 +247,6 @@ Vector Blurring Shadows
 
 .. figure:: /images/render_blender-render_settings_passes_vector-blurring-shadows.png
    :width: 600px
-
 
 When using Vector Blur instead of Motion Blur, objects in motion are blurred,
 but objects at rest (with respect to the camera) are not blurred.

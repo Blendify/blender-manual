@@ -61,7 +61,6 @@ Instead let us see what SSS does to a distinct light point.
 
           SSS with very large red radius value.
 
-
 If you turn on SSS, the light is distributed over a larger area.
 The size of this area depends on the radius values.
 Instead of distributing all colors with the same amount,
@@ -86,7 +85,6 @@ Enabling Subsurface Scattering
 .. figure:: /images/material-sss-panel.png
 
    The SSS Panel. SSS is already enabled.
-
 
 - Enable SSS by clicking on the *Subsurface Scattering* button.
 - Accessible at the top are various presets.

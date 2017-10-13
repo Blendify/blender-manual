@@ -8,7 +8,6 @@ Distance Node
 
    Distance node.
 
-
 Computes the distance between two 3D coordinates.
 
 

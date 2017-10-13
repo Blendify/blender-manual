@@ -7,7 +7,6 @@ Strands
 The Strand section of the Material tab is specific to the rendering of Hair particles.
 There are two different strand methods available:
 
-
 Polygon strands
    This is the default (old) method.
    The strands are rendered as flat polygons.
@@ -55,7 +54,6 @@ Strands Shading
 
    Strands Panel.
 
-
 Strands are rendered with the material of the underlying face/vertex,
 including shading with a UV-Texture. Since you can assign more than one material to each face,
 each particle system may have its own material and the material of the underlying face can be
@@ -65,7 +63,6 @@ Additionally strands can be shaded along the strand (from root to tip)
 with a mono-dimensional texture; only polygon strands can carry a two-dimensional UV-Texture.
 
 The options for strand shading are in the *Strands* section of the *Material* tab.
-
 
 Root
    Width of the hair at the root.
@@ -144,7 +141,6 @@ Normally you would use a linear blend texture for this.
 
           The render result.
 
-
 You may of course set any attribute you like, especially color.
 Be careful with specularity; hairs tend to get too shiny.
 
@@ -160,7 +156,6 @@ The strand render has options to remove child strands as the object's faces beco
 .. figure:: /images/render_blender-render_materials_properties_strand-simplification.png
 
    Strand render child simplification.
-
 
 Reference Size
    This is the approximate size of the object on screen (in pixels), after which simplification starts.

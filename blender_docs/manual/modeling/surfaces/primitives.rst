@@ -27,7 +27,6 @@ There are also two preset NURBS surface curves (with only one control point on e
 
    NURBS curve primitives.
 
-
 Note how a circle :term:`NURBS` surface is never filled, unlike its "real" curve counterpart...
 
 

@@ -16,7 +16,6 @@ Normals
 
    Normals panel
 
-
 Auto Smooth
    Edges where an angle between the faces is smaller than specified in the *Angle* button will be smoothed,
    when shading of these parts of the mesh is set to smooth.

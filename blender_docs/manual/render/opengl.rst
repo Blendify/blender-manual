@@ -66,7 +66,6 @@ using the small button showing a *Camera*.
 
    OpenGL Render buttons.
 
-
 As with a normal render, you can abort it with :kbd:`Esc`.
 
 Render a Still Image

@@ -262,7 +262,6 @@ Billboard Time-Index (X-Y)
    texture mapped to color from white to black will make the first particle to be white and the last particle to be
    black with the particles in between a shade of gray.
 
-
 The animation of the UV textures is a bit tricky.
 The UV texture is split into rows and columns (N times N). The texture should be square.
 You have to use *UV Split* in the UV channel and fill in the name of the UV map.

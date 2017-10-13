@@ -40,7 +40,6 @@ Options
 
    The Mirror Panel.
 
-
 Enable ray-traced reflections
    Enable or disable ray-traced reflections
 Reflectivity
@@ -50,7 +49,6 @@ Reflectivity
 .. figure:: /images/material-mirrorcolor.jpg
 
    Picking a mirror color.
-
 
 Mirror Color
    Color of mirrored reflection

@@ -15,7 +15,6 @@ which indicates the amount of ambient light/color that that material receives.
 
    Environment Lighting panel.
 
-
 Also, you can choose the environment color source (white, sky color, sky texture)
 and the light energy.
 

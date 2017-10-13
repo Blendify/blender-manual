@@ -13,7 +13,6 @@ Introduction
    `Animation video <https://vimeo.com/1865528>`__ and
    `Blend file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__.
 
-
 A Soft Body in general, is a simulation of a soft or rigid deformable object.
 In Blender, this system is best for simple cloth objects and closed meshes.
 There is dedicated :doc:`Cloth Simulation </physics/cloth/index>` physics that use a different solver,
@@ -45,7 +44,6 @@ Typical scenarios for using Soft Bodies
 
    `Animation <https://vimeo.com/1865817>`__ - `Blend file
    <https://wiki.blender.org/index.php/Media:WindConeExample.blend>`__
-
 
 Soft Bodies are well suited for:
 
@@ -81,7 +79,6 @@ To activate the Soft Body simulation for an object:
 
 A lot of options appear.
 For a reference of all the settings see :doc:`this page </physics/soft_body/settings>`.
-
 
 - You start a Soft Body simulation with :kbd:`Alt-A`.
 - You pause the simulation with :kbd:`Spacebar`, continue with :kbd:`Alt-A`.
@@ -182,7 +179,6 @@ e.g. by moving collision objects or shaking a Soft Body object.
 .. tip:: *Continue Physics* does not work while playing the animation with :kbd:`Alt-A`.
 
    Right. This works only if you start the animation with the *Play* button of the Timeline editor.
-
 
 You can then select the Soft Body object while running the simulation and *Apply*
 the modifier in the *Modifiers* tab of the Properties editor.

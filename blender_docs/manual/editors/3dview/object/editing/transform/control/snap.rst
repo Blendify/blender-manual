@@ -159,7 +159,6 @@ Additional Snap Options
 
           Edit Mode.
 
-
 As seen by the yellow highlighted areas in the image above,
 additional controls are available to alter snap behavior. These options vary between mode
 (Object and Edit) as well as Snap Element. The four options available are:
@@ -193,7 +192,6 @@ Multiple Snap Targets
 .. figure:: /images/editors_3dview_transform_control_precision_snap_target-multiple.png
 
    Multiple snapping targets.
-
 
 Once transforming a selection with Snapping on (not just when holding :kbd:`Ctrl`),
 you can press :kbd:`A` to mark the current snapping point, then proceed to mark as many other

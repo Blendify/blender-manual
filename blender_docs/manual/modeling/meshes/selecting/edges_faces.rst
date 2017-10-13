@@ -108,7 +108,6 @@ use the :kbd:`Alt-RMB` shortcut.
 
    Different Loopselect Operations on a grid in Face Select Mode.
 
-
 - Just the selected face.
 - Select the face, then :menuselection:`Select --> Edge Ring`.
   See, how Blender selects edges, even if being in Face Select Mode.

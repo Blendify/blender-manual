@@ -103,7 +103,6 @@ Moving objects between layers
 
    Layer selection.
 
-
 To move selected objects to a different layer,
 press :kbd:`M` and then select the layer you want from the pop-up menu.
 Objects can also be on more than one layer at a time. To have an object on multiple layers,
@@ -113,14 +112,12 @@ hold :kbd:`Shift` while clicking.
 
    Selection in the Object tab.
 
-
 Another way to view or change a selected object layer is via the *Relations* panel,
 in the *Object* tab.
 
 .. figure:: /images/editors_3dview_layers_relations-panel.png
 
    Layers in Object tab, Relations panel.
-
 
 You will then see the layer buttons in the *Relations* panel -- as before -- the object
 can be displayed on more than one layer by clicking :kbd:`Shift-LMB`.

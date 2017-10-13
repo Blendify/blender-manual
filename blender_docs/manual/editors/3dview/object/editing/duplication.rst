@@ -43,7 +43,6 @@ Examples
    The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
    The mesh's Unique data-block ID name is highlighted in the Outliner.
 
-
 The cone in the middle has been (1) link duplicated to the left and (2) duplicated to the right.
 
 - The duplicated right cone is being edited, the original cone in the middle remains unchanged.
@@ -101,7 +100,6 @@ Examples
    The object ``Cone.001`` was linked duplicated.
    Though both these cones are separate objects with unique names,
    the single mesh named Cone, highlighted in the Outliner, is shared by both.
-
 
 The left cone is a *Linked Duplicate* of the middle cone (using :kbd:`Alt-D`).
 

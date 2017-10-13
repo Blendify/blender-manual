@@ -186,7 +186,6 @@ use the :kbd:`Alt-Wheel` to scroll to a different edge.
 
           Even Mode with Flip Enabled.
 
-
 Moving the mouse moves the selected edge loop towards or away from the start vertex,
 but the loop line will only move as far as the length of the currently selected edge,
 conforming to the shape of one of the bounding edge loops.

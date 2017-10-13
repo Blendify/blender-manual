@@ -203,7 +203,6 @@ Effects Panel
 
    Canvas effects panel.
 
-
 This is a special feature for "Paint" type surface.
 It generates animated movement on canvas surface.
 
@@ -226,7 +225,6 @@ Cache Panel
 .. figure:: /images/physics_dynamic-paint_canvas_cache-panel.png
 
    Canvas cache panel.
-
 
 This panel is currently only visible for *Vertex* format surfaces.
 You can use it to adjust and bake point cache.

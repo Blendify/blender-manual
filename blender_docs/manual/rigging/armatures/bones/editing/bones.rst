@@ -55,7 +55,6 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
           The three extruded bones.
 
-
 You also can use the rotating/scaling extrusions,
 as with meshes, by pressing respectively :kbd:`E-R` and :kbd:`E-S` --
 as well as :doc:`locked </editors/3dview/object/editing/transform/control/precision/axis_locking>`
@@ -75,7 +74,6 @@ extrusion along a global or local axis.
 
           The two mirror-extruded bones.
 
-
 Bones have an extra "mirror extruding" tool, called by pressing :kbd:`Shift-E`.
 By default, it behaves exactly like the standard extrusion.
 But once you have enabled the X-Axis mirror editing option
@@ -92,7 +90,6 @@ The "_R" bone is its mirror counterpart (along the armature's local X axis), see
    (creating zero length bones). These will be removed when exiting Edit Mode,
    however, they can cause confusion and it's unlikely you want to keep them.
    If you realize the problem immediately undo the extrude action.
-
 
 In case you are wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
 because extrusion selects the newly created tips, and as explained below the Delete tool ignores bones' joints.
@@ -124,7 +121,6 @@ The position of the root and the parenting of the new bone depends on the active
 
    Ctrl-clicking when the active element is a bone.
 
-
 If the active element is a *bone*
 
 - the new bone's root is placed on the active bone's tip
@@ -138,7 +134,6 @@ If the active element is a *bone*
 
    Ctrl-clicking when the active element is a tip.
 
-
 If the active element is a *tip* :
 
 - the new bone's root is placed on the active tip
@@ -151,7 +146,6 @@ If the active element is a *tip* :
    :width: 300px
 
    Ctrl-clicking when the active element is a disconnected root.
-
 
 If the active element is a *disconnected root* :
 
@@ -168,7 +162,6 @@ And hence the new bone will **not** be connected to any bone.
 
    Ctrl-clicking when the active element is a connected root.
 
-
 If the active element is a *connected root* :
 
 - the new bone's root is placed on the active root
@@ -177,7 +170,6 @@ If the active element is a *connected root* :
 
 This should be obvious because if the active element is a connected root then the active
 element is also the tip of the parent bone, so it is the same as the second case.
-
 
 As the tip of the new bone becomes the active element,
 you can repeat these :kbd:`Ctrl-RMB` several times,
@@ -215,7 +207,6 @@ If you have one root and one tip selected, the new bone:
 
           Active tip on the right.
 
-
 If you have two tips selected, the new bone:
 
 - Will have the root placed on the selected tip closest to the 3D cursor.
@@ -233,7 +224,6 @@ If you have two tips selected, the new bone:
           :width: 320px
 
           3D cursor on the right.
-
 
 If you have two roots selected, you will face a small problem due to the event system in
 Blender not updating the interface in real time.
@@ -259,7 +249,6 @@ new bone's root moves to the tip of the parent bone.
 
           After UI update, correct visualization.
 
-
 Clicking :kbd:`F` with only one bone joint selected will create a bone from the selected
 joint to the 3D cursor position, and it will not parent it to any bone in the armature.
 
@@ -274,7 +263,6 @@ joint to the 3D cursor position, and it will not parent it to any bone in the ar
           :width: 320px
 
           Fill with only one root selected.
-
 
 You will get an error when:
 
@@ -295,7 +283,6 @@ Duplicate
 .. note::
 
    This tool works on selected bones; selected joints are ignored.
-
 
 As in mesh editing, by pressing :kbd:`Shift-D`:
 

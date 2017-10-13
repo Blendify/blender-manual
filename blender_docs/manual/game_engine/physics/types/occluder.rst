@@ -10,7 +10,6 @@ It is culled because it is occluded.
 There is a demo blend-file to exemplify some concepts:
 `BGE-Physics-Objects-Occluder.blend <https://wiki.blender.org/index.php/Media:BGE-Physics-Objects-Occluder.blend>`__
 
-
 - A messed-up, subdivided Cube named "Cube".
 - Another one behind a "Physics Type: Occlude" plane, named "Cube.BG".
 - Another one outside the view Frustum, named "Cube.OffCamera".

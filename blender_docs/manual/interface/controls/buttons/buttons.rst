@@ -15,7 +15,6 @@ Operation Buttons
 
    Operation button.
 
-
 These are buttons that perform an operation when clicked with :kbd:`LMB`.
 They can be identified by their gray color in the default color scheme.
 

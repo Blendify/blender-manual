@@ -57,7 +57,6 @@ Manual Z-Mask
 
    Example.
 
-
 This example has one scene input by the top *Render Layer* node,
 which has a cube that is about 10 BU from the camera.
 The bottom Render Layer node inputs a scene (FlyCam)
@@ -161,7 +160,6 @@ and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 `Spreadsheet showing a function
 <https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_spreadsheet>`__.
 
-
 The theory behind this function is scaled truncation.
 Suppose we want a math function that takes in a range of values between 0 and 1,
 such as 0.552, but only outputs a value of 0.0, 0.2, 0.4, etc. We can imagine then that we need
@@ -210,7 +208,6 @@ Copying this one channel to operate on Green and Blue gives the node setup below
 To get the 6:6:7, we set the three Multiply Nodes to {6, 6, 7} and the divide nodes to {5, 5, 6}.
 
 .. figure:: /images/compositing-node-math_quantize-red.jpg
-
 
 If you make this into a node group, you can easily reuse this setup from project to project.
 When you do, consider using a math node to drive the different values that you would have to

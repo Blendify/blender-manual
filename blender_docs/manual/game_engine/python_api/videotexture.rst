@@ -242,14 +242,12 @@ We are now ready to play the video::
 
    GameLogic.video.source.play()
 
-
 Video playback is not a background process: it happens only when we refresh the texture.
-So we must have another script that runs on every frame and calls the ``refresh
-()`` method of the ``Texture`` object::
+So we must have another script that runs on every frame and calls the ``refresh()``
+method of the ``Texture`` object::
 
    if hasattr(GameLogic, 'video'):
    GameLogic.video.refresh(True)
-
 
 If the video source is stopped, ``refresh()`` has no effect.
 The argument of ``refresh
@@ -274,8 +272,7 @@ Advanced work flow
 True argument in ``Texture.refresh()`` method simply invalidates the image buffer
 after sending it to the GPU so that on next frame, a new image will be loaded from the source.
 It has the side effect of making the image unavailable to Python.
-You can also do it manually by calling the ``refresh
-()`` method of the source directly.
+You can also do it manually by calling the ``refresh()`` method of the source directly.
 
 Here are some possible advanced work flow:
 
@@ -288,7 +285,6 @@ Here are some possible advanced work flow:
      # invalidates it for next frame
      GameLogic.video.source.refresh()
 
-
 - Load image from source for Python processing without download to GPU:
 - Note that we do not even call refresh on the Texture.
 - We could also just create a source object without a Texture object::
@@ -297,12 +293,10 @@ Here are some possible advanced work flow:
      # ... use image
      GameLogic.video.source.refresh()
 
-
 - If you have more than one material on the mesh and you want to modify a texture of one particular material,
   get its ID::
 
      matID = bge.texture.materialID(gameobj, "MAmat.001")
-
 
 GLSL material can have more than one texture channel,
 identify the texture by the texture slot where it is defined, here two::

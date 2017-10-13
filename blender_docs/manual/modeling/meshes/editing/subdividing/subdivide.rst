@@ -17,7 +17,6 @@ Subdividing splits selected edges and faces by cutting them in half or more,
 adding necessary vertices, and subdividing accordingly the faces involved,
 following a few rules, depending on the settings:
 
-
 - When only one edge of a face is selected (Triangle mode),
   triangles are subdivided into two triangles, and quads, into three triangles.
 - When two edges of a face are selected:
@@ -67,7 +66,6 @@ Smoothness
              :width: 200px
 
              Subdivided with smoothing of 1.
-
 
 Quad/Tri Mode
    Forces subdivide to create triangles or quads instead of n-gons (see examples below).
@@ -127,7 +125,6 @@ Fractal
 
              Same mesh with fractal added.
 
-
 Along Normal
    Causes the vertices to move along the their normals, instead of random directions.
 
@@ -135,7 +132,6 @@ Along Normal
       :width: 200px
 
       Along normal set to 1.
-
 
 Random Seed
    Changes the random seed of the *Fractal* noise function, producing a different result for each seed value.

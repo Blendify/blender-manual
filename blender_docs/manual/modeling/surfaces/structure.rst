@@ -69,7 +69,6 @@ As you can see, that control point *pulls* the surface towards it.
 
    One control point with a weight of 5.
 
-
 If all the control points have the same *Weight* then each effectively cancels each
 other out. It is the difference in the weights that cause the surface to move towards or away
 from a control point.

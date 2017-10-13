@@ -9,7 +9,6 @@ Multiply
 
    Multiply Effect.
 
-
 The *Multiply* effect multiplies two colors.
 Blender uses values between (0.0 to 1.0) for the colors,
 this operation does not have to be normalized, the multiplication of two terms

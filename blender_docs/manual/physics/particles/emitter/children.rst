@@ -133,7 +133,6 @@ Kink
 
    From left to right: Curl, Radial, Wave, Braid, Spiral.
 
-
 With *Kink* you can rotate the children around the parent.
 See Fig. :ref:`fig-particle-child-kink` above picture for the different types of *Kink*.
 

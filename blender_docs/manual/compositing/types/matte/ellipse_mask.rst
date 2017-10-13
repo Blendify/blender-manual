@@ -9,7 +9,6 @@ Ellipse Mask Node
 
    Ellipse Mask Node.
 
-
 The *Ellipse Mask* node creates an image suitable for use as a simple matte or vignette mask.
 
 

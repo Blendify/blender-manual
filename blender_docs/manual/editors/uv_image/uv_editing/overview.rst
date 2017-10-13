@@ -36,7 +36,6 @@ location on the box. This is what the computer does with a 2D image in wrapping 
 
           Box mapped flat.
 
-
 During the UV unwrapping process, you tell Blender exactly how to map the faces of your object (in this case, a box)
 to a flat image in the UV/Image Editor. You have complete freedom in how to do this.
 (Continuing our previous example, imagine that, having initially laid the box flat on the tabletop,
@@ -70,7 +69,6 @@ We "fill in" spaces toward the poles, or change the outline of the map in any of
 
           Albers-equal Projection.
 
-
 Each of these is an example of a way to UV map a sphere.
 Each of the hundred or so commonly accepted projections has its advantages and disadvantages.
 Blender allows the same thing anyway we want to, on the computer.
@@ -90,7 +88,6 @@ Half-Sphere Example
    :width: 600px
 
    3D Space (XYZ) versus UV Space (click to enlarge).
-
 
 In this image you can easily see that the shape and size of the
 marked face in 3D space is different in UV space.

@@ -14,7 +14,6 @@ Bone Groups
 
    The Bone Groups panel.
 
-
 This panel allows the creation, deletion and editing of Bone Groups.
 The panel *Bone Groups* is available in the tab *Armature* of the Properties editor.
 

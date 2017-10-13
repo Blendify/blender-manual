@@ -22,7 +22,6 @@ In Object Mode
 
    Rotation around individual origins.
 
-
 The Origin of an object is shown in the 3D View by a small orange circle.
 This is highlighted in the image to the right by the red arrow.
 It tells Blender the relative position of that object in 3D space.
@@ -70,7 +69,6 @@ Using Individual Origins in Face mode produces the most predictable results.
 
           Rotation of grouped faces with the pivot point indicated by the image text.
 
-
 As can be seen in the images above, faces that touch each other will deform when rotated when
 the pivot point is set to Individual Origins.
 Faces that do not touch will rotate around their Individual Origins (their center).
@@ -87,7 +85,6 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 
           Scaling with touching faces.
 
-
 Groups of faces and Fgons can be scaled without their outside perimeter being deformed.
 However, the individual faces inside will not be scaled uniformly.
 
@@ -95,7 +92,6 @@ However, the individual faces inside will not be scaled uniformly.
    :width: 300px
 
    Modeling with faces and individual origins as the pivot point.
-
 
 Once you are aware of its limitations and pitfalls,
 this tool can save a lot of time and lead to unique shapes. This "anemone" was modeled from a

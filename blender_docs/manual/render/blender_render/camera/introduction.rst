@@ -60,7 +60,6 @@ Render Border
 
    Render Border toggle.
 
-
 While in camera view, you can define a subregion to render by drawing out a rectangle within the camera's frame.
 Your renders will now be limited to the part of scene visible within the render border.
 This can be very useful for reducing render times for quick previews on an area of interest.

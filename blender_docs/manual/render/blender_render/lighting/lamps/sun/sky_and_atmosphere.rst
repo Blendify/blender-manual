@@ -71,7 +71,6 @@ Turbidity
    with a big halo around the sun.
    Note that this parameter is one which can really modify the "intensity" of the sun lighting. See examples below.
 
-
 Here are its specific controls:
 
 Blending

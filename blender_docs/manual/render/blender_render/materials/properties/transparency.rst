@@ -21,7 +21,6 @@ and the color of the surface determines the final color of the pixel.
 
    Transparency Panel.
 
-
 In Blender, there are three ways in which the transparency of a material can be set:
 Mask, Z-Buffer and Ray-trace. Each of these is explained in more detail below.
 The :doc:`Material Preview </render/blender_render/materials/properties/preview>`
@@ -120,7 +119,6 @@ Options
 .. figure:: /images/material-raytrace_transp-panel.png
 
    The Transparency Panel.
-
 
 In addition to the common options given above, the following property controls are available:
 
@@ -227,7 +225,6 @@ Depth
    Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively.
    (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__.)
 
-
 Increasing *Depth* also considerably increases render time.
 Each time a light ray passes through a surface,
 the ray-tracing algorithm is called recursively. In the example above,
@@ -282,7 +279,6 @@ Transparent shadows
           :width: 320px
 
           As previous, distance increased to 2 (diameter of sphere).
-
 
 By default, the shadows of transparent objects are rendered solid black,
 as if the object was not transparent at all. But in reality,

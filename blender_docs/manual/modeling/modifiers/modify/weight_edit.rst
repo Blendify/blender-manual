@@ -159,7 +159,6 @@ you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
 
           Distance from vertices.
 
-
 Set the *Lowest Distance* to 0.2, and the *Highest Distance* to 2.0,
 to map back the computed distances into the regular weight range.
 
@@ -195,7 +194,6 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
    :width: 200px
 
    Vertices with a computed weight below 0.1 removed from the vertex group.
-
 
 You can also add a fifth Mask Modifier, and enable Vertex Weight Edit's *Group Remove* option,
 with a *Remove Threshold* of 0.1, to see the bottom of your valley disappear.

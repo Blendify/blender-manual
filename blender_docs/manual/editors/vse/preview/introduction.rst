@@ -36,7 +36,6 @@ to display the sequence in real time, and in various ways.
 The second button will change the editor to display only the preview,
 and the third button displays both the sequencer and the preview.
 
-
 Display Mode
    Mode to show different aspects of the composite result,
    for the current frame:
@@ -55,7 +54,6 @@ Channel
    (channel 0) or the frame from the strip (channels 1 through n).
 Overlay (ghost icon)
    Option to enable the overlay. It can be used for comparing the current frame to a reference frame.
-
 
    Frame
       The slider controls the offset of the reference frame relative to current frame.

@@ -12,7 +12,6 @@ textures representing the density, heat, and velocity of other fluids or suspend
 
    Example of smoke simulation.
 
-
 Smoke and fire are emitted into a :doc:`Domain </physics/smoke/types/domain>`
 from a mesh object or particle system. Smoke movement is controlled by airflow inside the domain,
 which can be influenced by :doc:`smoke collision objects </physics/smoke/types/collisions>`.

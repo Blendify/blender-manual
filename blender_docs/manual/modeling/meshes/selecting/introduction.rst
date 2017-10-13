@@ -28,7 +28,6 @@ Select Mode Header Widgets
 
    Edit Mode selection buttons.
 
-
 In *Edit Mode* there are three different selection modes.
 You can enter the different modes by selecting one of the three buttons in the header.
 
@@ -166,7 +165,6 @@ Enables a rectangular region for selection :kbd:`B`.
 
           Complete.
 
-
 In Fig. :ref:`fig-mesh-select-basics-start`, *Border Select* has been activated and is indicated by showing a
 dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
 the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
@@ -192,7 +190,6 @@ Enables a circular shaped region for selection :kbd:`C`.
           :width: 320px
 
           After.
-
 
 Fig. :ref:`fig-mesh-select-basic-circle` is an example of selecting edges while in *Edge Select Mode*.
 As soon as an edge intersects the circle the edge becomes selected.

@@ -10,7 +10,6 @@ The Vertex groups panel allows you to specify vertex groups to use for several c
 You can also negate the effect of each vertex group with the check boxes.
 You can affect the following attributes:
 
-
 Density
    Defines the "density" of the particle distribution.
 Length

@@ -59,7 +59,6 @@ or vertices, as long as they form one or more complete perimeters.
 
    Filled using fill.
 
-
 Note, unlike creating n-gons, *Fill* supports holes.
 
 .. list-table::

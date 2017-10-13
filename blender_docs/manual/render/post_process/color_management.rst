@@ -34,7 +34,6 @@ which corresponds more closely to nature, and makes computations more physically
 
    An example of a linear workflow.
 
-
 If the colors are linear, it means that if in reality, we double the number of photons,
 the color values are also doubled. Put another way,
 if we have two photos/renders each with one of two lights on, and add those images together,
@@ -167,7 +166,6 @@ Color Space
 .. figure:: /images/render_post_cm_image_settings.jpg
 
    Image settings for color management.
-
 
 By default only renders are displayed and saved with the render view transformations applied.
 These are the Render Result and Viewer image data-blocks,

@@ -22,7 +22,6 @@ Options
 
    Point Density panel.
 
-
 Point Data
    Particle System
       Particle System, Generate point density from a particle system.
@@ -57,7 +56,6 @@ Falloff
       Todo.
    Velocity Scale
       Todo.
-
 
 Falloff Curve
    Use a custom falloff.
@@ -114,7 +112,6 @@ Turbulence
 .. figure:: /images/render_blender-render_textures_volume_point-density-turbulence.png
 
    Turbulence panel.
-
 
 Adds directed noise to the density at render time.
 

@@ -43,7 +43,6 @@ There are other ways scripts in a blend-file may execute that require user
 interaction (therefore will run even when auto-execution is off),
 but you should be aware that this is the case since it is not necessarily obvious.
 
-
 - Running a script in the text editor.
 - Rendering with FreeStyle, because FreeStyle uses scripts to control line styles.
 - Running the Game Engine.

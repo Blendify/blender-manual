@@ -19,7 +19,6 @@ First, change your start and end frames to 1 and 150.
 
    The timeline.
 
-
 Then, add a plane, and scale it five times. Next, go to the physics tab, and add a collision.
 The default settings are fine for this example.
 
@@ -33,7 +32,6 @@ When finished, your scene should look like this:
    :width: 400px
 
    The scene, ready for softbody physics.
-
 
 Everything is ready to add the softbody physics.
 Go to :menuselection:`Properties --> Physics` and choose *Softbody*.
@@ -53,7 +51,6 @@ When finished, your physics panel should look like this:
    :width: 500px
 
    The physics settings.
-
 
 You can now bake the simulation, give the cube materials and textures and render the animation.
 

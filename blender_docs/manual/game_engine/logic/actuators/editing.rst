@@ -8,7 +8,6 @@ Actuator Editing
 
    Actuator Column with Typical Actuator.
 
-
 Blender actuators can be set up and edited in the right-hand column of the Logic Panel.
 This page describes the general column controls,
 and also those parameters which are common to all individual actuator types.
@@ -26,7 +25,6 @@ Column Heading
 
    Actuator Column Heading.
 
-
 The column headings contain controls to set which actuators, and the level of detail given,
 in the actuator column. This is very useful for hiding unnecessary actuators so that the
 necessary ones are visible and easier to reach. Both these can be controlled individually.
@@ -42,7 +40,6 @@ Show Actuators
    Expands all actuators.
 Hide Actuators
    Collapses all actuators to bars with their names.
-
 
 It is also possible to filter which actuators are viewed using the four heading buttons:
 
@@ -63,7 +60,6 @@ Object Heading
    :width: 292px
 
    Actuator Object Heading.
-
 
 In the column list, actuators are grouped by object. By default,
 actuators for every selected object appear in the list,

@@ -50,7 +50,6 @@ The weight of each vertex in the group controls how strongly it is pinned.
 
    Cloth Pinning.
 
-
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
 press the *Pinning of cloth* button in the *Cloth* panel and select which
 vertex group you want to use, and the stiffness you want it at.

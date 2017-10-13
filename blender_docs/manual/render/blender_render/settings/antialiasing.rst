@@ -57,7 +57,6 @@ Note that each pixel has an identical pattern.
 
           16 samples.
 
-
 Full Sample
    For every anti-aliasing sample, save the entire Render Layer results.
    This solves anti-aliasing issues with compositing.

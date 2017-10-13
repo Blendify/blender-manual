@@ -64,7 +64,6 @@ Use::
 
    if( expression, pulse_if_expression_is_true, pulse_if_expression_is_false )
 
-
 If the controller evaluates ``expression`` to True:
 
 - if ``pulse_if_expression_is_true`` is ``True``, the controller sends a positive pulse to the connected actuators.
@@ -85,7 +84,6 @@ Given the object has a property ``coins`` equal to 30::
 
 returns True (the controller sends a positive pulse to the connected actuators).
 
-
 Given the object has:
 
 - a sensor called ``Key_Inserted`` equal to True,
@@ -93,8 +91,7 @@ Given the object has:
 
 .. code-block:: python
 
-   Key_Inserted AND Fuel
-
+   Key_Inserted AND Fuel.
 
 returns False (the controller sends a negative pulse to the connected actuators).
 
@@ -102,11 +99,9 @@ This is the same as doing::
 
    if (Key_Inserted AND Fuel, True, False)
 
-
 Instead, you could do::
 
    if (Key_Inserted AND Fuel, False, True)
-
 
 to return a positive pulse when ``Key_Inserted AND Fuel`` returns False.
 

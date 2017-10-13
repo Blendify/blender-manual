@@ -72,7 +72,6 @@ Distance Metric
 
           Distance Squared (more contrast than Actual Distance).
 
-
 Feature Weights
    These four sliders at the bottom of the Voronoi panel represent the values of the four Worley constants,
    which are used to calculate the distances between each cell in the texture based on the distance metric.

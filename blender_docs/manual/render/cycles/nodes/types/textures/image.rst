@@ -9,7 +9,6 @@ Image Texture Node
 
    Image Texture Node.
 
-
 The *Image Texture* is used to add an image file as a texture.
 
 

@@ -28,7 +28,6 @@ Type
    These noise types determine the manner in which Blender layers successive copies of the same
    pattern on top of each other at varying contrasts and scales.
 
-
 Examples with Basis: Voronoi: F1, Dimension: 0.5, Lacunarity: 0.15, Octave: 2.0.
 
 .. list-table::
@@ -78,7 +77,6 @@ Octaves
    scaled/contrasted with the fractal dimension and lacunarity settings.
 Intensity
    Light intensity. Called *Offset* for *Hetero Terrain*.
-
 
 The *Hybrid Multifractal* and *Ridged Multifractal* types have these additional settings:
 

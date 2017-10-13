@@ -55,7 +55,6 @@ You can download the latest version of Blender `here <https://www.blender.org/do
 
    A rendered image being post-processed.
 
-
 Blender makes it possible to perform a wide range of tasks, and it may seem daunting when first
 trying to grasp the basics. However, with a bit of motivation and the right learning material,
 it is possible to familiarize yourself with Blender after a few hours of practice.

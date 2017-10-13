@@ -17,7 +17,6 @@ Scripted Expression
 
    Info Header.
 
-
 By default Blender will not autorun Python scripts.
 
 If using a *Scripted Expression* Driver Type, you will have to open the file as *Trusted Source*,

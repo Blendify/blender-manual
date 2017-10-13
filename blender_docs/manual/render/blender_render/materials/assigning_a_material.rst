@@ -28,13 +28,11 @@ You can create a new material for the object by:
 - In the Properties editor, click on the object button.
 - Click on the Materials button in the Properties editor header (1).
 
-
 The Shading panel then appears. This contains the following elements:
 
 .. figure:: /images/materials_creating.jpg
 
    Add new material.
-
 
 - Context: The currently-selected scene and object
 - Object Material Slots (3): this panel shows the "slots"
@@ -47,7 +45,6 @@ This action has a series of effects:
 .. figure:: /images/render_blender-render_materials_assigning_material-panel-object-mode.png
 
    Materials Panel with New Entry.
-
 
 #. Opens the new material in the Active Material box.
 #. Brings up additional buttons in the immediate panel.
@@ -153,7 +150,6 @@ different materials to the individual faces of the object.
 
    Add new material.
 
-
 To apply several materials to different faces of the same object,
 you use the Material Slots options (3) in the Materials header panel.
 
@@ -161,10 +157,8 @@ you use the Material Slots options (3) in the Materials header panel.
 
    Material menu in edit mode.
 
-
 The workflow for applying a second material to some faces of an object covered by a base
 material is as follows:
-
 
 #. In Object Mode, apply the base material to the whole object
    (as shown in :doc:`Assigning a material </render/blender_render/materials/assigning_a_material>`)
@@ -175,7 +169,6 @@ material is as follows:
 #. In the Object Material Slots box (3), click the :kbd:`Plus` to create a new slot, and while this is still active,
    click on the second material in the Available Materials list.
 #. Click the Assign button, and the second material will appear on the selected object faces.
-
 
 You can also make this new material a copy of an existing material by adding the data-block:
 

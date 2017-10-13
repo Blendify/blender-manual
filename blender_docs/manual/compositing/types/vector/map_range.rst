@@ -9,7 +9,6 @@ Map Range Node
 
    Map Range Node.
 
-
 This node allows to convert (map) an input value range into a destination range.
 By default, values outside the specified input range will be proportionally mapped as well.
 This node is similar to *Map Value* node but provides a more intuitive way to specify the desired output range.

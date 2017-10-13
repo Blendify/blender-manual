@@ -17,7 +17,6 @@ Noise
    The key advantages of the modifier are that it can be canceled at any moment,
    you can precisely control how much and in which direction the displacement is applied, and much more...
 
-
 The *Noise* function allows you to displace vertices in a mesh based on the gray
 values of the first texture slot of the material applied to the mesh.
 

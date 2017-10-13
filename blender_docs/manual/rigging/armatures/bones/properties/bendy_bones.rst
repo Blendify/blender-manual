@@ -78,7 +78,6 @@ Example
 
      - ..
 
-
 In Fig. :ref:`fig-rig-bone-intro-bbone` we connected three bones,
 each one made of five segments.
 

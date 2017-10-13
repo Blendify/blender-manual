@@ -29,7 +29,6 @@ Direct and Indirect Lighting:
 
           Direct and Indirect Lighting Render.
 
-
 Indirect Lighting only works with Approximate gather method.
 
 .. figure:: /images/lighting-inderect_lighting.png

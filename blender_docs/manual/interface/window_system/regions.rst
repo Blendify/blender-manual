@@ -13,7 +13,6 @@ Main Region
 At least one region is always visible.
 It is called the main region and is the most prominent part of the editor.
 
-
 Each editor has a specific purpose, so the main region and
 the availability of additional regions are different between editors.
 See specific documentation about each editor in the
@@ -35,7 +34,6 @@ the selected object and mode.
 .. figure:: /images/modeling_meshes_introduction_3d-view-header-object-mode.png
 
    The Header of the 3D View editor.
-
 
 If you move the mouse over an area,
 the header of its editor changes to a slightly lighter shade of gray.

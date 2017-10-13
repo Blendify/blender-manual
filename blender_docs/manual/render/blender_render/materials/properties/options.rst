@@ -7,7 +7,6 @@ Options
 
    Material Options panel.
 
-
 This panel provides a series of control options concerning how objects using this material
 will appear in the rendered image. All controls are default "Off" unless otherwise stated.
 

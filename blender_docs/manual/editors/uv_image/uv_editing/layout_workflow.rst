@@ -34,7 +34,6 @@ Combining UV Maps
 
    Bad unwrap, note ear and neck.
 
-
 Very often you will unwrap an object, such as the face example we have been using,
 and get it "mostly right" but with parts of the mesh that did not unwrap properly,
 or are horribly confusing. The picture to the right shows an initial unwrap of the face using
@@ -44,7 +43,6 @@ and the neck, it is stretched and folded under. Too much work to clean up.
 .. figure:: /images/editors_uv-image_uv-editing_combining-uv-maps-2.png
 
    Unwrap face only, without ear or neck.
-
 
 We can tell that the ear would unwrap nicely with just a straightforward projection from the
 side view, and the neck with a tubular unwrap. So,
@@ -57,7 +55,6 @@ rotate them somewhat to fit logically within the image area of the UV/Image Edit
 .. figure:: /images/editors_uv-image_uv-editing_combining-uv-maps-3.png
 
    Unwrap ear only, using the *Project From View*.
-
 
 Once we are satisfied with the face, it is time to turn our attention to the ear. First, unselect
 the faces you were working with. Their UVs will disappear from the UV/Image Editor, but they are still there,
@@ -86,7 +83,6 @@ to construct the entire UV Map as a single map.
 .. figure:: /images/editors_uv-image_uv-editing_combining-uv-maps-4.png
 
    UV Maps arranged together and stitched.
-
 
 When you have completed arranging and stitching, you will end up with a consolidated UV Map,
 like that shown to the right, arranged such that a single image will cover, or paint,

@@ -12,9 +12,7 @@ Sensor Common Options
 
    Common Sensor Options.
 
-
 All sensors have a set of common buttons, fields and menus. They are organized as follows:
-
 
 Triangle button
    Collapses the sensor information to a single line (toggle).
@@ -40,7 +38,6 @@ X button
    the sensor triggers the connected controllers.
    A sensor triggers a connected controller as well when the sensor changes from deactivation to
    activation.
-
 
 The following parameters specifies how the sensor triggers connected controllers:
 
@@ -95,7 +92,6 @@ Freq
      - 59
      - 30
      - 1
-
 
 *Level* Button
    Triggers connected controllers when state (of the build-in state machine) changes.

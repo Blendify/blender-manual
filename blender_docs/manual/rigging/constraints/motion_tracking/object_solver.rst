@@ -30,7 +30,6 @@ Options
 
    Object Solver Constraint panel.
 
-
 Active Clip
    Receive tracking data from the active movie clip in the movie clip editor.
    If unchecked, an option appears to choose from the other clips.

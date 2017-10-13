@@ -41,7 +41,6 @@ Setup
 
    A monkey head and a circle.
 
-
 All you need is a base object (e.g. the *tree* or the *column*)
 and a pattern mesh with its vertices following the pattern you have in mind. In this section,
 we will use a simple scene for the following part. We will be using a monkey head located at
@@ -51,7 +50,6 @@ our parent mesh.
 .. figure:: /images/dupliverts-example01-2dupliverted.png
 
    Dupliverted monkeys.
-
 
 First, in *Object Mode*,
 select the base object and :kbd:`Shift-RMB` to add the circle to the selection
@@ -146,7 +144,6 @@ was adapted to the vertex normals of the parent mesh
      - .. figure:: /images/dupliverts-example02-3rot.jpg
 
           Rotation enabled to align duplicates.
-
 
 As in the previous example, the shape and proportions of the arrangement can now be tweaked.
 

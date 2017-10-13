@@ -37,7 +37,6 @@ Dome Type
    This menu allows you to select which type of dome camera to use.
    They are outlined below, along with their respective settings.
 
-
 - `Fisheye Mode`_
 - `Front-Truncated Dome Mode`_
 - `Rear-Truncated Dome Mode`_
@@ -141,7 +140,6 @@ For more information on the mesh format see `Paul Bourke's article <http://paulb
 
 .. figure:: /images/bge_dome-warped.jpg
 
-
 In order to produce those images, we are using a specific file format.
 
 File template:
@@ -167,7 +165,6 @@ texture coordinates *i* a multiplicative intensity factor.
 
 *x* varies from -screen aspect to screen aspect varies from -1 to 1 *u* and *v* vary from 0 to 1.
 *i* ranges from 0 to 1, if negative do not draw that mesh node.
-
 
 #. You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.
 #. Open the Text Editor :menuselection:`Editor Types --> Text Editor`.

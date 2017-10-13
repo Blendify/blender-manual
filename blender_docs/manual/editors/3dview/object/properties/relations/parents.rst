@@ -103,7 +103,6 @@ Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with no parenting
 
    Scene with no parenting.
 
-
 If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the
 *Set Parent To* pop-up menu.
@@ -117,7 +116,6 @@ Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the l
 
    The monkey is the child object of "EmptyA".
 
-
 If you select only the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from
 the *Set Parent To* pop-up menu.
@@ -127,7 +125,6 @@ Notice that when you change the parent of the Monkey the scale of the Monkey cha
 .. figure:: /images/editors_3dview_object_properties_relations_parents_keep-transform-c.png
 
    The monkey is the child object of "EmptyB".
-
 
 This happens because the Monkey object never had its scale altered directly,
 the change came about because it was the child of "EmptyA" which had its scale altered.
@@ -264,7 +261,6 @@ The nearest vertices will be used from each object which is typically what you w
    B) Reshaping the object in edit mode then means each of the cubes follows their vertex parent separately.
    C) Re-scaling the parent icosphere in object mode means the child cubes are also rescaled as expected.
 
-
 The parent context menu item means users can rapidly set up a large number of vertex parent
 relationships,
 and avoid the tedious effort of establishing each parent-child vertex relationship separately.
@@ -327,7 +323,6 @@ Hints
 .. figure:: /images/editors_3dview_object_properties_relations_parents_outliner-view.png
 
    Outliner view.
-
 
 There is another way to see the parent-child relationship in groups and that is to use the *Outliner* view
 of the :doc:`Outliner editor </editors/outliner>`. Fig. :ref:`fig-view3d-parent-outliner`

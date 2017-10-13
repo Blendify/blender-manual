@@ -26,7 +26,6 @@ and set *Frames* to something more reasonable than 100 (say 16).
 
    Settings for the object.
 
-
 Add a *Monkey*. In the *Object* menu under *Duplication* enable *Frames* and disable *Speed*.
 
 .. note:: Speed

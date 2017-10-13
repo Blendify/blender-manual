@@ -47,7 +47,6 @@ Origin
       is a child of the deformed object, this creates a cyclic dependency in Blender's data system.
       The workaround is to create a new empty and parent both objects to it.
 
-
 Angle/Factor
    The amount of deformation. Can be negative to reverse the deformation.
 

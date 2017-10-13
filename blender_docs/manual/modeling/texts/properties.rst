@@ -57,7 +57,6 @@ Texture Space
 
    Texture Settings.
 
-
 Use UV for Mapping
    Use UV values as generated texture coordinates.
 Auto Texture Space
@@ -112,7 +111,6 @@ Loading and Changing Fonts
 
    Loading a Type 1 font file.
 
-
 Blender comes with a *built-in* font by default and is displayed in
 each of the four font style data-block menus .
 The *built-in* font is always present and shows in this list as "Bfont".
@@ -129,7 +127,6 @@ as seen in *Loading a Type 1 font file.*
    Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``,
    but not always. They may be in other locations as well,
    such as ``/usr/share/local`` or ``/usr/local/share``, and possibly related sub-trees.
-
 
 If you select a font that Blender cannot understand,
 you will get the error ``Not a valid font``.
@@ -344,7 +341,6 @@ Text Boxes
 
    Text frame.
 
-
 Text "Boxes" allow you to distribute the text amongst rectangular areas within a single text object.
 An arbitrary number of freely positionable and re-sizable text frames are allowed per text object.
 
@@ -381,7 +377,6 @@ In order for the frame to become visible, the frame's *Width* must be greater th
 
    Frame width.
 
-
 Fig. :ref:`fig-texts-edit-frame` is a text object with a width of 5.0.
 And because the frame width is greater than 0.0
 it is now visible and is drawn in the active theme color as a dashed rectangle.
@@ -412,7 +407,6 @@ Text Flow
 
    Wrapping.
 
-
 With two or more frames you can organize text to a finer degree. For example,
 create a text object and enter "Blender is super duper".
 This text object has a frame; it just is not visible because its *Width* is 0.0.
@@ -426,7 +420,6 @@ which just happens to be the default/initial frame.
    :width: 300px
 
    Text flowing from box 1 to box 2.
-
 
 When we add another frame and set its width and height, the text will flow into the new frame.
 

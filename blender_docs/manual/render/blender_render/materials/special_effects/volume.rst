@@ -9,7 +9,6 @@ Volume Rendering
 
    Activating Volume rendering.
 
-
 Volume rendering is a method for rendering light as it passes through participating media,
 within a 3D region. The implementation in Blender a physically based model,
 which represents the various interactions of light in a volume relatively realistically.
@@ -43,7 +42,6 @@ Density
 
    Constant density vs textured density.
 
-
 Many things can happen to the light as it passes through the volume,
 which will influence the final color that arrives at the camera.
 These represent physical interactions that happen in the real world,
@@ -65,7 +63,6 @@ Shading
 .. figure:: /images/render_blender-render_materials_volume_scattering1.jpg
 
    Spot lamp scattering in a constant volume.
-
 
 When light enters a volume from an external source, it does not just pass straight through.
 Light gets scattered off tiny particles in the volume,
@@ -117,7 +114,6 @@ Asymmetry
 
    Isotropic and Anisotropic scattering.
 
-
 The default method for scattering light in a volume is for the light to be deflected evenly in
 all directions, also known as Isotropic scattering.
 In real life different types of media can scatter light in different angular directions,
@@ -142,7 +138,6 @@ This transmitted light can be the result of various different interactions, for 
 
 Here, the transmission color is used to set the end result color
 that light becomes after it is transmitted through the volume.
-
 
 Transmission Color
    The resultant color of light that is transmitted through the volume.
@@ -296,7 +291,6 @@ Lighting
 
    Lighting options.
 
-
 Several shading modes are available,
 providing a range of options between fast to render and physically accurate.
 
@@ -347,7 +341,6 @@ Integration
 .. figure:: /images/materials-volumerender-options-integration.jpg
 
    Integration options.
-
 
 Step Calculation Method
    Method of calculating the step through the volume.
@@ -445,7 +438,6 @@ turn up the Emission Value in the Materials panel.
    :width: 300px
 
    The Fire material.
-
 
 Then, add another texture (keep the old texture or the smoke will not show).
 Give it a fiery color ramp- which colors based on the alpha,

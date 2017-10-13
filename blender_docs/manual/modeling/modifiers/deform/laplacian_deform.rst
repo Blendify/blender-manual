@@ -11,7 +11,6 @@ The user defines a set of 'anchor' vertices, and then moves some of them around.
 The modifier keeps the rest of the anchor vertices in fixed positions, and calculates the best
 possible locations of all the remaining vertices to preserve the original geometric details.
 
-
 This modifier captures the geometric details with the uses of differential coordinates. The
 differential coordinates captures the local geometric information how curvature and direction
 of a vertex based on its neighbors.

@@ -19,7 +19,6 @@ Workflow
 
 In general, you follow these steps:
 
-
 #. First you want to set the
    :doc:`simulation domain </physics/fluid/types/domain>`,
 #. Next set the

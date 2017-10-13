@@ -93,7 +93,6 @@ Options
 
    Mirror Options.
 
-
 Mirror Weights
    Mirrors the weights of the active group to the other side. Note, this only affects the active weight group.
 Flip Group Names
@@ -121,7 +120,6 @@ Invert
 .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_invert.jpg
 
    Invert.
-
 
 Replaces each Weight of the selected weight group by × -1.0 weight.
 
@@ -159,7 +157,6 @@ Clean
 .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_clean.jpg
 
    Invert.
-
 
 Removes weights below a given threshold.
 This tool is useful for clearing your weight groups of very low (or zero-) weights.
@@ -205,7 +202,6 @@ Levels
 
    Invert.
 
-
 Adds an offset and a scale to all weights of the selected Weight Groups.
 with this tool you can raise or lower the overall "heat" of the weight group.
 
@@ -245,7 +241,6 @@ This tool only works in vertex select mode.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_smooth_ex1.png
 
-
 To understand what the tool really does, let us take a look at a simple example.
 The selected vertex is connected to four adjacent vertices
 (marked with a gray circle in the image). All adjacent vertices are unselected.
@@ -261,7 +256,6 @@ This value is multiplied by the factor given in the Operator options (see below)
 - Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_smooth_ex2.png
-
 
 Now let us see what happens when we select all but one of the neighbors of the selected vertex as
 well. Again all connected and unselected vertices are marked with a gray circle.
@@ -285,7 +279,6 @@ then we see different results for each of the selected vertices:
   (it was already blue before Smooth was applied).
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_wtools_smooth_ex3.png
-
 
 Finally let us look at a practical example.
 The middle edge loop has been selected
@@ -423,7 +416,6 @@ Weight Gradient
    :width: 200px
 
    Example of the gradient tool being used with selected vertices.
-
 
 This is an interactive tool for applying a linear/radial weight gradient;
 this is useful at times when painting gradual changes in weight becomes difficult.

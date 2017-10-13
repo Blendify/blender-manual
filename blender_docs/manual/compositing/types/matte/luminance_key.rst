@@ -73,7 +73,6 @@ her white outline is usable as an alpha mask now.
 
    Using Luma Key with a twist.
 
-
 Now to mix, we do not really need the *Alpha Over* node;
 we can just use the mask as our Factor input. In this kinda weird case,
 we can use the matte directly; we just switch the input nodes. As you can see,

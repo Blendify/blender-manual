@@ -45,7 +45,6 @@ In Edit Mode
 Using the active element as a pivot point in *Edit Mode* may seem complex but all
 the possible transformations follow a few rules:
 
-
 - The pivot point is always at the median of the active element(s).
 - The transformations occur by transformation of the *vertices* of the selected element(s).
   If an unselected element shares one or more vertices with a selected element
@@ -66,7 +65,6 @@ transformed.
 
    Edit Mode and only one element selected.
 
-
 Let us review each case:
 
 - *Faces* have their pivot point where their selection dot appears, which is where the median of their vertices is.
@@ -86,7 +84,6 @@ the selected elements have been rotated.
 .. figure:: /images/editors_3dview_object_transform-control_pivot-point_active-element_edit-mode-multiple.png
 
    Edit Mode and multiple selections.
-
 
 - For *Faces* the transformation occurs around the selection dot of the active face.
 - *Edges* also keep the same behavior with their pivot point at their median.

@@ -68,7 +68,6 @@ Lambert
 
    Lambert Shader.
 
-
 This is Blender's default diffuse shader, and is a good general all-around workhorse for
 materials showing low levels of specular reflection.
 
@@ -99,7 +98,6 @@ Oren-Nayar
    :width: 320px
 
    Oren-Nayar Shader.
-
 
 Oren-Nayar takes a somewhat more 'physical' approach to the diffusion phenomena as it takes
 into account the amount of microscopic roughness of the surface.
@@ -140,7 +138,6 @@ Toon
 
           Toon Shader Variations.
 
-
 The Toon shader is a very 'un-physical' shader in that it is not meant to fake reality,
 but to produce cartoon cel styled rendering,
 with clear boundaries between light and shadow and uniformly lit/shadowed regions.
@@ -173,7 +170,6 @@ Minnaert
    :width: 320px
 
    Minnaert Shader.
-
 
 Minnaert works by darkening parts of the standard Lambertian shader,
 so if *Dark* is 1 you get exactly the Lambertian result.
@@ -216,7 +212,6 @@ Fresnel
 
           Fresnel Shader, Different Spec.
 
-
 With a Fresnel shader the amount of diffuse reflected light depends on the incidence angle,
 i.e. from the direction of the light source.
 Areas pointing directly towards the light source appear darker;
@@ -253,7 +248,6 @@ Tangent Shading
    .. seealso::
 
       Settings for strand rendering in the menu further down and in the Particle System menu.
-
 
 Cubic Interpolation
    Use cubic interpolation for diffuse values, for smoother transitions between light areas and dark areas.

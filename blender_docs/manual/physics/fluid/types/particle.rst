@@ -9,7 +9,6 @@ Fluid Particle
 
    Fluid particle settings.
 
-
 This type can be used to display particles created during the simulation.
 For now only tracers swimming along with the fluid are supported.
 

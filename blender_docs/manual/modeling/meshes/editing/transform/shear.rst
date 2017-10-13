@@ -46,7 +46,6 @@ See below for the result of using *Shear* on a number of different elements.
    The effects of a Shear transform with different Pivot Points.
    See the text below for additional information.
 
-
 The three frames of the image above show the effects of shearing on the selected vertices when
 the pivot point is altered.
 In frame B, the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`
@@ -66,7 +65,6 @@ the *Pivot Point* is set to the 3D cursor which is located above the mesh
 
    The effects of a Shear transform on Objects with different Pivot Points.
    See the text below for additional information.
-
 
 The three frames of the image above show the effects of shearing on the selected Objects when
 the *Pivot Point* is altered. In frame B,

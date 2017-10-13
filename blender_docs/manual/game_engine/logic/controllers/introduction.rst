@@ -22,7 +22,6 @@ Controller Types
 There are eight types of controller logic brick to carry out the logic process on the input
 signal(s): these are described in the separate pages shown below:
 
-
 - :doc:`AND </game_engine/logic/controllers/types/and>`
 - :doc:`OR </game_engine/logic/controllers/types/or>`
 - :doc:`XOR </game_engine/logic/controllers/types/xor>`

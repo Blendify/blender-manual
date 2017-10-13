@@ -96,7 +96,6 @@ defined in the Frame Range of the Dimensions panel,
    **will not** stop your capture automatically.
    You will always have to stop the Screencast manually, using the Stop button.
 
-
 The Videos are generated internally in the same manner as the *Screenshots*,
 using the width and height of the Window you are working in.
 If you choose to capture to a Video file,

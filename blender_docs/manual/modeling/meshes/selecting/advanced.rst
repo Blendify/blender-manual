@@ -216,7 +216,6 @@ or the *Edge Loop Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
    Longitudinal and latitudinal edge loops.
 
-
 The left sphere shows an edge that was selected longitudinally. Notice how the loop is open.
 This is because the algorithm hit the vertices at the poles and terminated because the
 vertices at the pole connect to more than four edges. However,
@@ -244,7 +243,6 @@ which selects the face loop implicitly.
 
    Face loop selection.
 
-
 This face loop was selected by clicking with :kbd:`Alt-RMB` on an edge,
 in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
@@ -252,7 +250,6 @@ The loop extends perpendicular from the edge that was selected.
 .. figure:: /images/modeling_meshes_selection_face-loops-vertex.png
 
    :kbd:`Alt` versus :kbd:`Ctrl-Alt` in vertex select mode.
-
 
 A face loop can also be selected in *Vertex* select mode.
 Technically :kbd:`Ctrl-Alt-RMB` will select an *Edge Ring*,
@@ -304,7 +301,6 @@ or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
    A selected edge loop, and a selected edge ring.
 
-
 In Fig. :ref:`fig-mesh-select-advanced-loop-ring` the same edge was clicked on,
 but two different "groups of edges" were selected, based on the different tools.
 One is based on edges during computation and the other is based on faces.
@@ -323,7 +319,6 @@ Shortest Path
 .. figure:: /images/modeling_meshes_selection_shortest-path.png
 
    Select a face or vertex path with :kbd:`Ctrl-RMB`.
-
 
 Selects all geometry along the shortest path from the active
 vertex/edge/face to the one which was selected.

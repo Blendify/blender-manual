@@ -7,7 +7,6 @@ Noise
 
    Noise Texture Panel.
 
-
 Although this looks great, it is not Perlin Noise! This is a true, randomly generated Noise.
 This gives a different result every time, for every frame, for every pixel.
 

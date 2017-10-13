@@ -49,7 +49,6 @@ Shadows
 
    Shadow panel set to Ray Shadow.
 
-
 Spotlights can use either ray-traced shadows or buffered shadows.
 Either of the two can provide various extra options.
 Ray-traced shadows are generally more accurate,
@@ -115,7 +114,6 @@ Blend
       :width: 400px
 
       Render showing the soft edge spotlighted area and the sharp/hard object shadow.
-
 
    Notice in the picture above that the object's shadow is sharp as a result of the ray tracing,
    whereas the spotlight edges are soft.

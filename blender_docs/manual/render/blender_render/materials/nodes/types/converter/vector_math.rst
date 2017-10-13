@@ -8,7 +8,6 @@ Vector Math Node
 
    Vector Math node.
 
-
 This node performs vector math operation.
 
 

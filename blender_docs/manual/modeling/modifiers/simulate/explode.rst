@@ -33,7 +33,6 @@ Options
 
    Explode Modifier panel with Particle System Modifier above it.
 
-
 Vertex group
    Vertices in this group may not be affected by the Explode Modifier.
    Vertices with full weight are not affected at all,

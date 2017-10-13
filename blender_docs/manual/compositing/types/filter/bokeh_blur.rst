@@ -72,7 +72,6 @@ so that a blur value greater than one is used for objects outside the focal rang
 .. figure:: /images/compositing_node_filter_bokehblur_example.jpg
    :width: 100%
 
-
 A manually created grayscale image can be used to define the sharp and blurry areas of a pre-existing image.
 Again, a Multiply Node can be used so that a blur value greater than one is used.
 

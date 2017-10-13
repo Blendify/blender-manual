@@ -103,14 +103,12 @@ By default, children bones inherit:
 
           Scaling of a root bone.
 
-
 Exactly like standard children objects. You can modify this behavior on a per-bone basis,
 using the Relations panel in the *Bones* tab:
 
 .. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
 
    Relations panel in Pose Mode.
-
 
 Inherit Rotation
    When disabled, this will "break" the rotation relationship to the bone's parent.
@@ -141,7 +139,6 @@ all its descendants* will no longer be affected when you scale one of its ancest
 
           Scaling of a bone with an Inherit Rotation disabled bone among its descendants.
 
-
 Connected bones have another specificity: they cannot be translated. Indeed,
 as their root must be at their parent's tip, if you do not move the parent,
 you cannot move the child's root, but only its tip, which leads to a child rotation.
@@ -160,7 +157,6 @@ however, this should give a good idea of the problem:
    :width: 320px
 
    Scaling bones, some of them related.
-
 
 - When several bones of the same "family" are selected,
   *only* the "most parent" ones are really transformed --

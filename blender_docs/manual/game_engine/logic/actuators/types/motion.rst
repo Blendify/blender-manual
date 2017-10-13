@@ -13,7 +13,6 @@ Properties
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
-
 Motion Type
    Determines the type of motion:
 
@@ -79,7 +78,6 @@ actuator setting a different target velocity.
    :width: 271px
 
    Servo Control.
-
 
 Reference Object
    Specifies the object which the actuator uses as a reference for the

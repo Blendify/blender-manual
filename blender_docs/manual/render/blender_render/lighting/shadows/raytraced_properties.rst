@@ -51,7 +51,6 @@ Soft Size
    otherwise this field has no visible effect and the shadows generated will not have a soft edge.
    The maximum value for *Soft Size* is 100.0.
 
-
    Below is a table of renders with different *Soft Size* and *Samples* settings showing the
    effect of various values on the softness of shadow edges:
 

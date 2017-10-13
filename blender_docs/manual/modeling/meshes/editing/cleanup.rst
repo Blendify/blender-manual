@@ -113,7 +113,6 @@ Degenerate Dissolve
 
 This tool collapses / removes geometry which you typically will not want.
 
-
 - Edges with no length.
 - Faces with no areas (faces on a point or thin faces).
 - Face corners with no area.

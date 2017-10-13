@@ -24,7 +24,6 @@ Run ``make.bat`` in the ``C:\blender_docs`` folder.
 
       make
 
-
 The building process may take several minutes the first time (or after any major changes),
 but the next time you build it should only take a few seconds.
 

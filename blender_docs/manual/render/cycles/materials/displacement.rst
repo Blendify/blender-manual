@@ -56,7 +56,6 @@ True Displacement
 
    Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
 
-
 Different from bump mapping, *True Displacement* is not a fake effect.
 When using *True Displacement* the actual mesh geometry will be displaced before render.
 This gives the best quality results, if the mesh is finely subdivided.
@@ -88,7 +87,6 @@ In the example below is a node setup to give the same settings as the *Displace 
 .. figure:: /images/render_cycles_displace-true_controls.png
 
    Math nodes used to add Mid-level and Strength.
-
 
 In the example above a math node is used twice, the first math node uses the add operator.
 This operation can be used to control the mid-level of the displacement.

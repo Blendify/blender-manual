@@ -195,7 +195,6 @@ These settings determine the accurateness of the simulation.
 
    Soft Body Solver Settings.
 
-
 Min Step
    Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
 

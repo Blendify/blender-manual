@@ -35,7 +35,6 @@ Transform
 
    The Transform panel (edit mode).
 
-
 When in edit mode you can use this panel to control position and roll of individual bones.
 
 When in pose mode you can only set location for the main bone, and you can now set rotation and scale.
@@ -70,7 +69,6 @@ Inverse Kinematics
 .. figure:: /images/rigging_armatures_bones_properties_inverse-kinematics-panel.png
 
    The Inverse Kinematics panel.
-
 
 This panel controls the way a bone or set of bones behave when linked in an inverse kinematic chain.
 
