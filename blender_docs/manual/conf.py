@@ -479,3 +479,18 @@ epub_show_urls = 'no'
 # If false, no index is generated.
 #
 # epub_use_index = True
+
+# ------------------------------------------
+# Monkey Patch, without this 'zh-hant' fails
+#
+# See: https://lists.blender.org/pipermail/bf-docboard/2017-October/005259.html
+
+def monkey_patch_babl_locale_dash():
+    try:
+        from sphinx.util.i18n import CatalogInfo
+    except ImportError:
+        return
+    CatalogInfo._write_mo_real = CatalogInfo.write_mo
+    CatalogInfo.write_mo = lambda self, locale: CatalogInfo._write_mo_real(self, locale.replace('-', '_'))
+
+monkey_patch_babl_locale_dash()
