@@ -59,12 +59,16 @@ see :doc:`next page </rigging/armatures/bones/editing/templating>`),
 so all black points represents future bones' joints.
 There are two types of segments, which can be mixed together:
 
+.. _fig-stroke-example:
+
 .. figure:: /images/rigging_armatures_editing_sketching_strokes-example.png
 
-   Strokes example. From top to bottom:
-   A selected polygonal stroke of four straight segments, oriented from left to right.
-   An unselected free stroke of two segments, oriented from left to right.
-   A mixed stroke, with one straight segment between two free ones, right to left.
+   Strokes example.
+
+   | From top to bottom:
+   | A selected polygonal stroke of four straight segments, oriented from left to right.
+   | An unselected free stroke of two segments, oriented from left to right.
+   | A mixed stroke, with one straight segment between two free ones, right to left.
 
 
 Straight Segments
@@ -77,8 +81,7 @@ Click :kbd:`LMB` again to finalize it.
 Each straight segment of a stroke will always create one and only one bone,
 whatever convert algorithm you use (except for the *Template* conversion method).
 
-.. list-table::
-   Drawing straight segments example.
+.. list-table:: Drawing straight segments example.
 
    * - .. figure:: /images/rigging_armatures_editing_sketching_poly-stroke-1.png
 
@@ -111,8 +114,7 @@ setting as the :doc:`grease pencil tool </interface/grease_pencil/introduction>`
 to control where and when to add a new point to the segment. So if you feel your free segments are too detailed,
 raise this value a bit, and if you find them too jagged, lower it.
 
-.. list-table::
-   Drawing free segments example.
+.. list-table:: Drawing free segments example.
 
    * - .. figure:: /images/rigging_armatures_editing_sketching_free-stroke-1.png
 
@@ -141,7 +143,7 @@ Selecting Strokes
 =================
 
 A stroke can be selected (materialized by a solid red-to-white line), or not
-(shown as an orange-to-white line) - see (Strokes example) above. As usual,
+(shown as an orange-to-white line) - see :ref:`fig-stroke-example` above. As usual,
 you select a stroke by clicking :kbd:`RMB` on it,
 you add one to/remove one from the current selection with a :kbd:`Shift-RMB` click,
 and :kbd:`A` (de)selects all strokes...
@@ -170,8 +172,7 @@ not just the selected ones... Note also that even if it is enabled,
 when you draw too far away from any other existing stroke, you will not modify any of them,
 but rather create a new one, as if *Overdraw Sketching* was disabled.
 
-.. list-table::
-   Adjusting stroke example.
+.. list-table:: Adjusting stroke example.
 
    * - .. figure:: /images/rigging_armatures_editing_sketching_adjusting-stroke-1.png
           :width: 350px

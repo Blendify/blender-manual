@@ -78,8 +78,8 @@ holding :kbd:`Ctrl` will cause your selection to move by increments of 1 Blender
 lines will now cause :kbd:`Ctrl` movements to occur by 1/10 of a BU. Zooming in further
 until the next set of gray lines becomes visible will cause movement to happen by 1/100 of a
 BU and so on until the zoom limit is reached.
-Zooming out will have the opposite effect and cause movement to happen by increments of 10,
-100 etc BU.
+Zooming out will have the opposite effect and cause movement to happen by increments of
+10 BU, 100 BU, etc.
 
 .. seealso::
 

@@ -58,7 +58,7 @@ Rotate
 
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
-or roll and involves changing the orientation of elements (vertices, edge, face, Object etc)
+or roll and involves changing the orientation of elements (vertices, edge, face, object, etc.)
 around one or more axes or
 the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`.
 

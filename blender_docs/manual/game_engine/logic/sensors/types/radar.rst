@@ -16,7 +16,7 @@ This sensor is useful for giving bots sight only in front of them, for example.
 
 .. note::
 
-   #. The Radar sensor can detect objects "through" other objects (walls etc).
+   #. The Radar sensor can detect objects "through" other objects (walls, etc.).
    #. Objects must have "Actor" enabled to be detected.
 
 .. figure:: /images/bge_sensor_radar.png

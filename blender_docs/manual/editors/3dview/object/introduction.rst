@@ -19,8 +19,8 @@ Object
 Object Data
    Holds everything else. For example:
 
-   :Meshes: Store geometry, material list, vertex groups... etc.
-   :Cameras: Store focal length, depth of field, sensor size... etc.
+   :Meshes: Store geometry, material list, vertex groups, etc.
+   :Cameras: Store focal length, depth of field, sensor size, etc.
 
    Each object has a link to its associated :ref:`object-data <properties-data-tabs>`,
    and a single object-data may be shared by many objects.

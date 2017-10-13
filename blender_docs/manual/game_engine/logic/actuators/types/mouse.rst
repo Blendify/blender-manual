@@ -55,7 +55,7 @@ Use X axis, Y axis
 Sensitivity
    The target linear velocity, in each of the three axes, which the object will try and achieve.
 Threshold
-   Coordinates specified are Global (gray) or Local (White).
+   Coordinates specified are Global (gray) or Local (white).
 Min
    Sets maximum and minimum limits for the force applied to the object.
    If disabled (i.e. X,Y or Z buttons are gray) the force applied is unlimited.

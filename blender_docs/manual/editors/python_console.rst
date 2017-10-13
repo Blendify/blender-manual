@@ -18,7 +18,7 @@ Introduction
 Accessing Built-in Python Console
 ---------------------------------
 
-By pressing :kbd:`Shift-F4` in any Blender Editor type (3D View, Timeline etc.,)
+By pressing :kbd:`Shift-F4` in any Blender Editor type (3D View, Timeline, etc.)
 you can change it to a Console Editor.
 
 .. figure:: /images/editors_python-console_1-default.png
@@ -91,7 +91,7 @@ Try it out!
 ^^^^^^^^^^^
 
 bpy.context.mode
-   Will print the current 3D View mode (Object, Edit, Sculpt etc.,).
+   Will print the current 3D View mode (Object, Edit, Sculpt, etc.).
 
 bpy.context.object or bpy.context.active_object
    Will give access to the active object in the 3D View.

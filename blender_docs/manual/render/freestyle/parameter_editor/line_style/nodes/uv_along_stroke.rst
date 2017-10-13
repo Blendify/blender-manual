@@ -59,7 +59,7 @@ so that the gradient line color specified in the active line style is applied al
 
    `.blend <https://wiki.blender.org/index.php/File:Blender_272_textured_strokes_in_cycles.blend>`__
 
-It is noted that the texture image (FS_floral_brush.png)
+It is noted that the texture image ``FS_floral_brush.png``
 shown in the screen capture is an example of Freestyle brush images with tips.
 Specifically, the upper half of the image is used as a seamless horizontal tile of the stroke body,
 whereas the parts in the lower half are tips (stroke caps) at both ends of the stroke.

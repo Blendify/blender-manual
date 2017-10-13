@@ -13,7 +13,7 @@ Median Point
 
 
 The Median Point can be considered to be broadly similar to the concept of
-Center of Gravity (COG). If we assume that every element (Object, face, vertex etc)
+Center of Gravity (COG). If we assume that every element (object, face, vertex, etc.)
 of the selection has the same mass,
 the median point would sit at the point of equilibrium for the selection (the COG).
 

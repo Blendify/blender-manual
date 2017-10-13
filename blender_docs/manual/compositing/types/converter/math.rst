@@ -155,7 +155,7 @@ and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 .. note:: Function f(x)
 
    An algebraic function is made up of primitive mathematical operations
-   (add, subtract, multiply, sine, cosine, etc) that operate on an input value to provide the desired output value.
+   (add, subtract, multiply, sine, cosine, etc.) that operate on an input value to provide the desired output value.
 
 
 `Spreadsheet showing a function

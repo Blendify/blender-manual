@@ -9,7 +9,7 @@ What that image looks like is based on four factors which the user can control:
 - A :doc:`Camera </render/blender_render/camera/introduction>`
 - The :doc:`Lighting </render/blender_render/lighting/introduction>` in your scene
 - The :doc:`Material </render/blender_render/materials/introduction>` of each object
-- Various render settings (quality, image size, layers etc)
+- Various render settings (quality, image size, layers, etc.)
 
 Your computer will perform various complex calculations
 based on those factors in order to give you your rendered image.

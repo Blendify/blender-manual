@@ -23,7 +23,7 @@ Property
 
 .. note::
 
-   #. Unless the Property field is set, the Ray sensor can detect objects "through" other objects (walls etc).
+   #. Unless the Property field is set, the Ray sensor can detect objects "through" other objects (walls, etc.).
    #. Objects must have "Actor" enabled to be detected.
 
 Axis

@@ -75,7 +75,7 @@ Rolloff
 Cone Outer Gain
     The gain outside the outer cone. The gain inside the outer cone will be interpolated
     between this value and the normal gain inside the inner cone (Volume).
-    Note that the cones always point in the direction of the objects local -Z axis (Figure right).
+    Note that the cones always point in the direction of the objects local -Z axis (figure right).
 Cone Outer Angle
     The angle of the outer cone.
 Cone Inner Angle

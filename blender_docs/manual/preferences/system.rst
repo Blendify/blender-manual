@@ -148,7 +148,7 @@ Mipmaps
 GPU Mipmap Generation
    Generate Mipmaps on the GPU instead of the CPU.
 16 Bit Float Textures
-   Enables the use of 16 Bit per component Texture Images (Floating point Images).
+   Enables the use of 16 Bit per component Texture Images (floating point images).
 Selection
    Selection method to use for selecting.
 
@@ -162,9 +162,9 @@ Selection
 
 OpenGL Depth Picking
    This option uses an alternate method of picking which uses depth information to select the front-most elements.
-   It is only used for selecting with the cursor (not border select, lasso, circle select etc.
+   It is only used for selecting with the cursor (not border select, lasso, circle select, etc.)
 
-   Performance varies depending on your OpenGL hardware & drivers.
+   Performance varies depending on your OpenGL hardware and drivers.
 Anisotropic Filtering
    Sets the level of anisotropic filtering.
    This improves the quality of how textures are drawn at the cost of performance.
@@ -215,7 +215,7 @@ Region Overlap
 
 Text Draw Options
    Enable interface text anti-aliasing.
-   When disabled, texts are drawn using text straight render (Filling only absolute Pixels).
+   When disabled, texts are drawn using text straight render (filling only absolute pixels).
 
 
 Textures

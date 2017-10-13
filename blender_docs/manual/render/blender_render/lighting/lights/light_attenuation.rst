@@ -145,10 +145,10 @@ showing attenuation with or without the *Sphere* option (described later).
 
    Light Attenuation:
 
-   a) Linear (Linear=1.0, Quad=0.0);
-   b) Quadratic (Linear=0.0, Quad=1.0);
-   c) Linear and quadratic (Linear=Quad=0.5);
-   d) Null (Linear=Quad=0.0);
+   a) Linear (Linear = 1.0, Quad = 0.0);
+   b) Quadratic (Linear = 0.0, Quad = 1.0);
+   c) Linear and quadratic (Linear = Quad = 0.5);
+   d) Null (Linear = Quad = 0.0);
 
    Also shown in the graph the "same" curves, in the same colors,
    but with the Sphere button turned on.

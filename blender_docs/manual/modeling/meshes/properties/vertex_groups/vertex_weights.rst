@@ -53,7 +53,7 @@ Other Groups
 ------------
 
 All other usages of Vertex Groups are summarized into the *Other* category.
-These vertex groups can be found within Shape keys, Modifiers, etc...
+These vertex groups can be found within Shape keys, Modifiers, etc.
 There is really no good name for this category,
 so we kept it simple and named it *Other*.
 

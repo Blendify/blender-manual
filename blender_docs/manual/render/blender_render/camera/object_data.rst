@@ -267,7 +267,7 @@ Center Diagonal
 Thirds
    Adds lines dividing the frame in thirds vertically and horizontally.
 Golden
-   Divides the width and height into Golden proportions (About 0.618 of the size from all sides of the frame).
+   Divides the width and height into Golden proportions (about 0.618 of the size from all sides of the frame).
 Golden Triangle A
    Draws a diagonal line from the lower-left to upper-right corners,
    then adds perpendicular lines that pass through the top left and bottom right corners.

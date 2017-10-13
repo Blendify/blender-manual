@@ -53,7 +53,7 @@ These tabs are used to add features, and to change properties for the Active Obj
 
    Object Data tabs.
 
-The Object Data tabs shown depend on what type of object was selected last (The Active Object).
+The Object Data tabs shown depend on what type of object was selected last (the Active Object).
 
 - :doc:`Object </editors/3dview/object/properties/index>`
 - :doc:`/rigging/constraints/index`

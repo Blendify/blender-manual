@@ -70,7 +70,7 @@ Distance Metric
      - .. figure:: /images/render_blender-render_textures_procedural_voronoi_distancesquared.jpg
           :width: 200px
 
-          Distance Squared (More contrast than Actual Distance).
+          Distance Squared (more contrast than Actual Distance).
 
 
 Feature Weights

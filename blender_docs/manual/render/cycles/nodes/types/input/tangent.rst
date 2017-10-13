@@ -24,7 +24,7 @@ Properties
 
 Direction Type
    The tangent direction can be derived from a cylindrical projection around the X,
-   Y, or Z axis (Radial), or from a manually created UV Map for full control.
+   Y, or Z axis (radial), or from a manually created UV Map for full control.
 
 
 Outputs

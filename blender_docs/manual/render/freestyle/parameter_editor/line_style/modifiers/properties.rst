@@ -3,7 +3,7 @@
 Properties
 **********
 
-There are several modifiers for stroke vertex properties (i.e., line color, alpha transparency and thickness)
+There are several modifiers for stroke vertex properties (i.e. line color, alpha transparency and thickness)
 available. As with other modifier stacks in Blender, they are applied from top to bottom.
 
 
@@ -103,7 +103,7 @@ Crease Angle
 ------------
 
 A modifier based on the Crease Angle (angle between two adjacent faces).
-If a stroke segment does not lie on a crease (i.e., the edge does not have the *Crease Angle nature*,
+If a stroke segment does not lie on a crease (i.e. the edge does not have the *Crease Angle nature*,
 its properties are not touched by the modifier.
 
 

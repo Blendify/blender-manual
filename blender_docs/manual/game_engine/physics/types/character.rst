@@ -5,7 +5,7 @@ Character Physics
 
 The character physics type is used for player-controlled characters,
 for which the other physics types often result unexpected results
-(bouncing off walls, sliding etc.) and for which simple kinematics offer much more precision.
+(bouncing off walls, sliding, etc.) and for which simple kinematics offer much more precision.
 
 
 Properties

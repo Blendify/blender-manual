@@ -678,7 +678,7 @@ This page lists definitions for terms used in Blender and this manual.
       See also :term:`Display Referenced`.
 
    Sensor
-      A :term:`logic brick` that acts like a sense of a lifeform. It reacts to touch, vision, collision etc.
+      A :term:`logic brick` that acts like a sense of a lifeform. It reacts to touch, vision, collision, etc.
 
    Shading
       Process of altering the color of an object/surface in the 3D scene,

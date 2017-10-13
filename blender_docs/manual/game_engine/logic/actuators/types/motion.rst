@@ -49,7 +49,7 @@ Rot
    The object rotates by the specified amount,
    each time a pulse is received.
 L
-   Coordinates specified are Global (gray) or Local (White).
+   Coordinates specified are Global (gray) or Local (white).
 
 
 Servo Control

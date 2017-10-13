@@ -68,7 +68,7 @@ For the chassis, the shape should be rough, like a box.
 If the vehicle is very complicated,
 you should split it into simpler objects and parent those (with their collision shapes)
 to the vehicle controller so that they will follow it.
-If your vehicle even has moving bits (weapons, wrecking balls, trolleys etc)
+If your vehicle even has moving bits (weapons, wrecking balls, trolleys, etc.)
 they should also be simulated separately and connected to the vehicle as a joint.
 
 

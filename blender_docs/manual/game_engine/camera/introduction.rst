@@ -11,7 +11,7 @@ but also as a moving device with its default characteristics (i.e. with its own 
 or it may track another object in the game. Furthermore, any game object may be used as a camera;
 the view is taken from the object's origin point.
 Lastly, it may be given special capabilities such as Stereo vision,
-Dome visualization, etc... which have special relevance to game technology.
+Dome visualization, etc. which have special relevance to game technology.
 
 When you start the Game Engine, the initial camera view is taken from the latest 3D View.
 This may be either a selected camera object or the default camera (see below).

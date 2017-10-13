@@ -6,7 +6,7 @@ Displacement Maps
 Displacement mapping allows a texture input to manipulate the position of vertices on rendered geometry.
 Unlike :doc:`Normal or Bump mapping </render/blender_render/textures/properties/influence/bump_and_normal>`,
 where the shading is distorted to give an illusion of a bump (discussed on the previous page),
-Displacement Maps create real bumps, creases, ridges, etc in the actual mesh. Thus,
+Displacement Maps create real bumps, creases, ridges, etc. in the actual mesh. Thus,
 the mesh deformations can cast shadows, occlude other objects,
 and do everything that changes in real geometry can do, but, on the other hand, requires a lot more vertices to work.
 

@@ -11,7 +11,7 @@ Moving as a whole object
 Deforming them
    Animating their vertices or control points;
 Inherited animation
-   Causing the object to move based on the movement of another object (e.g. its parent, hook, armature, etc...).
+   Causing the object to move based on the movement of another object (e.g. its parent, hook, armature, etc.).
 
 In this chapter, we will cover the first two,
 but the basics given here are actually vital for understanding the following chapters as well.

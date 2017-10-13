@@ -10,7 +10,7 @@ It can filter objects with properties, like the
 
 .. note::
 
-   #. The Near sensor can detect objects "through" other objects (walls etc).
+   #. The Near sensor can detect objects "through" other objects (walls, etc.).
    #. Objects must have "Actor" enabled to be detected.
 
 .. note::

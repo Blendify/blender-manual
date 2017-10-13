@@ -62,7 +62,7 @@ Vertex Groups
    A very nice feature, but one that has very specific prerequisites:
 
    - The vertex groups you want to mirror must be named following the usual left/right pattern
-     (i.e. suffixed by something like ".R", ".right", ".L", etc).
+     (i.e. suffixed by something like ".R", ".right", ".L", etc.).
    - The mirror side vertex group must already exist (it will not be created automatically).
      It must also be completely empty (no vertices assigned to it).
 

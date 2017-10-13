@@ -279,7 +279,7 @@ Spatial Noise
 
 The *Spatial Noise* modifier adds some spatial noise to the stroke.
 Spatial noise displacements are added in the normal direction
-(i.e., the direction perpendicular to the tangent line) evaluated at each stroke vertex.
+(i.e. the direction perpendicular to the tangent line) evaluated at each stroke vertex.
 
 .. figure:: /images/render_freestyle_line-style_geometry_spatial-noise.png
 
