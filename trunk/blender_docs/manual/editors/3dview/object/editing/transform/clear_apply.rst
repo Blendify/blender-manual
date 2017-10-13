@@ -162,7 +162,7 @@ Visual Geometry as Mesh
    | Menu:     :menuselection:`Object --> Apply --> Visual Geometry as Mesh`
    | Hotkey:   :kbd:`Ctrl-A`
 
-Apply the visual state of all selected objects (modifiers, shape keys, hooks... etc) to object data.
+Apply the visual state of all selected objects (modifiers, shape keys, hooks, etc.) to object data.
 This is a way to freeze all object data into static meshes, as well as converts non-mesh types to mesh.
 
 

@@ -17,7 +17,7 @@ Push/Pull
    Push/Pull distance.
 
 
-*Push/Pull* will move the selected elements (Objects, vertices, edges or faces)
+*Push/Pull* will move the selected elements (objects, vertices, edges or faces)
 closer together (Push) or further apart (Pull).
 Specifically, each element is moved towards or away from the center by the same distance.
 This distance is controlled by moving the mouse up (Push) or down (Pull), numeric input or through slider control.
@@ -37,7 +37,7 @@ the Distance slider provided that no other actions take place between the
 *Push/Pull* transform confirmation and accessing the slider.
 
 Note that the result of the *Push/Pull* transform is also dependant on the number
-and type of selected elements (Objects, vertices, faces etc).
+and type of selected elements (objects, vertices, faces, etc.).
 See below for the result of using *Push/Pull* on a number of different elements.
 
 .. figure:: /images/modeling_meshes_editing_deforming_push-pull_objects-equidistant.png

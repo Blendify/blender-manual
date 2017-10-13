@@ -210,7 +210,7 @@ Workflow
    If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
    Ensure that all faces are selected.
 #. In the Bake panel at the bottom of the *Render menu*, bake your desired type of image
-   (*Full Render* etcetera.)
+   (*Full Render*, etc.)
 #. When rendering is complete, Blender replaces the image with the Baked image.
 #. Save the image.
 #. Apply the image to the mesh as a UV texture. For displacement and normal maps,

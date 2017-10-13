@@ -39,7 +39,7 @@ the Offset slider provided that no other actions take place between the *Shear*
 transform confirmation and accessing the slider.
 
 Note that the result of the *Shear* transform is also dependant on the number and
-type of selected elements (Objects, vertices, faces etc).
+type of selected elements (objects, vertices, faces, etc.).
 See below for the result of using *Shear* on a number of different elements.
 
 .. figure:: /images/editors_3dview_transformations-advanced-shear_mesh.png

@@ -37,7 +37,7 @@ Technical Details
 =================
 
 Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered,
-i.e., re-irradiated in all directions isotropically.
+i.e. re-irradiated in all directions isotropically.
 This means that the camera will see the same amount of light from that
 surface point no matter what the *incident viewing angle* is.
 It is this quality that makes diffuse light *viewpoint independent*. Of course,

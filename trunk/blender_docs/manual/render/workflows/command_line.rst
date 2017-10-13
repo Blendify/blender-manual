@@ -12,7 +12,7 @@ and consequently we can render via a remote shell (typically SSH).
 
 See :doc:`Command Line Arguments </advanced/command_line/arguments>`
 for a full list of arguments
-(for example to specify which scene to render, the end frame number, etc...), or simply run:
+(for example to specify which scene to render, the end frame number, etc.), or simply run:
 
 .. code-block:: sh
 

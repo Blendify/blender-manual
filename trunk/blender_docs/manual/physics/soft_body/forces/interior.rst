@@ -153,7 +153,7 @@ because it has no quads anyway.
 
 
 The second method to stop an object from collapsing is to change its *Bending Stiffness*.
-This includes the diagonal edges (Damping also applies to these connections).
+This includes the diagonal edges (damping also applies to these connections).
 
 In Fig. :ref:`fig-softbody-force-interior-bending`, *Be* is activated with a strength setting of 1.
 Now both cubes are more rigid.

@@ -125,7 +125,7 @@ Blender Window Dimension
 
 There is a way to match the Blender Window dimensions with the Output Video File,
 achieving standard dimensions for the output of the Blender Screencast.
-(e.g. NTSC, HD, Full HD, etc).
+(e.g. NTSC, HD, Full HD, etc.).
 You can control the width and height of your Blender Window, starting Blender from a Command Line.
 To learn more about starting Blender from a command line,
 see the page about :doc:`Blender Console Window </advanced/command_line/introduction>`.

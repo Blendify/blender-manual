@@ -104,7 +104,7 @@ Offset
    Enlarging of the Offset moves the texture towards the top left.
 Size
    These buttons allow you to change the mapping of axes between the texture's own coordinate system,
-   and the mapping system you choose (Generated, UV, etcetera.)
+   and the mapping system you choose (Generated, UV, etc.)
    More precisely, to each axis of the texture corresponds one of four choices,
    that allow you to select to which axis in the mapping system it maps! This implies several points:
 

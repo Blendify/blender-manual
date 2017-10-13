@@ -85,7 +85,7 @@ Depending on the type of the pre-selected data-block(s), you will have all or pa
 Select, Deselect
    This feature is not yet implemented.
 Unlink
-   To unlink a data-block from its "owner" (e.g., a material from its mesh).
+   To unlink a data-block from its "owner" (e.g. a material from its mesh).
 Make Local
    To create a "local" duplicate of this data-block.
 Make Single User

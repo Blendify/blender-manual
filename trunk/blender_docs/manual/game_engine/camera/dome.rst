@@ -23,7 +23,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 
    To accomplish that launch Blender with the command-line argument ``-W``.
    Also to get away of the top menu on Blender try to join all areas
-   (buttons, 3D View, text,...) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
+   (buttons, 3D View, text, etc.) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
    you cannot get the whole screen free to run your game
    (the top bar menu takes about 20 pixels).
 

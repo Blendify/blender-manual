@@ -79,7 +79,7 @@ Phys Button
 End Object
 ----------
 
-Destroy the current object (Note, debug properties will display error Zombie Object in console).
+Destroy the current object (note, debug properties will display error Zombie Object in console).
 
 .. figure:: /images/bge_actuator_edit_object_end_object.png
    :width: 271px

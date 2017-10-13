@@ -62,6 +62,6 @@ Still
 .. note:: Fields and Composite Nodes
 
    Nodes are currently not field-aware. This is partly due to the fact that in fields,
-   too much information is missing to do good neighborhood operations (blur, vector blur etc.).
+   too much information is missing to do good neighborhood operations (blur, vector blur, etc.).
    The solution is to render your animation at double the frame rate without fields and do the
    interlacing of the footage afterwards.

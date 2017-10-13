@@ -447,7 +447,7 @@ turn up the Emission Value in the Materials panel.
    The Fire material.
 
 
-Then, add another texture (Keep the old texture or the smoke will not show).
+Then, add another texture (keep the old texture or the smoke will not show).
 Give it a fiery color ramp- which colors based on the alpha,
 and change the influence to emission and emission color. Change the blend to Multiply.
 

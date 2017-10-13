@@ -42,7 +42,7 @@ Ratio
    The ratio of faces to keep after decimation.
 
    - On 1.0: the mesh is unchanged.
-   - On 0.5: edges have been collapsed such that half the number of faces remain (See *Note* below).
+   - On 0.5: edges have been collapsed such that half the number of faces remain (see note below).
    - On 0.0: all faces have been removed.
 
    .. note::

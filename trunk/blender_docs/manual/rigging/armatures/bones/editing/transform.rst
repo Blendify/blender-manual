@@ -238,5 +238,5 @@ but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
           :width: 320px
 
           The selected bones have been switched. Bone.005 is no more connected nor parented to anything.
-          The chain of switched bones still exists, but reversed (Now Bone.002 is its root, and Bone is its tip).
+          The chain of switched bones still exists, but reversed (now Bone.002 is its root, and Bone is its tip).
           Bone.003 is now a free bone.

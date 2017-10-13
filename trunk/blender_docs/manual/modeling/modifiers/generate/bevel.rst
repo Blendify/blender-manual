@@ -23,7 +23,7 @@ The Bevel Modifier is a non-destructive alternative to the
           Beveled.
 
 
-The images above show the side views of a plain (Not beveled) cube and a beveled one.
+The images above show the side views of a plain (not beveled) cube and a beveled one.
 
 
 Options

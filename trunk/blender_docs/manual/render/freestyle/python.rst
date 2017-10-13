@@ -6,8 +6,8 @@ Python Scripting Mode
 
 The Python Scripting mode offers full programmability for line stylization.
 In this control mode, all stylization operations are written as Python scripts referred to as
-style modules in the Freestyle terminology. The input to a style module is a view map (i.e.,
-a set of detected feature edges), and the output is a set of stylized strokes.
+style modules in the Freestyle terminology. The input to a style module is a view map
+(i.e. a set of detected feature edges), and the output is a set of stylized strokes.
 
 A style module is composed of successive calls of five basic operators: selection, chaining,
 splitting, sorting and stroke creation. The selection operator identifies a subset of input
@@ -73,9 +73,9 @@ The input view map is populated with a set of ViewEdge objects. The selection op
 used to pick up ViewEdges of interest to artists based on user-defined selection conditions
 (predicates). Chaining operations take the subset of ViewEdges and build Chains by
 concatenating ViewEdges according to user-defined predicates and functions.
-The Chains can be further refined by splitting them into smaller pieces (e.g.,
-at points where edges make an acute turn) and selecting a fraction of them (e.g.,
-to keep only those longer than a length threshold).
+The Chains can be further refined by splitting them into smaller pieces
+(e.g. at points where edges make an acute turn) and selecting a fraction of them
+(e.g. to keep only those longer than a length threshold).
 The sorting operation is used to arrange the stacking order of chains to draw one line on top of another.
 The chains are finally transformed into stylized strokes
 by the stroke creation operation applying a series of stroke shaders to individual chains.

@@ -37,7 +37,7 @@ Settings
 Resolution
    The smoke domain is subdivided into many "cells" called voxels (see :term:`voxel`)
    which make up "pixels" of smoke. This setting controls the number of subdivisions in the domain.
-   Higher numbers of subdivisions are one way of creating higher resolution smoke (See `Smoke High Resolution`_)
+   Higher numbers of subdivisions are one way of creating higher resolution smoke (see `Smoke High Resolution`_)
 
    Since the resolution is defined in terms of *subdivisions*,
    larger domains will need more divisions to get an equivalent resolution to a small domain.
@@ -231,7 +231,7 @@ By using different combinations of these resolution settings, you can obtain a v
 
 Low division simulations with lots of *High Resolution*
 divisions generally appear smaller in real-world scale
-(larger flames etc.) and can be used to achieve pyroclastic plumes such as this:
+(larger flames, etc.) and can be used to achieve pyroclastic plumes such as this:
 
 .. figure:: /images/physics_smoke_type_domain_note-on-resolution.jpg
    :align: center
