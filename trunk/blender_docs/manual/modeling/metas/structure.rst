@@ -32,7 +32,6 @@ Underlying Structure
    | Panel:    :menuselection:`Properties region --> Transform panel --> Type`,
                :menuselection:`Metaball tab --> Active Element panel --> Type`
 
-
 Blender has five types of metas, each determined by its underlying (or directing) structure.
 
 In *Edit Mode*, you can change this structure,

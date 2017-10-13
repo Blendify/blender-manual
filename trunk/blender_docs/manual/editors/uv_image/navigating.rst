@@ -15,11 +15,10 @@ Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to 
 View Menu
 =========
 
-
 Update Automatically
    Update the view in multiple areas.
 UV Local View
-   ..
+   ToDo.
 Draw Other Objects
    Draws the UVs of selected objects (Object Mode) in the background.
 Show Metadata

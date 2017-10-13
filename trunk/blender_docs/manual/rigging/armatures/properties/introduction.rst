@@ -9,7 +9,6 @@ Introduction
    | Mode:     Object Mode, Edit Mode and Pose Mode
    | Panel:    All in Properties editor, *Object* property
 
-
 Let us first have a general overview of the various panels gathering the armature settings,
 in Properties editor, *Object* tab:
 

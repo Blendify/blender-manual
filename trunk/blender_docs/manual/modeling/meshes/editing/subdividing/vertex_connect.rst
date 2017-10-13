@@ -55,7 +55,6 @@ Connect Vertices
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertices`
 
-
 This tool connects selected vertices by creating edges between them and splitting the face.
 
 This tool can be used on many faces at once.

@@ -80,7 +80,6 @@ Mesh from Curve/Metaball/Surface/Text
    | Menu:     :menuselection:`Object --> Convert to --> Mesh from Curve/Metaball/Surface/Text`
    | Hotkey:   :kbd:`Alt-C`
 
-
 Converts the selected curve, metaball, surface and text objects to mesh objects.
 The actual defined resolution of these objects will be taken into account for the conversion.
 Note that it also keeps the faces and volumes created by closed and extruded curves.

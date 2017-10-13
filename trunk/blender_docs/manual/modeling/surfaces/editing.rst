@@ -20,7 +20,6 @@ Translation, Rotation, Scale
    | Menu:     :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
-
 Once you have a selection of one or more control points,
 you can grab/move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </editors/3dview/object/editing/transform/introduction>` section.
@@ -44,7 +43,6 @@ Advanced Transform Tools
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Surface --> Transform`
 
-
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
 :doc:`Mesh Transformation </modeling/meshes/editing/transform/index>` section.
 Surfaces have no specific transform tools.
@@ -58,7 +56,6 @@ NURBS Control Points Settings
 
    | Mode:     Edit Mode
    | Panel:     Curve Tools (Edit Mode) and Transform
-
 
 We saw in a :ref:`previous page <modeling-surfaces-weight>` that NURBS control points have a weight,
 which is the influence of this point on the surface.
@@ -76,7 +73,6 @@ Adding or Extruding
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Surface --> Extrude`
    | Hotkey:   :kbd:`E`, :kbd:`Ctrl-LMB`
-
 
 Unlike meshes or curves, you cannot generally directly add new control points to a surface
 (with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U- or V-row at once.
@@ -157,7 +153,6 @@ Opening or Closing a Surface
    | Menu:     :menuselection:`Surface --> Toggle Cyclic`
    | Hotkey:   :kbd:`Alt-C`
 
-
 As in :ref:`curves <modeling-curves-toggle-cyclic>`,
 surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
 you can control this property independently along the U and V axes.
@@ -183,7 +178,6 @@ Duplication
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
-
 
 Similar as with meshes and curves, this tool duplicates the selection.
 The copy is selected and placed in *Grab* mode, so you can move it to another place.
@@ -214,7 +208,6 @@ Deleting Elements
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Delete...`
    | Hotkey:   :kbd:`X`, :kbd:`Delete`
-
 
 The *Erase* pop-up menu of surfaces offers you two options:
 
@@ -320,7 +313,6 @@ Subdivision
    | Panel:    Curve Tools
    | Menu:     :menuselection:`Surface tools --> Modeling --> Subdivide`, :menuselection:`Specials --> Subdivide`
 
-
 Surface subdivision is most simple:
 using either the *Subdivide* entry in the *Specials* menu
 :kbd:`W`, or the *Subdivide* button of the *Curve Tools1* panel,
@@ -339,7 +331,6 @@ Spin
 
    | Mode:     Edit Mode
    | Panel:    Curve Tools
-
 
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
 but with less control and options (in fact, there is none!).
@@ -361,7 +352,6 @@ Switch Direction
    | Menu:     :menuselection:`Surface --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
 
-
 This tool will "reverse" the direction of any curve with at least one selected element
 (i.e. the start point will become the end one, and *vice versa*).
 Mainly useful when using a curve as path, or the bevel and taper options...
@@ -376,7 +366,6 @@ Other Specials Options
    | Mode:     Edit Mode
    | Menu:     Specials
    | Hotkey:   :kbd:`W`
-
 
 The *Specials* menu contains exactly the same additional options as for
 curves, except for *Set Radius* and *Smooth Radius*.

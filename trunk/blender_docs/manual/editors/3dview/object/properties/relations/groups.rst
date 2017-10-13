@@ -33,7 +33,6 @@ Groups Menu
    | Menu:     :menuselection:`Object --> Groups`
    | Hotkey:   :kbd:`Ctrl-G`, etc.
 
-
 Creating New Group :kbd:`Ctrl-G`
    Creates a new group and adds the selected object(s) to it.
    The name of the new group can be specified in the *Create New Group* Operator panel.

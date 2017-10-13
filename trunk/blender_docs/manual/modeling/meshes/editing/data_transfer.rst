@@ -23,7 +23,6 @@ Data
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Data`
    | Hotkey:   :kbd:`Shift-Ctrl-T`
 
-
 Transfers layout of data layer(s) from active to selected meshes.
 
 Freeze Operator
@@ -167,7 +166,6 @@ Data Layout
 
    | Mode:     Object Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Data Layout`
-
 
 Transfers layout of data layer(s) from active to selected meshes.
 

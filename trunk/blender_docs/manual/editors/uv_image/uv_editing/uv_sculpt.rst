@@ -13,7 +13,6 @@ UV Sculpting
    | Menu:     :menuselection:`UVs --> UV Sculpt`
    | Hotkey:   :kbd:`Q`
 
-
 The UV Sculpting "mode" allow you to grab, pinch and smooth UVs, just like Sculpt Mode.
 It can be activated with :kbd:`Q` or by checking UV Sculpt in the *UVs* menu.
 

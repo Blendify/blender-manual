@@ -23,7 +23,6 @@ Make Edge/Face
    | Menu:     :menuselection:`Mesh --> Edges --> Make Edge/Face`
    | Hotkey:   :kbd:`F`
 
-
 It will create an edge or some faces, depending on your selection.
 
 See also :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces_and_edges>`.
@@ -74,7 +73,6 @@ Adjust Bevel Weight
    | Mode:     Edit Mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Bevel Weight`
 
-
 This edge property, a value between (0.0 to 1.0),
 is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` to control the bevel
 intensity of the edges.
@@ -94,7 +92,6 @@ Edge Crease
    | Mode:     Edit Mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Crease`
    | Hotkey:   :kbd:`Shift-E`
-
 
 This edge property, a value between (0.0 to 1.0), is used by the
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
@@ -232,7 +229,6 @@ Rotate Edge
    | Mode:     Edit Mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
 
-
 Rotating an edge clockwise or counter-clockwise spins an edge between two faces around their
 vertices. This is very useful for restructuring a mesh's topology.
 The tool can operate on one explicitly selected edge,
@@ -270,7 +266,6 @@ Edge Split
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Split`
 
-
 *Edge Split* is similar to the *Rip* tool. When two or more touching interior edges,
 or a border edge is selected when using *Edge Split*,
 a hole will be created, and the selected edges are duplicated to form the border of the hole.
@@ -299,7 +294,6 @@ Bridge Edge Loops
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Edges --> Bridge Edge Loops`
-
 
 *Bridge Edge Loops* connects multiple edge loops with faces.
 

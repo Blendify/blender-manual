@@ -20,7 +20,6 @@ Snap Menu
    | Menu:     :menuselection:`Object/Object type --> Snap`
    | Hotkey:   :kbd:`Shift-S`
 
-
 The *Snap* menu (also available from the 3D header in both *Object Mode* and *Edit Mode*
 :menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
 This menu provides a number of options to move the cursor or your selection to a defined point

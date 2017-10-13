@@ -10,7 +10,6 @@ Diffuse Shaders
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Diffuse`
 
-
 A diffuse shader determines, simply speaking,
 the general color of a material when light shines on it.
 Most shaders that are designed to mimic reality give a smooth falloff

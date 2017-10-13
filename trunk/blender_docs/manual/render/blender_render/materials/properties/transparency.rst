@@ -9,7 +9,6 @@ Transparency
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Transparency`
 
-
 Materials in Blender can be set to be transparent,
 so that light can pass through any objects using the material.
 Transparency is controlled using an "alpha" channel, where each pixel has an additional value,

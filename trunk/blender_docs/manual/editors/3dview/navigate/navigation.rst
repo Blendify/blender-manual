@@ -124,7 +124,6 @@ Zoom Border
    | Menu:     :menuselection:`View --> Zoom Border`
    | Hotkey:   :kbd:`Shift-B`
 
-
 The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
 that the region fills the 3D View.
 
@@ -144,7 +143,6 @@ Dolly Zoom
 
    | Mode:     All modes
    | Hotkey:   :kbd:`Ctrl-Shift-MMB`
-
 
 In most cases its sufficient to zoom the view to get a closer look at something,
 however, you may notice that at a certain point you cannot zoom any closer.

@@ -27,7 +27,6 @@ Image
 Properties
 ==========
 
-
 Color Space
    This button selects what color space the channels will represent.
 

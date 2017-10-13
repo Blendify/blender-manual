@@ -39,7 +39,6 @@ In fact, surfaces are very similar to the results you get when
 Finding Surface Tools
 =====================
 
-
 As usual, you have the *Select* and *Surface*
 menus in the 3D View headers, and the *Specials* menu :kbd:`W`.
 

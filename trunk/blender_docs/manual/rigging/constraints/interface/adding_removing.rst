@@ -38,7 +38,6 @@ Add Constraint (with Targets)
    | Menu:    :menuselection:`Object --> Constraint --> Add constraint (with Targets)`
    | Hotkey:   :kbd:`Ctrl-Shift-C`
 
-
 Adds a constraint to the active object.
 The type of constraint must be chosen from a popup window,
 though it can be changed later from the *Add Constraint (with Targets)* Operator panel.

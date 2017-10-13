@@ -11,7 +11,6 @@ Bounding Box Center
    | Header:   |pivot-icon| :menuselection:`Pivot Point --> Bounding Box Center`
    | Hotkey:   :kbd:`Comma`
 
-
 The bounding box is a rectangular box that is wrapped as tightly as possible around the selection.
 It is oriented parallel to the world axes. In this mode the pivot point lies at the center of the bounding box.
 You can set the pivot point to bounding box with :kbd:`Comma` or via the menu in the editors header.

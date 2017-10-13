@@ -14,7 +14,6 @@ Adding
    | Menu:     :menuselection:`Add`
    | Hotkey:   :kbd:`Shift-A`
 
-
 Nodes are added in two ways to the Node editor:
 
 - By using the Tool Shelf which has buttons for adding nodes, organized with tabs.

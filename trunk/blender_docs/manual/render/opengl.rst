@@ -90,7 +90,6 @@ Render from the Sequencer
 Known Limitations
 =================
 
-
 OpenGL Anti-Aliasing Support
 ----------------------------
 

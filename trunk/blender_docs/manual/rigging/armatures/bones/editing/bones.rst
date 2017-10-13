@@ -15,7 +15,6 @@ Add Menu
    | Menu:     :menuselection:`Add`
    | Hotkey:   :kbd:`Shift-A`
 
-
 In the 3D View, :kbd:`Shift-A` to add a new bone to your armature.
 
 This bone will be:
@@ -35,7 +34,6 @@ Extrude
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Extrude`
    | Hotkey:   :kbd:`E`, :kbd:`Shift-E`
-
 
 When you press :kbd:`E`, for each selected tip
 (either explicitly or implicitly), a new bone is created.
@@ -110,7 +108,6 @@ Mouse Clicks
 
    | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-LMB`
-
 
 If at least one bone is selected, :kbd:`Ctrl-LMB` -clicking adds a new bone.
 
@@ -196,7 +193,6 @@ Fill between Joints
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Fill Between Joints`
    | Hotkey:   :kbd:`F`
-
 
 The main use of this tool is to create one bone between two selected joints by pressing
 :kbd:`F`, similar to how in mesh editing you can "create edges/faces".
@@ -399,7 +395,6 @@ Merge Bones
    | Menu:     :menuselection:`Armature --> Merge Bones`
    | Hotkey:   :kbd:`Alt-M`
 
-
 You can merge together several selected bones, as long as they form a chain.
 Each sub-chain formed by the selected bones will give one bone,
 whose root will be the root of the root bone, and whose tip will be the tip of the tip bone.
@@ -450,7 +445,6 @@ Subdivide
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Subdivide`, :menuselection:`Specials --> Subdivide`
-
 
 You can subdivide bones, to get two or more bones where there was just one bone.
 The tool will subdivide all selected bones, preserving the existing relationships:

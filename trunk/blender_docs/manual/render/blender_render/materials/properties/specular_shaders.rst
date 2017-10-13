@@ -10,7 +10,6 @@ Specular Shaders
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Specular`
 
-
 Specular shaders create the bright highlights that one would see on a glossy surface,
 mimicking the reflection of light sources.
 Unlike :doc:`diffuse shading </render/blender_render/materials/properties/diffuse_shaders>`,

@@ -23,7 +23,6 @@ Make Edge/Face
    | Menu:     :menuselection:`Mesh --> Faces --> Make Edge/Face`
    | Hotkey:   :kbd:`F`
 
-
 This will create an edge or some faces, depending on your selection.
 Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces_and_edges>`.
 
@@ -51,7 +50,6 @@ Fill
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
    | Hotkey:   :kbd:`Alt-F`
-
 
 The *Fill* option will create *triangular* faces from any group of selected edges
 or vertices, as long as they form one or more complete perimeters.
@@ -87,7 +85,6 @@ Beauty Fill
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
    | Hotkey:   :kbd:`Alt-Shift-F`
 
-
 *Beautify Fill* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
 
@@ -117,7 +114,6 @@ Grid Fill
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Grid Fill`
-
 
 *Grid Fill* uses a pair of connected edge-loops or a single, closed edge-loop to fill in a grid
 that follows the surrounding geometry.
@@ -294,7 +290,6 @@ Triangles to Quads
    | Menu:     :menuselection:`Mesh --> Faces --> Triangles to Quads`
    | Hotkey:   :kbd:`Alt-J`
 
-
 This tool converts the selected triangles into quads by taking adjacent tris and
 removing the shared edge to create a quad, based on a threshold.
 This tool can be applied on a selection of multiple triangles.
@@ -361,7 +356,6 @@ Rotate Edges
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Rotate Edge CW`
-
 
 This tool functions the same edge rotation in edge mode.
 

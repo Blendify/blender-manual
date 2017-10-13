@@ -11,7 +11,6 @@ Mirror
    | Menu:     :menuselection:`Mesh --> Mirror --> Desired Axis`
    | Hotkey:   :kbd:`Ctrl-M`
 
-
 The mirror tool mirrors a selection across a selected axis.
 
 The mirror tool in *Edit Mode* is similar to

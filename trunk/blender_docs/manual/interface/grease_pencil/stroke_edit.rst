@@ -175,7 +175,6 @@ Sculpt Strokes Panel
    | Menu:     :menuselection:`GPencil --> Sculpt Strokes/Brushes`
    | Hotkey:   :kbd:`E-LMB`
 
-
 Several tools for editing Grease Pencil strokes are provided in the form of brushes which
 you can use to "paint" or "sculpt" the appearance of the strokes without having to keep doing
 a tedious select-tweak-select-tweak pattern of edits.

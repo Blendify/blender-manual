@@ -11,7 +11,6 @@ Inset Faces
    | Menu:     :menuselection:`Mesh --> Faces --> Inset Faces`
    | Hotkey:   :kbd:`I`
 
-
 This tool takes the currently selected faces and creates an inset of them,
 with adjustable thickness and depth. Think of it as like creating an edge loop,
 but relative to the selected edges, even in complex meshes.

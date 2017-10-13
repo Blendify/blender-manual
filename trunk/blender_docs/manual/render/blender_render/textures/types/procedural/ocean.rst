@@ -15,7 +15,6 @@ Ocean Texture
 Options
 =======
 
-
 Modifier Object
    Object containing the Ocean Modifier.
 Output

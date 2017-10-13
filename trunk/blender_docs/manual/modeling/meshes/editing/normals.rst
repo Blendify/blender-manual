@@ -30,7 +30,6 @@ Flip Direction
    | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Flip Direction`
    | Menu:     :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
 
-
 Well, it will just reverse the normals direction of all selected faces.
 Note that this allows you to precisely control the direction (**not** the orientation,
 which is always perpendicular to the face) of your normals, as only selected ones are flipped.
@@ -47,7 +46,6 @@ Recalculate Normals
    | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
      :menuselection:`Mesh --> Normals --> Recalculate Inside`
    | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`
-
 
 These tools will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.

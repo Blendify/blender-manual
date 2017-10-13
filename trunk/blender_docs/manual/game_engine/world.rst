@@ -42,7 +42,6 @@ Ambient Color
 Environmental Lighting
 ======================
 
-
 Environment light provides light coming from all directions.
 
 Light is calculated with a ray-traced method which is the same as that used by Ambient Occlusion.

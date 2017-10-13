@@ -24,7 +24,6 @@ Creating and Deleting Previews
 
 Previews can be created and deleted in many ways from :menuselection:`Info Editor --> File --> Data Previews`
 
-
 Refresh Data-Block Previews
    Ensures that data-block previews are available and up to date.
 Batch-Generate Previews

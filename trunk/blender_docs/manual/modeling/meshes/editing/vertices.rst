@@ -32,7 +32,6 @@ Merging Vertices
                :menuselection:`Specials --> Merge`
    | Hotkey:   :kbd:`Alt-M`
 
-
 This tool allows you to merge all selected vertices to a unique one, dissolving all others.
 You can choose the location of the surviving vertex in the menu this tool pops up before
 executing:
@@ -76,7 +75,6 @@ AutoMerge Editing
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> AutoMerge Editing`
 
-
 The *Mesh* menu as a related toggle option: *AutoMerge Editing*.
 When enabled,
 as soon as a vertex moves closer to another one than the *Limit* setting
@@ -96,7 +94,6 @@ Remove Doubles
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Remove Doubles`
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
                :menuselection:`Specials --> Remove Doubles`
-
 
 Remove Doubles is a useful tool to simplify a mesh by merging the selected vertices that
 are closer than a specified distance to each other.
@@ -121,7 +118,6 @@ Rip
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Rip`
    | Hotkey:   :kbd:`V`
-
 
 Rip creates a "hole" into a mesh by making a copy of selected vertices and edges,
 still linked to the neighbor non-selected vertices,
@@ -185,7 +181,6 @@ Rip Fill
    | Menu:     :menuselection:`Mesh --> Vertices --> Rip Fill`
    | Hotkey:   :kbd:`Alt-V`
 
-
 Rip fill works the same as the Rip tool above, but instead of leaving a hole,
 it fills in the gap with geometry.
 
@@ -212,7 +207,6 @@ Split
    | Menu:     :menuselection:`Mesh --> Vertices --> Split`
    | Hotkey:   :kbd:`Y`
 
-
 Splits (disconnects) the selection from the rest of the mesh.
 The border edge to any non-selected elements are duplicated.
 
@@ -230,7 +224,6 @@ Extend Vertices
    | Menu:     :menuselection:`Mesh --> Vertices --> Extend Vertices`
    | Hotkey:   :kbd:`Alt-D`
 
-
 This tool takes any number of selected vertices and duplicate-drags them along the closest edge to the mouse,
 When extending an edge loop, it extends the vertices at the endpoints of the loop.
 Which is similar behavior like *Extrude* tool, but it creates an n-gon.
@@ -247,7 +240,6 @@ Separate
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Separate`
    | Hotkey:   :kbd:`P`
-
 
 The Separate tool will `Split`_ mesh elements in another mesh object.
 
@@ -271,7 +263,6 @@ Vertex Slide
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Vertex`
    | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide`
    | Hotkey:   :kbd:`Shift-V`
-
 
 Vertex Slide will transform a vertex along one of its adjacent edges.
 Use :kbd:`Shift-V` to enter tool. Highlight the desired edge by moving the mouse,
@@ -314,7 +305,6 @@ Smooth Vertex
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth Vertex`,
                :menuselection:`Specials --> Smooth`
-
 
 This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/transform/smooth>`.
 
@@ -364,7 +354,6 @@ Make Vertex Parent
    | Menu:     :menuselection:`Mesh --> Vertices --> Make Vertex Parent`
    | Hotkey:   :kbd:`Ctrl-P`
 
-
 This will parent the other selected object(s) to the vertices/edges/faces selected,
 as described :doc:`here </editors/3dview/object/properties/relations/parents>`.
 
@@ -378,7 +367,6 @@ Add Hook
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Add Hook`
    | Hotkey:   :kbd:`Ctrl-H`
-
 
 Adds a :doc:`Hook Modifier </modeling/modifiers/deform/hooks>` (using either a new empty,
 or the current selected object) linked to the selection.
@@ -424,7 +412,6 @@ Blend From Shape, Propagate Shapes
    | Mode:     Edit Mode
    | Menu:     :menuselection:`(Vertex) Specials --> Blend From Shape` and
                :menuselection:`Mesh --> Vertices --> Shape Propagate`
-
 
 These are options regarding :doc:`shape keys </animation/shape_keys/index>`.
 

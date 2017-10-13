@@ -8,7 +8,6 @@ Line
 
    | Panel:    :menuselection:`Properties editor --> Material --> Freestyle Line`
 
-
 Line Color
    Specifies the line colors on a per-material basis.
 Priority

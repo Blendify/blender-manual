@@ -15,7 +15,6 @@ Transform Orientations
    | Panel:    :menuselection:`Properties region --> Transform Orientations`
    | Hotkey:   :kbd:`Alt-Spacebar`
 
-
 Orientations affect the behavior of Transformations: Location, Rotation, and Scale.
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
 as well as on transformation constraints

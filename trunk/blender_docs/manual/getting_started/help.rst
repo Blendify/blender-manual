@@ -45,7 +45,6 @@ Context Sensitive Manual Access
    | Menu:     :kbd:`RMB`, :menuselection:`Online Manual`
    | Hotkey:   :kbd:`Alt-F1`
 
-
 You may want to access help for a tool or area from within Blender.
 
 Use the key-shortcut, or context menu to visit pages from this reference manual within Blender.
@@ -122,7 +121,6 @@ Save System Info
 ----------------
 
 Access :menuselection:`Help --> Save System Info`.
-
 
 This extracts system information which can be useful to include in bug reports,
 inspecting the configuration or diagnosing problems.

@@ -12,7 +12,6 @@ Grab/Move
    | Menu:     :menuselection:`Strip --> Grab/Move`
    | Hotkey:   :kbd:`G`
 
-
 Holding down :kbd:`RMB` and then moving the mouse drags the active strip in time or in channels.
 Pressing :kbd:`G` moves the all selected strip(s).
 Move your mouse horizontally (left/right) to change the strip's position in time.

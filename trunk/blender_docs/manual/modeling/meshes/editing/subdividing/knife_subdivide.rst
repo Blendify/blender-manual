@@ -11,7 +11,6 @@ Knife Tool
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife/Select`
    | Hotkey:   :kbd:`K` or :kbd:`Shift-K`
 
-
 The knife tool can be used to interactively subdivides (cuts up)
 geometry by drawing lines or closed loops to create holes.
 

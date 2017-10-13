@@ -34,7 +34,6 @@ Object Mode
    | Menu:     Via the |prop-edit-icon| icon in the header indicated by the yellow square in the below image.
    | Hotkey:   :kbd:`O`
 
-
 Proportional editing is typically used in *Edit Mode*, however,
 it can also be used in *Object Mode*. In *Object Mode* the tool works on
 entire objects rather than individual mesh components. In the image below,
@@ -58,7 +57,6 @@ Edit Mode
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the |prop-edit-edit-mode-icon| highlighted icon
    | Hotkey:   :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`
-
 
 When working with dense geometry, it can become difficult to make subtle adjustments to the
 vertices without causing visible lumps and creases in the model's surface. When you face

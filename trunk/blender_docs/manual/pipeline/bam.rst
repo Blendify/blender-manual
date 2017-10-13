@@ -108,7 +108,6 @@ and in particular the file *01_01_A.lighting.blend* with its linked libraries.
          ├─ 01_01_A.lighting.blend  <--|  < BAM pack this file
          └─ 01_01_A.anim.blend  ------>|
 
-
 Once we run ``bam pack /scenes/01-opening/01_01_A.lighting.blend``
 we obtain a *01_01_A.lighting.zip* inside of which we find the following structure.
 

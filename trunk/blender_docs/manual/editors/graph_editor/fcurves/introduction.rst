@@ -62,7 +62,6 @@ Interpolation Mode
    | Menu:     :menuselection:`Key --> Interpolation Mode`
    | Hotkey:   :kbd:`T`
 
-
 Mode for the :term:`Interpolation` between the current and next keyframe.
 
 
@@ -191,7 +190,6 @@ Extrapolation
 
    | Menu:     :menuselection:`Channel --> Extrapolation Mode`
    | Hotkey:   :kbd:`Shift-E`
-
 
 Extrapolation defines the behavior of a curve before the first and after the last keyframes.
 
