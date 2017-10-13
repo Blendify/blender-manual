@@ -40,7 +40,7 @@ Texture Interpolation
    Cubic
       Only available when rendering on the CPU.
    Smart
-      Bicubic when magnifying else Bilinear is used.
+      Bicubic when magnifying, otherwise Bilinear is used.
       This is only available for :doc:`OSL </render/cycles/nodes/osl>`.
 
 Projection Method

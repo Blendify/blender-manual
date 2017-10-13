@@ -22,7 +22,7 @@ Vertices are turned into edges and edges will form faces.
 
 This tool is of paramount importance for creating new geometry.
 It allows you to create parallelepipeds from rectangles and cylinders from circles,
-as well as easily create such things as tree limbs.
+as well as easily creating such things as tree limbs.
 
 The axis on which vertices and edges are extruded along can be set interactively.
 Faces are extruded by default along their averaged normal.

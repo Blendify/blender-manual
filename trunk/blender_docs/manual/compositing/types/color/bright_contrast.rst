@@ -43,7 +43,7 @@ Notes
 =====
 
 It is possible that this node will put out a value set that has values beyond the normal range,
-i. e. values greater than one and less than zero.
+i.e. values greater than one and less than zero.
 If you will be using the output to mix with other images in the normal range,
 you should clamp the values using the Map Value node (with the Min and Max enabled),
 or put through a Color Ramp node (with all normal defaults).

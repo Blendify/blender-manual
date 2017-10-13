@@ -67,7 +67,7 @@ Sub-frame sampling: Transform & Geometry Samples, Shutter Open & Close
    indicates the previous frame, 0 indicates the current frame, and 1 indicates the next frame.
    For example, if information for detailed mesh motion blur is desired, some subframes around the
    current frame can be written to Alembic by using a sample count of 5, Shutter Open at -0.25 and
-   Shutter Close at 0.25. This mimicks a "180 degree" shutter, opening 90 degrees before the frame
+   Shutter Close at 0.25. This mimics a "180 degree" shutter, opening 90 degrees before the frame
    and closing 90 degrees after the frame.
 Selected Objects Only
    When enabled, exports only the selected objects. When disabled, all objects are exported.
@@ -93,7 +93,7 @@ Pack UV Islands
 Normals
    TODO: figure out & describe what this does.
 Vertex Colors
-   When enabled, exports vertex colours. At this moment, this only supports static vertex colors,
+   When enabled, exports vertex colors. At this moment, this only supports static vertex colors,
    and not dynamically animated vertex colors.
 Face Sets
    TODO: figure out & describe what this does.

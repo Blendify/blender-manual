@@ -22,8 +22,8 @@ Simplify
 
 
 Texture Limit
-   Automatically scales textures down textures so they are no larger than the values chosen.
-   This can help large scenes that use huge textures to still fit into the computer's memory resources.
+   Automatically scales textures down so that they are no larger than the values chosen.
+   This can help reduce computer memory resources when rendering large scenes with huge textures.
 
 Use Camera Cull
    Automatically culls objects based on the camera frustum defined by the *Margin*.

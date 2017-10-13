@@ -12,7 +12,7 @@ Spin
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Spin`
    | Hotkey:   :kbd:`Alt-R`
 
-The *Spin* tool extrudes (or duplicates if it the selection is manifold) the selected elements,
+The *Spin* tool extrudes (or duplicates it if the selection is manifold) the selected elements,
 rotating around a specific point and axis.
 
 Use the tool to create the sort of objects that you would produce on a lathe
@@ -56,7 +56,7 @@ First, create a mesh representing the profile of your object.
 If you are modeling a hollow object, it is a good idea to thicken the outline.
 Fig. :ref:`fig-mesh-spin-glass` shows the profile for a wine glass we will model as a demonstration.
 
-Go to the *Edit Mode* and select all the vertices of the Profile with :kbd:`A`.
+Go to *Edit Mode* and select all the vertices of the Profile with :kbd:`A`.
 
 We will be rotating the object around the cursor in the top view,
 so switch to the top view with :kbd:`Numpad7`.
@@ -127,8 +127,8 @@ Merge Duplicates
 
 
 The spin operation leaves duplicate vertices along the profile.
-You can select all vertices at the seam with Box select :kbd:`B` shown in
-Fig. :ref:`fig-mesh-screw-duplicate` Seam vertex selection and
+You can select all vertices at the seam with Box select :kbd:`B` (shown in
+Fig. :ref:`fig-mesh-screw-duplicate`) and
 perform a *Remove Doubles* operation.
 
 
@@ -140,7 +140,7 @@ If not, some vertices were missed and you will need to weld them manually.
 Or, worse, too many vertices will have been merged.
 
 
-.. note:: Merging two vertices in one
+.. note:: Merging two vertices into one
 
    To merge (weld) two vertices together, select both of them by :kbd:`Shift-RMB`
    clicking on them. Press :kbd:`S` to start scaling and hold down :kbd:`Ctrl`

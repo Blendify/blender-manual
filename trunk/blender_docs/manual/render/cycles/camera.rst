@@ -126,7 +126,7 @@ Object
   Set an object to be used as a focal point by the camera, causing the camera
   to focus on the selected object origin.
 Distance
-  When an *Focus* object is not used, the camera can be set to focus on an area in 3D
+  When a *Focus* object is not used, the camera can be set to focus on an area in 3D
   space set by the distance from the camera.
   Using the *Limit* Display option, you are able to view the distance in the 3D space.
 

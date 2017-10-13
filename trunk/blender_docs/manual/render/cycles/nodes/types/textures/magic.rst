@@ -10,7 +10,7 @@ Magic Texture Node
    Magic Texture Node.
 
 
-The *Magic Texture* node is used to add psychedelic color texture.
+The *Magic Texture* node is used to add a psychedelic color texture.
 
 
 Inputs
