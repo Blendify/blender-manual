@@ -45,14 +45,12 @@ Step
    high halo *Intensity* setting can result in a dark/black halo, which would not happen in the real world.
    Just be aware of this possibility when using halos with the internal renderer.
 
-
 .. note::
 
    The halo effect can be greatly enhanced when using buffered shadows: when the halo's *Step* is not null,
    they can create "volumetric shadows".
    See the page about *Spot*
    :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>` for more information.
-
 
 .. seealso::
 

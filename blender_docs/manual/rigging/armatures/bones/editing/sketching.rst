@@ -225,7 +225,6 @@ Cut
 To *cut* a segment (i.e. add a new black dot inside it, making two segments out of one),
 "draw" a straight line crossing the chosen segment where you want to split it.
 
-
 .. list-table::
 
    * - .. figure:: /images/rigging_armatures_editing_sketching_gestures-cut-1.png

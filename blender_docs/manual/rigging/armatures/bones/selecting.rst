@@ -82,8 +82,7 @@ You also have some *advanced selection* options, based on their relations.
 You can select at once all the bones in the chain which the active (last selected)
 bone belongs to by using the *linked selection* tool, :kbd:`L`.
 
-.. list-table::
-   Linked bones selection
+.. list-table:: Linked bones selection
 
    * - .. figure:: /images/rigging_armatures_bones_selecting_single-bone.png
           :width: 320px

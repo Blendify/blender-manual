@@ -56,7 +56,6 @@ Fill
 The *Fill* option will create *triangular* faces from any group of selected edges
 or vertices, as long as they form one or more complete perimeters.
 
-
 .. figure:: /images/fill3.png
    :width: 300px
 
@@ -129,7 +128,6 @@ Offset
    ToDo
 Simple Blending
    ToDo
-
 
 .. list-table::
 

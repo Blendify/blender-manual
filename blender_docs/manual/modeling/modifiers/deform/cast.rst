@@ -12,12 +12,10 @@ It is equivalent to the *To Sphere* tool in *Edit Mode*
 and what other programs call "Spherify" or "Spherize", but, as written above,
 it is not limited to casting to a sphere.
 
-
 .. tip::
 
    The :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>` is a good companion to *Cast*,
    since the cast shape sometimes needs smoothing to look nicer or even to fix shading artifacts.
-
 
 .. note::
 

@@ -169,7 +169,6 @@ Unlink the active object from the Blender scene named 'Scene'::
 
    bpy.data.scenes['Scene'].objects.unlink(bpy.context.active_object)
 
-
 .. code-block:: python
 
    bpy.data.materials['Material'].shadows

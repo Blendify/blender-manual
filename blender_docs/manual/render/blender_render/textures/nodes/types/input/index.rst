@@ -12,4 +12,3 @@ Input nodes provide input data for other nodes.
    image.rst
    texture.rst
    time.rst
-

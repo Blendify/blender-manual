@@ -52,4 +52,3 @@ UV Vertex Panel
 
 UV Vertex
    Transform Properties :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
-

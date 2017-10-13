@@ -41,7 +41,6 @@ and the actuators it is connected to will be activated;
 false means the controller's conditions are not met and nothing will happen. Please consult
 the individual controller pages for a more detailed description of each controller.
 
-
 .. note::
 
    It is assumed that more than one sensor is connected to the controller.

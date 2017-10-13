@@ -136,7 +136,6 @@ Main View
 Typing on the keyboard produces text in the text buffer.
 As usual, pressing, dragging and releasing :kbd:`LMB` selects text.
 
-
 .. tip:: Usages for the Text editor
 
    The Text editor is handy also when you want to share your blend-files with others.

@@ -94,7 +94,6 @@ Hints
   can be used for extra control. Such smaller cages may also overlap with the main cage;
   for example, to get extra control over eyes, two small sphere cages could be added around them.
 
-
 .. seealso::
 
    - The :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.

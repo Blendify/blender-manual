@@ -48,7 +48,6 @@ you can modify it using Blender's built-in
 :doc:`Texture Paint </sculpt_paint/painting/texture_paint/introduction>`
 or any external image painting program.
 
-
 .. note:: See Texture in 3D View but does not Render
 
    You may be able to see the texture in Textured display mode in the 3D View;

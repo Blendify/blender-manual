@@ -10,7 +10,6 @@ This guide covers the following topics:
 #. `Downloading the Repository`_
 #. `Setting up the Build Environment`_
 
-
 .. note::
 
    This guide relies heavily on command-line tools.

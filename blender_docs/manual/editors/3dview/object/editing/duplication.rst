@@ -120,7 +120,6 @@ If you later make a change to the mesh, all the legs will still match.
 Linked duplicates also apply to a set of drinking glasses,
 wheels on a car... anywhere there is repetition or symmetry.
 
-
 .. seealso:: Linked Library Duplication
 
    :doc:`Linked Libraries </data_system/linked_libraries>` are also a form of duplication.

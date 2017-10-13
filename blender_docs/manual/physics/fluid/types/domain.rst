@@ -23,7 +23,6 @@ you need to insert additional obstacle objects *inside* the domain boundary.
 
 This object will be *replaced* by the fluid during the simulation.
 
-
 .. tip:: Baking is done on the Domain object
 
    When you calculate the fluid simulation, you bake the simulation on the domain object.

@@ -33,7 +33,6 @@ Freestyle for Blender comes with a number of Python style modules that can serve
 point of your own style module writing. See also the section of the Freestyle Python API in
 the Blender Python API reference manual for the full detail of style module constructs.
 
-
 .. list-table::
 
    * - .. figure:: /images/render_freestyle_python-scripting-mode_example-1.jpg

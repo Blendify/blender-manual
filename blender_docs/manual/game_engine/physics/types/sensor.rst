@@ -40,6 +40,7 @@ The type of collision capability depends on the shape:
   the surface by increasing the margin in the Advanced Settings panel.
   The margin applies on both sides of the surface.
 
+
 .. rubric:: Performance tip
 
 - Sensor objects perform better than Near and Radar:
@@ -49,6 +50,7 @@ The type of collision capability depends on the shape:
 - Always use broadphase filtering (avoid collision sensor with empty property/material).
 - Use collision sensor only when you need them. When no collision sensor is active on the sensor object,
   it is removed from the simulation and consume no CPU.
+
 
 .. rubric:: Known limitations
 

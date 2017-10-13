@@ -9,8 +9,7 @@ Ghost
    | Mode:     Pose Mode
    | Panel:    :menuselection:`Armature tab --> Ghost panel`
 
-.. list-table::
-   Ghosts examples.
+.. list-table:: Ghosts examples.
 
    * - .. figure:: /images/rigging_posing_visualization_ghost-example-1.png
           :width: 240px

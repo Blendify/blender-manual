@@ -146,7 +146,6 @@ it will extrude as if the edge was selected. Likewise for edges that form a face
 To force a vertex or edge selection to extrude as a vertex or edge, respectively, use
 :kbd:`Alt-E` to access the Extrude *Edges Only* and *Vertices Only*.
 
-
 .. list-table::
 
    * - .. figure:: /images/extrude-verts-before.png

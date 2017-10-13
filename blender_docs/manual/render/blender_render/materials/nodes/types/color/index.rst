@@ -11,4 +11,3 @@
    invert.rst
    mix_rgb.rst
    rgb_curves.rst
-

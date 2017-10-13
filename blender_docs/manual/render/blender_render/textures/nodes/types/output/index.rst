@@ -10,4 +10,3 @@ These nodes serve as an outputs for node textures.
 
    output.rst
    viewer.rst
-

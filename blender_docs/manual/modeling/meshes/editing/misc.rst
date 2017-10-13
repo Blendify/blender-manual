@@ -43,7 +43,6 @@ Randomize
 Reverse
    Simply reverse the order of the selected elements.
 
-
 .. note:: To enable viewing indeces:
 
    Type "bpy.app.debug = True" into the Python Console and a checkbox will appear in the

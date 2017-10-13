@@ -87,7 +87,6 @@ This will snap vertices to the nearest vertex of the shrink target. It adds no e
 
 Nearest Vertex options.
 
-
 .. seealso::
 
    :doc:`Shrinkwrap Constraint </rigging/constraints/relationship/shrinkwrap>`.

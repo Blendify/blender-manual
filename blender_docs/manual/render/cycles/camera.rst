@@ -171,7 +171,6 @@ Ratio
 
 .. figure:: /images/cycles_camera_dof_bokeh.jpg
 
-
 .. seealso:: Switching between Cameras
 
    By :ref:`binding the camera to markers <marker-bind-camera>`.

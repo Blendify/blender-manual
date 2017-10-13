@@ -62,7 +62,6 @@ Or use :kbd:`Alt-Ctrl-RMB` on an edge.
 
    An Edge Ring.
 
-
 .. note:: Convert selection to whole faces
 
    If the edge ring selection happened in Edge Select Mode, switching to Face Select Mode will erase the selection.
@@ -142,8 +141,6 @@ It is not easy to say which dot belongs to which face (the orange dot in the ima
 Luckily, you do not need to care much, because to select a face, you do not have to click the center dot,
 but the face itself.
 
-
 .. tip:: Face selection
 
    *To select a face*: Click the face, not the dot!
-

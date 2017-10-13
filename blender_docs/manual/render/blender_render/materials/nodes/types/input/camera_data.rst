@@ -30,4 +30,3 @@ View Z Depth
    How far away each pixel is from the camera
 View Distance
    Distance from the camera to the shading point.
-

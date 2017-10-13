@@ -50,5 +50,3 @@ Vector
    Standard vector output.
 Value
    Standard value output.
-
-

@@ -56,7 +56,6 @@ To better grasp the concept, let us assume that we have a cube 2 units wide,
 uniformly moving 1 unit to the right at each frame.
 The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
-
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_motion-blur_02.png
@@ -74,7 +73,6 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
    Frame 1 when Sampled Motion Blur is enabled and eight 'intermediate' frames are computed.
    Shutter is set to 0.5 , thus the image eight samples are rendered between frame 1 and halfway to frame 2.
-
 
 .. list-table::
 

@@ -226,8 +226,7 @@ but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
 
 .. _fig-rig-properties-switch:
 
-.. list-table::
-   Switching example.
+.. list-table:: Switching example.
 
    * - .. figure:: /images/rigging_armatures_editing_properties_switch-direction-1.png
           :width: 320px

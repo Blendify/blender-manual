@@ -121,7 +121,6 @@ The constructor takes one mandatory and three optional arguments:
    we should not create any source on this texture and there is no need to refresh it either ;
    the other ``Texture`` object will provide the texture for both materials/textures.
 
-
 .. code-block:: python
 
    GameLogic.video = bge.texture.Texture(obj, matID)

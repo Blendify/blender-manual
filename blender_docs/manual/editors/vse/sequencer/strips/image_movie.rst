@@ -45,7 +45,6 @@ Batch
 All
    Press :kbd:`A` to select/deselect all files in the directory.
 
-
 .. tip:: Dealing with Different Sizes
 
    Dealing with different sized images and different sized outputs is tricky.

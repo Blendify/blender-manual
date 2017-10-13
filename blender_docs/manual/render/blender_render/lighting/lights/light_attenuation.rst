@@ -422,8 +422,8 @@ We can see this in the Fig. :ref:`fig-bi-light-attenuation-inverse-square` image
 
 .. _fig-bi-light-attenuation-inverse-square:
 
-.. list-table::
-   Inverse Square selected. (with the specified distances).
+.. list-table:: Inverse Square selected.
+   (with the specified distances).
 
    * - .. _fig-bi-light-attenuation-inverse-square10:
 
@@ -486,8 +486,8 @@ Note that there is no abrupt transition at the sphere:
 the light attenuation is progressive
 (for more details, see the descriptions of the `Sphere`_ and `Falloff types`_ above).
 
-.. list-table::
-   Sphere enabled with the specified distances, Inverse Linear light falloff.
+.. list-table:: Sphere enabled with the specified distances.
+   Inverse Linear light falloff.
 
    * - .. _fig-bi-light-attenuation-sphere10:
 

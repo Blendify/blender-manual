@@ -48,7 +48,6 @@ Add the following command to ``~/.bashrc`` or ``~/.profile`` pointing to the dir
 
    export PATH=/path/to/blender/directory:$PATH
 
-
 .. tip::
 
    If you use daily builds and update Blender frequently,

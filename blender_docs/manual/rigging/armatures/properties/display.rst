@@ -9,7 +9,6 @@ Display Panel
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Object Data --> Display`
 
-
 .. figure:: /images/rigging_armatures_properties_display-panel.png
 
    The Display panel.

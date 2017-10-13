@@ -26,4 +26,3 @@ Undo
    :kbd:`Ctrl-Z`
 Redo
    :kbd:`Ctrl-Y` or :kbd:`Ctrl-Shift-Z` -- You can use this if you used "undo" a bit too often.
-

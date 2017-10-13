@@ -87,7 +87,6 @@ The typical workflow for pinning:
    Move the character to its initial pose over several frames so the physics engine can simulate the clothing moving.
    Very fast movements and teleport jumps can break the physics simulation.
 
-
 .. Note that if you move the cloth object ''after'' you have already run some simulations,
    you must unprotect and clear the cache; otherwise, Blender will use the position of the
    current/cached mesh's vertices when trying to represent where they are.

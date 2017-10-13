@@ -49,7 +49,6 @@ Factor
    defined in the :ref:`Render Dimensions Panel <render-tab-dimensions>`.
    The factor changes according to the defined curve.
 
-
 .. hint:: Output values
 
    The :doc:`Map Value </compositing/types/vector/map_value>`

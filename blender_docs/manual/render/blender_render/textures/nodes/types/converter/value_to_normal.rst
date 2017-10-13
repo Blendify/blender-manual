@@ -32,4 +32,3 @@ Outputs
 
 Normal
    Standard normal output.
-

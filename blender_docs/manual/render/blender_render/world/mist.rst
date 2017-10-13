@@ -35,7 +35,6 @@ Falloff
    The decay rate of the mist (*Quadratic*, *Linear*, *Inverse Quadratic*).
    These settings control the rate of change of the mist's strength further and further into the distance.
 
-
 .. note:: Mist distances
 
    To visualize the mist distances in the 3D View, select your camera, go to the camera menu, and enable *Show Mist*.

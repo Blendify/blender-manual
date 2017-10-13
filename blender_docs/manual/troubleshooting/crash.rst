@@ -39,4 +39,3 @@ This file contains a log of tools used up until the crash as well as some other 
 
 When reporting bugs on crashes it can be helpful to attach this file to your reports,
 especially when others are unable to reproduce the crash.
-

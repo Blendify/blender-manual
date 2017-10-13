@@ -9,7 +9,6 @@ Filter Panel
 
    | Panel:    :menuselection:`Properties region --> Strip --> Filter`
 
-
 .. figure:: /images/editors_sequencer_properties_filter.png
    :align: right
 

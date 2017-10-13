@@ -178,7 +178,6 @@ Properties
 Mode
    ITU 601, ITU 709, Jpeg
 
-
 .. tip::
 
    If running these channels through a Color Ramp node to adjust value,

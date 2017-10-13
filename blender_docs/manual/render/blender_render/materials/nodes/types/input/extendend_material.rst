@@ -48,4 +48,3 @@ Specular
    Value of the specular color.
 AO
    Value of the Ambient Occlusion.
-

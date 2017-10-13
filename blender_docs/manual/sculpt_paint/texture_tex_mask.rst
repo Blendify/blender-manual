@@ -109,5 +109,3 @@ Pressure Masking
       Simply selects between zero and one based on stylus pressure.
    Ramp
       Distributes the mask effect above the pressure value.
-
-

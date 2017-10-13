@@ -275,7 +275,6 @@ Dissolve Vertices :kbd:`Ctrl-X`
    Deletes the selected control points, while the remaining segment is fitted to the deleted curve
    by adjusting its handles.
 
-
 .. list-table::
 
    * - .. figure:: /images/editing_curves_delete-selected.png

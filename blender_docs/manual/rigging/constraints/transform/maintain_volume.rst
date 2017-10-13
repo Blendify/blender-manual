@@ -24,7 +24,6 @@ Volume
 Space
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
 
-
 .. seealso::
 
    `Harkyman on the development of the Maintain Volume constraint

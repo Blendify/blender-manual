@@ -72,7 +72,6 @@ and it will show you a button for stopping your capture.
 
    Info Header with the Capture Stop Button.
 
-
 .. note:: The only way to stop the Screencast
 
    Pressing the Stop button in the header of the Info Editor is the only way to stop the Screencast capture.

@@ -62,8 +62,7 @@ This mode is good for:
           a luma around 40% for the sea, and a luma of 10-20% for the mountains,
           growing around 40% for the sunny part.
 
-
-.. Note::
+.. note::
 
    Note that the pictures (first green frame, at the top) are only 50px high,
    to limit the number of curves displayed in the *Luma waveform*

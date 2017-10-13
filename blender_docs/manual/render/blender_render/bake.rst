@@ -29,12 +29,14 @@ the UV of a similarly unwrapped low-resolution mesh.
 The low-resolution mesh will look just like the high-resolution,
 but will have much fewer faces/polygons.
 
+
 .. rubric:: Advantages
 
 - Can significantly reduce render times.
 - Texture painting made easier.
 - Reduced polygon count.
 - Repeated renders are made faster, multiplying the time savings.
+
 
 .. rubric:: Disadvantages
 
@@ -192,7 +194,6 @@ Select to Active
       The resulting normal map can then be applied to make the low poly object look more detailed.
    Bias
       Bias towards further away from the object (in Blender units)
-
 
 .. note:: Mesh Must be Visible in Render
 

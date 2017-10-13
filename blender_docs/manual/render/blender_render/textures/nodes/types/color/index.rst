@@ -3,7 +3,6 @@
   Color Nodes
 ###############
 
-
 .. toctree::
    :maxdepth: 1
 
@@ -12,4 +11,3 @@
    rgb_curves.rst
    hue_saturation.rst
    combine_separate.rst
-

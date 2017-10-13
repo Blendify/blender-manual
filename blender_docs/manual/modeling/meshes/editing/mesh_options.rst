@@ -89,4 +89,3 @@ Live Unwrap
 Double Threshold
    Defines the maximum distance between vertices that are merged by
    the *AutoMerge Editing* tool.
-

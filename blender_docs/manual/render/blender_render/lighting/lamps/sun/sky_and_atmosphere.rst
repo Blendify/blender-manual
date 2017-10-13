@@ -8,7 +8,6 @@ Sky & Atmosphere
 
    Sky & Atmosphere panel.
 
-
 This panel allows you to enable an effect that simulates various properties of real sky and
 atmosphere: the scattering of sunlight as it crosses the kilometers of air overhead.
 For example, when the Sun is high, the sky is blue (and the horizon, somewhat whitish).
@@ -36,7 +35,6 @@ And the rotation around the Z axis determines the position of the sun around the
    :width: 700px
 
    The dashed "light line" of the Sun lamp crossing the camera focal point.
-
 
 In fact, to have a good idea of where the sun is in your world,
 relative to the camera in your 3D View, you should always try to have the dashed "light line"
@@ -150,9 +148,7 @@ Examples
 
 First, let us see what happens when we modify the orientation of the sun:
 
-
-.. list-table::
-   Variations in Sun orientation, Sun Size to 5.0, all other settings to default.
+.. list-table:: Variations in Sun orientation, Sun Size to 5.0, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-midday.jpg
           :width: 200px
@@ -181,8 +177,7 @@ And now, the effects of various settings (examples created with
 `this 2.4 blend-file
 <https://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-Settings.blend>`__):
 
-.. list-table::
-   Variations in Turbidity parameter, all other settings to default.
+.. list-table:: Variations in Turbidity parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
           :width: 200px
@@ -208,8 +203,7 @@ And now, the effects of various settings (examples created with
 Sky
 ---
 
-.. list-table::
-   Variations in Horizon Brightness parameter, all other settings to default.
+.. list-table:: Variations in Horizon Brightness parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_bright0_0.jpg
           :width: 200px
@@ -231,8 +225,7 @@ Sky
 
           Horizon Brightness: 1.13.
 
-.. list-table::
-   Variations in Horizon Spread parameter, all other settings to default.
+.. list-table:: Variations in Horizon Spread parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_spread0_7.jpg
           :width: 200px
@@ -254,8 +247,7 @@ Sky
 
           Horizon Spread: 5.0.
 
-.. list-table::
-   Variations in Sun Brightness parameter, all other settings to default.
+.. list-table:: Variations in Sun Brightness parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_bright0_2.jpg
           :width: 200px
@@ -277,8 +269,7 @@ Sky
 
           Sun Brightness: 1.0.
 
-.. list-table::
-   Variations in Sun Size parameter, all other settings to default.
+.. list-table:: Variations in Sun Size parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_size2_0.jpg
           :width: 200px
@@ -300,8 +291,7 @@ Sky
 
           Sun Size: 10.0.
 
-.. list-table::
-   Variations in Back Light parameter, Sun Bright to 2.5, all other settings to default.
+.. list-table:: Variations in Back Light parameter, Sun Bright to 2.5, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-1_0.jpg
           :width: 200px
@@ -329,8 +319,7 @@ Atmosphere
 
 For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to 2.0.
 
-.. list-table::
-   Variations in Sun Intensity parameter, all other settings to default.
+.. list-table:: Variations in Sun Intensity parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_1.jpg
           :width: 200px
@@ -352,8 +341,7 @@ For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to 2.0.
 
           Sun Intensity: 10.0.
 
-.. list-table::
-   Variations in Inscattering parameter, all other settings to default.
+.. list-table:: Variations in Inscattering parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_1.jpg
           :width: 200px
@@ -375,8 +363,7 @@ For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to 2.0.
 
           Inscattering: 1.0.
 
-.. list-table::
-   Variations in Extinction parameter, all other settings to default.
+.. list-table:: Variations in Extinction parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-extinction0_0.jpg
           :width: 200px
@@ -398,8 +385,7 @@ For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to 2.0.
 
           Extinction: 1.0.
 
-.. list-table::
-   Variations in Distance parameter, all other settings to default.
+.. list-table:: Variations in Distance parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-distance1_0.jpg
           :width: 200px

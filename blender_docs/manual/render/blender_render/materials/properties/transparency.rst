@@ -104,7 +104,6 @@ of the material. When you actually look through a plain sphere of glass,
 you will notice that the background is upside-down and distorted:
 this is all because of the Index of Refraction of glass.
 
-
 .. note:: Enable Raytracing
 
    To get ray-traced transparency, you need to:

@@ -61,4 +61,3 @@ Sometimes, the video footage includes spurious jumps and tilting movements, like
 Based on some tracked image elements, the
 :doc:`/editors/movie_clip_editor/tracking/clip/properties/stabilization/index`
 is able to detect and compensate such movements to improve the quality of the final result.
-

@@ -8,7 +8,6 @@ Materials can be linked to objects and Object's data in the :menuselection:`mate
 Here is where you can manage how materials are linked to objects, meshes, etc.
 and activate a material for editing in the rest of the panels.
 
-
 .. figure:: /images/render_blender-render_materials_assigning_material-panel-object-mode.png
 
    Material panel.

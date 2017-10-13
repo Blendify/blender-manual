@@ -114,4 +114,3 @@ Examples of valid units include:
    - Commas are optional.
    - You can mix between metric and imperial even though you can only show one at a time.
    - Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
-

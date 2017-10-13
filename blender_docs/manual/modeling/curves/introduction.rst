@@ -37,7 +37,6 @@ They are also widely used in animation, both as for objects to move along (see c
 and as :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
 to change the properties of objects as a function of time.
 
-
 .. seealso:: Modifiers & Constraints
 
    - :doc:`Curve Modifier </modeling/modifiers/deform/curve>`

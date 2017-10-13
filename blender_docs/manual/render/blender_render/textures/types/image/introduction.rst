@@ -114,4 +114,3 @@ adding image details to a range of faces of a mesh.
 They work together if the procedural texture maps to the UV coordinates specified in your layout.
 As discussed earlier, you can map multiple UV textures to different images using
 the UV Coordinate mapping system in the Map Input panel.
-

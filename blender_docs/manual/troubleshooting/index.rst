@@ -22,4 +22,3 @@ Some applications which integrate themselves into your system can cause problem'
 
 Here is a list of
 `known compatibility issues <https://wiki.blender.org/index.php/Dev:Source/Development/Compatibility>`__.
-

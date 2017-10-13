@@ -59,7 +59,6 @@ Mask
    A generated rectangular mask merged with the input mask.
    The created mask is the size of the current scene render dimensions.
 
-
 .. tip::
 
    For soft edges, pass the output mask through a slight :doc:`blur node </compositing/types/filter/blur_node>`.

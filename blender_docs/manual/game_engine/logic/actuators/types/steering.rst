@@ -49,6 +49,7 @@ Axis
 Axis N
    Use the Normal of the Navigation Mesh to align the up vector of the game object.
 
+
 .. rubric:: Self Terminated
 
 Disabled

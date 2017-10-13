@@ -141,7 +141,6 @@ Minimum / Maximum
    The lowest vertex-weight (blue) will become *G Min*, the highest value
    (red) becomes *G Max* (please note that the blue-red color scale may be altered by User Preferences).
 
-
 .. tip:: For now all is applied to single vertices
 
    For now we have discussed vertex movement independent of each other, similar to particles.

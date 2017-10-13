@@ -104,7 +104,6 @@ To use one, just click on it.
 
    List of available materials.
 
-
 .. tip:: Searching for Materials
 
    The search field at the bottom of the material list allows you to search the names in the list.

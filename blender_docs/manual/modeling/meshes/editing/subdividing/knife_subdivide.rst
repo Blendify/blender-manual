@@ -189,5 +189,3 @@ Unconnected Cuts
 Cuts that begin or end in the middle of a face, will be ignored.
 
 *This is constrained by the kinds of geometry Blender can represent.*
-
-

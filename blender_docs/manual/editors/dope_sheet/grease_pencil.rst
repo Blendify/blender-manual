@@ -57,5 +57,3 @@ Insert Keyframe
 Insert Keyframe :kbd:`I` can be used for creating blank Grease Pencil frames at a particular frame.
 It will create blank frames if *Additive Drawing* is disabled, otherwise
 it will make a copy of the active frame on that layer, and use that.
-
-

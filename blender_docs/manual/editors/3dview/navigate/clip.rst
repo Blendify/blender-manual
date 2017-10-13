@@ -80,7 +80,6 @@ Render Border
 Rectangular camera space clipping in and outside the Camera view.
 ToDo.
 
-
 .. seealso::
 
    :ref:`3dview-nav-zoom-border`.

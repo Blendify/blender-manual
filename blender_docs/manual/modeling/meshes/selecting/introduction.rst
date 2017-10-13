@@ -239,9 +239,9 @@ Inverse :kbd:`Ctrl-I`
 Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 
+..
 
 More :kbd:`Ctrl-NumpadPlus`
    Propagates selection by adding geometry that are adjacent to selected elements.
 Less :kbd:`Ctrl-NumpadMinus`
    Deselects geometry that form the bounds of the current selection.
-

@@ -32,7 +32,6 @@ Outputs
 
 This node has no outputs.
 
-
 .. note:: Effective Output Node
 
    The only Output node that is used for the Material in the end

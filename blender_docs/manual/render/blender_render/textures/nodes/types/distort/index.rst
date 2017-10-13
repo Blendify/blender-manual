@@ -12,4 +12,3 @@ These nodes allow you to change the mapping of a texture.
    rotate.rst
    scale.rst
    translate.rst
-

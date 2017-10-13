@@ -48,7 +48,6 @@ The *Noise Basis* settings makes the procedural textures extremely flexible (esp
 
 The *Noise Basis* governs the structural appearance of the texture:
 
-
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-blender-original.jpg

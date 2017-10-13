@@ -65,7 +65,6 @@ Examples
 
           Smooth Shading with Edge Split and Subdivision Surface.
 
-
 .. note::
 
    Splitting edges can also be performed manually in Edit Mode using:

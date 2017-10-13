@@ -48,7 +48,6 @@ Legacy Mesh Format
    Save the blend-file, but ignore faces with more than four vertices ("n-gons")
    so that older versions of Blender (before 2.63) can open it.
 
-
 .. seealso::
 
    :ref:`Auto Save <troubleshooting-file-recovery>`

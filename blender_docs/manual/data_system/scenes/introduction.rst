@@ -65,7 +65,6 @@ Add ``+``
 Delete ``X``
    You can delete the current scene by clicking the *X* next to the name in the Info Editor.
 
-
 .. seealso:: Linking to a Scene
 
    You can :ref:`link <data-system-linked-libraries-make-link>` any object from one scene to another.

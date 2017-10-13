@@ -20,6 +20,7 @@ Strand Primitive
    Rather than rendering using the existing system,
    all strand segments in a part are sorted front to back and rendered in that order.
 
+
 .. rubric:: Strand Primitives
 
 - Are more memory efficient and faster, to make rendering of large amounts of fur and grass possible.
@@ -36,6 +37,7 @@ Strand Primitive
   (you can use *Environment Mapping* for that).
 - Have shape problems if they are rendered with a greater width.
 - Cannot carry a UV-Texture along the strand.
+
 
 .. rubric:: Polygon strands
 
@@ -129,7 +131,6 @@ Strands can be textured along the strand, i.e. from root to tip. To do that you 
 Pretty much the most important setting is shown in Fig. :ref:`fig-bi-material-strands-alpha`,
 how to fade the tip of a strand to alpha to make nice, fuzzy-looking hair.
 Normally you would use a linear blend texture for this.
-
 
 .. list-table::
 

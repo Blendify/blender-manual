@@ -46,7 +46,6 @@ A basic workflow looks like this:
    It can be found in :menuselection:`3D View --> Object --> Quick Effects --> Quick Smoke`,
    or in the :kbd:`Spacebar` search box.
 
-
 .. note::
 
    Blender's smoke simulation is based on the paper

@@ -43,6 +43,7 @@ controls on the *System* tab of the :doc:`User Preferences </preferences/system>
 The viewport shading controls the appearance of all objects in a scene,
 but this can be overridden for individual objects using the *Display panel* in their *Object Properties*.
 
+
 .. rubric:: Keyboard Shortcuts
 
 .. list-table::

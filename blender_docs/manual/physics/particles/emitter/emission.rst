@@ -91,7 +91,6 @@ Grid
    Random
       Add a random offset to grid locations.
 
-
 .. tip:: Your mesh must be :term:`manifold` to emit particles from the volume.
 
    Some modifiers like the Edge Split Modifier break up the surface,

@@ -57,4 +57,3 @@ Outputs
 
 Vector
    Standard vector output.
-

@@ -41,4 +41,3 @@ Outputs
 
 Value
    A value in the range between 0 and 1.
-

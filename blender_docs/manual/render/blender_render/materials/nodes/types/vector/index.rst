@@ -18,4 +18,3 @@ surface normals are vectors. Vectors are also important for calculating shading.
    mapping.rst
    normal.rst
    transform.rst
-

@@ -43,7 +43,6 @@ Visually, the result is to kill the reds and bring up (by "symmetry" -- the real
 the blues and greens. Physically, it is the same effect as shining a cyan light onto a chocolate bar. Emotionally,
 vegetation becomes more lush, water becomes more Caribbean and inviting, skies become friendlier.
 
-
 .. note::
 
    This effect reduces the global luminosity of the picture

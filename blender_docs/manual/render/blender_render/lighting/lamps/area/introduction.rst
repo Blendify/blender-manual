@@ -45,9 +45,7 @@ Area light ray-traced shadows are described here:
 When an *Area* light source is selected,
 the *Shadow* panel has the following default layout:
 
-
-.. list-table::
-   The *Shadow* panel when *Area* light source is selected.
+.. list-table:: The *Shadow* panel when *Area* light source is selected.
 
    * - .. figure:: /images/lighting-lamps-area-adap_qmc.jpg
           :width: 320px

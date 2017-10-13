@@ -18,4 +18,3 @@ You can select bones based on their group and/or layer, through the *Select Grou
   use the *In Same Group* entry :kbd:`Shift-G-Numpad1`.
 - To select all bones belonging to the same layer(s) as the selected ones,
   use the *In Same Layer* entry :kbd:`Shift-G-Numpad2`.
-

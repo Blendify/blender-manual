@@ -150,7 +150,6 @@ Speed
 Weight
    See Track :ref:`Weight <clip-tracking-weight>`.
 
-
 .. hybrid tracker:
    The algorithm tracks an image larger than the defined pattern first to find the general direction of motion.
    Then it tracks a slightly smaller image to refine the position from the first step and make the final

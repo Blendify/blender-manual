@@ -51,7 +51,6 @@ A meta strip can be moved and duplicated like a normal strip.
    | Menu:     :menuselection:`Add --> Add Meta-Strips`
    | Hotkey:   :kbd:`Shift-G`
 
-
 .. list-table::
 
    * - .. figure:: /images/editors_nla_meta_strips_01.png

@@ -23,5 +23,3 @@ Absolute
 The shape key data, the deformation of the object's vertices,
 is usually modified in the 3D View by selecting a shape key,
 then moving the object vertices to a new position.
-
-

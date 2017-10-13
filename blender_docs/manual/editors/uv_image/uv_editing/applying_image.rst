@@ -55,7 +55,6 @@ click "Use Alpha" in the Map Image panel.
 Full details of using Image textures are on the
 :doc:`Image Textures </render/blender_render/textures/types/image/index>` page.
 
-
 .. note:: Material is Required for Rendering
 
    You can perform UV Texturing on a mesh within Blender without assigning a material,

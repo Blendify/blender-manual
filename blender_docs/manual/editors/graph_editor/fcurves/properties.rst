@@ -48,4 +48,3 @@ Left/Right Handle
 
    Handle Type
       See :ref:`editors-graph-fcurves-settings-handles`.
-
