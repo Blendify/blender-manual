@@ -72,6 +72,7 @@ dict_custom = {
     "unicode",
     "url",
     "vert", "verts",
+    "volumetric",
     "voxel", "voxels",
     "wiki",
 
@@ -162,6 +163,8 @@ dict_ignore = {
     "rhs",
     "smpte",
     "tcp",
+    "rgb",
+    "rgba",
 
     # file formats
     "fbx",

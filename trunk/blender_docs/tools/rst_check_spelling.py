@@ -37,6 +37,15 @@ def find_vcs_root(test, dirs=(".svn", ".git", ".hg"), default=None):
     return default
 
 
+def check_word(w):
+    if not w:
+        return True
+    w_lower = w.lower()
+    if w_lower in dict_custom or w_lower in dict_ignore:
+        return True
+    return dict_spelling.check(w)
+
+
 def check_spelling_body(text):
     for w in text.split():
         # skip directive args (figure target for eg), could do differently?
@@ -62,15 +71,12 @@ def check_spelling_body(text):
 
             w_lower = w.lower()
 
-            if w_lower in dict_custom or w_lower in dict_ignore:
-                continue
-
             if USE_ONCE and w_lower in once_words:
                 continue
 
-            if dict_spelling.check(w):
+            if check_word(w):
                 pass
-            elif "-" in w and all(w_split == "" or dict_spelling.check(w_split) for w_split in w.split("-")):
+            elif "-" in w and all(check_word(w_split) for w_split in w.split("-")):
                 pass  # all words split by dash are correct, also pass
             else:
                 bad_words.add(w)
