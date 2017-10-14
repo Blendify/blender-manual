@@ -95,7 +95,7 @@ Frame Sequence Workflow
 #. In the Output panel set up your animation to be rendered out as images,
    generally using a format that does not compromise any quality.
 #. Choose the output path and file type in the Output panel as well, for example ``//render/my-anim-``.
-#. Confirm the range of your animation frame Start and End.
+#. Confirm the range of your animation (frame Start and End).
 #. Save your blend-file.
 #. Press the big *Animation* button.
    Do a long task (like sleeping, playing a video game, or cleaning your driveway)

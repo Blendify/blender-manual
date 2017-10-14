@@ -81,7 +81,7 @@ and entering new values for the *Tail* and *Head* number buttons.
 Note that when you resize a bone (either by directly scaling it,
 or by moving one of its joints), Blender automatically adjusts the end-radii of its envelope
 proportionally to the size of the modification. Therefore,
-it is advisable to place all the bones first, and only then edit these properties.
+it is advisable to place all the bones first, and only then edit their properties.
 
 
 Scale Envelope Distance
@@ -152,7 +152,7 @@ ToDo.
 Bone Roll
 =========
 
-In *Edit Mode*, you can control of the bones roll
+In *Edit Mode*, you can control the bone roll
 (i.e. the rotation around the Y axis of the bone).
 
 However, after editing the armature, or when using :term:`euler rotation`,

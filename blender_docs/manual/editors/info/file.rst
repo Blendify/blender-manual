@@ -64,7 +64,7 @@ External Data
       Make all paths to external files absolute. Absolute ones have full path from the system's root.
    Report Missing Files
       This option is useful to check if there are links to unpacked files that no longer exist.
-      After selecting this option a warning message will appear in the Info editors header.
+      After selecting this option, a warning message will appear in the Info editor's header.
       If no warning is shown, there are no missing external files.
    Find Missing Files
       In case we have broken links in our blend file, this option will help us fix the problem.

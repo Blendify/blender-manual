@@ -19,7 +19,7 @@ This is an important point to understand,
 because selecting bones' joints only might lead to non-obvious behavior,
 with respect to which bone you actually select, see the.
 
-Note that unlike the mesh draw type the armature draw type has no effect on selection
+Note that unlike the mesh draw type, the armature draw type has no effect on selection
 behavior. In other words,
 you can select a bone's joint or body the same way regardless of the bone visualization chosen.
 
@@ -52,7 +52,7 @@ when the selection status of bones' joints is inverted, a new set of bones is se
      - .. figure:: /images/rigging_armatures_bones_selecting_three-ends.png
           :width: 320px
 
-          The result of the inverse selection :kbd:`Ctrl-I`
+          The result of the inverse selection :kbd:`Ctrl-I`:
           the bones joints selection has been inverted, and not the bones selection.
 
 
