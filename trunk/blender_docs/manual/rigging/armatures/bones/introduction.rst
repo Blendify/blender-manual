@@ -34,8 +34,8 @@ Control Bones
 Are Bones which act in a similar way to switches,
 in that, they control how other bones or objects react when they are transformed.
 A Control Bone could for example act as a sliding switch control when the bone is in one
-position to the left it could indicate to other bones that they react in a particular way when
-transformed, when the Control Bone is positioned to the right,
+position to the left, it could indicate to other bones that they react in a particular way when
+transformed, and when the Control Bone is positioned to the right,
 transforming other bones or objects could do something completely different.
-Control Bones are not directly used to alter the positions of vertices,
+Control Bones are not directly used to alter the positions of vertices;
 in fact, Control Bones often have no vertices directly associated with themselves.
