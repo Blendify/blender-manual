@@ -53,7 +53,7 @@ when the selection status of bones' joints is inverted, a new set of bones is se
           :width: 320px
 
           The result of the inverse selection :kbd:`Ctrl-I`:
-          the bones joints selection has been inverted, and not the bones selection.
+          The bones joints selection has been inverted, and not the bones selection.
 
 
 Selecting connected Bone Joints

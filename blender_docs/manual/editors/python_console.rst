@@ -58,8 +58,8 @@ We will make use of this a lot to help our learning the API faster.
 Now that you got a hang of this, lets proceed to investigate some of modules in ``bpy``.
 
 
-Before tinkering with the modules..
------------------------------------
+Before tinkering with the modules
+---------------------------------
 
 If you look at the 3D View in the default Blender scene, you will notice three objects: Cube,
 Lamp and Camera.
@@ -69,7 +69,7 @@ Lamp and Camera.
 - All objects are data in the blend-file.
 - There are operators/functions that create and modify these objects.
 
-For all the scenarios listed above (not all were listed, mind you..)
+For all the scenarios listed above (not all were listed, mind you...)
 the ``bpy`` module provides functionality to access and modify data.
 
 

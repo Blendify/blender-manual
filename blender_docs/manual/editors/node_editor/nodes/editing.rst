@@ -147,9 +147,9 @@ Toggle Node Preview
 Toggle Hidden Node Sockets
    :kbd:`Ctrl-H`
 Toggle Node Options
-   ..
+   ToDo.
 Collaps and Hide Unused Sockets
-   ..
+   ToDo.
 
 
 Layers

@@ -121,7 +121,7 @@ Relative To
    Selection
       The median point of the selection.
    3D Cursor
-      ..
+      ToDo.
    Scene Origin
       The global origin.
 Align X, Y, Z

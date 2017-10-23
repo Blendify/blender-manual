@@ -43,7 +43,7 @@ Invert
       Red, Green, Blue, Alpha
 Pack
    Pack Image
-      ..
+      ToDo.
    Pack As PNG
       Packs the image inside the blend-file.
       See :ref:`pack-unpack-data`.
