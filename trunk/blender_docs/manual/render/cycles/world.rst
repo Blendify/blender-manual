@@ -61,7 +61,7 @@ Factor
 Distance
    Distance from shading point to trace rays.
    A shorter distance emphasizes nearby features,
-   while longer distances make it also take objects further away into account.
+   while longer distances make it also take objects farther away into account.
 
 Lighting from ambient occlusion is only applied to diffuse reflection BSDFs;
 glossy or transmission BSDFs are not affected.
@@ -77,14 +77,24 @@ An alternative method of using Ambient Occlusion on a per-shader basis is to use
 Mist Pass
 =========
 
-Shown when the Mist pass is enabled.
+Shown when the Mist pass is enabled. Mist values will range from 0.0-1.0 and are available from the
+RenderLayers node.
 
 Start
-   ToDo.
+   Defines the beginning of the mist range from the camera.
 Depth
-   ToDo.
+   Defines the length over which mist values will be provided.
 Falloff
-   ToDo.
+   The curve function that determines the mist values within its depth.
+
+   Quadratic
+      Uses the same calculation as light falloff (:math:`1\over{x^2}`) and provides the smoothest
+      transition from transparent (0.0) to opaque (1.0).
+   Linear
+      Has a steeper start than quadratic (:math:`1\over{x}`).
+   Inverse Quadratic
+      Has the steepest start (:math:`1\over{\sqrt{x}}`) and approaches 1.0 faster than the other two
+      functions.
 
 .. tip::
 

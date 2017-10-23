@@ -77,7 +77,7 @@ Z
 Mist
    Distance to visible surfaces, mapped to the 0.0-1.0 range.
    When enabled, settings are in :ref:`World tab <render-cycles-integrator-world-mist>`.
-   This pass can be used in compositing to add fade out object that are further away.
+   This pass can be used in compositing to fade out objects that are farther away.
 
 Normal
    Surface normal used for shading.
