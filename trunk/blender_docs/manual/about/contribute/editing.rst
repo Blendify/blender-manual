@@ -53,6 +53,7 @@ to not waste people's effort and to attain a better Blender manual as a result.
    Communication is a very important step in community development.
    Manual maintainers and the general community can also point to areas that are in need of big or small changes.
 
+
 Getting help/answers
 --------------------
 

@@ -79,11 +79,11 @@ Seams
 =====
 
 Mark Seam
-   ..
+   ToDo.
 Clear Seam
-   ..
+   ToDo.
 Seams From Island
-   ..
+   ToDo.
 
 
 .. _bpy.ops.uv.pack_islands:

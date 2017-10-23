@@ -28,7 +28,7 @@ Select Linked
    This operator selects all UVs that are connected to currently selected UVs :kbd:`Ctrl-L`.
    This works similarly to the tools in 3D View.
 More/Less
-   ..
+   ToDo.
 
 .. Ed. Unlink not working? Ctrl-shift-L is key-mapped.
 
