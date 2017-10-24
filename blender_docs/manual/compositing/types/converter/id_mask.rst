@@ -25,7 +25,7 @@ Properties
 ==========
 
 Index
-   Selection of the preciously specified index.
+   Selection of the previously specified index.
 Anti-Aliased
    This post-process function refines the mask. See :term:`anti-aliasing`.
 
@@ -39,7 +39,7 @@ Alpha
 
 .. note::
 
-   In Blender Internal if a transparent object in front of another,
+   In Blender Internal if a transparent object is in front of another,
    the mask will not reflect partial visibility of the object behind.
 
 

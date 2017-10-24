@@ -96,7 +96,7 @@ The resulting image is a composite of the two source images.
           Animated See-Through/Sheer SFX using Alpha Over on Frame 11.
 
 In this example, we use the Factor control to make a sheer cloth or onion-skin effect.
-This effect can be animate, allowing the observer to "see-through" walls
+This effect can be animated, allowing the observer to "see-through" walls
 (or any foreground object) by hooking up a Time node to feed the Factor socket as shown below.
 In this example, over the course of 30 frames, the Time node makes the Alpha Over node produce
 a picture that starts with the background cliff image, and slowly bleeds through the cube.

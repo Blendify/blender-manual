@@ -32,5 +32,5 @@ Split Channels
 .. seealso::
 
    - See :ref:`Scene Audio <data-scenes-audio>` settings.
-   - See :ref:`Audio Output Settings <render-output-video-encoding-audio>` settings.
+   - See :ref:`Audio Output <render-output-video-encoding-audio>` settings.
    - See :ref:`Audio Preferences <prefs-system-sound>`.

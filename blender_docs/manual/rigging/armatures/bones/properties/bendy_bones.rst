@@ -136,7 +136,7 @@ Ease In, Out
 
    These values are proportional to the default length,
    which of course automatically varies depending on bone length,
-   angle with the handle reference, and so on.
+   angle with the reference handle, and so on.
 
 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
