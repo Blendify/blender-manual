@@ -10,12 +10,12 @@ Vertices are turned into edges and edges will form faces.
 
 .. list-table::
 
-   * - .. figure:: /images/extrude-vert.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_vert.png
           :width: 320px
 
           Single vertex extruded.
 
-     - .. figure:: /images/extrude-edge.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_edge.png
           :width: 320px
 
           Single edge extruded.
@@ -48,17 +48,17 @@ The inner region of the selection gets moved unchanged with the extrusion.
 
 .. list-table::
 
-   * - .. figure:: /images/extrude-face-before.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-before.png
           :width: 200px
 
           Selected face.
 
-     - .. figure:: /images/extrude-face-after.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-after.png
           :width: 200px
 
           During extrude.
 
-     - .. figure:: /images/extrude-face-after-zaxiz.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-after-zaxiz.png
           :width: 200px
 
           Set to Z axis.
@@ -107,17 +107,17 @@ This has several consequences: first, "internal" edges
 
 .. list-table::
 
-   * - .. figure:: /images/extrude-face-multi.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-multi.png
           :width: 200px
 
           Selection of multiple faces.
 
-     - .. figure:: /images/extrude-face-multi-region.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-multi-region.png
           :width: 200px
 
           Extruded using extrude region.
 
-     - .. figure:: /images/extrude-face-multi-individual.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-multi-individual.png
           :width: 200px
 
           Extruded using Extrude Individual.
@@ -146,22 +146,22 @@ To force a vertex or edge selection to extrude as a vertex or edge, respectively
 
 .. list-table::
 
-   * - .. figure:: /images/extrude-verts-before.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_verts-before.png
           :width: 320px
 
           Vertex selected.
 
-     - .. figure:: /images/extrude-verts-after.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_verts-after.png
           :width: 320px
 
           Vertices Only extrude.
 
-   * - .. figure:: /images/extrude-edges-before.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_edges-before.png
           :width: 320px
 
           Edge selected.
 
-     - .. figure:: /images/extrude-edges-after.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_edges-after.png
           :width: 320px
 
           Edge Only extrude.

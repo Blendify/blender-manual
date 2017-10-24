@@ -103,7 +103,7 @@ Its usage is the same as built-in filters,
 but you must select *Custom Filter* in *2D Filter* actuator,
 then write shader program into the Text Editor, and then place shader script name on actuator.
 
-.. figure:: /images/custom_2d_filter.jpg
+.. figure:: /images/game-engine_logic_actuators_types_2d-filters_custom-2d.jpg
 
    2D Filters: Custom Filter.
 
@@ -128,10 +128,10 @@ Built in filters
 
 .. list-table::
 
-   * - .. figure:: /images/sepia_render-full.jpg
+   * - .. figure:: /images/game-engine_logic_actuators_types_2d-filters_sepia-render-full.jpg
 
           Sepia Filter.
 
-     - .. figure:: /images/bge_sobel_render-full.jpg
+     - .. figure:: /images/game-engine_logic_actuators_types_2d-filters_sobel-render-full.jpg
 
           Sobel Filter.

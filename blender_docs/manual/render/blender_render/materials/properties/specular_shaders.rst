@@ -49,7 +49,7 @@ metals tend to have colored highlights).
 Technical Details
 -----------------
 
-.. figure:: /images/matgen03.jpg
+.. figure:: /images/render_blender-render_materials_properties_specular-shaders_reflection.jpg
 
    Specular Reflection.
 

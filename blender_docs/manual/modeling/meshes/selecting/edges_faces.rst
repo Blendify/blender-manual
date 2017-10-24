@@ -6,7 +6,7 @@ Edges & Faces
 Edges
 =====
 
-.. figure:: /images/selection-mode_buttons_edge-activated.png
+.. figure:: /images/modeling_meshes_selecting_edges-faces_mode-buttons-edge-activated.png
 
    Buttons for the selection modes.
 
@@ -37,7 +37,7 @@ Note, that if you want to select a loop while being in vertex select mode,
 you still have to perform the shortcut on an edge -- while you,
 for just selecting vertices, would :kbd:`RMB` on a vertex.
 
-.. figure:: /images/select_edge_loop_example.png
+.. figure:: /images/modeling_meshes_selecting_edges-faces_edge-loop-example.png
 
    An edge loop.
 
@@ -56,7 +56,7 @@ Edge Rings are selected similarly.
 Based on the selection of an edge go to :menuselection:`Select --> Edge Ring`.
 Or use :kbd:`Alt-Ctrl-RMB` on an edge.
 
-.. figure:: /images/select_edge_ring_example.png
+.. figure:: /images/modeling_meshes_selecting_edges-faces_edge-ring-example.png
 
    An Edge Ring.
 
@@ -75,7 +75,7 @@ Or use :kbd:`Alt-Ctrl-RMB` on an edge.
 Faces
 =====
 
-.. figure:: /images/selection-mode_buttons_face-activated.png
+.. figure:: /images/modeling_meshes_selecting_edges-faces_mode-buttons-face-activated.png
 
    Activated the Face Select Mode.
 
@@ -104,7 +104,7 @@ would select a "cross" with the prior selected face as the middle.
 If you want to avoid switching to Edge Select Mode to select a Face Loop,
 use the :kbd:`Alt-RMB` shortcut.
 
-.. figure:: /images/face-mode_different-loop-selections.png
+.. figure:: /images/modeling_meshes_selecting_edges-faces_face-mode-different-loop-selections.png
 
    Different Loopselect Operations on a grid in Face Select Mode.
 
@@ -126,7 +126,7 @@ use the :kbd:`Alt-RMB` shortcut.
 N-gons in Face Select Mode
 --------------------------
 
-.. figure:: /images/face-mode_ngon_visual-problem.png
+.. figure:: /images/modeling_meshes_selecting_edges-faces_face-mode-ngon-visual-problem.png
 
    N-gon-Face having its center dot inside another face.
 

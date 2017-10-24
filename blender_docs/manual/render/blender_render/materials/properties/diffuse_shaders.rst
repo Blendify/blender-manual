@@ -44,7 +44,7 @@ the amount of light that strikes the surface depends on the incident light angle
 If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance
 (Light re-irradiated in the diffusion phenomenon).
 
-.. figure:: /images/matgen02.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_phenomenon.jpg
 
    Light re-irradiated in the diffusion phenomenon.
 

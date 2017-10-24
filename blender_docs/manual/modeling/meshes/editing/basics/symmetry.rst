@@ -33,12 +33,12 @@ Center
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_snap_to_symmetry.png
+   * - .. figure:: /images/modeling_meshes_editing_basics_snap-to-symmetry.png
           :width: 320px
 
           Before Snap to Symmetry.
 
-     - .. figure:: /images/mesh_snap_to_symmetry_after.png
+     - .. figure:: /images/modeling_meshes_editing_basics_snap-to-symmetry-after.png
           :width: 320px
 
           After Snap to Symmetry.
@@ -67,12 +67,12 @@ Threshold
 
 .. list-table::
 
-   * - .. figure:: /images/symmetrize1.png
+   * - .. figure:: /images/modeling_meshes_editing_basics_symmetrize1.png
           :width: 320px
 
           Mesh before Symmetrize.
 
-     - .. figure:: /images/symmetrize2.png
+     - .. figure:: /images/modeling_meshes_editing_basics_symmetrize2.png
           :width: 320px
 
           Mesh after Symmetrize.

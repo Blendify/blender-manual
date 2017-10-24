@@ -28,12 +28,12 @@ Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces
 
 .. list-table::
 
-   * - .. figure:: /images/fill1.png
+   * - .. figure:: /images/modeling_meshes_editing_faces_closed-perimeter.png
           :width: 320px
 
           A closed perimeter of edges.
 
-     - .. figure:: /images/fill2.png
+     - .. figure:: /images/modeling_meshes_editing_faces_closed-perimeter-filled.png
           :width: 320px
 
           Filled using fill.
@@ -54,7 +54,7 @@ Fill
 The *Fill* option will create *triangular* faces from any group of selected edges
 or vertices, as long as they form one or more complete perimeters.
 
-.. figure:: /images/fill3.png
+.. figure:: /images/modeling_meshes_editing_faces_fill.png
    :width: 300px
 
    Filled using fill.
@@ -63,12 +63,12 @@ Note, unlike creating n-gons, *Fill* supports holes.
 
 .. list-table::
 
-   * - .. figure:: /images/fill1_holes.png
+   * - .. figure:: /images/modeling_meshes_editing_faces_holes.png
           :width: 320px
 
           A closed perimeter of edges with holes.
 
-     - .. figure:: /images/fill2_holes.png
+     - .. figure:: /images/modeling_meshes_editing_faces_holes-filled.png
           :width: 320px
 
           Filled using fill.
@@ -92,12 +92,12 @@ Max Angle
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_beauty_fill_before.png
+   * - .. figure:: /images/modeling_meshes_editing_faces_beauty-fill-before.png
           :width: 320px
 
           Text converted to a mesh.
 
-     - .. figure:: /images/mesh_beauty_fill_after.png
+     - .. figure:: /images/modeling_meshes_editing_faces_beauty-fill-after.png
           :width: 320px
 
           Result of Beauty Fill, :kbd:`Alt-Shift-F`.
@@ -126,12 +126,12 @@ Simple Blending
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_fill_grid_surface_before.png
+   * - .. figure:: /images/modeling_meshes_editing_faces_grid-fill-surface-before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_fill_grid_surface_after.png
+     - .. figure:: /images/modeling_meshes_editing_faces_grid-fill-surface-after.png
           :width: 320px
 
           Grid Fill Result.
@@ -158,17 +158,17 @@ Thickness
 
 .. list-table::
 
-   * - .. figure:: /images/solidify-before.png
+   * - .. figure:: /images/modeling_meshes_editing_faces_solidify-before.png
           :width: 200px
 
           Mesh before solidify operation.
 
-     - .. figure:: /images/solidify-after.png
+     - .. figure:: /images/modeling_meshes_editing_faces_solidify-after.png
           :width: 200px
 
           Solidify with a positive thickness.
 
-     - .. figure:: /images/solidify-after2.png
+     - .. figure:: /images/modeling_meshes_editing_faces_solidify-after2.png
           :width: 200px
 
           Solidify with a negative thickness.
@@ -305,12 +305,12 @@ which means some triangles could remain.
 
 .. list-table::
 
-   * - .. figure:: /images/fill5.png
+   * - .. figure:: /images/modeling_meshes_editing_faces_tris-to-quad-before.png
           :width: 320px
 
           Before converting tris to quads.
 
-     - .. figure:: /images/quadtotris.png
+     - .. figure:: /images/modeling_meshes_editing_faces_tris-to-quad-after.png
           :width: 320px
 
           After converting tris to quads.
@@ -362,12 +362,12 @@ It works on the shared edge between two faces and rotates that edge if the edge 
 
 .. list-table::
 
-   * - .. figure:: /images/rotateedgefacemode1.png
+   * - .. figure:: /images/modeling_meshes_editing_faces_rotate-edge-face-mode1.png
           :width: 320px
 
           Two Faces Selected.
 
-     - .. figure:: /images/rotateedgefacemode2.png
+     - .. figure:: /images/modeling_meshes_editing_faces_rotate-edge-face-mode2.png
           :width: 320px
 
           Full Render.

@@ -252,7 +252,7 @@ Press :kbd:`Ctrl-P` in object mode and select *Vertex* or *Vertex (Triangle)*.
 
 The nearest vertices will be used from each object which is typically what you would want.
 
-.. figure:: /images/parent_vertex_object_mode_example.jpg
+.. figure:: /images/editors_3dview_object_properties_relations_parents_object-mode-example.jpg
 
    Vertex Parent example.
 

@@ -37,7 +37,7 @@ with the above mentioned configuration applied as follows:
 
 .. _fig-meta-intro-underlying:
 
-.. figure:: /images/metaunderlyingstructure.png
+.. figure:: /images/modeling_metas_editing_underlying-structure.png
    :width: 600px
 
    Underlying.
@@ -69,7 +69,7 @@ A negative meta will push away or repel the meshes of positive *Meta* objects.
 
 .. _fig-meta-intro-positive:
 
-.. figure:: /images/metaintersection.jpg
+.. figure:: /images/modeling_metas_editing_intersection.jpg
    :width: 400px
 
    Positive.

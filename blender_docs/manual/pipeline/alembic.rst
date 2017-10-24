@@ -40,7 +40,7 @@ Exporting to Alembic files
 
 This section describes the effect of the different export options.
 
-.. figure:: /images/alembic_export_options.png
+.. figure:: /images/pipeline_alembic_export-options.png
    :align: right
 
    Alembic Export options.

@@ -48,7 +48,7 @@ select it and activate *Scale* mode with :kbd:`S`.
 
 .. _fig-meta-edit-stiffness:
 
-.. figure:: /images/metastiffness.png
+.. figure:: /images/modeling_metas_editing_stiffness.png
    :width: 630px
 
    Stiffness.
@@ -63,7 +63,7 @@ Negative Influence
 
 .. _fig-meta-ball-negative:
 
-.. figure:: /images/metaobject-metaball-negative-ex.jpg
+.. figure:: /images/modeling_metas_editing_negative-influence.jpg
    :width: 630px
 
    Negative.
@@ -101,7 +101,7 @@ Clear and simple!
 Conversion
 ==========
 
-.. figure:: /images/metaconverttomesh.jpg
+.. figure:: /images/modeling_metas_editing_convert-to-mesh.jpg
    :width: 300px
 
    Convert Menu.
@@ -132,7 +132,7 @@ Each meta object in the same "family" is associated with one another as discusse
 
 .. _fig-meta-ball-base:
 
-.. figure:: /images/metaobject-base-ex.jpg
+.. figure:: /images/modeling_metas_editing_base-ex.jpg
    :width: 300px
 
    Meta ball base.
@@ -170,7 +170,7 @@ and you see that both the parent's mesh *and* all of the children's meshes are n
 
 .. _fig-meta-ball-scale:
 
-.. figure:: /images/metaobject-base-scale-ex.png
+.. figure:: /images/modeling_metas_editing_base-scale-ex.png
    :width: 300px
 
    Scaling the "base".

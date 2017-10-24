@@ -130,32 +130,32 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/rip-before.png
+   * - .. figure:: /images/modeling_meshes_editing_vertices_rip-before.png
           :width: 320px
 
           Selected vertex.
 
-     - .. figure:: /images/rip-after.png
+     - .. figure:: /images/modeling_meshes_editing_vertices_rip-after.png
           :width: 320px
 
           Hole created after using rip on vertex.
 
-   * - .. figure:: /images/rip-edges-before.png
+   * - .. figure:: /images/modeling_meshes_editing_vertices_rip-edges-before.png
           :width: 320px
 
           Edges selected.
 
-     - .. figure:: /images/rip-edges-after.png
+     - .. figure:: /images/modeling_meshes_editing_vertices_rip-edges-after.png
           :width: 320px
 
           Result of rip with edge selection.
 
-   * - .. figure:: /images/rip-complexselection-before.png
+   * - .. figure:: /images/modeling_meshes_editing_vertices_rip-complexselection-before.png
           :width: 320px
 
           A complex selection of vertices.
 
-     - .. figure:: /images/rip-complexselection-after.png
+     - .. figure:: /images/modeling_meshes_editing_vertices_rip-complexselection-after.png
           :width: 320px
 
           Result of rip operation.
@@ -186,12 +186,12 @@ it fills in the gap with geometry.
 
 .. list-table::
 
-   * - .. figure:: /images/rip-edges-before.png
+   * - .. figure:: /images/modeling_meshes_editing_vertices_rip-edges-before.png
           :width: 320px
 
           Edges selected.
 
-     - .. figure:: /images/ripfill-result.png
+     - .. figure:: /images/modeling_meshes_editing_vertices_rip-fill-result.png
           :width: 320px
 
           Result of rip fill.
@@ -279,17 +279,17 @@ Clamp :kbd:`Alt` or :kbd:`C`
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_vertexslide1.png
+   * - .. figure:: /images/modeling_meshes_editing_vertices_vertex-slide1.png
           :width: 200px
 
           Selected vertex.
 
-     - .. figure:: /images/modeling_vertexslide2.png
+     - .. figure:: /images/modeling_meshes_editing_vertices_vertex-slide2.png
           :width: 200px
 
           Positioning vertex interactively.
 
-     - .. figure:: /images/modeling_vertexslide3.png
+     - .. figure:: /images/modeling_meshes_editing_vertices_vertex-slide3.png
           :width: 200px
 
           Repositioned vertex.
