@@ -25,7 +25,7 @@ Properties
 Mapping
    Straight to Premul, Premul to Straight
       Conversion in both directions. Premul. stands for Premultiplied.
-      For details on the difference between both way to store alpha values see :term:`Alpha Channel`.
+      For details on the difference between both ways to store alpha values see :term:`Alpha Channel`.
 
 
 Outputs

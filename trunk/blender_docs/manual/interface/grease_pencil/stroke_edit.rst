@@ -63,7 +63,7 @@ Editing
 Header
 ------
 
-Some tools can be access through the 3D View header. e.g. Copy/Paste.
+Some tools can be accessed through the 3D View header. e.g. Copy/Paste.
 
 Onion Skinning
    Toggles :ref:`grease-pencil-onion`.

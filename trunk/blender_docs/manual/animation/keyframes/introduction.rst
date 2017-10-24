@@ -33,7 +33,7 @@ Keyframe Types
 
 For visually distinguish regular keyframes from different animation events or states
 (extremes, breakdowns, or other in betweens)
-there is the possibility the applying different colors on them for visualization.
+there is the possibility of applying different colors on them for visualization.
 
 Keyframe (yellow diamond)
    Normal keyframe.

@@ -16,7 +16,7 @@ All of these nodes do essentially the same thing:
 - Combine: Re/combine an image from it is composite color channels.
 
 These nodes can be used to manipulate each color channel independently.
-Each type is differentiate in the applied :term:`color space`.
+Each type is differentiated in the applied :term:`color space`.
 
 In compositing and texture context each node supports the Alpha channel.
 In the texture context only RGB color space is available.
@@ -28,7 +28,7 @@ For RGBA and HSVA color spaces it is recommended to use the :doc:`/compositing/t
 Some common operation could easier executed with the  :doc:`/compositing/types/color/index`.
 
 
-Separate/Combine RGBA Node
+Separate/Combine RGBA Nodes
 ==========================
 
 .. figure:: /images/compositing_nodes_converter_combine-rgba.png
@@ -112,7 +112,7 @@ Properties
 This node has no properties.
 
 
-Separate/Combine YUVA Node
+Separate/Combine YUVA Nodes
 ==========================
 
 .. figure:: /images/compositing_nodes_converter_combine-yuva.png

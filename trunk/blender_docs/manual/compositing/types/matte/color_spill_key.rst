@@ -70,4 +70,4 @@ Results with the nodes applied to an image from the
 
      - .. figure:: /images/compositing-node-keying_screen_good.jpg
 
-          After: no unwanted geen.
+          After: no unwanted green.

@@ -43,7 +43,7 @@ Outputs
 =======
 
 Image
-   If both Z values are equal, it uses the foreground image.
+   If both Z values are equal, it will use the foreground image.
    Whichever Z-value is less decides which image pixel is used.
    See :term:`Z-buffer`.
 Z
