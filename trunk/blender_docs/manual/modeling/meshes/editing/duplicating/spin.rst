@@ -45,7 +45,7 @@ Example
 
 .. _fig-mesh-spin-glass:
 
-.. figure:: /images/spin1.png
+.. figure:: /images/modeling_meshes_editing_duplicating_spin_glass-profile.png
    :width: 300px
 
    Glass profile.
@@ -61,7 +61,7 @@ so switch to the top view with :kbd:`Numpad7`.
 
 .. _fig-mesh-spin-glass-top:
 
-.. figure:: /images/spin2.png
+.. figure:: /images/modeling_meshes_editing_duplicating_spin_glass-profile-before.png
    :width: 300px
 
    Glass profile, top view in Edit Mode, just before spinning.
@@ -84,12 +84,12 @@ Angle
 
 .. list-table:: Spun profile.
 
-   * - .. figure:: /images/spin3.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_spin_spun-profile360.png
           :width: 320px
 
           Spun profile using an angle of 360.
 
-     - .. figure:: /images/spin4.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_spin_spun-profile120.png
           :width: 320px
 
           Spun profile using an angle of 120.
@@ -100,12 +100,12 @@ Dupli
 
 .. list-table::
 
-   * - .. figure:: /images/spin6.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_spin_result.png
           :width: 320px
 
           Result of spin operation.
 
-     - .. figure:: /images/spin7.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_spin_dubli.png
           :width: 320px
 
           Result of Dupli enabled.
@@ -116,7 +116,7 @@ Merge Duplicates
 
 .. _fig-mesh-screw-duplicate:
 
-.. figure:: /images/spin8.png
+.. figure:: /images/modeling_meshes_editing_duplicating_spin_dublicate-vertices.png
    :width: 300px
 
    Duplicate vertices.

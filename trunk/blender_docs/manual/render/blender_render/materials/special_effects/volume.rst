@@ -419,7 +419,7 @@ Under Influence check 'Density' and leave it at 1.000
 Now you should be able to render single frames. You can choose to color your smoke as well,
 by turning *Emission Color* back on.
 
-.. figure:: /images/smoke_render.jpg
+.. figure:: /images/render_blender-render_materials_volume_smoke-render.jpg
 
    Finished Result.
 

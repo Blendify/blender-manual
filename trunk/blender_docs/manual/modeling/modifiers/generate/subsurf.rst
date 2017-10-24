@@ -123,7 +123,7 @@ Weighted Edge Creases
 Weighted edge creases for subdivision surfaces allows you to change the way
 the Subdivision Surface modifier subdivides the geometry to give the edges a smooth or sharp appearance.
 
-.. figure:: /images/subsurfwithcrease.png
+.. figure:: /images/modeling_modifiers_generate_subsurf_withcrease.png
 
    A Subdivided Cube with Creased Edges.
 
@@ -136,7 +136,7 @@ A higher value makes the edge "stronger" and more resistant to the smoothing eff
 Edge Loops
 ----------
 
-.. figure:: /images/cubewithedgeloops.png
+.. figure:: /images/modeling_modifiers_generate_subsurf_cube-with-edge-loops.png
 
    Subdivision Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
@@ -215,13 +215,14 @@ A quick way to fix this is to use Blender's
 If you still have some ugly black gouges you will have to
 :doc:`Manually Flip the Normals </modeling/meshes/editing/normals>`.
 
+
 Concave N-Gons
 --------------
 
 While n-gons are supported,
 concave n-gons may give ugly overlapping results.
 
-.. figure:: /images/modifier-subsurf_ngon_concave.png
+.. figure:: /images/modeling_modifiers_generate_subsurf_ngon-concave.png
    :width: 300px
 
    The n-gons on the right show overlapping results.

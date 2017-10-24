@@ -83,12 +83,12 @@ Visualization
 
 .. list-table::
 
-   * - .. figure:: /images/editmode-cubeselect-1.png
+   * - .. figure:: /images/modeling_meshes_introduction_edit-mode-cube-select1.png
           :width: 315px
 
           One cube selected.
 
-     - .. figure:: /images/editmode-cubeselect-2.png
+     - .. figure:: /images/modeling_meshes_introduction_edit-mode-cube-select2.png
           :width: 315px
 
           Two cubes selected before entering Edit Mode.

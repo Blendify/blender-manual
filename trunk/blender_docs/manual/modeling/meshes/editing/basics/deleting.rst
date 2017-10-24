@@ -61,7 +61,7 @@ Face Split
    When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
    The face split option limits dissolve to only use the corners of the faces connected to the vertex.
 
-   .. figure:: /images/bmesh_dissolve_face_split.png
+   .. figure:: /images/modeling_meshes_editing_basics_deleting_dissolve-face-split.png
       :width: 500px
 
       Dissolve Face Split option.
@@ -85,7 +85,7 @@ Limited Dissolve
 
 Limits the dissolve on selected vertices and/or edges *not* touching a hole.
 
-.. figure:: /images/bmesh_limited-dissolve.jpg
+.. figure:: /images/modeling_meshes_editing_basics_deleting_limited-dissolve.jpg
    :width: 400px
 
    Example showing the how Limited Dissolve can be used.
@@ -114,12 +114,12 @@ removing the face loop it ran through.
 
 .. list-table::
 
-   * - .. figure:: /images/collapse1.png
+   * - .. figure:: /images/modeling_meshes_editing_basics_deleting_collapse-before.png
           :width: 320px
 
           Selected Edge Ring.
 
-     - .. figure:: /images/collapse2.png
+     - .. figure:: /images/modeling_meshes_editing_basics_deleting_collapse-after.png
           :width: 320px
 
           Edge Ring Collapsed.
@@ -157,12 +157,12 @@ there would be an empty band of deleted faces all the way around the sphere inst
 
 .. list-table::
 
-   * - .. figure:: /images/deleteedgeloop1.png
+   * - .. figure:: /images/modeling_meshes_editing_basics_deleting_edge-loop-before.png
           :width: 320px
 
           Selected Edge Loop.
 
-     - .. figure:: /images/deleteedgeloop2.png
+     - .. figure:: /images/modeling_meshes_editing_basics_deleting_edge-loop-after.png
           :width: 320px
 
           Edge Loop Deleted.

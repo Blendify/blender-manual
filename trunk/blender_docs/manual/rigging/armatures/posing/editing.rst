@@ -1,12 +1,12 @@
 ..    TODO/Review: {{review|im=update}}.
 
-.. |copy-paste| image:: /images/rigging-copypastepose.png
+.. |copy-paste| image:: /images/rigging_armatures_posing_editing_copy-paste.png
 
 *******
 Editing
 *******
 
-.. figure:: /images/rigging-posetools.png
+.. figure:: /images/rigging_armatures_posing_editing_tools.png
    :align: right
 
    Pose Tools.

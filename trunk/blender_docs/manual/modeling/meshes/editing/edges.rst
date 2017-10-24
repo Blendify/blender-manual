@@ -149,12 +149,12 @@ between their original position and the adjacent edge loop, regardless of the ed
 
 .. list-table::
 
-   * - .. figure:: /images/edgeslide1.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-before.png
           :width: 320px
 
           Selected Edge Loop.
 
-     - .. figure:: /images/edgeslide2.png
+     - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-after.png
           :width: 320px
 
           Repositioned Edge Loop.
@@ -176,12 +176,12 @@ use the :kbd:`Alt-Wheel` to scroll to a different edge.
 
 .. list-table::
 
-   * - .. figure:: /images/edgeslide3.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-even.png
           :width: 320px
 
           Even Mode Enabled.
 
-     - .. figure:: /images/edgeslide4.png
+     - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-even-flip.png
           :width: 320px
 
           Even Mode with Flip Enabled.
@@ -235,12 +235,12 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 
 .. list-table::
 
-   * - .. figure:: /images/edgeflip1.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_edge-flip-before.png
           :width: 320px
 
           Selected Edge.
 
-     - .. figure:: /images/edgeflip2.png
+     - .. figure:: /images/modeling_meshes_editing_edges_edge-flip-after.png
           :width: 320px
 
           Edge, rotated CW.
@@ -271,12 +271,12 @@ a hole will be created, and the selected edges are duplicated to form the border
 
 .. list-table::
 
-   * - .. figure:: /images/edgesplit1.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_edge-split-before.png
           :width: 320px
 
           Selected Edges.
 
-     - .. figure:: /images/edgesplit2.png
+     - .. figure:: /images/modeling_meshes_editing_edges_edge-split-after.png
           :width: 320px
 
           Adjacent face moved to reveal hole left by split.

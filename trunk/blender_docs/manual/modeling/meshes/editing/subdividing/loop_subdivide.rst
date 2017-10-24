@@ -42,17 +42,17 @@ This step is skipped when using multiple edge loops (see below)
 
 .. list-table::
 
-   * - .. figure:: /images/loopcut-before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_loop-subdivide_before.png
           :width: 200px
 
           Mesh before inserting edge loop.
 
-     - .. figure:: /images/loopcut-preview.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_loop-subdivide_preview.png
           :width: 200px
 
           Preview of edge loop location.
 
-     - .. figure:: /images/loopcut-placement.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_loop-subdivide_placement.png
           :width: 200px
 
           Interactive placement of edge loop between adjacent loops.
@@ -79,12 +79,12 @@ Number of Cuts :kbd:`Wheel` or :kbd:`PageUp` / :kbd:`PageDown`
 
    .. list-table::
 
-      * - .. figure:: /images/loopcut-multicut.png
+      * - .. figure:: /images/modeling_meshes_editing_subdividing_loop-subdivide_multicut.png
              :width: 250px
 
              Preview of multiple edge loops.
 
-        - .. figure:: /images/loopcut-multicut-after.png
+        - .. figure:: /images/modeling_meshes_editing_subdividing_loop-subdivide_multicut-after.png
              :width: 250px
 
              Result of using multiple cuts.
@@ -100,12 +100,12 @@ Smoothing :kbd:`Alt-Wheel`
 
    .. list-table::
 
-      * - .. figure:: /images/loopcut-unsmooth.png
+      * - .. figure:: /images/modeling_meshes_editing_subdividing_loop-subdivide_unsmooth.png
              :width: 250px
 
              Added edge loops without smoothing.
 
-        - .. figure:: /images/loopcut-smooth.png
+        - .. figure:: /images/modeling_meshes_editing_subdividing_loop-subdivide_smooth.png
              :width: 250px
 
              Same edge loops, but with smoothing value.

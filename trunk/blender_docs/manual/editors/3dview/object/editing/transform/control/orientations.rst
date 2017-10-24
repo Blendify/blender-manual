@@ -119,7 +119,7 @@ The *Transform Orientations* panel, found in the Properties region,
 can be used to manage transform orientations: selecting the active orientation,
 adding and deleting custom orientations.
 
-.. figure:: /images/orientations-custom-name.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom-name.png
    :width: 300px
 
    Renaming a Custom Orientation.
@@ -150,7 +150,7 @@ Workflow
 
 .. _fig-view3d-transform-orientation-extrusion:
 
-.. figure:: /images/orientations-custom-extrusion.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom-extrusion.png
 
    Custom Extrusion.
 
@@ -187,7 +187,7 @@ Examples
 Demo Cube
 ---------
 
-.. figure:: /images/orientations-basicsetup.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_orientations_basic-setup.png
 
    To demonstrate the various behaviors, we add some colors to the default cube,
    rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
