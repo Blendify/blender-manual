@@ -13,7 +13,7 @@ which would otherwise not be suitable for simulation.
 Options
 =======
 
-.. figure:: /images/modifiers_surface-deform.png
+.. figure:: /images/modeling_modifiers_deform_surface-deform_panel.png
 
    Surface Deform Modifier.
 

@@ -111,13 +111,13 @@ and :doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have swit
 
 .. list-table:: Modifier Stack example.
 
-   * - .. figure:: /images/modifier-mirror-subsurf2.png
+   * - .. figure:: /images/modeling_modifiers_generate_mirror_subsurf2.png
           :width: 320px
 
           The Mirror modifier is the last item in the stack and
           the result looks like two surfaces.
 
-     - .. figure:: /images/modifier-mirror-subsurf1.png
+     - .. figure:: /images/modeling_modifiers_generate_mirror_subsurf1.png
           :width: 320px
 
           The Subdivision surface modifier is the last

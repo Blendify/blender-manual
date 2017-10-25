@@ -19,7 +19,7 @@ Keep in mind that this is a different operation than its companion,
 :doc:`Smooth Shading </modeling/meshes/editing/smoothing>`.
 You can see the difference between the two in the grid image below.
 
-.. figure:: /images/modeling_modifiers_subsurf_grid.png
+.. figure:: /images/modeling_modifiers_generate_subsurf_grid.png
 
    Subdivisions levels 0 to 3, without and with Smooth Shading.
 
@@ -70,7 +70,7 @@ Options
       When enabled, the UV maps will also be subdivided
       (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
 
-   .. figure:: /images/modifier-generate-subsurf-subdivideuvs.png
+   .. figure:: /images/modeling_modifiers_generate_subsurf_uvs.png
 
       Subdivide UVs on and off.
 

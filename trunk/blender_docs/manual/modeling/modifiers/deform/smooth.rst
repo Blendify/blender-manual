@@ -8,7 +8,7 @@ The Smooth Modifier smooths a mesh by flattening the angles between adjacent fac
 just like :menuselection:`Specials --> Smooth` in Edit Mode.
 It smooths without subdividing the mesh - the number of vertices remains the same.
 
-.. figure:: /images/modifier-mesh-smooth-example01.png
+.. figure:: /images/modeling_modifiers_deform_smooth_example.png
 
    Smooth Modifier applied to a subdivided cube.
 

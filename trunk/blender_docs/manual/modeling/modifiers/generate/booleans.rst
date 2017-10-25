@@ -8,7 +8,7 @@ The Boolean Modifier performs operations on meshes that are otherwise too comple
 to achieve with as few steps by editing meshes manually. The Boolean Modifier
 uses one of three Boolean operations that can be used to create a single mesh out of two mesh objects:
 
-.. figure:: /images/modifier_generate_boolean_union_intersect_difference_examples.png
+.. figure:: /images/modeling_modifiers_generate_booleans_union-intersect-difference-examples.png
 
    The Union, Intersection and Difference between a Cube and a UV Sphere,
    with the modifier applied to the Sphere and using the cube as target.

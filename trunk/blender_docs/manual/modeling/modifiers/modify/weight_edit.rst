@@ -4,7 +4,7 @@
 Vertex Weight Edit Modifier
 ***************************
 
-.. figure:: /images/modifiersweightvgedit.jpg
+.. figure:: /images/modeling_modifiers_modify_weight-edit_panel.jpg
    :width: 300px
 
    The Vertex Weight Edit Modifier panel.
@@ -149,12 +149,12 @@ you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
 
 .. list-table:: Wavy patterns.
 
-   * - .. figure:: /images/modifiersweightvgroupgeometryex1-0pf.jpg
+   * - .. figure:: /images/modeling_modifiers_modify_weight-edit_distance-edge.jpg
           :width: 320px
 
           Distance from edges.
 
-     - .. figure:: /images/modifiersweightvgroupgeometryex1-0pfwavyweights.jpg
+     - .. figure:: /images/modeling_modifiers_modify_weight-edit_distance-vertices.jpg
           :width: 320px
 
           Distance from vertices.
@@ -175,22 +175,22 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
 .. list-table::
    *Curve Map* variations.
 
-   * - .. figure:: /images/modifiersweightvgroupgeometryex-5-0pf.jpg
+   * - .. figure:: /images/modeling_modifiers_modify_weight-edit_mapping-concave.jpg
           :width: 200px
 
           Concave-type mapping curve.
 
-     - .. figure:: /images/modifiersweightvgroupgeometryex1-0pf.jpg
+     - .. figure:: /images/modeling_modifiers_modify_weight-edit_distance-edge.jpg
           :width: 200px
 
           No mapping curve (linear).
 
-     - .. figure:: /images/modifiersweightvgroupgeometryex5-0pf.jpg
+     - .. figure:: /images/modeling_modifiers_modify_weight-edit_mapping-convex.jpg
           :width: 200px
 
           Convex-type mapping curve.
 
-.. figure:: /images/modifiersweightvgroupgeometryexremverts.jpg
+.. figure:: /images/modeling_modifiers_modify_weight-edit_exrem-vertices.jpg
    :width: 200px
 
    Vertices with a computed weight below 0.1 removed from the vertex group.

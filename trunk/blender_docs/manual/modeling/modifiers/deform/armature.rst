@@ -18,7 +18,7 @@ that object can be deformed accurately so that geometry does not have to be anim
 Options
 =======
 
-.. figure:: /images/modifier-armature.png
+.. figure:: /images/modeling_modifiers_deform_armature_panel.png
 
    Armature Modifier.
 

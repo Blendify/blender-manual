@@ -14,7 +14,7 @@ wireframe dynamically via the given modifier options.
 Options
 =======
 
-.. figure:: /images/modifier_wireframe.jpg
+.. figure:: /images/modeling_modifiers_generate_wireframe_panel.jpg
 
    Wireframe Modifier.
 
@@ -32,7 +32,7 @@ Vertex Group
    Factor
       ToDo.
 
-.. figure:: /images/modifier_wireframe_result.jpg
+.. figure:: /images/modeling_modifiers_generate_wireframe_result.jpg
    :width: 350px
 
    Wireframes on a displaced plane.

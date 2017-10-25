@@ -223,22 +223,22 @@ Border
 
    .. list-table:: With a factor of -30.0.
 
-      * - .. figure:: /images/modifier_laplacian-smooth_example_cup0_0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_example_cup0_0.jpg
              :width: 130px
 
              Border: 0.0.
 
-        - .. figure:: /images/modifier_laplacian-smooth_example_cup20_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_example_cup20_0.jpg
              :width: 130px
 
              Border: -20.0.
 
-        - .. figure:: /images/modifier_laplacian-smooth_example_cup50_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_example_cup50_0.jpg
              :width: 130px
 
              Border: -50.0.
 
-        - .. figure:: /images/modifier_laplacian-smooth_example_cup200_0.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_example_cup200_0.jpg
              :width: 130px
 
              Border: -200.0.

@@ -14,7 +14,7 @@ allowing application of very different effects.
 Options
 =======
 
-.. figure:: /images/modifier-simpledeform.png
+.. figure:: /images/modeling_modifiers_deform_simple-deform_panel.png
 
    Simple Deform.
 

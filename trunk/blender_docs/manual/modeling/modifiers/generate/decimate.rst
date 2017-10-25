@@ -25,7 +25,7 @@ you to visualize your changes in Edit Mode.
 Options
 =======
 
-.. figure:: /images/modifier-decimate.jpg
+.. figure:: /images/modeling_modifiers_generate_decimate_panel.jpg
 
    Decimate Modifier.
 

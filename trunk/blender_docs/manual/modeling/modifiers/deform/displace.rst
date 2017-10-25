@@ -14,7 +14,7 @@ Y and Z directions simultaneously (sometimes referred to as *Vector Displacement
 Options
 =======
 
-.. figure:: /images/modifier-displace.png
+.. figure:: /images/modeling_modifiers_deform_displace_panel.png
 
    Displace Modifier.
 
@@ -105,6 +105,6 @@ Strength
 Example
 =======
 
-.. figure:: /images/modifier-displace-braille.jpg
+.. figure:: /images/modeling_modifiers_deform_displace_braille.jpg
 
    A highly subdivided plane with an image of the Braille alphabet used as the displacement texture.
