@@ -42,6 +42,6 @@ Example
 
 .. figure:: /images/compositing_nodes_connerpin_example.png
 
-   An example of the Conner Pin node.
+   An example of the Corner Pin node.
 
 In the example above, the image of the bird is distorted by the vectors specified by the Corner Pin node.
