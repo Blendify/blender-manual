@@ -67,6 +67,6 @@ Tools
 .. toctree::
    :maxdepth: 1
 
-   undo_and_redo.rst
-   ruler_and_protractor.rst
+   undo_redo.rst
+   ruler_protractor.rst
    grease_pencil/index.rst

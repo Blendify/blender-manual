@@ -14,7 +14,7 @@ Blender uses a variety of different menus for accessing options and tools.
 Header Menus
 ============
 
-.. figure:: /images/interface_menu_button.png
+.. figure:: /images/interface_controls_buttons_menus_menu-button.png
    :align: right
 
    The Info Editor menu buttons.
@@ -34,12 +34,12 @@ simply :kbd:`RMB` click on the header and enable it to collapse.
 
 .. list-table::
 
-   * - .. figure:: /images/interface_header_menu_expand.jpg
+   * - .. figure:: /images/interface_controls_buttons_menus_header-menu-expand.jpg
           :width: 320px
 
           Right-click on any of the header menus.
 
-     - .. figure:: /images/interface_header_menu_collapsed.jpg
+     - .. figure:: /images/interface_controls_buttons_menus_header-menu-collapsed.jpg
           :width: 320px
 
           Access the menu from the collapsed icon.
@@ -62,7 +62,7 @@ The options are shown in a pop-up. The selected option is then shown as active.
 Pop-Up Menus
 ============
 
-.. figure:: /images/interface_popup-menu.jpg
+.. figure:: /images/interface_controls_buttons_menus_popup-menu.jpg
    :align: right
 
    The Viewport Shading pop-up menu.
@@ -168,7 +168,7 @@ A pie menu is a menu whose items are spread radially around the mouse.
 Pie menus have to be activated in the User Preferences through
 :menuselection:`Add-ons --> UI --> Pie Menus Official`.
 
-.. figure:: /images/interface_pie-menu.jpg
+.. figure:: /images/interface_controls_buttons_menus_pie-menu.jpg
    :width: 350px
 
    The shade pie menu.

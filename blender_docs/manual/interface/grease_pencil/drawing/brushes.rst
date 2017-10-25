@@ -45,7 +45,7 @@ Angle
       that change the thickness depending on the angle of drawing.
       This can help create a more natural-looking line.
 
-.. figure:: /images/interface_grease-pencil_drawing_brushes.png
+.. figure:: /images/interface_grease-pencil_drawing_brushes_presets.png
 
    Preset Brushes.
 

@@ -47,4 +47,4 @@ If we had dilated both red and green... (hint: red and green make yellow).
 The amount of influence is increased by increasing the *Distance* values.
 `Blend file available here. <https://wiki.blender.org/uploads/5/51/Derotest.blend>`__.
 
-.. figure:: /images/compositing_nodes-dilate_ex.jpg
+.. figure:: /images/compositing_types_filter_dilate-erode_example.jpg

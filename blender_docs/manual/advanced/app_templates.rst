@@ -10,13 +10,13 @@ Application templates are a feature that allows you to define a re-usable config
 that can be selected to replace the default configuration,
 without requiring a separate Blender installation or overwriting your personal settings.
 
-.. figure:: /images/advanced-app_template-file_menu.png
+.. figure:: /images/advanced_app-templates_file-menu.png
    :align: right
    :scale: 50 %
 
    Using templates from the file menu.
 
-.. figure:: /images/advanced-app_template-splash.png
+.. figure:: /images/advanced_app-templates_splash.png
    :scale: 33 %
 
    Selecting a template from the splash screen.

@@ -21,7 +21,7 @@ are affected by that layer's color, opacity, and stroke thickness settings.
 
 Layers are managed in the *Grease Pencil Panel* of the *Properties region* :kbd:`N` shown here.
 
-.. figure:: /images/interface_grease_pencil_layers_list.jpg
+.. figure:: /images/interface_grease-pencil_drawing_layers_list.jpg
 
    Grease Pencil Panel.
 
@@ -128,7 +128,7 @@ Onion Skinning
 
 Onion-skinning, also known as ghosting, helps an animator by displaying the neighboring frames as a faded trail.
 
-.. figure:: /images/interface_grease_pencil_layers_onion.jpg
+.. figure:: /images/interface_grease-pencil_drawing_layers_onion.jpg
 
    Grease Pencil Onion Skinning.
 

@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_file_editor.png
+.. figure:: /images/editors_file-browser_introduction_editor.png
 
    The File Browser.
 

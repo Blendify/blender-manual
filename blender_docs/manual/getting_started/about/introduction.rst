@@ -14,7 +14,7 @@ Blender is a cross-platform application, running on Linux, macOS, and MS-Windows
 Blender also has a relatively small memory and drive requirements compared to other 3D creation suites.
 Its interface uses OpenGL to provide a consistent experience across all supported hardware and platforms.
 
-.. figure:: /images/getting-started_intro_bigbuckbunny.jpg
+.. figure:: /images/getting-started_about_introduction_bigbuckbunny.jpg
 
    Blender 2.5 with a Big Buck Bunny scene open.
 
@@ -51,7 +51,7 @@ Key Features
 
 You can download the latest version of Blender `here <https://www.blender.org/download/>`__.
 
-.. figure:: /images/getting-started_intro_postprocessing.jpg
+.. figure:: /images/getting-started_about_introduction_postprocessing.jpg
 
    A rendered image being post-processed.
 

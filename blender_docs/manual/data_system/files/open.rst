@@ -3,7 +3,7 @@
 Opening Files
 *************
 
-.. figure:: /images/data_system_files_open_file-browser-open.jpg
+.. figure:: /images/data-system_files_open_file-browser-open.jpg
 
 
 Usage

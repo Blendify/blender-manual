@@ -15,7 +15,7 @@ The ``.msi`` will run an installer to choose where to place Blender
 and to configure MS-Windows to have an entry on the menu and to open .blend-files with Blender.
 Administrator rights are needed to install Blender on your system.
 
-.. figure:: /images/getting_started_installing_windows.png
+.. figure:: /images/getting-started_installing_windows_installer.png
 
    MS-Windows installer.
 

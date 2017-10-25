@@ -100,7 +100,7 @@ The Tool shelf is a context-sensitive region containing tools depending on the c
 For more information on specific tools available, see:
 
 - :doc:`Transformations </editors/3dview/object/editing/transform/index>`
-- :doc:`History </interface/undo_and_redo>`
+- :doc:`History </interface/undo_redo>`
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
 - :doc:`Parents </editors/3dview/object/properties/relations/parents>`
 - :doc:`Groups </editors/3dview/object/properties/relations/groups>`

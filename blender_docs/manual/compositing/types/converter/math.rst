@@ -77,7 +77,7 @@ so they are chosen for the left side, but the plane (FlyCam) Render layers Z are
 Using Sine Function to Pulsate
 ------------------------------
 
-.. figure:: /images/compositing-node-math_sine.jpg
+.. figure:: /images/compositing_types_converter_math_sine.jpg
 
 This example has a *Time* node putting out a linear sequence from 0 to 1 over the course of 101
 frames. The green vertical line in the curve widget shows that frame 25 is being put out,
@@ -100,7 +100,7 @@ Alter a color channel value to make a color "pulse".
 Brightening/Scaling a Channel
 -----------------------------
 
-.. figure:: /images/compositing-node-math_multiply.jpg
+.. figure:: /images/compositing_types_converter_math_multiply.jpg
 
 This example has a *Math: Multiply* node increasing the luminance channel (Y)
 of the image to make it brighter. Note that you should use a *Map Value node*
@@ -207,7 +207,7 @@ stair-stepped, because of the rounding function of the math node.
 Copying this one channel to operate on Green and Blue gives the node setup below.
 To get the 6:6:7, we set the three Multiply Nodes to {6, 6, 7} and the divide nodes to {5, 5, 6}.
 
-.. figure:: /images/compositing-node-math_quantize-red.jpg
+.. figure:: /images/compositing_types_converter_math_quantize-red.jpg
 
 If you make this into a node group, you can easily reuse this setup from project to project.
 When you do, consider using a math node to drive the different values that you would have to

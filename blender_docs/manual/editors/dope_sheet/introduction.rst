@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_dopesheet_overview.jpg
+.. figure:: /images/editors_dope-sheet_introduction_overview.jpg
    :width: 400px
 
    The Dope Sheet.
@@ -18,7 +18,7 @@ It gives the animator a "birds-eye-view" of every thing occurring within a scene
 Dope Sheet Modes
 ================
 
-.. figure:: /images/editors_dopesheet_modes.jpg
+.. figure:: /images/editors_dope-sheet_introduction_modes.jpg
 
    Dope Sheet Modes.
 
@@ -48,7 +48,7 @@ Interface
 The *Dope Sheet Editor* interface is somewhat similar to the *Graph Editor*
 one, it is divided in three regions:
 
-.. figure:: /images/editors_dopesheet_action-editor.png
+.. figure:: /images/editors_dope-sheet_action_editor.png
    :width: 600px
 
    The Action Editor with object channels.
@@ -110,7 +110,7 @@ Channels Region
 
 .. _fig-dope-sheet-action:
 
-.. figure:: /images/editors_dopesheet_action-editor-sliders.png
+.. figure:: /images/editors_dope-sheet_introduction_action-editor-sliders.png
 
    The Action editor's channels region.
 

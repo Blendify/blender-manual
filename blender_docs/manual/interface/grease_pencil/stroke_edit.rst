@@ -13,7 +13,7 @@ These tools let you move and reshape grease pencil strokes after they have been 
 Open the Grease Pencil tab on the Tool Shelf.
 Look for the tools in the Edit Strokes panel shown here:
 
-.. figure:: /images/interface_grease_pencil_drawing_edit_strokes_panel.png
+.. figure:: /images/interface_grease-pencil_stroke-edit_panel.png
 
    Edit panel with grease pencil strokes.
 

@@ -4,7 +4,7 @@
 Number Buttons
 **************
 
-.. figure:: /images/interface_number_button.png
+.. figure:: /images/interface_controls_buttons_number_number-button.png
    :align: right
 
    Number buttons.
@@ -39,7 +39,7 @@ Press :kbd:`Minus` while hovering over the button to negate the value.
 Multi-Value Editing
 ===================
 
-.. figure:: /images/interface_multi_value_edit.png
+.. figure:: /images/interface_controls_buttons_number_multi-value-edit.png
    :align: right
 
    Multi-value editing.

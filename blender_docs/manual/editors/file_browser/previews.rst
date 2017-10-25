@@ -3,7 +3,7 @@
 Data Previews
 *************
 
-.. figure:: /images/editors_file_previews.png
+.. figure:: /images/editors_file-browser_previews_previews.png
 
    File Browser Previews.
 

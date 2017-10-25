@@ -68,7 +68,7 @@ Editing
 Sliders
 ^^^^^^^
 
-.. figure:: /images/editors_dopesheet_action-editor-sliders.png
+.. figure:: /images/editors_dope-sheet_introduction_action-editor-sliders.png
 
    The Action editor showing sliders.
 
