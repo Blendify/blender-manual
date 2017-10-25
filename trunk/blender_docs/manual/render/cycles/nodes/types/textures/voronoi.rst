@@ -44,12 +44,12 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_nodes_tex_voronoi_intensity.jpg
+   * - .. figure:: /images/render_cycles_nodes_types_textures_voronoi_intensity.jpg
           :width: 200px
 
           Voronoi texture, type: Intensity.
 
-     - .. figure:: /images/cycles_nodes_tex_voronoi_cells.jpg
+     - .. figure:: /images/render_cycles_nodes_types_textures_voronoi_cells.jpg
           :width: 200px
 
           Voronoi texture, type: Cells.

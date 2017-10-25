@@ -59,12 +59,12 @@ Examples
 .. list-table:: Remapped Musgrave texture such that most values are visible.
    :widths: 65 35
 
-   * - .. figure:: /images/cycles_nodes_tex_musgrave_nodes.png
+   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_nodes.png
           :width: 460px
 
           Nodes for the image to the right.
 
-     - .. figure:: /images/cycles_nodes_tex_musgrave.jpg
+     - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example.jpg
           :width: 320px
 
           Musgrave texture.

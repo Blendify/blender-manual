@@ -32,7 +32,7 @@ From Dupli
    If the material is applied to a dupli object, use texture coordinates from the parent object.
    This only affects the *Generated* and *UV* outputs.
 
-   .. figure:: /images/cycles_nodes_from_dupli_comparison.png
+   .. figure:: /images/render_cycles_nodes_types_input_texture-coordinate_from-dupli-comparison.png
 
       From left to right: Sphere with UV mapped texture.
       Small spheres duplicated to the faces of the textured sphere using

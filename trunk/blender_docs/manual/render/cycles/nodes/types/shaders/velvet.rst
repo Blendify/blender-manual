@@ -43,10 +43,10 @@ BSDF
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_shader_velvet_behavior.png
+.. figure:: /images/render_cycles_nodes_types_shaders_velvet_behavior.png
    :align: center
 
-.. figure:: /images/cycles_nodes_shader_velvet_example.jpg
+.. figure:: /images/render_cycles_nodes_types_shaders_velvet_example.jpg
    :align: center
 
    The Velvet Shader.

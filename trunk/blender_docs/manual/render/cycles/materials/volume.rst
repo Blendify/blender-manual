@@ -30,7 +30,7 @@ that model particular effects as light passes through the volume and interacts w
   This can be used to shade white smoke or clouds for example.
 - Emission will emit light from the volume. This can be used to shade fire for example.
 
-.. figure:: /images/cycles_materials_volume.jpg
+.. figure:: /images/render_cycles_materials_volume_node.jpg
    :align: center
 
    Volume Shader: Absorption/Absorption + Scatter/Emission.
@@ -107,7 +107,7 @@ Smoke
 Creating a smoke material for cycles can be difficult however
 the image below shows a good setup on how to do this.
 
-.. figure:: /images/cycles_materials_smoke.png
+.. figure:: /images/render_cycles_materials_volume_smoke.png
 
    Smoke and Fire Material.
 

@@ -54,7 +54,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_wave.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_wave_default.jpg
    :width: 200px
 
    Default wave texture.

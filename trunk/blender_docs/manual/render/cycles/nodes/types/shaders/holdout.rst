@@ -39,6 +39,6 @@ Holdout
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_shader_holdout_example.jpg
+.. figure:: /images/render_cycles_nodes_types_shaders_holdout_example.jpg
 
    The checkered area is a region with zero alpha.

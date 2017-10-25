@@ -43,7 +43,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_magic.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_magic_example.jpg
    :width: 200px
 
    Magic texture: Depth 10, Distortion 2.0.

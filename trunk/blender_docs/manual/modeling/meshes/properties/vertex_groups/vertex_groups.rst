@@ -9,7 +9,7 @@ Vertex Groups Panel
    | Mode:     All Modes
    | Panel:    :menuselection:`Object Data tab --> Vertex Groups`
 
-.. figure:: /images/modeling_meshes_vgroups_01.jpg
+.. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.jpg
    :align: right
 
    The Vertex Group Panel.
@@ -74,7 +74,7 @@ Editing Vertex Groups
    | Menu:     :menuselection:`Mesh --> Vertex --> Vertex Groups`
    | Hotkey:   :kbd:`Ctrl-G`
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-edit.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-groups_panel-edit.png
    :align: right
 
    Vertex Group Panel in Edit or Weight Paint Mode.

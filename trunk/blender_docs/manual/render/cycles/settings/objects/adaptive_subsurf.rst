@@ -17,7 +17,7 @@ gets changed to control the subdivision of a mesh at the time of rendering.
 For this, all the other settings are the same except the *View* and *Render* settings.
 These previously mentioned settings get removed/renamed and the following settings are added:
 
-.. figure:: /images/cycles_materials_displacement_mod.png
+.. figure:: /images/render_cycles_settings_objects_adaptive-subsurf_modifier.png
    :align: right
 
    Subdivision Surface Modifier.
@@ -40,7 +40,7 @@ Adaptive
       When using *Adaptive* the *Render Levels* property gets changed to *Dicing Rate*,
       this property is used to multiply the :ref:`scene dicing rate <cycles-subdivision-rate>`.
 
-      .. figure:: /images/cycles-displacement-dicing.png
+      .. figure:: /images/render_cycles_settings_objects_adaptive-subsurf_displacement-dicing.png
 
          Subdivision Off/On, Dicing Rate: 1.0 - 0.3 - 0.05 (monkeys look identical in viewport, no modifiers).
 

@@ -36,6 +36,6 @@ Color
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_blackbody_example.jpg
+.. figure:: /images/render_cycles_nodes_types_converter_blackbody_example.jpg
 
    Example of the color ranges of the Blackbody node.

@@ -22,7 +22,7 @@ Select Mode Header Widgets
    | Menu:     :menuselection:`3D View Header --> Select Mode`
    | Hotkey:   :kbd:`Ctrl-Tab`
 
-.. figure:: /images/modeling-meshes-selection-mode-buttons.png
+.. figure:: /images/modeling_meshes_selecting_introduction_mode-buttons.png
    :align: right
    :width: 190px
 
@@ -146,21 +146,21 @@ Enables a rectangular region for selection :kbd:`B`.
 
    * - .. _fig-mesh-select-basics-start:
 
-       .. figure:: /images/modeling-meshes-selection-borderselect1.png
+       .. figure:: /images/modeling_meshes_selecting_introduction_border-select1.png
           :width: 200px
 
           Start.
 
      - .. _fig-mesh-select-basics-selecting:
 
-       .. figure:: /images/modeling-meshes-selection-borderselect2.png
+       .. figure:: /images/modeling_meshes_selecting_introduction_border-select2.png
           :width: 200px
 
           Selecting.
 
      - .. _fig-mesh-select-basics-complete:
 
-       .. figure:: /images/modeling-meshes-selection-borderselect3.png
+       .. figure:: /images/modeling_meshes_selecting_introduction_border-select3.png
           :width: 200px
 
           Complete.
@@ -181,12 +181,12 @@ Enables a circular shaped region for selection :kbd:`C`.
 
 .. list-table:: Circle Region Select.
 
-   * - .. figure:: /images/modeling-meshes-selection-circularselect1.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select1.png
           :width: 320px
 
           Before.
 
-     - .. figure:: /images/modeling-meshes-selection-circularselect2.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select2.png
           :width: 320px
 
           After.
@@ -210,17 +210,17 @@ Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso select
 
 .. list-table:: Lasso selection.
 
-   * - .. figure:: /images/modeling-meshes-selection-lassoselect1.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select1.png
           :width: 200px
 
           Start.
 
-     - .. figure:: /images/modeling-meshes-selection-lassoselect2.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select2.png
           :width: 200px
 
           Selecting.
 
-     - .. figure:: /images/modeling-meshes-selection-lassoselect3.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select3.png
           :width: 200px
 
           Complete.

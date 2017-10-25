@@ -56,10 +56,10 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_nodes_shader_anisotropic_rot0.jpg
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_rot0.jpg
 
          Anisotropic rotation on 0.
 
-     - .. figure:: /images/cycles_nodes_shader_anisotropic_rot025.jpg
+     - .. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_rot025.jpg
 
          Anisotropic rotation on 0.25 (90°)

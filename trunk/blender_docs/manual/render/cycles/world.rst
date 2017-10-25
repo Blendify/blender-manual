@@ -4,7 +4,7 @@
 World
 *****
 
-.. figure:: /images/cycles-environment-lighting.jpg
+.. figure:: /images/render_cycles_world_environment-lighting.jpg
    :align: right
 
    Lighting with an HDR image.
@@ -120,11 +120,11 @@ Multiple Importance Sample
 
    .. list-table::
 
-      * - .. figure:: /images/cycles-mis-off.jpg
+      * - .. figure:: /images/render_cycles_world_mis-off.jpg
 
              Multiple Importance Sample Off.
 
-        - .. figure:: /images/cycles-mis-on.jpg
+        - .. figure:: /images/render_cycles_world_mis-on.jpg
 
              Multiple Importance Sample On.
 

@@ -82,6 +82,6 @@ Alpha
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_image_example.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_image_example.jpg
 
    Image texture from `GoodTextures.com <http://www.goodtextures.com/>`__.

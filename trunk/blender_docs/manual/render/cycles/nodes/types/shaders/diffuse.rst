@@ -43,12 +43,12 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_nodes_shader_diffuse_behavior.png
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_behavior.png
 
           Diffuse behavior.
 
      - ..
 
-   * - .. figure:: /images/cycles_nodes_shader_diffuse_example.jpg
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_example.jpg
 
-     - .. figure:: /images/cycles_nodes_shader_diffuse_example_oren-nayar.jpg
+     - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_example-oren-nayar.jpg

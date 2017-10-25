@@ -37,6 +37,6 @@ Volume
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_shader_volume_scatter.png
+.. figure:: /images/render_cycles_nodes_types_shaders_volume-scatter_example.png
 
    Example of Volume Scatter.

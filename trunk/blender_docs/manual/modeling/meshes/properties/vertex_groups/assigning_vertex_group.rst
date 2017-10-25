@@ -6,7 +6,7 @@ Assigning a Vertex Group
 Creating Vertex Groups
 ======================
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-empty.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_assigning-vertex-group_empty.png
    :align: right
 
    Empty Vertex Group Panel.
@@ -27,7 +27,7 @@ border (3). Initially the group is named "Group"
 Vertex Groups Panel Controls
 ----------------------------
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-one.jpg
+.. figure:: /images/modeling_meshes_properties_vertex-groups_assigning-vertex-group_one.jpg
    :align: right
 
    One Vertex Group.
@@ -61,7 +61,7 @@ Active Group
 Deleting Vertex Groups
 ======================
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-dg.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_assigning-vertex-group_delete.png
    :align: right
 
    Delete a Vertex Group.
@@ -77,7 +77,7 @@ The vertices themselves are not deleted.
 Locking Vertex Groups
 =====================
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-lg.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_assigning-vertex-group_lock.png
    :align: right
 
    Lock a Vertex Group.
@@ -101,7 +101,7 @@ Working with Content of Vertex Groups
 Assigning Vertices to a Group
 -----------------------------
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-assign.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_assigning-vertex-group_assign.png
    :align: right
 
    Assign weights to active group.
