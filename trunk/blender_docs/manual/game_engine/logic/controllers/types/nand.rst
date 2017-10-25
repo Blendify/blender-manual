@@ -15,7 +15,9 @@ This controller *deactivates* all connected actuators if...
 - at least one connected sensor triggers the controller.
 - ALL connected sensor evaluated True.
 
-Options:
+
+Options
+=======
 
 .. figure:: /images/game-engine_logic_controllers_types_nand_node.png
    :width: 292px
