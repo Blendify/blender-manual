@@ -7,7 +7,7 @@ Translate Node
 .. figure:: /images/compositing_nodes_distort_translate.png
    :align: right
 
-   Transform Node.
+   Translate Node.
 
 The translate node translates (moves) an image.
 

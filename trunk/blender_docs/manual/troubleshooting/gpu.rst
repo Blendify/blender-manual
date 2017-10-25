@@ -15,8 +15,8 @@ Performance
 When the entire interface is very slow and unresponsive (*even* with the default startup scene),
 this is likely a problem with the OpenGL configuration.
 
-Unfortunately, in this situation, you may have to do some of your own tests to find the cause,
-below are some common causes and possible solutions.
+Unfortunately, in this situation, you may have to do some of your own tests to find the cause.
+Below are some common causes and possible solutions.
 
 Upgrade your OpenGL Driver
    If you are experiencing any strange graphics problems with Blender,
