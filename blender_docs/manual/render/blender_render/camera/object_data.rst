@@ -44,7 +44,7 @@ This matches how you view things in the real-world.
 Objects in the distance will appear smaller than objects in the foreground,
 and parallel lines (such as the rails on a railroad) will appear to converge as they get farther away.
 
-.. figure:: /images/perspective_perspective_traintracks.jpg
+.. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks.jpg
 
    Render of a train track scene with a *Perspective* camera.
 
@@ -61,7 +61,7 @@ Focal length
    while short focal lengths allow you to see more of the scene at once
    (larger :abbr:`FOV (Field of View)`, less zoom).
 
-   .. figure:: /images/perspective_perspective_traintracks_telephoto.jpg
+   .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-telephoto.jpg
 
       Render of the same scene as above, but with a focal length of 210mm instead of 35mm.
 
@@ -75,7 +75,7 @@ Orthographic
 With *Orthographic* perspective objects always appear at their actual size, regardless of distance.
 This means that parallel lines appear parallel, and do not converge like they do with *Perspective*.
 
-.. figure:: /images/perspective_orthographic_ortho_example.jpg
+.. figure:: /images/render_blender-render_camera_object-data_perspective-orthographic-ortho-example.jpg
 
    Render from the same camera angle as the previous examples, but with orthographic perspective.
 
@@ -103,11 +103,11 @@ In this example, the most obvious vanishing point is at the end of the railroad.
 
 To see how this works, take the following examples:
 
-.. figure:: /images/perspective_perspective_traintracks_lens_shift.jpg
+.. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-lens-shift.jpg
 
    Render of a train track scene with a horizontal lens shift of 0.330.
 
-.. figure:: /images/perspective_perspective_traintracks_camera_rotate.jpg
+.. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-camera-rotate.jpg
 
    Render of a train track scene with a rotation of the camera object instead of a lens shift.
 

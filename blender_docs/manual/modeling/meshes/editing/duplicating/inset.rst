@@ -21,12 +21,12 @@ inset during the modal operation by holding :kbd:`Ctrl`.
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_tool_inset_before.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_inset_before.png
           :width: 320px
 
           Selection to inset.
 
-     - .. figure:: /images/mesh_tool_inset_after.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_inset_after.png
           :width: 320px
 
           Selection with inset.
@@ -35,9 +35,9 @@ inset during the modal operation by holding :kbd:`Ctrl`.
 Options
 =======
 
-.. figure:: /images/mesh_tool_inset_settings.png
+.. figure:: /images/modeling_meshes_editing_duplicating_inset_options.png
 
-   Inset Operator Settings.
+   Inset operator options.
 
 Boundary
    Determines whether open edges will be inset or not.

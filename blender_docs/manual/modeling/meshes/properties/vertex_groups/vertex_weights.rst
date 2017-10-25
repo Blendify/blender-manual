@@ -73,7 +73,7 @@ In that case the Vertex Weights Panel is not displayed.
 
 Each row in the Weight table contains four active elements:
 
-.. figure:: /images/modeling-mesh_vertex-weight-editor-name.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-name.png
    :width: 335px
 
    Change Active Group.
@@ -113,7 +113,7 @@ It is now very easy to work with Vertex Groups in Edit Mode. All edit options of
 available and you have direct visual control over how your Weights change when you edit the
 weight values.
 
-.. figure:: /images/modeling_mesh_vertex-weight-editor-weight.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-weight.png
    :width: 235px
 
    Change Weight Value.
@@ -127,7 +127,7 @@ or you can change the weight by :kbd:`LMB` and while holding down the mouse butt
 drag right or left to increase/decrease the weight value. You also can use the right/left
 arrows displayed around the weight value to change the weight in steps.
 
-.. figure:: /images/modeling_mesh_vertex-weight-editor-paste.png
+.. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-paste.png
    :width: 235px
 
    Paste weights.

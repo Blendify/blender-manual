@@ -29,12 +29,12 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bisect.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_bisect_example.png
          :width: 300px
 
          Example of a common use of bisect.
 
-     - .. figure:: /images/mesh_bisect_uv.jpg
+     - .. figure:: /images/modeling_meshes_editing_subdividing_bisect_uv.jpg
           :width: 320px
 
           Example of bisect with fill option

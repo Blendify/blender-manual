@@ -20,11 +20,11 @@ a little like the knife tool; however, this is limited to straight cuts across c
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_connect_verts_pair_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_pair-before.png
 
           Two disconnected vertices.
 
-     - .. figure:: /images/bmesh_connect_verts_pair_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_pair-after.png
 
           Result of connecting.
 
@@ -34,11 +34,11 @@ When many vertices are selected, faces will be split by their selected vertices.
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_connect_verts_multi_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_multi-before.png
 
           Before.
 
-     - .. figure:: /images/bmesh_connect_verts_multi_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_multi-after.png
 
           After.
 
@@ -61,17 +61,17 @@ This tool can be used on many faces at once.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_vertexconnect-before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_before.png
           :width: 180px
 
           Vertices before connecting.
 
-     - .. figure:: /images/modeling_vertexconnect-after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_after.png
           :width: 180px
 
           After connecting vertices.
 
-     - .. figure:: /images/modeling_vertexconnect-after-faces.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_after-faces.png
           :width: 180px
 
           Resulting face pair.

@@ -6,7 +6,7 @@ Usage
 For example, we will take an existing blend
 file that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
-.. figure:: /images/multiview_workflow_render_anaglyph.png
+.. figure:: /images/render_workflows_multiview_usage_anaglyph.png
 
    Creature Factory 2 by Andy Goralczyk Rendered in Stereo 3D (anaglyph).
 
@@ -23,7 +23,7 @@ Introduction
 Start opening up your project file, in this case ``turntable.blend`` from the *Creature Factory 2*
 Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 
-.. figure:: /images/multiview_workflow_1.png
+.. figure:: /images/render_workflows_multiview_usage_turntable-creature.png
 
    Turn Table Creature Factory 2.
 
@@ -42,7 +42,7 @@ Go to the :doc:`Render Layers </render/post_process/layers>` panel and enable *V
    When you turn on *Views* in the scene, you get 3D preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 
-.. figure:: /images/multiview_workflow_3.png
+.. figure:: /images/render_workflows_multiview_usage_viewport.png
 
    Viewport with 3D visualization.
 
@@ -70,7 +70,7 @@ Go outside the camera view and you will instantly see the convergence plane in f
 You can toggle this and other display settings in the Stereoscopy panel of the 3D Views properties region.
 In the following image, the camera's frustum volumes are also visible.
 
-.. figure:: /images/multiview_workflow_5.png
+.. figure:: /images/render_workflows_multiview_usage_stereo-preview.png
    :width: 700px
 
    Viewport Plane and Volume Stereo Preview.
@@ -83,7 +83,7 @@ If you have a real 3D display at some point, you can change the 3D display mode 
 by calling the Stereo 3D operator.
 Be aware that some modes require a fullscreen editor to work.
 
-.. figure:: /images/multiview_window_stereo_3d.png
+.. figure:: /images/render_workflows_multiview_usage_window-stereo-3d.png
 
    Window Menu, Stereo 3D Operator.
 
@@ -113,7 +113,7 @@ Image Formats
 Your final animation can be saved in more robust formats than the ones used by the OpenGL render preview.
 In this example we saved as cross-eyed side-by-side stereo 3D.
 
-.. figure:: /images/multiview_workflow_render_sidebyside.png
+.. figure:: /images/render_workflows_multiview_usage_render_sidebyside.png
 
    Side by Side Cross-Eye Format.
 
@@ -136,7 +136,7 @@ On top of that, you can set a different display mode for each window.
 The display mode can be changed via the Window menu
 or if you create your own shortcuts for the ``wm.set_stereo_3d`` operator.
 
-.. figure:: /images/multiview_window_stereo_3d.png
+.. figure:: /images/render_workflows_multiview_usage_window-stereo-3d.png
 
    Window Menu, Stereo 3D Operator.
 
@@ -245,7 +245,7 @@ Volume
    They are tolerated in the negative space (the region from the convergence plane into the image)
    but are to be avoided at all costs in the positive space (the area from the convergence plane to the camera).
 
-   .. figure:: /images/multiview_volume.png
+   .. figure:: /images/render_workflows_multiview_usage_volume.png
       :width: 402px
 
       Viewport 3D: Convergence Plane and Volume Display.
@@ -316,7 +316,7 @@ The compositing of a view is completed before the remaining views start to be co
 The pipeline is the same as the single-view workflow, with the difference that you can use Images,
 Movies or Image Sequences in any of the supported Multi-View formats.
 
-.. figure:: /images/multiview_compositor.png
+.. figure:: /images/render_workflows_multiview_usage_compositor.png
 
    Compositor, Backdrop and Split Viewer Node.
 

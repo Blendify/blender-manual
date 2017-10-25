@@ -24,7 +24,7 @@ One of the best ways to explain this is through an example illustration.
 Basic Usage
 ===========
 
-.. figure:: /images/dupliface-example01-1start.png
+.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-before.png
 
    A cube and a sphere.
 
@@ -33,7 +33,7 @@ cube as our parent mesh. To parent the sphere to the cube, in *Object Mode*,
 first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 (order is very important here), and finally :kbd:`Ctrl-P` to parent.
 
-.. figure:: /images/dupliface-example01-2duplifaceenabled.jpg
+.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-after.jpg
 
    Duplication Faces applied to the cube.
 
@@ -53,11 +53,11 @@ but neither is rendered.
 Scale
 =====
 
-.. figure:: /images/dupliface-example01-3scaleenabled.jpg
+.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-enabled.jpg
 
    Scale enabled.
 
-.. figure:: /images/dupliface-example01-4scalechanged.jpg
+.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-changed.jpg
 
    Top face of cube scaled down.
 

@@ -31,13 +31,13 @@ in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`fig-mesh-screw-spring`.
 
    * - .. _fig-mesh-screw-wood:
 
-       .. figure:: /images/modeling_mesh_screw_screw_example_shell.png
+       .. figure:: /images/modeling_meshes_editing_duplicating_screw_example-shell.png
 
           Wood Screw tip done with the screw tool.
 
      - .. _fig-mesh-screw-spring:
 
-       .. figure:: /images/modeling_mesh_screw_screw_example_spring.png
+       .. figure:: /images/modeling_meshes_editing_duplicating_screw_example-spring.png
 
           Spring done with the screw tool.
 
@@ -93,13 +93,13 @@ both in the Info Editor and at the place where you clicked to start performing t
 
 .. _fig-mesh-screw-error-info:
 
-.. figure:: /images/modeling_mesh_screw_error_msg_info_editor.png
+.. figure:: /images/modeling_meshes_editing_duplicating_screw_error-msg-info-editor.png
 
    Screw Error message in the Header of the Info editor.
 
 .. _fig-mesh-screw-error-popup:
 
-.. figure:: /images/modeling_mesh_screw_error_msg_screw_tool.png
+.. figure:: /images/modeling_meshes_editing_duplicating_screw_error-msg-tool.png
 
    Error message when clicking in the Screw Tool with an incorrect or bad selection.
 
@@ -159,7 +159,7 @@ Continuous operations without changing the selection will repeat the operation c
 
 .. _fig-mesh-screw-interactive-panel:
 
-.. figure:: /images/modeling_mesh_screw_screw_interactive_panel.png
+.. figure:: /images/modeling_meshes_editing_duplicating_screw_interactive-panel.png
 
    Screw Tools Operator Panel (Edit Mode).
 
@@ -201,7 +201,7 @@ The Spring example
 
 .. _fig-mesh-screw-circle:
 
-.. figure:: /images/modeling_mesh_screw_screw_circle_moved_x_-3bu.png
+.. figure:: /images/modeling_meshes_editing_duplicating_screw_circle-moved-x-3bu.png
 
    Circle placed at X (-3, 0, 0).
 
@@ -231,7 +231,7 @@ Now we will create a height vector for Blender:
 
 .. _fig-mesh-screw-profile:
 
-.. figure:: /images/modeling_mesh_screw_spring_profile_ready.png
+.. figure:: /images/modeling_meshes_editing_duplicating_screw_spring-profile-ready.png
 
    Profile and vector created.
 
@@ -272,11 +272,11 @@ changed the angular vector of the height you have given to Blender to the opposi
 
 .. list-table:: Spring direction.
 
-   * - .. figure:: /images/modeling_mesh_screw_screw_spring_counterclockwise.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_screw_spring-counterclockwise.png
 
           Counterclockwise direction.
 
-     - .. figure:: /images/modeling_mesh_screw_screw_spring_clockwise.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_screw_spring-clockwise.png
 
           Flipped to Clockwise direction.
 
@@ -322,11 +322,11 @@ with the *Screw* tool were created using the Top Ortho View.
 
 .. list-table:: Bended Mesh.
 
-   * - .. figure:: /images/modeling_mesh_screw_angular_vector_example_1.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_screw_angular-vector-example1.png
 
           The Axis will give the profile a starting vector angle.
 
-     - .. figure:: /images/modeling_mesh_screw_angular_vector_example_2.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_screw_angular-vector-example2.png
 
           The vector angle is maintained along the extrusions.
 
@@ -374,7 +374,7 @@ will assembly perfectly with each other.
 
    * - .. _fig-mesh-screw-spindle:
 
-       .. figure:: /images/modeling_mesh_screw_screw_perfect_spindle_profile.png
+       .. figure:: /images/modeling_meshes_editing_duplicating_screw_perfect-spindle-profile.png
 
           Profile for a perfect screw spindle.
 
@@ -382,7 +382,7 @@ will assembly perfectly with each other.
 
      - .. _fig-mesh-screw-generated-mesh:
 
-       .. figure:: /images/modeling_mesh_screw_screw_generated_perfect_spindle.png
+       .. figure:: /images/modeling_meshes_editing_duplicating_screw_generated-perfect-spindle.png
 
           Generated Mesh.
 
@@ -396,12 +396,12 @@ The generated mesh looks like a medieval ramp!
 
 .. list-table:: Ramp.
 
-   * - .. figure:: /images/modeling_mesh_screw_ramp_like_profile.png
+   * - .. figure:: /images/modeling_meshes_editing_duplicating_screw_ramp-like-profile.png
 
           Profile with starting and ending vertices forming a parallel line with the Blender Axis.
 
 
-     - .. figure:: /images/modeling_mesh_screw_ramp_like_generated.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_screw_ramp-like-generated.png
 
           Generated Mesh with the profile at the left. We have inclined the visualization a bit.
 
@@ -442,13 +442,13 @@ To make this new example as short as possible, we will recycle our last example 
 
    * - .. _fig-mesh-screw-start:
 
-       .. figure:: /images/modeling_mesh_screw_profile_with_vector_angle.png
+       .. figure:: /images/modeling_meshes_editing_duplicating_screw_profile-with-vector-angle.png
 
           Profile With Starting Vector Angle.
 
      - .. _fig-mesh-screw-start-mesh:
 
-       .. figure:: /images/modeling_mesh_screw_generated_with_base_vector_angle.png
+       .. figure:: /images/modeling_meshes_editing_duplicating_screw_generated-with-base-vector-angle.png
 
           Generated Mesh with the Profile.
 
