@@ -52,7 +52,7 @@ Color
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_sky.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_sky_example.jpg
    :width: 200px
 
    Sky Texture.

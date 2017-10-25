@@ -56,10 +56,10 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_nodes_shader_emission_example.jpg
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_emission_example.jpg
 
          Emission shader, with strength at 1.0.
 
-     - .. figure:: /images/cycles_nodes_shader_emission_example_bright.jpg
+     - .. figure:: /images/render_cycles_nodes_types_shaders_emission_example-bright.jpg
 
          Emission shader, with strength at 3.0.

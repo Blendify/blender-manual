@@ -52,17 +52,17 @@ other parts of the image and will contribute significantly to the lighting of th
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_fisheye_reference.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-reference.jpg
           :width: 180px
 
           The Scene.
 
-     - .. figure:: /images/cycles_noise_fisheye.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye.jpg
           :width: 180px
 
           What the Shader sees.
 
-     - .. figure:: /images/cycles_noise_fisheye_hotspot.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-hotspot.jpg
           :width: 180px
 
           The detected Highlights.
@@ -83,17 +83,17 @@ and :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`.
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_fisheye_blur_reference.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-blur-reference.jpg
           :width: 180px
 
           Using Glossy Filter & Light Falloff.
 
-     - .. figure:: /images/cycles_noise_fisheye_blur.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-blur.jpg
           :width: 180px
 
           What the Shader sees.
 
-     - .. figure:: /images/cycles_noise_fisheye_blur_hotspot.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-blur-hotspot.jpg
           :width: 180px
 
           The detected Highlights.
@@ -112,17 +112,17 @@ and transmission shaders such as glass usually need the most.
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_0bounce.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_0bounce.jpg
           :width: 180px
 
           No bounces.
 
-     - .. figure:: /images/cycles_noise_2bounce.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_2bounce.jpg
           :width: 180px
 
           Two bounces at max.
 
-     - .. figure:: /images/cycles_noise_4bounce.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_4bounce.jpg
           :width: 180px
 
           Four bounces at max.
@@ -148,17 +148,17 @@ Many render engines will typically disable caustics by default.
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_reference.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_reference.jpg
           :width: 180px
 
           Default Settings.
 
-     - .. figure:: /images/cycles_noise_no_caustics.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_no-caustics.jpg
           :width: 180px
 
           Caustics Disabled.
 
-     - .. figure:: /images/cycles_noise_filter_glossy.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_filter-glossy.jpg
           :width: 180px
 
           Filter Glossy greater than zero.
@@ -184,12 +184,12 @@ This is a typical recipe for fireflies.
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_falloff_hard.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_falloff-hard.jpg
           :width: 180px
 
           Hard Falloff.
 
-     - .. figure:: /images/cycles_noise_falloff_soft.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_falloff-soft.jpg
           :width: 180px
 
           Soft Falloff.
@@ -218,12 +218,12 @@ and the image renders with slightly less noise by disabling Multiple Importance 
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_sample_lamp.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_sample-lamp.jpg
           :width: 180px
 
           Multiple Importance off.
 
-     - .. figure:: /images/cycles_noise_no_sample_lamp.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_no-sample-lamp.jpg
           :width: 180px
 
           Multiple Importance on.
@@ -247,7 +247,7 @@ transparent shadows to find light sources straight through surfaces,
 and will give properly-colored shadows, but without the caustics.
 The Light Path node is used to determine when to use which of the two shaders.
 
-.. figure:: /images/render_cycles_noise_glass_group.png
+.. figure:: /images/render_cycles_optimizations_reducing-noise_glass-group.png
 
    Optimized glass shader.
 
@@ -257,12 +257,12 @@ and on the right the render with the trick.
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_glass_too_much_shadow.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_glass-too-much-shadow.jpg
           :width: 180px
 
           Default Glas BSDF.
 
-     - .. figure:: /images/cycles_noise_glass_trick.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_glass-trick.jpg
           :width: 180px
 
           Optimized Glass Shader.
@@ -277,8 +277,8 @@ To fix this, use :ref:`Light Portals <render-cycles-lamps-area-portals>`,
 these work by adding a :ref:`Area Lamp <render-cycles-lamps-area>`.
 You then will need to modify its shape to match that of the opening that you are trying to fill.
 
-.. figure:: /images/cycles_portals2.jpg
-.. figure:: /images/cycles_portals.jpg
+.. figure:: /images/render_cycles_lamps_portals2.jpg
+.. figure:: /images/render_cycles_lamps_portals.jpg
 
 
 Denoising
@@ -320,12 +320,12 @@ leaving highlights directly visible to the camera untouched.
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_noise_noclamp.jpg
+   * - .. figure:: /images/render_cycles_optimizations_reducing-noise_no-clamp.jpg
           :width: 180px
 
           No Clamp (0).
 
-     - .. figure:: /images/cycles_noise_clamp_4.jpg
+     - .. figure:: /images/render_cycles_optimizations_reducing-noise_clamp4.jpg
           :width: 180px
 
           With Clamp set to 4.

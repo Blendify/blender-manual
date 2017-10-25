@@ -98,7 +98,7 @@ Density
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_point_density.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_point-density_example.jpg
    :width: 200px
 
    Domain object with Point Density texture using vertices from ball as points.

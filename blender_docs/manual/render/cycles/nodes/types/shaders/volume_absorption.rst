@@ -42,6 +42,6 @@ Volume
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_shader_volume_absorbtion.png
+.. figure:: /images/render_cycles_nodes_types_shaders_volume-absorbtion_example.png
 
    Example of Volume Absorption.

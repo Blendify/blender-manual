@@ -131,6 +131,6 @@ Examples
 Below are some examples of how all the Principled Node's
 parameters interact with each other.
 
-.. figure:: /images/cycles_nodes_shader_principled_example_1a.jpg
-.. figure:: /images/cycles_nodes_shader_principled_example_2a.jpg
-.. figure:: /images/cycles_nodes_shader_principled_example_2b.jpg
+.. figure:: /images/render_cycles_nodes_types_shaders_principled_example-1a.jpg
+.. figure:: /images/render_cycles_nodes_types_shaders_principled_example-2a.jpg
+.. figure:: /images/render_cycles_nodes_types_shaders_principled_example-2b.jpg

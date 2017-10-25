@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/cycles_introduction.jpg
+.. figure:: /images/render_cycles_introduction_overview.jpg
 
 Cycles is Blender's ray-tracing production render engine.
 

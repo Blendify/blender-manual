@@ -87,8 +87,8 @@ windows, door openings, and any place where light will enter the interior.
 In outdoor scenes most rays do not bounce much and just fly off into the sky and therefore,
 light portals are not helpful for outdoor scenes.
 
-.. figure:: /images/cycles_portals2.jpg
-.. figure:: /images/cycles_portals.jpg
+.. figure:: /images/render_cycles_lamps_portals2.jpg
+.. figure:: /images/render_cycles_lamps_portals.jpg
 
    White Room model by Jay Hardy.
 

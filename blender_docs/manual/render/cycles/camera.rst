@@ -15,7 +15,7 @@ Perspective
 Focal Length/Field of View
    Control the field of view set by lens property or by angle as selected in the *Lens Unit* menu.
 
-.. figure:: /images/cycles_camera_persp.png
+.. figure:: /images/render_cycles_camera_persp.png
    :width: 300px
 
 .. hint:: Dolly Zoom
@@ -32,7 +32,7 @@ Orthographic
 Scale
    Controls the size of objects projected on the image.
 
-.. figure:: /images/cycles_camera_ortho.png
+.. figure:: /images/render_cycles_camera_ortho.png
    :width: 300px
 
 
@@ -169,7 +169,7 @@ Ratio
   A setting of 1.0 shows no distortion, where a number below 1.0 will cause a horizontal distortion,
   and a higher number will cause a vertical distortion.
 
-.. figure:: /images/cycles_camera_dof_bokeh.jpg
+.. figure:: /images/render_cycles_camera_dof-bokeh.jpg
 
 .. seealso:: Switching between Cameras
 

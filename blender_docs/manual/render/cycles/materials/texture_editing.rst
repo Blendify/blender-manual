@@ -35,7 +35,7 @@ Rendered
 Texture Properties
 ==================
 
-.. figure:: /images/cycles_texture_tab_menu.jpg
+.. figure:: /images/render_cycles_materials_texture-editing_tab-menu.jpg
    :width: 225px
    :align: right
 
@@ -54,7 +54,7 @@ Blender textures are still used, but this will change in the future.
 Painting & UV Editing
 =====================
 
-.. figure:: /images/cycles_texture_active.png
+.. figure:: /images/render_cycles_materials_texture-editing_active.png
    :align: right
 
 For texture paint mode,

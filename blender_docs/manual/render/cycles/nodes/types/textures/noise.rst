@@ -45,7 +45,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_noise.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_noise_example.jpg
    :width: 200px
 
    Noise Texture with high detail.

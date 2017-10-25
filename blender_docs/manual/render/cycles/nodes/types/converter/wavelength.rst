@@ -36,6 +36,6 @@ Color
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_wavelength_example.jpg
+.. figure:: /images/render_cycles_nodes_types_converter_wavelength_example.jpg
 
    Example of Wavelength node.

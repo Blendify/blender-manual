@@ -75,6 +75,6 @@ BSSRDF
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_shader_sss_example.jpg
+.. figure:: /images/render_cycles_nodes_types_shaders_sss_example.jpg
 
    A skin-toned SSS shader with color radius (1.0, 0.8, 0.5).

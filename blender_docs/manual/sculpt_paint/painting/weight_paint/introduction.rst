@@ -12,7 +12,7 @@ where the vertex groups are used to define the relative bone influences on the m
 But we use it also for controlling particle emission, hair density, many modifiers,
 shape keys, etc.
 
-.. figure:: /images/modeling-meshes-weight-paint-example.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_example.jpg
 
    Vertex Group in Weight Paint Mode.
 

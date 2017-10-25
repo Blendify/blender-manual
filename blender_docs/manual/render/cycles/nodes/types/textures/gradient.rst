@@ -54,7 +54,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_gradient_example.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_gradient_example.jpg
    :width: 200px
 
    Gradient texture using object coordinates.

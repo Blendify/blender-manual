@@ -4,7 +4,7 @@
 Material Settings
 *****************
 
-.. figure:: /images/cycles_materials_settings.png
+.. figure:: /images/render_cycles_materials_settings_panel.png
    :align: right
 
    Material Settings.

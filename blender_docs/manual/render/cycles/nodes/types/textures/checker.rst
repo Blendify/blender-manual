@@ -45,7 +45,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_checker.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_checker_example.jpg
    :width: 200px
 
    Default Checker texture.

@@ -43,17 +43,17 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/cycles_nodes_shader_transparent_behavior.png
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_behavior.png
           :align: center
 
           Transparent behavior.
 
      - ..
 
-   * - .. figure:: /images/cycles_nodes_shader_transparent_example.jpg
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_example.jpg
 
           Transparent Shader (pure white).
 
-     - .. figure:: /images/cycles_nodes_shader_transparent_example_dark.jpg
+     - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_example-dark.jpg
 
           Transparent Shader (gray).

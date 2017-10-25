@@ -58,7 +58,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_brick_example.jpg
+.. figure:: /images/render_cycles_nodes_types_textures_brick_example.jpg
    :width: 200px
 
    Brick texture: Colors changed, Squash 0.62, Squash Frequency 3.
