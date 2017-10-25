@@ -17,10 +17,9 @@ This controller *deactivates* all connected actuators if...
 
 Options:
 
-.. figure:: /images/bge_controller_nan.png
+.. figure:: /images/game-engine_logic_controllers_types_nand_node.png
    :width: 292px
 
    NAND Controller.
-
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

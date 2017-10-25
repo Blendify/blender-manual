@@ -12,7 +12,7 @@ engine. It can be set up to only send a pulse upon a message with a specific sub
 
    See :doc:`Message Actuator </game_engine/logic/actuators/types/message>` for how to send messages.
 
-.. figure:: /images/bge_sensor_message.jpg
+.. figure:: /images/game-engine_logic_sensors_types_message_node.jpg
    :width: 300px
 
    Message Sensor.

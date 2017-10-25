@@ -3,7 +3,7 @@
 Actuator Common Options
 ***********************
 
-.. figure:: /images/bge_actuator_column3.png
+.. figure:: /images/game-engine_logic_actuators_common-options_column3.png
    :width: 292px
 
    Common Actuator Options.

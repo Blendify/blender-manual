@@ -6,7 +6,7 @@ Armature Actuator
 
 The *Armature Actuator* is used to modify bone constraints.
 
-.. figure:: /images/bge_logic_actuators_armature.png
+.. figure:: /images/game-engine_logic_actuators_types_armature_node.png
 
    Armature Actuator.
 

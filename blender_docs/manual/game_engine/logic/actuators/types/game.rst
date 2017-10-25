@@ -7,7 +7,7 @@ Game Actuator
 The *Game Actuator* allows the user to perform Game-specific functions,
 such as Restart Game, Quit Game, and Load Game.
 
-.. figure:: /images/bge_actuator_game.jpg
+.. figure:: /images/game-engine_logic_actuators_types_game_node.jpg
    :width: 271px
 
    Game actuator.

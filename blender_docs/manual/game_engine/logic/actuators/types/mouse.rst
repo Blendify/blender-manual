@@ -28,7 +28,7 @@ Visibility
 
 Mouse actuator for Visibility.
 
-.. figure:: /images/bge_actuator_mouse_visibility.png
+.. figure:: /images/game-engine_logic_actuators_types_mouse_visibility.png
 
 Visibility
    Toogles the visibility of the mouse cursor.
@@ -45,7 +45,7 @@ It consists in a servo controller that adjusts the force on the object in order 
    To make Mouse Look work in a smoother way, it is necessary that the width and height
    screen resolutions, in the render window, are set with even numbers (i.e 1920x1080).
 
-.. figure:: /images/bge_actuator_mouse_look.png
+.. figure:: /images/game-engine_logic_actuators_types_mouse_look.png
 
    Mouse Actuator: Look.
 

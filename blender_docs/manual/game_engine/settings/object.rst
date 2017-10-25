@@ -24,7 +24,7 @@ Settings
    You will need to apply any modifiers for level of detail objects to appear correctly.
    A fix for this is being looked into.
 
-.. figure:: /images/bge_level-of-detail-panel.png
+.. figure:: /images/game-engine_settings_object_level-of-detail-panel.png
 
 Level of detail settings can be found in the Object settings when the renderer is set to
 Blender Game.
@@ -73,7 +73,7 @@ Below are some example names that the tool will recognize.
 Generate
 --------
 
-.. figure:: /images/bge_level-of-detail-generation.jpg
+.. figure:: /images/game-engine_settings_object_level-of-detail-generation.jpg
 
 This tool generates and sets up levels of details based on the selected object.
 Generation is done using the Decimate Modifier.

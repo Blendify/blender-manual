@@ -7,7 +7,7 @@ Always Sensor
 The *Always Sensor* is used for things that need to be done every logic tick,
 or at every *x* logic tick (with non-null *f*), or at start-up (with *Tap*).
 
-.. figure:: /images/bge_sensor_always.jpg
+.. figure:: /images/game-engine_logic_sensors_types_always_node.jpg
    :width: 300px
 
    Always sensor.

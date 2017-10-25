@@ -6,10 +6,10 @@ Random Actuator
 
 The *Random Actuator* sets a random value into a property of the object.
 
-.. figure:: /images/bge_actuator_random_bool_constant.jpg
+.. figure:: /images/game-engine_logic_actuators_types_random_bool-constant.jpg
    :width: 271px
 
-   Camera Actuator.
+   Random Actuator.
 
 
 Properties

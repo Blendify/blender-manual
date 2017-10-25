@@ -10,10 +10,9 @@ For all other conditions the controller gives a negative (FALSE) output.
 
 Options:
 
-.. figure:: /images/bge_controller_or.png
+.. figure:: /images/game-engine_logic_controllers_types_or_node.png
    :width: 292px
 
    OR Controller.
-
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

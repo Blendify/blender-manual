@@ -24,7 +24,7 @@ some are special and will be described in detail later.
 - Disable Filter
 - Enable Filter
 
-.. figure:: /images/bge_actuator_filter_2d.png
+.. figure:: /images/game-engine_logic_actuators_types_2d-filters_node.png
    :width: 271px
 
    Edit Object actuator.
@@ -51,7 +51,7 @@ Motion Blur
 *Motion Blur* is a *2D Filter* that needs previous rendering information to produce motion effect on objects.
 Below you can see *Motion Blur* filter in Blender window, along with its logic bricks:
 
-.. figure:: /images/bge_motionblur_render-full.jpg
+.. figure:: /images/game-engine_logic_actuators_types_2d-filters_motionblur-render-full.jpg
 
    2D Filters: Motion Blur.
 

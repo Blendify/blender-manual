@@ -4,7 +4,7 @@
 World Physics
 *************
 
-.. figure:: /images/bge_world_physics.png
+.. figure:: /images/game-engine_physics_world_panel.png
    :align: right
    :width: 290px
 
