@@ -10,7 +10,7 @@ The Solidify Modifier takes the surface of any mesh and adds depth to it.
 Options
 =======
 
-.. figure:: /images/modifier-solidify.png
+.. figure:: /images/modeling_modifiers_generate_solidify_panel.png
 
    Solidify Modifier.
 
@@ -22,7 +22,7 @@ Offset
 Clamp
    A value between (0 to 2) to clamp offsets to avoid self intersection.
 
-   .. figure:: /images/modifier-solidify-clamp.png
+   .. figure:: /images/modeling_modifiers_generate_solidify_clamp.png
 
       Clamp Offset.
 
@@ -42,7 +42,7 @@ Vertex Group
 Crease
    These options are intended for usage with the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`.
 
-   .. figure:: /images/modifier-solidify-rims.png
+   .. figure:: /images/modeling_modifiers_generate_solidify_rims.png
       :width: 350px
 
       Rim and edges. In this example, the object was assigned a second material used to color the rim red.

@@ -4,7 +4,7 @@
 Vertex Weight Mix Modifier
 **************************
 
-.. figure:: /images/modifiersweightvgmix.png
+.. figure:: /images/modeling_modifiers_modify_weight-mix_panel.png
    :width: 300px
 
    The Vertex Weight Mix Modifier panel.
@@ -172,17 +172,17 @@ Leave the mapping to the default *Local* option, and play with the various chann
 
 .. list-table:: Texture channel variations.
 
-   * - .. figure:: /images/modifiersweightvgrouptexexintensity.jpg
+   * - .. figure:: /images/modeling_modifiers_modify_weight-mix_intensity.jpg
           :width: 200px
 
           Using intensity.
 
-     - .. figure:: /images/modifiersweightvgrouptexexred.jpg
+     - .. figure:: /images/modeling_modifiers_modify_weight-mix_red.jpg
           :width: 200px
 
           Using Red.
 
-     - .. figure:: /images/modifiersweightvgrouptexexsaturation.jpg
+     - .. figure:: /images/modeling_modifiers_modify_weight-mix_saturation.jpg
           :width: 200px
 
           Using Saturation.
@@ -204,17 +204,17 @@ and above 0.75: this creates great "walls" in the waves...
 
 .. list-table:: Custom mapping curve.
 
-   * - .. figure:: /images/modifiersweightvgrouptexexcmapcurve.png
+   * - .. figure:: /images/modeling_modifiers_modify_weight-mix_map-curve.png
           :width: 200px
 
           A customized mapping curve.
 
-     - .. figure:: /images/modifiersweightvgrouptexexred.jpg
+     - .. figure:: /images/modeling_modifiers_modify_weight-mix_red.jpg
           :width: 200px
 
           Custom Mapping disabled.
 
-     - .. figure:: /images/modifiersweightvgrouptexexredcmap.jpg
+     - .. figure:: /images/modeling_modifiers_modify_weight-mix_red-map.jpg
           :width: 200px
 
           Custom Mapping enabled.

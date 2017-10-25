@@ -22,7 +22,7 @@ Smoothing
 Options
 =======
 
-.. figure:: /images/modifier-corrective_smooth_ui.png
+.. figure:: /images/modeling_modifiers_deform_corrective-smooth_panel.png
 
    Corrective Smooth Modifier.
 
@@ -70,12 +70,12 @@ Example
 
 .. list-table:: An example of a rig using bone envelopes and not weight painting.
 
-   * - .. figure:: /images/modifier-corrective_smooth_example_pose_before.png
+   * - .. figure:: /images/modeling_modifiers_deform_corrective-smooth_example-pose-before.png
           :width: 350px
 
           Armature only.
 
-     - .. figure:: /images/modifier-corrective_smooth_example_pose_after.png
+     - .. figure:: /images/modeling_modifiers_deform_corrective-smooth_example-pose-after.png
           :width: 350px
 
-          Armature & corrective smooth
+          Armature and corrective smooth.

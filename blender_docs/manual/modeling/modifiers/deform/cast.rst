@@ -27,7 +27,7 @@ it is not limited to casting to a sphere.
 Options
 =======
 
-.. figure:: /images/modifier-cast.png
+.. figure:: /images/modeling_modifiers_deform_cast_panel.png
 
    Cast Modifier.
 
@@ -70,7 +70,7 @@ Control Object
 Example
 =======
 
-.. figure:: /images/modifier-cast-example.jpg
+.. figure:: /images/modeling_modifiers_deform_cast_example.jpg
    :width: 400px
 
    Top: Suzanne without modifiers. Middle: Suzanne with each type of Cast Modifier (Sphere, Cylinder and Cuboid).

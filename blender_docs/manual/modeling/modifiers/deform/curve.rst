@@ -24,7 +24,7 @@ are options that influence the modifier.
 Options
 =======
 
-.. figure:: /images/modifier-curve.jpg
+.. figure:: /images/modeling_modifiers_deform_curve_panel.jpg
 
    Curve Modifier.
 
@@ -58,7 +58,7 @@ Let us make a simple example:
 - Select the Monkey :kbd:`RMB` in *Object Mode*
 - Assign the curve to the modifier, as shown below. The Monkey should be positioned on the curve:
 
-.. figure:: /images/modifier-curve.jpg
+.. figure:: /images/modeling_modifiers_deform_curve_panel.jpg
 
    Assign the Bézier curve to the Curve Modifier (for Monkey).
 

@@ -14,7 +14,7 @@ with existing ones.
 Options
 =======
 
-.. figure:: /images/modifier-normal_edit_ui.png
+.. figure:: /images/modeling_modifiers_modify_normal-edit_panel.png
 
    Normal Edit Modifier.
 

@@ -14,7 +14,7 @@ You can think of it as animated
 While hooks do not give you the fine control over vertices movement that shape keys do,
 they have the advantage that you can grab vertices directly for manipulation.
 
-.. figure:: /images/modifier-hook-example1.png
+.. figure:: /images/modeling_modifiers_deform_hooks_example.png
 
    Two spheres used as Hooks to deform a subdivided cube.
 
@@ -22,7 +22,7 @@ they have the advantage that you can grab vertices directly for manipulation.
 Options
 =======
 
-.. figure:: /images/modifier-hook.jpg
+.. figure:: /images/modeling_modifiers_deform_hooks_panel.jpg
 
    Hook Modifier.
 

@@ -11,7 +11,7 @@ as a particle shape on an object which has a particle system associated with it.
 that to use this modifier you must also have another object which has a particle system on it,
 otherwise the Particle Instance Modifier will appear to do nothing.
 
-.. figure:: /images/modifier-particle_instance_modifier-planes.jpg
+.. figure:: /images/modeling_modifiers_simulate_particle-instance_planes.jpg
    :width: 500px
 
    Particle system on left has no Particle Instance modified object associated with it.
@@ -21,7 +21,7 @@ otherwise the Particle Instance Modifier will appear to do nothing.
 Options
 =======
 
-.. figure:: /images/particle_instance_modifier.png
+.. figure:: /images/modeling_modifiers_simulate_particle-instance_panel.png
    :width: 250px
 
    Particle Instance Modifier.
@@ -62,7 +62,7 @@ Particle System
    which has the shape of a sphere and the right side having a Particle Instance Modifier which has the
    shape of a cube.
 
-   .. figure:: /images/modifier-particle_instance_modifiers-split_plane_2.jpg
+   .. figure:: /images/modeling_modifiers_simulate_particle-instance_split-plane.jpg
       :width: 610px
 
       Render showing a single Plain mesh object assigned to two different vertex groups
@@ -136,7 +136,7 @@ Position
 Random
    Scales the position value of each instance a random value.
 
-.. figure:: /images/particle_instance_modifier-keyed_particle_example_1.png
+.. figure:: /images/modeling_modifiers_simulate_particle-instance_keyed-particle-example1.png
    :width: 500px
 
    Keyed particle following way points (showing one particle).
@@ -151,7 +151,7 @@ The cylinder does not alter any of its other properties when following the parti
 only the cylinders location gets altered, shape and rotation do not get altered.
 See screenshot below:
 
-.. figure:: /images/particle_instance_modifier-keyed_particle_example_2.png
+.. figure:: /images/modeling_modifiers_simulate_particle-instance_keyed-particle-example2.png
    :width: 500px
 
    Keyed particle following way points showing a mesh object
@@ -162,7 +162,7 @@ See screenshot below:
 Both of the above examples had the Particle Instance Modifier *Path* button deactivated.
 When the *Path* button is activated the effect can be seen in the screenshot below:
 
-.. figure:: /images/particle_instance_modifier-keyed_particle_example_3.png
+.. figure:: /images/modeling_modifiers_simulate_particle-instance_keyed-particle-example3.png
    :width: 500px
 
    Keyed particle following way points showing a mesh object (Particle Instance Modifier)
@@ -181,23 +181,23 @@ showing the effect on the deformation of the cylinder along the particle path.
 
    .. list-table::
 
-      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_4.png
+      * - .. figure:: /images/modeling_modifiers_simulate_particle-instance_keyed-particle-example4.png
              :width: 320px
 
              The cylinder has most of its edge loops so most of the path deform is very regular
              apart from at the very end of the curve.
 
-        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_5.png
+        - .. figure:: /images/modeling_modifiers_simulate_particle-instance_keyed-particle-example5.png
              :width: 320px
 
              The cylinder has some of its edge loops removed so the path of the deform starts to become less regular.
 
-      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_6.png
+      * - .. figure:: /images/modeling_modifiers_simulate_particle-instance_keyed-particle-example6.png
              :width: 320px
 
              Now the deform path is very rough.
 
-        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_7.png
+        - .. figure:: /images/modeling_modifiers_simulate_particle-instance_keyed-particle-example7.png
              :width: 320px
 
              At this point there are not any vertices to bend the cylinder to follow the path,
@@ -212,7 +212,7 @@ particles as well as with keyed particles.
 In this case the mesh of the Particle Instance Modifier will follow the length and profile of the hair strands paths.
 Below is a screenshot showing the effect of the *Path* button on hair:
 
-.. figure:: /images/particle_instance_modifier-strand_mesh_deform.png
+.. figure:: /images/modeling_modifiers_simulate_particle-instance_strand-mesh-deform.png
    :width: 500px
 
    Strand with a Particle Instance Modifier associated with it and deforming the cylinder along the hair profile.

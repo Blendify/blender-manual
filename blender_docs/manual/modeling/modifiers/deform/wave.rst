@@ -11,17 +11,17 @@ surfaces and texts.
 
 .. list-table::
 
-   * - .. figure:: /images/modifier-wave-example-circular.jpg
+   * - .. figure:: /images/modeling_modifiers_deform_wave_example-circular.jpg
           :width: 180px
 
           Circular wave front.
 
-     - .. figure:: /images/modifier-wave-example-linear.jpg
+     - .. figure:: /images/modeling_modifiers_deform_wave_example-linear.jpg
           :width: 180px
 
           Linear wave front.
 
-     - .. figure:: /images/modifier-wave-example-normals.jpg
+     - .. figure:: /images/modeling_modifiers_deform_wave_example-normals.jpg
           :width: 180px
 
           Motion enabled for X,
@@ -31,7 +31,7 @@ surfaces and texts.
 Options
 =======
 
-.. figure:: /images/modifier-wave.png
+.. figure:: /images/modeling_modifiers_deform_wave_panel.png
 
    Wave Modifier.
 

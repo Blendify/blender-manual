@@ -11,7 +11,7 @@ Transfer works by generating a mapping between source mesh's items (vertices, ed
 and destination ones, either on a one-to-one basis, or mapping several source items
 to a single destination one by interpolated mapping.
 
-.. figure:: /images/modifier-data_transfer_normals_example.png
+.. figure:: /images/modeling_modifiers_modify_data-transfer_normals-example.png
 
    From left to right, a flat-shaded beveled cube, a smooth-shaded beveled cube,
    and an autosmooth-shaded beveled cube copying its normals from the reference,
@@ -21,7 +21,7 @@ to a single destination one by interpolated mapping.
 Options
 =======
 
-.. figure:: /images/modifier-data_transfer_ui.png
+.. figure:: /images/modeling_modifiers_modify_data-transfer_panel.png
 
    Data Transfer Modifier.
 
