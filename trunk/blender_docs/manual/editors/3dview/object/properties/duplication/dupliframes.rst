@@ -11,17 +11,16 @@ This is a useful tool to quickly arrange objects.
 Examples
 ========
 
-.. figure:: /images/modeling-dupliframes-example01.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example01.png
    :width: 300px
 
    Settings for the curve.
-
 
 :kbd:`Shift-A` to add a *Bézier Circle* and scale it up.
 In the *Curve* menu under *Path Animation* enable *Follow*
 and set *Frames* to something more reasonable than 100 (say 16).
 
-.. figure:: /images/modeling-dupliframes-example02.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example02.png
    :width: 300px
 
    Settings for the object.
@@ -33,21 +32,19 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable *Frames* and dis
    The *Speed* option is used when the parent-child relationship is set to *Follow Path* (see below).
    In this example, the monkey will then travel along the circle over 16 frames.
 
-.. figure:: /images/modeling-dupliframes-example03.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example03.png
    :width: 300px
 
    Parenting.
-
 
 To parent the monkey to the Bézier circle, first select the monkey then the curve
 (so that the curve is the active object) and :kbd:`Ctrl-P`.
 Select the monkey and :kbd:`Alt-O` to reset its origin.
 
-.. figure:: /images/modeling-dupliframes-example04.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example04.png
    :width: 300px
 
    Orientation tweaks.
-
 
 You can now change the orientation of the monkey by either rotating it
 (either in *Edit Mode* or *Object Mode*) or by changing the *Tracking Axes*

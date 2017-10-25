@@ -6,7 +6,7 @@ Structure
 With meshes, everything is built from three basic structures:
 *Vertices*, *Edges* and *Faces*.
 
-.. figure:: /images/mesh_structure.png
+.. figure:: /images/modeling_meshes_structure_example.png
 
    Example of mesh structure.
 
@@ -23,7 +23,7 @@ It is usually invisible in rendering and in *Object Mode*.
 Do not mistake the origin point of an object for a vertex. It looks similar,
 but it is bigger and you cannot select it.
 
-.. figure:: /images/mesh-structures-cubeexample.png
+.. figure:: /images/modeling_meshes_structure_cube-example.png
 
    Vertex example.
 
@@ -64,7 +64,7 @@ Loops
 
 .. _fig-mesh-topo-loop:
 
-.. figure:: /images/mesh-structures-edge-and-face-loops.png
+.. figure:: /images/modeling_meshes_structure_edge-face-loops.png
 
    Edge and Face Loops.
 

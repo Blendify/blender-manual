@@ -56,7 +56,7 @@ Groups Panel
    | Mode:     Object Mode
    | Panel:    :menuselection:`Object tab --> Groups`
 
-.. figure:: /images/modeling-objects-grouping-objprop.png
+.. figure:: /images/editors_3dview_object_properties_relations_groups_panel-outliner.png
 
    Group panel and Outliner.
 

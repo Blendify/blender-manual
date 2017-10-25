@@ -199,7 +199,7 @@ Connects two disconnected control points.
 The selection must be loose points, or the first/last point of a curve, then press :kbd:`F`.
 If the points belong to different curves, these are joined by a segment to become a single curve.
 
-.. figure:: /images/editing_curves_two-curves-joined.png
+.. figure:: /images/modeling_curves_editing_introduction_two-curves-joined.png
    :width: 600px
 
    Curves before and after joining.
@@ -269,12 +269,12 @@ Dissolve Vertices :kbd:`Ctrl-X`
 
 .. list-table::
 
-   * - .. figure:: /images/editing_curves_delete-selected.png
+   * - .. figure:: /images/modeling_curves_editing_introduction_delete-selected.png
           :width: 320px
 
           Deleting Curve Selected.
 
-     - .. figure:: /images/editing_curves_delete-segment.png
+     - .. figure:: /images/modeling_curves_editing_introduction_delete-segment.png
           :width: 320px
 
           Deleting Curve segments.

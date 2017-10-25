@@ -328,12 +328,12 @@ Simple example showing two closed edge loops.
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_simple_before.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_bridge-simple-before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_simple_after.png
+     - .. figure:: /images/modeling_meshes_editing_edges_bridge-simple-after.png
           :width: 320px
 
           Bridge Result.
@@ -342,12 +342,12 @@ Example of bridge tool between edge loops with different numbers of vertices.
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_uneven_before.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_bridge-uneven-before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_uneven_after.png
+     - .. figure:: /images/modeling_meshes_editing_edges_bridge-uneven-after.png
           :width: 320px
 
           Bridge Result.
@@ -356,12 +356,12 @@ Example using the bridge tool to punch holes in face selections and connect them
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_faces_before.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_bridge-faces-before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_faces_after.png
+     - .. figure:: /images/modeling_meshes_editing_edges_bridge-faces-after.png
           :width: 320px
 
           Bridge Result.
@@ -370,12 +370,12 @@ Example showing how bridge tool can detect multiple loops and loft them in one s
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_multi_before.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_bridge-multi-before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_multi_after.png
+     - .. figure:: /images/modeling_meshes_editing_edges_bridge-multi-after.png
           :width: 320px
 
           Bridge Result.
@@ -384,12 +384,12 @@ Example of the subdivision option and surface blending with UV's.
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_advanced_before.png
+   * - .. figure:: /images/modeling_meshes_editing_edges_bridge-advanced-before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_advanced_after.png
+     - .. figure:: /images/modeling_meshes_editing_edges_bridge-advanced-after.png
           :width: 320px
 
           Bridge Result.

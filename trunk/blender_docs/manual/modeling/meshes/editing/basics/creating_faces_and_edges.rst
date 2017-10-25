@@ -30,12 +30,12 @@ Isolated vertices
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_make_face_verts_simple_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_verts-simple-before.png
           :width: 200px
 
           Before.
 
-     - .. figure:: /images/bmesh_make_face_verts_simple_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_verts-simple-after.png
           :width: 200px
 
           After.
@@ -46,12 +46,12 @@ Isolated edges
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_make_face_edges_simple_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_edges-simple-before.png
           :width: 200px
 
           Before.
 
-     - .. figure:: /images/bmesh_make_face_edges_simple_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_edges-simple-after.png
           :width: 200px
 
           After.
@@ -66,12 +66,12 @@ note that this does not support holes, to support holes you need to use the
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_make_face_edges_ngon_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_ngon-before.png
           :width: 200px
 
           Before.
 
-     - .. figure:: /images/bmesh_make_face_edges_ngon_simple_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_ngon-simple-after.png
           :width: 200px
 
           After.
@@ -84,12 +84,12 @@ Existing edges are used to make the face as well as an extra vertex.
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_make_face_mix_simple_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_mix-simple-before.png
           :width: 200px
 
           Before.
 
-     - .. figure:: /images/bmesh_make_face_mix_simple_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_mix-simple-after.png
           :width: 200px
 
           After.
@@ -102,12 +102,12 @@ Sometimes you may have many connected edges without interior faces.
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_make_face_net_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_net-before.png
           :width: 200px
 
           Before.
 
-     - .. figure:: /images/bmesh_make_face_net_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_net-after.png
           :width: 200px
 
           After.
@@ -121,12 +121,12 @@ Blender will calculate the edges for an n-gon.
 
 .. list-table::
 
-   * - .. figure:: /images/bmesh_make_face_cloud_before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_cloud-before.png
           :width: 200px
 
           Before.
 
-     - .. figure:: /images/bmesh_make_face_cloud_after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_cloud-after.png
           :width: 200px
 
           After.
@@ -140,7 +140,7 @@ the face will be created along the boundary,
 this saves manually selecting the other two vertices.
 Notice this tool can run multiple times to continue creating faces.
 
-.. figure:: /images/mesh_face_create_boundary.png
+.. figure:: /images/modeling_meshes_editing_subdividing_vertex-connect_create-boundary.png
 
 .. seealso::
 

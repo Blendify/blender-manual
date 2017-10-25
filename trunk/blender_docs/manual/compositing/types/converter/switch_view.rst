@@ -46,7 +46,7 @@ Image
 Example
 =======
 
-.. figure:: /images/multiview_compositor.png
+.. figure:: /images/render_workflows_multiview_usage_compositor.png
 
    Compositor, Backdrop and Split Viewer Node.
 

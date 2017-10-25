@@ -37,7 +37,7 @@ DupliVerts as an Arranging Tool
 Setup
 -----
 
-.. figure:: /images/dupliverts-example01-1start.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-before.png
 
    A monkey head and a circle.
 
@@ -47,7 +47,7 @@ we will use a simple scene for the following part. We will be using a monkey hea
 the origin of the coordinate system as our base object and a circle at the same location as
 our parent mesh.
 
-.. figure:: /images/dupliverts-example01-2dupliverted.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-after.png
 
    Dupliverted monkeys.
 
@@ -85,7 +85,7 @@ objects.
 Orientation
 -----------
 
-.. figure:: /images/dupliverts-example01-3orientation.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_orientation.png
 
    Orientation enabled, orientation +Y.
 
@@ -99,15 +99,15 @@ To change the orientation of the duplicated objects, select the base object and 
 
 Output of various orientations:
 
-.. figure:: /images/dupliverts-example01-4negy.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_negy.png
 
    Negative Y.
 
-.. figure:: /images/dupliverts-example01-5posx.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posx.png
 
    Positive X.
 
-.. figure:: /images/dupliverts-example01-6posz.png
+.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posz.png
 
    Positive Z, up X.
 
@@ -133,15 +133,15 @@ was adapted to the vertex normals of the parent mesh
 
 .. list-table::
 
-   * - .. figure:: /images/dupliverts-example02-1tentacle.jpg
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_tentacle.jpg
 
           A simple tentacle set to smooth.
 
-     - .. figure:: /images/dupliverts-example02-2norot.jpg
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_norot.jpg
 
           Tentacle dupliverted onto the parent mesh.
 
-     - .. figure:: /images/dupliverts-example02-3rot.jpg
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_rot.jpg
 
           Rotation enabled to align duplicates.
 

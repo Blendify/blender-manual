@@ -38,7 +38,7 @@ because not all data-blocks are shared; some of them are "hard copied"!
 Examples
 --------
 
-.. figure:: /images/modeling-duplicate-example.png
+.. figure:: /images/editors_3dview_object_editing_duplication_example.png
 
    The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
    The mesh's Unique data-block ID name is highlighted in the Outliner.
@@ -95,7 +95,7 @@ Linked
 Examples
 --------
 
-.. figure:: /images/modeling-duplicate-linked-example.png
+.. figure:: /images/editors_3dview_object_editing_duplication_linked-example.png
 
    The object ``Cone.001`` was linked duplicated.
    Though both these cones are separate objects with unique names,

@@ -13,7 +13,7 @@ The *Random Sensor* generates random pulses.
 
 
 Properties
-=========
+==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 

@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/multiview_workflow_3.png
+.. figure:: /images/render_workflows_multiview_usage_viewport.png
 
 Since version 2.75, Blender has come with a new feature called Multiview.
 Multiview is a complete toolset for working with stereoscopic rendering in Blender.

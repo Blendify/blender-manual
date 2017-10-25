@@ -29,7 +29,7 @@ Some common operation could easier executed with the  :doc:`/compositing/types/c
 
 
 Separate/Combine RGBA Nodes
-==========================
+===========================
 
 .. figure:: /images/compositing_nodes_converter_combine-rgba.png
    :align: right
@@ -81,7 +81,7 @@ and all the green both Red and Blue, and remove Blue from the image completely.
 
 
 Separate/Combine HSVA Nodes
-===========================
+============================
 
 .. figure:: /images/compositing_nodes_converter_combine-hsva.png
    :align: right
@@ -113,7 +113,7 @@ This node has no properties.
 
 
 Separate/Combine YUVA Nodes
-==========================
+===========================
 
 .. figure:: /images/compositing_nodes_converter_combine-yuva.png
    :align: right
