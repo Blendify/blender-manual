@@ -7,7 +7,7 @@ Steering Actuator
 The *Steering Actuator* moves an object towards a target object, with options to seek, flee, or follow a path.
 This actuator will not actually try to avoid obstacles by deviating the objects course.
 
-.. figure:: /images/bge_actuator_steering-steering_panel.jpg
+.. figure:: /images/game-engine_logic_actuators_types_steering_node.jpg
 
    Steering Actuator.
 

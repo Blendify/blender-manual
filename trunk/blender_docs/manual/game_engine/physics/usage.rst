@@ -13,11 +13,11 @@ a Blender game and turn it into Blender Animation Keyframes.
 Animation can be recorded by going :menuselection:`Game --> Record Animation`.
 The animation can then be recorded with :kbd:`Alt-A`
 
-.. figure:: /images/game_engine_physics_blocks.png
+.. figure:: /images/game-engine_physics_usage_blocks.png
 
    Some Blocks about to fall.
 
-.. figure:: /images/game_engine_physics_blocks2.png
+.. figure:: /images/game-engine_physics_usage_blocks2.png
 
    A Pile.
 

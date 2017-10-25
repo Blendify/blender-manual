@@ -6,7 +6,7 @@ Sound Actuator
 
 The *Sound Actuator* allows the user to play sound files in the game engine.
 
-.. figure:: /images/bge_actuator_sound.png
+.. figure:: /images/game-engine_logic_actuators_types_sound_node.png
    :width: 271px
 
    Sound Actuator.
@@ -45,7 +45,7 @@ Pitch
 3D Sound
 --------
 
-.. figure:: /images/bge_actuator_sound_cone.jpg
+.. figure:: /images/game-engine_logic_actuators_types_sound_cone.jpg
    :width: 200px
    :figwidth: 200px
 

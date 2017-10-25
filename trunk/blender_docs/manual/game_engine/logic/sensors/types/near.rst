@@ -18,7 +18,7 @@ It can filter objects with properties, like the
    The *Near* sensor cannot detect soft bodies.
    This is a limitation in Bullet, the physics library used by the Game Engine.
 
-.. figure:: /images/bge_sensor_near.png
+.. figure:: /images/game-engine_logic_sensors_types_near_node.png
    :width: 300px
 
    Near sensor.

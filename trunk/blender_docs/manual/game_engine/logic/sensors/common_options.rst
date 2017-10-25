@@ -7,7 +7,7 @@
 Sensor Common Options
 *********************
 
-.. figure:: /images/bge_sensor_column3.jpg
+.. figure:: /images/game-engine_logic_sensors_common-options_column3.jpg
    :width: 292px
 
    Common Sensor Options.

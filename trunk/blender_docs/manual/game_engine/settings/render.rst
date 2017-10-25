@@ -3,7 +3,7 @@
 Render Settings
 ***************
 
-.. figure:: /images/bge_camera_properties.png
+.. figure:: /images/game-engine_settings_render_camera-properties.png
    :width: 300px
 
    Camera Properties.
@@ -34,7 +34,7 @@ The features in each panel will be described in detail below.
 Embedded Player
 ===============
 
-.. figure:: /images/bge_camera_properties_embedded.png
+.. figure:: /images/game-engine_settings_render_camera-properties-embedded.png
    :width: 300px
 
    Embedded Player Panel.
@@ -60,7 +60,7 @@ Resolution
 Standalone Player
 =================
 
-.. figure:: /images/bge_camera_properties_standalone.png
+.. figure:: /images/game-engine_settings_render_camera-properties-standalone.png
    :width: 300px
 
    Standalone Player Panel.
@@ -116,7 +116,7 @@ Quality
 Stereo
 ======
 
-.. figure:: /images/bge_camera_properties_stereo.png
+.. figure:: /images/game-engine_settings_render_camera-properties-stereo.png
    :width: 300px
 
    Stereo Panel.
@@ -137,7 +137,7 @@ Dome
 Shading
 =======
 
-.. figure:: /images/bge_camera_properties_shading.png
+.. figure:: /images/game-engine_settings_render_camera-properties-shading.png
    :width: 300px
 
    Shading Panel.
@@ -164,7 +164,7 @@ developer specify options about the system performance regarding to frame discar
 restrictions about frame renderings, the key to stop the Blender Game Engine,
 and whether to maintain geometry in the internal memory of the Graphic card.
 
-.. figure:: /images/gameengine_performance_render_system.png
+.. figure:: /images/game-engine_settings_render_system.png
    :width: 300px
 
    System panel in the Render tab.
@@ -209,7 +209,7 @@ physics geometry visualization, warnings,
 whether the mouse cursor is shown during the game execution, and options to specify the framing
 style of the game to fit the window with the specified resolution.
 
-.. figure:: /images/gameengine_performance_render_display.jpg
+.. figure:: /images/game-engine_settings_render_display.jpg
 
    Display panel at the Render tab.
 
@@ -264,7 +264,7 @@ The *Bake* panel in the *Render* tab of the *Properties* editor is very similar 
 Blender Render couterpart and serves much the same purpose.
 See :doc:`Render Baking </render/blender_render/bake>` for further details.
 
-.. figure:: /images/gameengine_performance_render_bake.png
+.. figure:: /images/game-engine_settings_render_bake.png
 
    Bake panel at the Render tab (showing different bake modes).
 

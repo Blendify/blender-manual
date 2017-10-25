@@ -31,7 +31,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 Dome Camera Settings
 ====================
 
-.. figure:: /images/game-engine_camera_dome.png
+.. figure:: /images/game-engine_camera_dome_dome.png
 
 Dome Type
    This menu allows you to select which type of dome camera to use.
@@ -66,7 +66,7 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 - From 90º to 180º we are using four renders.
 - From 181º to 250º we are using five renders.
 
-.. figure:: /images/bge_dome-fisheye.jpg
+.. figure:: /images/game-engine_camera_dome_fisheye.jpg
 
    Fisheye Mode.
 
@@ -81,7 +81,7 @@ this mode aligns the fisheye image with the top of the window, while touching th
 - From 90º to 180º we are using four renders.
 - From 181º to 250º we are using five renders.
 
-.. figure:: /images/bge_dome-front-truncated.jpg
+.. figure:: /images/game-engine_camera_dome_front-truncated.jpg
 
    Front Truncated Dome Mode.
 
@@ -96,7 +96,7 @@ this mode aligns the fisheye image with the bottom of the window, while touching
 - From 90º to 180º we are using four renders.
 - From 181º to 250º we are using five renders.
 
-.. figure:: /images/bge_dome-rear-truncated.jpg
+.. figure:: /images/game-engine_camera_dome_rear-truncated.jpg
 
    Rear Truncated Dome Mode.
 
@@ -110,7 +110,7 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
   - first line: right, back, left
   - second line: bottom, top, front
 
-.. figure:: /images/bge_dome-envmap.jpg
+.. figure:: /images/game-engine_camera_dome_envmap.jpg
 
    Environment Map Mode.
 
@@ -123,7 +123,7 @@ A full spherical panoramic mode.
 - We are using six cameras here.
 - The bottom and top start to get precision with *Definition* set to 5 or more.
 
-.. figure:: /images/bge_dome-panoramic.jpg
+.. figure:: /images/game-engine_camera_dome_panoramic.jpg
 
    Full Spherical Panoramic Mode.
 
@@ -138,7 +138,7 @@ for VR.
 
 For more information on the mesh format see `Paul Bourke's article <http://paulbourke.net/dataformats/meshwarp/>`__.
 
-.. figure:: /images/bge_dome-warped.jpg
+.. figure:: /images/game-engine_camera_dome_warped.jpg
 
 In order to produce those images, we are using a specific file format.
 

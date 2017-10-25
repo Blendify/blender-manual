@@ -6,7 +6,7 @@ Property Actuator
 
 The *Property Actuator* changes the value of a given property once the actuator itself is activated.
 
-.. figure:: /images/bge_actuator_property.jpg
+.. figure:: /images/game-engine_logic_actuators_types_property_node.jpg
    :width: 271px
 
    Property Actuator.

@@ -41,7 +41,7 @@ and some of these actuators may switch the actor's state under appropriate condi
 Editing States
 ==============
 
-.. figure:: /images/bge_controller_state_panel.png
+.. figure:: /images/game-engine_logic_states_panel.png
    :width: 292px
 
    State Panel Button.
@@ -57,7 +57,7 @@ is carried out using the State Panel for the object,
 which is switched on and off using the button shown. The panel is divided into two halves,
 Visible and Initial.
 
-.. figure:: /images/bge_controller_state_panel1.png
+.. figure:: /images/game-engine_logic_states_panel1.png
    :width: 292px
 
    State Panel Visible.
@@ -79,7 +79,7 @@ and squares are dark-gray if these controllers are shown in the Game Logic displ
 display of their connected sensors and actuators can also be controlled if the State buttons
 at the head of their columns are ticked.
 
-.. figure:: /images/bge_controller_state_panel2.png
+.. figure:: /images/game-engine_logic_states_panel2.png
    :width: 292px
 
    State Panel Initial.

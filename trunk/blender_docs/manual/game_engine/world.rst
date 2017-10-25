@@ -3,7 +3,7 @@
 World
 *****
 
-.. figure:: /images/bge_world_materials.png
+.. figure:: /images/game-engine_world_panel.png
    :align: right
 
    BGE World Panel.

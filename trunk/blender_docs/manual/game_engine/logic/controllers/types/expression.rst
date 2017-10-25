@@ -9,7 +9,7 @@ The result of the expression is TRUE, and
 The object is in the designated State.
 For all other conditions the controller gives a negative (FALSE) output.
 
-.. figure:: /images/bge_controller_expression.png
+.. figure:: /images/game-engine_logic_controllers_types_expression_node.png
    :width: 292px
 
    Expression Controller.
@@ -116,7 +116,7 @@ hence in this case the controller sends a positive pulse to the connected actuat
 Parts of the Expression Controller
 ==================================
 
-.. figure:: /images/game_engine_controllers_expression.png
+.. figure:: /images/game-engine_logic_controllers_types_expression_part.png
 
    The Expression to calculate.
 

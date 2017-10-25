@@ -126,7 +126,7 @@ you have found the *x min/max* the complete boundary for all x values within the
 Do this again for y and z, then make a rectangular prism out of these values, and you have a *Bounding Box*.
 This box could be oriented relative globally to the world or locally to the object's rotation.
 
-.. figure:: /images/bge-physics-boundingbox.png
+.. figure:: /images/game-engine_physics_types_dynamic_bounding-box.png
 
    Demonstration of a Local Bounding Box (left) and a Global Bounding Box (right).
 
@@ -141,7 +141,7 @@ Blender will remember this change for future :kbd:`Ctrl-Alt-Shift-C` executions.
 
 All Collision Bounds are centered on this origin. All boxes are oriented locally, so object rotation matters.
 
-.. figure:: /images/bge-physics-origintoboxbounds.png
+.. figure:: /images/game-engine_physics_types_dynamic_origin-to-box-bounds.png
 
    Setting the origin to Bounds Center instead of Median Center.
 
@@ -176,7 +176,7 @@ Cone
 Convex Hull
    Forms a shrink-wrapped, simplified geometry around the object.
 
-.. figure:: /images/bge-physics-convexhull.png
+.. figure:: /images/game-engine_physics_types_dynamic_convex-hull.png
 
    A convex hull sketch.
 
@@ -191,7 +191,7 @@ By Hand
    This method allows you to strike a balance between the accuracy of *Triangle Mesh*
    with the efficiency of some of the others. See the demo of this in the dune buggy to the right.
 
-.. figure:: /images/bge-physics-manualhull.png
+.. figure:: /images/game-engine_physics_types_dynamic_manual-hull.png
 
    Another way to create Collision Bounds -- By hand.
 

@@ -10,10 +10,9 @@ For all other conditions the controller gives a negative (FALSE) output.
 
 Options:
 
-.. figure:: /images/bge_controller_xor.png
+.. figure:: /images/game-engine_logic_controllers_types_xor_node.png
    :width: 292px
 
    XOR Controller.
-
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

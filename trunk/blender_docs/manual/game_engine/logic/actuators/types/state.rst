@@ -14,7 +14,7 @@ and performing operations upon them.
    without the need for hundreds of properties. Use it well, and you benefit greatly,
    but often problems may be circumvented by Python.
 
-.. figure:: /images/bge_actuator_state.png
+.. figure:: /images/game-engine_logic_actuators_types_state_node.png
    :width: 271px
 
    State actuator.

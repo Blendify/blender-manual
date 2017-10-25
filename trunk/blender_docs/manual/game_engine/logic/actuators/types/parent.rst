@@ -6,7 +6,7 @@ Parent Actuator
 
 The *Parent Actuator* enables the user to change the parent relationships of the current object.
 
-.. figure:: /images/bge_actuator_parent.jpg
+.. figure:: /images/game-engine_logic_actuators_types_parent_node.jpg
    :width: 271px
 
    Parent Actuator.

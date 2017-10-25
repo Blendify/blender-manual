@@ -3,7 +3,7 @@
 Controller Editing
 ******************
 
-.. figure:: /images/bge_controller_column.jpg
+.. figure:: /images/game-engine_logic_controllers_editing_column.jpg
    :width: 292px
 
    Controller Column with Typical Sensor.
@@ -21,7 +21,7 @@ and buttons to control which of all the controllers in the current Game Logic ar
 Column Heading
 ==============
 
-.. figure:: /images/bge_controller_column1.png
+.. figure:: /images/game-engine_logic_controllers_editing_column1.png
    :width: 292px
 
    Controller Column Headings.
@@ -57,10 +57,10 @@ Link
 Object Heading
 ==============
 
-.. figure:: /images/bge_controller_column2.png
+.. figure:: /images/game-engine_logic_controllers_editing_column2.png
    :width: 292px
 
-.. figure:: /images/bge_controller_column4.png
+.. figure:: /images/game-engine_logic_controllers_editing_column4.png
    :width: 292px
 
 In the column list, controllers are grouped by object. By default,
@@ -85,7 +85,7 @@ Standard Controller Parts
 
 The controller heading is standard to every controller.
 
-.. figure:: /images/game_engine_controller_parts.png
+.. figure:: /images/game-engine_logic_controllers_editing_controller-parts.png
 
 Controller Type menu
    Specifies the type of the controller.
