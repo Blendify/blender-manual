@@ -8,7 +8,9 @@ All its inputs are TRUE, and
 The object is in the designated State.
 For all other conditions the controller gives a negative (FALSE) output.
 
-Options:
+
+Options
+=======
 
 .. figure:: /images/game-engine_logic_controllers_types_and_node.png
    :width: 292px
