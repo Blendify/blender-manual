@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_node_example.jpg
+.. figure:: /images/editors_node-editor_introduction_example.jpg
 
    The Node Editor.
 
@@ -82,7 +82,7 @@ auto-offset will, depending on the direction setting, automatically move the lef
 for the new node.
 Auto-offset is a feature that helps organizing node layouts interactively without interrupting the user workflow.
 
-.. figure:: /images/editors_node-editor_nodes_auto-offset.png
+.. figure:: /images/editors_node-editor_introduction_auto-offset.png
 
 Auto-offset is enabled by default, but it can be disabled from the Node editor header.
 

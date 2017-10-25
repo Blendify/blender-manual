@@ -30,14 +30,14 @@ Depending on your desktop environment setup, a Blender icon may appear on your d
 entry for Blender is added to your menu after you install Blender. Often you can edit such an icon
 and enable "Run in terminal".
 
-.. figure:: /images/interface-window_system-console-kde.png
+.. figure:: /images/advanced_command-line_introduction_kde.png
 
    Configuring the KDE menu icon to start Blender from a terminal.
 
 This screenshot shows Blender started from a Linux Terminal and the
 resulting text output written to it:
 
-.. figure:: /images/interface-window_system-console-linux.png
+.. figure:: /images/advanced_command-line_introduction_linux.png
 
    Starting Blender from a Linux terminal window.
 
@@ -56,7 +56,7 @@ If you have Blender installed in the Applications folder, the following command 
 
 .. parsed-literal:: /Applications/blender-\ |BLENDER_VERSION|/blender.app/Contents/MacOS/blender
 
-.. figure:: /images/interface-window_system-console-mac.png
+.. figure:: /images/advanced_command-line_introduction_mac.png
 
    Starting Blender from a macOS console window.
 
@@ -76,7 +76,7 @@ then it can be found here:
 
 .. parsed-literal:: C:\\Program Files\\Blender Foundation\\Blender\\blender.exe
 
-.. figure:: /images/interface_window_system-console_windows.png
+.. figure:: /images/advanced_command-line_introduction_windows.png
 
    Blender's Console Window on Microsoft Windows.
 

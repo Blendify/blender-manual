@@ -12,7 +12,7 @@ Convert to Geometry
    | Menu:     :menuselection:`GPencil --> Convert to Geometry...`
    | Hotkey:   :kbd:`Alt-C`
 
-.. figure:: /images/interface_grease-pencil_convert.png
+.. figure:: /images/interface_grease-pencil_convert-to-geometry_options.png
    :align: right
 
    The Convert to Curve options.

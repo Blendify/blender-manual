@@ -14,7 +14,7 @@ Todo.
 Multi-Monitor Setup
 -------------------
 
-.. figure:: /images/getting_started_multi_monitor.jpg
+.. figure:: /images/getting-started_installing_configuration_hardware_multi-monitor.jpg
 
    This is an example of Blender's multi-monitor support.
 

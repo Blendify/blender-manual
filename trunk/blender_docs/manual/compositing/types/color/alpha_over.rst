@@ -85,12 +85,12 @@ The resulting image is a composite of the two source images.
 
 .. list-table::
 
-   * - .. figure:: /images/compositing-alphaover-example.jpg
+   * - .. figure:: /images/compositing_types_color_alpha-over_example.jpg
           :width: 320px
 
           Assembling a composite Image using Alpha Over.
 
-     - .. figure:: /images/compositing-alphaover-seethru.jpg
+     - .. figure:: /images/compositing_types_color_alpha-over_seethrough.jpg
           :width: 320px
 
           Animated See-Through/Sheer SFX using Alpha Over on Frame 11.

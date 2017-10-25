@@ -64,10 +64,10 @@ Results with the nodes applied to an image from the
 
 .. list-table::
 
-   * - .. figure:: /images/compositing-node-keying_screen_spill.jpg
+   * - .. figure:: /images/compositing_types_matte_color-spill-key_example-before.jpg
 
           Before: green border and green reflections.
 
-     - .. figure:: /images/compositing-node-keying_screen_good.jpg
+     - .. figure:: /images/compositing_types_matte_color-spill-key_example-after.jpg
 
           After: no unwanted green.

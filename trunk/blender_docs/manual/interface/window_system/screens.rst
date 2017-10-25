@@ -5,7 +5,7 @@
 Screens
 *******
 
-.. figure:: /images/interface_screen_data-block.png
+.. figure:: /images/interface_window-system_screens_data-block.png
    :align: right
 
    The Screen data-block menu with pop-up.

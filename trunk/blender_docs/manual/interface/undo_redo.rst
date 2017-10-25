@@ -103,7 +103,7 @@ Undo History
    | Menu:     :menuselection:`Object/Object types --> Undo History`
    | Hotkey:   :kbd:`Ctrl-Alt-Z`
 
-.. figure:: /images/interface_undo-and-redo_undo-history-menu.png
+.. figure:: /images/interface_undo-redo_undo-history-menu.png
    :align: right
 
    The Undo History Menu.
@@ -166,7 +166,7 @@ Repeat History
    | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Repeat: History...`
    | Hotkey:   :kbd:`F3`
 
-.. figure:: /images/interface_undo-and-redo_repeat-history-menu.png
+.. figure:: /images/interface_undo-redo_repeat-history-menu.png
    :align: right
 
    The Repeat History Menu.

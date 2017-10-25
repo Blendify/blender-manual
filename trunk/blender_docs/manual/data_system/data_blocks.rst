@@ -25,7 +25,7 @@ Some common characteristics:
 When doing more complex projects, managing data-blocks becomes more important,
 especially when inter-linking blend-files.
 
-.. figure:: /images/data_system_datablocks.jpg
+.. figure:: /images/data-system_data-blocks_view.jpg
    :width: 400px
 
    Data-blocks view.
@@ -141,7 +141,7 @@ Data-Block Types
 
 .. image source: Scene tab --> Active keying set panel --> ID-block (sound replaced)
 
-.. figure:: /images/data_system_id-types.png
+.. figure:: /images/data-system_data-blocks_id-types.png
    :align: right
    :width: 250px
 

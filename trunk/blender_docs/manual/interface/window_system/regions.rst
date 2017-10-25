@@ -92,9 +92,9 @@ toggle between hide and show.
 
 .. list-table:: Hiding and showing the Header.
 
-   * - .. figure:: /images/interface-window_system-headers-hide.png
+   * - .. figure:: /images/interface_window-system_regions_headers-hide.png
 
-     - .. figure:: /images/interface-window_system-headers-show_02.png
+     - .. figure:: /images/interface_window-system_regions_headers-show.png
 
 
 Position

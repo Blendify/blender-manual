@@ -8,7 +8,7 @@ and reduce the chance of losing his work in the event of operation errors,
 computer failures, or power outages.
 There are two ways for you to recover from mistakes or problems:
 
-At the :doc:`User Level </interface/undo_and_redo>` (relating to *Actions*)
+At the :doc:`User Level </interface/undo_redo>` (relating to *Actions*)
 
 - For your actions, there are options like *Undo*, *Redo* and an *Undo History*,
   used to roll back from mistakes under normal operation, or return back to a specific action.

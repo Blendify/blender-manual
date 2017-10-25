@@ -10,7 +10,7 @@ Buttons
 Operation Buttons
 =================
 
-.. figure:: /images/interface_button.png
+.. figure:: /images/interface_controls_buttons_buttons_operation.png
    :align: right
 
    Operation button.
@@ -22,7 +22,7 @@ They can be identified by their gray color in the default color scheme.
 Text Fields & Search Fields
 ===========================
 
-.. figure:: /images/interface_text_search.png
+.. figure:: /images/interface_controls_buttons_buttons_text-search.png
    :align: right
 
    Text and Search.
@@ -39,7 +39,7 @@ For text fields with an icon and gray pop-up, see :ref:`ui-data-id`.
 Color Buttons
 =============
 
-.. figure:: /images/interface_color_button.png
+.. figure:: /images/interface_controls_buttons_buttons_color.png
    :align: right
 
    Color Buttons.

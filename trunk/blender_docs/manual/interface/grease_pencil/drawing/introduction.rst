@@ -10,7 +10,7 @@ A new layer can be added from the Grease Pencil panel in the Properties region.
 This panel can also be used to customize the color, opacity and thickness of the pencil lines.
 Changes to these settings will affect all strokes on the current layer.
 
-.. figure:: /images/interface_grease-pencil_example-simple.png
+.. figure:: /images/interface_grease-pencil_drawing_introduction_example-simple.png
 
    An example of Blender's Grease Pencil.
 
@@ -104,7 +104,7 @@ New strokes are moved behind the drawing when confirming the drawing tool (lower
 Stroke Placement
 ================
 
-.. figure:: /images/interface_grease-pencil_tools_panel.png
+.. figure:: /images/interface_grease-pencil_drawing_introduction_tools-panel.png
    :figwidth: 148px
    :align: right
 
@@ -135,7 +135,7 @@ Only Endpoints
    Applies the drawing setting only to the endpoints of the stroke.
    The part of the stroke between the endpoints is adjusted to lie on a plane passing through the endpoints.
 
-.. figure:: /images/interface_grease-pencil_stroke_placement.png
+.. figure:: /images/interface_grease-pencil_drawing_introduction_stroke-placement.png
 
    The effect of different Drawing Settings on Grease Pencil strokes.
 
@@ -154,4 +154,4 @@ Tools
 =====
 
 - :doc:`Convert to Geometry </interface/grease_pencil/convert_to_geometry>`
-- :doc:`/interface/ruler_and_protractor`
+- :doc:`/interface/ruler_protractor`

@@ -8,7 +8,7 @@ List Views & Presets
 List Views
 ==========
 
-.. figure:: /images/interface_templates_list-presets_view_filter.png
+.. figure:: /images/interface_controls_templates_list-presets_view-filter.png
    :align: right
 
 This control is useful to manage lists of items.
@@ -60,7 +60,7 @@ Move (up/down arrow icon)
 Presets
 =======
 
-.. figure:: /images/interface_preset.png
+.. figure:: /images/interface_controls_templates_list-presets_preset.png
    :align: right
 
    Presets without and with specials.

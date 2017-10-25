@@ -6,7 +6,7 @@ Tabs & Panels
 Tabs
 ====
 
-.. figure:: /images/interface_tabs.png
+.. figure:: /images/interface_window-system_tabs-panels_tabs.png
    :align: right
 
    Tools tab (selected), Create, etc.
@@ -33,7 +33,7 @@ Vertical tabs can be switched with the :kbd:`Wheel` within the tab header and
 Panels
 ======
 
-.. figure:: /images/interface_panels.png
+.. figure:: /images/interface_window-system_tabs-panels_panels.png
    :align: right
 
    Tool Shelf panels.

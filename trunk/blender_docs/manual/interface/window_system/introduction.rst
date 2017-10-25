@@ -7,7 +7,7 @@ After starting Blender and closing the :ref:`Splash Screen <splash>`
 your Blender window should look something similar to the image below.
 Blender's user interface is consistent across all platforms.
 
-.. figure:: /images/interface_default_startup.png
+.. figure:: /images/interface_window-system_introduction_default-startup.png
    :align: center
 
    The default startup Blender window.
@@ -40,7 +40,7 @@ containing the Editors listed below:
 - An Outliner at the top right.
 - A Properties Editor at the bottom right.
 
-.. figure:: /images/interface_introduction_default_screen.png
+.. figure:: /images/interface_window-system_introduction_default-screen.png
 
    Blender's default Screen Layout with five Editors.
 
@@ -57,7 +57,7 @@ Regions can have smaller structuring elements like
 :doc:`tabs and panels </interface/window_system/tabs_panels>`
 with buttons, controls and widgets placed within them.
 
-.. figure:: /images/interface_introduction_editor.png
+.. figure:: /images/interface_window-system_introduction_editor.png
 
    The 3D View editor.
 

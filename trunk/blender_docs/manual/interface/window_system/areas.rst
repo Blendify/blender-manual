@@ -34,7 +34,7 @@ Splitting and Joining
 Area Split Widget
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
+.. figure:: /images/interface_window-system_areas_split.jpg
 
 In the upper right and lower left corners of an area are the area split widgets,
 and they look like a little ridged thumb grip. It both splits and combines areas.
@@ -47,7 +47,7 @@ In order to *join* two areas :kbd:`LMB` click and drag the area splitter outward
 They must be the same dimension (width or height) in the direction you wish to join.
 This is so that the combined area space results in a rectangle.
 
-.. figure:: /images/interface-window_system-arranging_areas-join_areas.png
+.. figure:: /images/interface_window-system_areas_join.png
    :width: 250px
 
    The Properties Editor is being merged "over" the Outliner.

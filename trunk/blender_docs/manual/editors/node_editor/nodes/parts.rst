@@ -10,7 +10,7 @@ All nodes in Blender are based off of a similar construction.
 This applies to :ref:`any type of node <node-tree-types>`.
 These parts include the Title, Sockets, Preview and more.
 
-.. figure:: /images/editors_node_parts.png
+.. figure:: /images/editors_node-editor_nodes_parts_overview.png
 
 
 Title
@@ -21,7 +21,7 @@ It can be overridden by changing the value of Label in the *Node* section of the
 On the left side of the title is the *collapse toggle*
 which can be used to collapse the node this can also be done with :kbd:`H`.
 
-.. figure:: /images/editors_node_collapsed.png
+.. figure:: /images/editors_node-editor_nodes_parts_collapsed.png
 
    How a node appears when collapsed.
 
@@ -79,7 +79,7 @@ Properties
 Many nodes have settings which can affect the way they interact with inputs and outputs.
 Node settings are located below the outputs and above any inputs.
 
-.. figure:: /images/editors_node_controls.png
+.. figure:: /images/editors_node-editor_nodes_parts_controls.png
 
    An example of the controls on the chroma key node.
 
@@ -92,6 +92,6 @@ Usually it shows color data.
 
 The preview can be toggled using the icon on the very top right hand corner of the node, next to the title.
 
-.. figure:: /images/editors_node_previewless.png
+.. figure:: /images/editors_node-editor_nodes_parts_previewless.png
 
    How a node appears without the preview.

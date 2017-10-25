@@ -8,7 +8,7 @@ A set of menu buttons used to link :doc:`/data_system/data_blocks` to each other
 Data-blocks are items like meshes, objects, materials, textures, and so on.
 If data-blocks are linked the data will be updated across all of the users when edited.
 
-.. figure:: /images/interface_data-block.jpg
+.. figure:: /images/interface_controls_templates_data-block_data-block.jpg
    :align: right
 
    The Data-Block menu with a search input.
@@ -51,7 +51,7 @@ Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 Preview
 =======
 
-.. figure:: /images/interface_data_block_preview.png
+.. figure:: /images/interface_controls_templates_data-block_preview.png
 
    The Data-Block menu with preview.
 
@@ -65,7 +65,7 @@ In the Tool Shelf is a version of the data-block menu with a bigger preview.
 Data ID
 =======
 
-.. figure:: /images/interface_data_id.png
+.. figure:: /images/interface_controls_templates_data-block_data_id.png
 
    The Data ID.
 

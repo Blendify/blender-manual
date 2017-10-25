@@ -4,7 +4,7 @@
 Curve Widget
 ************
 
-.. figure:: /images/interface_curve.png
+.. figure:: /images/interface_controls_templates_curve_curve.png
    :align: right
 
    Curve Widget.
@@ -55,7 +55,7 @@ Tools
    Extend Horizontal
       Causes the curve to stay horizontal before the first point and after the last point.
 
-      .. figure:: /images/interface_curve-extendhorizontal.png
+      .. figure:: /images/interface_controls_templates_curve_extend-horizontal.png
          :width: 150px
 
          Extend Horizontal.
@@ -64,7 +64,7 @@ Tools
       Causes the curve to extrapolate before the first point and after the last point,
       based on the shape of the curve.
 
-      .. figure:: /images/interface_curve-extendextrapolate.png
+      .. figure:: /images/interface_controls_templates_curve_extend-extrapolate.png
          :width: 150px
 
          Extend Extrapolated.

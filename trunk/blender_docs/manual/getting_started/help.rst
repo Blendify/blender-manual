@@ -9,7 +9,7 @@ Blender has a range of built-in and web-based help options.
 Tooltips
 ========
 
-.. figure:: /images/getting_started_help_tooltip.png
+.. figure:: /images/getting-started_help_tooltip.png
 
    Tooltip of the Render Engine selector in the Info Editor.
 
@@ -64,7 +64,7 @@ Help Menu
 
 The *Help* menu in the Info Editor header.
 
-.. figure:: /images/getting_started-help_menu.png
+.. figure:: /images/getting-started_help_menu.png
    :align: right
 
    Help Menu.
