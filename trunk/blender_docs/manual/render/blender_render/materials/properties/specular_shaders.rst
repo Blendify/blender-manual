@@ -95,7 +95,7 @@ Cook-Torrance
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
 
-.. figure:: /images/material-shader-cooktorr.jpg
+.. figure:: /images/render_blender-render_materials_properties_specular-shaders_cooktorr.jpg
    :width: 320px
 
    Cook-Torrance Shader (Lambert 0.8).
@@ -127,7 +127,7 @@ Phong
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
 
-.. figure:: /images/material-shader-phong.jpg
+.. figure:: /images/render_blender-render_materials_properties_specular-shaders_phong.jpg
    :width: 320px
 
    Phong Shader (Lambert 0.8).
@@ -164,7 +164,7 @@ Blinn
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
 
-.. figure:: /images/material-shader-blinn.jpg
+.. figure:: /images/render_blender-render_materials_properties_specular-shaders_blinn.jpg
    :width: 320px
 
    Blinn Shader (Oren-Nayar Int 0.8, Rough 0.5).
@@ -203,7 +203,7 @@ Toon
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
 
-.. figure:: /images/material-shader-toonspec.jpg
+.. figure:: /images/render_blender-render_materials_properties_specular-shaders_toonspec.jpg
    :width: 320px
 
    Toon Specular Shader (Toon Diffuse, Int 0.8, Size & Smooth match).
@@ -234,7 +234,7 @@ Ward Isotropic
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
 
-.. figure:: /images/material-shader-wardiso.jpg
+.. figure:: /images/render_blender-render_materials_properties_specular-shaders_wardiso.jpg
    :width: 320px
 
    Ward isotropic Shader.

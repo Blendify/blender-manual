@@ -63,7 +63,7 @@ Lambert
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-.. figure:: /images/material-shader-lambert.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_lambert.jpg
    :width: 320px
 
    Lambert Shader.
@@ -79,7 +79,7 @@ materials showing low levels of specular reflection.
 This shader has only the default option, determining how much of available light is reflected.
 Default is 0.8, to allow other objects to be brighter.
 
-.. figure:: /images/material-shader-lambert-settings.png
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_lambert-settings.png
    :width: 220px
 
    The Lambert diffuse shader settings.
@@ -94,7 +94,7 @@ Oren-Nayar
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-.. figure:: /images/material-shader-oren-nayar.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_oren-nayar.jpg
    :width: 320px
 
    Oren-Nayar Shader.
@@ -113,7 +113,7 @@ Options
 Roughness
    The roughness of the surface, and hence, the amount of diffuse scattering.
 
-.. figure:: /images/material-shader-oren-nayar-settings.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_oren-nayar-settings.jpg
    :width: 200px
 
    The Oren-Nayar diffuse shader settings.
@@ -130,11 +130,11 @@ Toon
 
 .. list-table::
 
-   * - .. figure:: /images/material-shader-toon.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_toon.jpg
 
           Toon Shader, Different Spec.
 
-     - .. figure:: /images/material-shader-toon-vary.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_toon-vary.jpg
 
           Toon Shader Variations.
 
@@ -151,7 +151,7 @@ Size
 Smooth
    The softness of the boundary between lit and shadowed areas.
 
-.. figure:: /images/material-shader-toon-settings.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_toon-settings.jpg
    :width: 200px
 
    The Toon diffuse shader settings.
@@ -166,7 +166,7 @@ Minnaert
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-.. figure:: /images/material-shader-lambert.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_lambert.jpg
    :width: 320px
 
    Minnaert Shader.
@@ -186,7 +186,7 @@ Options
 Dark
    The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
 
-.. figure:: /images/material-shader-minnaert-settings.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_minnaert-settings.jpg
    :width: 200px
 
    The Minnaert diffuse shader settings.
@@ -203,12 +203,12 @@ Fresnel
 
 .. list-table::
 
-   * - .. figure:: /images/material-shader-fresnel-vary.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_fresnel-vary.jpg
 
           Various settings for the Fresnel shader,
           Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50.
 
-     - .. figure:: /images/material-shader-fresnel.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_fresnel.jpg
 
           Fresnel Shader, Different Spec.
 
@@ -228,7 +228,7 @@ Fresnel
 Factor
    Blending factor of the Fresnel factor to blend in, 5.0 is max.
 
-.. figure:: /images/material-shader-fresnel-settings.jpg
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_fresnel-settings.jpg
    :width: 200px
 
    The Fresnel diffuse shader settings.

@@ -49,7 +49,7 @@ Strand Primitive
 Strands Shading
 ===============
 
-.. figure:: /images/materials_properties_strands.png
+.. figure:: /images/render_blender-render_materials_properties_strands_panel.png
    :align: right
 
    Strands Panel.
@@ -133,7 +133,7 @@ Normally you would use a linear blend texture for this.
 
    * - .. _fig-bi-material-strands-alpha:
 
-       .. figure:: /images/materials_texture_mapping.png
+       .. figure:: /images/render_blender-render_materials_properties_strands_texture-mapping.png
 
           Fading a strand to alpha.
 

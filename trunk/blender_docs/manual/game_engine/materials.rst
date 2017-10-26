@@ -7,7 +7,7 @@ Game Materials
 Game Settings
 =============
 
-.. figure:: /images/materials_properties_game_settings.jpg
+.. figure:: /images/game-engine_materials_panel.jpg
 
    Game Settings Panel.
 
@@ -62,7 +62,7 @@ of faces to which the material is applied.
 Material Physics
 ================
 
-.. figure:: /images/materials-properties-game-physics-settings.png
+.. figure:: /images/game-engine_materials_physics-panel.png
 
    Panel Physics in Material context.
 

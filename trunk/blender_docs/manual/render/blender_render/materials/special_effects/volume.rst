@@ -4,7 +4,7 @@
 Volume Rendering
 ****************
 
-.. figure:: /images/materials-volumerender-activate.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_activate.jpg
    :width: 300px
 
    Activating Volume rendering.
@@ -69,7 +69,7 @@ Light gets scattered off tiny particles in the volume,
 and some proportion of that light reaches the camera. This property makes it possible to see
 light beams as they travel though a volume and are scattered towards the eye.
 
-.. figure:: /images/materials-volumerender-options-shading.png
+.. figure:: /images/render_blender-render_materials_special-effects_volume_shading-panel.png
 
    Shading options.
 
@@ -287,7 +287,7 @@ Of course you can always break the rules too!
 Lighting
 ========
 
-.. figure:: /images/materials-volumerender-options-lighting.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_lighting-panel.jpg
 
    Lighting options.
 
@@ -338,7 +338,7 @@ For volume rendering you only have:
 Integration
 ===========
 
-.. figure:: /images/materials-volumerender-options-integration.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_integration-panel.jpg
 
    Integration options.
 
@@ -362,7 +362,7 @@ Depth Cutoff
 Options
 =======
 
-.. figure:: /images/materials-volumerender-options.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_options-panel.jpg
 
    Material volume options.
 

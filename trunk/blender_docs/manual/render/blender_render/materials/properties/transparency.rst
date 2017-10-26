@@ -17,7 +17,7 @@ and the RGB values for the surface contribute nothing to the pixel's appearance;
 the surface is fully opaque,
 and the color of the surface determines the final color of the pixel.
 
-.. figure:: /images/materials_properties_transparency.jpg
+.. figure:: /images/render_blender-render_materials_properties_transparency_panel.jpg
 
    Transparency Panel.
 
@@ -116,7 +116,7 @@ this is all because of the Index of Refraction of glass.
 Options
 =======
 
-.. figure:: /images/material-raytrace_transp-panel.png
+.. figure:: /images/render_blender-render_materials_properties_transparency_panel-raytrace.png
 
    The Transparency Panel.
 
@@ -165,7 +165,7 @@ Index of Refraction
 
 .. huge image
 
-.. figure:: /images/material-raytrace_transp-ior-examples.jpg
+.. figure:: /images/render_blender-render_materials_properties_transparency_ior-examples.jpg
 
    Influence of the IOR of an Object on the distortion of the background:
    spheres of Water, Glass and Diamond (top to bottom).
@@ -184,24 +184,24 @@ Fresnel
    Note that the major difference is the lack of IOR effect in the latter case.
    (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
 
-   * - .. figure:: /images/material-raytrace_transp-fresnelexampel.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_transparency_fresnel-example.jpg
           :width: 320px
 
           With ray-traced transparency.
 
-     - .. figure:: /images/material-raytrace_transp-fresnelexampelztransp.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_transparency_fresnel-example-ztransp.jpg
           :width: 320px
 
           With alpha buffered transparency.
 
 .. list-table::
 
-   * - .. figure:: /images/material-raytrace_transp-fresnelsettings.png
+   * - .. figure:: /images/render_blender-render_materials_properties_transparency_fresnel-settings.png
           :width: 320px
 
           Settings for Fresnel using ray-traced.
 
-     - .. figure:: /images/material-raytrace_transp-fresnelsettingsztransp.png
+     - .. figure:: /images/render_blender-render_materials_properties_transparency_fresnel-settings-ztransp.png
           :width: 320px
 
           Settings for Fresnel using Z transparency.
@@ -219,7 +219,7 @@ value or decreasing the *Alpha* value.
 Depth
 -----
 
-.. figure:: /images/material-transp-3glassesexample.jpg
+.. figure:: /images/render_blender-render_materials_properties_transparency_3glasses-example.jpg
 
    A simple scene with three glasses on a surface, and three lamps.
    Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively.
@@ -250,32 +250,32 @@ Transparent shadows
 
 .. list-table::
 
-   * - .. figure:: /images/material-transp_shadow-example-notrasha.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_transparency_shadow-notrasha.jpg
           :width: 320px
 
           No transparent shadows.
 
-     - .. figure:: /images/material-transp_shadow-example-envlight.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_transparency_shadow-envlight.jpg
           :width: 320px
 
           No transparent shadows, environment lighting enabled.
 
-   * - .. figure:: /images/material-transp_shadow-example-trasha.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_transparency_shadow-trasha.jpg
           :width: 320px
 
           Transparent shadows enabled, alpha set to 0.0.
 
-     - .. figure:: /images/material-transp_shadow-example-trasha2.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_transparency_shadow-trasha2.jpg
           :width: 320px
 
           As previous, alpha set to 0.25.
 
-   * - .. figure:: /images/material-transp_shadow-example-trasha-ao1.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_transparency_shadow-trasha-ao1.jpg
           :width: 320px
 
           Transparent shadows with ambient occlusion set to multiply, distance 1 (radius of sphere).
 
-     - .. figure:: /images/material-transp_shadow-example-trasha-ao2.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_transparency_shadow-trasha-ao2.jpg
           :width: 320px
 
           As previous, distance increased to 2 (diameter of sphere).

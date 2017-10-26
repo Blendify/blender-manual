@@ -41,22 +41,22 @@ Instead let us see what SSS does to a distinct light point.
 
 .. list-table::
 
-   * - .. figure:: /images/materials-sss.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_no-sss.jpg
           :width: 320px
 
           No SSS.
 
-     - .. figure:: /images/materials-sss1.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_small.jpg
           :width: 320px
 
           Small SSS radius.
 
-   * - .. figure:: /images/materials-sss2.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_medium.jpg
           :width: 320px
 
           SSS radius enlarged.
 
-     - .. figure:: /images/materials-sss3.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_large.jpg
           :width: 320px
 
           SSS with very large red radius value.
@@ -82,7 +82,7 @@ its light is evenly distributed over the whole object.
 Enabling Subsurface Scattering
 ==============================
 
-.. figure:: /images/material-sss-panel.png
+.. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_panel.png
 
    The SSS Panel. SSS is already enabled.
 
@@ -199,27 +199,27 @@ Skin
 .. list-table::
       Increasing SSS scale (`blend-file <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__).
 
-   * - .. figure:: /images/material-sss-mh-head-1.jpg
+   * - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_head-1.jpg
           :width: 100px
 
           Scale: 1.
 
-     - .. figure:: /images/material-sss-mh-head-2.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_head-2.jpg
           :width: 100px
 
           Scale: 2.
 
-     - .. figure:: /images/material-sss-mh-head-3.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_head-3.jpg
           :width: 100px
 
           Scale: 3.
 
-     - .. figure:: /images/material-sss-mh-head-4.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_head-4.jpg
           :width: 100px
 
           Scale: 4.
 
-     - .. figure:: /images/material-sss-mh-head-5.jpg
+     - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_head-5.jpg
           :width: 100px
 
           Scale: 5.

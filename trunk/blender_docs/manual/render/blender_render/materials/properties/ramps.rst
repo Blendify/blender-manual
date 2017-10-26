@@ -35,7 +35,7 @@ Blender materials.
 Options
 =======
 
-.. figure:: /images/material-rampspanel.png
+.. figure:: /images/render_blender-render_materials_properties_ramps_panel.png
 
    Ramps Panel.
 

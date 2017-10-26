@@ -3,7 +3,7 @@
 Wire Render
 ***********
 
-.. figure:: /images/materials_render_wire0.png
+.. figure:: /images/render_blender-render_materials_special-effects_wire_render.png
    :width: 320px
 
    Wire Render.
@@ -14,7 +14,7 @@ Each edge is rendered as a single-pixel image of the edges which make up the mes
 alpha and other relevant properties of the lines are selected with the same control panels as
 provided by the Surface rendered image.
 
-.. figure:: /images/materials_demo_wire.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_wire_demo.jpg
    :width: 320px
 
    Wire Render.

@@ -10,7 +10,7 @@ the substance is represented by its surface qualities (color, shininess, reflect
 but it can also exhibit more complicated effects such as transparency,
 diffraction and sub-surface scattering. Typical materials might be brass, skin, glass, or linen.
 
-.. figure:: /images/materials_demo.jpg
+.. figure:: /images/render_blender-render_materials_introduction_demo.jpg
    :width: 320px
 
    Various basic materials (single, multiple material, transparency, vertex paint).

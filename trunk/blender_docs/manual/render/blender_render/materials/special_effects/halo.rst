@@ -4,7 +4,7 @@
 Halo Rendering
 **************
 
-.. figure:: /images/materials-helorender-activate.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_halo_activate.jpg
    :width: 300px
 
    Activating halo rendering.
@@ -21,7 +21,7 @@ This material is useful for simulating special effects, like particle effects or
 Options
 =======
 
-.. figure:: /images/materials-halos.png
+.. figure:: /images/render_blender-render_materials_special-effects_halo_panel.png
    :width: 309px
 
    Halo panels.
@@ -57,7 +57,7 @@ Add
    rather than mixed with, the colors of the objects behind and together with other halos.
    By increasing Add, the Halo will appear to light up objects that move behind it or through the Halo field.
 
-   .. figure:: /images/materials-haloadd.jpg
+   .. figure:: /images/render_blender-render_materials_special-effects_halo_add.jpg
 
       Effect of Add.
 
