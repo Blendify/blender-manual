@@ -89,19 +89,19 @@ Halo
 
 .. list-table::
 
-   * - .. figure:: /images/materials_render_surface.jpg
+   * - .. figure:: /images/render_blender-render_materials_material-panel_surface.jpg
 
           Surface.
 
-     - .. figure:: /images/materials_render_wire.jpg
+     - .. figure:: /images/render_blender-render_materials_material-panel_wire.jpg
 
           Wire.
 
-   * - .. figure:: /images/materials_render_volume.jpg
+   * - .. figure:: /images/render_blender-render_materials_material-panel_volume.jpg
 
           Volume.
 
 
-     - .. figure:: /images/materials_render_halo.jpg
+     - .. figure:: /images/render_blender-render_materials_material-panel_halo.jpg
 
           Halo.

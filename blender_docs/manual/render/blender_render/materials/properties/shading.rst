@@ -6,7 +6,7 @@ Shading
 
 In the separate *Shading* panel six more options are available:
 
-.. figure:: /images/material-shadingmenu.png
+.. figure:: /images/render_blender-render_materials_properties_shading_menu.png
 
    Shading menu, default settings.
 

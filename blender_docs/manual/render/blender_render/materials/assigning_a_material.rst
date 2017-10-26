@@ -30,7 +30,7 @@ You can create a new material for the object by:
 
 The Shading panel then appears. This contains the following elements:
 
-.. figure:: /images/materials_creating.jpg
+.. figure:: /images/render_blender-render_materials_assigning-a-material_creating.jpg
 
    Add new material.
 
@@ -93,11 +93,11 @@ There are several ways to do this using the Materials data-block menu:
 A pop-up appears showing all the materials available in the current blend-file.
 To use one, just click on it.
 
-.. figure:: /images/material-matmenu-addfirst-select_exist_button.png
+.. figure:: /images/render_blender-render_materials_assigning-a-material_select-exist-button.png
 
    Select an existing material.
 
-.. figure:: /images/material-matmenu-searchlist.png
+.. figure:: /images/render_blender-render_materials_assigning-a-material_searchlist.png
 
    List of available materials.
 
@@ -146,7 +146,7 @@ different colors or patterns on an object are achieved by adding textures to you
 However, in some applications you can obtain multiple colors on an object by assigning
 different materials to the individual faces of the object.
 
-.. figure:: /images/materials_creating.jpg
+.. figure:: /images/render_blender-render_materials_assigning-a-material_creating.jpg
 
    Add new material.
 

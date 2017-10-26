@@ -36,7 +36,7 @@ will be tinted the color set in Mirror Color.
 Options
 -------
 
-.. figure:: /images/material-mirrorpanel.jpg
+.. figure:: /images/render_blender-render_materials_properties_mirror_panel.jpg
 
    The Mirror Panel.
 
@@ -46,7 +46,7 @@ Reflectivity
    Sets the amount of reflectiveness of the object.
    Use a value of 1.0 if you need a perfect mirror, or set it to 0.0 if you do not want any reflection.
 
-.. figure:: /images/material-mirrorcolor.jpg
+.. figure:: /images/render_blender-render_materials_properties_mirror_color.jpg
 
    Picking a mirror color.
 
@@ -79,7 +79,7 @@ Fade to
    *Material* color can be best for indoor scenes, *Sky* color (World settings)
    for outdoor scenes.
 
-.. figure:: /images/material-raymirror-example.jpg
+.. figure:: /images/render_blender-render_materials_properties_mirror_raymirror-example.jpg
 
    Suzanne in the Fun House
    (`blend-file <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__).
@@ -105,7 +105,7 @@ Gloss
       Number of cone samples averaged for blurry reflection.
       More samples will give a smoother result, but will also increase render time.
 
-.. figure:: /images/material-raymirror-anisotropicexample.jpg
+.. figure:: /images/render_blender-render_materials_properties_mirror_raymirror-aniso-example.jpg
 
    Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0.
    (`.blend <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__).
@@ -128,7 +128,7 @@ Examples
 Fresnel
 ^^^^^^^
 
-.. figure:: /images/material-mirrorfresnel-example.jpg
+.. figure:: /images/render_blender-render_materials_properties_mirror_fresnel-example.jpg
 
    Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0, 2.5 and 5.0.
 

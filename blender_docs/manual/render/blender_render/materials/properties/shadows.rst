@@ -25,7 +25,7 @@ The various properties are described in the sections below.
 
 .. _fig-bi-material-shadow-scene:
 
-.. figure:: /images/materials_properties_shadow2.png
+.. figure:: /images/render_blender-render_materials_properties_shadows_shadow2.png
 
    Scene with all shadow properties off.
 
@@ -56,13 +56,13 @@ Receive Transparent
 
    * - .. _fig-bi-material-shadow-receive:
 
-       .. figure:: /images/materials_properties_shadow3.png
+       .. figure:: /images/render_blender-render_materials_properties_shadows_shadow3.png
 
           Plane with Receive.
 
      - .. _fig-bi-material-shadow-receive-trans:
 
-       .. figure:: /images/materials_properties_shadow4.png
+       .. figure:: /images/render_blender-render_materials_properties_shadows_shadow4.png
 
           Plane with Receive and Receive Transparency.
 
@@ -94,13 +94,13 @@ Shadows Only
 
    * - .. _fig-bi-material-shadow-cast:
 
-       .. figure:: /images/materials_properties_shadow5.png
+       .. figure:: /images/render_blender-render_materials_properties_shadows_shadow5.png
 
           Posts with Cast Only.
 
      - .. _fig-bi-material-shadow-only:
 
-       .. figure:: /images/materials_properties_shadow6.png
+       .. figure:: /images/render_blender-render_materials_properties_shadows_shadow6.png
 
           Posts with Shadows Only.
 
