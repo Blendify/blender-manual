@@ -4,7 +4,7 @@
 Spot Volumetric Effects
 ***********************
 
-.. figure:: /images/lighting-lamps-spot-halo_options.png
+.. figure:: /images/render_blender-render_lighting_lamps_halo_panel.png
    :width: 310px
 
    Spot lamps' Halo options.

@@ -4,7 +4,7 @@
 Area Raytraced Shadows
 **********************
 
-.. figure:: /images/lighting-lamps-area-adap_qmc.jpg
+.. figure:: /images/render_blender-render_lighting_lamps_area_introduction_adaptive-qmc.jpg
    :width: 300px
 
    Adaptive QMC settings.
@@ -38,7 +38,7 @@ Constant Jittered
    which is more like simulating an array of lights.
    It has the same options as the old one: *Umbra*, *Dither* and *Jitter*.
 
-   .. figure:: /images/lighting-lamps-area-cont_jitt.png
+   .. figure:: /images/render_blender-render_lighting_lamps_area_introduction_constant-jittered.png
       :width: 300px
 
       Constant Jittered settings.
@@ -71,7 +71,7 @@ Technical Details
 
 .. _fig-bi-light-rayshadow-area:
 
-.. figure:: /images/lighting-lamps-area_concept.png
+.. figure:: /images/render_blender-render_lighting_lamps_area_raytraced-shadows_concept.png
    :width: 250px
 
    Principles behind the Area light.

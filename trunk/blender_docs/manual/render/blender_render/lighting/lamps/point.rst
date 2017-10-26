@@ -4,7 +4,7 @@
 Point
 *****
 
-.. figure:: /images/lighting-lamps-point.png
+.. figure:: /images/render_blender-render_lighting_lamps_point_viewport.png
    :width: 200px
 
    Point lamp.
@@ -39,12 +39,12 @@ Falloff and Sphere
 Shadows
 =======
 
-.. figure:: /images/lighting-lamps-point_panel-noshad.png
+.. figure:: /images/render_blender-render_lighting_lamps_point_panel-no-shadow.png
    :width: 307px
 
    Without ray shadows.
 
-.. figure:: /images/lighting-lamps-point_panel-rayshad.png
+.. figure:: /images/render_blender-render_lighting_lamps_point_panel-ray-shadow.png
    :width: 307px
 
    Point lamp with ray shadows and Adaptive QMC sample generator enabled.

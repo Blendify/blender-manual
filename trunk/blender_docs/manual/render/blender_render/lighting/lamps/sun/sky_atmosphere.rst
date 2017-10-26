@@ -149,22 +149,22 @@ First, let us see what happens when we modify the orientation of the sun:
 
 .. list-table:: Variations in Sun orientation, Sun Size to 5.0, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-midday.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_midday.jpg
           :width: 200px
 
           With sun right overhead (mid-day).
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-midnight.png
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_midnight.png
           :width: 200px
 
           With sun deep "under the Earth" (midnight).
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-early_twilight.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_early-twilight.jpg
           :width: 200px
 
           Sun slightly above the horizon (start of twilight).
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-latetwilight.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_late-twilight.jpg
           :width: 200px
 
           Sun slightly below the horizon (end of twilight).
@@ -178,22 +178,22 @@ And now, the effects of various settings (examples created with
 
 .. list-table:: Variations in Turbidity parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight1-0.jpg
           :width: 200px
 
           Turbidity: 2.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-turbidity2_3.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_turbidity2-3.jpg
           :width: 200px
 
           Turbidity: 2.3.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-turbidity5_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_turbidity5-0.jpg
           :width: 200px
 
           Turbidity: 5.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-turbidity10_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_turbidity10-0.jpg
           :width: 200px
 
           Turbidity: 10.0.
@@ -204,110 +204,110 @@ Sky
 
 .. list-table:: Variations in Horizon Brightness parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_bright0_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-bright0-0.jpg
           :width: 200px
 
           Horizon Brightness: 0.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_bright0_85.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-bright0-85.jpg
           :width: 200px
 
           Horizon Brightness: 0.85.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_bright1_04.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-bright1-04.jpg
           :width: 200px
 
           Horizon Brightness: 1.04.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_bright1_13.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-bright1-13.jpg
           :width: 200px
 
           Horizon Brightness: 1.13.
 
 .. list-table:: Variations in Horizon Spread parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_spread0_7.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-spread0-7.jpg
           :width: 200px
 
           Horizon Spread: 0.7.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_spread1_2.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-spread1-2.jpg
           :width: 200px
 
           Horizon Spread: 1.2.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_spread2_2.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-spread2-2.jpg
           :width: 200px
 
           Horizon Spread: 2.2.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_spread5_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-hor-spread5-0.jpg
           :width: 200px
 
           Horizon Spread: 5.0.
 
 .. list-table:: Variations in Sun Brightness parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_bright0_2.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-bright0-2.jpg
           :width: 200px
 
           Sun Brightness: 0.2.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_bright0_5.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-bright0-5.jpg
           :width: 200px
 
           Sun Brightness: 0.5.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_bright0_75.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-bright0-75.jpg
           :width: 200px
 
           Sun Brightness: 0.75.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight1-0.jpg
           :width: 200px
 
           Sun Brightness: 1.0.
 
 .. list-table:: Variations in Sun Size parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_size2_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-size2-0.jpg
           :width: 200px
 
           Sun Size: 2.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_size4_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-size4-0.jpg
           :width: 200px
 
           Sun Size: 4.0.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_size7_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-size7-0.jpg
           :width: 200px
 
           Sun Size: 7.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_size10_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-size10-0.jpg
           :width: 200px
 
           Sun Size: 10.0.
 
 .. list-table:: Variations in Back Light parameter, Sun Bright to 2.5, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-1_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight-1-0.jpg
           :width: 200px
 
           Back Light: -1.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-0_33.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight-0-33.jpg
           :width: 200px
 
           Back Light: -0.33.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight0_33.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight0-33.jpg
           :width: 200px
 
           Back Light: 0.33.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight1-0.jpg
           :width: 200px
 
           Back Light: 1.0.
@@ -320,88 +320,88 @@ For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to 2.0.
 
 .. list-table:: Variations in Sun Intensity parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_1.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-inscattering0-1.jpg
           :width: 200px
 
           Sun Intensity: 1.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_intensity3_33.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-intensity3-33.jpg
           :width: 200px
 
           Sun Intensity: 3.33.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_intensity6_66.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-sun-intensity6-66.jpg
           :width: 200px
 
           Sun Intensity: 6.66.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight1-0.jpg
           :width: 200px
 
           Sun Intensity: 10.0.
 
 .. list-table:: Variations in Inscattering parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_1.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-inscattering0-1.jpg
           :width: 200px
 
           Inscattering: 0.1.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_33.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-inscattering0-33.jpg
           :width: 200px
 
           Inscattering: 0.33.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_66.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-inscattering0-66.jpg
           :width: 200px
 
           Inscattering: 0.66.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight1-0.jpg
           :width: 200px
 
           Inscattering: 1.0.
 
 .. list-table:: Variations in Extinction parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-extinction0_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-extinction0-0.jpg
           :width: 200px
 
           Extinction: 0.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-extinction0_33.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-extinction0-33.jpg
           :width: 200px
 
           Extinction: 0.33.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-extinction0_66.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-extinction0-66.jpg
           :width: 200px
 
           Extinction: 0.66.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-backlight1-0.jpg
           :width: 200px
 
           Extinction: 1.0.
 
 .. list-table:: Variations in Distance parameter, all other settings to default.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-distance1_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-distance1-0.jpg
           :width: 200px
 
           Distance: 1.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-distance2_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-distance2-0.jpg
           :width: 200px
 
           Distance: 2.0.
 
-   * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-distance3_0.jpg
+   * - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-distance3-0.jpg
           :width: 200px
 
           Distance: 3.0.
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-distance4_0.jpg
+     - .. figure:: /images/render_blender-render_lighting_lamps_sun_sky-atmosphere_sky-distance4-0.jpg
           :width: 200px
 
           Distance: 4.0.
