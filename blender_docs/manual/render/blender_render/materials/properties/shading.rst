@@ -44,12 +44,12 @@ Cubic Interpolation
 
    .. list-table::
 
-      * - .. figure:: /images/light-lamps-sphere_non-cubic_shadow.jpg
+      * - .. figure:: /images/render_blender-render_materials_properties_shading_sphere-non-cubic-shadow.jpg
              :width: 200px
 
              Without Cubic enabled.
 
-        - .. figure:: /images/light-lamps-sphere_cubic_shadow.jpg
+        - .. figure:: /images/render_blender-render_materials_properties_shading_sphere-cubic-shadow.jpg
              :width: 200px
 
              With Cubic enabled.

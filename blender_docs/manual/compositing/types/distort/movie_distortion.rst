@@ -70,6 +70,6 @@ Similarly, in the second case, it is recommended to undistort the movie clip and
 because, distorting the render will require those extra unavailable pixels.
 Doing the wrong method in the wrong case can create weird results around the edges, such as in the image shown.
 
-.. figure:: /images/compositing_node_distort_moviedistortion_problems.jpg
+.. figure:: /images/compositing_types_distort_movie-distortion_problems.jpg
 
    Problems (notice the edges?)

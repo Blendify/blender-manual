@@ -13,9 +13,9 @@ plus a dashed line indicating the direction of the light.
 This direction can be changed by rotating the *Sun* lamp, like any other object,
 but because the light is emitted in a constant direction,
 the location of a *Sun* lamp does not affect the rendered result (unless you use the
-:doc:`"sky & atmosphere" option </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>`).
+:doc:`"sky & atmosphere" option </render/blender_render/lighting/lamps/sun/sky_atmosphere>`).
 
-.. figure:: /images/lighting-lamps-sun-lamp_panel.jpg
+.. figure:: /images/render_blender-render_lighting_lamps_sun_introduction_panel.jpg
    :width: 304px
 
    Sun lamp panel.
@@ -44,13 +44,13 @@ Sky & Atmosphere
 
 Various settings for the appearance of the sun in the sky,
 and the atmosphere through which it shines, are available. For details, see
-:doc:`Sky and Atmosphere </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>`.
+:doc:`Sky and Atmosphere </render/blender_render/lighting/lamps/sun/sky_atmosphere>`.
 
 
 Shadow
 ======
 
-.. figure:: /images/lighting-lamps-sun-shade_panel.jpg
+.. figure:: /images/render_blender-render_lighting_lamps_sun_introduction_shadow-panel.jpg
    :width: 304px
 
    Shadow panel.

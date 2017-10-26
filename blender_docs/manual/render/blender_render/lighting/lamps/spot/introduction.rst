@@ -20,7 +20,7 @@ and spot lamps also provide other functionality such as "volumetric" halos.
 Lamp options
 ============
 
-.. figure:: /images/lighting-lamps-spot-lamp_options.jpg
+.. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_panel.jpg
    :width: 307px
 
    Common Lamp options of a Spot.
@@ -35,7 +35,7 @@ Light Falloff and Sphere
    These settings control how the light of the *Spot* decays with distance.
    See :doc:`Light Attenuation </render/blender_render/lighting/lights/light_attenuation>` for details.
 
-   .. figure:: /images/lighting-lamps-spot-terms.png
+   .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_terms.png
       :width: 610px
 
       Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View.
@@ -44,7 +44,7 @@ Light Falloff and Sphere
 Shadows
 =======
 
-.. figure:: /images/lighting-lamps-spot-ray_panel.png
+.. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_ray-panel.png
    :width: 306px
 
    Shadow panel set to Ray Shadow.
@@ -83,10 +83,10 @@ Size
    .. list-table::
       Changing the spot *Size* option.
 
-      * - .. figure:: /images/lighting-lamps-spot-size_45.png
+      * - .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_size45.png
              :width: 320px
 
-        - .. figure:: /images/lighting-lamps-spot-size_60.png
+        - .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_size60.png
              :width: 320px
 
 Blend

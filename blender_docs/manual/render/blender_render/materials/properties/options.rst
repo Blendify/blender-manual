@@ -18,7 +18,7 @@ Full Oversampling
    :doc:`anti-aliasing </render/blender_render/settings/antialiasing>` samples.
 Sky
    Render this material with zero alpha, but with
-   :doc:`sky background </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>` in place (scanline only)
+   :doc:`sky background </render/blender_render/lighting/lamps/sun/sky_atmosphere>` in place (scanline only)
 Use Mist
    Use :doc:`mist </render/blender_render/world/mist>` on this material (see "World Settings" for more details)
 Invert Z depth

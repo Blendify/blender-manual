@@ -52,7 +52,7 @@ Real Sky
 .. seealso::
 
    When using a *Sun Lamp* options for
-   :doc:`/render/blender_render/lighting/lamps/sun/sky_and_atmosphere` are available in the *Lamp* tab.
+   :doc:`/render/blender_render/lighting/lamps/sun/sky_atmosphere` are available in the *Lamp* tab.
 
 
 Colors

@@ -3,7 +3,7 @@
 Shadow Panel
 ************
 
-.. figure:: /images/lighting-shadow-common-properties.png
+.. figure:: /images/render_blender-render_lighting_shadows_shadow-panel_common-properties.png
    :width: 310px
 
    Common shadowing options for lamps.

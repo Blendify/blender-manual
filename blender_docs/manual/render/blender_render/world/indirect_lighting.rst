@@ -13,25 +13,25 @@ Direct and Indirect Lighting:
 .. list-table:: Images courtesy of
    `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__.
 
-   * - .. figure:: /images/lighting-inderect_lighting-01.png
+   * - .. figure:: /images/render_blender-render_world_indirect-lighting_dir-schematic.png
 
           Direct Lighting Schematic.
 
-     - .. figure:: /images/lighting-inderect_lighting-02.jpg
+     - .. figure:: /images/render_blender-render_world_indirect-lighting_dir-render.jpg
 
           Direct Lighting Render.
 
-   * - .. figure:: /images/lighting-inderect_lighting-03.png
+   * - .. figure:: /images/render_blender-render_world_indirect-lighting_indir-schematic.png
 
           Direct and Indirect Lighting Schematic.
 
-     - .. figure:: /images/lighting-inderect_lighting-04.jpg
+     - .. figure:: /images/render_blender-render_world_indirect-lighting_indir-render.jpg
 
           Direct and Indirect Lighting Render.
 
 Indirect Lighting only works with Approximate gather method.
 
-.. figure:: /images/lighting-inderect_lighting.png
+.. figure:: /images/render_blender-render_world_indirect-lighting_parameters.png
    :width: 300px
 
    Indirect Lighting parameters.

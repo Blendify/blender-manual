@@ -8,4 +8,4 @@
    :maxdepth: 2
 
    introduction.rst
-   sky_and_atmosphere.rst
+   sky_atmosphere.rst

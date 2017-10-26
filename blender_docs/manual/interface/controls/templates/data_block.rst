@@ -65,7 +65,7 @@ In the Tool Shelf is a version of the data-block menu with a bigger preview.
 Data ID
 =======
 
-.. figure:: /images/interface_controls_templates_data-block_data_id.png
+.. figure:: /images/interface_controls_templates_data-block_data-id.png
 
    The Data ID.
 

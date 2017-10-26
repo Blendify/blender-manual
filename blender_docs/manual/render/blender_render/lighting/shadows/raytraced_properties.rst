@@ -3,7 +3,7 @@
 Raytraced Shadows
 *****************
 
-.. figure:: /images/lighting-shadow-ray.png
+.. figure:: /images/render_blender-render_lighting_shadows_introduction_shadow-ray.png
    :width: 310px
 
    Ray shadowing options for lamps.
@@ -56,47 +56,47 @@ Soft Size
 
    .. list-table::
 
-      * - .. figure:: /images/light-ray_shadow-soft_size_1-samples_2-cube.jpg
+      * - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft1-samples2.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 2.
 
-        - .. figure:: /images/light-ray_shadow-soft_size_1-samples_4-cube.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft1-samples4.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 4.
 
-        - .. figure:: /images/light-ray_shadow-soft_size_1-samples_6-cube.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft1-samples6.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 6.
 
-      * - .. figure:: /images/light-ray_shadow-soft_size_2-samples_2-cube.jpg
+      * - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft2-samples2.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 2.
 
-        - .. figure:: /images/light-ray_shadow-soft_size_2-samples_4-cube.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft2-samples4.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 4.
 
-        - .. figure:: /images/light-ray_shadow-soft_size_2-samples_6-cube.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft2-samples6.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 6.
 
-      * - .. figure:: /images/light-ray_shadow-soft_size_3-samples_2-cube.jpg
+      * - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft3-samples2.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 2.
 
-        - .. figure:: /images/light-ray_shadow-soft_size_3-samples_4-cube.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft3-samples4.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 4.
 
-        - .. figure:: /images/light-ray_shadow-soft_size_3-samples_6-cube.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_raytraced-properties_cube-soft3-samples6.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 6.
