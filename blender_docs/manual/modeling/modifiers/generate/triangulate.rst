@@ -9,12 +9,12 @@ This modifier does the exact same function as the Triangulate tool in Edit Mode.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_modifiers_generate_triangulate-before.png
+   * - .. figure:: /images/modeling_modifiers_generate_triangulate_before.png
           :width: 320px
 
           Mesh before Triangulate Modifier.
 
-     - .. figure:: /images/modeling_modifiers_generate_triangulate-after.png
+     - .. figure:: /images/modeling_modifiers_generate_triangulate_after.png
           :width: 320px
 
           Mesh after Triangulate Modifier.
