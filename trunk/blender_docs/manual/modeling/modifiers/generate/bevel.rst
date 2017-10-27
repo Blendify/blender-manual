@@ -81,16 +81,20 @@ Limit Method
       An edge is only beveled if both of its vertices are in the vertex group.
       See :doc:`here </modeling/meshes/properties/vertex_groups/vertex_groups>` about adjusting vertex group weights.
 
-.. TODO someone who understands these should write them in plain English, for now just copied the tool-tips.
-
 Width Method
-   Used to control how the *Width* is measured.
+   Declares how *Width* will be interpreted to determine the amount of bevel.
+
+   .. figure:: /images/modeling_modifiers_generate_bevel_width-methods.png
+      :align: right
+      :width: 240
+
+      Width methods.
 
    Offset
-      Amount is offset of new edges from original.
+      Value is interpreted as the distance from the original edge to the edge of the beveled face.
    Width
-      Amount is width of new face.
+      Value is interpreted as the distance between the two new edges formed by the bevel.
    Depth
-      Amount is perpendicular distance from original edge to bevel face.
+      Value is the perpendicular distance from the new bevel face to original edge.
    Percent
-      Amount is percent of adjacent edge length.
+      Similar to *Offset* but the value is interpreted as a percentage of the adjacent edge length.
