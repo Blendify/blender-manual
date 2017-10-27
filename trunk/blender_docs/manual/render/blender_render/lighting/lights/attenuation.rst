@@ -61,7 +61,7 @@ Quadratic
 
 .. _fig-bi-light-lin-default:
 
-.. figure:: /images/render_blender-render_lighting_lights_light-attenuation_lin-quad-weighted-default.jpg
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_lin-quad-weighted-default.jpg
    :width: 250px
 
    Lamp with Lin/Quad Weighted falloff default settings.
@@ -195,12 +195,12 @@ the graph shows that the intensity of the light starts off at its maximum
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_falloff-custom-default.png
+   * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-custom-default.png
           :width: 306px
 
           Default Falloff Curve panel graph.
 
-     - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_custom-curve-default.jpg
+     - .. figure:: /images/render_blender-render_lighting_lights_attenuation_custom-curve-default.jpg
           :width: 250px
 
           Render showing the Custom Curve lamp falloff type effect with default settings.
@@ -210,12 +210,12 @@ the light source, you could alter the graph as below:
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_falloff-custom-reversed.png
+   * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-custom-reversed.png
           :width: 310px
 
           Falloff Curve for reversed attenuation.
 
-     - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_falloff-curve-reverse-render.jpg
+     - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-curve-reverse-render.jpg
           :width: 250px
 
           Falloff Curve for reversed attenuation rendered.
@@ -228,12 +228,12 @@ along with its resultant render output:
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_falloff-custom-oscill.png
+   * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-custom-oscill.png
           :width: 310px
 
           Oscillating attenuation profile.
 
-     - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_falloff-curve-render.jpg
+     - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-curve-render.jpg
           :width: 250px
 
           Render showing the effects of a "wavelet" profile graph on the light attenuation.
@@ -242,7 +242,7 @@ along with its resultant render output:
 Inverse Square
 --------------
 
-.. figure:: /images/render_blender-render_lighting_lights_light-attenuation_inverse-square.jpg
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_inverse-square.jpg
    :width: 300px
 
    Render showing the Inverse Square lamp falloff type effect with default settings.
@@ -258,7 +258,7 @@ to 1.0), with slight changes.
 Inverse Linear
 --------------
 
-.. figure:: /images/render_blender-render_lighting_lights_light-attenuation_inverse-linear.jpg
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_inverse-linear.jpg
    :width: 300px
 
    Render showing the Inverse Linear lamp falloff type effect with default settings.
@@ -274,7 +274,7 @@ but can be easier to light with.
 Constant
 --------
 
-.. figure:: /images/render_blender-render_lighting_lights_light-attenuation_constant.jpg
+.. figure:: /images/render_blender-render_lighting_lights_attenuation_constant.jpg
    :width: 300px
 
    Render showing the Constant lamp falloff type effect with default settings.
@@ -340,12 +340,12 @@ See the graphic at the end of the description of the *Lin/Quad Weighted* attenua
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_sphere-falloff-activated.png
+   * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_sphere-falloff-activated.png
           :width: 320px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option active.
 
-     - .. figure:: /images/render_blender-render_lighting_lights_light-attenuation_sphere-falloff-deactivated.png
+     - .. figure:: /images/render_blender-render_lighting_lights_attenuation_sphere-falloff-deactivated.png
           :width: 320px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option deactivated.

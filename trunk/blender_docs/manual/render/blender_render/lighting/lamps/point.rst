@@ -33,7 +33,7 @@ Negative, This Layer Only, Specular, and Diffuse
 
 Falloff and Sphere
    These settings control how the light of the *Lamp* decays with distance.
-   See :doc:`Light Attenuation </render/blender_render/lighting/lights/light_attenuation>` for details.
+   See :doc:`Light Attenuation </render/blender_render/lighting/lights/attenuation>` for details.
 
 
 Shadows

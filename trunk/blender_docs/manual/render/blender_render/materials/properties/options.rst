@@ -27,13 +27,13 @@ Z Offset
    Give faces an artificial Z offset for Z transparency.
 Light Group
    Limit lighting to lamps in this
-   :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>`.
+   :doc:`light group </render/blender_render/lighting/lights/in_other_contexts>`.
 Exclusive
-   Uses the :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>` exclusively.
+   Uses the :doc:`light group </render/blender_render/lighting/lights/in_other_contexts>` exclusively.
    These lamps will be excluded from other scene lighting.
 Local
    When linked in, uses local
-   :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>` with the same name.
+   :doc:`light group </render/blender_render/lighting/lights/in_other_contexts>` with the same name.
 Face Textures
    Replace object's base color with color from
    :ref:`UV map <editors-uv-image-index>` image textures.
