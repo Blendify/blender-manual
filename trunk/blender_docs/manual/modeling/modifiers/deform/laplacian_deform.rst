@@ -36,42 +36,42 @@ Repeat
 
    .. list-table::
 
-      * - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus_09.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus09.png
              :width: 130px
 
              Original Model.
 
-        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus_repeat_1.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus-repeat1.png
              :width: 130px
 
              Repeat: 1.
 
-        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus_repeat_2.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus-repeat2.png
              :width: 130px
 
              Repeat: 2.
 
-        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus_repeat_5.png
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus-repeat5.png
              :width: 130px
 
              Repeat: 5.
 
-      * - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse_repeat_0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse-repeat0.jpg
              :width: 130px
 
              Original Model.
 
-        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse_repeat_1.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse-repeat1.jpg
              :width: 130px
 
              Repeat: 1.
 
-        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse_repeat_2.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse-repeat2.jpg
              :width: 130px
 
              Repeat: 2.
 
-        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse_repeat_10.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_horse-repeat10.jpg
              :width: 130px
 
              Repeat: 10.
@@ -121,7 +121,7 @@ This method uses `differential coordinates
 corresponding to the difference between a vector and the weighted average
 of its neighbors to represent the local geometric detail of the mesh.
 
-.. figure:: /images/modeling_modifiers_deform_laplacian-deform_diagram_differential_coordinate.png
+.. figure:: /images/modeling_modifiers_deform_laplacian-deform_diagram-differential-coordinate.png
    :width: 369px
 
    Differential Coordinate.
