@@ -51,15 +51,15 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_templating_sketching-panel-1.png
 
           Conversion settings.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_stroke-conversion-1.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_stroke-conversion-1.png
 
           Before conversion.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_stroke-conversion-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_stroke-conversion-2.png
 
           After conversion.
 
@@ -74,11 +74,11 @@ Note how a two-bone chain is fitted to a three-segment stroke.
 
 .. list-table:: The newly created bones are numbered sequentially, after the original bones' names.
 
-   * - .. figure:: /images/rigging_armatures_editing_templating_stroke-multi-conversion-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_templating_stroke-multi-conversion-1.png
 
           Before conversion.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_stroke-multi-conversion-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_stroke-multi-conversion-2.png
 
           After conversion.
 
@@ -112,11 +112,11 @@ OK now, here are some important ground rules:
 
 .. list-table:: The *Skeleton Sketching* panel with *Retarget* conversion method enabled.
 
-   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_templating_sketching-panel-1.png
 
           With current edited armature as template.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_sketching-panel-2.png
 
           With another armature as template.
 
@@ -136,15 +136,15 @@ No, View, Joint buttons
 
 .. list-table:: Templating: bone roll example.
 
-   * - .. figure:: /images/rigging_armatures_editing_templating_bone-roll-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_templating_bone-roll-1.png
 
           With No roll option.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_bone-roll-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_bone-roll-2.png
 
           With View roll option.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_bone-roll-3.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_bone-roll-3.png
 
           With Joint roll option.
 
@@ -170,7 +170,7 @@ Template
       Controls the influence of the stroke's shape. The higher this value,
       the more the conversion process will try to follow the stroke with the new chain.
 
-.. figure:: /images/rigging_armatures_editing_templating_influence-weights.png
+.. figure:: /images/rigging_armatures_bones_editing_templating_influence-weights.png
 
    Examples of Template conversions for various influence weights values,
    with one stroke quite similar to the template chain's shape, and one stroke very different.
@@ -188,18 +188,18 @@ Side and Number text fields, *auto* button
 
 .. list-table:: Naming and placeholders, using a simple leg template.
 
-   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-3.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_templating_sketching-panel-3.png
           :width: 200px
 
           Conversion settings.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_name-placeholders-1.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_name-placeholders-1.png
           :width: 200px
 
           Before conversion (note the &n and &s
           placeholders in template bones' names).
 
-     - .. figure:: /images/rigging_armatures_editing_templating_name-placeholders-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_name-placeholders-2.png
           :width: 200px
 
           After conversion: the placeholders have been replaced by the
@@ -207,18 +207,18 @@ Side and Number text fields, *auto* button
 
 .. list-table:: Auto naming and placeholders, using a simple leg template.
 
-   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-4.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_templating_sketching-panel-4.png
           :width: 200px
 
           Conversion settings.
 
-     - .. figure:: /images/rigging_armatures_editing_templating_auto-naming-1.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_auto-naming-1.png
           :width: 200px
 
           Before conversion (note that, in the Bone Sketching panel,
           the S and N fields are empty, and the small "auto" button is enabled).
 
-     - .. figure:: /images/rigging_armatures_editing_templating_auto-naming-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_templating_auto-naming-2.png
           :width: 200px
 
           After conversion.

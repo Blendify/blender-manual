@@ -6,7 +6,7 @@
 Skeleton Sketching
 ******************
 
-.. figure:: /images/rigging_armatures_editing_sketching_skeleton-sketching-panel.png
+.. figure:: /images/rigging_armatures_bones_editing_sketching_skeleton-sketching-panel.png
    :align: right
 
    The Bone Sketching panel.
@@ -60,7 +60,7 @@ There are two types of segments, which can be mixed together:
 
 .. _fig-stroke-example:
 
-.. figure:: /images/rigging_armatures_editing_sketching_strokes-example.png
+.. figure:: /images/rigging_armatures_bones_editing_sketching_strokes-example.png
 
    Strokes example.
 
@@ -82,15 +82,15 @@ whatever convert algorithm you use (except for the *Template* conversion method)
 
 .. list-table:: Drawing straight segments example.
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_poly-stroke-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_poly-stroke-1.png
 
           The first segment has been started with a :kbd:`LMB` click and the mouse moved to its end point.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_poly-stroke-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_poly-stroke-2.png
 
           The first segment has been finalized by a second :kbd:`LMB` click, which also started a new segment...
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_poly-stroke-3.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_poly-stroke-3.png
 
           Repeating these steps, we now have a four-segment polygonal stroke.
 
@@ -115,19 +115,19 @@ raise this value a bit, and if you find them too jagged, lower it.
 
 .. list-table:: Drawing free segments example.
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_free-stroke-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_free-stroke-1.png
 
           While drawing a first free segment with click and drag :kbd:`LMB`.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_free-stroke-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_free-stroke-2.png
 
           The first free segment finalized by releasing :kbd:`LMB`.
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_free-stroke-3.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_free-stroke-3.png
 
           If you now move the mouse without pressing :kbd:`LMB` again, you will create a straight segment...
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_free-stroke-4.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_free-stroke-4.png
 
           But if you immediately click again and drag :kbd:`LMB` you will instead start a new free segment.
 
@@ -173,13 +173,13 @@ but rather create a new one, as if *Overdraw Sketching* was disabled.
 
 .. list-table:: Adjusting stroke example.
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_adjusting-stroke-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_adjusting-stroke-1.png
           :width: 350px
 
           Adjusting a stroke: the gray part of the "unselected" (orange)
           stroke will be replaced by the currently drawn "replacement".
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_adjusting-stroke-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_adjusting-stroke-2.png
           :width: 350px
 
           Stroke adjusted.
@@ -205,15 +205,15 @@ In short, something that the gesture system would never recognize!
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_gestures-canceling-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-canceling-1.png
 
           An unwanted cut stroke.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_gestures-canceling-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-canceling-2.png
 
           Some random drawing.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_gestures-canceling-3.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-canceling-3.png
 
           The stroke is still in one piece.
 
@@ -226,11 +226,11 @@ To *cut* a segment (i.e. add a new black dot inside it, making two segments out 
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_gestures-cut-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-cut-1.png
 
           Gesture.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_gestures-cut-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-cut-2.png
 
           Result.
 
@@ -242,11 +242,11 @@ To *delete* a stroke, draw a "V" crossing the stroke to delete twice.
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_gestures-delete-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-delete-1.png
 
           Gesture.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_gestures-delete-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-delete-2.png
 
           Result.
 
@@ -259,11 +259,11 @@ draw a "C" crossing twice the stroke to reverse.
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_gestures-reverse-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-reverse-1.png
 
           Gesture.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_gestures-reverse-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-reverse-2.png
 
           Result.
 
@@ -298,12 +298,12 @@ each free segment of the selected strokes will be uniformly divided in *n* parts
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_convert-fixed-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-fixed-1.png
           :width: 320px
 
           The Fixed conversion preview on selected strokes.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_convert-fixed-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-fixed-2.png
           :width: 320px
 
           The Fixed conversion result.
@@ -320,12 +320,12 @@ So the more twisted a free segment, the more bones it will generate.
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_convert-adaptive-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-adaptive-1.png
           :width: 320px
 
           The Adaptive conversion preview on selected strokes.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_convert-adaptive-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-adaptive-2.png
           :width: 320px
 
           The Adaptive conversion result.
@@ -341,17 +341,17 @@ so that none of them is longer than the *Length* number button value
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_editing_sketching_convert-length-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-length-1.png
           :width: 200px
 
           The Length conversion preview on selected strokes.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_convert-length-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-length-2.png
           :width: 200px
 
           Using a larger length value.
 
-     - .. figure:: /images/rigging_armatures_editing_sketching_convert-length-3.png
+     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-length-3.png
           :width: 200px
 
           The Length conversion result.

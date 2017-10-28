@@ -44,23 +44,23 @@ To parent and/or connect bones, you can:
 
 .. list-table:: Parenting example.
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_parenting-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_parenting_start.png
           :width: 320px
 
           The starting armature, with Bone.005 parented and connected to Bone.004.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_parenting-4.png
+     - .. figure:: /images/rigging_armatures_bones_editing_parenting_unconnected.png
           :width: 320px
 
           Bone.005 re-parented to Bone.002, but not connected to it
           (same result, using either :kbd:`Ctrl-P-2` in 3D View, or the Bones tab settings).
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_parenting-2.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_parenting_connected.png
           :width: 320px
 
           Bone.005 parented and connected to Bone.002, using :kbd:`Ctrl-P-1` in 3D View.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_parenting-3.png
+     - .. figure:: /images/rigging_armatures_bones_editing_parenting_data-id.png
           :width: 320px
 
           Bone.005 parented and connected to Bone.002.

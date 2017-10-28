@@ -10,7 +10,7 @@ Bone Groups
    | Panel:    :menuselection:`Armature tab --> Motion Paths panel`
    | Menu:     :menuselection:`Pose --> Bone Groups --> ...`
 
-.. figure:: /images/rigging_armatures_properties_bone-groups-panel.png
+.. figure:: /images/rigging_armatures_properties_bone-groups_panel.png
 
    The Bone Groups panel.
 
@@ -27,7 +27,7 @@ Active Bone Group
 Color Set
 ------------------------
 
-.. figure:: /images/rigging_posing_visualization_bone-color-list.png
+.. figure:: /images/rigging_armatures_properties_bone-groups_color-list.png
 
    The Bone Color Set selector and the color buttons.
 

@@ -35,7 +35,7 @@ in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 (as you can see it in the *Transform* panel, in the 3D Views,
 :kbd:`N`).
 
-.. figure:: /images/rigging_posing_editing_local-rotation.png
+.. figure:: /images/rigging_armatures_posing_editing_local-rotation.png
 
    An example of locally-Y-axis locked rotation, with two bones selected.
    Note that the two green lines materializing the axes are centered on the armature's center,
@@ -220,37 +220,37 @@ Here are important points:
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-1.png
+   * - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-1.png
 
           The rest position of our original armature.
 
-     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-2.png
+     - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-2.png
 
           The rest position of our destination armature.
 
 .. list-table:: Examples of pose copy/paste.
 
-   * - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-3.png
+   * - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-3.png
 
           The first copied pose (note that only two bones are selected and hence copied).
 
-     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-4.png
+     - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-4.png
 
           ...pasted on the destination armature...
 
-     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-5.png
+     - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-5.png
 
           ...and mirror-pasted on the destination armature.
 
-   * - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-6.png
+   * - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-6.png
 
           The same pose as above is copied, but this time with all bones selected, ...
 
-     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-7.png
+     - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-7.png
 
           ...pasted on the destination armature...
 
-     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-8.png
+     - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-8.png
 
           ...and mirror-pasted on the destination armature.
 

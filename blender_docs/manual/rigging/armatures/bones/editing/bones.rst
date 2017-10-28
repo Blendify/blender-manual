@@ -45,12 +45,12 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
 .. list-table:: Extrusion example.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_extrusion-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_extrusion-1.png
           :width: 320px
 
           An armature with three selected tips.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_extrusion-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_extrusion-2.png
           :width: 320px
 
           The three extruded bones.
@@ -64,12 +64,12 @@ extrusion along a global or local axis.
 
 .. list-table:: Mirror extrusion example.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_mirror-extrusion-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_mirror-extrusion-1.png
           :width: 320px
 
           A single selected bone's tip.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_mirror-extrusion-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_mirror-extrusion-2.png
           :width: 320px
 
           The two mirror-extruded bones.
@@ -116,7 +116,7 @@ About the new bone's tip:
 
 The position of the root and the parenting of the new bone depends on the active element:
 
-.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-1.png
+.. figure:: /images/rigging_armatures_bones_editing_bones_mouse-clicks-1.png
    :width: 300px
 
    Ctrl-clicking when the active element is a bone.
@@ -129,7 +129,7 @@ If the active element is a *bone*
 
 .. _fig-rig-bone-active-tip:
 
-.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-2.png
+.. figure:: /images/rigging_armatures_bones_editing_bones_mouse-clicks-2.png
    :width: 300px
 
    Ctrl-clicking when the active element is a tip.
@@ -142,7 +142,7 @@ If the active element is a *tip* :
 
 .. _fig-rig-bone-disconnected-tip:
 
-.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-3.png
+.. figure:: /images/rigging_armatures_bones_editing_bones_mouse-clicks-3.png
    :width: 300px
 
    Ctrl-clicking when the active element is a disconnected root.
@@ -157,7 +157,7 @@ And hence the new bone will **not** be connected to any bone.
 
 .. _fig-rig-bone-connected-root:
 
-.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-4.png
+.. figure:: /images/rigging_armatures_bones_editing_bones_mouse-clicks-4.png
    :width: 300px
 
    Ctrl-clicking when the active element is a connected root.
@@ -197,12 +197,12 @@ If you have one root and one tip selected, the new bone:
 
 .. list-table:: Fill between a tip and a root.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-1.png
           :width: 320px
 
           Active tip on the left.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-2.png
           :width: 320px
 
           Active tip on the right.
@@ -215,12 +215,12 @@ If you have two tips selected, the new bone:
 
 .. list-table:: Fill between tips.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-3.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-3.png
           :width: 320px
 
           3D cursor on the left.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-4.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-4.png
           :width: 320px
 
           3D cursor on the right.
@@ -239,12 +239,12 @@ new bone's root moves to the tip of the parent bone.
 
 .. list-table:: Fill between roots.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-5.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-5.png
           :width: 320px
 
           Before UI update (3D cursor on the left).
 
-     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-6.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-6.png
           :width: 320px
 
           After UI update, correct visualization.
@@ -254,12 +254,12 @@ joint to the 3D cursor position, and it will not parent it to any bone in the ar
 
 .. list-table:: Fill with only one bone joint selected.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-7.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-7.png
           :width: 320px
 
           Fill with only one tip selected.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-8.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-8.png
           :width: 320px
 
           Fill with only one root selected.
@@ -303,12 +303,12 @@ its copy will be parented, but **not** connected to the unselected bone
 
 .. list-table:: Duplication example.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_duplication-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_duplication-1.png
           :width: 320px
 
           An armature with three selected bones and a selected single root.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_duplication-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_duplication-2.png
           :width: 320px
 
           The three duplicated bones. Note that the selected chain is preserved in the copy,
@@ -347,12 +347,12 @@ to avoid deforming the whole armature.
 
 .. list-table:: Deletion example.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_deletion-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_deletion-1.png
           :width: 320px
 
           An armature with two selected bones, just before deletion.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_deletion-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_deletion-2.png
           :width: 320px
 
           The two bones have been deleted. Note that Bone.002,
@@ -402,23 +402,23 @@ differently depending in which chain is the edited bone
 
 .. list-table:: Merge example.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_merge-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_merge-1.png
           :width: 320px
 
           An armature with a selected chain, and a single selected bone, just before merging.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_merge-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_merge-2.png
           :width: 320px
 
           Bones Bone, Bone.001 and Bone.002 have been merged in Bone.006,
           whereas Bone.005 was not modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_merge-3.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_merge-3.png
           :width: 320px
 
           Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_merge-4.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_merge-4.png
           :width: 320px
 
           The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of "Bone.006"
@@ -446,12 +446,12 @@ Number of Cuts
 
 .. list-table:: Subdivision example.
 
-   * - .. figure:: /images/rigging_armatures_editing_bones_subdivision-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_bones_subdivision-1.png
           :width: 320px
 
           An armature with one selected bone, just before multi-subdivision.
 
-     - .. figure:: /images/rigging_armatures_editing_bones_subdivision-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_bones_subdivision-2.png
           :width: 320px
 
           The selected bone has been "cut" two times, giving three sub-bones.

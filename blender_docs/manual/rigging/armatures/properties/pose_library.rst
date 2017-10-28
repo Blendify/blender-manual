@@ -4,7 +4,7 @@
 Pose Library Panel
 ******************
 
-.. figure:: /images/rigging_posing_pose-library.png
+.. figure:: /images/rigging_armatures_properties_pose-library_panel.png
    :align: right
 
    The Pose Library panel.
