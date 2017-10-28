@@ -21,7 +21,7 @@ Interface
    interface/adding_removing.rst
    interface/header.rst
    interface/common.rst
-   interface/the_stack.rst
+   interface/stack.rst
 
 
 Motion Tracking

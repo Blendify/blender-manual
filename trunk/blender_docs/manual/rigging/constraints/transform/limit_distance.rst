@@ -22,7 +22,7 @@ correspond to the distance between the owner and this target.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_transform_limit-distance.png
+.. figure:: /images/rigging_constraints_transform_limit-distance_panel.png
 
    Limit Distance panel.
 

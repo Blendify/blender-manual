@@ -18,7 +18,7 @@ The *Copy Scale* constraint forces its owner to have the same scale as its targe
 Options
 =======
 
-.. figure:: /images/rigging_constraints_transform_copy-scale.png
+.. figure:: /images/rigging_constraints_transform_copy-scale_panel.png
 
    Copy Scale panel.
 

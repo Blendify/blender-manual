@@ -26,7 +26,7 @@ Constraint Type
    Enable/Disable
       Used to disable a constraint by selecting the constraint via the :ref:`ui-data-id`.
    Set Target
-      Used to change the constraint's :ref:`Target <rigging_constraints_interface_common_target>`
+      Used to change the constraint's :ref:`Target <rigging-constraints-interface-common-target>`
       by selecting the new target via the :ref:`ui-data-id`.
    Set Weight
       Used to change the weight of a constraint by selecting a new weight with the *Weight* field.

@@ -20,7 +20,7 @@ when the selected inactive object is a mesh.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_relationship_shrinkwrap.png
+.. figure:: /images/rigging_constraints_relationship_shrinkwrap_panel.png
 
    Shrinkwrap panel.
 

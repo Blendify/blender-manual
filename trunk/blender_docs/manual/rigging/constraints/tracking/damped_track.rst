@@ -13,7 +13,7 @@ In other 3D software you can find it with the name "Look at" constraint.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_tracking_damped-track.png
+.. figure:: /images/rigging_constraints_tracking_damped-track_panel.png
 
    Damped Track panel.
 

@@ -35,7 +35,7 @@ For a demo file that shows some of the different types, see: `BGE-Physics-RigidB
 Options
 =======
 
-.. figure:: /images/rigging_constraints_relationship_rigid-body-joint.png
+.. figure:: /images/rigging_constraints_relationship_rigid-body-joint_panel.png
 
    Rigid Body Joint panel.
 

@@ -36,7 +36,7 @@ the owner will be as if in frame 50 of the linked action, etc.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_relationship_action.png
+.. figure:: /images/rigging_constraints_relationship_action_panel.png
 
    Action panel.
 

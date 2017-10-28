@@ -17,7 +17,7 @@ Tab
 
 To add a constraint click on the *Add Object Constraint* menu in the Constraints tab.
 
-.. figure:: /images/rigging_constraints_introduction_add-menu.png
+.. figure:: /images/rigging_constraints_interface_adding-removing_add-menu.png
 
 To remove a constraint click on the "X" button
 in the :doc:`header </rigging/constraints/interface/header>`.
@@ -39,7 +39,7 @@ Add Constraint (with Targets)
    | Hotkey:   :kbd:`Ctrl-Shift-C`
 
 Adds a constraint to the active object.
-The type of constraint must be chosen from a popup window,
+The type of constraint must be chosen from a popup menu,
 though it can be changed later from the *Add Constraint (with Targets)* Operator panel.
 If there is an other object selected besides the active one,
 that object will be the constraint target (if the chosen constraint accepts targets).
