@@ -35,32 +35,32 @@ Preserve Volume
 .. list-table:: Example of Quaternion option effects.
    Note that the IcoSphere is deformed using the envelopes weights.
 
-   * - .. figure:: /images/rigging_skinning_preserve-volume-1.png
+   * - .. figure:: /images/modeling_modifiers_deform_armature_preserve-volume-1.png
           :width: 200px
 
           Initial state.
 
-     - .. figure:: /images/rigging_skinning_preserve-volume-2.png
+     - .. figure:: /images/modeling_modifiers_deform_armature_preserve-volume-2.png
           :width: 200px
 
           100° rotation, Preserve Volume disabled.
 
-     - .. figure:: /images/rigging_skinning_preserve-volume-3.png
+     - .. figure:: /images/modeling_modifiers_deform_armature_preserve-volume-3.png
           :width: 200px
 
           180° rotation, Preserve Volume disabled.
 
-   * - .. figure:: /images/rigging_skinning_preserve-volume-4.png
+   * - .. figure:: /images/modeling_modifiers_deform_armature_preserve-volume-4.png
           :width: 200px
 
           100° rotation, Preserve Volume enabled.
 
-     - .. figure:: /images/rigging_skinning_preserve-volume-5.png
+     - .. figure:: /images/modeling_modifiers_deform_armature_preserve-volume-5.png
           :width: 200px
 
           179.9° rotation, Preserve Volume enabled.
 
-     - .. figure:: /images/rigging_skinning_preserve-volume-6.png
+     - .. figure:: /images/modeling_modifiers_deform_armature_preserve-volume-6.png
           :width: 200px
 
           180.1° rotation, Preserve Volume enabled.
@@ -97,22 +97,22 @@ Bone Envelopes
 
 .. list-table:: Example of vertex groups skinning method.
 
-   * - .. figure:: /images/rigging_skinning_vertex-groups-skinning-1.png
+   * - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-1.png
           :width: 320px
 
           The weights of the arm vertex group.
 
-     - .. figure:: /images/rigging_skinning_vertex-groups-skinning-2.png
+     - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-2.png
           :width: 320px
 
           The weights of the forearm vertex group.
 
-   * - .. figure:: /images/rigging_skinning_vertex-groups-skinning-3.png
+   * - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-3.png
           :width: 320px
 
           The result when posing the armature.
 
-     - .. figure:: /images/rigging_skinning_vertex-groups-skinning-4.png
+     - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-4.png
           :width: 320px
 
           The same pose, but using envelopes method rather that vertex groups.

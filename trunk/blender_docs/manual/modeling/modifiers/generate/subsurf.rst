@@ -32,7 +32,7 @@ You can see the difference between the two in the grid image below.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_subsurf.png
+.. figure:: /images/modeling_modifiers_generate_subsurf_panel.png
 
    Modifier's Panel.
 

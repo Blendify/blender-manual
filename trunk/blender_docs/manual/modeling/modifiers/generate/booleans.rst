@@ -35,7 +35,7 @@ operation for the Boolean Modifier at a time.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_booleans.png
+.. figure:: /images/modeling_modifiers_generate_booleans_panel.png
 
    Boolean Modifier Options.
 

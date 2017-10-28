@@ -18,7 +18,7 @@ Multiple Array Modifiers may be active for an object at the same time
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_array.png
+.. figure:: /images/modeling_modifiers_generate_array_panel.png
    :align: right
 
    Array Modifier.
