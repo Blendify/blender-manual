@@ -21,7 +21,7 @@ There are some important visualization features in the 3D Views that can help an
 When the current frame is a keyframe for the current active object, the name of this object
 (shown in the bottom left corner of the 3D Views) turns yellow.
 
-.. figure:: /images/animation_keyframes_visualization.png
+.. figure:: /images/animation_keyframes_introduction_visualization.png
 
    Bottom: Current frame at 0. Top: Current frame is a keyframe for Cube.
 

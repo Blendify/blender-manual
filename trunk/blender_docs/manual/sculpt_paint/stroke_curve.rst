@@ -6,7 +6,7 @@ Stroke & Curve
 Stroke
 ======
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_properties_stroke-panel.png
+.. figure:: /images/sculpt-paint_stroke-curve_stroke-panel.png
    :align: right
 
    Stroke Panel.
@@ -88,6 +88,6 @@ towards its borders (right part of the curve).
 Changing the shape of the curve will make the brush softer or harder.
 Read more about using the :ref:`ui-curve-widget`.
 
-.. figure:: /images/sculpt-paint_painting_vertex-paint_options_brush-curve.png
+.. figure:: /images/sculpt-paint_stroke-curve_brush-curve.png
 
    Brush curve example.

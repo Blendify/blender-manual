@@ -29,7 +29,7 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
    - Transform Type -- X Location
    - Transform Space -- World Space
 
-.. figure:: /images/animation_drivers_transform.jpg
+.. figure:: /images/animation_drivers_workflow-examples_transform.jpg
 
 When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left to right.
 
@@ -42,7 +42,7 @@ Driver Expression
 
 Here are some examples using the scripted expression Expr to set the Driver Value.
 
-.. figure:: /images/animation_driver_object_rotation.png
+.. figure:: /images/animation_drivers_workflow-examples_object-rotation.png
 
    Object Rotation.
 
@@ -118,10 +118,10 @@ Shape Key Driver
 
 This example is a Shape Key Driver. The driver was added to the shape key Value.
 
-.. figure:: /images/animation_driver_shape_key.png
+.. figure:: /images/animation_drivers_workflow-examples_shape-key.png
    :width: 400px
 
-   Shape Key Driver. Click to enlarge.
+   Shape Key Driver.
 
 This example uses the Armature Bone "b" 's Z Rotation to control the Value of a Shape Key.
 The bone rotation mode is set to XYZ Euler.
@@ -147,23 +147,23 @@ relationships between your shape keys.
 
 .. list-table::
 
-   * - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-key1.png
+   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key1.png
 
           Key1 must handle conflicting values from the two bones.
 
-     - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-key2a.png
+     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2a.png
 
           Key2A has different generator coefficients so it is activated in a different range of the bone's position.
 
-   * - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-key2b.png
+   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2b.png
 
           Key2B is the same as Key2A, but is controlled by the second bone.
 
-     - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-retracted.png
+     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-retracted.png
 
           When both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
 
-   * - .. figure:: /images/animation_driver_workflow_for-multiple-shape-keys-extended.png
+   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-extended.png
 
      - ..
 

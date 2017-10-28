@@ -6,7 +6,7 @@ Tools
 The Tools Shelf contains most of the options for vertex painting.
 The following sections describe the controls in each of the available panels.
 
-.. figure:: /images/sculpt-paint_painting_vertex-paint_options_tools.png
+.. figure:: /images/sculpt-paint_painting_vertex-paint_tools_tab.png
    :align: right
 
    Vertex Painting Options.

@@ -3,7 +3,7 @@
 Options
 *******
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_properties_appearance-panel.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_options_appearance-panel.png
    :align: right
 
    Brush appearance.
@@ -27,7 +27,7 @@ Custom Icon
 Options
 =======
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_properties_options-panel.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_options_options-panel.png
    :align: right
 
    Paint Options.

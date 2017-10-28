@@ -6,7 +6,7 @@ Tools
 Brush
 =====
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_properties_brush-panel.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_tools_brush-panel.png
    :align: right
 
    Brush Panel.

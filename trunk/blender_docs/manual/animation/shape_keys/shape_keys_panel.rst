@@ -10,7 +10,7 @@ Shape Keys Panel
    | Mode:     All modes
    | Panel:    :menuselection:`Properties editor --> Object Data --> Shape Keys`
 
-.. figure:: /images/animation_shape-keys_panel-basis.png
+.. figure:: /images/animation_shape-keys_shape-keys-panel_basis.png
 
    Shape Keys panel.
 
@@ -58,7 +58,7 @@ Relative Shape Keys
 Relative shape keys deform from a selected shape key.
 By default, all relative shape keys deform from the first shape key called the Basis shape key.
 
-.. figure:: /images/animation_shape-keys_panel-relative.png
+.. figure:: /images/animation_shape-keys_shape-keys-panel_relative.png
 
    Relative Shape Keys options.
 
@@ -84,7 +84,7 @@ Absolute Shape Keys
 Absolute shape keys deform from the previous and to the next shape key.
 They are mainly used to deform the object into different shapes over time.
 
-.. figure:: /images/animation_shape-keys_panel-absolute.png
+.. figure:: /images/animation_shape-keys_shape-keys-panel_absolute.png
 
    Absolute Shape Keys options.
 
@@ -97,7 +97,7 @@ Interpolation
 
    .. _fig-interpolation-type:
 
-   .. figure:: /images/animation_shape-keys_interpolation-types.png
+   .. figure:: /images/animation_shape-keys_shape-keys-panel_interpolation-types.png
 
       Different types of interpolation.
 

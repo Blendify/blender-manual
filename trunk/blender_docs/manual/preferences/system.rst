@@ -12,7 +12,7 @@ then they will either not show up or get corrected on startup.
 If this happens do not worry, you can either consult your computer manual
 to find a supported value or just let Blender correct it.
 
-.. figure:: /images/preferences_system.png
+.. figure:: /images/preferences_system_tab.png
 
    User Preferences System tab.
 

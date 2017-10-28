@@ -17,7 +17,7 @@ but it was later refocused on core utilities to perform two operations:
 
 The following section of the manual focuses on how to use BAM.
 
-.. figure:: /images/pipeline_tools_bam.png
+.. figure:: /images/pipeline_bam_chart.png
 
 
 Installing BAM

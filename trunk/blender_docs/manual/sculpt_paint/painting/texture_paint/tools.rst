@@ -9,7 +9,7 @@ Open the Tool Shelf in the 3D View or UV/Image Editor .
 Brush
 =====
 
-.. figure:: /images/sculpt-paint_painting_texture_brush.jpg
+.. figure:: /images/sculpt-paint_painting_texture-paint_tools_paint-panel.jpg
    :width: 200px
 
    Brush Settings.

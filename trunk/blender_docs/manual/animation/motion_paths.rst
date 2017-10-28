@@ -20,7 +20,7 @@ Motion Paths
    | Panel:    :menuselection:`Properties editor --> Armature --> Motion Paths`
    | Menu:     :menuselection:`Pose --> Motion Paths`
 
-.. figure:: /images/animation_motion-path_example-object.png
+.. figure:: /images/animation_motion-paths_example-object.png
    :width: 400px
 
    An animated cube with its motion path displayed.
@@ -53,7 +53,7 @@ only useful when the *Around Current Frame* option is enabled.
 Options
 =======
 
-.. figure:: /images/animation_motion-paths-panel.png
+.. figure:: /images/animation_motion-paths_panel.png
 
    The Motion Paths Panel in the Armature tab.
 
@@ -123,6 +123,6 @@ Keyframe Numbers
 Example
 =======
 
-.. figure:: /images/animation_motion-path_example-armature.png
+.. figure:: /images/animation_motion-paths_example-armature.png
 
    An example of a motion path of an armature.
