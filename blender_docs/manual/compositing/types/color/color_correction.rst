@@ -4,7 +4,7 @@
 Color Correction Node
 *********************
 
-.. figure:: /images/compositing_nodes_color_color-correction.png
+.. figure:: /images/compositing_types_color_color-correction_node.png
 
    Color Balance Node.
 

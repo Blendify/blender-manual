@@ -4,7 +4,7 @@
 Texture Node
 ************
 
-.. figure:: /images/compositing_nodes_input_texture.png
+.. figure:: /images/compositing_types_input_texture_node.png
    :align: right
 
    Texture Node.

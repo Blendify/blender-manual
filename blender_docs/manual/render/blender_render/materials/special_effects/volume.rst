@@ -13,7 +13,7 @@ Volume rendering is a method for rendering light as it passes through participat
 within a 3D region. The implementation in Blender a physically based model,
 which represents the various interactions of light in a volume relatively realistically.
 
-.. figure:: /images/render_blender-render_materials_volume_volume_eq.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_volume-eq.jpg
 
    Volume rendering.
 
@@ -38,7 +38,7 @@ Options
 Density
 -------
 
-.. figure:: /images/render_blender-render_materials_volume_density.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_density.jpg
 
    Constant density vs textured density.
 
@@ -60,7 +60,7 @@ Density Scale
 Shading
 -------
 
-.. figure:: /images/render_blender-render_materials_volume_scattering1.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_scattering1.jpg
 
    Spot lamp scattering in a constant volume.
 
@@ -85,22 +85,22 @@ the more easily it penetrates throughout the volume and to the shadow.
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_materials_volume_scatter-sc0_5.jpg
+   * - .. figure:: /images/render_blender-render_materials_special-effects_volume_scatter-sc0-5.jpg
           :width: 150px
 
           Scattering: 0.5.
 
-     - .. figure:: /images/render_blender-render_materials_volume_scatter-sc1_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_scatter-sc1-0.jpg
           :width: 150px
 
           Scattering: 1.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_scatter-sc2_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_scatter-sc2-0.jpg
           :width: 150px
 
           Scattering: 2.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_scatter-sc5_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_scatter-sc5-0.jpg
           :width: 150px
 
           Scattering: 5.0.
@@ -109,7 +109,7 @@ the more easily it penetrates throughout the volume and to the shadow.
 Asymmetry
 ---------
 
-.. figure:: /images/render_blender-render_materials_volume_phase_diagram.png
+.. figure:: /images/render_blender-render_materials_special-effects_volume_phase-diagram.png
    :width: 300px
 
    Isotropic and Anisotropic scattering.
@@ -147,22 +147,22 @@ there is less available to be transmitted through.
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_materials_volume_tr_y-sc0_5.jpg
+   * - .. figure:: /images/render_blender-render_materials_special-effects_volume_tr-y-sc0-5.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 0.5.
 
-     - .. figure:: /images/render_blender-render_materials_volume_tr_y-sc1_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_tr-y-sc1-0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 1.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_tr_y-sc2_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_tr-y-sc2-0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 2.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_tr_y-sc5_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_tr-y-sc5-0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 5.0.
@@ -185,22 +185,22 @@ Emission
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_materials_volume_emission-0_25-sc0_5.jpg
+   * - .. figure:: /images/render_blender-render_materials_special-effects_volume_emission-0-25-sc0-5.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 0.5.
 
-     - .. figure:: /images/render_blender-render_materials_volume_emission-0_25-sc1_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_emission-0-25-sc1-0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 1.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_emission-0_25-sc2_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_emission-0-25-sc2-0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 2.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_emission-0_25-sc5_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_emission-0-25-sc5-0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 5.0.
@@ -241,44 +241,44 @@ Of course you can always break the rules too!
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_materials_volume_reflection-sc0_5.jpg
+   * - .. figure:: /images/render_blender-render_materials_special-effects_volume_reflection-sc0-5.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 0.5.
 
-     - .. figure:: /images/render_blender-render_materials_volume_reflection-sc1_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_reflection-sc1-0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 1.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_reflection-sc2_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_reflection-sc2-0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 2.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_reflection-sc5_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_reflection-sc5-0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 5.0.
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_materials_volume_refl_g-tr_y-sc0_5.jpg
+   * - .. figure:: /images/render_blender-render_materials_special-effects_volume_refl-g-tr-y-sc0-5.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 0.5.
 
-     - .. figure:: /images/render_blender-render_materials_volume_refl_g-tr_y-sc1_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_refl-g-tr-y-sc1-0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 1.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_refl_g-tr_y-sc2_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_refl-g-tr-y-sc2-0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 2.0.
 
-     - .. figure:: /images/render_blender-render_materials_volume_refl_g-tr_y-sc5_0.jpg
+     - .. figure:: /images/render_blender-render_materials_special-effects_volume_refl-g-tr-y-sc5-0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 5.0.
@@ -387,7 +387,7 @@ Create the Material
 
 The material must be a volumetric material with a Density of 0, and a high Density Scale.
 
-.. figure:: /images/render_blender-render_materials_volume_tab.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_tab.jpg
    :width: 300px
 
    The Material Settings.
@@ -407,7 +407,7 @@ you can use a volumetric texture known as
 :doc:`Voxel Data </render/blender_render/textures/types/volume/index>`.
 You must remember to set the domain object and change the influence.
 
-.. figure:: /images/render_blender-render_materials_volume_fire-texture-tab0.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-texture-tab0.jpg
 
    The texture settings.
 
@@ -419,7 +419,7 @@ Under Influence check 'Density' and leave it at 1.000
 Now you should be able to render single frames. You can choose to color your smoke as well,
 by turning *Emission Color* back on.
 
-.. figure:: /images/render_blender-render_materials_volume_smoke-render.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_smoke-render.jpg
 
    Finished Result.
 
@@ -434,7 +434,7 @@ Smoke Simulator with fire texture
 You can also turn your smoke into fire with another texture! To make fire,
 turn up the Emission Value in the Materials panel.
 
-.. figure:: /images/render_blender-render_materials_volume_fire-material-tab.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-material-tab.jpg
    :width: 300px
 
    The Fire material.
@@ -443,11 +443,11 @@ Then, add another texture (keep the old texture or the smoke will not show).
 Give it a fiery color ramp- which colors based on the alpha,
 and change the influence to emission and emission color. Change the blend to Multiply.
 
-.. figure:: /images/render_blender-render_materials_volume_fire-texture-tab.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-texture-tab.jpg
    :width: 300px
 
    The fire texture settings.
 
-.. figure:: /images/render_blender-render_materials_volume_fire-render3.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-render3.jpg
 
    The fire render.

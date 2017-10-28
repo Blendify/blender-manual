@@ -8,7 +8,7 @@
 Value Node
 **********
 
-.. figure:: /images/compositing_nodes_input_value.png
+.. figure:: /images/compositing_types_input_value_node.png
    :align: right
 
    Value Node.
@@ -41,7 +41,7 @@ Example
 In the example below the *Value Node* is used to control multiple values at once,
 this make the node a useful organizational tool.
 
-.. figure:: /images/compositing_nodes_input_value_example.jpg
+.. figure:: /images/compositing_types_input_value_example.jpg
 
    Example of the *Value Node*.
 

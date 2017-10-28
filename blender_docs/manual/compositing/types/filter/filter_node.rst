@@ -4,7 +4,7 @@
 Filter Node
 ***********
 
-.. figure:: /images/compositing_nodes_filter_filter.png
+.. figure:: /images/compositing_types_filter_filter-node_node.png
    :align: right
 
    Filter Node.
@@ -54,6 +54,6 @@ Image
 Example
 =======
 
-.. figure:: /images/compositing_nodes_filter_filter_example.jpg
+.. figure:: /images/compositing_types_filter_filter-node_example.jpg
 
    The Filter node has seven modes, shown here.

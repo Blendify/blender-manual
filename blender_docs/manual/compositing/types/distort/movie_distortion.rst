@@ -4,7 +4,7 @@
 Movie Distortion Node
 *********************
 
-.. figure:: /images/compositing_nodes_distort_movie-distortion.png
+.. figure:: /images/compositing_types_distort_movie-distortion_node.png
    :align: right
 
    Movie Distortion Node.

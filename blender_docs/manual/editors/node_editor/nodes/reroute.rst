@@ -10,7 +10,7 @@ connection while allowing multiple output connections.
 To quickly add a Reroute node into an existing connection, hold :kbd:`Shift` and :kbd:`LMB`
 while sweeping across the link to add a *Reroute node*.
 
-.. figure:: /images/compositing_nodes_layout_reroute.png
+.. figure:: /images/compositing_types_layout_reroute_node.png
 
 
 Properties

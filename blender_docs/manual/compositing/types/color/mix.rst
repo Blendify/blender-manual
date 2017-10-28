@@ -9,7 +9,7 @@
 Mix Node
 ********
 
-.. figure:: /images/compositing_nodes_color_mix.png
+.. figure:: /images/compositing_types_color_mix_node.png
    :align: right
 
    Mix Node.
@@ -61,7 +61,7 @@ Examples
 
 Below are samples of common mix modes and uses, mixing a color or checker with a mask.
 
-.. figure:: /images/compositing_nodes_color_mix_blend-modes.png
+.. figure:: /images/compositing_types_color_mix_blend-modes.png
    :width: 700px
 
 Some explanation of the mixing methods above might help you use the Mix node effectively:
@@ -101,7 +101,7 @@ Here is a small map showing the effects of two other common uses for the RGB Cur
 You can see the effect each curve has independently,
 and the combined effect when they are *mixed* equally.
 
-.. figure:: /images/compositing_nodes_color_mix_contrast-enhancement.png
+.. figure:: /images/compositing_types_color_mix_contrast-enhancement.png
    :width: 700px
 
    Example node setup showing "Darken", "Enhance Contrast" and "Mix" nodes for composition.
@@ -147,7 +147,7 @@ image subliminal. In this case, it reduces the mark to one-tenth of its original
 The Add node adds the corresponding pixels,
 making the ones containing the mark ever-so-slightly brighter.
 
-.. figure:: /images/compositing_nodes_color_mix_watermark-encode.png
+.. figure:: /images/compositing_types_color_mix_watermark-encode.png
    :width: 700px
 
    Embedding your mark in an Image using a Mark and Specific Position.
@@ -172,7 +172,7 @@ In this map, the Mix node is set to Difference,
 and the Map Value node amplifies any difference. The result is routed to a viewer,
 and you can see how the original mark stands out, clear as a bell:
 
-.. figure:: /images/compositing_nodes_color_mix_watermark-decode.png
+.. figure:: /images/compositing_types_color_mix_watermark-decode.png
    :width: 700px
 
    Checking an image for your watermark.

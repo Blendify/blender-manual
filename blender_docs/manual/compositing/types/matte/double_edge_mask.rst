@@ -4,7 +4,7 @@
 Double Edge Mask Node
 *********************
 
-.. figure:: /images/compositing_nodes_matte_double-edge-mask.png
+.. figure:: /images/compositing_types_matte_double-edge-mask_node.png
    :align: right
 
    Double Edge Mask Node.
@@ -35,11 +35,11 @@ Inner Edge
 
    .. list-table::
 
-      * - .. figure:: /images/compositing_nodes_double_edge_all.png
+      * - .. figure:: /images/compositing_types_matte_double-edge-mask_all.png
 
              All.
 
-        - .. figure:: /images/compositing_nodes_double_edge_adjacent.png
+        - .. figure:: /images/compositing_types_matte_double-edge-mask_adjacent.png
 
              Adjacent Only.
 
@@ -53,11 +53,11 @@ Buffer Edge
 
    .. list-table::
 
-      * - .. figure:: /images/compositing_nodes_double_edge_in.png
+      * - .. figure:: /images/compositing_types_matte_double-edge-mask_in.png
 
              Keep In.
 
-        - .. figure:: /images/compositing_nodes_double_edge_bleed.png
+        - .. figure:: /images/compositing_types_matte_double-edge-mask_bleed.png
 
              Bleed Out.
 

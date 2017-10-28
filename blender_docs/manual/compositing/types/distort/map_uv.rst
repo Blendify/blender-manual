@@ -4,7 +4,7 @@
 Map UV Node
 ***********
 
-.. figure:: /images/compositing_nodes_distort_map-uv.png
+.. figure:: /images/compositing_types_distort_map-uv_node.png
    :align: right
 
    Map UV Node.
@@ -62,7 +62,7 @@ During rendering, we enabled the UV layer in the Properties editor
 we mix that new UV Texture over the original face.
 We can use this grid texture to help in any motion tracking that we need to do.
 
-.. figure:: /images/compositing_nodes_distort_map-uv_example-1.png
+.. figure:: /images/compositing_types_distort_map-uv_example-1.png
    :width: 700px
 
    Adding a Grid UV Textures for Motion Tracking.
@@ -78,7 +78,7 @@ and it is needed to substitute in a different product sponsor after rendering.
    Due to limits of this node, it is not recommended rush pre-production rendering under
    the guise of "fixing it later".
 
-.. figure:: /images/compositing_nodes_distort_map-uv_example-2.png
+.. figure:: /images/compositing_types_distort_map-uv_example-2.png
    :width: 700px
 
    Adding UV Textures in Post-Production

@@ -4,7 +4,7 @@
 Lens Distortion Node
 ********************
 
-.. figure:: /images/compositing_nodes_distort_lens-distortion.png
+.. figure:: /images/compositing_types_distort_lens_node.png
    :align: right
 
    Lens Distortion Node.

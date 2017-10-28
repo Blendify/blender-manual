@@ -4,7 +4,7 @@
 Split Viewer Node
 *****************
 
-.. figure:: /images/compositing_nodes_output_split-viewer.png
+.. figure:: /images/compositing_types_output_split-viewer_node.png
    :align: right
 
    Split Viewer Node.
@@ -45,7 +45,7 @@ This node has no output sockets.
 Examples
 ========
 
-.. figure:: /images/compositing_nodes_color_gamma_example.jpg
+.. figure:: /images/compositing_types_color_gamma_example.jpg
    :width: 700px
 
    Example of Split Viewer node.

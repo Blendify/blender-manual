@@ -4,7 +4,7 @@
 Luminance Key Node
 ******************
 
-.. figure:: /images/compositing_nodes_matte_luminance-key.png
+.. figure:: /images/compositing_types_matte_luminance-key_node.png
    :align: right
 
    Luminance Key Node.
@@ -69,7 +69,7 @@ and the right color to be Black Alpha 0.0. Thus, when the Color Ramp gets in bla
 it spits out white, and vice versa. The reversed mask is shown;
 her white outline is usable as an alpha mask now.
 
-.. figure:: /images/compositing_nodes_matte_luminance-key_example.png
+.. figure:: /images/compositing_types_matte_luminance-key_example.png
 
    Using Luma Key with a twist.
 

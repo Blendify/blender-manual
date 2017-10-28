@@ -4,7 +4,7 @@
 Plane Track Deform Node
 ***********************
 
-.. figure:: /images/compositing_nodes_distort_plane-track-deform.png
+.. figure:: /images/compositing_types_distort_plane-track-deform_node.png
    :align: right
 
    Plane Track Deform Node.
@@ -74,7 +74,7 @@ Using Image output
 
 This can simply be achieved by using the alpha over node.
 
-.. figure:: /images/compositing_nodes_distort_planetrackdeform_example_image_output.png
+.. figure:: /images/compositing_types_distort_plane-track-deform_example-image-output.png
 
    Image output.
 
@@ -84,7 +84,7 @@ Using Plane output
 
 This can be achieved by mixing the movie clip and the image using the plane output as the factor.
 
-.. figure:: /images/compositing_nodes_distort_planetrackdeform_example_plane_output.png
+.. figure:: /images/compositing_types_distort_plane-track-deform_example-plane-output.png
 
    Plane output.
 
@@ -96,6 +96,6 @@ Using Image output scales, translates and skews the input image according to the
 while using the original image and mixing it with the movie clip using Plane output as factor
 will display the part of the image that lies inside that mask. This image shows the difference:
 
-.. figure:: /images/compositing_nodes_distort_planetrackdeform_output_comparison.png
+.. figure:: /images/compositing_types_distort_plane-track-deform_output-comparison.png
 
    Comparison between image output and original image (see viewer nodes carefully).

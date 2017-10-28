@@ -10,7 +10,7 @@
 RGB Curves Node
 ***************
 
-.. figure:: /images/compositing_nodes_color_rgb-curves.png
+.. figure:: /images/compositing_types_color_rgb-curves_node.png
    :align: right
 
    RGB Curves Node.
@@ -64,7 +64,7 @@ Examples
 
 Here are some common curves you can use to achieve desired effects:
 
-.. figure:: /images/compositing_nodes_color_rgb-curves_example-common-use.png
+.. figure:: /images/compositing_types_color_rgb-curves_example-common-use.png
    :width: 600px
 
    From left to right: 1. Lighten 2. Negative 3. Decrease Contrast 4. Posterize.
@@ -73,7 +73,7 @@ Here are some common curves you can use to achieve desired effects:
 Color correction using Curves
 -----------------------------
 
-.. figure:: /images/compositing_nodes_color_rgb-curves_example-rgb.jpg
+.. figure:: /images/compositing_types_color_rgb-curves_example-rgb.jpg
    :width: 600px
 
    Color correction with curves.
@@ -89,7 +89,7 @@ read on for examples of the Darken and Contrast Enhancement curves.
 Color correction using Black/White Levels
 -----------------------------------------
 
-.. figure:: /images/compositing_nodes_color_rgb-curves_black-white-levels.png
+.. figure:: /images/compositing_types_color_rgb-curves_black-white-levels.png
    :width: 600px
 
    Color correction with Black/White Levels.
@@ -113,7 +113,7 @@ setting Black and White Levels.
 Effects
 -------
 
-.. figure:: /images/compositing_nodes_color_rgb-curves_ex.jpg
+.. figure:: /images/compositing_types_color_rgb-curves_ex.jpg
    :width: 600px
 
    Changing colors.

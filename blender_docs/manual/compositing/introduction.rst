@@ -18,11 +18,11 @@ you use composition nodes to both assemble video clips together and enhance them
 To process your image, you use nodes to import the image into Blender, change it,
 optionally merge it with other images, and finally, save it.
 
-.. figure:: /images/compositing_nodes_distort_map-uv_example-2.png
+.. figure:: /images/compositing_types_distort_map-uv_example-2.png
 
    An example of Composition.
 
-.. figure:: /images/compositing_nodes_color_hue-saturation_example.jpg
+.. figure:: /images/compositing_types_color_hue-saturation_example.jpg
 
    An example of color correction.
 

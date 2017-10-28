@@ -7,7 +7,7 @@
 Bright/Contrast Node
 ********************
 
-.. figure:: /images/compositing_nodes_color_bright-contrast.png
+.. figure:: /images/compositing_types_color_bright-contrast_node.png
    :align: right
 
    Bright/Contrast Node.
@@ -48,7 +48,7 @@ If you will be using the output to mix with other images in the normal range,
 you should clamp the values using the Map Value node (with the Min and Max enabled),
 or put through a Color Ramp node (with all normal defaults).
 
-.. figure:: /images/compositing_nodes_color_bright-contrast_clamp-values.png
+.. figure:: /images/compositing_types_color_bright-contrast_clamp-values.png
    :width: 600px
 
    Clamp the values to normal range.
@@ -64,7 +64,7 @@ Map Value or the Color Ramp node produces the desired effect.
 Example
 =======
 
-.. figure:: /images/compositing_nodes_color_bright-contrast_basic-example.png
+.. figure:: /images/compositing_types_color_bright-contrast_basic-example.png
    :width: 600px
 
    A basic example.

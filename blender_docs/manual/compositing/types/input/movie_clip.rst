@@ -4,7 +4,7 @@
 Movie Clip Node
 ***************
 
-.. figure:: /images/compositing_nodes_input_movie-clip.png
+.. figure:: /images/compositing_types_input_movie-clip_node.png
    :align: right
 
    Movie clip node.

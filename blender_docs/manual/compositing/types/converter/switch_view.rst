@@ -4,7 +4,7 @@
 Switch View Node
 ****************
 
-.. figure:: /images/compositing_nodes_converter_switch-view.png
+.. figure:: /images/compositing_types_converter_switch-view_node.png
    :align: right
 
    Switch View Node.

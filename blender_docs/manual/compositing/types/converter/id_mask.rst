@@ -4,7 +4,7 @@
 ID Mask Node
 ************
 
-.. figure:: /images/compositing_nodes_converter_id-mask.png
+.. figure:: /images/compositing_types_converter_id-mask_node.png
    :align: right
 
    ID Mask Node.
@@ -65,6 +65,6 @@ at a sharp angle and are different colors. Using the mask from object 1,
 which is smoothed (anti-aliased) at the edges, we use a *Mix Node* set on *Multiply*
 to multiply the smoothed edges of the image, thus removing those nasty lines, thus, being smoothed out.
 
-.. figure:: /images/compositing_nodes_converter_id-mask_example.png
+.. figure:: /images/compositing_types_converter_id-mask_example.png
 
    Id Mask node example.

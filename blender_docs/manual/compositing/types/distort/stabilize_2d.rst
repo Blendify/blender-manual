@@ -4,7 +4,7 @@
 Stabilize 2D Node
 *****************
 
-.. figure:: /images/compositing_nodes_distort_stabilize-2d.png
+.. figure:: /images/compositing_types_distort_stabilize-2d_node.png
    :align: right
 
    Stabilize 2D Node.

@@ -31,12 +31,12 @@ Some common operation could easier executed with the  :doc:`/compositing/types/c
 Separate/Combine RGBA Nodes
 ===========================
 
-.. figure:: /images/compositing_nodes_converter_combine-rgba.png
+.. figure:: /images/compositing_types_converter_combine-separate_combine-rgba-node.png
    :align: right
 
    Combine RGBA Node.
 
-.. figure:: /images/compositing_nodes_converter_separate-rgba.png
+.. figure:: /images/compositing_types_converter_combine-separate_separate-rgba-node.png
    :align: right
 
    Separate RGBA Node.
@@ -63,7 +63,7 @@ This node has no properties.
 Examples
 --------
 
-.. figure:: /images/compositing_types_converter_combine-separate_combine-rgba.jpg
+.. figure:: /images/compositing_types_converter_combine-separate_example-combine-rgba.jpg
    :width: 600px
 
 In this first example, we take the Alpha channel and blur it,
@@ -74,7 +74,7 @@ Use this node setup, when adding CG elements to live action to remove any hard e
 Animating this effect on a broader scale will make the object appear to "phase" in and out,
 as an "out-of-phase" time-traveling sync effect.
 
-.. figure:: /images/compositing_nodes_converter_combine-separate_rgba-example-2.jpg
+.. figure:: /images/compositing_types_converter_combine-separate_rgba-example-2.jpg
 
 In this node set up, we make all the reds become green,
 and all the green both Red and Blue, and remove Blue from the image completely.
@@ -83,12 +83,12 @@ and all the green both Red and Blue, and remove Blue from the image completely.
 Separate/Combine HSVA Nodes
 ============================
 
-.. figure:: /images/compositing_nodes_converter_combine-hsva.png
+.. figure:: /images/compositing_types_converter_combine-separate_combine-hsva-node.png
    :align: right
 
    Combine HSVA Node.
 
-.. figure:: /images/compositing_nodes_converter_separate-hsva.png
+.. figure:: /images/compositing_types_converter_combine-separate_separate-hsva-node.png
    :align: right
 
    Separate HSVA Node.
@@ -115,12 +115,12 @@ This node has no properties.
 Separate/Combine YUVA Nodes
 ===========================
 
-.. figure:: /images/compositing_nodes_converter_combine-yuva.png
+.. figure:: /images/compositing_types_converter_combine-separate_combine-yuva-node.png
    :align: right
 
    Combine YUVA Node.
 
-.. figure:: /images/compositing_nodes_converter_separate-yuva.png
+.. figure:: /images/compositing_types_converter_combine-separate_separate-yuva-node.png
    :align: right
 
    Separate YUVA Node.
@@ -147,12 +147,12 @@ This node has no properties.
 Separate/Combine YCbCrA Node
 ============================
 
-.. figure:: /images/compositing_nodes_converter_combine-ycbcra.png
+.. figure:: /images/compositing_types_converter_combine-separate_combine-ycbcra-node.png
    :align: right
 
    Combine YCbCrA Node.
 
-.. figure:: /images/compositing_nodes_converter_separate-ycbcra.png
+.. figure:: /images/compositing_types_converter_combine-separate_separate-ycbcra-node.png
    :align: right
 
    Separate YCbCrA Node.
