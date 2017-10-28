@@ -3,7 +3,7 @@
 Relations
 *********
 
-.. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
+.. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
 
    The Relations panel.
 
@@ -45,7 +45,7 @@ Bone Group
 
    | Mode:     Pose Mode
 
-.. figure:: /images/rigging_posing_visualization_bone-group-list.png
+.. figure:: /images/rigging_armatures_bones_properties_relations_group-list.png
 
    The Bone Group data-ID.
 
@@ -88,17 +88,17 @@ By default, children bones inherit:
 
 .. list-table:: Examples of transforming parented/connected bones.
 
-   * - .. figure:: /images/rigging_posing_editing_bones-relationships-1.png
+   * - .. figure:: /images/rigging_armatures_bones_properties_relations_rest.png
           :width: 200px
 
           The armature in its rest position.
 
-     - .. figure:: /images/rigging_posing_editing_bones-relationships-2.png
+     - .. figure:: /images/rigging_armatures_bones_properties_relations_root-rotation.png
           :width: 200px
 
           Rotation of a root bone.
 
-     - .. figure:: /images/rigging_posing_editing_bones-relationships-3.png
+     - .. figure:: /images/rigging_armatures_bones_properties_relations_root-scale.png
           :width: 200px
 
           Scaling of a root bone.
@@ -106,7 +106,7 @@ By default, children bones inherit:
 Exactly like standard children objects. You can modify this behavior on a per-bone basis,
 using the Relations panel in the *Bones* tab:
 
-.. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
+.. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
 
    Relations panel in Pose Mode.
 
@@ -124,17 +124,17 @@ all its descendants* will no longer be affected when you scale one of its ancest
 
 .. list-table:: Examples of transforming parented/connected bones with Inherit Rotation disabled.
 
-   * - .. figure:: /images/rigging_posing_editing_bones-relationships-4.png
+   * - .. figure:: /images/rigging_armatures_bones_properties_relations_inherit-rot-disabled.png
           :width: 200px
 
           The yellow outlined Inherit Rotation disabled bone in the armature.
 
-     - .. figure:: /images/rigging_posing_editing_bones-relationships-5.png
+     - .. figure:: /images/rigging_armatures_bones_properties_relations_inherit-rot-disabled-descendant.png
           :width: 200px
 
           Rotation of a bone with an Inherit Rotation disabled bone among its descendants.
 
-     - .. figure:: /images/rigging_posing_editing_bones-relationships-6.png
+     - .. figure:: /images/rigging_armatures_bones_properties_relations_inherit-rot-disabled-scale.png
           :width: 200px
 
           Scaling of a bone with an Inherit Rotation disabled bone among its descendants.
@@ -153,7 +153,7 @@ however, this should give a good idea of the problem:
 
 .. _fig-rig-pose-edit-scale:
 
-.. figure:: /images/rigging_posing_editing_bones-relationships-7.png
+.. figure:: /images/rigging_armatures_bones_properties_relations_scale-related.png
    :width: 320px
 
    Scaling bones, some of them related.

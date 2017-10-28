@@ -84,7 +84,7 @@ each one made of five segments.
 Look at Fig. :ref:`fig-rig-bone-intro-same`,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.
 
-.. figure:: /images/rigging_armatures_editing_properties_b-bone-pose-mode.png
+.. figure:: /images/rigging_armatures_bones_properties_bendy-bones_pose-mode.png
 
    An armature in Pose Mode, B-Bone visualization: Bone.003 has one segment,
    Bone.004 has four, and Bone.005 has sixteen.
@@ -140,12 +140,12 @@ Ease In, Out
 
 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_curve-in-out-1.png
+   * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-1.png
           :width: 320px
 
           Look at Bone.004: it has the default In and Out values (1.0).
 
-     - .. figure:: /images/rigging_armatures_editing_properties_curve-in-out-2.png
+     - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-2.png
           :width: 320px
 
           Bone.004 with In at 2.0, and Out at 0.0.
@@ -173,7 +173,7 @@ Relative
 Example
 -------
 
-.. figure:: /images/rigging_armatures_bones_properties_b-bones_settings-demo.png
+.. figure:: /images/rigging_armatures_bones_properties_bendy-bones_settings-demo.png
 
    Visualization of the Bendy Bones properties.
 

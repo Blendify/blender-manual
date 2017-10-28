@@ -11,10 +11,10 @@ Ghost
 
 .. list-table:: Ghosts examples.
 
-   * - .. figure:: /images/rigging_posing_visualization_ghost-example-1.png
+   * - .. figure:: /images/rigging_armatures_properties_ghost_example1.png
           :width: 240px
 
-     - .. figure:: /images/rigging_posing_visualization_ghost-example-2.png
+     - .. figure:: /images/rigging_armatures_properties_ghost_example2.png
           :width: 240px
 
 In traditional cartoon creation, animators use tracing paper,
@@ -29,7 +29,7 @@ The ghosts are black outlines (more or less opaque) of the bones as they are at 
 Options
 =======
 
-.. figure:: /images/rigging_posing_visualization_ghost-panel.png
+.. figure:: /images/rigging_armatures_properties_ghost_panel.png
 
    The Ghost panel.
 

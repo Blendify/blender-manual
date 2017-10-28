@@ -35,7 +35,7 @@ it is worthwhile to stick to a left/right naming convention.
 This will enable you to use some tools that will probably save you time and effort
 (like the *X-Axis Mirror* editing tool we saw above...).
 
-.. figure:: /images/rigging_armatures_editing_properties_bone-naming.png
+.. figure:: /images/rigging_armatures_bones_editing_naming_example.png
 
    An example of left/right bone naming in a simple rig.
 

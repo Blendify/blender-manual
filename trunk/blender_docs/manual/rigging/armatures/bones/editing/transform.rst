@@ -6,7 +6,7 @@ Transform
 Transform
 =========
 
-.. figure:: /images/rigging_armatures_editing_properties_transform-panel.png
+.. figure:: /images/rigging_armatures_bones_editing_transform_panel.png
    :align: right
    :figwidth: 165px
 
@@ -63,17 +63,17 @@ and entering new values for the *Tail* and *Head* number buttons.
 
           A single selected bone in Octahedron visualization.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-radius-2.png
           :width: 320px
 
           After normal scale.
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-3.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-radius-3.png
           :width: 320px
 
           A single selected bone in Envelope visualization.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-4.png
+     - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-radius-4.png
           :width: 320px
 
           After Scaled Radius. Its length remains the same, but its joints' radius are bigger.
@@ -106,29 +106,29 @@ within which it can influence vertices of child objects.
 
 .. list-table:: Envelope scaling example.
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-3.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-radius-3.png
           :width: 320px
 
           A single bone selected in Envelope visualization.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-5.png
+     - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-radius-5.png
           :width: 320px
 
           Its envelope distance scaled.
 
 .. list-table:: "Bone size" scaling example.
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-size-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-size-1.png
           :width: 200px
 
           A single "default size" bone selected in B-Bone visualization.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-size-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-size-2.png
           :width: 200px
 
           Its envelope distance scaled.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-size-3.png
+     - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-size-3.png
           :width: 200px
 
           The same armature in Object Mode and B-Bone visualization, with Bone.004's size scaled up.
@@ -226,12 +226,12 @@ but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
 
 .. list-table:: Switching example.
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_switch-direction-1.png
+   * - .. figure:: /images/rigging_armatures_bones_editing_transform_switch-direction-1.png
           :width: 320px
 
           An armature with one selected bone, and one selected chain of three bones, just before switching.
 
-     - .. figure:: /images/rigging_armatures_editing_properties_switch-direction-2.png
+     - .. figure:: /images/rigging_armatures_bones_editing_transform_switch-direction-2.png
           :width: 320px
 
           The selected bones have been switched. Bone.005 is no more connected nor parented to anything.

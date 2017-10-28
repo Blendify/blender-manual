@@ -4,7 +4,7 @@
 Introduction
 ************
 
-.. figure:: /images/rigging_posing_constraints.png
+.. figure:: /images/rigging_armatures_posing_bone-constraints_introduction_tab.png
    :align: right
    :figwidth: 280px
 
