@@ -59,19 +59,19 @@ Example
 
    * - .. _fig-rig-bone-intro-bbone:
 
-       .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
+       .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-1.png
           :width: 320px
 
           The OLD B-Bones, in Edit Mode. ToDo.
 
-     - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-2.png
+     - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-2.png
           :width: 320px
 
           The Bézier curve superposed to the chain, with its handles placed at bones' joints.
 
    * - .. _fig-rig-bone-intro-same:
 
-       .. figure:: /images/rigging_armatures_bones_introduction_b-bones-3.png
+       .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-3.png
           :width: 320px
 
           The same armature in Object Mode.

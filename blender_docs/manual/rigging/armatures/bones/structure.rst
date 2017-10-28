@@ -3,7 +3,7 @@
 Structure
 *********
 
-.. figure:: /images/rigging_armatures_bones_introduction_bones-elements.png
+.. figure:: /images/rigging_armatures_bones_structure_bones-elements.png
    :align: right
 
    The elements of a bone.
@@ -37,7 +37,7 @@ oriented from root to tip. So, this is the "roll" axis of the bones.
 Bones Influence
 ===============
 
-.. figure:: /images/rigging_armatures_bones_introduction_envelope-edit-mode.png
+.. figure:: /images/rigging_armatures_bones_structure_envelope-edit-mode.png
    :figwidth: 180px
    :align: right
 
@@ -59,7 +59,7 @@ which depends on:
 - The *distance* property and
 - the root's radius and the tip's radius.
 
-.. figure:: /images/rigging_armatures_bones_introduction_envelope-pose-mode.png
+.. figure:: /images/rigging_armatures_bones_structure_envelope-pose-mode.png
    :width: 300px
 
    Our armature in Envelope visualization, in Pose Mode.

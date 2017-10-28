@@ -14,7 +14,7 @@ properties are shown in the *Bone* tab of the Properties editor.
 This shows different panels used to control features of each selected bone;
 the panels change depending on which mode you are working in.
 
-.. figure:: /images/rigging_armatures_bones_properties_properties-editor.png
+.. figure:: /images/rigging_armatures_bones_properties_introduction_properties-editor.png
 
    The Bone tab.
 
@@ -31,7 +31,7 @@ Transform
 
 .. Todo, images are the same
 
-.. figure:: /images/rigging_armatures_bones_properties_transform-panel-edit.png
+.. figure:: /images/rigging_armatures_bones_properties_introduction_transform-panel-edit.png
 
    The Transform panel (edit mode).
 
@@ -39,7 +39,7 @@ When in edit mode you can use this panel to control position and roll of individ
 
 When in pose mode you can only set location for the main bone, and you can now set rotation and scale.
 
-.. figure:: /images/rigging_armatures_bones_properties_transform-panel-pose.png
+.. figure:: /images/rigging_armatures_bones_properties_introduction_transform-panel-pose.png
 
    The Transform panel (pose mode).
 
@@ -51,7 +51,7 @@ When in pose mode you can only set location for the main bone, and you can now s
 Transform Locks
 ===============
 
-.. figure:: /images/rigging_armatures_bones_properties_transform-locks-panel.png
+.. figure:: /images/rigging_armatures_bones_properties_introduction_transform-locks-panel.png
 
    The Transform Locks panel.
 
@@ -66,7 +66,7 @@ rotation and scale by axis on each bone in the armature.
 Inverse Kinematics
 ==================
 
-.. figure:: /images/rigging_armatures_bones_properties_inverse-kinematics-panel.png
+.. figure:: /images/rigging_armatures_bones_properties_introduction_inverse-kinematics-panel.png
 
    The Inverse Kinematics panel.
 

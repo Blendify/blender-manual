@@ -3,7 +3,7 @@
 Deform
 ******
 
-.. figure:: /images/rigging_armatures_bones_properties_deform-panel.png
+.. figure:: /images/rigging_armatures_bones_properties_deform_panel.png
 
    The Deform panel.
 
@@ -22,7 +22,7 @@ parented to the armature using the *Armature Deform* tool with the "With Automat
 Envelope
 ========
 
-.. figure:: /images/rigging_armatures_bones_introduction_envelope-edit-mode.png
+.. figure:: /images/rigging_armatures_bones_structure_envelope-edit-mode.png
    :align: right
    :figwidth: 180px
 
@@ -47,7 +47,7 @@ Distance
    has an influence on vertices of the deformed object.
    The geometry is less and less affected by the bone as it goes away by following a quadratic decay.
 
-   .. figure:: /images/rigging_armatures_parenting_envelope-distance.png
+   .. figure:: /images/rigging_armatures_bones_properties_deform_envelope-distance.png
 
       Single bone with various different envelope sizes.
 
@@ -56,14 +56,14 @@ Weight
    when using the envelopes method.
 
    It is only useful for the parts of geometry that are "shared",
-   influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
+   influenced by more than one bone (generally, at the joints...) -- a bone with a high weight will
    have more influence on the result than one with a low weight...
    Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
 Radius
    Set the radius for the head and the tail of envelope bones.
    Inside this volume, the geometry if fully affected by the bone.
 
-   .. figure:: /images/rigging_armatures_parenting_envelope-radius.png
+   .. figure:: /images/rigging_armatures_bones_properties_deform_envelope-radius.png
 
       Three Armature Bones all using Envelope Weight.
 

@@ -12,7 +12,7 @@ Introduction
 Let us first have a general overview of the various panels gathering the armature settings,
 in Properties editor, *Object* tab:
 
-.. figure:: /images/rigging_armatures_properties_properties-editor.png
+.. figure:: /images/rigging_armatures_properties_introduction_properties-editor.png
 
    The Object property in the Properties editor.
 
@@ -35,7 +35,7 @@ Motion Paths
 Inverse Kinematics
 ==================
 
-.. figure:: /images/rigging_armatures_properties_inverse-kinematics-panel.png
+.. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
 
    The Inverse Kinematics panel.
 
