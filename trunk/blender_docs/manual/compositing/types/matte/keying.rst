@@ -4,7 +4,7 @@
 Keying Node
 ***********
 
-.. figure:: /images/compositing_nodes_matte_keying.png
+.. figure:: /images/compositing_types_matte_keying_node.png
    :align: right
 
    Keying Node.

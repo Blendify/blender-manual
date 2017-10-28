@@ -4,7 +4,7 @@
 Flip Node
 *********
 
-.. figure:: /images/compositing_nodes_distort_flip.png
+.. figure:: /images/compositing_types_distort_flip_node.png
    :align: right
 
    Flip Node.

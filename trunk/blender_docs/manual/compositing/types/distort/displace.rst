@@ -4,7 +4,7 @@
 Displace Node
 *************
 
-.. figure:: /images/compositing_nodes_distort_displace.png
+.. figure:: /images/compositing_types_distort_displace_node.png
    :align: right
 
    Displace Node.

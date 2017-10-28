@@ -4,7 +4,7 @@
 Blur Node
 *********
 
-.. figure:: /images/compositing_nodes_filter_blur.png
+.. figure:: /images/compositing_types_filter_blur-node_node.png
    :align: right
 
    Blur Node.
@@ -76,7 +76,7 @@ Image
 Example
 =======
 
-.. figure:: /images/compositing_nodes_filter_blur_example.jpg
+.. figure:: /images/compositing_types_filter_blur-node_example.jpg
 
    Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
 

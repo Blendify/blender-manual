@@ -4,7 +4,7 @@
 Crop Node
 *********
 
-.. figure:: /images/compositing_nodes_distort_crop.png
+.. figure:: /images/compositing_types_distort_crop_node.png
    :align: right
 
    Crop Node.

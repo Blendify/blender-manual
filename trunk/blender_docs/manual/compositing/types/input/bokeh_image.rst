@@ -4,7 +4,7 @@
 Bokeh Image Node
 ****************
 
-.. figure:: /images/compositing_nodes_input_bokeh-image.png
+.. figure:: /images/compositing_types_input_bokeh-image_node.png
    :align: right
 
    Bokeh Image Node.
@@ -54,6 +54,6 @@ Example
 In the example below the *Bokeh Image* is used to define the shape of the bokeh for the
 :doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` node.
 
-.. figure:: /images/compositing_nodes_bokeh_image_example.jpg
+.. figure:: /images/compositing_types_input_bokeh-image_example.jpg
 
    Example of *Bokeh* Image node.

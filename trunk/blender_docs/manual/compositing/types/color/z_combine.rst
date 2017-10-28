@@ -4,7 +4,7 @@
 Z-Combine Node
 **************
 
-.. figure:: /images/compositing_nodes_color_z-combine.png
+.. figure:: /images/compositing_types_color_z-combine_node.png
    :align: right
 
    Z Combine Node.
@@ -53,7 +53,7 @@ Z
 Examples
 ========
 
-.. figure:: /images/compositing_nodes_color_z-combine_example-1.png
+.. figure:: /images/compositing_types_color_z-combine_example-1.png
    :width: 700px
 
    Choosing closest pixels.
@@ -77,7 +77,7 @@ moves to the right created the illusion of depth as Bambi moved through the fore
    Z Input Sockets do not accept fixed values; they must get a vector set (see Map Value node).
    Image Input Sockets will not accept a color since it does not have UV coordinates.
 
-.. figure:: /images/compositing_nodes_color_z-combine_example-2.png
+.. figure:: /images/compositing_types_color_z-combine_example-2.png
    :width: 700px
 
    Mix and Match Images.
@@ -87,7 +87,7 @@ using the Z-values put out by two render layers.
 Using the Z-values from the sphere and cube scenes above, but threading different images,
 yields the example to the right.
 
-.. figure:: /images/compositing_nodes_color_z-combine_example-3.png
+.. figure:: /images/compositing_types_color_z-combine_example-3.png
    :width: 700px
 
    Z-Combine in action.

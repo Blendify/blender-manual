@@ -4,7 +4,7 @@
 Box Mask Node
 *************
 
-.. figure:: /images/compositing_nodes_matte_box-mask.png
+.. figure:: /images/compositing_types_matte_box-mask_node.png
    :align: right
 
    Box Mask Node.

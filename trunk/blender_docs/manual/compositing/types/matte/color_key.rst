@@ -4,7 +4,7 @@
 Color Key Node
 **************
 
-.. figure:: /images/compositing_nodes_matte_color-key.png
+.. figure:: /images/compositing_types_matte_color-key_node.png
    :align: right
 
    Color Key Node.

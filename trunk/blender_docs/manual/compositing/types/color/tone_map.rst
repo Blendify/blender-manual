@@ -4,7 +4,7 @@
 Tone Map Node
 *************
 
-.. figure:: /images/compositing_nodes_color_tone-map.png
+.. figure:: /images/compositing_types_color_tone-map_node.png
    :align: right
 
    Tone Map Node.

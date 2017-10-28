@@ -5,7 +5,7 @@
 Defocus Node
 ************
 
-.. figure:: /images/compositing_nodes_filter_defocus.png
+.. figure:: /images/compositing_types_filter_defocus_node.png
    :align: right
 
    Defocus Node.
@@ -82,7 +82,7 @@ Image
 Examples
 ========
 
-.. figure:: /images/compositing_nodes_defocus_example.jpg
+.. figure:: /images/compositing_types_filter_defocus_example.jpg
    :width: 200px
    :figwidth: 200px
 

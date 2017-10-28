@@ -10,7 +10,7 @@
 Math Node
 *********
 
-.. figure:: /images/compositing_nodes_converter_math.png
+.. figure:: /images/compositing_types_converter_math_node.png
    :align: right
 
    Math node.
@@ -53,7 +53,7 @@ Examples
 Manual Z-Mask
 -------------
 
-.. figure:: /images/compositing_nodes_converter_math_manual-z-mask.png
+.. figure:: /images/compositing_types_converter_math_manual-z-mask.png
 
    Example.
 

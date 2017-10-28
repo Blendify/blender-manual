@@ -9,7 +9,7 @@
 Invert Node
 ***********
 
-.. figure:: /images/compositing_nodes_color_invert.png
+.. figure:: /images/compositing_types_color_invert_node.png
    :align: right
 
    Invert Node.

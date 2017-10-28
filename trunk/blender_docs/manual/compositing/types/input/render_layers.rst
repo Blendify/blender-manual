@@ -4,7 +4,7 @@
 Render Layers Node
 ******************
 
-.. figure:: /images/compositing_nodes_input_render-layers.png
+.. figure:: /images/compositing_types_input_render-layers_node.png
    :align: right
 
    Render Layers Node.

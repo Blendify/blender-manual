@@ -33,7 +33,7 @@ Views Setup
 
 Go to the :doc:`Render Layers </render/post_process/layers>` panel and enable *Views* for this scene.
 
-.. figure:: /images/render_workflows_multiview_views-panel.png
+.. figure:: /images/render_workflows_multiview_usage_views-panel.png
 
    Scene Render Views.
 
@@ -55,7 +55,7 @@ In the Camera panel go to the Stereoscopy tab and change the *Convergence Distan
 
 The viewport will respond in real-time to those changes allowing you to preview the current depth value of the scene.
 
-.. figure:: /images/render_workflows_multiview_camera-stereoscopy-panel.png
+.. figure:: /images/render_workflows_multiview_usage_camera-stereoscopy-panel.png
 
    Stereo Convergence Distance.
 
@@ -113,7 +113,7 @@ Image Formats
 Your final animation can be saved in more robust formats than the ones used by the OpenGL render preview.
 In this example we saved as cross-eyed side-by-side stereo 3D.
 
-.. figure:: /images/render_workflows_multiview_usage_render_sidebyside.png
+.. figure:: /images/render_workflows_multiview_usage_render-sidebyside.png
 
    Side by Side Cross-Eye Format.
 
@@ -182,7 +182,7 @@ on-the-fly and used for rendering and previsualization.
 For all the purposes this works as two cameras that share most parameters (focal length, clipping, ...).
 The stereo pair, however, is offsetted, and can have unique rotation and shift between itself.
 
-.. figure:: /images/render_workflows_multiview_camera-stereoscopy-panel.png
+.. figure:: /images/render_workflows_multiview_usage_camera-stereoscopy-panel.png
 
    Stereo 3D Camera Settings.
 
@@ -224,7 +224,7 @@ When you enable 'Views' in the Render Layer panel, a new area is available in th
 In this panel you can pick whether to see the stereo 3D in the viewport, or which camera to see.
 It also allow you to see the Cameras, the Plane and the Volume of the stereo cameras.
 
-.. figure:: /images/render_workflows_multiview_3d-view-stereoscopy-panel.png
+.. figure:: /images/render_workflows_multiview_usage_3d-view-stereoscopy-panel.png
 
    Viewport Stereo 3D Settings.
 
@@ -293,7 +293,7 @@ View Menu
    the rendered result in the combined stereo 3D or to inspect the individual views.
    This works for Viewer nodes, render results or opened images.
 
-   .. figure:: /images/render_workflows_multiview_image-editor-header.png
+   .. figure:: /images/render_workflows_multiview_usage_image-editor-header.png
 
       Stereo 3D and View menu.
 
@@ -303,7 +303,7 @@ Views Format
    Blender should interpret the image by switching the mode to Stereo 3D,
    turning on Use Multi-View and picking the corresponding stereo method.
 
-   .. figure:: /images/render_workflows_multiview_image-editor-multi-view.png
+   .. figure:: /images/render_workflows_multiview_usage_image-editor-multi-view.png
 
       Views Formats and Stereo 3D.
 

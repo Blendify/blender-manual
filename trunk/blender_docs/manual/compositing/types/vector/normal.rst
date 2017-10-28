@@ -8,7 +8,7 @@
 Normal Node
 ***********
 
-.. figure:: /images/compositing_nodes_vector_normal.png
+.. figure:: /images/compositing_types_vector_normal_node.png
    :align: right
 
    Normal Node.

@@ -9,7 +9,7 @@
 Hue Saturation Value Node
 *************************
 
-.. figure:: /images/compositing_nodes_color_hue-saturation-value.png
+.. figure:: /images/compositing_types_color_hue-saturation_node.png
    :align: right
 
    Hue Saturation Node.
@@ -80,7 +80,7 @@ Changing the effect over time
 HSV Example
 ===========
 
-.. figure:: /images/compositing_nodes_color_hue-saturation_example.jpg
+.. figure:: /images/compositing_types_color_hue-saturation_example.jpg
    :width: 700px
 
    A basic example.

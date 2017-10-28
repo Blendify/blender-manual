@@ -4,7 +4,7 @@
 Vector (Motion) Blur Node
 *************************
 
-.. figure:: /images/compositing_nodes_filter_vector-blur.png
+.. figure:: /images/compositing_types_filter_vector-blur_node.png
    :align: right
 
    Vector Blur Node.

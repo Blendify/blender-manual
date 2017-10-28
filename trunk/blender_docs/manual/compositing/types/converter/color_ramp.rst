@@ -6,7 +6,7 @@
 Color Ramp Node
 ***************
 
-.. figure:: /images/compositing_nodes_converter_color-ramp.png
+.. figure:: /images/compositing_types_converter_color-ramp_node.png
    :align: right
 
    Color Ramp Node.
@@ -48,7 +48,7 @@ or a mask that is overlaid on top of another image, and, like a mask,
 allows some of the background to show through.
 The example map below shows how to use the Color Ramp node to do this:
 
-.. figure:: /images/compositing_nodes_converter_color-ramp_create-alpha-mask.png
+.. figure:: /images/compositing_types_converter_color-ramp_create-alpha-mask.png
    :width: 600px
 
    Using the Color Ramp node to create an alpha mask.
@@ -75,7 +75,7 @@ Colorizing an Image
 The real power of Color Ramp is that multiple colors can be added to the color spectrum.
 This example compositing map takes a boring BW image and makes it a flaming swirl!
 
-.. figure:: /images/compositing_nodes_converter_color-ramp_colorizing-image.png
+.. figure:: /images/compositing_types_converter_color-ramp_colorizing-image.png
    :width: 600px
 
 In this example, we have mapped the shades of gray in the input image to three colors, blue,

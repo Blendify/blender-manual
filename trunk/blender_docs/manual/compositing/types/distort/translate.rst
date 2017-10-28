@@ -4,7 +4,7 @@
 Translate Node
 **************
 
-.. figure:: /images/compositing_nodes_distort_translate.png
+.. figure:: /images/compositing_types_distort_translate_node.png
    :align: right
 
    Translate Node.

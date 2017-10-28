@@ -3,7 +3,7 @@
 Corner Pin Node
 ***************
 
-.. figure:: /images/compositing_nodes_distort_corner-pin.png
+.. figure:: /images/compositing_types_distort_corner-pin_node.png
    :align: right
 
    Corner Pin Node.
@@ -40,7 +40,7 @@ Plane
 Example
 =======
 
-.. figure:: /images/compositing_nodes_connerpin_example.png
+.. figure:: /images/compositing_types_distort_corner-pin_example.png
 
    An example of the Corner Pin node.
 

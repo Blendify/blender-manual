@@ -9,7 +9,7 @@
 RGB to BW Node
 **************
 
-.. figure:: /images/compositing_nodes_converter_rgb-to-bw.png
+.. figure:: /images/compositing_types_converter_rgb-to-bw_node.png
    :align: right
 
    RGB to BW Node.

@@ -4,7 +4,7 @@
 Mask Node
 *********
 
-.. figure:: /images/compositing_nodes_input_mask.png
+.. figure:: /images/compositing_types_input_mask_node.png
    :align: right
 
    Mask Node.
