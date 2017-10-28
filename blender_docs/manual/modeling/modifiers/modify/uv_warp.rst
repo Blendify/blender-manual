@@ -13,7 +13,7 @@ allowing you to directly translate, rotate and scale existing UV coordinates usi
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_modify_uvwarp.png
+.. figure:: /images/modeling_modifiers_modify_uv-warp_panel.png
 
 UV Center
    The center point of the UV map to use when applying scale or rotation.

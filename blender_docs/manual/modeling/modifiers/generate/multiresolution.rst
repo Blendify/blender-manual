@@ -21,7 +21,7 @@ but also allows you to edit the new subdivision levels in sculpt mode.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_multiresolution.png
+.. figure:: /images/modeling_modifiers_generate_multiresolution_panel.png
 
    Multiresolution Modifier.
 

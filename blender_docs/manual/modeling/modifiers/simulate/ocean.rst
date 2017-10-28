@@ -14,7 +14,7 @@ The *Ocean Modifier* is a port from the open source Houdini Ocean Toolkit.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_simulate_ocean.png
+.. figure:: /images/modeling_modifiers_simulate_ocean_panel.png
    :width: 240px
 
    Ocean Modifier.
@@ -102,7 +102,7 @@ Wind Velocity
 Simulation Data Generation Options
 ----------------------------------
 
-.. figure:: /images/modeling_modifiers_simulate_ocean_foam_layer_name.jpg
+.. figure:: /images/modeling_modifiers_simulate_ocean_foam-layer-name.jpg
    :width: 240px
 
    Using foam vertex colors with a named data layer.

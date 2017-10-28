@@ -23,7 +23,7 @@ making it quite useful for creators of game content.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_edge-split.png
+.. figure:: /images/modeling_modifiers_generate_edge-split_panel.png
 
    Edge Split Modifier.
 

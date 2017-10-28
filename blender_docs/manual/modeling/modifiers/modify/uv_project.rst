@@ -4,7 +4,7 @@
 UV Project Modifier
 *******************
 
-.. figure:: /images/modeling_modifiers_modify_uvproject_example.jpg
+.. figure:: /images/modeling_modifiers_modify_uv-project_example.jpg
    :align: center
    :width: 350px
 
@@ -21,7 +21,7 @@ and applies it to the object as the "light" hits it. It can optionally override 
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_modify_uvproject.png
+.. figure:: /images/modeling_modifiers_modify_uv-project_panel.png
 
 UV Map
    Which UV map to modify. Defaults to the active rendering layer.

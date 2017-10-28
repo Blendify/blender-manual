@@ -19,7 +19,7 @@ arbitrary topology.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_skin.jpg
+.. figure:: /images/modeling_modifiers_generate_skin_panel.jpg
    :width: 300px
 
    Skin Modifier.
