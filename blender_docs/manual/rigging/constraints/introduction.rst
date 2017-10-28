@@ -39,7 +39,7 @@ in the :doc:`Armature chapter </rigging/armatures/posing/bone_constraints/index>
 
 Constraints work in combination with each other to form a Constraint Stack.
 
-.. figure:: /images/rigging_constraints_introduction_stack.png
+.. figure:: /images/rigging_constraints_introduction_stack_example.png
 
    The Constraint Stack is evaluated from top to bottom.
 

@@ -22,7 +22,7 @@ and rotation based on location setups.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_transform_transformation.png
+.. figure:: /images/rigging_constraints_transform_transformation_panel.png
 
    Transformation panel.
 

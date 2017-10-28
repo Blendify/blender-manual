@@ -4,7 +4,7 @@
 Follow Track Constraint
 ***********************
 
-.. figure:: /images/rigging_constraints_motion-tracking_follow-track.png
+.. figure:: /images/rigging_constraints_motion-tracking_follow-track_panel.png
 
    Follow Track Constraint panel.
 

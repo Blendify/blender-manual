@@ -14,7 +14,7 @@ It was originally intended for foot rigs.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_relationship_pivot.png
+.. figure:: /images/rigging_constraints_relationship_pivot_panel.png
 
    Pivot panel.
 

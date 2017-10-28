@@ -18,7 +18,7 @@ This constraint is fully documented in the
 Options
 =======
 
-.. figure:: /images/rigging_constraints_tracking_ik-solver.png
+.. figure:: /images/rigging_constraints_tracking_ik-solver_panel.png
 
    Inverse Kinematics panel.
 

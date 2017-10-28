@@ -20,7 +20,7 @@ when it filmed the video footage, relative to the thing being tracked.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_motion-tracking_camera-solver.png
+.. figure:: /images/rigging_constraints_motion-tracking_camera-solver_panel.png
 
    Camera Solver Constraint panel.
 
