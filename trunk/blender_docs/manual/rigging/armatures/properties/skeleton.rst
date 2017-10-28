@@ -3,7 +3,7 @@
 Skeleton
 ********
 
-.. figure:: /images/rigging_armatures_properties_skeleton-panel.png
+.. figure:: /images/rigging_armatures_properties_skeleton_panel.png
 
    The Skeleton panel.
 

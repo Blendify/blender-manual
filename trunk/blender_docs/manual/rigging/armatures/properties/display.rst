@@ -23,22 +23,22 @@ Blender has four basic bone visualization: Octahedral, Stick, B-Bone, Envelope a
 
 .. list-table::
 
-   * - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-1.png
+   * - .. figure:: /images/rigging_armatures_properties_display_octahedral.png
           :width: 320px
 
           Octahedral bone display.
 
-     - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-2.png
+     - .. figure:: /images/rigging_armatures_properties_display_stick.png
           :width: 320px
 
           Stick bone display.
 
-   * - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-3.png
+   * - .. figure:: /images/rigging_armatures_properties_display_b-bone.png
           :width: 320px
 
           B-Bone bone display.
 
-     - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-4.png
+     - .. figure:: /images/rigging_armatures_properties_display_envelope.png
           :width: 320px
 
           Envelope bone display.
@@ -50,7 +50,7 @@ Octahedral bone
    - The bone "size" (its thickness is proportional to its length).
    - The bone roll (as it has a square section).
 
-   .. figure:: /images/rigging_armatures_visualization_type-octahedral.png
+   .. figure:: /images/rigging_armatures_properties_display_type-octahedral.png
       :width: 300px
 
       Note the 40° rolled Bone.001 bone.
@@ -60,7 +60,7 @@ Stick bone
    It just materializes bones by sticks of constant (and small) thickness,
    so it gives you no information about root and tip, nor bone size or roll angle.
 
-   .. figure:: /images/rigging_armatures_visualization_type-stick.png
+   .. figure:: /images/rigging_armatures_properties_display_type-stick.png
       :width: 300px
 
       Note that Bone.001 roll angle is not visible (except by its XZ axes).
@@ -71,12 +71,12 @@ B-Bone bone
 
    .. list-table::
 
-      * - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
+      * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-1.png
              :width: 320px
 
              An armature of B-Bones, in Edit Mode.
 
-        - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-3.png
+        - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-3.png
              :width: 320px
 
              The same armature in Object Mode.
@@ -85,7 +85,7 @@ Envelope bone
    This visualization materializes the bone deformation influence.
    More on this in the :ref:`bone page <armature-bone-influence>`.
 
-   .. figure:: /images/rigging_armatures_bones_introduction_envelope-pose-mode.png
+   .. figure:: /images/rigging_armatures_bones_structure_envelope-pose-mode.png
       :width: 300px
 
 Wire bone
@@ -93,12 +93,12 @@ Wire bone
 
    .. list-table::
 
-      * - .. figure:: /images/rigging_armatures_visualization_type-wire-pose-mode.png
+      * - .. figure:: /images/rigging_armatures_properties_display_type-wire-pose-mode.png
              :width: 320px
 
              An armature of Wire, in Pose Mode.
 
-        - .. figure:: /images/rigging_armatures_visualization_type-wire-edit-mode.png
+        - .. figure:: /images/rigging_armatures_properties_display_type-wire-edit-mode.png
              :width: 320px
 
              The same armature in Edit Mode.

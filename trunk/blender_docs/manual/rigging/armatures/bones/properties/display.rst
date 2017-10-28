@@ -9,7 +9,7 @@ Display Panel
    | Mode:     Object and Pose Mode
    | Panel:    :menuselection:`Bone --> Display`
 
-.. figure:: /images/rigging_armatures_visualization_custom-shape-field.png
+.. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-field.png
 
    The Display panel.
 
@@ -54,7 +54,7 @@ To assign a custom shape to a bone, you have to:
 #. Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
    in this example we are using a cube and a cone. You can optionally set the *At* field to another bone.
 
-.. figure:: /images/rigging_armatures_visualization_custom-shape-example.png
+.. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-example.png
 
    The armature with shape assigned to bone. Note the center of the Cone object.
 
