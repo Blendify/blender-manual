@@ -23,7 +23,7 @@ Brush Type
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Brush`
    | Menu:     :menuselection:`Brush --> Sculpt Tool`
 
-.. figure:: /images/sculpt-paint_sculpting_options_brushes.png
+.. figure:: /images/sculpt-paint_sculpting_tools_brushes.png
 
    Sculpt brushes.
 

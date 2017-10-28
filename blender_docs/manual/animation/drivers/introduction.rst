@@ -96,7 +96,7 @@ ToDo.
 Graph View
 ===========
 
-.. figure:: /images/animation_driver_fcurve.png
+.. figure:: /images/animation_drivers_introduction_fcurve.png
    :align: right
 
    Graph Editor: Driver example.

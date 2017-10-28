@@ -3,7 +3,7 @@
 Drivers Panel
 *************
 
-.. figure:: /images/animation_panel_drivers.png
+.. figure:: /images/animation_drivers_drivers-panel_panel.png
    :align: right
 
    Drivers Panel.
@@ -56,11 +56,11 @@ Driver Variables
 
 .. list-table::
 
-   * - .. figure:: /images/animation_driver_transform_channel2.png
+   * - .. figure:: /images/animation_drivers_drivers-panel_transform-channel2.png
 
           Transform Channel Setup.
 
-     - .. figure:: /images/animation_driver_distance.png
+     - .. figure:: /images/animation_drivers_drivers-panel_distance.png
 
           Distance Setup.
 
@@ -116,7 +116,7 @@ Value
 Example
 ^^^^^^^^^^
 
-.. figure:: /images/animation_driver_single_property.jpg
+.. figure:: /images/animation_drivers_drivers-panel_single-property.jpg
 
    Setup of a Single Property.
 

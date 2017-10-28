@@ -18,7 +18,7 @@ Relative Shape Keys
 In the figure below, from left to right shows: "Basis", "Key 1", "Key 2"
 and mix ("Key 1" ``1.0`` and "Key 2" ``0.8``) shape keys in Object Mode.
 
-.. figure:: /images/animation_shape-keys_workflow-relative.png
+.. figure:: /images/animation_shape-keys_workflow_relative.png
 
    Relative Shape Keys example.
 
@@ -32,7 +32,7 @@ Absolute Shape Keys
 #. Switch to *Object Mode*.
 #. Drag *Evaluation Time* to see how the shapes succeed one to the next.
 
-.. figure:: /images/animation_shape-keys_workflow-absolute.png
+.. figure:: /images/animation_shape-keys_workflow_absolute.png
 
    Absolute Shape Keys workflow.
 

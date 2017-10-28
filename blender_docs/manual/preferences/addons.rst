@@ -39,7 +39,7 @@ Enabling and Disabling
 Enable and disable an add-on by checking or unchecking the box on the right of the add-on you chose,
 as shown in the figure.
 
-.. figure:: /images/preferences_addons-enable.png
+.. figure:: /images/preferences_addons_enable.png
 
    Enabling an Add-on.
 

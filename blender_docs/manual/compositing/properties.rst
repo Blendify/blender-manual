@@ -6,7 +6,7 @@ Properties
 Header
 ======
 
-.. figure:: /images/compositing_introduction_header.png
+.. figure:: /images/compositing_properties_header.png
 
    Compositing Specific Options.
 
@@ -30,7 +30,7 @@ Backdrop
 
    | Panel:    :menuselection:`Properties editors --> Backdrop`
 
-.. figure:: /images/compositing_introduction_backdrop.png
+.. figure:: /images/compositing_properties_backdrop.png
    :align: right
 
    Backdrop Options.
@@ -54,7 +54,7 @@ Performance
 
    | Panel:    :menuselection:`Properties editors --> Performance`
 
-.. figure:: /images/compositing_introduction_performance.png
+.. figure:: /images/compositing_properties_performance.png
    :align: right
 
    Performance Settings.

@@ -120,7 +120,7 @@ Filter File Extensions
    (i.e. blend-files when loading a complete Blender setting).
    The selection of file types may be changed in the file region.
 
-   .. figure:: /images/preferences_file-filefilter.png
+   .. figure:: /images/preferences_file_filter.png
 
       File extension filter.
 

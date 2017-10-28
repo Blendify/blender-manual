@@ -94,14 +94,14 @@ This example shows you how to animate a cubes location, rotation, and scale.
 #. Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
 #. Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
 
-.. figure:: /images/animation_keyframes_insert_keyframe_00.png
+.. figure:: /images/animation_keyframes_editing_insert-keyframe0.png
    :width: 500px
 
    Insert Keyframes.
 
 To test the animation, press :kbd:`Alt-A` to play.
 
-.. figure:: /images/animation_keyframes_insert_keyframe_01.png
+.. figure:: /images/animation_keyframes_editing_insert-keyframe1.png
    :width: 500px
 
    The animation on frames 1, 50, 100.

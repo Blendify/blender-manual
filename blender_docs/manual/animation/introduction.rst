@@ -78,7 +78,7 @@ Related Sections
 State Colors
 ============
 
-.. figure:: /images/animation_properties.png
+.. figure:: /images/animation_introduction_state-colors.png
 
    State colors of properties.
 

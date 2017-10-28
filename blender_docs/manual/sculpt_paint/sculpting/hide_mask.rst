@@ -48,7 +48,7 @@ Masks can be edited across the entire model:
 - Fill Mask
 - Clear Mask :kbd:`Alt-M`
 
-.. figure:: /images/sculpt-paint_sculpting_hide-mask.jpg
+.. figure:: /images/sculpt-paint_sculpting_hide-mask_example.jpg
 
    Black part (hair) is masked.
 

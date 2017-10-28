@@ -89,7 +89,7 @@ The mirror only takes place within the selected Vertex Group.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror_options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror-options.jpg
 
    Mirror Options.
 
@@ -135,7 +135,7 @@ Options
 
 .. _fig-paint-weight-tools-mirror:
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert_options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert-options.jpg
 
    Invert Options.
 
@@ -171,7 +171,7 @@ Weights are shown in Black.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean_options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean-options.jpg
 
    Clean Options.
 
@@ -213,7 +213,7 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels_options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels-options.jpg
 
    Levels Options.
 
@@ -239,7 +239,7 @@ Smooth
 Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth_ex1.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-ex1.png
 
 To understand what the tool really does, let us take a look at a simple example.
 The selected vertex is connected to four adjacent vertices
@@ -255,7 +255,7 @@ This value is multiplied by the factor given in the Operator options (see below)
 - If the factor is 1.0 then the calculated average weight is taken (0.25 here).
 - Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth_ex2.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-ex2.png
 
 Now let us see what happens when we select all but one of the neighbors of the selected vertex as
 well. Again all connected and unselected vertices are marked with a gray circle.
@@ -278,7 +278,7 @@ then we see different results for each of the selected vertices:
   So the average weight is 0, thus the selected vertex color has not changed at all
   (it was already blue before Smooth was applied).
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth_ex3.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-ex3.png
 
 Finally let us look at a practical example.
 The middle edge loop has been selected
@@ -293,7 +293,7 @@ and it will be used for blending the left side to the right side of the area.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth_options.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-options.png
 
    Smooth Options.
 
@@ -412,7 +412,7 @@ Limit
 Weight Gradient
 ===============
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_tools_weightgradient.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_gradient.png
    :width: 200px
 
    Example of the gradient tool being used with selected vertices.

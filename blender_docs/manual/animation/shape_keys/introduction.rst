@@ -6,7 +6,7 @@ Introduction
 *Shape Keys* are used on Objects like *Mesh*, *Curve*, *Surface*, *Lattice*.
 They are used to animate deform the object vertices into a new shape.
 
-.. figure:: /images/animation_shape-keys_example.png
+.. figure:: /images/animation_shape-keys_introduction_example.png
 
    Example of a mesh with different shape keys applied.
 

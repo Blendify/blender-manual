@@ -18,7 +18,7 @@ Installing Python
 #. Install Python with the installation wizard.
    Please make sure that you enable the "Add Python to Path" option:
    
-   .. figure:: /images/about_contribute_install_windows.png
+   .. figure:: /images/about_contribute_install_windows_installer.png
    
       The Option must be enabled so you can use the command box!   
 

@@ -295,7 +295,7 @@ The triangle above the camera will become shaded when active.
 Workflow
 --------
 
-.. figure:: /images/animation_camera_switch.png
+.. figure:: /images/animation_markers_camera-switch.png
 
 First in the Timeline, add a set of markers used to switch cameras.
 Press :kbd:`M` to add marker, then :kbd:`Ctrl-M` to rename,

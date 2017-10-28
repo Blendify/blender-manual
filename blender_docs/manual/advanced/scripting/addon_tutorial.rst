@@ -184,7 +184,7 @@ This will execute the script directly and call register immediately.
 
 However running the script won't move any objects. For this, you need to execute the newly registered operator.
 
-.. figure:: /images/advanced_scripting_tutorial_spacebar-menu.png
+.. figure:: /images/advanced_scripting_addon-tutorial_spacebar-menu.png
 
    Spacebar Menu.
 
@@ -411,7 +411,7 @@ Add-ons can add to the user interface of existing panels, headers and menus defi
 
 For this example we'll add to an existing menu.
 
-.. figure:: /images/advanced_scripting_tutorial_menu-id.png
+.. figure:: /images/advanced_scripting_addon-tutorial_menu-id.png
 
    Menu Identifier
 
@@ -554,13 +554,13 @@ Bringing it all together
    if __name__ == "__main__":
        register()
 
-.. figure:: /images/advanced_scripting_tutorial_in-menu.png
+.. figure:: /images/advanced_scripting_addon-tutorial_in-menu.png
 
    In the menu.
 
 Run the script (or save it and add it through the Preferences like before) and it will appear in the menu.
 
-.. figure:: /images/advanced_scripting_tutorial_op-prop.png
+.. figure:: /images/advanced_scripting_addon-tutorial_op-prop.png
 
    Operator Property.
 

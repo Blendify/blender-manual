@@ -91,7 +91,7 @@ Remove ``X``
 Sub IDs
 -------
 
-.. figure:: /images/interface_controls_templates_data_subids.png
+.. figure:: /images/interface_controls_templates_data-block_subids.png
 
 Vertex Group
    If the selected object in the *Name* field is a mesh or a lattice,

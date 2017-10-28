@@ -17,7 +17,7 @@ Themes use Blender's preset system to save a theme.
 This will save the theme to an XML file in the ``./scripts/presets/interface_theme/`` subdirectory of one of the
 :doc:`configuration directories </getting_started/installing/configuration/directories>`.
 
-.. figure:: /images/preferences_theme_example.png
+.. figure:: /images/preferences_themes_example.png
 
    Blender comes bundled with a small selection of themes.
 
