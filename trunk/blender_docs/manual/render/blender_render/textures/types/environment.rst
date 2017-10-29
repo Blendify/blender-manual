@@ -51,7 +51,7 @@ Options
 
 .. _fig-bi-environment-panel:
 
-.. figure:: /images/render_blender-render_textures_environment-map.png
+.. figure:: /images/render_blender-render_textures_types_environment_map-panel.png
 
    Reflecting plane Environment Map settings.
 
@@ -137,7 +137,7 @@ Clipping Start/End
 Environment Map Sampling
 ------------------------
 
-.. figure:: /images/render_blender-render_textures_environment-map-sampling.png
+.. figure:: /images/render_blender-render_textures_types_environment_map-sampling.png
 
    Environment Map Sampling.
 

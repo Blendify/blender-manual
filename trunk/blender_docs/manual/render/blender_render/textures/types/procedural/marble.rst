@@ -7,7 +7,7 @@ Marble
 The marble texture is used to generate marble, fire, or noise with a structure.
 Bands are generated based on the sine, saw, or triangular formula and noise turbulence.
 
-.. figure:: /images/render_blender-render_textures_procedural_marble.png
+.. figure:: /images/render_blender-render_textures_types_procedural_marble_panel.png
 
    Marble Texture Panels.
 

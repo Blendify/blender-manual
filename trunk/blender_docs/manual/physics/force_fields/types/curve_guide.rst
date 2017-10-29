@@ -3,7 +3,7 @@
 Curve Guide
 ***********
 
-.. figure:: /images/physics_force-fields_types_curve_example.png
+.. figure:: /images/physics_force-fields_types_curve-guide_example.png
 
    Curve Guide force field.
 
@@ -36,7 +36,7 @@ But you can limit their influence radius by changing there *Minimum Distance* (s
 Options
 =======
 
-.. figure:: /images/physics_force-field_types_curve-guide.jpg
+.. figure:: /images/physics_force-fields_types_curve-guide_panel.jpg
    :width: 400px
 
    UI for a Curve Guide force field.
@@ -101,7 +101,7 @@ Type
 
 It is not so easy to describe the resulting shapes, so have a look at the example below.
 
-.. figure:: /images/physics_force-field_types_curve-guide_kink.jpg
+.. figure:: /images/physics_force-fields_types_curve-guide_kink.jpg
    :width: 400px
 
    Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.

@@ -18,7 +18,7 @@ can be visualized using a color/alpha ramp gradient.
 Options
 =======
 
-.. figure:: /images/render_blender-render_textures_volume_point-density.png
+.. figure:: /images/render_blender-render_textures_types_volume_point-density_panel.png
 
    Point Density panel.
 
@@ -109,7 +109,7 @@ Color Source
 Turbulence
 ----------
 
-.. figure:: /images/render_blender-render_textures_volume_point-density-turbulence.png
+.. figure:: /images/render_blender-render_textures_types_volume_point-density_turbulence.png
 
    Turbulence panel.
 

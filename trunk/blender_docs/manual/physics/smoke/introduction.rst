@@ -8,7 +8,7 @@ Smoke simulation is used to simulate the fluid movement of air and generate anim
 textures representing the density, heat, and velocity of other fluids or suspended particles
 (i.e. smoke) which can be used for rendering.
 
-.. figure:: /images/physics_smoke_type_domain_note-on-resolution.jpg
+.. figure:: /images/physics_smoke_types_domain_note-on-resolution.jpg
 
    Example of smoke simulation.
 

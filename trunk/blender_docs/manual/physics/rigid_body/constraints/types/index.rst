@@ -9,7 +9,7 @@
 
    fixed.rst
    point.rst
-   hidge.rst
+   hinge.rst
    slider.rst
    piston.rst
    generic.rst

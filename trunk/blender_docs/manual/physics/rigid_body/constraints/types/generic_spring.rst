@@ -4,7 +4,7 @@
 Generic Spring
 **************
 
-.. figure:: /images/physics_rigid-body_constraints_hinge.png
+.. figure:: /images/physics_rigid-body_constraints_types_hinge_panel-example.png
    :width: 500px
 
    Options available to a *Generic Spring* constraint.

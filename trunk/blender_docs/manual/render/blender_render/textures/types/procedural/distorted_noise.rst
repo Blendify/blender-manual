@@ -7,7 +7,7 @@ Distorted Noise
 *Distortion Noise* takes the option that you pick from *Noise Basis* and filters it, to create hybrid pattern.
 It is often used for grunge but is also very complex and versatile.
 
-.. figure:: /images/render_blender-render_textures_procedural_distorted-noise.png
+.. figure:: /images/render_blender-render_textures_types_procedural_distorted-noise_panel.png
 
    Distorted Noise Texture Panels.
 

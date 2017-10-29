@@ -20,12 +20,12 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_texture_image_bahnhofstrasse.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_image_options_bahnhofstrasse.jpg
           :width: 320px
 
           Background image.
 
-     - .. figure:: /images/render_blender-render_texture_image_map-to-eingabewerte.png
+     - .. figure:: /images/render_blender-render_textures_types_image_options_map-to-eingabewerte.png
           :width: 320px
 
           Foreground image.
@@ -38,12 +38,12 @@ the horizontal bar has 50% alpha.
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_texture_image_usealpha.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_image_options_usealpha.jpg
           :width: 320px
 
           Foreground image with *Use* alpha. The alpha values of the pixels are evaluated.
 
-     - .. figure:: /images/render_blender-render_texture_image_calcalpha.jpg
+     - .. figure:: /images/render_blender-render_textures_types_image_options_calcalpha.jpg
           :width: 320px
 
           Foreground image with *Calculate* alpha.
@@ -68,7 +68,7 @@ Alpha
 Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
 
-.. figure:: /images/render_blender-render_textures_image_options_image-sampling-panel.png
+.. figure:: /images/render_blender-render_textures_types_image_options_image-sampling-panel.png
 
    Image Sampling panel.
 
@@ -163,7 +163,7 @@ Filter
 Image Mapping
 =============
 
-.. figure:: /images/render_blender-render_textures_image_options_image-mapping-panel.png
+.. figure:: /images/render_blender-render_textures_types_image_options_image-mapping-panel.png
 
    Image Mapping panel.
 

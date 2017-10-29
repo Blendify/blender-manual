@@ -17,7 +17,7 @@ which is a common format for medical volume data such as CT scans.
 Settings
 ========
 
-.. figure:: /images/render_blender-render_textures_volume_voxel-data.png
+.. figure:: /images/render_blender-render_textures_types_volume_voxel-data_panel.png
 
    Voxel Data panel.
 

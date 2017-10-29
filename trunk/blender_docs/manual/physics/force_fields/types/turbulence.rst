@@ -3,7 +3,7 @@
 Turbulence
 **********
 
-.. figure:: /images/physics_force-field_types_empty.png
+.. figure:: /images/physics_force-fields_introduction_empty.png
 
    Turbulence force field.
 
@@ -14,7 +14,7 @@ similar to jets of water or geysers under the ocean.
 Options
 =======
 
-.. figure:: /images/physics_force-field_types_turbulence.jpg
+.. figure:: /images/physics_force-fields_types_turbulence_panel.jpg
 
    UI for a Turbulence force field.
 
