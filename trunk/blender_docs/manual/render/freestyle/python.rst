@@ -23,7 +23,7 @@ External style module files first need to be loaded in the Text Editor.
 Then the select menu within an entry of the style module stack
 allows you to select a module from the list of loaded style modules.
 
-.. figure:: /images/render_freestyle_python-scripting-mode.png
+.. figure:: /images/render_freestyle_python_scripting-mode.png
 
    A screen capture of a style module (cartoon.py) loaded in the Text Editor (left),
    as well as Freestyle options in the Python Scripting mode in the Render Layers buttons (right).
@@ -34,14 +34,14 @@ the Blender Python API reference manual for the full detail of style module cons
 
 .. list-table::
 
-   * - .. figure:: /images/render_freestyle_python-scripting-mode_example-1.jpg
+   * - .. figure:: /images/render_freestyle_python_scripting-mode-example-1.jpg
           :width: 320px
 
           By T.K. using the Python Scripting mode.
 
           (`File:Turning_Pages.zip <https://wiki.blender.org/index.php/File:Turning_Pages.zip>`__, CC0)
 
-     - .. figure:: /images/render_freestyle_python-scripting-mode_example-2.png
+     - .. figure:: /images/render_freestyle_python_scripting-mode-example-2.png
           :width: 320px
 
           By T.K. using the Python Scripting mode.

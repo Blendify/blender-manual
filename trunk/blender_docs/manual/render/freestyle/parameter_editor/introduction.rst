@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/render_freestyle_parameter-editor-mode.png
+.. figure:: /images/render_freestyle_parameter-editor_introduction_mode.png
 
    Parameter Editor Mode.
 

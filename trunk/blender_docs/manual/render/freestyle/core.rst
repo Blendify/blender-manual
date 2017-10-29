@@ -8,7 +8,7 @@ Core Options
 
    | Panel:    :menuselection:`Properties editor --> Render --> Freestyle`
 
-.. figure:: /images/render_freestyle_core-options.png
+.. figure:: /images/render_freestyle_core_freestyle-panel.png
 
    Freestyle core options.
 

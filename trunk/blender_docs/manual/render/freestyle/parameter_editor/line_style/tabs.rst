@@ -15,7 +15,7 @@ dashed pattern, etc.
 Chaining
 --------
 
-.. figure:: /images/render_freestyle_line-style_stroke_chaining.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-chaining.png
 
    Chaining.
 
@@ -40,7 +40,7 @@ which can be useful for line styles which depend on accurate representation of t
 Splitting
 ---------
 
-.. figure:: /images/render_freestyle_line-style_stroke_splitting.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-splitting.png
 
    Splitting.
 
@@ -63,7 +63,7 @@ Split Dash, Gap
 Sorting
 -------
 
-.. figure:: /images/render_freestyle_line-style_stroke_sorting.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-sorting.png
 
    Sorting.
 
@@ -101,7 +101,7 @@ Sort Order
 Selection
 ---------
 
-.. figure:: /images/render_freestyle_line-style_stroke_selection.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-selection.png
 
    Selection.
 
@@ -116,7 +116,7 @@ Chain Count
 Caps
 ^^^^
 
-.. figure:: /images/render_freestyle_line-style_stroke_caps.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps.png
 
    Line tip caps.
 
@@ -130,7 +130,7 @@ Square
    A square centered on the end point of the line (hence, like the circle,
    the drawn end of the line is slightly extended compared to its computed value).
 
-.. figure:: /images/render_freestyle_line-style_stroke_caps_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps-example.png
 
    Line caps example.
 
@@ -138,7 +138,7 @@ Square
 Dashed Line
 -----------
 
-.. figure:: /images/render_freestyle_line-style_stroke_dashed-line.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-dashed-line.png
 
    Dashes Line UI.
 
@@ -157,7 +157,7 @@ as well as color, alpha and thickness modifiers.
 Color
 =====
 
-.. figure:: /images/render_freestyle_line-style_color.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_color.png
 
    Line Style Color UI.
 
@@ -170,7 +170,7 @@ Base Color
 Alpha
 =====
 
-.. figure:: /images/render_freestyle_line-style_alpha.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_alpha.png
 
    Line Style Alpha UI.
 
@@ -185,7 +185,7 @@ Thickness
 
 In this tab you control the thickness of your strokes.
 
-.. figure:: /images/render_freestyle_line-style_thickness.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_thickness.png
 
 Base Thickness
    The base thickness for this line style.
@@ -212,7 +212,7 @@ Strokes of other edge types are always drawn using the *Center* option.
 Geometry
 ========
 
-.. figure:: /images/render_freestyle_line-style_geometry.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_geometry.png
 
    Line Style Geometry Overall UI.
 
@@ -223,7 +223,7 @@ It contains only the option to add modifiers.
 Texture
 =======
 
-.. figure:: /images/render_freestyle_line-style_texture.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_texture.png
 
    Line Style Texture.
 
