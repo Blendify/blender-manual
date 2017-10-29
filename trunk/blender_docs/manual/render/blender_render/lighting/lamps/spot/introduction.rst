@@ -57,7 +57,7 @@ with extra capabilities such as transparent shadows, although they are quite slo
 No Shadow
    Choose this to turn shadows off for this spot lamp.
    This can be useful to add some discreet directed light to a scene.
-Buffer Shadow
+Buffered Shadow
    *Buffered Shadows* are also known as depth map shadows.
    Shadows are created by calculating differences in the distance from the light to scene objects.
    See :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`

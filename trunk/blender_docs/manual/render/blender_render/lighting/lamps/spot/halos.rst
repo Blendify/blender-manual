@@ -17,7 +17,7 @@ for more information about what it means.
 Halo
    The *Halo* button allows a *Spot* lamp to have a volumetric effect applied to it.
    This button must be active if the volumetric effect is to be visible.
-   Note that if you are using buffered shadows, you have extra options described in the
+   Note that if you are using buffered shadows, you will have extra options described in the
    :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>` page.
 
 Intensity
