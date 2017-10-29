@@ -79,7 +79,7 @@ Render
 Effects
 -------
 
-.. figure:: /images/physics_particles_properties_children_round-clump.png
+.. figure:: /images/physics_particles_emitter_children_round-clump.png
 
    From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.
 
@@ -127,7 +127,7 @@ Kink
 
 .. _fig-particle-child-kink:
 
-.. figure:: /images/physics_particles_properties_children_kink.png
+.. figure:: /images/physics_particles_emitter_children_kink.png
 
    Child particles with Kink.
 

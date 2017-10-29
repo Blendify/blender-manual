@@ -103,7 +103,7 @@ and in the 3D View header, select :menuselection:`Object --> Convert Object Type
 Cloth - Object collisions
 -------------------------
 
-.. figure:: /images/physics_collision.png
+.. figure:: /images/physics_collision_panel.png
    :width: 200px
 
    Collision settings.
@@ -130,7 +130,7 @@ soft bodies, and cloth).
 Mesh Object Modifier Stack
 ==========================
 
-.. figure:: /images/physics_cloth_settings_collitions_stack.jpg
+.. figure:: /images/physics_cloth_settings_collisions_stack.jpg
    :width: 200px
 
    Collision stack.
@@ -153,7 +153,7 @@ See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
 Bake Collision
 --------------
 
-.. figure:: /images/physics_cloth_settings_collitions_bake.jpg
+.. figure:: /images/physics_cloth_settings_collisions_bake.jpg
    :width: 200px
 
    After Baking.

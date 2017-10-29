@@ -6,7 +6,7 @@ Introduction
 When set to hair type, particle system creates only static particles,
 which may be used for hair, fur, grass and the like.
 
-.. figure:: /images/physics_particles_hair_example.jpg
+.. figure:: /images/physics_particles_hair_introduction_example.jpg
 
    Particle hair systems example. Used for the grass and fur.
 

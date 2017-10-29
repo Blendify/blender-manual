@@ -63,7 +63,7 @@ Each surface has a "type" that defines what surface is used for.
 Paint
 ^^^^^
 
-.. figure:: /images/physics_dynamic-paint_canvas_surface-type_paint.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_surface-type-paint.jpg
    :width: 320px
 
    Paint Surface.
@@ -87,7 +87,7 @@ Dry
 Displace
 ^^^^^^^^
 
-.. figure:: /images/physics_dynamic-paint_canvas_surface-type_displace.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_surface-type-displace.jpg
    :width: 320px
 
    Displace Surface.
@@ -103,7 +103,7 @@ This type of surface outputs intersection depth from brush objects.
 Waves
 ^^^^^
 
-.. figure:: /images/physics_dynamic-paint_canvas_surface-type_waves.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_surface-type-waves.jpg
    :width: 320px
 
    Waves Surface.
@@ -136,7 +136,7 @@ Spring
 Weight
 ^^^^^^
 
-.. figure:: /images/physics_dynamic-paint_canvas_surface-type_weight.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_surface-type-weight.jpg
    :width: 320px
 
    Weight Surface.

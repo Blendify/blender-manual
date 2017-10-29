@@ -5,7 +5,7 @@
 Boids
 *****
 
-.. figure:: /images/physics_particle_physics_boids.jpg
+.. figure:: /images/physics_particles_emitter_physics_boids_panel.jpg
 
    Boid Physics Settings.
 

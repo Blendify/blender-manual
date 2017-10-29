@@ -46,7 +46,7 @@ There are several ways of doing this including using the Weight Paint tool to pa
 (see the :doc:`/sculpt_paint/painting/weight_paint/index` section of the manual).
 The weight of each vertex in the group controls how strongly it is pinned.
 
-.. figure:: /images/physics_cloth_settings_pin-example_01.png
+.. figure:: /images/physics_cloth_settings_cloth-settings_pin-example1.png
 
    Cloth Pinning.
 

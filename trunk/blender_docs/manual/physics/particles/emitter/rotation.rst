@@ -4,7 +4,7 @@
 Rotation
 ********
 
-.. figure:: /images/physics_particle_rotation.jpg
+.. figure:: /images/physics_particles_emitter_rotation_panel.jpg
 
    Particles rotation settings.
 

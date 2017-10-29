@@ -4,7 +4,7 @@
 Fluid
 *****
 
-.. figure:: /images/physics_particles_properties_physics_fluid_panel.png
+.. figure:: /images/physics_particles_emitter_physics_fluid_panel.png
 
    Fluid Physics Settings.
 

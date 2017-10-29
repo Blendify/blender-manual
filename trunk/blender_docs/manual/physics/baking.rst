@@ -108,7 +108,7 @@ Multiple Caches
 
 Blender allows for storing and managing multiple caches at once for the same physics object.
 
-.. figure:: /images/physics_baking_multi_cache_interface.png
+.. figure:: /images/physics_baking_multi-cache-interface.png
 
    Two different caches stored simultaneously.
 

@@ -3,7 +3,7 @@
 Particle System Panel
 *********************
 
-.. figure:: /images/physics_particle_system_panel.png
+.. figure:: /images/physics_particles_particle-system-panel_panel.png
 
    Particle System Panel.
 
@@ -66,7 +66,7 @@ The process for working with standard particles is:
 Creating a Particle System
 --------------------------
 
-.. figure:: /images/physics_particle_system_createnew.jpg
+.. figure:: /images/physics_particles_particle-system-panel_create-new.jpg
 
    Adding a particle system.
 
@@ -83,7 +83,7 @@ Types of Particle systems
 
 .. _fig-particle-intro-system-type:
 
-.. figure:: /images/physics_particle_system_selecttype.jpg
+.. figure:: /images/physics_particles_particle-system-panel_select-type.jpg
 
    Particle System Types.
 

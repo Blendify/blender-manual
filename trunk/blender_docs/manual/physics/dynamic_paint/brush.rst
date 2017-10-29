@@ -46,7 +46,7 @@ Paint Source setting lets you define how brush influence/intersection is defined
 Mesh Volume
    The Brush affects all surface point inside the mesh volume.
 
-   .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume.png
+   .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume.png
 
       Source: Mesh Volume.
 
@@ -54,7 +54,7 @@ Proximity
    Only uses defined distance to the closest point on brush mesh surface.
    Note that inside of the volume is not necessarily affected because it is not close to the surface.
 
-   .. figure:: /images/physics_dynamic-paint_brush_source_proximity.png
+   .. figure:: /images/physics_dynamic-paint_brush_source-proximity.png
 
       Source: Proximity. Brush affects all canvas pixels around it.
 
@@ -68,19 +68,19 @@ Mesh Volume + Proximity
 
    .. list-table::
 
-      * - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-1.png
+      * - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-1.png
 
              The Volume + Proximity brush with no additional settings.
 
-        - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-2.png
+        - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-2.png
 
              Inner Proximity. Proximity falloff is now visible inside the volume.
 
-      * - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-3.png
+      * - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-3.png
 
              Negate Volume. Inner side of the volume has become completely transparent.
 
-        - .. figure:: /images/physics_dynamic-paint_brush_source_mesh-volume-proximity-4.png
+        - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-4.png
 
              Inner Proximity and Negate Volume enabled together.
 
@@ -88,7 +88,7 @@ Object Center
    Instead of calculating proximity to the brush object mesh, which can be quite slow in some cases,
    only distance to only center is calculated. This is much faster and often good enough.
 
-   .. figure:: /images/physics_dynamic-paint_brush_source_object-center.png
+   .. figure:: /images/physics_dynamic-paint_brush_source-object-center.png
 
       Source: Object Center.
 
@@ -100,7 +100,7 @@ Particle System
    Use Particle Radius
       Smooth Radius
 
-   .. figure:: /images/physics_dynamic-paint_brush_source_particle-system.png
+   .. figure:: /images/physics_dynamic-paint_brush_source-particle-system.png
 
       Source: Particle System.
 
@@ -114,7 +114,7 @@ Project
    Projects brush to the canvas from a defined direction.
    Basically this can be considered as "direction aligned" proximity.
 
-   .. figure:: /images/physics_dynamic-paint_brush_source_project.png
+   .. figure:: /images/physics_dynamic-paint_brush_source-project.png
 
       The Project option enabled. See how brush only affects canvas in normal direction.
 Falloff
