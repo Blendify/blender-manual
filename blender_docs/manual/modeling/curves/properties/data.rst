@@ -6,13 +6,13 @@ Object Data
 The curve properties can be set from the *Object Data* tab
 in the *Properties Header* (shown below in blue).
 
-.. figure:: /images/modeling_curves_properties_header.png
+.. figure:: /images/modeling_curves_properties_data_header.png
 
 
 Shape
 =====
 
-.. figure:: /images/modeling_curves_properties_curves-shape-panel.png
+.. figure:: /images/modeling_curves_properties_data_curves-shape-panel.png
 
    Curves Shape panel.
 
@@ -31,7 +31,7 @@ Resolution
    determines the curve's render resolution. If *Render U* is set to zero (0),
    then the *Preview U* setting is used for both the 3D View and render resolution.
 
-   .. figure:: /images/modeling_curves_shape-resolution.jpg
+   .. figure:: /images/modeling_curves_properties_data_shape-resolution.jpg
 
       Curves with a resolution of 3 (left) and 12 (right).
 
@@ -41,7 +41,7 @@ Twisting
    You can alter how the twist of the curve is calculated by choosing from *Minimum,
    Tangent* and *Z-Up* options from the select menu.
 
-   .. figure:: /images/modeling_curves_shape-twist.jpg
+   .. figure:: /images/modeling_curves_properties_data_shape-twist.jpg
 
       Curves with a twist of minimum (left) and tangent (right).
 
@@ -52,7 +52,7 @@ Fill
    Fill Deformed
       Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
 
-   .. figure:: /images/modeling_curves_shape-fill.jpg
+   .. figure:: /images/modeling_curves_properties_data_shape-fill.jpg
 
       Curves with a fill of half (left) and full (right).
 
@@ -102,7 +102,7 @@ Follow
 Active Spline
 =============
 
-.. figure:: /images/modeling_curves_properties_active-spline-panel-curves.png
+.. figure:: /images/modeling_curves_properties_data_active-spline-panel-curves.png
 
    Curves Active Spline panel.
 
@@ -125,7 +125,7 @@ Interpolation
 NURBS Curves
 ------------
 
-.. figure:: /images/modeling_curves_properties_active-spline-panel-nurbs.png
+.. figure:: /images/modeling_curves_properties_data_active-spline-panel-nurbs.png
 
    NURBS Active Spline panel.
 
@@ -141,7 +141,7 @@ Knots
    Cyclic
       Makes the NURBS curve cyclic.
 
-      .. figure:: /images/modeling_curves_nurbs-cyclic.png
+      .. figure:: /images/modeling_curves_properties_data_nurbs-cyclic.png
 
          A NURBS curve with Cyclic applied.
 
@@ -150,7 +150,7 @@ Knots
    Endpoint
       Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
-      .. figure:: /images/modeling_curves_nurbs-endpoint.png
+      .. figure:: /images/modeling_curves_properties_data_nurbs-endpoint.png
 
          A NURBS curve with Endpoint enabled.
 
@@ -162,6 +162,6 @@ Order
    influence over a greater relative proportion of the curve.
    The valid range of *Order* values is 2-6 depending on the number of control points present in the curve.
 
-   .. figure:: /images/modeling_curves_nurbs-order.png
+   .. figure:: /images/modeling_curves_properties_data_nurbs-order.png
 
       NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).

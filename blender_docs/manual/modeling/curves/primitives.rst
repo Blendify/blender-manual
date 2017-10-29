@@ -12,7 +12,7 @@ Primitives
    | Menu:     :menuselection:`Add --> Curve`
    | Hotkey:   :kbd:`Shift-A`
 
-.. figure:: /images/modeling_curves_introduction_add-curve-menu.png
+.. figure:: /images/modeling_curves_primitives_add-curve-menu.png
    :align: right
 
    Add Curve menu.

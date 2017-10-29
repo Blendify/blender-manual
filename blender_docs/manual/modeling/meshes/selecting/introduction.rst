@@ -97,22 +97,22 @@ Or contracting the selection when switching to a lower mode.
 
 .. list-table:: Selection Modes.
 
-   * - .. figure:: /images/modeling_meshes_selection_vertex-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
           :width: 320px
 
           Vertices mode example.
 
-     - .. figure:: /images/modeling_meshes_selection_edge-mode-example.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
           :width: 320px
 
           Edges mode example.
 
-   * - .. figure:: /images/modeling_meshes_selection_face-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-example.png
           :width: 320px
 
           Faces mode example.
 
-     - .. figure:: /images/modeling_meshes_selection_mixed-mode-example.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_mixed-mode-example.png
           :width: 320px
 
           Mixed mode example.

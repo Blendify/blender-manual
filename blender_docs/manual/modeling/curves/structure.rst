@@ -18,7 +18,7 @@ while the handles comprise the extensions from the control point.
 The arrows visualize the normals of the curve, which indicate i.a.
 the direction and the tilt.
 
-.. figure:: /images/modeling_curves_control-points-handles.png
+.. figure:: /images/modeling_curves_structure_control-points-handles.png
 
    Bézier Curve in Edit Mode.
 
@@ -32,7 +32,7 @@ There are four Bézier curve handle types.
 They can be accessed by pressing :kbd:`V` and selecting from the list that appears,
 or by pressing the appropriate hotkey combination.
 
-.. figure:: /images/modeling_curves_bezier_handle-types.png
+.. figure:: /images/modeling_curves_structure_bezier-handle-types.png
    :align: right
 
    Bézier Curve Handle Types.

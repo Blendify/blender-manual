@@ -15,7 +15,7 @@ First, the 3D View, of course, where you type your text, and have a few shortcut
 styles (see :ref:`modeling-text-character`) -- note however, that most Blender hotkeys you know
 in *Edit Mode* do not exist for texts. The second place is the Properties Editor, especially the *Font* tab.
 
-.. figure:: /images/modeling_text_editing_cursor.png
+.. figure:: /images/modeling_texts_editing_cursor.png
    :width: 300px
 
    Text in Edit Mode.
@@ -94,7 +94,7 @@ Some examples are given below:
 Cursor & Selection
 ==================
 
-.. figure:: /images/modeling_text_editing_cursor.png
+.. figure:: /images/modeling_texts_editing_cursor.png
    :width: 300px
 
    Text in Edit Mode.
@@ -136,7 +136,7 @@ Converting Text Objects
 Converting to Text Object
 -------------------------
 
-.. figure:: /images/modeling_text_editing_convert-to.jpg
+.. figure:: /images/modeling_texts_editing_convert-to.jpg
 
 Using an existing text-block, you can convert it to an object from the text editor's header,
 select :menuselection:`Edit --> Text to 3D Object`,
@@ -157,7 +157,7 @@ Now you can return to *Edit Mode* and manually edit the vertices.
 They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object
 :doc:`Modifier </modeling/modifiers/index>` at a low threshold to clean up your mesh.
 
-.. figure:: /images/modeling_text_editing_convert-from.png
+.. figure:: /images/modeling_texts_editing_convert-from.png
 
    left normal text, right the made text object.
 
@@ -179,7 +179,7 @@ on the *Assign* button in the Materials panel.
 
 .. _fig-texts-edit-rgb:
 
-.. figure:: /images/modeling_text_editing_material-index-example.png
+.. figure:: /images/modeling_texts_editing_material-index-example.png
 
    Red Green Blue.
 

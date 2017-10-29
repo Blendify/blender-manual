@@ -3,7 +3,7 @@
 Geometry
 ********
 
-.. figure:: /images/modeling_curves_properties_geometry-panel.png
+.. figure:: /images/modeling_curves_properties_geometry_panel.png
 
    Curves Geometry panel.
 
@@ -14,7 +14,7 @@ Modification
 Offset
    Moves the extrusion parallel to the curve normals.
 
-   .. figure:: /images/modeling_curves_editing_extrude_example-6_offset.png
+   .. figure:: /images/modeling_curves_properties_geometry_extrude-offset.png
       :width: 320px
 
       -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
@@ -26,12 +26,12 @@ Extrude
 
    .. list-table::
 
-      * - .. figure:: /images/modeling_curves_editing_extrude_example-1_bezier-circle.png
+      * - .. figure:: /images/modeling_curves_properties_geometry_extrude-bezier-circle.png
              :width: 320px
 
              Bézier Circle 0.0 extrude (Edit Mode).
 
-        - .. figure:: /images/modeling_curves_editing_extrude_example-2_extrude.png
+        - .. figure:: /images/modeling_curves_properties_geometry_extrude-after.png
              :width: 320px
 
              Extruded by 0.5 (Object Mode).
@@ -48,7 +48,7 @@ Open 2D Curve
    If your normals are facing the wrong way you can switch their direction as shown
    :ref:`here <curve-switch-direction>`
 
-   .. figure:: /images/modeling_curves_editing_extrude_example-8_open-curve.png
+   .. figure:: /images/modeling_curves_properties_geometry_extrude-open-curve.png
       :width: 320px
 
       Open 2D Curve with :kbd:`Alt-C`, fill set to none,
@@ -61,7 +61,7 @@ Closed 2D Curve
 
    The optional bevel depth will always create a 90 degree bevels here.
 
-   .. figure:: /images/modeling_curves_editing_extrude_example-9_closed-curve.png
+   .. figure:: /images/modeling_curves_properties_geometry_extrude-closed-curve.png
       :width: 320px
 
       Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both.
@@ -80,14 +80,14 @@ Bevel
 Depth
    Changes the size of the bevel.
 
-   .. figure:: /images/modeling_curves_geometry-bevel-depth.png
+   .. figure:: /images/modeling_curves_properties_geometry_bevel-depth.png
 
       A Curve with different Bevel depths applied.
 
 Resolution
    Alters the smoothness of the bevel.
 
-   .. figure:: /images/modeling_curves_geometry-bevel-resolution.png
+   .. figure:: /images/modeling_curves_properties_geometry_bevel-resolution.png
 
       A Curve with different resolutions applied.
 
@@ -96,7 +96,7 @@ Bevel Object
    The Bevel Object can only be another curve both 2D or 3D, and opened or closed.
    Editing the handles and control points of the Bevel Object will cause the original Object to change shape.
 
-   .. figure:: /images/modeling_curves_geometry-bevel.jpg
+   .. figure:: /images/modeling_curves_properties_geometry_bevel.jpg
 
       A curve with the Bevel Object as a Bézier curve (left) and as a Bézier circle (right).
 
@@ -124,7 +124,7 @@ Start, End
    Decreasing the *End Bevel Factor* by 0.25 will start beveling the curve 25% of the distance from the end
    of the curve (again, shortening the curve).
 
-   .. figure:: /images/modeling_curves_geometry-bevel-start-end-factor.jpg
+   .. figure:: /images/modeling_curves_properties_geometry_bevel-start-end-factor.jpg
 
       A curve with no Bevel factor applied (left),
       with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
@@ -149,7 +149,7 @@ Taper Object
    The Taper Object can only be another curve.
    Editing the handles and control points of the Taper Object will cause the original Object to change shape.
 
-   .. figure:: /images/modeling_curves_geometry-taper.jpg
+   .. figure:: /images/modeling_curves_properties_geometry_taper.jpg
 
       A curve before (left) and after (right) a Bézier curve Taper Object was applied.
 
@@ -157,7 +157,7 @@ Map Taper
    For curves using a Taper Object and with modifications to the *Start/End Bevel Factor*
    the *Map Taper* option will apply the taper to the beveled part of the curve (not the whole curve).
 
-   .. figure:: /images/modeling_curves_geometry-map-taper.jpg
+   .. figure:: /images/modeling_curves_properties_geometry_map-taper.jpg
 
       A curve without (left) and with (right) Map Taper applied.
 
@@ -203,12 +203,12 @@ with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
 
    * - .. _fig-curves-extrude-taber-curve:
 
-       .. figure:: /images/modeling_curves_editing_extrude_example-10_bevel-object.png
+       .. figure:: /images/modeling_curves_properties_geometry_extrude-bevel-object.png
           :width: 320px
 
           Circle curve set as Bevel Object.
 
-     - .. figure:: /images/modeling_curves_editing_extrude_example-11_taper-object.png
+     - .. figure:: /images/modeling_curves_properties_geometry_extrude-taper-object.png
           :width: 320px
 
           Taper extruded curve.
@@ -221,7 +221,7 @@ Of course as an artist that may be what you are looking for!
 
 .. _fig-curves-extrude-taber1:
 
-.. figure:: /images/modeling_curves_editing_extrude_example-12_taper-curve-closer.png
+.. figure:: /images/modeling_curves_properties_geometry_extrude-taper-curve-closer.png
 
    Taper example 1.
 
@@ -232,7 +232,7 @@ the right.
 
 .. _fig-curves-extrude-taber2:
 
-.. figure:: /images/modeling_curves_editing_extrude_example-13_taper-curve-away.png
+.. figure:: /images/modeling_curves_properties_geometry_extrude-taper-curve-away.png
 
    Taper example 2.
 
@@ -241,12 +241,12 @@ origin and that gives a wider result to the curve object on the right.
 
 .. _fig-curves-extrude-taber3:
 
-.. figure:: /images/modeling_curves_editing_extrude_example-14_taper-curve-irregular.png
+.. figure:: /images/modeling_curves_properties_geometry_extrude-taper-curve-irregular.png
 
    Taper example 3.
 
 In Fig. :ref:`fig-curves-extrude-taber3` we see the use of a more irregular taper curve applied to a curve circle.
 
-.. figure:: /images/modeling_curves_editing_extrude_example-15_bevel-curve-tilt.png
+.. figure:: /images/modeling_curves_properties_geometry_extrude-bevel-curve-tilt.png
 
    Bevel extrusion with *Tilt* example.

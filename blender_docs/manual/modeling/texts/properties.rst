@@ -13,7 +13,7 @@ Shape
    | Mode:     Object or Edit Mode
    | Panel:    :menuselection:`Properties editor --> Text --> Shape`
 
-.. figure:: /images/modeling_text_properties_shape-settings.jpg
+.. figure:: /images/modeling_texts_properties_shape-settings.jpg
 
    The Shape panel.
 
@@ -53,7 +53,7 @@ Fast Editing
 Texture Space
 =============
 
-.. figure:: /images/modeling_text_properties_texture-settings.jpg
+.. figure:: /images/modeling_texts_properties_texture-settings.jpg
 
    Texture Settings.
 
@@ -107,7 +107,7 @@ The *Font* panel has several options for changing the look of characters.
 Loading and Changing Fonts
 --------------------------
 
-.. figure:: /images/modeling_text_properties_load-example.png
+.. figure:: /images/modeling_texts_properties_load-example.png
 
    Loading a Type 1 font file.
 
@@ -157,7 +157,7 @@ Shear
    Controls the inclination of the whole text.
    Different to as it may seem, this is not similar to italics style.
 
-   .. figure:: /images/modeling_text_properties_shear-example.png
+   .. figure:: /images/modeling_texts_properties_shear-example.png
       :width: 300px
 
       Shear: "blender" has a shear value of 1, "2.59" a shear value of 0.
@@ -184,7 +184,7 @@ corresponding characters.
 Text on Curve
    Used to select a curve for the text object to follow.
 
-   .. figure:: /images/modeling_text_properties_curved-lowres-example.png
+   .. figure:: /images/modeling_texts_properties_curved-lowres-example.png
       :width: 200px
 
       Text on curve.
@@ -211,12 +211,12 @@ Character
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_text_properties_bold-example.png
+   * - .. figure:: /images/modeling_texts_properties_bold-example.png
           :width: 320px
 
           Bold text.
 
-     - .. figure:: /images/modeling_text_properties_font-settings.png
+     - .. figure:: /images/modeling_texts_properties_font-settings.png
           :width: 320px
 
           Character options to, for example, type bold text.
@@ -258,7 +258,7 @@ Paragraph
 
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
-.. figure:: /images/modeling_text_properties_paragraph-settings.png
+.. figure:: /images/modeling_texts_properties_paragraph-settings.png
    :width: 300px
 
    The Paragraph tab.
@@ -337,7 +337,7 @@ Text Boxes
    | Mode:     Object or Edit Modes
    | Panel:    Font
 
-.. figure:: /images/modeling_text_properties_frame-upperpanel-area.png
+.. figure:: /images/modeling_texts_properties_frame-upperpanel-area.png
 
    Text frame.
 
@@ -373,7 +373,7 @@ In order for the frame to become visible, the frame's *Width* must be greater th
 
 .. _fig-texts-edit-frame:
 
-.. figure:: /images/modeling_text_properties_frame-default-example.png
+.. figure:: /images/modeling_texts_properties_frame-default-example.png
 
    Frame width.
 
@@ -403,7 +403,7 @@ Text Flow
 
 .. _fig-texts-edit-wrap:
 
-.. figure:: /images/modeling_text_properties_frame-example2.png
+.. figure:: /images/modeling_texts_properties_frame-example2.png
 
    Wrapping.
 
@@ -416,7 +416,7 @@ as shown in Fig. :ref:`fig-texts-edit-wrap`. Notice that the text has overflowed
 This is because the text has reached the end of the last frame,
 which just happens to be the default/initial frame.
 
-.. figure:: /images/modeling_text_properties_frame-example3.png
+.. figure:: /images/modeling_texts_properties_frame-example3.png
    :width: 300px
 
    Text flowing from box 1 to box 2.
@@ -429,7 +429,7 @@ Multiple Columns
 
 .. _fig-texts-edit-text5:
 
-.. figure:: /images/modeling_text_properties_frame-example4.png
+.. figure:: /images/modeling_texts_properties_frame-example4.png
 
    Text 5.
 

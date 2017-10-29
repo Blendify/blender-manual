@@ -9,5 +9,5 @@
    translation_rotation_scale.rst
    adding.rst
    deleting.rst
-   creating_faces_and_edges.rst
+   make_face_edge.rst
    symmetry.rst

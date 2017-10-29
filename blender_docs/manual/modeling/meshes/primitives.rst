@@ -16,7 +16,7 @@ A common object type used in a 3D scene is a mesh.
 Blender comes with a number of "primitive" mesh shapes that you can start modeling from.
 You can also add primitives in Edit Mode at the 3D cursor.
 
-.. figure:: /images/editors_3dview_objects_types_primitives.png
+.. figure:: /images/modeling_meshes_primitives_all.png
 
    Blender's standard primitives.
 

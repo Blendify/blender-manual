@@ -9,7 +9,7 @@ Warp
    | Mode:     Object and Edit Modes
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`
 
-.. figure:: /images/modeling_meshes_editing_deforming_warp_operator-panel.png
+.. figure:: /images/modeling_meshes_editing_transform_warp_operator-panel.png
    :align: right
 
    Warp tool options.
@@ -31,7 +31,7 @@ the Pivot Point is not taken into account and the results are view dependent.
 Usage
 =====
 
-.. figure:: /images/editors_3dview_transformation_advanced_warp_warp-mesh.png
+.. figure:: /images/modeling_meshes_editing_transform_warp_mesh.png
 
    In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
 
@@ -58,7 +58,7 @@ The result of the *Warp* transform is also influenced by your current view. The
 example in this section shows the results of a 180 degree *Warp* transform applied
 to the same Suzanne mesh when in different views. A 3D render is also provided for comparison.
 
-.. figure:: /images/editors_3dview_transformation_advanced_warp_warp-cursor-view.jpg
+.. figure:: /images/modeling_meshes_editing_transform_warp_cursor-view.jpg
 
    The left side of this image shows how the Warp transform is influenced by the location of the cursor.
    The right hand side shows the influence of the current view.
@@ -72,7 +72,7 @@ to the same Suzanne mesh when in different views. A 3D render is also provided f
 Example
 =======
 
-.. figure:: /images/editors_3dview_transformation_advanced_warp_warp-text.jpg
+.. figure:: /images/modeling_meshes_editing_transform_warp_text.jpg
 
    Text wrapped around logo.
 

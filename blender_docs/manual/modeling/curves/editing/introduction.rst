@@ -353,15 +353,15 @@ operation reduces the distance between the selected control point/s and
 their neighbors, while keeping the neighbors anchored.
 Does not effect control point tangents.
 
-.. figure:: /images/modeling_curves_smoothing_example1.jpg
+.. figure:: /images/modeling_curves_editing_introduction_smoothing1.jpg
 
    Original, unsmoothed Curve.
 
-.. figure:: /images/modeling_curves_smoothing_example2.jpg
+.. figure:: /images/modeling_curves_editing_introduction_smoothing2.jpg
 
    Entire curve smoothed over 200 times by holding :kbd:`Shift-R` to repeat last step.
 
-.. figure:: /images/modeling_curves_smoothing_example3.jpg
+.. figure:: /images/modeling_curves_editing_introduction_smoothing3.jpg
 
    Only three control points in the center smoothed over 200 times.
 
