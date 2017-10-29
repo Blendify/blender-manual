@@ -3,7 +3,7 @@
 Mapping Node
 ************
 
-.. figure:: /images/render_blender-render_materials_nodes_vector_mapping.png
+.. figure:: /images/render_blender-render_materials_nodes_types_vector_mapping_node.png
 
    Mapping node.
 

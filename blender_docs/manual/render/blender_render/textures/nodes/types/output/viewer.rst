@@ -3,7 +3,7 @@
 Viewer Node
 ***********
 
-.. figure:: /images/render_blender-render_textures_nodes_output_viewer.png
+.. figure:: /images/render_blender-render_textures_nodes_types_output_viewer_node.png
    :align: right
 
    Viewer node.

@@ -4,7 +4,7 @@
 Anisotropic Node
 ****************
 
-.. figure:: /images/render_cycles_nodes_shaders_anisotropic-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_node.png
    :align: right
 
    Anisotropic Node.

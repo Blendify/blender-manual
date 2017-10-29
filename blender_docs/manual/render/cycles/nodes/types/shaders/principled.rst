@@ -3,7 +3,7 @@
 Principled Node
 ***************
 
-.. figure:: /images/render_cycles_nodes_shaders_principled-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_principled_node.png
    :align: right
 
    Principled Node.

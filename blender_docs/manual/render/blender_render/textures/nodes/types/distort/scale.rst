@@ -3,7 +3,7 @@
 Scale Node
 **********
 
-.. figure:: /images/render_blender-render_textures_nodes_distort_scale.png
+.. figure:: /images/render_blender-render_textures_nodes_types_distort_scale_node.png
    :align: right
 
    Scale node.

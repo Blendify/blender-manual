@@ -4,7 +4,7 @@
 Layer Weight Node
 *****************
 
-.. figure:: /images/render_cycles_nodes_input_layer-weight.png
+.. figure:: /images/render_cycles_nodes_types_input_layer-weight_node.png
    :align: right
 
    Layer Weight Node.

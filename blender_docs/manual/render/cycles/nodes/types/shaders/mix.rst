@@ -4,7 +4,7 @@
 Mix Node
 ********
 
-.. figure:: /images/render_cycles_nodes_shaders_mix-shader.png
+.. figure:: /images/render_cycles_nodes_types_shaders_mix_node.png
    :align: right
 
    Mix Node.

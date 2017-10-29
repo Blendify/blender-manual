@@ -7,7 +7,7 @@
 Vector Transform Node
 *********************
 
-.. figure:: /images/render_blender-render_materials_nodes_vector_transform.png
+.. figure:: /images/render_cycles_nodes_types_vector_transform_node.png
    :align: right
 
    Vector Transform node.

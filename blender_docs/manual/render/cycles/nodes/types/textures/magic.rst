@@ -4,7 +4,7 @@
 Magic Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_textures_magic-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_magic_node.png
    :align: right
 
    Magic Texture Node.

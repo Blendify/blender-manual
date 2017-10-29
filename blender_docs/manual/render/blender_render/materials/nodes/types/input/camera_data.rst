@@ -3,7 +3,7 @@
 Camera Data Node
 ****************
 
-.. figure:: /images/render_blender-render_materials_nodes_input_camera-data.png
+.. figure:: /images/render_blender-render_materials_nodes_types_input_camera-data_node.png
    :align: right
 
    Camera Data node.

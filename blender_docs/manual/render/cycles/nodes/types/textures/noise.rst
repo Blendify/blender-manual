@@ -4,7 +4,7 @@
 Noise Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_textures_noise-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_noise_node.png
    :align: right
 
    Noise Texture Node.

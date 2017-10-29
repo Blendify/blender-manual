@@ -4,7 +4,7 @@
 Wireframe Node
 **************
 
-.. figure:: /images/render_cycles_nodes_input_wireframe.png
+.. figure:: /images/render_cycles_nodes_types_input_wireframe_node.png
    :align: right
 
    Wireframe Node.

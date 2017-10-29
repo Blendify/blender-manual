@@ -3,7 +3,7 @@
 Line Style Output Node
 **********************
 
-.. figure:: /images/render_freestyle_line-style_nodes_ouput.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_output_node.png
    :align: right
 
    Line Style Output Node.

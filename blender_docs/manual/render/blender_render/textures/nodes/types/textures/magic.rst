@@ -3,7 +3,7 @@
 Magic Node
 **********
 
-.. figure:: /images/render_blender-render_textures_nodes_textures_magic.png
+.. figure:: /images/render_blender-render_textures_nodes_types_textures_magic_node.png
 
    Magic node.
 

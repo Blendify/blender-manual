@@ -4,7 +4,7 @@
 Object Info Node
 ****************
 
-.. figure:: /images/render_cycles_nodes_input_object-info.png
+.. figure:: /images/render_cycles_nodes_types_input_object-info_node.png
    :align: right
 
    Object Info Node.

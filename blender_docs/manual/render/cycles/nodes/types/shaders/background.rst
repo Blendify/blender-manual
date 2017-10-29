@@ -4,7 +4,7 @@
 Background Node
 ***************
 
-.. figure:: /images/render_cycles_nodes_shaders_background.png
+.. figure:: /images/render_cycles_nodes_types_shaders_background_node.png
    :align: right
 
    Background Node.

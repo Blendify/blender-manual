@@ -4,7 +4,7 @@
 Image Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_textures_image-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_image_node.png
    :align: right
 
    Image Texture Node.

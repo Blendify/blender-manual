@@ -4,7 +4,7 @@
 Environment Texture Node
 ************************
 
-.. figure:: /images/render_cycles_nodes_textures_environment-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_environment_node.png
    :align: right
 
    Environment Texture Node.

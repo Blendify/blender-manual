@@ -4,7 +4,7 @@
 Add Node
 ********
 
-.. figure:: /images/render_cycles_nodes_shaders_add-shader.png
+.. figure:: /images/render_cycles_nodes_types_shaders_add_node.png
    :align: right
 
    Add Node.

@@ -3,7 +3,7 @@
 UV Along Stroke Node
 ********************
 
-.. figure:: /images/render_freestyle_line-style_nodes_uv-along-stoke.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_uv-along-stroke_node.png
    :align: right
 
    UV Along Stroke Node.
@@ -55,7 +55,7 @@ Since the Alpha Factor is set to one, the texture image replaces the base alpha 
 On the other hand, the Mix blend mode is selected in the Line Style Output node with the Color Factor set to zero,
 so that the gradient line color specified in the active line style is applied along strokes.
 
-.. figure:: /images/render_freestyle_line-style_nodes_uv-along-stoke_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_uv-along-stroke_example.png
 
    `.blend <https://wiki.blender.org/index.php/File:Blender_272_textured_strokes_in_cycles.blend>`__
 

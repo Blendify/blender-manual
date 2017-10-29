@@ -4,7 +4,7 @@
 Transparent Node
 ****************
 
-.. figure:: /images/render_cycles_nodes_shaders_transparent-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_transparent_node.png
    :align: right
 
    Transparent Node.

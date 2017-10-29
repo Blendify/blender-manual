@@ -4,7 +4,7 @@
 Tangent Node
 ************
 
-.. figure:: /images/render_cycles_nodes_input_tangent.png
+.. figure:: /images/render_cycles_nodes_types_input_tangent_node.png
    :align: right
 
    Tangent Node.

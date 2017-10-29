@@ -3,7 +3,7 @@
 Geometry Node
 *************
 
-.. figure:: /images/render_blender-render_materials_nodes_input_geometry.png
+.. figure:: /images/render_blender-render_materials_nodes_types_input_geometry_node.png
    :align: right
 
    Geometry node.
@@ -66,7 +66,7 @@ Front/Back
 Geometry Node Example using a UV image
 ======================================
 
-.. figure:: /images/render_blender-render_materials_nodes_input_geometry_example.png
+.. figure:: /images/render_blender-render_materials_nodes_types_input_geometry_example.png
 
    Setup to render a UV-Mapped Image Texture.
 

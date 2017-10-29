@@ -3,7 +3,7 @@
 Texture Node
 ************
 
-.. figure:: /images/render_blender-render_materials_nodes_input_texture.png
+.. figure:: /images/render_blender-render_materials_nodes_types_input_texture_node.png
    :align: right
 
    Texture node.
@@ -40,7 +40,7 @@ Normal
 Example
 =======
 
-.. figure:: /images/render_blender-render_materials_nodes_input_texture_example.png
+.. figure:: /images/render_blender-render_materials_nodes_types_input_texture_example.png
 
    Example of the applying Texture node.
 

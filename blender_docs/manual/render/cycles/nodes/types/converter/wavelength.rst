@@ -4,7 +4,7 @@
 Wavelength Node
 ***************
 
-.. figure:: /images/render_cycles_nodes_converter_wavelength.png
+.. figure:: /images/render_cycles_nodes_types_converter_wavelength_node.png
    :align: right
 
    Wavelength Node.
