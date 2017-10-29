@@ -212,7 +212,7 @@ or the *Edge Loop Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
    In *Vertex* select mode, you can also select edge loops, by using the same hotkeys,
    and clicking on the *edges* (not on the vertices).
 
-.. figure:: /images/modeling_meshes_selection_edge-loops.png
+.. figure:: /images/modeling_meshes_selecting_advanced_edge-loops.png
 
    Longitudinal and latitudinal edge loops.
 
@@ -239,7 +239,7 @@ In vertex select mode,
 the same can be accomplished by using :kbd:`Ctrl-Alt` to select an edge,
 which selects the face loop implicitly.
 
-.. figure:: /images/modeling_meshes_selection_face-loops.png
+.. figure:: /images/modeling_meshes_selecting_advanced_face-loops.png
 
    Face loop selection.
 
@@ -247,7 +247,7 @@ This face loop was selected by clicking with :kbd:`Alt-RMB` on an edge,
 in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
 
-.. figure:: /images/modeling_meshes_selection_face-loops-vertex.png
+.. figure:: /images/modeling_meshes_selecting_advanced_face-loops-vertex.png
 
    :kbd:`Alt` versus :kbd:`Ctrl-Alt` in vertex select mode.
 
@@ -297,7 +297,7 @@ or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
 .. _fig-mesh-select-advanced-loop-ring:
 
-.. figure:: /images/modeling_meshes_selection_edge-ring.png
+.. figure:: /images/modeling_meshes_selecting_advanced_edge-ring.png
 
    A selected edge loop, and a selected edge ring.
 
@@ -316,7 +316,7 @@ Shortest Path
    | Menu:     :menuselection:`Select --> Shortest Path`
    | Hotkey:   :kbd:`Ctrl-RMB`
 
-.. figure:: /images/modeling_meshes_selection_shortest-path.png
+.. figure:: /images/modeling_meshes_selecting_advanced_shortest-path.png
 
    Select a face or vertex path with :kbd:`Ctrl-RMB`.
 
@@ -349,15 +349,15 @@ While it is possible to use this operator in *Vertex* and *Face* selection modes
 Note that if the selected loop of edges is not closed,
 then all connected edges on the mesh will be considered inside the loop.
 
-.. figure:: /images/modeling_meshes_selection_inner-region1.png
+.. figure:: /images/modeling_meshes_selecting_advanced_inner-region1.png
 
    Loop to Region.
 
-.. figure:: /images/modeling_meshes_selection_inner-region2.png
+.. figure:: /images/modeling_meshes_selecting_advanced_inner-region2.png
 
    This tool handles multiple loops fine, as you can see.
 
-.. figure:: /images/modeling_meshes_selection_inner-region3.png
+.. figure:: /images/modeling_meshes_selecting_advanced_inner-region3.png
 
    This tool handles "holes" just fine as well.
 
@@ -377,6 +377,6 @@ It can operate in any select mode, but when in *Face* mode it will switch to *Ed
 
 All this is much more simple to illustrates with examples:
 
-.. figure:: /images/modeling_meshes_selection_boundary-loop.png
+.. figure:: /images/modeling_meshes_selecting_advanced_boundary-loop.png
 
    Select Boundary Loop does the opposite and forces into Edge Select Mode.

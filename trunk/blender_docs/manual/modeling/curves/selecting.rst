@@ -3,7 +3,7 @@
 Selecting
 *********
 
-.. figure:: /images/modeling_curves_selecting.png
+.. figure:: /images/modeling_curves_selecting_menu.png
    :align: right
 
    Select Menu.

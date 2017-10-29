@@ -3,7 +3,7 @@
 Properties
 **********
 
-.. figure:: /images/modeling_surfaces_introduction_nurbs-properties.png
+.. figure:: /images/modeling_surfaces_properties_nurbs.png
 
    Surface Properties.
 
@@ -14,7 +14,7 @@ The panels of the *Curve and Surface* tab are the same as for
 Shape
 =====
 
-.. figure:: /images/modeling_surfaces_introduction_resolution-panel.png
+.. figure:: /images/modeling_surfaces_properties_resolution-panel.png
 
    Shape panel.
 
@@ -55,7 +55,7 @@ or *Bézier*, with the same properties as for curves. And as with curves, only o
 
 .. _fig-surface-intro-endpoint:
 
-.. figure:: /images/modeling_surfaces_introduction_endpoint.png
+.. figure:: /images/modeling_surfaces_properties_endpoint.png
 
    Endpoint U.
 
@@ -80,7 +80,7 @@ creating a surface that tends to follow the grid cage.
 
 .. _fig-surface-intro-order:
 
-.. figure:: /images/modeling_surfaces_introduction_order.png
+.. figure:: /images/modeling_surfaces_properties_order.png
 
    Order 2 and order 4 surface.
 
@@ -103,19 +103,19 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_surfaces_introduction_resolution-1x1_wire.png
+   * - .. figure:: /images/modeling_surfaces_properties_resolution-1x1-wire.png
 
-     - .. figure:: /images/modeling_surfaces_introduction_resolution-3x3_wire.png
+     - .. figure:: /images/modeling_surfaces_properties_resolution-3x3-wire.png
 
    * - .. _fig-surface-intro-resolution1:
 
-       .. figure:: /images/modeling_surfaces_introduction_resolution-1x1.png
+       .. figure:: /images/modeling_surfaces_properties_resolution-1x1.png
 
           Resolution 1×1.
 
      - .. _fig-surface-intro-resolution2:
 
-       .. figure:: /images/modeling_surfaces_introduction_resolution-3x3.png
+       .. figure:: /images/modeling_surfaces_properties_resolution-3x3.png
 
           Resolution 3×3.
 

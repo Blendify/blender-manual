@@ -65,7 +65,7 @@ As you can see, that control point *pulls* the surface towards it.
 
 .. _fig-surface-intro-weight:
 
-.. figure:: /images/modeling_surfaces_introduction_weight.png
+.. figure:: /images/modeling_surfaces_structure_weight.png
 
    One control point with a weight of 5.
 
@@ -91,6 +91,6 @@ To create a sphere with 2D surfaces, its the same principle as with a 2D circle.
 You will note that the four different weights needed for creating a sphere
 (1.0, 0.707 = sqrt(0.5), 0.354 = sqrt(2)/4, and 0.25).
 
-.. figure:: /images/modeling_surfaces_introduction_weight-sphere.png
+.. figure:: /images/modeling_surfaces_structure_weight-sphere.png
 
    A sphere surface.

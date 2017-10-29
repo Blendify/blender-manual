@@ -24,7 +24,7 @@ Make Edge/Face
    | Hotkey:   :kbd:`F`
 
 This will create an edge or some faces, depending on your selection.
-Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces_and_edges>`.
+Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/make_face_edge>`.
 
 .. list-table::
 

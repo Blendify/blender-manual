@@ -10,7 +10,7 @@ Todo.
 
 .. Explain what are normals
 
-.. figure:: /images/modeling_meshes_editing_normals.png
+.. figure:: /images/modeling_meshes_editing_normals_viewport.png
 
    Normals visualization.
 

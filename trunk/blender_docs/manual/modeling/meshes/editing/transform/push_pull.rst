@@ -11,7 +11,7 @@ Push/Pull
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Push/Pull`
    | Menu:     :menuselection:`Object/Mesh --> Transform --> Push Pull`
 
-.. figure:: /images/modeling_meshes_editing_deforming_push-pull_operator-panel.png
+.. figure:: /images/modeling_meshes_editing_transform_push-pull_operator-panel.png
    :align: right
 
    Push/Pull distance.
@@ -40,18 +40,18 @@ Note that the result of the *Push/Pull* transform is also dependant on the numbe
 and type of selected elements (objects, vertices, faces, etc.).
 See below for the result of using *Push/Pull* on a number of different elements.
 
-.. figure:: /images/modeling_meshes_editing_deforming_push-pull_objects-equidistant.png
+.. figure:: /images/modeling_meshes_editing_transform_push-pull_objects-equidistant.png
 
    Equidistant Objects being pushed together.
 
-.. figure:: /images/modeling_meshes_editing_deforming_push-pull_objects-random.png
+.. figure:: /images/modeling_meshes_editing_transform_push-pull_objects-random.png
 
    Random Objects being pushed together.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_vertices-push-pull.png
+.. figure:: /images/modeling_meshes_editing_transform_push-pull_vertices-push-pull.png
 
    Vertices being pushed together, then pulled apart.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_edges-push-pull.png
+.. figure:: /images/modeling_meshes_editing_transform_push-pull_edges-push-pull.png
 
    Edges on separate meshes being pushed together, then pulled apart.

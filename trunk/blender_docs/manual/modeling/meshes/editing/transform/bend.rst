@@ -11,7 +11,7 @@ Bend
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Bend`
    | Hotkey:   :kbd:`Shift-W`
 
-.. figure:: /images/modeling_meshes_editing_deforming_bend.jpg
+.. figure:: /images/modeling_meshes_editing_transform_bend_example.jpg
 
    Bend Transform with Clamp on and off.
 

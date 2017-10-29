@@ -25,7 +25,7 @@ Make Edge/Face
 
 It will create an edge or some faces, depending on your selection.
 
-See also :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces_and_edges>`.
+See also :doc:`Creating Geometry </modeling/meshes/editing/basics/make_face_edge>`.
 
 
 Set Edge Attributes
