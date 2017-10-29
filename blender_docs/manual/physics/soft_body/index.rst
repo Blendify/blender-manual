@@ -11,5 +11,5 @@
    introduction.rst
    settings.rst
    forces/index.rst
-   collisions.rst
+   collision.rst
    examples.rst

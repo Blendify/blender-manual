@@ -3,7 +3,7 @@
 Emission
 ********
 
-.. figure:: /images/physics_particle_system_hairsettings.jpg
+.. figure:: /images/physics_particles_hair_emission_settings.jpg
 
    Hair particle system settings.
 

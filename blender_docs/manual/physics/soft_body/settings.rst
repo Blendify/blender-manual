@@ -191,7 +191,7 @@ Soft Body Solver
 
 These settings determine the accurateness of the simulation.
 
-.. figure:: /images/physics_soft-body_collision_solver-parameters.png
+.. figure:: /images/physics_soft-body_settings_collision-solver-parameters.png
 
    Soft Body Solver Settings.
 

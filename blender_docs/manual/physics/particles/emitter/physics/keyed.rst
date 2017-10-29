@@ -6,7 +6,7 @@
 Keyed
 *****
 
-.. figure:: /images/physics_particle_properties_physics_keyed_panel.png
+.. figure:: /images/physics_particles_emitter_physics_keyed_panel.png
 
    Keyed Physics Settings.
 

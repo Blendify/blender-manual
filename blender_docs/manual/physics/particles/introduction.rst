@@ -15,7 +15,7 @@ Hair systems form strands that can represent hair, fur, grass and bristles.
 You see particles as a Particle Modifier,
 but all settings are done in the *Particle tab*.
 
-.. figure:: /images/physics_particle_introduction_fur_example.jpg
+.. figure:: /images/physics_particles_introduction_fur-example.jpg
    :width: 300px
 
    Some fur made from particles.

@@ -14,7 +14,7 @@ raindrops that make the ground wet, paint that sticks to walls, or objects that 
 Activating the modifier
 =======================
 
-.. figure:: /images/physics_dynamic-paint_introduction.png
+.. figure:: /images/physics_dynamic-paint_introduction_activate.png
 
    How to activate the Dynamic Paint.
 

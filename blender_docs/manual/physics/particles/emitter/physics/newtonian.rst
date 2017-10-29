@@ -9,7 +9,7 @@ and move according to Newtonian forces.
 The response to environment and to forces is computed differently,
 according to any given integrator chosen by the animator.
 
-.. figure:: /images/physics_particle_properties_physics_newtonian_panel.png
+.. figure:: /images/physics_particles_emitter_physics_newtonian_panel.png
 
    Newtonian Physics Settings.
 

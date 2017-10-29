@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|copy=X|text=partialy}}.
 
-**********
-Collisions
-**********
+*********
+Collision
+*********
 
 There are two different collision types that you may use:
 collision between different objects and internal collision.
@@ -64,7 +64,7 @@ Let us have a closer look at the collision calculation, so you can get an idea o
 .. only:: latex or epub
 
    An example image can be found at:
-   https://docs.blender.org/manual/en/dev/physics/soft_body/collisions.html#examples
+   https://docs.blender.org/manual/en/dev/physics/soft_body/collision.html#examples
 
 
 Calculating Collisions
@@ -91,7 +91,7 @@ Calculating Collisions
 .. only:: latex or epub
 
    An example image can be found at:
-   https://docs.blender.org/manual/en/dev/physics/soft_body/collisions.html#calculating-collisions
+   https://docs.blender.org/manual/en/dev/physics/soft_body/collision.html#calculating-collisions
 
 Soft Body simulation is by default done on a per vertex basis. If the vertices of the Soft Body
 do not collide with the collision object, there will be no interaction between the two objects.

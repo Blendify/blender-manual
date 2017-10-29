@@ -30,7 +30,7 @@ clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> 
 Options
 =======
 
-.. figure:: /images/physics_collision.png
+.. figure:: /images/physics_collision_panel.png
 
    Collision Panel.
 
@@ -103,7 +103,7 @@ Absorption
 Examples
 ========
 
-.. figure:: /images/physics_collision_defected_particles.jpg
+.. figure:: /images/physics_collision_defected-particles.jpg
 
    Deflected Particles.
 
