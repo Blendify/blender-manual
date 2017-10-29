@@ -22,7 +22,7 @@ You have:
 :doc:`Mist </render/blender_render/world/mist>`
    Add a mist to your scene to enhance the feeling of depth.
 
-While these world settings offers a simple way of adding effects to a scene,
+While these world settings offer a simple way of adding effects to a scene,
 :doc:`compositing nodes </compositing/index>` are often preferred, though more complex to master,
 for the additional control and options they offer.
 For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
