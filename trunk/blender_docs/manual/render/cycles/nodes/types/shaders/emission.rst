@@ -4,7 +4,7 @@
 Emission Node
 *************
 
-.. figure:: /images/render_cycles_nodes_shaders_emission.png
+.. figure:: /images/render_cycles_nodes_types_shaders_emission_node.png
    :align: right
 
    Emission Node.

@@ -4,7 +4,7 @@
 Ambient Occlusion Node
 **********************
 
-.. figure:: /images/render_cycles_nodes_shaders_ambient-occlusion.png
+.. figure:: /images/render_cycles_nodes_types_shaders_ao_node.png
    :align: right
 
    Ambient Occlusion Node.

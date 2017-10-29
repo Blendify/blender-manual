@@ -4,7 +4,7 @@
 Sky Texture Node
 ****************
 
-.. figure:: /images/render_cycles_nodes_textures_sky-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_sky_node.png
    :align: right
 
    Sky Texture Node.

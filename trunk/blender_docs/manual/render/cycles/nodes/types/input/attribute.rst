@@ -4,7 +4,7 @@
 Attribute Node
 **************
 
-.. figure:: /images/render_cycles_nodes_input_attribute.png
+.. figure:: /images/render_cycles_nodes_types_input_attribute_node.png
    :align: right
 
    Attribute Node.

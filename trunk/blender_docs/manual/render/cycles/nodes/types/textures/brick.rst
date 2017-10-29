@@ -4,7 +4,7 @@
 Brick Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_textures_brick-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_brick_node.png
    :align: right
 
    Brick Texture Node.

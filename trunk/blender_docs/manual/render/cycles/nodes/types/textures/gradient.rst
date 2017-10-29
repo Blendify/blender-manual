@@ -4,7 +4,7 @@
 Gradient Texture Node
 *********************
 
-.. figure:: /images/render_cycles_nodes_textures_gradient-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_gradient_node.png
    :align: right
 
    Gradient Texture Node.

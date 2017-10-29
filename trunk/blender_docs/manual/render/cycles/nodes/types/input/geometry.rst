@@ -4,7 +4,7 @@
 Geometry Node
 *************
 
-.. figure:: /images/render_cycles_nodes_input_geometry.png
+.. figure:: /images/render_cycles_nodes_types_input_geometry_node.png
    :align: right
 
    Geometry Node.

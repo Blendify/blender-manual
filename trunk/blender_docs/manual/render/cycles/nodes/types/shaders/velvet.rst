@@ -4,7 +4,7 @@
 Velvet Node
 ***********
 
-.. figure:: /images/render_cycles_nodes_shaders_velvet-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_velvet_node.png
    :align: right
 
    Velvet Node.

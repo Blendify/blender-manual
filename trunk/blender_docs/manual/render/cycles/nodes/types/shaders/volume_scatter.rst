@@ -4,7 +4,7 @@
 Volume Scatter Node
 *******************
 
-.. figure:: /images/render_cycles_nodes_shaders_volume-scatter.png
+.. figure:: /images/render_cycles_nodes_types_shaders_volume-scatter_node.png
    :align: right
 
    Volume Scatter Node.

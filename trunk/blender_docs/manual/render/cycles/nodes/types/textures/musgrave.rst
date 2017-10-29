@@ -4,7 +4,7 @@
 Musgrave Texture Node
 *********************
 
-.. figure:: /images/render_cycles_nodes_textures_musgrave-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_musgrave_node.png
    :align: right
 
    Musgrave Texture Node.

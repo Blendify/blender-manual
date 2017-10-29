@@ -4,7 +4,7 @@
 Wave Texture Node
 *****************
 
-.. figure:: /images/render_cycles_nodes_textures_wave-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_wave_node.png
    :align: right
 
    Wave Texture Node.

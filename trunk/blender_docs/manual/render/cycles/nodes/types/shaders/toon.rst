@@ -4,7 +4,7 @@
 Toon Node
 *********
 
-.. figure:: /images/render_cycles_nodes_shaders_toon-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_toon_node.png
    :align: right
 
    Toon Node.

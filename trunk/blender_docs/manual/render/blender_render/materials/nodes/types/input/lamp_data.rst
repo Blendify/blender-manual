@@ -3,7 +3,7 @@
 Lamp Data Node
 **************
 
-.. figure:: /images/render_blender-render_materials_nodes_input_lamp-data.png
+.. figure:: /images/render_blender-render_materials_nodes_types_input_lamp-data_node.png
    :align: right
 
    Lamp Data node.

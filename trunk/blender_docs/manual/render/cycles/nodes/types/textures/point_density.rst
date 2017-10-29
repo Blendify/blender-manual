@@ -3,7 +3,7 @@
 Point Density Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_textures_point-density.png
+.. figure:: /images/render_cycles_nodes_types_textures_point-density_node.png
    :align: right
 
    Point Density Node.

@@ -4,7 +4,7 @@
 Light Falloff Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_color_light-falloff.png
+.. figure:: /images/render_cycles_nodes_types_color_light-falloff_node.png
    :align: right
 
    Light Falloff Node.

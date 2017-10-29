@@ -4,7 +4,7 @@
 Refraction Node
 ***************
 
-.. figure:: /images/render_cycles_nodes_shaders_refraction-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_refraction_node.png
    :align: right
 
    Refraction Node.

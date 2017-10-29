@@ -4,7 +4,7 @@
 Hair Node
 *********
 
-.. figure:: /images/render_cycles_nodes_shaders_hair-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_hair_node.png
    :align: right
 
    Hair Node.

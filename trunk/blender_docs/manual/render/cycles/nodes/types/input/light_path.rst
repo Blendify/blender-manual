@@ -4,7 +4,7 @@
 Light Path Node
 ***************
 
-.. figure:: /images/render_cycles_nodes_input_light-path.png
+.. figure:: /images/render_cycles_nodes_types_input_light-path_node.png
    :align: right
 
    Light Path Node.

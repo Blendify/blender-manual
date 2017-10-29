@@ -5,7 +5,7 @@
 Voronoi Texture Node
 ********************
 
-.. figure:: /images/render_cycles_nodes_textures_voronoi-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_voronoi_node.png
    :align: right
 
    Voronoi Texture Node.

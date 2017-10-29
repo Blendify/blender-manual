@@ -4,7 +4,7 @@
 Diffuse Node
 ************
 
-.. figure:: /images/render_cycles_nodes_shaders_diffuse-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_diffuse_node.png
    :align: right
 
    Diffuse Node.

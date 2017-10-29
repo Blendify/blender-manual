@@ -3,7 +3,7 @@
 Wood Node
 *********
 
-.. figure:: /images/render_blender-render_textures_nodes_textures_wood.png
+.. figure:: /images/render_blender-render_textures_nodes_types_textures_wood_node.png
 
    Wood node.
 

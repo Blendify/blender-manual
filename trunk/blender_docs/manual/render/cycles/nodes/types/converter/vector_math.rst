@@ -4,7 +4,7 @@
 Vector Math Node
 ****************
 
-.. figure:: /images/render_blender-render_materials_nodes_converter_vector-math.png
+.. figure:: /images/render_blender-render_materials_nodes_types_converter_vector-math_node.png
    :align: right
 
    Vector Math Node.

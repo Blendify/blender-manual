@@ -14,7 +14,7 @@ nodes rather than having to modify the UVs. One example of this might be
 when you have several textures, each of which needs to be transformed
 individually e.g. decals on an object.
 
-.. figure:: /images/render_blender-render_materials_nodes_vector_mapping.png
+.. figure:: /images/render_blender-render_materials_nodes_types_vector_mapping_node.png
 
    Mapping node.
 

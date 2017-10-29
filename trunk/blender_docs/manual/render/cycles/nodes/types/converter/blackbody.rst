@@ -4,7 +4,7 @@
 Blackbody Node
 **************
 
-.. figure:: /images/render_cycles_nodes_converter_blackbody.png
+.. figure:: /images/render_cycles_nodes_types_converter_blackbody_node.png
    :align: right
 
    Blackbody Node.

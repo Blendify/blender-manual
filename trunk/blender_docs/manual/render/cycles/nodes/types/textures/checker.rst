@@ -4,7 +4,7 @@
 Checker Texture Node
 ********************
 
-.. figure:: /images/render_cycles_nodes_textures_checker-texture.png
+.. figure:: /images/render_cycles_nodes_types_textures_checker_node.png
    :align: right
 
    Checker Texture Node.

@@ -4,7 +4,7 @@
 Glass Node
 **********
 
-.. figure:: /images/render_cycles_nodes_shaders_glass-bsdf.png
+.. figure:: /images/render_cycles_nodes_types_shaders_glass_node.png
    :align: right
 
    Glass Node.
