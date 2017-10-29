@@ -82,7 +82,7 @@ Calligraphy
 The *Calligraphy* modifier (thickness only) mimics some broad and flat pens for calligraphy.
 It generates different thickness based on the orientation of the stroke.
 
-.. figure:: /images/render_freestyle_line-style_thickness_calligraphy.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-calligraphy.png
 
 Orientation
    The angle (orientation) of the virtual drawing tool, from the vertical axis of the picture.
@@ -90,7 +90,7 @@ Orientation
    Hence, the thickest strokes will be the vertical ones i.e. stroke's direction is aligned with the angle, and
    the thinnest will be the horizontal ones i.e. stroke's direction is perpendicular to the angle.
 
-.. figure:: /images/render_freestyle_line-style_thickness_calligraphy_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-calligraphy-example.png
    :width: 430px
 
    Calligraphy modifier demo by T.K.
@@ -106,7 +106,7 @@ A modifier based on the Crease Angle (angle between two adjacent faces).
 If a stroke segment does not lie on a crease (i.e. the edge does not have the *Crease Angle nature*,
 its properties are not touched by the modifier.
 
-.. figure:: /images/render_freestyle_line-style_alpha_crease-angle.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-crease-angle.png
 
    Alpha Modifier.
 
@@ -115,7 +115,7 @@ Min Angle and Max Angle
    Out-of-range crease angle values will be clamped by the
    Min and Max angles and their corresponding property values.
 
-.. figure:: /images/render_freestyle_line-style_color_crease-angle_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-crease-angle-example.png
    :width: 430px
 
    Crease Angle modifier demo by T.K.
@@ -128,7 +128,7 @@ Min Angle and Max Angle
 Curvature 3D
 ------------
 
-.. figure:: /images/render_freestyle_line-style_color_curvature-3d-example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-curvature-3d-example.png
    :width: 430px
 
    Curvature 3D modifier demo by T.K.
@@ -147,7 +147,7 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. figure:: /images/render_freestyle_line-style_alpha_curvature-3d.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-curvature-3d.png
 
    Alpha Modifier.
 
@@ -166,7 +166,7 @@ Distance from Camera
 The *Distance from Camera* modifier alters the base property with a new one from
 a given range using the distance to the active camera as the parameter.
 
-.. figure:: /images/render_freestyle_line-style_alpha_distance-from-camera.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-camera.png
 
    Alpha Modifier.
 
@@ -188,7 +188,7 @@ Distance from Object
 The *Distance from Object* modifier alters the base property with a new one from
 a range, using the distance to a given object as the parameter.
 
-.. figure:: /images/render_freestyle_line-style_alpha_distance-from-object.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-object.png
 
    Alpha Modifier.
 
@@ -208,7 +208,7 @@ The other settings are those of the standard Blender color ramp!
 Material
 --------
 
-.. figure:: /images/render_freestyle_line-style_color_material.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-material.png
 
    Color Modifier.
 
@@ -225,7 +225,7 @@ In the reverse case properties of the materials, which are multi-components
 If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
 
-.. figure:: /images/render_freestyle_line-style_color_material_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-material-example.png
    :width: 430px
 
    Material modifiers demo by T.K.
@@ -239,7 +239,7 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute the property along the stroke.
 
-.. figure:: /images/render_freestyle_line-style_thickness_noise.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-noise.png
 
    Thickness Modifier.
 
@@ -257,7 +257,7 @@ Asymmetric
    For the Noise shader however, a meaningful (and good-looking) result
    can be created by assigning different values to either side of the backbone.
 
-.. figure:: /images/render_freestyle_line-style_thickness_noise_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-noise-example.png
    :width: 430px
 
    Effect generated with a noise thickness modifier using asymmetric thickness.

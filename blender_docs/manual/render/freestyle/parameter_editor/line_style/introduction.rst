@@ -8,7 +8,7 @@ Introduction
 
    | Panel:    :menuselection:`Properties editor --> Render Layer --> Freestyle Line Style`
 
-.. figure:: /images/render_freestyle_line-style_introduction_line-style-panel.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_introduction_line-style-panel.png
 
    Line Style UI.
 
@@ -29,6 +29,6 @@ sets by selecting it from the select menu next to its name.
    Unless otherwise specified, all lengths in line style settings are in pixels (either relative or absolute,
    as specified in the :doc:`core options </render/freestyle/core>`).
 
-.. figure:: /images/render_freestyle_line-style_introduction_line-style-example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_introduction_line-style-example.png
 
    Line Style demo `File:LineStyles.zip <https://wiki.blender.org/index.php/File:LineStyles.zip>`__.

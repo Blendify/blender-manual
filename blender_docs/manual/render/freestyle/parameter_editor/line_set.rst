@@ -14,7 +14,7 @@ A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
 
-.. figure:: /images/render_freestyle_line-set.png
+.. figure:: /images/render_freestyle_parameter-editor_line-set_panel.png
 
    Freestyle Line Set panel
 
@@ -32,7 +32,7 @@ Visible
 Hidden
    Lines occluded by at least one surface are rendered.
 
-   .. figure:: /images/render_freestyle_line-set_visibility_hidden-edges.png
+   .. figure:: /images/render_freestyle_parameter-editor_line-set_visibility-hidden-edges.png
 
       Proof of concept of visible and hidden edges by LightBWK
       (`Sample blend-file <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
@@ -43,7 +43,7 @@ QI Range
    Start and End
       Min/max number of occluding surfaces for a line to be rendered.
 
-   .. figure:: /images/render_freestyle_line-set_visibility_qi-range.png
+   .. figure:: /images/render_freestyle_parameter-editor_line-set_visibility-qi-range.png
 
       QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
       (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
@@ -57,7 +57,7 @@ parameter editor you have to choose at least one edge type in order to get a ren
 but several edge types can be combined in one line set.
 Edge types can also be excluded from calculation by pressing the *X* next to them.
 
-.. figure:: /images/render_freestyle_line-set_edge-types_basic.png
+.. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-basic.png
 
    Examples of some basic edge types:
    Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
@@ -66,12 +66,12 @@ Edge types can also be excluded from calculation by pressing the *X* next to the
 Silhouette
    Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
    and bad for sharp edges, like a box. It cannot render open mesh objects like open cylinders and flat planes.
-   The output is affected by the *Kr Derivative Epsilon* viewmap setting.
+   The output is affected by the *Kr Derivative Epsilon* view map setting.
 
 Crease
-   Shows only edges whose adjacent faces form an angle greater than the defined viewmap's *Crease Angle*.
+   Shows only edges whose adjacent faces form an angle greater than the defined view map's *Crease Angle*.
 
-   .. figure:: /images/render_freestyle_line-set_edge-types_crease.png
+   .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-crease.png
       :width: 600px
 
       Crease Angle proof of concept for 121º by LightBWK
@@ -92,14 +92,14 @@ Contour
 External Contour
    Draws the contour lines, but only on the outer edges.
 
-.. figure:: /images/render_freestyle_line-set_edge-types_contour.png
+.. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-contour.png
    :width: 600px
 
    Left pair: Contour; Right pair: External Contour.
 
 Suggestive Contour
    Draws some lines which would form the contour of the mesh if the viewport was shifted.
-   Depends on your viewmap settings for *Kr Derivative Epsilon* and *Sphere Radius*
+   Depends on your view map settings for *Kr Derivative Epsilon* and *Sphere Radius*
    (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
    <https://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
 
@@ -107,13 +107,13 @@ Material Boundary
    Draws lines where two materials meet on the same object.
 
 Ridge & Valley
-   Draws ridges and valleys. Depends on your *Sphere Radius* viewmap settings.
+   Draws ridges and valleys. Depends on your *Sphere Radius* view map settings.
 
 
 Edge Marks
 ^^^^^^^^^^
 
-.. figure:: /images/render_freestyle_line-set_edge-marks.png
+.. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks.png
 
    Edge Mark setting in the Line Sets tab.
 
@@ -130,7 +130,7 @@ This is done as follows:
 Edge marks are useful when you want to draw lines along particular mesh edges.
 The examples below explain the use of edge marks.
 
-.. figure:: /images/render_freestyle_line-set_edge-marks_mark-freestyle-edge.png
+.. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks-mark-freestyle-edge.png
 
    Marking Freestyle Edges in edit mode.
 
@@ -138,11 +138,11 @@ The examples below explain the use of edge marks.
 
 .. list-table::
 
-   * - .. figure:: /images/render_freestyle_line-set_edge-marks_example-1.png
+   * - .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks-example-1.png
 
           Render without Edge Marks.
 
-     - .. figure:: /images/render_freestyle_line-set_edge-marks_example-2.png
+     - .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks-example-2.png
 
           Render with Edge Marks enabled.
 
@@ -157,13 +157,13 @@ What are edge marks good for?
 
 What are edge marks not good for?
 
-- Round outer edges (use instead *Contour*/*External Contour*/*Silhouette*).
+- Round outer edges (use instead *Contour/External Contour/Silhouette*).
 
 
 Face Marks
 ----------
 
-.. figure:: /images/render_freestyle_line-set_face-marks.png
+.. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks.png
 
    Face mark options.
 
@@ -180,11 +180,11 @@ On the right is a render without face marks activated.
 
 .. list-table::
 
-   * - .. figure:: /images/render_freestyle_line-set_face-marks_example-1.png
+   * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-1.png
 
           Marked Faces (Edit Mode).
 
-     - .. figure:: /images/render_freestyle_line-set_face-marks_example-2.png
+     - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-2.png
 
           Render Output.
 
@@ -202,21 +202,21 @@ The image below shows the resulting combinations.
 
 .. list-table::
 
-   * - .. figure:: /images/render_freestyle_line-set_face-marks_example-3.png
+   * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-3.png
 
           Inclusive, One Face.
 
-     - .. figure:: /images/render_freestyle_line-set_face-marks_example-4.png
+     - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-4.png
 
           Inclusive, Both Faces.
 
 .. list-table::
 
-   * - .. figure:: /images/render_freestyle_line-set_face-marks_example-5.png
+   * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-5.png
 
           Exclusive, One Face.
 
-     - .. figure:: /images/render_freestyle_line-set_face-marks_example-6.png
+     - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-6.png
 
           Exclusive, Both Faces.
 

@@ -19,7 +19,7 @@ As with other modifier stacks in Blender, they are applied from top to bottom.
 The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbone
 geometry. It has two sets of independent options/effects:
 
-.. figure:: /images/render_freestyle_line-style_geometry_2d-offset.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-offset.png
 
 Start and End
    These two options add the given amount of offset to the start (or end) point of the stroke, along the (2D)
@@ -40,7 +40,7 @@ stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
 
-.. figure:: /images/render_freestyle_line-style_geometry_2d-transform.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-transform.png
 
 Stroke Center
    The median point of the stroke.
@@ -65,7 +65,7 @@ Scale X and Scale Y
 Rotation Angle
    The rotation angle.
 
-.. figure:: /images/render_freestyle_line-style_geometry_2d-transform_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-transform-example.png
    :width: 430px
 
    2D Transform modifier
@@ -77,7 +77,7 @@ Rotation Angle
 Backbone Stretcher
 ==================
 
-.. figure:: /images/render_freestyle_line-style_geometry_backbone-stretcher.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_backbone-stretcher.png
 
 The *Backbone Stretcher* modifier stretches (adds some length to)
 the beginning and end of the stroke.
@@ -91,14 +91,14 @@ Backbone Length
 Bézier Curve
 ============
 
-.. figure:: /images/render_freestyle_line-style_geometry_bezier-curve.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_bezier-curve.png
 
 The *Bézier Curve* modifier replaces the stroke by a Bézier approximation of it.
 
 Error
    The maximum distance allowed between the new Bézier curve and the original stroke.
 
-.. figure:: /images/render_freestyle_line-style_geometry_bezier-curve_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_bezier-curve-example.png
    :width: 430px
 
    Bézier Curve modifier demo by T.K.
@@ -115,7 +115,7 @@ elliptical, or square contours. A blueprint here refers to those lines drawn at 
 of free-hand drawing to capture the silhouette of objects with a simple shape such as circles,
 ellipses and squares.
 
-.. figure:: /images/render_freestyle_line-style_geometry_blueprint.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_blueprint.png
 
 Shape
    Which base shapes to use for this blueprint: *Circles*, *Ellipses* or *Squares*.
@@ -143,7 +143,7 @@ Guiding Lines
 The *Guiding Lines* modifier replaces a stroke by a straight line connecting both of
 its ends.
 
-.. figure:: /images/render_freestyle_line-style_geometry_guiding-lines.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_guiding-lines.png
 
 Offset
    Offset the start and end points along the original stroke, before generating the new straight one.
@@ -153,7 +153,7 @@ because shorter strokes are more likely to be well approximated by straight line
 it is recommended to use this modifier together with one of the splitting options
 (by 2D angle or by 2D length) from the *Strokes* panel.
 
-.. figure:: /images/render_freestyle_line-style_geometry_guiding-lines_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_guiding-lines-example.png
    :width: 430px
 
    Guiding Lines modifier Demo by T.K.
@@ -173,7 +173,7 @@ noise function to generate noisy displacements.
 This means that this modifier will give an identical result for two strokes with the same length and sampling
 interval.
 
-.. figure:: /images/render_freestyle_line-style_geometry_perlin-noise-1d.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_perlin-noise-1d.png
 
 Frequency
    How dense the noise is (kind of a scale factor along the stroke).
@@ -192,7 +192,7 @@ Angle
 Perlin Noise 2D
 ===============
 
-.. figure:: /images/render_freestyle_line-style_geometry_perlin-noise-2d.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_perlin-noise-2d.png
 
 The *Perlin Noise 2D* modifier adds one-dimensional Perlin noise to the stroke. The modifier generates noisy
 displacements using 2D coordinates of stroke vertices as the input of the noise generator.
@@ -205,7 +205,7 @@ Its settings are exactly the same as the *Perlin Noise 1D* modifier.
 Polygonization
 ==============
 
-.. figure:: /images/render_freestyle_line-style_geometry_polygonization.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_polygonization.png
 
 The *Polygonization* modifier simplifies strokes as much as possible
 (in other words, it transforms smooth strokes into jagged polylines).
@@ -223,7 +223,7 @@ Sampling
 The *Sampling* modifier changes the definition, precision of the stroke,
 for the following modifiers.
 
-.. figure:: /images/render_freestyle_line-style_geometry_sampling.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_sampling.png
 
 Sampling
    The smaller this value, the more precise are the strokes.
@@ -238,13 +238,13 @@ Simplification
 The *Simplification* modifier merges stroke vertices that lie close to one another,
 like the *Decimate* modifier for meshes.
 
-.. figure:: /images/render_freestyle_line-style_geometry_simplification.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_simplification.png
 
 Tolerance
    Measure for how close points have to be to each other to be merged.
    A higher tolerance means more vertices are merged.
 
-.. figure:: /images/render_freestyle_line-style_geometry_simplification_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_simplification-example.png
    :width: 600px
    :align: center
 
@@ -256,7 +256,7 @@ Sinus Displacement
 
 The *Sinus Displacement* modifier adds a sinusoidal displacement to the stroke.
 
-.. figure:: /images/render_freestyle_line-style_geometry_sinus-displacement.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_sinus-displacement.png
 
 Wavelength
    How wide the undulations are along the stroke.
@@ -265,7 +265,7 @@ Amplitude
 Phase
    Allows "offsetting" ("moving") the undulations along the stroke.
 
-.. figure:: /images/render_freestyle_line-style_geometry_sinus-displacement_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_sinus-displacement-example.png
    :width: 430px
 
    Sinus Displacement modifier demo by T.K.
@@ -281,7 +281,7 @@ The *Spatial Noise* modifier adds some spatial noise to the stroke.
 Spatial noise displacements are added in the normal direction
 (i.e. the direction perpendicular to the tangent line) evaluated at each stroke vertex.
 
-.. figure:: /images/render_freestyle_line-style_geometry_spatial-noise.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_spatial-noise.png
 
 Amplitude
    How much the noise distorts the stroke.
@@ -303,7 +303,7 @@ Tip Remover
 
 The *Tip Remover* modifier removes a piece of the stroke at its beginning and end.
 
-.. figure:: /images/render_freestyle_line-style_geometry_tip-remover.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_tip-remover.png
 
 Tip Length
    Length of stroke to remove at both of its tips.

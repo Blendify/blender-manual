@@ -1,8 +1,8 @@
 .. _bpy.types.FreestyleSettings:
 
-********
-Viewmaps
-********
+*********
+View maps
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -13,7 +13,7 @@ Viewmaps
 
    Freestyle panel.
 
-There is only one viewmap per render layer. It controls the edge detection parameters.
+There is only one view map per render layer. It controls the edge detection parameters.
 
 Control Mode
    Which detected edges are actually rendered, and how, can be controlled either through:

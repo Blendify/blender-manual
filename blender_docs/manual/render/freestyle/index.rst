@@ -10,7 +10,7 @@
 
    introduction.rst
    core.rst
-   viewmap.rst
+   view_map.rst
    parameter_editor/index.rst
    python.rst
    line.rst
