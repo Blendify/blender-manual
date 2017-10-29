@@ -7,7 +7,7 @@ Voronoi
 The voronoi texture is used to generate very convincing Metal,
 especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
 
-.. figure:: /images/render_blender-render_textures_procedural_voronoi.png
+.. figure:: /images/render_blender-render_textures_types_procedural_voronoi_panel.png
 
    Voronoi Texture Panels.
 
@@ -42,32 +42,32 @@ Distance Metric
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_textures_procedural_voronoi_minkovsky0_5.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky0-5.jpg
           :width: 200px
 
           Minkovsky Exponent: 0.5 (Minkovsky 1/2).
 
-     - .. figure:: /images/render_blender-render_textures_procedural_voronoi_minkovsky1.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky1.jpg
           :width: 200px
 
           Minkovsky Exponent: 1 (Manhattan).
 
-     - .. figure:: /images/render_blender-render_textures_procedural_voronoi_minkovsky2.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky2.jpg
           :width: 200px
 
           Minkovsky Exponent: 2 (Actual Distance).
 
-   * - .. figure:: /images/render_blender-render_textures_procedural_voronoi_minkovsky4.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky4.jpg
           :width: 200px
 
           Minkovsky Exponent: 4 (Minkovsky 4).
 
-     - .. figure:: /images/render_blender-render_textures_procedural_voronoi_minkovsky10.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky10.jpg
           :width: 200px
 
           Minkovsky Exponent: 10 (Chebychev).
 
-     - .. figure:: /images/render_blender-render_textures_procedural_voronoi_distancesquared.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_distancesquared.jpg
           :width: 200px
 
           Distance Squared (more contrast than Actual Distance).

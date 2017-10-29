@@ -14,7 +14,7 @@ Then select *Collision* as the *Smoke Type*.
 Options
 =======
 
-.. figure:: /images/physics_smoke_type_collisions_settings.png
+.. figure:: /images/physics_smoke_types_collisions_settings.png
    :align: right
 
    *Smoke Collision* settings.

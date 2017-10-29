@@ -3,7 +3,7 @@
 Fixed
 *****
 
-.. figure:: /images/physics_rigid-body_constraints_fixed.png
+.. figure:: /images/physics_rigid-body_constraints_types_fixed_panel-example.png
    :width: 500px
 
    Options available to a *Fixed* constraint.

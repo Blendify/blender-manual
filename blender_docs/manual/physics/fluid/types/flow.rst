@@ -12,7 +12,7 @@ you can set objects in the scene to add or absorb fluid within the :doc:`Fluid D
 Inflow
 ======
 
-.. figure:: /images/physics_fluid_types_inflow.jpg
+.. figure:: /images/physics_fluid_types_flow_inflow.jpg
 
    Fluid Inflow Settings.
 
@@ -38,7 +38,7 @@ Animated Mesh/Export
 Outflow
 =======
 
-.. figure:: /images/physics_fluid_types_outflow.jpg
+.. figure:: /images/physics_fluid_types_flow_outflow.jpg
 
    Fluid Outflow Settings.
 

@@ -9,7 +9,7 @@ Clouds represent Perlin noise. In addition, each noise-based Blender texture
 user to select which algorithm is used to generate the texture. This is often used for
 Clouds, Fire, Smoke. Well-suited to be used as a Bump map, giving an overall irregularity to the material.
 
-.. figure:: /images/render_blender-render_textures_procedural_clouds.png
+.. figure:: /images/render_blender-render_textures_types_procedural_clouds_panel.png
 
    Clouds Texture Panels.
 

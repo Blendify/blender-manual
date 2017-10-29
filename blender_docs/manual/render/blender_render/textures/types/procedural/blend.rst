@@ -14,7 +14,7 @@ or to create nice effects (especially with the *Mapping: Normal* trick).
    Remember that if you use a ramp to create a custom blending, you may have to use *No RGB*,
    if the *Mapping* value needs an intensity input.
 
-.. figure:: /images/render_blender-render_textures_procedural_blend.png
+.. figure:: /images/render_blender-render_textures_types_procedural_blend_panel.png
 
    Blend Texture Panels.
 

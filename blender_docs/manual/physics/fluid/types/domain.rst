@@ -34,7 +34,7 @@ This object will be *replaced* by the fluid during the simulation.
 Options
 -------
 
-.. figure:: /images/physics_fluid_types_domain.jpg
+.. figure:: /images/physics_fluid_types_domain_panels.jpg
 
    Fluid Domain Settings.
 
@@ -48,11 +48,11 @@ Resolution
 
       .. list-table::
 
-         * - .. figure:: /images/physics_fluid_types_domain_resolution_low.jpg
+         * - .. figure:: /images/physics_fluid_types_domain_resolution-low.jpg
 
                 10cm mug at Resolution 70.
 
-           - .. figure:: /images/physics_fluid_types_domain_resolution_high.jpg
+           - .. figure:: /images/physics_fluid_types_domain_resolution-high.jpg
 
                 10cm mug at Resolution 200.
 
@@ -252,7 +252,7 @@ Optimization
 Fluid Boundary
 ==============
 
-.. figure:: /images/physics_fluids_types_domain_boundary_panel.jpg
+.. figure:: /images/physics_fluid_types_domain_boundary-panel.jpg
    :width: 300px
 
    The Fluid Boundary panel.
@@ -292,7 +292,7 @@ Surface
 Fluid Particles
 ===============
 
-.. figure:: /images/physics_fluids_types_domain_particles.png
+.. figure:: /images/physics_fluid_types_domain_particles.png
 
    The Fluid Particles panel.
 

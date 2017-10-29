@@ -4,7 +4,7 @@
 Fluid Particle
 **************
 
-.. figure:: /images/physics_fluid_types_partical.jpg
+.. figure:: /images/physics_fluid_types_particle_fluid-panel.jpg
    :width: 300px
 
    Fluid particle settings.
@@ -28,7 +28,7 @@ Influence
       The particles can have different sizes, if this value is 0 all are forced to be the same size.
 
    Alpha Influence
-      If this value is >0, the alpha values of the particles are changed according to their size.
+      If this value is greater zero, the alpha values of the particles are changed according to their size.
 
 Particle type
    Drops

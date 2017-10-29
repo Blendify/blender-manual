@@ -3,7 +3,7 @@
 Boid
 ****
 
-.. figure:: /images/physics_force-field_types_empty.png
+.. figure:: /images/physics_force-fields_introduction_empty.png
 
    Boid force field.
 
@@ -16,7 +16,7 @@ As with most artificial life simulations, Boids is an example of emergent behavi
 the complexity of Boids arises from the interaction of individual agents (the boids,
 in this case) adhering to a set of simple rules.
 
-.. figure:: /images/physics_force-field_types_boid.jpg
+.. figure:: /images/physics_force-fields_types_boid_panel.jpg
 
    UI for a Boid force field.
 

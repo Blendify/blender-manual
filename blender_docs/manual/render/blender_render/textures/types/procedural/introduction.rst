@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/render_blender-render_textures_procedural_menu.jpg
+.. figure:: /images/render_blender-render_textures_types_procedural_introduction_menu.jpg
    :width: 240px
 
    The Texture Type list in the Texture panel of the Texture Buttons. (Non procedural textures darkened out.).
@@ -48,52 +48,52 @@ The *Noise Basis* governs the structural appearance of the texture:
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-blender-original.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-blender-original.jpg
           :width: 160px
 
           Blender Original.
 
-     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f1.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-voronoi-f1.jpg
           :width: 160px
 
           Voronoi F1.
 
-     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f2-f1.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-voronoi-f2-f1.jpg
           :width: 160px
 
           Voronoi F2-F1.
 
-   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-original-perlin.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-original-perlin.jpg
           :width: 160px
 
           Original Perlin.
 
-     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f2.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-voronoi-f2.jpg
           :width: 160px
 
           Voronoi F2.
 
-     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-crackle.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-voronoi-crackle.jpg
           :width: 160px
 
           Voronoi Crackle.
 
-   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-improved-perlin.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-improved-perlin.jpg
           :width: 160px
 
           Improved Perlin.
 
-     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f3.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-voronoi-f3.jpg
           :width: 160px
 
           Voronoi F3.
 
-     - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-cell-noise.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-cell-noise.jpg
           :width: 160px
 
           Cell Noise.
 
-   * - .. figure:: /images/render_blender-render_textures_procedural_noise-basis-voronoi-f4.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_introduction_noise-basis-voronoi-f4.jpg
           :width: 160px
 
           Voronoi F4.

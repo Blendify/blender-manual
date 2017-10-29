@@ -4,7 +4,7 @@
 Fluid Object
 ************
 
-.. figure:: /images/physics_fluid_types_fluid.jpg
+.. figure:: /images/physics_fluid_types_fluid-object_fluid-panel.jpg
    :width: 300px
 
    Fluid object settings.
