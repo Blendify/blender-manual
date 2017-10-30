@@ -3,7 +3,7 @@
 Lamp Panel
 **********
 
-.. figure:: /images/render_blender-render_lighting_lights_lamp-panel.png
+.. figure:: /images/render_blender-render_lighting_lights_lamp-panel_panel.png
 
    Lamp tab.
 

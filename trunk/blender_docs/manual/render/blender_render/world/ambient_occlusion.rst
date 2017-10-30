@@ -37,7 +37,7 @@ which is a whitish yellow sunny kind of color on a bright-but-not-harshly-bright
 Options
 =======
 
-.. figure:: /images/render_blender-render_world_ambient-occlusion.png
+.. figure:: /images/render_blender-render_world_ambient-occlusion_panel.png
 
    The World panel with ambient color sliders highlighted.
 

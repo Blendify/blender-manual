@@ -10,7 +10,7 @@ The mapping specifies how the texture will ultimately wrap itself to the object.
 For example,
 a 2D image texture could be configured to wrap itself around a cylindrical shaped object.
 
-.. figure:: /images/render_blender-render_texture_mapping_panel_generated.png
+.. figure:: /images/render_blender-render_textures_properties_mapping_panel-generated.png
 
    Mapping panel.
 

@@ -58,17 +58,17 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_motion-blur_02.png
+   * - .. figure:: /images/render_blender-render_settings_motion-blur_02.png
           :width: 320px
 
           Frame 1 of the moving cube without Motion Blur.
 
-     - .. figure:: /images/render_blender-render_motion-blur_03.png
+     - .. figure:: /images/render_blender-render_settings_motion-blur_03.png
           :width: 320px
 
           Frame 2 of the moving cube without Motion Blur.
 
-.. figure:: /images/render_blender-render_motion-blur_04.png
+.. figure:: /images/render_blender-render_settings_motion-blur_04.png
    :width: 320px
 
    Frame 1 when Sampled Motion Blur is enabled and eight 'intermediate' frames are computed.
@@ -76,12 +76,12 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_motion-blur_05.png
+   * - .. figure:: /images/render_blender-render_settings_motion-blur_05.png
           :width: 320px
 
           The effect of an increased shutter value.
 
-     - .. figure:: /images/render_blender-render_motion-blur_06.png
+     - .. figure:: /images/render_blender-render_settings_motion-blur_06.png
           :width: 320px
 
           Even further increased shutter value.

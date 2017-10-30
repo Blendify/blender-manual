@@ -60,7 +60,7 @@ No Shadow
 Buffered Shadow
    *Buffered Shadows* are also known as depth map shadows.
    Shadows are created by calculating differences in the distance from the light to scene objects.
-   See :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`
+   See :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadow>`
    for full details on using this feature.
    Buffered shadows are more complex to set up and involve more faking,
    but the speed of rendering is a definite advantage.
@@ -125,4 +125,4 @@ Show Cone
    Draw a transparent cone in 3D View to visualize which objects are contained in it.
 Halo
    Adds a volumetric effect to the spot lamp.
-   See :doc:`Spot Halos </render/blender_render/lighting/lamps/spot/halos>`.
+   See :doc:`Spot Halos </render/blender_render/lighting/lamps/spot/halo>`.

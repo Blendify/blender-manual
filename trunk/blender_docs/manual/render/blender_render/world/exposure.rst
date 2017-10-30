@@ -70,12 +70,12 @@ so that the darker parts of the image will not be changed at all
 
           Range: 2.0.
 
-   * - .. figure:: /images/render_blender-render_world_exposure_denseteapot-range0_5.jpg
+   * - .. figure:: /images/render_blender-render_world_exposure_denseteapot-range0-5.jpg
           :width: 320px
 
           Range: 0.5.
 
-     - .. figure:: /images/render_blender-render_world_exposure_denseteapot-range2_0-exposure0_3.jpg
+     - .. figure:: /images/render_blender-render_world_exposure_denseteapot-range2-0-exposure0-3.jpg
           :width: 320px
 
           Range: 2.0, Exposure: 0.3.

@@ -4,7 +4,7 @@
 Spot Volumetric Effects
 ***********************
 
-.. figure:: /images/render_blender-render_lighting_lamps_halo_panel.png
+.. figure:: /images/render_blender-render_lighting_lamps_spot_halo_panel.png
    :width: 310px
 
    Spot lamps' Halo options.
@@ -18,7 +18,7 @@ Halo
    The *Halo* button allows a *Spot* lamp to have a volumetric effect applied to it.
    This button must be active if the volumetric effect is to be visible.
    Note that if you are using buffered shadows, you will have extra options described in the
-   :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>` page.
+   :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadow>` page.
 
 Intensity
    The *Intensity* slider controls how intense/dense the volumetric effect is that is generated
@@ -49,10 +49,10 @@ Step
    The halo effect can be greatly enhanced when using buffered shadows: when the halo's *Step* is not null,
    they can create "volumetric shadows".
    See the page about *Spot*
-   :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>` for more information.
+   :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadow>` for more information.
 
 .. seealso::
 
    - :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
    - :doc:`Spot Lamp </render/blender_render/lighting/lamps/spot/introduction>`
-   - :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`
+   - :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadow>`

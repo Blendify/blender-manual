@@ -110,7 +110,7 @@ Buffered Shadow Options
 
 In addition to the shadow options described above,
 there are further material properties which control buffered shadow features.
-See section on :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`
+See section on :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadow>`
 for further discussion of these techniques.
 
 Cast Buffer Shadow

@@ -16,7 +16,7 @@ controlled in the *Influence* panel.
 Surface and Wire materials
 ==========================
 
-.. figure:: /images/render_blender-render_textures_properties_influence_surface.png
+.. figure:: /images/render_blender-render_textures_properties_influence_introduction_surface.png
 
    Texture Influence panel for a Surface material.
 
@@ -90,7 +90,7 @@ Bump Mapping
 Volume materials
 ================
 
-.. figure:: /images/render_blender-render_textures_properties_influence_volume.png
+.. figure:: /images/render_blender-render_textures_properties_influence_introduction_volume.png
 
    Texture Influence panel for Volume material.
 
@@ -115,7 +115,7 @@ Reflection Color
 Halo materials
 ==============
 
-.. figure:: /images/render_blender-render_textures_properties_influence_halo.png
+.. figure:: /images/render_blender-render_textures_properties_influence_introduction_halo.png
 
    Texture Influence panel for a Halo material.
 
