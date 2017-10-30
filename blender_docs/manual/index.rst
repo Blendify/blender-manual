@@ -35,7 +35,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_interface.jpg
+         .. figure:: /images/index_interface.jpg
             :target: interface/index.html
 
          :doc:`/interface/index`
@@ -43,7 +43,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_editors.jpg
+         .. figure:: /images/index_editors.jpg
             :target: editors/index.html
 
          :doc:`/editors/index`
@@ -51,7 +51,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_data.jpg
+         .. figure:: /images/index_data.jpg
             :target: data_system/index.html
 
          :doc:`/data_system/index`
@@ -59,7 +59,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_modeling.jpg
+         .. figure:: /images/index_modeling.jpg
             :target: modeling/index.html
 
          :doc:`/modeling/index`
@@ -67,7 +67,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_painting.jpg
+         .. figure:: /images/index_painting.jpg
             :target: sculpt_paint/index.html
 
          :doc:`/sculpt_paint/index`
@@ -75,7 +75,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_rigging.jpg
+         .. figure:: /images/index_rigging.jpg
             :target: rigging/index.html
 
          :doc:`/rigging/index`
@@ -83,7 +83,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_animation.jpg
+         .. figure:: /images/index_animation.jpg
             :target: animation/index.html
 
          :doc:`/animation/index`
@@ -91,7 +91,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_physics.jpg
+         .. figure:: /images/index_physics.jpg
             :target: physics/index.html
 
          :doc:`/physics/index`
@@ -99,7 +99,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_render.jpg
+         .. figure:: /images/index_render.jpg
             :target: render/index.html
 
          :doc:`/render/index`
@@ -107,7 +107,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_compositing.jpg
+         .. figure:: /images/index_compositing.jpg
             :target: compositing/index.html
 
          :doc:`/compositing/index`
@@ -115,7 +115,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_game.jpg
+         .. figure:: /images/index_game.jpg
             :target: game_engine/index.html
 
          :doc:`/game_engine/index`
@@ -123,7 +123,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_preferences.jpg
+         .. figure:: /images/index_preferences.jpg
             :target: preferences/index.html
 
          :doc:`/preferences/index`
@@ -131,7 +131,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_advanced.jpg
+         .. figure:: /images/index_advanced.jpg
             :target: advanced/index.html
 
          :doc:`/advanced/index`
@@ -139,7 +139,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_troubleshooting.jpg
+         .. figure:: /images/index_troubleshooting.jpg
             :target: troubleshooting/index.html
 
          :doc:`/troubleshooting/index`
