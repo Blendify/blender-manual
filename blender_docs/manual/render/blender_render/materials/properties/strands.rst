@@ -91,7 +91,7 @@ Shape
 
    .. _fig-bi-material-shadow-shapes:
 
-   .. figure:: /images/render_blender-render_materials_strand_shapes.png
+   .. figure:: /images/render_blender-render_materials_properties_strands_shapes.png
 
       Various Shape settings.
 
@@ -153,7 +153,7 @@ and have activated *Interpolated Children*,
 the *Child Simplification* option appears.
 The strand render has options to remove child strands as the object's faces become smaller.
 
-.. figure:: /images/render_blender-render_materials_properties_strand-simplification.png
+.. figure:: /images/render_blender-render_materials_properties_strands_simplification.png
 
    Strand render child simplification.
 

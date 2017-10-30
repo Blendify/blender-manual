@@ -18,7 +18,7 @@ Blender can add this feature as a post-processing operation.
 Options
 =======
 
-.. figure:: /images/render_blender-render_post-processing-panel.png
+.. figure:: /images/render_blender-render_post-processing_edges_panel.png
 
    Toon edge buttons.
 

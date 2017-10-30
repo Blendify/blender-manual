@@ -42,7 +42,7 @@ The Shading panel then appears. This contains the following elements:
 To add a new material, click "+" in the Active Material box.
 This action has a series of effects:
 
-.. figure:: /images/render_blender-render_materials_assigning_material-panel-object-mode.png
+.. figure:: /images/render_blender-render_materials_assigning-a-material_panel-object-mode.png
 
    Materials Panel with New Entry.
 
@@ -153,7 +153,7 @@ different materials to the individual faces of the object.
 To apply several materials to different faces of the same object,
 you use the Material Slots options (3) in the Materials header panel.
 
-.. figure:: /images/render_blender-render_materials_assigning_material-panel-edit-mode.png
+.. figure:: /images/render_blender-render_materials_assigning-a-material_panel-edit-mode.png
 
    Material menu in edit mode.
 

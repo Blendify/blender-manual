@@ -3,7 +3,7 @@
 Options
 *******
 
-.. figure:: /images/render_blender-render_materials_properties_options.png
+.. figure:: /images/render_blender-render_materials_properties_options_panel.png
 
    Material Options panel.
 

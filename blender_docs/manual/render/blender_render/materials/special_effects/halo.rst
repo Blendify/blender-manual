@@ -97,7 +97,7 @@ Rings and an assortment of special effects are available with the relevant toggl
 which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 *Halo Variations* shows the result of applying a halo material to a single vertex mesh.
 
-.. figure:: /images/render_blender-render_materials_special-effects_halo02.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_halo_variations.jpg
 
    Halo Variations.
 
@@ -148,7 +148,7 @@ and disappears when another object occludes the flare mesh.
 
 .. _fig-bi-material-halo-flare:
 
-.. figure:: /images/render_blender-render_materials_special-effects_halo04.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_halo_lens-flare.jpg
    :width: 630px
 
    Lens Flare.

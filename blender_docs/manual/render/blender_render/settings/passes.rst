@@ -68,7 +68,7 @@ run the map back through that node to re-scale it back to the original before sa
 Selecting Render Passes
 =======================
 
-.. figure:: /images/render_blender-render_settings_renderlayer-panel.png
+.. figure:: /images/render_blender-render_settings_passes_panel.png
 
 Render Passes are the various distinct outputs that the renderer is able to generate.
 All of the following render outputs are normally combined into a single output known,

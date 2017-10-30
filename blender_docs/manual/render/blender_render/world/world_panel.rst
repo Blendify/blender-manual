@@ -24,7 +24,7 @@ Shows a view inside a sphere, on which the background textures are mapped.
 World (Background)
 ==================
 
-.. figure:: /images/render_blender-render_world_background_world-panel.png
+.. figure:: /images/render_blender-render_world_world-panel_panel.png
 
    World panel.
 
@@ -89,7 +89,7 @@ The World textures are accessible in the texture menu (just select *World* first
 then *Texture*. They are used much like the Materials textures,
 except for a couple of differences. The textures can be mapped according to:
 
-.. figure:: /images/render_blender-render_world_background_texture-coordinates.png
+.. figure:: /images/render_blender-render_world_world-panel_texture-coordinates.png
    :align: right
 
    Texture Coordinates select menu.
@@ -115,7 +115,7 @@ Texture Coordinates
 Influence
 ---------
 
-.. figure:: /images/render_blender-render_world_background_texture-influence.png
+.. figure:: /images/render_blender-render_world_world-panel_texture-influence.png
 
    Texture Influence panel.
 

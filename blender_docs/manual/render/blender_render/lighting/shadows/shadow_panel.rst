@@ -14,7 +14,7 @@ Shadow Method
    No Shadow
       The lamp casts no shadow.
    Buffered Shadow
-      The :doc:`Spot lamp </render/blender_render/lighting/lamps/spot/buffered_shadows>`
+      The :doc:`Spot lamp </render/blender_render/lighting/lamps/spot/buffered_shadow>`
       is the only lamp able to cast buffered shadows.
    Raytraced Shadows
       :doc:`Ray-traced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
@@ -33,17 +33,17 @@ Shadow color
 
    .. list-table::
 
-      * - .. figure:: /images/render_blender-render_lighting_shadow_spot-red_buffer_shadow.jpg
+      * - .. figure:: /images/render_blender-render_lighting_shadows_shadow-panel_spot-red-buffer-shadow.jpg
              :width: 190px
 
              Red colored shadow example.
 
-        - .. figure:: /images/render_blender-render_lighting_shadow_spot-green_buffer_shadow.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_shadow-panel_spot-green-buffer-shadow.jpg
              :width: 190px
 
              Green colored shadow example.
 
-        - .. figure:: /images/render_blender-render_lighting_shadow_spot-blue_buffer_shadow.jpg
+        - .. figure:: /images/render_blender-render_lighting_shadows_shadow-panel_spot-blue-buffer-shadow.jpg
              :width: 190px
 
              Blue colored shadow example.

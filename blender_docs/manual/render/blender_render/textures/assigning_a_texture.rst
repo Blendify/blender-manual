@@ -6,7 +6,7 @@ Assigning a Texture
 This page just shows how to add a texture to a slot.
 The :doc:`/render/blender_render/textures/texture_panel` is explained on the previous page.
 
-.. figure:: /images/render_blender-render_textures_texture-panel.png
+.. figure:: /images/render_blender-render_textures_texture-panel_panel.png
 
    Texture panel.
 
