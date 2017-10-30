@@ -7,7 +7,7 @@ After closing the splash, the startup scene is displayed in the 3D View
 if no other blend-file was loaded. A customized startup scene
 can be saved as a part of the :doc:`startup file </data_system/files/startup_file>`.
 
-.. figure:: /images/editors_3dview_startup_scene.png
+.. figure:: /images/editors_3dview_startup-scene_labels.png
 
    The Startup scene.
 
@@ -43,7 +43,7 @@ Grid Floor
    They meet at the origin, which is also the position of the *Cube*.
    The Grid Floor settings are in the :doc:`Display panel </editors/3dview/properties/panels>`.
 
-.. figure:: /images/editors_3dview_startup_scene_single.png
+.. figure:: /images/editors_3dview_startup-scene_single.png
 
    The elements of the startup scene.
 

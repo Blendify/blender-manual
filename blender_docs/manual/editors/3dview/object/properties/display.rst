@@ -6,7 +6,7 @@
 Display
 *******
 
-.. figure:: /images/editors_3dview_object_properties_display.png
+.. figure:: /images/editors_3dview_object_properties_display_panel.png
 
    Display panel.
 

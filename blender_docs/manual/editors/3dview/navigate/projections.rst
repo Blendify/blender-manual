@@ -17,12 +17,12 @@ These are demonstrated in the Fig. below.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_navigate_3d-view_view-orthographic.png
+   * - .. figure:: /images/editors_3dview_navigate_projections_view-orthographic.png
           :width: 320px
 
           Orthographic projections.
 
-     - .. figure:: /images/editors_3dview_navigate_3d-view_view-perspective.png
+     - .. figure:: /images/editors_3dview_navigate_projections_view-perspective.png
           :width: 320px
 
           Perspective projections.

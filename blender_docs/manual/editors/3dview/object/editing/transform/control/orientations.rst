@@ -22,7 +22,7 @@ as well as on transformation constraints
 This means that, when you press :kbd:`G-X`, it will constrain to the *global* X-axis,
 but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s X-axis.
 
-.. figure:: /images/editors_3dview_object_transform-control_transform-orientations_menu.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_orientations_menu.png
 
    Transform Orientations selector.
 
@@ -106,7 +106,7 @@ Custom Orientations
    | Panel:    :menuselection:`Properties region --> Transform Orientations`
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
-.. figure:: /images/editors_3dview_object_transform-control_transform-orientations_custom.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom.png
 
    Custom orientation.
 
@@ -218,7 +218,7 @@ The normal orientation manipulator will also change depending on what is selecte
 *Edit Mode* i.e. the orientation is based on the normal of the selection which will
 change depending on how many and which faces, edges or vertices are selected.
 
-.. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_orientation_options.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-options.png
 
    Transform manipulator orientation options.
 

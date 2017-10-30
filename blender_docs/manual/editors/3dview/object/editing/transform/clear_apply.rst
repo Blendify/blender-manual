@@ -22,7 +22,7 @@ The objects location and rotation values return to 0, and the scale returns to 1
 Options
 -------
 
-.. figure:: /images/editors_3dview_transform-control_object-transformations-clear-transformations.png
+.. figure:: /images/editors_3dview_object_editing_transform_clear-apply_clear-transformations.png
 
    Clear Transformation menu.
 
@@ -80,7 +80,7 @@ The Operator panel lets you choose the combination of transformations to apply.
 Options
 ^^^^^^^
 
-.. figure:: /images/editors_3dview_transform-control_object-transformations-apply-transformations.png
+.. figure:: /images/editors_3dview_object_editing_transform_clear-apply_apply-transformations.png
 
    Apply Transformation menu.
 

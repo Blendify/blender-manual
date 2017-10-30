@@ -1,7 +1,7 @@
 .. TODO. Wrong description in the section "In Edit Mode".
    Whether the last example image is informative?
 
-.. |pivot-icon| image:: /images/editors_3dview_object_transform-control_pivot-point.png
+.. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
 
 ******************
 Individual Origins
@@ -18,7 +18,7 @@ Individual Origins
 In Object Mode
 ==============
 
-.. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-around-center.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
 
    Rotation around individual origins.
 
@@ -40,11 +40,11 @@ Now let us examine: Rotation around the individual origins:
   the origin of each object (indicated by the red arrow)
   remains in place while the object rotates around it in the path shown by the black arrow.
 
-.. figure:: /images/editors_3dview_object_transform-control_pivot-point_individual-origins_objects-rotate.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_objects-rotate.png
 
    Rotation around individual origins (middle) compared to the median point (right).
 
-.. figure:: /images/editors_3dview_object_transform-control_pivot-point_individual-origins_objects-scale.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_objects-scale.png
 
    Scaling around individual origins (middle) compared to the median point (right).
 
@@ -59,12 +59,12 @@ Using Individual Origins in Face mode produces the most predictable results.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-faces.png
+   * - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-faces.png
           :width: 320px
 
           Rotation of individual faces with the pivot point indicated by the image text.
 
-     - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-grouped-faces.jpg
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-grouped-faces.jpg
           :width: 320px
 
           Rotation of grouped faces with the pivot point indicated by the image text.
@@ -75,12 +75,12 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-individual-faces.png
+   * - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-individual-faces.png
           :width: 320px
 
           Scaling with non-touching faces.
 
-     - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-group-fgon-faces.png
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-group-fgon-faces.png
           :width: 320px
 
           Scaling with touching faces.
@@ -88,7 +88,7 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 Groups of faces and Fgons can be scaled without their outside perimeter being deformed.
 However, the individual faces inside will not be scaled uniformly.
 
-.. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-anemone-example.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_anemone-example.jpg
    :width: 300px
 
    Modeling with faces and individual origins as the pivot point.

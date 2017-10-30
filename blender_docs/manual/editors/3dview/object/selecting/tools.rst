@@ -155,7 +155,7 @@ Select All by Layer
    | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Select All by Layer`
 
-.. figure:: /images/editors_3dview_select_allbylayer.png
+.. figure:: /images/editors_3dview_object_selecting_tools_all-by-layer.png
    :align: right
 
    All by Layer selection menu.

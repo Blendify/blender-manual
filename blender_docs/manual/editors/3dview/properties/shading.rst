@@ -71,7 +71,7 @@ Shading Panel
 
    | Panel:    :menuselection:`Properties region --> Shading`
 
-.. figure:: /images/editors_3dview_display_shading.png
+.. figure:: /images/editors_3dview_properties_shading_panel.png
    :align: right
 
    3D View Shading Panel.

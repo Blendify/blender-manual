@@ -3,7 +3,7 @@
 Axis Locking
 ************
 
-.. figure:: /images/editors_3dview_transform_control-axis_locking-axis-locking.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_z-axis.png
    :width: 150px
    :align: right
 
@@ -34,7 +34,7 @@ The axis of movement can be changed at any time during transformation by typing 
 Pointing
 --------
 
-   .. figure:: /images/editors_3dview_trans_basics_grab_mmb.jpg
+   .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_grab-mmb.jpg
 
       Axis-Constraint in action.
 
@@ -77,7 +77,7 @@ Plane locking
    | Hotkey:   :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
                after moving the mouse in the desired direction.
 
-.. figure:: /images/editors_3dview_transform_control-axis_locking-plane-locking.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_plane-locking.png
    :width: 150px
    :align: right
 
@@ -97,7 +97,7 @@ always constrained around one axis.
 Axis locking modes
 ------------------
 
-.. figure:: /images/editors_3dview_transform_control-axis_locking-locking-modes.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_locking-modes.png
    :width: 340px
 
    Axis locking modes.
