@@ -11,7 +11,7 @@ Camera View
    | Menu:     :menuselection:`View --> Camera --> Active Camera`
    | Hotkey:   :kbd:`Numpad0`
 
-.. figure:: /images/editors_3dview_navigate_3d-view_camera-view.png
+.. figure:: /images/editors_3dview_navigate_camera-view_example.png
 
    Demonstration of camera view.
 

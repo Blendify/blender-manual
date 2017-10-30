@@ -5,7 +5,7 @@ Object Modes
 
 .. _fig-view3d-mode-select:
 
-.. figure:: /images/editors_3dview-mode.jpg
+.. figure:: /images/editors_3dview_modes_menu.jpg
    :align: right
 
    The Mode select menu.

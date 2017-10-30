@@ -33,7 +33,7 @@ This option will move the object with high precision along with the snapping con
 Usage
 =====
 
-With hotkeys
+With Hotkeys
 ------------
 
 Press :kbd:`G`, :kbd:`R` or :kbd:`S` and then hold either :kbd:`Ctrl`,
@@ -65,7 +65,7 @@ Snapping
 Grab/move
 ---------
 
-.. figure:: /images/editors_3dview_transform_control_precision_blender-units.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_precision_introduction_blender-units.png
    :align: right
 
    1 Blender Unit (default zoom level).

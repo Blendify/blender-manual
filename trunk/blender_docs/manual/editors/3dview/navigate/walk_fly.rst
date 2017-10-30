@@ -16,7 +16,7 @@ try to navigate to a very distant object in the view with traditional methods
 
 With walk/fly modes you move, pan, tilt, and dolly the camera around without any of those limitations.
 
-.. figure:: /images/editors_3dview_navigate_3d-view_walk-fly-mode.png
+.. figure:: /images/editors_3dview_navigate_walk-fly_view-navigation-panel.png
 
    View Navigation.
 

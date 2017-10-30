@@ -25,12 +25,12 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_navigate_3d-view_local-view-1.png
+   * - .. figure:: /images/editors_3dview_navigate_views_local1.png
           :width: 320px
 
           Global View.
 
-     - .. figure:: /images/editors_3dview_navigate_3d-view_local-view-2.png
+     - .. figure:: /images/editors_3dview_navigate_views_local2.png
           :width: 320px
 
           Local View.
@@ -90,7 +90,7 @@ In this arrangement, you can zoom and pan each view independently but you cannot
    and aligning the view manually. In Quad View, the four views are still part of a single 3D View.
    So they share the same draw options and layers.
 
-.. figure:: /images/editors_3dview_navigate_3d-view_quad-view.png
+.. figure:: /images/editors_3dview_navigate_views_quad.png
 
    Quad View.
 

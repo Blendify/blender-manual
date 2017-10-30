@@ -16,7 +16,7 @@ Header
 The header contains various menus and controls based on the current
 :doc:`mode </editors/3dview/modes>`.
 
-.. figure:: /images/editors_3dview_header.png
+.. figure:: /images/editors_3dview_introduction_header.png
 
    3D View header.
 

@@ -1,4 +1,4 @@
-.. |pivot-icon| image:: /images/editors_3dview_object_transform-control_pivot-point.png
+.. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
 
 *******************
 Bounding Box Center
@@ -16,7 +16,7 @@ It is oriented parallel to the world axes. In this mode the pivot point lies at 
 You can set the pivot point to bounding box with :kbd:`Comma` or via the menu in the editors header.
 The image below shows how the Object's Bounding Box size is determined by the size of the Object.
 
-.. figure:: /images/editors_3dview_object_transform-control_pivot-point_bounding-box-center_demo.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_demo.png
 
    Relationship between an Object and its Bounding Box.
 
@@ -35,7 +35,7 @@ and B show rotation when the Object origin is in its default position, while ima
 Image E shows that when multiple Objects are selected,
 the pivot point is calculated based on the Bounding Box of all the selected Objects.
 
-.. figure:: /images/editors_3dview_transform_control-pivot_point-bounding_box_center-object-rotation.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_object-rotation.jpg
 
    The grid of four images on the left (ABCD) shows the results of Object rotation
    when the pivot point is set to Bounding Box.
@@ -50,11 +50,11 @@ This time it is the Object Data that is enclosed in the bounding box.
 The bounding box in *Edit Mode* takes no account of the Object(s) origins,
 only the center of the selected vertices.
 
-.. figure:: /images/editors_3dview_transform_control-pivot_point-bounding_box_center-edit-mode-rotation.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_edit-mode-rotation.jpg
 
    The effects of rotation in different mesh selection modes when the bounding box is set as the pivot point.
    The pivot point is shown by a yellow circle.
 
-.. figure:: /images/editors_3dview_object_transform-control_pivot-point_bounding-box-center_median-point.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_median-point.png
 
    The bounding box center compared to the median point.

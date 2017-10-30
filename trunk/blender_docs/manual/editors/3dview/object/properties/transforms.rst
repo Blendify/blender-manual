@@ -36,7 +36,7 @@ Use this panel to either edit or display the object's transform properties such 
 rotation and/or scaling. These fields change the object's origin and then affect the aspect
 of all of its *vertices* and faces.
 
-.. figure:: /images/editors_3dview_transform-control_properties.png
+.. figure:: /images/editors_3dview_object_properties_transforms_panel.png
    :align: right
 
    Transform Properties.

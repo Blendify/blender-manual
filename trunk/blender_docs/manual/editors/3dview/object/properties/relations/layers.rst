@@ -65,7 +65,7 @@ buttons in the header (see *3D View layer buttons*). To select a single layer,
 click the appropriate button with :kbd:`LMB`; to select more than one,
 use :kbd:`Shift-LMB` - doing this on an already active layer will deselect it.
 
-.. figure:: /images/editors_3dview_layers_header-layer-buttons.png
+.. figure:: /images/editors_3dview_object_properties_relations_layers_buttons.png
 
    3D View layer buttons.
 
@@ -99,7 +99,7 @@ especially lights and particles.
 Moving objects between layers
 -----------------------------
 
-.. figure:: /images/editors_3dview_layers_move-layer-menu.png
+.. figure:: /images/editors_3dview_object_properties_relations_layers_move-menu.png
 
    Layer selection.
 
@@ -108,14 +108,14 @@ press :kbd:`M` and then select the layer you want from the pop-up menu.
 Objects can also be on more than one layer at a time. To have an object on multiple layers,
 hold :kbd:`Shift` while clicking.
 
-.. figure:: /images/editors_3dview_layers_object-tab.png
+.. figure:: /images/editors_3dview_object_properties_relations_layers_object-tab.png
 
    Selection in the Object tab.
 
 Another way to view or change a selected object layer is via the *Relations* panel,
 in the *Object* tab.
 
-.. figure:: /images/editors_3dview_layers_relations-panel.png
+.. figure:: /images/editors_3dview_object_properties_relations_layers_relations-panel.png
 
    Layers in Object tab, Relations panel.
 

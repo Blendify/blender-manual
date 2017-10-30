@@ -32,7 +32,7 @@ To confirm the action, press :kbd:`LMB`.
 While Grab/Move is active, the amount of change in the X, Y,
 and Z coordinates is displayed at the bottom left corner of the 3D View editor.
 
-.. figure:: /images/editors_3dview_transform_basics_grab_display-values.png
+.. figure:: /images/editors_3dview_object_editing_transform_basics_grab-display-values.png
 
    Translation Display.
 
@@ -62,7 +62,7 @@ the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_po
 
 The angle of rotation will be displayed in the footer of the 3D View editor.
 
-.. figure:: /images/editors_3dview_transform_basics_rotate_display-values.png
+.. figure:: /images/editors_3dview_object_editing_transform_basics_rotate-display-values.png
 
    Rotation values.
 
@@ -96,14 +96,14 @@ decrease as the pointer is moved towards it. If the mouse pointer crosses from t
 :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>` to the opposite side,
 the scale will continue in the negative direction and flip the element.
 
-.. figure:: /images/editors_3dview_object_transform_basics_scale_basic-usage.png
+.. figure:: /images/editors_3dview_object_editing_transform_basics_scale-basic-usage.png
 
    Basic scale usage. From left to right, the panels show: the original Object,
    a scaled down Object, a scaled up Object and a scale-flipped Object.
 
 The amount of scaling will be displayed in the footer of the 3D View editor.
 
-.. figure:: /images/editors_3dview_transform_basics_scale_display-values.png
+.. figure:: /images/editors_3dview_object_editing_transform_basics_scale-display-values.png
 
    Scale values.
 

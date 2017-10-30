@@ -10,7 +10,7 @@
    | Mode:     Object Mode and Edit Mode
    | Header:   Pivot Point
 
-.. figure:: /images/editors_3dview_object_transform-control_pivot-point_modes.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_index_modes.png
    :align: right
 
    Pivot Point modes.

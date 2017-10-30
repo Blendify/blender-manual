@@ -3,7 +3,7 @@
 Numeric Input
 *************
 
-.. figure:: /images/editors_3dview_transform_control-numeric_input_numeric-input-header.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_precision_numeric-input_footer.png
 
    Numeric input displayed in the 3D View footer.
 

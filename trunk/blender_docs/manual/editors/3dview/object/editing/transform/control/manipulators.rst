@@ -1,4 +1,4 @@
-.. |manip-menu| image:: /images/editors_3dview_transform_control_manipulators_header.png
+.. |manip-menu| image:: /images/editors_3dview_object_editing_transform_control_manipulators_header.png
 
 ***************************
 Transformation Manipulators
@@ -15,7 +15,7 @@ The Transformation manipulator widgets allow mouse controlled translation, rotat
 There is a separate manipulator for each operation.
 Each manipulator can be used separately or in combination with the others.
 
-.. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_options.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options.png
 
    The different Manipulators.
 

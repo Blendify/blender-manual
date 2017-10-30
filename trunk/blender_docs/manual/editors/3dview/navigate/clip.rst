@@ -37,17 +37,17 @@ Example
 
 .. list-table:: Region/Volume clipping.
 
-   * - .. figure:: /images/editors_3dview_navigate_3d-view_clipping-border-1.png
+   * - .. figure:: /images/editors_3dview_navigate_clip_border1.png
           :width: 320px
 
           Selecting a region.
 
-     - .. figure:: /images/editors_3dview_navigate_3d-view_clipping-border-2.png
+     - .. figure:: /images/editors_3dview_navigate_clip_border2.png
           :width: 320px
 
           Region selected.
 
-     - .. figure:: /images/editors_3dview_navigate_3d-view_clipping-border-3.png
+     - .. figure:: /images/editors_3dview_navigate_clip_border3.png
           :width: 320px
 
           View rotated.

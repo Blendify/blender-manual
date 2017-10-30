@@ -1,4 +1,4 @@
-.. |pivot-icon| image:: /images/editors_3dview_object_transform-control_pivot-point.png
+.. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
 
 ************
 Median Point
@@ -28,7 +28,7 @@ Objects' mesh (geometric center).
 
 .. _fig-view3d-median-point-object-mode:
 
-.. figure:: /images/editors_3dview_object_transform-control_pivot-point_median-point_object-mode.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_median-point_object-mode.png
 
    Median points in Object Mode.
 
@@ -46,6 +46,6 @@ you can see that the median point has shifted to the region with the most vertic
 
 .. _fig-view3d-median-point-edit-mode:
 
-.. figure:: /images/editors_3dview_object_transform-control_pivot-point_median-point_edit-mode.png
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_median-point_edit-mode.png
 
    Median points in Edit Mode.
