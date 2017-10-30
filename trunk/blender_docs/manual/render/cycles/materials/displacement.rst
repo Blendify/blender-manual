@@ -84,7 +84,7 @@ compared to using the :doc:`Displace Modifier </modeling/modifiers/deform/displa
 However, These can be easy fixed with using a :doc:`Math Node </render/cycles/nodes/types/converter/math>`.
 In the example below is a node setup to give the same settings as the *Displace Modifier*.
 
-.. figure:: /images/render_cycles_displace-true_controls.png
+.. figure:: /images/render_cycles_materials_displacement_true-controls.png
 
    Math nodes used to add Mid-level and Strength.
 

@@ -58,7 +58,7 @@ Combining
 
 All these lighting passes can be combined to produce the final image as follows:
 
-.. figure:: /images/render_cycles_settings_passes-combine.png
+.. figure:: /images/render_cycles_settings_scene_render-layers_passes_combine.png
 
 
 Data Passes
