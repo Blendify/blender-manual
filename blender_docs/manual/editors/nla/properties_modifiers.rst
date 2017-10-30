@@ -12,7 +12,7 @@ Strip properties can be accessed via the NLA Properties region.
 Animation Data
 --------------
 
-.. figure:: /images/editors_nla_animation-data-panel.png
+.. figure:: /images/editors_nla_properties-modifiers_animation-data-panel.png
 
    Animation Data panel
 
@@ -53,7 +53,7 @@ Name
 Active Strip
 ------------
 
-.. figure:: /images/editors_nla_active-strip-panel.png
+.. figure:: /images/editors_nla_properties-modifiers_active-strip-panel.png
 
    Active Strip panel
 
@@ -86,7 +86,7 @@ Reversed
 Action Clip
 -----------
 
-.. figure:: /images/editors_nla_action-clip-panel.png
+.. figure:: /images/editors_nla_properties-modifiers_action-clip-panel.png
 
    Action Clip panel
 
@@ -115,7 +115,7 @@ Playback Settings
 Evaluation
 ----------
 
-.. figure:: /images/editors_nla_evaluation-panel.png
+.. figure:: /images/editors_nla_properties-modifiers_evaluation-panel.png
 
    Evaluation panel
 

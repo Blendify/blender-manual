@@ -92,7 +92,7 @@ Bézier
    The more powerful and useful interpolation, and the default one.
    It gives nicely smoothed curves, i.e. smooth animations!
 
-   .. figure:: /images/editors_graph-editor_fcurves_introduction_clean1.png
+   .. figure:: /images/editors_graph-editor_fcurves_editing_clean1.png
       :width: 300px
 
       Bézier.

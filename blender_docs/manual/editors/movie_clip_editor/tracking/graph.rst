@@ -3,7 +3,7 @@
 Graph View
 **********
 
-.. figure:: /images/editors_movie-clip_graph.png
+.. figure:: /images/editors_movie-clip-editor_tracking_graph_example.png
 
    Graph View.
 

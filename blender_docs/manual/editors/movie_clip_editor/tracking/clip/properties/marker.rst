@@ -41,7 +41,7 @@ Thin
 Marker Panel
 ============
 
-.. figure:: /images/editors_movie-clip_tracking_clip_properties_introduction_marker.svg
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_marker_parameter.svg
    :width: 350px
    :align: center
 

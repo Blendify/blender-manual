@@ -27,7 +27,7 @@ visible area. This can be compensated by animating the parameters for the intent
 Options
 =======
 
-.. figure:: /images/editors_movie-clip_2d_stabilization_panel.png
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_stabilization_panel_panel.png
    :align: right
    :width: 130px
 

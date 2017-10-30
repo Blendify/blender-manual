@@ -111,7 +111,7 @@ due to deliberate camera movement.
 In such a situation, we need *another tracked feature* to take on it's role, and we need some *overlap time*
 to get a smooth transition without visible jump.
 
-.. figure:: /images/editors_movie-clip_stabilization_irregular-tracks.png
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_stabilization_workflow_irregular-tracks.png
    :align: right
    :width: 250px
 

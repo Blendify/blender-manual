@@ -6,7 +6,7 @@ Tracking Marker
 Point
 =====
 
-.. figure:: /images/editors_movie-clip_tracking_clip_marker_schematic.svg
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_marker_schematic.svg
    :align: center
 
    Marker schematic.

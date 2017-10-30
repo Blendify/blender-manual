@@ -119,12 +119,12 @@ if they have been modified.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_graph-editor_fcurves_introduction_clean1.png
+   * - .. figure:: /images/editors_graph-editor_fcurves_editing_clean1.png
           :width: 320px
 
           F-Curve before cleaning.
 
-     - .. figure:: /images/editors_graph-editor_fcurves_introduction_clean2.png
+     - .. figure:: /images/editors_graph-editor_fcurves_editing_clean2.png
           :width: 320px
 
           F-Curve after cleaning.
@@ -167,7 +167,7 @@ seem to be never modified by this tool.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_graph-editor_fcurves_introduction_clean1.png
+   * - .. figure:: /images/editors_graph-editor_fcurves_editing_clean1.png
           :width: 320px
 
           F-Curve before smoothing.

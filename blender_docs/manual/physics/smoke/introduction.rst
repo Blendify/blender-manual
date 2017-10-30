@@ -14,7 +14,7 @@ textures representing the density, heat, and velocity of other fluids or suspend
 
 Smoke and fire are emitted into a :doc:`Domain </physics/smoke/types/domain>`
 from a mesh object or particle system. Smoke movement is controlled by airflow inside the domain,
-which can be influenced by :doc:`smoke collision objects </physics/smoke/types/collisions>`.
+which can be influenced by :doc:`smoke collision objects </physics/smoke/types/collision>`.
 Smoke will also be affected by scene gravity and :doc:`force fields </physics/force_fields/index>`.
 Airflow inside the domain can affect other physics simulations via the smoke flow force field.
 
@@ -30,7 +30,7 @@ A basic workflow looks like this:
    that defines the bounds of the simulation volume.
 #. Define a :doc:`Flow object </physics/smoke/types/flow_object>`
    or objects which will emit smoke and fire.
-#. Set :doc:`Collision objects </physics/smoke/types/collisions>`
+#. Set :doc:`Collision objects </physics/smoke/types/collision>`
    to make the smoke interact with objects in the scene.
 #. Assign a :doc:`Volumetric material </physics/smoke/material>`
    to the domain object.

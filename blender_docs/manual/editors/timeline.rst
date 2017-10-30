@@ -16,7 +16,7 @@ Timeline Editor
 The *Timeline* editor, identified by a clock icon, is not much of an editor,
 but more used to view information and control animation playback.
 
-.. figure:: /images/editors_timeline.png
+.. figure:: /images/editors_timeline_interface.png
 
    The Timeline.
 
@@ -245,7 +245,7 @@ Player Control
 
 These buttons are used to set, play, rewind, the *Time Cursor*.
 
-.. figure:: /images/editors_timeline_player_controls.png
+.. figure:: /images/editors_timeline_player-controls.png
    :align: right
 
    Player Controls.
@@ -271,7 +271,7 @@ Pause (|pause|) :kbd:`Alt-A`
 Synchronize Playback
 ^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/animation_red_fps.png
+.. figure:: /images/editors_timeline_red-fps.png
    :figwidth: 109px
    :align: right
 
@@ -301,7 +301,7 @@ Keyframe Control
 ^^^^^^^^^^^^^^^^
 
 Auto Keyframe
-   .. figure:: /images/editors_info_keyframes-auto.png
+   .. figure:: /images/editors_timeline_keyframes-auto.png
       :align: right
 
       Timeline Auto Keyframe.

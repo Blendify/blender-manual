@@ -21,7 +21,7 @@ Curve View
 
 Here you can see and edit the curves and keyframes.
 
-.. figure:: /images/editors_graph-editor_introduction_graph_curve.png
+.. figure:: /images/editors_graph-editor_introduction_graph-curve.png
 
    A curve with different types of interpolation.
 
@@ -150,7 +150,7 @@ Mode
 F-Curve for :doc:`Actions </animation/actions>`,
 and Drivers for :doc:`Drivers </animation/drivers/index>`.
 
-.. figure:: /images/editors_graph-editor_introduction_header_mode.jpg
+.. figure:: /images/editors_graph-editor_introduction_header-mode.jpg
 
    Graph Mode.
 
@@ -158,7 +158,7 @@ and Drivers for :doc:`Drivers </animation/drivers/index>`.
 View Controls
 -------------
 
-.. figure:: /images/editors_graph-editor_introduction_header_view.png
+.. figure:: /images/editors_graph-editor_introduction_header-view.png
 
    View Controls.
 
@@ -198,7 +198,7 @@ Normalize
 Curve Controls
 --------------
 
-.. figure:: /images/editors_graph-editor_introduction_header_edit.png
+.. figure:: /images/editors_graph-editor_introduction_header-edit.png
 
    Curve Controls.
 

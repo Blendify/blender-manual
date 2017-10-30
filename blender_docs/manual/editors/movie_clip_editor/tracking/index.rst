@@ -10,4 +10,4 @@
    introduction.rst
    clip/index.rst
    graph.rst
-   dopesheet.rst
+   dope_sheet.rst

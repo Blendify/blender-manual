@@ -26,7 +26,7 @@ There are several methods of adding new keys. Namely:
 Auto Keyframe
 -------------
 
-.. figure:: /images/editors_info_keyframes-auto.png
+.. figure:: /images/editors_timeline_keyframes-auto.png
 
    Timeline Auto Keyframe.
 

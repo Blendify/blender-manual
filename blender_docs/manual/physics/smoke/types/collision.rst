@@ -1,8 +1,8 @@
 .. _bpy.types.SmokeCollSettings:
 
-**********
-Collisions
-**********
+*********
+Collision
+*********
 
 *Smoke Collision* objects are used to deflect smoke and influence airflow.
 
@@ -14,7 +14,7 @@ Then select *Collision* as the *Smoke Type*.
 Options
 =======
 
-.. figure:: /images/physics_smoke_types_collisions_settings.png
+.. figure:: /images/physics_smoke_types_collision_settings.png
    :align: right
 
    *Smoke Collision* settings.

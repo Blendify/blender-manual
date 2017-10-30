@@ -3,7 +3,7 @@
 Dope Sheet View
 ***************
 
-.. figure:: /images/editors_movie-clip_dopesheet.png
+.. figure:: /images/editors_movie-clip-editor_tracking_dope-sheet_example.png
 
    Dope Sheet View.
 
@@ -27,7 +27,7 @@ Rather, adding more tracks on bad feature points will reduce the accuracy of sol
 Header
 =======
 
-.. figure:: /images/editors_movie-clip_dopesheet_sort.png
+.. figure:: /images/editors_movie-clip-editor_tracking_dope-sheet_sort.png
    :align: right
 
    Sort Channels Order.

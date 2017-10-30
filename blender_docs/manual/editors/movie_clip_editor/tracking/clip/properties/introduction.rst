@@ -9,7 +9,7 @@ Introduction
 Objects Panel
 =============
 
-.. figure:: /images/editors_movie-clip_objects_panel.jpg
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_introduction_objects-panel.jpg
    :align: right
    :width: 130px
 
@@ -34,7 +34,7 @@ refining of camera intrinsics happens when solving camera motion only.
 Track Panel
 ===========
 
-.. figure:: /images/editors_movie-clip_track_panel.png
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_introduction_track-panel.png
    :align: right
    :width: 130px
 
@@ -120,7 +120,7 @@ Custom Color
 Plane Track Panel
 =================
 
-.. figure:: /images/editors_movie-clip_plane_track_panel.png
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_introduction_plane-track-panel.png
    :align: right
    :width: 130px
 
