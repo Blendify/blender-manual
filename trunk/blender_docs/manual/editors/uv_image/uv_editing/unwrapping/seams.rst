@@ -6,7 +6,7 @@ Seams
 Introduction
 ============
 
-.. figure:: /images/editors_uv_image_uv_editing_unwrapping_seam_simple.png
+.. figure:: /images/editors_uv-image_uv-editing_unwrapping_seams_simple.png
    :width: 300px
 
    Simple Seam on a Cylinder.
@@ -43,7 +43,7 @@ The workflow is the following:
 Marking Seams
 =============
 
-.. figure:: /images/editors_uv_image_uv_editing_unwrapping_seams.png
+.. figure:: /images/editors_uv-image_uv-editing_unwrapping_seams_suzanne.png
    :width: 250px
 
    Seamed Suzanne.
@@ -92,3 +92,5 @@ the right side of the face will match the left, etc.
 
 Mark Seams from Island
 ----------------------
+
+ToDo.

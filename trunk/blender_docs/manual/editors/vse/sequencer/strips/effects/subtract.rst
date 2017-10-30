@@ -4,7 +4,7 @@
 Subtract Effect
 ***************
 
-.. figure:: /images/editors_sequencer_strips_subtract.png
+.. figure:: /images/editors_vse_sequencer_strips_effects_subtract_example.png
 
    Subtract Effect.
 

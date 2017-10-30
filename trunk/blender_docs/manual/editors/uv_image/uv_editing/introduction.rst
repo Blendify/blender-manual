@@ -6,7 +6,7 @@ Introduction
 Header
 ======
 
-.. figure:: /images/editors_uv-image_texturing-header.png
+.. figure:: /images/editors_uv-image_uv-editing_introduction_texturing-header.png
 
    UV/Image Editor Header.
 
@@ -45,7 +45,7 @@ Properties Region
 UV Vertex Panel
 ---------------
 
-.. figure:: /images/editors_uv-image_uv-vertex.png
+.. figure:: /images/editors_uv-image_uv-editing_introduction_uv-vertex.png
    :align: right
 
    UV Vertex Panel.

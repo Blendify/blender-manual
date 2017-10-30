@@ -9,7 +9,7 @@
 Modifiers Panel
 ***************
 
-.. figure:: /images/editors_sequencer_properties_modifiers.png
+.. figure:: /images/editors_vse_sequencer_properties_modifiers_panel.png
    :align: right
 
 Modifiers are used to make adjustments on the image, like contrast,

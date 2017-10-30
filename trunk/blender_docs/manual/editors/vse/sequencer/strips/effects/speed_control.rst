@@ -36,7 +36,7 @@ Examples
 Creating a Slow-Motion Effect
 -----------------------------
 
-.. figure:: /images/editors_sequencer_strips_speed-control.jpg
+.. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_example.jpg
    :width: 300px
 
    50% Slow motion using Speed Control.
@@ -63,7 +63,7 @@ That is it, set your render to animate (in this example) all 550 frames.
 Keyframing the Speed Control
 ----------------------------
 
-.. figure:: /images/editors_sequencer_strips_types_effects_speed-control_keyframing.png
+.. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_keyframing.png
    :align: right
 
    Keyframing the Frame number.

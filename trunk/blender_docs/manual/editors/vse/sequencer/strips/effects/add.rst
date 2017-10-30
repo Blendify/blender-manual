@@ -28,7 +28,7 @@ Example
 
 .. only:: builder_html
 
-   .. figure:: /images/editors_sequencer_strips_add-example.gif
+   .. figure:: /images/editors_vse_sequencer_strips_effects_add_example.gif
       :align: right
 
       Can you hear the thunder?
@@ -43,4 +43,4 @@ the whole image seems to flash.
 .. only:: latex or epub
 
    The image described above can be found at:
-   https://docs.blender.org/manual/en/dev/_images/editors_sequencer_strips_add-example.gif
+   https://docs.blender.org/manual/en/dev/_images/editors_vse_sequencer_strips_effects_add_example.gif

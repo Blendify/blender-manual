@@ -6,7 +6,7 @@ Introduction
 Header
 ======
 
-.. figure:: /images/editors_sequencer_introduction_header.png
+.. figure:: /images/editors_vse_sequencer_introduction_header.png
 
    Video Sequencer Header.
 

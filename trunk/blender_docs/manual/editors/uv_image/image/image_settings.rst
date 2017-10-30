@@ -4,7 +4,7 @@
 Image Settings
 **************
 
-.. figure:: /images/editors_uv-image_image-settings_movie-image-panel.png
+.. figure:: /images/editors_uv-image_image_image-settings_movie-image-panel.png
    :align: right
 
    Image panel.
@@ -79,11 +79,11 @@ Image generated in Blender or preloaded.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_uv-image_image-settings_generated-image-panel.png
+   * - .. figure:: /images/editors_uv-image_image_image-settings_generated-image-panel.png
 
           Image panel for Generated source.
 
-     - .. figure:: /images/editors_uv-image_image-settings_generated-new-image.png
+     - .. figure:: /images/editors_uv-image_image_image-settings_generated-new-image.png
 
           The New Image pop-up menu.
 

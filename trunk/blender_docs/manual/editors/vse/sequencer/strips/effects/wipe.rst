@@ -4,7 +4,7 @@
 Wipe
 ****
 
-.. figure:: /images/editors_sequencer_strips_wipe.png
+.. figure:: /images/editors_vse_sequencer_strips_effects_wipe_example.png
    :align: right
 
    Wipe Effect Settings.

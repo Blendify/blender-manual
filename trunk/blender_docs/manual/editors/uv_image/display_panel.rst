@@ -5,7 +5,7 @@ Display Panel
 
 You can set the editors display options in this panel.
 
-.. figure:: /images/editors_uv-image_display.png
+.. figure:: /images/editors_uv-image_display-panel_panel.png
    :align: right
 
    Display Panel.

@@ -42,7 +42,7 @@ UV maps always include the whole mesh.
 UV Maps Panel
 =============
 
-.. figure:: /images/editors_3dview_object_properties_uvmaps.png
+.. figure:: /images/editors_uv-image_uv-editing_layout-management_uv-maps.png
 
    The UV Maps panel in the Mesh tab.
 

@@ -13,7 +13,7 @@ to generate the proxy clip and it will be available after Blender makes it.
 Proxy
 =====
 
-.. figure:: /images/editors_sequencer_timecode.png
+.. figure:: /images/editors_vse_sequencer_properties_proxy-timecode_panel.png
    :align: right
 
 A proxy is a lower resolution version (faster to load) that stands in for the main image or video.
