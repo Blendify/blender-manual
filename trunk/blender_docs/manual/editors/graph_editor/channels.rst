@@ -6,7 +6,7 @@ Channels
 Channels Region
 ===============
 
-.. figure:: /images/editors_graph-editor_introduction_channels-region.png
+.. figure:: /images/editors_graph-editor_channels_region.png
 
    The Channels Region.
 

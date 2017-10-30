@@ -26,7 +26,7 @@ Transitions interpolate between Actions. They must be placed in between other st
 Select two or more strips on the same track,
 and go to: :menuselection:`Add --> Transition`.
 
-.. figure:: /images/editors_nla-basics_transition.png
+.. figure:: /images/editors_nla_strips_basics-transition.png
 
    Transition Strip.
 
@@ -53,12 +53,12 @@ A meta strip can be moved and duplicated like a normal strip.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_nla_meta_strips_01.png
+   * - .. figure:: /images/editors_nla_strips_meta1.png
           :width: 200px
 
           Shift-select two or more strips.
 
-     - .. figure:: /images/editors_nla_meta_strips_02.png
+     - .. figure:: /images/editors_nla_strips_meta2.png
           :width: 200px
 
           Combine them into a meta strip.
@@ -89,12 +89,12 @@ The keyframes of the action can then be edited in the Dope Sheet.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_nla_strip_nla_mode.png
+   * - .. figure:: /images/editors_nla_strips_nla-mode.png
           :width: 200px
 
           Strip in NLA mode.
 
-     - .. figure:: /images/editors_nla_strip_editmode.png
+     - .. figure:: /images/editors_nla_strips_edit-mode.png
           :width: 200px
 
           Strip in Tweak mode.
@@ -146,7 +146,7 @@ Now, when any strip is tweaked, the others will change too.
 If a strip other than the original is tweaked,
 the original will turn to red.
 
-.. figure:: /images/editors_nla_linked-strip-edit.png
+.. figure:: /images/editors_nla_strips_linked-strip-edit.png
 
    Linked duplicated strip being edited.
 

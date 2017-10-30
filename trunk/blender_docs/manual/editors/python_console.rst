@@ -21,7 +21,7 @@ Accessing Built-in Python Console
 By pressing :kbd:`Shift-F4` in any Blender Editor type (3D View, Timeline, etc.)
 you can change it to a Console Editor.
 
-.. figure:: /images/editors_python-console_1-default.png
+.. figure:: /images/editors_python-console_default.png
 
 The command prompt is typical for Python 3.x,
 the interpreter is loaded and is ready to accept commands at the prompt ``>>>``
@@ -33,7 +33,7 @@ First look at the Console Environment
 To check what is loaded into the interpreter environment, type ``dir()``
 at the prompt and execute it.
 
-.. figure:: /images/editors_python-console_2-dir.png
+.. figure:: /images/editors_python-console_dir.png
 
 
 Auto Completion
@@ -42,7 +42,7 @@ Auto Completion
 Now, type ``bpy.`` and then press :kbd:`Ctrl-Spacebar` and you will see the Console
 auto-complete feature in action.
 
-.. figure:: /images/editors_python-console_3-completion.png
+.. figure:: /images/editors_python-console_completion.png
 
 You will notice that a list of sub-modules inside of ``bpy`` appear. These modules encapsulate all
 that we can do with Blender Python API and are very powerful tools.
@@ -83,7 +83,7 @@ bpy.context
 
    For the commands below to show the proper output, make sure you have selected object(s) in the 3D View.
 
-.. figure:: /images/editors_python-console_4-bpy-context.png
+.. figure:: /images/editors_python-console_bpy-context.png
 
 
 Try it out!
@@ -151,7 +151,7 @@ That is a lot of data.
 Try it out!
 ^^^^^^^^^^^
 
-.. figure:: /images/editors_python-console_5-bpy-data.png
+.. figure:: /images/editors_python-console_bpy-data.png
 
 
 Exercise
@@ -206,7 +206,7 @@ Press :kbd:`Enter` twice after entering the command at the shell prompt::
    for index in range(5):
        add_cube(location=(index * 3, 0, 0), layers=mylayers)
 
-.. figure:: /images/editors_python-console_6-bpy-ops.png
+.. figure:: /images/editors_python-console_bpy-ops.png
 
 
 Usage

@@ -5,7 +5,7 @@
   Editors
 ###########
 
-.. figure:: /images/editors_menu.png
+.. figure:: /images/editors_index_menu.png
    :align: right
 
    The Editor Type selector.

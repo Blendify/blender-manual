@@ -81,7 +81,7 @@ This panel is used to add properties to the active Keying Set.
 
    The Active Keying Set panel.
 
-.. figure:: /images/editors_graph-editor_introduction_channels-region.png
+.. figure:: /images/editors_graph-editor_channels_region.png
 
    The Graph Editors channels region with named groups.
 

@@ -8,7 +8,7 @@ Tracks are the layering system of the NLA. At its most basic level,
 it can help organize strips. But it also layers motion much like an image editor layers pixels --
 the bottom layer first, to the top, last.
 
-.. figure:: /images/editors_nla_tracks.png
+.. figure:: /images/editors_nla_tracks_example.png
 
    NLA Tracks and Strips.
 
@@ -32,7 +32,7 @@ by storing them into an action based on the name as the object you are working o
 Push Down (double down arrow peak icon)
    Turns the active action into a new NLA strip at the top of the NLA stack.
 
-   .. figure:: /images/editors_nla_push-down-button.png
+   .. figure:: /images/editors_nla_tracks_push-down-button.png
 
    Push Down action button.
 
@@ -42,15 +42,15 @@ Pin (pin icon)
    you will prefer the keys to remain on their original frames, regardless of where the strip is.
    To do so, hit the *unpin* icon, next to the strip.
 
-   .. figure:: /images/editors_nla_pinned_01.png
+   .. figure:: /images/editors_nla_tracks_pin1.png
 
       NLA strip with pinned keys.
 
-   .. figure:: /images/editors_nla_pin_02.png
+   .. figure:: /images/editors_nla_tracks_pin2.png
 
       Strip moved, notice the keys move with it.
 
-   .. figure:: /images/editors_nla_pin_03.png
+   .. figure:: /images/editors_nla_tracks_pin3.png
 
       The unpinned keys return to their original frames.
 

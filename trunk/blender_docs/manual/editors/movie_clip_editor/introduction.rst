@@ -6,7 +6,7 @@ Introduction
 The Movie Clip Editor has two main purposes, it can be used for tracking or masking movies.
 The empty editor looks like the image below.
 
-.. figure:: /images/editors_movie-clip.png
+.. figure:: /images/editors_movie-clip-editor_introduction_interface.png
 
    Movie Clip Editor interface.
 
@@ -28,7 +28,7 @@ Movie Clip
    Both movie files and image sequences can be used in the Clip editor.
    When a movie clip is loaded into the clip editor, extra panels are displayed in the interface.
 
-.. figure:: /images/editors_movie-clip_example.jpg
+.. figure:: /images/editors_movie-clip-editor_introduction_example.jpg
 
    Movie Clip Editor with an Opened Clip.
 

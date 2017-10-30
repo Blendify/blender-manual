@@ -9,4 +9,4 @@
 
    domain.rst
    flow_object.rst
-   collisions.rst
+   collision.rst

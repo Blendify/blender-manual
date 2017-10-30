@@ -15,7 +15,7 @@ To give you a better understanding of the Logic Editor, the image below shows a 
 editor content in which the major components have been labeled.
 We will look at each one individually.
 
-.. figure:: /images/editors_logic_expanded_menus.png
+.. figure:: /images/editors_logic-editor_expanded-menus.png
 
    The different parts of the Logic Editor.
 

@@ -5,7 +5,7 @@
 Outliner
 ********
 
-.. figure:: /images/editors_outliner.png
+.. figure:: /images/editors_outliner_interface.png
 
    The Outliner editor.
 
