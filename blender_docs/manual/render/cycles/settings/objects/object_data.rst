@@ -49,7 +49,7 @@ Shadow Catcher
    It is to be noted that shadow catcher objects will interact with other CG objects via indirect light interaction.
    This feature makes it really easy to combine CGI elements into a real-life footage.
 
-   .. figure:: /images/render_cycles_settings_object_data_shadow-catcher.png
+   .. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.png
 
       Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
 

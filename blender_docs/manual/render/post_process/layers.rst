@@ -23,7 +23,7 @@ Layer List
 
    | Panel:    :menuselection:`Properties editor --> Scene --> Scene`
 
-.. figure:: /images/render_post-processing_layer-list.png
+.. figure:: /images/render_post-process_layers_list.png
 
    Layer list.
 
@@ -44,7 +44,7 @@ Layer Panel
 
    | Panel:    :menuselection:`Properties editor --> Scene --> Layer`
 
-.. figure:: /images/render_post-processing_layer-panel.png
+.. figure:: /images/render_post-process_layers_panel.png
 
    Layer panel.
 

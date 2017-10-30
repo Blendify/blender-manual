@@ -10,7 +10,7 @@ Post Processing Panel
 
 The Post Processing panel is used to control different options used to process your image after rendering.
 
-.. figure:: /images/render_post-processing_post-processing-panel.png
+.. figure:: /images/render_post-process_panel_panel.png
    :align: right
 
    Post Processing Panel.

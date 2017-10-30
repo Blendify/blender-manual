@@ -18,7 +18,7 @@ Simplify
 
    | Menu:     :menuselection:`Properties editor --> Scene --> Simplify`
 
-.. figure:: /images/render_cycles_settings_scene_simplify.png
+.. figure:: /images/render_cycles_settings_scene_introduction_simplify.png
 
 Texture Limit
    Automatically scales textures down so that they are no larger than the values chosen.

@@ -12,7 +12,7 @@ This includes render size, frame rate, pixel aspect ratio, output location, and 
 Dimensions panel
 ================
 
-.. figure:: /images/render_output_dimensions-panel.png
+.. figure:: /images/render_output_output_dimensions-panel.png
 
    Dimensions Panel.
 
@@ -64,7 +64,7 @@ Time Remapping
 Output Panel
 ============
 
-.. figure:: /images/render_output_output-panel.png
+.. figure:: /images/render_output_output_panel.png
 
    Output panel.
 

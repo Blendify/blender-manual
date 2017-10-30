@@ -21,7 +21,7 @@ Reflection and transmission rays can further have these properties:
 
 The Light Path node can be used to find out the type of ray the shading is being computed for.
 
-.. figure:: /images/render_cycles_settings_light-path-rays.png
+.. figure:: /images/render_cycles_settings_scene_render_light-paths_rays.png
 
 
 Bounce Control

@@ -3,7 +3,7 @@
 Metadata
 ********
 
-.. figure:: /images/render_output_metadata-panel.png
+.. figure:: /images/render_output_metadata_panel.png
 
    Metadata panel.
 

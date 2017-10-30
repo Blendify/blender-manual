@@ -9,7 +9,7 @@ Color management is one of the most important tools that an artist can use.
 It allows an artist to make sure that an image stays the same from rendering, to saving, to post processing.
 Color management also allows an artist to tweak things like exposure, gamma, or the overall color grade.
 
-.. figure:: /images/render_post-processing_different-exposures.jpg
+.. figure:: /images/render_post-process_color-management_different-exposures.jpg
    :width: 300px
    :align: right
 
@@ -30,7 +30,7 @@ are needed for rendering display and storage of images.
 Rendering and compositing is best done in scene *linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
-.. figure:: /images/render_post-processing_linear-workflow.png
+.. figure:: /images/render_post-process_color-management_linear-workflow.png
 
    An example of a linear workflow.
 
@@ -55,7 +55,7 @@ Settings
 
    | Panel:    :menuselection:`Properties editor --> Scene --> Color Management`
 
-.. figure:: /images/render_post-processing_color-management-panel.png
+.. figure:: /images/render_post-process_color-management_panel.png
 
    Scene settings for color management.
 
@@ -78,7 +78,7 @@ Display Device
 
    Color management can be disabled by setting the device to None.
 
-.. figure:: /images/render_post-processing_linear-display-space.png
+.. figure:: /images/render_post-process_color-management_linear-display-space.png
 
    Conversion from linear to display device space.
 
@@ -163,7 +163,7 @@ Color Space
    and on such values, no color space conversion should ever be applied.
    For such images, the color space should be set to *None*.
 
-.. figure:: /images/render_post_cm_image_settings.jpg
+.. figure:: /images/render_post-process_color-management_image-settings.jpg
 
    Image settings for color management.
 

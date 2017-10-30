@@ -3,7 +3,7 @@
 Render Panel
 ************
 
-.. figure:: /images/render_output_render-panel.png
+.. figure:: /images/render_output_render-panel_panel.png
    :align: right
 
    Render panel.
