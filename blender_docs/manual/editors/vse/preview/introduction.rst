@@ -29,7 +29,7 @@ Controls
 Several options in the header allow you change the editor
 to display the sequence in real time, and in various ways.
 
-.. figure:: /images/editors_sequencer_display-modes_header.png
+.. figure:: /images/editors_vse_preview_introduction_header.png
 
    Sequencer Display Header.
 

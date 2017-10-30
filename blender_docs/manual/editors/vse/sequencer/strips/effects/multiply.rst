@@ -4,7 +4,7 @@
 Multiply
 ********
 
-.. figure:: /images/editors_sequencer_strips_multiply.png
+.. figure:: /images/editors_vse_sequencer_strips_effects_multiply_example.png
    :width: 300px
 
    Multiply Effect.

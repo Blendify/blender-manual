@@ -5,7 +5,7 @@
 Cross & Gamma Cross
 *******************
 
-.. figure:: /images/editors_sequencer_strips_cross.png
+.. figure:: /images/editors_vse_sequencer_strips_effects_cross_example.png
 
    Cross Effect.
 

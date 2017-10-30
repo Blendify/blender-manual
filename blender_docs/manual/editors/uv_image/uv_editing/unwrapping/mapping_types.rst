@@ -53,7 +53,7 @@ Use this unwrapping option to reset the map and undo any unwrapping (go back to 
 Unwrap
 ======
 
-.. figure:: /images/editors_uv_image_uv_editing_unwrapping_unwrap-example.png
+.. figure:: /images/editors_uv-image_uv-editing_unwrapping_mapping-types_unwrap-example.png
    :width: 300px
 
    Result of unwrapping Suzanne.
@@ -107,7 +107,7 @@ Margin
 Smart UV Project
 ================
 
-.. figure:: /images/editors_uv_image_uv_editing_unwrapping_smart-project.png
+.. figure:: /images/editors_uv-image_uv-editing_unwrapping_mapping-types_smart-project.png
    :width: 250px
 
    Smart UV project on a cube.
@@ -260,7 +260,7 @@ Scale to Bounds
 Cylinder and Sphere Projection
 ==============================
 
-.. figure:: /images/editors_uv_image_uv_editing_unwrapping_sphere-projection.png
+.. figure:: /images/editors_uv-image_uv-editing_unwrapping_mapping-types_sphere-projection.png
    :width: 350px
 
    Using an equirectangular image with a Sphere Projection.

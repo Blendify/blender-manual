@@ -4,7 +4,7 @@
 Strip Input Panel
 *****************
 
-.. figure:: /images/editors_sequencer_properties_input.png
+.. figure:: /images/editors_vse_sequencer_properties_input_panel.png
    :align: right
 
    Strip Input Settings.

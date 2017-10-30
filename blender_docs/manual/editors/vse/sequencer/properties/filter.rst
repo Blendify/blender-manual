@@ -9,7 +9,7 @@ Filter Panel
 
    | Panel:    :menuselection:`Properties region --> Strip --> Filter`
 
-.. figure:: /images/editors_sequencer_properties_filter.png
+.. figure:: /images/editors_vse_sequencer_properties_filter_panel.png
    :align: right
 
 Enables you to quickly set common image pre-processing options.

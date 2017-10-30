@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_sequencer_strips_introduction_strip-graphic.svg
+.. figure:: /images/editors_vse_sequencer_strips_introduction_strip-graphic.svg
 
    Strip schematic.
 
@@ -20,7 +20,7 @@ Add
    | Menu:     :menuselection:`Add`
    | Hotkey:   :kbd:`Shift-A`
 
-.. figure:: /images/editors_sequencer_strips_introduction_add-menu.png
+.. figure:: /images/editors_vse_sequencer_strips_introduction_add-menu.png
    :align: right
 
    The Add Menu.

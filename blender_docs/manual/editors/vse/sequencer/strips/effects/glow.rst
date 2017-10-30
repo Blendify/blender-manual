@@ -35,6 +35,6 @@ Only boost
 Example
 =======
 
-.. figure:: /images/editors_sequencer_strips_glow.png
+.. figure:: /images/editors_vse_sequencer_strips_effects_glow_example.png
 
    Example of a Glow effect applied to a picture.
