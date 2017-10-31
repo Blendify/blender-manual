@@ -11,7 +11,7 @@ This makes many effects possible like, for example footsteps in the snow,
 raindrops that make the ground wet, paint that sticks to walls, or objects that gradually freeze.
 
 
-Activating the modifier
+Activating the Modifier
 =======================
 
 .. figure:: /images/physics_dynamic-paint_introduction_activate.png

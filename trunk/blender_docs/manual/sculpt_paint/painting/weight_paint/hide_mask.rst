@@ -27,7 +27,7 @@ The option is available from the header of the 3D View
 - Selecting tools include:
 
 
-Details about selecting
+Details About Selecting
 -----------------------
 
 The following standard selection operations are supported:

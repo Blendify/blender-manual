@@ -13,7 +13,7 @@ It can also save keyboard input to a :ref:`String property <game-engine-property
    Keyboard sensor.
 
 
-properties
+Properties
 ==========
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.

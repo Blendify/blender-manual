@@ -132,7 +132,7 @@ or simply to track their image's proliferation throughout the web. Blender provi
 set of tools for you to both encode your watermark and to tell if an image has your watermark.
 
 
-Encoding Your Watermark in an Image
+Encoding your Watermark in an Image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First, construct your own personal watermark. You can use your name, a word,

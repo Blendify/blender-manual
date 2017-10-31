@@ -245,7 +245,7 @@ transparent objects is often an interesting alternative.
 Hints
 =====
 
-Transparent shadows
+Transparent Shadows
 -------------------
 
 .. list-table::
@@ -297,7 +297,7 @@ and *Gather* panels. Alternatively, a texture can be used to control the
 
 .. _transparency-ior-common:
 
-IOR values for Common Materials
+IOR Values for Common Materials
 -------------------------------
 
 The following list provides some index of refraction values to use when ray-traced

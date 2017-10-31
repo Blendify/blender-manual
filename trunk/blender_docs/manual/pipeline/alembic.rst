@@ -35,7 +35,7 @@ is also possible to animate characters (or other models) in Blender, export to A
 those files into other software for further processing.
 
 
-Exporting to Alembic files
+Exporting to Alembic Files
 ==========================
 
 This section describes the effect of the different export options.

@@ -15,7 +15,7 @@ The building process may take several minutes the first time (or after any major
 but the next time you build it should only take a few seconds.
 
 
-Viewing the local manual
+Viewing the Local Manual
 ========================
 
 Once the docs have been built, all the html files can be found inside ``~/blender_docs/build/html``.

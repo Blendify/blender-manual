@@ -118,7 +118,7 @@ Surface Diffuse
       (if you want to use *Surface Diffuse* only for Grass/Fur at greater distances).
 
 
-Texturing along the Strand
+Texturing Along the Strand
 ==========================
 
 Strands can be textured along the strand, i.e. from root to tip. To do that you have to select

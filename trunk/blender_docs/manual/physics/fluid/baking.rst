@@ -20,7 +20,7 @@ one for the *Preview* quality), plus one ``.bvel.gz``
 (for the *Final* quality) will be in the selected output directory for each frame.
 
 
-Bake directory
+Bake Directory
 ==============
 
 Directory and file prefix to store baked surface meshes.

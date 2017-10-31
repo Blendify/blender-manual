@@ -282,7 +282,7 @@ Unwanted channels can also be removed.
 Exporting
 =========
 
-.bullet / Bullet compatible engines
+.bullet / Bullet Compatible Engines
 -----------------------------------
 
 You can snapshot the physics world at any time with the following code::

@@ -109,7 +109,7 @@ which is the typical way to define a tool accessed from menus, buttons and keybo
 For the first example we will make a script that simply moves all objects in a scene.
 
 
-Write The Script
+Write the Script
 ----------------
 
 Add the following script to the text editor in Blender.
@@ -196,7 +196,7 @@ The objects should move as before.
 *Keep this add-on open in Blender for the next step - Installing.*
 
 
-Install The Add-on
+Install the Add-on
 ------------------
 
 Once you have your add-on within in Blender's text editor,
@@ -237,7 +237,7 @@ For our second add-on, we will focus on object instancing -- this is -- to make 
 copies of an object in a similar way to what you may have seen with the array modifier.
 
 
-Write The Script
+Write the Script
 ----------------
 
 As before, first we will start with a script, develop it, then convert it into an add-on.
@@ -481,7 +481,7 @@ For API documentation on the functions listed above, see:
 - :class:`blender_api:bpy.types.KeyMapItem`.
 
 
-Bringing it all together
+Bringing It All Together
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: python

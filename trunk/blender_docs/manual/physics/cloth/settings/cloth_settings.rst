@@ -58,7 +58,7 @@ Stiffness
    Target position stiffness. You can leave the stiffness as it is; the default value of 1 is fine.
 
 
-Pinning Clothing To An Armature
+Pinning Clothing to an Armature
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Clothing can be simulated and pinned to an armature.

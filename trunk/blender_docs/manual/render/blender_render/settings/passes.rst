@@ -9,7 +9,7 @@ calculate to give you the final image.
 In each 'pass' the engine calculates different interactions between objects.
 
 
-Render Passes In Detail
+Render Passes in Detail
 =======================
 
 Everything you see in a render must be calculated for the final image.

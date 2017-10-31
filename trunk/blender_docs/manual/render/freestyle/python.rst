@@ -201,7 +201,7 @@ it is important to control the order in which the strokes are drawn. In this cas
 we would use the sorting operator to insure that the most "important" lines are drawn first.
 
 
-Stroke creation
+Stroke Creation
 ---------------
 
 Finally, the stroke creation operator ``Operators.create()``
@@ -224,7 +224,7 @@ Each chain is transformed into a stroke by resampling it so as to have a point e
 and assigning to it a constant thickness of 2 units and a dark gray constant color.
 
 
-User control on the pipeline definition
+User Control on the Pipeline Definition
 ---------------------------------------
 
 Style module writing offers different types of user control,

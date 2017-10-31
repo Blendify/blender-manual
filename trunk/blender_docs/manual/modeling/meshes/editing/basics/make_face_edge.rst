@@ -25,7 +25,7 @@ Methods
 The following methods are used automatically depending on the context.
 
 
-Isolated vertices
+Isolated Vertices
 ------------------
 
 .. list-table::
@@ -41,7 +41,7 @@ Isolated vertices
           After.
 
 
-Isolated edges
+Isolated Edges
 --------------
 
 .. list-table::
@@ -57,7 +57,7 @@ Isolated edges
           After.
 
 
-N-gon from edges
+N-gon from Edges
 ----------------
 
 When there are many edges Blender will make an n-gon,
@@ -77,7 +77,7 @@ note that this does not support holes, to support holes you need to use the
           After.
 
 
-Mixed vertices/edges
+Mixed Vertices/Edges
 --------------------
 
 Existing edges are used to make the face as well as an extra vertex.

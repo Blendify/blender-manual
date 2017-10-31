@@ -49,7 +49,7 @@ Levels
    this works the same as the *Render* setting on the original *Subdivision Modifier*.
 
 
-Known limitations
+Known Limitations
 =================
 
 - Missing support for UV subdivision.

@@ -13,7 +13,7 @@ and activate a material for editing in the rest of the panels.
    Material panel.
 
 
-Material slots
+Material Slots
 --------------
 
 Active Material
@@ -23,7 +23,7 @@ Active Material
       Copy and paste the selected material slot.
 
 
-Multiple materials
+Multiple Materials
 ------------------
 
 Meshes can handle having more than one material.
@@ -39,7 +39,7 @@ Deselect
    Deselect vertices assigned to the selected material slot.
 
 
-Material naming and linking
+Material Naming and Linking
 ---------------------------
 
 Material
@@ -70,7 +70,7 @@ Data-block Links
    See :doc:`Data System </data_system/introduction>` for more information.
 
 
-Material type
+Material Type
 -------------
 
 Material added in edit mode. These toggles tell Blender where this material fits into the Render Pipeline,

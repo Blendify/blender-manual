@@ -13,7 +13,7 @@ controlled in the *Influence* panel.
    Texture options for *Surface* and *Wire* materials and in some cases also for *Volume* and *Halo* materials.
 
 
-Surface and Wire materials
+Surface and Wire Materials
 ==========================
 
 .. figure:: /images/render_blender-render_textures_properties_influence_introduction_surface.png
@@ -87,7 +87,7 @@ Bump Mapping
       Texture Space, Object Space, View Space
 
 
-Volume materials
+Volume Materials
 ================
 
 .. figure:: /images/render_blender-render_textures_properties_influence_introduction_volume.png
@@ -112,7 +112,7 @@ Reflection Color
    Amount the texture affects color of out-scattered light.
 
 
-Halo materials
+Halo Materials
 ==============
 
 .. figure:: /images/render_blender-render_textures_properties_influence_introduction_halo.png

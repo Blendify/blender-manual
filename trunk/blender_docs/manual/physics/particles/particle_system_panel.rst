@@ -78,7 +78,7 @@ These settings can be shared among different particle systems, so one does not h
 every setting manually and can use the same effect on multiple objects.
 
 
-Types of Particle systems
+Types of Particle Systems
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. _fig-particle-intro-system-type:

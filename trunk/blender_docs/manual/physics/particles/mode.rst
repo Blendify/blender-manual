@@ -245,7 +245,7 @@ Editing
    Using *Undo* in *Particle Edit Mode* can have strange results. Remember to save often!
 
 
-Moving keypoints or particles
+Moving Keypoints or Particles
 -----------------------------
 
 - To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.

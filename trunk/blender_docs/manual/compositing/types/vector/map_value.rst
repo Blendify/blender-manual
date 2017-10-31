@@ -42,7 +42,7 @@ Value
 Example
 =======
 
-Z Depth map
+Z-Depth Map
 -----------
 
 This is particularly useful in achieving a depth-of-field effect,
@@ -51,7 +51,7 @@ where the Map Value node is used to map a Z value
 suitable for connecting to a Blur node.
 
 
-Multiplying values
+Multiplying Values
 ------------------
 
 The map value node can also be used to multiply values to achieve a desired output value.

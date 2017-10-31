@@ -27,7 +27,7 @@ The command prompt is typical for Python 3.x,
 the interpreter is loaded and is ready to accept commands at the prompt ``>>>``
 
 
-First look at the Console Environment
+First Look at the Console Environment
 -------------------------------------
 
 To check what is loaded into the interpreter environment, type ``dir()``
@@ -58,7 +58,7 @@ We will make use of this a lot to help our learning the API faster.
 Now that you got a hang of this, lets proceed to investigate some of modules in ``bpy``.
 
 
-Before tinkering with the modules
+Before Tinkering with the Modules
 ---------------------------------
 
 If you look at the 3D View in the default Blender scene, you will notice three objects: Cube,
@@ -86,7 +86,7 @@ bpy.context
 .. figure:: /images/editors_python-console_bpy-context.png
 
 
-Try it out!
+Try It Out!
 ^^^^^^^^^^^
 
 bpy.context.mode
@@ -148,7 +148,7 @@ objects, meshes, materials, textures, scenes, screens, sounds, scripts, etc.
 That is a lot of data.
 
 
-Try it out!
+Try It Out!
 ^^^^^^^^^^^
 
 .. figure:: /images/editors_python-console_bpy-data.png
@@ -186,7 +186,7 @@ Lets create a set of five Cubes in the 3D View. First,
 delete the existing Cube object by selecting it and pressing :kbd:`X`
 
 
-Try it out!
+Try It Out!
 ^^^^^^^^^^^
 
 The following commands are used to specify that the objects are created in layer 1.

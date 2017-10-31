@@ -3,7 +3,7 @@
 Video Output
 ************
 
-Preparing your work for video
+Preparing your Work for Video
 =============================
 
 Once you master the art of 3D animation, you will probably want to share your work with others;

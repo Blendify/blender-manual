@@ -273,7 +273,7 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 Options
 =======
 
-Move child
+Move Child
 ----------
 
 You can *move* a child object to its parent by clearing its origin.

@@ -36,7 +36,7 @@ These cannot contain blank spaces.
 Operations
 ==========
 
-Mathematical operations
+Mathematical Operations
 -----------------------
 
 Operators: ``*``, ``/``, ``+``, ``-``
@@ -57,7 +57,7 @@ Returns: ``True`` or ``False``.
 Examples: ``3 > 2 (True)``, ``1 AND 0 (False)``
 
 
-Conditional statement (if)
+Conditional Statement (if)
 ==========================
 
 Use::

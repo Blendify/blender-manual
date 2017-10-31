@@ -7,7 +7,7 @@ Check the :doc:`minimum requirements and where to get Blender </getting_started/
 if you have not done so yet.
 
 
-Specific packages for distributions
+Specific Packages for Distributions
 ===================================
 
 Some Linux distributions may have on their repositories a specific package for Blender.
@@ -36,7 +36,7 @@ blend-files with Blender when opening from the file browser.
 These settings typically belong to the Window Manager (KDE, Gnome, Unity).
 
 
-Running from the terminal
+Running from the Terminal
 =========================
 
 To run Blender from the terminal without needing to be in the executable directory,

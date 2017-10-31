@@ -57,7 +57,7 @@ you will not see anything in your render except for objects lit by ambient light
 are other ways to logically group related sets of objects.
 
 
-Viewing layers
+Viewing Layers
 --------------
 
 Blender provides twenty layers whose visibility can be toggled with the small unlabeled
@@ -78,7 +78,7 @@ Use :kbd:`Shift` for multiple (de)selection works for these shortcuts too.
 You can select or deselect all Scene Layer buttons at once by pressing :kbd:`\\`.
 
 
-Locking to the scene
+Locking to the Scene
 --------------------
 
 By default, the lock button directly to the right of the layer buttons is enabled.
@@ -96,7 +96,7 @@ There are many places where layer-specific effects come into play,
 especially lights and particles.
 
 
-Moving objects between layers
+Moving Objects between Layers
 -----------------------------
 
 .. figure:: /images/editors_3dview_object_properties_relations_layers_move-menu.png

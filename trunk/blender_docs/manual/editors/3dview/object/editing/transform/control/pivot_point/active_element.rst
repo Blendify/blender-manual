@@ -53,7 +53,7 @@ the possible transformations follow a few rules:
 Let us examine the following examples: in each case we will see that the two rules apply.
 
 
-Single selection
+Single Selection
 ----------------
 
 When one single element is selected it becomes automatically active. In the image below,
@@ -73,7 +73,7 @@ Let us review each case:
   (except translation, which is not affected by the pivot point).
 
 
-Multiple selection
+Multiple Selection
 ------------------
 
 When multiple elements are selected they all transform.

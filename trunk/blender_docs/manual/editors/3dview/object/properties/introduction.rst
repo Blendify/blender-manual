@@ -6,7 +6,7 @@ Introduction
 TODO.
 
 
-Item panel
+Item Panel
 ==========
 
 .. admonition:: Reference

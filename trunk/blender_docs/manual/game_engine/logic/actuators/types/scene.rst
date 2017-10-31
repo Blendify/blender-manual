@@ -13,7 +13,7 @@ these can be used as levels or for UI and background.
    Scene actuator.
 
 
-properties
+Properties
 ==========
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.

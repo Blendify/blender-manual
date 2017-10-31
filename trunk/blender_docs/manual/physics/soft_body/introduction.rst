@@ -32,7 +32,7 @@ You can also *bake edit* the simulation, i.e.
 edit intermediate results and run the simulation from there.
 
 
-Typical scenarios for using Soft Bodies
+Typical Scenarios for using Soft Bodies
 =======================================
 
 .. _fig-softbody-intro-cone:
@@ -167,8 +167,8 @@ For renderfarms, it is best to bake all the physics systems,
 and then copy the blendcache to the renderfarm as well.
 
 
-Interaction in real time
-========================
+Interaction in Realtime
+=======================
 
 To work with a Soft Body simulation, you will find it handy to use the Timeline editor.
 You can change between frames and the simulation will always be shown in the actual state.

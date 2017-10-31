@@ -133,7 +133,7 @@ There are multiple thesis on this rig, and you will use one of two:
   and gives some backlighting to highlight the sides of actors, making them stand out more and giving them depth.
 
 
-Studio rig
+Studio Rig
 ----------
 
 .. figure:: /images/render_blender-render_lighting_lighting-rigs_studio.png

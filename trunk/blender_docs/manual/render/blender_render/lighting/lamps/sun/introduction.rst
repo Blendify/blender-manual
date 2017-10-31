@@ -21,7 +21,7 @@ the location of a *Sun* lamp does not affect the rendered result (unless you use
    Sun lamp panel.
 
 
-Lamp options
+Lamp Options
 ============
 
 Energy and Color

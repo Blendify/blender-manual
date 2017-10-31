@@ -111,7 +111,7 @@ Threshold
 
 .. _render-blender-internal-quasi-monte-carlo:
 
-Quasi-Monte Carlo method
+Quasi-Monte Carlo Method
 ========================
 
 The Monte Carlo method is a method of taking a series of samples/readings of values

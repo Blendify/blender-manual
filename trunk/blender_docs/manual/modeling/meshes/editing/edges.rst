@@ -160,7 +160,7 @@ between their original position and the adjacent edge loop, regardless of the ed
           Repositioned Edge Loop.
 
 
-Even mode
+Even Mode
 ^^^^^^^^^
 
 *Even* mode keeps the shape of the selected edge loop the same as one of the edge loops adjacent to it,

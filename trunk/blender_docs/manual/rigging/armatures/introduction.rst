@@ -13,7 +13,7 @@ A rig is the controls and strings that move a marionette (puppet).
 Armature object borrows many ideas from real life skeletons.
 
 
-Your first armature
+Your First Armature
 ===================
 
 In order to see what we are talking about, let us try to add the default armature in Blender.

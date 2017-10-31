@@ -93,7 +93,7 @@ As the balls recede into the distance, they get blurrier.
 This node has no properties.
 
 
-No Z-Buffer examples
+No Z-Buffer Examples
 --------------------
 
 Sometimes might want to have more control to blur the image. For instance,
