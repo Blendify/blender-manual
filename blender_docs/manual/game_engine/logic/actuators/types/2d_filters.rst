@@ -69,16 +69,17 @@ And disable it::
 
    Your graphic hardware and OpenGL driver must support accumulation buffer (``glAccum`` function).
 
+
 Enable/Disable Filters
 ----------------------
 
-There are two filters which can be used to either *Enable* or *Disable* other filters
+There are two filters which can be used to either *Enable* or *Disable* other filters.
 
 To enable/disable a filter on a specific pass:
 
 #. Create appropriate sensor(s) and controller(s).
 #. Create a *2D Filter* actuator.
-#. Select either a *Enable Filter* or *Disable Filter* dependng on what you want to do.
+#. Select either a *Enable Filter* or *Disable Filter* depending on what you want to do.
 #. Set the pass number you want to disable the filter on it.
 
 

@@ -40,9 +40,9 @@ through the `release notes <https://www.blender.org/features/releases/>`__.
 `Build from Source <https://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__
    Blender's source is available for reference and installation, with the following advantages:
 
-   - Blender is always up to date,
-   - it allows access to any version or branch where a feature is being developed,
-   - it can be freely customized.
+   - Blender is always up to date.
+   - It allows access to any version or branch where a feature is being developed.
+   - It can be freely customized.
 
 .. note::
 

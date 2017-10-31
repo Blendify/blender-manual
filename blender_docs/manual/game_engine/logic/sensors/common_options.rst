@@ -62,12 +62,12 @@ Freq
    :class: valign
    :widths: 10 30 15 15 15 15
 
-   * - freq
-     - meaning
-     - frames with trigger
-     - frames without trigger
-     - period in frames
-     - frequency in frames/sec
+   * - Freq
+     - Meaning
+     - Frames with trigger
+     - Frames without trigger
+     - Period in frames
+     - Frequency in frames/sec
    * - 0
      - The sensor triggers the next frame.
      - 1

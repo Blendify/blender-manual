@@ -36,7 +36,7 @@ Settings
 Resolution
    The smoke domain is subdivided into many "cells" called voxels (see :term:`voxel`)
    which make up "pixels" of smoke. This setting controls the number of subdivisions in the domain.
-   Higher numbers of subdivisions are one way of creating higher resolution smoke (see `Smoke High Resolution`_)
+   Higher numbers of subdivisions are one way of creating higher resolution smoke (see `Smoke High Resolution`_).
 
    Since the resolution is defined in terms of *subdivisions*,
    larger domains will need more divisions to get an equivalent resolution to a small domain.

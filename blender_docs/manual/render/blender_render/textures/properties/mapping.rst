@@ -113,7 +113,7 @@ Size
      and the second row (Y texture axis) to X.
    - When you map no texture axis (i.e. the three "void" buttons are set),
      you will get a solid uniform texture, as you use zero dimension (i.e. a dot, or pixel) of it
-     (and then Blender extends or repeats this point's color along all axes.)
+     (and then Blender extends or repeats this point's color along all axes).
    - When you only map one texture axis (i.e. two "void" buttons are enabled)
      you will get a "striped" texture, as you only use one dimension (i.e. a line of pixel) of it,
      (and then Blender stretches this line along the two other axes).

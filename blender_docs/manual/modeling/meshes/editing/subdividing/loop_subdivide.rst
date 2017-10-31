@@ -38,7 +38,7 @@ you can move the mouse along the edge to determine where the new edge loop will 
 This is identical to the :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>`.
 Clicking :kbd:`LMB` again confirms and makes the cut at the pre-visualized location,
 or clicking :kbd:`RMB` forces the cut to exactly 50%.
-This step is skipped when using multiple edge loops (see below)
+This step is skipped when using multiple edge loops (see below).
 
 .. list-table::
 

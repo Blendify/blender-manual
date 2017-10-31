@@ -157,7 +157,7 @@ Workflow
 The technique of creating custom orientations can become important in creating precise meshes.
 In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effect:
 
-#. Select the object's sloping top edge
+#. Select the object's sloping top edge.
 #. Create a Custom Orientation with :kbd:`Ctrl-Alt-Spacebar` and rename it "Top Edge".
 #. Select the objects's bottom, right edge.
 #. Extrude with :kbd:`E`.

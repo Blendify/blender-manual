@@ -9,8 +9,8 @@ For instance, an input could be:
 
 - Taken directly from the active camera in a selected scene,
 - from a ``JPG``, ``PNG``, etc. file as a static picture,
-- a movie clip (such as an image sequence or video), or
-- just a color or value.
+- a movie clip (such as an image sequence or video),
+- or just a color or value.
 
 These nodes generate the information that feeds other nodes.
 As such, they have no input-connectors; only outputs.

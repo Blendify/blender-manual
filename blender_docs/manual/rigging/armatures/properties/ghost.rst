@@ -47,7 +47,7 @@ Type
       but there are ghosts only for keyframes in the armature animation
       (i.e. frames at which you keyed one or more of the bones).
       So it has the same options as above, except for the *Step* one (as only keyframes generate ghosts).
-      Oddly, the shading of ghosts is reversed compared to *In Range* - from opaque for the first keyframe,
+      Oddly, the shading of ghosts is reversed compared to *In Range* -- from opaque for the first keyframe,
       to transparent for the last keyframe.
 
 Range

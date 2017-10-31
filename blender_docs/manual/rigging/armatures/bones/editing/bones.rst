@@ -19,10 +19,10 @@ In the 3D View, :kbd:`Shift-A` to add a new bone to your armature.
 
 This bone will be:
 
-- of one Blender Unit of length,
-- oriented towards the global Z axis,
-- with its root placed at the 3D cursor position,
-- with no relationship with any other bone of the armature.
+- Of one Blender Unit of length.
+- Oriented towards the global Z axis.
+- With its root placed at the 3D cursor position.
+- With no relationship with any other bone of the armature.
 
 
 Extrude
@@ -110,9 +110,9 @@ If at least one bone is selected, :kbd:`Ctrl-LMB` -clicking adds a new bone.
 
 About the new bone's tip:
 
-- after you :kbd:`Ctrl-LMB` -clicked it becomes the active element in the armature,
-- it appears to be right where you clicked, but...
-- ...(as in mesh editing) it will be on the plane parallel to the view and passing through the 3D cursor.
+After you :kbd:`Ctrl-LMB` -clicked it becomes the active element in the armature,
+it appears to be right where you clicked, but (as in mesh editing)
+it will be on the plane parallel to the view and passing through the 3D cursor.
 
 The position of the root and the parenting of the new bone depends on the active element:
 
@@ -121,10 +121,10 @@ The position of the root and the parenting of the new bone depends on the active
 
    Ctrl-clicking when the active element is a bone.
 
-If the active element is a *bone*
+If the active element is a *bone*:
 
-- the new bone's root is placed on the active bone's tip
-- the new bone is parented and connected to the active bone
+- The new bone's root is placed on the active bone's tip.
+- The new bone is parented and connected to the active bone
   (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
 
 .. _fig-rig-bone-active-tip:
@@ -134,10 +134,10 @@ If the active element is a *bone*
 
    Ctrl-clicking when the active element is a tip.
 
-If the active element is a *tip* :
+If the active element is a *tip*:
 
-- the new bone's root is placed on the active tip
-- the new bone is parented and connected to the bone owning the active tip
+- The new bone's root is placed on the active tip.
+- The new bone is parented and connected to the bone owning the active tip
   (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
 
 .. _fig-rig-bone-disconnected-tip:
@@ -147,10 +147,10 @@ If the active element is a *tip* :
 
    Ctrl-clicking when the active element is a disconnected root.
 
-If the active element is a *disconnected root* :
+If the active element is a *disconnected root*:
 
-- the new bone's root is placed on the active root
-- the new bone is **not** parented to the bone owning the active root
+- The new bone's root is placed on the active root.
+- The new bone is **not** parented to the bone owning the active root
   (check the Outliner in Fig. :ref:`fig-rig-bone-disconnected-tip`).
 
 And hence the new bone will **not** be connected to any bone.
@@ -162,10 +162,10 @@ And hence the new bone will **not** be connected to any bone.
 
    Ctrl-clicking when the active element is a connected root.
 
-If the active element is a *connected root* :
+If the active element is a *connected root*:
 
-- the new bone's root is placed on the active root
-- the new bone **is** parented and connected to the parent of the bone owning the active root
+- The new bone's root is placed on the active root.
+- The new bone **is** parented and connected to the parent of the bone owning the active root
   (check the Outliner in Fig. :ref:`fig-rig-bone-connected-root`).
 
 This should be obvious because if the active element is a connected root then the active
@@ -284,11 +284,9 @@ Duplicate
 
    This tool works on selected bones; selected joints are ignored.
 
-As in mesh editing, by pressing :kbd:`Shift-D`:
-
-- the selected bones will be duplicated,
-- the duplicates become the selected elements and they are placed in grab mode,
-  so you can move them wherever you like.
+As in mesh editing, by pressing :kbd:`Shift-D` the selected bones will be duplicated.
+The duplicates become the selected elements and they are placed in grab mode,
+so you can move them wherever you like.
 
 If you select part of a chain, by duplicating it you will get a copy of the selected chain,
 so the copied bones are interconnected exactly like the original ones.

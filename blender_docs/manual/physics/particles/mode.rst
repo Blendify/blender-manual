@@ -31,7 +31,7 @@ Setup for Hair Particles
 
 #. Create a *Hair* particle system.
 #. Give it an initial velocity in the *Normal* direction.
-#. Create a simulation
+#. Create a simulation.
 #. Check the *Hair Dynamics* box.
 
 .. figure:: /images/physics_particles_mode_example.png
@@ -42,7 +42,7 @@ Setup for Hair Particles
 Setup for Particle, Cloth, and Soft Body Simulations
 ----------------------------------------------------
 
-#. Use *Emitter* particles, or a cloth/soft-body simulation
+#. Use *Emitter* particles, or a cloth/soft-body simulation.
 #. Create a simulation by setting up objects and or emitters,
    set your time range (use a small range if you are just starting out and experimenting),
    set up the simulation how you want it, using :kbd:`Alt-A` to preview it.

@@ -109,7 +109,7 @@ Codec
 Output Quality
    These are preset `Rates <Rate>`_
 Encoding Speed
-   Presets to change between a fast encode (bigger file size) and more compression (smaller file size)
+   Presets to change between a fast encode (bigger file size) and more compression (smaller file size).
 
 Key Frame Interval
    The number of pictures per `Group of Pictures <https://en.wikipedia.org/wiki/Group_of_pictures>`__.

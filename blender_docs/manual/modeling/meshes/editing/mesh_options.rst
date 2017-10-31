@@ -57,7 +57,7 @@ then delete the default cube and add a Monkey object to the 3D View.
 
 #. Press :kbd:`Tab` to put the Monkey object into *Edit Mode*.
 #. With the *X Mirror* option disabled move one of the Monkey object's vertices slightly.
-#. Then Turn *X Mirror* option on again but leave *Topology Mirror* disabled
+#. Then Turn *X Mirror* option on again but leave *Topology Mirror* disabled.
 #. If you now move that vertice again *X Mirror* will not work and the mirrored
    vertices will not be altered.
 #. If you then enable *Topology Mirror* and move the same vertices again,

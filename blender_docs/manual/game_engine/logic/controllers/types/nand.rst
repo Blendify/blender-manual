@@ -3,17 +3,17 @@
 NAND Controller
 ***************
 
-This controller *activates* all connected actuators if...
+This controller *activates* all connected actuators if:
 
-- the game object is in the designated state.
-- at least one connected sensor triggers the controller.
-- at least one connected sensor evaluated False.
+- The game object is in the designated state.
+- At least one connected sensor triggers the controller.
+- At least one connected sensor evaluated False.
 
-This controller *deactivates* all connected actuators if...
+This controller *deactivates* all connected actuators if:
 
-- the game object is in the designated state.
-- at least one connected sensor triggers the controller.
-- ALL connected sensor evaluated True.
+- The game object is in the designated state.
+- At least one connected sensor triggers the controller.
+- *All* connected sensor evaluated True.
 
 
 Options

@@ -70,7 +70,7 @@ may be used.
 .. seealso::
 
    These expressions are evaluated by Python; for all available math expressions see:
-   `math module reference <https://docs.python.org/3/library/math.html>`__
+   `Math module reference <https://docs.python.org/3/library/math.html>`__.
 
 
 Expressions as Drivers

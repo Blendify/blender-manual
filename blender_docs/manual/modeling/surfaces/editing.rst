@@ -95,7 +95,7 @@ To summarize, the *Extrude* tool will only work, when one and only one whole bor
 row is selected, otherwise nothing happens.
 
 As for curves, you cannot create a new surface in your object out of nowhere,
-by just :kbd:`Ctrl-LMB` - clicking with nothing selected.
+by just :kbd:`Ctrl-LMB` -- clicking with nothing selected.
 However, unlike for curves, there is no "cut" option allowing you to separate a surface into several parts,
 so you only can create a new surface by copying (`Duplication`_) an existing one
 :kbd:`Shift-D`, or adding a new one with the *Add* menu.
@@ -253,9 +253,9 @@ Joining or Merging Surfaces
 Just like :ref:`curves <modeling-curves-make-segment>`,
 merging two surfaces requires that a single edge, a border row of control points,
 from two separate surfaces is selected. This means that the surfaces must be part of the same object. For example,
-you cannot join two surfaces while in *Object Mode* - but you can of course, as with any objects of the same type,
+you cannot join two surfaces while in *Object Mode* -- but you can of course, as with any objects of the same type,
 join two or more *Surface* objects
-into one object :kbd:`Ctrl-J` - they just will not be "linked" or merged in a single one...
+into one object :kbd:`Ctrl-J` -- they just will not be "linked" or merged in a single one...
 Yes, it's a bit confusing!
 
 This tool is equivalent to creating edges or faces for meshes

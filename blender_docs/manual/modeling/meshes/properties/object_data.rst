@@ -14,7 +14,7 @@ Normals
 
 .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
 
-   Normals panel
+   Normals panel.
 
 Auto Smooth
    Edges where an angle between the faces is smaller than specified in the *Angle* button will be smoothed,

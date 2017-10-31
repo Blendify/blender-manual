@@ -80,10 +80,10 @@ Assembling the Vehicle
 
 The overall steps are:
 
-- Create a constraint for the vehicle and save its ID for future reference
-- Attach the wheels
-- Set wheel parameters: influence, stiffness, damping, compression and friction
-- Init variables
+#. Create a constraint for the vehicle and save its ID for future reference.
+#. Attach the wheels.
+#. Set wheel parameters: influence, stiffness, damping, compression and friction.
+#. Init variables.
 
 You can see an example in the file below.
 

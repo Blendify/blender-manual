@@ -70,13 +70,14 @@ Workflow
 The process for unwrapping is straightforward, but there are tons of options available,
 each of which dramatically affect the outcome of the unwrap.
 By understanding the meaning behind the options, you will become more efficient at unwrapping.
+
 The process is:
 
-- Mark Seams if necessary
-- Select all of the mesh components
-- Select a UV mapping method from the UV Unwrap menu
-- Adjust the unwrap settings
-- Add a test image to see if there will be any distortion.
-  See :doc:`Applying Images to UVs </editors/uv_image/uv_editing/applying_image>`
-- Adjust UVs in the UV/Image editor.
-  See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`
+#. Mark Seams if necessary.
+#. Select all of the mesh components.
+#. Select a UV mapping method from the UV Unwrap menu.
+#. Adjust the unwrap settings.
+#. Add a test image to see if there will be any distortion.
+   See :doc:`Applying Images to UVs </editors/uv_image/uv_editing/applying_image>`.
+#. Adjust UVs in the UV/Image editor.
+   See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.

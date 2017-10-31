@@ -208,7 +208,7 @@ Viewport F-stop
 Blades
    Add a number of polygonal *blades* to the blur effect, in order to achieve a
    a *bokeh effect* in the viewport. To enable this feature, the blades must be
-   set to at least 3 (3 sides, triangle)
+   set to at least 3 (3 sides, triangle).
 
 .. figure:: /images/render_blender-render_camera_object-data_depth-of-field-bokeh.png
 

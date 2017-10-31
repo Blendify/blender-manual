@@ -49,9 +49,7 @@ When appending node groups from one blend file to another,
 Blender does not make a distinction between material node groups or composite node groups,
 so it is recommended to use some naming convention that will allow you to easily distinguish between the two types.
 
-.. tip::
-
-   What **not** to include in your groups (all modes of Node editors)
+.. tip:: What **not** to include in your groups (all modes of Node editors)
 
    Remember that the essential idea is that a group should be an easily-reusable,
    self-contained software component. Material node groups should **not** include:

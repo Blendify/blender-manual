@@ -12,9 +12,9 @@ and finally gives some hints about usage in practice.
 
 Typical **usage scenarios** of the stabilizer:
 
-- fix minor deficiencies (shaky tripod, jerk in camera movement)
-- "poor man's steadycam" (when a real steadycam was not available, affordable or applicable)
-- as preparation for masking, matching and rotoscoping
+- Fix minor deficiencies (shaky tripod, jerk in camera movement).
+- "Poor man's steadycam" (when a real steadycam was not available, affordable or applicable).
+- As preparation for masking, matching and rotoscoping.
 
 It is not uncommon for 2D stabilization to have to deal with somewhat imperfect and flawed footage.
 
@@ -31,8 +31,8 @@ much more elaborate movements.
 This simplified model underlying the 2D stabilization as implemented here assumes movement
 by an **affine-linear transform**:
 
-- the camera is pushed up/down/sideways by some **translation component**
-- the image is then **tilted** and **scaled** around a **pivot point** (rotation center)
+- The camera is pushed up/down/sideways by some **translation component**.
+- The image is then **tilted** and **scaled** around a **pivot point** (rotation center).
 
 To compensate movement according to this simplified model, the 2D stabilizer proceeds in two steps.
 First we try to detect the translation offset from the weighted average of all *translation tracking points*.
@@ -64,13 +64,13 @@ and below the horizon can be used to cancel out spurious movement and get stabil
 
    Diverging movements caused by perspective.
 
-Tracks can be added in two groups
+Tracks can be added in two groups:
 
-- first of all is the list of tracks to be used to compensate for jumps in the camera location.
+- First of all is the list of tracks to be used to compensate for jumps in the camera location.
   From all the tracking points added to this group, we calculate a *weighted average.*
   We then try to keep this average location constant during the whole shot.
   Thus it is a good idea to use tracking markers close to and centered around the most important subject.
-- a second selection of tracks is used to keep the rotation and scale of the image constant.
+- A second selection of tracks is used to keep the rotation and scale of the image constant.
   You may use the same tracks for both selections. But usually it is best to use tracking points with large distance
   from the image center, and symmetrically, on both sides, to capture the angular movements more precisely.
   Similar to the "location" case, we calculate an *average angular contribution* and then try

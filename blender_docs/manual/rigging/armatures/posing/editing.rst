@@ -215,8 +215,8 @@ Here are important points:
   and if there is no such named bone, nothing will happen...).
 - What is copied and pasted is in fact the position/rotation/scale of each bone, in its own space.
   This means that the resulting pasted pose might be very different from the originally copied one, depending on:
-  - The rest position of the bones, and
-  - The current pose of their parents.
+  - The rest position of the bones, 
+  - and the current pose of their parents.
 
 .. list-table::
 

@@ -20,7 +20,7 @@ Installing Python
    
    .. figure:: /images/about_contribute_install_windows_installer.png
    
-      The Option must be enabled so you can use the command box!   
+      The option must be enabled so you can build the manual with the make script.
 
    All other settings can remain as set by default.
 
@@ -40,7 +40,7 @@ In this guide, we will use TortoiseSVN though any Subversion client will do.
 #. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
 #. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs``.
 #. In the *Checkout directory* field, enter: ``C:\blender_docs``.
-#. Click *OK* - the repository will now be downloaded
+#. Click *OK* -- the repository will now be downloaded
    which may take a few minutes depending on your internet connection.
 
 

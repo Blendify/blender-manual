@@ -43,7 +43,7 @@ by replacing them with faces making smooth profiles with a specified number of *
 
 Use :kbd:`Ctrl-B` or a method listed above to run the tool.
 Move the mouse to interactively specify the bevel offset,
-and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see below)
+and scroll the :kbd:`Wheel` to increase or decrease the number of segments (see below).
 
 .. list-table::
 

@@ -45,7 +45,7 @@ Type
       simply choose *NURBS* first, and then convert the created curve to a mesh.
 
 Normalize Weight
-   Will scale weights value so that they fit tightly into the (0.0 to 1.0) range. (enabled by default)
+   Will scale weights value so that they fit tightly into the (0.0 to 1.0) range.
 
    All this means is that with a pressure tablet,
    you can directly control the radius and weight of the created curve, which can affect e.g.

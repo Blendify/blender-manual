@@ -55,7 +55,7 @@ You can simply pack a blend file like this to create a zip-file of the same name
    bam pack /path/to/scene.blend
 
 You may also want to give an explicit output directory.
-The example shows how to pack a blend with maximum compression for online downloads
+The example shows how to pack a blend with maximum compression for online downloads.
 
 .. code-block:: sh
 

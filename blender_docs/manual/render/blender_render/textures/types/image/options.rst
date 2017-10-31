@@ -76,7 +76,7 @@ Normal Map
    This tells Blender that the image is to be used to create the illusion of a bumpy surface,
    with each of the three RGB channels controlling how to fake a shadow from a surface irregularity.
    Needs specially prepared input pictures.
-   See :doc:`Bump and Normal Maps </render/blender_render/textures/properties/influence/bump_and_normal>`.
+   See :doc:`Bump and Normal Maps </render/blender_render/textures/properties/influence/bump_normal>`.
 
    Normal Map Space:
       - *Tangent*
@@ -194,7 +194,7 @@ Extension
       You can use the option *size* on the *Mapping* panel as well to create the desired number of checkers.
 
       Even / Odd
-         Set even/odd tiles
+         Set even/odd tiles.
       Distance
          Governs the distance between the checkers in parts of the texture size.
 

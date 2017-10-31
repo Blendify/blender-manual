@@ -34,7 +34,7 @@ The Shading panel then appears. This contains the following elements:
 
    Add new material.
 
-- Context: The currently-selected scene and object
+- Context: The currently-selected scene and object.
 - Object Material Slots (3): this panel shows the "slots"
   for the material (or materials) that this object data contains.
 - Active Material (2): Initially empty, asking for "New".
@@ -161,7 +161,7 @@ The workflow for applying a second material to some faces of an object covered b
 material is as follows:
 
 #. In Object Mode, apply the base material to the whole object
-   (as shown in :doc:`Assigning a material </render/blender_render/materials/assigning_a_material>`)
+   (as shown in :doc:`Assigning a material </render/blender_render/materials/assigning_a_material>`).
 #. Create/select the second material (the whole object will change to this new material).
 #. In the Active Material box (2), re-select the base material.
 #. Go to Edit Mode and Face Select (a new box appears above the Active Material box with Assign/Select/Deselect).

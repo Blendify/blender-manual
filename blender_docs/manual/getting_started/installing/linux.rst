@@ -66,6 +66,6 @@ or you can change the Window Manager settings to use the *Meta* key instead (als
 - **KDE:** System Settings > Window Behavior > Window Behavior > Window Actions , Switch 'Alt' for 'Meta' key
 - **Unity/Gnome:** enter the following in a command line (effective at next login):
 
-.. code-block:: sh
+   .. code-block:: sh
 
-   gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier '<Super>'
+      gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier '<Super>'

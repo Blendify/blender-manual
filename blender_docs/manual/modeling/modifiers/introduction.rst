@@ -80,7 +80,7 @@ Delete ``X``
 Below the header are two buttons:
 
 Apply
-   Makes the modifier "real" - converts the object's geometry to match the applied modifier,
+   Makes the modifier "real" -- converts the object's geometry to match the applied modifier,
    and deletes the modifier.
 Copy
    Creates a duplicate of the modifier at the bottom of the stack.

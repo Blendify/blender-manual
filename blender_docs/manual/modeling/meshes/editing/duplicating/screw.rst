@@ -245,8 +245,8 @@ Now we will create a height vector for Blender:
    and again, type its coordinates for (X, Y, Z) to (-2, 0, 1).
    This will create a straight vertical line with 2 Blender units of Height.
 #. De-select and select everything again with the shortcut :kbd:`A`.
-   (See Fig. :ref:`fig-mesh-screw-profile`)
-#. Again, place again your cursor at the center. (Repeat step 2)
+   (See Fig. :ref:`fig-mesh-screw-profile`).
+#. Again, place again your cursor at the center. (Repeat step 2).
 #. At this point, we will save this blend-file to recycle the
    Spring for another exercise; :kbd:`LMB` click on *File*,
    located in the header of the Info editor, (at the top left side), and choose *Save as*.
@@ -433,7 +433,7 @@ To make this new example as short as possible, we will recycle our last example 
    All of the things will be placed exactly the way you saved before.
    Choose the last saved blend-file; in the last exercise, we gave it the name *Screw Hardware Example.blend*.
 #. Grab the upper vertex and move a bit to the left, but no more than you have moved your last vertex.
-   (See Fig. :ref:`fig-mesh-screw-start`)
+   (See Fig. :ref:`fig-mesh-screw-start`).
 #. Press the shortcut :kbd:`A` twice to de-select and select all.
 #. Press the shortcut :kbd:`Shift-S` and select *Cursor to Center*
 #. Press Screw.

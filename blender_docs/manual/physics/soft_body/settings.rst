@@ -121,7 +121,7 @@ Aerodynamics
       Use an aerodynamic model that is closer to physical laws and looks more interesting.
       Disable for a more muted simulation.
    Factor
-      How much aerodynamic effect to use
+      How much aerodynamic effect to use.
 
 Edge
    Checks for edges of the softbody mesh colliding.
