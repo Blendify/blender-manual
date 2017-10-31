@@ -15,7 +15,7 @@ Options
 =======
 
 Noise Basis
-   Shape of wave to produce bands
+   Shape of wave to produce bands.
 
    Sine, Saw, Triangle
 Wood Type
@@ -23,10 +23,10 @@ Wood Type
 
    Bands, Rings, Band Noise, Ring Noise
 Noise Type
-   There are two methods available for the Noise function
+   There are two methods available for the Noise function.
 
    Soft, Hard
 Size
-   Dimension of the Noise table
+   Dimension of the Noise table.
 Turbulence
-   Turbulence of the Band Noise and Ring Noise types
+   Turbulence of the Band Noise and Ring Noise types.

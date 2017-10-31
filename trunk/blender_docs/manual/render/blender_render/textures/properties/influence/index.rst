@@ -8,5 +8,5 @@
 
    introduction.rst
    blending_modes.rst
-   bump_and_normal.rst
+   bump_normal.rst
    displacement.rst

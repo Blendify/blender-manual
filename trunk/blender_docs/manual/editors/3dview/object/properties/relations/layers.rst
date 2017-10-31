@@ -63,7 +63,7 @@ Viewing Layers
 Blender provides twenty layers whose visibility can be toggled with the small unlabeled
 buttons in the header (see *3D View layer buttons*). To select a single layer,
 click the appropriate button with :kbd:`LMB`; to select more than one,
-use :kbd:`Shift-LMB` - doing this on an already active layer will deselect it.
+use :kbd:`Shift-LMB` -- doing this on an already active layer will deselect it.
 
 .. figure:: /images/editors_3dview_object_properties_relations_layers_buttons.png
 

@@ -19,7 +19,7 @@ known as bump mapping, or a combination of real and virtual displacement.
 
 .. figure:: /images/render_cycles_materials_displacement_example.jpg
 
-   Subdivision Rate 2, Bump, True, Both
+   Subdivision Rate 2, Bump, True, Both.
 
 
 Bump Mapping

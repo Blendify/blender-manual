@@ -77,7 +77,7 @@ Examples
 .. figure:: /images/modeling_meshes_editing_basics_deleting_dissolve-examples.png
 
    \1) Original mesh 2) Face Split: Off, Tear Boundaries: Off 3) Face Split: On, Tear Boundaries: Off
-   \4) Face Split: On/Off, Tear Boundaries: On
+   \4) Face Split: On/Off, Tear Boundaries: On.
 
 
 Limited Dissolve

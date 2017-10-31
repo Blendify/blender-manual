@@ -142,7 +142,7 @@ Selecting Strokes
 =================
 
 A stroke can be selected (materialized by a solid red-to-white line), or not
-(shown as an orange-to-white line) - see :ref:`fig-stroke-example` above. As usual,
+(shown as an orange-to-white line) -- see :ref:`fig-stroke-example` above. As usual,
 you select a stroke by clicking :kbd:`RMB` on it,
 you add one to/remove one from the current selection with a :kbd:`Shift-RMB` click,
 and :kbd:`A` (de)selects all strokes...

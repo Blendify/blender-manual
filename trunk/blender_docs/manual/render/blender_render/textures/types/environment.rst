@@ -158,11 +158,11 @@ Filter
       to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
 
       Probes
-         Maximum number of samples (higher gives less blur at distant/oblique angles, but is also slower)
+         Maximum number of samples (higher gives less blur at distant/oblique angles, but is also slower).
 
    Area
       Eccentricity
-         Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower)
+         Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower).
 
 Filter Size
    The amount of blurring applied to the texture.

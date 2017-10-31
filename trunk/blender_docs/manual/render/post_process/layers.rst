@@ -68,8 +68,8 @@ Material Override
 
    Examples of where this might be used:
 
-   - To check lighting by using a plain diffuse material on all objects
-   - Render a wireframe of the scene
+   - To check lighting by using a plain diffuse material on all objects.
+   - Render a wireframe of the scene.
    - Create a custom render pass such as an anti-aliased matte or global coordinates.
 
 .. seealso::

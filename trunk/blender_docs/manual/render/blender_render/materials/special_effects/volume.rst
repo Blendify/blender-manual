@@ -133,8 +133,8 @@ Transmission is a general term for light that is transmitted throughout a volume
 
 This transmitted light can be the result of various different interactions, for example:
 
-- the left over result of incoming light after it has reflected/scattered out of the volume
-- the left over result of light after being absorbed by the volume (and converted to heat)
+- The left over result of incoming light after it has reflected/scattered out of the volume.
+- The left over result of light after being absorbed by the volume (and converted to heat).
 
 Here, the transmission color is used to set the end result color
 that light becomes after it is transmitted through the volume.

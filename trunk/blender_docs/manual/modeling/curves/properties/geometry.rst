@@ -172,7 +172,7 @@ Details
   and moves along the curve to the last control-point on the right.
 - Negative scaling, (negative local Y on the taper curve) is possible as well.
   However, rendering artifacts may appear.
-- Might need to increase the curve resolution to see more detail of the taper
+- Might need to increase the curve resolution to see more detail of the taper.
 - With closed curves, the taper curve in *Taper Object* acts along the whole curve (perimeter of the object),
   not just the length of the object, and varies the extrusion depth. In these cases,
   you want the relative height of the *Taper Object*

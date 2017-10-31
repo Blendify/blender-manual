@@ -62,14 +62,14 @@ Shortcuts
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
 - Move the camera forward/backward :kbd:`W`, :kbd:`S`.
 - Strafe left/right :kbd:`A`, :kbd:`D`.
-- Jump :kbd:`V` - only in *gravity* mode.
-- Move up and down :kbd:`Q`, :kbd:`E` - only in *free* mode.
+- Jump :kbd:`V` -- only in *gravity* mode.
+- Move up and down :kbd:`Q`, :kbd:`E` -- only in *free* mode.
 - Alternate between *free* and *gravity* modes :kbd:`Tab`.
 - Change the movement speed:
   - :kbd:`WheelUp` or :kbd:`NumpadPlus` to increase the movement speed for this open session.
   - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to decrease the movement speed for this open session.
-  - :kbd:`Shift` (hold) - to speed up the movement temporarily.
-  - :kbd:`Alt` (hold) - to slow down the movement temporarily.
+  - :kbd:`Shift` (hold) -- to speed up the movement temporarily.
+  - :kbd:`Alt` (hold) -- to slow down the movement temporarily.
 
 When you are happy with the new view, click :kbd:`LMB` to confirm.
 In case you want to go back from where you started, press :kbd:`Esc` or :kbd:`RMB`, as usual.

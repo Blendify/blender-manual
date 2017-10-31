@@ -14,7 +14,7 @@ and that you do not accidentally break anything vital before you get used to the
 
 In order to submit a patch, follow this process:
 
-#. Make any changes that you want
+#. Make any changes that you want.
 #. Create a patch file by running::
 
       svn diff > filename.diff

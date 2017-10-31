@@ -99,7 +99,7 @@ In the above example, a Time curve provides the Alpha value to the input socket.
 The current Render Layer node, which has the title in view, provides the image. As before,
 the trusty Alpha Over node mixes (using the alpha values)
 the background swirl and the alpha title to produce the composite image.
-Notice the *Convert Premultiplied* - checkbox is **not** enabled; this produces a composite
+Notice the *Convert Premultiplied* -- checkbox is **not** enabled; this produces a composite
 where the title lets the background image show through where even the background image is
 transparent, allowing you to layer images on top of one another.
 

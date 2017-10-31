@@ -28,7 +28,7 @@ Variables
 You can use:
 
 - *sensors names*,
-- *properties* : assign a game property to an object and use it in a controller expression.
+- *properties*: assign a game property to an object and use it in a controller expression.
 
 These cannot contain blank spaces.
 
@@ -46,7 +46,7 @@ Returns: a number
 Examples: ``3 + 2``, ``35 / 5``
 
 
-Logical operations
+Logical Operations
 ------------------
 
 - Comparison operators: ``<``, ``>``, ``>=``, ``<=``, ``==``, ``!=``
@@ -86,8 +86,8 @@ returns True (the controller sends a positive pulse to the connected actuators).
 
 Given the object has:
 
-- a sensor called ``Key_Inserted`` equal to True,
-- a property named ``Fuel`` equal to False,
+- A sensor called ``Key_Inserted`` equal to True,
+- A property named ``Fuel`` equal to False,
 
 .. code-block:: python
 

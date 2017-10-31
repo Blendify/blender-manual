@@ -80,8 +80,8 @@ Recommendation is to proceed systematically, starting from the general outline d
    This includes the decision, which feature to use for what segment of the shot.
    Work with the track weights to get an overall consistent movement of the weight center,
    in accordance with the inherent focus of the shot.
-#. Define the panning movements of the virtual camera (through animation of the *Expected Position* parameter)
-#. Add tracking for rotation and zoom stabilization
+#. Define the panning movements of the virtual camera (through animation of the *Expected Position* parameter).
+#. Add tracking for rotation and zoom stabilization.
 #. Fine tuning pass:
 
    Break down the whole duration of the shot into logical segments to define the intended camera movement.
@@ -99,7 +99,7 @@ for animation data beyond the 3D scene. So, while it *is possible* to set key fr
 of the stabilizer (either through pressing the :kbd:`I` key or with the help of the context menu), it is not possible
 to manipulate the resulting curves graphically. The only way to readjust or remove a misguided keyframe is to locate
 the timeline to the very frame and then use the context menu of the animated UI control.
-(Hint: the color of the UI control changes when you have located at precisely the frame number of the keyframe)
+(Hint: the color of the UI control changes when you have located at precisely the frame number of the keyframe).
 
 
 Irregular Track Setup

@@ -30,7 +30,7 @@ Properties
 ==========
 
 Component
-   ToDo
+   ToDo.
 
 
 Outputs

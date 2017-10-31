@@ -133,7 +133,7 @@ Data-Block Types
 ================
 
 .. EDITORS NOTE:
-   Mostly we want to avoid long lists of data - but in this case,
+   Mostly we want to avoid long lists of data -- but in this case,
    it is the only comprehensive list of data-blocks, and something which you cannot
    find directly just through looking at the interface.
    ::

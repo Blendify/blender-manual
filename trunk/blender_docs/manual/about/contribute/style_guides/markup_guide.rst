@@ -6,14 +6,14 @@ Markup Style Guide
 
 .. Editors Note:
    ::
-   There are many detailed conventions, eg:
+   There are many detailed conventions, e.g:
    ::
-   - when definition lists/bullet-points are used.
-   - word-ordering in filenames.
-   - how text is wrapped.
-   - the number of spaces between lines.
-   - when it is/is not okay to add in Unicode characters.
-   - should comments on a page be above or below titles :)
+   - When definition lists/bullet-points are used.
+   - Word-ordering in filenames.
+   - How text is wrapped.
+   - The number of spaces between lines.
+   - When it is/is not okay to add in Unicode characters.
+   - Should comments on a page be above or below titles :)
    ::
    Having a lot of detailed text on this page is off-putting to new contributors,
    so please avoid making this page into a wall-of-text,
@@ -117,9 +117,9 @@ all a similar size when floated next to text,
 writers should take screenshots in the following manner:
 
 #. Prepare the area you would like to capture making sure to use the default theme and setting.
-   (In some cases you may not want to use the default settings e.g. if some options are hidden behind a checkbox)
-#. Zoom to the maximum zoom level (hold :kbd:`NumpadPlus` or :kbd:`Ctrl-MMB` or similar)
-#. Zoom out eight zoom levels (:kbd:`NumpadMinus` -- eight times)
+   (In some cases you may not want to use the default settings e.g. if some options are hidden behind a checkbox).
+#. Zoom to the maximum zoom level (hold :kbd:`NumpadPlus` or :kbd:`Ctrl-MMB` or similar).
+#. Zoom out eight zoom levels (:kbd:`NumpadMinus` -- eight times).
 #. In some cases you will want to leave a small margin around the thing you are trying to capture.
    This should be around 30px but does not have to be exact.
 

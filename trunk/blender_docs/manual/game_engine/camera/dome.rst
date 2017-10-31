@@ -106,9 +106,9 @@ Cube Map Mode
 
 Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
-- We are using six renders for that. The order of the images follows Blender internal EnvMap file format:
-  - first line: right, back, left
-  - second line: bottom, top, front
+We are using six renders for that. The order of the images follows Blender internal EnvMap file format:
+- First line: right, back, left.
+- Second line: bottom, top, front.
 
 .. figure:: /images/game-engine_camera_dome_envmap.jpg
 
@@ -181,12 +181,12 @@ software package (requires full version).
 Examples
 ========
 
-- `Spherical Mirror Dome 4×3 <https://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__
-- `Truncated Dome 4×3 <https://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__
+- `Spherical Mirror Dome 4×3 <https://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__.
+- `Truncated Dome 4×3 <https://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__.
 - `Sample Fullscreen File 4×3
-  <https://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__
+  <https://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__.
 - `Sample Fullbuffer File 4×3
-  <https://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__
+  <https://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
 
 .. important::
 

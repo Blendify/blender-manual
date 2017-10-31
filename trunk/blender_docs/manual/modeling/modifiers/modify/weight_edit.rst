@@ -114,7 +114,7 @@ Use Channel
    Hue
       Uses the hue value from the standard color wheel (e.g. blue has a higher hue value than yellow).
    Saturation
-      Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0)
+      Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0).
 
    .. note::
 

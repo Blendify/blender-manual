@@ -293,7 +293,7 @@ Multicut
      - .. figure:: /images/modeling_meshes_editing_subdividing_subdivide_quad-multi.png
           :width: 250px
 
-          Quad with two cuts
+          Quad with two cuts.
 
 
 .. _mesh-unsubdivide:

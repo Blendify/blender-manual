@@ -193,7 +193,7 @@ Select to Active
       and then bake its normals onto an object with a low polygon count.
       The resulting normal map can then be applied to make the low poly object look more detailed.
    Bias
-      Bias towards further away from the object (in Blender units)
+      Bias towards further away from the object (in Blender units).
 
 .. note:: Mesh Must be Visible in Render
 
@@ -205,17 +205,17 @@ Select to Active
 Workflow
 ========
 
-#. In a 3D View editor, select a mesh and enter UV/Face Select mode
-#. :ref:`Unwrap the mesh object <editors-uv-image-index>`
+#. In a 3D View editor, select a mesh and enter UV/Face Select mode.
+#. :ref:`Unwrap the mesh object <editors-uv-image-index>`.
 #. In a UV/Image Editor, either create a new image or open an existing one.
    If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
    Ensure that all faces are selected.
 #. In the Bake panel at the bottom of the *Render menu*, bake your desired type of image
-   (*Full Render*, etc.)
+   (*Full Render*, etc.).
 #. When rendering is complete, Blender replaces the image with the Baked image.
 #. Save the image.
 #. Apply the image to the mesh as a UV texture. For displacement and normal maps,
-   refer to :doc:`Bump and Normal Maps </render/blender_render/textures/properties/influence/bump_and_normal>`.
+   refer to :doc:`Bump and Normal Maps </render/blender_render/textures/properties/influence/bump_normal>`.
    For full and texture bakes, refer to :doc:`Textures </render/blender_render/textures/index>`.
 #. Refine the image using the process described below,
    or embellish with :ref:`painting-texture-index`

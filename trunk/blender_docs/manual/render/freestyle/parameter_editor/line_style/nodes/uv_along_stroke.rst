@@ -57,7 +57,7 @@ so that the gradient line color specified in the active line style is applied al
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_uv-along-stroke_example.png
 
-   `.blend <https://wiki.blender.org/index.php/File:Blender_272_textured_strokes_in_cycles.blend>`__
+   `.blend <https://wiki.blender.org/index.php/File:Blender_272_textured_strokes_in_cycles.blend>`__.
 
 It is noted that the texture image ``FS_floral_brush.png``
 shown in the screen capture is an example of Freestyle brush images with tips.

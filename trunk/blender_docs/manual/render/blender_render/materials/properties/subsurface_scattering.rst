@@ -183,8 +183,8 @@ See the external links for more information:
 A more Intuitive Approach
 =========================
 
-- Set the Scattering color to 0.5
-- Set the Front weight to 2.0
+- Set the Scattering color to 0.5.
+- Set the Front weight to 2.0.
 - Set the scale factor based on the size of your object relative to the scene.
   If you want to see much translucency you need small objects or large scale values.
 - Set the radius values appropriately.

@@ -81,7 +81,7 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
    Redo last.
 
    Left Image: Redo Last- Rotation (Object Mode, 60 degrees),
-   Right Image: Redo Last- Scale (Edit Mode, Resize face)
+   Right Image: Redo Last- Scale (Edit Mode, Resize face).
 
 .. tip:: Operations using Redo Last
 

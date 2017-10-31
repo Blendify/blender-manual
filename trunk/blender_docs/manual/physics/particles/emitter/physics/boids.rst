@@ -30,7 +30,7 @@ The objects have to share one common layer to have effect.
 It is not necessary to render this common layer, so you may use invisible influences.
 
 Boids can different physics depending on whether they are in the air,
-or on land (on collision object)
+or on land (on collision object).
 
 Allow Flight
    Allow boids to move in the air.

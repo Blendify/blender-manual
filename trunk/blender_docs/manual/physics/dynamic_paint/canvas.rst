@@ -154,7 +154,7 @@ Common Options
 --------------
 
 For each surface type there are special settings to adjust.
-Most types have the settings *Dissolve* and *Brush* :
+Most types have the settings *Dissolve* and *Brush*:
 
 Dissolve
    Used to make the surface smoothly return to its original state during a defined time period.

@@ -24,17 +24,17 @@ Interpolation falloff
    This essentially controls how smooth the deformations are.
    Note that while lower values result in smoother deformations,
    they may also introduce slight artifacts.
-   (This setting is unavailable after binding)
+   (This setting is unavailable after binding).
 Bind
    Bind the current state of the modified mesh to the current state of
    the target mesh, such that any later change in the target mesh will
    deform the modified mesh as well. Note that until the bind has been
    executed, this modifier will have no effect whatsoever.
-   (This does not affect the target object)
+   (This does not affect the target object).
 Unbind
    Once the mesh is bound, the *Bind* button changes to *Unbind*.
    Executing this frees the modified mesh from the target, and resets it its original shape.
-   (This does not affect the target object)
+   (This does not affect the target object).
 
 .. note::
 
@@ -51,9 +51,7 @@ Unbind
    characteristic of surface binding in general, so it is recommended
    to have reasonably well matching meshes, in order to get a good bind.
 
-.. warning::
-
-   Target Mesh Validity
+.. warning:: Target Mesh Validity
 
    While there are no restrictions with regard to the modified mesh,
    the target object's mesh has a few constraints, which if not followed, will prevent a successful bind.

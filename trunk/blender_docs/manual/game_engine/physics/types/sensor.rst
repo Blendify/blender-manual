@@ -15,8 +15,8 @@ Like the Near and Radar object it is:
 - Ignoring collision with their parent.
 - Capable of broadphase filtering based on:
 
-  - Actor option: the collisioning object must have the Actor flag set to be detected
-  - property/material: as specified in the collision sensors attached to it.
+  - Actor option: the collisioning object must have the Actor flag set to be detected.
+  - Property/material: as specified in the collision sensors attached to it.
 
 Broadphase filtering is important for performance reason:
 the collision points will be computed only for the objects that pass the broadphase filter.

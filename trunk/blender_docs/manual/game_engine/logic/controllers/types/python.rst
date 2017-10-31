@@ -42,5 +42,5 @@ See :ref:`standard controller parts <standard-controller-parts>` for description
 
 .. seealso:: For more information on the Python API see:
 
-   - `The API docs <https://www.blender.org/api/blender_python_api_current/>`__
+   - `The API docs <https://www.blender.org/api/blender_python_api_current/>`__.
    - :doc:`This chapter for more Game Engine related API </game_engine/python_api/index>`.

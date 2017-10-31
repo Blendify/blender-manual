@@ -10,9 +10,9 @@ Structure
 
 They have three elements:
 
-- The "start joint" named *root* or *head*,
-- the "body" itself,
-- and the "end joint" named *tip* or *tail*.
+- The "start joint" named *root* or *head*.
+- The "body" itself.
+- And the "end joint" named *tip* or *tail*.
 
 With the default armature in edit-mode,
 you can select the root and the tip, and move them as you do with mesh vertices.

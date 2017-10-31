@@ -159,8 +159,8 @@ Viscosity Presets
       :header-rows: 1
 
       * - Fluid
-        - dynamic viscosity (in cP)
-        - kinematic viscosity (Blender, in m\ :sup:`2`\.s\ :sup:`-1`\)
+        - Dynamic viscosity (in cP)
+        - Kinematic viscosity (Blender, in m\ :sup:`2`\.s\ :sup:`-1`\)
       * - Water (20- C)
         - 1.002×10\ :sup:`0` (1.002)
         - 1.002×10\ :sup:`-6` (0.000001002)

@@ -65,10 +65,11 @@ In this case, Blender will not rotate the source dividing the angle between thos
 For both cases, Blender will inform the user about the source rotation during the creation process.
 If you look at the Bottom of the Mesh Tools Panel, if you press :kbd:`Ctrl-LMB`,
 you will see that the Rotate Source is automatically checked and if :kbd:`Ctrl-Shift-LMB` is used,
-it will be automatically unchecked. Examples:
+it will be automatically unchecked.
+Examples:
 
-- Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. - Faces created with source automatically rotated)
-- Creating Faces with shortcut :kbd:`Ctrl-Shift-LMB`, (see Fig. Faces created with no source rotation)
+- Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. - Faces created with source automatically rotated).
+- Creating Faces with shortcut :kbd:`Ctrl-Shift-LMB`, (see Fig. Faces created with no source rotation).
 
 If you have three or more vertices selected, and left click with mouse while pressing :kbd:`Ctrl-LMB`,
 you will also create planar faces, but along the vertices selected, following the direction of the cursor.

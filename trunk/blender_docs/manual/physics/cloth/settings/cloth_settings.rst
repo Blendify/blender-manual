@@ -69,13 +69,13 @@ The typical workflow for pinning:
 #. Set the armature to its bind pose.
 #. Model clothing that encloses but does not penetrate the character's mesh.
 #. Parent the clothing objects to the armature. The armature will now have several child meshes bound to it.
-#. Create a new vertex group on each cloth object for its pinned vertices
+#. Create a new vertex group on each cloth object for its pinned vertices.
 #. Add vertexes to be pinned to this vertex group and give these vertices non-zero weights
    (you probably want weight = 1).
    For example the belt area of the tunic would be in the vertex group and have weight one.
 #. Designate the clothing objects as "cloth" in the Physics tab of the Properties editor.
    Make sure the Cloth Modifier is below the Armature Modifier in the modifier stack.
-#. press the *Pinning of Cloth* button in the *Cloth* panel and select the vertex group.
+#. Press the *Pinning of Cloth* button in the *Cloth* panel and select the vertex group.
 #. Designate the character's mesh as "collision" object in the Physics tab of the Properties editor.
 #. The clothing is now ready. Non-pinned vertices will be under control of the Cloth modifier.
    Pinned vertices will be under control of the Armature modifier.

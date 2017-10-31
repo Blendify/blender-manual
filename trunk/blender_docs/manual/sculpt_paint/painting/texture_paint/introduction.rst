@@ -137,11 +137,11 @@ Using an External Image Editor
 
 If you use an external program to edit your UV Texture, you must:
 
-- run that paint program (GIMP, Photoshop\ :sup:`®` \, etc.)
-- load the image or create a new one
-- change the image, and
-- re-save it within that program.
-- Back in Blender, you reload the image in the UV/Image Editor.
+#. Run that paint program (GIMP, Photoshop\ :sup:`®` \, etc.).
+#. Load the image or create a new one.
+#. Change the image.
+#. And re-save it within that program.
+#. Back in Blender, you reload the image in the UV/Image Editor.
 
 You want to use an external program if you have teams of people using different programs that
 are developing the UV textures,
