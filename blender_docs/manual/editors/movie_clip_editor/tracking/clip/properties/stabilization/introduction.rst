@@ -19,7 +19,7 @@ Typical **usage scenarios** of the stabilizer:
 It is not uncommon for 2D stabilization to have to deal with somewhat imperfect and flawed footage.
 
 
-How it works
+How It Works
 ============
 
 To detect spurious movement in a given shot, we'll assume a simplified model about this movement.
@@ -129,7 +129,7 @@ By *animating* those parameters, we're able to perform all kinds of deliberate c
    .. clear
 
 
-The "dancing" black Borders
+The "Dancing" Black Borders
 ---------------------------
 
 As explained above, when we succeed with stabilizing the image contents, the boundaries of the original footage

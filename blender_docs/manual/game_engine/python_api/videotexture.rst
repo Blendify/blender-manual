@@ -1,6 +1,6 @@
 
 ************************************
-The VideoTexture module: bge.texture
+The VideoTexture Module: bge.texture
 ************************************
 
 The ``bge.texture`` module allows you to manipulate textures during the game.
@@ -23,7 +23,7 @@ including but not limited to:
 - JPG
 
 
-How it works
+How It Works
 ============
 
 The principle is simple: first you identify an existing texture by object and name,
@@ -35,7 +35,7 @@ the new texture is deleted and the old texture restored.
 The present page is a guide to the ``bge.texture`` module with simple examples.
 
 
-Game preparation
+Game Preparation
 ================
 
 Before you can use the thing ``bge.texture`` module,
@@ -58,7 +58,7 @@ it is compatible with all GE fancy texturing features: GLSL, multi-texture, cust
 etc.
 
 
-First example
+First Example
 =============
 
 Let us assume that we have a game object with one or more faces assigned to a material/image on
@@ -80,7 +80,7 @@ retrieve the object reference::
 The check on ``video`` attribute is just a trick to make sure we create the texture only once.
 
 
-Find material
+Find Material
 -------------
 
 .. code-block:: python
@@ -102,7 +102,7 @@ if we want to find the material called ``VideoMat`` on this object, the code bec
    matID = bge.texture.materialID(obj, 'MAVideoMat')
 
 
-Create texture
+Create Texture
 --------------
 
 ``bge.texture.Texture`` is the class that creates the ``Texture`` object that loads the dynamic texture on the GPU.
@@ -126,7 +126,7 @@ The constructor takes one mandatory and three optional arguments:
    GameLogic.video = bge.texture.Texture(obj, matID)
 
 
-Make texture persistent
+Make Texture Persistent
 -----------------------
 
 Note that we have assigned the object to a ``GameLogic``, ``video``
@@ -136,7 +136,7 @@ A local variable would be deleted at the end of the script and the GPU texture d
 same time. ``GameLogic`` module object is a handy place to store persistent objects.
 
 
-Create a source
+Create a Source
 ---------------
 
 Now we have a ``Texture`` object but it cannot do anything because it does not have
@@ -191,7 +191,7 @@ And then assign (and reassign) the source during the game::
    GameLogic.video.source = GameLogic.mySources[movieSel]
 
 
-Setup the source
+Setup the Source
 ----------------
 
 The ``VideoFFmpeg`` source has several attributes to control the movie playback:
@@ -235,7 +235,7 @@ In case the video dimensions are already a power of 2, it has no effect. ::
    GameLogic.video.source.scale = True
 
 
-Play the video
+Play the Video
 --------------
 
 We are now ready to play the video::
@@ -255,8 +255,8 @@ The argument of ``refresh
 For video playback, you definitively want to set it to True.
 
 
-Checking video status
----------------------
+Checking the Video Status
+-------------------------
 
 Video source classes (such as VideoFFMpeg) have an attribute ``status``.
 If video is playing, its value is 2, if it's stopped, it's 3.
@@ -266,8 +266,8 @@ So in our example::
    #video has stopped
 
 
-Advanced work flow
-------------------
+Advanced Workflow
+-----------------
 
 True argument in ``Texture.refresh()`` method simply invalidates the image buffer
 after sending it to the GPU so that on next frame, a new image will be loaded from the source.
@@ -304,7 +304,7 @@ identify the texture by the texture slot where it is defined, here two::
    tex=bge.texture.Texture(gameobj, matID, 2)
 
 
-Advanced demos
+Advanced Demos
 ==============
 
 Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2video.blend>`__

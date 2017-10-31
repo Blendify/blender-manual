@@ -1,6 +1,6 @@
 
 ******************
-Editing the manual
+Editing the Manual
 ******************
 
 Update
@@ -54,7 +54,7 @@ to not waste people's effort and to attain a better Blender manual as a result.
    Manual maintainers and the general community can also point to areas that are in need of big or small changes.
 
 
-Getting help/answers
+Getting Help/Answers
 --------------------
 
 If you are in doubt about functionality that you wish to document,

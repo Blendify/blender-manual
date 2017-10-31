@@ -41,7 +41,7 @@ Parts of the User Interface may use different units of measurements for angles, 
 In the Graph Editor, while working with Drivers, all angles are Radians.
 
 
-Intra-armature Bone Drivers Can Misbehave
+Intra-armature Bone Drivers can Misbehave
 =========================================
 
 There is a `well-known limitation <https://developer.blender.org/T40301>`__

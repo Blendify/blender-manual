@@ -20,7 +20,7 @@ Bone Layers
    | Panel:    :menuselection:`Bone --> Relations`
 
 
-Moving bones between layers
+Moving Bones between Layers
 ---------------------------
 
 Obviously, you have to be in *Edit Mode* or *Pose Mode* to move bones between

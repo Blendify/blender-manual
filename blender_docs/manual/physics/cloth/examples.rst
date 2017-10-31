@@ -44,14 +44,14 @@ find the *Links and Materials* panel (the same one you used for vertex groups) a
 Now, if you press :kbd:`Alt-A`, things are starting to look pretty nice, do not you think?
 
 
-Cloth on armature
+Cloth on Armature
 =================
 
 Cloth deformed by armature and also respecting an additional collision object:
 `Regression blend-file <https://wiki.blender.org/index.php/Media:Cloth-regression-armature.blend>`__.
 
 
-Cloth with animated vertex groups
+Cloth with Animated Vertex Groups
 =================================
 
 Cloth with animated pinned vertices:

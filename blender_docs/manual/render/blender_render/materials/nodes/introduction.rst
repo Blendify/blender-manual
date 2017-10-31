@@ -48,7 +48,7 @@ This section covers:
 - The specific types of nodes available for materials.
 
 
-Accessing The Node Editor
+Accessing the Node Editor
 =========================
 
 First lets enter the :doc:`Node editor </editors/node_editor/index>`

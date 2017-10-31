@@ -9,7 +9,7 @@ This includes render size, frame rate, pixel aspect ratio, output location, and 
 
 .. _render-tab-dimensions:
 
-Dimensions panel
+Dimensions Panel
 ================
 
 .. figure:: /images/render_output_output_dimensions-panel.png

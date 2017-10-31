@@ -1,7 +1,7 @@
 .. _bpy.types.FreestyleSettings:
 
 *********
-View maps
+View Maps
 *********
 
 .. admonition:: Reference

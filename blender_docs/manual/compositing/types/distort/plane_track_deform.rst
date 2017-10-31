@@ -69,7 +69,7 @@ Plane
 Examples
 ========
 
-Using Image output
+Using Image Output
 ------------------
 
 This can simply be achieved by using the alpha over node.
@@ -79,7 +79,7 @@ This can simply be achieved by using the alpha over node.
    Image output.
 
 
-Using Plane output
+Using Plane Output
 ------------------
 
 This can be achieved by mixing the movie clip and the image using the plane output as the factor.
@@ -89,7 +89,7 @@ This can be achieved by mixing the movie clip and the image using the plane outp
    Plane output.
 
 
-Using Image output vs using original image
+Using Image Output vs Using Original Image
 ==========================================
 
 Using Image output scales, translates and skews the input image according to the track

@@ -100,7 +100,7 @@ and in the 3D View header, select :menuselection:`Object --> Convert Object Type
 :kbd:`Alt-C`, and select :menuselection:`Mesh` from the pop-up menu.
 
 
-Cloth - Object collisions
+Cloth - Object Collisions
 -------------------------
 
 .. figure:: /images/physics_collision_panel.png
@@ -175,7 +175,7 @@ it will bake significantly slower than before,
 and it will probably clip through the box pretty badly as in the picture on the right.
 
 
-Editing the cached simulation
+Editing the Cached Simulation
 -----------------------------
 
 The cache contains the shape of the mesh at each frame. You can edit the cached simulation,

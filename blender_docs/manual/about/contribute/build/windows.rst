@@ -37,7 +37,7 @@ but the next time you build it should only take a few seconds.
       pip install sphinx "babel<2.0"
 
 
-Viewing the local manual
+Viewing the Local Manual
 ========================
 
 Once the docs have been built, all the HTML files can be found inside ``C:\blender_docs\build\html``.

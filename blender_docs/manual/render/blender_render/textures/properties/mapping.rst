@@ -86,7 +86,7 @@ Sphere
    It also produces interesting effects on a cylinder.
 
 
-Inheriting coordinates from the parent object
+Inheriting Coordinates from the Parent Object
 =============================================
 
 From Dupli

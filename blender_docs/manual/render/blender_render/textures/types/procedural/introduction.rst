@@ -33,7 +33,7 @@ These are the available types:
 - :doc:`Wood </render/blender_render/textures/types/procedural/wood>`
 
 
-Common options
+Common Options
 ==============
 
 Noise Basis

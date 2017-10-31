@@ -17,7 +17,7 @@ especially when blurred/softened,
 and spot lamps also provide other functionality such as "volumetric" halos.
 
 
-Lamp options
+Lamp Options
 ============
 
 .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_panel.jpg

@@ -13,7 +13,7 @@ There are two main controls for light falloff for *Point* and *Spot* lamps:
 - And the *Sphere* checkbox.
 
 
-Falloff types
+Falloff Types
 =============
 
 Lin/Quad Weighted

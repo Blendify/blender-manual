@@ -1,6 +1,6 @@
 
 ***********
-World panel
+World Panel
 ***********
 
 World

@@ -234,7 +234,7 @@ Linking to the outside world::
    `Blender Website <https://www.blender.org>`__
 
 
-Directory layout
+Directory Layout
 ================
 
 Sections should be generally structured as follows:

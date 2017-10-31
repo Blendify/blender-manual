@@ -11,7 +11,7 @@ This page covers conventions concerning the translations.
    - The translations are licensed under the same :doc:`/about/license` as the original.
 
 
-Should I translate\.\.\. ?
+Should I Translate\.\.\. ?
 ==========================
 
 Maybe

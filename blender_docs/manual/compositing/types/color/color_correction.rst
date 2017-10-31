@@ -20,7 +20,7 @@ Red, Green, Blue
    Specifies which RGB-channels will be affected by correction.
 
 
-Correction tools (columns)
+Correction Tools (Columns)
 --------------------------
 
 Saturation
@@ -36,7 +36,7 @@ Lift
    (Works like *Offset* in the Color Balance node).
 
 
-Tonal ranges (rows)
+Tonal Ranges (Rows)
 -------------------
 
 Master

@@ -16,7 +16,7 @@ Set Scene Frames
    ToDo.
 
 
-Marker panel
+Marker Panel
 ============
 
 Add Marker and Move
@@ -156,7 +156,7 @@ Weight
    position more accurate. This iterates several times.
 
 
-Track panel
+Track Panel
 ===========
 
 Tracks

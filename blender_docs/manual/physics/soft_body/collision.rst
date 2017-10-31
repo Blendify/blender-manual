@@ -12,7 +12,7 @@ So if you have too few vertices too few collision takes place. Secondarily,
 you can use edges and faces to improve the collision calculation.
 
 
-Collisions with other objects
+Collisions with Other Objects
 =============================
 
 For a *Soft Body* to collide with another object there are a few prerequisites:

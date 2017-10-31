@@ -48,10 +48,10 @@ When you already moved the mouse in the desired direction,
 pressing :kbd:`MMB` will lock to the axis which was pointed at.
 
 
-Axis locking types
+Axis Locking Types
 ==================
 
-Axis locking
+Axis Locking
 ------------
 
 .. admonition:: Reference
@@ -67,7 +67,7 @@ scale or rotate in a single dimension.
 
 .. _view3d-transform-plane-lock:
 
-Plane locking
+Plane Locking
 -------------
 
 .. admonition:: Reference
@@ -94,7 +94,7 @@ always constrained around one axis.
 *Trackball* type rotations :kbd:`R-R` cannot be locked at all.
 
 
-Axis locking modes
+Axis Locking Modes
 ------------------
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_locking-modes.png

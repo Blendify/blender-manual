@@ -16,7 +16,7 @@ This is in direct contrast to point-like artificial lights which produce sharp b
    Commons Options.
 
 
-Lamp options
+Lamp Options
 ============
 
 Distance, Energy and Color

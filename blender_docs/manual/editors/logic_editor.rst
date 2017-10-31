@@ -23,7 +23,7 @@ We will look at each one individually.
    4) Sensor column, 5) Controller Column, 6) Actuator Column.
 
 
-Main view
+Main View
 =========
 
 Object Name

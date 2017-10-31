@@ -200,7 +200,7 @@ To do so, you will first need to setup the shadow setting for the object which w
 :menuselection:`Material --> Shadow --> Cat Buffer Shadows and Buffer Bias`.
 
 
-Deep generation method
+Deep Generation Method
 ----------------------
 
 .. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_deep.jpg
@@ -215,7 +215,7 @@ Compress
    Deep shadow map compression threshold.
 
 
-Common options
+Common Options
 ==============
 
 The following settings are common to all buffered shadow generation methods.

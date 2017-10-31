@@ -196,7 +196,7 @@ Axis
 Examples
 ========
 
-The Spring example
+The Spring Example
 ------------------
 
 .. _fig-mesh-screw-circle:
@@ -331,7 +331,7 @@ with the *Screw* tool were created using the Top Ortho View.
           The vector angle is maintained along the extrusions.
 
 
-Creating perfect Screw Spindles
+Creating Perfect Screw Spindles
 -------------------------------
 
 Using the Spring Example, it is easy to create perfect Screw Spindles

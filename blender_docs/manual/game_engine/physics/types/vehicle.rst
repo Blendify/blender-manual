@@ -23,7 +23,7 @@ in the real world. It abstracts the complexity away by providing a simple interf
 suspension force, damping and compression.
 
 
-How it works
+How It Works
 ============
 
 Bullet's approach to a vehicle controller is called a "Raycast Vehicle".
@@ -43,7 +43,7 @@ You can check Kester Maddock's approach to vehicle simulation
 It includes some common problems, workarounds and tips and tricks.
 
 
-How to use
+How to Use
 ==========
 
 Currently the Vehicle Controller can only be used as a constraint via Python.

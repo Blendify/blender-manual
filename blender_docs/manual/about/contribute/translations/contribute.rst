@@ -98,7 +98,7 @@ Maintenance
 
 .. _translations-fuzzy-strings:
 
-Keeping track of fuzzy strings
+Keeping Track of Fuzzy Strings
 ------------------------------
 
 When the manual is updated, those translations which are outdated will be marked as fuzzy.

@@ -101,7 +101,7 @@ Draw a continuous line: :kbd:`LMB` drag.
           Result of constraining cut angle.
 
 
-Confirming and selection
+Confirming and Selection
 ========================
 
 Pressing :kbd:`Esc` or :kbd:`RMB` at any time cancels the tool,

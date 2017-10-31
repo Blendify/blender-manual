@@ -17,7 +17,7 @@ difference is in how far light can diffuse beneath the surface before it is abso
 transmitted back out.
 
 
-How it works
+How It Works
 ============
 
 Actually calculating the light path beneath the surface of an object is not practical.
@@ -163,7 +163,7 @@ Error
    Setting it at 1.0 is a good way to quickly get a preview of the look, with errors.
 
 
-Developing your own SSS material
+Developing your own SSS Material
 ================================
 
 The Traditional Approach
@@ -180,7 +180,7 @@ See the external links for more information:
 - Adjust the brightness with the *Front* and *Back* values.
 
 
-A more intuitive approach
+A more Intuitive Approach
 =========================
 
 - Set the Scattering color to 0.5

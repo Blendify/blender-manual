@@ -36,7 +36,7 @@ enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`.
    which allows the cursor placement relative to scene objects.
 
 
-3D Cursor panel
+3D Cursor Panel
 ---------------
 
 .. admonition:: Reference

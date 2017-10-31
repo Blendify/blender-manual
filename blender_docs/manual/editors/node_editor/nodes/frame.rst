@@ -31,7 +31,7 @@ Text
 Editing
 =======
 
-Join in new Frame
+Join in New Frame
 -----------------
 
 .. admonition:: Reference

@@ -46,7 +46,7 @@ and altering the Angle slider provided that no other actions take place between 
 *Warp* transform confirmation and accessing the slider.
 
 
-Cursor position and view
+Cursor Position and View
 ------------------------
 
 The location of the 3D cursor can be used to alter the results of the *Warp*

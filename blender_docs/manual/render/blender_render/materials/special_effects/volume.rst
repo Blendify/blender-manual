@@ -428,7 +428,7 @@ by turning *Emission Color* back on.
    Under the world tab, choose a very dark color for the horizon.
 
 
-Smoke Simulator with fire texture
+Smoke Simulator with Fire Texture
 ---------------------------------
 
 You can also turn your smoke into fire with another texture! To make fire,

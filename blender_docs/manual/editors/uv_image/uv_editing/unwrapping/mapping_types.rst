@@ -308,7 +308,7 @@ Radius
    The radius of the cylinder to use.
 
 
-Project From View
+Project from View
 =================
 
 In the 3D View, the :menuselection:`Face --> Unwrap UVs --> Project from View` option maps the face as
@@ -318,7 +318,7 @@ Use this option if you are using a picture of a real object as a UV Texture for 
 you have modeled. You will get some stretching in areas where the model recedes away from you.
 
 
-Project From View (Bounds)
+Project from View (Bounds)
 ==========================
 
 Using *Project from View (Bounds)* will do the same as above,

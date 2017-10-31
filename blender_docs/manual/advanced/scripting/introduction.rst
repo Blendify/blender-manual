@@ -16,7 +16,7 @@ To interact with Blender, scripts can make use of the tightly integrated API
 (Application Programming Interface).
 
 
-General information
+General Information
 ===================
 
 Links that are useful while writing scripts:
@@ -104,10 +104,10 @@ Apart from add-ons, there are also scripts you can use to extend Blender's funct
   :doc:`Text Editor </editors/text_editor>`.
 
 
-Saving your own scripts
+Saving your own Scripts
 -----------------------
 
-File location
+File Location
 ^^^^^^^^^^^^^
 
 All scripts are loaded from the ``scripts`` folder of the

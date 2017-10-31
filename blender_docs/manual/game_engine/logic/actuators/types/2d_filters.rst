@@ -123,7 +123,7 @@ Blue Sepia Example:
 Examples
 ========
 
-Built in filters
+Built in Filters
 ----------------
 
 .. list-table::

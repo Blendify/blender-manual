@@ -47,7 +47,7 @@ When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 
 
-Activating a data-block
+Activating a Data-block
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
@@ -57,7 +57,7 @@ and enter *Edit Mode* while activating the object data of the
 cube will select the cube and enter *Object Mode* (see right).
 
 
-Selecting a group of data-blocks
+Selecting a Group of Data-blocks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Useful when you want to select/deselect a whole bunch of data-blocks.

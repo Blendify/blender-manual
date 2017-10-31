@@ -11,7 +11,7 @@ The :doc:`/render/blender_render/textures/texture_panel` is explained on the pre
    Texture panel.
 
 
-Creating a new Texture Data-Block in a new Texture Slot
+Creating a New Texture Data-block in a new Texture Slot
 =======================================================
 
 Select an empty slot, then click on the *New* button.
@@ -22,7 +22,7 @@ This will do two things:
 - Also, it will add a new slot in the textures stack.
 
 
-Creating a new Texture Data-Block in a non-empty slot
+Creating a New Texture Data-block in a Non-empty Slot
 =====================================================
 
 Select a non-empty slot, then click on the *Plus* button.
@@ -34,7 +34,7 @@ This will do two things:
 - It will assign this new data-block to the selected slot.
 
 
-Sharing a Texture Data-Block in a non-empty slot
+Sharing a Texture Data-Block in a Non-empty Slot
 ================================================
 
 - Select a non-empty slot, then click on the *Browse* button.

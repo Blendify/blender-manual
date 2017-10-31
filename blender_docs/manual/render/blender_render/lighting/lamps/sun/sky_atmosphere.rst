@@ -407,7 +407,7 @@ For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to 2.0.
           Distance: 4.0.
 
 
-Hints and limitations
+Hints and Limitations
 =====================
 
 To always have the *Sun* pointing at the camera center,

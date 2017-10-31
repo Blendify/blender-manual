@@ -39,7 +39,7 @@ Each armature has 32 "Armature layers" which allow you to organize your armature
 hide or show one or several layers, etc.
 
 
-Showing/hiding bone layers
+Showing/Hiding Bone Layers
 --------------------------
 
 Only bones in active layers will be visible/editable, but they will always be effective

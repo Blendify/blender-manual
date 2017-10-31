@@ -131,7 +131,7 @@ Examples
    :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
 
 
-External links
+External Links
 ==============
 
 - `Skin Modifier Development at Blender Nation

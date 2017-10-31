@@ -64,7 +64,7 @@ Audio Device
       Used for 3D source support by *Speaker Objects* and the *Game Engine*.
 
 
-Sound options
+Sound Options
 -------------
 
 These settings are specific to *SDL* or *OpenAL* enabled.

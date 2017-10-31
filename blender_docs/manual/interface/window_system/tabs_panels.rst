@@ -49,7 +49,7 @@ In the image on the right there are three panels: *Transform*, *Edit* and *Histo
 The *Edit* panel is expanded and the other two panels are collapsed.
 
 
-Collapsing and expanding
+Collapsing and Expanding
 ------------------------
 
 A triangle on the left of the title shows the expanded (▼) and collapsed (►) state of the panel.

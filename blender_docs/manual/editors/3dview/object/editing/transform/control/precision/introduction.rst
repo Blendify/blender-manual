@@ -132,7 +132,7 @@ Rotation
 Holding :kbd:`Ctrl-Shift` will cause rotations of 1 degree.
 
 
-Scale transformations
+Scale Transformations
 ---------------------
 
 Holding :kbd:`Ctrl-Shift` will cause size changes in 0.01 BU increments.

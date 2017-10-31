@@ -136,7 +136,7 @@ This kind of driver can also be setup with the Variable Type Rotational Differen
 See :doc:`Shape Keys </animation/shape_keys/index>` for more info.
 
 
-Drivers And Multiple Relative Shape Keys
+Drivers and Multiple Relative Shape Keys
 ========================================
 
 The following screenshots illustrate combining shape keys, bones, and

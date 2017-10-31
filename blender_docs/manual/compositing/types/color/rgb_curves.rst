@@ -70,7 +70,7 @@ Here are some common curves you can use to achieve desired effects:
    From left to right: 1. Lighten 2. Negative 3. Decrease Contrast 4. Posterize.
 
 
-Color correction using Curves
+Color Correction using Curves
 -----------------------------
 
 .. figure:: /images/compositing_types_color_rgb-curves_example-rgb.jpg
@@ -86,7 +86,7 @@ This kind of curve evens out the amount of a color in an image as it reaches sat
 read on for examples of the Darken and Contrast Enhancement curves.
 
 
-Color correction using Black/White Levels
+Color Correction using Black/White Levels
 -----------------------------------------
 
 .. figure:: /images/compositing_types_color_rgb-curves_black-white-levels.png

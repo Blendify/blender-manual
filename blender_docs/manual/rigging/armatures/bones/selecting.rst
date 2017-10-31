@@ -30,7 +30,7 @@ Selecting Bone Joints
 To select bones' joints you have the :doc:`standard selection </editors/3dview/object/selecting/index>` methods.
 
 
-Inverse selection
+Inverse Selection
 -----------------
 
 As stated above, you have to remember that these selection tools are for bones' joints only,
@@ -56,7 +56,7 @@ when the selection status of bones' joints is inverted, a new set of bones is se
           The bones joints selection has been inverted, and not the bones selection.
 
 
-Selecting connected Bone Joints
+Selecting Connected Bone Joints
 -------------------------------
 
 Another example is: when you select the root of a bone connected to its parent,
@@ -99,7 +99,7 @@ Pick Shortest Path :kbd:`Ctrl-RMB`
    Selects the path from the active bone to the bone under the mouse.
 
 
-Deselecting connected Bones
+Deselecting Connected Bones
 ---------------------------
 
 There is a subtlety regarding connected bones.
