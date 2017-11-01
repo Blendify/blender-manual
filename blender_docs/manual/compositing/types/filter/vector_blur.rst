@@ -67,4 +67,17 @@ Image
 Example
 =======
 
-TODO.
+The *speed vector* in this example was created by animating the patterned sphere horizontally and
+​using a frame at the mid-point of the sequence.
+
+.. list-table::
+
+   * - .. figure:: /images/compositing_types_filter_vector-blur_example-base.jpg
+          :width: 300px
+
+          Render result, no post-postprocessing.
+
+     - .. figure:: /images/compositing_types_filter_vector-blur_example-1.jpg
+          :width: 300px
+
+          Composite, with samples set to 64 and a blur of 1.0.
