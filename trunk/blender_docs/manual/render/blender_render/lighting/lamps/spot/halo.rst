@@ -9,7 +9,6 @@ Spot Volumetric Effects
 
    Spot lamps' Halo options.
 
-
 *Spot* lights also can produce "volumetric" effects.
 See :doc:`Volumetric Light </render/blender_render/lighting/volumetric_lights>`
 for more information about what it means.

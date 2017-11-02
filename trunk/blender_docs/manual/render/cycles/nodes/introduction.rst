@@ -69,6 +69,7 @@ layering shaders and non-physically based tricks can be found in:
 - :doc:`Color Nodes </render/cycles/nodes/types/color/index>`,
 - :doc:`Converter Nodes </render/cycles/nodes/types/converter/index>`
 
+
 Open Shading Language
 =====================
 

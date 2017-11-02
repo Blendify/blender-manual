@@ -68,7 +68,6 @@ Loops
 
    Edge and Face Loops.
 
-
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in
 Fig. :ref:`fig-mesh-topo-loop`. The top row (1 - 4) shows a solid view,
 the bottom row (5 - 8) a wireframe view of the same loops.

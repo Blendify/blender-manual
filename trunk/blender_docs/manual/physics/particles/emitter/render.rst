@@ -176,7 +176,6 @@ Billboard
 
    Billboard visualization for particles.
 
-
 *Billboards* are aligned square planes. They are aligned to the camera by default,
 but you can choose another object that they should be aligned to.
 

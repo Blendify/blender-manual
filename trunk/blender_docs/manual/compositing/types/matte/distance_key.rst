@@ -15,6 +15,7 @@ distance between the image pixel color and the key color in a 3D color space.
 This key works well when trying to single out a specific color in a background
 (not necessarily green).
 
+
 Inputs
 ======
 
