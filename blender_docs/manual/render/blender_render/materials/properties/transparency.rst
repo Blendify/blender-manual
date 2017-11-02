@@ -170,7 +170,6 @@ Index of Refraction
    Influence of the IOR of an Object on the distortion of the background:
    spheres of Water, Glass and Diamond (top to bottom).
 
-
 (Influence of the IOR of an Object on the distortion of the background:
 spheres of Water, Glass and Diamond (top to bottom)).
 There are different values for typical materials: Air: 1.000 (no refraction),
@@ -294,6 +293,7 @@ Alternatives to transparent ray-traced shadows can be found in the *World* tab,
 namely the *Ambient Occlusion*, *Environment Lighting*,
 and *Gather* panels. Alternatively, a texture can be used to control the
 *Intensity* value of the shadow-receiving material.
+
 
 .. _transparency-ior-common:
 

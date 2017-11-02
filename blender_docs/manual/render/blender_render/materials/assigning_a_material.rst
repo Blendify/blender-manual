@@ -107,7 +107,6 @@ To use one, just click on it.
    For example, by entering "wood" all existent materials are filtered so that
    only materials containing "wood" are displayed in the list.
 
-
 *Multiple Objects* -- In the 3D View, with :kbd:`Ctrl-L`
 you can quickly link all selected objects to the material (and other aspects)
 of the :ref:`active object <object-active>`.

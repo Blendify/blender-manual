@@ -10,7 +10,6 @@ Even if you do not have experience with vector maths, you will find these nodes 
 Vectors, in general, are two or three element values, for example,
 surface normals are vectors. Vectors are also important for calculating shading.
 
-
 .. toctree::
    :maxdepth: 1
 

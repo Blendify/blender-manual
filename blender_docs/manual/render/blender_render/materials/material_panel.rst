@@ -101,7 +101,6 @@ Halo
 
           Volume.
 
-
      - .. figure:: /images/render_blender-render_materials_material-panel_halo.jpg
 
           Halo.

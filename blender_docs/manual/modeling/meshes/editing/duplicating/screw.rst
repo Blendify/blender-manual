@@ -400,7 +400,6 @@ The generated mesh looks like a medieval ramp!
 
           Profile with starting and ending vertices forming a parallel line with the Blender Axis.
 
-
      - .. figure:: /images/modeling_meshes_editing_duplicating_screw_ramp-like-generated.png
 
           Generated Mesh with the profile at the left. We have inclined the visualization a bit.

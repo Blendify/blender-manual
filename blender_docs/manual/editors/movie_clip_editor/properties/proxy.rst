@@ -56,6 +56,7 @@ There are two possible ways to avoid this:
 - Preprocess your video with, say, mencoder to repair file header and insert correct keyframes.
 - Use Proxy/Timecode option in Blender.
 
+
 Options
 -------
 

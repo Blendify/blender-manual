@@ -10,7 +10,6 @@ Screens
 
    The Screen data-block menu with pop-up.
 
-
 *Screens* are essentially pre-defined window layouts.
 Blender's flexibility with areas lets you create customized working environments for
 different tasks such as modeling, animating, and scripting.

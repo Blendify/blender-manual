@@ -24,6 +24,7 @@ border (3). Initially the group is named "Group"
 
    .. clear
 
+
 Vertex Groups Panel Controls
 ----------------------------
 
@@ -36,7 +37,7 @@ Once a new Vertex Group has been added, the new Group appears in the
 vertex Groups panel. There you find three clickable elements:
 
 Group Name
-   The Groupname can be changed by double clicking :kbd:`LMB` on the name itself.
+   The group name can be changed by double clicking :kbd:`LMB` on the name itself.
    Then you can edit the name as you like.
 
 Plus Icon

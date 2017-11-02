@@ -79,7 +79,7 @@ Manhattan Distance
    The minimum number of pixels the mouse should have moved either
    horizontally or vertically before the movement is recorded.
    Decreasing this should work better for curvy lines.
-Euclidian Distance
+Euclidean Distance
    The minimum distance that mouse has to travel before movement is recorded.
 
 Simplify Stroke
@@ -88,7 +88,6 @@ Simplify Stroke
 
 Default Color
    The default color for new Grease Pencil layers.
-
 
 :doc:`Read more about Grease Pencil </interface/grease_pencil/index>`
 

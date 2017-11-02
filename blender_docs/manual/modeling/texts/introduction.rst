@@ -17,7 +17,6 @@ Introduction
 
    Text Examples.
 
-
 *Text* objects are exactly what they sound like: they contain some text.
 They share the same object type as curves and surfaces,
 as modern fonts (OpenType, TrueType, etc.) are vectorial, made of curves (generally Béziers).

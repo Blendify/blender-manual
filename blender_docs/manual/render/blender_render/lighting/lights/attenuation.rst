@@ -462,7 +462,6 @@ Sphere Example
 
    Clipping Sphere.
 
-
 *Sphere* indicates that the light's intensity is null at the *Distance* distance and beyond,
 regardless of the chosen light's falloff.
 In Fig. :ref:`fig-bi-light-attenuation-clip` you can see a side view example of the setup

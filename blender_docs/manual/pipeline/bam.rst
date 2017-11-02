@@ -189,7 +189,6 @@ Start remapping the blend files::
 
    usage: bam remap start [-h] [-j] [paths [paths ...]]
 
-
 ``-j``, ``--json``
    Generate JSON output.
 
@@ -217,4 +216,4 @@ Cancel path remapping::
    usage: bam remap reset [-h] [-j]
 
 ``-j``, ``--json``
-    Generate JSON output.
+   Generate JSON output.

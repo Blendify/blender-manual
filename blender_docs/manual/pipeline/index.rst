@@ -8,7 +8,6 @@ This section of the manual focuses on the integration of Blender into a producti
 This is a vast topic that covers many areas of the software,
 but here we will focus on file/asset management and data I/O.
 
-
 .. toctree::
    :maxdepth: 2
 

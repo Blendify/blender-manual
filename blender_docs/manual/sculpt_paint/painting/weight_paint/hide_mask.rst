@@ -19,7 +19,6 @@ The option is available from the header of the 3D View
    You can choose between *Face Selection masking* (left icon)
    and *Vertex selection masking* (right icon).
 
-
 *Select* mode has some advantages over the default *Weight Paint Mode*:
 
 - The original mesh edges are drawn, even when modifiers are active.

@@ -57,7 +57,6 @@ Lamps: Ray-traced Shadows
 
    Ray Shadow enabled for a lamp.
 
-
 Ray-traced shadows produce very precise shadows with very low memory use,
 but at the cost of processing time.
 This type of shadowing is available to all lamp types except *Hemi*.
@@ -106,7 +105,6 @@ Lamps: Buffered Shadows
    :width: 310px
 
    Cast Buffer Shadows enabled for a material.
-
 
 *Buffered* shadows provide fast-rendered shadows at the expense of precision and/or quality.
 Buffered shadows also require more memory resources as compared to ray tracing.

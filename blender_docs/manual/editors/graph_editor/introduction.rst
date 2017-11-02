@@ -84,7 +84,6 @@ Like with most animation editors, markers are shown at the bottom of the editor.
 
    Graph Editor Markers.
 
-
 *Markers* can be modified in the *Graph Editor* though it's usually best to use the *Timeline*.
 
 See :doc:`Markers </animation/markers>` for more info.
