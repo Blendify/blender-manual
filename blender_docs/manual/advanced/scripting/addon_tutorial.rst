@@ -56,16 +56,13 @@ What is an Add-on?
 An add-on is simply a Python module with some additional requirements so Blender
 can display it in a list with useful information.
 
-To give an example, here is the simplest possible add-on.
-
-.. code-block:: python
+To give an example, here is the simplest possible add-on::
 
    bl_info = {"name": "My Test Add-on", "category": "Object"}
    def register():
        print("Hello World")
    def unregister():
        print("Goodbye World")
-
 
 ``bl_info``
    is a dictionary containing add-on meta-data such as the title,
@@ -112,9 +109,7 @@ For the first example we will make a script that simply moves all objects in a s
 Write the Script
 ----------------
 
-Add the following script to the text editor in Blender.
-
-.. code-block:: python
+Add the following script to the text editor in Blender::
 
    import bpy
 
@@ -129,9 +124,7 @@ all objects in the active scene are moved by 1.0 Blender unit.
 Write the Add-on (Simple)
 -------------------------
 
-This add-on takes the body of the script above, and adds it to an operator's ``execute()`` function.
-
-.. code-block:: python
+This add-on takes the body of the script above, and adds it to an operator's ``execute()`` function. ::
 
    bl_info = {
        "name": "Move X Axis",
@@ -240,9 +233,7 @@ copies of an object in a similar way to what you may have seen with the array mo
 Write the Script
 ----------------
 
-As before, first we will start with a script, develop it, then convert it into an add-on.
-
-.. code-block:: python
+As before, first we will start with a script, develop it, then convert it into an add-on.  ::
 
    import bpy
    from bpy import context
@@ -271,9 +262,7 @@ Make sure you click to move the 3D cursor before running as the duplicate will a
 After running, notice that when you go into *Edit Mode* to change the Cube -- all of the copies change,
 in Blender this is known as *Linked-Duplicates*.
 
-Next, we're going to do this in a loop, to make an array of objects between the active object and the cursor.
-
-.. code-block:: python
+Next, we're going to do this in a loop, to make an array of objects between the active object and the cursor. ::
 
    import bpy
    from bpy import context
@@ -314,9 +303,7 @@ For now we will focus on making this script an add-on, but it's good to know tha
 Write the Add-on
 ----------------
 
-The first step is to convert the script as-is into an add-on.
-
-.. code-block:: python
+The first step is to convert the script as-is into an add-on::
 
    bl_info = {
        "name": "Cursor Array",
@@ -382,9 +369,7 @@ While this is handled in a fairly Pythonic way, be mindful that you are in fact 
 are loaded into Blender and accessed by other parts of Blender, outside of Python.
 
 To get rid of the literal 10 for ``total``, we'll use an operator property.
-Operator properties are defined via bpy.props module, this is added to the class body.
-
-.. code-block:: python
+Operator properties are defined via bpy.props module, this is added to the class body::
 
    # moved assignment from execute() to the body of the class...
    total = bpy.props.IntProperty(name="Steps", default=2, min=1, max=100)
@@ -417,9 +402,7 @@ For this example we'll add to an existing menu.
 
 To find the identifier of a menu, you can hover your mouse over the menu item and the identifier is displayed.
 
-The method used for adding a menu item is to append a draw function into an existing class.
-
-.. code-block:: python
+The method used for adding a menu item is to append a draw function into an existing class::
 
    def menu_func(self, context):
        self.layout.operator(ObjectCursorArray.bl_idname)
@@ -437,9 +420,7 @@ In Blender, add-ons have their own keymaps so as not to interfere with Blenders 
 
 In the example below, a new object-mode :class:`blender_api:bpy.types.KeyMap` is added,
 then a :class:`blender_api:bpy.types.KeyMapItem` is added to the key-map which references
-our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to activate it.
-
-.. code-block:: python
+our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to activate it. ::
 
    # store keymaps here to access after registration
    addon_keymaps = []
@@ -484,7 +465,7 @@ For API documentation on the functions listed above, see:
 Bringing It All Together
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code-block:: python
+::
 
    bl_info = {
        "name": "Cursor Array",
@@ -601,4 +582,4 @@ Here are some sites you might like to check on after completing this tutorial.
 - `Blender Development (Wiki) <https://wiki.blender.org/index.php/Dev:Contents>`__ --
   *Blender Development, general information and helpful links.*
 - `Blender Artists (Coding Section) <https://blenderartists.org/forum/forumdisplay.php?47-Coding>`__ --
-  *forum where people ask Python development questions*
+  *forum where people ask Python development questions.*
