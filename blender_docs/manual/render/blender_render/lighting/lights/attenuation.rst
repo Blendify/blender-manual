@@ -127,7 +127,7 @@ If what you want is a light source that does not attenuate and gives the same am
 intensity to each area it hits,
 you need a light with properties like the *Constant* lamp *Falloff* type.
 
-Also, when the *Linear* and *Quad* sliders are both 0.0 values the
+Also, when the *Linear* and *Quad* sliders are both 0.0 values, the
 *Distance* field ceases to have any influence on the light attenuation,
 as shown by the equation above.
 
@@ -161,7 +161,7 @@ Most other lamp falloff types work by having their light intensity start at its 
 light intensity when the distance from the light source increases.
 
 When using the *Custom Curve* Lamp Falloff type,
-a new panel is created called *Falloff Curve*. This *Falloff Curve*
+a new panel is created, called *Falloff Curve*. This *Falloff Curve*
 profile graph allows the user to alter how intense light is at a particular point along a
 light's attenuation profile (i.e. at a specific distance from the light source).
 
