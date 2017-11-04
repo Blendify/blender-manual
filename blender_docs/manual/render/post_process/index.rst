@@ -1,7 +1,7 @@
 
-##################
+###################
   Post Processing
-##################
+###################
 
 There are several effects you can enable in the Render Settings that add visual elements to
 rendered images, after the rendering has completed. These are not done in camera,

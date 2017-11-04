@@ -2,9 +2,9 @@
 .. _bpy.types.Pose:
 .. _bpy.ops.pose:
 
-#########
+##########
   Posing
-#########
+##########
 
 .. toctree::
    :maxdepth: 2

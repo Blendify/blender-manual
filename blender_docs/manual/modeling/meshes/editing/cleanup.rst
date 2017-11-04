@@ -54,7 +54,7 @@ This is different from the face creation operator in three important respects:
 
 
 Make Planar Faces
-======================
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -79,7 +79,7 @@ beyond a given limit.
 
 
 Split Concave Faces
-======================
+===================
 
 .. admonition:: Reference
    :class: refbox

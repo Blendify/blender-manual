@@ -1,9 +1,9 @@
 .. _painting-index:
 .. _bpy.ops.paint:
 
-#######################
+########################
   Painting & Sculpting
-#######################
+########################
 
 .. toctree::
    :maxdepth: 2

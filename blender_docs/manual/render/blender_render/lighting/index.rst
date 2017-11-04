@@ -2,9 +2,9 @@
 .. _bpy.types.Lamp:
 .. _bpy.ops.lamp:
 
-###########
+############
   Lighting
-###########
+############
 
 .. toctree::
    :maxdepth: 2

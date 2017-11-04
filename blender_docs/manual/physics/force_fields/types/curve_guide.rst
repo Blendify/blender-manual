@@ -56,7 +56,7 @@ Fall-off
 
 
 Path
------
+----
 
 A particle follows a *Curve Guide* during its lifetime,
 the velocity depends on its lifetime and the length of the path.

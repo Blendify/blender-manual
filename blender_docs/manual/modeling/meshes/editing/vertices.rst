@@ -215,7 +215,7 @@ Note that the "copy" is left exactly at the same position as the original, so yo
 
 
 Extend Vertices
-----------------
+---------------
 
 .. admonition:: Reference
    :class: refbox
@@ -312,7 +312,7 @@ This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/transform/s
 .. (todo) images from https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.64/BMesh
 
 Convex Hull
-============
+===========
 
 .. admonition:: Reference
    :class: refbox

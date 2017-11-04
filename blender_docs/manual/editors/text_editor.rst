@@ -52,7 +52,7 @@ Label
 
 
 Menus
-------
+-----
 
 View
    Bottom of File

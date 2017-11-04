@@ -2,9 +2,9 @@
 .. _bpy.types.VertexPaint:
 .. _bpy.types.VertexColors:
 
-###############
+################
   Vertex Paint
-###############
+################
 
 .. toctree::
    :maxdepth: 2

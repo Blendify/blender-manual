@@ -5,9 +5,9 @@
 .. _bpy.ops.fluid:
 .. _fluid-simulation-index:
 
-###################
+####################
   Fluid Simulation
-###################
+####################
 
 .. toctree::
    :maxdepth: 2

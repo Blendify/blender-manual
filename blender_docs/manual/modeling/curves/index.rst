@@ -2,9 +2,9 @@
 .. _bpy.types.Curve:
 .. _bpy.ops.curve:
 
-#########
+##########
   Curves
-#########
+##########
 
 .. toctree::
    :maxdepth: 2

@@ -62,7 +62,7 @@ Scale
 
 
 Edit Mode
-----------
+---------
 
 The *Randomize* tool in Edit Mode allows you to displace the vertices of a mesh
 along their normal.

@@ -5,9 +5,9 @@
 .. _bpy.ops.font:
 .. _bpy.ops.object.text:
 
-#######
+########
   Text
-#######
+########
 
 .. toctree::
    :maxdepth: 2

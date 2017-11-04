@@ -109,7 +109,7 @@ The amount of scaling will be displayed in the footer of the 3D View editor.
 
 
 Common Options
-===============
+==============
 
 There are multiple ways to transform an element which include:
 

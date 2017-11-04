@@ -1,8 +1,8 @@
 .. _composite-nodes-vector-index:
 
-###############
+################
   Vector Nodes
-###############
+################
 
 These nodes can be used to manipulate various types of vectors, such as surface normals and speed vectors.
 

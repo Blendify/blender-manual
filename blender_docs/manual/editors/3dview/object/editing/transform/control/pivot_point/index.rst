@@ -1,8 +1,8 @@
 .. _pivot-point-index:
 
-##############
+###############
   Pivot Point
-##############
+###############
 
 .. admonition:: Reference
    :class: refbox

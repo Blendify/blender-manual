@@ -94,7 +94,7 @@ ToDo.
 
 
 Graph View
-===========
+==========
 
 .. figure:: /images/animation_drivers_introduction_fcurve.png
    :align: right

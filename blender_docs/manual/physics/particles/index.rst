@@ -5,9 +5,9 @@
 .. _bpy.ops.particle:
 .. _particles-index:
 
-###################
+####################
   Particles System
-###################
+####################
 
 .. toctree::
    :maxdepth: 2

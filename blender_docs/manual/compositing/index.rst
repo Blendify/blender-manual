@@ -1,9 +1,9 @@
 .. _composite-nodes-index:
 .. _bpy.types.Compositor:
 
-##############
+###############
   Compositing
-##############
+###############
 
 .. toctree::
    :maxdepth: 2

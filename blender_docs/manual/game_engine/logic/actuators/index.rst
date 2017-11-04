@@ -1,9 +1,9 @@
 .. _actuators-index:
 .. _bpy.types.Actuator:
 
-############
+#############
   Actuators
-############
+#############
 
 .. toctree::
    :maxdepth: 2

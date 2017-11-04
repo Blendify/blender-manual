@@ -1,9 +1,9 @@
 .. _render-freestyle:
 .. _bpy.types.Freestyle:
 
-############
+#############
   Freestyle
-############
+#############
 
 .. toctree::
    :maxdepth: 2

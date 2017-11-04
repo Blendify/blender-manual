@@ -1,8 +1,8 @@
 .. _modeling-index:
 
-###########
+############
   Modeling
-###########
+############
 
 .. toctree::
    :maxdepth: 2

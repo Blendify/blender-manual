@@ -1,8 +1,8 @@
 .. _composite-nodes-output-index:
 
-###############
+################
   Output Nodes
-###############
+################
 
 These nodes are used to output the composited result in some way.
 

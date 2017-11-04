@@ -1,8 +1,8 @@
 .. _advanced-index:
 
-###########
+############
   Advanced
-###########
+############
 
 This chapter covers advanced use (topics which may not be required for typical usage).
 

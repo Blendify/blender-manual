@@ -1,8 +1,8 @@
 .. _smoke-types-index:
 
-##############
+###############
   Smoke Types
-##############
+###############
 
 .. toctree::
    :maxdepth: 2

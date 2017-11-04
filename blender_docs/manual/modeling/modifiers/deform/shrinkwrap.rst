@@ -36,7 +36,7 @@ for each vertex of the modified object. Some options will add some extra, specif
 
 
 Nearest Surface Point
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 This will select the nearest point over the surface of the shrink target.
 It adds the extra option *Above surface*,

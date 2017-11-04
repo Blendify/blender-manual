@@ -1,8 +1,8 @@
 .. _troubleshooting-index:
 
-##################
+###################
   Troubleshooting
-##################
+###################
 
 .. toctree::
    :maxdepth: 1

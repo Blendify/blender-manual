@@ -2,9 +2,9 @@
 .. _bpy.types.Constraint:
 .. _bpy.ops.constraint:
 
-##############
+###############
   Constraints
-##############
+###############
 
 .. toctree::
    :maxdepth: 2

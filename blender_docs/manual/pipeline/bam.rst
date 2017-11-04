@@ -1,8 +1,8 @@
 .. _bam-index:
 
-#################
+*****************
 BAM Asset Manager
-#################
+*****************
 
 Refactoring linked .blend files is a common practice in a production environment.
 While some basic operations can be accomplished within Blender,

@@ -1,9 +1,9 @@
 
 .. _fluid-simulation-types-index:
 
-##############
+###############
   Fluid Types
-##############
+###############
 
 .. toctree::
    :maxdepth: 2

@@ -18,7 +18,7 @@ Header
 
 
 Menus
----------
+-----
 
 Provides access to the Blender's main menu options.
 
@@ -64,7 +64,7 @@ See :ref:`help-menu`.
 
 
 Controls
------------
+--------
 
 Back to Previous
    A button shown when an area is maximized to return to tiled areas.

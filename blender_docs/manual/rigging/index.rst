@@ -1,8 +1,8 @@
 .. _rigging-index:
 
-##########
+###########
   Rigging
-##########
+###########
 
 .. toctree::
    :maxdepth: 2

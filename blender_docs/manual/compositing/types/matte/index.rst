@@ -1,8 +1,8 @@
 .. _composite-nodes-matte-index:
 
-##############
+###############
   Matte Nodes
-##############
+###############
 
 These nodes give you the essential tools for creating a :term:`Matte` for images
 that do not already have their own :term:`Alpha Channel`. One usage scenario is

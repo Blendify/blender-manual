@@ -25,7 +25,7 @@ Active Bone Group
 
 
 Color Set
-------------------------
+---------
 
 .. figure:: /images/rigging_armatures_properties_bone-groups_color-list.png
 

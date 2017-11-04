@@ -2,9 +2,9 @@
 .. _bpy.types.Texture:
 .. _bpy.ops.texture:
 
-###########
+############
   Textures
-###########
+############
 
 .. toctree::
    :titlesonly:

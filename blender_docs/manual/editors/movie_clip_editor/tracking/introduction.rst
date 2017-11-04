@@ -11,7 +11,7 @@ which is available as a special mode in the Movie Clip Editor.
 
 
 Views
-======
+=====
 
 In Tracking Mode there are three different views available. You can toggle between view modes using
 the View menu, which is located in the header.

@@ -2,9 +2,9 @@
 .. _bpy.types.RigidBodyObject:
 .. _bpy.ops.rigidbody:
 
-#############
+##############
   Rigid Body
-#############
+##############
 
 .. toctree::
    :maxdepth: 2

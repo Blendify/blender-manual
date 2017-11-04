@@ -1,9 +1,9 @@
 .. _rigid-body-constraints-index:
 .. _bpy.types.RigidBodyConstraint:
 
-#########################
+##########################
   Rigid Body Constraints
-#########################
+##########################
 
 .. toctree::
    :maxdepth: 2

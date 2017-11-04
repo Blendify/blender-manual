@@ -1,8 +1,8 @@
 .. _composite-nodes-color-index:
 
-##############
+###############
   Color Nodes
-##############
+###############
 
 These nodes adjust the image's colors, for example increasing the contrast, making it warmer,
 overlaying another image, etc.

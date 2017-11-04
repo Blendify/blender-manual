@@ -1,8 +1,8 @@
 .. _rigid-body-constraints-types-index:
 
-########
+#########
   Types
-########
+#########
 
 .. toctree::
    :maxdepth: 2

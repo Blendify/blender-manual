@@ -26,7 +26,7 @@ The following methods are used automatically depending on the context.
 
 
 Isolated Vertices
-------------------
+-----------------
 
 .. list-table::
 
@@ -114,7 +114,7 @@ Sometimes you may have many connected edges without interior faces.
 
 
 Point Cloud
-------------
+-----------
 
 When there are many isolated vertices,
 Blender will calculate the edges for an n-gon.

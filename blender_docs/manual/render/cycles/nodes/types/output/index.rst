@@ -1,7 +1,7 @@
 
-###############
+################
   Output Nodes
-###############
+################
 
 Output nodes are the final node in every node tree.
 Although you can add more than one, only one will be used (indicated by a colored or darkened header).

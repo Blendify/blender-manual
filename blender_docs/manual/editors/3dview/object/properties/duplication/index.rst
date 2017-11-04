@@ -1,8 +1,8 @@
 .. _bpy.types.Object.dupli_type:
 
-##############
+###############
   Duplication
-##############
+###############
 
 There are currently four ways in Blender to procedurally duplicate objects.
 These options are located in the *Object* menu.

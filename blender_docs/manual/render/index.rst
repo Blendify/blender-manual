@@ -3,9 +3,9 @@
 .. _bpy.types.RenderSettings:
 .. _bpy.ops.render:
 
-#########
+##########
   Render
-#########
+##########
 
 .. toctree::
    :maxdepth: 2

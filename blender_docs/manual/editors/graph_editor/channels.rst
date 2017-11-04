@@ -78,7 +78,7 @@ See :ref:`graph-view-menu` for how to show these sliders.
 
 
 Menu
-=====
+====
 
 Delete Channels :kbd:`X`
    Deletes the whole channel from the current action

@@ -3,9 +3,9 @@
 .. _bpy.ops.armature:
 .. _bpy.ops.object.armature:
 
-############
+#############
   Armatures
-############
+#############
 
 .. toctree::
    :maxdepth: 2
