@@ -1,8 +1,8 @@
 .. _bpy.types.ShaderNode:
 
-########
+#########
   Nodes
-########
+#########
 
 .. toctree::
    :maxdepth: 2

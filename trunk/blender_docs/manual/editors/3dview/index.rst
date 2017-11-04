@@ -2,9 +2,9 @@
 .. _bpy.types.SpaceView3D:
 .. _bpy.ops.view3d:
 
-##########
+###########
   3D View
-##########
+###########
 
 .. toctree::
    :maxdepth: 2

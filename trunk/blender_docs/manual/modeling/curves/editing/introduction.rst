@@ -367,7 +367,7 @@ Does not effect control point tangents.
 
 
 Hooks
-------
+-----
 
 .. admonition:: Reference
    :class: refbox

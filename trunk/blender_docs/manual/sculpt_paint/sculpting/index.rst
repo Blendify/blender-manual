@@ -2,9 +2,9 @@
 .. _bpy.types.Sculpt:
 .. _bpy.ops.sculpt:
 
-############
+#############
   Sculpting
-############
+#############
 
 .. toctree::
    :maxdepth: 2

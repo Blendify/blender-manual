@@ -1,8 +1,8 @@
 .. _glossary:
 
-###########
+############
   Glossary
-###########
+############
 
 .. For writing style guide, see: :doc:`/about/contribute/style_guides/writing_guide`
    If you add new entries, keep the alphabetical sorting!

@@ -114,7 +114,7 @@ Value
 
 
 Example
-^^^^^^^^^^
+^^^^^^^
 
 .. figure:: /images/animation_drivers_drivers-panel_single-property.jpg
 

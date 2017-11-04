@@ -131,7 +131,7 @@ if they have been modified.
 
 
 Clean Channels
-===============
+==============
 
 .. admonition:: Reference
    :class: refbox

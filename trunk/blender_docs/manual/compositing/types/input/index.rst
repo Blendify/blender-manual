@@ -1,8 +1,8 @@
 .. _composite-nodes-input-index:
 
-##############
+###############
   Input Nodes
-##############
+###############
 
 Input nodes produce information from some source.
 For instance, an input could be:

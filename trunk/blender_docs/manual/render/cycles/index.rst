@@ -1,9 +1,9 @@
 .. _bpy.types.Cycles:
 .. _bpy.ops.cycles:
 
-#######################
+########################
   Cycles Render Engine
-#######################
+########################
 
 .. toctree::
    :titlesonly:

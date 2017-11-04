@@ -1,8 +1,8 @@
 .. bpy.types.SpaceImageEditor:
 
-########
+#########
   Image
-########
+#########
 
 .. toctree::
    :maxdepth: 2

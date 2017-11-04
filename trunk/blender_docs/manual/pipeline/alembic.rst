@@ -1,8 +1,8 @@
 .. _alembic-index:
 
-#######
+*******
 Alembic
-#######
+*******
 
 From the `Alembic home page <https://www.alembic.io/>`_:
 

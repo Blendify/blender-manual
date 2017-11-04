@@ -1,9 +1,9 @@
 .. _smoke-index:
 .. _bpy.types.SmokeModifier:
 
-###################
+####################
   Smoke Simulation
-###################
+####################
 
 .. toctree::
    :maxdepth: 2

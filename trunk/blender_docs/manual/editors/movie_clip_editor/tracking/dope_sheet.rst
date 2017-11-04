@@ -25,7 +25,7 @@ Rather, adding more tracks on bad feature points will reduce the accuracy of sol
 
 
 Header
-=======
+======
 
 .. figure:: /images/editors_movie-clip-editor_tracking_dope-sheet_sort.png
    :align: right

@@ -131,7 +131,7 @@ After :kbd:`Shift-RMB` -clicking "Bone.003":
 
 
 More/Less
-==========
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -150,7 +150,7 @@ Extend Parent :kbd:`Shift-[`, Extend Child :kbd:`Shift-]`
 
 
 Similar
-========
+=======
 
 .. admonition:: Reference
    :class: refbox

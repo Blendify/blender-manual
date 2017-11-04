@@ -2,9 +2,9 @@
 .. _bpy.ops.camera:
 .. _bpy.ops.object.camera:
 
-#########
+##########
   Camera
-#########
+##########
 
 .. toctree::
    :maxdepth: 2

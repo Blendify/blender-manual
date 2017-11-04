@@ -1,9 +1,9 @@
 .. _modeling-surfaces-index:
 .. _bpy.ops.surface:
 
-###########
+############
   Surfaces
-###########
+############
 
 .. toctree::
    :maxdepth: 2

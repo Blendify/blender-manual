@@ -1,9 +1,9 @@
 .. _bpy.types.Material:
 .. _bpy.ops.material:
 
-############
+#############
   Materials
-############
+#############
 
 .. toctree::
    :maxdepth: 2

@@ -1,9 +1,9 @@
 .. _controllers-index:
 .. _bpy.types.Controller:
 
-##############
+###############
   Controllers
-##############
+###############
 
 .. toctree::
    :maxdepth: 2

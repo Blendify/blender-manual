@@ -16,7 +16,7 @@ Node to create smoke.
 
 
 Inputs
-=======
+======
 
 Color
    Color of the volume.

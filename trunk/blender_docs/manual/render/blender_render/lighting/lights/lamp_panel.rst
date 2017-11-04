@@ -20,7 +20,7 @@ A quick preview of the light settings.
 
 
 Lamp
-=====
+====
 
 Type
    :doc:`Types of lamps </render/blender_render/lighting/lamps/index>` available in Blender Internal.

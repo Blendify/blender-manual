@@ -17,7 +17,7 @@ When hovering the mouse cursor over a button or setting, after a few instants a 
 
 
 Elements
----------
+--------
 
 The context-sensitive Tooltip might contain some of these elements:
 

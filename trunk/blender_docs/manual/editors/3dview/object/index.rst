@@ -2,9 +2,9 @@
 .. _bpy.ops.object:
 .. _objects-index:
 
-##########
+###########
   Objects
-##########
+###########
 
 .. toctree::
    :maxdepth: 2

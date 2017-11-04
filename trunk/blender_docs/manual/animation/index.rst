@@ -1,9 +1,9 @@
 .. _animation-index:
 .. _bpy.ops.anim:
 
-############
+#############
   Animation
-############
+#############
 
 .. toctree::
    :maxdepth: 2

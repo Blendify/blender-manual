@@ -2,9 +2,9 @@
 .. _bpy.types.World:
 .. _bpy.ops.world:
 
-########
+#########
   World
-########
+#########
 
 .. toctree::
    :maxdepth: 2

@@ -1,8 +1,8 @@
 .. _game-engine-python-api-index:
 
-###############
+##############
   Python API
-###############
+##############
 
 .. toctree::
    :maxdepth: 2

@@ -81,7 +81,7 @@ and all the green both Red and Blue, and remove Blue from the image completely.
 
 
 Separate/Combine HSVA Nodes
-============================
+===========================
 
 .. figure:: /images/compositing_types_converter_combine-separate_combine-hsva-node.png
    :align: right

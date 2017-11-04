@@ -1,8 +1,8 @@
 .. _painting-weight-index:
 
-###############
+################
   Weight Paint
-###############
+################
 
 .. toctree::
    :maxdepth: 2

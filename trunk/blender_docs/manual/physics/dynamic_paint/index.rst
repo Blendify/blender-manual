@@ -2,9 +2,9 @@
 .. _bpy.ops.dpaint:
 .. _dynamic-paint-index:
 
-################
+#################
   Dynamic Paint
-################
+#################
 
 .. toctree::
    :maxdepth: 2

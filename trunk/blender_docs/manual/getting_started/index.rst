@@ -1,8 +1,8 @@
 .. _getting-started-index:
 
-##################
+###################
   Getting Started
-##################
+###################
 
 .. keep up to date with :doc:`</index>`
 

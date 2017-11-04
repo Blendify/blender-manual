@@ -24,7 +24,7 @@ Frames outside of scene frame range are darkened.
 
 
 Header
-=======
+======
 
 Show
    Only selected (mouse cursor icon)

@@ -2,9 +2,9 @@
 .. _bpy.types.UserPreferences:
 .. _bpy.types.SpaceUserPreferences:
 
-###################
+####################
   User Preferences
-###################
+####################
 
 .. toctree::
    :maxdepth: 2

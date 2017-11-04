@@ -11,7 +11,7 @@ and version-control your animation.
 
 
 Header
-=======
+======
 
 View Menu
 ---------

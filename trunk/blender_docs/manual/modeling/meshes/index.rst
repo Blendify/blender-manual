@@ -1,9 +1,9 @@
 .. _bpy.types.Mesh:
 .. _bpy.ops.mesh:
 
-#########
+##########
   Meshes
-#########
+##########
 
 .. toctree::
    :maxdepth: 2

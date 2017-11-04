@@ -1,8 +1,8 @@
 .. _introduction-index:
 
-################
+#################
   About Blender
-################
+#################
 
 .. toctree::
    :maxdepth: 2

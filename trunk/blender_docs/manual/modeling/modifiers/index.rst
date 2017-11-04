@@ -1,9 +1,9 @@
 .. _bpy.types.Modifier:
 .. _modifiers-index:
 
-############
+#############
   Modifiers
-############
+#############
 
 .. toctree::
    :maxdepth: 2

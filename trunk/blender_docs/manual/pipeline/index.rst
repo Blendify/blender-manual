@@ -1,8 +1,8 @@
 .. _pipeline-index:
 
-##########
+############
   Pipeline
-##########
+############
 
 This section of the manual focuses on the integration of Blender into a production pipeline.
 This is a vast topic that covers many areas of the software,

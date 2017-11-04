@@ -2,9 +2,9 @@
 .. _bpy.types.GreasePencil:
 .. _bpy.ops.gpencil:
 
-################
+#################
   Grease Pencil
-################
+#################
 
 .. toctree::
    :maxdepth: 2
