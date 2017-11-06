@@ -97,12 +97,6 @@ Use the Remove Doubles button in the Tools panel.
 
 .. rubric:: Demo Video
 
-.. only:: builder_html and (not singlehtml)
+A short video illustrating this workflow:
 
-   A short video illustrating this workflow:
-
-   .. youtube:: diI8xJ9oo_8
-
-.. only:: not builder_html and (singlehtml)
-
-   A short video illustrating this workflow can be found at https://www.youtube.com/watch?v=diI8xJ9oo_8
+.. youtube:: diI8xJ9oo_8

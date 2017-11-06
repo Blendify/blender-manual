@@ -60,10 +60,4 @@ The Result
 
 The rendered bouncing cube:
 
-.. only:: builder_html and (not singlehtml)
-
-   .. youtube:: 3PzgB9jw9iA
-
-.. only:: not builder_html and (singlehtml)
-
-   A video can be found at https://www.youtube.com/watch?v=3PzgB9jw9iA
+.. youtube:: 3PzgB9jw9iA

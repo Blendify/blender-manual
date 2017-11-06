@@ -38,10 +38,4 @@ ToDo.
 Example
 =======
 
-.. only:: builder_html and (not singlehtml)
-
-   .. youtube:: vSD5mN7LT_g
-
-.. only:: not builder_html and (singlehtml)
-
-   A video can be found at https://www.youtube.com/watch?v=vSD5mN7LT_g
+.. youtube:: vSD5mN7LT_g
