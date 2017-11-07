@@ -46,7 +46,7 @@ Movie
 Frames packed into a container.
 
 Deinterlace
-   TODO
+   TODO.
 Fields
    Sets the number of fields per rendered frame (2 fields is 1 frame).
    Used with Fields and interlaced video,

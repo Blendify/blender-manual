@@ -161,7 +161,7 @@ Edge Artifacts
 
    - Split up your scene into "nearby" and "far" objects, and render them in two passes.
    - Now, combine the two results, each with their own "defocus" nodes driven by the same Time node,
-     but with one of them inverted. (e.g. using a "Map Value" node with a Size of -1.)
+     but with one of them inverted. (e.g. using a "Map Value" node with a Size of -1).
      As the defocus of one increases,
      the defocus on the other decreases at the same rate, creating a smooth transition.
 

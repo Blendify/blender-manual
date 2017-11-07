@@ -61,7 +61,7 @@ you can add other closed support profiles that will follow this vector during th
 The direction of the extrusions is calculated by two determinant factors,
 your point of view in Global Space and the position of your cursor in the 3D View using Global coordinates.
 The profile and the vector must be fully selected in *Edit Mode* before you click the *Screw Button*
-(See Limitations.)
+(See Limitations).
 When you have the vector for the open profile and the other closed profiles selected, click the *Screw* Button.
 
 
@@ -145,7 +145,7 @@ Blender will copy your cursor location coordinates to the
 values present in the *Center* values of the *Screw* interactive Panel.
 Depending on the Global View position, Blender will automatically add a value of 1 to one of the Axis Vectors,
 giving the profiles a starting direction for the Screw Operation and also giving a direction for the extrusions.
-(See examples below.)
+(See examples below).
 
 The position of the 3D cursor will be the starting center of the rotation.
 Subsequent operations (e.g. pressing the Screw button again), will start from the last selected element.
@@ -171,15 +171,15 @@ Center
    using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates.
    You can adjust these coordinates interactively and
    specify another place for the spin center during the interactive session.
-   (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
+   (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
 Steps
    This number button specifies how many extrusion(s) will be done for each 360 degree turn.
    The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
-   the maximum is 256 (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
+   the maximum is 256 (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
 Turns
    This number button specifies how many turns will be executed.
    Blender will add a new full 360 degree turn for each incremental number specified here.
-   The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
+   The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
 Axis
    These three numeric fields vary from (-1.0 to 1.0) and are clamped above those limits.
    These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
@@ -190,7 +190,7 @@ Axis
    operation (by reverting the angular vector of the height),
    meaning you can revert the clockwise and counterclockwise direction of some operations,
    and also adjust the angular vectors of your profile, bending it accordingly.
-   (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
+   (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
 
 
 Examples

@@ -83,7 +83,7 @@ Linked
 
    If you want to make changes to an object in the new linked duplicate independently of the original object,
    you will have to manually make the object a "single-user" copy by :kbd:`LMB`
-   the number in the *Object Data* panel of the Properties editor. (See :ref:`ui-data-block`.)
+   the number in the *Object Data* panel of the Properties editor. (See :ref:`ui-data-block`).
 
 .. seealso::
 

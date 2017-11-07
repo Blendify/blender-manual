@@ -61,7 +61,7 @@ Autoscale
       Limits the amount of automatic scaling.
 
 Expected Position X/Y
-   Known relative offset of original shot, will be subtracted, e.g. for panning shots
+   Known relative offset of original shot, will be subtracted, e.g. for panning shots.
 Expected Rotation
    Rotation present on original shot, will be compensated, e.g. for deliberate tilting.
 Expected Zoom

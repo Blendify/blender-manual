@@ -73,7 +73,7 @@ Mesh
 Gfx Button
    Replace visible mesh.
 Phys Button
-   Replace physics mesh (not compound shapes)
+   Replace physics mesh (not compound shapes).
 
 
 End Object

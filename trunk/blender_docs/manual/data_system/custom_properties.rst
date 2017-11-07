@@ -38,7 +38,7 @@ Custom properties can be edited using the panel available for data types that su
    Custom Properties Edit Region.
 
 Property Name
-   The name of the custom property
+   The name of the custom property.
 Property Value
    Todo.
 Min

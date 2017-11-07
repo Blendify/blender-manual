@@ -28,7 +28,7 @@ Draw Wire
 Deform
    (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`).
 Multiply Vertex Group by Envelope
-   (also :kbd:`Shift-W` :menuselection:`--> (Multiply Vertex Group by Envelope, ...)`)
+   (also :kbd:`Shift-W` :menuselection:`--> (Multiply Vertex Group by Envelope, ...)`).
 
    These settings control how the bone influences its geometry, along with the bones' joints radius.
    This will be detailed in the :doc:`skinning part </rigging/armatures/skinning/index>`.

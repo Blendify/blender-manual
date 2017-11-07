@@ -65,7 +65,7 @@ Max
 Object axis X,Y,Z
    Set the Integral Coefficient. This controls the reaction to the sum of errors so far in this move.
 Local
-   Apply locally the rotation around the object axis selected
+   Apply locally the rotation around the object axis selected.
 Reset
    Reset the cursor's X/Y position to the center of the screen space after calculating.
 

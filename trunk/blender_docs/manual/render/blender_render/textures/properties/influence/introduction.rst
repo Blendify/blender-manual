@@ -25,9 +25,9 @@ Diffuse
 -------
 
 Intensity
-   Amount texture affects diffuse reflectivity
+   Amount texture affects diffuse reflectivity.
 Color
-   Amount texture affects the basic color or RGB value of the material
+   Amount texture affects the basic color or RGB value of the material.
 Alpha
    Influences the opacity of the material.
    Also use *Z Transparency* for light and if combining multiple channels.
@@ -39,7 +39,7 @@ Specular
 --------
 
 Intensity
-   Amount texture affects specular reflectivity
+   Amount texture affects specular reflectivity.
 Color
    Influences the *Specular* color, the color of the reflections created by the lamps on a glossy material.
 Hardness
@@ -103,7 +103,7 @@ Emission
 Scattering
    Amount the texture affects scattering.
 Reflection
-   Amount the texture affects brightness of out-scattered light
+   Amount the texture affects brightness of out-scattered light.
 Emission Color
    Amount the texture affects emission color.
 Transmission

@@ -303,11 +303,11 @@ Activating the tool brings up the File Browser with options for saving the layou
    Export Options.
 
 All UVs
-   if disabled, then only the UV faces selected will be outlined
+   if disabled, then only the UV faces selected will be outlined.
 Modified
    Export UVs from the modified mesh.
 Format
-   Select the type of image file to save (``.png``, ``.eps``, ``.svg``)
+   Select the type of image file to save (``.png``, ``.eps``, ``.svg``).
 Size
    select the size of the image in pixels. The image be square.
 Fill Opacity

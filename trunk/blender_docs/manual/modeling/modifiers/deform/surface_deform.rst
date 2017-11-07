@@ -18,7 +18,7 @@ Options
    Surface Deform Modifier.
 
 Target
-   The object to which to bind. (This setting is unavailable after binding)
+   The object to which to bind. (This setting is unavailable after binding).
 Interpolation falloff
    How much a vertex bound to one face of the target will be affected by the surrounding faces.
    This essentially controls how smooth the deformations are.

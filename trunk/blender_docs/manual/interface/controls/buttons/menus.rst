@@ -116,7 +116,7 @@ Only the common options are listed below:
 Reset All/Single to Default Value(s)
    Replaces the current value by the default :kbd:`Backspace`.
 Unset
-   ToDo
+   ToDo.
 Copy Data Path
    For scripting -- Copies the Python path of the property, relative to the data-block.
 Copy To Selected

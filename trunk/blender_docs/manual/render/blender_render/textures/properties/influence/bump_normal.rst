@@ -20,7 +20,7 @@ Bump maps
    These are textures that store an *intensity*, the relative height of pixels from the viewpoint of the camera.
    The pixels seem to be moved by the required distance in the direction of the face normals.
    (The "bump" consists only of a displacement, which takes place along the existing, and unchanged,
-   normal-vector of the face.) You may either use grayscale pictures or the intensity values of a RGB-Texture
+   normal-vector of the face). You may either use grayscale pictures or the intensity values of a RGB-Texture
    (including images).
 
 Normal maps
@@ -65,7 +65,7 @@ the same or similar faces should exist that reflect the model. For example,
 a highly detailed ear may have 1000 faces in the high-poly model. In the low-poly model,
 this may be replaced with a single plane, oriented in the same direction as the detailed ear mesh.
 *(Tip:* Blender's :doc:`multi-resolution mesh </modeling/modifiers/generate/multiresolution>`
-modeling feature can be used to good effect here.)
+modeling feature can be used to good effect here).
 
 Mapping is the process of applying a texture to the low-poly mesh.
 Consult the :doc:`Textures Mapping section </render/blender_render/textures/properties/mapping>`

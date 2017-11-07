@@ -113,7 +113,7 @@ of the :ref:`active object <object-active>`.
 Very useful if you need to set a large number of objects to the same material;
 just select all of them,
 then the object that has the desired material, and :kbd:`Ctrl-L` links them to that "parent".
-(See Tip on Linking Data in Creating about data linking.)
+(See Tip on Linking Data in Creating about data linking).
 
 
 Deleting a Material

@@ -21,7 +21,7 @@ because they are occluded by other parts.
 
 The hidden faces cannot be sculpted on.
 Hiding is shared between Edit Mode and Sculpt Mode
-(i.e. hiding/unhiding in one mode affects the other mode too.)
+(i.e. hiding/unhiding in one mode affects the other mode too).
 
 Hide Bounding Box :kbd:`H`
    To hide a part of a mesh inside the selection.

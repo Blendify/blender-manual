@@ -58,7 +58,7 @@ rotate them somewhat to fit logically within the image area of the UV/Image Edit
 
 Once we are satisfied with the face, it is time to turn our attention to the ear. First, unselect
 the faces you were working with. Their UVs will disappear from the UV/Image Editor, but they are still there,
-just not shown. (To verify this, you can select a few faces in 3D View and it will show up in the UV/Image Editor.)
+just not shown. (To verify this, you can select a few faces in 3D View and it will show up in the UV/Image Editor).
 
 To work on the ear, in the 3D View, we now select only the "ear" faces.
 You can use Vertex Groups to select the ear faces. Selecting sub-meshes is easy too,
@@ -95,7 +95,7 @@ so only one set of UVs actually exist. (If more realism is desired,
 the Mirror Modifier would be applied, resulting in a physical mirror and a complete head.
 You could then make both side physically different by editing one side and not the other.
 Unwrapping would produce a full set of UVs (for each side)
-and painting could thus be different for each side of the face, which is more realistic.)
+and painting could thus be different for each side of the face, which is more realistic).
 
 
 Iteration and Refinement

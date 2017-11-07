@@ -97,7 +97,7 @@ Transmission
 Transmission Roughness
    With **GGX** distribution controls roughness used for transmitted light.
 Normal
-   Controls the normals of the base layers
+   Controls the normals of the base layers.
 Clearcoat Normal
    Controls the normals of the *Clearcoat* layer.
 Tangent

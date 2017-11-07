@@ -28,7 +28,7 @@ Noise Type
 
    Soft, Hard
 Size
-   The dimensions of the noise table
+   The dimensions of the noise table.
 Depth
    The depth of the *Marble* calculation.
    A higher value results in greater calculation time, but also in finer details.

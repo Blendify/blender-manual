@@ -74,7 +74,7 @@ Render Passes are the various distinct outputs that the renderer is able to gene
 All of the following render outputs are normally combined into a single output known,
 appropriately enough, as the *Combined* output.
 But you can also select any of them to be output as a separate pass. (If you do so, in most
-cases you can choose whether to *also* continue to include it in the Combined output.)
+cases you can choose whether to *also* continue to include it in the Combined output).
 
 Some of these outputs must be enabled and used within your scene
 (and not just selected in the Render Layer panel) in order to show anything.
@@ -90,7 +90,7 @@ To save time and drive space, you have to tell Blender each of the passes to ren
 
 Combined
    This renders everything in the image, even if it is not necessary.
-   ("The whole enchilada," so to speak.) This is all the options below,
+   ("The whole enchilada," so to speak). This is all the options below,
    blended into a single output, *except* those options which you have indicated should be omitted from this pass,
    as indicated with the camera button.
 Z
@@ -208,7 +208,7 @@ the shadow map from another render layer.
 You can even take an image from another project entirely and use that instead
 (using the Image Input node), to get a different effect. (For example,
 an effect similar to a *Star Wars Episode One* movie poster,
-where Anakin Skywalker already casts the shadow of Darth Vader.)
+where Anakin Skywalker already casts the shadow of Darth Vader).
 
 
 Compositing Ambient Occlusion

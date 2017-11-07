@@ -18,11 +18,11 @@ Full Oversampling
    :doc:`anti-aliasing </render/blender_render/settings/antialiasing>` samples.
 Sky
    Render this material with zero alpha, but with
-   :doc:`sky background </render/blender_render/lighting/lamps/sun/sky_atmosphere>` in place (scanline only)
+   :doc:`sky background </render/blender_render/lighting/lamps/sun/sky_atmosphere>` in place (scanline only).
 Use Mist
-   Use :doc:`mist </render/blender_render/world/mist>` on this material (see "World Settings" for more details)
+   Use :doc:`mist </render/blender_render/world/mist>` on this material (see "World Settings" for more details).
 Invert Z depth
-   Render material's faces with an inverted Z buffer (scanline only)
+   Render material's faces with an inverted Z buffer (scanline only).
 Z Offset
    Give faces an artificial Z offset for Z transparency.
 Light Group
@@ -43,7 +43,7 @@ Face Textures Alpha
 Vertex Color Paint
    Replace object's base color with
    :ref:`vertex paint <painting-vertex-index>`
-   colors (multiply with 'texture face' face assigned textures)
+   colors (multiply with 'texture face' face assigned textures).
 Vertex Color Light
    Add :ref:`vertex paint <painting-vertex-index>`
    colors as additional lighting.

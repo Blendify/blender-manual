@@ -8,7 +8,7 @@ There are three different directories Blender may use,
 their exact locations are operating system dependent.
 
 LOCAL
-   Location of configuration and runtime data (for self-contained bundle)
+   Location of configuration and runtime data (for self-contained bundle).
 USER
    Location of configuration files (normally in the user's home directory).
 SYSTEM

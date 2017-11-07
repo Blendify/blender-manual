@@ -58,7 +58,7 @@ Modes might affect many things in Blender:
      - :kbd:`Tab` [1]_
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *Object Data* data-block editing
-       (e.g. vertices/edges/faces for meshes, control points for curves/surfaces, etc.)
+       (e.g. vertices/edges/faces for meshes, control points for curves/surfaces, etc.).
    * - .. figure:: /images/icons_sculpt-mode.png
           :width: 35px
      - *Sculpt Mode*

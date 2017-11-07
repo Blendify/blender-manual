@@ -56,7 +56,7 @@ Landing Smoothness
 Max Land Speed
    Set the Maximum velocity on land.
 Jump Speed
-   Maximum speed for jumping
+   Maximum speed for jumping.
 Max Land Acceleration
    Lateral acceleration on land, percent of max velocity (turn). Defines how fast a boid is able to change direction.
 Max Land Angular Velocity

@@ -31,7 +31,7 @@ Common Options
 Each specular shader share the following common options:
 
 Specular Color
-   The color of the specular highlight
+   The color of the specular highlight.
 Intensity
    The intensity, or brightness of the specular highlight. This has a range of [0-1].
 Ramp
@@ -248,7 +248,7 @@ Gregory J. Ward
    His model could represent both isotropic surfaces (independent of light direction) and anisotropic surfaces
    (direction dependent). In Blender,
    the Ward specular shader is still called "Ward Isotropic" but is actually anisotropic.
-   (`PDF <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6812&rep=rep1&type=pdf>`__)
+   (`PDF <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6812&rep=rep1&type=pdf>`__).
 
 
 Options

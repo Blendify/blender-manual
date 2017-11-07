@@ -142,7 +142,7 @@ Options
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ about how subsets are defined.
 Add Weights
-   Add vertices that have no weight before inverting (these weights will all be set to 1.0)
+   Add vertices that have no weight before inverting (these weights will all be set to 1.0).
 Remove Weights
    Remove vertices from the Vertex Group if they are 0.0 after inverting.
 
@@ -357,7 +357,7 @@ The tool will initially copy all vertex groups from the source objects.
 However, the tool also has an Operator panel
 (which appears at the bottom of the tool shelf).
 From the Operator panel you can change the parameters to meet your needs.
-(The available Operator parameters are documented below.)
+(The available Operator parameters are documented below).
 
 
 Operator Panel Confusion

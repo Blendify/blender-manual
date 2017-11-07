@@ -194,7 +194,7 @@ a face can therefore only have one UV Texture image,
 and the UV coordinates for that face must fit entirely on the image.
 If you want a face to have multiple images, split the face into parts,
 and assign each part its own image. *(Or* you can get fancy with Nodes,
-but that is another story ...)
+but that is another story ...).
 
 
 Using Alpha Transparency

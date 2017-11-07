@@ -15,7 +15,7 @@ but also allows you to edit the new subdivision levels in sculpt mode.
    The Multiresolution Modifier is the only modifier that cannot be repositioned in the stack if it means that
    there will be geometry or other object data created or removed before it
    (e.g. all *Generate*, some *Modify* and some *Simulate* modifiers
-   cannot come before the Multiresolution Modifier.)
+   cannot come before the Multiresolution Modifier).
 
 
 Options

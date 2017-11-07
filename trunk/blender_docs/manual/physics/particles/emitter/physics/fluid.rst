@@ -57,14 +57,14 @@ Springs
 -------
 
 Force
-   Spring force
+   Spring force.
 Rest Length
    Rest length of springs. Factor of particle radius. Check box sets this to be a factor of 2 × *particle size*.
 
 Viscoelastic Springs
    Use viscoelastic springs instead of Hooke's springs.
 Elastic Limit
-   How much the spring has to be stretched/compressed in order to change its rest length
+   How much the spring has to be stretched/compressed in order to change its rest length.
 Plasticity
    How much the spring rest length can change after the elastic limit is crossed.
 Initial Rest Length

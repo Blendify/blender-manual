@@ -91,7 +91,7 @@ same speed. That means that an edge moving in its own direction feels no force,
 and an edge moving perpendicular to its own direction feels maximum force.
 
 Simple
-   Edges receive a drag force from surrounding media
+   Edges receive a drag force from surrounding media.
 Lift Force
    Edges receive a lift force when passing through surrounding media.
 Factor

@@ -331,13 +331,13 @@ Delete Unused
 Use Existing Faces
    Where possible, use existing input faces that lie on the hull.
    This allows the convex hull output to contain n-gons rather than triangles
-   (or quads if the *Join Triangles* option is enabled.)
+   (or quads if the *Join Triangles* option is enabled).
 Make Holes
    Delete edges and faces in the hull that were part of the input too.
    Useful in cases like bridging to delete faces between the existing mesh and the convex hull.
 Join Triangles
    Joins adjacent triangles into quads.
-   Has all the same properties as the *Tris to Quads* operator (angle limit, compare UVs, etc.)
+   Has all the same properties as the *Tris to Quads* operator (angle limit, compare UVs, etc.).
 Max Face Angle
    ToDo.
 Max Shape Angle

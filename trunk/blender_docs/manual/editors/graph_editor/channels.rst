@@ -97,7 +97,7 @@ Settings Toogle/Enable/Disable, :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W
 
    Lock, Mute
 Toggle Channel Editability :kbd:`Tab`
-   Locks or unlocks a channel for editing
+   Locks or unlocks a channel for editing.
 Extrapolation Mode
    Change the :ref:`extrapolation <editors-graph-fcurves-settings-extrapolation>` between selected keyframes.
 Expand Channels, Collapse Channels :kbd:`NumpadPlus`, :kbd:`NumpadMinus`

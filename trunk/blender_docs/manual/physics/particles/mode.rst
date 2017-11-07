@@ -152,7 +152,7 @@ Puff
    So it makes the hair stand up with *Add* or lay down with *Sub*.
 
    Puff Volume
-      Apply puff to unselected end-points, (helps maintain hair volume when puffing root)
+      Apply puff to unselected end-points, (helps maintain hair volume when puffing root).
 Cut
    Scales the segments until the last keypoint reaches the brush.
 

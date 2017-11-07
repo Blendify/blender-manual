@@ -178,7 +178,7 @@ Examples
 In this example,
 an empty is used as the *Viewpoint Object* of the reflecting plane's environment map.
 It is located in the specular position of the camera with respect to the reflecting surface.
-(This is possible, strictly speaking, only for planar reflecting surfaces.) Ideally, the
+(This is possible, strictly speaking, only for planar reflecting surfaces). Ideally, the
 location of the empty would mirror the location of the camera across the plane of the polygon
 onto which it is being mapped.
 
