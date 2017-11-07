@@ -78,7 +78,7 @@ there pops up an issue where the faces cannot be cut,
 but instead they are stretched in order to make them flat. This helps making easier UV maps,
 but sometimes adds distortion to the final mapped texture. (Countries and states that are
 closer to the North or the South Pole look smaller on a flat map than do ones which are close
-to the Equator.)
+to the Equator).
 
 
 Half-Sphere Example
@@ -97,7 +97,7 @@ of the 3D part (XYZ) onto a 2D plane (i.e the UV map).
 
 If a 3D object has a UV map, then, in addition to the 3D-coordinates X, Y, and Z,
 each point on the object will have corresponding U and V coordinates. (*P* in the
-image above is an example of how a point on a 3D object might be mapped onto a 2D image.)
+image above is an example of how a point on a 3D object might be mapped onto a 2D image).
 
 
 Advantages of UVs

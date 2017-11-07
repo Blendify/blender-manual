@@ -107,7 +107,7 @@ Codec
    or research the limitations of the codec you are trying to use.
 
 Output Quality
-   These are preset `Rates <Rate>`_
+   These are preset `Rates <Rate>`_.
 Encoding Speed
    Presets to change between a fast encode (bigger file size) and more compression (smaller file size).
 

@@ -24,7 +24,7 @@ Sensor name
 Pin button
   Display the sensor even when it is not linked to a visible states controller.
 Checkbox button
-   Sets active state of the sensor
+   Sets active state of the sensor.
 X button
   Deletes the sensor.
 

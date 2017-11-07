@@ -42,12 +42,12 @@ Blender creates a copy of "chain_a" and matches the bones with the stroke.
 Blender also creates a copy of "chain_b", but this chain is not altered in any way;
 because this tool can map only one selected chain with a stroke.
 
-In the following example, no template is selected. (In other words, all the action is within the armature itself.)
+In the following example, no template is selected. (In other words, all the action is within the armature itself).
 
 Two bones are selected in "chain_b",
 and the property panel is set to map the joints with the stroke. So these two selected bones
 are copied and the newly created copy of the chain is matched with the stroke.
-(Note that the newly created bones are named in continuation of the original chain.)
+(Note that the newly created bones are named in continuation of the original chain).
 
 .. list-table::
 

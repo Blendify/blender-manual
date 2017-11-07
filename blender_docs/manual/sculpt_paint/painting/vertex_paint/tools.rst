@@ -20,7 +20,7 @@ Brush
 Color
    Color picker.
 Radius
-   Set the radius of the brush
+   Set the radius of the brush.
 Strength
    Set the strength of the brush's effect.
 Blend

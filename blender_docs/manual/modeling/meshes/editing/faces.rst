@@ -118,11 +118,11 @@ Grid Fill
 that follows the surrounding geometry.
 
 Span
-   ToDo
+   ToDo.
 Offset
-   ToDo
+   ToDo.
 Simple Blending
-   ToDo
+   ToDo.
 
 .. list-table::
 

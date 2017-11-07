@@ -101,7 +101,7 @@ Use Subdivision Schema
    When enabled, writes polygonal meshes using the "SubD" Alembic schema, rather than the
    "PolyMesh" schema.
 Apply Subdivision Surface
-   TODO: figure out & describe what this does
+   TODO: figure out & describe what this does.
 Triangulate
    Triangulates the mesh before writing to Alembic.
 

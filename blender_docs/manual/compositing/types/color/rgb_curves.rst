@@ -126,7 +126,7 @@ Levels do color scaling, not substitution,
 but depending on the settings they can result in the described color substitution.
 
 (What really happens when setting Black Level to pure red and White Level to pure blue
-is that the red channel gets inverted, green gets reduced to zero and blue remains unchanged.)
+is that the red channel gets inverted, green gets reduced to zero and blue remains unchanged).
 
 Because of this, the results of setting arbitrary Black/White Levels or RGB curves is hard to
 predict, but can be fun to play with.

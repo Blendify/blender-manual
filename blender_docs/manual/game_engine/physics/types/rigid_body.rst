@@ -157,7 +157,7 @@ Default
    For everything else, it is a Sphere (see below).
 Capsule -- A cylinder with hemispherical caps, like a pill.
    Radius of the hemispheres is the greater of the X or Y extent.
-   Height is the Z bounds
+   Height is the Z bounds.
 Box
    The X, Y, Z bounding box, as defined above.
 Sphere

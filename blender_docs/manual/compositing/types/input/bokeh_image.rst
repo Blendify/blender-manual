@@ -30,7 +30,7 @@ The first three settings simulate the aperture of the camera.
 Flaps
    Sets an integer number of blades for the cameras iris diaphragm.
 Angle
-   Gives these blades an angular offset relative to the image plane
+   Gives these blades an angular offset relative to the image plane.
 Rounding
    Sets the curvature of the blades with (0 to 1) from straight to bringing them to a perfect circle.
 

@@ -34,7 +34,7 @@ responsibilities that are designed to protect your freedoms and the freedoms of 
 - If you modify the code and distribute the modified version,
   you must license your modifications available under the GPL (or a compatible license).
 - You may not restrict the licensing of the program beyond the terms of the GPL.
-  (you may not turn a GPL'd program into a proprietary product.)
+  (you may not turn a GPL'd program into a proprietary product).
 
 For more on the GPL, check its page on the
 `GNU Project website <https://www.gnu.org/licenses/licenses.html#GPL>`__.

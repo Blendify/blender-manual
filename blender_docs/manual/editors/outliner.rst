@@ -155,7 +155,7 @@ The editors header has a select menu that let you filter what the Outliner shoul
 list of objects so that you can find things quickly and easily.
 
 All Scenes
-   Shows *everything* the *Outliner* can display (in all scenes, all layers, etc.)
+   Shows *everything* the *Outliner* can display (in all scenes, all layers, etc.).
 Current Scene
    Shows everything in the current scene.
 Visible Layers

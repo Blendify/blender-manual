@@ -5,7 +5,7 @@ Mirror Reflections
 ******************
 
 Mirror reflections are computed in the Blender Render and Cycles render engines using ray
-tracing. (NB: Reflections are not available in the Game Engine.)
+tracing. (n.b. Reflections are not available in the Game Engine).
 Ray tracing can be used to make a material reflect its surroundings, like a mirror.
 The principle of ray-traced reflections is very simple:
 a ray is fired from the camera and travels through the scene until it encounters an object.
@@ -41,7 +41,7 @@ Options
    The Mirror Panel.
 
 Enable ray-traced reflections
-   Enable or disable ray-traced reflections
+   Enable or disable ray-traced reflections.
 Reflectivity
    Sets the amount of reflectiveness of the object.
    Use a value of 1.0 if you need a perfect mirror, or set it to 0.0 if you do not want any reflection.

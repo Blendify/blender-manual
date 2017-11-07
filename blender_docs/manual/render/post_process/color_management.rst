@@ -204,7 +204,7 @@ We currently use the following color space rules:
 scene_linear
    Color space used for rendering, compositing, and storing all float precision images in memory.
 default_sequencer
-   Default color space for sequencer, *scene_linear* if not specified
+   Default color space for sequencer, *scene_linear* if not specified.
 default_byte
    Default color space for byte precision images and files, *texture_paint* if not specified.
 default_float

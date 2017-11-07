@@ -36,7 +36,7 @@ Action Playback Type
       Uses a property to define what frame is displayed.
 
 Action
-   Select the action to use
+   Select the action to use.
 Continue
    Restore last frame when switching on/off, otherwise play from the start each time.
 Start Frame
@@ -45,7 +45,7 @@ End Frame
    Set the end frame of the action.
 Child Button
    Update action on all children objects as well.
-Blendin
+Blending
    Number of frames of motion blending.
 Priority
    Execution priority -- lower numbers will override actions with higher numbers.

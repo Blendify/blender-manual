@@ -49,9 +49,9 @@ Seed
    If non-zero, randomizes the ring dimension and line location.
    To use, give any (integer) number to start the random-number generator.
 Size
-   Sets the dimension of the halo
+   Sets the dimension of the halo.
 Hardness
-   Sets the hardness of the halo. Similar to specular hardness
+   Sets the hardness of the halo. Similar to specular hardness.
 Add
    Determine how much the halo colors are 'added to',
    rather than mixed with, the colors of the objects behind and together with other halos.

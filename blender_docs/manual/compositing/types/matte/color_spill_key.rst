@@ -40,7 +40,7 @@ Algorithm
 Limiting Channel
    R, G, B
 Ratio
-   Scale limit by value
+   Scale limit by value.
 Unspill
    Allows you to reduce the selected channel's input to the image
    greater than the color spill algorithm normally allows.

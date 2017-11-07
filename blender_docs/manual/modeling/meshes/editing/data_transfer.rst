@@ -27,7 +27,7 @@ Transfers layout of data layer(s) from active to selected meshes.
 
 Freeze Operator
    Prevent changes to settings to re-run the operator.
-   This is useful if you are editing several settings at once with heavy geometry
+   This is useful if you are editing several settings at once with heavy geometry.
 Data Type
    Which data to transfer.
 

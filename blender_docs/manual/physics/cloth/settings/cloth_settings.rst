@@ -168,7 +168,7 @@ Shrinking Group
    Vertex group that is used to vary the intensity of the shrinking effect over the cloth.
 
 Min
-   Fraction of the size to shrink the cloth by around vertices with weight 0 (or those not in vertex group.)
+   Fraction of the size to shrink the cloth by around vertices with weight 0 (or those not in vertex group).
    The value 0.01 means shrink by 1% etc.
 Max
    Fraction of the size to shrink the cloth by around vertices with weight 1.

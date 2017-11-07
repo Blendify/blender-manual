@@ -91,7 +91,7 @@ Delimiter & Noise
 
 Vertex Group
    For meshes only. A vertex group name, used to control the parts of the mesh affected by the wave effect,
-   and to what extent (using vertex weights). Note a newly created vertex group has empty weights
+   and to what extent (using vertex weights). Note a newly created vertex group has empty weights.
 Texture
    Use this texture to control the object's displacement level.
    Animated textures can give very interesting results here.

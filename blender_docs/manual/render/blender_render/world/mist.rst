@@ -23,7 +23,7 @@ Mist check box
 Minimum
    An overall minimum intensity, or strength, of the mist.
 Start
-   The distance from the camera at which the mist starts to fade in
+   The distance from the camera at which the mist starts to fade in.
 Depth
    The distance from *Start* of the mist, that it fades in over.
    Objects further from the camera than *Start + Depth* are completely hidden by the mist.

@@ -39,7 +39,7 @@ Offset
 
 Max/Min
    This set of (mutually exclusive) buttons controls which plane will be the "floor".
-   The buttons' names correspond indeed to the *normal* to this plane (e.g. enabling Z means "XY plane", etc.)
+   The buttons' names correspond indeed to the *normal* to this plane (e.g. enabling Z means "XY plane", etc.).
    By default, these normals are aligned with the *global* axes.
    However, if you enable *Use Rotation* (see above), they will be aligned with the *local target's axes*.
    As the constraint does not only define an uncrossable plane,

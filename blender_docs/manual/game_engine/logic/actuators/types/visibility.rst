@@ -24,7 +24,7 @@ Properties
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Visible
-   Toggle checkbox to toggle visibility
+   Toggle checkbox to toggle visibility.
 Occlusion
    Toggle checkbox to toggle occlusion. Must be initialized from the *Physics* tab.
 Children

@@ -117,7 +117,7 @@ Edge Slide
    | Menu:     :menuselection:`Mesh --> Edges --> Slide Edge`
 
 Slides one or more edges across adjacent faces with a few restrictions involving the selection
-of edges (i.e. the selection *must* define a valid loop, see below.)
+of edges (i.e. the selection *must* define a valid loop, see below).
 
 Even :kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop.

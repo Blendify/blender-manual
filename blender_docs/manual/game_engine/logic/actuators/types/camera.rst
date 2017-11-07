@@ -20,13 +20,13 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 Camera Object
    Name of the Game Object that the camera follows/tracks.
 Height
-   Height the camera tries to stay above the Game Object's object center
+   Height the camera tries to stay above the Game Object's object center.
 Axis
-   Axis in which the Camera follows (X or Y)
+   Axis in which the Camera follows (X or Y).
 Min
-   Minimum distance for the camera to follow the Game Object
+   Minimum distance for the camera to follow the Game Object.
 Max
-   Maximum distance for the camera to follow the Game Object
+   Maximum distance for the camera to follow the Game Object.
 Damping
    Strength of the constraint that drives the camera behind the target.
    The higher the parameter,

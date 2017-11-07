@@ -15,7 +15,7 @@ This tool smooths the selected components by averaging the angles between faces.
 After using the tool, options appear in the *Tool Shelf*:
 
 Number of times to smooth
-   The number of smoothing iterations
+   The number of smoothing iterations.
 Axes
    Limit the effect to certain axes.
 

@@ -18,13 +18,13 @@ Options
 =======
 
 Greyscale
-   The standard noise, gives an intensity
+   The standard noise, gives an intensity.
 Color
-   The noise gives an RGB value
+   The noise gives an RGB value.
 Noise
-   *Soft* or *Hard*, changes contrast and sharpness
+   *Soft* or *Hard*, changes contrast and sharpness.
 Size
-   The dimension of the Noise table
+   The dimension of the Noise table.
 Depth
    The depth of the *Clouds* calculation.
    A higher number results in a long calculation time, but also in finer details.

@@ -61,7 +61,7 @@ you will need to make sure that they do not accidentally get deleted from the li
 
 Do this by giving the data-blocks a *Fake User*, by pressing the *F* button next to the name of the data-block.
 This prevents the user count from ever becoming zero: therefore, the data-block will not be deleted.
-(since Blender does not keep track of how many other files link to this one.)
+(since Blender does not keep track of how many other files link to this one).
 
 
 Users (Sharing)

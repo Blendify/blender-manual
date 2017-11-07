@@ -234,13 +234,13 @@ Factor
    The Fresnel diffuse shader settings.
 
 Emit
-   Amount of light to emit
+   Amount of light to emit.
 Ambient
-   Amount of global ambient color the material receives
+   Amount of global ambient color the material receives.
 Translucency
-   Amount of diffuse shading on the back side
+   Amount of diffuse shading on the back side.
 Shadeless
-   Make this material insensitive to light or shadow
+   Make this material insensitive to light or shadow.
 Tangent Shading
    Use the material's tangent vector instead of the normal for shading --
    for anisotropic shading effects (e.g. soft hair and brushed metal).

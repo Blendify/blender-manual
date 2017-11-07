@@ -75,7 +75,7 @@ None
    this option keeps the X and Z scaling factors as 1.0.
 Volume Preserve
    the X and Z scaling factors are taken as the inverse of the Y scaling factor (length of the bone),
-   maintaining the 'volume' of the bone
+   maintaining the 'volume' of the bone.
 Bone Original
    this options just uses the X and Z scaling factors the bone would have after being evaluated in the standard way.
 
