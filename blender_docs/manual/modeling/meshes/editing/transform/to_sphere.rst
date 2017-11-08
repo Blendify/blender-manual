@@ -7,7 +7,7 @@ To Sphere
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object/Edit Modes
+   | Mode:     Object and Edit Modes
    | Menu:     :menuselection:`Mesh --> Transform --> To Sphere`
    | Hotkey:   :kbd:`Shift-Alt-S`
 

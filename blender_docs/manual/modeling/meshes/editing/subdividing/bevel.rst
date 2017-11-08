@@ -13,7 +13,7 @@ Bevel
    | Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel`
    | Hotkey (vertex-only):  :kbd:`Shift-Ctrl-B`
 
-The bevel tool allows you to create chamfered or rounded corners to geometry.
+The *Bevel* tool allows you to create chamfered or rounded corners to geometry.
 A bevel is an effect that smooths out edges and corners.
 
 True world edges are very seldom exactly sharp.
@@ -65,7 +65,7 @@ and scroll the :kbd:`Wheel` to increase or decrease the number of segments (see 
 .. note::
 
    Normal (edge) beveling only works on edges that have exactly two faces
-   attached to them. Vertex bevel has no such restriction.
+   attached to them. Vertex beveling has no such restriction.
 
 
 Options

@@ -140,9 +140,9 @@ Interpolate
    Sequence `Shift-Ctrl-E`
       Interpolates full Grease pencil strokes sequence between frames.
    Interpolate All Layers
-      Checkbox to interpolates all layers, not only active.
+      Checkbox to interpolate all layers, not only active.
    Interpolate Selected Strokes
-      Checkbox to interpolates only the selected strokes in the original frame.
+      Checkbox to interpolate only the selected strokes in the original frame.
 Join Strokes
    Type
       Join `Ctrl-J`
@@ -219,7 +219,7 @@ Pinch/Inflate
    Inflate
       Push points away from the cursor.
 Randomize
-   Randomizes the stoke attributes.
+   Randomizes the stroke attributes.
    e.g. with *Position* enabled it displaces the points randomly in screen space to create jittered/jagged lines.
 Clone Brush
    Used to paste the previously copied points (in the Copy/Paste buffer on the active layer),
