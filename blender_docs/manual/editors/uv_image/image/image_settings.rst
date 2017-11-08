@@ -1,4 +1,4 @@
-.. (Todo) move to data_system: shared with movie editor?
+.. (Todo) move to data_system: shared with Movie editor?
 
 **************
 Image Settings

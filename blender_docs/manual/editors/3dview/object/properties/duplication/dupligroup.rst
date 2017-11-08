@@ -20,11 +20,11 @@ Basic Usage
 Create a Group:
    - Selecting the objects to be grouped.
    - Create a new group :menuselection:`Object --> Group --> Create New Group`
-   - Rename your group in the properties editor: :menuselection:`Object --> Groups`
+   - Rename your group in the Properties editor: :menuselection:`Object --> Groups`
 Create a new Group Instance:
    - :menuselection:`Add --> Group Instance`
 Change the Group Instance of existing objects:
-   - In the properties editor: :menuselection:`Object --> Duplication`, enable *Group*.
+   - In the Properties editor: :menuselection:`Object --> Duplication`, enable *Group*.
    - Select the name of your newly created group.
 
 At this point, an instance of the group and a :doc:`empty object </modeling/empties>` will appear.

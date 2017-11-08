@@ -5,17 +5,17 @@ Stroke Edit Mode
 
 Enter Stroke Edit Mode with the *Mode* select menu in the 3D Views header or
 toggle the *Enable Editing* in the Grease Pencil panel
-*(only available in 2D editors such as UV-Image editor, Node editor, etc.)*, or use :kbd:`D-Tab`.
+*(only available in 2D editors such as UV/Image editor, Node editor, etc.)*, or use :kbd:`D-Tab`.
 In this mode, many common editing tools will operate on Grease Pencil stroke points instead.
 
-These tools let you move and reshape grease pencil strokes after they have been drawn.
+These tools let you move and reshape Grease pencil strokes after they have been drawn.
 
 Open the Grease Pencil tab on the Tool Shelf.
 Look for the tools in the Edit Strokes panel shown here:
 
 .. figure:: /images/interface_grease-pencil_stroke-edit_panel.png
 
-   Edit panel with grease pencil strokes.
+   Edit panel with Grease pencil strokes.
 
 
 Selecting
@@ -136,9 +136,9 @@ Move to Color
    Sets the active color as the new color to all selected strokes.
 Interpolate
    Interpolate `Ctrl-Alt-E`
-      Interpolates grease pencil strokes between frames.
+      Interpolates Grease pencil strokes between frames.
    Sequence `Shift-Ctrl-E`
-      Interpolates full grease pencil strokes sequence between frames.
+      Interpolates full Grease pencil strokes sequence between frames.
    Interpolate All Layers
       Checkbox to interpolates all layers, not only active.
    Interpolate Selected Strokes

@@ -105,7 +105,7 @@ Stabilization Weight
 Color Presets
    The preset for the *Custom Color*.
 Custom Color
-   This setting overrides the default marker color used in the clip editor and 3D View,
+   This setting overrides the default marker color used in the Clip editor and 3D View,
    and it helps to distinguish different type of features (for example,
    features in the background vs. foreground and so on). Color also can be used for "grouping"
    tracks so a whole group of tracks can be selected by color using the Select Grouped operator.
@@ -134,7 +134,7 @@ Auto Keyframe
    With this enabled, keyframes will automatically get inserted when any corner is moved.
 Image
    Field to select an image which will be displayed inside the plane track.
-   This image is for preview purposes in movie clip editor only.
+   This image is for preview purposes in Movie clip editor only.
    To include it in your final render,
    see :doc:`Plane Track Deform node </compositing/types/distort/plane_track_deform>`.
 Opacity
@@ -152,7 +152,7 @@ Grease Pencil Panel
 ===================
 
 Grease pencil strokes can be enabled/disabled with the checkbox in the panel header.
-It is a standard grease pencil panel where new grease pencil layers and frames can be controlled.
-There is one difference in the behavior of the grease pencil from other areas --
+It is a standard Grease pencil panel where new Grease pencil layers and frames can be controlled.
+There is one difference in the behavior of the Grease pencil from other areas --
 when a new layer is created "on-demand" (when making a stroke without adding a layer before this)
 the default color for the layer is set to pink. This makes the stroke easy to notice on all kinds of movies.

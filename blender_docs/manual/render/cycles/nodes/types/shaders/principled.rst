@@ -24,7 +24,7 @@ On top of that there is a specular layer, sheen layer and clearcoat layer.
 .. note::
 
     The emphasis on compatibility with other software means that it interprets
-    certain input parameters differently from older blender nodes.
+    certain input parameters differently from older Blender nodes.
 
 
 Inputs

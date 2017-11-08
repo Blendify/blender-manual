@@ -34,7 +34,7 @@ to display the sequence in real time, and in various ways.
    Sequencer Display Header.
 
 The second button will change the editor to display only the preview,
-and the third button displays both the sequencer and the preview.
+and the third button displays both the Sequencer and the preview.
 
 Display Mode
    Mode to show different aspects of the composite result,

@@ -56,7 +56,7 @@ Smooth
 Edge Draw Type
    Style of the edge.
 Overlay
-   Added mask overlay to both image and clip editors.
+   Added mask overlay to both Image and Clip editors.
 
    Mode
       Alpha Channel

@@ -94,7 +94,7 @@ Animating Stabilization Parameters
 Animating some parameters over duration of the shot is often necessary, at least to get the final touch,
 including control of the scale factor to hide the dancing black borders.
 Unfortunately there is a **known limitation**
-in the current version: it is not possible to open the generic animation editors (F-curve and dope sheet)
+in the current version: it is not possible to open the generic animation editors (F-curve and Dope sheet)
 for animation data beyond the 3D scene. So, while it *is possible* to set key frames *right within the UI controls*
 of the stabilizer (either through pressing the :kbd:`I` key or with the help of the context menu), it is not possible
 to manipulate the resulting curves graphically. The only way to readjust or remove a misguided keyframe is to locate

@@ -9,9 +9,9 @@ Denoising
    | Panel:    :menuselection:`Properties editor --> Render Layers --> Denoising`
 
 Denoising filters the resulting image using information (known as feature passes)
-gathered during rendering to get rid of noise while preserving visual detail as well as possible.
+gathered during rendering to get rid of noise, while preserving visual detail as well as possible.
 
-To use the option, enable it in the render layers tab of the properties editor.
+To use the option, enable it in the render layers tab of the Properties editor.
 On rendering, it will denoise tile by tile once all the surrounding tiles are finished rendering.
 The default settings fit a wide range of scenes, but the user can tweak individual settings
 to control the tradeoff between a noise-free image, image details, and calculation time.

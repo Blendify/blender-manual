@@ -7,7 +7,7 @@ Years ago people needed a way to quickly draw on their monitors,
 they did this with a tool called a grease pencil.
 This is especially helpful for animators who need to add notes directly on their screen.
 However, not everyone wants to draw on their monitors.
-So a digital version was made, also called a grease pencil.
+So a digital version was made, also called a Grease pencil.
 
 You can use the Grease Pencil tool to draw freehand sketches and
 annotations in most of the :doc:`Editors </editors/index>`.

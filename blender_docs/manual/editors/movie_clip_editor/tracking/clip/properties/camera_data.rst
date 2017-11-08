@@ -5,7 +5,7 @@ Camera Data
 ***********
 
 This panel contains all settings of the camera used for filming the movie which is currently
-being edited in the clip editor.
+being edited in the Clip editor.
 
 
 Camera
@@ -49,7 +49,7 @@ Coefficients
    Coefficients are used to compensate for lens distortion when the movie was shot. Currently these values can be
    tweaked by hand only (there are no calibration tools yet)
    using tools available in Distortion mode. Basically, just
-   tweak K1 until solving is most accurate for the known focal length (but also take grid and grease pencil into
+   tweak K1 until solving is most accurate for the known focal length (but also take grid and Grease pencil into
    account to prevent "impossible" distortion).
 
    The coefficients of the division model work independent from each other and

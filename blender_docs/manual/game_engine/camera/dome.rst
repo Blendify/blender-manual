@@ -168,7 +168,7 @@ texture coordinates *i* a multiplicative intensity factor.
 
 #. You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.
 #. Open the Text Editor :menuselection:`Editor Types --> Text Editor`.
-#. Open your mesh data file (e.g. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
+#. Open your mesh data file (e.g. myDome.data) in the Text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
 #. Go to Game Framing Settings :menuselection:`Editor Types --> Properties editor --> Scene`.
 #. Enable Dome Mode.
 #. Type filename in Warp Data field (e.g. myDome.data).

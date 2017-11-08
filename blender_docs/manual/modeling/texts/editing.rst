@@ -138,7 +138,7 @@ Converting to Text Object
 
 .. figure:: /images/modeling_texts_editing_convert-to.jpg
 
-Using an existing text-block, you can convert it to an object from the text editor's header,
+Using an existing text-block, you can convert it to an object from the Text editors header,
 select :menuselection:`Edit --> Text to 3D Object`,
 *One Object* or *One Object per Line* depending on your needs.
 

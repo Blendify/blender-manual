@@ -161,7 +161,7 @@ Bookmarks
 ---------
 
 A :ref:`List View <ui-list-view>` of shortcuts to folders,
-that you want to be able to access often without having to navigate to them in the file browser.
+that you want to be able to access often without having to navigate to them in the File browser.
 
 Add ``+``
    This button adds the current directory to the list.
@@ -216,7 +216,7 @@ Directory navigation is also possible through the arrow keys with :kbd:`Alt` pre
 File Drop
 ^^^^^^^^^
 
-You now can simply drag & drop files from your local file explorer into the blender file browser.
+You now can simply drag & drop files from your local file explorer into the Blender File browser.
 This will relocate the File browser to the directory of the dropped file and the file will be selected.
 
 
