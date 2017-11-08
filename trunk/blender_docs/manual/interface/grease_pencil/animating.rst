@@ -8,7 +8,7 @@ You can use Grease Pencil to create 2D animations (e.g. in flipbook style) and
 mixing it with 3D objects and composition.
 
 Sketches are stored on the frame that they were drawn on, as a separate drawing
-(only on the layer that they exist on). A keyframe is automatically add per layer.
+(only on the layer that they exist on). A keyframe is automatically added per layer.
 Each drawing is visible until the next drawing for that layer is encountered.
 The only exception to this is the first drawing for a layer,
 which will also be visible before the frame it was drawn on.

@@ -21,7 +21,7 @@ This tool rotates a line of selected elements forming an arc between the mouse-c
 Usage
 =====
 
-The bend tool can be used in any case where you might want to bend a shape in two
+The *Bend* tool can be used in any case where you might want to bend a shape in two
 with a gradual transition between both sides.
 
 This may take a little getting used to, the basics are listed below controls are noted here:
@@ -30,7 +30,7 @@ This may take a little getting used to, the basics are listed below controls are
 - The distance of the mouse-cursor to the 3D-cursor controls how sharp the bend will be.
 - The relative angle of the mouse-cursor to the initial axis defines the bend angle.
 
-If this seems overly complicated, its probably best to try the tool where it becomes quickly apparent
+If this seems overly complicated, it's probably best to try the tool where it becomes quickly apparent
 how the tool reacts to your input.
 
 Bend Angle
@@ -47,7 +47,7 @@ Clamp
 
 .. note::
 
-   Unlike most other transform modes *Bend* is not effected by *Pivot Point* or *Transform Orientation*,
+   Unlike most other transform modes, *Bend* is not effected by *Pivot Point* or *Transform Orientation*,
    always using the View Plane instead.
 
 .. hint::
