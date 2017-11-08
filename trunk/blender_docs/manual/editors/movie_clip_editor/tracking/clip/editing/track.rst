@@ -9,7 +9,7 @@ Clip Panel
 Prefetch :kbd:`P`
    Fills cache with frames. As many frames as fits into cache are load form the drive.
    This allows to fill in the cache as fast as possible when you really need to track something,
-   but this keeps CPU and drive bandwidth idle if you've got clip editor opened but not actually interacting with it.
+   but this keeps CPU and drive bandwidth idle if you've got Clip editor opened but not actually interacting with it.
 Reload
    ToDo.
 Set Scene Frames
@@ -42,7 +42,7 @@ Detect Features
 
    Placement
       Used to control where to place markers. By default, they will be added through the whole frame, but you can
-      also outline some areas with interesting features with grease pencil and place markers only inside the
+      also outline some areas with interesting features with Grease pencil and place markers only inside the
       outlined area. That is how the "Inside Grease Pencil" placement variant works. You can also outline areas of
       no interest (like trees, humans and so) and place markers outside of these areas. That is how the "Outside
       Grease Pencil" placement variant works.

@@ -50,4 +50,4 @@ most important parts of the video can be seen across all screens.
 Grease Pencil
 =============
 
-Allows you to use :doc:`Grease Pencil </interface/grease_pencil/index>` in the sequencer.
+Allows you to use :doc:`Grease Pencil </interface/grease_pencil/index>` in the Sequencer.

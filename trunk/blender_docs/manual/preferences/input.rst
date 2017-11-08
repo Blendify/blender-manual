@@ -246,7 +246,7 @@ Export/Import Key Configuration
 In some cases, you may need to save your configuration in an external file (e.g.
 if you need to install a new system or share your keymap configuration with the community).
 To do this, simply press the *Export Key Configuration* button found in the header.
-After doing so a the file browser will open to choose where to store the configuration.
+After doing so a the File browser will open to choose where to store the configuration.
 The *Import Key Configuration* button installs a keymap configuration that is on
 your computer but not in Blender.
 

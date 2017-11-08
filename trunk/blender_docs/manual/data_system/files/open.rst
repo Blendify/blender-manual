@@ -38,7 +38,7 @@ Load UI
    .. tip::
 
       If you want to work on the blend-file using your own defaults, start a fresh Blender,
-      then open the file browser and turn off the *Load UI* button, and then open the file.
+      then open the File browser and turn off the *Load UI* button, and then open the file.
 
 Trusted Source
    When enabled, Python scripts and drivers that may be included in the file will be run automatically.

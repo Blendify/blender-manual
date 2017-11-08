@@ -128,7 +128,7 @@ Version/Revision Milestones
    Multi-resolution meshes, multi-layer UV textures, multi-layer images and multi-pass rendering and baking,
    sculpting, retopology, multiple additional mattes, distort and filter nodes, modeling and animation improvements,
    better painting with multiple brushes, fluid particles,
-   proxy objects, sequencer rewrite, and post-production UV texturing.
+   proxy objects, Sequencer rewrite, and post-production UV texturing.
 `2.44 <http://archive.blender.org/development/release-logs/blender-244/index.html>`__ -- May 2007:
    The big news, in addition to two new modifiers and re-awakening the 64-bit OS support, was the addition
    of subsurface scattering, which simulates light scattering beneath the surface of organic and soft objects.
@@ -188,7 +188,7 @@ Version/Revision Milestones
    ambient occlusion and viewport display of background images and render layers, new import and export
    add-ons were added, and 150 bug fixes.
 `2.64 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.64>`__ -- October 2012:
-   Mask editor, improved motion tracker, OpenColorIO, Cycles improvements, sequencer improvements,
+   Mask editor, improved motion tracker, OpenColorIO, Cycles improvements, Sequencer improvements,
    better mesh tools (Inset and Bevel were improved), new keying nodes, sculpt masking, Collada improvements,
    new skin modifier, new compositing nodes backend, and many bugs were fixed.
 `2.65 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.65>`__ -- December 2012:
@@ -203,7 +203,7 @@ Version/Revision Milestones
 `2.67 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67>`__ -- May 2013:
    Freestyle was added, paint system improvements, subsurface scattering for Cycles, Ceres library in the
    motion tracker, new custom Python nodes, new mesh modeling tools, better support for UTF-8 text and
-   improvements in text editors, new add-ons for 3D printing, over 260 bug fixes.
+   improvements in Text editors, new add-ons for 3D printing, over 260 bug fixes.
 `2.68 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.68>`__ -- July 2013:
    New and improved modeling tools, three new Cycles nodes, big improvements in the motion tracker,
    Python scripts and drivers are disabled by default when loading files for security reasons,
@@ -223,9 +223,9 @@ Version/Revision Milestones
    the intersection modeling tool is added, new sun beam node for the compositor, Freestyle now works with
    Cycles, texture painting workflow is improved, and more than 220 bug fixes.
 `2.73 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73>`__  -- January 2015:
-   Cycles gets improved volumetric support, major upgrade to grease pencil,
+   Cycles gets improved volumetric support, major upgrade to Grease pencil,
    MS-Windows gets Input Method Editors (IMEs)
-   and general improvements to painting, freestyle, sequencer and add-ons.
+   and general improvements to painting, Freestyle, Sequencer and add-ons.
 `2.74 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.74>`__ -- March 2015:
    Support for custom-normals, viewport compositing and improvements to hair dynamics.
 `2.75 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.75>`__  -- July 2015:

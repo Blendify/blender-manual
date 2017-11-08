@@ -22,7 +22,7 @@ Prerequisites
 Before going through the tutorial you should...
 
 - Be familiar with the basics of working in Blender.
-- Know how to run a script in Blender's text editor.
+- Know how to run a script in Blender's Text editor.
 - Have an understanding of Python primitive types (int, boolean, string, list, tuple, dictionary, and set).
 - Be familiar with the concept of Python modules.
 - Have a basic understanding of classes (object orientation) in Python.
@@ -83,7 +83,7 @@ that the base requirements of an add-on are simple.
 
 An add-on will typically register operators, panels, menu items, etc,
 but it's worth noting that *any* script can do this,
-when executed from the text editor or even the interactive console --
+when executed from the Text editor or even the interactive console --
 there is nothing inherently different about an add-on that allows it to integrate with Blender,
 such functionality is just provided by the :mod:`blender_api:bpy` module for any script to access.
 
@@ -91,7 +91,7 @@ So an add-on is just a way to encapsulate a Python module in a way a user can ea
 
 .. note::
 
-   Running this script within the text editor won't print anything,
+   Running this script within the Text editor won't print anything,
    to see the output it must be installed through the user preferences.
    Messages will be printed when enabling and disabling.
 
@@ -109,7 +109,7 @@ For the first example we will make a script that simply moves all objects in a s
 Write the Script
 ----------------
 
-Add the following script to the text editor in Blender::
+Add the following script to the Text editor in Blender::
 
    import bpy
 
@@ -157,7 +157,7 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
        bpy.utils.unregister_class(ObjectMoveX)
 
 
-   # This allows you to run the script directly from blenders text editor
+   # This allows you to run the script directly from Blenders Text editor
    # to test the add-on without having to install it.
    if __name__ == "__main__":
        register()
@@ -172,7 +172,7 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
    In most cases these will be the same. However in some cases, operators will be passed a custom context
    so script authors should prefer the ``context`` argument passed to operators.
 
-To test the script, you can copy and paste it into Blender text editor and run it.
+To test the script, you can copy and paste it into Blender Text editor and run it.
 This will execute the script directly and call register immediately.
 
 However running the script won't move any objects. For this, you need to execute the newly registered operator.
@@ -570,7 +570,7 @@ for common tasks that you can expand on to write your own tools.
 Further Reading
 ---------------
 
-Blender comes with commented templates which are accessible from the text editor header,
+Blender comes with commented templates which are accessible from the Text editors header,
 if you have specific areas you want to see example code for, this is a good place to start.
 
 Here are some sites you might like to check on after completing this tutorial.

@@ -32,8 +32,8 @@ Shape Key Editor
    :ref:`ShapeKey Editor <dope-sheet-shape-key>` is dedicated to the shape key data-blocks.
 Grease Pencil
    :doc:`Grease Pencil </editors/dope_sheet/grease_pencil>` Mode is dedicated to
-   the :doc:`grease pencil tool's </interface/grease_pencil/index>`
-   keyframes for each :doc:`grease pencil layer </interface/grease_pencil/drawing/layers>`,
+   the :doc:`Grease pencil tool's </interface/grease_pencil/index>`
+   keyframes for each :doc:`Grease pencil layer </interface/grease_pencil/drawing/layers>`,
    you have a strip along which you can grab its keys,
    and hence easily re-time your animated sketches.
 Mask

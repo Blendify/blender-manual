@@ -9,7 +9,7 @@ This Python script can interact with the scene or logic bricks through
 :doc:`Blender's API </game_engine/python_api/index>`.
 
 A Python script can either run as an entire file or a single module.
-A file must be added in the text editor, and is identified simply by its name, not its path.
+A file must be added in the Text editor, and is identified simply by its name, not its path.
 Names are case sensitive. Modules are identified by the file name *without* the extension followed by a ``.``
 and then the name of the module. For example:
 

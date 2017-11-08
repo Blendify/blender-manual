@@ -91,7 +91,7 @@ Clear Shape Key :kbd:`Alt-I`
 Feather Reset Animation
    Resets the feather offset across all animated frames.
 Re-Key Points of Selected Shapes
-   Re-interpolate selected points on across the range of keys selected in the dope sheet.
+   Re-interpolate selected points on across the range of keys selected in the Dope sheet.
 
 
 Show/Hide

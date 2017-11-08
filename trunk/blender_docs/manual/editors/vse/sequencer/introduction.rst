@@ -24,7 +24,7 @@ Main View
 Channels
 --------
 
-The sequencer workspace is horizontally striped into channels and each video strip will go in
+The Sequencer workspace is horizontally striped into channels and each video strip will go in
 a horizontal channel. Each channel is numbered consecutively on the Y axis, starting from zero.
 The X axis represents time.
 

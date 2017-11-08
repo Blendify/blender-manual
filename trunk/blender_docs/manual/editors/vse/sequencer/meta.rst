@@ -5,7 +5,7 @@ Meta Strips
 ***********
 
 A Meta Strip is a strip which contain multiple strips treated as if it was one strip.
-It allows you to reduce the vertical space used in the sequencer.
+It allows you to reduce the vertical space used in the Sequencer.
 You can edited the same way as strips.
 
 It is a kind of organization tool. For example,

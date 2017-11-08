@@ -140,7 +140,7 @@ High Quality
   to be closely represented to that of the render and render preview depth of field.
 F-Stop
   Viewport depth of field aperture measured in F-Stops. Smaller numbers will
-  cause more blur in the view-port, OpenGL renders, and sequencer.
+  cause more blur in the view-port, OpenGL renders, and Sequencer.
 Blades
   The number of polygonal sides to give blurred objects in the view-port.
   The minimum number of blades needed to enable the bokeh effect is 3 (triangle).

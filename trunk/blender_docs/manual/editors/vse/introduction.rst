@@ -25,6 +25,6 @@ View Types
 The Video Sequence Editor has three view types for the main view.
 
 The View Types toggles in the header allow you to change the view of the VSE.
-When the first button is toggled only the sequencer is displayed (the default).
+When the first button is toggled only the Sequencer is displayed (the default).
 The second button displays only the Preview region, and
 the third button displays both the Sequencer and the Preview.

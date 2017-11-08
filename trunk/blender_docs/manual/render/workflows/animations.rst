@@ -104,25 +104,25 @@ Frame Sequence Workflow
    use your OS file explorer to navigate into the output folder (``render`` in this example).
    You will see lots of images (``.png`` or ``.exr``, etc. depending on the format you chose to render)
    that have a sequence number attached to them ranging from 0000 to a max of 9999. These are your single frames.
-#. In Blender, now go into the :doc:`video sequence editor </editors/vse/index>`.
+#. In Blender, now go into the :doc:`Video sequence editor </editors/vse/index>`.
 #. Choose *Add Image* from the add menu. Select all the frames from your output folder that you want to include
-   in your animation (press :kbd:`A` to Select All easily). They will be added as a strip to the sequence editor.
+   in your animation (press :kbd:`A` to Select All easily). They will be added as a strip to the Sequence editor.
 #. Now you can edit the strip and add effects or simply leave it like it is.
    You can add other strips, like an audio strip.
 #. Scrub through the animation, checking that you have included all the frames.
 #. In the Scene Render buttons, in the Post Processing panel, activate *Sequencer*.
 #. In the Output panel, choose the container and codec you want (e.g.  ``MPEG H.264``) and configure them.
    The video codecs are described on the previous page: :doc:`Output Options </render/output/output>`.
-#. Click the *Animation* render button and Blender will render out the sequence editor output into your movie.
+#. Click the *Animation* render button and Blender will render out the Sequence editor output into your movie.
 
 Why go through all this hassle? Well, first of all, if you render out single frames, you can
-stop the render at any time by pressing :kbd:`Esc` in the render window or UV/image editor.
+stop the render at any time by pressing :kbd:`Esc` in the render window or UV/Image editor.
 You will not lose the frames you have already rendered,
 since they have been written out to individual files.
 You can always adjust the range you want to continue from where you left off.
 
 You can edit the frames afterwards and post-process them.
-You can add neat effects in the sequence editor.
+You can add neat effects in the Sequence editor.
 You can render the same sequence into different resolutions (640×480, 320×240, etc.)
 and use different codecs (to get different file sizes and quality)
 with almost no effort whatsoever.
@@ -141,7 +141,7 @@ Your computer accidentally turns off in the middle of rendering your movie!
 
    Just disable the *Overwrite* option to start rendering where you left off.
 
-   You can then make a movie out of the separate frames with Blender's sequence editor
+   You can then make a movie out of the separate frames with Blender's Sequence editor
    or use 3rd party encoding software.
 
 Animation Preview

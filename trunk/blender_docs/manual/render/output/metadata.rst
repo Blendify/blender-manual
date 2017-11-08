@@ -65,11 +65,11 @@ Filename
    Includes the filename of the blend-file.
 Marker
    Includes the name of the last marker.
-Seq. Strip
+Sequence Strip
    Includes the name of the foreground sequence strip.
 
 
 .. rubric:: Sequencer
 
 Strip Metadata
-   Use metadata from the strips in the sequencer.
+   Use metadata from the strips in the Sequencer.

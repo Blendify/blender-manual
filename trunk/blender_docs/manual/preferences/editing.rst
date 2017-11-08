@@ -73,7 +73,7 @@ Grease Pencil
 =============
 
 Eraser Radius
-   The size of the eraser used with the grease pencil.
+   The size of the eraser used with the Grease pencil.
 
 Manhattan Distance
    The minimum number of pixels the mouse should have moved either

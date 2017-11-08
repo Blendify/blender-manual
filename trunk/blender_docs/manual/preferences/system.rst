@@ -249,8 +249,8 @@ Sequencer/Clip Editor
 =====================
 
 Memory Cache Limit
-   Upper limit of the sequencer's memory cache (megabytes).
-   For optimum clip editor and sequencer performance, high values are recommended.
+   Upper limit of the Sequencer's memory cache (megabytes).
+   For optimum Clip editor and Sequencer performance, high values are recommended.
 
 
 .. _bpy.types.UserSolidLight:

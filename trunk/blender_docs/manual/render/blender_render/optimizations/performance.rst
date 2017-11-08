@@ -57,7 +57,7 @@ Blender Settings
   Each shot will be of a smaller area and thus take in fewer polygons/faces.
   Be sure that when you position your camera that you snap overlapping shots, so that you can then match them up.
   If you do not want to use GIMP, you can use compositing nodes and the Translate node to match them up in Blender.
-- Minimize the render window (and the Blender window, if the UV/image editor is used).
+- Minimize the render window (and the Blender window, if the UV/Image editor is used).
   ATI users report dramatic speedup on a per frame basis, which adds up over the frame range.
 - Use the Big Render script to render sub-sections of the overall image, and then paste them together.
 

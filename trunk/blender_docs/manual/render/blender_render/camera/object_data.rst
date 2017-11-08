@@ -299,7 +299,7 @@ In Blender, safe areas can be set from the Camera and Sequencer views.
 .. figure:: /images/render_blender-render_camera_object-data_safe-areas-panel.png
 
    The Safe areas panel found in the camera properties,
-   and the view mode of the sequencer.
+   and the view mode of the Sequencer.
 
 The Safe Areas can be customized by their outer margin,
 which is a percentage scale of the area between the center and the render size.

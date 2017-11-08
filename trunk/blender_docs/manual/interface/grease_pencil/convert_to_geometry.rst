@@ -23,7 +23,7 @@ based on the current view settings, by transforming the points recorded when dra
 so it may be necessary to simplify or subdivide parts of the created geometry for standard use.
 
 Sketches can currently be converted into curves,
-as proposed by the *Convert Grease Pencil* menu popped-up by the *Convert* button in the grease pencil properties.
+as proposed by the *Convert Grease Pencil* menu popped-up by the *Convert* button in the Grease pencil properties.
 
 
 Options
@@ -54,7 +54,7 @@ Normalize Weight
 
 Link Strokes
    Will create a single spline, i.e. curve element. (enabled by default)
-   from all strokes in active grease pencil layer. This is especially useful if you want to use the curve as a path.
+   from all strokes in active Grease pencil layer. This is especially useful if you want to use the curve as a path.
    All the strokes are linked in the curve by "zero weights/radii" sections.
 
 

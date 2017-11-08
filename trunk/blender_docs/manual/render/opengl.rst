@@ -81,9 +81,9 @@ Render an Animation
 Render from the Sequencer
    Click on the small button showing a *slate* in the header of *Sequencer* preview region.
 
-   Using scene strips in the sequencer you can edit together scenes to quickly render an entire sequence of shots.
+   Using scene strips in the Sequencer you can edit together scenes to quickly render an entire sequence of shots.
 
-   This can be activated using the render icons in the sequencer's playback header.
+   This can be activated using the render icons in the Sequencer's playback header.
 
 
 Known Limitations
