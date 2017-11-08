@@ -7,7 +7,7 @@ Directional Blur Node
 .. figure:: /images/compositing_types_filter_directional-blur_node.png
    :align: right
 
-   Dilate/Erode Node.
+   Directional Blur Node.
 
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 
