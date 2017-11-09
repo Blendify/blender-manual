@@ -36,7 +36,7 @@ cells defines straight lines in the footage.
 You can also use the Grease pencil for this -- just draw a line which should be straight on the footage using poly
 line brush and adjust the distortion values to make the Grease pencil match lines on the footage.
 
-To calibrate your camera more accurately, use the grid calibration tool from OpenCV.
+To calibrate your camera more accurately, use the Grid calibration tool from OpenCV.
 OpenCV is using the same distortion model, so it should not be a problem.
 
 

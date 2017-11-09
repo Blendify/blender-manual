@@ -93,7 +93,7 @@ Align Objects
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Transform --> Align Objects`
 
-The align tool is used to align multiple selected objects so they line up on a specified axis.
+The Align tool is used to align multiple selected objects so they line up on a specified axis.
 
 
 Options

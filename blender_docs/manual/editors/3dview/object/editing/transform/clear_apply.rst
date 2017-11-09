@@ -99,12 +99,6 @@ Scale
    i.e. the selection will not scaled, the current scale will be considered to be the "default scale".
 Rotation and Scale
    Apply (set) the rotation and scale of the selection. Do the above two applications simultaneously.
-Apply Properties *(access from the toolbar)*
-   When disabled, some elements aren't modified:
-
-   - Curve vertex radius.
-   - Metaball radius.
-   - Armature bone radius and envelope size.
 
 
 .. _bpy.ops.object.transforms_to_deltas:

@@ -26,7 +26,7 @@ Automatic IK
    | Mode:     Pose Mode
    | Panel:    :menuselection:`Tool Shelf --> Options --> Pose Options`
 
-Automatic IK is a tool for quick posing, it can be enabled in the tool shelf in the 3D View,
+Automatic IK is a tool for quick posing, it can be enabled in the Tool shelf in the 3D View,
 when in pose mode. When the Auto IK option is enabled, translating a bone will activate
 inverse kinematics and rotate the parent bone, and the parent's parent, and so on, to
 follow the selected bone. The IK chain can only extend from a child to a parent bone

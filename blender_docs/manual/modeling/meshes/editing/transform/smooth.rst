@@ -54,7 +54,7 @@ mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive
 .. note::
 
    The :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`, which can be limited to a *Vertex Group*,
-   is a non-destructive alternative to the smooth tool.
+   is a non-destructive alternative to the Smooth tool.
 
 .. note:: Real Smoothing versus Shading Smoothing
 

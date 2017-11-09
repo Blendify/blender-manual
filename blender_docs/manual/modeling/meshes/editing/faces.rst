@@ -238,7 +238,7 @@ Wireframe
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Wire frame`
 
-The wireframe tool makes a wireframe from faces by to turning edges into wireframe tubes,
+The Wireframe tool makes a wireframe from faces by to turning edges into wireframe tubes,
 similar to the :doc:`/modeling/modifiers/generate/wireframe`.
 
 
@@ -343,8 +343,8 @@ Weld Edges into Faces
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Weld Edges into Faces`
 
-A Tool to split selected faces by loose wire edges.
-This can be used in a similar way to the knife tool, but the edges are manually setup first.
+A tool to split selected faces by loose wire edges.
+This can be used in a similar way to the Knife tool, but the edges are manually setup first.
 
 
 Rotate Edges

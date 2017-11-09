@@ -17,7 +17,7 @@ After adding the object the various settings can be changed in the Properties ed
 Options
 =======
 
-.. These descriptions are the same as the tool tips
+.. These descriptions are the same as the tooltips
 
 
 Sound
