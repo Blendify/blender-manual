@@ -16,7 +16,7 @@ Connect Vertex Path
 This tool connects vertices in the order they are selected, splitting the faces between them.
 
 When there are only two vertices selected, a cut will be made across unselected faces,
-a little like the knife tool; however, this is limited to straight cuts across connected faces.
+a little like the Knife tool; however, this is limited to straight cuts across connected faces.
 
 .. list-table::
 

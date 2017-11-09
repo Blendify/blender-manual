@@ -193,10 +193,10 @@ Version/Revision Milestones
    new skin modifier, new compositing nodes backend, and many bugs were fixed.
 `2.65 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.65>`__ -- December 2012:
    Fire and smoke improvements, anisotropic shader for Cycles, modifier improvements,
-   bevel tool now includes rounding, new add-ons, and over 200 bug fixes.
+   the Bevel tool now includes rounding, new add-ons, and over 200 bug fixes.
 `2.66 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.66>`__ -- February 2013:
    Dynamic topology, rigid body simulation, improvements in UI and usability (including retina display
-   support), Cycles now supports hair, the bevel tool now supports individual vertex beveling,
+   support), Cycles now supports hair, the Bevel tool now supports individual vertex beveling,
    new :doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>` modifier and the
    new :doc:`UV Warp </modeling/modifiers/modify/uv_warp>` modifier,
    new SPH particle fluid solver. More than 250 bug fixes.
@@ -220,7 +220,7 @@ Version/Revision Milestones
    to the GE, and over 400 bug fixes.
 `2.72 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.72>`__ -- October 2014:
    Cycles gets volume and SSS support on the GPU, pie menus are added and tooltips greatly improved,
-   the intersection modeling tool is added, new sun beam node for the compositor, Freestyle now works with
+   the Intersection modeling tool is added, new sun beam node for the compositor, Freestyle now works with
    Cycles, texture painting workflow is improved, and more than 220 bug fixes.
 `2.73 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73>`__  -- January 2015:
    Cycles gets improved volumetric support, major upgrade to Grease pencil,

@@ -38,7 +38,7 @@ Proportional editing is typically used in *Edit Mode*, however,
 it can also be used in *Object Mode*. In *Object Mode* the tool works on
 entire objects rather than individual mesh components. In the image below,
 the green cube is the active Object, while the red and blue cubes are located within the
-proportional edit tool's radius of influence. When the green cube is moved to the right,
+Proportional edit tool's radius of influence. When the green cube is moved to the right,
 the other two cubes follow the movement.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_object-mode.jpg
@@ -60,7 +60,7 @@ Edit Mode
 
 When working with dense geometry, it can become difficult to make subtle adjustments to the
 vertices without causing visible lumps and creases in the model's surface. When you face
-situations like this the proportional editing tool can be used to smoothly deform the surface
+situations like this the Proportional editing tool can be used to smoothly deform the surface
 of the model.
 This is done by the tool's automatic modification of unselected vertices within a given range.
 
@@ -169,14 +169,14 @@ Falloff
 Examples
 --------
 
-Switch to a front view :kbd:`Numpad1` and activate the grab tool with :kbd:`G`.
+Switch to a front view :kbd:`Numpad1` and activate the Grab tool with :kbd:`G`.
 As you drag the point upwards, notice how nearby vertices are dragged along with it.
 When you are satisfied with the placement, click :kbd:`LMB` to fix the position.
 If you are not satisfied,
 cancel the operation and revert your mesh to the way it looked before with
 :kbd:`RMB`, :kbd:`Esc`.
 
-You can use the proportional editing tool to produce great effects with the scaling
+You can use the Proportional editing tool to produce great effects with the scaling
 :kbd:`S` and rotation :kbd:`R` tools,
 as Fig. :ref:`fig-view3d-transform-landscape` shows.
 

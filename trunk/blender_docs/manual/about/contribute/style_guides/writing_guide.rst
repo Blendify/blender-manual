@@ -83,7 +83,7 @@ To be avoided:
 - Avoid documenting changes in Blender between releases, that is what the release notes are for.
   We only need to document the current state of Blender.
 - Unless the unit a value is measured in is obscure and unpredictable, there is no need to mention it.
-- Do not simply copy the tool-tips from Blender.
+- Do not simply copy the tooltips from Blender.
   -- People will come to the manual to learn *more* than is provided by the UI.
 
   As a last resort you can add comment (which is not shown in the HTML page, but useful for other editors)::

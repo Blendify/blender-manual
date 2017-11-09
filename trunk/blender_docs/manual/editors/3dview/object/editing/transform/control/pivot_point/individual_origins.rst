@@ -85,7 +85,7 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 
           Scaling with touching faces.
 
-Groups of faces and Fgons can be scaled without their outside perimeter being deformed.
+Groups of faces and F-gons can be scaled without their outside perimeter being deformed.
 However, the individual faces inside will not be scaled uniformly.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_anemone-example.jpg

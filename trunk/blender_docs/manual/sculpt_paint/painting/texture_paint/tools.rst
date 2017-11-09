@@ -63,7 +63,7 @@ Direction
    Soften
       Blur filter. ToDo.
    Sharpen
-      The sharpen tool enhances the contrast of the image as you paint over it.
+      The Sharpen tool enhances the contrast of the image as you paint over it.
 
       Sharp Threshold
          The Threshold will only apply sharpening to only those pixels that

@@ -11,9 +11,9 @@ Mirror
    | Menu:     :menuselection:`Mesh --> Mirror --> Desired Axis`
    | Hotkey:   :kbd:`Ctrl-M`
 
-The mirror tool mirrors a selection across a selected axis.
+The Mirror tool mirrors a selection across a selected axis.
 
-The mirror tool in *Edit Mode* is similar to
+The Mirror tool in *Edit Mode* is similar to
 :doc:`Mirroring in Object Mode </editors/3dview/object/editing/transform/mirror>`.
 It is exactly equivalent to scaling by -1 vertices,
 edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.

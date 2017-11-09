@@ -208,9 +208,9 @@ Shape Object
 
    Shape Cut
       This grooming tool trims hairs to a shape defined by the *Shape Object*.
-      This is a quicker way of avoiding protruding hair sections from lengthening than using the cutting tool.
+      This is a quicker way of avoiding protruding hair sections from lengthening than using the Cutting tool.
       It works especially well for characters with extensive fur,
-      where working in a single plane with the cutting tool becomes tedious.
+      where working in a single plane with the Cutting tool becomes tedious.
 
 .. list-table:: Shape Cut example.
 

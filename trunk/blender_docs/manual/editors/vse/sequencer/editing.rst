@@ -88,7 +88,7 @@ Slip Strip Content
    | Menu:     :menuselection:`Strip --> Slip Strip Content`
    | Hotkey:   :kbd:`S`
 
-The slip tool allows you to change the position of the contents of a strip without moving the strip itself.
+The Slip tool allows you to change the position of the contents of a strip without moving the strip itself.
 
 
 Tools

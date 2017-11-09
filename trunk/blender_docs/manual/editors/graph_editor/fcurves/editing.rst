@@ -145,7 +145,7 @@ it's not being used by any generative f-curve modifiers or drivers.
 
 .. note::
 
-   The modified curve left after the clean tool is run is not the same as the original,
+   The modified curve left after the Clean tool is run is not the same as the original,
    so this tool is better used before doing custom editing of f-curves and after initial keyframe insertion,
    to get rid of any unwanted keyframes inserted while doing mass keyframe insertion
    (by selecting all bones and pressing :kbd:`I` for instance).

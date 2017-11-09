@@ -415,12 +415,12 @@ Weight Gradient
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_gradient.png
    :width: 200px
 
-   Example of the gradient tool being used with selected vertices.
+   Example of the Gradient tool being used with selected vertices.
 
 This is an interactive tool for applying a linear/radial weight gradient;
 this is useful at times when painting gradual changes in weight becomes difficult.
 
-The gradient tool can be accessed from the Tool Shelf or as a key shortcut:
+The Gradient tool can be accessed from the Tool Shelf or as a key shortcut:
 
 - Linear: :kbd:`Alt-LMB` and drag.
 - Radial: :kbd:`Alt-Ctrl-LMB` and drag.

@@ -11,7 +11,7 @@ Knife Tool
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife/Select`
    | Hotkey:   :kbd:`K` or :kbd:`Shift-K`
 
-The knife tool can be used to interactively subdivide (cut up)
+The Knife tool can be used to interactively subdivides (cuts up)
 geometry by drawing lines or closed loops to create holes.
 
 
@@ -79,7 +79,7 @@ Ignore snap :kbd:`Shift`
    Hold to make the tool ignore snapping,
    unlike the default where mouse cursor snaps to near edges.
 Cut through: :kbd:`Z`
-   Allow the cut tool to cut through to obscured faces, instead of only the visible ones.
+   Allow the Cut tool to cut through to obscured faces, instead of only the visible ones.
 Angle constrain :kbd:`C`
    Constrains the cut to 45 degree increments.
 Close loop: Double click :kbd:`LMB`

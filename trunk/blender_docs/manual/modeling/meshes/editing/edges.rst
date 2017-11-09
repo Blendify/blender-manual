@@ -338,7 +338,7 @@ Simple example showing two closed edge loops.
 
           Bridge Result.
 
-Example of bridge tool between edge loops with different numbers of vertices.
+Example of the Bridge tool between edge loops with different numbers of vertices.
 
 .. list-table::
 
@@ -352,7 +352,7 @@ Example of bridge tool between edge loops with different numbers of vertices.
 
           Bridge Result.
 
-Example using the bridge tool to punch holes in face selections and connect them.
+Example using the Bridge tool to punch holes in face selections and connect them.
 
 .. list-table::
 
@@ -366,7 +366,7 @@ Example using the bridge tool to punch holes in face selections and connect them
 
           Bridge Result.
 
-Example showing how bridge tool can detect multiple loops and loft them in one step.
+Example showing how Bridge tool can detect multiple loops and loft them in one step.
 
 .. list-table::
 

@@ -30,7 +30,7 @@ Options
    Denoising panel.
 
 Radius
-   Size of the image area that's used to denoise a pixel.
+   Size of the image area that is used to denoise a pixel.
    Higher values are smoother, but might lose detail and are slower.
 Strength
    Controls how different the area around a neighbor pixel can look compared
