@@ -4,6 +4,11 @@
 Strip Input Panel
 *****************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Strip --> Strip Input`
+
 .. figure:: /images/editors_vse_sequencer_properties_input_panel.png
    :align: right
 
@@ -17,7 +22,7 @@ Path
    When you moved the files, it avoids having to delete and re-create the strip.
 File
    Same than before, but in case you renamed the source file, you can retreive it (or change it).
-Input Color Space
+Color Space
    To specify the color space of the source file.
 Alpha mode
    If the source file has an Alpha (transparency) channel, you can choose:

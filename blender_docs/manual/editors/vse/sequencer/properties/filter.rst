@@ -24,7 +24,7 @@ Strobe
    *Strobe* is a float value -- this way you can get a strobe effect synced exactly to a beat,
    for example, by using non-integer values.
 
-Backwards
+Reverse
    Plays the strip in reverse (time).
 Deinterlace
    Removes fields in a video file.
@@ -44,5 +44,5 @@ Saturation
 Multiply
    Multiplies the colors by this value. This will increases the brightness.
 
-Convert Float
+Convert to Float
    Converts input to float data.

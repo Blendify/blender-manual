@@ -9,6 +9,11 @@
 Modifiers Panel
 ***************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Modifiers --> Modifiers`
+
 .. figure:: /images/editors_vse_sequencer_properties_modifiers_panel.png
    :align: right
 
