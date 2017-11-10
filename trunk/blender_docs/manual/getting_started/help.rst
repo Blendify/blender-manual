@@ -27,6 +27,10 @@ Shortcut
    A keyboard or mouse shortcut associated to the tool.
 Value
    The value of the property.
+Library
+   Source file of the active object. See also :doc:`/data_system/linked_libraries`.
+Disabled (red)
+   The reason why the value is not editable.
 Python
    For :ref:`scripting <scripting-index>` -- A Python command associated to
    the control (usually an operator or property).
