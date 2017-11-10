@@ -8,7 +8,7 @@ As well as images and movies the VSE can also edit audio tracks.
 You can add Waveform Audio format ``WAV``, ``mp3`` and other audio formats files from your drive,
 or from sound encoded within a movie, and mix them using an F-Curve as a volume control.
 
-.. figure:: /images/editors_vse_sequencer_strips_audio_editing.png
+.. figure:: /images/editors_vse_sequencer_strips_sound_editing.png
 
    Example of Sound Editing.
 
@@ -25,7 +25,7 @@ Caching
 
 Draw Waveform
    Draws either the waveform or the strip name, file name, duration.
-   This can be useful for syncing two or more audio strips.
+   This can be useful for syncing two or more sound strips.
 Volume
    Changes the loudness of the audio.
 Pitch
@@ -39,12 +39,12 @@ Trim Duration
 Working with Audio Tracks
 =========================
 
-An audio track (strip) is just like any other strip in the VSE. You can grab and move it,
+A sound strip is just like any other strip in the VSE. You can grab and move it,
 adjust its starting offset using :kbd:`RMB` over the arrow end handles,
 and :kbd:`K` cut it into pieces.
 A useful example is cutting out the "um's" and dead voice time.
 
-You can have as many Audio strips as you wish and the result will be the mixing of all of
+You can have as many sound strips as you wish and the result will be the mixing of all of
 them. You can give each strip its own name and volume via the properties region.
 
 Overlapping strips are automatically mixed down during the rendering process. For example,
@@ -60,9 +60,9 @@ and Foley sound effects on channel 7.
 Animating Audio Track Properties
 ================================
 
-To animate audio strips simply hit :kbd:`I` over any of its values.
+To animate sound strips simply hit :kbd:`I` over any of its values.
 Examples of animating an audio strip are to fade in/out background music or to adjust volume levels.
-Layered/crossed audio strips are added together;
+Layered/crossed sound strips are added together;
 the lower channel does not override and cut out higher channels (unlike image and video strips).
 This makes Blender an audio mixer.
 By adding audio tracks and using the curves to adjust each tracks' sound level,
@@ -93,4 +93,4 @@ In some cases when *Caching* is disabled, playback noise/hiss is introduced.
 If you hear pops and crackles, usually that is a sign that your hardware cannot keep up in real-time playback.
 They will not be present in your final rendered animation output.
 
-Also, static hiss can occur whenever two or more audio strips are overlapping in the timeline.
+Also, static hiss can occur whenever two or more sound strips are overlapping in the timeline.

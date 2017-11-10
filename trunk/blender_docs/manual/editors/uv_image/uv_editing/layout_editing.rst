@@ -23,10 +23,24 @@ and then tweak the layout.
 Transforms
 ==========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View Mode and Mask Mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform`
+   | Menu:     :menuselection:`UVs --> Transform`
+
 - Translate :kbd:`G`
 - Rotate :kbd:`R`
 - Scale :kbd:`S`
 - Shear :kbd:`Shift-Ctrl-Alt-S`
+
+
+Axis Locking
+------------
+
+Transformations can be locked to an axis by pressing :kbd:`X` or :kbd:`Y` after one of the transform tools.
+Also, holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 
 
 .. _bpy.types.SpaceUVEditor.use_live_unwrap:
@@ -35,6 +49,13 @@ Transforms
 
 UV Options
 ==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View Mode and Mask Mode
+   | Panel:    :menuselection:`Tool Shelf --> Options --> UV Options`
+   | Menu:     :menuselection:`UVs`
 
 Live Unwrap
    Continuously unwraps the selected UV islands while transforming pinned vertices.
@@ -53,9 +74,9 @@ Pin and Unpin
    :class: refbox
 
    | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Pin/Unpin`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Unwrap: Pin/Unpin`
    | Menu:     :menuselection:`UVs --> Pin/Unpin`
-   | Hotkey:   :kbd:`P` / :kbd:`Alt-P`
+   | Hotkey:   :kbd:`P`, :kbd:`Alt-P`
 
 You can pin UVs so they do not move between multiple unwrap operations.
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
@@ -77,6 +98,13 @@ This helps with fitting a UV island to a certain shape or region.
 
 Seams
 =====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools: --> Unwrap: Mark/Clear Seam`
+   | Menu:     :menuselection:`UVs --> Mark/Clear Seam`
 
 Mark Seam
    ToDo.
@@ -157,17 +185,17 @@ You set the tool to limit stitching by distance in the Operator panel,
 by activating *Use Limit* and adjusting the *Limit Distance*
 
 
-Copy Mirrored UV coords
-=======================
+Copy Mirrored UV Coordinates
+============================
 
-..
+.. admonition:: Reference
+   :class: refbox
 
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Copy Mirrored UV Coordinates`
+   | Menu:     :menuselection:`UVs --> Copy Mirrored UV Coordinates`
 
-Axis Locking
-------------
-
-Transformations can be locked to an axis by pressing :kbd:`X` or :kbd:`Y` after one of the transform tools.
-Also, holding the :kbd:`MMB` will constrain movement to the X or Y axis.
+ToDo.
 
 
 Mirror
@@ -190,8 +218,15 @@ You can also use the hotkey :kbd:`Ctrl-M`, then enter :kbd:`X` or :kbd:`Y`,
 or hold the :kbd:`MMB` and drag in the mirror direction.
 
 
-Snapping
-========
+Snap
+====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Snap`
+   | Hotkey:   :kbd:`Shift-S`
 
 Snapping in the UV/image editor is similar to
 :doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/snap>`.
@@ -224,6 +259,7 @@ Weld
    | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Weld`
    | Menu:     :menuselection:`UVs --> Weld/Align --> Weld`,
                :menuselection:`Specials --> Weld`
+   | Hotkey:   :kbd:`W`
 
 The *Weld* tool will move selected UVs to their average position.
 
@@ -246,16 +282,17 @@ The *Remove Doubles UV* tool will merge selected UVs within the specified *Margi
 
 .. _bpy.ops.uv.align:
 
-Align
-=====
+Straighten/Align
+================
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Straighten/Align`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Align --> Straighten/Align`
    | Menu:     :menuselection:`UVs --> Weld/Align --> Straighten/Align`,
                :menuselection:`Specials --> Straighten/Align`
+   | Hotkey:   :kbd:`W`
 
 Straighten
    Auto, X, Y
@@ -268,6 +305,14 @@ Align
 Proportional Editing
 ====================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Header:   :menuselection:`Proportional Editing`
+   | Menu:     :menuselection:`UVs --> Proportional Editing`
+   | Hotkey:   :kbd:`O`
+
 Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
 See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
 for full reference.
@@ -275,6 +320,12 @@ for full reference.
 
 Show/Hide Faces
 ===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Show/Hide Faces`
 
 - Reveal Hidden :kbd:`Alt-H`
 - Hide Select :kbd:`H`
@@ -285,6 +336,12 @@ Show/Hide Faces
 
 Export UV Layout
 ================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Menu:     :menuselection:`UVs --> Export UV Layout`
 
 Using your favorite image painting program, you could use an exported UV layout to create a texture.
 Then save your changes, and back in Blender, use the :menuselection:`Image --> Open`
@@ -343,6 +400,12 @@ Header
 Pivot Point
 -----------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Header:   :menuselection:`Pivot Point`
+
 The UV/Image editor has a 2D cursor. Its position can be changed by :kbd:`LMB`
 clicking in the UV/Image editor. You can also manually adjust its position in the Properties region.
 The range by default is from 0 to 256 starting from the lower left corner.
@@ -361,10 +424,16 @@ The Pivot Point can be changed to:
 Face Mirror and Rotate UVs
 --------------------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit mode
+   | Menu:     :menuselection:`Mesh --> Face --> Rotate UVs/Reverse UVs`
+
 The orientation of the UV Texture is defined by each face.
 If the image is, for example, upside down or laying on its side,
 use the :menuselection:`Face --> Rotate UVs` (in the 3D View in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
 
-The :menuselection:`Face --> Mirror UVs` tool mirrors the UVs per face,
+The :menuselection:`Face --> Reverse UVs` tool mirrors the UVs per face,
 which flips the image over, showing you the image reversed.

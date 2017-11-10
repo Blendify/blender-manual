@@ -28,7 +28,6 @@ Vertical tabs can be switched with the :kbd:`Wheel` within the tab header and
 
 You can also cycling through tabs with :kbd:`Ctrl-Tab` and :kbd:`Ctrl-Shift-Tab`.
 
-
 .. container:: lead
 
    .. clear

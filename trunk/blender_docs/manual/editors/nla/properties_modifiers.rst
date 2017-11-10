@@ -12,6 +12,11 @@ Strip properties can be accessed via the NLA Properties region.
 Animation Data
 --------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Animations --> Animation Data`
+
 .. figure:: /images/editors_nla_properties-modifiers_animation-data-panel.png
 
    Animation Data panel
@@ -19,7 +24,7 @@ Animation Data
 Context
    ToDo.
 Action
-   :ref:`Data-Block <ui-data-block>` allows you to edit actions shown in the action track.
+   A :ref:`Data-Block <ui-data-block>` menu that allows you to edit actions shown in the action track.
    See also the Action Editor's :ref:`Action <dopesheet-action-action>`.
 Action Extrapolation
    Action to take for gaps past the strip extents.
@@ -45,6 +50,11 @@ Action Influence
 
 Active Track
 ------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Animations --> Active Track`
 
 Name
    Name of the track which the strip currently belongs to.
@@ -86,6 +96,11 @@ Reversed
 Action Clip
 -----------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Animations --> Active Clip`
+
 .. figure:: /images/editors_nla_properties-modifiers_action-clip-panel.png
 
    Action Clip panel
@@ -115,6 +130,11 @@ Playback Settings
 Evaluation
 ----------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Animations --> Evaluation`
+
 .. figure:: /images/editors_nla_properties-modifiers_evaluation-panel.png
 
    Evaluation panel
@@ -135,6 +155,11 @@ Cyclic Strip Time
 
 Modifiers
 =========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Modifiers --> Modifiers`
 
 Like its close cousins in mesh and graph editing,
 Modifiers can stack different combinations of effects for strips.

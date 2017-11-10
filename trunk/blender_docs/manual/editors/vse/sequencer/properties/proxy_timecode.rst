@@ -3,6 +3,11 @@
 Proxy/Timecode Panel
 ********************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Strip --> Proxy/Timecode`
+
 Once you have chosen the Proxy/Timecode parameters,
 you need to use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`
 to generate the proxy clip and it will be available after Blender makes it.
@@ -25,7 +30,7 @@ faster but gives a low-res result. Disable proxies before final rendering.
 In order to actually use the proxies, the proper Proxy Render Size selector value must
 be selected in the Properties region of the Sequencer View (where the edit plays back).
 
-Proxy Storage
+Storage
    Defines whether the proxies are for individual strips or the entire sequence.
 
    Per Strip
@@ -43,7 +48,7 @@ Proxy Storage
       Proxy Directory
          The location to store the proxies for the project.
 
-Proxy Size
+Size
    Buttons to control how big the proxies are.
    The available options are 25%, 50%, 75%, 100 percent of original strip size.
 Overwrite

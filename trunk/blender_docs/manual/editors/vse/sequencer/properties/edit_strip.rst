@@ -3,6 +3,11 @@
 Edit Strip Panel
 ****************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties region --> Strip --> Edit Strip`
+
 The *Edit Strip* panel is used to control placement and properties of strips.
 
 Name
@@ -18,7 +23,7 @@ Blend Mode
 Opacity
    Set the opacity (alpha) of the strip.
 
-   Mute (eye icon)
+   Mute (eye/speaker icon)
       Hides the strip so that it does not participate in the final image computation.
 
 Channel
