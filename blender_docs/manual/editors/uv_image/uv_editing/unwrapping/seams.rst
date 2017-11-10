@@ -43,6 +43,22 @@ The workflow is the following:
 Marking Seams
 =============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Editor:    3DView
+   | Mode:     Edit mode
+   | Panel:    :menuselection:`Tool Shelf --> Shading/UV --> UVs --> UV Mapping: Mark/Clear Seam`
+   | Menu:     :menuselection:`Mesh --> Edges --> Mark/Clear Seam`
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Editor:    UV/Image
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
+   | Menu:     :menuselection:`UVs --> Mark/Clear Seam`
+
 .. figure:: /images/editors_uv-image_uv-editing_unwrapping_seams_suzanne.png
    :width: 250px
 
@@ -92,5 +108,12 @@ the right side of the face will match the left, etc.
 
 Mark Seams from Island
 ----------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     View mode
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools: --> Unwrap: Mark Seams from Island`
+   | Menu:     :menuselection:`UVs --> Mark Seams from Island`
 
 ToDo.

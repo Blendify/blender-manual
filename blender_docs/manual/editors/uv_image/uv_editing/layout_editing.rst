@@ -74,7 +74,7 @@ Pin and Unpin
    :class: refbox
 
    | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Unwrap: Pin/Unpin`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Pin/Unpin`
    | Menu:     :menuselection:`UVs --> Pin/Unpin`
    | Hotkey:   :kbd:`P`, :kbd:`Alt-P`
 
@@ -103,15 +103,10 @@ Seams
    :class: refbox
 
    | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools: --> Unwrap: Mark/Clear Seam`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
    | Menu:     :menuselection:`UVs --> Mark/Clear Seam`
 
-Mark Seam
-   ToDo.
-Clear Seam
-   ToDo.
-Seams From Island
-   ToDo.
+See :doc:`/editors/uv_image/uv_editing/unwrapping/seams`.
 
 
 .. _bpy.ops.uv.pack_islands:
@@ -315,7 +310,7 @@ Proportional Editing
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
 See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
-for full reference.
+for a full reference.
 
 
 Show/Hide Faces
@@ -427,6 +422,7 @@ Face Mirror and Rotate UVs
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:    3D View
    | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Face --> Rotate UVs/Reverse UVs`
 
