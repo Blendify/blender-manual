@@ -6,6 +6,10 @@ Tabs & Panels
 Tabs
 ====
 
+.. figure:: /images/game-engine_physics_introduction_tab-header.png
+
+   Horizontal tab header.
+
 .. figure:: /images/interface_window-system_tabs-panels_tabs.png
    :align: right
 
@@ -15,12 +19,15 @@ Tabs are overlapping sections in the user-interface.
 The Tabs header can be vertical (Tool Shelf) or
 horizontal (Properties Editor, User Preferences).
 
+
+Switching/Cycling
+-----------------
+
 Vertical tabs can be switched with the :kbd:`Wheel` within the tab header and
 :kbd:`Ctrl-Wheel` changes tabs from anywhere in the region.
 
-.. figure:: /images/game-engine_physics_introduction_tab-header.png
+You can also cycling through tabs with :kbd:`Ctrl-Tab` and :kbd:`Ctrl-Shift-Tab`.
 
-   Horizontal tab header.
 
 .. container:: lead
 

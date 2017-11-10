@@ -39,8 +39,10 @@ While hovering (when the cursor is held over a button).
 Properties
 ----------
 
-- :kbd:`Ctrl-C` -- Copy the value of the button.
-- :kbd:`Ctrl-V` -- Paste the value of the button.
+- :kbd:`Ctrl-C` -- Copy the (single) value of the button.
+- :kbd:`Ctrl-V` -- Paste the (single) value of the button.
+- :kbd:`Ctrl-Alt-C` -- Copy the entire vector or color of the button.
+- :kbd:`Ctrl-Alt-V` -- Paste the entire vector or color of the button.
 - :kbd:`RMB` -- Open the context menu.
 - :kbd:`Backspace` -- Clear the value (sets to zero or clears a text field).
 - :kbd:`Minus` -- Negate number values (multiply by -1.0).
