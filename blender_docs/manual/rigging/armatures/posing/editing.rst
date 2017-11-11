@@ -129,6 +129,11 @@ In-Betweens
 
 There are several tools for editing poses in an animation.
 
+There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
+like :ref:`auto-bones naming <armature-editing-naming-bones>`,
+:ref:`properties switching/enabling/disabling <armature-bone-properties>`, etc.,
+that we already described in the armature editing pages. See the links above...
+
 
 Push Pose
 ---------
@@ -174,10 +179,13 @@ Breakdowner
 
 Creates a suitable breakdown pose on the current frame.
 
-There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
-like :ref:`auto-bones naming <armature-editing-naming-bones>`,
-:ref:`properties switching/enabling/disabling <armature-bone-properties>`, etc.,
-that we already described in the armature editing pages. See the links above...
+The Breakdowner tool can be constrained to work on specific transforms and axes,
+by pressing the following keys while the tool is active:
+
+- :kbd:`G`,  :kbd:`R`, :kbd:`S`:  translate, rotate, scale
+- :kbd:`B`: Bendy bones
+- :kbd:`C`: custom properties 
+- :kbd:`X`, :kbd:`Y`, :kbd:`Z`: to the corresponding axes
 
 
 Copy/Paste Pose

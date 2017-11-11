@@ -157,7 +157,7 @@ Reproject Strokes
       This can be useful to fix problem from accidental 3D cursor movement, or viewport changes.
    Surface
       Project strokes onto geometry, instead of only doing this in a planar (i.e. parallel to viewplane) way
-		(experimental).
+      (experimental).
 
 
 Interpolate Panel

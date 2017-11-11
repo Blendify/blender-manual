@@ -55,7 +55,7 @@ Insert Blank Frame :kbd:`D-B`
    This operator adds a new frame with nothing in it on the current frame.
    If there is already a frame there, all existing frames are shifted one frame later.
 Delete Frame(s) :kbd:`D-X`
-	Remove all active frames if they are not locked.
+   Remove all active frames if they are not locked.
 
 
 .. _bpy.types.ToolSettings.use_gpencil_additive_drawing:
