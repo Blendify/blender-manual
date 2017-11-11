@@ -48,7 +48,7 @@ and another that has three maps.
 
 
 When using file textures, it is very important that you have
-:doc:`Mapped the UVs </editors/uv_image/uv_editing/unwrapping/index>`
+:doc:`Mapped the UVs </editors/uv_image/uv/editing/unwrapping/index>`
 of the mesh, and they are laid out appropriately.
 
 You do not have to UV map the *entire* mesh.

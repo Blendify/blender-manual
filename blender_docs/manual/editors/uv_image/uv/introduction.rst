@@ -6,17 +6,17 @@ Introduction
 Header
 ======
 
-.. figure:: /images/editors_uv-image_uv-editing_introduction_texturing-header.png
+.. figure:: /images/editors_uv-image_uv_introduction_texturing-header.png
 
    UV/Image Editor Header.
 
 The header contains several menus and options for working with UVs.
 
 Select
-   Tools for :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
+   Tools for :doc:`Selecting UVs </editors/uv_image/uv/selecting>`.
 UVs
-   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv_editing/overview>`
-   and :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
+   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv/overview>`
+   and :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`.
 
 Pivot Point Selector
    Similar to working with Pivot Points in the 3D View.
@@ -45,10 +45,10 @@ Properties Region
 UV Vertex Panel
 ---------------
 
-.. figure:: /images/editors_uv-image_uv-editing_introduction_uv-vertex.png
+.. figure:: /images/editors_uv-image_uv_introduction_uv-vertex.png
    :align: right
 
    UV Vertex Panel.
 
 UV Vertex
-   Transform Properties :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
+   Transform Properties :doc:`Selecting UVs </editors/uv_image/uv/editing/layout>`.

@@ -11,9 +11,9 @@ but you may need to do additional mapping or editing. In this fashion,
 you can use the UV Texture image to guide additional geometry changes.
 
 This section covers techniques for Mapping Uvs.
-The next sections cover :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`,
-followed by methods of :doc:`Managing UV Layouts </editors/uv_image/uv_editing/layout_management>`,
-and :doc:`Applying Images to UVs </editors/uv_image/uv_editing/applying_image>`.
+The next sections cover :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`,
+followed by methods of :doc:`Managing UV Layouts </editors/uv_image/uv/layout_management>`,
+and :doc:`Applying Images to UVs </editors/uv_image/uv/editing/applying_image>`.
 
 
 About UVs
@@ -45,13 +45,13 @@ These are described more fully in the next sections.
 Getting Started
 ===============
 
-.. figure:: /images/editors_uv-image_uv-editing_unwrapping_introduction_screenlayout.jpg
+.. figure:: /images/editors_uv-image_uv_editing_unwrapping_introduction_screenlayout.jpg
    :width: 320px
 
    UV Editing screen layout.
 
 By default, meshes are not created with UVs. First you must map the faces, then
-you can :doc:`edit them </editors/uv_image/uv_editing/layout_editing>`.
+you can :doc:`edit them </editors/uv_image/uv/editing/layout>`.
 The process of unwrapping your model is done within Edit Mode in the 3D View editor.
 This process creates one or more UV Islands in the :ref:`UV/Image Editor <editors-uv-image-index>`.
 
@@ -78,6 +78,6 @@ The process is:
 #. Select a UV mapping method from the UV Unwrap menu.
 #. Adjust the unwrap settings.
 #. Add a test image to see if there will be any distortion.
-   See :doc:`Applying Images to UVs </editors/uv_image/uv_editing/applying_image>`.
+   See :doc:`Applying Images to UVs </editors/uv_image/uv/editing/applying_image>`.
 #. Adjust UVs in the UV/Image editor.
-   See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
+   See :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`.
