@@ -12,4 +12,3 @@
    image/index.rst
    uv/index.rst
    display_panel.rst
-   painting.rst
