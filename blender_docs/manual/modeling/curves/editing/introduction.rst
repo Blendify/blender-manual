@@ -217,7 +217,7 @@ Toggle Cyclic
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Delete`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Toggle Cyclic`
    | Menu:     :menuselection:`Curve --> Toggle Cyclic`
    | Hotkey:   :kbd:`Alt-C`
 

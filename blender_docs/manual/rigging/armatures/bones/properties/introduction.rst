@@ -7,7 +7,7 @@ Introduction
    :class: refbox
 
    | Mode:     Object Mode, Edit Mode and Pose Mode
-   | Panel:    All in Properties editor, *Bone* property
+   | Panel:    :menuselection:`Properties editor --> Bone`
 
 When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
 properties are shown in the *Bone* tab of the Properties editor.
@@ -70,7 +70,8 @@ Inverse Kinematics
 
    The Inverse Kinematics panel.
 
-This panel controls the way a bone or set of bones behave when linked in an inverse kinematic chain.
+This panel controls the way a bone or set of bones behave when linked in an 
+:doc:`inverse kinematic </rigging/armatures/posing/bone_constraints/inverse_kinematics/introduction>` chain.
 
 .. note::
 

@@ -10,7 +10,7 @@ Shape
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit Mode
+   | Mode:     All Modes
    | Panel:    :menuselection:`Properties editor --> Text --> Shape`
 
 .. figure:: /images/modeling_texts_properties_shape-settings.jpg
@@ -53,6 +53,12 @@ Fast Editing
 Texture Space
 =============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties editor --> Font --> Texture Space`
+
 .. figure:: /images/modeling_texts_properties_texture-settings.jpg
 
    Texture Settings.
@@ -67,6 +73,12 @@ TODO.
 
 Geometry
 ========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties editor --> Font --> Geometry`
 
 Modification
    Offset
@@ -98,8 +110,8 @@ Font
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    Font
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties editor --> Font --> Font`
 
 The *Font* panel has several options for changing the look of characters.
 
@@ -256,12 +268,18 @@ setting. Note that the *Small Caps Scale* is applied the same to all *Small Caps
 Paragraph
 =========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties editor --> Font --> Paragraph`
+
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
 .. figure:: /images/modeling_texts_properties_paragraph-settings.png
    :width: 300px
 
-   The Paragraph tab.
+   The Paragraph panel.
 
 
 Horizontal Alignment
@@ -334,8 +352,8 @@ Text Boxes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit Modes
-   | Panel:    Font
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties editor --> Font --> Text Boxes`
 
 .. figure:: /images/modeling_texts_properties_frame-upperpanel-area.png
 

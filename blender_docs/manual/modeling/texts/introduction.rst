@@ -7,7 +7,7 @@ Introduction
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Curve and Surface, Font and Char
+   | Panel:    :menuselection:`Tool shelf --> Create -->Add Primitive --> Other: Text`
    | Menu:     :menuselection:`Add --> Text`
 
 .. _fig-texts-intro-example:

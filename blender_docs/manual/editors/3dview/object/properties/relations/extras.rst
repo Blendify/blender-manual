@@ -23,12 +23,12 @@ Show Parent
 
    .. warning::
 
-      This may be unsafe for renderfarms as it may be invalid after jumping around the time line.
+      This may be unsafe for renderfarms as it may be invalid after jumping around the timeline.
 
    Offset
       Delay in the parent offset.
 
 Extra Object Update
-   Refresh the object agian on frame changes.
+   Refresh the object again on frame changes.
 Extra Data Update
    Refresh the object's data again on frame changes.
