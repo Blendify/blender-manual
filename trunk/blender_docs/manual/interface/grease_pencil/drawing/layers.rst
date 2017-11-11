@@ -136,8 +136,13 @@ Onion-skinning, also known as ghosting, helps an animator by displaying the neig
 
 Onion Skinning
    Checkbox to enable onion skinning.
-Always Use (camera icon)
-   If enabled ghosts are displayed when scrubbing the view and/or playing back animation.
+Always Show (camera icon)
+   If enabled ghosts are displayed when scrubbing the view, playing back animation and/or in the OpenGL renders.
+   There are two use cases where this is quite handy:
+
+   - For creating a cheap motion-blur effect, especially when the before/after values are also animated.
+   - If you've animated a shot with onion skinning enabled, the poses may end up looking odd
+     if the ghosts are not shown (as you may have been accounting for the ghosts when making the compositions).
 Use Custom Colors (palette icon)
    Toggles to use the *Before* and *After* controls to change the color of the ghosted frames.
 

@@ -134,15 +134,9 @@ Arrange Strokes
    Bring Froward, Send Backward, Bring to Front, Send to Back
 Move to Color
    Sets the active color as the new color to all selected strokes.
-Interpolate
-   Interpolate `Ctrl-Alt-E`
-      Interpolates Grease pencil strokes between frames.
-   Sequence `Shift-Ctrl-E`
-      Interpolates full Grease pencil strokes sequence between frames.
-   Interpolate All Layers
-      Checkbox to interpolate all layers, not only active.
-   Interpolate Selected Strokes
-      Checkbox to interpolate only the selected strokes in the original frame.
+
+Subdivide
+   ToDo.
 Join Strokes
    Type
       Join `Ctrl-J`
@@ -158,8 +152,60 @@ Show Directions
    and a smaller red dot for the end point.
 
 Reproject Strokes
-   Reprojects the selected strokes from the current viewpoint to get all points on the same plane again.
-   This can be useful to fix problem from accidental 3D cursor movement, or viewport changes.
+   Plane
+      Reprojects the selected strokes from the current viewpoint to get all points on the same plane again.
+      This can be useful to fix problem from accidental 3D cursor movement, or viewport changes.
+   Surface
+      Project strokes onto geometry, instead of only doing this in a planar (i.e. parallel to viewplane) way
+		(experimental).
+
+
+Interpolate Panel
+-----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Stroke Mode
+   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Interpolate`
+   | Menu:     :menuselection:`GPencil --> Interpolate`
+
+The following two operators can be used for interpolating between a pair of Grease Pencil frames.
+To use these operators, there need to be Grease Pencil frames on both sides of the current frame.
+(Also, note that the current frame cannot be on one of the frames that the interpolation is occurring between).
+
+Interpolate :kbd:`Ctrl-Alt-E`
+   It allows you to interactively pick a new sketch interpolate from the neighbouring sketches.
+   This is equivalent to the *Breakdown* tool for armatures. 
+Sequence :kbd:`Ctrl-Shift-E`
+   This fills the space between a pair of Grease Pencil frames with interpolated frames.
+   It is equivalent to the *Sample* tool in the Dope Sheet Editor.
+Remove Breakdowns
+   Can be used to delete generated "breakdown" keyframes (i.e. the small blue points).
+
+
+Options
+^^^^^^^
+
+Interpolate All Layers
+   Checkbox to interpolate all layers, not only active.
+Interpolate Selected Strokes
+   Checkbox to interpolate only the selected strokes in the original frame.
+
+
+Sequence Options
+^^^^^^^^^^^^^^^^
+
+It is possible to control how the *Interpolate Sequence* tool blends between the two frames.
+
+Linear
+   The tool will interpolate between the two frames at a constant rate.
+Custom Curve
+   It is also possible to define a custom curve to get more fine-grained control over the interpolation
+   using a :ref:`curve widget <ui-curve-widget>`.
+Easing Equations
+   The Robert Penner easing equations (and associated controls) can also be used to control the interpolation speed/shape.
+   just like for F-Curves or Keyframes (:ref:`see also for more information <editors-graph-fcurves-settings-interpolation>`).
 
 
 .. _bpy.types.GPencilSculptSettings:
