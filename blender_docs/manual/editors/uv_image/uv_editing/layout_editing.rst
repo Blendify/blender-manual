@@ -422,7 +422,7 @@ Face Mirror and Rotate UVs
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:    3D View
+   | Editor:   3D View
    | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Face --> Rotate UVs/Reverse UVs`
 
