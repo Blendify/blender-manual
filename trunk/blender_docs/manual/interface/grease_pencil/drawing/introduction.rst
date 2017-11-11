@@ -57,6 +57,7 @@ Insert Blank Frame :kbd:`D-B`
 Delete Frame(s) :kbd:`D-X`
 	Remove all active frames if they are not locked.
 
+
 .. _bpy.types.ToolSettings.use_gpencil_additive_drawing:
 
 Additive Drawing

@@ -17,6 +17,7 @@ Translation, Rotation, Scale
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Transform`
    | Menu:     :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
@@ -41,6 +42,7 @@ Advanced Transform Tools
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface Tools --> Deform: Randomize`
    | Menu:     :menuselection:`Surface --> Transform`
 
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
@@ -51,17 +53,11 @@ Surfaces have no specific transform tools.
 NURBS Control Points Settings
 =============================
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Panel:     Curve Tools (Edit Mode) and Transform
-
 We saw in a :ref:`previous page <modeling-surfaces-weight>` that NURBS control points have a weight,
 which is the influence of this point on the surface.
 You set it either using the big *Set Weight* button in the *Curve Tools* panel
 (after having defined the weight in the number button to the right),
-or by directly typing a value in the *W* number button of the *Transform* panel.
+or by directly typing a value in the :kbd:`W` number button of the *Transform* panel.
 
 
 Adding or Extruding
@@ -71,6 +67,7 @@ Adding or Extruding
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Extrude`
    | Menu:     :menuselection:`Surface --> Extrude`
    | Hotkey:   :kbd:`E`, :kbd:`Ctrl-LMB`
 
@@ -149,6 +146,7 @@ Opening or Closing a Surface
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Toggle Cyclic`
    | Menu:     :menuselection:`Surface --> Toggle Cyclic`
    | Hotkey:   :kbd:`Alt-C`
 
@@ -175,7 +173,8 @@ Duplication
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Duplicate`
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Duplicate`
+   | Menu:     :menuselection:`Surface --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
 Similar as with meshes and curves, this tool duplicates the selection.
@@ -205,7 +204,8 @@ Deleting Elements
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Delete...`
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Delete`
+   | Menu:     :menuselection:`Surface --> Delete...`
    | Hotkey:   :kbd:`X`, :kbd:`Delete`
 
 The *Erase* pop-up menu of surfaces offers you two options:
@@ -308,8 +308,8 @@ Subdivision
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Curve Tools
-   | Menu:     :menuselection:`Surface tools --> Modeling --> Subdivide`, :menuselection:`Specials --> Subdivide`
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Subdivide`
+   | Menu:     :menuselection:`Surface --> Segments --> Subdivide`, :menuselection:`Specials --> Subdivide`
 
 Surface subdivision is most simple:
 using either the *Subdivide* entry in the *Specials* menu
@@ -328,7 +328,8 @@ Spin
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Curve Tools
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Spin`
+   | Menu:     :menuselection:`Surface --> Spin`
 
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
 but with less control and options (in fact, there is none!).
@@ -347,6 +348,7 @@ Switch Direction
    :class: refbox
 
    | Mode:     Edit Mode
+   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Switch Direction`
    | Menu:     :menuselection:`Surface --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
 

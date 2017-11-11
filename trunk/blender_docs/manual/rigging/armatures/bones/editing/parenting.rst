@@ -8,8 +8,8 @@ Parenting
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Armature
-   | Menu:     :menuselection:`Armature --> Parent --> ...`
+   | Panel:    :menuselection:`Properties editor --> Bones --> Relations`
+   | Menu:     :menuselection:`Armature --> Parent`
    | Hotkey:   :kbd:`Ctrl-P`, :kbd:`Alt-P`
 
 You can edit the relationships between bones (and hence create/modify the chains of bones)
@@ -19,28 +19,28 @@ and if so, if it should be connected to it.
 
 To parent and/or connect bones, you can:
 
-- In a 3D View, select the bone and *then* its future parent, and press :kbd:`Ctrl-P`
-  (or :menuselection:`Armature --> Parent --> Make Parent...`).
-  In the small *Make Parent* menu that pops up, choose *Connected*
-  if you want the child to be connected to its parent, else click on *Keep Offset*.
-  If you have selected more than two bones, they will all be parented to the last selected one.
-  If you only select one already-parented bone, or all selected bones are already parented to the last selected one,
-  your only choice is to connect them, if not already done.
-  If you select only one non-parented bone, you will get the *Need selected bone(s)* error message...
+In a *3D View*, select the bone and *then* its future parent, and press :kbd:`Ctrl-P`
+(or :menuselection:`Armature --> Parent --> Make Parent...`).
+In the small *Make Parent* menu that pops up, choose *Connected*
+if you want the child to be connected to its parent, else click on *Keep Offset*.
+If you have selected more than two bones, they will all be parented to the last selected one.
+If you only select one already-parented bone, or all selected bones are already parented to the last selected one,
+your only choice is to connect them, if not already done.
+If you select only one non-parented bone, you will get the *Need selected bone(s)* error message...
 
-  .. note::
+.. note::
 
-      With this method, the newly-children bones will not be scaled nor rotated --
-      they will just be translated if you choose to connect them to their parent's tip.
+   With this method, the newly-children bones will not be scaled nor rotated --
+   they will just be translated if you choose to connect them to their parent's tip.
 
-- In the Properties editor, *Bones* tab, for each selected bone,
-  you can select its parent in the *Parent* data-ID to the upper right corner of its Relations panel.
-  If you want them to be connected, just enable the checkbox to the right of the list.
+In the *Properties editor*, Bones tab, for each selected bone,
+you can select its parent in the *Parent* data-ID to the upper right corner of its Relations panel.
+If you want them to be connected, just enable the checkbox to the right of the list.
 
-  .. note::
+.. note::
 
-      With this method, the tip of the child bone will never be translated --
-      so if *Connected* is enabled, the child bone will be completely transformed by the operation.
+   With this method, the tip of the child bone will never be translated --
+   so if *Connected* is enabled, the child bone will be completely transformed by the operation.
 
 .. list-table:: Parenting example.
 

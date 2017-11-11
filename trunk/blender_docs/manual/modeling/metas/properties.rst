@@ -54,7 +54,7 @@ Threshold (Influence)
    :class: refbox
 
    | Mode:     Object or Edit Modes
-   | Panel:    Metaball
+   | Panel:    :menuselection:`Properties editor --> Metaball`
 
 *Threshold* defines how much a meta's surface "influences" other metas.
 It controls the *field level* at which the surface is computed.

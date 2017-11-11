@@ -6,8 +6,8 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode, Edit Mode and Pose Mode
-   | Panel:    All in Properties editor, *Object* property
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Properties editor --> Object`
 
 Let us first have a general overview of the various panels gathering the armature settings,
 in Properties editor, *Object* tab:
@@ -39,7 +39,8 @@ Inverse Kinematics
 
    The Inverse Kinematics panel.
 
-Defines the type of IK solver used in your animation.
+Defines the type of :doc:`IK solver </rigging/armatures/posing/bone_constraints/inverse_kinematics/introduction>`
+used in your animation.
 
 
 Custom Properties
