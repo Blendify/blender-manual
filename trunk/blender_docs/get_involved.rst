@@ -30,7 +30,7 @@ Development
 
 
 `Documentation`_
-----------------
+================
 
 A large number of people are helping with the 
 `Blender Manual <https://docs.blender.org/manual/en/dev/>`__
