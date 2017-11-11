@@ -26,7 +26,7 @@ Select
 Image
    This contains options for :doc:`/editors/uv_image/image/index`.
 UVs
-   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv/overview>`
+   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv/editing/unwrapping/index>`
    and :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`.
 
 Modes
