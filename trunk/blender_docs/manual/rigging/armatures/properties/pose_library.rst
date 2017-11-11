@@ -4,6 +4,12 @@
 Pose Library Panel
 ******************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode, Edit Mode and Pose Mode
+   | Panel:    :menuselection:`Properties editor --> Object --> Pose Library`
+
 .. figure:: /images/rigging_armatures_properties_pose-library_panel.png
    :align: right
 
@@ -19,28 +25,35 @@ Pose Libraries
 
    Add ``+``
       If a pose is added, a :ref:`pose marker <marker-pose-add>` is created.
+      Only for selected bones keys are stored. If no bones are selected, all bones are keyed.
 
       Add New
          Adds a new pose to the active Pose Library with the current pose of the armature.
       Add New (Current Frame).
-         Will add a pose to the Pose Library based on the current frame selected in the Time line.
+         Will add a pose to the Pose Library based on the current frame selected in the Timeline.
          In contrast to *Add New* and *Replace Existing* which automatically allocate a pose to an action frame.
       Replace Existing
          Replace an existing pose in the active Pose Library with the current pose of the armature.
-Apply Pose (magnifying glass icon)
-   Applies the active pose to the selected pose bones.
-Sanitize Action (livesaver icon)
-   Makes an action suitable for use as a Pose Library.
-   This is used to convert an Action to a Pose Library.
-   A pose is added to the Pose Library for each frame with keyframes.
+   Apply Pose (magnifying glass icon)
+      Applies the active pose to the selected pose bones.
+   Sanitize Action (livesaver icon)
+      Makes an action suitable for use as a Pose Library.
+      This is used to convert an Action to a Pose Library.
+      A pose is added to the Pose Library for each frame with keyframes.
+   Move (up/down arrow icon)
+      Moves the pose up/down in the list.
 
 
 .. (todo) move to pose editing
 
-Shortcuts
-=========
+Menu
+====
 
-3D View, Pose Mode. :menuselection:`Pose --> Pose Library`
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Pose Mode
+   | Menu:     :menuselection:`Pose --> Pose  Library`
 
 - Browse Poses. :kbd:`Ctrl-L`.
 - Add Pose. :kbd:`Shift-L`.
