@@ -51,6 +51,11 @@ Erase :kbd:`D-RMB`, :kbd:`Eraser`
    The size of the eraser "brush" can be controlled with :kbd:`Wheel`, or with
    :kbd:`NumpadPlus` and :kbd:`NumpadMinus`, while still holding :kbd:`RMB`.
 
+Insert Blank Frame :kbd:`D-B`
+   This operator adds a new frame with nothing in it on the current frame.
+   If there is already a frame there, all existing frames are shifted one frame later.
+Delete Frame(s) :kbd:`D-X`
+	Remove all active frames if they are not locked.
 
 .. _bpy.types.ToolSettings.use_gpencil_additive_drawing:
 

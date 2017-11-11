@@ -49,6 +49,7 @@ Main View
 =========
 
 The keyframes can be manipulated like any other data in the *Dope Sheet* can be.
+Interpolated keyframes (alias breakdowns) are visualized as smaller light blue points.
 
 
 Insert Keyframe
