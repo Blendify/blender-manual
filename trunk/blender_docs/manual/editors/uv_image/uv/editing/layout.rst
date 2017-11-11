@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|im=old screenshot: Need to update}}.
 
-***********
-Editing UVs
-***********
+******
+Layout
+******
 
 After unwrap, you will likely need to arrange the UV maps into something that can be logically
 textured or painted. Your goals for editing are:
@@ -106,7 +106,7 @@ Seams
    | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
    | Menu:     :menuselection:`UVs --> Mark/Clear Seam`
 
-See :doc:`/editors/uv_image/uv_editing/unwrapping/seams`.
+See :doc:`/editors/uv_image/uv/editing/unwrapping/seams`.
 
 
 .. _bpy.ops.uv.pack_islands:
@@ -350,7 +350,7 @@ that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for
 The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser with options for saving the layout:
 
-.. figure:: /images/editors_uv-image_uv-editing_layout-editing_export-panel.png
+.. figure:: /images/editors_uv-image_uv_editing_layout_export-panel.png
 
    Export Options.
 
@@ -378,12 +378,12 @@ For using images as textures, see the page on
 
 .. list-table::
 
-   * - .. figure:: /images/editors_uv-image_uv-editing_layout-editing_uv-layout.png
+   * - .. figure:: /images/editors_uv-image_uv_editing_layout_uv-layout.png
           :width: 320px
 
           A UV Layout in the UV/Image Editor.
 
-     - .. figure:: /images/editors_uv-image_uv-editing_layout-editing_uv-layout-export.png
+     - .. figure:: /images/editors_uv-image_uv_editing_layout_uv-layout-export.png
           :width: 320px
 
           A UV Layout in a paint program.

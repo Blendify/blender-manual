@@ -28,11 +28,11 @@ location on the box. This is what the computer does with a 2D image in wrapping 
 
 .. list-table::
 
-   * - .. figure:: /images/editors_uv-image_uv-editing_overview_boxprecut.jpg
+   * - .. figure:: /images/editors_uv-image_uv_overview_boxprecut.jpg
 
           Box being inspected.
 
-     - .. figure:: /images/editors_uv-image_uv-editing_overview_boxcutup.jpg
+     - .. figure:: /images/editors_uv-image_uv_overview_boxcutup.jpg
 
           Box mapped flat.
 
@@ -54,17 +54,17 @@ We "fill in" spaces toward the poles, or change the outline of the map in any of
 
 .. list-table::
 
-   * - .. figure:: /images/editors_uv-image_uv-editing_overview_projection-mercator.jpg
+   * - .. figure:: /images/editors_uv-image_uv_overview_projection-mercator.jpg
           :width: 190px
 
           Mercator Projection.
 
-     - .. figure:: /images/editors_uv-image_uv-editing_overview_projection-mollweide.jpg
+     - .. figure:: /images/editors_uv-image_uv_overview_projection-mollweide.jpg
           :width: 190px
 
           Mollweide Projection.
 
-     - .. figure:: /images/editors_uv-image_uv-editing_overview_projection-albers.jpg
+     - .. figure:: /images/editors_uv-image_uv_overview_projection-albers.jpg
           :width: 190px
 
           Albers-equal Projection.
@@ -84,7 +84,7 @@ to the Equator).
 Half-Sphere Example
 -------------------
 
-.. figure:: /images/editors_uv-image_uv-editing_overview_3d-uv-space.jpg
+.. figure:: /images/editors_uv-image_uv_overview_3d-uv-space.jpg
    :width: 600px
 
    3D Space (XYZ) versus UV Space (click to enlarge).

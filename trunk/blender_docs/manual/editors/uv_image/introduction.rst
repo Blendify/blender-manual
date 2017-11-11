@@ -22,12 +22,12 @@ View
    Tools for controlling how the content is displayed in the editor.
    See :doc:`/editors/uv_image/navigating`.
 Select
-   Tools for :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`
+   Tools for :doc:`Selecting UVs </editors/uv_image/uv/editing/layout>`
 Image
    This contains options for :doc:`/editors/uv_image/image/index`.
 UVs
-   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv_editing/overview>`
-   and :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
+   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv/overview>`
+   and :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`.
 
 Modes
    View

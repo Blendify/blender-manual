@@ -63,7 +63,7 @@ Use this unwrapping option to reset the map and undo any unwrapping (go back to 
 Unwrap
 ======
 
-.. figure:: /images/editors_uv-image_uv-editing_unwrapping_mapping-types_unwrap-example.png
+.. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_unwrap-example.png
    :width: 300px
 
    Result of unwrapping Suzanne.
@@ -117,7 +117,7 @@ Margin
 Smart UV Project
 ================
 
-.. figure:: /images/editors_uv-image_uv-editing_unwrapping_mapping-types_smart-project.png
+.. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_smart-project.png
    :width: 250px
 
    Smart UV project on a cube.
@@ -187,7 +187,7 @@ Share Tex Space
    It attempts to fit all of the objects' faces in the UV bounds without overlapping.
 New UV Map
    If mapping multiple meshes, this option creates a new UV map for each mesh.
-   See :doc:`Managing the Layout </editors/uv_image/uv_editing/layout_management>`.
+   See :doc:`Managing the Layout </editors/uv_image/uv/layout_management>`.
 New Image
    Assigns new images for every mesh, but only one if *Shared Tex Space* is enabled.
 
@@ -232,7 +232,7 @@ Cube Projection
 
 Cube mapping projects s mesh onto six separate planes, creating six UV islands.
 In the UV/Image editor, these will appear overlapped, but can be moved.
-See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
+See :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`.
 
 Basic Mapping
 
@@ -270,7 +270,7 @@ Scale to Bounds
 Cylinder and Sphere Projection
 ==============================
 
-.. figure:: /images/editors_uv-image_uv-editing_unwrapping_mapping-types_sphere-projection.png
+.. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_sphere-projection.png
    :width: 350px
 
    Using an equirectangular image with a Sphere Projection.
