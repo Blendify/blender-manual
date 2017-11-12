@@ -42,7 +42,7 @@ Motion Blur
 
    Samples
       Set the number of samples to take for each frame.
-      The higher the samples, the smoother the blur effect,
+      The higher this number, the smoother the blur effect,
       but the longer the render, as each virtual intermediate frame has to be rendered.
 
       .. note::

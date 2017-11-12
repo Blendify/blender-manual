@@ -385,8 +385,8 @@ change the default and display a tool-tip.
 
 .. seealso:: :mod:`blender_api:bpy.props.IntProperty`
 
-This document doesn't go into details about using other property types,
-however the link above includes examples of more advanced property usage.
+This document doesn't go into details about using other property types.
+However the link above includes examples of more advanced property usage.
 
 
 Menu Item
