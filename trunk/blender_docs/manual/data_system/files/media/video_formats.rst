@@ -21,12 +21,14 @@ There are dozens, if not hundreds, of codecs, including XviD, H.264, DivX, Micro
 and so on. Each has advantages and disadvantages and compatibility with different players on
 different operating systems.
 
-Most codecs can only compress the RGB or YUV :term:`color space`,
-but some support the Alpha channel as well. Codecs that support RGBA include:
+.. note::
 
-- Quicktime
-- PNG TIFF Pixlet is not loss-less, and may be only available on macOS.
-- `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
+   Most codecs can only compress the RGB or YUV :term:`color space`,
+   but some support the Alpha channel as well. Codecs that support RGBA include:
+
+   - Quicktime
+   - PNG TIFF Pixlet is not loss-less, and may be only available on macOS.
+   - `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
 AVI Codec
    AVI codec compression. Available codecs are operating-system dependent.
