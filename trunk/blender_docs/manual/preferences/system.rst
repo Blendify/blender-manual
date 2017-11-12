@@ -20,6 +20,8 @@ to find a supported value or just let Blender correct it.
 General
 =======
 
+.. _preferences_system_general_frame-server-port:
+
 Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
    Used when working with distributed rendering.
