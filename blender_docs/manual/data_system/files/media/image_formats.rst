@@ -115,7 +115,21 @@ Opening Images
 Relative Path
    Sets the file path to be relative to the currently open blend-file.
 Detect Sequences
-   Automatically detects animated image sequences in the selected images (based on file name).
+   Automatically detects image sequences in the selected images (based on file name).
+
+
+.. _image-formats-open-sequence:
+
+Opening an Image Sequence
+-------------------------
+
+The filename of the images must contain a digit, indicating the frame.
+The sequence could be opened by the selection of the images and
+by the confirmation with the *Open Image* button or :kbd:`Enter`.
+
+.. (alt) To load image sequence in any of the supported image
+   file formats, first click on the first frame and then Accept.
+   Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
 
 .. _bpy.types.ImageFormatSettings:

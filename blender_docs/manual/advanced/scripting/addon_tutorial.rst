@@ -1,7 +1,7 @@
 .. _advanced_scripting_addon_tutorial:
 
 .. This document is an exception to the rule of not having tutorials in the reference manual.
-   Since this doesn't quite beling on the API docs either.
+   Since this doesn't quite belong on the API docs either.
    It's important we have at least one place with good basic info on how to write an add-on.
    - ideasman42
 
@@ -386,7 +386,7 @@ change the default and display a tool-tip.
 .. seealso:: :mod:`blender_api:bpy.props.IntProperty`
 
 This document doesn't go into details about using other property types.
-However the link above includes examples of more advanced property usage.
+However, the link above includes examples of more advanced property usage.
 
 
 Menu Item
