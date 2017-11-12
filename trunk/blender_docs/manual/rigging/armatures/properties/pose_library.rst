@@ -25,7 +25,7 @@ Pose Libraries
 
    Add ``+``
       If a pose is added, a :ref:`pose marker <marker-pose-add>` is created.
-      Only for selected bones keys are stored. If no bones are selected, all bones are keyed.
+      Keys are only stored for the selected bones. If no bones are selected, all bones are keyed.
 
       Add New
          Adds a new pose to the active Pose Library with the current pose of the armature.

@@ -48,24 +48,24 @@ Detail Refine Method
    is handled. Setting the option will determine which of the methods will be used when
    altering the topology.
 
-   Subdivide
+   Subdivide Edges
       Just like the Subdivide tool, this method will only subdivide topology
       to match the detail given.
-   Collapse
+   Collapse Edges
       When topology is too dense, and is smaller than the detail given, edges will
       be collapse to fit the detail size appropriately.
    Subdivide Collapse
       This method combines the two methods, subdividing edges smaller than the
       detail size, and collapsing topology.
-   Detail Flood Fill
-      When using Constant Detail mode, this option is made available, allowing
-      you to fill the entire object with a uniform detail, based on the detail size.
 Smooth Shading
    Toggles whether mesh faces are smooth or flat shaded.
    In dynamic-topology mode all faces have the same type of shading.
 Optimize
    If sculpting begins to slow down while dynamic topology is enabled,
    use the *Optimize* button to recalculate the sculpt BVH.
+Detail Flood Fill
+   When using Constant Detail mode, this option is made available, allowing
+   you to fill the entire object with a uniform detail, based on the detail size.
 Direction
    Determines which direction the model will be symmetrized.
 Symmetrize

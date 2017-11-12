@@ -140,7 +140,7 @@ Buffer
 Mux
 ---
 
-Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__
+`Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__
 is the process of combining separate video and audio streams into a single file,
 similar to packing a video file and .mp3 audio file in a zip-file.
 

@@ -33,20 +33,6 @@ On the other hand, if the File Browser is opened for a file action (opening, sav
 it will appear maximized and waiting for an operation to complete before returning to the former screen layout.
 
 
-.. _file-browser-open-sequence:
-
-Opening an Image Sequence
--------------------------
-
-The filename of the images must contain a digit, indicating the frame.
-The sequence could be opened by the selection of the images and
-by the confirmation with the *Open Image* button or :kbd:`Enter`.
-
-.. To load image sequence in any of the supported image
-   file formats, first click on the first frame and then Accept.
-   Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
-
-
 Header
 ======
 

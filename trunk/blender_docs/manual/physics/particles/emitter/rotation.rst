@@ -1,4 +1,4 @@
-..(todo) Angular Velocity: Axis changed, added options
+.. (todo) Angular Velocity: Axis changed, added options
 
 ********
 Rotation
