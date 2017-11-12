@@ -84,7 +84,7 @@ Examples
 Keyframe Animation
 ------------------
 
-This example shows you how to animate a cubes location, rotation, and scale.
+This example shows you how to animate a cube's location, rotation, and scale.
 
 #. First, in the *Timeline*, or other animation editors, set the frame to 1.
 #. With the *Cube* selected in *Object Mode*, press :kbd:`I` in the 3D View.

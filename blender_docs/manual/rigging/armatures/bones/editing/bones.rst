@@ -419,7 +419,7 @@ differently depending in which chain is the edited bone
      - .. figure:: /images/rigging_armatures_bones_editing_bones_merge-4.png
           :width: 320px
 
-          The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of "Bone.006"
+          The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of Bone.006.
 
 
 Subdivide
