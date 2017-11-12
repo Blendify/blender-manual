@@ -119,8 +119,8 @@ For more options see::
 
 .. seealso::
 
-   - Instructions on this page are based on
-     `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__
+   Instructions on this page are based on
+   `Sphinx Intl documentation <http://www.sphinx-doc.org/en/stable/intl.html>`__
 
 
 Updating PO Files
