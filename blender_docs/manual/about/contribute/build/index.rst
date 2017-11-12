@@ -9,6 +9,6 @@ The building process is different for each operating system, instructions have b
 .. toctree::
    :maxdepth: 1
 
-   Linux <linux.rst>
-   macOS <macos.rst>
    MS-Windows <windows.rst>
+   macOS <macos.rst>
+   Linux <linux.rst>

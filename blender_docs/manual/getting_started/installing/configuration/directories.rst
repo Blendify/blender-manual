@@ -32,21 +32,15 @@ Here are the default locations for each system:
    used for self-contained bundles distributed by official blender.org builds.
 
 
-Linux
------
+MS-Windows
+----------
 
 LOCAL
-   .. parsed-literal:: ./|BLENDER_VERSION|/
+   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\
 USER
-   .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/
+   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 SYSTEM
-   .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
-
-.. note::
-
-   The **USER** path will use ``$XDG_CONFIG_HOME`` if its set:
-
-   .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
+   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
 
 macOS
@@ -67,15 +61,21 @@ SYSTEM
    .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/
 
 
-MS-Windows
-----------
+Linux
+-----
 
 LOCAL
-   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: ./|BLENDER_VERSION|/
 USER
-   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/
 SYSTEM
-   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
+
+.. note::
+
+   The **USER** path will use ``$XDG_CONFIG_HOME`` if its set:
+
+   .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
 
 
 Path Layout
