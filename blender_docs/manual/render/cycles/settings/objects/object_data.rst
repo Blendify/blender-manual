@@ -57,7 +57,12 @@ Shadow Catcher
 Performance
 -----------
 
+In order to activate these options the respectively camera cull options have to be enabled
+in the scene :ref:`simplify panel <render-cycles-settings-scene-simplify>`.
+
 Use Camera Cull
-   TODO.
+   Ignore and this way make objects invisible to rays outside of the camera frustum.
 Use Distance Cull
-   TODO.
+   Will cull any objects further from the camera than a given distance. When used in combination with
+   camera frustum culling, this can be used to avoid culling nearby objects that are outside the camera frustum,
+   but still visible in reflections. It is also useful to cull small objects far from the camera.

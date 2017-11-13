@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. _render_cycles_settings_scene_simplify:
+.. _render-cycles-settings-scene-simplify:
 .. _bpy.types.CyclesRenderSettings.texture_limit:
 .. _bpy.types.CyclesRenderSettings.use_camera_cull:
 .. _bpy.types.CyclesRenderSettings.camera_cull_margin:

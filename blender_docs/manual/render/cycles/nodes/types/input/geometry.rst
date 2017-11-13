@@ -41,6 +41,8 @@ Incoming
    Vector pointing towards the point the shading point is being viewed from.
 Parametric
    Parametric coordinates of the shading point on the surface.
+   To area lamps it outputs its UV coordinates in planar mapping and
+   in spherical coordinates to point lights.
 Backfacing
    1.0 if the face is being viewed from the back side, 0.0 for the front side.
 Pointiness
