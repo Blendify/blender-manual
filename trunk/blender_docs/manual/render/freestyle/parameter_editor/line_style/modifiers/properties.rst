@@ -159,48 +159,28 @@ Min Curvature and Max Curvature
 
 
 .. _bpy.types.LineStyle*Modifier_DistanceFromCamera:
-
-Distance from Camera
---------------------
-
-The *Distance from Camera* modifier alters the base property with a new one from
-a given range using the distance to the active camera as the parameter.
-
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-camera.png
-
-   Alpha Modifier.
-
-Range Min and Range Max
-   The limits of the mapping from "distance to camera" to "property in mapping".
-   If the current point of the stroke is at *Range Min* or less from the active camera,
-   it will take the start value, and conversely,
-   if it is at *Range Max* or more from the camera, it will take the end value.
-   These values are in the current scene's units, not in pixels!
-Fill Range by Selection
-   Set the min/max range values from the distances between the current selected objects and the camera.
-
-
 .. _bpy.types.LineStyle*Modifier_DistanceFromObject:
 
-Distance from Object
---------------------
+Distance from Camera/Object
+---------------------------
 
-The *Distance from Object* modifier alters the base property with a new one from
-a range, using the distance to a given object as the parameter.
+The *Distance from Camera* or  *Distance from Object* modifier alters the base property with a new one
+from a given range using the distance to the active *camera* or to a given *object* as the parameter.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-object.png
 
-   Alpha Modifier.
+   Distance from Object: Alpha Modifier.
 
 Target
-   The object to measure distance from.
-
+   The object to measure distance from (Distance from Object only).
 Range Min and Range Max
-   Similar to *Distance to Camera* but to the object.
+   The limits of the mapping from "distance to camera" to "property in mapping".
+   If the current point of the stroke is at *Range Min* or less from the active camera or the object,
+   it will take the start value, and conversely,
+   if it is at *Range Max* or more from the camera/object, it will take the end value.
+   These values are in the current scene's units, not in pixels!
 Fill Range by Selection
-   Set the min/max range values from the distances between the current selected objects and the target.
-
-The other settings are those of the standard Blender color ramp!
+   Set the min/max range values from the distances between the current selected mesh vertices and the camera or the target.
 
 
 .. _bpy.types.LineStyle*Modifier_Material:
