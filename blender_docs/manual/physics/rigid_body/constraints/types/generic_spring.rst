@@ -22,15 +22,15 @@ Options
 =======
 
 Limits
-   X Axis/Y Axis/Z axis
+   X/Y/Z Axis
       Enables/disables limit translation on X, Y or Z axis respectively.
 
       Lower
          Lower limit of translation for X, Y or Z axis respectively.
       Upper
          Upper limit of translation for X, Y or Z axis respectively.
-   X Angle/Y Angle/Z Angle
-      Enables/disables limit rotation around X, Y or Z axis respectively.
+   X/Y/Z Angle
+      Enables/disables limit rotation around the X, Y or Z axis respectively.
 
       Lower
          Lower limit of rotation for X, Y or Z axis respectively.
@@ -38,10 +38,17 @@ Limits
          Upper limit of rotation for X, Y or Z axis respectively.
 
 Springs
-   X/Y/Z
-      Enables/disables springs on X, Y or Z axis respectively.
+   X/Y/Z Axis
+      Enables/disables springs translation on X, Y or Z axis respectively.
 
       Stiffness
-         Spring Stiffness on X, Y or Z axis respectively. Specifies how "bendy" the spring is.
+         Spring Stiffness of the translation on X, Y or Z axis respectively. Specifies how "bendy" the spring is.
       Damping
-         Spring Damping on X, Y or Z axis respectively. Amount of damping the spring has.
+         Spring Damping of the translation on X, Y or Z axis respectively. Amount of damping the spring has.
+   X/Y/Z Angle
+      Enables/disables springs rotation around the X, Y or Z axis respectively.
+
+      Stiffness
+         Spring Stiffness of the rotation around the X, Y or Z axis respectively. Specifies how "bendy" the spring is.
+      Damping
+         Spring Damping of the rotation around the  X, Y or Z axis respectively. Amount of damping the spring has.
