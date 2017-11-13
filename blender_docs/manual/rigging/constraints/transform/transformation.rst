@@ -15,7 +15,7 @@ but rather as "markers" to define a mapping between input (target) and output (o
 
 So, e.g. you can use the position of the target along the X axis to control the rotation of
 the owner around the Z-Axis, stating that 1 BU along the target X-Axis corresponds
-to10 BU around the owner Z-Axis. Typical uses for this include gears (see note below),
+to 10 BU around the owner Z-Axis. Typical uses for this include gears (see note below),
 and rotation based on location setups.
 
 
@@ -59,7 +59,7 @@ Source
 It contains the input (from target) settings.
 
 Map From
-   The radio buttons, allow you to select which type of property to use.
+   The radio buttons allow you to select which type of property to use.
 
    Location, Rotation, and Scale
 From
