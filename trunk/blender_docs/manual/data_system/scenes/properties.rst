@@ -225,4 +225,4 @@ Child Particles
 .. seealso::
 
    There are also render engine specific *Simplify* settings for both
-   Blender Render and :ref:`Cycles <render_cycles_settings_scene_simplify>`.
+   Blender Render and :ref:`Cycles <render-cycles-settings-scene-simplify>`.

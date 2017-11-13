@@ -55,6 +55,8 @@ Generated
    0 over the bounding box of the undeformed mesh.
 Normal
    Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
+   The Normal output can be used on Point and Spot lamps. The coordinates will take
+   the rotation of the lamp into account.
 UV
    UV texture coordinates from the active render UV map.
 Object
