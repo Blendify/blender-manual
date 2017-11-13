@@ -1,4 +1,3 @@
-.. _alembic-index:
 
 *******
 Alembic

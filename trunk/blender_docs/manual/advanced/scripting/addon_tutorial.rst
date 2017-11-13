@@ -1,4 +1,3 @@
-.. _advanced_scripting_addon_tutorial:
 
 .. This document is an exception to the rule of not having tutorials in the reference manual.
    Since this doesn't quite belong on the API docs either.
@@ -220,7 +219,7 @@ if you want it to be enabled on restart, press *Save as Default*.
       print(addon_utils.paths())
 
    More is written on this topic here:
-   :ref:`Directory Layout <getting-started_installing-config-directories>`.
+   :ref:`Directory Layout <getting-started-installing-config-directories>`.
 
 
 Your Second Add-on

@@ -22,8 +22,6 @@ Dimensions
 
    2D, 3D
 
-.. _curve-resolution:
-
 Resolution
    The *resolution* property defines the number of points that are computed between every pair of control points.
    Curves can be made more or less smooth by increasing and decreasing the resolution respectively.

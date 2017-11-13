@@ -88,8 +88,6 @@ Mirror Ball
 ToDo.
 
 
-.. _render-cycles-camera-clipping:
-
 Clipping
 --------
 

@@ -101,7 +101,7 @@ If a vertex penetrates the zone between *Outer* and *Inner*, it is repulsed by a
 the direction of the face normal. The position that a vertex finally ends up in is dependent
 on the forces that act upon it. In the example gravity and the repulsion force of the face balance out.
 The speed at which the vertex is pulled out of the collision zone is influenced by the *Choke* parameter
-in the :ref:`Soft Body Solver settings <physics_softbody_settings_solver>`.
+in the :ref:`Soft Body Solver settings <physics-softbody-settings-solver>`.
 
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
 In Fig. :ref:`fig-softbody-collision-vertex2` you can see vertices traveling at different speeds.
@@ -136,7 +136,7 @@ If the collision you have set up is not behaving properly, you can try the follo
 - Check the direction of the face normals.
 - If the collision object has sharp spikes they might penetrate the Soft Body.
 - The resolution of the solver must match the speed at which Soft Body vertices are traveling.
-  Lower the parameter *Error Lim* and carefully increase *Min S*.
+  Lower the parameter *Error Limit* and carefully increase *Min Step*.
 - *Outer* and *Inner* should be large enough, but zones of opposite faces should not overlap,
   or you have forces in opposite directions.
 - If you use strong forces you should use large zones.
@@ -150,5 +150,5 @@ however, this may be difficult if you are using an animated mesh.
 Self Collisions
 ===============
 
-For information on self collision please refer to the :ref:`Self Collision
-<physics-softbody-settings-self-collision>` settings.
+For information on self collision please refer to
+the :ref:`Self Collision <physics-softbody-settings-self-collision>` settings.

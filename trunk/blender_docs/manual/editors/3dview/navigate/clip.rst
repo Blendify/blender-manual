@@ -3,8 +3,6 @@
 Clipping
 ********
 
-.. _3dview-clip-border:
-
 View Clipping Border
 ====================
 

@@ -1,4 +1,3 @@
-.. _render-cycles-materials-displacement:
 
 ************
 Displacement

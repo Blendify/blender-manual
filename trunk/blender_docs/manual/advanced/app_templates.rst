@@ -89,7 +89,7 @@ With a template:
    | ``./config/{APP_TEMPLATE_ID}/startup.blend``
    | ``./config/{APP_TEMPLATE_ID}/userpref.blend``
 
-See :ref:`getting-started_installing-config-directories` for details on script and configuration locations.
+See :ref:`getting-started-installing-config-directories` for details on script and configuration locations.
 
 
 Template Contents

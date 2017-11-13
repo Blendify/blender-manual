@@ -245,7 +245,7 @@ Framing
          should be preferred for *Fullscreen* applications.
    Extend
       This mode behaves much like *Letterbox* mode, maintaining a 4:3 aspect ratio by scaling whenever possible;
-      except that the camera frustrum is expanded or contracted wherever necessary to fill
+      except that the camera frustum is expanded or contracted wherever necessary to fill
       any portions of the display that lie outside of the aspect ratio, instead of covering those portions
       of the scene with color bars, as with *Letterbox* mode, or distorting then scene, as with *Scale* mode.
    Scale
@@ -255,13 +255,11 @@ Color Bar
    This will let the game developer choose the bar colors when using the *Letterbox* Framing mode.
 
 
-.. _game-engine-settings-render-bake:
-
 Bake
 ====
 
 The *Bake* panel in the *Render* tab of the *Properties* editor is very similar to its
-Blender Render couterpart and serves much the same purpose.
+Blender Render counterpart and serves much the same purpose.
 See :doc:`Render Baking </render/blender_render/bake>` for further details.
 
 .. figure:: /images/game-engine_settings_render_bake.png
@@ -302,8 +300,8 @@ Bake Mode
       Bake specular intensity values.
    Specular Colors
       Bake specular colors.
-Bake from Multires
-   Bake directly from Multires object.
+Bake from Multiresolution
+   Bake directly from Multiresolution object.
 Normalized
    In Displacement Mode:
       Normalize to the distance.

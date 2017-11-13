@@ -167,8 +167,6 @@ Sensor Fit
    Option to control which dimension (vertical or horizontal) along which field of view angle fits.
 
 
-.. _render-camera-dof:
-
 Depth of Field
 ==============
 

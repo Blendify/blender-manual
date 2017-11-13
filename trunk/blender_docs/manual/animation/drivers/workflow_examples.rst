@@ -111,8 +111,6 @@ which can then be used in the expression ``driver_func(frame)``
    bpy.app.driver_namespace['driver_func'] = driver_func
 
 
-.. _animation_drivers_shapekey_ex:
-
 Shape Key Driver
 ^^^^^^^^^^^^^^^^
 

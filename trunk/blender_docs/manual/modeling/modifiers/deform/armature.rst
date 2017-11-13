@@ -118,8 +118,6 @@ Bone Envelopes
           The same pose, but using envelopes method rather that vertex groups.
 
 
-.. _modifier-armature-multi-modifier:
-
 Multi Modifier
 --------------
 

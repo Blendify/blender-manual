@@ -61,8 +61,5 @@ View Menu
 
 View Selected
    See above.
-
-.. _3dview-view-all:
-
 View All :kbd:`Home`
    Frames all the objects in the scene, so they are visible in the viewport.

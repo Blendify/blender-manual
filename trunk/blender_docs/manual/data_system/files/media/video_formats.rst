@@ -44,7 +44,7 @@ Frameserver
    Blender puts out `frames upon request
    <https://wiki.blender.org/index.php/Dev:Source/Render/Frameserver>`__
    as part of a render farm.
-   The port number is specified in the :ref:`User Preferences <preferences_system_general_frame-server-port>`.
+   The port number is specified in the :ref:`User Preferences <preferences-system-general-frame-server-port>`.
 H.264
    Encodes movies with the H.264 codec.
 MPEG

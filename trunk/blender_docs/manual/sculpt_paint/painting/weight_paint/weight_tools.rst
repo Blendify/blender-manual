@@ -133,8 +133,6 @@ Examples:
 Options
 -------
 
-.. _fig-paint-weight-tools-mirror:
-
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert-options.jpg
 
    Invert Options.

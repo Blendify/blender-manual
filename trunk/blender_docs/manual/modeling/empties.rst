@@ -26,8 +26,6 @@ Apply Scale :kbd:`Ctrl-A`
 Properties
 ==========
 
-.. _object-empty-display:
-
 .. figure:: /images/modeling_empties_draw-types.png
    :align: right
 

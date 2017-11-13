@@ -1,4 +1,4 @@
-.. _getting-started_installing-config-directories:
+.. _getting-started-installing-config-directories:
 
 ***********************
 Configuring Directories

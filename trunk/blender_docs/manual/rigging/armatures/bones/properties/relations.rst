@@ -35,7 +35,7 @@ you have to select the chosen bone(s)!
   Note that this way, you assign the same layers to all selected bones.
 
 
-.. _bone_relations_bone_group:
+.. _bone-relations-bone-group:
 
 Bone Group
 ==========
@@ -64,7 +64,7 @@ Relative Parenting
    ToDo.
 
 
-.. _bone_relations_parenting:
+.. _bone-relations-parenting:
 
 Parenting
 =========
