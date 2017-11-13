@@ -50,8 +50,6 @@ Emulate 3 Button Mouse
    - :kbd:`MMB` drag becomes :kbd:`Alt-LMB` drag.
    - :kbd:`Shift-Alt-RMB` becomes :kbd:`Shift-Alt-Cmd-LMB` on a single-button mouse.
 
-.. _prefs-input-continuous-grab:
-
 Continuous Grab
    This feature is used to prevent the problem where an action such as grabbing or panning a view,
    is limited by your screen bounds.

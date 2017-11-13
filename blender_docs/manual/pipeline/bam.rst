@@ -1,4 +1,3 @@
-.. _bam-index:
 
 *****************
 BAM Asset Manager

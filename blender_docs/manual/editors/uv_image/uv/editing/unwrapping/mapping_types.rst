@@ -150,16 +150,12 @@ unwrapped:
 Angle Limit
    This controls how faces are grouped: a higher limit will lead to many small groups but less distortion,
    while a lower limit will create fewer groups at the expense of more distortion.
-
 Island Margin
    This controls how closely the UV islands are packed together.
    A higher number will add more space in between islands.
-
 Area Weight
    Weight projection's vector by faces with larger areas.
 
-
-.. _lightmap-pack:
 
 Lightmap Pack
 =============

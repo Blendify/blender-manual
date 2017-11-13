@@ -142,8 +142,6 @@ Max Bounces
    for more information on how to reduce noise.
 
 
-.. _render-cycles-integrator-world-settings-volume:
-
 Volume
 ------
 

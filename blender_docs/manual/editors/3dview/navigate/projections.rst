@@ -1,4 +1,3 @@
-.. _3dview-projections:
 
 ***********
 Projections

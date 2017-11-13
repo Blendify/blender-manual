@@ -1,4 +1,3 @@
-.. _armature-bone-chain-edit:
 
 *********
 Parenting

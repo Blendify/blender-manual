@@ -282,9 +282,9 @@ and you just have to "skin" them as described above to get a nice, smooth and ha
 Examples
 --------
 
-Fig. Joining ready is an example of two NURBS surface curves, **not** NURBS curves,
+Fig. :ref:`fig-surface-edit-join-ready` is an example of two NURBS surface curves, **not** NURBS curves,
 in *Edit Mode*, ready to be joined.
-Fig. Joining complete is the result of joining the two curves.
+Fig. :ref:`fig-surface-edit-join-complete` is the result of joining the two curves.
 
 .. list-table::
 

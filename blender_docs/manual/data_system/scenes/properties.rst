@@ -209,7 +209,7 @@ See :doc:`Rigid Body World </physics/rigid_body/world>` for more information.
 
 
 .. _bpy.types.RenderSettings.simplify_subdivision:
-.. _data-system_scenes_properties_simplify:
+.. _data-system-scenes-properties-simplify:
 
 Simplify
 ========

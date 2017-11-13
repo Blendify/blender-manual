@@ -40,8 +40,6 @@ Keyframes
 .. The hierarchy is created with the RNA data paths,
 
 
-.. _animation-basics-actions-working-with-actions:
-
 Working with Actions
 ====================
 

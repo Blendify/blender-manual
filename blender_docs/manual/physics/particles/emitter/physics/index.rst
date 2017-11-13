@@ -1,4 +1,3 @@
-.. _particle_physics-index:
 
 ###########
   Physics

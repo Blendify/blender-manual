@@ -33,4 +33,4 @@ Use Distance Cull
 .. seealso::
 
    There are also several non render engine specific settings which
-   are documented :ref:`here <data-system_scenes_properties_simplify>`.
+   are documented :ref:`here <data-system-scenes-properties-simplify>`.

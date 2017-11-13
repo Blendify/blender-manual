@@ -184,7 +184,7 @@ Collisions with other objects are set in the (other) :doc:`Collision panel </phy
 To collide with another object they have to share at least one common layer.
 
 
-.. _physics_softbody_settings_solver:
+.. _physics-softbody-settings-solver:
 
 Soft Body Solver
 ================

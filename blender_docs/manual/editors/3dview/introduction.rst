@@ -1,4 +1,3 @@
-.. _3dview-editor:
 
 ************
 Introduction
