@@ -1,8 +1,8 @@
 .. _bpy.ops.ed:
 
-*************
-Undo and Redo
-*************
+***********
+Undo & Redo
+***********
 
 The tools listed below will let you roll back an accidental action,
 redo your last action, or let you choose to recover to a specific point,

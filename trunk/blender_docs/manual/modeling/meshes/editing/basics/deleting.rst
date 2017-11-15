@@ -1,7 +1,7 @@
 
-***********************
-Deleting and Dissolving
-***********************
+*********************
+Deleting & Dissolving
+*********************
 
 .. admonition:: Reference
    :class: refbox

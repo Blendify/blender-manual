@@ -1,8 +1,8 @@
 .. _bpy.types.DynamicPaintBrushSettings:
 
-*******************
-Dynamic Paint Brush
-*******************
+*****
+Brush
+*****
 
 .. figure:: /images/physics_dynamic-paint_brush_main-panel.png
 

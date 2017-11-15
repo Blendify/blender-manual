@@ -1,8 +1,12 @@
-.. _bpy.types.LodLevel:
 
 ***************
-Level of Detail
+Object Settings
 ***************
+
+.. _bpy.types.LodLevel:
+
+Level of Detail
+===============
 
 When creating visual assets it is often desirable to have a high amount of detail in the asset
 for up close viewing. However,
@@ -16,7 +20,7 @@ close and from a distance.
 
 
 Settings
-========
+--------
 
 .. note:: Modifiers on Level of Detail Objects
 
@@ -48,14 +52,14 @@ Use Material
 
 
 Tools
-=====
+-----
 
 Some tools for making levels of detail easier to manage and create can be found from
 the select menu next to the add button in the Levels of Detail panel.
 
 
 Set By Name
------------
+^^^^^^^^^^^
 
 Searches the scene for specifically named objects and attempts to set them up as levels of
 detail on the currently selected object. The selected object must be the base level of detail
@@ -71,7 +75,7 @@ Below are some example names that the tool will recognize.
 
 
 Generate
---------
+^^^^^^^^
 
 .. figure:: /images/game-engine_settings_object_level-of-detail-generation.jpg
 
@@ -96,6 +100,6 @@ Package into Group
 
 
 Clear All
----------
+^^^^^^^^^
 
 Clears the level of detail settings from the current object.

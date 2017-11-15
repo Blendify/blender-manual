@@ -1,9 +1,9 @@
 .. _bpy.ops.export:
 .. _bpy.ops.import:
 
-*****************************
-Importing and Exporting Files
-*****************************
+***************************
+Importing & Exporting Files
+***************************
 
 Sometimes you may want to utilize files that either came from other 2D or 3D software,
 or you may want to use the things you have made in Blender and edit them in other software.

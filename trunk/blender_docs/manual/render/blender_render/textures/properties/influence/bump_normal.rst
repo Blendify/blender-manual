@@ -1,7 +1,7 @@
 
-********************
-Bump and Normal Maps
-********************
+******************
+Bump & Normal Maps
+******************
 
 *Normal Maps* and *Bump Maps* both serve the same purpose:
 they simulate the impression of a detailed 3D surface,
