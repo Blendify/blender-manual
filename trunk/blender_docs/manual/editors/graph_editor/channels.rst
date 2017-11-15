@@ -33,8 +33,9 @@ Modifiers (wrench icon)
    Deactivates the F-Modifiers of the curve or all curves in the channel.
 Mute (speaker icon)
    Deactivates the channel/curve.
-Lock (padlock icon)
+Lock (padlock icon) :kbd:`Tab`
    Toggle channel/curve from being editable.
+   Selected channels can be locked by pressing :kbd:`Tab`.
 
    .. note::
 

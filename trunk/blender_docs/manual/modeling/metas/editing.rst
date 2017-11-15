@@ -6,6 +6,12 @@ Editing
 Active Element
 ==============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object or Edit Modes
+   | Panel:    :menuselection:`Properties editor --> Active Element`
+
 When in *Edit Mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
@@ -78,7 +84,7 @@ Moving the sphere to the plane causes the plane's mesh to "cave in" or collapse 
 If you move the plane away from the sphere, the plane's mesh will restore itself.
 
 To make a meta *negative*, just select the meta in edit mode,
-and check *negative* in the *active element* panel.
+and check *negative* in the *Active element* panel.
 
 
 Hiding Elements
@@ -125,8 +131,8 @@ A "family" is a way to regroup several meta objects,
 producing something very similar to having several metas inside the same object.
 
 A family is defined by the left part of an object's name (the one before the dot). Remember,
-an object's name is the one in the *OB* field, in most panels,
-**not** the *MB* field, which is the meta data-block's name... For example,
+an object's name is the one in the *Object name* field, in most panels,
+**not** the *Metaball name* field, which is the meta data-block's name... For example,
 the *family* part of "MetaPlane.001" is ``MetaPlane``.
 Each meta object in the same "family" is associated with one another as discussed below.
 

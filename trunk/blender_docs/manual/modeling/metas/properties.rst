@@ -3,6 +3,12 @@
 Properties
 **********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object or Edit Modes
+   | Panel:    :menuselection:`Properties editor --> Metaball`
+
 All Meta objects in a scene interact with each other.
 The settings in the *Metaball* section apply to all meta objects.
 In *Edit Mode*,
@@ -50,12 +56,6 @@ You can clearly see the underlying cubic structure that gives the meta cube its 
 Threshold (Influence)
 =====================
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object or Edit Modes
-   | Panel:    :menuselection:`Properties editor --> Metaball`
-
 *Threshold* defines how much a meta's surface "influences" other metas.
 It controls the *field level* at which the surface is computed.
 The setting is global to a group of *Meta* objects.
@@ -91,7 +91,7 @@ located in the *Update* buttons group of the *Metaball* panel:
 
 Always
    fully draw the meta during transformations.
-Half Res
+Half
    During transformations, draw the meta at half its *Wiresize* resolution.
 Fast
    Do not show meta mesh during transformations.

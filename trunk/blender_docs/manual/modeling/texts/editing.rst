@@ -7,7 +7,7 @@
 .. |oslash| unicode:: U+000F8
 
 *******************
-Editing & Selecting
+Selecting & Editing
 *******************
 
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
@@ -15,18 +15,44 @@ First, the 3D View, of course, where you type your text, and have a few shortcut
 styles (see :ref:`modeling-text-character`) -- note however, that most Blender hotkeys you know
 in *Edit Mode* do not exist for texts. The second place is the Properties Editor, especially the *Font* tab.
 
+
+Selecting & Cursor
+==================
+
 .. figure:: /images/modeling_texts_editing_cursor.png
    :width: 300px
 
    Text in Edit Mode.
+
+In *Edit Mode*, your text has a white cursor, and as in any text editor,
+it determines where new chars will be inserted.
+
+Next/Previous Character
+   You can move the cursor with the arrow keys :kbd:`Left` or :kbd:`Right`.
+Next/Previous Word
+   To move the cursor on a word's boundary, use :kbd:`Ctrl-Left` or :kbd:`Ctrl-Right`.
+Line Begin/End
+   :kbd:`Home` and :kbd:`End` move the cursor to the beginning and end of a line respectively.
+Next/Previous Line
+   To jump between lines, use :kbd:`Up` or :kbd:`Down`.
+Next/Previous Page
+   To jump back/forward ten lines at a time, use :kbd:`PageUp` or :kbd:`PageDown`.
+
+Hold :kbd:`Shift` while using the arrow keys to select a part of the text.
+You can use it to specify different materials, the normal/bold/italic style,
+and not much more...
+
+
+Editing
+=======
 
 The menu of the 3D View header offers few options,
 and there is no *Specials* menu... You have no transform nor mirror tools, and so on.
 However, you can apply to texts the same modifiers as for curves.
 
 
-Basic Editing
-=============
+Basic
+-----
 
 Editing *Text* is similar to using a standard text editor but is not as
 full-featured and has some differences:
@@ -91,35 +117,8 @@ Some examples are given below:
      - :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`/`
 
 
-Cursor & Selection
-==================
-
-.. figure:: /images/modeling_texts_editing_cursor.png
-   :width: 300px
-
-   Text in Edit Mode.
-
-In *Edit Mode*, your text has a white cursor, and as in any text editor,
-it determines where new chars will be inserted.
-
-Next/Previous Character
-   You can move the cursor with the arrow keys :kbd:`Left` or :kbd:`Right`.
-Next/Previous Word
-   To move the cursor on a word's boundary, use :kbd:`Ctrl-Left` or :kbd:`Ctrl-Right`.
-Line Begin/End
-   :kbd:`Home` and :kbd:`End` move the cursor to the beginning and end of a line respectively.
-Next/Previous Line
-   To jump between lines, use :kbd:`Up` or :kbd:`Down`.
-Next/Previous Page
-   To jump back/forward ten lines at a time, use :kbd:`PageUp` or :kbd:`PageDown`.
-
-Hold :kbd:`Shift` while using the arrow keys to select a part of the text.
-You can use it to specify different materials, the normal/bold/italic style,
-and not much more...
-
-
 Inserting Text
-==============
+--------------
 
 You can insert text in two ways: from the internal text buffer
 (as described above), or from a text file.
@@ -131,10 +130,10 @@ as interactive response will slow down.
 
 
 Converting Text Objects
-=======================
+-----------------------
 
 Converting to Text Object
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/modeling_texts_editing_convert-to.jpg
 
@@ -146,7 +145,7 @@ It is also possible to paste from the clipboard or a file from the *Edit* menu, 
 
 
 Converting to 3D Mesh
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 It is possible to convert a Text Object to a 3D Mesh object.
 This can be useful so that you may edit the vertices in *Edit Mode*,
@@ -163,7 +162,7 @@ They are usually a bit messy, so it may be useful to use a *Limited Dissolve* de
 
 
 Assigning Materials
-===================
+-------------------
 
 .. admonition:: Reference
    :class: refbox
