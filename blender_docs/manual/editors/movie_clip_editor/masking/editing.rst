@@ -1,9 +1,9 @@
 
 *******************
-Selection & Editing
+Selecting & Editing
 *******************
 
-Selection
+Selecting
 =========
 
 The usual selection tools are available:

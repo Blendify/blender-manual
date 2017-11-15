@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|}}.
 
-******************
-Exposure and Range
-******************
+****************
+Exposure & Range
+****************
 
 .. admonition:: Reference
    :class: refbox

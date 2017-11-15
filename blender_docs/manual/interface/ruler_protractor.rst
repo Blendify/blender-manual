@@ -2,9 +2,9 @@
 
 .. _bpy.ops.view3d.ruler:
 
-********************
-Ruler and Protractor
-********************
+******************
+Ruler & Protractor
+******************
 
 .. admonition:: Reference
    :class: refbox
