@@ -30,7 +30,7 @@ Axis
    This menu determines the direction of the ray.
    The ± signs is whether it is on the axis direction (+), or the opposite (-).
 Range
-   Determines the length of the ray. (Blender units).
+   Determines the length of the ray (in Blender units).
 X-Ray Mode button
    Makes it x-ray, so that it sees through objects that do not
    have the property or material specified in the filter field.
