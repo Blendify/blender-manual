@@ -4,9 +4,9 @@ Editing
 *******
 
 By default, when new channels are added, the *Graph Editor* sets them to *Edit Mode*.
-Selected channels can be locked by pressing :kbd:`Tab`.
 
-Many of the hotkeys are the same as the viewport ones, for example:
+Many of the hotkeys are the same as the :doc:`3D View ones </editors/3dview/object/index>`,
+for example:
 
 - :kbd:`G` to grab
 - :kbd:`R` to rotate
