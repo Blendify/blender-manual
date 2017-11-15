@@ -14,7 +14,7 @@ Options
 =======
 
 Relative Path
-   Select the file relative to the blend-file.
+   Select the file path relative to the blend-file.
 
 Accuracy
    Sample accuracy, important for animation data (the lower the value, the more accurate).

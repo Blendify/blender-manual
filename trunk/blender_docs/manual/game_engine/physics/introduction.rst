@@ -148,7 +148,7 @@ it will put some statistics in the upper-left area of the game window.
 .. seealso::
 
    These can be very informative, but also a bit cryptic. Moguri has elaborated on their meanings, for us:
-   `Moguris blog <https://mogurijin.wordpress.com/2012/01/03/bge-profile-stats-and-what-they-mean/>`__.
+   `Moguri's blog <https://mogurijin.wordpress.com/2012/01/03/bge-profile-stats-and-what-they-mean/>`__.
 
 
 Mesh Deformations
