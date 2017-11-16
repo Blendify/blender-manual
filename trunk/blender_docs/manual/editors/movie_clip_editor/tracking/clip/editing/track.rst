@@ -11,9 +11,9 @@ Prefetch :kbd:`P`
    This allows to fill in the cache as fast as possible when you really need to track something,
    but this keeps CPU and drive bandwidth idle if you've got Clip editor opened but not actually interacting with it.
 Reload
-   ToDo.
+   ToDo >2.61.
 Set Scene Frames
-   ToDo.
+   ToDo >2.61.
 
 
 Marker Panel
@@ -70,11 +70,11 @@ Tracking Settings Panel
 This panel contains all settings for the 2D tracking algorithms.
 
 Tracking Presets
-   ToDo.
+   ToDo 2.63.
 Channels
-   ToDo.
+   ToDo ~2.63.
 Pattern Size, Search
-   ToDo.
+   ToDo ~2.63.
 Motion Model
    Defines which possible motions tracking feature has. This option should be set depending on which motion
    a particular feature has and it'll make tracking most accurate for such a motion.
@@ -118,7 +118,7 @@ Normalize
    to make them invariant to illumination changes. An example where this is useful is a scene where
    a marker moves in the shadow of an object.
 Copy From Active Track
-   Tracker settings only -- ToDo.
+   Tracker settings only -- ToDo 2.64.
 
 .. (alt) Previous frame: An image created from the current frame is sent as first image to the tracker.
 
@@ -127,7 +127,7 @@ Extra Settings
 --------------
 
 Use Mask
-   ToDo.
+   ToDo 2.64.
 Correlation
    Is now a single value for all tracking settings and defines the minimal correlation between
    a matched pattern and a reference to be considered a successful tracking.
@@ -189,7 +189,7 @@ Action
    Clear (Track Path/All) :kbd:`Shift-Alt-T`
       Clears all markers except the current one from all selected tracks.
 Clear Active
-   ToDo.
+   ToDo <2.67.
 
 
 Refine

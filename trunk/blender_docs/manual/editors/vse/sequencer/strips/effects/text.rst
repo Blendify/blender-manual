@@ -28,7 +28,7 @@ Align X, Y
 Location X, Y
    Positions the text on the X, Y axis.
 Wrap Width
-   Todo,
+   Todo.
 Export Subtitles
    Exporting subtitles in .srt format is also supported.
    The exported subtitles contain all text strips in the sequence editing.

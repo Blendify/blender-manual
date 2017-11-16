@@ -190,7 +190,7 @@ Copy Mirrored UV Coordinates
    | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Copy Mirrored UV Coordinates`
    | Menu:     :menuselection:`UVs --> Copy Mirrored UV Coordinates`
 
-ToDo.
+ToDo <2.57.
 
 
 Mirror

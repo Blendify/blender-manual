@@ -234,7 +234,7 @@ Mute Deselected Strips :kbd:`Shift-H`
    You can mute all strips but the selected.
 
 
-.. (todo) to header
+.. (todo move) to header
 
 Copy and Paste
 ==============

@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|partial=x|fixes=[]}}.
 
 ******
 Layers

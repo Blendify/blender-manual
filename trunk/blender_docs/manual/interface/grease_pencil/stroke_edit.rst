@@ -136,7 +136,7 @@ Move to Color
    Sets the active color as the new color to all selected strokes.
 
 Subdivide
-   ToDo.
+   ToDo 2.79.
 Join Strokes
    Type
       Join `Ctrl-J`

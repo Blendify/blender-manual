@@ -121,7 +121,7 @@ Show Seconds :kbd:`Ctrl-T`
    Whether to show the time in the X-axis and the *Time Cursor* as
    frames (based on the FPS) or as seconds.
 Lock Time to Other Windows
-   ToDo.
+   ToDo 2.71.
 Show Frame Number Indicator
    This will draw the current frame or seconds on the *Time Cursor*.
 Only Keyframes from Selected Channels

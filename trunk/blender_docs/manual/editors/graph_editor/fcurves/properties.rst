@@ -1,4 +1,4 @@
-.. (todo) view properties panel
+.. (todo add) view properties panel
 
 **********
 Properties

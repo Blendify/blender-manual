@@ -41,7 +41,7 @@ Join in New Frame
    | Menu:     :menuselection:`Node --> Join in new Frame`
    | Hotkey:   :kbd:`Ctrl-J`
 
-ToDo.
+ToDo 2.60.
 
 
 Adding

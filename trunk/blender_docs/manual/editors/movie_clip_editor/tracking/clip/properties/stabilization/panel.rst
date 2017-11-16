@@ -1,4 +1,4 @@
-.. (todo) introductory text parts to introduction.rst
+.. (todo move) introductory text parts to introduction.rst
 
 **********************
 2D Stabilization Panel

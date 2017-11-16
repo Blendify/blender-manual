@@ -16,18 +16,18 @@ position the next strip under the original at a point where you want motion to c
 Options
 =======
 
-Todo.
+Todo 2.43.
 
 .. (wip)
    Stretch to Input Strip Length
       Will match the length of the Speed Control strip with the length of the Input strip.
    Use as Speed
       Speed Factor
-         Todo.
+         Todo 2.43.
    Scale to Length
-      Todo.
+      Todo 2.43.
    Multiply Speed
-      Todo.
+      Todo 2.43.
 
 
 Examples

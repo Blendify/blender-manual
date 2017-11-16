@@ -91,7 +91,7 @@ position of tracks. Basically, reprojection error below 0.3 means accurate repro
 Values above 3 means some tracks should be tracked more accurately,
 or that values for focal length or distortion coefficients were set incorrectly.
 
-.. (todo) object solver
+.. (todo 2.62) object solver
 
 
 Cleanup Panel
@@ -101,7 +101,7 @@ This panel contains a single operator and its settings. This operator cleans up 
 tracks which are not tracked long enough or which failed to reconstruct accurately.
 
 Frames
-   ToDo.
+   ToDo >2.61.
 Error
    Error threshold value.
 Action
@@ -119,9 +119,9 @@ Geometry Panel
 ==============
 
 3D Markers to Mesh
-   Converts the reconstructed points into a point cloud (single mesh). ToDo.
+   Converts the reconstructed points into a point cloud (single mesh). ToDo 2.61.
 Link Empty to Track
-   ToDo.
+   ToDo 2.61.
 
 
 Orientation Panel
@@ -130,19 +130,19 @@ Orientation Panel
 Scene orientation tools can be used for orienting object to bundles.
 
 Floor
-   Select three markers that should lay on the floor plane. ToDo.
+   Select three markers that should lay on the floor plane. ToDo >2.61.
 Wall
    Define world orientation based on points on the wall.
 Set Origin
-   ToDo.
+   ToDo >2.61.
 Set X, Y Axis
-   ToDo.
+   ToDo >2.61.
 Set Scale
    Object has got scale to define "depth" in camera space.
 Apply
    Apply scale on scene solution.
 Distance
-   ToDo.
+   ToDo >2.61.
 
 
 Scene Setup
@@ -153,4 +153,4 @@ Set as Background
    If there is no visible 3D Views or the Clip Editor is open in full screen,
    nothing will happen.
 Setup Tracking Scene
-   ToDo.
+   ToDo >2.61.

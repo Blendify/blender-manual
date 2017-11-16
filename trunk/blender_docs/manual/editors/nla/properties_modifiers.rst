@@ -22,7 +22,7 @@ Animation Data
    Animation Data panel
 
 Context
-   ToDo.
+   ToDo >2.57.
 Action
    A :ref:`Data-Block <ui-data-block>` menu that allows you to edit actions shown in the action track.
    See also the Action Editor's :ref:`Action <dopesheet-action-action>`.
@@ -45,7 +45,7 @@ Action Blending
 
    Multiply, Subtract, Add
 Action Influence
-   ToDo.
+   ToDo <2.68.
 
 
 Active Track

@@ -86,7 +86,7 @@ Removing Drivers
    | Menu:     :menuselection:`Context menu --> Delete (Single) Driver(s)`
    | Hotkey:   :kbd:`Ctrl-Alt-D`
 
-ToDo.
+ToDo add.
 
 .. seealso::
 

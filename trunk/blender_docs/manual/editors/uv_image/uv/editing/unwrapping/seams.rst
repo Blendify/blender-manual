@@ -116,4 +116,4 @@ Mark Seams from Island
    | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools: --> Unwrap: Mark Seams from Island`
    | Menu:     :menuselection:`UVs --> Mark Seams from Island`
 
-ToDo.
+ToDo 2.44.

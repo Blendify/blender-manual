@@ -54,10 +54,11 @@ Pin (pin icon)
 
       The unpinned keys return to their original frames.
 
-.. (todo) add track
+.. (todo add) add track
 
 
-.. (todo) Action Stashing http://aligorith.blogspot.com/2015/03/action-management-roadmap-2015-version.html
+.. (todo add)  Action Stashing 
+   http://aligorith.blogspot.com/2015/03/action-management-roadmap-2015-version.html
 
 Action Stashing
 ===============
