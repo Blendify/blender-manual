@@ -16,7 +16,7 @@ View all Sequences :kbd:`Home`
 View Selected :kbd:`NumpadPeriod`
    Zooms in the display to fit only the selected strips.
 View Frame :kbd:`Numpad0`
-   ToDo.
+   ToDo 2.78.
 Show Seconds :kbd:`Ctrl-T`
    Displays the time instead of the frame number, in the Frame Number Indicator.
 Show Frame Number Indicator

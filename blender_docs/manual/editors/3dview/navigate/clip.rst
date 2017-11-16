@@ -75,7 +75,7 @@ Render Border
    | Hotkey:   :kbd:`Ctrl-B`, :kbd:`Ctrl-Alt-B`
 
 Rectangular camera space clipping in and outside the Camera view.
-ToDo.
+ToDo add.
 
 .. seealso::
 

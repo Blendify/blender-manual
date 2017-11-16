@@ -6,7 +6,7 @@ Configuring Peripherals
 Displays
 ========
 
-Todo.
+Todo add.
 
 .. Include HMD for the future
 

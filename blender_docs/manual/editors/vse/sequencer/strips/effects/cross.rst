@@ -20,7 +20,7 @@ Options
 =======
 
 Default Fade
-   Todo.
+   Todo 2.43.
 
    Effect Fader
-      Todo.
+      Todo 2.43.

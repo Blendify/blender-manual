@@ -45,7 +45,7 @@ Show
 Run Script/ Script Node Update
    Executes the text as a Python script :kbd:`Alt-P`. See `Script and Templates`_.
 Register
-   Todo.
+   Todo <2.64.
 Label
    This Label shows, if the text is saved internal or external and
    if there are unsaved changes to an external file.

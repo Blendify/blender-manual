@@ -23,4 +23,4 @@ current file and :menuselection:`File --> Save Startup File`.
 Saving the ``startup.blend`` still stores user preferences in the file.
 Only if a ``userpref.blend`` exists, it uses the preferences from that file.
 
-ToDo: Restore :ref:`factory-settings`.
+(ToDo add): Restore :ref:`factory-settings`.

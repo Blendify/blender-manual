@@ -15,16 +15,16 @@ Mask Layer
    simple to transform all of them together.
 
 Opacity
-   ToDo.
+   ToDo 2.64.
 
    Invert
-      ToDo.
+      ToDo 2.64.
 Blend
-   ToDo.
+   ToDo 2.64.
 Falloff
-   Feather. ToDo.
+   Feather. ToDo 2.64.
 Overlap
-   Detect self intersections. ToDo.
+   Detect self intersections. ToDo 2.64.
 Holes
    Option not to treat overlapping curves as holes.
    Concentric splines will generating holes in the mask.
@@ -74,9 +74,9 @@ Active Spline
    non-linear feather is controlled in the same curve-based way to define feather falloff.
 
 Feather Offset
-   ToDo.
+   ToDo 2.64.
 Weight Interpolation
-   ToDo.
+   ToDo 2.64.
 Cyclic
    If the spline is closed or not.
 Fill
@@ -116,4 +116,4 @@ Track
 Mask Settings
 =============
 
-ToDo.
+ToDo 2.64.

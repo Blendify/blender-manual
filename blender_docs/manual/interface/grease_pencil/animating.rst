@@ -1,4 +1,4 @@
-.. This page should be a general workflow page (TODO).
+.. (TODO) This page should be a general workflow page.
 
 ******************
 Animating Sketches
@@ -19,7 +19,7 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 #. Jump to next relevant frame. Draw some more.
 #. Keep repeating process, and drawing until satisfied. Voilà! Animated sketches.
 
-.. (todo) keyframes, on properties.
+.. (todo add) keyframes, on properties.
 
 .. seealso::
 
@@ -32,7 +32,7 @@ Compositing
 The Grease pencil layers create a pass inside :doc:`OpenGL </render/opengl>` render result.
 This result can be exported to ``EXR multilayer`` and used in composition.
 
-ToDo.
+ToDo add.
 
 
 Example

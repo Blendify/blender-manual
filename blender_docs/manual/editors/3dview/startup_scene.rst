@@ -67,4 +67,4 @@ Object Info
    The color of the Object Info is set by the :ref:`animation-state-colors` (keyframe only).
 
 
-.. (todo) rendering the startup scene
+.. (todo add) rendering the startup scene

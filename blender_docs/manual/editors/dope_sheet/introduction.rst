@@ -39,7 +39,7 @@ Grease Pencil
 Mask
    :ref:`Mask <dope-sheet-mask>` Mode is dedicated to the mask data-blocks.
 Cache File
-   Todo.
+   Todo add.
 
 
 Interface
@@ -62,7 +62,7 @@ a second one concerning the action data-blocks, and a few other tools
 (like the copy/paste buttons, and snapping type).
 
 Summary
-   ToDo.
+   ToDo <2.64.
 
 
 View Menu

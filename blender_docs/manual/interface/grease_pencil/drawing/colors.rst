@@ -28,14 +28,14 @@ Colors
       A palette must contain at least one color, so the last one cannot be deleted.
 
    Lock (padlock icon)
-      ToDo.
+      ToDo 2.78.
    Hide (eye icon)
-      ToDo.
+      ToDo 2.78.
    Ghost (ghost icon)
-      ToDo.
+      ToDo 2.78.
 
    Specials
-     ToDo.
+     ToDo 2.78.
 
 Stroke
    Sets the line color and the maximum opacity (which is also affected by the brush strength).

@@ -56,7 +56,7 @@ as with *Alpha Under*, the first strip selected will be the foreground, but as w
 the *Opacity* controls the transparency of this foreground.
 
 
-.. Todo, update text for new image.
+.. (Todo update) text for new image.
 
 Example
 =======

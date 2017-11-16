@@ -24,7 +24,7 @@ Bounds
    Displays a bounding box around an object.
 
    Draw Bounds Type
-      TODO.
+      TODO 2.68.
 
 Texture Space
    Displays the objects :term:`Texture Space`.

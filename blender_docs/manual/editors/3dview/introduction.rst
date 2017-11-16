@@ -6,7 +6,7 @@ Introduction
 The 3D View is used to interact with the 3D scene for a variety of purposes,
 such as modeling, animation, texture painting, etc.
 
-.. TODO expand, more general info
+.. (TODO add) expand, more general info
 
 
 Header

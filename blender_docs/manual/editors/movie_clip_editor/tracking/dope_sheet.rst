@@ -34,9 +34,9 @@ Header
 
 Show
    Only selected (mouse cursor icon)
-      ToDo.
+      ToDo >2.61.
    Hidden (ghost icon)
-      ToDo.
+      ToDo >2.61.
 Sort Method
    Sort order of the tracks.
 

@@ -184,7 +184,7 @@ Duplicate Marker to Scene
    | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Duplicate Marker to Scene...`
 
-ToDo.
+ToDo 2.42.
 
 
 Deleting Markers

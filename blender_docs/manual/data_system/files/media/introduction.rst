@@ -3,10 +3,10 @@
 Introduction
 ************
 
-TODO.
+TODO add.
 
 
 Color Spaces
 ============
 
-TODO.
+TODO add.

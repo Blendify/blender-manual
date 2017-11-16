@@ -35,11 +35,11 @@ Type
    Tent
       Preserves the high and the lows better by making a linear falloff.
    Quadratic
-      TODO
+      TODO.
    Cubic
       Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
    Gaussian
-      TODO
+      TODO.
    Fast Gaussian
       An approximation of the Gaussian.
    Catmull-Rom
