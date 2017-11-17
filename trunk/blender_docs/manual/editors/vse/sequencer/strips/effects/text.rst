@@ -30,5 +30,5 @@ Location X, Y
 Wrap Width
    Todo.
 Export Subtitles
-   Exporting subtitles in .srt format is also supported.
+   Exporting subtitles in ``.srt`` format is also supported.
    The exported subtitles contain all text strips in the sequence editing.

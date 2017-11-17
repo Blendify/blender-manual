@@ -131,7 +131,7 @@ Toggle Hidden Node Sockets
    :kbd:`Ctrl-H`
 Toggle Node Options
    ToDo.
-Collaps and Hide Unused Sockets
+Collapse and Hide Unused Sockets
    ToDo 2.62.
 
 
