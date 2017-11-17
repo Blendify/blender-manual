@@ -68,14 +68,14 @@ Select Similar
    | Menu:     :menuselection:`Select --> Select Similar`
    | Hotkey:  :kbd:`Shift-G`
 
-ToDo.
+ToDo 2.76.
 
 Type
-   ToDo.
+   ToDo 2.76.
 Compare
-   ToDo.
+   ToDo 2.76.
 Threshold
-   ToDo.
+   ToDo 2.76.
 
 
 Shortest Path
@@ -88,7 +88,7 @@ Shortest Path
    | Menu:     :menuselection:`Operator Search --> Pick Shortest Path`
    | Hotkey:  :kbd:`Ctrl`
 
-ToDo.
+ToDo 2.76.
 
 
 Select/Deselect First/Last

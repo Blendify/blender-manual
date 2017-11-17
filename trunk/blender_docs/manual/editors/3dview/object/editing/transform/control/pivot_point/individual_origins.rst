@@ -1,4 +1,4 @@
-.. (TODO err) Wrong description in the section "In Edit Mode".
+.. (TODO error) Wrong description in the section "In Edit Mode".
    Whether the last example image is informative?
 
 .. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png

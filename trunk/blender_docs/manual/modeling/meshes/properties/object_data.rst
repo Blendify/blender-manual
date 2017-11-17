@@ -58,7 +58,7 @@ Vertex Groups
 
 See :doc:`/modeling/meshes/properties/vertex_groups/vertex_groups`.
 
-TODO.
+TODO add.
 
 
 Shape Keys
@@ -66,7 +66,7 @@ Shape Keys
 
 See :doc:`/animation/shape_keys/shape_keys_panel`.
 
-TODO.
+TODO add.
 
 
 UV Maps
@@ -74,16 +74,16 @@ UV Maps
 
 See :ref:`uv-maps-panel`.
 
-TODO.
+TODO add.
 
 
 Vertex Colors
 =============
 
-TODO.
+TODO add.
 
 
 Geometry Data
 =============
 
-TODO.
+TODO add.

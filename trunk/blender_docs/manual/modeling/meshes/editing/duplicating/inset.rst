@@ -46,7 +46,7 @@ Offset Even
 Offset Relative
    Scale the offset by surrounding geometry.
 Edge Rail
-   ToDo.
+   ToDo <2.70a.
 Thickness
    Set the size of the offset.
 Depth

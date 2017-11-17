@@ -1,5 +1,5 @@
 .. _bpy.ops.view3d.edit_mesh_extrude:
-.. (todo) Extrude Edges and Vertices Only needs a rewrite.
+.. (todo rewrite) Extrude Edges and Vertices Only needs a rewrite.
 
 *******
 Extrude

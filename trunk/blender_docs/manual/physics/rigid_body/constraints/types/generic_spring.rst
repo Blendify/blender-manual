@@ -1,4 +1,4 @@
-.. (todo) wrong images
+.. (todo error) wrong images
 
 **************
 Generic Spring

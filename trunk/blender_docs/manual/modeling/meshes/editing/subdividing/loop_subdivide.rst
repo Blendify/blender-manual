@@ -1,5 +1,4 @@
 .. _bpy.ops.mesh.loopcut_slide:
-.. TODO/Review: {{review|}}.
 
 **************
 Loop Subdivide

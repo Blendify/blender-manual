@@ -193,7 +193,7 @@ you can define used UV Maps and output file saving directory, filenames and imag
 Initial Color Panel
 ===================
 
-ToDo.
+ToDo 2.62.
 
 
 Effects Panel

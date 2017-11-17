@@ -31,7 +31,7 @@ Direction
    Normal
       Displace along the vertex normal.
    Custom Normal
-      ToDo.
+      ToDo 2.74.
 
       .. Displace along the average vertex normal (vertex loop?).
    RGB to XYZ

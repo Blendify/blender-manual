@@ -1,4 +1,4 @@
-.. (todo) generalize from extrude
+.. (todo add) generalize from extrude
 
 ************
 Introduction
@@ -10,7 +10,7 @@ Attributes
 Weight
 ------
 
-ToDo.
+ToDo add.
 
 
 Radius

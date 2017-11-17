@@ -118,11 +118,11 @@ Grid Fill
 that follows the surrounding geometry.
 
 Span
-   ToDo.
+   ToDo 2.68.
 Offset
-   ToDo.
+   ToDo 2.68.
 Simple Blending
-   ToDo.
+   ToDo 2.68.
 
 .. list-table::
 
@@ -256,9 +256,9 @@ This tool fan-fills each face around a central vertex.
 This can be useful as a way to triangulate n-gons, or the *Offset* can be used to make spikes or depressions.
 
 Poke Offset
-   ToDo.
+   ToDo 2.67.
 Offset Relative
-   ToDo.
+   ToDo 2.67.
 Poke Center
    Weighted Mean, Mean, Bounds
 

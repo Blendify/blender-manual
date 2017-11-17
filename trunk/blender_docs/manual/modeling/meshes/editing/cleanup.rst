@@ -62,7 +62,7 @@ Make Planar Faces
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Make Planar Faces`
 
-ToDo
+ToDo 2.76.
 
 
 Split Non-Planar Faces
@@ -87,7 +87,7 @@ Split Concave Faces
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Split Concave Faces`
 
-ToDo
+ToDo 2.74.
 
 
 Delete Loose Geometry

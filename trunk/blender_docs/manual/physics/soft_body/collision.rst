@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|copy=X|text=partialy}}.
+..    TODO/Review: {{review|copy=X|text=partially}}.
 
 *********
 Collision

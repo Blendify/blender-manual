@@ -63,7 +63,7 @@ Direction
    Specify the axis and direction of the effect. Can be any of the three axes,
    and either positive to negative, or negative to positive.
 Threshold
-   ToDo.
+   ToDo 2.69.
 
 .. list-table::
 
