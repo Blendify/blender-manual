@@ -416,6 +416,8 @@ The Pivot Point can be changed to:
 3D View
 =======
 
+.. _uv-image-rotate-reverse-uvs:
+
 Face Mirror and Rotate UVs
 --------------------------
 
