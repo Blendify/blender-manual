@@ -29,7 +29,7 @@ Point Data
       Object Vertices, Generate point density from an object's vertices.
 
 Object
-   Object to tak epoint data from.
+   Object to take the point data from.
 Radius
    Radius of the points.
 

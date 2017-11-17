@@ -378,10 +378,8 @@ See :ref:`Rotate Edge <modeling-meshes-editing-edges-rotate>` for more informati
 Rotate & Reverse
 ================
 
-Rotate UVs
-   Todo.
-Reverse UVs
-   Todo.
+Rotate/Reverse UVs
+   See :ref:`uv-image-rotate-reverse-uvs`.
 Rotate Colors
    Todo.
 Reverse Colors

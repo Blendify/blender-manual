@@ -81,7 +81,7 @@ Layer Samples
    When render layers have per layer number of samples set, this option specifies how to use them.
 
    Use
-      ToDo 2.67.
+      The render layer samples will override the set scene samples.
    Bounded
       Bound render layer samples by scene samples.
    Ignore

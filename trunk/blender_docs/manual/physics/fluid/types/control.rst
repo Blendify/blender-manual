@@ -6,7 +6,7 @@
 Fluid Control
 *************
 
-Using the Lattice-boltzman method, the fluid is controlled using particles which define local
+Using the Lattice-Boltzmann method, the fluid is controlled using particles which define local
 force fields and are generated automatically from either a physical simulation or a sequence
 of target shapes. At the same time, as much as possible of the natural fluid motion is preserved.
 
