@@ -9,7 +9,7 @@ The visualization of bones can be set in the Armatures :doc:`/rigging/armatures/
 .. (wip) are rigid.
 
 
-.. (todo) move to bone > properties > deform? , extend control: fk
+.. (todo move)? to bone > properties > deform, extend control: fk
 
 Classification
 ==============

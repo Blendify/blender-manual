@@ -71,7 +71,7 @@ Selection Mask, Alpha
    See `Further Options`_.
 
 
-.. (todo) move to a better place
+.. (todo move) to a better place
 
 Menu
 ----

@@ -137,7 +137,7 @@ Data-Block Types
    it is the only comprehensive list of data-blocks, and something which you cannot
    find directly just through looking at the interface.
    ::
-   TODO, add links to related docs for each type.
+   (TODO add) links to related docs for each type.
 
 .. image source: Scene tab --> Active keying set panel --> ID-block (sound replaced)
 

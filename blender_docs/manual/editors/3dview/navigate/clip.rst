@@ -81,5 +81,5 @@ ToDo add.
 
    :ref:`3dview-nav-zoom-border`.
 
-.. (todo?) Remove redundant info for the 'View Clipping Border' functionality.
+.. (todo remove)? redundant info for the 'View Clipping Border' functionality.
    Split the page and separate 'Render Border' and create text for this usage context.

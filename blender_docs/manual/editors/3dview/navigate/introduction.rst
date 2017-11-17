@@ -1,4 +1,4 @@
-.. (todo) move orbit, pan, zoom?
+.. (todo move) orbit, pan, zoom?
 
 ************
 Introduction

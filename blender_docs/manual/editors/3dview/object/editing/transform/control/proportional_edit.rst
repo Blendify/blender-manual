@@ -46,7 +46,7 @@ the other two cubes follow the movement.
    Proportional editing in Object Mode.
 
 
-.. Todo move to modeling section
+.. (Todo move) to modeling section
 
 Edit Mode
 =========

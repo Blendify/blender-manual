@@ -3,7 +3,7 @@
 Introduction
 ************
 
-TODO see https://developer.blender.org/T46878
+(TODO add) see https://developer.blender.org/T46878
 
 The UV/Image Editor is where you can edit 2D assets like images/textures and UVs.
 

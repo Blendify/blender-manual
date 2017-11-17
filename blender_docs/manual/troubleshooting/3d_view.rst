@@ -1,4 +1,4 @@
-.. Todo add GL texture limit.
+.. (Todo add) GL texture limit.
 
 *******
 3D View
