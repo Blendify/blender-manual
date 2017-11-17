@@ -63,7 +63,7 @@ Full details of using Image textures are on the
    or enable *Face Texture*, your object will render according to the procedural material settings.
 
 
-.. (TODO) Removed in 2.8
+.. (TODO remove) Removed in 2.8
 .. _face-textures:
 
 Face Textures

@@ -36,4 +36,4 @@ Outputs
 Value
    Grayscale value output.
 
-.. TODO add examples of why this might be useful
+.. (TODO add) examples of why this might be useful

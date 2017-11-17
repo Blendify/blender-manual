@@ -57,7 +57,7 @@ Pin (pin icon)
 .. (todo add) add track
 
 
-.. (todo add)  Action Stashing 
+.. (todo add) Action Stashing 
    http://aligorith.blogspot.com/2015/03/action-management-roadmap-2015-version.html
 
 Action Stashing

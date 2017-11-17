@@ -1,6 +1,6 @@
 .. highlight:: sh
 
-.. TODO: document how to handle files being added/removed/moved.
+.. (TODO add) document how to handle files being added/removed/moved.
 
 **********
 Contribute

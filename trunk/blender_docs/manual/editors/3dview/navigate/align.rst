@@ -6,7 +6,7 @@ Aligning
 These options allow you to align and orient the view.
 
 
-.. (todo) add negative/positive direction
+.. (todo add) negative/positive direction
 
 Axes
 ====

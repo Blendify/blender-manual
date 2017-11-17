@@ -1,4 +1,4 @@
-.. (TODO) Add images
+.. (TODO add) images
 
 ******
 Scopes
@@ -30,7 +30,7 @@ Show line
 Waveform
 ========
 
-.. (TODO) Add description of a Waveform maybe this should go in the glossary?
+.. (TODO sdd) description of a Waveform maybe this should go in the glossary?
 
 Waveform Opacity
    Opacity of the points.
@@ -48,7 +48,7 @@ Waveform Mode
 Vectorscope
 ===========
 
-.. (TODO) Add description of a Vectorscope maybe this should go in the glossary?.
+.. (TODO add) description of a Vectorscope maybe this should go in the glossary?.
 
 Vectorscope Opacity
    Opacity of the points.

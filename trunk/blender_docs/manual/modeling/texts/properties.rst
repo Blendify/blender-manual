@@ -1,4 +1,4 @@
-.. (todo) split? move text style toggle to editing
+.. (todo move) split? move text style toggle to editing
 
 **********
 Properties
