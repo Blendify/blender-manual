@@ -30,7 +30,7 @@ Vertex Group
    Invert
       Inverts the vertex group weights.
    Factor
-      ToDo.
+      ToDo 2.70.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_result.jpg
    :width: 350px

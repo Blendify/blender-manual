@@ -42,7 +42,7 @@ This makes working with surfaces quite easy.
 Bézier
 ------
 
-ToDo.
+ToDo add.
 
 
 Endpoint
@@ -126,4 +126,4 @@ Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface res
 Smooth
 ------
 
-ToDo.
+ToDo add.

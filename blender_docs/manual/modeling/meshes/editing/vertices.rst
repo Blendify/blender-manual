@@ -271,9 +271,9 @@ Drag the cursor to specify the position along the line formed by the edge,
 then :kbd:`LMB` again to move the vertex.
 
 Even :kbd:`E`
-   ToDo.
+   ToDo 2.63.
 Flip :kbd:`F`
-   ToDo.
+   ToDo 2.63.
 Clamp :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.
 
@@ -339,9 +339,9 @@ Join Triangles
    Joins adjacent triangles into quads.
    Has all the same properties as the *Tris to Quads* operator (angle limit, compare UVs, etc.).
 Max Face Angle
-   ToDo.
+   ToDo 2.64.
 Max Shape Angle
-   ToDo.
+   ToDo 2.64.
 
 
 Make Vertex Parent

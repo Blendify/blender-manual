@@ -6,7 +6,7 @@ Normals
 Introduction
 ============
 
-Todo.
+Todo add.
 
 .. Explain what are normals
 

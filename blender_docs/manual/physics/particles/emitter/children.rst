@@ -91,7 +91,7 @@ Clump
 Shape
    Form of *Clump*. Either inverse parabolic (0.99) or exponentially (-0.99).
 Use Clump Noise
-   Todo.
+   Todo 2.74.
 
 Length
    Length of child paths.

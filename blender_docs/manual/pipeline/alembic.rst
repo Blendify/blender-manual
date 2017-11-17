@@ -88,19 +88,19 @@ UVs
    When enabled, UV maps are exported. Although the Alembic standard only supports a single UV
    map, Blender exports all UV maps in a way that should be readable by other software.
 Pack UV Islands
-   TODO: figure out & describe what this does.
+   TODO 2.78/9: figure out & describe what this does.
 Normals
-   TODO: figure out & describe what this does.
+   TODO 2.78/9: figure out & describe what this does.
 Vertex Colors
    When enabled, exports vertex colors. At this moment, this only supports static vertex colors,
    and not dynamically animated vertex colors.
 Face Sets
-   TODO: figure out & describe what this does.
+   TODO 2.78/9: figure out & describe what this does.
 Use Subdivision Schema
    When enabled, writes polygonal meshes using the "SubD" Alembic schema, rather than the
    "PolyMesh" schema.
 Apply Subdivision Surface
-   TODO: figure out & describe what this does.
+   TODO 2.78/9: figure out & describe what this does.
 Triangulate
    Triangulates the mesh before writing to Alembic.
 

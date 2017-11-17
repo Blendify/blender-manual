@@ -96,10 +96,10 @@ Particle System
    Brush influence is defined by particles from a selected particle system.
 
    Particle Effect: Solid Radius
-      ToDo.
+      ToDo 2.62.
    Use Particle Radius
       Smooth Radius
-         ToDo.
+         ToDo 2.62.
 
    .. figure:: /images/physics_dynamic-paint_brush_source-particle-system.png
 
@@ -110,7 +110,7 @@ Common Options
 --------------
 
 Paint Distance
-   ToDo.
+   ToDo 2.62.
 Project
    Projects brush to the canvas from a defined direction.
    Basically this can be considered as "direction aligned" proximity.

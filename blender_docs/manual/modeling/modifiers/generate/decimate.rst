@@ -58,9 +58,9 @@ Ratio
 Vertex Group
    A vertex group that controls what parts of the mesh are reduced.
 Factor
-   ToDo.
+   ToDo 2.75.
 Triangulate
-   ToDo.
+   ToDo 2.75.
 Symmetry
    Maintains symmetry on a single axis.
 

@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|}}.
 
 **********
 Edge Tools
@@ -304,9 +303,9 @@ Connect Loops
    Loop pairs
       Connects each even count of loops individually.
 Merge
-   ToDo.
+   ToDo 2.68.
 Merge Factor
-   ToDo.
+   ToDo 2.68.
 Twist
    Determines which vertices in both loops are connected to each other.
 Number of Cuts
@@ -316,9 +315,9 @@ Interpolation
 Smoothness
    Smoothness of the *Blend Path* and *Blend Surface*.
 Profile Factor
-   ToDo.
+   ToDo 2.68.
 Profile Shape
-   ToDo. Compare to Proportional Editing Falloff.
+   ToDo 2.68. Compare to Proportional Editing Falloff.
 
 
 Examples

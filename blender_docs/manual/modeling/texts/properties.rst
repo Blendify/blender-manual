@@ -63,12 +63,12 @@ Texture Space
 
    Texture Settings.
 
+TODO add.
+
 Use UV for Mapping
    Use UV values as generated texture coordinates.
 Auto Texture Space
    Adjusts the active object's texture space automatically when transforming the object.
-
-TODO.
 
 
 Geometry

@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|}}.
 
 **************
 Make Edge/Face

@@ -97,7 +97,7 @@ You may also use the *Select* Menu.
 Select Random
 -------------
 
-ToDo.
+ToDo 2.73.
 
 
 Select Modes

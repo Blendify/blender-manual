@@ -45,4 +45,4 @@ and can be thought of as the geometric equivalent of blurring images.
 Each new vertex position is simply the average position of surrounding vertices
 (the vertices connected to the same edge as it).
 
-.. Add diagrams (TODO).
+.. (TODO) Add diagrams.

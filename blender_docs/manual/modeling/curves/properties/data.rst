@@ -65,7 +65,7 @@ Path/Curve-Deform
    Stretch
       The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
    Bounds Clamp
-      ToDo.
+      ToDo <2.71.
 
 .. seealso::
 

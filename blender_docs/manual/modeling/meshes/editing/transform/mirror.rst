@@ -118,7 +118,7 @@ All Groups
    If *All Groups* is checked, all assignations to these kind of groups
    will be replaced by the symmetrical counterpart, also keeping the old weights.
 Topology Mirror
-   Todo.
+   Todo <2.62.
 
 Usually only one of those operations (*Mirror Weights*, *Flip Groups Names*)
 will be performed, though you can tick both at the same time,

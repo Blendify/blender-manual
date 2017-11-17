@@ -68,7 +68,7 @@ Face Split
 
       Left: the input, middle: regular dissolve, right: Face Split enabled.
 Tear Boundaries
-   ToDo.
+   ToDo 2.72.
 
 
 Examples
@@ -93,9 +93,9 @@ Limits the dissolve on selected vertices and/or edges *not* touching a hole.
 Max Angle
    Reduces detail on planar faces and linear edges with an adjustable angle threshold.
 All Boundaries
-   ToDo.
+   ToDo 2.63.
 Delimit
-   ToDo.
+   ToDo 2.63.
 
 
 Edge Collapse
