@@ -61,7 +61,7 @@ Object Children
    | Mode:     Pose Mode
 
 Relative Parenting
-   ToDo.
+   ToDo 2.66.
 
 
 .. _bone-relations-parenting:

@@ -84,11 +84,11 @@ Exposure
    Different than the *Exposure* option found in the :ref:`Color management <render-post-color-management>`
    panel this exposure option works *on the data* while the Color management exposure is *on the view*.
 Transparent
-  ToDo.
+  ToDo ~2.40.
 Pixel Filter
    .. Sensor simulation or Anti-aliasing.
 
    Blackman-Harris, Box, Gaussian
 
    Width
-      ToDo.
+      ToDo 2.77.

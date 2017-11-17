@@ -8,26 +8,26 @@ Follow Track Constraint
 
    Follow Track Constraint panel.
 
-TODO - see: https://developer.blender.org/T46926
+TODO 2.62 - see: https://developer.blender.org/T46926
 
 By default Follow Track constraint is making object have the same position at frame as track has and
 motion of this objects happens on a single plane defined by camera and original object position.
 
 Active Clip
-   ToDo.
+   ToDo 2.62.
 3D Position
-   ToDo.
+   ToDo 2.62.
 Undistorted
-   ToDo.
+   ToDo 2.62.
 Frame Method
-   ToDo.
+   ToDo 2.62.
 Camera
-   ToDo.
+   ToDo 2.62.
 Depth Object
    If this object is set, constrained object would be projected onto surface of this depth object which
    can be used to make faked facial makeup.
 Constraint to F-Curve
-   ToDo.
+   ToDo 2.62.
 
 
 Example

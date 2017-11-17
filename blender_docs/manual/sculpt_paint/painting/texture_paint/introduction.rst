@@ -90,7 +90,7 @@ Add Simple UVs
    The *Add Simple UVs* does a simple cube unwrap followed by a pack operation.
    It's still recommended to make a custom unwrap.
 Add Paint Slot
-   ToDo.
+   ToDo 2.72.
 
 
 Texture Preview

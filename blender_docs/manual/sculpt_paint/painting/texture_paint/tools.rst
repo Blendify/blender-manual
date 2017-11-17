@@ -32,7 +32,7 @@ Fill
 It can be used to fill the image with the brush color.
 
 Fill Threshold
-   ToDo. (2D only)
+   ToDo <2.79. (2D only)
 
 .. note:: Overrides
 
@@ -61,7 +61,7 @@ Blends edges between two colors.
 
 Direction
    Soften
-      Blur filter. ToDo.
+      Blur filter. ToDo 2.72.
    Sharpen
       The Sharpen tool enhances the contrast of the image as you paint over it.
 
@@ -147,7 +147,7 @@ Accumulate
 Alpha
    Opacity of the clone image display.
 Use Gradient
-   A gradient can be used as color source. ToDo. See :ref:`ui-color-ramp-widget`.
+   A gradient can be used as color source. ToDo 2.72. See :ref:`ui-color-ramp-widget`.
    To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
    depending on the *Gradient Fill Mode* the gradient line, or radius, if radial gradient is used.
 

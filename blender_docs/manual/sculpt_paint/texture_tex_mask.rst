@@ -94,7 +94,7 @@ Texture Mask
 
 Brush strength is masked with a texture.
 
-ToDo.
+ToDo add.
 
 Pressure Masking
    A mask cut-off function. It allows to clip the mask result based on pressure,

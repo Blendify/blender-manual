@@ -81,7 +81,7 @@ Layer Samples
    When render layers have per layer number of samples set, this option specifies how to use them.
 
    Use
-      ToDo
+      ToDo 2.67.
    Bounded
       Bound render layer samples by scene samples.
    Ignore
@@ -292,7 +292,7 @@ Primitive
       Uses a triangle mesh.
 
       Resolution
-         ToDo.
+         ToDo ~2.67.
    Line Segments
       Uses a straight curve primitive.
    Curve Segments

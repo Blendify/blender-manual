@@ -59,9 +59,9 @@ Layer :kbd:`L`
    will reset the depth and paint on top of the previous stroke.
 
    Persistent
-      ToDo.
+      ToDo <2.70.
    Set Persistent Base
-      ToDo.
+      ToDo <2.70.
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as grayscale.
@@ -159,15 +159,15 @@ Sculpt Plane
 
       .. (alt) The vertices are pushed towards the plane defined by vertices towards the edge of the brush.
    View Plane
-      ToDo.
+      ToDo 2.64.
    X, Y, Z Plane
       Global.
 
-      ToDo.
+      ToDo 2.64.
 Plane Offset
-   ToDo.
+   ToDo 2.64.
 Trim
-   ToDo.
+   ToDo 2.64.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
 Add/Subtract :kbd:`Ctrl`

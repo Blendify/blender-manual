@@ -144,7 +144,7 @@ Align Bones
    | Menu:     :menuselection:`Armature --> Transform --> Align Bones`
    | Hotkey:   :kbd:`Ctrl-Alt-A`
 
-ToDo.
+ToDo <2.72.
 
 
 .. _armature-bone-roll:

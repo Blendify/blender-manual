@@ -62,9 +62,9 @@ Projection Axis
 
    +X, +Y, +Z, -X, -Y, -Z
 Axis Space
-   ToDo.
+   ToDo 2.69.
 Projection Distance
-   ToDo.
+   ToDo 2.65.
 
 
 Nearest Vertex

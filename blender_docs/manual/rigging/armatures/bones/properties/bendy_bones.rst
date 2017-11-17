@@ -1,4 +1,4 @@
-.. (todo) images: https://code.blender.org/2016/05/
+.. (todo add) images: https://code.blender.org/2016/05/
 .. an-in-depth-look-at-how-b-bones-work-including-details-of-the-new-bendy-bones/
 
 ***********
@@ -116,7 +116,7 @@ Roll In, Out
    between the start and end roll values.
    It is applied as a rotational offsets on top of the previous rotation.
 Inherit End Roll
-   ToDo.
+   ToDo ~2.78.
 
 
 Scale

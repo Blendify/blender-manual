@@ -66,18 +66,18 @@ Viewport Color
 --------------
 
 Color
-   TODO.
+   TODO <2.64.
 Alpha
-   TODO.
+   TODO <2.64.
 
 
 Viewport Specular
 -----------------
 
 Color
-   TODO.
+   TODO <2.64.
 Hardness
-   TODO.
+   TODO <2.64.
 
 
 Viewport Alpha
