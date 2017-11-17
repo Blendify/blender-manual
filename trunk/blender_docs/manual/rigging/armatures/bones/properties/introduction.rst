@@ -29,7 +29,7 @@ Deform
 Transform
 =========
 
-.. Todo, images are the same
+.. (Todo error) images are the same
 
 .. figure:: /images/rigging_armatures_bones_properties_introduction_transform-panel-edit.png
 

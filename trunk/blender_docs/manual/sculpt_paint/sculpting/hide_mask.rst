@@ -31,7 +31,7 @@ Hide Bounding Box :kbd:`Shift-H`
 Show All :kbd:`Alt-H`
    Reveal all hidden parts.
 Hide Masked
-   ToDo.
+   ToDo 2.64.
 
 
 .. _scupt-mask-menu:

@@ -23,17 +23,17 @@ Project Paint
 =============
 
 Occlude
-   ToDo.
+   ToDo <2.64.
 Cull
-   ToDo.
+   ToDo <2.64.
 Normal
-   ToDo.
+   ToDo <2.64.
 Cavity Mask
    Cavity masking means that the brush will be masked if there is a cavity or a hill
    on the mesh surface depending on the mesh options. The cavity algorithm is vertex-based.
 
 Bleed
-   ToDo.
+   ToDo <2.64.
 Dither
    Amount of dithering when painting on byte images. ToDo.
 

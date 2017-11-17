@@ -190,7 +190,7 @@ Quantize
 Clamps each weight to a number of steps between (0 - 1).
 
 Steps
-   ToDo.
+   ToDo 2.70.
 
 
 Levels
@@ -301,17 +301,17 @@ Factor
    For Factor > 0 the weights of the affected vertices gradually shift from their original value
    towards the average weight of all connected **and** unselected vertices (see examples above).
 Iterations
-   ToDo.
+   ToDo  2.76.
 Expand/Contract
-   ToDo.
+   ToDo 2.76.
 Source
-   ToDo.
+   ToDo 2.76.
 
 
 Fix Deforms
 ===========
 
-ToDo.
+ToDo <2.57.
 
 
 Transfer Weights

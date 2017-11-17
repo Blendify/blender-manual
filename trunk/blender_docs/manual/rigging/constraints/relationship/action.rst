@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|text=Notes section is a mess.}}.
+.. (TODO rewrite) Notes section is a mess.
 
 .. _bpy.types.ActionConstraint:
 

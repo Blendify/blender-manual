@@ -12,23 +12,23 @@ Slot
 The combination of images associated with UV maps is called "slots".
 
 Painting Mode
-   ToDo.
+   ToDo 2.72.
 Canvas Image
-   ToDo.
+   ToDo 2.72.
 Available Paint Slots
    A :ref:`ui-list-view` of slots.
    To activate a certain slot to use it for paint a just :kbd:`LMB` click on it.
    Clicking on a slot will also display the slot image in the UV/Image editors, if any are open.
 
    Add/Remove Texture Paint Slot
-      ToDo.
+      ToDo 2.72.
    Blend Type
-      ToDo.
+      ToDo 2.72.
 
 UV Map
-   ToDo.
+   ToDo 2.72.
 Save All Images
-   ToDo.
+   ToDo 2.72.
 
 
 Mask
@@ -37,10 +37,10 @@ Mask
 The mask can be deactivated by the checkbox in the header.
 
 UV Map
-   ToDo.
+   ToDo 2.72.
 Stencil Image
-   ToDo.
+   ToDo 2.72.
 Visualization
-   ToDo.
+   ToDo 2.72.
 Invert Stencil (black/white icon)
    Inverts the mask.

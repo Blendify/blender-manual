@@ -324,7 +324,7 @@ Split
    | Menu:     :menuselection:`Armature --> Split`
    | Hotkey:   :kbd:`Y`
 
-Disconnects the selection and clears the parent at the start and end. ToDo.
+Disconnects the selection and clears the parent at the start and end. ToDo add.
 
 
 Delete Selected Bone(s)
@@ -367,7 +367,7 @@ Dissolve
    | Menu:     none
    | Hotkey:   :kbd:`Ctrl-X`
 
-ToDo.
+ToDo 2.76.
 
 
 Merge Bones
