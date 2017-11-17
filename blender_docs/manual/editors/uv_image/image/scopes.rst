@@ -30,7 +30,7 @@ Show line
 Waveform
 ========
 
-.. (TODO sdd) description of a Waveform maybe this should go in the glossary?
+.. (TODO add) description of a Waveform maybe this should go in the glossary?
 
 Waveform Opacity
    Opacity of the points.
