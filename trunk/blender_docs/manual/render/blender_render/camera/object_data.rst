@@ -32,9 +32,9 @@ Lens Type
 
 There are three different lens types:
 
-- `Perspective`_
-- `Orthographic`_
-- `Panoramic`_
+#. `Perspective`_
+#. `Orthographic`_
+#. `Panoramic`_
 
 
 Perspective

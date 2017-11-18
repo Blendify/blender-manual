@@ -194,16 +194,16 @@ Demo Cube
 
 Please note two things:
 
-- The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
-- The :doc:`"Object Manipulator" </editors/3dview/object/editing/transform/control/manipulators>`
-  widget emanating from the selection, which represents the current Transform Orientation.
+#. The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
+#. The :doc:`"Object Manipulator" </editors/3dview/object/editing/transform/control/manipulators>`
+   widget emanating from the selection, which represents the current Transform Orientation.
 
-  - If you click on one of the axes of the Manipulator with :kbd:`LMB`,
-    it will allow you to constrain movement to only this direction.
-    An example of a keyboard equivalent is :kbd:`G, Z, Z`.
-  - If you :kbd:`Shift-LMB` click,
-    it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes.
-    The keyboard analogue is :kbd:`G, Shift-Z, Shift-Z`.
+   - If you click on one of the axes of the Manipulator with :kbd:`LMB`,
+     it will allow you to constrain movement to only this direction.
+     An example of a keyboard equivalent is :kbd:`G, Z, Z`.
+   - If you :kbd:`Shift-LMB` click,
+     it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes.
+     The keyboard analogue is :kbd:`G, Shift-Z, Shift-Z`.
 
 
 Effect on Manipulators

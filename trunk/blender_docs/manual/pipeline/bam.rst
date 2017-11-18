@@ -11,8 +11,8 @@ the *BAM Asset Manager* (BAM) was developed. The original scope of BAM included
 client-server asset management tools going beyond Blender,
 but it was later refocused on core utilities to perform two operations:
 
-- Blend-file packing
-- Automatic dependencies remapping
+#. Blend-file packing
+#. Automatic dependencies remapping
 
 The following section of the manual focuses on how to use BAM.
 

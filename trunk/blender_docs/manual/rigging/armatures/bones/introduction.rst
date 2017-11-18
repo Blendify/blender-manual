@@ -16,8 +16,8 @@ Classification
 
 Bones in an Armature can be generally classified into two different types:
 
-- Deforming Bones
-- Control Bones
+#. Deforming Bones
+#. Control Bones
 
 
 Deforming Bones

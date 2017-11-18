@@ -72,8 +72,8 @@ This happens because such footage usually does not have correct frame rate value
 for Blender to calculate the position of a needed frame in the stream works inaccurately and can give errant result.
 There are two possible ways to avoid this:
 
-- Preprocess your video with, say, mencoder to repair file header and insert correct keyframes.
-- Use Proxy/Timecode option in Blender.
+#. Preprocess your video with, say, mencoder to repair file header and insert correct keyframes.
+#. Use Proxy/Timecode option in Blender.
 
 
 Options

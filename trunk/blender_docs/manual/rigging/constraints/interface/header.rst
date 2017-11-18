@@ -11,7 +11,7 @@ The interface elements of the header are explained below using a Copy Location c
 
    A Header sits at the top of every constraint.
 
-Expand (arrow pointing down or right icon)
+Expand (down/right arrow icon)
    Show or Hide the settings of the constraint.
    Tidy up the :doc:`constraint stack </rigging/constraints/interface/stack>`
    by hiding constraints that do not currently need attention.

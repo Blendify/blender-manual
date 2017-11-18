@@ -105,9 +105,9 @@ Lost in Space
 When navigating your scene, you may accidentally navigate away from your scene
 and find yourself with a blank viewport. There are two ways to fix this:
 
-- Select an object in the :doc:`Outliner </editors/outliner>`,
-  then zoom to that object with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
-- Use :kbd:`Home` to fit all objects into the 3D View.
+#. Select an object in the :doc:`Outliner </editors/outliner>`,
+   then zoom to that object with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
+#. Use :kbd:`Home` to fit all objects into the 3D View.
 
 
 Invisible Limit Zooming In

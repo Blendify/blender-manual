@@ -66,15 +66,15 @@ and below the horizon can be used to cancel out spurious movement and get stabil
 
 Tracks can be added in two groups:
 
-- First of all is the list of tracks to be used to compensate for jumps in the camera location.
-  From all the tracking points added to this group, we calculate a *weighted average.*
-  We then try to keep this average location constant during the whole shot.
-  Thus it is a good idea to use tracking markers close to and centered around the most important subject.
-- A second selection of tracks is used to keep the rotation and scale of the image constant.
-  You may use the same tracks for both selections. But usually it is best to use tracking points with large distance
-  from the image center, and symmetrically, on both sides, to capture the angular movements more precisely.
-  Similar to the "location" case, we calculate an *average angular contribution* and then try
-  to keep this value constant during the whole shot.
+#. First of all is the list of tracks to be used to compensate for jumps in the camera location.
+   From all the tracking points added to this group, we calculate a *weighted average.*
+   We then try to keep this average location constant during the whole shot.
+   Thus it is a good idea to use tracking markers close to and centered around the most important subject.
+#. A second selection of tracks is used to keep the rotation and scale of the image constant.
+   You may use the same tracks for both selections. But usually it is best to use tracking points with large distance
+   from the image center, and symmetrically, on both sides, to capture the angular movements more precisely.
+   Similar to the "location" case, we calculate an *average angular contribution* and then try
+   to keep this value constant during the whole shot.
 
 
 Footage, Image and Canvas
