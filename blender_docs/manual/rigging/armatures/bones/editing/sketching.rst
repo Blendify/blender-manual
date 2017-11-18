@@ -26,8 +26,8 @@ to *Skeleton Sketching* to start drawing bone chains
 
 Sketching is done in two steps:
 
-- `Drawing Chains`_ (called "strokes"). Each stroke corresponds to a chain of bones.
-- `Converting to Bones`_, using different methods.
+#. `Drawing Chains`_ (called "strokes"). Each stroke corresponds to a chain of bones.
+#. `Converting to Bones`_, using different methods.
 
 The *point of view* is important, as it determines the future bones' roll angle:
 the Z axis of a future bone will be aligned with the view Z axis of the 3D View in

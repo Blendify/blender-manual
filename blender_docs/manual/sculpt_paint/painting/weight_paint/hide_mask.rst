@@ -16,8 +16,8 @@ The option is available from the header of the 3D View
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_select.png
 
-   You can choose between *Face Selection masking* (left icon)
-   and *Vertex selection masking* (right icon).
+   You can choose between *Face Selection masking* (left button)
+   and *Vertex selection masking* (right button).
 
 *Select* mode has some advantages over the default *Weight Paint Mode*:
 

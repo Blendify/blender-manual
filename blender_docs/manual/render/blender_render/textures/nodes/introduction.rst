@@ -52,12 +52,12 @@ which can then be used for different things. For example,
 a texture that defines both a diffuse (color) map and a normal map.
 This can be done by:
 
-- Create two texture slots in the texture list, and set them to the same texture data-block.
-- Add two *Output* nodes to the node tree,
-  and type new names into their *Name* text-boxes: e.g. "Diffuse" for one and "Normal" for the other.
-- Underneath the texture list view in the texture panel, a selector with the names of the outputs are shown.
-  For each entry in the texture list, select the desired output by changing the menu entry
-  e.g. set on to *Diffuse* and the other to *Normal*).
+#. Create two texture slots in the texture list, and set them to the same texture data-block.
+#. Add two *Output* nodes to the node tree,
+   and type new names into their *Name* text-boxes: e.g. "Diffuse" for one and "Normal" for the other.
+#. Underneath the texture list view in the texture panel, a selector with the names of the outputs are shown.
+   For each entry in the texture list, select the desired output by changing the menu entry
+   (e.g. set on to *Diffuse* and the other to *Normal*).
 
 These named outputs could be used, when the material is defined with Material Nodes.
 In this case, Texture Channels are probably not used. Instead, insert the

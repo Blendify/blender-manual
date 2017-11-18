@@ -59,9 +59,9 @@ There are a number of powerful libraries the Game Engine takes advantage of:
 
 When creating a game or simulation in the BGE, there are four essential steps:
 
-- Create visual elements that can be rendered. This could be 3D models or images.
-- Enable interaction within the scene using logic bricks to script custom behavior and determine how it is invoked
-  (using the appropriate "sensors" such as keyboards or joysticks).
-- Create one (or more) camera to give a frustum from which to render the scene,
-  and modify the parameters to support the environment in which the game will be displayed, such as Stereo rendering.
-- Launch the game, using the internal player or exporting a runtime to the appropriate platform.
+#. Create visual elements that can be rendered. This could be 3D models or images.
+#. Enable interaction within the scene using logic bricks to script custom behavior and determine how it is invoked
+   (using the appropriate "sensors" such as keyboards or joysticks).
+#. Create one (or more) camera to give a frustum from which to render the scene,
+   and modify the parameters to support the environment in which the game will be displayed,  such as Stereo rendering.
+#. Launch the game, using the internal player or exporting a runtime to the appropriate platform.

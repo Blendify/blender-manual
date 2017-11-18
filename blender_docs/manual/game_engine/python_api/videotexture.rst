@@ -50,8 +50,8 @@ and use it instead of ``tv.png``: the TV screen will come to life.
 
 You have two ways to define textures that ``bge.texture`` can grab:
 
-- Simple UV texture.
-- Blender material with image texture channel.
+#. Simple UV texture.
+#. Blender material with image texture channel.
 
 Because ``bge.texture`` works at texture level,
 it is compatible with all GE fancy texturing features: GLSL, multi-texture, custom shaders,

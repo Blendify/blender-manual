@@ -52,7 +52,7 @@ Accessing the Node Editor
 =========================
 
 First lets enter the :doc:`Node editor </editors/node_editor/index>`
-and make sure that the Node editor has the material node button (the sphere icon) pressed,
+and make sure that the Node editor has the material node button (sphere icon) pressed,
 not the composite or texture node buttons.
 
 

@@ -82,10 +82,10 @@ ready to drag the new extruded surface to its destination.
 
 There are two things very important to understand:
 
-- Surfaces are *2D* objects. So you cannot extrude anything *inside* a surface
-  (e.g. "inner" row); it would not make any sense!
-- The control "grid" *must* remain "squarish",
-  which means that you can only extrude a whole row, not parts of rows here and there...
+#. Surfaces are *2D* objects. So you cannot extrude anything *inside* a surface
+   (e.g. "inner" row); it would not make any sense!
+#. The control "grid" *must* remain "squarish",
+   which means that you can only extrude a whole row, not parts of rows here and there...
 
 To summarize, the *Extrude* tool will only work, when one and only one whole border
 row is selected, otherwise nothing happens.

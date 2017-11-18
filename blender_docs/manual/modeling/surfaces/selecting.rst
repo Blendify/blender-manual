@@ -80,8 +80,8 @@ Less
 
 This implies two points:
 
-- First, when **all** control points of a surface are selected, nothing will happen
-  (as for *Less*, all linked points are always selected, and of course, *More* cannot add any).
-  Conversely, the same goes when no control point is selected.
-- Second, these tools will never "go outside" of a surface
-  (they will never "jump" to another surface in the same object).
+#. First, when **all** control points of a surface are selected, nothing will happen
+   (as for *Less*, all linked points are always selected, and of course, *More* cannot add any).
+   Conversely, the same goes when no control point is selected.
+#. Second, these tools will never "go outside" of a surface
+   (they will never "jump" to another surface in the same object).

@@ -12,8 +12,8 @@ with a few specific differences that will be detailed in the
 Similar to :doc:`vertices/edges selection </modeling/meshes/selecting/introduction>` in meshes,
 there are two ways to select whole bones in *Edit Mode*:
 
-- Directly, by selecting the bone's body.
-- Selecting both of its joints (root and tip).
+#. Directly, by selecting the bone's body.
+#. Selecting both of its joints (root and tip).
 
 This is an important point to understand,
 because selecting bones' joints only might lead to non-obvious behavior,

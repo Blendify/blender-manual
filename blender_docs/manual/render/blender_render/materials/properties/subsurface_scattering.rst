@@ -26,16 +26,16 @@ and that one can use a different approach.
 
 Blender calculates SSS in two steps:
 
-- At first the irradiance, or brightness, of the surface is calculated,
-  from the front side of the object as well as from its back side.
-  This is pretty much the same as in a normal render.
-  Ambient Occlusion, Radiosity, the type of diffuse Shader, the light color, etc. are taken into account.
-- In the second step, the final image is rendered, but now the SSS shader replaces the diffuse shader.
-  Instead of the lamps, the calculated lightmap is used.
-  The brightness of a surface point is the calculated "Average" of the brightness of its surrounding points.
-  Depending on your settings the whole surface may be taken into account,
-  and it is a bit more complicated than simply calculating the average,
-  but do not bother too much with the math behind it.
+#. At first the irradiance, or brightness, of the surface is calculated,
+   from the front side of the object as well as from its back side.
+   This is pretty much the same as in a normal render.
+   Ambient Occlusion, Radiosity, the type of diffuse Shader, the light color, etc. are taken into account.
+#. In the second step, the final image is rendered, but now the SSS shader replaces the diffuse shader.
+   Instead of the lamps, the calculated lightmap is used.
+   The brightness of a surface point is the calculated "Average" of the brightness of its surrounding points.
+   Depending on your settings the whole surface may be taken into account,
+   and it is a bit more complicated than simply calculating the average,
+   but do not bother too much with the math behind it.
 
 Instead let us see what SSS does to a distinct light point.
 

@@ -18,8 +18,8 @@ Select an empty slot, then click on the *New* button.
 
 This will do two things:
 
-- It will create a new texture data-block.
-- Also, it will add a new slot in the textures stack.
+#. It will create a new texture data-block.
+#. Also, it will add a new slot in the textures stack.
 
 
 Creating a New Texture Data-block in a Non-empty Slot
@@ -29,9 +29,9 @@ Select a non-empty slot, then click on the *Plus* button.
 
 This will do two things:
 
-- It will create a new texture data-block, with a new name, by
-  making a copy of the texture data-block assigned to the selected slot.
-- It will assign this new data-block to the selected slot.
+#. It will create a new texture data-block, with a new name, by
+   making a copy of the texture data-block assigned to the selected slot.
+#. It will assign this new data-block to the selected slot.
 
 
 Sharing a Texture Data-Block in a Non-empty Slot

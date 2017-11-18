@@ -1,4 +1,4 @@
-.. expand text (todo)
+.. (todo) expand text
 
 ************
 Introduction

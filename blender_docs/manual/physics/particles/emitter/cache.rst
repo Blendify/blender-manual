@@ -49,8 +49,8 @@ Baking
 
 Two notes at the end:
 
-- For renderfarms, it is best to bake all the physics systems,
-  and then copy the blendcache to the renderfarm as well.
-- Be careful with the sequence of modifiers in the modifier stack (as always).
-  You may have a different number of faces in the 3D View and for rendering (e.g. when using subdivision surface),
-  if so, the rendered result may be very different from what you see in the 3D View.
+#. For renderfarms, it is best to bake all the physics systems,
+   and then copy the blendcache to the renderfarm as well.
+#. Be careful with the sequence of modifiers in the modifier stack (as always).
+   You may have a different number of faces in the 3D View and for rendering (e.g. when using subdivision surface),
+   if so, the rendered result may be very different from what you see in the 3D View.

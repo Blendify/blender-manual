@@ -126,11 +126,11 @@ bar none. If you want to show off your model, use this rig. As you can see,
 the untextured unmaterialized sphere seems to come out at you.
 There are multiple thesis on this rig, and you will use one of two:
 
-- Studio: Used in a real studio to film in front of a green screen or backdrop.
-  Use this rig when you are rendering your CG objects to alpha into the scene so that the
-  lighting on the actors *and* your CG objects is the same.
-- Standard: Used in real life to light actors on a set,
-  and gives some backlighting to highlight the sides of actors, making them stand out more and giving them depth.
+#. Studio: Used in a real studio to film in front of a green screen or backdrop.
+   Use this rig when you are rendering your CG objects to alpha into the scene so that the
+   lighting on the actors *and* your CG objects is the same.
+#. Standard: Used in real life to light actors on a set, and gives some backlighting to
+   highlight the sides of actors, making them stand out more and giving them depth.
 
 
 Studio Rig

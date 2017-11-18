@@ -32,8 +32,8 @@ Samples
 By default, we use in Blender a fixed "Distributed Jitter" table. The samples within a pixel
 are distributed and jittered in a way that guarantees two characteristics:
 
-- Each sample has equal distances to its neighbor samples.
-- The samples cover all sub-pixel positions equally, both horizontally and vertically.
+#. Each sample has equal distances to its neighbor samples.
+#. The samples cover all sub-pixel positions equally, both horizontally and vertically.
 
 The images below show Blender sample patterns for 5, 8, 11 and 16 samples.
 To show that the distribution is equalized over multiple pixels, the neighbor pixel patterns were drawn as well.
