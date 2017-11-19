@@ -19,7 +19,7 @@ but the basics given here are actually vital for understanding the following cha
 Animation is typically achieved with the use of :doc:`keyframes </animation/keyframes/introduction>`.
 
 
-..seealso:: Related Sections
+.. seealso:: Related Sections
 
    The :doc:`Rigging section </rigging/index>`, :doc:`Physical Simulation </physics/introduction>`
    and :doc:`Motion Tracking </editors/movie_clip_editor/index>`.

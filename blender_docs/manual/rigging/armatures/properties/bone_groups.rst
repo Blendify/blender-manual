@@ -7,7 +7,7 @@ Bone Groups
    :class: refbox
 
    | Mode:     Pose Mode
-   | Panel:    :menuselection:`Armature tab --> Motion Paths panel`
+   | Panel:    :menuselection:`Properties editor --> Armature --> Bone Groups`
    | Menu:     :menuselection:`Pose --> Bone Groups --> ...`
 
 .. figure:: /images/rigging_armatures_properties_bone-groups_panel.png
@@ -15,8 +15,6 @@ Bone Groups
    The Bone Groups panel.
 
 This panel allows the creation, deletion and editing of Bone Groups.
-The panel *Bone Groups* is available in the tab *Armature* of the Properties editor.
-
 Bone Groups can be used for selection or to assign a color theme to a set of bones.
 In example to color the left parts of the rig as blue and right parts as red.
 

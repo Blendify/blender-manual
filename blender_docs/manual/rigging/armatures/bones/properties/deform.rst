@@ -3,14 +3,20 @@
 Deform
 ******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Bone --> Deform`
+
 .. figure:: /images/rigging_armatures_bones_properties_deform_panel.png
 
    The Deform panel.
 
 In this panel you can set deformation options for each bone.
 
-Turning the Deform option off,
-prevent a bone from deforming the geometry at all,
+Toggling the checkbox in the panel header off,
+prevents the bone from deforming the geometry at all,
 overriding any weights that it might have been assigned before; It mutes its influence.
 
 It also excludes the active bone in the automatic weight calculation when the mesh is

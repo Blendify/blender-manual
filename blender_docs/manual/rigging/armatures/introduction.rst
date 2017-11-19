@@ -53,20 +53,3 @@ In *Edit Mode*, you will always see your armature in rest position,
 whereas in *Object Mode* and *Pose Mode*,
 you usually get the current "pose" of the armature
 (unless you enable the *Rest Position* button of the *Armature* panel).
-
-
-Armature Chapter Overview
-=========================
-
-In the "Armatures" section, we will only talk about armatures themselves,
-and specifically we will talk about:
-
-- The basics of :doc:`bones </rigging/armatures/bones/index>`.
-- The different :doc:`armature visualizations </rigging/armatures/properties/display>`.
-- The armature :doc:`structure types </rigging/armatures/structure>`.
-- How to :doc:`Select Bones </rigging/armatures/bones/selecting>`,
-- How to :doc:`Edit Armatures </rigging/armatures/bones/editing/index>`,
-- How to :doc:`Edit Bones </rigging/armatures/bones/editing/bones>`,
-- How to :doc:`edit bones properties </rigging/armatures/bones/editing/properties>`,
-- How to sketch armatures with the :doc:`Etch-a-Ton tool </rigging/armatures/bones/editing/sketching>`,
-- How to use :doc:`templates </rigging/armatures/bones/editing/templating>`.

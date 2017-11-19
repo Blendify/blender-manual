@@ -7,7 +7,7 @@ Pose Library Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode, Edit Mode and Pose Mode
+   | Mode:     All Modes
    | Panel:    :menuselection:`Properties editor --> Object --> Pose Library`
 
 .. figure:: /images/rigging_armatures_properties_pose-library_panel.png
@@ -15,8 +15,9 @@ Pose Library Panel
 
    The Pose Library panel.
 
-The *Pose Library* panel is used to save, apply, and manage different armature poses.
-*Pose Libraries* are saved to *Actions*. They are not generally used as actions, but can be converted to and from.
+The *Pose Library* panel is used to save, apply, and manage armature poses.
+*Pose Libraries* are saved to :doc:`Actions </animation/actions>`.
+They are not generally used as actions, but can be converted to and from.
 
 Action
    A :ref:`ui-data-block` for Actions or Pose Libraries.
