@@ -4,6 +4,7 @@
 Subsurface Scattering
 *********************
 
+Simulates semi-translucent objects in which light rays enter, bounce around, then exit in a different place.
 Many organic and inorganic materials are not totally opaque right at the surface,
 so light does not just bounce off the top surface. Instead,
 some light also penetrates the skin surface deeply, and scatters around inside,
@@ -12,8 +13,8 @@ Human/animal skin, the skin of grapes, tomatoes, fruits, wax, gels (like honey, 
 and so on all have subsurface scattering (SSS),
 and photo-realism really cannot be achieved without it.
 
-It is important to understand that subsurface scattering and diffuse are one and the same. The
-difference is in how far light can diffuse beneath the surface before it is absorbed or
+It is important to understand that subsurface scattering and diffuse are one and the same.
+The difference is in how far light can diffuse beneath the surface before it is absorbed or
 transmitted back out.
 
 

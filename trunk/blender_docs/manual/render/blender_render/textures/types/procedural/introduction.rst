@@ -19,19 +19,6 @@ as if a block of wood had really been cut in two.
 Procedural textures are not filtered or anti-aliased. This is hardly ever a problem:
 the user can easily keep the specified frequencies within acceptable limits.
 
-These are the available types:
-
-- :doc:`Blend </render/blender_render/textures/types/procedural/blend>`
-- :doc:`Clouds </render/blender_render/textures/types/procedural/clouds>`
-- :doc:`Distorted Noise </render/blender_render/textures/types/procedural/distorted_noise>`
-- :doc:`Magic </render/blender_render/textures/types/procedural/magic>`
-- :doc:`Marble </render/blender_render/textures/types/procedural/marble>`
-- :doc:`Musgrave </render/blender_render/textures/types/procedural/musgrave>`
-- :doc:`Noise </render/blender_render/textures/types/procedural/noise>`
-- :doc:`Stucci </render/blender_render/textures/types/procedural/stucci>`
-- :doc:`Voronoi </render/blender_render/textures/types/procedural/voronoi>`
-- :doc:`Wood </render/blender_render/textures/types/procedural/wood>`
-
 
 Common Options
 ==============

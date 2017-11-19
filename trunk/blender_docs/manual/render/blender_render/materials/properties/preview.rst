@@ -4,8 +4,8 @@
 Preview
 *******
 
-The Preview panel gives a quick visualization of the active material and its properties.
-Including its *Shaders*, *Ramps*, *Mirror Transp* properties and *Textures*.
+The Preview panel gives a quick visualization of the active material applied on to one of several basic objects.
+Including its *Shaders*, *Ramps*, *Mirror*, Transparency* properties and *Textures*.
 It provides several shapes that are very useful for designing new shaders:
 For some shaders (like those based on *Ramp* colors, or a Diffuse shader like *Minnaert*),
 one needs fairly complex or specific previewing shapes to decide if the shader being designed achieves its goal.

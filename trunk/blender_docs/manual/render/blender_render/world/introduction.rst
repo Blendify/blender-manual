@@ -12,15 +12,7 @@ Introduction
 The world buttons let you set up the shading of your scene in general.
 It can provide ambient color, and special effects such as mist,
 but a very common use of a *World* is to shade a background color.
-
 These are accessible via the *World* tab.
-
-You have:
-
-:doc:`Background </render/blender_render/world/world_panel>`
-   The color and texture of the world background, with special settings for mapping coordinates.
-:doc:`Mist </render/blender_render/world/mist>`
-   Add a mist to your scene to enhance the feeling of depth.
 
 While these world settings offer a simple way of adding effects to a scene,
 :doc:`compositing nodes </compositing/index>` are often preferred, though more complex to master,

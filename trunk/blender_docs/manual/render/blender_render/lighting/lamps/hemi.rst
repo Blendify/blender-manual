@@ -8,10 +8,10 @@ Hemi Lamp
 
    Hemi light conceptual scheme.
 
-The *Hemi* lamp provides light from the direction of a 180- hemisphere,
-designed to simulate the light coming from a heavily clouded or otherwise uniform sky.
-In other words, it is a light which is shed, uniformly,
-by a glowing dome surrounding the scene.
+The *Hemi* lamp provides light from the direction of a 180° hemisphere,
+designed to simulate the light coming from very wide and far away light source, 
+like a heavily clouded or otherwise uniform sky. In other words, it is a light which is
+shed, uniformly, by a glowing dome surrounding the scene.
 
 Similar to the *Sun* lamp, the *Hemi* 's location is unimportant,
 while its orientation is key.
