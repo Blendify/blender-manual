@@ -44,12 +44,13 @@ Mode
 
    - Object Mode
    - Edit Mode
-   - Pose Mode
    - Sculpt Mode
    - Vertex Paint
    - Weight Paint
    - Texture Paint
    - Particle Edit
+   - Pose Mode
+   - Edit Strokes Mode
 
 Viewport Shading
    Allows you to change the way objects are displayed in the viewport.
