@@ -19,7 +19,7 @@ the panels change depending on which mode you are working in.
    The Bone tab.
 
 
-,, (todo move) pose related to new pose > properties file; edit text above accordingly.
+.. (todo move) pose related to new pose > properties folder, check other: pose library; edit text above accordingly.
 
 Transform
 =========

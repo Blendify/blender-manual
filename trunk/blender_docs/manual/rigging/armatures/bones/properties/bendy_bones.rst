@@ -5,6 +5,12 @@
 Bendy Bones
 ***********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Bone --> Bendy Bones`
+
 Bendy Bones (B-Bones) are an easy way to replace long chains of many small rigid bones.
 A common use case for curve bones is to model spine columns or facial bones.
 
