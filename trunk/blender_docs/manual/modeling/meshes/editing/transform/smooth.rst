@@ -4,6 +4,9 @@
 Smooth
 ******
 
+Smooth Vertex
+=============
+
 .. admonition:: Reference
    :class: refbox
 
@@ -11,7 +14,7 @@ Smooth
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth Vertex`
 
-This tool smooths the selected components by averaging the angles between faces.
+This tool smooths the selected vertices by averaging the angles between the faces.
 After using the tool, options appear in the *Tool Shelf*:
 
 Number of times to smooth
@@ -36,6 +39,17 @@ Axes
 
           Mesh after ten smoothing iterations.
 
+.. seealso:: Subdividing
+   
+   Adjusting the *smooth* option after using the 
+   :doc:`Subdivide </modeling/meshes/editing/subdividing/subdivide>` tool
+   results in a more organic shape.
+
+.. seealso:: Smooth Modifier
+
+   The :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`, which can be limited to a *Vertex Group*,
+   is a non-destructive alternative to the Smooth tool.
+
 
 Laplacian Smooth
 ================
@@ -48,13 +62,9 @@ Laplacian Smooth
 
 See the :doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>` for details.
 
-Laplacian smooth is uses an alternative smoothing algorithm that better preserves the overall
-mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive modifier.
-
-.. note::
-
-   The :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`, which can be limited to a *Vertex Group*,
-   is a non-destructive alternative to the Smooth tool.
+Laplacian smooth is uses an alternative smoothing algorithm that better preserves larger details and
+this way the overall shape of the mesh. Laplacian smooth exists as a mesh operation and
+as a non-destructive modifier.
 
 .. note:: Real Smoothing versus Shading Smoothing
 

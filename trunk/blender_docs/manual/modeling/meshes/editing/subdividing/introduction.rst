@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|}}.
+.. (todo remove) full file
 
 ************
 Introduction

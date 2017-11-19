@@ -201,8 +201,8 @@ tracker for better match.
 
 Useful in cases when feature disappears from the frame and then appears again. Usage in this case is the following:
 
-* When feature point re-appeared on frame, manually place marker on it.
-* Use Refine Markers operation (which is in Track panel) to allow tracker to find a better match.
+- When feature point re-appeared on frame, manually place marker on it.
+- Use Refine Markers operation (which is in Track panel) to allow tracker to find a better match.
 
 Depending on direction of tracking use either Forwards or Backwards refining.
 It's easy: if tracking happens forwards, use Refine Forwards, otherwise use Refine Backwards.

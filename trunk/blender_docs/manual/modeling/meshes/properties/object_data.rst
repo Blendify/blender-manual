@@ -12,13 +12,20 @@ Meshes
 Normals
 =======
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Properties editor --> Object Data --> Normals`
+
 .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
 
    Normals panel.
 
+.. _auto-smooth:
+
 Auto Smooth
    Edges where an angle between the faces is smaller than specified in the *Angle* button will be smoothed,
-   when shading of these parts of the mesh is set to smooth.
+   when shading of these parts of the mesh is set to smooth. This is an easier way to combine smooth and sharp edges.
 
    Angle
       Angle number button.
@@ -34,6 +41,12 @@ Example
    :width: 250px
 
    Example mesh with *Auto Smooth* enabled.
+
+.. seealso:: Edge Split Modifier
+
+   With the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`  a result
+   similar to *Auto Smooth* can be achieved with the ability to choose which edges should be split,
+   based on angle. Those Angles are marked as sharp.
 
 
 .. _properties-texture-space:

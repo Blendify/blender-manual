@@ -15,6 +15,88 @@ Todo add.
    Normals visualization.
 
 
+Shading
+=======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Shading:`
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:     :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
+   | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
+
+
+.. _bpy.ops.object.shade_flat:
+
+Flat 
+----
+
+.. list-table:: Example mesh flat (left) and smooth shaded (right).
+   `Sample blend-file <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__.
+
+   * - .. figure:: /images/modeling_meshes_editing_smoothing_example-01-flat.png
+          :width: 200px
+
+     - .. figure:: /images/modeling_meshes_editing_smoothing_example-02-smooth.png
+          :width: 200px
+
+As seen in the previous sections, polygons are central to Blender.
+Most objects are represented by polygons and truly curved objects
+are often approximated by polygon meshes. When rendering images,
+you may notice that these polygons appear as a series of small, flat faces.
+Sometimes this is a desirable effect, but usually we want our objects to look nice and smooth.
+
+
+.. _bpy.ops.object.shade_smooth:
+
+Smooth
+------
+
+.. figure:: /images/modeling_meshes_editing_smoothing_shading-smooth-flat.png
+   :align: right
+
+   Shading buttons in Tool Shelf.
+
+The easiest way is to set an entire object as smooth or faceted by selecting a mesh object,
+and in *Object Mode*, click *Smooth* in the *Tool Shelf*.
+This button does not stay pressed;
+it forces the assignment of the "smoothing" attribute to each face in the mesh,
+including when you add or delete geometry.
+
+Notice that the outline of the object is still strongly faceted.
+Activating the smoothing features does not actually modify the object's geometry;
+it changes the way the shading is calculated across the surfaces (normals will be interpolated),
+giving the illusion of a smooth surface.
+
+Click the *Flat* button in the
+*Tool Shelf* 's *Shading panel* to revert the shading back (normals will be constant)
+to that shown in the first image above.
+
+
+Smoothing Parts of a Mesh
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Alternatively, you can choose which edges to smooth by entering *Edit Mode*,
+then selecting some faces and clicking the *Smooth* button.
+The selected edges are marked in yellow.
+
+When the mesh is in *Edit Mode*,
+only the selected edges will receive the "smoothing" attribute. You can set edges as flat
+(removing the "smoothing" attribute)
+in the same way by selecting edges and clicking the *Flat* button.
+
+.. seealso::
+
+   The :ref:`Auto Smooth <auto-smooth>` filter is an quick and easy way to combine smooth and
+   faceted faces in the same object.
+
+
 .. _modeling-meshes-editing-normals-editing:
 
 Editing
@@ -56,3 +138,4 @@ For example, with a *Grid* primitive, recalculating normals does not have a mean
 .. tip::
 
    For Visualization in *Edit Mode* see :ref:`mesh-display-normals`.
+

@@ -14,8 +14,10 @@ Subdivide
      :menuselection:`Specials --> Subdivide/Subdivide Smooth`
 
 Subdividing splits selected edges and faces by cutting them in half or more,
-adding necessary vertices, and subdividing accordingly the faces involved,
-following a few rules, depending on the settings:
+adding new vertices, and subdividing accordingly the faces involved.
+It adds resolution to the mesh by divide faces or edges into smaller units.
+
+This process follows a few rules, depending on the settings:
 
 - When only one edge of a face is selected (Triangle mode),
   triangles are subdivided into two triangles, and quads, into three triangles.

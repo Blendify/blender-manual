@@ -69,7 +69,7 @@ modeling feature can be used to good effect here).
 
 Mapping is the process of applying a texture to the low-poly mesh.
 Consult the :doc:`Textures Mapping section </render/blender_render/textures/properties/mapping>`
-for more information on applying a texture to a mesh's material.Special considerations for Bump and Normal Maps is:
+for more information on applying a texture to a mesh's material. Special considerations for Bump and Normal Maps is:
 
 - When using a Bump map, map the texture to *Normal* and enable *No RGB*.
 - When using a Normal map, map the texture to *Normal*.
