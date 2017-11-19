@@ -8,11 +8,13 @@ Introduction
 
    The Dope Sheet.
 
+The Dope Sheet gives the animator a "birds-eye-view" of every thing occurring within a scene.
+It contains a collection of animation editors.
+
 Classical hand-drawn animators often made a chart, showing exactly when each drawing,
 sound and camera move would occur, and for how long. They nicknamed this the "dope sheet".
 While CG foundations dramatically differ from classical hand-drawn animation,
 Blender's *Dope Sheet* inherits a similar directive.
-It gives the animator a "birds-eye-view" of every thing occurring within a scene.
 
 
 Dope Sheet Modes

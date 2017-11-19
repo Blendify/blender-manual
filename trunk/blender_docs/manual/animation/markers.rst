@@ -5,8 +5,8 @@
 Markers
 *******
 
-Markers are used to denote frames at which something significant happens,
-e.g. it could be that a character's animation starts, the camera changes position, or a door opens.
+Markers are used to denote frames with key points or significant events within an animation.
+E.g. it could be that a character's animation starts, the camera changes position, or a door opens.
 Markers can be given names to make them more meaningful at a quick glance.
 They are available in many of Blender's editors.
 

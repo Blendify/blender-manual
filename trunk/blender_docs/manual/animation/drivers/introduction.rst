@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Drivers are scripts. Their main purpose is to control properties with other properties.
+Drivers are scripts which main purpose is to control properties with other properties.
 In example the rotation of one object is controlled with the location of another object.
 
 
