@@ -10,11 +10,6 @@ Blender will add those new faces for you,
 but you may need to do additional mapping or editing. In this fashion,
 you can use the UV Texture image to guide additional geometry changes.
 
-This section covers techniques for Mapping Uvs.
-The next sections cover :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`,
-followed by methods of :doc:`Managing UV Layouts </editors/uv_image/uv/layout_management>`,
-and :doc:`Applying Images to UVs </editors/uv_image/uv/editing/applying_image>`.
-
 
 About UVs
 =========
@@ -57,11 +52,11 @@ This process creates one or more UV Islands in the :ref:`UV/Image Editor <editor
 
 To begin, choose the *UV Editing* :doc:`screen layout </interface/window_system/screens>`
 from the selection list at the top of your screen in the User Preferences header.
-This sets one of the area to show you the UV/Image Editor
-:kbd:`Shift-F10`, and the other area to the 3D View :kbd:`Shift-F5`.
+This sets one of the area to show you the UV/Image Editor,
+and the other area to the 3D View.
 
-Enter *Edit Mode*, as all unwrapping is done in Edit Mode. You can be in vertex,
-face, or edge selection mode.
+Enter *Edit Mode*, as all unwrapping is done in Edit Mode.
+You can be in vertex, face, or edge selection mode.
 
 
 Workflow
