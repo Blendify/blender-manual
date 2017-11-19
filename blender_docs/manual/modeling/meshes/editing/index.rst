@@ -8,7 +8,6 @@
 
    introduction.rst
    basics/index.rst
-   mesh_options.rst
    vertices.rst
    edges.rst
    faces.rst
@@ -20,3 +19,4 @@
    cleanup.rst
    misc.rst
    data_transfer.rst
+   mesh_options.rst

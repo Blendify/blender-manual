@@ -14,12 +14,14 @@ Loop Cut and Slide
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Loop Cut and Slide`
    | Hotkey:   :kbd:`Ctrl-R`
 
-*Loop Cut* splits a loop of faces by inserting a new edge loop intersecting the chosen edge.
-The tool is interactive and has two steps:
+*Loop Cut and Slide* splits a loop of faces by inserting a new edge loop intersecting the chosen edge.
 
 
 Usage
 -----
+
+The tool is interactive and has two steps:
+
 
 Pre-visualizing the Cut
 ^^^^^^^^^^^^^^^^^^^^^^^

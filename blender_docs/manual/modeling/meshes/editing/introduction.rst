@@ -45,6 +45,7 @@ Menus
 
 The *Mesh* menu is located in the header.
 Some of the menus can be accessed with shortcuts:
-:kbd:`Ctrl-F` brings up the Face tool menu
-:kbd:`Ctrl-E` brings up the Edge tool menu
-:kbd:`Ctrl-V` brings up the Vertex tool menu
+
+- :kbd:`Ctrl-F` brings up the Face tool menu
+- :kbd:`Ctrl-E` brings up the Edge tool menu
+- :kbd:`Ctrl-V` brings up the Vertex tool menu
