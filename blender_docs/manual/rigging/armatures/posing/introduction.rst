@@ -16,7 +16,7 @@ In rest position (as edited in *Edit Mode*), each bone has its own position/rota
 (i.e. 0.0 for position and rotation, and 1.0 for scale). Hence, when you edit a bone in *Pose Mode*,
 you create an offset in the transform properties, from its rest position.
 This may seem quite similar if you have worked with :doc:`relative shape keys </animation/shape_keys/index>`
-or :ref:`Delta Transformation <transform-delta>`.
+or :ref:`Delta Transformations <transform-delta>`.
 
 Even though it might be used for completely static purposes,
 posing is heavily connected with animation features and techniques.

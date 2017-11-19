@@ -19,8 +19,9 @@ Using Bone Sketching
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   3D View
    | Mode:     Edit Mode
-   | Panel:    Bone Sketching (3D View editor)
+   | Panel:    :menuselection:`Properties region --> Bone Sketching`
    | Menu:     :menuselection:`Armature --> Bone Sketching`
    | Hotkey:   :kbd:`P`
 

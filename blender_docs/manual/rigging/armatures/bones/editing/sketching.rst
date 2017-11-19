@@ -6,6 +6,13 @@
 Skeleton Sketching
 ******************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Editor:   3D View
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Properties region --> Skeleton Sketching`
+
 .. figure:: /images/rigging_armatures_bones_editing_sketching_skeleton-sketching-panel.png
    :align: right
 

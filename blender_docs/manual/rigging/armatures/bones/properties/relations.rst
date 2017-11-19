@@ -3,6 +3,12 @@
 Relations
 *********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Bone --> Relations`
+
 .. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
 
    The Relations panel.
@@ -12,13 +18,6 @@ In this panel you can arrange sets of bones in different layers for easier manip
 
 Bone Layers
 ===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object, Edit and Pose Mode
-   | Panel:    :menuselection:`Bone --> Relations`
-
 
 Moving Bones between Layers
 ---------------------------
