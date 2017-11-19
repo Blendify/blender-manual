@@ -3,6 +3,12 @@
 Skeleton
 ********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Armature --> Skeleton`
+
 .. figure:: /images/rigging_armatures_properties_skeleton_panel.png
 
    The Skeleton panel.
@@ -26,12 +32,6 @@ enable the *Rest Position* button in the *Armature* tab (*Edit Mode*).
 
 Armature Layers
 ===============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object, Edit and Pose Mode
-   | Panel:    :menuselection:`Object data --> Skeleton`
 
 Each armature has 32 "Armature layers" which allow you to organize your armature by
 "regrouping" sets of bones into layers; this works similar to scene layers

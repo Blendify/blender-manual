@@ -6,8 +6,17 @@ Ghost
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Armature tab --> Ghost panel`
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Armature --> Ghost`
+
+Ghosts are black outlines (more or less opaque) of the bones as they are positioned at certain frames.
+This visualization is only shown in *Pose Mode*.
+ 
+In traditional cartoon creation, animators use tracing paper,
+to see several frames preceding the one they are working on.
+This allows them to visualize the overall movement of their character,
+without having to play it back.
+Blender features something very similar for armatures: the "ghosts".
 
 .. list-table:: Ghosts examples.
 
@@ -17,14 +26,6 @@ Ghost
      - .. figure:: /images/rigging_armatures_properties_ghost_example2.png
           :width: 240px
 
-In traditional cartoon creation, animators use tracing paper,
-to see several frames preceding the one they are working on.
-This allows them to visualize the overall movement of their character,
-without having to play it back.
-
-Blender features something very similar for armatures in *Pose Mode*: the "ghosts".
-The ghosts are black outlines (more or less opaque) of the bones as they are at certain frames.
-
 
 Options
 =======
@@ -33,7 +34,7 @@ Options
 
    The Ghost panel.
 
-The ghosts settings are found in the *Armature* tab, only active in *Pose Mode*.
+The ghosts settings are found in the *Armature* tab.
 
 Type
    Around Current Frame

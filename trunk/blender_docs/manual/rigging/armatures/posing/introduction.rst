@@ -16,29 +16,13 @@ In rest position (as edited in *Edit Mode*), each bone has its own position/rota
 (i.e. 0.0 for position and rotation, and 1.0 for scale). Hence, when you edit a bone in *Pose Mode*,
 you create an offset in the transform properties, from its rest position.
 This may seem quite similar if you have worked with :doc:`relative shape keys </animation/shape_keys/index>`
-or :ref:`Delta Transformsin <transform-delta>`.
-
-
-Posing Section Overview
-=======================
-
-In this section, we will see:
-
-- How to :doc:`select and edit bones </rigging/armatures/posing/editing>` in this mode.
-- How to :doc:`use pose library </rigging/armatures/properties/pose_library>`.
-- How to :doc:`use constraints </rigging/armatures/posing/bone_constraints/introduction>`
-  to control your bones' :abbr:`DoF (degrees of freedom)`.
-- How to :ref:`use inverse kinematics features <bone-constraints-inverse-kinematics>`.
-- How to :doc:`use the Spline inverse kinematics features
-  </rigging/armatures/posing/bone_constraints/inverse_kinematics/spline_ik>`.
+or :ref:`Delta Transformation <transform-delta>`.
 
 Even though it might be used for completely static purposes,
-posing is heavily connected with :doc:`animation features and techniques </animation/index>`.
-
-In this part, we will try to focus on animation-independent posing,
-but this is not always possible. So if you know nothing about animation in Blender,
-it might be a good idea to read the :doc:`animation features and techniques </animation/index>`
-chapter first, and then come back here.
+posing is heavily connected with animation features and techniques.
+So if you not familiar at all with animation in Blender,
+it might be a good idea to read the :doc:`animation chapter </animation/index>` first,
+and then come back here.
 
 
 Visualization

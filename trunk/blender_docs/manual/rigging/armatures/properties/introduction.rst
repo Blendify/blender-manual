@@ -7,33 +7,36 @@ Introduction
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Object`
+   | Panel:    :menuselection:`Properties editor --> Armature`
 
-Let us first have a general overview of the various panels gathering the armature settings,
-in Properties editor, *Object* tab:
+The *Armature* tab in Properties editor contains various panels gathering the armature settings,
 
 .. figure:: /images/rigging_armatures_properties_introduction_properties-editor.png
 
-   The Object property in the Properties editor.
+   The Armature tab in the Properties editor.
 
-Skeleton
-   In this panel you can arrange sets of bones into different layers for easier manipulation.
-Display
-   This controls the way the bones appear in 3D View.
-Bone Groups
-   Bone Groups are meant to be used during the rig creation to define and
-   assign a color to a meaningful set of bones.
-Pose Library
-   Allows you to save different properties (location, rotation, scale) for selected bones for later use.
-Ghost
-   Allows you to see a set of different poses, very useful when animating.
+
 Motion Paths
-   In the :doc:`Motion Paths panel </animation/motion_paths>` you can enable visualization
-   of the motion path your skeleton leaves when animated.
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Armature --> Motion Paths`
+   
+In the :doc:`Motion Paths  </animation/motion_paths>` panel you can enable visualization
+of the motion path your skeleton leaves when animated.
 
 
 Inverse Kinematics
 ==================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Armature --> Inverse Kinematics`
 
 .. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
 
@@ -45,5 +48,11 @@ used in your animation.
 
 Custom Properties
 =================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Armature --> Custom Properties`
 
 See the :doc:`Custom Properties </data_system/custom_properties>` page for more information.

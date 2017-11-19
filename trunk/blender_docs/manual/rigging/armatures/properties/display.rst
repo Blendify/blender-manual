@@ -6,8 +6,8 @@ Display Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object, Edit and Pose Mode
-   | Panel:    :menuselection:`Object Data --> Display`
+   | Mode:     All Modes
+   | Panel:    :menuselection:`Armature --> Display`
 
 .. figure:: /images/rigging_armatures_properties_display_panel.png
 
