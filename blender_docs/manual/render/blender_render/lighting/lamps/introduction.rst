@@ -4,24 +4,11 @@ Introduction
 ************
 
 Blender comes equipped with five different lamp types,
-each with its own unique strengths and limitations. Here are the available lamps:
-
-- :doc:`Point </render/blender_render/lighting/lamps/point>`
-  is an omni-directional point light source, similar to a light bulb.
-- :doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>`
-  is a directional point light source, similar to ... a spot.
-- :doc:`Area </render/blender_render/lighting/lamps/area/introduction>`
-  is a source simulating an area which is producing light,
-  as windows, neons, TV screens.
-- :doc:`Hemi </render/blender_render/lighting/lamps/hemi>`
-  simulates a very wide and far away light source, like the sky.
-- :doc:`Sun </render/blender_render/lighting/lamps/sun/introduction>`
-  simulates a very far away and punctual light source, like the sun.
+each with its own unique strengths and limitations.
 
 .. figure:: /images/render_blender-render_lighting_lamps_introduction_visual.png
 
    Visual height and shadow markers of two points lamps. Ray Shadow is enabled on the left lamp.
-
 
 You can add new lamps to a scene using the *Add* menu in the top header, or with
 :menuselection:`Add --> Lamp`, :kbd:`Shift-A`.

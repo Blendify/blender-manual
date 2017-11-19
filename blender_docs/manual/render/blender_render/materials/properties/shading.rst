@@ -4,7 +4,7 @@
 Shading
 *******
 
-In the separate *Shading* panel six more options are available:
+In the *Shading* panel six more characteristics of the shading model for the material are available:
 
 .. figure:: /images/render_blender-render_materials_properties_shading_menu.png
 

@@ -4,7 +4,7 @@
 Introduction
 ************
 
-A *Sun* lamp provides light of constant intensity emitted in a single direction.
+A *Sun* lamp provides light of constant intensity emitted in a single direction from very far away.
 A *Sun* lamp can be very handy for a uniform clear daylight open-space illumination.
 In the 3D View,
 the *Sun* light is represented by an encircled black dot with rays emitting from it,
