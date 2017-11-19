@@ -25,7 +25,7 @@ Motion Paths
 
    An animated cube with its motion path displayed.
 
-This feature allows you to visualize the motion of points as paths over a series of frames.
+The Motion Paths tool allows you to visualize the motion of points as paths over a series of frames.
 These points can be object origins and bone joints.
 
 Before we look at its options, let us first see how to display/hide these paths.

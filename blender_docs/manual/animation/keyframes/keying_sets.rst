@@ -9,11 +9,11 @@ Keying Sets
 
    Timeline Keying Sets.
 
-Keying Sets are a collection of properties.
-
 .. (alt) Keying Sets are a set of keyframe channels.
 
+Keying Sets are a collection of properties.
 They are used to record multiple properties at the same time.
+
 Now when you press :kbd:`I` in the 3D View,
 Blender will add keyframes for all the properties in the active keying set.
 
