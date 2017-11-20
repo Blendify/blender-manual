@@ -9,9 +9,11 @@ Boids
 
    Boid Physics Settings.
 
-Boids particle systems can be set to follow basic rules and behaviors.
-They are useful for simulating flocks, swarms, herds and schools of various kind of animals,
-insects and fishes. They can react on the presence of other objects and on the members of their own system.
+Boids particle systems are controlled by a limited artificial intelligence,
+which can be programmed to follow basic rules and behaviors.
+They are ideal for simulating flocks, swarms, herds and schools of various kind of animals,
+insects and fishes or predators vs preys simulations.
+They can react on the presence of other objects and on the members of their own system.
 Boids can handle only a certain amount of information,
 therefore the sequence of the Behavior settings is very important.
 In certain situations only the first three parameter are evaluated.
@@ -20,8 +22,11 @@ To view the panel to the right, add a *Particle System* of type
 *Emitter* and look in the middle area of the *Particle System* tab.
 
 
-Physics
+Options
 =======
+
+Main
+----
 
 Boids try to avoid objects with activated Deflection.
 They try to reach objects with positive Spherical fields,
@@ -67,6 +72,10 @@ Land Personal Space
 Land Stick Force
    How strong a force must be to start effecting a boid on land.
 
+
+Misc
+^^^^
+
 Banking
    Amount of rotation around velocity vector on turns. Banking of 1.0 gives a natural banking effect.
 Pitch
@@ -76,7 +85,7 @@ Height
 
 
 Battle
-------
+^^^^^^
 
 Health
    Initial boid health when born.
@@ -90,53 +99,64 @@ Range
    Maximum distance of which a boid can attack.
 
 
+Relations
+^^^^^^^^^
+
+Target
+   This :ref:`list view <ui-list-view>` allows you to set up other particle systems to react with the boids.
+Object
+   A :ref:`data ID <ui-data-id>` to select an object with a particle system set on.
+System
+   Index of the *Object*\ s particle system as set in the list view in the particle panel.
+
 Alliance
---------
+   Enemy
+      Setting the type to *Enemy* will cause the systems to fight with each other.
+   Friend
+      Will make the systems work together.
+   Neutral
+      Will not cause them to align or fight with each other.
 
-The relations box allows you to set up other particle systems to react with the boids.
-Setting the type to *Enemy* will cause the systems to fight with each other.
-*Friend* will make the systems work together.
-*Neutral* will not cause them to align or fight with each other.
 
-
-Deflectors and Effectors
-------------------------
+Details
+=======
 
 As mentioned before, very much like Newtonian particles,
 Boids will react to the surrounding deflectors and fields,
-according to the needs of the animator:
+according to the needs of the animator,
 
-Deflection:
-Boids will try to avoid deflector objects according to the Collision rule's weight.
+
+Deflection
+----------
+
+Boids will try to avoid deflector objects according to the Collision rule’s weight.
 It works best for convex surfaces (some work needed for concave surfaces).
+
+
+Spherical fields
+----------------
+
 For boid physics, Spherical fields define the way the objects having the field are seen by others.
 So a negative Spherical field (on an object or a particle system)
 will be a predator to all other boids particle systems,
 and a positive field will be a goal to all other boids particle systems.
 
-When you select an object with a particle system set on,
-you have in the Fields tab a little menu stating if the field
-should apply to the emitter object or to the particle system.
-You have to select the particle system name if you want
-prey particles to flew away from predator particles.
-
-Spherical fields: These effectors could be predators (negative Strength)
+These effectors could be predators (negative Strength)
 that boids try to avoid or targets (positive Strength)
 that boids try to reach according to the (respectively) Avoid and Goal rules' weights.
 Spherical's effective Strength is multiplied by the actual relevant weight (e.g. if either Strength or Goal is null,
 then a flock of boids will not track a positive Spherical field).
-You can also activate Die on hit (Extras panel) so that a prey particle simply disappears when
-"attacked" by a predator particle which reaches it. To make this work,
-the predator particles have to have a spherical field with negative force,
-it is not sufficient just to set a positive goal for the prey particles
-(but you may set the predators force strength to -0.01).
-The size of the predators and the prey can be set with the Size button in the Extras panel.
 
 
 Boid Brain
 ----------
 
 The Boid Brain panel controls how the boids particles will react with each other.
+
+
+Rules
+^^^^^
+
 The boids' behavior is controlled by a list of rules.
 Only a certain amount of information in the list can be evaluated.
 If the memory capacity is exceeded, the remaining rules are ignored.
@@ -145,14 +165,11 @@ The rules are by default parsed from top-list to bottom-list
 (thus giving explicit priorities),
 and the order can be modified using the little arrows buttons on the right side.
 
-The list of rules available are:
-
 Goal
    Seek goal (objects with Spherical fields and positive Strength).
 
    Predict
       Predict target's movements.
-
 Avoid
    Avoid "predators" (objects with Spherical fields and negative Strength).
 
@@ -160,7 +177,6 @@ Avoid
       Predict target's movements.
    Fear Factor
       Avoid object if danger from it is above this threshold.
-
 Avoid Collision
    Avoid objects with activated Deflection.
 
@@ -173,10 +189,8 @@ Avoid Collision
 
 Separate
    Boids move away from each other.
-
 Flock
    Copy movements of neighboring boids, but avoid each other.
-
 Follow Leader
    Follows a leader object instead of a boid.
 
@@ -184,7 +198,6 @@ Follow Leader
       Distance behind leader to follow.
    Line
       Follow the leader in a line.
-
 Average Speed
    Maintain average velocity.
 
@@ -194,7 +207,6 @@ Average Speed
       How fast velocity's direction is randomized.
    Level
       How much velocity's Z component is kept constant.
-
 Fight
    Move toward nearby boids.
 
@@ -205,7 +217,7 @@ Fight
 
 
 Rule Evaluation
----------------
+^^^^^^^^^^^^^^^
 
 There are three ways control how rules are evaluated.
 
@@ -225,7 +237,7 @@ Please note that a given boid will try as much as it can to comply to each of th
 given, but it is more than likely that some rule will take precedence on other in some cases.
 For example, in order to avoid a predator, a boid could probably "forget" about Collision,
 Crowd and Center rules, meaning that "while panicked" it could well run into obstacles,
-for example, even if instructed not to, most of the time.
+e.g. even if instructed not to, most of the time.
 
 As a final note, the Collision algorithm is still not perfect and in research progress,
 so you can expect wrong behaviors at some occasion. It is worked on.
