@@ -12,7 +12,7 @@ Boids
 Boids particle systems are controlled by a limited artificial intelligence,
 which can be programmed to follow basic rules and behaviors.
 They are ideal for simulating flocks, swarms, herds and schools of various kind of animals,
-insects and fishes or predators vs preys simulations.
+insects and fishes or predators vs. preys simulations.
 They can react on the presence of other objects and on the members of their own system.
 Boids can handle only a certain amount of information,
 therefore the sequence of the Behavior settings is very important.
@@ -107,7 +107,7 @@ Target
 Object
    A :ref:`data ID <ui-data-id>` to select an object with a particle system set on.
 System
-   Index of the *Object*\ s particle system as set in the list view in the particle panel.
+   Index of the *Object*\ 's particle system as set in the list view in the particle panel.
 
 Alliance
    Enemy

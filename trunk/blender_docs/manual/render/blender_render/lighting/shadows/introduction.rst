@@ -123,7 +123,7 @@ To enable buffered shadows these actions are required:
 
 - Enable shadows globally from the *Scene* menu's *Gather* panel by selecting *Approximate*.
 - Enable shadows for the light using the *Buffer Shadow* button in the *Lamp* menu's *Shadow* panel.
-- Make sure the *Cast Buffer Shadows* options is enabled in each *Material* 's *Shadow* panel.
+- Make sure the *Cast Buffer Shadows* options is enabled in each *Material*\ 's *Shadow* panel.
 
 - The :doc:`Spot lamp </render/blender_render/lighting/lamps/spot/buffered_shadow>`
   is the only lamp able to cast buffered shadows.

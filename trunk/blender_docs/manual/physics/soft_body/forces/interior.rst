@@ -147,10 +147,10 @@ because it has no quads anyway.
 
           Frame 401.
 
-The second method to stop an object from collapsing is to change its *Bending Stiffness*.
+The second method to stop an object from collapsing is to change its *Bending* stiffness.
 This includes the diagonal edges (damping also applies to these connections).
 
-In Fig. :ref:`fig-softbody-force-interior-bending`, *Be* is activated with a strength setting of 1.
+In Fig. :ref:`fig-softbody-force-interior-bending`, *Bending* is activated with a strength setting of 1.
 Now both cubes are more rigid.
 
 .. list-table::
@@ -173,7 +173,7 @@ Now both cubes are more rigid.
           High bending stiffness (10), Frame 101.
 
 Bending stiffness can also be used if you want to make a subdivided plane more plank like.
-Without *Be* the faces can freely rotate against each other like hinges
+Without *Bending* the faces can freely rotate against each other like hinges
 Fig. :ref:`fig-softbody-force-interior-no-bending`.
 There would be no change in the simulation if you activated *Stiff Quads*,
 because the faces are not deformed at all in this example.
