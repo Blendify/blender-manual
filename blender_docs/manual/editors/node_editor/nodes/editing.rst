@@ -13,7 +13,7 @@ Transform
    | Menu:     :menuselection:`Node --> Translate, Rotate, Resize`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
-Move a single node by click and drag it around. A node can be clicked almost anywhere to start dragging.
+Move a single node by clicking and dragging it around. A node can be clicked almost anywhere to start dragging.
 Multiple nodes can be translated after pressing :kbd:`G`.
 
 In general it is recommended to arrange your nodes within the view such that the data flows from

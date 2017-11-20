@@ -45,7 +45,7 @@ Instance Groups
    This option links the Group to an object, adding it to the active scene.
 
 Fake User
-   Sets a :ref:`Fake User <data-system-datablock-fake-user>` for the append items.
+   Sets a :ref:`Fake User <data-system-datablock-fake-user>` for the appended items.
 Localize All
    ToDo.
 

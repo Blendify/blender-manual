@@ -169,7 +169,7 @@ If the active element is a *connected root*:
   (check the Outliner in Fig. :ref:`fig-rig-bone-connected-root`).
 
 This should be obvious because if the active element is a connected root then the active
-element is also the tip of the parent bone, so it is the same as the second case.
+element will be also the tip of the parent bone, so it is the same as the second case.
 
 As the tip of the new bone becomes the active element,
 you can repeat these :kbd:`Ctrl-RMB` several times,

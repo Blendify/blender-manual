@@ -54,7 +54,7 @@ Pressure Radius
       Radius to use when the maximum pressure is applied (or when a tablet is not used).
 
 Projection Depth
-   Options to control how where/how the curves are drawn.
+   Options to control where/how the curves are drawn.
 
    Cursor
       Uses the depth under the cursor to draw curves.
