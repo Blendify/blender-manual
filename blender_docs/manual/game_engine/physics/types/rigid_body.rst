@@ -1,4 +1,3 @@
-.. Ed: this is the same as game_engine/physics/object/dynamic.rst
 
 ******************
 Rigid Body Physics
@@ -58,7 +57,6 @@ Radius
    :header-rows: 1
 
    * - Basic
-
      - Radius= 1.5
      - Unapplied Scale
      - Applied Scale
@@ -94,17 +92,21 @@ Form Factor
    considering Dynamic types do not have torque in response to collisions --
    but you can still see this value's effects when you manually apply Torque.
 Anisotropic Friction
-   Isotropic friction is identical at all angles. Anisotropic is directionally-dependant.
+   Isotropic friction is identical at all angles. Anisotropic is directionally-dependent.
    Here you can vary the coefficients for the three axes individually, or disable friction entirely.
-Velocity- Limit the speed of an object 0 - 1000.
+Velocity
+   Limit the speed of an object.
+
    Minimum
       The object is allowed to be at complete rest,
       but as soon as it accelerates it will immediately jump to the minimum speed.
    Maximum
       Top speed of the object.
-Damping- Increase the "sluggishness" of the object.
+Damping
+   Increase the "sluggishness" of the object.
+
    Translation
-      Resist movement (0 - 1). At "1" the object is completely immobile.
+      Resist movement (0 - 1). At 1 the object is completely immobile.
    Rotation
       Resist rotation, but not the kind of rotation that comes from a collision. For example,
       if a Motion Controller applies Torque to an object, this damping will be a factor.
@@ -112,8 +114,10 @@ Lock Translation
    Seize the object in the world along one or more axes.
    Note that this is global coordinates, not local or otherwise.
 Lock Rotation
-   Same, but for rotation (also with respect to the global coordinates).
+   Rigid body only -- Same, but for rotation (also with respect to the global coordinates).
 
+
+.. _game-engine-physics-object-collision-bounds:
 
 Collision Bounds
 ================
@@ -155,7 +159,8 @@ Now we can explain the various options for the *Collision Bounds* settings:
 Default
    For Dynamic and Static objects, it is a Triangle Mesh (see below).
    For everything else, it is a Sphere (see below).
-Capsule -- A cylinder with hemispherical caps, like a pill.
+Capsule
+   Which is a cylinder with hemispherical caps, like a pill.
    Radius of the hemispheres is the greater of the X or Y extent.
    Height is the Z bounds.
 Box
