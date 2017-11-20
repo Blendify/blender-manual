@@ -20,7 +20,7 @@ Another important note is that the default
 is a Triangle Mesh, meaning it is higher in computational requirements but also in detail.
 This in turn means the "Radius" option has no effect by default.
 
-For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
+For more documentation, see the general :doc:`physics page </game_engine/physics/index>`.
 
 
 Options
@@ -41,45 +41,7 @@ Invisible
    Does not display, the same as setting the object to unrendered
    (such as unchecking the "Camera" icon in the Outliner).
 Radius
-   If you have the "Collision Bounds: Sphere"
-   set explicitly (or implicitly through having the Collision Bounds subpanel unchecked),
-   this will multiply with the Object's (unapplied) Scale. Note that none of the other bounds types are affected.
-   Also note that in the 3D View the display will show this for all types,
-   even though it is only actually used with Sphere.
-
-.. list-table::
-   :header-rows: 1
-
-   * - Basic
-     - Radius= 1.5
-     - Unapplied Scale
-     - Applied Scale
-     - Collision Bounds
-
-   * - Rolls, radius of 1 BU
-     - Rolls, radius of 1.5 BU (after "popping" upward)
-     - Rolls, radius of 1.5 BU
-     - Rolls, radius of 1 BU (!)
-     - Default (which is Sphere)
-
-   * - Slides, extent of 1 BU
-     - Slides, extent of 1 BU
-     - Slides, extent of 1 BU
-     - Slides, extent of 1 BU
-     - Box
-
-   * - ""
-     - ""
-     - ""
-     - ""
-     - Convex Hull
-
-   * - Slides, extent of 1 BU (but with more friction than above)
-     - Slides, extent of 1 BU (but with more friction than above)
-     - Acts insane
-     - Slides extent of 1.5 BU
-     - Triangle Mesh
-
+   See :ref:`rigid body <game-engine-physics-collision-bounds-radius>`.
 Anisotropic Friction
    Isotropic friction is identical at all angles. Anisotropic is directionally-dependant.
    Here you can vary the coefficients for the three axes individually, or disable friction entirely.
