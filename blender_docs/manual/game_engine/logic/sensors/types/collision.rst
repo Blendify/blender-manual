@@ -6,7 +6,7 @@ Collision Sensor
 
 A *Collision Sensor* works like a "touch sensor" but can also filter by property or material.
 Only objects with the property/material with that name will generate a positive pulse upon collision.
-Leave blank for collision with any object.
+Leave blank for collision detection with any object.
 
 .. note:: Note about soft bodies
 

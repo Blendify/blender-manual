@@ -12,6 +12,8 @@
    usage.rst
 
 
+.. _game-engine-physics-types:
+
 Physics Types
 =============
 

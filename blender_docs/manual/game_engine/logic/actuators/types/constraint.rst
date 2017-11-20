@@ -5,10 +5,11 @@ Constraints Actuator
 ********************
 
 The *Constraints Actuator* adds a constraint to the location or orientation of an object.
+This is useful for controlling the physics of the object in game.
 
 
-Propeties
-=========
+Properties
+==========
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 

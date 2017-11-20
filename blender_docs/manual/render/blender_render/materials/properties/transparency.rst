@@ -325,13 +325,13 @@ Common Liquids
 
    - Alcohol ``1.329``
    - Milk ``1.35``
-   - Oil, vegetable (50- C) ``1.47``
+   - Oil, vegetable (50° C) ``1.47``
    - Shampoo ``1.362``
-   - Water (0- C) ``1.33346``
-   - Water (100- C) ``1.31766``
-   - Water (20- C) ``1.33283``
+   - Water (0° C) ``1.33346``
+   - Water (100° C) ``1.31766``
+   - Water (20° C) ``1.33283``
    - Water (gas) ``1.000261``
-   - Water (35- C, room temp) ``1.33157``
+   - Water (35° C, room temp) ``1.33157``
    - Vodka ``1.363``
 
 

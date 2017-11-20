@@ -4,7 +4,7 @@
 Rigid Body Physics
 ******************
 
-Probably the most common type of object in the :doc:`Game Engine </game_engine/index>`.
+Probably the most common type of object in the Game Engine.
 It will give/receive collisions and react with a change in its velocity and its rotation.
 A Rigid Body ball would begin rotating and roll down
 (where a :doc:`Dynamic </game_engine/physics/types/dynamic>` ball would only hit and slide down the ramp).
@@ -13,7 +13,7 @@ The idea behind Rigid Body dynamics is that the mesh does not deform.
 If you need deformation you will need to either go to
 :doc:`Soft Body </game_engine/physics/types/soft_body>` or else fake it with animated Actions.
 
-For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
+For more documentation, see the general :doc:`physics page </game_engine/physics/index>`.
 
 
 Options

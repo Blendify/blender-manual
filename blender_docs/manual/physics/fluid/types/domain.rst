@@ -161,13 +161,13 @@ Viscosity Presets
       * - Fluid
         - Dynamic viscosity (in cP)
         - Kinematic viscosity (Blender, in m\ :sup:`2`\.s\ :sup:`-1`\)
-      * - Water (20- C)
+      * - Water (20° C)
         - 1.002×10\ :sup:`0` (1.002)
         - 1.002×10\ :sup:`-6` (0.000001002)
       * - Oil SAE 50
         - 5.0×10\ :sup:`2` (500)
         - 5.0×10\ :sup:`-5` (0.00005)
-      * - Honey (20- C)
+      * - Honey (20° C)
         - 1.0×10\ :sup:`4` (10,000)
         - 2.0×10\ :sup:`-3` (0.002)
       * - Chocolate Syrup

@@ -3,10 +3,9 @@
 Static Physics
 **************
 
-Static objects in the :doc:`Blender Game Engine </game_engine/index>` do not automatically react to physics,
-including gravity and collisions.
-Even if hit by the force of a speeding 18-wheeler truck,
-it will remain unresponsive in terms of location, rotation, or deformation.
+Static objects participates in the simulation, affecting other objects, but are not affected by it.
+Meaning they do not react to physics, including gravity and collisions and this way
+will remain unresponsive in terms of location, rotation, or deformation.
 
 It will, however, give collision reactions. Objects will bounce off of Static Objects,
 and rotational inertia will transfer to objects capable of rotating (that is,
