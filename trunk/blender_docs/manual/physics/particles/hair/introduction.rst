@@ -3,8 +3,8 @@
 Introduction
 ************
 
-When set to hair type, particle system creates only static particles,
-which may be used for hair, fur, grass and the like.
+Hair type particle system can be used for strand-like objects,
+such as hair, fur, grass, quills, etc.
 
 .. figure:: /images/physics_particles_hair_introduction_example.jpg
 
@@ -40,7 +40,7 @@ In this mode, the particle settings become disabled, and you can comb, trim, len
 Animating
 =========
 
-Hair can now be made dynamic using the cloth solver.
+Hair can be made dynamic using the cloth solver.
 This is covered in the :ref:`Hair Dynamics <hair-dynamics>` page.
 
 

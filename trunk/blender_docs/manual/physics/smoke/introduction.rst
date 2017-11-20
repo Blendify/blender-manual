@@ -4,7 +4,8 @@
 Introduction
 ************
 
-Smoke simulation is used to simulate the fluid movement of air and generate animated :term:`voxel`
+Smoke simulation is a subset of the fluids system, and can be used for simulating gases such as smoke.
+It simulates the fluid movement of air and generate animated :term:`voxel`
 textures representing the density, heat, and velocity of other fluids or suspended particles
 (i.e. smoke) which can be used for rendering.
 

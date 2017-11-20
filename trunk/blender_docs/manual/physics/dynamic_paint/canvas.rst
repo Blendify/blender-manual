@@ -4,6 +4,8 @@
 Canvas
 ******
 
+The Canvas type makes object receive paint from Dynamic Paint brushes.
+
 .. figure:: /images/physics_dynamic-paint_canvas_main-panel.png
    :align: right
 

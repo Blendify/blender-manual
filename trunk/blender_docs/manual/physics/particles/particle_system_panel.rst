@@ -7,6 +7,8 @@ Particle System Panel
 
    Particle System Panel.
 
+These are the basic settings.
+
 Active Particle System
    The :ref:`List View <ui-list-view>` of the objects Particle Modifier(s).
 

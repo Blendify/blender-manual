@@ -4,6 +4,8 @@
 Brush
 *****
 
+The Brush type makes object apply paint on the canvas.
+
 .. figure:: /images/physics_dynamic-paint_brush_main-panel.png
 
    Brush main panel.
