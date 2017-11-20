@@ -27,7 +27,7 @@ see the :doc:`Materials </render/blender_render/materials/index>` and
 
 The texture-specific and the *Mapping* panels remain the same. However, you will note
 there are much fewer *Mapping* options. You can only choose between
-*Global*, *View* or another *Object* 's texture *coordinates*
+*Global*, *View* or another *Object*\ 's texture *coordinates*
 (since a lamp has no texture coordinates by itself), and you can scale or offset the texture.
 
 The *Mapping* panel is also a subset of its regular material's counterpart.

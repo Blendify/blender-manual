@@ -111,7 +111,7 @@ The lamp on the left however, lets it be known that it is there by enabling spec
 specular flare is that bright spot that is off center above midline on the sphere.
 
 Use this rig to give even illumination of a scene, where there is no main focus.
-The *Hemi* 's will light up background objects and props,
+The *Hemi*\ 's will light up background objects and props,
 so *Environment Lighting* is not that important.
 At the opposite end of the lighting spectrum, two narrow *Spot* lights at higher
 power with a hard edge gives a "This is the Police, come out with your hands up" kind of look,
@@ -244,7 +244,7 @@ or really dark ones, or strange shadows, or lines on your objects,
 here are some good steps to debugging what is wring:
 
 #. First, try deactivating all materials
-   (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,
+   (create a default, gray one, and enter its name in the *Material* field, *Layer* panel,
    the *Render Layer* tab to get back all your normal materials, just erase this text field!).
    See if you get those problems with just grayness objects. If you do not have the problem anymore,
    that should tell you that you have got a materials-interacting-with-light problem.

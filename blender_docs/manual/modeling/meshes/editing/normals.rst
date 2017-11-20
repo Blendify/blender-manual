@@ -75,7 +75,7 @@ it changes the way the shading is calculated across the surfaces (normals will b
 giving the illusion of a smooth surface.
 
 Click the *Flat* button in the
-*Tool Shelf* 's *Shading panel* to revert the shading back (normals will be constant)
+*Tool Shelf*\ 's *Shading panel* to revert the shading back (normals will be constant)
 to that shown in the first image above.
 
 

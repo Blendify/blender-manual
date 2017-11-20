@@ -56,7 +56,7 @@ For more information on the different shadow generation methods see these links:
 .. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_panel.png
    :width: 310px
 
-   Buffer Shadowset to Classic-Halfway.
+   Buffer Shadow set to Classic-Halfway.
 
 Classical
    A shadow generation which used to be the Blender default and unique method for generation of buffered shadows.
@@ -253,12 +253,12 @@ Bias
    each time its light hits an object using this material.
    The (0.0 and 1.0) values are equivalent. They do not alter the lamp's *Bias* original value.
 
-Clip Start & Clip End
+Clip Start/End
    When a *Spot* light with buffered shadows is added to a scene,
    an extra line appears on the *Spot* 3D View representation.
 
-   The start point of the line represents *Clip Start* 's value and the end of the line
-   represents *Clip End* 's value.
+   The start point of the line represents *Clip Start*\ 's value and the end of the line
+   represents *Clip End*\ 's value.
    *Clip Start* can have a value between (0.1 to 1000.0), and *Clip End*
    between (1.0 to 5000.0). Both values are represented in Blender Units.
 
@@ -282,7 +282,7 @@ Clip Start & Clip End
    minimizes the area shadows are computed in and therefore helps increase shadow quality in
    the more restricted area.
 
-Autoclip Start & Autoclip End
+Autoclip Start/End
    As well as manually setting *Clip Start* and *Clip End* fields to control when buffered shadows start and end,
    it is also possible to have Blender pick the best value independently for each *Clip Start* and *Clip End* field.
 
