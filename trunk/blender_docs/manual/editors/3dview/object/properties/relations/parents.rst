@@ -295,11 +295,11 @@ Clear Parent
    | Menu:     :menuselection:`Object --> Parent`
    | Hotkey:   :kbd:`Alt-P`
 
-You can *remove* a parent-child relationship via :kbd:`Alt-P`
+You can *remove* a parent-child relationship via :kbd:`Alt-P`.
 
 Clear Parent
-   If the parent in the group is selected nothing is done.
-   If a child or children are selected they are disassociated from the parent,
+   If the parent in the group is selected, nothing is done.
+   If a child or children are selected, they are disassociated from the parent,
    or freed, and they return to their *original* location, rotation, and size.
 Clear and Keep Transformation
    Frees the children from the parent, and *keeps* the location, rotation, and size given to them by the parent.
