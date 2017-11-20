@@ -24,13 +24,8 @@ Dynamic Paint can be activated from the "Physics" tab of the "Properties" editor
 Types
 =====
 
-Modifier itself has two different types:
-
-:doc:`Canvas </physics/dynamic_paint/canvas>`
-   Makes object receive paint from Dynamic Paint brushes.
-
-:doc:`Brush </physics/dynamic_paint/brush>`
-   Makes object apply paint on the canvas.
+Modifier itself has two different types
+:doc:`Canvas </physics/dynamic_paint/canvas>` and :doc:`Brush </physics/dynamic_paint/brush>`.
 
 .. note::
 

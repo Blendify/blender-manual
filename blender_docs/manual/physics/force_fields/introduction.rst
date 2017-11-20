@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Force Fields offer a way to add extra movement to dynamic systems.
+Force Fields offer a way to influence a simulations, in example to add extra movement.
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`,
 `Rigid Bodies </physics/rigid_body/index>`, and :doc:`Cloth objects </physics/cloth/index>`
 can all be affected by forces fields.

@@ -49,36 +49,3 @@ Every object may carry many particle systems. Each particle system may contain u
 may have up to 10.000 children for each particle
 (children move and emit more or less like their respective parents).
 The size of your memory and your patience are your practical boundaries.
-
-
-Options
--------
-
-Each system has the same basic sets of controls,
-but options within those sets vary based on the system employed. These sets of controls are:
-
-:doc:`Particle System Panel </physics/particles/particle_system_panel>`
-   Basic Settings.
-:doc:`Emission </physics/particles/emitter/emission>`
-   Settings for the initial distribution of particles on the emitter and the way they are born into the scene.
-:doc:`Cache </physics/particles/emitter/cache>`
-   In order to increase realtime response and avoid unnecessary recalculation of particles,
-   the particle data can be cached in memory or stored on a drive.
-:doc:`Velocity </physics/particles/emitter/physics/index>`
-   Initial speed of particles.
-:doc:`Rotation </physics/particles/emitter/physics/index>`
-   Rotational behavior of particles.
-:doc:`Physics </physics/particles/emitter/physics/index>`
-   How the movement of the particles behaves.
-:doc:`Render </physics/particles/emitter/render>`
-   Rendering options.
-:doc:`Display </physics/particles/emitter/display>`
-   Realtime display in the 3D View.
-:doc:`Children </physics/particles/emitter/children>`
-   Control the creation of additional child particles.
-:doc:`Field Weights </physics/particles/emitter/physics/index>`
-   Factors for external forces.
-:doc:`Force Field Settings </physics/particles/emitter/physics/index>`
-   Makes particles force fields.
-:doc:`Vertex Groups </physics/particles/emitter/vertex_groups>`
-   Influencing various settings with vertex groups.

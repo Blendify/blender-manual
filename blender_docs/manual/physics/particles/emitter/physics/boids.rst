@@ -119,22 +119,22 @@ Alliance
 
 
 Details
-=======
+-------
 
 As mentioned before, very much like Newtonian particles,
 Boids will react to the surrounding deflectors and fields,
-according to the needs of the animator,
+according to the needs of the animator.
 
 
 Deflection
-----------
+^^^^^^^^^^
 
 Boids will try to avoid deflector objects according to the Collision rule’s weight.
 It works best for convex surfaces (some work needed for concave surfaces).
 
 
 Spherical fields
-----------------
+^^^^^^^^^^^^^^^^
 
 For boid physics, Spherical fields define the way the objects having the field are seen by others.
 So a negative Spherical field (on an object or a particle system)

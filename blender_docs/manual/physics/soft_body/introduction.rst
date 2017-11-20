@@ -14,12 +14,15 @@ Introduction
    `Blend file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__.
 
 A Soft Body in general, is a simulation of a soft or rigid deformable object.
-In Blender, this system is best for simple cloth objects and closed meshes.
+It is useful for everything that tends to bend, deform,
+in reaction to forces like gravity or wind, or when colliding with other objects.
+
+In Blender, this system is best for simple cloth objects and closed meshes e.g. for skin or rubber.
 There is dedicated :doc:`Cloth Simulation </physics/cloth/index>` physics that use a different solver,
 and is better for cloth.
 
 This simulation is done by applying forces to the vertices or control points of the object.
-There are exterior forces like gravity or forcefields and interior forces that hold the
+There are exterior forces like gravity or force fields and interior forces that hold the
 vertices together.
 This way you can simulate the shapes that an object would take on in reality if it had volume,
 was filled with something, and was acted on by real forces.
