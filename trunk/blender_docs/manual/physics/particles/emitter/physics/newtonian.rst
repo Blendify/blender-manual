@@ -3,19 +3,22 @@
 Newtonian
 *********
 
-These are the "normal" particle physics.
+The particles will move according to classical (Newtonian) mechanics.
 Particles start their life with the specified initial velocities and angular velocities,
-and move according to Newtonian forces.
+and move according to external forces.
 The response to environment and to forces is computed differently,
-according to any given integrator chosen by the animator.
+according to the given integrator chosen by the animator.
 
 .. figure:: /images/physics_particles_emitter_physics_newtonian_panel.png
 
    Newtonian Physics Settings.
 
 
+Options
+=======
+
 Forces
-======
+------
 
 Brownian
    Specify the amount of Brownian motion.
@@ -29,7 +32,7 @@ Damp
 
 
 Integration
-===========
+-----------
 
 Integrators are a set of mathematical methods available to calculate the movement of
 particles. The following guidelines will help to choose a proper integrator,
@@ -44,7 +47,7 @@ Euler
    energies decrease over time, even with no dampening.
    Use this integrator for short simulations or simulations with a lot of
    dampening where speedy calculations is more important than accuracy.
-Varlet
+Verlet
    Very fast and stable integrator, energy is conserved over time with very little numerical dissipation.
 Midpoint
    Also known as "2nd order Runge-Kutta". Slower than Euler but much more stable.
@@ -59,7 +62,7 @@ RK4
 
 
 Frame Settings
-==============
+--------------
 
 Timestep
    The simulation time step per frame.
@@ -69,7 +72,7 @@ Subframes
 
 
 Collision
-=========
+---------
 
 Size Deflect
    Use the particle size in deflections.

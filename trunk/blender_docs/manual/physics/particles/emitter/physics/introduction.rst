@@ -4,28 +4,14 @@ Introduction
 ************
 
 The movement of particles may be controlled in a multitude of ways.
-With particles physics: there are five different systems:
+Here we will discuss only the particle physics in the narrower sense, i.e.
+the settings in the Physics panel.
 
-None (`No Physics`_)
-   It does not give the particles any motion, which makes them belong to no physics system.
-:doc:`Newtonian </physics/particles/emitter/physics/newtonian>`
-   Movement according to physical laws.
-:doc:`Keyed </physics/particles/emitter/physics/keyed>`
-   Dynamic or static particles where the (animated) targets are other particle systems.
-:doc:`Boids </physics/particles/emitter/physics/boids>`
-   Particles with limited artificial intelligence, including behavior and rules programming,
-   ideal for flocks of birds or schools of fishes, or predators vs preys simulations.
-:doc:`Fluid </physics/particles/emitter/physics/fluid>`
-   Movement according to fluid laws (based on Smoothed Particle Hydrodynamics technique).
-
-Additional ways of moving particles:
+Additional ways of moving particles are:
 
 - By softbody animation (only for Hair particle systems).
 - By forcefields and along curves.
 - By lattices.
-
-Here we will discuss only the particle physics in the narrower sense, i.e.
-the settings in the Physics panel.
 
 
 Common Physics Settings
@@ -42,9 +28,10 @@ Multiply mass with particle size
 
 
 No Physics
-----------
+==========
 
-At first a Physics type that makes the particles do nothing could seem a bit strange,
+The particles will be given no motion, which makes them belong to no physics system.
+At first a physics type that makes the particles to be static could seem a bit strange,
 but it can be very useful at times.
 None physics make the particles stick to their emitter their whole life time. The initial
 velocities here are for example used to give a velocity to particles that are affected
