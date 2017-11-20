@@ -46,6 +46,9 @@ Mass
    Affects the reaction due to collision between objects -- more massive objects have more inertia.
    Will also affect material force fields.
    Will also change behaviors if you are using the suspension and steering portions of Bullet physics.
+
+.. _game-engine-physics-collision-bounds-radius:
+
 Radius
    If you have the "Collision Bounds: Sphere"
    set explicitly (or implicitly through having the Collision Bounds subpanel unchecked),

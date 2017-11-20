@@ -20,13 +20,13 @@ Physics Types
 .. toctree::
    :maxdepth: 1
 
-   types/static.rst
    types/no_collision.rst
+   types/static.rst
    types/dynamic.rst
    types/rigid_body.rst
    types/soft_body.rst
-   types/vehicle.rst
    types/occluder.rst
    types/sensor.rst
-   types/character.rst
    types/navigation_mesh.rst
+   types/character.rst
+   types/vehicle.rst
