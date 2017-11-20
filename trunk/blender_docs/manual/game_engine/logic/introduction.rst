@@ -30,7 +30,7 @@ Properties
 ==========
 
 :doc:`Properties </game_engine/logic/properties>` are like variables in other programming languages.
-They are used to save and access data values either for the whole game (eg. scores),
+They are used to save and access data values either for the whole game (e.g. scores),
 or for particular objects/players (e.g. names).
 However, in the Blender Game Engine, a property is associated with an object.
 Properties can be of different types,

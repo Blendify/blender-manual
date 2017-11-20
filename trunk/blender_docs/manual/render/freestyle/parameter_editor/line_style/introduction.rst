@@ -13,7 +13,7 @@ Introduction
    Line Style UI.
 
 In Freestyle, the line style settings define the appearance of a line set using five main aspects:
-Stroke, Color, Alpha, Thickness, Geometry and Texture each with its own tab.
+Stroke, Color, Alpha, Thickness, Geometry and Texture with each on a separate tab.
 These allow you to get many different styles of renders
 (technical draw, rough sketch, cartoon, oriental calligraphy, etc.).
 

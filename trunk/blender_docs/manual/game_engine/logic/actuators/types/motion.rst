@@ -5,7 +5,7 @@ Motion Actuator
 ***************
 
 The *Motion Actuator* sets an object into motion. There are two modes of operation,
-Simple or Servo, in which the object can either teleport & rotate, or dynamically move.
+Simple or Servo, in which the object can either teleport and rotate, or dynamically move.
 
 
 Properties

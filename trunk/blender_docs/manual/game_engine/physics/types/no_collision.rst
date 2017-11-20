@@ -3,12 +3,12 @@
 No Collision Physics
 ********************
 
-"No Collision" objects in the :doc:`Game Engine </game_engine/index>` are completely unaffected by
-:doc:`Physics </game_engine/physics/index>`, and do not cause physics reactions.
+"No Collision" objects are completely unaffected by the simulation and
+do not affects other objects.
 They are useful as pure display objects, such as the child of a *Custom Collision Hull*
 (:ref:`game-engine-physics-object-collision-bounds`).
 
-For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
+For more documentation, see the general :doc:`physics page </game_engine/physics/index>`.
 
 
 Options

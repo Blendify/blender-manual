@@ -6,16 +6,14 @@ Vehicle Controller Physics
 Introduction
 ============
 
-The Vehicle Controller is a special :ref:`type of physics object <game-engine-physics-types>`
-that the Physics Engine (bullet) recognizes.
+The Vehicle Controller is a special type of physics object that the Physics Engine (bullet) recognizes.
 
-It is composed of a *rigid body*
-representing the chassis and a set of wheels that are set to *no collision*.
+It is composed of a *rigid body* representing the chassis and a set of wheels that are set to *no collision*.
 Emphasizing the distinction between a Game Engine,
 Logical or Render object and its representation for the Physics Engine is important.
 
-To simulate a vehicle as a true rigid body, on top of also rigid body wheels, with a real suspension system made with
-joints, would be far too complicated and unstable.
+To simulate a vehicle as a true rigid body, on top of also rigid body wheels,
+with a real suspension system made with joints, would be far too complicated and unstable.
 Cars and other vehicles are complicated mechanical devices and most
 often we do not want to simulate that, only that it 'acts as expected'. The Vehicle Controller exists to provide a
 dedicated way of simulating a vehicle behavior without having to simulate all the physics that would actually happen

@@ -1,3 +1,5 @@
+.. (todo move) merge with introduction
+
 .. |true-button| image:: /images/icons_sensor-true.png
    :width: 1.1em
 .. |false-button| image:: /images/icons_sensor-false.png

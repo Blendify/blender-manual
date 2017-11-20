@@ -4,7 +4,7 @@
 Random Actuator
 ***************
 
-The *Random Actuator* sets a random value into a property of the object.
+The *Random Actuator* creates a random value which can be stored in a property of the object.
 
 .. figure:: /images/game-engine_logic_actuators_types_random_bool-constant.jpg
    :width: 271px
@@ -28,7 +28,7 @@ Distributions from which to select the random value. The default entry of *Boole
 gives either True or False, which is useful for test purposes.
 
 Each distribution has one common property called: *Property*.
-This can be either a float, interger, or a boolean depending on the distribution type.
+This can be either a float, integer, or a boolean depending on the distribution type.
 
 Float Neg. Exp.
    Values drop off exponentially with the specified half-life time.

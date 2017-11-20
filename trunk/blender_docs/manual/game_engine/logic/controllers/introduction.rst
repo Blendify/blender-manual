@@ -19,20 +19,10 @@ The logic blocks for all types of controller may be constructed and changed usin
 Controller Types
 ================
 
-There are eight types of controller logic brick to carry out the logic process on the input
-signal(s): these are described in the separate pages shown below:
-
-- :doc:`AND </game_engine/logic/controllers/types/and>`
-- :doc:`OR </game_engine/logic/controllers/types/or>`
-- :doc:`XOR </game_engine/logic/controllers/types/xor>`
-- :doc:`NAND </game_engine/logic/controllers/types/nand>`
-- :doc:`NOR </game_engine/logic/controllers/types/nor>`
-- :doc:`XNOR </game_engine/logic/controllers/types/xnor>`
-- :doc:`Expression </game_engine/logic/controllers/types/expression>`
-- :doc:`Python </game_engine/logic/controllers/types/python>`
-
-This table gives a quick overview of the logic operations performed by the logical controller
-types. The first column, input,
+There are eight types of controller logic brick to carry out the logic process on
+the input signal(s).
+This table gives a quick overview of the logic operations performed by
+the logical controller types. The first column, input,
 represents the number of positive pulses sent from the connected sensors.
 The following columns represent each controller's response to those pulses.
 True means the conditions of the controller are fulfilled,

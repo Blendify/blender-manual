@@ -32,32 +32,7 @@ Object Physics
 
 .. figure:: /images/game-engine_physics_introduction_tab-header.png
 
-
-.. _game-engine-physics-types:
-
-Physics Type
-============
-
-:doc:`No Collision </game_engine/physics/types/no_collision>`
-   Is not affected by the simulation nor affects other objects.
-:doc:`Static </game_engine/physics/types/static>`
-   Participates in the simulation, affecting other objects, but is not affected by it.
-:doc:`Dynamic </game_engine/physics/types/dynamic>`
-   Object that can move besides colliding and being collided with.
-:doc:`Rigid Body </game_engine/physics/types/rigid_body>`
-   Has rigid body dynamics.
-:doc:`Soft Body </game_engine/physics/types/soft_body>`
-   Soft body dynamics.
-:doc:`Character Controller </game_engine/physics/types/character>`
-   Character controller.
-:doc:`Vehicle Controller </game_engine/physics/types/vehicle>`
-   Vehicle controller.
-:doc:`Occluder </game_engine/physics/types/occluder>`
-   Prevents calculation of rendered objects (not their physics, though!).
-:doc:`Sensor </game_engine/physics/types/sensor>`
-   Detects presence without restituting collisions.
-:doc:`Navigation Mesh </game_engine/physics/types/navigation_mesh>`
-   To make pathfinding paths. Useful for Artificial Intelligence.
+See :ref:`game-engine-physics-types` in this chapter.
 
 
 Material Physics

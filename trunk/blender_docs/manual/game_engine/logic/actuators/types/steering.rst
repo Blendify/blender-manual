@@ -4,8 +4,9 @@
 Steering Actuator
 *****************
 
-The *Steering Actuator* moves an object towards a target object, with options to seek, flee, or follow a path.
-This actuator will not actually try to avoid obstacles by deviating the objects course.
+The *Steering Actuator* provides simple pathfinding for an object by moving it towards a target object,
+with options to seek, flee, or follow a path. This actuator will not actually try to avoid obstacles
+by deviating the objects course.
 
 .. figure:: /images/game-engine_logic_actuators_types_steering_node.jpg
 
