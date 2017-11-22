@@ -3,6 +3,11 @@
 Lamps
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Lamp --> Lamp`
+
 Next to lighting from the background and any object with an emission shader,
 lamps are another way to add light into the scene.
 The difference is that they are not directly visible in the rendered image,

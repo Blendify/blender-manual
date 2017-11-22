@@ -90,10 +90,10 @@ The *Remove Filter* is used to remove other 2D filters.
 
 To remove a filter on a specific pass:
 
-- Create appropriate sensor(s) and controller(s).
-- Create a *2D Filter* actuator.
-- Select *Remove Filter*.
-- Set the pass number you want to remove the filter from it.
+#. Create appropriate sensor(s) and controller(s).
+#. Create a *2D Filter* actuator.
+#. Select *Remove Filter*.
+#. Set the pass number you want to remove the filter from it.
 
 
 Custom Filters

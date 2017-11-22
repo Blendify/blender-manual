@@ -14,6 +14,11 @@ These are extra settings for :doc:`Hair Particles </physics/particles/hair/index
 Hair Settings
 =============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Cycles Hair Settings`
+
 The Cycles Hair Settings, under the particle tab, are used to control each hair particle system's strand properties.
 
 Shape

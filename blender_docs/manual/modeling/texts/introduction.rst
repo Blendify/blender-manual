@@ -7,7 +7,7 @@ Introduction
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Create -->Add Primitive --> Other: Text`
+   | Panel:    :menuselection:`Tool shelf --> Create --> Add Primitive --> Other: Text`
    | Menu:     :menuselection:`Add --> Text`
 
 .. _fig-texts-intro-example:

@@ -3,6 +3,11 @@
 Displacement
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Material --> Settings --> Displacement`
+
 The shape of the surface and the volume inside its mesh may be altered by the displacement shaders.
 This way, textures can then be used to make the mesh surface more detailed.
 

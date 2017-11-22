@@ -27,7 +27,7 @@ For example, it can (the list is not exhaustive):
 - Detect Mix RGB, Math and Vector Math nodes that become no-op (without Clamp)
   or evaluate to 0 as a result of addition, subtraction, multiplication,
   division or dot/cross product with a known constant 0 or 1 input,
-  and replace with the apropriate input link or constant result.
+  and replace with the appropriate input link or constant result.
 - Eliminate Mix RGB Mix (without Clamp) and Mix Shader nodes when
   Factor is known to be 0 or 1 by replacing with the appropriate input value or link.
 - Eliminate no-op Mix RGB (except Burn, Dodge, Lighten, or enabled Clamp),

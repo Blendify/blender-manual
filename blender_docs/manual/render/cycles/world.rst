@@ -16,6 +16,11 @@ physical sky model, to arbitrary textures.
 Surface
 =======
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`World --> Surface`
+
 The surface shader defines the light emission from the environment into the scene.
 The world surface is rendered as if it is very distant from the scene,
 and as such there is no two-way interacting between objects in the scene and the environment,
@@ -35,6 +40,11 @@ and *Mirror Ball* mapping for converting photos of mirror balls to environment m
 Volume
 ======
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`World --> Volume`
+
 A volume shader can be applied to the entirely world, filling the entire space.
 
 Currently this is most useful for night time or other dark scenes,
@@ -50,6 +60,11 @@ The size of this object will determine how much light is scattered or absorbed.
 
 Ambient Occlusion
 =================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`World --> Ambient Occlusion`
 
 Ambient occlusion is a lighting method based on how much a point on a surface is occluded by
 nearby surfaces. This is a trick that is not physically accurate,
@@ -76,6 +91,11 @@ An alternative method of using Ambient Occlusion on a per-shader basis is to use
 
 Mist Pass
 =========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`World --> Mist Pass`
 
 Shown when the Mist pass is enabled. Mist values will range from 0.0-1.0 and are available from the
 RenderLayers node.
@@ -105,6 +125,12 @@ Falloff
 
 Settings
 ========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`World --> Settings`
+
 
 Surface
 -------
@@ -171,12 +197,17 @@ Homogeneous Volume
 Ray Visibility
 ==============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`World --> Ray Visibility`
+
 As with other objects,
 *Ray Visibility* allows you to control which other shaders can "see" the environment.
 
 
 Tricks
-======
+------
 
 Sometimes it may be useful to have a different background that is directly visible versus one
 that is indirectly lighting the objects. A simple solution to this is to add a Mix node,

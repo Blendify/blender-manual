@@ -7,7 +7,7 @@ Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render Layers --> Layer`
+   | Panel:    :menuselection:`Render Layers --> Layer`
 
 This section covers only the Render Layer settings appropriate for the Blender Render engine.
 For the engine-independent settings, see :doc:`this section </render/post_process/layers>`.
