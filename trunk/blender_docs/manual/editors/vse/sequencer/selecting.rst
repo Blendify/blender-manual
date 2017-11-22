@@ -21,6 +21,7 @@ Select Surrounding Handles :kbd:`Alt-RMB`
 
       Select with this method
       to move a strip that is between to others without affecting the selected strip's length.
+
 Select Both Handles :kbd:`Alt-RMB`
    Select the handle under the cursor as well as the handles of the adjacent strip.
 
@@ -28,6 +29,7 @@ Select Both Handles :kbd:`Alt-RMB`
 
       Select with this method
       when you want to change the timing of a cut.
+
 Select Linked :kbd:`L`
    Select all strips linked to the currently selected strip.
 Select Grouped :kbd:`Shift-G`

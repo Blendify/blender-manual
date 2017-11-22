@@ -6,6 +6,11 @@
 Adaptive Subdivision
 ********************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Modifier --> Subdivision Surface`
+
 .. note::
 
    Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`

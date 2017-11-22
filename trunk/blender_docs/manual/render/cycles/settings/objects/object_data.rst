@@ -11,7 +11,7 @@ Motion Blur
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Object --> Motion Blur`
+   | Panel:    :menuselection:`Object --> Motion Blur`
 
 Each object has its own motion blur settings along with the
 :doc:`Scene Level Motion Blur </render/cycles/settings/scene/render/motion_blur>`
@@ -28,8 +28,19 @@ Steps
 Cycles Settings
 ===============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Object --> Cycles Settings`
+
+
+.. _cycles-ray-visibility:
+.. _bpy.types.CyclesVisibilitySettings:
+
 Ray Visibility
 --------------
+
+Objects can be set to be invisible to particular ray types:
 
 Camera
    Makes the object visible in camera rays.
@@ -44,14 +55,26 @@ Volume Scatter
 Shadow
    Enables the object to cast shadows.
 
+This can be used, for example, to make an emitting mesh invisible to camera rays.
+For duplicators, visibility is inherited; if the parent object is hidden for some ray types,
+the children will be hidden for these too.
+
+In terms of performance, using these options is more efficient that using a shader node setup
+that achieves the same effect.
+Objects invisible to a certain ray will be skipped in ray traversal already,
+leading to fewer rays cast and shaders executed.
+
+
 Shadow Catcher
-   Enables the object to only receive shadow rays.
-   It is to be noted that shadow catcher objects will interact with other CG objects via indirect light interaction.
-   This feature makes it really easy to combine CGI elements into a real-life footage.
+--------------
 
-   .. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.png
+Enables the object to only receive shadow rays.
+It is to be noted that shadow catcher objects will interact with other CG objects via indirect light interaction.
+This feature makes it really easy to combine CGI elements into a real-life footage.
 
-      Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
+.. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.png
+
+   Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
 
 
 Performance

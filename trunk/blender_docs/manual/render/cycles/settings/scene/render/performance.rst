@@ -3,8 +3,14 @@
 Performance
 ***********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Render --> Performance`
+
+
 Threads
--------
+=======
 
 Mode
    Auto-detect
@@ -17,7 +23,7 @@ Mode
 
 
 Tiles
------
+=====
 
 Tile Order
    Order of rendering tiles. This does not significantly affect performance.
@@ -42,7 +48,7 @@ Save Buffers
 
 
 Viewport
---------
+========
 
 Viewport BVH Type
    Dynamic BVH
@@ -55,7 +61,7 @@ Start Resolution
 
 
 Final Render
-------------
+============
 
 Persistent Images
    Keep image data in memory after rendering, for faster re-renders at the cost of extra memory usage when
@@ -63,7 +69,7 @@ Persistent Images
 
 
 Acceleration Structure
-----------------------
+======================
 
 Use Spatial Splits
    Spatial splits improve rendering performance in scenes with a mix of large and small polygons. The

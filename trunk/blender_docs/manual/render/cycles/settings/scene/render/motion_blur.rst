@@ -9,7 +9,7 @@ Motion Blur
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render --> Motion Blur`
+   | Panel:    :menuselection:`Render --> Motion Blur`
 
 Blender's animations are by default rendered as a sequence of *perfectly still* images.
 While great for stop-motion and time-lapses, this is unrealistic, since fast-moving
@@ -77,7 +77,7 @@ Film
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render --> Film`
+   | Panel:    :menuselection:`Render --> Film`
 
 Exposure
    This can be used to change the brightness of an image.

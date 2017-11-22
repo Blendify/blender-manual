@@ -3,6 +3,12 @@
 Light Paths
 ***********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Render --> Light Path`
+
+
 Ray Types
 =========
 
@@ -65,27 +71,6 @@ which might help rendering many layers of transparency.
 Note that while semantically the ray passes through as if no geometry was hit, rendering
 performance is affected as each transparency step requires executing the shader and tracing a ray.
 
+.. seealso:: 
 
-.. _bpy.types.CyclesVisibilitySettings:
-
-Ray Visibility
-==============
-
-Objects can be set to be invisible to particular ray types:
-
-- Camera
-- Diffuse reflection
-- Glossy reflection
-- Transmission
-- Shadow
-
-Properties Editor :menuselection:`Object --> Cycles Settings --> Ray visibility`.
-
-This can be used, for example, to make an emitting mesh invisible to camera rays.
-For duplicators, visibility is inherited; if the parent object is hidden for some ray types,
-the children will be hidden for these too.
-
-In terms of performance, using these options is more efficient that using a shader node setup
-that achieves the same effect.
-Objects invisible to a certain ray will be skipped in ray traversal already,
-leading to fewer rays cast and shaders executed.
+   The object :ref:`ray visibility <cycles-ray-visibility>` settings.

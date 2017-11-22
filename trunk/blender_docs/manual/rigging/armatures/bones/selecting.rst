@@ -9,7 +9,7 @@ Selecting bones in *Pose Mode* is similar to selecting in *Edit Mode*
 with a few specific differences that will be detailed in the
 :doc:`posing part </rigging/armatures/posing/selecting>`.
 
-Similar to :doc:`vertices/edges selection </modeling/meshes/selecting/introduction>` in meshes,
+Similar to :doc:`vertex/edge selection </modeling/meshes/selecting/introduction>` in meshes,
 there are two ways to select whole bones in *Edit Mode*:
 
 #. Directly, by selecting the bone's body.

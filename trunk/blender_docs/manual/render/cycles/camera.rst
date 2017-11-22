@@ -6,6 +6,11 @@ Camera
 Lens
 ====
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Camera --> Lens`
+
 Type
 ----
 
@@ -113,6 +118,11 @@ the clip bounds will be visible as two yellow connected dots on the camera line 
 
 Depth of Field
 ==============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Camera --> Depth of Field`
 
 .. figure:: /images/render_cycles_camera_depth-of-field-panel.png
 
