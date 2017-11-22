@@ -29,35 +29,10 @@ The simpler projection methods use formulas that map 3D space onto 2D space,
 by interpolating the position of points toward a point/axis/plane through a surface.
 The more advanced methods can be used with more complex models, and have more specific uses.
 
-Basic:
-
-`Cube Projection`_
-   Maps the mesh onto the faces of a cube, which is then unfolded.
-Sphere
-   Projects the UVs onto a spherical shape. Useful only for spheres or spherical shapes, like eyes, planets, etc.
-Cylinder
-   Projects UVs onto a cylindrical surface.
-`Project from View`_
-   Takes the current view in the 3D View and flattens it as it appears.
-
-Advanced:
-
-`Unwrap`_
-   Useful for organic shapes. Smooths the mesh into a flat surface by cutting along seams.
-`Smart UV Project`_
-   Breaks the mesh into islands based on an angle threshold.
-Lightmap Pack
-   Separates each face and packs them onto the UV grid.
-`Follow Active Quads`_
-   Follow UV from active quads along continuous face loops.
-
-You can also `Reset`_ UVs, which maps each face to fill the UV grid,
-giving each face the same mapping.
-
-If we were to use an image that was tileable,
-the surface would be covered in a smooth repetition of that image,
-with the image skewed to fit the shape of each individual face.
-Use this unwrapping option to reset the map and undo any unwrapping (go back to the start).
+.. (todo move)? split in basic/advanced -- if  more content added. old wiki:
+.. Basic: Cube, Cylinder, Sphere Projection; Project from View
+   Based on the fundamental geometry of the object, and how it is being viewed,
+.. Advanced: Unwrap; Smart UV Project; Lightmap Pack; Follow Active Quads
 
 
 Unwrap
@@ -67,6 +42,8 @@ Unwrap
    :width: 300px
 
    Result of unwrapping Suzanne.
+
+Flattens the mesh surface by cutting along seams. Useful for organic shapes.
 
 Begin by selecting all faces to be unwrapped in the 3D View. With our faces selected,
 it is now time to unwrap them.
@@ -84,8 +61,8 @@ If possible, each selected face gets its own different area of the image and is 
 If all faces of an object are selected, then each face is mapped to some portion of the image.
 
 
-Operator panel
---------------
+Options
+-------
 
 Blender has two ways of calculating the unwrapping.
 They can be selected in the tool setting in the tool panel in the 3D View.
@@ -123,9 +100,9 @@ Smart UV Project
    Smart UV project on a cube.
 
 Smart UV Project, (previously called the Archimapper)
-gives you fine control over how automatic seams should be created,
-based on angular changes in your mesh.
-This method is good for simple and complex geometric forms,
+cuts the mesh based on angle threshold (angular changes in your mesh).
+This gives you fine control over how automatic seams are be created.
+It is good method for simple and complex geometric forms,
 such as mechanical objects or architecture.
 
 This function examines the shape of your object,
@@ -141,8 +118,8 @@ For more complex mechanical objects, this tool can very quickly and easily creat
 logical and straightforward UV layout for you.
 
 
-Operator panel
---------------
+Options
+-------
 
 The Operator panel in the Tool Shelf allows the fine control over how the mesh is
 unwrapped:
@@ -175,8 +152,8 @@ in *Object Mode* select several mesh objects,
 then go into *Edit Mode* and activate the tool.
 
 
-Operator panel
---------------
+Options
+-------
 
 Share Tex Space
    This is useful if mapping more than one mesh.
@@ -200,14 +177,14 @@ Margin
 Follow Active Quads
 ===================
 
-The :menuselection:`Face --> Unwrap --> Follow Active Quads` takes the selected faces and lays them out
+The Follow Active Quads tool takes the selected faces and lays them out
 by following continuous face loops, even if the mesh face is irregularly shaped.
 Note that it does not respect the image size,
 so you may have to scale them all down a bit to fit the image area.
 
 
-Operator panel
---------------
+Options
+-------
 
 Edge Length Mode:
 
@@ -226,22 +203,14 @@ Length
 Cube Projection
 ===============
 
-Cube mapping projects s mesh onto six separate planes, creating six UV islands.
+Cube Projection maps the mesh onto the faces of a cube, which is then unfolded.
+It projects the mesh onto six separate planes, creating six UV islands.
 In the UV/Image editor, these will appear overlapped, but can be moved.
 See :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`.
 
-Basic Mapping
 
-Based on the fundamental geometry of the object, and how it is being viewed,
-the :menuselection:`Mesh --> UV Unwrap --> Cube, Cylinder and Sphere`
-UV Calculations attempt to unfold the faces for you as an initial best fit.
-Here, the view from the 3D View is especially important.
-Also, the settings for cube size or cylinder radius (Editing buttons, UV Calculation panel)
-should be set (in Blender units) to encompass the object.
-
-
-Operator panel
---------------
+Options
+-------
 
 Cube Size
    Set the size of the cube to be projected onto.
@@ -271,10 +240,11 @@ Cylinder and Sphere Projection
 
    Using an equirectangular image with a Sphere Projection.
 
-Cylindrical and Spherical mappings have the same settings. The difference is that a
+Cylindrical and Spherical mappings have the same options. The difference is that a
 cylindrical mapping projects the UVs on a plan toward the cylinder shape,
 while a spherical map takes into account the sphere's curvature,
 and each latitude line becomes evenly spaced.
+Useful for spherical shapes, like eyes, planets, etc.
 
 Normally, to unwrap a cylinder (tube) as if you slit it lengthwise and folded it flat,
 Blender wants the view to be vertical, with the tube standing "up".
@@ -291,8 +261,8 @@ A polar view will give a very different but common projection map. Using an equi
 map of the earth as the UV image will give a very nice planet mapping onto the sphere.
 
 
-Operator panel
---------------
+Options
+-------
 
 Direction
    View on Poles
@@ -317,25 +287,33 @@ Radius
 Project from View
 =================
 
-In the 3D View, the :menuselection:`Face --> Unwrap UVs --> Project from View` option maps the face as
-seen through the view of the 3D View it was selected from.
-It is almost like you had x-ray vision or squashed the mesh flat as a pancake onto the UV map.
+Project from View takes the current view in the 3D View and flattens the mesh as it appears.
 Use this option if you are using a picture of a real object as a UV Texture for an object that
 you have modeled. You will get some stretching in areas where the model recedes away from you.
+
+
+Options
+-------
+
+See also `Common`_ options.
+
+Orthographic
+   Apply an orthographic projection.
 
 
 Project from View (Bounds)
 ==========================
 
-Using *Project from View (Bounds)* will do the same as above,
-but scales the UVs to the bounds of the UV space.
+With Bounds will do the same as *Project from View*
+but with *Scale to Bounds* and *Correct Aspect* activated.
 
 
 Reset
 =====
 
-In the 3D View, :menuselection:`Face --> Unwrap --> Reset`
-maps each selected face to the same area of the image,
-as previously discussed. To map all the faces of an object (a cube, for example)
-to the same image, select all the faces of the cube,
-and unwrap them using the Reset menu option.
+Reset UVs maps each face to fill the UV grid, giving each face the same mapping.
+
+If we were to use an image that was tileable,
+the surface would be covered in a smooth repetition of that image,
+with the image skewed to fit the shape of each individual face.
+Use this unwrapping option to reset the map and undo any unwrapping (go back to the start).
