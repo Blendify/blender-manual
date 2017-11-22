@@ -21,7 +21,13 @@ Data-Blocks
 Creating and Deleting Previews
 ------------------------------
 
-Previews can be created and deleted in many ways from :menuselection:`Info Editor --> File --> Data Previews`
+.. admonition:: Reference
+   :class: refbox
+
+   | Editor:   Info
+   | Menu:     :menuselection:`Info Editor --> File --> Data Previews`
+
+Previews can be created and deleted in many ways from :menuselection:`Info Editor --> File --> Data Previews`.
 
 Refresh Data-Block Previews
    Ensures that data-block previews are available and up to date.
@@ -34,7 +40,7 @@ Batch-Generate Previews
       Generates previews for groups.
    Objects
       Generates previews for objects.
-   Mat/Tex/..
+   Material/Textures/...
       Generates Previews for materials, textures, images, etc.
    Trusted Blend Files
       Enables Python evaluation for blend-files.
@@ -53,7 +59,7 @@ Batch-Clear Previews
       Clears previews for groups.
    Objects
       Clears previews for objects.
-   Mat/Tex..
+   Material/Textures...
       Clears previews for materials, textures, images, etc.
    Trusted Blend Files
       Enables Python evaluation for blend-files.

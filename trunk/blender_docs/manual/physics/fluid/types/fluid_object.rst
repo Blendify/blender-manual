@@ -19,10 +19,10 @@ Options
 =======
 
 Volume Initialization Type
-   See :ref:`Volume Initialization Type <fluid-initialization>`
+   See :ref:`Volume Initialization Type <fluid-initialization>`.
 
 Animated Mesh/Export
-   See :ref:`Animated Mesh/Export <fluid-animated-mesh>`
+   See :ref:`Animated Mesh/Export <fluid-animated-mesh>`.
 
 Initial velocity
    Speed of the fluid at the beginning of the simulation, in meters per second.

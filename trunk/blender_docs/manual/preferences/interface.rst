@@ -31,7 +31,7 @@ Large Cursors
    Use large mouse cursors when available.
 View Name
    Display the name and type of the current view in the top left corner of the 3D View.
-   For example: *User Persp* or *Top Ortho*.
+   For example: *User Perspective* or *Top Orthographic*.
 Playback FPS
    Show the frames per second screen refresh rate while an animation is played back.
    It appears in the viewport corner, displaying red if the frame rate set cannot be reached.

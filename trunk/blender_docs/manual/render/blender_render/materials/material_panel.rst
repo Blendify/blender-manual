@@ -45,7 +45,7 @@ Material Naming and Linking
 Material
    The Material :ref:`Data-Block Menu <ui-data-block>` for the selected material slot.
 Nodes
-   Toogle |node-icon| that designates this material to be a material node setup,
+   Toggle |node-icon| that designates this material to be a material node setup,
    and not from the Material/Ramps/Shaders settings.
 Data-block Links
    Specifies whether the material is to be linked to the Object or to the Object Data.

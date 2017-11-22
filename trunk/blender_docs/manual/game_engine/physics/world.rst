@@ -72,9 +72,9 @@ Navigation Mesh
 
 Rasterization
    Cell size
-      rasterized cell size.
+      Rasterized cell size.
    Cell height
-      rasterized cell height.
+      Rasterized cell height.
 Agent
    Height
       Minimum height where the agent can still walk.
@@ -91,7 +91,7 @@ Region
       Minimum regions size. Smaller regions will be merged.
 Partitioning
    Watershed
-      Classic Recast partioning method generating the nicest tessellation.
+      Classic Recast partitioning method generating the nicest tessellation.
    Monotone
       The fastest navmesh generation method, but may cause long thin polygons.
    Layers

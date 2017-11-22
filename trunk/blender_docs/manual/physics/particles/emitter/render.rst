@@ -106,7 +106,7 @@ Steps
    Also the rendering is faster if you use low render values (sometimes drastically).
    But how low you can go with this value depends on the waviness of the hair (the value is a power of 2).
    This means 0 steps give 1 subdivision,
-   1 give 2 subdivisions, 2 --> 4, 3 --> 8, 4 --> 16, ... *n* --> *n*\ :sup:`2`\.
+   1 give 2 subdivisions, 2 --> 4, 3 --> 8, 4 --> 16, ... *n* --> *n*\ :sup:`2`.
 
 
 Timing

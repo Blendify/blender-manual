@@ -10,7 +10,7 @@ Layers
    | Panel:    :menuselection:`Properties region--> Grease Pencil Layers`
 
 Grease Pencil sketches are organized in layers,
-much like the image layers in the GIMP or Photoshop\ :sup:`®`\ .
+much like the image layers in the GIMP or Photoshop\ :sup:`®`.
 These layers are not related to any of the other layer systems in Blender.
 
 The layers' main purpose is to gather sketches that are related in some
