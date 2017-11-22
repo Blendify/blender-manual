@@ -151,7 +151,7 @@ Viscosity Presets
    from the Frenchman Jean-Louis Poiseuille, who discovered the laws on "the laminar flow of viscous fluids"),
    and commonly centiPoise units (cP, equal to 0.001 Pa.s, *sentipwaz*).
    Blender, on the other hand, uses the kinematic viscosity
-   (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`\, unit m\ :sup:`2`\.s\ :sup:`-1`\).
+   (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`, unit m\ :sup:`2`.s\ :sup:`-1`).
    The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
 
    .. list-table::
@@ -160,7 +160,7 @@ Viscosity Presets
 
       * - Fluid
         - Dynamic viscosity (in cP)
-        - Kinematic viscosity (Blender, in m\ :sup:`2`\.s\ :sup:`-1`\)
+        - Kinematic viscosity (Blender, in m\ :sup:`2`.s\ :sup:`-1`)
       * - Water (20° C)
         - 1.002×10\ :sup:`0` (1.002)
         - 1.002×10\ :sup:`-6` (0.000001002)
@@ -183,8 +183,8 @@ Viscosity Presets
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
-   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\, which gives a kinematic viscosity of
-   0.000001002 m\ :sup:`2`\.s\ :sup:`-1` -- so the entry would be 1.002 times 10 to the minus six
+   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`, which gives a kinematic viscosity of
+   0.000001002 m\ :sup:`2`.s\ :sup:`-1` -- so the entry would be 1.002 times 10 to the minus six
    (1.002×10\ :sup:`-6` in scientific notation). Hot Glass and melting iron are fluids, but very thick;
    you should enter something like 1.0×10\ :sup:`0` (= 1.0) as its kinematic viscosity
    (indicating a value of 1.0×10\ :sup:`6`\ cP).

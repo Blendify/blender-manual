@@ -20,7 +20,7 @@ Options
 =======
 
 Volume Initialization Type
-   See :ref:`Volume Initialization Type <fluid-initialization>`
+   See :ref:`Volume Initialization Type <fluid-initialization>`.
 
 Boundary type
    Determines the stickiness of the obstacle surface, called "Surface Adhesion".
@@ -42,7 +42,7 @@ Boundary type
    From left to right: no-slip, part-slip 0.3, part-slip 0.7 and free-slip.
 
 Animated Mesh/Export
-   See :ref:`Animated Mesh/Export <fluid-animated-mesh>`
+   See :ref:`Animated Mesh/Export <fluid-animated-mesh>`.
 
 Part Slip Amount
    Amount of mixing between no- and free-slip, described above.

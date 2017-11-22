@@ -42,7 +42,7 @@ Mass
       .. note::
 
          Also you can have *Custom* mass material type,
-         which is achieved by setting a custom density value (kg/m\ :sup:`3`\).
+         which is achieved by setting a custom density value (kg/m\ :sup:`3`).
 
 
 Rigid Body Collisions

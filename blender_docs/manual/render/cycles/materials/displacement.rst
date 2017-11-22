@@ -14,7 +14,7 @@ known as bump mapping, or a combination of real and virtual displacement.
 .. tip::
 
    It is also possible to use the both method by choosing *Displacement + Bump*
-   in the :ref:`Material Setttings <cycles-materials-settings-displace>`.
+   in the :ref:`Material Settings <cycles-materials-settings-displace>`.
 
 .. figure:: /images/render_cycles_materials_displacement_example.jpg
 

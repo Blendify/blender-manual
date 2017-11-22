@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Force Fields offer a way to influence a simulations, in example to add extra movement.
+Force Fields offer a way to influence a simulation, in example to add extra movement.
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`,
 `Rigid Bodies </physics/rigid_body/index>`, and :doc:`Cloth objects </physics/cloth/index>`
 can all be affected by forces fields.
@@ -121,8 +121,8 @@ Z Direction
    *Fall-off* can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.
 Power (Power)
    How the power of the force field changes with the distance from the force field.
-   If *r* is the distance from the center of the object, the force changes with 1/ *r*\ :sup:`power`\.
-   A *Fall-off* of 2 changes the force field with 1/ *r*\ :sup:`2`\,
+   If *r* is the distance from the center of the object, the force changes with 1/ *r*\ :sup:`power`.
+   A *Fall-off* of 2 changes the force field with 1/ *r*\ :sup:`2`,
    which is the falloff of gravitational pull.
 
 Max Distance

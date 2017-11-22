@@ -221,7 +221,7 @@ Blender provides a way to ''bake'' or ''record'' a physics simulation into keyfr
 allowing it then to be played as an action either for animation or games.
 Keep in mind that the result of this method is a recording, no longer a simulation.
 This means that the result is completely deterministic
-(the same everytime it is run) and unable to interact with
+(the same every time it is run) and unable to interact with
 new objects that are added to the physics simulation after it was recorded.
 This may, or not, be desired according to the situation.
 

@@ -37,7 +37,7 @@ Filter 2D Type
    Selects the type of 2D filter to use. All 2D filters are rendered with fragment shaders
    so your hardware must support fragment shaders. Several of the filters are called "built in filters",
    these are: Blur, Sharpen, Dilation, Erosion, Laplacian, Sobel, Prewitt, Gray Scale, Sepia, and Invert.
-   There are however some filters that work differently then the ones above and are discribed seperatly.
+   There are however some filters that work differently then the ones above and are described separately.
 
 Pass Number
    The pass number for the filter to use.
