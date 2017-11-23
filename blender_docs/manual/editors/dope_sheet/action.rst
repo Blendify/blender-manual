@@ -3,8 +3,8 @@
 Action Editor
 *************
 
-The *Action Editor* enables you to see and edit the F-Curve data-blocks you defined
-as :doc:`Actions </animation/actions>` in the *F-Curve Editor*.
+The *Action Editor* is where you can define and control :doc:`actions </animation/actions>`.
+It enables you to view and edit the F-Curve data-blocks you defined as Actions in the *F-Curve Editor*.
 So it takes place somewhere in-between the low-level
 :doc:`F-Curves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla/index>`.
 

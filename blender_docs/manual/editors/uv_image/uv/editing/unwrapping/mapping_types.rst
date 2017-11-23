@@ -43,7 +43,8 @@ Unwrap
 
    Result of unwrapping Suzanne.
 
-Flattens the mesh surface by cutting along seams. Useful for organic shapes.
+Flattens the mesh surface by cutting along :doc:`seams </editors/uv_image/uv/editing/unwrapping/seams>`.
+Useful for organic shapes.
 
 Begin by selecting all faces to be unwrapped in the 3D View. With our faces selected,
 it is now time to unwrap them.
@@ -100,7 +101,7 @@ Smart UV Project
    Smart UV project on a cube.
 
 Smart UV Project, (previously called the Archimapper)
-cuts the mesh based on angle threshold (angular changes in your mesh).
+cuts the mesh based on an angle threshold (angular changes in your mesh).
 This gives you fine control over how automatic seams are be created.
 It is good method for simple and complex geometric forms,
 such as mechanical objects or architecture.
@@ -111,7 +112,7 @@ and creates a UV map based on this information and settings that you supply.
 
 In the example to the right,
 the Smart Mapper mapped all of the faces of a cube to a neat arrangement of three sides on top,
-3 sides on the bottom, for all six sides of the cube to fit squarely,
+three sides on the bottom, for all six sides of the cube to fit squarely,
 just like the faces of the cube.
 
 For more complex mechanical objects, this tool can very quickly and easily create a very
