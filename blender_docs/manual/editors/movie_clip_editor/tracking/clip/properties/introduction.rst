@@ -80,7 +80,7 @@ Channels
    In such cases disabling some color channels can help.
 Grayscale Preview (B/W)
    Display the preview image as grayscale even if all channels are enabled.
-Alpha Preview (B/W icon)
+Alpha Preview (black/white icon)
    ToDo 2.64.
 
 .. _clip-tracking-weight:

@@ -34,7 +34,7 @@ All from Target (properties icon)
    For example, it will add drivers to X, Y, and Z for Location.
 Single from Target
    This will add a single driver to the selected property used as a destination.
-Match Indices (palette icon)
+Match Indices (color wheel icon)
    Use the corresponding index to drive the corresponding property on a similar sized vector/array property.
    This is useful for driving ``ob1.location`` with ``ob2.location``, or ``RGB color`` with ``XYZ location``.
 Manually Create Later/(Single) (hand icon)

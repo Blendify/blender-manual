@@ -38,7 +38,7 @@ Each modifiers have several buttons at their top:
 
 Mute (eye icon)
    Disables the modifier. Very useful to compare the image, with / without modifications.
-Move (up and down arrows icon)
+Move (up/down arrow icon)
    The next two buttons are used to change the modifier's position in the stack.
 Remove ``X``
    The cross is to delete the modifier from the stack.
