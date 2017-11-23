@@ -3,6 +3,12 @@
 Charge
 ******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Force Fields`
+   | Type:     Charge
+
 .. figure:: /images/physics_force-fields_introduction_empty.png
 
    Charge force field.

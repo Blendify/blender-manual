@@ -4,6 +4,12 @@
 Fluid Object
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Fluid`
+   | Type:     Fluid
+
 .. figure:: /images/physics_fluid_types_fluid-object_fluid-panel.jpg
    :width: 300px
 
@@ -32,7 +38,6 @@ Initial velocity
    Blender uses the orientation of the Surface Normals to determine what is "inside of" the Fluid object and what is
    "outside". You want all of the normals to face *outside* (in *Edit Mode*, use :kbd:`Ctrl-N` or press
    :kbd:`Spacebar` and choose :menuselection:`Edit --> Normals --> Calculate Outside`).
-   If the normals face the wrong way,
-   you will be rewarded with a "gigantic flood of water" because Blender will think
-   that the volume of the object is outside of its mesh! This applies regardless of the *Volume init* type
-   setting.
+   If the normals face the wrong way, you will be rewarded with a "gigantic flood of water",
+   because Blender will think that the volume of the object is outside of its mesh!
+   This applies regardless of the *Volume initialization* type setting.

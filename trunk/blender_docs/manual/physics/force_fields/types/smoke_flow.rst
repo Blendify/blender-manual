@@ -3,6 +3,12 @@
 Smoke Flow
 **********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Force Fields`
+   | Type:     Smoke Flow
+
 .. figure:: /images/physics_force-fields_introduction_empty.png
 
    Smoke Flow force field.

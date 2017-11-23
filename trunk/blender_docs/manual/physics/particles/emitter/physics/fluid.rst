@@ -4,6 +4,12 @@
 Fluid
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Physics`
+   | Type:     Fluid
+
 .. figure:: /images/physics_particles_emitter_physics_fluid_panel.png
 
    Fluid Physics Settings.

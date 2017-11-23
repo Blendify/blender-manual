@@ -5,6 +5,12 @@
 Texture Influence
 *****************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Texture --> Influence`
+
+
 .. figure:: /images/physics_particles_texture-influence_panel.png
    :align: right
 

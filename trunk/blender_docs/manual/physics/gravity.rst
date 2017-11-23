@@ -4,6 +4,11 @@
 Gravity
 *******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Scene --> Gravity`
+
 Gravity is a global setting that is applied to all physics systems in a scene.
 It can be found in the scene tab.
 This value is generally fine left at its default, -9.810 on the Z-Axis,

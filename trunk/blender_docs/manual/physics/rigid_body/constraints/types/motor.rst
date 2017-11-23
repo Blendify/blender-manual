@@ -3,6 +3,12 @@
 Motor
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
+   | Type:     Motor
+
 .. figure:: /images/physics_rigid-body_constraints_types_motor_panel-example.png
    :width: 500px
 

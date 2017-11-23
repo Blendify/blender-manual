@@ -6,6 +6,12 @@
 Keyed
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Physics`
+   | Type:     Keyed
+
 .. figure:: /images/physics_particles_emitter_physics_keyed_panel.png
 
    Keyed Physics Settings.

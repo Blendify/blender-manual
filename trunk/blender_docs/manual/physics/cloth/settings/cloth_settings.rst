@@ -7,6 +7,11 @@ Settings
 Cloth
 =====
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Cloth`
+
 Presets
    Contains a number of :ref:`preset <ui-presets>` cloth examples.
 Quality
@@ -120,6 +125,11 @@ that use a lot of squash and stretch.
 Cloth Stiffness Scaling
 =======================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Cloth Stiffness Scaling`
+
 Structural Stiffness
    Defines a vertex group to control over structural stiffness.
 Maximum
@@ -133,6 +143,11 @@ Maximum
 
 Cloth Sewing Springs
 ====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Cloth Sewing Springs`
 
 Another method of restraining cloth similar to pinning is sewing springs.
 Sewing springs are virtual springs that pull vertices in one part of
@@ -179,5 +194,10 @@ instability, so it is advisable to keyframe these fields and ease in from 0 duri
 
 Cloth Field Weights
 ===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Cloth Field Weights`
 
 As other physics dynamics systems, Cloth simulation also are influenced external force effectors.

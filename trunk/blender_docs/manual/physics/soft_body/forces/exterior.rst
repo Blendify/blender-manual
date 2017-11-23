@@ -38,6 +38,11 @@ Settings
 Soft Body Panel
 ---------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body`
+
 Friction
    The friction of the surrounding medium.
    The larger the friction, the more viscous is the medium.
@@ -62,6 +67,11 @@ Speed
 Force Fields
 ------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Field Weights`
+
 To create other forces you have to use another object,
 often *Empty* objects are used for that.
 You can use some of the forces on Soft Body vertices as on *Particles*.
@@ -83,6 +93,11 @@ approximately -- a force of 10 Newtons.
 Aerodynamics
 ------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Edges`
+
 This special exterior force is not applied to the vertices but to the connecting edges.
 Technically, a force perpendicular to the edge is applied.
 The force scales with the projection of the relative speed on the edge (dot product). Note
@@ -98,8 +113,13 @@ Factor
    How much aerodynamic force to use. Try a value of 30 at first.
 
 
-Using a Goal
-------------
+Goal
+----
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Goal`
 
 A goal is a shape that a soft body object tries to conform to.
 

@@ -4,6 +4,11 @@
 Rotation
 ********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Rotation`
+
 .. figure:: /images/physics_particles_emitter_rotation_panel.jpg
 
    Particles rotation settings.
@@ -12,6 +17,9 @@ These parameters specify how the individual particles are rotated during their t
 visualize the rotation of a particle you should choose visualization type Axis in the
 Visualization panel and increase the Draw Size.
 
+
+Options
+=======
 
 Initial Rotation
 ----------------

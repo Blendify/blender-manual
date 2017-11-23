@@ -3,6 +3,12 @@
 Slider
 ******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
+   | Type:     Slider
+
 The Slider constraint allows relative translation along the X axis of the constraint object,
 but permits no relative rotation, or relative translation along other axes.
 

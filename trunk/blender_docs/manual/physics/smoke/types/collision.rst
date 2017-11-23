@@ -4,6 +4,12 @@
 Collision
 *********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Smoke`
+   | Type:     Collision
+
 *Smoke Collision* objects are used to deflect smoke and influence airflow.
 
 To define any mesh object as a *Smoke Collision* object,
@@ -17,7 +23,7 @@ Options
 .. figure:: /images/physics_smoke_types_collision_settings.png
    :align: right
 
-   *Smoke Collision* settings.
+   Smoke Collision options.
 
 .. TODO, cannot figure out what the differences between the collision types are :/
 .. Wild speculation on SE: https://blender.stackexchange.com/q/1723/599

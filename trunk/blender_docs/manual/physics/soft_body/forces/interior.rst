@@ -38,8 +38,13 @@ between a vertex and any vertices connected to its neighbors
 vertex and any other vertex that is separated by two edge connections.
 
 
-Edges Settings
-==============
+Edges
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Edges`
 
 The characteristics of edges are set with the *Soft Body Edge* properties.
 

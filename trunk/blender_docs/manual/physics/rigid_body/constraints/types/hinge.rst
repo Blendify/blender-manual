@@ -3,6 +3,12 @@
 Hinge
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
+   | Type:     Hinge
+
 .. figure:: /images/physics_rigid-body_constraints_types_hinge_panel-example.png
    :width: 500px
 

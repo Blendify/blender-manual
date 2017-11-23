@@ -4,6 +4,12 @@
 Smoke Domain
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Smoke`
+   | Type:     Domain
+
 The domain object contains the entire simulation. Smoke and fire cannot leave the domain,
 it will either collide with the edge or disappear, depending on the domain's settings.
 
@@ -25,11 +31,11 @@ in :menuselection:`Properties --> Physics`, then select *Domain* as the *Smoke T
 .. figure:: /images/physics_smoke_types_domain_settings.png
    :align: right
 
-   *Smoke Domain* settings.
+   *Smoke Domain* options.
 
 
-Settings
-========
+Options
+=======
 
 .. _smoke-resolution:
 
@@ -105,6 +111,12 @@ Slow
 Smoke Flames
 ============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Domain
+   | Panel:    :menuselection:`Physics --> Smoke Flames`
+
 Speed
    How fast fuel burns. Larger values result in smaller flames (fuel burns before it can go very far),
    smaller values result in larger flames (fuel has time to flow farther before being fully consumed).
@@ -122,6 +134,12 @@ Smoke Color
 
 Smoke Adaptive Domain
 =====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Domain
+   | Panel:    :menuselection:`Physics --> Smoke Adaptive Domain`
 
 When enabled, the domain will adaptively shrink to best fit the smoke,
 saving computation time by leaving voxels without smoke out of the simulation.
@@ -142,6 +160,12 @@ Threshold
 
 Smoke High Resolution
 =====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Domain
+   | Panel:    :menuselection:`Physics --> Smoke High Resolution`
 
 The High Resolution option lets you simulate at low resolution and then uses noise techniques
 to enhance the resolution without actually computing it. This allows animators to set up a low
@@ -178,6 +202,12 @@ Noise Method
 Smoke Groups
 ============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Domain
+   | Panel:    :menuselection:`Physics --> Smoke Groups`
+
 Flow Group
    If set, only objects in the specified :doc:`Group </editors/3dview/object/properties/relations/groups>`
    will be allowed to act as flow objects in this domain.
@@ -189,6 +219,12 @@ Collision Group
 Smoke Cache
 ===========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Domain
+   | Panel:    :menuselection:`Physics --> Smoke Cache`
+
 See :doc:`Baking </physics/smoke/baking>`.
 
 
@@ -196,6 +232,12 @@ See :doc:`Baking </physics/smoke/baking>`.
 
 Smoke Field Weights
 ===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Domain
+   | Panel:    :menuselection:`Physics --> Smoke Field Weights`
 
 These settings determine how much gravity and :doc:`Force Fields </physics/force_fields/index>` affect the smoke.
 

@@ -24,6 +24,11 @@ there are several items that have to be set up and working together:
 Collision Settings
 ==================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Cloth Collision`
+
 .. figure:: /images/physics_cloth_settings_collisions_panel.png
    :width: 200px
 
@@ -145,6 +150,11 @@ The image to the right shows the *Modifiers* panel for the Character mesh object
 
 Cloth Cache
 ===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Cloth Cache`
 
 Cache settings for cloth are the same as with other dynamic systems.
 See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.

@@ -6,6 +6,11 @@ Force Fields
 Field Weights
 =============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Field Weights`
+
 The Field Weight Panel allows you to control how much influence each type of external force field, or effector,
 has on the particle system. Force fields are external forces that give dynamic systems motion.
 The force fields types are detailed on the :doc:`Force Field Page </physics/force_fields/index>`.
@@ -20,6 +25,11 @@ All
 
 Force Fields Settings
 =====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Force Fields Settings`
 
 The Force Field Settings Panel allows you to make each individual act as a force field,
 allowing them to affect other dynamic systems, or even, each other.

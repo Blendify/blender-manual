@@ -3,6 +3,12 @@
 Turbulence
 **********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Force Fields`
+   | Type:     Turbulence
+
 .. figure:: /images/physics_force-fields_introduction_empty.png
 
    Turbulence force field.

@@ -4,9 +4,17 @@
 Hair Dynamics
 *************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Hair Dynamics`
+
 Hair particles can have dynamic properties using physics.
 To enable hair physics, click the check box beside *Hair Dynamics*.
 
+
+Options
+=======
 
 Structure
 ---------

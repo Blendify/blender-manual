@@ -12,6 +12,11 @@ Rigid Body Properties
 Rigid Body
 ==========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body`
+
 Type
    Role of the rigid body in the simulation.
    Active objects can be simulated dynamically, passive object remain static.
@@ -47,6 +52,11 @@ Mass
 
 Rigid Body Collisions
 =====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Collisions`
 
 Rigid Body Collisions panel.
 
@@ -151,6 +161,11 @@ The margin is *not embedded* for these shapes:
 
 Rigid Body Dynamics
 ===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Dynamics`
 
 Used to control the physics of the rigid body simulation.
 This panel is available only for *Active* type of rigid bodies.

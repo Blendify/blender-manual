@@ -3,6 +3,11 @@
 Display
 *******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Display`
+
 The Display Panel controls how particles are displayed in the 3D View.
 This does not necessarily determine how they will appear when rendered.
 

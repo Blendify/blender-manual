@@ -21,9 +21,8 @@ Connect
 =======
 
 The quickest way to constrain two objects is to select both and click the *Connect* button in
-the *Physics* tab of the
-*Tool Shelf*. This creates a new *Empty* object (named "Constraint") with a physics constraint already attached and
-pointing at the two selected objects.
+the *Physics* tab of the *Tool Shelf*. This creates a new *Empty* object (named "Constraint")
+with a physics constraint already attached and pointing at the two selected objects.
 
 
 Physics Tab

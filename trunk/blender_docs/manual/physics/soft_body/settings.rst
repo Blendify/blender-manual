@@ -17,6 +17,11 @@ Display
 Soft Body
 =========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body`
+
 Friction
    The friction of the surrounding medium. Generally friction dampens a movement.
 Mass
@@ -34,6 +39,11 @@ Collision Group
 Soft Body Cache
 ===============
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Cache`
+
 .. note::
 
    Caching and cache options are documented :doc:`Here </physics/baking>`.
@@ -41,6 +51,11 @@ Soft Body Cache
 
 Soft Body Goal
 ==============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Goal`
 
 Use Goal
    Soft Body Goal acts like a pin on a chosen set of vertices;
@@ -78,6 +93,11 @@ Vertex Group
 
 Soft Body Edges
 ===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Edges`
 
 Use Edges
    The edges in a Mesh Object can act as springs as well, like threads in fabric.
@@ -140,6 +160,11 @@ Face
 Soft Body Self Collision
 ========================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Self Collision`
+
 .. note::
 
    *Self Collision* is working only if you have activated *Use Edges*.
@@ -188,6 +213,11 @@ To collide with another object they have to share at least one common layer.
 
 Soft Body Solver
 ================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Soft Body Solver`
 
 These settings determine the accurateness of the simulation.
 
