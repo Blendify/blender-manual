@@ -3,6 +3,11 @@
 Display
 *******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Display`
+
 Rendered
    Draw hair as curves.
 Path

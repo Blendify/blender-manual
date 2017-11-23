@@ -3,6 +3,12 @@
 Lennard Jones
 *************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Force Fields`
+   | Type:     Lennard-Jones
+
 .. figure:: /images/physics_force-fields_introduction_empty.png
 
    Lennard Jones force field.

@@ -3,6 +3,12 @@
 Point
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
+   | Type:     Point
+
 .. figure:: /images/physics_rigid-body_constraints_types_point_panel-example.png
    :width: 500px
 

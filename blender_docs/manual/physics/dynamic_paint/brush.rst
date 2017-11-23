@@ -4,6 +4,12 @@
 Brush
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Dynamic Paint`
+   | Type:     Brush
+
 The Brush type makes object apply paint on the canvas.
 
 .. figure:: /images/physics_dynamic-paint_brush_main-panel.png
@@ -32,8 +38,14 @@ Alpha
    Defines brush alpha or visibility. Final wetness is also affected by alpha.
 
 
-Source Panel
-============
+Source
+======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Brush
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Source`
 
 .. figure:: /images/physics_dynamic-paint_brush_source-panel.png
 
@@ -124,8 +136,14 @@ Falloff
    Falloff type can be "Smooth", "Sharp" or tweaked with a color ramp.
 
 
-Velocity Panel
-==============
+Velocity
+========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Brush
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Velocity`
 
 .. figure:: /images/physics_dynamic-paint_brush_velocity-panel.png
 
@@ -156,8 +174,14 @@ Do Smudge
    It is also possible to have *Erase* option enabled together with smudge.
 
 
-Waves Panel
-===========
+Waves
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Brush
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Waves`
 
 .. figure:: /images/physics_dynamic-paint_brush_waves-panel.png
 

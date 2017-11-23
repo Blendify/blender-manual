@@ -5,9 +5,13 @@
 Rigid Body World
 ****************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Scene --> Rigid Body World`
+
 The *Rigid Body World* is a group of Rigid Body objects,
 which holds settings that apply to all rigid bodies in this simulation.
-These setting can be found in :menuselection:`Properties Editor --> Scene --> Rigid Body World`.
 
 When you add Rigid Body physics on an object,
 primary there is created a group of objects with default "RigidBodyWorld" name.

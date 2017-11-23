@@ -3,6 +3,11 @@
 Render
 ******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Render`
+
 The Render Panel controls how particles appear when they are rendered.
 
 Material Index

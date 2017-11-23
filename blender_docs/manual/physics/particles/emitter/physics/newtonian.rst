@@ -3,6 +3,12 @@
 Newtonian
 *********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Physics`
+   | Type:     Newtonian
+
 The particles will move according to classical (Newtonian) mechanics.
 Particles start their life with the specified initial velocities and angular velocities,
 and move according to external forces.

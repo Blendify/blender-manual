@@ -12,7 +12,7 @@ Aside from no longer needing to go through the time-consuming process of simulat
 baking can help prevent potential glitches and ensure that the outcome of the simulation
 remains exactly the same every time.
 
-.. A Screenshot of the baking interface is intentionally omitted, as it
+.. A screenshot of the baking interface is intentionally omitted, as it
    the available options vary slightly between different physics systems.
 
 .. note::

@@ -4,6 +4,12 @@
 Generic Spring
 **************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
+   | Type:     Generic Spring
+
 .. figure:: /images/physics_rigid-body_constraints_types_hinge_panel-example.png
    :width: 500px
 

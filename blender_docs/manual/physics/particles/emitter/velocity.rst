@@ -3,6 +3,11 @@
 Velocity
 ********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Velocity`
+
 The initial velocity of particles can be set through different parameters,
 based on the type of the particle system.
 If the particle system type is Emitter or Hair,

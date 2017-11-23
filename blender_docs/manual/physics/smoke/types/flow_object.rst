@@ -4,6 +4,12 @@
 Smoke Flow Object
 *****************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Smoke`
+   | Type:     Flow
+
 *Smoke Flow* objects are used to add or remove smoke and fire
 to a :doc:`Smoke Domain </physics/smoke/types/domain>` object.
 
@@ -13,13 +19,13 @@ Now you should have a default smoke flow source object. You can test this by pla
 :kbd:`Alt-A` from the first frame. If your source object is inside your domain, you should see smoke.
 
 
-Settings
-========
+Options
+=======
 
 .. figure:: /images/physics_smoke_types_flow-object_settings.png
    :align: right
 
-   Smoke Flow settings.
+   Smoke Flow options.
 
 
 Flow Type
@@ -120,6 +126,12 @@ Sampling: Subframes
 
 Smoke Flow Advanced
 ===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Flow
+   | Panel:    :menuselection:`Physics --> Smoke Flow Advanced`
 
 .. figure:: /images/physics_smoke_types_flow-object_advanced.png
    :align: right

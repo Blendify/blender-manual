@@ -3,6 +3,11 @@
 Children
 ********
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Children`
+
 *Children* are *Hair* and *Keyed* particles assigned subparticles.
 They make it possible to work primarily with a relatively low amount of Parent particles,
 for whom the physics are calculated. The children are then aligned to their parents.
@@ -28,8 +33,8 @@ We do not show every possible combination,
 only the settings for a *Hair* particle system.
 
 
-Settings
-========
+Options
+=======
 
 Child Type
 ----------

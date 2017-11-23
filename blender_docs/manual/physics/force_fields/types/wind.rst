@@ -3,6 +3,12 @@
 Wind
 ****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Force Fields`
+   | Type:     Wind
+
 .. figure:: /images/physics_force-fields_types_wind_visualzation.png
 
    Wind force field.

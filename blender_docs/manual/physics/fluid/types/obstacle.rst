@@ -6,6 +6,12 @@
 Fluid Obstacle
 **************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Fluid`
+   | Type:     Obstacle
+
 This object will be used as an obstacle in the simulation. As with a fluid object,
 obstacle objects currently should not intersect. As for fluid objects,
 the actual mesh geometry is used for obstacles. For objects with a volume,

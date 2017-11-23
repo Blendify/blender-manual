@@ -4,6 +4,12 @@
 Canvas
 ******
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Dynamic Paint`
+   | Type:     Canvas
+
 The Canvas type makes object receive paint from Dynamic Paint brushes.
 
 .. figure:: /images/physics_dynamic-paint_canvas_main-panel.png
@@ -46,8 +52,14 @@ Sub-steps
    Sub-steps are extra samples between frames, usually required when there is a very fast brush.
 
 
-Advanced Panel
-==============
+Advanced
+========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Canvas
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Advanced`
 
 .. figure:: /images/physics_dynamic-paint_canvas_advanced-panel.png
 
@@ -166,8 +178,14 @@ Influence Scale, Radius Scale
    For tweaking brush settings individually for each surface.
 
 
-Output Panel
-============
+Output
+======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Canvas
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Output`
 
 .. figure:: /images/physics_dynamic-paint_canvas_output-panel.png
 
@@ -192,14 +210,26 @@ For *Image Sequence* surfaces,
 you can define used UV Maps and output file saving directory, filenames and image format.
 
 
-Initial Color Panel
-===================
+Initial Color
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Canvas
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Initial Color`
 
 ToDo 2.62.
 
 
-Effects Panel
-=============
+Effects
+=======
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Canvas
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Effects`
 
 .. figure:: /images/physics_dynamic-paint_canvas_effects-panel.png
 
@@ -221,8 +251,14 @@ For spread and drip effects, only "wet paint" is affected, so as the paint dries
 movement becomes slower until it stops.
 
 
-Cache Panel
-===========
+Cache
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Type:     Canvas
+   | Panel:    :menuselection:`Physics --> Dynamic Paint Cache`
 
 .. figure:: /images/physics_dynamic-paint_canvas_cache-panel.png
 

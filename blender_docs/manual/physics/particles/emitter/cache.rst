@@ -5,6 +5,11 @@
 Cache
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Particle System --> Cache`
+
 .. figure:: /images/physics_particles_emitter_cache_settings.png
 
    Particles Cache Settings.

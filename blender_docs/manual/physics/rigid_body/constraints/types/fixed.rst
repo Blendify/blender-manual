@@ -3,6 +3,12 @@
 Fixed
 *****
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
+   | Type:     Fixed
+
 .. figure:: /images/physics_rigid-body_constraints_types_fixed_panel-example.png
    :width: 500px
 
