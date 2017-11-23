@@ -24,24 +24,15 @@ Dope Sheet Modes
 
    Dope Sheet Modes.
 
-There are four basic views for the Dope Sheet. These all view different contexts of animation:
+While the Dope Sheet Mode allow you to edit multiple actions at once,
+the other ones are dedicated to view and edit specific data-blocks used in different context of animation.
 
-Dope Sheet
-   The Dope Sheet Mode allow you to edit multiple actions at once.
-Action Editor
-   :doc:`Action Editor </editors/dope_sheet/action>` is where you can define and control actions.
-Shape Key Editor
-   :ref:`ShapeKey Editor <dope-sheet-shape-key>` is dedicated to the shape key data-blocks.
-Grease Pencil
-   :doc:`Grease Pencil </editors/dope_sheet/grease_pencil>` Mode is dedicated to
-   the :doc:`Grease pencil tool's </interface/grease_pencil/index>`
-   keyframes for each :doc:`Grease pencil layer </interface/grease_pencil/drawing/layers>`,
-   you have a strip along which you can grab its keys,
-   and hence easily re-time your animated sketches.
-Mask
-   :ref:`Mask <dope-sheet-mask>` Mode is dedicated to the mask data-blocks.
-Cache File
-   Todo add.
+- Dope Sheet
+- :doc:`Action Editor </editors/dope_sheet/action>`
+- :ref:`Shape Key Editor <dope-sheet-shape-key>`
+- :doc:`Grease Pencil </editors/dope_sheet/grease_pencil>`
+- :ref:`Mask <dope-sheet-mask>`
+- Cache File: Alembic Todo 2.78.
 
 
 Interface
