@@ -50,7 +50,7 @@ Active Layer
       Locks the ability to edit the current layers layer.
    Hide (eye icon) :kbd:`H`
       Hides the current layer in the drawing region.
-   Unlock Color (palette with arrow icon)
+   Unlock Color (color wheel with arrow icon)
       Unprotects selected colors from further editing and/or frame changes.
 
    Isolate (padlock icon) :kbd:`NumpadAsterix`
@@ -142,7 +142,7 @@ Always Show (camera icon)
    - For creating a cheap motion-blur effect, especially when the before/after values are also animated.
    - If you've animated a shot with onion skinning enabled, the poses may end up looking odd
      if the ghosts are not shown (as you may have been accounting for the ghosts when making the compositions).
-Use Custom Colors (palette icon)
+Use Custom Colors (color wheel icon)
    Toggles to use the *Before* and *After* controls to change the color of the ghosted frames.
 
 Before/After

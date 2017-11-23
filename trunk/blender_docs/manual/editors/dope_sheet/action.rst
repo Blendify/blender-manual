@@ -69,7 +69,7 @@ Action
 Push Down (double down arrow peak icon)
    Adds the active action on to the NLA stack as a contributing strip.
    This is basically the same as pressing the Push Down button in the NLA Editor.
-Stash (Snowflake icon)
+Stash (snowflake icon)
    Stashes the active action on to the NLA stack. i.e. it is added as a non-contributing stack
    in the same way that it would if you were creating a new action instead.
 
