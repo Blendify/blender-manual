@@ -99,6 +99,10 @@ Soft Body Solver
 The settings in the *Soft Body Solver* panel determine the accuracy of the
 simulation.
 
+
+Step Size
+---------
+
 Min Step
    Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
 Max Step
@@ -108,17 +112,24 @@ Max Step
 Auto-Step
    Use Velocities for automatic step sizes.
 
-Error Limit
-   Rules the overall quality of the solution delivered. Default 0.1.
-   The most critical setting that says how precise the solver should check for collisions.
-   Start with a value that is 1/2 the average edge length. If there are visible errors, jitter,
-   or over-exaggerated responses, decrease the value. The solver keeps track of how "bad" it is doing and the
-   *Error Limit* causes the solver to do some "adaptive step sizing".
 
-Fuzzy
-   Simulation is faster, but less accurate.
+Error Limit
+-----------
+
+Rules the overall quality of the solution delivered. Default 0.1.
+The most critical setting that says how precise the solver should check for collisions.
+Start with a value that is 1/2 the average edge length. If there are visible errors, jitter,
+or over-exaggerated responses, decrease the value. The solver keeps track of how "bad" it is doing and the
+*Error Limit* causes the solver to do some "adaptive step sizing".
+
+
+Helpers
+-------
+
 Choke
    Calms down (reduces the exit velocity of) a vertex or edge once it penetrates a collision mesh.
+Fuzzy
+   Simulation is faster, but less accurate.
 
 
 Diagnostics

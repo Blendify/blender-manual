@@ -51,6 +51,10 @@ The characteristics of edges are set with the *Soft Body Edge* properties.
 Use Edges
    Allow the edges in a Mesh Object to act like springs.
 
+
+Springs
+-------
+
 Pull
    The spring stiffness for edges (how much the edges are allowed to stretch). A low value means very weak springs
    (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
@@ -62,7 +66,7 @@ Push
    like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
 Damp
    The friction for edge springs. High values (max of 50) dampen the *Push* / *Pull* effect and calm down the cloth.
-Plastic
+Plasticity
    Permanent deformation of the object after a collision.
    The vertices take a new position without applying the modifier.
 Bending
@@ -72,15 +76,25 @@ Length
    The edges can shrink or been blown up. This value is given in percent,
    0 disables this function. 100% means no change, the body keeps 100% of his size.
 
+
 Stiff Quads
+-----------
+
+Use Stiff Quads
    For quad faces, the diagonal edges are used as springs.
    This stops quad faces to collapse completely on collisions (what they would do otherwise).
 Shear
    Stiffness of the virtual springs created for quad faces.
 
 
+Tips
+====
+
 Preventing Collapse
 -------------------
+ 
+Stiff Quads
+^^^^^^^^^^^
 
 To show the effect of the different edge settings we will use two cubes
 (blue: only quads, red: only tris) and let them fall without any goal onto a plane
@@ -151,6 +165,10 @@ because it has no quads anyway.
           :width: 200px
 
           Frame 401.
+
+
+Bending Stiffness
+^^^^^^^^^^^^^^^^^
 
 The second method to stop an object from collapsing is to change its *Bending* stiffness.
 This includes the diagonal edges (damping also applies to these connections).
