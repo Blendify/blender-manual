@@ -43,18 +43,24 @@ Soft Body Panel
 
    | Panel:    :menuselection:`Physics --> Soft Body`
 
+
+Object
+^^^^^^
+
 Friction
    The friction of the surrounding medium.
    The larger the friction, the more viscous is the medium.
    Friction always appears when a vertex moves relative to its surround medium.
-
 Mass
    Mass value for vertices.
    Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
    Larger mass means larger inertia, so also braking a Soft Body is more difficult.
-
-Mass Vertex Group
+Mass: Vertex Group
    You can paint weight values for a mesh's mass, and select that vertex group here.
+
+
+Simulation
+^^^^^^^^^^
 
 Speed
    You can control the internal timing of the softbody system with this value.
@@ -139,6 +145,10 @@ The vertex tries to reach its target position with a certain, adjustable intensi
 
 Imagine the vertex is connected with its target through a spring Fig. :ref:`fig-softbody-force-exterior-shock`.
 
+
+Goal Strength
+^^^^^^^^^^^^^
+
 Default
    This parameter defines how strong the influence of this spring is. A strength of 1 means,
    that the vertex will not move as Soft Body at all, instead keep its original position. 0 *Goal*
@@ -166,10 +176,13 @@ Minimum / Maximum
    Now we will move to the next step,
    the forces that keep the structure of the object and make the Soft Body to a real Body.
 
+
+Goal Settings
+^^^^^^^^^^^^^
+
 Stiffness
    The spring stiffness for Goal. A low value creates very weak springs
    (more flexible "attachment" to the goal), a high value creates a strong spring
    (a stiffer "attachment" to the goal).
-
 Damping
    The friction of the spring. With a high value the movement will soon come to an end (little jiggle).

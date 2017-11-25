@@ -22,14 +22,23 @@ Soft Body
 
    | Panel:    :menuselection:`Physics --> Soft Body`
 
+
+Object
+------
+
 Friction
    The friction of the surrounding medium. Generally friction dampens a movement.
 Mass
    Mass value for vertices.
    Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
    Larger mass means larger inertia, so also braking a Soft Body is more difficult.
-Vertex Group Mass
+Mass: Vertex Group 
    Use a specified vertex group for mass values.
+
+
+Simulation
+----------
+
 Speed
    You can control the internal timing of the Softbody system with this value.
 Collision Group
@@ -65,6 +74,10 @@ Use Goal
    The *goal* is the desired end-position for vertices.
    How a softbody tries to achieve this goal can be defined using stiffness forces and damping.
 
+
+Goal Strength
+-------------
+
 Default
    A *Goal* value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated)
    position. When setting *Goal* to 0.0, the object is only influenced by physical laws.
@@ -78,17 +91,23 @@ Minimum / Maximum
    The lowest vertex-weight (blue) will become *G Min*, the highest value (red) becomes *G Max*
    (please note that the blue-red color scale may be altered by User Preferences).
 
+
+Goal Settings
+-------------
+
 Stiffness
    The spring stiffness for *Goal*. A low value creates very weak springs
    (more flexible "attachment" to the goal), a high value creates a strong spring
    (a stiffer "attachment" to the goal).
-
 Damping
    The friction for *Goal*. Higher values dampen the effect of the goal on the soft body.
 
+
 Vertex Group
-   Use a vertex group to allow per-vertex goal weights
-   (multiplied by the *Default* goal).
+------------
+
+Use a vertex group to allow per-vertex goal weights
+(multiplied by the *Default* goal).
 
 
 Soft Body Edges
@@ -102,6 +121,10 @@ Soft Body Edges
 Use Edges
    The edges in a Mesh Object can act as springs as well, like threads in fabric.
 
+
+Springs
+-------
+
 Pull
    The spring stiffness for edges (how much the edges are stretched). A low value means very weak springs
    (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
@@ -111,8 +134,8 @@ Push
    high values for inflated objects and stiff material.
 Damp
    The friction for edge springs. High values (max of 50) dampen the edge stiffness effect and calm down the cloth.
-Plastic
-   Plasticity, permanent deformation of the object.
+Plasticity
+   Permanent deformation of the object.
 Bending
    This option creates virtual connections between a vertex and the one after the next. This includes diagonal edges.
    Damping applies also to these connections.
@@ -120,13 +143,21 @@ Length
    The edges can shrink or been blown up. This value is given in percent, 0 disables this function.
    100% means no change, the body keeps 100% of his size.
 
+
 Stiff Quads
+-----------
+
+Use Stiff Quads
    For quad faces, the diagonal edges are used as springs.
    This stops quad faces to collapse completely on collisions (what they would do otherwise).
 Shear
    Stiffness of the virtual springs for quad faces.
 
+
 Aerodynamics
+------------
+
+Type
    Simple
       If you turn on *Aero* the force is not confined to the vertices, but has an effect also on the edges.
       The angle and the relative speed between medium and edge is used to calculate the force on the edge.
@@ -136,16 +167,18 @@ Aerodynamics
       An edge moving in its own direction feels no force,
       and an edge moving perpendicular to its own direction feels maximum force
       (think of a straw moving through air). Try it with an *Factor* of 30 at first.
-
    Lift Force
       Use an aerodynamic model that is closer to physical laws and looks more interesting.
       Disable for a more muted simulation.
-   Factor
-      How much aerodynamic effect to use.
+Factor
+   How much aerodynamic effect to use.
+
+
+Collision
+---------
 
 Edge
    Checks for edges of the softbody mesh colliding.
-
 Face
    Checks for any portion of the face of the softbody mesh colliding (compute intensive!).
    While *CFace* enabled is great, and solves lots of collision errors,
@@ -176,15 +209,16 @@ Self Collision
    If you want a good result you may have to adjust the size of these balls.
    Normally it works pretty well with the default options.
 
-Manual
-   The *Ball Size* directly sets the ball size (in BU).
-Average
-   The average length of all edges attached to the vertex is calculated and then multiplied
-   with the *Ball Size* setting. Works well with evenly distributed vertices.
-Minimal/Maximal
-   The ball size is as large as the smallest/largest spring length of the vertex multiplied with the *Ball Size*.
-Average Min Max
-   Size = ((Min + Max)/2) × *Ball Size*.
+Collision Type
+   Manual
+      The *Ball Size* directly sets the ball size (in BU).
+   Average
+      The average length of all edges attached to the vertex is calculated and then multiplied
+      with the *Ball Size* setting. Works well with evenly distributed vertices.
+   Minimal/Maximal
+      The ball size is as large as the smallest/largest spring length of the vertex multiplied with the *Ball Size*.
+   Average Min Max
+      Size = ((Min + Max)/2) × *Ball Size*.
 
 Size
    Fraction of the length of attached edges.
@@ -197,10 +231,8 @@ Size
    Too high of a value will include too many vertices all the time and slow down the calculation.
    Too low of a level will let other vertices get too close and thus possibly intersect because
    there will not be enough time to slow them down.
-
 Stiffness
    How elastic that ball of personal space is.
-
 Dampening
    How the vertex reacts.
    A low value just slows down the vertex as it gets too close. A high value repulses it.
@@ -225,30 +257,42 @@ These settings determine the accurateness of the simulation.
 
    Soft Body Solver Settings.
 
+
+Step Size
+---------
+
 Min Step
    Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
-
 Max Step
    Maximum simulation steps per frame.
    Normally the number of simulation steps is set dynamically
    (with the *Error Limit*) but you have probably a good reason to change it.
-
 Auto-Step
    helps the Solver figure out how much work it needs to do based on how fast things are moving.
 
-Error Limit
-   Rules the overall quality of the solution delivered. Default 0.1.
-   The most critical setting that says how precise the solver should check for collisions.
-   Start with a value that is 1/2 the average edge length.
-   If there are visible errors, jitter, or over-exaggerated responses, decrease the value.
-   The solver keeps track of how "bad" it is doing and the *Error Limit* causes the solver to
-   do some "adaptive step sizing".
 
-Fuzzy
-   Fuzziness while on collision, high values make collision handling faster but less stable.
+Error Limit
+-----------
+
+Rules the overall quality of the solution delivered. Default 0.1.
+The most critical setting that says how precise the solver should check for collisions.
+Start with a value that is 1/2 the average edge length.
+If there are visible errors, jitter, or over-exaggerated responses, decrease the value.
+The solver keeps track of how "bad" it is doing and the *Error Limit* causes the solver to
+do some "adaptive step sizing".
+
+
+Helpers
+-------
 
 Choke
    Calms down (reduces the exit velocity of) a vertex or edge once it penetrates a collision mesh.
+Fuzzy
+   Fuzziness while on collision, high values make collision handling faster but less stable.
+
+
+Diagnostics
+-----------
 
 Print Performance to Console
    Prints on the console how the solver is doing.
