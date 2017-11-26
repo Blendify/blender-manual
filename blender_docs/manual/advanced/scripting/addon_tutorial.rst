@@ -258,8 +258,8 @@ As before, first we will start with a script, develop it, then convert it into a
 Now try copy this script into Blender and run it on the default Cube.
 Make sure you click to move the 3D cursor before running as the duplicate will appear at the cursor's location.
 
-After running, notice that when you go into *Edit Mode* to change the Cube -- all of the copies change,
-in Blender this is known as *Linked-Duplicates*.
+After running, notice that when you go into *Edit Mode* to change the Cube -- all of the copies change.
+In Blender, this is known as *Linked-Duplicates*.
 
 Next, we're going to do this in a loop, to make an array of objects between the active object and the cursor. ::
 
@@ -287,7 +287,7 @@ Try run this script with the active object and the cursor spaced apart to see th
 
 With this script you'll notice we're doing some math with the object location and cursor,
 this works because both are 3D :class:`blender_api:mathutils. Vector` instances,
-a convenient class provided by the :mod:`blender_api:mathutils` module and
+a convenient class provided by the :mod:`blender_api:mathutils` module which
 allows vectors to be multiplied by numbers and matrices.
 
 If you are interested in this area, read into :class:`blender_api:mathutils.Vector`
