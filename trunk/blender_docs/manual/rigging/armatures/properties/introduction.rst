@@ -9,7 +9,7 @@ Introduction
    | Mode:     All Modes
    | Panel:    :menuselection:`Properties editor --> Armature`
 
-The *Armature* tab in Properties editor contains various panels gathering the armature settings,
+The *Armature* tab in Properties editor contains various panels gathering the armature settings.
 
 .. figure:: /images/rigging_armatures_properties_introduction_properties-editor.png
 
