@@ -30,7 +30,7 @@ These points can be object origins and bone joints.
 
 Before we look at its options, let us first see how to display/hide these paths.
 Unlike :doc:`/rigging/armatures/properties/ghost`, you have to do it manually
-and you have to first select the bones you want to show/hide the motion paths. Then,
+and you have to first select the bones you want to show/hide the motion paths. Then:
 
 #. To show the paths (or update them, if needed), click on the *Calculate Path* button.
 #. To hide the paths, click on the *Clear Paths* button.

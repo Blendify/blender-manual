@@ -178,7 +178,7 @@ Margin
 Split
    Fixed
       Slit quads predictably (0, 1, 2) (0, 2, 3).
-   Fixed alternate
+   Fixed Alternate
       Slit quads predictably (1, 2, 3) (1, 3, 0).
    Automatic
       Split quads to give the least distortion while baking.

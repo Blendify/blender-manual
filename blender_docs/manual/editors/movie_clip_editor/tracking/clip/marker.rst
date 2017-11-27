@@ -35,7 +35,7 @@ Dragging with :kbd:`LMB` will change the position of an individual corner.
 The Search area can not be rotated; this is intentional. It doesn't make sense to deform the search area.
 
 
-Plain
+Plane
 =====
 
 The left bottom corner of the plane does have X/Y axis (X is red, Y is green) to

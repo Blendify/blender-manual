@@ -198,7 +198,7 @@ The sorting is particularly useful when combined with causal density. Indeed,
 the causal density evaluates the density of the resulting image as it is modified. If we wish
 to use such a tool to decide to remove strokes whenever the local density is too high,
 it is important to control the order in which the strokes are drawn. In this case,
-we would use the sorting operator to insure that the most "important" lines are drawn first.
+we would use the sorting operator to ensure that the most "important" lines are drawn first.
 
 
 Stroke Creation

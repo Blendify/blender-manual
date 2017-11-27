@@ -73,7 +73,7 @@ Face Textures
 
    The Material panel with activated Face Textures button.
 
-An alternate way is to set up a Face Textures Material as shown. To do so,
+An alternative way is to set up a Face Textures Material as shown. To do so,
 with the Properties editor displayed, press :kbd:`F5` to display the Shader Buttons.
 In the Properties editor, Material settings, click *Add New* material.
 

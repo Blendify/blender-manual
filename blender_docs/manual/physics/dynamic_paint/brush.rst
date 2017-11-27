@@ -190,7 +190,7 @@ Waves
 This panel is used to adjust brush influence to "Wave" surfaces.
 
 Wave Type
-   Select what effect the brush has on the wave simulation.
+   Select what effect the brush creates in the wave simulation.
 
    Depth Change
       This option makes brush create waves when the intersection depth with the surface is *changed* on that point.

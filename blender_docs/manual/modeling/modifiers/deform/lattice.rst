@@ -26,7 +26,7 @@ Options
 Object
    The :doc:`Lattice </rigging/lattice>` object with which to deform the base object.
 Vertex Group
-   An optional vertex group name which lets you limit the modifier effect to a part of the base mesh.
+   An optional vertex group name which lets you limit the modifier's effect to a part of the base mesh.
 Strength
    A factor to control blending between original and deformed vertex positions.
 

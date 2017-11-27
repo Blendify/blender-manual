@@ -20,7 +20,7 @@ You will see an effect on the 3D Manipulator (the widget in the center of the se
 as well as on transformation constraints
 (like :doc:`axis locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`).
 This means that, when you press :kbd:`G-X`, it will constrain to the *global* X-axis,
-but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s X-axis.
+but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation*\ 's X-axis.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_menu.png
 

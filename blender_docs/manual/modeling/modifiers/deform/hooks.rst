@@ -35,7 +35,7 @@ Vertex Group
 Radius
    The size of the hooks influence.
 Strength
-   Adjust this hooks influance on the vertices, were (0.0 to 1.0) (no change to fully follows the hook).
+   Adjust this hooks influence on the vertices, were (0.0 to 1.0) (no change to fully follows the hook).
 
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook using this property.
 Falloff Type
@@ -61,7 +61,7 @@ Assign
 
 .. note::
 
-   The Hook Modifier stores vertex indices from the original mesh to determine what to effect;
+   The Hook Modifier stores vertex indices from the original mesh to determine what to affect;
    this means that modifiers that generate geometry, like a Subdivision Surface Modifier,
    should always be applied **after** the Hook Modifier;
    otherwise the generated geometry will be left out of the hook's influence.

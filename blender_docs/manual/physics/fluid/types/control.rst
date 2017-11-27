@@ -27,7 +27,7 @@ Options
    Fluid control options.
 
 Enabled
-   Controls weather the control object contributes to the fluid system.
+   Controls whether the control object contributes to the fluid system.
    This is useful when animating the fluid control object.
 Quality
    Higher quality result in more control particles for the fluid control object.

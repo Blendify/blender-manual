@@ -37,7 +37,7 @@ Main
 Boids try to avoid objects with activated Deflection.
 They try to reach objects with positive Spherical fields,
 and fly from objects with negative Spherical fields.
-The objects have to share one common layer to have effect.
+The objects have to share one common layer to have an effect.
 It is not necessary to render this common layer, so you may use invisible influences.
 
 Boids can different physics depending on whether they are in the air,
@@ -233,7 +233,7 @@ Random
    A random rule is selected for each boid.
 Fuzzy
    Uses fuzzy logic to evaluate rules. Rules are gone through top to bottom.
-   Only the first rule that effect above fuzziness threshold is evaluated.
+   Only the first rule that affect above the fuzziness threshold is evaluated.
    The value should be considered how hard the boid will try to respect a given rule
    (a value of 1.000 means the Boid will always stick to it, a value of 0.000 means it will never).
    If the boid meets more than one conflicting condition at the same time,

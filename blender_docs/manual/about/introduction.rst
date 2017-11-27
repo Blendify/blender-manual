@@ -13,7 +13,7 @@ Conventions
 Keyboards
 ---------
 
-Hotkey letters are shown in this manual like they appear on a keyboard; for example,
+Hotkey letters are shown in this manual like they appear on a keyboard; for example:
 
 :kbd:`G`
   refers to the lowercase ``g``.

@@ -248,4 +248,4 @@ Asymmetric
 Tangent
 -------
 
-This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
+This modifier bases it's effect on the traveling direction of the stroke evaluated at the stroke's vertices.

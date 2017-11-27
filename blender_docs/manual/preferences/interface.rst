@@ -52,7 +52,7 @@ Warnings
 ========
 
 Prompt Quit
-   When exiting Blender, a pop-up will ask you weather or not you really want to quit
+   When exiting Blender, a pop-up will ask you whether or not you really want to quit
    (currently only available on MS-Windows).
 
 
