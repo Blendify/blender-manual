@@ -65,7 +65,7 @@ Particle System
    .. figure:: /images/modeling_modifiers_simulate_particle-instance_split-plane.jpg
       :width: 610px
 
-      Render showing a single Plain mesh object assigned to two different vertex groups
+      Render showing a single Plane mesh object assigned to two different vertex groups
       and each of those vertex groups is assigned a separate and independent particle system,
       with each particle system being assigned a different Particle Instance modifier.
       In the case shown the Particle Instance modifiers are a sphere and a cube.

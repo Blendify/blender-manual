@@ -41,7 +41,7 @@ Display
 
 You can see these segments only if bones are visualized as *B-bones*.
 
-When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
+When not visualized as *B-Bone*\ s, bones are always shown as rigid sticks,
 even though the bone segments are still present and effective.
 This means that even in e.g. *Octahedron* visualization,
 if some bones in a chain have several segments,

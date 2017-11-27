@@ -78,7 +78,7 @@ Temperature Difference
    The *Temperature Difference* setting controls how much smoke is affected by temperature.
 
    The effect this setting has on smoke depends on the
-   per flow object :ref:` Temperature Difference <smoke-flow-temp-diff>`:
+   per flow object :ref:`Temperature Difference <smoke-flow-temp-diff>`:
 
    - Values above 0 will result in the smoke rising when the flow object *Temperature Difference* is
      set to a positive value, and smoke sinking when the flow object *Temperature Difference* is
@@ -188,7 +188,7 @@ Noise Method
    .. note::
 
       *Wavelet* is an implementation of `Turbulence for Fluid Simulation
-      <http://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
+      <https://web.archive.org/web/20140911163550/https://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
 
    Strength
       Strength of noise.

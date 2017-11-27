@@ -86,14 +86,14 @@ returns True (the controller sends a positive pulse to the connected actuators).
 
 Given the object has:
 
-- A sensor called ``Key_Inserted`` equal to True,
-- A property named ``Fuel`` equal to False,
+- A sensor called ``Key_Inserted`` equal to ``True``.
+- A property named ``Fuel`` equal to ``False``.
 
 .. code-block:: python
 
    Key_Inserted AND Fuel.
 
-returns False (the controller sends a negative pulse to the connected actuators).
+Will return ``False`` (the controller sends a negative pulse to the connected actuators).
 
 This is the same as doing::
 

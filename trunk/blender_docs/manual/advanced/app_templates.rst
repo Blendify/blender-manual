@@ -80,7 +80,7 @@ Template locations:
    | ``{BLENDER_SYSTEM_SCRIPTS}/startup/bl_app_templates_system``
 
 
-User configuration is stored in a sub directory,
+User configuration is stored in a sub directory:
 
 Without a template:
    | ``./config/startup.blend``

@@ -15,7 +15,7 @@ simply turn down the influence of that type of Force Field in its Field Weights 
   but only curve object can bear *Curve Guides* fields.
 - Force Fields can also be generated from particles.
   See :doc:`Particle Physics </physics/particles/emitter/physics/index>`
-- The objects need to share at least one common layer to have effect.
+- The objects need to share at least one common layer to have an effect.
 
 You may limit the effect on particles to a group of objects
 (see the :doc:`Particle Physics </physics/particles/emitter/physics/index>` page).
@@ -126,7 +126,7 @@ Power (Power)
    which is the falloff of gravitational pull.
 
 Max Distance
-   Makes the force field only take effect within a specified maximum radius
+   Makes the force field affect other objects only within a specified maximum radius
    (shown by an additional circle around the object).
 Min Distance
    The distance from the object center, up to where the force field is effective with full strength.

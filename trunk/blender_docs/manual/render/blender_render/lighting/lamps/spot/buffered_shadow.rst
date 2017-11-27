@@ -224,7 +224,7 @@ Bias
    The *Bias* number button can have a value between (0.001 to 5.0).
    *Bias* is used to add a slight offset distance between an object and the shadows cast by it.
    This is sometimes required because of inaccuracies in the calculation which determines
-   weather an area of an object is in shadow or not.
+   whether an area of an object is in shadow or not.
 
    Making the *Bias* value smaller results in the distance between the object and its shadow being smaller.
    If the *Bias* value is too small, an object can get artifacts,

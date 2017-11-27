@@ -111,10 +111,11 @@ that the force is the same if wind is blowing or if you drag the edge through th
 same speed. That means that an edge moving in its own direction feels no force,
 and an edge moving perpendicular to its own direction feels maximum force.
 
-Simple
-   Edges receive a drag force from surrounding media.
-Lift Force
-   Edges receive a lift force when passing through surrounding media.
+Type
+   Simple
+      Edges receive a drag force from surrounding media.
+   Lift Force
+      Edges receive a lift force when passing through surrounding media.
 Factor
    How much aerodynamic force to use. Try a value of 30 at first.
 

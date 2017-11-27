@@ -97,7 +97,7 @@ Remove Doubles
 
 Remove Doubles is a useful tool to simplify a mesh by merging the selected vertices that
 are closer than a specified distance to each other.
-An alternate way to simplify a mesh is to use the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
+An alternative way to simplify a mesh is to use the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
 
 Merge Distance
    Sets the distance threshold for merging vertices, in Blender units.
