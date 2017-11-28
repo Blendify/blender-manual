@@ -227,10 +227,10 @@ Rotate Edge
    | Mode:     Edit Mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
 
-Rotating an edge clockwise or counter-clockwise spins an edge between two faces around their
-vertices. This is very useful for restructuring a mesh's topology.
-The tool can operate on one explicitly selected edge,
-or on two selected vertices or two selected faces that implicitly share an edge between them.
+Rotating an edge clockwise or counter-clockwise spins an edge between two faces around their vertices.
+This is very useful for restructuring a mesh's topology.
+
+The tool operates on selected edges or the shared edge between selected faces.
 
 .. list-table::
 
@@ -248,7 +248,7 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 Using Face Selection
 --------------------
 
-To rotate an edge based on faces you must select two faces, Fig. Adjacent selected faces,
+To rotate an edge based on faces you must select face pairs, Fig. Adjacent selected faces,
 otherwise Blender notifies you with an error message,
 ``"ERROR: Could not find any select edges that can be rotated"``. Using either *Rotate Edge CW*
 or *Rotate Edge CCW* will produce exactly the same results as if you had
