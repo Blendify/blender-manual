@@ -16,6 +16,8 @@ err_trap () {
 }
 trap err_trap ERR
 
+# Python needs utf
+export LANG="en_US.UTF8"
 
 # Ensure we're in the repo's base:
 BASEDIR=$(dirname $0)
