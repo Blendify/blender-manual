@@ -55,7 +55,8 @@ Max Air Speed
 Min Air Speed
    Set the Minimum velocity in the air.
 Max Air Acceleration
-   Lateral acceleration in air, percent of max velocity (turn). Defines how fast a boid is able to change direction.
+   Lateral acceleration in air, percentage of the max velocity (turn).
+   Defines how fast a boid is able to change direction.
 Max Air Angular Velocity
    Tangential acceleration in air, percent 180 degrees.
    Defines how much the boid can suddenly accelerate in order to fulfill a rule.

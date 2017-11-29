@@ -117,7 +117,7 @@ The iterator defines a chaining rule that determines the next ``ViewEdge``
 to follow at a given vertex (see ``ViewEdgeIterator``). Several such iterators are provided
 as part of the Freestyle Python API (see ``ChainPredicateIterator`` and ``ChainSilhouetteIterator``).
 Custom iterators can be defined by inheriting the ``ViewEdgeIterator`` class.
-The chaining operator also takes as argument a UnaryPredicate working on ``Interface1D`` as a stopping criterion.
+The chaining operator also takes as argument a UnaryPredicate working on ``Interface1D`` as a stopping criteria.
 The chaining stops when the iterator has reached a ``ViewEdge`` satisfying this
 predicate during the march along the graph.
 

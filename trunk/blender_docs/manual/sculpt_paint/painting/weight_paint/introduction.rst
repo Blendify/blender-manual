@@ -41,7 +41,7 @@ And all in-between values are drawn in rainbow colors (blue, green, yellow, oran
 In addition to the above described color code, Blender has a special visual notation (as an option)
 for unreferenced vertices: They are drawn in black.
 Thus you can see the referenced areas (drawn in cold/hot colors) and the unreferenced areas
-(in black) at the same time. This is most practical when you look for weighting errors.
+(in black) at the same time. This is most practicable when you look for weighting errors.
 See :doc:`/sculpt_paint/painting/weight_paint/options`.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code-black.png

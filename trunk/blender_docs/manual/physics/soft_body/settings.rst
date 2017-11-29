@@ -180,7 +180,7 @@ Collision
 Edge
    Checks for edges of the softbody mesh colliding.
 Face
-   Checks for any portion of the face of the softbody mesh colliding (compute intensive!).
+   Checks for any portion of the face of the softbody mesh colliding (computationally intensive!).
    While *CFace* enabled is great, and solves lots of collision errors,
    there does not seem to be any dampening settings for it,
    so parts of the softbody object near a collision mesh tend to "jitter" as they bounce off and fall back,

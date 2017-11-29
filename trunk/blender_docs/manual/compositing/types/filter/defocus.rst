@@ -141,7 +141,7 @@ Hints
 Preview
    In general, use preview mode, change parameters to your liking,
    only then disable preview mode for the final render.
-   This node is computer intensive, so watch your console window,
+   This node is computationally intensive, so watch your console window,
    and it will give you status as it computes each render scan line.
 Edge Artifacts
    For minimum artifacts, try to setup your scene such that differences in distances between two objects that may

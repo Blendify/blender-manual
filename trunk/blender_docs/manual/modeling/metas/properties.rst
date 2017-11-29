@@ -98,6 +98,6 @@ Fast
 Never
    Never show meta mesh (not a very recommended option, as the meta is only visible at render time!).
 
-This should help you if you experience difficulties (metas are quite compute-intensive...),
+This should help you if you experience difficulties (metas are quite computationally intensive...),
 but with modern computers, this should not happen, unless you use many metas,
 or very high resolutions...

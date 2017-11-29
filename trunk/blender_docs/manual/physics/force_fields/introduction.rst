@@ -87,7 +87,7 @@ Strength
    The strength of the field effect.
    This can be positive or negative to change the direction that the force operates in.
    A force field's strength is scaled with the force object's scale,
-   allowing you to scale up and down scene, keeping the same effects.
+   allowing you to scale up and down the scene, keeping the same effects.
 Flow
    Convert effector force into air flow velocity.
 Noise

@@ -48,7 +48,7 @@ Inpainting fills in a couple of pixels using the surrounding image and voilà...
 
 .. note::
 
-   The wider your "hole" is, the more noticeable this effect is!
+   The wider the "hole" is, the more noticeable this effect is!
    If you use more than a few pixels of infill,
    the effect is almost as irritating as the wire and your viewers won't be impressed.
 
