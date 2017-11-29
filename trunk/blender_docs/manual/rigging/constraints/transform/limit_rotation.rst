@@ -59,6 +59,6 @@ For Transform
    you have to rotate one way or the other its owner, for this to take effect...
 
 Convert
-   This constraint allows you to chose in which space evaluate its owner's transform properties.
+   This constraint allows you to choose in which space evaluate its owner's transform properties.
 
 .. vimeo:: 171115852

@@ -11,7 +11,7 @@ Follow Track Constraint
 TODO 2.62 - see: https://developer.blender.org/T46926
 
 By default Follow Track constraint is making object have the same position at frame as track has and
-motion of this objects happens on a single plane defined by camera and original object position.
+motion of this object happens on a single plane defined by camera and original object position.
 
 Active Clip
    ToDo 2.62.
