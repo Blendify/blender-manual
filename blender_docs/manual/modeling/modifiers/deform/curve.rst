@@ -43,7 +43,8 @@ Example
 
 Let us make a simple example:
 
-- Remove default cube object from scene and add a Monkey with :menuselection:`Add --> Mesh --> Monkey`
+- Remove the default cube object from the scene and add a Monkey
+   with :menuselection:`Add --> Mesh --> Monkey`
 - Now add a curve with :menuselection:`Add --> Curve --> Bézier Curve`
 
 .. _fig-modifier-curve-edit:

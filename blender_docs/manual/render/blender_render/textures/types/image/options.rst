@@ -63,7 +63,7 @@ Alpha
       like ghosts, flames, and smoke/fog.
    Invert
       Reverses the alpha value.
-      Use this option if the mask image has white where you want it transparent and vice-versa.
+      Use this option if the mask image has white where you want it transparent and vice versa.
 
 Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.

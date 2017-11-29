@@ -332,7 +332,7 @@ You can also use the *Hide* checkbox of the
 
 Note that hidden bones are specific to a mode,
 i.e. you can hide some bones in *Edit Mode*,
-they will still be visible in *Pose Mode*, and vice-versa.
+they will still be visible in *Pose Mode*, and vice versa.
 Hidden bones in *Pose Mode* are also invisible in *Object Mode*.
 And in *Edit Mode*, the bone to hide must be fully selected,
 not just his root or tip.

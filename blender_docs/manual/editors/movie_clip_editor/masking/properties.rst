@@ -33,7 +33,7 @@ Holes
    it's the layer membership that defines which splines interact to create holes.
    As addition, splines from the same layer are behaving in a way,
    that concentric splines are defining holes in mask,
-   but if two splines from different layers are concentric they wouldn't define hole --
+   but if two splines from different layers are concentric they wouldn't define a hole --
    they'll just be union in final mask.
 
 
