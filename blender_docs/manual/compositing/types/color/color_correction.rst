@@ -50,8 +50,8 @@ Shadows
 
 Midtones Start, Midtones End
    Defines the start and the end of midtones range, i.e.
-   values where the whole tonal range is divided into the highlights, midtones and shadows.
-   (There is also a smooth transition between the ranges of width 0.2 units).
+   values where the whole tonal range is divided into the highlights, midtones and shadows
+   (there is also a smooth transition between the ranges of width 0.2 units).
 
 
 Inputs

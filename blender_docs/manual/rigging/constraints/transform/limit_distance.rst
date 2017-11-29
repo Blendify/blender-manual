@@ -27,7 +27,7 @@ Options
    Limit Distance panel.
 
 Target
-   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
+   :ref:`ui-data-id` used to select the constraint's target, and is not functional (red state) when it has none.
 Distance
    This number button sets the limit distance, i.e. the radius of the constraining sphere.
 Reset Distance
