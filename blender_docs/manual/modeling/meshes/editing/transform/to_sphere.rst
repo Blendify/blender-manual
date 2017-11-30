@@ -32,9 +32,9 @@ Usage
 
    To Sphere Factor.
 
-Select the elements you want to operate on and activate the *To Sphere* transform function.
-The *To Sphere* option can be invoked from the :menuselection:`Mesh --> Transform --> To Sphere`
-menu option or by pressing :kbd:`Shift-Alt-S`. The amount of sphericity given
+Select the elements you want to operate on and activate the *To Sphere* transform tool.
+The *To Sphere* tool can be invoked from the :menuselection:`Mesh --> Transform --> To Sphere`
+menu or by pressing :kbd:`Shift-Alt-S`. The amount of sphericity given
 to the selection can be determined interactively by moving the mouse or by typing a number
 between 0 and 1. Pressing :kbd:`Enter` will confirm the transformation.
 The confirmed transformation can be further edited by pressing :kbd:`F6`
@@ -42,7 +42,7 @@ or by going into the *Tool Shelf* and altering the *Factor* slider provided
 that no other actions take place between the *To Sphere* transform confirmation and
 accessing the slider.
 
-Note that the result of the *To Sphere* transform is also dependant on the number of
+Note that the result of the *To Sphere* transform is also dependent on the number of
 selected mesh elements (vertices, faces, etc.). As can be seen in the below image, the result
 will be smoother and more spherical when there are more mesh elements available to work with.
 

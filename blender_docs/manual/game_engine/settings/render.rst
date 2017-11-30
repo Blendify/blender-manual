@@ -278,7 +278,7 @@ Bake Mode
    Shadows
       Bakes shadows and lighting.
    Normals
-      Bakes tangent and camera-space normals (amongst many others) to an RGB image.
+      Bakes tangent and camera-space normals (among many others) to an RGB image.
    Textures
       Bakes colors of materials and textures only, without shading.
    Displacement

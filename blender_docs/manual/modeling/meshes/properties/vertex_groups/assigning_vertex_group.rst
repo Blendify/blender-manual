@@ -93,7 +93,7 @@ When you click on the icon,
 it changes to a closed padlock icon and all vertex group modifications get disabled.
 You can only rename or delete the group, and unlock it again.
 No other operations are allowed on locked Vertex Groups,
-thus all corresponding function buttons become disabled for locked Vertex Groups.
+thus all corresponding buttons become disabled for locked Vertex Groups.
 
 
 Working with Content of Vertex Groups

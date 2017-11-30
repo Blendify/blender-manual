@@ -114,9 +114,9 @@ Output of various orientations:
 .. note::
 
    The axes of an object can be made visible in the :menuselection:`Object --> Display` panel.
-   To display the vertex normals of the parent mesh,
-   enter *Edit Mode* and enable this function in :menuselection:`Properties --> Display`
-   panel where you can also resize the displayed normals as necessary.
+   To display the vertex normals of the parent mesh, enter *Edit Mode* and
+   enable this visualization in the :menuselection:`Properties region --> Mesh Display` panel
+   where you can also resize the displayed normals as necessary.
 
 
 DupliVerts as a Modeling Tool

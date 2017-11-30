@@ -69,7 +69,7 @@ naturally be more lit and your viewer will pay attention to them.
 Moving this spot directly overhead and pointing down gives the interrogation effect.
 At the opposite end of the show-off emotional spectrum is one soft candlelight
 (*Point* lamp, short falloff *Distance*, yellow light)
-placed really up close to the subject, dramatizing the fearful "lost in the darkness" effect.
+placed really up close to the subject, dramatizing the fearsome "lost in the darkness" effect.
 
 Somewhere in the macabre spectrum is a hard spot on the floor shining upward. For fun,
 grab a flashlight, head into the bathroom and close the door.

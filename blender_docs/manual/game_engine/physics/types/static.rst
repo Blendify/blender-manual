@@ -43,7 +43,7 @@ Invisible
 Radius
    See :ref:`rigid body <game-engine-physics-collision-bounds-radius>`.
 Anisotropic Friction
-   Isotropic friction is identical at all angles. Anisotropic is directionally-dependant.
+   Isotropic friction is identical at all angles. Anisotropic is directionally-dependent.
    Here you can vary the coefficients for the three axes individually, or disable friction entirely.
    Python properties: ``obj.game.use_anisotropic_friction``
    (boolean) and ``obj.game.friction_coefficients`` (a 3-element array).

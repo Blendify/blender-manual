@@ -14,7 +14,7 @@ Vertex Weights
 
    Vertex Weights Panel.
 
-   Vertex Group Categories (1), Weight Table (2), Function Bar (3).
+   \(1) Vertex Group Categories, (2) Weight Table, (3) Tools.
 
 As mentioned before in :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index>`
 each entry in a Vertex Group also contains a weight value in the range of (0.0 to 1.0).
@@ -152,15 +152,13 @@ Deleting
 Thus the entire row disappears when you click on the delete icon.
 
 
-Function Bar
-============
+Tools
+=====
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-functions.png
    :width: 235px
 
    Vertex Weights panel.
-
-The function bar contains two functions:
 
 Normalize
    Normalizes the weights of the active Vertex.
@@ -172,7 +170,7 @@ Copy
 
 .. tip:: The filter setting is respected
 
-   Note that both functions only work on the Vertex Groups currently displayed in the Weights Table.
+   Note that both tools only work on the Vertex Groups currently displayed in the Weights Table.
    So if for example only the *Deform weights* are displayed,
    then Normalize and Copy only affect the Deform bones.
 
@@ -185,7 +183,7 @@ Locking
 
    Vertex Weights panel Locked.
 
-Whenever a Weight Group is locked, all data changing functions get disabled:
+Whenever a Weight Group is locked, all data changing tools get disabled:
 
 - Normalize the vertex Weights.
 - Copy the Vertex weights.
@@ -196,4 +194,4 @@ Whenever a Weight Group is locked, all data changing functions get disabled:
 
    If you have for example all deform weight groups unlocked and all other vertex groups locked,
    then you can safely select *Deform* from the Filter row
-   and use all available functions from the Weight table again.
+   and use all available tools from the Weight table again.

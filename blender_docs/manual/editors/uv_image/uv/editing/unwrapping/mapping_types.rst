@@ -106,7 +106,7 @@ This gives you fine control over how automatic seams are be created.
 It is good method for simple and complex geometric forms,
 such as mechanical objects or architecture.
 
-This function examines the shape of your object,
+This algorithm examines the shape of your object,
 the faces selected and their relation to one another,
 and creates a UV map based on this information and settings that you supply.
 

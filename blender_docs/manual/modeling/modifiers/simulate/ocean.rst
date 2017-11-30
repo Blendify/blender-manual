@@ -88,7 +88,7 @@ Alignment
 Direction
    When using Alignment, the direction in degrees that the waves are aligned to.
 Damping
-   When using Alignment, amount that inter-reflected waves are damped out.
+   When using Alignment, this will define the amount that inter-reflected waves are damped out.
    This has the effect of making the wave motion more directional (not just the wave shape).
    With damping of 0.0, waves are reflected off each other every direction, with damping of 1.0,
    these inter-reflected waves are damped out, leaving only waves traveling in the direction of the wind.

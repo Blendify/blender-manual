@@ -80,7 +80,7 @@ Bakes shadows and lighting.
 Normals
 ^^^^^^^
 
-Bakes tangent and camera-space normals (amongst many others) to an RGB image.
+Bakes tangent and camera-space normals (among many others) to an RGB image.
 
 .. figure:: /images/render_blender-render_bake_norm.jpg
 

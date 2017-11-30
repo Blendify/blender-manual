@@ -23,7 +23,7 @@ Output
    Displacement
       Output XYZ displacement in RGB channels.
    Foam
-      Output foam (wave overlap) amount in single channel.
+      Output foam (wave overlap) amount in a single channel.
    Eigenvalues
       Positive Eigenvalues.
    Eigenvector (-)

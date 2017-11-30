@@ -144,7 +144,7 @@ View Frame :kbd:`Numpad0`
 Bind Camera to Markers :kbd:`Ctrl-B`
    This is used switch cameras during animation.
    It binds the active camera to the selected markers.
-   First select a camera. Then select the marker(s). Then use the function.
+   First select a camera. Then select the marker(s). Then use the tool.
 
 
 Marker Menu
