@@ -168,10 +168,14 @@ Siblings
 Length
    Selects bones with a similar bone length (between tip and tail) under the specified *Threshold*.
 Direction (Y axis)
-   ToDo.
+   Select bones aligned on the Y axis (along the bones length).
 Prefix
-   ToDo.
+   Select bones with matching name prefix (separated by ``.``).
 Suffix
-   ToDo.
+   Select bones with matching name suffix (separated by ``.``).
 Layer
-   ToDo.
+   Select bones on the same layer.
+Group
+   Select bones in the same group.
+Shape
+   Select bones using the same shape object (in pose mode).
