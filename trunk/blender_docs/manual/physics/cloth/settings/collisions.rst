@@ -78,10 +78,10 @@ Regression blend-file:
 Shared Layers
 =============
 
-Suppose you have two objects: a pair of Pants on layers 2 and 3,
-and your Character mesh on layers 1 and 2.
-You have enabled the Pants as cloth as described above.
-You must now make the Character "visible" to the Cloth object,
+Suppose you have two objects: a pair of *pants* on layers 2 and 3,
+and your *character* mesh on layers 1 and 2.
+You have enabled the *pants* as cloth as described above.
+You must now make the *character* "visible" to the Cloth object,
 so that as your character bends its leg, it will push the cloth.
 This principle is the same for all simulations;
 simulations only interact with objects on a shared layer. In this example,
@@ -115,14 +115,13 @@ Cloth - Object Collisions
 
 The cloth object needs to be deflected by some other object. To deflect a cloth,
 the object must be enabled as an object that collides with the cloth object.
-To enable Cloth - Object collisions, you have to enable deflections on the collision object
+To enable Cloth -- Object collisions, you have to enable deflections on the collision object
 (not on the cloth object).
 
-In the Properties editor, *Object* tab and
-*Physics* tab, locate the *Collision* panel shown to the right. It
-is also important to note that this collision panel is used to tell all simulations that this
-object is to participate in colliding/deflecting other objects on a shared layer (particles,
-soft bodies, and cloth).
+In the Properties editor, *Object* tab and *Physics* tab, locate the *Collision* panel
+shown to the right. It is also important to note that this collision panel is used to tell
+all simulations that this object is to participate in colliding/deflecting other objects
+on a shared layer (particles, soft bodies, and cloth).
 
 .. warning::
 

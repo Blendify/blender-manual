@@ -19,7 +19,7 @@ Options
    Simple Deform.
 
 Mode
-   This radio button defines the deform function applied, among four available:
+   This radio button defines the kind of deform which will be applied.
 
    Twist
       Rotates around the Z axis.

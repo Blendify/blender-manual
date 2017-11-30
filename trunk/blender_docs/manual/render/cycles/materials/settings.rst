@@ -102,7 +102,7 @@ Blend Mode
    Alpha Sort
       Sort faces for correct alpha drawing (slow, use *Alpha Clip* instead when possible).
    Alpha Anti-Aliasing
-      Use texture alpha ad an anti-aliasing mask, requires multi-sample OpenGL display.
+      Use texture alpha to add an anti-aliasing mask, requires multi-sample OpenGL display.
 
 
 Pass Index

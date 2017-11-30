@@ -12,8 +12,8 @@ At the :doc:`User Level </interface/undo_redo>` (relating to *Actions*)
 
 - For your actions, there are options like *Undo*, *Redo* and an *Undo History*,
   used to roll back from mistakes under normal operation, or return back to a specific action.
-- Blender also has new features like *Repeat* and *Repeat History*,
-  and the new *Redo Last* which you can use in conjunction with the options listed.
+- Blender also has features like *Repeat*, *Repeat History*,
+  and *Redo Last* which you can use in conjunction with the options listed.
 
 At the :ref:`System Level <troubleshooting-file-recovery>` (relating to *Files*)
 
@@ -35,12 +35,11 @@ Options for Files (System Level)
 Save and Auto Save
 ------------------
 
-Computer crashes, power outages,
-or simply forgetting to save can result in the loss or corruption of your work.
-To reduce the chance of losing files when those events occur,
-Blender can use an *Autosave* function. The *File* tab of the
-*User Preferences* allows you to configure the two ways that Blender provides
-for you to regress to a previous version of your work.
+Computer crashes, power outages, or simply forgetting to save can result in
+the loss or corruption of your work. You can use Blender's *Autosave* feature
+to reduce the chance of losing files when such events occur.
+The *File* tab of the *User Preferences* allows you to configure the two ways
+that Blender provides for you to regress to a previous version of your work.
 
 See :ref:`prefs-auto-save` for details.
 

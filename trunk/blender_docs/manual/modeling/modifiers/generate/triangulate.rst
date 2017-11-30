@@ -5,7 +5,7 @@ Triangulate Modifier
 ********************
 
 The Triangulate Modifier converts all faces in a mesh (whether it be quads or n-gons) to triangular faces.
-This modifier does the exact same function as the Triangulate tool in Edit Mode.
+This modifier fulfills the exact same function as the Triangulate tool in Edit Mode.
 
 .. list-table::
 

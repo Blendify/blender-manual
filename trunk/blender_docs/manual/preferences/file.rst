@@ -44,7 +44,7 @@ Animation Player
 Scripts Path
 ------------
 
-By default Blender looks in several directories (OS dependant) for scripts.
+By default Blender looks in several directories (OS dependent) for scripts.
 By setting a user script path in the preferences an additional directory is looked in. This
 can be used to store certain scripts/templates/presets independently of the currently used
 Blender Version.

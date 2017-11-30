@@ -35,7 +35,7 @@ Create an armature on top of the object. Each edge becomes a bone.
    If the root vertex has more than one adjacent edge,
    an extra bone will be created to serve as the root.
 
-This function does the following:
+This tool does the following:
 
 #. A new armature object is added with bones matching the input mesh.
    The active selection is switched to the new armature.

@@ -32,7 +32,7 @@ Active Shape Key Index
       Mirror Shape Key
          If your mesh is nice and symmetrical, in *Object Mode*, you can mirror the shape keys on the X axis.
          This will not work unless the mesh vertices are perfectly symmetrical.
-         Use the :menuselection:`Mesh --> Symmetrize` function in *Edit Mode*.
+         Use the :menuselection:`Mesh --> Symmetrize` tool in *Edit Mode*.
       Mirror Shape Key (Topology)
          This is the same as *Mirror Shape Key* though it detects
          the mirrored vertices based on the topology of the mesh.

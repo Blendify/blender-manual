@@ -359,7 +359,7 @@ Text Boxes
 
    Text frame.
 
-Text "Boxes" allow you to distribute the text amongst rectangular areas within a single text object.
+Text "Boxes" allow you to distribute the text among rectangular areas within a single text object.
 An arbitrary number of freely positionable and re-sizable text frames are allowed per text object.
 
 Text flows continuously from the lowest-numbered frame to the highest-numbered frame with text

@@ -51,7 +51,7 @@ In *Edit Mode*, the button for the *Screw* tool operation is located in the *Mes
 To use this tool, you need to create at least one open profile or line to be used as a vector for the height,
 angular vector and to give Blender a direction.
 
-The *Screw* function uses two points given by the open line to create an initial vector to calculate the height
+The *Screw* tool uses two points given by the open line to create an initial vector to calculate the height
 and basic angle of the translation vector that is added to the "Spin" for each full rotation (see examples below).
 If the vector is created with only two vertices at the *same* (X, Y, Z) location
 (which will not give Blender a vector value for height), this will create a normal "Spin".
