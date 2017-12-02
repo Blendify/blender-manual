@@ -27,7 +27,7 @@ but it can use external fonts too, including *PostScript Type 1*,
 *OpenType* and *TrueType* fonts. And last but not least,
 it can use any objects existing in the current blend-file as letters...
 
-Texts in Bender allow you to create/render 2D or 3D text, shaded as you want,
+Texts in Blender allow you to create/render 2D or 3D text, shaded as you want,
 with various advanced layout options (like justifying and frames), as we will see below.
 By default, letters are just flat filled surfaces, exactly like any closed 2D curve.
 But you can of course extrude them... And texts can follow other curves.

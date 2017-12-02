@@ -31,7 +31,7 @@ Mouse actuator for Visibility.
 .. figure:: /images/game-engine_logic_actuators_types_mouse_visibility.png
 
 Visibility
-   Toogles the visibility of the mouse cursor.
+   Toggles the visibility of the mouse cursor.
 
 
 Look

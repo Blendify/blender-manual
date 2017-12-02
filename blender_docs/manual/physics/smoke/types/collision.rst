@@ -34,11 +34,9 @@ Options
 Collision type
    Static
       Simple collision model which can be calculated quickly, but may be inaccurate for moving objects.
-
    Animated
       More complex collision model which takes into account impulse imparted to smoke when the collider is moving.
       Calculations are slower, but more accurate for moving objects.
-
    Rigid
       Identical to *Static* (unfinished code).
 

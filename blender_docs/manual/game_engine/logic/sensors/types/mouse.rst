@@ -18,24 +18,24 @@ Properties
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 The controller consist only of a list of types of mouse events.
-A FALSE pulse is given when any of these conditions ends.
+A ``FALSE`` pulse is given when any of these conditions ends.
 
 Mouse over any
-   Gives a TRUE pulse if the mouse moves over any game object.
+   Gives a ``TRUE`` pulse if the mouse moves over any game object.
 Mouse over
-   Gives a TRUE pulse if the mouse moves over the owner object.
+   Gives a ``TRUE`` pulse if the mouse moves over the owner object.
 Movement
-   Any movement with the mouse causes a stream of TRUE pulses.
+   Any movement with the mouse causes a stream of ``TRUE`` pulses.
 Wheel Down
-   Causes a stream of TRUE pulses as the scroll wheel of the mouse moves down.
+   Causes a stream of ``TRUE`` pulses as the scroll wheel of the mouse moves down.
 Wheel Up
-   Causes a stream of TRUE pulses as the scroll wheel of the mouse moves up.
+   Causes a stream of ``TRUE`` pulses as the scroll wheel of the mouse moves up.
 Right button
-   Gives a TRUE pulse.
+   Gives a ``TRUE`` pulse.
 Middle button
-   Gives a TRUE pulse.
+   Gives a ``TRUE`` pulse.
 Left button
-   Gives a TRUE pulse.
+   Gives a ``TRUE`` pulse.
 
 .. note::
 

@@ -56,7 +56,7 @@ Delete Higher
    Deletes all subdivision levels that are higher than the current one.
 Reshape
    Copies vertex coordinates from another mesh.
-   To use, first select a different mesh object with matching topology and vertex indexes,
+   To use, first select a different mesh object with matching topology and vertex indices,
    then :kbd:`Shift` select the object you wish to copy vertex coordinates to and click *Reshape*.
 Apply Base
    Modifies the original unsubdivided mesh to match the form of the subdivided mesh.

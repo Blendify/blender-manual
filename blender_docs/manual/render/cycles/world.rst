@@ -97,8 +97,8 @@ Mist Pass
 
    | Panel:    :menuselection:`World --> Mist Pass`
 
-Shown when the Mist pass is enabled. Mist values will range from 0.0-1.0 and are available from the
-RenderLayers node.
+Shown when the Mist pass is enabled. Mist values will range from 0.0 - 1.0 and
+are available from the Render Layers node.
 
 Start
    Defines the beginning of the mist range from the camera.

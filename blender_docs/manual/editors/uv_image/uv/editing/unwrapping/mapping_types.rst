@@ -223,7 +223,7 @@ Common
 The following settings are common for the Cube, Cylinder, and Sphere mappings:
 
 Correct Aspect
-   Map UVs taking image aspect ratios into consideration.
+   Map UVs will take the images aspect ratio into consideration.
    If an image has already been mapped to the texture space that is non-square,
    the projection will take this into account and distort the mapping to appear correct.
 Clip to Bounds

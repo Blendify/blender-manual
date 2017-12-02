@@ -19,7 +19,7 @@ The Standalone Player renders the scene from the perspective of the active scene
 and either creates a new desktop window or switches into fullscreen rendering mode.
 Note that while the Game Engine is running in either player,
 the computer's mouse and keyboard are captured by the game and by default,
-the mouse cursor is not visible. To exit the game, press the <ESC> key.
+the mouse cursor is not visible. To exit the game, press the :kbd:`ESC` key.
 
 .. tip:: Render Engine
 
@@ -160,8 +160,8 @@ System
 ======
 
 The *System* panel at the Render tab of the Properties editor lets the game
-developer specify options about the system performance regarding to frame discards and
-restrictions about frame renderings, the key to stop the Blender Game Engine,
+developer specify options about the system performance regarding to frame discard and
+restrictions about frame rendering, the key to stop the Blender Game Engine,
 and whether to maintain geometry in the internal memory of the Graphic card.
 
 .. figure:: /images/game-engine_settings_render_system.png
@@ -240,7 +240,7 @@ Framing
          covering any portions of the display that lie outside of the aspect ratio with color bars.
       In Fullscreen mode:
          The behavior of this combination seems to be heavily dependent on the user's hardware.
-         The result can be quite unpredictable, especially with resolutions and aspect ratios that
+         The result can be quite unpredictable, especially when the resolution and aspect ratio
          differ too much from the machine's capabilities. For this reason, *Extend* mode
          should be preferred for *Fullscreen* applications.
    Extend

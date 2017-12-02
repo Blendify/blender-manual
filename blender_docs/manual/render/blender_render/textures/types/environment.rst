@@ -89,8 +89,8 @@ Specials
 .. note::
 
    Environment Map calculation can be disabled at a global level
-   by the *Environment Map* Tog Button in the Render
-   Panel of the Rendering Buttons.
+   by the *Environment Map* toggle button in the Shading panel
+   of the Render tab.
 
 Viewpoint Object
    Environment maps are created from the perspective of a specified object.

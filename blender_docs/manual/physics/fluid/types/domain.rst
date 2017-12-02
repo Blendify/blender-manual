@@ -195,7 +195,7 @@ Viscosity Presets
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
-   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`, which gives a kinematic viscosity of
+   or 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`, which gives a kinematic viscosity of
    0.000001002 m\ :sup:`2`.s\ :sup:`-1` -- so the entry would be 1.002 times 10 to the minus six
    (1.002×10\ :sup:`-6` in scientific notation). Hot Glass and melting iron are fluids, but very thick;
    you should enter something like 1.0×10\ :sup:`0` (= 1.0) as its kinematic viscosity
@@ -223,7 +223,7 @@ Viscosity Presets
    Which implies that a Pascal corresponds to 1 kg.m^-1.s^-2,
    or else you cannot divide Pa.s by kg.m^-3 to obtain m^2.s^-1 !
    ::
-   So if I take the kinematics values given bellow,
+   So if I take the kinematics values given below,
    and try to get the corresponding dynamic values, I have:
    *water: density: about 1000 (kg.m^-3); kinematic viscosity: 1×10^-6 (m^2.s^-1)
    --> dynamic viscosity is 1000 × 1×10^-6 = 1×10^-3 Pa.s, hence 1 cP.

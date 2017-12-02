@@ -62,7 +62,7 @@ Light Sampling Threshold
    Zero disables the test and never ignores lights.
    This is useful because in large scenes with many light sources,
    some might only contribute a small amount to the final image, and increase render times.
-   Using this setting can decease the render times needed to calculate
+   Using this setting can decrease the render times needed to calculate
    the rays which in the end have very little affect on the image.
 
 Pattern

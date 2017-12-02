@@ -38,19 +38,19 @@ There are two functions of sockets; `inputs`_ and `outputs`_.
 
 Each socket is color-coded depending on what type of data it handles.
 
-Color (Yellow)
+Color (yellow)
    Indicates that color information needs to be input or will be output from the node.
    This may or may not include an alpha channel.
-Numeric (Grey)
+Numeric (gray)
    Indicates numeric values information.
    It can either be a single numerical value or a so-called "value map".
    (You can think of a value map as a grayscale-map where the different amount of
    bright/dark reflects the value for each point).
    If a single value is used as an input for a "value map" socket, all points of the map are set to this same value.
    Common use: Alpha maps and value options for a node.
-Vector (Blue)
+Vector (blue)
    Indicates vector, coordinate and normal information.
-Shader (Green)
+Shader (green)
    Used for shaders in :doc:`Cycles </render/cycles/index>`
 
 

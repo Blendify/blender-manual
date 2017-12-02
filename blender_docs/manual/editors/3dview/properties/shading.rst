@@ -94,8 +94,9 @@ Backface Culling
    especially when exporting to programs that use single sided drawing.
 Hidden Wire
    Show only front-facing wireframes. This is useful for a retopology workflow.
-   Tip: Optimally this could be combined with the *X-Ray* display setting.
    (Mesh, Edit Mode only).
+
+   Tip: Optimally this could be combined with the *X-Ray* display setting.
 Depth of Field
    Simulates a camera's focal blur effect in the 3D View. This is only visible in a camera view.
    Control the effect using these options in the :ref:`Properties Tab <camera-settings>`

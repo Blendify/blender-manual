@@ -184,7 +184,7 @@ so let us detail it:
 #. First, you must create your chars. Each char, of any type,  is an object (mesh, curve, meta...).
    They all must have a name following the schema:
    *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
-#. Then, for the *Text* object, you must enable the *Dupli Verts* button
+#. Then, for the *Text* object, you must enable the *Dupli Vertices* button
    (:menuselection:`Object --> Animation Settings` panel).
 #. In the *Font* tap, fill the *Object Font* field with the *common prefix* of your "font" objects.
 

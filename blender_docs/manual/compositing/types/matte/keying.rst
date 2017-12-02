@@ -50,7 +50,7 @@ Despill Factor
    The underlying implementation is the same as adjusting the *Unspill* amount
    of the :doc:`Color Spill Node </compositing/types/matte/color_spill_key>`.
 Despill Balance
-   This controls how the color chanels are compared when computing spill,
+   This controls how the color channels are compared when computing spill,
    affecting the hue and shade of the corrected colors.
    It is similar to setting the *Limiting Channel* in the
    :doc:`Color Spill Node </compositing/types/matte/color_spill_key>`.

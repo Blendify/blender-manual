@@ -32,7 +32,7 @@ Of special note are the arrow keys, :kbd:`Left`, :kbd:`Right` and so on.
 Mice
 ----
 
-This manual referrers to mouse buttons as:
+This manual refers to mouse buttons as:
 
 :kbd:`LMB`
   Left Mouse Button

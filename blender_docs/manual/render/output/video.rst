@@ -7,7 +7,7 @@ Preparing your Work for Video
 =============================
 
 Once you master the art of 3D animation, you will probably want to share your work with others;
-either on the internet (YouTube, Vimeo, etc.) or with family and friends (DVD/Bluray)
+either on the internet (YouTube, Vimeo, etc.) or with family and friends (DVD/Blu-ray)
 or even possibly for television broadcast.
 
 To spare you some disappointment, here are some tips specifically targeted at video preparation.
@@ -77,7 +77,7 @@ Encoding Panel
    Encoding panel.
 
 Here you choose which video container, codec, and compression settings you want to use.
-With all of these compression choices, there is a tradeoff between file size,
+With all of these compression choices, there is a trade-off between file size,
 compatibility across platforms, and playback quality.
 
 .. tip::

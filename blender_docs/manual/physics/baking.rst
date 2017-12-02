@@ -28,7 +28,7 @@ Compression
    None
       Do not compress the cache.
    Light
-      Compression optimizes speed of compressing/decompressing operations over file size.
+      Compression will optimize the speed of compressing/decompressing operations over file size.
    Heavy
       Compression will result in smaller cache files more than *Light*,
       however, requires more CPU time to compress/decompress.

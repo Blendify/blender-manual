@@ -93,7 +93,7 @@ Delete Channels :kbd:`X`
 
 Un/Group Channels :kbd:`Ctrl-G`, :kbd:`Alt-G`
    ToDo.
-Settings Toogle/Enable/Disable, :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
+Settings Toggle/Enable/Disable, :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
    Enable/disable a channel's setting (selected in the menu that pops-up).
 
    Lock, Mute

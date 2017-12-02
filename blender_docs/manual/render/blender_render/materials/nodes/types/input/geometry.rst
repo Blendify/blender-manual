@@ -40,7 +40,7 @@ Local
    Local position of the surface.
 View
    Viewed position of the surface.
-Orco
+Original Coordinates
    Using the Original Coordinates of the mesh.
 UV
    Using the UV coordinates of the mesh, selected in the field in bottom node.

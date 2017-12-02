@@ -101,7 +101,7 @@ Polygonization
       Maximum contour edge length.
    Max Edge Error
       Maximum distance error from contour to cells.
-   Verts Per Poly
+   Vertices Per Poly
       Max number of vertices per polygon.
 Detail Mesh
    Sample Distance
