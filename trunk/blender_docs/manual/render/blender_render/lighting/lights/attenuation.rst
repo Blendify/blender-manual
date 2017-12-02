@@ -72,7 +72,7 @@ the light from this source is completely quadratic.
 
 Quadratic attenuation type lighting is considered a more accurate representation of how light
 attenuates (in the real world). In fact, fully quadratic attenuation is selected by default.
-For *Lin/Quad Weighted* lamp fallout see Fig. :ref:`fig-bi-light-lin-default`.
+For *Lin/Quad Weighted* lamp falloff see Fig. :ref:`fig-bi-light-lin-default`.
 
 Here again,
 the light intensity is half when it reaches the *Distance* value from the lamp.
@@ -515,6 +515,6 @@ because the intensity has fallen to nearly 0.
    If you want to achieve some nice effects like a fire,
    or a candle-lit room interior seen from outside a window,
    the *Sphere* option is a must. By carefully working on the *Distance*
-   value you can make your warm firelight shed only within the room,
+   value you can make your warm fire lit shed only within the room,
    while illuminating outside with a cool moonlight,
    the latter achieved with a *Sun* or *Hemi* light or both.

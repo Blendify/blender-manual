@@ -68,7 +68,7 @@ We can use this grid texture to help in any motion tracking that we need to do.
 
    Adding a Grid UV Textures for Motion Tracking.
 
-In the next example, we overlay a logo on a mesh composed of two intersecting cubes,
+In the next example, we overlay a logo on top of a mesh composed of two intersecting cubes,
 and we ensure that we Enable the Alpha pre-multiply button on the Mix node.
 The logo is used as additional UV Texture on top of the existing texture. Other examples include the
 possibility that there was used an unauthorized product box during the initial animation,

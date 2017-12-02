@@ -33,8 +33,8 @@ Texture mode
 
    RGB
       Uses the color components directly as the force vector components in the color encoded directions.
-      You need an RGB texture for this, e.g. an image or a colorband.
-      So a *Blend* texture without a colorband would not suffice.
+      You need an RGB texture for this, e.g. an image or a color ramp.
+      So a *Blend* texture without a color ramp would not suffice.
    Gradient
       Calculates the force vector as the 3D-gradient of the intensity (grayscale) of the texture.
       The gradient vector always points to the direction of increasing brightness.
@@ -64,7 +64,7 @@ Examples
 
 - A single colored texture (0.5, 0.0, 0.5) creates a force in the direction of the positive Y-axis,
   e.g. hair is orientated to the Y-axis.
-- A blend texture with colorband can be used to created a force "plane". E.g. on the left side (0.5, 0.5, 0.5),
+- A blend texture with color ramp can be used to created a force "plane". E.g. on the left side (0.5, 0.5, 0.5),
   on the right side (1.0, 0.5, 0.5) you have a force plane perpendicular to XY (i.e. parallel to Z).
   If you use an object for the coordinates, you can use the object to push particles around.
 - An animated wood texture can be used to create a wave like motion.

@@ -16,7 +16,7 @@ View Menu
 ---------
 
 Fit preview in window :kbd:`Home`
-  Will resize the preview so that it fits in the window.
+   Will resize the preview so that it fits in the window.
 Zoom 1:1 :kbd:`Numpad1`
    Will resize the preview to an 1:1 scale (actual size).
 Safe Areas

@@ -153,12 +153,12 @@ Use Gradient
 
    Mode
       Pressure
-         Will choose a gradient color from the color band according to the stylus pressure.
+         Will choose a gradient color from the color ramp according to the stylus pressure.
       Clamp
          Will alter the color automatically by the distance covered by the brush and as specified.
-         by *Gradient spacing*. With Clamp it uses the last color of the color band after the specified.
+         by *Gradient spacing*. With Clamp it uses the last color of the color ramp after the specified.
       Repeat
-         Similar to *Clamp*. After the last color it resets the color to the first color in the color band and
+         Similar to *Clamp*. After the last color it resets the color to the first color in the color ramp and
          repeating the pattern.
    Gradient Fill Mode
       Linear, Radial

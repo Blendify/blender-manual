@@ -237,9 +237,8 @@ Sensor
 Name
    Toggle name display on and off in camera view.
 Size
-   Size of the camera icon in the 3D View. This setting has no effect on the render output of a camera,
-   and is only a cosmetic setting.
-   The camera icon can also be scaled using the standard Scale :kbd:`S` transform key.
+   Size of the camera visualization in the 3D View. This setting has **no** effect on the render output of a camera.
+   The camera visualization can also be scaled using the standard Scale :kbd:`S` transform key.
 Passepartout
    This option darkens the area outside of the camera's field of view.
 

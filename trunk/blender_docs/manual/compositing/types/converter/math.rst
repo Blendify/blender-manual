@@ -148,7 +148,7 @@ which tells how far apart each quantified value is from the other.
 So, to get good even shading,
 we want to take values that are 0.16 or less and map them to 0.0;
 values between 0.16 and 0.33 get fixed to 0.2;
-color band values between 0.33 and 0.5 get quantized to 0.4,
+color values between 0.33 and 0.5 get quantized to 0.4,
 and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 
 .. note:: Function f(x)

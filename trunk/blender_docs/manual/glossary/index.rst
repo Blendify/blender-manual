@@ -762,7 +762,7 @@ This page lists definitions for terms used in Blender and this manual.
       Vertex groups are useful for limiting operations to specific areas of a mesh.
 
    Voxel
-      A cubicle 3D equivalent to the square 2D pixel.
+      A cubic 3D equivalent to the square 2D pixel.
       The name is a combination of the terms "Volumetric" and ":term:`Pixel <pixel>`".
       Used to store smoke and fire data from physics simulations.
 

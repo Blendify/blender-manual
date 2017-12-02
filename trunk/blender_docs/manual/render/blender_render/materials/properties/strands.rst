@@ -87,7 +87,7 @@ Use Tangent Shading
 Shape
    This slider allows you to control the interpolation.
    Default (0.0) is a linear interpolation between *Root* and *Tip*.
-   A negative value will make the strand narrower (spiky), a positive value will make it fatter.
+   A negative value will make the strand narrower (spiky), a positive value will make it thicker.
 
    .. _fig-bi-material-shadow-shapes:
 
