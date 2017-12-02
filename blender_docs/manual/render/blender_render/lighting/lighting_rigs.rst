@@ -113,9 +113,8 @@ specular flare is that bright spot that is off center above midline on the spher
 Use this rig to give even illumination of a scene, where there is no main focus.
 The *Hemi*\ 's will light up background objects and props,
 so *Environment Lighting* is not that important.
-At the opposite end of the lighting spectrum, two narrow *Spot* lights at higher
-power with a hard edge gives a "This is the Police, come out with your hands up" kind of look,
-as if the subject is caught in the crossfire.
+At the opposite end of the lighting spectrum are two narrow *Spot* lights at higher
+power creating shadows with a hard edge like from a searchlight.
 
 
 Three-Point Rigs
@@ -231,8 +230,8 @@ so there is light to come through the objects to the camera.
 
 Another spot for the fill light is shining up onto the main actor's face,
 illuminating the underside of his chin and neck.
-This gets rid of a sometimes ugly shadow under the chin, which if not corrected,
-can make the actor look fat or like they have a double chin; otherwise distracting.
+This gets rid of a shadow under the chin, which if not corrected,
+can make the actor be portrait unflatteringly, like they have a double chin or be otherwise distracting.
 It evens out the lighting of the face.
 
 

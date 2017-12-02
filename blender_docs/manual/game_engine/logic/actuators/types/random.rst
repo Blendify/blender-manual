@@ -54,9 +54,9 @@ Int uniform
 Int constant
    Returns a constant value specified by the *Value* field.
 Bool Bernoulli
-   Returns a random distribution using the `Bernoulli distribution
-   <https://en.wikipedia.org/wiki/Bernoulli_distribution>`__ with specified ratio of TRUE pulses.
-   This ratio is calcualted by the *Chance* value.
+   Returns a random distribution using
+   the `Bernoulli distribution <https://en.wikipedia.org/wiki/Bernoulli_distribution>`__
+   with specified ratio of ``TRUE`` pulses. This ratio is calculated by the *Chance* value.
 Bool uniform
    A 50/50 chance of obtaining True/False.
 Bool constant

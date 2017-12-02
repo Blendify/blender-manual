@@ -42,7 +42,7 @@ Render Steps
 Smooth Shading
    Output faces with smooth shading rather than flat shading.
    The smooth/flat shading of the input geometry is not preserved.
-Calc Order
+Calculation Order
    Order of edges is calculated to avoid problems with normals and shading. Only needed for meshes, not curves.
 Flip
    Flip normals direction.

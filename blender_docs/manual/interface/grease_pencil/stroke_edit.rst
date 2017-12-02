@@ -131,7 +131,7 @@ To Sphere :kbd:`Shift-Alt-S`
 Arrange Strokes
    Arranges the selection of strokes up/down in the drawing order of the active layer.
 
-   Bring Froward, Send Backward, Bring to Front, Send to Back
+   Bring Forward, Send Backward, Bring to Front, Send to Back
 Move to Color
    Sets the active color as the new color to all selected strokes.
 

@@ -98,7 +98,7 @@ View Menu
 ---------
 
 Realtime Updates
-   When transforming keyframes, changes to the animation data are flushed to other views.
+   When transforming keyframes, changes to the animation data are propagated to other views.
 Show Cursor
    ToDo.
 Show Sliders

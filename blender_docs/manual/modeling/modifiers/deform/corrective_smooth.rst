@@ -56,10 +56,10 @@ Pin Boundaries
 Rest Source
    Select the source for reference vertex positions that defines the undeformed state.
 
-   Original Coords
+   Original Coordinates
       Use the original input vertex positions.
       This relies on the original mesh having the same number of vertices as the original mesh.
-   Bind Coords
+   Bind Coordinates
       Optionally you may bind the modifier to a specific state.
       This requires that there are constructive modifiers such as Subdivision Surface or Mirror
       being applied before this modifier in the stack.

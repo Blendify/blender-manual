@@ -21,7 +21,7 @@ Add ``+``
 Delete ``-``
    Deletes the selected color-stop from the list.
 Flip ``<->``
-   Flips the color band, inverting the values of the custom weight paint range.
+   Flips the gradient, inverting the values of the custom weight paint range.
 Color Mode
    Selection of the :term:`color space` used for interpolation.
 
