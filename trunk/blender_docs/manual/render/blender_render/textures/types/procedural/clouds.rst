@@ -17,7 +17,7 @@ Clouds, Fire, Smoke. Well-suited to be used as a Bump map, giving an overall irr
 Options
 =======
 
-Greyscale
+Grayscale
    The standard noise, gives an intensity.
 Color
    The noise gives an RGB value.

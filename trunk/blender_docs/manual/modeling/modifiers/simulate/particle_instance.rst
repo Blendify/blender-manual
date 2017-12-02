@@ -223,7 +223,7 @@ Below is a screenshot showing the effect of the *Path* button on hair:
 
    Strands when they are generated instantly die when created so for the *Path* button
    to be of any use, you must also have the *Dead* button activated.
-   Otherwise the path a mesh took will not be visible!
+   Otherwise the path a mesh has taken will not be visible!
 
 .. seealso::
 

@@ -170,7 +170,7 @@ When you see an image that you think might be yours,
 use the node map below to compare it to your stock image (pre-watermarked original).
 In this map, the Mix node is set to Difference,
 and the Map Value node amplifies any difference. The result is routed to a viewer,
-and you can see how the original mark stands out, clear as a bell:
+and you can see how the original mark clearly stands out:
 
 .. figure:: /images/compositing_types_color_mix_watermark-decode.png
    :width: 700px

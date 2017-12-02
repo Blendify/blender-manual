@@ -13,7 +13,7 @@ The list below includes all menu entries discussed in *other* sections of the ma
 Show all Layers
    Makes all :doc:`layers </editors/3dview/object/properties/relations/layers>` visible.
 Play Back Animation
-   Plays back the :doc:`animation </animation/index>` from the current frame.
+   :doc:`Plays back </editors/timeline>` the animation from the current frame.
 Duplicate Area in New Window
    Clones the current :doc:`area </interface/window_system/areas>` (3D View) in a new window.
 Toggle Maximized Area

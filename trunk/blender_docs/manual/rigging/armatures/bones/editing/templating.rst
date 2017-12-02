@@ -177,7 +177,7 @@ Template
 
 Side and Number text fields, *auto* button
    These control how the new bones are named. By default,
-   they just take the same names as the originals from the template, except for the final number,
+   they just take the same names as the original ones from the template, except for the final number,
    increased as needed. However, if the template bones have "&s" somewhere in their name,
    this "placeholder" will be replaced in the "templated" bones' name by the content of the *Side* text field.
    Similarly, a "&n" placeholder will be replaced by the *Number* field content.

@@ -37,7 +37,7 @@ Lifetime
    The lifespan (in frames) of the particles.
 Random
    A random variation of the lifetime of a given particle.
-   The shortest possible lifetime is *Lifetime* × (1 - *Rand*).
+   The shortest possible lifetime is *Lifetime* × (1 - *Random*).
    Values above 1.0 are not allowed.
    For example with the default *Lifetime* value of 50 a *Random* setting of 0.5
    will give you particles with lives ranging from 50 frames to :math:`50 × (1.0 - 0.5) = 25`

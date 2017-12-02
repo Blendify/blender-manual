@@ -49,7 +49,7 @@ Orientation Axis
 Phase
    Initial rotation phase.
 Random
-   Rand allows a random variation of the Phase.
+   Adds a random variation to the *Phase*.
 
 
 Angular Velocity
@@ -70,6 +70,7 @@ Axis
       If you use a Curve Guide and want the particles to follow the curve,
       you have to set Angular Velocity to Spin and leave the rotation on Constant (i.e.
       do not turn on Dynamic). Curve Follow does not work for particles.
+
 Factor
    The magnitude of angular velocity.
 

@@ -135,7 +135,7 @@ Set Preview Range :kbd:`P`
    Interactively define frame range used for playback.
    Allow you to define a temporary preview range to use for the :kbd:`Alt-A` realtime playback
    (this is the same thing as the *Playback Range* option of the
-   :ref:`Tmeline editor header <animation-editors-timeline-headercontrols>`).
+   :ref:`Timeline editor header <animation-editors-timeline-headercontrols>`).
 Clear Preview Range :kbd:`Alt-P`
    Clears the preview range.
 Auto-Set Preview Range :kbd:`Ctrl-Alt-P`

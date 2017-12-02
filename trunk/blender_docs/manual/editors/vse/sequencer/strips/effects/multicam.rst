@@ -41,15 +41,15 @@ Workflow
 
       Multi camera editing setup.
 
-#. Now select the multicam strip, if you take a look at the strip options (Properties region),
-   you will notice, that multicam is a rather simple effect strip:
+#. Now select the Multicam strip, if you take a look at the strip options (Properties region),
+   you will notice, that Multicam is a rather simple effect strip:
    It just takes a selected channel as its input. That is all.
    The magic comes with the convenient keyboard layout.
-#. When you select the multicam strip, the keys 1-9 are mapped to the cut buttons.
-   So, select the multicam strip and start playback and press the keys
+#. When you select the Multicam strip, the keys :kbd:`1-9` are mapped to the cut buttons.
+   So, select the Multicam strip and start playback and press the keys
    for the correct input while watching the individual cameras.
-#. You will end up with a small multicam selector strip for every cut.
+#. You will end up with a small Multicam selector strip for every cut.
 
 In reality, it boils down to: watch a few seconds to see, what is coming,
 watch it again and do a rough cut using the number keys,
-do some fine tuning by selecting the outer handles of two neighboring multicam for A/B rolling.
+do some fine tuning by selecting the outer handles of two neighboring Multicam for A/B rolling.

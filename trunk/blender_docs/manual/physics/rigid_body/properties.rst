@@ -42,7 +42,7 @@ Mass
 
    Calculate Mass
       Automatically calculate mass values for Rigid Body Objects based on volume.
-      There are many useful presets available from the menu, patching real-world objects.
+      There are many useful presets available from the menu, listing real-world objects.
 
       .. note::
 

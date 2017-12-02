@@ -351,7 +351,7 @@ Example of the Bridge tool between edge loops with different numbers of vertices
 
           Bridge Result.
 
-Example using the Bridge tool to punch holes in face selections and connect them.
+Example using the Bridge tool to cut holes in face selections and connect them.
 
 .. list-table::
 

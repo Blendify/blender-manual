@@ -27,8 +27,8 @@ vertices together.
 This way you can simulate the shapes that an object would take on in reality if it had volume,
 was filled with something, and was acted on by real forces.
 
-Soft Bodies can interact with other objects trough *Collision*. They can interact with themselves
-trough *Self Collision*.
+Soft Bodies can interact with other objects through *Collision*.
+They can interact with themselves through *Self Collision*.
 
 The result of the Soft Body simulation can be converted to a static object.
 You can also *bake edit* the simulation, i.e.

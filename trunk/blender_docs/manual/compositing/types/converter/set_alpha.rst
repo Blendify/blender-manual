@@ -68,7 +68,7 @@ The Set Alpha node does not need an input image; instead, the flat (shadeless) b
 The Set Alpha Node uses the input factor and color to create a black image that has an alpha
 set which goes from 0.00 to 1.00 over 60 frames, or completely transparent to completely opaque.
 Think of alpha as a multiplier for how vivid you can see that pixel.
-These two images are combined by our trusty Alpha Over node completely (a *Factor* of 1.00)
+These two images are combined by the Alpha Over node completely (a *Factor* of 1.00)
 to produce the composite image. The Set Alpha node will thus, depending on the frame being rendered,
 produce a black image that has some degree of transparency.
 Setup and Animate, and you have an image sequence that fades to black over a 2-second period.
@@ -97,7 +97,7 @@ use the Set Alpha node with the Time node as shown below.
 
 In the above example, a Time curve provides the Alpha value to the input socket.
 The current Render Layer node, which has the title in view, provides the image. As before,
-the trusty Alpha Over node mixes (using the alpha values)
+the Alpha Over node mixes (using the alpha values)
 the background swirl and the alpha title to produce the composite image.
 Notice the *Convert Premultiplied* -- checkbox is **not** enabled; this produces a composite
 where the title lets the background image show through where even the background image is

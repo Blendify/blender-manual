@@ -45,7 +45,7 @@ Fill
    Fill works best on convex shapes, unless you are using *High Quality Fill* (see below).
 
 Volumetric Strokes
-   An alternative drawing technique by drawing strokes as a series of filled screen-aligned discs.
+   An alternative drawing technique by drawing strokes as a series of filled screen-aligned disks.
    Get best results with partial opacity and large stroke widths.
 High Quality Fill
    Uses a better fill algorithm that works better for concave drawings.

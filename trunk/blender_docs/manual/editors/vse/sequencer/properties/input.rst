@@ -21,7 +21,7 @@ Path
    A text field that lets you edit/update the path of the file used by a strip.
    When you moved the files, it avoids having to delete and re-create the strip.
 File
-   Same than before, but in case you renamed the source file, you can retreive it (or change it).
+   Same than before, but in case you renamed the source file, you can retrieve it (or change it).
 Color Space
    To specify the color space of the source file.
 Alpha mode

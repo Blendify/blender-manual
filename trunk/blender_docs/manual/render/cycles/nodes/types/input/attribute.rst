@@ -42,7 +42,7 @@ Name
 
    .. seealso::
 
-      For a full list of options see `This Tread <https://blender.stackexchange.com/questions/14262#14267>`__
+      For a full list of options see `This Thread <https://blender.stackexchange.com/questions/14262#14267>`__
       on the Blender Stack Exchange.
 
 

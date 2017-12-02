@@ -61,7 +61,7 @@ If you are in doubt about functionality that you wish to document,
 you should pose your questions to the Blender developers responsible for that area or ask at the unofficial user
 support channel at ``#blender`` :ref:`IRC channel <irc-channels>`.
 
-Blender has its own system of module owners with developer and artist members who are
+Blender itself has a system of module owners with developer and artist members who are
 responsible for the design and maintenance of the assigned Blender areas.
 See the `module owners page <https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List>`__
 for more information.

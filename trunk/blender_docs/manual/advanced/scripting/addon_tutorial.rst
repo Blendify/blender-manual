@@ -156,7 +156,7 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
        bpy.utils.unregister_class(ObjectMoveX)
 
 
-   # This allows you to run the script directly from Blenders Text editor
+   # This allows you to run the script directly from Blender's Text editor
    # to test the add-on without having to install it.
    if __name__ == "__main__":
        register()
@@ -415,7 +415,7 @@ For docs on extending menus, see: :doc:`blender_api:bpy.types.Menu`.
 Keymap
 ^^^^^^
 
-In Blender, add-ons have their own keymaps so as not to interfere with Blenders built in key-maps.
+In Blender, add-ons have their own keymaps so as not to interfere with Blender's built in key-maps.
 
 In the example below, a new object-mode :class:`blender_api:bpy.types.KeyMap` is added,
 then a :class:`blender_api:bpy.types.KeyMapItem` is added to the key-map which references

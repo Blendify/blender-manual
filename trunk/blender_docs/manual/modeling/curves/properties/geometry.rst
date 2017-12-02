@@ -197,11 +197,11 @@ Now return to the Object tab,
 and edit the first curve's *Taper Object* field in the Geometry panel to reference the new taper curve
 which we called "TaperCurve".
 When you hit enter the taper curve is applied immediately,
-with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
+with the results shown in Fig. :ref:`fig-curves-extrude-taper-curve`.
 
 .. list-table::
 
-   * - .. _fig-curves-extrude-taber-curve:
+   * - .. _fig-curves-extrude-taper-curve:
 
        .. figure:: /images/modeling_curves_properties_geometry_extrude-bevel-object.png
           :width: 320px
@@ -219,33 +219,33 @@ If the taper curve went below the local Y axis the pipe's inside would become th
 which would lead to rendering artifacts.
 Of course as an artist that may be what you are looking for!
 
-.. _fig-curves-extrude-taber1:
+.. _fig-curves-extrude-taper1:
 
 .. figure:: /images/modeling_curves_properties_geometry_extrude-taper-curve-closer.png
 
    Taper example 1.
 
-In Fig. :ref:`fig-curves-extrude-taber1`
+In Fig. :ref:`fig-curves-extrude-taper1`
 you can clearly see the effect the left taper curve has on the right curve object. Here the
 left taper curve is closer to the object origin and that results in a smaller curve object to
 the right.
 
-.. _fig-curves-extrude-taber2:
+.. _fig-curves-extrude-taper2:
 
 .. figure:: /images/modeling_curves_properties_geometry_extrude-taper-curve-away.png
 
    Taper example 2.
 
-In Fig. :ref:`fig-curves-extrude-taber2` a control point in the taper curve to the left is moved away from the
+In Fig. :ref:`fig-curves-extrude-taper2` a control point in the taper curve to the left is moved away from the
 origin and that gives a wider result to the curve object on the right.
 
-.. _fig-curves-extrude-taber3:
+.. _fig-curves-extrude-taper3:
 
 .. figure:: /images/modeling_curves_properties_geometry_extrude-taper-curve-irregular.png
 
    Taper example 3.
 
-In Fig. :ref:`fig-curves-extrude-taber3` we see the use of a more irregular taper curve applied to a curve circle.
+In Fig. :ref:`fig-curves-extrude-taper3` we see the use of a more irregular taper curve applied to a curve circle.
 
 .. figure:: /images/modeling_curves_properties_geometry_extrude-bevel-curve-tilt.png
 

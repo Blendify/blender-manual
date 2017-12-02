@@ -206,7 +206,7 @@ A gesture can affect several strokes at once.
 
 There is no direct way to cancel a gesture once you have started "drawing" it.
 So the best thing to do, if you change your mind (or made a "false move"),
-is to continue to draw until you get a disgusting scribble,
+is to continue to draw until you get a chaotic scribble,
 crossing your stroke several times.
 In short, something that the gesture system would never recognize!
 

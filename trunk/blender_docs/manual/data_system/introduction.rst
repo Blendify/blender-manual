@@ -36,7 +36,7 @@ When the blend-file is saved, a copy of that image file is put inside the blend-
 The blend-file can then be copied or emailed anywhere, and the image texture moves with it.
 
 You know that an image texture is packed, because you will see
-a little "Christmas present gift box" displayed in the header.
+a little gift box icon displayed in the header.
 
 
 Unpack Data

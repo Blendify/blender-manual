@@ -1,4 +1,4 @@
-.. This page includes some overly detailed & spesific infomration should be simplified.
+.. This page includes some overly detailed & specific information should be simplified.
    - ideasman42
 
 **************************
@@ -65,7 +65,7 @@ Blender Settings
 Scene and Specific Objects
 ==========================
 
-#. Remove lamps, or move them to unrendered layers, or tie them to layers.
+#. Remove lamps, or move them to unrendered layers, or group them into layers.
 #. Turn off some lamp's shadows, using only one or two main sun lamps to cast shadows.
    A few "shadows only" lights will render faster than every light having shadows on.
 #. Use Buffer Shadows rather than ray-traced Shadows.
