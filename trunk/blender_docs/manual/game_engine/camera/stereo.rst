@@ -17,7 +17,7 @@ Stereo Settings
 
 .. figure:: /images/game-engine_camera_stereo_panel.png
 
-   Sterea Settings.
+   Stereo Settings.
 
 Stereo Mode
    Specifies the way in which the left-eye image and the right-eye image pixels are put together

@@ -54,7 +54,7 @@ Many other data types, cameras, curves, and materials for example,
 must be linked to an object before they become visible.
 
 Newly added Group types are available in :menuselection:`Add --> Group Instances` in 3D View,
-or for NodeTree groups, the same menu in the Node Editor.
+or for Node Tree groups, the same menu in the Node Editor.
 
 Look in the Outliner, with display mode set to *blend-file*, to see all your linked and appended data-blocks.
 :kbd:`Ctrl-LMB` on a file name allows you to redirect a link to another file.

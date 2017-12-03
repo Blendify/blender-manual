@@ -12,7 +12,7 @@ Channels Region
 
 The channels region is used to select and manage the curves for the Graph editor.
 This part shows the objects and their animation data hierarchy each as headers.
-Each level can be expended/collapsed by the small arrow to the left of its header.
+Each level can be expanded/collapsed by the small arrow to the left of its header.
 
 - Scenes, Objects (dark blue)
 - :doc:`Actions </animation/actions>`, :doc:`Shape keys </animation/shape_keys/index>`, etc. (light blue)

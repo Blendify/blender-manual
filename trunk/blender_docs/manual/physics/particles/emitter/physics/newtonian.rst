@@ -50,7 +50,7 @@ Euler
    If no dampening is used, particles get more and more energy over time.
    For example, bouncing particles will bounce higher and higher each time.
    Should not be confused with "Backward Euler" (not implemented) which has the opposite feature,
-   energies decrease over time, even with no dampening.
+   the energy decrease over time, even with no dampening.
    Use this integrator for short simulations or simulations with a lot of
    dampening where speedy calculations is more important than accuracy.
 Verlet

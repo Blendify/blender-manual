@@ -122,7 +122,7 @@ Toggle Cyclic
 Bend :kbd:`Shift-W`
    Bends selected item between the 3D cursor and the mouse.
 Mirror :kbd:`Ctrl-M`
-   Mirrors selected strokes along one or more axises.
+   Mirrors selected strokes along one or more axes.
 Shear :kbd:`Shift-Ctrl-Alt-S`
    Shears selected items along the horizontal screen axis.
 To Sphere :kbd:`Shift-Alt-S`

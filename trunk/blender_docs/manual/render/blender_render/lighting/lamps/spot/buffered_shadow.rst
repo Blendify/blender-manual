@@ -123,7 +123,7 @@ Filter Type
 
    They are closely related to the *Samples* number button,
    as when this setting is set to 1, shadow filtering is disabled,
-   so none of these buttons will have any effect what soever.
+   so none of these buttons will have any effect whatsoever.
 
    Box
       The buffered shadows will be anti-aliased using the "box" filtering method.

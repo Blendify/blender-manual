@@ -46,7 +46,7 @@ Flatten/Contrast :kbd:`Shift-T`
 Grab :kbd:`G`
    Used to drag a group of points around. Unlike the other brushes,
    *Grab* does not modify different points as the brush is dragged across the model.
-   Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
+   Instead, *Grab* selects a group of vertices on mouse-down, and pulls them to follow the mouse.
    The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
    except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
 Inflate/Deflate :kbd:`I`
@@ -66,7 +66,7 @@ Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as grayscale.
    I.e the darker a masked area is, the less effect sculpting on it will have.
-   See also the options of the :ref:`scupt-mask-menu` menu.
+   See also the options of the :ref:`sculpt-mask-menu` menu.
 
    Mask Tool
       The mask brush has two modes:

@@ -118,8 +118,8 @@ Shadow
    To use this pass, mix multiply it with the Diffuse pass.
 Emit
    Emission pass.
-AO
-   Ambient Occlusion. Make sure it is turned on in your environment and that Ray Tracing is enabled.
+Ambient Occlusion
+   Make sure it is turned on in your environment and that Ray Tracing is enabled.
 Environment
    Environment lighting.
 Indirect
@@ -179,7 +179,7 @@ On the left is the Render Layer input node:
 it refers to one of the Render Layers that we have defined for our scene. In the scene,
 we have a reflective ball on a pedestal standing in front of a backdrop. Everything
 (except the ball) is gray. We use a standard four-light rig: backfill placed high,
-two sidefills at ground level, and a key light above and to the left of camera. Suzanne,
+two side-fills at ground level, and a key light above and to the left of camera. Suzanne,
 a monkey-shaped geometry, is standing in front of the key light,
 so her shadow is cast into the scene on the floor.
 The ball casts shadows onto the backdrop and floor.

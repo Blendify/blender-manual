@@ -34,7 +34,7 @@ Hide Masked
    ToDo 2.64.
 
 
-.. _scupt-mask-menu:
+.. _sculpt-mask-menu:
 
 Mask
 ====

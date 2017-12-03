@@ -35,7 +35,7 @@ Source Object
 Max Distance
    When the icon "finger" button to the right is enabled, this is the maximum distance
    between source and destination to get a successful mapping. If a destination item cannot find
-   a source one withing that range, then it will get no transfered data.
+   a source one within that range, then it will get no transfered data.
 
    This allows to transfer a small sub-detailed mesh onto a more complete one
    (e.g. from a "hand" mesh towards a "full body" one).

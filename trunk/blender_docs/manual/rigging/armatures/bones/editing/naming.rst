@@ -49,7 +49,7 @@ This will enable you to use some tools that will probably save you time and effo
      See below for a list of valid separators.
      Pick one and stick to it as close as possible when rigging; it will pay off.
 
-   Examples of valid saparators:
+   Examples of valid separators:
 
    - (nothing): handLeft --> handRight
    - ``_`` (underscore): hand\ **_**\L --> hand\ **_**\R

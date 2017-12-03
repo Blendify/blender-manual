@@ -50,7 +50,7 @@ You can apply one of the following in *Edit Mode*:
    Adjusting the *smooth* parameter after using the *subdivide*
    tool results in a more organic shape. This is similar to using the Subdivision Surface Modifier.
 :doc:`Bevel </modeling/meshes/editing/introduction>`
-   This Bevels selected edged, causing sharp edges to be flattened.
+   This Bevels selected edges, causing sharp edges to be flattened.
 
 
 Modifiers

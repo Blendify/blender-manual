@@ -193,7 +193,7 @@ Since a layout is a bunch of arranged UV Maps, and a UV Map maps many mesh faces
 a face can therefore only have one UV Texture image,
 and the UV coordinates for that face must fit entirely on the image.
 If you want a face to have multiple images, split the face into parts,
-and assign each part its own image. *(Or* you can get fancy with Nodes,
+and assign each part its own image. (*Or* you can get fancy with Nodes,
 but that is another story ...).
 
 
@@ -270,6 +270,6 @@ To overlay multiple UV images, you have several options:
   and the outer image the overlaid image with a material alpha less than one (1.0).
 - Use the :doc:`Material nodes </render/blender_render/materials/nodes/index>`
   to combine the two images via the Alpha Over or Mix node,
-  thus creating a third noded material that you use as the material for the face.
+  thus creating a third material with nodes that you use as the material for the face.
   Using this approach, you will not have to UV map;
   simply assign the material to the face using the Multiple Materials.

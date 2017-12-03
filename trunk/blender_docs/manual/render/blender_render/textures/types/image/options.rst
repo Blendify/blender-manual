@@ -54,7 +54,7 @@ Alpha
    Use
       Works with PNG and TGA files since they can save transparency information (Foreground Image with Use Alpha).
       Where the alpha value in the image is less than 1.0,
-      the object will be partially transparent and stuff behind it will show.
+      the object will be partially transparent and things behind it will be visible.
    Calculate
       Calculate an alpha based on the RGB values of the Image.
       Black (0, 0, 0) is transparent, white (1, 1, 1) opaque.
@@ -127,7 +127,7 @@ Filter
       Texture filter to use for image sampling.
       Just like a *pixel* represents a *pic* ture *el* ement, a *texel* represents a *tex* ture *el* ement.
       When a texture (2D texture space) is mapped onto a 3D model (3D model space),
-      different algorithms can be used to compute a value for each pixel based on samplings from several texels.
+      different algorithms can be used to compute a value for each pixel based on samples from several texels.
 
       Box
          A fast and simple nearest-neighbor interpolation known as Monte Carlo integration

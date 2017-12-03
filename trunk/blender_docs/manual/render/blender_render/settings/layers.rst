@@ -23,8 +23,8 @@ Include Options
 Each render layer has its own set of features which can be enabled/disabled for the whole layer.
 This could be used to save render time and gives control over the passes:
 
-Zmask
-   Actives masking with the selected Mask Layers. Only render what is in *front* of the solid Z values.
+Z-mask
+   Activates masking with the selected Mask Layers. Only render what is in *front* of the solid Z values.
 
    Negate
       Only render what is *behind* the solid Z values.
@@ -35,9 +35,9 @@ Solid
    Solid faces are rendered. All normal meshes are solid faced.
 Halo
    Halo materials are rendered.
-ZTransp
-   Transparency may be Z-based or Ray-traced. If Z-based,
-   enabling *Ztransp* renders transparent areas with the z-value of what is behind the transparent area.
+Z-Transparency
+   Transparency may be Z-based or Ray-traced. If Z-based, enabling *Z-transparency* renders
+   transparent areas with the z-value of what is behind the transparent area.
 Sky
    Turning on Sky renders the sky, as defined in your material world settings. Otherwise,
    a black alpha transparent background is rendered.
