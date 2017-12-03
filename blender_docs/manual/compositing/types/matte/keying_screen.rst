@@ -66,7 +66,7 @@ That can result in a bad matte.
    and some parts of the gun in the foreground are transparent.
 
 If you increase the tolerances on the keying node, it will accept
-mores shades of green to mask out. But it may also incorrectly mask out more of
+more shades of green to mask out. But it may also incorrectly mask out more of
 the foreground.
 
 Instead of increasing the range of accepted shades to be masked out, the *Keying Screen*

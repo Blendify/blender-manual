@@ -69,10 +69,10 @@ Pattern
    Random sampling pattern used by the integrator.
 
    Sobol
-      Uses a Sobol pattern to decide the random sapling pattern used by the integrator.
+      Uses a Sobol pattern to decide the random sampling pattern used by the integrator.
       See `Sobol sequence <https://en.wikipedia.org/wiki/Sobol_sequence>`__ on Wikipedia for more information.
    Correlated Multi-Jitter
-      Uses a Correlated Multi-Jitter pattern to decide the random sapling pattern used by the integrator. See
+      Uses a Correlated Multi-Jitter pattern to decide the random sampling pattern used by the integrator. See
       `this Pixar paper <http://graphics.pixar.com/library/MultiJitteredSampling/paper.pdf>`__ for more information.
 
 .. _render-cycles-integrator-layer-samples:

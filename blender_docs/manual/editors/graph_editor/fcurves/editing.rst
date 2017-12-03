@@ -13,8 +13,8 @@ for example:
 - :kbd:`S` to scale
 - :kbd:`B` for border select/deselect
 
-And of course you can lock the transformation along the X (time frame) or Y
-(value) axises by pressing :kbd:`X` or :kbd:`Y` during transformation.
+And of course you can lock the transformation along the X axis (time frame) or
+Y axis (value) by pressing :kbd:`X` or :kbd:`Y` during transformation.
 
 For precise control of the keyframe position and value,
 you can set values in the *Active Keyframe* of the Properties Region.

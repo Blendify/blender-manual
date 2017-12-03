@@ -21,7 +21,7 @@ Active Vertex Group
    A :ref:`ui-list-view`.
 
    Lock
-      Locks the group from being edible. You can only rename or delete the group.
+      Locks the group from being editable. You can only rename or delete the group.
 
    Add ``+``
       Create an empty vertex group.

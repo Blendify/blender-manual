@@ -50,8 +50,8 @@ Angle
    Preset Brushes.
 
 
-Stoke Quality
--------------
+Stroke Quality
+--------------
 
 These settings are per-brush settings that are applied after each stroke is drawn
 (when converting from 2D/screen space coordinates to 3D/data space coordinates).

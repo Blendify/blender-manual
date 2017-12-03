@@ -57,8 +57,8 @@ Display
 
       .. note::
 
-         While alpha-images can be used, there is a known limitation with object draw order,
-         where alphas will not always draw on top of other objects when unselected.
+         While images with an alpha channel can be used, there is a known limitation with object draw order,
+         where alpha-images will not always be drawn on top of other objects when unselected.
 
    Size
       Controls the size of the empties visualization. This does not change its scale, but functions as an offset.

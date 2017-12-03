@@ -11,7 +11,7 @@ From the `Alembic home page <https://www.alembic.io/>`_:
    lighting and rendering scenes into rendered image data.
 
    Alembic is focused on efficiently storing the computed results of complex procedural geometric
-   constructions. It is very specifically NOT concerned with storing the complex dependency graph
+   constructions. It is very specifically **not** concerned with storing the complex dependency graph
    of procedural tools used to create the computed results. For example, Alembic will efficiently
    store the animated vertex positions and animated transforms that result from an arbitrarily
    complex animation and simulation process which could involve enveloping, corrective shapes,

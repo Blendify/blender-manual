@@ -30,7 +30,7 @@ Stamp Output
 
 .. rubric:: Enabled Metadata
 
-Stamping can include the following data.
+Stamping can include the following data:
 
 Time
    Includes the current scene time and render frame at ``HH:MM:SS.FF``

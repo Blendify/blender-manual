@@ -19,7 +19,7 @@ Options
 Pack
    This allows you to save the audio file into the blend-file.
 Caching
-   Caching loads a file into RAM and plays it from there, apposed to reading it for the hard drive.
+   Caching loads a file into RAM and plays it from there, instead of reading it for the hard drive.
 
 .. _sequencer-sound-waveform:
 

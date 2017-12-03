@@ -204,8 +204,8 @@ Y Subdivisions
 Monkey
 ======
 
-This is a gift from old NaN to the community and is seen as a programmer's joke or "Easter
-Egg". It creates a monkey's head once you press the *Monkey* button.
+This is a gift from old NaN to the community and is seen as a programmer's joke or
+"Easter Egg". It creates a monkey's head once you press the *Monkey* button.
 The Monkey's name is "Suzanne" and is Blender's mascot.
 Suzanne is very useful as a standard test mesh,
 much like the `Utah Tea Pot <https://en.wikipedia.org/wiki/Utah_teapot>`__
