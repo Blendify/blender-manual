@@ -76,6 +76,9 @@ of the image.
 E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
 its mirror copy will have UV coordinates of (0.7, 0.1).
 
+UV Offsets
+   ToDo 2.79 see `T47436 <https://developer.blender.org/T47436>`__.
+
 
 Further Options
 ---------------

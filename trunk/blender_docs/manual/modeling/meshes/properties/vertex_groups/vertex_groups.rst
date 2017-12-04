@@ -53,6 +53,8 @@ Active Vertex Group
          Remove all assigned vertices from the active Group. The group is made empty.
          Note that the vertices may still be assigned to other Vertex Groups of the Object.
          (not available for locked groups).
+      Delete All Unlocked Groups
+         Remove all Vertex Groups from the Object that are *not* locked.
       Delete All Groups
          Remove all Vertex Groups from the Object.
 

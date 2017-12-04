@@ -195,8 +195,13 @@ Source
       Operate between the selected and unselected geometry.
    Self Intersect
       Operate on the overlapping geometry of the mesh.
-Separate
-   Splits the geometry at the new edge.
+Separate Mode
+   All
+      Splits the geometry at the new edge.
+   Cut
+      Keep each side of the intersection separate without splitting the faces in half.
+   Merge
+      Merge all the geometry from the intersection.
 Merge Threshold
    *See Intersect (Boolean)*
 

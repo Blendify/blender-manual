@@ -27,7 +27,7 @@ Direction
    Can be one of the following:
 
    X, Y, Z
-      Displace along a local axis.
+      Displace along an axis.
    Normal
       Displace along the vertex normal.
    Custom Normal
@@ -38,6 +38,8 @@ Direction
       Displace along local XYZ axes individually using the RGB components of the texture
       (Red values displaced along the X-axis, Green along the Y, Blue along the Z).
       This is sometimes referred to as *Vector Displacement*.
+Space
+   With a direction set to X, Y, Z, or XYZ the modifier can either displace along local or global axes.
 
 Texture Coordinates
    The texture coordinate system to use when retrieving values from the texture for each vertex.
@@ -75,7 +77,6 @@ Texture Coordinates
 
    Global
       Take the texture coordinates from the global coordinate system.
-
    Local
       Take the texture coordinates from the object's local coordinate system.
 
