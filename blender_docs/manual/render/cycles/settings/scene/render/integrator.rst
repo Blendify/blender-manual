@@ -308,7 +308,7 @@ Shape
       Cylindrical segments between two points.
 
       Cull back-faces
-         Excludes strands emitted from the mesh back facing the camera.
+         Excludes strands emitted from the mesh backfacing the camera.
 
    Ribbons
       Are flat planes following the strand direction facing the camera.

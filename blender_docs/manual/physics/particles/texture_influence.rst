@@ -1,5 +1,5 @@
 .. https://developer.blender.org/T46363
-.. leaved out: Mapping Coordinates
+.. left out: Mapping Coordinates
 
 *****************
 Texture Influence

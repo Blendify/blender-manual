@@ -82,7 +82,8 @@ each extruded tip will produce *two new bones*, having the same name except for 
 (for left/right, see the :ref:`next page <armature-editing-naming-conventions>`).
 The "_L" bone behaves like the single one produced by the default extrusion --
 you can grab/rotate/scale it exactly the same way.
-The "_R" bone is its mirror counterpart (along the armature's local X axis), see Fig. :ref:`fig-rig-bone-mirror`.
+The "_R" bone is its mirror counterpart (along the armature's local X axis),
+see Fig. :ref:`fig-rig-bone-mirror`.
 
 .. important::
 

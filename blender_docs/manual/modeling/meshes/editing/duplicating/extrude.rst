@@ -58,7 +58,7 @@ The inner region of the selection gets moved unchanged with the extrusion.
 
           During extrude.
 
-     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-after-zaxiz.png
+     - .. figure:: /images/modeling_meshes_editing_duplicating_extrude_face-after-zaxis.png
           :width: 200px
 
           Set to Z axis.

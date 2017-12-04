@@ -19,7 +19,7 @@ shape keys, etc.
 You enter *Weight Paint Mode* from the Mode Menu :kbd:`Ctrl-Tab`.
 The selected Mesh Object is displayed slightly shaded with a rainbow color spectrum.
 The color visualizes the weights associated to each vertex in the active Vertex Group.
-By default blue means unweighted and Red means fully weighted.
+By default *blue* means unweighted and *red* means fully weighted.
 
 You assign weights to the vertices of the Object by painting on it with weight brushes.
 Starting to paint on a mesh automatically adds weights to the active Vertex Group

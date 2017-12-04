@@ -157,7 +157,7 @@ Auto Save
 =========
 
 Keep Session
-   Always saves the blend-file after quiting Blender and reloads it after re-starting Blender.
+   Always saves the blend-file after quitting Blender and reloads it after re-starting Blender.
 
 Auto Save Temporary Files
    Enable Auto Save (create a temporary file).

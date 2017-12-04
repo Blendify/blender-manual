@@ -42,7 +42,7 @@ Options included in more than one primitive are:
 
 Generate UVs
    Generates a default UV-unwrapping of new geometry.
-   This will be defined in the first UVLayer (which will get added if needed).
+   This will be defined in the first UV Layer (which will get added if needed).
    (available for plane, cube, circle, UV-/icosphere, tube and cone).
 Radius/Size, Align to View, Location, Rotation
    See :ref:`Common Object Options <object-common-options>`.

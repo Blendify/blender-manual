@@ -195,7 +195,7 @@ they appear behind transparent objects,
 they may have an arbitrary form and receive light and shadows.
 They are a bit more difficult to set up and take more render time and resources.
 
-Texturing billboards (including animated textures with alpha) is done by using uv coordinates
+Texturing billboards (including animated textures with alpha) is done by using UV coordinates
 that are generated automatically for them so they can take an arbitrary shape.
 This works well for animations, because the alignment of the billboards can be dynamic.
 The textures can be animated in several ways:

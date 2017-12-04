@@ -43,7 +43,7 @@ Mark Seam and Clear Seam
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam`
 
 Seams are a way to create separations, "islands", in UV maps.
-See the :ref:`UVTexturing section <editors-uv-image-index>` for more details.
+See the :ref:`UV Mapping section <editors-uv-image-index>` for more details.
 These operators set or unset this flag for selected edges.
 
 
@@ -202,7 +202,7 @@ Loop crosses itself
    A face cannot be adjacent to itself.
 Multiple edge loops
    The selected edges are not in the same edge loop, which means they do not have a common edge.
-   You can minimize this error by always selecting edges end to end or in a "Chain".
+   You can minimize this error by always selecting edges end to end or in a "chain".
    If you select multiple edges just make sure they are connected.
    This will decrease the possibility of getting looping errors.
 Border Edge
@@ -365,7 +365,7 @@ Example using the Bridge tool to cut holes in face selections and connect them.
 
           Bridge Result.
 
-Example showing how Bridge tool can detect multiple loops and loft them in one step.
+Example showing how Bridge tool can detect multiple loops and connect them in one step.
 
 .. list-table::
 

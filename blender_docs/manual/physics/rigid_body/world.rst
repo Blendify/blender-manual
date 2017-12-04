@@ -17,8 +17,8 @@ When you add Rigid Body physics on an object,
 primary there is created a group of objects with default "RigidBodyWorld" name.
 Rigid body objects automatically are added to this group when you add Rigid Body physics for them.
 
-You can be create several Rigid Body World groups and allocate
-there yours Rigid Body objects with *Groups* panel in *Object* tab.
+You can create several Rigid Body World groups and allocate
+the Rigid Body objects with the *Groups* panel in the *Object* tab.
 
 Rigid body objects and constraints are only taken into account by the simulation if they are in the groups specified
 in *Group* field of the *Rigid Body World* panel in the *Scene* tab.
@@ -43,7 +43,7 @@ Speed
    Can be used to speed up/slow down the simulation.
 Split Impulse
    Enable/disable reducing extra velocity that can build up when objects collide
-   (lowers simulation stability a little so use only when necessary).
+   (lowers the simulation stability a little so use only when necessary).
    Limits the force with which objects are separated on collision, generally produces nicer
    results, but makes the simulation less stable (especially when stacking many objects).
 Steps Per Second

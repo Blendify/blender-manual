@@ -90,8 +90,7 @@ SculptDraw :kbd:`X`
    Moves vertices inward or outward,
    based the average normal of the vertices contained within the drawn brush stroke.
 Smooth :kbd:`S`
-   As the name suggests,
-   eliminates irregularities in the area of the mesh within the brush's
+   As the name suggests, eliminates irregularities in the area of the mesh within the brush's
    influence by smoothing the positions of the vertices.
 Snake Hook :kbd:`K`
    Pulls vertices along with the movement of the brush to create long, snake-like forms.

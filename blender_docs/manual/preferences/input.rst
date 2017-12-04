@@ -234,7 +234,7 @@ just click on the *Restore* button at the top right of this keymap.
 
 .. tip::
 
-   Instead of deleting the default keymap to create yours,
+   Instead of deleting the default keymap to create your custom one,
    you can just add a new *Preset* for both the mouse and keyboard.
 
 
