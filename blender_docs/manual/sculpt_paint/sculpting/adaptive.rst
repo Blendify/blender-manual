@@ -36,7 +36,7 @@ Detail Type
       based on the brush size. You can increase and lower topology by simply resizing
       the brush itself. The detail size is based the size of the brush itself, where
       100% will create topology the size of the brush ring itself.
-Detail Size :kbd:`Shift-D`
+Detail Size/Percentage, Resolution  :kbd:`Shift-D`
    Each Detail Type's detail is set here. Depending on the Detail Type being used
    this property will rather show as a pixel count (px), or percentage.
 
