@@ -169,8 +169,6 @@ Cut (soft) at Frame
    | Menu:     :menuselection:`Strip --> Cut (soft) at Frame`
    | Hotkey:   :kbd:`K`
 
-.. While splicing two strips happens just by placing them finish-to-start,
-
 Cut the selected strip in two by pressing :kbd:`K` at the current frame.
 This will result in two strips of the same source, but resized to fit the original strip's length.
 You will still be able to resize them after.
@@ -192,10 +190,10 @@ Cut (hard) at Frame
    | Hotkey:   :kbd:`Shift-K`
 
 Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips,
-but this time you will not be able enlarge the resulting strips.
+however you will not be able to drag the end-points to show the frames past the cut of each resulting strip.
 
-You can still adjust the :ref:`duration (hard) <sequencer-duration-hard>` number buttons
-in the Strip Input panel.
+Although you can adjust the :ref:`duration (hard) <sequencer-duration-hard>`
+number buttons in the *Strip Input* panel.
 
 .. hint::
 
