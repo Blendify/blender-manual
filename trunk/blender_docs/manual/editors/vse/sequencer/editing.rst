@@ -176,36 +176,10 @@ This will result in two strips of the same source, but resized to fit the origin
 You will still be able to resize them after.
 Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
 
-.. note:: Note on the *Cut*
+.. hint::
 
-   When you cut a strip, you do not really make a cut like it cutting a real of film.
-   In fact, you make a copy of the strip: the end of the original one is "winded" to the cut point,
-   as with the beginning of the new copy.
-
-   For example, imagine that you have a strip of 50 frames,
-   and that you want to delete the first ten ones.
-   You have to go to frame 11, and press :kbd:`K`;
-   the cut divides your strip in two parts. You now can select the first small part
-   (frame 1 to frame 10), and delete it by pressing :kbd:`X`.
-
-   You might think that you have really erased the frames (1 to 10),
-   but there are still there, winded, as in a film reel, under your frame 11:
-   you just have deleted one of the two copies of your strip created by the cut.
-   And you can at any time get your lost frames back
-   (just :kbd:`RMB` click on the left arrow of the strip,
-   then :kbd:`G` grab it to the left to display the desired number of frames again (or to
-   the right to hide more frames -- this is another way to remove frames at the beginning/end of a strip!).
-
-   This is at the heart of nearly every editor solution, and that is quite handy!
-
-.. note:: Action Stops
-
-   When extending the start beyond the beginning or end after the ending,
-   keep in mind that only the last image copies, so when viewed, action will stop on that frame.
-   Start your transition (fade, cross) a little early while action is
-   still happening so that the stop action is not that noticeable.
-
-Change the length of an effect strip by changing the start/end frame of the origin strips.
+   This can be thought of as a quick way to duplicate the current strip,
+   adjusting the start/end frames to form two non overlapping strips showing the same content as before.
 
 
 Cut (hard) at Frame
@@ -219,8 +193,14 @@ Cut (hard) at Frame
 
 Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips,
 but this time you will not be able enlarge the resulting strips.
+
 You can still adjust the :ref:`duration (hard) <sequencer-duration-hard>` number buttons
 in the Strip Input panel.
+
+.. hint::
+
+   This can be thought of as a way to simulate splitting the video file in two parts at the cut-point,
+   replacing the current strip with each.
 
 
 Mute
