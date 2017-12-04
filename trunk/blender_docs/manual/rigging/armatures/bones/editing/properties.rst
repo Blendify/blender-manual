@@ -13,7 +13,7 @@ Properties
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
 
-Most bones' properties (excepted the transform ones) are regrouped in each bone's panels,
+Most bones' properties (except the transform ones) are regrouped in each bone's panels,
 in the *Bones* tab in *Edit Mode*. Let us detail them.
 
 Note that some of them are also available in the 3D Views,

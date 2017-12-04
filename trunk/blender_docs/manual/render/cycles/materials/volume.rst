@@ -139,5 +139,5 @@ Currently, the following are not supported:
 
 Not available on GPU:
 
-- Equi Angular/MIS Volume Sampling
+- Equiangular/MIS Volume Sampling
 - Volume Multi Light sampling

@@ -20,7 +20,7 @@ This page lists definitions for terms used in Blender and this manual.
       Area of the screen visible on most devices. Place content inside it to ensure it does not get cut off.
 
    Actuator
-      A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object or make a sound.
+      A :term:`logic brick` that acts like a muscle of a life-form. It can move the object or make a sound.
 
    Aliasing
       Rendering artifacts in the form of jagged lines.
@@ -196,7 +196,7 @@ This page lists definitions for terms used in Blender and this manual.
       A way of controlling one :term:`object` with data from another.
 
    Controller
-      A :term:`logic brick` that acts like the brain of a lifeform.
+      A :term:`logic brick` that acts like the brain of a life-form.
       It makes decisions to activate muscles (:term:`actuators <actuator>`),
       using either simple logic or complex Python scripts.
 
@@ -677,7 +677,7 @@ This page lists definitions for terms used in Blender and this manual.
       See also :term:`Display Referenced`.
 
    Sensor
-      A :term:`logic brick` that acts like a sense of a lifeform. It reacts to touch, vision, collision, etc.
+      A :term:`logic brick` that acts like a sense of a life-form. It reacts to touch, vision, collision, etc.
 
    Shading
       Process of altering the color of an object/surface in the 3D scene,

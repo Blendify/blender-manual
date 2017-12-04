@@ -122,7 +122,7 @@ Three-Point Rigs
 
 The standard three-point lighting rig is the most common illumination of objects and scenes
 bar none. If you want to show off your model, use this rig. As you can see,
-the untextured unmaterialized sphere seems to come out at you.
+the untextured sphere with no assigned material seems to come out at you.
 There are multiple thesis on this rig, and you will use one of two:
 
 #. Studio: Used in a real studio to film in front of a green screen or backdrop.
@@ -251,7 +251,7 @@ here are some good steps to debugging what is wring:
    reflection and all those little buttons and sliders in the *Material* tab.
    You can set some lights to affect only certain materials,
    so if there is an issue with only a few objects being really bright, start with those.
-#. Then start "killing" lights (e.g. moving them to an unused layer);
+#. Then start removing lights (e.g. moving them to an unused layer);
    regress all the way back to one light, make sure it is smooth,
    then add them in one by one. As they add together, reduce power in the tested ones so they merge cleanly,
    or consider not adding it at all, or, especially, reduce the energy of the lamp you just introduced.

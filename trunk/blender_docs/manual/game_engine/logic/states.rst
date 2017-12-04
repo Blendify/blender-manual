@@ -71,7 +71,7 @@ This panel shows what logic is visible for the logic brick displayed for the obj
 At the right is the All button; if clicked, then all the object's logic bricks are displayed
 (this is a toggle), and all State Panel squares are light-gray. Otherwise,
 individual states can be clicked to make their logic visible.
-(Note that you can click more than one square). Clicking the square again unselects the state.
+(Note that you can click more than one square). Clicking the square again deselects the state.
 
 States for the object that are in use (i.e.
 the object has controllers which operate in that state) have dots in them,

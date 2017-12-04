@@ -26,8 +26,8 @@ you are describing a data-processing pipeline of sorts,
 where data "flows from" nodes which describe various *sources,*
 "flows through" nodes which represent various processing and filtering stages,
 and finally "flows into" nodes which represent outputs or destinations.
-You can connect the nodes to one another in many different ways, and you can adjust "knobs,
-" or parameters, that control the behavior of each node.
+You can connect the nodes to one another in many different ways, and you can adjust "properties"
+or parameters, that control the behavior of each node.
 This gives you a tremendous amount of creative control. And,
 it will very quickly become intuitive.
 

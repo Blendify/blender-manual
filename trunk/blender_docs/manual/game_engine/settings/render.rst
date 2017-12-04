@@ -88,7 +88,7 @@ close to the one suggested; but the results can be unpredictable, especially in 
 Note that the *Desktop* checkbox has no effect in Windowed mode.
 
 Start
-   Lanuches the current .blend file with the Standalone Player.
+   Launches the current .blend file with the Standalone Player.
 Resolution
    X
       Sets the X window size or full-screen display resolution.
@@ -194,7 +194,7 @@ Vsync
 Storage
    Set the storage node used by the rasterizer.
 Exit Key
-   This button specifies which keypress will exit the game.
+   This button specifies which key-press will exit the game.
 
 
 .. _game-engine-settings-render-display:

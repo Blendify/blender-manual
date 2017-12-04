@@ -54,7 +54,7 @@ From best to worst, displacement works with these object types using the methods
 control the render face size:
 
 :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` *Meshes*
-   Rendered face size is controlled with render subdivision level. Displacement really likes smooth normals.
+   Rendered face size is controlled with render subdivision level. Displacement works better with smooth normals.
 Manually ( *Edit Mode* ) :doc:`subdivided </modeling/meshes/editing/subdividing/subdivide>` meshes
    Control render faces with number of subdivides.
    (This can be combined with the above methods).

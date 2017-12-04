@@ -40,8 +40,8 @@ Random
    The shortest possible lifetime is *Lifetime* × (1 - *Random*).
    Values above 1.0 are not allowed.
    For example with the default *Lifetime* value of 50 a *Random* setting of 0.5
-   will give you particles with lives ranging from 50 frames to :math:`50 × (1.0 - 0.5) = 25`
-   frames, and with a *Random* setting of 0.75 you will get particles with lives ranging
+   will give you particles with a live span ranging from 50 frames to :math:`50 × (1.0 - 0.5) = 25`
+   frames, and with a *Random* setting of 0.75 you will get particles with live spans ranging
    from 50 frames to :math:`50 × (1.0 - 0.75) = 12.5` frames.
 
 

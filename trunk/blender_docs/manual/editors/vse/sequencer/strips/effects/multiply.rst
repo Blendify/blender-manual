@@ -38,7 +38,7 @@ Multiplying a color with a "normal" image allows you to soften some hues of this
 
 For example, if you have a brown pixel RGB(0.50, 0.29, 0.05), and
 you multiply it with a cyan filter (uniform color RGB(0.0, 1.0, 1.0), you will get a color RGB(0.0, 0.29, 0.5).
-Visually, the result is to kill the reds and bring up (by "symmetry" -- the real values remain unchanged!)
+Visually, the result is to zero the reds and bring up (by "symmetry" -- the real values remain unchanged!)
 the blues and greens. Physically, it is the same effect as shining a cyan light onto a chocolate bar. Emotionally,
 vegetation becomes more lush, water becomes more Caribbean and inviting, skies become friendlier.
 

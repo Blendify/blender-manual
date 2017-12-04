@@ -156,7 +156,7 @@ Of course, if you *want* people to notice your mark, do not scale it so much,
 or make it a contrasting color. There are also many other ways,
 using other mix settings and fancier rigs. Feel free to experiment!
 
-.. note:: Additional uses
+.. hint:: Additional uses
 
    You can also use this technique, using settings that result in visible effects,
    in title sequences to make the words appear to be cast on the water's surface,

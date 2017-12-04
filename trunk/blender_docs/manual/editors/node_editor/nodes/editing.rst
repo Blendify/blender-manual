@@ -93,7 +93,7 @@ duplicate of the selected node appearing under the mouse pointer.
    When you duplicate a node, the new node will be positioned *exactly* on top of the node that was duplicated.
    If you leave it there (and it is quite easy to do so),
    you can **not** easily tell that there are *two* nodes there!
-   When in doubt, grab a node and move it slightly to see if something's lurking underneath.
+   When in doubt, grab a node and move it slightly to see if something is hidden underneath.
 
 
 Delete
