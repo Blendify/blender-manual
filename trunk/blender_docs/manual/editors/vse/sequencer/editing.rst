@@ -169,10 +169,8 @@ Cut (soft) at Frame
    | Menu:     :menuselection:`Strip --> Cut (soft) at Frame`
    | Hotkey:   :kbd:`K`
 
-Cut the selected strip in two by pressing :kbd:`K` at the current frame.
-This will result in two strips of the same source, but resized to fit the original strip's length.
-You will still be able to resize them after.
-Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
+This cuts the selected strip in two at the current frame.
+This will result in two strips which use the same source, fitting the original strip's timing and length.
 
 .. hint::
 
