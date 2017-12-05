@@ -6,7 +6,7 @@ Introduction
 Rigging is a general term used for adding controls to objects,
 typically for the purpose of animation.
 
-Rigging often involves:
+Rigging often involves using one or more of the following features:
 
 :ref:`Armatures <armatures-index>`
    This allows mesh objects to have flexible joints and is often used for skeletal animation.
