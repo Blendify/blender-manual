@@ -1,3 +1,4 @@
+.. _animation-shape_keys-index:
 .. _bpy.types.ShapeKey:
 .. _bpy.types.Key:
 .. _bpy.ops.object.*shape_key:

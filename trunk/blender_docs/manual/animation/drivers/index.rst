@@ -1,3 +1,4 @@
+.. _animation-drivers-index:
 .. _bpy.types.Driver:
 
 ###########

@@ -1,5 +1,5 @@
-.. _bpy.types.Modifier:
 .. _modifiers-index:
+.. _bpy.types.Modifier:
 
 #############
   Modifiers

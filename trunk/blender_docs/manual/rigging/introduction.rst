@@ -3,36 +3,38 @@
 Introduction
 ************
 
-.. this page reads a bit too much like a tutorial/general advice,
-   and does not fit reference-manual style.
+Rigging is a general term used for adding controls to objects,
+typically for the purpose of animation.
 
-Rigging makes animation possible. Without a good rig animation is incredibly frustrating.
-Imagine animating a bouncing ball without the ability to squash it against the ground?
-Try animating a monkey swinging through the trees with no control to make the monkey's hands grab onto the branches.
-What if you had to animate an army tank speeding through
-the desert by positioning each tread on the tank one at a time?
+Rigging often involves:
 
-.. figure:: /images/rigging_introduction_header.png
+:ref:`Skeletal Animation <armatures-index>`
+   Armatures allowing mesh objects to have flexible joints.
+:ref:`Constraints <constraints-index>`
+   To control the kinds of motions that make sense and add functionality to the rig.
+:ref:`Object Modifiers <modifiers-index>`
+   Mesh deformation can be quite involved, there are multiple modifiers that help control this.
+:ref:`Shape Keys <animation-shape_keys-index>`
+   To support different target shapes *(such as facial expressions)* to be controlled.
+:ref:`Drivers <animation-drivers-index>`
+   So your rig can control many different values at once,
+   as well as making some properties automatically update based on changes elsewhere.
 
-At its most basic level, rigging solves motion problems.
-Imagine a door that opens into a hallway.
-Without a rig, the door will not swing open properly (1).
-A rig is needed to help the door swing open on its hinges (2, 3, 4), and there are many ways to rig the door.
-Door 2 gets rigged by repositioning the :term:`Object Origin` of the door.
-Door 3 gets rigged by :term:`Parenting` the door to an :term:`Empty`.
-Door 4 gets rigged by :term:`Weight Painting` all of its :term:`Vertices` to a :term:`Bone` in an :term:`Armature`.
+Rigging can be as advanced as your project requires,
+rigs are effectively defining own user interface for the animator to use,
+without having to be concerned the underlying mechanisms.
 
-.. figure:: /images/rigging_introduction_door.png
+.. TODO nice images of rigged objects.
 
-Most production rigs are more complicated than a simple door,
-but be careful not to rush off building complicated rigs until you have developed some experience.
-Rigging is a discipline that takes practice.
-Start by building simple rigs (like a bouncing ball, a tumbling box, an odometer, a clock).
-Stay humble. Stay patient.
-Study the fundamental concepts that make a bouncing ball bounce.
-Add one rigging tool to your toolbox at a time. Test your simple rigs in actual animation projects.
-And only after much trial and error,
-consider putting everything together into the sophisticated character rig of your dreams.
+
+Examples
+========
+
+- An armature is often used with a modifier to deform a mesh for character animation.
+- A camera rig can be used instead of animating the camera object directly to simulate real world camera rigs
+  *(with a boom arm, mounted on a rotating pedestal for example, effects such as camera jitter can be added too).*
+
+.. TODO more examples?
 
 .. seealso::
 
