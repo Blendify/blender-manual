@@ -165,6 +165,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
 
 .. |tick|  unicode:: U+2713
 .. |cross| unicode:: U+2717
+.. |none|  unicode:: U+002D
 
 .. list-table::
    :header-rows: 1
@@ -177,26 +178,26 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - Description
    * - Action
      - |tick|
-     - |cross|
+     - |none|
      - | Stores animation F-Curves.
        | Used as data-block animation data,
        | and the Non-Linear-Editor.
    * - Armature
      - |tick|
-     - |cross|
+     - |none|
      - | Skeleton used to deform meshes.
        | Used as object data & by the Armature Modifier.
    * - Brush
      - |tick|
-     - |cross|
+     - |none|
      - | Used by paint tools.
    * - Camera
      - |tick|
-     - |cross|
+     - |none|
      - | Used as object data.
    * - Curve
      - |tick|
-     - |cross|
+     - |none|
      - | Used by camera, font & surface objects.
    * - Font
      - |tick|
@@ -205,13 +206,13 @@ For reference, here is a table of data-blocks types stored in blend-files.
        | Used by Font object-data.
    * - GreasePencil
      - |tick|
-     - |cross|
+     - |none|
      - | 2D/3D sketch data.
        | Used as overlay *helper* info, by the
        | 3D View, Image, Sequencer & Movie Clip editors.
    * - Group
      - |tick|
-     - |cross|
+     - |none|
      - | Reference object's.
        | Used by dupli-groups & often library-linking.
    * - Image
@@ -221,11 +222,11 @@ For reference, here is a table of data-blocks types stored in blend-files.
        | Used by textures & shader nodes.
    * - Lamp
      - |tick|
-     - |cross|
+     - |none|
      - | Used as object-data.
    * - Lattice
      - |cross|
-     - |cross|
+     - |none|
      - | Grid based lattice deformation.
        | Used as object data and by the Lattice Modifier.
    * - Library
@@ -235,26 +236,26 @@ For reference, here is a table of data-blocks types stored in blend-files.
        | Access from the Outliner's blend-file view.
    * - LineStyle
      - |tick|
-     - |cross|
+     - |none|
      - | Used by the FreeStyle render-engine.
    * - Mask
      - |tick|
-     - |cross|
+     - |none|
      - | 2D animated mask curves.
        | Used by compositing nodes & sequencer strip.
    * - Material
      - |tick|
-     - |cross|
+     - |none|
      - | Set shading and texturing render properties.
        | Used by objects, meshes & curves.
    * - Mesh
      - |tick|
-     - |cross|
+     - |none|
      - | Geometry vertices/edges/faces.
        | Used as object-data.
    * - MetaBall
      - |tick|
-     - |cross|
+     - |none|
      - | An isosurface in 3D space.
        | Used as object-data.
    * - MovieClip
@@ -264,38 +265,38 @@ For reference, here is a table of data-blocks types stored in blend-files.
        | Used in the motion-tracking editor.
    * - NodeGroup
      - |tick|
-     - |cross|
+     - |none|
      - | Collections of re-usable nodes.
        | Used in the Node Editor.
    * - Object
      - |tick|
-     - |cross|
+     - |none|
      - | An entity in the scene with location,
        | scale, rotation.
        | Used by scenes & groups.
    * - Particle
      - |tick|
-     - |cross|
+     - |none|
      - | Particle settings.
        | Used by particle systems.
    * - Palette
      - |tick|
-     - |cross|
+     - |none|
      - | Store color presets.
        | Access from the paint tools.
    * - Scene
      - |tick|
-     - |cross|
+     - |none|
      - | Primary store of all data displayed and animated.
        | Used as top-level storage for objects & animation.
    * - Screen
      - |cross|
-     - |cross|
+     - |none|
      - | Screen layout.
        | Used by each window, which has its own screen.
    * - ShapeKeys
      - |cross|
-     - |cross|
+     - |none|
      - | Geometry shape storage, which can be animated.
        | Used by mesh, curve, and lattice objects.
    * - Sounds
@@ -305,7 +306,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
        | Used by speaker objects and the Game Engine.
    * - Speaker
      - |tick|
-     - |cross|
+     - |none|
      - | Sound sources for a 3D scene.
        | Used as object-data.
    * - Text
@@ -315,15 +316,15 @@ For reference, here is a table of data-blocks types stored in blend-files.
        | Used by Python scripts and OSL shaders.
    * - Texture
      - |tick|
-     - |cross|
+     - |none|
      - | 2D/3D textures.
        | Used by materials, world and brushes.
    * - World
      - |tick|
-     - |cross|
+     - |none|
      - | Used by scenes for render environment settings.
    * - WindowManager
      - |cross|
-     - |cross|
+     - |none|
      - | The overarching manager for all of Blender's UI;
          this includes screens, notification system, operators, and keymaps.
