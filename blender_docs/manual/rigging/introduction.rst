@@ -8,8 +8,8 @@ typically for the purpose of animation.
 
 Rigging often involves:
 
-:ref:`Skeletal Animation <armatures-index>`
-   Armatures allowing mesh objects to have flexible joints.
+:ref:`Armatures <armatures-index>`
+   This allows mesh objects to have flexible joints and is often used for skeletal animation.
 :ref:`Constraints <constraints-index>`
    To control the kinds of motions that make sense and add functionality to the rig.
 :ref:`Object Modifiers <modifiers-index>`
