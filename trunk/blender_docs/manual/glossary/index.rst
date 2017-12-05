@@ -13,8 +13,10 @@ This page lists definitions for terms used in Blender and this manual.
    :sorted:
 
    Active
-      One of the three :ref:`selection states <object-active>`.
-      Only one object or item can be active at any given time.
+      When many items are selected, the last selected item will be the active one.
+      Used in situations where the interface only shows options for one item at a time.
+
+      See also :ref:`selection states <object-active>`.
 
    Action Safe
       Area of the screen visible on most devices. Place content inside it to ensure it does not get cut off.
