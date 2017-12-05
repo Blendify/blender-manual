@@ -120,6 +120,10 @@ This page lists definitions for terms used in Blender and this manual.
    Caustics
       Bright concentrations of light focused by specular reflections or refracting objects.
 
+      This is often to render the effect of light passing through water or glass.
+
+      See also `Caustics <https://en.wikipedia.org/wiki/Caustic_(optics)>`__ on Wikipedia.
+
    Child
       An :term:`Object` that is affected by its :term:`Parent`.
 
