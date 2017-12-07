@@ -3,12 +3,23 @@
 Introduction to the Blender Manual
 **********************************
 
-This manual aims to be a complete and concise source of information
-to help you to become familiar with the application.
+Our aim to provide a complete and concise reference manual.
+
+Target group
+   - People from 18 years and older.
+   - People who already understand the basics of 3D and/or know other 3D software.
+
+The manual has as a goal to provide
+   - Insight in Blender's way of working, its internal (technical) design - in order to understand options and tools.
+   - Detailed functional description of all features, tools and options in Blender.
 
 
 Conventions
 ===========
+
+.. note: these conventions are for people reading the manual.
+   we have more detailed list of conventions for authors under the writing style section.
+
 
 Keyboards
 ---------
