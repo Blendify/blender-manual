@@ -107,9 +107,9 @@ Changes X, Y, Z location::
 
    bpy.context.object.location = (1, 2, 3)
 
-Same as above::
+Change only the X, Y components::
 
-   bpy.context.object.location.xyz = (1, 2, 3)
+   bpy.context.object.location.xy = (1, 2)
 
 Data type of objects location::
 
