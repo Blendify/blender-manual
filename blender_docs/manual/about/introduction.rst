@@ -27,13 +27,13 @@ Keyboards
 Hotkey letters are shown in this manual like they appear on a keyboard; for example:
 
 :kbd:`G`
-  refers to the lowercase ``g``.
+   refers to the lowercase ``g``.
 :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Alt`
-  are specified as modifier keys.
+   are specified as modifier keys.
 :kbd:`Ctrl-W`, :kbd:`Shift-Alt-A`, ...
-  indicates that these keys should be pressed simultaneously
+   indicates that these keys should be pressed simultaneously
 :kbd:`Numpad0` to :kbd:`Numpad9`, :kbd:`NumpadPlus`
-  refer to the keys on the separate numeric keypad.
+   refer to the keys on the separate numeric keypad.
 
 Other keys are referred to by their names,
 such as :kbd:`Esc`, :kbd:`Tab`, :kbd:`F1` to :kbd:`F12`.
@@ -46,13 +46,13 @@ Mice
 This manual refers to mouse buttons as:
 
 :kbd:`LMB`
-  Left Mouse Button
+   Left Mouse Button
 :kbd:`RMB`
-  Right Mouse Button
+   Right Mouse Button
 :kbd:`MMB`
-  Middle Mouse Button
+   Middle Mouse Button
 :kbd:`Wheel`
-  Scrolling the wheel.
+   Scrolling the wheel.
 
 
 .. _about-user-contribute:

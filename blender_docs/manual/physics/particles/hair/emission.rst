@@ -20,7 +20,7 @@ Number
    You may need a lot more particles if you plan to cover a body with fur.
    Volume will be produced later with *Children*.
 Hair Length
-  Controls how long the hair are.
+   Controls how long the hair are.
 
 Emit From
    Vertices

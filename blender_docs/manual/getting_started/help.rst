@@ -111,8 +111,8 @@ Scripting Reference
 -------------------
 
 Python API Reference
-  Python application programming interface (API)
-  `Reference <https://www.blender.org/api/blender_python_api_current/>`__.
+   Python application programming interface (API)
+   `Reference <https://www.blender.org/api/blender_python_api_current/>`__.
 Operator Cheat Sheet
    Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
    You can also use Blender Search to generate the file. It lists the available Python operators.
