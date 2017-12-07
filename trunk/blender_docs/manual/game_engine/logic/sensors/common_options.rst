@@ -24,11 +24,11 @@ Sensor name
    The name of the sensor. This can be selected by the user. It is used to access sensors with Python;
    it needs to be unique among the selected objects.
 Pin button
-  Display the sensor even when it is not linked to a visible states controller.
+   Display the sensor even when it is not linked to a visible states controller.
 Checkbox button
    Sets active state of the sensor.
 X button
-  Deletes the sensor.
+   Deletes the sensor.
 
 .. note:: Note about triggers
 

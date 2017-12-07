@@ -79,7 +79,7 @@ Clipping
 Delete
    Remove the selected control point. The first and last points cannot be deleted.
 X, Y
-  The coordinates of the selected control point.
+   The coordinates of the selected control point.
 Copy/Paste :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
    The whole curve can be copied from one Curve widget to another by hovering over
    the curve graph and pressing :kbd:`Ctrl-C`, :kbd:`Ctrl-V`.

@@ -22,10 +22,10 @@ Palette
       - If the color does not exist in the new palette,
         a new color is added to the palette in order to keep the stroke.
 Colors
-      A :ref:`ui-list-view` of colors grouped in the palette linked as stroke or fill colors.
-      If a color with strokes is removed, all strokes of this color are removed.
-      Any change to line color or fill color, will change any stroke of any layer using this color.
-      A palette must contain at least one color, so the last one cannot be deleted.
+   A :ref:`ui-list-view` of colors grouped in the palette linked as stroke or fill colors.
+   If a color with strokes is removed, all strokes of this color are removed.
+   Any change to line color or fill color, will change any stroke of any layer using this color.
+   A palette must contain at least one color, so the last one cannot be deleted.
 
    Lock (padlock icon)
       ToDo 2.78.
@@ -35,7 +35,7 @@ Colors
       ToDo 2.78.
 
    Specials
-     ToDo 2.78.
+      ToDo 2.78.
 
 Stroke
    Sets the line color and the maximum opacity (which is also affected by the brush strength).
