@@ -27,8 +27,8 @@ For accuracy you should use two perpendicular orthogonal 3D Views, i.e.
 any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpad3`.
 That way you can control the positioning along two axes in one view and determine depth in the second view.
 
-To place the 3D Cursor on the surface of geometry,
-enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`.
+By default the depth of the geometry under the cursor is used,
+this can be disabled using the *Cursor Depth* toggle in the :doc:`User Preferences </preferences/interface>`.
 
 .. seealso::
 
