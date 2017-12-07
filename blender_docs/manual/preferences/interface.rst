@@ -121,7 +121,7 @@ Zoom To Frame Type
 .. _prefs-interface-manipulator:
 
 Manipulator
-   Turns manipulators on and off.
+   Turns manipulator on and off.
 Size
    Diameter of the manipulator.
 Handle Size

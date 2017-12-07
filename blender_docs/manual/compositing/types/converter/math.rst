@@ -230,7 +230,7 @@ remember that U and V vary between (-0.5 to +0.5),
 so you will have to first add on a half to bring the range between 0 and 1,
 and then after dividing, subtract a half to bring in back into standard range.
 
-The ``JPG`` or ``PNG`` image format will store each of the colors according to their image standard
+The ``JPG`` or ``PNG`` image format will store each of the colors according to its image standard
 for color depth (e.g. ``JPG`` is 24-bit), but the image will be very small since reducing
 color depth and quantizing colors are essentially what the ``JPEG`` compression algorithm
 accomplishes.

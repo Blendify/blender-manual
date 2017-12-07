@@ -62,7 +62,7 @@ Laplacian Smooth
 
 See the :doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>` for details.
 
-Laplacian smooth is uses an alternative smoothing algorithm that better preserves larger details and
+Laplacian smooth uses an alternative smoothing algorithm that better preserves larger details and
 this way the overall shape of the mesh. Laplacian smooth exists as a mesh operation and
 as a non-destructive modifier.
 

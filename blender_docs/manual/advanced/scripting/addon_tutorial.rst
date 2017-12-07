@@ -443,7 +443,7 @@ our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to a
            km.keymap_items.remove(kmi)
        addon_keymaps.clear()
 
-Notice how the keymap item can have a different ``total`` setting then the default set by the operator,
+Notice how the keymap item can have a``total`` setting  different than the default set by the operator,
 this allows you to have multiple keys accessing the same operator with different settings.
 
 .. note::
@@ -569,7 +569,7 @@ for common tasks that you can expand on to write your own tools.
 Further Reading
 ---------------
 
-Blender comes with commented templates which are accessible from the Text editors header,
+Blender comes with commented templates which are accessible from the Text editor's header,
 if you have specific areas you want to see example code for, this is a good place to start.
 
 Here are some sites you might like to check on after completing this tutorial.

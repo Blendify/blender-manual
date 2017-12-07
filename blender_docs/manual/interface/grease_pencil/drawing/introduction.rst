@@ -70,7 +70,7 @@ open, and having to remember to duplicate the current frame before starting to d
 next pose (or risk managing to draw the perfect pose, but without everything else).
 
 This option makes it easier to animate shots where you're building on a result from a previous frame.
-Examples of cases where this comes in handy includes animating facial expressions
+Examples of cases where this comes in handy include animating facial expressions
 (when all outlines are on the same layer), or animating "growing" things
 (e.g. vines, or concentric circles growing from a central point).
 
