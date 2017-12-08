@@ -168,7 +168,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
 
 .. |tick|  unicode:: U+2713
 .. |cross| unicode:: U+2717
-.. |none|  unicode:: U+002D
+.. |none|  unicode:: U+2014
 
 .. list-table::
    :header-rows: 1
