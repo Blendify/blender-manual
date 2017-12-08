@@ -443,7 +443,7 @@ our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to a
            km.keymap_items.remove(kmi)
        addon_keymaps.clear()
 
-Notice how the keymap item can have a``total`` setting  different than the default set by the operator,
+Notice how the keymap item can have a ``total`` setting  different than the default set by the operator,
 this allows you to have multiple keys accessing the same operator with different settings.
 
 .. note::

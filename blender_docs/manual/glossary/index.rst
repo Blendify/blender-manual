@@ -120,9 +120,11 @@ This page lists definitions for terms used in Blender and this manual.
       See also `Bounding Volume Hierarchy <https://en.wikipedia.org/wiki/Bounding_volume_hierarchy>`__ on Wikipedia.
 
    Caustics
-      Bright concentrations of light focused by specular reflections or refracting objects.
+      The optical phenomenon of light concentration focused by specular reflections or refracting objects.
+      In example observable on light passing through a glass of water onto a table or
+      the pattern at the bottom of a swimming pool.
 
-      This is often to render the effect of light passing through water or glass.
+      In rendering this refers to diffuse reflected light paths after a glossy or refraction bounce.
 
       See also `Caustics <https://en.wikipedia.org/wiki/Caustic_(optics)>`__ on Wikipedia.
 
