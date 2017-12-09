@@ -30,8 +30,8 @@ Actor
 Ghost
    Disables collisions completely, similar to :doc:`No collision </game_engine/physics/types/no_collision>`.
 Invisible
-   Does not display, the same as setting the object to unrendered (such as unchecking the "Camera"
-   icon in the :doc:`Outliner </editors/outliner>`.
+   Does not display, the same as setting the object to unrendered
+   (such as unchecking the camera icon in the :doc:`Outliner </editors/outliner>`).
 Use Material Force Field
    Materials can have physics settings on them as well: Friction, Elasticity,
    Force Field (positive or negative force), and also Dampening to other materials.

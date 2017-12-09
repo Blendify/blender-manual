@@ -141,7 +141,7 @@ As we said, the *Combined* output is an amalgam of several outputs which are *al
 available separately. When you select one of these outputs,
 they will be provided separately *and also* included in the Combined pass.
 
-When you enable the Camera icon that is beside several of the pass options,
+When you enable the camera icon that is beside several of the pass options,
 the particular pass will be excluded from the combined pass.
 They will be made available separately *but not* included in the combined pass.
 

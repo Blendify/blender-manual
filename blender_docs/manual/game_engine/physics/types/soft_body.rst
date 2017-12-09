@@ -22,7 +22,7 @@ Ghost
    Disables collisions completely, similar to No Collision.
 Invisible
    Does not display, the same as setting the object to unrendered
-   (such as unchecking the "Camera" icon in the Outliner).
+   (such as unchecking the camera icon in the Outliner).
 Mass
    Affects the reaction due to collision between objects --
    more massive objects have more inertia. Will also affect material force fields.

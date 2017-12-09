@@ -42,7 +42,7 @@ Detail Size/Percentage, Resolution  :kbd:`Shift-D`
 
    Sample Detail Size (pipette icon)
       With Constant Detail Size it is possible to sample the detail value of a certain mesh area
-      by clicking the eyedropper icon next to the detail setting and then clicking on the area.
+      by clicking the pipette icon next to the detail setting and then clicking on the area.
 Detail Refine Method
    When using Dynamic Topology, a certain method will be used to tell how topology
    is handled. Setting the option will determine which of the methods will be used when

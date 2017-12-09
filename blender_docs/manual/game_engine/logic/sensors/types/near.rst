@@ -34,7 +34,7 @@ Property
 Distance
    The number of Blender units it will detect objects within.
 Reset
-   The distance the object needs to be to reset the sensor (send a FALSE pulse).
+   The distance the object needs to be to reset the sensor (send a ``FALSE`` pulse).
 
 
 Example

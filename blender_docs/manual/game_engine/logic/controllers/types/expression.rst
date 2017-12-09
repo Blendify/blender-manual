@@ -4,10 +4,10 @@
 Expression Controller
 *********************
 
-This controller evaluates a user written expression, and gives a positive (TRUE) output when
-The result of the expression is TRUE, and
+This controller evaluates a user written expression, and gives a positive (``TRUE``) output when
+The result of the expression is ``TRUE``, and
 The object is in the designated State.
-For all other conditions the controller gives a negative (FALSE) output.
+For all other conditions the controller gives a negative (``FALSE``) output.
 
 .. figure:: /images/game-engine_logic_controllers_types_expression_node.png
    :width: 292px
