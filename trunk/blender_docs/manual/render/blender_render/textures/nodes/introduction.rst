@@ -28,7 +28,7 @@ Using Texture Nodes
 ===================
 
 To use texture nodes with the current texture, open the :doc:`Node Editor </editors/node_editor/index>`
-and set it to *Texture* mode by clicking the "Texture" icon (|texture-button|) in its header.
+and set it to *Texture* mode by clicking the texture icon (|texture-button|) in its header.
 
 To start adding nodes, a material has to be to selected.
 A new texture can be created by either clicking the *New* button in the Node editor,

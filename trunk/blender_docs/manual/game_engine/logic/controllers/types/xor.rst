@@ -3,10 +3,10 @@
 XOR Controller
 **************
 
-This controller gives a positive (TRUE) output when
-One (and only one) of its inputs are TRUE, and
+This controller gives a positive (``TRUE``) output when
+One (and only one) of its inputs are ``TRUE``, and
 The object is in the designated State.
-For all other conditions the controller gives a negative (FALSE) output.
+For all other conditions the controller gives a negative (``FALSE``) output.
 
 
 Options
