@@ -23,7 +23,7 @@ Resolution
       The number of pixels horizontally and vertically in the image.
    Percentage
       Slider to reduce or increase the size of the rendered image relative to the X/Y values above.
-      This is useful for small test renders that are the same proportions as the final image.
+      This is useful for small test renders that have the same proportions as the final image.
 Aspect Ratio
    Older televisions may have non-square pixels,
    so this can be used to control the shape of the pixels along the respective axis.
