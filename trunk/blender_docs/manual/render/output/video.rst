@@ -132,7 +132,7 @@ Bitrate
 Rate
    Video files can use what is called variable bitrate (VBR).
    This is used to give some segments of the video less compressing to frames that need more data
-   and less to frames with less data. This can be controlled by the *Minimum* and a *Maximum* values.
+   and less to frames with less data. This can be controlled by the *Minimum* and *Maximum* values.
 Buffer
    The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
