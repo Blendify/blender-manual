@@ -46,7 +46,7 @@ Outputs
 =======
 
 X/Y
-   The markers X and Y location.
+   The marker's X and Y location.
 Speed
    The velocity of the marker, measured in pixels per frame.
    This could be used to fake effects like motion blur by connecting it to the Vector Blur Node.

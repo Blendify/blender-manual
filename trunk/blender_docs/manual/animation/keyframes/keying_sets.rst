@@ -83,7 +83,7 @@ This panel is used to add properties to the active Keying Set.
 
 .. figure:: /images/editors_graph-editor_channels_region.png
 
-   The Graph Editors channels region with named groups.
+   The Graph Editor's channels region with named groups.
 
 Active Keying Set Paths
    A collection of paths in a :ref:`List View <ui-list-view>` each with a *Data Path* to a property
