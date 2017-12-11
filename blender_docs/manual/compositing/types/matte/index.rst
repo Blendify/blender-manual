@@ -34,9 +34,9 @@ for green screens, but the best results stem from a combination of techniques.
    by the node.
 
    Simple garbage mattes can be created with the
-   :doc:`Box Mask </compositing/types/matte/box_mask>` or
+   :doc:`Box Mask </compositing/types/matte/box_mask>` or the
    :doc:`Ellipse Mask </compositing/types/matte/ellipse_mask>`
-   More complicated matte shapes using
+   More complicated matte shapes using a
    :doc:`Double Edge Mask </compositing/types/matte/double_edge_mask>` or
    using a :doc:`Mask </compositing/types/input/mask>`.
 

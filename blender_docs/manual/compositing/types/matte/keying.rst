@@ -58,7 +58,7 @@ Edge Kernel Radius
    Defines the radius in pixel used to detect an edge.
 Edge Kernel Tolerance
    Defines threshold used to check if pixels in radius are the same as current pixel:
-   If the difference between pixel colors is higher than this threshold then the point
+   if the difference between pixel colors is higher than this threshold then the point
    will be considered an edge.
 Clip Black
    This sets the threshold for what becomes fully transparent in the output (black

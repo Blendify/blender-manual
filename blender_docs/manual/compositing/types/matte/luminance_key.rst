@@ -64,7 +64,7 @@ For this example the model was shot against a *white* background.
 Using the Luminance Key node, we get a matte out where the background is white,
 and the model is black; the opposite of what we want.
 If we wanted to use the matte, we have to switch the white and the black.
-How to do this? Color Ramp node to the rescue -- we set the left color White Alpha 1.0,
+How to do this? Color Ramp node to the rescue -- we set the left color to White Alpha 1.0,
 and the right color to be Black Alpha 0.0. Thus, when the Color Ramp gets in black,
 it spits out white, and vice versa. The reversed mask is shown;
 her white outline is usable as an alpha mask now.
