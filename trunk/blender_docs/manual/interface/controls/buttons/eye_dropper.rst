@@ -9,6 +9,8 @@ The eyedropper can be used to select different kinds of data:
 
 Color
    This is the most common usage.
+Color Ramp
+   Dragging the cursor over the window to sample a line which is converted into a color-ramp.
 Objects/Object-Data
    This is used with object buttons such as parent, constraints or modifiers to
    select an object from the 3D View.
