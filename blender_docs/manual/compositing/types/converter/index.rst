@@ -4,7 +4,6 @@
   Converter Nodes
 ###################
 
-
 As the name implies, these nodes convert the colors or other properties of various data
 (e.g. transparency) in some way.
 
