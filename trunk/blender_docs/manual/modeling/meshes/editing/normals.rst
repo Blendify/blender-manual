@@ -6,8 +6,9 @@ Normals
 Introduction
 ============
 
-In geometry, a normal is a direction or line that is perpendicular to something, like another line, 
-a tangent line for a point on a curve, or a tangent plane for a point on a surface.
+In geometry, a normal is a direction or line that is perpendicular to something,
+typically a triangle or surface but can also be relative to a line, a tangent line for a point on a curve,
+or a tangent plane for a point on a surface.
 
 .. figure:: /images/modeling_meshes_editing_normals_viewport.png
 
