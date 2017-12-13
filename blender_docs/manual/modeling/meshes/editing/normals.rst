@@ -6,14 +6,23 @@ Normals
 Introduction
 ============
 
-Todo add.
-
-.. Explain what are normals
+In geometry, a normal is a direction or line that is perpendicular to something, like another line, 
+a tangent line for a point on a curve, or a tangent plane for a point on a surface.
 
 .. figure:: /images/modeling_meshes_editing_normals_viewport.png
 
-   Normals visualization.
+   A visualization of the normals of the vertices and faces of a torus.
 
+In the figure above, each blue line represents the normal for a face on the torus. The lines are each perpendicular to the face on which they lie.
+
+Visualizing
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:     :menuselection:`Properties Region --> Mesh Display --> Normals`
 
 Shading
 =======
