@@ -13,16 +13,10 @@ a tangent line for a point on a curve, or a tangent plane for a point on a surfa
 
    A visualization of the normals of the vertices and faces of a torus.
 
-In the figure above, each blue line represents the normal for a face on the torus. The lines are each perpendicular to the face on which they lie.
+In the figure above, each blue line represents the normal for a face on the torus.
+The lines are each perpendicular to the face on which they lie.
+The visualization can be activate in the :ref:`Mesh Display panel <mesh-display-normals>`.
 
-Visualizing
-===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Panel:     :menuselection:`Properties Region --> Mesh Display --> Normals`
 
 Shading
 =======
@@ -43,7 +37,7 @@ Shading
 
 .. _bpy.ops.object.shade_flat:
 
-Flat 
+Flat
 ----
 
 .. list-table:: Example mesh flat (left) and smooth shaded (right).
@@ -144,13 +138,9 @@ This volume do not need to be closed. In fact, this means that the face of inter
 adjacent with at least one non-coplanar other face.
 For example, with a *Grid* primitive, recalculating normals does not have a meaningful result.
 
-.. tip::
-
-   For Visualization in *Edit Mode* see :ref:`mesh-display-normals`.
-
 
 Set from Face
--------------------
+-------------
 
 .. admonition:: Reference
    :class: refbox

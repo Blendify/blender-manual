@@ -69,7 +69,7 @@ Data ID
 
    The Data ID.
 
-A Data ID is a text field with icon on the left, which opens a gray pop-up.
+A Data ID is a text field with an icon on the left, which opens a gray pop-up.
 It is used to reference data-blocks selected by their name.
 
 Type
