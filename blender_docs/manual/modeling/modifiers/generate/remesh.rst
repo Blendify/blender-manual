@@ -55,7 +55,7 @@ Remove Disconnected Pieces
    Filter out small disconnected pieces of the output.
 
    Threshold
-      Use this to control how small a disconnected component must be to be removed.
+      Use this to control how small a disconnected component must be removed.
 
    .. figure:: /images/modeling_modifiers_generate_remesh_remove-disconnected-example.png
 
