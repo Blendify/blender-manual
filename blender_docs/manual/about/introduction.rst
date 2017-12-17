@@ -6,8 +6,7 @@ Introduction to the Blender Manual
 Our aim to provide a complete and concise reference manual.
 
 Target group
-   - People from 18 years and older.
-   - People who already understand the basics of 3D and/or know other 3D software.
+   - People educated in computer graphics, who understand the basics of 3D and/or know other 3D software.
 
 The manual has as a goal to provide
    - Insight in Blender's way of working, its internal (technical) design - in order to understand options and tools.
