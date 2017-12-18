@@ -1,7 +1,7 @@
 :orphan:
 
 .. RST versions of the "Get Involved" pages on blender.org related to the documentation project
-	:: Copy this file into the /manual folder to build it (but watch out not to accidentally committing it) 
+   :: Copy this file into the /manual folder to build it (but watch out not to accidentally committing it) 
 
 ################################
   Documentation -- blender.org
@@ -15,7 +15,7 @@ Documentation
 
    Development   `Documentation`_   Blender Conference
 
-	
+
 ---------------------------------
 
 

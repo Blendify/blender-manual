@@ -12,8 +12,8 @@
    baking.rst
 
 
-Physic Types
-============
+Physics Types
+=============
 
 .. toctree::
    :maxdepth: 1

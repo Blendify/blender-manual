@@ -41,7 +41,7 @@ Stereo Mode
    Vinterlaced
       One frame is displayed with both images displayed on alternate columns of the display.
       This works with some 'autostereo displays'.
-   3D Tv Top-Bottom
+   3D TV Top-Bottom
       One frame displays the left image above and the right image below.
       The images are squashed vertically to fit. This mode is designed for passive 3D TV.
 

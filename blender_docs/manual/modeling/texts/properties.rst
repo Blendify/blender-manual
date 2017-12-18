@@ -186,7 +186,7 @@ so let us detail it:
    *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
 #. Then, for the *Text* object, you must enable the *Dupli Vertices* button
    (:menuselection:`Object --> Animation Settings` panel).
-#. In the *Font* tap, fill the *Object Font* field with the *common prefix* of your "font" objects.
+#. In the *Font* tab, fill the *Object Font* field with the *common prefix* of your "font" objects.
 
 Now, each time a char in your text matches the *suffix part* of a "font" object's name,
 this object is duplicated on this char. The original chars remain visible. The objects are

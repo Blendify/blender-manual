@@ -164,7 +164,7 @@ In this example let us dynamically control a Wave Modifier with a modified verte
    *Highest Distance* so that the first corresponds to the distance between your target
    object and the vertices you want to have lowest weight,
    and similarly with the second and highest weight...
-#. If your lamp is at Z-hight of 2 then set the settings for the Weight Proximity Modifier to:
+#. If your lamp is at Z-height of 2 then set the settings for the Weight Proximity Modifier to:
    Lowest: 2 and highest: 7 (this will stop the waves under the lamp)
    If you want waves to be only under the lamp, set the lowest to 7 and highest to 2.
 #. Now add a Wave Modifier, set it to your liking, and use the same vertex group to control it.
