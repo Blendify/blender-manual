@@ -72,7 +72,7 @@ the *Pivot Point* is set to *Median Point* (indicated by the yellow line)
 and the mouse was moved to the left during the transform. In frame C,
 the *Pivot Point* is set to the 3D cursor which is located above the Objects
 (indicated again by the yellow line). When the mouse is moved to the left during a
-*Shear* transform all of the selected Objects are moved to the right as they are
+*Shear* transform, all of the selected Objects are moved to the right as they are
 below the horizontal axis. Again, note that the magnitude of the transform is proportional to
 the distance from the horizontal axis. In this case,
 the lower Objects move further than the upper ones.

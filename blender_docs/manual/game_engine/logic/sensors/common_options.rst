@@ -32,7 +32,7 @@ X button
 
 .. note:: Note about triggers
 
-   If a controller does not get trigger by any connected sensor
+   If a controller does not get triggered by any connected sensor
    (regardless of the sensors' state) it will not be activated at all.
 
    A sensor triggers the connected controllers on state change.
@@ -41,7 +41,7 @@ X button
    A sensor triggers a connected controller as well when the sensor changes from deactivation to
    activation.
 
-The following parameters specifies how the sensor triggers connected controllers:
+The following parameters specify how the sensor triggers connected controllers:
 
 True level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is positive.
@@ -50,14 +50,14 @@ False level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is negative.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor. |false-button|
 Freq
-   Despite it is name "Frequency", this parameter sets the delay between repeated triggers,
+   Despite its name "Frequency", this parameter sets the delay between repeated triggers,
    measured in frames (also known as logic ticks). The default value is 0 and it means no delay.
    It is only used at least one of the level triggering parameters are enabled.
 
    Raising the value of *freq* is a good way for saving performance costs by avoiding
    to execute controllers or activate actuators more often than necessary.
 
-   Examples: (Assuming the default frame rate with a frequency of 60 Hz (60 frames per second)).
+   Examples: (assuming the default frame rate with a frequency of 60 Hz (60 frames per second)).
 
 .. list-table::
    :header-rows: 1
@@ -83,23 +83,23 @@ Freq
      - 2
      - 30
    * - 29
-     - The sensor triggers one frame and waits 29 frames until it triggers again.
+     - The sensor triggers at one frame and waits 29 frames until it triggers again.
      - 1
      - 29
      - 30
      - 2
    * - 59
-     - The sensor triggers one frame and waits 59 frames until it triggers again.
+     - The sensor triggers at one frame and waits 59 frames until it triggers again.
      - 1
      - 59
      - 30
      - 1
 
 *Level* Button
-   Triggers connected controllers when state (of the build-in state machine) changes.
-   (For more information see :doc:`States </game_engine/logic/states>`).
+   Triggers connected controllers when state (of the build-in state machine) changes
+   (for more information see :doc:`States </game_engine/logic/states>`).
 
-The following parameters specifies how the sensor's status gets evaluated:
+The following parameters specify how the sensor's status gets evaluated:
 
 *Tap* Button
    Changes the sensor's state to negative one frame after changing

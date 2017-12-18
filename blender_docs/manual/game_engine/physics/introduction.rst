@@ -82,18 +82,18 @@ before you press :kbd:`P`.
 Also note that you can see how the Bullet triangulation is working
 (it busts all your Quads to Tris at run-time, but the BGE meshes are still quads at run-time).
 
-- *RGB/XYZ Widget* - Representing the object's Local Orientation and Origin.
-- *Green* - "sleeping meshes" that are not moving, saving calculations until an external event "wakes" it.
-- *White* - White lines represent active bounding meshes at are undergoing physics calculations,
+- *RGB/XYZ Widget* -- Representing the object's Local Orientation and Origin.
+- *Green* -- "sleeping meshes" that are not moving, saving calculations until an external event "wakes" them.
+- *White* -- White lines represent active bounding meshes at are undergoing physics calculations,
   until such calculations are so small that the object is put to rest.
   This is how you can see the effects of the *Collision Bounds*.
-  - *Thick*, or *Many White Lines* - A compound collision mesh/meshes.
-- *Violet* - Bounding meshes for Soft bodies.
-- *Red* - The Bounding Box, the outer boundary of object.
+  - *Thick*, or *Many White Lines* -- A compound collision mesh/meshes.
+- *Violet* -- Bounding meshes for Soft bodies.
+- *Red* -- The Bounding Box, the outer boundary of object.
   It is always aligned with global X Y and Z, and is used to optimize calculations.
   Also represents meshes that have been forced into "no sleep" status.
-- *Yellow* - Normals.
-- *Black* - When in wireframe, this is your mesh's visual appearance.
+- *Yellow* -- Normals.
+- *Black* -- When in wireframe, this is your mesh's visual appearance.
 
 If you want finer-grained control over the display options,
 you can add this as a Python Controller and uncomment whichever pieces you want to see::
