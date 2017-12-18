@@ -18,4 +18,4 @@ While these world settings offer a simple way of adding effects to a scene,
 :doc:`compositing nodes </compositing/index>` are often preferred, though more complex to master,
 for the additional control and options they offer.
 For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
-through compositing nodes can further increase the depth and spacial clarity of a scene.
+through compositing nodes can further increase the depth and spatial clarity of a scene.

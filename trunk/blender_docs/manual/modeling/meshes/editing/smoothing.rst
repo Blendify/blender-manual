@@ -62,7 +62,7 @@ you can smooth the mesh non-destructively with one or several of the following m
 :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`
    Works like the *Smooth* tool in *Edit Mode*;
    can be applied to specific parts of the mesh using vertex groups.
-:doc:`Laplactian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>`
+:doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>`
    Works like the *Laplacian Smooth* tool in *Edit Mode*;
    can be applied to specific parts of the mesh using vertex groups.
 :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`

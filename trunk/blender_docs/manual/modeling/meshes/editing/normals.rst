@@ -11,8 +11,9 @@ typically a triangle or surface but can also be relative to a line, a tangent li
 or a tangent plane for a point on a surface.
 
 .. figure:: /images/modeling_meshes_editing_normals_viewport.png
+   :width: 350px
 
-   A visualization of the normals of the vertices and faces of a torus.
+   A visualization of the face normals of a torus.
 
 In the figure above, each blue line represents the normal for a face on the torus.
 The lines are each perpendicular to the face on which they lie.

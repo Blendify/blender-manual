@@ -19,22 +19,22 @@ Distance Metric
    This procedural texture has seven Distance Metric options.
    These determine the algorithm to find the distance between cells of the texture. These options are:
 
-   - Minkovsky
-   - Minkovsky 4
-   - Minkovsky 1/2
+   - Minkowsky
+   - Minkowsky 4
+   - Minkowsky 1/2
    - Chebychev
    - Manhattan
    - Distance Squared
    - Actual Distance
 
-   The *Minkovsky* setting has a user definable value (the *Exponent* button)
-   which determines the Minkovsky exponent *e* of the distance function:
+   The *Minkowsky* setting has a user definable value (the *Exponent* button)
+   which determines the Minkowsky exponent *e* of the distance function:
 
       (*x*\ :sup:`e` + *y*\ :sup:`e` + *z*\ :sup:`e`)\ :sup:`1/e`
 
    A value of one produces the *Manhattan* distance metric, a value less than one produces stars
-   (at 0.5, it gives a *Minkovsky 1/2*), and higher values produce square cells (at 4.0,
-   it gives a *Minkovsky 4*, at 10.0, a *Chebychev*).
+   (at 0.5, it gives a *Minkowsky 1/2*), and higher values produce square cells (at 4.0,
+   it gives a *Minkowsky 4*, at 10.0, a *Chebychev*).
    So nearly all Distance Settings are basically the same -- a variation of *Minkowsky*.
 
    You can get irregularly-shaped rounded cells with the
@@ -42,30 +42,30 @@ Distance Metric
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky0-5.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky0-5.jpg
           :width: 200px
 
-          Minkovsky Exponent: 0.5 (Minkovsky 1/2).
+          Minkowsky Exponent: 0.5 (Minkowsky 1/2).
 
-     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky1.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky1.jpg
           :width: 200px
 
-          Minkovsky Exponent: 1 (Manhattan).
+          Minkowsky Exponent: 1 (Manhattan).
 
-     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky2.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky2.jpg
           :width: 200px
 
-          Minkovsky Exponent: 2 (Actual Distance).
+          Minkowsky Exponent: 2 (Actual Distance).
 
-   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky4.jpg
+   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky4.jpg
           :width: 200px
 
-          Minkovsky Exponent: 4 (Minkovsky 4).
+          Minkowsky Exponent: 4 (Minkowsky 4).
 
-     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkovsky10.jpg
+     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky10.jpg
           :width: 200px
 
-          Minkovsky Exponent: 10 (Chebychev).
+          Minkowsky Exponent: 10 (Chebychev).
 
      - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_distancesquared.jpg
           :width: 200px
