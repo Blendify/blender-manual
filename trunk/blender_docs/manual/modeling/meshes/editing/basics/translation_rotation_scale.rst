@@ -64,7 +64,7 @@ Bevel Weight
 Edge Data
 ---------
 
-When an edge is selected, the following options are available. more buttons appear:
+When an edge is selected, the following options are available. More buttons appear:
 
 Bevel Weight
    See :ref:`Edge bevel weight <modeling-edges-bevel-weight>`.

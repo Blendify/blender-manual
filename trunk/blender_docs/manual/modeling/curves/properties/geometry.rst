@@ -22,7 +22,7 @@ Offset
 Extrude
    Will extrude the curve along both the positive and negative local Z axes.
    Turns a one dimensional curve into a two dimensional curve by giving it height.
-   With a scale is the sum of both directions, perpendicular to the curves normals.
+   With a scale is the sum of both directions, perpendicular to the curve's normals.
 
    .. list-table::
 
