@@ -22,10 +22,10 @@ Bone Layers
 Moving Bones between Layers
 ---------------------------
 
-Obviously, you have to be in *Edit Mode* or *Pose Mode* to move bones between
-layers. Note that as with objects, bones can lay in several layers at once,
-just use the usual :kbd:`Shift-LMB` clicks... First of all,
-you have to select the chosen bone(s)!
+Obviously, you have to be in *Edit Mode* or *Pose Mode* to move bones between layers.
+Note that as with objects, bones can lay in several layers at once,
+just use the usual :kbd:`Shift-LMB` clicks...
+First of all, you have to select the chosen bone(s)!
 
 - In the Properties editor, use the "layer buttons" of each selected bone Relations panel (*Bones* tab)
   to control in which layer(s) it lays.

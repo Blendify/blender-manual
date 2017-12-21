@@ -42,10 +42,11 @@ These Vertex Groups are sometimes also named *Weight Groups* or *Weight Maps*.
 They are used for defining the weight tables of Armature bones.
 All Deform Groups of an Object are strictly related to each other via their weight values.
 
-Strictly speaking, the sum of all deform weights for any vertex of a mesh should be exactly 1.
-0. In Blender this constraint is a bit relaxed (see below). Nevertheless,
-Deform Groups should always be seen as related to each other. Hence we have provided a filter
-that allows restricting the Vertex Weight panel to display only the Deform bones of an Object.
+Strictly speaking, the sum of all deform weights for any vertex of a mesh should be exactly 1.0.
+In Blender this constraint is a bit relaxed (see below).
+Nevertheless, Deform Groups should always be seen as related to each other.
+Hence, we have provided a filter that allows restricting the Vertex Weight panel to
+display only the Deform bones of an Object.
 
 
 Other Groups

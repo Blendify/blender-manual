@@ -6,11 +6,12 @@ Introduction
 IK simplifies the animation process,
 and makes it possible to make more advanced animations with lesser effort.
 
-IK allows you to position the last bone in a bone chain and the other bones are positioned
-automatically. This is like how moving someone's finger would cause his arm to follow it.
+IK allows you to position the last bone in a bone chain and
+the other bones are positioned automatically.
+This is like how moving someone's finger would cause his arm to follow it.
 By normal posing techniques, you would have to start from the root bone,
-and set bones sequentially until you reach the tip bone: When each parent bone is moved,
-its child bone would inherit its location and rotation.
+and set bones sequentially until you reach the tip bone:
+When each parent bone is moved, its child bone would inherit its location and rotation.
 Thus making tiny precise changes in poses becomes harder farther down the chain,
 as you may have to adjust all the parent bones first.
 

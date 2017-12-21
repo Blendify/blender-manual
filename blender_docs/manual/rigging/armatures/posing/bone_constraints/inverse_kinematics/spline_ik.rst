@@ -65,9 +65,9 @@ and the bones will be made to follow the curve in its untransformed position.
 Thickness Controls
 ------------------
 
-The thickness of the bones in the chain is controlled using the constraint's 'XZ Scale Mode'
-setting. This setting determines the method used for determining the scaling on the X and Z
-axes of each bone in the chain.
+The thickness of the bones in the chain is controlled using the constraint's 'XZ Scale Mode' setting.
+This setting determines the method used for determining the scaling on
+the X and Z axes of each bone in the chain.
 
 The available modes are:
 

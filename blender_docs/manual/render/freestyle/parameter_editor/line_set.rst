@@ -83,8 +83,7 @@ Border
    This depends on the mesh structure.
 
 Edge Marks
-   Renders marked edges. See
-   `Edge Marks`_ for details.
+   Renders marked edges. See `Edge Marks`_ for details.
 
 Contour
    Draws the outer edges and inner open border.

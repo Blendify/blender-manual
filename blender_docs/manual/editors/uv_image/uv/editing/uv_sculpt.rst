@@ -39,7 +39,7 @@ UV Sculpt Tools
       The algorithm relies on space, not stretch minimization,
       so most probably a minimize stretch will have to be run for optimal results.
       However it is great to use after stitching islands,
-      or when unwrap produces cluttered results  to smooth the distribution of UVs.
+      or when unwrap produces cluttered results to smooth the distribution of UVs.
 
       Relaxation Method
          There are two relax algorithms:

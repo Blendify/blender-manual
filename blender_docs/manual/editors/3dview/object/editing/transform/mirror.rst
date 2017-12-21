@@ -11,8 +11,8 @@ Mirror
    | Menu:     :menuselection:`Object/Mesh --> Mirror`
    | Hotkey:   :kbd:`Ctrl-M`
 
-Mirroring an Object or Mesh selection will create a reversed version of the selection. The
-position of the mirrored version of the selection is determined by the
+Mirroring an Object or Mesh selection will create a reversed version of the selection.
+The position of the mirrored version of the selection is determined by the
 :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`.
 A common use of mirroring is to model half an object, duplicate it and then use the
 mirror transform to create a reversed version to complete the model.

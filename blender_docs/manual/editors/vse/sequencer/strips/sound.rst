@@ -44,11 +44,11 @@ adjust its starting offset using :kbd:`RMB` over the arrow end handles,
 and :kbd:`K` cut it into pieces.
 A useful example is cutting out the "um's" and dead voice time.
 
-You can have as many sound strips as you wish and the result will be the mixing of all of
-them. You can give each strip its own name and volume via the properties region.
+You can have as many sound strips as you wish and the result will be the mixing of all of them.
+You can give each strip its own name and volume via the properties region.
 
-Overlapping strips are automatically mixed down during the rendering process. For example,
-you can have the announcer on channel 5, background music on channel 6,
+Overlapping strips are automatically mixed down during the rendering process.
+For example, you can have the announcer on channel 5, background music on channel 6,
 and Foley sound effects on channel 7.
 
 .. seealso::

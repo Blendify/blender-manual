@@ -40,8 +40,8 @@ Damp
 Integration
 -----------
 
-Integrators are a set of mathematical methods available to calculate the movement of
-particles. The following guidelines will help to choose a proper integrator,
+Integrators are a set of mathematical methods available to calculate the movement of particles.
+The following guidelines will help to choose a proper integrator,
 according to the behavior aimed at by the animator.
 
 Euler

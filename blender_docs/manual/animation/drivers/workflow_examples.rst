@@ -138,10 +138,9 @@ Drivers and Multiple Relative Shape Keys
 ========================================
 
 The following screenshots illustrate combining shape keys, bones, and
-drivers to make multiple chained relative shape keys sharing a single
-root. While it lacks the convenience of the single Evaluation Time of
-an absolute shape key, it allows you to have more complex
-relationships between your shape keys.
+drivers to make multiple chained relative shape keys sharing a single root.
+While it lacks the convenience of the single Evaluation Time of an absolute shape key,
+it allows you to have more complex relationships between your shape keys.
 
 .. list-table::
 
@@ -170,10 +169,10 @@ Key2A has the left stack fully extended. Key2B has the right stack fully extende
 Key2A and Key2B are both relative to Key1 (as you can see in the field
 in the bottom right of the Shape Keys panel.
 
-The value of Key1 is bound to the position of bones by a driver with
-two variables. Each variable uses the world Z coordinate of a bone
-and uses the maximum value to determine how much the base should be
-extended. The generator polynomial is crafted such that the top of
+The value of Key1 is bound to the position of bones by a driver with two variables.
+Each variable uses the world Z coordinate of a bone and
+uses the maximum value to determine how much the base should be extended.
+The generator polynomial is crafted such that the top of
 the dominant stack should line up with the bone for that stack.
 
 The value of Key2A is bound to the position of "Bone.L".
@@ -181,9 +180,9 @@ Its generator parameters are crafted such that when Key1's value reaches 1,
 the value of Key2A starts increasing beyond zero. In this way,
 the top of the left stack will move with bone.L (mostly).
 
-The value of Key2B is bound to the position of "Bone.R". Its generator
-parameters are similar to Key2A so that the top of the right stack
-will move with bone.R (mostly).
+The value of Key2B is bound to the position of "Bone.R".
+Its generator parameters are similar to Key2A so that
+the top of the right stack will move with bone.R (mostly).
 
 Since it is quite easy for bone.L and bone.R to be in positions that
 indicate conflicting values for Key1 there will be times when the

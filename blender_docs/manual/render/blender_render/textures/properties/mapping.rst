@@ -93,7 +93,7 @@ From Dupli
    Duplis instanced from vertices, faces, or particles,
    inherit texture coordinates from their parent.
 
-.. (todo) Explanation 
+.. (todo) Explanation
 
 
 Coordinate Offset, Scaling and Transformation

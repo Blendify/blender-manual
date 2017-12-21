@@ -184,7 +184,7 @@ by pressing the following keys while the tool is active:
 
 - :kbd:`G`,  :kbd:`R`, :kbd:`S`:  translate, rotate, scale
 - :kbd:`B`: Bendy bones
-- :kbd:`C`: custom properties 
+- :kbd:`C`: custom properties
 - :kbd:`X`, :kbd:`Y`, :kbd:`Z`: to the corresponding axes
 
 
@@ -223,7 +223,7 @@ Here are important points:
   and if there is no such named bone, nothing will happen...).
 - What is copied and pasted is in fact the position/rotation/scale of each bone, in its own space.
   This means that the resulting pasted pose might be very different from the originally copied one, depending on:
-  - The rest position of the bones, 
+  - The rest position of the bones,
   - and the current pose of their parents.
 
 .. list-table::

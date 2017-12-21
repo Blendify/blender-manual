@@ -8,8 +8,8 @@ The Array Modifier creates an array of copies of the base object, with each copy
 one in any of a number of possible ways. Vertices in adjacent copies can be merged if they are nearby,
 allowing smooth :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` frameworks to be generated.
 
-This modifier can be useful when combined with tileable meshes for quickly developing large
-scenes. It is also useful for creating complex repetitive shapes.
+This modifier can be useful when combined with tileable meshes for quickly developing large scenes.
+It is also useful for creating complex repetitive shapes.
 
 Multiple Array Modifiers may be active for an object at the same time
 (e.g. to create complex three dimensional constructs).

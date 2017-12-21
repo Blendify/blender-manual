@@ -194,10 +194,10 @@ with Rec. 709 chromaticities and D65 white point.
 
 However, OpenColorIO was also designed to give a consistent user experience across
 `multiple applications <http://opencolorio.org/CompatibleSoftware.html>`__,
-and for this, a single shared configuration file can be used. Blender will use the standard
-OCIO environment variable to read an OpenColorIO configuration other than the default Blender
-one. More information about how to set up such a workflow can be found on the
-`OpenColorIO website <http://opencolorio.org/>`__.
+and for this, a single shared configuration file can be used.
+Blender will use the standard OCIO environment variable to read an OpenColorIO configuration
+other than the default Blender one. More information about how to set up such a workflow
+can be found on the `OpenColorIO website <http://opencolorio.org/>`__.
 
 We currently use the following color space rules:
 

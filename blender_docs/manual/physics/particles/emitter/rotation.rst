@@ -13,9 +13,9 @@ Rotation
 
    Particles rotation settings.
 
-These parameters specify how the individual particles are rotated during their travel. To
-visualize the rotation of a particle you should choose visualization type Axis in the
-Visualization panel and increase the Draw Size.
+These parameters specify how the individual particles are rotated during their travel.
+To visualize the rotation of a particle you should choose visualization type *Axis*
+in the Visualization panel and increase the *Draw Size*.
 
 
 Options

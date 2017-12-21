@@ -13,7 +13,7 @@ Header
 ======
 
 The newly opened Text editor is gray and empty, with a very simple header
-Fig. :ref:`fig-text-header-plain`
+(Fig. :ref:`fig-text-header-plain`).
 
 .. _fig-text-header-plain:
 
@@ -32,9 +32,8 @@ Editor type
 Menus
    Editors `Menus`_.
 Text
-   Data-block menu.
-   Once a text is selected or newly created, the header changes.
-   Fig. :ref:`fig-text-header-full`
+   A Data-block menu to select a text or to create a new one.
+   After that the header will change (Fig. :ref:`fig-text-header-full`).
 Show
    The following three buttons toggle display options.
 

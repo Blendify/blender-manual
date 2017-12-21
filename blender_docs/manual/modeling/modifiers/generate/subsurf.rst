@@ -104,7 +104,7 @@ Improving Performance
 In order to utilize maximum performance form OpenSubdiv the following things are required:
 
 - The modifier must be last in the :ref:`modifier stack <modifier-stack>`.
-- There should be no modifiers prior to the  which changes mesh topology across the time.
+- There should be no modifiers prior to the which changes mesh topology across the time.
 - Other objects should not use geometry of OpenSubdiv mesh
 
 

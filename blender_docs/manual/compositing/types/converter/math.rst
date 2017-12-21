@@ -79,9 +79,9 @@ Using Sine Function to Pulsate
 
 .. figure:: /images/compositing_types_converter_math_sine.jpg
 
-This example has a *Time* node putting out a linear sequence from 0 to 1 over the course of 101
-frames. The green vertical line in the curve widget shows that frame 25 is being put out,
-or a value of 0.25. That value is multiplied by 2 × pi and converted to 1.0 by the Sine function,
+This example has a *Time* node putting out a linear sequence from 0 to 1 over the course of 101 frames.
+The green vertical line in the curve widget shows that frame 25 is being put out, or a value of 0.25.
+That value is multiplied by 2 × pi and converted to 1.0 by the Sine function,
 since we all know that :math:`sin(2 × pi/ 4) = sin(pi/ 2) = +1.0`
 Since the sine function can put out values between (-1.0 to 1.0),
 the *Map Value* node scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1

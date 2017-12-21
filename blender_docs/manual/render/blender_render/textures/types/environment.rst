@@ -36,9 +36,8 @@ they create the visual complexity that the eye expects to see from shiny reflect
 
    It is useful to remember here that the true goal of this technique is *believability*,
    not *accuracy*. The eye does not need a physically accurate simulation of the light's travel;
-   it just needs to be lulled into believing that the scene is real by seeing the complexity it
-   expects. The most unbelievable thing about most rendered images is the sterility,
-   not the inaccuracy.
+   it just needs to be lulled into believing that the scene is real by seeing the complexity it expects.
+   The most unbelievable thing about most rendered images is the sterility, not the inaccuracy.
 
 
 Options

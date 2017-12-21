@@ -47,9 +47,10 @@ including the "blue" font that has been applied to a curve path.
    the slower the object will respond interactively.
 
    As you can see when you switch between *Object Mode* and *Edit Mode*,
-   the *Font* panel remains the same. This means that its settings can be applied
-   equally in both modes ... and this implies that you cannot apply them to just a part of the
-   mesh. So font, size, and so on, are common to all letters in a *Text* object.
+   the *Font* panel remains the same.
+   This means that its settings can be applied equally in both modes ... and
+   this implies that you cannot apply them to just a part of the mesh.
+   So font, size, and so on, are common to all letters in a *Text* object.
    There is just one exception:
    the *Bold* or *Italic* buttons control properties specific to each letter
    (this is a way to use up to four different fonts in a text).

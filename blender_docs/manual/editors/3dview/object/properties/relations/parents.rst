@@ -39,8 +39,8 @@ displays can change depending on what objects are selected when the :kbd:`Ctrl-P
 shortcut is used.
 
 For non-inverse-mode, press :kbd:`Shift-Ctrl-P` instead. This creates an alternative
-parent-child-relationship where child-objects exist entirely in the parent's coordinate
-system. This is the better choice for CAD purposes, for example.
+parent-child-relationship where child-objects exist entirely in the parent's coordinate system.
+This is the better choice for CAD purposes, for example.
 
 Moving, rotating or scaling the parent will also usually move/rotate/scale the child/children.
 However, moving/rotating/scaling the child/children of the parent will not result in the parent
@@ -104,11 +104,11 @@ Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with no parenting
    Scene with no parenting.
 
 If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
-click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the
-*Set Parent To* pop-up menu.
-This will result in "EmptyA" object being the *Parent Object* of the Monkey object. With
-only "EmptyA" selected rotating/scaling/moving it will result in the Monkey object being
-altered respectively.
+click "EmptyA" object and press :kbd:`Ctrl-P` and finally select *Object*
+from the *Set Parent To* pop-up menu.
+This will result in "EmptyA" object being the *Parent Object* of the Monkey object.
+With only "EmptyA" selected rotating/scaling/moving it will result in
+the Monkey object being altered respectively.
 
 Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the left a little.
 

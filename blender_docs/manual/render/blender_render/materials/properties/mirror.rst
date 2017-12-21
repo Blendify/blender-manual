@@ -4,8 +4,8 @@
 Mirror Reflections
 ******************
 
-Mirror reflections are computed in the Blender Render and Cycles render engines using ray
-tracing. (n.b. Reflections are not available in the Game Engine).
+Mirror reflections are computed in the Blender Render and Cycles render engines using ray tracing.
+(n.b. Reflections are not available in the Game Engine).
 Ray tracing can be used to make a material reflect its surroundings, like a mirror.
 The principle of ray-traced reflections is very simple:
 a ray is fired from the camera and travels through the scene until it encounters an object.
@@ -22,8 +22,8 @@ this parameter sets the maximum number of bounces allowed for a single ray.
 
 .. note::
 
-   You need to enable ray tracing in your scene settings if you want to use ray-traced
-   reflections. This is done in the :menuselection:`Render --> Shading` panel.
+   You need to enable ray tracing in your scene settings if you want to use ray-traced reflections.
+   This is done in the :menuselection:`Render --> Shading` panel.
 
 The *Mirror Color* in the mirror panel is the color of the light reflected back. Usually,
 for normal mirrors, use white. However, some mirrors color the reflection (e.g. metals),

@@ -106,9 +106,9 @@ Aerodynamics
 
 This special exterior force is not applied to the vertices but to the connecting edges.
 Technically, a force perpendicular to the edge is applied.
-The force scales with the projection of the relative speed on the edge (dot product). Note
-that the force is the same if wind is blowing or if you drag the edge through the air with the
-same speed. That means that an edge moving in its own direction feels no force,
+The force scales with the projection of the relative speed on the edge (dot product).
+Note that the force is the same if wind is blowing or if you drag the edge through the air
+with the same speed. That means that an edge moving in its own direction feels no force,
 and an edge moving perpendicular to its own direction feels maximum force.
 
 Type

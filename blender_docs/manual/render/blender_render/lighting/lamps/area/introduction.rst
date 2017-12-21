@@ -4,10 +4,10 @@
 Introduction
 ************
 
-The *Area* lamp simulates light originating from a surface (or surface-like)
-emitter. For example, a TV screen, office neon lamps, a window,
-or a cloudy sky are just a few types of area lamp. The area lamp produces shadows with soft
-borders by sampling a lamp along a grid the size of which is defined by the user.
+The *Area* lamp simulates light originating from a surface (or surface-like) emitter.
+For example, a TV screen, office neon lamps, a window,
+or a cloudy sky are just a few types of area lamp. The area lamp produces shadows with
+soft borders by sampling a lamp along a grid the size of which is defined by the user.
 This is in direct contrast to point-like artificial lights which produce sharp borders.
 
 .. figure:: /images/render_blender-render_lighting_lamps_area_introduction_common-options.png

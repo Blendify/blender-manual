@@ -159,7 +159,7 @@ In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effec
 
 #. Select the object's sloping top edge.
 #. Create a Custom Orientation with :kbd:`Ctrl-Alt-Spacebar` and rename it "Top Edge".
-#. Select the objects's bottom, right edge.
+#. Select the objects' bottom, right edge.
 #. Extrude with :kbd:`E`.
 #. Cancel the extrusion's default movement by pressing :kbd:`RMB` or :kbd:`Esc`.
 #. Hit :kbd:`G` to reinitiate movement.

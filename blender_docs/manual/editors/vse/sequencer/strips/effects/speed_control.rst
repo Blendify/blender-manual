@@ -10,7 +10,7 @@ A *Global Speed* less than 1.0 makes the strip play slower; greater than 1.
 and the strip will run out of frames before the end frame.
 When the strip runs out of frames to display, it will just keep repeating the last one;
 action will appear to freeze. To avoid this,
-position the next strip under the original at a point where you want motion to continue.
+position the next strip under the original at a point where you want the motion to continue.
 
 
 Options

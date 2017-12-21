@@ -94,9 +94,10 @@ Two-Point Rig
 
 The two-point lighting rig provides a balanced illumination of an object.
 Shown to the right are the views of the standard two-point lighting rig.
-It is called the two-point because there are two points of light. The standard two-point
-lighting rig provides a balanced illumination of untextured objects hanging out there in 3D
-space. This rig is used in real studios for lighting a product, especially a glossy one.
+It is called the two-point because there are two points of light.
+The standard two-point lighting rig provides a balanced illumination of
+untextured objects hanging out there in 3D space.
+This rig is used in real studios for lighting a product, especially a glossy one.
 
 Both lights are almost the same but do different things. Both emulate very wide,
 soft light by being *Hemi*. In real life,
@@ -150,8 +151,8 @@ or with multiple people, keeping the key light on the main actor.
 This rig is also used to light products from all angles,
 and the side fill lights light up the props.
 
-The key light is the *Area* light placed slightly above and to the left of the
-camera. It allows the specular to come out. It is about 30 BU back from the subject,
+The key light is the *Area* light placed slightly above and to the left of the camera.
+It allows the specular to come out. It is about 30 BU back from the subject,
 and travels with the camera. A little specular shine lets you know there is a light there,
 and that you are not looking at a ghost. In real life, it is a spot with baffles, or blinders,
 that limit the area of the light.

@@ -19,9 +19,9 @@ This is an important point to understand,
 because selecting bones' joints only might lead to non-obvious behavior,
 with respect to which bone you actually select, see the.
 
-Note that unlike the mesh draw type, the armature draw type has no effect on selection
-behavior. In other words,
-you can select a bone's joint or body the same way regardless of the bone visualization chosen.
+Note that unlike the mesh draw type, the armature draw type has no effect on selection behavior.
+In other words, you can select a bone's joint or body the same way regardless
+of the bone visualization chosen.
 
 
 Selecting Bone Joints

@@ -11,7 +11,7 @@ Displacement
 The shape of the surface and the volume inside its mesh may be altered by the displacement shaders.
 This way, textures can then be used to make the mesh surface more detailed.
 
-There are two types of displacement methods that can be used: `True Displacement`_  and `Bump Mapping`_.
+There are two types of displacement methods that can be used: `True Displacement`_ and `Bump Mapping`_.
 Depending on the settings, the displacement may be virtual,
 only modifying the surface normals to give the impression of displacement,
 known as bump mapping, or a combination of real and virtual displacement.

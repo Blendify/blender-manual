@@ -116,7 +116,7 @@ Relative Path
    Sets the file path to be relative to the currently open blend-file.
 Detect Sequences
    Automatically detects image sequences in the selected images (based on the file name).
-   Disable this when you do want to get single images that are part of a sequence. 
+   Disable this when you do want to get single images that are part of a sequence.
 
 
 .. _image-formats-open-sequence:

@@ -4,7 +4,7 @@
 What's New
 **********
 
-This page lists major changes and additions to the manual. 
+This page lists major changes and additions to the manual.
 The `Blender release notes <https://www.blender.org/features/releases/>`__
 are located on the website and in the Wiki.
 

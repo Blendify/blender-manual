@@ -24,7 +24,7 @@ Motion Paths
 
    | Mode:     All Modes
    | Panel:    :menuselection:`Armature --> Motion Paths`
-   
+
 In the :doc:`Motion Paths  </animation/motion_paths>` panel you can enable visualization
 of the motion path your skeleton leaves when animated.
 

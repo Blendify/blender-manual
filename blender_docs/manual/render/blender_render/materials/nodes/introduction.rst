@@ -66,8 +66,8 @@ material panel or the Node editor. You will see a change in the material panel.
 
    Use material nodes button.
 
-What you have just done is told Blender to make the material you were on to become the node
-tree. Most of the panels we normally find in the material menu are now gone.
+What you have just done is told Blender to make the material you were on to become the node tree.
+Most of the panels we normally find in the material menu are now gone.
 
 If you switch to the *Compositing* :doc:`screen </interface/window_system/screens>`
 with :kbd:`Ctrl-Left`, if you are on the default screen,

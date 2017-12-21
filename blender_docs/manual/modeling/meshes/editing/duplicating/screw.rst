@@ -337,8 +337,8 @@ Creating Perfect Screw Spindles
 Using the Spring Example, it is easy to create perfect Screw Spindles
 (like the ones present in normal screws that we can buy in hardware stores).
 Perfect Screw Spindles use a profile with the same height as its vector, and the beginning and
-ending vertex of the profile are placed at a straight parallel line with the axis of
-extrusion. The easiest way of achieving this effect is to create a simple profile where the
+ending vertex of the profile are placed at a straight parallel line with the axis of extrusion.
+The easiest way of achieving this effect is to create a simple profile where the
 beginning and ending vertices create a straight parallel line. Blender will not take into account
 any of the vertices present in the middle but those two to take its angular vector,
 so the spindles of the screw (which are defined by the turns value)

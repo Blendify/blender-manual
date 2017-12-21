@@ -57,4 +57,4 @@ Springs
       Stiffness
          Spring Stiffness of the rotation around the X, Y or Z axis respectively. Specifies how "bendy" the spring is.
       Damping
-         Spring Damping of the rotation around the  X, Y or Z axis respectively. Amount of damping the spring has.
+         Spring Damping of the rotation around the X, Y or Z axis respectively. Amount of damping the spring has.

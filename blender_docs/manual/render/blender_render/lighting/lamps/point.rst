@@ -9,11 +9,12 @@ Point
 
    Point lamp.
 
-The *Point* lamp is an omni-directional point of light, that is,
-a point radiating the same amount of light in all directions. It's visualized by a plain,
-circled dot. Being a point light source, the direction of the light hitting an object's
-surface is determined by the line joining the lamp and the point on the surface of the object
-itself. It can be used as simple model of e.g. a light bulb.
+The *Point* lamp is an omni-directional point of light,
+that is, a point radiating the same amount of light in all directions.
+It's visualized by a plain, circled dot.
+Being a point light source, the direction of the light hitting an object's surface
+is determined by the line joining the lamp and the point on the surface of the object itself.
+It can be used as simple model of e.g. a light bulb.
 
 Light intensity/energy decays based on (among other variables)
 distance from the *Point* lamp to the object. In other words,

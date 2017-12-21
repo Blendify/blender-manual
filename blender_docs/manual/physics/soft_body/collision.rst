@@ -106,9 +106,9 @@ in the :ref:`Soft Body Solver settings <physics-softbody-settings-solver>`.
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
 In Fig. :ref:`fig-softbody-collision-vertex2` you can see vertices traveling at different speeds.
 The two on the far right (5 and 6) are traveling so fast that they pass right through the collision zone
-(this is because of the default solver precision, which we can fix later). You will notice
-that the fourth vertex also travels quite fast and because it is heavier it breaches the inner
-zone. The first three vertices collide correctly.
+(this is because of the default solver precision, which we can fix later). You will notice that
+the fourth vertex also travels quite fast and because it is heavier it breaches the inner zone.
+The first three vertices collide correctly.
 
 .. _fig-softbody-collision-vertex3:
 
@@ -130,7 +130,7 @@ If the collision you have set up is not behaving properly, you can try the follo
 .. tip:: The best way
 
    Add *Loop Cuts* to your Soft Body object in strategic areas that
-   you know are most likely to  be involved in a collision.
+   you know are most likely to be involved in a collision.
 
 - The Soft Body object must have more subdivisions than the collision object.
 - Check the direction of the face normals.

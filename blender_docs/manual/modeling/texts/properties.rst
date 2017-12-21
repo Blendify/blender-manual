@@ -144,11 +144,10 @@ If you select a font that Blender cannot understand,
 you will get the error ``Not a valid font``.
 
 Remember the same font will be applied to all chars with same style in a text,
-but that a separate font is required for each style. For example,
-you will need to load an *Italics* font in order to make characters or words italic. Once
-the font is loaded you can apply that font "Style" to the selected characters or the whole
-object. In all,
-you would need to load a minimum of four different types of fonts to represent each style
+but that a separate font is required for each style.
+For example, you will need to load an *Italics* font in order to make characters or words italic.
+Once the font is loaded you can apply that font "Style" to the selected characters or the whole object.
+In all, you would need to load a minimum of four different types of fonts to represent each style
 (Normal, Italics, Bold, Bold-Italics).
 
 It is important to understand, that Blender does not care what font
@@ -261,8 +260,8 @@ You can change the text case by selecting it then clicking the *To Upper* or
 
 Enable the *Small Caps* option to type characters as small caps.
 
-The size of the *Small Caps* can be changed with the *Small Caps Scale*
-setting. Note that the *Small Caps Scale* is applied the same to all *Small Caps* formatted characters.
+The size of the *Small Caps* can be changed with the *Small Caps Scale* setting.
+Note that the *Small Caps Scale* is applied the same to all *Small Caps* formatted characters.
 
 
 Paragraph

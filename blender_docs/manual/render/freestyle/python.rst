@@ -167,9 +167,10 @@ point of the new chain and the other to determine its ending point. This second 
 lead to a set of Chains that are disjoint or that overlap if the two predicates are different.
 (see ``Operators.sequentialSplit()`` for more details).
 
-Recursive splitting ``Operators.recursiveSplit()`` evaluates a function on the 0D elements
-along the Chain at a given resolution and find the point that gives the maximum value for the
-function. The Chain is then split into two at that point.
+Recursive splitting ``Operators.recursiveSplit()`` evaluates a function
+on the 0D elements along the Chain at a given resolution and
+find the point that gives the maximum value for the function.
+The Chain is then split into two at that point.
 This process is recursively repeated on each of the two new Chains,
 until the input Chain satisfies a user-specified stopping condition. ::
 

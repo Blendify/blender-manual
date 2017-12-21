@@ -147,8 +147,8 @@ Other
 Attributes
 ==========
 
-Some object, particle and mesh attributes are available to the built-in getattribute()
-function. UV maps and vertex colors can be retrieved using their name.
+Some object, particle and mesh attributes are available to the built-in ``getattribute()`` function.
+UV maps and vertex colors can be retrieved using their name.
 Other attributes are listed below:
 
 ``geom:generated``

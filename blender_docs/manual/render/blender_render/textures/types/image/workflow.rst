@@ -8,12 +8,12 @@ The process consists of the following steps:
 #. Create the Mesh. :doc:`Unwrap </editors/uv_image/uv/editing/unwrapping/index>` it into one or more
    :doc:`UV Layouts </editors/uv_image/uv/layout_management>`.
 #. Create one or more Materials for the Mesh.
-#. Create one or more images for each UV Layout and aspect of the texture. Either
+#. Create one or more images for each UV Layout and aspect of the texture. Either:
    - Paint directly on the mesh using Texture Paint in the 3D View,
    - Load and/or edit an image in the UV/Image Editor, or
    - Bake the existing materials into an image for the UV/Image Editor.
 #. Apply those images as UV Textures to the mesh to affect one or more aspects of the mesh.
-   This is done by using one or more of the numerous Map To options. For example,
+   This is done by using one or more of the numerous Map To options. For example:
    - Map to Color to affect the diffuse coloring of the mesh,
    - Map to Nor to affect the normal direction to give the surface a bumpy or creased look, or
    - Map to Spec (specularity) to make certain areas look shiny and oily.
@@ -244,9 +244,8 @@ the green background shows through.
 Transparent areas of the UV Texture insist on rendering black.
 
 The bottom ball uses multiple materials. Most of the ball (all faces except the middle band)
-is a base material that does not have Face Textures (nor Vertex Color Paint)
-enabled. Without it enabled,
-the base blue material color shows and the pink color texture is mixed on top.
+is a base material that does not have Face Textures (nor Vertex Color Paint) enabled.
+Without it enabled, the base blue material color shows and the pink color texture is mixed on top.
 The middle band is assigned a new material (2 Mat 2)
 that *does* have vertex paint and Face Textures enabled.
 The middle band of faces were vertex painted yellow,

@@ -49,13 +49,13 @@ and altering the Angle slider provided that no other actions take place between 
 Cursor Position and View
 ------------------------
 
-The location of the 3D cursor can be used to alter the results of the *Warp*
-transformation. As can be seen from the example in this section, the *Warp* radius
+The location of the 3D cursor can be used to alter the results of the *Warp* transformation.
+As can be seen from the example in this section, the *Warp* radius
 is dependent on the distance of the cursor from the selected elements.
 The greater the distance, the greater the radius.
 
-The result of the *Warp* transform is also influenced by your current view. The
-example in this section shows the results of a 180 degree *Warp* transform applied
+The result of the *Warp* transform is also influenced by your current view.
+The example in this section shows the results of a 180 degree *Warp* transform applied
 to the same Suzanne mesh when in different views. A 3D render is also provided for comparison.
 
 .. figure:: /images/modeling_meshes_editing_transform_warp_cursor-view.jpg

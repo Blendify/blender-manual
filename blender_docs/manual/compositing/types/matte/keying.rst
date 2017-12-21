@@ -92,7 +92,7 @@ Outputs
 =======
 
 Image
-   Processed image with the *Matte* applied to the images's :term:`alpha channel`.
+   Processed image with the *Matte* applied to the images' :term:`alpha channel`.
 Matte
    Output matte to use for checking the quality of the key, or to manually apply
    using a :doc:`Set Alpha Node </compositing/types/converter/set_alpha>` or
@@ -104,9 +104,9 @@ Edges
 .. tip::
 
    If there are problems with the edges of the matte, it may help to start with
-   adjusting the *Edge Kernel* parameters before adjusting feathering. Detected
-   edges are not subject to *Clip Black* / *Clip White* thresholds to preserve
-   fine edge detail. You can check edge detection by connecting a
+   adjusting the *Edge Kernel* parameters before adjusting feathering.
+   Detected edges are not subject to *Clip Black* / *Clip White* thresholds
+   to preserve fine edge detail. You can check edge detection by connecting a
    :doc:`Viewer Node </compositing/types/output/viewer>` to the *Edges* output.
 
    Sharper detected edges (smaller *Edge Kernel Radius*, like 2 / larger *Edge Kernel Tolerance*,

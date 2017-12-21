@@ -65,7 +65,7 @@ To give an example, here is the simplest possible add-on::
 
 ``bl_info``
    is a dictionary containing add-on meta-data such as the title,
-   version and author to be displayed in the user preferences add-on list.
+   version and author to be displayed in the User Preferences add-on list.
 ``register``
    is a function which only runs when enabling the add-on,
    this means the module can be loaded without activating the add-on.
@@ -91,7 +91,7 @@ So an add-on is just a way to encapsulate a Python module in a way a user can ea
 .. note::
 
    Running this script within the Text editor won't print anything,
-   to see the output it must be installed through the user preferences.
+   to see the output it must be installed through the User Preferences.
    Messages will be printed when enabling and disabling.
 
 
@@ -192,7 +192,7 @@ Install the Add-on
 ------------------
 
 Once you have your add-on within in Blender's text editor,
-you will want to be able to install it so it can be enabled in the user preferences to load on startup.
+you will want to be able to install it so it can be enabled in the User Preferences to load on startup.
 
 Even though the add-on above is a test, let's go through the steps anyway so you know how to do it for later.
 
@@ -443,7 +443,7 @@ our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to a
            km.keymap_items.remove(kmi)
        addon_keymaps.clear()
 
-Notice how the keymap item can have a ``total`` setting  different than the default set by the operator,
+Notice how the keymap item can have a ``total`` setting different than the default set by the operator,
 this allows you to have multiple keys accessing the same operator with different settings.
 
 .. note::
@@ -538,7 +538,7 @@ Bringing It All Together
 
    In the menu.
 
-Run the script (or save it and add it through the Preferences like before) and it will appear in the menu.
+Run the script (or save it and add it through the User Preferences like before) and it will appear in the menu.
 
 .. figure:: /images/advanced_scripting_addon-tutorial_op-prop.png
 
@@ -550,7 +550,7 @@ After selecting it from the menu, you can choose how many instances of the cube 
 
    Directly executing the script multiple times will add the menu each time too.
    While not useful behavior, there's nothing to worry about since add-ons will not
-   register themselves multiple times when enabled through the user preferences.
+   register themselves multiple times when enabled through the User Preferences.
 
 
 Conclusions

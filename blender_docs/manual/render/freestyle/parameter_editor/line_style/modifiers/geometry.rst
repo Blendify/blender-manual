@@ -16,8 +16,8 @@ As with other modifier stacks in Blender, they are applied from top to bottom.
 2D Offset
 =========
 
-The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbone
-geometry. It has two sets of independent options/effects:
+The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbone geometry.
+It has two sets of independent options/effects:
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-offset.png
 
