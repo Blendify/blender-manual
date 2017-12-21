@@ -54,7 +54,7 @@ Menu
    :class: refbox
 
    | Mode:     Pose Mode
-   | Menu:     :menuselection:`Pose --> Pose  Library`
+   | Menu:     :menuselection:`Pose --> Pose Library`
 
 - Browse Poses. :kbd:`Ctrl-L`.
 - Add Pose. :kbd:`Shift-L`.

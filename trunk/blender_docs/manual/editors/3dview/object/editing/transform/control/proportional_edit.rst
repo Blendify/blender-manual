@@ -72,9 +72,9 @@ This is done by the tool's automatic modification of unselected vertices within 
 Influence
 ---------
 
-You can increase or decrease the radius of the proportional editing influence with the mouse
-wheel :kbd:`WheelUp`, :kbd:`WheelDown` or :kbd:`PageUp`, :kbd:`PageDown`
-respectively. As you change the radius,
+You can increase or decrease the radius of the proportional editing influence with
+the mouse wheel :kbd:`WheelUp`, :kbd:`WheelDown` or
+:kbd:`PageUp`, :kbd:`PageDown` respectively. As you change the radius,
 the points surrounding your selection will adjust their positions accordingly.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_influence.jpg

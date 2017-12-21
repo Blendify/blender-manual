@@ -3,9 +3,9 @@
 Dome Camera
 ***********
 
-This feature allows artists to visualize their interactive projects within an immersive dome
-environment. In order to make it an extensible tool, we are supporting Fulldome,
-Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
+This feature allows artists to visualize their interactive projects within an immersive dome environment.
+In order to make it an extensible tool, we are supporting Fulldome, Truncated domes (front and rear),
+Planetariums and domes with spherical mirrors.
 
 .. tip::
 

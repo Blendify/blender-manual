@@ -6,15 +6,16 @@ Introduction
 :term:`Constraints <Constraint>` (also known as joints) for rigid bodies connect two rigid bodies.
 
 The physics constraints available in the non-game modes are meant to be attached to an :term:`Empty` object.
-The constraint then has fields which can be pointed at the two physics-enabled object which will be bound by the
-constraint. The *Empty* object provides a location and axis for the constraint distinct from the two constrained
-objects. The location of the entity hosting the physics constraint marks a location and set of
-axes on each of the two
-constrained objects. These two anchor points are calculated at the beginning of the animation and their position and
-orientation remain fixed in the *local* coordinate system of the object for the duration of the animation. The
-objects can move far from the constraint object, but the constraint anchor moves with the object. If this feature
-seems limiting, consider using multiple objects with a non-physics *Child-of* constraint and animate
-the relative location of the child.
+The constraint then has fields which can be pointed at the two physics-enabled object
+which will be bound by the constraint.
+The *Empty* object provides a location and axis for the constraint distinct from the two constrained objects.
+The location of the entity hosting the physics constraint marks a location and
+set of axes on each of the two constrained objects.
+These two anchor points are calculated at the beginning of the animation and their position and
+orientation remain fixed in the *local* coordinate system of the object for the duration of the animation.
+The objects can move far from the constraint object, but the constraint anchor moves with the object.
+If this feature seems limiting, consider using multiple objects with a non-physics *Child-of* constraint and
+animate the relative location of the child.
 
 
 Connect

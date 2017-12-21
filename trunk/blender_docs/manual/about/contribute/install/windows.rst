@@ -17,9 +17,9 @@ Installing Python
    In this guide version 3.6.x is used.
 #. Install Python with the installation wizard.
    Please make sure that you enable the "Add Python to Path" option:
-   
+
    .. figure:: /images/about_contribute_install_windows_installer.png
-   
+
       The option must be enabled so you can build the manual with the make script.
 
    All other settings can remain as set by default.

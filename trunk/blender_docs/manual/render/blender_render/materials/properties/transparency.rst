@@ -124,8 +124,8 @@ In addition to the common options given above, the following property controls a
 
 IOR
    Index of Refraction. Sets how much a ray traveling through the material will be refracted,
-   hence producing a distorted image of its background. See
-   `IOR values for Common Materials`_ below.
+   hence producing a distorted image of its background.
+   See `IOR values for Common Materials`_ below.
 Filter
    Amount of filtering for transparent ray trace. The higher this value,
    the more the base color of the material will show.

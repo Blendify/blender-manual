@@ -62,10 +62,9 @@ and also helps to move the track back to the correct position.
 The track can be moved directly using this widget by mouse dragging.
 
 If an anchor is used (the position in the image which is tracking is different from the
-position which is used for parenting),
-a preview widget will display the area around the anchor position. This configuration helps in
-masking some things when there is no good feature at position where the mask corner should be
-placed. Details of this technique will be written later.
+position which is used for parenting), a preview widget will display the area around the anchor position.
+This configuration helps in masking some things when there is no good feature at position where
+the mask corner should be placed. Details of this technique will be written later.
 
 There is small area below the preview widget which can be used to enlarge the vertical size of
 preview widget (the area is highlighted with two horizontal lines).

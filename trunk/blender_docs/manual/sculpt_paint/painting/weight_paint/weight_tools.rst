@@ -255,8 +255,8 @@ This value is multiplied by the factor given in the Operator options (see below)
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-ex2.png
 
-Now let us see what happens when we select all but one of the neighbors of the selected vertex as
-well. Again all connected and unselected vertices are marked with a gray circle.
+Now let us see what happens when we select all but one of the neighbors of the selected vertex as well.
+Again all connected and unselected vertices are marked with a gray circle.
 When we call the Smooth tool now and set the Factor to 1.0,
 then we see different results for each of the selected vertices:
 
@@ -301,7 +301,7 @@ Factor
    For Factor > 0 the weights of the affected vertices gradually shift from their original value
    towards the average weight of all connected **and** unselected vertices (see examples above).
 Iterations
-   ToDo  2.76.
+   ToDo 2.76.
 Expand/Contract
    ToDo 2.76.
 Source
@@ -318,8 +318,8 @@ Transfer Weights
 ================
 
 Copy weights from other objects to the vertex groups of the active Object.
-By default this tool copies all vertex groups contained in the selected objects to the target
-object. However, you can change the tool's behavior in the Operator panel (see below).
+By default this tool copies all vertex groups contained in the selected objects to the target object.
+However, you can change the tool's behavior in the Operator panel (see below).
 
 
 Prepare the Copy
@@ -363,10 +363,10 @@ Operator Panel Confusion
 
 You may notice that the Operator panel (see below)
 stays available after the weight transfer is done.
-The panel only disappears when you call another Operator that has its own Operator panel. This can
-lead to confusion when you use Transfer weights repeatedly after you changed your vertex
-groups. If you then use the still-visible Operator panel, then Blender will reset your work to its
-state right before you initially called the Transfer Weights tool.
+The panel only disappears when you call another Operator that has its own Operator panel.
+This can lead to confusion when you use Transfer weights repeatedly
+after you changed your vertex groups. If you then use the still-visible Operator panel,
+then Blender will reset your work to its state right before you initially called the Transfer Weights tool.
 
 
 Workaround

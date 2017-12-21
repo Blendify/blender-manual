@@ -11,9 +11,9 @@ To Sphere
    | Menu:     :menuselection:`Mesh --> Transform --> To Sphere`
    | Hotkey:   :kbd:`Shift-Alt-S`
 
-The *To Sphere* transformation will give the selection spherical qualities. The
-Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying the
-*To Sphere* transformation to the monkey mesh.
+The *To Sphere* transformation will give the selection spherical qualities.
+The Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying
+the *To Sphere* transformation to the monkey mesh.
 
 .. _fig-mesh-deform-to-sphere-monkey:
 

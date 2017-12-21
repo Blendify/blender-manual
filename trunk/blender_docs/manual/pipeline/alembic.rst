@@ -6,18 +6,19 @@ Alembic
 From the `Alembic home page <https://www.alembic.io/>`_:
 
    Alembic is an open computer graphics interchange framework. Alembic distills complex, animated
-   scenes into a non-procedural, application-independent set of baked geometric results. This
-   'distillation' of scenes into baked geometry is exactly analogous to the distillation of
+   scenes into a non-procedural, application-independent set of baked geometric results.
+   This 'distillation' of scenes into baked geometry is exactly analogous to the distillation of
    lighting and rendering scenes into rendered image data.
 
-   Alembic is focused on efficiently storing the computed results of complex procedural geometric
-   constructions. It is very specifically **not** concerned with storing the complex dependency graph
-   of procedural tools used to create the computed results. For example, Alembic will efficiently
-   store the animated vertex positions and animated transforms that result from an arbitrarily
-   complex animation and simulation process which could involve enveloping, corrective shapes,
-   volume-preserving simulations, cloth and flesh simulations, and so on. Alembic will not attempt
-   to store a representation of the network of computations (rigs, basically) which are required to
-   produce the final, animated vertex positions and animated transforms.
+   Alembic is focused on efficiently storing the computed results of complex procedural geometric constructions.
+   It is very specifically **not** concerned with storing the complex dependency graph
+   of procedural tools used to create the computed results.
+   For example, Alembic will efficiently store the animated vertex positions and
+   animated transforms that result from an arbitrarily complex animation and simulation process
+   which could involve enveloping, corrective shapes, volume-preserving simulations,
+   cloth and flesh simulations, and so on.
+   Alembic will not attempt to store a representation of the network of computations (rigs, basically)
+   which are required to produce the final, animated vertex positions and animated transforms.
 
 :abbr:`TL;DR (Too long; didn't read.)`: Alembic can be used to write an animated mesh to disk, and
 read it back quickly & efficiently. This means that a mesh can be animated with a very CPU-heavy rig,
@@ -27,11 +28,12 @@ with only moderate CPU usage.
 Support for the Alembic file format was introduced in
 `Blender 2.78 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.78>`_.
 
-Due to the Open Source nature of the Alembic standard, as well as the C++ library implementing that
-standard, **Blender can be used in a hybrid pipeline**. For example, other software, such as Houdini
-or Maya, can export files to Alembic, which can then be loaded, shaded, and rendered in Blender. It
-is also possible to animate characters (or other models) in Blender, export to Alembic, and load
-those files into other software for further processing.
+Due to the Open Source nature of the Alembic standard as well as
+the C++ library implementing that standard, **Blender can be used in a hybrid pipeline**.
+For example, other software, such as Houdini or Maya, can export files to Alembic,
+which can then be loaded, shaded, and rendered in Blender.
+It is also possible to animate characters (or other models) in Blender, export to Alembic, and
+load those files into other software for further processing.
 
 
 Exporting to Alembic Files

@@ -11,10 +11,9 @@ Color Ramps
 
 In many real life situations, like skin or metals,
 the color of diffuse and specular reflections can differ slightly,
-based on the amount of energy a surface receives or on the light angle of incidence. The
-*Ramp Shader* options in Blender allow you to set a range of colors for a
-*Material*, and define how the range will vary over a surface,
-and how it blends with the 'actual color'
+based on the amount of energy a surface receives or on the light angle of incidence.
+The *Ramp Shader* options in Blender allow you to set a range of colors for a *Material*,
+and define how the range will vary over a surface, and how it blends with the 'actual color'
 (typically from a material or as output of a texture).
 
 Ramps allow you to precisely control the color gradient across a material,

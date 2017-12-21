@@ -177,8 +177,8 @@ all your shadows will be artificially colored.
 Lots of threads in this node setup are shown to the right, so let us walk through it.
 On the left is the Render Layer input node:
 it refers to one of the Render Layers that we have defined for our scene. In the scene,
-we have a reflective ball on a pedestal standing in front of a backdrop. Everything
-(except the ball) is gray. We use a standard four-light rig: backfill placed high,
+we have a reflective ball on a pedestal standing in front of a backdrop.
+Everything (except the ball) is gray. We use a standard four-light rig: backfill placed high,
 two side-fills at ground level, and a key light above and to the left of camera. Suzanne,
 a monkey-shaped geometry, is standing in front of the key light,
 so her shadow is cast into the scene on the floor.

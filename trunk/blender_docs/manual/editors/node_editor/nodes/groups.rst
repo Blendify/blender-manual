@@ -153,8 +153,8 @@ Selecting a set of nodes, ending with the destination group node,
 and pressing :menuselection:`Group --> Group Insert` will move those nodes into that group.
 The moved nodes are collected into a group of their own to preserve their connection context,
 having their own group input and output nodes.
-The group's existing input and output nodes are updated with new sockets, if any, from the new
-nodes. The node group must be edited to contain a single *Group Input* and a single *Group Output* node.
+The group's existing input and output nodes are updated with new sockets, if any, from the new nodes.
+The node group must be edited to contain a single *Group Input* and a single *Group Output* node.
 
 
 Appending Node Groups

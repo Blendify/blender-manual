@@ -85,7 +85,7 @@ Eye Dropper
    In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper`
    available through the pipette icon on the right side.
 Remove ``X``
-   Click  the ``X`` button on the right to remove the reference.
+   Click the ``X`` button on the right to remove the reference.
 
 
 Sub IDs

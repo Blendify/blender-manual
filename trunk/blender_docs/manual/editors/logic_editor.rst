@@ -7,9 +7,8 @@ Logic Editor
 The Logic Editor provides the main method of setting up and editing the game logic for the
 various actors (i.e. objects) that make up the game. The logic for the objects which are
 currently selected in the associated 3D View are displayed as logic bricks,
-which are shown as a table with three columns, showing sensors, controllers, and actuators,
-respectively. The links joining the logic bricks conduct the pulses between sensor-controller
-and controller-actuator.
+which are shown as a table with three columns, showing sensors, controllers, and actuators, respectively.
+The links joining the logic bricks conduct the pulses between sensor-controller and controller-actuator.
 
 To give you a better understanding of the Logic Editor, the image below shows a typical
 editor content in which the major components have been labeled.

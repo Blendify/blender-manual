@@ -80,10 +80,10 @@ actuator setting a different target velocity.
    Servo Control.
 
 Reference Object
-   Specifies the object which the actuator uses as a reference for the
-   velocity. When set, it will use a velocity relative to that object
-   instead of absolute (i.e. world-relative) velocity. Use this for a
-   player object standing on a moving platform.
+   Specifies the object which the actuator uses as a reference for the velocity.
+   When set, it will use a velocity relative to that object
+   instead of absolute (i.e. world-relative) velocity.
+   Use this for a player object standing on a moving platform.
 
 Linear Velocity
    The target linear velocity for the object.
@@ -91,9 +91,8 @@ L
    Determines whether the Linear Velocity specified are in Local
    (button depressed) or Global (button released) coordinates.
 X, Y, Z force limits
-   Sets minimum and maximum limits for the force applied to the
-   object. If disabled (i.e. X, Y or Z buttons are depressed) the
-   force applied is unlimited.
+   Sets minimum and maximum limits for the force applied to the object.
+   If disabled (i.e. X, Y or Z buttons are depressed) the force applied is unlimited.
 
 The following three coefficients determine the response to the
 *velocity error*, which is the difference between the target velocity
@@ -101,8 +100,8 @@ and the object's actual velocity.
 
 Proportional Coefficient
    This controls the reaction proportional to the velocity error.
-   Small values cause smooth (but possibly too slow) changes in
-   velocity. Higher values cause rapid changes, but may cause overshooting.
+   Small values cause smooth (but possibly too slow) changes in velocity.
+   Higher values cause rapid changes, but may cause overshooting.
 Integral Coefficient
    This controls the reaction to the sum of errors so far. Using only
    the Proportional component results in a systematic velocity error

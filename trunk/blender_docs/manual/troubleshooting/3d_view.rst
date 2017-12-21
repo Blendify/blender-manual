@@ -74,7 +74,7 @@ This becomes especially problematic on dense geometry.
 
 Possible Solutions:
 
-OpenGL Occlusion Queries (User Preference)
+OpenGL Occlusion Queries (User Preferences)
    See :menuselection:`User Preferences --> System --> Selection`
 
    This option defaults *Automatic*, try setting this to *OpenGL Occlusion Queries*,
@@ -125,7 +125,7 @@ However, this makes it awkward to explore a scene or model an object from the 'i
 Solutions
 ^^^^^^^^^
 
-- Use :ref:`View Dolly <3dview-nav-zoom-dolly>`
+- Use :ref:`View Dolly <3dview-nav-zoom-dolly>`.
 - Use :ref:`Walk/Fly modes <3dview-walk-fly>`.
 - Use :ref:`Auto Depth <prefs-auto-depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
   These tool will make sure the distance is always the value under the mouse cursor,
@@ -163,7 +163,7 @@ Disable Anti-Aliasing :term:`FSAA, Multi-Sampling <FSAA>`
    You can disable this option by:
 
    - Turning FSAA/multi-sampling off in your graphics card driver options.
-   - Turning *Multi-Sampling* off in the :ref:`system preferences <prefs-system-multi-sampling>`.
+   - Turning *Multi-Sampling* off in the :ref:`System Preferences <prefs-system-multi-sampling>`.
 Change Anti-Aliasing Sample Settings
    Depending on your OpenGL configuration,
    some specific sample settings may work while others fail.

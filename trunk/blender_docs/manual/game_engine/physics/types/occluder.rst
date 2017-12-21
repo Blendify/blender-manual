@@ -44,11 +44,11 @@ Now observe what happens to the profiling stats for each of the following (in or
 Details
 =======
 
-As far as Physics is concerned, this type is equivalent to Rigid Object "No collision". The
-reason why the Occluder mode is mutually exclusive with other physics mode is to emphasize
-the fact that occluders should be specifically designed for that purpose and not every mesh
-should be an occluder. However,
-you can enable the Occlusion capability on physics objects using Python and Logic bricks.
+As far as Physics is concerned, this type is equivalent to Rigid Object "No collision".
+The reason why the Occluder mode is mutually exclusive with other physics mode is
+to emphasize the fact that occluders should be specifically designed for
+that purpose and not every mesh should be an occluder.
+However, you can enable the Occlusion capability on physics objects using Python and Logic bricks.
 See (Link- TODO).
 
 When an occluder object enters the view frustum,
@@ -70,9 +70,9 @@ The BGE traverses the DBVT (Dynamic Bounding Volume Tree)
 and for each node checks if it is entirely hidden by the occluders and if so, culls the node
 (and all the objects it contains).
 
-To further optimize the feature, the BGE builds and uses the Z-Depth buffer only when at least
-one occluder is in the view frustum. Until then,
-there is no performance decrease compared to regular view frustum culling.
+To further optimize the feature, the BGE builds and uses the Z-Depth buffer only
+when at least one occluder is in the view frustum.
+Until then, there is no performance decrease compared to regular view frustum culling.
 
 
 Recommendations

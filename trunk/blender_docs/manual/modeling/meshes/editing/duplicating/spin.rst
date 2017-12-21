@@ -123,8 +123,7 @@ Merge Duplicates
 
 The spin operation leaves duplicate vertices along the profile.
 You can select all vertices at the seam with Box select :kbd:`B` (shown in
-Fig. :ref:`fig-mesh-screw-duplicate`) and
-perform a *Remove Doubles* operation.
+Fig. :ref:`fig-mesh-screw-duplicate`) and perform a *Remove Doubles* operation.
 
 Notice the selected vertex count before and after the *Remove Doubles* operation
 ``Vertex count after removing doubles``. If all goes well, the final vertex count

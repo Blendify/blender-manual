@@ -3,11 +3,10 @@
 Standalone Player
 *****************
 
-The standalone player allows a Blender game to be run without having to load the Blender
-system. This allows games to be distributed to other users,
-without requiring them a detailed knowledge of Blender
+The standalone player allows a Blender game to be run without having to load the Blender system.
+This allows games to be distributed to other users, without requiring them a detailed knowledge of Blender
 (and also without the possibility of unauthorized modification). Note that the Game Engine
-Save as Runtime is an add-on facility which must be pre-loaded before use.
+*Save as Runtime* is an add-on facility which must be pre-loaded before use.
 
 The following procedure will give a standalone version of a working game.
 

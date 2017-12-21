@@ -127,7 +127,7 @@ The image format for saving is independent of the format for rendering.
 The format for saving a UV image is selected in the header of the File browser,
 and defaults to ``PNG`` (``.png``).
 
-If Packing is enabled in the File browsers header,
+If Packing is enabled in the File browser's header,
 or if you manually :menuselection:`Image --> Pack Image`,
 saving your images to a separate file is not necessary.
 

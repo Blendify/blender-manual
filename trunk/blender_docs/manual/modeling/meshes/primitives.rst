@@ -177,7 +177,7 @@ Add Mode
    Major Radius
       Radius from the origin to the center of the cross sections.
    Minor Radius
-      Radius of the torus's cross section.
+      Radius of the torus' cross section.
 
    Exterior Radius
       If viewed along the major axis,

@@ -36,10 +36,9 @@ Linear
 ^^^^^^
 
 This slider input field can have a value between (0.0 to 1.0).
-A value of 1.0 in the *Linear* field and 0.0 in the
-*Quadratic* field in effect means that the light from this source is completely
-linear. This means that at the number of Blender Units distance specified in the
-*Distance* field,
+A value of 1.0 in the *Linear* field and 0.0 in the *Quadratic* field
+in effect means that the light from this source is completely linear.
+This means that at the number of Blender Units distance specified in the *Distance* field,
 this light source's intensity will be half the value it was originally.
 
 When the *Quadratic* slider is set to 0.0, the formula for working out the
@@ -382,9 +381,9 @@ more and more objects become progressively brighter.
 
 The *Distance* parameter is controlling where the light is falling -- at a linear
 rate by default -- to half its original value from the light's origin.
-As you increase or decrease this value, you are changing where this half falloff occurs. You
-could think of *Distance* as the surface of a sphere and the surface is where the
-light's intensity has fallen to half its strength in all directions.
+As you increase or decrease this value, you are changing where this half falloff occurs.
+You could think of *Distance* as the surface of a sphere and the surface is
+where the light's intensity has fallen to half its strength in all directions.
 Note that the light's intensity continues to fall even after *Distance*.
 *Distance* just specifies the distance where half of the light's energy has weakened.
 

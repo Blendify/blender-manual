@@ -32,7 +32,7 @@ Mass
    Mass value for vertices.
    Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
    Larger mass means larger inertia, so also braking a Soft Body is more difficult.
-Mass: Vertex Group 
+Mass: Vertex Group
    Use a specified vertex group for mass values.
 
 
@@ -79,8 +79,8 @@ Goal Strength
 -------------
 
 Default
-   A *Goal* value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated)
-   position. When setting *Goal* to 0.0, the object is only influenced by physical laws.
+   A *Goal* value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated) position.
+   When setting *Goal* to 0.0, the object is only influenced by physical laws.
    By setting goal values between 0.0 and 1.0,
    you can blend between having the object affected only by the animation system,
    and having the object affected only by the soft body effect.

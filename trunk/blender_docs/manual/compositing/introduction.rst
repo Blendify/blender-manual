@@ -72,8 +72,8 @@ You can change the mood of an image:
 Image Size
 ==========
 
-It is recommended to pay attention to image resolution and color depth when mixing and matching
-images. Aliasing (rough edges), color *flatness*,
+It is recommended to pay attention to image resolution and color depth when mixing and
+matching images. Aliasing (rough edges), color *flatness*,
 or distorted images can all be traced to mixing inappropriate resolutions and color depths.
 
 The compositor can mix images with any size,

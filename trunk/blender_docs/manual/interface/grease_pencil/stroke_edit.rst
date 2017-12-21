@@ -176,7 +176,7 @@ To use these operators, there need to be Grease Pencil frames on both sides of t
 
 Interpolate :kbd:`Ctrl-Alt-E`
    It allows you to interactively pick a new sketch interpolate from the neighboring sketches.
-   This is equivalent to the *Breakdown* tool for armatures. 
+   This is equivalent to the *Breakdown* tool for armatures.
 Sequence :kbd:`Ctrl-Shift-E`
    This fills the space between a pair of Grease Pencil frames with interpolated frames.
    It is equivalent to the *Sample* tool in the Dope Sheet Editor.

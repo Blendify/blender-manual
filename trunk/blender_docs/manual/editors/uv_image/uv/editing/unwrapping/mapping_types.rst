@@ -29,7 +29,7 @@ The simpler projection methods use formulas that map 3D space onto 2D space,
 by interpolating the position of points toward a point/axis/plane through a surface.
 The more advanced methods can be used with more complex models, and have more specific uses.
 
-.. (todo move)? split in basic/advanced -- if  more content added. old wiki:
+.. (todo move)? split in basic/advanced -- if more content added. old wiki:
 .. Basic: Cube, Cylinder, Sphere Projection; Project from View
    Based on the fundamental geometry of the object, and how it is being viewed,
 .. Advanced: Unwrap; Smart UV Project; Lightmap Pack; Follow Active Quads
@@ -52,8 +52,8 @@ In the 3D View, select :menuselection:`Mesh --> UV Unwrap --> Unwrap` or
 :kbd:`U` and select Unwrap.
 
 You can also do this from the UV/Image Editor with :menuselection:`UVs --> Unwrap` or :kbd:`E`.
-This method will unwrap all of the faces and reset previous work. The
-UVs menu will appear in the UV/Image Editor after unwrapping has been performed once.
+This method will unwrap all of the faces and reset previous work.
+The UVs menu will appear in the UV/Image Editor after unwrapping has been performed once.
 
 This tool unwraps the faces of the object to provide the
 "best fit" scenario based on how the faces are connected and will fit within the image,

@@ -36,8 +36,8 @@ When a game is running, values of properties are set, manipulated, and evaluated
 :doc:`Property Sensor </game_engine/logic/sensors/types/property>` and the
 :doc:`Property Actuator </game_engine/logic/actuators/types/property>`.
 
-Logic Properties are created and edited using the panel on the left of the Logic Editor
-Panel. The top menu provides a list of the available property types.
+Logic Properties are created and edited using the panel on the left of the Logic Editor panel.
+The top menu provides a list of the available property types.
 
 .. figure:: /images/game-engine_logic_properties_panel.png
 

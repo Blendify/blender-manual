@@ -99,7 +99,7 @@ Snake Hook :kbd:`K`
       Snake-hook tended to loose volume along the stroke,
       with pinch > 0.5 its possible to sculpt shapes without loosing volume
    Rake
-      A factor to support grabbing the mesh with rotation following the cursors motion.
+      A factor to support grabbing the mesh with rotation following the cursor's motion.
 Thumb
    Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
    while moving it in the direction of the brush stroke.
@@ -198,8 +198,8 @@ Lock
    These three buttons allow you to block any modification/deformation
    of your model along selected local axes, while you are sculpting it.
 Tiling
-   Using this option allows you to seamlessly tile your strokes along the given
-   axes. This allows to create repeating patterns.
+   Using this option allows you to seamlessly tile your strokes along the given axes.
+   This allows to create repeating patterns.
 Tile Offset
    The default tile size is set to one :abbr:`BU (Blender Unit)`. The offset allows the
    option to alter the tile size along all three axes.

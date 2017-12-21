@@ -40,8 +40,8 @@ Axes
           Mesh after ten smoothing iterations.
 
 .. seealso:: Subdividing
-   
-   Adjusting the *smooth* option after using the 
+
+   Adjusting the *smooth* option after using the
    :doc:`Subdivide </modeling/meshes/editing/subdividing/subdivide>` tool
    results in a more organic shape.
 

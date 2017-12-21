@@ -183,7 +183,6 @@ on the *Assign* button in the Materials panel.
    Red Green Blue.
 
 For example, to create Fig. :ref:`fig-texts-edit-rgb`
-you would need to create three separate materials and three separate material indices. Each
-word would be assigned a *Material index* by selecting the characters for each word
-and clicking the *Assign* button. Fig. :ref:`fig-texts-edit-rgb`
-is still one single *Text* object.
+you would need to create three separate materials and three separate material indices.
+Each word would be assigned a *Material index* by selecting the characters for each word
+and clicking the *Assign* button. Fig. :ref:`fig-texts-edit-rgb` is still one single *Text* object.

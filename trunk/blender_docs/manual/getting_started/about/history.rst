@@ -4,15 +4,15 @@ Blender's History
 *****************
 
 In 1988, Ton Roosendaal co-founded the Dutch animation studio NeoGeo. NeoGeo quickly became
-the largest 3D animation studio in the Netherlands and one of the leading animation houses in
-Europe. NeoGeo created award-winning productions (European Corporate Video Awards 1993 and 1995)
+the largest 3D animation studio in the Netherlands and one of the leading animation houses in Europe.
+NeoGeo created award-winning productions (European Corporate Video Awards 1993 and 1995)
 for large corporate clients such as multinational electronics company Philips.
 Within NeoGeo Ton was responsible for both art direction and internal software development.
 After careful deliberation Ton decided that the current in-house 3D toolset for NeoGeo was
-too old and cumbersome to maintain, and needed to be rewritten from scratch. In
-1995 this rewrite began and was destined to become the 3D software creation we all know as
-Blender. As NeoGeo continued to refine and improve Blender it became apparent to Ton that
-Blender could be used as a tool for other artists outside of NeoGeo.
+too old and cumbersome to maintain, and needed to be rewritten from scratch.
+In 1995 this rewrite began and was destined to become the 3D software creation we all know as Blender.
+As NeoGeo continued to refine and improve Blender it became apparent to Ton
+that Blender could be used as a tool for other artists outside of NeoGeo.
 
 In 1998, Ton decided to found a new company called Not a Number (NaN)
 as a spin-off of NeoGeo to further market and develop Blender.
@@ -20,8 +20,8 @@ At the core of NaN was a desire to create and distribute a compact,
 cross-platform 3D application for free. At the time, this was a revolutionary concept as most
 commercial 3D applications cost thousands of dollars. NaN hoped to bring professional
 level 3D modeling and animation tools within the reach of the general computing public.
-NaN's business model involved providing commercial products and services around Blender. In
-1999 NaN attended its first SIGGRAPH conference in an effort to more widely promote Blender.
+NaN's business model involved providing commercial products and services around Blender.
+In 1999 NaN attended its first SIGGRAPH conference in an effort to more widely promote Blender.
 Blender's first SIGGRAPH convention was a huge success and gathered a tremendous amount of
 interest from both the press and attendees. Blender was a hit and its huge potential confirmed!
 

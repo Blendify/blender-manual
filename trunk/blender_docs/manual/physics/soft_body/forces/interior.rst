@@ -92,7 +92,7 @@ Tips
 
 Preventing Collapse
 -------------------
- 
+
 Stiff Quads
 ^^^^^^^^^^^
 

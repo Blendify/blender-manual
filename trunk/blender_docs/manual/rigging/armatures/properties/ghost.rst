@@ -11,7 +11,7 @@ Ghost
 
 Ghosts are black outlines (more or less opaque) of the bones as they are positioned at certain frames.
 This visualization is only shown in *Pose Mode*.
- 
+
 In traditional cartoon creation, animators use tracing paper,
 to see several frames preceding the one they are working on.
 This allows them to visualize the overall movement of their character,

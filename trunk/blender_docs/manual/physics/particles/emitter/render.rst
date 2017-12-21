@@ -260,11 +260,13 @@ UV Channels
 Billboard Normal UV
    Coordinates are the same for every billboard, and just place the image straight on the square.
 Billboard Time-Index (X-Y)
-   Coordinates actually define single points in the texture plane with the x-axis as time and y-axis as the particle
-   index. For example using a horizontal blend texture mapped to color from white to black will give particles
-   that start off as white and gradually change to black during their lifetime. On the other hand a vertical blend
-   texture mapped to color from white to black will make the first particle to be white and the last particle to be
-   black with the particles in between a shade of gray.
+   Coordinates actually define single points in the texture plane with
+   the X-axis as time and Y-axis as the particle index.
+   For example using a horizontal blend texture mapped to color from white to black will give particles
+   that start off as white and gradually change to black during their lifetime.
+   On the other hand a vertical blend texture mapped to color from white to black
+   will make the first particle to be white and the last particle to be black
+   with the particles in between a shade of gray.
 
 The animation of the UV textures is a bit tricky.
 The UV texture is split into rows and columns (N times N). The texture should be square.
@@ -273,8 +275,8 @@ This generated UV coordinates for this layer.
 
 Split UV's
    The amount of rows/columns in the texture to be used.
-   Coordinates are a single part of the *UV Split* grid, which is a n?n grid over the whole texture. What
-   the part is used for each particle and at what time is determined by the *Offset* and
+   Coordinates are a single part of the *UV Split* grid, which is a n?n grid over the whole texture.
+   What the part is used for each particle and at what time is determined by the *Offset* and
    *Animate* controls. These can be used to make each billboard unique or to use an "animated" texture for
    them by having each frame of the animation in a grid in a big image.
 Billboard Split UV

@@ -45,9 +45,9 @@ Scripts Path
 ------------
 
 By default Blender looks in several directories (OS dependent) for scripts.
-By setting a user script path in the preferences an additional directory is looked in. This
-can be used to store certain scripts/templates/presets independently of the currently used
-Blender Version.
+By setting a user script path in the preferences an additional directory is looked in.
+This can be used to store certain scripts/templates/presets independently of
+the currently used Blender Version.
 
 Inside the specified folder, specific subfolders have to be created to tell Blender what to look
 for where. This folder structure has to mirror the structure of the scripts folder found in

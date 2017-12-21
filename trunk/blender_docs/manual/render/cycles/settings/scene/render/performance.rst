@@ -43,8 +43,9 @@ Progressive Refine
    For rendering animations it is best to disable this feature, as stopping a frame early is not possible.
 
 Save Buffers
-   Saves all render layers and passes to the temp directory on a drive, and reads them back after rendering has
-   finished. This saves memory usage during rendering, particularly when using many render layers and passes.
+   Saves all render layers and passes to the temp directory on a drive, and
+   reads them back after rendering has finished.
+   This saves memory usage during rendering, particularly when using many render layers and passes.
 
 
 Viewport
@@ -72,9 +73,8 @@ Acceleration Structure
 ======================
 
 Use Spatial Splits
-   Spatial splits improve rendering performance in scenes with a mix of large and small polygons. The
-   downsides are longer BVH build times and slightly increased memory usage.
-
+   Spatial splits improve rendering performance in scenes with a mix of large and small polygons.
+   The downsides are longer BVH build times and slightly increased memory usage.
 Use Hair BVH
    Use a special type of :term:`BVH` for rendering hair.
    The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.

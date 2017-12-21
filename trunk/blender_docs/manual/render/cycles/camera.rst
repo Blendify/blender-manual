@@ -59,9 +59,8 @@ always rendering the full 360° over the X-axis and 180° over the Y-axis.
 
 This projection is compatible with the environment texture as used for world shaders,
 so it can be used to render an environment map. To match the default mapping,
-set the camera object rotation to (90, 0, -90) or pointing along the positive X-axis. This
-corresponds to looking at the center of the image using the default environment texture
-mapping.
+set the camera object rotation to (90, 0, -90) or pointing along the positive X-axis.
+This corresponds to looking at the center of the image using the default environment texture mapping.
 
 Minimum/Maximum Latitude/Longitude
    Limits of the vertical and horizontal field of view angles.
