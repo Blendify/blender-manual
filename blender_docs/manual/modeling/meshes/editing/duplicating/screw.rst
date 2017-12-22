@@ -95,7 +95,7 @@ both in the Info Editor and at the place where you clicked to start performing t
 
 .. figure:: /images/modeling_meshes_editing_duplicating_screw_error-msg-info-editor.png
 
-   Screw Error message in the Header of the Info editor.
+   Screw Error message in the header of the Info editor.
 
 .. _fig-mesh-screw-error-popup:
 
@@ -207,7 +207,7 @@ The Spring Example
 
 #. Open Blender and delete the default Cube.
 #. Change from perspective to orthographic view using shortcut :kbd:`Numpad5`.
-#. Change your view from *User Ortho* to *Front Ortho*, using the shortcut :kbd:`Numpad1`.
+#. Change your view from *User Orthographic* to *Front Orthographic*, using the shortcut :kbd:`Numpad1`.
    You will see the X (red) and Z (blue) coordinate lines.
 #. In case you have moved your cursor by clicking anywhere in the screen, again place your cursor at the Center,
    using the shortcut :kbd:`Shift-S` choosing *Cursor to Center* or the Transform Panel,
@@ -316,7 +316,7 @@ profile prior to the extrusions. It means that Blender will connect each of the 
 inclined with the vector you have given.
 Below we show two bent Meshes using the Axis vectors and the Spring example.
 See Fig. :ref:`fig-mesh-screw-angle`. These two Meshes generated
-with the *Screw* tool were created using the Top Ortho View.
+with the *Screw* tool were created using the Top Orthographic View.
 
 .. _fig-mesh-screw-angle:
 

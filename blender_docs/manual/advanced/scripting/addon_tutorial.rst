@@ -171,16 +171,16 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
    In most cases these will be the same. However in some cases, operators will be passed a custom context
    so script authors should prefer the ``context`` argument passed to operators.
 
-To test the script, you can copy and paste it into Blender Text editor and run it.
+To test the script, you can copy and paste it into Blender's Text editor and run it.
 This will execute the script directly and call register immediately.
 
 However running the script won't move any objects. For this, you need to execute the newly registered operator.
 
-.. figure:: /images/advanced_scripting_addon-tutorial_spacebar-menu.png
+.. figure:: /images/advanced_scripting_addon-tutorial_operator-search-menu.png
 
-   Spacebar Menu.
+   Operator Search menu.
 
-Do this by pressing :kbd:`Spacebar` to bring up the operator search dialog and type in
+Do this by pressing :kbd:`Spacebar` to bring up the operator search menu and type in
 "Move X by One" (the ``bl_label``), then :kbd:`Enter`.
 
 The objects should move as before.
