@@ -27,7 +27,7 @@ Usage
 
 Select the elements you want to operate on and activate the Push/Pull transform tool.
 The Push/Pull tool can be invoked from the :menuselection:`Object/Mesh --> Transform --> Push/Pull` menu
-or by pressing :kbd:`Spacebar` and using the search menu to search for *Push* or
+or by pressing :kbd:`Spacebar` and using the operator search menu to search for *Push* or
 *Pull*. The amount of movement given to the selection can be determined
 interactively by moving the mouse or by typing a number.
 Pressing :kbd:`Enter` will confirm the transformation. The confirmed transformation can
