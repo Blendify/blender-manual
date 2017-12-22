@@ -44,7 +44,7 @@ A basic workflow looks like this:
    There is a *Quick Smoke* operator which will automatically create a domain object with a
    basic smoke/fire material.
    It can be found in :menuselection:`3D View --> Object --> Quick Effects --> Quick Smoke`,
-   or in the :kbd:`Spacebar` search box.
+   or with the operator search :kbd:`Spacebar`.
 
 .. note::
 

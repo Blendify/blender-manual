@@ -94,7 +94,7 @@ Install from File
 
    Now the add-on will be installed, not automatically enabled.
    The search field will be set to the add-on's name (to avoid having to look for it).
-   Enable the add-on by turning on the check-box.
+   Enable the add-on by turning on the checkbox.
 
 Refresh
    Scans the :doc:`Add-on Directory </getting_started/installing/configuration/directories>` for new add-ons.

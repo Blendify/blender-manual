@@ -18,7 +18,7 @@ For all other conditions the controller gives a negative (``FALSE``) output.
 Expression
 ==========
 
-The expression, which is written in the box, can consist of variables,
+The expression, which is written in the field, can consist of variables,
 constants and operators. These must follow the rules laid out below.
 
 

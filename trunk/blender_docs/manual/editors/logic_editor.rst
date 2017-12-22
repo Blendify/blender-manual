@@ -26,7 +26,7 @@ Main View
 =========
 
 Object Name
-   This box shows the name of the object which owns the logic bricks below.
+   This toggle shows the name of the object which owns the logic bricks below.
 Links
    Links (3A) indicate the direction of logical flow between objects.
    Link lines are drawn by :kbd:`LMB` dragging from one Link socket (3B) to another.

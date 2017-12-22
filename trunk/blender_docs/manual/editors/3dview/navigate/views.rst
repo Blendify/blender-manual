@@ -103,6 +103,6 @@ These options can be found in :menuselection:`Properties region --> Display`.
 Lock
    If you want to be able to rotate each view, you can un-check the *Locked* option.
 Box
-   Syncs view position between side views.
+   Syncs the view position between side views.
 Clip
    Clip objects based on what is visible in other side views.
