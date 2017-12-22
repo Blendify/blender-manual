@@ -48,8 +48,8 @@ Constant Jittered
 
    Umbra
       Emphasizes the intensity of shadows in the area fully within the shadow rays.
-      The light transition between fully shadowed areas and fully lit areas changes more quickly (i.e.
-      a sharp shadow gradient).
+      The light transition between fully shadowed areas and fully lit areas changes more quickly
+      (i.e. a sharp shadow gradient).
       You need *Samples* values equal to or greater than 2 to see any influence of this button.
 
    Dither

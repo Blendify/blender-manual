@@ -255,8 +255,8 @@ Delete
 Options for the *Erase* pop-up menu:
 
 Vertices
-   This will delete the selected control points, *without* breaking the curve (i.e.
-   the adjacent points will be directly linked, joined, once the intermediary ones are deleted).
+   This will delete the selected control points, *without* breaking the curve
+   (i.e. the adjacent points will be directly linked, joined, once the intermediary ones are deleted).
    Remember that NURBS order cannot be higher than its number of control points,
    so it might decrease when you delete some control point.
    Of course, when only one point remains, there is no more visible curve,

@@ -42,8 +42,8 @@ Ramp
 As a result, a material has at least two different colors, a diffuse, and a specular one.
 The specular color is normally set to pure white
 (the same "pure white" as the reflected light source),
-but it can be set to different values for various effects (e.g.
-metals tend to have colored highlights).
+but it can be set to different values for various effects
+(e.g. metals tend to have colored highlights).
 
 
 Technical Details
@@ -65,7 +65,7 @@ the more the light spreads when it hits the surface.
 When these facets are flatter against the "macrosurface",
 the surface will have a tighter reflection, closer to a mirror.
 This is a condensed explanation of the generally accepted microfacet theory of reflectance,
-which is the basis of all modern BRDFs (Bi-directional Reflectance Distribution Functions),
+which is the basis of all modern :abbr:`BRDF (Bi-directional Reflectance Distribution Function)`\ s,
 or shading models.
 
 Because these microfacets are transparent,
@@ -77,8 +77,8 @@ hence creating what we perceive as diffuse, and the color of an object.
 
 Note that at glancing angles, the reflectivity of a surface will always go to 1.
 
-If it is difficult for you to understand this relationship, try to imagine a ball (say,
-of centimeter scale): if you throw it against a wall of raw stones
+If it is difficult for you to understand this relationship, try to imagine a ball
+(say, of centimeter scale): if you throw it against a wall of raw stones
 (with a scale of roughness of a decimeter), it will bounce in a different direction each time,
 and you will likely quickly lose it! On the other hand,
 if you throw it against a smooth concrete wall (with a roughness of, say, a millimeter scale),

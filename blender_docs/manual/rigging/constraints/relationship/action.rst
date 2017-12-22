@@ -45,8 +45,8 @@ Target
 Bone
    When target is an armature object, use this field to select the target bone.
 Transform Channel
-   This selector controls which transform property (location,
-   rotation or scale along/around one of its axes) from the target to use as "action driver".
+   This selector controls which transform property
+   (location, rotation or scale along/around one of its axes) from the target to use as "action driver".
 Target Space
    This constraint allows you to choose in which space to evaluate its target's transform properties.
 To Action
@@ -79,8 +79,8 @@ Action Range Start/End
    .. note::
 
       - These values must be strictly positive.
-      - By default, both values are set to 0, which disables the mapping (i.e.
-        the owner just gets the properties defined at frame 0 of the linked action...).
+      - By default, both values are set to 0, which disables the mapping
+        (i.e. the owner just gets the properties defined at frame 0 of the linked action...).
 
 
 Notes
@@ -104,8 +104,8 @@ Notes
   (the only ones you can key) will be mapped to the ones of the owner's constraint named "trackto_empt1".
 - Similarly, when using a *Pose* action
   (which is obviously only meaningful and working when constraining a bone!),
-  it is the bone's name that is used to determine which bone *channel's names* from the action to use (e.g.
-  if the constrained bone is named "arm", it will use and only use the action's bone channel named "arm"...).
+  it is the bone's name that is used to determine which bone *channel's names* from the action to use
+  (e.g. if the constrained bone is named "arm", it will use and only use the action's bone channel named "arm"...).
   Unfortunately, using a *Pose* action on a whole armature object
   (to affect all the keyed bones in the action at once) will not work...
 - Note also that you can use the :doc:`pose library feature </rigging/armatures/properties/pose_library>` to

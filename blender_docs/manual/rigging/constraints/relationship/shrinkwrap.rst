@@ -30,8 +30,9 @@ Target
 Distance
    This number button controls the offset of the owner from the shrunk computed position on the target's surface.
    Positive values place the owner "outside" of the target, and negative ones, "inside" the target.
-   This offset is applied along the straight line defined by the original (i.e.
-   before constraint) position of the owner, and the computed one on the target's surface.
+   This offset is applied along the straight line defined by
+   the original (i.e. before constraint) position of the owner, and
+   the computed one on the target's surface.
 
 
 Shrinkwrap Type

@@ -147,8 +147,8 @@ Example
 
 .. rubric:: Using a Texture and the Mapping Curve
 
-Here we are going to create a sort of strange alien wave (yes,
-another example with the Wave Modifier... but it is a highly visual one;
+Here we are going to create a sort of strange alien wave
+(yes, another example with the Wave Modifier... but it is a highly visual one;
 it is easy to see the vertex group effects on it...).
 
 So as above, add a 100×100 grid. This time, add a vertex group,

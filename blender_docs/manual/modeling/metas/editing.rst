@@ -112,8 +112,8 @@ Conversion
    Convert Menu.
 
 You can only convert metas to meshes,
-but here you have the option to keep the original *Meta* object (i.e.
-create a new *Mesh* one, instead of a "real" conversion...).
+but here you have the option to keep the original *Meta* object
+(i.e. create a new *Mesh* one, instead of a "real" conversion...).
 Note that the resolution used for the new mesh is the *Wiresize* one,
 not the *Rendersize* one.
 
@@ -151,8 +151,8 @@ the *base* meta object would be "MetaThing".
 The *base* meta object determines the basis, the resolution, the threshold,
 *and* the transformations. It also has the material and texture area.
 The *base* meta is effectively the parent of
-(or perhaps a better word to use is "the owner of") the other metas in the group (i.e.
-it is as if the other metas were "included" or joined into the base one).
+(or perhaps a better word to use is "the owner of") the other metas in the group
+(i.e. it is as if the other metas were "included" or joined into the base one).
 
 .. hint::
 

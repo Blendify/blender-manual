@@ -105,9 +105,8 @@ OK now, here are some important ground rules:
   If there are more segments than necessary,
   the conversion algorithm will chose the best "joints" for the bones to fit to the reference chain,
   using the same influence settings as for free segments (*Angle*, *Length* and *Definition* settings, see below).
-- If you try to *Convert* without template bones (i.e.
-  either an empty armature selected as template,
-  or no bones selected in the current edited armature),
+- If you try to *Convert* without template bones
+  (i.e. either an empty armature selected as template, or no bones selected in the current edited armature),
   you will get the error message ``No Template and no deforming bones selected``, and nothing will occur.
 
 .. list-table:: The *Skeleton Sketching* panel with *Retarget* conversion method enabled.

@@ -215,8 +215,8 @@ Switch Direction
 
 This tool is not available from the *Armature* menu,
 but only from the *Specials* pop-up menu :kbd:`W`.
-It allows you to switch the direction of the selected bones (i.e.
-their root will become their tip, and vice versa).
+It allows you to switch the direction of the selected bones
+(i.e. their root will become their tip, and vice versa).
 
 Switching the direction of a bone will generally break the chain(s) it belongs to.
 However, if you switch a whole (part of a) chain, the switched bones will still be parented/connected,
