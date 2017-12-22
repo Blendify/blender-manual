@@ -25,8 +25,8 @@ which create some sort of "limbs" in your armature, as detailed in `Chains of Bo
 Chains of Bones
 ===============
 
-The bones inside an armature can be completely independent from each other (i.e.
-the modification of one bone does not affect the others).
+The bones inside an armature can be completely independent from each other
+(i.e. the modification of one bone does not affect the others).
 But this is not often a useful set up: To create a leg,
 all bones "after" the thigh bone should move "with" it in a well-coordinated manner.
 This is exactly what happens in armatures by parenting a bone to the next one in the limb,

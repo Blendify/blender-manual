@@ -12,8 +12,8 @@ Background Images
    | Panel:    :menuselection:`Properties region --> Background Image`
 
 A background picture in your 3D View is very helpful in many situations:
-modeling is obviously one, but it is also useful when painting (e.g.
-you can have reference pictures of faces when painting textures directly on your model...),
+modeling is obviously one, but it is also useful when painting
+(e.g. you can have reference pictures of faces when painting textures directly on your model...),
 or animation (when using a video as background), etc.
 
 .. note::

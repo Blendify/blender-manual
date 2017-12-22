@@ -40,8 +40,8 @@ Some useful hints about fluid simulation in Blender:
 Limitations & Workarounds
 =========================
 
-- If the setup seems to go wrong, make sure all the normals are correct (hence,
-  enter *Edit Mode*, select all, and recalculate normals once in a while).
+- If the setup seems to go wrong, make sure all the normals are correct
+  (hence, enter *Edit Mode*, select all, and recalculate normals once in a while).
 - Currently there is a problem with zero gravity simulation.
   It could be avoided by simply selecting a very small gravity until this is fixed.
 - If an object is initialized as *Volume*, it has to be closed and have an inner side

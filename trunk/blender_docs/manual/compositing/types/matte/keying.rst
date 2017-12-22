@@ -61,11 +61,10 @@ Edge Kernel Tolerance
    if the difference between pixel colors is higher than this threshold then the point
    will be considered an edge.
 Clip Black
-   This sets the threshold for what becomes fully transparent in the output (black
-   in the matte). It should be set as low as possible. Uneven backdrops will require
-   this value to be increased. Use of the
-   :doc:`Keying Screen Node </compositing/types/matte/keying_screen>` can help keep
-   this value low. You may also use a *Garbage Matte* to exclude problematic areas.
+   This sets the threshold for what becomes fully transparent in the output (black in the matte).
+   It should be set as low as possible. Uneven backdrops will require this value to be increased.
+   Use of the :doc:`Keying Screen Node </compositing/types/matte/keying_screen>` can help
+   keep this value low. You may also use a *Garbage Matte* to exclude problematic areas.
 
    This value does not impact areas detected as edges to ensure edge detail is preserved.
 Clip White

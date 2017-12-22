@@ -72,8 +72,8 @@ Passes
    Keeping the pre-processing passes high will increase render time, but will also
    clear some artifacts and over-occlusions.
 Error
-   This is the tolerance factor for approximation error (i.e.
-   the max allowed difference between approximated result and fully computed result).
+   This is the tolerance factor for approximation error
+   (i.e. the max allowed difference between approximated result and fully computed result).
    The lower, the slower the render, but the more accurate the results...
    Ranges between (0.0 to 10.0), defaults to 0.250.
 

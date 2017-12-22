@@ -62,9 +62,9 @@ Only the positional velocity is influenced by this actuator;
 it does not control rotation at all, and it controls position only indirectly.
 
 Controlling the position is not necessary in that respect; that is
-left to a player moving the object via direction-type controls (such
-as the WSAD keys in a first person shooter). In such a scenario, each
-direction-key sensor should be attached to a different Servo Control
+left to a player moving the object via direction-type controls
+(such as the WASD keys in a first person shooter). In such a scenario,
+each direction-key sensor should be attached to a different Servo Control
 actuator setting a different target velocity.
 
 .. tip::

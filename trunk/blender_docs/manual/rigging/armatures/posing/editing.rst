@@ -101,8 +101,8 @@ Reset Unkeyed
       Operate on just the selected or all bones.
 
 Note that in *Envelope* visualization, :kbd:`Alt-S` does not clear the scale,
-but rather scales the *Distance* influence area of the selected bones (also
-available through the :menuselection:`Pose --> Scale Envelope Distance` menu entry,
+but rather scales the *Distance* influence area of the selected bones
+(also available through the :menuselection:`Pose --> Scale Envelope Distance` menu entry,
 which is only effective in *Envelope* visualization, even though it is always available...).
 
 
@@ -116,8 +116,8 @@ Apply
    | Menu:    :menuselection:`Pose --> Apply`
    | Hotkey:   :kbd:`Ctrl-A`
 
-Conversely, you may define the current pose as the new rest position (i.e.
-"apply" current transformations to the *Edit Mode*),
+Conversely, you may define the current pose as the new rest position
+(i.e. "apply" current transformations to the *Edit Mode*),
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
 (or :kbd:`Ctrl-A` and confirm the pop-up menu). When you do so,
 the skinned objects/geometry is **also** reset to its default, undeformed state,
@@ -289,8 +289,8 @@ Termination Mode
 
    While Held
       The most complicated of the modes available, as it tries to guess when to stop propagating by
-      examining the pauses in the animation curves per control (i.e.
-      all F-Curves for a bone, instead of per F-Curve).
+      examining the pauses in the animation curves per control
+      (i.e. all F-Curves for a bone, instead of per F-Curve).
    To Next Keyframe
       Simply copies the pose to the first keyframe after (but not including any keyframe on) the current frame.
    To Last Keyframe

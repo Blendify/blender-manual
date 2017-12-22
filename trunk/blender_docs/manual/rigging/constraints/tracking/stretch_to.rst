@@ -38,8 +38,8 @@ Rest Length
 
    Reset
       When clicked, this small button will recalculate the *Rest Length* value,
-      so that it corresponds to the actual distance between the owner and its target (i.e.
-      the distance before this constraint is applied).
+      so that it corresponds to the actual distance between the owner and its target
+      (i.e. the distance before this constraint is applied).
 
 .. _constraints-stretch-to-volume-preservation:
 
