@@ -39,7 +39,7 @@ MS-Windows
 Mixed Python Libraries (DLL's)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If Python is raising errors or you have an add-on that just fails when enabled with an error, eg:
+If Python is raising errors or you have an add-on that just fails when enabled with an error, e.g:
 ``... is not a valid Win32 application.``.
 
 .. figure:: /images/troubleshooting_python_traceback.png

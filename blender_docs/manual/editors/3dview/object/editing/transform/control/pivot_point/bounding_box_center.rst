@@ -13,7 +13,7 @@ Bounding Box Center
 
 The bounding box is a rectangular box that is wrapped as tightly as possible around the selection.
 It is oriented parallel to the world axes. In this mode the pivot point lies at the center of the bounding box.
-You can set the pivot point to bounding box with :kbd:`Comma` or via the menu in the editors header.
+You can set the pivot point to bounding box with :kbd:`Comma` or via the menu in the editor's header.
 The image below shows how the Object's Bounding Box size is determined by the size of the Object.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_demo.png

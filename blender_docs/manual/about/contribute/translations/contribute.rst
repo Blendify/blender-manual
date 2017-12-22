@@ -66,7 +66,7 @@ Building with Translations
 
 .. note::
 
-   This is optional, translations are automatically built online, eg:
+   This is optional, translations are automatically built online, e.g:
    https://docs.blender.org/manual/fr/dev/
 
 Now you can build the manual with the translation applied::
@@ -83,7 +83,7 @@ Now you will have a build of the manual with translations applied.
 Editing Translation Files
 =========================
 
-Now you can edit the PO translation files, eg:
+Now you can edit the PO translation files, e.g:
 
 Original RST File
    ``manual/getting_started/about_blender/introduction.rst``

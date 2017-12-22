@@ -21,7 +21,7 @@ Type
    List
       A list of data-blocks available in the current blend-file, or a link to select an item from.
       The menu may show a preview besides the items and
-      a search box to search the items in the list by name.
+      a search field to search the items in the list by name.
 Name
    Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
    If a name is already assigned, Blender will add a digit to the name like ".001".

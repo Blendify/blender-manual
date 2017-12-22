@@ -162,7 +162,7 @@ Pick Random
    This method is fully deprecated and does not work anymore.
 Use Count
    Use objects multiple times in the same groups.
-   Specify the order and number of times to repeat each object with the list box that appears.
+   Specify the order and number of times to repeat each object with the list view that appears.
    You can duplicate an object in the list with the :kbd:`Plus` button,
    or remove a duplicate with the :kbd:`Minus` button.
 

@@ -94,7 +94,7 @@ File filtering
 
    Data-Block Type
       Data-block type filtering inside blend-files.
-   Search box
+   Search field
       Filter files by name.
 
 
