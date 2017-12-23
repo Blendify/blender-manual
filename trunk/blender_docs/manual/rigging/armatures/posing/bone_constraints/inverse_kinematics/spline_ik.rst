@@ -97,7 +97,7 @@ Tips for Nice Setups
 - For control of the curve, it is recommended that hooks (in particular, Bone Hooks)
   are used to control the control-vertices of the curve, with one hook per control-vertex.
   In general, only a few control-vertices should be needed for the curve
-  (e.g one for every 3-5 bones offers decent control).
+  (e.g. one for every 3-5 bones offers decent control).
 - The type of curve used does not really matter,
   as long as a path can be extracted from it that could also be used by the Follow Path Constraint.
   This really depends on the level of control required from the hooks.

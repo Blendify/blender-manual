@@ -65,7 +65,7 @@ Layer :kbd:`L`
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as grayscale.
-   I.e the darker a masked area is, the less effect sculpting on it will have.
+   I.e. the darker a masked area is, the less effect sculpting on it will have.
    See also the options of the :ref:`sculpt-mask-menu` menu.
 
    Mask Tool

@@ -78,7 +78,7 @@ Primitive shapes can be shown in the viewport by
 enabling *Bounds* in the :menuselection:`Object --> Display` panel.
 
 Box
-   Box-like shapes (e.g cubes), including planes (e.g. ground planes).
+   Box-like shapes (e.g. cubes), including planes (e.g. ground planes).
    The size per axis is calculated from the bounding box.
 Sphere
    Sphere-like shapes. The radius is the largest axis of the bounding box.

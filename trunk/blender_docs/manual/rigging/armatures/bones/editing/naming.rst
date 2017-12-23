@@ -60,7 +60,7 @@ This will enable you to use some tools that will probably save you time and effo
    .. note::
 
       Note that all examples above are also valid with the left/right part placed before the name.
-      You can only use the short "L"/ "R" code if you use a separator (e.g "handL"/ "handR" will not work!).
+      You can only use the short "L"/ "R" code if you use a separator (e.g. "handL"/ "handR" will not work!).
 
 #. Before Blender handles an armature for mirroring or flipping,
    it first removes the number extension, e.g. ".001".

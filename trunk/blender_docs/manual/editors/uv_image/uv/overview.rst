@@ -93,7 +93,7 @@ In this image you can easily see that the shape and size of the
 marked face in 3D space is different in UV space.
 
 This difference is caused by the "stretching" (technically called mapping)
-of the 3D part (XYZ) onto a 2D plane (i.e the UV map).
+of the 3D part (XYZ) onto a 2D plane (i.e. the UV map).
 
 If a 3D object has a UV map, then, in addition to the 3D-coordinates X, Y, and Z,
 each point on the object will have corresponding U and V coordinates. (*P* in the

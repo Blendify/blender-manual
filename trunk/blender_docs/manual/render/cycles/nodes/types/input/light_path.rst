@@ -56,5 +56,5 @@ Ray Depth
 Transparent Depth
    Returns the number of transparent surfaces passed through.
 Transmission Depth
-   Replace a Transmission lightpath after X bounces with another shader, e.g a Diffuse one.
+   Replace a Transmission light path after X bounces with another shader, e.g. a Diffuse one.
    This can be used to avoid black surfaces, due to low amount of max bounces.

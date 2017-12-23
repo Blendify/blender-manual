@@ -67,6 +67,6 @@ You can download the blend-file
 used to create this animation.
 
 Furthermore you can also animate a few properties of each constraint using animation curves:
-e.g you can animate the *Influence* of a constraint.
+e.g. you can animate the *Influence* of a constraint.
 It is used to first stick the camera to the "moon", then to the "earth",
 and finally to nothing, using two *Copy Location* constraints with *Offset* set.

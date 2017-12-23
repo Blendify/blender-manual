@@ -43,7 +43,7 @@ It consists in a servo controller that adjusts the force on the object in order 
 .. note::
 
    To make Mouse Look work in a smoother way, it is necessary that the width and height
-   screen resolutions, in the render window, are set with even numbers (i.e 1920x1080).
+   screen resolutions, in the render window, are set with even numbers (i.e. 1920x1080).
 
 .. figure:: /images/game-engine_logic_actuators_types_mouse_look.png
 
