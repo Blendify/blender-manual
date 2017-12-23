@@ -56,7 +56,7 @@ Stroke Quality
 These settings are per-brush settings that are applied after each stroke is drawn
 (when converting from 2D/screen space coordinates to 3D/data space coordinates).
 These are per-brush settings so that you can apply varying properties to different types of brushes.
-E.g higher smoothing and/or subdivision for final "beauty",
+E.g. higher smoothing and/or subdivision for final "beauty",
 and less smoothing/subdivision for initial "blocking" strokes.
 
 Smooth

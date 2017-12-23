@@ -43,7 +43,7 @@ Showing/Hiding Bone Layers
 --------------------------
 
 Only bones in active layers will be visible/editable, but they will always be effective
-(i.e move objects or deform geometry), whether in an active layer or not.
+(i.e. move objects or deform geometry), whether in an active layer or not.
 To (de)activate a layer, you have several options, depending in which mode you are in:
 
 - In all modes, use the row of small buttons at the top of the *Display Options* group, *Armature* panel.

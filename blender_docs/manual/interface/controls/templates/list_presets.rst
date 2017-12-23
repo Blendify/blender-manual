@@ -65,7 +65,7 @@ Presets
 
    Presets without and with specials.
 
-.. Share between properties. i.e different nodes color presets.
+.. Share between properties. i.e. different nodes color presets.
 
 Selector
    A list of available presets. A selection will override the included properties.

@@ -33,7 +33,7 @@ Use the following controls to Add, Remove or adjust the position of a layer in t
 Source
    Scene
       Grease Pencil data is attached to the current scene is used,
-      unless the active object already has Grease Pencil data (i.e old files).
+      unless the active object already has Grease Pencil data (i.e. old files).
    Object
       Grease Pencil data is attached to the active object are used.
       This is required when using pre 2.73 add-ons.

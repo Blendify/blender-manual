@@ -30,7 +30,7 @@ Source Object
 
    If the button to the right of the field is unset, source and destination geometries
    are considered in global space when generating the mapping, otherwise they are evaluated
-   in local space (i.e. as if both object's centers were at the same place).
+   in local space (i.e. as if both object's origins were at the same place).
 
 Max Distance
    When the "hand and bulged in blue line" icon button to the right is enabled,
