@@ -142,7 +142,7 @@ Makes the selected or all external objects local in the current blend-file.
 This makes e.g. the position editable, because its position is defined in its source file.
 
 Type
-   Optionally unlinks the objects Object Data and Material Data.
+   Optionally unlinks the object's Object Data and Material Data.
 
    Selected Objects, + Object Data, + Materials, All (i.e. including all scenes)
 

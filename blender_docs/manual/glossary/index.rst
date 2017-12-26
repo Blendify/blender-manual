@@ -180,7 +180,7 @@ This page lists definitions for terms used in Blender and this manual.
          Hue
             The Hue of the color.
          Saturation
-            Also known has colorfulness, saturation is the quantity of hue in the color
+            Also known as colorfulness, saturation is the quantity of hue in the color
             (from desaturated -- a shade of gray -- to saturated -- brighter colors).
          Value
             The brightness of the color (dark to light).

@@ -42,7 +42,7 @@ Color (yellow)
    Indicates that color information needs to be input or will be output from the node.
    This may or may not include an alpha channel.
 Numeric (gray)
-   Indicates numeric values information.
+   Indicates numeric value's information.
    It can either be a single numerical value or a so-called "value map".
    (You can think of a value map as a grayscale-map where the different amount of
    bright/dark reflects the value for each point).

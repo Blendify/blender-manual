@@ -21,7 +21,7 @@ A file ``myscript.py`` contains::
 The function can be accessed as ``myscript.myModule``, which will run ``print("Go Open Source!");``
 every time the controller is triggered.
 
-The entire file can be run by setting the type to *Script* and setting the name to myscript.py.
+The entire file can be run by setting the type to *Script* and setting the name to *myscript.py*.
 
 
 Parts of the Python Controller
@@ -40,7 +40,7 @@ D (Use Debug)
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.
 
-.. seealso:: For more information on the Python API see:
+.. seealso:: For more information on the Python API, see:
 
    - `The API docs <https://www.blender.org/api/blender_python_api_current/>`__.
    - :doc:`This chapter for more Game Engine related API </game_engine/python_api/index>`.

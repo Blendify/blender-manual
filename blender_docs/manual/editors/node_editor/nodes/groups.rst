@@ -12,7 +12,7 @@ Both material and composite nodes can be grouped.
 
 Conceptually, grouping nodes allows you to specify a *set* of nodes that you can treat as
 though it were "just one node". Node groups are similar to functions in programming.
-You can then reuse it inside, which are then called "NodeGroups",
+You can then reuse them inside, which are then called "NodeGroups",
 or in other blend-file(s), when appending called "NodeTrees".
 
 As an example:  If you have created a material that you would like to use with different inputs
@@ -41,7 +41,7 @@ Make Group
 
 To create a node group, in the Node editor, select the nodes you want to include, then
 press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`.
-A node group will have a green title bar. All of the selected nodes will now be contained within the group node.
+A node group will have a green title bar. All of the selected nodes will now be contained within the node group.
 Default naming for the node group is "NodeGroup", "NodeGroup.001" etc.
 There is a name field in the node group you can click into to change the name of the group.
 Change the name of the node group to something meaningful.
@@ -87,14 +87,14 @@ Interface
 Interactively
 ^^^^^^^^^^^^^
 
-When a node group is created, new *Group Input* and a *Group Output* nodes are generated to represent the
+When a node group is created, new *Group Input* and *Group Output* nodes are generated to represent the
 data flow into and out of the group. When created, connections to input sockets coming from
 unselected nodes will become attached to new sockets on the *Group Input* node. Similarly, outgoing
 connections to input sockets of unselected nodes will become attached to the new *Group Output* node.
 
 If during node group development an additional parameter needs to be passed into the group, an
 additional socket must be added to the *Group Input* node. This is easily done by adding a connection
-between the hollow socket on the right side of the *Group Input* node to the desired input socket on
+from the hollow socket on the right side of the *Group Input* node to the desired input socket on
 the node requiring input. The process is similar for the *Group Output* regarding data you want to be
 made available outside the group.
 
@@ -167,6 +167,6 @@ Appending Node Groups
    | Menu:     :menuselection:`Info Editor --> File --> Link/Append`
 
 Once you have appended a Node Tree to your blend-file, you can make use of it in the Node editor by
-pressing :kbd:`Shift-A`, :menuselection:`Add --> Group`, then select the appended group.
-The "control panel" of the Group is the individual controls for the grouped nodes.
+pressing :kbd:`Shift-A`, :menuselection:`Add --> Group`, then selecting the appended group.
+The "control panel" of the Group include the individual controls for the grouped nodes.
 You can change them by working with the Group node like any other node.
