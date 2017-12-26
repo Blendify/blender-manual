@@ -67,5 +67,5 @@ Remove from Frame
    | Menu:     :menuselection:`Node --> Remove from Frame`
    | Hotkey:   :kbd:`Alt-P`
 
-To remove them select the node(s) and use the :kbd:`Alt-P` shortcut.
+To remove them, select the node(s) and use the :kbd:`Alt-P` shortcut.
 This uses the same default keyboard bindings as Parenting and can be thought of as a similar concept.

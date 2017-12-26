@@ -68,7 +68,7 @@ Scale
    Each object (cube, sphere, etc.), when created, has a scale of one Blender unit in each local direction.
    To make the object bigger or smaller, you scale it in the desired axis.
 Dimensions
-   The size of the objects bounding box.
+   The size of the object's bounding box
    (aligned with the local axes -- think of a cardboard box just big enough to hold the object).
 
 

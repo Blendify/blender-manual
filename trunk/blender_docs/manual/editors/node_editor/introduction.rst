@@ -78,9 +78,9 @@ Auto-offset
 ^^^^^^^^^^^
 
 When you drop a node with at least one input and one output socket onto an existing connection between two nodes,
-auto-offset will, depending on the direction setting, automatically move the left or right node away to make room
+*Auto-offset* will, depending on the direction setting, automatically move the left or right node away to make room
 for the new node.
-Auto-offset is a feature that helps organizing node layouts interactively without interrupting the user workflow.
+*Auto-offset* is a feature that helps organizing node layouts interactively without interrupting the user workflow.
 
 .. figure:: /images/editors_node-editor_introduction_auto-offset.png
 
@@ -102,7 +102,7 @@ Further Menus
 Snap
    Toggle snap mode for node in the Node Editor.
 Snap Node Element Selector
-   This selector provide the follow node elements for snap:
+   This selector provide the following node elements for snap:
 
    :Grid: (default) Snap to grid of the Node Editor.
    :Node X: Snap to left/right node border.

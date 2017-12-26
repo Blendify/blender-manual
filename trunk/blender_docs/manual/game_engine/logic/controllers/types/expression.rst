@@ -82,7 +82,7 @@ Given the object has a property ``coins`` equal to 30::
 
    coins > 20
 
-returns True (the controller sends a positive pulse to the connected actuators).
+returns ``True`` (the controller sends a positive pulse to the connected actuators).
 
 Given the object has:
 
