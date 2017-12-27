@@ -71,8 +71,8 @@ Open :doc:`NURBS Surfaces </modeling/surfaces/introduction>`
 Closed NURBS Surfaces
    Control with *Surface Resolution* controls. (Note the normal errors, and how implicit seam shows).
 :doc:`Curves </modeling/curves/introduction>` **and** :doc:`Text </modeling/texts/introduction>`
-   Control with *Surface Resolution* controls. Higher gives more render faces.
-   (Note that the large flat surfaces have few render faces to displace).
+   Control with *Surface Resolution* controls. Higher gives more render faces
+   (note that the large flat surfaces have few render faces to displace).
 
 .. note:: Displace Modifier
 
