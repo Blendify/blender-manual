@@ -33,7 +33,7 @@ Load Factory Settings
 Link :kbd:`Ctrl-Alt-O`
    Links data from an external blend-file (library) to the current scene.
    The edition of that data is only possible in the external library.
-   *Link* and *Append* is used to load in only selected parts from another file.
+   *Link* and *Append* are used to load in only selected parts from another file.
    See :doc:`Linked Libraries </data_system/linked_libraries>`.
 Append :kbd:`Shift-F1`
    Appends data from an external blend file to the current scene.
