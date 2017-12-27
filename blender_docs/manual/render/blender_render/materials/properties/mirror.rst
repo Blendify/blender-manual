@@ -34,7 +34,7 @@ will be tinted the color set in Mirror Color.
 
 
 Options
--------
+=======
 
 .. figure:: /images/render_blender-render_materials_properties_mirror_panel.jpg
 
@@ -123,10 +123,10 @@ Gloss
 
 
 Examples
---------
+========
 
 Fresnel
-^^^^^^^
+-------
 
 .. figure:: /images/render_blender-render_materials_properties_mirror_fresnel-example.jpg
 

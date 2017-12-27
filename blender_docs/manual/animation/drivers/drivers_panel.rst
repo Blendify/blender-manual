@@ -15,7 +15,7 @@ will determine the value of the *Driver Value*.
 
 
 Settings
---------
+========
 
 Update Dependencies
    This will force an update for the Driver Value dependencies.
@@ -114,7 +114,7 @@ Value
 
 
 Example
-^^^^^^^
+=======
 
 .. figure:: /images/animation_drivers_drivers-panel_single-property.jpg
 

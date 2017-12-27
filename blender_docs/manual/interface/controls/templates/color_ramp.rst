@@ -12,7 +12,11 @@ Color Ramp Widget
 *Color Ramps* enables the user to specify a range of colors based on color-stops.
 Color-stops are similar to a mark indicating where exactly the chosen color should be.
 The interval from each of the color-stops added to the ramp is a result of the color interpolation and
-chosen interpolation method. The available options for Color Ramps are:
+chosen interpolation method.
+
+
+Controls
+========
 
 Add ``+``
    Clicking on this button will add a stop to your custom weight paint map.
@@ -44,12 +48,13 @@ Interpolation Options
       Uses a *Ease* Interpolation for the color stops.
    Constant
       Uses a *Constant* Interpolation for the color stops.
+
 Active Color Stop
    Index of the active color-stop (shown as a dashed line).
    Allows you to change the active color when colors may be too close to easily select with the cursor.
 Position
    This slider controls the positioning of the selected color stop in the range.
-Color Button
+Color
    Opens a color picker for the user to specify color and Alpha for the selected color stop.
    When a color is using Alpha, the Color button is then divided in two, with the left side
    showing the base color and the right side showing the color with the alpha value.
