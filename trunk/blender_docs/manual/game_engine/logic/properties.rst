@@ -10,7 +10,7 @@ and can be used to represent things about them such as ammo, health, name, and s
 .. _game-engine-property-types:
 
 Property Types
---------------
+==============
 
 There are five types of properties:
 

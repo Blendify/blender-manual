@@ -23,7 +23,7 @@ Active Bone Group
 
 
 Color Set
----------
+=========
 
 .. figure:: /images/rigging_armatures_properties_bone-groups_color-list.png
 
@@ -50,7 +50,7 @@ As soon as you alter one of the colors, it is switched to the *Custom Set* optio
 
 
 Assign and Select
------------------
+=================
 
 In the 3D Views, using the :menuselection:`Pose --> Bone Groups` menu entries,
 and/or the *Bone Groups* pop-up menu :kbd:`Ctrl-G`, you can:

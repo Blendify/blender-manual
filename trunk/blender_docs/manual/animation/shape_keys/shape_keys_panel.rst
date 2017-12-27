@@ -14,6 +14,10 @@ Shape Keys Panel
 
    Shape Keys panel.
 
+
+Settings
+========
+
 Active Shape Key Index
    A :ref:`ui-list-view`.
 
@@ -53,7 +57,7 @@ Edit Mode
 
 
 Relative Shape Keys
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Relative shape keys deform from a selected shape key.
 By default, all relative shape keys deform from the first shape key called the Basis shape key.
@@ -79,7 +83,7 @@ Blend
 
 
 Absolute Shape Keys
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Absolute shape keys deform from the previous and to the next shape key.
 They are mainly used to deform the object into different shapes over time.

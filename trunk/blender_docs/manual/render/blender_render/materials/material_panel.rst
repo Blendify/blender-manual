@@ -14,7 +14,7 @@ and activate a material for editing in the rest of the panels.
 
 
 Material Slots
---------------
+==============
 
 Active Material
    The object's material slots displayed in a :ref:`List View <ui-list-view>`.
@@ -24,7 +24,7 @@ Active Material
 
 
 Multiple Materials
-------------------
+==================
 
 Meshes can handle having more than one material.
 Materials can be mapped on a per-face basis,
@@ -40,7 +40,7 @@ Deselect
 
 
 Material Naming and Linking
----------------------------
+===========================
 
 Material
    The Material :ref:`Data-Block Menu <ui-data-block>` for the selected material slot.
@@ -71,7 +71,7 @@ Data-block Links
 
 
 Material Type
--------------
+=============
 
 Material added in edit mode. These toggles tell Blender where this material fits into the Render Pipeline,
 and what aspects of the material are to be rendered.

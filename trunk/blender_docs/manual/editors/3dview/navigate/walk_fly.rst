@@ -34,7 +34,7 @@ Alternatively you can call the individual modes from the View Navigation menu.
 .. _bpy.types.WalkNavigation:
 
 Walk Mode
----------
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -57,7 +57,7 @@ If there is an object in front of the walk cross/aim you will move in that direc
 
 
 Shortcuts
-^^^^^^^^^
+---------
 
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
 - Move the camera forward/backward :kbd:`W`, :kbd:`S`.
@@ -79,7 +79,7 @@ in the :doc:`User Preferences </preferences/index>` you can select a few options
 
 
 Fly Mode
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -99,7 +99,7 @@ The more you take the mouse pointer away from the marker, the more you pan, or t
 
 
 Shortcuts
-^^^^^^^^^
+---------
 
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
 - Move the view forward/backward:

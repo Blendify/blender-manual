@@ -12,7 +12,7 @@ one needs fairly complex or specific previewing shapes to decide if the shader b
 
 
 Options
--------
+=======
 
 Flat XY plane
    Useful for previewing textures and materials of flat objects, like walls, paper and such.
@@ -34,7 +34,7 @@ Large Sphere with Sky
 
 
 Examples
---------
+========
 
 .. list-table::
 

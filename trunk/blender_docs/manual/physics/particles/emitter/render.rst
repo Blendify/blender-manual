@@ -115,7 +115,7 @@ Steps
 
 
 Timing
-""""""
+^^^^^^
 
 Absolute Path Time
    Path timing is in absolute frames.
