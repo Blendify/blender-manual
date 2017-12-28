@@ -55,7 +55,7 @@ Threshold
 
    .. tip::
 
-      Only change this value,  if there is an occurring problem with an in-focus object.
+      Only change this value, if there is an occurring problem with an in-focus object.
 
 Preview
    If enabled a limited amount of (quasi-)random samples are used to render the preview.

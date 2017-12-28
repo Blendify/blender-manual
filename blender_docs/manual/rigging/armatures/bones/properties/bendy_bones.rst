@@ -118,7 +118,7 @@ Roll
 ----
 
 Roll In, Out
-   The roll value  (or twisting around the main Y axis of the bone) is interpolated per-segment,
+   The roll value (or twisting around the main Y axis of the bone) is interpolated per-segment,
    between the start and end roll values.
    It is applied as a rotational offsets on top of the previous rotation.
 Inherit End Roll

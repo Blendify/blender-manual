@@ -222,15 +222,15 @@ Version/Revision Milestones
    Cycles gets volume and SSS support on the GPU, pie menus are added and tooltips greatly improved,
    the Intersection modeling tool is added, new sun beam node for the compositor, Freestyle now works with
    Cycles, texture painting workflow is improved, and more than 220 bug fixes.
-`2.73 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73>`__  -- January 2015:
+`2.73 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73>`__ -- January 2015:
    Cycles gets improved volumetric support, major upgrade to Grease pencil,
    MS-Windows gets Input Method Editors (IMEs)
    and general improvements to painting, Freestyle, Sequencer and add-ons.
 `2.74 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.74>`__ -- March 2015:
    Support for custom-normals, viewport compositing and improvements to hair dynamics.
-`2.75 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.75>`__  -- July 2015:
+`2.75 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.75>`__ -- July 2015:
    Integrated stereo/multi-view pipeline, corrective smooth modifier and new developmental dependency graph.
-`2.76 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76>`__  -- November 2015:
+`2.76 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76>`__ -- November 2015:
    Pixar OpenSubdiv support, Viewport and File Browser performance boost,
    node auto-offset, and a text effect strip for the Sequencer.
 `2.77 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.77>`__ -- March 2016:

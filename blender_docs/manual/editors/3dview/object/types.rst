@@ -28,7 +28,7 @@ Surface
    See :doc:`Surfaces Primitives </modeling/surfaces/primitives>`.
 Metaball
    :doc:`Meta Objects </modeling/metas/introduction>` (or Metaballs) are objects formed by a mathematical function
-   (with no control points or vertices)  defining the 3D volume in which the object exists.
+   (with no control points or vertices) defining the 3D volume in which the object exists.
    Meta Objects have a liquid-like quality, where when two or more Metaballs are brought together,
    they merge by smoothly rounding out the connection, appearing as one unified object.
    See :doc:`Meta Primitives </modeling/metas/primitives>`.

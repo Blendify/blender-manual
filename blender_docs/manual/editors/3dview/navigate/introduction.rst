@@ -19,4 +19,4 @@ Duplicate Area in New Window
 Toggle Maximized Area
    Maximizes the :doc:`area </interface/window_system/areas>` (3D View).
 Toggle Fullscreen Area
-   Maximizes the :doc:`area </interface/window_system/areas>` (3D View)  to fill the full screen area.
+   Maximizes the :doc:`area </interface/window_system/areas>` (3D View) to fill the full screen area.

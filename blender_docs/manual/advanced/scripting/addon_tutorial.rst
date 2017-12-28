@@ -232,7 +232,7 @@ copies of an object in a similar way to what you may have seen with the array mo
 Write the Script
 ----------------
 
-As before, first we will start with a script, develop it, then convert it into an add-on.  ::
+As before, first we will start with a script, develop it, then convert it into an add-on. ::
 
    import bpy
    from bpy import context
