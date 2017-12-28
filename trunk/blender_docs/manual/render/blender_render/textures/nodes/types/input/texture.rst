@@ -28,7 +28,7 @@ Properties
 
 Texture
    The texture could be selected from a list of textures available in the current blend-file or link in textures.
-   The textures themselves could not be edited in this note, but in the Texture panel.
+   The textures themselves could not be edited in this node, but in the Texture panel.
 
 
 Outputs
