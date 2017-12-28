@@ -19,7 +19,7 @@ that changes according to the curve was drawn as time progresses through the *Ti
 Inputs
 ======
 
-This node has no input sockets.
+This node has no inputs.
 
 
 Properties
@@ -61,4 +61,4 @@ Example
 
 .. figure:: /images/compositing_types_input_time_example.png
 
-   Time controls from left to right: no effect, slow down, freeze, accelerate, reverse
+   Time controls from left to right: no effect, slow down, freeze, accelerate, reverse.
