@@ -125,7 +125,7 @@ Confirm and Cancel
 ------------------
 
 :kbd:`LMB` click to accept changes.
-This behavior can be changed globally by activating  *Release Confirms*
+This behavior can be changed globally by activating *Release Confirms*
 in the :doc:`User Preferences </preferences/editing>`,
 so that a single :kbd:`RMB` drag can be used to move and confirm.
 

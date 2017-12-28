@@ -26,7 +26,7 @@ For more documentation, see the general :doc:`physics page </game_engine/physics
 Options
 =======
 
-.. note::  bpy Access
+.. note:: bpy Access
 
    Note that most of these properties are accessible through the non-
    BGE scripting API via ``bpy.data.objects["ObjectName"].game``,

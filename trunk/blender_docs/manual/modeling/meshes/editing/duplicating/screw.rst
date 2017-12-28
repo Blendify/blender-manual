@@ -221,7 +221,7 @@ The Spring Example
    :kbd:`Ctrl` until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global`` ),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Enter`.
    You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
-   and type  :kbd:`Minus 3` and :kbd:`Enter` in the Location too.
+   and type :kbd:`Minus 3` and :kbd:`Enter` in the Location too.
    (See the Fig. :ref:`fig-mesh-screw-circle`).
 #. You will have to scale your circle using the shortcut :kbd:`S . 5`, then :kbd:`Enter`.
 #. Now enter *Edit Mode* using shortcut :kbd:`Tab`.

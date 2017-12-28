@@ -165,7 +165,7 @@ Min Curvature and Max Curvature
 Distance from Camera/Object
 ---------------------------
 
-The *Distance from Camera* or  *Distance from Object* modifier alters the base property with a new one
+The *Distance from Camera* or *Distance from Object* modifier alters the base property with a new one
 from a given range using the distance to the active *camera* or to a given *object* as the parameter.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-object.png

@@ -55,7 +55,7 @@ Brush Mapping
 
       - Translate :kbd:`RMB`, :kbd:`Alt-RMB`
       - Scale :kbd:`Shift-RMB`, :kbd:`Alt-Shift-RMB`
-      - Rotate  :kbd:`Ctrl-RMB`, :kbd:`Alt-Ctrl-RMB`
+      - Rotate :kbd:`Ctrl-RMB`, :kbd:`Alt-Ctrl-RMB`
 
       When using stencil scaling, :kbd:`X` and :kbd:`Y` are used to constrain the scaling to one axis.
       Pressing one of the buttons twice reverts to unconstrained scaling.
