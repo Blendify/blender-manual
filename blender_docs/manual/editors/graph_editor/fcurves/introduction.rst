@@ -214,7 +214,7 @@ Linear
       Linear extrapolation.
 
 Additional extrapolation tools (e.g. the "Cycles" F-Modifier)
-are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`
+are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`.
 
 
 .. _editors-graph-fcurves-settings-handles:
@@ -223,7 +223,7 @@ Handle Types
 ------------
 
 There is another curve option quite useful for Bézier-interpolated curves.
-You can set the type of handle to use for the curve points :kbd:`V`
+You can set the type of handle to use for the curve points :kbd:`V`.
 
 Automatic
    Keyframes are automatically interpolated.

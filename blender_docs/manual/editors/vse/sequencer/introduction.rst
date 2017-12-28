@@ -15,7 +15,7 @@ Marker Menu
 -----------
 
 The Marker menu allows you to add markers in the VSE.
-Markers are shared across animation editors. See :doc:`Markers </animation/markers>`
+Markers are shared across animation editors. See :doc:`Markers </animation/markers>`.
 
 
 Main View

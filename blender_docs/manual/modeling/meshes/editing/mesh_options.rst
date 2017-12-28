@@ -22,7 +22,7 @@ it will be transformed accordingly, through a symmetry along the local X axis.
 
    The conditions for *X-Mirror* to work are quite strict, which can make it difficult to use.
    To have an exact mirrored version of a (half) mesh,
-   its easier and simpler to use the :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`
+   its easier and simpler to use the :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
 
 
 Topology Mirror

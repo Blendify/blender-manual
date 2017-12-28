@@ -106,7 +106,7 @@ Orbit Style
    Trackball
       Is less restrictive, allowing any orientation.
 Zoom Style
-   Choose your preferred style of zooming in and out with :kbd:`Ctrl-MMB`
+   Choose your preferred style of zooming in and out with :kbd:`Ctrl-MMB`.
 
    Scale
       *Scale* zooming depends on where you first click in the view.

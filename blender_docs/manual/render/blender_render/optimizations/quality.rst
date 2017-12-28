@@ -49,7 +49,7 @@ Exposure is, in physical terms, the length of time a camera's film or sensor is 
 Longer exposure times create a brighter image.
 In CG, the recorded light values are offset to simulate longer or shorter exposures.
 This can be achieved through lighting settings, or better, through
-:doc:`Color Management settings </render/post_process/color_management>`
+:doc:`Color Management settings </render/post_process/color_management>`.
 
 .. seealso::
 

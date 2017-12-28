@@ -58,7 +58,7 @@ True Displacement
 
 .. note::
 
-   Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
+   Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`.
 
 Different from bump mapping, *True Displacement* is not a fake effect.
 When using *True Displacement* the actual mesh geometry will be displaced before render.

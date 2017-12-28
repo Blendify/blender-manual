@@ -9,7 +9,7 @@ Render Baking
 
    | Panel:    :menuselection:`Render --> Bake`
 
-Refer to the Blender Render page for :doc:`general baking guidelines </render/blender_render/bake>`
+Refer to the Blender Render page for :doc:`general baking guidelines </render/blender_render/bake>`.
 
 Cycles uses the render settings (samples, bounces, ...) for baking.
 This way the quality of the baked textures should match the result you get from the rendered scene.

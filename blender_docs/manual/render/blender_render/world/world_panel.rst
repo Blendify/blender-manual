@@ -12,7 +12,7 @@ Texture Count
 
    To use an image as a background image in your 3D View,
    for example as a reference when doing a model,
-   see :doc:`using a Background Image </editors/3dview/properties/background_images>`
+   see :doc:`using a Background Image </editors/3dview/properties/background_images>`.
 
 
 Preview

@@ -68,7 +68,7 @@ Settings
 ========
 
 Invisible
-   See :doc:`Here </game_engine/physics/types/static>`
+   See :doc:`Here </game_engine/physics/types/static>`.
 
 
 Collision Bounds
