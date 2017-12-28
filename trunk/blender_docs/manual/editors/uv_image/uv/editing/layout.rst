@@ -82,7 +82,7 @@ You can pin UVs so they do not move between multiple unwrap operations.
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
 so that parts of a UV layout stay the same shape, and/or in the same place.
 Pinning is done by selecting a UV, then selecting *Pin* from the *UVs* menu,
-or the shortcut :kbd:`P`. You can *Unpin a UV* with the shortcut :kbd:`Alt-P`
+or the shortcut :kbd:`P`. You can *Unpin a UV* with the shortcut :kbd:`Alt-P`.
 
 Pinning is most effective when using the Unwrap method of UV mapping, for organic objects.
 An example is when you are modeling a symmetrical object using the

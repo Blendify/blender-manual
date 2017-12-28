@@ -68,7 +68,7 @@ however, removes quick access to layer visibility).
 
 .. seealso::
 
-   Read more about *Numpad Emulation* in the :doc:`User Preferences </preferences/input>`
+   Read more about *Numpad Emulation* in the :doc:`User Preferences </preferences/input>`.
 
 
 Non English Keyboards

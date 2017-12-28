@@ -84,7 +84,7 @@ Target
 Animate Path
    Adds an F-Curve with options for the start and end frame. ToDo: from above.
 Curve Radius
-   Objects scaled by the curve radius. See :doc:`Curve Editing </modeling/curves/properties/geometry>`
+   Objects scaled by the curve radius. See :doc:`Curve Editing </modeling/curves/properties/geometry>`.
 Fixed Position
    Object will stay locked to a single point somewhere along the length of the curve regardless of time.
 Offset

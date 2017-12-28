@@ -19,8 +19,8 @@ Basic Usage
 
 Create a Group:
    - Selecting the objects to be grouped.
-   - Create a new group :menuselection:`Object --> Group --> Create New Group`
-   - Rename your group in the Properties editor: :menuselection:`Object --> Groups`
+   - Create a new group :menuselection:`Object --> Group --> Create New Group`.
+   - Rename your group in the Properties editor: :menuselection:`Object --> Groups`.
 Create a new Group Instance:
    - :menuselection:`Add --> Group Instance`
 Change the Group Instance of existing objects:

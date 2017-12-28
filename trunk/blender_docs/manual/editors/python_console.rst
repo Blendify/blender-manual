@@ -24,7 +24,7 @@ you can change it to a Console Editor.
 .. figure:: /images/editors_python-console_default.png
 
 The command prompt is typical for Python 3.x,
-the interpreter is loaded and is ready to accept commands at the prompt ``>>>``
+the interpreter is loaded and is ready to accept commands at the prompt ``>>>``.
 
 
 First Look at the Console Environment
@@ -183,7 +183,7 @@ See the `bpy.ops <https://www.blender.org/api/blender_python_api_current/bpy.ops
 for a list of all operators.
 
 Lets create a set of five Cubes in the 3D View. First,
-delete the existing Cube object by selecting it and pressing :kbd:`X`
+delete the existing Cube object by selecting it and pressing :kbd:`X`.
 
 
 Try It Out!

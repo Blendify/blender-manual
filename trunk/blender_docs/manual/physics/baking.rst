@@ -92,7 +92,7 @@ Bake All Dynamics
    Bake all physics systems in the scene, even those of different types.
    Useful for baking complex setups involving interactions between different physics types.
 
-   See :ref:`Bake <physics-bake>`
+   See :ref:`Bake <physics-bake>`.
 Free All Bakes
    Free bakes of all physics systems in the scene, even those of different types.
 
@@ -100,7 +100,7 @@ Free All Bakes
 Update All To Frame
    Bake all physics systems in the scene to the current frame.
 
-   See :ref:`Calculate To Frame <calc-physics-bake-to-frame>`
+   See :ref:`Calculate To Frame <calc-physics-bake-to-frame>`.
 
 
 Multiple Caches

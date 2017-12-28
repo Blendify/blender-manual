@@ -299,7 +299,7 @@ This page lists definitions for terms used in Blender and this manual.
       A curve that holds the animation values of a specific property.
 
    Field of View
-      The area in which objects are visible to the camera. Also see :term:`Focal Length <focal length>`
+      The area in which objects are visible to the camera. Also see :term:`Focal Length <focal length>`.
 
    Focal Length
       The distance required by a lens to focus collimated light.

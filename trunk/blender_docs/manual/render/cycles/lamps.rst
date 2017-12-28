@@ -31,7 +31,7 @@ Samples
    Point lamps might need only one sample, while area lamps typically need more.
 Max Bounces
    Maximum number of times light from the lamp is allowed to :term:`bounce <light bounces>`.
-   Limited by :ref:`scene-wide bounce settings <cycles-bounces>`
+   Limited by :ref:`scene-wide bounce settings <cycles-bounces>`.
 Cast Shadow
    By disabling this option, light from lamps will not be blocked by objects in-between.
    This can speed up rendering by not having to trace rays to the light source.

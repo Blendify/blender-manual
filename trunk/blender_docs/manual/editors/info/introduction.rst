@@ -35,7 +35,7 @@ Render
 Render
    See :doc:`/render/output/render_panel`.
 OpenGL Render
-   See :doc:`/render/opengl`
+   See :doc:`/render/opengl`.
 Show/Hide Render View :kbd:`F11`
    Shows (or hides) the editor where the last render was performed.
 Play Rendered Animation :kbd:`Ctrl-F11`

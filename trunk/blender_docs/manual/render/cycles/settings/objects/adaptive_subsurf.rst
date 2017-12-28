@@ -13,7 +13,7 @@ Adaptive Subdivision
 
 .. note::
 
-   Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
+   Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`.
 
 
 When using the *Experimental Feature Set* the

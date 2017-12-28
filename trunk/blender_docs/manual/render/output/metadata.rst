@@ -33,7 +33,7 @@ Stamp Output
 Stamping can include the following data:
 
 Time
-   Includes the current scene time and render frame at ``HH:MM:SS.FF``
+   Includes the current scene time and render frame at ``HH:MM:SS.FF``.
 Date
    Includes the current date and time.
 Render Time

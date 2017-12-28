@@ -128,7 +128,7 @@ Examples
 #. Use :kbd:`Ctrl-A` to change the size of the different regions within the creature.
 #. Use *Mark Loose* at regions like the neck, to merge these faces more together.
 #. To get smoother results, activate *Smooth Shading* and add a
-   :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
+   :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`.
 
 
 External Links

@@ -95,7 +95,7 @@ Output Format
    other options such as channels, bit-depth and compression level are available.
 
    For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`
-   for rendering to videos see :doc:`rendering to videos </render/output/video>`
+   for rendering to videos see :doc:`rendering to videos </render/output/video>`.
 Color Mode
    Choose the color format to save the image to.
    Note that *RGBA* will not be available for all image formats.

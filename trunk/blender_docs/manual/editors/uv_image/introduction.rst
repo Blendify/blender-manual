@@ -22,7 +22,7 @@ View
    Tools for controlling how the content is displayed in the editor.
    See :doc:`/editors/uv_image/navigating`.
 Select
-   Tools for :doc:`Selecting UVs </editors/uv_image/uv/editing/layout>`
+   Tools for :doc:`Selecting UVs </editors/uv_image/uv/editing/layout>`.
 Image
    This contains options for :doc:`/editors/uv_image/image/index`.
 UVs

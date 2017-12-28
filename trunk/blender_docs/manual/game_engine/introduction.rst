@@ -39,7 +39,7 @@ and its functionality can be extended through Python scripting.
 It is designed to abstract the complex engine features into a simple user interface,
 which does not require experience with Programming.
 An overview of the :doc:`Logic Editor </editors/logic_editor>`
-can be found in the :doc:`Game Logic Screen Layout </game_engine/screen_layout>`
+can be found in the :doc:`Game Logic Screen Layout </game_engine/screen_layout>`.
 
 The Game Engine is closely integrated with the existing code base of Blender, which permits
 quick transitions between the traditional modeling feature set and game-specific functionality
