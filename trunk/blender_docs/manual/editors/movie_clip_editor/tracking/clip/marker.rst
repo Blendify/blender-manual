@@ -12,7 +12,7 @@ Point
    Marker schematic.
 
 The whole marker can be moved with :kbd:`RMB` or by dragging the anchor point (black dot) with :kbd:`LMB`.
-Pressing :kbd:`G` also translates the whole marker. When pressing  :kbd:`G` twice the marker will be translated
+Pressing :kbd:`G` also translates the whole marker. When pressing :kbd:`G` twice the marker will be translated
 while keeping the anchor in place. Note that the anchor point outside the pattern area is shown as a cross connected
 with marker position with a dashed line.
 

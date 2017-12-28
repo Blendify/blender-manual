@@ -65,7 +65,7 @@ Auto Start
    Automatically start game at load time.
 
 
-.. rubric::  4) Logic Editor panel
+.. rubric:: 4) Logic Editor panel
 
 The :doc:`Logic Editor </editors/logic_editor>` is where the
 :doc:`logic, properties and states </game_engine/logic/index>` are set up to control the behavior of
@@ -74,7 +74,7 @@ the objects in the game.
 by pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`).
 
 
-.. rubric::  5) Properties
+.. rubric:: 5) Properties
 
 .. tip:: Two Meanings for the Same Word
 

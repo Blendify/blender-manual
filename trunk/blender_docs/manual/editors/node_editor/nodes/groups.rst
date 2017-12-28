@@ -15,7 +15,7 @@ though it were "just one node". Node groups are similar to functions in programm
 You can then reuse them inside, which are then called "NodeGroups",
 or in other blend-file(s), when appending called "NodeTrees".
 
-As an example:  If you have created a material that you would like to use with different inputs
+As an example: If you have created a material that you would like to use with different inputs
 e.g. diffuse color: red plastic, green plastic. You could create different materials with *Make Single User*
 for each different color with a copy of the tree part describing the plastic material.
 If you like to edit the material you would need to redo the edit on all materials.

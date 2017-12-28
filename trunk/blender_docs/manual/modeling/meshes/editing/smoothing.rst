@@ -7,7 +7,7 @@ Smoothing
 Edge Split Modifier
 ===================
 
-With the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`  a result
+With the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>` a result
 similar to *Auto Smooth* can be achieved with the ability to choose which edges should be split,
 based on angle. Those Angles are marked as sharp.
 

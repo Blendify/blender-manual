@@ -107,5 +107,5 @@ Color Mode
    An easy way to get multiple machines to share the rendering workload is to:
 
    - Set up a shared directory over a network file-system.
-   - Disable *Overwrite*, enable  *Placeholders* in the Render *Output* panel.
+   - Disable *Overwrite*, enable *Placeholders* in the Render *Output* panel.
    - Start as many machines as you wish rendering to that directory
