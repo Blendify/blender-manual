@@ -193,7 +193,7 @@ There are compelling advantages to this approach:
   as a separate channel of information, you can now fine-tune its influence in the overall "mix",
   or even change your mind and remove it altogether, all without permanently altering anything.
 - By and large, these stages work *two-* dimensionally, manipulating what is by that time
-   "a raster bitmap with R, G, B, Alpha and Z-Depth information," so they are consistently fast.
+  "a raster bitmap with R, G, B, Alpha and Z-Depth information," so they are consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
 - The tasks can be distributed among several different computers.
 - "After all, the scene does not actually have to be *physically perfect,* to be *convincing*".

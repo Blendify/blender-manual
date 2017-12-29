@@ -73,7 +73,7 @@ Driver Namespace
 ^^^^^^^^^^^^^^^^
 
 There is a list of built-in driver functions and properties.
-These can be displayed via the Python Console
+These can be displayed via the Python Console:
 
 .. code-block:: python
 

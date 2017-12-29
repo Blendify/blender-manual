@@ -34,8 +34,8 @@ F-Curves
    :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` are used to
    interpolate the difference between the keyframes.
 Keyframes
-    :doc:`Keyframes </animation/keyframes/introduction>` are used to
-    set the values of properties bound to a point in time.
+   :doc:`Keyframes </animation/keyframes/introduction>` are used to
+   set the values of properties bound to a point in time.
 
 .. The hierarchy is created with the RNA data paths,
 

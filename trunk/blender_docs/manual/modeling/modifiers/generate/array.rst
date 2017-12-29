@@ -82,12 +82,13 @@ First Last
 
       * - .. figure:: /images/modeling_modifiers_generate_array_first-last-off.png
 
-            Subdivision discontinuity caused by not merging vertices between first and last copies
-            (*First Last* off).
+             Subdivision discontinuity caused by not merging vertices between first and
+             last copies (*First Last* off).
 
         - .. figure:: /images/modeling_modifiers_generate_array_first-last-on.png
 
-            Subdivision discontinuity eliminated by merging vertices between first and last copies (*First Last* on).
+             Subdivision discontinuity eliminated by merging vertices between first and
+             last copies (*First Last* on).
 
 Distance
    Controls the merge distance for *Merge*.

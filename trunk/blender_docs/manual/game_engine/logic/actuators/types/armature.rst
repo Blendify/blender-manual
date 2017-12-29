@@ -12,7 +12,7 @@ The *Armature Actuator* is used to modify bone constraints.
 
 .. note::
 
-  The *Armature Actuator* only is available for armature objects.
+   The *Armature Actuator* only is available for armature objects.
 
 
 Properties

@@ -44,7 +44,7 @@ through the `release notes <https://www.blender.org/features/releases/>`__.
    - It allows access to any version or branch where a feature is being developed.
    - It can be freely customized.
 
-.. note::
+   .. note::
 
       This is included for completeness, but it is **not** expected
       that regular users should have to compile their own Blender builds.

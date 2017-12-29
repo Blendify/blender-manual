@@ -50,11 +50,8 @@ The *Framing* selection under the *Display* heading has no effect on the embedde
 
 Start
    Starts the Game Engine inside the blender viewport preview pane. Shortcut :kbd:`P`.
-Resolution
-   X
-      Sets the internal X rendering resolution.
-   Y
-      Sets the internal Y rendering resolution.
+Resolution X/Y
+   Sets the internal X/Y rendering resolution.
 
 
 Standalone Player

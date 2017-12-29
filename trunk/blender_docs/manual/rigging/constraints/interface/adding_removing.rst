@@ -13,7 +13,7 @@ Tab
    :class: refbox
 
    | Mode:     Object Mode
-   | Menu:    :menuselection:`Properties Editor --> Constraint tab`
+   | Menu:     :menuselection:`Properties Editor --> Constraint tab`
 
 To add a constraint click on the *Add Object Constraint* menu in the Constraints tab.
 
@@ -35,7 +35,7 @@ Add Constraint (with Targets)
    :class: refbox
 
    | Mode:     Object Mode and Pose Mode
-   | Menu:    :menuselection:`Object --> Constraint --> Add constraint (with Targets)`
+   | Menu:     :menuselection:`Object --> Constraint --> Add constraint (with Targets)`
    | Hotkey:   :kbd:`Ctrl-Shift-C`
 
 Adds a constraint to the active object.

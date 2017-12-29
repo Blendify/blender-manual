@@ -24,13 +24,13 @@ Correction Tools (Columns)
 --------------------------
 
 Saturation
-    Adjusts the image's saturation.
+   Adjusts the image's saturation.
 Contrast
-    Adjust image contrast.
+   Adjust image contrast.
 Gamma
-    Exponential gamma correction, affecting the midtones of the image. (Works like Power in the Color Balance node.).
+   Exponential gamma correction, affecting the midtones of the image. (Works like Power in the Color Balance node.).
 Gain
-    Multiplier, stronger influence on the highlights. (Works like Slope in the Color Balance node).
+   Multiplier, stronger influence on the highlights. (Works like Slope in the Color Balance node).
 Lift
    This value (can be negative) will be added (+), linear lightens or darkens the image.
    (Works like *Offset* in the Color Balance node).
@@ -40,11 +40,11 @@ Tonal Ranges (Rows)
 -------------------
 
 Master
-   these sliders affect the entire tonal range.
+   These sliders affect the entire tonal range.
 Highlights
-   these sliders only affect the highlights.
+   These sliders only affect the highlights.
 Midtones
-   these sliders only affect the midtones.
+   These sliders only affect the midtones.
 Shadows
    Affects the dark tones of an image often affecting the shadows.
 

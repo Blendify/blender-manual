@@ -197,8 +197,8 @@ Examples
 Skin
 ----
 
-.. list-table::
-      Increasing SSS scale (`blend-file <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__).
+.. list-table:: Increasing SSS scale
+      (`blend-file <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__).
 
    * - .. figure:: /images/render_blender-render_materials_properties_subsurface-scattering_head-1.jpg
           :width: 100px

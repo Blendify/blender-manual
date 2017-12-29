@@ -112,7 +112,7 @@ Line
    Toggles whether the lines between the points are drawn.
 
    Thickness, Color (color wheel icon)
-       Customizable thickness and color for the lines.
+      Customizable thickness and color for the lines.
 Keyframes
    When enabled, big yellow square dots are drawn on motion paths, showing the keyframes of their bones
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).

@@ -1,5 +1,5 @@
-..    TODO/Review: {{review|partial=X|text=Some of the information is incorrect | fixes =
-      [[User:Sascha Uncia/Doc:2.6/Manual/Physics/Particles/Cache And Bake|X]]
+.. TODO/Review: {{review|partial=X|text=Some of the information is incorrect | fixes =
+   [[User:Sascha Uncia/Doc:2.6/Manual/Physics/Particles/Cache And Bake|X]]
 
 *****
 Cache

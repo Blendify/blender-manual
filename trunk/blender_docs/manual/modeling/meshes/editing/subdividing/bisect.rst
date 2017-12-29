@@ -30,9 +30,9 @@ Examples
 .. list-table::
 
    * - .. figure:: /images/modeling_meshes_editing_subdividing_bisect_example.png
-         :width: 300px
+          :width: 300px
 
-         Example of a common use of bisect.
+          Example of a common use of bisect.
 
      - .. figure:: /images/modeling_meshes_editing_subdividing_bisect_uv.jpg
           :width: 320px

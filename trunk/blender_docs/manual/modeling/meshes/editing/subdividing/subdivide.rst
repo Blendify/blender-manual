@@ -11,7 +11,7 @@ Subdivide
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Subdivide`
    | Menu:     :menuselection:`Mesh --> Edges --> Subdivide`,
-     :menuselection:`Specials --> Subdivide/Subdivide Smooth`
+               :menuselection:`Specials --> Subdivide/Subdivide Smooth`
 
 Subdividing splits selected edges and faces by cutting them in half or more,
 adding new vertices, and subdividing accordingly the faces involved.

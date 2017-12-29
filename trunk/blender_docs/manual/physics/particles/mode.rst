@@ -216,11 +216,11 @@ Shape Object
 
    * - .. figure:: /images/physics_particles_mode_shapecut-before.png
 
-         Before.
+          Before.
 
      - .. figure:: /images/physics_particles_mode_shapecut-after.png
 
-         After.
+          After.
 
 
 Draw

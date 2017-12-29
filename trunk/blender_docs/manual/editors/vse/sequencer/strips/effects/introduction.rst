@@ -16,9 +16,9 @@ it will be placed at the position of the frame indicator.
 
 .. note::
 
-  Since most Effects strips depend on one or two source strips,
-  their frame location and duration depends on their source strips. Thus,
-  you may not be able to move it; you have to move the source strips in order to affect the effect strip.
+   Since most Effects strips depend on one or two source strips,
+   their frame location and duration depends on their source strips. Thus,
+   you may not be able to move it; you have to move the source strips in order to affect the effect strip.
 
 To use an effect that combines or makes a transitions select two strips,
 When you add the effect strip, it will be placed in a channel above the two.

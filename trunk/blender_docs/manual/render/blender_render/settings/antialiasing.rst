@@ -175,4 +175,4 @@ Examples
 
      - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-mitch.jpg
 
-           AA 8, Mitchell-Netravali filter.
+          AA 8, Mitchell-Netravali filter.

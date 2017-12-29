@@ -61,7 +61,7 @@ Stroke Method :kbd:`E`
          The handles can be selected individually by using :kbd:`RMB`,
          extend the selection by :kbd:`Shift-RMB` and deselect/select all by using :kbd:`A`.
       Delete Points :kbd:`X`
-          To delete a curve point, use :kbd:`X`.
+         To delete a curve point, use :kbd:`X`.
       Draw Curve :kbd:`Enter`
          To confirm and execute the curved stroke,
          press :kbd:`Enter` or use the Draw Curve button.

@@ -12,7 +12,7 @@ Brushes
    The brush can be selected by numbers:
    :kbd:`0` to :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`.
 
-    Add ``+``
+   Add ``+``
       When you add a brush, the new brush is a clone of the current one.
 
 .. note::
