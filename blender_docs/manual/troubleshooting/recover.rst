@@ -23,8 +23,8 @@ At the :ref:`System Level <troubleshooting-file-recovery>` (relating to *Files*)
 
   .. note::
 
-      In addition to these functions being enabled by default,
-      the *Save on Quit* functionality cannot be disabled.
+     In addition to these functions being enabled by default,
+     the *Save on Quit* functionality cannot be disabled.
 
 
 .. _troubleshooting-file-recovery:

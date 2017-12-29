@@ -27,13 +27,13 @@ Shading
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Shading:`
+   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Shading:`
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:     :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
+   | Panel:    :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
    | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
 
 
@@ -131,7 +131,7 @@ Recalculate Normals
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Recalculate`
    | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
-     :menuselection:`Mesh --> Normals --> Recalculate Inside`
+               :menuselection:`Mesh --> Normals --> Recalculate Inside`
    | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`
 
 These tools will recalculate the normals of selected faces so that they point outside

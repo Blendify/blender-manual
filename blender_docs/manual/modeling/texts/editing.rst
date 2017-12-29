@@ -168,7 +168,7 @@ Assigning Materials
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:   :menuselection:`Properties editor --> Materials`
+   | Panel:    :menuselection:`Properties editor --> Materials`
 
 Each character can have a different *Material index* in order to have different
 materials on different characters.

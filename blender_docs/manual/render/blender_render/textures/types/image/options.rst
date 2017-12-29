@@ -111,8 +111,7 @@ Interpolation
    the difference with and without *Interpolation* is clearly visible.
    Turn this image off if you are using digital photos to preserve crispness.
 
-   .. list-table::
-      Enlarged Image texture without and with *Interpolation*
+   .. list-table:: Enlarged Image texture without and with *Interpolation*.
 
       * - .. figure:: /images/render_blender-render_textures_types_image_options_interpolation-off.png
 

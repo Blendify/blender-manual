@@ -97,20 +97,20 @@ The first part is *response to keys*.
 Whenever the player presses a key, you should set a value accordingly, such as increase acceleration.
 Example::
 
-    if key[0] == events.UPARROWKEY:
-        logic.car["force"] = -15.0
-    elif key[0] == events.RIGHTARROWKEY:
-        logic.car["steer"] -= 0.05
+   if key[0] == events.UPARROWKEY:
+       logic.car["force"] = -15.0
+   elif key[0] == events.RIGHTARROWKEY:
+       logic.car["steer"] -= 0.05
 
 The second part is to *compute the movement* according to your functions::
 
-    ## apply engine force ##
-    for i in range(0, totalWheels):
-        vehicle.applyEngineForce(logic.car["force"],i)
-    ...
-    ## slowly ease off gas and center steering ##
-    logic.car["steer"] *= 0.6
-    logic.car["force"] *= 0.9
+   ## apply engine force ##
+   for i in range(0, totalWheels):
+       vehicle.applyEngineForce(logic.car["force"],i)
+   ...
+   ## slowly ease off gas and center steering ##
+   logic.car["steer"] *= 0.6
+   logic.car["force"] *= 0.9
 
 Both should be run each frame.
 

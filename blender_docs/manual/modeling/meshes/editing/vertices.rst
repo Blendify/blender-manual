@@ -416,6 +416,6 @@ Blend From Shape, Propagate Shapes
 These are options regarding :doc:`shape keys </animation/shape_keys/index>`.
 
 Shape Propagate
-    Apply selected vertex locations to all other shape keys.
+   Apply selected vertex locations to all other shape keys.
 Blend From Shape
-    Blend in the shape from a shape key.
+   Blend in the shape from a shape key.

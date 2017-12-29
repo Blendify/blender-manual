@@ -29,10 +29,10 @@ but the next time you build it should only take a few seconds.
 
 .. note::
 
-  If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
-  you may need to install an older version of *Babel* (the Python Internationalization Library).
+   If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
+   you may need to install an older version of *Babel* (the Python Internationalization Library).
 
-  To do this, simply run::
+   To do this, simply run::
 
       pip install sphinx "babel<2.0"
 

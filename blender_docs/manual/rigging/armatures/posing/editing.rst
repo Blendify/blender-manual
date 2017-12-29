@@ -83,7 +83,7 @@ Clear Transform
    :class: refbox
 
    | Mode:     Pose Mode
-   | Menu:    :menuselection:`Pose --> Clear Transform`
+   | Menu:     :menuselection:`Pose --> Clear Transform`
    | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-R`, :kbd:`Alt-S`
 
 Once you have transformed some bones, if you want to return to their rest position,
@@ -113,7 +113,7 @@ Apply
    :class: refbox
 
    | Mode:     Pose Mode
-   | Menu:    :menuselection:`Pose --> Apply`
+   | Menu:     :menuselection:`Pose --> Apply`
    | Hotkey:   :kbd:`Ctrl-A`
 
 Conversely, you may define the current pose as the new rest position
@@ -143,7 +143,7 @@ Push Pose
 
    | Mode:     Pose Mode
    | Panel:    :menuselection:`Tool Shelf --> Tool --> Tool --> Pose Tools --> In-Betweens: Push`
-   | Menu:    :menuselection:`Pose --> In-Betweens --> Push Pose`
+   | Menu:     :menuselection:`Pose --> In-Betweens --> Push Pose`
    | Hotkey:   :kbd:`Ctrl-E`
 
 Push pose exaggerates the current pose.
@@ -157,7 +157,7 @@ Relax Pose
 
    | Mode:     Pose Mode
    | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Relax`
-   | Menu:    :menuselection:`Pose --> In-Betweens --> Relax Pose`
+   | Menu:     :menuselection:`Pose --> In-Betweens --> Relax Pose`
    | Hotkey:   :kbd:`Alt-E`
 
 Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
@@ -174,7 +174,7 @@ Breakdowner
 
    | Mode:     Pose Mode
    | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Breakdowner`
-   | Menu:    :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
+   | Menu:     :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
    | Hotkey:   :kbd:`Shift-E`
 
 Creates a suitable breakdown pose on the current frame.
@@ -198,7 +198,8 @@ Copy/Paste Pose
    | Header:   Copy/Paste (|copy-paste|)
    | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Copy, Paste`
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
-     :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste X-Flipped Pose`
+               :menuselection:`Pose --> Paste Pose`,
+               :menuselection:`Pose --> Paste X-Flipped Pose`
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
 directly using the three "copy/paste" buttons found at the right part of the 3D Views header:
@@ -318,7 +319,7 @@ Show/Hide
 
    | Mode:     All Modes
    | Panel:    :menuselection:`Properties editor --> Bone --> Display`
-   | Menu:    :menuselection:`... --> Show/Hide`
+   | Menu:     :menuselection:`... --> Show/Hide`
 
 You do not have to use bone layers to show/hide some bones. As with objects,
 vertices or control points, you can use :kbd:`H`:

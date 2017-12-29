@@ -82,8 +82,8 @@ To enable ray-traced shadows, three actions are required:
 #. Enable ray-traced shadows for the light using the *Ray Shadow* button in the *Light* menu's *Shadow* panel.
    This panel varies depending on the type of light.
 
-    All lamps able to cast ray-traced shadows share some common options,
-    described in :doc:`Ray-traced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
+   All lamps able to cast ray-traced shadows share some common options,
+   described in :doc:`Ray-traced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
 
 Ray-traced shadows can be cast by the following types of lamp:
 

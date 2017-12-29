@@ -77,10 +77,10 @@ Here are some guidelines to help you choose an approach.
 
 - Total render time > 1 hour.
 - Post-production work needed:
-   - Color/lighting adjustment
-   - Green screen/matte replacement
-   - Layering/compositing
-   - Multiple formats and sizes of ultimate product
+  - Color/lighting adjustment
+  - Green screen/matte replacement
+  - Layering/compositing
+  - Multiple formats and sizes of ultimate product
 - Intermediate frames/adjustments needed for compression/codec.
 - Precise timing (e.g. lip-sync to audio track) needed in parts.
 - May need to interrupt rendering to use the computer, and want to be able to resume rendering where you left off.

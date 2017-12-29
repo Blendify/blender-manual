@@ -88,14 +88,14 @@ Options
 .. list-table::
 
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_tool.jpg
-         :width: 200px
+          :width: 200px
 
-         Proportional Editing tool.
+          Proportional Editing tool.
 
      - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_falloff-options.jpg
-         :width: 200px
+          :width: 200px
 
-         Falloff menu.
+          Falloff menu.
 
 The *Proportional Editing* mode menu is on the *3D View* header.
 

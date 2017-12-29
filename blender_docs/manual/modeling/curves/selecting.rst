@@ -51,7 +51,7 @@ Select Linked
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Select Linked`
-   | Hotkey:  :kbd:`L`, :kbd:`Ctrl-L`, :kbd:`Shift-L`
+   | Hotkey:   :kbd:`L`, :kbd:`Ctrl-L`, :kbd:`Shift-L`
 
 :kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier,
@@ -66,7 +66,7 @@ Select Similar
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Select Similar`
-   | Hotkey:  :kbd:`Shift-G`
+   | Hotkey:   :kbd:`Shift-G`
 
 ToDo 2.76.
 
@@ -86,7 +86,7 @@ Shortest Path
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Operator Search --> Pick Shortest Path`
-   | Hotkey:  :kbd:`Ctrl`
+   | Hotkey:   :kbd:`Ctrl`
 
 ToDo 2.76.
 

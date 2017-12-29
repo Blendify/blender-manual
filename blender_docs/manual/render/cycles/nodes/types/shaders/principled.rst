@@ -23,8 +23,8 @@ On top of that there is a specular layer, sheen layer and clearcoat layer.
 
 .. note::
 
-    The emphasis on compatibility with other software means that it interprets
-    certain input parameters differently from older Blender nodes.
+   The emphasis on compatibility with other software means that it interprets
+   certain input parameters differently from older Blender nodes.
 
 
 Inputs
@@ -52,9 +52,10 @@ Specular
       :math:`specular = sqr((ior - 1)/(ior + 1)) / 0.08`
 
       For example:
-        * water: ior = 1.33, specular = 0.25
-        * glass: ior = 1.5, specular = 0.5
-        * diamond: ior = 2.417, specular = 2.15
+      
+      - water: ior = 1.33, specular = 0.25
+      - glass: ior = 1.5, specular = 0.5
+      - diamond: ior = 2.417, specular = 2.15
 
       Since materials with reflectivity above 8% do exist, the field allows values above 1.
 

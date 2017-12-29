@@ -412,7 +412,7 @@ Switch Direction
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Switch Direction`
    | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`,
-     :menuselection:`Specials --> Switch Direction`
+               :menuselection:`Specials --> Switch Direction`
 
 This tool will "reverse" the direction of any curve with at least one selected element
 (i.e. the start point will become the end one, and *vice versa*).

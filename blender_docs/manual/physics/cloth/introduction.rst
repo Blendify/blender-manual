@@ -80,7 +80,7 @@ A general process for working with cloth is to:
 #. Model the cloth object as a general starting shape.
 #. Designate the object as a "cloth" in the *Physics* tab of the Properties editor.
 #. Model other deflection objects that will interact with the cloth.
-    Ensure the Deflection modifier is last on the modifier stack, after any other mesh deforming modifiers.
+   Ensure the Deflection modifier is last on the modifier stack, after any other mesh deforming modifiers.
 #. Light the cloth and assign materials and textures, UV-unwrapping if desired.
 #. If desired, give the object particles, such as steam coming off the surface.
 #. Run the simulation and adjust Options to obtain satisfactory results.

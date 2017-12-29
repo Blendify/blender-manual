@@ -32,22 +32,22 @@ Emit From
       Emits hair particles from the volume of an enclosed mesh.
 
 Random
-    Hair particles are emitted in a random order.
-
+   Hair particles are emitted in a random order.
 Even Distribution
    Hair particle distribution is made even based on surface area of the elements,
    i.e. small elements emit less particles than large elements, so that the particle density is even.
+
 Distribution
-     Jittered
-        Particles are placed at jittered intervals on the emitter elements.
+   Jittered
+      Particles are placed at jittered intervals on the emitter elements.
 
-        Particles/Face
-           Number of emissions per face (0 = automatic).
-        Jittering Amount
-           Amount of jitter applied to the sampling.
+      Particles/Face
+         Number of emissions per face (0 = automatic).
+      Jittering Amount
+         Amount of jitter applied to the sampling.
 
-     Random
-        Particles are emitted from random locations in the emitter's elements.
+   Random
+      Particles are emitted from random locations in the emitter's elements.
 
 Use Modifier Stack
    Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier in the

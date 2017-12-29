@@ -32,7 +32,7 @@ Enabled
 Quality
    Higher quality result in more control particles for the fluid control object.
 Reverse Frames
-     Reverses the control object's movement.
+   Reverses the control object's movement.
 Time
    You specify the time interval (start and end time) during which the fluid control object is active.
 Attraction Force

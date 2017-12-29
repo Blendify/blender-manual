@@ -21,7 +21,7 @@ Properties
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Event Type
-    A menu to select which joystick event to use, each is described later.
+   A menu to select which joystick event to use, each is described later.
 Index
    Specifies which joystick to use.
 All Events

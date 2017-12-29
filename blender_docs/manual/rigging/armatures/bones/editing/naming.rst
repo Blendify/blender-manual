@@ -95,7 +95,8 @@ AutoName
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> AutoName Left/Right`,
-     :menuselection:`Armature --> AutoName Front/Back`, :menuselection:`Armature --> AutoName Top/Bottom`
+               :menuselection:`Armature --> AutoName Front/Back`,
+               :menuselection:`Armature --> AutoName Top/Bottom`
 
 The three *AutoName* entries of the *Armature* and *Specials* menu :kbd:`W`
 allow you to automatically add a suffix to all selected bones, based
