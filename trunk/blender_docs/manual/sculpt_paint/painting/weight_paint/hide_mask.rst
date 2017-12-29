@@ -103,7 +103,7 @@ The Clipping Border
 -------------------
 
 To constrain the paint area further you can use the *Clipping Border*.
-Press :kbd:`Alt-B` and :kbd:`LMB` -drag a rectangular area.
+Press :kbd:`Alt-B` and :kbd:`LMB`\ -drag a rectangular area.
 The selected area will be "cut out" as the area of interest.
 The rest of the 3D View gets hidden.
 

@@ -71,7 +71,7 @@ you also implicitly select the tip of its parent (and vice versa).
 Selecting Bones
 ===============
 
-By :kbd:`RMB` -clicking on a bone's body, you will select it
+By :kbd:`RMB`\ -clicking on a bone's body, you will select it
 (and hence you will implicitly select its root and tip).
 
 Using :kbd:`Shift-RMB`, you can add to/remove from the selection.
@@ -123,7 +123,7 @@ To understand this, look at Fig. :ref:`fig-rig-bone-select-deselect`.
 
           Two selected bones.
 
-After :kbd:`Shift-RMB` -clicking "Bone.003":
+After :kbd:`Shift-RMB`\ -clicking "Bone.003":
 
 - "Bone.003" 's tip (which is same as "Bone.004" 's root) is deselected.
 - "Bone" is "Bone.003" 's parent. Therefore "Bone.003" 's root is same as the tip of "Bone".

@@ -107,11 +107,11 @@ Mouse Clicks
    | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-LMB`
 
-If at least one bone is selected, :kbd:`Ctrl-LMB` -clicking adds a new bone.
+If at least one bone is selected, :kbd:`Ctrl-LMB`\ -clicking adds a new bone.
 
 About the new bone's tip:
 
-After you :kbd:`Ctrl-LMB` -clicked it becomes the active element in the armature,
+After you :kbd:`Ctrl-LMB`\ -clicked it becomes the active element in the armature,
 it appears to be right where you clicked, but (as in mesh editing)
 it will be on the plane parallel to the view and passing through the 3D cursor.
 
