@@ -182,7 +182,7 @@ which are listed in the :ref:`Add-on Preferences <user-prefs-addons-prefs>`.
 
 Releasing the key without moving the mouse will keep the menu open and
 the user can then move the mouse pointer towards the direction of a pie menu item and select it by clicking.
-Releasing the key after moving the mouse towards a pie menu item will cause the menu to close and
+Releasing the key, after moving the mouse towards a pie menu item, will cause the menu to close and
 the selected menu item to activate.
 
 An open disc widget at the center of the pie menu shows the

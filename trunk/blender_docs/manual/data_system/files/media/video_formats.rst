@@ -87,7 +87,7 @@ Video Containers
    compression, and distribution of high definition video.
 `Xvid <https://en.wikipedia.org/wiki/Xvid>`__: ``.avi`` *for now*
    A video codec library following the MPEG-4 standard. It uses ASP features such as b-frames,
-   global and quarter pixel motion compensation, lumi masking, trellis quantization, and H.263,
+   global and quarter pixel motion compensation, lumi masking, Trellis quantization, and H.263,
    MPEG and custom quantization matrices. Xvid is a primary competitor of the DivX Pro Codec.
 `Ogg <https://en.wikipedia.org/wiki/Theora>`__: ``.ogg``, ``.ogv``
    A free lossy video compression format.

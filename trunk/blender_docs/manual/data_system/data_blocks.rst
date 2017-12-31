@@ -34,7 +34,7 @@ especially when inter-linking blend-files.
 Users (Garbage Collection)
 ==========================
 
-It is good to be aware of how Blender,
+It is good to be aware of how Blender
 handles data-blocks lifetime, when they are freed and why.
 
 Blender follows the general rule where unused data is eventually removed.
@@ -60,7 +60,7 @@ If you are building a blend-file to serve as a library of things that you intend
 you will need to make sure that they do not accidentally get deleted from the library file.
 
 Do this by giving the data-blocks a *Fake User*, by pressing the *F* button next to the name of the data-block.
-This prevents the user count from ever becoming zero: therefore, the data-block will not be deleted.
+This prevents the user count from ever becoming zero: therefore, the data-block will not be deleted
 (since Blender does not keep track of how many other files link to this one).
 
 
