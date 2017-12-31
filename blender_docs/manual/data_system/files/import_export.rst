@@ -36,7 +36,7 @@ these can be enabled in the User Preferences through the use of :doc:`Add-ons </
       if you want to import/export a large amount of scene data.
       This :doc:`Alembic </pipeline/alembic>` format is also useful to export an animated mesh
       (rather than a static mesh + the armature + the animation of the armature).
-      Using that animated mesh from an Alembic file can then be used for shading and lighting.
+      That animated mesh from an Alembic file can then be used for shading and lighting.
 
 .. seealso::
 

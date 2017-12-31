@@ -50,7 +50,7 @@ concepts of Python scripting for Blender.
 
 - :doc:`Text Editor </editors/text_editor>`
 - :doc:`Python Console </editors/python_console>`
-- Info Editors :ref:`info-report-console`
+- Info Editor's :ref:`info-report-console`
 
 
 .. rubric:: External links
@@ -87,7 +87,7 @@ there are literally hundreds of add-ons written by many people:
 - Other **Testing** add-ons are included in development builds but not official releases.
   Many of them work reliably and are very useful but are not ensured to be stable for release.
 
-For an overview of all add-ons available see the
+For an overview of all add-ons available, see the
 `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__.
 
 
