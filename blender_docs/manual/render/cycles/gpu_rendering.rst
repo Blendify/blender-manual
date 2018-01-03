@@ -142,8 +142,9 @@ In this case Blender may try to dynamically build a kernel for your graphics car
 
 In this case you can:
 
-#. Check if the latest Blender version (official or `experimental builds
-   <https://builder.blender.org/download/experimental/>`_) supports your graphics card.
+#. Check if the latest Blender version 
+   (official or `experimental builds <https://builder.blender.org/download/experimental/>`__)
+   supports your graphics card.
 #. If you build Blender yourself, try to download and install a newer CUDA developer toolkit.
 
 Normally users do not need to install the CUDA toolkit as Blender comes with precompiled kernels.

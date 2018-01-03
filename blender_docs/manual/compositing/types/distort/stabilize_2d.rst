@@ -33,7 +33,7 @@ Filter
    Usually, the same as used in
    :menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization --> Filter`.
    For technical details on their difference,
-   `see this <http://www.mathworks.com/help/vision/ug/interpolation-methods.html>`_.
+   `see this <http://www.mathworks.com/help/vision/ug/interpolation-methods.html>`__.
    But for most purposes, default of Bilinear should suffice.
 
 Invert

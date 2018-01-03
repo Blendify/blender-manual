@@ -28,7 +28,7 @@ Before going through the tutorial you should...
 
 Suggested reading before starting this tutorial.
 
-- `Dive Into Python <http://getpython3.com/diveintopython3/index.html>`_ sections (1, 2, 3, 4, and 7).
+- `Dive Into Python <http://getpython3.com/diveintopython3/index.html>`__ sections (1, 2, 3, 4, and 7).
 - :ref:`Blender API Quickstart <blender_api:info_quickstart>`
   to help become familiar with Blender/Python basics.
 

@@ -56,7 +56,7 @@ Often, lighting is uneven across the backdrop.
 
 .. figure:: /images/compositing_types_matte_keying-screen_source.jpg
 
-   Example from the `Mango Open Movie <https://mango.blender.org/>`_, Tears of Steel.
+   Example from the `Mango Open Movie <https://mango.blender.org/>`__, Tears of Steel.
 
 That can result in a bad matte.
 

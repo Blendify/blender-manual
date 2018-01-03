@@ -3,7 +3,7 @@
 Alembic
 *******
 
-From the `Alembic home page <https://www.alembic.io/>`_:
+From the `Alembic home page <https://www.alembic.io/>`__:
 
    Alembic is an open computer graphics interchange framework. Alembic distills complex, animated
    scenes into a non-procedural, application-independent set of baked geometric results.
@@ -26,7 +26,7 @@ read it back quickly & efficiently. This means that a mesh can be animated with 
 with only moderate CPU usage.
 
 Support for the Alembic file format was introduced in
-`Blender 2.78 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.78>`_.
+`Blender 2.78 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.78>`__.
 
 Due to the Open Source nature of the Alembic standard as well as
 the C++ library implementing that standard, **Blender can be used in a hybrid pipeline**.
