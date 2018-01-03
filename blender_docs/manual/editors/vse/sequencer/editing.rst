@@ -31,7 +31,7 @@ Start Frame Offset
 ------------------
 
 The *start frame offset* for that strip could be selected by clicking :kbd:`RMB` on the left arrow of the strip;
-holding it down (or pressing :kbd:`G` grab and then moving the mouse left/right
+holding it down (or pressing :kbd:`G` grab and then moving the mouse left/right)
 changes the start frame within the strip by the number of frames you move it.
 The frame number label under the strip displays the start frame of the strip.
 

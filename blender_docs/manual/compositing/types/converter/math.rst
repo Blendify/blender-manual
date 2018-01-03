@@ -125,7 +125,7 @@ we have some flexibility how to quantize each channel,
 since there are a lot of combinations of R × G × B that would equal 256. For example,
 if {R, G, B} = {4, 4, 16}, then :math:`4 × 4 × 16 = 256`. Also, {6, 6, 7} would give 252 possible values.
 The difference in appearance between {4, 4, 16} and {6, 6, 7} is that the first set
-(4, 4, 16} would have fewer shades of red and green, but lots of shades of blue.
+{4, 4, 16} would have fewer shades of red and green, but lots of shades of blue.
 The set {6, 6, 7} would have a more even distribution of colors.
 To get better image quality with fewer color values,
 give possible values to the predominant colors in the image.

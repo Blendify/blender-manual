@@ -281,7 +281,7 @@ Synchronize Playback
 
 When you play an animation, the FPS is displayed at the top left of the 3D View.
 If the scene is detailed and playback is slower than the set
-*Frame Rate* (see :ref:`render-tab-dimensions`,
+*Frame Rate* (see :ref:`render-tab-dimensions`),
 these options are used to synchronize the playback.
 
 No Sync

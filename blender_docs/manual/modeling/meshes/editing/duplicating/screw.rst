@@ -220,8 +220,7 @@ The Spring Example
    (clicking on the red arrow shown with the object and grabbing while using shortcut
    :kbd:`Ctrl` until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global`` ),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Enter`.
-   You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
-   and type :kbd:`Minus 3` and :kbd:`Enter` in the Location too.
+   You can use the Transform Panel, and type :kbd:`Minus 3` and :kbd:`Enter` in the Location too.
    (See the Fig. :ref:`fig-mesh-screw-circle`).
 #. You will have to scale your circle using the shortcut :kbd:`S . 5`, then :kbd:`Enter`.
 #. Now enter *Edit Mode* using shortcut :kbd:`Tab`.
@@ -281,14 +280,13 @@ changed the angular vector of the height you have given to Blender to the opposi
           Flipped to Clockwise direction.
 
 It is also important to note that this vector is related to the same height vector axis used
-for the extrusion and we have created a parallel line with the *Z-Axis*, so, the
-sensibility of this vector is in practical sense reactive only to negative and positive values
+for the extrusion and we have created a parallel line with the *Z-Axis*, so,
+the sensibility of this vector is in practical sense reactive only to negative and positive values
 because it is aligned with the extrusion axis. Blender will clamp the positive and negative to
 its maximum values to make the extrusion follow a direction,
 even if the profile starts reverted. The same rule applies to other Global axes when creating
-the Object for the *Screw* Tool;
-this means if you create your Object using the Top View
-(Shortcut :kbd:`Numpad7` with a straight parallel line following another axis
+the Object for the *Screw* Tool; this means if you create your Object using the Top View
+(Shortcut :kbd:`Numpad7`) with a straight parallel line following another axis
 (for the Top View, the *Y-Axis*), the vector that gives the height for extrusion will also
 change abruptly from negative to positive and vice versa to give the extrusion a direction,
 and you will have to tweak the corresponding Axis accordingly to achieve the Clockwise and
@@ -296,13 +294,14 @@ Counterclockwise effect.
 
 .. note:: Vectors that are not parallel with Blender Axis
 
-   The high sensibility for the vector does not apply to vectors that give the Screw Tool a starting angle
-   (e.g. any non-parallel vector),
+   The high sensibility for the vector does not apply to vectors that
+   give the Screw Tool a starting angle (e.g. any non-parallel vector),
    meaning Blender will not need to clamp the values to stabilize a direction for the extrusion,
-   as the inclination of
-   the vector will be clear for Blender and you will have the full degree of freedom to change the vectors. Our
-   example is important because it only changes the direction of the profile without the tilt and/or bending effect,
-   as there is only one direction for the extrusion, parallel to one of the Blender Axes.
+   as the inclination of the vector will be clear for Blender and
+   you will have the full degree of freedom to change the vectors.
+   Our example is important because it only changes the direction of the profile
+   without the tilt and/or bending effect, as there is only one direction for the extrusion,
+   parallel to one of the Blender Axes.
 
 
 Bending the Profiles using the Spring Example

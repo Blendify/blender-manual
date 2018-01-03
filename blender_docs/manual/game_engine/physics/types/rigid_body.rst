@@ -170,7 +170,7 @@ Box
    The X, Y, Z bounding box, as defined above.
 Sphere
    Radius is defined by the object's scale (visible in the N properties panel) times the physics radius
-   (can be found in :menuselection:`Physics --> Attributes --> Radius`.
+   (can be found in :menuselection:`Physics --> Attributes --> Radius`).
    Note: This is the only bounds that respects the Radius option.
 Cylinder
    Radius is the greater of the x or y extent.

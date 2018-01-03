@@ -41,7 +41,7 @@ OpenCL
 ------
 
 :abbr:`OpenCL (Open Computing Language)` is supported for GPU rendering with *AMD* graphics cards.
-We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture 2.0 and above).
+(We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture 2.0 and above).
 To make sure your GPU is supported checkout
 `this Wikipedia page <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
 

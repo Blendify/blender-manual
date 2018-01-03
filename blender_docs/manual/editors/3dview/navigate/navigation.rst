@@ -12,7 +12,7 @@ For example, it is possible to translate and zoom in the UV/Image editor.
 
 .. tip:: Mouse Buttons and Numpad
 
-   If you have a mouse with less than three buttons or a keyboard without numpad,
+   If you have a mouse with less than three buttons or a keyboard without a numpad,
    see the :doc:`Keyboard and Mouse </getting_started/installing/configuration/hardware>`
    page of the manual to learn how to use them with Blender.
 
@@ -26,7 +26,7 @@ Orbit
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation --> Orbit`
    | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
-      :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
+               :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
 Rotate the view around the point of interest.
 Click and drag :kbd:`MMB` on the viewport's area.
@@ -75,7 +75,7 @@ Panning
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation --> Pan`
    | Hotkey:   :kbd:`Shift-MMB` , :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
-      :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`
+               :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`
 
 Moves the view up, down, left and right.
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D View.

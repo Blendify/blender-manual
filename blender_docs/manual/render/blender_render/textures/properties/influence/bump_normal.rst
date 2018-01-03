@@ -64,7 +64,7 @@ Modeling a low-poly using Blender's Mesh editing tools. In general,
 the same or similar faces should exist that reflect the model. For example,
 a highly detailed ear may have 1000 faces in the high-poly model. In the low-poly model,
 this may be replaced with a single plane, oriented in the same direction as the detailed ear mesh.
-*(Tip:* Blender's :doc:`multi-resolution mesh </modeling/modifiers/generate/multiresolution>`
+(*Tip*: Blender's :doc:`multi-resolution mesh </modeling/modifiers/generate/multiresolution>`
 modeling feature can be used to good effect here).
 
 Mapping is the process of applying a texture to the low-poly mesh.
@@ -75,5 +75,5 @@ for more information on applying a texture to a mesh's material. Special conside
 - When using a Normal map, map the texture to *Normal*.
 
 The coordinate systems of the two objects must match. For example, if you bake using a UV map of the high-poly model,
-you must UV map the low poly model and line up its UV coordinates to match the outline of the high-poly image
-(see :ref:`UV unwrapping <editors-uv-image-index>` to line up with the high-poly map edges.
+you must UV map the low poly model and line up its UV coordinates to match the outline of the high-poly image.
+(see :ref:`UV unwrapping <editors-uv-image-index>` to line up with the high-poly map edges).
