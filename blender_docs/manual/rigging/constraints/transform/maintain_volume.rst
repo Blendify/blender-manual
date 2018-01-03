@@ -4,8 +4,8 @@
 Maintain Volume Constraint
 **************************
 
-The *Maintain Volume* constraint limits the volume of a mesh or a bone to a given
-ratio of its original volume.
+The *Maintain Volume* constraint limits the volume of a mesh or
+a bone to a given ratio of its original volume.
 
 
 Options

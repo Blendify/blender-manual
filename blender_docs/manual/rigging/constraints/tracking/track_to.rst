@@ -19,8 +19,9 @@ This constraint shares a close relationship to the
 .. tip:: Billboard tracking
 
    The term "billboard" has a specific meaning in real-time CG programming (i.e. video games!),
-   where it is used for plane objects always facing the camera (they are indeed "trackers",
-   the camera being their "target"). Their main usage is as support for tree or mist textures:
+   where it is used for plane objects always facing the camera
+   (they are indeed "trackers", the camera being their "target").
+   Their main usage is as support for tree or mist textures:
    if they were not permanently facing the camera, you would often see your trees squeezing to nothing,
    or your mist turning into a mille-feuille paste, which would be funny but not so credible.
 

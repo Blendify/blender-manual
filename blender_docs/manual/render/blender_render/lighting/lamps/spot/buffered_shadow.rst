@@ -232,8 +232,8 @@ Bias
    This problem is usually called "self shadowing",
    and can usually be fixed by increasing the *Bias* value, which exists for that purpose!
 
-   Other methods for correcting self shadowing include increasing the size of the *Shadow
-   Buffer Size* or using a different buffered shadow calculation method such as *Classic-Halfway* or *Irregular*.
+   Other methods for correcting self shadowing include increasing the size of the *Shadow Buffer Size*
+   or using a different buffered shadow calculation method such as *Classic-Halfway* or *Irregular*.
 
    Self shadowing interference tends to affect curved surfaces more than flat ones,
    meaning that if your scene has a lot of curved surfaces it may be necessary to increase the

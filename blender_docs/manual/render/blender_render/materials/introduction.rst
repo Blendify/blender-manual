@@ -69,8 +69,8 @@ of its surrounding environment, according to the rate of reflection of the mater
 
 On the other hand, in ray-traced refractions, the point of a surface struck by a light ray
 will return the color of its background environment, according to the rate of transparency
-(mixing the base color and the background environment's along with its optional filtering
-value) of the material and the optional index of refraction of the material,
+(mixing the base color and the background environment's along with its optional filtering value)
+of the material and the optional index of refraction of the material,
 which will distort the viewing angle.
 
 Of course, shading of the object hit by a light ray will be about mixing all these phenomena
@@ -120,7 +120,7 @@ The exact effect of Material settings can be affected by a number of system sett
 First and foremost is the Render Engine used:
 Cycles and the Blender Render Engine (aka Blender Internal or BI)
 require quite different illumination levels to achieve similar results,
-and even then the appearance of objects can be quite different. Also,
-the material properties settings can be affected by the texture method used (Single Texture,
-Multitexture or GLSL). So it is recommended to always select the appropriate system settings
-before starting the design of materials.
+and even then the appearance of objects can be quite different.
+Also, the material properties settings can be affected by the texture method used
+(Single Texture, Multitexture or GLSL). So it is recommended to always select
+the appropriate system settings before starting the design of materials.

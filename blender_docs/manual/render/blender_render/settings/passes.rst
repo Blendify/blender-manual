@@ -73,8 +73,8 @@ Selecting Render Passes
 Render Passes are the various distinct outputs that the renderer is able to generate.
 All of the following render outputs are normally combined into a single output known,
 appropriately enough, as the *Combined* output.
-But you can also select any of them to be output as a separate pass. (If you do so, in most
-cases you can choose whether to *also* continue to include it in the Combined output).
+But you can also select any of them to be output as a separate pass.
+(If you do so, in most cases you can choose whether to *also* continue to include it in the Combined output).
 
 Some of these outputs must be enabled and used within your scene
 (and not just selected in the Render Layer panel) in order to show anything.
@@ -206,8 +206,8 @@ Note that Suzanne's reflection is not blue; there is a different Render Pass for
 You could just as easily swap in another image entirely; for example,
 the shadow map from another render layer.
 You can even take an image from another project entirely and use that instead
-(using the Image Input node), to get a different effect. (For example,
-an effect similar to a *Star Wars Episode One* movie poster,
+(by using the Image Input node), to get a different effect.
+(For example, an effect similar to a *Star Wars Episode One* movie poster,
 where Anakin Skywalker already casts the shadow of Darth Vader).
 
 

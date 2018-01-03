@@ -16,8 +16,8 @@ or shell-shaped structures (Sea shells, Wood Screw Tips, Special profiles, etc.)
 
 The main difference between the Screw Tool and the :doc:`Screw Modifier </modeling/modifiers/generate/screw>`
 is that the Screw Tool can calculate the angular progressions using the basic profile angle automatically.
-It can also adjust the Axis angular vector without using a second modifier (for example,
-using the Screw Modifier with a Bevel Modifier, Curve Modifier, etc.),
+It can also adjust the Axis angular vector without using a second modifier
+(for example, using the Screw Modifier with a Bevel Modifier, Curve Modifier, etc.),
 resulting in a much cleaner approach for vertex distribution and usage.
 
 This tool works using open or closed profiles, as well as profiles closed with faces.
@@ -57,11 +57,11 @@ If the vector is created with only two vertices at the *same* (X, Y, Z) location
 (which will not give Blender a vector value for height), this will create a normal "Spin".
 
 Having at least one vector line,
-you can add other closed support profiles that will follow this vector during the extrusions (See limitations).
+you can add other closed support profiles that will follow this vector during the extrusions (See `Limitations`_).
 The direction of the extrusions is calculated by two determinant factors,
 your point of view in Global Space and the position of your cursor in the 3D View using Global coordinates.
 The profile and the vector must be fully selected in *Edit Mode* before you click the *Screw Button*
-(See Limitations).
+(See `Limitations`_).
 When you have the vector for the open profile and the other closed profiles selected, click the *Screw* Button.
 
 
@@ -81,8 +81,8 @@ Tool operation; if they are not properly selected,
 Blender will also show you the same message.
 
 Note that the open line is always extruded, so if you only use it to "guide" the screw,
-you will have to delete it after the tool completion (use linked-selection,
-:kbd:`Ctrl-L`, to select the whole extrusion of the open line).
+you will have to delete it after the tool completion
+(use linked-selection, :kbd:`Ctrl-L`, to select the whole extrusion of the open line).
 
 If there is any problem with the selection or profiles,
 the tool will warn you with the error message:
@@ -105,13 +105,13 @@ both in the Info Editor and at the place where you clicked to start performing t
 
 
 You may have as many profiles as you like (like circles, squares, and so on)
--- Note that not all vertices in a profile need to be in the same plane,
+-- Note that, not all vertices in a profile need to be in the same plane,
 even if this is the most common case. You may also have other, more complex,
 selected closed islands, but they have to be closed profiles because Blender will seek for
 only one open profile for the translation, height and angular vector.
-Some closed meshes that overlap themselves may not screw correctly (for example:
-Half UV-sphere works fine, but
-more than half could cause the Screw Tool to have wrong behavior or errors),
+Some closed meshes that overlap themselves may not screw correctly
+(for example: Half UV-sphere works fine,
+but more than half could cause the Screw Tool to have wrong behavior or errors),
 and profiles that are closed with faces (like a cone or half sphere)
 will be closed automatically at their ends, like if you were extruding a region.
 

@@ -18,8 +18,8 @@ Your First Armature
 
 In order to see what we are talking about, let us try to add the default armature in Blender.
 
-(Note that armature editing details are explained in the
-:doc:`armatures editing section </rigging/armatures/bones/editing/index>`).
+(Note that armature editing details are explained in
+the :doc:`armatures editing section </rigging/armatures/bones/editing/index>`).
 
 Open a default scene, then:
 

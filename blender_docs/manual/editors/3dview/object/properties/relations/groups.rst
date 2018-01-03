@@ -81,9 +81,9 @@ Dupligroup Visibility
    Restricting Group Contents via Layers The cluster of layer buttons attached to each group determines from
    which layers the group objects will be included when duplicated.
    If your group contains objects on layers 10, 11 and 12,
-   but you disable the layer 12 button in the group controls, duplicates of that group (using the
-   :doc:`Dupligroup </editors/3dview/object/properties/duplication/dupligroup>`
-   feature) will only show the portions of the group that reside in layers 10 and 11.
+   but you disable the layer 12 button in the group controls, duplicates of that group
+   (using the :doc:`Dupligroup </editors/3dview/object/properties/duplication/dupligroup>` feature)
+   will only show the portions of the group that reside in layers 10 and 11.
 Offset
    ToDo.
 

@@ -78,10 +78,9 @@ and entering new values for the *Tail* and *Head* number buttons.
 
           After Scaled Radius. Its length remains the same, but its joints' radius are bigger.
 
-Note that when you resize a bone (either by directly scaling it,
-or by moving one of its joints), Blender automatically adjusts the end-radii of its envelope
-proportionally to the size of the modification. Therefore,
-it is advisable to place all the bones first, and only then edit their properties.
+Note that, when you resize a bone (either by directly scaling it, or by moving one of its joints),
+Blender automatically adjusts the end-radii of its envelope proportionally to the size of the modification.
+Therefore, it is advisable to place all the bones first, and only then edit their properties.
 
 
 Scale Envelope Distance

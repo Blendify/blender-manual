@@ -52,8 +52,8 @@ The Big Picture
 
 - Activate FreeStyle by :menuselection:`Properties Editor --> Render tab --> FreeStyle` panel's checkbox.
 - FreeStyle settings are located in the new *Render Layers* tab.
-- One render layer can only have one view map. A view map holds the edge detection settings (Crease Angle,
-  Culling toggle, Face Smoothness toggle, Material Boundaries toggle,
+- One render layer can only have one view map. A view map holds the edge detection settings
+  (Crease Angle, Culling toggle, Face Smoothness toggle, Material Boundaries toggle,
   Sphere Radius and Kr Derivative Epsilon advanced options).
 - A view map can have multiple line sets.
 - A line set controls which line types and selections will be rendered, from lines based on your scene.

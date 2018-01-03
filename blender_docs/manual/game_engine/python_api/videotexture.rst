@@ -166,8 +166,8 @@ any source. We must create a source object from one of the possible sources avai
 
 In this example we use a simple video file as source.
 The ``VideoFFmpeg`` constructor takes a file name as argument.
-To avoid any confusion with the location of the file, we will use ``GameLogic.expandPath
-()`` to build an absolute file name,
+To avoid any confusion with the location of the file,
+we will use ``GameLogic.expandPath()`` to build an absolute file name,
 assuming the video file is in the same directory as the blend-file::
 
    movie = GameLogic.expandPath('//trailer_400p.ogg')
@@ -228,8 +228,8 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
    By default the image is send unchanged to the GPU.
    If an alpha channel is present in the video, it is automatically loaded and sent to the GPU as well.
 
-We will simply set the ``scale`` attribute to True because the ``gluScaleImage
-()`` is really too slow for real time video.
+We will simply set the ``scale`` attribute to True
+because the ``gluScaleImage()`` is really too slow for real time video.
 In case the video dimensions are already a power of 2, it has no effect. ::
 
    GameLogic.video.source.scale = True
@@ -250,8 +250,8 @@ method of the ``Texture`` object::
    GameLogic.video.refresh(True)
 
 If the video source is stopped, ``refresh()`` has no effect.
-The argument of ``refresh
-()`` is a flag that indicates if the texture should be recalculated on next refresh.
+The argument of ``refresh()`` is a flag
+that indicates if the texture should be recalculated on next refresh.
 For video playback, you definitively want to set it to True.
 
 
@@ -316,8 +316,8 @@ Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2videoMix
 that demonstrates the use of the ``ImageMix`` source.
 ``ImageMix`` is a source that needs sources,
 which can be any other ``Texture`` source, like ``VideoFFmpeg``,
-``ImageFFmpeg`` or ``ImageRender``. You set them with ``setSource
-()`` and their relative weight with ``setWeight()``.
+``ImageFFmpeg`` or ``ImageRender``.
+You set them with ``setSource()`` and their relative weight with ``setWeight()``.
 Pay attention that the weight is a short number between 0 and 255,
 and that the sum of all weights should be 255.
 ``ImageMix`` makes a mix of all the sources according to their weights.

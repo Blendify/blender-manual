@@ -84,8 +84,9 @@ and sub-surface scattering. Then you will want to layer on additional UV Texture
 - Thin skin is more translucent, so a map is needed for that.
 
 Each image is mapped by using another Texture Channel.
-Each of these maps are images which are applied to the different aspects (Color, Normal,
-Specularity) of the image. Tileable images can be repeated to give a smaller,
+Each of these maps are images which are applied to
+the different aspects (Color, Normal, Specularity) of the image.
+Tileable images can be repeated to give a smaller,
 denser pattern by using the Texture controls for repeat or size.
 
 
@@ -193,8 +194,8 @@ Since a layout is a bunch of arranged UV Maps, and a UV Map maps many mesh faces
 a face can therefore only have one UV Texture image,
 and the UV coordinates for that face must fit entirely on the image.
 If you want a face to have multiple images, split the face into parts,
-and assign each part its own image. (*Or* you can get fancy with Nodes,
-but that is another story ...).
+and assign each part its own image.
+(*Or* you can get fancy with Nodes, but that is another story ...).
 
 
 Using Alpha Transparency

@@ -41,25 +41,31 @@ Detect Features
    There are several properties for this operator:
 
    Placement
-      Used to control where to place markers. By default, they will be added through the whole frame, but you can
-      also outline some areas with interesting features with Grease pencil and place markers only inside the
-      outlined area. That is how the "Inside Grease Pencil" placement variant works. You can also outline areas of
-      no interest (like trees, humans and so) and place markers outside of these areas. That is how the "Outside
-      Grease Pencil" placement variant works.
+      Used to control where to place markers. By default, they will be added through the whole frame,
+      but you can also outline some areas with interesting features with Grease pencil
+      and place markers only inside the outlined area.
+      That is how the "Inside Grease Pencil" placement variant works.
+      You can also outline areas of no interest (like trees, humans and so)
+      and place markers outside of these areas.
+      That is how the "Outside Grease Pencil" placement variant works.
    Margin
-      controls the distance from the image boundary for created markers. If markers are placed too close to the
-      image boundary, they will fail to track really quickly and they should be deleted manually. To reduce the
-      amount of manual clean-up, this parameter can be used.
+      Controls the distance from the image boundary for created markers.
+      If markers are placed too close to the image boundary,
+      they will fail to track really quickly and they should be deleted manually.
+      To reduce the amount of manual clean-up, this parameter can be used.
    Threshold
-      Limits minimal threshold for placing markers. This value comes from the feature detection algorithm and
-      basically it means: low values means most probably this feature would fail to track very soon, high value
-      means it is not much such track. Amount of markers to be added can be controlled with this value.
+      Limits minimal threshold for placing markers.
+      This value comes from the feature detection algorithm and
+      basically it means: low values means most probably this feature would fail to track very soon,
+      high value means it is not much such track.
+      Amount of markers to be added can be controlled with this value.
    Distance
-      Defines the minimal distance between placed markers. It is needed to prevent markers from being placed too
-      close to each other (such placement can confuse the camera solver).
+      Defines the minimal distance between placed markers.
+      It is needed to prevent markers from being placed too close to each other
+      (such placement can confuse the camera solver).
 
 Delete Track
-   is a quite self-explaining operator which deletes all selected tracks.
+   Is a quite self-explaining operator which deletes all selected tracks.
 
 
 .. _clip-tracking-settings:

@@ -158,10 +158,11 @@ Version/Revision Milestones
 
 `2.5x <https://wiki.blender.org/index.php/Dev:2.5/Source>`__ -- From 2009 to August 2011:
    This series released four `pre-version <https://archive.blender.org/development/release-logs/blender-256-beta>`__
-   (from Alpha 0 in November 2009 to Beta in July 2010) and three stable versions (from 2.57 - April 2011
-   to 2.59 - August 2011). It is one of the most important development projects, with a total refactor of
-   the software with new functions, redesign of the internal window manager and event/tool/data handling system,
-   and new Python API. The final version of this project was Blender 2.59 in August 2011.
+   (from Alpha 0 in November 2009 to Beta in July 2010) and
+   three stable versions (from 2.57 - April 2011 to 2.59 - August 2011).
+   It is one of the most important development projects, with a total refactor of the software with new functions,
+   redesign of the internal window manager and event/tool/data handling system, and new Python API.
+   The final version of this project was Blender 2.59 in August 2011.
 
 
 .. rubric:: Video: From Blender 1.60 to 2.50
@@ -195,8 +196,9 @@ Version/Revision Milestones
    Fire and smoke improvements, anisotropic shader for Cycles, modifier improvements,
    the Bevel tool now includes rounding, new add-ons, and over 200 bug fixes.
 `2.66 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.66>`__ -- February 2013:
-   Dynamic topology, rigid body simulation, improvements in UI and usability (including retina display
-   support), Cycles now supports hair, the Bevel tool now supports individual vertex beveling,
+   Dynamic topology, rigid body simulation, improvements in UI and
+   usability (including retina display support), Cycles now supports hair,
+   the Bevel tool now supports individual vertex beveling,
    new :doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>` modifier and the
    new :doc:`UV Warp </modeling/modifiers/modify/uv_warp>` modifier,
    new SPH particle fluid solver. More than 250 bug fixes.

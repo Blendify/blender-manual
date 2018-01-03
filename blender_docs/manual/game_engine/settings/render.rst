@@ -180,8 +180,9 @@ Display Lists
 Restrict Animation Updates
    Restrict number of animation updates to the animation FPS
    (this is better for performance but can cause issues with smooth playback).
-   When checked, this will force the Game Engine to discard frames (even at the middle of redrawing,
-   sometimes causing *tearing* artifacts) if the rate of frames rendered by the GPU is greater than
+   When checked, this will force the Game Engine to discard frames
+   (even at the middle of redrawing, sometimes causing *tearing* artifacts)
+   if the rate of frames rendered by the GPU is greater than
    the specified in the :ref:`Display panel <game-engine-settings-render-display>`.
 Use Material Caching
    Cache materials in the converter.

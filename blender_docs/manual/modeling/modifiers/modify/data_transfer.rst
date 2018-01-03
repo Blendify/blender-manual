@@ -88,8 +88,9 @@ Data Types
 
 Multi-layers Data Types Options
    In those cases (vertex groups, vertex colors, UVs), one can select which source layers to transfer
-   (usually, either all of them, or a single specified one), and how to affect destination (either by matching
-   names, matching order/position, or, if a single source is selected, by specifying manually destination layer).
+   (usually, either all of them, or a single specified one), and how to affect destination
+   (either by matching names, matching order/position,
+   or, if a single source is selected, by specifying manually destination layer).
 
 Islands Handling Refinement
    This setting only affects UV transfer currently. It allows to avoid a given destination face to get

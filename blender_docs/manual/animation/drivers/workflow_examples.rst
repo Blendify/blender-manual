@@ -166,8 +166,8 @@ it allows you to have more complex relationships between your shape keys.
 
 The Basis shape key has the stacks fully retracted. Key1 has the base fully extended.
 Key2A has the left stack fully extended. Key2B has the right stack fully extended.
-Key2A and Key2B are both relative to Key1 (as you can see in the field
-in the bottom right of the Shape Keys panel).
+Key2A and Key2B are both relative to Key1
+(as you can see in the field in the bottom right of the Shape Keys panel).
 
 The value of Key1 is bound to the position of bones by a driver with two variables.
 Each variable uses the world Z coordinate of a bone and

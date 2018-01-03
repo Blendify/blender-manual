@@ -145,8 +145,9 @@ As you can see in the figure, the Subdivision Surface Modifier has a drastic eff
 Until you add in additional Loops (with :kbd:`Ctrl-R`), the shape is almost unrecognizable as a cube.
 
 A mesh with deliberate topology has good placement of Edge Loops,
-which allow the placement of more Loops (or removal of Loops,
-with :kbd:`X` :menuselection:`--> Edge Loop`) to control the sharpness/smoothness of the resultant mesh.
+which allow the placement of more Loops
+(or removal of Loops, with :kbd:`X` :menuselection:`--> Edge Loop`)
+to control the sharpness/smoothness of the resultant mesh.
 
 
 .. _subsurf-performance:

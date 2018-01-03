@@ -108,10 +108,10 @@ Edges
    to preserve fine edge detail. You can check edge detection by connecting a
    :doc:`Viewer Node </compositing/types/output/viewer>` to the *Edges* output.
 
-   Sharper detected edges (smaller *Edge Kernel Radius*, like 2 / larger *Edge Kernel Tolerance*,
-   like 0.4) will create a sharper matte, but may loose some detail like stray hairs.
+   Sharper detected edges (smaller *Edge Kernel Radius*, like 2 / larger *Edge Kernel Tolerance*, like 0.4)
+   will create a sharper matte, but may loose some detail like stray hairs.
    A sharp matte is good, but disappearing or flickering hairs are distracting.
 
-   Fat edges (larger *Edge Kernel Radius*, like 8 / smaller *Edge Kernel Tolerance*,
-   like 0.05) will capture more edge detail, but may also produce a halo around the subject.
+   Fat edges (larger *Edge Kernel Radius*, like 8 / smaller *Edge Kernel Tolerance*, like 0.05)
+   will capture more edge detail, but may also produce a halo around the subject.
    The halo can be adjusted with *Feather* controls along with *Dilate/Erode*.

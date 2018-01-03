@@ -106,11 +106,10 @@ Axis Locking Modes
    C and D show the same situation with face selection,
    E and F with edge selection and G and H with vertex selection.
 
-A single key press constrains movement to the corresponding *Global* axis. A second
-key press of the *same* key constrains movement to the current transform orientation
-selection (except if it is set to *Global*,
-in which case the *Local* orientation is used). Finally,
-a third key press of the same key removes constraints.
+A single key press constrains movement to the corresponding *Global* axis.
+A second key press of the *same* key constrains movement to the current transform orientation selection
+(except if it is set to *Global*, in which case the *Local* orientation is used).
+Finally, a third key press of the same key removes constraints.
 
 The orientation can be set
 in the :doc:`Transform Orientation </editors/3dview/object/editing/transform/control/orientations>`

@@ -36,8 +36,8 @@ Resolution
 Twisting
    A 3D curve has control points that are not located on the curve's local XY plane.
    This gives the curve a twist which can affect the curve normals.
-   You can alter how the twist of the curve is calculated by choosing from *Minimum,
-   Tangent* and *Z-Up* options from the select menu.
+   You can alter how the twist of the curve is calculated by choosing from
+   *Minimum, Tangent* and *Z-Up* options from the select menu.
 
    .. figure:: /images/modeling_curves_properties_data_shape-twist.jpg
 

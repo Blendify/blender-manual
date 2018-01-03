@@ -125,9 +125,10 @@ All Transforms to Deltas
 Reset Values
    ToDo.
 Animated Transform to Deltas
-   Converts the "normal" transformation animations (animations done to the translation, scale,
-   and, rotation values) to Delta transforms. To use this tool simply select the object with the
-   animations that you want to convert press :kbd:`Ctrl-A` and select *Animated Transform to Deltas*.
+   Converts the "normal" transformation animations
+   (animations done to the translation, scale, and, rotation values) to Delta transforms.
+   To use this tool simply select the object with the animations that you want to convert press :kbd:`Ctrl-A`
+   and select *Animated Transform to Deltas*.
 
 
 .. _bpy.ops.object.visual_transform_apply:

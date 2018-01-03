@@ -13,9 +13,8 @@ Introduction
 
 As bones behave like objects in *Pose Mode*, they can also be constrained. This is
 why the *Constraints* tab is shown in both *Object Mode* and
-*Edit Mode*. This panel contains the constraints *of the active
-bone* (its name is displayed at the top of the panel,
-in the *To Bone:...* static text field).
+*Edit Mode*. This panel contains the constraints *of the active bone*
+(its name is displayed at the top of the panel, in the *To Bone:...* static text field).
 
 Constraining bones can be used to control their degree of freedom in their pose transformations,
 using e.g. the *Limit* constraints.
@@ -26,8 +25,7 @@ is also mainly available through the *IK Solver* constraint, which is specific t
 
 For example, a human elbow cannot rotate backward (unless the character has broken his arm),
 nor to the sides, and its forward and roll rotations are limited in a given range.
-(e.g. depending on the rest position of your elbow,
-it may be from (0 to 160) or from (-45 to 135)).
+(e.g. depending on the rest position of your elbow, it may be from (0 to 160) or from (-45 to 135)).
 
 So you should apply a *Limit Rotation* constraint to the forearm bone
 (as the elbow movement is the result of rotating the forearm bone around its root).

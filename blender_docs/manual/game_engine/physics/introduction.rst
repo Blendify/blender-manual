@@ -114,8 +114,8 @@ Show Framerate and Profile
 .. figure:: /images/game-engine_physics_introduction_profile-stats.jpg
 
    A shot of `Manual-BGE-Physics-DancingSticks.blend
-   <https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__ with
-   :menuselection:`Game --> Show Framerate and Profile` enabled.
+   <https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__
+   with :menuselection:`Game --> Show Framerate and Profile` enabled.
 
 If you enable :menuselection:`Game --> Show Framerate and Profile`,
 it will put some statistics in the upper-left area of the game window.

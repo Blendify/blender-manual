@@ -48,13 +48,14 @@ Normalize Weight
    Will scale weights value so that they fit tightly into the (0.0 to 1.0) range.
 
    All this means is that with a pressure tablet,
-   you can directly control the radius and weight of the created curve, which can affect e.g.
-   the width of an extrusion, or the size of an object through a *Follow Path*
-   Constraint or *Curve* Modifier!
+   you can directly control the radius and weight of the created curve,
+   which can affect e.g. the width of an extrusion,
+   or the size of an object through a *Follow Path* Constraint or *Curve* Modifier!
 
 Link Strokes
    Will create a single spline, i.e. curve element. (enabled by default)
-   from all strokes in active Grease pencil layer. This is especially useful if you want to use the curve as a path.
+   from all strokes in active Grease pencil layer.
+   This is especially useful if you want to use the curve as a path.
    All the strokes are linked in the curve by "zero weights/radii" sections.
 
 
@@ -62,9 +63,9 @@ Timing
 ------
 
 Grease pencil stores "dynamic" data, i.e. how fast strokes are drawn.
-When converting to curve,
-this data can be used to create an *Evaluate Time* F-Curve (in other words,
-a path animation), that can be used e.g. to control another object's position along that curve
+When converting to curve, this data can be used to create an *Evaluate Time* F-Curve
+(in other words, a path animation), that can be used
+e.g. to control another object's position along that curve
 (*Follow Path* constraint, or, through a driver, *Curve* modifier).
 So this allows you to reproduce your drawing movements.
 

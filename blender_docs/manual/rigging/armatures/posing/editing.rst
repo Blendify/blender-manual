@@ -32,8 +32,7 @@ As previously noted,
 bones' transformations are performed based on the *Rest Position* of the armature,
 which is its state as defined in *Edit Mode*. This means that in rest position,
 in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
-(as you can see it in the *Transform* panel, in the 3D Views,
-:kbd:`N`).
+(as you can see it in the *Transform* panel, in the 3D Views).
 
 .. figure:: /images/rigging_armatures_posing_editing_local-rotation.png
 

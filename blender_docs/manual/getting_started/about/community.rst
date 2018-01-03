@@ -32,8 +32,8 @@ and `Stack Exchange <https://blender.stackexchange.com/>`__.
 There are also more official sources of support,
 such as `Certified Trainers <https://www.blender.org/certification/>`__
 and the `Blender Cloud <https://cloud.blender.org/>`__.
-If you think you have found an issue with Blender, you can easily `report a bug
-<https://developer.blender.org/maniphest/task/edit/form/1/>`__.
+If you think you have found an issue with Blender, you can easily
+`report a bug <https://developer.blender.org/maniphest/task/edit/form/1/>`__.
 
 More details about support can be found on the `support page <https://www.blender.org/support/>`__.
 
