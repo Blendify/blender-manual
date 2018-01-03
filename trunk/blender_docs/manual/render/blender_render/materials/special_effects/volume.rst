@@ -413,7 +413,7 @@ You must remember to set the domain object and change the influence.
 
 Go to the texture tab and change the type to *Voxel Data*.
 Under the Voxel Data-Settings set the domain object to our domain cube
-(it should be listed just as 'Cube' since we are using Blender's default cube.
+(it should be listed just as 'Cube' since we are using Blender's default cube).
 Under Influence check 'Density' and leave it at 1.000
 (Emission should be automatically checked, too).
 Now you should be able to render single frames. You can choose to color your smoke as well,

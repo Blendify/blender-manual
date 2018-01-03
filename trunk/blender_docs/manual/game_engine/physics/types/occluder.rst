@@ -87,15 +87,15 @@ There are situations where occlusion culling will not bring any benefit:
 
 - | If the occluders are small and do not hide many objects.
 
-  In that case, occlusion culling is just dragging your CPU down).
+  In that case, occlusion culling is just dragging your CPU down.
 - | If the occluders are large but hides simple objects.
 
-  In that case you are better off sending the objects to the GPU).
+  In that case, you are better off sending the objects to the GPU.
 - | If the occluders are large and hides many complex objects but in a very predictable way.
 
   Example: a house full of complex objects. Although occlusion culling will perform well in this case,
   you will get better performance by implementing a specific logic that hides/unhides the objects;
-  for instance making the objects visible only when the camera enters the house).
+  for instance making the objects visible only when the camera enters the house.
 - | Occluders can be visible graphic objects but beware that too many faces will make the Z Depth buffer creation slow.
 
   For example, a terrain is not a good candidate for occlusion: too many faces and too many overlap.

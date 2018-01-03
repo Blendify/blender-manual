@@ -6,10 +6,10 @@
 Rigid Body Joint Constraint
 ***************************
 
-The *Rigid Body Joint* constraint is very special, it is used by the
-physics part of the Blender Game Engine to simulate a joint between its owner and its target.
-It offers four joint types: hinge type, ball-and-socket type, cone-twist type, and generic six-DoF
-(degrees of freedom) type.
+The *Rigid Body Joint* constraint is very special,it is used by the physics part of
+the Blender Game Engine to simulate a joint between its owner and its target.
+It offers four joint types: hinge type, ball-and-socket type, cone-twist type, and
+generic six-\ :abbr:`DoF (Degrees of Freedom)` type.
 
 .. important::
 
@@ -21,7 +21,7 @@ the other end of the stick rotating around the joint/pivot point...
 
 This constraint is of no use in most "standard" static or animated projects. However,
 you can use its results outside of the BGE, through the :menuselection:`Game --> Record Animation`.
-see :doc:`Rigid Bodies </game_engine/physics/usage>` for more info on this topic).
+(see :doc:`Rigid Bodies </game_engine/physics/usage>` for more info on this topic).
 
 For a demo file that shows some of the different types, see: `BGE-Physics-RigidBodyJoints.blend
 <https://wiki.blender.org/index.php/Media:BGE-Physics-RigidBodyJoints.blend>`__.

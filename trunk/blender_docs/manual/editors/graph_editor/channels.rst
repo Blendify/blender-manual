@@ -40,7 +40,7 @@ Lock (padlock icon) :kbd:`Tab`
    .. note::
 
       In the Dope Sheet this is also working inside the NLA,
-      but that it does not prevent edition of the underlying F-Curve).
+      but that it does not prevent edition of the underlying F-Curve.
 
 
 Selecting

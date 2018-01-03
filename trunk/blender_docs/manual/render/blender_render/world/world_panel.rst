@@ -85,9 +85,10 @@ Instead of a color, or blend of two colors, Blender can use an 2D image which it
 very large Box or sphere which encompasses the entire scene,
 or which it maps to a virtual space around the scene.
 
-The World textures are accessible in the texture menu (just select *World* first,
-then *Texture*. They are used much like the Materials textures,
-except for a couple of differences. The textures can be mapped according to:
+The World textures are accessible in the texture menu
+(just select *World* first, then *Texture*).
+They are used much like the Materials textures, except for a couple of differences.
+The textures can be mapped according to:
 
 .. figure:: /images/render_blender-render_world_world-panel_texture-coordinates.png
    :align: right

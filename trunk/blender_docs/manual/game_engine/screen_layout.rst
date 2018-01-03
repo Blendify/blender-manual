@@ -37,7 +37,7 @@ Properties) but also a new Logic Editor panel concerned solely with the BGE.
 Selected from the render engine menu.
 This specifies that all output will be output by the real-time Blender Game Engine renderer.
 It also opens various other menu options such as the Game options (see below)
-and a range of Properties for the BGE renderer properties (see below)
+and a range of Properties for the BGE renderer properties (see below).
 
 .. figure:: /images/game-engine_screen-layout_game-options.png
 

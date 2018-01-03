@@ -182,21 +182,21 @@ sound-processing software are directly comparable to that of Blender's node-base
 
 There are compelling advantages to this approach:
 
-- If something is "not quite right," you do not necessarily have to start over from scratch.
+- If something is "not quite right", you do not necessarily have to start over from scratch.
 - In practice, the deadline-killer is *re-* rendering, which ordinarily must be done (in its entirety)
   just because "'one little thing' about the shot is wrong." Compositing helps to avoid this, because (ideally...)
   only the specific parts that are found to be in error must be repeated (or, maybe,
   the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place).
 - Sometimes you might find that it is *almost* what you wanted, but now you would like to *add*
-  this and maybe *take away* that." A compositing-based approach enables you to do just that, and furthermore,
+  this and maybe *take away* that. A compositing-based approach enables you to do just that, and furthermore,
   to do so *non-destructively.* In other words, having generated the "addition" (or the "mask")
   as a separate channel of information, you can now fine-tune its influence in the overall "mix",
   or even change your mind and remove it altogether, all without permanently altering anything.
 - By and large, these stages work *two-* dimensionally, manipulating what is by that time
-  "a raster bitmap with R, G, B, Alpha and Z-Depth information," so they are consistently fast.
+  "a raster bitmap with R, G, B, Alpha and Z-Depth information", so they are consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
 - The tasks can be distributed among several different computers.
-- "After all, the scene does not actually have to be *physically perfect,* to be *convincing*".
+- "After all, the scene does not actually have to be *physically perfect*, to be *convincing*".
   A compositing-based approach lets you take full advantage of this. You can focus your attention (and Blender's)
   upon those specific aspects of the scene which will actually make a noticeable difference.
   It is possible to save a considerable amount of time by consciously choosing to exclude
