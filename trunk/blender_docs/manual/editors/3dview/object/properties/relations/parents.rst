@@ -23,9 +23,10 @@ you want to designate one object as the parent of all the children. Movement,
 rotation or scaling of the parent also affects the children.
 
 To parent objects, select at least two objects (select the *Child Objects* first,
-and select the *Parent Object* last), and press :kbd:`Ctrl-P`. The *Set Parent To*
-menu will pop up allowing you to select from one of several possible different
-parenting types. Selecting one of the entries in *Set Parent To* confirms,
+and select the *Parent Object* last), and press :kbd:`Ctrl-P`.
+The *Set Parent To* menu will pop up allowing you to select from one of several
+possible different parenting types.
+Selecting one of the entries in *Set Parent To* confirms,
 and the child/children to parent relationship is created.
 
 The last object selected will be the *Active Object* (outlined in light orange),
@@ -34,9 +35,9 @@ If you selected multiple objects before selecting the parent,
 they will all be children of the parent and will be at the same level of the hierarchy
 (they are "siblings").
 
-The *Set Parent To* pop-up menu is context sensitive, which means the number of entries it
-displays can change depending on what objects are selected when the :kbd:`Ctrl-P`
-shortcut is used.
+The *Set Parent To* pop-up menu is context sensitive, which means
+the number of entries it displays can change depending on what objects are selected
+when the :kbd:`Ctrl-P` shortcut is used.
 
 For non-inverse-mode, press :kbd:`Shift-Ctrl-P` instead. This creates an alternative
 parent-child-relationship where child-objects exist entirely in the parent's coordinate system.

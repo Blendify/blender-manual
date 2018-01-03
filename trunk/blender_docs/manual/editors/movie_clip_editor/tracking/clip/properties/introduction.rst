@@ -61,8 +61,9 @@ pattern area. This helps to check how accurately the feature is being tracked
 and also helps to move the track back to the correct position.
 The track can be moved directly using this widget by mouse dragging.
 
-If an anchor is used (the position in the image which is tracking is different from the
-position which is used for parenting), a preview widget will display the area around the anchor position.
+If an anchor is used
+(the position in the image which is tracking is different from the position which is used for parenting),
+a preview widget will display the area around the anchor position.
 This configuration helps in masking some things when there is no good feature at position where
 the mask corner should be placed. Details of this technique will be written later.
 
@@ -105,9 +106,10 @@ Color Presets
    The preset for the *Custom Color*.
 Custom Color
    This setting overrides the default marker color used in the Clip editor and 3D View,
-   and it helps to distinguish different type of features (for example,
-   features in the background vs. foreground and so on). Color also can be used for "grouping"
-   tracks so a whole group of tracks can be selected by color using the Select Grouped operator.
+   and it helps to distinguish different type of features
+   (for example, features in the background vs. foreground and so on).
+   Color also can be used for "grouping" tracks so a whole group of tracks can be selected by
+   color using the Select Grouped operator.
 
 .. tip::
 

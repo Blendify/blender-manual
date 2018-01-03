@@ -14,8 +14,8 @@ and unless the target is in the plane perpendicular to the locked axis, and cros
 this owner cannot really point at its target.
 
 Let us take the best real world equivalent: a compass.
-It can rotate to point in the general direction of its target (the magnetic North,
-or a neighbor magnet), but it cannot point *directly at it*,
+It can rotate to point in the general direction of its target
+(the magnetic North, or a neighbor magnet), but it cannot point *directly at it*,
 because it spins like a wheel on an axle.
 If a compass is sitting on a table and there is a magnet directly above it,
 the compass cannot point to it. If we move the magnet more to one side of the compass,

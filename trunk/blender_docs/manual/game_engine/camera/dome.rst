@@ -23,7 +23,7 @@ Planetariums and domes with spherical mirrors.
 
    To accomplish that launch Blender with the command-line argument ``-W``.
    Also to get away of the top menu on Blender try to join all areas
-   (buttons, 3D View, text, etc.) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
+   (buttons, 3D View, text, etc.) in a single one. Otherwise if you only maximize it (:kbd:`Ctrl-Up`)
    you cannot get the whole screen free to run your game
    (the top bar menu takes about 20 pixels).
 
@@ -48,11 +48,11 @@ Available camera settings change depending on the selected Dome Type:
 Resolution
    Sets the resolution of the Buffer. Decreasing this value increases speed, but decreases quality.
 Tessellation
-   4 is the default. This is the tessellation level of the mesh. (Not available in Cube Map mode).
+   This is the tessellation level of the mesh. (Not available in Cube Map mode).
 Angle
    Sets the field of view of the dome in degrees, from 90 to 250. (Available in Fisheye and Truncated modes).
 Tilt
-   Set the camera rotation in the horizontal axis. Available in Fisheye and Truncated modes).
+   Set the camera rotation in the horizontal axis. (Available in Fisheye and Truncated modes).
 
 `Warp Data Mesh`_
    Use a custom warp mesh data file.

@@ -13,8 +13,7 @@ Sort Elements
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Sort Elements...`
 
-This tool (available from the *Specials*, *Vertices*,
-*Edges* and *Faces* menus)
+This tool (available from the *Specials*, *Vertices*, *Edges* and *Faces* menus)
 allows you to reorder the matching selected mesh elements, following various methods.
 Note that when called from the *Specials* menu,
 the affected element types are the same as the active select modes.

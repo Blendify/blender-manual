@@ -21,9 +21,9 @@ the strength of the displacement is controlled by the *Displace* and *Normal* sl
   vertices move according to the texture's normal data.
   The normal displacement is controlled by the *Normal* slider.
 - If a texture provides only intensity information (e.g. *Magic*, derived from color),
-  vertices move along the directions of their normals (a vertex has no normal itself,
-  it is the resulting vector of the adjacent faces). White pixels move outward in the direction of the normal,
-  black pixels move in the opposite direction.
+  vertices move along the directions of their normals
+  (a vertex has no normal itself, it is the resulting vector of the adjacent faces).
+  White pixels move outward in the direction of the normal, black pixels move in the opposite direction.
   The amount of displacement is controlled with the *Displace* slider.
 
 The two modes are not exclusive. Many texture types provide both information

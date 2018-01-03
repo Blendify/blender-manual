@@ -134,8 +134,8 @@ Strength
 
    .. tip::
 
-      If the range of strengths does not seem to fit the model (for example,
-      if even the lowest strength setting still makes too large of a change on the model)
+      If the range of strengths does not seem to fit the model
+      (for example, if even the lowest strength setting still makes too large of a change on the model)
       then you can scale the model (in *Edit Mode*, not *Object Mode*).
       Larger sizes will make the brush's effect smaller, and vice versa.
 

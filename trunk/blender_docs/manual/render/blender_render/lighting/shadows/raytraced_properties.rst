@@ -22,9 +22,9 @@ Ray Shadow
    When the *Ray Shadow* button is selected, another set of options is made available, those options being:
 Shadow sample generator type
    Method for generating shadow samples: Adaptive QMC is fastest, Constant QMC is less noisy but slower.
-   This allows you to choose which algorithm is to be used to generate the samples that will
-   serve to compute the ray-traced shadows (for now, mainly two variants of Quasi-Monte Carlo, see
-   `Quasi-Monte Carlo method`_):
+   This allows you to choose which algorithm is to be used to generate the samples
+   that will serve to compute the ray-traced shadows
+   (for now, mainly two variants of Quasi-Monte Carlo, see `Quasi-Monte Carlo method`_):
 
    Constant QMC
       The *Constant QMC* method is used to calculate shadow values in a very uniform, evenly distributed way.

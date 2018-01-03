@@ -94,7 +94,8 @@ This operator removes AnimData blocks (restricted to only those
 which are visible in the animation editor where it is run from) which are "empty"
 (i.e. that is, have no active action, drivers, and NLA tracks or strips).
 
-It is sometimes possible to end up with a lot of data-blocks which have old and unused
-Animation Data containers still attached. This most commonly happens when doing motion
-graphics work (i.e. when some linked-in objects may have previously been used to develop
-a set of reusable assets), and is particularly distracting in the NLA Editor.
+It is sometimes possible to end up with a lot of data-blocks which have old and
+unused Animation Data containers still attached.
+This most commonly happens when doing motion graphics work
+(i.e. when some linked-in objects may have previously been used to develop a set of reusable assets),
+and is particularly distracting in the NLA Editor.

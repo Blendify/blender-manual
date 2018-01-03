@@ -290,8 +290,8 @@ To fix this there is a post processing technique to cleanup the final bit of noi
 To use this enable :doc:`Denoising </render/cycles/settings/scene/render_layers/denoising>`
 in the *Render Layers* tab of the Properties editor.
 
-Below is an example render by `The Pixelary
-<http://blog.thepixelary.com/post/160451378592/denoising-in-cycles-tested>`__.
+Below is an example render by
+`The Pixelary <http://blog.thepixelary.com/post/160451378592/denoising-in-cycles-tested>`__.
 
 .. list-table::
 

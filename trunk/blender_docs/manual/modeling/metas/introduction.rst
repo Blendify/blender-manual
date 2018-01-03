@@ -18,8 +18,8 @@ Meta objects are literally mathematical formulas that are calculated on-the-fly 
 A very distinct visual characteristic of metas is that they are fluid *mercurial*,
 or *clay-like* forms that have a "rounded" shape. Furthermore,
 when two meta objects get close to one another, they begin to interact with one another.
-They "blend" or "merge", as water droplets do, especially in zero-g (which, by the way, makes
-them very handy for modeling streams of water when you do not want to do a fluid simulation).
+They "blend" or "merge", as water droplets do, especially in zero-g (which, by the way,
+makes them very handy for modeling streams of water when you do not want to do a fluid simulation).
 If they subsequently move away from one another, they restore their original shape.
 
 Each of these is defined by its own underlying mathematical structure (:doc:`/modeling/metas/structure`),
@@ -46,8 +46,9 @@ In Object Mode, the calculated mesh is shown, along with a black "selection ring
 
    Meta Ball example.
 
-In *Edit Mode* (Fig. :ref:`fig-meta-ball-example`), a meta is drawn as a mesh (either shaded or as black wireframe,
-but without any vertex of course), with two colored circles: a red one for selection (pink when selected),
+In *Edit Mode* (Fig. :ref:`fig-meta-ball-example`), a meta is drawn as a mesh
+(either shaded or as black wireframe, but without any vertex of course),
+with two colored circles a red one for selection (pink when selected),
 and a green one for a direct control of the meta's stiffness (light green when active).
 Note that except for the *Scale* :kbd:`S` transformation,
 having the green circle highlighted is equivalent to having the red one.

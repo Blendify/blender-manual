@@ -469,8 +469,8 @@ You can prevent a bone from being transformed in *Edit Mode* in several ways:
 - Press :kbd:`Shift-W` :menuselection:`Toggle Bone Options --> Locked`
 - Select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`.
 
-*If the root of a locked bone is connected to the tip of an unlocked bone,
-it will not be locked*, i.e. you will be able to move it to your liking.
+*If the root of a locked bone is connected to the tip of an unlocked bone, it will not be locked*,
+i.e. you will be able to move it to your liking.
 This means that in a chain of connected bones, when you lock one bone,
 you only really lock its tip. With unconnected bones, the locking is effective on both joints of the bone.
 

@@ -167,11 +167,10 @@ Index of Refraction
 
 .. figure:: /images/render_blender-render_materials_properties_transparency_ior-examples.jpg
 
-   Influence of the IOR of an Object on the distortion of the background:
-   spheres of Water, Glass and Diamond (top to bottom).
+   Influence of the IOR of an Object on the distortion of the background.
 
-(Influence of the IOR of an Object on the distortion of the background:
-spheres of Water, Glass and Diamond (top to bottom)).
+   Spheres of Water, Glass and Diamond (top to bottom).
+
 There are different values for typical materials: Air: 1.000 (no refraction),
 Alcohol: 1.329, Glass: 1.517, Plastic: 1.460, Water: 1.333 and Diamond: 2.417.
 

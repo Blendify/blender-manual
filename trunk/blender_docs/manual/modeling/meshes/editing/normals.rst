@@ -118,8 +118,9 @@ Flip Direction
    | Menu:     :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
 
 Well, it will just reverse the normals direction of all selected faces.
-Note that this allows you to precisely control the direction (**not** the orientation,
-which is always perpendicular to the face) of your normals, as only selected ones are flipped.
+Note that this allows you to precisely control the direction
+(**not** the orientation, which is always perpendicular to the face) of your normals,
+as only selected ones are flipped.
 
 
 Recalculate Normals

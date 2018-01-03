@@ -52,7 +52,7 @@ Specular
       :math:`specular = sqr((ior - 1)/(ior + 1)) / 0.08`
 
       For example:
-      
+
       - water: ior = 1.33, specular = 0.25
       - glass: ior = 1.5, specular = 0.5
       - diamond: ior = 2.417, specular = 2.15

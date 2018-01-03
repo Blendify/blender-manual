@@ -182,8 +182,8 @@ Side and Number text fields, *auto* button
    Similarly, a "&n" placeholder will be replaced by the *Number* field content.
    If you enable the small *auto* button, the *Number* field content is auto-generated,
    producing a number starting from nothing, and increased each time you press the *Convert* button,
-   and the "&s" placeholder is replaced by the side of the bone (relative to the local X axis:
-   "r" for negative X values, "l" for positive ones).
+   and the "&s" placeholder is replaced by the side of the bone
+   (relative to the local X axis: "r" for negative X values, "l" for positive ones).
 
 .. list-table:: Naming and placeholders, using a simple leg template.
 
@@ -195,8 +195,7 @@ Side and Number text fields, *auto* button
      - .. figure:: /images/rigging_armatures_bones_editing_templating_name-placeholders-1.png
           :width: 200px
 
-          Before conversion (note the &n and &s
-          placeholders in template bones' names).
+          Before conversion (note, the &n and &s placeholders in template bones' names).
 
      - .. figure:: /images/rigging_armatures_bones_editing_templating_name-placeholders-2.png
           :width: 200px

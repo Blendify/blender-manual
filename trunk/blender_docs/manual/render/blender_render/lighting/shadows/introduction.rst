@@ -32,8 +32,8 @@ where multiple things have to be set up in different areas to get results:
 - The lamp has to cast shadows (ability and direction).
 - An opaque object has to block light on its way (position and layer).
 - Another object's material has to receive shadows (*Shadow* and *Receive Transparent* enabled).
-- The render engine has to calculate shadows (*Shadow* for buffered shadows,
-  *Shadow* and *Ray* for ray-traced shadows).
+- The render engine has to calculate shadows
+  (*Shadow* for buffered shadows, *Shadow* and *Ray* for ray-traced shadows).
 
 For example, the simple *Lamp*, *Area*,
 and *Sun* light has the ability to cast ray shadows, but not buffer shadows.

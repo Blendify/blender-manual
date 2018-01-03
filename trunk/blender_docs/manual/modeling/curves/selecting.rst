@@ -141,8 +141,8 @@ Less
 
 This implies two points:
 
-#. When *all* control points of a curve are selected, nothing will happen (as for *Less*,
-   all linked points are always selected, and of course, *More* cannot add any).
+#. When *all* control points of a curve are selected, nothing will happen
+   (as for *Less*, all linked points are always selected, and of course, *More* cannot add any).
    Conversely, the same goes when no control points are selected.
 #. Second, these tools will never "go outside" of a curve
    (they will never "jump" to another curve in the same object).

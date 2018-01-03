@@ -31,8 +31,9 @@ View Map Cache
    when camera-space mesh geometry is static, as well as for repeated still renders
    with updates of line stylization options.
 
-   Although the ''View map cache'' checkbox is a render layer option, the cache memory is
-   shared by all render layers and scenes. This means that if Freestyle is used for two or more render layers
+   Although the ''View map cache'' checkbox is a render layer option,
+   the cache memory is shared by all render layers and scenes.
+   This means that if Freestyle is used for two or more render layers
    (possibly in different scenes through the compositor),
    then the cached view map for one render layer is replaced by a new view map
    for another render layer and hence no performance gain is expected.
@@ -43,8 +44,8 @@ Crease Angle
    the edge between them will be rendered when using *Crease* edge type selection in a line set.
    The value also affects *Silhouette* edge type selection.
 Culling
-   Ignore the edges that are out of view (saves some processing time and memory,
-   but may reduce the quality of the result in some cases).
+   Ignore the edges that are out of view.
+   (Saves some processing time and memory, but may reduce the quality of the result in some cases).
 
 
 Advanced Options

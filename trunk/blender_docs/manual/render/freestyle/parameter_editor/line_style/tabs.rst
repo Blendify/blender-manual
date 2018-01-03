@@ -54,8 +54,8 @@ Material Boundary
    Splits chains of feature edges if they cross from one material to another.
 
 Split Dash, Gap
-   Splits the chains using the given dashed pattern ("D" stands for "dash",
-   "G" stands for "gap"; see also `Dashed Line`_).
+   Splits the chains using the given dashed pattern
+   ("D" stands for "dash", "G" stands for "gap"; see also `Dashed Line`_).
 
    D1, G1, D2, G2, D3, G3
 
@@ -127,8 +127,8 @@ Butt
 Round
    A half circle centered on the end point of the line.
 Square
-   A square centered on the end point of the line (hence, like the circle,
-   the drawn end of the line is slightly extended compared to its computed value).
+   A square centered on the end point of the line
+   (hence, like the circle, the drawn end of the line is slightly extended compared to its computed value).
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps-example.png
 

@@ -128,9 +128,13 @@ Examples
 Fresnel
 -------
 
+.. _fig-bi-demo-fresnel:
+
 .. figure:: /images/render_blender-render_materials_properties_mirror_fresnel-example.jpg
 
-   Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0, 2.5 and 5.0.
+   Demonstration of the Fresnel effect.
+
+   With values equal to (from top to bottom) 0.0, 2.5 and 5.0.
 
 Let us undertake a small experiment in order to understand what Fresnel is really about.
 After a rainy day, go out and stand over a puddle of water.
@@ -142,8 +146,7 @@ then the ground is gradually masked until all you see is the reflection of the s
 This is the Fresnel effect: having a surface sharing reflective and non-reflective properties
 according to the viewing angle and the surface normal.
 
-In *Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0,
-2.5 and 5.0*, this behavior is demonstrated for a perfectly reflective Material
+In Fig. :ref:`fig-bi-demo-fresnel`, this behavior is demonstrated for a perfectly reflective Material
 (Mirror Reflectivity 1.0).
 
 Fresnel 0.0 stands for a perfect mirror Material, while Fresnel 5.

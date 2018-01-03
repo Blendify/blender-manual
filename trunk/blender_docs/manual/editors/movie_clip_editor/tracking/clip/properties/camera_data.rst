@@ -46,11 +46,11 @@ Distortion Model
       It defines high distortions, which makes this model suitable much better for cameras with fish-eye lenses.
 
 Coefficients
-   Coefficients are used to compensate for lens distortion when the movie was shot. Currently these values can be
-   tweaked by hand only (there are no calibration tools yet)
-   using tools available in Distortion mode. Basically, just
-   tweak K1 until solving is most accurate for the known focal length (but also take grid and Grease pencil into
-   account to prevent "impossible" distortion).
+   Coefficients are used to compensate for lens distortion when the movie was shot.
+   Currently these values can be tweaked by hand only (there are no calibration tools yet)
+   using tools available in Distortion mode.
+   Basically, just tweak K1 until solving is most accurate for the known focal length
+   (but also take grid and Grease pencil into account to prevent "impossible" distortion).
 
    The coefficients of the division model work independent from each other and
    positive values will give a barrel distortion.

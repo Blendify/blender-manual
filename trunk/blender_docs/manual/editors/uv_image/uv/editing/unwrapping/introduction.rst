@@ -28,8 +28,9 @@ These coordinates can be used for rendering or for real-time OpenGL display as w
 
 Every face in Blender can have a link to a different image.
 The UV coordinates define how this image is mapped onto the face.
-This image then can be rendered or displayed in real time. A 3D View has to be in "Face
-Select" mode to be able to assign Images or change UV coordinates of the active Mesh Object.
+This image then can be rendered or displayed in real time.
+A 3D View has to be in "Face Select" mode to be able to assign Images or
+change UV coordinates of the active Mesh Object.
 This allows a face to participate in many UV Textures.
 A face at the hairline of a character might participate in the facial UV Texture,
 *and* in the scalp/hair UV Texture.

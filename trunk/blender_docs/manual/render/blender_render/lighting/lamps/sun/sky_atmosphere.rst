@@ -16,18 +16,18 @@ The dispersion of the atmosphere is also more visible when it is a bit foggy:
 the farther away an object is, the more "faded" in light gray it is...
 Go out into the countryside on a nice hot day, and you will see.
 
-To enable this effect, you have to use a *Sun* light source. If, as usual,
-the *position* of the lamp has no importance, its *rotation* is crucial:
-it determines which hour it is. As a starting point,
-you should reset rotation of your *Sun* (with :kbd:`Alt-R`, or typing :kbd:`0`
-in each of the three *Rotation* fields X, Y, Z in
-the *Transform* panel). This way,
-you will have a nice mid-day sun (in the tropics).
+To enable this effect, you have to use a *Sun* light source.
+If, as usual, the *position* of the lamp has no importance,
+its *rotation* is crucial: it determines which hour it is.
+As a starting point, you should reset rotation of your *Sun*
+(with :kbd:`Alt-R`, or typing :kbd:`0` in each of
+the three *Rotation* fields X, Y, Z in the *Transform* panel).
+This way, you will have a nice mid-day sun (in the tropics).
 
 Now, there are two important angles for the *Sky/Atmosphere* effect:
 the "incidence" angle (between the light direction and the X-Y plane),
-which determines the "hour" of the day (as you might expect,
-the default rotation -- straight down -- is "mid-day",
+which determines the "hour" of the day
+(as you might expect, the default rotation -- straight down -- is "mid-day",
 a light pointing straight up is "midnight", and so on...).
 And the rotation around the Z axis determines the position of the sun around the camera.
 

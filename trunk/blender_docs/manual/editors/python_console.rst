@@ -199,8 +199,8 @@ We create a reference to the operator that is used for creating a cube mesh prim
 
    add_cube = bpy.ops.mesh.primitive_cube_add
 
-Now in a *for loop*, we create the five objects like this (in the screenshot above,
-another method is used) :
+Now in a *for loop*, we create the five objects like this
+(in the screenshot above, another method is used):
 Press :kbd:`Enter` twice after entering the command at the shell prompt::
 
    for index in range(5):

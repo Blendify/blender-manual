@@ -236,8 +236,8 @@ Viscosity Presets
    --> NOT COHERENT, unless honey is five times heavier than water!
    *And so on, chocolate syrup density should be of 1×10^4 kg.m^-3 (ten times water density),
    ketchup density should be of 1×10^3 kg.m^-3 (same as water density, coherent I think),
-   melting glass density should be of 1×10^12 kg.m^-3 (a thousand million times water density,
-   it's more like black hole!)
+   melting glass density should be of 1×10^12 kg.m^-3
+   (a thousand million times water density, it's more like black hole!)
   ::
    So, either the values in the tables are wrong (one way or the other),
    or the law to pass from dynamic viscosity to kinematic viscosity is just a "trick",

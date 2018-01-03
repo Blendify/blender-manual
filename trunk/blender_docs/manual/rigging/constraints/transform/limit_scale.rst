@@ -10,12 +10,12 @@ through lower and upper bounds.
 
 .. important::
 
-   This constraint does not tolerate negative scale values (those you might
-   use to mirror an object...): when you add it to an object or bone, even if
-   no axis limit is enabled, nor the *For Transform* button, as soon
-   as you scale your object, all negative scale values are instantaneously
-   inverted to positive ones... And the boundary settings can only take
-   strictly positive values.
+   This constraint does not tolerate negative scale values
+   (those you might use to mirror an object...): when you add it to an object or bone,
+   even if no axis limit is enabled, nor the *For Transform* button,
+   as soon as you scale your object,
+   all negative scale values are instantaneously inverted to positive ones...
+   And the boundary settings can only take strictly positive values.
 
 It is interesting to note that even though the constraint limits the visual and rendered scale
 of its owner, its owner's data-block still allows (by default)
@@ -28,8 +28,8 @@ its coordinates will still be changed beyond the limits. If the constraint is re
 its ex-owner will seem to jump to its internally-specified scale.
 
 Similarly, if its owner has an internal scale that is beyond the limits, scaling it back into
-the limit area will appear to do nothing until the internal scale values are back within the
-limit threshold (unless you enabled the *For Transform* option,
+the limit area will appear to do nothing until the internal scale values are back
+within the limit threshold (unless you enabled the *For Transform* option,
 see below, or your owner has some negative scale values).
 
 Setting equal the min and max values of an axis locks the owner's scaling along that axis.

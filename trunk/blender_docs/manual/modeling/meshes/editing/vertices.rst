@@ -368,8 +368,8 @@ Add Hook
    | Menu:     :menuselection:`Mesh --> Vertices --> Add Hook`
    | Hotkey:   :kbd:`Ctrl-H`
 
-Adds a :doc:`Hook Modifier </modeling/modifiers/deform/hooks>` (using either a new empty,
-or the current selected object) linked to the selection.
+Adds a :doc:`Hook Modifier </modeling/modifiers/deform/hooks>`
+(using either a new empty, or the current selected object) linked to the selection.
 Note that even if it appears in the history menu,
 this action cannot be undone in *Edit Mode* -- because it involves other objects...
 

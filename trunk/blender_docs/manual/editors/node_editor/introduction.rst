@@ -25,8 +25,9 @@ In the list below it shows a list of different types of node trees and where eac
    * - .. figure:: /images/icons_material.png
           :width: 35px
      - Material Nodes
-     - Because there are two different render engines documentation is split between :doc:`Blender Internal
-       </render/blender_render/materials/nodes/index>` and :doc:`Cycles </render/cycles/nodes/index>`.
+     - Because there are two different render engines documentation is split between
+       :doc:`Blender Internal </render/blender_render/materials/nodes/index>` and
+       :doc:`Cycles </render/cycles/nodes/index>`.
    * - .. figure:: /images/icons_render-layers.png
           :width: 35px
      - Composite Nodes

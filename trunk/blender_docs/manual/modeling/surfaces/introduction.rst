@@ -3,9 +3,10 @@
 Introduction
 ************
 
-Curves are 2D objects, and surfaces are their 3D extension. Note however, that in Blender,
-you only have NURBS surfaces, no Bézier (you have the *Bézier* knot type, though;
-see below), nor polygonal (but for these, you have meshes!).
+Curves are 2D objects, and surfaces are their 3D extension.
+Note however, that in Blender, you only have NURBS surfaces,
+no Bézier (you have the *Bézier* knot type, though; see below),
+nor polygonal (but for these, you have meshes!).
 Even though curves and surfaces share the same object type (with texts also...),
 they are not the same thing; for example,
 you cannot have in the same object both curves and surfaces.
@@ -17,8 +18,8 @@ you cannot have in the same object both curves and surfaces.
    Nurbs surface in Edit Mode.
 
 As surfaces are 2D, they have two interpolation axes, U (as for curves) and V.
-It is important to understand that you can control the interpolation rules (knot, order,
-resolution) *independently* for each of these two dimensions
+It is important to understand that you can control the interpolation rules (knot, order, resolution)
+*independently* for each of these two dimensions
 (the U and V fields for all these settings, of course).
 
 You may ask yourself "but the surface appears to be 3D, why is it only 2D?".

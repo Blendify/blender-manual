@@ -249,9 +249,9 @@ Inverse Square
 This lamp falloff type attenuates its intensity according to inverse square law,
 scaled by the *Distance* value. Inverse square is a sharper, realistic decay,
 useful for lighting such as desk lamps and street lights.
-This is similar to the old *Quad* option (and consequently, to the new
-*Lin/Quad Weighted* option with *Linear* to 0.0 and *Quad*
-to 1.0), with slight changes.
+This is similar to the old *Quad* option
+(and consequently, to the new *Lin/Quad Weighted* option with *Linear* to 0.0 and *Quad* to 1.0),
+with slight changes.
 
 
 Inverse Linear

@@ -118,8 +118,8 @@ Inherit Scale
 These inheriting behaviors propagate along the bones' hierarchy.
 So when you scale down a bone, all its descendants are by default scaled down accordingly.
 However, if you set one bone's *Inherit Scale* or *Inherit Rotation*
-property on in this "family", this will break the scaling propagation, i.e. this bone *and
-all its descendants* will no longer be affected when you scale one of its ancestors.
+property on in this "family", this will break the scaling propagation,
+i.e. this bone *and all its descendants* will no longer be affected when you scale one of its ancestors.
 
 .. list-table:: Examples of transforming parented/connected bones with Inherit Rotation disabled.
 

@@ -19,9 +19,9 @@ synonymously, there are certain differences.
 Bump maps
    These are textures that store an *intensity*, the relative height of pixels from the viewpoint of the camera.
    The pixels seem to be moved by the required distance in the direction of the face normals.
-   (The "bump" consists only of a displacement, which takes place along the existing, and unchanged,
-   normal-vector of the face). You may either use grayscale pictures or the intensity values of a RGB-Texture
-   (including images).
+   (The "bump" consists only of a displacement, which takes place along the existing,
+   and unchanged, normal-vector of the face).
+   You may either use grayscale pictures or the intensity values of a RGB-Texture (including images).
 
 Normal maps
    These are images that store a *direction*, the direction of normals directly in the RGB values of an image.
@@ -53,8 +53,8 @@ The steps involved in making and using Bump and Normal Maps is:
 #. Map the map to the low-poly model using a common coordinate system.
 
 Consult the Modeling section for how to model a highly detailed model using the Mesh tools.
-How much detail you put in is totally up to you. The more ridges and details (knobs, creases,
-protrusions) you put in, the more detailed your map will be.
+How much detail you put in is totally up to you.
+The more ridges and details (knobs, creases, protrusions) you put in, the more detailed your map will be.
 
 Baking a map, simply put, is to take the detail of a high polygon mesh, and apply it to a similar object.
 The similar object is identical to the high-poly mesh except with less vertices.

@@ -35,8 +35,8 @@ be giving the results expected, as it may indicate that the particle system sett
 altering rather than the Particle Instance Modifier settings.
 
 Object
-   The *Object* field, associates this Particle Instance Modifier with another object (usually an
-   object having a particle system...).
+   The *Object* field, associates this Particle Instance Modifier with another object
+   (usually an object having a particle system...).
    This indicates that when the object named in this field emits particles, those
    particles will have the mesh shape of the current Particle Instance Modifier's mesh.
    If for example a sphere has a Particle Instance Modifier added to it, when the *Object* field

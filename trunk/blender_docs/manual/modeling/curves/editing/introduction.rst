@@ -25,11 +25,11 @@ Translation, Rotation, Scale
    | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
-Like other elements in Blender, curve control points and handles can be grabbed/moved :kbd:`G`,
-rotated :kbd:`R` or scaled :kbd:`S`
-as described in the :doc:`Basic Transformations </editors/3dview/object/editing/transform/introduction>` section.
-When in *Edit Mode*, :doc:`proportional editing
-</editors/3dview/object/editing/transform/control/proportional_edit>`
+Like other elements in Blender, curve control points and handles can be
+grabbed/moved :kbd:`G`, rotated :kbd:`R` or scaled :kbd:`S` as described in
+the :doc:`Basic Transformations </editors/3dview/object/editing/transform/introduction>` section.
+When in *Edit Mode*,
+:doc:`proportional editing </editors/3dview/object/editing/transform/control/proportional_edit>`
 is also available for transformation actions.
 
 
