@@ -136,8 +136,8 @@ Smoke Flow Advanced
 .. figure:: /images/physics_smoke_types_flow-object_advanced.png
    :align: right
 
-When using a mesh as the *Flow Source*, you can use these settings to control where on the
-mesh smoke can be emitted from. These settings have no effect on outflow objects.
+When using a mesh as the *Flow Source*, you can use these settings to control where on
+the mesh smoke can be emitted from. These settings have no effect on outflow objects.
 
 Use Texture
    When enabled, use the specified texture to control where smoke is emitted.

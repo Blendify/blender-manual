@@ -62,8 +62,8 @@ Enable Self Collisions
    but provides more realistic results. A flag, viewed from a distance does not need this enabled,
    but a close-up of a cape or blouse on a character should have this enabled.
 Quality
-   For higher self-collision quality just increase the
-   *Quality* and more self collision layers can be solved.
+   For higher self-collision quality just increase
+   the *Quality* and more self collision layers can be solved.
    Just keep in mind that you need to have at least the same
    *Collision Quality* value as the *Quality* value.
 Distance
@@ -196,8 +196,8 @@ If you want Blender to resume the simulation using the new shape going forward,
 :kbd:`LMB` click *Rebake from next Frame* and play the animation.
 Blender will then pick up with that shape and resume the simulation.
 
-Edit the mesh to correct minor tears and places where the colliding object has punctured the
-cloth.
+Edit the mesh to correct minor tears and
+places where the colliding object has punctured the cloth.
 
 If you add, delete, extrude, or remove vertices in the mesh, Blender will take the new mesh as
 the starting shape of the mesh back to the *first frame* of the animation,

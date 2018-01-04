@@ -26,8 +26,8 @@ control points with an interpolation, the segments.
 Styling
 =======
 
-The next step is to style the hair. You can change the look of base hairs by changing the
-:doc:`Physics Settings </physics/particles/emitter/physics/index>`.
+The next step is to style the hair. You can change the look of base hairs by changing
+the :doc:`Physics Settings </physics/particles/emitter/physics/index>`.
 
 A more advanced way of changing the hair appearance is to use
 :doc:`Children </physics/particles/emitter/children>`.
@@ -48,10 +48,10 @@ Rendering
 =========
 
 Blender can render hairs in several different ways. Materials have a Strand section,
-which is covered in the materials section in the
-:doc:`Strands Page </render/blender_render/materials/properties/strands>`.
+which is covered in the materials section
+in the :doc:`Strands Page </render/blender_render/materials/properties/strands>`.
 
-Hair can also be used as a basis for the
-:doc:`Particle Instance Modifier </modeling/modifiers/simulate/particle_instance>`,
+Hair can also be used as a basis for
+the :doc:`Particle Instance Modifier </modeling/modifiers/simulate/particle_instance>`,
 which allows you to have a mesh be deformed along the curves,
 which is useful for thicker strands, or things like grass, or feathers, which may have a more specific look.

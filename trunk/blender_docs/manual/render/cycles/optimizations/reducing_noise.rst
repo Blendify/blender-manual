@@ -13,10 +13,11 @@ Path Tracing
 ============
 
 Cycles uses path tracing with next event estimation,
-which is not good at rendering all types of light effects, like caustics, but has the
-advantage of being able to render more detailed and larger scenes compared to some other
-rendering algorithms. This is because we do not need to store, for example,
-a photon map in memory,
+which is not good at rendering all types of light effects, like caustics,
+but has the advantage of being able to render more detailed and
+larger scenes compared to some other rendering algorithms.
+This is because we do not need to store,
+for example, a photon map in memory,
 and because we can keep rays relatively coherent to use an on-demand image cache,
 compared to e.g. bidirectional path tracing.
 
@@ -32,8 +33,8 @@ or in the direction of known light sources (lamps, emitting meshes with Sample a
 
 .. seealso::
 
-   For more details, see the
-   :doc:`Light Paths </render/cycles/settings/scene/render/light_paths>` and
+   For more details, see
+   the :doc:`Light Paths </render/cycles/settings/scene/render/light_paths>` and
    :doc:`Integrator </render/cycles/settings/scene/render/integrator>` documentation.
 
 
@@ -178,8 +179,8 @@ Light Falloff
 In reality light in a vacuum will always fall off at a rate of 1/(distance^2).
 However, as distance goes to zero,
 this value goes to infinity and we can get very bright spots in the image.
-These are mostly a problem for indirect lighting, where the probability of hitting such a
-small but extremely bright spot is low and so happens only rarely.
+These are mostly a problem for indirect lighting, where the probability of hitting such
+a small but extremely bright spot is low and so happens only rarely.
 This is a typical recipe for fireflies.
 
 .. list-table::

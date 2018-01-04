@@ -23,8 +23,8 @@ for various reasons it can still be an issue with modern digital flatscreen TVs.
 .. note::
 
    Due to various limitations in analog TV equipment, the displayed image could sometimes
-   end up shifted horizontally or vary in size, which could lead to the area beyond the
-   intended visible picture being shown. This hidden area sometimes contained junk noise,
+   end up shifted horizontally or vary in size, which could lead to the area beyond
+   the intended visible picture being shown. This hidden area sometimes contained junk noise,
    timing signals or closed-caption/subtitle data. To avoid this being visible to the viewer,
    the standard approach for TV manufacturers was to 'overscan' (zoom in) the displayed picture
    by a small amount (between 5-10% edge crop) to ensure that at no time would the hidden areas be visible.
@@ -176,8 +176,8 @@ It's not recommended to render directly to a video format in the first instance.
 If a problem occurs while rendering, the file might become unplayable and you will
 have to re-render all frames from the beginning. If you first render out a set
 of static images such as the default PNG format or the higher-quality OpenEXR
-(which can retain HDR pixel data), you can combine them as an
-:doc:`Image Strip </editors/vse/sequencer/strips/image_movie>`
+(which can retain HDR pixel data), you can combine them as
+an :doc:`Image Strip </editors/vse/sequencer/strips/image_movie>`
 in the Video Sequence Editor (VSE). This way, you can easily:
 
 - Restart the rendering from the place (the frame) where any problem occurred.

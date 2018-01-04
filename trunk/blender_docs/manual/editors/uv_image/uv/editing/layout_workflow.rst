@@ -44,9 +44,9 @@ and the neck, it is stretched and folded under. Too much work to clean up.
 
    Unwrap face only, without ear or neck.
 
-We can tell that the ear would unwrap nicely with just a straightforward projection from the
-side view, and the neck with a tubular unwrap. So,
-our general approach will be to unwrap different parts of the object (face, ears, and so on)
+We can tell that the ear would unwrap nicely with just a straightforward projection from
+the side view, and the neck with a tubular unwrap.
+So, our general approach will be to unwrap different parts of the object (face, ears, and so on)
 using different unwrap calculations,
 selecting each calculation according to whatever works best for that piece. So let us begin:
 We select only the "face" faces, unwrap them using the *Sphere* calculation, and scale and
@@ -69,9 +69,9 @@ since you are in Edit Mode, all of the selecting/deselecting features are availa
 Now re-unwrap the ear using the *Project* calculation from side view,
 and scale and rotate them somewhat (discussed in the next section),
 and place them off to the side. You can do this repetitively, using different UV calculations;
-each re-calculation just puts those UVs for the selected faces somewhere else. Choose the
-calculation for each piece that gives you the best fit and most logical layout for subsequent
-painting of that piece.
+each re-calculation just puts those UVs for the selected faces somewhere else.
+Choose the calculation for each piece that gives you the best fit and
+most logical layout for subsequent painting of that piece.
 
 When all of the pieces of the mesh have been unwrapped using the various calculations,
 you should end up with something that looks like to the Example to the right.

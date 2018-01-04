@@ -9,8 +9,8 @@ Blender is available for download for Linux, macOS and MS-Windows.
 Minimum Requirements
 ====================
 
-Check if your system meets the
-`minimum or recommended requirements <https://www.blender.org/download/requirements/>`__.
+Check if your system meets
+the `minimum or recommended requirements <https://www.blender.org/download/requirements/>`__.
 
 Always check that the graphics drivers are up to date and that OpenGL is well supported.
 

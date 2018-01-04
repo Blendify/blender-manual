@@ -69,10 +69,10 @@ actuator setting a different target velocity.
 
 .. tip::
 
-   To use the Servo Control actuator, it is necessary to set the
-   object's Physics Type to "Dynamic" or "Rigid Body", and to mark the
-   object as "Actor" in the same panel. This actuator does not work
-   with the Character physics type.
+   To use the Servo Control actuator, it is necessary to set
+   the object's Physics Type to "Dynamic" or "Rigid Body",
+   and to mark the object as "Actor" in the same panel.
+   This actuator does not work with the Character physics type.
 
 .. figure:: /images/game-engine_logic_actuators_types_motion_servo.png
    :width: 271px
@@ -94,9 +94,8 @@ X, Y, Z force limits
    Sets minimum and maximum limits for the force applied to the object.
    If disabled (i.e. X, Y or Z buttons are depressed) the force applied is unlimited.
 
-The following three coefficients determine the response to the
-*velocity error*, which is the difference between the target velocity
-and the object's actual velocity.
+The following three coefficients determine the response to the *velocity error*,
+which is the difference between the target velocity and the object's actual velocity.
 
 Proportional Coefficient
    This controls the reaction proportional to the velocity error.

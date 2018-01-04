@@ -31,8 +31,7 @@ Curve
    By default, the curve is a straight line, meaning there is no change.
    The spectrum allows you to raise or lower HSV levels for each range of pixel colors.
    To change an H, S, or V level, move the curve points up or down. Pixels with hue values each
-   point in the horizontal position of the graph will be changed depending on the shape of the
-   curve.
+   point in the horizontal position of the graph will be changed depending on the shape of the curve.
 
 
 Outputs

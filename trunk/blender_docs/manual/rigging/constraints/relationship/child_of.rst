@@ -20,10 +20,10 @@ compared to the traditional method:
 
   .. important::
 
-     Do not confuse this "basic" object parenting with the one that defines the
-     :ref:`chains of bones <armature-bone-chain>`
-     inside of an armature. This constraint is used to parent an object to a
-     bone (the so-called :doc:`object skinning </editors/3dview/object/properties/relations/parents>`),
+     Do not confuse this "basic" object parenting with the one that defines
+     the :ref:`chains of bones <armature-bone-chain>` inside of an armature.
+     This constraint is used to parent an object to a bone
+     (the so-called :doc:`object skinning </editors/3dview/object/properties/relations/parents>`),
      or even bones to bones. But do not try to use it to define chains of bones.
 
 
@@ -60,8 +60,8 @@ Tips
 
 When creating a new parent relationship using this constraint, it is usually necessary to
 click on the *Set Inverse* button after assigning the parent. As noted above,
-this cancels out any unwanted transform from the parent, so that the owner returns to the
-location/rotation/scale it was in before the constraint was applied.
+this cancels out any unwanted transform from the parent, so that the owner returns to
+the location/rotation/scale it was in before the constraint was applied.
 Note that you should apply *Set Inverse* with all other constraints disabled
 (their *Influence* set to 0.0) for a particular *Child Of* constraint,
 and before transforming the target/parent (see example below).

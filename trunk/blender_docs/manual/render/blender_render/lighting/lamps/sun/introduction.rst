@@ -12,8 +12,8 @@ plus a dashed line indicating the direction of the light.
 
 This direction can be changed by rotating the *Sun* lamp, like any other object,
 but because the light is emitted in a constant direction,
-the location of a *Sun* lamp does not affect the rendered result (unless you use the
-:doc:`"sky & atmosphere" option </render/blender_render/lighting/lamps/sun/sky_atmosphere>`).
+the location of a *Sun* lamp does not affect the rendered result (unless you use
+the :doc:`"sky & atmosphere" option </render/blender_render/lighting/lamps/sun/sky_atmosphere>`).
 
 .. figure:: /images/render_blender-render_lighting_lamps_sun_introduction_panel.jpg
    :width: 304px

@@ -22,17 +22,17 @@ Modify
    but which do not directly affect the shape of the object;
    rather they affect some other data, such as vertex groups.
 Generate
-   The *Generate* group of modifiers includes constructive tools that either change the
-   general appearance of or automatically add new geometry to an object.
+   The *Generate* group of modifiers includes constructive tools that either change
+   the general appearance of or automatically add new geometry to an object.
 Deform
    The *Deform* group of modifiers only changes the shape of an object without adding new geometry,
    and are available for meshes, and often texts, curves, surfaces and/or lattices.
 Simulate
    The *Simulate* group of modifiers activates simulations. In most cases, these
    modifiers are automatically added to the modifiers stack whenever a *Particle System*
-   or *Physics* simulation is enabled. Their only role is to define the
-   place in the modifier stack used as base data by the tool they represent. Generally,
-   the attributes of these modifiers are accessible in separate panels.
+   or *Physics* simulation is enabled. Their only role is to define
+   the place in the modifier stack used as base data by the tool they represent.
+   Generally, the attributes of these modifiers are accessible in separate panels.
 
 
 .. _bpy.types.Modifier.show:

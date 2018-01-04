@@ -55,8 +55,8 @@ You can also do this from the UV/Image Editor with :menuselection:`UVs --> Unwra
 This method will unwrap all of the faces and reset previous work.
 The UVs menu will appear in the UV/Image Editor after unwrapping has been performed once.
 
-This tool unwraps the faces of the object to provide the
-"best fit" scenario based on how the faces are connected and will fit within the image,
+This tool unwraps the faces of the object to provide
+the "best fit" scenario based on how the faces are connected and will fit within the image,
 and takes into account any seams within the selected faces.
 If possible, each selected face gets its own different area of the image and is not overlapping any other faces UV's.
 If all faces of an object are selected, then each face is mapped to some portion of the image.
@@ -197,8 +197,8 @@ Length
 .. note::
 
    Please note that it is the shape of the active quad in UV space that is being followed,
-   not its shape in 3D space. To get a clean 90-degree unwrap make sure the active quad is a
-   rectangle in UV space before using "Follow active quad".
+   not its shape in 3D space. To get a clean 90-degree unwrap make sure the active quad is
+   a rectangle in UV space before using "Follow active quad".
 
 
 Cube Projection
@@ -241,8 +241,8 @@ Cylinder and Sphere Projection
 
    Using an equirectangular image with a Sphere Projection.
 
-Cylindrical and Spherical mappings have the same options. The difference is that a
-cylindrical mapping projects the UVs on a plan toward the cylinder shape,
+Cylindrical and Spherical mappings have the same options. The difference is that
+a cylindrical mapping projects the UVs on a plan toward the cylinder shape,
 while a spherical map takes into account the sphere's curvature,
 and each latitude line becomes evenly spaced.
 Useful for spherical shapes, like eyes, planets, etc.

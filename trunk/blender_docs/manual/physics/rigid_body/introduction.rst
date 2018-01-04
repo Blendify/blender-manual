@@ -15,8 +15,8 @@ Creating a Rigid Body
 =====================
 
 Right now only mesh objects can participate in the rigid body simulation.
-To create rigid bodies, either click on *Rigid Body* button in the *Physics* tab of the
-Properties editor or use the *Add Active*/*Add Passive* buttons in the *Physics* tab of the *Tool Shelf*.
+To create rigid bodies, either click on *Rigid Body* button in the *Physics* tab of
+the Properties editor or use the *Add Active*/*Add Passive* buttons in the *Physics* tab of the *Tool Shelf*.
 
 There are two types of rigid body: active and passive. *Active* bodies are dynamically simulated, while *passive*
 bodies remain static. Both types can be driven by the animation system when using the *Animated* option.
@@ -25,8 +25,8 @@ During the simulation,
 the rigid body system will override the position and orientation of dynamic rigid body objects.
 Note however, that the location and rotation of the objects is not changed,
 so the rigid body simulation acts similar to a constraint.
-To apply the rigid body transformations you can use the
-*Apply Transformation* button in the *Physics* tab of the *Tool Shelf*.
+To apply the rigid body transformations you can use
+the *Apply Transformation* button in the *Physics* tab of the *Tool Shelf*.
 
 The scale of the rigid body object also influences the simulation, but is always controlled by the animation system.
 

@@ -204,9 +204,9 @@ There are compelling advantages to this approach:
 
 Of course, this approach is not without its own set of trade-offs. You must devise a workable
 asset-management system for keeping track of exactly what material you have, where it is,
-whether it is up-to-date, and exactly how to re-create it. You must understand and use the
-"library linking" features of Blender to allow you to refer to objects, nodes, materials,
-textures and scenes in a carefully-organized collection of other files.
+whether it is up-to-date, and exactly how to re-create it. You must understand and
+use the "library linking" features of Blender to allow you to refer to
+objects, nodes, materials, textures and scenes in a carefully-organized collection of other files.
 You need to have a very clear notion, *in advance*,
 of exactly what the finished shot must consist of and what the task breakdown must be.
 You must be a scrupulous note-taker and record-keeper. But sometimes this is the best way,

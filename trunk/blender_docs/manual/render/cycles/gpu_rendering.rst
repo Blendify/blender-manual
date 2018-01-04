@@ -53,8 +53,8 @@ To make sure your GPU is supported checkout
 Supported Features and Limitations
 ==================================
 
-For an overview of supported features, check the comparison in the
-:doc:`Features </render/cycles/features>`.
+For an overview of supported features, check the comparison
+in the :doc:`Features </render/cycles/features>`.
 
 CUDA limitations:
    The maximum amount of individual textures is limited to 88 byte-image textures (``PNG``, ``JPEG``, ..)

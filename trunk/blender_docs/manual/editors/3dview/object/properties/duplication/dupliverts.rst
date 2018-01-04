@@ -57,8 +57,8 @@ and :kbd:`Ctrl-P` to parent the base object to the circle.
 Now, the circle is the parent of the monkey; if you move the circle, the monkey will follow it.
 
 
-With only the circle selected, enable *Duplication vertices* in the
-:menuselection:`Object panel --> Duplication --> Vertices`.
+With only the circle selected, enable *Duplication vertices*
+in the :menuselection:`Object panel --> Duplication --> Vertices`.
 A monkey head should be placed at every vertex of the circle.
 
 The original monkey head at the center and the parent mesh are still shown in the 3D View but
@@ -89,12 +89,12 @@ Orientation
    Orientation enabled, orientation +Y.
 
 
-The orientation of the base objects can be controlled by enabling *Rotation* in the
-*Duplication* panel.
+The orientation of the base objects can be controlled by
+enabling *Rotation* in the *Duplication* panel.
 This will rotate all base objects according to the vertex normals of the parent mesh.
 
-To change the orientation of the duplicated objects, select the base object and in the
-:menuselection:`Object --> Relations extras` panel change the :menuselection:`Tracking Axes`.
+To change the orientation of the duplicated objects, select the base object and
+in the :menuselection:`Object --> Relations extras` panel change the :menuselection:`Tracking Axes`.
 
 Output of various orientations:
 

@@ -55,12 +55,12 @@ Front/Back
 
 .. note::
 
-   These are exactly the same settings as in the
-   :doc:`Mapping </render/blender_render/textures/properties/mapping>` panel for
+   These are exactly the same settings as in
+   the :doc:`Mapping </render/blender_render/textures/properties/mapping>` panel for
    :doc:`Textures </render/blender_render/textures/index>`,
    though a few settings, like *Stress* or *Tangent*, are missing here.
-   Normally you would use this node as input for a
-   :doc:`Texture Node </render/blender_render/materials/nodes/types/input/texture>`.
+   Normally you would use this node as input for
+   a :doc:`Texture Node </render/blender_render/materials/nodes/types/input/texture>`.
 
 
 Geometry Node Example using a UV image

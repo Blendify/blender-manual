@@ -27,8 +27,8 @@ Properties
 ==========
 
 Tile order
-   The tile order can be defined for the backdrop image, using the *Tile order* field in the properties of the
-   viewer node (*Properties* panel in Properties region, with the viewer node selected):
+   The tile order can be defined for the backdrop image, using the *Tile order* field in the properties of
+   the viewer node (*Properties* panel in Properties region, with the viewer node selected):
 
    Rule of thirds
       Calculates tiles around each of the nine zones defined by the *rule of thirds* .

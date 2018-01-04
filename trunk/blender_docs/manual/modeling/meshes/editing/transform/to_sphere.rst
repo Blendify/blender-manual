@@ -21,8 +21,8 @@ the *To Sphere* transformation to the monkey mesh.
 
    Monkey with increasing sphericity.
 
-   The sequence above shows a monkey mesh with a
-   0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
+   The sequence above shows a monkey mesh with
+   a 0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
 
 
 Usage

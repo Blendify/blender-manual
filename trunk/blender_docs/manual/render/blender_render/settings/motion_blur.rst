@@ -28,8 +28,8 @@ Motion Samples
 Shutter
    Time (in frames) the shutter is open.
    If you are rendering at 24 fps, and the Shutter is set to 0.5,
-   the time in between frames is 41.67 ms, so the
-   shutter is open for half that, 20.83 ms.
+   the time in between frames is 41.67 ms,
+   so the shutter is open for half that, 20.83 ms.
 
 .. note::
 

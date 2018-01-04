@@ -11,8 +11,9 @@ The full list and explanation of the user preferences are documented in the sect
 Language
 ========
 
-At :menuselection:`File --> User Preferences --> System`, enable *International Fonts* to choose the
-*Language* and what to translate from *Interface*, *Tooltips* and *New Data*.
+At :menuselection:`File --> User Preferences --> System`,
+enable *International Fonts* to choose the *Language* and
+what to translate from *Interface*, *Tooltips* and *New Data*.
 
 See :ref:`prefs-system-international` for details.
 

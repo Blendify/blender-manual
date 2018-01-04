@@ -13,8 +13,8 @@ sculpting and/or applied Subdivision Surface/Multiresolution Modifiers,
 the Decimate Modifier can be used to reduce the polygon count for a performance increase,
 or simply remove unnecessary vertices and edges.
 
-The Decimate Modifier is a quick and easy way of reducing the polygon count of a
-mesh non-destructively. This modifier demonstrates the advantages of a mesh modifier system
+The Decimate Modifier is a quick and easy way of reducing the polygon count of
+a mesh non-destructively. This modifier demonstrates the advantages of a mesh modifier system
 because it shows how an operation which is normally permanent and destroys original mesh data,
 can be done interactively and safely using a modifier.
 

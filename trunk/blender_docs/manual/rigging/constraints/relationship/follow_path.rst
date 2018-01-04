@@ -44,8 +44,8 @@ The movement of the owner along the target curve/path may be controlled in two d
 - If you do not want your owner to move along the path, you can give to the target curve a flat *Speed* F-Curve
   (its value will control the position of the owner along the path).
 
-*Follow Path* is another constraint that works well with the
-:doc:`Locked Track one </rigging/constraints/tracking/locked_track>`.
+*Follow Path* is another constraint that works well with
+the :doc:`Locked Track one </rigging/constraints/tracking/locked_track>`.
 One example is a flying camera on a path. To control the camera's roll angle,
 you can use a *Locked Track* and a target object to specify the up direction, as the camera flies along the path.
 

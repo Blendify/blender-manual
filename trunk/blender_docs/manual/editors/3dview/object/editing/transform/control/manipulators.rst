@@ -38,8 +38,8 @@ Manipulators
    Box
       Scale.
 Transform Orientation
-   A select menu of the
-   :doc:`Transform Orientations </editors/3dview/object/editing/transform/control/orientations>`.
+   A select menu of
+   the :doc:`Transform Orientations </editors/3dview/object/editing/transform/control/orientations>`.
 
 
 Manipulator Controls

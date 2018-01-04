@@ -11,10 +11,10 @@ Proportional Edit
 *****************
 
 Proportional Edit is a way of transforming selected elements (such as vertices)
-while having that transformation affect other nearby elements. For example, having the
-movement of a single vertex cause the movement of unselected vertices within a given range.
-Unselected vertices that are closer to the selected vertex will move more than those farther
-from it (i.e. they will move proportionally relative to the location of the selected element).
+while having that transformation affect other nearby elements. For example,
+having the movement of a single vertex cause the movement of unselected vertices within a given range.
+Unselected vertices that are closer to the selected vertex will move more than those farther from it
+(i.e. they will move proportionally relative to the location of the selected element).
 Since proportional editing affects the nearby geometry,
 it is very useful when you need to smoothly deform the surface of a dense mesh.
 
@@ -34,12 +34,11 @@ Object Mode
    | Menu:     Via the |prop-edit-icon| icon in the header indicated by the yellow square in the below image.
    | Hotkey:   :kbd:`O`
 
-Proportional editing is typically used in *Edit Mode*, however,
-it can also be used in *Object Mode*. In *Object Mode* the tool works on
-entire objects rather than individual mesh components. In the image below,
-the green cube is the active Object, while the red and blue cubes are located within the
-Proportional edit tool's radius of influence. When the green cube is moved to the right,
-the other two cubes follow the movement.
+Proportional editing is typically used in *Edit Mode*, however, it can also be used in *Object Mode*.
+In *Object Mode* the tool works on entire objects rather than individual mesh components.
+In the image below, the green cube is the active Object, while the red and blue cubes are located
+within the Proportional edit tool's radius of influence.
+When the green cube is moved to the right, the other two cubes follow the movement.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_object-mode.jpg
 
@@ -58,10 +57,10 @@ Edit Mode
    | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the |prop-edit-edit-mode-icon| highlighted icon
    | Hotkey:   :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`
 
-When working with dense geometry, it can become difficult to make subtle adjustments to the
-vertices without causing visible lumps and creases in the model's surface. When you face
-situations like this the Proportional editing tool can be used to smoothly deform the surface
-of the model.
+When working with dense geometry, it can become difficult to make subtle adjustments to
+the vertices without causing visible lumps and creases in the model's surface.
+When you face situations like this the Proportional editing tool
+can be used to smoothly deform the surface of the model.
 This is done by the tool's automatic modification of unselected vertices within a given range.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_edit-mode.png
@@ -122,8 +121,8 @@ Connected :kbd:`Alt-O`
 ..
 
 Falloff
-   While editing, you can change the curve profile used by either using the
-   :menuselection:`Mesh --> Proportional Falloff` submenu, using the header icon *Falloff menu*,
+   While editing, you can change the curve profile used by either using
+   the :menuselection:`Mesh --> Proportional Falloff` submenu, using the header icon *Falloff menu*,
    or by pressing :kbd:`Shift-O` to toggle between the various options.
 
 .. list-table::
@@ -187,8 +186,8 @@ as Fig. :ref:`fig-view3d-transform-landscape` shows.
    A landscape obtained via proportional editing.
 
 Combine these techniques with vertex painting to create fantastic landscapes.
-The Fig. :ref:`fig-view3d-transform-landscape-rendered` below shows the results of proportional editing after the
-application of textures and lighting.
+The Fig. :ref:`fig-view3d-transform-landscape-rendered` below shows the results of proportional editing after
+the application of textures and lighting.
 
 .. _fig-view3d-transform-landscape-rendered:
 

@@ -58,8 +58,8 @@ Examples with Basis: Voronoi: F1, Dimension: 0.5, Lacunarity: 0.15, Octave: 2.0.
           Multifractal.
 
 .. not implemented yet?
-   In addition to the five noise types, Musgrave has a noise basis setting which determines the
-   algorithm that generates the noise itself.
+   In addition to the five noise types, Musgrave has a noise basis setting which determines
+   the algorithm that generates the noise itself.
    These are the same noise basis options found in the other procedural textures.
 
 The main noise types have four characteristics:

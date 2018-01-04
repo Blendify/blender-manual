@@ -169,8 +169,8 @@ Color Depth
 
        Images higher than 8 bits per channel will be converted into a float on loading into Blender.
 Compression
-   Used to reduce the size of the image file. How this is done may vary depending on the
-   file format and settings used.
+   Used to reduce the size of the image file.
+   How this is done may vary depending on the file format and settings used.
 Quality
    Similar to *Compression* but is used for JPEG based file formats.
    The quality is a percentage, 0% being the maximum amount of compression and 100% is no compression.

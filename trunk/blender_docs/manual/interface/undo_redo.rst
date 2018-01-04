@@ -113,8 +113,8 @@ You can access the history pop-up with :kbd:`Ctrl-Alt-Z`.
 
 First positions correspond to most recent actions.
 A small icon of an eye next to one of the entries indicates the current status.
-Rolling back actions using the *Undo History* feature will take you back to the
-action you choose. Much like how you can alternate between going backward in
+Rolling back actions using the *Undo History* feature will take you back to
+the action you choose. Much like how you can alternate between going backward in
 time with *Undo* and then forward with *Redo*,
 you can hop around on the Undo timeline as much as you want as long as you do not make a new change.
 Once you do make a new change, the Undo History is truncated at that point.

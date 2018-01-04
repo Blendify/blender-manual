@@ -85,5 +85,5 @@ Size / Size X / Size Y
    Choosing the appropriate shape for your *Area* light will enhance the believability of your scene.
    For example, you may have an indoor scene and would like to simulate light entering through a window.
    You could place a *Rectangular* area lamp in a window (vertical) or from neons (horizontal)
-   with proper ratio for *Size X* and *Size Y*. For the simulation of the light emitted by a
-   TV screen, a vertical *Square* area lamp would be better in most cases.
+   with proper ratio for *Size X* and *Size Y*. For the simulation of the light emitted by
+   a TV screen, a vertical *Square* area lamp would be better in most cases.

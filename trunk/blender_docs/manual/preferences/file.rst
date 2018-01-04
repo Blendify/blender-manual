@@ -113,8 +113,8 @@ Compress File
 Load UI
    Default setting is to load the Window layout
    (the :doc:`Screens </interface/window_system/screens>`) of the saved file.
-   This can be changed individually when loading a file from the
-   *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
+   This can be changed individually when loading a file from
+   the *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
 Filter File Extensions
    By activating this, the file region in the File Browser will only show appropriate files
    (i.e. blend-files when loading a complete Blender setting).

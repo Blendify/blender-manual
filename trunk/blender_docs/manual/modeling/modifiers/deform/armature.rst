@@ -4,8 +4,8 @@
 Armature Modifier
 *****************
 
-The Armature Modifier is used for building skeletal systems for animating the
-poses of characters and anything else which needs to be posed.
+The Armature Modifier is used for building skeletal systems for animating
+the poses of characters and anything else which needs to be posed.
 
 By adding an armature system to an object,
 that object can be deformed accurately so that geometry does not have to be animated by hand.
@@ -125,8 +125,8 @@ Use the same data as a previous modifier (usually also an Armature Modifier) as 
 This allows you to use several armatures to deform the same object, all based on the "non-deformed" data
 (i.e. this avoids having the second Armature Modifier deform the result of the first one...).
 
-The results of the Armature Modifiers are then mixed together, using the weights of the
-*Vertex Group* as "mixing guides".
+The results of the Armature Modifiers are then mixed together, using the weights of
+the *Vertex Group* as "mixing guides".
 
 .. tip::
 

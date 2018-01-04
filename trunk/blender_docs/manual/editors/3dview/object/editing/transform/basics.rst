@@ -89,11 +89,11 @@ Scale
    | Hotkey:   :kbd:`S`
 
 Scaling means changing proportions of objects.
-Pressing :kbd:`S` will enter the *Scale* transformation mode where the
-selected element is scaled inward or outward according to the mouse pointer's location.
+Pressing :kbd:`S` will enter the *Scale* transformation mode where
+the selected element is scaled inward or outward according to the mouse pointer's location.
 The element's scale will increase as the mouse pointer is moved away from the Pivot Point and
-decrease as the pointer is moved towards it. If the mouse pointer crosses from the original side of the
-:doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>` to the opposite side,
+decrease as the pointer is moved towards it. If the mouse pointer crosses from the original side of
+the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>` to the opposite side,
 the scale will continue in the negative direction and flip the element.
 
 .. figure:: /images/editors_3dview_object_editing_transform_basics_scale-basic-usage.png

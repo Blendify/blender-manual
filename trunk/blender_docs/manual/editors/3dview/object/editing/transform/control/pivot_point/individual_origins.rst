@@ -93,8 +93,7 @@ However, the individual faces inside will not be scaled uniformly.
 
    Modeling with faces and individual origins as the pivot point.
 
-Once you are aware of its limitations and pitfalls,
-this tool can save a lot of time and lead to unique shapes. This "anemone" was modeled from a
-12 sided cylinder in about 10 minutes by repeatedly using this workflow:
-extrusions of individual faces, scaling with *median as a pivot point*,
+Once you are aware of its limitations and pitfalls, this tool can save a lot of time and lead to unique shapes.
+This "anemone" was modeled from a 12 sided cylinder in about 10 minutes by repeatedly using this workflow:
+Extrusions of individual faces, scaling with *median as a pivot point*,
 and scaling and rotations of those faces with *Individual Origins as pivot points*.

@@ -24,8 +24,8 @@ You can see the numbers you enter in the 3D View's footer.
 
 .. tip::
 
-   Numeric input can also be inputed in the
-   :doc:`Properties </editors/3dview/object/properties/transforms>` region.
+   Numeric input can also be inputed in
+   the :doc:`Properties </editors/3dview/object/properties/transforms>` region.
 
 
 Simple Mode

@@ -27,8 +27,8 @@ Name
    Vertex Color Layers
       These can be retrieved this by their names.
    Density
-      Gives a scalar defining the density of any smoke inside the
-      :doc:`Smoke Domain </physics/smoke/types/domain>`.
+      Gives a scalar defining the density of any smoke inside
+      the :doc:`Smoke Domain </physics/smoke/types/domain>`.
    Flame
       Gives a scalar defining the density of any fire inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
       All three outputs are the same.
@@ -36,8 +36,8 @@ Name
       Gives the color of the smoke inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
       The color and vector outputs are the same. The Factor output is an average of the channels.
    Ocean Foam
-      Gives a scalar defining where foam might appear when using an
-      :doc:`Ocean Modifier </modeling/modifiers/simulate/ocean>`.
+      Gives a scalar defining where foam might appear when using
+      an :doc:`Ocean Modifier </modeling/modifiers/simulate/ocean>`.
       This depends on the name you give this property.
 
    .. seealso::

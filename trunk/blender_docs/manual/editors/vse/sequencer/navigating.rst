@@ -92,8 +92,8 @@ showing only this strips output) and the strip will be highlighted.
 
 When holding :kbd:`Ctrl` while dragging it will snap to the start and endpoints of strips.
 
-Real-time preview is possible on reasonable computers when viewing an
-image sequence or movie (``avi``/``mov``) file.
+Real-time preview is possible on reasonable computers
+when viewing an image sequence or movie (``avi``/``mov``) file.
 Scene strips can use OpenGL previews or proxies for realtime playback,
 otherwise displaying rendered frame is supported, but typically too slow for real-time playback.
 

@@ -22,5 +22,5 @@ Show Alpha
    - If Alpha: Use is checked in the :doc:`Image Sampling </render/blender_render/textures/types/image/options>`
      panel, the image's alpha channel is displayed.
    - If Alpha: Use is unchecked,
-     an alpha channel based on averaged rgb values is displayed like it would be used by the Alpha slider in the
-     :doc:`Influence </render/blender_render/textures/properties/influence/introduction>` panel.
+     an alpha channel based on averaged rgb values is displayed like it would be used by the Alpha slider in
+     the :doc:`Influence </render/blender_render/textures/properties/influence/introduction>` panel.

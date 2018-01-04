@@ -79,8 +79,8 @@ Activating the smoothing features does not actually modify the object's geometry
 it changes the way the shading is calculated across the surfaces (normals will be interpolated),
 giving the illusion of a smooth surface.
 
-Click the *Flat* button in the
-*Tool Shelf*\ 's *Shading panel* to revert the shading back (normals will be constant)
+Click the *Flat* button in the *Tool Shelf*\ 's *Shading panel*
+to revert the shading back (normals will be constant)
 to that shown in the first image above.
 
 

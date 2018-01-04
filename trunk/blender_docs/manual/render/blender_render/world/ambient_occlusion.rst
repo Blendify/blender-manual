@@ -24,8 +24,8 @@ it is not simulating light bouncing around or going through things.
 That is why AO still works when you do not have any lights in the scene,
 and it is why just switching on AO alone is a very bad way of "lighting" a scene.
 
-You must have ray tracing enabled as a *Render* panel option in the
-*Shading* section for this to work.
+You must have ray tracing enabled as a *Render* panel option
+in the *Shading* section for this to work.
 
 You must have an ambient light color set as you desire. By default, the ambient light color
 (world) is black, simulating midnight in the basement during a power outage.
@@ -109,8 +109,8 @@ Sampling Method
 
    .. note:: About QMC
 
-      See also the
-      :ref:`raytraced shadows page <render-blender-internal-quasi-monte-carlo>`
+      See also
+      the :ref:`raytraced shadows page <render-blender-internal-quasi-monte-carlo>`
       for more info about the Quasi-Monte Carlo sampling method.
 
    Constant Jittered

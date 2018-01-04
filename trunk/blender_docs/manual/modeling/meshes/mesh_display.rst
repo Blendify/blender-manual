@@ -28,17 +28,17 @@ Edges
    This only affects in vertex selection mode and when
    :doc:`UV Unwrapping </editors/uv_image/uv/editing/unwrapping/seams>`.
 Faces
-   Defines if the selected faces will be highlighted in the
-   :doc:`3D View </editors/3dview/properties/index>`.
+   Defines if the selected faces will be highlighted in
+   the :doc:`3D View </editors/3dview/properties/index>`.
    This affects all selection modes.
 Creases and Bevel Weight
-   Highlights edges marked with a crease weight for the
-   :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>` and/or
+   Highlights edges marked with a crease weight for
+   the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>` and/or
    a bevel weight for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`, respectively.
    In both cases, the higher the weight, the brighter the highlight.
 Seams and Sharp
-   Highlights edges marked as a UV seam for unwrapping and/or sharp edges for the
-   :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`.
+   Highlights edges marked as a UV seam for unwrapping and/or sharp edges for
+   the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`.
 Edge Marks and Face Marks
    Used by Freestyle.
 

@@ -83,8 +83,8 @@ glossy or transmission BSDFs are not affected.
 Transparency of surfaces will be taken into account, i.e.
 a half-transparent surface will only half occlude.
 
-An alternative method of using Ambient Occlusion on a per-shader basis is to use the
-:doc:`Ambient Occlusion </render/cycles/nodes/types/shaders/ao>` shader.
+An alternative method of using Ambient Occlusion on a per-shader basis is to use
+the :doc:`Ambient Occlusion </render/cycles/nodes/types/shaders/ao>` shader.
 
 
 .. _render-cycles-integrator-world-mist:
@@ -212,8 +212,8 @@ Tricks
 Sometimes it may be useful to have a different background that is directly visible versus one
 that is indirectly lighting the objects. A simple solution to this is to add a Mix node,
 with the Blend Factor set to Is Camera Ray. The first input color is then the indirect color,
-and the second the directly visible color. This is useful when using a high-res image for the
-background and a low-res image for the actual lighting.
+and the second the directly visible color. This is useful when using a high-res image for
+the background and a low-res image for the actual lighting.
 
 Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the high-res image
 will also be visible in reflections.

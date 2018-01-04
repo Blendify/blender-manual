@@ -47,20 +47,20 @@ Object
    it will be accepted by the *Object* field, as there do not appear to be any checks
    made to make sure the object's name entered into this field is "valid".
 Particle System
-   The *Particle System* field is used to select which particle system number to apply the
-   Particle Instance Modifier to,
+   The *Particle System* field is used to select
+   which particle system number to apply the Particle Instance Modifier to,
    when the mesh which has the particle system on it has more than one of these.
    The *Particle System* field can have a value between (1 to 10).
-   It is possible to select any of the ten particle system numbers, however, a check will **not** be made with the
-   underlying particle emitting object specified previously in the *Object* field.
+   It is possible to select any of the ten particle system numbers, however, a check will **not** be made with
+   the underlying particle emitting object specified previously in the *Object* field.
    If you select a particle system number which does not exist on the particle emitting object, then the particles on
    the emitting mesh will keep their normal particle shapes. No warning will be given that the chosen particle
    system does not exist on a particular particle emitting mesh.
 
    As an example, below is a single plane mesh with two areas (the first area shown in red and the second in white),
    with different particle systems applied to each area. The left side using a Particle Instance Modifier
-   which has the shape of a sphere and the right side having a Particle Instance Modifier which has the
-   shape of a cube.
+   which has the shape of a sphere and the right side having a Particle Instance Modifier
+   which has the shape of a cube.
 
    .. figure:: /images/modeling_modifiers_simulate_particle-instance_split-plane.jpg
       :width: 610px
@@ -172,8 +172,8 @@ When the *Path* button is activated the effect can be seen in the screenshot bel
 
 Instead of the cylinder location just following the position of the particle (and not altering its shape),
 the cylinder tries to fit its mesh to the shape of the path followed by the particle.
-The mesh geometry of the object which is trying to deform can have an
-impact on how well the deformation is carried out.
+The mesh geometry of the object which is trying to deform
+can have an impact on how well the deformation is carried out.
 In the case of the cylinder, it has many loop cuts along its length so
 that it can bend at those points to deform along the particle path.
 For example here is the same scene with the number of loop cuts along the length of the cylinder reduced,

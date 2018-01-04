@@ -15,8 +15,8 @@ It is called the main region and is the most prominent part of the editor.
 
 Each editor has a specific purpose, so the main region and
 the availability of additional regions are different between editors.
-See specific documentation about each editor in the
-:doc:`Editors </editors/index>` chapter.
+See specific documentation about each editor
+in the :doc:`Editors </editors/index>` chapter.
 
 
 .. _ui-region-header:

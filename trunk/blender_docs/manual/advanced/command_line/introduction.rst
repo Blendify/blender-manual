@@ -23,19 +23,19 @@ Linux
 -----
 
 The Blender *Console Window* in Linux will typically only be visible on the desktop
-if Blender is manually started from a terminal. Blender outputs to the
-*Console Window* it is started from.
+if Blender is manually started from a terminal. Blender outputs to
+the *Console Window* it is started from.
 
-Depending on your desktop environment setup, a Blender icon may appear on your desktop or an
-entry for Blender is added to your menu after you install Blender. Often you can edit such an icon
+Depending on your desktop environment setup, a Blender icon may appear on your desktop or
+an entry for Blender is added to your menu after you install Blender. Often you can edit such an icon
 and enable "Run in terminal".
 
 .. figure:: /images/advanced_command-line_introduction_kde.png
 
    Configuring the KDE menu icon to start Blender from a terminal.
 
-This screenshot shows Blender started from a Linux Terminal and the
-resulting text output written to it:
+This screenshot shows Blender started from a Linux Terminal and
+the resulting text output written to it:
 
 .. figure:: /images/advanced_command-line_introduction_linux.png
 

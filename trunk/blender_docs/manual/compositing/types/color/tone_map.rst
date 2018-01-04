@@ -10,8 +10,8 @@ Tone Map Node
    Tone Map Node.
 
 Tone mapping is a technique used in image processing and computer graphics to map one set of
-colors to another in order to approximate the appearance of high dynamic range images in a
-medium that has a more limited dynamic range.
+colors to another in order to approximate the appearance of high dynamic range images
+in a medium that has a more limited dynamic range.
 
 Essentially, tone mapping addresses the problem of strong contrast reduction from the scene values
 (radiance) to the displayable range, while preserving the image details and color appearance.

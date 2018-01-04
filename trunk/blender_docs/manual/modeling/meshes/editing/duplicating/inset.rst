@@ -16,8 +16,8 @@ with adjustable thickness and depth. Think of it as like creating an edge loop,
 but relative to the selected edges, even in complex meshes.
 
 The tool is modal, such that when you activate it,
-you may adjust the thickness with your mouse position. You may also adjust the depth of the
-inset during the modal operation by holding :kbd:`Ctrl`.
+you may adjust the thickness with your mouse position.
+You may also adjust the depth of the inset during the modal operation by holding :kbd:`Ctrl`.
 
 .. list-table::
 

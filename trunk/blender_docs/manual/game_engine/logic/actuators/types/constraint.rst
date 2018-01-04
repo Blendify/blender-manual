@@ -96,8 +96,8 @@ N
 Range
    Maximum length of ray used to check for Material/Property on another game object.
 Force Distance
-   Distance to be maintained between object and the
-   Material/Property that triggers the *Distance Constraint*.
+   Distance to be maintained between object and
+   the Material/Property that triggers the *Distance Constraint*.
 Damping
    Delay (frames) of the constraint response.
 M/P

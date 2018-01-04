@@ -8,8 +8,8 @@ Alpha Over, Under & Over Drop
 
    Alpha Over Effect.
 
-Using the alpha (transparency channel), this effect composites a
-result based on transparent areas of the dominant image.
+Using the alpha (transparency channel),
+this effect composites a result based on transparent areas of the dominant image.
 If you use a Scene strip, the areas of the image where there is not anything solid are transparent;
 they have an alpha value of 0. If you use a movie strip, that movie has an alpha value of 1 (completely opaque).
 
@@ -39,8 +39,8 @@ will only show the background, and a *Opacity* of 1.0 will completely override t
 Alpha Under
 ===========
 
-With *Alpha Under*, this is the contrary: the first strip selected is the
-foreground, and the second one, the background.
+With *Alpha Under*, this is the contrary:
+The first strip selected is the foreground, and the second one, the background.
 Moreover, the *Opacity* controls the transparency of the *background*, i.e. a *Opacity* of 0.0;
 will only show the foreground (the background is completely transparent),
 and a *Opacity* of 1.0 will give the same results as with *Alpha Over*.

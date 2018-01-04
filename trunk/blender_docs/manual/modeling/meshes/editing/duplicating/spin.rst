@@ -66,8 +66,8 @@ so switch to the top view with :kbd:`Numpad7`.
 
    Glass profile, top view in Edit Mode, just before spinning.
 
-Place the cursor along the center of the profile by selecting one of the vertices along the
-center, and snapping the 3D cursor to that location with :menuselection:`Mesh --> Cursor --> Selection`.
+Place the cursor along the center of the profile by selecting one of the vertices along the center,
+and snapping the 3D cursor to that location with :menuselection:`Mesh --> Cursor --> Selection`.
 (Fig. :ref:`fig-mesh-spin-glass-top`)
 shows the wine glass profile from top view, with the cursor correctly positioned.
 

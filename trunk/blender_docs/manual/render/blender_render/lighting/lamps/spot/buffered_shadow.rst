@@ -99,8 +99,8 @@ Size
    but would use less memory and take less processing time to calculate.
 
    As well as the *Size* value affecting the quality of generated shadows,
-   another property of *Spot* lamps that affects the quality of their buffered shadows is the
-   angle of the spotlights lighted area (given in the *Spot Shape* panel's *Size* field).
+   another property of *Spot* lamps that affects the quality of their buffered shadows is
+   the angle of the spotlights lighted area (given in the *Spot Shape* panel's *Size* field).
 
    As the spot shape *Size* value is increased, the quality of the cast shadows degrades.
    This happens because when the *Spot* lighted area is made larger (by increasing spot shape *Size*),
@@ -236,8 +236,8 @@ Bias
    or using a different buffered shadow calculation method such as *Classic-Halfway* or *Irregular*.
 
    Self shadowing interference tends to affect curved surfaces more than flat ones,
-   meaning that if your scene has a lot of curved surfaces it may be necessary to increase the
-   *Bias* value or *Shadow Buffer Size* value.
+   meaning that if your scene has a lot of curved surfaces it may be necessary to increase
+   the *Bias* value or *Shadow Buffer Size* value.
 
    Having overly large *Bias* values not only places shadows further away from their casting objects,
    but can also cause objects that are very small to not cast any shadow at all.
@@ -292,5 +292,5 @@ Autoclip Start/End
 Hints
 =====
 
-Any object in Blender can act as a camera in the 3D View. Hence you can select the
-*Spot* light and switch to a view from its perspective by pressing :kbd:`Ctrl-Numpad0`.
+Any object in Blender can act as a camera in the 3D View. Hence you can select
+the *Spot* light and switch to a view from its perspective by pressing :kbd:`Ctrl-Numpad0`.

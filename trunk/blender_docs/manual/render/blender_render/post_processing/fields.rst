@@ -51,8 +51,8 @@ Still
    Of course, if you make the wrong selection things are even worse than if no Field rendering at
    all was used!
 
-   If you are really confused, a simple trick to determine the correct field order is to render a
-   short test animation of a white square moving from left to right on a black background.
+   If you are really confused, a simple trick to determine the correct field order is to render
+   a short test animation of a white square moving from left to right on a black background.
    Prepare one version with odd field order and another with even field order,
    and look at them on a television screen.
    The one with the right field order will look smooth and the other one horrible.
@@ -62,5 +62,5 @@ Still
 
    Nodes are currently not field-aware. This is partly due to the fact that in fields,
    too much information is missing to do good neighborhood operations (blur, vector blur, etc.).
-   The solution is to render your animation at double the frame rate without fields and do the
-   interlacing of the footage afterwards.
+   The solution is to render your animation at double the frame rate without fields and
+   do the interlacing of the footage afterwards.

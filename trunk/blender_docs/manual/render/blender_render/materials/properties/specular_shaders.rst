@@ -14,8 +14,9 @@ Specular shaders create the bright highlights that one would see on a glossy sur
 mimicking the reflection of light sources.
 Unlike :doc:`diffuse shading </render/blender_render/materials/properties/diffuse_shaders>`,
 specular reflection is *viewpoint dependent*.
-According to Snell's Law, light striking a specular surface will be reflected at an angle which mirrors the
-incident light angle (with regard to the surface's normal), which makes the viewing angle very important.
+According to Snell's Law, light striking a specular surface will be reflected at an angle which mirrors
+the incident light angle (with regard to the surface's normal),
+which makes the viewing angle very important.
 
 .. tip:: Not a Mirror!
 

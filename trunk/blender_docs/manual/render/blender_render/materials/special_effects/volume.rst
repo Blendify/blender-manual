@@ -23,8 +23,8 @@ For volume light enters a 3D region of space (defined as the volume)
 that may be filled with small particles, such as smoke, mist or clouds.
 The light bounces around off the various molecules, being scattered or absorbed,
 until some light passes through the volume and reaches the camera.
-In order for that volume to be visible, the renderer must figure out how much material the
-light has passed through and how it has acted and reacted within that volume,
+In order for that volume to be visible, the renderer must figure out how much material
+the light has passed through and how it has acted and reacted within that volume,
 the volume object needs to contain a 3D region of space, for example a :term:`manifold` closed mesh,
 such as a cube, not just a flat surface like a plane. To get an image,
 the renderer has to step through that region, and see how much 'stuff' is there (density)

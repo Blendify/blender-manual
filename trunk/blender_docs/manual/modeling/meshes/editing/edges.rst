@@ -92,8 +92,8 @@ Edge Crease
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Crease`
    | Hotkey:   :kbd:`Shift-E`
 
-This edge property, a value between (0.0 to 1.0), is used by the
-:doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
+This edge property, a value between (0.0 to 1.0), is used by
+the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
 to control the sharpness of the edges in the subdivided mesh.
 This operator enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard) you can set the (average)
@@ -167,8 +167,8 @@ rather than sliding a percentage along each perpendicular edge.
 
 In *Even* mode, the tool shows the position along the length of the currently selected edge
 which is marked in yellow, from the vertex that as an enlarged red marker.
-Movement of the sliding edge loop is restricted to this length. As you move the mouse the
-length indicator in the header changes showing where along the length of the edge you are.
+Movement of the sliding edge loop is restricted to this length. As you move the mouse
+the length indicator in the header changes showing where along the length of the edge you are.
 
 To change the control edge that determines the position of the edge loop,
 use the :kbd:`Alt-Wheel` to scroll to a different edge.

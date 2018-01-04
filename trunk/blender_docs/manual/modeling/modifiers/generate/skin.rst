@@ -41,8 +41,8 @@ This tool does the following:
    The active selection is switched to the new armature.
 #. Weight groups are added to the input mesh. The Skin Modifier propagates these weights to the output as well.
 #. An Armature Modifier is added directly below the Skin Modifier.
-   Note that the Armature Modifier is being applied after the
-   Skin Modifier because it should only deform the output,
+   Note that, the Armature Modifier is being applied after
+   the Skin Modifier because it should only deform the output,
    whereas if it were above the Skin Modifier it might change the resulting topology.
 
 
@@ -127,8 +127,8 @@ Examples
    through extruding the vertices of the object.
 #. Use :kbd:`Ctrl-A` to change the size of the different regions within the creature.
 #. Use *Mark Loose* at regions like the neck, to merge these faces more together.
-#. To get smoother results, activate *Smooth Shading* and add a
-   :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`.
+#. To get smoother results, activate *Smooth Shading* and
+   add a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`.
 
 
 External Links

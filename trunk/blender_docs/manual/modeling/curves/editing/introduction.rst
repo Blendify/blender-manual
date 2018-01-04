@@ -79,8 +79,8 @@ Tools
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Transform`
 
-The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
-:doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
+The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described
+in the :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/properties/geometry>`.
 
@@ -478,6 +478,6 @@ To select a mesh (that is in view) while editing a curve, :kbd:`Ctrl-P` click on
 Select either one or three control points,
 then :kbd:`Ctrl-RMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
 Selecting three control points will make the child follow
-the median point between the three vertices. An alternative would be to use a
-:doc:`Child of Constraint </rigging/constraints/relationship/child_of>`.
+the median point between the three vertices. An alternative would be to use
+a :doc:`Child of Constraint </rigging/constraints/relationship/child_of>`.
 See also the :doc:`Curve Modifier </modeling/modifiers/deform/curve>`.

@@ -22,8 +22,8 @@ Usage
 
 .. tip:: Only Frames Baked to Memory are Editable!
 
-   If you cannot edit the particles, check that you are not baking to a
-   :doc:`Disk Cache </physics/particles/emitter/cache>`.
+   If you cannot edit the particles, check that you are not baking to
+   a :doc:`Disk Cache </physics/particles/emitter/cache>`.
 
 
 Setup for Hair Particles

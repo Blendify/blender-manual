@@ -34,8 +34,9 @@ Keep dragging and connect the link to an input socket of another node, then rele
 
 While multiple links can route out of an output socket, only a single link can be attached to an input socket.
 
-To reposition the outgoing links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an
-output socket. This works for single as well as for multiple outgoing links.
+To reposition the outgoing links of a node, rather than adding a new one,
+hold :kbd:`Ctrl` while dragging from an output socket.
+This works for single as well as for multiple outgoing links.
 
 Nodes that have no connections can be inserted on a link.
 Just move the node over the link and release when the link turns orange.
@@ -85,8 +86,8 @@ Duplicate
    | Menu:     :menuselection:`Node --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
-Click :kbd:`LMB` or :kbd:`RMB` on the desired node, press :kbd:`Shift-D` and move the mouse away to see the
-duplicate of the selected node appearing under the mouse pointer.
+Click :kbd:`LMB` or :kbd:`RMB` on the desired node, press :kbd:`Shift-D` and
+move the mouse away to see the duplicate of the selected node appearing under the mouse pointer.
 
 .. note::
 

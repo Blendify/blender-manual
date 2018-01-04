@@ -166,8 +166,8 @@ Currently this only works on *Triangle Mesh* bounds, not *Convex Hull*.
 We have prepared a demonstration file in
 `Manual-BGE-Physics-DancingSticks.blend
 <https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__.
-Note that we had to increase the
-:menuselection:`World --> Physics --> Physics Steps --> Substeps` to make the collisions work well.
+Note that, we had to increase
+the :menuselection:`World --> Physics --> Physics Steps --> Substeps` to make the collisions work well.
 The more basic case is the case the Shapekeyed Action, which you can see in the back area of the scene.
 Since it is the only object involved, you can call ``reinstancePhysicsMesh()`` unadorned,
 and it will do the right thing.
@@ -267,5 +267,5 @@ You can snapshot the physics world at any time with the following code::
 
 
 This will allow importing into other Bullet-based projects. See the
-`Bullet Wiki on
-Serialization <http://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization>`__ for more.
+`Bullet Wiki on Serialization <http://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization>`__
+for more.

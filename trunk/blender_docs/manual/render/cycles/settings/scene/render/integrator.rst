@@ -282,8 +282,8 @@ Each hair system uses the material identified in the particle settings in the sa
 
 .. seealso::
 
-   There are also object level hair settings for each particle system which can be found in the
-   :doc:`Hair Settings </render/cycles/settings/objects/hair>`.
+   There are also object level hair settings for each particle system which can be found
+   in the :doc:`Hair Settings </render/cycles/settings/objects/hair>`.
 
 Use Hair
    Enables rendering of hair particle systems.

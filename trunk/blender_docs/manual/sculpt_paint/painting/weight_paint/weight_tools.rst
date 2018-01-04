@@ -383,8 +383,8 @@ Options
 
 .. note::
 
-   This tool now uses the generic 'data transfer' one. Please refer to the
-   :doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for options details and explanations.
+   This tool now uses the generic 'data transfer' one. Please refer to
+   the :doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for options details and explanations.
 
 
 Limit Total

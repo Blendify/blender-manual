@@ -91,8 +91,8 @@ Fly Mode
 On activation the mouse pointer will move at the center of the view,
 and a squared marker will appear – a sort of HUD...
 
-Some of the options of Fly mode are influenced by the position of the
-mouse pointer relative to the center of the view itself,
+Some of the options of Fly mode are influenced by the position of
+the mouse pointer relative to the center of the view itself,
 and the squared marker around this center provides a sort of
 "safe region" where you can place the mouse for it to have no effect on the view.
 The more you take the mouse pointer away from the marker, the more you pan, or track, etc.

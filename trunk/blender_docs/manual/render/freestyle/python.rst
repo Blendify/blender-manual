@@ -95,8 +95,8 @@ predicate that works on any ``Interface1D`` that represents a 1D element. For ex
 
    Operators.select(QuantitativeInvisibilityUP1D(0))
 
-This selection operation uses the ``QuantitativeInvisibilityUP1D`` predicate to select only the
-visible ``ViewEdge`` (more precisely, those whose quantitative invisibility is equal to 0).
+This selection operation uses the ``QuantitativeInvisibilityUP1D`` predicate to select only
+the visible ``ViewEdge`` (more precisely, those whose quantitative invisibility is equal to 0).
 The selection operator is intended to selectively apply the style to a fraction of the active 1D elements.
 
 It is noted that ``QuantitativeInvisibilityUP1D`` is a class implementing the predicate that tests line visibility,
@@ -192,8 +192,8 @@ It takes as argument a binary predicate used as a "smaller than" operator to ord
    Operators.sort(Length2DBP1D())
 
 
-In this code example, the sorting uses the ``Length2DBP1D`` binary predicate to sort the
-``Interface1D`` objects in the ascending order in terms of 2D length.
+In this code example, the sorting uses the ``Length2DBP1D`` binary predicate to sort
+the ``Interface1D`` objects in the ascending order in terms of 2D length.
 
 The sorting is particularly useful when combined with causal density. Indeed,
 the causal density evaluates the density of the resulting image as it is modified. If we wish
@@ -230,16 +230,16 @@ User Control on the Pipeline Definition
 
 Style module writing offers different types of user control,
 even though individual style modules have a fixed pipeline structure.
-One is the sequencing of different pipeline control structures, and another is through the
-definition of functor objects that are passed as argument all along the pipeline.
+One is the sequencing of different pipeline control structures, and another is through
+the definition of functor objects that are passed as argument all along the pipeline.
 
 Different pipeline control structures can be defined by sequencing the selection,
 chaining, splitting, and sorting operations.
 The stroke creation is always the last operation that concludes a style module.
 
 Predicates, functions, chaining iterators, and stroke shaders can be defined by inheriting
-base classes and overriding appropriate methods. See the reference manual entries of the
-following base classes for more information on the user-scriptable constructs.
+base classes and overriding appropriate methods. See the reference manual entries of
+the following base classes for more information on the user-scriptable constructs.
 
 .. TODO: should these really be listed??? link to API docs seems more appropriate - ideasman42
 

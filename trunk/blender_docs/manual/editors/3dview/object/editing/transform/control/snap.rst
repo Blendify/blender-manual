@@ -48,11 +48,11 @@ Cursor to Active
 The *Cursor to Selected* option is also affected by the current :ref:`pivot-point-index`. For example:
 
 - With the *Bounding Box Center* pivot point active,
-  the *Cursor to Selected* option will snap the 3D cursor to the
-  center of the bounding box surrounding the objects' origins.
+  the *Cursor to Selected* option will snap the 3D cursor to
+  the center of the bounding box surrounding the objects' origins.
 - When the *Median Point* pivot point is selected,
-  *Cursor to Selected* will snap the 3D cursor to the
-  `median <https://en.wikipedia.org/wiki/Median>`__ of the object origins.
+  *Cursor to Selected* will snap the 3D cursor to
+  the `median <https://en.wikipedia.org/wiki/Median>`__ of the object origins.
 
 
 .. _transform-snap:
@@ -67,8 +67,8 @@ Transform Snapping
    | Header:   :menuselection:`Snap`
    | Hotkey:   :kbd:`Shift-Tab`
 
-The ability to snap Objects and Mesh element to various types of scene elements during a
-transformation is available by toggling the magnet icon (which will turn red)
+The ability to snap Objects and Mesh element to various types of scene elements during
+a transformation is available by toggling the magnet icon (which will turn red)
 in the 3D View's header buttons.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_snap_header-magnet-icon.png

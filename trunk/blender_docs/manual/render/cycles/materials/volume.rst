@@ -73,9 +73,10 @@ Mesh Topology
 -------------
 
 Meshes used for volume render should be closed and :term:`manifold`.
-That means that there should be no holes in the mesh. Each edge must be connected to exactly two
-faces such that there are no holes or T-shaped faces where three or more faces are connected to an
-edge.
+That means that there should be no holes in the mesh.
+Each edge must be connected to exactly two faces
+such that there are no holes or T-shaped faces
+where three or more faces are connected to an edge.
 
 Normals must point outside for correct results.
 The normals are used to determine if a ray enters or exits a volume,
@@ -121,8 +122,8 @@ movie production scenes only 0 or 1 bounces might be used to keep render times u
 The effect you get when rendering with zero volume bounces is what is known as
 "single scattering", the effect from more bounces is "multiple scattering".
 
-For rendering materials like skin or milk, the subsurface scattering shader is an
-approximation of such multiple scattering effects
+For rendering materials like skin or milk, the subsurface scattering shader is
+an approximation of such multiple scattering effects
 that is significantly more efficient but not as accurate.
 
 For materials such as clouds or smoke that do not have a well defined surface,

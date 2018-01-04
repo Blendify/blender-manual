@@ -27,10 +27,10 @@ so it is often very small. So, keep the images as small as possible.
 A 64×64 image takes up only one fourth the memory of a 128×128 image.
 
 For photo-realistic rendering of objects in animations, often larger image textures are used,
-because the object might be zoomed in on in camera moves. In general, you want to use a
-texture sized proportionally to the number of pixels that it will occupy in the final render.
-Ultimately, you only have a certain amount of physical RAM to hold an image texture and the
-model and to provide work space when rendering your image.
+because the object might be zoomed in on in camera moves. In general, you want to use
+a texture sized proportionally to the number of pixels that it will occupy in the final render.
+Ultimately, you only have a certain amount of physical RAM to hold an image texture and
+the model and to provide work space when rendering your image.
 
 For the most efficient memory usage, image textures should be square, with dimensions as powers of 2,
 such as 32×32, 64×64, 128×128, 256×256, 1024×1024, 2048×2048, and 4096×4096.

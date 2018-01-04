@@ -71,8 +71,8 @@ Select Faces by Sides
 Loose Geometry
    Selects all vertices or edges that do not form part of a face.
 Ungrouped Vertices
-   Selects all vertices which are not part of a
-   :doc:`vertex group </modeling/meshes/properties/vertex_groups/index>`.
+   Selects all vertices which are not part of
+   a :doc:`vertex group </modeling/meshes/properties/vertex_groups/index>`.
 
 
 Select Linked
@@ -143,8 +143,8 @@ Edge Selection Mode:
       *Seam* is a true/false setting used in :ref:`UV-texturing <editors-uv-image-index>`.
    Sharpness
       Selects all edges that have the same *Sharp* state as those already selected.
-      *Sharp* is a true/false setting (a flag) used by the
-      :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`.
+      *Sharp* is a true/false setting (a flag) used by
+      the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`.
 
 Face Selection Mode:
    Material
@@ -217,8 +217,8 @@ or the *Edge Loop Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
    Longitudinal and latitudinal edge loops.
 
 The left sphere shows an edge that was selected longitudinally. Notice how the loop is open.
-This is because the algorithm hit the vertices at the poles and terminated because the
-vertices at the pole connect to more than four edges. However,
+This is because the algorithm hit the vertices at the poles and terminated
+because the vertices at the pole connect to more than four edges. However,
 the right sphere shows an edge that was selected latitudinally and has formed a closed loop.
 This is because the algorithm hit the first edge that it started with.
 

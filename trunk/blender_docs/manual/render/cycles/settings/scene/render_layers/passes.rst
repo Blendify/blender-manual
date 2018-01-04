@@ -87,11 +87,11 @@ Vector
 UV
    Default render UV coordinates.
 Object Index
-   Creates a mask of the object that can be later read by the
-   :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+   Creates a mask of the object that can be later read by
+   the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
 Material Index
-   Creates a mask of the material that can be later read by the
-   :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+   Creates a mask of the material that can be later read by
+   the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
 
 .. note:: The Z, Object Index and Material Index passes are not anti-aliased.
 

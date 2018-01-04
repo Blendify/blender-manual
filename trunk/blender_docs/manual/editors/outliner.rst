@@ -29,8 +29,8 @@ i.e. the scene data and also the User Preferences.
 Tree View
 =========
 
-Each row in the *Outliner* shows a data-block. You can click the plus-sign to the
-left of a name to expand the current data-block and see what other data-blocks it contains.
+Each row in the *Outliner* shows a data-block. You can click the plus-sign to
+the left of a name to expand the current data-block and see what other data-blocks it contains.
 
 You can select data-blocks in the *Outliner*,
 but this will not necessarily select the data-block in the scene.
@@ -53,8 +53,8 @@ Activating a Data-block
 To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
 Activating the data-block will automatically switch to the relevant mode.
 For example, activating the mesh data of the cube will select the cube
-and enter *Edit Mode* while activating the object data of the
-cube will select the cube and enter *Object Mode* (see right).
+and enter *Edit Mode* while activating the object data of
+the cube will select the cube and enter *Object Mode* (see right).
 
 
 Selecting a Group of Data-blocks
@@ -151,8 +151,8 @@ Show Hierarchy
 Display Mode
 ------------
 
-The editors header has a select menu that let you filter what the Outliner should show. It helps to narrow the
-list of objects so that you can find things quickly and easily.
+The editors header has a select menu that let you filter what the Outliner should show.
+It helps to narrow the list of objects so that you can find things quickly and easily.
 
 All Scenes
    Shows *everything* the *Outliner* can display (in all scenes, all layers, etc.).

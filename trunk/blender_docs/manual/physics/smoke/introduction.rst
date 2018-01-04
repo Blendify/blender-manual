@@ -41,8 +41,8 @@ A basic workflow looks like this:
 
 .. note::
 
-   There is a *Quick Smoke* operator which will automatically create a domain object with a
-   basic smoke/fire material.
+   There is a *Quick Smoke* operator which will automatically create
+   a domain object with a basic smoke/fire material.
    It can be found in :menuselection:`3D View --> Object --> Quick Effects --> Quick Smoke`,
    or with the operator search menu :kbd:`Spacebar`.
 

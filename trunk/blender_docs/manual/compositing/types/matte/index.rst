@@ -5,9 +5,10 @@
 ###############
 
 These nodes give you the essential tools for creating a :term:`Matte` for images
-that do not already have their own :term:`Alpha Channel`. One usage scenario is
-blue-screen or green-screen footage, where live action is shot in front of a
-blue or green backdrop for replacement by a matte painting or virtual background.
+that do not already have their own :term:`Alpha Channel`.
+One usage scenario is blue-screen or green-screen footage,
+where live action is shot in front of a blue or green backdrop for replacement by
+a matte painting or virtual background.
 
 In general, hook up these nodes to a viewer, set your UV/Image Editor to show the viewer node,
 and play with the sliders in real-time using a sample image from the footage,
@@ -33,11 +34,11 @@ for green screens, but the best results stem from a combination of techniques.
    still apply one by subtracting the garbage matte from the matte generated
    by the node.
 
-   Simple garbage mattes can be created with the
-   :doc:`Box Mask </compositing/types/matte/box_mask>` or the
-   :doc:`Ellipse Mask </compositing/types/matte/ellipse_mask>`
-   More complicated matte shapes using a
-   :doc:`Double Edge Mask </compositing/types/matte/double_edge_mask>` or
+   Simple garbage mattes can be created with
+   the :doc:`Box Mask </compositing/types/matte/box_mask>` or
+   :the doc:`Ellipse Mask </compositing/types/matte/ellipse_mask>`
+   More complicated matte shapes using
+   a :doc:`Double Edge Mask </compositing/types/matte/double_edge_mask>` or
    using a :doc:`Mask </compositing/types/input/mask>`.
 
 .. toctree::

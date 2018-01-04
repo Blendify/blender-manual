@@ -42,8 +42,8 @@ Type
    Catmull-Clark
       The default option, subdivides and smooths the surfaces.
       According to its `Wikipedia page <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__,
-      the "arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of the
-      resulting surfaces rather than on a mathematical derivation."
+      the "arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of
+      the resulting surfaces rather than on a mathematical derivation."
    Simple
       Only subdivides the surfaces, without any smoothing
       (the same as :menuselection:`Specials --> Subdivide`, in Edit Mode).
@@ -87,15 +87,15 @@ OpenSubdiv
 ==========
 
 When *OpenSubdiv* is enabled, the modifier evaluation will happen on a compute device.
-To enable OpenSubdiv you must first choose the fastest compute device in the
-:ref:`User Preferences <prefs-system-opensubdiv>`. Most of the time the
-best performance will be achieved when using *GLSL*.
+To enable OpenSubdiv you must first choose the fastest compute device
+in the :ref:`User Preferences <prefs-system-opensubdiv>`.
+Most of the time the best performance will be achieved when using *GLSL*.
 As a result performance of the modifier will be much higher which is great for animations.
 
 .. seealso::
 
-   To find more on OpenSubdiv read the
-   `Release Notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76/OpenSubdiv>`__.
+   To find more on OpenSubdiv read
+   the `Release Notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76/OpenSubdiv>`__.
 
 
 Improving Performance

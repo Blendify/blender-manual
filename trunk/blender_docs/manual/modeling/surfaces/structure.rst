@@ -12,8 +12,8 @@ Here we will just talk about the differences.
 It is very important to understand the difference between NURBS curves and NURBS surfaces:
 the first one has one dimension, the latter has two.
 Blender internally treats NURBS surfaces and NURBS curves completely differently. There are
-several attributes that separate them but the most important is that a NURBS curve has a
-single interpolation axis (U) and a NURBS surface has two interpolation axes (U and V).
+several attributes that separate them but the most important is that a NURBS curve has
+a single interpolation axis (U) and a NURBS surface has two interpolation axes (U and V).
 
 However, you can have "2D" surfaces made of curves
 (using the :doc:`extrusion tools </modeling/curves/properties/geometry>`,
@@ -73,8 +73,8 @@ If all the control points have the same *Weight* then each effectively cancels e
 other out. It is the difference in the weights that cause the surface to move towards or away
 from a control point.
 
-The *Weight* of any particular control point is visible in the
-:doc:`/editors/3dview/object/properties/transforms`
+The *Weight* of any particular control point is visible
+in the :doc:`/editors/3dview/object/properties/transforms`
 :kbd:`N`, in the *W* field (and not the *Weight* field...).
 
 

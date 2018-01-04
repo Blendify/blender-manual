@@ -6,9 +6,9 @@
 Spline IK Constraint
 ********************
 
-The *Spline IK* constraint aligns a chain of bones along a curve. By leveraging the
-ease and flexibility of achieving aesthetically pleasing shapes offered by curves and the
-predictability and well-integrated control offered by bones,
+The *Spline IK* constraint aligns a chain of bones along a curve.
+By leveraging the ease and flexibility of achieving aesthetically pleasing shapes offered by curves and
+the predictability and well-integrated control offered by bones,
 *Spline IK* is an invaluable tool in the riggers' toolbox.
 It is particularly well suited for rigging flexible body parts such as tails, tentacles,
 and spines, as well as inorganic items such as ropes.

@@ -121,6 +121,6 @@ A weight of 0.1 will result in 10% of the amounts of particles.
 This option "conserves" the total indicated number of particles, adjusting the distributions
 so that the proper weights are achieved while using the actual number of particles called for.
 Use this to make portions of your mesh hairier than others by weight painting a vertex group,
-and then calling out the name of the vertex group in the
-:doc:`Vertex Groups </physics/particles/emitter/vertex_groups>`
-panel :menuselection:`Properties editor --> Particles tab`.
+and then calling out the name of the vertex group
+in the :doc:`Vertex Groups </physics/particles/emitter/vertex_groups>` panel
+:menuselection:`Properties editor --> Particles tab`.

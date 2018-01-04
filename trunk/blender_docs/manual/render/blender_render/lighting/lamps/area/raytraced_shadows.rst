@@ -62,8 +62,8 @@ Constant Jittered
    Jitter
       Adds noise to break up the edges of solid shadow samples,
       offsetting them from each other in a pseudo-random way.
-      Once again, this option is not very useful when you use high *Samples* values where the
-      drawback is that noise generates quite visible graininess.
+      Once again, this option is not very useful when you use high *Samples* values
+      where the drawback is that noise generates quite visible graininess.
 
 
 Technical Details
@@ -98,9 +98,10 @@ Hints
 =====
 
 You will note that changing the *Size* parameter of your area lamp does not affect
-the lighting intensity of your scene. On the other hand, rescaling the lamp using the
-:kbd:`S` in the 3D View could dramatically increase or decrease the lighting intensity
-of the scene. This behavior has been coded this way so that you can fine tune all your light
+the lighting intensity of your scene. On the other hand,
+rescaling the lamp using the :kbd:`S` in the 3D View could
+dramatically increase or decrease the lighting intensity of the scene.
+This behavior has been coded this way so that you can fine tune all your light
 settings and then decide to scale up (or down)
 the whole scene without suffering from a drastic change in the lighting intensity.
 If you only want to change the dimensions of your *Area* lamp,

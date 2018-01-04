@@ -9,8 +9,8 @@ Channel Key Node
 
    Channel Key Node.
 
-The *Channel Key* node determines background objects from foreground objects by the
-difference in the selected channel's levels.
+The *Channel Key* node determines background objects from foreground objects by
+the difference in the selected channel's levels.
 
 For example in YUV color space,
 this is useful when compositing stock footage of explosions (very bright)

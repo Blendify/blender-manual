@@ -139,8 +139,7 @@ The complex one... But this prints a list of objects not including the active ob
 bpy.data
 --------
 
-``bpy.data`` has functions and attributes that give you access to all the data in the
-blend-file.
+``bpy.data`` has functions and attributes that give you access to all the data in the blend-file.
 
 You can access following data in the current blend-file:
 objects, meshes, materials, textures, scenes, screens, sounds, scripts, etc.

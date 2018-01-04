@@ -5,8 +5,8 @@ Armature Templating
 *******************
 
 The idea of templating is to use an already existing armature as base ("template")
-to create a new armature. It differs from a simple copy in that you can directly define the
-new armature different in some aspects than its reference rig.
+to create a new armature. It differs from a simple copy in that you can directly define
+the new armature different in some aspects than its reference rig.
 
 In Blender, the only templating tool is the bone sketching one
 (Etch-a-ton, described in :doc:`the previous page </rigging/armatures/bones/editing/sketching>`),
@@ -93,8 +93,8 @@ OK now, here are some important ground rules:
 - This tool only considers *one* chain of bones,
   so it is better to select only one chain of bones inside the current armature
   (or use a single-chain armature object as template).
-  Else, the chain of the template containing the first created bones will be mapped to the
-  selected strokes, and the other chains will just be "copied" *as is*, without any modification.
+  Else, the chain of the template containing the first created bones will be mapped to
+  the selected strokes, and the other chains will just be "copied" *as is*, without any modification.
 - This tool maps the same chain of bones on all selected strokes,
   so you cannot use multiple strokes to map a multi-chains template --
   you will rather get a whole set of new bones for each selected stroke!
@@ -200,8 +200,8 @@ Side and Number text fields, *auto* button
      - .. figure:: /images/rigging_armatures_bones_editing_templating_name-placeholders-2.png
           :width: 200px
 
-          After conversion: the placeholders have been replaced by the
-          content of the S and N text fields of the Bone Sketching panel.
+          After conversion: the placeholders have been replaced by
+          the content of the S and N text fields of the Bone Sketching panel.
 
 .. list-table:: Auto naming and placeholders, using a simple leg template.
 

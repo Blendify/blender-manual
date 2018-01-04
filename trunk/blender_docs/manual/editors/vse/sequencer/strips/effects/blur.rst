@@ -21,8 +21,8 @@ Example
 =======
 
 For example, in the image below it shows an example of this strip being used to blur a transition.
-In this set up the *Gaussian Blur Strip* is modifying a
-:doc:`Adjustment Layer Strip </editors/vse/sequencer/strips/effects/adjustment>`
+In this set up the *Gaussian Blur Strip* is modifying
+a :doc:`Adjustment Layer Strip </editors/vse/sequencer/strips/effects/adjustment>`
 where the curve defines the amount of blur over the length of the *Adjustment Layer Strip*.
 
 .. figure:: /images/editors_vse_sequencer_strips_effects_blur_example.png

@@ -14,8 +14,8 @@ Curve Display
 
    Curve Display Panel.
 
-When in Edit Mode, the Properties region contains options in the
-*Curve Display* panel for how curves are displayed in the 3D View.
+When in Edit Mode, the Properties region contains options
+in the *Curve Display* panel for how curves are displayed in the 3D View.
 
 Handles
    Toggles the option to draw the Bézier handles.

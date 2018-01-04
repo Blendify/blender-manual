@@ -47,5 +47,5 @@ this make the node a useful organizational tool.
 
 .. tip::
 
-   From this you can also make different values proportional to each other by adding a
-   :doc:`Math Node </compositing/types/converter/math>` in between the different links.
+   From this you can also make different values proportional to each other by adding
+   a :doc:`Math Node </compositing/types/converter/math>` in between the different links.

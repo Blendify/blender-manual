@@ -47,7 +47,7 @@ Roughness
 
       Currently Blender is coded to use an unsquared model.
       So if you are using a :term:`Roughness Map` chances are that the result will not be accurate.
-      To fix this, you can square the texture by connecting the texture to a
-      :doc:`Math node </render/cycles/nodes/types/converter/math>`
+      To fix this, you can square the texture by connecting the texture to
+      a :doc:`Math node </render/cycles/nodes/types/converter/math>`
       and either setting it to *Multiply* and inputing the texture in both input sockets,
       or using the *Power* function and setting the second input to 2.

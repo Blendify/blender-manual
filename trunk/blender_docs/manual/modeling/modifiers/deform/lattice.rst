@@ -4,8 +4,8 @@
 Lattice Modifier
 ****************
 
-The Lattice modifier deforms the base object according to the shape of a
-:doc:`Lattice </rigging/lattice>` object.
+The Lattice modifier deforms the base object according to
+the shape of a :doc:`Lattice </rigging/lattice>` object.
 Objects to be deformed can be meshes, curves,
 surfaces, text, lattices and even particles.
 

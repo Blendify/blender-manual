@@ -52,8 +52,8 @@ Fade To Black
 To transition the audience from one scene or shot to another,
 a common technique is to "fade to black". As its name implies,
 the scene fades to a black screen. You can also "fade to white" or whatever color you wish,
-but black is a good neutral color that is easy on the eyes and intellectually "resets" the
-viewer's mind. The node map below shows how to do this using the Set Alpha node.
+but black is a good neutral color that is easy on the eyes and intellectually "resets" the viewer's mind.
+The node map below shows how to do this using the Set Alpha node.
 
 .. figure:: /images/compositing_types_converter_set-alpha_fade-to-black.png
 

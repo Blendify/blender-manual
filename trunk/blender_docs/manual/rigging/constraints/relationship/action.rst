@@ -7,11 +7,11 @@ Action Constraint
 *****************
 
 The *Action* constraint is powerful.
-It allows you control an
-:doc:`Action </editors/dope_sheet/action>` using the transformations of another object.
+It allows you control
+an :doc:`Action </editors/dope_sheet/action>` using the transformations of another object.
 
-The underlying idea of the *Action* constraint is very similar to the one behind the
-:doc:`Drivers </animation/drivers/index>`, except that the former uses a whole action
+The underlying idea of the *Action* constraint is very similar to the one behind
+the :doc:`Drivers </animation/drivers/index>`, except that the former uses a whole action
 (i.e. a bunch of F-Curves of the same type), while the latter controls a single F-curve of their "owner"...
 
 Note that even if the constraint accepts the *Mesh* action type,
@@ -88,8 +88,8 @@ Notes
 
 - When the linked action affects some location properties,
   the owner's existing location is added to the result of evaluating this constraint
-  (exactly as when the *Offset* button of the
-  :doc:`Copy Location constraint </rigging/constraints/transform/copy_location>` is enabled...).
+  (exactly as when the *Offset* button of
+  the :doc:`Copy Location constraint </rigging/constraints/transform/copy_location>` is enabled...).
 - When the linked action affects some scale properties,
   the owner's existing scale is multiplied with the result of evaluating this constraint.
 - When the linked action affects some rotation properties,
@@ -97,11 +97,11 @@ Notes
 - Unlike usual, you can have a *Start* value higher than the *End* one,
   or a *Min* one higher than a *Max* one: this will reverse the mapping of the action
   (i.e. it will be "played" reversed...), unless you have both sets reversed, obviously!
-- When using a *Constraint* action,
-  it is the constraint *channel's names* that are used to determine to which constraints of the
-  owner apply the action. E.g.
-  if you have a constraint channel named "trackto_empt1", its keyed *Influence* and/or *Head/Tail* values
-  (the only ones you can key) will be mapped to the ones of the owner's constraint named "trackto_empt1".
+- When using a *Constraint* action, it is the constraint *channel's names*
+  that are used to determine to which constraints of the owner apply the action.
+  E.g. if you have a constraint channel named "trackto_empt1",
+  its keyed *Influence* and/or *Head/Tail* values (the only ones you can key)
+  will be mapped to the ones of the owner's constraint named "trackto_empt1".
 - Similarly, when using a *Pose* action
   (which is obviously only meaningful and working when constraining a bone!),
   it is the bone's name that is used to determine which bone *channel's names* from the action to use

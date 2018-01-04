@@ -19,10 +19,10 @@ Workflow
 
 In general, you follow these steps:
 
-#. First you want to set the
-   :doc:`simulation domain </physics/fluid/types/domain>`,
-#. Next set the
-   :doc:`fluid source(s) </physics/fluid/types/fluid_object>`, and specify there physical properties.
+#. First you want to set
+   the :doc:`simulation domain </physics/fluid/types/domain>`,
+#. Next set
+   the :doc:`fluid source(s) </physics/fluid/types/fluid_object>`, and specify there physical properties.
 #. In some cases you may want to set other objects to
    :doc:`Control the Flow </physics/fluid/types/flow>` of the fluid.
 #. You can also depending on your scene add other objects related to the fluid, like:
@@ -42,6 +42,6 @@ In general, you follow these steps:
 
 .. seealso::
 
-   To know more about simulating fluids in Blender you can read the
-   :doc:`fluids appendix </physics/fluid/appendix>`.
+   To know more about simulating fluids in Blender you can read
+   the :doc:`fluids appendix </physics/fluid/appendix>`.
    There you can find the limitations and workarounds, and some additional links.

@@ -185,9 +185,9 @@ Its generator parameters are similar to Key2A so that
 the top of the right stack will move with bone.R (mostly).
 
 Since it is quite easy for bone.L and bone.R to be in positions that
-indicate conflicting values for Key1 there will be times when the
-bones do not line up with the tops of their respective stacks. If the
-driver for Key1 was to use Average or Minimum instead of Maximum to
+indicate conflicting values for Key1 there will be times
+when the bones do not line up with the tops of their respective stacks.
+If the driver for Key1 was to use Average or Minimum instead of Maximum to
 determine the value of the shape key then "conflicts" between bone.L
 and bone.R would be resolved differently. You will choose according to
 the needs of your animation.

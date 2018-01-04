@@ -17,8 +17,8 @@ with options for using a curve falloff, texture and vertex group.
 The Warp Modifier is a bit tricky at first, but it helps to understand how it works.
 The modifier requires two points, specified by object origins.
 The "from" point designates a point in space that is pulled toward the "to" point.
-It is akin to using the
-:doc:`Proportional Editing </editors/3dview/object/editing/transform/control/proportional_edit>`
+It is akin to using
+the :doc:`Proportional Editing </editors/3dview/object/editing/transform/control/proportional_edit>`
 in Edit Mode.
 
 
@@ -65,6 +65,6 @@ there are a couple of uses. For example, The *Warp Modifier* can be used to have
 :doc:`Proportional Editing </editors/3dview/object/editing/transform/control/proportional_edit>`
 that can be used for animation.
 
-Another way to use the *Warp Modifier* is to use it similar to the
-:doc:`Deform Modifier </modeling/modifiers/deform/mesh_deform>`.
+Another way to use the *Warp Modifier* is to use it similar to
+the :doc:`Deform Modifier </modeling/modifiers/deform/mesh_deform>`.
 This allows you to deform parts of the mesh without having to make a vertex group.

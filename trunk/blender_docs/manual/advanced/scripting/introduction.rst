@@ -87,8 +87,8 @@ there are literally hundreds of add-ons written by many people:
 - Other **Testing** add-ons are included in development builds but not official releases.
   Many of them work reliably and are very useful but are not ensured to be stable for release.
 
-For an overview of all add-ons available, see the
-`Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__.
+For an overview of all add-ons available, see
+the `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__.
 
 
 Scripts
@@ -100,8 +100,8 @@ Apart from add-ons, there are also scripts you can use to extend Blender's funct
 - Presets: Settings for Blender's tools and key configurations.
 - Startup: These files are imported when starting Blender.
   They define most of Blender's UI, as well as some additional core operators.
-- Custom scripts: In contrast to add-ons they are typically intended for one-time execution via the
-  :doc:`Text Editor </editors/text_editor>`.
+- Custom scripts: In contrast to add-ons they are typically intended for one-time execution via
+  the :doc:`Text Editor </editors/text_editor>`.
 
 
 Saving your own Scripts
@@ -110,8 +110,8 @@ Saving your own Scripts
 File Location
 ^^^^^^^^^^^^^
 
-All scripts are loaded from the ``scripts`` folder of the
-:doc:`local, system and user paths </getting_started/installing/configuration/directories>`.
+All scripts are loaded from the ``scripts`` folder of
+the :doc:`local, system and user paths </getting_started/installing/configuration/directories>`.
 
 You can setup an additional search path for scripts in
 :ref:`prefs-file-paths` :menuselection:`User Preferences --> File Paths`.

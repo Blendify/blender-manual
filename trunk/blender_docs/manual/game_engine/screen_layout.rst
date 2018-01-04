@@ -67,9 +67,9 @@ Auto Start
 
 .. rubric:: 4) Logic Editor panel
 
-The :doc:`Logic Editor </editors/logic_editor>` is where the
-:doc:`logic, properties and states </game_engine/logic/index>` are set up to control the behavior of
-the objects in the game.
+The :doc:`Logic Editor </editors/logic_editor>` is where
+the :doc:`logic, properties and states </game_engine/logic/index>` are set up
+to control the behavior of the objects in the game.
 (The Logic Editor panel can also be displayed by selecting Logic Editor in the Display Editor menu,
 by pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`).
 

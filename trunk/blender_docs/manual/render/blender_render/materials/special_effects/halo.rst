@@ -128,8 +128,8 @@ artifacts that result from the mechanical process of photography.
 are just three examples of these artifacts.
 The first two are discussed in the *chapter rendering*;
 the latter can be produced with special halos.
-A simulated lens flare tells the viewer that the image was created with a
-camera, which makes the viewer think that it is authentic.
+A simulated lens flare tells the viewer that the image was created with a camera,
+which makes the viewer think that it is authentic.
 
 We create lens flares in Blender from a mesh object using first the *Halo* button
 and then the *Flare* options in the *Shaders* Panel of the material settings.

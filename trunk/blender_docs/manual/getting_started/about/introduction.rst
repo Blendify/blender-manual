@@ -70,8 +70,8 @@ such as human anatomy, composition, lighting, animation principles, etc.
 
 3D creation software such as Blender have the added technical complexity and
 jargon associated with the underlying technologies.
-Terms like UV maps, materials, shaders, meshes, and "subsurf" are the mediums of the
-digital artist, and understanding them, even broadly, will help you to use Blender to its best.
+Terms like UV maps, materials, shaders, meshes, and "subsurf" are the mediums of
+the digital artist, and understanding them, even broadly, will help you to use Blender to its best.
 
 So keep reading this manual, learn the great tool that Blender is, keep your mind open to
 other artistic and technological areas and you too can become a great artist.

@@ -58,8 +58,8 @@ With an enthusiastic group of volunteers, among them several ex-NaN employees,
 a fundraising campaign was launched to "Free Blender". To everyone's surprise and delight
 the campaign reached the €100,000 goal in only seven short weeks. On Sunday, October 13, 2002,
 Blender was released to the world under the terms of the `GNU GPL <https://www.gnu.org/copyleft/gpl>`__.
-Blender development continues to this day driven by a team of dedicated volunteers from around the
-world led by Blender's original creator, Ton Roosendaal.
+Blender development continues to this day driven by a team of dedicated volunteers
+from around the world led by Blender's original creator, Ton Roosendaal.
 
 
 Version/Revision Milestones
@@ -199,12 +199,12 @@ Version/Revision Milestones
    Dynamic topology, rigid body simulation, improvements in UI and
    usability (including retina display support), Cycles now supports hair,
    the Bevel tool now supports individual vertex beveling,
-   new :doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>` modifier and the
-   new :doc:`UV Warp </modeling/modifiers/modify/uv_warp>` modifier,
+   new :doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>` modifier and
+   the new :doc:`UV Warp </modeling/modifiers/modify/uv_warp>` modifier,
    new SPH particle fluid solver. More than 250 bug fixes.
 `2.67 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67>`__ -- May 2013:
-   Freestyle was added, paint system improvements, subsurface scattering for Cycles, Ceres library in the
-   motion tracker, new custom Python nodes, new mesh modeling tools, better support for UTF-8 text and
+   Freestyle was added, paint system improvements, subsurface scattering for Cycles, Ceres library
+   in the motion tracker, new custom Python nodes, new mesh modeling tools, better support for UTF-8 text and
    improvements in Text editors, new add-ons for 3D printing, over 260 bug fixes.
 `2.68 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.68>`__ -- July 2013:
    New and improved modeling tools, three new Cycles nodes, big improvements in the motion tracker,

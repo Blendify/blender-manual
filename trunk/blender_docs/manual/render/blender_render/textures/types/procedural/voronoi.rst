@@ -37,8 +37,8 @@ Distance Metric
    (at 4.0, it gives a *Minkowsky 4*, at 10.0, a *Chebychev*).
    So nearly all Distance Settings are basically the same -- a variation of *Minkowsky*.
 
-   You can get irregularly-shaped rounded cells with the
-   *Actual Distance* / *Distance Squared* options.
+   You can get irregularly-shaped rounded cells with
+   the *Actual Distance* / *Distance Squared* options.
 
 .. list-table::
 

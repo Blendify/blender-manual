@@ -14,10 +14,11 @@ Logical or Render object and its representation for the Physics Engine is import
 
 To simulate a vehicle as a true rigid body, on top of also rigid body wheels,
 with a real suspension system made with joints, would be far too complicated and unstable.
-Cars and other vehicles are complicated mechanical devices and most
-often we do not want to simulate that, only that it 'acts as expected'. The Vehicle Controller exists to provide a
-dedicated way of simulating a vehicle behavior without having to simulate all the physics that would actually happen
-in the real world. It abstracts the complexity away by providing a simple interface with tweakable parameters such as
+Cars and other vehicles are complicated mechanical devices and
+most often we do not want to simulate that, only that it 'acts as expected'.
+The Vehicle Controller exists to provide a dedicated way of simulating a vehicle behavior
+without having to simulate all the physics that would actually happen in the real world.
+It abstracts the complexity away by providing a simple interface with tweakable parameters such as
 suspension force, damping and compression.
 
 

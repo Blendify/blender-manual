@@ -55,8 +55,8 @@ if they are the only pass that is rendered, saved as the render image. If the pa
 it can be saved in a multilayer OpenEXR format.
 
 If the Render Pass output is not an image but is a map,
-it needs to be translated into something that we can see. For example, the Z-depth map is an
-array of values that specifies how far away from the camera each pixel is;
+it needs to be translated into something that we can see. For example, the Z-depth map is
+an array of values that specifies how far away from the camera each pixel is;
 values range between +/-3,000,000 Blender Units or so. The intermediate node you see above,
 between the Render Layer output socket and the Viewer node input socket (such as Map Value)
 does this translation or scaling. You must use that specific kind of translation node to get
@@ -256,8 +256,8 @@ If we just ran the combined pass through Vector Blur,
 you can see the result in the lower right-hand corner; the box is blurred,
 but its shadow is sharply in focus, and thus the image does not look realistic.
 
-Therefore, we need to separate out the diffuse and shadow passes from the floor by creating a
-"Floor" render layer. That render layer has Diffuse and Shadow passes enabled,
+Therefore, we need to separate out the diffuse and shadow passes from the floor by creating
+a "Floor" render layer. That render layer has Diffuse and Shadow passes enabled,
 and only renders the floor object (layer 2). Another render layer ("Cube")
 renders the Z and Vector passes, and only renders the cube (on layer 1). Using the Blur node,
 we blur the shadow pass, and then combine the diffuse and blurred shadow by multiplying them

@@ -226,9 +226,9 @@ Of course as an artist that may be what you are looking for!
    Taper example 1.
 
 In Fig. :ref:`fig-curves-extrude-taper1`
-you can clearly see the effect the left taper curve has on the right curve object. Here the
-left taper curve is closer to the object origin and that results in a smaller curve object to
-the right.
+you can clearly see the effect the left taper curve has on the right curve object.
+Here the left taper curve is closer to the object origin and
+that results in a smaller curve object to the right.
 
 .. _fig-curves-extrude-taper2:
 
@@ -236,8 +236,8 @@ the right.
 
    Taper example 2.
 
-In Fig. :ref:`fig-curves-extrude-taper2` a control point in the taper curve to the left is moved away from the
-origin and that gives a wider result to the curve object on the right.
+In Fig. :ref:`fig-curves-extrude-taper2` a control point in the taper curve to the left is moved away from
+the origin and that gives a wider result to the curve object on the right.
 
 .. _fig-curves-extrude-taper3:
 

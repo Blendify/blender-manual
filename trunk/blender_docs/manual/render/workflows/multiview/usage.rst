@@ -63,8 +63,8 @@ The viewport will respond in real-time to those changes allowing you to preview 
 Viewport
 ========
 
-Before fine-tuning the camera parameters, you can set the
-convergence plane in the viewport based in your scene depth layout.
+Before fine-tuning the camera parameters,
+you can set the convergence plane in the viewport based in your scene depth layout.
 Go outside the camera view and you will instantly see the convergence plane in front of the camera.
 
 You can toggle this and other display settings in the Stereoscopy panel of the 3D Views properties region.
@@ -330,8 +330,8 @@ regardless of the Image nodes resolutions or Render Layers from different scenes
    the image will be treated as a single-view image.
 
 Switch View Node
-   If you need to treat the views separately, you can use the
-   :doc:`Switch View node </compositing/types/converter/switch_view>`
+   If you need to treat the views separately, you can use
+   the :doc:`Switch View node </compositing/types/converter/switch_view>`
    to combine the views before an output node.
 
 .. tip:: Performance
