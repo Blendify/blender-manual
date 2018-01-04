@@ -27,7 +27,7 @@ Detail Type
 
    Relative Detail
       This method uses a detail size based on the number of pixels, and in turn
-      will create topology in that size. Zoom out big details, zoom in small fines details.
+      will create topology in that size. Zoom out big details, zoom in small fine details.
    Constant Detail
       To keep detail uniform across the entire object, Constant Detail can be used.
       The Detail is based on the percentage of a single :abbr:`BU (Blender Unit)`.
@@ -80,7 +80,7 @@ The Multiresolution Modifier is needed to sculpt. The modifier will subdivide th
 The more subdivision the more computing will be needed. With the Blender stack
 no-destructive data, multiresolution sculpting will help when you have a clean topology base mesh.
 
-When sculpting with multiresolution we have the ability sculpt in different level of subdivision,
+When sculpting with multiresolution we have the ability sculpt in different levels of subdivision,
 this mean we can sculpt some details in subdivision level 1 and add more details in
 subdivision 2 and go back to subdivision 1 correct some mistakes. While this workflow is
 often used, Multiresolution Modifier has some limitations. You may end up with some mesh distortions.

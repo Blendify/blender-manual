@@ -41,7 +41,7 @@ Also, under soft body edges,increase the bending to 10.
 Playing the animation with :kbd:`Alt-A` will now give a slow animation of a bouncing cube.
 To speed things up, we need to bake the softbody physics.
 
-Under *Soft Body Cache* change the start and end values to your start and end frames. In this case 1 and 150.
+Under *Soft Body Cache* change the values of your start and end frames. In this case 1 and 150.
 Now, to test if everything is working, you can take a cache step of 5 or 10,
 but for the final animation it is better to reduce it to 1, to cache everything.
 
