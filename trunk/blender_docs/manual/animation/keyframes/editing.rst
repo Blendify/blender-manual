@@ -51,8 +51,8 @@ Delete Keyframes
 
 There are several methods of removing keyframes:
 
-- In the 3D View press :kbd:`Alt-I` to remove keys on the current frame for selected objects.
-- When the mouse is over a value press :kbd:`Alt-I`.
+- In the 3D View press :kbd:`Alt-I` to remove keys from selected objects on the current frame.
+- When the mouse is over a value, press :kbd:`Alt-I`.
 - :kbd:`RMB` a value and choose *Delete Keyframe* from the menu.
 
 
@@ -92,7 +92,7 @@ This example shows you how to animate a cube's location, rotation, and scale.
    This will record the location, rotation, and scale, for the *Cube* on frame 1.
 #. Set the frame to 100.
 #. Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
-#. Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
+#. Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu*, select *LocRotScale*.
 
 .. figure:: /images/animation_keyframes_editing_insert-keyframe0.png
    :width: 500px
@@ -104,4 +104,4 @@ To test the animation, press :kbd:`Alt-A` to play.
 .. figure:: /images/animation_keyframes_editing_insert-keyframe1.png
    :width: 500px
 
-   The animation on frames 1, 50, 100.
+   The animation on frames 1, 50 and 100.

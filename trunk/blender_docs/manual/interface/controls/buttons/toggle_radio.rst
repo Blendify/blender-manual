@@ -45,4 +45,4 @@ Cycling
 -------
 
 Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over it, to cycle between the options.
-Cycling works also for number button and select menus.
+Cycling works also for number buttons and select menus.

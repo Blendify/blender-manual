@@ -5,7 +5,7 @@ Introduction
 ************
 
 Smoke simulation is a subset of the fluids system, and can be used for simulating gases such as smoke.
-It simulates the fluid movement of air and generate animated :term:`voxel`
+It simulates the fluid movement of air and generates animated :term:`voxel`
 textures representing the density, heat, and velocity of other fluids or suspended particles
 (i.e. smoke) which can be used for rendering.
 
@@ -23,7 +23,7 @@ Airflow inside the domain can affect other physics simulations via the smoke flo
 Workflow
 ========
 
-At least a :doc:`Domain Object </physics/smoke/types/domain>` object and
+At least a :doc:`Domain </physics/smoke/types/domain>` object and
 one :doc:`Flow object </physics/smoke/types/flow_object>` are required to create a smoke simulation.
 A basic workflow looks like this:
 

@@ -60,7 +60,7 @@ Target Space & Owner Space
 --------------------------
 
 The space used to evaluate the target of the constraint is called the Target Space.
-The space used to evaluate the constrained object (the object that owns the constraint) is called the owner space.
+The space used to evaluate the constrained object (the object that owns the constraint) is called the Owner Space.
 Hover over the space select menu(s) to learn whether it affects the space of the target
 or the space of the owner.
 
@@ -91,7 +91,7 @@ Local Space
 Local With Parent (bones only)
    The bone properties are evaluated in its own local space,
    *including* the transformations due to a possible parent relationship
-   (i.e. due to the chain's transformations above the bone).
+   (i.e. the chain's transformations above the bone).
 
 Pose Space (bones only)
    The bone properties are evaluated in the armature object local space

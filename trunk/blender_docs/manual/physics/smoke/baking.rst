@@ -37,7 +37,7 @@ The simulation fields can be found in the ``.vdb`` files under the following nam
 - "color"
 - "density"
 - "heat"
-- "heat old" (the temperate at the previous frame)
+- "heat old" (the temperature at the previous frame)
 - "flame"
 - "fuel"
 - "react" (reaction coordinates, used for fire)
