@@ -18,9 +18,9 @@ How States Operate
 States are set up and used through controllers: note that only controllers,
 not actuators and sensors, are directly controlled by the state system.
 Each object has a number of states (up to 30; default = 1),
-and can only be in one state at any particular time. A controller must always specify
-the state for which it will operate -- it will only give an output pulse if a)
-its logic conditions are met, and b) the object is currently in the specified State.
+and can only be in one state at any particular time.
+A controller must always specify the state for which it will operate -- it will only give an output pulse
+if a) its logic conditions are met, and b) the object is currently in the specified State.
 States are set up and edited in the object's Controller settings (for details see below).
 
 .. tip::
