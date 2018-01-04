@@ -35,8 +35,8 @@ X and Y
 2D Transform
 ============
 
-The *2D Transform* modifier applies two-dimensional scaling and/or rotation to the
-stroke backbone geometry. Scale is applied before rotation.
+The *2D Transform* modifier applies two-dimensional scaling and/or rotation to
+the stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
 

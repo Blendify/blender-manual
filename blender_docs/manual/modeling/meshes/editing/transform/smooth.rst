@@ -41,8 +41,8 @@ Axes
 
 .. seealso:: Subdividing
 
-   Adjusting the *smooth* option after using the
-   :doc:`Subdivide </modeling/meshes/editing/subdividing/subdivide>` tool
+   Adjusting the *smooth* option after using
+   the :doc:`Subdivide </modeling/meshes/editing/subdividing/subdivide>` tool
    results in a more organic shape.
 
 .. seealso:: Smooth Modifier

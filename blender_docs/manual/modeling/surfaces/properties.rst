@@ -74,8 +74,8 @@ Order
 One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
 For high Orders 1 the surface pulls away from the control points,
-creating a smoother surface by assuming that the
-`Resolution`_ is high enough. For lowest Orders 2 the surface follows the control points,
+creating a smoother surface by assuming that the `Resolution`_ is high enough.
+For lowest Orders 2 the surface follows the control points,
 creating a surface that tends to follow the grid cage.
 
 .. _fig-surface-intro-order:

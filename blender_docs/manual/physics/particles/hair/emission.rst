@@ -50,8 +50,8 @@ Distribution
       Particles are emitted from random locations in the emitter's elements.
 
 Use Modifier Stack
-   Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier in the
-   :ref:`modifier stack <modifier-stack>` into account when emitting particles.
+   Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier
+   in the :ref:`modifier stack <modifier-stack>` into account when emitting particles.
 
    .. note::
 

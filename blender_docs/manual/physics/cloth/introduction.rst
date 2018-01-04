@@ -45,9 +45,9 @@ then, it can interact with other modifiers, such as *Armature* and *Smooth*. In 
 the ultimate shape of the mesh is computed in accordance with the order of the modifier stack.
 For example, you should smooth the cloth *after* the modifier computes the shape of the cloth.
 
-So you edit the Cloth settings in two places: use the Physics buttons to edit the
-properties of the cloth and use the Modifier stack to edit the Modifier properties related to
-display and interaction with other modifiers.
+So you edit the Cloth settings in two places: use the Physics buttons to edit
+the properties of the cloth and use the Modifier stack to edit
+the Modifier properties related to display and interaction with other modifiers.
 
 You can *Apply* the Cloth Modifier to freeze, or lock in,
 the shape of the mesh at that frame, which removes the modifier. For example,

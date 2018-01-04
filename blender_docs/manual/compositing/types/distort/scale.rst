@@ -56,8 +56,10 @@ Image
 Examples
 ========
 
-For instance X: 0.5 and Y: 0.5 would produce an image which width and height would be half of what they used to be.
+For instance X: 0.5 and Y: 0.5 would produce an image which width and
+height would be half of what they used to be.
 
-Use this node to match image sizes. Most nodes produce an image that is the same size as the
-image input into their top image socket. To uniformly combine two images of different size,
+Use this node to match image sizes.
+Most nodes produce an image that is the same size as the image input into their top image socket.
+To uniformly combine two images of different size,
 the second image has to be scaled up to match the resolution of the first.

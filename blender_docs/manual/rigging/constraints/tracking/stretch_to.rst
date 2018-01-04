@@ -56,8 +56,8 @@ Volume
    to preserve the virtual volume while stretching along the Y axis.
    If you enable the *none* button, the volumetric features are disabled.
 Plane
-   These buttons are equivalent to the *Up* ones of the
-   :doc:`Track To constraint </rigging/constraints/tracking/track_to>`:
+   These buttons are equivalent to the *Up* ones of
+   the :doc:`Track To constraint </rigging/constraints/tracking/track_to>`:
    they control which of the X or Z axes should be maintained (as much as possible) aligned with the global Z axis,
    while tracking the target with the Y axis.
 

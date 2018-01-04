@@ -110,9 +110,9 @@ Now you can see the weights of the active Vertex Group displayed on the mesh sur
 Edit Weights in Edit Mode
 -------------------------
 
-It is now very easy to work with Vertex Groups in Edit Mode. All edit options of the mesh are
-available and you have direct visual control over how your Weights change when you edit the
-weight values.
+It is now very easy to work with Vertex Groups in Edit Mode.
+All edit options of the mesh are available and
+you have direct visual control over how your Weights change when you edit the weight values.
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-weight.png
    :width: 235px

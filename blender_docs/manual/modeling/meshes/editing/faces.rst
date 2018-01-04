@@ -299,8 +299,8 @@ removing the shared edge to create a quad, based on a threshold.
 This tool can be applied on a selection of multiple triangles.
 
 This same action can be done on a selection of two tris,
-by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting the
-shared edge and dissolving it with the shortcut :kbd:`X` :menuselection:`--> Dissolve`.
+by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting
+the shared edge and dissolving it with the shortcut :kbd:`X` :menuselection:`--> Dissolve`.
 
 To create a quad, this tool needs at least two adjacent triangles.
 If you have an even number of selected triangles,

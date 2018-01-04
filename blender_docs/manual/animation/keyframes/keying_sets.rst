@@ -20,8 +20,8 @@ Blender will add keyframes for all the properties in the active keying set.
 There are some built in Keying Sets and,
 also custom Keying Sets called *Absolute Keying Sets*.
 
-To select and use a Keying Set, set the *Active Keying Set* in the
-:ref:`Timeline Header <animation-editors-timeline-autokeyframe>`,
+To select and use a Keying Set, set the *Active Keying Set*
+in the :ref:`Timeline Header <animation-editors-timeline-autokeyframe>`,
 or the Keying Set panel, or press :kbd:`Ctrl-Alt-Shift-I` in the 3D View.
 
 

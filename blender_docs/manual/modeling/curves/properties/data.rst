@@ -130,11 +130,11 @@ NURBS Curves
 .. _modeling-curve-knot:
 
 Knots
-   One of the characteristics of a NURBS object is the *knot vector*. This is a sequence of
-   numbers used to determine the influence of the control points on the curve.
-   While you cannot edit the knot vectors directly, you can influence them through the
-   *Endpoint* and *Bézier* options in the Active Spline panel. Note that the
-   *Endpoint* and *Bézier* settings only apply to open NURBS curves.
+   One of the characteristics of a NURBS object is the *knot vector*.
+   This is a sequence of numbers used to determine the influence of the control points on the curve.
+   While you cannot edit the knot vectors directly,
+   you can influence them through the *Endpoint* and *Bézier* options in the Active Spline panel.
+   Note that, the *Endpoint* and *Bézier* settings only apply to open NURBS curves.
 
    Cyclic
       Makes the NURBS curve cyclic.

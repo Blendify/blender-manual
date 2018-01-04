@@ -7,8 +7,8 @@ These are extra settings for :doc:`Hair Particles </physics/particles/hair/index
 
 .. seealso::
 
-   There are also scene level hair settings which can be found with the
-   :ref:`Geometry <cycles-settings-scene-render-geometry>` settings.
+   There are also scene level hair settings which can be found with
+   the :ref:`Geometry <cycles-settings-scene-render-geometry>` settings.
 
 
 Hair Settings

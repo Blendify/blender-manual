@@ -12,8 +12,8 @@ user-defined actions that determine the progression of the simulation.
 Logic Bricks
 ============
 
-The main part of game logic can be set up through a graphical interface the
-:doc:`Logic Editor </editors/logic_editor>`, and therefore does not require detailed programming knowledge.
+The main part of game logic can be set up through a graphical interface
+the :doc:`Logic Editor </editors/logic_editor>`, and therefore does not require detailed programming knowledge.
 Logic is set up as blocks (or "bricks") which represent preprogrammed functions;
 these can be tweaked and combined to create the game/application. There are three types of logic brick:
 :doc:`Sensors </game_engine/logic/sensors/introduction>`,

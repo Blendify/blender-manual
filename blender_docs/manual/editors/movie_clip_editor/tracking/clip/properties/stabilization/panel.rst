@@ -13,10 +13,13 @@ Then you'll need to set up some tracking points to detect the image movements.
 The 2D Stabilization panel is used to define the data used for 2D stabilization of the shot.
 Several options are available in this panel: you may add a list of tracks to determine lateral image shifts
 and another list of tracks to determine tilting and zooming movements.
-Based on the average contribution of these tracks, a compensating movement is calculated and applied to each frame.
+Based on the average contribution of these tracks,
+a compensating movement is calculated and applied to each frame.
 
-When the footage includes panning and traveling movements, the stabilizer tends to push the image out of the
-visible area. This can be compensated by animating the parameters for the intentional, "expected" camera movement.
+When the footage includes panning and traveling movements,
+the stabilizer tends to push the image out of the visible area.
+This can be compensated by animating the parameters for the intentional,
+"expected" camera movement.
 
 .. note::
 

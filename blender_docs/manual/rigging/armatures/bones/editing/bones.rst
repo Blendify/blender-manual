@@ -235,8 +235,8 @@ When clicking :kbd:`F`, similar to the previous case, you will see a new bone:
 - With the tip placed on the other selected root.
 - Parented and connected to the bone owning the root used as the new bone's root.
 
-If you try to move the new bone, Blender will update the interface and you will see that the
-new bone's root moves to the tip of the parent bone.
+If you try to move the new bone, Blender will update the interface and you will see
+that the new bone's root moves to the tip of the parent bone.
 
 .. list-table:: Fill between roots.
 
@@ -436,8 +436,8 @@ You can subdivide bones, to get two or more bones where there was just one bone.
 The tool will subdivide all selected bones, preserving the existing relationships:
 the bones created from a subdivision always form a connected chain of bones.
 
-To create an arbitrary number of bones from each selected bone in the
-Subdivide Multi Operator panel.
+To create an arbitrary number of bones from each selected bone
+in the Subdivide Multi Operator panel.
 
 Number of Cuts
    Specifies the number of cuts. As in mesh editing,

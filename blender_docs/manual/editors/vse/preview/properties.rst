@@ -39,8 +39,8 @@ Proxy Render Size
 Safe Areas
 ==========
 
-Shows guides used to position elements to ensure that the
-most important parts of the video can be seen across all screens.
+Shows guides used to position elements to ensure that
+the most important parts of the video can be seen across all screens.
 
 .. seealso::
 

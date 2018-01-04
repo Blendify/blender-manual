@@ -201,5 +201,5 @@ Tiling
    Using this option allows you to seamlessly tile your strokes along the given axes.
    This allows to create repeating patterns.
 Tile Offset
-   The default tile size is set to one :abbr:`BU (Blender Unit)`. The offset allows the
-   option to alter the tile size along all three axes.
+   The default tile size is set to one :abbr:`BU (Blender Unit)`.
+   The offset allows the option to alter the tile size along all three axes.

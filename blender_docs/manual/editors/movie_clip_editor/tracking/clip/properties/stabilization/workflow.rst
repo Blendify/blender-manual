@@ -47,8 +47,8 @@ Resist that deception, it rarely works out well.
   As a guideline, try to get at least to 1/250 s
 - Prefer higher frame rates. The more *temporal resolution* the stabilizer has to work on, the better the results.
   If you have the option to choose between progressive and interlaced modes, by all means use interlaced
-  and deinterlace the footage to the *doubled frame rate*. This can be done with the
-  `yadif <https://ffmpeg.org/ffmpeg-filters.html#yadif-1>`__ filter of FFmpeg: use the mode 1 (``send_field``).
+  and deinterlace the footage to the *doubled frame rate*. This can be done with
+  the `yadif <https://ffmpeg.org/ffmpeg-filters.html#yadif-1>`__ filter of FFmpeg: use the mode 1 (``send_field``).
 - Beware of `Rolling Shutter <https://en.wikipedia.org/wiki/Rolling_shutter>`__.
   Avoid fast lateral movements. If you can, prefer a camera which produces less rolling shutter.
   Also, using a higher frame rate reduces the amount of rolling shutter; another reason to prefer

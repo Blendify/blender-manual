@@ -4,9 +4,9 @@ Introduction
 ************
 
 An Armature in Blender can be thought of as similar to the armature of a real skeleton,
-and just like a real skeleton an Armature can consist of many bones. These bones can be moved
-around and anything that they are attached to or associated with will move and deform in a
-similar way.
+and just like a real skeleton an Armature can consist of many bones.
+These bones can be moved around and anything that they are attached to or
+associated with will move and deform in a similar way.
 
 An "armature" is a type of object used for :doc:`rigging </rigging/index>`.
 A rig is the controls and strings that move a marionette (puppet).

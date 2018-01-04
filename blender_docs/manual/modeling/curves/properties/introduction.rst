@@ -43,9 +43,9 @@ the :menuselection:`Properties region --> Transform --> Tilt`,
 You can also reset it to its default value (i.e. perpendicular to the original curve plane)
 with :kbd:`Alt-T`, :menuselection:`Curve --> Control Points --> Clear Tilt`.
 With NURBS, the tilt is always smoothly interpolated.
-However, with Bézier, you can choose the interpolation algorithm between
-Linear, Ease, B-Spline, and Cardinal, in the
-:menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
+However, with Bézier, you can choose the interpolation algorithm
+between Linear, Ease, B-Spline, and Cardinal,
+in the :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
 
 .. figure:: /images/modeling_curves_properties_introduction_extrude-mean-tilt.png
    :width: 320px

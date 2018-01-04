@@ -29,8 +29,8 @@ but it is bigger and you cannot select it.
 
    The origin is labeled as "A"; "B" and "C" are vertices.
 
-In the image above, the vertex labeled "C" is a new vertex added to the cube with a
-new edge added between "B" and "C".
+In the image above, the vertex labeled "C" is a new vertex added to the cube with
+a new edge added between "B" and "C".
 
 
 Edges
@@ -93,8 +93,8 @@ Edge Loops
 ----------
 
 Loops (1 and 2) in Fig. :ref:`fig-mesh-topo-loop` are edge Loops.
-They connect vertices so that each one on the loop has exactly two neighbors that are not on the
-loop and placed on both sides of the loop (except the start and end vertex in case of poles).
+They connect vertices so that each one on the loop has exactly two neighbors that are not on
+the loop and placed on both sides of the loop (except the start and end vertex in case of poles).
 
 Edge Loops are an important concept especially in organic (subsurface)
 modeling and character animation. When used correctly, they allow you to build models with

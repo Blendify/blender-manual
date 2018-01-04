@@ -28,8 +28,8 @@ This provides more information about the possible deformation of the marker in f
 and such markers can be tracked even if partially occluded (appear and disappear during the time).
 It is only required that two neighbor frames have at least four common tracks.
 
-An image can be projected onto the plane with the
-:doc:`/compositing/types/distort/plane_track_deform` compositing node.
+An image can be projected onto the plane with
+the :doc:`/compositing/types/distort/plane_track_deform` compositing node.
 
 
 Solve Panel

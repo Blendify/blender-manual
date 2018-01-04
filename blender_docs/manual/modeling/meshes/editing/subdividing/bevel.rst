@@ -94,8 +94,8 @@ Amount Type :kbd:`M`
       The percentage of the length of adjacent edges that the new edges slide.
 
 Segments :kbd:`S`
-   The number of segments in the bevel can be defined by scrolling the
-   mouse :kbd:`Wheel` to increase or decrease this value.
+   The number of segments in the bevel can be defined by
+   scrolling the mouse :kbd:`Wheel` to increase or decrease this value.
    The greater the number of segments, the smoother the bevel.
    Or press :kbd:`S` to change the number with mouse movements, as well as numeric input.
 

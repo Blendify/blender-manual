@@ -67,8 +67,7 @@ Deselect
 
 .. seealso::
 
-   A single bone can be assign to a group in the
-   :ref:`Relations panel <bone-relations-bone-group>`.
+   A single bone can be assign to a group in the :ref:`Relations panel <bone-relations-bone-group>`.
 
 .. seealso::
 

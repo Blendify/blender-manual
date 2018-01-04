@@ -4,8 +4,8 @@
 Simple Deform Modifier
 **********************
 
-The Simple Deform Modifier allows easy application of a simple deformation to an
-object (meshes, lattices, curves, surfaces and texts are supported).
+The Simple Deform Modifier allows easy application of a simple deformation to
+an object (meshes, lattices, curves, surfaces and texts are supported).
 
 Using another object, it is possible to define the axis and origin of the deformation,
 allowing application of very different effects.

@@ -44,8 +44,8 @@ or the :menuselection:`View --> Perspective` menu entry.
 The :kbd:`Numpad5` shortcut toggles between the two modes.
 Changing the projection for a 3D View does not affect the way the scene will be rendered.
 Rendering is in perspective by default. If you need to create an orthographic rendering,
-select the camera, go to the Camera tab and press the
-*Orthographic* button in the *Lens* panel.
+select the camera, go to the Camera tab and
+press the *Orthographic* button in the *Lens* panel.
 
 .. seealso::
 

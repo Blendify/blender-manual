@@ -41,8 +41,8 @@ in effect means that the light from this source is completely linear.
 This means that at the number of Blender Units distance specified in the *Distance* field,
 this light source's intensity will be half the value it was originally.
 
-When the *Quadratic* slider is set to 0.0, the formula for working out the
-attenuation at a particular range for full linear attenuation is:
+When the *Quadratic* slider is set to 0.0, the formula for working out
+the attenuation at a particular range for full linear attenuation is:
 
 :math:`I = E × (D / (D + L × r))`
 
@@ -79,8 +79,8 @@ Comparing the quadratic falloff to the linear falloff,
 the intensity decays much slower at distances lower than the set *Distance*,
 but it attenuates much quicker after *Distance* is reached.
 
-When the *Linear* slider is set to 0.0, the formula for working out the
-attenuation at a particular range for full quadratic attenuation is:
+When the *Linear* slider is set to 0.0, the formula for working out
+the attenuation at a particular range for full quadratic attenuation is:
 
 :math:`I = E × (D^2 / (D^2 + Q × r^2))`
 
@@ -126,8 +126,8 @@ If what you want is a light source that does not attenuate and gives the same am
 intensity to each area it hits,
 you need a light with properties like the *Constant* lamp *Falloff* type.
 
-Also, when the *Linear* and *Quad* sliders are both 0.0 values, the
-*Distance* field ceases to have any influence on the light attenuation,
+Also, when the *Linear* and *Quad* sliders are both 0.0 values,
+the *Distance* field ceases to have any influence on the light attenuation,
 as shown by the equation above.
 
 
@@ -161,23 +161,23 @@ light intensity when the distance from the light source increases.
 
 When using the *Custom Curve* Lamp Falloff type,
 a new panel is created, called *Falloff Curve*. This *Falloff Curve*
-profile graph allows the user to alter how intense light is at a particular point along a
-light's attenuation profile (i.e. at a specific distance from the light source).
+profile graph allows the user to alter how intense light is at a particular point along
+a light's attenuation profile (i.e. at a specific distance from the light source).
 
 The *Falloff Curve* profile graph has two axes,
 the Distance-axis and the Intensity-axis.
 
 Distance axis
    It represents the position at a particular point along a light source's attenuation path.
-   The far left is at the position of the light source and the far right is the place where the
-   light source's influence would normally be completely attenuated.
+   The far left is at the position of the light source and the far right is the place
+   where the light source's influence would normally be completely attenuated.
 Intensity axis
    It represents the intensity at a particular point along a light source's attenuation path.
    Higher intensity is represented by being higher up the intensity axis,
    while lower intensity light is represented by being lower down on the intensity axis.
 
-Altering the *Falloff Curve* profile graph is easy. Just :kbd:`LMB` click on a
-part of the graph you want to alter and drag it where you want it to be.
+Altering the *Falloff Curve* profile graph is easy. Just :kbd:`LMB` click on
+a part of the graph you want to alter and drag it where you want it to be.
 If when you click you are over or near one of the tiny black square handles,
 it will turn white, indicating that this handle is now selected,
 and you will be able to drag it to a new position.
@@ -263,8 +263,8 @@ Inverse Linear
    Render showing the Inverse Linear lamp falloff type effect with default settings.
 
 This lamp falloff type attenuates its intensity linearly,
-scaled by the *Distance* value. This is the default setting, behaving the same as the
-default in previous Blender versions without *Quad* switched on, and consequently,
+scaled by the *Distance* value. This is the default setting, behaving the same as
+the default in previous Blender versions without *Quad* switched on, and consequently,
 like the new *Lin/Quad Weighted* option with *Linear* to 1.0 and
 *Quad* to 0.0. This is not physically accurate,
 but can be easier to light with.

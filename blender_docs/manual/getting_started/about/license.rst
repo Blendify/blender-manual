@@ -36,8 +36,8 @@ responsibilities that are designed to protect your freedoms and the freedoms of 
 - You may not restrict the licensing of the program beyond the terms of the GPL
   (you may not turn a GPL'd program into a proprietary product).
 
-For more on the GPL, check its page on the
-`GNU Project website <https://www.gnu.org/licenses/licenses.html#GPL>`__.
+For more on the GPL, check its page on
+the `GNU Project website <https://www.gnu.org/licenses/licenses.html#GPL>`__.
 
 .. note::
 

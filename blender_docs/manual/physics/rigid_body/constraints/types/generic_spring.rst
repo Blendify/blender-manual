@@ -15,10 +15,12 @@ Generic Spring
 
    Options available to a *Generic Spring* constraint.
 
-The generic spring constraint adds some spring parameters for the X/Y/Z axes to all the options available on the
-Generic constraint. Using the spring alone allows the objects to bounce around as if attached with a spring anchored
-at the constraint object. This is usually a little too much freedom, so most applications will benefit from enabling
-translation or rotation constraints.
+The generic spring constraint adds some spring parameters for the X/Y/Z axes
+to all the options available on the Generic constraint.
+Using the spring alone allows the objects to bounce around as if attached
+with a spring anchored at the constraint object.
+This is usually a little too much freedom,
+so most applications will benefit from enabling translation or rotation constraints.
 
 If the damping on the springs is set to 1, then the spring forces are prevented from realigning the anchor points,
 leading to strange behavior. If your springs are acting weird, check the damping.

@@ -7,8 +7,8 @@ Mapping Node
 The *Mapping Node* is used to transform an image or procedural texture.
 For example, you can use it to move, rotate, or scale textures.
 If you have ever done any UV editing in the past, then you will likely
-know that these can also be accomplished by modifying an object's UVs in the
-:doc:`UV/Image editor </editors/uv_image/uv/index>`. However,
+know that these can also be accomplished by modifying an object's UVs
+in the :doc:`UV/Image editor </editors/uv_image/uv/index>`. However,
 it is sometimes useful to have easy access to these functions through
 nodes rather than having to modify the UVs. One example of this might be
 when you have several textures, each of which needs to be transformed
@@ -23,8 +23,8 @@ Inputs
 ======
 
 Vector
-   Vector to be transformed, usually this is input from a
-   :doc:`Texture Coordinate node </render/cycles/nodes/types/input/texture_coordinate>`.
+   Vector to be transformed, usually this is input from
+   a :doc:`Texture Coordinate node </render/cycles/nodes/types/input/texture_coordinate>`.
 
 
 Properties

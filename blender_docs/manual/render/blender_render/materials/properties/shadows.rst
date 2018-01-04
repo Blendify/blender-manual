@@ -34,10 +34,11 @@ The various properties are described in the sections below.
 Options
 =======
 
-The following properties can be set for each individual material with which objects in the
-scene are shaded. The effects are illustrated with rendered images for a simple scene
-(Fig. :ref:`fig-bi-material-shadow-scene`) consisting of two "posts", one with
-a red (totally non-transparent) material; one green (partially transparent) material,
+The following properties can be set for each individual material
+with which objects in the scene are shaded.
+The effects are illustrated with rendered images for a simple scene
+(Fig. :ref:`fig-bi-material-shadow-scene`) consisting of two "posts",
+one with a red (totally non-transparent) material; one green (partially transparent) material,
 set up on a light blue plane to receive the shadows.
 The illustrations were all taken in Blender Render engine, with Multitexture mode.
 

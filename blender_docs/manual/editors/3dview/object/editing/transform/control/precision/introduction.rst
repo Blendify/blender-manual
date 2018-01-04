@@ -53,8 +53,8 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 
 .. tip:: Combining with other controls
 
-   All of the precision controls detailed on the page can be combined with the
-   :doc:`Axis Locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`
+   All of the precision controls detailed on the page can be combined with
+   the :doc:`Axis Locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`
    controls and used with the different
    :doc:`Pivot Points </editors/3dview/object/editing/transform/control/pivot_point/index>`.
 
@@ -71,13 +71,13 @@ Grab/move
    1 Blender Unit (default zoom level).
 
 For grab/move operations at the default zoom level,
-holding :kbd:`Ctrl` will cause your selection to move by increments of 1 Blender Unit
-(1 BU) (i.e. between the two light gray lines). Zooming in enough to see the next set of gray
-lines will now cause :kbd:`Ctrl` movements to occur by 1/10 of a BU. Zooming in further
-until the next set of gray lines becomes visible will cause movement to happen by 1/100 of a
-BU and so on until the zoom limit is reached.
-Zooming out will have the opposite effect and cause movement to happen by increments of
-10 BU, 100 BU, etc.
+holding :kbd:`Ctrl` will cause your selection to move by increments of 1 Blender Unit (1 BU)
+(i.e. between the two light gray lines). Zooming in enough to see the next set of gray
+lines will now cause :kbd:`Ctrl` movements to occur by 1/10 of a BU.
+Zooming in further until the next set of gray lines becomes visible
+will cause movement to happen by 1/100 of a BU and so on until the zoom limit is reached.
+Zooming out will have the opposite effect and
+cause movement to happen by increments of 10 BU, 100 BU, etc.
 
 .. seealso::
 
@@ -97,8 +97,7 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
 
 .. note:: Snapping modes
 
-   Note that if you have a
-   :ref:`Snap Element <transform-snap-element>` option enabled,
+   Note that if you have a :ref:`Snap Element <transform-snap-element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
    :doc:`Read more about Snapping </editors/3dview/object/editing/transform/control/snap>`

@@ -160,8 +160,8 @@ Release confirms
 Sculpt Overlay Color
 ====================
 
-This color button allows the user to define a color to be used in the inner part of the
-brushes circle when in sculpt mode, and it is placed as an overlay to the brush,
+This color button allows the user to define a color to be used in the inner part of
+the brushes circle when in sculpt mode, and it is placed as an overlay to the brush,
 representing the focal point of the brush influence.
 The overlay color is visible only when the overlay visibility is selected
 (clicking at the *eye* to set its visibility), and the transparency of the overlay is
@@ -175,8 +175,8 @@ Duplicate Data
 ==============
 
 The *Duplicate Data* check-boxes define what data is copied with a duplicated Object and what
-data remains linked. Any boxes that are checked will have their data copied along with the
-duplication of the Object. Any boxes that are not checked will instead have their data linked
+data remains linked. Any boxes that are checked will have their data copied along with
+the duplication of the Object. Any boxes that are not checked will instead have their data linked
 from the source Object that was duplicated.
 
 For example, if you have Mesh checked,

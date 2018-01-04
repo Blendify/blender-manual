@@ -196,17 +196,17 @@ Distance
 
 High Quality
    In order for the viewport to offer an accurate representation of depth of field (blur radius calculation),
-   like a render, you must enable High Quality. Without it, you may notice a
-   difference in shading. (Grayed out if not supported by the GPU).
+   like a render, you must enable High Quality.
+   Without it, you may notice a difference in shading. (Grayed out if not supported by the GPU).
 Viewport F-stop
    Controls the real-time focal blur effect used during sequencer or OpenGL rendering and,
    when enabled, camera views in the 3D View.
    The amount of blur depends on this setting, along with Focal Length and Sensor Size.
    Smaller Viewport F-stop values result in more blur.
 Blades
-   Add a number of polygonal *blades* to the blur effect, in order to achieve a
-   a *bokeh effect* in the viewport. To enable this feature, the blades must be
-   set to at least 3 (3 sides, triangle).
+   Add a number of polygonal *blades* to the blur effect,
+   in order to achieve a *bokeh effect* in the viewport.
+   To enable this feature, the blades must be set to at least 3 (3 sides, triangle).
 
 .. figure:: /images/render_blender-render_camera_object-data_depth-of-field-bokeh.png
 

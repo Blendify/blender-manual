@@ -45,8 +45,8 @@ Velocity
 Pinning
 -------
 
-The first thing you need when pinning cloth is a
-:doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`.
+The first thing you need when pinning cloth is
+a :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`.
 There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin
 (see the :doc:`/sculpt_paint/painting/weight_paint/index` section of the manual).
 The weight of each vertex in the group controls how strongly it is pinned.
@@ -92,8 +92,8 @@ The typical workflow for pinning:
    Very fast movements and teleport jumps can break the physics simulation.
 
 .. Note that if you move the cloth object ''after'' you have already run some simulations,
-   you must unprotect and clear the cache; otherwise, Blender will use the position of the
-   current/cached mesh's vertices when trying to represent where they are.
+   you must unprotect and clear the cache; otherwise, Blender will use the position of
+   the current/cached mesh's vertices when trying to represent where they are.
    Editing the shape of the mesh, after simulation, is also discussed below.
    You may disable the cloth and edit the mesh as a normal mesh editing process.
    This is jumping ahead and not clear and not true at this point.

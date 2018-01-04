@@ -1,8 +1,8 @@
 .. _bpy.types.TransformOrientation:
 .. _bpy.types.SpaceView3D.transform_orientation:
 .. TODO/Review: {{review|Need to change and explain the behavior of the transform orientation.
-   It is toggled between the chosen orientation and the
-   global orientation when transformations are made by shortcuts}}.
+   It is toggled between the chosen orientation and
+   the global orientation when transformations are made by shortcuts}}.
 
 **********************
 Transform Orientations
@@ -56,8 +56,8 @@ Local
    (it is most visible on the object's Y-axis, the green arrow).
    This is due to our 15° rotation of the object.
    This demonstrates the difference between local coordinates and global coordinates.
-   If we had rotated the object 90° along its X-axis, we would see that the object's "Up" is the
-   world's "Forward" -- or the object's Z-axis would now be the world's Y-axis.
+   If we had rotated the object 90° along its X-axis, we would see that the object's "Up" is
+   the world's "Forward" -- or the object's Z-axis would now be the world's Y-axis.
    This orientation has an effect on many parts of the interface,
    so it is important to understand the distinction.
 

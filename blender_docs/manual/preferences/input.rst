@@ -118,8 +118,8 @@ Zoom Style
       Moving up from the initial click-point or to the right will zoom out,
       moving down or to the left will zoom in. The further away you move,
       the faster the zoom movement will be.
-      The directions can be altered by the *Vertical* and *Horizontal* radio buttons and the
-      *Invert Zoom Direction* option.
+      The directions can be altered by the *Vertical* and *Horizontal* radio buttons and
+      the *Invert Zoom Direction* option.
    Dolly
       *Dolly* zooming works similarly to *Continue* zooming except that zoom speed is constant.
 Zoom Axis

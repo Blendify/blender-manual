@@ -24,12 +24,13 @@ So why should one use Environment Maps?
   (another visualization type for particles) are also not visible to raytraced reflections,
   so you need to setup environment maps to reflect them.
 
-Just as we render the light that reaches the viewing plane using the camera to define a
-viewpoint, we can render the light that reaches the
-surface of an object (and hence, the light that might ultimately be reflected to the camera).
-Blender's environment mapping renders a
-cubic image map of the scene in the six cardinal directions from any point. When the six tiles
-of the image are mapped onto an object using the *Reflection* input coordinates,
+Just as we render the light that reaches the viewing plane
+using the camera to define a viewpoint,
+we can render the light that reaches the surface of an object
+(and hence, the light that might ultimately be reflected to the camera).
+Blender's environment mapping renders a cubic image map of the scene
+in the six cardinal directions from any point.
+When the six tiles of the image are mapped onto an object using the *Reflection* input coordinates,
 they create the visual complexity that the eye expects to see from shiny reflections.
 
 .. note::
@@ -177,9 +178,9 @@ Examples
 In this example,
 an empty is used as the *Viewpoint Object* of the reflecting plane's environment map.
 It is located in the specular position of the camera with respect to the reflecting surface.
-(This is possible, strictly speaking, only for planar reflecting surfaces). Ideally, the
-location of the empty would mirror the location of the camera across the plane of the polygon
-onto which it is being mapped.
+(This is possible, strictly speaking, only for planar reflecting surfaces). Ideally,
+the location of the empty would mirror the location of the camera
+across the plane of the polygon onto which it is being mapped.
 
 .. list-table::
    :widths: 58 42

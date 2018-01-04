@@ -12,8 +12,8 @@ Therefore, you should only run scripts from sources you know and trust.
 Automatic execution is disabled by default,
 however, some blend-files need this to function properly.
 
-When a blend-file tries to execute a script and is not allowed, a message will appear in the
-header with the option to **Reload Trusted** or **Ignore** the message.
+When a blend-file tries to execute a script and is not allowed, a message will appear in
+the header with the option to **Reload Trusted** or **Ignore** the message.
 
 .. figure:: /images/animation_drivers_troubleshooting_autorun-info-header.png
 
@@ -54,8 +54,8 @@ Controlling Script Execution
 Blender provides a number of ways to control whether scripts
 from a blend-file are allowed to automatically execute.
 
-First of all, the File Browser has the option **Trusted Source** which you can use on a
-case-by-case basis to control auto-execution.
+First of all, the File Browser has the option **Trusted Source** which you can use on
+a case-by-case basis to control auto-execution.
 
 However, you may forget to set this,
 or open a file without going through the File Browser --

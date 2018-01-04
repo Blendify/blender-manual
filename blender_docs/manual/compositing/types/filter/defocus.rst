@@ -86,11 +86,10 @@ Examples
    :width: 200px
    :figwidth: 200px
 
-In this `blend-file example <https://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball
-array image is blurred as if it was taken by a camera with an f-stop of 2.8 resulting in a
-fairly narrow depth of field centered on 7.5 Blender units from the camera.
+In this `blend-file example <https://wiki.blender.org/uploads/7/79/Doftest.blend>`__,
+the ball array image is blurred as if it was taken by a camera with an f-stop of 2.8 resulting
+in a fairly narrow depth of field centered on 7.5 Blender units from the camera.
 As the balls recede into the distance, they get blurrier.
-This node has no properties.
 
 
 No Z-Buffer Examples

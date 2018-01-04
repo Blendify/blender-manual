@@ -60,8 +60,8 @@ N-gon from Edges
 ----------------
 
 When there are many edges Blender will make an n-gon.
-Note that this does not support holes, to support holes you need to use the
-:ref:`modeling-meshes-editing-fill` Faces tool.
+Note that, this does not support holes,
+to support holes you need to use the :ref:`modeling-meshes-editing-fill` Faces tool.
 
 .. list-table::
 

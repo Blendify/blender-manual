@@ -14,9 +14,9 @@ Armature Deform Parenting is a way of creating and setting up
 an :doc:`Armature Modifier </modeling/modifiers/deform/armature>`.
 
 To use *Armature Deform Parenting* you must first select all the child objects that will be
-influenced by the armature and then lastly, select the armature object itself. Once all the
-child objects and the armature are selected, press :kbd:`Ctrl-P` and select
-*Armature Deform* in the *Set Parent To* pop-up menu.
+influenced by the armature and then lastly, select the armature object itself.
+Once all the child objects and the armature are selected, press :kbd:`Ctrl-P` and
+select *Armature Deform* in the *Set Parent To* pop-up menu.
 
 The armature will be the parent object of all the other child objects and each child object
 will have a Armature Modifier with the armature associated (*Object* field).

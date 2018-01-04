@@ -16,8 +16,8 @@ https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
 .. note::
 
    First of all, it is assumed that you have the manual already building.
-   If you have not done this already go back too the
-   :ref:`Getting Started <about-getting-started>` section.
+   If you have not done this already go back too
+   the :ref:`Getting Started <about-getting-started>` section.
 
 
 Installing

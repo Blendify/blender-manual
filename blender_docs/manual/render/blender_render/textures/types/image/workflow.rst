@@ -62,8 +62,8 @@ Examples
 
 There may be one UV Layout for the face of a character, and another for their clothes. Now,
 to texture the clothes, you need to create an image at least for the Color of the clothes, and
-possible a "bump" texture to give the fabric the appearance of some weave by creating a
-different image for the Normal of the clothes. Where the fabric is worn,
+possible a "bump" texture to give the fabric the appearance of some weave by creating
+a different image for the Normal of the clothes. Where the fabric is worn,
 for example at the elbows and knees, the sheen, or Specularity, of the fabric will vary and
 you will want a different image that tells Blender how to vary the Specularity.
 Where the fabric is folded over or creased,

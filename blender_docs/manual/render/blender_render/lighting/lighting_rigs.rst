@@ -127,8 +127,8 @@ the untextured sphere with no assigned material seems to come out at you.
 There are multiple thesis on this rig, and you will use one of two:
 
 #. Studio: Used in a real studio to film in front of a green screen or backdrop.
-   Use this rig when you are rendering your CG objects to alpha into the scene so that the
-   lighting on the actors *and* your CG objects is the same.
+   Use this rig when you are rendering your CG objects to alpha into the scene
+   so that the lighting on the actors *and* your CG objects is the same.
 #. Standard: Used in real life to light actors on a set, and gives some backlighting to
    highlight the sides of actors, making them stand out more and giving them depth.
 
@@ -196,9 +196,10 @@ You can vary the angle and height of the backlight to mimic a sun lighting up th
 
 Use this rig in normal 3D animations to light the main actor.
 Use this rig especially if you have transparent objects (like glass)
-so that there is plenty of light to shine through them to the camera. The tricky part here is
-balancing the intensities of the lights so that no one light competes with or overpowers the
-others, while making sure all three work together as a team.
+so that there is plenty of light to shine through them to the camera.
+The tricky part here is balancing the intensities of the lights
+so that no one light competes with or overpowers the others,
+while making sure all three work together as a team.
 
 
 Four-point Rig

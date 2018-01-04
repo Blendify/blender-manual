@@ -72,8 +72,8 @@ To disconnect and/or free bones, you can:
   (or :menuselection:`Armature --> Parent --> Clear Parent...`).
   In the small *Clear Parent* menu that pops up, choose *Clear Parent* to completely free all selected bones,
   or *Disconnect Bone* if you just want to break their connections.
-- In the Properties editor, *Bones* tab, for each selected bone, you can select no parent in the
-  *Parent* data-ID of its Relations panel, to free it completely.
+- In the Properties editor, *Bones* tab, for each selected bone, you can select no parent
+  in the *Parent* data-ID of its Relations panel, to free it completely.
   If you just want to disconnect it from its parent, disable the *Connected* checkbox.
 
 Note that relationships with non-selected children are never modified.

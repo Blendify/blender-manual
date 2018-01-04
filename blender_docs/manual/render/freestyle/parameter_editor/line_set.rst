@@ -52,8 +52,8 @@ QI Range
 Edge Types
 ----------
 
-Edge types are basic algorithms for the selection of lines from geometry. When using the
-parameter editor you have to choose at least one edge type in order to get a render output,
+Edge types are basic algorithms for the selection of lines from geometry.
+When using the parameter editor you have to choose at least one edge type in order to get a render output,
 but several edge types can be combined in one line set.
 Edge types can also be excluded from calculation by pressing the *X* next to them.
 

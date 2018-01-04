@@ -138,8 +138,8 @@ Limit
    This is used to control the threshold after which the filter color starts to come into play.
 Depth
    Sets the maximum number of transparent surfaces a single ray can travel through. There is no typical value.
-   Transparent objects outside the *Depth* range will be rendered pitch black if viewed through the
-   transparent object that the *Depth* is set for. In other words,
+   Transparent objects outside the *Depth* range will be rendered pitch black if viewed through
+   the transparent object that the *Depth* is set for. In other words,
    if you notice black areas on the surface of a transparent object,
    the solution is probably to increase its *Depth* value
    (this is a common issue with ray tracing transparent objects).
@@ -282,16 +282,16 @@ By default, the shadows of transparent objects are rendered solid black,
 as if the object was not transparent at all. But in reality,
 the more transparent an object is, the lighter its shadow will be.
 
-In Blender, transparent shadows are set on the materials that receive the shadows from the
-transparent object.
+In Blender, transparent shadows are set on the materials
+that receive the shadows from the transparent object.
 This is enabled and disabled with the *Receive Transparent* button,
 in the :menuselection:`Material --> Shadow` panel. The shadow's brightness is
 dependent on the *Alpha* value of the shadow casting material.
 
 Alternatives to transparent ray-traced shadows can be found in the *World* tab,
 namely the *Ambient Occlusion*, *Environment Lighting*,
-and *Gather* panels. Alternatively, a texture can be used to control the
-*Intensity* value of the shadow-receiving material.
+and *Gather* panels. Alternatively, a texture can be used to control
+the *Intensity* value of the shadow-receiving material.
 
 
 .. _transparency-ior-common:

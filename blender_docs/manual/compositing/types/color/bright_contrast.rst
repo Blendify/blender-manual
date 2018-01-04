@@ -53,12 +53,12 @@ or put through a Color Ramp node (with all normal defaults).
 
    Clamp the values to normal range.
 
-Either of these nodes will scale the values back to normal range. In the example image,
-we want to amp up the specular pass.
+Either of these nodes will scale the values back to normal range.
+In the example image, we want to amp up the specular pass.
 The bottom thread shows what happens if we do not clamp the values;
 the specular pass has valued much less than one in the dark areas;
-when added to the medium gray, it makes black. Passing the brightened image through either the
-Map Value or the Color Ramp node produces the desired effect.
+when added to the medium gray, it makes black. Passing the brightened image through either
+the Map Value or the Color Ramp node produces the desired effect.
 
 
 Example

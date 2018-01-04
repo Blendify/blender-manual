@@ -14,8 +14,8 @@ Planetariums and domes with spherical mirrors.
    Technology within the SAT Metalab
    `immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
    that involves rendering the scene four times and placing the subsequent images
-   onto a mesh designed especially such that the result, when viewed with an
-   orthographic camera, is a fisheye projection.
+   onto a mesh designed especially such that the result,
+   when viewed with an orthographic camera, is a fisheye projection.
 
 .. note::
 

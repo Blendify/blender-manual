@@ -42,8 +42,8 @@ This page lists definitions for terms used in Blender and this manual.
          with the alpha multiplied into the RGB channel.
 
          This is the natural output of render engines, with the RGB channels representing the amount
-         of light that comes toward the viewer, and alpha representing how much of the light from the
-         background is blocked. The OpenEXR file format uses this alpha type. So, intermediate files
+         of light that comes toward the viewer, and alpha representing how much of the light from
+         the background is blocked. The OpenEXR file format uses this alpha type. So, intermediate files
          for rendering and compositing are often stored as premultiplied alpha.
 
       Conversion (Straight/Premultiplied) Alpha
@@ -145,8 +145,8 @@ This page lists definitions for terms used in Blender and this manual.
       Matte compositing
          Refers to a point in the color gamut surrounded by a mixture of a determined spectrum of its RGB
          neighboring colors. This point is called *Chroma key* and this key (a chosen color) is used to create
-         an *Alpha Mask*. The total amount of gamut space for this chrominance point is defined by users in a
-         circular or square shaped format.
+         an *Alpha Mask*. The total amount of gamut space for this chrominance point is defined by users
+         in a circular or square shaped format.
 
    Clamp
    Clamping
@@ -355,8 +355,8 @@ This page lists definitions for terms used in Blender and this manual.
       See :term:`World Space`.
 
    Gouraud Shading
-      Used to achieve smooth lighting on low-polygon surfaces without the
-      heavy computational requirements of calculating lighting for each pixel.
+      Used to achieve smooth lighting on low-polygon surfaces without
+      the heavy computational requirements of calculating lighting for each pixel.
       The technique was first presented by Henri Gouraud in 1971.
 
    Glossy Map
@@ -457,8 +457,8 @@ This page lists definitions for terms used in Blender and this manual.
       'MIP' is an acronym of the Latin phrase 'multum in parvo', meaning 'much in little'.
       Mipmaps are progressively lower resolution representations of an image,
       generally reduced by half squared interpolations using anti-aliasing.
-      Mipmapping is the process used to calculate lower resolutions of the
-      same image, reducing memory usage to help speed visualization, but increasing
+      Mipmapping is the process used to calculate lower resolutions of
+      the same image, reducing memory usage to help speed visualization, but increasing
       memory usage for calculations and allocation. Mipmapping is also a process
       used to create small anti-aliased samples of an image used for texturing.
       The mipmapping calculations are made by CPUs, but modern graphic processors
@@ -487,8 +487,8 @@ This page lists definitions for terms used in Blender and this manual.
       This kind of geometry is not suitable for several types of operations,
       especially those where knowing the volume (inside/outside) of the object is important
       (refraction, fluids, booleans, or 3D printing, to name a few).
-      A non-manifold mesh is a mesh in which the structure of a
-      non-overlapped surface (based on its connected faces) will not determine
+      A non-manifold mesh is a mesh in which the structure of
+      a non-overlapped surface (based on its connected faces) will not determine
       the inside or the outside of a volume based on its normals, defining
       a single surface for both sides, but ended with flipped normals.
       When working with non-closed volumes, a non-manifold mesh will always
@@ -668,8 +668,8 @@ This page lists definitions for terms used in Blender and this manual.
    Roll
    Roll Angle
       The orientation of the local X and Z axes of a :term:`Bone`.
-      Has no effect on the local Y axis as local Y is determined by the location of the
-      :term:`Head` and :term:`Tail`.
+      Has no effect on the local Y axis as local Y is determined by the location of
+      the :term:`Head` and :term:`Tail`.
 
    Roughness Map
       A grayscale texture that defines how rough or smooth the surface of a material is.

@@ -61,8 +61,8 @@ the BGE combines them and keeps the most foreground faces.
 The resolution of the Z-Depth buffer is controllable in the World settings with
 the "Occlusion Culling Resolution" button:
 
-By default the resolution is 128 pixels for the largest dimension of the viewport while the
-resolution of the other dimension is set proportionally.
+By default the resolution is 128 pixels for the largest dimension of the viewport
+while the resolution of the other dimension is set proportionally.
 Although 128 is a very low resolution, it is sufficient for the purpose of culling.
 The resolution can be increased to maximum 1024 but at great CPU expense.
 

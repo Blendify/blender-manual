@@ -24,8 +24,8 @@ Once you have a selection of one or more control points,
 you can grab/move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </editors/3dview/object/editing/transform/introduction>` section.
 
-You also have in *Edit Mode* an extra option when using these basic manipulations: the
-:doc:`proportional editing </editors/3dview/object/editing/transform/control/proportional_edit>`.
+You also have in *Edit Mode* an extra option when using these basic manipulations:
+the :doc:`proportional editing </editors/3dview/object/editing/transform/control/proportional_edit>`.
 
 
 Transform Panel
@@ -44,8 +44,8 @@ Advanced Transform Tools
    | Panel:    :menuselection:`Tool shelf --> Tools --> Surface Tools --> Deform: Randomize`
    | Menu:     :menuselection:`Surface --> Transform`
 
-The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
-:doc:`Mesh Transformation </modeling/meshes/editing/transform/index>` section.
+The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described
+in the :doc:`Mesh Transformation </modeling/meshes/editing/transform/index>` section.
 Surfaces have no specific transform tools.
 
 
@@ -76,8 +76,8 @@ The only exception is when working on a NURBS surface curve, i.e.
 a surface with only one control point on each U- or V-row. In this special case,
 all works exactly as with :ref:`curves <modeling-curves-extrude>`.
 
-Most of the time, only extrusion is available. As usual, once the tool is activated the
-extrusion happens immediately and you are placed into *Grab mode*,
+Most of the time, only extrusion is available. As usual, once the tool is activated
+the extrusion happens immediately and you are placed into *Grab mode*,
 ready to drag the new extruded surface to its destination.
 
 There are two things very important to understand:

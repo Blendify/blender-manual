@@ -92,6 +92,6 @@ In the Initial area, each of the 30 available states is again represented by a l
 One of these states may be clicked as the state in which the object starts when the game is run.
 
 At the right is the |info-button| button; if clicked,
-and the :menuselection:`Game --> Show Debug Properties`
-is clicked, the current state of the object is shown in the
-top left-hand corner of the display while the game is running.
+and the :menuselection:`Game --> Show Debug Properties` is clicked,
+the current state of the object is shown in the top left-hand corner of the display
+while the game is running.

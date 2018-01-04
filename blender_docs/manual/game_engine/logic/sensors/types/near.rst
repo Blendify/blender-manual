@@ -5,8 +5,8 @@ Near Sensor
 ***********
 
 A *Near Sensor* detects objects that move to within a specific distance of themselves.
-It can filter objects with properties, like the
-:doc:`Collision sensor </game_engine/logic/sensors/types/collision>`.
+It can filter objects with properties,
+like the :doc:`Collision sensor </game_engine/logic/sensors/types/collision>`.
 
 .. note::
 

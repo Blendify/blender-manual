@@ -162,17 +162,18 @@ and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 
 The theory behind this function is scaled truncation.
 Suppose we want a math function that takes in a range of values between 0 and 1,
-such as 0.552, but only outputs a value of 0.0, 0.2, 0.4, etc. We can imagine then that we need
-to get that range 0 to 1 powered up to something 0 to 6 so that we can chop off and make it a
-whole number. So, with six divisions,
-how can we do that? The answer is we multiply the range by 6.
+such as 0.552, but only outputs a value of 0.0, 0.2, 0.4, etc.
+We can imagine then that we need to get that range 0 to 1 powered up
+to something 0 to 6 so that we can chop off and make it a whole number.
+So, with six divisions, how can we do that? The answer is we multiply the range by 6.
 The output of that first math Multiply Node is a range of values between 0 and 6.
 To get even divisions, because we are using the rounding function (see documentation above),
-we want any number plus or minus around a whole number will get rounded to that number. So,
-we subtract a half, which shifts everything over. The round()
-function then makes that range 0 to 5. We then divide by 5 to get back a range of numbers
-between 0 and 1 which can then be combined back with the other color channels. Thus,
-you get the function :math:`f(x, n) = round(x × n - 0.5)/ (n - 1)`
+we want any number plus or minus around a whole number will get rounded to that number.
+So, we subtract a half, which shifts everything over.
+The round() function then makes that range 0 to 5.
+We then divide by 5 to get back a range of numbers between 0 and 1
+which can then be combined back with the other color channels.
+Thus, you get the function :math:`f(x, n) = round(x × n - 0.5)/ (n - 1)`
 where "n" is the number of possible output values, and "x" is the input pixel color and :math:`f(x, n)`
 is the output value. There is only one slight problem, and that is for the value exactly equal to 1,
 the formula result is 1.2, which is an invalid value.

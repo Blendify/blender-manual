@@ -59,8 +59,8 @@ Image
 Example
 =======
 
-Results with the nodes applied to an image from the
-`Mango Open Movie <https://mango.blender.org/>`__.
+Results with the nodes applied to an image from
+the `Mango Open Movie <https://mango.blender.org/>`__.
 
 .. list-table::
 

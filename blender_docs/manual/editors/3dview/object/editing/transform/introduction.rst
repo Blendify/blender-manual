@@ -3,8 +3,8 @@
 Introduction
 ************
 
-Transformations refer to a number of operations that can be performed on a
-selected Object or Mesh that alters its position or characteristics.
+Transformations refer to a number of operations that can be performed on
+a selected Object or Mesh that alters its position or characteristics.
 
 Each object can be moved, rotated and scaled in *Object Mode*.
 However, not all of these transformations have an effect on all objects.
@@ -16,8 +16,8 @@ For example, scaling a camera has no effect on the render dimensions.
 - Rotating
 - Scaling
 
-These three transforms are the three big ones however, more, advanced transformations can be found in the
-:doc:`Advanced Transformations </editors/3dview/object/editing/transform/index>` section.
+These three transforms are the three big ones however, more, advanced transformations can be found
+in the :doc:`Advanced Transformations </editors/3dview/object/editing/transform/index>` section.
 
 For making other changes to the geometry of editable objects, you should use *Edit Mode*.
 

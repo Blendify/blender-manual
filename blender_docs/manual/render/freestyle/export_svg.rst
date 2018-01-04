@@ -67,9 +67,9 @@ translation between Freestyle and SVG is not possible. The main shortcoming of S
 Freestyle defines style per-point, where SVG defines it per-path. This means that Freestyle can produce much more
 complex results that are impossible to achieve in SVG.
 
-There are extended options for the exporter, located at the specific panels of the Freestyle renderer at the
-Render Layers tab of the Properties editor. Those options are located at the Freestyle Line Style SVG
-Export panel, at the bottom of the tab.
+There are extended options for the exporter,
+located at the specific panels of the Freestyle renderer at the Render Layers tab of the Properties editor.
+Those options are located at the Freestyle Line Style SVG Export panel, at the bottom of the tab.
 
 The properties (no modifiers applied) that can be exported are:
 

@@ -101,9 +101,9 @@ Grid
    in which case volume emission will not work correctly!
 
 Use Modifier Stack
-   Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier in the
-   :ref:`modifier stack <modifier-stack>` into account when emitting particles, else
-   it uses the original mesh geometry.
+   Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier
+   in the :ref:`modifier stack <modifier-stack>` into account when emitting particles,
+   else it uses the original mesh geometry.
 
    .. note::
 

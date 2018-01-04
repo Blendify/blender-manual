@@ -135,15 +135,16 @@ set of tools for you to both encode your watermark and to tell if an image has y
 Encoding your Watermark in an Image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First, construct your own personal watermark. You can use your name, a word,
-or a shape or image not easily replicated.
+First, construct your own personal watermark.
+You can use your name, a word, or a shape or image not easily replicated.
 While neutral gray works best using the encoding method suggested,
-you are free to use other colors or patterns. It can be a single pixel or a whole gradient;
-it is up to you. In the example below,
+you are free to use other colors or patterns.
+It can be a single pixel or a whole gradient; it is up to you. In the example below,
 we are encoding the watermark in a specific location in the image using the *Translate* node;
-this helps later because we only have to look at a specific location for the mark. We then use
-the RGB to BW node to convert the image to numbers that the Map Value node can use to make the
-image subliminal. In this case, it reduces the mark to one-tenth of its original intensity.
+this helps later because we only have to look at a specific location for the mark.
+We then use the RGB to BW node to convert the image to numbers
+that the Map Value node can use to make the image subliminal.
+In this case, it reduces the mark to one-tenth of its original intensity.
 The Add node adds the corresponding pixels,
 making the ones containing the mark ever-so-slightly brighter.
 

@@ -165,8 +165,8 @@ Enables a rectangular region for selection :kbd:`B`.
 
           Complete.
 
-In Fig. :ref:`fig-mesh-select-basics-start`, *Border Select* has been activated and is indicated by showing a
-dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
+In Fig. :ref:`fig-mesh-select-basics-start`, *Border Select* has been activated and
+is indicated by showing a dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
 the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
 The selection area is only covering the selection handles of three faces. Finally,
 by releasing :kbd:`LMB` the selection is complete; see Fig. :ref:`fig-mesh-select-basics-complete`.

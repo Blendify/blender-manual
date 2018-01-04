@@ -133,8 +133,8 @@ Remove Shortcut
 Online Manual
    See :ref:`help-manual-access`.
 Online Python Reference
-   Context-sensitive access to the
-   `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
+   Context-sensitive access to
+   the `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
 Edit Source
    For UI development -- Creates a text data-block with the source code associated with the control,
    in case the control is based on a Python script.
@@ -185,8 +185,8 @@ the user can then move the mouse pointer towards the direction of a pie menu ite
 Releasing the key, after moving the mouse towards a pie menu item, will cause the menu to close and
 the selected menu item to activate.
 
-An open disc widget at the center of the pie menu shows the
-current direction of the pie menu. The selected item is also highlighted.
+An open disc widget at the center of the pie menu shows
+the current direction of the pie menu. The selected item is also highlighted.
 A pie menu will only have a valid direction for item selection,
 if the mouse is touching or extending beyond the disc widget at the center of the menu.
 

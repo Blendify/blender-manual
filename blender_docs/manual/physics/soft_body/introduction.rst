@@ -22,8 +22,8 @@ There is dedicated :doc:`Cloth Simulation </physics/cloth/index>` physics that u
 and is better for cloth.
 
 This simulation is done by applying forces to the vertices or control points of the object.
-There are exterior forces like gravity or force fields and interior forces that hold the
-vertices together.
+There are exterior forces like gravity or force fields and
+interior forces that hold the vertices together.
 This way you can simulate the shapes that an object would take on in reality if it had volume,
 was filled with something, and was acted on by real forces.
 
@@ -96,8 +96,7 @@ Soft Body Solver
 
    | Panel:    :menuselection:`Physics --> Soft Body Solver`
 
-The settings in the *Soft Body Solver* panel determine the accuracy of the
-simulation.
+The settings in the *Soft Body Solver* panel determine the accuracy of the simulation.
 
 
 Step Size
@@ -119,8 +118,8 @@ Error Limit
 Rules the overall quality of the solution delivered. Default 0.1.
 The most critical setting that says how precise the solver should check for collisions.
 Start with a value that is 1/2 the average edge length. If there are visible errors, jitter,
-or over-exaggerated responses, decrease the value. The solver keeps track of how "bad" it is doing and the
-*Error Limit* causes the solver to do some "adaptive step sizing".
+or over-exaggerated responses, decrease the value. The solver keeps track of how "bad" it is doing and
+the *Error Limit* causes the solver to do some "adaptive step sizing".
 
 
 Helpers
@@ -152,10 +151,11 @@ Cache
 Soft Bodies and other physic simulations use a unified system for caching and baking.
 See :doc:`Particle Cache </physics/particles/emitter/cache>` for reference.
 
-The results of the simulation are automatically cached to disk when the animation is played,
-so that the next time it runs,
-it can play again quickly by reading in the results from the disk. If you *Bake* the
-simulation the cache is protected and you will be asked when you are trying to change a setting
+The results of the simulation are automatically cached to disk
+when the animation is played, so that the next time it runs,
+it can play again quickly by reading in the results from the disk.
+If you *Bake* the simulation the cache is protected and
+you will be asked when you are trying to change a setting
 that will make a recalculating necessary.
 
 .. tip:: Beware of the *Start* and *End* settings

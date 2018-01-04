@@ -34,8 +34,8 @@ Luckily, Blender allows to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
 (*Stiff Quads* Fig. :ref:`fig-softbody-force-interior-stiff`), on the other hand we can define virtual connections
 between a vertex and any vertices connected to its neighbors
-*Bending Stiffness*. In other words, the amount of bend that is allowed between a
-vertex and any other vertex that is separated by two edge connections.
+*Bending Stiffness*. In other words, the amount of bend that is allowed between
+a vertex and any other vertex that is separated by two edge connections.
 
 
 Edges

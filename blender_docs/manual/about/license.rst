@@ -3,8 +3,8 @@
 License
 *******
 
-Blender itself is released under the
-`GNU General Public License <http://www.gnu.org/copyleft/gpl.html>`__.
+Blender itself is released under
+the `GNU General Public License <http://www.gnu.org/copyleft/gpl.html>`__.
 More info
 `blender.org/about/license <https://www.blender.org/about/license/>`__.
 
@@ -40,6 +40,6 @@ If you have questions about the license, feel free to contact the Blender Founda
 foundation (at) blender (dot) org
 
 
-Previous versions of the Blender Manual are made available under a
-`Open Content License <https://wiki.blender.org/index.php/BlenderWiki:Copyrights#Open_Content_License>`__
+Previous versions of the Blender Manual are made available under
+a `Open Content License <https://wiki.blender.org/index.php/BlenderWiki:Copyrights#Open_Content_License>`__
 v2.26 -- v2.77.

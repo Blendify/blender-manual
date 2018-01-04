@@ -33,8 +33,9 @@ Invert ``<->``
    (The setting reverses the weight values of the group).
 
 Precision
-   The *Precision* number button controls the accuracy with which the
-   deform mesh cage alters the deformed object, when the points on the cage are moved.
+   The *Precision* number button controls the accuracy with
+   which the deform mesh cage alters the deformed object,
+   when the points on the cage are moved.
    Raising this value higher can greatly increase the time it takes
    the Mesh Deform Modifier to complete its binding calculations,
    but it will get more accurate cage mapping to the deformed object.
@@ -65,8 +66,8 @@ Bind
       To be safe, save your blend-file before proceeding!
 
 Unbind
-   When a deformed object has been associated to a deform mesh cage, it can later be disassociated by clicking the
-   *Unbind* button which replaced the *Bind* one.
+   When a deformed object has been associated to a deform mesh cage,
+   it can later be disassociated by clicking the *Unbind* button which replaced the *Bind* one.
    When *Unbind* is clicked, the *deform mesh cage* will keep its current shape;
    it will not reset itself back to its original start shape.
 

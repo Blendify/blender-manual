@@ -55,8 +55,8 @@ Detail Refine Method
       When topology is too dense, and is smaller than the detail given, edges will
       be collapse to fit the detail size appropriately.
    Subdivide Collapse
-      This method combines the two methods, subdividing edges smaller than the
-      detail size, and collapsing topology.
+      This method combines the two methods, subdividing edges smaller than
+      the detail size, and collapsing topology.
 Smooth Shading
    Toggles whether mesh faces are smooth or flat shaded.
    In dynamic-topology mode all faces have the same type of shading.

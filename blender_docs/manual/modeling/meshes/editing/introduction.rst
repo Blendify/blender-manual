@@ -20,10 +20,10 @@ as well as individual shortcut keys.
    :doc:`transform orientation </editors/3dview/object/editing/transform/control/orientations>`
    either.
 
-These transform tools are available in the *Transform* section of the
-*Mesh* menu in the header.
-Note that some of these can also be used on other editable objects, like curves, surfaces,
-and lattices.
+These transform tools are available
+in the *Transform* section of the *Mesh* menu in the header.
+Note that, some of these can also be used on other editable objects,
+like curves, surfaces, and lattices.
 
 
 Accessing Mesh Tools

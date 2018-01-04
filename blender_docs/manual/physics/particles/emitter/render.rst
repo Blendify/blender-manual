@@ -251,8 +251,8 @@ Offset Y
 
 UV Channels
    Billboards are just square polygons.
-   To texture them in different ways we have to have a way to set what textures we want for the
-   billboards and how we want them to be mapped to the squares.
+   To texture them in different ways we have to have a way to set
+   what textures we want for the billboards and how we want them to be mapped to the squares.
    These can then be set in the texture mapping buttons to set wanted textures for different coordinates.
    You may use three different UV maps and get three different sets of UV coordinates,
    which can then be applied to different (or the same) textures.

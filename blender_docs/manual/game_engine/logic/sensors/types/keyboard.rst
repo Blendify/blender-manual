@@ -26,8 +26,8 @@ Key
    A ``FALSE`` pulse is given when the key is released.
 All keys button
    Sends a ``TRUE`` pulse when any key is pressed.
-   This is useful for custom key maps with a
-   :doc:`Python controller </game_engine/logic/controllers/types/python>`.
+   This is useful for custom key maps with
+   a :doc:`Python controller </game_engine/logic/controllers/types/python>`.
 First Modifier, Second Modifier
    Specifies additional key(s), all of which must be held down while
    the active key is pressed in order for the sensor to give a ``TRUE`` pulse.

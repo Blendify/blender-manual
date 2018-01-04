@@ -43,8 +43,8 @@ of the lamp crossing the center of the camera (its "focal" point), as shown in
 This way, in camera view (:kbd:`Numpad0`, center area in the example picture),
 you will see where the "virtual" sun created by this effect will be.
 
-It is important to understand that the *position* of the sun has no importance for the
-effect: only its *orientation* is relevant.
+It is important to understand that the *position* of the sun
+has no importance for the effect: only its *orientation* is relevant.
 The position just might help you in your scene design.
 
 

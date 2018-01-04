@@ -4,8 +4,8 @@
 Introduction
 ************
 
-Mesh Modeling typically begins with a
-:doc:`Mesh Primitive </modeling/meshes/primitives>` shape (e.g. circle, cube, cylinder...).
+Mesh Modeling typically begins with
+a :doc:`Mesh Primitive </modeling/meshes/primitives>` shape (e.g. circle, cube, cylinder...).
 From there you might begin editing to create a larger, more complex shape.
 
 
@@ -143,6 +143,5 @@ where numeric values can be entered, and the *Mesh Display* panel,
 where for example normals and numeric values for distances, angles,
 and areas can be turned on.
 
-Other useful tools are found in the *Properties Editor* under the
-*Object* and *Object Data* tabs,
-including display options and *Vertex groups*.
+Other useful tools are found in the *Properties Editor* under
+the *Object* and *Object Data* tabs, including display options and *Vertex groups*.

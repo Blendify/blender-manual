@@ -5,8 +5,8 @@ Introduction
 
 Compositing Nodes allow you to assemble and enhance an image (or movie). Using composition nodes,
 you can glue two pieces of footage together and colorize the whole sequence all at once.
-You can enhance the colors of a single image or an entire movie clip in a static manner or in a
-dynamic way that changes over time (as the clip progresses). In this way,
+You can enhance the colors of a single image or an entire movie clip in a static manner or
+in a dynamic way that changes over time (as the clip progresses). In this way,
 you use composition nodes to both assemble video clips together and enhance them.
 
 .. note:: Term: Image

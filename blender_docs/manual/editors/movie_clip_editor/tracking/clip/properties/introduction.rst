@@ -55,8 +55,8 @@ Lock (padlock icon)
 Track Preview Widget
 --------------------
 
-The widget in this panel is called "Track Preview" and it displays the content of the
-pattern area. This helps to check how accurately the feature is being tracked
+The widget in this panel is called "Track Preview" and it displays the content of the pattern area.
+This helps to check how accurately the feature is being tracked
 (controlling that there is no sliding off original position)
 and also helps to move the track back to the correct position.
 The track can be moved directly using this widget by mouse dragging.

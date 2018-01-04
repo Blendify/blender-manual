@@ -132,8 +132,8 @@ Make Texture Persistent
 Note that we have assigned the object to a ``GameLogic``, ``video``
 attribute that we have created for the occasion.
 The reason is that the ``Texture`` object must be persistent across the game scripts.
-A local variable would be deleted at the end of the script and the GPU texture deleted at the
-same time. ``GameLogic`` module object is a handy place to store persistent objects.
+A local variable would be deleted at the end of the script and the GPU texture deleted at
+the same time. ``GameLogic`` module object is a handy place to store persistent objects.
 
 
 Create a Source

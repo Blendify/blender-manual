@@ -159,8 +159,8 @@ In this example let us dynamically control a Wave Modifier with a modified verte
 #. Go back to *Object Mode*. Then, go to the *Modifiers* properties, and add a Vertex Weight Proximity Modifier.
    Set the Distance mode to *Object*. Select your vertex group, and the target object you want.
 
-   You will likely have to adjust the linear mapping of the weights produced by the
-   Vertex Weight Proximity Modifier. To do so, edit *Lowest Distance* and
+   You will likely have to adjust the linear mapping of the weights produced by
+   the Vertex Weight Proximity Modifier. To do so, edit *Lowest Distance* and
    *Highest Distance* so that the first corresponds to the distance between your target
    object and the vertices you want to have lowest weight,
    and similarly with the second and highest weight...

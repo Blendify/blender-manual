@@ -13,8 +13,8 @@ visible planes and edges attached to the vertex are then modified with a gradien
 of the other connected vertices. (Note that the color of non-visible faces is not modified).
 
 Vertex colors can be painted by first going into Edit Mode, then switching to *Vertex Paint Mode*;
-however, it will not show up in the render unless you check *Vertex Color Paint* in the
-:doc:`Materials Options </render/blender_render/materials/properties/options>` panel.
+however, it will not show up in the render unless you check *Vertex Color Paint*
+in the :doc:`Materials Options </render/blender_render/materials/properties/options>` panel.
 
 .. list-table::
 

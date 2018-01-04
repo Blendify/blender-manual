@@ -3,8 +3,8 @@
 Introduction to Nodes
 *********************
 
-In addition to creating materials as just described using all the settings on all the
-materials panels,
+In addition to creating materials as just described
+using all the settings on all the materials panels,
 Blender allows you to create a material by routing basic materials through a set of nodes.
 Each node performs some operation on the material,
 changing how it will appear when applied to the mesh, and passes it on to the next node.
@@ -39,8 +39,8 @@ add color and other settings to this material and it would certainly look nice. 
 we are just not getting what we are looking for? What if we want to control the creation more
 tightly or add more complexity? Here is where nodes come in.
 
-Making this node map is accomplished by working in a
-:doc:`Node Editor </editors/node_editor/index>`.
+Making this node map is accomplished by working in
+a :doc:`Node Editor </editors/node_editor/index>`.
 This section covers:
 
 - Enabling Material Nodes.
@@ -59,8 +59,8 @@ not the composite or texture node buttons.
 Enabling Node Materials in the Material Buttons
 -----------------------------------------------
 
-Let us take the base material and hit the Nodes button next to the material name in the
-material panel or the Node editor. You will see a change in the material panel.
+Let us take the base material and hit the Nodes button next to the material name
+in the material panel or the Node editor. You will see a change in the material panel.
 
 .. figure:: /images/render_blender-render_materials_nodes_introduction_use-nodes-button.png
 
@@ -80,8 +80,8 @@ a material node and an output node were automatically added to the Node editor.
    Default nodes.
 
 
-You can also split the 3D View in the default screen in two and change one into a
-*Node Editor*.
+You can also split the 3D View in the default screen in two and
+change one into a *Node Editor*.
 
 It is important to note that you can add a new material
 (which you can edit and change like any other material in the material panel),

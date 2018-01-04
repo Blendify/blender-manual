@@ -113,8 +113,8 @@ its properties are not touched by the modifier.
 
 Min Angle and Max Angle
    The range of input values to the mapping.
-   Out-of-range crease angle values will be clamped by the
-   Min and Max angles and their corresponding property values.
+   Out-of-range crease angle values will be clamped by
+   the Min and Max angles and their corresponding property values.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-crease-angle-example.png
    :width: 430px

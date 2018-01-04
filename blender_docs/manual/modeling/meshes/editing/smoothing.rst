@@ -71,8 +71,8 @@ you can smooth the mesh non-destructively with one or several of the following m
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
    Catmull-Clark subdivision produces smooth results. Sharp edges can be defined with
    :ref:`subdivision creases <modifiers-generate-subsurf-creases>`
-   or by setting certain edges to "sharp" and adding an
-   :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`
+   or by setting certain edges to "sharp" and
+   adding an :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`
    (set to *From Marked As Sharp*) before the Subdivision Surface Modifier.
 
 .. list-table:: Example mesh with *Auto Smooth* enabled.

@@ -24,15 +24,15 @@ you can view a luma-waveform instead of the usual output display on every contro
 
 The display plots for every scanline the luminance value. The lines are all drawn on top of each other.
 The points get brighter if the lines cross (which is very likely with several hundred scanlines).
-You will understand the picture most easily if you plug an oscilloscope to the
-Luma-video-output of your television set. It will basically look the same.
+You will understand the picture most easily if you plug an oscilloscope to
+the Luma-video-output of your television set. It will basically look the same.
 
 In this mode, the vertical axis represents the luminosity: 0 at the bottom, 1 at the top;
 the horizontal axis is a mapping from the horizontal axis of the frame.
 There are as many curves as scanlines in the frame:
 each one of this curves represents the luminosity of the pixels of one line.
-Moreover, the color of a pixel in this mode represents the number of pixels from the matching column of the
-frame sharing the same luminosity, i.e. the number of curves that cross at this point
+Moreover, the color of a pixel in this mode represents the number of pixels from the matching column of
+the frame sharing the same luminosity, i.e. the number of curves that cross at this point
 (black/transparent, for no pixel, white/opaque for at least three pixels).
 
 Separate Colors
@@ -129,8 +129,8 @@ Histogram
 
    Example of Histogram Preview.
 
-This mode displays a graph showing the distribution of color information in the pixels of the
-currently displayed image. The X-axis represents values of pixel, from 0 to 1 (or 0 to 255),
+This mode displays a graph showing the distribution of color information in the pixels of
+the currently displayed image. The X-axis represents values of pixel, from 0 to 1 (or 0 to 255),
 while the Y-axis represents the number of pixels in that tonal range. A predominantly dark
 image would have most of its information toward the left side of the graph.
 

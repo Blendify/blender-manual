@@ -150,9 +150,9 @@ This will create one face-loop where two previously existed.
 Example
 -------
 
-The selected edge loop on the UV Sphere has been deleted and the faces have been merged with
-the surrounding edges. If the edges had been deleted by choosing *Edges* from the
-(*Erase* menu)
+The selected edge loop on the UV Sphere has been deleted and
+the faces have been merged with the surrounding edges.
+If the edges had been deleted by choosing *Edges* from the (*Erase* menu)
 there would be an empty band of deleted faces all the way around the sphere instead.
 
 .. list-table::

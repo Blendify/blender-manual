@@ -6,8 +6,8 @@
 Shrinkwrap Constraint
 *********************
 
-The *Shrinkwrap* constraint is the "object counterpart" of the
-:doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>`.
+The *Shrinkwrap* constraint is the "object counterpart" of
+the :doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>`.
 It moves the owner origin and therefore the owner object's location to the surface of its target.
 
 This implies that the target *must* have a surface. In fact,
@@ -38,8 +38,8 @@ Distance
 Shrinkwrap Type
 ---------------
 
-This selector allows you to select which method to use to compute the point on the
-target's surface to which to translate the owner's center. You have three options:
+This selector allows you to select which method to use to compute the point on
+the target's surface to which to translate the owner's center. You have three options:
 
 
 Nearest Surface Point

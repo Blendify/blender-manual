@@ -35,9 +35,10 @@ A new texture can be created by either clicking the *New* button in the Node edi
 or the *New* button in the texture panel. Once a texture is selected, it can be
 toggled to a function as a regular texture or a node texture by clicking the *Use Nodes* option in the Node Editor.
 
-The default node setup will appear: a red-and-white checkerboard node connected to an
-*Output* named "Default". For *texture* nodes, multiple Outputs
-can exist in the node setup. Compare to other types of node contexts, which are limited to one active Output node.
+The default node setup will appear: a red-and-white checkerboard node
+connected to an *Output* named "Default". For *texture* nodes,
+multiple Outputs can exist in the node setup.
+Compare to other types of node contexts, which are limited to one active Output node.
 See the next section for details.
 
 For instructions on how to add, remove and manipulate the nodes in the tree,
@@ -60,6 +61,6 @@ This can be done by:
    (e.g. set on to *Diffuse* and the other to *Normal*).
 
 These named outputs could be used, when the material is defined with Material Nodes.
-In this case, Texture Channels are probably not used. Instead, insert the
-*Texture* nodes into the Material Node tree by using :menuselection:`Add --> Input --> Texture`.
+In this case, Texture Channels are probably not used. Instead, insert
+the *Texture* nodes into the Material Node tree by using :menuselection:`Add --> Input --> Texture`.
 Inside the just added texture node the output to use can then be selected (e.g. *Diffuse* or *Normal*).

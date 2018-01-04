@@ -38,8 +38,8 @@ Bend Angle
 Radius
    The sharpness of the bend.
 Clamp
-   Normally the arc turns through a clamped rotation angle with the selected elements extended along a
-   tangent line beyond that (see above left).
+   Normally the arc turns through a clamped rotation angle with the selected elements extended along
+   a tangent line beyond that (see above left).
    When the clamp is deactivated, the arc continues around aligning the selected elements into a circle (right).
 
    When off :kbd:`Alt` all selected elements follow a circle,

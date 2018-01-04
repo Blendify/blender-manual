@@ -133,11 +133,11 @@ Changing the Monkey's parent to "EmptyB" resulted in those indirect changes in s
 removed, because "EmptyB" has not had its scale altered.
 
 This is often the required behavior, but it is also sometimes useful that if you change your
-*Parent Object* that the *Child Object* keep any previous transformations it got from the
-old *Parent Object*; If instead when changing the *Parent Object* of the Monkey from
-"EmptyA" to "EmptyB" we had chosen parenting type *Object (Keep Transform)*, the Monkey
-would keep its scale information it obtained from the old parent "EmptyA" when it is assigned
-to the new parent "EmptyB";
+*Parent Object* that the *Child Object* keep any previous transformations
+it got from the old *Parent Object*; If instead when changing the *Parent Object* of the Monkey
+from "EmptyA" to "EmptyB" we had chosen parenting type *Object (Keep Transform)*,
+the Monkey would keep its scale information it obtained from the old parent "EmptyA"
+when it is assigned to the new parent "EmptyB";
 
 .. figure:: /images/editors_3dview_object_properties_relations_parents_keep-transform-d.png
 
@@ -170,8 +170,8 @@ The Cube is only transformed if the 1st or 2nd bones are.
 Notice altering the 3rd and 4th bones has no effect on the Cone.
 
 To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
-then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and then select the
-specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
+then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and
+then select the specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
 Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To pop-up menu.
 
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
@@ -257,8 +257,8 @@ The nearest vertices will be used from each object which is typically what you w
 
    Vertex Parent example.
 
-   A) The small cubes can each be automatically parented to a triad of nearby vertices on the icosphere using the
-      "Vertex (Triangle)" in the set parent context menu.
+   A) The small cubes can each be automatically parented to a triad of nearby vertices on the icosphere using
+      the "Vertex (Triangle)" in the set parent context menu.
    B) Reshaping the object in edit mode then means each of the cubes follows their vertex parent separately.
    C) Re-scaling the parent icosphere in object mode means the child cubes are also rescaled as expected.
 

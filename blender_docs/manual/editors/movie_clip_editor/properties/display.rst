@@ -26,8 +26,9 @@ Display Stabilization
    (available in reconstruction mode only).
    It is only a preview option, which does not actually change the footage itself.
 Grid
-   Displays a grid which is originally orthographic, but is affected by the
-   distortion model (available in distortion mode only). This grid can be used for manual calibration --
+   Displays a grid which is originally orthographic,
+   but is affected by the distortion model (available in distortion mode only).
+   This grid can be used for manual calibration --
    distorted lines of grids are equal to straight lines in the footage.
 Calibration
    Applies the distortion model for Grease pencil strokes (available in distortion mode only).

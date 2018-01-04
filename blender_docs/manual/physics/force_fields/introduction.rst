@@ -47,8 +47,8 @@ To create a single Force Field,
 you can select :menuselection:`Add --> Force Field` and select the desired force field.
 This method creates an Empty with the force field attached.
 
-To create a field from an existing object you have to select the object and change to the
-*Physics* tab. Select the field type in the *Fields* menu.
+To create a field from an existing object you have to select the object and
+change to the *Physics* tab. Select the field type in the *Fields* menu.
 
 The fields have many options in common,
 these common options are explained for the *Spherical* field.

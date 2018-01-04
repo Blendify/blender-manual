@@ -119,8 +119,8 @@ Knife Project
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife Project`
 
-Knife projection is a non-interactive tool where you can use objects to cookie-cut into the
-mesh rather than hand drawing the line.
+Knife projection is a non-interactive tool where you can use objects to cookie-cut into
+the mesh rather than hand drawing the line.
 
 This works by using the outlines of other selected objects in edit-mode to cut into the mesh,
 resulting geometry inside the cutters outline will be selected.

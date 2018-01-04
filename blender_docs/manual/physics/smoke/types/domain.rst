@@ -57,8 +57,8 @@ Time Scale
 Border Collisions
    Controls which sides of the domain will allow smoke "through" the domain,
    making it disappear without influencing the rest of the simulation,
-   and which sides will deflect smoke as if colliding with a
-   :doc:`Collision Object </physics/smoke/types/collision>`.
+   and which sides will deflect smoke as if colliding with
+   a :doc:`Collision Object </physics/smoke/types/collision>`.
 
    Vertically Open
       Smoke disappears when it hits the top or bottom of the domain, but collides with the walls.
@@ -77,8 +77,8 @@ Density
 Temperature Difference
    The *Temperature Difference* setting controls how much smoke is affected by temperature.
 
-   The effect this setting has on smoke depends on the
-   per flow object :ref:`Temperature Difference <smoke-flow-temp-diff>`:
+   The effect this setting has on smoke depends on
+   the per flow object :ref:`Temperature Difference <smoke-flow-temp-diff>`:
 
    - Values above 0 will result in the smoke rising when the flow object *Temperature Difference* is
      set to a positive value, and smoke sinking when the flow object *Temperature Difference* is

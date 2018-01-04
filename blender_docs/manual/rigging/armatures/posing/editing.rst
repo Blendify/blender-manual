@@ -55,9 +55,9 @@ when you transform a bone in *Pose Mode*,
 its related objects or object's shape is moved/deformed accordingly, in real time.
 Unfortunately, if you have a complex rig set-up and/or a heavy skin object,
 this might produce lag, and make interactive editing very painful.
-If you experience such troubles, try enabling the *Delay Deform* button of the
-*Armature* panel the skin objects will only be updated once you validate the
-transform operation.
+If you experience such troubles, try enabling the *Delay Deform* button of
+the *Armature* panel the skin objects will only be updated once you validate
+the transform operation.
 
 
 Auto IK
@@ -327,8 +327,7 @@ vertices or control points, you can use :kbd:`H`:
 - :kbd:`Shift-H` will hide all bones *but the selected one(s)*.
 - :kbd:`Alt-H` will show all hidden bones.
 
-You can also use the *Hide* checkbox of the
-:menuselection:`Bone tab --> Display panel`.
+You can also use the *Hide* checkbox of the :menuselection:`Bone tab --> Display panel`.
 
 Note that hidden bones are specific to a mode,
 i.e. you can hide some bones in *Edit Mode*,

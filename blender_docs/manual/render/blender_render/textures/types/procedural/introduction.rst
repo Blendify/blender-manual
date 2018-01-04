@@ -13,8 +13,8 @@ They are generally relatively simple to use,
 because they do not need to be mapped in a special way.
 This does not mean that procedural textures cannot become very complex.
 
-These types of textures are 'real' 3D. By that we mean that they fit together perfectly at the
-edges and continue to look like what they are meant to look like even when they are cut;
+These types of textures are 'real' 3D. By that we mean that they fit together perfectly
+at the edges and continue to look like what they are meant to look like even when they are cut;
 as if a block of wood had really been cut in two.
 Procedural textures are not filtered or anti-aliased. This is hardly ever a problem:
 the user can easily keep the specified frequencies within acceptable limits.
@@ -26,9 +26,10 @@ Common Options
 Noise Basis
 -----------
 
-Each noise-based Blender texture (with the exception of Voronoi and simple noise) has a
-*Noise Basis* setting that allows the user to select which algorithm is used to
-generate the texture. This list includes the original Blender noise algorithm.
+Each noise-based Blender texture (with the exception of Voronoi and simple noise) has
+a *Noise Basis* setting that allows the user to select
+which algorithm is used to generate the texture.
+This list includes the original Blender noise algorithm.
 The *Noise Basis* settings makes the procedural textures extremely flexible (especially *Musgrave*).
 
 The *Noise Basis* governs the structural appearance of the texture:

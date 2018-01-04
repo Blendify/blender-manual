@@ -11,10 +11,10 @@ Active Element
    | Header:   |pivot-icon| :menuselection:`Pivot Point --> Active Element`
    | Hotkey:   :kbd:`Alt-Period`
 
-The *active* element can be an Object, vertex, edge or a face. The active element is the
-last one to be selected and will be shown in a lighter orange color when in *Object Mode*
-and white when in *Edit Mode*. With *Active element as Pivot* set to active,
-all transformations will occur relative to the active element.
+The *active* element can be an Object, vertex, edge or a face.
+The active element is the last one to be selected and
+will be shown in a lighter orange color when in *Object Mode* and white when in *Edit Mode*.
+With *Active element as Pivot* set to active, all transformations will occur relative to the active element.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_active-element_object-mode-display.png
 
