@@ -49,8 +49,8 @@ Clamp Direct
       This option provides a way to limit that. However, note that as you clamp out such values,
       other bright lights/reflections will be dimmed as well.
 
-      Care must be taken when using this setting to find a balance between mitigating fireflies and losing
-      intentionally bright parts. It is often useful to clamp indirect bounces separately,
+      Care must be taken when using this setting to find a balance between mitigating fireflies and
+      losing intentionally bright parts. It is often useful to clamp indirect bounces separately,
       as they tend to cause more fireflies than direct bounces. See the *Clamp Indirect* setting.
 
 Clamp Indirect

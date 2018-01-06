@@ -9,8 +9,8 @@ Planetariums and domes with spherical mirrors.
 
 .. tip::
 
-   The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and was
-   implemented by Dalai Felinto with sponsorship from SAT -- Society for Arts and
+   The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and
+   was implemented by Dalai Felinto with sponsorship from SAT -- Society for Arts and
    Technology within the SAT Metalab
    `immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
    that involves rendering the scene four times and placing the subsequent images

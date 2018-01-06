@@ -116,9 +116,9 @@ The maximized area fill the whole application window.
 It contains the Info Editor and the select area.
 
 You can maximize an area with the :menuselection:`View --> Toggle Maximize Area` menu entry.
-To return to normal size use again menu entry, or :kbd:`RMB` on the editors header and select
-*Maximize Area* and *Tiled Area* to return. In the Info Editor header the *Back to Previous*
-button on the right of the menus also returns to tiled areas.
+To return to normal size use again menu entry, or :kbd:`RMB` on the editors header and
+select *Maximize Area* and *Tiled Area* to return. In the Info Editor header
+the *Back to Previous* button on the right of the menus also returns to tiled areas.
 
 A quicker way to achieve this is to use the shortcuts: :kbd:`Shift-Spacebar`,
 :kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and normal areas.

@@ -28,10 +28,11 @@ Nothing can be done about this because of the manner in which optical lenses wor
 For accurate camera motion,
 the exact value of the focal length and the "strength" of distortion are needed.
 
-Currently, focal length can be automatically obtained only from the camera's settings or from
-the EXIF information. There are some tools which can help to find approximate values to compensate for distortion.
-There are also fully manual tools where you can use a grid which is getting affected by distortion model and deformed
-cells defines straight lines in the footage.
+Currently, focal length can be automatically obtained only from the camera's settings or
+from the EXIF information.
+There are some tools which can help to find approximate values to compensate for distortion.
+There are also fully manual tools where you can use a grid which is getting affected by distortion model and
+deformed cells defines straight lines in the footage.
 
 You can also use the Grease pencil for this -- just draw a line which should be straight on the footage using poly
 line brush and adjust the distortion values to make the Grease pencil match lines on the footage.

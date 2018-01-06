@@ -6,8 +6,8 @@ Subdivision Surface Modifier
 
 The Subdivision Surface Modifier is used to split the faces of a mesh into smaller faces giving a smooth appearance.
 Using this modifier, enables you to model complex smooth surfaces with simple, low-vertex meshes.
-This allows high resolution mesh modeling without the need to save and maintain
-huge amounts of data and gives a smooth *organic* look to the object.
+This allows high resolution mesh modeling without the need to save and
+maintain huge amounts of data and gives a smooth *organic* look to the object.
 
 This process creates virtual geometry that is generated non-destructively without modifying the original mesh,
 but it can be converted to real geometry that you could edit with the *Apply* button.
@@ -57,8 +57,8 @@ Subdivisions
    Render
       The number of subdivision levels shown in renders.
 
-The right combination of these settings will allow you to keep a fast and lightweight
-approximation of your model when interacting with it in 3D, but use a higher quality version when rendering.
+The right combination of these settings will allow you to keepa fast and lightweight approximation of your model
+when interacting with it in 3D, but use a higher quality version when rendering.
 
 .. tip::
 

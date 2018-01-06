@@ -28,8 +28,8 @@ Add Marker and Move
    But it is faster to use :kbd:`Ctrl-LMB` to place markers directly on the footage.
    This shortcut will place the marker in the place you have clicked.
    One more feature here: until you have released the mouse button,
-   you can adjust the marker position by moving the mouse and using
-   the track preview widget to control how accurately the marker is placed.
+   you can adjust the marker position by moving the mouse and
+   using the track preview widget to control how accurately the marker is placed.
 
 Detect Features
    Detects all possible features on the current frame and places markers at these features.

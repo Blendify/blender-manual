@@ -174,8 +174,8 @@ in the Tool shelf.
 Duplicate Data
 ==============
 
-The *Duplicate Data* check-boxes define what data is copied with a duplicated Object and what
-data remains linked. Any boxes that are checked will have their data copied along with
+The *Duplicate Data* check-boxes define what data is copied with a duplicated Object and
+what data remains linked. Any boxes that are checked will have their data copied along with
 the duplication of the Object. Any boxes that are not checked will instead have their data linked
 from the source Object that was duplicated.
 

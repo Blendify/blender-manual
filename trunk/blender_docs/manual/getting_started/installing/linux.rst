@@ -31,8 +31,8 @@ Download the Linux version for your architecture and uncompress the file to the 
 
 Blender can now be launched by double-clicking the executable.
 
-For easy access, you can configure your system by adding a menu entry or shortcut for Blender and associate and open
-blend-files with Blender when opening from the File browser.
+For easy access, you can configure your system by adding a menu entry or shortcut for Blender and associate and
+open blend-files with Blender when opening from the File browser.
 These settings typically belong to the Window Manager (KDE, Gnome, Unity).
 
 

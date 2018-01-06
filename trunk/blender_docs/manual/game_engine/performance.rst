@@ -11,8 +11,8 @@ Most of these tools, are software tools available for the specific Game Engines 
 the games were being developed and will run.
 
 Blender Game Engine also comes with some visual tools to fine tune the games being developed,
-so the game developers could test the best usage scenario and minimum software and hardware
-requirements to run the game.
+so the game developers could test the best usage scenario and minimum software and
+hardware requirements to run the game.
 
 In Blender, those tools are available at the *System* and *Display* panel
 of *Render* tab in the *Properties editor*.

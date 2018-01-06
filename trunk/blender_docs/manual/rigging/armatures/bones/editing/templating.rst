@@ -47,7 +47,8 @@ In the following example, no template is selected (in other words, all the actio
 
 Two bones are selected in "chain_b",
 and the property panel is set to map the joints with the stroke. So these two selected bones
-are copied and the newly created copy of the chain is matched with the stroke (note that the newly created bones are named in continuation of the original chain).
+are copied and the newly created copy of the chain is matched with the stroke
+(note that, the newly created bones are named in continuation of the original chain).
 
 .. list-table::
 

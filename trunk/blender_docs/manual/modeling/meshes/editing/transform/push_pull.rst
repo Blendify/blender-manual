@@ -31,8 +31,8 @@ or by pressing :kbd:`Spacebar` and using the operator search menu to search for 
 *Pull*. The amount of movement given to the selection can be determined
 interactively by moving the mouse or by typing a number.
 Pressing :kbd:`Enter` will confirm the transformation. The confirmed transformation can
-be further edited by pressing :kbd:`F6` or by going into the Tool Shelf :kbd:`T` and altering
-the Distance slider provided that no other actions take place between
+be further edited by pressing :kbd:`F6` or by going into the Tool Shelf :kbd:`T` and
+altering the Distance slider provided that no other actions take place between
 the *Push/Pull* transform confirmation and accessing the slider.
 
 Note that the result of the *Push/Pull* transform is also dependent on the number

@@ -41,8 +41,9 @@ Max Distance
    (e.g. from a "hand" mesh towards a "full body" one).
 
 Ray Radius
-   For ray-casting-based mapping methods, the radius of the cast rays. Especially important for 1D and 2D
-   items (i.e. vertices and edges), without some width there would be nearly no ray-casting matches...
+   For ray-casting-based mapping methods, the radius of the cast rays.
+   Especially important for 1D and 2D items (i.e. vertices and edges),
+   without some width there would be nearly no ray-casting matches...
 
 Mix Mode
    Controls how destination data are affected:
@@ -105,8 +106,8 @@ Usage
 First key thing to keep in mind when using this modifier is that it will **not** create destination data layers.
 *Generate Data Layers* button shall always be used for this purpose, once set of source data to transfer
 is selected. It should also be well understood that creating those data layers on destination mesh is **not**
-part of the modifier stack, which means e.g. that they will remain even once the modifier is deleted, or if
-source data selection is modified.
+part of the modifier stack, which means e.g. that they will remain even once the modifier is deleted, or
+if source data selection is modified.
 
 
 Geometry Mapping

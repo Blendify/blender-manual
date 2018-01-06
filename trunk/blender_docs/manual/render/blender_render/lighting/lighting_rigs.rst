@@ -121,8 +121,8 @@ power creating shadows with a hard edge like from a searchlight.
 Three-Point Rigs
 ================
 
-The standard three-point lighting rig is the most common illumination of objects and scenes
-bar none. If you want to show off your model, use this rig. As you can see,
+The standard three-point lighting rig is the most common illumination of objects and
+scenes bar none. If you want to show off your model, use this rig. As you can see,
 the untextured sphere with no assigned material seems to come out at you.
 There are multiple thesis on this rig, and you will use one of two:
 

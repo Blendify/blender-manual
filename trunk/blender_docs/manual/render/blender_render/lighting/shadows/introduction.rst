@@ -15,9 +15,9 @@ you will need them. Blender supports the following kinds of shadows:
 - :doc:`Indirect lighting </render/blender_render/world/indirect_lighting>`
 
 Ambient occlusion really is not a shadow based on light *per se*, but based on geometry.
-However, it does mimic an effect where light is prevented from fully and uniformly
-illuminating an object, so it is mentioned here. Also,
-it is important to mention ambient lighting,
+However, it does mimic an effect where light is prevented from fully and
+uniformly illuminating an object, so it is mentioned here.
+Also, it is important to mention ambient lighting,
 since increasing *Ambient* decreases the effect of a shadow.
 
 You can use a combination of ray-traced and buffer shadows to achieve different results.

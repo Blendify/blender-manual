@@ -120,8 +120,8 @@ Strength
    Space Attenuation (padlock icon)
       Attenuate the brush strength according to spacing.
 Pressure Sensitivity (hand and bulged in blue line icon)
-   The toggle to the right of the following three settings will enable or disable
-   tablet pressure sensitivity to control how strong the effect is.
+   The toggle to the right of the following three settings will
+   enable or disable tablet pressure sensitivity to control how strong the effect is.
 
 Blend
    Set the way the paint is applied over the underlying color. See :term:`Color Blend Modes`.

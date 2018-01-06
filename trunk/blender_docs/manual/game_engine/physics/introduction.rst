@@ -6,8 +6,8 @@ Introduction
 Blender includes advanced physics simulation in the form of the Bullet Physics Engine
 (`Bullet Physics <http://bulletphysics.org>`__).
 Most of your work will involve setting the right properties on the objects in your scene,
-then you can sit back and let
-the engine take over. The physics simulation can be used for Games, but also for Animation.
+then you can sit back and let the engine take over.
+The physics simulation can be used for Games, but also for Animation.
 
 The Blender Game Engine (BGE) is based on Rigid-Body Physics,
 which differs significantly from the complementary set of

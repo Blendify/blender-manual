@@ -42,8 +42,8 @@ Density
 All volume shaders have a density input.
 The density defines how much of the light will interact with the volume,
 getting absorbed or scattered, and how much will pass straight through. For effects such as
-smoke you would specify a density field to indicate where in the volume there is smoke and how
-much (density bigger than 0), and where there is no smoke (density equals 0).
+smoke you would specify a density field to indicate where in the volume there is smoke and
+how much (density bigger than 0), and where there is no smoke (density equals 0).
 
 Volumes in real life consist of particles,
 a higher density means there are more particles per unit volume. More particles means there is

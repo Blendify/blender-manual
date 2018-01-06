@@ -107,8 +107,8 @@ Blend
    The falloff rate of the *Spot* lamp light is a ratio between the *Blend* and *Size* values;
    the larger the circular gap between the two, the more gradual the light fades between *Blend* and *Size*.
 
-   *Blend* and *Size* only control the *Spot* light cone's aperture and softness
-   ("radial" falloff); they do not control the shadow's softness as shown below.
+   *Blend* and *Size* only control the *Spot* light cone's aperture and softness ("radial" falloff);
+   they do not control the shadow's softness as shown below.
 
    .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_shadow-spotlight.png
       :width: 400px

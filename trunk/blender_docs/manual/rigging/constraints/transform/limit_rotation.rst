@@ -8,8 +8,8 @@ An object or bone can be rotated around the X, Y and Z axes.
 This constraint restricts the amount of allowed rotations around each axis,
 through lower and upper bounds.
 
-It is interesting to note that even though the constraint limits the visual and rendered
-rotations of its owner, its owner's data-block still allows (by default)
+It is interesting to note that even though the constraint limits the visual and
+rendered rotations of its owner, its owner's data-block still allows (by default)
 the object or bone to have rotation values outside the minimum and maximum ranges.
 This can be seen in the *Transform* panel.
 When an owner is rotated and attempted to be rotated outside the limit boundaries,
@@ -40,8 +40,8 @@ Options
 Limit X, Y, Z
    These buttons enable the rotation limit around respectively the X, Y and Z axes of the owner,
    in the chosen *Space*.
-   The *Min* and *Max* numeric fields to their right control the value of their lower and upper
-   boundaries, respectively.
+   The *Min* and *Max* numeric fields to their right control the value of
+   their lower and upper boundaries, respectively.
 
    Note that:
 

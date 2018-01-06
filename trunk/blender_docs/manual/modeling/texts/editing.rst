@@ -173,8 +173,8 @@ Assigning Materials
 Each character can have a different *Material index* in order to have different
 materials on different characters.
 
-You can assign indices either as you type, or after by selecting blocks of text and clicking
-on the *Assign* button in the Materials panel.
+You can assign indices either as you type, or after by selecting blocks of text and
+clicking on the *Assign* button in the Materials panel.
 
 .. _fig-texts-edit-rgb:
 

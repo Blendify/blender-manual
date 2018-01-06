@@ -74,7 +74,7 @@ Mesh Selection
 --------------
 
 By defining mesh regions with Vertex Groups you can easily
-select entire parts of your mesh with three clicks and work
-on them in isolation without having to create separate objects.
+select entire parts of your mesh with three clicks and
+work on them in isolation without having to create separate objects.
 With the Hide tool you can even remove a vertex group
 from the view (for later unhide).

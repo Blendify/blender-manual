@@ -47,8 +47,8 @@ Options
 Minimum/Maximum X, Y, Z
    These buttons enable the lower boundary for the scale of the owner along respectively the X,
    Y and Z axes of the chosen *Space*.
-   The *Min* and *Max* numeric fields to their right control the value of their lower and upper
-   boundaries, respectively.
+   The *Min* and *Max* numeric fields to their right control the value of
+   their lower and upper boundaries, respectively.
 
    .. note::
 

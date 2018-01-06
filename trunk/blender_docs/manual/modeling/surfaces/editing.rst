@@ -134,8 +134,8 @@ That is because the *new* extruded surface section is bunched up there as well.
 
 By moving the new section away from the area, the surface begins to "unbunch".
 
-You can continue this process of extruding or adding
-new surface sections until you have reached the final shape for your model.
+You can continue this process of extruding or adding new surface sections
+until you have reached the final shape for your model.
 
 
 Opening or Closing a Surface

@@ -48,16 +48,17 @@ Ton could not justify leaving Blender to fade into insignificance.
 Since restarting a company with a sufficiently large team of developers was not feasible,
 Ton Roosendaal founded the non-profit organization Blender Foundation in March 2002.
 
-The Blender Foundation's primary goal was to find a way to continue developing and promoting
-Blender as a community-based `open source <https://opensource.org/>`__ project. In July 2002,
-Ton managed to get the NaN investors to agree to a unique Blender Foundation plan to attempt
-to release Blender as open source. The "Free Blender" campaign sought to raise €100,000 so
-that the Foundation could buy the rights to the Blender source code and intellectual property
+The Blender Foundation's primary goal was to find a way to continue developing and
+promoting Blender as a community-based `open source <https://opensource.org/>`__ project.
+In July 2002, Ton managed to get the NaN investors to agree to a unique Blender Foundation plan to
+attempt to release Blender as open source. The "Free Blender" campaign sought to raise €100,000
+so that the Foundation could buy the rights to the Blender source code and intellectual property
 rights from the NaN investors and subsequently release Blender to the open source community.
 With an enthusiastic group of volunteers, among them several ex-NaN employees,
-a fundraising campaign was launched to "Free Blender". To everyone's surprise and delight
-the campaign reached the €100,000 goal in only seven short weeks. On Sunday, October 13, 2002,
-Blender was released to the world under the terms of the `GNU GPL <https://www.gnu.org/copyleft/gpl>`__.
+a fundraising campaign was launched to "Free Blender".
+To everyone's surprise and delight the campaign reached the €100,000 goal in only seven short weeks.
+On Sunday, October 13, 2002, Blender was released to the world
+under the terms of the `GNU GPL <https://www.gnu.org/copyleft/gpl>`__.
 Blender development continues to this day driven by a team of dedicated volunteers
 from around the world led by Blender's original creator, Ton Roosendaal.
 
@@ -186,8 +187,8 @@ Version/Revision Milestones
 `2.63 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.63>`__ -- April 2012:
    Bmesh was merged to trunk with full support for n-sided polygons, sculpt hiding, a panoramic camera
    for Cycles, mirror ball environment textures and float precision textures, render layer mask layers,
-   ambient occlusion and viewport display of background images and render layers, new import and export
-   add-ons were added, and 150 bug fixes.
+   ambient occlusion and viewport display of background images and render layers,
+   new import and export add-ons were added, and 150 bug fixes.
 `2.64 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.64>`__ -- October 2012:
    Mask editor, improved motion tracker, OpenColorIO, Cycles improvements, Sequencer improvements,
    better mesh tools (Inset and Bevel were improved), new keying nodes, sculpt masking, Collada improvements,

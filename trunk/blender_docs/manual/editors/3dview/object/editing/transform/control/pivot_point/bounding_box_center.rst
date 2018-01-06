@@ -26,8 +26,8 @@ In Object Mode
 
 In *Object Mode*, the bounding box is wrapped around the Object and transformation
 takes place relative to the location of the Object origin (indicated by the yellow circle).
-The image below shows the results of using the Bounding Box as the pivot point in a number of
-situations.
+The image below shows the results of using the Bounding Box as
+the pivot point in a number of situations.
 
 For example, images A (before rotation)
 and B show rotation when the Object origin is in its default position, while images C
