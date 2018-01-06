@@ -181,7 +181,8 @@ Range Min and Range Max
    if it is at *Range Max* or more from the camera/object, it will take the end value.
    These values are in the current scene's units, not in pixels!
 Fill Range by Selection
-   Set the min/max range values from the distances between the current selected mesh vertices and the camera or the target.
+   Set the min/max range values from the distances between the current selected mesh vertices and
+   the camera or the target.
 
 
 .. _bpy.types.LineStyle*Modifier_Material:

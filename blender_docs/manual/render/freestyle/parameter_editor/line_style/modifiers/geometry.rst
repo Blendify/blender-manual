@@ -170,8 +170,8 @@ The curvilinear abscissa (value between 0 and 1 determined by a point's position
 relative to the first and last point of a stroke) is used as the input to
 the noise function to generate noisy displacements.
 
-This means that this modifier will give an identical result for two strokes with the same length and sampling
-interval.
+This means that this modifier will give an identical result for two strokes
+with the same length and sampling interval.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_perlin-noise-1d.png
 

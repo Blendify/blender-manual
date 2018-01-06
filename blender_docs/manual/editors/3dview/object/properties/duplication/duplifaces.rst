@@ -81,8 +81,8 @@ If the geometry of the children is not symmetrical then the orientation of the f
 (as determined by the order of its vertices) could matter. As of 2.70 Blender does not have
 tools which allow you to adjust the ordering of the vertices on a face.
 
-However, there is a workflow that lets you control for this. Make a single square and enable
-the Duplication/Faces so you can see the duplicated geometry in your editor.
+However, there is a workflow that lets you control for this. Make a single square and
+enable the Duplication/Faces so you can see the duplicated geometry in your editor.
 If the orientation is not what you want, rotate the face until it is how you want.
 Typically you want to do the rotation in Edit Mode, not Object Mode,
 but this is not a hard rule.

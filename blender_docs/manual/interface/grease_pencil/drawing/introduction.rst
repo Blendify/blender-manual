@@ -48,8 +48,8 @@ Erase :kbd:`D-RMB`, :kbd:`Eraser`
    If begun with *Erase*, either :kbd:`RMB` or :kbd:`LMB` will erase strokes.
    Its cursor is a red circle with a dashed outline.
 
-   The size of the eraser "brush" can be controlled with :kbd:`Wheel`, or with
-   :kbd:`NumpadPlus` and :kbd:`NumpadMinus`, while still holding :kbd:`RMB`.
+   The size of the eraser "brush" can be controlled with :kbd:`Wheel`, or
+   with :kbd:`NumpadPlus` and :kbd:`NumpadMinus`, while still holding :kbd:`RMB`.
 
 Insert Blank Frame :kbd:`D-B`
    This operator adds a new frame with nothing in it on the current frame.

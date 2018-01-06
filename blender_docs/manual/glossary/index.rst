@@ -347,9 +347,9 @@ This page lists definitions for terms used in Blender and this manual.
 
    Global Illumination
       A superset of :term:`radiosity` and ray tracing. The goal is to compute all possible light interactions
-      in a given scene, and thus, obtain a truly photo-realistic image. All combinations of diffuse and specular
-      reflections and transmissions must be accounted for. Effects such as color bleeding and caustics must be
-      included in a global illumination simulation.
+      in a given scene, and thus, obtain a truly photo-realistic image.
+      All combinations of diffuse and specular reflections and transmissions must be accounted for.
+      Effects such as color bleeding and caustics must be included in a global illumination simulation.
 
    Global Space
       See :term:`World Space`.

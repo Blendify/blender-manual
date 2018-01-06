@@ -85,8 +85,8 @@ on the footage and two keyframes specified on this panel. There are some require
 
 If everything goes smoothly during the solve, the average reprojection error is reported to
 the information space and to the Clip editor header. Reprojection error means the average
-distance between reconstructed 3D position of tracks projected back to footage and original
-position of tracks. Basically, reprojection error below 0.3 means accurate reprojection,
+distance between reconstructed 3D position of tracks projected back to footage and
+original position of tracks. Basically, reprojection error below 0.3 means accurate reprojection,
 (0.3 - 3.0) means quite nice solving which still can be used.
 Values above 3 means some tracks should be tracked more accurately,
 or that values for focal length or distortion coefficients were set incorrectly.

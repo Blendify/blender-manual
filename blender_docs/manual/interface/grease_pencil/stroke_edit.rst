@@ -204,8 +204,9 @@ Custom Curve
    It is also possible to define a custom curve to get more fine-grained control over the interpolation
    using a :ref:`curve widget <ui-curve-widget>`.
 Easing Equations
-   The Robert Penner easing equations (and associated controls) can also be used to control the interpolation speed/shape.
-   just like for F-Curves or Keyframes (:ref:`see also for more information <editors-graph-fcurves-settings-interpolation>`).
+   The Robert Penner easing equations (and associated controls) can also be used to
+   control the interpolation speed/shape, just like for F-Curves or Keyframes
+   (:ref:`see also for more information <editors-graph-fcurves-settings-interpolation>`).
 
 
 .. _bpy.types.GPencilSculptSettings:

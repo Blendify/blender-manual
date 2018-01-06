@@ -61,8 +61,8 @@ The *Time Cursor* is the green line, it is used to set and display the current t
    Time Cursor.
 
 
-The *Time Cursor* can be set or moved to a new position by pressing or holding
-:kbd:`LMB` in the Timeline editor.
+The *Time Cursor* can be set or moved to a new position by pressing or
+holding :kbd:`LMB` in the Timeline editor.
 
 The current frame or second can be displayed on the *Time Cursor*,
 check the View menu for settings.

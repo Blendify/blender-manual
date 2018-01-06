@@ -42,5 +42,5 @@ to *Evaluation Time* you can create an animation.
 
 .. seealso:: Shape Key Operators
 
-   There are two modeling tools used to control Shape Keys and are
-   found in :ref:`Edit Mode <modeling-meshes-editing-vertices-shape-keys>`.
+   There are two modeling tools used to control Shape Keys and
+   are found in :ref:`Edit Mode <modeling-meshes-editing-vertices-shape-keys>`.

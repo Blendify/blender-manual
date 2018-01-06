@@ -26,10 +26,10 @@ Script Node
    Script Node.
 
 OSL was designed for node-based shading,
-and *each* OSL shader corresponds to *one* node in a node setup. To add an OSL shader,
-add a script node and link it to a text data-block or an external file. Input and output
-sockets will be created from the shader parameters on clicking the update button in the Node
-or the Text editor.
+and *each* OSL shader corresponds to *one* node in a node setup.
+To add an OSL shader, add a script node and link it to a text data-block or an external file.
+Input and output sockets will be created from the shader parameters on
+clicking the update button in the Node or the Text editor.
 
 OSL shaders can be linked to the node in a few different ways. With the *Internal* mode,
 a text data-block is used to store the OSL shader, and the OSO bytecode is stored in the node itself.

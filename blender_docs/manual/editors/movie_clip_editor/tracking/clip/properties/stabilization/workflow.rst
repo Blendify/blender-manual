@@ -11,10 +11,10 @@ to help improving the results.
 The Simple Case
 ===============
 
-Whenever the camera is basically fixed, or at least "almost" stationary, and the footage is crisp and without
-motion blur, perfect stabilization is easy to achieve. This might be the case when a tripod was used,
-but wind or vibrations on the floor (e.g. on a stage) caused some minor shakes. Shoulder camera shots done
-by an experienced operator also frequently fall into this category.
+Whenever the camera is basically fixed, or at least "almost" stationary, and the footage is crisp and
+without motion blur, perfect stabilization is easy to achieve. This might be the case when a tripod was used,
+but wind or vibrations on the floor (e.g. on a stage) caused some minor shakes.
+Shoulder camera shots done by an experienced operator also frequently fall into this category.
 
 - Use as few points as possible. Start with a single point right on the main subject.
 - Track this single point as accurate as possible. Beware of movements and shape changes of the tracked feature.

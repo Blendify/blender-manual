@@ -19,8 +19,8 @@ The color of an object and the lighting of your scene is affected by:
 - The quality of the image (e.g. a ``jpeg`` at 0.4 compression versus 1.0).
 - The environment in which you are viewing the image
   (e.g. a CRT monitor with glare versus in a dark room, or in a sunshiny blue room).
-- Your brain's perception of the color and intensity
-  relative to those objects around it and the world background color,
+- Your brain's perception of the color and intensity relative to
+  those objects around it and the world background color,
   which can be changed using color manipulation techniques using Blender
   :doc:`Composite Nodes </compositing/introduction>`.
 

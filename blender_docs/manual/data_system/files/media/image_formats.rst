@@ -150,7 +150,7 @@ Color Depth
    This affects the color quality and file-size. Commonly used depths:
 
    8 bit (256 levels)
-      Most common for on-screen graphics and video
+      Most common for on-screen graphics and video.
    10, 12, 16 bit
       Used for some formats focusing on photography and digital films
       (such as DPX and JPEG 2000).

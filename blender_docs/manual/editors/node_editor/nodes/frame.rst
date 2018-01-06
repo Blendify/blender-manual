@@ -53,8 +53,8 @@ Adding
    | Mode:     All Modes
    | Hotkey:   :kbd:`Ctrl-P`
 
-Once a Frame node is placed in the editor, nodes can be added by simply dropping them onto the frame or by
-selecting the node(s) then the frame and using :kbd:`Ctrl-P`.
+Once a Frame node is placed in the editor, nodes can be added by simply dropping them onto the frame or
+by selecting the node(s) then the frame and using :kbd:`Ctrl-P`.
 
 
 Remove from Frame

@@ -28,8 +28,8 @@ Options
 .. TODO, cannot figure out what the differences between the collision types are :/
 .. Wild speculation on SE: https://blender.stackexchange.com/q/1723/599
 
-.. Lukas Toenne investigated this (https://developer.blender.org/T45842#329325) and it appears that rigid and static
-   are the same.
+.. Lukas Toenne investigated this (https://developer.blender.org/T45842#329325) and
+   it appears that rigid and static are the same.
 
 Collision type
    Static

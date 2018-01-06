@@ -7,8 +7,8 @@ Mesh Cache Modifier
 The Mesh Cache Modifier is used so animated mesh data can be applied to a mesh and
 played back, deforming the mesh.
 
-This works in a similar way to shape-keys but is aimed at playing back external files and is
-often used for interchange between applications.
+This works in a similar way to shape-keys but is aimed at playing back external files and
+is often used for interchange between applications.
 
 .. note:: When using this modifier, the vertex locations are overwritten.
 

@@ -39,5 +39,5 @@ Left button
 
 .. note::
 
-   There is no logic brick for specific mouse movement and reactions
-   (such as first person camera), these have to be coded in Python.
+   There is no logic brick for specific mouse movement and
+   reactions (such as first person camera), these have to be coded in Python.

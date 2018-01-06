@@ -36,5 +36,5 @@ Modifier itself has two different types
 .. seealso::
 
    - `A step-by step introduction <https://www.miikahweb.com/en/articles/blender-dynamicpaint-basics>`__
-   - `A detailed guide that covers every setting with images and examples
-     <https://www.miikahweb.com/en/articles/dynamic-paint-guide>`__ (Currently not up-to-date)
+   - `A detailed guide <https://www.miikahweb.com/en/articles/dynamic-paint-guide>`__
+     that covers every setting with images and examples (Currently not up-to-date)
