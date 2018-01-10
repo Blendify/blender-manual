@@ -1,9 +1,9 @@
 .. _bpy.types:
 .. _bpy.ops:
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   Blender Reference Manual
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Welcome to the Blender Manual!
 

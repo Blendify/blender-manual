@@ -41,9 +41,9 @@ Headings
 
 .. code-block:: rst
 
-   ################
-    Document Part
-   ################
+   #################
+     Document Part
+   #################
 
    ****************
    Document Chapter
@@ -70,8 +70,8 @@ Text Styling
 ============
 
 See the `overview on ReStructured Text <http://www.sphinx-doc.org/en/stable/rest.html>`__
-for more information on how to style the various elements of the documentation and on how to add lists, tables,
-pictures and code blocks.
+for more information on how to style the various elements of the documentation and
+on how to add lists, tables, pictures and code blocks.
 The `Sphinx reference <http://www.sphinx-doc.org/en/stable/markup/>`__ provides more insight additional constructs.
 
 The following are useful markups for text styling::
@@ -146,9 +146,9 @@ Naming
    and use dashes to separate sections that are two or more words.
    So for image files should look like: ``chapter_subsection_sub-subsection_id.png``, e.g:
 
-   - ``render_cycles_lighting_example_01.jpg``
-   - ``interface_intro_splash.jpg``
-   - ``interface_ui_panel.jpg``
+   - ``interface_splash_current.png``
+   - ``interface_undo-redo_last.png``
+   - ``interface_undo-redo_repeat-history-menu.png``
 
    Do not use special characters or spaces!
 
