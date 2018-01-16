@@ -41,14 +41,14 @@ Value
 Example
 =======
 
-You have a character, it has a property called "hp" (hit points)
-to determine when he has taken enough damage to die. hp is an int with the start value of 100.
+You have a character, it has a property named "hp" (hit/health points)
+to determine when he has taken enough damage to die. ``hp`` is an int with the start value of 100.
 
 You set up two *Collision* sensors, one for enemy bullets, and one for picking up more health.
 The first one is connected (through an *AND* controller) to an *Add Property* actuator with
-the property hp and the value -10. Every time the player is hit by an enemy bullet he loses 10 hp.
+the property ``hp`` and the value -10. Every time the player is hit by an enemy bullet he loses 10 HP.
 The other sensor is connected (through an *AND* controller) to an other *Add Property* actuator,
-this one with the value 50. So every time the player collides with a health item the hp increases by 50.
+this one with the value 50. So every time the player collides with a health item the HP increases by 50.
 Next you set up a *Property* sensor for an interval, greater than 100.
 This is connected (through an *AND* controller) to an *Assign Property* actuator which is set to 100.
-So if the players hp increases over 100 it is set to 100.
+So if the players HP increases over 100 it is set to 100.
