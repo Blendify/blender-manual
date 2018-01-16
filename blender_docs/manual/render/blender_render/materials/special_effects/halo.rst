@@ -134,8 +134,8 @@ which makes the viewer think that it is authentic.
 We create lens flares in Blender from a mesh object using first the *Halo* button
 and then the *Flare* options in the *Shaders* Panel of the material settings.
 Try turning on *Rings* and *Lines*, but keep the colors for these settings fairly subtle.
-Play with the *Flares:* number and *Fl. seed:*
-settings until you arrive at something that is pleasing to the eye.
+Play with the *Subflares* number and Flare *Seed* settings
+until you arrive at something that is pleasing to the eye.
 You might need to play with *Boost:* for a stronger effect
 Fig. :ref:`fig-bi-material-halo-flare` settings.
 

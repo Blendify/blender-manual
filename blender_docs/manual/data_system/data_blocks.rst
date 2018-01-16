@@ -45,7 +45,7 @@ this has the advantage of not having to manually manage every single data-block.
 This works by skipping zero user data-blocks when writing blend-files.
 
 In some cases, you want to save a data-block even when it is unused
-(typically for re-usable asset libraries). see `Fake User`_.
+(typically for re-usable asset libraries). See `Fake User`_.
 
 
 .. _data-system-datablock-fake-user:
