@@ -35,11 +35,13 @@ Lift/Gamma/Gain
 
 Offset/Power/Slope (ASC-CDL)
    Offset
-      A radial color offset from the white center (changes the overall image Hue).
+      Summand. (Adjusts the overall brightness.)
+      Basis
+         Additional offset, allows to specify a negative Offset value.
    Power
-      Over all exponent.
+      Over all exponent. (Adjusts the midtones.)
    Slope
-      Multiplier.
+      Multiplier. (Adjusts the highlights.)
 
 
 Outputs
