@@ -49,7 +49,7 @@ Specular
 
       To compute this value for a realistic material with a known index of
       refraction, you may use this special case of the Fresnel formula:
-      :math:`specular = sqr((ior - 1)/(ior + 1)) / 0.08`
+      :math:`specular = ((ior - 1)/(ior + 1))^2 / 0.08`
 
       For example:
 
