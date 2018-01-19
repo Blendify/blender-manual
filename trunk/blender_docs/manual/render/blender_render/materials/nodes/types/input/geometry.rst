@@ -63,7 +63,7 @@ Front/Back
    a :doc:`Texture Node </render/blender_render/materials/nodes/types/input/texture>`.
 
 
-Geometry Node Example using a UV image
+Geometry Node Example using a UV Image
 ======================================
 
 .. figure:: /images/render_blender-render_materials_nodes_types_input_geometry_example.png

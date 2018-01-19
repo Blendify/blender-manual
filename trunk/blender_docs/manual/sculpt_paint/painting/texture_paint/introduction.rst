@@ -113,8 +113,8 @@ See Texture Mapping Output for more information on bump mapping.
 Saving
 ======
 
-If the header menu item Image has an asterisk next to it,
-it means that the image has been changed, but not saved.
+If the header menu item Image has an asterisk next to it
+means that the image has been changed, but not saved.
 Use the :menuselection:`Image --> Save Image`
 option to save your work with a different name or overwrite the original image.
 

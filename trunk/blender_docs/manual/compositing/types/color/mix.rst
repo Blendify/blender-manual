@@ -119,7 +119,7 @@ Drag the point around to bend the curve as you wish.
 The Mix node combines these two effects equally, and Suzanne feels much better.
 
 
-Watermark images
+Watermark Images
 ----------------
 
 In the old days, a pattern was pressed into the paper mush as it dried,

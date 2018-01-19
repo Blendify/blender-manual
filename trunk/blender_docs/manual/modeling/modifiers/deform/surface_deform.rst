@@ -33,7 +33,7 @@ Bind
    (This does not affect the target object).
 Unbind
    Once the mesh is bound, the *Bind* button changes to *Unbind*.
-   Executing this frees the modified mesh from the target, and resets it its original shape.
+   Executing this frees the modified mesh from the target, and resets it to its original shape.
    (This does not affect the target object).
 
 .. note::

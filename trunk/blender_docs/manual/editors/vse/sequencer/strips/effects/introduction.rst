@@ -7,10 +7,10 @@ Blender offers a set of effects that can be added to your sequence.
 Each effect is explained in the next pages individually, but they all are added and controlled in the same way.
 
 To add an effect strip, select one base strip (image, movie, or scene) by :kbd:`RMB` clicking on it.
-For some effects, like the Cross transition effect, you will need to :kbd:`Shift-RMB` a second overlapping strip
-(it depends on the effect you want). Then select :menuselection:`Add --> Effect`
-and pick the effect you want from the pop-up menu. When you do,
-the Effect strip will be shown above the source strips. If it is an independent effect,
+For some effects, like the Cross transition effect,
+you will need to :kbd:`Shift-RMB` a second overlapping strip (it depends on the effect you want).
+Then select :menuselection:`Add --> Effect` and pick the effect you want from the pop-up menu.
+When you do, the Effect strip will be shown above the source strips. If it is an independent effect,
 like the :doc:`Color Generator </editors/vse/sequencer/strips/effects/color>`,
 it will be placed at the position of the frame indicator.
 

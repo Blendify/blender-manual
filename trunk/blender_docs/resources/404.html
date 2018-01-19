@@ -180,7 +180,7 @@ function init() {
 /*get language and version from url*/
 function getVersion() {
 	var url = window.location.href;
-	var versions = url.match(/\/manual\/([\w|\-|\.]*\/(?:dev|\d\.\d[\w\d\.]*))\//);
+	var versions = url.match(/\/manual\/([\w\-\.]+\/(?:dev|\d\.\d[\w\d\.]*))\//);
 	if(versions !== null) {
 		versions = versions[1];
 		var seperator = versions.search(/\//);
@@ -205,10 +205,10 @@ function replaceLinks(version) {
 function insertbtns() {
 	var url = window.location.href;
 	var linklist = document.getElementById("linklist");
-	var pageName = url.match(/\/([\w|\-|_|\.]*)\.html/);
+	var pageName = url.match(/\/([\w\-_\.]+)\.html/);
 	if(pageName !== null) {
 		pageName = pageName[1];
-		var resp = /[\-|_|\.]/g;
+		var resp = /[\-_\.]/g;
 		pageName = pageName.replace(resp, " ");
 
 		var newLi = document.createElement("li");
@@ -255,13 +255,13 @@ function indexPages() {
 	if(hash !== "") {
 		url = url.replace(hash, "");
 	}
-	var url_re = /\/[\w|\-|_|\.]*$/;
+	var url_re = /\/[\w\-_\.]*$/;
 	var new_url = url.replace(url_re, "/index.html");
 	var base_re = /^https\:\/\/docs.blender.org\/manual\//;
 	if(base_re.test(new_url)) {
 		if(url !== new_url) { loadDoc(new_url, "ix", "Index", "Go to the Index page");}
 	}
-	url_re = /\/[\w|\-|_|\.]*\/[\w|\-|_|\.]*$/;
+	url_re = /\/[\w\-_\.]*\/[\w\-_\.]*$/;
 	new_url = url.replace(url_re, "/index.html");
 	if(base_re.test(new_url)) {
 		loadDoc(new_url, "pix", "Parent Index", "Go to the Parent folders Index page");

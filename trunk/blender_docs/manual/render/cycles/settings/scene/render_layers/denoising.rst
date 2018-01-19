@@ -50,7 +50,7 @@ Passes
    :doc:`Render Passes </render/cycles/settings/scene/render_layers/passes>` you want to denoise.
 
 
-Notes and issues
+Notes and Issues
 ================
 
 The denoiser will change in the future and some features are not implemented yet.
