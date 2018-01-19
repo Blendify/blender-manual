@@ -140,7 +140,7 @@ Boids will try to avoid deflector objects according to the Collision rule’s we
 It works best for convex surfaces (some work needed for concave surfaces).
 
 
-Spherical fields
+Spherical Fields
 ^^^^^^^^^^^^^^^^
 
 For boid physics, Spherical fields define the way the objects having the field are seen by others.

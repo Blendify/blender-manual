@@ -28,7 +28,7 @@ Saturation
 Contrast
    Adjust image contrast.
 Gamma
-   Exponential gamma correction, affecting the midtones of the image. (Works like Power in the Color Balance node.).
+   Exponential gamma correction, affecting the midtones of the image. (Works like Power in the Color Balance node).
 Gain
    Multiplier, stronger influence on the highlights. (Works like Slope in the Color Balance node).
 Lift
