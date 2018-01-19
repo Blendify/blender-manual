@@ -1,4 +1,4 @@
-.. bpy.types.DecimateModifier:
+.. _bpy.types.DecimateModifier:
 
 *****************
 Decimate Modifier
