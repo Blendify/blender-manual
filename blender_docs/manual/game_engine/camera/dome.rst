@@ -61,10 +61,10 @@ Tilt
 Fisheye Mode
 ------------
 
-An Orthogonal Fisheye view from 90º to 250º degrees.
+An Orthogonal Fisheye view from 90° to 250° degrees.
 
-- From 90º to 180º we are using four renders.
-- From 181º to 250º we are using five renders.
+- From 90° to 180° we are using four renders.
+- From 181° to 250° we are using five renders.
 
 .. figure:: /images/game-engine_camera_dome_fisheye.jpg
 
@@ -77,9 +77,9 @@ Front-Truncated Dome Mode
 Designed for truncated domes,
 this mode aligns the fisheye image with the top of the window, while touching the sides.
 
-- The Field of view goes from 90º to 250º degrees.
-- From 90º to 180º we are using four renders.
-- From 181º to 250º we are using five renders.
+- The Field of view goes from 90° to 250° degrees.
+- From 90° to 180° we are using four renders.
+- From 181° to 250° we are using five renders.
 
 .. figure:: /images/game-engine_camera_dome_front-truncated.jpg
 
@@ -92,9 +92,9 @@ Rear-Truncated Dome Mode
 Designed for truncated domes,
 this mode aligns the fisheye image with the bottom of the window, while touching the sides.
 
-- The Field of view goes from 90º to 250º degrees.
-- From 90º to 180º we are using four renders.
-- From 181º to 250º we are using five renders.
+- The Field of view goes from 90° to 250° degrees.
+- From 90° to 180° we are using four renders.
+- From 181° to 250° we are using five renders.
 
 .. figure:: /images/game-engine_camera_dome_rear-truncated.jpg
 

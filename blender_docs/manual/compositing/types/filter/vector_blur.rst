@@ -68,7 +68,7 @@ Example
 =======
 
 The *speed vector* in this example was created by animating the patterned sphere horizontally and
-​using a frame at the mid-point of the sequence.
+using a frame at the mid-point of the sequence.
 
 .. list-table::
 
