@@ -89,7 +89,7 @@ Fly Mode
    | Hotkey:   :kbd:`Shift-F`
 
 On activation the mouse pointer will move at the center of the view,
-and a squared marker will appear – a sort of HUD...
+and a squared marker will appear -- a sort of HUD...
 
 Some of the options of Fly mode are influenced by the position of
 the mouse pointer relative to the center of the view itself,
@@ -109,7 +109,7 @@ Shortcuts
     So if the view is already moving forward,
     :kbd:`WheelDown`, :kbd:`NumpadMinus` will eventually stop it and then move it backward, etc.
 - Drag the :kbd:`MMB` to dolly.
-  In this case the view can move laterally on its local axis at the moment you drag the mouse – quite obviously,
+  In this case the view can move laterally on its local axis at the moment you drag the mouse -- quite obviously,
   dragging left/right/up/down makes the view dolly on the left/right/up/down respectively.
 
 When you are happy with the new view, click :kbd:`LMB` to confirm.

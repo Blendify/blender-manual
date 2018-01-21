@@ -136,7 +136,7 @@ according to the needs of the animator.
 Deflection
 ^^^^^^^^^^
 
-Boids will try to avoid deflector objects according to the Collision rule’s weight.
+Boids will try to avoid deflector objects according to the Collision rule's weight.
 It works best for convex surfaces (some work needed for concave surfaces).
 
 

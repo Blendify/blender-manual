@@ -10,7 +10,7 @@ As the name implies, these nodes convert the colors or other properties of vario
 They also split out or re-combine the different color channels that make up an image,
 allowing you to work on each channel independently.
 Various color channel arrangements are supported, including traditional RGB, HSV
-and High Definition Media Interface (HDMI) formats.
+and :abbr:`HDMI (High Definition Media Interface)` formats.
 
 .. toctree::
    :maxdepth: 1

@@ -38,6 +38,7 @@ You can then view this quick build by opening ``build/html/contents_quicky.html`
 
 This will build very quickly, but it will mean your next complete build of all the chapters will be slow.
 
+
 ------------------------
 
 Continue with the next step: :doc:`Editing </about/contribute/editing>`
