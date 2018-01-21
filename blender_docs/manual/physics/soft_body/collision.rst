@@ -34,37 +34,24 @@ but a plane falls right through a cube that it is supposed to collide with
 Fig. :ref:`fig-softbody-collision-plane2`. Why is that?
 Because the default method of calculation only checks to see if the four vertices of
 the plane collides with the cube as the plane is pulled down by gravity. You can activate
-*CFace* to enable collision between the face of the plane and the object instead
-Fig. :ref:`fig-softbody-collision-plane3`, but this type of calculation takes much longer.
+*Face* to enable collision between the face of the plane and the object instead,
+but this type of calculation takes much longer.
 
 Let us have a closer look at the collision calculation, so you can get an idea of how we might optimize it.
 
-.. only:: builder_html
+.. list-table::
 
-   .. list-table::
+   * - .. _fig-softbody-collision-plane1:
 
-      * - .. _fig-softbody-collision-plane1:
+       .. figure:: /images/physics_soft-body_collision_cube-plane-1.png
 
-          .. figure:: /images/physics_soft-body_collision_cubeplane1.gif
+          A Soft Body cube colliding with a plane.
 
-             A Soft Body cube colliding with a plane.
+     - .. _fig-softbody-collision-plane2:
 
-        - .. _fig-softbody-collision-plane2:
+       .. figure:: /images/physics_soft-body_collision_cube-plane-2.png
 
-          .. figure:: /images/physics_soft-body_collision_cubeplane2.gif
-
-             A Soft Body plane colliding with a cube, so no interaction at all.
-
-        - .. _fig-softbody-collision-plane3:
-
-          .. figure:: /images/physics_soft-body_collision_cubeplane-cface.gif
-
-             Collision with Face activated.
-
-.. only:: latex or epub
-
-   An example image can be found at:
-   https://docs.blender.org/manual/en/dev/physics/soft_body/collision.html#examples
+          A Soft Body plane colliding with a cube, so no interaction at all.
 
 
 Calculating Collisions
@@ -72,21 +59,13 @@ Calculating Collisions
 
 .. only:: builder_html
 
-   .. list-table::
+   .. _fig-softbody-collision-vertex2:
 
-      * - .. _fig-softbody-collision-vertex:
+   .. figure:: /images/physics_soft-body_collision_vertex-plane2.gif
 
-          .. figure:: /images/physics_soft-body_collision_vertex-plane1.gif
+      Six Soft Body vertices with different speed.
 
-             Visualization of the collision of a Soft Body vertex with a plane.
-
-        - .. _fig-softbody-collision-vertex2:
-
-          .. figure:: /images/physics_soft-body_collision_vertex-plane2.gif
-
-             Six Soft Body vertices with different speed.
-
-             `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
+      `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
 
 .. only:: latex or epub
 
@@ -96,7 +75,7 @@ Calculating Collisions
 Soft Body simulation is by default done on a per vertex basis. If the vertices of the Soft Body
 do not collide with the collision object, there will be no interaction between the two objects.
 
-In Fig. :ref:`fig-softbody-collision-vertex` you can see a vertex colliding with a plane.
+In Fig. :ref:`fig-softbody-collision-vertex2` you can see a vertex colliding with a plane.
 If a vertex penetrates the zone between *Outer* and *Inner*, it is repulsed by a force in
 the direction of the face normal. The position that a vertex finally ends up in is dependent
 on the forces that act upon it. In the example gravity and the repulsion force of the face balance out.
