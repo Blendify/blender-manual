@@ -66,4 +66,4 @@ Limitations & Workarounds
   If so, try to bake one frame at the middle or end at full res so you will see if it works.
 - Memory used doubles when you set surface subdivision from 1 to 2.
 - Using "generate particles" will also add memory requirements, as they increase surface area and complexity.
-  Ordinary fluid simulations generated particles probably consumes less memory.
+  Ordinary fluid simulations generated particles probably consume less memory.
