@@ -20,7 +20,7 @@ or :ref:`Delta Transformations <transform-delta>`.
 
 Even though it might be used for completely static purposes,
 posing is heavily connected with animation features and techniques.
-So if you not familiar at all with animation in Blender,
+So if you are not familiar at all with animation in Blender,
 it might be a good idea to read the :doc:`animation chapter </animation/index>` first,
 and then come back here.
 

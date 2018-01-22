@@ -11,8 +11,8 @@ Common Options
 Animated Mesh/Export
 --------------------
 
-Click this button if the network is animated (e.g. Deformed by an armature, shape keys, or lattice).
-It can become very slow and is not necessary if the network's position and rotation are animated.
+Click this button if the network is animated (e.g. deformed by an armature, shape keys, or lattice).
+It can become very slow and is not necessary if the network's position and rotation are animated
 (i.e. only object transformations).
 
 
@@ -32,4 +32,4 @@ Both
 
 .. figure:: /images/physics_fluid_types_introduction_initialization.jpg
 
-   Example of different types of initiation of volume.
+   Example of different types of initialization of volume.

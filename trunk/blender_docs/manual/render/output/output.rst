@@ -94,7 +94,7 @@ Output Format
    Choose the file format to save to. Based on which format is used,
    other options such as channels, bit-depth and compression level are available.
 
-   For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`
+   For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`,
    for rendering to videos see :doc:`rendering to videos </render/output/video>`.
 Color Mode
    Choose the color format to save the image to.
@@ -108,4 +108,4 @@ Color Mode
 
    - Set up a shared directory over a network file-system.
    - Disable *Overwrite*, enable *Placeholders* in the Render *Output* panel.
-   - Start as many machines as you wish rendering to that directory
+   - Start as many machines as you wish rendering to that directory.
