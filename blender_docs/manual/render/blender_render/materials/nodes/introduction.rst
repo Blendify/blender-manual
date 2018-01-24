@@ -79,7 +79,6 @@ a material node and an output node were automatically added to the Node editor.
 
    Default nodes.
 
-
 You can also split the 3D View in the default screen in two and
 change one into a *Node Editor*.
 

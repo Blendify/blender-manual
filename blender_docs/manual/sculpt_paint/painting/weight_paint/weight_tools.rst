@@ -79,7 +79,6 @@ Mirror
 
    Normalize All Options.
 
-
 This tool mirrors the weights from one side of the mesh to the opposite side
 (only mirroring along x-axis is supported). But note,
 the weights are not transferred to the corresponding opposite bone weight group.

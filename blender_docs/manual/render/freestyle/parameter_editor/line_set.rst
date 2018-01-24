@@ -74,8 +74,8 @@ Crease
    .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-crease.png
       :width: 600px
 
-      Crease Angle proof of concept for 121? by LightBWK
-      ( `the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__).
+      Crease Angle proof of concept for 121° by LightBWK
+      (`the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__).
 
 Border
    Border is for open/unclosed edge meshes; an open cylinder has an open edge at the top and bottom,

@@ -15,7 +15,6 @@ Color management also allows an artist to tweak things like exposure, gamma, or 
 
    Different views and exposures of the same render.
 
-
 To achieve color management in Blender, the `OpenColorIO <http://opencolorio.org/>`__
 (OCIO) library has been integrated into Blender.
 This library offers fine control over different :abbr:`LUT (Look Up Table)`

@@ -9,7 +9,6 @@ Spot Buffered Shadow
 
    Buffered Shadow enabled for a Spot lamp.
 
-
 Spotlights can use either
 :doc:`Raytraced Shadows </render/blender_render/lighting/shadows/raytraced_properties>`
 or buffered shadows. Either of the two can provide various extra options.

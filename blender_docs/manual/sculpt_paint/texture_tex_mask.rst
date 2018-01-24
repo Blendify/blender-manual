@@ -19,7 +19,6 @@ and that particular texture defined using the Material and Texture buttons.
 It is not necessary to have that material or texture applied to any mesh anywhere;
 it must only be defined.
 
-
 The example to the right shows the effects of painting with a flat
 (banded) wood texture.
 Switching the texture to Rings makes a target/flower type of brush painting pattern.

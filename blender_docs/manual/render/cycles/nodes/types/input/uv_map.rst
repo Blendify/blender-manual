@@ -9,7 +9,6 @@ UV Map Node
 
    UV Map Node.
 
-
 The *UV Map* node is used to retrieve specific UV maps.
 Unlike the :doc:`Texture Coordinate Node </render/cycles/nodes/types/input/texture_coordinate>`
 which only provides the active UV map,

@@ -16,7 +16,6 @@ Materials
 
    Light Group options for Materials.
 
-
 By default, materials are lit by all lamps in all visible layers, but a material
 (and thus all objects using that material) can be limited to a single group of lamps.
 This sort of control can be incredibly useful, especially in scenes with complex lighting setups.
@@ -34,7 +33,6 @@ Render Layers
 .. figure:: /images/render_blender-render_lighting_lights_in-other-contexts_render-layers.png
 
    Light Group options for Render Layers.
-
 
 There is a similar control located in the *Layer panel* of
 the :doc:`Render Layers </render/post_process/layers>` tab.

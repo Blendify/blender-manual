@@ -10,7 +10,6 @@ Because it is just modifying the shading of each pixel,
 this will not cast any shadows and will not obstruct other objects. If the camera angle is too flat to the surface,
 you will notice that the surface is not really shaped.
 
-
 Both *Bump Maps* and *Normal Maps* work by modifying the normal angle
 (the direction pointing perpendicular from a face), which influences how a pixel is shaded.
 Although the terms *Normal Map* and *Bump Map* are often used

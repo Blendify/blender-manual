@@ -8,7 +8,6 @@ Color Correction Node
 
    Color Balance Node.
 
-
 The Color Correction node can adjust the color of an image, separately in several tonal ranges
 (highlights, midtones and shadows) and only affect the necessary RGB channels.
 

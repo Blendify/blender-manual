@@ -60,7 +60,6 @@ Groups Panel
 
    Group panel and Outliner.
 
-
 All groups that an object has been assigned to are listed in the Properties editor
 :menuselection:`Object tab --> Group panel`.
 

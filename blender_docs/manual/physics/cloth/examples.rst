@@ -94,6 +94,5 @@ Cloth with Wind
 
    Flag with wind applied.
 
-
 Regression blend-file for Cloth with wind and self collisions (also the blend for the image above):
 `Cloth flag with wind and selfcollisions <https://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__.

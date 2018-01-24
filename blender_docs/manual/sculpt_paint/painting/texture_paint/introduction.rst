@@ -64,7 +64,6 @@ you can modify the image using the Texture Paint Mode:
    Texture paint is very fast and responsive when working in the 3D View and when your image is sized as
    a square where the side lengths are a power of two, e.g. 256×256, 512×512, 1024×1024, etc.
 
-
 Once you enable Texture Painting, your mouse becomes a brush. To work with the UV layout
 (for example, to move coordinates) you must go back to "View" mode.
 

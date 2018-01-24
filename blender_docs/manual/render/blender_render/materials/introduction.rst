@@ -15,7 +15,6 @@ diffraction and sub-surface scattering. Typical materials might be brass, skin, 
 
    Various basic materials (single, multiple material, transparency, vertex paint).
 
-
 The basic (un-textured) Blender material is uniform across each face of an object
 (although the various pixels of each face of the object may appear differently because of lighting effects).
 However, different faces of the object may use different materials (see :ref:`bi-multiple-materials`).
