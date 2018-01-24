@@ -77,7 +77,6 @@ You can join these with your favorite IRC client:
 
    If you do not have an IRC client, you can access IRC using `webchat <https://webchat.freenode.net/>`__.
 
-
 There also several more Blender-related channels not listed here
 (e.g. channels for speakers of a particular language).
 We recommend you search Freenode to see them all.

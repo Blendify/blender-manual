@@ -69,7 +69,6 @@ use :kbd:`Shift-LMB` -- doing this on an already active layer will deselect it.
 
    3D View layer buttons.
 
-
 To select layers via the keyboard, press :kbd:`1` to :kbd:`0`
 (on the main area of the keyboard) for layers 1 through 10 (the top row of buttons),
 and :kbd:`Alt-1` to :kbd:`Alt-0` for layers 11 through 20 (the bottom row).

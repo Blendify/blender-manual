@@ -83,7 +83,6 @@ Plane Locking
 
    Plane locking.
 
-
 Plane locking locks the transformation to *two* axes
 (or forbids transformations along one axis),
 thus creating a plane in which the element can be moved or scaled freely.

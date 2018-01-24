@@ -30,7 +30,6 @@ The selected points are highlighted as in the image above.
 
    Set the layer's *Stroke Thickness* to 1 to make the points more visible.
 
-
 Use the mouse to select the points, or one of the selection buttons in the panel as detailed in
 :doc:`Basic Selection </modeling/meshes/selecting/introduction>`.
 

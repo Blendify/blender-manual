@@ -167,7 +167,6 @@ Bake Collision
 
    After Baking.
 
-
 After you have set up the deflection mesh for the frame range you intend to run the simulation
 (including animating that mesh *via* armatures),
 you can now tell the cloth simulation to compute (and avoid) collisions.

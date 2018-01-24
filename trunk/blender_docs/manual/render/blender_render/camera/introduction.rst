@@ -25,7 +25,6 @@ Changing the Active Camera
 
    Active camera (left one).
 
-
 The *active* camera is the camera that is currently being used for rendering and camera view
 :kbd:`Numpad0`.
 

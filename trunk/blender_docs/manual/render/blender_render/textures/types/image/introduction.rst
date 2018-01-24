@@ -46,7 +46,6 @@ and another that has three maps.
 
    How all the parts of UV Texturing work together.
 
-
 When using file textures, it is very important that you have
 :doc:`Mapped the UVs </editors/uv_image/uv/editing/unwrapping/index>`
 of the mesh, and they are laid out appropriately.

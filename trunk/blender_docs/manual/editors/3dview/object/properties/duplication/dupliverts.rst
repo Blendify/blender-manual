@@ -56,7 +56,6 @@ select the base object and :kbd:`Shift-RMB` to add the circle to the selection
 and :kbd:`Ctrl-P` to parent the base object to the circle.
 Now, the circle is the parent of the monkey; if you move the circle, the monkey will follow it.
 
-
 With only the circle selected, enable *Duplication vertices*
 in the :menuselection:`Object panel --> Duplication --> Vertices`.
 A monkey head should be placed at every vertex of the circle.
@@ -87,7 +86,6 @@ Orientation
 .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_orientation.png
 
    Orientation enabled, orientation +Y.
-
 
 The orientation of the base objects can be controlled by
 enabling *Rotation* in the *Duplication* panel.

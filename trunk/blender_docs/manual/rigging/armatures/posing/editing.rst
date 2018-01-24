@@ -11,7 +11,6 @@ Editing
 
    Pose Tools.
 
-
 In *Pose Mode*, bones behave like objects. So the transform actions
 (grab/rotate/scale, etc.) are very similar to the same ones in *Object* mode
 (all available ones are regrouped in the :menuselection:`Pose --> Transform` sub-menu). However,
@@ -37,9 +36,9 @@ in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 .. figure:: /images/rigging_armatures_posing_editing_local-rotation.png
 
    An example of locally-Y-axis locked rotation, with two bones selected.
+
    Note that the two green lines materializing the axes are centered on the armature's center,
    and not each bone's root...
-
 
 Moreover, the local space for these actions is the bone's own one
 (visible when you enable the *Axes* option of the *Armature* panel).

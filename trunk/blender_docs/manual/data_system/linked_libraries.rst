@@ -26,7 +26,6 @@ Whereas *Append* makes a full copy of the data into your blend.
 You can make further edits to your local copy of the data,
 but changes in the external source file will not be reflected in the referencing file.
 
-
 In the :doc:`File Browser </editors/file_browser/introduction>`
 navigate to the external source blend-file and select the data-block you want to reuse.
 
