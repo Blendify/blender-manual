@@ -303,6 +303,8 @@ Clear Parent
    or freed, and they return to their *original* location, rotation, and size.
 Clear and Keep Transformation
    Frees the children from the parent, and *keeps* the location, rotation, and size given to them by the parent.
+
+   See :ref:`object-parent-nonuniform-limitation` which may apply here.
 Clear Parent Inverse
    Places the children with respect to the parent as if they were placed in the Global reference.
    This effectively clears the parent's transformation from the children.
@@ -328,3 +330,19 @@ There is another way to see the parent-child relationship in groups and that is 
 of the :doc:`Outliner editor </editors/outliner>`. Fig. :ref:`fig-view3d-parent-outliner`
 is an example of what the *Outliner* view looks like for the figures in the :ref:`object-parenting` example.
 Cube A's object name is "Cube_Parent" and cube B is "Cube_Child".
+
+Known Limitations
+=================
+
+
+.. _object-parent-nonuniform-limitation:
+
+Non-Uniform Scale
+-----------------
+
+A parent with non-uniform scale and rotation in relation to it's child may cause a *shear* effect.
+
+While this is supported by parenting, the shear will be lost when the parent is cleared since it
+can't be represented by location, scale and rotation.
+
+If *Clear and Keep Transformation* moves the object, non-uniform scale is the most likely cause.
