@@ -20,8 +20,7 @@ and spot lamps also provide other functionality such as "volumetric" halos.
 Lamp Options
 ============
 
-.. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_panel.jpg
-   :width: 307px
+.. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_panel.png
 
    Common Lamp options of a Spot.
 
@@ -45,7 +44,6 @@ Shadows
 =======
 
 .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_ray-panel.png
-   :width: 306px
 
    Shadow panel set to Ray Shadow.
 

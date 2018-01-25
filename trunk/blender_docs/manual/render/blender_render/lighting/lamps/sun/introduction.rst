@@ -15,8 +15,7 @@ but because the light is emitted in a constant direction,
 the location of a *Sun* lamp does not affect the rendered result (unless you use
 the :doc:`"sky & atmosphere" option </render/blender_render/lighting/lamps/sun/sky_atmosphere>`).
 
-.. figure:: /images/render_blender-render_lighting_lamps_sun_introduction_panel.jpg
-   :width: 304px
+.. figure:: /images/render_blender-render_lighting_lamps_sun_introduction_panel.png
 
    Sun lamp panel.
 
@@ -50,8 +49,7 @@ and the atmosphere through which it shines, are available. For details, see
 Shadow
 ======
 
-.. figure:: /images/render_blender-render_lighting_lamps_sun_introduction_shadow-panel.jpg
-   :width: 304px
+.. figure:: /images/render_blender-render_lighting_lamps_sun_introduction_shadow-panel.png
 
    Shadow panel.
 

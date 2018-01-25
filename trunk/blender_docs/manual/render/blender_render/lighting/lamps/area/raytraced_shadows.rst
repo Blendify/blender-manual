@@ -4,8 +4,7 @@
 Area Raytraced Shadows
 **********************
 
-.. figure:: /images/render_blender-render_lighting_lamps_area_introduction_adaptive-qmc.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_lighting_lamps_area_introduction_adaptive-qmc.png
 
    Adaptive QMC settings.
 
@@ -39,7 +38,6 @@ Constant Jittered
    It has the same options as the old one: *Umbra*, *Dither* and *Jitter*.
 
    .. figure:: /images/render_blender-render_lighting_lamps_area_introduction_constant-jittered.png
-      :width: 300px
 
       Constant Jittered settings.
 

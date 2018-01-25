@@ -36,7 +36,7 @@ will be tinted the color set in Mirror Color.
 Options
 =======
 
-.. figure:: /images/render_blender-render_materials_properties_mirror_panel.jpg
+.. figure:: /images/render_blender-render_materials_properties_mirror_panel.png
 
    The Mirror Panel.
 
@@ -46,7 +46,7 @@ Reflectivity
    Sets the amount of reflectiveness of the object.
    Use a value of 1.0 if you need a perfect mirror, or set it to 0.0 if you do not want any reflection.
 
-.. figure:: /images/render_blender-render_materials_properties_mirror_color.jpg
+.. figure:: /images/render_blender-render_materials_properties_mirror_color.png
 
    Picking a mirror color.
 
