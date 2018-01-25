@@ -80,7 +80,6 @@ This shader has only the default option, determining how much of available light
 Default is 0.8, to allow other objects to be brighter.
 
 .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_lambert-settings.png
-   :width: 220px
 
    The Lambert diffuse shader settings.
 
@@ -113,8 +112,7 @@ Options
 Roughness
    The roughness of the surface, and hence, the amount of diffuse scattering.
 
-.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_oren-nayar-settings.jpg
-   :width: 200px
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_oren-nayar-settings.png
 
    The Oren-Nayar diffuse shader settings.
 
@@ -151,8 +149,7 @@ Size
 Smooth
    The softness of the boundary between lit and shadowed areas.
 
-.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_toon-settings.jpg
-   :width: 200px
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_toon-settings.png
 
    The Toon diffuse shader settings.
 
@@ -186,8 +183,7 @@ Options
 Dark
    The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
 
-.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_minnaert-settings.jpg
-   :width: 200px
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_minnaert-settings.png
 
    The Minnaert diffuse shader settings.
 
@@ -228,8 +224,7 @@ Fresnel
 Factor
    Blending factor of the Fresnel factor to blend in, 5.0 is max.
 
-.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_fresnel-settings.jpg
-   :width: 200px
+.. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_fresnel-settings.png
 
    The Fresnel diffuse shader settings.
 

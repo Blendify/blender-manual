@@ -5,7 +5,6 @@ Spot Buffered Shadow
 ********************
 
 .. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_panel.png
-   :width: 310px
 
    Buffered Shadow enabled for a Spot lamp.
 
@@ -53,7 +52,6 @@ For more information on the different shadow generation methods see these links:
 ---------------------------------
 
 .. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_panel.png
-   :width: 310px
 
    Buffer Shadow set to Classic-Halfway.
 
@@ -186,8 +184,7 @@ Sample Buffers
 "Irregular"
 -----------
 
-.. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_irregular.jpg
-   :width: 313px
+.. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_irregular.png
 
    Buffer Shadow set to Irregular.
 
@@ -202,8 +199,7 @@ To do so, you will first need to setup the shadow setting for the object which w
 Deep Generation Method
 ----------------------
 
-.. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_deep.jpg
-   :width: 313px
+.. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_deep.png
 
    Buffer Shadow set to Deep.
 
