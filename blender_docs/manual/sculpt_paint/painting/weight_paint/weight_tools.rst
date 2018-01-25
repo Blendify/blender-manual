@@ -3,17 +3,17 @@
 Weight Tools
 ************
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_panel.png
-   :align: right
-
-   Weight Paint Tools.
-
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode and Weight Paint Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Weight Tools`
    | Menu:     :menuselection:`Weights`
+
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_panel.png
+   :align: right
+
+   Weight Paint Tools.
 
 Blender provides a set of helper tools for Weight Painting.
 The tools are accessible from the Tool Shelf in Weight Paint Mode.
@@ -52,7 +52,7 @@ which keep their weight values untouched.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize-all.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize.png
 
    Normalize All Options.
 
@@ -63,9 +63,9 @@ Lock Active
 Normalize
 =========
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize-example.png
 
-   Normalize All Options.
+   Normalize example.
 
 This tool only works on the active Vertex Group.
 All vertices keep their relative weights,
@@ -75,9 +75,9 @@ but the entire set of weights is scaled up such that the highest weight value is
 Mirror
 ======
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror-example.png
 
-   Normalize All Options.
+   Mirror example.
 
 This tool mirrors the weights from one side of the mesh to the opposite side
 (only mirroring along x-axis is supported). But note,
@@ -88,7 +88,7 @@ The mirror only takes place within the selected Vertex Group.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror-options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror.png
 
    Mirror Options.
 
@@ -116,7 +116,7 @@ Topology Mirror
 Invert
 ======
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert-example.png
 
    Invert.
 
@@ -132,7 +132,7 @@ Examples:
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert-options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert.png
 
    Invert Options.
 
@@ -151,15 +151,15 @@ Remove Weights
 Clean
 =====
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean-example.png
 
-   Invert.
+   Clean example.
 
 Removes weights below a given threshold.
 This tool is useful for clearing your weight groups of very low (or zero-) weights.
 
-In the example shown, a cutoff value of 0.139 is used (see operator options below)
-so all blue parts (left side) are cleaned out (right side).
+In the example shown, a cutoff value of 0.2 is used (see operator options below)
+so all blue parts are cleaned out.
 
 Note, the images use the *Show Zero weights* Active option so that unreferenced
 Weights are shown in Black.
@@ -168,7 +168,7 @@ Weights are shown in Black.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean-options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean.png
 
    Clean Options.
 
@@ -186,6 +186,10 @@ Keep Single
 Quantize
 ========
 
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_quantize-example.png
+
+   Quantize example (Steps = 2).
+
 Clamps each weight to a number of steps between (0 - 1).
 
 Steps
@@ -195,9 +199,9 @@ Steps
 Levels
 ======
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels-example.png
 
-   Invert.
+   Levels example.
 
 Adds an offset and a scale to all weights of the selected Weight Groups.
 with this tool you can raise or lower the overall "heat" of the weight group.
@@ -210,7 +214,7 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels-options.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels.png
 
    Levels Options.
 
@@ -236,7 +240,7 @@ Smooth
 Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-ex1.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-example-1.png
 
 To understand what the tool really does, let us take a look at a simple example.
 The selected vertex is connected to four adjacent vertices
@@ -252,7 +256,7 @@ This value is multiplied by the factor given in the Operator options (see below)
 - If the factor is 1.0 then the calculated average weight is taken (0.25 here).
 - Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-ex2.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-example-2.png
 
 Now let us see what happens when we select all but one of the neighbors of the selected vertex as well.
 Again all connected and unselected vertices are marked with a gray circle.
@@ -275,7 +279,7 @@ then we see different results for each of the selected vertices:
   So the average weight is 0, thus the selected vertex color has not changed at all
   (it was already blue before Smooth was applied).
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-ex3.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-example-3.png
 
 Finally let us look at a practical example.
 The middle edge loop has been selected
@@ -290,7 +294,7 @@ and it will be used for blending the left side to the right side of the area.
 Options
 -------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-options.png
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth.png
 
    Smooth Options.
 
@@ -410,7 +414,6 @@ Weight Gradient
 ===============
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_gradient.png
-   :width: 200px
 
    Example of the Gradient tool being used with selected vertices.
 
