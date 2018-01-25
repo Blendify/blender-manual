@@ -207,7 +207,7 @@ physics geometry visualization, warnings,
 whether the mouse cursor is shown during the game execution, and options to specify the framing
 style of the game to fit the window with the specified resolution.
 
-.. figure:: /images/game-engine_settings_render_display.jpg
+.. figure:: /images/game-engine_settings_render_display.png
 
    Display panel at the Render tab.
 
@@ -255,6 +255,8 @@ Color Bar
 
 Bake
 ====
+
+.. TODO: merge with render/blender_render/bake.html
 
 The *Bake* panel in the *Render* tab of the *Properties* editor is very similar to its
 Blender Render counterpart and serves much the same purpose.

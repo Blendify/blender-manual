@@ -70,7 +70,7 @@ Face Selection Masking
 
           Face Selection masking.
 
-     - .. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select-hidden.jpg
+     - .. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select-hidden.png
 
           Hidden faces.
 
@@ -107,7 +107,7 @@ Press :kbd:`Alt-B` and :kbd:`LMB`\ -drag a rectangular area.
 The selected area will be "cut out" as the area of interest.
 The rest of the 3D View gets hidden.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_border-select.jpg
+.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_border-select.png
 
    The Clipping Border is used to select interesting parts for local painting.
 
