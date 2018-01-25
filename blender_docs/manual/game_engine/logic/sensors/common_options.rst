@@ -52,7 +52,7 @@ False level triggering
 Freq
    Despite its name "Frequency", this parameter sets the delay between repeated triggers,
    measured in frames (also known as logic ticks). The default value is 0 and it means no delay.
-   It is only used at least one of the level triggering parameters are enabled.
+   It is only used if at least one of the level triggering parameters are enabled.
 
    Raising the value of *freq* is a good way for saving performance costs by avoiding
    to execute controllers or activate actuators more often than necessary.
