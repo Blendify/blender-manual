@@ -80,25 +80,49 @@ Bevel
 Depth
    Changes the size of the bevel.
 
-   .. figure:: /images/modeling_curves_properties_geometry_bevel-depth.png
+   .. list-table::
 
-      A Curve with different Bevel depths applied.
+      * - .. figure:: /images/modeling_curves_properties_geometry_bevel-depth.png
+             :width: 320px
+
+             A Curve with different Bevel depths applied (Bevel = 0.05).
+
+        - .. figure:: /images/modeling_curves_properties_geometry_bevel.png
+             :width: 320px
+
+             A Curve with different Bevel depths applied (Bevel = 0.25).
 
 Resolution
    Alters the smoothness of the bevel.
 
-   .. figure:: /images/modeling_curves_properties_geometry_bevel-resolution.png
+   .. list-table::
 
-      A Curve with different resolutions applied.
+      * - .. figure:: /images/modeling_curves_properties_geometry_bevel-resolution.png
+             :width: 320px
+
+             A Curve with different resolutions applied (Resolution = 1).
+
+        - .. figure:: /images/modeling_curves_properties_geometry_bevel.png
+             :width: 320px
+
+             A Curve with different resolutions applied (Resolution = 12).
 
 Bevel Object
    The Bevel Object controls the cross section of the extruded curve.
    The Bevel Object can only be another curve both 2D or 3D, and opened or closed.
    Editing the handles and control points of the Bevel Object will cause the original Object to change shape.
 
-   .. figure:: /images/modeling_curves_properties_geometry_bevel.jpg
+   .. list-table::
 
-      A curve with the Bevel Object as a Bézier curve (left) and as a Bézier circle (right).
+      * - .. figure:: /images/modeling_curves_properties_geometry_bevel-object.png
+             :width: 320px
+
+             A curve with the Bevel Object as a Bézier curve.
+
+        - .. figure:: /images/modeling_curves_properties_geometry_extrude-bevel-object.png
+             :width: 320px
+
+             A curve with the Bevel Object as a Bézier circle.
 
 
 Bevel Factor
@@ -124,10 +148,17 @@ Start, End
    Decreasing the *End Bevel Factor* by 0.25 will start beveling the curve 25% of the distance from the end
    of the curve (again, shortening the curve).
 
-   .. figure:: /images/modeling_curves_properties_geometry_bevel-start-end-factor.jpg
+   .. list-table::
 
-      A curve with no Bevel factor applied (left),
-      with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
+      * - .. figure:: /images/modeling_curves_properties_geometry_bevel.png
+             :width: 320px
+
+             A curve with no Bevel factor applied.
+
+        - .. figure:: /images/modeling_curves_properties_geometry_bevel-start-end-factor.png
+             :width: 320px
+
+             A curve with a 0.6 End Bevel Factor.
 
 
 Caps
@@ -149,17 +180,11 @@ Taper Object
    The Taper Object can only be another curve.
    Editing the handles and control points of the Taper Object will cause the original Object to change shape.
 
-   .. figure:: /images/modeling_curves_properties_geometry_taper.jpg
-
-      A curve before (left) and after (right) a Bézier curve Taper Object was applied.
+   See examples below.
 
 Map Taper
    For curves using a Taper Object and with modifications to the *Start/End Bevel Factor*
    the *Map Taper* option will apply the taper to the beveled part of the curve (not the whole curve).
-
-   .. figure:: /images/modeling_curves_properties_geometry_map-taper.jpg
-
-      A curve without (left) and with (right) Map Taper applied.
 
 
 Details

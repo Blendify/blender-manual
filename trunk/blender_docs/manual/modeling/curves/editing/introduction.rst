@@ -199,10 +199,17 @@ Connects two disconnected control points.
 The selection must be loose points, or the first/last point of a curve, then press :kbd:`F`.
 If the points belong to different curves, these are joined by a segment to become a single curve.
 
-.. figure:: /images/modeling_curves_editing_introduction_two-curves-joined.png
-   :width: 600px
+.. list-table::
 
-   Curves before and after joining.
+   * - .. figure:: /images/modeling_curves_editing_introduction_two-curves.png
+          :width: 320px
+
+          Two curves before.
+
+     - .. figure:: /images/modeling_curves_editing_introduction_make-segment.png
+          :width: 320px
+
+          Curve after joining.
 
 Note that you can only join curves of the same type (i.e. Bézier with Bézier, NURBS with NURBS)
 Additionally, you can close a curve by toggling cyclic.
@@ -269,15 +276,25 @@ Dissolve Vertices :kbd:`Ctrl-X`
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_curves_editing_introduction_delete-selected.png
+   * - .. figure:: /images/modeling_curves_editing_introduction_make-segment.png
           :width: 320px
 
-          Deleting Curve Selected.
+          Before deleting.
 
-     - .. figure:: /images/modeling_curves_editing_introduction_delete-segment.png
+     - .. figure:: /images/modeling_curves_editing_introduction_delete-vertices.png
           :width: 320px
 
-          Deleting Curve segments.
+          Deleting vertices.
+
+   * - .. figure:: /images/modeling_curves_editing_introduction_delete-segment.png
+          :width: 320px
+
+          Deleting segment.
+
+     - .. figure:: /images/modeling_curves_editing_introduction_dissolve-vertices.png
+          :width: 320px
+
+          Dissolve vertices.
 
 
 Control Points
@@ -353,17 +370,17 @@ operation reduces the distance between the selected control point/s and
 their neighbors, while keeping the neighbors anchored.
 Does not effect control point tangents.
 
-.. figure:: /images/modeling_curves_editing_introduction_smoothing1.jpg
+.. figure:: /images/modeling_curves_editing_introduction_smoothing-1.png
 
    Original, unsmoothed Curve.
 
-.. figure:: /images/modeling_curves_editing_introduction_smoothing2.jpg
+.. figure:: /images/modeling_curves_editing_introduction_smoothing-2.png
 
-   Entire curve smoothed over 200 times by holding :kbd:`Shift-R` to repeat last step.
+   Entire curve smoothed over 20 times by holding :kbd:`Shift-R` to repeat last step.
 
-.. figure:: /images/modeling_curves_editing_introduction_smoothing3.jpg
+.. figure:: /images/modeling_curves_editing_introduction_smoothing-3.png
 
-   Only three control points in the center smoothed over 200 times.
+   Only three control points in the center smoothed over 20 times.
 
 
 Hooks
