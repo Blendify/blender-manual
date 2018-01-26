@@ -59,10 +59,6 @@ Twisting
 
              Curves with a twist of Tangent.
 
-
-   .. figure:: /images/modeling_curves_properties_data_shape-twist.jpg
-      Curves with a twist of minimum (left) and tangent (right).
-
 Fill
    Fill determines the way a curve is displayed when it is beveled (see below for details on Beveling).
    When set to *Half* (the default) the curve is displayed as half a cylinder.
@@ -209,9 +205,9 @@ Order
       * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
              :width: 320px
 
-             NURBS curves with orders of 2.
+             NURBS curves with orders of 4.
 
         - .. figure:: /images/modeling_curves_properties_data_nurbs-order.png
              :width: 320px
 
-             NURBS curves with orders of 4.
+             NURBS curves with orders of 2.

@@ -65,4 +65,4 @@ One of the major differences between Bézier objects and NURBS objects is that B
 are approximations. For example, a Bézier circle is an *approximation* of a circle,
 whereas a NURBS circle is an *exact* circle.
 NURBS theory can be a *very* complicated topic. For an introduction,
-please consult the `Wikipedia page. <https://en.wikipedia.org/wiki/NURBS>`__.
+please consult the `Wikipedia page <https://en.wikipedia.org/wiki/NURBS>`__.

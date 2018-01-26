@@ -17,7 +17,7 @@ Offset
    .. figure:: /images/modeling_curves_properties_geometry_extrude-offset.png
       :width: 320px
 
-      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
+      Bézier Circle -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
 Extrude
    Will extrude the curve along both the positive and negative local Z axes.
@@ -46,7 +46,7 @@ Open 2D Curve
    The extrusion will create a "wall" or "ribbon" following the curve shape. If using a *Bevel Depth*,
    the wall becomes a sort of slide or gutter.
    If your normals are facing the wrong way you can switch their direction as shown
-   :ref:`here <curve-switch-direction>`
+   :ref:`here <curve-switch-direction>`.
 
    .. figure:: /images/modeling_curves_properties_geometry_extrude-open-curve.png
       :width: 320px
