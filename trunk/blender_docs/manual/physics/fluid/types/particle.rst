@@ -10,8 +10,7 @@ Fluid Particle
    | Panel:    :menuselection:`Physics --> Fluid`
    | Type:     Particle
 
-.. figure:: /images/physics_fluid_types_particle_fluid-panel.jpg
-   :width: 300px
+.. figure:: /images/physics_fluid_types_particle_fluid-panel.png
 
    Fluid particle settings.
 

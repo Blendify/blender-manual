@@ -15,6 +15,6 @@ Smoke Flow
 
 Will make particles follow the smoke.
 
-.. figure:: /images/physics_force-fields_types_smoke-flow_panel.jpg
+.. figure:: /images/physics_force-fields_types_smoke-flow_panel.png
 
    UI for a Smoke Flow force field.

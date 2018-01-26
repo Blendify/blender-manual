@@ -30,7 +30,6 @@ Collision Settings
    | Panel:    :menuselection:`Physics --> Cloth Collision`
 
 .. figure:: /images/physics_cloth_settings_collisions_panel.png
-   :width: 200px
 
    Cloth Collisions panel.
 
@@ -109,7 +108,6 @@ Cloth - Object Collisions
 -------------------------
 
 .. figure:: /images/physics_collision_panel.png
-   :width: 200px
 
    Collision settings.
 
@@ -134,8 +132,7 @@ on a shared layer (particles, soft bodies, and cloth).
 Mesh Object Modifier Stack
 ==========================
 
-.. figure:: /images/physics_cloth_settings_collisions_stack.jpg
-   :width: 200px
+.. figure:: /images/physics_cloth_settings_collisions_stack.png
 
    Collision stack.
 
@@ -162,8 +159,7 @@ See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
 Bake Collision
 --------------
 
-.. figure:: /images/physics_cloth_settings_collisions_bake.jpg
-   :width: 200px
+.. figure:: /images/physics_cloth_settings_collisions_bake.png
 
    After Baking.
 

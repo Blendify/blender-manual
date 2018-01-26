@@ -23,7 +23,7 @@ This force field is really special if you assign it to particles.
 Options
 =======
 
-.. figure:: /images/physics_force-fields_types_harmonic_panel.jpg
+.. figure:: /images/physics_force-fields_types_harmonic_panel.png
 
    UI for a Harmonic force field.
 
@@ -33,7 +33,7 @@ Multiple Springs
    Causes every point to be affected by multiple springs.
 
 Normally every particle of the field system influences every particle of the target system.
-Not with *Harmonic* ! Here every target particle is assigned to a field particle.
+Not with *Harmonic*! Here every target particle is assigned to a field particle.
 So particles will move to the place of other particles, thus forming shapes.
 
 

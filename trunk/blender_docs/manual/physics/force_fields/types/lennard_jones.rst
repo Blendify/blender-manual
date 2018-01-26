@@ -22,7 +22,7 @@ Particles need to be at a close proximity to each other to be effected by this f
 Particles can have for example both a charge and a Lennard-Jones potential,
 which is probably something for the nuclear physicists among us.
 
-.. figure:: /images/physics_force-fields_types_lennard-jones_panel.jpg
+.. figure:: /images/physics_force-fields_types_lennard-jones_panel.png
 
    UI for a Lennard Jones force field.
 

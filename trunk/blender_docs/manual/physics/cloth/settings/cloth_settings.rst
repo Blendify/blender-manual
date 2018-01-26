@@ -51,12 +51,12 @@ There are several ways of doing this including using the Weight Paint tool to pa
 (see the :doc:`/sculpt_paint/painting/weight_paint/index` section of the manual).
 The weight of each vertex in the group controls how strongly it is pinned.
 
-.. figure:: /images/physics_cloth_settings_cloth-settings_pin-example1.png
+.. figure:: /images/physics_cloth_settings_cloth-settings_pinning.png
 
    Cloth Pinning.
 
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
-press the *Pinning of cloth* button in the *Cloth* panel and select which
+press the *Pinning* button in the *Cloth* panel and select which
 vertex group you want to use, and the stiffness you want it at.
 
 Stiffness

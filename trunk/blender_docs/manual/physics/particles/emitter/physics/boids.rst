@@ -11,7 +11,7 @@ Boids
    | Panel:    :menuselection:`Particle System --> Physics`
    | Type:     Boids
 
-.. figure:: /images/physics_particles_emitter_physics_boids_panel.jpg
+.. figure:: /images/physics_particles_emitter_physics_boids_panel.png
 
    Boid Physics Settings.
 
