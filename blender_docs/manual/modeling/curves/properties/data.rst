@@ -29,9 +29,17 @@ Resolution
    determines the curve's render resolution. If *Render U* is set to zero (0),
    then the *Preview U* setting is used for both the 3D View and render resolution.
 
-   .. figure:: /images/modeling_curves_properties_data_shape-resolution.jpg
+   .. list-table::
 
-      Curves with a resolution of 3 (left) and 12 (right).
+      * - .. figure:: /images/modeling_curves_properties_data_shape-resolution-3.png
+             :width: 320px
+
+             Curves with a resolution of 3.
+
+        - .. figure:: /images/modeling_curves_properties_data_shape-resolution-12.png
+             :width: 320px
+
+             Curves with a resolution of 12.
 
 Twisting
    A 3D curve has control points that are not located on the curve's local XY plane.
@@ -39,8 +47,20 @@ Twisting
    You can alter how the twist of the curve is calculated by choosing from
    *Minimum, Tangent* and *Z-Up* options from the select menu.
 
-   .. figure:: /images/modeling_curves_properties_data_shape-twist.jpg
+   .. list-table::
 
+      * - .. figure:: /images/modeling_curves_properties_data_shape-resolution-12.png
+             :width: 320px
+
+             Curves with a twist of Minimum.
+
+        - .. figure:: /images/modeling_curves_properties_data_shape-twisting.png
+             :width: 320px
+
+             Curves with a twist of Tangent.
+
+
+   .. figure:: /images/modeling_curves_properties_data_shape-twist.jpg
       Curves with a twist of minimum (left) and tangent (right).
 
 Fill
@@ -50,9 +70,17 @@ Fill
    Fill Deformed
       Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
 
-   .. figure:: /images/modeling_curves_properties_data_shape-fill.jpg
+   .. list-table::
 
-      Curves with a fill of half (left) and full (right).
+      * - .. figure:: /images/modeling_curves_properties_data_shape-fill-half.png
+             :width: 320px
+
+             Curves with a fill of Half.
+
+        - .. figure:: /images/modeling_curves_properties_data_shape-fill-full.png
+             :width: 320px
+
+             Curves with a fill of Full.
 
 .. _curve-shape-path-curve-deform:
 
@@ -139,18 +167,34 @@ Knots
    Cyclic
       Makes the NURBS curve cyclic.
 
-      .. figure:: /images/modeling_curves_properties_data_nurbs-cyclic.png
+      .. list-table::
 
-         A NURBS curve with Cyclic applied.
+         * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
+                :width: 320px
+
+                Default NURBS curve.
+
+           - .. figure:: /images/modeling_curves_properties_data_nurbs-cyclic.png
+                :width: 320px
+
+                A NURBS curve with Cyclic applied.
 
    Bézier
       Makes the NURBS curve act like a Bézier curve.
    Endpoint
       Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
-      .. figure:: /images/modeling_curves_properties_data_nurbs-endpoint.png
+      .. list-table::
 
-         A NURBS curve with Endpoint enabled.
+         * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
+                :width: 320px
+
+                Default NURBS curve.
+
+           - .. figure:: /images/modeling_curves_properties_data_nurbs-endpoint.png
+                :width: 320px
+
+                A NURBS curve with Endpoint enabled.
 
 .. _modeling-curve-order:
 
@@ -160,6 +204,14 @@ Order
    influence over a greater relative proportion of the curve.
    The valid range of *Order* values is 2-6 depending on the number of control points present in the curve.
 
-   .. figure:: /images/modeling_curves_properties_data_nurbs-order.png
+   .. list-table::
 
-      NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).
+      * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
+             :width: 320px
+
+             NURBS curves with orders of 2.
+
+        - .. figure:: /images/modeling_curves_properties_data_nurbs-order.png
+             :width: 320px
+
+             NURBS curves with orders of 4.
