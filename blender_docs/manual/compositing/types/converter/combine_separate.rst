@@ -63,7 +63,7 @@ This node has no properties.
 Examples
 --------
 
-.. figure:: /images/compositing_types_converter_combine-separate_example-combine-rgba.jpg
+.. figure:: /images/compositing_types_converter_combine-separate_example-combine-rgba.png
    :width: 600px
 
 In this first example, we take the Alpha channel and blur it,

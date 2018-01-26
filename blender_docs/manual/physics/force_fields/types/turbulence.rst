@@ -20,7 +20,7 @@ similar to jets of water or geysers under the ocean.
 Options
 =======
 
-.. figure:: /images/physics_force-fields_types_turbulence_panel.jpg
+.. figure:: /images/physics_force-fields_types_turbulence_panel.png
 
    UI for a Turbulence force field.
 

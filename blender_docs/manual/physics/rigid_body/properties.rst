@@ -3,12 +3,6 @@
 Rigid Body Properties
 *********************
 
-.. figure:: /images/physics_rigid-body_properties_panel.jpg
-   :width: 400px
-
-   Default rigid body panel.
-
-
 Rigid Body
 ==========
 
@@ -16,6 +10,10 @@ Rigid Body
    :class: refbox
 
    | Panel:    :menuselection:`Physics --> Rigid Body`
+
+.. figure:: /images/physics_rigid-body_properties_panel.png
+
+   Default rigid body panel.
 
 Type
    Role of the rigid body in the simulation.
@@ -58,7 +56,9 @@ Rigid Body Collisions
 
    | Panel:    :menuselection:`Physics --> Rigid Body Collisions`
 
-Rigid Body Collisions panel.
+.. figure:: /images/physics_rigid-body_properties_collisions.png
+
+   Rigid Body Collisions panel.
 
 
 Collision Shapes
@@ -166,6 +166,10 @@ Rigid Body Dynamics
    :class: refbox
 
    | Panel:    :menuselection:`Physics --> Rigid Body Dynamics`
+
+.. figure:: /images/physics_rigid-body_properties_dynamics.png
+
+   Rigid Body Dynamics panel.
 
 Used to control the physics of the rigid body simulation.
 This panel is available only for *Active* type of rigid bodies.

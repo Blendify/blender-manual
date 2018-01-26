@@ -8,7 +8,7 @@ Emission
 
    | Panel:    :menuselection:`Particle System --> Emission`
 
-.. figure:: /images/physics_particles_hair_emission_settings.jpg
+.. figure:: /images/physics_particles_hair_emission_settings.png
 
    Hair particle system settings.
 

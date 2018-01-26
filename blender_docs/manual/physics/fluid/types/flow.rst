@@ -18,7 +18,7 @@ Inflow
    | Panel:    :menuselection:`Physics --> Fluid`
    | Type:     Inflow
 
-.. figure:: /images/physics_fluid_types_flow_inflow.jpg
+.. figure:: /images/physics_fluid_types_flow_inflow.png
 
    Fluid Inflow Settings.
 
@@ -50,7 +50,7 @@ Outflow
    | Panel:    :menuselection:`Physics --> Fluid`
    | Type:     Outflow
 
-.. figure:: /images/physics_fluid_types_flow_outflow.jpg
+.. figure:: /images/physics_fluid_types_flow_outflow.png
 
    Fluid Outflow Settings.
 

@@ -10,8 +10,7 @@ Fluid Object
    | Panel:    :menuselection:`Physics --> Fluid`
    | Type:     Fluid
 
-.. figure:: /images/physics_fluid_types_fluid-object_fluid-panel.jpg
-   :width: 300px
+.. figure:: /images/physics_fluid_types_fluid-object_fluid-panel.png
 
    Fluid object settings.
 

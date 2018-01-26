@@ -9,7 +9,7 @@ Rotation
 
    | Panel:    :menuselection:`Particle System --> Rotation`
 
-.. figure:: /images/physics_particles_emitter_rotation_panel.jpg
+.. figure:: /images/physics_particles_emitter_rotation_panel.png
 
    Particles rotation settings.
 

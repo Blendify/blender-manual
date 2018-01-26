@@ -42,8 +42,7 @@ But you can limit their influence radius by changing there *Minimum Distance* (s
 Options
 =======
 
-.. figure:: /images/physics_force-fields_types_curve-guide_panel.jpg
-   :width: 400px
+.. figure:: /images/physics_force-fields_types_curve-guide_panel.png
 
    UI for a Curve Guide force field.
 

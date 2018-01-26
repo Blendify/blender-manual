@@ -18,7 +18,7 @@ The *Force* field is the simplest of the fields. It gives a constant force towar
 Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
-.. figure:: /images/physics_force-fields_types_force_panel.jpg
+.. figure:: /images/physics_force-fields_types_force_panel.png
 
    UI for a Force force field.
 

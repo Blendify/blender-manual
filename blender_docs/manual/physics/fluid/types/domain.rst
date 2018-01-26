@@ -40,7 +40,7 @@ This object will be *replaced* by the fluid during the simulation.
 Options
 -------
 
-.. figure:: /images/physics_fluid_types_domain_panels.jpg
+.. figure:: /images/physics_fluid_types_domain_panels.png
 
    Fluid Domain Settings.
 
@@ -150,7 +150,7 @@ Fluid World
    | Type:     Domain
    | Panel:    :menuselection:`Physics --> Fluid World`
 
-.. figure:: /images/physics_fluid_types_domain_world.jpg
+.. figure:: /images/physics_fluid_types_domain_world.png
 
    The Fluid World panel.
 
@@ -270,8 +270,7 @@ Fluid Boundary
    | Type:     Domain
    | Panel:    :menuselection:`Physics --> Fluid Boundary`
 
-.. figure:: /images/physics_fluid_types_domain_boundary-panel.jpg
-   :width: 300px
+.. figure:: /images/physics_fluid_types_domain_boundary-panel.png
 
    The Fluid Boundary panel.
 

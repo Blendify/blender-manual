@@ -22,7 +22,7 @@ of target shapes. At the same time, as much as possible of the natural fluid mot
 Options
 =======
 
-.. figure:: /images/physics_fluid_types_control_panel.jpg
+.. figure:: /images/physics_fluid_types_control_panel.png
 
    Fluid control options.
 

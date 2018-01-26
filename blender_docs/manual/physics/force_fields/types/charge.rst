@@ -19,7 +19,7 @@ like real particles with a charge.
 This mean this field has only an effect on particles that have also a *Charge* field
 (else, they have no "charge", and hence are unaffected)!
 
-.. figure:: /images/physics_force-fields_types_charge_panel.jpg
+.. figure:: /images/physics_force-fields_types_charge_panel.png
 
    UI for a Charge force field.
 
