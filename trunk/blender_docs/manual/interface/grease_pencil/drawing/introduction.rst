@@ -11,6 +11,7 @@ This panel can also be used to customize the color, opacity and thickness of the
 Changes to these settings will affect all strokes on the current layer.
 
 .. figure:: /images/interface_grease-pencil_drawing_introduction_example-simple.png
+   :width: 620px
 
    An example of Blender's Grease Pencil.
 
@@ -111,7 +112,6 @@ Stroke Placement
 ================
 
 .. figure:: /images/interface_grease-pencil_drawing_introduction_tools-panel.png
-   :figwidth: 148px
    :align: right
 
    Grease Pencil panel.

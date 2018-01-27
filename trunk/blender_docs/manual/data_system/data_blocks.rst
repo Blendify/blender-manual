@@ -25,8 +25,7 @@ Some common characteristics:
 When doing more complex projects, managing data-blocks becomes more important,
 especially when inter-linking blend-files.
 
-.. figure:: /images/data-system_data-blocks_view.jpg
-   :width: 400px
+.. figure:: /images/data-system_data-blocks_view.png
 
    Data-blocks view.
 
@@ -143,7 +142,6 @@ Data-Block Types
 
 .. figure:: /images/data-system_data-blocks_id-types.png
    :align: right
-   :width: 250px
 
    Data-blocks types with their icon.
 

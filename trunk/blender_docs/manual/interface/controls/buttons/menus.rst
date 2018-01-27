@@ -35,12 +35,12 @@ simply :kbd:`RMB` click on the header and enable it to collapse.
 .. list-table::
 
    * - .. figure:: /images/interface_controls_buttons_menus_header-menu-expand.png
-          :width: 320px
+          :width: 310px
 
           Right-click on any of the header menus.
 
      - .. figure:: /images/interface_controls_buttons_menus_header-menu-collapsed.png
-          :width: 320px
+          :width: 310px
 
           Access the menu from the collapsed icon.
 

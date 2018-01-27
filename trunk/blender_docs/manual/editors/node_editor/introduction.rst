@@ -4,6 +4,7 @@ Introduction
 ************
 
 .. figure:: /images/editors_node-editor_introduction_example.jpg
+   :width: 620px
 
    The Node Editor.
 

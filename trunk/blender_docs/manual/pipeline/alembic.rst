@@ -41,7 +41,7 @@ Exporting to Alembic Files
 
 This section describes the effect of the different export options.
 
-.. figure:: /images/pipeline_alembic_export-options.png
+.. figure:: /images/pipeline_alembic_export-panel-scene-options.png
    :align: right
 
    Alembic Export options.
@@ -82,6 +82,11 @@ Flatten Hierarchy
    When enabled, parent/child relations are not exported, and transformations are all written in
    world coordinates.
 
+.. figure:: /images/pipeline_alembic_export-panel-object-options.png
+   :align: right
+
+   Object Options.
+
 
 Object Options
 --------------
@@ -105,6 +110,11 @@ Apply Subdivision Surface
    TODO 2.78/9: figure out & describe what this does.
 Triangulate
    Triangulates the mesh before writing to Alembic.
+
+.. figure:: /images/pipeline_alembic_export-panel-particle-systems.png
+   :align: right
+
+   Object Options.
 
 
 Particle Systems
