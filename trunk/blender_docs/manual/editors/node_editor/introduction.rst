@@ -22,18 +22,15 @@ In the list below it shows a list of different types of node trees and where eac
    * - Icon
      - Name
      - Documentation
-   * - .. figure:: /images/icons_material.png
-          :width: 35px
+   * - .. figure:: /images/editors_node-editor_introduction_icons-material.png
      - Material Nodes
      - Because there are two different render engines documentation is split between
        :doc:`Blender Internal </render/blender_render/materials/nodes/index>` and
        :doc:`Cycles </render/cycles/nodes/index>`.
-   * - .. figure:: /images/icons_render-layers.png
-          :width: 35px
+   * - .. figure:: /images/editors_node-editor_introduction_icons-render-layers.png
      - Composite Nodes
      - Documentation can be found in the :doc:`Compositing </compositing/index>` section.
-   * - .. figure:: /images/icons_texture.png
-          :width: 35px
+   * - .. figure:: /images/editors_node-editor_introduction_icons-texture.png
      - Texture Nodes
      - Texture Nodes are covered
        in the :doc:`Blender Internal </render/blender_render/textures/nodes/introduction>` docs.

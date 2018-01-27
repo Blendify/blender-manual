@@ -34,12 +34,12 @@ simply :kbd:`RMB` click on the header and enable it to collapse.
 
 .. list-table::
 
-   * - .. figure:: /images/interface_controls_buttons_menus_header-menu-expand.jpg
+   * - .. figure:: /images/interface_controls_buttons_menus_header-menu-expand.png
           :width: 320px
 
           Right-click on any of the header menus.
 
-     - .. figure:: /images/interface_controls_buttons_menus_header-menu-collapsed.jpg
+     - .. figure:: /images/interface_controls_buttons_menus_header-menu-collapsed.png
           :width: 320px
 
           Access the menu from the collapsed icon.
@@ -62,7 +62,7 @@ The options are shown in a pop-up. The selected option is then shown as active.
 Pop-Up Menus
 ============
 
-.. figure:: /images/interface_controls_buttons_menus_popup-menu.jpg
+.. figure:: /images/interface_controls_buttons_menus_popup-menu.png
    :align: right
 
    The Viewport Shading pop-up menu.
@@ -168,8 +168,7 @@ A pie menu is a menu whose items are spread radially around the mouse.
 Pie menus have to be activated in the User Preferences through
 :menuselection:`Add-ons --> UI --> Pie Menus Official`.
 
-.. figure:: /images/interface_controls_buttons_menus_pie-menu.jpg
-   :width: 350px
+.. figure:: /images/interface_controls_buttons_menus_pie-menu.png
 
    The shade pie menu.
 

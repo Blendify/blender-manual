@@ -1,4 +1,4 @@
-.. |material-icon| image:: /images/icons_material.png
+.. |material-icon| image:: /images/editors_node-editor_introduction_icons-material.png
    :width: 1.1em
 
 ********************

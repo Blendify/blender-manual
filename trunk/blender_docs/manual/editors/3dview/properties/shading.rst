@@ -13,7 +13,7 @@ Viewport Shading
 
    | Header:   :menuselection:`Viewport Shading`
 
-.. figure:: /images/interface_controls_buttons_menus_popup-menu.jpg
+.. figure:: /images/interface_controls_buttons_menus_popup-menu.png
    :align: right
 
    The Viewport Shading menu.

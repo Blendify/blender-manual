@@ -76,12 +76,17 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 
 .. _fig-interface-redo-last:
 
-.. figure:: /images/interface_undo-redo_last.png
+.. list-table:: Redo Last.
 
-   Redo last.
+   * - .. figure:: /images/interface_undo-redo_redo-last-object-mode.png
+          :width: 320px
 
-   Left Image: Redo Last- Rotation (Object Mode, 60 degrees),
-   Right Image: Redo Last- Scale (Edit Mode, Resize face).
+          Redo Last - Rotation (Object Mode, 60 degrees).
+
+     - .. figure:: /images/interface_undo-redo_redo-last-edit-mode.png
+          :width: 320px
+
+          Redo Last - Scale (Edit Mode, Resize face).
 
 .. tip:: Operations using Redo Last
 
@@ -145,11 +150,11 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 
           Suzanne.
 
-     - .. figure:: /images/interface_undo-redo_repeat-last2.jpg
+     - .. figure:: /images/interface_undo-redo_repeat-last2.png
 
           After a :kbd:`Shift-D` and move.
 
-     - .. figure:: /images/interface_undo-redo_repeat-last3.jpg
+     - .. figure:: /images/interface_undo-redo_repeat-last3.png
 
           After a :kbd:`Shift-R`.
 

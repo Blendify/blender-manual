@@ -1,4 +1,4 @@
-.. |texture-button| image:: /images/icons_texture.png
+.. |texture-button| image:: /images/editors_node-editor_introduction_icons-texture.png
    :width: 1.1em
 
 ************
