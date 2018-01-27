@@ -1,4 +1,4 @@
-.. |info-button| image:: /images/icons_info.png
+.. |info-button| image:: /images/game-engine_logic_states_icon-info.png
    :width: 1.1em
 
 ******

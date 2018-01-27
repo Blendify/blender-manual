@@ -1,8 +1,8 @@
 .. (todo move) merge with introduction
 
-.. |true-button| image:: /images/icons_sensor-true.png
+.. |true-button| image:: /images/game-engine_logic_sensors_common-options_icons-true.png
    :width: 1.1em
-.. |false-button| image:: /images/icons_sensor-false.png
+.. |false-button| image:: /images/game-engine_logic_sensors_common-options_icons-false.png
    :width: 1.1em
 
 *********************
