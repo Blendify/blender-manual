@@ -20,6 +20,10 @@ See Tab. :ref:`tab-view3d-modes` below for details.
 You set the current mode in the *Mode* selector of *3D View* header
 (see Fig. :ref:`fig-view3d-mode-select`).
 
+.. container:: lead
+
+   .. clear
+
 .. note::
 
    You can only select objects in *Object Mode*.
@@ -40,7 +44,7 @@ Modes might affect many things in Blender:
 .. list-table:: Blender's Modes
    :header-rows: 1
    :class: valign
-   :widths: 10 25 15 50
+   :widths: 10 24 16 50
 
    * - Icon
      - Name

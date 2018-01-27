@@ -79,12 +79,12 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 .. list-table:: Redo Last.
 
    * - .. figure:: /images/interface_undo-redo_redo-last-object-mode.png
-          :width: 320px
+          :width: 310px
 
           Redo Last - Rotation (Object Mode, 60 degrees).
 
      - .. figure:: /images/interface_undo-redo_redo-last-edit-mode.png
-          :width: 320px
+          :width: 310px
 
           Redo Last - Scale (Edit Mode, Resize face).
 
@@ -196,4 +196,4 @@ but the list contains only repeated actions. To access Repeat History, use :kbd:
 
 .. seealso::
 
-   Troubleshooting section on :doc:`Recovering your lost work </troubleshooting/recover>`
+   Troubleshooting section on :doc:`Recovering your lost work </troubleshooting/recover>`.

@@ -56,7 +56,6 @@ Tools
       Causes the curve to stay horizontal before the first point and after the last point.
 
       .. figure:: /images/interface_controls_templates_curve_extend-horizontal.png
-         :width: 150px
 
          Extend Horizontal.
 
@@ -65,7 +64,6 @@ Tools
       based on the shape of the curve.
 
       .. figure:: /images/interface_controls_templates_curve_extend-extrapolate.png
-         :width: 150px
 
          Extend Extrapolated.
 
