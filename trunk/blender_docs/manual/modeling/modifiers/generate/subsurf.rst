@@ -50,14 +50,14 @@ Type
       Can be used, for example, to increase base mesh resolution when using displacement maps.
 
 Subdivisions
-   Recursively adds more geometry. For details on polygon counts, see the :ref:`subsurf-performance` section.
+   Recursively adds more geometry. For details on polygon counts, see the `Performance Considerations`_ section.
 
    View
       The number of subdivision levels shown in the 3D View.
    Render
       The number of subdivision levels shown in renders.
 
-The right combination of these settings will allow you to keepa fast and lightweight approximation of your model
+The right combination of these settings will allow you to keep a fast and lightweight approximation of your model
 when interacting with it in 3D, but use a higher quality version when rendering.
 
 .. tip::
@@ -80,8 +80,6 @@ Options
    Opensubdiv
       See the `OpenSubdiv`_ section.
 
-
-.. _modeling-modifiers-opensubdiv:
 
 OpenSubdiv
 ==========
@@ -150,8 +148,6 @@ which allow the placement of more Loops
 to control the sharpness/smoothness of the resultant mesh.
 
 
-.. _subsurf-performance:
-
 Performance Considerations
 ==========================
 
@@ -166,7 +162,7 @@ because the render is generated using your Object Data,
 
 .. tip::
 
-   To improve performance in the viewport try enabling :ref:`OpenSubdiv <modeling-modifiers-opensubdiv>`
+   To improve performance in the viewport try enabling `OpenSubdiv`_
    or if you are using the Cycles render engine consider using
    :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`
 

@@ -81,7 +81,7 @@ Example
    Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
 
 An example blend-file, in fact, the one used to create the image above,
-`is available here. <https://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__.
+`is available here <https://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__.
 The blend-file takes one image from the Render Layer node "Blurs" and blurs it while offsetting it *Translate*
 and then combining it *Alpha Over* to build up the progressive sequence of blurs.
 Play with the Value and Multiply nodes to change the amount of blurring that each algorithm does.
