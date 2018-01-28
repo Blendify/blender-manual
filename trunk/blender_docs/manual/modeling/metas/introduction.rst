@@ -41,8 +41,8 @@ In Object Mode, the calculated mesh is shown, along with a black "selection ring
 
 .. _fig-meta-ball-example:
 
-.. figure:: /images/modeling_metas_introduction_influence-selection.jpg
-   :width: 350px
+.. figure:: /images/modeling_metas_introduction_influence-selection.png
+   :width: 450px
 
    Meta Ball example.
 

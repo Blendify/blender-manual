@@ -43,12 +43,15 @@ with the above mentioned configuration applied as follows:
 
 .. _fig-meta-intro-underlying:
 
-.. figure:: /images/modeling_metas_properties_underlying-structure.png
-   :width: 600px
+.. list-table::
 
-   Underlying.
+   * - .. figure:: /images/modeling_metas_properties_underlying-structure.png
 
-   Left: Underlying structure, Right: the shape.
+          Underlying structure.
+
+     - .. figure:: /images/modeling_metas_properties_underlying-structure-shape.png
+
+          Meta cube shape.
 
 You can clearly see the underlying cubic structure that gives the meta cube its shape.
 
@@ -69,14 +72,14 @@ A negative meta will push away or repel the meshes of positive *Meta* objects.
 
 .. _fig-meta-intro-positive:
 
-.. figure:: /images/modeling_metas_properties_intersection.jpg
-   :width: 400px
+.. figure:: /images/modeling_metas_editing_family.png
+   :width: 450px
 
-   Positive.
+   Positive influence of three meta balls.
 
 A *positive* influence is defined as an attraction,
 meaning the meshes will stretch towards each other as the *rings of influence* intersect.
-Fig. :ref:`fig-meta-intro-positive` shows two meta balls' *rings of influence*
+Fig. :ref:`fig-meta-intro-positive` shows three meta balls' *rings of influence*
 intersecting with a *positive* influence.
 
 Notice how the meshes have pulled towards one another.

@@ -16,7 +16,6 @@ When in *Edit Mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
 .. figure:: /images/modeling_metas_properties_active-element-panel.png
-   :width: 300px
 
    Active element panel.
 
@@ -54,12 +53,12 @@ select it and activate *Scale* mode with :kbd:`S`.
 .. _fig-meta-edit-stiffness:
 
 .. figure:: /images/modeling_metas_editing_stiffness.png
-   :width: 630px
+   :width: 450px
 
    Stiffness.
 
-In Fig. :ref:`fig-meta-edit-stiffness`, the meta ball labeled "A",
-has a smaller *Stiffness* value than the one labeled "B".
+In Fig. :ref:`fig-meta-edit-stiffness`, the left meta ball,
+has a smaller *Stiffness* value than the right one.
 As you can see, the radius (green ring) is different for each of them.
 
 
@@ -68,8 +67,8 @@ Negative Influence
 
 .. _fig-meta-ball-negative:
 
-.. figure:: /images/modeling_metas_editing_negative-influence.jpg
-   :width: 630px
+.. figure:: /images/modeling_metas_editing_negative-influence.png
+   :width: 450px
 
    Negative.
 
@@ -106,8 +105,7 @@ Clear and simple!
 Conversion
 ==========
 
-.. figure:: /images/modeling_metas_editing_convert-to-mesh.jpg
-   :width: 300px
+.. figure:: /images/modeling_metas_editing_convert-to-mesh.png
 
    Convert Menu.
 
@@ -135,12 +133,10 @@ an object's name is the one in the *Object name* field, in most panels,
 the *family* part of "MetaPlane.001" is ``MetaPlane``.
 Each meta object in the same "family" is associated with one another as discussed below.
 
-.. _fig-meta-ball-base:
+.. figure:: /images/modeling_metas_editing_family.png
+   :width: 450px
 
-.. figure:: /images/modeling_metas_editing_base-ex.jpg
-   :width: 300px
-
-   Meta ball base.
+   Meta ball family.
 
 Families of metas are controlled by a *base* meta object which is identified by
 an object name **without** a right number part. For example,
@@ -165,6 +161,13 @@ The *base* meta is effectively the parent of
 Examples
 ========
 
+.. _fig-meta-ball-base:
+
+.. figure:: /images/modeling_metas_editing_base-example.png
+   :width: 450px
+
+   Meta ball base.
+
 Fig. :ref:`fig-meta-ball-base` shows the *base* meta labeled "B".
 The other two *Meta* objects are *children*. Children's selection rings are always black,
 while the group's mesh is orange. Because the metas are grouped,
@@ -174,8 +177,8 @@ and you see that both the parent's mesh *and* all of the children's meshes are n
 
 .. _fig-meta-ball-scale:
 
-.. figure:: /images/modeling_metas_editing_base-scale-ex.png
-   :width: 300px
+.. figure:: /images/modeling_metas_editing_base-example-scale.png
+   :width: 450px
 
    Scaling the "base".
 

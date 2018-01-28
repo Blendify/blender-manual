@@ -14,8 +14,8 @@ Primitives
 There are five predefined meta "primitives" (or configurations)
 available in the :menuselection:`Add --> Meta` sub-menu:
 
-.. figure:: /images/modeling_metas_primitives_all-five.jpg
-   :width: 600px
+.. figure:: /images/modeling_metas_primitives_all-five.png
+   :width: 620px
 
    The five Meta primitives.
 
