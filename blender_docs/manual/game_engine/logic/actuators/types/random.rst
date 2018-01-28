@@ -47,7 +47,7 @@ Float uniform
 Float constant
    Returns a constant value specified in the *Value* field.
 Int Poisson
-   Random numbers from a `Poisson distribution <https://en.wikipedia.org/wiki/Poisson_distribution>`.
+   Random numbers from a `Poisson distribution <https://en.wikipedia.org/wiki/Poisson_distribution>`__.
    The mean of the equation is defined by the *Mean* value.
 Int uniform
    Random values selected uniformly between a minimum (*Min*) and maximum (*Max*) values.

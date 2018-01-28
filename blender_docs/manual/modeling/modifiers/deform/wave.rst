@@ -124,7 +124,7 @@ Width
    This has an indirect effect on the ripple amplitude. If the pulses are too near to each other,
    the wave may not reach the zero Z-position, so in this case Blender actually lowers the whole wave
    so that the minimum is zero and, consequently, the maximum is lower than the expected amplitude.
-   See :ref:`modifier-wave-detailhint` below.
+   See `Technical Details and Hints`_ below.
 Narrowness
    The actual width of each pulse: the higher the value the narrower the pulse.
    The actual width of the area in which the single pulse is apparent is given by 4/ *Narrowness*.
@@ -136,8 +136,6 @@ Narrowness
    All the values described above must be multiplied with the corresponding *Scale* values of
    the object to get the real dimensions.
 
-
-.. _modifier-wave-detailhint:
 
 Technical Details and Hints
 ===========================
