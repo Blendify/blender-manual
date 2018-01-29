@@ -76,9 +76,43 @@ Image
 Example
 =======
 
-.. figure:: /images/compositing_types_filter_blur-node_example.jpg
+.. list-table:: Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
 
-   Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
+   * - .. figure:: /images/compositing_types_filter_blur-node_example-1-original.png
+
+          Original image.
+
+     - .. figure:: /images/compositing_types_filter_blur-node_example-2-flat.png
+
+          Flat.
+
+     - .. figure:: /images/compositing_types_filter_blur-node_example-3-tent.png
+
+          Tent.
+
+   * - .. figure:: /images/compositing_types_filter_blur-node_example-4-quadratic.png
+
+          Quadratic.
+
+     - .. figure:: /images/compositing_types_filter_blur-node_example-5-cubic.png
+
+          Cubic.
+
+     - .. figure:: /images/compositing_types_filter_blur-node_example-6-gaussian.png
+
+          Gaussian.
+
+   * - .. figure:: /images/compositing_types_filter_blur-node_example-7-fast-gaussian.png
+
+          Fast Gaussian.
+
+     - .. figure:: /images/compositing_types_filter_blur-node_example-8-catmull-rom.png
+
+          Catmull-Rom.
+
+     - .. figure:: /images/compositing_types_filter_blur-node_example-9-mitch.png
+
+          Mitch.
 
 An example blend-file, in fact, the one used to create the image above,
 `is available here <https://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__.

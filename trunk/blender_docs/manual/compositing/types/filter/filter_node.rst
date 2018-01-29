@@ -54,6 +54,36 @@ Image
 Example
 =======
 
-.. figure:: /images/compositing_types_filter_filter-node_example.jpg
+.. list-table:: The Filter node has seven modes, shown here.
 
-   The Filter node has seven modes, shown here.
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-1-original.png
+
+          Original image.
+
+     - .. figure:: /images/compositing_types_filter_filter-node_example-2-soften.png
+
+          Soften.
+
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-3-sharpen.png
+
+          Sharpen.
+
+     - .. figure:: /images/compositing_types_filter_filter-node_example-4-laplace.png
+
+          Laplace.
+
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-5-sobel.png
+
+          Sobel.
+
+     - .. figure:: /images/compositing_types_filter_filter-node_example-6-prewitt.png
+
+          Prewitt.
+
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-7-kirsch.png
+
+          Kirsch.
+
+     - .. figure:: /images/compositing_types_filter_filter-node_example-8-shadow.png
+
+          Shadow.
