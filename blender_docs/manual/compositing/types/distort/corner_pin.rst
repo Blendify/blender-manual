@@ -44,4 +44,8 @@ Example
 
    An example of the Corner Pin node.
 
+.. figure:: /images/compositing_types_distort_corner-pin_example-result.jpg
+
+   An example of the distorted image.
+
 In the example above, the image of the bird is distorted by the vectors specified by the Corner Pin node.

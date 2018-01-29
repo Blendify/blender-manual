@@ -157,7 +157,6 @@ it allows you to have more complex relationships between your shape keys.
           :width: 320px
 
           Key1 shape key.
-          :width: 320px
 
    * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-2a.png
           :width: 320px

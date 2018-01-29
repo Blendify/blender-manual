@@ -41,8 +41,8 @@ These are described more fully in the next sections.
 Getting Started
 ===============
 
-.. figure:: /images/editors_uv-image_uv_editing_unwrapping_introduction_screenlayout.jpg
-   :width: 320px
+.. figure:: /images/editors_uv-image_uv_editing_unwrapping_introduction_screenlayout.png
+   :width: 620px
 
    UV Editing screen layout.
 
