@@ -31,7 +31,8 @@ Type
    Quadratic
       Interpolates the input X-coordinate quadratically.
    Easing
-      Uses a combination of quadratic and linear interpolation to return a smooth gradient from the input X-coordinate.
+      Uses a combination of quadratic and linear interpolation
+      to return a smooth gradient from the input X-coordinate.
    Diagonal
       Averages the input X- and Y-coordinates.
    Spherical

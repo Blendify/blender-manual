@@ -35,7 +35,7 @@ Source Object
 Max Distance
    When the "hand and bulged in blue line" icon button to the right is enabled,
    this is the maximum distance between source and destination to get a successful mapping.
-   If a destination item cannot find a source one within that range, then it will get no transfered data.
+   If a destination item cannot find a source one within that range, then it will get no transferred data.
 
    This allows to transfer a small sub-detailed mesh onto a more complete one
    (e.g. from a "hand" mesh towards a "full body" one).
@@ -63,7 +63,7 @@ Mix Mode
       Only available for a few types (vertex groups, vertex colors).
 
 Mix Factor
-   How much of the transfered data gets mixed into existing one (not supported by all data types).
+   How much of the transferred data gets mixed into existing one (not supported by all data types).
 
 Vertex Group
    Allows per-item fine control of the mix factor. Vertex group influence can be reverted using the small

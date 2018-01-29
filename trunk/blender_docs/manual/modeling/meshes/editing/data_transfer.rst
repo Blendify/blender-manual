@@ -163,7 +163,7 @@ Mix Mode
       Apply that operation, using mix factor to control how much of source or destination value to use.
       Only available for a few types (vertex groups, vertex colors).
 Mix Factor
-   How much of the transfered data gets mixed into existing one (not supported by all data types).
+   How much of the transferred data gets mixed into existing one (not supported by all data types).
 
 
 .. _bpy.ops.object.datalayout_transfer:
