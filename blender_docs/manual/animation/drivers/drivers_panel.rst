@@ -80,6 +80,7 @@ Variable Type
    Single Property
       Use the value from some RNA property.
       For example, the Ambient shading color from a material.
+      (see Fig. :ref:`fig-setup-single-property`)
       First select the type of ID-block, then the ID of the ID-block, then copy and
       paste an RNA property :kbd:`Ctrl-V`.
       See also :doc:`/data_system/custom_properties`.
@@ -116,7 +117,9 @@ Value
 Example
 =======
 
-.. figure:: /images/animation_drivers_drivers-panel_single-property.jpg
+.. _fig-setup-single-property:
+
+.. figure:: /images/animation_drivers_drivers-panel_single-property.png
 
    Setup of a Single Property.
 

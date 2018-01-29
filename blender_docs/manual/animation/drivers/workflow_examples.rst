@@ -29,7 +29,11 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
    - Transform Type -- X Location
    - Transform Space -- World Space
 
-.. figure:: /images/animation_drivers_workflow-examples_transform.jpg
+.. list-table::
+
+   * - .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
+
+     - .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
 When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left to right.
 
@@ -144,30 +148,48 @@ it allows you to have more complex relationships between your shape keys.
 
 .. list-table::
 
-   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key1.png
+   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-base.png
+          :width: 320px
 
-          Key1 must handle conflicting values from the two bones.
+          Basis shape key.
 
-     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2a.png
+     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-1.png
+          :width: 320px
 
-          Key2A has different generator coefficients so it is activated in a different range of the bone's position.
+          Key1 shape key.
+          :width: 320px
 
-   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2b.png
+   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-2a.png
+          :width: 320px
 
-          Key2B is the same as Key2A, but is controlled by the second bone.
+          Key2a shape key.
 
-     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-retracted.png
+     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-2b.png
+          :width: 320px
 
-          When both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
-
-   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-extended.png
-
-     - ..
+          Key2b shape key.
 
 The Basis shape key has the stacks fully retracted. Key1 has the base fully extended.
 Key2A has the left stack fully extended. Key2B has the right stack fully extended.
 Key2A and Key2B are both relative to Key1
 (as you can see in the field in the bottom right of the Shape Keys panel).
+
+.. list-table::
+
+   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key1.png
+          :width: 320px
+
+          Key1 must handle conflicting values from the two bones.
+
+     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2a.png
+          :width: 320px
+
+          Key2A has different generator coefficients so it is activated in a different range of the bone's position.
+
+     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2b.png
+          :width: 320px 
+
+          Key2B is the same as Key2A, but is controlled by the second bone.
 
 The value of Key1 is bound to the position of bones by a driver with two variables.
 Each variable uses the world Z coordinate of a bone and
@@ -183,6 +205,18 @@ the top of the left stack will move with bone.L (mostly).
 The value of Key2B is bound to the position of "Bone.R".
 Its generator parameters are similar to Key2A so that
 the top of the right stack will move with bone.R (mostly).
+
+.. list-table::
+
+   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-retracted.png
+          :width: 320px
+
+          When both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
+
+     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-extended.png
+          :width: 320px
+
+          Extended.
 
 Since it is quite easy for bone.L and bone.R to be in positions that
 indicate conflicting values for Key1 there will be times
