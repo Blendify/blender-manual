@@ -41,9 +41,9 @@ a fraction above the *Threshold*. Fig. :ref:`fig-meta-intro-underlying` is a *Me
 with the above mentioned configuration applied as follows:
 *Resolution* of 0.410, *Threshold* of 5.0 and *Stiffness* a fraction above at 5.01.
 
-.. _fig-meta-intro-underlying:
-
 .. list-table::
+
+   .. _fig-meta-intro-underlying:
 
    * - .. figure:: /images/modeling_metas_properties_underlying-structure.png
 
