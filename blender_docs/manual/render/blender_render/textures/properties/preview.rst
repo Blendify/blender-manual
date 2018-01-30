@@ -3,8 +3,8 @@
 Preview
 *******
 
-.. figure:: /images/render_blender-render_textures_properties_preview_panel.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_textures_types_procedural_noise_panel.png
+   :width: 259px
 
    Preview panel.
 

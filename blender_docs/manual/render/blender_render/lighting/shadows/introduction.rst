@@ -53,7 +53,7 @@ Lamps: Ray-traced Shadows
 =========================
 
 .. figure:: /images/render_blender-render_lighting_shadows_introduction_shadow-ray.png
-   :width: 310px
+   :width: 277px
 
    Ray Shadow enabled for a lamp.
 
@@ -97,12 +97,12 @@ Lamps: Buffered Shadows
 =======================
 
 .. figure:: /images/render_blender-render_lighting_lamps_spot_buffered-shadow_panel.png
-   :width: 310px
+   :width: 372px
 
    Buffer Shadow enabled for a Spot lamp.
 
-.. figure:: /images/render_blender-render_lighting_shadows_introduction_panel-cast-buffer.jpg
-   :width: 310px
+.. figure:: /images/render_blender-render_lighting_shadows_introduction_panel-cast-buffer.png
+   :width: 372px
 
    Cast Buffer Shadows enabled for a material.
 

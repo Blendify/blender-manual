@@ -17,7 +17,7 @@ and the RGB values for the surface contribute nothing to the pixel's appearance;
 the surface is fully opaque,
 and the color of the surface determines the final color of the pixel.
 
-.. figure:: /images/render_blender-render_materials_properties_transparency_panel.jpg
+.. figure:: /images/render_blender-render_materials_properties_transparency_panel.png
 
    Transparency Panel.
 
@@ -60,6 +60,8 @@ only the background is seen -- the object is transparent
 This is useful for making textures of solid or semi-transparent objects from photographic
 reference material, i.e. a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
+
+.. (ToDo) check out this link
 
 .. seealso::
 
