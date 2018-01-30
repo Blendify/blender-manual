@@ -4,8 +4,8 @@
 Volume Rendering
 ****************
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_activate.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_materials_special-effects_volume_activate.png
+   :width: 305px
 
    Activating Volume rendering.
 
@@ -287,7 +287,7 @@ Of course you can always break the rules too!
 Lighting
 ========
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_lighting-panel.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_lighting-panel.png
 
    Lighting options.
 
@@ -338,7 +338,7 @@ For volume rendering you only have:
 Integration
 ===========
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_integration-panel.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_integration-panel.png
 
    Integration options.
 
@@ -362,7 +362,7 @@ Depth Cutoff
 Options
 =======
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_options-panel.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_options-panel.png
 
    Material volume options.
 
@@ -387,8 +387,8 @@ Create the Material
 
 The material must be a volumetric material with a Density of 0, and a high Density Scale.
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_tab.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_materials_special-effects_volume_tab.png
+   :width: 305px
 
    The Material Settings.
 
@@ -407,7 +407,7 @@ you can use a volumetric texture known as
 :doc:`Voxel Data </render/blender_render/textures/types/volume/index>`.
 You must remember to set the domain object and change the influence.
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-texture-tab0.jpg
+.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-texture-tab0.png
 
    The texture settings.
 
@@ -434,8 +434,8 @@ Smoke Simulator with Fire Texture
 You can also turn your smoke into fire with another texture! To make fire,
 turn up the Emission Value in the Materials panel.
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-material-tab.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-material-tab.png
+   :width: 305px
 
    The Fire material.
 
@@ -443,8 +443,8 @@ Then, add another texture (keep the old texture or the smoke will not show).
 Give it a fiery color ramp- which colors based on the alpha,
 and change the influence to emission and emission color. Change the blend to Multiply.
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-texture-tab.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_materials_special-effects_volume_fire-texture-tab.png
+   :width: 305px
 
    The fire texture settings.
 

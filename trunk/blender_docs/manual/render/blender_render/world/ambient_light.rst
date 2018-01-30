@@ -11,7 +11,7 @@ The difference is that Environment lighting takes into account
 the "ambient" parameter of the material shading settings,
 which indicates the amount of ambient light/color that that material receives.
 
-.. figure:: /images/render_blender-render_world_ambient-light_panel.jpg
+.. figure:: /images/render_blender-render_world_ambient-light_panel.png
 
    Environment Lighting panel.
 

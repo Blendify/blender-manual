@@ -4,8 +4,8 @@
 Halo Rendering
 **************
 
-.. figure:: /images/render_blender-render_materials_special-effects_halo_activate.jpg
-   :width: 300px
+.. figure:: /images/render_blender-render_materials_special-effects_halo_activate.png
+   :width: 305px
 
    Activating halo rendering.
 
