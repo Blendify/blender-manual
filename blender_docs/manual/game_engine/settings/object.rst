@@ -77,7 +77,7 @@ Below are some example names that the tool will recognize.
 Generate
 ^^^^^^^^
 
-.. figure:: /images/game-engine_settings_object_level-of-detail-generation.jpg
+.. figure:: /images/game-engine_settings_object_level-of-detail-generation.png
 
 This tool generates and sets up levels of details based on the selected object.
 Generation is done using the Decimate Modifier.

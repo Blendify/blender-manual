@@ -7,7 +7,7 @@ Game Materials
 Game Settings
 =============
 
-.. figure:: /images/game-engine_materials_panel.jpg
+.. figure:: /images/game-engine_materials_panel.png
 
    Game Settings Panel.
 
