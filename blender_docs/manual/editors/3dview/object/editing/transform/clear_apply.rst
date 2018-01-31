@@ -57,22 +57,23 @@ Apply Object Transformations
    :class: refbox
 
    | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Apply -->`
+   | Menu:     :menuselection:`Object --> Apply --> Location / Rotation / Scale`
    | Hotkey:   :kbd:`Ctrl-A`
 
-Applying transform values essentially resets the values of object's position, rotation,
-or scale, but does not actually do anything to the object.
-The object origin point is moved to the global origin and the transform values are set to zero.
-In terms of scale, the scale values return to 1.
+Applying transform values essentially resets the values of object's location, rotation or scale,
+while visually keeping the object data in-place.
 
-To apply a transform select the *Apply* sub-menu from the *Object menu* or
-use the shortcut :kbd:`Ctrl-A` and select the appropriate transform to apply.
-The Operator panel lets you choose the combination of transformations to apply.
+The object origin point is moved to the global origin, to rotation is cleared and scale values are set to 1.
+
+For simple cases you wont notice any difference the 3D view or rendered output,
+however modifiers and constraints may depend on object transformation.
+
+When running *Apply Transform* the *Operator* panel lets you choose the combination of transformations to apply.
 
 .. warning:: Armature Objects
 
    While applying transformations to armatures is supported,
-   this does **not** apply to their pose position, animation curves or constraints.
+   this does **not** apply to their pose location, animation curves or constraints.
 
    This tool should be used before rigging and animation.
 
