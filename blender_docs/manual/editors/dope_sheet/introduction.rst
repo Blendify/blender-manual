@@ -3,8 +3,8 @@
 Introduction
 ************
 
-.. figure:: /images/editors_dope-sheet_introduction_overview.jpg
-   :width: 400px
+.. figure:: /images/editors_dope-sheet_introduction_overview.png
+   :width: 620px
 
    The Dope Sheet.
 
@@ -20,7 +20,7 @@ Blender's *Dope Sheet* inherits a similar directive.
 Dope Sheet Modes
 ================
 
-.. figure:: /images/editors_dope-sheet_introduction_modes.jpg
+.. figure:: /images/editors_dope-sheet_introduction_modes.png
 
    Dope Sheet Modes.
 
@@ -42,7 +42,7 @@ The *Dope Sheet Editor* interface is somewhat similar to the *Graph Editor*
 one, it is divided in three regions:
 
 .. figure:: /images/editors_dope-sheet_action_editor.png
-   :width: 600px
+   :width: 670px
 
    The Action Editor with object channels.
 

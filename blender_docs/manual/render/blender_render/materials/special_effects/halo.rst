@@ -22,7 +22,7 @@ Options
 =======
 
 .. figure:: /images/render_blender-render_materials_special-effects_halo_panel.png
-   :width: 309px
+   :width: 305px
 
    Halo panels.
 

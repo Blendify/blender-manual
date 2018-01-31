@@ -28,7 +28,7 @@ Movie Clip
    Both movie files and image sequences can be used in the Clip editor.
    When a movie clip is loaded into the Clip editor, extra panels are displayed in the interface.
 
-.. figure:: /images/editors_movie-clip-editor_introduction_example.jpg
+.. figure:: /images/editors_movie-clip-editor_introduction_example.png
 
    Movie Clip Editor with an Opened Clip.
 

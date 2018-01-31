@@ -197,12 +197,12 @@ Fresnel
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_materials_properties_transparency_fresnel-settings.png
-          :width: 320px
+          :width: 310px
 
           Settings for Fresnel using ray-traced.
 
      - .. figure:: /images/render_blender-render_materials_properties_transparency_fresnel-settings-ztransp.png
-          :width: 320px
+          :width: 310px
 
           Settings for Fresnel using Z transparency.
 

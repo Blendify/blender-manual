@@ -14,7 +14,8 @@ To use the VSE, you load multiple video clips and lay them end-to-end (or in som
 inserting fades and transitions to link the end of one clip to the beginning of another.
 Finally, you can audio and synchronize the timing of the video sequence to match it.
 
-.. figure:: /images/editors_vse_introduction_screen-layout.jpg
+.. figure:: /images/editors_vse_introduction_screen-layout.png
+   :width: 620px
 
    Default Video Editing screen layout.
 

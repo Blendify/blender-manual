@@ -44,7 +44,7 @@ containing the Editors listed below:
 
    Blender's default Screen Layout with five Editors.
 
-   Info (1), 3D View (2), Outliner (3), Properties (4) and Timeline (5).
+   Info (blue), 3D View (yellow), Outliner (red), Properties (green) and Timeline (purple).
 
 
 Components of an Editor
