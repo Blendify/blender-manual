@@ -9,9 +9,9 @@ Introduction
 Objects Panel
 =============
 
-.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_introduction_objects-panel.jpg
+.. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_introduction_objects-panel.png
    :align: right
-   :width: 130px
+   :width: 195px
 
    Objects Panel.
 
@@ -36,7 +36,7 @@ Track Panel
 
 .. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_introduction_track-panel.png
    :align: right
-   :width: 130px
+   :width: 195px
 
    Track Panel.
 
@@ -123,7 +123,7 @@ Plane Track Panel
 
 .. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_introduction_plane-track-panel.png
    :align: right
-   :width: 130px
+   :width: 195px
 
    Plane Track Panel.
 

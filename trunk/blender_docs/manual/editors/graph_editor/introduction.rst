@@ -10,8 +10,8 @@ It allows you to modify the animation for any properties using
 The Graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>`,
 and *Drivers* for :doc:`Drivers </animation/drivers/index>`. Both are very similar in function.
 
-.. figure:: /images/editors_graph-editor_introduction_example.jpg
-   :width: 600px
+.. figure:: /images/editors_graph-editor_introduction_example.png
+   :width: 620px
 
    The Graph Editor.
 
@@ -149,7 +149,7 @@ Mode
 F-Curve for :doc:`Actions </animation/actions>`,
 and Drivers for :doc:`Drivers </animation/drivers/index>`.
 
-.. figure:: /images/editors_graph-editor_introduction_header-mode.jpg
+.. figure:: /images/editors_graph-editor_introduction_header-mode.png
 
    Graph Mode.
 

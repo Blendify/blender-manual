@@ -10,8 +10,8 @@ where the ability to re-time blocking is one of the main purposes of the whole e
 This mode can be accessed by change the Dope Sheet editor's *Mode* selector (found beside the menus)
 to *Grease Pencil*.
 
-.. figure:: /images/editors_dope-sheet_grease-pencil_editor.png
-   :width: 598px
+.. figure:: /images/editors_dope-sheet_introduction_overview.png
+   :width: 620px
 
 
 Channels Region
