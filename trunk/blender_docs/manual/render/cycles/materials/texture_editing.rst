@@ -35,8 +35,8 @@ Rendered
 Texture Properties
 ==================
 
-.. figure:: /images/render_cycles_materials_texture-editing_tab-menu.jpg
-   :width: 225px
+.. figure:: /images/render_cycles_materials_texture-editing_tab-menu.png
+   :width: 256px
    :align: right
 
 In the texture properties,

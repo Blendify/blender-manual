@@ -162,7 +162,7 @@ Color Space
    and on such values, no color space conversion should ever be applied.
    For such images, the color space should be set to *None*.
 
-.. figure:: /images/render_post-process_color-management_image-settings.jpg
+.. figure:: /images/render_post-process_color-management_image-settings.png
 
    Image settings for color management.
 

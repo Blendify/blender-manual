@@ -3,11 +3,6 @@
 Render Settings
 ***************
 
-.. figure:: /images/game-engine_settings_render_camera-properties.png
-   :width: 300px
-
-   Camera Properties.
-
 The camera (or cameras) used in a Blender game have a wide-ranging effect on the way in which
 the game is rendered and displayed.
 Mostly this is controlled using the Properties panel of the camera(s) used in the game.
