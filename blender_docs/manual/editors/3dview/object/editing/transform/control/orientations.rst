@@ -119,7 +119,6 @@ can be used to manage transform orientations: selecting the active orientation,
 adding and deleting custom orientations.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom-name.png
-   :width: 300px
 
    Renaming a Custom Orientation.
 
