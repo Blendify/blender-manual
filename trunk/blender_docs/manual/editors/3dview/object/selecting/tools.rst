@@ -273,7 +273,7 @@ Group
    Objects that are part of a group (rendered green with the default theme)
    will be selected if they are in one of the groups that the active object is in.
    If the active object belongs to more than one group,
-   a list will pop up so that we can select which group to select.
+   a list will pop up so that we can choose which group to select.
 Object Hooks
    Every hook that belongs to the active object.
 Pass

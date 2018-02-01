@@ -52,7 +52,7 @@ Now let us examine: Rotation around the individual origins:
 In Edit Mode
 ============
 
-In Edit Mode, setting the Pivot Point to Individual Origins produces different results when
+In Edit Mode, setting the Pivot Point to *Individual Origins* produces different results when
 the selection mode is set to Vertex, Edge or Face. For example, Vertex mode produces results
 similar to setting the pivot point to median and Edge mode often produces distorted results.
 Using Individual Origins in Face mode produces the most predictable results.
@@ -70,8 +70,8 @@ Using Individual Origins in Face mode produces the most predictable results.
           Rotation of grouped faces with the pivot point indicated by the image text.
 
 As can be seen in the images above, faces that touch each other will deform when rotated when
-the pivot point is set to Individual Origins.
-Faces that do not touch will rotate around their Individual Origins (their center).
+the pivot point is set to *Individual Origins*.
+Faces that do not touch will rotate around their *Individual Origins* (their center).
 
 .. list-table::
 

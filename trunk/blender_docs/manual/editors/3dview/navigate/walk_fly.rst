@@ -67,7 +67,7 @@ Shortcuts
 - Alternate between *free* and *gravity* modes :kbd:`Tab`.
 - Change the movement speed:
   - :kbd:`WheelUp` or :kbd:`NumpadPlus` to increase the movement speed for this open session.
-  - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to decrease the movement speed for this open session.
+  - :kbd:`WheelDown` or :kbd:`NumpadMinus` to decrease the movement speed for this open session.
   - :kbd:`Shift` (hold) -- to speed up the movement temporarily.
   - :kbd:`Alt` (hold) -- to slow down the movement temporarily.
 
