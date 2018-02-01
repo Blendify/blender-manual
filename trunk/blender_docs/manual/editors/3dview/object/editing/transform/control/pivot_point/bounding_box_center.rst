@@ -29,19 +29,27 @@ takes place relative to the location of the Object origin (indicated by the yell
 The image below shows the results of using the Bounding Box as
 the pivot point in a number of situations.
 
-For example, image A (right)
+For example, image :ref:`Single object <fig-bounding-box-center-single>` (right)
 show rotation when the Object origin is in its default position, while image
-A (left) shows the result when the Object origin has been moved.
-Image B (left) shows that when multiple Objects are selected,
+:ref:`Single object <fig-bounding-box-center-single>` (left) shows the result when the Object origin has been moved.
+Image :ref:`Multiple objects <fig-bounding-box-center-multiple>` (left) shows that when multiple Objects are selected,
 the pivot point is calculated based on the Bounding Box of all the selected Objects.
+
+.. _fig-bounding-box-center-single:
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
 
-   (A) Shows the results of Object rotation when the pivot point is set to Bounding Box.
+   Single object.
+
+   Shows the results of Object rotation when the pivot point is set to Bounding Box.
+
+.. _fig-bounding-box-center-multiple:
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_object-mode.png
 
-   (B) Shows the location of the Bounding Box (left) pivot point compared to the Median Point (right).
+   Multiple objects.
+
+   Shows the location of the Bounding Box (left) pivot point compared to the Median Point (right).
 
 
 In Edit Mode
