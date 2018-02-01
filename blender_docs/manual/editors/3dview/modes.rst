@@ -104,7 +104,7 @@ As you can see, using shortcuts to switch between modes can become quite tricky,
    The cursor becomes a brush in :doc:`Paint and Sculpt Modes </sculpt_paint/index>`.
 
 We will not go into any more detail on mode usages here, because most of them
-are tackled in there specific section.
+are tackled in their specific section.
 
 .. hint::
 
