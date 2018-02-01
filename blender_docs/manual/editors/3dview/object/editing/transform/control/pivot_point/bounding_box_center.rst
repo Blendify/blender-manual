@@ -29,18 +29,19 @@ takes place relative to the location of the Object origin (indicated by the yell
 The image below shows the results of using the Bounding Box as
 the pivot point in a number of situations.
 
-For example, images A (before rotation)
-and B show rotation when the Object origin is in its default position, while images C
-(before rotation) and D shows the result when the Object origin has been moved.
-Image E shows that when multiple Objects are selected,
+For example, image A (right)
+show rotation when the Object origin is in its default position, while image
+A (left) shows the result when the Object origin has been moved.
+Image B (left) shows that when multiple Objects are selected,
 the pivot point is calculated based on the Bounding Box of all the selected Objects.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_object-rotation.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
 
-   The grid of four images on the left (ABCD) shows the results of Object rotation
-   when the pivot point is set to Bounding Box.
-   The image to the right (E) shows the location of the Bounding Box pivot point when multiple Objects are selected.
-   The pivot point is shown by a yellow circle.
+   (A) Shows the results of Object rotation when the pivot point is set to Bounding Box.
+
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_object-mode.png
+
+   (B) Shows the location of the Bounding Box (left) pivot point compared to the Median Point (right).
 
 
 In Edit Mode
@@ -50,7 +51,7 @@ This time it is the Object Data that is enclosed in the bounding box.
 The bounding box in *Edit Mode* takes no account of the Object(s) origins,
 only the center of the selected vertices.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_edit-mode-rotation.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_edit-mode-rotation.png
 
    The effects of rotation in different mesh selection modes when the bounding box is set as the pivot point.
    The pivot point is shown by a yellow circle.

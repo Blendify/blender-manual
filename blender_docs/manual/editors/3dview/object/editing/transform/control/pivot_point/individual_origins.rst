@@ -57,33 +57,27 @@ the selection mode is set to Vertex, Edge or Face. For example, Vertex mode prod
 similar to setting the pivot point to median and Edge mode often produces distorted results.
 Using Individual Origins in Face mode produces the most predictable results.
 
-.. list-table::
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-faces.png
 
-   * - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-faces.png
-          :width: 320px
+   Rotation of individual faces around individual origins (middle) and the median point (right).
 
-          Rotation of individual faces with the pivot point indicated by the image text.
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-grouped-faces.jpg
+   :width: 200px
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-grouped-faces.jpg
-          :width: 320px
-
-          Rotation of grouped faces with the pivot point indicated by the image text.
+   Rotation of grouped faces with the pivot point indicated by the image text.
 
 As can be seen in the images above, faces that touch each other will deform when rotated when
 the pivot point is set to *Individual Origins*.
 Faces that do not touch will rotate around their *Individual Origins* (their center).
 
-.. list-table::
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-individual-faces.png
 
-   * - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-individual-faces.png
-          :width: 320px
+   Scaling with non-touching faces around individual origins (middle) and the median point (right).
 
-          Scaling with non-touching faces.
+.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-group-fgon-faces.png
+   :width: 200px
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-group-fgon-faces.png
-          :width: 320px
-
-          Scaling with touching faces.
+   Scaling with touching faces.
 
 Groups of faces and F-gons can be scaled without their outside perimeter being deformed.
 However, the individual faces inside will not be scaled uniformly.

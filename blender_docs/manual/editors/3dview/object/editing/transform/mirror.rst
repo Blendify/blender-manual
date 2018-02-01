@@ -23,7 +23,7 @@ the mirror transform to create a reversed version to complete the model.
 
 .. _fig-mesh-duplicating-mirror-selection:
 
-.. figure:: /images/editors_3dview_object_editing_transform_mirror_example.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_mirror_example.png
 
    Mirroring a Selection.
 
@@ -43,9 +43,9 @@ if the Transform Orientation is set to *Normal*, pressing:
 :kbd:`Ctrl-M`, followed by :kbd:`X` and then :kbd:`X` again
 will mirror the selection along the X-axis of the *Normal Orientation*.
 
-.. figure:: /images/editors_3dview_object_editing_transform_mirror_interactive-mirror.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_mirror_panel.png
 
-   Interactive Mirror.
+   Mirror operator panel.
 
 You can alternatively hold the :kbd:`MMB` to interactively mirror the object by moving
 the mouse in the direction of the mirror axis.

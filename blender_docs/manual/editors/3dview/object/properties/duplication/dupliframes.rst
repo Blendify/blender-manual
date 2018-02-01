@@ -11,19 +11,21 @@ This is a useful tool to quickly arrange objects.
 Examples
 ========
 
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example01.png
-   :width: 300px
+.. list-table::
 
-   Settings for the curve.
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example01.png
+          :width: 277px
+
+          Settings for the curve.
+
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example02.png
+          :width: 277px
+
+          Settings for the object.
 
 :kbd:`Shift-A` to add a *Bézier Circle* and scale it up.
 In the *Curve* menu under *Path Animation* enable *Follow*
 and set *Frames* to something more reasonable than 100 (say 16).
-
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example02.png
-   :width: 300px
-
-   Settings for the object.
 
 Add a *Monkey*. In the *Object* menu under *Duplication* enable *Frames* and disable *Speed*.
 
@@ -33,7 +35,7 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable *Frames* and dis
    In this example, the monkey will then travel along the circle over 16 frames.
 
 .. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example03.png
-   :width: 300px
+   :width: 540px
 
    Parenting.
 
@@ -42,7 +44,7 @@ To parent the monkey to the Bézier circle, first select the monkey then the cur
 Select the monkey and :kbd:`Alt-O` to reset its origin.
 
 .. figure:: /images/editors_3dview_object_properties_duplication_dupliframes_example04.png
-   :width: 300px
+   :width: 540px
 
    Orientation tweaks.
 

@@ -130,15 +130,15 @@ was adapted to the vertex normals of the parent mesh
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_tentacle.jpg
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_tentacle.png
 
           A simple tentacle set to smooth.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_norot.jpg
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_norot.png
 
           Tentacle dupliverted onto the parent mesh.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_rot.jpg
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_rot.png
 
           Rotation enabled to align duplicates.
 
