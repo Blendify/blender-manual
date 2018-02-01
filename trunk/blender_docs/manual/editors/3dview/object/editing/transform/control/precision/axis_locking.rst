@@ -4,7 +4,7 @@ Axis Locking
 ************
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_z-axis.png
-   :width: 150px
+   :width: 200px
    :align: right
 
    Axis locking.
@@ -34,9 +34,9 @@ The axis of movement can be changed at any time during transformation by typing 
 Pointing
 --------
 
-   .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_grab-mmb.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_scale-mmb.png
 
-      Axis-Constraint in action.
+   Axis-Constraint in action.
 
 Holding :kbd:`MMB` after starting a transformation lets you select an axis to constrain to.
 A visual option to constrain the translation will be available,
@@ -78,7 +78,7 @@ Plane Locking
                after moving the mouse in the desired direction.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_plane-locking.png
-   :width: 150px
+   :width: 200px
    :align: right
 
    Plane locking.

@@ -33,7 +33,7 @@ cube as our parent mesh. To parent the sphere to the cube, in *Object Mode*,
 first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 (order is very important here), and finally :kbd:`Ctrl-P` to parent.
 
-.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-after.jpg
+.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-after.png
 
    Duplication Faces applied to the cube.
 
@@ -53,11 +53,11 @@ but neither is rendered.
 Scale
 =====
 
-.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-enabled.jpg
+.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-enabled.png
 
    Scale enabled.
 
-.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-changed.jpg
+.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-changed.png
 
    Top face of cube scaled down.
 

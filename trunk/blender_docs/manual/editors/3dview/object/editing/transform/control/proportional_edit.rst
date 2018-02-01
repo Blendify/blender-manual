@@ -40,7 +40,7 @@ In the image below, the green cube is the active Object, while the red and blue 
 within the Proportional edit tool's radius of influence.
 When the green cube is moved to the right, the other two cubes follow the movement.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_object-mode.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_object-mode.png
 
    Proportional editing in Object Mode.
 
@@ -76,7 +76,7 @@ the mouse wheel :kbd:`WheelUp`, :kbd:`WheelDown` or
 :kbd:`PageUp`, :kbd:`PageDown` respectively. As you change the radius,
 the points surrounding your selection will adjust their positions accordingly.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_influence.jpg
+.. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_influence.png
 
    Influence circle.
 
@@ -86,13 +86,13 @@ Options
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_tool.jpg
-          :width: 200px
+   * - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_tool.png
+          :width: 250px
 
           Proportional Editing tool.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_falloff-options.jpg
-          :width: 200px
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_falloff-options.png
+          :width: 250px
 
           Falloff menu.
 
@@ -162,7 +162,10 @@ Falloff
 
           Smooth Falloff.
 
-     - ..
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_falloff-inverse-square.png
+          :width: 320px
+
+          Inverse Square Falloff.
 
 
 Examples

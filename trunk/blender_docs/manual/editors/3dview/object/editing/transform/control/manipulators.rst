@@ -15,9 +15,27 @@ The Transformation manipulator widgets allow mouse controlled translation, rotat
 There is a separate manipulator for each operation.
 Each manipulator can be used separately or in combination with the others.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options.png
+.. list-table:: The different Manipulators.
 
-   The different Manipulators.
+   * - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-translate.png
+          :width: 320px
+
+          Translate.
+
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-rotate.png
+          :width: 320px
+
+          Rotate.
+
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-scale.png
+          :width: 320px
+
+          Scale.
+
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-all.png
+          :width: 320px
+
+          Combination.
 
 
 Header Controls

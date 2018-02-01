@@ -252,14 +252,23 @@ Press :kbd:`Ctrl-P` in object mode and select *Vertex* or *Vertex (Triangle)*.
 
 The nearest vertices will be used from each object which is typically what you would want.
 
-.. figure:: /images/editors_3dview_object_properties_relations_parents_object-mode-example.jpg
+.. list-table:: Vertex Parent example.
 
-   Vertex Parent example.
+   * - .. figure:: /images/editors_3dview_object_properties_relations_parents_object-mode-example-1.png
+          :width: 320px
 
-   A) The small cubes can each be automatically parented to a triad of nearby vertices on the icosphere using
-      the "Vertex (Triangle)" in the set parent context menu.
-   B) Reshaping the object in edit mode then means each of the cubes follows their vertex parent separately.
-   C) Re-scaling the parent icosphere in object mode means the child cubes are also rescaled as expected.
+          The small cubes can each be automatically parented to a triad of nearby vertices on the icosphere using
+          the "Vertex (Triangle)" in the set parent context menu.
+
+     - .. figure:: /images/editors_3dview_object_properties_relations_parents_object-mode-example-2.png
+          :width: 320px
+
+          Reshaping the object in edit mode then means each of the cubes follows their vertex parent separately.
+
+     - .. figure:: /images/editors_3dview_object_properties_relations_parents_object-mode-example-3.png
+          :width: 320px
+
+          Re-scaling the parent icosphere in object mode means the child cubes are also rescaled as expected.
 
 The parent context menu item means users can rapidly set up a large number of vertex parent
 relationships,
