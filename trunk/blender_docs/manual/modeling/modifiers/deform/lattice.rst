@@ -19,7 +19,7 @@ surfaces, text, lattices and even particles.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_deform_lattice_panel.jpg
+.. figure:: /images/modeling_modifiers_deform_lattice_panel.png
 
    Lattice Modifier.
 

@@ -168,7 +168,7 @@ Enables a rectangular region for selection :kbd:`B`.
 In Fig. :ref:`fig-mesh-select-basics-start`, *Border Select* has been activated and
 is indicated by showing a dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
 the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
-The selection area is only covering the selection handles of three faces. Finally,
+Finally,
 by releasing :kbd:`LMB` the selection is complete; see Fig. :ref:`fig-mesh-select-basics-complete`.
 
 
@@ -184,12 +184,17 @@ Enables a circular shaped region for selection :kbd:`C`.
    * - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select1.png
           :width: 320px
 
-          Before.
+          Start.
 
      - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select2.png
           :width: 320px
 
-          After.
+          Selecting.
+
+     - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select3.png
+          :width: 320px
+
+          Dragging.
 
 Fig. :ref:`fig-mesh-select-basic-circle` is an example of selecting edges while in *Edge Select Mode*.
 As soon as an edge intersects the circle the edge becomes selected.
@@ -197,8 +202,12 @@ The tool is interactive such that edges are selected while the circle region is 
 
 If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging again.
 
-For *Faces* select mode, the circle must intersect the face indicators usually represented by small pixel squares;
-one at the center of each face.
+.. note::
+
+   If you are in bounding box or wireframe viewport shading mode,
+   or when not enabled *Limit Selection to Visible*.
+   For *Faces* select mode, the circle must intersect the face indicators 
+   usually represented by small pixel squares; one at the center of each face.
 
 
 Lasso Select

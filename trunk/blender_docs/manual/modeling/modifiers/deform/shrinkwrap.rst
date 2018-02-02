@@ -14,7 +14,7 @@ It can be applied to meshes, lattices, curves, surfaces and texts.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_deform_shrinkwrap_nearest-surface-point.jpg
+.. figure:: /images/modeling_modifiers_deform_shrinkwrap_nearest-surface-point.png
 
    Nearest Surface Point.
 
@@ -50,7 +50,7 @@ Projection
 This will project vertices along a chosen axis until they touch the shrink target.
 Vertices that never touch the shrink target are left in their original position.
 
-.. figure:: /images/modeling_modifiers_deform_shrinkwrap_project.jpg
+.. figure:: /images/modeling_modifiers_deform_shrinkwrap_project.png
 
    Projection options.
 
@@ -83,7 +83,7 @@ Nearest Vertex
 
 This will snap vertices to the nearest vertex of the shrink target. It adds no extra options.
 
-.. figure:: /images/modeling_modifiers_deform_shrinkwrap_nearest-vertex.jpg
+.. figure:: /images/modeling_modifiers_deform_shrinkwrap_nearest-vertex.png
 
    Nearest Vertex options.
 

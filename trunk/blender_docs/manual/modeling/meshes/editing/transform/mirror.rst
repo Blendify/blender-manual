@@ -52,7 +52,7 @@ the :doc:`pivot point page </editors/3dview/object/editing/transform/control/piv
 
 .. list-table:: Mirror around the Individual Centers.
 
-   * - .. figure:: /images/modeling_meshes_editing_transform_mirror_individual-before.jpg
+   * - .. figure:: /images/modeling_meshes_editing_transform_mirror_cursor-before.png
           :width: 320px
 
           Mesh before mirror.

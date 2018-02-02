@@ -11,9 +11,22 @@ Bend
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Bend`
    | Hotkey:   :kbd:`Shift-W`
 
-.. figure:: /images/modeling_meshes_editing_transform_bend_example.jpg
+.. list-table:: Bend Transform with Clamp on and off.
 
-   Bend Transform with Clamp on and off.
+   * - .. figure:: /images/modeling_meshes_editing_transform_bend_example-clamp-1.png
+          :width: 320px
+
+          Before.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_bend_example-clamp-2.png
+          :width: 320px
+
+          Clamp on.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_bend_example-clamp-3.png
+          :width: 320px
+
+          Clamp off.
 
 This tool rotates a line of selected elements forming an arc between the mouse-cursor and the 3D-cursor.
 
@@ -53,3 +66,7 @@ Clamp
 .. hint::
 
    You can turn the bend angle through multiple rotations potentially forming a spiral shape.
+
+.. figure:: /images/modeling_meshes_editing_transform_bend_example-usage.png
+
+   Bend Transform example.

@@ -49,8 +49,4 @@ See below for the result of using *Push/Pull* on a number of different elements.
 
 .. figure:: /images/modeling_meshes_editing_transform_push-pull_vertices-push-pull.png
 
-   Vertices being pushed together, then pulled apart.
-
-.. figure:: /images/modeling_meshes_editing_transform_push-pull_edges-push-pull.png
-
-   Edges on separate meshes being pushed together, then pulled apart.
+   Push (middle) vertices around the 3D cursor compared to Scale (right).

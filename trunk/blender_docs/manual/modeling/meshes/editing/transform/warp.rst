@@ -31,9 +31,27 @@ the Pivot Point is not taken into account and the results are view dependent.
 Usage
 =====
 
-.. figure:: /images/modeling_meshes_editing_transform_warp_mesh.png
+.. list-table:: In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
 
-   In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
+   * - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh.png
+          :width: 320px
+
+          Before.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh-90.png
+          :width: 320px
+
+          Warp Angle 90.
+
+   * - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh-180.png
+          :width: 320px
+
+          Warp Angle 180.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh-360.png
+          :width: 320px
+
+          Warp Angle 360.
 
 Select the elements you want to operate on and activate the *Warp* transform tool.
 The *Warp* tool can be invoked from
@@ -56,12 +74,51 @@ The greater the distance, the greater the radius.
 
 The result of the *Warp* transform is also influenced by your current view.
 The example in this section shows the results of a 180 degree *Warp* transform applied
-to the same Suzanne mesh when in different views. A 3D render is also provided for comparison.
+to the same Plane mesh when in different views.
 
-.. figure:: /images/modeling_meshes_editing_transform_warp_cursor-view.jpg
+.. list-table:: This image shows how the Warp transform is influenced by the location of the cursor.
 
-   The left side of this image shows how the Warp transform is influenced by the location of the cursor.
-   The right hand side shows the influence of the current view.
+   * - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh.png
+          :width: 320px
+
+          Before.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh-180.png
+          :width: 320px
+
+          Warp Angle 180.
+
+   * - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh-cursor.png
+          :width: 320px
+
+          Before.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_warp_mesh-cursor-180.png
+          :width: 320px
+
+          Warp Angle 180.
+
+.. list-table:: This image shows the influence of the current view.
+
+   * - .. figure:: /images/modeling_meshes_editing_transform_warp_view-1.png
+          :width: 320px
+
+          Before.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_warp_view-2.png
+          :width: 320px
+
+          Warp Angle 180 in X-Z view.
+
+   * - .. figure:: /images/modeling_meshes_editing_transform_warp_view-3.png
+          :width: 320px
+
+          Warp Angle 180 in Y-Z view.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_warp_view-4.png
+          :width: 320px
+
+          Warp Angle 180 in User view.
 
 .. note:: Warping text
 

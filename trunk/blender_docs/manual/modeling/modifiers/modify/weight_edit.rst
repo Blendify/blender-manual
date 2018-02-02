@@ -4,8 +4,8 @@
 Vertex Weight Edit Modifier
 ***************************
 
-.. figure:: /images/modeling_modifiers_modify_weight-edit_panel.jpg
-   :width: 300px
+.. figure:: /images/modeling_modifiers_modify_weight-edit_panel.png
+   :width: 360px
 
    The Vertex Weight Edit Modifier panel.
 
