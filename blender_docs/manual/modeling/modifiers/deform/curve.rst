@@ -24,7 +24,9 @@ are options that influence the modifier.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_deform_curve_panel.jpg
+.. _fig-modifier-curve-panel:
+
+.. figure:: /images/modeling_modifiers_deform_curve_panel.png
 
    Curve Modifier.
 
@@ -46,27 +48,29 @@ Let us make a simple example:
 - Remove the default cube object from the scene and add a Monkey
   with :menuselection:`Add --> Mesh --> Monkey`.
 - Now add a curve with :menuselection:`Add --> Curve --> Bézier Curve`.
-
-.. _fig-modifier-curve-edit:
-
-.. figure:: /images/modeling_modifiers_deform_curve_example-edit-curve.png
-   :width: 300px
-
-   Edit Curve.
-
 - While in Edit Mode, move the control points of the curve as shown in Fig. :ref:`fig-modifier-curve-edit`,
   then exit Edit Mode :kbd:`Tab`.
-- Select the Monkey :kbd:`RMB` in *Object Mode*.
-- Assign the curve to the modifier, as shown below. The Monkey should be positioned on the curve:
+- Select the Monkey :kbd:`RMB` in *Object Mode* and add the Curve Modifier.
+- Assign the Bézier curve to the modifier, as shown in Fig. :ref:`fig-modifier-curve-panel`. The Monkey should be positioned on the curve.
 
-.. figure:: /images/modeling_modifiers_deform_curve_panel.jpg
+.. list-table::
 
-   Assign the Bézier curve to the Curve Modifier (for Monkey).
+   * - .. _fig-modifier-curve-edit:
 
-.. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve1.png
-   :width: 200px
+       .. figure:: /images/modeling_modifiers_deform_curve_example-edit-curve.png
+          :width: 300px
 
-   Monkey on a Curve.
+          Edit Curve.
+
+     - .. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve1.png
+          :width: 300px
+
+          Monkey on a Curve.
+
+     - .. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve2.png
+          :width: 300px
+
+          Monkey deformations.
 
 - Now if you select the Monkey, and move it in the Y-direction :kbd:`G-Y`,
   the monkey will deform nicely along the curve.
@@ -75,11 +79,6 @@ Let us make a simple example:
 
    If you press :kbd:`MMB` (or one of :kbd:`X`, :kbd:`Y`, :kbd:`Z`)
    while moving the Monkey you will constrain the movement to one axis only.
-
-.. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve2.png
-   :width: 250px
-
-   Monkey deformations.
 
 - In the image above you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation, a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`

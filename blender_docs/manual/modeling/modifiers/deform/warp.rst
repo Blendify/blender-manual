@@ -68,3 +68,11 @@ that can be used for animation.
 Another way to use the *Warp Modifier* is to use it similar to
 the :doc:`Deform Modifier </modeling/modifiers/deform/mesh_deform>`.
 This allows you to deform parts of the mesh without having to make a vertex group.
+
+
+Examples
+========
+
+.. figure:: /images/modeling_modifiers_deform_warp_example-curve-falloff.png
+
+   Warp Modifier with custom falloff curve.

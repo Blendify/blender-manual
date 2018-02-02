@@ -14,6 +14,10 @@ The output follows the surface curvature of the input, but its topology contains
 Options
 =======
 
+.. figure:: /images/modeling_modifiers_generate_remesh_panel.png
+
+   Remesh Modifier.
+
 Mode
    There are three basic modes available in the Remesh Modifier: Blocks, Smooth and Sharp.
 

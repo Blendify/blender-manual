@@ -47,11 +47,11 @@ See below for the result of using *Shear* on a number of different elements.
 
 The three frames of the image above show the effects of shearing
 on the selected vertices when the pivot point is altered.
-In frame B, the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`
-is set to *Median Point* (indicated by the yellow line)
+In middle frame, the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`
+is set to *Median Point*
 and the mouse was moved to the left during the transform.
-In frame C, the *Pivot Point* is set to the 3D cursor
-which is located above the mesh (indicated again by the yellow line).
+In right frame, the *Pivot Point* is set to the 3D cursor
+which is located above the mesh.
 When the mouse is moved to the left during a *Shear* transform,
 the selected vertices are moved to the right as they are below the horizontal axis.
 
@@ -67,10 +67,10 @@ the selected vertices are moved to the right as they are below the horizontal ax
 
 The three frames of the image above show the effects of shearing
 on the selected Objects when the *Pivot Point* is altered.
-In frame B, the *Pivot Point* is set to *Median Point* (indicated by the yellow line)
+In middle frame, the *Pivot Point* is set to *Median Point*
 and the mouse was moved to the left during the transform.
-In frame C, the *Pivot Point* is set to the 3D cursor
-which is located above the Objects (indicated again by the yellow line).
+In right frame, the *Pivot Point* is set to the 3D cursor
+which is located above the Objects.
 When the mouse is moved to the left during a *Shear* transform,
 all of the selected Objects are moved to the right as they are below the horizontal axis.
 Again, note that, the magnitude of the transform is proportional to the distance from the horizontal axis.

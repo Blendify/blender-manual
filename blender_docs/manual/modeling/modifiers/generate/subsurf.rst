@@ -70,9 +70,22 @@ Options
       When enabled, the UV maps will also be subdivided
       (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
 
-   .. figure:: /images/modeling_modifiers_generate_subsurf_uvs.png
+   .. list-table::
 
-      Subdivide UVs on and off.
+      * - .. figure:: /images/modeling_modifiers_generate_subsurf_subdivide-uvs-no.png
+             :width: 320px
+
+             No Subsurf.
+
+        - .. figure:: /images/modeling_modifiers_generate_subsurf_subdivide-uvs-off.png
+             :width: 320px
+
+             Subdivide UVs off.
+
+        - .. figure:: /images/modeling_modifiers_generate_subsurf_subdivide-uvs-on.png
+             :width: 320px
+
+             Subdivide UVs on.
 
    Optimal Display
       When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped

@@ -17,7 +17,7 @@ the *To Sphere* transformation to the monkey mesh.
 
 .. _fig-mesh-deform-to-sphere-monkey:
 
-.. figure:: /images/modeling_meshes_editing_transform_to-sphere_suzanne-spherical.jpg
+.. figure:: /images/modeling_meshes_editing_transform_to-sphere_suzanne-spherical.png
 
    Monkey with increasing sphericity.
 
@@ -46,7 +46,7 @@ Note that the result of the *To Sphere* transform is also dependent on the numbe
 selected mesh elements (vertices, faces, etc.). As can be seen in the below image, the result
 will be smoother and more spherical when there are more mesh elements available to work with.
 
-.. figure:: /images/modeling_meshes_editing_transform_to-sphere_cubes-spherical.jpg
+.. figure:: /images/modeling_meshes_editing_transform_to-sphere_cubes-spherical.png
 
    To Sphere applied to cubes with different subdivision levels.
 
@@ -56,6 +56,6 @@ will be smoother and more spherical when there are more mesh elements available 
 The *To Sphere* transform will generate different results depending on the number
 and arrangement of elements that were selected (as shown by the below image).
 
-.. figure:: /images/modeling_meshes_editing_transform_to-sphere_other-spherical.jpg
+.. figure:: /images/modeling_meshes_editing_transform_to-sphere_other-spherical.png
 
    To Sphere applied to different selections.

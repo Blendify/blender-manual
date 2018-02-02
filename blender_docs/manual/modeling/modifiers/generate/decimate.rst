@@ -25,16 +25,15 @@ you to visualize your changes in Edit Mode.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_decimate_panel.jpg
-
-   Decimate Modifier.
-
-
 Decimate Type
 -------------
 
 Collapse
 ^^^^^^^^
+
+.. figure:: /images/modeling_modifiers_generate_decimate_panel-collapse.png
+
+   Decimate Modifier.
 
 Merge vertices together progressively, taking the shape of the mesh into account.
 
@@ -68,6 +67,10 @@ Symmetry
 Un-Subdivide
 ^^^^^^^^^^^^
 
+.. figure:: /images/modeling_modifiers_generate_decimate_panel-un-subdivide.png
+
+   Decimate Modifier.
+
 Can be thought of as the reverse of subdivide.
 Attempts to remove edges that were the result of a subdivide operation.
 For meshes with a mainly grid based topology (without giving uneven geometry).
@@ -80,6 +83,10 @@ Iterations
 
 Planar
 ^^^^^^
+
+.. figure:: /images/modeling_modifiers_generate_decimate_panel-planar.png
+
+   Decimate Modifier.
 
 Reduces detail on forms comprised of mainly flat surfaces.
 

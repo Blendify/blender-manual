@@ -14,7 +14,7 @@ wireframe dynamically via the given modifier options.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_wireframe_panel.jpg
+.. figure:: /images/modeling_modifiers_generate_wireframe_panel.png
 
    Wireframe Modifier.
 
