@@ -9,7 +9,7 @@ Vertex Groups Panel
    | Mode:     All Modes
    | Panel:    :menuselection:`Object Data tab --> Vertex Groups`
 
-.. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.jpg
+.. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.png
    :align: right
 
    The Vertex Group Panel.

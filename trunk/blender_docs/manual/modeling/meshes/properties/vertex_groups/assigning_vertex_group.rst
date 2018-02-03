@@ -27,7 +27,7 @@ gets displayed in the Panel (2) (see next image).
 Vertex Groups Panel Controls
 ----------------------------
 
-.. figure:: /images/modeling_meshes_properties_vertex-groups_assigning-vertex-group_one.jpg
+.. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-groups_panel-edit.png
    :align: right
 
    One Vertex Group.

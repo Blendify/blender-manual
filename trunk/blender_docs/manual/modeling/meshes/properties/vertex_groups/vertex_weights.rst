@@ -10,7 +10,7 @@ Vertex Weights
    | Panel:    :menuselection:`Properties region --> Vertex Weights`
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_panel-overview.png
-   :width: 235px
+   :width: 260px
 
    Vertex Weights Panel.
 
@@ -75,7 +75,7 @@ In that case the Vertex Weights Panel is not displayed.
 Each row in the Weight table contains four active elements:
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-name.png
-   :width: 335px
+   :width: 260px
 
    Change Active Group.
 
@@ -87,7 +87,7 @@ As soon as you select any of the Vertex Group Names in the Weight table,
 the referenced Vertex Group becomes the new Active group.
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_show.png
-   :width: 235px
+   :width: 260px
 
    Enable display of Weights in Edit Mode.
 
@@ -101,8 +101,8 @@ Search the *Mesh Display* panel in the Properties region.
 And there enable the *Show Weights* option.
 Now you can see the weights of the active Vertex Group displayed on the mesh surface.
 
-.. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_edit-mode.jpg
-   :width: 235px
+.. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_edit-mode.png
+   :width: 260px
 
    Weights in Edit Mode.
 
@@ -115,7 +115,7 @@ All edit options of the mesh are available and
 you have direct visual control over how your Weights change when you edit the weight values.
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-weight.png
-   :width: 235px
+   :width: 260px
 
    Change Weight Value.
 
@@ -129,7 +129,7 @@ drag right or left to increase/decrease the weight value. You also can use the r
 arrows displayed around the weight value to change the weight in steps.
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-paste.png
-   :width: 235px
+   :width: 260px
 
    Paste weights.
 
@@ -141,7 +141,7 @@ Pasting
 But note that weights are only pasted to vertices which already have a weight value in the affected Vertex Group.
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-delete.png
-   :width: 235px
+   :width: 260px
 
    Delete weights.
 
@@ -157,7 +157,7 @@ Tools
 =====
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-functions.png
-   :width: 235px
+   :width: 260px
 
    Vertex Weights panel.
 
@@ -180,7 +180,7 @@ Locking
 =======
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-locked.png
-   :width: 235px
+   :width: 260px
 
    Vertex Weights panel Locked.
 
