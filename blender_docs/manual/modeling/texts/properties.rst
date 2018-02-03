@@ -13,7 +13,7 @@ Shape
    | Mode:     All Modes
    | Panel:    :menuselection:`Properties editor --> Text --> Shape`
 
-.. figure:: /images/modeling_texts_properties_shape-settings.jpg
+.. figure:: /images/modeling_texts_properties_shape-settings.png
 
    The Shape panel.
 
@@ -59,7 +59,7 @@ Texture Space
    | Mode:     All Modes
    | Panel:    :menuselection:`Properties editor --> Font --> Texture Space`
 
-.. figure:: /images/modeling_texts_properties_texture-settings.jpg
+.. figure:: /images/modeling_texts_properties_texture-settings.png
 
    Texture Settings.
 
@@ -169,9 +169,9 @@ Shear
    Different to as it may seem, this is not similar to italics style.
 
    .. figure:: /images/modeling_texts_properties_shear-example.png
-      :width: 300px
+      :width: 340px
 
-      Shear: "blender" has a shear value of 1, "2.59" a shear value of 0.
+      Shear example.
 
 
 Objects as Fonts
@@ -196,7 +196,7 @@ Text on Curve
    Used to select a curve for the text object to follow.
 
    .. figure:: /images/modeling_texts_properties_curved-lowres-example.png
-      :width: 200px
+      :width: 360px
 
       Text on curve.
 
@@ -220,17 +220,10 @@ Underline
 Character
 ---------
 
-.. list-table::
+.. figure:: /images/modeling_texts_properties_font-settings.png
+   :width: 290px
 
-   * - .. figure:: /images/modeling_texts_properties_bold-example.png
-          :width: 320px
-
-          Bold text.
-
-     - .. figure:: /images/modeling_texts_properties_font-settings.png
-          :width: 320px
-
-          Character options to, for example, type bold text.
+   Character options to, for example, type bold text.
 
 Bold
    Toggled with the *Bold* button before typing.
@@ -276,7 +269,7 @@ Paragraph
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
 .. figure:: /images/modeling_texts_properties_paragraph-settings.png
-   :width: 300px
+   :width: 290px
 
    The Paragraph panel.
 
@@ -448,8 +441,7 @@ Multiple Columns
 
 .. figure:: /images/modeling_texts_properties_frame-example4.png
 
-   Text 5.
-
+   Multiple columns, text flowing between boxes.
 
 To create two columns of text, just create a text object and adjust the initial frame's
 *Width* and *Height* to your requirements, then insert a new frame.

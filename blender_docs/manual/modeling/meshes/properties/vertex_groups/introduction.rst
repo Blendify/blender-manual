@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.jpg
+.. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.png
    :align: right
 
    The Vertex Group Panel.

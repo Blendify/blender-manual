@@ -135,8 +135,6 @@ Converting Text Objects
 Converting to Text Object
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/modeling_texts_editing_convert-to.jpg
-
 Using an existing text-block, you can convert it to an object from the Text editors header,
 select :menuselection:`Edit --> Text to 3D Object`,
 *One Object* or *One Object per Line* depending on your needs.
@@ -155,10 +153,6 @@ Press :kbd:`Alt-C` and select *Mesh From Curve/Meta/Surf/Text*.
 Now you can return to *Edit Mode* and manually edit the vertices.
 They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object
 :doc:`Modifier </modeling/modifiers/index>` at a low threshold to clean up your mesh.
-
-.. figure:: /images/modeling_texts_editing_convert-from.png
-
-   left normal text, right the made text object.
 
 
 Assigning Materials
