@@ -46,7 +46,7 @@ Make Links :kbd:`F`
    Use Make Links again if there are other nodes which can be connected.
 
 Make and Replace Links :kbd:`Shift-F`
-   Make and Replace Links replaces similarly to Make Links, but it will replace existing links if any exist.
+   *Make and Replace Links* works similarly to *Make Links*, but it will replace existing links if any exist.
 
 
 Disconnecting Sockets

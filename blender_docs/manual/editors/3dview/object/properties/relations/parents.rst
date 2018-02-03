@@ -347,7 +347,7 @@ Known Limitations
 Non-Uniform Scale
 -----------------
 
-A parent with non-uniform scale and rotation in relation to it's child may cause a *shear* effect.
+A parent with non-uniform scale and rotation in relation to its child may cause a *shear* effect.
 
 While this is supported by parenting, the shear will be lost when the parent is cleared since it
 can't be represented by location, scale and rotation.
