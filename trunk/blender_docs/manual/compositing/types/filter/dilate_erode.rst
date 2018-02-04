@@ -28,6 +28,10 @@ Distance
    The Distance is the filter radius.
    A *positive* value of Distance dilates (expands) the influence of a pixel on its surrounding pixels.
    A *negative* value erodes (shrinks) its influence.
+Edge
+   Edge to inset. (TODO explain)
+Falloff
+   Falloff type the feather. (TODO explain)
 
 
 Outputs
@@ -46,4 +50,4 @@ If we had dilated both red and green... (hint: red and green make yellow).
 The amount of influence is increased by increasing the *Distance* values.
 `Blend file available here <https://wiki.blender.org/uploads/5/51/Derotest.blend>`__.
 
-.. figure:: /images/compositing_types_filter_dilate-erode_example.jpg
+.. figure:: /images/compositing_types_filter_dilate-erode_example.png

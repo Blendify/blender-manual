@@ -69,11 +69,25 @@ as described in :doc:`Render Layers </compositing/types/input/render_layers>`.
 A *multiply* :doc:`Math </compositing/types/converter/math>` node can be used following the color-ramp
 so that a blur value greater than one is used for objects outside the focal range.
 
-.. figure:: /images/compositing_types_filter_bokeh-blur_example.jpg
-   :width: 100%
+.. figure:: /images/compositing_types_filter_bokeh-blur_example-1.png
+   :width: 640px
+
+   Z pass used.
 
 A manually created grayscale image can be used to define the sharp and blurry areas of a pre-existing image.
 Again, a Multiply Node can be used so that a blur value greater than one is used.
 
-.. figure:: /images/compositing_types_filter_bokeh-blur_example2.jpg
-   :width: 100%
+.. figure:: /images/compositing_types_filter_bokeh-blur_example-2.png
+   :width: 640px
+
+   Image used.
+
+.. list-table::
+
+   * - .. figure:: /images/compositing_types_filter_bokeh-blur_example-1-render.jpg
+
+          Z pass used.
+
+     - .. figure:: /images/compositing_types_filter_bokeh-blur_example-2-render.jpg
+
+          Image used.

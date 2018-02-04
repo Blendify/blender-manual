@@ -64,7 +64,7 @@ Examples
 --------
 
 .. figure:: /images/compositing_types_converter_combine-separate_example-combine-rgba.png
-   :width: 600px
+   :width: 640px
 
 In this first example, we take the Alpha channel and blur it,
 and then combine it back with the colors. When placed in a scene,
@@ -75,6 +75,7 @@ Animating this effect on a broader scale will make the object appear to "phase" 
 as an "out-of-phase" time-traveling sync effect.
 
 .. figure:: /images/compositing_types_converter_combine-separate_rgba-example-2.jpg
+   :width: 640px
 
 In this node set up, we make all the reds become green,
 and all the green both Red and Blue, and remove Blue from the image completely.

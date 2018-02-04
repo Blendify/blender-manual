@@ -83,8 +83,7 @@ Examples
 ========
 
 .. figure:: /images/compositing_types_filter_defocus_example.jpg
-   :width: 200px
-   :figwidth: 200px
+   :width: 300px
 
 In this `blend-file example <https://wiki.blender.org/uploads/7/79/Doftest.blend>`__,
 the ball array image is blurred as if it was taken by a camera with an f-stop of 2.8 resulting

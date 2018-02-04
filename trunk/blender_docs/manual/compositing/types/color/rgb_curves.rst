@@ -113,8 +113,8 @@ setting Black and White Levels.
 Effects
 -------
 
-.. figure:: /images/compositing_types_color_rgb-curves_ex.jpg
-   :width: 600px
+.. figure:: /images/compositing_types_color_rgb-curves_ex.png
+   :width: 620px
 
    Changing colors.
 
