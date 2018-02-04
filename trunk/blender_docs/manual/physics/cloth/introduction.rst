@@ -16,17 +16,17 @@ all of which is under your control.
 .. list-table::
 
    * - .. figure:: /images/physics_cloth_introduction_example1.jpg
-          :width: 150px
+          :width: 200px
 
           Cloth Example.
 
      - .. figure:: /images/physics_cloth_introduction_oncarved-wood.jpg
-          :width: 150px
+          :width: 200px
 
           Cloth on carved wooden men (made by motorsep).
 
      - .. figure:: /images/physics_cloth_introduction_example2.jpg
-          :width: 150px
+          :width: 200px
 
           Cloth Example.
 

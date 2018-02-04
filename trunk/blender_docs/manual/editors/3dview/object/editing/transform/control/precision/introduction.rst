@@ -79,6 +79,10 @@ will cause movement to happen by 1/100 of a BU and so on until the zoom limit is
 Zooming out will have the opposite effect and
 cause movement to happen by increments of 10 BU, 100 BU, etc.
 
+.. container:: lead
+
+   .. clear
+
 .. seealso::
 
    :doc:`Read more about Zooming </editors/3dview/navigate/introduction>`

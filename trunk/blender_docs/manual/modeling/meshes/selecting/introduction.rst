@@ -24,7 +24,7 @@ Select Mode Header Widgets
 
 .. figure:: /images/modeling_meshes_selecting_introduction_mode-buttons.png
    :align: right
-   :width: 190px
+   :width: 200px
 
    Edit Mode selection buttons.
 

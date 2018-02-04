@@ -32,7 +32,7 @@ both Direct and Indirect Lighting:
 Indirect Lighting only works with Approximate gather method.
 
 .. figure:: /images/render_blender-render_world_indirect-lighting_parameters.png
-   :width: 300px
+   :width: 305px
 
    Indirect Lighting parameters.
 

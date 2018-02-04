@@ -5,7 +5,7 @@ Vertex Weight Proximity Modifier
 ********************************
 
 .. figure:: /images/modeling_modifiers_modify_weight-proximity_panel.png
-   :width: 300px
+   :width: 387px
 
    The Vertex Weight Proximity Modifier panel.
 

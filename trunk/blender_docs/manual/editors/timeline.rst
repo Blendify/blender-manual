@@ -56,7 +56,6 @@ Time Cursor
 The *Time Cursor* is the green line, it is used to set and display the current time frame.
 
 .. figure:: /images/editors_timeline_cursor.png
-   :align: center
 
    Time Cursor.
 

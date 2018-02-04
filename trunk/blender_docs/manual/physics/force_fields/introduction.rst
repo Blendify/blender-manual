@@ -5,7 +5,7 @@ Introduction
 
 Force Fields offer a way to influence a simulation, in example to add extra movement.
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`,
-`Rigid Bodies </physics/rigid_body/index>`, and :doc:`Cloth objects </physics/cloth/index>`
+:doc:`Rigid Bodies </physics/rigid_body/index>`, and :doc:`Cloth objects </physics/cloth/index>`
 can all be affected by forces fields.
 Force Fields automatically affect everything.
 To remove a simulation or particle system from their influence,

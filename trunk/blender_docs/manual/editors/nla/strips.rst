@@ -54,12 +54,12 @@ A meta strip can be moved and duplicated like a normal strip.
 .. list-table::
 
    * - .. figure:: /images/editors_nla_strips_meta1.png
-          :width: 200px
+          :width: 320px
 
           Shift-select two or more strips.
 
      - .. figure:: /images/editors_nla_strips_meta2.png
-          :width: 200px
+          :width: 320px
 
           Combine them into a meta strip.
 
@@ -90,12 +90,12 @@ The keyframes of the action can then be edited in the Dope Sheet.
 .. list-table::
 
    * - .. figure:: /images/editors_nla_strips_nla-mode.png
-          :width: 200px
+          :width: 320px
 
           Strip in NLA mode.
 
      - .. figure:: /images/editors_nla_strips_edit-mode.png
-          :width: 200px
+          :width: 320px
 
           Strip in Tweak mode.
 

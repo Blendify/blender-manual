@@ -10,16 +10,16 @@ Scene management and library appending/linking are based on Blender's
 :doc:`Library and Data System </data_system/index>`,
 so it is a good idea to read that manual page first, if you are not familiar with the basics of that system.
 
-.. figure:: /images/data-system_scenes_introduction_menu.png
-   :align: right
-
-   Scene data-block menu.
-
 You can select and create scenes with the *Scene data-block* menu in the *Info Editor* header.
 
 
 Controls
 ========
+
+.. figure:: /images/data-system_scenes_introduction_menu.png
+   :align: right
+
+   Scene data-block menu.
 
 Scenes
    A list of available scenes.

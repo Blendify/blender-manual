@@ -4,7 +4,7 @@ Raytraced Shadows
 *****************
 
 .. figure:: /images/render_blender-render_lighting_shadows_introduction_shadow-ray.png
-   :width: 310px
+   :width: 277px
 
    Ray shadowing options for lamps.
 

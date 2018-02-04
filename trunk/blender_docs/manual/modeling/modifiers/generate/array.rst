@@ -34,6 +34,10 @@ Fit Type
    Fixed Count
       Generates the number of copies specified in *Count*.
 
+.. container:: lead
+
+   .. clear
+
 .. note::
 
    - Both *Fit Curve* and *Fit Length* use the local coordinate system size of the base object, which means that

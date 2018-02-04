@@ -71,12 +71,12 @@ Flatten Handles
    .. list-table:: Flatten Handles snapping example.
 
       * - .. figure:: /images/editors_graph-editor_fcurves_editing_flatten-handles-1.png
-             :width: 200px
+             :width: 204px
 
              Before Flatten Handles.
 
         - .. figure:: /images/editors_graph-editor_fcurves_editing_flatten-handles-2.png
-             :width: 200px
+             :width: 204px
 
              After Flatten Handles.
 
