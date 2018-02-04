@@ -5,7 +5,7 @@ Vertex Weight Mix Modifier
 **************************
 
 .. figure:: /images/modeling_modifiers_modify_weight-mix_panel.png
-   :width: 300px
+   :width: 355px
 
    The Vertex Weight Mix Modifier panel.
 

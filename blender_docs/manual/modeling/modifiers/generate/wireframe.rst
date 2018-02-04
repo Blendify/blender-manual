@@ -65,14 +65,17 @@ When you got more Faces that meet at one point they are forming a star like patt
 in the examples below.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_example-cube.png
+   :width: 420px
 
    Original / Wireframe / Original and Wireframe.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_example-suzanne.png
+   :width: 420px
 
    Vertex Group weighting: One half 0 weighted, one half 1 weighted.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_example-crease.png
+   :width: 420px
 
    Cube and Subdivision Surface with 0 / 0.5 / 1 crease weight.
 

@@ -4,7 +4,7 @@ Colors
 ******
 
 .. figure:: /images/render_blender-render_textures_properties_color_panel.png
-   :width: 300px
+   :width: 310px
 
    Colors panel.
 

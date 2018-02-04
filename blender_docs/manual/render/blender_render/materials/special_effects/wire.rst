@@ -4,7 +4,7 @@ Wire Render
 ***********
 
 .. figure:: /images/render_blender-render_materials_special-effects_wire_render.png
-   :width: 320px
+   :width: 305px
 
    Wire Render.
 
@@ -15,6 +15,6 @@ alpha and other relevant properties of the lines are selected with the same cont
 provided by the Surface rendered image.
 
 .. figure:: /images/render_blender-render_materials_special-effects_wire_demo.jpg
-   :width: 320px
+   :width: 305px
 
    Wire Render.

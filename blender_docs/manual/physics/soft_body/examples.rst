@@ -29,7 +29,7 @@ press :kbd:`R` twice, and move your cursor a bit.
 When finished, your scene should look like this:
 
 .. figure:: /images/physics_soft-body_examples_scene-ready.png
-   :width: 430px
+   :width: 520px
 
    The scene, ready for softbody physics.
 

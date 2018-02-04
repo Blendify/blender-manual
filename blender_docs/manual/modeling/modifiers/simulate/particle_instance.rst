@@ -22,7 +22,7 @@ Options
 =======
 
 .. figure:: /images/modeling_modifiers_simulate_particle-instance_panel.png
-   :width: 250px
+   :width: 370px
 
    Particle Instance Modifier.
 

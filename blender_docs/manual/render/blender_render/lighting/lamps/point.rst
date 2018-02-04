@@ -5,7 +5,7 @@ Point
 *****
 
 .. figure:: /images/render_blender-render_lighting_lamps_point_viewport.png
-   :width: 200px
+   :width: 260px
 
    Point lamp.
 
@@ -41,12 +41,12 @@ Shadows
 =======
 
 .. figure:: /images/render_blender-render_lighting_lamps_point_panel-no-shadow.png
-   :width: 307px
+   :width: 285px
 
    Without ray shadows.
 
 .. figure:: /images/render_blender-render_lighting_lamps_point_panel-ray-shadow.png
-   :width: 307px
+   :width: 285px
 
    Point lamp with ray shadows and Adaptive QMC sample generator enabled.
 

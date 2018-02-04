@@ -20,7 +20,7 @@ Selecting & Cursor
 ==================
 
 .. figure:: /images/modeling_texts_editing_cursor.png
-   :width: 300px
+   :width: 340px
 
    Text in Edit Mode.
 

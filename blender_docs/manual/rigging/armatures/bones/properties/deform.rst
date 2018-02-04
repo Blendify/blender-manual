@@ -44,6 +44,10 @@ shown in the *Envelope* visualization:
 - The outside area, materialized by the lighter part around the bone,
   and controlled by the *Distance* setting.
 
+.. container:: lead
+
+   .. clear
+
 .. seealso::
 
    The :doc:`editing pages </rigging/armatures/bones/editing/transform>` for how to edit these properties.

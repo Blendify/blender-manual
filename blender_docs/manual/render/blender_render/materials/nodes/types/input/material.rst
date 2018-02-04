@@ -25,6 +25,10 @@ Diffuse Intensity
 Normal
    Standard normal input. Used for normal mapping.
 
+.. container:: lead
+
+   .. clear
+
 .. note:: Normal Override
 
    The normal input socket does not blend the source normal

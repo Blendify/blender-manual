@@ -32,7 +32,7 @@ Options
 
 .. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_stabilization_panel_panel.png
    :align: right
-   :width: 130px
+   :width: 213px
 
    2D Stabilization Panel.
 

@@ -12,17 +12,17 @@ surfaces and texts.
 .. list-table::
 
    * - .. figure:: /images/modeling_modifiers_deform_wave_example-circular.jpg
-          :width: 180px
+          :width: 200px
 
           Circular wave front.
 
      - .. figure:: /images/modeling_modifiers_deform_wave_example-linear.jpg
-          :width: 180px
+          :width: 200px
 
           Linear wave front.
 
      - .. figure:: /images/modeling_modifiers_deform_wave_example-normals.jpg
-          :width: 180px
+          :width: 200px
 
           Motion enabled for X,
           Normals enabled for Y.

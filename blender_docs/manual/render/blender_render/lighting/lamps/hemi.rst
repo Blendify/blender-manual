@@ -26,7 +26,7 @@ Options
 =======
 
 .. figure:: /images/render_blender-render_lighting_lamps_hemi_panel.png
-   :width: 307px
+   :width: 285px
 
    Hemi lamp's panel.
 

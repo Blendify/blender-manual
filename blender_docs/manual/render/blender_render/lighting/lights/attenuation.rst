@@ -195,12 +195,12 @@ the graph shows that the intensity of the light starts off at its maximum
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-custom-default.png
-          :width: 306px
+          :width: 230px
 
           Default Falloff Curve panel graph.
 
      - .. figure:: /images/render_blender-render_lighting_lights_attenuation_custom-curve-default.jpg
-          :width: 250px
+          :width: 230px
 
           Render showing the Custom Curve lamp falloff type effect with default settings.
 
@@ -210,12 +210,12 @@ the light source, you could alter the graph as below:
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-custom-reversed.png
-          :width: 310px
+          :width: 230px
 
           Falloff Curve for reversed attenuation.
 
      - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-curve-reverse-render.jpg
-          :width: 250px
+          :width: 230px
 
           Falloff Curve for reversed attenuation rendered.
 
@@ -228,12 +228,12 @@ along with its resultant render output:
 .. list-table::
 
    * - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-custom-oscill.png
-          :width: 310px
+          :width: 230px
 
           Oscillating attenuation profile.
 
      - .. figure:: /images/render_blender-render_lighting_lights_attenuation_falloff-curve-render.jpg
-          :width: 250px
+          :width: 230px
 
           Render showing the effects of a "wavelet" profile graph on the light attenuation.
 

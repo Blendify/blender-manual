@@ -7,7 +7,7 @@ Texture
 =======
 
 .. figure:: /images/sculpt-paint_texture-tex-mask_brush-texture.jpg
-   :width: 250px
+   :width: 580px
 
    Texture options and example.
 

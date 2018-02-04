@@ -39,7 +39,7 @@ Unwrap
 ======
 
 .. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_unwrap-example.png
-   :width: 300px
+   :width: 420px
 
    Result of unwrapping Suzanne.
 
@@ -96,7 +96,7 @@ Smart UV Project
 ================
 
 .. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_smart-project.png
-   :width: 250px
+   :width: 670px
 
    Smart UV project on a cube.
 
@@ -237,7 +237,7 @@ Cylinder and Sphere Projection
 ==============================
 
 .. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_sphere-projection.png
-   :width: 350px
+   :width: 420px
 
    Using an equirectangular image with a Sphere Projection.
 

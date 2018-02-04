@@ -31,7 +31,7 @@ Options
 -------
 
 .. figure:: /images/render_cycles_settings_scene_render_motion-blur_settings.png
-   :width: 175px
+   :width: 195px
    :align: right
 
    Cycles Motion Blur Settings.
