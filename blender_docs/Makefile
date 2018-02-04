@@ -122,7 +122,7 @@ singlehtml: .FORCE .SPHINXBUILD_EXISTS
 
 pdf: .FORCE
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	sphinx-build -b latex ./manual "$(BUILDDIR)/latex"
+	$(SPHINXBUILD) -b latex ./manual "$(BUILDDIR)/latex"
 	make -C "$(BUILDDIR)/latex" LATEXOPTS="-interaction nonstopmode"
 
 	@echo "To view, run:"
