@@ -77,7 +77,7 @@ so they are chosen for the left side, but the plane (FlyCam) Render layers Z are
 Using Sine Function to Pulsate
 ------------------------------
 
-.. figure:: /images/compositing_types_converter_math_sine.jpg
+.. figure:: /images/compositing_types_converter_math_sine.png
 
 This example has a *Time* node putting out a linear sequence from 0 to 1 over the course of 101 frames.
 The green vertical line in the curve widget shows that frame 25 is being put out, or a value of 0.25.
