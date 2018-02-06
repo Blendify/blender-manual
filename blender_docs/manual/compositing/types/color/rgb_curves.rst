@@ -118,15 +118,18 @@ Effects
 
    Changing colors.
 
-Curves and Black/White Levels can also be used to completely change the colors of an image.
+.. (todo remove/rewrite) T53993
+   this can be done using the Curve but not Black/White Level inputs.
 
-Note that e.g. setting Black Level to red and White Level to blue does not simply substitute
-black with red and white with blue as the example image might suggest.
-Levels do color scaling, not substitution,
-but depending on the settings they can result in the described color substitution.
+.. Curves and Black/White Levels can also be used to completely change the colors of an image.
 
-(What really happens when setting Black Level to pure red and White Level to pure blue
-is that the red channel gets inverted, green gets reduced to zero and blue remains unchanged).
+.. Note that e.g. setting Black Level to red and White Level to blue does not simply substitute
+   black with red and white with blue as the example image might suggest.
+   Levels do color scaling, not substitution,
+   but depending on the settings they can result in the described color substitution.
 
-Because of this, the results of setting arbitrary Black/White Levels or RGB curves is hard to
-predict, but can be fun to play with.
+.. (What really happens when setting Black Level to pure red and White Level to pure blue
+   is that the red channel gets inverted, green gets reduced to zero and blue remains unchanged).
+
+.. Because of this, the results of setting arbitrary Black/White Levels or RGB curves is hard to
+   predict, but can be fun to play with.
