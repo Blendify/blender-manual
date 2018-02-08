@@ -22,7 +22,7 @@ export LANG="en_US.UTF8"
 # Ensure we're in the repo's base:
 BASEDIR=$(dirname $0)
 cd $BASEDIR
-cd ../../
+cd ../
 
 
 # Update the locale dir:

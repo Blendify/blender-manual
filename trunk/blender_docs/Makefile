@@ -162,7 +162,7 @@ clean: .FORCE
 	rm -rf $(BUILDDIR)/*
 
 update_po: .FORCE
-	- ./tools/maintenance/update_po.sh
+	- ./tools_maintenance/update_po.sh
 
 report_po_progress: .FORCE
 	- python3 tools/report_translation_progress.py --quiet \
