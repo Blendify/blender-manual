@@ -2,6 +2,9 @@
 # Apache License, Version 2.0
 # <pep8 compliant>
 
+"""
+This utility checks naming conventions (Blender specific).
+"""
 import os
 import sys
 import re
@@ -43,13 +46,13 @@ def print_title(title, underline="="):
 # note: no checks for commented text currently.
 # groups: (1) ID, (2) image name, (3) dot + img. extension
 image_regex = re.compile(
-    """
-    \.\.\ +
-    (?:\|([a-zA-Z0-9\-_]+)\|\ +)?  # |SomeID|  (optional)
-    (?:figure|image)\:\:\ +   # figure/image::
-    /images/(.*?)(\.(?:png|gif|jpg|svg)) # image path
-    """,
-    re.VERBOSE,
+    r"\.\.\s+"
+    # |SomeID|  (optional)
+    "(|\|[a-zA-Z0-9\-_]+\|\s+)"
+    # figure/image::
+    "(figure|image)\:\:"
+    # image path
+    "\s+/images/(.*\.(png|gif|jpg|svg))"
 )
 
 
@@ -99,11 +102,12 @@ def check_image_names(fn, data_src, name_data):
     for lineno, line in enumerate(data_src.splitlines()):
         linematch = re.search(image_regex, line)
         if linematch:
+            filename, filename_ext = os.path.splitext(linematch.group(3))
             record = dict()
             record["filepath"] = locpath
             record["lineno"] = lineno
-            record["image_name"] = linematch.group(2)
-            record["image_ext"] = linematch.group(3).lower()
+            record["image_name"] = filename
+            record["image_ext"] = filename_ext
             file_derive = derive_image_name(locpath)
             record["file_derive"] = file_derive
             compare_image_name(file_derive, record)
@@ -187,6 +191,9 @@ def check_image_names_report(name_data):
 
 
 def main():
+    if "--help" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
 
     # Collect info while iterating over the files.
     name_data = {

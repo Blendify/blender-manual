@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # Apache License, Version 2.0
 # <pep8 compliant>
+"""
+This tool checks for unused locale files,
+printing out the command to remove them (if any).
+"""
 
 import os
 import sys
@@ -59,8 +63,12 @@ def warn_locale():
 
 
 def main():
+    if "--help" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     return warn_locale()
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
