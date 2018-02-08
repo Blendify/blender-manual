@@ -40,15 +40,16 @@ def print_title(title, underline="="):
 # .. figure:: /images/some_image.png
 #
 # note: no checks for commented text currently.
-# groups: (1) ID, (2) image name, (3) dot + img. extension
+# groups: (1) ID, (2) image name & extension
+
 image_regex = re.compile(
-    """
-    \.\.\ +
-    (?:\|([a-zA-Z0-9\-_]+)\|\ +)?  # |SomeID|  (optional)
-    (?:figure|image)\:\:\ +   # figure/image::
-    /images/(.*?)(\.(?:png|gif|jpg|svg)) # image path
-    """,
-    re.VERBOSE,
+    r"\.\.\s+"
+    # |SomeID|  (optional)
+    "(|\|[a-zA-Z0-9\-_]+\|\s+)"
+    # figure/image::
+    "(figure|image)\:\:"
+    # image path
+    "\s+/images/(.*\.(png|gif|jpg|svg))"
 )
 
 # -----------------------------------------------------------------------------
@@ -56,7 +57,7 @@ image_regex = re.compile(
 
 def rst_images(fn, data_src):
     for match in re.finditer(image_regex, data_src):
-        yield match.group(2) + match.group(3)
+        yield match.group(3)
 
 
 def rst_files_report(img_refs):
