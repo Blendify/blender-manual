@@ -143,7 +143,7 @@ This can be tricky when attempted visually.
 A good technique to achieve an exact position is
 to select the edge, then use :kbd:`Shift-S` and choosing *Cursor to Selection*.
 This will position the 3D Cursor in the center of the edge.
-Finally, press :kbd:`Ctrl-Alt-Shift-C` for the *Set Origin* menu,
+Finally, press :kbd:`Shift-Ctrl-Alt-C` for the *Set Origin* menu,
 then select *Origin to 3D Cursor*. This will move the object's center
 (and thus, the mirror plane) to where the 3D cursor is located,
 and the mirroring will be exact.

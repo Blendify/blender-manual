@@ -423,7 +423,7 @@ this is useful at times when painting gradual changes in weight becomes difficul
 The Gradient tool can be accessed from the Tool Shelf or as a key shortcut:
 
 - Linear: :kbd:`Alt-LMB` and drag.
-- Radial: :kbd:`Alt-Ctrl-LMB` and drag.
+- Radial: :kbd:`Ctrl-Alt-LMB` and drag.
 
 The following weight paint options are used to control the gradient:
 

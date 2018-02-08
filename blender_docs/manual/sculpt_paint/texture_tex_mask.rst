@@ -53,8 +53,8 @@ Brush Mapping
       To the transform the stencil texture and the stencil mask with additional :kbd:`Alt` pressed:
 
       - Translate :kbd:`RMB`, :kbd:`Alt-RMB`
-      - Scale :kbd:`Shift-RMB`, :kbd:`Alt-Shift-RMB`
-      - Rotate :kbd:`Ctrl-RMB`, :kbd:`Alt-Ctrl-RMB`
+      - Scale :kbd:`Shift-RMB`, :kbd:`Shift-Alt-RMB`
+      - Rotate :kbd:`Ctrl-RMB`, :kbd:`Ctrl-Alt-RMB`
 
       When using stencil scaling, :kbd:`X` and :kbd:`Y` are used to constrain the scaling to one axis.
       Pressing one of the buttons twice reverts to unconstrained scaling.

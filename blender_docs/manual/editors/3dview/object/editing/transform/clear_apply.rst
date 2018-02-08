@@ -113,13 +113,13 @@ Transforms to Deltas
 
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Apply -->`
-   | Hotkey:   :kbd:`Alt-Shift-G`, :kbd:`Alt-Shift-R`, and :kbd:`Alt-Shift-S`
+   | Hotkey:   :kbd:`Shift-Alt-G`, :kbd:`Shift-Alt-R`, and :kbd:`Shift-Alt-S`
 
 Clear both the normal and :ref:`Delta transforms <transform-delta>`.
 
-- Location to Deltas :kbd:`Alt-Shift-G`
-- Rotation to Deltas :kbd:`Alt-Shift-R`
-- Scale to Deltas :kbd:`Alt-Shift-S`
+- Location to Deltas :kbd:`Shift-Alt-G`
+- Rotation to Deltas :kbd:`Shift-Alt-R`
+- Scale to Deltas :kbd:`Shift-Alt-S`
 
 All Transforms to Deltas
    Converts all "normal" transformations to delta transforms.

@@ -49,7 +49,7 @@ Properties
 - :kbd:`Ctrl-Wheel` -- Change the value incremental steps.
 
   For pop-up option menus buttons, this cycles the value.
-- :kbd:`Enter` -- Activates menus or toggles the value.
+- :kbd:`Return` -- Activates menus or toggles the value.
 
 
 Animation
@@ -57,7 +57,7 @@ Animation
 
 - :kbd:`I` -- Insert a keyframe.
 - :kbd:`Alt-I` -- Clear the keyframe.
-- :kbd:`Alt-Shift-I` -- Clear all keyframes (removing all F-Curves).
+- :kbd:`Shift-Alt-I` -- Clear all keyframes (removing all F-Curves).
 - :kbd:`Ctrl-D` -- Assign a driver.
 - :kbd:`Ctrl-Alt-D` -- Clear the driver.
 - :kbd:`K` -- Add a Keying Set.
@@ -70,11 +70,11 @@ Python Scripting
 - :kbd:`Ctrl-C` -- Over any :ref:`ui-operation-buttons` copies their Python command into the clipboard.
 
   This can be used in the Python console or in the Text editor when writing scripts.
-- :kbd:`Ctrl-Shift-C` -- Over property buttons copies their data-path for this property
+- :kbd:`Shift-Ctrl-C` -- Over property buttons copies their data-path for this property
   (also available from the right-click menu).
 
   Useful when writing drivers or scripts.
-- :kbd:`Ctrl-Alt-Shift-C` -- Over property buttons copies their *full* data-path for the Data-Block and property.
+- :kbd:`Shift-Ctrl-Alt-C` -- Over property buttons copies their *full* data-path for the Data-Block and property.
 
   Note that in most cases it is best to access values based on the context, instead of by name.
 
@@ -84,7 +84,7 @@ Dragging
 
 - :kbd:`Ctrl` -- While dragging snap the discrete steps.
 - :kbd:`Shift` -- Gives precision control over the value.
-- :kbd:`Ctrl-Shift` -- Precise snap will move the object with high precision
+- :kbd:`Shift-Ctrl` -- Precise snap will move the object with high precision
   along with the snapping constraint.
 
 
@@ -110,7 +110,7 @@ Confirm and Cancel
 ==================
 
 - :kbd:`Esc`, :kbd:`RMB` -- Cancels.
-- :kbd:`Enter`, :kbd:`LMB` -- Confirms.
+- :kbd:`Return`, :kbd:`LMB` -- Confirms.
 
 .. (todo?) deactivation: Some controls can be disabled, in Blender deactivated controls are still editable.
    That can be due to the current state or context. In that case, they appear in a lighter color.

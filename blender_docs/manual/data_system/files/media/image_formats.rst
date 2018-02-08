@@ -126,7 +126,7 @@ Opening an Image Sequence
 
 The filename of the images must contain a digit, indicating the frame.
 The sequence could be opened by the selection of the images and
-by the confirmation with the *Open Image* button or :kbd:`Enter`.
+by the confirmation with the *Open Image* button or :kbd:`Return`.
 
 .. (alt) To load image sequence in any of the supported image
    file formats, first click on the first frame and then Accept.

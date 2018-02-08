@@ -138,11 +138,11 @@ This box could be oriented relative globally to the world or locally to the obje
 The *x extent*, then, is half of the distance between the x min/max.
 
 Throughout all of this you must be cognizant of the Object Origin. For the Game engine,
-the default :kbd:`Ctrl-Alt-Shift-C`, :kbd:`3` or :menuselection:`Set Origin --> Origin to Geometry`
+the default :kbd:`Shift-Ctrl-Alt-C`, :kbd:`3` or :menuselection:`Set Origin --> Origin to Geometry`
 is unlikely to get the desired placement of the Collision Bounds that you want.
 Instead, you should generally set the origin by looking at the Tool Shelf after you do the *Set Origin*,
 and changing the *Center* from *Median Center* to *Bounds Center*.
-Blender will remember this change for future :kbd:`Ctrl-Alt-Shift-C` executions.
+Blender will remember this change for future :kbd:`Shift-Ctrl-Alt-C` executions.
 
 All Collision Bounds are centered on this origin. All boxes are oriented locally, so object rotation matters.
 

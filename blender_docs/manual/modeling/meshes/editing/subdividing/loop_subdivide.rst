@@ -135,7 +135,7 @@ Offset Edge Slide
 
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Offset Edge Slide`
-   | Hotkey:   :kbd:`Ctrl-Shift-E`
+   | Hotkey:   :kbd:`Shift-Ctrl-E`
 
 Add two edge loops on either side of selected loops.
 

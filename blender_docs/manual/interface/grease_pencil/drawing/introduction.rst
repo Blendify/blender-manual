@@ -93,7 +93,7 @@ is also enabled if the :kbd:`D` key is released while pressing :kbd:`LMB`. The e
 (:kbd:`RMB`) is still available. Note that with the *Eraser* both :kbd:`LMB` or :kbd:`RMB`
 can be used when drawing has started.
 
-Use :kbd:`Esc` or :kbd:`Enter` or clicking outside the current viewport (e.g. another region or editor)
+Use :kbd:`Esc` or :kbd:`Return` or clicking outside the current viewport (e.g. another region or editor)
 to exit the mode. Continuous drawing can be disabled using :kbd:`E` key in order to get fast access to sculpt mode.
 
 

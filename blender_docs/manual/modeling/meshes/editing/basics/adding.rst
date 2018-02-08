@@ -59,17 +59,17 @@ this angle using the last positive and negative position of the last X and Y coo
 and the last connected unselected edge. If this angle exceeds a negative limit (following a quadrant rule)
 between the recently created edge and the last two, Blender will wrap the faces.
 But if you do not want Blender rotating and smoothing edges automatically when extruding from :kbd:`Ctrl-LMB`,
-you can also inhibit Blender from rotating sources using the shortcut :kbd:`Ctrl-Shift-LMB`.
+you can also inhibit Blender from rotating sources using the shortcut :kbd:`Shift-Ctrl-LMB`.
 In this case, Blender will not rotate the source dividing the angle between those edges when creating a face.
 
 For both cases, Blender will inform the user about the source rotation during the creation process.
 If you look at the Bottom of the Mesh Tools Panel, if you press :kbd:`Ctrl-LMB`,
-you will see that the Rotate Source is automatically checked and if :kbd:`Ctrl-Shift-LMB` is used,
+you will see that the Rotate Source is automatically checked and if :kbd:`Shift-Ctrl-LMB` is used,
 it will be automatically unchecked.
 Examples:
 
 - Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. - Faces created with source automatically rotated).
-- Creating Faces with shortcut :kbd:`Ctrl-Shift-LMB`, (see Fig. Faces created with no source rotation).
+- Creating Faces with shortcut :kbd:`Shift-Ctrl-LMB`, (see Fig. Faces created with no source rotation).
 
 If you have three or more vertices selected, and left click with mouse while pressing :kbd:`Ctrl-LMB`,
 you will also create planar faces, but along the vertices selected, following the direction of the cursor.

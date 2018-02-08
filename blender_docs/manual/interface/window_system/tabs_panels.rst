@@ -26,7 +26,7 @@ Switching/Cycling
 Vertical tabs can be switched with the :kbd:`Wheel` within the tab header and
 :kbd:`Ctrl-Wheel` changes tabs from anywhere in the region.
 
-You can also cycling through tabs with :kbd:`Ctrl-Tab` and :kbd:`Ctrl-Shift-Tab`.
+You can also cycling through tabs with :kbd:`Ctrl-Tab` and :kbd:`Shift-Ctrl-Tab`.
 
 .. container:: lead
 
