@@ -165,7 +165,7 @@ update_po: .FORCE
 	- ./tools_maintenance/update_po.sh
 
 report_po_progress: .FORCE
-	- python3 tools/report_translation_progress.py --quiet \
+	- python3 tools_report/report_translation_progress.py --quiet \
 	          `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf 'locale/%f\n' | sort`
 
 gettext: .FORCE .SPHINXBUILD_EXISTS
