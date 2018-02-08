@@ -2,8 +2,15 @@
 # Apache License, Version 2.0
 # <pep8 compliant>
 
-import os
+"""
+This utility checks image paths:
+
+- Are correct and exist.
+- Are all used.
+"""
+
 import sys
+import os
 import re
 
 
@@ -86,6 +93,10 @@ def rst_files_report(img_refs):
             img_files_set_lower.add(fn_lower)
 
 def main():
+    if "--help" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     rst_file_list = []
     for fn in files_recursive(RST_DIR, ext_test=".rst"):
         with open(fn, "r", encoding="utf-8") as f:
