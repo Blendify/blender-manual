@@ -43,7 +43,6 @@ with the above mentioned configuration applied as follows:
 
 .. list-table::
 
-   
 
    * - .. _fig-meta-intro-underlying:
 

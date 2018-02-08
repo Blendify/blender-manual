@@ -186,7 +186,7 @@ Key2A and Key2B are both relative to Key1
           Key2A has different generator coefficients so it is activated in a different range of the bone's position.
 
      - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2b.png
-          :width: 320px 
+          :width: 320px
 
           Key2B is the same as Key2A, but is controlled by the second bone.
 
