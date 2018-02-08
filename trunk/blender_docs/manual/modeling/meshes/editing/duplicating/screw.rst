@@ -217,7 +217,7 @@ The Spring Example
 #. Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*
 #. Grab and move this circle three Blender Units on the *X-Axis* to the left;
    you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
-   (clicking on the red arrow shown with the object and grabbing while using shortcut :kbd:`Ctrl` 
+   (clicking on the red arrow shown with the object and grabbing while using shortcut :kbd:`Ctrl`
    until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global`` ),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Enter`.
    You can use the Transform Panel, and type :kbd:`Minus 3` and :kbd:`Enter` in the Location too.

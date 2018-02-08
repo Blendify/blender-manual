@@ -206,7 +206,7 @@ If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging
 
    If you are in bounding box or wireframe viewport shading mode,
    or when not enabled *Limit Selection to Visible*.
-   For *Faces* select mode, the circle must intersect the face indicators 
+   For *Faces* select mode, the circle must intersect the face indicators
    usually represented by small pixel squares; one at the center of each face.
 
 
