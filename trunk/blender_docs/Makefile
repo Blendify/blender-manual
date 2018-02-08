@@ -136,21 +136,21 @@ readme: .FORCE
 	@echo "  "$(OPEN_CMD)" $(shell pwd)"/$(BUILDDIR)/readme.html"
 
 check_syntax: .FORCE
-	- python3 tools/rst_check_syntax.py --long > rst_check_syntax.log
+	- python3 tools_rst/rst_check_syntax.py --long > rst_check_syntax.log
 	- @echo "Lines:" `cat rst_check_syntax.log | wc -l`
 	- gvim --nofork -c "cfile rst_check_syntax.log" -c "cope" -c "clast"
 	- rm rst_check_syntax.log
 
 check_structure: .FORCE
-	- python3 tools/rst_check_structure.py --image --locale
+	- python3 tools_rst/rst_check_structure.py --image --locale
 
-#	- python3 tools/rst_check_structure.py --image > rst_check_structure.log
+#	- python3 tools_rst/rst_check_structure.py --image > rst_check_structure.log
 #	- @echo "Lines:" `cat rst_check.log  | wc -l`
 #	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
 #	- rm rst_check_structure.log
 
 check_spelling: .FORCE
-	- python3 tools/rst_check_spelling.py
+	- python3 tools_rst/rst_check_spelling.py
 
 check_links: .FORCE
 	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(BUILDDIR)/linkcheck
