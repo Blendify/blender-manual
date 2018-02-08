@@ -93,7 +93,7 @@ Delete Channels :kbd:`X`
 
 Un/Group Channels :kbd:`Ctrl-G`, :kbd:`Alt-G`
    ToDo.
-Settings Toggle/Enable/Disable, :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
+Settings Toggle/Enable/Disable, :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
    Enable/disable a channel's setting (selected in the menu that pops-up).
 
    Lock, Mute
@@ -105,6 +105,6 @@ Expand Channels, Collapse Channels :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
    Expands or collapses selected channels.
 Move...
    This allows you to move top-level channels up/down :kbd:`Shift-PageUp`, :kbd:`Shift-PageDown`,
-   or directly to the top/bottom :kbd:`Ctrl-Shift-PageUp`, :kbd:`Ctrl-Shift-PageDown`.
+   or directly to the top/bottom :kbd:`Shift-Ctrl-PageUp`, :kbd:`Shift-Ctrl-PageDown`.
 Revive Disabled F-Curves
    Clears "disabled" tag from all F-Curves to get broken F-Curves working again.

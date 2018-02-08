@@ -228,7 +228,7 @@ Grab/Move Marker
 
 Once you have one or more markers selected, press :kbd:`G`,
 while hovering with the mouse over the marker bar,
-to move them, and confirm the move with :kbd:`LMB` or :kbd:`Enter`
+to move them, and confirm the move with :kbd:`LMB` or :kbd:`Return`
 (as usual, cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
 Or drag them with the :kbd:`RMB`.
 

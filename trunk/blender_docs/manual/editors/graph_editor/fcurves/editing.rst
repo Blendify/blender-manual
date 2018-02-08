@@ -26,11 +26,11 @@ Insert Keyframe
 .. admonition:: Reference
    :class: refbox
 
-   | Hotkey:   :kbd:`Ctrl-LMB`, :kbd:`Ctrl-Shift-LMB`
+   | Hotkey:   :kbd:`Ctrl-LMB`, :kbd:`Shift-Ctrl-LMB`
 
 :kbd:`Ctrl-LMB` inserts a keyframe to the active F-Curve at the mouse position.
 The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
-All previously selected keyframes are kept selected by using :kbd:`Ctrl-Shift-LMB`.
+All previously selected keyframes are kept selected by using :kbd:`Shift-Ctrl-LMB`.
 
 
 Transform Snapping

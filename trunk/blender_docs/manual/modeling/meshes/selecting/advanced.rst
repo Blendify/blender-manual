@@ -9,7 +9,7 @@ The select menu in edit mode contains additional tool for selecting components:
 Sharp Edges
    This tool selects all edges between two faces forming an angle greater than the angle value,
    Where an increasing angle selects sharper edges.
-Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
+Linked Flat Faces :kbd:`Shift-Ctrl-Alt-F`
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
 Mirror
@@ -46,7 +46,7 @@ Select All by Traits
 
 .. _mesh-select-non-manifold:
 
-Non Manifold :kbd:`Ctrl-Shift-Alt-M`
+Non Manifold :kbd:`Shift-Ctrl-Alt-M`
    Selects the :term:`non-manifold` geometry of a mesh.
    This entry is available when editing a mesh, in Vertex and Edge selection modes only.
    The Operator panel provides several selection options:
@@ -177,9 +177,9 @@ Less :kbd:`Ctrl-NumpadMinus`
 
 .. todo how to handle face step
 
-Next Active :kbd:`Ctrl-Shift-NumpadPlus`
+Next Active :kbd:`Shift-Ctrl-NumpadPlus`
    This uses selection history to select the next vertex/edge/face based on surrounding topology.
-Previous Active :kbd:`Ctrl-Shift-NumpadMinus`
+Previous Active :kbd:`Shift-Ctrl-NumpadMinus`
    Select previous just removes the last selected element.
 
 
@@ -201,7 +201,7 @@ Edge Loops
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
 a line end to end, passing through the edge under the mouse pointer.
-Holding :kbd:`Alt-Shift` while clicking adds to the current selection.
+Holding :kbd:`Shift-Alt` while clicking adds to the current selection.
 
 Edge loops can also be selected based on an existing edge selection,
 using either :menuselection:`Select --> Edge Loop`,
@@ -329,7 +329,7 @@ Face Stepping
 Topological Distance
    Which only takes into account the number of edges of the path and
    not the length of the edges to calculate the distances,
-Fill Region :kbd:`Ctrl-Shift-RMB`
+Fill Region :kbd:`Shift-Ctrl-RMB`
    Selects all elements in the shortest paths from the active selection to the clicked area.
 Checker Deselect
    See `Checker Deselect`_.

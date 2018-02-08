@@ -14,7 +14,7 @@ The Standalone Player renders the scene from the perspective of the active scene
 and either creates a new desktop window or switches into fullscreen rendering mode.
 Note that while the Game Engine is running in either player,
 the computer's mouse and keyboard are captured by the game and by default,
-the mouse cursor is not visible. To exit the game, press the :kbd:`ESC` key.
+the mouse cursor is not visible. To exit the game, press the :kbd:`Esc` key.
 
 .. tip:: Render Engine
 

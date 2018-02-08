@@ -86,7 +86,7 @@ Snap Element
 
    | Mode:     Object, Edit, and Pose Mode
    | Header:   :menuselection:`Snap Element`
-   | Hotkey:   :kbd:`Ctrl-Shift-Tab`
+   | Hotkey:   :kbd:`Shift-Ctrl-Tab`
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_snap_element-menu.png
    :align: right

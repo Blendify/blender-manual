@@ -113,7 +113,7 @@ Increment Filename ``+``, ``-``
    Adds/increase or removes/decreases a trailing number to your file name
    (use to make *versions* of a file).
 Confirm
-   The main button to Open Directory/File or Save (As) :kbd:`Enter` or
+   The main button to Open Directory/File or Save (As) :kbd:`Return` or
    double click with :kbd:`LMB` on the entry confirms with that file or data-block.
 
    - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file`).
@@ -226,12 +226,12 @@ It is also possible to select/deselect files by "walking" through them using the
 - Holding down :kbd:`Shift` while doing this does not deselect anything so it extends to the selection,
   plus it allows to deselect files by navigating into a block
   of already selected ones (minimum two files in sequence).
-- Holding down :kbd:`Ctrl-Shift` further selects/deselects all files in-between.
+- Holding down :kbd:`Shift-Ctrl` further selects/deselects all files in-between.
 
 If no file is selected, the arrow key navigation selects the first or last file in the directory,
 depending on the arrow direction.
 
-If you select a directory and hit :kbd:`Enter`, you will go into that directory
+If you select a directory and hit :kbd:`Return`, you will go into that directory
 (and highlighting 'parent' entry will bring you up one level).
 
 

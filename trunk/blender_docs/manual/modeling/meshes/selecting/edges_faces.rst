@@ -50,11 +50,11 @@ Edge Rings
 
    | Mode:     Edit Mode (Mesh)
    | Menu:     :menuselection:`Select --> Edge Ring`
-   | Hotkey:   :kbd:`Alt-Ctrl-RMB`, or :kbd:`Shift-Alt-Ctrl-RMB` for modifying existing selection
+   | Hotkey:   :kbd:`Ctrl-Alt-RMB`, or :kbd:`Shift-Ctrl-Alt-RMB` for modifying existing selection
 
 Edge Rings are selected similarly.
 Based on the selection of an edge go to :menuselection:`Select --> Edge Ring`.
-Or use :kbd:`Alt-Ctrl-RMB` on an edge.
+Or use :kbd:`Ctrl-Alt-RMB` on an edge.
 
 .. figure:: /images/modeling_meshes_selecting_edges-faces_edge-ring-example.png
 

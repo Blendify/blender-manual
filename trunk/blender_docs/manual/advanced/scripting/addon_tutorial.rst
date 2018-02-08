@@ -181,7 +181,7 @@ However running the script won't move any objects. For this, you need to execute
    Operator Search menu.
 
 Do this by pressing :kbd:`Spacebar` to bring up the operator search menu and type in
-"Move X by One" (the ``bl_label``), then :kbd:`Enter`.
+"Move X by One" (the ``bl_label``), then :kbd:`Return`.
 
 The objects should move as before.
 
@@ -419,7 +419,7 @@ In Blender, add-ons have their own keymaps so as not to interfere with Blender's
 
 In the example below, a new object-mode :class:`blender_api:bpy.types.KeyMap` is added,
 then a :class:`blender_api:bpy.types.KeyMapItem` is added to the key-map which references
-our newly added operator, using :kbd:`Ctrl-Shift-Space` as the key shortcut to activate it. ::
+our newly added operator, using :kbd:`Shift-Ctrl-Spacebar` as the key shortcut to activate it. ::
 
    # store keymaps here to access after registration
    addon_keymaps = []
@@ -448,7 +448,7 @@ this allows you to have multiple keys accessing the same operator with different
 
 .. note::
 
-   While :kbd:`Ctrl-Shift-Space` is not a default Blender key shortcut,
+   While :kbd:`Shift-Ctrl-Spacebar` is not a default Blender key shortcut,
    it is hard to make sure add-ons will not overwrite each others keymaps,
    At least take care when assigning keys that they do not
    conflict with important functionality within Blender.

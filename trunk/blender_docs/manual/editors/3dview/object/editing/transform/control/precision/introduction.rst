@@ -21,7 +21,7 @@ The magnitude of the transformation can be viewed in the 3D View header in the b
 Releasing :kbd:`Ctrl` or :kbd:`Shift` during the transformation will cause the movement
 to revert back to its normal mode of operation.
 
-Holding both :kbd:`Ctrl-Shift` enables precise snap.
+Holding both :kbd:`Shift-Ctrl` enables precise snap.
 This option will move the object with high precision along with the snapping constraint.
 
 .. note::
@@ -37,13 +37,13 @@ With Hotkeys
 ------------
 
 Press :kbd:`G`, :kbd:`R` or :kbd:`S` and then hold either :kbd:`Ctrl`,
-:kbd:`Shift` or :kbd:`Ctrl-Shift`.
+:kbd:`Shift` or :kbd:`Shift-Ctrl`.
 
 
 With the Transform Manipulator
 ------------------------------
 
-Hold :kbd:`Ctrl`, :kbd:`Shift` or :kbd:`Ctrl-Shift` and click on the appropriate manipulator handle.
+Hold :kbd:`Ctrl`, :kbd:`Shift` or :kbd:`Shift-Ctrl` and click on the appropriate manipulator handle.
 Then move the mouse in the desired direction. The reverse action will also work i.e.
 clicking the manipulator handle and then holding the shortcut key for precision control.
 
@@ -123,8 +123,8 @@ Precision Snapping
 Grab/move
 ---------
 
-For grab/move operations at the default zoom level, holding :kbd:`Ctrl-Shift` will cause
-your selection to move by increments of 1/10 Blender Units. Holding :kbd:`Ctrl-Shift` at
+For grab/move operations at the default zoom level, holding :kbd:`Shift-Ctrl` will cause
+your selection to move by increments of 1/10 Blender Units. Holding :kbd:`Shift-Ctrl` at
 any zoom level will cause the transformation increments to always be 1/10 of the increment if
 you were only holding :kbd:`Ctrl`.
 
@@ -132,10 +132,10 @@ you were only holding :kbd:`Ctrl`.
 Rotation
 --------
 
-Holding :kbd:`Ctrl-Shift` will cause rotations of 1 degree.
+Holding :kbd:`Shift-Ctrl` will cause rotations of 1 degree.
 
 
 Scale Transformations
 ---------------------
 
-Holding :kbd:`Ctrl-Shift` will cause size changes in 0.01 BU increments.
+Holding :kbd:`Shift-Ctrl` will cause size changes in 0.01 BU increments.

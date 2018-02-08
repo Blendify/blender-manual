@@ -68,7 +68,7 @@ You can select any object by touching of circle area.
 It is possible to dynamically change the diameter of circle by scrolling :kbd:`Wheel`
 or with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` as seen in pictures below.
 Deselection is under the same principle -- :kbd:`MMB`.
-To cancel the selection use :kbd:`RMB` or key :kbd:`Esc` or :kbd:`Enter`.
+To cancel the selection use :kbd:`RMB` or key :kbd:`Esc` or :kbd:`Return`.
 
 
 .. _bpy.ops.view3d.select_lasso:
@@ -85,7 +85,7 @@ Lasso Select
 Lasso select is used by drawing a dotted line around vertices or the origin of the objects,
 in *Object Mode*. To use this hold :kbd:`Ctrl-LMB` and simply draw around the points you want to select.
 
-Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shift-LMB`.
+Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-LMB`.
 
 
 .. _bpy.ops.object.select_all:
@@ -273,7 +273,7 @@ Group
    Objects that are part of a group (rendered green with the default theme)
    will be selected if they are in one of the groups that the active object is in.
    If the active object belongs to more than one group,
-   a list will pop up so that we can choose which group to select.
+   a list will pop up so that you can choose which group to select.
 Object Hooks
    Every hook that belongs to the active object.
 Pass

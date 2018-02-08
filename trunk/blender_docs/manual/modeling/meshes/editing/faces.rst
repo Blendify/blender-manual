@@ -82,7 +82,7 @@ Beauty Fill
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
-   | Hotkey:   :kbd:`Alt-Shift-F`
+   | Hotkey:   :kbd:`Shift-Alt-F`
 
 *Beautify Fill* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
@@ -100,7 +100,7 @@ Max Angle
      - .. figure:: /images/modeling_meshes_editing_faces_beauty-fill-after.png
           :width: 320px
 
-          Result of Beauty Fill, :kbd:`Alt-Shift-F`.
+          Result of Beauty Fill, :kbd:`Shift-Alt-F`.
 
 
 .. _modeling-meshes-editing-grid-fill:

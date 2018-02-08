@@ -37,7 +37,7 @@ Here are common steps for using the ruler:
 #. Orbit the view and click on either end of the ruler to re-position it.
    Holding :kbd:`Ctrl` enables snap to elements.
 #. Click on the middle to measure angles.
-#. Press :kbd:`Enter` to store the ruler for later use or :kbd:`Esc` to cancel.
+#. Press :kbd:`Return` to store the ruler for later use or :kbd:`Esc` to cancel.
 
 .. note::
 
@@ -58,4 +58,4 @@ Shortcuts
 - :kbd:`Delete` Deletes the ruler.
 - :kbd:`Ctrl-C` Copies the rulers value to the clipboard.
 - :kbd:`Esc` Exit tool.
-- :kbd:`Enter` Saves the rulers for the next time the tool is activated.
+- :kbd:`Return` Saves the rulers for the next time the tool is activated.

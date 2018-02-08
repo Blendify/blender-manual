@@ -133,7 +133,7 @@ Recalculate Normals
    | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Recalculate`
    | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
                :menuselection:`Mesh --> Normals --> Recalculate Inside`
-   | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`
+   | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Shift-Ctrl-N`
 
 These tools will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.

@@ -25,11 +25,11 @@ Dragging
    To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
    Hold :kbd:`Ctrl` to snap to the discrete steps while dragging or :kbd:`Shift` for precision input.
 Text Input
-   Press :kbd:`LMB` or :kbd:`Enter` to edit the value as a text field.
+   Press :kbd:`LMB` or :kbd:`Return` to edit the value as a text field.
 
    When entering values by hand, this button works like any other text field:
 
-   - Press :kbd:`Enter` or :kbd:`LMB` outside the field to apply the change.
+   - Press :kbd:`Return` or :kbd:`LMB` outside the field to apply the change.
    - Press :kbd:`Esc` or :kbd:`RMB` will cancel the value.
    - Press :kbd:`Tab` to jump to the next number button or :kbd:`Ctrl-Tab` for the previous.
 
@@ -54,7 +54,7 @@ Limits
 
 Most *Number Buttons* have two types of "limits" imposed on them. The first of these is a "soft limit",
 this means that the property cannot surpass the value of the "soft limit" without having to :kbd:`LMB`
-and input the value with the :kbd:`Numpad`. The second is the "hard limit",
+and input the value with the numpad. The second is the "hard limit",
 this is the value that cannot be surpassed even by :kbd:`LMB` and inputing a value.
 
 

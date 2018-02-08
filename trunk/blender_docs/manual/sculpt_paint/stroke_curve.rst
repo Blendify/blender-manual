@@ -62,9 +62,9 @@ Stroke Method :kbd:`E`
          extend the selection by :kbd:`Shift-RMB` and deselect/select all by using :kbd:`A`.
       Delete Points :kbd:`X`
          To delete a curve point, use :kbd:`X`.
-      Draw Curve :kbd:`Enter`
+      Draw Curve :kbd:`Return`
          To confirm and execute the curved stroke,
-         press :kbd:`Enter` or use the Draw Curve button.
+         press :kbd:`Return` or use the Draw Curve button.
 
 Jitter
    Jitter the position of the brush while painting.

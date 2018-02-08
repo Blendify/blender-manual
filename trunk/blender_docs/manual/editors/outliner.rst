@@ -100,7 +100,7 @@ Remap Users
 Add Fake User, Clear Fake User
    Adds a "dummy" (fake) user so that the selected data-block always gets saved even if it has no users.
    The fake user can be removed with *Clear Fake User*.
-Rename :kbd:`CTRL-LMB`
+Rename :kbd:`Ctrl-LMB`
    Renames the selected data-block.
 Select Linked
    Selects the linked data, see :ref:`bpy.ops.object.select_linked` for more information.

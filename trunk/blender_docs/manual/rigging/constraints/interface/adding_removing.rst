@@ -36,7 +36,7 @@ Add Constraint (with Targets)
 
    | Mode:     Object Mode and Pose Mode
    | Menu:     :menuselection:`Object --> Constraint --> Add constraint (with Targets)`
-   | Hotkey:   :kbd:`Ctrl-Shift-C`
+   | Hotkey:   :kbd:`Shift-Ctrl-C`
 
 Adds a constraint to the active object.
 The type of constraint must be chosen from a pop up menu,

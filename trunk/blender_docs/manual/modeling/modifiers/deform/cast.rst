@@ -8,7 +8,7 @@ This modifier shifts the shape of a mesh, curve,
 surface or lattice to any of a few pre-defined shapes (sphere, cylinder, cuboid).
 
 It is equivalent to the *To Sphere* tool in *Edit Mode*
-:menuselection:`Mesh --> Transform --> To Sphere`, :kbd:`Alt-Shift-S`
+:menuselection:`Mesh --> Transform --> To Sphere`, :kbd:`Shift-Alt-S`
 and what other programs call "Spherify" or "Spherize", but, as written above,
 it is not limited to casting to a sphere.
 

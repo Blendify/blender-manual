@@ -22,7 +22,7 @@ also custom Keying Sets called *Absolute Keying Sets*.
 
 To select and use a Keying Set, set the *Active Keying Set*
 in the :ref:`Timeline Header <animation-editors-timeline-autokeyframe>`,
-or the Keying Set panel, or press :kbd:`Ctrl-Alt-Shift-I` in the 3D View.
+or the Keying Set panel, or press :kbd:`Shift-Ctrl-Alt-I` in the 3D View.
 
 
 Keying Set Panel

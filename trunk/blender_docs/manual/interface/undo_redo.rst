@@ -40,9 +40,9 @@ Redo
    | Mode:     All Modes
    | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Redo`
    | Menu:     :menuselection:`Object/Object types --> Redo`
-   | Hotkey:   :kbd:`Ctrl-Shift-Z`
+   | Hotkey:   :kbd:`Shift-Ctrl-Z`
 
-To roll back the Undo action, press :kbd:`Ctrl-Shift-Z`.
+To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
 
 
 .. _ui-redo-last:

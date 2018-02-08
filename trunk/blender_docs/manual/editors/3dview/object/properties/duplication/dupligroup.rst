@@ -51,7 +51,7 @@ Making a DupliGroup Object Real
 ===============================
 
 Say you want to make further edits on an DupliGroup instance:
-Simply select your DupliGroup and press :kbd:`Ctrl-Shift-A` to convert the DupliGroup
+Simply select your DupliGroup and press :kbd:`Shift-Ctrl-A` to convert the DupliGroup
 into regular objects that can be transformed and animated normally.
 
 .. note::

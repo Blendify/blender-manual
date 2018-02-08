@@ -61,7 +61,7 @@ Roll
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation --> Roll`
-   | Hotkey:   :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`, :kbd:`Ctrl-Shift-Wheel`
+   | Hotkey:   :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`, :kbd:`Shift-Ctrl-Wheel`
 
 Rotate the viewport camera around its local Z axis in 15° discrete steps.
 
@@ -142,7 +142,7 @@ Dolly Zoom
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`Ctrl-Shift-MMB`
+   | Hotkey:   :kbd:`Shift-Ctrl-MMB`
 
 In most cases its sufficient to zoom the view to get a closer look at something,
 however, you may notice that at a certain point you cannot zoom any closer.
@@ -151,4 +151,4 @@ This is because Blender stores a view-point that is used for orbiting and zoomin
 It works well in many cases, but sometimes you want to move the view-point to a different place.
 This is what Dolly supports, allowing you to transport the view from one place to another.
 
-You can dolly back and forth by holding down :kbd:`Ctrl-Shift` and dragging :kbd:`MMB`.
+You can dolly back and forth by holding down :kbd:`Shift-Ctrl` and dragging :kbd:`MMB`.

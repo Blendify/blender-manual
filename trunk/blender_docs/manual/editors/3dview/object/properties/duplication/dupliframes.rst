@@ -53,7 +53,7 @@ You can now change the orientation of the monkey by either rotating it
 under *Relations Extras* (with the monkey selected).
 The arrangement of monkeys can, of course, be further enhanced by editing the curve.
 
-To transform all monkeys into real objects, first :kbd:`Ctrl-Shift-A`
+To transform all monkeys into real objects, first :kbd:`Shift-Ctrl-A`
 to *Make Duplicates Real*. All monkeys are now real objects, but still linked copies.
 To change this, :menuselection:`Object --> Make Single User --> Object & Data --> All`.
 

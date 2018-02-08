@@ -13,7 +13,7 @@ There are a number of slightly different methods you can use to save your blend-
 
 Save :kbd:`Ctrl-S`, :kbd:`Ctrl-W`
    Save an existing blend-file over itself.
-Save As :kbd:`Ctrl-Shift-S`, :kbd:`F2`
+Save As :kbd:`Shift-Ctrl-S`, :kbd:`F2`
    Choose a file to save the blend-file to.
 Save Copy :kbd:`Ctrl-Alt-S`
    Choose a file to save the blend-file to, but return to editing the original file upon completion.
