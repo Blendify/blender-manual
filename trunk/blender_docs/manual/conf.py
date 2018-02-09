@@ -225,9 +225,9 @@ html_extra_path = ["../resources/404.html", "../resources/versions.json"]
 # The empty string is equivalent to '%b %d, %Y'.
 #html_last_updated_fmt = None
 
-# If true, SmartyPants will be used to convert quotes and dashes to
+# If true, Docutils Smart Quotes transform will be used to convert quotes and dashes to
 # typographically correct entities.
-#html_use_smartypants = True
+#smartquotes = True
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
