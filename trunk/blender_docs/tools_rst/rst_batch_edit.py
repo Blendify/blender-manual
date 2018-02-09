@@ -2,6 +2,16 @@
 # Apache License, Version 2.0
 # <pep8 compliant>
 
+# DEVELOPER NOTE:
+#
+# This script should be cleaned up and is more of grab-back of functions
+# which can be useful for maintenance.
+#
+# Not a general command line tools for general use.
+#
+# While it's not to bad to keep it for now, consider changing how this is exposed.
+# ~ ideasman42
+
 import os
 # if you want to operate on a subdir, eg: "render"
 SUBDIR = ""
