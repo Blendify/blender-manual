@@ -109,7 +109,7 @@ warn_role_kbd.valid_kbd = (
     } |
     # single characters
     set("[]<>./\\~!?'\"") |
-    # excape chars
+    # escape chars
     {chr(i) for i in range(ord('A'), ord('Z') + 1)} |
     {"%d" % i for i in range(10)} |
     {"F%d" % i for i in range(1, 13)} |

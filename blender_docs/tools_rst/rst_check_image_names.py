@@ -33,7 +33,12 @@ def files_recursive(path, ext_test):
 
 
 def print_title(title, underline="="):
-    print(f"\n{title}\n{len(title) * underline}")
+    longest_line = 0
+    for line in title.splitlines():
+        if len(line) > longest_line:
+            longest_line = len(line)
+
+    print('\n' + title.upper() + '\n' + longest_line * underline)
 
 
 # -----------------------------------------------------------------------------
@@ -48,11 +53,12 @@ def print_title(title, underline="="):
 image_regex = re.compile(
     r"\.\.\s+"
     # |SomeID|  (optional)
-    "(|\|[a-zA-Z0-9\-_]+\|\s+)"
+    "(?:\|([a-zA-Z0-9\-_]+)\|\s+)?"
     # figure/image::
-    "(figure|image)\:\:"
+    "(?:figure|image)\:\:\s+"
     # image path
-    "\s+/images/(.*\.(png|gif|jpg|svg))"
+    "/images/(.*?)(\.(?:png|gif|jpg|svg))",
+    re.MULTILINE
 )
 
 
@@ -102,12 +108,11 @@ def check_image_names(fn, data_src, name_data):
     for lineno, line in enumerate(data_src.splitlines()):
         linematch = re.search(image_regex, line)
         if linematch:
-            filename, filename_ext = os.path.splitext(linematch.group(3))
             record = dict()
             record["filepath"] = locpath
             record["lineno"] = lineno
-            record["image_name"] = filename
-            record["image_ext"] = filename_ext
+            record["image_name"] = linematch.group(2)
+            record["image_ext"] = linematch.group(3).lower()
             file_derive = derive_image_name(locpath)
             record["file_derive"] = file_derive
             compare_image_name(file_derive, record)
@@ -175,11 +180,11 @@ def check_image_names_report(name_data):
     check_multi_used()
 
     messages = {
-        "no_id": "without an ID",
-        "path_us": "with a wrong path or name contains an underscore",
-        "path": "with a wrong path",
-        "multi_no": "without an ID and\nused on multible pages",
-        "multi_path": "with a wrong path and used on multible pages"
+        "no_id": "without an ID:",
+        "path_us": "with a wrong path or\nname contains an underscore:",
+        "path": "with a wrong path:",
+        "multi_no": "without an ID and\nused on multiple pages:",
+        "multi_path": "with a wrong path and\nused on multiple pages:"
     }
 
     for id in messages:
