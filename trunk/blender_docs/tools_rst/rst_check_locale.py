@@ -46,7 +46,7 @@ def warn_locale():
     files_rst = list(files_recursive(RST_DIR, ext_test=".rst"))
     files_po = list(files_recursive(LOCALE_DIR, ext_test=".po"))
 
-    print_title("List of unused locale")
+    print_title("List of unused locale:")
 
     if files_po:
         print(" cd locale")

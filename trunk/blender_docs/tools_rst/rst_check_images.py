@@ -36,7 +36,7 @@ def files_recursive(path, ext_test):
 
 
 def print_title(title, underline="="):
-    print(f"\n{title}\n{len(title) * underline}")
+    print(f"\n{title.upper()}\n{len(title) * underline}")
 
 
 # -----------------------------------------------------------------------------
@@ -52,11 +52,12 @@ def print_title(title, underline="="):
 image_regex = re.compile(
     r"\.\.\s+"
     # |SomeID|  (optional)
-    "(|\|[a-zA-Z0-9\-_]+\|\s+)"
+    "(?:\|([a-zA-Z0-9\-_]+)\|\s+)?"
     # figure/image::
-    "(figure|image)\:\:"
+    "(?:figure|image)\:\:\s+"
     # image path
-    "\s+/images/(.*\.(png|gif|jpg|svg))"
+    "/images/(.*?\.(?:png|gif|jpg|svg))",
+    re.MULTILINE
 )
 
 # -----------------------------------------------------------------------------
@@ -64,7 +65,7 @@ image_regex = re.compile(
 
 def rst_images(fn, data_src):
     for match in re.finditer(image_regex, data_src):
-        yield match.group(3)
+        yield match.group(2)
 
 
 def rst_files_report(img_refs):
@@ -75,17 +76,17 @@ def rst_files_report(img_refs):
     img_files_set = set([f for f in os.listdir(imgpath)])
     img_refs_set = set(img_refs)
 
-    print_title("List of unused images")
+    print_title("List of unused images:")
     for fn in sorted(img_files_set - img_refs_set):
         print(" svn rm --force manual/images/%s" % fn)
 
-    print_title("List of missing images")
+    print_title("List of missing images:")
     for fn in sorted(img_refs_set - img_files_set):
         print(fn)
 
     if len(img_files_set) != len(set([fn.lower() for fn in img_files_set])):
         img_files_set_lower = set()
-        print_title("List of case-colliding images")
+        print_title("List of case-colliding images:")
         for fn in sort(img_files_set):
             fn_lower = fn.lower()
             if fn_lower in img_files_set_lower:
