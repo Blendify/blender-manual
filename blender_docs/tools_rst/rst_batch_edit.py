@@ -13,7 +13,7 @@
 # ~ ideasman42
 
 import os
-# if you want to operate on a subdir, eg: "render"
+# if you want to operate on a subdir, e.g: "render"
 SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
 RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
@@ -109,7 +109,7 @@ def preset_find_and_replace(fn, data_src):
 
 def preset_replace_table(fn, data_src):
     """
-    Replace ascii tables with list-table.
+    Replace ASCII tables with list-table.
     """
 
     lines = data_src.split("\n")

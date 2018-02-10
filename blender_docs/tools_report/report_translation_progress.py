@@ -10,7 +10,7 @@ Example:
 
   report_translation_progress.py locale/fr
 
-Summeary only - for all languages:
+Summary only - for all languages:
 
   report_translation_progress.py --quiet locale/*
 '''

@@ -48,7 +48,7 @@ def check_word(w):
 
 def check_spelling_body(text):
     for w in text.split():
-        # skip directive args (figure target for eg), could do differently?
+        # skip directive args (e.g. figure target), could do differently?
         if w.startswith(":") and w.endswith(":"):
             continue
         if w.startswith("<") and w.endswith(">"):
@@ -166,7 +166,7 @@ directives.register_directive('vimeo', directive_ignore_recursive)
 directives.register_directive('highlight', directive_ignore_recursive)
 directives.register_directive('parsed-literal', directive_ignore_recursive)
 
-# workaround some bug? docutils wont load relative includes!
+# workaround some bug? docutils won't load relative includes!
 directives.register_directive('include', directive_ignore_recursive)
 
 
@@ -177,9 +177,9 @@ def role_ignore(
         options={}, content=[],
         ):
     # Recursively parse the contents of the index term, in case it
-    # contains a substitiution (like |alpha|).
+    # contains a substitution (like |alpha|).
     nodes, msgs = inliner.parse(text, lineno, memo=inliner, parent=inliner.parent)
-    # 'text' instead of 'rawtext' because it doesnt contain the :role:
+    # 'text' instead of 'rawtext' because it doesn't contain the :role:
     return [RoleIgnore(text, '', *nodes, **options)], []
 
 class RoleIgnoreRecursive(docutils.nodes.Inline, docutils.nodes.TextElement): pass

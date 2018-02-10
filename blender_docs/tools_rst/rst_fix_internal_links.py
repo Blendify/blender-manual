@@ -226,7 +226,7 @@ def main():
                 print ("Attempting to fix links automatically...")
                 auto_fix_links()
             else:
-                print ("Cancelling")
+                print ("Canceling")
         else:
             print("No broken links found! Yay!")
 
@@ -237,7 +237,7 @@ def main():
     except:
         # in case file is locked
         print ("WARNING: Unable to delete " + EDIT_FILE + "\n"
-               "Make sure this file (and its \".orig\" duplicate) is deleted before comitting.")
+               "Make sure this file (and its \".orig\" duplicate) is deleted before committing.")
 
 
 if __name__ == "__main__":

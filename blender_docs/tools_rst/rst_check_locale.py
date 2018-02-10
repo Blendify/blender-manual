@@ -10,7 +10,7 @@ import os
 import sys
 
 
-# if you want to operate on a subdir, eg: "render"
+# if you want to operate on a subdir, e.g: "render"
 SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
 ROOT_DIR = os.path.normpath(os.path.join(CURRENT_DIR, ".."))
@@ -33,7 +33,7 @@ def files_recursive(path, ext_test):
 
 
 def print_title(title, underline="="):
-    print(f"\n{title}\n{len(title) * underline}")
+    print(f"\n{title.upper()}\n{len(title) * underline}")
 
 
 # -----------------------------------------------------------------------------
