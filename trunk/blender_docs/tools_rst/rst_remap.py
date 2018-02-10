@@ -11,7 +11,7 @@ then finish the operation and all :doc:`... </path/to/file>` roles will be updat
 Usage:
 
  1) rst_remap.py start
- 2) # Reorganise the document structure, rename files.
+ 2) # Reorganize the document structure, rename files.
  3) rst_remap.py finish
 
 note: you can't change the contents of the files you're remapping.
@@ -19,7 +19,7 @@ note: you can't change the contents of the files you're remapping.
 
 
 # -----------------------------------------------------------------------------
-# Generic Func's
+# Generic Functions
 
 def uuid_from_file(fn, block_size=1 << 20):
     """
@@ -63,7 +63,7 @@ def fatal(msg):
         raise RuntimeError(msg)
 
 
-# if you want to operate on a subdir, eg: "render"
+# if you want to operate on a subdir, e.g: "render"
 SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
 RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
@@ -167,7 +167,7 @@ def remap_finish(base_path):
 
 def remap_finish_rst(base_path, remap_rst_src, remap_rst_dst):
 
-    # Store: {source: dest}, without path prefix or extension, eg:
+    # Store: {source: dest}, without path prefix or extension, e.g:
     # /path/to/docs/manual/interface/introduction.rst, becomes...
     #                     /interface/introduction
     src_dst_map = {}
@@ -246,7 +246,7 @@ def remap_finish_rst(base_path, remap_rst_src, remap_rst_dst):
 
 def remap_finish_image(base_path, remap_image_src, remap_image_dst):
 
-    # Store: {source: dest}, without path prefix, eg:
+    # Store: {source: dest}, without path prefix, e.g:
     # /path/to/docs/manual/images/my_image.jpg, becomes...
     #                     /images/my_image.jpg
     src_dst_map = {}

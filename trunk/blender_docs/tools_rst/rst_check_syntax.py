@@ -6,7 +6,7 @@ import os
 import sys
 
 
-# if you want to operate on a subdir, eg: "render"
+# if you want to operate on a subdir, e.g: "render"
 SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
 RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))

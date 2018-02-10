@@ -8,7 +8,7 @@ import re
 # This script extracts the '--help' message from Blender's source code,
 # using primitive regex parsing.
 #
-# eg:
+# e.g:
 # python tools/blender_help_extract.py /src/blender/source/creator/creator_args.c manual/advanced/command_line/arguments.rst
 
 
@@ -253,7 +253,7 @@ def text_extract_help(text, args, static_strings):
             indent = l[:len(l) - len(l_strip)]
             l = "\n" + indent + ".. code-block:: sh\n\n" + indent + "   " + l.lstrip("# ") + "\n"
         else:
-            # use "'" as "``", except when used as plural, eg "Python's"
+            # use "'" as "``", except when used as plural, e.g. "Python's"
             l = re.sub("(?<![a-z])'|'(?![st])", "``", l)
         del l_strip
 
