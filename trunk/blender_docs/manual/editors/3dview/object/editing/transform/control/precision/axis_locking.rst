@@ -90,7 +90,7 @@ Plane locking only affects translation and scaling.
 
 Note that for rotation, both axis and plane locking have the same effect because a rotation is
 always constrained around one axis.
-*Trackball* type rotations :kbd:`R-R` cannot be locked at all.
+*Trackball* type rotations :kbd:`R R` cannot be locked at all.
 
 
 Axis Locking Modes

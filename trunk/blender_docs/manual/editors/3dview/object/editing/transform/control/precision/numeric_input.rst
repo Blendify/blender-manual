@@ -41,7 +41,7 @@ Negate :kbd:`Minus`
    Negate the whole value by pressing :kbd:`Minus`.
 Inverse :kbd:`Slash`
    Hitting :kbd:`Slash` during number entry switches the number being entered to its reciprocal,
-   e.g. :kbd:`2 /` results in 0.5 (1/2); :kbd:`20 /` results in 0.05 (1/20).
+   e.g. ``2 /`` results in 0.5 (1/2); ``20 /`` results in 0.05 (1/20).
 Reset :kbd:`Backspace`
    Hitting :kbd:`Backspace` after having deleted all leading chars will first reset
    the edited value to initial state, and on second press, the whole number editing will be canceled,

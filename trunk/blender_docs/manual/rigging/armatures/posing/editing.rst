@@ -45,7 +45,7 @@ Moreover, the local space for these actions is the bone's own one
 This is especially important when using axis locking, for example,
 there is no specific "bone roll" tool in *Pose Mode*,
 as you can rotate around the bone's main axis just by locking on the local Y axis
-:kbd:`R-Y-Y`... This also works with several bones selected;
+:kbd:`R Y Y`... This also works with several bones selected;
 each one is locked to its own local axis!
 
 When you pose your armature,

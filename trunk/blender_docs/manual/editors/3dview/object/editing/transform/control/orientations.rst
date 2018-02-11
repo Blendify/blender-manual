@@ -19,8 +19,8 @@ Orientations affect the behavior of Transformations: Location, Rotation, and Sca
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
 as well as on transformation constraints
 (like :doc:`axis locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`).
-This means that, when you press :kbd:`G-X`, it will constrain to the *global* X-axis,
-but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation*\ 's X-axis.
+This means that, when you press :kbd:`G X`, it will constrain to the *global* X-axis,
+but if you press :kbd:`G X X` it will constrain to your *Transform Orientation*\ 's X-axis.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_menu.png
 
@@ -77,7 +77,7 @@ Normal
    If you select several elements, it will orient towards the average of those normals.
 
    A great example of how this is useful is in Vertex Select Mode: Pick a vertex and then do
-   :kbd:`G, Z, Z` to tug it away from the mesh and shove it into the mesh.
+   :kbd:`G Z Z` to tug it away from the mesh and shove it into the mesh.
    To make this even more useful, select a nearby vertex and press :kbd:`Shift-R` to repeat
    the same movement -- except along that second vertex's normal instead.
 
@@ -92,7 +92,7 @@ View
    - X: Left/Right
    - Z: Towards/Away from the screen.
 
-   This way you can constrain movement to one View axis with :kbd:`G-X-X`.
+   This way you can constrain movement to one View axis with :kbd:`G X X`.
 
 
 Custom Orientations
@@ -161,7 +161,7 @@ In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effec
 #. Extrude with :kbd:`E`.
 #. Cancel the extrusion's default movement by pressing :kbd:`RMB` or :kbd:`Esc`.
 #. Hit :kbd:`G` to reinitiate movement.
-#. Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
+#. Hit :kbd:`Z Z` to constrain to the "Top Edge" orientation.
 
 
 .. _bpy.ops.transform.transform:
@@ -198,10 +198,10 @@ Please note two things:
 
    - If you click on one of the axes of the Manipulator with :kbd:`LMB`,
      it will allow you to constrain movement to only this direction.
-     An example of a keyboard equivalent is :kbd:`G, Z, Z`.
+     An example of a keyboard equivalent is :kbd:`G Z Z`.
    - If you :kbd:`Shift-LMB` click,
      it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes.
-     The keyboard analogue is :kbd:`G, Shift-Z, Shift-Z`.
+     The keyboard analogue is :kbd:`G Shift-Z Shift-Z`.
 
 
 Effect on Manipulators

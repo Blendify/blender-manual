@@ -45,7 +45,7 @@ Workflow
    you will notice, that Multicam is a rather simple effect strip:
    It just takes a selected channel as its input. That is all.
    The magic comes with the convenient keyboard layout.
-#. When you select the Multicam strip, the keys :kbd:`1-9` are mapped to the cut buttons.
+#. When you select the Multicam strip, the keys :kbd:`1` to :kbd:`9` are mapped to the cut buttons.
    So, select the Multicam strip and start playback and press the keys
    for the correct input while watching the individual cameras.
 #. You will end up with a small Multicam selector strip for every cut.

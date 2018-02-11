@@ -72,7 +72,7 @@ Let us make a simple example:
 
           Monkey deformations.
 
-- Now if you select the Monkey, and move it in the Y-direction :kbd:`G-Y`,
+- Now if you select the Monkey, and move it in the Y-direction :kbd:`G Y`,
   the monkey will deform nicely along the curve.
 
 .. tip::
