@@ -56,7 +56,7 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
           The three extruded bones.
 
 You also can use the rotating/scaling extrusions,
-as with meshes, by pressing respectively :kbd:`E-R` and :kbd:`E-S` --
+as with meshes, by pressing respectively :kbd:`E R` and :kbd:`E S` --
 as well as :doc:`locked </editors/3dview/object/editing/transform/control/precision/axis_locking>`
 extrusion along a global or local axis.
 

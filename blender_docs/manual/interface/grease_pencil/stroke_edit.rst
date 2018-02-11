@@ -298,7 +298,7 @@ Use Falloff
    Enables a linear falloff to calculate the influence of the brush on a point.
    That is, a point closer to the midpoint of the brush (i.e. the point under the cursor)
    will get affected more than the ones at the edges.
-Direction :kbd:`E-Ctrl-LMB`
+Direction :kbd:`Ctrl-E-LMB`
    Radio button to invert the brush effect.
 Affect
    Enable sculpt for position, strength (alpha value) and thickness in Smooth and Randomize brush.

@@ -335,7 +335,7 @@ can be used to alter features of the curve.
 For example, switching to *Vector handles* can be used to create curves with sharp corners.
 Read the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details.
 
-Toggle Free/Align :kbd:`V-T`
+Toggle Free/Align :kbd:`V T`
    Additionally, this shortcut can be used to toggle between Free and Aligned handle types.
 
 
