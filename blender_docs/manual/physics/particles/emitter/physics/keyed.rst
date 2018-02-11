@@ -72,7 +72,7 @@ The particle lifetime of the first system shall be 50 keys.
 The particles will travel in 25 frames from the first keyed system to the second,
 and in further 25 frames from the second system to the target.
 If you use the Timed button for the first system,
-the Time slider appears in the second systems panel. Its default value is 0.5,
+the Time slider appears in the second system's panel. Its default value is 0.5,
 so the time is equally split between the systems. If you set Time to 1,
 the movement from the first system to the second will get all the lifetime
 (the particles will die at the second system).
