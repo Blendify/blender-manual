@@ -52,7 +52,7 @@ Euler
    Should not be confused with "Backward Euler" (not implemented) which has the opposite feature,
    the energy decrease over time, even with no dampening.
    Use this integrator for short simulations or simulations with a lot of
-   dampening where speedy calculations is more important than accuracy.
+   dampening where speedy calculations are more important than accuracy.
 Verlet
    Very fast and stable integrator, energy is conserved over time with very little numerical dissipation.
 Midpoint

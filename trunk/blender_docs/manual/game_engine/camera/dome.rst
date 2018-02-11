@@ -48,11 +48,11 @@ Available camera settings change depending on the selected Dome Type:
 Resolution
    Sets the resolution of the Buffer. Decreasing this value increases speed, but decreases quality.
 Tessellation
-   This is the tessellation level of the mesh. (Not available in Cube Map mode).
+   This is the tessellation level of the mesh (not available in Cube Map mode).
 Angle
    Sets the field of view of the dome in degrees, from 90 to 250. (Available in Fisheye and Truncated modes).
 Tilt
-   Set the camera rotation in the horizontal axis. (Available in Fisheye and Truncated modes).
+   Set the camera rotation in the horizontal axis (available in Fisheye and Truncated modes).
 
 `Warp Data Mesh`_
    Use a custom warp mesh data file.

@@ -76,5 +76,5 @@ This tool can be used on many faces at once.
 
           Resulting face pair.
 
-The main difference between this tool and `Connect Vertex Path`_,
+The main difference between this tool and `Connect Vertex Path`_
 is this tool ignores selection order and connects all selected vertices that share a face.
