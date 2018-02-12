@@ -203,13 +203,15 @@ if "%1" == "update_po" (
 	echo.
 	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
 
-	sphinx-intl update -p %BUILDDIR%/locale
+	cd manual
+	sphinx-intl update -p ../%BUILDDIR%/locale
+	cd ../
 
 	cd locale
 	svn --force --depth infinity add .
 	cd ../
 
-	python tools/rst_check_structure.py --locale > update_po.log
+	python tools_rst/rst_check_locale.py --locale > update_po.log
 	type update_po.log
 	DEL update_po.log
 
@@ -232,7 +234,10 @@ if "%1" == "report_po_progress" (
 )
 
 if "%1" == "check_structure" (
-	python tools/rst_check_structure.py --image --locale > rst_check_structure.log
+	python tools_rst/rst_check_images.py > rst_check_structure.log
+	type rst_check_structure.log
+
+	python tools_rst/rst_check_locale.py > rst_check_structure.log
 	type rst_check_structure.log
 	DEL rst_check_structure.log
 	goto EOF
