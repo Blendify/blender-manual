@@ -70,14 +70,13 @@ Vertex Groups
 Textures
 --------
 
-The U and V options allows you to mirror the UV texture coordinates across the middle
-of the image.
+The U and V options allows you to mirror the UV texture coordinates across the middle of the image.
 
 E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
 its mirror copy will have UV coordinates of (0.7, 0.1).
 
 UV Offsets
-   ToDo 2.79 see `T47436 <https://developer.blender.org/T47436>`__.
+   Amount to shift mirrored UVs from the 0.5 point on the U/V axis.
 
 
 Further Options
