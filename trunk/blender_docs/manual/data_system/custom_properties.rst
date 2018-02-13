@@ -40,7 +40,23 @@ Custom properties can be edited using the panel available for data types that su
 Property Name
    The name of the custom property.
 Property Value
-   Todo.
+   This does two things, first it sets the default value of the custom property
+   second, it define the type of property it is. For example, custom properties
+   can either be of type: Integers, Floats, or Booleans.
+   See the table below for a list of examples for each:
+
+   :Integers: 1, 2, 3, 4...
+   :Floats: 3.141, 5.0, 6.125,
+   :Booleans: True, False
+
+   .. note::
+
+      Booleans are handled very similar to integers and work only work
+      when using Min/Max values that are integers and that are no more then 1 apart.
+
+      At this point, the boolean will still look like integers but behave like
+      booleans having one lower, off, value and a higher, on, value.
+
 Min
    The minimum value the custom property can take.
 Max
