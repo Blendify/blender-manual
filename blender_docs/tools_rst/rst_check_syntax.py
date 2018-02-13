@@ -4,6 +4,7 @@
 
 import os
 import sys
+import re
 
 
 # if you want to operate on a subdir, e.g: "render"
@@ -24,6 +25,8 @@ def rst_files(path):
 
 
 def main():
+    compile_regex(sys.argv[1:])
+
     for operation, operation_post in operations:
         for fn in rst_files(RST_DIR):
             with open(fn, "r", encoding="utf-8") as f:
@@ -38,6 +41,11 @@ def main():
 
         if operation_post is not None:
             operation_post()
+
+
+def compile_regex(args):
+    if "--kbd" in args:
+        compile_valid_kbd()
 
 
 def warn_long_lines(fn, data_src):
@@ -72,49 +80,78 @@ def warn_role_kbd(fn, data_src):
     """
     Report non-conforming uses of the :kbd: role.
 
-    also possible to do replacements here.
+    kbd editing regex:
+    (\:kbd\:`[^`]*?)search-term([^`]*?`)
+    \1replace-term\2
+
     """
-    import rst_helpers
+    iter_kbd = warn_role_kbd.iter_kbd
     valid_kbd = warn_role_kbd.valid_kbd
-    index_prev = 0
-    for d in rst_helpers.role_iter(fn, "kbd", angle_brackets=False):
-        # if d[1] == "Numpad-+": d[1] = "NumpadPlus"
+    repeat_kbd = warn_role_kbd.repeat_kbd
 
-        k_split = d[1].split("-")
-        for i, k in enumerate(k_split):
-            #if k == "Space": k = k_split[i] = "Spacebar"
+    for lineno, line in enumerate(data_src.splitlines()):
+        for m in re.finditer(iter_kbd, line):
+            content = m.group(1)
 
-            if k not in valid_kbd:
-                # This is a guess! (and its slow!)
-                i = data_src[index_prev:].find("".join(d))
-                assert(i != -1)
-                i += index_prev
-                line = data_src[:i].count("\n") + 1
-
-                print("%s:%d: %r" % (fn, line, k))
-                index_prev = i
-        d[1] = "-".join(k_split)
+            # chained (not pressed simultaneously): e.g. G X 5
+            for k in content.split():
+                if not re.match(valid_kbd, k) or re.search(repeat_kbd, k):
+                    fn_rel = fn[len(RST_DIR) + 1:]
+                    out = content
+                    if content != k:
+                        out += "| " + k
+                    print(fn_rel + ":" + str(lineno + 1) + " '" + out + "' " + "invalid keyboard shortcut")
 
     return None
-warn_role_kbd.valid_kbd = (
-    {
-    "LMB", "MMB", "RMB",
-    "Wheel", "WheelUp", "WheelDown",
-    "Ctrl", "Alt", "Shift", "Cmd",
-    "Tab", "Esc", "Backspace", "Delete", "Return", "Spacebar",
-    "PageUp", "PageDown", "Home", "End",
-    "Up", "Down", "Left", "Right",
-    "Comma", "Period", "Slash", "Backslash", "Plus", "Minus",
-    "NumpadPlus", "NumpadMinus", "NumpadDelete", "NumpadSlash", "NumpadPeriod", "NumpadAsterix",
-    } |
-    # single characters
-    set("[]<>./\\~!?'\"") |
-    # escape chars
-    {chr(i) for i in range(ord('A'), ord('Z') + 1)} |
-    {"%d" % i for i in range(10)} |
-    {"F%d" % i for i in range(1, 13)} |
-    {"Numpad%d" % i for i in range(10)}
-    )
+
+
+def compile_valid_kbd():
+    # kbd role iterator
+    warn_role_kbd.iter_kbd = re.compile(r"\:kbd\:`([^`]*?)`")
+
+    # config: allow "Regular key pressed as a modifier"
+    regular_as_mod = True
+    
+    pattern_str = ''.join((
+        # Modifier
+        r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?(Cmd(?:\-|\Z))?",
+
+        # Alphanumeric
+        r"((?:",
+        r"[A-Z0-9]|",
+        r"(?:[\[\]<>/~!?'\"=]|\\\\)|",
+
+        # Named
+        '|'.join((
+            "Comma", "Period", "Slash", "Backslash", "Plus", "Minus",
+            # Editing
+            "Tab", "Backspace", "Delete", "Return", "Spacebar",
+            # Navigation
+            "Esc", "PageUp", "PageDown", "Home", "End",
+            "Up", "Down", "Left", "Right",
+        )), '|',
+        #   Numpad
+        r"(?:Numpad(?:[0-9]|Plus|Minus|Delete|Slash|Period|Asterix))|",
+        #   Function
+        r"(?:F[1-9]|F1[0-2])" ,
+        r")(?:\-|\Z))",
+        r"{0,2}" if regular_as_mod else r"?",
+
+        # Mouse
+        r"(",
+        #   Wheel
+        r"(?:Wheel(Up|Down|In|Out)?)|",
+        #   Buttons
+        r"(?:(?:L|M|R)MB)|",
+        #   Stylus
+        r"(?:Pen|Eraser)",
+        r")?$",
+    ))
+
+    warn_role_kbd.valid_kbd = re.compile(pattern_str)
+
+    #directly repeated pressed key e.g. A-A or Left-Left 
+    warn_role_kbd.repeat_kbd = re.compile(r"(?:\-|\A)([^ \-]+?)\-\1")
 
 
 
