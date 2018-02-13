@@ -9,7 +9,7 @@
 
    introduction.rst
    world.rst
-   usage.rst
+   converting.rst
 
 
 .. _game-engine-physics-types:

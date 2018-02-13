@@ -48,12 +48,12 @@ Despill Factor
    Controls how much color bleed from the key color is removed from the input
    image: 0 means no despilling, 1 means all possible spilling will be removed.
    The underlying implementation is the same as adjusting the *Unspill* amount
-   of the :doc:`Color Spill Node </compositing/types/matte/color_spill_key>`.
+   of the :doc:`Color Spill Node </compositing/types/matte/color_spill>`.
 Despill Balance
    This controls how the color channels are compared when computing spill,
    affecting the hue and shade of the corrected colors.
    It is similar to setting the *Limiting Channel*
-   in the :doc:`Color Spill Node </compositing/types/matte/color_spill_key>`.
+   in the :doc:`Color Spill Node </compositing/types/matte/color_spill>`.
 Edge Kernel Radius
    Defines the radius in pixel used to detect an edge.
 Edge Kernel Tolerance

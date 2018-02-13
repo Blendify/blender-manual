@@ -48,7 +48,7 @@ for green screens, but the best results stem from a combination of techniques.
    channel_key.rst
    chroma_key.rst
    color_key.rst
-   color_spill_key.rst
+   color_spill.rst
    difference_key.rst
    distance_key.rst
    double_edge_mask.rst

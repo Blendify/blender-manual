@@ -10,4 +10,4 @@
 
    introduction.rst
    file.rst
-   screenshot.rst
+   screen_capture.rst

@@ -271,4 +271,4 @@ F-Curve Tab
 Drivers Tab
    See :doc:`/animation/drivers/drivers_panel`.
 Modifiers Tab
-   See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>`.
+   See :doc:`F-Modifiers </editors/graph_editor/fcurves/modifiers>`.

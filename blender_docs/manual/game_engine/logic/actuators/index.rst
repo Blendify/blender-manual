@@ -24,7 +24,7 @@ Actuators Types
    types/camera.rst
    types/constraint.rst
    types/edit_object.rst
-   types/2d_filters.rst
+   types/filter_2d.rst
    types/game.rst
    types/message.rst
    types/mouse.rst

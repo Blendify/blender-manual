@@ -10,5 +10,5 @@
 
    introduction.rst
    scurve.rst
-   editing.rst
+   selecting_editing.rst
    properties.rst
