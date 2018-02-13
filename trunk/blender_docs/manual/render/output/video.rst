@@ -177,14 +177,14 @@ If a problem occurs while rendering, the file might become unplayable and you wi
 have to re-render all frames from the beginning. If you first render out a set
 of static images such as the default PNG format or the higher-quality OpenEXR
 (which can retain HDR pixel data), you can combine them as
-an :doc:`Image Strip </editors/vse/sequencer/strips/image_movie>`
+an :doc:`Image Strip </editors/vse/sequencer/strips/movie_image>`
 in the Video Sequence Editor (VSE). This way, you can easily:
 
 - Restart the rendering from the place (the frame) where any problem occurred.
 - Try out different video encoding options in seconds,
   rather than minutes or hours as encoding is usually much faster than rendering the 3d scene.
 - Enjoy the rest of the features of the VSE, such as adding
-  :doc:`Image Strips </editors/vse/sequencer/strips/image_movie>`
+  :doc:`Image Strips </editors/vse/sequencer/strips/movie_image>`
   from previous renders, audio, video clips, etc.
 
 .. tip::

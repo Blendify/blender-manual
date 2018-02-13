@@ -10,4 +10,4 @@
    introduction.rst
    editing.rst
    properties.rst
-   fmodifiers.rst
+   modifiers.rst

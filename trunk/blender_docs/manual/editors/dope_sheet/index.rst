@@ -12,4 +12,4 @@
    introduction.rst
    action.rst
    grease_pencil.rst
-   shapekey.rst
+   shape_key.rst

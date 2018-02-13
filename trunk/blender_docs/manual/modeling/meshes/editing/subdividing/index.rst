@@ -8,8 +8,8 @@
 
    introduction.rst
    subdivide.rst
-   loop_subdivide.rst
-   knife_subdivide.rst
+   loop.rst
+   knife.rst
    bisect.rst
    vertex_connect.rst
    bevel.rst

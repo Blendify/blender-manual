@@ -17,6 +17,6 @@ Types
 
    scene.rst
    clip_mask.rst
-   image_movie.rst
+   movie_image.rst
    sound.rst
    effects/index.rst

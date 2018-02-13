@@ -315,4 +315,4 @@ whenever the user hovers a mouse over Blender tools.
 
 Blender supports I18N for internationalization.
 For more Information on how to load International fonts,
-see: :doc:`Editing Texts </modeling/texts/editing>` page.
+see: :doc:`Editing Texts </modeling/texts/selecting_editing>` page.

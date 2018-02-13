@@ -14,7 +14,7 @@ or by using a mask to vary the effect over the image.
    crop.rst
    displace.rst
    flip.rst
-   lens.rst
+   lens_distortion.rst
    map_uv.rst
    movie_distortion.rst
    plane_track_deform.rst
