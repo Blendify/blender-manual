@@ -111,7 +111,7 @@ def compile_valid_kbd():
 
     # config: allow "Regular key pressed as a modifier"
     regular_as_mod = True
-    
+
     pattern_str = ''.join((
         # Modifier
         r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?(Cmd(?:\-|\Z))?",
@@ -130,27 +130,27 @@ def compile_valid_kbd():
             "Esc", "PageUp", "PageDown", "Home", "End",
             "Up", "Down", "Left", "Right",
         )), '|',
-        #   Numpad
+        # Numpad
         r"(?:Numpad(?:[0-9]|Plus|Minus|Delete|Slash|Period|Asterix))|",
-        #   Function
-        r"(?:F[1-9]|F1[0-2])" ,
+        # Function
+        r"(?:F[1-9]|F1[0-2])",
         r")(?:\-|\Z))",
         r"{0,2}" if regular_as_mod else r"?",
 
         # Mouse
         r"(",
-        #   Wheel
+        # Wheel
         r"(?:Wheel(Up|Down|In|Out)?)|",
-        #   Buttons
+        # Buttons
         r"(?:(?:L|M|R)MB)|",
-        #   Stylus
+        # Stylus
         r"(?:Pen|Eraser)",
         r")?$",
     ))
 
     warn_role_kbd.valid_kbd = re.compile(pattern_str)
 
-    #directly repeated pressed key e.g. A-A or Left-Left 
+    # Directly repeated pressed key e.g. A-A or Left-Left.
     warn_role_kbd.repeat_kbd = re.compile(r"(?:\-|\A)([^ \-]+?)\-\1")
 
 
@@ -160,15 +160,15 @@ operations = []
 operations_checks = {
     "--long": (warn_long_lines, None),
     "--kbd": (warn_role_kbd, None),
-    }
+}
 
 
 # generic arg parsing
 def print_help():
     print("Blender manual checks\n"
-            "    Usage: %s { %s }\n" %
-            (os.path.basename(__file__),
-            " ".join(arg for arg in sorted(operations_checks.keys()))))
+          "    Usage: %s { %s }\n" %
+          (os.path.basename(__file__),
+           " ".join(arg for arg in sorted(operations_checks.keys()))))
 
 
 for arg in sys.argv[1:]:

@@ -24,6 +24,7 @@ LOCALE_DIR = os.path.join(ROOT_DIR, "locale")
 # -----------------------------------------------------------------------------
 # Common Utilities
 
+
 def files_recursive(path, ext_test):
     for dirpath, dirnames, filenames in os.walk(path):
         if dirpath.startswith("."):
@@ -63,6 +64,7 @@ image_regex = re.compile(
 # -----------------------------------------------------------------------------
 # Find Unused/Missing Images
 
+
 def rst_images(fn, data_src):
     for match in re.finditer(image_regex, data_src):
         yield match.group(2)
@@ -92,6 +94,7 @@ def rst_files_report(img_refs):
             if fn_lower in img_files_set_lower:
                 print(fn)
             img_files_set_lower.add(fn_lower)
+
 
 def main():
     if "--help" in sys.argv:

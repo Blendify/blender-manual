@@ -23,7 +23,7 @@ def title_level_edit(fn, data_src, level_add):
         '^',
         '"',
         "'",  # not from python docs!
-        )
+    )
 
     title_levels = {ch: i for i, ch in enumerate(title_chars)}
 
@@ -85,20 +85,20 @@ def create_argparse():
     usage_text = __doc__
 
     parser = argparse.ArgumentParser(
-            prog="bam",
-            description=usage_text,
-            )
+        prog="bam",
+        description=usage_text,
+    )
 
     parser.add_argument(
-            dest="paths", nargs="*",
-            help="Path(s) to operate on",
-            )
+        dest="paths", nargs="*",
+        help="Path(s) to operate on",
+    )
 
     parser.add_argument(
-            "-l", "--level", dest="level", metavar='LEVEL', required=True,
-            default=1, type=int,
-            help="The level to add/remove from the titles",
-            )
+        "-l", "--level", dest="level", metavar='LEVEL', required=True,
+        default=1, type=int,
+        help="The level to add/remove from the titles",
+    )
     return parser
 
 

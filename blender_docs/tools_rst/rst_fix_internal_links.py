@@ -15,7 +15,7 @@ to_print = [["#   Location of broken link:", "Line:", "    Link Target:"]]  # li
 
 
 def clear_console():
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
 def rst_files(path):
@@ -37,7 +37,7 @@ def get_broken_doc_links(fname, anchors='INCLUDE', target_chapter=''):
     paths = []
     for i, l in enumerate(lines):
         if ROLE in l:
-            links = l.split(ROLE+"`")
+            links = l.split(ROLE + "`")
             del links[0]  # first split item will be "blah blah :doc:`" and not a link path
             for path in links:
                 if "`" in path:
@@ -46,13 +46,13 @@ def get_broken_doc_links(fname, anchors='INCLUDE', target_chapter=''):
                         path = path.split("<")[-1][:-1]  # turns "Text <path>" into "path"
                     lfname = path.split('/')[-1]
                     do_append = False
-                    if anchors in ['ONLY','INCLUDE'] and '#' in lfname:
+                    if anchors in ['ONLY', 'INCLUDE'] and '#' in lfname:
                         do_append = True
                     elif anchors == 'INCLUDE' or (anchors == 'IGNORE' and '#' not in lfname):
                         do_append = True
 
                     if do_append:
-                        if path.startswith("/"+target_chapter):
+                        if path.startswith("/" + target_chapter):
                             paths.append([path, str(i + 1) + ' '])  # using i+1 so line number starts from 1
 
     # Then check validity
@@ -117,7 +117,7 @@ def fix_links():
                 lorig = flines[lineno]
                 flines[lineno] = flines[lineno].replace('<' + target_orig + '>', '<' + target + '>')
                 flines[lineno] = flines[lineno].replace('`' + target_orig + '`', '`' + target + '`')
-                print (lorig + flines[lineno])
+                print(lorig + flines[lineno])
                 with io.open(fullp, "w", encoding="utf-8", newline='') as f:
                     f.write(''.join(flines))
 
@@ -157,40 +157,53 @@ def auto_fix_links():
                     lorig = flines[lineno]
                     flines[lineno] = flines[lineno].replace('<' + target + '>', '<' + fix + '>')
                     flines[lineno] = flines[lineno].replace('`' + target + '`', '`' + fix + '`')
-                    print (lorig + flines[lineno])
+                    print(lorig + flines[lineno])
                     with io.open(fullp, "w", encoding="utf-8", newline='') as f:
                         f.write(''.join(flines))
 
     if success == total:
-        print ("\nSuccessfully fixed all links automatically!")
+        print("\nSuccessfully fixed all links automatically!")
     elif success > 0:
-        print ("\nSuccessfully fixed %s links automatically, run this script again to try manually." % success)
+        print("\nSuccessfully fixed %s links automatically, run this script again to try manually." % success)
     else:
-        print ("Failed to fix any links automatically :(")
-
-
+        print("Failed to fix any links automatically :(")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="An interactive script that can be used to manually "
-                                                 "or automatically fix broken internal links.\n\n"
-                                                 "Basic usage:\n"
-                                                 "- Run \"fix_internal_links.py\"\n"
-                                                 "- Edit the right column in the text file \"broken_doc_links.txt\"\n"
-                                                 "- Enter \"done\" at the prompt, all links will then be updated "
-                                                 "as you changed them in the text file.",
-                                     formatter_class=argparse.RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=(
+            "An interactive script that can be used to manually "
+            "or automatically fix broken internal links.\n\n"
+            "Basic usage:\n"
+            "- Run \"fix_internal_links.py\"\n"
+            "- Edit the right column in the text file \"broken_doc_links.txt\"\n"
+            "- Enter \"done\" at the prompt, all links will then be updated "
+            "as you changed them in the text file."),
+        formatter_class=argparse.RawTextHelpFormatter)
 
-    parser.add_argument('-a', '--auto',
-                        help="Skip the user input process and\nautomatically try to fix links.", action="store_true")
-    parser.add_argument('-ia', '--ignoreanchors',
-                        help="Ignore links with html anchors at the end.", action="store_true")
-    parser.add_argument('-oa', '--onlyanchors',
-                        help="Only check links with html anchors at the end.", action="store_true")
-    parser.add_argument('-sc', '--sourcechapter',
-                        help="Only check files in this chapter.")
-    parser.add_argument('-tc', '--targetchapter',
-                        help="Only check for links pointing at this chapter.")
+    parser.add_argument(
+        '-a', '--auto',
+        action="store_true",
+        help="Skip the user input process and\nautomatically try to fix links.",
+    )
+    parser.add_argument(
+        '-ia', '--ignoreanchors',
+        action="store_true",
+        help="Ignore links with html anchors at the end.",
+    )
+    parser.add_argument(
+        '-oa', '--onlyanchors',
+        action="store_true",
+        help="Only check links with html anchors at the end.",
+    )
+    parser.add_argument(
+        '-sc', '--sourcechapter',
+        help="Only check files in this chapter.",
+    )
+    parser.add_argument(
+        '-tc', '--targetchapter',
+        help="Only check for links pointing at this chapter.",
+    )
 
     args = parser.parse_args()
     source_chapter = ''
@@ -209,24 +222,24 @@ def main():
         check_links(source_chapter, anchors, target_chapter)
         auto_fix_links()
     else:
-        print ("Checking for broken links...")
+        print("Checking for broken links...")
         check_links(source_chapter, anchors, target_chapter)
-        num_broken = len(to_print)-1
+        num_broken = len(to_print) - 1
         clear_console()
         if num_broken > 0:
-            print ("Found: " + str(num_broken) + " broken links\n\n"
-                   "Now edit the link targets in the right column of broken_doc_links.txt (next to this script)\n\n"
-                   "When finished, type \"done\" below, or anything else to cancel.\n\n"
-                   "You may also type \"auto\" to attempt to fix the links automatically.\n")
-            response = input ("> ")
+            print("Found: " + str(num_broken) + " broken links\n\n"
+                  "Now edit the link targets in the right column of broken_doc_links.txt (next to this script)\n\n"
+                  "When finished, type \"done\" below, or anything else to cancel.\n\n"
+                  "You may also type \"auto\" to attempt to fix the links automatically.\n")
+            response = input("> ")
             if response == "done":
                 fix_links()
             elif response == "auto":
                 clear_console()
-                print ("Attempting to fix links automatically...")
+                print("Attempting to fix links automatically...")
                 auto_fix_links()
             else:
-                print ("Canceling")
+                print("Canceling")
         else:
             print("No broken links found! Yay!")
 
@@ -234,10 +247,10 @@ def main():
     try:
         os.remove(EDIT_FILE)
         os.remove(EDIT_FILE + ".orig")
-    except:
+    except BaseException as ex:
         # in case file is locked
-        print ("WARNING: Unable to delete " + EDIT_FILE + "\n"
-               "Make sure this file (and its \".orig\" duplicate) is deleted before committing.")
+        print("WARNING: Unable to delete " + EDIT_FILE + " error: " + str(ex) + "\n"
+              "Make sure this file (and its \".orig\" duplicate) is deleted before committing.")
 
 
 if __name__ == "__main__":
