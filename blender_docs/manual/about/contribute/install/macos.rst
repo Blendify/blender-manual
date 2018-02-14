@@ -40,14 +40,15 @@ Simply check out the blender-manual repository using::
 Setting up the Build Environment
 ================================
 
-In a terminal, enter the ``blender_docs`` folder which was just added by the SVN checkout::
+- Open a Terminal window.
+- Enter the ``blender_docs`` folder which was just added by the SVN checkout::
 
-   cd ~/blender_docs
+     cd ~/blender_docs
 
-Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need.
-To install these dependencies, we can use the ``pip`` command::
+- Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need.
+  To install these dependencies, we can use the ``pip`` command::
 
-   sudo pip install -r requirements.txt
+     sudo pip install -r requirements.txt
 
 .. note::
 

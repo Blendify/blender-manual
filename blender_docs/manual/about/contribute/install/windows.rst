@@ -1,3 +1,4 @@
+.. highlight:: sh
 
 **************************
 Installation on MS-Windows
@@ -16,7 +17,7 @@ Installing Python
 #. Download the `Python installation package <https://www.python.org/downloads/>`__ for MS-Windows.
    In this guide version 3.6.x is used.
 #. Install Python with the installation wizard.
-   Please make sure that you enable the "Add Python to Path" option:
+   Please make sure that you enable the "Add Python to PATH" option:
 
    .. figure:: /images/about_contribute_install_windows_installer.png
 
@@ -47,32 +48,26 @@ In this guide, we will use TortoiseSVN though any Subversion client will do.
 Setting up the Build Environment
 ================================
 
-- Open a command prompt and change to the repository folder using:
+- Open a Command Prompt.
+- Enter the ``blender_docs`` folder which was just added by the SVN checkout::
 
-   .. code-block:: sh
+     cd C:\blender_docs
 
-      cd C:\blender_docs
+- Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need.
+  Install all the dependencies using Python's ``pip`` command::
 
-- Install all the dependencies using Python's ``pip`` command:
+     pip install -r requirements.txt
 
-   .. code-block:: sh
+- If all goes well, you should see the following message when it is finished::
 
-      pip install -r requirements.txt
-
-- If all goes well, you should see the following message when it is finished:
-
-   .. code-block:: sh
-
-      Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
+     Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
 
 During the setup, some warnings may be shown, but do not worry about them.
 However, if any errors occur, they may cause some problems.
 
 .. note::
 
-   Every now and then you may want to make sure your dependencies are up to date using:
-
-   .. code-block:: sh
+   Every now and then you may want to make sure your dependencies are up to date using::
 
       pip install -r requirements.txt --upgrade
 
