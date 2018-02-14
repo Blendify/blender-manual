@@ -84,11 +84,11 @@ def check_suspicious_constructs(fn, lines):
     inprod = False
     for lno, line in enumerate(lines):
         if seems_directive_re.search(line):
-            yield lno+1, 'comment seems to be intended as a directive'
+            yield lno + 1, 'comment seems to be intended as a directive'
         if '.. productionlist::' in line:
             inprod = True
         elif not inprod and default_role_re.search(line):
-            yield lno+1, 'default role used'
+            yield lno + 1, 'default role used'
         elif inprod and not line.strip():
             inprod = False
 
@@ -98,11 +98,11 @@ def check_whitespace(fn, lines):
     """Check for whitespace and line length issues."""
     for lno, line in enumerate(lines):
         if '\r' in line:
-            yield lno+1, '\\r in line'
+            yield lno + 1, '\\r in line'
         if '\t' in line:
-            yield lno+1, 'OMG TABS!!!1'
+            yield lno + 1, 'OMG TABS!!!1'
         if line[:-1].rstrip(' \t') != line[:-1]:
-            yield lno+1, 'trailing whitespace'
+            yield lno + 1, 'trailing whitespace'
 
 
 @checker('.rst', severity=0)
@@ -116,7 +116,7 @@ def check_line_length(fn, lines):
                not line.lstrip().startswith(('.. function',
                                              '.. method',
                                              '.. cfunction')):
-                yield lno+1, "line too long"
+                yield lno + 1, "line too long"
 
 
 @checker('.html', severity=2, falsepositives=True)
@@ -126,7 +126,7 @@ def check_leaked_markup(fn, lines):
     """
     for lno, line in enumerate(lines):
         if leaked_markup_re.search(line):
-            yield lno+1, 'possibly leaked markup: %r' % line
+            yield lno + 1, 'possibly leaked markup: %r' % line
 
 
 def main(argv):

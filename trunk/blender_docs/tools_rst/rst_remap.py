@@ -212,14 +212,19 @@ def remap_finish_rst(base_path, remap_rst_src, remap_rst_dst):
             # don't log to stdout (annoying)
             check_output(["svn", "help"])
             has_svn = True
-        except:
-            print("warning: command 'svn' not found in your PATH, not updating translations!")
+        except BaseException as ex:
+            print(
+                "warning: command 'svn' not found in your PATH, error:" +
+                str(srr) +
+                " not updating translations!"
+            )
             has_svn = False
 
         if has_svn:
             translation_paths = [
-                    os.path.join(LOCALE_DIR, d, "LC_MESSAGES") for d in os.listdir(LOCALE_DIR)
-                    if not d.startswith(".")]
+                os.path.join(LOCALE_DIR, d, "LC_MESSAGES") for d in os.listdir(LOCALE_DIR)
+                if not d.startswith(".")
+            ]
 
             for file_path_src, file_path_dst in src_dst_map.items():
                 if file_path_src != file_path_dst:

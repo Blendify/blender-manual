@@ -120,7 +120,6 @@ def check_image_names(fn, data_src, name_data):
     return None
 
 
-
 def check_image_names_report(name_data):
     """
     Processes and then output the results of the image name check

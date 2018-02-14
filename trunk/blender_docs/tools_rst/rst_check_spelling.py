@@ -120,10 +120,11 @@ def main():
 import docutils
 from docutils.parsers.rst import directives, roles
 
+
 def directive_ignore(
         name, arguments, options, content, lineno,
         content_offset, block_text, state, state_machine,
-        ):
+):
     """
     Used to explicitly mark as doctest blocks things that otherwise
     wouldn't look like doctest blocks.
@@ -138,16 +139,21 @@ def directive_ignore(
              ' and the doctest example.' % lineno)
     '''
     return [docutils.nodes.doctest_block(text, text, codeblock=True)]
+
+
 directive_ignore.content = True
+
 
 def directive_ignore_recursive(
         name, arguments, options, content, lineno,
         content_offset, block_text, state, state_machine,
-        ):
+):
     """
     Ignore everything under this directive (use with care!)
     """
     return []
+
+
 directive_ignore_recursive.content = True
 
 
@@ -171,22 +177,29 @@ directives.register_directive('include', directive_ignore_recursive)
 
 
 # Dummy roles
-class RoleIgnore(docutils.nodes.Inline, docutils.nodes.TextElement): pass
+class RoleIgnore(docutils.nodes.Inline, docutils.nodes.TextElement):
+    pass
+
+
 def role_ignore(
         name, rawtext, text, lineno, inliner,
         options={}, content=[],
-        ):
+):
     # Recursively parse the contents of the index term, in case it
     # contains a substitution (like |alpha|).
     nodes, msgs = inliner.parse(text, lineno, memo=inliner, parent=inliner.parent)
     # 'text' instead of 'rawtext' because it doesn't contain the :role:
     return [RoleIgnore(text, '', *nodes, **options)], []
 
-class RoleIgnoreRecursive(docutils.nodes.Inline, docutils.nodes.TextElement): pass
+
+class RoleIgnoreRecursive(docutils.nodes.Inline, docutils.nodes.TextElement):
+    pass
+
+
 def role_ignore_recursive(
         name, rawtext, text, lineno, inliner,
         options={}, content=[],
-        ):
+):
     return [RoleIgnore("", '', *(), **{})], []
 
 
@@ -217,8 +230,8 @@ def rst_to_doctree(filedata, filename):
 
     doc.settings.raw_enabled = True  # TODO, check how this works!
     doc.settings.file_insertion_enabled = True
-    doc.settings.character_level_inline_markup = False # TODO, whats sphinx do?
-    doc.settings.trim_footnote_reference_space = False # doesn't seem important
+    doc.settings.character_level_inline_markup = False  # TODO, whats sphinx do?
+    doc.settings.trim_footnote_reference_space = False  # doesn't seem important
 
     parser.parse(filedata, doc)
     return doc
@@ -237,8 +250,9 @@ def check_spelling(filename):
 class RstSpellingVisitor(docutils.nodes.NodeVisitor):
     __slots__ = (
         "document",
-        )
-    def __init__ (self, doc):
+    )
+
+    def __init__(self, doc):
         self.document = doc
 
     # -----------------------------
@@ -250,6 +264,7 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
     # TODO
     def visit_section(self, node):
         pass
+
     def depart_section(self, node):
         pass
 
@@ -290,6 +305,7 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
         self.list_types.append(None)
         self.list_count.append(0)
         '''
+
     def depart_bullet_list(self, node):
         pass
         '''
@@ -304,6 +320,7 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
         self.list_types.append(node["enumtype"])
         self.list_count.append(0)
         '''
+
     def depart_enumerated_list(self, node):
         pass
         '''
@@ -314,10 +331,11 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
 
     def visit_paragraph(self, node):
         pass
+
     def depart_paragraph(self, node):
         pass
 
-        ## Just text for now
+        # Just text for now
         # text = node.astext()
         # print(text)
         # check_spelling_body(text)
@@ -332,65 +350,77 @@ class RstSpellingVisitor(docutils.nodes.NodeVisitor):
 
     def visit_strong(self, node):
         self.is_strong = True
+
     def depart_strong(self, node):
         self.is_strong = False
+
     def visit_emphasis(self, node):
         self.is_emphasis = True
+
     def depart_emphasis(self, node):
         self.is_emphasis = False
 
     def visit_math(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_math(self, node):
         pass
 
     def visit_literal(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_literal(self, node):
         pass
 
     def visit_literal_block(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_literal_block(self, node):
         pass
 
     def visit_code_block(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_code_block(self, node):
         pass
 
     def visit_reference(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_reference(self, node):
         pass
 
     def visit_download_reference(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_download_reference(self, node):
         pass
 
     def visit_date(self, node):
-        #date = datetime.date(*(
+        # date = datetime.date(*(
         #    map(int, unicode(node[0]).split('-'))))
         #metadata['creation_date'] = date
         pass
 
-    #def visit_document(self, node):
+    # def visit_document(self, node):
     #    print("TEXT:", node.astext())
     #    # metadata['searchable_text'] = node.astext()
 
     def visit_comment(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_comment(self, node):
         pass
 
     def visit_raw(self, node):
         raise docutils.nodes.SkipNode
+
     def depart_raw(self, node):
         pass
 
     def unknown_visit(self, node):
         pass
+
     def unknown_departure(self, node):
         pass
 
