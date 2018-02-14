@@ -32,13 +32,12 @@ def files_recursive(path, ext_test):
                 yield os.path.join(dirpath, filename)
 
 
-def print_title(title, underline="="):
-    longest_line = 0
-    for line in title.splitlines():
-        if len(line) > longest_line:
-            longest_line = len(line)
-
-    print('\n' + title.upper() + '\n' + longest_line * underline)
+def print_title_multiline(title, underline="="):
+    print(
+        '\n' +
+        title.upper() + '\n' +
+        (underline * max(len(l) for l in title.splitlines()))
+    )
 
 
 # -----------------------------------------------------------------------------
@@ -188,7 +187,7 @@ def check_image_names_report(name_data):
 
     for id in messages:
         if len(name_report[id]) != 0:
-            print_title("List of images " + messages[id])
+            print_title_multiline("List of images " + messages[id])
             for ent in name_report[id]:
                 print(ent["filepath"] + ":" + str(ent["lineno"] + 1) + " " + ent["image_name"] + ent["image_ext"])
                 print("   Should be: " + ent["file_derive"])
