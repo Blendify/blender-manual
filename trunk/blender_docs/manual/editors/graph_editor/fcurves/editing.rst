@@ -182,7 +182,7 @@ Sampling and Baking Keyframes
 =============================
 
 Sample Keyframes :kbd:`Shift-O`
-   Sampling a set a keyframes replaces interpolated values with a new keyframe for each frame.
+   Sampling a set of keyframes replaces interpolated values with a new keyframe for each frame.
 
    .. list-table::
 
@@ -208,7 +208,7 @@ Bake Sound to F-Curves
 
    | Menu:     :menuselection:`Key --> Bake Sound to F-Curves`
 
-The *Bake Sound to F-Curves* tool takes and sound file and uses its sound wave to create the animation data.
+The *Bake Sound to F-Curves* tool takes a sound file and uses its sound wave to create the animation data.
 
 Lowest frequency
    Cutoff frequency of a high-pass filter that is applied to the audio data.
