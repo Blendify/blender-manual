@@ -195,7 +195,7 @@ Arrow Keys
 Directory navigation is also possible through the arrow keys with :kbd:`Alt` pressed:
 
 - Go to Parent :kbd:`Alt-Up`
-- Previous :kbd:`Alt-Left`
+- Previous Directory :kbd:`Alt-Left`
 - Next Directory :kbd:`Alt-Right`
 
 
