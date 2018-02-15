@@ -20,7 +20,7 @@ allowing to model geometrical arrangements of objects (e.g. the columns of a Gre
 the trees in a garden, an army of robot soldiers, the desks in a classroom).
 The object can be of any object type which Blender supports.
 The second approach is to use them to model an object starting from a single part of it
-(e.g. the spikes in a club, the thorns of a sea-urchin, the tiles in a wall,the petals in a flower).
+(e.g. the spikes in a club, the thorns of a sea-urchin, the tiles in a wall, the petals in a flower).
 
 .. note:: Download example blend-file
 
