@@ -75,7 +75,7 @@ allows you to add more images to the range.
 Example
 =======
 
-.. figure:: /images/editors_vse_sequencer_strips_image-movie_example.png
+.. figure:: /images/editors_vse_sequencer_strips_movie-image_example.png
 
 If you scroll up the workspace, you will see an information channel
 (at vertical location channel 0) that gives you some helpful hints about the active strip.

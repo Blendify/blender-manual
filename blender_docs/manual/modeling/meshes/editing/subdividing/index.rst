@@ -6,7 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
    subdivide.rst
    loop.rst
    knife.rst

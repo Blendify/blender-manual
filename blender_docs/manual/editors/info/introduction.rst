@@ -52,7 +52,7 @@ Duplicate Window :kbd:`Ctrl-Alt-W`
 Toggle Window Fullscreen :kbd:`Alt-F11`
    Toggles full screen on or off.
 Screenshot, Screencast
-   See :doc:`/editors/info/screenshot`.
+   See :doc:`/editors/info/screen_capture`.
 Toggle System Console
    Shows or hides the :doc:`System Console </advanced/command_line/introduction>` (on MS Windows).
 

@@ -20,6 +20,8 @@ The lines are each perpendicular to the face on which they lie.
 The visualization can be activate in the :ref:`Mesh Display panel <mesh-display-normals>`.
 
 
+.. _modeling-meshes-editing-normals-shading:
+
 Shading
 =======
 
@@ -45,10 +47,10 @@ Flat
 .. list-table:: Example mesh flat (left) and smooth shaded (right).
    `Sample blend-file <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__.
 
-   * - .. figure:: /images/modeling_meshes_editing_smoothing_example-01-flat.png
+   * - .. figure:: /images/modeling_meshes_editing_normals_example-flat.png
           :width: 200px
 
-     - .. figure:: /images/modeling_meshes_editing_smoothing_example-02-smooth.png
+     - .. figure:: /images/modeling_meshes_editing_normals_example-smooth.png
           :width: 200px
 
 As seen in the previous sections, polygons are central to Blender.
@@ -63,7 +65,7 @@ Sometimes this is a desirable effect, but usually we want our objects to look ni
 Smooth
 ------
 
-.. figure:: /images/modeling_meshes_editing_smoothing_shading-smooth-flat.png
+.. figure:: /images/modeling_meshes_editing_normals_shading-smooth-flat.png
    :align: right
 
    Shading buttons in Tool Shelf.

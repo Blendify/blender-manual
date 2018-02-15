@@ -33,17 +33,17 @@ so no additional vertex will be created (besides the first one).
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_line-before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife_line-before.png
           :width: 200px
 
           Mesh before knife cut.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_line-active.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_knife_line-active.png
           :width: 200px
 
           Knife cut active.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_line-after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_knife_line-after.png
           :width: 200px
 
           After confirming knife cut.
@@ -62,12 +62,12 @@ New cut :kbd:`E`
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_multiple-before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife_multiple-before.png
           :width: 320px
 
           Creating multiple cuts.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_multiple-after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_knife_multiple-after.png
           :width: 320px
 
           Result of starting new cuts while in the tool.
@@ -90,12 +90,12 @@ Draw a continuous line: :kbd:`LMB` drag.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_angle-before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife_angle-before.png
           :width: 320px
 
           Constraining cut angle.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_angle-after.png
+     - .. figure:: /images/modeling_meshes_editing_subdividing_knife_angle-after.png
           :width: 320px
 
           Result of constraining cut angle.
@@ -137,32 +137,32 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_project-text-before.jpg
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife_project-text-before.jpg
           :width: 320px
 
           Before projecting from a text object.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_project-text-after.jpg
+     - .. figure:: /images/modeling_meshes_editing_subdividing_knife_project-text-after.jpg
           :width: 320px
 
           Resulting knife projection.
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_project-mesh-before.jpg
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife_project-mesh-before.jpg
           :width: 320px
 
           Before projecting from a mesh object.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_project-mesh-after.jpg
+     - .. figure:: /images/modeling_meshes_editing_subdividing_knife_project-mesh-after.jpg
           :width: 320px
 
           Resulting knife projection (extruded after).
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_project-curve-before.png
+   * - .. figure:: /images/modeling_meshes_editing_subdividing_knife_project-curve-before.png
           :width: 320px
 
           Before projecting from a 3D curve object.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_knife-subdivide_project-curve-after.jpg
+     - .. figure:: /images/modeling_meshes_editing_subdividing_knife_project-curve-after.jpg
           :width: 320px
 
           Resulting knife projection (extruded after).

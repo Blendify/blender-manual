@@ -16,7 +16,7 @@ Also, like the rest of the Modifiers, order of execution has an important bearin
 For this, see the documentation on the :ref:`modifier stack <modifier-stack>`.
 
 Keep in mind that this is a different operation than its companion,
-:doc:`Smooth Shading </modeling/meshes/editing/smoothing>`.
+:ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.
 You can see the difference between the two in the grid image below.
 
 .. figure:: /images/modeling_modifiers_generate_subsurf_grid.png

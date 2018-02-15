@@ -50,42 +50,42 @@ Modes might affect many things in Blender:
      - Name
      - Shortcut
      - Details
-   * - .. figure:: /images/editors_3dview_modes_icons_object-mode.png
+   * - .. figure:: /images/editors_3dview_modes_icons-object-mode.png
      - :doc:`Object Mode </editors/3dview/object/index>`
      - *None* [1]_
      - The default mode, available for all object types,
        as it is dedicated to *Object* data-block editing (e.g. position, rotation, size).
-   * - .. figure:: /images/editors_3dview_modes_icons_edit-mode.png
+   * - .. figure:: /images/editors_3dview_modes_icons-edit-mode.png
      - :doc:`Edit Mode </modeling/index>`
      - :kbd:`Tab` [1]_
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *Object Data* data-block editing
        (e.g. vertices/edges/faces for meshes, control points for curves/surfaces, etc.).
-   * - .. figure:: /images/editors_3dview_modes_icons_sculpt-mode.png
+   * - .. figure:: /images/editors_3dview_modes_icons-sculpt-mode.png
      - :doc:`Sculpt Mode </sculpt_paint/sculpting/index>`
      - *None* [1]_
      - A mesh-only mode, that enables Blender's mesh 3D-sculpting tool.
-   * - .. figure:: /images/editors_3dview_modes_icons_vertex-paint.png
+   * - .. figure:: /images/editors_3dview_modes_icons-vertex-paint.png
      - :doc:`Vertex Paint Mode </sculpt_paint/painting/vertex_paint/index>`
      - *None* [1]_
      - A mesh-only mode, that allows you to set your mesh's vertices colors (i.e. to "paint" them).
-   * - .. figure:: /images/editors_3dview_modes_icons_weight-paint.png
+   * - .. figure:: /images/editors_3dview_modes_icons-weight-paint.png
      - :doc:`Weight Paint Mode </sculpt_paint/painting/weight_paint/index>`
      - :kbd:`Ctrl-Tab` [2]_
      - A mesh-only mode, dedicated to vertex group weighting.
-   * - .. figure:: /images/editors_3dview_modes_icons_texture-paint.png
+   * - .. figure:: /images/editors_3dview_modes_icons-texture-paint.png
      - :doc:`Texture Paint Mode </sculpt_paint/painting/texture_paint/index>`
      - *None* [1]_
      - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D Views.
-   * - .. figure:: /images/editors_3dview_modes_icons_particle-edit.png
+   * - .. figure:: /images/editors_3dview_modes_icons-particle-edit.png
      - :doc:`Particle Edit Mode </physics/particles/mode>`
      - *None* [1]_
      - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).
-   * - .. figure:: /images/editors_3dview_modes_icons_pose-mode.png
+   * - .. figure:: /images/editors_3dview_modes_icons-pose-mode.png
      - :doc:`Pose Mode </rigging/armatures/posing/index>`
      - :kbd:`Ctrl-Tab` [2]_
      - An armature only mode, dedicated to armature posing.
-   * - .. figure:: /images/editors_3dview_modes_icons_grease-pencil.png
+   * - .. figure:: /images/editors_3dview_modes_icons-grease-pencil.png
      - :doc:`Edit Strokes Mode </interface/grease_pencil/stroke_edit>`
      - :kbd:`D-Tab`
      - A Grease Pencil only mode, dedicated to editing Grease Pencil strokes.
