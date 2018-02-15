@@ -195,14 +195,18 @@ if "%1" == "update_po" (
 	svn up .
 	cd ../
 
-	REM Create PO files:
-	DEL build/locale
+	IF EXIST %BUILDDIR%/locale (
+		REM Remove POT files:
+		RMDIR /s /q %BUILDDIR%\locale
+	)
 
+	REM Create POT files:
 	%SPHINXBUILD% -t builder_html -b gettext %I18NSPHINXOPTS% %BUILDDIR%/locale
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
 
+	REM Create PO files:
 	cd manual
 	sphinx-intl update -p ../%BUILDDIR%/locale
 	cd ../
