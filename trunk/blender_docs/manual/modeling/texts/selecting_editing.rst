@@ -19,7 +19,7 @@ in *Edit Mode* do not exist for texts. The second place is the Properties Editor
 Selecting & Cursor
 ==================
 
-.. figure:: /images/modeling_texts_editing_cursor.png
+.. figure:: /images/modeling_texts_selecting-editing_cursor.png
    :width: 340px
 
    Text in Edit Mode.
@@ -172,7 +172,7 @@ clicking on the *Assign* button in the Materials panel.
 
 .. _fig-texts-edit-rgb:
 
-.. figure:: /images/modeling_texts_editing_material-index-example.png
+.. figure:: /images/modeling_texts_selecting-editing_material-index-example.png
 
    Red Green Blue.
 

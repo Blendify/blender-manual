@@ -83,4 +83,4 @@ Let us make a simple example:
 - In the image above you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation, a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
   Modifier with two subdivision levels was applied,
-  and :doc:`smooth </modeling/meshes/editing/smoothing>` shading was used.
+  and :ref:`smooth <modeling-meshes-editing-normals-shading>` shading was used.

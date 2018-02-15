@@ -12,7 +12,6 @@
    edges.rst
    faces.rst
    normals.rst
-   smoothing.rst
    transform/index.rst
    duplicating/index.rst
    subdividing/index.rst

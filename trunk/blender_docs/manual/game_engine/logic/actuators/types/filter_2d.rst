@@ -24,7 +24,7 @@ some are special and will be described in detail later.
 - Disable Filter
 - Enable Filter
 
-.. figure:: /images/game-engine_logic_actuators_types_2d-filters_node.png
+.. figure:: /images/game-engine_logic_actuators_types_filter-2d_node.png
    :width: 271px
 
    Edit Object actuator.
@@ -51,7 +51,7 @@ Motion Blur
 *Motion Blur* is a *2D Filter* that needs previous rendering information to produce motion effect on objects.
 Below you can see *Motion Blur* filter in Blender window, along with its logic bricks:
 
-.. figure:: /images/game-engine_logic_actuators_types_2d-filters_motionblur-render-full.jpg
+.. figure:: /images/game-engine_logic_actuators_types_filter-2d_motionblur-render-full.jpg
 
    2D Filters: Motion Blur.
 
@@ -104,7 +104,7 @@ Its usage is the same as built-in filters,
 but you must select *Custom Filter* in *2D Filter* actuator,
 then write shader program into the Text Editor, and then place shader script name on actuator.
 
-.. figure:: /images/game-engine_logic_actuators_types_2d-filters_custom-2d.jpg
+.. figure:: /images/game-engine_logic_actuators_types_filter-2d_custom-2d.jpg
 
    2D Filters: Custom Filter.
 
@@ -129,10 +129,10 @@ Built in Filters
 
 .. list-table::
 
-   * - .. figure:: /images/game-engine_logic_actuators_types_2d-filters_sepia-render-full.jpg
+   * - .. figure:: /images/game-engine_logic_actuators_types_filter-2d_sepia-render-full.jpg
 
           Sepia Filter.
 
-     - .. figure:: /images/game-engine_logic_actuators_types_2d-filters_sobel-render-full.jpg
+     - .. figure:: /images/game-engine_logic_actuators_types_filter-2d_sobel-render-full.jpg
 
           Sobel Filter.

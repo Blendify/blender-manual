@@ -13,7 +13,7 @@ Screenshots
    | Menu:     :menuselection:`Window --> Save Screenshot`
    | Hotkey:   :kbd:`Ctrl-F3`
 
-.. figure:: /images/editors_info_screenshot_save-options.png
+.. figure:: /images/editors_info_screen-capture_save-options.png
 
    Save Screenshot Option.
 
@@ -66,7 +66,7 @@ If you are unsure what video codecs your system supports, select ``AVI JPEG``.
 When you start Blender Screencasts, the header of the *Info Editor* will change,
 and it will show you a button for stopping your capture.
 
-.. figure:: /images/editors_info_screenshot_stop-button.png
+.. figure:: /images/editors_info_screen-capture_stop-button.png
 
    Info Header with the Capture Stop Button.
 
@@ -79,7 +79,7 @@ and it will show you a button for stopping your capture.
 
 .. _fig-screencast-frame-range:
 
-.. figure:: /images/editors_info_screenshot_frame-range.png
+.. figure:: /images/editors_info_screen-capture_frame-range.png
 
    :menuselection:`Render --> Dimensions Panel --> Frame Range`
 

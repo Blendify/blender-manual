@@ -104,5 +104,5 @@ and select the tracking object used for the backdrop.
 
 The resulting image now has a better matte.
 
-.. figure:: /images/compositing_types_matte_color-spill-key_example-after.jpg
+.. figure:: /images/compositing_types_matte_color-spill_example-after.jpg
    :width: 480px

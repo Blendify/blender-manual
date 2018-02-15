@@ -4,7 +4,7 @@
 Color Spill Node
 ****************
 
-.. figure:: /images/compositing_types_matte_color-spill-key_node.png
+.. figure:: /images/compositing_types_matte_color-spill_node.png
    :align: right
 
    Color Spill Node.
@@ -64,10 +64,10 @@ the `Mango Open Movie <https://mango.blender.org/>`__.
 
 .. list-table::
 
-   * - .. figure:: /images/compositing_types_matte_color-spill-key_example-before.jpg
+   * - .. figure:: /images/compositing_types_matte_color-spill_example-before.jpg
 
           Before: green border and green reflections.
 
-     - .. figure:: /images/compositing_types_matte_color-spill-key_example-after.jpg
+     - .. figure:: /images/compositing_types_matte_color-spill_example-after.jpg
 
           After: no unwanted green.
