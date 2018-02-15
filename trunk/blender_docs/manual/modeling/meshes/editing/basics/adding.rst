@@ -44,6 +44,10 @@ and will continuously connect them creating vertices if you continue repeating t
 Creating Faces
 --------------
 
+.. ToDo:
+   This goes into too much detail about Ctrl-LMB for a simple introduction.
+   Such information should have it's own page ~ ideasman42.
+
 .. figure:: /images/modeling_meshes_editing_basics_adding_quad.png
 
    Quad from an Edge with source automatically rotated.
@@ -85,4 +89,5 @@ which is explained in the :doc:`Extrude </modeling/meshes/editing/duplicating/ex
 
 .. seealso::
 
-   :doc:`Duplicate tools </modeling/meshes/editing/duplicating/index>`
+   - :doc:`/modeling/meshes/editing/basics/make_face_edge`
+   - :doc:`Duplicate tools </modeling/meshes/editing/duplicating/index>`

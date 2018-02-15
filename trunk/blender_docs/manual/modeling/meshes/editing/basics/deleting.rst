@@ -138,7 +138,7 @@ This tool can simplify your mesh by dissolving vertices and edges separating fla
 .. figure:: /images/modeling_meshes_editing_basics_deleting_limited-dissolve.jpg
    :width: 400px
 
-   Example showing the how Limited Dissolve can be used.
+   Example usage.
 
 Max Angle
    Reduces detail on planar faces and linear edges with an adjustable angle threshold.
