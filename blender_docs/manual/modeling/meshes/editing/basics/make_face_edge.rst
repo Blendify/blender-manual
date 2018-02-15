@@ -148,3 +148,14 @@ Notice this tool can run multiple times to continue creating faces.
    - :ref:`Fill <modeling-meshes-editing-fill>`
    - :ref:`Grid Fill <modeling-meshes-editing-grid-fill>`
    - :ref:`Bridge Edge Loops <modeling-meshes-editing-bridge-edge-loops>`
+
+
+.. _modeling-mesh-make-face-edge-dissolve:
+
+Dissolve Existing Faces
+-----------------------
+
+When you have a region of existing faces, creating a face on this selection
+will remove the shared vertices and edges, creating a single face.
+
+This is simply a convenience for accessing :ref:`modeling-mesh-deleting-dissolve-faces`.

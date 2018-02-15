@@ -294,13 +294,14 @@ Triangles to Quads
    | Menu:     :menuselection:`Mesh --> Faces --> Triangles to Quads`
    | Hotkey:   :kbd:`Alt-J`
 
-This tool converts the selected triangles into quads by taking adjacent tris and
+This tool converts the selected triangles into quads by taking adjacent triangles and
 removing the shared edge to create a quad, based on a threshold.
 This tool can be applied on a selection of multiple triangles.
 
-This same action can be done on a selection of two tris,
-by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting
-the shared edge and dissolving it with the shortcut :kbd:`X` :menuselection:`--> Dissolve`.
+This means you can select the entire mesh and convert triangles that already
+form square shapes - to be converted into quads, without having to concern yourself with individual faces.
+
+Alternatively you can force this operation selecting a pairs of faces *(see hint below for other ways of joining)*.
 
 To create a quad, this tool needs at least two adjacent triangles.
 If you have an even number of selected triangles,
@@ -337,6 +338,11 @@ Compare Sharp
    When enabled, it will prevent union of triangles that share an edge marked as sharp.
 Compare Materials
    When enabled, it will prevent union of triangles that do not have the same material assigned.
+
+.. hint::
+
+   When isolated groups of faces are selected these can be combined with Create Face or Dissolve,
+   this is not limited to quads.
 
 
 Weld Edges into Faces
