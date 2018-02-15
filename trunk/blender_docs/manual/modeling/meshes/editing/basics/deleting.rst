@@ -35,28 +35,32 @@ Only Faces
    Removes faces, but edges within face selection are retained.
 
 
-Dissolve & Limited Dissolve
-===========================
+Dissolve
+========
 
 Dissolve operations are also accessed from the delete menu.
 Dissolve will remove the geometry and fill in the surrounding geometry.
 Instead of removing the geometry, which may leave holes that you have to fill in again.
 
 
-Dissolve
---------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Hotkey:   :kbd:`Ctrl-X`
 
 Removes selected geometry, but without creating holes, effectively turning the selection into a single n-gon.
 Dissolve works slightly different based on if you have edges, faces or vertices selected.
 You can add detail where you need it, or quickly remove it where you do not.
 
 Dissolve Vertices
-   ToDo.
+-----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Vertices`
+
+Remove the vertex merging all surrounding faces.
+Int the case two edges, merging them into a single edge.
+
+
 Face Split
    When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
    The face split option limits dissolve to only use the corners of the faces connected to the vertex.
@@ -68,7 +72,7 @@ Face Split
 
       Left: the input, middle: regular dissolve, right: Face Split enabled.
 Tear Boundaries
-   ToDo 2.72.
+   Split off face corners instead of merging faces.
 
 
 Examples
@@ -76,14 +80,60 @@ Examples
 
 .. figure:: /images/modeling_meshes_editing_basics_deleting_dissolve-examples.png
 
-   \1) Original mesh 2) Face Split: Off, Tear Boundaries: Off 3) Face Split: On, Tear Boundaries: Off
+   \1) Original mesh.
+   \2) Face Split: Off, Tear Boundaries: Off.
+   \3) Face Split: On, Tear Boundaries: Off.
    \4) Face Split: On/Off, Tear Boundaries: On.
+
+Dissolve Edges
+--------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Edges`
+
+Removes edges sharing to faces (joining those faces).
+
+
+*Options for dissolve vertices are used for this tool.*
+
+.. _modeling-mesh-deleting-dissolve-faces:
+
+Dissolve Faces
+--------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Faces`
+
+Merges regions of faces that share edges into a single face.
+
+.. note::
+
+   This can be accessed quickly using the :kbd:`F` key,
+   see: :ref:`modeling-mesh-make-face-edge-dissolve`.
+
+
+Dissolve (Context Sensitive)
+----------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Hotkey:   :kbd:`Ctrl-X`
+
+This is a convenience shortcut that dissolves
+based on the current selection mode (vertex, edge, face).
 
 
 Limited Dissolve
-----------------
+================
 
-Limits the dissolve on selected vertices and/or edges *not* touching a hole.
+This tool can simplify your mesh by dissolving vertices and edges separating flat regions.
 
 .. figure:: /images/modeling_meshes_editing_basics_deleting_limited-dissolve.jpg
    :width: 400px
@@ -93,9 +143,9 @@ Limits the dissolve on selected vertices and/or edges *not* touching a hole.
 Max Angle
    Reduces detail on planar faces and linear edges with an adjustable angle threshold.
 All Boundaries
-   ToDo 2.63.
+   Always dissolve vertices that have two edge users at boundaries.
 Delimit
-   ToDo 2.63.
+   Prevent faces from joining when they don't share certain properties (material for e.g.).
 
 
 Edge Collapse
