@@ -51,7 +51,8 @@ Let us make a simple example:
 - While in Edit Mode, move the control points of the curve as shown in Fig. :ref:`fig-modifier-curve-edit`,
   then exit Edit Mode :kbd:`Tab`.
 - Select the Monkey :kbd:`RMB` in *Object Mode* and add the Curve Modifier.
-- Assign the Bézier curve to the modifier, as shown in Fig. :ref:`fig-modifier-curve-panel`. The Monkey should be positioned on the curve.
+- Assign the Bézier curve to the modifier, as shown in Fig. :ref:`fig-modifier-curve-panel`.
+  The Monkey should be positioned on the curve.
 
 .. list-table::
 
