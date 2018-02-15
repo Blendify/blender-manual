@@ -215,7 +215,7 @@ if "%1" == "update_po" (
 	svn --force --depth infinity add .
 	cd ../
 
-	python tools_rst/rst_check_locale.py --locale > update_po.log
+	python tools_rst/rst_check_locale.py > update_po.log
 	type update_po.log
 	DEL update_po.log
 
