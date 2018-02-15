@@ -76,7 +76,7 @@ cd -
 
 
 # Notify on redundant PO files
-python3 tools/rst_check_structure.py --locale
+python3 tools_rst/rst_check_locale.py
 
 # Print Commit message:
 REVISION=`svn info . | grep '^Revision:' | sed -e 's/^Revision: //'`
