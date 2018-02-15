@@ -341,7 +341,8 @@ Compare Materials
 
 .. hint::
 
-   When isolated groups of faces are selected these can be combined with Create Face or Dissolve,
+   When isolated groups of faces are selected these can be combined
+   with :ref:`Create Face <modeling-mesh-make-face-edge-dissolve>` or :ref:`modeling-mesh-deleting-dissolve-faces`,
    this is not limited to quads.
 
 
