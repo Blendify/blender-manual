@@ -89,11 +89,11 @@ Baking processing time
 
    Advanced
       Gravity vector
-         Strength and direction of the gravity acceleration and any lateral (x,y plane) force.
-         The main component should be along the negative z-axis (in ``m.s<sup>-2</sup>``).
+         Strength and direction of the gravity acceleration and any lateral (X, Y plane) force.
+         The main component should be along the negative Z-axis (in ``m.s<sup>-2</sup>``).
 
    .. note::
 
-      All of the x,y,z values should not be zero, or the fluid will not flow!
+      All of the X, Y, Z values should not be zero, or the fluid will not flow!
       Imagine a droplet floating in the nothingness of deep space...
       It must be some small number in at least one direction.

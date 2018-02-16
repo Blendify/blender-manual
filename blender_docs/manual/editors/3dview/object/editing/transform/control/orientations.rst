@@ -123,7 +123,7 @@ adding and deleting custom orientations.
    Renaming a Custom Orientation.
 
 The default name for these orientations comes from whatever you have selected.
-If an edge, it will be titled, "Edge," if an object,
+If an edge, it will be titled, "Edge", if an object,
 it will take that object's name, etc.
 
 

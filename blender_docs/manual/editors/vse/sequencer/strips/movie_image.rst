@@ -41,7 +41,7 @@ Range
    You can page down and continue :kbd:`RMB` click-dragging to add more to the selection.
 Batch
    :kbd:`Shift-RMB` click selected non-related stills for batch processing; each image will be one frame,
-   in sort order, and can be a mix of file types (``jpg``, ``png``, ``exr,`` etc.).
+   in sort order, and can be a mix of file types (``jpg``, ``png``, ``exr``, etc.).
 All
    Press :kbd:`A` to select/deselect all files in the directory.
 

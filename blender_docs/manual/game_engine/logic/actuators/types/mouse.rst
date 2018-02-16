@@ -58,11 +58,11 @@ Threshold
    Coordinates specified are Global (gray) or Local (white).
 Min
    Sets maximum and minimum limits for the force applied to the object.
-   If disabled (i.e. X,Y or Z buttons are gray) the force applied is unlimited.
+   If disabled (i.e. X, Y or Z buttons are gray) the force applied is unlimited.
 Max
    Set the Proportional Coefficient. This controls the reaction
    to differences between the actual and target linear velocity.
-Object axis X,Y,Z
+Object axis X, Y, Z
    Set the Integral Coefficient. This controls the reaction to the sum of errors so far in this move.
 Local
    Apply locally the rotation around the object axis selected.

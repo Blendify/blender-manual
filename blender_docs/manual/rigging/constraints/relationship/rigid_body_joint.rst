@@ -6,7 +6,7 @@
 Rigid Body Joint Constraint
 ***************************
 
-The *Rigid Body Joint* constraint is very special,it is used by the physics part of
+The *Rigid Body Joint* constraint is very special, it is used by the physics part of
 the Blender Game Engine to simulate a joint between its owner and its target.
 It offers four joint types: hinge type, ball-and-socket type, cone-twist type, and
 generic six-\ :abbr:`DoF (Degrees of Freedom)` type.

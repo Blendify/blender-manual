@@ -36,7 +36,7 @@ When finished, your scene should look like this:
 Everything is ready to add the softbody physics.
 Go to :menuselection:`Properties --> Physics` and choose *Softbody*.
 Uncheck the soft body goal, and check softbody self collision.
-Also, under soft body edges,increase the bending to 10.
+Also, under soft body edges, increase the bending to 10.
 
 Playing the animation with :kbd:`Alt-A` will now give a slow animation of a bouncing cube.
 To speed things up, we need to bake the softbody physics.

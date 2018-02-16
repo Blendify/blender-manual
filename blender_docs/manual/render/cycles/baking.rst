@@ -92,7 +92,7 @@ Additional Options
 ==================
 
 Margin
-   Baked result is extended this many pixels beyond the border of each UV "island," to soften seams in the texture.
+   Baked result is extended this many pixels beyond the border of each UV "island", to soften seams in the texture.
 Clear
    If selected, clears the image before baking render.
 Select to Active

@@ -55,7 +55,7 @@ These *tracking points* or "tracks" can be established with Blender's
 The right choice of points to track is somewhat tricky, yet crucial for successful image stabilization.
 Often, we're here because we'll have to deal with imperfect footage. In such cases, the *averaging of tracks*
 helps to work around image or tracking errors at some point.
-Moreover, when the footage contains *perspective induced movements,* symmetrically placed tracking points above
+Moreover, when the footage contains *perspective induced movements*, symmetrically placed tracking points above
 and below the horizon can be used to cancel out spurious movement and get stabilization to the focal area in between.
 
 .. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_stabilization_introduction_perspective.jpg
@@ -94,7 +94,7 @@ it yields an additional benefit: It is very frequent for the pixels of video foo
 So we have to stretch and expand those pixels, before we're able to preform any sensible rotation stabilization.
 Thus the canvas becomes, by definition, the reference for an undistorted display of the image contents.
 
-But when the camera was *moved intentionally,* we have to consider yet another frame of reference beyond the canvas:
+But when the camera was *moved intentionally*, we have to consider yet another frame of reference beyond the canvas:
 namely the frame (or *"cadre"*) of the **final image** we want to create. To understand this distinction,
 let's consider a hand-held, panning shot to the right: Since our camera was turned towards the right side,
 the actual image contents move towards the left side *within* the original image frame.
@@ -103,7 +103,7 @@ which in turn means, that the original image boundaries start to move irregularl
 and the *contents* of the image will begin to disappear gradually behind the left boundary of the original image.
 After some amount of panning,
 we'll have lost all of our original contents and just see an empty black image backdrop.
-The only solution to deal with that problem is to *move the final image frame along to the right,*
+The only solution to deal with that problem is to *move the final image frame along to the right*,
 thus following the originally intended panning movement. Of course, this time, we do want to perform this
 newly added panning movement in a smooth and clean way.
 
