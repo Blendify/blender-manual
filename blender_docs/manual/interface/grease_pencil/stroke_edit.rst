@@ -138,9 +138,9 @@ Subdivide
    ToDo 2.79.
 Join Strokes
    Type
-      Join `Ctrl-J`
+      Join :kbd:`Ctrl-J`
          Joins selected strokes.
-      Join & Copy `Shift-Ctrl-J`
+      Join & Copy :kbd:`Shift-Ctrl-J`
          Joins selected strokes as a new stroke.
    Leave Gaps
       Leaves gaps between joined strokes instead of linking them.
