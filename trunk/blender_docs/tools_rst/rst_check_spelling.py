@@ -162,7 +162,7 @@ directives.register_directive('index', directive_ignore)
 directives.register_directive('seealso', directive_ignore)
 directives.register_directive('only', directive_ignore)
 directives.register_directive('hlist', directive_ignore)
-directives.register_directive('glossary', directive_ignore)
+# directives.register_directive('glossary', directive_ignore)  # wash this data instead
 
 # Recursive ignore, take care!
 directives.register_directive('toctree', directive_ignore_recursive)
@@ -214,6 +214,35 @@ roles.register_canonical_role('ref', role_ignore_recursive)
 roles.register_canonical_role('term', role_ignore_recursive)
 
 # -----------------------------------------------------------------------------
+# Special logic to wash filedata
+#
+# Special Case
+
+def filedata_glossary_wash(filedata):
+    """
+    Only list body of text.
+    """
+    lines_src = filedata.splitlines()
+    lines_dst = []
+    in_glossary = False
+    for l in lines_src:
+        l_strip = l.lstrip()
+        if l_strip.startswith(".. glossary::"):
+            in_glossary = True
+            continue
+        elif in_glossary is False:
+            lines_dst.append(l)
+            continue
+        else:
+            indent = len(l) - len(l_strip)
+            if indent <= 3 and l_strip:
+                continue
+            elif indent >= 6 or not l_strip:
+                lines_dst.append(l[6:])
+    return "\n".join(lines_dst)
+
+
+# -----------------------------------------------------------------------------
 
 import docutils.parsers.rst
 
@@ -240,6 +269,11 @@ def rst_to_doctree(filedata, filename):
 def check_spelling(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         filedata = f.read()
+
+        # special content handling
+        if filename.endswith(os.path.join("glossary", "index.rst")):
+            filedata = filedata_glossary_wash(filedata)
+
         doc = rst_to_doctree(filedata, filename)
         # print(doc)
 
