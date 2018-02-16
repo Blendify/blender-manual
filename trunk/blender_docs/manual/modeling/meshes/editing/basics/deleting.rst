@@ -42,11 +42,10 @@ Dissolve operations are also accessed from the delete menu.
 Dissolve will remove the geometry and fill in the surrounding geometry.
 Instead of removing the geometry, which may leave holes that you have to fill in again.
 
-
-
 Removes selected geometry, but without creating holes, effectively turning the selection into a single n-gon.
 Dissolve works slightly different based on if you have edges, faces or vertices selected.
 You can add detail where you need it, or quickly remove it where you do not.
+
 
 Dissolve Vertices
 -----------------
@@ -59,7 +58,6 @@ Dissolve Vertices
 
 Remove the vertex merging all surrounding faces.
 Int the case two edges, merging them into a single edge.
-
 
 Face Split
    When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
@@ -85,6 +83,7 @@ Examples
    \3) Face Split: On, Tear Boundaries: Off.
    \4) Face Split: On/Off, Tear Boundaries: On.
 
+
 Dissolve Edges
 --------------
 
@@ -96,8 +95,8 @@ Dissolve Edges
 
 Removes edges sharing to faces (joining those faces).
 
+The options are the same as for the `Dissolve Vertices`_ tool.
 
-*Options for dissolve vertices are used for this tool.*
 
 .. _modeling-mesh-deleting-dissolve-faces:
 

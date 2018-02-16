@@ -43,7 +43,7 @@ Anchor Frame
 
 Stabilization Type
    Rotation
-      In addition to location, stabilizes detected rotation around the *rotation pivot point,*
+      In addition to location, stabilizes detected rotation around the *rotation pivot point*,
       which is the weighted average of all location tracking points.
 
    Scale

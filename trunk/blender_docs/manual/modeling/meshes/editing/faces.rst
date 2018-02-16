@@ -203,7 +203,7 @@ Separate Mode
    Merge
       Merge all the geometry from the intersection.
 Merge Threshold
-   *See Intersect (Boolean)*
+   See Intersect (Boolean).
 
 
 Intersect (Boolean)
@@ -299,9 +299,9 @@ removing the shared edge to create a quad, based on a threshold.
 This tool can be applied on a selection of multiple triangles.
 
 This means you can select the entire mesh and convert triangles that already
-form square shapes - to be converted into quads, without having to concern yourself with individual faces.
+form square shapes -- to be converted into quads, without having to concern yourself with individual faces.
 
-Alternatively you can force this operation selecting a pairs of faces *(see hint below for other ways of joining)*.
+Alternatively you can force this operation selecting a pairs of faces (see hint below for other ways of joining).
 
 To create a quad, this tool needs at least two adjacent triangles.
 If you have an even number of selected triangles,

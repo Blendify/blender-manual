@@ -90,7 +90,7 @@ To save time and drive space, you have to tell Blender each of the passes to ren
 
 Combined
    This renders everything in the image, even if it is not necessary.
-   ("The whole enchilada," so to speak). This is all the options below,
+   ("The whole enchilada", so to speak). This is all the options below,
    blended into a single output, *except* those options which you have indicated should be omitted from this pass,
    as indicated with the camera button.
 Z
