@@ -22,9 +22,11 @@ Draw All Edges
    Displays all edges for mesh objects.
 Bounds
    Displays a bounding box around an object.
+   This can be helpful if you have high poly objects that slow down the viewport.
 
    Draw Bounds Type
-      TODO 2.68.
+      Displays the objects bounds calculated with different primitive shapes
+      that might be closer to what the original object looks like.
 
 Texture Space
    Displays the objects :term:`Texture Space`.
