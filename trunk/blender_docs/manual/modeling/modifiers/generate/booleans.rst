@@ -57,7 +57,9 @@ Object
    The name of the target mesh object.
 
 Solver
-   TODO 2.78.
+   Determines what set of algorithms are used to calculate the boolean operation.
+   Carve uses the external `Carve Library <https://github.com/VTREEM/Carve>`__
+   while BMesh uses Blender's built in library and should give better results.
 
 
 Known Limitations
