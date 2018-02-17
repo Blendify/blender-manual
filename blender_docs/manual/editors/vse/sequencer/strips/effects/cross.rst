@@ -20,7 +20,9 @@ Options
 =======
 
 Default Fade
-   Todo 2.43.
+   Automatically calculates a linear fade over the length of the stip.
 
    Effect Fader
-      Todo 2.43.
+      Allows you to manually :doc:`keyframe </animation/keyframes/index>` a custom fade.
+      This can be used with different :ref:`easings <editors-graph-fcurves-settings-easing`
+      to fine tune the fade in/out.

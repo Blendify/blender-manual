@@ -103,6 +103,8 @@ Bézier
    in which case they are always shown as if constant interpolated, whatever option you chose.
 
 
+.. _editors-graph-fcurves-settings-easing:
+
 Easing (by strength)
 ^^^^^^^^^^^^^^^^^^^^
 
