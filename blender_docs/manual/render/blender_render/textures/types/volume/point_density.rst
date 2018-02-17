@@ -1,4 +1,4 @@
-.. _bpy.types.PointDensityTexture:
+.... _bpy.types.PointDensityTexture:
 
 *********************
 Point Density Texture
@@ -38,24 +38,23 @@ Radius
 
 Falloff
    Standard
-      Todo.
+      ..
    Smooth
-      Todo.
+      ..
    Soft
-      Todo.
+      ..
    Softness
-      Todo.
+      ..
    Constant
-      Todo.
       Density is constant within lookup radius.
    Root
-      Todo.
+      ..
    Particle Age
-      Todo.
+      ..
    Particle Velocity
-      Todo.
+      ..
    Velocity Scale
-      Todo.
+      ..
 
 Falloff Curve
    Use a custom falloff.
@@ -64,11 +63,11 @@ Cache
    Coordinate system to cache particles in.
 
    Global Space
-      Todo.
+      ..
    Emit Object Space
-      Todo.
+      ..
    Emit Object Location
-      Todo.
+      ..
 
 Color Source
    Data to derive the color results from.

@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|text=simplify?}}.
 
 ********************
 Spot Buffered Shadow
