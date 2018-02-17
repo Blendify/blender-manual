@@ -16,18 +16,27 @@ position the next strip under the original at a point where you want the motion 
 Options
 =======
 
-Todo 2.43.
+Stretch to Input Strip Length
+   Automatically calculates the *Speed Factor* based on the length of the input strip.
+   So if you make a strip 1/2 the original size the sequence will play back at 2x speed.
+Use as Speed
+   Calculates the scale value based on a *Speed Factor*.
 
-.. (wip)
-   Stretch to Input Strip Length
-      Will match the length of the Speed Control strip with the length of the Input strip.
-   Use as Speed
-      Speed Factor
-         Todo 2.43.
+   .. note:: You will have to manually re-adjust the length of the strip accordingly.
+
+   Speed Factor
+     Multiplies the current speed of the sequence by this value.
+     So, a value of 0.5 will make the sequence half as fast while 2 would make the sequence twice as fast.
+Frame Number
+   Specifies a frame to remap the current frame to,
+   for example, setting this value to 50 displays the 50th frame.
+   This can then be manually :doc:`keyframed </animation/keyframes/index>` to recreate the animation.
+
    Scale to Length
-      Todo 2.43.
-   Multiply Speed
-      Todo 2.43.
+      Maps the frame range on a 0-1 scale. For example, using this and a *Frame Number*
+      of 0.5 will select the frame half way through the sequence.
+Multiply Speed
+   A multiplier applied after all other calculations.
 
 
 Examples
