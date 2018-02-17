@@ -16,15 +16,13 @@ View all Sequences :kbd:`Home`
 View Selected :kbd:`NumpadPeriod`
    Zooms in the display to fit only the selected strips.
 View Frame :kbd:`Numpad0`
-   ToDo 2.78.
+   Scrolls the timeline so the current frame is in the center.
 Show Seconds :kbd:`Ctrl-T`
    Displays the time instead of the frame number, in the Frame Number Indicator.
 Show Frame Number Indicator
    Toggles the units of measure across the bottom of the time cursor between seconds or frames.
 Show Offsets
-   ToDo.
-
-   .. (wip) Show overflow bars when sliding the content.
+   Shows overflow bars of "extra" content from either cutting or sliding strips.
 Waveform Drawing
    Global option to either draw the waveform, or the strip info,
    or use the individual :ref:`strip option <sequencer-sound-waveform>`.
