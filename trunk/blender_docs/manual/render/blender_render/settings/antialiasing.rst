@@ -145,34 +145,32 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_settings_antialiasing_02.png
-
-          Todo.
-
-     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-box.jpg
+   *  - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-box.jpg
 
           AA 8, Box filter.
 
-   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-tent.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-tent.jpg
 
           AA 8, Tent filter.
 
-     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-quad.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-quad.jpg
 
           AA 8, Quadratic filter.
 
-   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-cubic.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-cubic.jpg
 
           AA 8, Cubic filter.
 
-     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-gauss.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-gauss.jpg
 
           AA 8, Gaussian filter.
 
-   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-catrom.jpg
+     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-catrom.jpg
 
           AA 8, Catmull-Rom filter.
 
-     - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-mitch.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-mitch.jpg
 
           AA 8, Mitchell-Netravali filter.
+
+     - ..

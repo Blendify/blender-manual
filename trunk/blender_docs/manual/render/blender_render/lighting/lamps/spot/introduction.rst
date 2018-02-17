@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|text=like 2.4?}}.
 
 ************
 Introduction

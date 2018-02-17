@@ -1,6 +1,4 @@
 .. _bpy.types.OceanTexture:
-.. TODO - see: https://developer.blender.org/T46281
-.. TODO replace tooltip text.
 
 *************
 Ocean Texture

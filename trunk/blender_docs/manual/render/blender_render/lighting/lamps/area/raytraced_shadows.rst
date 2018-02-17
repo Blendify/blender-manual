@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|}}.
 
 **********************
 Area Raytraced Shadows

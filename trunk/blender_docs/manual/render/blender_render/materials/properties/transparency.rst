@@ -61,8 +61,6 @@ This is useful for making textures of solid or semi-transparent objects from pho
 reference material, i.e. a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
 
-.. (ToDo) check out this link
-
 .. seealso::
 
    :doc:`Mask Transparency </render/blender_render/materials/properties/transparency>`.
