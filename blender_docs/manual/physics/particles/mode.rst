@@ -97,7 +97,17 @@ You may also use the *Select* Menu.
 Select Random
 -------------
 
-ToDo 2.73.
+Randomly selects particles.
+
+Percent
+   Percent of particles to randomly select.
+Random Seed
+   Seed value to use for selection.
+Action
+   Select random can be either used to select or deselect particles.
+Type
+   Selects either hair or points. Here theses terms can be confusing because
+   hair/point does not refer to the particle type but the path/points of the hair/particle.
 
 
 Select Modes
