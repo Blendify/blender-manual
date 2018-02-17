@@ -135,7 +135,8 @@ Move to Color
    Sets the active color as the new color to all selected strokes.
 
 Subdivide
-   ToDo 2.79.
+   Adds a number of new points evenly between two or more points,
+   to set the number of points to add use *Number of Cuts*.
 Join Strokes
    Type
       Join :kbd:`Ctrl-J`
