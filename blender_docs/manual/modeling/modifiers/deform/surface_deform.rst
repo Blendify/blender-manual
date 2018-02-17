@@ -61,3 +61,10 @@ Unbind
    - Must **not** contain concave faces.
    - Must **not** contain overlapping vertices (doubles).
    - Must **not** contain faces with collinear edges.
+
+Example
+=======
+
+.. figure:: /images/modelling_modifiers_deform_surface_deform_example.png
+
+   Cloth simulation copied to an arbitrary mesh with rings as duplifaces.
