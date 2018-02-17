@@ -56,10 +56,11 @@ Ratio
 
 Vertex Group
    A vertex group that controls what parts of the mesh are reduced.
-Factor
-   ToDo 2.75.
+
+   Factor
+      The amount of influence the *Vertex Group* has on the decimation.
 Triangulate
-   ToDo 2.75.
+   Keeps any resulting triangulated geometry from the decimation process.
 Symmetry
    Maintains symmetry on a single axis.
 

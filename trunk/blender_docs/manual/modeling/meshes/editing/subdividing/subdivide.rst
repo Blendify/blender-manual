@@ -1,5 +1,4 @@
 .. _bpy.ops.mesh.subdivide:
-.. TODO/Review: {{review|}}.
 
 *********
 Subdivide
