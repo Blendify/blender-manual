@@ -55,7 +55,8 @@ a second one concerning the action data-blocks, and a few other tools
 (like the copy/paste buttons, and snapping type).
 
 Summary
-   ToDo <2.64.
+   Toggles the "Dope Sheet Summary" channel at the top of the `Channels Region`_.
+   This is used to give an overview of all the channels by combining all the actions into one channel.
 
 
 View Menu

@@ -22,5 +22,5 @@ with the distinction of the absence header filter controls and tools for channel
 Mask
 ====
 
-In the Dope Sheet's Mask Mode mask shape keyframes can be selected and edited.
+In the Dope Sheet's *Mask Mode* mask shape keyframes can be selected and edited.
 All Mask data-blocks in the blend-file are shown.
