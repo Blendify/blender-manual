@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|partial=X}}.
 
 ***************************
 Miscellaneous Editing Tools
