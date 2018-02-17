@@ -153,4 +153,4 @@ Set from Face
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Set from Face`
 
-ToDo 2.79.
+Sets the custom vertex normals from the selected face's normals.
