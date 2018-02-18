@@ -15,7 +15,8 @@ segments of tracks as dark bars and keyframed positions of tracks as small diamo
 
 The background is highlighted depending on the number of tracks in a frame.
 This means that if for a frame (or sequence of frames) there are less than eight tracks,
-the background will turn red;if there are from eight to sixteen tracks, the background will be yellow.
+the background will turn red;
+if there are from eight to sixteen tracks, the background will be yellow.
 
 This is only a visual feedback, which doesn't mean that the camera motion will not
 reconstruct with less than eight tracks. It only means that you should pay attention to those frames and

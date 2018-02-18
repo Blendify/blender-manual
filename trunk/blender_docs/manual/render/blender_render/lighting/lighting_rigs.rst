@@ -233,7 +233,7 @@ so there is light to come through the objects to the camera.
 Another spot for the fill light is shining up onto the main actor's face,
 illuminating the underside of his chin and neck.
 This gets rid of a shadow under the chin, which if not corrected,
-can make the actor be portrait unflatteringly, like they have a double chin or be otherwise distracting.
+can be unflattering, as if they have a double chin or be otherwise distracting.
 It evens out the lighting of the face.
 
 

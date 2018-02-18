@@ -128,7 +128,7 @@ N-gons in Face Select Mode
 
 .. figure:: /images/modeling_meshes_selecting_edges-faces_face-mode-ngon-visual-problem.png
 
-   N-gon-Face having its center dot inside another face.
+   N-gon face having its center dot inside another face.
 
 As already known, faces are marked with a little square dot in the middle of the face.
 With n-gons that can lead in certain cases to a confusing display.
