@@ -258,7 +258,7 @@ html_show_copyright = True
 # contain a <link> tag referring to it.  The value of this option must be the
 # base URL from which the finished HTML is served.
 # Ed. Note: URL has to be adapted, when versioning is set up.
-html_use_opensearch = 'https://docs.blender.org/manual/en/dev'
+html_use_opensearch = 'https://docs.blender.org/manual/' + language + '/dev' 
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = None
