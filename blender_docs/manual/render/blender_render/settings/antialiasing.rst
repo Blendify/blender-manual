@@ -145,7 +145,7 @@ Examples
 
 .. list-table::
 
-   *  - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-box.jpg
+   * - .. figure:: /images/render_blender-render_settings_antialiasing_osa8-box.jpg
 
           AA 8, Box filter.
 
