@@ -114,10 +114,3 @@ The second part is to *compute the movement* according to your functions::
    logic.car["force"] *= 0.9
 
 Both should be run each frame.
-
-
-Example
--------
-
-`demo_file.zip <https://dl.dropboxusercontent.com/u/3226675/blender/vehicle_controller_demo.zip>`__
-(last update 9 September 2014)
