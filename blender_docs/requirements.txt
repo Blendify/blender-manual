@@ -1,3 +1,3 @@
-Sphinx==1.6.7
+Sphinx==1.7
 sphinx-intl==0.9.10
-git+git://github.com/rtfd/sphinx_rtd_theme.git@59a37b3af973002a7ab641a0215e6448496b4eb9
+git+git://github.com/rtfd/sphinx_rtd_theme.git@e001f8d149a8167faa4ade6116a55a707ab1e60d
