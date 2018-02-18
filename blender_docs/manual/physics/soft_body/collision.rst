@@ -57,33 +57,20 @@ Let us have a closer look at the collision calculation, so you can get an idea o
 Calculating Collisions
 ----------------------
 
-.. only:: builder_html
-
-   .. _fig-softbody-collision-vertex2:
-
-   .. figure:: /images/physics_soft-body_collision_vertex-plane2.gif
-
-      Six Soft Body vertices with different speed.
-
-      `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
-
-.. only:: latex or epub
-
-   An example image can be found at:
-   https://docs.blender.org/manual/en/dev/physics/soft_body/collision.html#calculating-collisions
-
 Soft Body simulation is by default done on a per vertex basis. If the vertices of the Soft Body
 do not collide with the collision object, there will be no interaction between the two objects.
 
-In Fig. :ref:`fig-softbody-collision-vertex2` you can see a vertex colliding with a plane.
+In the video below, you can see a vertex colliding with a plane.
 If a vertex penetrates the zone between *Outer* and *Inner*, it is repulsed by a force in
 the direction of the face normal. The position that a vertex finally ends up in is dependent
 on the forces that act upon it. In the example gravity and the repulsion force of the face balance out.
 The speed at which the vertex is pulled out of the collision zone is influenced by the *Choke* parameter
 in the :ref:`Soft Body Solver settings <physics-softbody-settings-solver>`.
 
+.. youtube:: fAHH2bdOqhg
+
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
-In Fig. :ref:`fig-softbody-collision-vertex2` you can see vertices traveling at different speeds.
+In the video above, you can see vertices traveling at different speeds.
 The two on the far right (5 and 6) are traveling so fast that they pass right through the collision zone
 (this is because of the default solver precision, which we can fix later). You will notice that
 the fourth vertex also travels quite fast and because it is heavier it breaches the inner zone.
@@ -98,6 +85,8 @@ The first three vertices collide correctly.
 You can set up your collision so that edges and even faces are included in the collision calculation Fig.
 :ref:`fig-softbody-collision-vertex3`. The collision is then calculated differently. It is checked whether
 the edge or face intersects with the collision object, the collision zones are not used.
+
+.. seealso:: Download the `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
 
 
 Good Collisions
