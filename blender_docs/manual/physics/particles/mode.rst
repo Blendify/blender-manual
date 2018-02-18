@@ -102,7 +102,7 @@ Randomly selects particles.
 Percent
    Percent of particles to randomly select.
 Random Seed
-   Seed value to use for selection.
+   Seed value to use for the selection.
 Action
    Select random can be either used to select or deselect particles.
 Type
