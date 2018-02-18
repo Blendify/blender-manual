@@ -6,7 +6,7 @@ Introduction
 Constraints are a way to control an object's properties
 (e.g. its location, rotation, scale), using either plain static values
 (like the :doc:`"limit" ones </rigging/constraints/transform/limit_location>`),
-or (an)other object, called "target"
+or another object, called "target"
 (like e.g. the :doc:`"copy" ones </rigging/constraints/transform/copy_location>`).
 
 Even though constraints are useful in static projects,

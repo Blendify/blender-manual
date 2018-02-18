@@ -37,7 +37,7 @@ Add Vertex and Slide :kbd:`Ctrl-LMB`
    :kbd:`Ctrl-LMB` is used to place new control points and define handle orientations by a continued mouse drag.
    A :kbd:`Ctrl-LMB` double click will also close the curve if the last point was selected.
 Transform
-   Existing control points can be slided with :kbd:`LMB` and
+   Existing control points can be moved with :kbd:`LMB` and
    translated, scaled and rotated with the usual :kbd:`G`, :kbd:`S`, :kbd:`R` shortcuts.
    The whole spline can be move by dragging the center dot with :kbd:`LMB`.
 Toggle Cyclic :kbd:`Alt-C`

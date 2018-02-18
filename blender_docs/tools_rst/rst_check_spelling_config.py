@@ -82,6 +82,7 @@ dict_custom = {
     "barycentric",
     "bezier",
     "bicubic",
+    "bokeh",
     "centroid",
     "colinear",
     "compositing",
