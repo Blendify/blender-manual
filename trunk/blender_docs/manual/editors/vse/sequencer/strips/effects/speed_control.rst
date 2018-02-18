@@ -22,7 +22,9 @@ Stretch to Input Strip Length
 Use as Speed
    Calculates the scale value based on a *Speed Factor*.
 
-   .. note:: You will have to manually re-adjust the length of the strip accordingly.
+   .. note::
+
+      You will have to manually re-adjust the length of the strip accordingly.
 
    Speed Factor
      Multiplies the current speed of the sequence by this value.

@@ -22,10 +22,10 @@ Grouped
 You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu :kbd:`Shift-G`:
 
 Layer
-	To select all bones belonging to the same layer(s) as the selected ones,
-	use the *In Same Layer* entry :kbd:`Shift-G 1`.
+   To select all bones belonging to the same layer(s) as the selected ones,
+   use the *In Same Layer* entry :kbd:`Shift-G 1`.
 Group
-	To select all bones belonging to the same group(s) as the selected ones,
-	use the *In Same Group* entry :kbd:`Shift-G 2`.
+   To select all bones belonging to the same group(s) as the selected ones,
+   use the *In Same Group* entry :kbd:`Shift-G 2`.
 Keying Set
-	ToDo.
+   ToDo.
