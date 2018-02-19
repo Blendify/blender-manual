@@ -25,9 +25,9 @@ Color space
 Color values
    Blender uses (0 to 1.0) values to express colors for RGB and HSV colors.
 
-   Hexadecimal (Hex) values are expressed as RRGGBB.
-   Shorthand hex colors are also supported as RGB,
-   e.g. dark-yellow FFCC00, can be written as FC0.
+   Hexadecimal (Hex) values are expressed as ``RRGGBB``.
+   Shorthand hex colors are also supported as ``RGB``,
+   e.g. dark-yellow ``FFCC00``, can be written as ``FC0``.
 
    For operations that are capable of using Alpha, another slider "A" is added.
 Eyedropper
