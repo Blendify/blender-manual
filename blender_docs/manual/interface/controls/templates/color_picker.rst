@@ -75,3 +75,12 @@ Square
      - .. figure:: /images/interface_controls_templates_color-picker_square-hv-s.png
 
           Square (HV + S).
+
+
+Shortcuts
+---------
+
+- :kbd:`Ctrl-LMB` (drag) snaps to hue.
+- :kbd:`Shift-LMB` (drag) precision motion.
+- :kbd:`Wheel` adjust the brightness.
+- :kbd:`Backspace` reset the value.
