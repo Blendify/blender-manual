@@ -218,7 +218,7 @@ def setup(app):
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ["../resources/404.html", "../resources/versions.json"]
+html_extra_path = ["../resources/versions.json"]
 
 # If not None, a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.
@@ -260,7 +260,7 @@ html_show_copyright = True
 # contain a <link> tag referring to it.  The value of this option must be the
 # base URL from which the finished HTML is served.
 # Ed. Note: URL has to be adapted, when versioning is set up.
-html_use_opensearch = 'https://docs.blender.org/manual/' + language + '/dev' 
+html_use_opensearch = 'https://docs.blender.org/manual/' + language + '/dev'
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = None
