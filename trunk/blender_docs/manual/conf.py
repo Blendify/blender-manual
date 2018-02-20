@@ -93,7 +93,7 @@ print("Using Index:", master_doc)
 
 # General information about the project.
 project = 'Blender %s Manual' % blender_version
-copyright = ': This page is licensed under a CC-BY-SA 4.0 Int. License'
+copyright = ': This page is licensed under a `CC-BY-SA 4.0 Int. <https://creativecommons.org/licenses/by-sa/4.0/>`__ License'
 author = 'Blender Documentation Team'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -234,7 +234,9 @@ html_extra_path = ["../resources/404.html", "../resources/versions.json"]
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-#html_additional_pages = {}
+html_additional_pages = {
+    '404': '404.html',
+}
 
 # If false, no module index is generated.
 #html_domain_indices = True
