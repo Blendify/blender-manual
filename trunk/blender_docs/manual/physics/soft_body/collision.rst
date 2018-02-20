@@ -67,7 +67,7 @@ on the forces that act upon it. In the example gravity and the repulsion force o
 The speed at which the vertex is pulled out of the collision zone is influenced by the *Choke* parameter
 in the :ref:`Soft Body Solver settings <physics-softbody-settings-solver>`.
 
-.. youtube:: fAHH2bdOqhg
+.. youtube:: YnerUKP1ptQ
 
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
 In the video above, you can see vertices traveling at different speeds.
