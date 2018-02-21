@@ -375,7 +375,7 @@ Boundary Loop
 based on all regions currently selected, it selects only the edges at the border(contour) of these islands.
 It can operate in any select mode, but when in *Face* mode it will switch to *Edge* select mode after running.
 
-All this is much more simple to illustrates with examples:
+All this is much more simple to illustrate with examples:
 
 .. figure:: /images/modeling_meshes_selecting_advanced_boundary-loop.png
 
