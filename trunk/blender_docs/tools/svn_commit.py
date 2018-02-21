@@ -11,8 +11,13 @@ Example (-p = Prefix, -s = Suffix):
   svn_commit.py ../locale/fr -p 'FR: ' -s 'Happy New Year!'
 """
 
+import os
 import re
 import subprocess
+
+# FIXME, this isn't nice
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "tools_report"))
 
 from file_translation_progress import parse_file
 
@@ -66,11 +71,11 @@ def exec_command(cmd_args):
     try:
         output = subprocess.check_output(cmd)
     except OSError as err:
-        print("svn " + args[0] + " error: " + err)
+        print("svn", args[0], "error:", err)
     except ValueError as err:
-        print("svn " + args[0] + " error: " + err)
-    except:
-        print("svn " + args[0] + " unexpected error")
+        print("svn", args[0], "error:", err)
+    except Exception as err:
+        print("svn", args[0], "unexpected error", err)
     else:
         return output.splitlines()
 
@@ -80,7 +85,7 @@ def main():
 
     parser = argparse.ArgumentParser(
         usage=__doc__
-        )
+    )
 
     parser.add_argument(
         "-s", "--suffix",
@@ -88,7 +93,7 @@ def main():
         default="",
         help="A suffix for the commit message",
         required=False,
-        )
+    )
 
     parser.add_argument(
         "-p", "--prefix",
@@ -96,13 +101,13 @@ def main():
         default="",
         help="A prefix for the commit message",
         required=False,
-        )
+    )
 
     parser.add_argument(
         "path",
         help="directory containing .svn dirs",
         metavar="PATH"
-        )
+    )
 
     args = parser.parse_args()
     if svn_status(args.path) == []:
@@ -115,6 +120,7 @@ def main():
     message = message + args.suffix
     print('Committing with message: ' + message)
     print(''.join(svn_commit(args.path, message)))
+
 
 if __name__ == "__main__":
     main()
