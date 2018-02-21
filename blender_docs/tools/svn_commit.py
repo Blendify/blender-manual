@@ -69,11 +69,11 @@ def exec_command(cmd_args):
     try:
         output = subprocess.check_output(cmd)
     except OSError as err:
-        print("svn", args[0], "error:", err)
+        print("svn", cmd_args[0], "error:", err)
     except ValueError as err:
-        print("svn", args[0], "error:", err)
+        print("svn", cmd_args[0], "error:", err)
     except Exception as err:
-        print("svn", args[0], "unexpected error", err)
+        print("svn", cmd_args[0], "unexpected error:", err)
     else:
         return output.splitlines()
 
@@ -113,9 +113,8 @@ def main():
         return
     message = args.prefix
     for fn in added_files(args.path):
-        message = message + file_message(fn, args.path)
-        message = message + '; '
-    message = message + args.suffix
+        message += file_message(fn, args.path) + '; '
+    message += args.suffix
     print('Committing with message: ' + message)
     print(''.join(svn_commit(args.path, message)))
 
