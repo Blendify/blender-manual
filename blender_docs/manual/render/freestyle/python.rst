@@ -4,8 +4,8 @@
 Python Scripting Mode
 *********************
 
-The Python Scripting mode offers full programmability for line stylization.
-In this control mode, all stylization operations are written as Python scripts referred to as
+The Python Scripting mode offers full programmable line stylizes.
+In this control mode, all styling operations are written as Python scripts referred to as
 style modules in the Freestyle terminology. The input to a style module is a view map
 (i.e. a set of detected feature edges), and the output is a set of stylized strokes.
 
