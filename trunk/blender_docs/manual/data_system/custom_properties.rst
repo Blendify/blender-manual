@@ -51,10 +51,10 @@ Property Value
 
    .. note::
 
-      Booleans are handled very similar to integers and work only work
-      when using Min/Max values that are integers and that are no more then 1 apart.
+      Booleans are handled very similar to integers and only work
+      when using Min/Max values that are integers and that are no more than 1 apart.
 
-      At this point, the boolean will still look like integers but behave like
+      At this point, the booleans will still look like integers but behave like
       booleans having one lower, off, value and a higher, on, value.
 
 Min
