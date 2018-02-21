@@ -12,14 +12,13 @@ Example (-p = Prefix, -s = Suffix):
 """
 
 import os
-import re
 import subprocess
 
-# FIXME, this isn't nice
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", "tools_report"))
-
-from file_translation_progress import parse_file
+import importlib.util
+mod_file_path = os.path.join(os.path.dirname(__file__), "..", "tools_report", "file_translation_progress.py")
+spec = importlib.util.spec_from_file_location("file_translation_progress", mod_file_path)
+file_translation_progress = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(file_translation_progress)
 
 
 def added_files(path):
@@ -41,11 +40,10 @@ def difference(fn):
     return added, deleted
 
 
-def file_message(fn):
+def file_message(fn, args_path):
     diff = difference(fn)
-    report = parse_file(fn)
-    path = re.search(r"(.*?)LC_MESSAGES(?:/|\\)", fn).span(1)
-    fn = fn[path[1]:]
+    report = file_translation_progress.parse_file(fn)
+    fn = fn[len(args_path) + len("LC_MESSAGES") + 2:]
     if diff[0] > diff[1]:  # something has appended
         done = report[1] / report[0]
         return 'Translated {:.0%} of {1}'.format(done, fn)
@@ -115,7 +113,7 @@ def main():
         return
     message = args.prefix
     for fn in added_files(args.path):
-        message = message + file_message(fn)
+        message = message + file_message(fn, args.path)
         message = message + '; '
     message = message + args.suffix
     print('Committing with message: ' + message)
