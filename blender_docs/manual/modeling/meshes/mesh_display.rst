@@ -43,7 +43,8 @@ Edge Marks and Face Marks
    Used by Freestyle.
 
 Show Weight
-   Displays the vertex weights as a texture.
+   Displays the vertex weights as color on the mesh *(like weight-paint mode)*
+   or color on the edges in wire draw mode.
 
 
 .. _mesh-display-normals:
