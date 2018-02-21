@@ -4,27 +4,31 @@
 # <pep8 compliant>
 
 """
-SVN Commit: commit the changes to svn with an helpful error message.
+SVN Commit: commit the changes to svn with an helpful commit message.
 
 Example (-p = Prefix, -s = Suffix):
 
-  svn_commit.py /locale/fr -p 'FR: ' -s 'Happy New Year!'
+  svn_commit.py ../locale/fr -p 'FR: ' -s 'Happy New Year!'
 """
 
-import os
+import re
+import subprocess
 
 from file_translation_progress import parse_file
 
 
 def added_files(path):
-    for file_path in svn_status(path):
-        yield file_path[8:].rstrip()
+    for line in svn_status(path):
+        line = line.decode('utf-8')
+        # fn
+        yield line[8:].rstrip()
 
 
-def difference(file_path):
+def difference(fn):
     added = -1
     deleted = -1
-    for line in svn_diff(file_path):
+    for line in svn_diff(fn):
+        line = line.decode('utf-8')
         if line.startswith('+'):
             added += 1
         if line.startswith('-') and ('-msgstr ""' not in line):
@@ -32,33 +36,43 @@ def difference(file_path):
     return added, deleted
 
 
-def file_message(file_path):
-    import re
-    diff = difference(file_path)
-    report = parse_file(file_path)
-    path = re.search('(.*)LC_MESSAGES/', file_path).regs
-    file_path = file_path[path[0][1]:]
-    if diff[0] > diff[1]:  # something was appended
-        done = report[1] / report[0] * 100
-        return 'Translated %.0f%% of %s' % (done, file_path)
+def file_message(fn):
+    diff = difference(fn)
+    report = parse_file(fn)
+    path = re.search(r"(.*?)LC_MESSAGES(?:/|\\)", fn).span(1)
+    fn = fn[path[1]:]
+    if diff[0] > diff[1]:  # something has appended
+        done = report[1] / report[0]
+        return 'Translated {:.0%} of {1}'.format(done, fn)
     size = 'Minor' if diff[0] < 20 else 'Major'
-    return '%s changes in %s' % (size, file_path)
+    return '{0} changes in {1}'.format(size, fn)
 
 
 def svn_status(path):
-    return exec_command('svn status ' + path)
+    return exec_command(["status", path])
 
 
-def svn_diff(file_path):
-    return exec_command('svn diff ' + file_path)
+def svn_diff(fn):
+    return exec_command(["diff", "--non-interactive", fn])
 
 
 def svn_commit(path, message):
-    return exec_command('svn commit %s -m "%s"' % (path, message))
+    return exec_command(["commit", path, "-m", '"' + message + '"'])
 
 
-def exec_command(name):
-    return os.popen(name).readlines()
+def exec_command(cmd_args):
+    cmd = ['svn']
+    cmd.extend(cmd_args)
+    try:
+        output = subprocess.check_output(cmd)
+    except OSError as err:
+        print("svn " + args[0] + " error: " + err)
+    except ValueError as err:
+        print("svn " + args[0] + " error: " + err)
+    except:
+        print("svn " + args[0] + " unexpected error")
+    else:
+        return output.splitlines()
 
 
 def main():
@@ -95,8 +109,8 @@ def main():
         print('Nothing to do.')
         return
     message = args.prefix
-    for file_path in added_files(args.path):
-        message = message + file_message(file_path)
+    for fn in added_files(args.path):
+        message = message + file_message(fn)
         message = message + '; '
     message = message + args.suffix
     print('Committing with message: ' + message)
