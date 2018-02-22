@@ -101,7 +101,7 @@ Vertices changed from X to Y
 Edges changed from X to Y
    This message is displayed when a user adds or deletes edges to the mesh.
 The system did not find a solution
-   This message is displayed if the solver SuperLU did not find a solution for the linear system.
+   This message is displayed if the solver could not find a solution for the linear system.
 
 .. note::
 
