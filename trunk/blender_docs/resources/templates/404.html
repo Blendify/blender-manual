@@ -1,5 +1,10 @@
 {%- extends "layout.html" %}
 {%- set title = _('Not Found (404)') %}
+{%- set STATIC = "https://docs.blender.org/manual/en/dev/_static/" %}
+{%- block extrahead %} 
+	<link rel="stylesheet" href="{{ STATIC }}css/theme.css" type="text/css" />
+	<link rel="stylesheet" href="{{ STATIC }}css/theme_overrides.css" type="text/css" />
+{% endblock %}
 {%- block body %}
 <h1>{% trans %} Not Found (404) {% endtrans %}</h1>
 <p>{% trans %}It seems the page you are trying to find has been either moved or deleted.{% endtrans %}<br>
