@@ -22,10 +22,6 @@ The objects location and rotation values return to 0, and the scale returns to 1
 Options
 -------
 
-.. figure:: /images/editors_3dview_object_editing_transform_clear-apply_clear-transformations.png
-
-   Clear Transformation menu.
-
 Clear Location :kbd:`Alt-G`
    Clear (reset) the location of the selection.
    This will move the selection back to the coordinates (0, 0, 0).
@@ -80,10 +76,6 @@ When running *Apply Transform* the *Operator* panel lets you choose the combinat
 
 Options
 ^^^^^^^
-
-.. figure:: /images/editors_3dview_object_editing_transform_clear-apply_apply-transformations.png
-
-   Apply Transformation menu.
 
 Location
    Apply (set) the location of the selection.
