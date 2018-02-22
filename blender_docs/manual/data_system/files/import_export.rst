@@ -19,7 +19,7 @@ these can be enabled in the User Preferences through the use of :doc:`Add-ons </
 .. hint::
 
    If you are not interested in technical details,
-   a good rule of thumb for selecting import/export formates for your project is:
+   a good rule of thumb for selecting import/export formats for your project is:
 
    Use :abbr:`STL (STereoLithography)`
       if you intend to import/export the files for CAD software.

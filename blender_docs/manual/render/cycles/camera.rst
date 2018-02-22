@@ -81,7 +81,7 @@ give a circular fish-eye that does not take any sensor information into account 
 the whole sensor. This is a good lens for full dome projection.
 
 Lens
-   Lens focal length in millimeter.
+   Lens focal length in millimeters.
 Field of View
    Field of view angle, going to 360 and more to capture the whole environment.
 
