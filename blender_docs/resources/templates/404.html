@@ -14,7 +14,8 @@
   {% include "searchbox.html" %}
 </div>
 
-<a href="{{ pathto(master_doc) }}" class="btn btn-neutral" title="{{ _('Return Home') }}">
+{# pathto(master_doc) #}
+<a href="{{ 'https://docs.blender.org/manual/' + language + '/dev/index.html' }}" class="btn btn-neutral" title="{{ _('Return Home') }}">
 <span class="fa fa-home"></span> {{ _('Return Home') }}</a>
 
 {%- endblock %}
