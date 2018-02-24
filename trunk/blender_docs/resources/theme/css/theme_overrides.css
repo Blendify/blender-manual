@@ -49,11 +49,11 @@ input[type="number"], input[type="tel"], input[type="color"] {
 .rst-content .important .admonition-title {background-color: #ddca3b}
 .rst-content .important {background-color: #f6f3a5}
 
-/* rb =, see ( > ), note ( i ), tip i , hint (+), warn / ! \ */
+/* refbox =, seealso ( > ), note ( i ), tip i , hint (+), warn / ! \ */
 .refbox .admonition-title::before {content:"\f00b"}
 .seealso .admonition-title::before{content:"\f138"}
 .note .admonition-title::before{content:"\f05a"}
-.tip .admonition-title::before{content:"\f129"; padding: 0 0.1em}
+.tip .admonition-title::before{content:"\f129"; width: 0.75em; text-align: center}
 .hint .admonition-title::before{content:"\f055"}
 .warning .admonition-title::before{content:"\f071"}
 
@@ -168,7 +168,7 @@ a.external {color:#656AE0;}
 	color:#2980B9;
 }
 
-/* draws a box around :menuselection: field */
+/* draws a box around menuselection role */
 .menuselection {
 	font-size: 90%;
 	font-weight: normal;
@@ -189,7 +189,7 @@ a.external {color:#656AE0;}
 /*remove indent on line break*/
 .rst-content .line-block {margin-left:0px}
 
-/*applied on contents:sections*/
+/*applied on main index:sections*/
 /*start section description*/
 @media screen and (min-width: 450px){
 .tocdescr {
@@ -284,7 +284,7 @@ a.external {color:#656AE0;}
 }
 /*end custom toctree*/
 
-/*start genindex consentecy*/
+/*start genindex consistency*/
 .genindextable * strong {font-weight: normal}
 .genindex-jumpbox {margin-bottom: 1.245em}
 .indextable {margin-bottom: 1.245em}
