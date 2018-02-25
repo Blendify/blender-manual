@@ -182,7 +182,7 @@ Common Options
 Below the brush types, their settings appear:
 
 Radius :kbd:`F`
-   Set the radius if the brush.
+   Set the radius of the brush.
 Strength :kbd:`Shift-F`
    Set the strength of the brush effect (not for Add brush).
 Add/Sub Grow/Shrink
