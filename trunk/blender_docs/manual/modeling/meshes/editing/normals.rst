@@ -17,7 +17,7 @@ or a tangent plane for a point on a surface.
 
 In the figure above, each blue line represents the normal for a face on the torus.
 The lines are each perpendicular to the face on which they lie.
-The visualization can be activate in the :ref:`Mesh Display panel <mesh-display-normals>`.
+The visualization can be activated in the :ref:`Mesh Display panel <mesh-display-normals>`.
 
 
 .. _modeling-meshes-editing-normals-shading:

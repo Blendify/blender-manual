@@ -293,7 +293,7 @@ Radius :kbd:`Shift-F`/:kbd:`Wheel`
    The size of the brush. Increase/decrease brush size with :kbd:`Shift-F` when not sculpting or
    with :kbd:`Wheel` while sculpting (i.e. with the pen tip down, or mouse button held).
 Strength :kbd:`Ctrl-F`/:kbd:`Shift-Wheel`
-   The Strength off the brush, can be changed by the pressure of the stylus.
+   The Strength of the brush, can be changed by the pressure of the stylus.
    (In/decrease see *Radius*).
 Use Falloff
    Enables a linear falloff to calculate the influence of the brush on a point.

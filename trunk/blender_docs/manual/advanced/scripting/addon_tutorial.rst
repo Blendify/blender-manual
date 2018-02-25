@@ -449,7 +449,7 @@ this allows you to have multiple keys accessing the same operator with different
 .. note::
 
    While :kbd:`Shift-Ctrl-Spacebar` is not a default Blender key shortcut,
-   it is hard to make sure add-ons will not overwrite each others keymaps,
+   it is hard to make sure add-ons will not overwrite each other's keymaps,
    At least take care when assigning keys that they do not
    conflict with important functionality within Blender.
 

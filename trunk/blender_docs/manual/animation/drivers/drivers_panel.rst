@@ -69,7 +69,7 @@ Variable are references to properties or delta transformations which are a refer
 Add Variable
    Adds a new Driver Variable.
 Copy/Paste
-   Used the copy the current variable stack so it can be pasted onto another object's variable stack.
+   Uses the copy of the current variable stack so it can be pasted onto another object's variable stack.
 Name
    Name to use for scripted expressions/functions.
    No spaces or dots are allowed and must start with a letter.

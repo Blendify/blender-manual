@@ -259,7 +259,7 @@ Yes, it's a bit confusing!
 
 This tool is equivalent to creating edges or faces for meshes
 (hence its shortcut), and so it only works in *Edit Mode*.
-The selection must contains only border rows of the same resolution
+The selection must contain only border rows of the same resolution
 (with the same number of control points),
 else Blender will try to do its best to guess what to merge with what, or the merge will fail
 (either silently, or stating that ``Resolution does not match`` if rows with

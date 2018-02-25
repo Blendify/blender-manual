@@ -91,11 +91,11 @@ Vertex Groups
    A much more precise method than *Bone Envelopes*, but also generally longer to set up.
 Bone Envelopes
    When enabled, bones will deform vertices or control points near them,
-   defined by each bones envelope radius and distance.
+   defined by each bone's envelope radius and distance.
    Enable/Disable bone :ref:`envelopes <armature-bones-envelope>` defining the deformation
    (i.e. bones deform vertices in their neighborhood).
 
-.. list-table:: Example of vertex groups skinning method.
+.. list-table:: Example of vertex group's skinning method.
 
    * - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-1.png
           :width: 320px
