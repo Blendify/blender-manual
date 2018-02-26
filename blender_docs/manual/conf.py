@@ -343,7 +343,13 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
+
+# Disable for now, causes:
+# LaTeX Error: Cannot determine size of graphic in blender-logo.svg (no Boundin gBox).
+
+'''
 latex_logo = "../resources/theme/blender-logo.svg"
+'''
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
