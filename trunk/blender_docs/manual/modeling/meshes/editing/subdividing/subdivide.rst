@@ -26,7 +26,7 @@ This process follows a few rules, depending on the settings:
     subdividing the triangle in a triangle and a quad.
   - If the face is a quad, and the edges are neighbors,
     we have *three* possible behaviors, depending on the setting of *Corner Cut Type*
-    (the select menu next to the *Subdivide* button, in *Mesh Tools* panel) See below for details.
+    (the select menu next to the *Subdivide* button, in *Mesh Tools* panel). See below for details.
   - If the face is a quad, and the edges are opposite,
     the quad is just subdivided in two quads by the edge linking the two new vertices.
 
@@ -48,7 +48,7 @@ Number of Cuts
    Specifies the number of cuts per edge to make.
    By default this is 1, cutting edges in half. A value of 2 will cut it into thirds, and so on.
 Smoothness
-   Displaces subdivisions to maintain approximate curvature,
+   Displaces subdivisions to maintain approximate curvature.
    The effect is similar to the way the Subdivision Surface Modifier might deform the mesh.
 
    .. list-table::
@@ -82,7 +82,7 @@ Corner Cut Type
       the two new vertices, creating a small triangle.
       This edge is also sub-divided,
       and the "inner vertex" thus created is linked by another edge to the one opposite
-      to the original selected edges. All this results in a quad sub-divided in a triangle and two quad.
+      to the original selected edges. All this results in a quad sub-divided in a triangle and two quads.
    Path
       First an edge is created between the two opposite ends of the selected edges,
       dividing the quad in two triangles. Then, the same goes for the involved triangle as described above.
@@ -127,7 +127,7 @@ Fractal
              Same mesh with fractal added.
 
 Along Normal
-   Causes the vertices to move along the their normals, instead of random directions.
+   Causes the vertices to move along their normals, instead of random directions.
 
    .. figure:: /images/modeling_meshes_editing_subdividing_subdivide_fractal-along-normal.png
       :width: 200px
@@ -163,7 +163,7 @@ One Edge
    * - .. figure:: /images/modeling_meshes_editing_subdividing_subdivide_one-edge.png
           :width: 250px
 
-          One Edges.
+          One Edge.
 
      - .. figure:: /images/modeling_meshes_editing_subdividing_subdivide_one-edge-tri.png
           :width: 250px
