@@ -63,4 +63,4 @@ the Fluid Control is used to control part of the fluid so that it has a certain 
 
 .. figure:: /images/physics_fluid_types_control_example2.jpg
 
-   "Magic Fluid Control."
+   "Magic Fluid Control".

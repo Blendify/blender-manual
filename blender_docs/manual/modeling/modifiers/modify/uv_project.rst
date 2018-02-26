@@ -70,4 +70,4 @@ This uses a different UV interpolation to prevent distortion.
 
 .. note::
 
-   This option is not yet available for Cycles
+   This option is not yet available for Cycles.

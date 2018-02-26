@@ -177,4 +177,4 @@ Finding Ungrouped Vertices
 You can find ungrouped vertices as follows:
 
 - Press :kbd:`A` once or twice to unselect all vertices.
-- In the header of the 3D View: Navigate to :menuselection:`Select --> Ungrouped Vertices`
+- In the header of the 3D View: Navigate to :menuselection:`Select --> Ungrouped Vertices`.
