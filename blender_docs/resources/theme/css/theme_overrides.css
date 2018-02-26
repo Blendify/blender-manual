@@ -169,7 +169,8 @@ a.external {color:#656AE0;}
 }
 
 /* draws a box around menuselection role */
-.menuselection {
+/* temporary fix for theme(0.2.5b2) bug: no box around kbd role */
+.menuselection, .kbd.docutils.literal {
 	font-size: 90%;
 	font-weight: normal;
 	background-color: rgba(255, 255, 255, 0.65);
