@@ -37,4 +37,4 @@ Examples
      - .. figure:: /images/modeling_meshes_editing_subdividing_bisect_uv.jpg
           :width: 320px
 
-          Example of bisect with fill option
+          Example of bisect with the fill option.

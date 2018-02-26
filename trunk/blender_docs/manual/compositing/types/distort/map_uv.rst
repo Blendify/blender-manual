@@ -82,4 +82,4 @@ and it is needed to substitute in a different product sponsor after rendering.
 .. figure:: /images/compositing_types_distort_map-uv_example-2.png
    :width: 700px
 
-   Adding UV Textures in Post-Production
+   Adding UV Textures in Post-Production.

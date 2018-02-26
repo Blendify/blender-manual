@@ -27,4 +27,4 @@ for a discussion of the issues involved.
 
    If the game is to be exported to other computers,
    make a new empty directory for the game runtime and all its ancillary libraries, etc.
-   Then make sure the **whole** directory is transferred to the target computer
+   Then make sure the **whole** directory is transferred to the target computer.

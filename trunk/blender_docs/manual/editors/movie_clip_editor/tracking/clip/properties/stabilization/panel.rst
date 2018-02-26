@@ -92,4 +92,4 @@ Interpolate
    Bilinear
       Simple linear interpolation between adjacent pixels.
    Bicubic
-      Highest quality interpolation, most expensive to calculate
+      Highest quality interpolation, most expensive to calculate.

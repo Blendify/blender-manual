@@ -40,4 +40,4 @@ on manually created (user-defined) Vertex Groups.
 
 .. note::
 
-   Vertex groups only apply to Mesh and Lattice Objects
+   Vertex groups only apply to Mesh and Lattice Objects.
