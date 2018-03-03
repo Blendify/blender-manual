@@ -24,7 +24,7 @@ The Cycles Hair Settings, under the particle tab, are used to control each hair 
 Shape
    A shape parameter that controls the transition in thickness between the root and tip.
    Negative values make the primitive rounded more towards the top,
-   the value of zero gives makes the primitive linear,
+   the value of zero makes the primitive linear,
    and positive values makes the primitive rounded more towards the bottom.
 
 
