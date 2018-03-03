@@ -25,7 +25,7 @@ Planetariums and domes with spherical mirrors.
    Also to get away of the top menu on Blender try to join all areas
    (buttons, 3D View, text, etc.) in a single one. Otherwise if you only maximize it (:kbd:`Ctrl-Up`)
    you cannot get the whole screen free to run your game
-   (the top bar menu takes about 20 pixels).
+   (the top menu bar takes about 20 pixels).
 
 
 Dome Camera Settings
@@ -157,13 +157,13 @@ File template:
 
 First line is the image type the mesh is support to be applied to:
 ``2 = rectangular``, ``1 = radial`` Next line has the mesh dimensions in
-pixelsRest of the lines are the nodes of the mesh.
+pixels. Rest of the lines are the nodes of the mesh.
 
-Each line is compound of *x*, *y*, *u*, *v*, *i* (x, y)
-are the normalized screen coordinates (u, v)
-texture coordinates *i* a multiplicative intensity factor.
+Each line is compound of *x*, *y*, *u*, *v*, *i*. (x, y)
+are the normalized screen coordinates, (u, v)
+texture coordinates, *i* a multiplicative intensity factor.
 
-*x* varies from -screen aspect to screen aspect varies from -1 to 1 *u* and *v* vary from 0 to 1.
+*x* varies from -screen aspect to screen aspect. *y* varies from -1 to 1. *u* and *v* vary from 0 to 1.
 *i* ranges from 0 to 1, if negative do not draw that mesh node.
 
 #. You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.
