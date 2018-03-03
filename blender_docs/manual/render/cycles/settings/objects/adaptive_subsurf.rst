@@ -38,7 +38,7 @@ Levels
 
 Adaptive
    Use OpenSubdiv to give different subdivision levels to near and far objects automatically.
-   This allows nearer object to get more subdivisions and far objects to get less.
+   This allows nearer objects to get more subdivisions and far objects to get less.
 
    Dicing Rate
       When using *Adaptive* the *Render Levels* property gets changed to *Dicing Rate*,

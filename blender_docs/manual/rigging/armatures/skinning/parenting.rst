@@ -84,7 +84,7 @@ You will have to apply Armature Deform With Envelope Weights parenting again.
 
 .. tip::
 
-   If you want the envelope setting to be used instantly bind the Armature Modifier to *Bone Envelopes*.
+If you want the envelope setting to be used instantly, bind the Armature Modifier to *Bone Envelopes*.
 
 .. figure:: /images/rigging_armatures_skinning_parenting_envelope-influence.png
 
