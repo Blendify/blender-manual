@@ -122,14 +122,18 @@ Knife Project
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into
 the mesh rather than hand drawing the line.
 
-This works by using the outlines of other selected objects in edit-mode to cut into the mesh,
-resulting geometry inside the cutters outline will be selected.
+This works by using the outlines of other selected objects in edit-mode to cut into the mesh
+along the view axis, resulting geometry inside the cutters outline will be selected.
 
 Outlines can be wire or boundary edges.
 
-To use Knife Project, first while in *Object Mode* select the "cutting object"
+To use Knife Project, first while in *Object Mode*, select the "cutting object"
 then add to that selection with :kbd:`Shift-RMB` the "object to be cut".
 Now, enter *Edit Mode* and press *Knife Project* (found in the Tool Shelf).
+
+.. seealso::
+
+   :doc:`3D View Alignment </editors/3dview/navigate/align>` to adjust the projection axis.
 
 
 Examples
