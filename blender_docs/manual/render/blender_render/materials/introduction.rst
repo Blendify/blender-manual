@@ -116,8 +116,8 @@ You must choose which method you are going to use for each particular object in 
    and :doc:`Halo Rendering </render/blender_render/materials/special_effects/halo>`.
 
 The exact effect of Material settings can be affected by a number of system settings.
-First and foremost is the Render Engine used:
-Cycles and the Blender Render Engine (aka Blender Internal or BI)
+First and foremost is the renderer used:
+Cycles and the Blender Renderer (aka Blender Internal or BI)
 require quite different illumination levels to achieve similar results,
 and even then the appearance of objects can be quite different.
 Also, the material properties settings can be affected by the texture method used

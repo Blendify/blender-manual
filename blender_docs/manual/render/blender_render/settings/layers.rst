@@ -3,7 +3,7 @@
 Render Layers
 *************
 
-This section covers only the Render Layer settings appropriate for the Blender Render engine.
+This section covers only the Render Layer settings appropriate for the Blender Renderer.
 For the engine-independent settings, see :doc:`this section </render/post_process/layers>`.
 
 Light Override

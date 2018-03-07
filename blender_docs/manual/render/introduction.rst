@@ -42,16 +42,15 @@ In general, the process for rendering is:
 Render Engines
 ==============
 
-The Render Engine is the set of code which controls how your materials and lighting are used,
-and ultimately what the rendered image looks like.
+Renderers are programs that turns meshes, materials and lights into images.
 
-Some engines may be better at certain things than others due
+Some renderers may be better at certain things than others due
 to the math they use or core principles around which they were written.
 
-Blender includes two render engines by default:
+Blender includes two renderers by default:
 
 - :doc:`Blender Render </render/blender_render/index>`
 - :doc:`Cycles </render/cycles/index>`
 
-More render engines from third-party developers can also be added using
+More renderers from third-party developers can also be added using
 :doc:`Add-ons </preferences/addons>`

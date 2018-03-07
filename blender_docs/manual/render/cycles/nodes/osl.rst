@@ -82,8 +82,8 @@ Closures
 
 OSL is different from, for example, RSL or GLSL, in that it does not have a light loop.
 There is no access to lights in the scene,
-and the material must be built from closures that are implemented in the render engine itself.
-This is more limited, but also makes it possible for the render engine to do optimizations and
+and the material must be built from closures that are implemented in the renderer itself.
+This is more limited, but also makes it possible for the renderer to do optimizations and
 ensure all shaders can be importance sampled.
 
 The available closures in Cycles correspond to the shader nodes and their sockets;

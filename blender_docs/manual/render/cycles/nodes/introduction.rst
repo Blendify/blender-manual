@@ -29,7 +29,7 @@ Background shader
 Each shader node has a color input, and outputs a shader.
 These can then be mixed and added together using Mix and Add Shader nodes.
 No other operations are permitted.
-The resulting output can then be used by the render engine to compute all light interactions,
+The resulting output can then be used by the renderer to compute all light interactions,
 for direct lighting or global illumination.
 
 .. seealso::

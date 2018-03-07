@@ -90,7 +90,7 @@ Orthographic Scale
 Panoramic
 ^^^^^^^^^
 
-Panoramic cameras are only supported in the Cycles render engine.
+Panoramic cameras are only supported in the Cycles Renderer.
 See :ref:`the Cycles documentation <cycles-panoramic-camera>`.
 
 

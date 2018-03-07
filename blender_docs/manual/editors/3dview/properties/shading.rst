@@ -80,7 +80,7 @@ The shading panel in the Properties Region provides additional control over the 
 
 Textured Solid
    Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
-   (*not* available in the Cycles Render Engine).
+   (*not* available in the Cycles Renderer).
 Shadeless
    Textured mode only -- Draws textures without shading. Its most common use case is texture painting.
 Matcap

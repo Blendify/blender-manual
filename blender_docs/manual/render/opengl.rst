@@ -14,7 +14,7 @@ in the event your scene is too complex for your system to play back in real-time
 You can use OpenGL to render both images and animations.
 
 Below is a comparison between the OpenGL render and a final render using
-the Cycles Render engine.
+the Cycles Renderer.
 
 .. list-table:: Model by © 2016 pokedstudio.com
 
