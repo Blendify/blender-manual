@@ -42,9 +42,3 @@ Scaling
 
 Close tip
    Sets the thickness at the tip to zero, even when using a non-zero tip multiplier.
-
-
-Texture
-=======
-
-ToDo add.
