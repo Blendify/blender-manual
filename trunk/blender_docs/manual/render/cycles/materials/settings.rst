@@ -51,15 +51,15 @@ Displacement
 Displacement Method
    Method used preform :doc:`Displacement </render/cycles/materials/displacement>` on materials.
 
-   True Displacement
+   Displacement Only
       Mesh vertices will be displaced before rendering, modifying the actual mesh.
       This gives the best quality results, if the mesh is finely subdivided.
       As a result, this method is also the most memory intensive.
-   Bump Mapping
+   Bump only
       When executing the surface shader, a modified surface normal is used instead of the true normal.
-      This is a quick alternative to true displacement, but only an approximation.
+      This is a less memory intesive alternative to actual displacement, but only an approximation.
       Surface silhouettes will not be accurate and there will be no self-shadowing of the displacement.
-   Displacement + Bump
+   Displacement and Bump
       Both methods can be combined, to do displacement on a coarser mesh,
       and use bump mapping for the final detail.
 
