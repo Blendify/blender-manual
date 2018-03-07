@@ -31,7 +31,7 @@ Offset
    This is where a texture node can be connected.
    
    RGB colors are mapped to the XYZ axes (Object Space)
-   or tangent, normal and bitangent axes (Tangent space) respectively.
+   or tangent, normal and bitangent axes (Tangent Space) respectively.
 Midlevel
    Neutral displacement value that causes no displacement.
    With the default 0.0, any lower values will cause the surfaces to be pushed inwards,

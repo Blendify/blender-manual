@@ -51,9 +51,9 @@ This method does not actually alter the mesh surface, but merely changes the sha
 
 Bump maps are often used to add smaller details on a model, for example pores or wrinkles on skin.
 
-For baked bump maps, 8-bit byte images are commonly used, however 16 or 32-bit float maps can provide
+For baked bump maps 8-bit byte images are commonly used, however 16 or 32-bit float maps can provide
 better looking results. When using image textures use Cubic interpolation to avoid stepping artifacts,
-which is more visible for bump maps than other types of textures.
+these are more visible for bump maps than other types of textures.
 
 .. important::
 

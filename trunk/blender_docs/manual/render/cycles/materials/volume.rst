@@ -1,7 +1,7 @@
 
-******
-Volume
-******
+*******
+Volumes
+*******
 
 Volume rendering can be used to render effects like fire, smoke, mist, absorption in glass,
 and many other effects that cannot be represented by surface meshes alone.
@@ -13,13 +13,14 @@ For effects such as absorption in glass you can use both a surface and volume sh
 The world can also use a volume shader to create effects such as mist.
 
 
-Volume Shaders
-==============
+Shading
+=======
 
 Principled Volume
 -----------------
 
-Principled Volume is a physically based volume shader that can be used to create a wide range of volume materials.
+:doc:`Principled Volume </render/cycles/nodes/types/shaders/volume_principled>`
+is a physically based volume shader that can be used to create a wide range of volume materials.
 It supports scattering, absorption and emission in one easy to use node. Fire can be rendered with blackbody emission.
 
 .. figure:: /images/render_cycles_materials_volume_principled.jpg
@@ -32,21 +33,24 @@ Volume Components
 
 For more control, volume shading components can be manually combined into a custom shader setup.
 
-- Volume Absorption will absorb part of the light as it passes through the volume.
+- :doc:`Volume Absorption </render/cycles/nodes/types/shaders/volume_absorption>`
+  will absorb part of the light as it passes through the volume.
   This can be used to shade for example black smoke or colored glass objects, or mixed with the volume scatter node.
   This node is similar to the transparent BSDF node,
   it blocks part of the light and lets other light pass straight through.
-- Volume Scatter lets light scatter in other directions as it hits particles in the volume.
+- :doc:`Volume Scatter </render/cycles/nodes/types/shaders/volume_scatter>`
+  lets light scatter in other directions as it hits particles in the volume.
   The anisotropy defines in which direction the light is more likely to scatter.
   A value of 0 will let light scatter evenly in all directions (similar to the diffuse BSDF node),
   negative values let light scatter mostly backwards, and positive values let light scatter mostly forward.
   This can be used to shade white smoke or clouds for example.
-- Emission will emit light from the volume, for example for fire.
+- :doc:`Emission </render/cycles/nodes/types/shaders/emission>`
+  will emit light from the volume, for example for fire.
 
 .. figure:: /images/render_cycles_materials_volume_node.jpg
    :align: center
 
-   Volume Shader: Absorption/Absorption + Scatter/Emission.
+   Volume Absorption, Scatter and Emission
 
 Attributes
 ----------
@@ -70,26 +74,8 @@ a higher chance for light to collide with a particle and get absorbed or scatter
 rather than passing straight through.
 
 
-Volume Material
-===============
-
-Interaction with the Surface Shader
------------------------------------
-
-A material may have both a surface and a volume shader, or only one of either.
-Using both may be useful for materials such as glass, water or ice,
-where you want some of the light to be absorbed as it passes through the surface,
-combined with e.g. a glass or glossy shader at the surface.
-
-When the surface shader does not reflect or absorb light, it enters into the volume.
-If no volume shader is specified, it will pass straight through to the other side of the mesh.
-If it is defined,
-a volume shader describes the light interaction as it passes through the volume of the mesh.
-Light may be scattered, absorbed, or emitted at any point in the volume.
-
-
-Mesh Topology
--------------
+Mesh Volumes
+============
 
 Meshes used for volume render should be closed and :term:`manifold`.
 That means that there should be no holes in the mesh.
@@ -105,10 +91,10 @@ then the renderer is unable to decide what is the inside or outside of the volum
 These rules are the same as for rendering glass refraction correctly.
 
 
-Volume World
+World Volume
 ============
 
-A volume shader can also be applied to the entirely world, filling the entire space.
+A volume shader can also be applied to the world, filling the entire space.
 
 Currently, this is most useful for night time or other dark scenes,
 as the world surface shader or sun lamps will have no effect if a volume shader is used.
@@ -121,8 +107,8 @@ For such effects it is be better to create a volume object surrounding the scene
 The size of this object will determine how much light is scattered or absorbed.
 
 
-Scattering Bounces
-==================
+Multiple Scattering
+===================
 
 Real world effects such as scattering in clouds or subsurface scattering require many
 scattering bounces. However, unbiased rendering of such effects can be noisy, so by default
