@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfVelvet:
 
 ***********
-Velvet Node
+Velvet BSDF
 ***********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_velvet_node.png
    :align: right
 
-   Velvet Node.
+   Velvet BSDF.
 
 The *Velvet* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add reflection to materials such as cloth.

@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeHoldout:
 
-************
-Holdout Node
-************
+*******
+Holdout
+*******
 
 .. figure:: /images/render_cycles_nodes_types_shaders_holdout_node.png
    :align: right
 
-   Holdout Node.
+   Holdout Shader.
 
 The *Holdout* shader node is used to create a "hole" in the image with zero alpha
 transparency, which is useful for compositing (see :term:`alpha channel`).

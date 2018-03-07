@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfDiffuse:
 
 ************
-Diffuse Node
+Diffuse BSDF
 ************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_node.png
    :align: right
 
-   Diffuse Node.
+   Diffuse BSDF.
 
 The *Diffuse* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add Lambertian and Oren-Nayar diffuse reflection.

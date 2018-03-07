@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeEmission:
 
-*************
-Emission Node
-*************
+********
+Emission
+********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_emission_node.png
    :align: right
 
-   Emission Node.
+   Emission Shader.
 
 The *Emission* node is used to add Lambertian emission shader.
 This can for example, be used for material and lamp surface outputs.

@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfRefraction:
 
 ***************
-Refraction Node
+Refraction BSDF
 ***************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_refraction_node.png
    :align: right
 
-   Refraction Node.
+   Refraction BSDF.
 
 The *Refraction* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add glossy refraction with sharp or microfacet distribution,

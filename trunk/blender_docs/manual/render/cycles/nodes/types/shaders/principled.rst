@@ -1,12 +1,13 @@
+.. _bpy.types.ShaderNodeBsdfPrincipled:
 
 ***************
-Principled Node
+Principled BSDF
 ***************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_principled_node.png
    :align: right
 
-   Principled Node.
+   Principled BSDF.
 
 The *Principled* :abbr:`BSDF (Bidirectional scattering distribution function)`
 that combines multiple layers into a single easy to use node.
@@ -118,6 +119,18 @@ Distribution
       Takes multiple bounce (scattering) events between microfacets into account.
       This gives a more energy conserving results, which would otherwise be visible as excessive darkening.
 
+Subsurface Method
+   Rendering method to simulate subsurface scattering.
+
+   Christensen-Burley
+      Is an approximation to physically based volume scattering.
+      Gives less blurry results than Cubic and Gaussian functions.
+   Random Walk
+      Provides the most accurate results for thin and curved objects.
+      This comes at the cost of increased render time or noise for more dense media like skin, but also better geometry detail preservation.
+      Random Walk uses true volumetric scattering inside the mesh, which means that it works best for closed meshes.
+      Overlapping faces and holes in the mesh can cause problems.
+
 
 Outputs
 =======
@@ -129,7 +142,7 @@ BSDF
 Examples
 ========
 
-Below are some examples of how all the Principled Node's
+Below are some examples of how all the Principled BSDF's
 parameters interact with each other.
 
 .. figure:: /images/render_cycles_nodes_types_shaders_principled_example-1a.jpg

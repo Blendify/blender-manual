@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfHair:
 
 *********
-Hair Node
+Hair BSDF
 *********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_hair_node.png
    :align: right
 
-   Hair Node.
+   Hair BSDF.
 
 The *Hair* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add shading for :doc:`Hair </physics/particles/hair/index>`.

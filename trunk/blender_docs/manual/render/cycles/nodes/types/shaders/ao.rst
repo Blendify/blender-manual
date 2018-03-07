@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeAmbientOcclusion:
 
-**********************
-Ambient Occlusion Node
-**********************
+*****************
+Ambient Occlusion
+*****************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_ao_node.png
    :align: right
 
-   Ambient Occlusion Node.
+   Ambient Occlusion.
 
 The *Ambient Occlusion* shader node gives per-material control for the amount of AO.
 When AO is enabled in the world, it affects all diffuse BSDFs in the scene.

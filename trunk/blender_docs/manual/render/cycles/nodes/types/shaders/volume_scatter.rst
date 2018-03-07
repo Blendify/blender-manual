@@ -1,18 +1,18 @@
 .. _bpy.types.ShaderNodeVolumeScatter:
 
-*******************
-Volume Scatter Node
-*******************
+**************
+Volume Scatter
+**************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_volume-scatter_node.png
    :align: right
 
-   Volume Scatter Node.
+   Volume Scatter Shader.
 
 The *Volume Scatter* node allows light to be scattered as it passes through the volume.
 Typical usage would be to add fog to a scene. It can also be used with
 the :doc:`Volume Absorption </render/cycles/nodes/types/shaders/volume_absorption>`
-Node to create smoke.
+node to create smoke.
 
 
 Inputs
