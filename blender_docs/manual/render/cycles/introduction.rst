@@ -24,4 +24,3 @@ Cycles is natively integrated in Blender, Poser, and Rhino.
 
    - `Cycles website <https://www.cycles-renderer.org/>`__
      with more information and a gallery.
-   - `Developer documentation <https://wiki.blender.org/index.php/Dev:Source/Render/Cycles>`__.
