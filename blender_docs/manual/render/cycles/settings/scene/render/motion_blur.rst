@@ -1,10 +1,7 @@
 
-******************
-Motion Blur & Film
-******************
-
+***********
 Motion Blur
-===========
+***********
 
 .. admonition:: Reference
    :class: refbox
@@ -28,7 +25,7 @@ both in a movie frame and in a photograph from a real-world camera.
 
 
 Options
--------
+=======
 
 .. figure:: /images/render_cycles_settings_scene_render_motion-blur_settings.png
    :width: 195px
@@ -60,7 +57,8 @@ Rolling Shutter Duration
 
 .. warning::
 
-   An object modifier setup that changes mesh topology over time will cause severe problems.
+   An object modifier setup that changes mesh topology over time can not render
+   deformation motion blur correctly. Deformation blur should be disabled for such objects.
 
    Common examples of this are animated Booleans, Deformation before Edge Split, Remesh, Skin or Decimate modifiers.
 
@@ -70,25 +68,3 @@ Rolling Shutter Duration
    These options can be found in the Object tab of the Properties editor.
    See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
 
-
-Film
-====
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :menuselection:`Render --> Film`
-
-Exposure
-   This can be used to change the brightness of an image.
-   Different than the *Exposure* option found in the :ref:`Color management <render-post-color-management>`
-   panel this exposure option works *on the data* while the Color management exposure is *on the view*.
-Transparent
-   ToDo ~2.40.
-Pixel Filter
-   .. Sensor simulation or Anti-aliasing.
-
-   Blackman-Harris, Box, Gaussian
-
-   Width
-      ToDo 2.77.

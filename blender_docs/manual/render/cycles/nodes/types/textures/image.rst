@@ -31,7 +31,17 @@ Color Space
    For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map,
    the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
 Interpolation
-   ToDo 2.71.
+   Method to scale images up or down for rendering.
+
+   Linear
+      Regular quality interpolation.
+   Cubic
+      Smoother, better quality interpolation. For bump maps this should be used to get best results.
+   Closest
+      No interpolation, use only closest pixel for rendering pixel art.
+   Smart
+      Only for Open Shading Language. Use linear interpolation when scaling up and cubic when scaling down,
+	  for better performance and sharpness.
 Projection
    Projection to use for mapping the textures.
 

@@ -30,7 +30,10 @@ Properties
 ==========
 
 Component
-   ToDo 2.68.
+   Diffuse
+      Use shading based on the Diffuse BSDF.
+   Glossy
+      Use shading based on the Glossy BSDF for specular reflection.
 
 
 Outputs

@@ -33,9 +33,3 @@ Outputs
 
 Background
    Standard shader output.
-
-
-Examples
-========
-
-Todo add.
