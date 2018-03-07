@@ -16,25 +16,44 @@ The world can also use a volume shader to create effects such as mist.
 Volume Shaders
 ==============
 
-Cycles supports three volume shader nodes,
-that model particular effects as light passes through the volume and interacts with it:
+Principled Volume
+-----------------
+
+Principled Volume is a physically based volume shader that can be used to create a wide range of volume materials.
+It supports scattering, absorption and emission in one easy to use node. Fire can be rendered with blackbody emission.
+
+.. figure:: /images/render_cycles_materials_volume_principled.jpg
+   :align: center
+
+   Smoke and fire rendered with Principled Volume shader.
+
+Volume Components
+-----------------
+
+For more control, volume shading components can be manually combined into a custom shader setup.
 
 - Volume Absorption will absorb part of the light as it passes through the volume.
   This can be used to shade for example black smoke or colored glass objects, or mixed with the volume scatter node.
-  This node is somewhat similar to the transparent BSDF node,
+  This node is similar to the transparent BSDF node,
   it blocks part of the light and lets other light pass straight through.
 - Volume Scatter lets light scatter in other directions as it hits particles in the volume.
   The anisotropy defines in which direction the light is more likely to scatter.
-  A value of 0 will let light scatter evenly in all directions (somewhat similar to the diffuse BSDF node),
+  A value of 0 will let light scatter evenly in all directions (similar to the diffuse BSDF node),
   negative values let light scatter mostly backwards, and positive values let light scatter mostly forward.
   This can be used to shade white smoke or clouds for example.
-- Emission will emit light from the volume. This can be used to shade fire for example.
+- Emission will emit light from the volume, for example for fire.
 
 .. figure:: /images/render_cycles_materials_volume_node.jpg
    :align: center
 
    Volume Shader: Absorption/Absorption + Scatter/Emission.
 
+Attributes
+----------
+
+When rendering smoke and fire, volume attributes are used to define the shape and shading of the volume.
+The Principled Volume shader will use them by default, while custom volume shaders can use the Attribute
+node to get attributes such as density, color and temperature.
 
 Density
 -------
@@ -102,29 +121,18 @@ For such effects it is be better to create a volume object surrounding the scene
 The size of this object will determine how much light is scattered or absorbed.
 
 
-Smoke
-=====
-
-Creating a smoke material for cycles can be difficult however
-the image below shows a good setup on how to do this.
-
-.. figure:: /images/render_cycles_materials_volume_smoke.png
-
-   Smoke and Fire Material.
-
-
 Scattering Bounces
 ==================
 
 Real world effects such as scattering in clouds or subsurface scattering require many
-scattering bounces. However, unbiased rendering of such effects is slow and noisy. In typical
-movie production scenes only 0 or 1 bounces might be used to keep render times under control.
+scattering bounces. However, unbiased rendering of such effects can be noisy, so by default
+the number of bounces is zero.
 The effect you get when rendering with zero volume bounces is what is known as
 "single scattering", the effect from more bounces is "multiple scattering".
 
-For rendering materials like skin or milk, the subsurface scattering shader is
-an approximation of such multiple scattering effects
-that is significantly more efficient but not as accurate.
+For rendering materials like skin or milk that require multiple scattering,
+subsurface scattering is more efficient and easier to control. Particularly the random walk
+method can accurately render such materials.
 
 For materials such as clouds or smoke that do not have a well defined surface,
 volume rendering is required. These look best with many scattering bounces,
@@ -134,11 +142,6 @@ but in practice one might have to limit the number of bounces to keep render tim
 Limitations
 ===========
 
-Currently, the following are not supported:
-
-- Correct ray visibility for volume meshes
-
 Not available on GPU:
 
-- Equiangular/MIS Volume Sampling
-- Volume Multi Light sampling
+- Multiple importance sampling for efficient lights inside volumes

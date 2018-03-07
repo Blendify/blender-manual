@@ -22,19 +22,24 @@ Properties
 ==========
 
 Name
-   Name of the attribute. Currently, the following are the most important ones that you will need to know:
+   Name of the attribute.
+   Most attributes are more easily available through the various input nodes, except for these:
 
    Vertex Color Layers
       These can be retrieved this by their names.
    Density
       Gives a scalar defining the density of any smoke inside
       the :doc:`Smoke Domain </physics/smoke/types/domain>`.
-   Flame
-      Gives a scalar defining the density of any fire inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
-      All three outputs are the same.
    Color
       Gives the color of the smoke inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
       The color and vector outputs are the same. The Factor output is an average of the channels.
+   Temperature
+      Gives a scalar defining the temperature of the volume. Values in the range 0..1 map to 0..1000 Kelvin.
+      This may be used to render physically based fire with the Blackbody or Principled Volume shaders.
+      All three outputs are the same.
+   Flame
+      Gives a scalar defining the density of any fire inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
+      All three outputs are the same.
    Ocean Foam
       Gives a scalar defining where foam might appear when using
       an :doc:`Ocean Modifier </modeling/modifiers/simulate/ocean>`.

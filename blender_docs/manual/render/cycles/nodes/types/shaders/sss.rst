@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeSubsurfaceScattering:
 
-**************************
-Subsurface Scattering Node
-**************************
+*********************
+Subsurface Scattering
+*********************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_sss_node.png
    :align: right
 
-   Subsurface Scattering Node.
+   Subsurface Scattering Shader.
 
 The *Subsurface Scattering* node is used to add simple subsurface multiple scattering,
 for materials such as skin, wax, marble, milk and others. For these materials,
@@ -48,9 +48,17 @@ Texture Blur
 Properties
 ==========
 
-Falloff
-   Lighting distance falloff function.
+Method
+   Rendering method to simulate subsurface scattering.
 
+   Christensen-Burley
+      Is an approximation to physically based volume scattering.
+      Gives less blurry results than Cubic and Gaussian functions.
+   Random Walk
+      Provides the most accurate results for thin and curved objects.
+      This comes at the cost of increased render time or noise for more dense media like skin, but also better geometry detail preservation.
+      Random Walk uses true volumetric scattering inside the mesh, which means that it works best for closed meshes.
+      Overlapping faces and holes in the mesh can cause problems.
    Cubic
       Is a sharp falloff useful for many simple materials. The function is :math:`(radius - x)^3`.
    Gaussian
@@ -60,9 +68,6 @@ Falloff
       The function is :math:`e^{-8x^2/ radius^2}`,
       such that the radius roughly matches the maximum falloff distance.
       To match a given measured variance *v*, set :math:`radius = sqrt(16 × v)`.
-   Christensen-Burley
-      Is an approximation to physically based volume scattering.
-      Gives less blurry results than Cubic and Gaussian functions.
 
 
 Outputs
@@ -77,4 +82,4 @@ Examples
 
 .. figure:: /images/render_cycles_nodes_types_shaders_sss_example.jpg
 
-   A skin-toned SSS shader with color radius (1.0, 0.8, 0.5).
+   Random Walk subsurface scattering.

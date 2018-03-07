@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfGlass:
 
 **********
-Glass Node
+Glass BSDF
 **********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_glass_node.png
    :align: right
 
-   Glass Node.
+   Glass BSDF.
 
 The *Glass* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add a Glass-like shader mixing refraction and reflection at grazing angles.

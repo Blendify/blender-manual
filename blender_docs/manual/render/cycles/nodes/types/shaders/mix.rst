@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeMixShader:
 
-********
-Mix Node
-********
+**********
+Mix Shader
+**********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_mix_node.png
    :align: right
 
-   Mix Node.
+   Mix Shader.
 
 The *Mix* node is used to mix two shaders together. Mixing can be used for material layering,
 where the *Factor* input may, for example, be connected to a *Blend Weight* node.

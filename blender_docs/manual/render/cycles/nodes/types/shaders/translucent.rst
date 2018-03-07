@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfTranslucent:
 
 ****************
-Translucent Node
+Translucent BSDF
 ****************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_translucent_node.png
    :align: right
 
-   Translucent Node.
+   Translucent BSDF.
 
 The *Translucent* :abbr:`BSDF (Bidirectional scattering distribution function)`
 is used to add Lambertian diffuse transmission.

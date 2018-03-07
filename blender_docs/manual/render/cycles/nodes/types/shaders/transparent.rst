@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfTransparent:
 
 ****************
-Transparent Node
+Transparent BSDF
 ****************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_transparent_node.png
    :align: right
 
-   Transparent Node.
+   Transparent BSDF.
 
 The *Transparent* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add transparency without refraction, passing straight through the surface,

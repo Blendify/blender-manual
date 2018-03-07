@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeAddShader:
 
-********
-Add Node
-********
+**********
+Add Shader
+**********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_add_node.png
    :align: right
 
-   Add Node.
+   Add Shader.
 
 The *Add* node is used to add two *Shaders* together.
 

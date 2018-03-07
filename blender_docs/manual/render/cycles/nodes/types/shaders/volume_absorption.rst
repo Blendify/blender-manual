@@ -1,14 +1,14 @@
 .. _bpy.types.ShaderNodeVolumeAbsorption:
 .. (Todo add) links to settings that control these:
 
-**********************
-Volume Absorption Node
-**********************
+*****************
+Volume Absorption
+*****************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_volume-absorption_node.png
    :align: right
 
-   Volume Absorption Node.
+   Volume Absorption Shader.
 
 The *Volume Absorption* node allows light to be absorbed as is passes through the volume.
 Typical usage for this node would be water and glass.

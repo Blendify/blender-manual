@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBackground:
 
-***************
-Background Node
-***************
+**********
+Background
+**********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_background_node.png
    :align: right
 
-   Background Node.
+   Background Shader.
 
 The *Background* shader node is used to add background light emission.
 This node should only be used for the world surface output; it is ignored in other cases.

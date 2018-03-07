@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfAnisotropic:
 
 ****************
-Anisotropic Node
+Anisotropic BSDF
 ****************
 
 .. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_node.png
    :align: right
 
-   Anisotropic Node.
+   Anisotropic BSDF.
 
 The *Anisotropic* :abbr:`BSDF (Bidirectional scattering distribution function)`
 node is used to add a glossy reflection, with separate control over U and V direction roughness.

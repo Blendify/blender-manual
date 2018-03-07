@@ -1,13 +1,13 @@
 .. _bpy.types.ShaderNodeBsdfToon:
 
 *********
-Toon Node
+Toon BSDF
 *********
 
 .. figure:: /images/render_cycles_nodes_types_shaders_toon_node.png
    :align: right
 
-   Toon Node.
+   Toon BSDF.
 
 The *Toon* :abbr:`BSDF (Bidirectional scattering distribution function)`
 is used to create *Diffuse* and *Glossy* materials with cartoon light effects.
