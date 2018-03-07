@@ -145,7 +145,7 @@ They happen because the renderer has difficulty finding specular highlights
 viewed through a soft glossy or diffuse reflection.
 There is a :ref:`No Caustics <render-cycles-integrator-no-caustics>`
 option to disable glossy behind a diffuse reflection entirely.
-Many render engines will typically disable caustics by default.
+Many renderers will typically disable caustics by default.
 
 .. list-table::
 

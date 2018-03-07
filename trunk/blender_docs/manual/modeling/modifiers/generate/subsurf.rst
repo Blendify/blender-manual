@@ -176,7 +176,7 @@ because the render is generated using your Object Data,
 .. tip::
 
    To improve performance in the viewport try enabling `OpenSubdiv`_
-   or if you are using the Cycles render engine consider using
+   or if you are using the Cycles Renderer consider using
    :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`
 
 

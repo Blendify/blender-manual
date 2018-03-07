@@ -4,7 +4,7 @@
 Render Passes
 *************
 
-Render Passes are necessary because of the different things the Blender Render Engine must
+Render Passes are necessary because of the different things the Blender Renderer must
 calculate to give you the final image.
 In each 'pass' the engine calculates different interactions between objects.
 

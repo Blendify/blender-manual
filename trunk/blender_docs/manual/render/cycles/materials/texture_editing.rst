@@ -23,7 +23,7 @@ Material
    This uses solid lighting, and also is mostly useful for editing, painting and mapping textures,
    but while seeing how they integrate with the material.
 Rendered
-   In this draw mode the render engine does the drawing,
+   In this draw mode the renderer does the drawing,
    interactively refining the full rendered image by taking more samples.
    Unlike offline rendering, objects still use the viewport rather than render resolution and visibility.
 

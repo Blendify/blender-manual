@@ -4,7 +4,7 @@
 Mirror Reflections
 ******************
 
-Mirror reflections are computed in the Blender Render and Cycles render engines using ray tracing.
+Mirror reflections are computed in the Blender Render and Cycles Renderers using ray tracing.
 (n.b. Reflections are not available in the Game Engine).
 Ray tracing can be used to make a material reflect its surroundings, like a mirror.
 The principle of ray-traced reflections is very simple:

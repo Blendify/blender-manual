@@ -93,7 +93,7 @@ for more information see the :doc:`GPU Rendering </render/cycles/gpu_rendering>`
 
 None
    When set to *None* or when the only option is *None*:
-   the CPU will be used as the computing device for the Cycles Render Engine.
+   the CPU will be used as the computing device for the Cycles Renderer.
 CUDA
    If the system has a compatible Nvidia CUDA enabled graphics card you will be able
    to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
