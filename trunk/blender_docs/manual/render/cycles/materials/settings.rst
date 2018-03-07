@@ -71,18 +71,18 @@ Viewport Color
 --------------
 
 Color
-   TODO <2.64.
+   Diffuse color of the object in the 3D viewport.
 Alpha
-   TODO <2.64.
+   Transparency of the object in the 3D viewport.
 
 
 Viewport Specular
 -----------------
 
 Color
-   TODO <2.64.
+   Specular reflection color of the object in the 3D viewport.
 Hardness
-   TODO <2.64.
+   Roughness control for the object in the 3D viewport.
 
 
 Viewport Alpha

@@ -77,7 +77,8 @@ Primitive
       Uses a triangle mesh.
 
       Resolution
-         ToDo ~2.67.
+         Number of times to subdivide the hair.
+         Higher values gives better quality results at the cost of increased memory usage.
    Line Segments
       Uses a straight curve primitive.
    Curve Segments

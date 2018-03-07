@@ -52,9 +52,3 @@ Vector
    Output vector, converted by the node.
 Value
    Output value, converted by the node.
-
-
-Example
-=======
-
-Todo add.
