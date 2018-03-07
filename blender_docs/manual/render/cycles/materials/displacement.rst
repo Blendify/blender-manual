@@ -8,91 +8,64 @@ Displacement
 
    | Panel:    :menuselection:`Material --> Settings --> Displacement`
 
-The shape of the surface and the volume inside its mesh may be altered by the displacement shaders.
-This way, textures can then be used to make the mesh surface more detailed.
+Detail can be added to the shape of a surface with displacement shaders.
 
-There are two types of displacement methods that can be used: `True Displacement`_ and `Bump Mapping`_.
-Depending on the settings, the displacement may be virtual,
-only modifying the surface normals to give the impression of displacement,
-known as bump mapping, or a combination of real and virtual displacement.
+To create displacement, connect a :doc:`Displacement </render/cycles/nodes/types/vector/displacement>`
+or :doc:`Vector Displacement </render/cycles/nodes/types/vector/vector_displacement>` node
+to the displacement output of the Material Output node. Procedural, painted or baked textures can
+then be connected to these nodes.
 
-.. tip::
+.. figure:: /images/render_cycles_materials_displacement_node_setup.png
 
-   It is also possible to use the both method by choosing *Displacement + Bump*
-   in the :ref:`Material Settings <cycles-materials-settings-displace>`.
+   Typical displacement node setup.
+
+Three displacement methods exits, with varying accuracy, performance and memory usage.
 
 .. figure:: /images/render_cycles_materials_displacement_example.jpg
 
-   Subdivision Rate 2, Bump, True, Both.
+   Bump only, displacement only and displacement and bump combined.
 
-
-Bump Mapping
-============
-
-When using the *Bump* method for displacement a "bump map" is used to create fake displacement
-by using light and shadow effects. A bump map is actually one of the older types displacement methods
-(see `True Displacement`_ for a newer method).
-
-Typically, bump maps are grayscale images with 8-bits of color information.
-This means that they only have 256 different shades of black, gray, or white.
-These grayscale values are used to tell Blender two thing: up or down.
-
-When values in a bump map are close to 50% gray, there is little to no detail that comes through on the surface.
-When values get closer to white, the effect start to appear as if they are pulling out the surface.
-To contrast that, when values closer to black, they appear to be pushing into the surface.
-
-Bump maps are really great for creating tiny details on a model, for example, pores or wrinkles on skin.
-Bump maps can be created in a 2D drawing,
-or photo editing application just remember to save the image as a grayscale to save memory while rendering.
-
-.. important::
-
-   Because bump mapping is a fake effect, it is easily broken when viewing a model at the wrong angle.
-   This means that it is not recommended for animations.
-
-
-.. _render-cycles-materials-displacement-true:
-
-True Displacement
+Displacement Only
 =================
 
-.. note::
+The most accurate and memory intensive displacement method is to apply true displacement to
+the mesh surface.
 
-   Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`.
+It requires the mesh to be finely subdivided, which can be memory intensive.
+:doc:`Adaptive Subdivision </render/cycles/settings/objects/adaptive_subsurf>` is the best way
+to subdivide the mesh, so that exactly the right amount of subdivision is used depending on the
+distance of the object to the camera.
 
-Different from bump mapping, *True Displacement* is not a fake effect.
-When using *True Displacement* the actual mesh geometry will be displaced before render.
-This gives the best quality results, if the mesh is finely subdivided.
-As a result this method is also the most memory intensive.
-
-When using true displacement you should not just use a bump map as the displacement texture.
-Different from bump maps displacement maps should not use 8-bits when saved.
-While you can use 8-bit textures, they do not translate into 3D space well.
-Instead, you should save the images with either 16 or 32-bits.
-
-.. tip::
-
-   In order to get the appropriate amount of subdivision it is recommended to use
-   :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`
+For baked displacement maps, best results are achieved with 16 or 32-bit float maps, as 8-bit
+byte images often can not represent all the necessary detail.
 
 .. seealso::
 
    The :doc:`Displace Modifier </modeling/modifiers/deform/displace>` can also be used to displace a mesh.
 
+Bump Only
+=========
 
-Controls
---------
+The least accurate but most memory efficient method is to use a bump mapping.
+This method does not actually alter the mesh surface, but merely changes the shading to make it seem so.
 
-You may find that there is a limit to using *True Displacement*
-compared to using the :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
-However, These can be easy fixed with using a :doc:`Math Node </render/cycles/nodes/types/converter/math>`.
-In the example below is a node setup to give the same settings as the *Displace Modifier*.
+Bump maps are often used to add smaller details on a model, for example pores or wrinkles on skin.
 
-.. figure:: /images/render_cycles_materials_displacement_true-controls.png
+For baked bump maps, 8-bit byte images are commonly used, however 16 or 32-bit float maps can provide
+better looking results. When using image textures use Cubic interpolation to avoid stepping artifacts,
+which is more visible for bump maps than other types of textures.
 
-   Math nodes used to add Mid-level and Strength.
+.. important::
 
-In the example above a math node is used twice, the first math node uses the add operator.
-This operation can be used to control the mid-level of the displacement.
-The second math node uses the multiply operation to control how strong the displacement effect is.
-Higher values would give you larger displacement and lower values give smaller displacement.
+   Because bump mapping is a fake effect, it can cause artifacts if the actual shape of the geometry
+   is too different from the bump mapped shape. If this happens the strength of bump mapping should
+   be reduced or actual displacement should be used.
+
+Displacement and Bump
+=====================
+
+Both methods can be combined to use actual displacement for the bigger displacement and bump for the
+finer details. This can provide a good balance to reduce memory usage.
+
+Once you subdivide the mesh very finely, it is better to use only actual displacement. Keeping bump
+maps will then only increase memory usage and render slower.

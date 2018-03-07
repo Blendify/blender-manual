@@ -7,6 +7,7 @@
    :maxdepth: 1
 
    attribute.rst
+   bevel.rst
    camera_data.rst
    fresnel.rst
    geometry.rst

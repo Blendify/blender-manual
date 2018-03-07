@@ -61,8 +61,6 @@ Known Limitations
 - Multi-user object data are currently made single users, leading to increased memory usage.
   For those it is better to use non-adaptive subdivision still.
 - Multi-view renders can have some inconsistencies between views.
-- Editing displacement shaders while using :ref:`True Displacement <render-cycles-materials-displacement-true>`
-  does not update the viewport.
 
 .. warning::
 
