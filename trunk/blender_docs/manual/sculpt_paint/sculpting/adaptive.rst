@@ -78,7 +78,7 @@ Multi-Resolution Modifier
 
 The Multiresolution Modifier is needed to sculpt. The modifier will subdivide the mesh.
 The more subdivision the more computing will be needed. With the Blender stack
-no-destructive data, multiresolution sculpting will help when you have a clean topology base mesh.
+non-destructive data, multiresolution sculpting will help when you have a clean topology base mesh.
 
 When sculpting with multiresolution we have the ability to sculpt in different levels of subdivision,
 this mean we can sculpt some details in subdivision level 1 and add more details in
