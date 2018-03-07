@@ -27,8 +27,8 @@ Use as Speed
       You will have to manually re-adjust the length of the strip accordingly.
 
    Speed Factor
-     Multiplies the current speed of the sequence by this value.
-     So, a value of 0.5 will make the sequence half as fast while 2 would make the sequence twice as fast.
+      Multiplies the current speed of the sequence by this value.
+      So, a value of 0.5 will make the sequence half as fast while 2 would make the sequence twice as fast.
 Frame Number
    Specifies a frame to remap the current frame to,
    for example, setting this value to 50 displays the 50th frame.
