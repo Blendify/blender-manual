@@ -14,13 +14,13 @@ Options
 =======
 
 Use Sequence
-   Expand the scenes sequence strips, allowing one scene to reuse another scenes edit,
+   Expand the scenes sequence strips, allowing one scene to reuse another scene's edit
    (instead of taking the render output from the scene).
 
    This is similar to how :doc:`Meta Strips </editors/vse/sequencer/meta>` work,
    with the added advantage of supporting multiple instances of the same data.
 Camera Override
-   This can be used to override the scenes camera with any other object.
+   This can be used to override the scene's camera with any other object.
 
    It is useful to support switching views within a single scene.
 Show Grease Pencil
@@ -36,5 +36,5 @@ Alpha Mode
 
 .. hint::
 
-   Its best not add a scene strip for the scene you are currently editing.
+   It's best not add a scene strip for the scene you are currently editing.
    While this is supported, it can be confusing when changing the start and end frame.
