@@ -11,7 +11,7 @@ but Sculpt Mode uses a very different workflow:
 instead of dealing with individual elements (vertices, edges, and faces),
 an area of the model is altered using a brush.
 In other words, instead of selecting a group of vertices,
-Sculpt Mode manipulates geometry in the brushes region of influence.
+Sculpt Mode manipulates geometry in the brush region of influence.
 
 
 Sculpt Mode

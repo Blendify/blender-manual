@@ -62,7 +62,7 @@ It calculates how much influence a particular bone would have on vertices
 based on the distance from those vertices to a particular bone ("bone heat" algorithm).
 This influence will be assigned as weights in the vertex groups.
 
-This method of parenting is certainly easier setup, but it can often lead to armatures which do not deform child
+This method of parenting is certainly easier to setup, but it can often lead to armatures which do not deform child
 objects in ways you would want. Overlaps can occur when it comes to determining which bones should
 influence certain vertices when calculating influences for more complex armatures and child objects.
 Symptoms of this confusion are that when transforming the armature in *Pose Mode*,
