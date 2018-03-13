@@ -200,7 +200,8 @@ This page lists definitions for terms used in Blender and this manual.
    Concave Face
       Face in which one vertex is inside a triangle formed by other vertices of the face.
 
-      See also `Convex and concave polygons <https://en.wikipedia.org/wiki/Convex_and_concave_polygons>`__ on Wikipedia.
+      See also `Convex and concave polygons <https://en.wikipedia.org/wiki/Convex_and_concave_polygons>`__
+      on Wikipedia.
 
    Constraint
       A way of controlling one :term:`object` with data from another.

@@ -41,7 +41,7 @@ Interpolation
       No interpolation, use only closest pixel for rendering pixel art.
    Smart
       Only for Open Shading Language. Use linear interpolation when scaling up and cubic when scaling down,
-	  for better performance and sharpness.
+      for better performance and sharpness.
 Projection
    Projection to use for mapping the textures.
 

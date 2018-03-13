@@ -117,7 +117,8 @@ Distribution
       but is less physically accurate. Selecting it enables the *Transmission Roughness* input.
    Multiple-scattering GGX
       Takes multiple bounce (scattering) events between microfacets into account.
-      This gives a more energy conserving results, which would otherwise be visible as excessive darkening.
+      This gives a more energy conserving results,
+      which would otherwise be visible as excessive darkening.
 
 Subsurface Method
    Rendering method to simulate subsurface scattering.
@@ -127,8 +128,10 @@ Subsurface Method
       Gives less blurry results than Cubic and Gaussian functions.
    Random Walk
       Provides the most accurate results for thin and curved objects.
-      This comes at the cost of increased render time or noise for more dense media like skin, but also better geometry detail preservation.
-      Random Walk uses true volumetric scattering inside the mesh, which means that it works best for closed meshes.
+      This comes at the cost of increased render time or noise for more dense media like skin,
+      but also better geometry detail preservation.
+      Random Walk uses true volumetric scattering inside the mesh,
+      which means that it works best for closed meshes.
       Overlapping faces and holes in the mesh can cause problems.
 
 

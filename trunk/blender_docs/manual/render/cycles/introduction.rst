@@ -7,7 +7,7 @@ Introduction
 
 Cycles is Blender's physically based production renderer.
 
-To use Cycles, set it as the active render engine in the top header.
+To use Cycles, set it as the active render engine in the Info editor's header.
 Interactive rendering can be started by setting a 3D View editor to draw mode Rendered using :kbd:`Shift-Z`.
 To perform a full render go to :menuselection:`Properties --> Render`
 here you can either choose to render a still image or an :doc:`Animation </render/workflows/animations>`.

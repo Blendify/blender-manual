@@ -9,9 +9,10 @@ Principled Volume
 
    Principled Volume.
 
-The *Principled Volume*  shader combines all volume shading components into
-a single easy to use node. Volumes like smoke and fire can be rendered with a
-single shader node, which includes scattering, absorption and blackbody emission.
+The *Principled Volume* shader combines all volume shading components into
+a single easy to use node. Volumes like smoke and fire can be rendered with
+a single shader node, which includes scattering, absorption and blackbody emission.
+
 
 Inputs
 ======
@@ -37,9 +38,10 @@ Blackbody Intensity
 Blackbody Tint
    Color tint for blackbody emission.
 Temperature
-   Temperature in Kelvin for blackbody emission, higher values emit more.
+   Temperature in kelvin for blackbody emission, higher values emit more.
 Temperature Attribute
    Volume grid to define the temperature, typically "temperature".
+
 
 Outputs
 =======

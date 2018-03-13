@@ -28,6 +28,7 @@ It supports scattering, absorption and emission in one easy to use node. Fire ca
 
    Smoke and fire rendered with Principled Volume shader.
 
+
 Volume Components
 -----------------
 
@@ -52,12 +53,14 @@ For more control, volume shading components can be manually combined into a cust
 
    Volume Absorption, Scatter and Emission
 
+
 Attributes
 ----------
 
 When rendering smoke and fire, volume attributes are used to define the shape and shading of the volume.
-The Principled Volume shader will use them by default, while custom volume shaders can use the Attribute
-node to get attributes such as density, color and temperature.
+The Principled Volume shader will use them by default, while custom volume shaders can use
+the Attribute node to get attributes such as density, color and temperature.
+
 
 Density
 -------
@@ -130,4 +133,4 @@ Limitations
 
 Not available on GPU:
 
-- Multiple importance sampling for efficient lights inside volumes
+- Multiple importance sampling for efficient lights inside volumes.

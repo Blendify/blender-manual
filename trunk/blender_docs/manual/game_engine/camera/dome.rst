@@ -163,7 +163,8 @@ Each line is compound of *x*, *y*, *u*, *v*, *i*. (x, y)
 are the normalized screen coordinates, (u, v)
 texture coordinates, *i* a multiplicative intensity factor.
 
-*x* varies from -screen aspect to screen aspect. *y* varies from -1 to 1. *u* and *v* vary from 0 to 1.
+*x* varies from negative screen aspect to positive screen aspect.
+*y* varies from -1 to 1. *u* and *v* vary from 0 to 1.
 *i* ranges from 0 to 1, if negative do not draw that mesh node.
 
 #. You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.

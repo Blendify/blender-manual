@@ -57,7 +57,7 @@ Displacement Method
       As a result, this method is also the most memory intensive.
    Bump only
       When executing the surface shader, a modified surface normal is used instead of the true normal.
-      This is a less memory intesive alternative to actual displacement, but only an approximation.
+      This is a less memory intensive alternative to actual displacement, but only an approximation.
       Surface silhouettes will not be accurate and there will be no self-shadowing of the displacement.
    Displacement and Bump
       Both methods can be combined, to do displacement on a coarser mesh,
