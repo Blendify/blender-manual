@@ -34,7 +34,7 @@ Name
       Gives the color of the smoke inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
       The color and vector outputs are the same. The Factor output is an average of the channels.
    Temperature
-      Gives a scalar defining the temperature of the volume. Values in the range 0..1 map to 0..1000 Kelvin.
+      Gives a scalar defining the temperature of the volume. Values in the range 0..1 map to 0..1000 kelvin.
       This may be used to render physically based fire with the Blackbody or Principled Volume shaders.
       All three outputs are the same.
    Flame

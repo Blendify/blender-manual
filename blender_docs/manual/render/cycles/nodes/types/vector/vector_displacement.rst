@@ -16,12 +16,13 @@ It is typically used to apply vector displacement maps created by other sculptin
 software. Vector displacement maps can fully represent the high resolution detail to
 be applied on a smooth base mesh, unlike regular displacement maps.
 
-For best results the mesh must be subdivided finely to bring out the detail in the
-displacement texture.
+For best results the mesh must be subdivided finely to bring out
+the detail in the displacement texture.
 
 .. seealso::
 
    :doc:`Material Displacement </render/cycles/materials/displacement>` for more details on displacement workflows.
+
 
 Inputs
 ======
@@ -29,7 +30,7 @@ Inputs
 Offset
    Vector specifying the displacement along three axes.
    This is where a texture node can be connected.
-   
+
    RGB colors are mapped to the XYZ axes (Object Space)
    or tangent, normal and bitangent axes (Tangent Space) respectively.
 Midlevel
@@ -45,7 +46,8 @@ Properties
 
 Space
    Object Space maps work for static meshes, and will render slightly faster with less memory usage.
-   Tangent Space maps can be used for meshes that will be deformed, like animated characters, so the displacement follows the deformation.
+   Tangent Space maps can be used for meshes that will be deformed, like animated characters,
+   so the displacement follows the deformation.
 
 
 Outputs

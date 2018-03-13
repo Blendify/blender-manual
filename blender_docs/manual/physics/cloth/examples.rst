@@ -38,7 +38,8 @@ Smoothing of Cloth
 
 Now, if you followed this from the previous section, your cloth is probably looking a little blocky.
 In order to make it look nice and smooth like the picture you need to apply
-a Smooth and/or Subdivision Surface Modifier in the *Modifiers* tab. Then, in the toolshelf, find the *Edit* panel and Press *Smooth*.
+a Smooth and/or Subdivision Surface Modifier in the *Modifiers* tab.
+Then, in the Tool Shelf, find the *Edit* panel and Press *Smooth*.
 
 Now, if you press :kbd:`Alt-A`, things are starting to look pretty nice, do not you think?
 

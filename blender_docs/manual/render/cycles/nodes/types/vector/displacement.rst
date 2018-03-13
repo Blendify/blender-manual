@@ -10,11 +10,11 @@ Displacement Node
    Displacement Node.
 
 The *Displacement* node is used to displace the surface along all the surface normal,
-to add more detail to the geometry. Both procedural textures and baked displacment maps
+to add more detail to the geometry. Both procedural textures and baked displacement maps
 may be used.
 
-For best results the mesh must be subdivided finely to bring out the detail in the
-displacement texture.
+For best results the mesh must be subdivided finely to bring out the detail
+in the displacement texture.
 
 It is also possible to use the displacement as bump mapping only by changing the material
 settings, so that no high resolution mesh is needed.
@@ -22,6 +22,7 @@ settings, so that no high resolution mesh is needed.
 .. seealso::
 
    :doc:`Material Displacement </render/cycles/materials/displacement>` for more details on displacement workflows.
+
 
 Inputs
 ======

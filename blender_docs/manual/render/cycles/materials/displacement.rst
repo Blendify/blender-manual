@@ -25,6 +25,7 @@ Three displacement methods exits, with varying accuracy, performance and memory 
 
    Bump only, displacement only and displacement and bump combined.
 
+
 Displacement Only
 =================
 
@@ -33,15 +34,16 @@ the mesh surface.
 
 It requires the mesh to be finely subdivided, which can be memory intensive.
 :doc:`Adaptive Subdivision </render/cycles/settings/objects/adaptive_subsurf>` is the best way
-to subdivide the mesh, so that exactly the right amount of subdivision is used depending on the
-distance of the object to the camera.
+to subdivide the mesh, so that exactly the right amount of subdivision is used depending on
+the distance of the object to the camera.
 
-For baked displacement maps, best results are achieved with 16 or 32-bit float maps, as 8-bit
-byte images often can not represent all the necessary detail.
+For baked displacement maps, best results are achieved with 16 or 32-bit float maps,
+as 8-bit byte images often can not represent all the necessary detail.
 
 .. seealso::
 
    The :doc:`Displace Modifier </modeling/modifiers/deform/displace>` can also be used to displace a mesh.
+
 
 Bump Only
 =========
@@ -61,11 +63,12 @@ these are more visible for bump maps than other types of textures.
    is too different from the bump mapped shape. If this happens the strength of bump mapping should
    be reduced or actual displacement should be used.
 
+
 Displacement and Bump
 =====================
 
-Both methods can be combined to use actual displacement for the bigger displacement and bump for the
-finer details. This can provide a good balance to reduce memory usage.
+Both methods can be combined to use actual displacement for the bigger displacement and
+bump for the finer details. This can provide a good balance to reduce memory usage.
 
-Once you subdivide the mesh very finely, it is better to use only actual displacement. Keeping bump
-maps will then only increase memory usage and render slower.
+Once you subdivide the mesh very finely, it is better to use only actual displacement.
+Keeping bump maps will then only increase memory usage and render slower.

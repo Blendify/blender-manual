@@ -9,9 +9,9 @@ Camera Data Node
 
    Camera Data Node.
 
-The *Camera Data* node is used to get information about the position of the
-object relative to the camera. This could be used for example to change the
-shading of objects further away from the camera, or make custom fog effects.
+The *Camera Data* node is used to get information about the position of
+the object relative to the camera. This could be used for example to change
+the shading of objects further away from the camera, or make custom fog effects.
 
 
 Inputs

@@ -6,7 +6,8 @@ Film
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render --> Film Blur`
+   | Panel:    :menuselection:`Render --> Film`
+
 
 Options
 =======
@@ -22,7 +23,7 @@ Transparent Glass
    Render transmissive surfaces as transparent, for compositing glass over another background.
 Transparent Roughness
    For transparent glass, keep surfaces with roughness above the threshold opaque.
-   
+
 Pixel Filter
    Due to limited resolution of images and computer screens pixel filters are needed to avoid
    aliasing (jaggy edges). This is achieved by slightly blurring the image to soften edges.

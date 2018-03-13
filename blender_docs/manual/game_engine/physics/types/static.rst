@@ -28,8 +28,8 @@ Options
 
 .. note:: bpy Access
 
-   Note that most of these properties are accessible through the non-
-   BGE scripting API via ``bpy.data.objects["ObjectName"].game``,
+   Note that, most of these properties are accessible through
+   the non-BGE scripting API via ``bpy.data.objects["ObjectName"].game``,
    which is of type ``bpy.types.GameObjectSetting``. This is useful,
    for example, to set a range of objects to have gradated values via a for-loop.
 
