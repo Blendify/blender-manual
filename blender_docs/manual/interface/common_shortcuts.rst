@@ -86,6 +86,9 @@ Dragging
 - :kbd:`Shift` -- Gives precision control over the value.
 - :kbd:`Shift-Ctrl` -- Precise snap will move the object with high precision
   along with the snapping constraint.
+- :kbd:`Alt` -- Modifies values of all selected items (objects, bones, sequence-strips).
+
+  This can be used for number buttons and toggles.
 
 
 .. _ui-text-editing:
