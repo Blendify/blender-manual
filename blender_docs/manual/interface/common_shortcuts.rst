@@ -51,6 +51,10 @@ Properties
   For pop-up option menus buttons, this cycles the value.
 - :kbd:`Return` -- Activates menus or toggles the value.
 
+- :kbd:`Alt` -- Hold while editing values to apply the change to all selected items (objects, bones, sequence-strips).
+
+  This can be used for number buttons and toggles.
+
 
 Animation
 ---------
@@ -86,10 +90,6 @@ Dragging
 - :kbd:`Shift` -- Gives precision control over the value.
 - :kbd:`Shift-Ctrl` -- Precise snap will move the object with high precision
   along with the snapping constraint.
-- :kbd:`Alt` -- Modifies values of all selected items (objects, bones, sequence-strips).
-
-  This can be used for number buttons and toggles.
-
 
 .. _ui-text-editing:
 
