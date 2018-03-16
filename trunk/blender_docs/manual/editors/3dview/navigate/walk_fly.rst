@@ -104,7 +104,7 @@ Shortcuts
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
 - Move the view forward/backward:
   - :kbd:`WheelUp` or :kbd:`NumpadPlus` to accelerate the movement forward.
-  - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to accelerate the movement backward.
+  - :kbd:`WheelDown` or :kbd:`NumpadMinus` to accelerate the movement backward.
 
     So if the view is already moving forward,
     :kbd:`WheelDown`, :kbd:`NumpadMinus` will eventually stop it and then move it backward, etc.

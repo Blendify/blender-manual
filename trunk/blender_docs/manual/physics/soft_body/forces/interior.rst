@@ -33,7 +33,7 @@ but would change your mesh topology drastically.
 Luckily, Blender allows to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
 (*Stiff Quads* Fig. :ref:`fig-softbody-force-interior-stiff`), on the other hand we can define virtual connections
-between a vertex and any vertices connected to its neighbors
+between a vertex and any vertices connected to its neighbors'
 *Bending Stiffness*. In other words, the amount of bend that is allowed between
 a vertex and any other vertex that is separated by two edge connections.
 
@@ -62,7 +62,7 @@ Pull
    The Soft Body simulation tends to get unstable if you use a value of 0.999,
    so you should lower this value a bit if that happens.
 Push
-   How much the softbody resist being scrunched together,
+   How much the softbody resists being scrunched together,
    like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
 Damp
    The friction for edge springs. High values (max of 50) dampen the *Push* / *Pull* effect and calm down the cloth.
@@ -73,7 +73,7 @@ Bending
    This option creates virtual connections between a vertex and the vertices connected to its neighbors.
    This includes diagonal edges. Damping also applies to these connections.
 Length
-   The edges can shrink or been blown up. This value is given in percent,
+   The edges can shrink or be blown up. This value is given in percent,
    0 disables this function. 100% means no change, the body keeps 100% of his size.
 
 
