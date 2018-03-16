@@ -101,7 +101,7 @@ If the collision you have set up is not behaving properly, you can try the follo
 
 - The Soft Body object must have more subdivisions than the collision object.
 - Check the direction of the face normals.
-- If the collision object has sharp spikes they might penetrate the Soft Body.
+- If the collision object has sharp spikes, they might penetrate the Soft Body.
 - The resolution of the solver must match the speed at which Soft Body vertices are traveling.
   Lower the parameter *Error Limit* and carefully increase *Min Step*.
 - *Outer* and *Inner* should be large enough, but zones of opposite faces should not overlap,
