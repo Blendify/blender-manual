@@ -469,6 +469,14 @@ This page lists definitions for terms used in Blender and this manual.
 
       See the Mipmap option present in the :doc:`System Preferences </preferences/system>`.
 
+   MIS
+   Multiple Importance Sampling
+      *TODO (brief description).*
+
+      See: :ref:`render-cycles-reducing-noise-mis`
+
+      See also `Importance sampling <https://en.wikipedia.org/wiki/Importance_sampling>`__ on Wikipedia.
+
    Motion Blur
       The phenomenon that occurs when we perceive a rapidly moving object.
       The object appears to be blurred because of our persistence of vision.
