@@ -200,6 +200,8 @@ node has a *Smooth factor*, that can be used to reduce the maximum intensity
 a light can contribute to nearby surfaces. The images above show default falloff and smooth value 1.0.
 
 
+.. _render-cycles-reducing-noise-mis:
+
 Multiple Importance Sampling
 ============================
 
