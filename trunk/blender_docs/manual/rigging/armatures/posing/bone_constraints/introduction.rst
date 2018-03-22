@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|}}.
 
 ************
 Introduction
@@ -11,13 +10,13 @@ Introduction
    The Constraints panel in Pose Mode,
    with one Limit Rotation constraint applied to the active bone.
 
-As bones behave like objects in *Pose Mode*, they can also be constrained. This is
-why the *Constraints* tab is shown in both *Object Mode* and
-*Edit Mode*. This panel contains the constraints *of the active bone*
+As bones behave like objects in *Pose Mode*, they can also be constrained.
+This is why the *Constraints* tab is shown in both *Object Mode* and *Edit Mode*.
+This panel contains the constraints *of the active bone*
 (its name is displayed at the top of the panel, in the *To Bone:...* static text field).
 
-Constraining bones can be used to control their degree of freedom in their pose transformations,
-using e.g. the *Limit* constraints.
+Constraining bones can be used to control their degree of freedom
+in their pose transformations, using e.g. the *Limit* constraints.
 You can also use constraints to make a bone track another object/bone
 (inside the same object, or in another armature), etc.
 And the :ref:`inverse kinematics feature <bone-constraints-inverse-kinematics>`
