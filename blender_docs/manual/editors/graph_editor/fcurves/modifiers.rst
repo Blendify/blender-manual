@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|im=examples}}.
 
 .. _bpy.types.FCurveModifiers:
 .. _bpy.types.FModifier:
