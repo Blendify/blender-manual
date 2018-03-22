@@ -171,7 +171,9 @@ Distance Model
 --------------
 
 Distance Model
-   TODO.
+   Distance model to use for sound attenuation (how sound volume diminishes over distance).
+   For an exact description of each option see the
+   `OpenAL documentation <https://www.openal.org/documentation/>`__.
 
 Speed
    Speed of the sound for the Doppler effect calculations.
@@ -179,7 +181,6 @@ Doppler
    Pitch factor for Doppler effect calculation.
 
 
-.. _bpy.types.FFmpegSettings.audio_mixrate:
 .. _bpy.types.FFmpegSettings.audio_channels:
 
 Format
