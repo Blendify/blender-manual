@@ -181,6 +181,7 @@ Doppler
    Pitch factor for Doppler effect calculation.
 
 
+.. _bpy.types.FFmpegSettings.audio_mixrate:
 .. _bpy.types.FFmpegSettings.audio_channels:
 
 Format
