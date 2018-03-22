@@ -62,6 +62,7 @@ a TV network or client might have their own rules on minimum text size and posit
 so always seek clarification when unsure.
 
 
+.. _render-output-video-encoding-panel:
 .. _bpy.types.FFmpegSettings:
 
 Encoding Panel

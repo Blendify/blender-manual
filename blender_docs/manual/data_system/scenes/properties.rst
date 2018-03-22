@@ -185,10 +185,18 @@ Doppler
 Format
 ------
 
+These settings, along with the settings found in the
+:ref:`Encoding Panel <render-output-video-encoding-panel>`
+change how sound is exported while rendering.
+
+To control how sounds plays back from within Blender see the audio settings
+in the :ref:`User Preferences <prefs-system-sound>`.
+
 Channels
-   TODO.
+   Sets the audio channel count. Available options are:
+   *Mono*, *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*.
 Mix Rate
-   TODO.
+   Sets the audio `sampling rate <https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_rate>`__.
 
 
 Gravity
