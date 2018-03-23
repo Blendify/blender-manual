@@ -54,12 +54,3 @@ View Lock to Active :kbd:`Shift-NumpadPeriod`
    Centers view to the last selected active object, overriding other view alignment settings.
 View Lock Clear :kbd:`Alt-NumpadPeriod`
    Returns the view alignment to the view align settings before use of *View Lock to Active*.
-
-
-View Menu
-=========
-
-View Selected
-   See above.
-View All :kbd:`Home`
-   Frames all the objects in the scene, so they are visible in the viewport.

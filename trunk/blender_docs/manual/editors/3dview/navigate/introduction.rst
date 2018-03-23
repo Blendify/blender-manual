@@ -1,8 +1,9 @@
-.. (todo move) orbit, pan, zoom?
 
 ************
 Introduction
 ************
+
+.. _bpy.ops.view3d.view:
 
 View Menu
 =========
@@ -10,9 +11,20 @@ View Menu
 The view menu is located in the header of the 3D View.
 The list below includes all menu entries discussed in *other* sections of the manual.
 
-Show all Layers
+Render Border... :kbd:`Ctrl-B`
+   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
+Clear Render Border :kbd:`Ctrl-Alt-B`
+   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
+Show all Layers :kbd:`Backtick`
    Makes all :doc:`layers </editors/3dview/object/properties/relations/layers>` visible.
-Play Back Animation
+View Local/Global :NumpadSlash:
+   Toggles :ref:`Local/Global Views <editors-3dview-navigat-views-local>`.
+View Selected :kbd:`NumpadPeriod`
+   Focuses view on currently selected object/s by centering them in the viewport,
+   and zooming in until they fill the screen.
+View All :kbd:`Home`
+   Resets viewable area to show every object.
+Play Back Animation :kbd:`Alt-A`
    :doc:`Plays back </editors/timeline>` the animation from the current frame.
 Duplicate Area in New Window
    Clones the current :doc:`area </interface/window_system/areas>` (3D View) in a new window.

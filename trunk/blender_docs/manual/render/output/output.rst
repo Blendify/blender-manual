@@ -6,7 +6,7 @@ Output Options
 The first step in the rendering process is to determine and set the output options.
 This includes render size, frame rate, pixel aspect ratio, output location, and file type.
 
-
+.. _bpy.types.RenderSettings.use_border:
 .. _render-tab-dimensions:
 
 Dimensions Panel
@@ -33,17 +33,22 @@ Aspect Ratio
    resulting in lowered image quality.
 
    See :doc:`Video Output </render/output/video>` for details on pixel aspect ratio.
+
+.. _render-output-dimensions-border:
+
 Border
-   You can render just a portion of the view instead of the entire frame. While in Camera View,
-   press :kbd:`Ctrl-B` and drag a rectangle to define the area you want to render.
-   :kbd:`Ctrl-Alt-B` is the shortcut to disable the border.
+   Renders just a portion of the view instead of the entire frame.
+   See the :ref:`Render Border <editors-3dview-navigate-borders-render>`
+   documentation to see how to define the size of the render border.
 
    .. note::
 
-      This disables the *Save Buffers* option in *Performance* and *Full Sample* option in *Anti-Aliasing*.
+      This disables the *Save Buffers* option in *Performance*
+      and *Full Sample* option in *Anti-Aliasing*.
 
-   Enabling *Crop* will crop the rendered image to the *Border* size,
-   instead of rendering a black region around it.
+   Crop
+      Crops the rendered image to the size of the render border,
+      instead of rendering a transparent background around it.
 Frame Range
    Set the *Start* and *End* frames for :doc:`Rendering Animations </render/workflows/animations>`.
    *Step* controls the number of frames to advance by for each frame in the timeline.
