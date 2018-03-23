@@ -309,8 +309,6 @@ Smooth Vertex
 This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/transform/smooth>`.
 
 
-.. (todo) images from https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.64/BMesh
-
 Convex Hull
 ===========
 
@@ -324,17 +322,31 @@ The Convex Hull operator takes a point cloud as input and outputs a convex hull 
 If the input contains edges or faces that lie on the convex hull, they can be used in the output as well.
 This operator can be used as a bridge tool as well.
 
+.. figure:: /images/modeling_meshes_editing_vertices_convex-hull.png
+
 Delete Unused
    Removes vertices, edges, and faces that were selected, but not used as part of the hull.
    Note that vertices and edges that are used
    by other edges and faces not part of the selection will not be deleted.
+
+   .. figure:: /images/modeling_meshes_editing_vertices_convex-hull_delete-unused.png
+
+      Middle mesh shows the convex hull with Delete Unused enabled,
+      the mesh at right shows the hull with Delete Unused disabled.
+
 Use Existing Faces
    Where possible, use existing input faces that lie on the hull.
    This allows the convex hull output to contain n-gons rather than triangles
    (or quads if the *Join Triangles* option is enabled).
+
+   .. figure:: /images/modeling_meshes_editing_vertices_convex-hull_use-existing.png
+
 Make Holes
    Delete edges and faces in the hull that were part of the input too.
    Useful in cases like bridging to delete faces between the existing mesh and the convex hull.
+
+   .. figure:: /modeling_meshes_editing_vertices_convex-hull_make-holes.png
+
 Join Triangles
    Joins adjacent triangles into quads.
    Has all the same properties as the *Tris to Quads* operator (angle limit, compare UVs, etc.).
