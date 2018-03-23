@@ -345,7 +345,7 @@ Make Holes
    Delete edges and faces in the hull that were part of the input too.
    Useful in cases like bridging to delete faces between the existing mesh and the convex hull.
 
-   .. figure:: /modeling_meshes_editing_vertices_convex-hull_make-holes.png
+   .. figure:: /images/modeling_meshes_editing_vertices_convex-hull_make-holes.png
 
 Join Triangles
    Joins adjacent triangles into quads.

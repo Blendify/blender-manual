@@ -8,23 +8,23 @@ Follow Track Constraint
 
    Follow Track Constraint panel.
 
-By default Follow Track constraint is making object have the same position at frame as track has and
-motion of this object happens on a single plane defined by camera and original object position.
+By default Follow Track constraint is making objects have the same position at a frame as the track has and
+the motion of this object happens on a single plane defined by the camera and the original position of the object.
 
 Active Clip
-   Receive tracking data from the active movie clip in the Movie clip editor.
-   If unchecked, an option appears to choose from the other clips.
+   Receive tracking data from the active movie clip in the Movie Clip editor.
+   If unchecked, an option appears to choose from the other available clips.
 3D Position
-   Use 3D position of tract to parent to.
+   Use the 3D position of the track to parent to.
 Undistorted
-   Parent to undistorted position of the 2D track.
+   Parent to the undistorted position of the 2D track.
 Frame Method
-   How the footage fits in the camera frame.
+   Defines how the footage is fitted in the camera frame.
 Camera
-   Select the camera to which the motion is parented to (if active empty scene camera is used).
+   Select the camera to which the motion is parented to (if active an empty scene camera is used).
 Depth Object
-   If this object is set, constrained object would be projected onto surface
-   of this depth object which can be used to make faked facial makeup.
+   If this object is set, constrained objects will be projected onto the surface
+   of this depth object which can be used to create facial makeup visual effects.
 Constraint to F-Curve
    Creates F-Curves for the object that copies the movement caused by the constraint.
 
