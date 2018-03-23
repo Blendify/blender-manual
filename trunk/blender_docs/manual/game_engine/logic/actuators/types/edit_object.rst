@@ -12,7 +12,7 @@ It can also change the mesh of an object (and soon also recreate the collision m
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Edit Object
    How the object is modified, each is described below.

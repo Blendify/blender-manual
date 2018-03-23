@@ -15,7 +15,7 @@ The *Sound Actuator* allows the user to play sound files in the game engine.
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Sound File
    Load a new sound file or select one from the list.

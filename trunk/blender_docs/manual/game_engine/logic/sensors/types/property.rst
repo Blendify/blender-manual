@@ -15,7 +15,7 @@ The *Property Sensor* detects changes in the properties of its owner object.
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Evaluation Type
    Specifies how the property will be evaluated against the value(s).

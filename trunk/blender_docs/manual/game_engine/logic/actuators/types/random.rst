@@ -15,7 +15,7 @@ The *Random Actuator* creates a random value which can be stored in a property o
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Seed
    Starting seed for random generator.

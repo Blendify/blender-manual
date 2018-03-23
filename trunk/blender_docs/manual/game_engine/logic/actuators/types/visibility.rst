@@ -21,7 +21,7 @@ The *Visibility Actuator* allows the user to change the visibility of objects du
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Visible
    Toggle checkbox to toggle visibility.

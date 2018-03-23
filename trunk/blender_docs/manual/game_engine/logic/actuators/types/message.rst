@@ -16,7 +16,7 @@ and between scenes themselves, which can be received by other objects to activat
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 To
    Object to broadcast to. Leave blank if broadcast to all (or sending to another scene).

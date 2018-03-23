@@ -16,7 +16,7 @@ game-specific functions, such as restart, quit, and load.
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Game
    Load ``bge.logic.globalDict``

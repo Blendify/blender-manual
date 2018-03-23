@@ -23,7 +23,7 @@ and performing operations upon them.
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Operation
    Change State

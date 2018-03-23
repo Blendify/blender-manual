@@ -18,7 +18,7 @@ The exact layout of the joystick controls will depend on the make and model of j
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Event Type
    A menu to select which joystick event to use, each is described later.

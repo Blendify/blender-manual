@@ -35,14 +35,15 @@ The following guides lead you through the process.
    patch_commit.rst
 
 
-Style Guides
-============
+Guidelines
+==========
 
 .. toctree::
    :maxdepth: 1
 
-   style_guides/markup_guide.rst
-   style_guides/writing_guide.rst
+   guides/markup_guide.rst
+   guides/writing_guide.rst
+   guides/maintence_guide.rst
 
 
 Translations

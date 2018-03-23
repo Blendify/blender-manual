@@ -15,7 +15,7 @@ The *Random Sensor* generates random pulses.
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Seed
    This field to enter the initial seed for the random number algorithm.
