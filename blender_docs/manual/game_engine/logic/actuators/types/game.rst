@@ -43,5 +43,3 @@ Game
 
 Example
 =======
-
-TODO.

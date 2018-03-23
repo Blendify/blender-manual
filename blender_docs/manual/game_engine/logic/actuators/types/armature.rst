@@ -40,5 +40,3 @@ Constraint
 
 Example
 =======
-
-Todo.

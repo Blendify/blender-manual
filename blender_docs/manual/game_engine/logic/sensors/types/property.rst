@@ -39,5 +39,3 @@ Equal
 
 Example
 =======
-
-TODO.

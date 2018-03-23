@@ -32,5 +32,3 @@ Seed
 
 Example
 =======
-
-TODO.

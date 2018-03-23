@@ -36,5 +36,3 @@ Scene
 
 Example
 =======
-
-TODO.

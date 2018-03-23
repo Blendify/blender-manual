@@ -65,5 +65,3 @@ Bool constant
 
 Example
 =======
-
-TODO.

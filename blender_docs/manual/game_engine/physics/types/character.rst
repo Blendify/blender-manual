@@ -37,5 +37,3 @@ Max Jumps
 
 Example
 =======
-
-Todo

@@ -34,5 +34,3 @@ Children
 
 Example
 =======
-
-TODO.

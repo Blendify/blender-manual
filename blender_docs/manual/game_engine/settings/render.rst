@@ -251,8 +251,6 @@ Color Bar
 Bake
 ====
 
-.. TODO: merge with render/blender_render/bake.html
-
 The *Bake* panel in the *Render* tab of the *Properties* editor is very similar to its
 Blender Render counterpart and serves much the same purpose.
 See :doc:`Render Baking </render/blender_render/bake>` for further details.

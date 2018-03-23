@@ -39,5 +39,3 @@ Body
 
 Example
 =======
-
-TODO.
