@@ -6,6 +6,9 @@ Introduction
 Drivers are scripts which main purpose is to control properties with other properties.
 In example the rotation of one object is controlled with the location of another object.
 
+.. seealso::
+
+   :doc:`Auto run </advanced/scripting/security>`
 
 Adding & Removing
 =================
@@ -87,10 +90,6 @@ Removing Drivers
    | Hotkey:   :kbd:`Ctrl-Alt-D`
 
 ToDo add.
-
-.. seealso::
-
-   :doc:`Auto run </advanced/scripting/security>`
 
 
 Graph View
