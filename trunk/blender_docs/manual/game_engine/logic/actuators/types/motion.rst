@@ -11,8 +11,6 @@ Simple or Servo, in which the object can either teleport and rotate, or dynamica
 Properties
 ==========
 
-
-
 Motion Type
    Determines the type of motion:
 

@@ -17,7 +17,7 @@ They are used to record multiple properties at the same time.
 Now when you press :kbd:`I` in the 3D View,
 Blender will add keyframes for all the properties in the active keying set.
 
-There are some built in Keying Sets and,
+There are some built-in Keying Sets and,
 also custom Keying Sets called *Absolute Keying Sets*.
 
 To select and use a Keying Set, set the *Active Keying Set*

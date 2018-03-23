@@ -57,7 +57,7 @@ Copy and Paste
 --------------
 
 Strips can be copied and pasted using the two icon buttons
-or through :kbd:`Ctrl-C` and :kbd:`Ctrl-V`
+or through :kbd:`Ctrl-C` and :kbd:`Ctrl-V`.
 
 
 Refresh Sequencer

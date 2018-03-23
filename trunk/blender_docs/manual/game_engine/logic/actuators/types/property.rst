@@ -16,8 +16,6 @@ once the actuator itself is activated.
 Properties
 ==========
 
-
-
 Mode
    Assign
       The *Property* target property will become equal to the set *Value* once the actuator is activated

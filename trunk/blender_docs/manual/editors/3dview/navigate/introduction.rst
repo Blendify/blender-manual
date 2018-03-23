@@ -17,8 +17,8 @@ Clear Render Border :kbd:`Ctrl-Alt-B`
    See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
 Show all Layers :kbd:`Backtick`
    Makes all :doc:`layers </editors/3dview/object/properties/relations/layers>` visible.
-View Local/Global :NumpadSlash:
-   Toggles :ref:`Local/Global Views <editors-3dview-navigat-views-local>`.
+View Local/Global :kbd:`NumpadSlash`
+   Toggles :ref:`Local/Global Views <editors-3dview-navigate-views-local>`.
 View Selected :kbd:`NumpadPeriod`
    Focuses view on currently selected object/s by centering them in the viewport,
    and zooming in until they fill the screen.

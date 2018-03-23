@@ -16,8 +16,6 @@ these can be used as levels or for UI and background.
 Properties
 ==========
 
-
-
 The actuator has several modes described below:
 
 Restart

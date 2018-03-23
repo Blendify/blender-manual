@@ -135,7 +135,7 @@ Sort Usefully
    Order naming with specific identifiers at the end.
 Format
    Use ``.png`` for images that have solid colors such as screenshots of the Blender interface,
-   and ``.jpg`` for images with a lot of color variances, such as sample renders and photographs.
+   and ``.jpg`` for images with a high amount of color variance, such as sample renders and photographs.
 
    Do not use animated ``.gif`` files, these are hard to maintain, can be distracting
    and are usually large in file size. Instead use a video if needed (see `Videos`_ below).

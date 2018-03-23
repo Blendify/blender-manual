@@ -17,7 +17,7 @@ read the `development roadmap <https://code.blender.org/2013/06/blender-roadmap-
 Use Cases and Sample Games
 ==========================
 
-Blender has its own built in Game Engine that allows you to create interactive 3D applications
+Blender has its own built-in Game Engine that allows you to create interactive 3D applications
 or simulations. The major difference between Game Engine and the conventional Blender system
 is in the rendering process. In the normal Blender engine,
 images and animations are built off-line -- once rendered they cannot be modified.

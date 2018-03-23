@@ -15,8 +15,6 @@ The *Parent Actuator* enables the user to change the parent relationships of the
 Properties
 ==========
 
-
-
 Scene
    The type of parenting operation.
 

@@ -16,8 +16,6 @@ It is only visible when an armature is selected, because the actions are stored 
 Properties
 ==========
 
-
-
 Action Playback Type
    Play
       Play F-Curve once from start to end when a ``TRUE`` pulse is received.

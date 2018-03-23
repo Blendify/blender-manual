@@ -91,5 +91,5 @@ and can be removed with :kbd:`Ctrl-Alt-B`.
 .. tip::
 
    You can also use this border in a final render by setting a render border
-   from within the :doc:`Camera View </3dview/navigate/camera_view>` and enabling
-   :ref:`Border <render-output-dimensions-border>` in the dimensions panel.
+   from within the :doc:`Camera View </editors/3dview/navigate/camera_view>` and enabling
+   :ref:`Border <render-output-dimensions-border>` in the Dimensions panel.

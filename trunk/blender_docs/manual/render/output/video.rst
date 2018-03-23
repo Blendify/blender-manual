@@ -7,7 +7,7 @@ Preparing your Work for Video
 =============================
 
 Once you master the art of 3D animation, you will probably want to share your work with others;
-either on the internet (YouTube, Vimeo, etc.) or with family and friends (DVD/Blu-ray)
+either on the Internet (YouTube, Vimeo, etc.) or with family and friends (DVD/Blu-ray)
 or even possibly for television broadcast.
 
 To spare you some disappointment, here are some tips specifically targeted at video preparation.

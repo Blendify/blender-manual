@@ -15,8 +15,6 @@ The *Random Actuator* creates a random value which can be stored in a property o
 Properties
 ==========
 
-
-
 Seed
    Starting seed for random generator.
 
