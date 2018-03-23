@@ -3,30 +3,16 @@
 Introduction
 ************
 
-Header
-======
-
-.. figure:: /images/editors_vse_sequencer_introduction_header.png
-
-   Video Sequencer Header.
-
-
-Marker Menu
------------
-
-The Marker menu allows you to add markers in the VSE.
-Markers are shared across animation editors. See :doc:`Markers </animation/markers>`.
-
-
-Main View
-=========
-
-Channels
---------
-
-The Sequencer workspace is horizontally striped into channels and each video strip will go in
-a horizontal channel. Each channel is numbered consecutively on the Y axis, starting from zero.
-The X axis represents time.
+The Sequencer region is horizontally divided into channels
+each channel can contain what is called a strip.
+A strip can be an image, animation, or any number of effects.
+Each channel is numbered consecutively on the Y axis,
+starting from zero and allows up to 32 total channels.
+The X axis represents time. Each channel can contain as many strips
+as it needs as long as they do not overlap. If a strip needs to overlap another,
+it needs to be placed on a channel above or below the other strip.
+When strips are stacked, they stack from bottom to top where the lowest channel
+forms the background and the highest the foreground.
 
 .. note::
 
@@ -34,9 +20,8 @@ The X axis represents time.
    This is because it is used by the :doc:`Sequencer Display </editors/vse/preview/introduction>`
    to show a composite of all strips above channel 0.
 
-The channels are stacked bottom to top (the lowest channel forms the background and the highest the foreground).
 
-.. note::
-
-   By default the Sequencer is enabled however, it can be disabled
-   in the :doc:`Post Processing Panel </render/post_process/panel>`.
+This region is were strips can be :doc:`selected </editors/vse/sequencer/selecting>`,
+doc:`modified </editors/vse/sequencer/selecting>` by moving, cutting, or extending, strips.
+There are also several built in doc:`effects </editors/vse/sequencer/strips/effects/index>
+that can be combined with other strips to change their appearance.

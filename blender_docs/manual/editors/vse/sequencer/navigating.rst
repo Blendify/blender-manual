@@ -6,6 +6,11 @@ Navigating
 Header
 ======
 
+.. figure:: /images/editors_vse_sequencer_introduction_header.png
+
+   Video Sequencer Header.
+
+
 View Menu
 ---------
 
@@ -28,6 +33,13 @@ Waveform Drawing
    or use the individual :ref:`strip option <sequencer-sound-waveform>`.
 Sync Markers
    Transform Markers as well as Strips.
+
+
+Marker Menu
+-----------
+
+The Marker menu allows you to add markers in the VSE.
+Markers are shared across animation editors. See :doc:`Markers </animation/markers>`.
 
 
 Frame Menu

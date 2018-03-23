@@ -29,3 +29,8 @@ The View Types toggles in the header allow you to change the view of the VSE.
 When the first button is toggled only the Sequencer is displayed (the default).
 The second button displays only the Preview region, and
 the third button displays both the Sequencer and the Preview.
+
+.. note::
+
+   By default the Sequencer is enabled however, it can be disabled
+   in the :doc:`Post Processing Panel </render/post_process/panel>`.
