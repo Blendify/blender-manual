@@ -15,7 +15,7 @@ The *Mouse Sensor* detects mouse events.
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 The controller consist only of a list of types of mouse events.
 A ``FALSE`` pulse is given when any of these conditions ends.

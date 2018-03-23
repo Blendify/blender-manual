@@ -16,7 +16,7 @@ by deviating the objects course.
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Behavior
    Seek, Flee or Path following

@@ -16,7 +16,7 @@ It is only visible when an armature is selected, because the actions are stored 
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Action Playback Type
    Play

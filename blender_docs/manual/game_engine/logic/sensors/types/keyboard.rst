@@ -16,7 +16,7 @@ It can also save keyboard input to a :ref:`String property <game-engine-property
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Key
    This field detects presses on a named key.

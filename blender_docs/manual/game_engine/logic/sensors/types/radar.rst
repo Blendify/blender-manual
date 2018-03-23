@@ -28,7 +28,7 @@ This sensor is useful for giving bots sight only in front of them, for example.
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Property
    This field can be used to limit the sensor to look for only those objects with this property.

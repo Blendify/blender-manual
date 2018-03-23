@@ -18,6 +18,8 @@ the :doc:`Logic Editor </editors/logic_editor>` details of this process are give
 in the :doc:`Sensor Editing </game_engine/logic/sensors/editing>` page.
 
 
+.. _game-engine-logic-sensors-common-options:
+
 Common Options
 ==============
 

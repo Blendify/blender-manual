@@ -15,7 +15,7 @@ The *Camera Actuator* makes the camera follow or track an object.
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Camera Object
    Name of the Game Object that the camera follows/tracks.

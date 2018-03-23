@@ -12,6 +12,8 @@ the :doc:`Logic Editor </editors/logic_editor>`; details of this process are giv
 in the :doc:`Actuator Editing </game_engine/logic/actuators/editing>` page.
 
 
+.. _game-engine-logic-actuators-common-options:
+
 Common Options
 ==============
 

@@ -22,7 +22,7 @@ Leave blank for collision detection with any object.
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Pulse button
    Makes it sensible to other collisions even if it is still in touch

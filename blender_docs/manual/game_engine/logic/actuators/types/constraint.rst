@@ -11,7 +11,7 @@ This is useful for controlling the physics of the object in game.
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Constraint Mode
    Constraint type to use. Each is described below.

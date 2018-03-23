@@ -11,7 +11,7 @@ Simple or Servo, in which the object can either teleport and rotate, or dynamica
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Motion Type
    Determines the type of motion:

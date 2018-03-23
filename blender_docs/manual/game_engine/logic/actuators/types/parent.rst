@@ -15,7 +15,7 @@ The *Parent Actuator* enables the user to change the parent relationships of the
 Properties
 ==========
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+
 
 Scene
    The type of parenting operation.

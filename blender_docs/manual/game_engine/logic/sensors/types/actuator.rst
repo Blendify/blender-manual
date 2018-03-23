@@ -17,7 +17,7 @@ The sensor also sends a ``FALSE`` pulse when the specified actuator is deactivat
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Actuator
    Name of actuator (n.b. this must be owned by the same object).

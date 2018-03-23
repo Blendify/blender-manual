@@ -22,6 +22,6 @@ forms the background and the highest the foreground.
 
 
 This region is were strips can be :doc:`selected </editors/vse/sequencer/selecting>`,
-doc:`modified </editors/vse/sequencer/selecting>` by moving, cutting, or extending, strips.
-There are also several built in doc:`effects </editors/vse/sequencer/strips/effects/index>
+:doc:`modified </editors/vse/sequencer/selecting>` by moving, cutting, or extending, strips.
+There are also several built in :doc:`effects </editors/vse/sequencer/strips/effects/index>
 that can be combined with other strips to change their appearance.

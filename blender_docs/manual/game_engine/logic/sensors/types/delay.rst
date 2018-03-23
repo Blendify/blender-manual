@@ -16,7 +16,7 @@ This is useful if an other action has to be done first or to time events.
 Properties
 ==========
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+See :ref:`Sensor Common Options <game-engine-logic-sensors-common-options>` for common options.
 
 Delay
    The number of logic ticks the sensor waits before sending a positive pulse.
