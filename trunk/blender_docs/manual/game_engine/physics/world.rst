@@ -1,4 +1,3 @@
-..    TODO/Review: {{Review|partial=x|im=needs images?}}.
 
 *************
 World Physics

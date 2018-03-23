@@ -471,7 +471,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    MIS
    Multiple Importance Sampling
-      *TODO (brief description).*
+      A process of estimating the direction of light rays to improve sampling quality.
 
       See: :ref:`render-cycles-reducing-noise-mis`
 
