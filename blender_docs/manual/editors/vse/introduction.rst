@@ -32,5 +32,5 @@ the third button displays both the Sequencer and the Preview.
 
 .. note::
 
-   By default the Sequencer is enabled however, it can be disabled
+   By default the Sequencer is enabled, however, it can be disabled
    in the :doc:`Post Processing Panel </render/post_process/panel>`.

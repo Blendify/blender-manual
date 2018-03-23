@@ -21,8 +21,6 @@ The *Visibility Actuator* allows the user to change the visibility of objects du
 Properties
 ==========
 
-
-
 Visible
    Toggle checkbox to toggle visibility.
 Occlusion

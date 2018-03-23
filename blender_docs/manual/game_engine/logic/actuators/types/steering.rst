@@ -16,8 +16,6 @@ by deviating the objects course.
 Properties
 ==========
 
-
-
 Behavior
    Seek, Flee or Path following
 Target Object

@@ -11,8 +11,6 @@ This is useful for controlling the physics of the object in game.
 Properties
 ==========
 
-
-
 Constraint Mode
    Constraint type to use. Each is described below.
 

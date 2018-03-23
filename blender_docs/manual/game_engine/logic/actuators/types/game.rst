@@ -16,8 +16,6 @@ game-specific functions, such as restart, quit, and load.
 Properties
 ==========
 
-
-
 Game
    Load ``bge.logic.globalDict``
       Load ``bge.logic.globalDict`` from ``.bgeconf``.

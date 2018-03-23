@@ -23,8 +23,6 @@ and performing operations upon them.
 Properties
 ==========
 
-
-
 Operation
    Change State
       Change from the current state to the state specified.

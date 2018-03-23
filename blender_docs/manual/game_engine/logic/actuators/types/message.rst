@@ -16,8 +16,6 @@ and between scenes themselves, which can be received by other objects to activat
 Properties
 ==========
 
-
-
 To
    Object to broadcast to. Leave blank if broadcast to all (or sending to another scene).
 Subject

@@ -12,8 +12,6 @@ It can also change the mesh of an object (and soon also recreate the collision m
 Properties
 ==========
 
-
-
 Edit Object
    How the object is modified, each is described below.
 

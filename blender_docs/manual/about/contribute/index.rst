@@ -43,7 +43,7 @@ Guidelines
 
    guides/markup_guide.rst
    guides/writing_guide.rst
-   guides/maintence_guide.rst
+   guides/maintenance_guide.rst
 
 
 Translations

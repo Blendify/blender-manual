@@ -1,3 +1,4 @@
+.. highlight:: sh
 
 ***********
 Maintenance
@@ -20,4 +21,6 @@ It is best to avoid moving/renaming files as this breaks URLs and without
 this script translators will lose all their work in these files. Please ask
 an administrator if you think something should be renamed/moved.
 
-.. note:: This script also works for image file names.
+.. note::
+
+   This script also works for image file names.

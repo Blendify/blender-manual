@@ -338,7 +338,7 @@ Active Keying Set
    They are made so the user can record multiple properties at the same time.
    With a keying set selected, when you insert a keyframe,
    Blender will add keyframes for the properties in the active *Keying Set*.
-   There are some built in keying sets, *LocRotScale*, and also custom keying sets.
+   There are some built-in keying sets, *LocRotScale*, and also custom keying sets.
    Custom keying sets can be defined in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 
