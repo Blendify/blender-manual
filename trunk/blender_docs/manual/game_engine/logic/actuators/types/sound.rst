@@ -84,5 +84,3 @@ Cone Inner Angle
 
 Example
 =======
-
-TODO.

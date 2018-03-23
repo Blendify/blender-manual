@@ -43,5 +43,3 @@ Distance
 
 Example
 =======
-
-TODO.

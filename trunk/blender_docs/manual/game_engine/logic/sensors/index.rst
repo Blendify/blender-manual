@@ -9,7 +9,6 @@
 
    introduction.rst
    editing.rst
-   common_options.rst
 
 
 Sensor Types

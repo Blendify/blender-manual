@@ -38,5 +38,3 @@ X-Ray Mode button
 
 Example
 =======
-
-TODO.

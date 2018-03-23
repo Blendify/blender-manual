@@ -44,5 +44,3 @@ Target
 
 Example
 =======
-
-TODO.

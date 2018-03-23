@@ -25,5 +25,3 @@ Actuator
 
 Example
 =======
-
-TODO.

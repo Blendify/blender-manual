@@ -61,5 +61,3 @@ Layer Weight
 
 Example
 =======
-
-TODO.

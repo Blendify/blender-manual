@@ -40,5 +40,3 @@ Test
 
 Example
 =======
-
-TODO.

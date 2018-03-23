@@ -29,5 +29,3 @@ Subject
 
 Example
 =======
-
-TODO.

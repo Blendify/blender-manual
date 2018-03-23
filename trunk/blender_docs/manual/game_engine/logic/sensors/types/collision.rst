@@ -33,5 +33,3 @@ M/P button
 
 Example
 =======
-
-TODO.

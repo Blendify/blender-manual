@@ -98,5 +98,3 @@ Specifies the *button number* to use.
 
 Example
 =======
-
-TODO.

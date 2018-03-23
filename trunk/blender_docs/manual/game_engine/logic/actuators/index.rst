@@ -10,7 +10,6 @@
 
    introduction.rst
    editing.rst
-   common_options.rst
 
 
 Actuators Types

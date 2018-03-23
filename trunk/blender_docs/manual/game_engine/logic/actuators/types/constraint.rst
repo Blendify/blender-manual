@@ -136,5 +136,3 @@ Damping
 
 Examples
 ========
-
-TODO.
