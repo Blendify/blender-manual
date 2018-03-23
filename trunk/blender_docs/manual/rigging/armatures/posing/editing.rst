@@ -1,5 +1,3 @@
-..    TODO/Review: {{review|im=update}}.
-
 .. |copy-paste| image:: /images/rigging_armatures_posing_editing_copy-paste.png
 
 *******

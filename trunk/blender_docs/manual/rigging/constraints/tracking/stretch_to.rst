@@ -1,5 +1,3 @@
-..    TODO/Review: {{review|im=examples}}.
-
 .. _bpy.types.StretchToConstraint:
 
 *********************
