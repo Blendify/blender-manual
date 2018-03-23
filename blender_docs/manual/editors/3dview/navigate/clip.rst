@@ -1,7 +1,12 @@
 
-********
-Clipping
-********
+*******
+Borders
+*******
+
+.. seealso::
+
+   :ref:`3dview-nav-zoom-border`.
+
 
 View Clipping Border
 ====================
@@ -64,6 +69,8 @@ Once clipping is deactivated with another :kbd:`Alt-B`,
 all of 3D space will become visible again.
 
 
+.. _editors-3dview-navigate-borders-render:
+
 Render Border
 =============
 
@@ -72,14 +79,17 @@ Render Border
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Render Border...`
+   |           :menuselection:`View --> Clear Render Border`
    | Hotkey:   :kbd:`Ctrl-B`, :kbd:`Ctrl-Alt-B`
 
-Rectangular camera space clipping in and outside the Camera view.
-ToDo add.
+When using :ref:`rendered shading  <view3d-viewport-shading>` mode,
+it can be quite slow to render the entire 3D View. To fix this,
+you can define a render border to render just a portion of the viewport
+instead of the entire viewport. A render border is defined by :kbd:`Ctrl-B`
+and can be removed with :kbd:`Ctrl-Alt-B`.
 
-.. seealso::
+.. tip::
 
-   :ref:`3dview-nav-zoom-border`.
-
-.. (todo remove)? redundant info for the 'View Clipping Border' functionality.
-   Split the page and separate 'Render Border' and create text for this usage context.
+   You can also use this border in a final render by setting a render border
+   from within the :doc:`Camera View </3dview/navigate/camera_view>` and enabling
+   :ref:`Border <render-output-dimensions-border>` in the dimensions panel.

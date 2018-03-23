@@ -7,6 +7,7 @@ The 3D View has several "contextual view" modes that can be set for a particular
 These views can change how the overall 3D View looks or how you interact with objects.
 
 .. _bpy.ops.view3d.localview:
+.. _editors-3dview-navigat-views-local:
 
 View Global/Local
 =================
