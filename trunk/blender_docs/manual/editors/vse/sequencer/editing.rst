@@ -210,14 +210,6 @@ Mute Deselected Strips :kbd:`Shift-H`
    You can mute all strips but the selected.
 
 
-.. (todo move) to header
-
-Copy and Paste
-==============
-
-You can copy a clip and paste it using the two header buttons.
-
-
 .. _sequencer-edit-change:
 
 Change
