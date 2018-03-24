@@ -1,5 +1,3 @@
-..    TODO/Review: {{review|text=This needs a complete rewrite}}.
-
 .. _bpy.types.PivotConstraint:
 
 ****************
@@ -7,8 +5,8 @@ Pivot Constraint
 ****************
 
 The *Pivot* constraint allows the owner to rotate around a target object.
-
-It was originally intended for foot rigs.
+It was originally intended for pivot joints found in humans e.g. fingers,
+feet, elbows, ect.
 
 
 Options
@@ -24,6 +22,7 @@ Pivot Offset
    Offset of pivot from target.
 Pivot When
    Always, Z Rot, Y Rot...
+      Todo.
 
 
 Example

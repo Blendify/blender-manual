@@ -96,7 +96,10 @@ Clump
 Shape
    Form of *Clump*. Either inverse parabolic (0.99) or exponentially (-0.99).
 Use Clump Noise
-   Todo 2.74.
+   Creates random clumps around the parent hair.
+
+   Clump Noise Size
+      The size of the clumps.
 
 Length
    Length of child paths.
