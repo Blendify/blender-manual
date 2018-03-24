@@ -58,7 +58,7 @@ So, each stroke you draw will be a chain of bones, oriented from the starting po
 (the reddest or most orange part of the stroke) to its end (its whitest part).
 A stroke is made of several segments, delimited by small black dots.
 There will be at least one bone per segment (except with the
-:ref:`Template <rigging-armatures-bones-editing-sketching-converting-templating>`conversion method),
+:ref:`Template <rigging-armatures-bones-editing-sketching-converting-templating>` conversion method),
 so all black points represents future bones' joints.
 There are two types of segments, which can be mixed together:
 
@@ -192,6 +192,8 @@ but rather create a new one, as if *Overdraw Sketching* was disabled.
 
    There is no undo/redo for sketch drawing.
 
+
+.. _bone-sketching-gestures:
 
 Gestures
 ========

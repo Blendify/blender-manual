@@ -49,7 +49,7 @@ Displacement
    These Options are only available if :ref:`Experimental Feature Set <cycles-experimental-features>` is turned on.
 
 Displacement Method
-   Method used perform :doc:`Displacement </render/cycles/materials/displacement>` on materials.
+   Method used to perform :doc:`Displacement </render/cycles/materials/displacement>` on materials.
 
    Displacement Only
       Mesh vertices will be displaced before rendering, modifying the actual mesh.

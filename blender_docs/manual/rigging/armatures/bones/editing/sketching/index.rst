@@ -1,5 +1,5 @@
 
-.. Will likely be removed in 2.8 (dont waste much time here)
+.. Will likely be removed in 2.8 (don't waste much time here)
 .. _bpy.ops.sketch:
 
 ******************

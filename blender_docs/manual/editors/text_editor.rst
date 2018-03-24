@@ -44,8 +44,8 @@ Show
 Run Script/ Script Node Update
    Executes the text as a Python script :kbd:`Alt-P`. See `Script and Templates`_.
 Register
-   Registers the current text data-block as a module on loading (text name must end with '.py').
-   Read more about the registration of python modules in
+   Registers the current text data-block as a module on loading (the text name must end with '.py').
+   Read more about the registration of Python modules in
    `API documentation <https://docs.blender.org/api/2.79/info_overview.html#registration>`__.
 Label
    This Label shows, if the text is saved internal or external and
@@ -120,9 +120,9 @@ Template
 Script and Templates
 --------------------
 
-The most notable keystroke is :kbd:`Alt-P` which makes the content of the buffer being parsed by the internal Python
-interpreter built into Blender.
-Before going on it is worth noticing that Blender comes with a fully functional Python interpreter built in,
+The most notable keystroke is :kbd:`Alt-P` which makes the content of the buffer
+being parsed by the internal Python interpreter built into Blender.
+Before going on it is worth noticing that Blender comes with a fully functional Python interpreter built-in,
 and with a lots of Blender-specific modules,
 as described in the :doc:`/advanced/scripting/index` section.
 
