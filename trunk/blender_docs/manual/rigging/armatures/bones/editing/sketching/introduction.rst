@@ -1,10 +1,7 @@
-..    TODO/Review: {{review|im=some images need updated|text=retarget conversion method}}.
 
-.. _bpy.ops.sketch:
-
-******************
-Skeleton Sketching
-******************
+************
+Introduction
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -34,7 +31,8 @@ to *Skeleton Sketching* to start drawing bone chains
 Sketching is done in two steps:
 
 #. `Drawing Chains`_ (called "strokes"). Each stroke corresponds to a chain of bones.
-#. `Converting to Bones`_, using different methods.
+#. :doc:`Converting to Bones </rigging/armatures/bones/editing/sketching/converting>`,
+   using different methods.
 
 The *point of view* is important, as it determines the future bones' roll angle:
 the Z axis of a future bone will be aligned with the view Z axis of the 3D View in
@@ -59,9 +57,8 @@ Drawing Chains
 So, each stroke you draw will be a chain of bones, oriented from the starting point
 (the reddest or most orange part of the stroke) to its end (its whitest part).
 A stroke is made of several segments, delimited by small black dots.
-There will be at least one bone per segment
-(except with the *Template* conversion method,
-see :doc:`next page </rigging/armatures/bones/editing/templating>`),
+There will be at least one bone per segment (except with the
+:ref:`Template <rigging-armatures-bones-editing-sketching-converting-templating>`conversion method),
 so all black points represents future bones' joints.
 There are two types of segments, which can be mixed together:
 
@@ -273,117 +270,3 @@ draw a "C" crossing twice the stroke to reverse.
      - .. figure:: /images/rigging_armatures_bones_editing_sketching_gestures-reverse-2.png
 
           Result.
-
-
-Converting to Bones
-===================
-
-Once you have one or more selected strokes, you can convert them to bones, using either the *Convert*
-button of the *Bone Sketching* panel, or the corresponding gesture (see `Gestures`_).
-Each selected stroke will generate a chain of bones, oriented from its reddest end to its whitest one.
-Note that converting a stroke does not delete it.
-
-There are four different conversion methods with three "simple" ones, and one more advanced and complex,
-*Template*, that reuses bones from the same armature or from another
-one as a template for the strokes to convert, and which is detailed in
-:doc:`the next page </rigging/armatures/bones/editing/templating>`.
-Anyway, remember that straight segments are always converted to one and only one bone
-(except for the *Template* conversion method),
-and that the future bones' joints are shown as green dots on selected free segments.
-
-Remember also that the roll rotation of the created bones has been set during their "parent" stroke drawing
-(except for the *Template* conversion method) -- their Z axis will be aligned with the view
-Z axis of the active 3D View at draw time.
-
-
-Fixed
------
-
-With this method,
-each free segment of the selected strokes will be uniformly divided in *n* parts
-(set in *Number* number button), i.e. will give *n* bones.
-
-.. list-table::
-
-   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-fixed-1.png
-          :width: 320px
-
-          The Fixed conversion preview on selected strokes.
-
-     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-fixed-2.png
-          :width: 320px
-
-          The Fixed conversion result.
-
-
-Adaptive
---------
-
-With this method, each free segment of the selected strokes will create as many bones as
-necessary to follow its shape closely enough. This "closely enough" parameter being set by
-the *Threshold* number button; higher values giving more bones,
-following more closely the segments' shape.
-So the more twisted a free segment, the more bones it will generate.
-
-.. list-table::
-
-   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-adaptive-1.png
-          :width: 320px
-
-          The Adaptive conversion preview on selected strokes.
-
-     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-adaptive-2.png
-          :width: 320px
-
-          The Adaptive conversion result.
-
-
-Length
-------
-
-With this method,
-each free segment of the selected strokes will create as many bones as necessary,
-so that none of them is longer than the *Length* number button value
-(in Blender Units).
-
-.. list-table::
-
-   * - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-length-1.png
-          :width: 200px
-
-          The Length conversion preview on selected strokes.
-
-     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-length-2.png
-          :width: 200px
-
-          Using a larger length value.
-
-     - .. figure:: /images/rigging_armatures_bones_editing_sketching_convert-length-3.png
-          :width: 200px
-
-          The Length conversion result.
-
-
-Retarget
---------
-
-Retarget template bone chain to stroke.
-
-Template
-   Template armature that will be retargeted to the stroke.
-   This is a more complex topic, detailed in its :doc:`own page </rigging/armatures/bones/editing/templating>`.
-
-Retarget roll mode
-   None
-      Do not adjust roll.
-   View
-      Roll bones to face the view.
-   Joint
-      Roll bone to original joint plane offset.
-
-Autoname
-   Todo.
-Number
-   Todo.
-Side
-   Todo.
