@@ -9,7 +9,7 @@ Flip Node
 
    Flip Node.
 
-This node flips an image at defined axis .
+This node flips an image at defined axis.
 
 You can use this node to just flip or use it as a part of mirror setting.
 Mix half of the image to be mirrored with its flipped version to produce mirrored image.

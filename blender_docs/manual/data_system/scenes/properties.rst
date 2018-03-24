@@ -196,7 +196,7 @@ in the :ref:`User Preferences <prefs-system-sound>`.
 
 Channels
    Sets the audio channel count. Available options are:
-   *Mono*, *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*.
+   *Mono*, *Stereo*, *4 Channels*, *5.1 Surround*, *7.1 Surround*.
 Mix Rate
    Sets the audio `sampling rate <https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_rate>`__.
 

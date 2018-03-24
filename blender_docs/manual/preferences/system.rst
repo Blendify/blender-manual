@@ -63,10 +63,10 @@ and :ref:`Audio Panel <data-scenes-audio>`.
 
 Channels
    Sets the audio channel count. Available options are:
-   *Mono*, *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*.
+   *Mono*, *Stereo*, *4 Channels*, *5.1 Surround*, *7.1 Surround*.
 Mixing Buffer
    Sets the number of samples used by the audio mixing buffer. Available options are:
-   *512* , *1024* , *2048*, *4096* , *8192*, *16384*, and *32768*.
+   *512*, *1024*, *2048*, *4096*, *8192*, *16384*, and *32768*.
 Sample Rate
    Sets the audio `sampling rate <https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_rate>`__.
    Available options are: *44.1 Khz*, *48 Khz*, *96 Khz* and *192 Khz*.

@@ -20,7 +20,7 @@ by pressing :kbd:`Shift-Ctrl-LMB` on it.
 Inputs
 ======
 
-see :doc:`Composite Node </compositing/types/output/composite>`.
+See :doc:`Composite Node </compositing/types/output/composite>`.
 
 
 Properties
@@ -31,7 +31,7 @@ Tile order
    the viewer node (*Properties* panel in Properties region, with the viewer node selected):
 
    Rule of thirds
-      Calculates tiles around each of the nine zones defined by the *rule of thirds* .
+      Calculates tiles around each of the nine zones defined by the *rule of thirds*.
    Bottom up
       Tiles are calculated from the bottom up.
    Random

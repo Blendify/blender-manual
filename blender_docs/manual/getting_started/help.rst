@@ -89,7 +89,7 @@ Release Log
 Blender Website
    The `blender.org <https://www.blender.org/>`__ home page.
 Blender Store
-   The `Blender Store <https://store.blender.org/>`__ , where you can buy
+   The `Blender Store <https://store.blender.org/>`__, where you can buy
    Training DVD's, books, t-shirts and other products.
 Developer Community
    The *blender.org* `Get Involved <https://www.blender.org/get-involved/>`__ page.

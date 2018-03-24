@@ -160,7 +160,7 @@ Smoothing
    | Menu:     :menuselection:`Key --> Smooth Keys`
    | Hotkey:   :kbd:`Alt-O`
 
-There is also an option to smooth the selected curves , but beware: its algorithm seems to be
+There is also an option to smooth the selected curves, but beware: its algorithm seems to be
 to divide by two the distance between each keyframe and the average linear value of the curve,
 without any setting, which gives quite a strong smoothing! Note that the first and last keys
 seem to be never modified by this tool.
