@@ -61,7 +61,7 @@ Image
 
 .. note::
 
-   Does not work when reading from a multilayer OpenEXR sequence set
+   Does not work when reading from a multilayer OpenEXR sequence set.
 
 
 Example

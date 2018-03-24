@@ -54,7 +54,7 @@ Baking always starts at Frame #1
 Baking always ends at the *End* Frame set in the *Animation* panel
    If your frame-rate is 25 frames per second,
    and ending time is 4.0 seconds, then you should (if your start time is 0)
-   set your animation to end at frame ``4.0 × 25 = 100``
+   set your animation to end at frame ``4.0 × 25 = 100``.
 
 Freeing the previous baked solutions
    Deleting the content of the "Bake" directory is a destructive way to achieve this.

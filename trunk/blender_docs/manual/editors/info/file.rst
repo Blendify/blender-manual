@@ -49,7 +49,7 @@ External Data
    External data, like texture images and other resources,
    can be stored inside the .blend file (packed) or as separate files (unpacked).
    Blender keeps track of all unpacked resources via a relative or absolute path.
-   See :ref:`pack or unpack external Data <pack-unpack-data>`
+   See :ref:`pack or unpack external Data <pack-unpack-data>`.
 
    Automatically Pack Into .blend
       This option activates the file packing.

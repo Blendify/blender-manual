@@ -75,7 +75,7 @@ This becomes especially problematic on dense geometry.
 Possible Solutions:
 
 OpenGL Occlusion Queries (User Preferences)
-   See :menuselection:`User Preferences --> System --> Selection`
+   See :menuselection:`User Preferences --> System --> Selection`.
 
    This option defaults *Automatic*, try setting this to *OpenGL Occlusion Queries*,
    since there is a significant performance difference under some configurations.

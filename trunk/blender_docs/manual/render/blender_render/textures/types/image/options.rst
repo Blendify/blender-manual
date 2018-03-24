@@ -129,7 +129,7 @@ Filter
       different algorithms can be used to compute a value for each pixel based on samples from several texels.
 
       Box
-         A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
+         A fast and simple nearest-neighbor interpolation known as Monte Carlo integration.
       EWA (Elliptical Weighted Average)
          One of the most efficient direct
          convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.
@@ -137,7 +137,7 @@ Filter
          footprint and then divides the result by the sum of the weights.
 
          Eccentricity
-            Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
+            Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower.
       FELINE (Fast Elliptical Lines)
          Uses several isotropic probes at several points along a line in texture space to produce an anisotropic
          filter to reduce aliasing artifacts without considerably increasing rendering time.

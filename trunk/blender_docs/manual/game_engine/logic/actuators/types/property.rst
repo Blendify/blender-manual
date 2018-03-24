@@ -18,7 +18,7 @@ Properties
 
 Mode
    Assign
-      The *Property* target property will become equal to the set *Value* once the actuator is activated
+      The *Property* target property will become equal to the set *Value* once the actuator is activated.
    Add
       Adds *Value* to the value of the property *Property* once the actuator is activated
       (enter a negative value to decrease).

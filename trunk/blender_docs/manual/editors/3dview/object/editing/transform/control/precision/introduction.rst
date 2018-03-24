@@ -85,7 +85,7 @@ cause movement to happen by increments of 10 BU, 100 BU, etc.
 
 .. seealso::
 
-   :doc:`Read more about Zooming </editors/3dview/navigate/introduction>`
+   Read more about :doc:`zooming </editors/3dview/navigate/introduction>`.
 
 
 Rotation
@@ -104,7 +104,7 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
    Note that if you have a :ref:`Snap Element <transform-snap-element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
-   :doc:`Read more about Snapping </editors/3dview/object/editing/transform/control/snap>`
+   Read more about :doc:`snapping </editors/3dview/object/editing/transform/control/snap>`.
 
 
 Precision

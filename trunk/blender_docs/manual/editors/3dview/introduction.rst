@@ -54,16 +54,16 @@ Mode
 
 Viewport Shading
    Allows you to change the way objects are displayed in the viewport.
-   :doc:`Read more about the different shading modes </editors/3dview/properties/shading>`.
+   Read more about the different :doc:`shading modes </editors/3dview/properties/shading>`.
 Pivot Point
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
-   :doc:`Read more about Pivot Points </editors/3dview/object/editing/transform/control/pivot_point/index>`.
+   Read more about :doc:`Pivot Points </editors/3dview/object/editing/transform/control/pivot_point/index>`.
 Transform Manipulator
    These handy selectors allow you to rotate or move objects by grabbing
    (clicking with your mouse) their controls and moving your mouse in the axis.
 
-   :doc:`Read more about Transform Manipulators </editors/3dview/object/editing/transform/control/manipulators>`.
+   Read more about :doc:`Transform Manipulators </editors/3dview/object/editing/transform/control/manipulators>`.
 Layer
    The Layers Widget is documented in the :doc:`Layers page </editors/3dview/object/properties/relations/layers>`.
 Lock to Scene
@@ -80,7 +80,7 @@ Lock to Scene
    Or to have several views with different active cameras. Remember that you can use
    :kbd:`Ctrl-Numpad0` to make the active object the active camera.
 
-   :doc:`Read more about Scenes </data_system/scenes/introduction>`
+   Read more about :doc:`Scenes </data_system/scenes/introduction>`.
 Proportional Edit
    :doc:`Proportional Edit </editors/3dview/object/editing/transform/control/proportional_edit>`.
 Snap

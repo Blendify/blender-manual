@@ -14,7 +14,7 @@ The checker node creates a checkerboard pattern.
 Inputs
 ======
 
-color 1, color 2
+Color 1, Color 2
    Image inputs setting the color of the squares.
 Size
    The scale of the checker pattern.
