@@ -7,8 +7,6 @@
  *     https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
  */
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i';
-
 h5 {margin-bottom: 5px}
 
 /* sidebar menu links */
@@ -247,7 +245,7 @@ a.external {color:#656AE0;}
 }
 .descr .figure img{
 	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-	transition: box-shadow 0.33s;	
+	transition: box-shadow 0.33s;
 }
 .descr .figure img:hover{box-shadow: none}
 
@@ -316,7 +314,7 @@ a.external {color:#656AE0;}
 	text-align: center;
 	padding: 3px 10px;
 	margin: 0 5px;
-	vertical-align: middle; 
+	vertical-align: middle;
 	z-index: 400;
 	transition: border-color 0.4s;
 }
