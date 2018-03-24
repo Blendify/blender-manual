@@ -5,8 +5,8 @@ Pivot Constraint
 ****************
 
 The *Pivot* constraint allows the owner to rotate around a target object.
-It was originally intended for pivot joints found in humans e.g. fingers,
-feet, elbows, ect.
+It was originally intended for pivot joints found in humans
+e.g. fingers, feet, elbows, etc.
 
 
 Options

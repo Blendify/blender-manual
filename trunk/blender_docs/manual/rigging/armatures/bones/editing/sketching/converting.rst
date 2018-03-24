@@ -5,7 +5,7 @@ Converting to Bones
 
 Once you have one or more selected strokes, you can convert them to bones,
 using either the *Convert* button of the *Bone Sketching* panel,
-or the corresponding gesture (see `Gestures`_).
+or the corresponding gesture (see :ref:`bone-sketching-gestures`).
 Each selected stroke will generate a chain of bones,
 oriented from its reddest end to its whitest one.
 Note that converting a stroke does not delete it.
@@ -13,8 +13,8 @@ Note that converting a stroke does not delete it.
 There are four different conversion methods with three "simple" ones,
 and one more advanced and complex, *Template*,
 that reuses bones from the same armature or from another
-one as a template for the strokes to convert, and which is detailed in
-:doc:`the next page </rigging/armatures/bones/editing/templating>`.
+one as a template for the strokes to convert, and which is detailed in the `Templating`_ section.
+
 Anyway, remember that straight segments are always converted to one and only one bone
 (except for the *Template* conversion method),
 and that the future bones' joints are shown as green dots on selected free segments.
@@ -126,7 +126,7 @@ to create a new armature. It differs from a simple copy in that you can directly
 the new armature different in some aspects than its reference rig.
 
 In Blender, the only templating tool is the bone sketching one
-(Etch-a-ton, described in :doc:`the previous page </rigging/armatures/bones/editing/sketching>`),
+(Etch-a-ton, described in :doc:`the previous page </rigging/armatures/bones/editing/sketching/introduction>`),
 with its *Template* conversion method, so you should have read its page before this one!
 
 The *Template* conversion method of *Bone Sketching* tool maps a copy of
