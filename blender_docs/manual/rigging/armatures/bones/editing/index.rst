@@ -14,5 +14,4 @@
    naming.rst
    parenting.rst
    properties.rst
-   sketching.rst
-   templating.rst
+   sketching/index.rst

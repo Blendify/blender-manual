@@ -1,10 +1,8 @@
-..    TODO/Review: {{review|copy=X}}.
+.. _armature-bone-properties:
 
 **********
 Properties
 **********
-
-.. _armature-bone-properties:
 
 .. admonition:: Reference
    :class: refbox
