@@ -19,11 +19,11 @@ Maybe
 
 Hyperlinks
    Can be translated, but only as an addition, not as a replacement.
-   See also `Adding Text`_
+   See also `Adding Text`_.
 
 Technical Terms
    Only translate these, when the localized expression is common!
-   See also `Technical Terms`_
+   See also `Technical Terms`_.
 
 Text you are not sure you understood
    Simply mark the text as fuzzy and/or add a comment.

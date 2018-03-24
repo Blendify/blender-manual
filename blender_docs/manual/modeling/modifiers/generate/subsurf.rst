@@ -89,7 +89,7 @@ Options
 
    Optimal Display
       When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped
-      (only draws the edges of the original geometry)
+      (only draws the edges of the original geometry).
    Opensubdiv
       See the `OpenSubdiv`_ section.
 
@@ -177,7 +177,7 @@ because the render is generated using your Object Data,
 
    To improve performance in the viewport try enabling `OpenSubdiv`_
    or if you are using the Cycles Renderer consider using
-   :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`
+   :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`.
 
 
 Keyboard Shortcuts

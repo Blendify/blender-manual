@@ -22,7 +22,7 @@ Parents
    Children have a lot of different deformation options,
    so the straight parents would stand between their curly children.
    So by default *Parents* are not rendered if you activate *Children*.
-   See :doc:`Children </physics/particles/emitter/children>`
+   See :doc:`Children </physics/particles/emitter/children>`.
 
 Unborn
    Render particles before they are born.

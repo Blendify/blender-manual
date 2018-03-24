@@ -31,11 +31,11 @@ Type
    Soften
       Slightly blurs the image.
    Sharpen
-      Increases the contrast, especially at edges
+      Increases the contrast, especially at edges.
    Laplace
-      Softens around edges
+      Softens around edges.
    Sobel
-      Creates a negative image that highlights edges
+      Creates a negative image that highlights edges.
    Prewitt
       Tries to do Sobel one better.
    Kirsch

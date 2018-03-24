@@ -30,7 +30,7 @@ Hotkey letters are shown in this manual like they appear on a keyboard; for exam
 :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Alt`
    are specified as modifier keys.
 :kbd:`Ctrl-W`, :kbd:`Shift-Alt-A`, ...
-   indicates that these keys should be pressed simultaneously
+   indicates that these keys should be pressed simultaneously.
 :kbd:`Numpad0` to :kbd:`Numpad9`, :kbd:`NumpadPlus`
    refer to the keys on the separate numeric keypad.
 

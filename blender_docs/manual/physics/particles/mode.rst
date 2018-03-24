@@ -152,7 +152,7 @@ Add
    Interpolate
       Interpolate the shape of new hairs from existing ones.
    Steps
-      Amount of brush steps
+      Amount of brush steps.
    Keys
       How many keys to make new particles with.
 Length
