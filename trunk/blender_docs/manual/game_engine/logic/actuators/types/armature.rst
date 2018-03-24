@@ -19,7 +19,7 @@ Properties
 ==========
 
 Constraint Type
-   Action to preform on the bone constraint.
+   Action to perform on the bone constraint.
 
    Run Armature
       TODO.
