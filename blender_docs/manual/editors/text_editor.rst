@@ -44,7 +44,9 @@ Show
 Run Script/ Script Node Update
    Executes the text as a Python script :kbd:`Alt-P`. See `Script and Templates`_.
 Register
-   Todo <2.64.
+   Registers the current text data-block as a module on loading (text name must end with '.py').
+   Read more about the registration of python modules in
+   `API documentation <https://docs.blender.org/api/2.79/info_overview.html#registration>`__.
 Label
    This Label shows, if the text is saved internal or external and
    if there are unsaved changes to an external file.
