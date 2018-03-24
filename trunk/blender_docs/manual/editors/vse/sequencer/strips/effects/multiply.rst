@@ -14,7 +14,7 @@ Blender uses values between (0.0 to 1.0) for the colors,
 this operation does not have to be normalized, the multiplication of two terms
 between (0.0 to 1.0) always gives a result between (0.0 to 1.0).
 
-(with the "traditional" representation of three bytes, like RGB(124, 255, 56) ,
+(with the "traditional" representation of three bytes, like RGB(124, 255, 56),
 the multiplications give far too high results, like RGB(7316, 46410, 1848),
 that have to be, normalized (brought back) by dividing them by 256
 to fit in the range of (0 to 255) ...).

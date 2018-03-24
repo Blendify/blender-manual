@@ -197,7 +197,7 @@ Audio Muted
    Mute the sound from Sequence Editors.
 Audio Scrubbing
    If your animation has sound, this option plays bits of the sound wave
-   while you move the time cursor with :kbd:`LMB` or keyboard arrows (like a moving playhead) .
+   while you move the time cursor with :kbd:`LMB` or keyboard arrows (like a moving playhead).
 
 
 .. _animation-editors-timeline-headercontrols:

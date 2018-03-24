@@ -8,7 +8,7 @@ Follow Track Constraint
 
    Follow Track Constraint panel.
 
-By default Follow Track constraint is making objects have the same position at a frame as the track has and
+By default the Follow Track constraint is making objects have the same position at a frame as the track has and
 the motion of this object happens on a single plane defined by the camera and the original position of the object.
 
 Active Clip

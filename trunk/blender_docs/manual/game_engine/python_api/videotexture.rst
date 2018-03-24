@@ -118,7 +118,7 @@ The constructor takes one mandatory and three optional arguments:
 ``textureObj``
    Reference to another ``Texture`` object of which we want to reuse the texture.
    If we use this argument,
-   we should not create any source on this texture and there is no need to refresh it either ;
+   we should not create any source on this texture and there is no need to refresh it either;
    the other ``Texture`` object will provide the texture for both materials/textures.
 
 .. code-block:: python

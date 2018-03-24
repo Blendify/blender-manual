@@ -81,7 +81,7 @@ Faces
 
 To select parts of a mesh face-wise, you have to switch to Face Select Mode.
 Do this by clicking the button shown above, or press :kbd:`Ctrl-Tab` to spawn a menu.
-The selection works as usual with :kbd:`RMB` ;
+The selection works as usual with :kbd:`RMB`;
 to add/remove to an existing selection, additionally press :kbd:`Shift`.
 The Border, Circle and Lasso Selection Tools must intersect the face indicators
 usually represented by small pixel squares; one at the center of each face.

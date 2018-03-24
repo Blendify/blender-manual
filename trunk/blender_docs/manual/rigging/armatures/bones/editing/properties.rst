@@ -32,7 +32,7 @@ Multiply Vertex Group by Envelope
    This will be detailed in the :doc:`skinning part </rigging/armatures/skinning/index>`.
 Inherit Rotation
    These settings affect the behavior of children bones while transforming their parent in *Pose Mode*,
-   so this will be detailed in the :doc:`posing part </rigging/armatures/posing/index>` !
+   so this will be detailed in the :doc:`posing part </rigging/armatures/posing/index>`!
 Inherit Scale
    ToDo <2.62.
 Lock

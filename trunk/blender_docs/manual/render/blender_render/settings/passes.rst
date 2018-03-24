@@ -37,7 +37,7 @@ Various things that are calculated in a standard render include:
   Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
 - Does an object have a normal vector (bumpmap)?
   Do shadows and apparent geometry need to be calculated for any objects?
-- Is there any specularity ? Are objects with textures such as metal shiny at all?
+- Is there any specularity? Are objects with textures such as metal shiny at all?
 
 The answer to each of the above questions is an image or map, as shown below:
 
@@ -219,7 +219,7 @@ Compositing Ambient Occlusion
 
 AO is a geometry-based dirt shader, making corners darker.
 It is separately enabled in the World settings and computed as a separate pass. When enabled,
-it has one of three Modes: *Add*, *Subtract* , *Both* and a variable *Energy* level
+it has one of three Modes: *Add*, *Subtract*, *Both*, and a variable *Energy* level
 (which changes the intensity of the shading).
 The third variable is the amount of Ambient light that the material receives.
 If it does not receive any, then ambient occlusion does not affect it.

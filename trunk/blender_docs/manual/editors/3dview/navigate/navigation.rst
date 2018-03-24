@@ -74,7 +74,7 @@ Panning
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation --> Pan`
-   | Hotkey:   :kbd:`Shift-MMB` , :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
+   | Hotkey:   :kbd:`Shift-MMB`, :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
                :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`
 
 Moves the view up, down, left and right.

@@ -3,7 +3,7 @@
 Tools
 *****
 
-Open the Tool Shelf in the 3D View or UV/Image Editor .
+Open the Tool Shelf in the 3D View or UV/Image Editor.
 
 
 Brush

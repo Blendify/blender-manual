@@ -34,8 +34,8 @@ Strength
 Hints
 =====
 
-Why would you use a lattice to deform a mesh instead of deforming the mesh itself in
-Edit Mode ? There are a couple of reasons for that:
+Why would you use a lattice to deform a mesh instead of deforming the mesh itself in Edit Mode?
+There are a couple of reasons for that:
 
 - If your object has a large number of vertices, it would be difficult to edit portions of it quickly in Edit Mode.
   Using a lattice will allow you to deform large portions efficiently.

@@ -226,7 +226,7 @@ Because this visualization type has so much options it is explained in greater d
 Align
    You can limit the movement with these options. How the axis is prealigned at emission time.
 
-   X, Y , Z
+   X, Y, Z
       Along the global X/Y/Z-axis respectively.
    View
       No prealignement, normal orientation to the target.

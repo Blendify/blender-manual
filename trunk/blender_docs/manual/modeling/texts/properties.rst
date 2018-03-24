@@ -124,7 +124,7 @@ Loading and Changing Fonts
    Loading a Type 1 font file.
 
 Blender comes with a *built-in* font by default that is displayed in
-each of the four font style data-block menus .
+each of the four font style data-block menus.
 The *built-in* font is always present and shows in this list as "Bfont".
 The data-block menu contains a list displaying the currently loaded fonts.
 Select one for each font style.
