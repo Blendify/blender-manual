@@ -31,13 +31,13 @@ Details About Selecting
 
 The following standard selection operations are supported:
 
-- :kbd:`RMB` - Single faces. Use :kbd:`Shift-RMB` to select multiple.
-- :kbd:`A` - All faces, also to de-select.
-- :kbd:`B` - Border selection.
-- :kbd:`C` - Circle select with brush.
-- :kbd:`L` - Pick linked (under the mouse cursor).
-- :kbd:`Ctrl-L` - Select linked.
-- :kbd:`Ctrl-I` - Invert selection *Inverse*.
+- :kbd:`RMB` -- Single faces. Use :kbd:`Shift-RMB` to select multiple.
+- :kbd:`A` -- All faces, also to de-select.
+- :kbd:`B` -- Border selection.
+- :kbd:`C` -- Circle select with brush.
+- :kbd:`L` -- Pick linked (under the mouse cursor).
+- :kbd:`Ctrl-L` -- Select linked.
+- :kbd:`Ctrl-I` -- Invert selection *Inverse*.
 
 .. tip:: Selecting Deform Groups
 

@@ -72,7 +72,7 @@ you will see that the Rotate Source is automatically checked and if :kbd:`Shift-
 it will be automatically unchecked.
 Examples:
 
-- Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. - Faces created with source automatically rotated).
+- Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. Faces created with source automatically rotated).
 - Creating Faces with shortcut :kbd:`Shift-Ctrl-LMB`, (see Fig. Faces created with no source rotation).
 
 If you have three or more vertices selected, and left click with mouse while pressing :kbd:`Ctrl-LMB`,
