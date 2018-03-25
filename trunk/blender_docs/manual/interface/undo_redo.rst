@@ -81,12 +81,12 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
    * - .. figure:: /images/interface_undo-redo_redo-last-object-mode.png
           :width: 310px
 
-          Redo Last - Rotation (Object Mode, 60 degrees).
+          Redo Last -- Rotation (Object Mode, 60 degrees).
 
      - .. figure:: /images/interface_undo-redo_redo-last-edit-mode.png
           :width: 310px
 
-          Redo Last - Scale (Edit Mode, Resize face).
+          Redo Last -- Scale (Edit Mode, Resize face).
 
 .. tip:: Operations using Redo Last
 

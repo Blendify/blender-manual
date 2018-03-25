@@ -171,18 +171,23 @@ additional controls are available to alter snap behavior. These options vary bet
      - Details
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_option-icon-rotation.png
           :width: 42px
+
      - Align rotation with the snapping target.
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_option-icon-project.png
           :width: 42px
+
      - Project individual elements on the surface of other objects.
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_option-icon-self.png
           :width: 42px
+
      - Snaps elements to its own mesh.
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_option-icon-whole.png
           :width: 42px
+
      - Consider Objects as whole when finding volume center.
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_option-icon-absolute.png
           :width: 42px
+
      - Snap to grid, instead of snapping in increments relative to the current location.
 
 
