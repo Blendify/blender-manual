@@ -82,7 +82,7 @@ This can simply be achieved by using the alpha over node.
 Using Plane Output
 ------------------
 
-This can be achieved by mixing the movie clip and the image using the plane output as the factor.
+This can be achieved by mixing the movie clip and the image by using the plane output as the factor.
 
 .. figure:: /images/compositing_types_distort_plane-track-deform_example-plane-output.png
 

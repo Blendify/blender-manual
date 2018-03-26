@@ -76,7 +76,7 @@ and it is needed to substitute in a different product sponsor after rendering.
 
 .. hint::
 
-   Due to limits of this node, it is not recommended rush pre-production rendering under
+   Due to limits of this node, it is not recommended to rush pre-production rendering under
    the guise of "fixing it later".
 
 .. figure:: /images/compositing_types_distort_map-uv_example-2.png
