@@ -191,7 +191,7 @@ These settings, along with the settings found in the
 :ref:`Encoding Panel <render-output-video-encoding-panel>`
 change how sound is exported while rendering.
 
-To control how sounds plays back from within Blender see the audio settings
+To control how sounds plays back from within Blender, see the audio settings
 in the :ref:`User Preferences <prefs-system-sound>`.
 
 Channels
