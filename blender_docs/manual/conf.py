@@ -49,16 +49,10 @@ if "latex" in sys.argv:
     # To convert gif's when making a PDF.
     extensions.append('sphinx.ext.imgconverter')
 
-if os.environ.get('manual_use_analytics') == "True":
-    extensions.append('googleanalytics')
-    googleanalytics_enabled = True
-
 intersphinx_mapping = {'blender_api': ('https://docs.blender.org/api/' + blender_version + '/', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../resources/templates']
-mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML'
-googleanalytics_id = 'UA-1418081-1'
 
 # The suffix(es) of source filenames.
 source_suffix = '.rst'
