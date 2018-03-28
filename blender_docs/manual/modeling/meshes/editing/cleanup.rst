@@ -63,8 +63,8 @@ Make Planar Faces
    | Menu:     :menuselection:`Mesh --> Clean up --> Make Planar Faces`
 
 The *Make Planar Faces* iteratively flattens faces.
-This can happen with faces over 3 vertices and it is
-common convention that faces should be kept planar.
+This can happen with faces over three vertices and
+it is a common convention that faces should be kept planar.
 
 Factor
    Distance to move the vertices each iteration.

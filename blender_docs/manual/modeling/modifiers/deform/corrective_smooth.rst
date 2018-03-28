@@ -45,8 +45,8 @@ Smooth Type
       This simply relaxes vertices to their connected edges.
    Length Weight
       Uses a method of relaxing that weights by the distance of surrounding vertices.
-      This option can give higher quality smoothing in some cases, by
-      better preserving the shape of the original form.
+      This option can give higher quality smoothing in some cases,
+      by better preserving the shape of the original form.
 Vertex Group
    Use to manually select regions to smooth.
 Only Smooth
