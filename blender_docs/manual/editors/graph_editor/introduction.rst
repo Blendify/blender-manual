@@ -11,7 +11,6 @@ The Graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>
 and *Drivers* for :doc:`Drivers </animation/drivers/index>`. Both are very similar in function.
 
 .. figure:: /images/editors_graph-editor_introduction_example.png
-   :width: 620px
 
    The Graph Editor.
 
@@ -19,13 +18,32 @@ and *Drivers* for :doc:`Drivers </animation/drivers/index>`. Both are very simil
 Curve View
 ==========
 
-Here you can see and edit the curves and keyframes.
+The curve view allows you to view and F-Curves.
+An F-Curve has several key parts:
 
-.. figure:: /images/editors_graph-editor_introduction_graph-curve.png
+Curve
+   The curve defines the value (y-axis) of the property over time (X-axis).
 
-   A curve with different types of interpolation.
+   See :doc:`F-Curves </editors/graph_editor/fcurves/index>`
+Keyframes
+   Keyframes are user defined values on certain frames and are represented by little black boxes.
+   These become orange if selected.
 
-See :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` for more info.
+   See :doc:`Keyframes </animation/keyframes/index>` for more information.
+Handles
+   Each keyframe has a handle that helps determine the values of the curve between keyframes.
+   These handles are represented by extruding lines with circular ends
+   and can be selected and modified to change the shape of the curve.
+
+   See :ref:`editors-graph-fcurves-settings-handles` for more information.
+
+.. figure:: /images/editors_graph-editor_fcurves_introduction.png
+
+   A simple curve.
+
+.. seealso::
+
+   See :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` for more info.
 
 
 Navigation
@@ -45,6 +63,7 @@ Scale View
 ---------
 
 .. figure:: /images/editors_graph-editor_introduction_2dcursor.png
+   :align: right
 
    Graph Editor 2D Cursor.
 
@@ -100,7 +119,7 @@ View Menu
 Realtime Updates
    When transforming keyframes, changes to the animation data are propagated to other views.
 Show Cursor
-   ToDo.
+   Toggles the visibility of the `2D Cursor`_.
 Show Sliders
    A toggle option that shows the value sliders for the channels.
    See the Fig. :ref:`fig-dope-sheet-action`.
@@ -109,7 +128,7 @@ Show Group Colors
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
 Use High Quality Drawing
-   ToDo.
+   Draws F-Curves using Anti-Aliasing and other fancy effects (disable for better performance).
 Show Handles :kbd:`Ctrl-H`
    ToDo.
 Only Selected Curve Keyframes

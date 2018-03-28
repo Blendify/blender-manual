@@ -275,8 +275,6 @@ The Propagate tool copies the pose of the selected bones on the current frame ov
 to the keyframes delimited by the *Termination Mode*.
 It automates the process of copying and pasting.
 
-ToDo 2.75.
-
 
 Options
 -------
