@@ -46,7 +46,8 @@ Movie
 Frames packed into a container.
 
 Deinterlace
-   TODO.
+   Removes fields in a video file. For example,
+   if it is an analog video and it has even or odd interlacing fields.
 Fields
    Sets the number of fields per rendered frame (2 fields is 1 frame).
    Used with Fields and interlaced video,

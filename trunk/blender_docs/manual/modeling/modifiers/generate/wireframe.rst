@@ -51,6 +51,12 @@ Material Offset
    Uses the chosen material index as the material for the wireframe;
    this is applied as an offset from the first material.
 
+.. warning::
+
+   Wireframe thickness is an approximation. While *Even Thickness* should yield good results in many cases,
+   skinny faces can cause ugly spikes. In this case you can either reduce the extreme angles in the geometry
+   or disable the *Even Thickness* option.
+
 
 Examples
 ========
