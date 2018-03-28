@@ -27,8 +27,8 @@ Strobe
 Reverse
    Plays the strip in reverse (time).
 Deinterlace
-   Removes fields in a video file.
-   In example if it is a broadcast video and it has even or odd interlacing fields.
+   Removes fields in a video file. For example,
+   if it is an analog video and it has even or odd interlacing fields.
 
 X Flip
    Mirrors the image along the X axis (left-to-right).

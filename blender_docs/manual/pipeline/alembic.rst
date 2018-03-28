@@ -107,7 +107,7 @@ Vertex Colors
 Face Sets
    Exports the material names per face, material data is not exported but only material names.
 Use Subdivision Schema
-   Writes polygonal meshes using the “SubD” Alembic schema, rather than the “PolyMesh” schema.
+   Writes polygonal meshes using the "SubD" Alembic schema, rather than the "PolyMesh" schema.
    This tells the program opening the file to apply its form of a non-destructive subdivision.
 Apply Subdivision Surface
    Applies any :doc:`Subdivision surface modifiers </modeling/modifiers/generate/subsurf>`
