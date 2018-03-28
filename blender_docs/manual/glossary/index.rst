@@ -522,6 +522,8 @@ This page lists definitions for terms used in Blender and this manual.
       Normals can be assigned to vertices,
       faces and modulated across a surface using :term:`normal mapping`.
 
+      See also `Normals <https://en.wikipedia.org/wiki/Normal_(geometry)>`__ on Wikipedia.
+
    Normal Mapping
       Is similar to :term:`Bump mapping`, but instead of the image being a grayscale heightmap,
       the colors define in which direction the normal should be shifted,
