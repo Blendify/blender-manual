@@ -62,7 +62,14 @@ Make Planar Faces
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Make Planar Faces`
 
-ToDo 2.76.
+The *Make Planar Faces* iteratively flattens faces.
+This can happen with faces over 3 vertices and it is
+common convention that faces should be kept planar.
+
+Factor
+   Distance to move the vertices each iteration.
+Iterations
+   Number of times to repeat the operation.
 
 
 Split Non-Planar Faces
