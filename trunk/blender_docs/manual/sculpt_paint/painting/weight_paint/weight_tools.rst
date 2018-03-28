@@ -34,11 +34,6 @@ Some of the tools also provide a Subset filter to restrict their functionality t
 All tools also work with Vertex Selection Masking and Face Selection masking.
 In these modes the tools operate only on selected vertices or faces.
 
-.. tip:: About the Blend tool
-
-   The Blend tool only works when "Vertex selection masking for painting" is enabled.
-   Otherwise the tool button is grayed out.
-
 
 Normalize All
 =============
@@ -53,6 +48,7 @@ Options
 -------
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize.png
+   :align: right
 
    Normalize All Options.
 
@@ -63,32 +59,33 @@ Lock Active
 Normalize
 =========
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize-example.png
-
-   Normalize example.
-
 This tool only works on the active Vertex Group.
 All vertices keep their relative weights,
 but the entire set of weights is scaled up such that the highest weight value is 1.0.
 
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize-example.png
+
+   Normalize example.
+
 
 Mirror
 ======
-
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror-example.png
-
-   Mirror example.
 
 This tool mirrors the weights from one side of the mesh to the opposite side
 (only mirroring along x-axis is supported). But note,
 the weights are not transferred to the corresponding opposite bone weight group.
 The mirror only takes place within the selected Vertex Group.
 
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror-example.png
+
+   Mirror example.
+
 
 Options
 -------
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror.png
+   :align: right
 
    Mirror Options.
 
@@ -116,10 +113,6 @@ Topology Mirror
 Invert
 ======
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert-example.png
-
-   Invert.
-
 Replaces each Weight of the selected weight group by × -1.0 weight.
 
 Examples:
@@ -128,11 +121,16 @@ Examples:
 - Original 0.5 remains 0.5
 - Original 0.0 converts to 1.0
 
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert-example.png
+
+   Invert.
+
 
 Options
 -------
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert.png
+   :align: right
 
    Invert Options.
 
@@ -151,10 +149,6 @@ Remove Weights
 Clean
 =====
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean-example.png
-
-   Clean example.
-
 Removes weights below a given threshold.
 This tool is useful for clearing your weight groups of very low (or zero-) weights.
 
@@ -164,11 +158,16 @@ so all blue parts are cleaned out.
 Note, the images use the *Show Zero weights* Active option so that unreferenced
 Weights are shown in Black.
 
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean-example.png
+
+   Clean example.
+
 
 Options
 -------
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean.png
+   :align: right
 
    Clean Options.
 
@@ -186,22 +185,25 @@ Keep Single
 Quantize
 ========
 
+This operator uses a process known as `Quantization <https://en.wikipedia.org/wiki/Quantization>`__
+which takes the input weights and clamps each weight to a number of steps between (0 - 1).
+so there is a no longer a smooth gradient between values.
+
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_quantize-example.png
 
    Quantize example (Steps = 2).
 
-Clamps each weight to a number of steps between (0 - 1).
+
+Options
+-------
 
 Steps
-   ToDo 2.70.
+   The number of steps between 0 and 1 to quantize the weights into.
+   For example 5 would allow the following weights ``[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]``.
 
 
 Levels
 ======
-
-.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels-example.png
-
-   Levels example.
 
 Adds an offset and a scale to all weights of the selected Weight Groups.
 with this tool you can raise or lower the overall "heat" of the weight group.
@@ -210,11 +212,16 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 
    No weight will ever be set to values above 1.0 or below 0.0 regardless of the settings.
 
+.. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels-example.png
+
+   Levels example.
+
 
 Options
 -------
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels.png
+   :align: right
 
    Levels Options.
 
@@ -232,10 +239,13 @@ Gain
    So you will never get negative weights or overheated areas (weight > 1.0) with this tool.
 
 
-.. renamed from blend to smooth in v2.76 git c402057
-
 Smooth
 ======
+
+.. tip::
+
+   The Smooth tool only works when "Vertex selection masking for painting" is enabled.
+   Otherwise the tool button is grayed out.
 
 Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
@@ -295,26 +305,54 @@ Options
 -------
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth.png
+   :align: right
 
    Smooth Options.
 
 Factor
    The effective amount of blending.
-   When Factor is set to 0.0 then the Blend tool does not do anything.
+   When Factor is set to 0.0 then the `Smooth`_ tool does not do anything.
    For Factor > 0 the weights of the affected vertices gradually shift from their original value
    towards the average weight of all connected **and** unselected vertices (see examples above).
 Iterations
-   ToDo 2.76.
+   Number of times to repeat the smoothing operation.
 Expand/Contract
-   ToDo 2.76.
+   Positive values expand the selection to neighboring vertices while contract limits to selection.
 Source
-   ToDo 2.76.
+   The vertices to mix with.
+
+   All
+      Smoothing will smooth both selected and deselected vertices.
+   Only Selected
+      Smoothing will only smooth with selected vertices
+   Only Deselected
+      Smoothing will only smooth with deselected vertices.
 
 
 Fix Deforms
 ===========
 
-ToDo <2.57.
+The *Fix deforms* tool is used to modify an object’s nonzero weights so its deformed
+vertices are at a new defined distance. This is helpful to fix deformations
+because when complex models are deformed to their most extreme poses,
+they are often visibly bumpy, jagged, or otherwise incorrectly deformed.
+Using this tool, you can smooth over the deformation.
+
+To use the tool, select the vertices that you would like to move,
+either in edit mode or using or by using the vertex selection/mask.
+The operator can now be used and altered with these parameters:
+
+Distance
+   The distance to move to.
+Strength
+   The distance moved can be changed by this multiplier.
+Accuracy
+   Change the amount weights are altered with each iteration: lower values are slower.
+
+.. note::
+
+   Note that if it does not change, then there are no nonzero bone
+   weights that changed to make it closer to the intended distance.
 
 
 Transfer Weights
