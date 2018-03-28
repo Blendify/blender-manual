@@ -22,7 +22,7 @@ Constraint Type
    Action to perform on the bone constraint.
 
    Run Armature
-      TODO.
+      Enables an armature to be allowed to move.
    Enable/Disable
       Used to disable a constraint by selecting the constraint via the :ref:`ui-data-id`.
    Set Target
