@@ -41,14 +41,14 @@ Exporting to Alembic Files
 
 This section describes the effect of the different export options.
 
+
+Manual Transform
+----------------
+
 .. figure:: /images/pipeline_alembic_export-panel-scene-options.png
    :align: right
 
    Alembic Export options.
-
-
-Manual Transform
-----------------
 
 Scale
    This sets the global scale of the Alembic file. Keep it at the default value of 1.0 to use
@@ -82,43 +82,49 @@ Flatten Hierarchy
    When enabled, parent/child relations are not exported, and transformations are all written in
    world coordinates.
 
+
+Object Options
+--------------
+
 .. figure:: /images/pipeline_alembic_export-panel-object-options.png
    :align: right
 
    Object Options.
 
-
-Object Options
---------------
-
 UVs
    When enabled, UV maps are exported. Although the Alembic standard only supports a single UV
    map, Blender exports all UV maps in a way that should be readable by other software.
 Pack UV Islands
-   TODO 2.78/9: figure out & describe what this does.
+   Generates an optimized UV layout with non overlapping islands that tries to efficiently
+   fill the texture space. See the
+   :ref:`pack islands operator <editors-uv_image-editing-layout-pack_islands>`
+   that works with the same principle for more information.
 Normals
-   TODO 2.78/9: figure out & describe what this does.
+   When enabled, an object's :term:`normals <normal>` are exported.
 Vertex Colors
    When enabled, exports vertex colors. At this moment, this only supports static vertex colors,
    and not dynamically animated vertex colors.
 Face Sets
-   TODO 2.78/9: figure out & describe what this does.
+   Exports the material names per face, material data is not exported but only material names.
 Use Subdivision Schema
-   When enabled, writes polygonal meshes using the "SubD" Alembic schema,
-   rather than the "PolyMesh" schema.
+   Writes polygonal meshes using the “SubD” Alembic schema, rather than the “PolyMesh” schema.
+   This tells the program opening the file to apply its form of a non-destructive subdivision.
 Apply Subdivision Surface
-   TODO 2.78/9: figure out & describe what this does.
+   Applies any :doc:`Subdivision surface modifiers </modeling/modifiers/generate/subsurf>`
+   before writing to Alembic.
 Triangulate
    Triangulates the mesh before writing to Alembic.
-
-.. figure:: /images/pipeline_alembic_export-panel-particle-systems.png
-   :align: right
-
-   Object Options.
+   For more detail on the specific option see the
+   :doc:`Triangulate Modifier </modeling/modifiers/generate/triangulate>`.
 
 
 Particle Systems
 ----------------
+
+.. figure:: /images/pipeline_alembic_export-panel-particle-systems.png
+   :align: right
+
+   Particle Systems Options.
 
 Alembic has no support for Particle Systems, in the same way that it does not support armatures.
 Hair is exported as animated zero-width curves. Particles are exported as animated points.

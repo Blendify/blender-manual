@@ -110,6 +110,7 @@ See :doc:`/editors/uv_image/uv/editing/unwrapping/seams`.
 
 
 .. _bpy.ops.uv.pack_islands:
+.. _editors-uv_image-editing-layout-pack_islands:
 
 Pack Islands
 ============
