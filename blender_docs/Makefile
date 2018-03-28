@@ -97,7 +97,6 @@ html: .FORCE .SPHINXBUILD_EXISTS
 
 html_server: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
-	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	manual_use_analytics="True" \
 	# - Single thread because we run many builds at once.
 	# - Optimize to use less memory per-process.
