@@ -1,4 +1,3 @@
-.. (todo error) wrong images
 
 **************
 Generic Spring
@@ -10,10 +9,6 @@ Generic Spring
    | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
    | Type:     Generic Spring
 
-.. figure:: /images/physics_rigid-body_constraints_types_hinge_panel-example.png
-   :width: 500px
-
-   Options available to a *Generic Spring* constraint.
 
 The generic spring constraint adds some spring parameters for the X/Y/Z axes
 to all the options available on the Generic constraint.
@@ -28,6 +23,12 @@ leading to strange behavior. If your springs are acting weird, check the damping
 
 Options
 =======
+
+.. figure:: /images/physics_rigid-body_constraints_types_generic-spring.png
+   :align: right
+   :width: 300px
+
+  *Generic Spring* constraint options.
 
 Limits
    X/Y/Z Axis
