@@ -30,13 +30,7 @@ Vertex Group
    Invert
       Inverts the vertex group weights.
    Factor
-      ToDo 2.70.
-
-.. figure:: /images/modeling_modifiers_generate_wireframe_result.jpg
-   :width: 350px
-
-   Wireframes on a displaced plane.
-   In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.
+      Percentage that the vertex has influence over the final wireframe result.
 
 Crease Edges
    This option is intended for usage with the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`.
@@ -61,8 +55,11 @@ Material Offset
 Examples
 ========
 
-When you got more Faces that meet at one point they are forming a star like pattern like seen
-in the examples below.
+.. figure:: /images/modeling_modifiers_generate_wireframe_result.jpg
+   :width: 350px
+
+   Wireframes on a displaced plane.
+   In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_example-cube.png
    :width: 420px
@@ -78,9 +75,3 @@ in the examples below.
    :width: 420px
 
    Cube and Subdivision Surface with 0 / 0.5 / 1 crease weight.
-
-.. warning::
-
-   Wireframe thickness is an approximation. While *Even Thickness* should yield good results in many cases,
-   skinny faces can cause ugly spikes. In this case you can either reduce the extreme angles in the geometry
-   or disable the *Even Thickness* option.
