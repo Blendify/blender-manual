@@ -9,10 +9,6 @@ Motor
    | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
    | Type:     Motor
 
-.. figure:: /images/physics_rigid-body_constraints_types_motor_panel-example.png
-   :width: 500px
-
-   Options available to a *Motor* constraint.
 
 The motor constraint causes translation and/or rotation between two entities.
 It can drive two objects apart or together.
@@ -27,6 +23,9 @@ special care must be taken to align the axes.
 Without proper alignment, the motor will appear to have no effect
 (because the hinge is preventing the motion of the motor).
 
+.. figure:: /images/physics_rigid-body_constraints_types_motor_panel-example.png
+
+   *Motor* constraint options.
 
 Options
 =======
