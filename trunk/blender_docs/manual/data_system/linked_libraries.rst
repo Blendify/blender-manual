@@ -46,7 +46,7 @@ Instance Groups
 Fake User
    Sets a :ref:`Fake User <data-system-datablock-fake-user>` for the appended items.
 Localize All
-   ToDo.
+   Appends/links all appended data, including those indirectly linked from other libraries.
 
 When you select an Object type, it will be placed in your scene at the cursor.
 Many other data types, cameras, curves, and materials for example,
