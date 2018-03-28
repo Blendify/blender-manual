@@ -130,11 +130,11 @@ AutoMerge Keyframes
 Use High Quality Drawing
    Draws F-Curves using Anti-Aliasing and other fancy effects (disable for better performance).
 Show Handles :kbd:`Ctrl-H`
-   ToDo.
+   Toggles the display of a curve's handles in the curve view.
 Only Selected Curve Keyframes
-   ToDo.
+   Only shows the keyframes markers on the selected curves.
 Only Selected Keyframes Handles
-   ToDo.
+   Only shows the handles for the currently selected curves.
 View All :kbd:`Home`
    Reset viewable area to show all keyframes.
 View Selected :kbd:`NumpadPeriod`
@@ -142,7 +142,7 @@ View Selected :kbd:`NumpadPeriod`
 View Frame :kbd:`Numpad0`
    Centers the area to the Time cursor.
 
-See Timeline's :ref:`timeline-view-menu`.
+.. seealso:: See Timeline's :ref:`timeline-view-menu`.
 
 
 .. _graph-preview-range:
