@@ -118,7 +118,7 @@ Connected :kbd:`Alt-O`
    The icon will have a gray center when *Connected* is active.
    This mode is only available in *Edit Mode*.
 
-..
+.. _3dview-transform-control-proportional-edit-falloff:
 
 Falloff
    While editing, you can change the curve profile used by either using
