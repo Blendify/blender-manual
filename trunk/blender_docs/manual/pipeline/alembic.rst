@@ -105,7 +105,7 @@ Vertex Colors
    When enabled, exports vertex colors. At this moment, this only supports static vertex colors,
    and not dynamically animated vertex colors.
 Face Sets
-   Exports the material names per face, material data is not exported but only material names.
+   Exports the material names per face. The material data is not exported but only material names.
 Use Subdivision Schema
    Writes polygonal meshes using the "SubD" Alembic schema, rather than the "PolyMesh" schema.
    This tells the program opening the file to apply its form of a non-destructive subdivision.

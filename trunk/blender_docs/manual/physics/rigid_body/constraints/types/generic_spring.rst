@@ -25,10 +25,10 @@ Options
 =======
 
 .. figure:: /images/physics_rigid-body_constraints_types_generic-spring.png
-   :align: right
    :width: 300px
+   :align: right
 
-  *Generic Spring* constraint options.
+   *Generic Spring* constraint options.
 
 Limits
    X/Y/Z Axis

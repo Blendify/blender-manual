@@ -103,8 +103,8 @@ Free Segments
 -------------
 
 To create a free (curved) segment, click and hold :kbd:`LMB` at its starting point.
-Then draw your segment by moving the mouse cursor -- as in any paint program! Release
-:kbd:`LMB` to finalize the segment. You will then be creating a new straight segment,
+Then draw your segment by moving the mouse cursor -- as in any paint program!
+Release :kbd:`LMB` to finalize the segment. You will then be creating a new straight segment,
 so if you would rather start a new free segment, you must immediately re-press :kbd:`LMB`.
 
 The free segments of a stroke will create different number of bones, in different manners,

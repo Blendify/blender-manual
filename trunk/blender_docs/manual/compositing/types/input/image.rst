@@ -44,5 +44,5 @@ Z
 
 .. note:: MultiLayer format:
 
-   When a MultiLayer file format, like ``EXR``, is loaded, each
-   layer is made available as a socket.
+   When a MultiLayer file format, like ``EXR``, is loaded,
+   each layer is made available as a socket.

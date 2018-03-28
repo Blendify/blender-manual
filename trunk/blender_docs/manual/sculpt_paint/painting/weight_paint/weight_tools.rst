@@ -186,7 +186,7 @@ Quantize
 ========
 
 This operator uses a process known as `Quantization <https://en.wikipedia.org/wiki/Quantization>`__
-which takes the input weights and clamps each weight to a number of steps between (0 - 1).
+which takes the input weights and clamps each weight to a number of steps between (0 - 1),
 so there is a no longer a smooth gradient between values.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_quantize-example.png
@@ -317,14 +317,14 @@ Factor
 Iterations
    Number of times to repeat the smoothing operation.
 Expand/Contract
-   Positive values expand the selection to neighboring vertices while contract limits to selection.
+   Positive values expand the selection to neighboring vertices while contract limits to the selection.
 Source
    The vertices to mix with.
 
    All
       Smoothing will smooth both selected and deselected vertices.
    Only Selected
-      Smoothing will only smooth with selected vertices
+      Smoothing will only smooth with selected vertices.
    Only Deselected
       Smoothing will only smooth with deselected vertices.
 
@@ -334,25 +334,25 @@ Fix Deforms
 
 The *Fix deforms* tool is used to modify an object’s nonzero weights so its deformed
 vertices are at a new defined distance. This is helpful to fix deformations
-because when complex models are deformed to their most extreme poses,
+because when complex models are deformed to their extreme poses,
 they are often visibly bumpy, jagged, or otherwise incorrectly deformed.
 Using this tool, you can smooth over the deformation.
 
 To use the tool, select the vertices that you would like to move,
-either in edit mode or using or by using the vertex selection/mask.
-The operator can now be used and altered with these parameters:
+either in Edit Mode or by using the vertex selection/mask.
+The operator can now be used and altered with these options:
 
 Distance
    The distance to move to.
 Strength
-   The distance moved can be changed by this multiplier.
+   The distance moved can be changed by this factor.
 Accuracy
-   Change the amount weights are altered with each iteration: lower values are slower.
+   Changes the amount weights are altered with each iteration: lower values are slower.
 
 .. note::
 
-   Note that if it does not change, then there are no nonzero bone
-   weights that changed to make it closer to the intended distance.
+   Note that if it does not change, then there are no nonzero bone weights
+   that are changed to make it closer to the intended distance.
 
 
 Transfer Weights

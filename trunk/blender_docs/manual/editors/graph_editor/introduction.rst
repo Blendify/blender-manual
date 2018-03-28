@@ -18,7 +18,7 @@ and *Drivers* for :doc:`Drivers </animation/drivers/index>`. Both are very simil
 Curve View
 ==========
 
-The curve view allows you to view and F-Curves.
+The curve view allows you to view and edit F-Curves.
 An F-Curve has several key parts:
 
 Curve
@@ -26,7 +26,7 @@ Curve
 
    See :doc:`F-Curves </editors/graph_editor/fcurves/index>`
 Keyframes
-   Keyframes are user defined values on certain frames and are represented by little black boxes.
+   Keyframes are user-defined values on certain frames and are represented by little black squares.
    These become orange if selected.
 
    See :doc:`Keyframes </animation/keyframes/index>` for more information.
@@ -128,7 +128,7 @@ Show Group Colors
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
 Use High Quality Drawing
-   Draws F-Curves using Anti-Aliasing and other fancy effects (disable for better performance).
+   Draws F-Curves using anti-aliasing and other fancy effects (disable for better performance).
 Show Handles :kbd:`Ctrl-H`
    Toggles the display of a curve's handles in the curve view.
 Only Selected Curve Keyframes
