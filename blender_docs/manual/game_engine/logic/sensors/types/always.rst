@@ -24,5 +24,3 @@ This sensor does not have any special options.
 
 Example
 =======
-
-TODO.
