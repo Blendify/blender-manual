@@ -97,7 +97,6 @@ html: .FORCE .SPHINXBUILD_EXISTS
 
 html_server: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
-	manual_use_analytics="True" \
 	# - Single thread because we run many builds at once.
 	# - Optimize to use less memory per-process.
 	PYTHONOPTIMIZE=2 \
