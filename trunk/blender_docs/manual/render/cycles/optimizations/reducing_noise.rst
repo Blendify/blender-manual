@@ -277,7 +277,7 @@ Light Portals
 When rendering a daylight indoor scene where most of the light is coming in through a window
 or door opening, it is difficult for the integrator to find its way to them.
 To fix this, use :ref:`Light Portals <render-cycles-lamps-area-portals>`,
-these work by adding a :ref:`Area Lamp <render-cycles-lamps-area>`.
+these work by adding an :ref:`Area Lamp <render-cycles-lamps-area>`.
 You then will need to modify its shape to match that of the opening that you are trying to fill.
 
 .. figure:: /images/render_cycles_lamps_portals2.jpg

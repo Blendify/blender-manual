@@ -38,7 +38,7 @@ The movement of the owner along the target curve/path may be controlled in two d
   via the number button Frames, and its start frame via the constraint's Offset option
   (by default, start frame: 1 [= offset of 0], duration: 100).
 - The second way, much more precise and powerful,
-  is to define a *Evaluation Time* interpolation curve for the *Target* path
+  is to define an *Evaluation Time* interpolation curve for the *Target* path
   (in the *Graph Editor*). See the :doc:`Graph Editor chapter </editors/graph_editor/fcurves/index>`
   to learn more about F-Curves.
 - If you do not want your owner to move along the path, you can give to the target curve a flat *Speed* F-Curve

@@ -100,7 +100,7 @@ in the same way by selecting edges and clicking the *Flat* button.
 
 .. seealso::
 
-   The :ref:`Auto Smooth <auto-smooth>` filter is an quick and easy way to combine smooth and
+   The :ref:`Auto Smooth <auto-smooth>` filter is a quick and easy way to combine smooth and
    faceted faces in the same object.
 
 

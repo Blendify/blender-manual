@@ -64,7 +64,7 @@ The space used to evaluate the constrained object (the object that owns the cons
 Hover over the space select menu(s) to learn whether it affects the space of the target
 or the space of the owner.
 
-When the constraints use a Target and/or/nor a Owner space there will be no, one or two selector(s).
+When the constraints use a Target and/or/nor an Owner space there will be no, one or two selector(s).
 The Copy Location constraint in example use both Target **and** Owner space.
 
 When a constraint uses both Target and Owner space,

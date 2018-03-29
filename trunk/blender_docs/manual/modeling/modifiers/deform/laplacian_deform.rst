@@ -17,7 +17,7 @@ direction of a vertex based on its neighbors.
 
 .. note::
 
-   You must define a *Anchors Vertex Group*. Without a Vertex Group Modifier does nothing.
+   You must define an *Anchors Vertex Group*. Without a Vertex Group Modifier does nothing.
 
 
 Options
