@@ -45,7 +45,7 @@ Interpolation Options
    Linear
       Uses a *Linear* Interpolation for the color stops.
    Ease
-      Uses a *Ease* Interpolation for the color stops.
+      Uses an *Ease* Interpolation for the color stops.
    Constant
       Uses a *Constant* Interpolation for the color stops.
 

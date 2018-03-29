@@ -27,7 +27,7 @@ Change the Group Instance of existing objects:
    - In the Properties editor: :menuselection:`Object --> Duplication`, enable *Group*.
    - Select the name of your newly created group.
 
-At this point, an instance of the group and a :doc:`empty object </modeling/empties>` will appear.
+At this point, an instance of the group and an :doc:`empty object </modeling/empties>` will appear.
 You can duplicate the empty, and the DupliGroup settings will be preserved for each empty.
 This way, you can get multiple copies of linked data very easily.
 
@@ -50,7 +50,7 @@ until you create an object controlling where the group instance appears.
 Making a DupliGroup Object Real
 ===============================
 
-Say you want to make further edits on an DupliGroup instance:
+Say you want to make further edits on a DupliGroup instance:
 Simply select your DupliGroup and press :kbd:`Shift-Ctrl-A` to convert the DupliGroup
 into regular objects that can be transformed and animated normally.
 

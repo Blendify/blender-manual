@@ -23,7 +23,7 @@ Alpha Over
 With *Alpha Over*, the strips are layered up in the order selected; the first strip selected is the background,
 and the second one goes *over* the first one selected.
 The *Opacity* controls the transparency of the *foreground*, i.e. *Opacity* of 0.0;
-will only show the background, and a *Opacity* of 1.0 will completely override the background with the foreground
+will only show the background, and an *Opacity* of 1.0 will completely override the background with the foreground
 (except in the transparent areas of this one, of course!)
 
 .. warning::
@@ -44,9 +44,9 @@ Alpha Under
 
 With *Alpha Under*, this is the contrary:
 The first strip selected is the foreground, and the second one, the background.
-Moreover, the *Opacity* controls the transparency of the *background*, i.e. a *Opacity* of 0.0;
+Moreover, the *Opacity* controls the transparency of the *background*, i.e. an *Opacity* of 0.0;
 will only show the foreground (the background is completely transparent),
-and a *Opacity* of 1.0 will give the same results as with *Alpha Over*.
+and an *Opacity* of 1.0 will give the same results as with *Alpha Over*.
 
 
 .. _bpy.types.OverDropSequence:

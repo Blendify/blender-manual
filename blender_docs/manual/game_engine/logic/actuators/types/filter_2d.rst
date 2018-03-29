@@ -79,7 +79,7 @@ To enable/disable a filter on a specific pass:
 
 #. Create appropriate sensor(s) and controller(s).
 #. Create a *2D Filter* actuator.
-#. Select either a *Enable Filter* or *Disable Filter* depending on what you want to do.
+#. Select either *Enable Filter* or *Disable Filter* depending on what you want to do.
 #. Set the pass number you want to disable the filter on it.
 
 
