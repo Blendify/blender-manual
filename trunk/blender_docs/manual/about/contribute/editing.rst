@@ -19,10 +19,6 @@ Writing
 You can now edit the documentation files, which are the ``.rst``
 files inside the ``manual`` folder using a text editor of your choice.
 
-For instructions on using different editors,
-see the `Editor Configuration <https://wiki.blender.org/index.php/Dev:Doc/Tools/User_Reference_Manual>`__
-section of the community wiki.
-
 Be sure to check the :doc:`/about/contribute/guides/writing_guide`
 for conventions and :doc:`/about/contribute/guides/markup_guide`
 to learn how to write in the reStructuredText markup language.
