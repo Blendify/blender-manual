@@ -221,7 +221,7 @@ Keymap Presets
 
    - Keyboard: Only hotkey or combo hotkey :kbd:`E`, :kbd:`Shift-E`.
    - Mouse: Left/middle/right click. Can be combined with :kbd:`Alt`, :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Cmd`.
-   - NDOF: ToDo.
+   - NDOF: Movement from a :ref:`3D Mouse <hardware_3d-mice>`.
    - Tweak: Click and drag. Can also be combined with the four previous keys.
    - Text input: Use this function by entering a text.
    - Timer: Used to control actions based on a time period.

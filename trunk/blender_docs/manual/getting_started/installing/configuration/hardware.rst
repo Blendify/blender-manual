@@ -100,6 +100,8 @@ as well as provide additional controls such as pressure sensitivity.
    try to place the mouse pointer in the Blender window and then unplug/replug your graphic tablet. This might help.
 
 
+.. _hardware_3d-mice:
+
 3D Mice
 -------
 
