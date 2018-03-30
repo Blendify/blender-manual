@@ -53,7 +53,7 @@ Detail Refine Method
       to match the detail given.
    Collapse Edges
       When topology is too dense, and is smaller than the detail given, edges will
-      be collapse to fit the detail size appropriately.
+      be collapsed to fit the detail size appropriately.
    Subdivide Collapse
       This method combines the two methods, subdividing edges smaller than
       the detail size, and collapsing topology.
