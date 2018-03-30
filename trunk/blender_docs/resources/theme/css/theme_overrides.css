@@ -292,7 +292,8 @@ a.external {color:#656AE0;}
 /*start version*/
 /*Override RTD theme*/
 .rst-versions {
-	border-top: 0px
+	border-top: 0px;
+	overflow: visible;
 }
 .version-btn.vdeact {
 	cursor: default;
