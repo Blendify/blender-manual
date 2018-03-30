@@ -177,6 +177,8 @@ if html_theme == "sphinx_rtd_theme":
     # included in the title
     html_theme_options = {
     "display_version": False,
+    "collapse_navigation": True,
+    "navigation_depth": 4,
     "canonical_url": "https://docs.blender.org/manual/en/dev/",
     }
 
