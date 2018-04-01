@@ -81,7 +81,7 @@ Textures
 Mapping
 -------
 
-Instead of a color, or blend of two colors, Blender can use an 2D image which it maps to
+Instead of a color, or blend of two colors, Blender can use a 2D image which it maps to
 a very large Box or sphere which encompasses the entire scene,
 or which it maps to a virtual space around the scene.
 

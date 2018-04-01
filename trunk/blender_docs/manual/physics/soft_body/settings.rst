@@ -164,7 +164,7 @@ Type
       If all vertices have the same amount of edges in a direction they fall with equal speed.
       An edge moving in its own direction feels no force,
       and an edge moving perpendicular to its own direction feels maximum force
-      (think of a straw moving through air). Try it with an *Factor* of 30 at first.
+      (think of a straw moving through air). Try it with a *Factor* of 30 at first.
    Lift Force
       Use an aerodynamic model that is closer to physical laws and looks more interesting.
       Disable for a more muted simulation.

@@ -32,7 +32,7 @@ Image Sequence
 --------------
 
 Each frame is stored in a separate file.
-How to load a :ref:`image-formats-open-sequence`.
+How to :ref:`image-formats-open-sequence`.
 
 Frame
    A label showing the current frame.

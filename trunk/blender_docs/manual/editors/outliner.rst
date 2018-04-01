@@ -68,7 +68,7 @@ For this you must prepare the selection using, to your liking:
 - :kbd:`RMB` and drag or :kbd:`LMB` and drag,
 
 all *outside* the name/icon area. Those pre-selected have their line in a lighter color.
-You then can (de)select them with a :kbd:`RMB` *on* the name/icon area,
+You then can (de)select them with an :kbd:`RMB`-click *on* the name/icon area,
 which brings on a context menu (see below). :kbd:`A` to select/deselect all open items.
 
 .. figure:: /images/editors_outliner_column-icons.png

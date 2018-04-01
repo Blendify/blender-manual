@@ -133,7 +133,7 @@ Solutions
 - Center the view around the mouse cursor :kbd:`Alt-F`.
   This will take the position under the cursor and make it your viewpoint center.
 - Center the view around the 3D cursor :kbd:`Alt-Home`.
-- Use a :abbr:`NDOF (N-Degrees of Freedom)`, also known as a 3D mouse,
+- Use an :abbr:`NDOF (N-Degrees of Freedom)`, also known as a 3D mouse,
   see :ref:`configuring peripherals <hardware_3d-mice>` for more information.
 
 

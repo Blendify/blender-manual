@@ -106,7 +106,7 @@ Render Settings
    - Disable *Edge* rendering.
    - *Save Buffers*.
 
-   - Render to an :ref:`UV/Image Editor <editors-uv-image-index>`,
+   - Render to a :ref:`UV/Image Editor <editors-uv-image-index>`,
      not a pop-up. :doc:`Render Window </render/output/render_panel>`.
    - Use multiple *Threads* on a multi-core CPU (with multiple *Parts*).
    - Decrease the frame count of the animation (and use a lower framerate for the same duration of animation).

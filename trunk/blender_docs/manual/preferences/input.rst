@@ -21,7 +21,7 @@ Mouse
 -----
 
 Emulate 3 Button Mouse
-   Blender can be configured to work with pointing devices which do not have a :kbd:`MMB`
+   Blender can be configured to work with pointing devices which do not have an :kbd:`MMB`
    (such as a two-button mouse, Apple's single-button mouse, or laptop touch-pad).
    The functionality of the three mouse buttons will then be emulated with
    key/mouse button combinations as shown in the table below.

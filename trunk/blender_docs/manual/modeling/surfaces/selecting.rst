@@ -11,7 +11,7 @@ Selecting
 Surface selection in *Edit Mode* is very similar to
 :doc:`NURBS curve selection </modeling/curves/editing/introduction>`.
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
-so you can select a simple control point with a :kbd:`LMB`\ -click,
+so you can select a simple control point with an :kbd:`LMB`\ -click,
 add to current selection with :kbd:`Shift-LMB` clicks, :kbd:`B` order-select, and so on.
 
 
