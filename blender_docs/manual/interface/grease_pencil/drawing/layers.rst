@@ -106,7 +106,7 @@ Animation
 =========
 
 Parent
-   An :ref:`ui-data-id` to select the :term:`parent` object.
+   A :ref:`ui-data-id` to select the :term:`parent` object.
    The strokes of the layer will follow parent transformations.
 
    Type

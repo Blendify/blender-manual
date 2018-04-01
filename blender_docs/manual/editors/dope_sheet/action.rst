@@ -50,7 +50,7 @@ Layer Previous/Next (down/up arrow peak icon)
 
    .. note::
 
-      These still work when you're not editing the action used by a NLA Strip.
+      These still work when you're not editing the action used by an NLA Strip.
       If you're just animating a new action normally,
       it is possible to use the "down arrow" to temporarily jump down to the previous action
       without losing the new action you're working on, and then use the "up arrow" to get back to
@@ -62,7 +62,7 @@ Action
    A :ref:`Data-block menu <ui-data-block>`.
 
    Add ``+``
-      When an action is created it is stored in a NLA Action Stash.
+      When an action is created it is stored in an NLA Action Stash.
    Unlink ``X``
       When :kbd:`Shift-LMB` clicking it clears the Fake User and
       removes the stashed action from the NLA stack too.
