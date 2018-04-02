@@ -105,6 +105,14 @@ Frame Sequence Workflow
    You will see lots of images (``.png`` or ``.exr``, etc. depending on the format you chose to render)
    that have a sequence number attached to them ranging from 0000 to a max of 9999. These are your single frames.
 #. In Blender, now go into the :doc:`Video sequence editor </editors/vse/index>`.
+
+   .. warning::
+
+      The :doc:`VSE </editors/vse/index>` does not support Multilayer EXR files.
+      To render to a video format you will have skip the next three steps and instead
+      use an :doc:`image input node </compositing/types/input/image>`
+      in the :doc:`compositor </compositing/types/input/image>`
+
 #. Choose *Add Image* from the add menu. Select all the frames from your output folder that you want to include
    in your animation (press :kbd:`A` to Select All easily). They will be added as a strip to the Sequence editor.
 #. Now you can edit the strip and add effects or simply leave it like it is.
