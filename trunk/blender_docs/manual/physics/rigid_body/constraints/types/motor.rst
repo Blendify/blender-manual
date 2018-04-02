@@ -9,7 +9,6 @@ Motor
    | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
    | Type:     Motor
 
-
 The motor constraint causes translation and/or rotation between two entities.
 It can drive two objects apart or together.
 It can drive simple rotation, or rotation and translation

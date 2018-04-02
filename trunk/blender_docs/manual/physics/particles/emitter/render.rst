@@ -274,7 +274,7 @@ This generated UV coordinates for this layer.
 
 Split UV's
    The amount of rows/columns in the texture to be used.
-   Coordinates are a single part of the *UV Split* grid, which is a n?n grid over the whole texture.
+   Coordinates are a single part of the *UV Split* grid, which is an n × n grid over the whole texture.
    What the part is used for each particle and at what time is determined by the *Offset* and
    *Animate* controls. These can be used to make each billboard unique or to use an "animated" texture for
    them by having each frame of the animation in a grid in a big image.

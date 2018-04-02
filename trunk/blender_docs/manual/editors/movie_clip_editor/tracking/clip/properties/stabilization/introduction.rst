@@ -90,7 +90,7 @@ This is the immediate consequence of the stabilizer's activity.
 Since the actual image elements, i.e. the subject of our footage can be considered stable now, we may use these
 as a new frame of reference: we consider them attached to a fixed backdrop, which we call the **canvas**.
 Introducing this concept of a "canvas" helps to deal with deliberate movements of the camera. And beyond that,
-it yields an additional benefit: It is very frequent for the pixels of video footage to be *non square.*
+it yields an additional benefit: It is very frequent for the pixels of video footage to be *non square*.
 So we have to stretch and expand those pixels, before we're able to perform any sensible rotation stabilization.
 Thus the canvas becomes, by definition, the reference for an undistorted display of the image contents.
 
