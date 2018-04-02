@@ -19,7 +19,7 @@ Once all the child objects and the armature are selected, press :kbd:`Ctrl-P` an
 select *Armature Deform* in the *Set Parent To* pop-up menu.
 
 The armature will be the parent object of all the other child objects and each child object
-will have a Armature Modifier with the armature associated (*Object* field).
+will have an Armature Modifier with the armature associated (*Object* field).
 
 .. figure:: /images/rigging_armatures_skinning_parenting_deform-object-mode.png
 

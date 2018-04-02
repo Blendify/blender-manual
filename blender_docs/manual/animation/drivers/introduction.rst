@@ -102,7 +102,7 @@ Graph View
    Graph Editor: Driver example.
 
 The main area of the :doc:`Graph editor </editors/graph_editor/index>` in Driver Mode
-shows a :doc:`F-Curve </editors/graph_editor/fcurves/introduction>` that maps the Driver Value to
+shows an :doc:`F-Curve </editors/graph_editor/fcurves/introduction>` that maps the Driver Value to
 the target property. The Driver Value is the output of the driver script.
 The X-axis represents the Driver Value and the Y-axis is the value of the target property.
 In the example image, if the Driver Value is 2.0 the property will be 0.5.
