@@ -233,7 +233,7 @@ Effects
 
 .. figure:: /images/physics_dynamic-paint_canvas_effects-panel.png
 
-   Canvas effects panel.
+   Effects panel.
 
 This is a special feature for "Paint" type surface.
 It generates animated movement on canvas surface.

@@ -17,7 +17,7 @@ are great for larger images. Codecs are used to encode and decode the movie,
 and so must be present on both the encoding machine (Blender) and the target machine.
 The results of the encoding are stored in a container file.
 
-There are dozens, if not hundreds, of codecs, including XviD, H.264, DivX, Microsoft,
+There are dozens, if not hundreds, of codecs, including Xvid, H.264, DivX, Microsoft,
 and so on. Each has advantages and disadvantages and compatibility with different players on
 different operating systems.
 
