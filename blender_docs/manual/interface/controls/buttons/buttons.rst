@@ -48,6 +48,6 @@ Color Buttons
 
 The color button stores a color value shown in its background.
 :kbd:`LMB` color buttons opens the :doc:`/interface/controls/templates/color_picker`.
-Color buttons with an alpha channel are divided in half: On the left the color is shown without an alpha channel and
+Color buttons with an alpha channel are divided in half: on the left the color is shown without an alpha channel and
 on the right the color with an alpha channel drawn over a checker pattern.
 Colors can be dragged and dropped.

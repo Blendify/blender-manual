@@ -24,7 +24,7 @@ Absolute Alpha
    increasing alpha and therefore influence of brush on canvas. In many cases however,
    it is preferred to not increase brush alpha if it already is on brushes level.
 Erase Paint
-   Makes brush dissolve exiting paint instead of adding it.
+   Makes brush dissolve existing paint instead of adding it.
 Wetness
    Defines how "wet" new paint is. Wetness is visible on "Paint" surface "wetmap".
    Speed of "Drip" and "Spread" effects also depends on how wet the paint is.

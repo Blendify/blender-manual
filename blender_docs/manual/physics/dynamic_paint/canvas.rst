@@ -65,7 +65,7 @@ Advanced
 
    Canvas advanced panel.
 
-From "Advanced" panel you can adjust surface type and related settings.
+From *Advanced* panel you can adjust surface type and related settings.
 
 
 Surface Type
@@ -83,7 +83,7 @@ Paint
    Paint Surface.
 
 Paint is the basic surface type that outputs color and wetness values.
-In case of vertex surfaces results are outputted as vertex colors.
+In case of vertex surfaces, results are outputted as vertex colors.
 
 Wetmap is a black-and-white output that visualizes paint wetness. White being maximum wetness,
 black being completely dry. It is usually used as mask for rendering.
@@ -189,7 +189,7 @@ Output
 
 .. figure:: /images/physics_dynamic-paint_canvas_output-panel.png
 
-   Canvas output panel.
+   Canvas Output panel.
 
 From Output panel you can adjust how surface outputs its results.
 
