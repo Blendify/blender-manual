@@ -118,7 +118,7 @@ Reset All/Single to Default Value(s)
 Unset
    ToDo.
 Copy Data Path
-   For scripting -- Copies the Python path of the property, relative to the data-block.
+   For scripting -- Copies the path of the Python property, relative to the data-block.
 Copy To Selected
    Copies the property value to the selected object's corresponding property.
    A use case is if the Properties editor context is pinned.

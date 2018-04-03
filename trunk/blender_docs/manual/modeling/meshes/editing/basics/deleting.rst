@@ -57,7 +57,7 @@ Dissolve Vertices
    | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Vertices`
 
 Remove the vertex merging all surrounding faces.
-Int the case two edges, merging them into a single edge.
+In the case two edges, merging them into a single edge.
 
 Face Split
    When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
@@ -93,7 +93,7 @@ Dissolve Edges
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Edges`
 
-Removes edges sharing to faces (joining those faces).
+Removes edges sharing two faces (joining those faces).
 
 The options are the same as for the `Dissolve Vertices`_ tool.
 

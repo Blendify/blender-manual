@@ -67,7 +67,7 @@ Target Range Min/Max
 
    .. warning::
 
-      Unfortunately, here again we find the constraints limitations:
+      Unfortunately, here again we find the constraint's limitations:
 
       - When using a rotation property as "driver",
         these values are "mapped back" to the (-180.0 to 180.0) range.

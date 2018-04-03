@@ -11,13 +11,13 @@ There are three ways to establish the image used by the UV Texture:
 
 #. Paint a flat image in the UV/Image Editor onto the currently selected UV Texture,
    using its UV map to transfer the colors to the faces of the mesh.
-#. Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture.
+#. Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture
    (see :ref:`Projection Painting <painting-texture-index>`).
 #. Use any image-editing (paint) program to create an image.
    In the UV/Image Editor, select the UV Texture and load the image.
    Blender will then use that texture's UV map to transfer the colors to the faces of the mesh.
 
-Blender features a built-in paint mode called Texture Paint which is designed specifically to
+Blender features a built-in paint mode called *Texture Paint* which is designed specifically to
 help you edit your UV Textures and images quickly and
 easily in either the UV/Image or the 3D View Editor.
 Since a UV Texture is just a special-purpose image,
@@ -32,7 +32,7 @@ GIMP is a full-featured image manipulation program that is also open-source.
 Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
 However, each UV Texture only has one image.
 
-Texture Paint works in both a 3D View and the UV/Image Editor.
+*Texture Paint* works in both a 3D View and the UV/Image Editor.
 In the 3D View in Texture Paint Mode, you paint directly on the mesh by
 :ref:`projecting onto the UVs <painting-texture-index>`.
 
@@ -60,7 +60,7 @@ you can modify the image using the Texture Paint Mode:
 
 .. note:: Square Power of Two
 
-   Texture paint is very fast and responsive when working in the 3D View and when your image is sized as
+   *Texture Paint* is very fast and responsive when working in the 3D View and when your image is sized as
    a square where the side lengths are a power of two, e.g. 256×256, 512×512, 1024×1024, etc.
 
 Once you enable Texture Painting, your mouse becomes a brush. To work with the UV layout
@@ -162,7 +162,7 @@ Perspective View & Faces Behind the View
 ----------------------------------------
 
 When painting onto a face which is partially behind the view (in perspective mode), the face cannot be painted on.
-To avoid, this zoom out or use an Ortho mode viewport.
+To avoid this, zoom out or use an Ortho mode viewport.
 
 
 Perspective View & Low Poly
