@@ -5,7 +5,7 @@
 **********************
 
 There is one extra panel which is available in reconstruction mode -- 2D Stabilization Panel.
-The purpose of this feature is to smooth out jerky camera handling on existing real world footage.
+The purpose of this feature is to smooth out jerky camera handling on existing real-world footage.
 To activate the 2D stabilizer, you need to set the toggle in the panel, and additionally you need to enable
 *Display Stabilization* in the Display panel.
 Then you'll need to set up some tracking points to detect the image movements.

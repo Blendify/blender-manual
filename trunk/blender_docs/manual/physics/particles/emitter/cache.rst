@@ -25,7 +25,7 @@ trying to change a setting that will make a recalculating necessary.
 
 .. tip:: Beware of the *Start* and *End* Settings
 
-   The simulation is only calculated for the positive frames in-between the *Start* and *End*
+   The simulation is only calculated for the positive frames in between the *Start* and *End*
    frames of the *Bake* panel, whether you bake or not.
    So if you want a simulation longer than 250 frames you have to change the *End* frame!
 

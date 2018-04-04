@@ -8,14 +8,14 @@ Ambient Occlusion is a sophisticated ray-tracing calculation which simulates sof
 illumination shadows by faking darkness perceived in corners and at mesh intersections,
 creases, and cracks, where ambient light is occluded, or blocked.
 
-There is no such thing as AO in real life; AO is a specific not-physically-accurate
+There is no such thing as AO in the real world; AO is a specific not-physically-accurate
 (but generally nice-looking) rendering trick.
 It basically samples a hemisphere around each point on the face,
 sees what proportion of that hemisphere is occluded by other geometry,
 and shades the pixel accordingly.
 
 It is got nothing to do with light at all; it is purely a rendering trick that tends to look
-nice because generally in real life surfaces that are close together (like small cracks)
+nice because generally in real-world surfaces that are close together (like small cracks)
 will be darker than surfaces that do not have anything in front of them, because of shadows,
 dirt, etc.
 

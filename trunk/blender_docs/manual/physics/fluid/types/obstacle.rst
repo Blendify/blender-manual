@@ -30,7 +30,7 @@ Volume Initialization Type
 
 Boundary type
    Determines the stickiness of the obstacle surface, called "Surface Adhesion".
-   Surface Adhesion depends in real-world on the fluid and the graininess or
+   Surface Adhesion depends in the real world on the fluid and the graininess or
    friction/adhesion/absorption qualities of the surface.
 
    No Slip

@@ -31,9 +31,9 @@ Deinterlace
    if it is an analog video and it has even or odd interlacing fields.
 
 X Flip
-   Mirrors the image along the X axis (left-to-right).
+   Mirrors the image along the X axis (left to right).
 Y Flip
-   Mirrors the image along the Y axis (top-to-bottom).
+   Mirrors the image along the Y axis (top to bottom).
 
 
 Color

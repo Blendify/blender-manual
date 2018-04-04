@@ -116,7 +116,7 @@ Asymmetry
 
 The default method for scattering light in a volume is for the light to be deflected evenly in
 all directions, also known as Isotropic scattering.
-In real life different types of media can scatter light in different angular directions,
+In the real world different types of media can scatter light in different angular directions,
 known as Anisotropic scattering.
 Back-scattering means that light is scattered more towards the incoming light direction, and
 forward-scattering means it is scattered along the same direction as the light is traveling.

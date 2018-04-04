@@ -417,7 +417,7 @@ Keymap
 
 In Blender, add-ons have their own keymaps so as not to interfere with Blender's built-in key-maps.
 
-In the example below, a new object-mode :class:`blender_api:bpy.types.KeyMap` is added,
+In the example below, a new object mode :class:`blender_api:bpy.types.KeyMap` is added,
 then a :class:`blender_api:bpy.types.KeyMapItem` is added to the key-map which references
 our newly added operator, using :kbd:`Shift-Ctrl-Spacebar` as the key shortcut to activate it. ::
 

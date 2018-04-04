@@ -31,7 +31,7 @@ Examples
 ========
 
 - An armature is often used with a modifier to deform a mesh for character animation.
-- A camera rig can be used instead of animating the camera object directly to simulate real world camera rigs
+- A camera rig can be used instead of animating the camera object directly to simulate real-world camera rigs
   *(with a boom arm, mounted on a rotating pedestal for example, effects such as camera jitter can be added too).*
 
 .. TODO more examples?

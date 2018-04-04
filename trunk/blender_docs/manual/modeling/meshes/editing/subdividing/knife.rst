@@ -122,7 +122,7 @@ Knife Project
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into
 the mesh rather than hand drawing the line.
 
-This works by using the outlines of other selected objects in edit-mode to cut into the mesh
+This works by using the outlines of other selected objects in Edit Mode to cut into the mesh
 along the view axis, resulting geometry inside the cutters outline will be selected.
 
 Outlines can be wire or boundary edges.

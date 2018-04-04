@@ -269,7 +269,7 @@ Randomize
    Randomizes the stroke attributes.
    e.g. with *Position* enabled it displaces the points randomly in screen space to create jittered/jagged lines.
 Clone Brush
-   Used to paste the previously copied points (in the Copy/Paste buffer on the active layer),
+   Used to paste the previously copied points (in the copy-paste buffer on the active layer),
    located at the point where you clicked.
 
    Hold :kbd:`LMB` and drag to position and adjust the pasted strokes.

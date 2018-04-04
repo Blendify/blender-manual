@@ -90,7 +90,7 @@ This is often useful when a mesh has disconnected, overlapping parts,
 where isolating it any other way would be tedious.
 
 To give more control, you can also enable delimiters in the Operator panel,
-so the selection is constrained by seams, sharp-edges, materials or UV islands.
+so the selection is constrained by seams, sharp edges, materials or UV islands.
 
 With *Pick Linked* you can also select connected geometry directly under the cursor,
 using the :kbd:`L` shortcut to select or :kbd:`Shift-L` to deselect linked.

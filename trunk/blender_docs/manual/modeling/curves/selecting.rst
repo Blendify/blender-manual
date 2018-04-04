@@ -9,8 +9,8 @@ Mainly this is, because there is only one selectable element type, the control p
 however, especially for Béziers, as there is the central vertex, and its two handles...
 
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
-so you can select a simple control point with an :kbd:`RMB`,
-add to current selection with :kbd:`Shift-RMB`, :kbd:`B` border-select, and so on.
+so you can select a simple control point with the :kbd:`RMB`,
+add to current selection with :kbd:`Shift-RMB`, Border Select :kbd:`B`, and so on.
 
 One word about the Bézier control points: when you select the main central vertex,
 the two handles are automatically selected too, so you can grab it as a whole,

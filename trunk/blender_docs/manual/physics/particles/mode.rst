@@ -4,7 +4,7 @@
 Particle Edit Mode
 ******************
 
-Using *Particle Edit Mode* you can edit the key-points (Keyframes)
+Using *Particle Edit Mode* you can edit the keyed points (keyframes)
 and paths of *Baked*
 :doc:`Hair </physics/particles/hair/index>`,
 :doc:`Particle </physics/particles/index>`,

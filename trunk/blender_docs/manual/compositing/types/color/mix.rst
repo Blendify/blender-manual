@@ -111,7 +111,7 @@ To cure an overexposure, you must both darken the image and enhance the contrast
 
 In the top RGB curve, *Darken*, only the right side of the curve was lowered; thus,
 any X input along the bottom results in a geometrically less Y output.
-The *Enhance Contrast* RGB (S shaped) curve scales the output such that middle values of X change dramatically;
+The *Enhance Contrast* RGB (S-shaped) curve scales the output such that middle values of X change dramatically;
 namely, the middle brightness scale is expanded,
 and thus, whiter whites and blacker blacks are output. To make this curve,
 simply click on the curve and a new control point is added.

@@ -40,7 +40,7 @@ There are three different lens types:
 Perspective
 ^^^^^^^^^^^
 
-This matches how you view things in the real-world.
+This matches how you view things in the real world.
 Objects in the distance will appear smaller than objects in the foreground,
 and parallel lines (such as the rails on a railroad) will appear to converge as they get farther away.
 
@@ -174,7 +174,7 @@ Depth of Field
 
    Camera Depth of Field Panel.
 
-Real world cameras transmit light through a lens that bends and focuses it onto the sensor.
+Real-world cameras transmit light through a lens that bends and focuses it onto the sensor.
 Because of this, objects that are a certain distance away are in focus,
 but objects in front and behind that are blurred.
 

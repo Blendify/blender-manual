@@ -34,7 +34,7 @@ Damping
 Volume
 ------
 
-Some phenomena of real world hair can be simulated more efficiently using a volumetric model instead
+Some phenomena of real-world hair can be simulated more efficiently using a volumetric model instead
 of the basic geometric strand model. This means constructing a regular grid such as those used in
 fluid simulations and interpolating hair properties between the grid cells.
 

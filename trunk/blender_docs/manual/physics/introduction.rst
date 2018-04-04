@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Blender's physics system allows you to simulate a number of different real world physical phenomena.
+Blender's physics system allows you to simulate a number of different real-world physical phenomena.
 You can use these systems to create a variety of static and dynamic effects such as:
 
 - Hair, grass, and flocks

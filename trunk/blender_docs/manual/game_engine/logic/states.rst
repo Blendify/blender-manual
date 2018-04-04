@@ -69,7 +69,7 @@ Visible States
 In the Visible area, each of the 30 available states is represented by a light-gray square.
 This panel shows what logic is visible for the logic brick displayed for the object.
 At the right is the All button; if clicked, then all the object's logic bricks are displayed
-(this is a toggle), and all State Panel squares are light-gray. Otherwise,
+(this is a toggle), and all State Panel squares are light gray. Otherwise,
 individual states can be clicked to make their logic visible.
 (Note that you can click more than one square). Clicking the square again deselects the state.
 

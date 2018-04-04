@@ -28,7 +28,7 @@ does not have volume; it is infinitely thin.
 If it had a volume the surface would have a thickness (its third dimension). Hence,
 it is only a 2D object, and has only two interpolation dimensions or axes or coordinates
 (if you know a bit of math, think of non-euclidean geometry -- well,
-surfaces are just non-euclidean 2D planes...). To take a more "real life" example,
+surfaces are just non-euclidean 2D planes...). To take a more "real-world" example,
 you can roll a sheet of paper to create a cylinder; well, even if it "draws" a volume,
 the sheet itself will remain a (nearly...) 2D object!
 

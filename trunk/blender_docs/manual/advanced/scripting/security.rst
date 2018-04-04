@@ -32,7 +32,7 @@ Registered Text-Blocks
    A text block can have its *Register* option enabled which means it will load on start.
 Animation Drivers
    Python expressions can be used to *Drive* values and are often used in more advanced rigs and animations.
-Game Engine Auto-Start
+Game Engine Auto Start
    Scripts are often used for game logic, blend-files can have *Auto Start* enabled which runs the game on load.
 
 
@@ -40,7 +40,7 @@ Manual Execution
 ----------------
 
 There are other ways scripts in a blend-file may execute that require user
-interaction (therefore will run even when auto-execution is off),
+interaction (therefore will run even when auto execution is off),
 but you should be aware that this is the case since it is not necessarily obvious.
 
 - Running a script in the text editor.
@@ -55,7 +55,7 @@ Blender provides a number of ways to control whether scripts
 from a blend-file are allowed to automatically execute.
 
 First of all, the File Browser has the option **Trusted Source** which you can use on
-a case-by-case basis to control auto-execution.
+a case-by-case basis to control auto execution.
 
 However, you may forget to set this,
 or open a file without going through the File Browser --

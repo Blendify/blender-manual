@@ -49,7 +49,7 @@ each one is locked to its own local axis!
 When you pose your armature,
 you are supposed to have one or more objects skinned on it! And obviously,
 when you transform a bone in *Pose Mode*,
-its related objects or object's shape is moved/deformed accordingly, in real time.
+its related objects or object's shape is moved/deformed accordingly, in real-time.
 Unfortunately, if you have a complex rig set-up and/or a heavy skin object,
 this might produce lag, and make interactive editing very painful.
 If you experience such troubles, try enabling the *Delay Deform* button of
@@ -198,7 +198,7 @@ Copy/Paste Pose
                :menuselection:`Pose --> Paste X-Flipped Pose`
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
-directly using the three "copy/paste" buttons found at the right part of the 3D Views header:
+directly using the three copy/paste buttons found at the right part of the 3D Views header:
 
 Copy Current Pose
    To copy the current pose of selected bones into the pose buffer.

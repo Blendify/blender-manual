@@ -193,8 +193,8 @@ Details
 - It must be an *open curve*.
 - The taper is applied independently to all curves of the extruded object.
 - Only the first curve in a *Taper Object* is evaluated, even if you have several separated segments.
-- The scaling starts at the first control-point on the left
-  and moves along the curve to the last control-point on the right.
+- The scaling starts at the first control point on the left
+  and moves along the curve to the last control point on the right.
 - Negative scaling, (negative local Y on the taper curve) is possible as well.
   However, rendering artifacts may appear.
 - Might need to increase the curve resolution to see more detail of the taper.
@@ -216,7 +216,7 @@ then exit *Edit Mode*. Add another one (a closed one, like a circle); call it "B
 and enter its name in the *Bevel Object* field of the first curve
 (*Curve* tab). We now have a pipe.
 Add a third curve while in *Object Mode* and call it "TaperCurve".
-Adjust the left control-point by raising it up about 5 units.
+Adjust the left control point by raising it up about 5 units.
 
 Now return to the Object tab,
 and edit the first curve's *Taper Object* field in the Geometry panel to reference the new taper curve

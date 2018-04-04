@@ -6,7 +6,7 @@ Color Management
 ****************
 
 Color management is one of the most important tools that an artist can use.
-It allows an artist to make sure that an image stays the same from rendering, to saving, to post processing.
+It allows an artist to make sure that an image stays the same from rendering, to saving, to post-processing.
 Color management also allows an artist to tweak things like exposure, gamma, or the overall color grade.
 
 .. figure:: /images/render_post-process_color-management_different-exposures.jpg

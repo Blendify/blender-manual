@@ -7,7 +7,7 @@ Color Ramp Widget
 
 .. figure:: /images/interface_controls_templates_color-ramp_color-ramp.png
 
-   Color-Ramp.
+   Color ramp.
 
 *Color Ramps* enables the user to specify a range of colors based on color-stops.
 Color-stops are similar to a mark indicating where exactly the chosen color should be.

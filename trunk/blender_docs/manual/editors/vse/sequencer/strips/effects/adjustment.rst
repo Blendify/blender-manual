@@ -7,7 +7,7 @@ Adjustment Layer
 The Adjustment Layer strip works like a regular input file strip except for the fact,
 that it considers all strips below it as its input.
 
-Real world use cases, you want to add some last finishing color correction on top of parts of
+Real-world use-cases, you want to add some last finishing color correction on top of parts of
 your final sequence, timeline without messing with meta strips around.
 Just add an adjustment layer on top and activate the color balance.
 

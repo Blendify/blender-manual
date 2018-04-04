@@ -7,7 +7,7 @@ Camera Solver Constraint
 The *Camera Solver* constraint gives the owner of this constraint,
 the location and rotation of the "solved camera motion".
 
-The "solved camera motion" is where Blender thinks the physical, real world camera was,
+The "solved camera motion" is where Blender reconstructs the position of the physical, real-world camera,
 when it filmed the video footage, relative to the thing being tracked.
 
 .. note::

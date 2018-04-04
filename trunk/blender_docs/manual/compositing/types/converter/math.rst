@@ -105,7 +105,7 @@ Brightening/Scaling a Channel
 This example has a *Math: Multiply* node increasing the luminance channel (Y)
 of the image to make it brighter. Note that you should use a *Map Value node*
 with min() and max() enabled to clamp the output to valid values.
-With this approach, you could use a logarithmic function to make a high-dynamic range image.
+With this approach, you could use a logarithmic function to make a high dynamic range image.
 For this particular example,
 there is also a *Brighten/Contrast node* that might give simpler control over brightness.
 
