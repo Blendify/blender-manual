@@ -263,7 +263,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |cross|
      - | Reference to an image sequence or video file.
-       | Used in the motion-tracking editor.
+       | Used in the motion tracking editor.
    * - NodeGroup
      - |tick|
      - |none|

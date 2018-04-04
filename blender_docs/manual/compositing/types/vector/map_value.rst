@@ -45,7 +45,7 @@ Example
 Z-Depth Map
 -----------
 
-This is particularly useful in achieving a depth-of-field effect,
+This is particularly useful in achieving a depth of field effect,
 where the Map Value node is used to map a Z value
 (which can be 20 or 30 or even 500 depending on the scene) to the range between (0 to 1),
 suitable for connecting to a Blur node.

@@ -217,7 +217,7 @@ Intersect (Boolean)
 
 Performs boolean operations with the selection on the unselected geometry.
 While the :doc:`/modeling/modifiers/generate/booleans` is useful for non-destructive edits,
-access to booleans as an edit-mode tool can be useful to quickly perform edits.
+access to booleans with a tool in Edit Mode can be useful to quickly perform edits.
 
 Boolean
    Difference, Union, Intersect

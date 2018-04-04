@@ -100,7 +100,7 @@ untextured objects hanging out there in 3D space.
 This rig is used in real studios for lighting a product, especially a glossy one.
 
 Both lights are almost the same but do different things. Both emulate very wide,
-soft light by being *Hemi*. In real life,
+soft light by being *Hemi*. In the real world,
 these lights bounce light off the inside of a silver umbrella.
 
 Notice how we use low *Energy* to bring out the dimensionality of the sphere;
@@ -129,7 +129,7 @@ There are multiple thesis on this rig, and you will use one of two:
 #. Studio: Used in a real studio to film in front of a green screen or backdrop.
    Use this rig when you are rendering your CG objects to alpha into the scene
    so that the lighting on the actors *and* your CG objects is the same.
-#. Standard: Used in real life to light actors on a set, and gives some backlighting to
+#. Standard: Used in the real world to light actors on a set, and gives some backlighting to
    highlight the sides of actors, making them stand out more and giving them depth.
 
 
@@ -154,7 +154,7 @@ and the side fill lights light up the props.
 The key light is the *Area* light placed slightly above and to the left of the camera.
 It allows the specular to come out. It is about 30 BU back from the subject,
 and travels with the camera. A little specular shine lets you know there is a light there,
-and that you are not looking at a ghost. In real life, it is a spot with baffles, or blinders,
+and that you are not looking at a ghost. In the real world, it is a spot with baffles, or blinders,
 that limit the area of the light.
 
 The two sidelights are reduced to only fill; each of them are *Hemi* lights placed

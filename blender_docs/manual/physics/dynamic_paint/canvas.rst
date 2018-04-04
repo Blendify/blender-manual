@@ -85,7 +85,7 @@ Paint
 Paint is the basic surface type that outputs color and wetness values.
 In case of vertex surfaces, results are outputted as vertex colors.
 
-Wetmap is a black-and-white output that visualizes paint wetness. White being maximum wetness,
+Wet-map is a black-and-white output that visualizes paint wetness. White being maximum wetness,
 black being completely dry. It is usually used as mask for rendering.
 Some "paint effects" affect wet paint only.
 

@@ -45,8 +45,8 @@ The answer to each of the above questions is an image or map, as shown below:
    :width: 600px
 
 Each Render Pass puts out an image or a map. For the purposes of this example,
-a Render Layer was defined to produce all possible outputs. When a Render Layer input-node
-was added to the node diagram and the Render Layer input-node was subsequently associated with
+a Render Layer was defined to produce all possible outputs. When a Render Layer input node
+was added to the node diagram and the Render Layer node was subsequently associated with
 the Render Layer, all of the layer's outputs appeared as connection points on the right-hand
 (output) side of the node.
 
@@ -94,7 +94,7 @@ Combined
    blended into a single output, *except* those options which you have indicated should be omitted from this pass,
    as indicated with the camera button.
 Z
-   The Z-depth map; how far away each pixel is from the camera. Used for Depth-Of-Field (DOF).
+   The Z-depth map; how far away each pixel is from the camera. Used for depth of field (DOF).
    The depth map is inverse linear *(1/distance)* from the camera clip start.
 Vector
    The direction and speed things are moving. Used with Vector Blur.

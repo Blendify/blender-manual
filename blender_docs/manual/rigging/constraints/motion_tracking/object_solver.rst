@@ -8,7 +8,7 @@ The *Object Solver* constraint gives the owner of this constraint,
 the location and rotation of the "solved object motion".
 
 The "solved object motion" is where Blender thinks the physical,
-real world (tracked) object was, relative to the camera that filmed it.
+real-world (tracked) object was, relative to the camera that filmed it.
 
 Can be used to add a mesh to video for example.
 

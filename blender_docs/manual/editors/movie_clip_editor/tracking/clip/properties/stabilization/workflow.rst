@@ -54,7 +54,7 @@ Resist that deception, it rarely works out well.
   Also, using a higher frame rate reduces the amount of rolling shutter; another reason to prefer
   interlaced over progressive for the purpose at hand.
 - Switch off autofocus.
-  Better plan your movement beforehand, set a fixed focus and rely on depth-of-field through using a small aperture.
+  Better plan your movement beforehand, set a fixed focus and rely on depth of field through using a small aperture.
   Pumping movements might not be so noticeable to the human observer, but the feature tracking tends to slide away
   on defocused image elements; fixing this manually after the fact can cause a huge waste of time.
 - Increase the lighting level, at least use a higher sensitivity.

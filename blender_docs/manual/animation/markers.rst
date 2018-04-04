@@ -145,7 +145,7 @@ Click :kbd:`RMB` on the marker's triangle to select it.
 Use :kbd:`Shift-RMB` to select multiple markers.
 
 In the Graph Editor, Dope Sheet, NLA Editor, and Video Sequence Editor,
-you can also select all markers with :kbd:`Ctrl-A`, and border-select them with :kbd:`Ctrl-B`
+you can also select all markers with :kbd:`Ctrl-A`, and apply selection tools on them like Border Select etc.
 (as usual, :kbd:`LMB` to select, :kbd:`RMB` to deselect).
 The corresponding options are found in the Select menu of these editors.
 

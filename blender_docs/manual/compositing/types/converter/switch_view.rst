@@ -25,9 +25,9 @@ Inputs
 ======
 
 Left
-   Left eye image input.
+   Left-eye image input.
 Right
-   Right eye image input.
+   Right-eye image input.
 
 
 Properties

@@ -71,7 +71,7 @@ getting absorbed or scattered, and how much will pass straight through. For effe
 smoke you would specify a density field to indicate where in the volume there is smoke and
 how much (density bigger than 0), and where there is no smoke (density equals 0).
 
-Volumes in real life consist of particles,
+Volumes in the real world consist of particles,
 a higher density means there are more particles per unit volume. More particles means there is
 a higher chance for light to collide with a particle and get absorbed or scattered,
 rather than passing straight through.
@@ -113,7 +113,7 @@ The size of this object will determine how much light is scattered or absorbed.
 Multiple Scattering
 ===================
 
-Real world effects such as scattering in clouds or subsurface scattering require many
+Real-world effects such as scattering in clouds or subsurface scattering require many
 scattering bounces. However, unbiased rendering of such effects can be noisy, so by default
 the number of bounces is zero.
 The effect you get when rendering with zero volume bounces is what is known as

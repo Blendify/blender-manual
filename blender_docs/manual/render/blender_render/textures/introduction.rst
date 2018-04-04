@@ -52,7 +52,7 @@ The layers, if you will, are:
 
 This notion of using *more than one* texture, to achieve a combined effect,
 is one of the "hidden secrets" of creating realistic-looking objects.
-If you carefully "look at the light" while examining any real-life object,
+If you carefully "look at the light" while examining any real-world object,
 you will observe that the final appearance of that object is best described as the combination,
 in different ways and in different amounts, of several distinct underlying visual characteristics.
 These characteristics might be more (or less) strongly apparent at different angles,

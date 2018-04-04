@@ -235,9 +235,9 @@ and as usual on adjacent control points for NURBS.
 The only time a handle is adjusted after closing is if the handle is an *Auto* one.
 Fig. :ref:`fig-curves-editing-open-close` is the same Bézier curve open and closed.
 
-This action only works on the original starting control-point or the last control-point added.
+This action only works on the original starting control point or the last control point added.
 Deleting a segment(s) does not change how the action applies;
-it still operates only on the starting and last control-points. This means that
+it still operates only on the starting and last control points. This means that
 :kbd:`Alt-C` may actually join two curves instead of closing a single curve!
 Remember that when a 2D curve is closed, it creates a renderable flat face.
 

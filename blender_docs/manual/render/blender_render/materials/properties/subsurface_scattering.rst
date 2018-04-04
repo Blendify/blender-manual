@@ -115,7 +115,7 @@ Scale
    Scale of 1.0 means 1 Blender unit equals 1 millimeter,
    scale of 0.001 means 1 Blender unit equals 1 meter.
    If you want to work out what scale value to use in your scene,
-   just use the formula: (size in Blender units)/(real world size in millimeters)=scale.
+   just use the formula: (size in Blender units)/(real-world size in millimeters)=scale.
 
 Scattering Color (Albedo)
    Albedo is the probability that light will survive a scattering event.

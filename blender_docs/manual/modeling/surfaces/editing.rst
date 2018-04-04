@@ -114,7 +114,7 @@ to select the rest of the control points.
 
        .. figure:: /images/modeling_surfaces_editing_selecting-point.png
 
-          Selecting control-point.
+          Selecting control point.
 
      - .. _fig-surface-edit-select-row:
 

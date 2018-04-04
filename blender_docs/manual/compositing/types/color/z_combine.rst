@@ -95,7 +95,7 @@ yields the example to the right.
 In this node setup a render scene is mixed with a flat image. In the side view of the scene,
 the purple cube is 10 units away from the camera, and the gray ball is 20.
 The 3D cursor is about 15 units away from the camera. The image is Z-in at a location of 15,
-thus inserting it in-between the cube and the ball.
+thus inserting it in between the cube and the ball.
 The resulting image appears to have the cube on the table.
 
 .. note:: Invisible Man Effect

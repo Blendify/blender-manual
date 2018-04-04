@@ -36,7 +36,7 @@ Copying Sketches
 ----------------
 
 It is possible to copy sketches from a layer/layers to other layers
-using the "Copy"/"Paste" buttons in the header.
+using the *Copy* and *Paste* buttons in the header.
 This works in a similar way as the copy/paste tools for keyframes in the *Action Editor*.
 
 Sketches can also be copied from data-block to another using these tools.

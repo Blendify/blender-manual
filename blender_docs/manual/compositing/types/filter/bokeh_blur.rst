@@ -66,7 +66,7 @@ To prevent strange edges the :doc:`Dilate Node </compositing/types/filter/dilate
 The Z pass can be visualized using a :doc:`Map Value </compositing/types/vector/map_value>` node
 and :doc:`Color Ramp </compositing/types/converter/color_ramp>` node
 as described in :doc:`Render Layers </compositing/types/input/render_layers>`.
-A *multiply* :doc:`Math </compositing/types/converter/math>` node can be used following the color-ramp
+A *multiply* :doc:`Math </compositing/types/converter/math>` node can be used following the color ramp
 so that a blur value greater than one is used for objects outside the focal range.
 
 .. figure:: /images/compositing_types_filter_bokeh-blur_example-1.png

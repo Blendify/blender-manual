@@ -9,7 +9,7 @@ There are shortcuts shared among many button types.
 Mouse
 =====
 
-In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for Selection
+In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for selection
 and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
 
 .. list-table::
@@ -78,7 +78,7 @@ Python Scripting
   (also available from the context menu).
 
   Useful when writing drivers or scripts.
-- :kbd:`Shift-Ctrl-Alt-C` -- Over property buttons copies their *full* data-path for the Data-Block and property.
+- :kbd:`Shift-Ctrl-Alt-C` -- Over property buttons copies their *full* data-path for the data-block and property.
 
   Note that in most cases it is best to access values based on the context, instead of by name.
 

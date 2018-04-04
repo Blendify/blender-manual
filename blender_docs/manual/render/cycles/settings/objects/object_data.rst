@@ -71,7 +71,8 @@ Shadow Catcher
 
 Enables the object to only receive shadow rays.
 It is to be noted that shadow catcher objects will interact with other CG objects via indirect light interaction.
-This feature makes it really easy to combine CGI elements into a real-life footage.
+This feature makes it really easy to combine :abbr:`CGI (Computer-generated imagery)` elements
+into a real-world footage.
 
 .. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.png
 

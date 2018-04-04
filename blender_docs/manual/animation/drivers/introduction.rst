@@ -54,8 +54,8 @@ The source/target (input) property can then be selected with an :ref:`ui-eye-dro
    Therefore, you need to be able to see both the source and the destination properties when using the eyedropper.
 
 
-Copy Paste
-----------
+Copy & Paste
+------------
 
 .. admonition:: Reference
    :class: refbox

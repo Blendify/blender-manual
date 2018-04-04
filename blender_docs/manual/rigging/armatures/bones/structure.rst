@@ -14,7 +14,7 @@ They have three elements:
 #. The "body" itself.
 #. And the "end joint" named *tip* or *tail*.
 
-With the default armature in edit-mode,
+With the default armature in Edit Mode,
 you can select the root and the tip, and move them as you do with mesh vertices.
 
 Both root and tip (the "joints") define the bone by their respective position.
