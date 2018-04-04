@@ -58,7 +58,7 @@ Interpolation
    Quadratic
       Mid-range quality and speed.
    Cubic Catmull-Rom
-      Smoothed high quality interpolation, but slower.
+      Smoothed high-quality interpolation, but slower.
 
 Extension
    Extend

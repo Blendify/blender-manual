@@ -554,7 +554,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Oversampling
       Is the technique of minimizing :term:`aliasing`
-      when representing a high-resolution signal at a lower resolution.
+      when representing a high resolution signal at a lower resolution.
 
       Also called Anti-Aliasing.
 

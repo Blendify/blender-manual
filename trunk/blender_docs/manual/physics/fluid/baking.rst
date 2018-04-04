@@ -52,7 +52,7 @@ Baking always starts at Frame #1
    you must key the fluid objects in your domain to be inactive until the frame you desire to start the simulation.
 
 Baking always ends at the *End* Frame set in the *Animation* panel
-   If your frame-rate is 25 frames per second,
+   If the frame rate is set to 25 frames per second,
    and ending time is 4.0 seconds, then you should (if your start time is 0)
    set your animation to end at frame ``4.0 × 25 = 100``.
 

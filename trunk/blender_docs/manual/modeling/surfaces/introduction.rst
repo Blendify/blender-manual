@@ -15,7 +15,7 @@ you cannot have in the same object both curves and surfaces.
 
 .. figure:: /images/modeling_surfaces_introduction_nurbs-surface.png
 
-   Nurbs surface in Edit Mode.
+   NURBS surface in Edit Mode.
 
 As surfaces are 2D, they have two interpolation axes, U (as for curves) and V.
 It is important to understand that you can control the interpolation rules (knot, order, resolution)

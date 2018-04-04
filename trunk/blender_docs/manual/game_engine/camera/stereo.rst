@@ -3,7 +3,7 @@
 Stereo Camera
 *************
 
-Stereo Cameras allow you to generate images that appear three dimensional when wearing special glasses.
+Stereo Cameras allow you to generate images that appear three-dimensional when wearing special glasses.
 This is achieved by rendering two separate images from cameras that are a small distance apart from each other,
 simulating how our own eyes see. When viewing a stereo image, one eye is limited to seeing one of the images,
 and the other eye sees the second image. Our brain is able to merge these together,

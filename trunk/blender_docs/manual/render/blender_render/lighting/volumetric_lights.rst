@@ -10,7 +10,7 @@ Volumetric Lighting
    modeling and rendering especially in the field of 3D gaming. In volumetric lighting,
    the light cone emitted by a light source is modeled as a transparent object and
    considered as a container of a "volume": as a result,
-   light has the capability to give the effect of passing through an actual three dimensional medium
+   light has the capability to give the effect of passing through an actual three-dimensional medium
    (such as fog, dust, smoke, or steam) that is inside its volume, just like in the real world."
 
    -- According to Wikipedia, `volumetric lighting <https://en.wikipedia.org/wiki/Volumetric_lighting>`__.

@@ -53,8 +53,8 @@ Shortcuts
 =========
 
 - :kbd:`Ctrl-LMB` Adds new ruler.
-- :kbd:`LMB` Drag end-points to place them, hold :kbd:`Ctrl` to snap, hold :kbd:`Shift` to measure thickness.
-- :kbd:`LMB` Drag center-point to measure angles, drag out of the view to convert back to a ruler.
+- :kbd:`LMB` Drag end points to place them, hold :kbd:`Ctrl` to snap, hold :kbd:`Shift` to measure thickness.
+- :kbd:`LMB` Drag the center point to measure angles, drag out of the view to convert back to a ruler.
 - :kbd:`Delete` Deletes the ruler.
 - :kbd:`Ctrl-C` Copies the rulers value to the clipboard.
 - :kbd:`Esc` Exit tool.

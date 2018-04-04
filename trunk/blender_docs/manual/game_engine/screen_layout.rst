@@ -45,8 +45,8 @@ Start Game
    Run game in Game Engine (:kbd:`P` or :kbd:`Shift-P` when the mouse cursor is over the 3D View editor).
 Show Debug Properties
    Show properties marked for debugging while game runs.
-Show frame-rate and profile
-   Show frame-rate and profiling information while game runs.
+Show frame rate and profile
+   Show frame rate and profiling information while game runs.
 Show Physics visualization
    Show a visualization of physics bounds and interactions.
 Deprecation warnings

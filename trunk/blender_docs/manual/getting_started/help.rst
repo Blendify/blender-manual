@@ -38,7 +38,7 @@ Python
 
 .. _help-manual-access:
 
-Context Sensitive Manual Access
+Context-Sensitive Manual Access
 ===============================
 
 .. admonition:: Reference

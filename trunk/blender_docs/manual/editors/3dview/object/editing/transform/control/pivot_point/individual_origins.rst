@@ -22,7 +22,7 @@ In Object Mode
 
    Rotation around individual origins.
 
-The Origin of an object is shown in the 3D View by a small orange circle.
+The origin of an object is shown in the 3D View by a small orange circle.
 This is highlighted in the image to the right by the red arrow.
 It tells Blender the relative position of that object in 3D space.
 What you see in the 3D View (vertices, edges, etc.) is what makes up the object.
@@ -30,12 +30,12 @@ What you see in the 3D View (vertices, edges, etc.) is what makes up the object.
 The origin does not have to be located in the center of the geometry (e.g. mesh).
 This means that an object can have its origin located on one end of the mesh or
 even completely outside the mesh. For example,
-the orange rectangle in the image has its Origin located on the far left of the mesh.
+the orange rectangle in the image has its origin located on the far left of the mesh.
 
 Now let us examine: Rotation around the individual origins:
 
-- The blue rectangle has its Origin located in the center of the mesh,
-  while the orange rectangle has its Origin located on the left hand side.
+- The blue rectangle has its origin located in the center of the mesh,
+  while the orange rectangle has its origin located on the left-hand side.
 - When the Pivot Point is set to *Individual Origins*,
   the origin of each object (indicated by the red arrow)
   remains in place while the object rotates around it in the path shown by the black arrow.

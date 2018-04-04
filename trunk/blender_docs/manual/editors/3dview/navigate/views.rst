@@ -41,22 +41,22 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 
 .. note::
 
-   These notes cover changes in local-view which are not immediately obvious.
+   These notes cover changes in local view which are not immediately obvious.
 
    3D Cursor
-      In local-view the 3D cursor is not locked to the scene.
+      In local view the 3D cursor is not locked to the scene.
       Instead, each view has an independent cursor location.
    Layers
-      Local-view bypasses layers, using only the selected objects when entering local-view.
-      Although new objects may be added while in local-view.
+      Local view bypasses layers, using only the selected objects when entering local view.
+      Although new objects may be added while in local view.
 
       It's also possible to send objects out of local view,
       using :menuselection:`Object --> Move Objects out of Local View`,
       which can be useful to further isolate a selection.
    Preview Renders
-      Preview renders will still use lamps outside the local-view,
+      Preview renders will still use lamps outside the local view,
       this allows you to quickly render previews
-      without having to remember to select all lamps when entering local-view.
+      without having to remember to select all lamps when entering local view.
 
 .. tip::
 

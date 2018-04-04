@@ -61,7 +61,7 @@ If you are unsure what video codecs your system supports, select ``AVI JPEG``.
 
 .. note::
 
-   You can change the frame-rate for a screencast in the :ref:`User Preferences <prefs-system-screencast>`.
+   You can change the frame rate for a screencast in the :ref:`User Preferences <prefs-system-screencast>`.
 
 When you start Blender Screencasts, the header of the *Info Editor* will change,
 and it will show you a button for stopping your capture.

@@ -115,7 +115,7 @@ If several curves are joined, each one will keep its subtype (NURBS or Bézier).
 
    Object data has many attributes which may be handled when joining.
 
-   Materials, vertex-groups, UV and Vertex layers will be merged.
+   Materials, vertex groups, UV and Vertex layers will be merged.
 
    Modifiers, constraints, groups and parent relationships
    are ignored when joining and will not be applied to the active object.

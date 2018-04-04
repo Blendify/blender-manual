@@ -257,7 +257,7 @@ Optimization
       How many adaptive grid levels to be used during simulation.
       Setting this to -1 will perform automatic selection.
    Compressibility
-      If you have problems with large standing fluid regions at high resolution,
+      If you have problems with large standing fluid regions at a high resolution,
       it might help to reduce this number (note that this will increase computation times).
 
 

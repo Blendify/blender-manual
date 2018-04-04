@@ -123,7 +123,7 @@ Other data-blocks such as Groups and Actions can be *Unlinked* from the *Outline
    especially since image views are counted as users.
 
    For data-blocks that can be unlinked hold :kbd:`Shift`, while pressing on the *X* button.
-   This force clears the user-count, so the data-block will be removed on reloading.
+   This force clears the user count, so the data-block will be removed on reloading.
 
 
 .. _data-system-datablock-types:
@@ -215,7 +215,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |none|
      - | Reference object's.
-       | Used by dupli-groups & often library-linking.
+       | Used by dupli-groups & often library linking.
    * - Image
      - |tick|
      - |tick|
@@ -263,7 +263,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |cross|
      - | Reference to an image sequence or video file.
-       | Used in the motion tracking editor.
+       | Used in the Movie Clip editor.
    * - NodeGroup
      - |tick|
      - |none|

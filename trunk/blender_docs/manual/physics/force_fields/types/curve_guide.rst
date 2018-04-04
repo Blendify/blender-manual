@@ -48,16 +48,16 @@ Options
 
 Minimum Distance
    The distance from the curve, up to where the force field is effective with full strength.
-   If you have a *Fall-off* of 0 this parameter does nothing,
+   If you have a falloff of 0 this parameter will have no effect,
    because the field is effective with full strength up to *Max Distance* (or the infinity).
    *Min Distance* is shown with a circle at the endpoints of the curve in the 3D View.
 
 Free
    Fraction of particle life time, that is not used for the curve.
 
-Fall-off
+Falloff
    This setting governs the strength of the guide between *Min Distance* and *Max Distance*.
-   A *Fall-off* of 1 means a linear progression.
+   A falloff of 1 means a linear progression.
 
 
 Path
@@ -67,7 +67,7 @@ A particle follows a *Curve Guide* during its lifetime,
 the velocity depends on its lifetime and the length of the path.
 
 Additive
-   If you use *Additive*, the speed of the particles is also evaluated depending on the *Fall-off*.
+   If you use *Additive*, the speed of the particles is also evaluated depending on the falloff.
 Weights
    Use Curve weights to influence the particle influence along the curve.
 Maximum Distance / Use Max
@@ -96,13 +96,13 @@ Type
    Curl
       The radius of the influence depends on the distance of the curve to the emitter.
    Radial
-      A three dimensional, standing wave.
+      A three-dimensional, standing wave.
    Wave
-      A two dimensional, standing wave.
+      A two-dimensional, standing wave.
    Braid
       Braid.
    Roll
-      A one dimensional, standing wave.
+      A one-dimensional, standing wave.
 
 It is not so easy to describe the resulting shapes, so have a look at the example below.
 

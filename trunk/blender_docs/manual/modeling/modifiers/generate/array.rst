@@ -12,7 +12,7 @@ This modifier can be useful when combined with tileable meshes for quickly devel
 It is also useful for creating complex repetitive shapes.
 
 Multiple Array Modifiers may be active for an object at the same time
-(e.g. to create complex three dimensional constructs).
+(e.g. to create complex three-dimensional constructs).
 
 
 Options

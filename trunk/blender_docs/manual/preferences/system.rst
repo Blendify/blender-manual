@@ -81,10 +81,10 @@ Sample Format
 Screencast
 ==========
 
-These settings are used to control the frame-rate for recording a :ref:`Screencast <info-screencast>`.
+These settings are used to control the frame rate for recording a :ref:`Screencast <info-screencast>`.
 
 FPS
-   The frame-rate for screencast playback.
+   The frame rate for screencast playback.
 Wait Timer
    Time in milliseconds between each frame recorded for screencast.
 

@@ -105,24 +105,24 @@ Falloff
 -------
 
 Here you can specify the shape of the force field
-(if the *Fall-off* Power is greater than 0).
+(if the falloff *Power* is greater than 0).
 
 Falloff Type
    Sphere
-      Falloff is uniform in all directions, as in a sphere.
+      The falloff is uniform in all directions, as in a sphere.
    Tube
-      Fall off results in a tube shaped force field.
-      The Field's *Radial falloff* can be adjusted,
+      The falloff results in a tube shaped force field.
+      The field's *Radial Power* can be adjusted,
       as well as the *Minimum* and *Maximum* distances of the field.
    Cone
-      Fall off results in a cone shaped force field. Additional options are the same as those of *Tube* options.
+      The falloff results in a cone shaped force field. Additional options are the same as those of *Tube* options.
 
 Z Direction
-   *Fall-off* can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.
+   The falloff can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.
 Power (Power)
    How the power of the force field changes with the distance from the force field.
    If *r* is the distance from the center of the object, the force changes with 1/ *r*\ :sup:`power`.
-   A *Fall-off* of 2 changes the force field with 1/ *r*\ :sup:`2`,
+   A falloff of 2 changes the force field with 1/ *r*\ :sup:`2`,
    which is the falloff of gravitational pull.
 
 Max Distance
@@ -130,6 +130,6 @@ Max Distance
    (shown by an additional circle around the object).
 Min Distance
    The distance from the object center, up to where the force field is effective with full strength.
-   If you have a *Fall-off* of 0 this parameter does nothing,
+   If you have a falloff of 0 this parameter will have no effect,
    because the field is effective with full strength up to *Max Distance* (or the infinity).
    Shown by an additional circle around the object.

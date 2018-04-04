@@ -25,7 +25,7 @@ Stamp Output
       Set the size of the text.
    Draw Labels
       Draws the labels before the metadata text. For example,
-      "Camera" infront of camera name, etc.
+      "Camera" in front of the camera name, etc.
 
 
 .. rubric:: Enabled Metadata
@@ -49,7 +49,7 @@ Note
 
    .. hint::
 
-      It can be useful to use the *Note* field if you are setting up a render-farm.
+      It can be useful to use the *Note* field if you are setting up a render farm.
 
       Since you can script any information you like into it,
       such as an identifier for the render-node or the job-number.

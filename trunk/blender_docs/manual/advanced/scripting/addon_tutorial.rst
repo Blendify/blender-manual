@@ -259,7 +259,7 @@ Now try copy this script into Blender and run it on the default Cube.
 Make sure you click to move the 3D cursor before running as the duplicate will appear at the cursor's location.
 
 After running, notice that when you go into *Edit Mode* to change the Cube -- all of the copies change.
-In Blender, this is known as *Linked-Duplicates*.
+In Blender, this is known as *Linked Duplicates*.
 
 Next, we're going to do this in a loop, to make an array of objects between the active object and the cursor. ::
 
