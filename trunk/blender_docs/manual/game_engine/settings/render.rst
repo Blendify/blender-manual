@@ -80,7 +80,7 @@ close to the one suggested; but the results can be unpredictable, especially in 
 Note that the *Desktop* checkbox has no effect in Windowed mode.
 
 Start
-   Launches the current .blend file with the Standalone Player.
+   Launches the current blend-file with the Standalone Player.
 Resolution
    X
       Sets the X window size or full-screen display resolution.

@@ -20,7 +20,7 @@ the header with the option to **Reload Trusted** or **Ignore** the message.
    Info Header.
 
 
-Scripts in Blend Files
+Scripts in Blend-Files
 ======================
 
 Auto Execution

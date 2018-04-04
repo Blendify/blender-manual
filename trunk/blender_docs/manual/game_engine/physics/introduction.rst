@@ -118,7 +118,7 @@ Show Framerate and Profile
    with :menuselection:`Game --> Show Framerate and Profile` enabled.
 
 If you enable :menuselection:`Game --> Show Framerate and Profile`,
-it will put some statistics in the upper-left area of the game window.
+it will put some statistics in the upper left area of the game window.
 
 .. seealso::
 

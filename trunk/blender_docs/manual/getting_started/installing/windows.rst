@@ -12,7 +12,7 @@ You will also need the
 Download the ``.zip`` or ``.msi`` for your architecture (64-bit is preferable if your machine supports it).
 
 The ``.msi`` will run an installer to choose where to place Blender
-and to configure MS-Windows to have an entry on the menu and to open .blend-files with Blender.
+and to configure MS-Windows to have an entry on the menu and to open blend-files with Blender.
 Administrator rights are needed to install Blender on your system.
 
 .. figure:: /images/getting-started_installing_windows_installer.png

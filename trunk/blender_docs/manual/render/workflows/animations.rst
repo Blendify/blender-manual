@@ -109,7 +109,7 @@ Frame Sequence Workflow
    .. warning::
 
       The :doc:`VSE </editors/vse/index>` does not support Multilayer EXR files.
-      To render to a video format you will have to skip the next three  steps and
+      To render to a video format you will have to skip the next three steps and
       instead use an :doc:`Image Input node </compositing/types/input/image>`
       in the :doc:`compositor </compositing/types/input/image>`
 

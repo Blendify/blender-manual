@@ -261,12 +261,12 @@ Thirds
 Golden
    Divides the width and height into Golden proportions (about 0.618 of the size from all sides of the frame).
 Golden Triangle A
-   Draws a diagonal line from the lower-left to upper-right corners,
+   Draws a diagonal line from the lower left to upper right corners,
    then adds perpendicular lines that pass through the top left and bottom right corners.
 Golden Triangle B
    Same as A, but with the opposite corners.
 Harmonious Triangle A
-   Draws a diagonal line from the lower-left to upper-right corners,
+   Draws a diagonal line from the lower left to upper right corners,
    then lines from the top left and bottom right corners to 0.618 the lengths of the opposite side.
 Harmonious Triangle B
    Same as A, but with the opposite corners.

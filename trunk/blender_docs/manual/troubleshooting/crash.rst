@@ -30,7 +30,7 @@ Crash Log
 When Blender crashes, it writes out a text file
 which contains information that may help identify the cause of the crash.
 
-On a crash, a file is written based on the name of the currently loaded blend file,
+On a crash, a file is written based on the name of the currently loaded blend-file,
 so ``test.blend`` will create a file called ``test.crash.txt``.
 The crash log for unsaved files will be written into the :ref:`temp-dir` directory.
 

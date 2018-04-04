@@ -29,14 +29,14 @@ User Preferences :kbd:`Ctrl-Alt-U`
 Save User Settings :kbd:`Ctrl-U`
    Saves the current scene and preferences to :doc:`startup.blend </data_system/files/startup_file>`.
 Load Factory Settings
-   Restores the default startup-file as :ref:`factory settings <factory-settings>`.
+   Restores the default startup file as :ref:`factory settings <factory-settings>`.
 Link :kbd:`Ctrl-Alt-O`
    Links data from an external blend-file (library) to the current scene.
    The edition of that data is only possible in the external library.
    *Link* and *Append* are used to load in only selected parts from another file.
    See :doc:`Linked Libraries </data_system/linked_libraries>`.
 Append :kbd:`Shift-F1`
-   Appends data from an external blend file to the current scene.
+   Appends data from an external blend-file to the current scene.
    The new data is copied from the external file, and completely unlinked from it.
 Import
    Blender can use information stored in a variety of other format files which are created by
@@ -47,7 +47,7 @@ Export
    See :doc:`Import/Export </data_system/files/import_export>`.
 External Data
    External data, like texture images and other resources,
-   can be stored inside the .blend file (packed) or as separate files (unpacked).
+   can be stored inside the blend-file (packed) or as separate files (unpacked).
    Blender keeps track of all unpacked resources via a relative or absolute path.
    See :ref:`pack or unpack external Data <pack-unpack-data>`.
 
@@ -67,7 +67,7 @@ External Data
       After selecting this option, a warning message will appear in the Info editor's header.
       If no warning is shown, there are no missing external files.
    Find Missing Files
-      In case we have broken links in our blend file, this option will help us fix the problem.
+      In case you have broken links in a blend-file, this option will help you to fix the problem.
       A File Browser will show up. Select the desired directory (or a file within that directory),
       and a search will be performed in it, recursively in all contained directories.
       Every missing file found in the search will be recovered.
@@ -77,7 +77,7 @@ External Data
       .. note::
 
          Recovered files might need to be reloaded. You can do that one by one, or
-         you can save the blend file and reload it again, so that all external files are reloaded at once.
+         you can save the blend-file and reload it again, so that all external files are reloaded at once.
 
 Quit :kbd:`Ctrl-Q`
    Closes Blender and the file is saved into ``quit.blend``.

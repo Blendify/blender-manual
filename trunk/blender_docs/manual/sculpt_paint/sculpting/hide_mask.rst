@@ -52,5 +52,5 @@ Masks can be edited across the entire model:
 
    Black part (hair) is masked.
 
-   The `.blend file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__
+   The `blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__
    from `OHA Studio <http://oha-studios.com/>`__ © Mechanimotion Entertainment.

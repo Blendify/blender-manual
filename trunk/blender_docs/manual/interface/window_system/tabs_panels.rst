@@ -15,7 +15,7 @@ Tabs
 
    Tools tab (selected), Create, etc.
 
-Tabs are overlapping sections in the user-interface.
+Tabs are overlapping sections in the user interface.
 The Tabs header can be vertical (Tool Shelf) or
 horizontal (Properties Editor, User Preferences).
 

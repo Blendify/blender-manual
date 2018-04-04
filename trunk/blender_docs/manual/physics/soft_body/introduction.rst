@@ -11,7 +11,7 @@ Introduction
    A softbody cloth uncovering a text.
 
    `Animation video <https://vimeo.com/1865528>`__ and
-   `Blend file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__.
+   `blend-file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__.
 
 A Soft Body in general, is a simulation of a soft or rigid deformable object.
 It is useful for everything that tends to bend, deform,
@@ -45,8 +45,8 @@ Typical Scenarios for using Soft Bodies
 
    A wind cone. The cone is a Soft Body, as the suspension.
 
-   `Animation <https://vimeo.com/1865817>`__ - `Blend file
-   <https://wiki.blender.org/index.php/Media:WindConeExample.blend>`__.
+   `Animation <https://vimeo.com/1865817>`__ --
+   `blend-file <https://wiki.blender.org/index.php/Media:WindConeExample.blend>`__.
 
 Soft Bodies are well suited for:
 
@@ -173,7 +173,7 @@ that will make a recalculating necessary.
 - The cache is cleared automatically on changes. But not on all changes,
   so it may be necessary to free it manually, e.g. if you change a force field.
   Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
-- If you are not allowed to write to the required sub-directory caching will not take place.
+- If you are not allowed to write to the required subdirectory caching will not take place.
 - The cache can be freed per physics system with a button in the panels,
   or with the :kbd:`Ctrl-B` shortcut key to free it for all selected objects.
 - You may run into trouble if your blend-file path is very long and your operating system

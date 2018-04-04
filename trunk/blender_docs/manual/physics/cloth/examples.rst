@@ -82,7 +82,7 @@ It is for sure not its main purpose but it works nonetheless.
 The example image uses standard *Rubber* material, no fancy settings,
 just :kbd:`Alt-A`.
 
-Blend file for the example image:
+Blend-file for the example image:
 `Using Cloth for softbodies <https://wiki.blender.org/index.php/Media:Cloth-sb1.blend>`__.
 
 

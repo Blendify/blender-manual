@@ -147,7 +147,7 @@ Color Mode
    BW, RGB, RGBA
 Color Depth
    Image file formats support a varying number of bits per pixel.
-   This affects the color quality and file-size. Commonly used depths:
+   This affects the color quality and file size. Commonly used depths:
 
    8 bit (256 levels)
       Most common for on-screen graphics and video.

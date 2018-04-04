@@ -3,7 +3,7 @@
 BAM Asset Manager
 *****************
 
-Refactoring linked .blend files is a common practice in a production environment.
+Refactoring linked blend-files is a common practice in a production environment.
 While some basic operations can be accomplished within Blender,
 sometimes it is more practical to perform them on the command line or via a script.
 During the production of Cosmos Laundromat (Gooseberry Open Movie Project)
@@ -47,7 +47,7 @@ its dependencies into a ``.zip`` file for redistribution. ::
    usage: bam pack [-h] [-o FILE] [-m MODE] [-e PATTERNS] [-a] [-q] [-c LEVEL]
                 paths [paths ...]
 
-You can simply pack a blend file like this to create a zip-file of the same name.
+You can simply pack a blend-file like this to create a zip-file of the same name.
 
 .. code-block:: sh
 
@@ -147,7 +147,7 @@ This is effectively a sparse copy of the original production tree.
 bam remap
 =========
 
-Remap blend file paths::
+Remap blend-file paths::
 
    usage: bam remap [-h] {start,finish,reset} ...
 
@@ -184,7 +184,7 @@ Subcommands
 remap start
 ^^^^^^^^^^^
 
-Start remapping the blend files::
+Start remapping the blend-files::
 
    usage: bam remap start [-h] [-j] [paths [paths ...]]
 
@@ -195,7 +195,7 @@ Start remapping the blend files::
 remap finish
 ^^^^^^^^^^^^
 
-Finish remapping the blend files::
+Finish remapping the blend-files::
 
    usage: bam remap finish [-h] [-r] [-d] [-j] [paths [paths ...]]
 

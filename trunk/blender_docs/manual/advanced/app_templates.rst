@@ -63,7 +63,7 @@ Python Scripts
    While templates have access to the same functionality as any other scripts,
    typical operations include:
 
-   - Modifying and replacing parts of the user-interface.
+   - Modifying and replacing parts of the user interface.
    - Defining new menus, key-maps & tools.
    - Defining a custom add-on path for template specific add-ons.
 
@@ -81,7 +81,7 @@ Template locations:
    | ``{BLENDER_SYSTEM_SCRIPTS}/startup/bl_app_templates_system``
 
 
-User configuration is stored in a sub directory:
+User configuration is stored in a subdirectory:
 
 Without a template:
    | ``./config/startup.blend``
@@ -113,7 +113,7 @@ Each of the following files can be used for application templates but are option
 
 .. note::
 
-   Bundled blend files ``startup.blend`` and ``userpref.blend`` are considered *Factory Settings*
+   Bundled blend-files ``startup.blend`` and ``userpref.blend`` are considered *Factory Settings*
    and are never overwritten.
 
    The user may save his own startup/preferences while using this template which will override them.

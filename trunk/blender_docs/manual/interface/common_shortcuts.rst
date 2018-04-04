@@ -75,7 +75,7 @@ Python Scripting
 
   This can be used in the Python console or in the Text editor when writing scripts.
 - :kbd:`Shift-Ctrl-C` -- Over property buttons copies their data-path for this property
-  (also available from the right-click menu).
+  (also available from the context menu).
 
   Useful when writing drivers or scripts.
 - :kbd:`Shift-Ctrl-Alt-C` -- Over property buttons copies their *full* data-path for the Data-Block and property.
