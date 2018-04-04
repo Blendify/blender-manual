@@ -34,7 +34,7 @@ Metaball
    See :doc:`Meta Primitives </modeling/metas/primitives>`.
 Text
    :doc:`Text objects </modeling/texts/introduction>`
-   create a two dimensional representation of a string of characters.
+   create a two-dimensional representation of a string of characters.
 Armature
    :doc:`Armatures </rigging/armatures/index>` are used for :doc:`rigging </rigging/introduction>`
    3D models in order to make them poseable and animateable.

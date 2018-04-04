@@ -25,7 +25,7 @@ Properties
 ==========
 
 Type
-   The Soften, Laplace, Sobel, Prewitt and Kirsch all perform edge-detection
+   The Soften, Laplace, Sobel, Prewitt and Kirsch all perform edge detection
    (in slightly different ways) based on vector calculus and set theory equations.
 
    Soften

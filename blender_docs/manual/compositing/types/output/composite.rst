@@ -11,7 +11,7 @@ Composite Node
 
 The Composite node is where the actual output from the Compositor
 is connected to the renderer.
-This node is updated after each render, but also reflects changes in the node-tree
+This node is updated after each render, but also reflects changes in the node tree
 (provided at least one finished input node is connected).
 
 

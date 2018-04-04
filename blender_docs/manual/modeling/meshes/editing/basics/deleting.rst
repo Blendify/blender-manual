@@ -117,7 +117,7 @@ Merges regions of faces that share edges into a single face.
    see: :ref:`modeling-mesh-make-face-edge-dissolve`.
 
 
-Dissolve (Context Sensitive)
+Dissolve (Context-Sensitive)
 ----------------------------
 
 .. admonition:: Reference

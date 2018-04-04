@@ -33,7 +33,7 @@ In general, the process for rendering is:
 #. Render a test image using lower quality settings.
 #. Change or fix anything you noticed in the render.
 #. Repeat the above two steps until you are satisfied.
-#. Render a high quality image, change or fix any issues and repeat until satisfied.
+#. Render a high-quality image, change or fix any issues and repeat until satisfied.
 #. Save your image to a file, or render the animation to a video or image sequence.
 
 

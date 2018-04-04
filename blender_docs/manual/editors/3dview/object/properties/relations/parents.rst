@@ -35,12 +35,12 @@ If you selected multiple objects before selecting the parent,
 they will all be children of the parent and will be at the same level of the hierarchy
 (they are "siblings").
 
-The *Set Parent To* pop-up menu is context sensitive, which means
+The *Set Parent To* pop-up menu is context-sensitive, which means
 the number of entries it displays can change depending on what objects are selected
 when the :kbd:`Ctrl-P` shortcut is used.
 
 For non-inverse-mode, press :kbd:`Shift-Ctrl-P` instead. This creates an alternative
-parent-child-relationship where child-objects exist entirely in the parent's coordinate system.
+parent-child-relationship where child objects exist entirely in the parent's coordinate system.
 This is the better choice for CAD purposes, for example.
 
 Moving, rotating or scaling the parent will also usually move/rotate/scale the child/children.

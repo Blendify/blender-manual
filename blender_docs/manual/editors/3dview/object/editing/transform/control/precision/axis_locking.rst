@@ -121,7 +121,7 @@ pressing :kbd:`G` to start translation, followed by :kbd:`Z` will lock translati
 in the Z direction relative to the *Global* orientation, pressing :kbd:`Z`
 again will lock translation to the Z axis relative to the *Normal* orientation.
 Pressing :kbd:`Z` again will remove all constraints.
-The current mode will be displayed in the left hand side of the *3D View header*.
+The current mode will be displayed in the left-hand side of the *3D View header*.
 
 As can be seen in the *Axis locking modes* image,
 the direction of the transform also takes into account the selection.

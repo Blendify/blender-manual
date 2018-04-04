@@ -9,7 +9,7 @@ Color Ramps
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Ramps`
 
-In many real-world materials, like skin or metals,
+On many real-world materials, like skin or metals,
 the color of diffuse and specular reflections can differ slightly,
 based on the amount of energy a surface receives or on the light angle of incidence.
 The *Ramp Shader* options in Blender allow you to set a range of colors for a *Material*,

@@ -85,7 +85,7 @@ you want to use the colors of your sky's texture.
 
 Attenuation
    Length of rays defines how far away other faces may be and still have an occlusion effect.
-   The longer this distance, the greater impact that far-away geometry will have on the occlusion effect.
+   The longer this distance, the greater impact that far away geometry will have on the occlusion effect.
    A high *Distance* value also means that the renderer has to search a greater area for geometry that occludes,
    so render time can be optimized by making this distance as short as possible for the visual effect that you want.
 

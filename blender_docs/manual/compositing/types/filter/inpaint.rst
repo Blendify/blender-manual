@@ -37,7 +37,7 @@ Image
 Examples
 ========
 
-In the left image shows the "wire" in place and after chroma-key has been applied you will see you're left
+The left image shows the "wire" in place and after chroma keying has been applied. You will see you're left
 with a blank space -- it's shown as a black line here but it will be alpha in your Blender output.
 
 .. figure:: /images/compositing_types_filter_inpaint_example.png

@@ -19,7 +19,7 @@ Bump maps
    These are textures that store an *intensity*, the relative height of pixels from the viewpoint of the camera.
    The pixels seem to be moved by the required distance in the direction of the face normals.
    (The "bump" consists only of a displacement, which takes place along the existing,
-   and unchanged, normal-vector of the face).
+   and unchanged, normal vector of the face).
    You may either use grayscale pictures or the intensity values of an RGB-Texture (including images).
 
 Normal maps

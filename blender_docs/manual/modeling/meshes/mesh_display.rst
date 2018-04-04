@@ -43,7 +43,7 @@ Edge Marks and Face Marks
    Used by Freestyle.
 
 Show Weight
-   Displays the vertex weights as color on the mesh *(like weight-paint mode)*
+   Displays the vertex weights as color on the mesh (like in Weight Paint Mode)
    or color on the edges in wire draw mode.
 
 

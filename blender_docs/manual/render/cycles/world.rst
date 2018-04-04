@@ -186,7 +186,7 @@ Interpolation
    Linear
       Good smoothness and speed.
    Cubic
-      Smoothed high quality interpolation, but slower.
+      Smoothed high-quality interpolation, but slower.
 
 Homogeneous Volume
    Assume volume has the same density everywhere (not using any textures), for faster rendering.

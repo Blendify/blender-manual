@@ -47,7 +47,7 @@ Grab :kbd:`G`
    Used to drag a group of points around. Unlike the other brushes,
    *Grab* does not modify different points as the brush is dragged across the model.
    Instead, *Grab* selects a group of vertices on mouse-down, and pulls them to follow the mouse.
-   The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
+   The effect is similar to moving a group of vertices in *Edit Mode* with proportional editing enabled,
    except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
 Inflate/Deflate :kbd:`I`
    Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.

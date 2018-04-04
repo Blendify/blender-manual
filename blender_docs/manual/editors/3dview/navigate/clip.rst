@@ -29,7 +29,7 @@ in the wanted 3D View. It becomes a clipping volume of four planes:
 - A rectangular-based pyramid (of infinite height) if your view is in perspective.
 
 Once clipping is used, you will only see what's inside the volume you have defined.
-Tools such as paint, sculpt, selection, transform-snapping, etc.
+Tools such as paint, sculpt, selection, transform snapping, etc.
 will also ignore geometry outside the clipping bounds.
 
 To delete this clipping, press :kbd:`Alt-B` again.

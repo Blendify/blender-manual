@@ -80,7 +80,7 @@ Dilate/Erode
 
    This a simple way to include more or less along the edges of the matte, particularly combined with *Post Blur*.
 Feather Falloff
-   The rate of fall off at the edges of the matte when feathering, to manage edge detail.
+   The rate of the falloff at the edges of the matte when feathering, to manage edge detail.
 Feather Distance
    Controls how much the matte is feathered inwards (negative number) or outwards (positive number).
 Post Blur

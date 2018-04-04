@@ -107,7 +107,7 @@ Color Mode
 
    BW, RGB, RGBA
 
-.. hint:: Primitive Render-Farm
+.. hint:: Primitive Render Farm
 
    An easy way to get multiple machines to share the rendering workload is to:
 

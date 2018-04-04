@@ -167,7 +167,7 @@ Smoke High Resolution
    | Type:     Domain
    | Panel:    :menuselection:`Physics --> Smoke High Resolution`
 
-The High Resolution option lets you simulate at low resolution and then uses noise techniques
+The High Resolution option lets you simulate at a low resolution and then it uses noise techniques
 to enhance the resolution without actually computing it. This allows animators to set up a low
 resolution simulation quickly and later add details without changing the overall fluid motion.
 Also see `Note on Divisions and High Resolution`_.
@@ -175,7 +175,7 @@ Also see `Note on Divisions and High Resolution`_.
 Resolution: Divisions
    Factor by which to enhance the resolution of smoke using the specified noise method.
 Show High Resolution
-   Show high resolution in the viewport (may cause viewport responsiveness to suffer).
+   Show the high resolution version in the viewport (may cause viewport responsiveness to suffer).
 
 Noise Method
    The two options, *Wavelet* and *FFT*, are very similar.
