@@ -3,8 +3,8 @@
 Usage
 *****
 
-For example, we will take an existing blend
-file that was made for monoscopic rendering and transform it to be stereo 3D ready.
+For example, we will take an existing blend-file
+that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
 .. figure:: /images/render_workflows_multiview_usage_anaglyph.png
 

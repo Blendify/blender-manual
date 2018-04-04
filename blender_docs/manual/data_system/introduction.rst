@@ -52,11 +52,11 @@ Options
 ^^^^^^^
 
 Use files in current directory (create when necessary)
-   Unpacks all files in the same directory ``//`` as the blend file,
+   Unpacks all files in the same directory ``//`` as the blend-file,
    grouping them in proper folders (like ''textures'' for instance).
    However, if the final file exists already, it will use that file, instead of unpacking it.
 Write files to current directory (overwrite existing files)
-   Unpacks all files in the same directory as the blend file,
+   Unpacks all files in the same directory as the blend-file,
    grouping them in proper folders (like ''textures'' for instance).
    If the final file exists already, it will overwrite it.
 Use files in original location (create when necessary)

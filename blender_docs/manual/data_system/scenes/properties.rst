@@ -21,7 +21,7 @@ Background
    this is typically useful when you want to focus on animating the foreground for example,
    without background elements getting in the way.
 
-   This scene can have its own animation, physics-simulations, etc,
+   This scene can have its own animation, physics simulations, etc,
    but you will have to select it from the *Scene* data-block menu, if you want to edit any of its contents.
 
    Sets can themselves have a background set (they're recursively included).

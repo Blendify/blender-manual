@@ -85,7 +85,7 @@ Python scripts (including driver expressions) are not executed by default for se
 Auto Run Python Scripts
    You may choose to ignore these security issues and allow scripts to be executed automatically.
 Excluded Paths
-   Blend files in these folders will *not* automatically run Python scripts.
+   Blend-files in these folders will *not* automatically run Python scripts.
    This can be used to define where blend-files from untrusted sources are kept.
 
 .. seealso::
@@ -109,7 +109,7 @@ Compress File
 
    This option may slow down Blender when you quit,
    or under normal operation when Blender is saving your backup files.
-   Using this option traces processor time for file-size.
+   Using this option traces processor time for file size.
 Load UI
    Default setting is to load the Window layout
    (the :doc:`Screens </interface/window_system/screens>`) of the saved file.

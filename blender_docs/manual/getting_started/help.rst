@@ -11,7 +11,7 @@ Tooltips
 
 .. figure:: /images/getting-started_help_tooltip.png
 
-   Tooltip of the Render Engine selector in the Info Editor.
+   Tooltip of the Renderer selector in the Info Editor.
 
 When hovering the mouse cursor over a button or setting, after a few instants a tooltip appears.
 
@@ -114,7 +114,7 @@ Python API Reference
    Python application programming interface (API)
    `Reference <https://www.blender.org/api/blender_python_api_current/>`__.
 Operator Cheat Sheet
-   Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
+   Creates the ``OperatorList.txt`` text data-block, which you can access in the *Text Editor*.
    You can also use Blender Search to generate the file. It lists the available Python operators.
 
 
@@ -138,7 +138,7 @@ Blender
 Python
    The Python version you are using, showing the paths of the Python programming language paths.
 Directories
-   Paths used for scripts, data-files, presets and temporary files.
+   Paths used for scripts, data files, presets and temporary files.
 
    Those directories are configured using the :doc:`User Preferences </preferences/file>` Editor.
 OpenGL

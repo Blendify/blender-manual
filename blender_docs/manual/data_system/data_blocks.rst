@@ -238,7 +238,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - LineStyle
      - |tick|
      - |none|
-     - | Used by the FreeStyle render-engine.
+     - | Used by the FreeStyle renderer.
    * - Mask
      - |tick|
      - |none|

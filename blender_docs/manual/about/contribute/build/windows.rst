@@ -4,7 +4,7 @@
 Building on MS-Windows
 **********************
 
-Converting the rst files into pretty HTML pages.
+Converting the RST-files into pretty HTML pages.
 There are two ways to run the build process.
 
 

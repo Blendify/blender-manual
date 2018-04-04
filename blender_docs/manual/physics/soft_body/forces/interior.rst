@@ -149,7 +149,7 @@ because it has no quads anyway.
 .. _fig-softbody-force-interior-bending:
 
 .. list-table:: Bending Stiffness.
-   `Blend file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__.
+   `Blend-file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__.
 
    * - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-001.png
           :width: 200px

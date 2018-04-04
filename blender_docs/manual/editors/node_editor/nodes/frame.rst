@@ -24,7 +24,7 @@ Shrink
    automatically when nodes within the Frame are rearranged.
    This behavior can be changed by disabling this option.
 Text
-   When you need to display more comprehensive text, frame nodes can display the contents of a text-block.
+   When you need to display more comprehensive text, frame nodes can display the contents of a text data-block.
    This is read-only, so you will need to use the *Text Editor* to modify the contents.
 
 

@@ -192,7 +192,7 @@ Demo Cube
 
 Please note two things:
 
-#. The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
+#. The "Mini-axis" in the lower left corner, which represents the Global X, Y, Z orientation.
 #. The :doc:`"Object Manipulator" </editors/3dview/object/editing/transform/control/manipulators>`
    widget emanating from the selection, which represents the current Transform Orientation.
 

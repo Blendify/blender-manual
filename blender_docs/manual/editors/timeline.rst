@@ -304,7 +304,7 @@ Auto Keyframe
 
       Timeline Auto Keyframe.
 
-   The "Record" red-dot button enables something called *Auto Keyframe*:
+   The record button (red dot) enables something called *Auto Keyframe*:
    It will add and/or replace existing keyframes for the active object when you transform it in the 3D View.
 
    For example, when enabled, first set the *Time Cursor* to the desired frame,

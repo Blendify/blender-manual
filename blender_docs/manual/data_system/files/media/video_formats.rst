@@ -31,7 +31,7 @@ different operating systems.
    - `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
 AVI Codec
-   AVI codec compression. Available codecs are operating-system dependent.
+   AVI codec compression. Which codecs are available dependents on the operating system.
    When an AVI codec is initially chosen, the codec dialog is automatically launched.
    The codec can be changed directly using the *Set Codec* button which appears (*AVI Codec settings.*).
 AVI Jpeg

@@ -17,7 +17,7 @@ SYSTEM
 For system installations both **SYSTEM** and **USER** directories are needed.
 
 For locally extracted Blender distributions, the user configuration and runtime data are
-kept in the same sub-directory, allowing multiple Blender versions to run without conflict,
+kept in the same subdirectory, allowing multiple Blender versions to run without conflict,
 ignoring the **USER** and **SYSTEM** files.
 
 

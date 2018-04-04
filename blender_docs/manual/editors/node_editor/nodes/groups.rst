@@ -45,7 +45,7 @@ A node group will have a green title bar. All of the selected nodes will now be 
 Default naming for the node group is "NodeGroup", "NodeGroup.001" etc.
 There is a name field in the node group you can click into to change the name of the group.
 Change the name of the node group to something meaningful.
-When appending node groups from one blend file to another,
+When appending node groups from one blend-file to another,
 Blender does not make a distinction between material node groups or composite node groups,
 so it is recommended to use some naming convention that will allow you to easily distinguish between the two types.
 

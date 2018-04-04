@@ -53,7 +53,7 @@ To be avoided:
 - Avoid including specific details such as:
 
   | "Blender has 23 different kinds of modifiers."
-  | "Enabling previews adds 65536 bytes to the size of each Blend file (unless it is compressed)."
+  | "Enabling previews adds 65536 bytes to the size of each blend-file (unless it is compressed)."
 
   These details are not useful for users to memorize and they become quickly outdated.
 - Avoid documenting bugs.
@@ -94,7 +94,7 @@ Glossary
 --------
 
 This section is specifically about the :doc:`Glossary </glossary/index>` section,
-where we define common terms in Blender and computer-graphics.
+where we define common terms in Blender and computer graphics.
 
 Rules of thumb:
 
