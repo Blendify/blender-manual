@@ -91,7 +91,7 @@ This is the list of image file formats supported internally by Blender:
    a good rule of thumb for selecting output formats for your project is:
 
    Use OpenEXR
-      if you intend to do compositing or color-grading on these images.
+      if you intend to do compositing or color grading on these images.
    Use PNG
       if you intend on-screen output or encoding into multiple video formats.
    Use JPEG

@@ -70,7 +70,7 @@ Elaborate Movements
 
 When the footage builds on elaborate intended movement of the camera, the process of stabilization
 becomes more involved -- especially when there is a shift in the main area of interest within the shot.
-When working with many tracks and fine grained animation, it is easy to get into a situation where additional
+When working with many tracks and fine-grained animation, it is easy to get into a situation where additional
 manipulations actually decrease the quality, while it might be hard to spot and locate the root cause of problems.
 Recommendation is to proceed systematically, starting from the general outline down to tweaking of specific aspects.
 
@@ -82,10 +82,10 @@ Recommendation is to proceed systematically, starting from the general outline d
    in accordance with the inherent focus of the shot.
 #. Define the panning movements of the virtual camera (through animation of the *Expected Position* parameter).
 #. Add tracking for rotation and zoom stabilization.
-#. Fine tuning pass:
+#. Fine-tuning pass:
 
    Break down the whole duration of the shot into logical segments to define the intended camera movement.
-   Then refine those segments incrementally step by step, until the overall result looks satisfactory...
+   Then refine those segments incrementally step-by-step, until the overall result looks satisfactory...
 
 
 Animating Stabilization Parameters

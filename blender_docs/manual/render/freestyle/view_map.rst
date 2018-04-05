@@ -28,7 +28,7 @@ View Map Cache
    The cache is automatically updated when the mesh geometry of the input 3D scene has been changed.
 
    This functionality offers a major performance boost for Freestyle animation rendering
-   when camera-space mesh geometry is static, as well as for repeated still renders
+   when the camera-space mesh geometry is static, as well as for repeated still renders
    with updates of line stylization options.
 
    Although the ''View map cache'' checkbox is a render layer option,

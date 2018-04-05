@@ -71,7 +71,7 @@ Drag Threshold
 Select With
    You can choose which button is used for selection (the other one is used to place the 3D cursor).
 Double Click
-   The time in ms for a double click to be recognized.
+   The time in ms for a double-click to be recognized.
 
 .. note::
 

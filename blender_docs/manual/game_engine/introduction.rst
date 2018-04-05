@@ -3,7 +3,7 @@
 Introduction
 ************
 
-The Blender Game Engine (BGE) is Blender's tool for real time projects,
+The Blender Game Engine (BGE) is Blender's tool for real-time projects,
 from architectural visualizations and simulations to games.
 
 A word of warning,

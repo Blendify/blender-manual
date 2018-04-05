@@ -9,7 +9,7 @@ Soft Body
 Render
    Enable soft body during render.
 Display
-   Display soft body in real time.
+   Display soft body in real-time.
 
 
 Soft Body

@@ -90,7 +90,7 @@ Preview
 On some nodes this shows a preview image of how the output data for a certain channel will appear.
 Usually it shows color data.
 
-The preview can be toggled using the icon on the very top right hand corner of the node, next to the title.
+The preview can be toggled using the icon on the very top right-hand corner of the node, next to the title.
 
 .. figure:: /images/editors_node-editor_nodes_parts_previewless.png
 

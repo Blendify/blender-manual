@@ -227,7 +227,7 @@ If you have two tips selected, the new bone:
           3D cursor on the right.
 
 If you have two roots selected, you will face a small problem due to the event system in
-Blender not updating the interface in real time.
+Blender not updating the interface in real-time.
 
 When clicking :kbd:`F`, similar to the previous case, you will see a new bone:
 

@@ -165,7 +165,7 @@ You can quickly select all assigned vertices of a group:
 
    If you already have vertices selected in the 3D View,
    then selecting the vertices of a group will add the vertices
-   but also keep the already-selected vertices selected.
+   but also keep the already selected vertices selected.
    Vice versa, deselecting the vertices of a vertex group
    will only deselect the vertices assigned to the group
    and keep all other vertices selected.

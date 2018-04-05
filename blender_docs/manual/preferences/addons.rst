@@ -115,7 +115,7 @@ Online Resources
    `Add-on Tutorial <https://www.blender.org/api/blender_python_api_current/info_tutorial_addon.html>`__
       A quick tutorial on the essentials of writing an add-on.
 
-.. tip:: User Defined Add-on Path
+.. tip:: User-Defined Add-on Path
 
    You can also create a personal directory containing new add-ons and configure your files path in
    the *File* tab of the *User Preferences*. To create a personal script directory:

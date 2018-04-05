@@ -48,4 +48,4 @@ Default Fade
    Effect Fader
       Allows you to manually :doc:`keyframe </animation/keyframes/index>` a custom fade.
       This can be used with different :ref:`easings <editors-graph-fcurves-settings-easing>`
-      to fine tune the fade in/out.
+      to fine-tune the fade in/out.

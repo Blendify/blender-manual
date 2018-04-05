@@ -129,7 +129,7 @@ Random
    Give the path length a random variation.
 
 Please see also the manual page about
-:doc:`Strands </render/blender_render/materials/properties/strands>` for an in depth description.
+:doc:`Strands </render/blender_render/materials/properties/strands>` for an in-depth description.
 
 
 Object

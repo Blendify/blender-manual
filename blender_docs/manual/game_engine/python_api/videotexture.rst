@@ -229,7 +229,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
    If an alpha channel is present in the video, it is automatically loaded and sent to the GPU as well.
 
 We will simply set the ``scale`` attribute to True
-because the ``gluScaleImage()`` is really too slow for real time video.
+because the ``gluScaleImage()`` is really too slow for real-time video.
 In case the video dimensions are already a power of 2, it has no effect. ::
 
    GameLogic.video.source.scale = True

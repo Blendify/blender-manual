@@ -29,7 +29,7 @@ i.e. the scene data and also the User Preferences.
 Tree View
 =========
 
-Each row in the *Outliner* shows a data-block. You can click the plus-sign to
+Each row in the *Outliner* shows a data-block. You can click the plus sign to
 the left of a name to expand the current data-block and see what other data-blocks it contains.
 
 You can select data-blocks in the *Outliner*,

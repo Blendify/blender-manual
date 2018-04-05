@@ -175,7 +175,7 @@ This will result in two strips which use the same source, fitting the original s
 .. hint::
 
    This can be thought of as a quick way to duplicate the current strip,
-   adjusting the start/end frames to form two non overlapping strips showing the same content as before.
+   adjusting the start/end frames to form two non-overlapping strips showing the same content as before.
 
 
 Cut (hard) at Frame

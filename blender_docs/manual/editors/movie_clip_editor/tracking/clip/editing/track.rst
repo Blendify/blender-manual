@@ -142,16 +142,16 @@ Correlation
 Frames Limit
    Controls how many frames can be tracked when the Track Sequence operator is called.
    So, each Track Sequence operation would track maximum *Frames Limit* frames.
-   This also helps to notice slide-off of tracks and correct them.
+   This also helps to notice a slide-off of tracks and correct them.
 Margin
    Can be used disable tracks when they become too close to the image boundary.
    This slider sets "too close" in pixels.
 Speed
    Marker settings only -- Can be used to control the speed of sequence tracking.
    This option does not affect the quality of tracking; it just helps to control if tracking happens accurately.
-   In most cases tracking happens much faster than real time, and it is difficult to notice when a track began
+   In most cases tracking happens much faster than real-time, and it is difficult to notice when a track began
    to slide out of position. In such cases *Speed* can be set to Double or Half to add some delay between
-   tracking two frames, so slide-off would be noticed earlier and the tracking process can be canceled to
+   tracking two frames, so a slide-off would be noticed earlier and the tracking process can be canceled to
    adjust positions of tracks.
 Weight
    See Track :ref:`Weight <clip-tracking-weight>`.

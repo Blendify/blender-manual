@@ -6,7 +6,7 @@ Data-Blocks
 ***********
 
 The base unit for any Blender project is the data-block. Examples of data-blocks include:
-meshes, objects, materials, textures, node-trees, scenes, texts, brushes, and even screens.
+meshes, objects, materials, textures, node trees, scenes, texts, brushes, and even screens.
 
 For clarity, bones, sequence strips and vertex groups are **not** data-blocks,
 they belong to armature, scene and mesh types respectively.

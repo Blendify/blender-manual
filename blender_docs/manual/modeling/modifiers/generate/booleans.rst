@@ -29,7 +29,7 @@ operation for the Boolean Modifier at a time.
    If you have marked your Objects to show the Edges
    (in :menuselection:`Properties Editor --> Object --> Display`, enable *Wire*),
    you will see the Edge creation process while you are moving your Objects. Depending on your mesh topology,
-   you can also enable X-Ray and Transparency and see the topology being created in real time.
+   you can also enable X-Ray and Transparency and see the topology being created in real-time.
 
 
 Options

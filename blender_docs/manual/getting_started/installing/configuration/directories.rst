@@ -141,7 +141,7 @@ Where ``./config/startup.blend`` could be ``~/.blender/|BLENDER_VERSION|/config/
    Scripts which are automatically imported on startup.
 
 ``./scripts/presets/{preset}/*.py``
-   Presets used for storing user defined settings for cloth, render formats, etc.
+   Presets used for storing user-defined settings for cloth, render formats, etc.
 
 ``./scripts/templates_py/*.py``
    Example scripts which can be accessed from :menuselection:`Text Editor --> Templates --> Python`.

@@ -24,7 +24,7 @@ Blend
 Falloff
    Feather. ToDo 2.64.
 Overlap
-   Detect self intersections. ToDo 2.64.
+   Detect self-intersections. ToDo 2.64.
 Holes
    Option not to treat overlapping curves as holes.
    Concentric splines will generating holes in the mask.
@@ -82,7 +82,7 @@ Cyclic
 Fill
    Disable calculation of holes.
 Self Intersection Check
-   Fill self intersections.
+   Fill self-intersections.
 
 
 Active Point
