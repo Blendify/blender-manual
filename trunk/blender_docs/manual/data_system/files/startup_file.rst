@@ -21,4 +21,4 @@ Saving the ``startup.blend`` still stores user preferences in the file.
 Only if a ``userpref.blend`` exists, it uses the preferences from that file.
 
 If you want to go back to the original startup file
-you can reset Blender to it's :ref:`factory settings <factory-settings>`.
+you can reset Blender to its :ref:`factory settings <factory-settings>`.
