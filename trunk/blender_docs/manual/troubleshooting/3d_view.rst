@@ -38,7 +38,7 @@ To avoid this:
 - Increase the near clipping when working on large scenes.
 - Decrease the far clipping when objects are not viewed at a distance.
 
-When perspective is disabled only the far Clip-End is used, very high values can still give artifacts.
+When perspective is disabled only the far Clip End is used, very high values can still give artifacts.
 
 This is **not** specific to Blender, all OpenGL/ DirectX graphics applications have these same limitations.
 

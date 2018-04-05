@@ -34,6 +34,6 @@ Mode
          Armature.
 
 Inverse
-   Normally, vertices belonging to the selected Vertex Group (or group associated with the active pose-bone)
+   Normally, vertices belonging to the selected Vertex Group (or group associated with the active pose bone)
    will be shown. The *Invert* toggle allows you to reverse this behavior, instead showing all vertices
    which do not belong to the Vertex Group, and hiding those that do.

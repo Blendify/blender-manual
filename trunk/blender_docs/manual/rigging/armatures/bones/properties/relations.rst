@@ -46,9 +46,9 @@ Bone Group
 
 .. figure:: /images/rigging_armatures_bones_properties_relations_group-list.png
 
-   The Bone Group data-ID.
+   The Bone Group data ID.
 
-To assign a selected bone to a given bone group use the *Bone Group* data-ID.
+To assign a selected bone to a given bone group use the *Bone Group* data ID.
 
 
 Object Children

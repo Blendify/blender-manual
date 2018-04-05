@@ -243,7 +243,7 @@ Effects
       Paint slowly spreads to surrounding points eventually filling all connected areas.
    Drip
       Paint moves in specific direction specified by Blender force fields,
-      gravity and velocity with user defined influences.
+      gravity and velocity with user-defined influences.
    Shrink
       Painted area slowly shrinks until disappears completely.
 

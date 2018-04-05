@@ -256,7 +256,7 @@ The "Bone.003" to "Bone.005" chain is the mapped-to-stroke
 version of "Bone" to "Bone.002" selected one, and "Bone.001" has a modified roll angle.
 
 Template
-   In this data-ID you can select the armature to use as template.
+   In this data ID you can select the armature to use as template.
    If you choose *None*, the selected bones from the currently edited armature will be used as reference,
    else all bones of the other armature will be used.
 

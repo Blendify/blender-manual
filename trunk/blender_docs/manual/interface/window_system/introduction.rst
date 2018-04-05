@@ -68,16 +68,16 @@ with buttons, controls and widgets placed within them.
 User Interface Principles
 =========================
 
-Non Overlapping
+Non-Overlapping
    The UI is designed to allow you to view all relevant options and tools at a glance
    without pushing or dragging editors around.
 
-Non Blocking
+Non-Blocking
    Tools and interface options do not block the user from any other parts of Blender.
    Blender typically does not use pop-up boxes
    (requiring users to fill in data before running an operation).
 
-Non Modal Tools
+Non-Modal Tools
    Tools can be accessed efficiently without taking time to select between different tools.
    Many tools use consistent and predictable, mouse and keyboard actions for interaction.
 

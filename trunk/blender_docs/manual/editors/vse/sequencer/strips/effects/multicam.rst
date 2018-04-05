@@ -52,4 +52,4 @@ Workflow
 
 In reality, it boils down to: watch a few seconds to see, what is coming,
 watch it again and do a rough cut using the number keys,
-do some fine tuning by selecting the outer handles of two neighboring Multicam for A/B rolling.
+do some fine-tuning by selecting the outer handles of two neighboring Multicam for A/B rolling.

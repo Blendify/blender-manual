@@ -79,7 +79,7 @@ Influence
    calculated by the stabilizer, not the deliberate movements added through the "*Expected* \*"-parameters.
 
 Interpolate
-   The stabilizer calculates compensation movements with sub pixel accuracy.
+   The stabilizer calculates compensation movements with sub-pixel accuracy.
    Consequently, a resulting image pixel needs to be derived from several adjacent source footage pixels.
    Unfortunately, any interpolation causes some minor degree of softening and loss of image quality.
 

@@ -98,7 +98,7 @@ Properties
 
 Target
    ID-Block
-      Set the ID-Type and the *Object IDs* Data Path for the property.
+      Set the ID Type and the *Object IDs* Data Path for the property.
    Data Path
       Set the rest of the Data Path for the property.
    Array Target

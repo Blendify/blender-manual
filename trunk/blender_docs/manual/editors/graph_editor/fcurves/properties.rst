@@ -16,21 +16,21 @@ Active F-Curve Panel
 
    Active F-Curve Panel.
 
-This panel displays properties for the active *F-Curve*.
+This panel displays properties for the active F-Curve.
 
 Channel Name
-   *ID Type* + Channel name (X Location).
+   ID Type + Channel name (X Location).
 RNA Path
-   *RNA Path* to property + Array index.
+   RNA Path to property + Array index.
 Color Mode
-   *Color Mode* for the active *F-Curve*.
+   Color Mode for the active F-Curve.
 
    Auto Rainbow
-      Increment the *hue* of the *F-Curve* color based on the channel index.
+      Increment the hue of the F-Curve color based on the channel index.
    Auto XYZ to RGB
       For property sets like location XYZ, automatically set the set of colors to red, green, blue.
    User Defined
-      Define a custom color for the active *F-Curve*.
+      Define a custom color for the active F-Curve.
 
 
 Active Keyframe Panel

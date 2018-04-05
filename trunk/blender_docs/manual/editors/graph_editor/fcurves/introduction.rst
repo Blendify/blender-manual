@@ -12,7 +12,7 @@ animating an object means changing one of its properties, such as the object's l
 As mentioned, Blender's fundamental unit of time is the "frame",
 which usually lasts just a fraction of a second, depending on the *frame rate* of the scene.
 As animation is composed of incremental changes spanning multiple frames,
-usually these properties are **not** manually modified *frame by frame*, because:
+usually these properties are **not** manually modified *frame-by-frame*, because:
 
 - It would take ages!
 - It would be very difficult to get smooth variations of the property
