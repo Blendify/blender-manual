@@ -17,7 +17,7 @@ They can be found, for example, in the object data properties.
 Select
    To select an item, :kbd:`LMB` on it.
 Rename
-   By double clicking on an item, you can edit its name via a text field.
+   By double-clicking on an item, you can edit its name via a text field.
    This can also be achieved by pressing :kbd:`Ctrl-LMB` over it.
 Resize
    The list view can be resized to show more or fewer items.

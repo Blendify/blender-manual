@@ -38,7 +38,7 @@ Playback FPS
 Global Scene
    Forces the current scene to be displayed in all screens (a project can consist of more than one scene).
 Object Origin Size
-   Diameter of 3D Object centers in the view port (value in pixels from 4 to 10).
+   Diameter of 3D Object centers in the viewport (value in pixels from 4 to 10).
 
 Display Mini Axis
    Show the mini axis at the bottom left of the viewport.

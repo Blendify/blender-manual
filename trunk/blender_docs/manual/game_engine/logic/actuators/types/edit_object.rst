@@ -4,7 +4,7 @@
 Edit Object Actuator
 ********************
 
-The *Edit Object Actuator* allows the user to edit settings of objects in game.
+The *Edit Object Actuator* allows the user to edit settings of objects in-game.
 In example edits the object's mesh, adds objects, or destroys them.
 It can also change the mesh of an object (and soon also recreate the collision mesh).
 

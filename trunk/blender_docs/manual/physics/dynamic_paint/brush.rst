@@ -204,7 +204,7 @@ Wave Type
       an unnatural "dent" in the surface if brush remains still.
    Force
       Directly affects the velocity of wave motion.
-      Therefore the effect is not one to one with brush intersection depth, yet the force strength depends on it.
+      Therefore the effect is not one-to-one with brush intersection depth, yet the force strength depends on it.
    Reflect Only
       This type has no visible effect on the surface alone but reflects waves that are already on the surface.
 Factor

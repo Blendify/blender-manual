@@ -109,7 +109,7 @@ Soft lights allow your eye to focus. We disable specular for right *Hemi*,
 so we do not get that shiny forehead or nose.
 
 The lamp on the left however, lets it be known that it is there by enabling specular;
-specular flare is that bright spot that is off center above midline on the sphere.
+specular flare is that bright spot that is off-center above the midline on the sphere.
 
 Use this rig to give even illumination of a scene, where there is no main focus.
 The *Hemi*\ 's will light up background objects and props,

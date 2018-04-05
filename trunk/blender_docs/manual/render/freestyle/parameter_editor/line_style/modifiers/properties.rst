@@ -141,7 +141,7 @@ The `curvature <https://en.wikipedia.org/wiki/Curvature>`__ of a 2D curve
 at a point is a measure of how quickly the curve turns at the point.
 The quicker the turn is, the larger the curvature is at the point.
 The curvature is zero if the curve is a straight line.
-Radial curvatures are those computed for a 2D curve that appears at the cross-section
+Radial curvatures are those computed for a 2D curve that appears at the cross section
 between the 3D surface and a plane defined by the view point (camera location)
 and the normal direction of the surface at the point.
 

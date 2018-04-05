@@ -29,7 +29,7 @@ Install those packages or make sure you have them in your system.
 Downloading the Repository
 ==========================
 
-Simply check out the blender-manual repository using::
+Simply check out the Blender Manual's repository using::
 
       cd ~
       svn checkout https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs

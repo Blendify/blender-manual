@@ -18,7 +18,7 @@ These include:
 
 - Opening and Saving Blend files.
 - Import/Export other file formats.
-- Picking new locations for existing file-paths (images, video, fonts...).
+- Picking new locations for existing file paths (images, video, fonts...).
 - Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 
 You can also keep the File Browser open, as with any other editor type,

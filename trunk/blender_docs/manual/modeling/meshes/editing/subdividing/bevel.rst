@@ -151,4 +151,4 @@ Examples
 .. seealso:: Bevel Modifier
 
    The :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
-   is a non destructive alternative to the Bevel tool.
+   is a non-destructive alternative to the Bevel tool.

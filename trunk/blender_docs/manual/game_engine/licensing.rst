@@ -13,7 +13,7 @@ GNU GPL -- also called "Free Software" -- is a license that aims at keeping the 
 GNU GPL does not allow you to add new restrictions or limitations on the software you received under that license.
 That works fine if you want your clients or your audience to have the same rights as you have (with Blender).
 
-In summary, the software and source-code are bound to the GNU GPL, but the blend-files
+In summary, the software and source code are bound to the GNU GPL, but the blend-files
 (models, textures, sounds) are not.
 
 

@@ -30,7 +30,7 @@ You may limit the effect on particles to a group of objects
 
      - .. figure:: /images/physics_force-fields_types_force_visualzation.png
 
-.. Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard Jones,
+.. Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard-Jones,
    Texture, Curve Guide, Boid, Turbulence, Drag, and Smoke Flow.
 
 

@@ -107,8 +107,8 @@ What renders faster, Nvidia or AMD, CUDA or OpenCL?
 ---------------------------------------------------
 
 Currently Nvidia with CUDA is rendering fastest, but this really depends on the hardware you buy.
-Currently, CUDA and OpenCL are about the same in the newest mid range GPUs.
-However, CUDA is fastest in the respect of high end GPUs.
+Currently, CUDA and OpenCL are about the same in the newest mid-range GPUs.
+However, CUDA is fastest in the respect of high-end GPUs.
 
 
 Error Messages

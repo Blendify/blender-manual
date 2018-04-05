@@ -9,7 +9,7 @@ Stucci
    Stucci Texture Panels.
 
 The *Stucci* texture is based on noise functions. It is often used for stone, asphalt, or oranges,
-normally for bump-mapping to create grainy surfaces.
+normally for bump mapping to create grainy surfaces.
 
 
 Options

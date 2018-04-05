@@ -62,7 +62,7 @@ Enable Self Collisions
    but a close-up of a cape or blouse on a character should have this enabled.
 Quality
    For higher self-collision quality just increase
-   the *Quality* and more self collision layers can be solved.
+   the *Quality* and more self-collision layers can be solved.
    Just keep in mind that you need to have at least the same
    *Collision Quality* value as the *Quality* value.
 Distance

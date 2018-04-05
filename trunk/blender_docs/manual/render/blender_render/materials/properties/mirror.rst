@@ -116,7 +116,7 @@ Gloss
       Blender automatically renders blurry reflections as anisotropic reflections.
       When Tangent is switched on, the *Anisotropic* slider controls the strength of this anisotropic reflection,
       with a range of 1.0 (default) being fully anisotropic and 0.0 being fully circular,
-      as is when tangent shading on the material is switched off.
+      as-is when tangent shading on the material is switched off.
       Anisotropic ray-traced reflection uses the same tangent vectors as for tangent shading,
       so you can modify the angle and layout the same way, with the auto-generated tangents,
       or based on the mesh's UV co-ordinates.

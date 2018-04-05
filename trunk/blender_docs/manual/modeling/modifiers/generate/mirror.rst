@@ -102,7 +102,7 @@ half of an object and use :kbd:`Alt-D` to create a linked duplicate which can th
 scaled on one axis by -1 to produce a perfect mirror-image copy which updates in real-time as you edit.
 
 The Mirror Modifier offers a simpler way to do this. Once your modeling is completed you can either
-click *Apply* to make a real version of your mesh or leave it as is for future editing.
+click *Apply* to make a real version of your mesh or leave it as-is for future editing.
 
 
 Using the Mirror Modifier with a Subdivision Surface Modifier

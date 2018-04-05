@@ -33,7 +33,7 @@ Only layers which are enabled (checkbox on right is ticked) will be rendered.
 If the pin icon at the bottom right of the list is enabled, only the active (highlighted) layer will be rendered.
 
 Render Layers can be added and removed using the ``+`` and ``-`` buttons on the right,
-and existing layers can be renamed by double clicking on their name.
+and existing layers can be renamed by double-clicking on their name.
 
 
 Layer Panel

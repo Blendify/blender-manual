@@ -171,7 +171,7 @@ Timer
 
    This specifies the number of minutes between each Auto Save.
    The default value of the Blender installation is 5 (5 minutes).
-   The minimum is 1, and the Maximum is 60 (save at every one hour).
+   The minimum is 1, and the Maximum is 60 (save every hour).
 
 :doc:`Read more about Auto Save options </troubleshooting/recover>`.
 

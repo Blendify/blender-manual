@@ -114,8 +114,8 @@ Often it is better to create a simplified mesh to use as your collision object,
 however, this may be difficult if you are using an animated mesh.
 
 
-Self Collisions
+Self-Collisions
 ===============
 
 For information on self collision please refer to
-the :ref:`Self Collision <physics-softbody-settings-self-collision>` settings.
+the :ref:`Self-Collision <physics-softbody-settings-self-collision>` settings.

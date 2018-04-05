@@ -71,10 +71,10 @@ however, removes quick access to layer visibility).
    Read more about *Numpad Emulation* in the :doc:`User Preferences </preferences/input>`.
 
 
-Non English Keyboards
+Non-English Keyboards
 ^^^^^^^^^^^^^^^^^^^^^
 
-If you use a keyboard with a non-english keyboard layout, you still may benefit from switching
+If you use a keyboard with a non-English keyboard layout, you still may benefit from switching
 your computer to the UK or US layout as long as you work with Blender.
 
 .. note::

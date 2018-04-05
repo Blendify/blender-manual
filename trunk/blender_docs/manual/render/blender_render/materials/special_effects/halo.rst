@@ -47,7 +47,7 @@ Diffuse Color
    The color of the halo itself.
 Seed
    If non-zero, randomizes the ring dimension and line location.
-   To use, give any (integer) number to start the random-number generator.
+   To use, give any (integer) number to start the random number generator.
 Size
    Sets the dimension of the halo.
 Hardness

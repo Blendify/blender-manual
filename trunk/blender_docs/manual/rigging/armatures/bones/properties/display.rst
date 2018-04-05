@@ -37,7 +37,7 @@ Options
 Custom Shape
    Object that defines the custom shape of the selected bone.
 Bone Size
-   Option not to use bones length, so that changes in Edit Mode don't resize the custom-shape.
+   Option not to use bones length, so that changes in Edit Mode don't resize the custom shape.
 Scale
    Avoids having multiple custom-shapes at different sizes.
 At
@@ -71,7 +71,7 @@ To assign a custom shape to a bone, you have to:
    - The "along bone" axis is the Y one,
      and the shape object is always scaled so that one Blender Unit stretches along the whole bone length.
    - If you need to remove the custom shape of the bone,
-     just right click in the *Custom Shape* field and select *Reset to default value* in the pop-up menu.
+     just right-click in the *Custom Shape* field and select *Reset to default value* in the pop-up menu.
 
 So to summarize all this, you should use meshes as shape objects,
 with their center at their lower -Y end, and an overall Y length of 1.0 BU.

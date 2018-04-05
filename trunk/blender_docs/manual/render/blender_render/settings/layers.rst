@@ -40,7 +40,7 @@ Z-Transparency
    transparent areas with the z-value of what is behind the transparent area.
 Sky
    Turning on Sky renders the sky, as defined in your material world settings. Otherwise,
-   a black alpha transparent background is rendered.
+   a black alpha-transparent background is rendered.
 Edge
    If Edge is enable in the Post Processing panel, objects in this Render Layer are given an outline edge.
    Turning on Edge pulls in the Edge settings from the Render tab, and adds an outline to the objects.

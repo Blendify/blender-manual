@@ -28,7 +28,7 @@ This way you can simulate the shapes that an object would take on in reality if 
 was filled with something, and was acted on by real forces.
 
 Soft Bodies can interact with other objects through *Collision*.
-They can interact with themselves through *Self Collision*.
+They can interact with themselves through *Self-Collision*.
 
 The result of the Soft Body simulation can be converted to a static object.
 You can also *bake edit* the simulation, i.e.
@@ -103,7 +103,7 @@ Step Size
 ---------
 
 Min Step
-   Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
+   Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast-moving collision objects.
 Max Step
    Maximum simulation steps per frame.
    Normally the number of simulation steps is set dynamically
@@ -222,7 +222,7 @@ Tips
   simpler, invisible, somewhat larger object (see the example to Fig. :ref:`fig-softbody-intro-cloth`).
 - Use Soft Bodies only where it makes sense.
   If you try to cover a body mesh with a tight piece of cloth and animate solely with Soft Body,
-  you will have no success. Self collision of Soft Body hair may be activated,
+  you will have no success. Self-collision of Soft Body hair may be activated,
   but that is a path that you have to wander alone. We will deal with
   :doc:`Collisions </physics/soft_body/collision>` in detail later.
 - Try and use a *Lattice* or a *Curve Guide* Soft Body instead of the object itself. This may be magnitudes faster.

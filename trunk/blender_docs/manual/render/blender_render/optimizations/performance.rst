@@ -203,7 +203,7 @@ There are compelling advantages to this approach:
   less-important aspects which (although "technically correct") probably will not be noticed.
 
 Of course, this approach is not without its own set of trade-offs. You must devise a workable
-asset-management system for keeping track of exactly what material you have, where it is,
+asset management system for keeping track of exactly what material you have, where it is,
 whether it is up-to-date, and exactly how to re-create it. You must understand and
 use the "library linking" features of Blender to allow you to refer to
 objects, nodes, materials, textures and scenes in a carefully-organized collection of other files.

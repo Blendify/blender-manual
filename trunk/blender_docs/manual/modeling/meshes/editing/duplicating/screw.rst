@@ -234,14 +234,14 @@ The following steps explain how to create a height vector:
 
    Profile and vector created.
 
-#. Press :kbd:`Ctrl` and Left click :kbd:`LMB` near the circle,
+#. Press :kbd:`Ctrl` and left-click :kbd:`LMB` near the circle,
    in more or less at the light gray line of the square above the circle,
-   and, while still pressing :kbd:`Ctrl`, Left Click :kbd:`LMB` again in the gray line below the circle.
+   and, while still pressing :kbd:`Ctrl`, left-click :kbd:`LMB` again in the gray line below the circle.
    You have created two vertices and an Edge, which Blender will use as the first height and angle vector.
 #. Now, in the Transform Panel, in the median, clicking in the Global coordinates,
-   for the (X, Y, Z) coordinates, put (-2, 0, -1).
+   for the XYZ coordinates, put (-2, 0, -1).
 #. :kbd:`RMB` click on the other vertex,
-   and again, type its coordinates for (X, Y, Z) to (-2, 0, 1).
+   and again, set its XYZ coordinates to (-2, 0, 1).
    This will create a straight vertical line with 2 Blender units of Height.
 #. De-select and select everything again with the shortcut :kbd:`A`.
    (See Fig. :ref:`fig-mesh-screw-profile`).

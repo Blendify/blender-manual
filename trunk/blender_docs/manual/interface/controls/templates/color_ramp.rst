@@ -9,9 +9,9 @@ Color Ramp Widget
 
    Color ramp.
 
-*Color Ramps* enables the user to specify a range of colors based on color-stops.
-Color-stops are similar to a mark indicating where exactly the chosen color should be.
-The interval from each of the color-stops added to the ramp is a result of the color interpolation and
+*Color Ramps* enables the user to specify a range of colors based on color stops.
+Color stops are similar to a mark indicating where exactly the chosen color should be.
+The interval from each of the stops, added to the ramp, is a result of the color interpolation and
 chosen interpolation method.
 
 
@@ -23,7 +23,7 @@ Add ``+``
    The stops are added from the last selected stop to the next one, from left to right and
    they will be placed in the middle of both stops.
 Delete ``-``
-   Deletes the selected color-stop from the list.
+   Deletes the selected color stop from the list.
 Flip ``<->``
    Flips the gradient, inverting the values of the custom weight paint range.
 Color Mode
@@ -50,7 +50,7 @@ Interpolation Options
       Uses a *Constant* Interpolation for the color stops.
 
 Active Color Stop
-   Index of the active color-stop (shown as a dashed line).
+   Index of the active color stop (shown as a dashed line).
    Allows you to change the active color when colors may be too close to easily select with the cursor.
 Position
    This slider controls the positioning of the selected color stop in the range.

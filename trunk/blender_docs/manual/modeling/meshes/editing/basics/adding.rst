@@ -75,7 +75,7 @@ Examples:
 - Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. Faces created with source automatically rotated).
 - Creating Faces with shortcut :kbd:`Shift-Ctrl-LMB`, (see Fig. Faces created with no source rotation).
 
-If you have three or more vertices selected, and left click with mouse while pressing :kbd:`Ctrl-LMB`,
+If you have three or more vertices selected, and left-click with mouse while pressing :kbd:`Ctrl-LMB`,
 you will also create planar faces, but along the vertices selected, following the direction of the cursor.
 This operation is similar to an extrude operation,
 which is explained in the :doc:`Extrude </modeling/meshes/editing/duplicating/extrude>` page.

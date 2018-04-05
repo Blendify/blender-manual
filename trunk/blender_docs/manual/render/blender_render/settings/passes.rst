@@ -27,7 +27,7 @@ Various things that are calculated in a standard render include:
 - How is light reflected off mirrored surfaces?
   Like shadows, lines are calculated, except this time they come from the camera and bounce off mirrored surfaces,
   so that when these lines hit an object, the engine calculates that this is what the camera should see.
-- How is light bent (refracted) as is passes through transparent objects?
+- How is light bent (refracted) as it passes through transparent objects?
   Does it go straight through? Does it bend? If so, at what depth in the object?
 - What designated objects are in the scene, and what is their outline?
   Should the object appear blurred, or should it appear in sharp focus?
