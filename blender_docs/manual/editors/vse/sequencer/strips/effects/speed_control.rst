@@ -61,7 +61,7 @@ Set the Speed factor to be the factor by which you want to adjust the speed.
 To cut the displayed speed by 50%, enter 0.5.
 Now, a 275-frame clip will play at half speed, and thus display only the first 137 frames.
 
-If you want the remaining frames to show in slow-motion after the first set is displayed,
+If you want the remaining frames to show in slow motion after the first set is displayed,
 double the Length of the source strip
 (since effects strip bounds are controlled by their source strips).
 If you are using a speed factor other than 0.5 then use the formula:

@@ -96,7 +96,7 @@ Snake Hook :kbd:`K`
    Pulls vertices along with the movement of the brush to create long, snake-like forms.
 
    Pinch
-      Snake-hook tended to loose volume along the stroke,
+      *Snake hook* brush tends to loose volume along the stroke,
       with pinch > 0.5 its possible to sculpt shapes without loosing volume.
    Rake
       A factor to support grabbing the mesh with rotation following the cursor's motion.

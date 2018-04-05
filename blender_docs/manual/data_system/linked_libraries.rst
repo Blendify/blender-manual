@@ -167,7 +167,7 @@ Known Limitations
 =================
 
 For the most part linking data will work as expected, however,
-there are some corner-cases which are not supported.
+there are some corner cases which are not supported.
 
 
 Circular Dependencies

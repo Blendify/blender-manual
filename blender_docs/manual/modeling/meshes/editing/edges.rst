@@ -202,7 +202,7 @@ Loop crosses itself
    A face cannot be adjacent to itself.
 Multiple edge loops
    The selected edges are not in the same edge loop, which means they do not have a common edge.
-   You can minimize this error by always selecting edges end to end or in a "chain".
+   You can minimize this error by always selecting edges end-to-end or in a "chain".
    If you select multiple edges just make sure they are connected.
    This will decrease the possibility of getting looping errors.
 Border Edge
@@ -210,8 +210,8 @@ Border Edge
    An edge loop cannot be found because there is only one face.
    Remember, edge loops are loops that span two or more faces.
 
-A general rule of thumb is that if multiple edges are selected they should be connected end to
-end such that they form a continuous chain. This is *literally* a general rule because you
+A general rule of thumb is that if multiple edges are selected they should be connected end-to-end
+such that they form a continuous chain. This is *literally* a general rule because you
 can still select edges in a chain that are invalid because some of the edges in the chain are
 in different edge loops.
 

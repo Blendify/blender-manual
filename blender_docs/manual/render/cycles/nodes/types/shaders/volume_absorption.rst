@@ -9,7 +9,7 @@ Volume Absorption
 
    Volume Absorption Shader.
 
-The *Volume Absorption* node allows light to be absorbed as is passes through the volume.
+The *Volume Absorption* node allows light to be absorbed as it passes through the volume.
 Typical usage for this node would be water and colored glass.
 
 

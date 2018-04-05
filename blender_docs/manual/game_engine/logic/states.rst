@@ -75,7 +75,7 @@ individual states can be clicked to make their logic visible.
 
 States for the object that are in use
 (i.e. the object has controllers which operate in that state) have dots in them,
-and squares are dark-gray if these controllers are shown in the Game Logic display.
+and squares are dark gray if these controllers are shown in the Game Logic display.
 The display of their connected sensors and actuators can also be controlled
 if the State buttons at the head of their columns are ticked.
 

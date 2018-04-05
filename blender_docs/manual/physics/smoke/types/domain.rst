@@ -149,7 +149,7 @@ Additional
    Number of voxels to add around the outside of the domain.
 Margin
    Amount of extra space to leave around smoke, measured in voxels.
-   With very fast moving smoke larger margins may be required to prevent the smoke from being cut off
+   With very fast-moving smoke larger margins may be required to prevent the smoke from being cut off
    by the adaptive boundary, but note this will increase the number of voxels which need to be computed.
 Threshold
    Smallest amount of smoke a voxel can contain before it is considered empty

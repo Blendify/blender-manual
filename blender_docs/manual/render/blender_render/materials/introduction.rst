@@ -121,5 +121,5 @@ Cycles and the Blender Renderer (aka Blender Internal or BI)
 require quite different illumination levels to achieve similar results,
 and even then the appearance of objects can be quite different.
 Also, the material properties settings can be affected by the texture method used
-(Single Texture, Multitexture or GLSL). So it is recommended to always select
+(single-texture, multi-texture or GLSL). So it is recommended to always select
 the appropriate system settings before starting the design of materials.

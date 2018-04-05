@@ -132,7 +132,7 @@ Filter Type
 
    Tent
       The buffered shadows will be anti-aliased using the "tent" filtering method.
-      It is a simple filter that gives sharp results, an excellent general purpose filtering method.
+      It is a simple filter that gives sharp results, an excellent general-purpose filtering method.
       This filter also takes into account the sample values of neighboring pixels when
       calculating its final filtering value.
 
@@ -223,13 +223,13 @@ Bias
    Making the *Bias* value smaller results in the distance between the object and its shadow being smaller.
    If the *Bias* value is too small, an object can get artifacts,
    which can appear as lines and interference patterns on objects.
-   This problem is usually called "self shadowing",
+   This problem is usually called "self-shadowing",
    and can usually be fixed by increasing the *Bias* value, which exists for that purpose!
 
-   Other methods for correcting self shadowing include increasing the size of the *Shadow Buffer Size*
+   Other methods for correcting self-shadowing include increasing the size of the *Shadow Buffer Size*
    or using a different buffered shadow calculation method such as *Classic-Halfway* or *Irregular*.
 
-   Self shadowing interference tends to affect curved surfaces more than flat ones,
+   Self-shadowing interference tends to affect curved surfaces more than flat ones,
    meaning that if your scene has a lot of curved surfaces it may be necessary to increase
    the *Bias* value or *Shadow Buffer Size* value.
 

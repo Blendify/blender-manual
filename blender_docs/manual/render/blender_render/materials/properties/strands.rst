@@ -14,7 +14,7 @@ Polygon strands
 Strand Primitive
    You activate Strand Primitive with the button *Strand render* in the *Render* panel of the particle system.
    The hair curves are not stored as polygons; only the key points are stored,
-   which are then converted to polygons on the fly.
+   which are then converted to polygons on-the-fly.
    A second difference is the way transparency works.
    Rather than rendering using the existing system,
    all strand segments in a part are sorted front to back and rendered in that order.

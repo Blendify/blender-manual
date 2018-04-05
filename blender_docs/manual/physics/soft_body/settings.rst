@@ -86,7 +86,7 @@ Default
 Minimum / Maximum
    When you paint the values in vertex groups (using *Weight Paint Mode*),
    you can use the *G Min* and *G Max* to fine-tune (clamp) the weight values.
-   The lowest vertex-weight (blue) will become *G Min*, the highest value (red) becomes *G Max*
+   The lowest vertex weight (blue) will become *G Min*, the highest value (red) becomes *G Max*
    (please note that the blue-red color scale may be altered by User Preferences).
 
 
@@ -198,7 +198,7 @@ Soft Body Self Collision
 
 .. note::
 
-   *Self Collision* is working only if you have activated *Use Edges*.
+   *Self-Collision* is working only if you have activated *Use Edges*.
 
 Self Collision
    When enabled, allows you to control how Blender will prevent the Soft Body from intersecting with itself.
@@ -260,7 +260,7 @@ Step Size
 ---------
 
 Min Step
-   Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
+   Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast-moving collision objects.
 Max Step
    Maximum simulation steps per frame.
    Normally the number of simulation steps is set dynamically

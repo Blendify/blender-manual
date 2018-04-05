@@ -58,7 +58,7 @@ Your options include:
   It has several options, and can be very powerful -- see ITS page for a detailed description and demo blend-file.
   Do not forget that you can loop through objects using ``bpy`` instead of clicking thousands of
   times to set up chains of these Constraints.
-- Rigid Body Joints on the Fly --
+- Rigid Body Joints on-the-fly --
   You can add/remove them after the BGE starts by using ``bge.constraints.createConstraint()``.
   This can be good either to simply automate their setup, or to truly make them dynamic.
   A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend

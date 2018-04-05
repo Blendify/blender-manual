@@ -32,7 +32,7 @@ Brownian
    This is nice to simulate small, random wind forces.
 Drag
    A force that reduces particle velocity in relation to its speed and size
-   (useful in order to simulate Air-Drag or Water-Drag).
+   (useful in order to simulate air drag or water drag).
 Damp
    Reduces particle velocity (deceleration, friction, dampening).
 

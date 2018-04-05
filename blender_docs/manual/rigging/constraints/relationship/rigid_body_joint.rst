@@ -44,20 +44,20 @@ Target
 
 Joint Type
    Ball
-      works like an ideal ball-and-socket joint, i.e. allows rotations around all axes like a shoulder joint.
+      Works like an ideal ball-and-socket joint, i.e. allows rotations around all axes like a shoulder joint.
    Hinge
-      works in one plane, like an elbow: the owner and target can only rotate around the X axis of the pivot
+      Works in one plane, like an elbow: the owner and target can only rotate around the X axis of the pivot
       (joint point).
 
       Limits
          Angular limits for the X axis.
    Cone Twist
-      similar to *Ball*, this is a point-to-point joint with limits added for the cone and twist axis.
+      Similar to *Ball*, this is a point-to-point joint with limits added for the cone and twist axis.
 
       Limits
          Angular limits.
    Generic 6DOF
-      works like the *Ball* option,
+      Works like the *Ball* option,
       but the target is no longer constrained at a fixed distance from the pivot point, by default
       (hence the six degrees of freedom: rotation and translation around/along the three axes).
       In fact, there is no longer a joint by default, with this option,
@@ -67,7 +67,7 @@ Joint Type
          Linear and angular limits for a given axis (of the pivot) in Blender Units and degrees respectively.
 
 Child Object
-   normally, leave this blank. You can reset it to blank by right clicking and selecting Reset to Default Value.
+   Normally, leave this blank. You can reset it to blank by right-clicking and selecting Reset to Default Value.
 
    .. Is this right? 2.4 just had a 'to object'. Now we have a 'target' and a 'child object'.
       These are not documented. It seems that we recreate the behavior of 2.4 by leaving the child object blank.

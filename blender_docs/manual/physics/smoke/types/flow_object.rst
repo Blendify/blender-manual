@@ -120,7 +120,7 @@ Sampling: Subframes
 
    .. figure:: /images/physics_smoke_types_flow-object_subframes.jpg
 
-      Example showing two fast moving sources.
+      Example showing two fast-moving sources.
       The object on the left uses 0 subframes, while the one on the right uses 6.
 
 

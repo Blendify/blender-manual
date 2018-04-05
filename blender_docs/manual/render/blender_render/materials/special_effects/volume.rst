@@ -28,7 +28,7 @@ the light has passed through and how it has acted and reacted within that volume
 the volume object needs to contain a 3D region of space, for example a :term:`manifold` closed mesh,
 such as a cube, not just a flat surface like a plane. To get an image,
 the renderer has to step through that region, and see how much 'stuff' is there (density)
-in order to see how light is absorbed or scattered or whatever. This can be a time consuming
+in order to see how light is absorbed or scattered or whatever. This can be a time-consuming
 process since it has to check a lot of points in space and evaluate the density at each.
 
 

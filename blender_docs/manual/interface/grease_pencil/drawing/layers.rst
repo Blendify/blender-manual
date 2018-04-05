@@ -64,7 +64,7 @@ Active Layer
       Show All :kbd:`Alt-H`
          Makes all hidden layers visible.
       Hide Others :kbd:`Shift-H`
-         Makes all non selected layers hidden.
+         Hides all non-selected layers.
       Lock/Unlock All
          Locks/Unlocks all of the layers. This can be useful to prevent unwanted editing.
       Merge Down

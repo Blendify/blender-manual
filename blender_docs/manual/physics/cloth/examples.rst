@@ -66,7 +66,7 @@ Cloth with Dynamic Paint
 Cloth with Dynamic Paint using animated vertex groups:
 `Regression blend-file <https://wiki.blender.org/index.php/Media:Cloth_dynamic_paint.blend>`__.
 UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work
-(e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on the fly.
+(e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on-the-fly.
 
 
 Using Cloth for Softbodies
@@ -94,5 +94,5 @@ Cloth with Wind
 
    Flag with wind applied.
 
-Regression blend-file for Cloth with wind and self collisions (also the blend for the image above):
+Regression blend-file for Cloth with wind and self-collisions (also the blend for the image above):
 `Cloth flag with wind and selfcollisions <https://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__.

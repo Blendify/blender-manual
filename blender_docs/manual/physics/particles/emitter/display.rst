@@ -26,7 +26,7 @@ Draw Method
       Their size is independent of the distance from the camera.
    Axis
       Particles are displayed as 3-point axes.
-      This is useful if you want to see the orientation and rotation of particles in the view port.
+      This is useful if you want to see the orientation and rotation of particles in the viewport.
       Increase the *Draw Size* until you can clearly distinguish the axis.
 
 Particles visualized like Point, Circle, Cross and Axis do not have any special options,

@@ -75,7 +75,7 @@ the bottom row (5 - 8) a wireframe view of the same loops.
 .. note::
 
    Note that loops (2 and 4) do not go around the whole model.
-   Loops stop at so called poles because there is no unique way to continue a loop from a pole.
+   Loops stop at so-called poles because there is no unique way to continue a loop from a pole.
    Poles are vertices that are connected to either three, five, or more edges. Accordingly,
    vertices connected to exactly one, two or four edges are not poles.
 

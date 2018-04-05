@@ -159,7 +159,7 @@ any source. We must create a source object from one of the possible sources avai
    Part or whole of the viewport (=rendering of the active camera displayed on screen).
 
 ``ImageRender``
-   Render of a non active camera.
+   Render of a non-active camera.
 
 ``ImageMix``
    A mix of two or more of the above sources.
@@ -211,7 +211,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
 ``scale``
    (bool).
-   Set to True to activate fast nearest neighbor scaling algorithm.
+   Set to True to activate fast nearest-neighbor scaling algorithm.
    Texture width and height must be a power of 2.
    If the video picture size is not a power of 2, rescaling is required.
    By default ``bge.texture`` uses the precise but slow ``gluScaleImage()`` function.
@@ -274,7 +274,7 @@ after sending it to the GPU so that on next frame, a new image will be loaded fr
 It has the side effect of making the image unavailable to Python.
 You can also do it manually by calling the ``refresh()`` method of the source directly.
 
-Here are some possible advanced work flow:
+Here are some possible advanced workflow:
 
 - Use the image buffer in Python (does not effect the Texture)::
 

@@ -63,7 +63,7 @@ Non Manifold :kbd:`Shift-Ctrl-Alt-M`
       Selects edges that belong to exactly two faces with opposite normals.
    Vertices
       Selects vertices that belong to *wire* and *multiple face* edges, isolated vertices,
-      and vertices that belong to non adjoining faces.
+      and vertices that belong to non-adjoining faces.
 Interior Faces
    Selects faces where all edges have more than two faces.
 Select Faces by Sides
@@ -200,7 +200,7 @@ Edge Loops
    | Hotkey:   :kbd:`Alt-RMB`
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
-a line end to end, passing through the edge under the mouse pointer.
+a line end-to-end, passing through the edge under the mouse pointer.
 Holding :kbd:`Shift-Alt` while clicking adds to the current selection.
 
 Edge loops can also be selected based on an existing edge selection,
@@ -233,7 +233,7 @@ Face Loops
    | Hotkey:   :kbd:`Alt-RMB`
 
 In face select mode, holding :kbd:`Alt` while selecting an *edge* selects a loop of
-faces that are connected in a line end to end, along their opposite edges.
+faces that are connected in a line end-to-end, along their opposite edges.
 
 In vertex select mode,
 the same can be accomplished by using :kbd:`Ctrl-Alt` to select an edge,
@@ -267,7 +267,7 @@ Edge Boundary
    | Mode:     Edit Mode --> Vertex or Edge select modes
    | Hotkey:   :kbd:`Alt-RMB`
 
-Loop-select on edge boundaries.
+Loop selection on edge boundaries.
 To extend the selection to all boundaries if the current boundary is already selected
 use :kbd:`Alt-RMB` again.
 

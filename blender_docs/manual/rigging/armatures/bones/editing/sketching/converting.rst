@@ -199,7 +199,7 @@ OK now, here are some important ground rules:
   so it is better to select only one chain of bones inside the current armature
   (or use a single-chain armature object as template).
   Else, the chain of the template containing the first created bones will be mapped to
-  the selected strokes, and the other chains will just be "copied" *as is*, without any modification.
+  the selected strokes, and the other chains will just be "copied" *as-is*, without any modification.
 - This tool maps the same chain of bones on all selected strokes,
   so you cannot use multiple strokes to map a multi-chains template --
   you will rather get a whole set of new bones for each selected stroke!

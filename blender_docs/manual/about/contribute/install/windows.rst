@@ -38,7 +38,7 @@ In this guide, we will use TortoiseSVN though any Subversion client will do.
 #. Once the installation has finished,
    create a new folder that will contain everything related to the Blender Manual.
    In this guide, we will use ``C:\blender_docs``.
-#. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
+#. Open the new folder, right-click and choose *SVN Checkout...* from the context menu.
 #. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs``.
 #. In the *Checkout directory* field, enter: ``C:\blender_docs``.
 #. Click *OK* -- the repository will now be downloaded

@@ -197,7 +197,7 @@ doing this will simply change its subdivision level instead of adding another mo
 Known Limitations
 =================
 
-Non Contiguous Normals
+Non-Contiguous Normals
 ----------------------
 
 Blender's subdivision system produces nice smooth subdivided meshes, but any subdivided face

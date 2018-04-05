@@ -167,13 +167,13 @@ Default
 Minimum / Maximum
    When you paint the values in vertex groups (using *Weight Paint Mode*),
    you can use the *G Min* and *G Max* to fine-tune (clamp) the weight values.
-   The lowest vertex-weight (blue) will become *G Min*, the highest value
+   The lowest vertex weight (blue) will become *G Min*, the highest value
    (red) becomes *G Max* (please note that the blue-red color scale may be altered by User Preferences).
 
 .. tip:: For now all is applied to single vertices
 
    For now we have discussed vertex movement independent of each other, similar to particles.
-   Every object without *Goal* would collapse completely if a non uniform force is applied.
+   Every object without *Goal* would collapse completely if a non-uniform force is applied.
    Now we will move to the next step,
    the forces that keep the structure of the object and make the Soft Body to a real Body.
 
