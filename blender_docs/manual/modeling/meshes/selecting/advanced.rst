@@ -108,7 +108,7 @@ Select Similar
    | Menu:     :menuselection:`Select --> Similar...`
    | Hotkey:   :kbd:`Shift-G`
 
-Select geometry that have similar certain properties to the ones selected,
+Select geometry that has similar certain properties to the ones selected,
 based on a threshold that can be set in tool properties after activating the tool.
 Tool options change depending on the selection mode:
 
