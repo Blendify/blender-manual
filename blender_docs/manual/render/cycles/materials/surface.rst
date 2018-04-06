@@ -29,7 +29,7 @@ Refraction
 BSDF Parameters
 ===============
 
-A major difference from non-physically based renderers is that direct light reflection from
+A major difference from non-physically-based renderers is that direct light reflection from
 lamps and indirect light reflection of other surfaces are not decoupled, but rather handled
 using a single :abbr:`BSDF (Bidirectional scattering distribution function)`.
 This limits the possibilities a bit, but we believe overall it is helpful in creating

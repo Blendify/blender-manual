@@ -25,9 +25,9 @@ Body
    Body of message sent (only read by Python).
 
    Text
-      User specified text in body.
+      User-specified text in body.
    Property
-      User specified property.
+      User-specified property.
 
 .. tip::
 

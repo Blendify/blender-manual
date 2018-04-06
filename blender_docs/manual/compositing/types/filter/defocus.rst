@@ -103,8 +103,8 @@ how much to blur the image at that point, where white is the maximum blur and bl
 Or, you could use a Time node to uniformly blur the image,
 where the time value controls the maximum blur for that frame.
 It may also be used to obtain a possibly slightly better DoF blur,
-by using a fake depth shaded image instead of a Z-buffer.
-(A typical method to create the fake depth shaded image is by using a linear blend texture
+by using a fake depth-shaded image instead of a Z-buffer.
+(A typical method to create the fake depth-shaded image is by using a linear blend texture
 for all objects in the scene or by using the "fog/mist" fake depth shading method).
 This also has the advantage that the fake depth image can have anti-aliasing,
 which is not possible with a real Z-buffer.

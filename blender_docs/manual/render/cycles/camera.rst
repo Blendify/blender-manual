@@ -168,7 +168,7 @@ Size/Number
 Blades
    Total number of polygonal blades used to alter the shape of the blurred objects
    in the render, and render preview. As with the view-port, the minimum amount of
-   blades to enable the bokeh effect is 3, resulting in a triangle shaped blur.
+   blades to enable the bokeh effect is 3, resulting in a triangular-shaped blur.
 Rotation
    Rotate the polygonal blades along the facing axis, and will rotate in a clockwise,
    and counter-clockwise fashion.

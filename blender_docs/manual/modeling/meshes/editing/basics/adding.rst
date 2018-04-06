@@ -58,7 +58,7 @@ and will use the planar view from your viewport to create those quads.
 
 For :kbd:`Ctrl-LMB`, Blender will automatically rotate the last selected Edge (the source)
 for the subsequent operations if you have at least one face created, dividing the angles created between
-the newly-created edge and the last two edges, creating a smooth angle between them. Blender will calculate
+the newly created edge and the last two edges, creating a smooth angle between them. Blender will calculate
 this angle using the last positive and negative position of the last X and Y coordinates
 and the last connected unselected edge. If this angle exceeds a negative limit (following a quadrant rule)
 between the recently created edge and the last two, Blender will wrap the faces.

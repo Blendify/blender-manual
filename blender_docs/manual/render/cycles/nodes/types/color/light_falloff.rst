@@ -11,7 +11,7 @@ Light Falloff Node
 
 The *Light Falloff* node allows you to manipulate how light intensity decreases over distance.
 In reality light will always fall off quadratically; however,
-it can be useful to manipulate as a non-physically based lighting trick.
+it can be useful to manipulate as a non-physically-based lighting trick.
 Note that using Linear or Constant falloff may cause more light to be introduced with every global
 illumination bounce, making the resulting image extremely bright if many bounces are used.
 

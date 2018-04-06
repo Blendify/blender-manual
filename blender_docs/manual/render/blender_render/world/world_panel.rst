@@ -102,7 +102,7 @@ Texture Coordinates
       Uses global coordinates.
    Angular Map
       Used to wrap a standard hemisphere angular map around the scene in a dome.
-      This can be used for image based lighting with *Ambient Occlusion* set to sky color.
+      This can be used for image-based lighting with *Ambient Occlusion* set to sky color.
       You will generally need a high dynamic range image (HDRI) angular map.
       (It will look like a weird spherical image).
    Sphere

@@ -4,8 +4,8 @@
 Multicam Selector
 *****************
 
-The Multicam Selector strip is used for multi camera editing.
-Multi camera editing is when a scene is recorded using multiple cameras from different angles
+The Multicam Selector strip is used for multi-camera editing.
+Multi-camera editing is when a scene is recorded using multiple cameras from different angles
 and then edited together after words. This process can be rather easy in the :abbr:`VSE (Video Sequence Editor)`
 if you properly setup every to improve your workflow.
 
@@ -39,7 +39,7 @@ Workflow
 
    .. figure:: /images/editors_vse_sequencer_strips_effects_multicam_example.png
 
-      Multi camera editing setup.
+      Multi-camera editing setup.
 
 #. Now select the Multicam strip, if you take a look at the strip options (Properties region),
    you will notice, that Multicam is a rather simple effect strip:

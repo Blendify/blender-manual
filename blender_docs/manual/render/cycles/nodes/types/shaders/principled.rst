@@ -124,7 +124,7 @@ Subsurface Method
    Rendering method to simulate subsurface scattering.
 
    Christensen-Burley
-      Is an approximation to physically based volume scattering.
+      Is an approximation to physically-based volume scattering.
       Gives less blurry results than Cubic and Gaussian functions.
    Random Walk
       Provides the most accurate results for thin and curved objects.

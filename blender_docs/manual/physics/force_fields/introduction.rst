@@ -111,11 +111,11 @@ Falloff Type
    Sphere
       The falloff is uniform in all directions, as in a sphere.
    Tube
-      The falloff results in a tube shaped force field.
+      The falloff results in a tube-shaped force field.
       The field's *Radial Power* can be adjusted,
       as well as the *Minimum* and *Maximum* distances of the field.
    Cone
-      The falloff results in a cone shaped force field. Additional options are the same as those of *Tube* options.
+      The falloff results in a cone-shaped force field. Additional options are the same as those of *Tube* options.
 
 Z Direction
    The falloff can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.

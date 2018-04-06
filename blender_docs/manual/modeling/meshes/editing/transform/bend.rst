@@ -28,7 +28,7 @@ Bend
 
           Clamp off.
 
-This tool rotates a line of selected elements forming an arc between the mouse-cursor and the 3D-cursor.
+This tool rotates a line of selected elements forming an arc between the mouse cursor and the 3D cursor.
 
 
 Usage
@@ -40,8 +40,8 @@ with a gradual transition between both sides.
 This may take a little getting used to, the basics are listed below controls are noted here:
 
 - The initial position of the cursors define the axis to bend on.
-- The distance of the mouse-cursor to the 3D-cursor controls how sharp the bend will be.
-- The relative angle of the mouse-cursor to the initial axis defines the bend angle.
+- The distance of the mouse cursor to the 3D cursor controls how sharp the bend will be.
+- The relative angle of the mouse cursor to the initial axis defines the bend angle.
 
 If this seems overly complicated, it's probably best to try the tool where it becomes quickly apparent
 how the tool reacts to your input.

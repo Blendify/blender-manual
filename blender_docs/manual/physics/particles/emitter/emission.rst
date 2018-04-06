@@ -89,7 +89,7 @@ Grid
    Invert Grid
       Invert what is considered the object and what is not.
    Hexagonal
-      Uses a hexagonal shaped grid instead of a rectangular one.
+      Uses a hexagonal-shaped grid instead of a rectangular one.
    Resolution
       Resolution of the grid.
    Random

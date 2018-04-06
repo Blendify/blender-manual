@@ -93,7 +93,7 @@ Video Containers
    A free lossy video compression format.
    It is developed by the Xiph.Org Foundation and distributed without licensing fees.
 `Matroska <https://en.wikipedia.org/wiki/Matroska>`__: ``.mkv``
-   An open standard free container format, a file format that can hold an unlimited number of video,
+   An free open-standard container format, a file format that can hold an unlimited number of video,
    audio, picture or subtitle tracks in one file.
 `Flash <https://en.wikipedia.org/wiki/Flash_Video>`__: ``.flv``
    A container file format used to deliver video over the Internet using Adobe Flash Player.

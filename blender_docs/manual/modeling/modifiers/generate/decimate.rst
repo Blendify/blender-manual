@@ -74,7 +74,7 @@ Un-Subdivide
 
 Can be thought of as the reverse of subdivide.
 Attempts to remove edges that were the result of a subdivide operation.
-For meshes with a mainly grid based topology (without giving uneven geometry).
+For meshes with a mainly grid-based topology (without giving uneven geometry).
 If additional editing has been done after the subdivide operation, the results may be unexpected.
 
 Iterations

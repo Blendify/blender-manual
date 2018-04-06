@@ -41,7 +41,7 @@ Vector Blur
 ===========
 
 :doc:`Vector Blur </compositing/types/filter/vector_blur>`
-is faster but sometimes has unwanted side-effects which are sometimes difficult to avoid.
+is faster but sometimes has unwanted side effects which are sometimes difficult to avoid.
 
 Vector blur is a process done in compositing (post-render time), by rendering
 the scene without any blur, plus a pass that has movement information for each pixel.

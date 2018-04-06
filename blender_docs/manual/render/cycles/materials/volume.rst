@@ -20,7 +20,7 @@ Principled Volume
 -----------------
 
 :doc:`Principled Volume </render/cycles/nodes/types/shaders/volume_principled>`
-is a physically based volume shader that can be used to create a wide range of volume materials.
+is a physically-based volume shader that can be used to create a wide range of volume materials.
 It supports scattering, absorption and emission in one easy to use node. Fire can be rendered with blackbody emission.
 
 .. figure:: /images/render_cycles_materials_volume_principled.jpg

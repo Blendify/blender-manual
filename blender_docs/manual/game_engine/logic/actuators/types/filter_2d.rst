@@ -5,7 +5,7 @@ Filter 2D Actuator
 ******************
 
 The *Filter 2D Actuator* adds image filters, that apply on final render of objects.
-There are several 2D filters each listed below. Most are self explanatory, however,
+There are several 2D filters each listed below. Most are self-explanatory, however,
 some are special and will be described in detail later.
 
 - Custom Filter

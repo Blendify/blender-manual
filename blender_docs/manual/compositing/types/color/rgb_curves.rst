@@ -106,7 +106,7 @@ You can then use the levels' color picker to easily choose
 the appropriate colors from the input image, zooming into pixel level if necessary.
 The result can be fine-tuned with the R, G, and B curves like in the previous example.
 
-The curve for C is used to compensate for the increased contrast that is a side-effect of
+The curve for C is used to compensate for the increased contrast that is a side effect of
 setting Black and White Levels.
 
 

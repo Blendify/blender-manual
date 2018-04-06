@@ -62,7 +62,7 @@ More
 ====
 
 Nodes for geometric data, texture coordinates,
-layering shaders and non-physically based tricks can be found in:
+layering shaders and non-physically-based tricks can be found in:
 
 - :doc:`Vector Nodes </render/cycles/nodes/types/vector/index>`,
 - :doc:`Color Nodes </render/cycles/nodes/types/color/index>`,

@@ -51,7 +51,7 @@ Additionally, some render settings are used too:
 
 - Render Dimensions
 - Render Aspect
-- File Format & Output (file-path, format, compression settings, etc.).
+- File Format & Output (file path, format, compression settings, etc.).
 
 
 Rendering

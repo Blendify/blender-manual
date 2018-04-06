@@ -18,7 +18,7 @@ themselves allowing to control most aspects of how image textures are applied:
 *Image*, *Image Sampling*, and *Image Mapping*.
 
 
-About Image Based Texturing
+About Image-Based Texturing
 ===========================
 
 Texture images take up precious memory space,

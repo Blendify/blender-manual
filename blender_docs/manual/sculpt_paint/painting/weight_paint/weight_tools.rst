@@ -380,7 +380,7 @@ You first select all source objects, and finally the target object
 (the target object must be the active object).
 
 It is important that the source objects and the target object are at the same location.
-If they are placed side by side, then the weight transfer will not work.
+If they are placed side-by-side, then the weight transfer will not work.
 You can place the objects on different layers,
 but you have to ensure that all objects are visible when you call the tool.
 

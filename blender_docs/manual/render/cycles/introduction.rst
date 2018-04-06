@@ -5,7 +5,7 @@ Introduction
 
 .. figure:: /images/render_cycles_introduction_overview.jpg
 
-Cycles is Blender's physically based production renderer.
+Cycles is Blender's physically-based production renderer.
 
 To use Cycles, set it as the active render engine in the Info editor's header.
 Interactive rendering can be started by setting a 3D View editor to draw mode Rendered using :kbd:`Shift-Z`.

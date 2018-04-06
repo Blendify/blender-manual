@@ -77,7 +77,7 @@ The *Help* menu in the Info Editor header.
 Web Links
 ---------
 
-The first options of this menu provide direct links to Blender related websites:
+The first options of this menu provide direct links to Blender-related websites:
 The same links can also be found in the :ref:`splash`.
 
 Manual

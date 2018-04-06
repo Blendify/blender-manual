@@ -28,7 +28,7 @@ Pre-visualizing the Cut
 
 After the tool is activated, move the cursor over a desired edge.
 The cut to be made is marked with a magenta colored line as you move the mouse over the various edges.
-The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.
+The to be created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.
 
 
 Sliding the new Edge Loop

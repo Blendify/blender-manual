@@ -10,7 +10,7 @@ Volume Rendering
    Activating Volume rendering.
 
 Volume rendering is a method for rendering light as it passes through participating media,
-within a 3D region. The implementation in Blender a physically based model,
+within a 3D region. The implementation in Blender a physically-based model,
 which represents the various interactions of light in a volume relatively realistically.
 
 .. figure:: /images/render_blender-render_materials_special-effects_volume_volume-eq.jpg

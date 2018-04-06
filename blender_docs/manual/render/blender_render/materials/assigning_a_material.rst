@@ -5,7 +5,7 @@
 Assigning a Material
 ********************
 
-Materials available in the currently-open blend-file can be investigated by clicking
+Materials available in the currently open blend-file can be investigated by clicking
 on the Materials icon |material-icon| in the Properties editor Header.
 In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
 

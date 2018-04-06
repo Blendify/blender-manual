@@ -74,7 +74,7 @@ which will distort the viewing angle.
 
 Of course, shading of the object hit by a light ray will be about mixing all these phenomena
 at the same time during the rendering. The appearance of the object, when rendered,
-depends on many inter-related settings:
+depends on many interrelated settings:
 
 - World (Ambient color, Radiosity, Ambient Occlusion)
 - Lights

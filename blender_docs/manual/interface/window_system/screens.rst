@@ -86,7 +86,7 @@ your workflow as this will help increase your productivity. Some examples could 
    Properties editor for rendering and lamp properties and controls.
 :Materials: Properties editor for Material settings, 3D View for selecting objects, Outliner,
    Library script (if used), Node Editor
-   (if using :doc:`Node based materials </render/blender_render/materials/nodes/index>`).
+   (if using :doc:`Node-based materials </render/blender_render/materials/nodes/index>`).
 :Painting: UV/Image Editor for texture painting image,
    3D View for painting directly on object in UV Face Select mode,
    three mini-3D Views down the side that have background
