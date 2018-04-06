@@ -63,7 +63,7 @@ Quality
 Iterations
    The number of times to run through the filter algorithm.
    Higher values will give more accurate results but will take longer to compute.
-   Note, that this is not available for *Fog Glow* as it does not use an iterative based algorithm.
+   Note, that this is not available for *Fog Glow* as it does not use an iterative-based algorithm.
 Color Modulation
    Used for *Streaks* and *Ghosts* to create a special dispersion effect.
 

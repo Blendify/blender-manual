@@ -41,7 +41,7 @@ Object
    particles will have the mesh shape of the current Particle Instance Modifier's mesh.
    If for example a sphere has a Particle Instance Modifier added to it, when the *Object* field
    of this modifier is filled in with the name of an object that emits particles,
-   those particle will be sphere shaped.
+   those particle will be sphere-shaped.
    Even though most of the time the *Object* field will have the name of an object with a particle
    system, this is not mandatory, you can enter an object's name which does not have a particle system, and
    it will be accepted by the *Object* field, as there do not appear to be any checks

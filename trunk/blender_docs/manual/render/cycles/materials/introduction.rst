@@ -59,7 +59,7 @@ which is known as bump mapping, or a combination of real and virtual displacemen
 Energy Conservation
 ===================
 
-The material system is built with physically based rendering in mind,
+The material system is built with physically-based rendering in mind,
 cleanly separating how a material looks and which rendering algorithm is used to render it.
 This makes it easier to achieve realistic results and balanced lighting,
 though there are a few things to keep in mind.

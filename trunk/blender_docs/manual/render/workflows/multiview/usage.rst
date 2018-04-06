@@ -8,7 +8,7 @@ that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
 .. figure:: /images/render_workflows_multiview_usage_anaglyph.png
 
-   Creature Factory 2 by Andy Goralczyk Rendered in Stereo 3D (anaglyph).
+   Creature Factory 2 by Andy Goralczyk rendered in stereo 3D (anaglyph).
 
 .. note::
 
@@ -25,7 +25,7 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 
 .. figure:: /images/render_workflows_multiview_usage_turntable-creature.png
 
-   Turn Table Creature Factory 2.
+   Turn-table Creature Factory 2.
 
 
 Views Setup
@@ -35,7 +35,7 @@ Go to the :doc:`Render Layers </render/post_process/layers>` panel and enable *V
 
 .. figure:: /images/render_workflows_multiview_usage_views-panel.png
 
-   Scene Render Views.
+   Scene render views.
 
 .. note::
 
@@ -57,7 +57,7 @@ The viewport will respond in real-time to those changes allowing you to preview 
 
 .. figure:: /images/render_workflows_multiview_usage_camera-stereoscopy-panel.png
 
-   Stereo Convergence Distance.
+   Stereo convergence distance.
 
 
 Viewport
@@ -73,7 +73,7 @@ In the following image, the camera's frustum volumes are also visible.
 .. figure:: /images/render_workflows_multiview_usage_stereo-preview.png
    :width: 700px
 
-   Viewport Plane and Volume Stereo Preview.
+   Viewport plane and volume stereo preview.
 
 
 Stereo 3D Display
@@ -85,7 +85,7 @@ Be aware that some modes require a fullscreen editor to work.
 
 .. figure:: /images/render_workflows_multiview_usage_window-stereo-3d.png
 
-   Window Menu, Stereo 3D Operator.
+   Window menu, stereo 3D operator.
 
 
 OpenGL Preview
@@ -115,7 +115,7 @@ In this example we saved as cross-eyed side-by-side stereo 3D.
 
 .. figure:: /images/render_workflows_multiview_usage_render-sidebyside.png
 
-   Side by Side Cross-Eye Format.
+   Side-by-side cross-eye format.
 
 
 Final Considerations
@@ -138,7 +138,7 @@ or if you create your own shortcuts for the ``wm.set_stereo_3d`` operator.
 
 .. figure:: /images/render_workflows_multiview_usage_window-stereo-3d.png
 
-   Window Menu, Stereo 3D Operator.
+   Window menu, stereo 3D operator.
 
 
 Display Mode
@@ -184,7 +184,7 @@ The stereo pair, however, is offsetted, and can have unique rotation and shift b
 
 .. figure:: /images/render_workflows_multiview_usage_camera-stereoscopy-panel.png
 
-   Stereo 3D Camera Settings.
+   Stereo 3D camera settings.
 
 Interocular Distance
    Set the distance between the camera pair.
@@ -226,7 +226,7 @@ It also allow you to see the Cameras, the Plane and the Volume of the stereo cam
 
 .. figure:: /images/render_workflows_multiview_usage_3d-view-stereoscopy-panel.png
 
-   Viewport Stereo 3D Settings.
+   Viewport stereo 3D settings.
 
 Cameras
    When working with the Stereo 3D Views setup, you can inspect what
@@ -248,7 +248,7 @@ Volume
    .. figure:: /images/render_workflows_multiview_usage_volume.png
       :width: 402px
 
-      Viewport 3D: Convergence Plane and Volume Display.
+      Viewport 3D: convergence plane and volume display.
 
 
 Multi-View and Stereo 3D Image I/O
@@ -295,7 +295,7 @@ View Menu
 
    .. figure:: /images/render_workflows_multiview_usage_image-editor-header.png
 
-      Stereo 3D and View menu.
+      Stereo 3D and view menu.
 
 Views Format
    When you drag and drop an image into the UV/Image Editor, Blender will open it as an individual images at first.
@@ -305,7 +305,7 @@ Views Format
 
    .. figure:: /images/render_workflows_multiview_usage_image-editor-multi-view.png
 
-      Views Formats and Stereo 3D.
+      Views formats and stereo 3D.
 
 
 Compositor
@@ -318,7 +318,7 @@ Movies or Image Sequences in any of the supported Multi-View formats.
 
 .. figure:: /images/render_workflows_multiview_usage_compositor.png
 
-   Compositor, Backdrop and Split Viewer Node.
+   Compositor, backdrop and Split Viewer Node.
 
 The views to render are defined in the current scene views,
 in a similar way as you define the composite output resolution in the current scene render panel,

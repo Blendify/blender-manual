@@ -44,7 +44,7 @@ Shading
 Flat
 ----
 
-.. list-table:: Example mesh flat (left) and smooth shaded (right).
+.. list-table:: Example mesh flat (left) and smooth-shaded (right).
    `Sample blend-file <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__.
 
    * - .. figure:: /images/modeling_meshes_editing_normals_example-flat.png

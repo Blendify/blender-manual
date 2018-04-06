@@ -174,7 +174,7 @@ by releasing :kbd:`LMB` the selection is complete; see Fig. :ref:`fig-mesh-selec
 Circle Select
 -------------
 
-Enables a circular shaped region for selection :kbd:`C`.
+Enables a circular-shaped region for selection :kbd:`C`.
 
 .. _fig-mesh-select-basic-circle:
 

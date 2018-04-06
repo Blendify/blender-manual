@@ -45,7 +45,7 @@ Image
 Strange Halos or Outlines
 =========================
 
-This section clarifies the functionality of premultiplied-alpha button.
+This section clarifies the functionality of the premultiplied alpha button.
 An alpha channel has a value of between 0 and 1.
 To make an image transparent (to composite it over another one),
 the RGB pixel values are multiplied by the alpha values

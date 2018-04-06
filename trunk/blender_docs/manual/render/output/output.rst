@@ -97,7 +97,7 @@ Cache Result
    This allows the compositor to read these to improve performance, especially for heavy compositing.
 Output Format
    Choose the file format to save to. Based on which format is used,
-   other options such as channels, bit-depth and compression level are available.
+   other options such as channels, bit depth and compression level are available.
 
    For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`,
    for rendering to videos see :doc:`rendering to videos </render/output/video>`.

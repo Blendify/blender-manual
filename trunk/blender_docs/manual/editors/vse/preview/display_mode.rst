@@ -20,7 +20,7 @@ Luma Waveform
 For the selected channel, brightness, or luminosity, is mapped with this display.
 
 A luma waveform allows you to judge the quality of the luminance distribution across the video signal,
-you can view a luma-waveform instead of the usual output display on every control monitor.
+you can view a luma waveform instead of the usual output display on every control monitor.
 
 The display plots for every scanline the luminance value. The lines are all drawn on top of each other.
 The points get brighter if the lines cross (which is very likely with several hundred scanlines).
@@ -51,7 +51,7 @@ This mode is good for:
    * - .. figure:: /images/editors_vse_preview_display-mode_luma-waveform-example-1.png
 
           The various horizontal lines in the Luma waveform
-          match the uniform-color lines of the picture. Note that the 'gray 20%'
+          match the uniform-colored lines of the picture. Note that the 'gray 20%'
           one-pixel width line (inside the yellow strip) is represented in the Luma waveform by a gray line.
           The two lines drawing an "X" are from the two linear tone shades (white --> black and black --> white).
           Finally, the broken line matches the complex tone shade at the bottom of the picture.

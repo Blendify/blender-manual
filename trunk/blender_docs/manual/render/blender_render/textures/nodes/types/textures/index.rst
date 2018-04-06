@@ -4,7 +4,7 @@
 #################
 
 These nodes generate procedural textures,
-and function just like their non node based counterparts.
+and function just like their non-node-based counterparts.
 
 
 .. rubric:: Common Options

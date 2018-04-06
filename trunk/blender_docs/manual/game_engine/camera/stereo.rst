@@ -33,7 +33,7 @@ Stereo Mode
       (Left Front, Left Back, Right Front and Right Back), allowing to swap the buffers for both eyes in sync.
       See `Quad Buffering <https://en.wikipedia.org/wiki/Quad_buffering>`__ for more information.
    Side by Side
-      Lines are displayed one after the other, so providing the two images in two frames side by side.
+      Lines are displayed one after the other, so providing the two images in two frames side-by-side.
    Above-Below
       Frames are displayed one after the other, so providing the two images in two frames, one above the other.
    Interlaced

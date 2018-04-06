@@ -426,4 +426,4 @@ This effect works quite well with a *Hemi* lamp,
 or some ambient occlusion, to fill in the *Sun* shadows.
 
 Atmosphere shading currently works incorrectly in reflections and refractions and is only
-supported for solid shaded surfaces. This will be addressed in a later release.
+supported for solid-shaded surfaces. This will be addressed in a later release.

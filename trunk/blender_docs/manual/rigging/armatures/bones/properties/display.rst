@@ -39,7 +39,7 @@ Custom Shape
 Bone Size
    Option not to use bones length, so that changes in Edit Mode don't resize the custom shape.
 Scale
-   Avoids having multiple custom-shapes at different sizes.
+   Avoids having multiple custom shapes at different sizes.
 At
    Bone that defines the display transform of this shape bone.
 
@@ -67,7 +67,7 @@ To assign a custom shape to a bone, you have to:
      (see the :doc:`bone page </rigging/armatures/bones/index>` for root/tip).
    - The object properties of the shape are ignored
      (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object Mode*,
-     you will still have a cube shaped bone...).
+     you will still have a cube-shaped bone...).
    - The "along bone" axis is the Y one,
      and the shape object is always scaled so that one Blender Unit stretches along the whole bone length.
    - If you need to remove the custom shape of the bone,

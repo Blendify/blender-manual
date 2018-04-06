@@ -77,7 +77,7 @@ Swapping Contents
 
 You can swap the contents between two areas with :kbd:`Ctrl-LMB`
 on one of the splitters of the initial area, dragging towards the target area,
-and releasing the mouse there. The two areas do not need to be side by side,
+and releasing the mouse there. The two areas do not need to be side-by-side,
 though they must be inside the same window.
 
 

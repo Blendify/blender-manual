@@ -58,7 +58,7 @@ Detail Refine Method
       This method combines the two methods, subdividing edges smaller than
       the detail size, and collapsing topology.
 Smooth Shading
-   Toggles whether mesh faces are smooth or flat shaded.
+   Toggles whether mesh faces are smooth or flat-shaded.
    In dynamic-topology mode all faces have the same type of shading.
 Optimize
    If sculpting begins to slow down while dynamic topology is enabled,

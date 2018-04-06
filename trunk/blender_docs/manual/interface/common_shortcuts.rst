@@ -74,11 +74,11 @@ Python Scripting
 - :kbd:`Ctrl-C` -- Over any :ref:`ui-operation-buttons` copies their Python command into the clipboard.
 
   This can be used in the Python console or in the Text editor when writing scripts.
-- :kbd:`Shift-Ctrl-C` -- Over property buttons copies their data-path for this property
+- :kbd:`Shift-Ctrl-C` -- Over property buttons copies their data path for this property
   (also available from the context menu).
 
   Useful when writing drivers or scripts.
-- :kbd:`Shift-Ctrl-Alt-C` -- Over property buttons copies their *full* data-path for the data-block and property.
+- :kbd:`Shift-Ctrl-Alt-C` -- Over property buttons copies their *full* data path for the data-block and property.
 
   Note that in most cases it is best to access values based on the context, instead of by name.
 

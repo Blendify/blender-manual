@@ -39,7 +39,7 @@ Mass
    in the Physics tab of the Tool Shelf.
 
    Calculate Mass
-      Automatically calculate mass values for Rigid Body Objects based on volume.
+      Automatically calculate mass values for rigid body objects based on its volume.
       There are many useful presets available from the menu, listing real-world objects.
 
       .. note::
@@ -92,7 +92,7 @@ Cone
    The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
 
 
-.. rubric:: Mesh based shapes
+.. rubric:: Mesh-Based Shapes
 
 These are calculated based on the geometry of the object so they are a better representation of the object.
 The center of gravity for these shapes is the object origin.

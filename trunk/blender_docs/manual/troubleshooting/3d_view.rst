@@ -84,7 +84,7 @@ Upgrade Graphics Driver
    *It is generally good to use recent drivers when using 3D software.*
 Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
-   While this can be useful on its own, its has the side-effect of not relying on OpenGL selection.
+   While this can be useful on its own, its has the side effect of not relying on OpenGL selection.
 Change Draw Modes (Workaround)
    Using *Wireframe* or even *Bounding Box* draw modes can be used to more quickly select different objects.
 
@@ -169,6 +169,6 @@ Change Anti-Aliasing Sample Settings
 
    Unfortunately finding working configuration involves trial & error testing.
 Upgrade Graphics Driver
-   As with any OpenGL related issues, using recent drivers can resolve problems.
+   As with any OpenGL-related issues, using recent drivers can resolve problems.
 
    However, it should be noted that this is a fairly common problem and remains unresolved with many drivers.

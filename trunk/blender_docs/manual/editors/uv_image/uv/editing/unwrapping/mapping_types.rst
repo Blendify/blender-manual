@@ -179,7 +179,7 @@ Follow Active Quads
 ===================
 
 The Follow Active Quads tool takes the selected faces and lays them out
-by following continuous face loops, even if the mesh face is irregularly shaped.
+by following continuous face loops, even if the mesh face is irregularly-shaped.
 Note that it does not respect the image size,
 so you may have to scale them all down a bit to fit the image area.
 

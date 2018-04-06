@@ -130,7 +130,7 @@ Time
 Generate Speed Vectors
    If this button is clicked, no speed vectors will be exported.
    So by default, speed vectors are generated and stored on disk.
-   They can be used to compute image based motion blur with the compositing nodes.
+   They can be used to compute image-based motion blur with the compositing nodes.
 Reverse Frames
    The simulation is calculated backward.
 Speed
