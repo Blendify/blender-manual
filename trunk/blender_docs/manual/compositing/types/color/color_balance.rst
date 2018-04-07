@@ -40,7 +40,7 @@ Offset/Power/Slope (ASC-CDL)
       Basis
          Additional offset, allows to specify a negative Offset value.
    Power
-      Over all exponent. (Adjusts the midtones).
+      Over-all exponent. (Adjusts the midtones).
    Slope
       Multiplier. (Adjusts the highlights).
 

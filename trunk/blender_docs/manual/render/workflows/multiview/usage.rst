@@ -318,7 +318,7 @@ Movies or Image Sequences in any of the supported Multi-View formats.
 
 .. figure:: /images/render_workflows_multiview_usage_compositor.png
 
-   Compositor, backdrop and Split Viewer Node.
+   Compositor, backdrop and Split Viewer node.
 
 The views to render are defined in the current scene views,
 in a similar way as you define the composite output resolution in the current scene render panel,
@@ -326,13 +326,13 @@ regardless of the Image nodes resolutions or Render Layers from different scenes
 
 .. note:: Single-View Images
 
-   If the image from an Image Node does not have the view you are trying to render,
+   If the image from an Image node does not have the view you are trying to render,
    the image will be treated as a single-view image.
 
 Switch View Node
    If you need to treat the views separately, you can use
    the :doc:`Switch View node </compositing/types/converter/switch_view>`
-   to combine the views before an output node.
+   to combine the views before an Output node.
 
 .. tip:: Performance
 

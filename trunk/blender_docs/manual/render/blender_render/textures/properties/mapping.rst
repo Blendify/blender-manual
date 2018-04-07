@@ -35,7 +35,7 @@ Generated
    The original undeformed coordinates of the object. This is the default option for mapping textures.
 UV
    UV mapping is a very precise way of mapping a 2D texture to a 3D surface.
-   Each vertex of a mesh has its own UV co-ordinates which can be unwrapped and laid flat like a skin.
+   Each vertex of a mesh has its own UV coordinates which can be unwrapped and laid flat like a skin.
    You can almost think of UV coordinates as a mapping that works on a 2D plane with its own local coordinate system
    to the plane on which it is operating on.
    This mapping is especially useful when using 2D images as textures,
@@ -97,7 +97,7 @@ Coordinate Offset, Scaling and Transformation
 =============================================
 
 Offset
-   The texture co-ordinates can be translated by an offset.
+   The texture coordinates can be translated by an offset.
    Enlarging of the Offset moves the texture towards the top left.
 Size
    These buttons allow you to change the mapping of axes between the texture's own coordinate system,

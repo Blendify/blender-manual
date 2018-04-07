@@ -21,7 +21,7 @@ are below the rendering button in the *Render* Panel.
 Options
 =======
 
-Anti-Aliasing (check box)
+Anti-Aliasing (checkbox)
    Enables oversampling.
 
 Samples

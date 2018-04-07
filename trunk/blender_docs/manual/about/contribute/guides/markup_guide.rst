@@ -69,7 +69,7 @@ Headings
 Text Styling
 ============
 
-See the `overview on ReStructured Text <http://www.sphinx-doc.org/en/stable/rest.html>`__
+See the `overview on ReStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`__
 for more information on how to style the various elements of the documentation and
 on how to add lists, tables, pictures and code blocks.
 The `Sphinx reference <http://www.sphinx-doc.org/en/stable/markup/>`__ provides more insight additional constructs.

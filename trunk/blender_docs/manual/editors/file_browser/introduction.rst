@@ -226,7 +226,7 @@ It is also possible to select/deselect files by "walking" through them using the
 - Holding down :kbd:`Shift` while doing this does not deselect anything so it extends to the selection,
   plus it allows to deselect files by navigating into a block
   of already selected ones (minimum two files in sequence).
-- Holding down :kbd:`Shift-Ctrl` further selects/deselects all files in-between.
+- Holding down :kbd:`Shift-Ctrl` further selects/deselects all files in between.
 
 If no file is selected, the arrow key navigation selects the first or last file in the directory,
 depending on the arrow direction.

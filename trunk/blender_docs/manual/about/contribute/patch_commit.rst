@@ -40,7 +40,7 @@ In order to submit a patch, follow this process:
    If your patch includes changes to or additional images,
    simply attach them when you are creating the revision.
 
-Straight-forward patches are bound to be accepted very quickly.
+Straightforward patches are bound to be accepted very quickly.
 Once you get accustomed to making changes and no longer need feedback,
 we cut out the middle man and give you direct access to edit the manual.
 

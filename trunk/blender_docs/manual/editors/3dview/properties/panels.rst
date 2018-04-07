@@ -18,7 +18,7 @@ Only Render
 
    .. note::
 
-      While the option displays the regular view-port without distracting elements,
+      While the option displays the regular viewport without distracting elements,
       the objects displayed do **not** match the final render output.
 
       Options such as restrict-render, modifiers render option,

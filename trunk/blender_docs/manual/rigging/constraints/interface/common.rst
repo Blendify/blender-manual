@@ -29,7 +29,7 @@ of this vertex group instead of the object center.
 If the Target field links to an :term:`Armature`, a :term:`Bone` field will appear
 along with a :term:`Head` or :term:`Tail` slider.
 Enter the name of a bone and the constraint will target the bone instead of the entire armature object center.
-Slide the slider and the constraint will target the head, the tail or somewhere inbetween.
+Slide the slider and the constraint will target the head, the tail or somewhere in between.
 
 .. figure:: /images/rigging_constraints_interface_common_target-bone.png
 

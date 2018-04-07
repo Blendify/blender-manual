@@ -86,7 +86,7 @@ markers on the clip to sample different parts of the backdrop.
 
 These tracks may be tracked or moved manually, so gradients can be updated
 over time. If the marker is not enabled for a frame, it will not be used creating
-the gradient. (Such as the red-colored marker on the arm in the screen shot above)
+the gradient. (Such as the red-colored marker on the arm in the screenshot above)
 
 Once the tracks are created, add the node to your compositing setup,
 and select the tracking object used for the backdrop.

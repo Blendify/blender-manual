@@ -98,7 +98,7 @@ effect.
 Changing Video Frame Rates
 --------------------------
 
-You can use the speed control to change the frames per second (fps), or framerate, of a video.
+You can use the speed control to change the frame rate in frames per second (fps) of a video.
 If you are rendering your video to a sequence set,
 you can effectively increase or decrease the number of individual image files created,
 by using a Global Speed value less than or greater than one, respectively. For example,

@@ -16,7 +16,7 @@ the externally linked files are moved along with it.
 For example, you could send someone a folder that contains a blend-file
 and a sub-folder of external images that it references.
 
-When relative paths are supported, the File Browser provides a *Relative Path* check box,
+When relative paths are supported, the File Browser provides a *Relative Path* checkbox,
 when entering the path into a text field, use a double slash prefix (``//``) to make it so.
 
 Relative paths are the default but this can be changed

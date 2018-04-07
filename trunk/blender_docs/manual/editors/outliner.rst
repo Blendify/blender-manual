@@ -95,7 +95,7 @@ Delete
 Delete Hierarchy
    Deletes the object and all of its child objects.
 Remap Users
-   Remap Users of a datablock to another one (of same type of course) -- means you can e.g.
+   Remap Users of a data-block to another one (of same type of course) -- means you can e.g.
    replace all usages of a material or texture by another one.
 Add Fake User, Clear Fake User
    Adds a "dummy" (fake) user so that the selected data-block always gets saved even if it has no users.

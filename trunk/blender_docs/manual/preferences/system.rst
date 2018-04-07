@@ -312,7 +312,7 @@ Internationalization
 --------------------
 
 Blender supports a wide range of languages,
-enabling this check box will enable Blender to support International Fonts.
+enabling this checkbox will enable Blender to support International Fonts.
 International fonts can be loaded for the User Interface and used instead of Blender default bundled font.
 
 This will also enable options for translating the User Interface

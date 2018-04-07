@@ -47,7 +47,7 @@ Panoramic
 ^^^^^^^^^
 
 Cycles supports Equirectangular and Fisheye panoramic cameras.
-Note that these cannot be displayed with OpenGL rendering in the view-port;
+Note that these cannot be displayed with OpenGL rendering in the viewport;
 they will only work for rendering.
 
 
@@ -143,14 +143,14 @@ Viewport
 --------
 
 High Quality
-   Enables the High Quality *view-port* depth of field, giving a more accurate
-   representation of *depth of field*. This allows the view-port depth of field
+   Enables the High Quality *viewport* depth of field, giving a more accurate
+   representation of *depth of field*. This allows the viewport depth of field
    to be closely represented to that of the render and render preview depth of field.
 F-Stop
    Viewport depth of field aperture measured in F-Stops. Smaller numbers will
-   cause more blur in the view-port, OpenGL renders, and Sequencer.
+   cause more blur in the viewport, OpenGL renders, and Sequencer.
 Blades
-   The number of polygonal sides to give blurred objects in the view-port.
+   The number of polygonal sides to give blurred objects in the viewport.
    The minimum number of blades needed to enable the bokeh effect is 3 (triangle).
    (Only available with High Quality).
 
@@ -167,7 +167,7 @@ Size/Number
    also allowing the use of the *bokeh effect*.
 Blades
    Total number of polygonal blades used to alter the shape of the blurred objects
-   in the render, and render preview. As with the view-port, the minimum amount of
+   in the render, and render preview. As with the viewport, the minimum amount of
    blades to enable the bokeh effect is 3, resulting in a triangular-shaped blur.
 Rotation
    Rotate the polygonal blades along the facing axis, and will rotate in a clockwise,

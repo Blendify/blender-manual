@@ -191,8 +191,8 @@ For renderfarms, it is best to bake all the physics systems,
 and then copy the blendcache to the renderfarm as well.
 
 
-Interaction in Realtime
-=======================
+Interaction in Real-Time
+========================
 
 To work with a Soft Body simulation, you will find it handy to use the Timeline editor.
 You can change between frames and the simulation will always be shown in the actual state.

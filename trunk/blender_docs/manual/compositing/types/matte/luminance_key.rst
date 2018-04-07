@@ -15,7 +15,7 @@ the difference in the luminance (brightness) levels.
 Stock footage of explosions, smoke or debris are normally shot against a solid,
 dark background rather than a green screen.
 This node can separate the foreground effect from the background.
-It can also be used for sky replacement for over-exposed or gray skies
+It can also be used for sky replacement for overexposed or gray skies
 that aren't suitable for chroma keying.
 
 .. tip::

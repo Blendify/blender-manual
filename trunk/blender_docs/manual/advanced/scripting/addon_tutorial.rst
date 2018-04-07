@@ -380,7 +380,7 @@ Operator properties are defined via bpy.props module, this is added to the class
 These properties from :mod:`blender_api:bpy.props` are handled specially by Blender
 when the class is registered so they display as buttons in the user interface.
 There are many arguments you can pass to properties to set limits,
-change the default and display a tool-tip.
+change the default and display a tooltip.
 
 .. seealso:: :mod:`blender_api:bpy.props.IntProperty`
 
@@ -557,7 +557,7 @@ Conclusions
 ===========
 
 Add-ons can encapsulate certain functionality neatly for writing tools
-to improve your work-flow or for writing utilities for others to use.
+to improve your workflow or for writing utilities for others to use.
 
 While there are limits to what Python can do within Blender,
 there is certainly a lot that can be achieved without having to dive into Blender's C/C++ code.

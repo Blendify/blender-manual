@@ -215,7 +215,7 @@ Recording to Keyframes
 
 Beyond gaming, sometimes you wish to render a complex scene that involves collisions,
 multiple forces, friction between multiple bodies,
-and air drag or even a simple setup that is just easier to achieve using the realtime physics.
+and air drag or even a simple setup that is just easier to achieve using the real-time physics.
 
 Blender provides a way to ''bake'' or ''record'' a physics simulation into keyframes
 allowing it then to be played as an action either for animation or games.

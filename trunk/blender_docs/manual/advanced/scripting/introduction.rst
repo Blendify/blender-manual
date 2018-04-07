@@ -63,7 +63,7 @@ Here are external links containing a lot of good information to start learning h
 - `Ira Krakow's video tutorials <https://www.youtube.com/watch?v=vmhU_whC6zw>`__
   First video in a series of video tutorials.
 - `Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
-  A quick start guide for people who already have some familiarity with Python and Blender.
+  A quickstart guide for people who already have some familiarity with Python and Blender.
 - `Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__
   A forum thread containing many short working script examples.
 - `Introduction to Python
