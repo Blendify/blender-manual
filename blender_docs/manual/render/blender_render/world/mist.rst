@@ -18,7 +18,7 @@ Options
 
    Mist panel.
 
-Mist check box
+Mist checkbox
    Toggles mist on and off.
 Minimum
    An overall minimum intensity, or strength, of the mist.

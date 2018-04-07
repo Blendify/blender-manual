@@ -21,7 +21,7 @@ and even inside other textures.
 
 .. note::
 
-   Node-based textures do **not** work for realtime display, they will only be visible in rendered images.
+   Node-based textures do **not** work for real-time display, they will only be visible in rendered images.
 
 
 Using Texture Nodes

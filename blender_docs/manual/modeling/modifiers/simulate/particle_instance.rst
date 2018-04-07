@@ -120,7 +120,7 @@ Create Along Paths
    This option tries to make the underlying mesh object of the modifier
    deform its mesh shape in such a way as to try and match the path traveled by
    the particles/hair strands of the system associated with it.
-   For example, below is a screen shot showing the path of a single keyed
+   For example, below is a screenshot showing the path of a single keyed
    particle as it travels its way through each of the different way points (1 to 4) (target particle systems),
    when it reaches way point 4 the particle dies and ends its journey.
 Rotation Axis

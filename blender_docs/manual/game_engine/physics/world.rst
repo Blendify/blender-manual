@@ -42,7 +42,7 @@ Culling Resolution
 Physics Steps
    Max
       Sets the maximum number of physics steps per game frame if graphics slow down the game.
-      higher value allows physics to keep up with realtime.
+      higher value allows physics to keep up with real-time.
    Substeps
       Sets the number of simulation substeps per physics timestep. Higher value give better physics precision.
    FPS

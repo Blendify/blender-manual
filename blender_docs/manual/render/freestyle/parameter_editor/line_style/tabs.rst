@@ -142,7 +142,7 @@ Dashed Line
 
    Dashes Line UI.
 
-By enabling the *Dashed Line* check box,
+By enabling the *Dashed Line* checkbox,
 you can specify three pairs of dash and gap lengths.
 Dash values define the lengths of dash strokes,
 while gap values specify intervals between two dashes.

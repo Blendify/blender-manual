@@ -38,7 +38,7 @@ None Enabled
    If none of these three buttons is checked, your background will just be plain flat color (using the horizon one).
 Paper Sky
    If this option is added, the gradient keeps its characteristics, but it is clipped in the image
-   (it stays on a horizontal plane (parallel to XY plane): what ever the angle of the camera may be,
+   (it stays on a horizontal plane (parallel to XY plane): on any camera angle,
    the horizon is always at the middle of the image).
 Blend Sky
    The background color is blended from horizon to zenith. If only this button is pressed,
@@ -97,7 +97,7 @@ The textures can be mapped according to:
 
 Texture Coordinates
    View
-      The default orientation, aligned with the co-ordinates of the final render.
+      The default orientation, aligned with the coordinates of the final render.
    Global
       Uses global coordinates.
    Angular Map

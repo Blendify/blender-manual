@@ -111,7 +111,7 @@ Animation Editors
 =================
 
 F-Curve Visibility
-   Opacity that un-selected :doc:`F-Curves </editors/graph_editor/fcurves/index>`
+   Opacity that unselected :doc:`F-Curves </editors/graph_editor/fcurves/index>`
    stand out from the *Graph Editor*.
 
 

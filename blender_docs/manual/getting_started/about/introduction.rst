@@ -45,7 +45,7 @@ Key Features
   many types of :doc:`Simulations </physics/introduction>`,
   and :doc:`Game Creation </game_engine/introduction>`.
 - Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts).
-- High-quality 3D architecture enabling fast and efficient creation work-flow.
+- High-quality 3D architecture enabling fast and efficient creation workflow.
 - Excellent community support from `forums <http://blenderartists.org/forum/>`__ and :ref:`IRC <irc-channels>`.
 - Small executable size, optionally portable.
 

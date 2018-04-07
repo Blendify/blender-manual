@@ -47,7 +47,7 @@ Options
 .. important::
 
    For correct results, the mapping of an environment map texture must be set to *Reflection*
-   (reflection co-ordinates) in the Map Input panel of the Material tab.
+   (reflection coordinates) in the Map Input panel of the Material tab.
 
 .. _fig-bi-environment-panel:
 

@@ -14,7 +14,7 @@ Cache
 
    Particles Cache Settings.
 
-In order to increase realtime response and avoid unnecessary recalculation of particles,
+In order to increase real-time response and avoid unnecessary recalculation of particles,
 the particle data can be cached in memory or stored on a drive.
 
 *Emitter* systems use a unified system for caching and baking (together with softbody and cloth).

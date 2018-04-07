@@ -21,7 +21,7 @@ From liquids to slime, goo to sand and wispy smoke the number of possible use ca
 Blender particle fluids use the SPH techniques to solve the particles fluid equations.
 Smoothed-particle hydrodynamics (SPH) is a computational method used for simulating fluid flows.
 It has been used in many fields of research, including astrophysics, ballistics, vulcanology,
-and oceanography. It is a mesh-free Lagrangian method (where the co-ordinates move with the fluid),
+and oceanography. It is a mesh-free Lagrangian method (where the coordinates move with the fluid),
 and the resolution of the method can easily be adjusted with respect to variables such as the density.
 
 

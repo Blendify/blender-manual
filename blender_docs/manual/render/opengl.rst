@@ -44,7 +44,7 @@ Settings
 
    | Menu:     :menuselection:`Info Editor --> Render --> OpenGL Render Options`
 
-For the most part, *OpenGL Render* uses the view-port settings,
+For the most part, *OpenGL Render* uses the viewport settings,
 Sampling and Alpha Transparency Mode options can be set by
 the :menuselection:`Render --> OpenGL Render Options` from the Info Editor header.
 Additionally, some render settings are used too:
@@ -59,7 +59,7 @@ Rendering
 
 Activating OpenGL render from the menu will render from the active camera.
 
-You can also render any view-port, from the header of the *3D View*,
+You can also render any viewport, from the header of the *3D View*,
 using the small button showing a *Camera*.
 
 .. figure:: /images/render_opengl_view-port-render-buttons.png

@@ -119,7 +119,7 @@ Gloss
       as-is when tangent shading on the material is switched off.
       Anisotropic ray-traced reflection uses the same tangent vectors as for tangent shading,
       so you can modify the angle and layout the same way, with the auto-generated tangents,
-      or based on the mesh's UV co-ordinates.
+      or based on the mesh's UV coordinates.
 
 
 Examples

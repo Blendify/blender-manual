@@ -125,7 +125,7 @@ In the "Base UV Texture" example to the right, the face has two textures UV mapp
 one for a base color, and another for spots, blemishes and makeup.
 
 Both textures use the same UV Texture map as their Map Input, and both affect Color.
-The Makeup texture is transparent except where there is color,
+The makeup texture is transparent except where there is color,
 so that the base color texture shows through.
 Note that the colors were too strong on the image,
 so they amount of the diffuse color affects is turned down to 60% in the second layer (the blemish layer).

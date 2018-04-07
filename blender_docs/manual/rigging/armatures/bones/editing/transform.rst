@@ -193,7 +193,7 @@ Axis Orientation
    Active Bone
       Follow the rotation of the active bone.
    View Axis
-      Set the roll to align with the view-port.
+      Set the roll to align with the viewport.
    Cursor
       Set the roll towards the 3D cursor.
 Flip Axis

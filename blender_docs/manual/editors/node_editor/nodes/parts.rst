@@ -61,7 +61,7 @@ The *Inputs* are located on bottom left side of the node,
 and provide the data the node needs to perform its function.
 Each input socket, except for the green shader input, when disconnected,
 has a default value which can be edited via a color, numeric, or vector interface input.
-In the screen shot of the node above, the second color option is set by a color interface input.
+In the screenshot of the node above, the second color option is set by a color interface input.
 
 
 Outputs
