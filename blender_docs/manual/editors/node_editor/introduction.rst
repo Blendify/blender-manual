@@ -8,7 +8,7 @@ Introduction
 
    The Node Editor.
 
-The *Node Editor* is used to work with node-based work flows.
+The *Node Editor* is used to work with node-based workflows.
 The node tree type can be changed using the buttons in the Node editor header.
 However, here we will only give an overview of what the *Node Editor* is.
 In the list below it shows a list of different types of node trees and where each is documented.

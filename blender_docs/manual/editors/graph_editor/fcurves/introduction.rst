@@ -79,7 +79,7 @@ Constant
       Constant.
 
 Linear
-   This simple interpolation creates a straight segment, giving a noncontinuous line.
+   This simple interpolation creates a straight segment, giving a non-continuous line.
    It can be useful when using only two keyframes and the *Extrapolation* extend mode,
    to easily get an infinite straight line (i.e. a linear curve).
 

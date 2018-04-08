@@ -82,7 +82,7 @@ Render Border
    |           :menuselection:`View --> Clear Render Border`
    | Hotkey:   :kbd:`Ctrl-B`, :kbd:`Ctrl-Alt-B`
 
-When using :ref:`rendered shading  <view3d-viewport-shading>` mode,
+When using :ref:`rendered shading <view3d-viewport-shading>` mode,
 it can be quite slow to render the entire 3D View. To fix this,
 you can define a render border to render just a portion of the viewport
 instead of the entire viewport. A render border is defined by :kbd:`Ctrl-B`

@@ -27,7 +27,7 @@ different operating systems.
    but some support the Alpha channel as well. Codecs that support RGBA include:
 
    - Quicktime
-   - PNG TIFF Pixlet is not loss-less, and may be only available on macOS.
+   - PNG TIFF Pixlet is not lossless, and may be only available on macOS.
    - `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
 AVI Codec
@@ -79,7 +79,7 @@ Video Containers
    they are mostly interchangeable in a QuickTime-only environment.
    MP4, being an international standard, has more support.
 `DV <https://en.wikipedia.org/wiki/DV>`__: ``.dv``
-   An intraframe video compression scheme,
+   An intra-frame video compression scheme,
    which uses the discrete cosine transform (DCT) to compress video on a frame-by-frame basis.
    Audio is stored uncompressed.
 `H.264 <https://en.wikipedia.org/wiki/H.264>`__: ``.avi`` *for now*.
@@ -130,7 +130,7 @@ None
 `Flash Video <https://en.wikipedia.org/wiki/Flash_Video>`__
    See `Video Formats`_.
 `FFmpeg video codec #1 <https://en.wikipedia.org/wiki/FFV1>`__
-   A.K.A. FFV1, a loss-less intra-frame video codec.
+   A.K.A. FFV1, a lossless intra-frame video codec.
    It can use either variable length coding or arithmetic coding for entropy coding.
    The encoder and decoder are part of the free, open-source library libavcodec in FFmpeg.
 

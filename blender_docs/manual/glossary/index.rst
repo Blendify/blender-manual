@@ -490,7 +490,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Non-linear Animation
       Animation technique that allows the animator to edit motions as a whole,
-      not just the individual keys. Nonlinear animation allows you to combine,
+      not just the individual keys. Non-linear animation allows you to combine,
       mix, and blend different motions to create entirely new animations.
 
    Non-manifold

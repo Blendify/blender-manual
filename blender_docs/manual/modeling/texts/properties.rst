@@ -180,7 +180,7 @@ Objects as Fonts
 You can also "create" your own "font" inside Blender! This is quite a complex process,
 so let us detail it:
 
-#. First, you must create your chars. Each char, of any type,  is an object (mesh, curve, meta...).
+#. First, you must create your chars. Each char, of any type, is an object (mesh, curve, meta...).
    They all must have a name following the schema:
    *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
 #. Then, for the *Text* object, you must enable the *Dupli Vertices* button
@@ -372,7 +372,7 @@ By default the first frame for a new text object, and any additional frames,
 has a size of **zero** for both *Width* and *Height*,
 which means the frame is initially not visible.
 
-Frames with a width of 0.0 are ignored completely during text flow (no wordwrap happens),
+Frames with a width of 0.0 are ignored completely during text flow (no word-wrap happens),
 and frames with a height of 0.0 flow forever (no flowing to the next text frame).
 
 In order for the frame to become visible, the frame's *Width* must be greater than 0.0.

@@ -37,7 +37,7 @@ The frame number label under the strip displays the start frame of the strip.
 
 - If you have a 20-image sequence strip, and drag the left arrow to the right by 10 frames,
   the strip will start at image 11 (images 1 to 10 will be skipped).
-  Use this to clip off a roll-up or useless lead-in.
+  Use this to clip off a roll-up or undesired lead-in.
 - Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it.
   Use this when you want some frames for a transition at the start of the clip.
 

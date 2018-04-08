@@ -78,7 +78,7 @@ Scene
 Engine
    Gives a list of selectable render and game engines.
 Render/Baking progress
-   A progressbar and a cancel button are shown while rendering or baking.
+   A progress bar and a cancel button are shown while rendering or baking.
    Hovering over them shows a time estimate.
 Capture Stop
    A button shown while :ref:`screen casting <info-screencast>` to stop the recording.

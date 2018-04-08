@@ -106,7 +106,7 @@ The system did not find a solution
 .. note::
 
    If the mesh is dense, with a number of vertices greater than 100,000,
-   then it is possible that the nonlinear optimization system will fail.
+   then it is possible that the non-linear optimization system will fail.
 
 
 History

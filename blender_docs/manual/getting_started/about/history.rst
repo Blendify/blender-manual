@@ -8,7 +8,7 @@ the largest 3D animation studio in the Netherlands and one of the leading animat
 NeoGeo created award-winning productions (European Corporate Video Awards 1993 and 1995)
 for large corporate clients such as multinational electronics company Philips.
 Within NeoGeo Ton was responsible for both art direction and internal software development.
-After careful deliberation Ton decided that the current in-house 3D toolset for NeoGeo was
+After careful deliberation Ton decided that the current in-house 3D tool set for NeoGeo was
 too old and cumbersome to maintain, and needed to be rewritten from scratch.
 In 1995 this rewrite began and was destined to become the 3D software creation we all know as Blender.
 As NeoGeo continued to refine and improve Blender it became apparent to Ton

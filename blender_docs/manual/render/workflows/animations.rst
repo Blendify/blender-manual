@@ -141,7 +141,7 @@ Hints
 Your computer accidentally turns off in the middle of rendering your movie!
    Unless your animation renders in a few minutes,
    it is best to render the animation as separate image files.
-   Instead of rendering directly to a compressed movie file, use a loss-less format (e.g. ``PNG``).
+   Instead of rendering directly to a compressed movie file, use a lossless format (e.g. ``PNG``).
 
    This allows you an easy recovery if there is a problem and you have to re-start the rendering,
    since the frames you have already rendered will still be in the output directory.

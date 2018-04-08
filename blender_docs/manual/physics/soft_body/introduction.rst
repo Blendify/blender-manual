@@ -187,8 +187,8 @@ that will make a recalculating necessary.
   :kbd:`Ctrl-B` for all selected objects or click on *Free Bake* for the current Soft Body system.
 - If the mesh changes the simulation is not calculated anew.
 
-For renderfarms, it is best to bake all the physics systems,
-and then copy the blendcache to the renderfarm as well.
+For render farms, it is best to bake all the physics systems,
+and then copy the blendcache to the render farm as well.
 
 
 Interaction in Real-Time
