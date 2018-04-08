@@ -53,17 +53,22 @@ Outputs
 Image
    Motion blurred image output.
 
+
 Usage
 =====
 
-Even with a correct compositing setup with Image, Z and Speed all linked to the appropriate passes, there may still be artifacts.
-The 2D render passes do not contain 3D information, and so Vector Blur can only guess what is behind a moving object or outside the camera view.
+Even with a correct compositing setup with Image, Z and Speed nodes all linked to the appropriate passes,
+there may still be artifacts. The 2D render passes does not contain 3D information,
+and so the information what is behind a moving object or outside the camera view is lost.
 
-Better results can be achieved by rendering the scene into multiple render layers, applying vector blur to each render layer, and then compositing the results together.
-Typically an animated character would be rendered in a separate render layer than the background set. Especially if hair or transparency is involved this is important.
+Better results can be achieved by rendering the scene into multiple render layers,
+applying vector blur to each render layer, and then compositing the results together.
+Typically an animated character would be rendered in a separate render layer than the background set.
+Especially if hair or transparency is involved this is important.
 
-For other artifacts it can help to slightly blur the Speed pass or set a Maximum Speed.
+For other artifacts it can help to slightly blur the Speed pass or to set a Maximum Speed limit.
 This helps to smoothen out the motion, but too much blurring leads to its own problems.
+
 
 Example
 =======
