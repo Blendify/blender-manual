@@ -9,7 +9,7 @@ Vector (Motion) Blur Node
 
    Vector Blur Node.
 
-The Vector Blur node applies a **non** physically-based method of simulating :term:`Motion blur`.
+The Vector Blur node is a fast method for simulating :term:`Motion blur` in compositing.
 It uses the vector speed render pass to blur the image pixels in 2D.
 
 
@@ -17,9 +17,9 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Image input, to be linked to the "Combined" render pass.
 Z
-   Standard Z depth.
+   Z depth, to be linked to the "Depth" render pass.
 Speed
    Input for the "Vector" render pass.
    See :doc:`Cycles render passes </render/cycles/settings/scene/render_layers/passes>` or
@@ -51,18 +51,19 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Motion blurred image output.
 
-.. hint::
+Usage
+=====
 
-   You can make vector blur results in a little smoother by passing the Speed pass through a blur node
-   (but note that this can make strange results,
-   so it is only really appropriate for still images with lots of motion blur).
+Even with a correct compositing setup with Image, Z and Speed all linked to the appropriate passes, there may still be artifacts.
+The 2D render passes do not contain 3D information, and so Vector Blur can only guess what is behind a moving object or outside the camera view.
 
-.. note::
+Better results can be achieved by rendering the scene into multiple render layers, applying vector blur to each render layer, and then compositing the results together.
+Typically an animated character would be rendered in a separate render layer than the background set. Especially if hair or transparency is involved this is important.
 
-   Does not work when reading from a multilayer OpenEXR sequence set.
-
+For other artifacts it can help to slightly blur the Speed pass or set a Maximum Speed.
+This helps to smoothen out the motion, but too much blurring leads to its own problems.
 
 Example
 =======
