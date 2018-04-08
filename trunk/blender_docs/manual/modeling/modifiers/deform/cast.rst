@@ -5,7 +5,7 @@ Cast Modifier
 *************
 
 This modifier shifts the shape of a mesh, curve,
-surface or lattice to any of a few pre-defined shapes (sphere, cylinder, cuboid).
+surface or lattice to any of a few predefined shapes (sphere, cylinder, cuboid).
 
 It is equivalent to the *To Sphere* tool in *Edit Mode*
 :menuselection:`Mesh --> Transform --> To Sphere`, :kbd:`Shift-Alt-S`

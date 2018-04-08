@@ -4,7 +4,7 @@
 Visibility Actuator
 *******************
 
-The *Visibility Actuator* allows the user to change the visibility of objects during runtime.
+The *Visibility Actuator* allows the user to change the visibility of objects during run-time.
 
 .. note::
 

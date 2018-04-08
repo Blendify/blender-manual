@@ -36,7 +36,7 @@ Frame Number
 
    Scale to Length
       Maps the frame range on a 0-1 scale. For example, using this and a *Frame Number*
-      of 0.5 will select the frame half way through the sequence.
+      of 0.5 will select the frame halfway through the sequence.
 Multiply Speed
    A multiplier applied after all other calculations.
 

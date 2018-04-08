@@ -305,7 +305,7 @@ Connect Loops
 Merge
    Merges edge loops rather than creating a new face.
 Merge Factor
-   Which edge loop the edges are merged to, a value of 0.5 will merge at a half way point.
+   Which edge loop the edges are merged to, a value of 0.5 will merge at a half-way point.
 Twist
    Determines which vertices in both loops are connected to each other.
 Number of Cuts

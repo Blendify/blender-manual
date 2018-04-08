@@ -85,6 +85,6 @@ Image
 Example
 =======
 
-.. A nice lens flare render of an out door scene
+.. A nice lens flare render of an outdoor scene
 
 TODO add.

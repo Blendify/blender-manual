@@ -10,7 +10,7 @@ Screens
 
    The Screen data-block menu with pop-up.
 
-*Screens* are essentially pre-defined window layouts.
+*Screens* are essentially predefined window layouts.
 Blender's flexibility with areas lets you create customized working environments for
 different tasks such as modeling, animating, and scripting.
 It is often useful to quickly switch between different environments within the same file.

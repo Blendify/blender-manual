@@ -42,7 +42,7 @@ Screencasts
    | Menu:     :menuselection:`Window --> Make Screencast`
    | Hotkey:   :kbd:`Alt-F3`
 
-This is a quick way to make screen-casts from within Blender.
+This is a quick way to make screencasts from within Blender.
 
 .. note::
 

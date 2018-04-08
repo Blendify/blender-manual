@@ -3,7 +3,7 @@
 Shader Nodes
 ************
 
-Cycles applies a number of shader node optimizations both at compile time and runtime.
+Cycles applies a number of shader node optimizations both at compile time and run-time.
 By exploiting them it is possible to design complicated "Uber Shader"
 style node groups that incur minimal render time overhead for unused features.
 
@@ -40,8 +40,8 @@ For example, it can (the list is not exhaustive):
 Finally, any nodes that end up not connected either directly or indirectly to the output node are removed.
 
 
-Runtime Optimizations
-=====================
+Run-Time Optimizations
+======================
 
 When executing shaders, a special optimization is applied to Mix Shader nodes.
 If Factor evaluates to 0 or 1, any nodes that are only reachable via the unused branch of the mix are not evaluated.
@@ -55,7 +55,7 @@ Open Shading Language
 
 If Open Shading Language is chosen as the rendering back-end,
 node shaders are translated to OSL code and then compiled and executed by the OSL runtime.
-In the process it applies its own extensive set of optimizations, both at compile time and runtime.
+In the process it applies its own extensive set of optimizations, both at compile time and run-time.
 
 Open Shading Language can optimize out Script nodes if their outputs are unused or constant,
 even if their OSL shaders have side effects like debug tracing and message passing,

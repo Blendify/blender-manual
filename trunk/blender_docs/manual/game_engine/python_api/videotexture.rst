@@ -215,7 +215,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
    Texture width and height must be a power of 2.
    If the video picture size is not a power of 2, rescaling is required.
    By default ``bge.texture`` uses the precise but slow ``gluScaleImage()`` function.
-   Best is to rescale the video offline so that no scaling is necessary at runtime!
+   Best is to rescale the video offline so that no scaling is necessary at run-time!
 
 ``flip``
    (bool).

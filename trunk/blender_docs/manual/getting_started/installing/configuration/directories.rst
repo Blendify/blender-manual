@@ -8,15 +8,15 @@ There are three different directories Blender may use,
 their exact locations are operating system dependent.
 
 LOCAL
-   Location of configuration and runtime data (for self-contained bundle).
+   Location of configuration and run-time data (for self-contained bundle).
 USER
    Location of configuration files (normally in the user's home directory).
 SYSTEM
-   Location of runtime data for system wide installation (may be read-only).
+   Location of run-time data for system wide installation (may be read-only).
 
 For system installations both **SYSTEM** and **USER** directories are needed.
 
-For locally extracted Blender distributions, the user configuration and runtime data are
+For locally extracted Blender distributions, the user configuration and run-time data are
 kept in the same subdirectory, allowing multiple Blender versions to run without conflict,
 ignoring the **USER** and **SYSTEM** files.
 
@@ -161,7 +161,7 @@ Where ``./config/startup.blend`` could be ``~/.blender/|BLENDER_VERSION|/config/
 Temporary Directory
 ===================
 
-The temporary directory is used to store various files at runtime
+The temporary directory is used to store various files at run-time
 (including render layers, physics cache, copy-paste buffer and crash logs).
 
 The temporary directory is selected based on the following priority:

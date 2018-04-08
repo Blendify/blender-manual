@@ -18,7 +18,7 @@ Safe Areas and Overscan
 
 For anyone creating motion graphics or simple text overlays, overscan is an important consideration.
 Although its origins are rooted in historic analog TV systems, unfortunately even in 2017,
-for various reasons it can still be an issue with modern digital flatscreen TVs.
+for various reasons it can still be an issue with modern digital flat screen TVs.
 
 .. note::
 
@@ -30,12 +30,12 @@ for various reasons it can still be an issue with modern digital flatscreen TVs.
    by a small amount (between 5-10% edge crop) to ensure that at no time would the hidden areas be visible.
 
    Although modern digital electronics have eliminated the issue of shifting image position,
-   unfortunately, some TV manufacturers have included overscan on their flatscreen TVs.
+   unfortunately, some TV manufacturers have included overscan on their flat screen TVs.
    Why? Because for many years it was given that the edge of the visible image would rarely be seen,
    so broadcasters would sometimes overlay 'hidden' data to the very edge of the image
    (e.g. some types of closed captions). Also, legacy analog recordings might still
    contain unwanted noise around the edge. To avoid consumer complaints,
-   overscan is quite often enabled by default. For some flatscreen TVs, it is not possible to disable it.
+   overscan is quite often enabled by default. For some flat screen TVs, it is not possible to disable it.
 
 
 Enabling Safe Areas
@@ -161,8 +161,8 @@ Audio Codec
    Audio format to use. For a list of all available options, see
    :doc:`video formats </data_system/files/media/video_formats>`.
 Bitrate
-   For each codec, you can control the bitrate (quality) of the sound in the movie.
-   Higher bitrates are bigger files that stream worse but sound better.
+   For each codec, you can control the bit rate (quality) of the sound in the movie.
+   Higher bit rates are bigger files that stream worse but sound better.
    Use powers of 2 for compatibility.
 Volume
    Sets the output volume of the audio.

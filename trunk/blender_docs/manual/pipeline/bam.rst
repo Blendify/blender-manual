@@ -154,7 +154,7 @@ Remap blend-file paths::
 This command is a three step process:
 
 #. First run ``bam remap start .`` which stores the current state of your project (recursively).
-#. Then re-arrange the files on the filesystem (rename, relocate).
+#. Then re-arrange the files on the file system (rename, relocate).
 #. Finally run ``bam remap finish`` to apply the changes, updating the ``.blend`` files internal paths.
 
 .. code-block:: sh
