@@ -69,21 +69,21 @@ UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the v
 (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on-the-fly.
 
 
-Using Cloth for Softbodies
-==========================
+Using Cloth for Soft bodies
+===========================
 
 .. figure:: /images/physics_cloth_examples_softbody1.jpg
    :width: 200px
 
-   Using cloth for softbodies.
+   Using cloth for soft bodies.
 
-Cloth can also be used to simulate softbodies.
+Cloth can also be used to simulate soft bodies.
 It is for sure not its main purpose but it works nonetheless.
 The example image uses standard *Rubber* material, no fancy settings,
 just :kbd:`Alt-A`.
 
 Blend-file for the example image:
-`Using Cloth for softbodies <https://wiki.blender.org/index.php/Media:Cloth-sb1.blend>`__.
+`Using Cloth for soft bodies <https://wiki.blender.org/index.php/Media:Cloth-sb1.blend>`__.
 
 
 Cloth with Wind
@@ -95,4 +95,4 @@ Cloth with Wind
    Flag with wind applied.
 
 Regression blend-file for Cloth with wind and self-collisions (also the blend for the image above):
-`Cloth flag with wind and selfcollisions <https://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__.
+`Cloth flag with wind and self-collisions <https://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__.

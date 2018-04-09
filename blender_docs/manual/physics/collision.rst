@@ -20,7 +20,7 @@ and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
   (in the :doc:`Field Weights panel </physics/particles/emitter/physics/index>`).
 - *Deflection* for soft body objects is difficult, they often penetrate the colliding objects.
 - Hair particles ignore deflecting objects
-  (but you can animate them as softbodies which take deflection into account).
+  (but you can animate them as soft bodies which take deflection into account).
 
 If you change the deflection settings for an object you have to recalculate the particle,
 soft body or cloth system by *Free Cache*, this is not done automatically. You can

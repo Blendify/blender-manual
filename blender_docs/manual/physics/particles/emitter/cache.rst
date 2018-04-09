@@ -53,7 +53,7 @@ Baking
 - The *Bake* result is cleared also with
   :kbd:`Ctrl-B` for all selected objects or click on *Free Bake* for a singular particle system.
 - If the mesh changes the simulation is not calculated anew.
-- Sorry: no bake editing for particles like for softbodies and clothes.
+- Sorry: no bake editing for particles like for soft bodies and clothes.
 
 Two notes at the end:
 
