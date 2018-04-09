@@ -22,7 +22,7 @@ but more used to view information and control animation playback.
 
 The *Timeline* is one of an animator's most useful tools as it can give a broad overview of a scene's animation.
 The Timeline can communicate the current time frame, either in frames or in seconds,
-where are the keyframes of the active object, the start and end frames of your animation, markers, etc.
+where the keyframes are of the active object, the start and end frames of your animation, markers, etc.
 
 The *Timeline* has *Player Controls*, to play, pause the animation,
 and to skip though parts of the scene.
