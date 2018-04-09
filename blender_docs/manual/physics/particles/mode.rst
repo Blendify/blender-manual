@@ -42,7 +42,7 @@ Setup for Hair Particles
 Setup for Particle, Cloth, and Soft Body Simulations
 ----------------------------------------------------
 
-#. Use *Emitter* particles, or a cloth/soft-body simulation.
+#. Use *Emitter* particles, or a cloth/soft body simulation.
 #. Create a simulation by setting up objects and or emitters,
    set your time range (use a small range if you are just starting out and experimenting),
    set up the simulation how you want it, using :kbd:`Alt-A` to preview it.
@@ -167,10 +167,10 @@ Cut
    Scales the segments until the last keypoint reaches the brush.
 
 Weight
-   This is especially useful for softbody animations, because the weight defines the softbody *Goal*.
+   This is especially useful for soft body animations, because the weight defines the soft body *Goal*.
    A keypoint with a weight of 1 will not move at all,
-   a keypoint with a weight of 0 subjects fully to softbody animation.
-   This value is scaled by the *GMin* to *GMax* range of softbody goals...
+   a keypoint with a weight of 0 subjects fully to soft body animation.
+   This value is scaled by the *GMin* to *GMax* range of soft body goals...
 
    .. Not more true, I think: "Weight is only drawn for the complete hair (i.e. with the value of the tip),
       not for each keypoint, so it's a bit difficult to paint".

@@ -63,7 +63,7 @@ Simulation
 ^^^^^^^^^^
 
 Speed
-   You can control the internal timing of the softbody system with this value.
+   You can control the internal timing of the soft body system with this value.
    It sets the correlation between frame rate and tempo of the simulation.
    A free falling body should cover a distance of about five meters after one second.
    You can adjust the scale of your scene and your simulation with this correlation. If you

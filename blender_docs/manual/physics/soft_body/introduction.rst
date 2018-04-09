@@ -8,7 +8,7 @@ Introduction
 .. figure:: /images/physics_soft-body_introduction_hidden-text.jpg
    :width: 600px
 
-   A softbody cloth uncovering a text.
+   A soft body cloth uncovering a text.
 
    `Animation video <https://vimeo.com/1865528>`__ and
    `blend-file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__.

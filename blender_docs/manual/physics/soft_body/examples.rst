@@ -3,7 +3,7 @@
 Examples
 ********
 
-Here are some simple examples showing the power of softbody physics.
+Here are some simple examples showing the power of soft body physics.
 
 
 A Bouncing Cube
@@ -17,7 +17,7 @@ First, change your start and end frames to 1 and 150.
 .. figure:: /images/physics_soft-body_examples_timeline.png
    :width: 612px
 
-   The timeline.
+   The Timeline.
 
 Then, add a plane, and scale it five times. Next, go to the physics tab, and add a collision.
 The default settings are fine for this example.
@@ -31,15 +31,15 @@ When finished, your scene should look like this:
 .. figure:: /images/physics_soft-body_examples_scene-ready.png
    :width: 520px
 
-   The scene, ready for softbody physics.
+   The scene, ready for soft body physics.
 
-Everything is ready to add the softbody physics.
-Go to :menuselection:`Properties --> Physics` and choose *Softbody*.
-Uncheck the soft body goal, and check softbody self-collision.
-Also, under soft body edges, increase the bending to 10.
+Everything is ready to add the soft body physics.
+Go to :menuselection:`Properties --> Physics` and choose *Soft Body*.
+Uncheck the *Soft Body Goal*, and check *Soft Body Self Collision*.
+Also, under *Soft Body Edges*, increase the Bending to 10.
 
 Playing the animation with :kbd:`Alt-A` will now give a slow animation of a bouncing cube.
-To speed things up, we need to bake the softbody physics.
+To speed things up, we need to bake the soft body physics.
 
 Under *Soft Body Cache* change the values of your start and end frames. In this case 1 and 150.
 Now, to test if everything is working, you can take a cache step of 5 or 10,

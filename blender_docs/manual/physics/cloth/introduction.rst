@@ -36,7 +36,7 @@ Cloth is either an open or closed mesh and is mass-less, in that all cloth is as
 or mass per square unit.
 
 Cloth is commonly modeled as a mesh grid primitive, or a cube, but can also be, for example, a teddy bear.
-However, Blender's :doc:`Softbody system </physics/soft_body/index>` provides better simulation of closed meshes;
+However, Blender's :doc:`soft body system </physics/soft_body/index>` provides better simulation of closed meshes;
 Cloth is a specialized simulation of fabrics.
 
 Once the object is designated as Cloth, a Cloth :doc:`modifier </modeling/modifiers/index>`

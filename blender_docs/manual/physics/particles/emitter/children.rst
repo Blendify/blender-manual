@@ -17,7 +17,7 @@ Children can be emitted from particles or from faces (with some different option
 Emission from *Faces* has some advantages, especially the distribution is more even on each face
 (which makes it better suitable for fur and the like).
 However, children from particles follow their parents better, e.g.
-if you have a softbody animation and do not want the hair to penetrate the emitting mesh.
+if you have a soft body animation and do not want the hair to penetrate the emitting mesh.
 But see also our manual page about :doc:`Hair </physics/particles/hair/index>`.
 
 If you turn on children the parents are no longer rendered

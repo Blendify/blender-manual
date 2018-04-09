@@ -38,7 +38,7 @@ Simulation
 ----------
 
 Speed
-   You can control the internal timing of the Softbody system with this value.
+   You can control the internal timing of the soft body system with this value.
 Collision Group
    If set, Soft Body collides with objects from the group, instead of using objects that are on the same layer.
 
@@ -70,7 +70,7 @@ Use Goal
    Enabling this tells Blender to use the position / animated position of a vertex in the simulation.
    Animating the vertices can be done in all the usual ways before the Soft Body simulation is applied.
    The *goal* is the desired end-position for vertices.
-   How a softbody tries to achieve this goal can be defined using stiffness forces and damping.
+   How a soft body tries to achieve this goal can be defined using stiffness forces and damping.
 
 
 Goal Strength
@@ -128,7 +128,7 @@ Pull
    (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
    0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
 Push
-   How much the softbody resist being scrunched together, like a compression spring. Low values for fabric,
+   How much the soft body resist being scrunched together, like a compression spring. Low values for fabric,
    high values for inflated objects and stiff material.
 Damp
    The friction for edge springs. High values (max of 50) dampen the edge stiffness effect and calm down the cloth.
@@ -176,12 +176,12 @@ Collision
 ---------
 
 Edge
-   Checks for edges of the softbody mesh colliding.
+   Checks for edges of the soft body mesh colliding.
 Face
-   Checks for any portion of the face of the softbody mesh colliding (computationally intensive!).
+   Checks for any portion of the face of the soft body mesh colliding (computationally intensive!).
    While *CFace* enabled is great, and solves lots of collision errors,
    there does not seem to be any dampening settings for it,
-   so parts of the softbody object near a collision mesh tend to "jitter" as they bounce off and fall back,
+   so parts of the soft body object near a collision mesh tend to "jitter" as they bounce off and fall back,
    even when there is no motion of any meshes. Edge collision has dampening, so that can be controlled,
    but Deflection dampening value on a collision object does not seem to affect the face collision.
 

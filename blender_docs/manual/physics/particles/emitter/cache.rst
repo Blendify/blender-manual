@@ -17,7 +17,7 @@ Cache
 In order to increase real-time response and avoid unnecessary recalculation of particles,
 the particle data can be cached in memory or stored on a drive.
 
-*Emitter* systems use a unified system for caching and baking (together with softbody and cloth).
+*Emitter* systems use a unified system for caching and baking (together with soft body and cloth).
 The results of the simulation are automatically cached to disk when the animation is played,
 so that the next time it runs, it can play again quickly by reading in the results from the disk.
 If you *Bake* the simulation the cache is protected and you will be asked when you are

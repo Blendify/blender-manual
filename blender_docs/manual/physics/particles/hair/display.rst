@@ -17,7 +17,7 @@ Steps
    The number of segments (control points minus 1) of the hair strand.
    In between the control points the segments are interpolated. The number of control points is important:
 
-   - For the softbody animation, because the control points are animated like vertices,
+   - For the soft body animation, because the control points are animated like vertices,
      so more control points mean longer calculation times.
    - For the interactive editing, because you can only move the control points
      (but you may recalculate the number of control points in *Particle Edit Mode*).
