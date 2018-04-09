@@ -9,7 +9,7 @@ This is especially helpful for animators who need to add notes directly on their
 However, not everyone wants to draw on their monitors.
 So a digital version was made, also called a Grease pencil.
 
-You can use the Grease Pencil tool to draw freehand sketches and
+You can use the Grease Pencil tool to draw free-hand sketches and
 annotations in most of the :doc:`Editors </editors/index>`.
 The sketches that are made are saved with the blend-file so they can be seen at any time,
 an advantage over the old grease pencil.

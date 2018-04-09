@@ -16,7 +16,7 @@ Inputs
 ======
 
 Vector
-   Texture coordinate for texture lookup. If this socket is left unconnected,
+   Texture coordinate for texture look-up. If this socket is left unconnected,
    the image is mapped as environment with the Z axis as up.
 
 

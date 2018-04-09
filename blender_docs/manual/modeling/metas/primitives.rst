@@ -12,7 +12,7 @@ Primitives
    | Hotkey:   :kbd:`Shift-A`
 
 There are five predefined meta "primitives" (or configurations)
-available in the :menuselection:`Add --> Meta` sub-menu:
+available in the :menuselection:`Add --> Meta` submenu:
 
 .. figure:: /images/modeling_metas_primitives_all-five.png
    :width: 620px

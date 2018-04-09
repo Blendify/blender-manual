@@ -53,7 +53,7 @@ in one shader with vertex color, texture, or other input used as a switch.
 Open Shading Language
 =====================
 
-If Open Shading Language is chosen as the rendering back-end,
+If Open Shading Language is chosen as the rendering back end,
 node shaders are translated to OSL code and then compiled and executed by the OSL runtime.
 In the process it applies its own extensive set of optimizations, both at compile time and run-time.
 

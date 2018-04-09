@@ -68,7 +68,7 @@ Quality
 Distance
    If you encounter problems, you could also change the *Min Distance* value for the self-collisions.
    The best value is 0.75; for fast things you better take 1.0. The value 0.5 is quite risky
-   (most likely many penetrations) but also gives some speedup.
+   (most likely many penetrations) but also gives some speed-up.
 
 Regression blend-file:
 `Cloth selfcollisions <https://wiki.blender.org/index.php/Media:Cloth-regression-selfcollisions.blend>`__.

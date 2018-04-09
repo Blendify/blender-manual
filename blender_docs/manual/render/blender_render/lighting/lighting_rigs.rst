@@ -51,9 +51,9 @@ Single Rig
 .. figure:: /images/render_blender-render_lighting_lighting-rigs_spot.png
    :width: 300px
 
-   Standard Spot light rig.
+   Standard Spotlight rig.
 
-The sole, or key, spot light rig provides a dramatic, showy,
+The sole, or key, spotlight rig provides a dramatic, showy,
 yet effective illumination of one object or a few objects close together.
 It is a single *Spot* light, usually with a hard edge.
 Halos are enabled in this render to remind you of a smoky nightclub scene.

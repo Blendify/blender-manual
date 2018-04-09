@@ -15,7 +15,7 @@ Inputs
 ======
 
 Val
-   The height map to compute the normal map from.
+   The heightmap to compute the normal map from.
 Nabla
    Size of derivative offset used for calculating normals.
 

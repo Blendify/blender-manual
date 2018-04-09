@@ -100,7 +100,7 @@ Zooming
 Moves the camera forwards and backwards.
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
 The hotkeys are :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
-The :menuselection:`View --> Navigation` sub-menu holds these functions too as well.
+The :menuselection:`View --> Navigation` submenu holds these functions too as well.
 Refer to the 3D View's *View* menu image above for more information.
 If you have a wheel mouse, you can zoom by rotating the :kbd:`Wheel`.
 

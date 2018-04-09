@@ -106,7 +106,7 @@ use the :kbd:`Alt-RMB` shortcut.
 
 .. figure:: /images/modeling_meshes_selecting_edges-faces_face-mode-different-loop-selections.png
 
-   Different Loopselect Operations on a grid in Face Select Mode.
+   Different loop selection operations on a grid in Face Select Mode.
 
 - Just the selected face.
 - Select the face, then :menuselection:`Select --> Edge Ring`.

@@ -141,7 +141,7 @@ are essentially the same in the Blender Game Engine.
 However, the constraints of real-time display mean that only some of the facilities are available.
 
 Multitexture
-   Use Multitexture shading.
+   Use Multi-texture shading.
 GLSL
    Use GLSL shading whenever possible for real-time image rendering.
 

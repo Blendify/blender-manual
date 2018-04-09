@@ -127,11 +127,11 @@ Rate
 ----
 
 Bitrate
-   Sets the average `bitrate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
+   Sets the average `bit rate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
    which is the count of binary digits per frame.
    See also: `FFmpeg -b:v <https://ffmpeg.org/ffmpeg.html#Description>`__.
 Rate
-   Video files can use what is called variable bitrate (VBR).
+   Video files can use what is called variable bit rate (VBR).
    This is used to give some segments of the video less compressing to frames that need more data
    and less to frames with less data. This can be controlled by the *Minimum* and *Maximum* values.
 Buffer

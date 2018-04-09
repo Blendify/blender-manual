@@ -91,7 +91,7 @@ Clearcoat
    Extra white specular layer on top of others.
    This is useful for materials like car paint and the like.
 Clearcoat Roughness:
-   Roughness of clear coat specular.
+   Roughness of clearcoat specular.
 IOR
    Index of refraction for transmission.
 Transmission

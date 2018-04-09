@@ -116,7 +116,7 @@ Flame Rate
       The object on the left has a *Flame Rate* of 5, while the one on the right has 0.3.
 
 Sampling: Subframes
-   Number of sub-frames used to reduce gaps in emission of smoke from fast-moving sources.
+   Number of subframes used to reduce gaps in emission of smoke from fast-moving sources.
 
    .. figure:: /images/physics_smoke_types_flow-object_subframes.jpg
 

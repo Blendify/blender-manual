@@ -26,7 +26,7 @@ often being loaded into a special video memory bank that is very fast and very e
 so it is often very small. So, keep the images as small as possible.
 A 64×64 image takes up only one fourth the memory of a 128×128 image.
 
-For photo-realistic rendering of objects in animations, often larger image textures are used,
+For photorealistic rendering of objects in animations, often larger image textures are used,
 because the object might be zoomed in on in camera moves. In general, you want to use
 a texture sized proportionally to the number of pixels that it will occupy in the final render.
 Ultimately, you only have a certain amount of physical RAM to hold an image texture and

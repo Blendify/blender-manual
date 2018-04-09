@@ -54,7 +54,7 @@ with *Endpoint* knots and the *Curve Path* setting enabled.
 Draw Curve
 ==========
 
-A freehand :doc:`draw tool </modeling/curves/editing/draw>` for curve creation by dragging the mouse.
+A free-hand :doc:`draw tool </modeling/curves/editing/draw>` for curve creation by dragging the mouse.
 
 
 Common Options

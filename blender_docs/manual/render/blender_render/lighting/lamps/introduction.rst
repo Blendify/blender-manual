@@ -14,7 +14,7 @@ You can add new lamps to a scene using the *Add* menu in the header, or
 with :menuselection:`Add --> Lamp`, :kbd:`Shift-A`.
 
 Once added, a lamp's position is indicated in the 3D View by a solid dot in a circle, but most
-types also feature dashed wire-frames that help describe their orientation and properties.
+types also feature dashed wireframes that help describe their orientation and properties.
 While each type is represented differently,
 there are some visual indicators common to all of them:
 

@@ -23,7 +23,7 @@ Show Parent
 
    .. warning::
 
-      This may be unsafe for renderfarms as it may be invalid after jumping around the timeline.
+      This may be unsafe for render farms as it may be invalid after jumping around the timeline.
 
    Offset
       Delay in the parent offset.

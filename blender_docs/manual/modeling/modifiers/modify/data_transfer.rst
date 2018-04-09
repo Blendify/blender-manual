@@ -14,7 +14,7 @@ to a single destination one by interpolated mapping.
 .. figure:: /images/modeling_modifiers_modify_data-transfer_normals-example.png
 
    From left to right, a flat-shaded beveled cube, a smooth-shaded beveled cube,
-   and an autosmooth-shaded beveled cube copying its normals from the reference,
+   and an auto-smooth-shaded beveled cube copying its normals from the reference,
    flat-shaded cube shown as wire here, to achieve the 'fake round corners' effect.
 
 

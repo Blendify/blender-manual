@@ -43,7 +43,7 @@ Distortion Model
    Polynomial
       Polynomial radial distortion.
    Division
-      It defines high distortions, which makes this model suitable much better for cameras with fish-eye lenses.
+      It defines high distortions, which makes this model suitable much better for cameras with fisheye lenses.
 
 Coefficients
    Coefficients are used to compensate for lens distortion when the movie was shot.

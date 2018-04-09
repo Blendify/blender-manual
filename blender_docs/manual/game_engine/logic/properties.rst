@@ -49,7 +49,7 @@ Add Game Property button
 
 Name field
    Where you give your property its name, this is how you are going to access it through Python or expressions.
-   The way to do so in Python is by dictionary style lookup (``GameObject["propname"]``).
+   The way to do so in Python is by dictionary style look-up (``GameObject["propname"]``).
    The name is case sensitive.
 
 Type menu

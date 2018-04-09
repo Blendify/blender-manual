@@ -167,7 +167,7 @@ If you have a particularly heavy scene, Cycles can take up too much GPU time.
 Reducing Tile Size in the Performance panel may alleviate the issue,
 but the only real solution is to use separate graphics cards for display and rendering.
 
-Another solution can be to increase the timeout,
+Another solution can be to increase the time-out,
 although this will make the user interface less responsive when rendering heavy scenes.
 `Learn More Here <https://msdn.microsoft.com/en-us/Library/Windows/Hardware/ff570087%28v=vs.85%29.aspx>`__.
 
@@ -175,5 +175,5 @@ although this will make the user interface less responsive when rendering heavy 
 CUDA error: Unknown error in cuCtxSynchronize()
 -----------------------------------------------
 
-An unknown error can have many causes, but one possibility is that it is a timeout.
+An unknown error can have many causes, but one possibility is that it is a time-out.
 See the above answer for solutions.
