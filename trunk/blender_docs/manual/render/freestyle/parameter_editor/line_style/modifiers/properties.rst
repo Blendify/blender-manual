@@ -156,7 +156,7 @@ Min Curvature and Max Curvature
    The limits of the mapping.
    If the current point of the stroke is at *Min Curvature* or less from the target,
    it will take the start point of the mapping, and conversely,
-   if it is at *Max Curvature* or more from the target, it will take the end point value of the mapping.
+   if it is at *Max Curvature* or more from the target, it will take the end-point value of the mapping.
 
 
 .. _bpy.types.LineStyle*Modifier_DistanceFromCamera:

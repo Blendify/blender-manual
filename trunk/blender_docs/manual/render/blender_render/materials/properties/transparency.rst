@@ -57,7 +57,7 @@ the object color is seen -- the object is completely opaque; but if alpha = 0,
 only the background is seen -- the object is transparent
 (but note that any other object behind the active object disappears).
 
-This is useful for making textures of solid or semi-transparent objects from photographic
+This is useful for making textures of solid or semitransparent objects from photographic
 reference material, i.e. a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
 

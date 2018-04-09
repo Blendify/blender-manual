@@ -46,7 +46,7 @@ Falloff
    Softness
       ..
    Constant
-      Density is constant within lookup radius.
+      Density is constant within the look-up radius.
    Root
       ..
    Particle Age

@@ -98,7 +98,7 @@ These are calculated based on the geometry of the object so they are a better re
 The center of gravity for these shapes is the object origin.
 
 Convex Hull
-   A mesh-like surface encompassing (e.g. shrink wrap over) all vertices (best results with fewer vertices).
+   A mesh-like surface encompassing (e.g. shrink-wrap over) all vertices (best results with fewer vertices).
    Convex approximation of the object, has good performance and stability.
 Mesh
    :term:`Mesh` consisting of triangles only, allowing for more detailed interactions than convex hulls.

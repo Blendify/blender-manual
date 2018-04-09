@@ -19,7 +19,7 @@ Keyed
 The particle paths of keyed particles are determined from the emitter to another particle
 system's particles. This allows creation of chains of systems with keyed physics to create
 long strands or groovy moving particles. Basically the particles have no dynamics but are
-interpolated from one system to the next at drawtime.
+interpolated from one system to the next at draw-time.
 
 
 Setup

@@ -162,7 +162,7 @@ Puff
    So it makes the hair stand up with *Add* or lay down with *Sub*.
 
    Puff Volume
-      Apply puff to unselected end-points, (helps maintain hair volume when puffing root).
+      Apply puff to unselected end points, (helps maintain hair volume when puffing root).
 Cut
    Scales the segments until the last keypoint reaches the brush.
 
@@ -325,4 +325,4 @@ do not react on the various brushes. But:
 If you use *Mirror Editing* even particles with hidden keypoints may be moved,
 if their mirrored counterpart is moved.
 
-To un-hide all hidden particles press :kbd:`Alt-H`.
+To unhide all hidden particles press :kbd:`Alt-H`.

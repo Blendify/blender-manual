@@ -25,7 +25,7 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 
 .. figure:: /images/render_workflows_multiview_usage_turntable-creature.png
 
-   Turn-table Creature Factory 2.
+   Turntable Creature Factory 2.
 
 
 Views Setup

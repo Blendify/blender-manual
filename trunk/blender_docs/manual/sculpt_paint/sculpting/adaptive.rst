@@ -93,4 +93,4 @@ Clay brush, SculptDraw work better with multi-resolution sculpting to sculpt sec
 
 .. seealso::
 
-   Read more about the :doc:`Multi Resolution Modifier </modeling/modifiers/generate/multiresolution>`.
+   Read more about the :doc:`Multiresolution Modifier </modeling/modifiers/generate/multiresolution>`.

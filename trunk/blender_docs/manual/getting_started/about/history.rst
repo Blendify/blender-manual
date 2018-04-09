@@ -152,7 +152,7 @@ Version/Revision Milestones
    Node-based textures, armature sketching (called Etch-a-Ton), boolean mesh operation improvements,
    JPEG2000 support, projection painting for direct transfer of images to models, and a significant Python
    script catalog. GE enhancements included video textures, where you can play movies in-game, upgrades
-   to the Bullet physics engine, dome (fish-eye) rendering, and more API GE calls made available.
+   to the Bullet physics engine, dome (fisheye) rendering, and more API GE calls made available.
 
 
 .. rubric:: Blender 2.5x -- The Recode!
@@ -192,7 +192,7 @@ Version/Revision Milestones
 `2.64 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.64>`__ -- October 2012:
    Mask editor, improved motion tracker, OpenColorIO, Cycles improvements, Sequencer improvements,
    better mesh tools (Inset and Bevel were improved), new keying nodes, sculpt masking, Collada improvements,
-   new skin modifier, new compositing nodes backend, and many bugs were fixed.
+   new skin modifier, new compositing nodes back end, and many bugs were fixed.
 `2.65 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.65>`__ -- December 2012:
    Fire and smoke improvements, anisotropic shader for Cycles, modifier improvements,
    the Bevel tool now includes rounding, new add-ons, and over 200 bug fixes.

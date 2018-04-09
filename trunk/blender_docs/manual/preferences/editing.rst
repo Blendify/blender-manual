@@ -174,7 +174,7 @@ in the Tool shelf.
 Duplicate Data
 ==============
 
-The *Duplicate Data* check-boxes define what data is copied with a duplicated Object and
+The *Duplicate Data* checkboxes define what data is copied with a duplicated Object and
 what data remains linked. Any boxes that are checked will have their data copied along with
 the duplication of the Object. Any boxes that are not checked will instead have their data linked
 from the source Object that was duplicated.
@@ -185,4 +185,4 @@ and each mesh will behave independently of the duplicate.
 If you leave the mesh box unchecked then when you change the mesh of one object,
 the change will be mirrored in the duplicate Object.
 
-The same rules apply to each of the check-boxes in the 'Duplicate Data' list.
+The same rules apply to each of the checkboxes in the 'Duplicate Data' list.

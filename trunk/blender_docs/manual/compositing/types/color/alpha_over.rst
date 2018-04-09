@@ -58,15 +58,15 @@ Then the alpha channel of A is inverted and multiplied by image B,
 thus making image B transparent, where A is opaque and vice versa.
 To get the final composite the resultant images are added.
 
-A pre-multiplied alpha is, when the image (RGB)
+A premultiplied alpha is, when the image (RGB)
 pixels are already multiplied by the alpha channel,
 therefore, the above compositing operation does not work too well,
 and *Convert Premultiplied* has to be enabled.
-This is only an issue in semi-transparent area and edges usually.
+This is only an issue in semitransparent area and edges usually.
 The issue normally occurs in a node setup,
 in which two images previously combined with alpha,
 then are combined again with yet another image.
-The previously combined image was already multiplied (pre-multiplied)
+The previously combined image was already multiplied (premultiplied)
 and needs to be converted as such (hence, *Convert PreMul*).
 
 If multiplied twice artifacts like a white or clear halo occur around

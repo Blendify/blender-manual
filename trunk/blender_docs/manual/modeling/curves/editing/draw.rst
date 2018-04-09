@@ -12,7 +12,7 @@ Draw Curve
    | Menu:     :menuselection:`Add --> Draw Curve`
    | Hotkey:   :kbd:`Shift-LMB`
 
-The Curve draw tool allows you to freehand draw curves.
+The Curve draw tool allows you to free-hand draw curves.
 
 
 Stroke Options

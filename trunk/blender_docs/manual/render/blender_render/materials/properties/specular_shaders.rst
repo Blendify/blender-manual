@@ -58,7 +58,7 @@ In reality, the quality of Diffuse and Specular reflection are generated during 
 process of light scattering, but are not the same.
 Diffusion is actually subsurface scattering at a very small scale.
 
-Imagine that a surface is made up of extremely microscopic semi-transparent,
+Imagine that a surface is made up of extremely microscopic semitransparent,
 reflective facets. The sharpness of Specular reflection is determined by the distribution of
 the angle of these microfacets on the surface of an object.
 The more deep and jagged these facets are,
@@ -66,7 +66,7 @@ the more the light spreads when it hits the surface.
 When these facets are flatter against the "macrosurface",
 the surface will have a tighter reflection, closer to a mirror.
 This is a condensed explanation of the generally accepted microfacet theory of reflectance,
-which is the basis of all modern :abbr:`BRDF (Bi-directional Reflectance Distribution Function)`\ s,
+which is the basis of all modern :abbr:`BRDF (Bidirectional Reflectance Distribution Function)`\ s,
 or shading models.
 
 Because these microfacets are transparent,
@@ -133,7 +133,7 @@ Phong
 
    Phong Shader (Lambert 0.8).
 
-Phong is a basic shader that is very similar to CookTorr,
+Phong is a basic shader that is very similar to Cook-Torr,
 but is better for skin and organic surfaces.
 `Bui Tuong Phong <https://en.wikipedia.org/wiki/Bui_Tuong_Phong>`__ (1942-1975)
 was a Vietnamese-born computer graphics pioneer that developed the first algorithm for
@@ -187,7 +187,7 @@ Options
 
 Hardness
    Size of the specular highlight.
-   The Blinn shader is capable of much tighter specular highlights than Phong or CookTorr.
+   The Blinn shader is capable of much tighter specular highlights than Phong or Cook-Torr.
 IOR
    'Index of Refraction'.
    This parameter is not actually used to compute refraction of light rays through the material

@@ -21,7 +21,7 @@ and that the future bones' joints are shown as green dots on selected free segme
 
 Remember also that the roll rotation of the created bones has been set during their "parent" stroke drawing
 (except for the *Template* conversion method) -- their Z axis will be aligned with the view
-Z axis of the active 3D View at draw time.
+Z axis of the active 3D View at draw-time.
 
 
 Fixed

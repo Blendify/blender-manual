@@ -11,7 +11,7 @@ Editing
 
 In *Pose Mode*, bones behave like objects. So the transform actions
 (grab/rotate/scale, etc.) are very similar to the same ones in *Object* mode
-(all available ones are regrouped in the :menuselection:`Pose --> Transform` sub-menu). However,
+(all available ones are regrouped in the :menuselection:`Pose --> Transform` submenu). However,
 there are some important specificities:
 
 - Bones' relationships are crucial (see :ref:`bone-relations-parenting`).

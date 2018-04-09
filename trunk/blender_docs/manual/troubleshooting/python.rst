@@ -16,10 +16,10 @@ To see if this is the cause of an error temporary unset the environment variable
 See `Python's documentation <https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH>`__ for details.
 
 
-Pre-Compiled Libraries
-======================
+Precompiled Libraries
+=====================
 
-While not common practice, Python add-ons can be distributed with their own pre-compiled libraries.
+While not common practice, Python add-ons can be distributed with their own precompiled libraries.
 Unlike regular Python scripts, these are not portable between different platforms.
 
 It is possible the library is incompatible with your Blender installation

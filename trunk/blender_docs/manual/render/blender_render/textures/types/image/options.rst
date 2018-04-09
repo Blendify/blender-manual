@@ -88,7 +88,7 @@ Derivative Map
    Use red and green as derivative values.
 
 MIP Map
-   `MIP Maps <https://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, smaller,
+   `MIP Maps <https://en.wikipedia.org/wiki/Mipmap>`__ are precalculated, smaller,
    filtered Textures for a certain size. A series of pictures is generated, each half the size of the former one.
    This optimizes the filtering process. By default, this option is enabled and speeds up rendering
    (especially useful in the :doc:`Game Engine </game_engine/index>`). When this option is OFF,

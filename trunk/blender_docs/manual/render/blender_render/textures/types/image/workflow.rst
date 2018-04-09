@@ -72,7 +72,7 @@ Each of these are examples of applying an image as a texture to the mesh.
 
 As another example, the face is the subject of many questions and tutorials. In general,
 you will want to create a Material that has the basic skin color, appropriate shaders,
-and sub-surface scattering. Then you will want to layer on additional UV Textures for:
+and subsurface scattering. Then you will want to layer on additional UV Textures for:
 
 - Freckle map for Color and Normal aspects.
 - Subdermal veins and tendons for Displacement.
@@ -131,7 +131,7 @@ Note that the colors were too strong on the image,
 so they amount of the diffuse color affects is turned down to 60% in the second layer (the blemish layer).
 
 Normally, we think of image textures affecting the color of a mesh. Realism and
-photo-realistic rendering is a combination of many different ways that light interacts with
+photorealistic rendering is a combination of many different ways that light interacts with
 the surface of the mesh. The image texture can be Mapped To not only color,
 but also *Normal* (bumpiness)
 or *Reflection* or any of the other attributes specified in the Map To panel.

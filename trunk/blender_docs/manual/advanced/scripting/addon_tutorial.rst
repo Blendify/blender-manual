@@ -134,7 +134,7 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
 
 
    class ObjectMoveX(bpy.types.Operator):
-       """My Object Moving Script"""      # Use this as a tool-tip for menu items and buttons.
+       """My Object Moving Script"""      # Use this as a tooltip for menu items and buttons.
        bl_idname = "object.move_x"        # Unique identifier for buttons and menu items to reference.
        bl_label = "Move X by One"         # Display name in the interface.
        bl_options = {'REGISTER', 'UNDO'}  # Enable undo for the operator.

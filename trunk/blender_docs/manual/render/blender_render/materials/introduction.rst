@@ -8,7 +8,7 @@ In its simplest form, you can use materials to show the substance an object is m
 or to "paint" the object with different colors. Usually,
 the substance is represented by its surface qualities (color, shininess, reflectance, etc.)
 but it can also exhibit more complicated effects such as transparency,
-diffraction and sub-surface scattering. Typical materials might be brass, skin, glass, or linen.
+diffraction and subsurface scattering. Typical materials might be brass, skin, glass, or linen.
 
 .. figure:: /images/render_blender-render_materials_introduction_demo.jpg
    :width: 320px

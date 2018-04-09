@@ -16,7 +16,7 @@ Inputs
 ======
 
 Vector
-   Texture coordinate for texture lookup. If this socket is left unconnected,
+   Texture coordinate for texture look-up. If this socket is left unconnected,
    UV coordinates from the active UV render layer are used.
 
 

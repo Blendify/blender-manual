@@ -108,7 +108,7 @@ This page lists definitions for terms used in Blender and this manual.
       The box that encloses the shape of an object. The box is aligned with the local space of the object.
 
    Bump Mapping
-      Technique for simulating slight variations in surface height using a grayscale "height-map" texture.
+      Technique for simulating slight variations in surface height using a grayscale "heightmap" texture.
 
    Bézier
       A computer graphics technique for generating and representing curves.
@@ -323,7 +323,7 @@ This page lists definitions for terms used in Blender and this manual.
    FSAA
    Full-Screen Anti-Aliasing
       A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
-      Also known as *Multi-Sampling*.
+      Also known as *Multisampling*.
 
       This can be enabled in the :ref:`User Preferences <prefs-system-multi-sampling>`.
       On many graphics cards, this can also be enabled in the driver options.
@@ -350,7 +350,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Global Illumination
       A superset of :term:`radiosity` and ray tracing. The goal is to compute all possible light interactions
-      in a given scene, and thus, obtain a truly photo-realistic image.
+      in a given scene, and thus, obtain a truly photorealistic image.
       All combinations of diffuse and specular reflections and transmissions must be accounted for.
       Effects such as color bleeding and caustics must be included in a global illumination simulation.
 
@@ -482,7 +482,7 @@ This page lists definitions for terms used in Blender and this manual.
       The object appears to be blurred because of our persistence of vision.
       Simulating motion blur makes computer animation appear more realistic.
 
-   Multi-sampling
+   Multisampling
       See :term:`FSAA`.
 
    N-gon

@@ -85,7 +85,7 @@ Angle constrain :kbd:`C`
 Close loop: double-click :kbd:`LMB`
    This is a quick way to close the loop you are currently cutting.
 Draw a continuous line: :kbd:`LMB` drag.
-   So you can draw a freehand line over a surface,
+   So you can draw a free-hand line over a surface,
    points will be created at edge intersections.
 
 .. list-table::
