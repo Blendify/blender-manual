@@ -80,7 +80,7 @@ For that you can run a command like this in the terminal (with the appropriate p
 
 .. code-block:: sh
 
-   echo "alias blender=/Applications/Blender/blender.app/Contents/MacOS/blender" >> ~/.profile
+   echo "alias blender=/Applications/Blender/blender.app/Contents/MacOS/blender" >> ~/.bash_profile
 
 If you then open a new terminal, the following command will work:
 
