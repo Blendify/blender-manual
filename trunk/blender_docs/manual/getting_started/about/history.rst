@@ -116,7 +116,7 @@ Version/Revision Milestones
 `2.36 <https://archive.blender.org/development/release-logs/blender-236/>`__ -- December 2004:
    A stabilization version, much work behind the scene, normal and displacement mapping improvements.
 `2.37 <https://archive.blender.org/development/release-logs/blender-237a/>`__ -- June 2005:
-   Transformation tools and widgets, softbodies, force fields, deflections,
+   Transformation tools and widgets, soft bodies, force fields, deflections,
    incremental subdivision surfaces, transparent shadows, and multi-threaded rendering.
 `2.40 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.40>`__ -- December 2005:
    Full rework of armature system, shape keys, fur with particles, fluids, and rigid bodies.

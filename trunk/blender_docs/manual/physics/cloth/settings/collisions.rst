@@ -125,7 +125,7 @@ on a shared layer (particles, soft bodies, and cloth).
 
    There are three different *Collision* panels, all found in the *Physics* tab.
    The first (by default), a tab beside the *Fields* panel, is the one needed here. The second panel,
-   a tab in the *Soft Body* group, concern softbodies (and so has nothing to do with cloth).
+   a tab in the *Soft Body* group, concern soft bodies (and so has nothing to do with cloth).
    And we have already seen the last one, by default a tab beside the *Cloth* panel.
 
 
