@@ -123,7 +123,7 @@ Shading Panel
    - Turn off Shadows.
    - Turn off Environment Mapping.
    - Turn off Panoramic Rendering.
-   - Turn off Raytracing.
+   - Turn off Ray tracing.
    - Turn off SSS Subsurface Scattering.
    - Turn off or lower oversampling/aliasing OSA.
    - Turn off or lower Motion Blur.

@@ -103,7 +103,7 @@ Depth of Field
    of the active camera: Focal Length, Sensor Size, Focus Object or Focus Distance, and Viewport F-stop.
 Ambient Occlusion
    Improves the realism of the viewport image by simulating the darkening effect that
-   occurs in crevices and corners. This is done by raycasting in screen space.
+   occurs in crevices and corners. This is done by ray casting in screen space.
    Typically such effects are rendered at higher quality,
    but this is a quick real-time preview which can help when modeling or sculpting.
 

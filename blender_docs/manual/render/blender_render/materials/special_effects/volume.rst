@@ -367,7 +367,7 @@ Options
    Material volume options.
 
 Traceable
-   Allow this material to calculate raytracing.
+   Allow this material to calculate ray tracing.
 Full Oversample
    Force this material to render full shading/textures for all anti-aliasing samples.
 Use Mist

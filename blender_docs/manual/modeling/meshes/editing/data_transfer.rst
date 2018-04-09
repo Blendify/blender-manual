@@ -145,7 +145,7 @@ Only Neighbor Geometry
 .. The below definition is confusing for users. Change?
 
 Ray Radius
-   Width of rays. Useful when raycasting against vertices or edges.
+   Width of rays. Useful when ray casting against vertices or edges.
 Mix Mode
    How to affect destination elements with source values.
 

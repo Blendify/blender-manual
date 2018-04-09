@@ -63,7 +63,7 @@ This type of shadowing is available to all lamp types except *Hemi*.
 
 As opposed to buffered shadows (`Lamps: Buffered Shadows`_),
 ray-traced shadows are obtained by casting rays from a regular light source, uniformly and in all directions.
-The ray-tracer then records which pixel of the final image is hit by a ray light, and which is not.
+The ray tracer then records which pixel of the final image is hit by a ray light, and which is not.
 Those that are not are obviously obscured by a shadow.
 
 Each light casts rays in a different way. For example,
@@ -71,7 +71,7 @@ a *Spot* light casts rays uniformly in all directions within a cone.
 The *Sun* light casts rays from an infinitely distant point,
 with all rays parallel to the direction of the *Sun* light.
 
-For each additional light added to the scene, with ray-tracing enabled,
+For each additional light added to the scene, with ray tracing enabled,
 the rendering time increases. Ray-traced shadows require more computation than buffered
 shadows but produce sharp shadow borders with very little memory resource usage.
 
