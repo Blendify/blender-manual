@@ -110,7 +110,7 @@ Sampling Method
    .. note:: About QMC
 
       See also
-      the :ref:`raytraced shadows page <render-blender-internal-quasi-monte-carlo>`
+      the :ref:`ray-traced shadows page <render-blender-internal-quasi-monte-carlo>`
       for more info about the Quasi-Monte Carlo sampling method.
 
    Constant Jittered

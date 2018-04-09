@@ -189,7 +189,7 @@ The size of a billboard is set with the parameter *Size* of the particle
 You can use them e.g. for `Sprites <https://en.wikipedia.org/wiki/Sprite_(computer_graphics)>`__,
 or to replace *Halo* visualization.
 Everything that can be done with a halo can also be done with a billboard.
-But billboards are real objects, they are seen by raytracing,
+But billboards are real objects, they are seen by ray tracing,
 they appear behind transparent objects,
 they may have an arbitrary form and receive light and shadows.
 They are a bit more difficult to set up and take more render time and resources.

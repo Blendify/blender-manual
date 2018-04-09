@@ -282,7 +282,7 @@ This page lists definitions for terms used in Blender and this manual.
    Environment Map
       A method of calculating reflections.
       It involves rendering images at strategic positions and applying them as textures to the mirror.
-      Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
+      Now in most cases obsoleted by ray tracing, which though slower is easier to use and more accurate.
 
    Euler
    Euler Rotation
@@ -657,7 +657,7 @@ This page lists definitions for terms used in Blender and this manual.
       `Radiosity (computer graphics) <https://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
       on Wikipedia.
 
-   Raytracing
+   Ray tracing
       Rendering technique that works by tracing the path taken by a ray of light through the scene,
       and calculating reflection, refraction, or absorption of the ray whenever it intersects
       an object in the world. More accurate than :term:`scanline`, but much slower.
@@ -689,7 +689,7 @@ This page lists definitions for terms used in Blender and this manual.
       This may also be known as a :term:`Glossy Map`.
 
    Scanline
-      Rendering technique. Much faster than :term:`raytracing`,
+      Rendering technique. Much faster than :term:`ray tracing`,
       but allows fewer effects, such as reflections, refractions, motion blur and focal blur.
 
    Scene Referenced

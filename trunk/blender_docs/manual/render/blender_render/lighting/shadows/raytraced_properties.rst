@@ -1,7 +1,7 @@
 
-*****************
-Raytraced Shadows
-*****************
+******************
+Ray-Traced Shadows
+******************
 
 .. figure:: /images/render_blender-render_lighting_shadows_introduction_shadow-ray.png
    :width: 277px
@@ -131,7 +131,7 @@ This has the advantage of sometimes leading to more accurate calculations based 
 
 .. seealso::
 
-   - :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/point>`
-   - :doc:`Spot Light Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction>`
-   - :doc:`Area Light Raytraced Shadows </render/blender_render/lighting/lamps/area/introduction>`
-   - :doc:`Sun Light Raytraced Shadows </render/blender_render/lighting/lamps/sun/introduction>`
+   - :doc:`Lamp Light Ray-traced Shadows </render/blender_render/lighting/lamps/point>`
+   - :doc:`Spot Light Ray-traced Shadows </render/blender_render/lighting/lamps/spot/introduction>`
+   - :doc:`Area Light Ray-traced Shadows </render/blender_render/lighting/lamps/area/introduction>`
+   - :doc:`Sun Light Ray-traced Shadows </render/blender_render/lighting/lamps/sun/introduction>`

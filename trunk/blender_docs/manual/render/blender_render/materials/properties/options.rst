@@ -12,7 +12,7 @@ will appear in the rendered image. All controls are default "Off" unless otherwi
 
 Traceable
    Include this material and the geometry that uses it in ray-tracing calculations.
-   See :doc:`Transparency </render/blender_render/materials/properties/transparency>` for details of ray-tracing.
+   See :doc:`Transparency </render/blender_render/materials/properties/transparency>` for details of ray tracing.
 Full Oversampling
    Force this material to render full shading and textures for all
    :doc:`anti-aliasing </render/blender_render/settings/antialiasing>` samples.

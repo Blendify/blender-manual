@@ -38,7 +38,7 @@ Shadows
 =======
 
 Area light ray-traced shadows are described here:
-:doc:`Raytraced Shadows </render/blender_render/lighting/lamps/area/raytraced_shadows>`.
+:doc:`Ray-traced Shadows </render/blender_render/lighting/lamps/area/raytraced_shadows>`.
 
 When an *Area* light source is selected,
 the *Shadow* panel has the following default layout:

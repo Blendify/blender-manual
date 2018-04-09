@@ -22,7 +22,7 @@ and the color of the surface determines the final color of the pixel.
    Transparency Panel.
 
 In Blender, there are three ways in which the transparency of a material can be set:
-Mask, Z-Buffer and Ray-trace. Each of these is explained in more detail below.
+Mask, Z-Buffer and Raytrace. Each of these is explained in more detail below.
 The :doc:`Material Preview </render/blender_render/materials/properties/preview>`
 option with a sphere object gives a good demonstration
 of the capabilities of these three options.
@@ -77,8 +77,8 @@ Only basic settings are available with this option; it does not calculate refrac
 
 .. _bpy.types.MaterialRaytraceTransparency:
 
-Raytraced Transparency
-======================
+Ray-Traced Transparency
+=======================
 
 Uses ray tracing to calculate refractions. Ray tracing allows for complex refractions, falloff, and blurring,
 and is used for simulating the refraction of light rays through a transparent material, like a lens.
@@ -102,7 +102,7 @@ of the material. When you actually look through a plain sphere of glass,
 you will notice that the background is upside-down and distorted:
 this is all because of the Index of Refraction of glass.
 
-.. note:: Enable Raytracing
+.. note:: Enable Ray Tracing
 
    To get ray-traced transparency, you need to:
 

@@ -27,7 +27,7 @@ and you can at any time switch between them using the *Active Element* panel.
 
 Typically *Meta* objects are used for special effects or as a basis for modeling.
 For example, you could use a collection of metas to form the initial shape of your model and
-then convert it to a mesh for further modeling. Meta objects are also very efficient for ray-tracing.
+then convert it to a mesh for further modeling. Meta objects are also very efficient for ray tracing.
 
 .. note::
 

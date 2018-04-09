@@ -31,7 +31,7 @@ Strand Primitive
 - Have a distance of vision reduction
   (in the *Render* panel under *Child Simplification*) for children from faces.
 - May be faded out towards the tip without an additional texture.
-- Are not ray traced.
+- Are not ray-traced.
   So they are not visible through ray-transparent materials or in a ray mirror
   (you can use *Environment Mapping* for that).
 - Have shape problems if they are rendered with a greater width.

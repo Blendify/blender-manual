@@ -8,10 +8,10 @@ Spot Buffered Shadow
    Buffered Shadow enabled for a Spot lamp.
 
 Spotlights can use either
-:doc:`Raytraced Shadows </render/blender_render/lighting/shadows/raytraced_properties>`
+:doc:`Ray-traced Shadows </render/blender_render/lighting/shadows/raytraced_properties>`
 or buffered shadows. Either of the two can provide various extra options.
 
-Raytraced shadows are generally more accurate,
+Ray-traced shadows are generally more accurate,
 with extra capabilities such as transparent shadows, although they are quite slower to render.
 
 Buffered shadows are more complex to set up and involve more faking,
@@ -25,7 +25,7 @@ Shadow Buffer Types
 
 When the *Buffer Shadow* button is activated,
 the currently selected *Spot* light generates shadows,
-using a "shadow buffer" rather than using raytracing,
+using a "shadow buffer" rather than using ray tracing,
 and various extra options and buttons appear in the *Shadow* panel.
 
 Buffer Type
@@ -187,7 +187,7 @@ Sample Buffers
 
    Buffer Shadow set to Irregular.
 
-Irregular shadow method is used to generate sharp/hard shadows that are placed as accurately as raytraced shadows.
+Irregular shadow method is used to generate sharp/hard shadows that are placed as accurately as ray-traced shadows.
 This method offers very good performance because it can be done as a multi-threaded process.
 
 This method supports transparent shadows.

@@ -47,7 +47,7 @@ Physics Steps
       Sets the number of simulation sub-steps per physics time step. Higher value give better physics precision.
    FPS
       Set the nominal number of game frames per second.
-      Physics fixed time step = 1/fps, independently of actual frame rate.
+      Physics fixed timestep = 1/fps, independently of actual frame rate.
 Logic Steps
    Sets the maximum number of logic frame per game frame if graphics slows down the game,
    higher value allows better synchronization with physics.

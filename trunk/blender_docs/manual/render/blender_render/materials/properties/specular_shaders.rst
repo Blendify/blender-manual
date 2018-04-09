@@ -23,7 +23,7 @@ which makes the viewing angle very important.
    It is important to stress that the *specular reflection*
    phenomenon discussed here is not the reflection we would see in a mirror,
    but rather the light highlights we would see on a glossy surface.
-   To obtain true mirror-like reflections you would need to use the internal raytracer.
+   To obtain true mirror-like reflections you would need to use the internal ray tracer.
 
 
 Common Options

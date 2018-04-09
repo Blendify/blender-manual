@@ -65,7 +65,7 @@ Buffered Shadow
    described in :doc:`/render/blender_render/lighting/shadows/shadow_panel`.
 Ray Shadow
    The ray-traced shadows settings of this lamp are shared with other lamps,
-   and are described in :doc:`Raytraced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
+   and are described in :doc:`Ray-traced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
 
 
 Spot Shape

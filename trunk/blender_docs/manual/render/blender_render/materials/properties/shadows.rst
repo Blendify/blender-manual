@@ -120,8 +120,8 @@ Cast Buffer Shadow
 Buffer Bias
    Multiplication factor for Buffer shadows (0 = ignore).
 Auto Ray Bias
-   Prevent raytraced shadow errors on surfaces with smooth-shaded normals.
+   Prevent ray-traced shadow errors on surfaces with smooth-shaded normals.
 Ray Bias
-   Shadow raytracing bias value to prevent terminator artifacts on shadow boundary.
+   Shadow ray-tracing bias value to prevent terminator artifacts on shadow boundary.
 Cast Approximate
    Allow this material to cast shadows when using approximate ambient occlusion.

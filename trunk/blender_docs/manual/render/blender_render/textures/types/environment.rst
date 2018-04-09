@@ -6,22 +6,22 @@ Environment Maps
 
 Environment maps take a render of the 3D scene and apply it to a texture,
 to use for faking reflections. If you want to achieve a very realistic result,
-raytraced reflections are a good solution.
+ray-traced reflections are a good solution.
 Environment Maps are another way to create reflective surfaces,
 but they are not so simple to set up.
 
 So why should one use Environment Maps?
 
-- The main reason is probably that they can be much faster than raytracing reflections.
+- The main reason is probably that they can be much faster than ray tracing reflections.
   In certain situations they need to be calculated only once, and may be reused like any ordinary texture.
   You may even modify the precalculated Environment Map in an image editor.
 - Environment maps can also be blurred and render even faster because the resolution can then be lowered.
-  Blurring a reflection with the raytracer always adds to the render time, sometimes quite a lot.
+  Blurring a reflection with the ray tracer always adds to the render time, sometimes quite a lot.
 - :doc:`Halos </render/blender_render/materials/special_effects/halo>`
-  (a visualization type for particles) are not visible to raytraced reflections,
+  (a visualization type for particles) are not visible to ray-traced reflections,
   so you need to setup environment maps to reflect them.
 - :doc:`Keypoint strands </physics/particles/emitter/render>`
-  (another visualization type for particles) are also not visible to raytraced reflections,
+  (another visualization type for particles) are also not visible to ray-traced reflections,
   so you need to setup environment maps to reflect them.
 
 Just as we render the light that reaches the viewing plane

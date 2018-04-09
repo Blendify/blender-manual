@@ -1,7 +1,7 @@
 
-**********************
-Area Raytraced Shadows
-**********************
+***********************
+Area Ray-Traced Shadows
+***********************
 
 .. figure:: /images/render_blender-render_lighting_lamps_area_introduction_adaptive-qmc.png
 
@@ -9,7 +9,7 @@ Area Raytraced Shadows
 
 The *Area* light source can only cast ray-traced shadows.
 The ray-traced shadows settings of this lamp are mostly shared with other lamps,
-as described in :doc:`Raytraced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
+as described in :doc:`Ray-traced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
 However, there are some specifics with this lamp, which are detailed below:
 
 
