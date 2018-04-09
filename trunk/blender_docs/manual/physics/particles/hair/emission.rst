@@ -14,7 +14,7 @@ Emission
 
 Number
    Set the amount of hair strands. Use as little particles as possible,
-   especially if you plan to use softbody animation later.
+   especially if you plan to use soft body animation later.
    But you need enough particles to have good control.
    For a "normal" haircut I found some thousand (very roughly 2000) particles to give enough control.
    You may need a lot more particles if you plan to cover a body with fur.

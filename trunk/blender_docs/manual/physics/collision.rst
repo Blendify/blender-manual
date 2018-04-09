@@ -18,12 +18,12 @@ and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
 - The objects need to share at least one common layer to have effect.
 - You may limit the effect on particles to a group of objects
   (in the :doc:`Field Weights panel </physics/particles/emitter/physics/index>`).
-- *Deflection* for softbody objects is difficult, they often penetrate the colliding objects.
+- *Deflection* for soft body objects is difficult, they often penetrate the colliding objects.
 - Hair particles ignore deflecting objects
   (but you can animate them as softbodies which take deflection into account).
 
 If you change the deflection settings for an object you have to recalculate the particle,
-softbody or cloth system by *Free Cache*, this is not done automatically. You can
+soft body or cloth system by *Free Cache*, this is not done automatically. You can
 clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
 
 
@@ -64,7 +64,7 @@ Soft Body and Cloth
 .. figure:: /images/physics_collision_outer-inner.png
    :width: 380px
 
-   A softbody vertex colliding with a plane.
+   A soft body vertex colliding with a plane.
 
 Outer
    Size of the outer collision zone.
@@ -80,7 +80,7 @@ Soft Body Damping
 Damping Factor
    Damping during a collision.
 
-*Softbody* collisions are difficult to get perfect. If one of the objects move too fast,
+*Soft body* collisions are difficult to get perfect. If one of the objects move too fast,
 the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies </physics/soft_body/index>`.
 
 

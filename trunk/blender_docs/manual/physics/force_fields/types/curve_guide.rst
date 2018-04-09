@@ -23,7 +23,7 @@ You can also use *Curve Guide* to shape certain hair strands.
 
    You can also use the :doc:`Particle Edit Mode </physics/particles/mode>` to define a path.
 
-Since you can animate curves as Softbody or any other usual way,
+Since you can animate curves as a soft body or any other usual way,
 you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
 
 The option *Curve Follow* does not work for particles. Instead you have to set *Angular Velocity*

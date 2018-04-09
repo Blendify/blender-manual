@@ -657,7 +657,7 @@ This page lists definitions for terms used in Blender and this manual.
       `Radiosity (computer graphics) <https://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
       on Wikipedia.
 
-   Ray tracing
+   Ray Tracing
       Rendering technique that works by tracing the path taken by a ray of light through the scene,
       and calculating reflection, refraction, or absorption of the ray whenever it intersects
       an object in the world. More accurate than :term:`scanline`, but much slower.

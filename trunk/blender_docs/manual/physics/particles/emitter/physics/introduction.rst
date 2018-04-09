@@ -9,7 +9,7 @@ the settings in the Physics panel.
 
 Additional ways of moving particles are:
 
-- By softbody animation (only for Hair particle systems).
+- By soft body animation (only for Hair particle systems).
 - By force fields and along curves.
 - By lattices.
 

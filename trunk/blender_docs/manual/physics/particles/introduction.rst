@@ -30,7 +30,7 @@ Their movement can be affected by many things, including:
 - Interaction with other objects like collisions.
 - Partially intelligent members of a flock (herd, school, ...),
   that react to other members of their flock, while trying to reach a target or avoid predators.
-- Smooth motion with softbody physics (only *Hair* particle systems).
+- Smooth motion with soft body physics (only *Hair* particle systems).
 - Or even manual transformation with :doc:`Lattices </modeling/modifiers/deform/lattice>`.
 
 Particles may be rendered as:
