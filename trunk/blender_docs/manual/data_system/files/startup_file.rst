@@ -6,7 +6,6 @@ Startup File
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
    | Menu:     :menuselection:`File --> Save Startup File`
    | Hotkey:   :kbd:`Ctrl-U`
 

@@ -6,8 +6,7 @@ Saving Files
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Info
-   | Menu:     File
+   | Menu:     :menuselection:`Info Editor --> File --> Save`
 
 There are a number of slightly different methods you can use to save your blend-file to your hard drive:
 

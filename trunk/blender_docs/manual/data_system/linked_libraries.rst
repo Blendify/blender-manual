@@ -15,6 +15,7 @@ Append and Link
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   Info Editor
    | Mode:     All Modes
    | Menu:     :menuselection:`File --> Append or Link`
    | Hotkey:   :kbd:`Shift-F1` or :kbd:`Ctrl-Alt-O`
@@ -68,6 +69,7 @@ Proxy Objects
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   3DView
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Make Proxy...`
    | Hotkey:   :kbd:`Ctrl-Alt-P`
@@ -94,6 +96,7 @@ Make Link
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   3DView
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Make Link...`
    | Hotkey:   :kbd:`Ctrl-L`
@@ -133,6 +136,7 @@ Make Local
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   3DView
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Make Local...`
    | Hotkey:   :kbd:`L`

@@ -16,6 +16,11 @@ You can select and create scenes with the *Scene data-block* menu in the *Info E
 Controls
 ========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Info Editor Header --> Scene`
+
 .. figure:: /images/data-system_scenes_introduction_menu.png
    :align: right
 
