@@ -86,6 +86,8 @@ Removing Drivers
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   Graph editor
+   | Mode:     Drivers
    | Panel:    :menuselection:`Properties region --> Driver --> Drivers --> Remove Driver`
    | Menu:     :menuselection:`Context menu --> Delete (Single) Driver(s)`
    | Hotkey:   :kbd:`Ctrl-Alt-D`

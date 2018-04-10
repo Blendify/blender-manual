@@ -3,6 +3,13 @@
 Drivers Panel
 *************
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Editor:   Graph editor
+   | Mode:     Drivers
+   | Panel:    :menuselection:`Properties region --> Drivers --> Drivers`
+
 .. figure:: /images/animation_drivers_drivers-panel_panel.png
    :align: right
 

@@ -7,8 +7,9 @@ Shape Keys Panel
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   Properties editor
    | Mode:     All modes
-   | Panel:    :menuselection:`Properties editor --> Object Data --> Shape Keys`
+   | Panel:    :menuselection:`Object Data --> Shape Keys`
 
 .. figure:: /images/animation_shape-keys_shape-keys-panel_basis.png
 

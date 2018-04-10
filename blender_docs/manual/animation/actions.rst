@@ -71,9 +71,10 @@ Bake Action
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   3DView
    | Mode:     Object and Pose Modes
    | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Action: Bake Action`
-   | Menu:     :menuselection:`3D View --> Object/Pose --> Animation --> Bake Action...`
+   | Menu:     :menuselection:`Object/Pose --> Animation --> Bake Action...`
 
 The *Bake Action* tool will apply interpolated frames into individual keyframes.
 This can be useful for adding deviation to a cyclic action like a :term:`walk cycle`.
