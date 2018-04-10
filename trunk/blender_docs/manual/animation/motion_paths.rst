@@ -8,6 +8,7 @@ Motion Paths
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   3DView, Properties editor
    | Mode:     Object Mode
    | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Motion Paths: Calculate`
    | Panel:    :menuselection:`Properties editor --> Object --> Motion Paths`
@@ -15,6 +16,7 @@ Motion Paths
 .. admonition:: Reference
    :class: refbox
 
+   | Editor:   3DView, Properties editor
    | Mode:     Pose Mode
    | Panel:    :menuselection:`Tool Shelf --> Tools --> Pose Tools --> Motion Paths: Calculate`
    | Panel:    :menuselection:`Properties editor --> Armature --> Motion Paths`
