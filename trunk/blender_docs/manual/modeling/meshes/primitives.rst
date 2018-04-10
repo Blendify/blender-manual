@@ -50,7 +50,7 @@ Radius/Size, Align to View, Location, Rotation
 Plane
 =====
 
-The standard plane is a single quad face, which is composed out of four vertices, four edges, and one face.
+The standard plane is a single quad face, which is composed of four vertices, four edges, and one face.
 It is like a piece of paper lying on a table;
 it is not a three-dimensional object because it is flat and has no thickness.
 Objects that can be created with planes include floors, tabletops, or mirrors.
@@ -99,18 +99,18 @@ Rings
 Icosphere
 =========
 
-An icosphere is a polyhedra sphere made up of triangles.
+An icosphere is a polyhedral sphere made up of triangles.
 Icospheres are normally used to achieve a more isotropical layout of
-vertices than a UV sphere.
+vertices than a UV sphere, in other words, they are uniform in every direction.
 
 Subdivisions
    How many recursions are used to define the sphere.
    At level 1 the Icosphere is an icosahedron, a solid with 20 equilateral triangular faces.
-   Any increasing level of subdivision splits each triangular face into four triangles.
+   Each increase in the number of subdivisions splits each triangular face into four triangles.
 
 .. note::
 
-   Subdividing an icosphere rises the vertex count very high even with few iterations
+   Subdividing an icosphere raises the vertex count very quickly even with few iterations
    (10 times creates 5,242,880 triangles),
    Adding such a dense mesh is a sure way to cause the program to crash.
 
@@ -141,7 +141,7 @@ Vertices
 Radius 1
    Sets the radius of the circular base of the cone.
 Radius 2
-   Sets the radius of the tip of the cone. which will creates a frustum.
+   Sets the radius of the tip of the cone. which will create a frustum (a pyramid or cone with the top cut off).
    A value of 0 will produce a standard cone shape.
 Depth
    Sets the starting height of the cone.
@@ -153,14 +153,14 @@ Base Fill Type
 Torus
 =====
 
-A dough-nut-shaped primitive created by rotating a circle around an axis.
+A doughnut-shaped primitive created by rotating a circle around an axis.
 The overall dimensions can be defined by two methods.
 
 Operator Presets
    Torus preset settings for reuse. These presets are stored as scripts in the proper presets directory.
 Major Segments
    Number of segments for the main ring of the torus.
-   If you think of a torus as a "spin" operation around an axis, this is how many steps in the spin.
+   If you think of a torus as a "spin" operation around an axis, this is how many steps are in the spin.
 Minor segments
    Number of segments for the minor ring of the torus.
    This is the number of vertices of each circular segment.
