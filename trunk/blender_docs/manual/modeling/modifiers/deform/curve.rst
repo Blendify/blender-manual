@@ -7,7 +7,7 @@ Curve Modifier
 The Curve Modifier provides a simple but efficient method of deforming a mesh along a curve object.
 
 The Curve Modifier works on a (global) dominant axis, X, Y, or Z.
-This means that when you move your mesh in the dominant direction (by default, the X-axis),
+This means that when you move your mesh in the dominant direction (by default, the X axis),
 the mesh will traverse along the curve. Moving the mesh perpendicularly to this axis,
 the object will move closer or further away from the curve.
 
@@ -73,7 +73,7 @@ Let us make a simple example:
 
           Monkey deformations.
 
-- Now if you select the Monkey, and move it in the Y-direction :kbd:`G Y`,
+- Now if you select the Monkey, and move it in the Y direction :kbd:`G Y`,
   the monkey will deform nicely along the curve.
 
 .. tip::

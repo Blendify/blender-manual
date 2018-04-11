@@ -71,7 +71,7 @@ Depth
    reflections in the reflection of the reflected object (!).
    In this case, a Depth of 4 or 5 is typically a good value.
 Max Distance
-   Maximum distance of reflected rays away from camera (Z-Depth) in Blender units.
+   Maximum distance of reflected rays away from camera (Z depth) in Blender units.
    Reflections further than this range fade out to reduce compute time.
 
 Fade to

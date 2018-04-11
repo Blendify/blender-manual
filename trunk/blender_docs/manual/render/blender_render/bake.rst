@@ -23,7 +23,7 @@ you will not have to enable it for the full render, saving render time.
 Use *Full Render* or *Textures* to create an image texture;
 baked procedural textures can be used as a starting point for further texture painting.
 Use *Normals* to make a low resolution mesh look like a high resolution mesh.
-To do that, UV-unwrap a high resolution, finely sculpted mesh and bake its normals.
+To do that, UV unwrap a high resolution, finely sculpted mesh and bake its normals.
 Save that normal map, and *Mapping* (texture settings)
 the UV of a similarly unwrapped low resolution mesh.
 The low resolution mesh will look just like the high resolution,

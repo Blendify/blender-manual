@@ -42,7 +42,7 @@ Track To
 --------
 
 Makes the object "look at" another object, in 2D or 3D.
-The Y-axis is considered the front of the object.
+The Y axis is considered the front of the object.
 
 .. figure:: /images/game-engine_logic_actuators_types_edit-object_track-to.jpg
    :width: 271px

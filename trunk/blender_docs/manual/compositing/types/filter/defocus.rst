@@ -179,6 +179,6 @@ Aliasing at Low f-Stop Values
 
 No Z-Buffer
    A final word of warning, since there is no way to detect if an actual Z-buffer is connected to the node,
-   be **very** careful with the *No Z-Buffer* switch. If the *Z scale* value happens to be large,
+   be **very** careful with the *No Z-buffer* switch. If the *Z scale* value happens to be large,
    and you forget to set it back to some low value,
    the values may suddenly be interpreted as huge blur radius values that will cause processing times to explode.

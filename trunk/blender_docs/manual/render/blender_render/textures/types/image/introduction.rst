@@ -44,7 +44,7 @@ and another that has three maps.
 
 .. figure:: /images/render_blender-render_textures_types_image_introduction_uv-overview.jpg
 
-   How all the parts of UV Texturing work together.
+   How all the parts of UV texturing work together.
 
 When using file textures, it is very important that you have
 :doc:`Mapped the UVs </editors/uv_image/uv/editing/unwrapping/index>`
@@ -53,9 +53,9 @@ of the mesh, and they are laid out appropriately.
 You do not have to UV map the *entire* mesh.
 The sphere above on the left has some faces mapped,
 but other faces use procedural materials and textures.
-Only use UV Textures for those portions of your mesh where you want very graphic,
+Only use UV textures for those portions of your mesh where you want very graphic,
 precise detail. For example,
-a model of a vase only needs UV Texture for the rim where decorative artwork is incorporated.
+a model of a vase only needs UV texture for the rim where decorative artwork is incorporated.
 A throw pillow does not need a different image for the back as the front;
 in fact many throw pillows have a fabric (procedural material) back.
 
@@ -72,7 +72,7 @@ UV Textures vs. Procedural Textures
 ===================================
 
 A Material Texture, that has a Map Input of UV,
-and is an image texture that is mapped to Color, is equivalent to a UV Texture.
+and is an image texture that is mapped to Color, is equivalent to a UV texture.
 It provides much more flexibility, because it can be sized and offset, and the degree to which
 it affects the color of your object can be controlled in the Map To panel. In addition,
 you can have different images for each texture channel; one for color, one for alpha,

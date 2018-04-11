@@ -28,7 +28,7 @@ Vector
    If the input is a grayscale image, where both the channel values are equal,
    the input image will be displaced equally in both X and Y directions.
 Scale X, Y
-   Separate scaling of the vector input in X- and Y-direction.
+   Separate scaling of the vector input in X and Y direction.
    Acting as multipliers by increasing or decreasing the strength of
    the displacement along their respective axes.
 

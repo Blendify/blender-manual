@@ -11,7 +11,7 @@ Gravity
 
 Gravity is a global setting that is applied to all physics systems in a scene.
 It can be found in the scene tab.
-This value is generally fine left at its default, -9.810 on the Z-Axis,
+This value is generally fine left at its default, -9.810 on the Z axis,
 which is the force of gravity in the real world.
 Changing this value would simulate a lower or higher force of gravity.
 Gravity denoted g, measurement *m* × *s*\ :sup:`-2`.

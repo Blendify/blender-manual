@@ -103,12 +103,12 @@ Variable Type
       Use one of the Transform channels from an object or bone.
 
       ID
-         ID of the object. Example: Cube, Armature, Camera.
+         ID of the object. For example: Cube, Armature, Camera.
       Bone
-         ID of the Armature bone. Example: "Bone", "Bone.002", "Arm.r".
+         ID of the Armature bone. For example: "Bone", "Bone.002", "Arm.r".
          This option is for armatures.
       Type
-         Example, X Location, X Rotation, X Scale.
+         For example, X Location, X Rotation, X Scale.
       Space
          World Space, Transform Space, Local Space.
 

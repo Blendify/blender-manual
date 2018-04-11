@@ -83,13 +83,13 @@ Box
 Sphere
    Sphere-like shapes. The radius is the largest axis of the bounding box.
 Capsule
-   This points up the Z-Axis.
+   This points up the Z axis.
 Cylinder
-   This points up the Z-Axis.
-   The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
+   This points up the Z axis.
+   The height is taken from the Z axis, while the radius is the larger of the X or Y axes.
 Cone
-   This points up the Z-Axis.
-   The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
+   This points up the Z axis.
+   The height is taken from the Z axis, while the radius is the larger of the X or Y axes.
 
 
 .. rubric:: Mesh-Based Shapes

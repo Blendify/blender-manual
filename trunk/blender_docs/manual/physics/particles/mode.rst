@@ -282,11 +282,11 @@ Mirror
    | Mode:     Particle Edit Mode
    | Menu:     :menuselection:`Particle --> Mirror`
 
-If you want to create an X-Axis symmetrical haircut you have to do following steps:
+If you want to create an X axis symmetrical haircut you have to do following steps:
 
 #. Select all particles with :kbd:`A`.
 #. Mirror the particles with :kbd:`Ctrl-M`, or use the :menuselection:`Particle --> Mirror` menu.
-#. Turn on *X-Axis Mirror Editing* in the *Particle* menu.
+#. Turn on *X Mirror* in the Brush panel.
 
 It may happen that after mirroring two particles occupy nearly the same place.
 Since this would be a waste of memory and render time,

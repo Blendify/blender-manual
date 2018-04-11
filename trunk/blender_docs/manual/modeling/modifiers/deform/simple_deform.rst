@@ -37,7 +37,7 @@ Vertex Group
 Origin
    The name of an object that defines the origin of deformation (usually an empty). This object can be:
 
-   - Rotated to control the axis (its local Z-axis is now used as the deformation axis).
+   - Rotated to control the axis (its local Z axis is now used as the deformation axis).
    - Translated to control the origin of deformation.
    - Scaled to change the deform factor.
 

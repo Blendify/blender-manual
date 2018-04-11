@@ -26,7 +26,7 @@ Properties
 ==========
 
 Curve
-   The Y-value defined by the curve is the factor output.
+   The Y value defined by the curve is the factor output.
    For the curve controls see: :ref:`Curve widget <ui-curve-widget>`.
 
    .. tip::
@@ -36,7 +36,7 @@ Curve
 
 Start, End
    Start frame and End frame of the range of time specifying the values
-   the output should last. This range becomes the X-axis of the graph.
+   the output should last. This range becomes the X axis of the graph.
    The time input could be reversed by specifying a start frame greater than the end frame.
 
 

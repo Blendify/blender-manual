@@ -87,7 +87,7 @@ Half-Sphere Example
 .. figure:: /images/editors_uv-image_uv_overview_3d-uv-space.jpg
    :width: 600px
 
-   3D Space (XYZ) versus UV Space (click to enlarge).
+   3D space (XYZ) versus UV space.
 
 In this image you can easily see that the shape and
 size of the marked face in 3D space is different in UV space.
@@ -95,7 +95,7 @@ size of the marked face in 3D space is different in UV space.
 This difference is caused by the "stretching" (technically called mapping)
 of the 3D part (XYZ) onto a 2D plane (i.e. the UV map).
 
-If a 3D object has a UV map, then, in addition to the 3D-coordinates X, Y, and Z,
+If a 3D object has a UV map, then, in addition to the 3D coordinates X, Y, and Z,
 each point on the object will have corresponding U and V coordinates.
 (*P* in the image above is an example of how a point on a 3D object might be mapped onto a 2D image).
 
@@ -110,7 +110,7 @@ Wrinkles on a human head, or scratches on a car do not occur in random places,
 but depend on the shape of the model and its usage. Manually-painted images,
 or images captured from the real world gives more control and realism.
 For details such as book covers, tapestry, rugs, stains, and detailed props,
-artists are able to control every pixel on the surface using a UV Texture.
+artists are able to control every pixel on the surface using a UV texture.
 
 A UV map describes what part of the texture should be attached to each polygon in the model.
 Each polygon's vertex gets assigned to 2D coordinates that define which part of the image gets mapped.
@@ -129,4 +129,4 @@ created in applications like the Gimp, Photoshop, or your favorite painting appl
 
    UV mapping is also essential in the :doc:`Game Engine </game_engine/index>`,
    or any other game. It is the de facto standard for applying textures to models;
-   almost any model you find in a game is UV mapped.
+   almost any model you find in a game is UV-mapped.

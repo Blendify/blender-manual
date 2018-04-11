@@ -10,17 +10,17 @@ Mesh Options
    | Panel:    :menuselection:`Tool Shelf --> Options tab --> Mesh Options panel`
 
 
-X-Mirror
+X Mirror
 ========
 
-The *X-mirror* option of the *Mesh Options* panel allows you edit symmetrical vertices on the other side
+The *X Mirror* option of the *Mesh Options* panel allows you edit symmetrical vertices on the other side
 of the mesh in a single action. When you transform an element (vertex, edge or face),
 if there is its exact X-mirrored counterpart (in local space),
 it will be transformed accordingly, through a symmetry along the local X axis.
 
 .. note::
 
-   The conditions for *X-Mirror* to work are quite strict, which can make it difficult to use.
+   The conditions for *X Mirror* to work are quite strict, which can make it difficult to use.
    To have an exact mirrored version of a (half) mesh,
    its easier and simpler to use the :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
 

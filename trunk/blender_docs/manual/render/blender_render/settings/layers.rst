@@ -29,7 +29,7 @@ Z-mask
    Negate
       Only render what is *behind* the solid Z values.
 All Z
-   Z-values are computed for everything in view, not just those things that are rendered. When disabled,
+   Z values are computed for everything in view, not just those things that are rendered. When disabled,
    objects not included in the render have no ("infinite") z value.
 Solid
    Solid faces are rendered. All normal meshes are solid faced.
@@ -37,7 +37,7 @@ Halo
    Halo materials are rendered.
 Z-Transparency
    Transparency may be Z-based or Ray-traced. If Z-based, enabling *Z-transparency* renders
-   transparent areas with the z-value of what is behind the transparent area.
+   transparent areas with the Z value of what is behind the transparent area.
 Sky
    Turning on Sky renders the sky, as defined in your material world settings. Otherwise,
    a black alpha-transparent background is rendered.

@@ -11,7 +11,7 @@ uses one of three Boolean operations that can be used to create a single mesh ou
 .. figure:: /images/modeling_modifiers_generate_booleans_union-intersect-difference-examples.png
 
    The Union, Intersection and Difference between a Cube and a UV Sphere,
-   with the modifier applied to the Sphere and using the cube as target.
+   with the modifier applied to the sphere and using the cube as target.
 
 
 Usage

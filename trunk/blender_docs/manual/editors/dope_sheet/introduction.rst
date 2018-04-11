@@ -87,8 +87,8 @@ Main Region
 -----------
 
 It contains the keyframes for all visible action channels.
-As with the other "time" editor, the X-axis represents time.
-The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is a "stack" of action channels.
+As with the other "time" editor, the X axis represents time.
+The Y axis has no mean in itself, unlike with the *Graph Editor*, it is a "stack" of action channels.
 
 Each one being shown as a horizontal colored strip (of a darker shade "during" the animated/keyed period).
 On these channel strips lay the keyframes, visualized as light gray (unselected) or yellow (selected) diamonds.

@@ -66,7 +66,7 @@ and transparent for pixels outside the object.
    :doc:`Mask Transparency </render/blender_render/materials/properties/transparency>`.
 
 
-Z Buffer
+Z-Buffer
 ========
 
 This uses the alpha buffer for transparent faces.

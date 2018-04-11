@@ -33,7 +33,7 @@ but also to tell Blender when any two of them are counterparts.
 In case your armature can be mirrored in half (i.e. it is bilaterally symmetrical),
 it is worthwhile to stick to a left/right naming convention.
 This will enable you to use some tools that will probably save you time and effort
-(like the *X-Axis Mirror* editing tool we saw above...).
+(like the *X-Axis Mirror* editing tool).
 
 .. figure:: /images/rigging_armatures_bones_editing_naming_example.png
 
@@ -105,8 +105,8 @@ on the position of their root relative to the armature center and its local coor
 AutoName Left/Right
    will add the ".L" suffix to all bones with a *positive* X-coordinate root,
    and the ".R" suffix to all bones with a *negative* X-coordinate root.
-   If the root is exactly at 0.0 on the X-axis, the X-coordinate of the tip is used.
-   If both joints are at 0.0 on the X-axis, the bone will just get a period suffix, with no "L"/ "R"
+   If the root is exactly at 0.0 on the X axis, the X coordinate of the tip is used.
+   If both joints are at 0.0 on the X axis, the bone will just get a period suffix, with no "L"/ "R"
    (as Blender cannot decide whether it is a left or right bone...).
 AutoName Front/Back
    will add the ".Bk" suffix to all bones with a *positive* Y-coordinate root,

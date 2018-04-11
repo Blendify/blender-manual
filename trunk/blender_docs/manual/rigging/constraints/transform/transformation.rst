@@ -12,8 +12,8 @@ You can also switch between axes, and use the range values not as limits,
 but rather as "markers" to define a mapping between input (target) and output (owner) values.
 
 So, e.g. you can use the position of the target along the X axis to control the rotation of
-the owner around the Z-Axis, stating that 1 BU along the target X-Axis corresponds
-to 10 BU around the owner Z-Axis. Typical uses for this include gears (see note below),
+the owner around the Z axis, stating that 1 BU along the target X axis corresponds
+to 10 BU around the owner Z axis. Typical uses for this include gears (see note below),
 and rotation based on location setups.
 
 
@@ -99,7 +99,7 @@ Space
      the owner's existing rotation or scale is overridden by the result of evaluating this constraint.
    - When using the rotation transform properties of the target as input,
      whatever the real values are, the constraint will always "take them back" into the (-180 to 180) range.
-     E.g. if the target has a rotation of 420 degrees around its X-Axis,
+     E.g. if the target has a rotation of 420 degrees around its X axis,
      the values used as *X* input by the constraint will be:
 
      :math:`((420 + 180) modulo 360) - 180 = 60 - ...`

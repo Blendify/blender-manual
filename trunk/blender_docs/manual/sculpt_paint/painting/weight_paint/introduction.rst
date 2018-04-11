@@ -105,7 +105,7 @@ If you paint on vertices outside the group,
 the painted vertices are automatically added to the vertex group.
 
 If you have a symmetrical mesh and a symmetrical armature
-you can use the option *X-Mirror*.
+you can use the option *X Mirror*.
 Then the mirrored groups with the mirrored weights are automatically created.
 
 

@@ -8,7 +8,7 @@ with respect to the number of faces it needs to have.
 If you do add faces or subdivide existing faces when a model is already unwrapped,
 Blender will add those new faces for you,
 but you may need to do additional mapping or editing. In this fashion,
-you can use the UV Texture image to guide additional geometry changes.
+you can use the UV texture image to guide additional geometry changes.
 
 
 About UVs
@@ -18,9 +18,9 @@ Every point in the UV map corresponds to a vertex in the mesh.
 The lines joining the UVs correspond to edges in the mesh.
 Each face in the UV map corresponds to a mesh face.
 
-Each face of a mesh can have many UV Textures.
-Each UV Texture can have an individual image assigned to it.
-When you unwrap a face to a UV Texture in the UV/Image Editor, each face of the mesh is
+Each face of a mesh can have many UV textures.
+Each UV texture can have an individual image assigned to it.
+When you unwrap a face to a UV texture in the UV/Image Editor, each face of the mesh is
 automatically assigned *four UV coordinates:* These coordinates define the way an image or
 a texture is mapped onto the face. These are 2D coordinates, which is why they are called UV,
 to distinguish them from XYZ coordinates.
@@ -31,9 +31,9 @@ The UV coordinates define how this image is mapped onto the face.
 This image then can be rendered or displayed in real-time.
 A 3D View has to be in "Face Select" mode to be able to assign Images or
 change UV coordinates of the active Mesh Object.
-This allows a face to participate in many UV Textures.
-A face at the hairline of a character might participate in the facial UV Texture,
-*and* in the scalp/hair UV Texture.
+This allows a face to participate in many UV textures.
+A face at the hairline of a character might participate in the facial UV texture,
+*and* in the scalp/hair UV texture.
 
 These are described more fully in the next sections.
 

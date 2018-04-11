@@ -116,8 +116,8 @@ Edge Marks
 
    Edge Mark setting in the Line Sets tab.
 
-In edit mode you can mark "Freestyle Edges" in the same manner you can mark "Seams" for UV
-unwrapping or "Sharp" for edge split.
+In Edit Mode you can mark "Freestyle Edges" in the same manner
+you can mark "Seams" for UV unwrapping or "Sharp" for edge split.
 These marked edges are available to render when you select *Edge Mark*.
 
 This is done as follows:

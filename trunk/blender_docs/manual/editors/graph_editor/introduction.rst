@@ -22,7 +22,7 @@ The curve view allows you to view and edit F-Curves.
 An F-Curve has several key parts:
 
 Curve
-   The curve defines the value (y-axis) of the property over time (X-axis).
+   The curve defines the value (Y axis) of the property over time (X axis).
 
    See :doc:`F-Curves </editors/graph_editor/fcurves/index>`
 Keyframes
@@ -82,11 +82,11 @@ The *2D Cursor* is mostly used for editing tools.
 View Axes
 ---------
 
-For *Actions* the X-axis represents time,
-the Y-axis represents the value to set the property.
+For *Actions* the X axis represents time,
+the Y axis represents the value to set the property.
 
-For *Drivers* the X-axis represents the *Driver Value*,
-the Y-axis represents the value to set the property.
+For *Drivers* the X axis represents the *Driver Value*,
+the Y axis represents the value to set the property.
 
 Depending on the selected curves, the values have different meaning:
 For example rotation properties are shown in degrees,

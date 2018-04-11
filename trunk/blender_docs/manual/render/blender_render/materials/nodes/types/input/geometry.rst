@@ -68,7 +68,7 @@ Geometry Node Example using a UV Image
 
 .. figure:: /images/render_blender-render_materials_nodes_types_input_geometry_example.png
 
-   Setup to render a UV-Mapped Image Texture.
+   Setup to render a UV-mapped image texture.
 
 E.g: To render a UV-mapped image,
 you would use the *UV* output and plug it into the *Vector* Input of a texture node.

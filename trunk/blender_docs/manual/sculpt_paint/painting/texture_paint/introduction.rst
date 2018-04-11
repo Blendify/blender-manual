@@ -4,23 +4,23 @@
 Introduction
 ************
 
-A UV Texture is a picture (image, sequence or movie)
+A UV texture is a picture (image, sequence or movie)
 that is used to color the surface of a mesh.
-The UV Texture is mapped to the mesh through one or more UV maps.
-There are three ways to establish the image used by the UV Texture:
+The UV texture is mapped to the mesh through one or more UV maps.
+There are three ways to establish the image used by the UV texture:
 
-#. Paint a flat image in the UV/Image Editor onto the currently selected UV Texture,
+#. Paint a flat image in the UV/Image Editor onto the currently selected UV texture,
    using its UV map to transfer the colors to the faces of the mesh.
-#. Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture
+#. Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV texture
    (see :ref:`Projection Painting <painting-texture-index>`).
 #. Use any image editing program to create an image.
-   In the UV/Image Editor, select the UV Texture and load the image.
+   In the UV/Image Editor, select the UV texture and load the image.
    Blender will then use that texture's UV map to transfer the colors to the faces of the mesh.
 
 Blender features a built-in paint mode called *Texture Paint* which is designed specifically to
-help you edit your UV Textures and images quickly and
+help you edit your UV textures and images quickly and
 easily in either the UV/Image or the 3D View Editor.
-Since a UV Texture is just a special-purpose image,
+Since a UV texture is just a special-purpose image,
 you can also use any external paint program. For example,
 GIMP is a full-featured image manipulation program that is also open-source.
 
@@ -29,8 +29,8 @@ GIMP is a full-featured image manipulation program that is also open-source.
 
    Texture painting in Blender.
 
-Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
-However, each UV Texture only has one image.
+Since a mesh can have layers of UV textures, there may be many images that color the mesh.
+However, each UV texture only has one image.
 
 *Texture Paint* works in both a 3D View and the UV/Image Editor.
 In the 3D View in Texture Paint Mode, you paint directly on the mesh by
@@ -40,7 +40,7 @@ In the 3D View in Texture Paint Mode, you paint directly on the mesh by
 Getting Started
 ===============
 
-Once you have unwrapped your model to a UV Map,
+Once you have unwrapped your model to a UV map,
 you can begin the texturing process.
 You cannot paint on a mesh in Texture Paint Mode without **first** unwrapping your mesh,
 **and** doing one of the following steps. Either:
@@ -101,7 +101,7 @@ you can see the effects of your painting in the context of your scene as you pai
 
 To do this, set up side-by-side areas, one area in 3D View set to *Texture* shading option,
 and in the second area the UV/Image Editor loaded with your image.
-Position the 3D View to show the object that is UV mapped to the loaded image.
+Position the 3D View to show the object that is UV-mapped to the loaded image.
 In the image to the right, the texture being painted is mapped to the "Normal" attribute,
 and is called "bump mapping",
 where the gray-scale image is used to make the flat surface appear bumpy.
@@ -118,7 +118,7 @@ option to save your work with a different name or overwrite the original image.
 
 .. note:: UV Textures
 
-   Since images used as UV Textures are functionally different from other images,
+   Since images used as UV textures are functionally different from other images,
    you should keep them in a directory separate from other images.
 
 The image format for saving is independent of the format for rendering.
@@ -133,7 +133,7 @@ saving your images to a separate file is not necessary.
 Using an External Image Editor
 ==============================
 
-If you use an external program to edit your UV Texture, you must:
+If you use an external program to edit your UV texture, you must:
 
 #. Run that paint program (GIMP, Photoshop\ :sup:`®` \, etc.).
 #. Load the image or create a new one.

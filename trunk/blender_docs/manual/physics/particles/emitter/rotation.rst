@@ -25,10 +25,10 @@ Initial Rotation
 ----------------
 
 Orientation Axis
-   Sets the initial rotation of the particle by aligning the x-axis in the direction of:
+   Sets the initial rotation of the particle by aligning the X axis in the direction of:
 
    None
-      The global X-axis.
+      The global X axis.
    Normal
       Orient to the emitter's surface normal, the objects Y axis points outwards.
    Normal-Tangent

@@ -72,7 +72,7 @@ Mirror
 ======
 
 This tool mirrors the weights from one side of the mesh to the opposite side
-(only mirroring along x-axis is supported). But note,
+(only mirroring along X axis is supported). But note,
 the weights are not transferred to the corresponding opposite bone weight group.
 The mirror only takes place within the selected Vertex Group.
 

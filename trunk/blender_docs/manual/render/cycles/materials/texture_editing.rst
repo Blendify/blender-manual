@@ -5,7 +5,7 @@ Texture Editing
 
 3D View draw types, UV mapping,
 and texture painting work somewhat differently when Cycles is enabled.
-UV Maps no longer get image textures assigned themselves;
+UV maps no longer get image textures assigned themselves;
 rather they must always be assigned by adding an image texture node to a material.
 
 

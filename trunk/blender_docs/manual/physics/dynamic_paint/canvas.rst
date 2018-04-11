@@ -207,7 +207,7 @@ Image Sequence
 --------------
 
 For *Image Sequence* surfaces,
-you can define used UV Maps and output file saving directory, filenames and image format.
+you can define used UV maps and output file saving directory, filenames and image format.
 
 
 Initial Color

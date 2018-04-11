@@ -50,7 +50,7 @@ Axis
 Cyclic
    Repeats the waves cyclically, rather than a single pulse.
 Normals
-   For meshes only. Displaces the mesh along the surface normals (instead of the object's Z-axis).
+   For meshes only. Displaces the mesh along the surface normals (instead of the object's Z axis).
 
 
 Time

@@ -27,10 +27,10 @@ Wireframe
 Solid
    The default drawing mode using solid colored surfaces and simple lighting.
 Textured
-   Shows meshes with an image applied using the mesh's active UV Map.
+   Shows meshes with an image applied using the mesh's active UV map.
    For Cycles materials, the image is the last one selected
    in the :doc:`Node Editor </editors/node_editor/index>`.
-   For other render engines, the UV Map's applied face texture will be shown.
+   For other render engines, the UV map's applied face texture will be shown.
 Material
    A fast approximation of the applied material.
 Rendered
