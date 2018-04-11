@@ -212,10 +212,11 @@ or the `Stanford Bunny <https://en.wikipedia.org/wiki/Stanford_Bunny>`__.
 
 .. note:: Add-ons
 
-   In addition to the basic geometric primitives, Blender has a number of script
-   generated meshes to offer as pre-installed add-ons. These are available when
-   enabled in the :doc:`User Preferences </preferences/addons>` (select the Category *Add Mesh*, then check any desired items). 
+   In addition to the basic geometric primitives,
+   Blender has a number of script generated meshes to offer as pre-installed add-ons.
+   These are available when enabled in the :doc:`User Preferences </preferences/addons>`
+   (select the Category *Add Mesh*, then check any desired items).
 
-.. figure:: /images/modeling_meshes_primitives_addons-category-add-mesh.png
+   .. figure:: /images/modeling_meshes_primitives_addons-category-add-mesh.png
 
-   User Preferences with Add Mesh category selected.
+      User Preferences with Add Mesh category selected.
