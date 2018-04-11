@@ -19,7 +19,7 @@ Convert to Geometry
 
 In the 3D View, sketches on the active layer can be converted to geometry,
 based on the current view settings, by transforming the points recorded when drawing
-(which make up the strokes) into 3D-space. Currently, all points will be used,
+(which make up the strokes) into 3D space. Currently, all points will be used,
 so it may be necessary to simplify or subdivide parts of the created geometry for standard use.
 
 Sketches can currently be converted into curves,

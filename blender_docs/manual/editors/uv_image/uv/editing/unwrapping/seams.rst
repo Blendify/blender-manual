@@ -46,7 +46,7 @@ Marking Seams
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3DView
+   | Editor:   3D View
    | Mode:     Edit mode
    | Panel:    :menuselection:`Tool Shelf --> Shading/UV --> UVs --> UV Mapping: Mark/Clear Seam`
    | Menu:     :menuselection:`Mesh --> Edges --> Mark/Clear Seam`

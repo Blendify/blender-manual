@@ -49,7 +49,7 @@ View Selected :kbd:`NumpadPeriod`
    Focuses view on currently selected object/s by centering them in the viewport,
    and zooming in until they fill the screen.
 Center View to Cursor :kbd:`Alt-Home`
-   Centers view to 3D-cursor.
+   Centers view to 3D cursor.
 View Lock to Active :kbd:`Shift-NumpadPeriod`
    Centers view to the last selected active object, overriding other view alignment settings.
 View Lock Clear :kbd:`Alt-NumpadPeriod`

@@ -17,7 +17,7 @@ The mesh analysis works in *Edit Mode* and *Solid* Viewport shading.
 It shows areas with a high value in red, and areas with a low value in blue.
 Geometry outside the range is displayed gray.
 
-Currently the different modes target 3D-printing as their primary use.
+Currently the different modes target 3D printing as their primary use.
 
 .. warning::
 

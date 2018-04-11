@@ -37,15 +37,15 @@ replaced by "rows" and the overall "grid".
 
 A "row" is a set of control points forming one "line" in one interpolation direction
 (a bit similar to :ref:`edge loops <modeling-mesh-structure-edge-loops>` for meshes).
-So you have "U-rows" and "V-rows" in a NURBS surface.
+So you have "U rows" and "V rows" in a NURBS surface.
 The key point is that *all* rows of a given type (U or V) have the *same* number of control points.
-Each control point belongs to exactly one U-row and one V-row.
+Each control point belongs to exactly one U row and one V row.
 
 All this forms a "grid", or "cage", the shape of which controls the shape of the NURBS surface.
 A bit like a :doc:`lattice </rigging/lattice>`...
 
 This is very important to grasp: you cannot add a single control point to a NURBS surface;
-you have to add a whole U- or V-row at once
+you have to add a whole U or V row at once
 (in practice, you will usually use the Extrude tool, or perhaps the Duplicate one, to add those...),
 containing exactly the same number of points as the others. This also means that you will only
 be able to "merge" different pieces of surfaces if at least one of their rows matches together.

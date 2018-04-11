@@ -69,7 +69,7 @@ Proxy Objects
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3DView
+   | Editor:   3D View
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Make Proxy...`
    | Hotkey:   :kbd:`Ctrl-Alt-P`
@@ -96,7 +96,7 @@ Make Link
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3DView
+   | Editor:   3D View
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Make Link...`
    | Hotkey:   :kbd:`Ctrl-L`
@@ -136,7 +136,7 @@ Make Local
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3DView
+   | Editor:   3D View
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Make Local...`
    | Hotkey:   :kbd:`L`

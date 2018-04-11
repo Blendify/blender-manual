@@ -36,7 +36,7 @@ Texture mode
       You need an RGB texture for this, e.g. an image or a color ramp.
       So a *Blend* texture without a color ramp would not suffice.
    Gradient
-      Calculates the force vector as the 3D-gradient of the intensity (grayscale) of the texture.
+      Calculates the force vector as the 3D gradient of the intensity (grayscale) of the texture.
       The gradient vector always points to the direction of increasing brightness.
    Curl
       Calculates the force vector from the curl of the 3D-RGB texture (rotation of RGB vectors).

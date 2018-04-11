@@ -71,9 +71,9 @@ Adding or Extruding
    | Hotkey:   :kbd:`E`, :kbd:`Ctrl-LMB`
 
 Unlike meshes or curves, you cannot generally directly add new control points to a surface
-(with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U- or V-row at once.
+(with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U or V row at once.
 The only exception is when working on a NURBS surface curve, i.e.
-a surface with only one control point on each U- or V-row. In this special case,
+a surface with only one control point on each U or V row. In this special case,
 all works exactly as with :ref:`curves <modeling-curves-extrude>`.
 
 Most of the time, only extrusion is available. As usual, once the tool is activated
@@ -185,9 +185,9 @@ only selections forming a *single* valid sub-grid are copyable; let us see this 
 
 - You can copy a single control point.
   From it, you will be able to "extrude" a "surface curve" along the U axis,
-  and then extrude this unique U-row along the V axis to create a real new surface.
+  and then extrude this unique U row along the V axis to create a real new surface.
 - You can copy a single continuous part of a row (or a whole row, of course).
-  This will give you a new *U-row*, even if you selected (part of) a V-row!
+  This will give you a new *U row*, even if you selected (part of) a V row!
 - You can copy a single whole sub-grid.
 
 .. note::
@@ -215,7 +215,7 @@ Selected
    The selection must abide by the following rules:
 
    - Whole rows, and only whole rows must be selected.
-   - Only rows along the same axis must be selected (i.e. you cannot delete both U- and V-rows at the same time).
+   - Only rows along the same axis must be selected (i.e. you cannot delete both U  and V rows at the same time).
 
    Also remember that NURBS order cannot be higher than its number of control points in a given axis,
    so it might decrease when you delete some control points...
@@ -270,7 +270,7 @@ in the same object, you must use either border select or circle select.
 Holding down :kbd:`Ctrl` while :kbd:`LMB` will not work.
 
 So to avoid problems, you should always only select border rows with the same number of
-points... Note that you can join a border U-row of one surface with a border V-row of another
+points... Note that you can join a border U row of one surface with a border V row of another
 one, Blender will automatically "invert" the axis of one surface for them to match correctly.
 
 NURBS surface curves are often used to create objects like hulls,
@@ -333,7 +333,7 @@ Spin
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
 but with less control and options (in fact, there is none!).
 
-It only works on selected "surfaces" made of *one U-row* (and not with one V-row),
+It only works on selected "surfaces" made of *one U row* (and not with one V row),
 so-called "surface curves", by "extruding" this "cross section" in a square pattern,
 automatically adjusting the weights of control points to get a perfect circular extrusion
 (this also implies closing the surface along the V axis), following exactly the same principle
