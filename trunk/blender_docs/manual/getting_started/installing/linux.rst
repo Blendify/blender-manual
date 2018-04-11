@@ -63,7 +63,7 @@ which is a shortcut that Blender uses to simulate a three button mouse.
 You can either have this feature disabled :menuselection:`User Preferences --> Input --> Emulate 3 Button Mouse`
 or you can change the Window Manager settings to use the *Meta* key instead (also called *Super* or *Windows key*):
 
-- **KDE:** System Settings > Window Behavior > Window Behavior > Window Actions , Switch 'Alt' for 'Meta' key
+- **KDE:** System Settings > Window Behavior > Window Behavior > Window Actions , Switch 'Alt' for 'Meta' key.
 - **Unity/Gnome:** enter the following in a command line (effective at next login):
 
   .. code-block:: sh
