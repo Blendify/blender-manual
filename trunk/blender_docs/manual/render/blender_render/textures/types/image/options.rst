@@ -31,8 +31,8 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
           Foreground image.
 
 The two images presented here are used to demonstrate the different image options.
-The *background image* is an ordinary JPG-file,
-the *foreground image* is a PNG-file with various alpha and grayscale values.
+The *background image* is an ordinary JPG file,
+the *foreground image* is a PNG file with various alpha and grayscale values.
 The vertical bar on the right side of the foreground image is an Alpha blend,
 the horizontal bar has 50% alpha.
 

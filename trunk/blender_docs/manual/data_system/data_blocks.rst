@@ -89,7 +89,7 @@ Make Single User
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3DView
+   | Editor:   3D View
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Make Single User`
    | Hotkey:   :kbd:`U`

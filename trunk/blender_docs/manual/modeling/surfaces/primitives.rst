@@ -20,7 +20,7 @@ found in the :menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:
    NURBS surface primitives.
 
 
-There are also two preset NURBS surface curves (with only one control point on each V-row):
+There are also two preset NURBS surface curves (with only one control point on each V row):
 *NURBS Curve* and *NURBS Circle*.
 
 .. figure:: /images/modeling_surfaces_primitives_curve.png

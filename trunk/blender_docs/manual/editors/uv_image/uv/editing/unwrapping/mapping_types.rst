@@ -9,7 +9,7 @@ Mapping Types
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3DView
+   | Editor:   3D View
    | Mode:     Edit Mode
    | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> UVs --> UV Mapping: Unwrap`
    | Menu:     :menuselection:`Mesh --> UV Unwrap`

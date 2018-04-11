@@ -20,7 +20,7 @@ Bump maps
    The pixels seem to be moved by the required distance in the direction of the face normals.
    (The "bump" consists only of a displacement, which takes place along the existing,
    and unchanged, normal vector of the face).
-   You may either use grayscale pictures or the intensity values of an RGB-Texture (including images).
+   You may either use grayscale pictures or the intensity values of an RGB texture (including images).
 
 Normal maps
    These are images that store a *direction*, the direction of normals directly in the RGB values of an image.

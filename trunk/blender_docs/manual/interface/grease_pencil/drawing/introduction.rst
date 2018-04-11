@@ -121,18 +121,18 @@ Defines how the strokes are converted to 3D (or 2D) space.
 View
    New strokes are placed in screen space (2D) and are locked to the view.
 Cursor
-   New strokes are drawn in 3D-space, with position determined by the 3D cursor
+   New strokes are drawn in 3D space, with position determined by the 3D cursor
    and the view rotation at the time of drawing. *Cursor* is available as an option
    in the *UV/Image Editor* but it functions identically to the *View* option. *(3D View only)*
 
    Lock axis
       Lock projection to a specified axis.
 Surface
-   New strokes are drawn in 3D-space, with their position projected
+   New strokes are drawn in 3D space, with their position projected
    onto the first visible surface. *(3D View only)*
 Stroke
-   New strokes are drawn in 3D-space, with their position projected onto existing visible strokes.
-   Note that strokes created with *View* are not in 3D-space and are not considered for this projection.
+   New strokes are drawn in 3D space, with their position projected onto existing visible strokes.
+   Note that strokes created with *View* are not in 3D space and are not considered for this projection.
    *(3D View only)*
 
 .. _bpy.types.ToolSettings.use_gpencil_stroke_endpoints:

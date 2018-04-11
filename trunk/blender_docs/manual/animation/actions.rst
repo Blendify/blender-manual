@@ -71,7 +71,7 @@ Bake Action
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3DView
+   | Editor:   3D View
    | Mode:     Object and Pose Modes
    | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Action: Bake Action`
    | Menu:     :menuselection:`Object/Pose --> Animation --> Bake Action...`

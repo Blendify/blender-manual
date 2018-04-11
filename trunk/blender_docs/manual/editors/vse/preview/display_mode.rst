@@ -86,9 +86,9 @@ Chroma Vectorscope
 
 Use this mode judge the quality of the color-distribution and saturation, you can also view a U/V scatter-plot.
 
-The picture is converted to YUV-format. The U- and V-values represent the angle of the color.
-For pixel of the picture, one point is plotted in the display at the U and V-value-position.
-If several pixels happen to have the same U/V-value the pixel in the plot gets brighter.
+The picture is converted to YUV-format. The U and V values represent the angle of the color.
+For pixel of the picture, one point is plotted in the display at the U and V value position.
+If several pixels happen to have the same UV value the pixel in the plot gets brighter.
 
 To help you understand what color is meant, a hexagram marking the extreme positions
 (red, magenta, blue, cyan, green, yellow) is drawn and a red cross to mark the origin.
@@ -111,10 +111,10 @@ watch the Chroma Vectorscope to watch for color use.
 
 This mode is good for:
 
-- If you picture looks very moody or desaturated you might want to take a look at the U/V-plot.
+- If you picture looks very moody or desaturated you might want to take a look at the U/V plot.
   You will most likely see all pixels building a crowd at the origin.
   If you add saturation using the *Saturation* slider in the Filter panel or any modifiers that change color,
-  you can see in the U/V-plot if you distort the color.
+  you can see in the U/V plot if you distort the color.
 - If you do color-matching on a by hand basis you can match the angle you see of different channels monitors.
 
 

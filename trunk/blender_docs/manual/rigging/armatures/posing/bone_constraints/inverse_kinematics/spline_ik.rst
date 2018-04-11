@@ -57,7 +57,7 @@ Offset Controls
 ---------------
 
 The entire bone chain can be made to follow the shape of the curve while still being able to
-be placed at an arbitrary point in 3D-space when the 'Chain Offset' option is enabled.
+be placed at an arbitrary point in 3D space when the 'Chain Offset' option is enabled.
 By default, this option is not enabled,
 and the bones will be made to follow the curve in its untransformed position.
 

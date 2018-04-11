@@ -21,7 +21,7 @@ From the `Alembic home page <https://www.alembic.io/>`__:
    which are required to produce the final, animated vertex positions and animated transforms.
 
 :abbr:`TL;DR (Too long; didn't read.)`: Alembic can be used to write an animated mesh to disk, and
-read it back quickly & efficiently. This means that a mesh can be animated with a very CPU-heavy rig,
+read it back quickly & efficiently. This means that a mesh can be animated with a very CPU-intensive rig,
 'baked' to an Alembic file, and loaded into the shot file for shading and lighting
 with only moderate CPU usage.
 

@@ -108,12 +108,12 @@ to the same Plane mesh when in different views.
      - .. figure:: /images/modeling_meshes_editing_transform_warp_view-2.png
           :width: 320px
 
-          Warp Angle 180 in X-Z view.
+          Warp Angle 180 in XZ view.
 
    * - .. figure:: /images/modeling_meshes_editing_transform_warp_view-3.png
           :width: 320px
 
-          Warp Angle 180 in Y-Z view.
+          Warp Angle 180 in YZ view.
 
      - .. figure:: /images/modeling_meshes_editing_transform_warp_view-4.png
           :width: 320px
