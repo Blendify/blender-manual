@@ -19,7 +19,7 @@ Inputs
 Image
    Standard image input.
 Corners
-   Four vector inputs to define the plane warping. (Z-component of vector inputs is ignored).
+   Four vector inputs to define the plane warping. (Z component of vector inputs is ignored).
 
 
 Properties

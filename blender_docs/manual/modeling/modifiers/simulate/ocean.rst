@@ -30,7 +30,7 @@ Geometry
       When generating a mesh surface, the existing mesh object is completely overridden with the ocean grid.
       A UV channel is also added, mapping the (0.0 to 1.0) UV space to the simulation grid.
    Displace
-      Uses the existing geometry rather than replacing it. Vertices are displaced along the local Z-axis.
+      Uses the existing geometry rather than replacing it. Vertices are displaced along the local Z axis.
 Repeat X, Repeat Y
    When generating a mesh surface, controls the number of times the grid is tiled in X and Y directions.
    UVs for these tiled mesh areas continue outside of the (0.0 to 1.0) UV space.

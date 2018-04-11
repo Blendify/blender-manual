@@ -78,7 +78,7 @@ Shape
    Point
       Point with omni-directional influence.
    Plane
-      Constant in the XY-plane, changes only in Z direction.
+      Constant in the XY plane, changes only in Z direction.
    Surface
       ToDo.
    Every Point
@@ -118,7 +118,7 @@ Falloff Type
       The falloff results in a cone-shaped force field. Additional options are the same as those of *Tube* options.
 
 Z Direction
-   The falloff can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.
+   The falloff can be set to apply only in the direction of the positive Z axis, negative Z axis, or both.
 Power (Power)
    How the power of the force field changes with the distance from the force field.
    If *r* is the distance from the center of the object, the force changes with 1/ *r*\ :sup:`power`.

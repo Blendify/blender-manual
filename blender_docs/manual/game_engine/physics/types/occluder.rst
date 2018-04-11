@@ -52,13 +52,13 @@ However, you can enable the Occlusion capability on physics objects using Python
 See (Link- TODO).
 
 When an occluder object enters the view frustum,
-the BGE builds a Z-Depth buffer from the faces of that object.
+the BGE builds a Z-depth buffer from the faces of that object.
 Whether the faces are one-side or two-side is important:
-only the front faces and two-side faces are used to build the Z-Depth buffer.
+only the front faces and two-side faces are used to build the Z-depth buffer.
 If multiple occluders are in the view frustum,
 the BGE combines them and keeps the most foreground faces.
 
-The resolution of the Z-Depth buffer is controllable in the World settings with
+The resolution of the Z-depth buffer is controllable in the World settings with
 the "Occlusion Culling Resolution" button:
 
 By default the resolution is 128 pixels for the largest dimension of the viewport
@@ -70,7 +70,7 @@ The BGE traverses the DBVT (Dynamic Bounding Volume Tree)
 and for each node checks if it is entirely hidden by the occluders and if so, culls the node
 (and all the objects it contains).
 
-To further optimize the feature, the BGE builds and uses the Z-Depth buffer only
+To further optimize the feature, the BGE builds and uses the Z-depth buffer only
 when at least one occluder is in the view frustum.
 Until then, there is no performance decrease compared to regular view frustum culling.
 
@@ -97,7 +97,7 @@ There are situations where occlusion culling will not bring any benefit:
   you will get better performance by implementing a specific logic that hides/unhides the objects;
   for instance making the objects visible only when the camera enters the house.
 - Occluders can be visible graphic objects
-  but beware that too many faces will make the Z Depth buffer creation slow.
+  but beware that too many faces will make the Z-depth buffer creation slow.
 
   For example, a terrain is not a good candidate for occlusion: too many faces and too many overlap.
   Occluder can be invisible objects placed inside more complex objects

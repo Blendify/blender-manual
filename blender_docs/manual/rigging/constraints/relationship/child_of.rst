@@ -91,14 +91,14 @@ Examples
 
           No constraint.
 
-          Note the position of Owner empty 1.0 BU along X- and Y-Axis.
+          Note the position of Owner empty 1.0 BU along the X and Y axes.
 
      - .. figure:: /images/rigging_constraints_relationship_child-of_example2.png
 
           Child Of just added.
 
           Here you can see that Owner empty is now 1.0 BU away
-          from Target_1 empty along X- and Y-Axis.
+          from Target_1 empty along X and Y axes.
 
    * - .. figure:: /images/rigging_constraints_relationship_child-of_example3.png
 
@@ -110,8 +110,8 @@ Examples
 
           Target/parent transformed.
 
-          Target_1 has been translated in the XY plane, rotated around the Z-Axis,
-          and scaled along its local X-Axis.
+          Target_1 has been translated in the XY plane, rotated around the Z axis,
+          and scaled along its local X axis.
 
    * - .. figure:: /images/rigging_constraints_relationship_child-of_example5.png
 

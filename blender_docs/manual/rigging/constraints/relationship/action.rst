@@ -26,7 +26,7 @@ As an example, let us assume you have defined an *Object* action
 (it can be assigned to any object, or even no object at all),
 and have mapped it on your owner through an *Action* constraint,
 so that moving the target in the (0.0 to 2.0)
-range along its X-Axis maps the action content on the owner in the (0 to 100)
+range along its X axis maps the action content on the owner in the (0 to 100)
 frame range. This will mean that when the target's *X* property is 0.0
 the owner will be as if in frame 0 of the linked action;
 with the target's *X* property at 1.0

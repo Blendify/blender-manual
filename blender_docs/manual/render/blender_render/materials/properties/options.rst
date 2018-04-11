@@ -22,7 +22,7 @@ Sky
 Use Mist
    Use :doc:`mist </render/blender_render/world/mist>` on this material (see "World Settings" for more details).
 Invert Z depth
-   Render material's faces with an inverted Z buffer (scanline only).
+   Render material's faces with an inverted Z-buffer (scanline only).
 Z Offset
    Give faces an artificial Z offset for Z transparency.
 Light Group

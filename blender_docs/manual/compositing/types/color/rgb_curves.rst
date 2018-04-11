@@ -48,7 +48,7 @@ Channel
 
    C (Combined RGB), R (Red), G (Green), B (Blue), L (Luminance)
 Curve
-   A Bézier curve that varies the input levels (x-axis) to produce an output level (y-axis).
+   A Bézier curve that varies the input levels (X axis) to produce an output level (Y axis).
    For the curve controls see: :ref:`Curve widget <ui-curve-widget>`.
 
 

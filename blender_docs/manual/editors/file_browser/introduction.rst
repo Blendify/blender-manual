@@ -16,8 +16,8 @@ It has multiple use cases, while its often used for save/load.
 
 These include:
 
-- Opening and Saving Blend files.
-- Import/Export other file formats.
+- Opening and saving blend-files.
+- Importing/exporting other file formats.
 - Picking new locations for existing file paths (images, video, fonts...).
 - Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 

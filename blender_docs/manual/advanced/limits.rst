@@ -83,7 +83,7 @@ Fixed strings are used internally, and while it is not useful to list all limits
 :file-path: 1023
 :identifier: 63
 
-*Used for data-block names, modifiers, vertex groups, UV-layers...*
+*Used for data-block names, modifiers, vertex groups, UV layers...*
 
 .. note::
 

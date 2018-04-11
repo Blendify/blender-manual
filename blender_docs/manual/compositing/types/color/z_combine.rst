@@ -20,11 +20,11 @@ Inputs
 Image
    The background image.
 Z
-   Z-depth of the background image.
+   Z depth of the background image.
 Image
    The foreground image.
 Z
-   Z-depth of the foreground image.
+   Z depth of the foreground image.
 
 
 Properties
@@ -44,10 +44,10 @@ Outputs
 
 Image
    If both Z values are equal, it will use the foreground image.
-   Whichever Z-value is less decides which image pixel is used.
+   Whichever Z value is less decides which image pixel is used.
    See :term:`Z-buffer`.
 Z
-   The combined Z-depth, which allows to thread multiple Z-combines together.
+   The combined Z depth, which allows to thread multiple Z-combines together.
 
 
 Examples
@@ -83,8 +83,8 @@ moves to the right created the illusion of depth as Bambi moved through the fore
    Mix and Match Images.
 
 The Z-Combine can be used to merge two images as well,
-using the Z-values put out by two render layers.
-Using the Z-values from the sphere and cube scenes above, but threading different images,
+using the Z values put out by two render layers.
+Using the Z values from the sphere and cube scenes above, but threading different images,
 yields the example to the right.
 
 .. figure:: /images/compositing_types_color_z-combine_example-3.png

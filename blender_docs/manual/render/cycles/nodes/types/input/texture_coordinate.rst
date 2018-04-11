@@ -34,7 +34,7 @@ From Dupli
 
    .. figure:: /images/render_cycles_nodes_types_input_texture-coordinate_from-dupli-comparison.png
 
-      From left to right: Sphere with UV mapped texture.
+      From left to right: Sphere with a UV-mapped texture.
       Small spheres duplicated to the faces of the textured sphere using
       :doc:`duplifaces </editors/3dview/object/properties/duplication/duplifaces>`.
       Small spheres with *From Dupli* enabled, using the UV map of the large sphere.

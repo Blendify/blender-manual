@@ -116,7 +116,7 @@ View Menu
 The *View Menu* controls what you see, and what it looks like.
 
 Show Seconds :kbd:`Ctrl-T`
-   Whether to show the time in the X-axis and the *Time Cursor* as
+   Whether to show the time in the X axis and the *Time Cursor* as
    frames (based on the FPS) or as seconds.
 Lock Time to Other Windows
    ToDo 2.71.

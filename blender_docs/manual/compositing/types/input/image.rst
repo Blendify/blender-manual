@@ -40,7 +40,7 @@ Image
 Alpha
    Separate Alpha value.
 Z
-   Z-depth layer.
+   Z depth layer.
 
 .. note:: MultiLayer format:
 

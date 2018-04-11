@@ -53,7 +53,7 @@ angular vector and to give Blender a direction.
 
 The *Screw* tool uses two points given by the open line to create an initial vector to calculate the height
 and basic angle of the translation vector that is added to the "Spin" for each full rotation (see examples below).
-If the vector is created with only two vertices at the *same* (X, Y, Z) location
+If the vector is created with only two vertices at the *same* XYZ location
 (which will not give Blender a vector value for height), this will create a normal "Spin".
 
 Having at least one vector line,
@@ -110,7 +110,7 @@ even if this is the most common case. You may also have other, more complex,
 selected closed islands, but they have to be closed profiles because Blender will seek for
 only one open profile for the translation, height and angular vector.
 Some closed meshes that overlap themselves may not screw correctly
-(for example: Half UV-sphere works fine,
+(for example: Half UV Sphere works fine,
 but more than half could cause the Screw Tool to have wrong behavior or errors),
 and profiles that are closed with faces (like a cone or half sphere)
 will be closed automatically at their ends, like if you were extruding a region.
@@ -165,7 +165,7 @@ Continuous operations without changing the selection will repeat the operation c
 
 Center
    These number buttons specify the center of the spin. When the tool is called for the first time,
-   it will copy the (X, Y, Z) location (Global Coordinates)
+   it will copy the XYZ location (Global Coordinates)
    of the cursor presently in the 3D View to start the operation.
    You can specify the cursor coordinates using the Transform Panel in 3D View,
    using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates.
@@ -215,7 +215,7 @@ The Spring Example
 #. Add a circle using shortcut :kbd:`Shift-A` :menuselection:`--> Mesh --> Circle`.
 #. Rotate this circle using the shortcut :kbd:`R X 9 0` and :kbd:`Return`.
 #. Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*
-#. Grab and move this circle three Blender Units on the *X-Axis* to the left;
+#. Grab and move this circle three Blender Units on the X axis to the left;
    you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
    (clicking on the red arrow shown with the object and grabbing while using shortcut :kbd:`Ctrl`
    until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global`` ),
@@ -258,10 +258,10 @@ Clockwise and Counterclockwise using the Spring Example
 -------------------------------------------------------
 
 Still in the interactive session of the *Screw Tool*,
-you will see that the *Z-Axis* Value of the *Screw* Panel is set to 1.000.
+you will see that the Z axis Value of the *Screw* Panel is set to 1.000.
 :kbd:`LMB` click in the middle of the Value and set this value to -1.000.
 At first, the Spring was being constructed in a Counterclockwise direction,
-and you reverted the operation 180 degrees in the *Z-Axis*. This is because you have
+and you reverted the operation 180 degrees in the Z axis. This is because you have
 changed the angular vector of the height you have given to Blender to the opposite direction
 (remember, -90 to 90 = 180 degrees ?). See Fig. :ref:`fig-mesh-screw-clock`.
 
@@ -278,14 +278,14 @@ changed the angular vector of the height you have given to Blender to the opposi
           Flipped to Clockwise direction.
 
 It is also important to note that this vector is related to the same height vector axis used
-for the extrusion and you have created a parallel line with the *Z-Axis*, so,
+for the extrusion and you have created a parallel line with the Z axis, so,
 the sensibility of this vector is in practical sense reactive only to negative and positive values
 because it is aligned with the extrusion axis. Blender will clamp the positive and negative to
 its maximum values to make the extrusion follow a direction,
 even if the profile starts reverted. The same rule applies to other Global axes when creating
 the Object for the *Screw* Tool; this means if you create your Object using the Top View
 (Shortcut :kbd:`Numpad7`) with a straight parallel line following another axis
-(for the Top View, the *Y-Axis*), the vector that gives the height for extrusion will also
+(for the Top View, the Y axis), the vector that gives the height for extrusion will also
 change abruptly from negative to positive and vice versa to give the extrusion a direction,
 and you will have to tweak the corresponding Axis accordingly to achieve the Clockwise and
 Counterclockwise effect.

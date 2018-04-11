@@ -90,7 +90,7 @@ Baking processing time
    Advanced
       Gravity vector
          Strength and direction of the gravity acceleration and any lateral (X, Y plane) force.
-         The main component should be along the negative Z-axis (in ``m.s<sup>-2</sup>``).
+         The main component should be along the negative Z axis (in ``m.s<sup>-2</sup>``).
 
    .. note::
 

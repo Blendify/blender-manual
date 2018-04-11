@@ -84,10 +84,10 @@ Having done so, you can now manipulate the camera using the same tools
 that are used to manipulate any object:
 
 Roll
-   Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z-axis
+   Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z axis
    (the axis orthogonal to the camera view), which is the definition of a camera "roll".
 Vertical Pan or Pitch
-   This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice
+   This is just a rotation along the local X axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice
    (the first press selects the *global* axis, pressing the same letter a second time selects the *local* axis --
    this works with any axis;
    see the :doc:`axis locking page </editors/3dview/object/editing/transform/control/precision/axis_locking>`).

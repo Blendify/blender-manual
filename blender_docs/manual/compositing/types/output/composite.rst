@@ -26,7 +26,7 @@ Image
 Alpha
    Alpha channel.
 Z
-   Z-depth.
+   Z depth.
 
 
 Properties

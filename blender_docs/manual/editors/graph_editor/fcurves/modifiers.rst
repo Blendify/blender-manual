@@ -119,7 +119,7 @@ Cycle Mode
    Repeat with Offset
       Repeats the curve data, but offsets the value of the first point to the value of the last point each cycle.
    Repeat Mirrored
-      Each cycle the curve data is flipped across the X-axis.
+      Each cycle the curve data is flipped across the X axis.
 
 Before, After Cycles
    Set the number of times to cycle the data. A value of 0 cycles the data infinitely.

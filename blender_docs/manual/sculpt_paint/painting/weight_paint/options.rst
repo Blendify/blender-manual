@@ -41,8 +41,8 @@ Spray
 Restrict
    This option limits the influence of painting to vertices belonging
    (even with weight 0) to the selected vertex group.
-X-mirror
-   Use the X-mirror option for mirrored painting on groups that have symmetrical names,
+X Mirror
+   Use the X Mirror option for mirrored painting on groups that have symmetrical names,
    like with extension ".R"/ ".L" or "_R" / "_L".
    If a group has no mirrored counterpart, it will paint symmetrically on the active group itself.
    You can read more about the naming convention in

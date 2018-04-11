@@ -41,7 +41,7 @@ In Mesh mode, you can mirror the selection on the currently selected
 by pressing the appropriate axis key a second time. For example,
 if the Transform Orientation is set to *Normal*, pressing:
 :kbd:`Ctrl-M`, followed by :kbd:`X` and then :kbd:`X` again
-will mirror the selection along the X-axis of the *Normal Orientation*.
+will mirror the selection along the X axis of the *Normal Orientation*.
 
 .. figure:: /images/editors_3dview_object_editing_transform_mirror_panel.png
 

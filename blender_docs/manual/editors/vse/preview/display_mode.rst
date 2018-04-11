@@ -130,8 +130,8 @@ Histogram
    Example of Histogram Preview.
 
 This mode displays a graph showing the distribution of color information in the pixels of
-the currently displayed image. The X-axis represents values of pixel, from 0 to 1 (or 0 to 255),
-while the Y-axis represents the number of pixels in that tonal range. A predominantly dark
+the currently displayed image. The X axis represents values of pixel, from 0 to 1 (or 0 to 255),
+while the Y axis represents the number of pixels in that tonal range. A predominantly dark
 image would have most of its information toward the left side of the graph.
 
 Use this mode to balance out the tonal range in an image.

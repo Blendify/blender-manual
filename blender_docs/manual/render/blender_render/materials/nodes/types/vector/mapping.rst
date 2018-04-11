@@ -7,7 +7,7 @@ Mapping Node
 
    Mapping node.
 
-Essentially mapping node allows the user to modify a mapping of system of 3D-coordinates.
+Essentially mapping node allows the user to modify a mapping of system of 3D coordinates.
 Mapping can be rotated and clamped if desired.
 
 Typically used for modifying texture coordinates.

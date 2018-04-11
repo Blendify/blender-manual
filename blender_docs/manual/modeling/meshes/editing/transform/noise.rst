@@ -24,7 +24,7 @@ The mesh must have a material and a texture assigned to it for this tool to work
 To avoid having the texture affect the material's properties,
 it can be disabled in the texture menu.
 
-The *Noise* function displaces vertices along the object's ±Z-Axis only.
+The *Noise* function displaces vertices along the object's ±Z axis only.
 
 *Noise* permanently modifies your mesh according to the material texture.
 Each click adds onto the current mesh.

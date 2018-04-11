@@ -13,7 +13,7 @@ arranging the UV maps, stitching several maps together.
 The next step is to work with the UV layouts that you have created through the unwrap process.
 If you do add faces or subdivide existing faces when a model is already unwrapped,
 Blender will add those new faces for you. In this fashion,
-you can use the UV Texture image to guide additional geometry changes.
+you can use the UV texture image to guide additional geometry changes.
 
 When arranging, keep in mind that the entire view is your workspace,
 but only the UV coordinates within the grid are mapped to the image. So,
@@ -76,15 +76,15 @@ most logical layout for subsequent painting of that piece.
 When all of the pieces of the mesh have been unwrapped using the various calculations,
 you should end up with something that looks like to the Example to the right.
 All of the sections of the mesh have been mapped,
-and all those maps are laid out in the same UV Texture map. Congratulations! From here,
+and all those maps are laid out in the same UV texture map. Congratulations! From here,
 it is a simple matter of "stitching" (discussed in the next section)
-to construct the entire UV Map as a single map.
+to construct the entire UV map as a single map.
 
 .. figure:: /images/editors_uv-image_uv_editing_layout-workflow_combining-uv-maps-4.png
 
-   UV Maps arranged together and stitched.
+   UV maps arranged together and stitched.
 
-When you have completed arranging and stitching, you will end up with a consolidated UV Map,
+When you have completed arranging and stitching, you will end up with a consolidated UV map,
 like that shown to the right, arranged such that a single image will cover, or paint,
 all of the mesh that needs detailed painting.
 All of the detailed instructions on how to do this are contained in the next section.

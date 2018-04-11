@@ -36,7 +36,7 @@ Normal maps
    - Green maps from (0 - 255) to Y (-1.0 - 1.0)
    - Blue maps from (0 - 255) to Z (0.0 - 1.0)
 
-   Since normals all point towards a viewer, negative Z-values are not stored (they would be invisible anyway).
+   Since normals all point towards a viewer, negative Z values are not stored (they would be invisible anyway).
    In Blender we store a full blue range, although some other implementations also map blue colors (128 - 255) to
    (0.0 - 1.0). The latter convention is used in "Doom 3" for example.
 

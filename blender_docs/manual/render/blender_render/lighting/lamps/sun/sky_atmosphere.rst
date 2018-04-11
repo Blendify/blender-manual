@@ -24,7 +24,7 @@ the three *Rotation* fields X, Y, Z in the *Transform* panel).
 This way, you will have a nice mid-day sun (in the tropics).
 
 Now, there are two important angles for the *Sky/Atmosphere* effect:
-the "incidence" angle (between the light direction and the X-Y plane),
+the "incidence" angle (between the light direction and the XY plane),
 which determines the "hour" of the day
 (as you might expect, the default rotation -- straight down -- is "mid-day",
 a light pointing straight up is "midnight", and so on...).

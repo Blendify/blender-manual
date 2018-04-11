@@ -35,14 +35,14 @@ Strand Primitive
   So they are not visible through ray-transparent materials or in a ray mirror
   (you can use *Environment Mapping* for that).
 - Have shape problems if they are rendered with a greater width.
-- Cannot carry a UV-Texture along the strand.
+- Cannot carry a UV texture along the strand.
 
 
 .. rubric:: Polygon strands
 
 - Work well with greater width, so you can use them as an alternative
   to billboards because the strands may have an animated shape.
-- Can be textured with a UV-Texture along the strands.
+- Can be textured with a UV texture along the strands.
 - Are seen by ray tracing.
 
 
@@ -55,12 +55,12 @@ Strands Shading
    Strands Panel.
 
 Strands are rendered with the material of the underlying face/vertex,
-including shading with a UV-Texture. Since you can assign more than one material to each face,
+including shading with a UV texture. Since you can assign more than one material to each face,
 each particle system may have its own material and the material of the underlying face can be
 different from the material of the strands.
 
 Additionally strands can be shaded along the strand (from root to tip)
-with a mono-dimensional texture; only polygon strands can carry a two-dimensional UV-Texture.
+with a mono-dimensional texture; only polygon strands can carry a two-dimensional UV texture.
 
 The options for strand shading are in the *Strands* section of the *Material* tab.
 
@@ -102,8 +102,8 @@ Width Fade
    To fade out along the width of the strand.
    This works only for Strand Primitives. 0.0 is no fading at all, 1.0 linear fading out.
 UV Map
-   You can texture polygon strands with a UV-Texture.
-   Fill in the name of the UV-Set (not the texture) here.
+   You can texture polygon strands with a UV texture.
+   Fill in the name of the UV map (not the texture) here.
    You also have to load the texture in the *Texture* tab and *Material* tab
    (*Mapping*: *UV*; you may use every *Influence* setting you like --
    especially the alpha value; see Fig. :ref:`fig-bi-material-shadow-shapes`).

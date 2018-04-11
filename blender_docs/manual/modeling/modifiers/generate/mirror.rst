@@ -10,7 +10,7 @@ Mirror Modifier
    The corner of a cube mirrored across three axes to form... well... a cube.
 
 
-The Mirror Modifier mirrors a mesh along its *local* X-, Y- and/or Z-Axes, across the object's center
+The Mirror Modifier mirrors a mesh along its *local* X, Y and/or Z axes, across the object's center
 (the mirror plane is then defined by the two other axes).
 
 It can also use another object as the mirror center, then use that object's local axes instead of its own.
@@ -27,7 +27,7 @@ Options
 Axis
 ----
 
-The X-, Y-, Z-axis along which to mirror
+The X, Y, Z axis along which to mirror
 (i.e. the axis perpendicular to the mirror plane of symmetry).
 
 To understand how the axis applies to the mirror direction, if you were to mirror on the X axis,

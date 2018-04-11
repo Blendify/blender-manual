@@ -24,7 +24,7 @@ We will begin with a very simple example: the default cube.
   so that the vertices are not retracted to their original position.
 - Press :kbd:`Alt-A`.
 
-What happens? The cube moves in negative Z-direction.
+What happens? The cube moves in negative Z direction.
 Each of its eight vertices is affected by a global, constant force -- the gravitation.
 Gravitation without friction is independent from the weight of an object,
 so each object you would use as a Soft Body here would fall with the same acceleration.

@@ -14,7 +14,7 @@ textured or painted. Your goals for editing are:
 - Shrink the faces that are too grainy and have too much detail.
 
 With a minimum of dead space,
-the most pixels can be dedicated to giving the maximum detail and fineness to the UV Texture.
+the most pixels can be dedicated to giving the maximum detail and fineness to the UV texture.
 A UV face can be as small as a pixel (the little dots that make up an image)
 or as large as an entire image. You probably want to make some major adjustments first,
 and then tweak the layout.
@@ -382,12 +382,12 @@ For using images as textures, see the page on
    * - .. figure:: /images/editors_uv-image_uv_editing_layout_uv-layout.png
           :width: 320px
 
-          A UV Layout in the UV/Image Editor.
+          A UV layout in the UV/Image Editor.
 
      - .. figure:: /images/editors_uv-image_uv_editing_layout_uv-layout-export.png
           :width: 320px
 
-          A UV Layout in a paint program.
+          A UV layout in a paint program.
 
 
 Header
@@ -429,7 +429,7 @@ Face Mirror and Rotate UVs
    | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Face --> Rotate UVs/Reverse UVs`
 
-The orientation of the UV Texture is defined by each face.
+The orientation of the UV texture is defined by each face.
 If the image is, for example, upside down or laying on its side,
 use the :menuselection:`Face --> Rotate UVs` (in the 3D View in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.

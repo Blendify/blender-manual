@@ -135,8 +135,8 @@ Shading Panel
    - Turn off *Fields* rendering.
    - Use *Border* rendering to render a subset of the full image.
 :doc:`Bake Panel </render/blender_render/bake>`
-   - Bake Full Render creates a UV Texture that colors the objects based on materials,
-     and then uses that UV Texture shadeless instead of the material.
+   - Bake Full Render creates a UV texture that colors the objects based on materials,
+     and then uses that UV texture shadeless instead of the material.
    - Bake Ambient Occlusion only.
    - Bake textures for objects.
    - Baking Normals or Displacement does not speed up render time, and are used for other things.
@@ -193,7 +193,7 @@ There are compelling advantages to this approach:
   as a separate channel of information, you can now fine-tune its influence in the overall "mix",
   or even change your mind and remove it altogether, all without permanently altering anything.
 - By and large, these stages work *two*-dimensionally, manipulating what is by that time
-  "a raster bitmap with R, G, B, Alpha and Z-Depth information", so they are consistently fast.
+  "a raster bitmap with R, G, B, Alpha and Z-depth information", so they are consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
 - The tasks can be distributed among several different computers.
 - "After all, the scene does not actually have to be *physically perfect*, to be *convincing*".

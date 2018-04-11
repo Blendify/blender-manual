@@ -11,7 +11,7 @@ UV Project Modifier
    Projecting the Blender logo onto Suzanne.
 
 The *UV Project* Modifier acts like a slide projector.
-It emits a UV map from the negative Z-axis of a controller object
+It emits a UV map from the negative Z axis of a controller object
 (such as an :doc:`empty </modeling/empties>`),
 and applies it to the object as the "light" hits it. It can optionally override the object's face texture.
 
@@ -37,7 +37,7 @@ Override Image
 Projectors
    Up to ten projector objects are supported.
    Each face will choose the closest and aligned projector with its surface normal.
-   Projections emit from the negative Z-axis (i.e. straight down a camera or lamp).
+   Projections emit from the negative Z axis (i.e. straight down a camera or lamp).
    If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
 Objects
    Specify the projector Object.

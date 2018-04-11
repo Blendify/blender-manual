@@ -7,7 +7,7 @@ What is FreeStyle?
 ==================
 
 FreeStyle is an edge- and line-based non-photorealistic (NPR) rendering engine.
-It relies on mesh data and z-depth information to draw lines on selected edge types.
+It relies on mesh data and Z-depth information to draw lines on selected edge types.
 Various line styles can be added to produce artistic ("hand drawn", "painted", etc.)
 or technical (hard line) looks.
 

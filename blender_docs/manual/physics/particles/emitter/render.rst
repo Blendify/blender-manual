@@ -227,7 +227,7 @@ Align
    You can limit the movement with these options. How the axis is prealigned at emission time.
 
    X, Y, Z
-      Along the global X/Y/Z-axis respectively.
+      Along the global X, Y, Z axis respectively.
    View
       No prealignement, normal orientation to the target.
    Velocity
@@ -260,7 +260,7 @@ Billboard Normal UV
    Coordinates are the same for every billboard, and just place the image straight on the square.
 Billboard Time-Index (X-Y)
    Coordinates actually define single points in the texture plane with
-   the X-axis as time and Y-axis as the particle index.
+   the X axis as time and Y axis as the particle index.
    For example using a horizontal blend texture mapped to color from white to black will give particles
    that start off as white and gradually change to black during their lifetime.
    On the other hand a vertical blend texture mapped to color from white to black

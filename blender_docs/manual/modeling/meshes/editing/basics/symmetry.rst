@@ -16,9 +16,9 @@ The Snap to Symmetry tool lets you snap a meshes vertices to their mirrored neig
 
 Useful when dealing with meshes which are mostly symmetrical,
 but have vertices which have been moved enough that Blender
-does not detect then as mirrored (when x-mirror option is enable for example).
+does not detect then as mirrored (when X Mirror option is enable for example).
 
-This can be caused by accident when editing without x-mirror enabled. Sometimes models
+This can be caused by accident when editing without X Mirror enabled. Sometimes models
 imported from other applications are asymmetrical enough that mirror fails too.
 
 Direction

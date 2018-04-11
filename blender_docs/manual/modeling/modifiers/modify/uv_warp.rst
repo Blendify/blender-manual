@@ -38,5 +38,5 @@ of the *from* and *to* objects.
 If the *to* object has the same transforms as the *from* object, the UVs will not be changed.
 
 Assuming the *UV Axis* of the modifier is X/Y and the scale of the objects are (1, 1, 1), if the *to* object is
-one unit away from the *from* object on the X-axis, the UVs will be transformed on the U-axis (horizontally)
+one unit away from the *from* object on the X axis, the UVs will be transformed on the U axis (horizontally)
 by one full UV space (the entire width of the image).

@@ -36,7 +36,7 @@ Direction
       .. Displace along the average vertex normal (vertex loop?).
    RGB to XYZ
       Displace along local XYZ axes individually using the RGB components of the texture
-      (Red values displaced along the X-axis, Green along the Y, Blue along the Z).
+      (Red values displaced along the X axis, Green along the Y, Blue along the Z).
       This is sometimes referred to as *Vector Displacement*.
 Space
    With a direction set to X, Y, Z, or XYZ the modifier can either displace along local or global axes.

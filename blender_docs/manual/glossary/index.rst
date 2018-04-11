@@ -286,7 +286,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Euler
    Euler Rotation
-      Rotation method where rotations applied on each X, Y, Z-axis component.
+      Rotation method where rotations applied on each X, Y, Z axis component.
 
    Face
       Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.
@@ -809,4 +809,4 @@ This page lists definitions for terms used in Blender and this manual.
    Z-buffer
       Raster-based storage of the distance measurement between the camera and the surface points.
       Surface points which are in front of the camera have a positive Z value and
-      points behind have negative values. The Z-Depth map can be visualized as a grayscale image.
+      points behind have negative values. The Z-depth map can be visualized as a grayscale image.

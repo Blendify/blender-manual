@@ -33,7 +33,7 @@ Various things that are calculated in a standard render include:
   Should the object appear blurred, or should it appear in sharp focus?
 - How fast is something moving (velocity)?
   Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
-- How far away from the camera are objects' surfaces (Z-depth)?
+- How far away from the camera are objects' surfaces (Z depth)?
   Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
 - Does an object have a normal vector (bumpmap)?
   Do shadows and apparent geometry need to be calculated for any objects?

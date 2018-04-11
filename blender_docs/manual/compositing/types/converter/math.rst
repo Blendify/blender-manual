@@ -61,7 +61,7 @@ This example has one scene input by the top *Render Layer* node,
 which has a cube that is about 10 BU from the camera.
 The bottom Render Layer node inputs a scene (FlyCam)
 with a plane that covers the left half of the view and is 7 BU from the camera.
-Both are fed through their respective Map Value nodes to divide the Z buffer by 20
+Both are fed through their respective Map Value nodes to divide the Z-buffer by 20
 (multiply by 0.05, as shown in the Size field)
 and clamped to be a min/ max of 0.0/ 1.0 respectively.
 
@@ -242,4 +242,4 @@ you could reduce Red to 2 values, Green to 4, and let the blue take on :math:`25
 If using the HSV, you could reduce the Saturation and Value to 2 values (0 or 1.0)
 by Multiply by 2 and Divide by 2, and restrict the Hue to 64 possible values.
 
-You can use this node setup to quantize any channel; alpha, speed (vector), z-values, and so forth.
+You can use this node setup to quantize any channel; alpha, speed (vector), Z values, and so forth.

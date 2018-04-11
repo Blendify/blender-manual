@@ -19,8 +19,8 @@ Orientations affect the behavior of Transformations: Location, Rotation, and Sca
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
 as well as on transformation constraints
 (like :doc:`axis locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`).
-This means that, when you press :kbd:`G X`, it will constrain to the *global* X-axis,
-but if you press :kbd:`G X X` it will constrain to your *Transform Orientation*\ 's X-axis.
+This means that, when you press :kbd:`G X`, it will constrain to the *global* X axis,
+but if you press :kbd:`G X X` it will constrain to your *Transform Orientation*\ 's X axis.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_menu.png
 
@@ -53,16 +53,16 @@ Local
    The manipulator matches the object axis.
 
    Notice that, here, the Manipulator is at a slight tilt
-   (it is most visible on the object's Y-axis, the green arrow).
+   (it is most visible on the object's Y axis, the green arrow).
    This is due to our 15° rotation of the object.
    This demonstrates the difference between local coordinates and global coordinates.
-   If we had rotated the object 90° along its X-axis, we would see that the object's "Up" is
-   the world's "Forward" -- or the object's Z-axis would now be the world's Y-axis.
+   If we had rotated the object 90° along its X axis, we would see that the object's "Up" is
+   the world's "Forward" -- or the object's Z axis would now be the world's Y axis.
    This orientation has an effect on many parts of the interface,
    so it is important to understand the distinction.
 
 Normal
-   The Z-axis of the manipulator will match the normal vector of the selection.
+   The Z axis of the manipulator will match the normal vector of the selection.
 
    In Object Mode, this is equivalent to Local Orientation, in Edit Mode,
    it becomes more interesting.
@@ -70,9 +70,9 @@ Normal
    As you see, the light blue lines indicate the faces' normals,
    and the darker blue lines indicate the vertex normals (these were turned on
    in the Properties region under :menuselection:`Mesh Display --> Normals --> Face/Vertex`).
-   Selecting any given face will cause our Manipulator's Z-axis to align with that normal.
+   Selecting any given face will cause our Manipulator's Z axis to align with that normal.
    The same goes for Vertex Select Mode.
-   Edge Select is different -- A selected Edge has the Z-axis aligned with it
+   Edge Select is different -- A selected Edge has the Z axis aligned with it
    (so you will have to look at the Manipulator widget to determine the direction of X and Y).
    If you select several elements, it will orient towards the average of those normals.
 
@@ -188,7 +188,7 @@ Demo Cube
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_basic-setup.png
 
    To demonstrate the various behaviors, we add some colors to the default cube,
-   rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
+   rotate it -15° along its local Z and X axes, and we scale its *Y* face down.
 
 Please note two things:
 
