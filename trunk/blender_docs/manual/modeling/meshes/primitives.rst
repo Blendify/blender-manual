@@ -216,7 +216,3 @@ or the `Stanford Bunny <https://en.wikipedia.org/wiki/Stanford_Bunny>`__.
    Blender has a number of script generated meshes to offer as pre-installed add-ons.
    These are available when enabled in the :doc:`User Preferences </preferences/addons>`
    (select the Category *Add Mesh*, then check any desired items).
-
-   .. figure:: /images/modeling_meshes_primitives_addons-category-add-mesh.png
-
-      User Preferences with Add Mesh category selected.
