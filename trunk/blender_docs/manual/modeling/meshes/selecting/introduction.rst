@@ -94,22 +94,22 @@ Or contracting the selection when switching to a lower mode.
 
 .. _fig-mesh-select-intro-selection-modes:
 
-.. list-table:: Selection Modes.
+.. list-table:: Selection modes.
 
    * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
           :width: 320px
 
-          Vertices mode example.
+          Vertex mode example.
 
      - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
           :width: 320px
 
-          Edges mode example.
+          Edge mode example.
 
    * - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-example.png
           :width: 320px
 
-          Faces mode example.
+          Face mode example.
 
      - .. figure:: /images/modeling_meshes_selecting_introduction_mixed-mode-example.png
           :width: 320px
@@ -141,7 +141,7 @@ Border Select
 
 Enables a rectangular region for selection :kbd:`B`.
 
-.. list-table::
+.. list-table:: Border Select example.
 
    * - .. _fig-mesh-select-basics-start:
 
@@ -178,7 +178,7 @@ Enables a circular-shaped region for selection :kbd:`C`.
 
 .. _fig-mesh-select-basic-circle:
 
-.. list-table:: Circle Region Select.
+.. list-table:: Circle Select example.
 
    * - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select1.png
           :width: 320px
@@ -216,7 +216,7 @@ Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso select
 
 .. _fig-mesh-select-basic-lasso:
 
-.. list-table:: Lasso selection.
+.. list-table:: Lasso select example.
 
    * - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select1.png
           :width: 200px

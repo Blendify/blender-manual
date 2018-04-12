@@ -182,7 +182,7 @@ Locking
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-locked.png
    :width: 260px
 
-   Vertex Weights panel locked.
+   Locked Vertex Weights panel.
 
 Whenever a Weight Group is locked, all data changing tools get disabled:
 

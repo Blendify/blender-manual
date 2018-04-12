@@ -167,7 +167,7 @@ Viscosity Presets
    The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
 
    .. list-table::
-      Blender Viscosity Unit Conversion.
+      Blender viscosity unit conversion.
       :header-rows: 1
 
       * - Fluid
