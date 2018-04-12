@@ -213,7 +213,7 @@ The image below shows the resulting combinations.
 
    * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-5.png
 
-          Exclusive, one face.
+          Exclusive, One face.
 
      - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-6.png
 

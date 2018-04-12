@@ -213,7 +213,7 @@ Rename Marker
 
 Having dozens of markers scattered throughout your scene's time will not help you much unless you
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
-typing the name, and confirm.
+typing the name, and pressing the OK button.
 
 
 Grab/Move Marker

@@ -37,7 +37,7 @@ The main *Timeline* region displays the animation frames over time.
 
 .. figure:: /images/editors_timeline_main.png
 
-   Timeline main area.
+   Timeline main view.
 
 
 Adjusting the View
