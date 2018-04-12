@@ -7,7 +7,7 @@ World Physics
    :align: right
    :width: 290px
 
-   BGE World Physics Panel.
+   BGE World Physics panel.
 
 
 Physics Panel

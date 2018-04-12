@@ -113,4 +113,4 @@ Whenever an operator has been executed, it leaves a report, creating a log.
 
 .. figure:: /images/editors_info_introduction_report-console.png
 
-   The Report Console after adding a Cube.
+   The Report Console after adding a cube.

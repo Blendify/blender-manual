@@ -10,7 +10,7 @@ The RGB components are generated independently with a sine formula.
 
 .. figure:: /images/render_blender-render_textures_types_procedural_magic_panel.png
 
-   Magic Texture Panels.
+   Magic Texture panels.
 
 
 Options

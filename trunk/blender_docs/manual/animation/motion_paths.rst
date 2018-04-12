@@ -57,7 +57,7 @@ Options
 
 .. figure:: /images/animation_motion-paths_panel.png
 
-   The Motion Paths Panel in the Armature tab.
+   The Motion Paths panel in the Armature tab.
 
 Type
    Around Frame

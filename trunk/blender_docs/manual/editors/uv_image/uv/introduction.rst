@@ -8,7 +8,7 @@ Header
 
 .. figure:: /images/editors_uv-image_uv_introduction_texturing-header.png
 
-   UV/Image Editor Header.
+   UV/Image Editor header.
 
 The header contains several menus and options for working with UVs.
 
@@ -48,7 +48,7 @@ UV Vertex Panel
 .. figure:: /images/editors_uv-image_uv_introduction_uv-vertex.png
    :align: right
 
-   UV Vertex Panel.
+   UV Vertex panel.
 
 UV Vertex
    Transform Properties :doc:`Selecting UVs </editors/uv_image/uv/editing/layout>`.

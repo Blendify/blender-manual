@@ -162,7 +162,7 @@ if the specific bone it is the Child Object of moves.
 
 .. figure:: /images/editors_3dview_object_properties_relations_parents_bone1.png
 
-   Three pictures of Armatures with four Bones.
+   Three pictures of armatures with four bones.
 
 In Fig. :ref:`fig-view3d-parent-bone-parent` with the 2nd bone being the Bone Parent of the Child Object Cube.
 The Cube is only transformed if the 1st or 2nd bones are.
@@ -191,7 +191,7 @@ the Child Object which is parented to that bone will snap back to the location o
 
 .. figure:: /images/editors_3dview_object_properties_relations_parents_bone2.png
 
-   Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
+   Single armature bone which has a child object cube parented to it using bone parenting.
 
 In Fig. :ref:`fig-view3d-parent-bone-parent-child` the 1st picture shows the position of the cube and
 armature before the bone is moved in Edit Mode.
@@ -206,7 +206,7 @@ the Child Objects will not move to the new location of the Pose Bone.
 
 .. figure:: /images/editors_3dview_object_properties_relations_parents_bone3.png
 
-   Single Bone with Bone Relative parent to a cube.
+   Single bone with bone relative parent to a cube.
 
 In Fig. :ref:`fig-view3d-parent-bone-parent-relative` the 1st picture
 shows the position of the cube and armature before the bone is moved in Edit Mode.

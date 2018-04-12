@@ -52,7 +52,7 @@ Strands Shading
 .. figure:: /images/render_blender-render_materials_properties_strands_panel.png
    :align: right
 
-   Strands Panel.
+   Strands panel.
 
 Strands are rendered with the material of the underlying face/vertex,
 including shading with a UV texture. Since you can assign more than one material to each face,

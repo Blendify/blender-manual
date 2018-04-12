@@ -15,19 +15,19 @@ both Direct and Indirect Lighting:
 
    * - .. figure:: /images/render_blender-render_world_indirect-lighting_dir-schematic.png
 
-          Direct Lighting Schematic.
+          Direct Lighting schematic.
 
      - .. figure:: /images/render_blender-render_world_indirect-lighting_dir-render.jpg
 
-          Direct Lighting Render.
+          Direct Lighting render.
 
    * - .. figure:: /images/render_blender-render_world_indirect-lighting_indir-schematic.png
 
-          Direct and Indirect Lighting Schematic.
+          Direct and Indirect Lighting schematic.
 
      - .. figure:: /images/render_blender-render_world_indirect-lighting_indir-render.jpg
 
-          Direct and Indirect Lighting Render.
+          Direct and Indirect Lighting render.
 
 Indirect Lighting only works with Approximate gather method.
 

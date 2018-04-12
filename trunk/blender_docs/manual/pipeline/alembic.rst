@@ -89,7 +89,7 @@ Object Options
 .. figure:: /images/pipeline_alembic_export-panel-object-options.png
    :align: right
 
-   Object Options.
+   Object options.
 
 UVs
    When enabled, UV maps are exported. Although the Alembic standard only supports a single UV
@@ -124,7 +124,7 @@ Particle Systems
 .. figure:: /images/pipeline_alembic_export-panel-particle-systems.png
    :align: right
 
-   Particle Systems Options.
+   Particle Systems options.
 
 Alembic has no support for Particle Systems, in the same way that it does not support armatures.
 Hair is exported as animated zero-width curves. Particles are exported as animated points.

@@ -7,7 +7,7 @@ Keying Sets
 .. figure:: /images/editors_timeline_keying-sets.png
    :align: right
 
-   Timeline Keying Sets.
+   The Active Keying Sets data ID in the Timeline.
 
 .. (alt) Keying Sets are a set of keyframe channels.
 

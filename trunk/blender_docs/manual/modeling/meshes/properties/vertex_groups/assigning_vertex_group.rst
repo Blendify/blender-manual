@@ -9,7 +9,7 @@ Creating Vertex Groups
 .. figure:: /images/modeling_meshes_properties_vertex-groups_assigning-vertex-group_empty.png
    :align: right
 
-   Empty Vertex Group Panel.
+   Empty Vertex Group panel.
 
 Vertex Groups are maintained within the *Mesh* tab (1) in the Properties Editor.
 As long as no Vertex groups are defined (the default for new Mesh Objects),

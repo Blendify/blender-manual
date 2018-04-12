@@ -12,7 +12,7 @@ Strip Input Panel
 .. figure:: /images/editors_vse_sequencer_properties_input_panel.png
    :align: right
 
-   Strip Input Settings.
+   Strip Input settings.
 
 The Strip Input panel is used to controls the source,
 the duration of the strip along with some basic transforms.

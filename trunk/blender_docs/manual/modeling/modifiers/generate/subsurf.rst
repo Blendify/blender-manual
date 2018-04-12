@@ -34,7 +34,7 @@ Options
 
 .. figure:: /images/modeling_modifiers_generate_subsurf_panel.png
 
-   Modifier's Panel.
+   Modifier's panel.
 
 Type
    This toggle button allows you to choose the subdivision algorithm:
@@ -136,7 +136,7 @@ the Subdivision Surface modifier subdivides the geometry to give the edges a smo
 
 .. figure:: /images/modeling_modifiers_generate_subsurf_withcrease.png
 
-   A Subdivided Cube with Creased Edges.
+   A subdivided cube with creased edges.
 
 The crease weight of selected edges can be changed in the *Transform* panel of the properties region
 :kbd:`N`, or by using the shortcut :kbd:`Shift-E` and moving the mouse closer
@@ -149,7 +149,7 @@ Edge Loops
 
 .. figure:: /images/modeling_modifiers_generate_subsurf_cube-with-edge-loops.png
 
-   Subdivision Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
+   Subdivision Level 2 cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
 The Subdivision Surface Modifier demonstrates why good, clean topology is so important.
 As you can see in the figure, the Subdivision Surface Modifier has a drastic effect on a default Cube.

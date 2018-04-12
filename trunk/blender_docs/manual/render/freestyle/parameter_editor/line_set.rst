@@ -16,7 +16,7 @@ which ones will be rendered using its attached
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_panel.png
 
-   Freestyle Line Set panel
+   Freestyle Line Set panel.
 
 
 Selection By
@@ -131,7 +131,7 @@ The examples below explain the use of edge marks.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks-mark-freestyle-edge.png
 
-   Marking Freestyle Edges in edit mode.
+   Marking Freestyle Edges in Edit Mode.
 
    The edge marks are highlighted in green.
 
@@ -164,7 +164,7 @@ Face Marks
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks.png
 
-   Face mark options.
+   Face Mark options.
 
 To set a face mark:
 
@@ -181,11 +181,11 @@ On the right is a render without face marks activated.
 
    * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-1.png
 
-          Marked Faces (Edit Mode).
+          Marked faces (Edit Mode).
 
      - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-2.png
 
-          Render Output.
+          Render output.
 
 The line selection can be controlled via inclusion and faces options:
 
@@ -213,7 +213,7 @@ The image below shows the resulting combinations.
 
    * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-5.png
 
-          Exclusive, One Face.
+          Exclusive, one face.
 
      - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-6.png
 

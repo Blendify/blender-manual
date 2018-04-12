@@ -29,7 +29,7 @@ roughness and other surface qualities of a material.
 .. figure:: /images/render_blender-render_textures_introduction_layers.jpg
    :width: 320px
 
-   Textures Layer on base Material.
+   Textures layer on base material.
 
 Textures are like additional layers on top of the base material.
 Textures affect one or more aspects of the object's net coloring.
@@ -48,7 +48,7 @@ The layers, if you will, are:
 .. figure:: /images/render_blender-render_textures_introduction_somemetal.jpg
    :width: 320px
 
-   Some Metal Textures.
+   Some metal textures.
 
 This notion of using *more than one* texture, to achieve a combined effect,
 is one of the "hidden secrets" of creating realistic-looking objects.

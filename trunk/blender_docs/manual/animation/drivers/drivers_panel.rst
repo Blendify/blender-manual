@@ -13,11 +13,11 @@ Drivers Panel
 .. figure:: /images/animation_drivers_drivers-panel_panel.png
    :align: right
 
-   Drivers Panel.
+   Drivers panel.
 
 This panel is located in the :doc:`Graph Editor </editors/graph_editor/introduction>` with the mode set to Drivers.
 
-The drivers panel is for setting up *Driver Variables* or a *Scripted Expression* which
+The Drivers panel is for setting up *Driver Variables* or a *Scripted Expression* which
 will determine the value of the *Driver Value*.
 
 
@@ -65,11 +65,11 @@ Driver Variables
 
    * - .. figure:: /images/animation_drivers_drivers-panel_transform-channel2.png
 
-          Transform Channel Setup.
+          Transform channel setup.
 
      - .. figure:: /images/animation_drivers_drivers-panel_distance.png
 
-          Distance Setup.
+          Distance setup.
 
 Variable are references to properties or delta transformations which are a reference to two properties.
 
@@ -128,7 +128,7 @@ Example
 
 .. figure:: /images/animation_drivers_drivers-panel_single-property.png
 
-   Setup of a Single Property.
+   Setup of a single property.
 
 .. seealso::
 

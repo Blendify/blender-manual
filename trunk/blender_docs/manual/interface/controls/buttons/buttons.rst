@@ -42,7 +42,7 @@ Color Buttons
 .. figure:: /images/interface_controls_buttons_buttons_color.png
    :align: right
 
-   Color Buttons.
+   Color buttons.
 
    Without and with alpha.
 

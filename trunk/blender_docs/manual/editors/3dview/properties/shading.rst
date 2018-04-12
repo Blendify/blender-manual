@@ -74,7 +74,7 @@ Shading Panel
 .. figure:: /images/editors_3dview_properties_shading_panel.png
    :align: right
 
-   3D View Shading Panel.
+   3D View Shading panel.
 
 The shading panel in the Properties Region provides additional control over the way objects in the 3D View appear.
 

@@ -178,7 +178,7 @@ View Controls
 
 .. figure:: /images/editors_graph-editor_introduction_header-view.png
 
-   View Controls.
+   View controls.
 
 Show Only Selected (mouse cursor icon)
    Only include curves related to the selected objects and data.
@@ -218,7 +218,7 @@ Curve Controls
 
 .. figure:: /images/editors_graph-editor_introduction_header-edit.png
 
-   Curve Controls.
+   Curve controls.
 
 Proportional Editing :kbd:`O`
    See :doc:`Proportional editing </editors/3dview/object/editing/transform/control/proportional_edit>`.
@@ -264,7 +264,7 @@ View Properties Panel
 
 .. figure:: /images/editors_graph-editor_introduction_view-properties-panel.png
 
-   View Properties Panel.
+   View Properties panel.
 
 Show Cursor
    Show the vertical *Cursor*.

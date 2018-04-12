@@ -8,7 +8,7 @@ The wood texture is used to generate wood and ring-shaped patterns.
 
 .. figure:: /images/render_blender-render_textures_types_procedural_wood_panel.png
 
-   Wood Texture Panels.
+   Wood Texture panels.
 
 
 Options

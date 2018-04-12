@@ -41,7 +41,7 @@ as shown in the figure.
 
 .. figure:: /images/preferences_addons_enable.png
 
-   Enabling an Add-on.
+   Enabling an add-on.
 
 The add-on functionality should be immediately available.
 If the Add-on does not activate when enabled,

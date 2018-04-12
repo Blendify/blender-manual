@@ -15,7 +15,7 @@ Screenshots
 
 .. figure:: /images/editors_info_screen-capture_save-options.png
 
-   Save Screenshot Option.
+   Save Screenshot option.
 
 :kbd:`Ctrl-F3` will take a screenshot of Blender and then open the :doc:`File Browser </editors/file_browser/index>`,
 allowing you to specify the name and location of the screenshot.
@@ -68,7 +68,7 @@ and it will show you a button for stopping your capture.
 
 .. figure:: /images/editors_info_screen-capture_stop-button.png
 
-   Info Header with the Capture Stop Button.
+   Info Header with the Capture Stop button.
 
 .. note:: The only way to stop the Screencast
 

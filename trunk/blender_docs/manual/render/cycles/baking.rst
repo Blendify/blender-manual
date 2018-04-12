@@ -39,7 +39,7 @@ Combined
 
    .. figure:: /images/render_cycles_baking_combined.png
 
-      Combined Pass Options.
+      Combined Pass options.
 
    The passes that contribute to the combined pass can be toggled individually to form the final map.
 Ambient Occlusion
@@ -51,7 +51,7 @@ Normals
 
    .. figure:: /images/render_cycles_baking_normal.png
 
-      Normal Pass Options.
+      Normal Pass options.
 
    Normal Space
       Normals can be baked in different spaces:
@@ -80,7 +80,7 @@ Diffuse, Glossy, Transmission, Subsurface
 
    .. figure:: /images/render_cycles_baking_diffuse.png
 
-      Diffuse Pass Options.
+      Diffuse Pass options.
 
    - If only color is selected you get the pass color,
      which is a property of the surface and independent of sampling refinement.

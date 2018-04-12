@@ -15,7 +15,7 @@ where U means position across spline segment, and V means distance between main 
 
 .. figure:: /images/editors_movie-clip-editor_masking_scurve_schematic.png
 
-   S- Curve Explained.
+   S-Curve explained.
 
 This allows for deforming the main spline in almost any way,
 and the feather will be updated automatically to reflect that change.

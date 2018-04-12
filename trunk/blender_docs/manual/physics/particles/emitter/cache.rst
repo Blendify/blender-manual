@@ -12,7 +12,7 @@ Cache
 
 .. figure:: /images/physics_particles_emitter_cache_settings.png
 
-   Particles Cache Settings.
+   Particles Cache settings.
 
 In order to increase real-time response and avoid unnecessary recalculation of particles,
 the particle data can be cached in memory or stored on a drive.

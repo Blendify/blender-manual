@@ -16,7 +16,7 @@ or to create nice effects (especially with the *Mapping: Normal* trick).
 
 .. figure:: /images/render_blender-render_textures_types_procedural_blend_panel.png
 
-   Blend Texture Panels.
+   Blend Texture panels.
 
 
 Options

@@ -11,7 +11,7 @@ Clouds, Fire, Smoke. Well-suited to be used as a Bump map, giving an overall irr
 
 .. figure:: /images/render_blender-render_textures_types_procedural_clouds_panel.png
 
-   Clouds Texture Panels.
+   Clouds Texture panels.
 
 
 Options

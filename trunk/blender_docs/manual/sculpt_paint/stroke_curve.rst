@@ -9,7 +9,7 @@ Stroke
 .. figure:: /images/sculpt-paint_stroke-curve_stroke-panel.png
    :align: right
 
-   Stroke Panel.
+   Stroke panel.
 
 Stroke Method :kbd:`E`
    Defines the way brush strokes are applied to the canvas.

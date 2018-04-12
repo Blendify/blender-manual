@@ -390,7 +390,7 @@ The material must be a volumetric material with a Density of 0, and a high Densi
 .. figure:: /images/render_blender-render_materials_special-effects_volume_tab.png
    :width: 305px
 
-   The Material Settings.
+   The material settings.
 
 Smoke requires a complex material to render correctly. Select the big cube and go to the material tab.
 There change the material to 'Volume' and set the density to 0.
@@ -421,7 +421,7 @@ by turning *Emission Color* back on.
 
 .. figure:: /images/render_blender-render_materials_special-effects_volume_smoke-render.jpg
 
-   Finished Result.
+   Finished result.
 
 .. tip:: To see the smoke more clearly.
 
@@ -437,7 +437,7 @@ turn up the Emission Value in the Materials panel.
 .. figure:: /images/render_blender-render_materials_special-effects_volume_fire-material-tab.png
    :width: 305px
 
-   The Fire material.
+   The fire material.
 
 Then, add another texture (keep the old texture or the smoke will not show).
 Give it a fiery color ramp- which colors based on the alpha,

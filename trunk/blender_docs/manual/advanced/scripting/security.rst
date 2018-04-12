@@ -17,7 +17,7 @@ the header with the option to **Reload Trusted** or **Ignore** the message.
 
 .. figure:: /images/animation_drivers_troubleshooting_autorun-info-header.png
 
-   Info Header.
+   An Auto-run warning in the Info editor's header.
 
 
 Scripts in Blend-Files
@@ -76,7 +76,7 @@ a typical configuration would be to trust all paths except for the download dire
 
 .. figure:: /images/animation_drivers_troubleshooting_autorun-user-preference.png
 
-   Auto Run Python Scripts
+   The Auto Run Python Scripts checkbox.
 
 
 Command Line

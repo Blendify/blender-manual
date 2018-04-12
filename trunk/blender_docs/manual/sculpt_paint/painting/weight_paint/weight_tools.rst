@@ -50,7 +50,7 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize.png
    :align: right
 
-   Normalize All Options.
+   Normalize All options.
 
 Lock Active
    Keep the values of the active group while normalizing all the others.
@@ -87,7 +87,7 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror.png
    :align: right
 
-   Mirror Options.
+   Mirror options.
 
 Mirror Weights
    Mirrors the weights of the active group to the other side. Note, this only affects the active weight group.
@@ -132,7 +132,7 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_invert.png
    :align: right
 
-   Invert Options.
+   Invert options.
 
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ about how subsets are defined.
@@ -169,7 +169,7 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean.png
    :align: right
 
-   Clean Options.
+   Clean options.
 
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
@@ -223,7 +223,7 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels.png
    :align: right
 
-   Levels Options.
+   Levels options.
 
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
@@ -307,7 +307,7 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth.png
    :align: right
 
-   Smooth Options.
+   Smooth options.
 
 Factor
    The effective amount of blending.

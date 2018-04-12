@@ -71,7 +71,7 @@ The *Help* menu in the Info Editor header.
 .. figure:: /images/getting-started_help_menu.png
    :align: right
 
-   Help Menu.
+   Help menu.
 
 
 Web Links

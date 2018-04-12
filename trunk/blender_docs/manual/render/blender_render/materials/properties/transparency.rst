@@ -19,7 +19,7 @@ and the color of the surface determines the final color of the pixel.
 
 .. figure:: /images/render_blender-render_materials_properties_transparency_panel.png
 
-   Transparency Panel.
+   Transparency panel.
 
 In Blender, there are three ways in which the transparency of a material can be set:
 Mask, Z-Buffer and Raytrace. Each of these is explained in more detail below.
@@ -118,7 +118,7 @@ Options
 
 .. figure:: /images/render_blender-render_materials_properties_transparency_panel-raytrace.png
 
-   The Transparency Panel.
+   The Transparency panel.
 
 In addition to the common options given above, the following property controls are available:
 

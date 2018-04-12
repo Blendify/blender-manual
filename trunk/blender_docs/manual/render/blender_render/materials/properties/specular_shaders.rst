@@ -52,7 +52,7 @@ Technical Details
 
 .. figure:: /images/render_blender-render_materials_properties_specular-shaders_reflection.jpg
 
-   Specular Reflection.
+   Specular reflection.
 
 In reality, the quality of Diffuse and Specular reflection are generated during the same
 process of light scattering, but are not the same.

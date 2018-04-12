@@ -9,7 +9,7 @@ especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
 
 .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_panel.png
 
-   Voronoi Texture Panels.
+   Voronoi Texture panels.
 
 
 Options

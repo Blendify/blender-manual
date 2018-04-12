@@ -22,7 +22,7 @@ Layers are managed in the *Grease Pencil Panel* of the *Properties region* :kbd:
 
 .. figure:: /images/interface_grease-pencil_drawing_layers_list.png
 
-   Grease Pencil Panel.
+   Grease Pencil panel.
 
 
 Grease Pencil Data

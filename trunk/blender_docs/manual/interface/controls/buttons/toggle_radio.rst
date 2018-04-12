@@ -8,7 +8,7 @@ Checkboxes & Toggle Buttons
 .. figure:: /images/interface_controls_buttons_toggle-radio_checkbox.png
    :align: right
 
-   Toggle Buttons.
+   Toggle buttons.
 
 These buttons are used to activate or deactivate options. Use :kbd:`LMB` to change their state.
 
@@ -36,7 +36,7 @@ Radio Buttons
 .. figure:: /images/interface_controls_buttons_toggle-radio_radio.png
    :align: right
 
-   Radio Buttons.
+   Radio buttons.
 
 Radio buttons are used to choose from a small selection of "mutually exclusive" options.
 

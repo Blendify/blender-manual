@@ -110,7 +110,7 @@ Figures should be used to place images::
 
    .. figure:: /images/render_cycles_nodes_types_shaders_principled_node.png
 
-      Image Caption.
+      Image caption.
 
 For consistency, and since it would be good to ensure screenshots are
 all a similar size when floated next to text,

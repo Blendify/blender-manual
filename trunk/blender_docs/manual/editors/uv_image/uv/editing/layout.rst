@@ -353,7 +353,7 @@ Activating the tool brings up the File Browser with options for saving the layou
 
 .. figure:: /images/editors_uv-image_uv_editing_layout_export-panel.png
 
-   Export Options.
+   Export options.
 
 All UVs
    if disabled, then only the UV faces selected will be outlined.

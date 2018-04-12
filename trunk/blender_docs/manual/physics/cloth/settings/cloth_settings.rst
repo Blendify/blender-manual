@@ -53,7 +53,7 @@ The weight of each vertex in the group controls how strongly it is pinned.
 
 .. figure:: /images/physics_cloth_settings_cloth-settings_pinning.png
 
-   Cloth Pinning.
+   Cloth pinning.
 
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
 press the *Pinning* button in the *Cloth* panel and select which

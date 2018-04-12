@@ -11,7 +11,7 @@ In the domain settings you will be able to define the global simulation paramete
 
 .. figure:: /images/physics_fluid_introduction_example.jpg
 
-   Example of Fluid Simulation.
+   Example of a fluid simulation.
 
 
 Workflow

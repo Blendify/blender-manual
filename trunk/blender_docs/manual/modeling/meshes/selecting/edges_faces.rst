@@ -58,7 +58,7 @@ Or use :kbd:`Ctrl-Alt-RMB` on an edge.
 
 .. figure:: /images/modeling_meshes_selecting_edges-faces_edge-ring-example.png
 
-   An Edge Ring.
+   An edge ring.
 
 .. note:: Convert selection to whole faces
 

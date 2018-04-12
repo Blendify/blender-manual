@@ -7,7 +7,7 @@ Curve Widget
 .. figure:: /images/interface_controls_templates_curve_curve.png
    :align: right
 
-   Curve Widget.
+   Curve widget.
 
 The purpose of the *Curve Widget* is to allow the user to modify an input
 (such as an image) in an intuitive manner by

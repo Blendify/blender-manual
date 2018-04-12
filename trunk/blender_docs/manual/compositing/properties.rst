@@ -8,7 +8,7 @@ Header
 
 .. figure:: /images/compositing_properties_header.png
 
-   Compositing Specific Options.
+   Compositing specific options.
 
 Use Nodes
    Enables basic compositing set up with a :doc:`Render Layer Node </compositing/types/input/render_layers>`
@@ -33,7 +33,7 @@ Backdrop
 .. figure:: /images/compositing_properties_backdrop.png
    :align: right
 
-   Backdrop Options.
+   Backdrop options.
 
 Backdrop Channels
    Set the image to be displayed with *Color*, *Color and Alpha*, or just *Alpha*.
@@ -57,7 +57,7 @@ Performance
 .. figure:: /images/compositing_properties_performance.png
    :align: right
 
-   Performance Settings.
+   Performance settings.
 
 This panel help you to tweak the performance of the compositor.
 

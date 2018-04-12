@@ -211,7 +211,7 @@ The Keymap editor lets you change the default Hotkeys. You can change keymaps fo
 
 .. figure:: /images/preferences_input_keymap-editor.png
 
-   Keymap Editor.
+   Keymap editor.
 
 Keymap Presets
    A list of predefined keymaps.

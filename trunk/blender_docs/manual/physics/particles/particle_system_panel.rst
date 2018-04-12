@@ -10,7 +10,7 @@ Particle System Panel
 
 .. figure:: /images/physics_particles_particle-system-panel_panel.png
 
-   Particle System Panel.
+   Particle System panel.
 
 These are the basic settings.
 

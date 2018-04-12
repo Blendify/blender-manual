@@ -49,7 +49,7 @@ The *Header* contains various menus, buttons and options, partially based on the
 
 .. figure:: /images/editors_node-editor_introduction_header.png
 
-   Common Node Header Options.
+   Common Node editor header options.
 
 View
    This menu changes your view of the editor.

@@ -10,7 +10,7 @@ or from sound encoded within a movie, and mix them using an F-Curve as a volume 
 
 .. figure:: /images/editors_vse_sequencer_strips_sound_editing.png
 
-   Example of Sound Editing.
+   Example of sound editing.
 
 
 Options

@@ -42,7 +42,7 @@ When the green cube is moved to the right, the other two cubes follow the moveme
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_object-mode.png
 
-   Proportional editing in Object Mode.
+   Proportional Editing in Object Mode.
 
 
 .. (Todo move) to modeling section

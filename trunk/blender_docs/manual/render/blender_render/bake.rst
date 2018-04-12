@@ -159,7 +159,7 @@ Bakes specular color or specular intensity values.
 
 .. figure:: /images/render_blender-render_bake_full-render.png
 
-   Full Render.
+   Full render.
 
 
 Additional Options

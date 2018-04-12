@@ -166,12 +166,12 @@ removing the face loop it ran through.
    * - .. figure:: /images/modeling_meshes_editing_basics_deleting_collapse-before.png
           :width: 320px
 
-          Selected Edge Ring.
+          Selected edge ring.
 
      - .. figure:: /images/modeling_meshes_editing_basics_deleting_collapse-after.png
           :width: 320px
 
-          Edge Ring Collapsed.
+          Edge ring collapsed.
 
 
 Edge Loop
@@ -209,12 +209,12 @@ there would be an empty band of deleted faces all the way around the sphere inst
    * - .. figure:: /images/modeling_meshes_editing_basics_deleting_edge-loop-before.png
           :width: 320px
 
-          Selected Edge Loop.
+          Selected edge loop.
 
      - .. figure:: /images/modeling_meshes_editing_basics_deleting_edge-loop-after.png
           :width: 320px
 
-          Edge Loop Deleted.
+          Edge loop deleted.
 
 .. seealso::
 

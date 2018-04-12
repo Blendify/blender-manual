@@ -63,7 +63,7 @@ the selected vertices are moved to the right as they are below the horizontal ax
 
 .. figure:: /images/modeling_meshes_editing_transform_shear_objects.png
 
-   The effects of a Shear transform on Objects with different Pivot Points.
+   The effects of a Shear transform on objects with different Pivot Points.
 
 The three frames of the image above show the effects of shearing
 on the selected Objects when the *Pivot Point* is altered.

@@ -13,7 +13,7 @@ The Post Processing panel is used to control different options used to process y
 .. figure:: /images/render_post-process_panel_panel.png
    :align: right
 
-   Post Processing Panel.
+   Post Processing panel.
 
 Sequencer
    Renders the output of the sequence editor, instead of the view from the 3D scene's active camera.

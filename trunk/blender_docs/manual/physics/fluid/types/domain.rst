@@ -42,7 +42,7 @@ Options
 
 .. figure:: /images/physics_fluid_types_domain_panels.png
 
-   Fluid Domain Settings.
+   Fluid Domain settings.
 
 Bake button
    For baking options, see :doc:`Baking </physics/fluid/baking>`.

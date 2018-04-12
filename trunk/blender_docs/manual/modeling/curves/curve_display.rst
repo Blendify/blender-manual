@@ -12,7 +12,7 @@ Curve Display
 .. figure:: /images/modeling_curves_curve-display_panel.png
    :align: right
 
-   Curve Display Panel.
+   Curve Display panel.
 
 When in Edit Mode, the Properties region contains options
 in the *Curve Display* panel for how curves are displayed in the 3D View.

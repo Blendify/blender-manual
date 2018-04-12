@@ -36,7 +36,7 @@ Options
 
 .. figure:: /images/render_blender-render_materials_properties_ramps_panel.png
 
-   Ramps Panel.
+   Ramps panel.
 
 For the first part of the color ramp option see :ref:`ui-color-ramp-widget`.
 

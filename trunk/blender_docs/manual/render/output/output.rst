@@ -14,7 +14,7 @@ Dimensions Panel
 
 .. figure:: /images/render_output_output_dimensions-panel.png
 
-   Dimensions Panel.
+   Dimensions panel.
 
 Render Presets
    Common format presets for TVs and screens.

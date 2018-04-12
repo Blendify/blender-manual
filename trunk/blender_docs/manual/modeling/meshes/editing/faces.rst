@@ -100,7 +100,7 @@ Max Angle
      - .. figure:: /images/modeling_meshes_editing_faces_beauty-fill-after.png
           :width: 320px
 
-          Result of Beauty Fill, :kbd:`Shift-Alt-F`.
+          Result of Beauty Fill.
 
 
 .. _modeling-meshes-editing-grid-fill:
@@ -134,7 +134,7 @@ Simple Blending
      - .. figure:: /images/modeling_meshes_editing_faces_grid-fill-surface-after.png
           :width: 320px
 
-          Grid Fill Result.
+          Grid Fill result.
 
 
 Solidify
@@ -377,12 +377,12 @@ It works on the shared edge between two faces and rotates that edge if the edge 
    * - .. figure:: /images/modeling_meshes_editing_faces_rotate-edge-face-mode1.png
           :width: 320px
 
-          Two Faces Selected.
+          Two faces selected.
 
      - .. figure:: /images/modeling_meshes_editing_faces_rotate-edge-face-mode2.png
           :width: 320px
 
-          Full Render.
+          Full render.
 
 See :ref:`Rotate Edge <modeling-meshes-editing-edges-rotate>` for more information.
 

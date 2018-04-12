@@ -9,7 +9,7 @@ The following sections describe the controls in each of the available panels.
 .. figure:: /images/sculpt-paint_painting_vertex-paint_tools_tab.png
    :align: right
 
-   Vertex Painting Options.
+   Vertex Painting options.
 
 
 Brush

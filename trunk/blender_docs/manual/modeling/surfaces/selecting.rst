@@ -6,7 +6,7 @@ Selecting
 .. figure:: /images/modeling_surfaces_selecting_menu.png
    :align: right
 
-   Select Menu.
+   Select menu.
 
 Surface selection in *Edit Mode* is very similar to
 :doc:`NURBS curve selection </modeling/curves/editing/introduction>`.

@@ -13,7 +13,7 @@ and *Apply* a modifier if you wish to make its changes permanent.
 
 .. figure:: /images/modeling_modifiers_introduction_menu.png
 
-   Modifiers Menu.
+   Modifiers menu.
 
 There are four types of modifiers:
 
@@ -44,7 +44,7 @@ Interface
 
 .. figure:: /images/modeling_modifiers_introduction_panel-layout.png
 
-   Panel Layout (Subdivision Surface as an example).
+   Panel layout (Subdivision Surface as an example).
 
 Each modifier has been brought in from a different part of Blender,
 so each has its own unique settings and special considerations. However,

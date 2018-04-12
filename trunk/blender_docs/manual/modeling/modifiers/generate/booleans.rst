@@ -37,7 +37,7 @@ Options
 
 .. figure:: /images/modeling_modifiers_generate_booleans_panel.png
 
-   Boolean Modifier Options.
+   Boolean Modifier options.
 
 
 Operations

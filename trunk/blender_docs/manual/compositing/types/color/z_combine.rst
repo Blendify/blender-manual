@@ -80,7 +80,7 @@ moves to the right created the illusion of depth as Bambi moved through the fore
 .. figure:: /images/compositing_types_color_z-combine_example-2.png
    :width: 700px
 
-   Mix and Match Images.
+   Mix and match images.
 
 The Z-Combine can be used to merge two images as well,
 using the Z values put out by two render layers.

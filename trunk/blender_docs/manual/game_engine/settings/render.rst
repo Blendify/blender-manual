@@ -32,7 +32,7 @@ Embedded Player
 .. figure:: /images/game-engine_settings_render_camera-properties-embedded.png
    :width: 300px
 
-   Embedded Player Panel.
+   Embedded Player panel.
 
 This panel provides information for the Embedded Game Player which allows games to be run
 inside a Blender render pane.
@@ -55,7 +55,7 @@ Standalone Player
 .. figure:: /images/game-engine_settings_render_camera-properties-standalone.png
    :width: 300px
 
-   Standalone Player Panel.
+   Standalone Player panel.
 
 This panel provides information for the Standalone Game Player which allows games to be run without Blender.
 See :doc:`Standalone Player </game_engine/blender_player>` for further details.
@@ -111,7 +111,7 @@ Stereo
 .. figure:: /images/game-engine_settings_render_camera-properties-stereo.png
    :width: 300px
 
-   Stereo Panel.
+   Stereo panel.
 
 Select a stereo mode that will be used to capture stereo images of the game (and also,
 by implication, that stereo displays will use to render images in the standalone player).
@@ -132,7 +132,7 @@ Shading
 .. figure:: /images/game-engine_settings_render_camera-properties-shading.png
    :width: 300px
 
-   Shading Panel.
+   Shading panel.
 
 Specifies the shading mode to be used in rendering the game.
 The shading facilities available in Blender for use in

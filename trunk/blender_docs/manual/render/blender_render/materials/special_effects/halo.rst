@@ -95,11 +95,11 @@ Star tips
 You cannot use color ramps. Lines,
 Rings and an assortment of special effects are available with the relevant toggle buttons,
 which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
-*Halo Variations* shows the result of applying a halo material to a single vertex mesh.
+*Halo variations* shows the result of applying a halo material to a single vertex mesh.
 
 .. figure:: /images/render_blender-render_materials_special-effects_halo_variations.jpg
 
-   Halo Variations.
+   Halo variations.
 
 
 Flare Panel
@@ -150,7 +150,7 @@ and disappears when another object occludes the flare mesh.
 .. figure:: /images/render_blender-render_materials_special-effects_halo_lens-flare.jpg
    :width: 630px
 
-   Lens Flare.
+   Lens flare.
 
 
 Halo Texturing
@@ -205,7 +205,7 @@ Let us use a halo material to create a dot matrix display:
 
 .. figure:: /images/render_blender-render_materials_special-effects_halo_dotmatrix.jpg
 
-   Dot Matrix display.
+   Dot matrix display.
 
 You can now animate the texture to move over the billboard,
 using the *Offset X* value in the *Texture* tab of the Mapping panel.
