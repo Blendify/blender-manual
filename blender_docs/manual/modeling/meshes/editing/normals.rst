@@ -68,7 +68,7 @@ Smooth
 .. figure:: /images/modeling_meshes_editing_normals_shading-smooth-flat.png
    :align: right
 
-   Shading buttons in Tool Shelf.
+   Shading buttons in the Tool Shelf.
 
 The easiest way is to set an entire object as smooth or faceted by selecting a mesh object,
 and in *Object Mode*, click *Smooth* in the *Tool Shelf*.

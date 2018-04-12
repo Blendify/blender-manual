@@ -9,7 +9,7 @@ Brush
 .. figure:: /images/sculpt-paint_painting_weight-paint_tools_brush-panel.png
    :align: right
 
-   Brush Panel.
+   Brush panel.
 
 Painting needs paint brushes and Blender provides a Brush Panel within the Tool Shelf when it
 operates in *Weight Paint Mode*.

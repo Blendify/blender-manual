@@ -14,7 +14,7 @@ Keyed
 
 .. figure:: /images/physics_particles_emitter_physics_keyed_panel.png
 
-   Keyed Physics Settings.
+   Keyed Physics settings.
 
 The particle paths of keyed particles are determined from the emitter to another particle
 system's particles. This allows creation of chains of systems with keyed physics to create

@@ -15,7 +15,7 @@ Introduction
 .. figure:: /images/modeling_texts_introduction_examples.jpg
    :width: 400px
 
-   Text Examples.
+   Text examples.
 
 *Text* objects are exactly what they sound like: they contain some text.
 They share the same object type as curves and surfaces,

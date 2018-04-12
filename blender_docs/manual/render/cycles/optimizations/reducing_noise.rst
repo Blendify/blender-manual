@@ -56,17 +56,17 @@ other parts of the image and will contribute significantly to the lighting of th
    * - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-reference.jpg
           :width: 180px
 
-          The Scene.
+          The scene.
 
      - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye.jpg
           :width: 180px
 
-          What the Shader sees.
+          Irradiance at the shading point.
 
      - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-hotspot.jpg
           :width: 180px
 
-          The detected Highlights.
+          The detected highlights.
 
 The lamp is a known light source, so its location is already known,
 but the glossy highlight(s) that it causes are a different matter.
@@ -92,12 +92,12 @@ and :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`.
      - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-blur.jpg
           :width: 180px
 
-          What the Shader sees.
+          Irradiance at the shading point.
 
      - .. figure:: /images/render_cycles_optimizations_reducing-noise_fisheye-blur-hotspot.jpg
           :width: 180px
 
-          The detected Highlights.
+          The detected highlights.
 
 
 Bounces
@@ -152,12 +152,12 @@ Many renderers will typically disable caustics by default.
    * - .. figure:: /images/render_cycles_optimizations_reducing-noise_reference.jpg
           :width: 180px
 
-          Default Settings.
+          Default settings.
 
      - .. figure:: /images/render_cycles_optimizations_reducing-noise_no-caustics.jpg
           :width: 180px
 
-          Caustics Disabled.
+          Caustics disabled.
 
      - .. figure:: /images/render_cycles_optimizations_reducing-noise_filter-glossy.jpg
           :width: 180px

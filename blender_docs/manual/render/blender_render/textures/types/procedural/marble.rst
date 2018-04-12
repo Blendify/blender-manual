@@ -9,7 +9,7 @@ Bands are generated based on the sine, saw, or triangular formula and noise turb
 
 .. figure:: /images/render_blender-render_textures_types_procedural_marble_panel.png
 
-   Marble Texture Panels.
+   Marble Texture panels.
 
 
 Options

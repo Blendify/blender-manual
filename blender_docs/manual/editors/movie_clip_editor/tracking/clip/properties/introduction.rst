@@ -13,7 +13,7 @@ Objects Panel
    :align: right
    :width: 195px
 
-   Objects Panel.
+   Objects panel.
 
 This panel contains a :ref:`list view <ui-list-view>` with all objects which can be used for tracking,
 camera or object solving.
@@ -38,7 +38,7 @@ Track Panel
    :align: right
    :width: 195px
 
-   Track Panel.
+   Track panel.
 
 Name
    The track name can be changed with this field.
@@ -125,7 +125,7 @@ Plane Track Panel
    :align: right
    :width: 195px
 
-   Plane Track Panel.
+   Plane Track panel.
 
 Its properties are shown only when a plane track is selected.
 Firstly, the name of the selected plane track is shown. It can also be changed from here.

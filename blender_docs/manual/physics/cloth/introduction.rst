@@ -18,7 +18,7 @@ all of which is under your control.
    * - .. figure:: /images/physics_cloth_introduction_example1.jpg
           :width: 200px
 
-          Cloth Example.
+          Cloth example.
 
      - .. figure:: /images/physics_cloth_introduction_oncarved-wood.jpg
           :width: 200px
@@ -28,7 +28,7 @@ all of which is under your control.
      - .. figure:: /images/physics_cloth_introduction_example2.jpg
           :width: 200px
 
-          Cloth Example.
+          Cloth example.
 
 A piece of cloth is any mesh, open or enclosed, that has been designated as cloth.
 The *Cloth* panels are located in the *Physics* tab and consist of three panels of options.

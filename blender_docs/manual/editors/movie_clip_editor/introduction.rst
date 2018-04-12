@@ -30,7 +30,7 @@ Movie Clip
 
 .. figure:: /images/editors_movie-clip-editor_introduction_example.png
 
-   Movie Clip Editor with an Opened Clip.
+   Movie Clip Editor with an opened clip.
 
 Modes
    - :doc:`Motion Tracking </editors/movie_clip_editor/tracking/index>`

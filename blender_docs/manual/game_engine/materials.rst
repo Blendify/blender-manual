@@ -8,7 +8,7 @@ Game Settings
 
 .. figure:: /images/game-engine_materials_panel.png
 
-   Game Settings Panel.
+   Game Settings panel.
 
 This panel contains properties that control how the object surfaces
 that use the material are rendered in real-time by the Blender Game Engine.

@@ -47,10 +47,10 @@ this can be disabled using the *Cursor Depth* toggle in the :doc:`User Preferenc
 
 .. figure:: /images/editors_3dview_3d-cursor_panel.png
 
-   The 3D Cursor panel of the Properties region.
+   The 3D Cursor panel of the properties region.
 
 The 3D cursor can also be positioned by editing the location coordinates values in
-the *3D cursor* panel of the *Properties* region.
+the *3D cursor* panel of the properties region.
 
 
 Usage

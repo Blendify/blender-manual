@@ -8,7 +8,7 @@ Channels Region
 
 .. figure:: /images/editors_graph-editor_channels_region.png
 
-   The Channels Region.
+   The Channels region.
 
 The channels region is used to select and manage the curves for the Graph editor.
 This part shows the objects and their animation data hierarchy each as headers.

@@ -20,7 +20,7 @@ Adding a Modifier
 
 .. figure:: /images/editors_graph-editor_fcurves_modifiers_panel.png
 
-   Modifiers Panel.
+   Modifiers panel.
 
 The F-Curve modifier panel is located in the Properties region.
 Select a curve by selecting one of its curve points, or by selecting the channel list.

@@ -95,7 +95,7 @@ Pose Markers
 .. figure:: /images/animation_markers_pose.png
    :align: right
 
-   Pose markers in the Action Editor.
+   Pose markers in the Action editor.
 
 Pose markers show a diamond-shaped icon in the Dope Sheet.
 In the NLA editor the pose markers are shown as a red dashed line.
@@ -113,7 +113,7 @@ Add Marker
 
    | Mode:     All modes
    | Menu:     :menuselection:`Marker --> Add Marker`
-   | Hotkey:   :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE Editor
+   | Hotkey:   :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE editor
 
 The simplest way to add a marker is to move to the frame where you would like it to appear,
 and press :kbd:`M`.
@@ -213,7 +213,7 @@ Rename Marker
 
 Having dozens of markers scattered throughout your scene's time will not help you much unless you
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
-typing the name, and pressing the OK button.
+typing the name, and confirm.
 
 
 Grab/Move Marker

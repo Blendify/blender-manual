@@ -20,7 +20,7 @@ Inflow
 
 .. figure:: /images/physics_fluid_types_flow_inflow.png
 
-   Fluid Inflow Settings.
+   Fluid Inflow settings.
 
 Volume Initialization Type
    See :ref:`Volume Initialization Type <fluid-initialization>`.
@@ -52,7 +52,7 @@ Outflow
 
 .. figure:: /images/physics_fluid_types_flow_outflow.png
 
-   Fluid Outflow Settings.
+   Fluid Outflow settings.
 
 Any fluid that enters the region of this object will be deleted (think of a drain or a black hole).
 This can be useful in combination with an inflow to prevent the whole domain from filling up.

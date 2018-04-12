@@ -44,7 +44,7 @@ Editing States
 .. figure:: /images/game-engine_logic_states_panel.png
    :width: 292px
 
-   State Panel Button.
+   State Panel button.
 
 States are set up and edited using the Controller (center) column of the Game Logic Panel.
 To see the State panel, click on the State Panel Button shown.
@@ -60,7 +60,7 @@ Visible and Initial.
 .. figure:: /images/game-engine_logic_states_panel1.png
    :width: 292px
 
-   State Panel Visible.
+   State Panel visible.
 
 
 Visible States
@@ -82,7 +82,7 @@ if the State buttons at the head of their columns are ticked.
 .. figure:: /images/game-engine_logic_states_panel2.png
    :width: 292px
 
-   State Panel Initial.
+   State Panel initial.
 
 
 Initial State

@@ -12,7 +12,7 @@ Vertex Groups Panel
 .. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.png
    :align: right
 
-   The Vertex Group Panel.
+   The Vertex Group panel.
 
 Vertex Groups are maintained within the *Object Data* Properties Editor,
 and there in the *Vertex Groups* panel.

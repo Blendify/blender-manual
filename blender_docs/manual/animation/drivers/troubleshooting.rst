@@ -11,11 +11,11 @@ Scripted Expression
 
 .. figure:: /images/animation_drivers_troubleshooting_autorun-graph-editor.png
 
-   :menuselection:`Graph Editor --> Properties --> Drivers`
+   An Auto-execution warning in the Drivers panel.
 
 .. figure:: /images/animation_drivers_troubleshooting_autorun-info-header.png
 
-   Info Header.
+   An Auto-run warning in the Info editor's header.
 
 By default Blender will not autorun Python scripts.
 
@@ -27,11 +27,11 @@ or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --
 
    * - .. figure:: /images/animation_drivers_troubleshooting_autorun-file-browser.png
 
-          File Browser.
+          The Trusted Source checkbox in the File Browser.
 
      - .. figure:: /images/animation_drivers_troubleshooting_autorun-user-preference.png
 
-          :menuselection:`User Preference --> File --> Auto Execution`
+           The Auto Run Python Scripts checkbox in the User Preference.
 
 
 Rotational Properties are Radians

@@ -57,7 +57,7 @@ The node map below shows how to do this using the Set Alpha node.
 
 .. figure:: /images/compositing_types_converter_set-alpha_fade-to-black.png
 
-   Fade To Black.
+   Fade to black.
 
 In the example above, the alpha channel of the swirl image is ignored.
 Instead, a :doc:`time node </compositing/types/input/time>`
@@ -93,7 +93,7 @@ use the Set Alpha node with the Time node as shown below.
 
 .. figure:: /images/compositing_types_converter_set-alpha_fade-in-title.png
 
-   Using Set Alpha to Fade in a Title.
+   Using Set Alpha to fade in a title.
 
 In the above example, a Time curve provides the Alpha value to the input socket.
 The current Render Layer node, which has the title in view, provides the image. As before,
@@ -109,7 +109,7 @@ Colorizing a BW Image
 
 .. figure:: /images/compositing_types_converter_set-alpha_colorizing-image.png
 
-   Using Set Alpha to Colorize an Image.
+   Using Set Alpha to colorize an image.
 
 In the example above, notice how the blue tinge of the render input colors the swirl.
 You can use the Set Alpha node's color button with this kind of node map to add a consistent color to a BW image.

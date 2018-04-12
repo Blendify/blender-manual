@@ -31,7 +31,7 @@ to display the sequence in real-time, and in various ways.
 
 .. figure:: /images/editors_vse_preview_introduction_header.png
 
-   Sequencer Display Header.
+   Sequencer Display header.
 
 The second button will change the editor to display only the preview,
 and the third button displays both the Sequencer and the preview.

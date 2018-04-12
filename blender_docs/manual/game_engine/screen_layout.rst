@@ -33,7 +33,7 @@ and a range of Properties for the BGE renderer properties (see below).
 
 .. figure:: /images/game-engine_physics_introduction_visualization.png
 
-   Game Options.
+   Game options.
 
 
 .. rubric:: 3) Game

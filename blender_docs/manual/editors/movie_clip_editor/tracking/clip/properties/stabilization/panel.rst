@@ -34,7 +34,7 @@ Options
    :align: right
    :width: 213px
 
-   2D Stabilization Panel.
+   2D Stabilization panel.
 
 Anchor Frame
    Reference point to anchor stabilization:

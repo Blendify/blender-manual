@@ -8,7 +8,7 @@ Speaker
 .. figure:: /images/render_audio_speaker_objects.png
    :align: right
 
-   Speaker Objects.
+   Speaker objects.
 
 The speaker object is used to give sound in the 3D View.
 After adding the object, the various settings can be changed in the Properties editor.

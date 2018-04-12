@@ -37,7 +37,7 @@ The main *Timeline* region displays the animation frames over time.
 
 .. figure:: /images/editors_timeline_main.png
 
-   Timeline Main Area.
+   Timeline main area.
 
 
 Adjusting the View
@@ -246,7 +246,7 @@ These buttons are used to set, play, rewind, the *Time Cursor*.
 .. figure:: /images/editors_timeline_player-controls.png
    :align: right
 
-   Player Controls.
+   Player controls.
 
 Jump to start (|first|) :kbd:`Shift-Ctrl-Down`, :kbd:`Shift-Left`
    This sets the cursor to the start of frame range.
@@ -273,7 +273,7 @@ Synchronize Playback
    :figwidth: 109px
    :align: right
 
-   3D View Red FPS.
+   3D View red FPS.
 
    60:54.75
 

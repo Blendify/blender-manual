@@ -50,19 +50,19 @@ Examples
 
    * - .. figure:: /images/modeling_modifiers_generate_edge-split_example-1.png
 
-          Flat Shading.
+          Flat shading.
 
      - .. figure:: /images/modeling_modifiers_generate_edge-split_example-2.png
 
-          Smooth Shading.
+          Smooth shading.
 
    * - .. figure:: /images/modeling_modifiers_generate_edge-split_example-3.png
 
-          Smooth Shading with Edge Split.
+          Smooth shading with Edge Split.
 
      - .. figure:: /images/modeling_modifiers_generate_edge-split_example-4.png
 
-          Smooth Shading with Edge Split and Subdivision Surface.
+          Smooth shading with Edge Split and Subdivision Surface.
 
 .. note::
 

@@ -61,12 +61,12 @@ Let us make a simple example:
        .. figure:: /images/modeling_modifiers_deform_curve_example-edit-curve.png
           :width: 300px
 
-          Edit Curve.
+          Edit curve.
 
      - .. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve1.png
           :width: 300px
 
-          Monkey on a Curve.
+          Monkey on a curve.
 
      - .. figure:: /images/modeling_modifiers_deform_curve_example-monkeyoncurve2.png
           :width: 300px

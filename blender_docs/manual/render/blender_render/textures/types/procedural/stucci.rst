@@ -6,7 +6,7 @@ Stucci
 
 .. figure:: /images/render_blender-render_textures_types_procedural_stucci_panel.png
 
-   Stucci Texture Panels.
+   Stucci Texture panels.
 
 The *Stucci* texture is based on noise functions. It is often used for stone, asphalt, or oranges,
 normally for bump mapping to create grainy surfaces.

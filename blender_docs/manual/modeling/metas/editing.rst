@@ -107,7 +107,7 @@ Conversion
 
 .. figure:: /images/modeling_metas_editing_convert-to-mesh.png
 
-   Convert Menu.
+   Convert menu.
 
 You can only convert metas to meshes,
 but here you have the option to keep the original *Meta* object

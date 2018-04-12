@@ -143,7 +143,7 @@ Only Endpoints
 
 .. figure:: /images/interface_grease-pencil_drawing_introduction_stroke-placement.png
 
-   The effect of different Drawing Settings on Grease Pencil strokes.
+   The effect of different drawing settings on Grease Pencil strokes.
 
 .. tip:: Notes For Tablet Users:
 

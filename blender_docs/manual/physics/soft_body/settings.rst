@@ -253,7 +253,7 @@ These settings determine the accurateness of the simulation.
 
 .. figure:: /images/physics_soft-body_settings_collision-solver-parameters.png
 
-   Soft Body Solver Settings.
+   Soft Body Solver settings.
 
 
 Step Size

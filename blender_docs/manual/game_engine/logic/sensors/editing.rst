@@ -6,7 +6,7 @@ Sensor Editing
 .. figure:: /images/game-engine_logic_sensors_editing_column.jpg
    :width: 292px
 
-   Sensor Column with Typical Sensor.
+   Sensor Column with a typical sensor.
 
 Blender sensors can be set up and edited in the left-hand column of the Logic Panel.
 This page describes the general column controls,
@@ -23,7 +23,7 @@ Column Heading
 .. figure:: /images/game-engine_logic_sensors_editing_column1.png
    :width: 292px
 
-   Sensor Column Heading.
+   Sensor Column heading.
 
 The column headings contain controls to set which sensors, and the level of detail given,
 in the sensor column. This is very useful for hiding unnecessary sensors so that the necessary

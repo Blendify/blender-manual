@@ -42,7 +42,7 @@ containing the Editors listed below:
 
 .. figure:: /images/interface_window-system_introduction_default-screen.png
 
-   Blender's default Screen Layout with five Editors.
+   Blender's default Screen Layout with five editors.
 
    Info (blue), 3D View (yellow), Outliner (red), Properties (green) and Timeline (purple).
 

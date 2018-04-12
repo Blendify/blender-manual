@@ -20,7 +20,7 @@ Common Options
 .. figure:: /images/game-engine_logic_actuators_common-options_column3.png
    :width: 292px
 
-   Common Actuator Options.
+   Common Actuator options.
 
 All actuators have a set of common buttons, fields and menus. They are organized as follows:
 

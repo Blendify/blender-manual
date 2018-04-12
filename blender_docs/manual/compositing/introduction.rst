@@ -20,7 +20,7 @@ optionally merge it with other images, and finally, save it.
 
 .. figure:: /images/compositing_types_distort_map-uv_example-2.png
 
-   An example of Composition.
+   An example of a composition.
 
 .. figure:: /images/compositing_types_color_hue-saturation_example.jpg
 

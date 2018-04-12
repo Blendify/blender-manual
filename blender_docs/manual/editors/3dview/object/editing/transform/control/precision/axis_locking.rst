@@ -36,7 +36,7 @@ Pointing
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_scale-mmb.png
 
-   Axis-Constraint in action.
+   Axis constraint in action.
 
 Holding :kbd:`MMB` after starting a transformation lets you select an axis to constrain to.
 A visual option to constrain the translation will be available,

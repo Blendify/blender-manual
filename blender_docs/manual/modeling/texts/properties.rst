@@ -61,7 +61,7 @@ Texture Space
 
 .. figure:: /images/modeling_texts_properties_texture-settings.png
 
-   Texture Settings.
+   Texture settings.
 
 TODO add.
 

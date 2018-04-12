@@ -30,7 +30,7 @@ Options
 .. figure:: /images/sculpt-paint_painting_weight-paint_options_options-panel.png
    :align: right
 
-   Paint Options.
+   Paint options.
 
 The Weight Paint Options modify the overall brush behavior:
 

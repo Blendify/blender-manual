@@ -21,12 +21,12 @@ the Cycles Renderer.
    * - .. figure:: /images/render_opengl_example-opengl-render.jpg
           :width: 320px
 
-          OpenGL Render.
+          OpenGL render.
 
      - .. figure:: /images/render_opengl_example-cycles-render.jpg
           :width: 320px
 
-          Full Render.
+          Full render.
 
 .. tip:: Showing Only Rendered Objects
 

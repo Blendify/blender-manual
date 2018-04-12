@@ -38,7 +38,7 @@ Options
 
 .. figure:: /images/render_blender-render_materials_properties_mirror_panel.png
 
-   The Mirror Panel.
+   The Mirror panel.
 
 Enable ray-traced reflections
    Enable or disable ray-traced reflections.

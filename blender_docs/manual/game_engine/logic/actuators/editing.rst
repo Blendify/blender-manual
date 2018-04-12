@@ -6,7 +6,7 @@ Actuator Editing
 .. figure:: /images/game-engine_logic_actuators_editing_column.png
    :width: 292px
 
-   Actuator Column with Typical Actuator.
+   Actuator Column with a typical actuator.
 
 Blender actuators can be set up and edited in the right-hand column of the Logic Panel.
 This page describes the general column controls,
@@ -23,7 +23,7 @@ Column Heading
 .. figure:: /images/game-engine_logic_actuators_editing_column1.png
    :width: 292px
 
-   Actuator Column Heading.
+   Actuator Column heading.
 
 The column headings contain controls to set which actuators, and
 the level of detail given, in the actuator column.
@@ -61,7 +61,7 @@ Object Heading
 .. figure:: /images/game-engine_logic_actuators_editing_column2.png
    :width: 292px
 
-   Actuator Object Heading.
+   Actuator Object heading.
 
 In the column list, actuators are grouped by object. By default,
 actuators for every selected object appear in the list,

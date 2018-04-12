@@ -15,7 +15,7 @@ both in a movie frame and in a photograph from a real-world camera.
 
 .. figure:: /images/render_cycles_settings_scene_render_motion-blur_example.jpg
 
-   Cycles Motion Blur Example.
+   Motion Blur example.
 
 .. note::
 
@@ -31,7 +31,7 @@ Options
    :width: 195px
    :align: right
 
-   Cycles Motion Blur Settings.
+   Motion Blur settings.
 
 Position
    Controls at what point the shutter opens in relation to the frame.

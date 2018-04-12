@@ -26,7 +26,7 @@ Common Options
 .. figure:: /images/game-engine_logic_sensors_common-options_column3.jpg
    :width: 292px
 
-   Common Sensor Options.
+   Common Sensor options.
 
 All sensors have a set of common buttons, fields and menus. They are organized as follows:
 

@@ -6,7 +6,7 @@ Controller Editing
 .. figure:: /images/game-engine_logic_controllers_editing_column.jpg
    :width: 292px
 
-   Controller Column with Typical Sensor.
+   Controller Column with a typical sensor.
 
 Blender controllers can be set up and edited in the central column of the Logic Panel.
 This page describes the general column controls,
@@ -24,7 +24,7 @@ Column Heading
 .. figure:: /images/game-engine_logic_controllers_editing_column1.png
    :width: 292px
 
-   Controller Column Headings.
+   Controller Column headings.
 
 The column headings contain controls to set which controllers appear,
 and the level of detail given, in the controller column. This is very useful for hiding

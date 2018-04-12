@@ -5,7 +5,7 @@ Noise
 
 .. figure:: /images/render_blender-render_textures_types_procedural_noise_panel.png
 
-   Noise Texture Panel.
+   Noise Texture panel.
 
 Although this looks great, it is not Perlin Noise! This is a true, randomly generated Noise.
 This gives a different result every time, for every frame, for every pixel.

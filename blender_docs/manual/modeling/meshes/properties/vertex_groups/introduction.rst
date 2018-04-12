@@ -6,7 +6,7 @@ Introduction
 .. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.png
    :align: right
 
-   The Vertex Group Panel.
+   The Vertex Group panel.
 
 Vertex Groups are mainly used to tag the vertices belonging
 to parts of a Mesh Object or :term:`Lattice`. Think of the legs of a chair or

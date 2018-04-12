@@ -12,7 +12,7 @@ Mesh Display
 .. figure:: /images/modeling_meshes_mesh-display_panel.png
    :align: right
 
-   Mesh Display Panel.
+   Mesh Display panel.
 
 This panel is available only in edit mode, when the object being edited is a mesh.
 

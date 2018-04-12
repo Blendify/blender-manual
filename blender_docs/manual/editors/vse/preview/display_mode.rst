@@ -82,7 +82,7 @@ Chroma Vectorscope
 
 .. figure:: /images/editors_vse_preview_display-mode_vectorscope.png
 
-   Example of Chroma Vectorscope Preview.
+   Example of a Chroma Vectorscope Preview.
 
 Use this mode judge the quality of the color-distribution and saturation, you can also view a U/V scatter-plot.
 

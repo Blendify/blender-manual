@@ -14,7 +14,7 @@ Link Materials To
 
 .. figure:: /images/preferences_editing_data-blocks-hierarchy.png
 
-   Example for a Mesh.
+   Example for a mesh.
 
 To understand this option properly, you need to understand how Blender works with Objects.
 Almost everything in Blender is organized in a hierarchy of data-blocks.

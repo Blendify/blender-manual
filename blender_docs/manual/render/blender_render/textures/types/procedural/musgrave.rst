@@ -9,7 +9,7 @@ but it is very flexible. You can do nearly everything with it.
 
 .. figure:: /images/render_blender-render_textures_types_procedural_musgrave_panel.png
 
-   Musgrave Texture Panels.
+   Musgrave Texture panels.
 
 
 Options

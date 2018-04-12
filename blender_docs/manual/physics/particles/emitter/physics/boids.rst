@@ -13,7 +13,7 @@ Boids
 
 .. figure:: /images/physics_particles_emitter_physics_boids_panel.png
 
-   Boid Physics Settings.
+   Boid Physics settings.
 
 Boids particle systems are controlled by a limited artificial intelligence,
 which can be programmed to follow basic rules and behaviors.

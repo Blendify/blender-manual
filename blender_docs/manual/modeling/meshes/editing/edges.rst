@@ -151,12 +151,12 @@ between their original position and the adjacent edge loop, regardless of the ed
    * - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-before.png
           :width: 320px
 
-          Selected Edge Loop.
+          Selected edge loop.
 
      - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-after.png
           :width: 320px
 
-          Repositioned Edge Loop.
+          Repositioned edge loop.
 
 
 Even Mode
@@ -178,12 +178,12 @@ use the :kbd:`Alt-Wheel` to scroll to a different edge.
    * - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-even.png
           :width: 320px
 
-          Even Mode Enabled.
+          Even Mode enabled.
 
      - .. figure:: /images/modeling_meshes_editing_edges_edge-slide-even-flip.png
           :width: 320px
 
-          Even Mode with Flip Enabled.
+          Even Mode with Flip enabled.
 
 Moving the mouse moves the selected edge loop towards or away from the start vertex,
 but the loop line will only move as far as the length of the currently selected edge,
@@ -227,7 +227,7 @@ Rotate Edge
    | Mode:     Edit Mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
 
-Rotating an edge clockwise or counter-clockwise spins an edge between two faces around their vertices.
+Rotating an edge clockwise (CW) or counter-clockwise (CCW) spins an edge between two faces around their vertices.
 This is very useful for restructuring a mesh's topology.
 
 The tool operates on selected edges or the shared edge between selected faces.
@@ -237,7 +237,7 @@ The tool operates on selected edges or the shared edge between selected faces.
    * - .. figure:: /images/modeling_meshes_editing_edges_edge-flip-before.png
           :width: 320px
 
-          Selected Edge.
+          Selected edge.
 
      - .. figure:: /images/modeling_meshes_editing_edges_edge-flip-after.png
           :width: 320px
@@ -273,7 +273,7 @@ a hole will be created, and the selected edges are duplicated to form the border
    * - .. figure:: /images/modeling_meshes_editing_edges_edge-split-before.png
           :width: 320px
 
-          Selected Edges.
+          Selected edges.
 
      - .. figure:: /images/modeling_meshes_editing_edges_edge-split-after.png
           :width: 320px
@@ -337,7 +337,7 @@ Simple example showing two closed edge loops.
      - .. figure:: /images/modeling_meshes_editing_edges_bridge-simple-after.png
           :width: 320px
 
-          Bridge Result.
+          Bridge result.
 
 Example of the Bridge tool between edge loops with different numbers of vertices.
 
@@ -351,7 +351,7 @@ Example of the Bridge tool between edge loops with different numbers of vertices
      - .. figure:: /images/modeling_meshes_editing_edges_bridge-uneven-after.png
           :width: 320px
 
-          Bridge Result.
+          Bridge result.
 
 Example using the Bridge tool to cut holes in face selections and connect them.
 
@@ -365,7 +365,7 @@ Example using the Bridge tool to cut holes in face selections and connect them.
      - .. figure:: /images/modeling_meshes_editing_edges_bridge-faces-after.png
           :width: 320px
 
-          Bridge Result.
+          Bridge result.
 
 Example showing how Bridge tool can detect multiple loops and connect them in one step.
 
@@ -379,7 +379,7 @@ Example showing how Bridge tool can detect multiple loops and connect them in on
      - .. figure:: /images/modeling_meshes_editing_edges_bridge-multi-after.png
           :width: 320px
 
-          Bridge Result.
+          Bridge result.
 
 Example of the subdivision option and surface blending with UV's.
 
@@ -393,4 +393,4 @@ Example of the subdivision option and surface blending with UV's.
      - .. figure:: /images/modeling_meshes_editing_edges_bridge-advanced-after.png
           :width: 320px
 
-          Bridge Result.
+          Bridge result.

@@ -32,7 +32,7 @@ Options
 
 .. figure:: /images/physics_collision_panel.png
 
-   Collision Panel.
+   Collision panel.
 
 
 Particle
@@ -99,7 +99,7 @@ Examples
 
 .. figure:: /images/physics_collision_defected-particles.jpg
 
-   Deflected Particles.
+   Deflected particles.
 
 Here is a *Meta* object, dupliverted to a particle system emitting downwards, and deflected by a mesh cube.
 

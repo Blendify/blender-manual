@@ -317,7 +317,7 @@ with the *Screw* tool were created using the Top Orthographic View.
 
 .. _fig-mesh-screw-angle:
 
-.. list-table:: Bended Mesh.
+.. list-table:: Bended mesh.
 
    * - .. figure:: /images/modeling_meshes_editing_duplicating_screw_angular-vector-example1.png
 
@@ -379,7 +379,7 @@ will assembly perfectly with each other.
 
        .. figure:: /images/modeling_meshes_editing_duplicating_screw_generated-perfect-spindle.png
 
-          Generated Mesh.
+          Generated mesh.
 
           You can use this technique to perform normal screw modeling.
 
@@ -397,7 +397,7 @@ The generated mesh looks like a medieval ramp!
 
      - .. figure:: /images/modeling_meshes_editing_duplicating_screw_ramp-like-generated.png
 
-          Generated Mesh with the profile at the left. The visualization is inclined a bit.
+          Generated mesh with the profile at the left. The visualization is inclined a bit.
 
 As you can see, the Screw spindles are perfectly assembled with each other,
 and they follow a straight line from top to bottom.
@@ -437,13 +437,13 @@ To make this new example as short as possible, it will recycle the last example 
 
        .. figure:: /images/modeling_meshes_editing_duplicating_screw_profile-with-vector-angle.png
 
-          Profile With Starting Vector Angle.
+          Profile with a starting vector angle.
 
      - .. _fig-mesh-screw-start-mesh:
 
        .. figure:: /images/modeling_meshes_editing_duplicating_screw_generated-with-base-vector-angle.png
 
-          Generated Mesh with the Profile.
+          Generated mesh with the profile.
 
 As you can see in Fig. :ref:`fig-mesh-screw-start-mesh`,
 Blender follows the basic angular vector of the profile, and

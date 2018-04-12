@@ -5,7 +5,7 @@ World
 
 .. figure:: /images/game-engine_world_panel.png
 
-   BGE World Panel.
+   BGE World panel.
 
 World settings enable you to set some basic effects which affect all scenes throughout your
 game, so giving it a feeling of unity and continuity. These include ambient light,

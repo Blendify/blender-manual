@@ -12,7 +12,7 @@ Vertex Weights
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_panel-overview.png
    :width: 260px
 
-   Vertex Weights Panel.
+   Vertex Weights panel.
 
    \(1) Vertex Group Categories, (2) Weight Table, (3) Tools.
 
@@ -117,7 +117,7 @@ you have direct visual control over how your Weights change when you edit the we
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-weight.png
    :width: 260px
 
-   Change Weight Value.
+   Change Weight value.
 
 
 Change a Weight
@@ -182,7 +182,7 @@ Locking
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_editor-locked.png
    :width: 260px
 
-   Vertex Weights panel Locked.
+   Vertex Weights panel locked.
 
 Whenever a Weight Group is locked, all data changing tools get disabled:
 

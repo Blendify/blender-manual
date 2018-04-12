@@ -172,7 +172,7 @@ Depth of Field
 
 .. figure:: /images/render_blender-render_camera_object-data_depth-of-field-panel.png
 
-   Camera Depth of Field Panel.
+   Camera Depth of Field panel.
 
 Real-world cameras transmit light through a lens that bends and focuses it onto the sensor.
 Because of this, objects that are a certain distance away are in focus,
@@ -218,7 +218,7 @@ Display
 
 .. figure:: /images/render_blender-render_camera_object-data_display-panel.png
 
-   Camera Display Panel.
+   Camera Display panel.
 
 Limits
    Shows a line which indicates *Start* and *End Clipping* values.

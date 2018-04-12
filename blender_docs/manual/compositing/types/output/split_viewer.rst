@@ -48,4 +48,4 @@ Examples
 .. figure:: /images/compositing_types_color_gamma_example.jpg
    :width: 700px
 
-   Example of Split Viewer node.
+   Example of a Split Viewer node.

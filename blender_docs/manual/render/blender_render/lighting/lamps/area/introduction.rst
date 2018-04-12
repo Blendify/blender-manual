@@ -11,7 +11,7 @@ This is in direct contrast to point-like artificial lights which produce sharp b
 
 .. figure:: /images/render_blender-render_lighting_lamps_area_introduction_common-options.png
 
-   Commons Options.
+   Common options.
 
 
 Lamp Options

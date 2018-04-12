@@ -153,11 +153,11 @@ Additional Snap Options
 
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_options-object-mode.png
 
-          Object Mode.
+          In Object Mode.
 
      - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_options-edit-mode.png
 
-          Edit Mode.
+          In Edit Mode.
 
 As seen by the yellow highlighted areas in the image above,
 additional controls are available to alter snap behavior. These options vary between mode

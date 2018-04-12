@@ -9,7 +9,7 @@ It is often used for grunge but is also very complex and versatile.
 
 .. figure:: /images/render_blender-render_textures_types_procedural_distorted-noise_panel.png
 
-   Distorted Noise Texture Panels.
+   Distorted Noise Texture panels.
 
 
 Options

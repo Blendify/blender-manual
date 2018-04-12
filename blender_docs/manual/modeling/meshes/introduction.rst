@@ -42,7 +42,7 @@ Operations in *Object Mode* affect the whole object.
 
 .. figure:: /images/modeling_meshes_introduction_3d-view-header-object-mode.png
 
-   Object Mode Header.
+   Object Mode header.
 
 
 Edit Mode
@@ -58,7 +58,7 @@ To modify other objects you need to leave, select them and re-enter Edit Mode.
 
 .. figure:: /images/modeling_meshes_introduction_3d-view-header-edit-mode.png
 
-   Edit Mode Header.
+   Edit Mode header.
 
 Tools and modes in the 3D View header are (left to right):
 

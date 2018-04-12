@@ -17,7 +17,7 @@ according to the given integrator chosen by the animator.
 
 .. figure:: /images/physics_particles_emitter_physics_newtonian_panel.png
 
-   Newtonian Physics Settings.
+   Newtonian Physics settings.
 
 
 Options

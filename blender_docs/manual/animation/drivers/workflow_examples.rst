@@ -48,7 +48,7 @@ Here are some examples using the scripted expression Expr to set the Driver Valu
 
 .. figure:: /images/animation_drivers_workflow-examples_object-rotation.png
 
-   Object Rotation.
+   Object rotation example.
 
 
 Orbit a Point
@@ -118,12 +118,12 @@ which can then be used in the expression ``driver_func(frame)``
 Shape Key Driver
 ^^^^^^^^^^^^^^^^
 
-This example is a Shape Key Driver. The driver was added to the shape key Value.
+This example is a shape key driver. The driver was added to the shape key Value.
 
 .. figure:: /images/animation_drivers_workflow-examples_shape-key.png
    :width: 400px
 
-   Shape Key Driver.
+   Shape key driver example.
 
 This example uses the Armature Bone "b" 's Z Rotation to control the Value of a Shape Key.
 The bone rotation mode is set to XYZ Euler.

@@ -12,7 +12,7 @@ Brush
 .. figure:: /images/sculpt-paint_painting_texture-paint_introduction_example.png
    :width: 430px
 
-   Brush Settings.
+   Brush settings.
 
 With this panel, you can create many brushes, each with unique settings (such as color and width).
 

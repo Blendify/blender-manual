@@ -44,4 +44,4 @@ Examples
 .. figure:: /images/compositing_types_color_gamma_example.jpg
    :width: 700px
 
-   Example of Gamma node.
+   Example of a Gamma node.

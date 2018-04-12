@@ -101,7 +101,7 @@ Graph View
 .. figure:: /images/animation_drivers_introduction_fcurve.png
    :align: right
 
-   Graph Editor: Driver example.
+   Driver example in the Graph editor.
 
 The main area of the :doc:`Graph editor </editors/graph_editor/index>` in Driver Mode
 shows an :doc:`F-Curve </editors/graph_editor/fcurves/introduction>` that maps the Driver Value to

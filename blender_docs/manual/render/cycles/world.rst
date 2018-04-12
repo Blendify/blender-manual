@@ -148,11 +148,11 @@ Multiple Importance Sample
 
       * - .. figure:: /images/render_cycles_world_mis-off.jpg
 
-             Multiple Importance Sample Off.
+             Multiple Importance Sample off.
 
         - .. figure:: /images/render_cycles_world_mis-on.jpg
 
-             Multiple Importance Sample On.
+             Multiple Importance Sample on.
 
 Map Resolution
    Sets the resolution of the importance map.

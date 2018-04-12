@@ -14,7 +14,7 @@ Active F-Curve Panel
 
 .. figure:: /images/editors_graph-editor_fcurves_properties_active-fcurve-panel.png
 
-   Active F-Curve Panel.
+   Active F-Curve panel.
 
 This panel displays properties for the active F-Curve.
 
@@ -43,7 +43,7 @@ Active Keyframe Panel
 
 .. figure:: /images/editors_graph-editor_fcurves_properties_active-keyframe-panel.png
 
-   Active Keyframe Panel.
+   Active Keyframe panel.
 
 Interpolation
    Set the forward :ref:`editors-graph-fcurves-settings-interpolation` for the active keyframe.

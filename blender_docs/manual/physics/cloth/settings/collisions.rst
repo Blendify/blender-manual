@@ -161,7 +161,7 @@ Bake Collision
 
 .. figure:: /images/physics_cloth_settings_collisions_bake.png
 
-   After Baking.
+   After baking.
 
 After you have set up the deflection mesh for the frame range you intend to run the simulation
 (including animating that mesh *via* armatures),

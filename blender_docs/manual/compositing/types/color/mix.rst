@@ -151,7 +151,7 @@ making the ones containing the mark ever-so-slightly brighter.
 .. figure:: /images/compositing_types_color_mix_watermark-encode.png
    :width: 700px
 
-   Embedding your mark in an Image using a Mark and Specific Position.
+   Embedding your mark in an image using a mark and specific position.
 
 Of course, if you *want* people to notice your mark, do not scale it so much,
 or make it a contrasting color. There are also many other ways,

@@ -25,7 +25,7 @@ the mirror transform to create a reversed version to complete the model.
 
 .. figure:: /images/editors_3dview_object_editing_transform_mirror_example.png
 
-   Mirroring a Selection.
+   Mirroring a selection.
 
 
 Usage

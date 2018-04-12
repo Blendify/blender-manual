@@ -42,7 +42,7 @@ with a blank space -- it's shown as a black line here but it will be alpha in yo
 
 .. figure:: /images/compositing_types_filter_inpaint_example.png
 
-   Inpaint Node Example.
+   Inpaint Node example.
 
 Inpainting fills in a couple of pixels using the surrounding image and voilà... your wire is removed.
 
