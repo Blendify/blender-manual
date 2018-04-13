@@ -1,8 +1,8 @@
 .. _bpy.types.RenderView:
 
-#############
-  Multiview
-#############
+##############
+  Multi-View
+##############
 
 .. toctree::
    :maxdepth: 2

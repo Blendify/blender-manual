@@ -1,7 +1,7 @@
 .. _bpy.types.CompositorNodeZcombine:
 
 **************
-Z-Combine Node
+Z Combine Node
 **************
 
 .. figure:: /images/compositing_types_color_z-combine_node.png
@@ -9,7 +9,7 @@ Z-Combine Node
 
    Z Combine Node.
 
-The Z-Combine node combines two images based on their Z-depth maps.
+The Z Combine node combines two images based on their Z-depth maps.
 It overlays the images using the provided Z values to
 detect which parts of one image are in front of the other.
 
@@ -33,7 +33,7 @@ Properties
 Use Alpha
    The chosen Image pixel alpha channel is also carried over.
    If a pixel is partially or totally transparent,
-   the result of the Z-Combine will also be partially transparent;
+   the result of the Z Combine will also be partially transparent;
    in which case the background image will show through the foreground (chosen) pixel.
 Anti-Alias Z
    Applies :term:`Anti-Aliasing` to avoid artifacts at sharp edges or areas with a high contrast.
@@ -82,7 +82,7 @@ moves to the right created the illusion of depth as Bambi moved through the fore
 
    Mix and match images.
 
-The Z-Combine can be used to merge two images as well,
+The Z Combine can be used to merge two images as well,
 using the Z values put out by two render layers.
 Using the Z values from the sphere and cube scenes above, but threading different images,
 yields the example to the right.
@@ -90,7 +90,7 @@ yields the example to the right.
 .. figure:: /images/compositing_types_color_z-combine_example-3.png
    :width: 700px
 
-   Z-Combine in action.
+   Z Combine in action.
 
 In this node setup a render scene is mixed with a flat image. In the side view of the scene,
 the purple cube is 10 units away from the camera, and the gray ball is 20.

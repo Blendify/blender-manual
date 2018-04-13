@@ -18,7 +18,7 @@ Inputs
 ID value
    Input for the *Object Index* or *Material Index* render pass.
    Which is an output of the :doc:`Render Layers node </compositing/types/input/render_layers>` or
-   the :doc:`Image node </compositing/types/input/render_layers>` with a multilayer format.
+   the :doc:`Image node </compositing/types/input/render_layers>` with a multi-layer format.
 
 
 Properties

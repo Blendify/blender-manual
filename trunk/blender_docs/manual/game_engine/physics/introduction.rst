@@ -90,7 +90,7 @@ Also note that you can see how the Bullet triangulation is working
   - *Thick*, or *Many White Lines* -- A compound collision mesh/meshes.
 - *Violet* -- Bounding meshes for Soft bodies.
 - *Red* -- The Bounding Box, the outer boundary of object.
-  It is always aligned with global X Y and Z, and is used to optimize calculations.
+  It is always aligned with global X, Y and Z, and is used to optimize calculations.
   Also represents meshes that have been forced into "no sleep" status.
 - *Yellow* -- Normals.
 - *Black* -- When in wireframe, this is your mesh's visual appearance.

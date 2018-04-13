@@ -37,7 +37,7 @@ Gravity
 Threaded Sculpt
    Takes advantage of multiple CPU processors to improve sculpting performance.
 Fast Navigation
-   For *multiresolution* models, shows low resolution while navigating in the viewport.
+   For *multi-resolution* models, shows low resolution while navigating in the viewport.
 Use Deform Only
    Limits the activated modifiers on the active object to Deform Modifiers, and Multiresolution.
    Constructive modifiers (like Subdivision Surface, Mirror and other) get deactivated,

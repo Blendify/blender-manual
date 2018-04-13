@@ -74,7 +74,7 @@ Timestep
    The simulation time step per frame.
 Subframes
    Subframes to simulate for improved stability and finer granularity in simulations.
-   Use higher values for faster moving particles.
+   Use higher values for faster-moving particles.
 
 
 Collision

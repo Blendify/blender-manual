@@ -12,7 +12,7 @@ that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
 .. note::
 
-   Multi-View drawing requires capable graphics card and drivers with *Triple Buffer* support.
+   Multi-view drawing requires capable graphics card and drivers with *Triple Buffer* support.
    If the *Automatic* mode does not work,
    set the *Window Draw Method* in the :doc:`System User Preferences </preferences/system>`.
 
@@ -255,7 +255,7 @@ Multi-View and Stereo 3D Image I/O
 ==================================
 
 Multi-View and Stereo 3D
-   Multi-View images can be saved in special formats according to the production requirements.
+   Multi-view images can be saved in special formats according to the production requirements.
    By default the system saves each view as an individual file,
    thus generating as many files as views to be rendered.
    In stereo 3D productions, for the final deployment or
@@ -279,10 +279,10 @@ Lossless Formats
    For the Stereo 3D formats the only lossless options are
    *Top-Bottom* and *Side-by-Side* without the Squeezed Frame option.
 Multi-View OpenEXR
-   Another option is to use Multi-View OpenEXR files.
+   Another option is to use multi-view OpenEXR files.
    This format can save multiple views in a single file and is backward compatible
    with old OpenEXR viewers (you see only one view though).
-   Multi-View native support is only available to OpenEXR.
+   Multi-view native support is only available to OpenEXR.
 
 
 Image Editor
@@ -301,7 +301,7 @@ Views Format
    When you drag and drop an image into the UV/Image Editor, Blender will open it as an individual images at first.
    If your image was saved with one of the Stereo 3D formats, you can change how
    Blender should interpret the image by switching the mode to Stereo 3D,
-   turning on Use Multi-View and picking the corresponding stereo method.
+   turning on *Use Multi-View* and picking the corresponding stereo method.
 
    .. figure:: /images/render_workflows_multiview_usage_image-editor-multi-view.png
 
@@ -311,10 +311,10 @@ Views Format
 Compositor
 ==========
 
-The compositor works smoothly with Multi-View.
+The compositor works smoothly with multi-view images.
 The compositing of a view is completed before the remaining views start to be composited.
 The pipeline is the same as the single-view workflow, with the difference that you can use Images,
-Movies or Image Sequences in any of the supported Multi-View formats.
+Movies or Image Sequences in any of the supported multi-view formats.
 
 .. figure:: /images/render_workflows_multiview_usage_compositor.png
 

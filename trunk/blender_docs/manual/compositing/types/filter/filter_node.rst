@@ -41,7 +41,7 @@ Type
    Kirsch
       Giving a better blending as Sobel or Prewitt, when approaching an edge.
    Shadow
-      Performs a relief emboss/ bumpmap effect, darkening outside edges.
+      Performs a relief, emboss effect, darkening outside edges.
 
 
 Outputs
