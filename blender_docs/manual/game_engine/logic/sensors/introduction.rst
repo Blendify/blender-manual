@@ -44,7 +44,7 @@ Checkbox button
 X button
    Deletes the sensor.
 
-.. note:: Note about triggers
+.. note:: Triggers
 
    If a controller does not get triggered by any connected sensor
    (regardless of the sensors' state) it will not be activated at all.

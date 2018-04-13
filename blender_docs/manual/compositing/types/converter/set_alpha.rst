@@ -73,7 +73,7 @@ to produce the composite image. The Set Alpha node will thus, depending on the f
 produce a black image that has some degree of transparency.
 Setup and Animate, and you have an image sequence that fades to black over a 2-second period.
 
-.. note:: No Scene information used
+.. note:: No Scene Information Used
 
    This example node map does not use the Render Layer node.
    To produce this 2-second animation, no Blender scene information was used.

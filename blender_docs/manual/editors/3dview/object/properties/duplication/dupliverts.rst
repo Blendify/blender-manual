@@ -22,7 +22,7 @@ The object can be of any object type which Blender supports.
 The second approach is to use them to model an object starting from a single part of it
 (e.g. the spikes in a club, the thorns of a sea-urchin, the tiles in a wall, the petals in a flower).
 
-.. note:: Download example blend-file
+.. note:: Download Example Blend-File
 
    You can download a file with the examples described on this page.
    In `this blend <https://wiki.blender.org/index.php/:File:Manual-2.5-DupliVerts-Examples.blend>`__,

@@ -134,7 +134,7 @@ To load a different *Font*, click one of the *Load* buttons in the
 The :doc:`File Browser </editors/file_browser/index>` will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
 
-.. note:: Location of fonts on Unix
+.. note:: Location of Fonts on Unix
 
    Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``,
    but not always. They may be in other locations as well,

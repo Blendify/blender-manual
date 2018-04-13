@@ -20,7 +20,7 @@ You can also add primitives in Edit Mode at the 3D cursor.
 
    Blender's standard primitives.
 
-.. note:: Note about planar primitives
+.. note:: Planar Primitives
 
    You can make a planar mesh three-dimensional by moving one or more of the vertices out of its plane
    (applies to *Plane*, *Circle* and *Grid*).

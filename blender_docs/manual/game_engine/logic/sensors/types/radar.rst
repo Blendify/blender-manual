@@ -9,7 +9,7 @@ but only within an angle from an axis, forming an invisible cone with the top in
 center and base at a distance on an axis.
 This sensor is useful for giving bots sight only in front of them, for example.
 
-.. note:: Note about soft bodies
+.. note:: Soft Bodies
 
    The *Radar* sensor cannot detect soft bodies.
    This is a limitation in Bullet, the physics library used by the Game Engine.

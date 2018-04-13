@@ -70,7 +70,7 @@ and it will show you a button for stopping your capture.
 
    Info Header with the Capture Stop button.
 
-.. note:: The only way to stop the Screencast
+.. note:: The Only Way to Stop the Screencast
 
    Pressing the Stop button in the header of the Info Editor is the only way to stop the Screencast capture.
    If you press :kbd:`Esc`, the shortcut will only work for operations
