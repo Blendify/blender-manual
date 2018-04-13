@@ -98,7 +98,7 @@ All Groups
 Topology Mirror
    Mirror for meshes which are not 100% symmetric (approximate mirror).
 
-   .. tip:: Mirror to opposite bone
+   .. tip:: Mirror to Opposite Bone
 
       If you want to create a mirrored weight group for the opposite bone (of a symmetric character),
       then you can do this:

@@ -24,7 +24,7 @@ Python script example::
    import PhysicsConstraints
    print dir(PhysicsConstraints)
 
-.. note:: Note about parameter settings
+.. note:: Parameter Settings
 
    Since this API is not well documented, it can be unclear what kind of values to use for setting parameters.
    In general, damping settings should be in the range of 0 to 1 and

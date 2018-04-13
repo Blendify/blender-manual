@@ -213,7 +213,7 @@ using the *Offset X* value in the *Texture* tab of the Mapping panel.
 but if you do you will have to adjust the size of the halos by shrinking them,
 or they will overlap. Fig. :ref:`fig-bi-material-halo-dotmatrix`).
 
-.. note:: Note about material indices
+.. note:: Material Indices
 
    Halo materials only work when applied using the first material index.
    Any material(s) in a subsequent material index will not be rendered.

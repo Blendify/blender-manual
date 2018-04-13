@@ -60,7 +60,7 @@ Or use :kbd:`Ctrl-Alt-RMB` on an edge.
 
    An edge ring.
 
-.. note:: Convert selection to whole faces
+.. note:: Convert Selection to Whole Faces
 
    If the edge ring selection happened in Edge Select Mode, switching to Face Select Mode will erase the selection.
 

@@ -8,7 +8,7 @@ A *Collision Sensor* works like a "touch sensor" but can also filter by property
 Only objects with the property/material with that name will generate a positive pulse upon collision.
 Leave blank for collision detection with any object.
 
-.. note:: Note about soft bodies
+.. note:: Soft Bodies
 
    The *Collision* sensor cannot detect collisions with soft bodies.
    This is a limitation in Bullet, the physics library used by the Game Engine.

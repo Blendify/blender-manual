@@ -51,7 +51,7 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 
    :doc:`Read more about the Transform Manipulator </editors/3dview/object/editing/transform/control/manipulators>`
 
-.. tip:: Combining with other controls
+.. tip:: Combining with Other Controls
 
    All of the precision controls detailed on the page can be combined with
    the :doc:`Axis Locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`
@@ -68,7 +68,7 @@ Grab/move
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_introduction_blender-units.png
    :align: right
 
-   1 Blender Unit (default zoom level).
+   One Blender Unit (default zoom level).
 
 For grab/move operations at the default zoom level,
 holding :kbd:`Ctrl` will cause your selection to move by increments of 1 Blender Unit (1 BU)

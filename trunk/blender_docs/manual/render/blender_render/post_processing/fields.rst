@@ -42,7 +42,7 @@ Upper First / Lower First
 Still
    Disables the half-frame time step between fields (*x*).
 
-.. note:: Setting up the correct field order
+.. note:: Setting up the Correct Field Order
 
    Blender's default setting is to produce Even fields *before*
    Odd fields; this complies with European PAL standards. Odd fields are scanned

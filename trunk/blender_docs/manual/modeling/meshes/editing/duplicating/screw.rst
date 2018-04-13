@@ -115,7 +115,7 @@ but more than half could cause the Screw Tool to have wrong behavior or errors),
 and profiles that are closed with faces (like a cone or half sphere)
 will be closed automatically at their ends, like if you were extruding a region.
 
-.. tip:: Simple way to not result in error
+.. tip:: Simple Way to not Result in Error
 
    Only one open Profile, all of the others can be closed, avoid volumes and some profiles closed with faces...
 
@@ -290,7 +290,7 @@ change abruptly from negative to positive and vice versa to give the extrusion a
 and you will have to tweak the corresponding Axis accordingly to achieve the Clockwise and
 Counterclockwise effect.
 
-.. note:: Vectors that are not parallel with Blender Axis
+.. note:: Vectors that are not Parallel with Blender Axis
 
    The high sensibility for the vector does not apply to vectors that
    give the Screw Tool a starting angle (e.g. any non-parallel vector),

@@ -40,7 +40,7 @@ Randomize
 Reverse
    Simply reverse the order of the selected elements.
 
-.. hint:: To enable viewing indices:
+.. hint:: Enabling the Display Indices Option
 
    Type ``bpy.app.debug = True`` into the Python Console and a checkbox will appear
    in the Properties region under :menuselection:`Mesh Display --> Edge Info --> Indices`.

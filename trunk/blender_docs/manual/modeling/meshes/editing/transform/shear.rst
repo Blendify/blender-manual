@@ -55,7 +55,7 @@ which is located above the mesh.
 When the mouse is moved to the left during a *Shear* transform,
 the selected vertices are moved to the right as they are below the horizontal axis.
 
-.. tip:: Shear transform magnitude
+.. tip:: Shear Transform Magnitude
 
    The magnitude of the *Shear* transform applied to the selected elements is
    directly proportional to the distance from the horizontal axis.

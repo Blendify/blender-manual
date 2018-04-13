@@ -70,7 +70,7 @@ you may choose different radius values for each of the RGB colors.
 If you use a very large radius value for a color,
 its light is evenly distributed over the whole object.
 
-.. note:: Note about scatter radius
+.. note:: Scatter Radius
 
    Because of the way this scattering is calculated, when using large radius values,
    you will notice fringing artifacts that appear as the complementary
