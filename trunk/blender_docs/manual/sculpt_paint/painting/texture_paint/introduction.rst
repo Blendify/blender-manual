@@ -168,7 +168,7 @@ To avoid this, zoom out or use an Ortho mode viewport.
 Perspective View & Low Poly
 ---------------------------
 
-When painting onto a face in perspective mode onto a low poly object with normals pointing away from the view,
+When painting onto a face in perspective mode onto a low-poly object with normals pointing away from the view,
 painting may fail; to workaround disable the *Normal* option in the paint panel.
 
 Typically this happens when painting onto the side of a cube

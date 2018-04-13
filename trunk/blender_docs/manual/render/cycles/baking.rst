@@ -97,21 +97,21 @@ Clear
    If selected, clears the image before baking render.
 Select to Active
    Bake shading on the surface of selected objects to the active object.
-   The rays are cast from the lowpoly object inwards towards the highpoly object.
-   If the highpoly object is not entirely involved by the lowpoly object, you can tweak the rays start point with
+   The rays are cast from the low-poly object inwards towards the high-poly object.
+   If the high-poly object is not entirely involved by the low-poly object, you can tweak the rays start point with
    *Ray Distance* or *Cage Extrusion* (depending on whether or not you are using cage).
    For even more control you can use a *Cage Object*.
 
 .. note:: Memory Usage
 
    There is a CPU fixed memory footprint for every object used to bake from.
-   In order to avoid crashes due to lack of memory, the highpoly objects can be joined before the baking process.
+   In order to avoid crashes due to lack of memory, the high-poly objects can be joined before the baking process.
    The render tiles parameter also influence the memory usage, so the bigger the tile the less overhead you have,
    but the more memory it will take during baking (either in GPU or CPU).
 
 Cage
    Cast rays to active object from a cage.
-   A cage is a ballooned-out version of the lowpoly mesh created either automatically
+   A cage is a ballooned-out version of the low-poly mesh created either automatically
    (by adjusting the ray distance) or manually (by specifying an object to use).
    When not using a cage the rays will conform to the mesh normals. This produces glitches on the edges,
    but it is a preferable method when baking into planes to avoid the need of adding extra loops around the edges.

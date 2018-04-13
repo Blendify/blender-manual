@@ -184,9 +184,9 @@ Select to Active
    Distance
       Controls how far a point on another object can be away from the point on the active object.
       Only needed for *Selected to Active*.
-      A typical use case is to make a detailed, high poly object,
+      A typical use case is to make a detailed, high-poly object,
       and then bake its normals onto an object with a low polygon count.
-      The resulting normal map can then be applied to make the low poly object look more detailed.
+      The resulting normal map can then be applied to make the low-poly object look more detailed.
    Bias
       Bias towards further away from the object (in Blender units).
 

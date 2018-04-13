@@ -22,7 +22,7 @@ Draw All Edges
    Displays all edges for mesh objects.
 Bounds
    Displays a bounding box around an object.
-   This can be helpful if you have high poly objects that slow down the viewport.
+   This can be helpful if you have high-poly objects that slow down the viewport.
 
    Draw Bounds Type
       Displays the object's bounds calculated with different primitive shapes
@@ -37,7 +37,7 @@ Transparency
 
 Maximum Draw Type
    The Maximum shading mode to display in the 3D View.
-   This can be useful if you have a high poly object that is slowing down performance.
+   This can be useful if you have a high-poly object that is slowing down performance.
 
 .. _objects-display-object-color:
 

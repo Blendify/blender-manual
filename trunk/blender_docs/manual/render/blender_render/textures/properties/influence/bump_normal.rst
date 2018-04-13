@@ -74,5 +74,5 @@ for more information on applying a texture to a mesh's material. Special conside
 - When using a Normal map, map the texture to *Normal*.
 
 The coordinate systems of the two objects must match. For example, if you bake using a UV map of the high-poly model,
-you must UV map the low poly model and line up its UV coordinates to match the outline of the high-poly image.
+you must UV map the low-poly model and line up its UV coordinates to match the outline of the high-poly image.
 (see :ref:`UV unwrapping <editors-uv-image-index>` to line up with the high-poly map edges).

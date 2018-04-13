@@ -153,7 +153,7 @@ Basically the Armature will only deform a mesh if the Armature is the parent of 
 But at that point, your mesh will lose its physics responsiveness, and only hang in the air
 (it is copying the location/rotation of the Armature).
 To somewhat fix this you can then parent the Armature to a collision mesh
-(perhaps a simple box or otherwise very-low-poly mesh).
+(perhaps a simple box or otherwise very low-poly mesh).
 This "Deformation Mesh" will be the physics representative, being type: Dynamic or Rigid Body,
 but it will be set to Invisible. Then "Display Mesh" will be the opposite set to *No Collision*,
 but visible. This still leaves the problem mentioned in the previous paragraph.
