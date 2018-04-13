@@ -35,7 +35,7 @@ Various things that are calculated in a standard render include:
   Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
 - How far away from the camera are objects' surfaces (Z depth)?
   Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
-- Does an object have a normal vector (bumpmap)?
+- Does an object have a normal vector (bump map)?
   Do shadows and apparent geometry need to be calculated for any objects?
 - Is there any specularity? Are objects with textures such as metal shiny at all?
 
@@ -52,7 +52,7 @@ the Render Layer, all of the layer's outputs appeared as connection points on th
 
 Render Passes that produce Images can be directly viewed in a viewer, or,
 if they are the only pass that is rendered, saved as the render image. If the pass is enabled,
-it can be saved in a multilayer OpenEXR format.
+it can be saved in a multi-layer OpenEXR format.
 
 If the Render Pass output is not an image but is a map,
 it needs to be translated into something that we can see. For example, the Z-depth map is
@@ -99,7 +99,7 @@ Z
 Vector
    The direction and speed things are moving. Used with Vector Blur.
 Normal
-   Calculates lighting and apparent geometry for a bumpmap (an image which is used to fake detail on an object)
+   Calculates lighting and apparent geometry for a bump map (an image which is used to fake detail on an object)
    or for changing the apparent direction of light falling on an object.
 UV
    Allows texturing after rendering. See UV node.

@@ -28,8 +28,8 @@ Scene
 
    .. hint::
 
-      To use composited footage from another scene, it has to be rendered into a multilayer e.g. ``OpenEXR`` frameset
-      as an intermediate file store and then imported with Image input node again.
+      To use composited footage from another scene, it has to be rendered into a multi-layer frameset
+      (e.g. ``OpenEXR``) as an intermediate file store and then imported with Image input node again.
 
 Render layer
    A list of available :doc:`Render Layers </render/post_process/layers>`.

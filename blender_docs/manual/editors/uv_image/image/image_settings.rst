@@ -154,6 +154,6 @@ Fields
    Video frames consist of two different images (fields) that are merged.
    This option ensures that when fields are rendered,
    the correct field of the image is used in the correct field of the rendering.
-   *MIP Mapping* cannot be combined with *Fields*. Order of video fields:
+   *Mip-mapping* cannot be combined with *Fields*. Order of video fields:
 
    Upper First, Lower First.

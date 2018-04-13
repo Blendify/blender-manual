@@ -152,7 +152,7 @@ Scattering Weight
       When light enters through the front of the object, how much is absorbed or added?
       (Normally 1.0 or 100%).
    Back
-      Factor to increase or decrease the back scattering. Light hitting an object from behind can go all the way
+      Factor to increase or decrease the backscattering. Light hitting an object from behind can go all the way
       through the object and come out on the front of the object. This happens mostly on thin objects,
       like hands and ears.
 

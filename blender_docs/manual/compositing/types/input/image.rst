@@ -42,7 +42,7 @@ Alpha
 Z
    Z depth layer.
 
-.. note:: MultiLayer Format
+.. note:: Multi-Layer Format
 
-   When a MultiLayer file format, like ``EXR``, is loaded,
+   When a multi-layer file format, like ``EXR``, is loaded,
    each layer is made available as a socket.

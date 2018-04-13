@@ -294,7 +294,7 @@ Bake Mode
    Specular Colors
       Bake specular colors.
 Bake from Multiresolution
-   Bake directly from Multiresolution object.
+   Bake directly from a multi-resolution object.
 Normalized
    In Displacement Mode:
       Normalize to the distance.

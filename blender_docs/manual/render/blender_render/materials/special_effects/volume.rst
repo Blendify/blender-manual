@@ -118,11 +118,11 @@ The default method for scattering light in a volume is for the light to be defle
 all directions, also known as Isotropic scattering.
 In the real world different types of media can scatter light in different angular directions,
 known as Anisotropic scattering.
-Back-scattering means that light is scattered more towards the incoming light direction, and
-forward-scattering means it is scattered along the same direction as the light is traveling.
+Backscattering means that light is scattered more towards the incoming light direction, and
+forward scattering means it is scattered along the same direction as the light is traveling.
 
 Asymmetry
-   Asymmetry controls the range between back-scattering (-1.0) and forward-scattering (1.0).
+   Asymmetry controls the range between backscattering (-1.0) and forward scattering (1.0).
    The default value of 0.0 gives Isotropic scattering (even in all directions).
 
 

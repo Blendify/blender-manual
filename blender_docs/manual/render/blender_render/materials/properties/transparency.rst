@@ -286,7 +286,7 @@ In Blender, transparent shadows are set on the materials
 that receive the shadows from the transparent object.
 This is enabled and disabled with the *Receive Transparent* button,
 in the :menuselection:`Material --> Shadow` panel. The shadow's brightness is
-dependent on the *Alpha* value of the shadow casting material.
+dependent on the *Alpha* value of the shadow-casting material.
 
 Alternatives to transparent ray-traced shadows can be found in the *World* tab,
 namely the *Ambient Occlusion*, *Environment Lighting*,

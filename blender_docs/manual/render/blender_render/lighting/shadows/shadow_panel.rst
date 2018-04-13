@@ -25,7 +25,7 @@ Only Shadow
    This feature is often used to control how and where shadows fall by having a light which
    illuminates but has no shadow,
    combined with a second light which does not illuminate but has *Only Shadow* enabled,
-   allowing the user to control shadow placement by moving the "Shadow Only" light around.
+   allowing the user to control shadow placement by moving the "Shadow-only" light around.
 
 Shadow color
    This color picker control allows you to choose the color of your cast shadows (black by default).

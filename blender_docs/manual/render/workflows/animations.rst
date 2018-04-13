@@ -52,7 +52,7 @@ complete your movie.
 .. rubric:: Frame Sequence
 
 The Frame Sequence is a much more stable approach,
-where you set your output format to a still format (such as JPG, PNG or MultiLayer),
+where you set your output format to a still format (such as JPG, PNG or a multi-layer format),
 and click *Animation* to render your scene out to a set of images,
 where each image is a frame in the sequence.
 
@@ -108,7 +108,7 @@ Frame Sequence Workflow
 
    .. warning::
 
-      The :doc:`VSE </editors/vse/index>` does not support Multilayer EXR files.
+      The :doc:`VSE </editors/vse/index>` does not support multi-layer EXR files.
       To render to a video format you will have to skip the next three steps and
       instead use an :doc:`Image Input node </compositing/types/input/image>`
       in the :doc:`compositor </compositing/types/input/image>`

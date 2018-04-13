@@ -73,15 +73,15 @@ Symmetrize
    it may happen that the model goes asymmetric, so this a good tool for that.
 
 
-Multi-Resolution Modifier
-=========================
+Multiresolution Modifier
+========================
 
 The Multiresolution Modifier is needed to sculpt. The modifier will subdivide the mesh.
 The more subdivision the more computing will be needed. With the Blender stack
-non-destructive data, multiresolution sculpting will help when you have a clean topology base mesh.
+non-destructive data, multi-resolution sculpting will help when you have a clean topology base mesh.
 
-When sculpting with multiresolution we have the ability to sculpt in different levels of subdivision,
-this mean we can sculpt some details in subdivision level 1 and add more details in
+When sculpting with multiple resolutions you have the ability to sculpt in different levels of subdivision,
+this mean you can sculpt some details in subdivision level 1 and add more details in
 subdivision 2 and go back to subdivision 1 correct some mistakes. While this workflow is
 often used, Multiresolution Modifier has some limitations. You may end up with some mesh distortions.
 As an advice, add as more details as possible before adding more subdivisions.

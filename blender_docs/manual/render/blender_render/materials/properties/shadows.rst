@@ -43,7 +43,7 @@ set up on a light blue plane to receive the shadows.
 The illustrations were all taken in Blender Renderer, with Multitexture mode.
 
 
-Shadow Receiving Object Material
+Shadow-Receiving Object Material
 --------------------------------
 
 The following options affect the material that receives shadows:
@@ -69,7 +69,7 @@ Receive Transparent
           Plane with Receive and Receive Transparency.
 
 
-Shadow Casting Object Material
+Shadow-Casting Object Material
 ------------------------------
 
 The following options affect the material that casts shadows:
