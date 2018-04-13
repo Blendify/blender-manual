@@ -97,7 +97,7 @@ Islands Handling Refinement
    This setting only affects UV transfer currently. It allows to avoid a given destination face to get
    UV coordinates from different source UV islands. Keeping it at 0.0 means no island handling at all.
    Typically, small values like 0.02 are enough to get good results, but if you are mapping from
-   a very high poly source towards a very low poly destination, you may have to raise it quite significantly.
+   a very high-poly source towards a very low-poly destination, you may have to raise it quite significantly.
 
 
 Usage
