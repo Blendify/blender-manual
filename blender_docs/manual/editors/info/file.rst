@@ -21,7 +21,7 @@ Recover Auto Save
 Save :kbd:`Ctrl-S`
    :doc:`Save </data_system/files/save>` the current blend-file.
 Save As :kbd:`Shift-Ctrl-S`
-   Opens the File browser to specify file name and location of :doc:`save </data_system/files/save>`.
+   Opens the File Browser to specify file name and location of :doc:`save </data_system/files/save>`.
 Save Copy :kbd:`Shift-Alt-S`
    :doc:`Saves </data_system/files/save>` a copy of the current file.
 User Preferences :kbd:`Ctrl-Alt-U`

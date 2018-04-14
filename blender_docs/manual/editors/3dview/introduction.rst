@@ -39,7 +39,7 @@ Controls
 --------
 
 Mode
-   The 3D view has :doc:`several modes </editors/3dview/modes>`
+   The 3D View has :doc:`several modes </editors/3dview/modes>`
    used for editing different kinds of data:
 
    - Object Mode

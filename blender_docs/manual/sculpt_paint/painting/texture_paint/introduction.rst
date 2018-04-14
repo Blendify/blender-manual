@@ -122,10 +122,10 @@ option to save your work with a different name or overwrite the original image.
    you should keep them in a directory separate from other images.
 
 The image format for saving is independent of the format for rendering.
-The format for saving a UV image is selected in the header of the File browser,
+The format for saving a UV image is selected in the header of the File Browser,
 and defaults to ``PNG`` (``.png``).
 
-If Packing is enabled in the File browser's header,
+If Packing is enabled in the File Browser's header,
 or if you manually :menuselection:`Image --> Pack Image`,
 saving your images to a separate file is not necessary.
 

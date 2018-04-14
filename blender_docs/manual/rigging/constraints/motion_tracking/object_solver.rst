@@ -31,7 +31,7 @@ Options
    Object Solver Constraint panel.
 
 Active Clip
-   Receive tracking data from the active movie clip in the Movie clip editor.
+   Receive tracking data from the active movie clip in the Movie Clip editor.
    If unchecked, an option appears to choose from the other clips.
 Object
    Select a tracked object to receive transform data from.

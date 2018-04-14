@@ -16,7 +16,7 @@ will be available, because the other outputs will not have any values
 associated with them.
 When a tracked clip is chosen, Blender will fulfill the outputs using
 internal values taken from the tracking. So the controls for
-start and end frames will be defined at the Movie clip editor.
+start and end frames will be defined at the Movie Clip editor.
 
 
 Inputs

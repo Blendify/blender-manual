@@ -7,7 +7,7 @@ Metadata
 
    Metadata panel.
 
-The *Metadata* panel includes options for writing meta-data into render output.
+The *Metadata* panel includes options for writing metadata into render output.
 
 .. note::
 

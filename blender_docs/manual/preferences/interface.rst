@@ -16,7 +16,7 @@ Scale
    Adjusts the size of fonts and buttons relative to the automatically detected DPI.
    During typical usage, you may prefer to use zoom which is available in many parts of Blender interface.
 Line Width
-   Scale of lines and points in the interface e.g. button outlines, edges and vertex points in the 3D view.
+   Scale of lines and points in the interface e.g. button outlines, edges and vertex points in the 3D View.
 
    Thin, Auto, Thick
 Tooltips

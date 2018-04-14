@@ -135,7 +135,7 @@ Auto Keyframe
    With this enabled, keyframes will automatically get inserted when any corner is moved.
 Image
    Field to select an image which will be displayed inside the plane track.
-   This image is for preview purposes in Movie clip editor only.
+   This image is for preview purposes in the Movie Clip editor only.
    To include it in your final render,
    see :doc:`Plane Track Deform node </compositing/types/distort/plane_track_deform>`.
 Opacity

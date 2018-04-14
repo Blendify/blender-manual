@@ -36,7 +36,7 @@ State Colors
 
 Properties have different colors and menu items for different states.
 
-.. object origin, 3d view overlay
+.. object origin, 3D View overlay
 
 .. list-table::
 

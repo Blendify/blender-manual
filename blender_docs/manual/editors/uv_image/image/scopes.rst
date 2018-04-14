@@ -7,7 +7,7 @@ Scopes
 Histogram
 =========
 
-.. copied from the sequencer.
+.. copied from the Sequencer.
 
 This mode displays a graph showing the distribution of color information in the pixels of
 the currently displayed image. The X axis represents values of pixel, from 0 to 1 (or 0 to 255),

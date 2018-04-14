@@ -6,7 +6,7 @@
 Python Console
 **************
 
-The Python console is a quick way to execute commands,
+The Python Console is a quick way to execute commands,
 with access to the entire Python API, command history and auto-complete.
 
 Its a good way to explore possibilities, which can then be pasted into larger scripts.
