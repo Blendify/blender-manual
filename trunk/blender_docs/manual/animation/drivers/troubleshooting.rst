@@ -31,7 +31,7 @@ or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --
 
      - .. figure:: /images/animation_drivers_troubleshooting_autorun-user-preference.png
 
-          The Auto Run Python Scripts checkbox in the User Preference.
+          The Auto Run Python Scripts checkbox in the User Preferences.
 
 
 Rotational Properties are Radians

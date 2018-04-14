@@ -30,7 +30,7 @@ Alpha mode
    :term:`Straight Alpha` or :term:`Premultiplied Alpha`
 Change Data/File
    Same as the *Path* and *File* fields, but
-   this time combined to open the File browser in order to find the file(s) you search.
+   this time combined to open the File Browser in order to find the file(s) you search.
    :menuselection:`Strip --> Change --> Paths/files`
 
 MPEG Preseek

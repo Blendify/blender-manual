@@ -15,7 +15,7 @@ OpenGL Preview
 
    Sequencer Preview Shading
       Method for rendering OpenGL renders.
-      See the 3D view's :ref:`view3d-viewport-shading` options.
+      See the 3D View's :ref:`view3d-viewport-shading` options.
    Textured Solid
       Display textures even when in solid mode.
 

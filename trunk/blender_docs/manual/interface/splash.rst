@@ -32,7 +32,7 @@ Branch
    Optional branch id.
 
 Interaction
-   Key configuration the same as :menuselection:`User preferences --> Input`.
+   Key configuration the same as :menuselection:`User Preferences --> Input`.
 Links
    Links official web pages, the same could be found in the *Help* Menu of the Info Editor.
    See :ref:`help-menu`.

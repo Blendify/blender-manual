@@ -119,7 +119,7 @@ Confirm
    - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file`).
    - :kbd:`Alt-LMB` -- Open the directory externally (using the system's file manager).
 Cancel
-   Cancels the Open or Save file selection and closes the File browser :kbd:`Esc` or
+   Cancels the Open or Save file selection and closes the File Browser :kbd:`Esc` or
    by using the *Back to Previous* in the Info editor header.
 
 
@@ -147,7 +147,7 @@ Bookmarks
 ---------
 
 A :ref:`List View <ui-list-view>` of shortcuts to folders,
-that you want to be able to access often without having to navigate to them in the File browser.
+that you want to be able to access often without having to navigate to them in the File Browser.
 
 Add ``+``
    This button adds the current directory to the list.
@@ -202,8 +202,8 @@ Directory navigation is also possible through the arrow keys with :kbd:`Alt` pre
 File Drop
 ^^^^^^^^^
 
-You now can simply drag & drop files from your local file explorer into the Blender File browser.
-This will relocate the File browser to the directory of the dropped file and the file will be selected.
+You now can simply drag & drop files from your local file explorer into the Blender File Browser.
+This will relocate the File Browser to the directory of the dropped file and the file will be selected.
 
 
 Selection

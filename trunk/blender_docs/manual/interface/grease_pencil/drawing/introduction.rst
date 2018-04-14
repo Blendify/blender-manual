@@ -66,8 +66,8 @@ Additive Drawing
 
 With the "Additive Drawing" option enabled the active frame's
 strokes will be carried over/copied if you start drawing on an empty frame
-(i.e. one without any keyframe already). This saves the effort of keeping a Dope sheet
-open, and having to remember to duplicate the current frame before starting to draw
+(i.e. one without any keyframe already). This saves the effort of keeping a Dope Sheet open,
+and having to remember to duplicate the current frame before starting to draw
 the next pose (or risk managing to draw the perfect pose, but without everything else).
 
 This option makes it easier to animate shots where you're building on a result from a previous frame.

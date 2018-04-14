@@ -61,7 +61,7 @@ while visually keeping the object data in-place.
 
 The object origin point is moved to the global origin, to rotation is cleared and scale values are set to 1.
 
-For simple cases you wont notice any difference the 3D view or rendered output,
+For simple cases you wont notice any difference the 3D View or rendered output,
 however modifiers and constraints may depend on object transformation.
 
 When running *Apply Transform* the *Operator* panel lets you choose the combination of transformations to apply.

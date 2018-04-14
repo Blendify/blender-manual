@@ -64,7 +64,7 @@ To give an example, here is the simplest possible add-on::
        print("Goodbye World")
 
 ``bl_info``
-   is a dictionary containing add-on meta-data such as the title,
+   is a dictionary containing add-on metadata such as the title,
    version and author to be displayed in the User Preferences add-on list.
 ``register``
    is a function which only runs when enabling the add-on,
@@ -191,7 +191,7 @@ The objects should move as before.
 Install the Add-on
 ------------------
 
-Once you have your add-on within in Blender's text editor,
+Once you have your add-on within in Blender's Text editor,
 you will want to be able to install it so it can be enabled in the User Preferences to load on startup.
 
 Even though the add-on above is a test, let's go through the steps anyway so you know how to do it for later.
@@ -211,7 +211,7 @@ if you want it to be enabled on restart, press *Save as Default*.
 
    The destination of the add-on depends on your Blender configuration.
    When installing an add-on the source and destination paths are printed in the console.
-   You can also find add-on path locations by running this in the Python console.
+   You can also find add-on path locations by running this in the Python Console.
 
    .. code-block:: python
 
