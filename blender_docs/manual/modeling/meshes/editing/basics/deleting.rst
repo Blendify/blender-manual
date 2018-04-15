@@ -6,9 +6,9 @@ Deleting & Dissolving
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Delete`
-   | Menu:     :menuselection:`Mesh --> Delete`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Delete`
+   :Menu:      :menuselection:`Mesh --> Delete`
 
 These tools can be used to remove components.
 
@@ -19,7 +19,7 @@ Delete
 .. admonition:: Reference
    :class: refbox
 
-   | Hotkey:   :kbd:`X`, :kbd:`Delete`
+   :Hotkey:    :kbd:`X`, :kbd:`Delete`
 
 Deletes selected vertices, edges, or faces. This operation can also be limited to:
 
@@ -53,8 +53,8 @@ Dissolve Vertices
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Vertices`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Delete --> Dissolve Vertices`
 
 Remove the vertex merging all surrounding faces.
 In the case two edges, merging them into a single edge.
@@ -90,8 +90,8 @@ Dissolve Edges
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Edges`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Delete --> Dissolve Edges`
 
 Removes edges sharing two faces (joining those faces).
 
@@ -106,8 +106,8 @@ Dissolve Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Delete --> Dissolve Faces`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Delete --> Dissolve Faces`
 
 Merges regions of faces that share edges into a single face.
 
@@ -123,7 +123,7 @@ Dissolve (Context-Sensitive)
 .. admonition:: Reference
    :class: refbox
 
-   | Hotkey:   :kbd:`Ctrl-X`
+   :Hotkey:    :kbd:`Ctrl-X`
 
 This is a convenience shortcut that dissolves
 based on the current selection mode (vertex, edge, face).
@@ -153,9 +153,9 @@ Edge Collapse
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Delete --> Edge Collapse`
-   | Hotkey:   :kbd:`Alt-M`, :menuselection:`Collapse`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Delete --> Edge Collapse`
+   :Hotkey:    :kbd:`Alt-M`, :menuselection:`Collapse`
 
 Merges each edge into single vertices.
 This is useful for taking a ring of edges and collapsing it,
@@ -180,9 +180,9 @@ Edge Loop
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode (Vertex or Edge select modes)
-   | Menu:     :menuselection:`Mesh --> Delete --> Edge Loop`
-   | Hotkey:   :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loop`
+   :Mode:      Edit Mode (Vertex or Edge select modes)
+   :Menu:      :menuselection:`Mesh --> Delete --> Edge Loop`
+   :Hotkey:    :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loop`
 
 *Edge Loop* allows you to delete a selected edge loop if it is between two other edge loops.
 This will create one face loop where two previously existed.

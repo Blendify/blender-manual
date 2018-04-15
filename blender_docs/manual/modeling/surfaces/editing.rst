@@ -15,10 +15,10 @@ Translation, Rotation, Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Transform`
-   | Menu:     :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
-   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Transform`
+   :Menu:      :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
+   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Once you have a selection of one or more control points,
 you can grab/move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
@@ -40,9 +40,9 @@ Advanced Transform Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface Tools --> Deform: Randomize`
-   | Menu:     :menuselection:`Surface --> Transform`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface Tools --> Deform: Randomize`
+   :Menu:      :menuselection:`Surface --> Transform`
 
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described
 in the :doc:`Mesh Transformation </modeling/meshes/editing/transform/index>` section.
@@ -65,10 +65,10 @@ Adding or Extruding
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Extrude`
-   | Menu:     :menuselection:`Surface --> Extrude`
-   | Hotkey:   :kbd:`E`, :kbd:`Ctrl-LMB`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Extrude`
+   :Menu:      :menuselection:`Surface --> Extrude`
+   :Hotkey:    :kbd:`E`, :kbd:`Ctrl-LMB`
 
 Unlike meshes or curves, you cannot generally directly add new control points to a surface
 (with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U or V row at once.
@@ -144,10 +144,10 @@ Opening or Closing a Surface
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Toggle Cyclic`
-   | Menu:     :menuselection:`Surface --> Toggle Cyclic`
-   | Hotkey:   :kbd:`Alt-C`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Toggle Cyclic`
+   :Menu:      :menuselection:`Surface --> Toggle Cyclic`
+   :Hotkey:    :kbd:`Alt-C`
 
 As in :ref:`curves <modeling-curves-toggle-cyclic>`,
 surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
@@ -171,10 +171,10 @@ Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Duplicate`
-   | Menu:     :menuselection:`Surface --> Duplicate`
-   | Hotkey:   :kbd:`Shift-D`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Duplicate`
+   :Menu:      :menuselection:`Surface --> Duplicate`
+   :Hotkey:    :kbd:`Shift-D`
 
 Similar as with meshes and curves, this tool duplicates the selection.
 The copy is selected and placed in *Grab* mode, so you can move it to another place.
@@ -202,10 +202,10 @@ Deleting Elements
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Delete`
-   | Menu:     :menuselection:`Surface --> Delete...`
-   | Hotkey:   :kbd:`X`, :kbd:`Delete`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Delete`
+   :Menu:      :menuselection:`Surface --> Delete...`
+   :Hotkey:    :kbd:`X`, :kbd:`Delete`
 
 The *Erase* pop-up menu of surfaces offers you two options:
 
@@ -245,9 +245,9 @@ Joining or Merging Surfaces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Surface --> Make Segment`
-   | Hotkey:   :kbd:`F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Make Segment`
+   :Hotkey:    :kbd:`F`
 
 Just like :ref:`curves <modeling-curves-make-segment>`,
 merging two surfaces requires that a single edge, a border row of control points,
@@ -306,9 +306,9 @@ Subdivision
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Subdivide`
-   | Menu:     :menuselection:`Surface --> Segments --> Subdivide`, :menuselection:`Specials --> Subdivide`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Subdivide`
+   :Menu:      :menuselection:`Surface --> Segments --> Subdivide`, :menuselection:`Specials --> Subdivide`
 
 Surface subdivision is most simple:
 using either the *Subdivide* entry in the *Specials* menu
@@ -326,9 +326,9 @@ Spin
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Spin`
-   | Menu:     :menuselection:`Surface --> Spin`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface tools --> Modeling: Spin`
+   :Menu:      :menuselection:`Surface --> Spin`
 
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
 but with less control and options (in fact, there is none!).
@@ -346,9 +346,9 @@ Switch Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Switch Direction`
-   | Menu:     :menuselection:`Surface --> Segments --> Switch Direction`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Tools --> Surface tools --> Curve: Switch Direction`
+   :Menu:      :menuselection:`Surface --> Segments --> Switch Direction`,
                :menuselection:`Specials --> Switch Direction`
 
 This tool will "reverse" the direction of any curve with at least one selected element
@@ -362,9 +362,9 @@ Other Specials Options
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     Specials
-   | Hotkey:   :kbd:`W`
+   :Mode:      Edit Mode
+   :Menu:      Specials
+   :Hotkey:    :kbd:`W`
 
 The *Specials* menu contains exactly the same additional options as for
 curves, except for *Set Radius* and *Smooth Radius*.

@@ -9,8 +9,8 @@ Snap to Symmetry
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Snap to Symmetry`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Snap to Symmetry`
 
 The Snap to Symmetry tool lets you snap a meshes vertices to their mirrored neighbors.
 
@@ -50,8 +50,8 @@ Symmetrize
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Symmetrize`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Symmetrize`
 
 The *Symmetrize* tool is a quick way to make a mesh symmetrical.
 *Symmetrize* works by cutting the mesh at the pivot point of the object,

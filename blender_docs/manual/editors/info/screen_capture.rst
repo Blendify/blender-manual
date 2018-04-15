@@ -9,9 +9,9 @@ Screenshots
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Window --> Save Screenshot`
-   | Hotkey:   :kbd:`Ctrl-F3`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Window --> Save Screenshot`
+   :Hotkey:    :kbd:`Ctrl-F3`
 
 .. figure:: /images/editors_info_screen-capture_save-options.png
 
@@ -38,9 +38,9 @@ Screencasts
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Window --> Make Screencast`
-   | Hotkey:   :kbd:`Alt-F3`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Window --> Make Screencast`
+   :Hotkey:    :kbd:`Alt-F3`
 
 This is a quick way to make screencasts from within Blender.
 

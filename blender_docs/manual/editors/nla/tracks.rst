@@ -88,7 +88,7 @@ Remove Empty Animation Data
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Edit --> Remove Empty Animation Data`
+   :Menu:      :menuselection:`Edit --> Remove Empty Animation Data`
 
 This operator removes AnimData blocks (restricted to only those
 which are visible in the animation editor where it is run from) which are "empty"

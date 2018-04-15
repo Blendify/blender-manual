@@ -6,10 +6,10 @@ Translation, Rotation, Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform`
-   | Menu:     :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, ...`
-   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform`
+   :Menu:      :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, ...`
+   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Once you have a selection of one or more elements, you can grab/move :kbd:`G`,
 rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
@@ -38,8 +38,8 @@ Transform Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Properties region --> Transform`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Properties region --> Transform`
 
 When nothing is selected, the panel is empty.
 When more than one vertex is selected, the median values is edited

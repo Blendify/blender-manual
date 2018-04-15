@@ -7,10 +7,10 @@ Draw Curve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Create --> Draw Curve`
-   | Menu:     :menuselection:`Add --> Draw Curve`
-   | Hotkey:   :kbd:`Shift-LMB`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Create --> Draw Curve`
+   :Menu:      :menuselection:`Add --> Draw Curve`
+   :Hotkey:    :kbd:`Shift-LMB`
 
 The Curve draw tool allows you to free-hand draw curves.
 

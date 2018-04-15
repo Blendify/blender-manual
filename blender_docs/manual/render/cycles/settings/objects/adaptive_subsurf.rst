@@ -9,7 +9,7 @@ Adaptive Subdivision
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Modifier --> Subdivision Surface`
+   :Panel:     :menuselection:`Modifier --> Subdivision Surface`
 
 .. note::
 

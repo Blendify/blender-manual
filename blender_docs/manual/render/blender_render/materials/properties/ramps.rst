@@ -6,8 +6,8 @@ Color Ramps
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Ramps`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Ramps`
 
 On many real-world materials, like skin or metals,
 the color of diffuse and specular reflections can differ slightly,

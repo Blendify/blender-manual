@@ -6,9 +6,9 @@ Vertex Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices`
-   | Hotkey:   :kbd:`Ctrl-V`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices`
+   :Hotkey:    :kbd:`Ctrl-V`
 
 This page covers many of the tools in the :menuselection:`Mesh --> Vertices` menu.
 These are tools that work primarily on vertex selections, however,
@@ -26,11 +26,11 @@ Merging Vertices
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Merge`
-   | Menu:     :menuselection:`Mesh --> Vertices --> Merge...`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Merge`
+   :Menu:      :menuselection:`Mesh --> Vertices --> Merge...`,
                :menuselection:`Specials --> Merge`
-   | Hotkey:   :kbd:`Alt-M`
+   :Hotkey:    :kbd:`Alt-M`
 
 This tool allows you to merge all selected vertices to a unique one, dissolving all others.
 You can choose the location of the surviving vertex in the menu this tool pops up before
@@ -72,8 +72,8 @@ AutoMerge Editing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> AutoMerge Editing`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> AutoMerge Editing`
 
 The *Mesh* menu as a related toggle option: *AutoMerge Editing*.
 When enabled,
@@ -90,9 +90,9 @@ Remove Doubles
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Remove Doubles`
-   | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Remove: Remove Doubles`
+   :Menu:      :menuselection:`Mesh --> Vertices --> Remove Doubles`,
                :menuselection:`Specials --> Remove Doubles`
 
 Remove Doubles is a useful tool to simplify a mesh by merging the selected vertices that
@@ -115,9 +115,9 @@ Rip
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Rip`
-   | Hotkey:   :kbd:`V`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Rip`
+   :Hotkey:    :kbd:`V`
 
 Rip creates a "hole" into a mesh by making a copy of selected vertices and edges,
 still linked to the neighbor non-selected vertices,
@@ -177,9 +177,9 @@ Rip Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Rip Fill`
-   | Hotkey:   :kbd:`Alt-V`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Rip Fill`
+   :Hotkey:    :kbd:`Alt-V`
 
 Rip fill works the same as the Rip tool above, but instead of leaving a hole,
 it fills in the gap with geometry.
@@ -203,9 +203,9 @@ Split
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Split`
-   | Hotkey:   :kbd:`Y`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Split`
+   :Hotkey:    :kbd:`Y`
 
 Splits (disconnects) the selection from the rest of the mesh.
 The border edge to any non-selected elements are duplicated.
@@ -220,9 +220,9 @@ Extend Vertices
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Extend Vertices`
-   | Hotkey:   :kbd:`Alt-D`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Extend Vertices`
+   :Hotkey:    :kbd:`Alt-D`
 
 This tool takes any number of selected vertices and duplicate-drags them along the closest edge to the mouse,
 When extending an edge loop, it extends the vertices at the endpoints of the loop.
@@ -237,9 +237,9 @@ Separate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Separate`
-   | Hotkey:   :kbd:`P`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Separate`
+   :Hotkey:    :kbd:`P`
 
 The Separate tool will `Split`_ mesh elements in another mesh object.
 
@@ -259,10 +259,10 @@ Vertex Slide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Vertex`
-   | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide`
-   | Hotkey:   :kbd:`Shift-V`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Vertex`
+   :Menu:      :menuselection:`Mesh --> Vertices --> Vertex Slide`
+   :Hotkey:    :kbd:`Shift-V`
 
 Vertex Slide will transform a vertex along one of its adjacent edges.
 Use :kbd:`Shift-V` to enter tool. Highlight the desired edge by moving the mouse,
@@ -301,9 +301,9 @@ Smooth Vertex
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
-   | Menu:     :menuselection:`Mesh --> Vertices --> Smooth Vertex`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
+   :Menu:      :menuselection:`Mesh --> Vertices --> Smooth Vertex`,
                :menuselection:`Specials --> Smooth`
 
 This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/transform/smooth>`.
@@ -315,8 +315,8 @@ Convex Hull
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Convex Hull`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Convex Hull`
 
 The Convex Hull operator takes a point cloud as input and outputs a convex hull surrounding those vertices.
 If the input contains edges or faces that lie on the convex hull, they can be used in the output as well.
@@ -362,9 +362,9 @@ Make Vertex Parent
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Make Vertex Parent`
-   | Hotkey:   :kbd:`Ctrl-P`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Make Vertex Parent`
+   :Hotkey:    :kbd:`Ctrl-P`
 
 This will parent the other selected object(s) to the vertices/edges/faces selected,
 as described :doc:`here </editors/3dview/object/properties/relations/parents>`.
@@ -376,9 +376,9 @@ Add Hook
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Add Hook`
-   | Hotkey:   :kbd:`Ctrl-H`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Add Hook`
+   :Hotkey:    :kbd:`Ctrl-H`
 
 Adds a :doc:`Hook Modifier </modeling/modifiers/deform/hooks>`
 (using either a new empty, or the current selected object) linked to the selection.
@@ -421,8 +421,8 @@ Blend From Shape, Propagate Shapes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`(Vertex) Specials --> Blend From Shape` and
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`(Vertex) Specials --> Blend From Shape` and
                :menuselection:`Mesh --> Vertices --> Shape Propagate`
 
 These are options regarding :doc:`shape keys </animation/shape_keys/index>`.

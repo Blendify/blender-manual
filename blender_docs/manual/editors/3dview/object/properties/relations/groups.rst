@@ -28,9 +28,9 @@ Groups Menu
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Groups`
-   | Hotkey:   :kbd:`Ctrl-G`, etc.
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Groups`
+   :Hotkey:    :kbd:`Ctrl-G`, etc.
 
 Creating New Group :kbd:`Ctrl-G`
    Creates a new group and adds the selected object(s) to it.
@@ -53,8 +53,8 @@ Groups Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Object tab --> Groups`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Object tab --> Groups`
 
 .. figure:: /images/editors_3dview_object_properties_relations_groups_panel-outliner.png
 

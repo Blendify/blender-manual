@@ -6,8 +6,8 @@ Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties region --> Grease Pencil Layers`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties region --> Grease Pencil Layers`
 
 Grease Pencil sketches are organized in layers,
 much like the image layers in the GIMP or Photoshop\ :sup:`®`.

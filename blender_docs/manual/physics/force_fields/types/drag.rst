@@ -6,8 +6,8 @@ Drag
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Force Fields`
-   | Type:     Drag
+   :Panel:     :menuselection:`Physics --> Force Fields`
+   :Type:      Drag
 
 .. figure:: /images/physics_force-fields_introduction_empty.png
 

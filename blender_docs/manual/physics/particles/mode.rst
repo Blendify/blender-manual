@@ -133,8 +133,8 @@ Brush
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Particle Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Brush`
+   :Mode:      Particle Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Brush`
 
 With the buttons you can select the type of "Comb" utility you want to use.
 
@@ -195,8 +195,8 @@ Options
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Particle Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Options`
+   :Mode:      Particle Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Options`
 
 Deflect Emitter
    Hair particles only -- Do not move keypoints through the emitting mesh.
@@ -279,8 +279,8 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Particle Edit Mode
-   | Menu:     :menuselection:`Particle --> Mirror`
+   :Mode:      Particle Edit Mode
+   :Menu:      :menuselection:`Particle --> Mirror`
 
 If you want to create an X axis symmetrical haircut you have to do following steps:
 
@@ -300,8 +300,8 @@ Unify Length
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Particle Edit Mode
-   | Menu:     :menuselection:`Particle --> Unify Length`, :menuselection:`Specials --> Unify Length`
+   :Mode:      Particle Edit Mode
+   :Menu:      :menuselection:`Particle --> Unify Length`, :menuselection:`Specials --> Unify Length`
 
 This tool is used to make all selected hair uniform length by finding the average length.
 
@@ -312,8 +312,8 @@ Show/Hide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Particle Edit Mode
-   | Menu:     :menuselection:`Particle --> Show/Hide`
+   :Mode:      Particle Edit Mode
+   :Menu:      :menuselection:`Particle --> Show/Hide`
 
 Hiding and unhiding of particles works similar as with vertices in the 3D View.
 Select one or more keypoints of the particle you want to hide and press :kbd:`H`.

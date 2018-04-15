@@ -42,8 +42,8 @@ this can be disabled using the *Cursor Depth* toggle in the :doc:`User Preferenc
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties region --> 3D Cursor`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties region --> 3D Cursor`
 
 .. figure:: /images/editors_3dview_3d-cursor_panel.png
 

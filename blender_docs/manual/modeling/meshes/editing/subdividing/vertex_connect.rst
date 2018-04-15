@@ -9,9 +9,9 @@ Connect Vertex Path
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertex Path`
-   | Hotkey:   :kbd:`J`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Connect Vertex Path`
+   :Hotkey:    :kbd:`J`
 
 This tool connects vertices in the order they are selected, splitting the faces between them.
 
@@ -52,8 +52,8 @@ Connect Vertices
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertices`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Connect Vertices`
 
 This tool connects selected vertices by creating edges between them and splitting the face.
 

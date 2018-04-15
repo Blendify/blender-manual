@@ -15,8 +15,8 @@ Inflow
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Fluid`
-   | Type:     Inflow
+   :Panel:     :menuselection:`Physics --> Fluid`
+   :Type:      Inflow
 
 .. figure:: /images/physics_fluid_types_flow_inflow.png
 
@@ -47,8 +47,8 @@ Outflow
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Fluid`
-   | Type:     Outflow
+   :Panel:     :menuselection:`Physics --> Fluid`
+   :Type:      Outflow
 
 .. figure:: /images/physics_fluid_types_flow_outflow.png
 

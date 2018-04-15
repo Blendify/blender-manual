@@ -44,9 +44,9 @@ Context-Sensitive Manual Access
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :kbd:`RMB`, :menuselection:`Online Manual`
-   | Hotkey:   :kbd:`Alt-F1`
+   :Mode:      All modes
+   :Menu:      :kbd:`RMB`, :menuselection:`Online Manual`
+   :Hotkey:    :kbd:`Alt-F1`
 
 You may want to access help for a tool or area from within Blender.
 

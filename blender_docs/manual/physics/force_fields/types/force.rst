@@ -6,8 +6,8 @@ Force
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Force Fields`
-   | Type:     Force
+   :Panel:     :menuselection:`Physics --> Force Fields`
+   :Type:      Force
 
 .. figure:: /images/physics_force-fields_types_force_visualzation.png
 

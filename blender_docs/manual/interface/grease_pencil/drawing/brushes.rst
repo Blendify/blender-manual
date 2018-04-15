@@ -10,8 +10,8 @@ Drawing Brushes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Stroke Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Drawing Brushes`
+   :Mode:      Stroke Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Grease Pencil --> Drawing Brushes`
 
 Brushes
    A :ref:`ui-list-view` of preset brushes.
@@ -86,8 +86,8 @@ Brush Curves
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Stroke Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Brush Curves`
+   :Mode:      Stroke Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Grease Pencil --> Brush Curves`
 
 This panel allows you to adjust the parameters used with tablets to get personal preferences.
 The available curves that can be edited are:

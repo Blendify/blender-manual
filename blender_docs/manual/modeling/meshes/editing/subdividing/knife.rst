@@ -7,9 +7,9 @@ Knife Tool
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife/Select`
-   | Hotkey:   :kbd:`K` or :kbd:`Shift-K`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife/Select`
+   :Hotkey:    :kbd:`K` or :kbd:`Shift-K`
 
 The Knife tool can be used to interactively subdivide (cut up)
 geometry by drawing lines or closed loops to create holes.
@@ -116,8 +116,8 @@ Knife Project
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife Project`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Knife Project`
 
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into
 the mesh rather than hand drawing the line.

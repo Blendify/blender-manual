@@ -6,8 +6,8 @@ Options
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Sculpt Mode
-   | Panel:    :menuselection:`Tool Shelf --> Options`
+   :Mode:      Sculpt Mode
+   :Panel:     :menuselection:`Tool Shelf --> Options`
 
 
 Overlay Panel

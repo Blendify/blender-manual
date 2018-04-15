@@ -6,10 +6,10 @@ Camera View
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Camera`
-   | Menu:     :menuselection:`View --> Camera --> Active Camera`
-   | Hotkey:   :kbd:`Numpad0`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Camera`
+   :Menu:      :menuselection:`View --> Camera --> Active Camera`
+   :Hotkey:    :kbd:`Numpad0`
 
 .. figure:: /images/editors_3dview_navigate_camera-view_example.png
 
@@ -54,8 +54,8 @@ Move Active Camera to View
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Hotkey:   :kbd:`Ctrl-Alt-Numpad0`
+   :Mode:      Object Mode
+   :Hotkey:    :kbd:`Ctrl-Alt-Numpad0`
 
 This feature allows you to position and orient the active camera to match your current viewport.
 

@@ -11,9 +11,9 @@ Add Menu
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Add`
-   | Hotkey:   :kbd:`Shift-A`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Add`
+   :Hotkey:    :kbd:`Shift-A`
 
 In the 3D View, :kbd:`Shift-A` to add a new bone to your armature.
 
@@ -31,9 +31,9 @@ Extrude
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Extrude`
-   | Hotkey:   :kbd:`E`, :kbd:`Shift-E`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Extrude`
+   :Hotkey:    :kbd:`E`, :kbd:`Shift-E`
 
 When you press :kbd:`E`, for each selected tip
 (either explicitly or implicitly), a new bone is created.
@@ -104,8 +104,8 @@ Mouse Clicks
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Ctrl-LMB`
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`Ctrl-LMB`
 
 If at least one bone is selected, :kbd:`Ctrl-LMB`\ -clicking adds a new bone.
 
@@ -183,9 +183,9 @@ Fill between Joints
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Fill Between Joints`
-   | Hotkey:   :kbd:`F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Fill Between Joints`
+   :Hotkey:    :kbd:`F`
 
 The main use of this tool is to create one bone between two selected joints by pressing
 :kbd:`F`, similar to how in mesh editing you can "create edges/faces".
@@ -277,9 +277,9 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Duplicate`
-   | Hotkey:   :kbd:`Shift-D`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Duplicate`
+   :Hotkey:    :kbd:`Shift-D`
 
 .. note::
 
@@ -321,9 +321,9 @@ Split
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Split`
-   | Hotkey:   :kbd:`Y`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Split`
+   :Hotkey:    :kbd:`Y`
 
 Disconnects the selection and clears the parent at the start and end. ToDo add.
 
@@ -334,9 +334,9 @@ Delete Selected Bone(s)
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Delete Selected Bone(s)`
-   | Hotkey:   :kbd:`X`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Delete Selected Bone(s)`
+   :Hotkey:    :kbd:`X`
 
 This tool delete selected bones, selected *joints* are ignored.
 
@@ -364,9 +364,9 @@ Dissolve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     none
-   | Hotkey:   :kbd:`Ctrl-X`
+   :Mode:      Edit Mode
+   :Menu:      none
+   :Hotkey:    :kbd:`Ctrl-X`
 
 ToDo 2.76.
 
@@ -377,9 +377,9 @@ Merge Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Merge Bones`
-   | Hotkey:   :kbd:`Alt-M`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Merge Bones`
+   :Hotkey:    :kbd:`Alt-M`
 
 You can merge together several selected bones, as long as they form a chain.
 Each sub-chain formed by the selected bones will give one bone,
@@ -429,8 +429,8 @@ Subdivide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Subdivide`, :menuselection:`Specials --> Subdivide`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Subdivide`, :menuselection:`Specials --> Subdivide`
 
 You can subdivide bones, to get two or more bones where there was just one bone.
 The tool will subdivide all selected bones, preserving the existing relationships:
@@ -481,8 +481,8 @@ X-Axis Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Options --> Armature Options --> X-Axis Mirror`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Options --> Armature Options --> X-Axis Mirror`
 
 This option enables automatic mirroring of editing actions along the X axis.
 Another very useful tool is the *X-Axis Mirror* editing option by

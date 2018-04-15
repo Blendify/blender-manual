@@ -6,8 +6,8 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Hotkey:   :kbd:`Ctrl` and/or :kbd:`Shift`
+   :Mode:      Object and Edit Modes
+   :Hotkey:    :kbd:`Ctrl` and/or :kbd:`Shift`
 
 Holding :kbd:`Ctrl` during a transform operation (such as grab, rotate or scale)
 will toggle :ref:`Transform Snapping <transform-snap>`.

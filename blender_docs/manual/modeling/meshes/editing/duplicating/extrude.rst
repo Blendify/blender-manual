@@ -38,10 +38,10 @@ Extrude Region
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude Region`
-   | Menu:     :menuselection:`Mesh --> Extrude --> Extrude Region`
-   | Hotkey:   :kbd:`E`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude Region`
+   :Menu:      :menuselection:`Mesh --> Extrude --> Extrude Region`
+   :Hotkey:    :kbd:`E`
 
 Only the border loop gets extruded.
 The inner region of the selection gets moved unchanged with the extrusion.
@@ -95,10 +95,10 @@ Extrude Individual
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude Individual`
-   | Menu:     :menuselection:`Mesh --> Extrude --> Individual Faces`
-   | Hotkey:   :kbd:`Alt-E`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude Individual`
+   :Menu:      :menuselection:`Mesh --> Extrude --> Individual Faces`
+   :Hotkey:    :kbd:`Alt-E`
 
 *Extrude Individual* allows you to extrude a selection of multiple faces as individuals, instead of as a region.
 The faces are extruded along their own normals, rather than their average.
@@ -129,10 +129,10 @@ Extrude Edges and Vertices Only
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode, Vertex and Edge
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude`
-   | Menu:     :menuselection:`Mesh --> Extrude --> Extrude Edges/Vertices Only`
-   | Hotkey:   :kbd:`Alt-E`
+   :Mode:      Edit Mode, Vertex and Edge
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Extrude`
+   :Menu:      :menuselection:`Mesh --> Extrude --> Extrude Edges/Vertices Only`
+   :Hotkey:    :kbd:`Alt-E`
 
 If vertices are selected while doing an extrude, but they do not form an edge or face,
 they will extrude as expected, forming a :term:`non-manifold` edge. Similarly,
@@ -173,8 +173,8 @@ Extrude Repeat Mesh
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Operator Search --> Extrude Repeat Mesh`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Operator Search --> Extrude Repeat Mesh`
 
 This tool has to be called from :doc:`/interface/controls/templates/operator_search`.
 If the selection is not manifold it's extruded the specified number of times, else

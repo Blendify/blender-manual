@@ -17,9 +17,9 @@ Transform Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Transform`
-   | Panel:    :menuselection:`Properties region --> Transform`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Transform`
+   :Panel:     :menuselection:`Properties region --> Transform`
 
 The *Transform* panel in the Properties region allows you to view and
 manually/numerically control the position, rotation, and other properties of an object, in *Object Mode*.

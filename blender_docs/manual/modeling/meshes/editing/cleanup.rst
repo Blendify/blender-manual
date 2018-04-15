@@ -12,8 +12,8 @@ Decimate Geometry
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Clean up --> Decimate Geometry`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Clean up --> Decimate Geometry`
 
 The Decimate Geometry tool allows you to reduce the vertex/face count of a mesh with minimal shape changes.
 
@@ -40,8 +40,8 @@ Fill Holes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Clean up --> Fill Holes`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Clean up --> Fill Holes`
 
 This tool can take a large selection and detect the holes in the mesh, filling them in.
 
@@ -59,8 +59,8 @@ Make Planar Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Clean up --> Make Planar Faces`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Clean up --> Make Planar Faces`
 
 The *Make Planar Faces* iteratively flattens faces.
 This can happen with faces over three vertices and
@@ -78,8 +78,8 @@ Split Non-Planar Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Clean up --> Split Non-Planar Faces`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Clean up --> Split Non-Planar Faces`
 
 This tool avoids ambiguous areas of geometry by splitting non-flat faces when they are bent
 beyond a given limit.
@@ -91,8 +91,8 @@ Split Concave Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Clean up --> Split Concave Faces`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Clean up --> Split Concave Faces`
 
 This tool can be used to convert any :term:`concave face` to convex
 by splitting the concave into two or more convex faces.
@@ -104,8 +104,8 @@ Delete Loose Geometry
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Clean up --> Delete Loose`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Clean up --> Delete Loose`
 
 This tool removes disconnected vertices and edges (optionally faces).
 
@@ -116,8 +116,8 @@ Degenerate Dissolve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Clean up --> Degenerate Dissolve`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Clean up --> Degenerate Dissolve`
 
 This tool collapses / removes geometry which you typically will not want.
 

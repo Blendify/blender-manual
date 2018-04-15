@@ -111,9 +111,9 @@ Add Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Add Marker`
-   | Hotkey:   :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE editor
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Add Marker`
+   :Hotkey:    :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE editor
 
 The simplest way to add a marker is to move to the frame where you would like it to appear,
 and press :kbd:`M`.
@@ -138,8 +138,8 @@ Selecting
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Hotkey:   :kbd:`RMB`
+   :Mode:      All modes
+   :Hotkey:    :kbd:`RMB`
 
 Click :kbd:`RMB` on the marker's triangle to select it.
 Use :kbd:`Shift-RMB` to select multiple markers.
@@ -161,9 +161,9 @@ Duplicate Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Duplicate Marker`
-   | Hotkey:   :kbd:`Shift-D`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Duplicate Marker`
+   :Hotkey:    :kbd:`Shift-D`
 
 You can duplicate the selected markers by pressing :kbd:`Shift-D`. Once duplicated,
 the new ones are automatically placed in grab mode, so you can move them to the desired location.
@@ -181,8 +181,8 @@ Duplicate Marker to Scene
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Duplicate Marker to Scene...`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Duplicate Marker to Scene...`
 
 Duplicates the selected markers into another scene.
 
@@ -193,9 +193,9 @@ Deleting Markers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Delete Marker`
-   | Hotkey:   :kbd:`X`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Delete Marker`
+   :Hotkey:    :kbd:`X`
 
 To delete the selected markers simply press :kbd:`X`,
 and confirm the pop-up message with :kbd:`LMB`.
@@ -207,9 +207,9 @@ Rename Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Rename Marker`
-   | Hotkey:   :kbd:`Ctrl-M`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Rename Marker`
+   :Hotkey:    :kbd:`Ctrl-M`
 
 Having dozens of markers scattered throughout your scene's time will not help you much unless you
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
@@ -222,9 +222,9 @@ Grab/Move Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Grab/Move Marker`
-   | Hotkey:   :kbd:`G`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Grab/Move Marker`
+   :Hotkey:    :kbd:`G`
 
 Once you have one or more markers selected, press :kbd:`G`,
 while hovering with the mouse over the marker bar,
@@ -242,8 +242,8 @@ Show Pose Markers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Action Editor and Shape Keys Editor
-   | Menu:     :menuselection:`Marker --> Show Pose Markers`
+   :Mode:      Action Editor and Shape Keys Editor
+   :Menu:      :menuselection:`Marker --> Show Pose Markers`
 
 Only Pose markers are shown and editable in Action editor or Shape Keys editor by enabling
 the :menuselection:`Marker --> Show Pose Markers` checkbox.
@@ -255,8 +255,8 @@ Make Markers Local
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Make Markers Local`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Make Markers Local`
 
 It is possible to convert standard markers into Pose markers with :menuselection:`Marker --> Make Markers Local`.
 Note that the original marker will be gone. If you want to keep it, make a duplicate before you convert.
@@ -268,8 +268,8 @@ Jump to Next/Previous Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`Marker --> Jump to Next/Previous Marker`
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Jump to Next/Previous Marker`
 
 Moves the Time Cursor to the next/previous marker relative to the current Time Cursor position.
 
@@ -282,9 +282,9 @@ Bind Camera to Marker
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Timeline Editor
-   | Menu:     :menuselection:`View --> Bind Camera to Marker`
-   | Hotkey:   :kbd:`Ctrl-B`
+   :Editor:    Timeline Editor
+   :Menu:      :menuselection:`View --> Bind Camera to Marker`
+   :Hotkey:    :kbd:`Ctrl-B`
 
 Switching cameras can be done with the *Timeline* operator *Bind Camera to Markers* by
 having both the camera and marker selected.

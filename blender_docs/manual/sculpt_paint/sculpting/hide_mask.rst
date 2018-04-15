@@ -6,8 +6,8 @@ Hiding & Masking
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Sculpt Mode
-   | Menu:     :menuselection:`Hide/Mask`
+   :Mode:      Sculpt Mode
+   :Menu:      :menuselection:`Hide/Mask`
 
 It is sometimes useful to isolate parts of a mesh to sculpt on.
 

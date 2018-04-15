@@ -16,7 +16,7 @@ Simplify
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Scene --> Simplify`
+   :Menu:      :menuselection:`Scene --> Simplify`
 
 .. figure:: /images/render_cycles_settings_scene_introduction_simplify.png
 

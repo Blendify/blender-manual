@@ -11,7 +11,7 @@ Viewport Shading
 .. admonition:: Reference
    :class: refbox
 
-   | Header:   :menuselection:`Viewport Shading`
+   :Header:    :menuselection:`Viewport Shading`
 
 .. figure:: /images/interface_controls_buttons_menus_popup-menu.png
    :align: right
@@ -69,7 +69,7 @@ Shading Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Shading`
+   :Panel:     :menuselection:`Properties region --> Shading`
 
 .. figure:: /images/editors_3dview_properties_shading_panel.png
    :align: right

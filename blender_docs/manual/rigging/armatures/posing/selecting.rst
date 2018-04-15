@@ -15,9 +15,9 @@ Grouped
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Menu:     :menuselection:`Select --> Grouped`
-   | Hotkey:   :kbd:`Shift-G`
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Select --> Grouped`
+   :Hotkey:    :kbd:`Shift-G`
 
 You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu :kbd:`Shift-G`:
 

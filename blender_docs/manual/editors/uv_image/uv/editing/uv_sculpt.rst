@@ -7,11 +7,11 @@ UV Sculpting
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Paint Mode and Mask Mode
-   | Panel:    :menuselection:`Tools Shelf --> Options --> UV Sculpt`,
+   :Mode:      Paint Mode and Mask Mode
+   :Panel:     :menuselection:`Tools Shelf --> Options --> UV Sculpt`,
                :menuselection:`Tools Shelf --> Tools`
-   | Menu:     :menuselection:`UVs --> UV Sculpt`
-   | Hotkey:   :kbd:`Q`
+   :Menu:      :menuselection:`UVs --> UV Sculpt`
+   :Hotkey:    :kbd:`Q`
 
 The UV Sculpting "mode" allow you to grab, pinch and smooth UVs, just like Sculpt Mode.
 It can be activated with :kbd:`Q` or by checking UV Sculpt in the *UVs* menu.

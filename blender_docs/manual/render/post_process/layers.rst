@@ -21,7 +21,7 @@ Layer List
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Scene`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Scene`
 
 .. figure:: /images/render_post-process_layers_list.png
 
@@ -42,7 +42,7 @@ Layer Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Layer`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Layer`
 
 .. figure:: /images/render_post-process_layers_panel.png
 

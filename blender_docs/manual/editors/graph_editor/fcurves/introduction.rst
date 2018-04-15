@@ -59,8 +59,8 @@ Interpolation Mode
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Interpolation Mode`
-   | Hotkey:   :kbd:`T`
+   :Menu:      :menuselection:`Key --> Interpolation Mode`
+   :Hotkey:    :kbd:`T`
 
 Mode for the :term:`Interpolation` between the current and next keyframe.
 
@@ -164,8 +164,8 @@ Easing Type
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Easing Type`
-   | Hotkey:   :kbd:`Ctrl-E`
+   :Menu:      :menuselection:`Key --> Easing Type`
+   :Hotkey:    :kbd:`Ctrl-E`
 
 The Easing Type controls which end of the segment between the two keyframes that the easing effects apply to.
 
@@ -188,8 +188,8 @@ Extrapolation
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Channel --> Extrapolation Mode`
-   | Hotkey:   :kbd:`Shift-E`
+   :Menu:      :menuselection:`Channel --> Extrapolation Mode`
+   :Hotkey:    :kbd:`Shift-E`
 
 Extrapolation defines the behavior of a curve before the first and after the last keyframes.
 

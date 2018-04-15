@@ -22,7 +22,7 @@ Options
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render --> Freestyle SVG Export`
+   :Panel:     :menuselection:`Properties editor --> Render --> Freestyle SVG Export`
 
 .. figure:: /images/render_freestyle_export-svg_panel.png
    :align: right
@@ -60,7 +60,7 @@ Exportable Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render Layers --> Freestyle Line Style SVG Export`
+   :Panel:     :menuselection:`Properties editor --> Render Layers --> Freestyle Line Style SVG Export`
 
 Because the representation of Freestyle strokes and SVG path objects is fundamentally different, a one-on-one
 translation between Freestyle and SVG is not possible. The main shortcoming of SVG compared to Freestyle is that

@@ -17,9 +17,9 @@ Select Mode Header Widgets
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`3D View Header --> Select Mode`
-   | Hotkey:   :kbd:`Ctrl-Tab`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`3D View Header --> Select Mode`
+   :Hotkey:    :kbd:`Ctrl-Tab`
 
 .. figure:: /images/modeling_meshes_selecting_introduction_mode-buttons.png
    :align: right

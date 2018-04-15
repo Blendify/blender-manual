@@ -9,8 +9,8 @@ Active Element
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit Modes
-   | Panel:    :menuselection:`Properties editor --> Active Element`
+   :Mode:      Object or Edit Modes
+   :Panel:     :menuselection:`Properties editor --> Active Element`
 
 When in *Edit Mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.

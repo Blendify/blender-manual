@@ -43,9 +43,9 @@ Control Point Row
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Control Point Row`
-   | Hotkey:   :kbd:`Shift-R`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Control Point Row`
+   :Hotkey:    :kbd:`Shift-R`
 
 This option works a bit like
 :ref:`edge loop selection <modeling-meshes-selecting-edge-loops>` for meshes,
@@ -62,9 +62,9 @@ More and Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> More/Less`
+   :Hotkey:    :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 
 These two options are complementary and very similar to
 :doc:`those for meshes </modeling/meshes/selecting/introduction>`.

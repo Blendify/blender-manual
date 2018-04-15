@@ -15,10 +15,10 @@ Append and Link
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Info Editor
-   | Mode:     All Modes
-   | Menu:     :menuselection:`File --> Append or Link`
-   | Hotkey:   :kbd:`Shift-F1` or :kbd:`Ctrl-Alt-O`
+   :Editor:    Info Editor
+   :Mode:      All Modes
+   :Menu:      :menuselection:`File --> Append or Link`
+   :Hotkey:    :kbd:`Shift-F1` or :kbd:`Ctrl-Alt-O`
 
 *Link* creates a reference to the data in the source file such that
 changes made there will be reflected in the referencing file the next time it is reloaded.
@@ -69,10 +69,10 @@ Proxy Objects
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Make Proxy...`
-   | Hotkey:   :kbd:`Ctrl-Alt-P`
+   :Editor:    3D View
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Make Proxy...`
+   :Hotkey:    :kbd:`Ctrl-Alt-P`
 
 Lets you make changes locally over an object (or group) linked from an external library.
 Some types of changes remain restricted, but others can be made locally, depending on the type of object.
@@ -96,10 +96,10 @@ Make Link
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Make Link...`
-   | Hotkey:   :kbd:`Ctrl-L`
+   :Editor:    3D View
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Make Link...`
+   :Hotkey:    :kbd:`Ctrl-L`
 
 Links objects between scenes or data-blocks of the active object to all selected objects.
 In some case (i.e. Object Data, Modifier) the target objects must be of the same type
@@ -136,10 +136,10 @@ Make Local
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Make Local...`
-   | Hotkey:   :kbd:`L`
+   :Editor:    3D View
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Make Local...`
+   :Hotkey:    :kbd:`L`
 
 Makes the selected or all external objects local in the current blend-file.
 This makes e.g. the position editable, because its position is defined in its source file.

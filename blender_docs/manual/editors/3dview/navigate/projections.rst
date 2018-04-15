@@ -6,9 +6,9 @@ Projections
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> View Perspective/Orthographic`
-   | Hotkey:   :kbd:`Numpad5`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> View Perspective/Orthographic`
+   :Hotkey:    :kbd:`Numpad5`
 
 These operators change the projection of the viewport camera.
 Each 3D View supports two different types of projection.

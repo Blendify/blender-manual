@@ -7,8 +7,8 @@ Fluid Object
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Fluid`
-   | Type:     Fluid
+   :Panel:     :menuselection:`Physics --> Fluid`
+   :Type:      Fluid
 
 .. figure:: /images/physics_fluid_types_fluid-object_fluid-panel.png
 

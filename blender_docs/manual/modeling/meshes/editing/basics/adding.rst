@@ -12,8 +12,8 @@ Duplicate or Extrude to Cursor
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Ctrl-LMB`
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`Ctrl-LMB`
 
 Interactively places new vertices with :kbd:`Ctrl-LMB` at the cursor position.
 

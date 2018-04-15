@@ -21,7 +21,7 @@ Sampling
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render --> Sampling`
+   :Panel:     :menuselection:`Render --> Sampling`
 
 Sample Method
    There are two integrator modes that can be used: *Path Tracing* and *Branched Path Tracing*.
@@ -152,7 +152,7 @@ Light Paths
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render --> Light Paths`
+   :Panel:     :menuselection:`Render --> Light Paths`
 
 
 .. _cycles-bounces:

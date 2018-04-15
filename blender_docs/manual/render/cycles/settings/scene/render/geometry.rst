@@ -6,7 +6,7 @@ Geometry
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render --> Geometry`
+   :Panel:     :menuselection:`Render --> Geometry`
 
 
 Volume Sampling

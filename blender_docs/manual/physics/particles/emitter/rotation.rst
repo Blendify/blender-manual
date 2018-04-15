@@ -7,7 +7,7 @@ Rotation
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Particle System --> Rotation`
+   :Panel:     :menuselection:`Particle System --> Rotation`
 
 .. figure:: /images/physics_particles_emitter_rotation_panel.png
 

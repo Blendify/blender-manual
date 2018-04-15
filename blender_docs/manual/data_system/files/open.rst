@@ -12,8 +12,8 @@ Usage
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Info Editor --> File --> Open`
-   | Hotkey:   :kbd:`Ctrl-O` or :kbd:`F1`
+   :Menu:      :menuselection:`Info Editor --> File --> Open`
+   :Hotkey:    :kbd:`Ctrl-O` or :kbd:`F1`
 
 The upper text field displays the current directory path,
 and the lower text field contains the selected filename.

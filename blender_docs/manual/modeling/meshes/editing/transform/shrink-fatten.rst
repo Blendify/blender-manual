@@ -7,10 +7,10 @@ Shrink Fatten
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Shrink/Fatten`
-   | Menu:     :menuselection:`Mesh --> Transform --> Shrink/Fatten`
-   | Hotkey:   :kbd:`Alt-S`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Shrink/Fatten`
+   :Menu:      :menuselection:`Mesh --> Transform --> Shrink/Fatten`
+   :Hotkey:    :kbd:`Alt-S`
 
 This tool translates selected vertices/edges/faces along their own normal
 (perpendicular to the face), which, on "standard normal meshes", will shrink/fatten them.

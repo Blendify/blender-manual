@@ -7,8 +7,8 @@ Ruler & Protractor
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Tool Shelf --> Grease Pencil --> Tools:Ruler/Protractor`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Tool Shelf --> Grease Pencil --> Tools:Ruler/Protractor`
 
 The ruler is an interactive tool where you can drag lines in the scene to measure distances or angles.
 Optionally snapping to geometry could be activated for better accuracy or to measure wall thickness.

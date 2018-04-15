@@ -6,8 +6,8 @@ Display Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Armature --> Display`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Armature --> Display`
 
 .. figure:: /images/rigging_armatures_properties_display_panel.png
 

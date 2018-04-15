@@ -6,7 +6,7 @@ Line
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Material --> Freestyle Line`
+   :Panel:     :menuselection:`Properties editor --> Material --> Freestyle Line`
 
 Line Color
    Specifies the line colors on a per-material basis.

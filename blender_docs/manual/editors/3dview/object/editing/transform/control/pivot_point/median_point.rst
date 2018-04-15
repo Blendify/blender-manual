@@ -7,9 +7,9 @@ Median Point
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Header:   |pivot-icon| :menuselection:`Pivot Point --> Median Point`
-   | Hotkey:   :kbd:`Ctrl-Comma`
+   :Mode:      Object Mode and Edit Mode
+   :Header:    |pivot-icon| :menuselection:`Pivot Point --> Median Point`
+   :Hotkey:    :kbd:`Ctrl-Comma`
 
 The Median Point can be considered to be broadly similar to the concept of
 Center of Gravity (COG). If we assume that every element (object, face, vertex, etc.)

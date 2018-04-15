@@ -7,9 +7,9 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Menu:     :menuselection:`Object/Mesh --> Mirror`
-   | Hotkey:   :kbd:`Ctrl-M`
+   :Mode:      Object and Edit Modes
+   :Menu:      :menuselection:`Object/Mesh --> Mirror`
+   :Hotkey:    :kbd:`Ctrl-M`
 
 Mirroring an Object or Mesh selection will create a reversed version of the selection.
 The position of the mirrored version of the selection is determined by

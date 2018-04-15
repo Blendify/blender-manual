@@ -63,8 +63,8 @@ Auto IK
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Options --> Pose Options`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Tool Shelf --> Options --> Pose Options`
 
 The auto IK option in the Tool Shelf enables a temporary IK constraint when posing bones.
 The chain acts from the tip of the selected bone to root of the uppermost parent bone.
@@ -78,9 +78,9 @@ Clear Transform
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Menu:     :menuselection:`Pose --> Clear Transform`
-   | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-R`, :kbd:`Alt-S`
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Pose --> Clear Transform`
+   :Hotkey:    :kbd:`Alt-G`, :kbd:`Alt-R`, :kbd:`Alt-S`
 
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations.
@@ -108,9 +108,9 @@ Apply
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Menu:     :menuselection:`Pose --> Apply`
-   | Hotkey:   :kbd:`Ctrl-A`
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Pose --> Apply`
+   :Hotkey:    :kbd:`Ctrl-A`
 
 Conversely, you may define the current pose as the new rest position
 (i.e. "apply" current transformations to the *Edit Mode*),
@@ -137,10 +137,10 @@ Push Pose
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tool --> Tool --> Pose Tools --> In-Betweens: Push`
-   | Menu:     :menuselection:`Pose --> In-Betweens --> Push Pose`
-   | Hotkey:   :kbd:`Ctrl-E`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tool --> Tool --> Pose Tools --> In-Betweens: Push`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose`
+   :Hotkey:    :kbd:`Ctrl-E`
 
 Push pose exaggerates the current pose.
 
@@ -151,10 +151,10 @@ Relax Pose
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Relax`
-   | Menu:     :menuselection:`Pose --> In-Betweens --> Relax Pose`
-   | Hotkey:   :kbd:`Alt-E`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Relax`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose`
+   :Hotkey:    :kbd:`Alt-E`
 
 Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
 When you edit such a bone (and hence take it "away" from its "keyed position"),
@@ -168,10 +168,10 @@ Breakdowner
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Breakdowner`
-   | Menu:     :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
-   | Hotkey:   :kbd:`Shift-E`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Breakdowner`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
+   :Hotkey:    :kbd:`Shift-E`
 
 Creates a suitable breakdown pose on the current frame.
 
@@ -190,10 +190,10 @@ Copy/Paste Pose
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Header:   Copy/Paste (|copy-paste|)
-   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Copy, Paste`
-   | Menu:     :menuselection:`Pose --> Copy Current Pose`,
+   :Mode:      Pose Mode
+   :Header:    Copy/Paste (|copy-paste|)
+   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Copy, Paste`
+   :Menu:      :menuselection:`Pose --> Copy Current Pose`,
                :menuselection:`Pose --> Paste Pose`,
                :menuselection:`Pose --> Paste X-Flipped Pose`
 
@@ -266,10 +266,10 @@ Propagate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Propagate`
-   | Menu:     :menuselection:`Pose --> Propagate`
-   | Hotkey:   :kbd:`Alt-P`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Propagate`
+   :Menu:      :menuselection:`Pose --> Propagate`
+   :Hotkey:    :kbd:`Alt-P`
 
 The Propagate tool copies the pose of the selected bones on the current frame over
 to the keyframes delimited by the *Termination Mode*.
@@ -311,9 +311,9 @@ Show/Hide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Bone --> Display`
-   | Menu:     :menuselection:`... --> Show/Hide`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Bone --> Display`
+   :Menu:      :menuselection:`... --> Show/Hide`
 
 You do not have to use bone layers to show/hide some bones. As with objects,
 vertices or control points, you can use :kbd:`H`:

@@ -6,8 +6,8 @@ Ghost
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Armature --> Ghost`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Armature --> Ghost`
 
 Ghosts are black outlines (more or less opaque) of the bones as they are positioned at certain frames.
 This visualization is only shown in *Pose Mode*.

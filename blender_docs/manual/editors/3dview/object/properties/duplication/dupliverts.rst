@@ -7,8 +7,8 @@ DupliVerts
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Object --> Duplication`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Object --> Duplication`
 
 *Duplication Vertices* or *DupliVerts* is the duplication of a base object at the location
 of a mesh's vertices. In other words, when using *DupliVerts* on a mesh,

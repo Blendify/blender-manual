@@ -6,7 +6,7 @@ Proxy/Timecode Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Strip --> Proxy/Timecode`
+   :Panel:     :menuselection:`Properties region --> Strip --> Proxy/Timecode`
 
 Once you have chosen the Proxy/Timecode parameters,
 you need to use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`

@@ -31,8 +31,8 @@ Keying Set Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Properties editor
-   | Panel:    :menuselection:`Scene --> Keying Set`
+   :Editor:    Properties editor
+   :Panel:     :menuselection:`Scene --> Keying Set`
 
 This panel is used to add, select, manage *Absolute Keying Sets*.
 
@@ -74,8 +74,8 @@ Active Keying Set Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Properties editor
-   | Panel:    :menuselection:`Scene --> Active Keying Set`
+   :Editor:    Properties editor
+   :Panel:     :menuselection:`Scene --> Active Keying Set`
 
 This panel is used to add properties to the active Keying Set.
 
@@ -128,8 +128,8 @@ Adding Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Context menu --> Add All/Single to Keying Set`
-   | Hotkey:   :kbd:`K`
+   :Menu:      :menuselection:`Context menu --> Add All/Single to Keying Set`
+   :Hotkey:    :kbd:`K`
 
 Some ways to add properties to keying sets.
 

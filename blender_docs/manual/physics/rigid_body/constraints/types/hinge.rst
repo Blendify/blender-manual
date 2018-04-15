@@ -6,8 +6,8 @@ Hinge
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
-   | Type:     Hinge
+   :Panel:     :menuselection:`Physics --> Rigid Body Constraint`
+   :Type:      Hinge
 
 
 The hinge permits 1 degree of freedom between two objects. Translation is completely constrained.

@@ -9,8 +9,8 @@ Sort Elements
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Sort Elements...`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Sort Elements...`
 
 This tool (available from the *Specials*, *Vertices*, *Edges* and *Faces* menus)
 allows you to reorder the matching selected mesh elements, following various methods.
@@ -54,9 +54,9 @@ Separate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Separate`
-   | Hotkey:   :kbd:`P`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Vertices --> Separate`
+   :Hotkey:    :kbd:`P`
 
 At some point, you will come to a time when you need to cut parts away from a mesh to be separate.
 

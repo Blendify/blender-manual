@@ -8,10 +8,10 @@ Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Object --> Relations`
-   | Menu:     :menuselection:`Object --> Move to Layer...`
-   | Hotkey:   :kbd:`M`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Object --> Relations`
+   :Menu:      :menuselection:`Object --> Move to Layer...`
+   :Hotkey:    :kbd:`M`
 
 3D scenes often become exponentially more confusing as they grow more complex.
 Sometimes the artist also needs precise control over how individual objects are lit,

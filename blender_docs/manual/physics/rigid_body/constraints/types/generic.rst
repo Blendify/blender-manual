@@ -6,8 +6,8 @@ Generic
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
-   | Type:     Generic
+   :Panel:     :menuselection:`Physics --> Rigid Body Constraint`
+   :Type:      Generic
 
 The generic constraint has a lot of available parameters.
 

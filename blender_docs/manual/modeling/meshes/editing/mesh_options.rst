@@ -6,8 +6,8 @@ Mesh Options
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Options tab --> Mesh Options panel`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Options tab --> Mesh Options panel`
 
 
 X Mirror

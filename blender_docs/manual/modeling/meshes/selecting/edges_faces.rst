@@ -23,9 +23,9 @@ Edge Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode (Mesh)
-   | Menu:     :menuselection:`Select --> Edge Loop`
-   | Hotkey:   :kbd:`Alt-RMB`, or :kbd:`Shift-Alt-RMB` for modifying existing selection
+   :Mode:      Edit Mode (Mesh)
+   :Menu:      :menuselection:`Select --> Edge Loop`
+   :Hotkey:    :kbd:`Alt-RMB`, or :kbd:`Shift-Alt-RMB` for modifying existing selection
 
 Edge loops can be selected by first selecting an edge (vertex or edge selection mode),
 and then going to :menuselection:`Select --> Edge Loop`. The shortcut :kbd:`Alt-RMB` on an edge
@@ -48,9 +48,9 @@ Edge Rings
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode (Mesh)
-   | Menu:     :menuselection:`Select --> Edge Ring`
-   | Hotkey:   :kbd:`Ctrl-Alt-RMB`, or :kbd:`Shift-Ctrl-Alt-RMB` for modifying existing selection
+   :Mode:      Edit Mode (Mesh)
+   :Menu:      :menuselection:`Select --> Edge Ring`
+   :Hotkey:    :kbd:`Ctrl-Alt-RMB`, or :kbd:`Shift-Ctrl-Alt-RMB` for modifying existing selection
 
 Edge Rings are selected similarly.
 Based on the selection of an edge go to :menuselection:`Select --> Edge Ring`.
@@ -95,8 +95,8 @@ Face Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode (Mesh)
-   | Hotkey:   :kbd:`Alt-RMB` or :kbd:`Shift-Alt-RMB` for modifying existing selection
+   :Mode:      Edit Mode (Mesh)
+   :Hotkey:    :kbd:`Alt-RMB` or :kbd:`Shift-Alt-RMB` for modifying existing selection
 
 Face Loops are pretty much the same as Edge Rings. If you want to select a Face Loop,
 there is no menu entry that works based on a selected face. Using :menuselection:`Select --> Edge Ring`

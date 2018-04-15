@@ -6,8 +6,8 @@ Vertex Weights
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit and Weight Paint Modes
-   | Panel:    :menuselection:`Properties region --> Vertex Weights`
+   :Mode:      Edit and Weight Paint Modes
+   :Panel:     :menuselection:`Properties region --> Vertex Weights`
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-weights_panel-overview.png
    :width: 260px

@@ -35,9 +35,9 @@ Make Group
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Group --> Make Group`
-   | Hotkey:   :kbd:`Ctrl-G`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Group --> Make Group`
+   :Hotkey:    :kbd:`Ctrl-G`
 
 To create a node group, in the Node editor, select the nodes you want to include, then
 press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`.
@@ -68,10 +68,10 @@ Edit Group
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Group --> Edit Group`
-   | Header:   :menuselection:`Go to Parent Node Tree`
-   | Hotkey:   :kbd:`Tab`, :kbd:`Ctrl-Tab`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Group --> Edit Group`
+   :Header:    :menuselection:`Go to Parent Node Tree`
+   :Hotkey:    :kbd:`Tab`, :kbd:`Ctrl-Tab`
 
 With a group node selected, :kbd:`Tab` expands the node to a frame, and the individual nodes within
 it are shown. You can move them around, play with their individual controls, re-thread them internally, etc.
@@ -107,8 +107,8 @@ Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties region --> Interface`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties region --> Interface`
 
 .. figure:: /images/editors_node-editor_nodes_groups_interface-panel.png
    :align: right
@@ -132,9 +132,9 @@ Ungroup
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Group --> Ungroup`
-   | Hotkey:   :kbd:`Alt-G`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Group --> Ungroup`
+   :Hotkey:    :kbd:`Alt-G`
 
 The :kbd:`Alt-G` tool removes the group and places the individual nodes into your editor workspace.
 No internal connections are lost, and now you can thread internal nodes to other nodes in your workspace.
@@ -146,8 +146,8 @@ Group Insert
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Group --> Group Insert`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Group --> Group Insert`
 
 .. move node into selected group
 
@@ -165,9 +165,9 @@ Appending Node Groups
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Info Editor
-   | Mode:     All Modes
-   | Menu:     :menuselection:`File --> Link/Append`
+   :Editor:    Info Editor
+   :Mode:      All Modes
+   :Menu:      :menuselection:`File --> Link/Append`
 
 Once you have appended a Node Tree to your blend-file, you can make use of it in the Node editor by
 pressing :kbd:`Shift-A`, :menuselection:`Add --> Group`, then selecting the appended group.

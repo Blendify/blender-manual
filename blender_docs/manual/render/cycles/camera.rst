@@ -9,7 +9,7 @@ Lens
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Camera --> Lens`
+   :Panel:     :menuselection:`Camera --> Lens`
 
 Type
 ----
@@ -122,7 +122,7 @@ Depth of Field
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Camera --> Depth of Field`
+   :Panel:     :menuselection:`Camera --> Depth of Field`
 
 .. figure:: /images/render_cycles_camera_depth-of-field-panel.png
 

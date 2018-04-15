@@ -13,7 +13,7 @@ Normals
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Object Data --> Normals`
+   :Panel:     :menuselection:`Properties editor --> Object Data --> Normals`
 
 .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
 

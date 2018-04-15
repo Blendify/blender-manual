@@ -28,7 +28,7 @@ Backdrop
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Backdrop`
+   :Panel:     :menuselection:`Properties region --> Backdrop`
 
 .. figure:: /images/compositing_properties_backdrop.png
    :align: right
@@ -52,7 +52,7 @@ Performance
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Performance`
+   :Panel:     :menuselection:`Properties region --> Performance`
 
 .. figure:: /images/compositing_properties_performance.png
    :align: right

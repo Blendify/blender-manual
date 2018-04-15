@@ -6,8 +6,8 @@ Vertex Groups Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Object Data tab --> Vertex Groups`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Object Data tab --> Vertex Groups`
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_introduction_panel.png
    :align: right
@@ -72,10 +72,10 @@ Editing Vertex Groups
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Object Data tab --> Vertex Groups`
-   | Menu:     :menuselection:`Mesh --> Vertex --> Vertex Groups`
-   | Hotkey:   :kbd:`Ctrl-G`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Object Data tab --> Vertex Groups`
+   :Menu:      :menuselection:`Mesh --> Vertex --> Vertex Groups`
+   :Hotkey:    :kbd:`Ctrl-G`
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-groups_panel-edit.png
    :align: right

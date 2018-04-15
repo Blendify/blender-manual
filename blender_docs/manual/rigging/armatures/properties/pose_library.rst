@@ -7,8 +7,8 @@ Pose Library Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Object --> Pose Library`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Object --> Pose Library`
 
 .. figure:: /images/rigging_armatures_properties_pose-library_panel.png
    :align: right
@@ -53,8 +53,8 @@ Menu
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Menu:     :menuselection:`Pose --> Pose Library`
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Pose --> Pose Library`
 
 - Browse Poses. :kbd:`Ctrl-L`.
 - Add Pose. :kbd:`Shift-L`.

@@ -6,8 +6,8 @@ Magnetic
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Force Fields`
-   | Type:     Magnetic
+   :Panel:     :menuselection:`Physics --> Force Fields`
+   :Type:      Magnetic
 
 .. figure:: /images/physics_force-fields_introduction_empty.png
 

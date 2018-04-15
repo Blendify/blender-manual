@@ -11,7 +11,7 @@ Motion Blur
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Object --> Motion Blur`
+   :Panel:     :menuselection:`Object --> Motion Blur`
 
 Each object has its own motion blur settings along with
 the :doc:`Scene Level Motion Blur </render/cycles/settings/scene/render/motion_blur>`
@@ -32,7 +32,7 @@ Cycles Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Object --> Cycles Settings`
+   :Panel:     :menuselection:`Object --> Cycles Settings`
 
 
 .. _cycles-ray-visibility:

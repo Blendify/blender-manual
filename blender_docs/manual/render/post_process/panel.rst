@@ -6,7 +6,7 @@ Post Processing Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render --> Post Processing`
+   :Panel:     :menuselection:`Properties editor --> Render --> Post Processing`
 
 The Post Processing panel is used to control different options used to process your image after rendering.
 

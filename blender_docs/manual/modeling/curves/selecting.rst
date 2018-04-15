@@ -44,9 +44,9 @@ Select Linked
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Select Linked`
-   | Hotkey:   :kbd:`L`, :kbd:`Ctrl-L`, :kbd:`Shift-L`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Select Linked`
+   :Hotkey:    :kbd:`L`, :kbd:`Ctrl-L`, :kbd:`Shift-L`
 
 :kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier,
@@ -59,9 +59,9 @@ Select Similar
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Select Similar`
-   | Hotkey:   :kbd:`Shift-G`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Select Similar`
+   :Hotkey:    :kbd:`Shift-G`
 
 ToDo 2.76.
 
@@ -79,9 +79,9 @@ Shortest Path
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Operator Search --> Pick Shortest Path`
-   | Hotkey:   :kbd:`Ctrl`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Operator Search --> Pick Shortest Path`
+   :Hotkey:    :kbd:`Ctrl`
 
 ToDo 2.76.
 
@@ -92,8 +92,8 @@ Select/Deselect First/Last
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Select/Deselect First`,
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Select/Deselect First`,
                :menuselection:`Select --> Select/Deselect Last`
 
 These operators will toggle the selection of the first or last control point(s) of the curve(s)
@@ -107,8 +107,8 @@ Select Next/Previous
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Select Next`, :menuselection:`Select --> Select Previous`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Select Next`, :menuselection:`Select --> Select Previous`
 
 These operators will select the next or previous control point(s),
 based on the current selection
@@ -122,9 +122,9 @@ Select More/Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> More/Less`
+   :Hotkey:    :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
 

@@ -6,9 +6,9 @@ Make Edge/Face
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Make Face/Edge`
-   | Hotkey:   :kbd:`F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Make Face/Edge`
+   :Hotkey:    :kbd:`F`
 
 This is a context-sensitive tool which creates geometry by filling in the selection.
 When only two vertices are selected it will create an edge, otherwise it will create faces.

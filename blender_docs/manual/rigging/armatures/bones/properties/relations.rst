@@ -6,8 +6,8 @@ Relations
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Bone --> Relations`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Bone --> Relations`
 
 .. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
 
@@ -42,7 +42,7 @@ Bone Group
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
+   :Mode:      Pose Mode
 
 .. figure:: /images/rigging_armatures_bones_properties_relations_group-list.png
 
@@ -57,7 +57,7 @@ Object Children
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
+   :Mode:      Pose Mode
 
 Relative Parenting
    ToDo 2.66.

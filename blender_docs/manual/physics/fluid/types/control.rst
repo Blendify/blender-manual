@@ -7,8 +7,8 @@ Fluid Control
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Fluid`
-   | Type:     Control
+   :Panel:     :menuselection:`Physics --> Fluid`
+   :Type:      Control
 
 Using the Lattice-Boltzmann method, the fluid is controlled using particles which define local
 force fields and are generated automatically from either a physical simulation or a sequence

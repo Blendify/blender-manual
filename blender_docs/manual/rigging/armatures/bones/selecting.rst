@@ -136,8 +136,8 @@ More/Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select`
 
 More :kbd:`Ctrl-NumpadPlus`
    ToDo.
@@ -155,9 +155,9 @@ Similar
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Similar`
-   | Hotkey:   :kbd:`Shift-G`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Similar`
+   :Hotkey:    :kbd:`Shift-G`
 
 Children
    Extends the selection to all hierarchical descendant bones.

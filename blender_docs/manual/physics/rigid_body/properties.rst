@@ -9,7 +9,7 @@ Rigid Body
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Rigid Body`
+   :Panel:     :menuselection:`Physics --> Rigid Body`
 
 .. figure:: /images/physics_rigid-body_properties_panel.png
 
@@ -54,7 +54,7 @@ Rigid Body Collisions
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Rigid Body Collisions`
+   :Panel:     :menuselection:`Physics --> Rigid Body Collisions`
 
 .. figure:: /images/physics_rigid-body_properties_collisions.png
 
@@ -165,7 +165,7 @@ Rigid Body Dynamics
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Rigid Body Dynamics`
+   :Panel:     :menuselection:`Physics --> Rigid Body Dynamics`
 
 .. figure:: /images/physics_rigid-body_properties_dynamics.png
 

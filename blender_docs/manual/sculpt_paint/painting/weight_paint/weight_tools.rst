@@ -6,9 +6,9 @@ Weight Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode and Weight Paint Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Weight Tools`
-   | Menu:     :menuselection:`Weights`
+   :Mode:      Edit Mode and Weight Paint Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Weight Tools`
+   :Menu:      :menuselection:`Weights`
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_panel.png
    :align: right

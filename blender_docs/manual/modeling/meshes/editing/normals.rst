@@ -28,15 +28,15 @@ Shading
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Edit --> Shading:`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Shading:`
 
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
-   | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
+   :Menu:      :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
 
 
 .. _bpy.ops.object.shade_flat:
@@ -115,9 +115,9 @@ Flip Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Flip Direction`
-   | Menu:     :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Flip Direction`
+   :Menu:      :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
 
 Well, it will just reverse the normals direction of all selected faces.
 Note that this allows you to precisely control the direction
@@ -131,11 +131,11 @@ Recalculate Normals
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Recalculate`
-   | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Recalculate`
+   :Menu:      :menuselection:`Mesh --> Normals --> Recalculate Outside` and
                :menuselection:`Mesh --> Normals --> Recalculate Inside`
-   | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Shift-Ctrl-N`
+   :Hotkey:    :kbd:`Ctrl-N` and :kbd:`Shift-Ctrl-N`
 
 These tools will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.
@@ -150,7 +150,7 @@ Set from Face
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Set from Face`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Set from Face`
 
 Sets the custom vertex normals from the selected face's normals.

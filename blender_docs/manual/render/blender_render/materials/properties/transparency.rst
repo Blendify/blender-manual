@@ -6,8 +6,8 @@ Transparency
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Transparency`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Transparency`
 
 Materials in Blender can be set to be transparent,
 so that light can pass through any objects using the material.

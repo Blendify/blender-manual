@@ -6,7 +6,7 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render Layer --> Freestyle Line Style`
+   :Panel:     :menuselection:`Properties editor --> Render Layer --> Freestyle Line Style`
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_introduction_line-style-panel.png
 

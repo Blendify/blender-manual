@@ -9,20 +9,20 @@ Mapping Types
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Shading/UVs --> UVs --> UV Mapping: Unwrap`
-   | Menu:     :menuselection:`Mesh --> UV Unwrap`
-   | Hotkey:   :kbd:`U`
+   :Editor:    3D View
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Shading/UVs --> UVs --> UV Mapping: Unwrap`
+   :Menu:      :menuselection:`Mesh --> UV Unwrap`
+   :Hotkey:    :kbd:`U`
 
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   UV/Image
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Unwrap`
-   | Menu:     :menuselection:`UVs --> Unwrap`
-   | Hotkey:   :kbd:`E`
+   :Editor:    UV/Image
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Unwrap`
+   :Menu:      :menuselection:`UVs --> Unwrap`
+   :Hotkey:    :kbd:`E`
 
 Blender offers several ways of mapping UVs.
 The simpler projection methods use formulas that map 3D space onto 2D space,

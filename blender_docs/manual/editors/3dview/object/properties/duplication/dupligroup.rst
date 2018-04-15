@@ -7,8 +7,8 @@ DupliGroup
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Object --> Duplication --> Group`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Object --> Duplication --> Group`
 
 *Duplication Group* or *DupliGroup* allows you to create an instance of a group for each instance of another object.
 *DupliGroups* may contain animations, objects with physics simulations and even other nested *DupliGroups*.

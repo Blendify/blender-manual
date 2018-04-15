@@ -7,9 +7,9 @@ Manipulate Center Points
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Pose Mode
-   | Header:   |pivot-icon| Manipulate Center Points
-   | Hotkey:   :kbd:`Alt-Comma`
+   :Mode:      Object Mode and Pose Mode
+   :Header:    |pivot-icon| Manipulate Center Points
+   :Hotkey:    :kbd:`Alt-Comma`
 
 When this option is enabled, the transformation
 will change the positions of the object's origins,

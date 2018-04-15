@@ -11,9 +11,9 @@ Randomize Transform
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Randomize`
-   | Menu:     :menuselection:`Object --> Transform --> Randomize Transform`,
+   :Mode:      Object Mode and Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Randomize`
+   :Menu:      :menuselection:`Object --> Transform --> Randomize Transform`,
                :menuselection:`Mesh --> Transform --> Randomize`
 
 .. figure:: /images/editors_3dview_object_editing_transform_tools_randomize.png
@@ -90,8 +90,8 @@ Align Objects
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Transform --> Align Objects`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Transform --> Align Objects`
 
 The Align tool is used to align multiple selected objects so they line up on a specified axis.
 

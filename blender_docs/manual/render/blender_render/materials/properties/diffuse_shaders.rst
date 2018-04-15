@@ -7,8 +7,8 @@ Diffuse Shaders
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Shading/Material --> Diffuse`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Shading/Material --> Diffuse`
 
 A diffuse shader determines, simply speaking,
 the general color of a material when light shines on it.
@@ -60,8 +60,8 @@ Lambert
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Shading/Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Shading/Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_lambert.jpg
    :width: 320px
@@ -90,8 +90,8 @@ Oren-Nayar
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Shading/Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Shading/Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_oren-nayar.jpg
    :width: 320px
@@ -123,8 +123,8 @@ Toon
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Shading/Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Shading/Material --> Shaders`
 
 .. list-table::
 
@@ -160,8 +160,8 @@ Minnaert
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Shading/Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Shading/Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_diffuse-shaders_lambert.jpg
    :width: 320px
@@ -194,8 +194,8 @@ Fresnel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Shading/Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Shading/Material --> Shaders`
 
 .. list-table::
 

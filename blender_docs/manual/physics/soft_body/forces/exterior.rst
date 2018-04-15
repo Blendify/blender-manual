@@ -41,7 +41,7 @@ Soft Body Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body`
+   :Panel:     :menuselection:`Physics --> Soft Body`
 
 
 Object
@@ -76,7 +76,7 @@ Force Fields
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Field Weights`
+   :Panel:     :menuselection:`Physics --> Soft Body Field Weights`
 
 To create other forces you have to use another object,
 often *Empty* objects are used for that.
@@ -102,7 +102,7 @@ Aerodynamics
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Edges`
+   :Panel:     :menuselection:`Physics --> Soft Body Edges`
 
 This special exterior force is not applied to the vertices but to the connecting edges.
 Technically, a force perpendicular to the edge is applied.
@@ -126,7 +126,7 @@ Goal
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Goal`
+   :Panel:     :menuselection:`Physics --> Soft Body Goal`
 
 A goal is a shape that a soft body object tries to conform to.
 

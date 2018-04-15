@@ -26,9 +26,9 @@ Transforms
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View Mode and Mask Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform`
-   | Menu:     :menuselection:`UVs --> Transform`
+   :Mode:      View Mode and Mask Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform`
+   :Menu:      :menuselection:`UVs --> Transform`
 
 - Translate :kbd:`G`
 - Rotate :kbd:`R`
@@ -53,9 +53,9 @@ UV Options
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View Mode and Mask Mode
-   | Panel:    :menuselection:`Tool Shelf --> Options --> UV Options`
-   | Menu:     :menuselection:`UVs`
+   :Mode:      View Mode and Mask Mode
+   :Panel:     :menuselection:`Tool Shelf --> Options --> UV Options`
+   :Menu:      :menuselection:`UVs`
 
 Live Unwrap
    Continuously unwraps the selected UV islands while transforming pinned vertices.
@@ -73,10 +73,10 @@ Pin and Unpin
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Pin/Unpin`
-   | Menu:     :menuselection:`UVs --> Pin/Unpin`
-   | Hotkey:   :kbd:`P`, :kbd:`Alt-P`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Pin/Unpin`
+   :Menu:      :menuselection:`UVs --> Pin/Unpin`
+   :Hotkey:    :kbd:`P`, :kbd:`Alt-P`
 
 You can pin UVs so they do not move between multiple unwrap operations.
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
@@ -102,9 +102,9 @@ Seams
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
-   | Menu:     :menuselection:`UVs --> Mark/Clear Seam`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
+   :Menu:      :menuselection:`UVs --> Mark/Clear Seam`
 
 See :doc:`/editors/uv_image/uv/editing/unwrapping/seams`.
 
@@ -118,10 +118,10 @@ Pack Islands
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Pack Islands`
-   | Menu:     :menuselection:`UVs --> Pack Islands`
-   | Hotkey:   :kbd:`Ctrl-P`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Pack Islands`
+   :Menu:      :menuselection:`UVs --> Pack Islands`
+   :Hotkey:    :kbd:`Ctrl-P`
 
 The *Pack Islands* tool generates an optimized UV layout with non-overlapping islands
 that tries to efficiently fill the texture space.
@@ -138,10 +138,10 @@ Average Island Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Average Island Scale`
-   | Menu:     :menuselection:`UVs --> Average Island Scale`
-   | Hotkey:   :kbd:`Ctrl-A`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Average Island Scale`
+   :Menu:      :menuselection:`UVs --> Average Island Scale`
+   :Hotkey:    :kbd:`Ctrl-A`
 
 Using the *Average Island Scale* tool, will scale each
 UV island so that they are all approximately the same scale.
@@ -155,10 +155,10 @@ Minimize Stretch
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Minimize Stretch`
-   | Menu:     :menuselection:`UVs --> Minimize Stretch`
-   | Hotkey:   :kbd:`Ctrl-V`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Minimize Stretch`
+   :Menu:      :menuselection:`UVs --> Minimize Stretch`
+   :Hotkey:    :kbd:`Ctrl-V`
 
 The *Minimize Stretch* tool, reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 
@@ -171,10 +171,10 @@ Stitch
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Stitch`
-   | Menu:     :menuselection:`UVs --> Stitch`
-   | Hotkey:   :kbd:`V`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Stitch`
+   :Menu:      :menuselection:`UVs --> Stitch`
+   :Hotkey:    :kbd:`V`
 
 The *Stitch* tool, will join selected UVs that share vertices.
 You set the tool to limit stitching by distance in the Operator panel,
@@ -187,9 +187,9 @@ Copy Mirrored UV Coordinates
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Copy Mirrored UV Coordinates`
-   | Menu:     :menuselection:`UVs --> Copy Mirrored UV Coordinates`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Copy Mirrored UV Coordinates`
+   :Menu:      :menuselection:`UVs --> Copy Mirrored UV Coordinates`
 
 ToDo <2.57.
 
@@ -200,10 +200,10 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Align --> Mirror X/Y`
-   | Menu:     :menuselection:`UVs --> Mirror`
-   | Hotkey:   :kbd:`Ctrl-M`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Align --> Mirror X/Y`
+   :Menu:      :menuselection:`UVs --> Mirror`
+   :Hotkey:    :kbd:`Ctrl-M`
 
 UVs can be mirrored on the Y axis or the X axis:
 
@@ -220,9 +220,9 @@ Snap
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Menu:     :menuselection:`UVs --> Snap`
-   | Hotkey:   :kbd:`Shift-S`
+   :Mode:      View mode
+   :Menu:      :menuselection:`UVs --> Snap`
+   :Hotkey:    :kbd:`Shift-S`
 
 Snapping in the UV/image editor is similar to
 :doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/snap>`.
@@ -251,11 +251,11 @@ Weld
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Weld`
-   | Menu:     :menuselection:`UVs --> Weld/Align --> Weld`,
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Weld`
+   :Menu:      :menuselection:`UVs --> Weld/Align --> Weld`,
                :menuselection:`Specials --> Weld`
-   | Hotkey:   :kbd:`W`
+   :Hotkey:    :kbd:`W`
 
 The *Weld* tool will move selected UVs to their average position.
 
@@ -268,9 +268,9 @@ Remove Doubles UV
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> Remove Doubles UV`
-   | Menu:     :menuselection:`UVs --> Weld/Align --> Remove Doubles UV`,
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Remove Doubles UV`
+   :Menu:      :menuselection:`UVs --> Weld/Align --> Remove Doubles UV`,
                :menuselection:`Specials --> Remove Doubles UV`
 
 The *Remove Doubles UV* tool will merge selected UVs within the specified *Margin*.
@@ -284,11 +284,11 @@ Straighten/Align
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Align --> Straighten/Align`
-   | Menu:     :menuselection:`UVs --> Weld/Align --> Straighten/Align`,
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Align --> Straighten/Align`
+   :Menu:      :menuselection:`UVs --> Weld/Align --> Straighten/Align`,
                :menuselection:`Specials --> Straighten/Align`
-   | Hotkey:   :kbd:`W`
+   :Hotkey:    :kbd:`W`
 
 Straighten
    Auto, X, Y
@@ -304,10 +304,10 @@ Proportional Editing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Header:   :menuselection:`Proportional Editing`
-   | Menu:     :menuselection:`UVs --> Proportional Editing`
-   | Hotkey:   :kbd:`O`
+   :Mode:      View mode
+   :Header:    :menuselection:`Proportional Editing`
+   :Menu:      :menuselection:`UVs --> Proportional Editing`
+   :Hotkey:    :kbd:`O`
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
 See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
@@ -320,8 +320,8 @@ Show/Hide Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Menu:     :menuselection:`UVs --> Show/Hide Faces`
+   :Mode:      View mode
+   :Menu:      :menuselection:`UVs --> Show/Hide Faces`
 
 - Reveal Hidden :kbd:`Alt-H`
 - Hide Select :kbd:`H`
@@ -336,8 +336,8 @@ Export UV Layout
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Menu:     :menuselection:`UVs --> Export UV Layout`
+   :Mode:      View mode
+   :Menu:      :menuselection:`UVs --> Export UV Layout`
 
 Using your favorite image painting program, you could use an exported UV layout to create a texture.
 Then save your changes, and back in Blender, use the :menuselection:`Image --> Open`
@@ -399,8 +399,8 @@ Pivot Point
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Header:   :menuselection:`Pivot Point`
+   :Mode:      View mode
+   :Header:    :menuselection:`Pivot Point`
 
 The UV/Image editor has a 2D cursor. Its position can be changed by :kbd:`LMB`
 clicking in the UV/Image editor. You can also manually adjust its position in the Properties region.
@@ -425,9 +425,9 @@ Face Mirror and Rotate UVs
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Edit mode
-   | Menu:     :menuselection:`Mesh --> Face --> Rotate UVs/Reverse UVs`
+   :Editor:    3D View
+   :Mode:      Edit mode
+   :Menu:      :menuselection:`Mesh --> Face --> Rotate UVs/Reverse UVs`
 
 The orientation of the UV texture is defined by each face.
 If the image is, for example, upside down or laying on its side,

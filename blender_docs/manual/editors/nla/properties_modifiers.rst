@@ -15,7 +15,7 @@ Animation Data
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Animations --> Animation Data`
+   :Panel:     :menuselection:`Properties region --> Animations --> Animation Data`
 
 .. figure:: /images/editors_nla_properties-modifiers_animation-data-panel.png
 
@@ -54,7 +54,7 @@ Active Track
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Animations --> Active Track`
+   :Panel:     :menuselection:`Properties region --> Animations --> Active Track`
 
 Name
    Name of the track which the strip currently belongs to.
@@ -99,7 +99,7 @@ Action Clip
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Animations --> Active Clip`
+   :Panel:     :menuselection:`Properties region --> Animations --> Active Clip`
 
 .. figure:: /images/editors_nla_properties-modifiers_action-clip-panel.png
 
@@ -133,7 +133,7 @@ Evaluation
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Animations --> Evaluation`
+   :Panel:     :menuselection:`Properties region --> Animations --> Evaluation`
 
 .. figure:: /images/editors_nla_properties-modifiers_evaluation-panel.png
 
@@ -159,7 +159,7 @@ Modifiers
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> Modifiers --> Modifiers`
+   :Panel:     :menuselection:`Properties region --> Modifiers --> Modifiers`
 
 Like its counterparts in graph and video editing,
 Modifiers can stack different combinations of effects for strips.

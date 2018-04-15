@@ -18,7 +18,7 @@ Soft Body
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body`
+   :Panel:     :menuselection:`Physics --> Soft Body`
 
 
 Object
@@ -49,7 +49,7 @@ Soft Body Cache
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Cache`
+   :Panel:     :menuselection:`Physics --> Soft Body Cache`
 
 .. note::
 
@@ -62,7 +62,7 @@ Soft Body Goal
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Goal`
+   :Panel:     :menuselection:`Physics --> Soft Body Goal`
 
 Use Goal
    Soft Body Goal acts like a pin on a chosen set of vertices;
@@ -114,7 +114,7 @@ Soft Body Edges
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Edges`
+   :Panel:     :menuselection:`Physics --> Soft Body Edges`
 
 Use Edges
    The edges in a Mesh Object can act as springs as well, like threads in fabric.
@@ -194,7 +194,7 @@ Soft Body Self Collision
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Self Collision`
+   :Panel:     :menuselection:`Physics --> Soft Body Self Collision`
 
 .. note::
 
@@ -247,7 +247,7 @@ Soft Body Solver
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Solver`
+   :Panel:     :menuselection:`Physics --> Soft Body Solver`
 
 These settings determine the accurateness of the simulation.
 

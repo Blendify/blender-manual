@@ -89,7 +89,7 @@ Duplicate Area into new Window
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`View --> Duplicate Area into new Window`
+   :Menu:      :menuselection:`View --> Duplicate Area into new Window`
 
 The new window is a fully functional window, which is part of the same instance of Blender.
 This can be useful, e.g. if you have multiple monitors.
@@ -108,8 +108,8 @@ Toggle Maximize Area
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`View --> Toggle Maximize Area`
-   | Hotkey:   :kbd:`Ctrl-Up`, :kbd:`Shift-Spacebar`
+   :Menu:      :menuselection:`View --> Toggle Maximize Area`
+   :Hotkey:    :kbd:`Ctrl-Up`, :kbd:`Shift-Spacebar`
 
 The maximized area fill the whole application window.
 It contains the Info Editor and the select area.
@@ -136,8 +136,8 @@ Toggle Fullscreen Area
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`View --> Toggle Fullscreen Area`
-   | Hotkey:   :kbd:`Alt-F10`
+   :Menu:      :menuselection:`View --> Toggle Fullscreen Area`
+   :Hotkey:    :kbd:`Alt-F10`
 
 The fullscreen area contains only the main region. The headers visibility can still
 be toggled with the shortcut. To exit the fullscreen move the mouse to the top right corner

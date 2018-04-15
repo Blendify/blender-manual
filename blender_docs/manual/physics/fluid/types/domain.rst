@@ -12,8 +12,8 @@ The Domain Object
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Fluid`
-   | Type:     Domain
+   :Panel:     :menuselection:`Physics --> Fluid`
+   :Type:      Domain
 
 The bounding box of the object serves as the boundary of the simulation.
 All fluid objects **must** be in the domain. Fluid objects outside the domain will not bake.
@@ -147,8 +147,8 @@ Fluid World
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Fluid World`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Fluid World`
 
 .. figure:: /images/physics_fluid_types_domain_world.png
 
@@ -267,8 +267,8 @@ Fluid Boundary
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Fluid Boundary`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Fluid Boundary`
 
 .. figure:: /images/physics_fluid_types_domain_boundary-panel.png
 
@@ -312,8 +312,8 @@ Fluid Particles
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Fluid Particles`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Fluid Particles`
 
 .. figure:: /images/physics_fluid_types_domain_particles.png
 

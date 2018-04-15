@@ -40,8 +40,8 @@ Creating a Force Field
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Physics --> Fields`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Physics --> Fields`
 
 To create a single Force Field,
 you can select :menuselection:`Add --> Force Field` and select the desired force field.

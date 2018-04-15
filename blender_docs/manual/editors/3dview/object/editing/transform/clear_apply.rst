@@ -11,9 +11,9 @@ Clear
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Clear --> Clear Location/Clear Scale/Clear Rotation/Clear Origin`
-   | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-S`, :kbd:`Alt-R`, :kbd:`Alt-O`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Clear --> Clear Location/Clear Scale/Clear Rotation/Clear Origin`
+   :Hotkey:    :kbd:`Alt-G`, :kbd:`Alt-S`, :kbd:`Alt-R`, :kbd:`Alt-O`
 
 Clearing transforms simply resets the transform values.
 The objects location and rotation values return to 0, and the scale returns to 1.
@@ -52,9 +52,9 @@ Apply Object Transformations
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Apply --> Location / Rotation / Scale`
-   | Hotkey:   :kbd:`Ctrl-A`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Apply --> Location / Rotation / Scale`
+   :Hotkey:    :kbd:`Ctrl-A`
 
 Applying transform values essentially resets the values of object's location, rotation or scale,
 while visually keeping the object data in-place.
@@ -103,9 +103,9 @@ Transforms to Deltas
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Apply -->`
-   | Hotkey:   :kbd:`Shift-Alt-G`, :kbd:`Shift-Alt-R`, and :kbd:`Shift-Alt-S`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Apply -->`
+   :Hotkey:    :kbd:`Shift-Alt-G`, :kbd:`Shift-Alt-R`, and :kbd:`Shift-Alt-S`
 
 Clear both the normal and :ref:`Delta transforms <transform-delta>`.
 
@@ -132,9 +132,9 @@ Visual Transform
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Apply --> Visual Transform`
-   | Hotkey:   :kbd:`Ctrl-A`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Apply --> Visual Transform`
+   :Hotkey:    :kbd:`Ctrl-A`
 
 Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale.
 
@@ -145,9 +145,9 @@ Visual Geometry as Mesh
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Apply --> Visual Geometry as Mesh`
-   | Hotkey:   :kbd:`Ctrl-A`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Apply --> Visual Geometry as Mesh`
+   :Hotkey:    :kbd:`Ctrl-A`
 
 Apply the visual state of all selected objects (modifiers, shape keys, hooks, etc.) to object data.
 This is a way to freeze all object data into static meshes, as well as converts non-mesh types to mesh.
@@ -161,9 +161,9 @@ Make Duplicate Real
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Apply --> Make Duplicate Real`
-   | Hotkey:   :kbd:`Shift-Ctrl-A`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Apply --> Make Duplicate Real`
+   :Hotkey:    :kbd:`Shift-Ctrl-A`
 
 *Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.
 

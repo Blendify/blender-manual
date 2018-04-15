@@ -11,10 +11,10 @@ Insert Keyframes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Insert`
-   | Menu:     :menuselection:`Object --> Animation --> Insert Keyframe...`
-   | Hotkey:   :kbd:`I`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Insert`
+   :Menu:      :menuselection:`Object --> Animation --> Insert Keyframe...`
+   :Hotkey:    :kbd:`I`
 
 There are several methods of adding new keys. Namely:
 
@@ -44,10 +44,10 @@ Delete Keyframes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Remove`
-   | Menu:     :menuselection:`Object --> Animation --> Delete Keyframes...`
-   | Hotkey:   :kbd:`Alt-I`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Remove`
+   :Menu:      :menuselection:`Object --> Animation --> Delete Keyframes...`
+   :Hotkey:    :kbd:`Alt-I`
 
 There are several methods of removing keyframes:
 
@@ -64,8 +64,8 @@ Clear Keyframes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Animation --> Clear Keyframes...`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Animation --> Clear Keyframes...`
 
 Removes all keyframes from the selected object.
 

@@ -6,9 +6,9 @@ Bone Groups
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Properties editor --> Armature --> Bone Groups`
-   | Menu:     :menuselection:`Pose --> Bone Groups --> ...`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Properties editor --> Armature --> Bone Groups`
+   :Menu:      :menuselection:`Pose --> Bone Groups --> ...`
 
 .. figure:: /images/rigging_armatures_properties_bone-groups_panel.png
 

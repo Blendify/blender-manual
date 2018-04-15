@@ -7,8 +7,8 @@ Object Data
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Editor:   :menuselection:`Properties -->  Camera`
+   :Mode:      Object Mode
+   :Editor:    :menuselection:`Properties -->  Camera`
 
 Cameras are invisible in renders, so they do not have any material or texture settings.
 However, they do have *Object* and *Editing* setting panels available

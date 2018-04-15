@@ -6,7 +6,7 @@ Displacement
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Material --> Settings --> Displacement`
+   :Panel:     :menuselection:`Material --> Settings --> Displacement`
 
 Detail can be added to the shape of a surface with displacement shaders.
 

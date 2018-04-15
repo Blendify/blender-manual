@@ -9,8 +9,8 @@ Point Selection
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Hotkey:   :kbd:`RMB` and :kbd:`Shift-RMB`
+   :Mode:      All Modes
+   :Hotkey:    :kbd:`RMB` and :kbd:`Shift-RMB`
 
 The simplest form of object selection consists of using :kbd:`RMB` on it.
 To add to the selection, use :kbd:`Shift-RMB` on more objects.
@@ -33,9 +33,9 @@ Border Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Menu:     :menuselection:`Select --> Border Select`
-   | Hotkey:   :kbd:`B`
+   :Mode:      Object Mode and Edit Mode
+   :Menu:      :menuselection:`Select --> Border Select`
+   :Hotkey:    :kbd:`B`
 
 To activate the tool, press :kbd:`B`.
 With *Border Select* you draw a rectangle while holding down :kbd:`LMB`.
@@ -59,9 +59,9 @@ Circle Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Menu:     :menuselection:`Select --> Circle Select`
-   | Hotkey:   :kbd:`C`
+   :Mode:      Object Mode and Edit Mode
+   :Menu:      :menuselection:`Select --> Circle Select`
+   :Hotkey:    :kbd:`C`
 
 *Circle Select* :kbd:`C` is used by moving with dotted circle through objects with :kbd:`LMB`.
 You can select any object by touching of circle area.
@@ -79,8 +79,8 @@ Lasso Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Hotkey:   :kbd:`Ctrl-LMB`
+   :Mode:      Object Mode and Edit Mode
+   :Hotkey:    :kbd:`Ctrl-LMB`
 
 Lasso select is used by drawing a dotted line around vertices or the origin of the objects,
 in *Object Mode*. To use this hold :kbd:`Ctrl-LMB` and simply draw around the points you want to select.
@@ -96,10 +96,10 @@ Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ct
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Select --> (De)select All`,
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Select --> (De)select All`,
                :menuselection:`Select --> Inverse`
-   | Hotkey:   :kbd:`A`
+   :Hotkey:    :kbd:`A`
 
 If anything was selected it is first deselected.
 Otherwise it toggles between selecting and deselecting every visible object.
@@ -119,8 +119,8 @@ Random
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Menu:     :menuselection:`Select --> Random`
+   :Mode:      Object and Edit Modes
+   :Menu:      :menuselection:`Select --> Random`
 
 Randomly selects unselected objects based on percentage probability on currently active layers.
 On selecting the operator a numerical selection box becomes available in the *Tool Shelf*.
@@ -136,9 +136,9 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Select --> Mirror`
-   | Hotkey:   :kbd:`Shift-Ctrl-M`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Select --> Mirror`
+   :Hotkey:    :kbd:`Shift-Ctrl-M`
 
 Select the Mirror objects of the selected object,
 based on their names, e.g. "sword.L" and "sword.R".
@@ -152,8 +152,8 @@ Select All by Layer
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> Select All by Layer`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Select --> Select All by Layer`
 
 .. figure:: /images/editors_3dview_object_selecting_tools_all-by-layer.png
    :align: right
@@ -185,8 +185,8 @@ Select All by Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> Select All by Type`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Select --> Select All by Type`
 
 With this tool, it becomes possible to select objects of a certain type in one go.
 
@@ -202,8 +202,8 @@ Select Camera
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> Select Camera`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Select --> Select Camera`
 
 Selects the active camera, this can be used in a complicated scene to easily find the active camera.
 
@@ -218,9 +218,9 @@ Select More/Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Select --> More/Less`
+   :Hotkey:    :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
 Their purpose, based on the hierarchical.
 
@@ -247,9 +247,9 @@ Select Grouped
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> Grouped`
-   | Hotkey:   :kbd:`Shift-G`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Select --> Grouped`
+   :Hotkey:    :kbd:`Shift-G`
 
 There are two ways to organize the objects in relation to one another.
 The first one is *parenting*, and the second is simple *grouping*.
@@ -298,9 +298,9 @@ Select Linked
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> Linked`
-   | Hotkey:   :kbd:`Shift-L`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Select --> Linked`
+   :Hotkey:    :kbd:`Shift-L`
 
 Selects all objects which share a common data-block with the active object.
 *Select Linked* uses the active object as a basis to select all others.
@@ -332,8 +332,8 @@ Select Pattern
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> Pattern`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Select --> Pattern`
 
 Selects all objects whose name matches a given pattern.
 Supported wild-cards: \* matches everything, ? matches any single character,
