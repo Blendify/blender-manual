@@ -7,8 +7,8 @@ Specular Shaders
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Specular`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Specular`
 
 Specular shaders create the bright highlights that one would see on a glossy surface,
 mimicking the reflection of light sources.
@@ -93,8 +93,8 @@ Cook-Torrance
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_specular-shaders_cooktorr.jpg
    :width: 320px
@@ -125,8 +125,8 @@ Phong
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_specular-shaders_phong.jpg
    :width: 320px
@@ -162,8 +162,8 @@ Blinn
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_specular-shaders_blinn.jpg
    :width: 320px
@@ -201,8 +201,8 @@ Toon
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_specular-shaders_toonspec.jpg
    :width: 320px
@@ -232,8 +232,8 @@ Ward Isotropic
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Material --> Shaders`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Material --> Shaders`
 
 .. figure:: /images/render_blender-render_materials_properties_specular-shaders_wardiso.jpg
    :width: 320px

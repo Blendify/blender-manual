@@ -80,8 +80,8 @@ Special Characters
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Text --> Special Characters`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Text --> Special Characters`
 
 If you need special characters (such as accented chars, which are not on your keyboard)
 you can produce many of them using a combination of two other characters. To do so,
@@ -161,8 +161,8 @@ Assigning Materials
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Properties editor --> Materials`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Properties editor --> Materials`
 
 Each character can have a different *Material index* in order to have different
 materials on different characters.

@@ -8,8 +8,8 @@ Collisions
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Panel:    :menuselection:`Physics --> Collision`
+   :Mode:      Object Mode
+   :Panel:     :menuselection:`Physics --> Collision`
 
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`
 and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.

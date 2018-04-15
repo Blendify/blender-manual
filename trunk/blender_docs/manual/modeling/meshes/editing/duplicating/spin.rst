@@ -8,9 +8,9 @@ Spin
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Spin`
-   | Hotkey:   :kbd:`Alt-R`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Spin`
+   :Hotkey:    :kbd:`Alt-R`
 
 The *Spin* tool extrudes (or duplicates it if the selection is manifold) the selected elements,
 rotating around a specific point and axis.

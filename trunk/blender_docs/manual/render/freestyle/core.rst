@@ -6,7 +6,7 @@ Core Options
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render --> Freestyle`
+   :Panel:     :menuselection:`Properties editor --> Render --> Freestyle`
 
 .. figure:: /images/render_freestyle_core_freestyle-panel.png
 

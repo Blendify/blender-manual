@@ -6,8 +6,8 @@ Display Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Pose Mode
-   | Panel:    :menuselection:`Bone --> Display`
+   :Mode:      Object and Pose Mode
+   :Panel:     :menuselection:`Bone --> Display`
 
 .. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-field.png
 

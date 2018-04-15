@@ -17,8 +17,8 @@ Add
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Add`
-   | Hotkey:   :kbd:`Shift-A`
+   :Menu:      :menuselection:`Add`
+   :Hotkey:    :kbd:`Shift-A`
 
 .. figure:: /images/editors_vse_sequencer_strips_introduction_add-menu.png
    :align: right

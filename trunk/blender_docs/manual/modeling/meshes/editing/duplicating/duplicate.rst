@@ -11,10 +11,10 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Duplicate`
-   | Menu:     :menuselection:`Mesh --> Add Duplicate`
-   | Hotkey:   :kbd:`Shift-D`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Duplicate`
+   :Menu:      :menuselection:`Mesh --> Add Duplicate`
+   :Hotkey:    :kbd:`Shift-D`
 
 This tool simply duplicates the selected elements,
 without creating any connections with the rest of the mesh (unlike extrude, for example),

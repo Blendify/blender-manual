@@ -11,10 +11,10 @@ Grab/Move
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode, Edit Mode, and Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Translate`
-   | Menu:     :menuselection:`Object type --> Transform --> Grab/Move`
-   | Hotkey:   :kbd:`G`
+   :Mode:      Object Mode, Edit Mode, and Pose Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Translate`
+   :Menu:      :menuselection:`Object type --> Transform --> Grab/Move`
+   :Hotkey:    :kbd:`G`
 
 In Object Mode, the grab/move option lets you translate (move) objects.
 Translation means changing location of objects.
@@ -50,10 +50,10 @@ Rotate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Rotate`
-   | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
-   | Hotkey:   :kbd:`R`
+   :Mode:      Object and Edit Modes
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Rotate`
+   :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
+   :Hotkey:    :kbd:`R`
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, object, etc.)
@@ -83,10 +83,10 @@ Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Scale`
-   | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
-   | Hotkey:   :kbd:`S`
+   :Mode:      Object and Edit Modes
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Scale`
+   :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
+   :Hotkey:    :kbd:`S`
 
 Scaling means changing proportions of objects.
 Pressing :kbd:`S` will enter the *Scale* transformation mode where
@@ -185,9 +185,9 @@ Texture Space
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Menu:     :menuselection:`Object --> Transform`
-   | Hotkey:   :kbd:`Shift-T`, :kbd:`Shift-Alt-T`
+   :Mode:      Object Mode and Edit Mode
+   :Menu:      :menuselection:`Object --> Transform`
+   :Hotkey:    :kbd:`Shift-T`, :kbd:`Shift-Alt-T`
 
 Transforms the object :ref:`Texture Space <properties-texture-space>`,
 which will become visible in the 3D View.

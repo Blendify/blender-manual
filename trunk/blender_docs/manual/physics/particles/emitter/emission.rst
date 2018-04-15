@@ -6,7 +6,7 @@ Emission
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Particle System --> Emission`
+   :Panel:     :menuselection:`Particle System --> Emission`
 
 The *Emitter* system works just like its name says: it emits/produces particles for a certain amount of time.
 In such a system, particles are emitted from the selected object from the *Start*

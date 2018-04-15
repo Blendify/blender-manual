@@ -27,7 +27,7 @@ Collision Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Cloth Collision`
+   :Panel:     :menuselection:`Physics --> Cloth Collision`
 
 .. figure:: /images/physics_cloth_settings_collisions_panel.png
 
@@ -150,7 +150,7 @@ Cloth Cache
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Cloth Cache`
+   :Panel:     :menuselection:`Physics --> Cloth Cache`
 
 Cache settings for cloth are the same as with other dynamic systems.
 See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.

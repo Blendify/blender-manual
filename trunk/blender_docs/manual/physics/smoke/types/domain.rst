@@ -7,8 +7,8 @@ Smoke Domain
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Smoke`
-   | Type:     Domain
+   :Panel:     :menuselection:`Physics --> Smoke`
+   :Type:      Domain
 
 The domain object contains the entire simulation. Smoke and fire cannot leave the domain,
 it will either collide with the edge or disappear, depending on the domain's settings.
@@ -114,8 +114,8 @@ Smoke Flames
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Smoke Flames`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Smoke Flames`
 
 Speed
    How fast fuel burns. Larger values result in smaller flames (fuel burns before it can go very far),
@@ -138,8 +138,8 @@ Smoke Adaptive Domain
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Smoke Adaptive Domain`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Smoke Adaptive Domain`
 
 When enabled, the domain will adaptively shrink to best fit the smoke,
 saving computation time by leaving voxels without smoke out of the simulation.
@@ -164,8 +164,8 @@ Smoke High Resolution
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Smoke High Resolution`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Smoke High Resolution`
 
 The High Resolution option lets you simulate at a low resolution and then it uses noise techniques
 to enhance the resolution without actually computing it. This allows animators to set up a low
@@ -205,8 +205,8 @@ Smoke Groups
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Smoke Groups`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Smoke Groups`
 
 Flow Group
    If set, only objects in the specified :doc:`Group </editors/3dview/object/properties/relations/groups>`
@@ -222,8 +222,8 @@ Smoke Cache
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Smoke Cache`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Smoke Cache`
 
 See :doc:`Baking </physics/smoke/baking>`.
 
@@ -236,8 +236,8 @@ Smoke Field Weights
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Domain
-   | Panel:    :menuselection:`Physics --> Smoke Field Weights`
+   :Type:      Domain
+   :Panel:     :menuselection:`Physics --> Smoke Field Weights`
 
 These settings determine how much gravity and :doc:`Force Fields </physics/force_fields/index>` affect the smoke.
 

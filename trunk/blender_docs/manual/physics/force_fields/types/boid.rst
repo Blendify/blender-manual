@@ -6,8 +6,8 @@ Boid
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Force Fields`
-   | Type:     Boid
+   :Panel:     :menuselection:`Physics --> Force Fields`
+   :Type:      Boid
 
 .. figure:: /images/physics_force-fields_introduction_empty.png
 

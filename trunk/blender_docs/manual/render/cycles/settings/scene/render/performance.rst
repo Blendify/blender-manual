@@ -6,7 +6,7 @@ Performance
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render --> Performance`
+   :Panel:     :menuselection:`Render --> Performance`
 
 
 Threads

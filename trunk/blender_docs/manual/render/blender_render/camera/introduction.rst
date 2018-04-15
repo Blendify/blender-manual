@@ -17,8 +17,8 @@ Changing the Active Camera
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Hotkey:   :kbd:`Ctrl-Numpad0`
+   :Mode:      Object Mode
+   :Hotkey:    :kbd:`Ctrl-Numpad0`
 
 .. figure:: /images/render_blender-render_camera_introduction_cameras.png
 
@@ -49,9 +49,9 @@ Render Border
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Render Border`
-   | Hotkey:   :kbd:`Ctrl-B`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Render Border`
+   :Hotkey:    :kbd:`Ctrl-B`
 
 .. figure:: /images/render_blender-render_camera_introduction_border.png
    :align: right

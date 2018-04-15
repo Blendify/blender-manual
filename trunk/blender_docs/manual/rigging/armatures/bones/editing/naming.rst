@@ -7,8 +7,8 @@ Naming
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Properties region --> Item`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Properties region --> Item`,
                :menuselection:`Bones tab --> Bones panel`
 
 You can rename your bones, either using the *name* field of the *Item*
@@ -74,8 +74,8 @@ Flip Name
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Flip Name`,
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Flip Name`,
                :menuselection:`Specials --> Flip Name`
 
 You can flip left/right markers (see above) in selected bone names,
@@ -93,8 +93,8 @@ AutoName
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> AutoName Left/Right`,
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> AutoName Left/Right`,
                :menuselection:`Armature --> AutoName Front/Back`,
                :menuselection:`Armature --> AutoName Top/Bottom`
 

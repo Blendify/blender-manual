@@ -9,9 +9,9 @@ Transform
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Node --> Translate, Rotate, Resize`
-   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Translate, Rotate, Resize`
+   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Move a single node by clicking and dragging it around. A node can be clicked almost anywhere to start dragging.
 Multiple nodes can be translated after pressing :kbd:`G`.
@@ -64,9 +64,9 @@ Cut Links
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Node --> Cut Links`
-   | Hotkey:   :kbd:`Ctrl-LMB`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Cut Links`
+   :Hotkey:    :kbd:`Ctrl-LMB`
 
 To break a link between sockets :kbd:`Ctrl-LMB`-click in an empty area, near the link you want to disconnect, and
 drag: You will see a little cutter icon appearing at your mouse pointer. Move it over the link itself, and
@@ -82,9 +82,9 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Node --> Duplicate`
-   | Hotkey:   :kbd:`Shift-D`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Duplicate`
+   :Hotkey:    :kbd:`Shift-D`
 
 Click :kbd:`LMB` or :kbd:`RMB` on the desired node, press :kbd:`Shift-D` and
 move the mouse away to see the duplicate of the selected node appearing under the mouse pointer.
@@ -112,9 +112,9 @@ Mute
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Node --> Toggle Node Mute`
-   | Hotkey:   :kbd:`M`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Toggle Node Mute`
+   :Hotkey:    :kbd:`M`
 
 Muting a node removes the contribution of the node to the node tree,
 and makes all links pass through that node without change.

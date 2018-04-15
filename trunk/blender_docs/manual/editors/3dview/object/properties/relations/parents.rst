@@ -12,9 +12,9 @@ Make Parent
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Parent`
-   | Hotkey:   :kbd:`Ctrl-P`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Parent`
+   :Hotkey:    :kbd:`Ctrl-P`
 
 When modeling a complex object, such as a watch,
 you may choose to model the different parts as separate objects. However,
@@ -300,9 +300,9 @@ Clear Parent
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Parent`
-   | Hotkey:   :kbd:`Alt-P`
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Parent`
+   :Hotkey:    :kbd:`Alt-P`
 
 You can *remove* a parent-child relationship via :kbd:`Alt-P`.
 

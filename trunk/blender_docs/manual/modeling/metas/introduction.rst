@@ -6,9 +6,9 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit Modes
-   | Menu:     :menuselection:`Add --> Meta`
-   | Hotkey:   :kbd:`Shift-A`
+   :Mode:      Object or Edit Modes
+   :Menu:      :menuselection:`Add --> Meta`
+   :Hotkey:    :kbd:`Shift-A`
 
 Meta objects are *implicit surfaces*,
 meaning that they are *not explicitly* defined by vertices (as meshes are)

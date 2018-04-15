@@ -6,8 +6,8 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Tab`
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`Tab`
 
 As with any other object, you edit your armature in *Edit Mode* :kbd:`Tab`.
 

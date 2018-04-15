@@ -17,10 +17,10 @@ Undo
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Undo`
-   | Menu:     :menuselection:`Object/Object types --> Undo`
-   | Hotkey:   :kbd:`Ctrl-Z`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Undo`
+   :Menu:      :menuselection:`Object/Object types --> Undo`
+   :Hotkey:    :kbd:`Ctrl-Z`
 
 If you want to undo your last action, just press :kbd:`Ctrl-Z`.
 
@@ -37,10 +37,10 @@ Redo
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Redo`
-   | Menu:     :menuselection:`Object/Object types --> Redo`
-   | Hotkey:   :kbd:`Shift-Ctrl-Z`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Redo`
+   :Menu:      :menuselection:`Object/Object types --> Redo`
+   :Hotkey:    :kbd:`Shift-Ctrl-Z`
 
 To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
 
@@ -53,9 +53,9 @@ Redo Last
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Operator panel`
-   | Hotkey:   :kbd:`F6`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Operator panel`
+   :Hotkey:    :kbd:`F6`
 
 *Redo Last* is short for *Redo(ing the) Last (Action)*.
 :kbd:`F6` after an action will present you a context-sensitive
@@ -103,10 +103,10 @@ Undo History
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Undo History`
-   | Menu:     :menuselection:`Object/Object types --> Undo History`
-   | Hotkey:   :kbd:`Ctrl-Alt-Z`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Undo History`
+   :Menu:      :menuselection:`Object/Object types --> Undo History`
+   :Hotkey:    :kbd:`Ctrl-Alt-Z`
 
 .. figure:: /images/interface_undo-redo_undo-history-menu.png
    :align: right
@@ -134,9 +134,9 @@ Repeat Last
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Repeat: Repeat Last`
-   | Hotkey:   :kbd:`Shift-R`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Repeat: Repeat Last`
+   :Hotkey:    :kbd:`Shift-R`
 
 The Repeat Last feature will repeat your last action when you press :kbd:`Shift-R`.
 
@@ -167,9 +167,9 @@ Repeat History
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> History --> Repeat: History...`
-   | Hotkey:   :kbd:`F3`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Repeat: History...`
+   :Hotkey:    :kbd:`F3`
 
 .. figure:: /images/interface_undo-redo_repeat-history-menu.png
    :align: right

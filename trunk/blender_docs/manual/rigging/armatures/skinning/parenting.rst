@@ -6,9 +6,9 @@ Armature Deform Parent
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Pose Mode
-   | Menu:     :menuselection:`Armature --> Parent --> Armature Deform`
-   | Hotkey:   :kbd:`Ctrl-P`
+   :Mode:      Object Mode and Pose Mode
+   :Menu:      :menuselection:`Armature --> Parent --> Armature Deform`
+   :Hotkey:    :kbd:`Ctrl-P`
 
 Armature Deform Parenting is a way of creating and setting up
 an :doc:`Armature Modifier </modeling/modifiers/deform/armature>`.

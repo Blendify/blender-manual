@@ -11,9 +11,9 @@ Transform Orientations
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Panel:    :menuselection:`Properties region --> Transform Orientations`
-   | Hotkey:   :kbd:`Alt-Spacebar`
+   :Mode:      Object and Edit Modes
+   :Panel:     :menuselection:`Properties region --> Transform Orientations`
+   :Hotkey:    :kbd:`Alt-Spacebar`
 
 Orientations affect the behavior of Transformations: Location, Rotation, and Scale.
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
@@ -101,9 +101,9 @@ Custom Orientations
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Panel:    :menuselection:`Properties region --> Transform Orientations`
-   | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
+   :Mode:      Object and Edit Modes
+   :Panel:     :menuselection:`Properties region --> Transform Orientations`
+   :Hotkey:    :kbd:`Ctrl-Alt-Spacebar`
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom.png
 
@@ -172,8 +172,8 @@ Align to Transform Orientation
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Menu:     :menuselection:`Object --> Transform --> Align to Transform Orientation`
+   :Mode:      Object and Edit Modes
+   :Menu:      :menuselection:`Object --> Transform --> Align to Transform Orientation`
 
 Aligns (rotates) the selected objects so that their local orientation matches the active transform orientation
 in the Transform orientation panel or the *Orientation* selection in the Transform Operator panels.

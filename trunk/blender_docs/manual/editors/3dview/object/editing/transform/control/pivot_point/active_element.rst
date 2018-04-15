@@ -7,9 +7,9 @@ Active Element
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Header:   |pivot-icon| :menuselection:`Pivot Point --> Active Element`
-   | Hotkey:   :kbd:`Alt-Period`
+   :Mode:      Object Mode and Edit Mode
+   :Header:    |pivot-icon| :menuselection:`Pivot Point --> Active Element`
+   :Hotkey:    :kbd:`Alt-Period`
 
 The *active* element can be an Object, vertex, edge or a face.
 The active element is the last one to be selected and

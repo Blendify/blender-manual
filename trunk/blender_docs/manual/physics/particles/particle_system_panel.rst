@@ -6,7 +6,7 @@ Particle System Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Particle System --> Particle System`
+   :Panel:     :menuselection:`Particle System --> Particle System`
 
 .. figure:: /images/physics_particles_particle-system-panel_panel.png
 

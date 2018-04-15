@@ -7,9 +7,9 @@ Transformation Manipulators
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Menu:     |manip-menu|
-   | Hotkey:   :kbd:`Ctrl-Spacebar`
+   :Mode:      Object and Edit Modes
+   :Menu:      |manip-menu|
+   :Hotkey:    :kbd:`Ctrl-Spacebar`
 
 The Transformation manipulator widgets allow mouse controlled translation, rotation and scaling in the 3D View.
 There is a separate manipulator for each operation.

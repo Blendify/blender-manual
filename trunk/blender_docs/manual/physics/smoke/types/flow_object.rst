@@ -7,8 +7,8 @@ Smoke Flow Object
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Smoke`
-   | Type:     Flow
+   :Panel:     :menuselection:`Physics --> Smoke`
+   :Type:      Flow
 
 *Smoke Flow* objects are used to add or remove smoke and fire
 to a :doc:`Smoke Domain </physics/smoke/types/domain>` object.
@@ -130,8 +130,8 @@ Smoke Flow Advanced
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Flow
-   | Panel:    :menuselection:`Physics --> Smoke Flow Advanced`
+   :Type:      Flow
+   :Panel:     :menuselection:`Physics --> Smoke Flow Advanced`
 
 .. figure:: /images/physics_smoke_types_flow-object_advanced.png
    :align: right

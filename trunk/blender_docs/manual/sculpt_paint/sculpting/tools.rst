@@ -6,8 +6,8 @@ Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Sculpt Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools`
+   :Mode:      Sculpt Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools`
 
 
 Brush
@@ -19,9 +19,9 @@ Brush Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Sculpt Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Brush`
-   | Menu:     :menuselection:`Brush --> Sculpt Tool`
+   :Mode:      Sculpt Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Brush`
+   :Menu:      :menuselection:`Brush --> Sculpt Tool`
 
 .. figure:: /images/sculpt-paint_sculpting_tools_brushes.png
 
@@ -181,9 +181,9 @@ Symmetry/Lock Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Sculpt Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Symmetry/Lock`
-   | Menu:     :menuselection:`Sculpt --> Symmetry/Lock`
+   :Mode:      Sculpt Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Symmetry/Lock`
+   :Menu:      :menuselection:`Sculpt --> Symmetry/Lock`
 
 Mirror
    Mirror the brush strokes across the selected local axes.

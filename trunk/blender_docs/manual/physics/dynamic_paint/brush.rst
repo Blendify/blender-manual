@@ -7,8 +7,8 @@ Brush
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Dynamic Paint`
-   | Type:     Brush
+   :Panel:     :menuselection:`Physics --> Dynamic Paint`
+   :Type:      Brush
 
 The Brush type makes object apply paint on the canvas.
 
@@ -44,8 +44,8 @@ Source
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Brush
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Source`
+   :Type:      Brush
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Source`
 
 .. figure:: /images/physics_dynamic-paint_brush_source-panel.png
 
@@ -142,8 +142,8 @@ Velocity
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Brush
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Velocity`
+   :Type:      Brush
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Velocity`
 
 .. figure:: /images/physics_dynamic-paint_brush_velocity-panel.png
 
@@ -180,8 +180,8 @@ Waves
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Brush
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Waves`
+   :Type:      Brush
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Waves`
 
 .. figure:: /images/physics_dynamic-paint_brush_waves-panel.png
 

@@ -6,8 +6,8 @@ Curve Guide
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Force Fields`
-   | Type:     Curve Guide
+   :Panel:     :menuselection:`Physics --> Force Fields`
+   :Type:      Curve Guide
 
 .. figure:: /images/physics_force-fields_types_curve-guide_example.png
 

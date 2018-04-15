@@ -9,8 +9,8 @@ Grab/Move
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Grab/Move`
-   | Hotkey:   :kbd:`G`
+   :Menu:      :menuselection:`Strip --> Grab/Move`
+   :Hotkey:    :kbd:`G`
 
 Holding down :kbd:`RMB` and then moving the mouse drags the active strip in time or in channels.
 Pressing :kbd:`G` moves the all selected strip(s).
@@ -69,8 +69,8 @@ Grab/Extend from Frame
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Grab/Extend from Frame`
-   | Hotkey:   :kbd:`E`
+   :Menu:      :menuselection:`Strip --> Grab/Extend from Frame`
+   :Hotkey:    :kbd:`E`
 
 With a number of strips selected, pressing :kbd:`E` lets you interactively extend the strips.
 This is similar to grabbing but is useful for extending (or shortening) time around the current frame.
@@ -85,8 +85,8 @@ Slip Strip Content
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Slip Strip Content`
-   | Hotkey:   :kbd:`S`
+   :Menu:      :menuselection:`Strip --> Slip Strip Content`
+   :Hotkey:    :kbd:`S`
 
 The Slip tool allows you to change the position of the contents of a strip without moving the strip itself.
 
@@ -120,8 +120,8 @@ Snap Strips
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Snap Strips`
-   | Hotkey:   :kbd:`Shift-S`
+   :Menu:      :menuselection:`Strip --> Snap Strips`
+   :Hotkey:    :kbd:`Shift-S`
 
 Position your cursor (vertical green line) to the time you want.
 Snap to current frame to start a strip exactly at the beginning of the frame.
@@ -136,8 +136,8 @@ Separate Images
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Separate Images`
-   | Hotkey:   :kbd:`Y`
+   :Menu:      :menuselection:`Strip --> Separate Images`
+   :Hotkey:    :kbd:`Y`
 
 For images sequence only -- Converts the strip into multiple strips, one strip for each frame.
 Useful for slide shows and other cases where you want to bring in a set on non-continuous images.
@@ -152,8 +152,8 @@ Reassign Inputs
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Reassign Inputs`
-   | Hotkey:   :kbd:`R`
+   :Menu:      :menuselection:`Strip --> Reassign Inputs`
+   :Hotkey:    :kbd:`R`
 
 This tool can be used to assign (reconnect) effect strips in a different way
 Just select three arbitrary strips and press :kbd:`R`.
@@ -166,8 +166,8 @@ Cut (soft) at Frame
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Cut (soft) at Frame`
-   | Hotkey:   :kbd:`K`
+   :Menu:      :menuselection:`Strip --> Cut (soft) at Frame`
+   :Hotkey:    :kbd:`K`
 
 This cuts the selected strip in two at the current frame.
 This will result in two strips which use the same source, fitting the original strip's timing and length.
@@ -184,8 +184,8 @@ Cut (hard) at Frame
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Strip --> Cut (hard) at Frame`
-   | Hotkey:   :kbd:`Shift-K`
+   :Menu:      :menuselection:`Strip --> Cut (hard) at Frame`
+   :Hotkey:    :kbd:`Shift-K`
 
 Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips,
 however you will not be able to drag the endpoints to show the frames past the cut of each resulting strip.
@@ -218,9 +218,9 @@ Change
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties Region --> Strip Input`
-   | Menu:     :menuselection:`Strip --> Change`
-   | Hotkey:   :kbd:`C`
+   :Panel:     :menuselection:`Properties Region --> Strip Input`
+   :Menu:      :menuselection:`Strip --> Change`
+   :Hotkey:    :kbd:`C`
 
 The Change sequence operator modifies the file path or effect inputs/type on selected strips.
 

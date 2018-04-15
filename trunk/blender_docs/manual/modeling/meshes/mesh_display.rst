@@ -6,8 +6,8 @@ Mesh Display
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Properties region --> Mesh Display`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Properties region --> Mesh Display`
 
 .. figure:: /images/modeling_meshes_mesh-display_panel.png
    :align: right

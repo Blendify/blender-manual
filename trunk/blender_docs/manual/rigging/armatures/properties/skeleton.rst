@@ -6,8 +6,8 @@ Skeleton
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Armature --> Skeleton`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Armature --> Skeleton`
 
 .. figure:: /images/rigging_armatures_properties_skeleton_panel.png
 

@@ -48,8 +48,8 @@ A meta strip can be moved and duplicated like a normal strip.
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Add --> Add Meta-Strips`
-   | Hotkey:   :kbd:`Shift-G`
+   :Menu:      :menuselection:`Add --> Add Meta-Strips`
+   :Hotkey:    :kbd:`Shift-G`
 
 .. list-table::
 
@@ -68,8 +68,8 @@ A meta strip still contains the underlying strips. You can ungroup a Meta strip.
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Add --> Remove Meta-Strips`
-   | Hotkey:   :kbd:`Alt-G`
+   :Menu:      :menuselection:`Add --> Remove Meta-Strips`
+   :Hotkey:    :kbd:`Alt-G`
 
 
 Editing
@@ -81,8 +81,8 @@ Start Tweaking Strips Action
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Edit --> Start Tweaking Strips Action`
-   | Hotkey:   :kbd:`Tab`
+   :Menu:      :menuselection:`Edit --> Start Tweaking Strips Action`
+   :Hotkey:    :kbd:`Tab`
 
 The contents of Action strips can be edited, but you must be in *Tweak Mode* to do so.
 The keyframes of the action can then be edited in the Dope Sheet.
@@ -109,8 +109,8 @@ Start Editing Stashed Action
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Edit --> Start Editing Stashed Action`
-   | Hotkey:   :kbd:`Shift-Tab`
+   :Menu:      :menuselection:`Edit --> Start Editing Stashed Action`
+   :Hotkey:    :kbd:`Shift-Tab`
 
 It will enter and exit Tweak Mode as usual, but will also make sure that the action can be edited in isolation
 (by flagging the NLA track that the action strip comes from as being "solo").
@@ -123,8 +123,8 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Edit --> Duplicate`
-   | Hotkey:   :kbd:`Shift-D`
+   :Menu:      :menuselection:`Edit --> Duplicate`
+   :Hotkey:    :kbd:`Shift-D`
 
 Creates a new instance of the selected strips with a copy of the action.
 
@@ -135,8 +135,8 @@ Linked Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Edit --> Linked Duplicate`
-   | Hotkey:   :kbd:`Alt-D`
+   :Menu:      :menuselection:`Edit --> Linked Duplicate`
+   :Hotkey:    :kbd:`Alt-D`
 
 The contents of one Action strip can be instanced multiple times. To instance another strip,
 select a strip, go to :menuselection:`Edit --> Linked Duplicate`.
@@ -157,8 +157,8 @@ Make Single User
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Edit --> Make Single User`
-   | Hotkey:   :kbd:`U`
+   :Menu:      :menuselection:`Edit --> Make Single User`
+   :Hotkey:    :kbd:`U`
 
 This tools ensures that none of the selected strips use an action which is also used by any other strips.
 

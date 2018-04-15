@@ -8,7 +8,7 @@ Line Set
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render Layer --> Freestyle Line Set`
+   :Panel:     :menuselection:`Properties editor --> Render Layer --> Freestyle Line Set`
 
 A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached

@@ -6,9 +6,9 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool shelf --> Create --> Add Primitive --> Other: Text`
-   | Menu:     :menuselection:`Add --> Text`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool shelf --> Create --> Add Primitive --> Other: Text`
+   :Menu:      :menuselection:`Add --> Text`
 
 .. _fig-texts-intro-example:
 

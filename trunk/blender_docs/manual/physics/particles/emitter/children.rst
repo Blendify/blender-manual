@@ -6,7 +6,7 @@ Children
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Particle System --> Children`
+   :Panel:     :menuselection:`Particle System --> Children`
 
 *Children* are *Hair* and *Keyed* particles assigned subparticles.
 They make it possible to work primarily with a relatively low amount of Parent particles,

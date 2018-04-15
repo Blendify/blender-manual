@@ -6,7 +6,7 @@ Film
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render --> Film`
+   :Panel:     :menuselection:`Render --> Film`
 
 
 Options

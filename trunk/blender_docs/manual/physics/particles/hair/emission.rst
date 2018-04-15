@@ -6,7 +6,7 @@ Emission
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Particle System --> Emission`
+   :Panel:     :menuselection:`Particle System --> Emission`
 
 .. figure:: /images/physics_particles_hair_emission_settings.png
 

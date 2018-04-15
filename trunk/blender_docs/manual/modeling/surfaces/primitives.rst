@@ -6,10 +6,10 @@ Primitives
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Create --> Add Primitive/Surface`
-   | Menu:     :menuselection:`Add --> Surface`
-   | Hotkey:   :kbd:`Shift-A`
+   :Mode:      Object Mode and Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Create --> Add Primitive/Surface`
+   :Menu:      :menuselection:`Add --> Surface`
+   :Hotkey:    :kbd:`Shift-A`
 
 To help get started in creating surfaces there are four preset :term:`NURBS` surfaces,
 found in the :menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:`NURBS Tube`,

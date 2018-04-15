@@ -6,8 +6,8 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode, Edit Mode and Pose Mode
-   | Panel:    :menuselection:`Properties editor --> Bone`
+   :Mode:      Object Mode, Edit Mode and Pose Mode
+   :Panel:     :menuselection:`Properties editor --> Bone`
 
 When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
 properties are shown in the *Bone* tab of the Properties editor.
@@ -27,8 +27,8 @@ Transform
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode and Pose Mode
-   | Panel:    :menuselection:`Bone --> Transform`
+   :Mode:      Edit Mode and Pose Mode
+   :Panel:     :menuselection:`Bone --> Transform`
 
 .. list-table::
 
@@ -50,8 +50,8 @@ Transform Locks
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Bone --> Transform Locks`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Bone --> Transform Locks`
 
 .. figure:: /images/rigging_armatures_bones_properties_introduction_transform-locks-panel.png
 
@@ -67,8 +67,8 @@ Inverse Kinematics
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Bone --> Inverse Kinematics`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Bone --> Inverse Kinematics`
 
 .. figure:: /images/rigging_armatures_bones_properties_introduction_inverse-kinematics-panel.png
 
@@ -84,7 +84,7 @@ Custom Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Bone --> Custom Properties`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Bone --> Custom Properties`
 
 See the :doc:`Custom Properties </data_system/custom_properties>` page for more information.

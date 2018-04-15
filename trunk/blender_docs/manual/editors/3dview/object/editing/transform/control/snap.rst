@@ -16,9 +16,9 @@ Snap Menu
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object, Edit, and Pose Mode
-   | Menu:     :menuselection:`Object/Object type --> Snap`
-   | Hotkey:   :kbd:`Shift-S`
+   :Mode:      Object, Edit, and Pose Mode
+   :Menu:      :menuselection:`Object/Object type --> Snap`
+   :Hotkey:    :kbd:`Shift-S`
 
 The *Snap* menu (also available from the 3D header in both *Object Mode* and *Edit Mode*
 :menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
@@ -63,9 +63,9 @@ Transform Snapping
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object, Edit, and Pose Mode
-   | Header:   :menuselection:`Snap`
-   | Hotkey:   :kbd:`Shift-Tab`
+   :Mode:      Object, Edit, and Pose Mode
+   :Header:    :menuselection:`Snap`
+   :Hotkey:    :kbd:`Shift-Tab`
 
 The ability to snap Objects and Mesh element to various types of scene elements during
 a transformation is available by toggling the magnet icon (which will turn red)
@@ -84,9 +84,9 @@ Snap Element
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object, Edit, and Pose Mode
-   | Header:   :menuselection:`Snap Element`
-   | Hotkey:   :kbd:`Shift-Ctrl-Tab`
+   :Mode:      Object, Edit, and Pose Mode
+   :Header:    :menuselection:`Snap Element`
+   :Hotkey:    :kbd:`Shift-Ctrl-Tab`
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_snap_element-menu.png
    :align: right

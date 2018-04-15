@@ -12,10 +12,10 @@ Adding
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf`
-   | Menu:     :menuselection:`Add`
-   | Hotkey:   :kbd:`Shift-A`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Tool Shelf`
+   :Menu:      :menuselection:`Add`
+   :Hotkey:    :kbd:`Shift-A`
 
 Nodes are added in two ways to the Node editor:
 

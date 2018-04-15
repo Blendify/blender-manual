@@ -8,7 +8,7 @@ Rigid Body World
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Scene --> Rigid Body World`
+   :Panel:     :menuselection:`Scene --> Rigid Body World`
 
 The *Rigid Body World* is a group of Rigid Body objects,
 which holds settings that apply to all rigid bodies in this simulation.

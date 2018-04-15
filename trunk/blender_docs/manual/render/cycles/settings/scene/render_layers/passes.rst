@@ -7,7 +7,7 @@ Passes
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render Layers --> Passes`
+   :Panel:     :menuselection:`Render Layers --> Passes`
 
 Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
 and also to extract data such as depth or normals.

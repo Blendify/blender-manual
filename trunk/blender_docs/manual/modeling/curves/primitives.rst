@@ -7,10 +7,10 @@ Primitives
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Create --> Add Primitive/Curve`
-   | Menu:     :menuselection:`Add --> Curve`
-   | Hotkey:   :kbd:`Shift-A`
+   :Mode:      Object Mode and Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Create --> Add Primitive/Curve`
+   :Menu:      :menuselection:`Add --> Curve`
+   :Hotkey:    :kbd:`Shift-A`
 
 .. figure:: /images/modeling_curves_primitives_add-curve-menu.png
    :align: right

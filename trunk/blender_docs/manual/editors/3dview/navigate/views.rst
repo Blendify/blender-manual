@@ -16,9 +16,9 @@ View Global/Local
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> View Global/Local`
-   | Hotkey:   :kbd:`NumpadSlash`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> View Global/Local`
+   :Hotkey:    :kbd:`NumpadSlash`
 
 Global view shows all of the 3D objects in the scene. Local view isolates the selected object or
 objects, so that they are the only ones visible in the viewport. This is useful for working on
@@ -72,10 +72,10 @@ Quad View
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Toggle Quad View`
-   | Panel:    :menuselection:`Properties region --> Display --> Toggle Quad View`
-   | Hotkey:   :kbd:`Ctrl-Alt-Q`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Toggle Quad View`
+   :Panel:     :menuselection:`Properties region --> Display --> Toggle Quad View`
+   :Hotkey:    :kbd:`Ctrl-Alt-Q`
 
 Toggling Quad View will split the 3D View into four views:
 Three *Orthographic* "side views" and one *Camera*/*User View*.

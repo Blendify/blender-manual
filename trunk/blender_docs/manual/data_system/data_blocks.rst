@@ -89,10 +89,10 @@ Make Single User
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Make Single User`
-   | Hotkey:   :kbd:`U`
+   :Editor:    3D View
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Make Single User`
+   :Hotkey:    :kbd:`U`
 
 Makes the selected or all objects data-blocks a single user, that is,
 not shared (linked) between other objects than the current one.

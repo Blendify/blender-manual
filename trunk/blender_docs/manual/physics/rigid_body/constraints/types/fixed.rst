@@ -6,8 +6,8 @@ Fixed
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
-   | Type:     Fixed
+   :Panel:     :menuselection:`Physics --> Rigid Body Constraint`
+   :Type:      Fixed
 
 This constraint cause the two objects to move as one.
 Since the physics system does have a tiny bit of slop in it,

@@ -71,7 +71,7 @@ Encoding Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render --> Encoding`
+   :Panel:     :menuselection:`Properties editor --> Render --> Encoding`
 
 .. figure:: /images/render_output_video_encoding-panel.png
 

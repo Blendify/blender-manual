@@ -7,9 +7,9 @@ Subdivide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Subdivide`
-   | Menu:     :menuselection:`Mesh --> Edges --> Subdivide`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Add: Subdivide`
+   :Menu:      :menuselection:`Mesh --> Edges --> Subdivide`,
                :menuselection:`Specials --> Subdivide/Subdivide Smooth`
 
 Subdividing splits selected edges and faces by cutting them in half or more,
@@ -305,8 +305,8 @@ Un-Subdivide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Edges --> Un-Subdivide`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Edges --> Un-Subdivide`
 
 Unsubdivide functions as the reverse of subdivide by attempting to remove edges
 that were the result of a subdivide operation.

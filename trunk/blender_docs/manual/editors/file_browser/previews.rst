@@ -24,8 +24,8 @@ Creating and Deleting Previews
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Info Editor
-   | Menu:     :menuselection:`File --> Data Previews`
+   :Editor:    Info Editor
+   :Menu:      :menuselection:`File --> Data Previews`
 
 Previews can be created and deleted in many ways from :menuselection:`Info Editor --> File --> Data Previews`.
 

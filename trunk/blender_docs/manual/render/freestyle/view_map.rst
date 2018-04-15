@@ -7,7 +7,7 @@ View Maps
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Render Layer --> Freestyle`
+   :Panel:     :menuselection:`Properties editor --> Render Layer --> Freestyle`
 
 .. figure:: /images/render_freestyle_view-map_freestyle-panel.png
 

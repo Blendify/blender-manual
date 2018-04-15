@@ -42,9 +42,9 @@ Scale Radius
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Transform --> Scale Radius`
-   | Hotkey:   :kbd:`Alt-S`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Transform --> Scale Radius`
+   :Hotkey:    :kbd:`Alt-S`
 
 You can alter the radius that a bone has by selecting the head, body or tail of a bone,
 and then press :kbd:`Alt-S` and move the mouse left or right.
@@ -89,9 +89,9 @@ Scale Envelope Distance
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode and Pose Mode
-   | Menu:     :menuselection:`Armature --> Transform --> Scale Envelope Distance`
-   | Hotkey:   :kbd:`Ctrl-Alt-S`
+   :Mode:      Edit Mode and Pose Mode
+   :Menu:      :menuselection:`Armature --> Transform --> Scale Envelope Distance`
+   :Hotkey:    :kbd:`Ctrl-Alt-S`
 
 You can alter the size of the Bone Envelope volume by clicking on the body of the bone you want to alter,
 :kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
@@ -139,9 +139,9 @@ Align Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Transform --> Align Bones`
-   | Hotkey:   :kbd:`Ctrl-Alt-A`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Transform --> Align Bones`
+   :Hotkey:    :kbd:`Ctrl-Alt-A`
 
 ToDo <2.72.
 
@@ -164,9 +164,9 @@ Set Bone Roll
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Bone Roll --> Set`
-   | Hotkey:   :kbd:`Ctrl-R`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Bone Roll --> Set`
+   :Hotkey:    :kbd:`Ctrl-R`
 
 This is a transform mode where you can edit the roll of all selected bones.
 
@@ -177,9 +177,9 @@ Recalculate Bone Roll
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Bone Roll --> Recalculate`
-   | Hotkey:   :kbd:`Ctrl-N`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Bone Roll --> Recalculate`
+   :Hotkey:    :kbd:`Ctrl-N`
 
 Axis Orientation
    Local Tangent
@@ -208,9 +208,9 @@ Switch Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Armature --> Switch Direction`, :menuselection:`Specials --> Switch Direction`
-   | Hotkey:   :kbd:`Alt-F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Armature --> Switch Direction`, :menuselection:`Specials --> Switch Direction`
+   :Hotkey:    :kbd:`Alt-F`
 
 This tool is not available from the *Armature* menu,
 but only from the *Specials* pop-up menu :kbd:`W`.

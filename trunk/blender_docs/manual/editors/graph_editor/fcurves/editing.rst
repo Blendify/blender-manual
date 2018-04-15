@@ -26,7 +26,7 @@ Insert Keyframe
 .. admonition:: Reference
    :class: refbox
 
-   | Hotkey:   :kbd:`Ctrl-LMB`, :kbd:`Shift-Ctrl-LMB`
+   :Hotkey:    :kbd:`Ctrl-LMB`, :kbd:`Shift-Ctrl-LMB`
 
 :kbd:`Ctrl-LMB` inserts a keyframe to the active F-Curve at the mouse position.
 The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
@@ -50,8 +50,8 @@ Snap
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Snap`
-   | Hotkey:   :kbd:`Shift-S`
+   :Menu:      :menuselection:`Key --> Snap`
+   :Hotkey:    :kbd:`Shift-S`
 
 Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 
@@ -87,8 +87,8 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Mirror`
-   | Hotkey:   :kbd:`Shift-M`
+   :Menu:      :menuselection:`Key --> Mirror`
+   :Hotkey:    :kbd:`Shift-M`
 
 Selected keyframes can be mirrored over different properties using the *Mirror Keys*
 tool.
@@ -111,8 +111,8 @@ Clean Keyframes
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Clean Keyframes`
-   | Hotkey:   :kbd:`X`
+   :Menu:      :menuselection:`Key --> Clean Keyframes`
+   :Hotkey:    :kbd:`X`
 
 *Clean Keyframes* resets the keyframe tangents on selected keyframes to their auto-clamped shape,
 if they have been modified.
@@ -136,8 +136,8 @@ Clean Channels
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Channels`
-   | Hotkey:   :kbd:`X`
+   :Menu:      :menuselection:`Key --> Channels`
+   :Hotkey:    :kbd:`X`
 
 Acts like the *Clean Keyframes* tool but will also delete the channel itself if it is only left with
 a single keyframe containing the default property value and
@@ -157,8 +157,8 @@ Smoothing
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Smooth Keys`
-   | Hotkey:   :kbd:`Alt-O`
+   :Menu:      :menuselection:`Key --> Smooth Keys`
+   :Hotkey:    :kbd:`Alt-O`
 
 There is also an option to smooth the selected curves, but beware: its algorithm seems to be
 to divide by two the distance between each keyframe and the average linear value of the curve,
@@ -206,7 +206,7 @@ Bake Sound to F-Curves
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Key --> Bake Sound to F-Curves`
+   :Menu:      :menuselection:`Key --> Bake Sound to F-Curves`
 
 The *Bake Sound to F-Curves* tool takes a sound file and uses its sound wave to create the animation data.
 

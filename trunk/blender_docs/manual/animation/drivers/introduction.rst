@@ -24,8 +24,8 @@ Add Driver
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Context menu --> Add Driver`
-   | Hotkey:   :kbd:`Ctrl-D`
+   :Menu:      :menuselection:`Context menu --> Add Driver`
+   :Hotkey:    :kbd:`Ctrl-D`
 
 The common way to add a driver to a property is to :kbd:`RMB` click a property,
 then add a driver via the context menu.
@@ -60,7 +60,7 @@ Copy & Paste
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Context menu --> Copy/Paste Driver`
+   :Menu:      :menuselection:`Context menu --> Copy/Paste Driver`
 
 Drivers can be copied and pasted in the UI, via the context menu.
 When adding drivers with the same settings, this can save time modifying settings.
@@ -86,11 +86,11 @@ Removing Drivers
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Graph editor
-   | Mode:     Drivers
-   | Panel:    :menuselection:`Properties region --> Driver --> Drivers --> Remove Driver`
-   | Menu:     :menuselection:`Context menu --> Delete (Single) Driver(s)`
-   | Hotkey:   :kbd:`Ctrl-Alt-D`
+   :Editor:    Graph editor
+   :Mode:      Drivers
+   :Panel:     :menuselection:`Properties region --> Driver --> Drivers --> Remove Driver`
+   :Menu:      :menuselection:`Context menu --> Delete (Single) Driver(s)`
+   :Hotkey:    :kbd:`Ctrl-Alt-D`
 
 ToDo add.
 

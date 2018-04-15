@@ -24,8 +24,8 @@ Automatic IK
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Tool Shelf --> Options --> Pose Options`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Tool Shelf --> Options --> Pose Options`
 
 Automatic IK is a tool for quick posing, it can be enabled in the Tool shelf in the 3D View,
 when in pose mode. When the Auto IK option is enabled, translating a bone will activate
@@ -65,8 +65,8 @@ Armature IK Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Properties editor --> Armature --> Inverse Kinematics`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Properties editor --> Armature --> Inverse Kinematics`
 
 This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
 
@@ -89,8 +89,8 @@ Bone IK Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose Mode
-   | Panel:    :menuselection:`Properties editor --> Bone --> Inverse Kinematics`
+   :Mode:      Pose Mode
+   :Panel:     :menuselection:`Properties editor --> Bone --> Inverse Kinematics`
 
 This panel is used to control how the *Pose Bones* work in the IK chain.
 

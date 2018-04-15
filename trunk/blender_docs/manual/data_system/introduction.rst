@@ -31,7 +31,7 @@ Pack and Unpack Data
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Info Editor --> File --> External Data --> Pack Into blend-file`
+   :Panel:     :menuselection:`Info Editor --> File --> External Data --> Pack Into blend-file`
 
 Blender has the ability to encapsulate (incorporate)
 various kinds of data within the blend-file that is normally saved outside of the blend-file.
@@ -50,7 +50,7 @@ Unpack Data
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Info Editor --> File --> External Data --> Unpack Into Files...`
+   :Panel:     :menuselection:`Info Editor --> File --> External Data --> Unpack Into Files...`
 
 When you have received a packed file, you can *Unpack Into Files...*.
 If files are packed, there is also track of their original path,

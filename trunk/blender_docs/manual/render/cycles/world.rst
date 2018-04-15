@@ -19,7 +19,7 @@ Surface
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`World --> Surface`
+   :Panel:     :menuselection:`World --> Surface`
 
 The surface shader defines the light emission from the environment into the scene.
 The world surface is rendered as if it is very distant from the scene,
@@ -43,7 +43,7 @@ Volume
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`World --> Volume`
+   :Panel:     :menuselection:`World --> Volume`
 
 A volume shader can be applied to the entirely world, filling the entire space.
 
@@ -64,7 +64,7 @@ Ambient Occlusion
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`World --> Ambient Occlusion`
+   :Panel:     :menuselection:`World --> Ambient Occlusion`
 
 Ambient occlusion is a lighting method based on how much a point on a surface is occluded by
 nearby surfaces. This is a trick that is not physically accurate,
@@ -95,7 +95,7 @@ Mist Pass
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`World --> Mist Pass`
+   :Panel:     :menuselection:`World --> Mist Pass`
 
 Shown when the Mist pass is enabled. Mist values will range from 0.0 - 1.0 and
 are available from the Render Layers node.
@@ -129,7 +129,7 @@ Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`World --> Settings`
+   :Panel:     :menuselection:`World --> Settings`
 
 
 Surface
@@ -200,7 +200,7 @@ Ray Visibility
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`World --> Ray Visibility`
+   :Panel:     :menuselection:`World --> Ray Visibility`
 
 As with other objects,
 *Ray Visibility* allows you to control which other shaders can "see" the environment.

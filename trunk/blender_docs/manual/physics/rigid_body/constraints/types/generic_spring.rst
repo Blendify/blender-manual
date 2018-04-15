@@ -6,8 +6,8 @@ Generic Spring
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Rigid Body Constraint`
-   | Type:     Generic Spring
+   :Panel:     :menuselection:`Physics --> Rigid Body Constraint`
+   :Type:      Generic Spring
 
 
 The generic spring constraint adds some spring parameters for the X/Y/Z axes

@@ -6,8 +6,8 @@ Vortex
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Force Fields`
-   | Type:     Vortex
+   :Panel:     :menuselection:`Physics --> Force Fields`
+   :Type:      Vortex
 
 .. figure:: /images/physics_force-fields_types_vortex_visualzation.png
 

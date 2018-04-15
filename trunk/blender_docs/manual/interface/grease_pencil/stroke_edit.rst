@@ -92,9 +92,9 @@ Edit Strokes Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Stroke Mode
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Edit Strokes`
-   | Menu:     :menuselection:`GPencil`
+   :Mode:      Edit Stroke Mode
+   :Panel:     :menuselection:`Tool Shelf --> Grease Pencil --> Edit Strokes`
+   :Menu:      :menuselection:`GPencil`
 
 Copy :kbd:`Ctrl-C`
    Copies the selected Grease Pencil strokes (or actually, points and segments).
@@ -166,9 +166,9 @@ Interpolate Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Stroke Mode
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Interpolate`
-   | Menu:     :menuselection:`GPencil --> Interpolate`
+   :Mode:      Edit Stroke Mode
+   :Panel:     :menuselection:`Tool Shelf --> Grease Pencil --> Interpolate`
+   :Menu:      :menuselection:`GPencil --> Interpolate`
 
 The following two operators can be used for interpolating between a pair of Grease Pencil frames.
 To use these operators, there need to be Grease Pencil frames on both sides of the current frame.
@@ -217,10 +217,10 @@ Sculpt Strokes Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Stroke Mode
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Sculpt Strokes`
-   | Menu:     :menuselection:`GPencil --> Sculpt Strokes/Brushes`
-   | Hotkey:   :kbd:`E-LMB`
+   :Mode:      Edit Stroke Mode
+   :Panel:     :menuselection:`Tool Shelf --> Grease Pencil --> Sculpt Strokes`
+   :Menu:      :menuselection:`GPencil --> Sculpt Strokes/Brushes`
+   :Hotkey:    :kbd:`E-LMB`
 
 Several tools for editing Grease Pencil strokes are provided in the form of brushes which
 you can use to "paint" or "sculpt" the appearance of the strokes without having to keep doing

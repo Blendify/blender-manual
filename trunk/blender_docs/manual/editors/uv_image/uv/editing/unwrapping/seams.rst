@@ -46,18 +46,18 @@ Marking Seams
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Edit mode
-   | Panel:    :menuselection:`Tool Shelf --> Shading/UV --> UVs --> UV Mapping: Mark/Clear Seam`
-   | Menu:     :menuselection:`Mesh --> Edges --> Mark/Clear Seam`
+   :Editor:    3D View
+   :Mode:      Edit mode
+   :Panel:     :menuselection:`Tool Shelf --> Shading/UV --> UVs --> UV Mapping: Mark/Clear Seam`
+   :Menu:      :menuselection:`Mesh --> Edges --> Mark/Clear Seam`
 
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   UV/Image
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
-   | Menu:     :menuselection:`UVs --> Mark/Clear Seam`
+   :Editor:    UV/Image
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
+   :Menu:      :menuselection:`UVs --> Mark/Clear Seam`
 
 .. figure:: /images/editors_uv-image_uv_editing_unwrapping_seams_suzanne.png
    :width: 250px
@@ -112,9 +112,9 @@ Mark Seams from Island
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     View mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> UV Tools: --> Unwrap: Mark Seams from Island`
-   | Menu:     :menuselection:`UVs --> Mark Seams from Island`
+   :Mode:      View mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools: --> Unwrap: Mark Seams from Island`
+   :Menu:      :menuselection:`UVs --> Mark Seams from Island`
 
 Adds seams at the boundaries of existing UV islands.
 This is useful when modifying the UVs of already unwrapped meshes.

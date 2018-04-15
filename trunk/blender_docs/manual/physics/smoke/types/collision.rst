@@ -7,8 +7,8 @@ Collision
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Smoke`
-   | Type:     Collision
+   :Panel:     :menuselection:`Physics --> Smoke`
+   :Type:      Collision
 
 *Smoke Collision* objects are used to deflect smoke and influence airflow.
 

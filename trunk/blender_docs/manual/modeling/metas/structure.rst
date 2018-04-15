@@ -28,8 +28,8 @@ Underlying Structure
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Properties region --> Transform panel --> Type`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Properties region --> Transform panel --> Type`,
                :menuselection:`Metaball tab --> Active Element panel --> Type`
 
 Blender has five types of metas, each determined by its underlying (or directing) structure.

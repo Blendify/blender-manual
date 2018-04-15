@@ -6,8 +6,8 @@ Warp
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`
+   :Mode:      Object and Edit Modes
+   :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`
 
 .. figure:: /images/modeling_meshes_editing_transform_warp_operator-panel.png
    :align: right

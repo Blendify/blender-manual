@@ -8,7 +8,7 @@ Render Features
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Render --> Render`
+   :Panel:     :menuselection:`Render --> Render`
 
 This page offers a comparison of available features on CPU, CUDA and OpenCL.
 

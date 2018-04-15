@@ -10,7 +10,7 @@ Active F-Curve Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> F-Curve --> Active F-Curve`
+   :Panel:     :menuselection:`Properties region --> F-Curve --> Active F-Curve`
 
 .. figure:: /images/editors_graph-editor_fcurves_properties_active-fcurve-panel.png
 
@@ -39,7 +39,7 @@ Active Keyframe Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties region --> F-Curve --> Active Keyframe`
+   :Panel:     :menuselection:`Properties region --> F-Curve --> Active Keyframe`
 
 .. figure:: /images/editors_graph-editor_fcurves_properties_active-keyframe-panel.png
 

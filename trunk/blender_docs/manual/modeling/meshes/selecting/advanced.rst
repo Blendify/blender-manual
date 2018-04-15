@@ -27,8 +27,8 @@ Checker Deselect
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Checker Deselect`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Checker Deselect`
 
 This tool applies an alternating selected/deselected checker pattern.
 This only works if you already have more than one mesh element selected.
@@ -81,9 +81,9 @@ Select Linked
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Linked`
-   | Hotkey:   :kbd:`Ctrl-L`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Linked`
+   :Hotkey:    :kbd:`Ctrl-L`
 
 Select geometry connected to already selected elements.
 This is often useful when a mesh has disconnected, overlapping parts,
@@ -104,9 +104,9 @@ Select Similar
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Similar...`
-   | Hotkey:   :kbd:`Shift-G`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Similar...`
+   :Hotkey:    :kbd:`Shift-G`
 
 Select geometry that has similar certain properties to the ones selected,
 based on a threshold that can be set in tool properties after activating the tool.
@@ -195,9 +195,9 @@ Edge Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode --> Vertex or Edge select mode
-   | Menu:     :menuselection:`Select --> Edge Loop`
-   | Hotkey:   :kbd:`Alt-RMB`
+   :Mode:      Edit Mode --> Vertex or Edge select mode
+   :Menu:      :menuselection:`Select --> Edge Loop`
+   :Hotkey:    :kbd:`Alt-RMB`
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
 a line end-to-end, passing through the edge under the mouse pointer.
@@ -229,8 +229,8 @@ Face Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode --> Face or Vertex select modes
-   | Hotkey:   :kbd:`Alt-RMB`
+   :Mode:      Edit Mode --> Face or Vertex select modes
+   :Hotkey:    :kbd:`Alt-RMB`
 
 In face select mode, holding :kbd:`Alt` while selecting an *edge* selects a loop of
 faces that are connected in a line end-to-end, along their opposite edges.
@@ -264,8 +264,8 @@ Edge Boundary
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode --> Vertex or Edge select modes
-   | Hotkey:   :kbd:`Alt-RMB`
+   :Mode:      Edit Mode --> Vertex or Edge select modes
+   :Hotkey:    :kbd:`Alt-RMB`
 
 Loop selection on edge boundaries.
 To extend the selection to all boundaries if the current boundary is already selected
@@ -278,9 +278,9 @@ Edge Ring
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Edge Ring`
-   | Hotkey:   :kbd:`Ctrl-Alt-RMB`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Edge Ring`
+   :Hotkey:    :kbd:`Ctrl-Alt-RMB`
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
 while selecting an edge (or two vertices) selects a sequence of edges that are not connected,
@@ -312,9 +312,9 @@ Shortest Path
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Select --> Shortest Path`
-   | Hotkey:   :kbd:`Ctrl-RMB`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Shortest Path`
+   :Hotkey:    :kbd:`Ctrl-RMB`
 
 .. figure:: /images/modeling_meshes_selecting_advanced_shortest-path.png
 
@@ -341,8 +341,8 @@ Loop Inner-Region
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode --> Edge select mode
-   | Menu:     :menuselection:`Select --> Select Loop Inner-Region`
+   :Mode:      Edit Mode --> Edge select mode
+   :Menu:      :menuselection:`Select --> Select Loop Inner-Region`
 
 *Select Loop Inner-Region* selects all faces that are inside a closed loop of edges.
 While it is possible to use this operator in *Vertex* and *Face* selection modes, results may be unexpected.
@@ -368,8 +368,8 @@ Boundary Loop
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode --> Edge select mode
-   | Menu:     :menuselection:`Select --> Select Boundary Loop`
+   :Mode:      Edit Mode --> Edge select mode
+   :Menu:      :menuselection:`Select --> Select Boundary Loop`
 
 *Select Boundary Loop* does the opposite of *Select Loop Inner-Region*,
 based on all regions currently selected, it selects only the edges at the border(contour) of these islands.

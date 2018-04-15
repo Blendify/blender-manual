@@ -23,9 +23,9 @@ Quick Effects
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   3D View
-   | Mode:     Object mode
-   | Menu:     :menuselection:`Object --> Quick Effects`
+   :Editor:    3D View
+   :Mode:      Object mode
+   :Menu:      :menuselection:`Object --> Quick Effects`
 
 Sets up a basic simulation scene or effect including the selected objects.
 The tool will add essential objects like domains or particle systems both with predefined settings,

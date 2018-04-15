@@ -6,8 +6,8 @@ Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit Modes
-   | Panel:    :menuselection:`Properties editor --> Metaball`
+   :Mode:      Object or Edit Modes
+   :Panel:     :menuselection:`Properties editor --> Metaball`
 
 All Meta objects in a scene interact with each other.
 The settings in the *Metaball* section apply to all meta objects.

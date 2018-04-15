@@ -6,8 +6,8 @@ Exposure & Range
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Panel:    :menuselection:`Render Layer --> Color management`
+   :Mode:      All modes
+   :Panel:     :menuselection:`Render Layer --> Color management`
 
 *Exposure* and *Range* are similar to the "Color Curves" tool in Gimp or Photoshop.
 

@@ -6,9 +6,9 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Mirror --> Desired Axis`
-   | Hotkey:   :kbd:`Ctrl-M`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Mirror --> Desired Axis`
+   :Hotkey:    :kbd:`Ctrl-M`
 
 The Mirror tool mirrors a selection across a selected axis.
 
@@ -94,8 +94,8 @@ Mirror Vertex Group
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Mirror --> Mirror Vertex Group`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Mirror --> Mirror Vertex Group`
 
 This tool works only with a perfectly symmetrical mesh (along the local X axis).
 Those vertices that have no corresponding vertex on the other side will not be affected.

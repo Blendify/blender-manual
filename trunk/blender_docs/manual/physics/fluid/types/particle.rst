@@ -6,8 +6,8 @@ Fluid Particle
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Fluid`
-   | Type:     Particle
+   :Panel:     :menuselection:`Physics --> Fluid`
+   :Type:      Particle
 
 .. figure:: /images/physics_fluid_types_particle_fluid-panel.png
 

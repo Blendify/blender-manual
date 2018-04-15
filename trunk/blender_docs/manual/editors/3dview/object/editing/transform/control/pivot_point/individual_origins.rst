@@ -10,9 +10,9 @@ Individual Origins
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Header:   |pivot-icon| :menuselection:`Pivot Point --> Individual Origins`
-   | Hotkey:   :kbd:`Ctrl-Period`
+   :Mode:      Object Mode and Edit Mode
+   :Header:    |pivot-icon| :menuselection:`Pivot Point --> Individual Origins`
+   :Hotkey:    :kbd:`Ctrl-Period`
 
 
 In Object Mode

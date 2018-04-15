@@ -6,8 +6,8 @@ Harmonic
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Force Fields`
-   | Type:     Harmonic
+   :Panel:     :menuselection:`Physics --> Force Fields`
+   :Type:      Harmonic
 
 .. figure:: /images/physics_force-fields_introduction_empty.png
 

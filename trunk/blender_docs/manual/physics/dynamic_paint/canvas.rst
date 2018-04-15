@@ -7,8 +7,8 @@ Canvas
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Dynamic Paint`
-   | Type:     Canvas
+   :Panel:     :menuselection:`Physics --> Dynamic Paint`
+   :Type:      Canvas
 
 The Canvas type makes object receive paint from Dynamic Paint brushes.
 
@@ -58,8 +58,8 @@ Advanced
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Canvas
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Advanced`
+   :Type:      Canvas
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Advanced`
 
 .. figure:: /images/physics_dynamic-paint_canvas_advanced-panel.png
 
@@ -184,8 +184,8 @@ Output
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Canvas
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Output`
+   :Type:      Canvas
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Output`
 
 .. figure:: /images/physics_dynamic-paint_canvas_output-panel.png
 
@@ -216,8 +216,8 @@ Initial Color
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Canvas
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Initial Color`
+   :Type:      Canvas
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Initial Color`
 
 ToDo 2.62.
 
@@ -228,8 +228,8 @@ Effects
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Canvas
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Effects`
+   :Type:      Canvas
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Effects`
 
 .. figure:: /images/physics_dynamic-paint_canvas_effects-panel.png
 
@@ -257,8 +257,8 @@ Cache
 .. admonition:: Reference
    :class: refbox
 
-   | Type:     Canvas
-   | Panel:    :menuselection:`Physics --> Dynamic Paint Cache`
+   :Type:      Canvas
+   :Panel:     :menuselection:`Physics --> Dynamic Paint Cache`
 
 .. figure:: /images/physics_dynamic-paint_canvas_cache-panel.png
 

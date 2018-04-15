@@ -94,7 +94,7 @@ Soft Body Solver
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Solver`
+   :Panel:     :menuselection:`Physics --> Soft Body Solver`
 
 The settings in the *Soft Body Solver* panel determine the accuracy of the simulation.
 
@@ -146,7 +146,7 @@ Cache
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Cache`
+   :Panel:     :menuselection:`Physics --> Soft Body Cache`
 
 Soft Bodies and other physic simulations use a unified system for caching and baking.
 See :doc:`Particle Cache </physics/particles/emitter/cache>` for reference.

@@ -37,9 +37,9 @@ Join in New Frame
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Node --> Join in new Frame`
-   | Hotkey:   :kbd:`Ctrl-J`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Join in new Frame`
+   :Hotkey:    :kbd:`Ctrl-J`
 
 ToDo 2.60.
 
@@ -50,8 +50,8 @@ Adding
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Hotkey:   :kbd:`Ctrl-P`
+   :Mode:      All Modes
+   :Hotkey:    :kbd:`Ctrl-P`
 
 Once a Frame node is placed in the editor, nodes can be added by simply dropping them onto the frame or
 by selecting the node(s) then the frame and using :kbd:`Ctrl-P`.
@@ -63,9 +63,9 @@ Remove from Frame
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Menu:     :menuselection:`Node --> Remove from Frame`
-   | Hotkey:   :kbd:`Alt-P`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Remove from Frame`
+   :Hotkey:    :kbd:`Alt-P`
 
 To remove them, select the node(s) and use the :kbd:`Alt-P` shortcut.
 This uses the same default keyboard bindings as Parenting and can be thought of as a similar concept.

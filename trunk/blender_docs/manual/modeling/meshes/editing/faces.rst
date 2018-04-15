@@ -6,9 +6,9 @@ Face Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces`
-   | Hotkey:   :kbd:`Ctrl-F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces`
+   :Hotkey:    :kbd:`Ctrl-F`
 
 These are tools that manipulate faces.
 
@@ -19,9 +19,9 @@ Make Edge/Face
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Make Edge/Face`
-   | Hotkey:   :kbd:`F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Make Edge/Face`
+   :Hotkey:    :kbd:`F`
 
 This will create an edge or some faces, depending on your selection.
 Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/make_face_edge>`.
@@ -47,9 +47,9 @@ Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
-   | Hotkey:   :kbd:`Alt-F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
+   :Hotkey:    :kbd:`Alt-F`
 
 The *Fill* option will create *triangular* faces from any group of selected edges
 or vertices, as long as they form one or more complete perimeters.
@@ -80,9 +80,9 @@ Beauty Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
-   | Hotkey:   :kbd:`Shift-Alt-F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
+   :Hotkey:    :kbd:`Shift-Alt-F`
 
 *Beautify Fill* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
@@ -111,8 +111,8 @@ Grid Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Fill/Grid Fill`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Fill/Grid Fill`
 
 *Grid Fill* uses a pair of connected edge loops or a single, closed edge loop to fill in a grid
 that follows the surrounding geometry.
@@ -143,8 +143,8 @@ Solidify
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Solidify`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Solidify`
 
 This takes a selection of faces and solidifies them by extruding them
 uniformly to give volume to a :term:`non-manifold` surface.
@@ -183,8 +183,8 @@ Intersect (Knife)
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Intersect (Knife)`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Intersect (Knife)`
 
 The Intersect tool lets you cut intersections into geometry.
 It is a bit like Boolean Tool, but, does not calculate interior/exterior.
@@ -212,8 +212,8 @@ Intersect (Boolean)
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Intersect (Boolean)`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Intersect (Boolean)`
 
 Performs boolean operations with the selection on the unselected geometry.
 While the :doc:`/modeling/modifiers/generate/booleans` is useful for non-destructive edits,
@@ -240,8 +240,8 @@ Wireframe
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Wire frame`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Wire frame`
 
 The Wireframe tool makes a wireframe from faces by turning edges into wireframe tubes,
 similar to the :doc:`/modeling/modifiers/generate/wireframe`.
@@ -253,9 +253,9 @@ Poke Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Poke Faces`
-   | Hotkey:   :kbd:`Alt-P`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Poke Faces`
+   :Hotkey:    :kbd:`Alt-P`
 
 This tool fan-fills each face around a central vertex.
 This can be useful as a way to triangulate n-gons, or the *Offset* can be used to make spikes or depressions.
@@ -274,9 +274,9 @@ Triangulate Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Triangulate Faces`
-   | Hotkey:   :kbd:`Ctrl-T`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Triangulate Faces`
+   :Hotkey:    :kbd:`Ctrl-T`
 
 As its name intimates, this tool converts each selected quadrangle into two triangles.
 Remember that quads are just a set of two triangles.
@@ -290,9 +290,9 @@ Triangles to Quads
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Triangles to Quads`
-   | Hotkey:   :kbd:`Alt-J`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Triangles to Quads`
+   :Hotkey:    :kbd:`Alt-J`
 
 This tool converts the selected triangles into quads by taking adjacent triangles and
 removing the shared edge to create a quad, based on a threshold.
@@ -352,8 +352,8 @@ Weld Edges into Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Weld Edges into Faces`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Weld Edges into Faces`
 
 A tool to split selected faces by loose wire edges.
 This can be used in a similar way to the Knife tool, but the edges are manually setup first.
@@ -365,8 +365,8 @@ Rotate Edges
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Rotate Edge CW`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Mesh --> Faces --> Rotate Edge CW`
 
 This tool functions the same edge rotation in edge mode.
 

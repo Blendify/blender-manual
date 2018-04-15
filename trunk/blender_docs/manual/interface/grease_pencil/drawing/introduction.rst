@@ -26,8 +26,8 @@ Drawing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Tool Shelf --> Grease Pencil --> Grease Pencil`
 
 The Tool Shelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
 

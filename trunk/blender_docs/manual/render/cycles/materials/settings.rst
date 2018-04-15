@@ -7,7 +7,7 @@ Material Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Material --> Settings`
+   :Panel:     :menuselection:`Material --> Settings`
 
 .. figure:: /images/render_cycles_materials_settings_panel.png
    :align: right

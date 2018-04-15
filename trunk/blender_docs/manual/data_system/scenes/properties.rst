@@ -13,7 +13,7 @@ Scene
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Scene`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Scene`
 
 Camera
    Used to select which camera is used as the active camera.
@@ -51,7 +51,7 @@ Units
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Units`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Units`
 
 Length Presets
    Common unit scales to use.
@@ -152,7 +152,7 @@ Keying Sets
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Keying Sets`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Keying Sets`
 
 See :doc:`/animation/keyframes/keying_sets`.
 
@@ -163,7 +163,7 @@ Color Management
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Color Management`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Color Management`
 
 Options to control how images appear on the screen.
 
@@ -182,7 +182,7 @@ Audio
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Audio`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Audio`
 
 Options to control global audio settings.
 
@@ -232,7 +232,7 @@ Gravity
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Gravity`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Gravity`
 
 Options to control global gravity used for physic effects.
 
@@ -245,7 +245,7 @@ Rigid Body World
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Rigid Body World`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Rigid Body World`
 
 The *Rigid Body World* is a group of Rigid Body objects,
 which holds settings that apply to all rigid bodies in this simulation.
@@ -262,7 +262,7 @@ Simplify
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Simplify`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Simplify`
 
 Subdivision
    Maximum number of *Viewport*/*Render* subdivisions to use for

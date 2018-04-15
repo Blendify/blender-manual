@@ -7,9 +7,9 @@ To Sphere
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes
-   | Menu:     :menuselection:`Mesh --> Transform --> To Sphere`
-   | Hotkey:   :kbd:`Shift-Alt-S`
+   :Mode:      Object and Edit Modes
+   :Menu:      :menuselection:`Mesh --> Transform --> To Sphere`
+   :Hotkey:    :kbd:`Shift-Alt-S`
 
 The *To Sphere* transformation will give the selection spherical qualities.
 The Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying

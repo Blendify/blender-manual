@@ -44,7 +44,7 @@ Edges
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Physics --> Soft Body Edges`
+   :Panel:     :menuselection:`Physics --> Soft Body Edges`
 
 The characteristics of edges are set with the *Soft Body Edge* properties.
 

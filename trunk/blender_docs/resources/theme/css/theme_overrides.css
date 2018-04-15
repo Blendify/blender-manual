@@ -55,6 +55,12 @@ input[type="number"], input[type="tel"], input[type="color"] {
 .hint .admonition-title::before{content:"\f055"}
 .warning .admonition-title::before{content:"\f071"}
 
+/* refbox field */
+.refbox .field-list .field-name, .refbox .field-list .field-body {
+	padding: 0px;
+}
+.refbox .field-name {font-weight: normal}
+
 /* Ugly 'red' literals */
 .rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
 	color:#404040;

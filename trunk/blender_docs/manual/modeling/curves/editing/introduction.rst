@@ -20,10 +20,10 @@ Translation, Rotation, Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform`
-   | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
-   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform`
+   :Menu:      :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
+   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Like other elements in Blender, curve control points and handles can be
 grabbed/moved :kbd:`G`, rotated :kbd:`R` or scaled :kbd:`S` as described in
@@ -41,8 +41,8 @@ Transform Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Properties region --> Transform`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Properties region --> Transform`
 
 When nothing is selected, the panel is empty.
 When more than one vertex is selected, the median values are edited
@@ -76,8 +76,8 @@ Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Transform`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Transform`
 
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described
 in the :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
@@ -91,9 +91,9 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Mirror`
-   | Hotkey:   :kbd:`Ctrl-M`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Mirror`
+   :Hotkey:    :kbd:`Ctrl-M`
 
 The *Mirror* tool is also available, behaving exactly as with
 :doc:`mesh vertices </modeling/meshes/editing/transform/mirror>`.
@@ -105,9 +105,9 @@ Snap
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Snap`
-   | Hotkey:   :kbd:`Shift-S`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Snap`
+   :Hotkey:    :kbd:`Shift-S`
 
 :doc:`Mesh snapping </editors/3dview/object/editing/transform/control/snap>`
 also works with curve components.
@@ -124,10 +124,10 @@ Extrude Curve and Move
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Extrude`
-   | Menu:     :menuselection:`Curve --> Extrude Curve and Move`
-   | Hotkey:   :kbd:`E`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Extrude`
+   :Menu:      :menuselection:`Curve --> Extrude Curve and Move`
+   :Hotkey:    :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be translated.
 If the selection is an end point, a new point will be connected to the selected point,
@@ -143,8 +143,8 @@ Duplicate or Extrude to Cursor
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Ctrl-LMB`
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`Ctrl-LMB`
 
 Interactively places new points with :kbd:`Ctrl-LMB` at the cursor position.
 With the selection it deals in same manner as the *Extrude Curve and Move* tool.
@@ -156,10 +156,10 @@ Add Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Duplicate`
-   | Menu:     :menuselection:`Curve --> Add Duplicate`
-   | Hotkey:   :kbd:`Shift-D`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Duplicate`
+   :Menu:      :menuselection:`Curve --> Add Duplicate`
+   :Hotkey:    :kbd:`Shift-D`
 
 This tool duplicates the selected control points,
 along with the curve segments implicitly selected (if any).
@@ -173,9 +173,9 @@ Separate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Separate`
-   | Hotkey:   :kbd:`P`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Separate`
+   :Hotkey:    :kbd:`P`
 
 Curve objects that are made of multiple distinct curves can be separated into their own
 objects by selecting the desired segments and pressing :kbd:`P`.
@@ -191,9 +191,9 @@ Make Segment
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Make Segment`
-   | Hotkey:   :kbd:`F`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Make Segment`
+   :Hotkey:    :kbd:`F`
 
 Connects two disconnected control points.
 The selection must be loose points, or the first/last point of a curve, then press :kbd:`F`.
@@ -223,10 +223,10 @@ Toggle Cyclic
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Toggle Cyclic`
-   | Menu:     :menuselection:`Curve --> Toggle Cyclic`
-   | Hotkey:   :kbd:`Alt-C`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Toggle Cyclic`
+   :Menu:      :menuselection:`Curve --> Toggle Cyclic`
+   :Hotkey:    :kbd:`Alt-C`
 
 This toggles between an open curve and closed curve (Cyclic).
 Only curves with at least one selected control point will be closed/open.
@@ -254,10 +254,10 @@ Delete
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Delete`
-   | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Delete`
+   :Menu:      :menuselection:`Curve --> Delete...`
+   :Hotkey:    :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
 
 Options for the *Erase* pop-up menu:
 
@@ -306,10 +306,10 @@ Tilt
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Transform --> Tilt`
-   | Menu:     :menuselection:`Curve --> Control Points --> Tilt/Clear Tilt`
-   | Hotkey:   :kbd:`Ctrl-T`, :kbd:`Alt-T`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Tilt`
+   :Menu:      :menuselection:`Curve --> Control Points --> Tilt/Clear Tilt`
+   :Hotkey:    :kbd:`Ctrl-T`, :kbd:`Alt-T`
 
 Tilt :kbd:`Ctrl-T`
    Lets you define the tilt of the selected control points.
@@ -325,10 +325,10 @@ Set Handle Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Handles:`
-   | Menu:     :menuselection:`Curve --> Control Points --> Set Handle Type`
-   | Hotkey:   :kbd:`V`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Handles:`
+   :Menu:      :menuselection:`Curve --> Control Points --> Set Handle Type`
+   :Hotkey:    :kbd:`V`
 
 Handle types are a property of :ref:`Bézier curves <curve-bezier>` and
 can be used to alter features of the curve.
@@ -347,8 +347,8 @@ Set Goal Weight
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Specials --> Set Goal Weight`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Specials --> Set Goal Weight`
 
 This sets the "goal weight" of selected control points,
 which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
@@ -361,9 +361,9 @@ Smooth
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Smooth`
-   | Menu:     :menuselection:`Specials --> Smooth`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Smooth`
+   :Menu:      :menuselection:`Specials --> Smooth`
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
 operation reduces the distance between the selected control point/s and
@@ -389,9 +389,9 @@ Hooks
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Menu:     :menuselection:`Curve --> Control Points --> Hooks`
-   | Hotkey:   :kbd:`Ctrl-H`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Control Points --> Hooks`
+   :Hotkey:    :kbd:`Ctrl-H`
 
 :doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
 
@@ -407,9 +407,9 @@ Subdivision
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Subdivide`
-   | Menu:     :menuselection:`Curve --> Segments --> Subdivide`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Subdivide`
+   :Menu:      :menuselection:`Curve --> Segments --> Subdivide`
 
 Curve subdivision simply subdivides all selected segments by adding one or
 more control points between the selected segments.
@@ -426,9 +426,9 @@ Switch Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Switch Direction`
-   | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`,
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Switch Direction`
+   :Menu:      :menuselection:`Curve --> Segments --> Switch Direction`,
                :menuselection:`Specials --> Switch Direction`
 
 This tool will "reverse" the direction of any curve with at least one selected element
@@ -458,8 +458,8 @@ Set Spline Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Set Spline type`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Set Spline type`
 
 .. figure:: /images/modeling_curves_editing_introduction_set-spline-type.png
    :align: right
@@ -485,8 +485,8 @@ Curve Parenting
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Ctrl-P`
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`Ctrl-P`
 
 You can make other selected objects :ref:`children <object-parenting>`
 of one or three control points :kbd:`Ctrl-P`, as with mesh objects.

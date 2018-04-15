@@ -42,8 +42,8 @@ Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:   Info Editor
-   | Menu:     :menuselection:`Render --> OpenGL Render Options`
+   :Editor:    Info Editor
+   :Menu:      :menuselection:`Render --> OpenGL Render Options`
 
 For the most part, *OpenGL Render* uses the viewport settings,
 Sampling and Alpha Transparency Mode options can be set by

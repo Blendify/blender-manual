@@ -57,8 +57,8 @@ Axis Locking
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes (translate, rotate, scale, extrude)
-   | Hotkey:   :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
+   :Mode:      Object and Edit Modes (translate, rotate, scale, extrude)
+   :Hotkey:    :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
 
 Axis locking limits the transformation to a single axis (or forbids transformations along two axes).
 An object, face, vertex or other selectable item will only be able to move,
@@ -73,8 +73,8 @@ Plane Locking
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit Modes (translate, scale)
-   | Hotkey:   :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
+   :Mode:      Object and Edit Modes (translate, scale)
+   :Hotkey:    :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
                after moving the mouse in the desired direction.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_plane-locking.png

@@ -7,10 +7,10 @@ Primitives
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object Mode and Edit Mode
-   | Panel:    :menuselection:`Tool Shelf --> Create --> Add Primitive/Mesh`
-   | Menu:     :menuselection:`Add --> Mesh`
-   | Hotkey:   :kbd:`Shift-A`
+   :Mode:      Object Mode and Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Create --> Add Primitive/Mesh`
+   :Menu:      :menuselection:`Add --> Mesh`
+   :Hotkey:    :kbd:`Shift-A`
 
 A common object type used in a 3D scene is a mesh.
 Blender comes with a number of "primitive" mesh shapes that you can start modeling from.

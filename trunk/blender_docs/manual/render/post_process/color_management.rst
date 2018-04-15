@@ -52,7 +52,7 @@ Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :menuselection:`Properties editor --> Scene --> Color Management`
+   :Panel:     :menuselection:`Properties editor --> Scene --> Color Management`
 
 .. figure:: /images/render_post-process_color-management_panel.png
 

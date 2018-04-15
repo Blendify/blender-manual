@@ -10,8 +10,8 @@ Shape
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Text --> Shape`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Text --> Shape`
 
 .. figure:: /images/modeling_texts_properties_shape-settings.png
 
@@ -56,8 +56,8 @@ Texture Space
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Font --> Texture Space`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Font --> Texture Space`
 
 .. figure:: /images/modeling_texts_properties_texture-settings.png
 
@@ -77,8 +77,8 @@ Geometry
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Font --> Geometry`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Font --> Geometry`
 
 Modification
    Offset
@@ -110,8 +110,8 @@ Font
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Font --> Font`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Font --> Font`
 
 The *Font* panel has several options for changing the look of characters.
 
@@ -263,8 +263,8 @@ Paragraph
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Font --> Paragraph`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Font --> Paragraph`
 
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
@@ -344,8 +344,8 @@ Text Boxes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Properties editor --> Font --> Text Boxes`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties editor --> Font --> Text Boxes`
 
 .. figure:: /images/modeling_texts_properties_frame-upperpanel-area.png
 

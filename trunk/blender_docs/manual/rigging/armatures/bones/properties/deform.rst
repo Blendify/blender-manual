@@ -6,8 +6,8 @@ Deform
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All Modes
-   | Panel:    :menuselection:`Bone --> Deform`
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Bone --> Deform`
 
 .. figure:: /images/rigging_armatures_bones_properties_deform_panel.png
 

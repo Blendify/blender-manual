@@ -23,9 +23,9 @@ Orbit
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Navigation --> Orbit`
-   | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Navigation --> Orbit`
+   :Hotkey:    :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
                :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
 Rotate the view around the point of interest.
@@ -59,9 +59,9 @@ Roll
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Navigation --> Roll`
-   | Hotkey:   :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`, :kbd:`Shift-Ctrl-Wheel`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Navigation --> Roll`
+   :Hotkey:    :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`, :kbd:`Shift-Ctrl-Wheel`
 
 Rotate the viewport camera around its local Z axis in 15° discrete steps.
 
@@ -72,9 +72,9 @@ Panning
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Navigation --> Pan`
-   | Hotkey:   :kbd:`Shift-MMB`, :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Navigation --> Pan`
+   :Hotkey:    :kbd:`Shift-MMB`, :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
                :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`
 
 Moves the view up, down, left and right.
@@ -93,9 +93,9 @@ Zooming
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Navigation --> Zoom`
-   | Hotkey:   :kbd:`Ctrl-MMB`, :kbd:`Wheel`, :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Navigation --> Zoom`
+   :Hotkey:    :kbd:`Ctrl-MMB`, :kbd:`Wheel`, :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
 
 Moves the camera forwards and backwards.
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
@@ -120,9 +120,9 @@ Zoom Border
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Menu:     :menuselection:`View --> Zoom Border`
-   | Hotkey:   :kbd:`Shift-B`
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Zoom Border`
+   :Hotkey:    :kbd:`Shift-B`
 
 The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
 that the region fills the 3D View.
@@ -141,8 +141,8 @@ Dolly Zoom
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Shift-Ctrl-MMB`
+   :Mode:      All modes
+   :Hotkey:    :kbd:`Shift-Ctrl-MMB`
 
 In most cases its sufficient to zoom the view to get a closer look at something,
 however, you may notice that at a certain point you cannot zoom any closer.
