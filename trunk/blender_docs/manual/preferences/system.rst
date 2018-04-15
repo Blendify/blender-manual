@@ -31,7 +31,7 @@ Frame Server Port
    consult your system administrator before changing this value.
 Console Scrollback
    The number of lines, buffered in memory of the console window.
-   Useful for debugging purposes and command line rendering.
+   Useful for debugging purposes and command-line rendering.
 
 
 .. _prefs-system-sound:

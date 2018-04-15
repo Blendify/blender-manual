@@ -7,10 +7,10 @@ This panel contains display settings related on editor itself.
 
 Channels
    The R, G, B toggles control the color channels used for frame preview.
-   It is needed because the tracking algorithm works with gray-scale images and it is not
+   It is needed because the tracking algorithm works with grayscale images and it is not
    always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
 Grayscale Preview (B/W)
-   Shows the whole frame grayscale.
+   Shows the whole frame gray-scale.
 Mute (eye icon) :kbd:`M`
    Changes displaying on movie frame itself with black square,
    It helps to find tracks which are tracked inaccurately or which were not tracked at all.

@@ -24,7 +24,7 @@ This effect has two main usages:
 
 .. rubric:: With a Mask
 
-A mask is a black and white picture which, after multiplication with a "normal" image,
+A mask is a black-and-white picture which, after multiplication with a "normal" image,
 only show this one in the white areas of the mask (everything else is black).
 
 The opening title sequence to James Bond movies,

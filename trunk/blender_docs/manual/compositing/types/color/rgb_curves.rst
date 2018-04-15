@@ -37,7 +37,7 @@ White Level
 
 .. tip::
 
-   To define the levels, use the :ref:`eye dropper <ui-eye-dropper>` to select a color sample of a displayed image.
+   To define the levels, use the :ref:`eyedropper <ui-eye-dropper>` to select a color sample of a displayed image.
 
 
 Properties

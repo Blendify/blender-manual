@@ -86,7 +86,7 @@ since we all know that :math:`sin(2 × pi/ 4) = sin(pi/ 2) = +1.0`.
 Since the sine function can put out values between (-1.0 to 1.0),
 the *Map Value* node scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1
 (making 0 to 2), and multiplying the result by one-half (thus scaling the output between 0 to 1).
-The default *Color Ramp* converts those values to a grayscale.
+The default *Color Ramp* converts those values to a gray-scale.
 Thus, medium gray corresponds to a 0.0 output by the sine, black to -1.0,
 and white to 1.0. As you can see, :math:`sin(pi/ 2) = 1.0`. Like having your own visual color calculator!
 Animating this node setup provides a smooth cyclic sequence through the range of grays.

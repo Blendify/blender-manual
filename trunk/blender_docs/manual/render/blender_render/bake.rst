@@ -126,7 +126,7 @@ Normalized
    Normalize to the distance.
 
 When using this in conjunction with a Subdivision Surface and Displacement modifiers within Blender, it is
-necessary to temporarily add a heavy Subdivision Surface Modifier to the 'low res' model before baking.
+necessary to temporarily add a heavy Subdivision Surface Modifier to the 'low-res' model before baking.
 This means that if you then use a Displacement Modifier on top of the Subdivision Surface,
 the displacement will be correct, since it is stored as a relative difference to the subdivided geometry,
 rather than the original base mesh (which can get distorted significantly by a Subdivision Surface).

@@ -63,7 +63,7 @@ Outputs
 Image
    The output by perspective wrapping the image to that plane track.
 Plane
-   Produces a black and white mask of the plane track.
+   Produces a black-and-white mask of the plane track.
 
 
 Examples

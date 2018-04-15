@@ -70,11 +70,11 @@ Details
 Although the process is quite intuitive,
 the principles behind *Extrude* are fairly elaborate as discussed below:
 
-- First, the algorithm determines the outside edge-loop of the extrude; that is,
+- First, the algorithm determines the outside edge loop of the extrude; that is,
   which among the selected edges will be changed into faces. By default (see below),
   the algorithm considers edges belonging to two or more selected faces as internal, and hence not part of the loop.
-- The edges in the edge-loop are then changed into faces.
-- If the edges in the edge-loop belong to only one face in the complete mesh,
+- The edges in the edge loop are then changed into faces.
+- If the edges in the edge loop belong to only one face in the complete mesh,
   then all of the selected faces are duplicated and linked to the newly created faces. For example,
   rectangles will result in parallelepipeds during this stage.
 - In other cases, the selected faces are linked to the newly created faces but not duplicated.
@@ -83,7 +83,7 @@ the principles behind *Extrude* are fairly elaborate as discussed below:
   closed volumes at all times when using *Extrude*.
 - When extruding completely closed volumes (like e.g. a cube with all its six faces),
   extrusion results merely in a duplication, as the volume is duplicated, without any link to the original one.
-- Edges not belonging to selected faces, which form an "open" edge-loop,
+- Edges not belonging to selected faces, which form an "open" edge loop,
   are duplicated and a new face is created between the new edge and the original one.
 - Single selected vertices which do not belong to selected edges
   are duplicated and a new edge is created between the two.

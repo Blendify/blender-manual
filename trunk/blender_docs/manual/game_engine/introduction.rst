@@ -31,7 +31,7 @@ and incorporates facilities for user interaction during the rendering process.
 The Blender Game Engine oversees a game loop, which processes logic, sound,
 physics and rendering simulations in sequential order. The engine is written in C++.
 
-By default, the user has access to a powerful, high level, Event Driven
+By default, the user has access to a powerful, high-level, Event Driven
 :doc:`Logic Editor </editors/logic_editor>`
 which is comprised of a series of specialized components called "Logic Bricks".
 The :doc:`Logic Editor </editors/logic_editor>` provides deep interaction with the simulation,
@@ -54,7 +54,7 @@ There are a number of powerful libraries the Game Engine takes advantage of:
 
 - Audaspace: A sound library for control of audio. Uses OpenAL or SDL.
 - Bullet: A physics engine featuring 3D collision detection, soft body dynamics, and rigid body dynamics.
-- Detour: A path-finding and spatial reasoning toolkit.
+- Detour: A path finding and spatial reasoning toolkit.
 - Recast: A state of the art navigation mesh construction tool set for games.
 
 When creating a game or simulation in the BGE, there are four essential steps:

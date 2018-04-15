@@ -135,7 +135,7 @@ Sections
             :target: advanced/index.html
 
          :doc:`/advanced/index`
-            Python scripting, how to write add-ons and a reference for command line arguments.
+            Python scripting, how to write add-ons and a reference for command-line arguments.
 
       .. container:: descr
 

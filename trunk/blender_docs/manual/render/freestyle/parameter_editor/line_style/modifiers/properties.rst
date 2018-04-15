@@ -199,7 +199,7 @@ the current material under the stroke.
 
 You can use various properties of the materials, among which many are mono-component
 (i.e. give B&W results). In this case for the color modifier, an optional color ramp can be used to
-map these grayscale values to colored ones.
+map these gray-scale values to colored ones.
 
 In the reverse case properties of the materials, which are multi-components
 (i.e. give RGB results) the mean value will be used for alpha and thickness modifiers.

@@ -4,7 +4,7 @@
 Steering Actuator
 *****************
 
-The *Steering Actuator* provides simple pathfinding for an object by moving it towards a target object,
+The *Steering Actuator* provides simple path finding for an object by moving it towards a target object,
 with options to seek, flee, or follow a path. This actuator will not actually try to avoid obstacles
 by deviating the objects course.
 

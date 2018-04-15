@@ -34,7 +34,7 @@ Outputs
 Image
    Standard image output. (The image after distorting).
 Plane
-   A black and white alpha mask of the plane.
+   A black-and-white alpha mask of the plane.
 
 
 Example

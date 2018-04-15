@@ -104,7 +104,7 @@ and in the second area the UV/Image Editor loaded with your image.
 Position the 3D View to show the object that is UV-mapped to the loaded image.
 In the image to the right, the texture being painted is mapped to the "Normal" attribute,
 and is called "bump mapping",
-where the gray-scale image is used to make the flat surface appear bumpy.
+where the grayscale image is used to make the flat surface appear bumpy.
 See Texture Mapping Output for more information on bump mapping.
 
 

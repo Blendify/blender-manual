@@ -165,7 +165,7 @@ profile graph allows the user to alter how intense light is at a particular poin
 a light's attenuation profile (i.e. at a specific distance from the light source).
 
 The *Falloff Curve* profile graph has two axes,
-the Distance-axis and the Intensity-axis.
+the Distance axis and the Intensity axis.
 
 Distance axis
    It represents the position at a particular point along a light source's attenuation path.

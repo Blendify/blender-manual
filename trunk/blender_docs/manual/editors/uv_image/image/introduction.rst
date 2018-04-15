@@ -98,12 +98,12 @@ Draw Channels
    RGB
       Draw the colored image, without alpha channel.
    Alpha
-      Displays the Alpha channel a gray-scale image. White areas are opaque, black areas have an alpha of 0.
+      Displays the Alpha channel a grayscale image. White areas are opaque, black areas have an alpha of 0.
    Z-Buffer
       Display the depth from the camera, from Clip Start to Clip End,
       as specified in the :doc:`Camera settings </render/blender_render/camera/introduction>`.
    Red, Green, Blue
-      Single Color Channel visualized as a gray-scale image.
+      Single Color Channel visualized as a grayscale image.
 
 
 Main View

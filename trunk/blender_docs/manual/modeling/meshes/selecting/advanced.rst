@@ -325,7 +325,7 @@ vertex/edge/face to the one which was selected.
 
 Face Stepping
    Supports diagonal paths for vertices and faces, and
-   selects edge-rings with edges.
+   selects edge rings with edges.
 Topological Distance
    Which only takes into account the number of edges of the path and
    not the length of the edges to calculate the distances,

@@ -7,15 +7,15 @@ Blender includes advanced physics simulation in the form of the Bullet Physics E
 (`Bullet Physics <http://bulletphysics.org>`__).
 Most of your work will involve setting the right properties on the objects in your scene,
 then you can sit back and let the engine take over.
-The physics simulation can be used for Games, but also for Animation.
+The physics simulation can be used for games, but also for animation.
 
-The Blender Game Engine (BGE) is based on Rigid-Body Physics,
+The Blender Game Engine (BGE) is based on rigid body physics,
 which differs significantly from the complementary set of
-tools available in the form of Soft Body Physics Simulations. Though the BGE does have a Soft Body type, it is not
-nearly as nuanced as the non-BGE Soft Body.
+tools available in the form of soft body physics simulations. Though the BGE does have a soft body type,
+it is not nearly as nuanced as the non-BGE soft body.
 The inverse is even more true: it is difficult to get the non-BGE physics to
 resemble anything like a stiff shape.
-Rigid Body Physics does not have, as an effect or a cause, any mesh deformations.
+Rigid body physics does not have, as an effect or a cause, any mesh deformations.
 For a discussion on how to partially overcome this, see:
 `Mesh Deformations`_.
 
@@ -47,18 +47,18 @@ settings, not replace it.
 Constraints
 ===========
 
-It is imperative to understand that the Blender Constraints generally do not work inside the BGE.
+It is imperative to understand that the Blender constraints generally do not work inside the BGE.
 This means interesting effects such as *Copy Rotation* are unavailable directly.
 
 Your options include:
 
 - :doc:`Parenting </editors/3dview/object/properties/relations/parents>` -- But not Vertex Parenting.
 - :doc:`Rigid Body Joint </rigging/constraints/relationship/rigid_body_joint>` --
-  This is the one Constraint that you can set up through the UI that works in the BGE.
+  This is the one constraint that you can set up through the UI that works in the BGE.
   It has several options, and can be very powerful -- see ITS page for a detailed description and demo blend-file.
   Do not forget that you can loop through objects using ``bpy`` instead of clicking thousands of
-  times to set up chains of these Constraints.
-- Rigid Body Joints on-the-fly --
+  times to set up chains of these constraints.
+- Rigid body joints on-the-fly --
   You can add/remove them after the BGE starts by using ``bge.constraints.createConstraint()``.
   This can be good either to simply automate their setup, or to truly make them dynamic.
   A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend
@@ -129,14 +129,14 @@ it will put some statistics in the upper left area of the game window.
 Mesh Deformations
 =================
 
-As mentioned above, Rigid Body physics do not affect mesh deformations,
+As mentioned above, rigid body physics do not affect mesh deformations,
 nor do they account for them in the physics model. This leaves you with a few options:
 
 
 Soft Bodies
 -----------
 
-You can try using a :doc:`Soft Body </game_engine/physics/types/soft_body>`,
+You can try using a :doc:`soft body </game_engine/physics/types/soft_body>`,
 but these are fairly hard to configure well.
 
 
@@ -144,18 +144,18 @@ Actions
 -------
 
 To use an :doc:`Action Actuator </game_engine/logic/actuators/types/action>`
-to do the deformation, you have to make a choice. If you use Shapekeys in the Action,
+to do the deformation, you have to make a choice. If you use *shape keys* in the Action,
 you will be fine as far as the overall collisions (but see below for the note on ``reinstancePhysicsMesh()``).
 The mesh itself is both a display and a physics mesh, so there is not much to configure.
 
-To use an Armature as the deformer will require a bit of extra thought and effort.
-Basically the Armature will only deform a mesh if the Armature is the parent of that mesh.
+To use an *armature* as the deformer will require a bit of extra thought and effort.
+Basically the armature will only deform a mesh if the armature is the parent of that mesh.
 But at that point, your mesh will lose its physics responsiveness, and only hang in the air
-(it is copying the location/rotation of the Armature).
-To somewhat fix this you can then parent the Armature to a collision mesh
+(it is copying the location/rotation of the armature).
+To somewhat fix this you can then parent the armature to a collision mesh
 (perhaps a simple box or otherwise very low-poly mesh).
 This "Deformation Mesh" will be the physics representative, being type: Dynamic or Rigid Body,
-but it will be set to Invisible. Then "Display Mesh" will be the opposite set to *No Collision*,
+but it will be set to Invisible. Then "display mesh" will be the opposite set to *No Collision*,
 but visible. This still leaves the problem mentioned in the previous paragraph.
 
 When you deform a display mesh, it does not update the corresponding physics mesh.
@@ -179,10 +179,10 @@ that is, passing in a reference to the visual mesh.
 If we tried to establish this relationship without the use of Python,
 we would find that Blender's dependency check system would reject it as a cyclic setup.
 This is an example of where Blender's checking is too coarsely-grained,
-as this circle is perfectly valid: the grandparent object (the Collision Mesh)
-controls the location/rotation, while the middle object (the Armature)
+as this circle is perfectly valid: the grandparent object (the collision mesh)
+controls the location/rotation, while the middle object (the armature)
 receives the animated Action, where the child (the Display Mesh) receives the deformation,
-and passes that on up to the top, harmlessly. Something to note is that the Collision Mesh is
+and passes that on up to the top, harmlessly. Something to note is that the collision mesh is
 merely a plane -- that is all it requires for this,
 since it will be getting the mesh data from ``viz``.
 
@@ -190,9 +190,9 @@ since it will be getting the mesh data from ``viz``.
 Ragdolls
 --------
 
-A third option is to create your items out of many sub-objects, connected together with Rigid Body Joints or similar.
+A third option is to create your items out of many sub-objects, connected together with *rigid body joints* or similar.
 This can be quite a bit more work, but the results can be much more like a realistic response to collisions.
-For an Add-on that can help you out in the process, check out the
+For an add-on that can help you out in the process, check out the
 `Blender Ragdoll Implementation Kit
 <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
 

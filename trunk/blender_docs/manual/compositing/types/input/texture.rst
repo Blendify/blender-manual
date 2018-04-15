@@ -33,6 +33,6 @@ Outputs
 =======
 
 Value
-   Grayscale color values.
+   Gray-scale color values.
 Color
    Color values.

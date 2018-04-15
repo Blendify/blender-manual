@@ -34,7 +34,7 @@ The Shading panel then appears. This contains the following elements:
 
    Add new material.
 
-- Context: The currently-selected scene and object.
+- Context: The currently selected scene and object.
 - Object Material Slots: this panel shows the "slots"
   for the material (or materials) that this object data contains.
 - Active Material: Initially empty, asking for "New".

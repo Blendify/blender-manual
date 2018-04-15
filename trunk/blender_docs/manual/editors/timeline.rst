@@ -288,7 +288,7 @@ Frame Dropping
    Drop frames if playback is too slow.
    This enables *Frame Dropping* from the *Playback Menu*.
 AV-sync
-   (Audio Video Synchronization). Sync to audio clock, dropping frames if playback is slow.
+   (Audio/Video Synchronization). Sync to audio clock, dropping frames if playback is slow.
    This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*.
 
 
