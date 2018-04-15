@@ -35,7 +35,7 @@ Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.
    Cameras in :doc:`Blender Internal </render/blender_render/camera/index>`, :doc:`Cycles </render/cycles/camera>`.
 3D Cursor
-   The :doc:`3D cursor </editors/3dview/3d_cursor>`, a cross with a red and white circle,
+   The :doc:`3D cursor </editors/3dview/3d_cursor>`, a cross with a red-and-white circle,
    is used for placing objects in the scene.
 Grid Floor
    The gray squares forming a floor mark the zero height of the world.

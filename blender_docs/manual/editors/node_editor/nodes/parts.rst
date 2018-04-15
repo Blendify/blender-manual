@@ -44,7 +44,7 @@ Color (yellow)
 Numeric (gray)
    Indicates numeric value's information.
    It can either be a single numerical value or a so-called "value map".
-   (You can think of a value map as a grayscale-map where the different amount of
+   (You can think of a value map as a gray-scale map where the different amount of
    bright/dark reflects the value for each point).
    If a single value is used as an input for a "value map" socket, all points of the map are set to this same value.
    Common use: Alpha maps and value options for a node.

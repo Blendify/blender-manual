@@ -81,7 +81,7 @@ Name
    If you type an invalid name, the value will remain unchanged.
 List
    Lets you select the data-block directly.
-Eye Dropper
+Eyedropper
    In some Data IDs there is an :doc:`/interface/controls/buttons/eye_dropper`
    available through the pipette icon on the right side.
 Remove ``X``

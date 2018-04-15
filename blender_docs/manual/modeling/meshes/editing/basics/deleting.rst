@@ -185,7 +185,7 @@ Edge Loop
    | Hotkey:   :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loop`
 
 *Edge Loop* allows you to delete a selected edge loop if it is between two other edge loops.
-This will create one face-loop where two previously existed.
+This will create one face loop where two previously existed.
 
 .. note::
 

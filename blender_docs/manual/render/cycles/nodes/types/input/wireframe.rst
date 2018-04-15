@@ -33,7 +33,7 @@ Outputs
 =======
 
 Factor
-   Black and white mask showing white lines representing edges according to the object's :term:`topology`.
+   Black-and-white mask showing white lines representing edges according to the object's :term:`topology`.
 
 
 Examples

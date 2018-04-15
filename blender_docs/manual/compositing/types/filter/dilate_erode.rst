@@ -16,7 +16,7 @@ Inputs
 ======
 
 Mask
-   Single color channel (or a black and white image) input.
+   Single color channel (or a black-and-white image) input.
 
 
 Properties

@@ -116,6 +116,6 @@ You can use the Set Alpha node's color button with this kind of node map to add 
 
 In the example map to the right,
 use the *Alpha* value of the Set Alpha node to give a desired degree of colorization.
-Thread the input image and the Set Alpha node into an Alpha Over node to colorize any black and
-white image in this manner. Note the *Convert Premultiplied* checkbox is enabled,
+Thread the input image and the Set Alpha node into an Alpha Over node to colorize
+any black-and-white image in this manner. Note the *Convert Premultiplied* checkbox is enabled,
 which tells the Alpha Over node not to multiply the alpha values of the two images together.

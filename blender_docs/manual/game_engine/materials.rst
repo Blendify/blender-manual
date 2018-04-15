@@ -14,7 +14,7 @@ This panel contains properties that control how the object surfaces
 that use the material are rendered in real-time by the Blender Game Engine.
 
 Backface Cull
-   Hide the back faces of objects rendered with this material.
+   Hide the back-faces of objects rendered with this material.
    If "Off", both sides of the surface are visible (at the expense of lower rendering speed).
    Note that this setting is applied per-material and not per-face; e.g.
    if the material is applied to a cube, only the back and front faces of the cube are visible,
@@ -53,7 +53,7 @@ of faces to which the material is applied.
    Billboard
       Billboard with Z-axis constraint.
    Halo
-      Screen aligned billboard.
+      Screen-aligned billboard.
    Normal (default)
       No transformation.
 

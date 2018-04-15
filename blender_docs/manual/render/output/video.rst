@@ -51,7 +51,7 @@ Color Reproduction
 ------------------
 
 When exporting to many of the common video formats, the rendered RGB(A) images go through a conversion process
-whereby they are translated to the YCbCr color model. Y corresponds to a grayscale representation of the image,
+whereby they are translated to the YCbCr color model. Y corresponds to a gray-scale representation of the image,
 Cb and Cr contain data for the blue and red channels respectively.
 Green is encoded into the Y and Cb, Cr channels with some clever math.
 
@@ -112,7 +112,7 @@ Output Quality
 Encoding Speed
    Presets to change between a fast encode (bigger file size) and more compression (smaller file size).
 
-Key Frame Interval
+Keyframe Interval
    The number of pictures per `Group of Pictures <https://en.wikipedia.org/wiki/Group_of_pictures>`__.
    Set to 0 for "intra_only", which disables `inter-frame <https://en.wikipedia.org/wiki/Inter-frame>`__ video.
    A higher number generally leads to a smaller file but needs a higher-powered device to replay it.

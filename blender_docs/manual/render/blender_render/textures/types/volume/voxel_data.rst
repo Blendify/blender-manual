@@ -25,7 +25,7 @@ File Format
    Blender Voxel
       Default binary voxel file format.
    8 bit RAW
-      8 bit grayscale binary data.
+      8 bit gray-scale binary data.
    Image Sequence
       Generate voxels from a sequence of image slices.
    Smoke

@@ -117,5 +117,5 @@ however, this may be difficult if you are using an animated mesh.
 Self-Collisions
 ===============
 
-For information on self collision please refer to
+For information on self-collision please refer to
 the :ref:`Self-Collision <physics-softbody-settings-self-collision>` settings.

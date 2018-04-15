@@ -182,7 +182,7 @@ In general, dependencies should not go in both directions.
 Attempting to link or append data which links back to the current file will likely result in missing links.
 
 
-Object Rigid-Body Constraints
+Object Rigid Body Constraints
 -----------------------------
 
 When linking objects *directly* into a blend-file, the *Rigid Body* settings

@@ -102,5 +102,5 @@ Rendering an animation in background mode, allowing drivers and other scripts to
 
 .. note::
 
-   These command line arguments can be used to start a regular Blender instance and
+   These command-line arguments can be used to start a regular Blender instance and
    will still override the User Preferences.

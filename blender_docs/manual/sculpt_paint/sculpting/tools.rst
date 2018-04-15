@@ -64,7 +64,7 @@ Layer :kbd:`L`
       ToDo <2.70.
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
-   The mask values are shown as grayscale.
+   The mask values are shown as gray-scale.
    I.e. the darker a masked area is, the less effect sculpting on it will have.
    See also the options of the :ref:`sculpt-mask-menu` menu.
 

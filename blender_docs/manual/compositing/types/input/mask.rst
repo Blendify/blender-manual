@@ -41,7 +41,7 @@ Outputs
 =======
 
 Mask
-   The black and white output of the mask.
+   The black-and-white output of the mask.
 
 
 Example

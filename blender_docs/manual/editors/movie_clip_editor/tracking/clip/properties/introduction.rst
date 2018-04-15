@@ -79,7 +79,7 @@ Channels
    its background yields more accurate tracking.
    In such cases disabling some color channels can help.
 Grayscale Preview (B/W)
-   Display the preview image as grayscale even if all channels are enabled.
+   Display the preview image as gray-scale even if all channels are enabled.
 Alpha Preview (black/white icon)
    ToDo 2.64.
 

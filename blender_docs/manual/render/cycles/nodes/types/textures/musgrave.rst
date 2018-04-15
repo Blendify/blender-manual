@@ -32,7 +32,7 @@ Dimension
 Lacunarity
    The space of the lacunarity, specified as a frequency factor.
 Offset
-   The offset of the fractal, specified between black and white values (Intensity).
+   The offset of the fractal, specified between black-and-white values (Intensity).
 Gain
    A multiplier for the gain input.
 

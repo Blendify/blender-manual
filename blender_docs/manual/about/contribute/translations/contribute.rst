@@ -40,7 +40,7 @@ You should have a directory layout like this::
 
 .. note::
 
-   When running subversion from the command-line (such as updating or committing),
+   When running subversion from the command line (such as updating or committing),
    you will need to change directory to ``locale/fr`` first.
 
    Otherwise you will get a warning: ``'locale' is not under version control``

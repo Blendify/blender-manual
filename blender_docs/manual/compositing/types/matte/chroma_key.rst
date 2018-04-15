@@ -43,4 +43,4 @@ Outputs
 Image
    Image with its alpha channel adjusted for the keyed selection.
 Matte
-   A black and white alpha mask of the key.
+   A black-and-white alpha mask of the key.
