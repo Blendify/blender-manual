@@ -30,5 +30,5 @@ the *Apply Transformation* button in the *Physics* tab of the *Tool Shelf*.
 
 The scale of the rigid body object also influences the simulation, but is always controlled by the animation system.
 
-Rigid Body physics on the object can be *removed* with the *Rigid Body* button in the *Physics* tab or *Remove*
+Rigid body physics on the object can be *removed* with the *Rigid Body* button in the *Physics* tab or *Remove*
 button in the *Physics* tab of the *Tool Shelf*.

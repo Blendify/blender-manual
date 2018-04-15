@@ -125,7 +125,7 @@ You may include "gaps", when a tracking point is temporarily disabled or unavail
 but you should start a new track for each distinct new feature to be tracked.
 
 Each track contributes to the overall result by the degree controlled through its *Stab Weight* parameter.
-It is evaluated on a per frame base, which enables us to control the influence of a track by *animating* this
+It is evaluated on a per-frame basis, which enables us to control the influence of a track by *animating* this
 *Stab Weight*. You may imagine the overall working of the stabilizer as if each tracking point "drags" the image
 through a flexible spring: When you turn down the *Stab Weight* of a tracking point,
 you decrease the amount of "drag"

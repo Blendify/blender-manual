@@ -30,7 +30,7 @@ It is very common for the affected objects to build up enough kinetic energy to 
 (and into orbit, although the physics engine is not yet capable of
 simulating a planet's gravity well, so scratch that).
 
-Rigid Body dynamics can be baking to normal keyframes with *Bake To Keyframes* button
+Rigid body dynamics can be baking to normal keyframes with *Bake To Keyframes* button
 in the *Physics* tab of the *Tool Shelf*.
 
 

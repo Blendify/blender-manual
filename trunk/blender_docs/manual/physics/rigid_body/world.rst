@@ -10,14 +10,14 @@ Rigid Body World
 
    :Panel:     :menuselection:`Scene --> Rigid Body World`
 
-The *Rigid Body World* is a group of Rigid Body objects,
+The *Rigid Body World* is a group of rigid body objects,
 which holds settings that apply to all rigid bodies in this simulation.
 
-When you add Rigid Body physics on an object,
+When you add rigid body physics on an object,
 primary there is created a group of objects with default "RigidBodyWorld" name.
-Rigid body objects automatically are added to this group when you add Rigid Body physics for them.
+Rigid body objects automatically are added to this group when you add rigid body physics for them.
 
-You can create several Rigid Body World groups and allocate the Rigid Body objects
+You can create several Rigid Body World groups and allocate the rigid body objects
 with the *Groups* panel in the *Object* tab.
 
 Rigid body objects and constraints are only taken into account by the simulation if they are in the groups specified
@@ -28,10 +28,10 @@ Settings
 ========
 
 Rigid Body World
-   Enable/disable evaluation of the Rigid Body simulation based on the rigid body objects
+   Enable/disable evaluation of the rigid body simulation based on the rigid body objects
    participating in the specified group of Rigid Body World.
 Remove Rigid Body World
-   Remove Rigid Body simulation from the current scene.
+   Remove rigid body simulation from the current scene.
 Group
    Containing rigid body objects participating in this simulation.
 Constraints
@@ -86,4 +86,4 @@ so save your file first or the cache may be lost.
 Rigid Body Field Weights
 ========================
 
-As other physics dynamics systems, Rigid Body simulation are also influenced by external force effectors.
+As other physics dynamics systems, rigid body simulation are also influenced by external force effectors.

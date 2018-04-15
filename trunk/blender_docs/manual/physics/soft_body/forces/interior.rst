@@ -10,12 +10,12 @@ Interior
 
    Vertices and forces along their connection edges.
 
-To create a connection between the vertices of a Soft Body object there have to be forces that
+To create a connection between the vertices of a soft body object there have to be forces that
 hold the vertices together. These forces are effective along the edges in a mesh,
 the connections between the vertices. The forces act like a spring. Fig.
 :ref:`fig-softbody-force-interior-connection`
 illustrates how a 3×3 grid of vertices (a mesh plane in Blender)
-are connected in a Soft Body simulation.
+are connected in a soft body simulation.
 
 But two vertices could freely rotate if you do not create additional edges between them.
 Have you ever tried building a storage shelf out of four planks alone? Well, do not do it,
@@ -59,7 +59,7 @@ Pull
    The spring stiffness for edges (how much the edges are allowed to stretch). A low value means very weak springs
    (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
    0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
-   The Soft Body simulation tends to get unstable if you use a value of 0.999,
+   The soft body simulation tends to get unstable if you use a value of 0.999,
    so you should lower this value a bit if that happens.
 Push
    How much the soft body resists being scrunched together,

@@ -16,7 +16,7 @@ that use the material are rendered in real-time by the Blender Game Engine.
 Backface Cull
    Hide the back-faces of objects rendered with this material.
    If "Off", both sides of the surface are visible (at the expense of lower rendering speed).
-   Note that this setting is applied per-material and not per-face; e.g.
+   Note that this setting is applied per material and not per face; e.g.
    if the material is applied to a cube, only the back and front faces of the cube are visible,
    and not both sides of each face.
 

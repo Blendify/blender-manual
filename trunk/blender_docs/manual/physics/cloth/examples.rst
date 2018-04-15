@@ -69,7 +69,7 @@ UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the v
 (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on-the-fly.
 
 
-Using Cloth for Soft bodies
+Using Cloth for Soft Bodies
 ===========================
 
 .. figure:: /images/physics_cloth_examples_softbody1.jpg

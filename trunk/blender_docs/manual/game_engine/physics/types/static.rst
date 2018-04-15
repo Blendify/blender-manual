@@ -9,7 +9,7 @@ will remain unresponsive in terms of location, rotation, or deformation.
 
 It will, however, give collision reactions. Objects will bounce off of Static Objects,
 and rotational inertia will transfer to objects capable of rotating
-(that is, Rigid Body Objects will spin in response, though Dynamic Objects will not).
+(that is, rigid body objects will spin in response, though Dynamic Objects will not).
 
 Note that none of this prevents you from transforming the Static Objects with
 :doc:`Logic Bricks </game_engine/logic/index>` or Python code.

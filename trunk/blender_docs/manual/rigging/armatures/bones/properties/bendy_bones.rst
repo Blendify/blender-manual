@@ -111,14 +111,14 @@ Curve XY Offsets
 ----------------
 
 Applies an offsets the curve handle positions on the plane perpendicular to the bone's primary (Y) axis.
-As a result, the handle moves per-axis (XY) further from its original location, causing the curve to bend.
+As a result, the handle moves per axis (XY) further from its original location, causing the curve to bend.
 
 
 Roll
 ----
 
 Roll In, Out
-   The roll value (or twisting around the main Y axis of the bone) is interpolated per-segment,
+   The roll value (or twisting around the main Y axis of the bone) is interpolated per segment,
    between the start and end roll values.
    It is applied as a rotational offsets on top of the previous rotation.
 Inherit End Roll
@@ -130,7 +130,7 @@ Scale
 
 Scale In, Out
    Scaling factor that adjusts the thickness of each segment for X and Z axes only, i.e. length is not affected.
-   Similar to *Roll* it is interpolated per-segment.
+   Similar to *Roll* it is interpolated per segment.
 
 
 Easing
