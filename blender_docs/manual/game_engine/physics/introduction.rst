@@ -88,8 +88,8 @@ Also note that you can see how the Bullet triangulation is working
   until such calculations are so small that the object is put to rest.
   This is how you can see the effects of the *Collision Bounds*.
   - *Thick*, or *Many White Lines* -- A compound collision mesh/meshes.
-- *Violet* -- Bounding meshes for Soft bodies.
-- *Red* -- The Bounding Box, the outer boundary of object.
+- *Violet* -- Bounding meshes for soft bodies.
+- *Red* -- The bounding box, the outer boundary of object.
   It is always aligned with global X, Y and Z, and is used to optimize calculations.
   Also represents meshes that have been forced into "no sleep" status.
 - *Yellow* -- Normals.

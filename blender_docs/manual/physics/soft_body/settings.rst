@@ -29,7 +29,7 @@ Friction
 Mass
    Mass value for vertices.
    Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
-   Larger mass means larger inertia, so also braking a Soft Body is more difficult.
+   Larger mass means larger inertia, so also braking a soft body is more difficult.
 Mass: Vertex Group
    Use a specified vertex group for mass values.
 
@@ -40,7 +40,7 @@ Simulation
 Speed
    You can control the internal timing of the soft body system with this value.
 Collision Group
-   If set, Soft Body collides with objects from the group, instead of using objects that are on the same layer.
+   If set, soft body collides with objects from the group, instead of using objects that are on the same layer.
 
 
 Soft Body Cache
@@ -68,7 +68,7 @@ Use Goal
    Soft Body Goal acts like a pin on a chosen set of vertices;
    controlling how much of an effect soft body has on them.
    Enabling this tells Blender to use the position / animated position of a vertex in the simulation.
-   Animating the vertices can be done in all the usual ways before the Soft Body simulation is applied.
+   Animating the vertices can be done in all the usual ways before the soft body simulation is applied.
    The *goal* is the desired end-position for vertices.
    How a soft body tries to achieve this goal can be defined using stiffness forces and damping.
 
@@ -77,7 +77,7 @@ Goal Strength
 -------------
 
 Default
-   A *Goal* value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated) position.
+   A *Goal* value of 1.0 means no soft body simulation, the vertex stays at its original (animated) position.
    When setting *Goal* to 0.0, the object is only influenced by physical laws.
    By setting goal values between 0.0 and 1.0,
    you can blend between having the object affected only by the animation system,
@@ -201,7 +201,7 @@ Soft Body Self Collision
    *Self-Collision* is working only if you have activated *Use Edges*.
 
 Self Collision
-   When enabled, allows you to control how Blender will prevent the Soft Body from intersecting with itself.
+   When enabled, allows you to control how Blender will prevent the soft body from intersecting with itself.
    Every vertex is surrounded with an elastic virtual ball.
    Vertices may not penetrate the balls of other vertices.
    If you want a good result you may have to adjust the size of these balls.
@@ -260,7 +260,7 @@ Step Size
 ---------
 
 Min Step
-   Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast-moving collision objects.
+   Minimum simulation steps per frame. Increase this value, if the soft body misses fast-moving collision objects.
 Max Step
    Maximum simulation steps per frame.
    Normally the number of simulation steps is set dynamically

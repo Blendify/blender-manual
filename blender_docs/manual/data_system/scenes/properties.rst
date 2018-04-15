@@ -247,7 +247,7 @@ Rigid Body World
 
    :Panel:     :menuselection:`Properties editor --> Scene --> Rigid Body World`
 
-The *Rigid Body World* is a group of Rigid Body objects,
+The *Rigid Body World* is a group of rigid body objects,
 which holds settings that apply to all rigid bodies in this simulation.
 
 See :doc:`Rigid Body World </physics/rigid_body/world>` for more information.

@@ -15,7 +15,7 @@ The graph or curves view has numerous purposes based on the color of the lines.
 The red and green lines on the graph show you the speed of the trackers at a given frame.
 Green is vertical movement, Red is horizontal. Therefore the first frames will always be at zero.
 
-The blue line is the line that comes out when you click on the film strip is the average per frame error.
+The blue line is the line that comes out when you click on the film strip is the average per-frame error.
 This curve is available only after pressing camera solve and is not editable.
 This is the one line that you want to be as flat as possible and as closer to zero as you can.
 The high points will show you where in your shot you are having inaccurate tracking.

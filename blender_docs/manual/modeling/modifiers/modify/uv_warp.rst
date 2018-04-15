@@ -23,7 +23,7 @@ UV Axis
 From, To
    The two objects used to define the transformation. See *Usage* below.
 Vertex Group
-   The vertex group can be used to scale the influence of the transformation per-vertex.
+   The vertex group can be used to scale the influence of the transformation per vertex.
 UV Map
    Which UV map to modify.
    Defaults to the active rendering layer.

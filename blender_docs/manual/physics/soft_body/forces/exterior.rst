@@ -4,7 +4,7 @@ Exterior
 ********
 
 Exterior forces are applied to the vertices (and nearly exclusively to the vertices)
-of Soft Body objects. This is done using Newton's Laws of Physics:
+of soft body objects. This is done using Newton's Laws of Physics:
 
 - If there is no force on a vertex, it stays either unmoved or moves with constant speed in a straight line.
 - The acceleration of a vertex depends on its mass and the force.
@@ -27,7 +27,7 @@ We will begin with a very simple example: the default cube.
 What happens? The cube moves in negative Z direction.
 Each of its eight vertices is affected by a global, constant force -- the gravitation.
 Gravitation without friction is independent from the weight of an object,
-so each object you would use as a Soft Body here would fall with the same acceleration.
+so each object you would use as a soft body here would fall with the same acceleration.
 The object does not deform,
 because every vertex moves with the same speed in the same direction.
 
@@ -54,7 +54,7 @@ Friction
 Mass
    Mass value for vertices.
    Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
-   Larger mass means larger inertia, so also braking a Soft Body is more difficult.
+   Larger mass means larger inertia, so also braking a soft body is more difficult.
 Mass: Vertex Group
    You can paint weight values for a mesh's mass, and select that vertex group here.
 
@@ -80,15 +80,15 @@ Force Fields
 
 To create other forces you have to use another object,
 often *Empty* objects are used for that.
-You can use some of the forces on Soft Body vertices as on *Particles*.
-Soft Bodies react only to:
+You can use some of the forces on soft body vertices as on *Particles*.
+Soft bodies react only to:
 
 - Spherical
 - Wind
 - Vortex
 
 Soft bodies do react on *Harmonic* fields, but not in a useful way.
-So if you use a *Harmonic* field for particles move the Soft body to another layer.
+So if you use a *Harmonic* field for particles move the soft body to another layer.
 
 See the section :doc:`Force Fields </physics/force_fields/index>` for details.
 The force fields are quite strong,
@@ -131,10 +131,10 @@ Goal
 A goal is a shape that a soft body object tries to conform to.
 
 You have to confine the movement of vertices in certain parts of the mesh, e.g.
-to attach a Soft Body object at other objects. This is done with the *Vertex Group*
+to attach a soft body object at other objects. This is done with the *vertex group*
 (target). The target position is the original position of the vertex, like it would result
-from the "normal" animation of an object including *Shape Keys*,
-*Hooks* and *Armatures*.
+from the "normal" animation of an object including *shape keys*,
+*hooks* and *armatures*.
 The vertex tries to reach its target position with a certain, adjustable intensity.
 
 .. _fig-softbody-force-exterior-shock:
@@ -152,8 +152,8 @@ Goal Strength
 
 Default
    This parameter defines how strong the influence of this spring is. A strength of 1 means,
-   that the vertex will not move as Soft Body at all, instead keep its original position. 0 *Goal*
-   (or no *Goal*) means, that the vertex moves only according to Soft Body simulation.
+   that the vertex will not move as soft body at all, instead keep its original position. 0 *Goal*
+   (or no *Goal*) means, that the vertex moves only according to soft body simulation.
    If no vertex group is used/assigned, this number button is the default goal weight for all vertices.
    If a vertex group is present and assigned,
    this button instead shows a list field, that allows you to choose the name of the goal vertex group.
@@ -175,7 +175,7 @@ Minimum / Maximum
    For now we have discussed vertex movement independent of each other, similar to particles.
    Every object without *Goal* would collapse completely if a non-uniform force is applied.
    Now we will move to the next step,
-   the forces that keep the structure of the object and make the Soft Body to a real Body.
+   the forces that keep the structure of the object and make the soft body to a real body.
 
 
 Goal Settings

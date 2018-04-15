@@ -62,4 +62,4 @@ Show Zero Weights
       All groups.
 Unified Settings
    The *Size*, *Strength* and *Weight* of the brush can be set to
-   be shared across different brushes, as opposed to per-brush.
+   be shared across different brushes, as opposed to per brush.

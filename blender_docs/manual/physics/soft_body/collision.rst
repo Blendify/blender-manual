@@ -7,7 +7,7 @@ Collision
 There are two different collision types that you may use:
 collision between different objects and internal collision.
 We should set one thing straight from the start:
-the primary targets of the collision calculation are the vertices of a Soft Body.
+the primary targets of the collision calculation are the vertices of a soft body.
 So if you have too few vertices too few collision takes place. Secondarily,
 you can use edges and faces to improve the collision calculation.
 
@@ -15,13 +15,13 @@ you can use edges and faces to improve the collision calculation.
 Collisions with Other Objects
 =============================
 
-For a *Soft Body* to collide with another object there are a few prerequisites:
+For a *soft body* to collide with another object there are a few prerequisites:
 
 - If *Collision Group* is set, the object must belong to the group.
   Otherwise, both objects have to share a layer, but the layer does not necessarily have to be visible.
 - The collision object has to be a mesh object.
 - You have to activate the option *Collision* in the *Collision* panel of the *Physics* tab
-  for the collision object. The collision object may also be a Soft Body.
+  for the collision object. The collision object may also be a soft body.
 - If you use modifiers such as *Array* and *Mirror* you have to activate *EV.M.Stack* to ensure
   that collision calculation is based on the modified object. The sequence of *Modifiers* is not important.
 
@@ -45,19 +45,19 @@ Let us have a closer look at the collision calculation, so you can get an idea o
 
        .. figure:: /images/physics_soft-body_collision_cube-plane-1.png
 
-          A Soft Body cube colliding with a plane.
+          A soft body cube colliding with a plane.
 
      - .. _fig-softbody-collision-plane2:
 
        .. figure:: /images/physics_soft-body_collision_cube-plane-2.png
 
-          A Soft Body plane colliding with a cube, so no interaction at all.
+          A soft body plane colliding with a cube, so no interaction at all.
 
 
 Calculating Collisions
 ----------------------
 
-Soft Body simulation is by default done on a per vertex basis. If the vertices of the Soft Body
+Soft body simulations are by default done on a per-vertex basis. If the vertices of the soft body
 do not collide with the collision object, there will be no interaction between the two objects.
 
 In the video below, you can see a vertex colliding with a plane.
@@ -96,13 +96,13 @@ If the collision you have set up is not behaving properly, you can try the follo
 
 .. tip:: The best way
 
-   Add *Loop Cuts* to your Soft Body object in strategic areas that
+   Add *Loop Cuts* to the soft body object in strategic areas that
    you know are most likely to be involved in a collision.
 
-- The Soft Body object must have more subdivisions than the collision object.
+- The soft body object must have more subdivisions than the collision object.
 - Check the direction of the face normals.
-- If the collision object has sharp spikes, they might penetrate the Soft Body.
-- The resolution of the solver must match the speed at which Soft Body vertices are traveling.
+- If the collision object has sharp spikes, they might penetrate the soft body.
+- The resolution of the solver must match the speed at which soft body vertices are traveling.
   Lower the parameter *Error Limit* and carefully increase *Min Step*.
 - *Outer* and *Inner* should be large enough, but zones of opposite faces should not overlap,
   or you have forces in opposite directions.

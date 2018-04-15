@@ -5,7 +5,7 @@ Dynamic Physics
 
 *Dynamic* objects give or receive collisions,
 but when they do so they themselves do not rotate in response.
-So, a Dynamic ball will hit a ramp and slide down, while a Rigid Body ball would begin rotating.
+So, a Dynamic ball will hit a ramp and slide down, while a rigid body ball would begin rotating.
 
 If you do not need the rotational response the Dynamic type can save the extra computation.
 

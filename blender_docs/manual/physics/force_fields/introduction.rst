@@ -61,7 +61,7 @@ these common options are explained for the *Spherical* field.
    with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
 
    Particles react to all kinds of *Force Fields*,
-   Soft Bodies only to *Spherical*, *Wind*, *Vortex*
+   soft bodies only to *Spherical*, *Wind*, *Vortex*
    (they react on *Harmonic* fields but not in a useful way).
 
 

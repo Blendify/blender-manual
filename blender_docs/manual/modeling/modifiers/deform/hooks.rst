@@ -30,7 +30,7 @@ Options
 Object
    The name of the object to hook vertices to.
 Vertex Group
-   Allows you to define the influence per-vertex.
+   Allows you to define the influence per vertex.
 
    Useful when you do not something other than a spherical field of influence.
 Radius

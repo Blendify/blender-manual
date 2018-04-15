@@ -46,6 +46,6 @@ Parametric
 Backfacing
    1.0 if the face is being viewed from the back side, 0.0 for the front side.
 Pointiness
-   An approximation of the curvature of the mesh per-vertex.
+   An approximation of the curvature of the mesh per vertex.
    Lighter values indicate convex angles, darker values indicate concave angles.
    It allows you to do effects like dirt maps and wear-off effects.
