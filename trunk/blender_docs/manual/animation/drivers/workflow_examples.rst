@@ -161,12 +161,12 @@ it allows you to have more complex relationships between your shape keys.
    * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-2a.png
           :width: 320px
 
-          Key2a shape key.
+          Key2A shape key.
 
      - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-2b.png
           :width: 320px
 
-          Key2b shape key.
+          Key2B shape key.
 
 The Basis shape key has the stacks fully retracted. Key1 has the base fully extended.
 Key2A has the left stack fully extended. Key2B has the right stack fully extended.

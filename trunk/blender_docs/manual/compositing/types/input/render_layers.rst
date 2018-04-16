@@ -23,7 +23,7 @@ Properties
 ==========
 
 Scene
-   Select the within your blend-file. The scene information taken is the raw footage
+   Select the scene within your blend-file. The scene information taken is the raw footage
    (pre-compositing and pre-sequencing).
 
    .. hint::
