@@ -28,14 +28,14 @@ The only requirement is Python 3 (and pip, the Python package manager, to easily
 Windows, Linux and macOS provide different ways to install Python 3 and pip.
 Check out the online docs to learn more about a specific platform.
 
-Once Python 3 and pip are available, BAM can be installed via command line by typing:
+Once Python 3 and pip3 are available, BAM can be installed via command line by typing:
 
 .. code-block:: bash
 
    pip3 install blender-bam
 
 After a successful installation, the ``bam`` command will be available.
-By typing it and pressing the Enter key, all the available subcommands will be displayed.
+By typing it and pressing :kbd:`Enter`, all the available subcommands will be displayed.
 
 
 bam pack
