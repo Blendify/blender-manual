@@ -244,7 +244,7 @@ Thickness
    The Thickness Brush can be used to increase (Add) or decrease (Subtract) the thickness of
    the parts of the stroke under the cursor.
 Strength
-   Increase/decrease (:kbd:`Ctrl`) the alpha value of the stroke, E.g. for creating fading effects.
+   Increase/decrease (:kbd:`Ctrl`) the alpha value of the stroke. E.g. for creating fading effects.
 Grab
    Takes the stroke points which fall within the brush circle when the sculpting action begins,
    and allows you to translate this set of points.
@@ -277,7 +277,7 @@ Clone Brush
 
    Use Falloff
       When the *Use Falloff* option is enabled, instead of moving all the newly pasted strokes by the same amount,
-      only the points that are currently under the cursor get affected. Thus, this in this mode of operation,
+      only the points that are currently under the cursor get affected. Thus, in this mode of operation,
       the brush is closer to a Paste and Push operation instead ("Stamp and Smudge").
 
    .. Ed: not available any more? 2.78
