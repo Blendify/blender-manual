@@ -16,7 +16,7 @@ compared to the traditional method:
   (weighting their respective influence with the *Influence* slider).
 - As with any constraint, you can key (i.e. animate) its Influence setting.
   This allows the object which has a Child Of constraint upon it to change over time which
-  target object will be considered the parent, and therefore have influence over the Child Of constrained object.
+  target object will be considered the parent, and therefore have influence over it.
 
   .. important::
 
@@ -36,7 +36,7 @@ Options
 
 Target
    The target object that this object will act as a child of.
-   :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
+   :ref:`ui-data-id` used to select the constraint's target, and is not functional (red state) when it has none.
 Location X, Y, Z
    Each of these buttons will make the parent affect or not affect the location along the corresponding axis.
 Rotation X, Y, Z
@@ -69,7 +69,7 @@ and before transforming the target/parent (see example below).
 About the toggle buttons that control which target's (i.e. parent's)
 individual transform properties affect the owner,
 it is usually best to leave them all enabled, or to disable all three of the given Location,
-Rotation or Scale transforms.
+Rotation and Scale transforms.
 
 
 Technical Note
