@@ -249,7 +249,7 @@ Setting Case
 ------------
 
 You can change the text case by selecting it then clicking the *To Upper* or
-*To Lower* in the Tool shelf.
+*To Lower* in the Tool Shelf.
 
 Enable the *Small Caps* option to type characters as small caps.
 

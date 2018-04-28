@@ -30,7 +30,7 @@ Markers can be created and edited in the following editors:
 Types
 =====
 
-Next to the standard markers *Pose markers* are another type of markers,
+Next to the standard markers *pose markers* are another type of markers,
 which are specific to armatures and shape keys.
 They are used to denote poses in the Action Editor mode and Shape Keys Editor of Dope Sheet.
 
@@ -245,7 +245,7 @@ Show Pose Markers
    :Mode:      Action Editor and Shape Keys Editor
    :Menu:      :menuselection:`Marker --> Show Pose Markers`
 
-Only Pose markers are shown and editable in Action editor or Shape Keys editor by enabling
+Only pose markers are shown and editable in Action editor or Shape Keys editor by enabling
 the :menuselection:`Marker --> Show Pose Markers` checkbox.
 
 
@@ -258,7 +258,7 @@ Make Markers Local
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Make Markers Local`
 
-It is possible to convert standard markers into Pose markers with :menuselection:`Marker --> Make Markers Local`.
+It is possible to convert standard markers into pose markers with :menuselection:`Marker --> Make Markers Local`.
 Note that the original marker will be gone. If you want to keep it, make a duplicate before you convert.
 
 
@@ -271,7 +271,7 @@ Jump to Next/Previous Marker
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Jump to Next/Previous Marker`
 
-Moves the Time Cursor to the next/previous marker relative to the current Time Cursor position.
+Moves the time cursor to the next/previous marker relative to the current time cursor position.
 
 
 .. _marker-bind-camera:

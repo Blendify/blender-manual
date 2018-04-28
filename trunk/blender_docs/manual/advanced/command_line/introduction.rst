@@ -94,7 +94,7 @@ Blender and then a short while later after opening a file along with the relevan
 Console Window Status and Error Messages
 ========================================
 
-The *Blender Console Window* can display many different types of Status and Error Messages.
+The *Blender Console Window* can display many different types of status and error messages.
 Some messages simply inform the user what Blender is doing, but have no real impact on Blender's ability to function.
 Other messages can indicate serious errors that will most likely prevent Blender carrying out a particular task and
 may even make Blender non-responsive or shut down completely. The *Blender Console Window* messages can

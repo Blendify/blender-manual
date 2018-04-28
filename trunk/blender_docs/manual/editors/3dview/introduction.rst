@@ -94,7 +94,7 @@ OpenGL Render
 Tool Shelf
 ==========
 
-The Tool shelf is a context-sensitive region containing tools depending on the current mode
+The Tool Shelf is a context-sensitive region containing tools depending on the current mode
 (for example, modeling tools in *Edit Mode*, brush tools in *Sculpt Mode*...).
 
 For more information on specific tools available, see:

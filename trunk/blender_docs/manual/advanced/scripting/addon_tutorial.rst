@@ -43,7 +43,7 @@ While going through the tutorial, you may want to look into our reference docume
 
 - :ref:`blender_api:Blender API Overview <info_overview>`. -
   *This document is rather detailed but helpful if you want to know more on a topic.*
-- :mod:`blender_api:bpy.context` api reference. -
+- :mod:`blender_api:bpy.context` API reference. -
   *Handy to have a list of available items your script may operate on.*
 - :class:`blender_api:bpy.types.Operator`. -
   *The following add-ons define operators, these docs give details and more examples of operators.*
@@ -202,7 +202,7 @@ restrictions that apply to Python modules and end with a ``.py`` extension.
 Once the file is on disk, you can install it as you would for an add-on downloaded online.
 
 Open the user :menuselection:`File --> User Preferences`,
-Select the *Add-on* section, press *Install Add-on...* and select the file.
+select the *Add-on* tab, press *Install Add-on...* and select the file.
 
 Now the add-on will be listed and you can enable it by pressing the checkbox,
 if you want it to be enabled on restart, press *Save as Default*.
@@ -293,7 +293,7 @@ allows vectors to be multiplied by numbers and matrices.
 If you are interested in this area, read into :class:`blender_api:mathutils.Vector`
 -- there are many handy utility functions such as getting the angle between vectors,
 cross product, dot products as well as more advanced functions in :mod:`blender_api:mathutils.geometry`
-such as Bézier Spline interpolation and ray-triangle intersection.
+such as Bézier spline interpolation and ray-triangle intersection.
 
 For now we will focus on making this script an add-on, but it's good to know that this
 3D math module is available and can help you with more advanced functionality later on.

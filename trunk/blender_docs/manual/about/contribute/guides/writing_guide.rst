@@ -64,7 +64,7 @@ To be avoided:
   Issues which are known to the developers and are not going to be resolved before the next release
   can be documented as *Known Limitations*.
   In some cases, it may be best to include them in the :doc:`troubleshooting </troubleshooting/index>` section.
-- Avoid Product Placements, i.e. unnecessarily promoting software or hardware brands.
+- Avoid product placements, i.e. unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
   if there is a simpler way to explain it.
@@ -99,7 +99,7 @@ where we define common terms in Blender and computer graphics.
 Rules of thumb:
 
 - Define the term before providing any further information.
-- Avoid using constructs such as "It is" or "xyz is" before the definition.
+- Avoid using constructs such as "it is" or "xyz is" before the definition.
 - Avoid repeating the term immediately or using it in the definition.
 - Avoid adding terms not found in Blender's interface or the manual.
 - Avoid overly long entries.

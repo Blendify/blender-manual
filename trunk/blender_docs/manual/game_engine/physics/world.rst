@@ -116,7 +116,7 @@ Simulation used for obstacle avoidance in the Game Engine,
 based on the RVO (Reciprocal Velocity Obstacles) principle.
 The aim is to prevent one or more actors colliding with obstacles.
 
-See `Path finding and steering behaviors <https://wiki.blender.org/index.php/User:Nicks/Gsoc2010/Docs>`__
+See `Pathfinding and steering behaviors <https://wiki.blender.org/index.php/User:Nicks/Gsoc2010/Docs>`__
 for more details.
 
 Type

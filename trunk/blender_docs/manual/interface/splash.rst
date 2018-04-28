@@ -29,7 +29,7 @@ Date
 Hash
    The Git Hash. This can be useful to give to support personnel, when diagnosing a problem.
 Branch
-   Optional branch id.
+   Optional branch ID.
 
 Interaction
    Key configuration the same as :menuselection:`User Preferences --> Input`.
