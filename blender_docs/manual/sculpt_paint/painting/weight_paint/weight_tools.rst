@@ -394,7 +394,7 @@ Open the Tool Shelf and locate the Weight Tools panel.
 From there call the "Transfer weights" tool.
 The tool will initially copy all vertex groups from the source objects.
 However, the tool also has an Operator panel
-(which appears at the bottom of the tool shelf).
+(which appears at the bottom of the Tool Shelf).
 From the Operator panel you can change the parameters to meet your needs.
 (The available Operator parameters are documented below).
 

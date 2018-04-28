@@ -61,11 +61,11 @@ Exit *Edit Mode*
    :kbd:`Tab` does not insert a tab character in the text,
    but rather enters and exits *Edit Mode*, as with other object types.
 Copy
-   To copy text to the buffer, use :kbd:`Ctrl-C` or the *Copy* button in the tool shelf.
+   To copy text to the buffer, use :kbd:`Ctrl-C` or the *Copy* button in the Tool Shelf.
 Cut and Copy
-   To cut and copy text to the buffer, use :kbd:`Ctrl-X` or the *Cut* button in the tool shelf.
+   To cut and copy text to the buffer, use :kbd:`Ctrl-X` or the *Cut* button in the Tool Shelf.
 Paste
-   To paste text from the buffer, use :kbd:`Ctrl-V` or the *Paste* button in the tool shelf.
+   To paste text from the buffer, use :kbd:`Ctrl-V` or the *Paste* button in the Tool Shelf.
 Delete all text
    To completely erase or delete all text, use :kbd:`Ctrl-Backspace`.
 

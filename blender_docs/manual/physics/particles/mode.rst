@@ -67,7 +67,7 @@ or that you do not like the latest changes you have made.
 
 .. tip:: To be able to clearly see what you are working on:
 
-   #. Open the Options panel in the Tool shelf.
+   #. Open the Options panel in the Tool Shelf.
    #. Select *Point select mode* (see below) in the header of the 3D View.
       This will display key points along the particle path.
 

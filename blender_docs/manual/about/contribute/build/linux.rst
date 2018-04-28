@@ -18,7 +18,7 @@ but the next time you build it should only take a few seconds.
 Viewing the Local Manual
 ========================
 
-Once the docs have been built, all the html files can be found inside ``~/blender_docs/build/html``.
+Once the docs have been built, all the HTML files can be found inside ``~/blender_docs/build/html``.
 Try opening ``build/html/contents.html`` in your web browser and read the manual::
 
    xdg-open build/html/contents.html

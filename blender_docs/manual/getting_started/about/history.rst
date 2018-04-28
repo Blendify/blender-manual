@@ -245,7 +245,7 @@ Version/Revision Milestones
    Grease Pencil works more similar to other 2D drawing softwares,
    Alembic import and export support, and improvements to Bendy Bones for easier and simpler rigging.
 `2.79 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.79>`__ -- September 2017:
-   New cycles features: Denoising, Shadow catcher, and new Principled shader.
+   New Cycles features: Denoising, Shadow catcher, and new Principled shader.
    Other improvements were made to Grease Pencil and Alembic. Support was also added for application templates.
 
 

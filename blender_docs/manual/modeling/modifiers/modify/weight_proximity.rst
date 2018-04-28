@@ -153,7 +153,7 @@ Example
 
 In this example let us dynamically control a Wave Modifier with a modified vertex group:
 
-#. Add a *Grid* mesh with (100×100) x/y subdivisions and a 5 BU Radius.
+#. Add a *Grid* mesh with (100×100) X/Y subdivisions and a 5 BU Radius.
 #. Switch to *Edit Mode* :kbd:`Tab`, and in the *Object Data* properties, *Vertex Groups* panel,
    add a vertex group. Assign to it all your mesh's vertices with 1.0 weight.
 #. Go back to *Object Mode*. Then, go to the *Modifiers* properties, and add a Vertex Weight Proximity Modifier.

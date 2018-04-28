@@ -9,7 +9,7 @@ Adding/Removing/Moving Files
 
 When RST-files are added or removed the corresponding locale files
 are added or removed automatically by the update script.
-However, if files need to be moved please use this python script::
+However, if files need to be moved please use this Python script::
 
    python tools_rst/rst_remap.py start
 

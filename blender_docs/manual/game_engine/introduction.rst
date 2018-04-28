@@ -54,7 +54,7 @@ There are a number of powerful libraries the Game Engine takes advantage of:
 
 - Audaspace: A sound library for control of audio. Uses OpenAL or SDL.
 - Bullet: A physics engine featuring 3D collision detection, soft body dynamics, and rigid body dynamics.
-- Detour: A path finding and spatial reasoning toolkit.
+- Detour: A pathfinding and spatial reasoning toolkit.
 - Recast: A state of the art navigation mesh construction tool set for games.
 
 When creating a game or simulation in the BGE, there are four essential steps:

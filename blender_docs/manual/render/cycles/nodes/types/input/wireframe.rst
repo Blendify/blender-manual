@@ -9,8 +9,8 @@ Wireframe Node
 
    Wireframe Node.
 
-The *Wireframe* node is used to retrieve the edges of an object as it appears to cycles.
-As meshes are triangulated before being processed by cycles,
+The *Wireframe* node is used to retrieve the edges of an object as it appears to Cycles.
+As meshes are triangulated before being processed by Cycles,
 topology will always appear triangulated when viewed with the *Wireframe node*.
 
 

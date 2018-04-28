@@ -241,5 +241,5 @@ Radiance is a suite of tools for lighting simulation.
 Since Radiance had the first (and for a long time the only) HDR image format,
 this format is supported by many other software packages.
 
-Radiance (.hdr) files store colors still in 8 bits per component, but with an additional
+Radiance ``.hdr`` files store colors still in 8 bits per component, but with an additional
 (shared) 8 bits exponent value, making it 32 bits per pixel.
