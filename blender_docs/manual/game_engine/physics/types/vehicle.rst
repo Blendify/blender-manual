@@ -114,3 +114,13 @@ The second part is to *compute the movement* according to your functions::
    logic.car["force"] *= 0.9
 
 Both should be run each frame.
+
+
+Example
+-------
+
+The following demo file has a minimal drivable car and was taken from the book:
+"Game Development with Blender" by Dalai Felinto and Mike Pan.
+
+`vehicle_controller_demo.zip <http://download.blender.org/documentation/GE/vehicle_controller_demo.zip>`__
+(last update 9 September 2014, tested with Blender 2.71)
