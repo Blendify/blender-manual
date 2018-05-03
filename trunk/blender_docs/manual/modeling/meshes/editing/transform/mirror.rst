@@ -21,7 +21,7 @@ After this tool becomes active, select an axis to mirror the selection
 on entering :kbd:`X`, :kbd:`Y`, or :kbd:`Z`.
 
 You can also interactively mirror the geometry by holding the :kbd:`MMB` and dragging in
-the direction of the desired mirror direction.
+the desired mirror direction.
 
 
 Axis of Symmetry
