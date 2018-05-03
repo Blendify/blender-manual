@@ -42,5 +42,4 @@ Value
 Usage
 =====
 
-One important use case is to easily map the Z-depth channel from its original range
-to a more usable range (i.e: 0.0 - 1.0) for use as a matte for colorization or filtering operations.
+One important use case is to easily map the original range of the Z-depth channel to a more usable range (i.e: 0.0 - 1.0) for use as a matte for colorization or filtering operations.
