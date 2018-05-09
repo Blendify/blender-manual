@@ -113,7 +113,8 @@ View
       Intended for inspecting the image but not for final export.
       Log works similar to Raw but gives a more "flat" view of the image without very dark or light areas.
 Exposure
-   Used to control the image brightness (in stops) applied before color space conversion. :math:`2^(stops) × value`
+   Used to control the image brightness (in stops) applied before color space conversion.
+   It is calculated as follows: :math:`output\_value = render\_value × 2^{(exposure)}`
 Gamma
    Extra gamma correction applied after color space conversion. Note that the default sRGB or Rec709 color space
    conversions already include a gamma correction of approximately 2.2 (except the *Raw* and *Log* views),
