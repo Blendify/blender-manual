@@ -197,7 +197,7 @@ Misc Options
 ============
 
 ``--factory-startup``
-   Skip reading the startup.blend in the users home directory.
+   Skip reading the startup.blend in the user's home directory.
 
 ``--env-system-datafiles``
    Set the ``BLENDER_SYSTEM_DATAFILES`` environment variable.

@@ -196,7 +196,7 @@ you will want to be able to install it so it can be enabled in the User Preferen
 
 Even though the add-on above is a test, let's go through the steps anyway so you know how to do it for later.
 
-To install the Blender text as an add-on, you will first have to save it to disk, take care to obey the naming
+To install the Blender text as an add-on, you will first have to save it to disk. Take care to obey the naming
 restrictions that apply to Python modules and end with a ``.py`` extension.
 
 Once the file is on disk, you can install it as you would for an add-on downloaded online.
@@ -569,8 +569,8 @@ for common tasks that you can expand on to write your own tools.
 Further Reading
 ---------------
 
-Blender comes with commented templates which are accessible from the Text editor's header,
-if you have specific areas you want to see example code for, this is a good place to start.
+Blender comes with commented templates which are accessible from the Text editor's header.
+If you have specific areas you want to see example code for, this is a good place to start.
 
 Here are some sites you might like to check on after completing this tutorial.
 
