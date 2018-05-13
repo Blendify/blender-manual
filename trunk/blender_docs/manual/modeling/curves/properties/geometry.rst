@@ -274,4 +274,4 @@ In Fig. :ref:`fig-curves-extrude-taper3` we see the use of a more irregular tape
 
 .. figure:: /images/modeling_curves_properties_geometry_extrude-bevel-curve-tilt.png
 
-   Bevel extrusion with *Tilt* example.
+   Bevel extrusion with Tilt example.

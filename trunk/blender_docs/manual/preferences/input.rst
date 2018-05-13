@@ -78,7 +78,7 @@ Double Click
    The Mouse emulate option is only available if *Select With* is set to *Right*.
 
 
-Numpad Emulation
+Emulate Numpad 
 ----------------
 
 The Numpad keys are used quite often in Blender and are not the same keys as the regular
@@ -142,8 +142,8 @@ Navigation Mode
    The default navigation mode for :kbd:`Shift-F` in the 3D View.
 
 
-Walk
-^^^^
+Walk Navigation
+---------------
 
 Reverse Mouse
    Inverts the mouse's Y movement.

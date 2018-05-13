@@ -212,11 +212,11 @@ If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging
 Lasso Select
 ------------
 
-Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso select tool* in *Vertex Select Mode*.
+Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso Select tool* in *Vertex Select Mode*.
 
 .. _fig-mesh-select-basic-lasso:
 
-.. list-table:: Lasso select example.
+.. list-table:: Lasso Select example.
 
    * - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select1.png
           :width: 200px

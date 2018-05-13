@@ -34,7 +34,7 @@ This tool applies an alternating selected/deselected checker pattern.
 This only works if you already have more than one mesh element selected.
 
 Nth Selection
-   Using the current selection, it will deselected every nth element.
+   Using the current selection, it will deselect every nth element.
 Skip
    Number of steps to skip the pattern and keep selected.
 Offset

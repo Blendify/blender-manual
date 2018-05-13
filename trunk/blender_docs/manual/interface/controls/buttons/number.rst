@@ -32,8 +32,7 @@ Text Input
    - Press :kbd:`Return` or :kbd:`LMB` outside the field to apply the change.
    - Press :kbd:`Esc` or :kbd:`RMB` will cancel the value.
    - Press :kbd:`Tab` to jump to the next number button or :kbd:`Ctrl-Tab` for the previous.
-
-Press :kbd:`Minus` while hovering over the button to negate the value.
+   - Press :kbd:`Minus` while hovering over the button to negate the value.
 
 
 Multi-Value Editing
