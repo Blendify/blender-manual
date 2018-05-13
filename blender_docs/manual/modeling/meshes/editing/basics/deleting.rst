@@ -125,7 +125,7 @@ Dissolve (Context-Sensitive)
 
    :Hotkey:    :kbd:`Ctrl-X`
 
-This is a convenience shortcut that dissolves
+This is a convenient shortcut that dissolves
 based on the current selection mode (vertex, edge, face).
 
 
