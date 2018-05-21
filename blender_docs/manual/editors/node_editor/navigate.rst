@@ -10,7 +10,7 @@ Pan :kbd:`MMB`
 Zoom :kbd:`Ctrl-MMB`, :kbd:`Wheel`
    Move the camera forwards and backwards.
 View Selected
-   :kbd:`Period`
+   :kbd:`NumpadPeriod`
 View All
    :kbd:`Home`
 

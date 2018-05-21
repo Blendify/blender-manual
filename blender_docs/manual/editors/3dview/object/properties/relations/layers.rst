@@ -74,7 +74,7 @@ To select layers via the keyboard, press :kbd:`1` to :kbd:`0`
 and :kbd:`Alt-1` to :kbd:`Alt-0` for layers 11 through 20 (the bottom row).
 Use :kbd:`Shift` for multiple (de)selection works for these shortcuts too.
 
-You can select or deselect all Scene Layer buttons at once by pressing :kbd:`\\`.
+You can select or deselect all Scene Layer buttons at once by pressing :kbd:`Backtick`.
 
 
 Locking to the Scene

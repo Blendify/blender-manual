@@ -62,7 +62,7 @@ Active Vertex Group
          Lock all groups.
       Unlock All
          Unlock all groups.
-      Lock_Invert All
+      Lock Invert All
          Invert Group Locks.
 
 

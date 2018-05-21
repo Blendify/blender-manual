@@ -39,7 +39,7 @@ Removing from Group :kbd:`Ctrl-Alt-G`
    Remove the selected objects from a group.
    If the object belongs to more one group a pop-up lets you select the group and
    an option to remove it from all groups.
-Removing from All Groups :kbd:`Ctrl-Alt-G`
+Removing from All Groups :kbd:`Shift-Ctrl-Alt-G`
    Remove the selected objects from all group.
 Add Selected to Active Group :kbd:`Shift-Ctrl-G`
    Adds the selected objects to the groups to which the active object belongs.
