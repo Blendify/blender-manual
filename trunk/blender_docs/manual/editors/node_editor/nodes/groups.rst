@@ -139,6 +139,14 @@ Ungroup
 The :kbd:`Alt-G` tool removes the group and places the individual nodes into your editor workspace.
 No internal connections are lost, and now you can thread internal nodes to other nodes in your workspace.
 
+Separate :kbd:`P`
+   Separate selected nodes from the node group.
+
+   Copy
+      Copy to parent node tree, keep group intact.
+   Move
+      Move to parent node tree, remove from group.
+
 
 Group Insert
 ============

@@ -24,6 +24,3 @@ For making other changes to the geometry of editable objects, you should use *Ed
 Once you have added a basic object, you remain in *Object Mode*.
 You can switch between *Object Mode* and *Edit Mode* by pressing :kbd:`Tab`.
 The object's wireframe should now appear orange. This means that the object is now selected and active.
-
-The Fig. Selected object image shows both the solid view and wireframe view of the default cube.
-To switch between wireframe and solid view, press :kbd:`Z`.

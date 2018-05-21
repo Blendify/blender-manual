@@ -212,6 +212,8 @@ If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging
 Lasso Select
 ------------
 
+To activate the tool use the :kbd:`Ctrl-LMB` while dragging.
+
 Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso Select tool* in *Vertex Select Mode*.
 
 .. _fig-mesh-select-basic-lasso:

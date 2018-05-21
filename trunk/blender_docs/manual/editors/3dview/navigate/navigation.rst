@@ -26,14 +26,14 @@ Orbit
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Orbit`
    :Hotkey:    :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
-               :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
+               :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`, :kbd:`Shift-Alt-Wheel`
 
 Rotate the view around the point of interest.
 Click and drag :kbd:`MMB` on the viewport's area.
 If you start in the middle of the area and move up and down or left and right,
 the view is rotated around the middle of the area.
 
-To change the viewing angle in discrete steps, use :kbd:`Numpad8` and :kbd:`Numpad2`
+To change the viewing angle in discrete steps, use :kbd:`Numpad8` and :kbd:`Numpad2` or :kbd:`Shift-Alt-Wheel`
 (which correspond to vertical :kbd:`MMB` dragging, from any viewpoint),
 or use :kbd:`Numpad4` and :kbd:`Numpad6` (or :kbd:`Ctrl-Alt-Wheel`)
 to rotate the scene around the global Z axis from your current point of view.

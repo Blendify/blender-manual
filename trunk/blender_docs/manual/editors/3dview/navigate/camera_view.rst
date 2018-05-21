@@ -103,6 +103,6 @@ Sideways Tracking
 .. seealso::
 
    :ref:`Fly/Walk Mode <3dview-walk-fly>`
-      When you are in walk/fly mode, navigation actually moves your camera:
+      When you are in walk/fly mode, navigation actually moves your camera.
    :ref:`Lock Camera to View <3dview-lock-camera-to-view>`
       When enabled, performing typical view manipulation operations will move the camera object.
