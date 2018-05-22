@@ -12,14 +12,14 @@ Bendy Bones
    :Panel:     :menuselection:`Bone --> Bendy Bones`
 
 Bendy Bones (B-Bones) are an easy way to replace long chains of many small rigid bones.
-A common use case for curve bones is to model spine columns or facial bones.
+A common use case for curved bones is to model spine columns or facial bones.
 
 
 Technical Details
 =================
 
 Blender treats the bone as a section of a Bézier curve passing through the bones' joints.
-Each *Segments* will bend and roll the to follow this invisible curve
+Each *Segments* will bend and roll them to follow this invisible curve
 representing a tessellated point of the Bézier curve.
 The control points at each end of the curve are the endpoints of the bone.
 The shape of the B-Bones can be controlled using a series of properties or
