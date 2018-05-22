@@ -24,11 +24,11 @@ Stroke Method :kbd:`E`
 
       Spacing
          Represents the percentage of the brush radius.
-         Limit brush application to the distance specified by spacing.
+     Limits brush application to the distance specified by spacing.
    Airbrush
       Flow of the brush continues as long as the mouse click is held (spray),
       determined by the *Rate* setting.
-      With others methods the brush only modifies the color when the brush changes its location.
+      With other methods the brush only modifies the color when the brush changes its location.
       This option is not available for the *Grab* sculpting brush.
 
       Rate
@@ -38,7 +38,7 @@ Stroke Method :kbd:`E`
       Clicking and dragging will resize the dab diameter.
 
       Edge to Edge
-         The brush location and orientation is determined by a two point circle,
+         The brush location and orientation are determined by a two point circle,
          where the first click is one point, and dragging places the second point, opposite from the first.
    Line
       Clicking and dragging lets you define a line in screen space.

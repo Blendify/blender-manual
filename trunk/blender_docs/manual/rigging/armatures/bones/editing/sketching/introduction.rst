@@ -35,7 +35,7 @@ Sketching is done in two steps:
    using different methods.
 
 The *point of view* is important, as it determines the future bones' roll angle:
-the Z axis of a future bone will be aligned with the view Z axis of the 3D View in
+the Z axis of a future bone will be aligned with the Z axis of the 3D View in
 which you draw its "parent" stroke (unless you use the *Template* converting method...).
 Strokes are drawn in the current view plane passing through the 3D cursor,
 but you can create somewhat "3D" strokes using the *Adjust* drawing option in different views (see below).
@@ -59,7 +59,7 @@ So, each stroke you draw will be a chain of bones, oriented from the starting po
 A stroke is made of several segments, delimited by small black dots.
 There will be at least one bone per segment (except with the
 :ref:`Template <rigging-armatures-bones-editing-sketching-converting-templating>` conversion method),
-so all black points represents future bones' joints.
+so all black points represent future bones' joints.
 There are two types of segments, which can be mixed together:
 
 .. _fig-stroke-example:
@@ -168,7 +168,7 @@ of the *Bone Sketching* panel. This will modify the behavior of the strokes draw
 (i.e. :kbd:`LMB` clicks and/or hold): when you draw, you will not create a new stroke,
 but rather modify the nearest one.
 
-The part of the old stroke that will be replaced by the new one are drawn in gray.
+The part of the old stroke that will be replaced by the new one is drawn in gray.
 This option does not take into account stroke selection, i.e.
 all strokes can be modified this way,
 not just the selected ones... Note also that even if it is enabled,

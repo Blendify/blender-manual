@@ -17,7 +17,7 @@ there are some important specificities:
 - Bones' relationships are crucial (see :ref:`bone-relations-parenting`).
 - The "transform center" of a given bone
   (i.e. its default pivot point, when it is the only selected one) is *its root*.
-  Note by the way that some pivot point options seem to not work properly, In fact,
+  Note by the way that some pivot point options seem to not work properly. In fact,
   except for the *3D Cursor* one, all others appear to always use the median point of the selection
   (and not e.g. the active bone's root when *Active Object* is selected, etc.).
 
@@ -198,10 +198,10 @@ Copy/Paste Pose
                :menuselection:`Pose --> Paste X-Flipped Pose`
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
-directly using the three copy/paste buttons found at the right part of the 3D Views header:
+directly using the three copy/paste buttons found at the right part of the 3D View's header:
 
 Copy Current Pose
-   To copy the current pose of selected bones into the pose buffer.
+   Copy the current pose of selected bones into the pose buffer.
 Paste Pose
    Paste the buffered pose to the currently posed armature.
 Paste X-Flipped Pose
@@ -253,7 +253,7 @@ Here are important points:
 
      - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-7.png
 
-          ...pasted on the destination armature...
+          ... pasted on the destination armature...
 
      - .. figure:: /images/rigging_armatures_posing_editing_copy-paste-pose-examples-8.png
 

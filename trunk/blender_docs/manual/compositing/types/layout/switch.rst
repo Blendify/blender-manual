@@ -36,5 +36,5 @@ Image
 
 .. tip::
 
-   Switch state may be animated by adding a :doc:`keyframe </animation/keyframes/introduction>`
+   Switch state may be animated by adding a :doc:`keyframe </animation/keyframes/introduction>`.
    This makes the Switch node useful for bypassing nodes which are not wanted during part of a sequence.

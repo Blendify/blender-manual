@@ -155,7 +155,7 @@ Reassign Inputs
    :Menu:      :menuselection:`Strip --> Reassign Inputs`
    :Hotkey:    :kbd:`R`
 
-This tool can be used to assign (reconnect) effect strips in a different way
+This tool can be used to assign (reconnect) effect strips in a different way.
 Just select three arbitrary strips and press :kbd:`R`.
 If you don't create a cycle, those will be connected to a new effect chain.
 
@@ -187,7 +187,7 @@ Cut (hard) at Frame
    :Menu:      :menuselection:`Strip --> Cut (hard) at Frame`
    :Hotkey:    :kbd:`Shift-K`
 
-Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips,
+Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips ;
 however you will not be able to drag the endpoints to show the frames past the cut of each resulting strip.
 
 Although you can adjust the :ref:`duration (hard) <sequencer-duration-hard>`
