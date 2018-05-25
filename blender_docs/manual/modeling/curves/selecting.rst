@@ -63,14 +63,23 @@ Select Similar
    :Menu:      :menuselection:`Select --> Select Similar`
    :Hotkey:    :kbd:`Shift-G`
 
-ToDo 2.76.
+Selects control points that has similar certain properties to the active one.
+The Operator panel provides several selection options:
 
 Type
-   ToDo 2.76.
+   Type
+      Selects splines that has same Spline Type i.e. Bezier, NURBS or Poly.
+   Radius
+      Selects control points that have a similar Radius values.
+   Weight
+      Selects all points that have a similar Weight values.
+   Direction
+      Selects control points that have a similar handles direction.
+
 Compare
-   ToDo 2.76.
+   Equal, Greater, Less. (only for Radius, Weight) (ToDo 2.76)
 Threshold
-   ToDo 2.76.
+   Precision (ToDo 2.76)
 
 
 Shortest Path
@@ -81,9 +90,10 @@ Shortest Path
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Operator Search --> Pick Shortest Path`
-   :Hotkey:    :kbd:`Ctrl`
+   :Hotkey:    :kbd:`Ctrl-RMB`
 
-ToDo 2.76.
+Selects the curve segments between two control points: the active and the one under the cursor.
+In the case of a closed curve, the shortest path will be selected.
 
 
 Select/Deselect First/Last

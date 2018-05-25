@@ -328,7 +328,7 @@ Face Stepping
    selects edge rings with edges.
 Topological Distance
    Which only takes into account the number of edges of the path and
-   not the length of the edges to calculate the distances,
+   not the length of the edges to calculate the distances.
 Fill Region :kbd:`Shift-Ctrl-RMB`
    Selects all elements in the shortest paths from the active selection to the clicked area.
 Checker Deselect
