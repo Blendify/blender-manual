@@ -91,6 +91,8 @@ Path/Curve-Deform
    Bounds Clamp
       ToDo <2.71.
 
+.. (todo) Bounds Clamp: https://developer.blender.org/rB14fe11bd8118fcd4f5605305cd23cb269d38fc75
+
 .. seealso::
 
    - :doc:`/rigging/constraints/relationship/follow_path`
