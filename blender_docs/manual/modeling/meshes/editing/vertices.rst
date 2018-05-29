@@ -265,15 +265,17 @@ Vertex Slide
    :Hotkey:    :kbd:`Shift-V`
 
 Vertex Slide will transform a vertex along one of its adjacent edges.
-Use :kbd:`Shift-V` to enter tool. Highlight the desired edge by moving the mouse,
-then confirm with :kbd:`LMB`.
-Drag the cursor to specify the position along the line formed by the edge,
-then :kbd:`LMB` again to move the vertex.
+Use :kbd:`Shift-V` to activate tool.
+The nearest selected vertex to the mouse cursor will be the control one.
+Move the mouse along the direction of the desired edge to specify the vertex position.
+Then press :kbd:`LMB` to confirm the transformation.
 
 Even :kbd:`E`
-   ToDo 2.63.
-Flip :kbd:`F`
-   ToDo 2.63.
+   By default, the offset value of the vertices is a percentage of the edges length along which they move.
+   When Even mode is active, the vertices are shifted by an absolute value.
+Flipped :kbd:`F`
+   When Flipped is ON, vertices move the same distance from adjacent vertices,
+   instead of moving from their original position.
 Clamp :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.
 
@@ -350,10 +352,8 @@ Make Holes
 Join Triangles
    Joins adjacent triangles into quads.
    Has all the same properties as the *Tris to Quads* operator (angle limit, compare UVs, etc.).
-Max Face Angle
-   ToDo 2.64.
-Max Shape Angle
-   ToDo 2.64.
+Max Face Angle, Max Shape Angle, Compare
+   See :ref:`mesh-faces-tristoquads`.
 
 
 Make Vertex Parent
