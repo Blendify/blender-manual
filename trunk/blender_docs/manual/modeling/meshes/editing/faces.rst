@@ -112,17 +112,25 @@ Grid Fill
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Fill/Grid Fill`
+   :Menu:      :menuselection:`Mesh --> Faces --> Grid Fill`
 
 *Grid Fill* uses a pair of connected edge loops or a single, closed edge loop to fill in a grid
 that follows the surrounding geometry.
 
+The best predictable result can be achieved if you select two opposite edge loops
+with an equal number of vertices. When single, closed edge loop is selected,
+the Span/Offset options allows you to adjust the way two opposite edge loops
+are detected from one closed edge loop.
+
 Span
-   ToDo 2.68.
+   Specifies the number of columns in the grid.
 Offset
-   ToDo 2.68.
+   Defines the vertex that is considered to be the corner of the grid,
+   by default, it's the active vertex. Offset allows to rotate the grid lines.
 Simple Blending
-   ToDo 2.68.
+   Use a simple interpolation algorithm to generate grid vertices from boundary loops,
+   which doesn't attempt to maintain the shape,
+   useful for flat surfaces or times when keeping the shape gives odd results.
 
 .. list-table::
 

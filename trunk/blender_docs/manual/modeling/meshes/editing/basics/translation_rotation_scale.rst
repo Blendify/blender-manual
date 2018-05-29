@@ -58,7 +58,10 @@ Vertex Data
 -----------
 
 Bevel Weight
-   ToDo.
+   This vertex property, a value between (0.0 to 1.0),
+   is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
+   to control the bevel intensity of the vertices,
+   when the Only Vertices option is active.
 
 
 Edge Data

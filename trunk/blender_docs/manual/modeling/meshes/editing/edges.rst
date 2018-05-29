@@ -121,15 +121,10 @@ of edges (i.e. the selection *must* define a valid loop, see below).
 Even :kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop.
    You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-Wheel` to change the control edge.
-Flip :kbd:`F`
+Flipped :kbd:`F`
    When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match.
 Clamp :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.
-
-In *Proportional* mode, :kbd:`Wheel`, or :kbd:`Left` and :kbd:`Right`
-changes the selected edge for calculating a proportion.
-Unlike *Percentage* mode, *Proportional*
-
 Factor
    Determines the amount of slide performed.
    Negative values correspond to slides toward one face, while positive ones, refer to the other one.
@@ -198,7 +193,7 @@ Invalid selections are:
 
 Loop crosses itself
    This means that the tool could not find any suitable faces that were adjacent to the selected edge(s).
-   Fig. Loop crosses is an example that shows this by selecting two edges that share the same face.
+   An example that shows this is selecting two edges that share the same face.
    A face cannot be adjacent to itself.
 Multiple edge loops
    The selected edges are not in the same edge loop, which means they do not have a common edge.
