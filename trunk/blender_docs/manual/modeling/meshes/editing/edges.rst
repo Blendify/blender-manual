@@ -39,7 +39,7 @@ Mark Seam and Clear Seam
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode (Vertex or Edge select modes)
+   :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam`
 
 Seams are a way to create separations, "islands", in UV maps.
@@ -53,7 +53,7 @@ Mark Sharp and Clear Sharp
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode (Vertex or Edge select modes)
+   :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
 
 The *Sharp* flag is used by the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`,
@@ -69,7 +69,7 @@ Adjust Bevel Weight
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode (Vertex or Edge select modes)
+   :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Edge Bevel Weight`
 
 This edge property, a value between (0.0 to 1.0),
@@ -88,7 +88,7 @@ Edge Crease
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode (Vertex or Edge select modes)
+   :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Edge Crease`
    :Hotkey:    :kbd:`Shift-E`
 
@@ -111,7 +111,7 @@ Edge Slide
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode (Vertex or Edge select modes)
+   :Mode:      Edit Mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> Mesh Tools --> Deform: Slide Edge`
    :Menu:      :menuselection:`Mesh --> Edges --> Slide Edge`
 
@@ -219,7 +219,7 @@ Rotate Edge
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode (Vertex or Edge select modes)
+   :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
 
 Rotating an edge clockwise (CW) or counter-clockwise (CCW) spins an edge between two faces around their vertices.
@@ -243,11 +243,11 @@ The tool operates on selected edges or the shared edge between selected faces.
 Using Face Selection
 --------------------
 
-To rotate an edge based on faces you must select face pairs, Fig. Adjacent selected faces,
+To rotate an edge based on faces you must select adjacent face pairs,
 otherwise Blender notifies you with an error message,
-``"ERROR: Could not find any select edges that can be rotated"``. Using either *Rotate Edge CW*
+*"Could not find any select edges that can be rotated"*. Using either *Rotate Edge CW*
 or *Rotate Edge CCW* will produce exactly the same results as if you had
-selected the common edge shown in Fig. Selected edge rotated CW and CCW.
+selected the common edge.
 
 
 Edge Split

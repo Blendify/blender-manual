@@ -21,8 +21,8 @@ Interactively places new vertices with :kbd:`Ctrl-LMB` at the cursor position.
 Creating Vertices
 -----------------
 
-The most basic element, a vertex, can be added with a left button mouse click while pressing :kbd:`Ctrl`
-when no other vertices are selected, or :kbd:`Ctrl-LMB`.
+The most basic element, a vertex, can be added with a :kbd:`Ctrl-LMB` click
+when no other vertices are selected.
 Because the camera space (computer screen) is two-dimensional,
 Blender cannot determine all three vertex coordinates from a single mouse click,
 so the new vertex is placed at the depth of the 3D cursor.
@@ -32,7 +32,6 @@ operations with the last vertex selected.
 This will link the last selected vertex with the vertex created at the mouse position with an edge
 (See Fig. :ref:`fig-mesh-basics-add-one`),
 and will continuously create and connect new vertices if you continue repeating this operation.
-(see Fig. 3 Creating simple connected vertices with :kbd:`Ctrl-LMB`).
 
 .. _fig-mesh-basics-add-one:
 
@@ -52,7 +51,7 @@ Creating Faces
 
    Quad from an Edge with source automatically rotated.
 
-If you have two vertices selected and already connected with an edge, left-click while pressing :kbd:`Ctrl-LMB`
+If you have two vertices selected and already connected with an edge, :kbd:`Ctrl-LMB` click
 will create a planar face, also known as a quad. Blender will follow your mouse cursor
 and will use the planar view from your viewport to create those quads.
 
@@ -67,15 +66,11 @@ you can also inhibit Blender from rotating sources using the shortcut :kbd:`Shif
 In this case, Blender will not rotate the source dividing the angle between those edges when creating a face.
 
 For both cases, Blender will inform the user about the source rotation during the creation process.
-If you look at the bottom of the Mesh Tools Panel and press :kbd:`Ctrl-LMB`,
+If you look at the Operator Panel and press :kbd:`Ctrl-LMB`,
 you will see that the Rotate Source is automatically checked and if :kbd:`Shift-Ctrl-LMB` is used,
 it will be automatically unchecked.
-Examples:
 
-- Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. Faces created with source automatically rotated).
-- Creating Faces with shortcut :kbd:`Shift-Ctrl-LMB`, (see Fig. Faces created with no source rotation).
-
-If you have three or more vertices selected, and left-click with mouse while pressing :kbd:`Ctrl-LMB`,
+If you have three or more vertices selected, and :kbd:`Ctrl-LMB` click,
 you will also create planar faces, but along the vertices selected, following the direction of the cursor.
 This operation is similar to an extrude operation,
 which is explained in the :doc:`Extrude </modeling/meshes/editing/duplicating/extrude>` page.

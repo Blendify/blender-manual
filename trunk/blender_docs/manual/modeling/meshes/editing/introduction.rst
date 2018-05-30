@@ -12,7 +12,7 @@ as well as individual shortcut keys.
 
 .. note::
 
-   All the "transform precision/snap" keys :kbd:`Ctrl` and/ or :kbd:`Shift`
+   All the "transform precision/snap" keys :kbd:`Ctrl` and/or :kbd:`Shift`
    work also for all these advanced operations... However, most of them do not have
    :doc:`axis locking </editors/3dview/object/editing/transform/control/precision/axis_locking>` possibilities,
    and some of them do not take into account

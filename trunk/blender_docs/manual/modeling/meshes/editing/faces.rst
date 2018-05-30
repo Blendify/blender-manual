@@ -48,11 +48,14 @@ Fill
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
+   :Menu:      :menuselection:`Mesh --> Faces --> Fill`
    :Hotkey:    :kbd:`Alt-F`
 
 The *Fill* option will create *triangular* faces from any group of selected edges
 or vertices, as long as they form one or more complete perimeters.
+
+Beauty
+   Arrange the new triangles nicely.
 
 .. figure:: /images/modeling_meshes_editing_faces_fill.png
    :width: 300px
@@ -74,17 +77,17 @@ Note, unlike creating n-gons, *Fill* supports holes.
           Filled using fill.
 
 
-Beauty Fill
------------
+Beautify Faces
+--------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
+   :Menu:      :menuselection:`Mesh --> Faces --> Beautify Faces`
    :Hotkey:    :kbd:`Shift-Alt-F`
 
-*Beautify Fill* works only on selected existing faces.
+*Beautify Faces* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
 
 Max Angle
@@ -100,7 +103,7 @@ Max Angle
      - .. figure:: /images/modeling_meshes_editing_faces_beauty-fill-after.png
           :width: 320px
 
-          Result of Beauty Fill.
+          Result of Beauty Faces.
 
 
 .. _modeling-meshes-editing-grid-fill:
@@ -286,8 +289,8 @@ Triangulate Faces
    :Menu:      :menuselection:`Mesh --> Faces --> Triangulate Faces`
    :Hotkey:    :kbd:`Ctrl-T`
 
-As its name intimates, this tool converts each selected quadrangle into two triangles.
-Remember that quads are just a set of two triangles.
+This tool converts each selected faces (whether it be quads or n-gons) to triangular faces.
+See the :doc:`/modeling/modifiers/generate/triangulate`.
 
 
 .. _mesh-faces-tristoquads:
@@ -329,7 +332,7 @@ which means some triangles could remain.
 
           After converting tris to quads.
 
-All the menu entries and hotkeys use the settings defined in the *Mesh Tools* panel:
+All the menu entries and hotkeys use the settings defined in the *Operator* panel:
 
 Max Angle
    This value, between (0 to 180), controls the threshold for this tool to work on adjacent triangles.
@@ -377,7 +380,6 @@ Rotate Edges
    :Menu:      :menuselection:`Mesh --> Faces --> Rotate Edge CW`
 
 This tool functions the same edge rotation in edge mode.
-
 It works on the shared edge between two faces and rotates that edge if the edge was selected.
 
 .. list-table::
@@ -385,12 +387,12 @@ It works on the shared edge between two faces and rotates that edge if the edge 
    * - .. figure:: /images/modeling_meshes_editing_faces_rotate-edge-face-mode1.png
           :width: 320px
 
-          Two faces selected.
+          Two adjacent faces selected.
 
      - .. figure:: /images/modeling_meshes_editing_faces_rotate-edge-face-mode2.png
           :width: 320px
 
-          Full render.
+          Selected edge rotated.
 
 See :ref:`Rotate Edge <modeling-meshes-editing-edges-rotate>` for more information.
 
