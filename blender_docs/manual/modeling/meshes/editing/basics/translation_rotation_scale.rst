@@ -18,9 +18,8 @@ as described in the :doc:`Manipulation in 3D Space </editors/3dview/object/editi
 To move, rotate and scale selected components, either use the *Translate*, *Rotate*, and *Scale* buttons,
 the :doc:`transform manipulators </editors/3dview/object/editing/transform/control/manipulators>`,
 or the shortcuts:
-
 :kbd:`G`, :kbd:`R`, and :kbd:`S` respectively.
-After moving a selection, the options in the Tool Shelf allow you to fine-tune your changes,
+After moving a selection, the options in the Operator Panel allow you to fine-tune your changes,
 limit the effect to certain axes, turn proportional editing on and off, etc.
 
 Of course, when you move an element of a given type (e.g. an edge),

@@ -17,6 +17,9 @@ This tool translates selected vertices/edges/faces along their own normal
 
 This transform tool does not take into account the pivot point or transform orientation.
 
+Offset Even :kbd:`S`, :kbd:`Alt`
+   ToDo.
+
 .. list-table::
 
    * - .. figure:: /images/modeling_meshes_editing_transform_shrink-fatten_before.png

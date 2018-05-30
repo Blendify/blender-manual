@@ -201,7 +201,7 @@ Example
 
 The selected edge loop on the UV Sphere has been deleted and
 the faces have been merged with the surrounding edges.
-If the edges had been deleted by choosing *Edges* from the (*Erase* menu)
+If the edges had been deleted by choosing *Edges* from the *Delete* menu
 there would be an empty band of deleted faces all the way around the sphere instead.
 
 .. list-table::

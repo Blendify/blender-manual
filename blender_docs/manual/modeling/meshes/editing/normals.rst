@@ -29,7 +29,7 @@ Shading
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Shading:`
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Shading`
 
 .. admonition:: Reference
    :class: refbox
