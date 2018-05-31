@@ -140,6 +140,6 @@ Offset Edge Slide
 Add two edge loops on either side of selected loops.
 
 Cap Endpoint
-   ToDo.
+   Extends loop by creating triangles at endpoints.
 Edge Slide
    See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>`.
