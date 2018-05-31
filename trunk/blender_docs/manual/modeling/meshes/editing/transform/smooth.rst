@@ -17,7 +17,9 @@ Smooth Vertex
 This tool smooths the selected vertices by averaging the angles between the faces.
 After using the tool, options appear in the *Tool Shelf*:
 
-Number of times to smooth
+Smoothing
+   Smoothing factor.
+Repeat
    The number of smoothing iterations.
 Axes
    Limit the effect to certain axes.

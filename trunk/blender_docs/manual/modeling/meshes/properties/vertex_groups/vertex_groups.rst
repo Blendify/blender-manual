@@ -44,8 +44,8 @@ Active Vertex Group
       Mirror Vertex Group
          Mirror all Vertex Groups, flip weights and/or names, editing only selected vertices,
          flipping when both sides are selected; otherwise copy from unselected.
-
-         .. (todo) au: Note this operator will be reworked (and fully documented) in a future release.
+      Mirror Vertex Group (Topology)
+         The "Topology Mirror" option is enabled.
       Remove from All Groups
          (not available for locked groups) Unassigns the selected Vertices from all groups.
          After this operation has been performed, the vertices will no longer be contained in any vertex group.

@@ -103,7 +103,7 @@ Max Angle
      - .. figure:: /images/modeling_meshes_editing_faces_beauty-fill-after.png
           :width: 320px
 
-          Result of Beauty Faces.
+          Result of Beautify Faces.
 
 
 .. _modeling-meshes-editing-grid-fill:

@@ -13,6 +13,8 @@ Bisect
 
 The Bisect tool is a quick way to cut a mesh in two along a custom plane.
 
+Use :kbd:`LMB` click and drag to draw cut line. Once the cut is done the Operator panel gives a few options.
+
 Plane Point, Plane Normal
    The plane can be numerically adjusted for precise values.
 Fill
