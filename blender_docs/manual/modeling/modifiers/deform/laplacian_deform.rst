@@ -11,7 +11,7 @@ The user defines a set of 'anchor' vertices, and then moves some of them around.
 The modifier keeps the rest of the anchor vertices in fixed positions, and calculates the best
 possible locations of all the remaining vertices to preserve the original geometric details.
 
-This modifier captures the geometric details with the uses of differential coordinates.
+This modifier captures the geometric details with the use of differential coordinates.
 The differential coordinates captures the local geometric information how curvature and
 direction of a vertex based on its neighbors.
 
@@ -77,7 +77,7 @@ Repeat
              Repeat: 10.
 
 Anchors Vertex Group
-   A vertex group name, to define the group of vertices that the user uses to transform the model.
+   A vertex group name, to define the group of vertices that the user will use to transform the model.
    The weight of each vertex does not affect the behavior of the modifier;
    the method only takes into account vertices with weight greater than 0.
 
