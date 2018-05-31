@@ -91,7 +91,7 @@ Vertex Group Mask
 Vertex Group Mask
    An additional vertex group, the weights of which will be
    multiplied with the global influence value for each vertex.
-   If a vertex is not in the masking vertex group, its weight will be not be affected.
+   If a vertex is not in the masking vertex group, its weight will not be affected.
 
 
 Texture Mask
@@ -165,7 +165,7 @@ In this example let us dynamically control a Wave Modifier with a modified verte
    object and the vertices you want to have lowest weight,
    and similarly with the second and highest weight...
 #. If your lamp is at Z height of 2 then set the settings for the Weight Proximity Modifier to:
-   Lowest: 2 and highest: 7 (this will stop the waves under the lamp)
+   Lowest: 2 and highest: 7 (this will stop the waves under the lamp).
    If you want waves to be only under the lamp, set the lowest to 7 and highest to 2.
 #. Now add a Wave Modifier, set it to your liking, and use the same vertex group to control it.
    Example settings-speed: 0.10 , Height: 1.0 , Width 1.50 , Narrowness: 1.50.

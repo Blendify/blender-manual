@@ -12,7 +12,7 @@ Field Weights
    :Panel:     :menuselection:`Particle System --> Field Weights`
 
 The Field Weight Panel allows you to control how much influence each type of external force field, or effector,
-has on the particle system. Force fields are external forces that give dynamic systems motion.
+has on the particle system. Force fields are external forces that give dynamic system's motion.
 The force fields types are detailed on the :doc:`Force Field Page </physics/force_fields/index>`.
 
 Effector Group

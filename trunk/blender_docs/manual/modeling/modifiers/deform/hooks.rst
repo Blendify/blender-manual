@@ -40,7 +40,7 @@ Strength
 
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook using this property.
 Falloff Type
-   This can be used to adjust the kind of curve that the hook has on the mesh,
+   This can be used to adjust the kind of curve that the hook has on the mesh.
    You can also define a custom curve to get a much higher level of control.
 Uniform Falloff
    This setting is useful when using hooks on scaled objects,
