@@ -36,27 +36,28 @@ Options
 =======
 
 .. figure:: /images/modeling_meshes_editing_duplicating_inset_options.png
+   :align: right
 
    Inset operator options.
 
-Boundary
+Boundary :kbd:`B`
    Determines whether open edges will be inset or not.
 Offset Even
    Scale the offset to give a more even thickness.
 Offset Relative
-   Scale the offset by surrounding geometry.
+   Scale the offset by lengths of surrounding geometry.
 Edge Rail
-   ToDo <2.70a.
+   Created vertices slides along the original edges of the inner geometry, instead of the normals.
 Thickness
    Set the size of the offset.
-Depth
+Depth :kbd:`Ctrl`
    Raise or lower the newly inset faces to add depth.
-Outset
+Outset :kbd:`O`
    Create an outset rather than an inset.
    Causes the geometry to be created surrounding selection (instead of within).
 Select Outer
    Toggle which side of the inset is selected after the operation.
-Individual
+Individual :kbd:`I`
    By default the Inset tool operates on the region around selected faces,
    but with this option each selected face can be inset on its own.
 Interpolate

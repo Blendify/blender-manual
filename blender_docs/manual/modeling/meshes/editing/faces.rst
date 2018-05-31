@@ -268,15 +268,23 @@ Poke Faces
    :Menu:      :menuselection:`Mesh --> Faces --> Poke Faces`
    :Hotkey:    :kbd:`Alt-P`
 
-This tool fan-fills each face around a central vertex.
-This can be useful as a way to triangulate n-gons, or the *Offset* can be used to make spikes or depressions.
+Splits each selected faces into a triangle fan,
+create a new center vertex and create triangles between original face edges
+and new center vertex. The *Offset* can be used to make spikes or depressions.
 
 Poke Offset
-   ToDo 2.67.
+   Offset the new center vertex along the face normal.
 Offset Relative
-   ToDo 2.67.
+   Multiply the Offset by the average length from the center to the face vertices.
 Poke Center
-   Weighted Mean, Mean, Bounds
+   Computes the center of a face.
+
+   Weighted Mean
+      Using the mean average weighted by edge length.
+   Mean
+      Using the mean average.
+   Bounds
+      Uses center of bounding box.
 
 
 Triangulate Faces
