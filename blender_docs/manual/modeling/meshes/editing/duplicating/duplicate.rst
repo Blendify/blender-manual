@@ -23,7 +23,9 @@ only the *new* duplicated elements are selected,
 and you are automatically placed in grab/move mode, so you can translate your copy elsewhere...
 
 In the *Tool Shelf* are settings for *Vector* offset, *Proportional Editing*,
-*Duplication Mode* (non-functional?), and *Axis Constraints*.
+*Duplication Mode*, and *Axis Constraints*.
+
+.. TODO: Duplication Mode non-functional?
 
 Note that duplicated elements belong to the same
 :doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>` as the "original" ones.
