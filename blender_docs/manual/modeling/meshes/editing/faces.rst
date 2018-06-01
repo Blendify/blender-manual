@@ -411,9 +411,9 @@ Rotate & Reverse
 Rotate/Reverse UVs
    See :ref:`uv-image-rotate-reverse-uvs`.
 Rotate Colors
-   Todo.
+   Rotates the Vertex Colors inside faces either clockwise or counterclockwise.
 Reverse Colors
-   Todo.
+   Flips the direction of Vertex Colors inside selected faces.
 
 
 Normals

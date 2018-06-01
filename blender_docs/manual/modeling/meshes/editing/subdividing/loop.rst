@@ -90,7 +90,7 @@ Number of Cuts :kbd:`Wheel` or :kbd:`PageUp` / :kbd:`PageDown`
 
              Result of using multiple cuts.
 
-Smoothing :kbd:`Alt-Wheel`
+Smoothness :kbd:`Alt-Wheel`
    Smoothing causes edge loops to be placed in an interpolated position, relative to the face it is added to,
    causing them to be shifted outwards or inwards by a given percentage,
    similar to the *Subdivide Smooth* tool. When not using smoothing,
@@ -112,7 +112,7 @@ Smoothing :kbd:`Alt-Wheel`
              Same edge loops, but with smoothing value.
 
 Falloff
-   ToDo.
+   Falloff type for *Smoothness*, changes the shape of the profile.
 
 
 Edge Slide

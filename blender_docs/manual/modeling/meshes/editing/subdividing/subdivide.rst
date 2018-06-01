@@ -87,7 +87,8 @@ Corner Cut Type
       First an edge is created between the two opposite ends of the selected edges,
       dividing the quad in two triangles. Then, the same goes for the involved triangle as described above.
    Straight Cut
-      .. (Todo) Au: Currently non functioning...
+      The selected edges are subdivided, then an edge is created between
+      the two new vertices, creating a small triangle and n-gon.
 
    .. list-table::
 
