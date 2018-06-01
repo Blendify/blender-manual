@@ -143,3 +143,18 @@ Cap Endpoint
    Extends loop by creating triangles at endpoints.
 Edge Slide
    See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>`.
+
+
+Subdivide Edge-Ring
+===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Mesh --> Edges --> Subdivide Edge-Ring`
+
+Take an edge-ring, and subdivide with interpolation options.
+
+Options
+   See :ref:`Bridge Edge Loops <modeling-meshes-editing-bridge-edge-loops>`.

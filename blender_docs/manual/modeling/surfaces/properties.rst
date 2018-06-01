@@ -39,14 +39,8 @@ and they can be drawn as "solids" in *Edit Mode*.
 This makes working with surfaces quite easy.
 
 
-Bézier
-------
-
-ToDo add.
-
-
-Endpoint
---------
+Bézier, Endpoint
+----------------
 
 Just like :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
 one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
@@ -126,4 +120,4 @@ Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface res
 Smooth
 ------
 
-ToDo add.
+Use the :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.
