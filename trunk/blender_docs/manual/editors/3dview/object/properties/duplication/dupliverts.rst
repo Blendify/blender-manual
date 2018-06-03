@@ -125,7 +125,6 @@ The tentacle object was then parented to an icosphere.
 With dupli *Rotation* enabled for the parent mesh (the icosphere),
 the orientation of the base object (the tentacle)
 was adapted to the vertex normals of the parent mesh
-
 (in this case the tentacle was rotated -90° about the X axis in edit mode).
 
 .. list-table::

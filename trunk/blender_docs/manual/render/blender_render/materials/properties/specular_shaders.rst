@@ -116,7 +116,7 @@ Options
 -------
 
 Hardness
-   Size of the specular highlight
+   Size of the specular highlight.
 
 
 Phong

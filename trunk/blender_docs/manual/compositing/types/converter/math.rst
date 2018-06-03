@@ -63,7 +63,7 @@ The bottom Render Layer node inputs a scene (FlyCam)
 with a plane that covers the left half of the view and is 7 BU from the camera.
 Both are fed through their respective Map Value nodes to divide the Z-buffer by 20
 (multiply by 0.05, as shown in the Size field)
-and clamped to be a min/ max of 0.0/ 1.0 respectively.
+and clamped to be a min/max of 0.0/1.0 respectively.
 
 For the minimum function,
 the node selects those Z values where the corresponding pixel is closer to the camera;

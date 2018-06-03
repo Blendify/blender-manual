@@ -164,7 +164,7 @@ the active set of chains is set to the new chains. ::
 In this example, the chain is split every 2 units.
 A more elaborated version uses two predicates instead of one: One to determine the starting
 point of the new chain and the other to determine its ending point. This second version can
-lead to a set of Chains that are disjoint or that overlap if the two predicates are different.
+lead to a set of Chains that are disjoint or that overlap if the two predicates are different
 (see ``Operators.sequentialSplit()`` for more details).
 
 Recursive splitting ``Operators.recursiveSplit()`` evaluates a function

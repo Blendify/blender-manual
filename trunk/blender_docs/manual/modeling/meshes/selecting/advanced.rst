@@ -18,7 +18,7 @@ Side of Active
    Selects all vertices on the mesh in a single axis relative to the active vertex.
    In Vertex selection mode only.
 Linked
-   Selects all components that are connected to the current selection. (see `Select Linked`_).
+   Selects all components that are connected to the current selection (see `Select Linked`_).
 
 
 Checker Deselect

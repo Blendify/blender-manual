@@ -59,4 +59,4 @@ Setting up the Build Environment
 
 ------------------------
 
-Continue with the next step: :doc:`Building </about/contribute/build/macos>`
+Continue with the next step: :doc:`Building </about/contribute/build/macos>`.

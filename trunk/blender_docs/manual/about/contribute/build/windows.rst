@@ -46,4 +46,4 @@ Try opening ``\build\html\contents.html`` in your web browser and read the manua
 
 ------------------------
 
-Continue with the next step: :doc:`Editing </about/contribute/editing>`
+Continue with the next step: :doc:`Editing </about/contribute/editing>`.

@@ -41,4 +41,4 @@ This will build very quickly, but it will mean your next complete build of all t
 
 ------------------------
 
-Continue with the next step: :doc:`Editing </about/contribute/editing>`
+Continue with the next step: :doc:`Editing </about/contribute/editing>`.

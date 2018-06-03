@@ -8,4 +8,4 @@ Stucci Node
    Stucci Node.
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/stucci>`
+See :doc:`Here </render/blender_render/textures/types/procedural/stucci>`.

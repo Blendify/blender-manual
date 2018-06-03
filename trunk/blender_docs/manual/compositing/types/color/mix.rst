@@ -161,7 +161,7 @@ using other mix settings and fancier rigs. Feel free to experiment!
 
    You can also use this technique, using settings that result in visible effects,
    in title sequences to make the words appear to be cast on the water's surface,
-   or as a special effect to make words appear on the possessed girl's forearm. yuk.
+   or as a special effect to make words appear on the possessed girl's forearm.
 
 
 Decoding an Image for your Watermark
@@ -171,7 +171,7 @@ When you see an image that you think might be yours,
 use the node map below to compare it to your stock image (pre-watermarked original).
 In this map, the Mix node is set to Difference,
 and the Map Value node amplifies any difference. The result is routed to a viewer,
-and you can see how the original mark clearly stands out:
+and you can see how the original mark clearly stands out.
 
 .. figure:: /images/compositing_types_color_mix_watermark-decode.png
    :width: 700px

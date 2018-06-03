@@ -91,7 +91,7 @@ Midlevel
 
    *displacement* = *texture_value* - *Midlevel*
 
-   Recall that color/ luminosity values are typically between (0.0 to 1.0) in Blender,
+   Recall that color/luminosity values are typically between (0.0 to 1.0) in Blender,
    and not between (0 to 255).
 
 Strength
