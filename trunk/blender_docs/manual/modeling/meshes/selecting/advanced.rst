@@ -33,12 +33,19 @@ Checker Deselect
 This tool applies an alternating selected/deselected checker pattern.
 This only works if you already have more than one mesh element selected.
 
+Changes the current selection so that only every Nth elements (vertices, edges or faces,
+depending on the active selection mode) will remain selected, starting from the active one.
+
+Is case of islands of selected elements, this tool will affect
+only the island of the active element (if there is one), or the island of the first element
+in the order of internal storage (if there is no active element).
+
 Nth Selection
-   Using the current selection, it will deselect every nth element.
+   Skip every Nth element leaving it selected.
 Skip
-   Number of steps to skip the pattern and keep selected.
+   Number of consecutive elements to skip (keep selected) at once.
 Offset
-   Offsets at what point to start at.
+   Offset from the starting point.
 
 
 Select All by Traits
@@ -331,8 +338,15 @@ Topological Distance
    not the length of the edges to calculate the distances.
 Fill Region :kbd:`Shift-Ctrl-RMB`
    Selects all elements in the shortest paths from the active selection to the clicked area.
-Checker Deselect
-   See `Checker Deselect`_.
+Checker Select Options
+   Allows to quickly select alternate elements in a path.
+
+   Nth Selection
+      Skip every Nth element, leave unselected.
+   Skip
+      Number of consecutive elements to skip at once.
+   Offset
+      Offset from the starting point.
 
 
 Loop Inner-Region
