@@ -42,7 +42,7 @@ Separate/Combine RGBA Nodes
    Separate RGBA Node.
 
 
-Input/ Output
+Input/Output
 -------------
 
 Image
@@ -95,7 +95,7 @@ Separate/Combine HSVA Nodes
    Separate HSVA Node.
 
 
-Input/ Output
+Input/Output
 -------------
 
 Image
@@ -127,7 +127,7 @@ Separate/Combine YUVA Nodes
    Separate YUVA Node.
 
 
-Input/ Output
+Input/Output
 -------------
 
 Image
@@ -159,7 +159,7 @@ Separate/Combine YCbCrA Node
    Separate YCbCrA Node.
 
 
-Input/ Output
+Input/Output
 -------------
 
 Image

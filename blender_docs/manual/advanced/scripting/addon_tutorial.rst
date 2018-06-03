@@ -397,7 +397,7 @@ For this example we'll add to an existing menu.
 
 .. figure:: /images/advanced_scripting_addon-tutorial_menu-id.png
 
-   Menu Identifier
+   Menu Identifier.
 
 To find the identifier of a menu, you can hover your mouse over the menu item and the identifier is displayed.
 

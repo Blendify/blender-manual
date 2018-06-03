@@ -111,7 +111,7 @@ Frame Sequence Workflow
       The :doc:`VSE </editors/vse/index>` does not support multi-layer EXR files.
       To render to a video format you will have to skip the next three steps and
       instead use an :doc:`Image Input node </compositing/types/input/image>`
-      in the :doc:`compositor </compositing/types/input/image>`
+      in the :doc:`compositor </compositing/types/input/image>`.
 
 #. Choose *Add Image* from the add menu. Select all the frames from your output folder that you want to include
    in your animation (press :kbd:`A` to Select All easily). They will be added as a strip to the Sequence editor.

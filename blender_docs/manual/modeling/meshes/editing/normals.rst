@@ -35,7 +35,7 @@ Shading
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Shading/ UVs --> Shading`
+   :Panel:     :menuselection:`Tool Shelf --> Shading / UVs --> Shading`
    :Menu:      :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
 
 

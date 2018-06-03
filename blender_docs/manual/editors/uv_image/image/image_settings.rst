@@ -92,7 +92,7 @@ Width, Height
    The size of image in pixels.
 Color
    Sets the fill color if creating a blank image.
-32 bit Float/ Float Buffer
+32 bit Float / Float Buffer
    Creates a 32 bit image. This is a larger file size,
    but holds much more color information than the standard 8 bit image.
    For close ups and large gradients, it may be better to use a 32 bit image.

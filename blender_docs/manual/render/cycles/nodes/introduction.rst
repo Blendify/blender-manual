@@ -55,7 +55,7 @@ and these can be edited in the texture properties.
 
 .. seealso::
 
-   :doc:`Textures </render/cycles/nodes/types/textures/index>`.
+   :doc:`Textures </render/cycles/nodes/types/textures/index>`
 
 
 More
@@ -64,8 +64,8 @@ More
 Nodes for geometric data, texture coordinates,
 layering shaders and non-physically-based tricks can be found in:
 
-- :doc:`Vector Nodes </render/cycles/nodes/types/vector/index>`,
-- :doc:`Color Nodes </render/cycles/nodes/types/color/index>`,
+- :doc:`Vector Nodes </render/cycles/nodes/types/vector/index>`
+- :doc:`Color Nodes </render/cycles/nodes/types/color/index>`
 - :doc:`Converter Nodes </render/cycles/nodes/types/converter/index>`
 
 
@@ -76,4 +76,4 @@ Custom nodes can be written using the Open Shading Language.
 
 .. seealso::
 
-   :doc:`Open Shading Language </render/cycles/nodes/osl>`.
+   :doc:`Open Shading Language </render/cycles/nodes/osl>`

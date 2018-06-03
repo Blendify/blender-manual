@@ -49,7 +49,7 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 
 .. seealso::
 
-   :doc:`Read more about the Transform Manipulator </editors/3dview/object/editing/transform/control/manipulators>`
+   :doc:`Read more about the Transform Manipulator </editors/3dview/object/editing/transform/control/manipulators>`.
 
 .. tip:: Combining with Other Controls
 

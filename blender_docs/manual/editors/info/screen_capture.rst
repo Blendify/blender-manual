@@ -86,8 +86,8 @@ and it will show you a button for stopping your capture.
 The frames are stored using a suffix added to their file name,
 where the suffix is composed of the numbers present in the fields for *start* and *end frames*,
 defined in the Frame Range of the Dimensions panel,
-:ref:`Render tab <properties-render-tab>`.
-(See Fig. :ref:`fig-screencast-frame-range` highlighted in yellow)
+:ref:`Render tab <properties-render-tab>`
+(see Fig. :ref:`fig-screencast-frame-range` highlighted in yellow).
 
 .. note::
 
@@ -119,7 +119,7 @@ Blender Window Dimension
 ------------------------
 
 There is a way to match the Blender Window dimensions with the Output Video File,
-achieving standard dimensions for the output of the Blender Screencast.
+achieving standard dimensions for the output of the Blender Screencast
 (e.g. NTSC, HD, Full HD, etc.).
 You can control the width and height of your Blender Window, starting Blender from a command line.
 To learn more about starting Blender from a command line,

@@ -41,7 +41,7 @@ Show
 
 .. _editors-text-run-script:
 
-Run Script/ Script Node Update
+Run Script / Script Node Update
    Executes the text as a Python script :kbd:`Alt-P`. See `Script and Templates`_.
 Register
    Registers the current text data-block as a module on loading (the text name must end with '.py').

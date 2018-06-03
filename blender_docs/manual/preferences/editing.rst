@@ -33,7 +33,7 @@ Object Data
 Object
    Any created material will be created as part of the Object data-block.
 
-:doc:`Read more about Blender's Data System </data_system/index>`
+:doc:`Read more about Blender's Data System </data_system/index>`.
 
 
 New Objects
@@ -66,7 +66,7 @@ Steps
 Memory Limit
    Maximum memory usage in Mb (0 is unlimited).
 
-:doc:`Read more about Undo and Redo options </interface/undo_redo>`
+:doc:`Read more about Undo and Redo options </interface/undo_redo>`.
 
 
 Grease Pencil
@@ -89,7 +89,7 @@ Simplify Stroke
 Default Color
    The default color for new Grease Pencil layers.
 
-:doc:`Read more about Grease Pencil </interface/grease_pencil/index>`
+:doc:`Read more about Grease Pencil </interface/grease_pencil/index>`.
 
 
 Playback

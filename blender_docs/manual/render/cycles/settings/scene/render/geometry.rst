@@ -43,7 +43,7 @@ Offscreen Scale
    Multiplier for dicing rate of geometry outside of the camera view.
    The dicing rate of objects is gradually increased the further they are outside the camera view.
    Lower values provide higher quality reflections and shadows for off screen objects,
-   while higher values use less memory
+   while higher values use less memory.
 
 .. _bpy.types.CyclesRenderSettings.max_subdivisions:
 

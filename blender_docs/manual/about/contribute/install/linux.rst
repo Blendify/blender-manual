@@ -66,4 +66,4 @@ Setting up the Build Environment
 
 ------------------------
 
-Continue with the next step: :doc:`Building </about/contribute/build/linux>`
+Continue with the next step: :doc:`Building </about/contribute/build/linux>`.

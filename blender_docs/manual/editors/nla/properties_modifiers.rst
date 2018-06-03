@@ -19,7 +19,7 @@ Animation Data
 
 .. figure:: /images/editors_nla_properties-modifiers_animation-data-panel.png
 
-   Animation Data panel
+   Animation Data panel.
 
 Context
    ToDo >2.57.
@@ -42,8 +42,8 @@ Action Blending
    Replace
       Causes the top strip to take precedence according to the parameters
       of the Blend In/Out (see next option, below).
-
    Multiply, Subtract, Add
+
 Action Influence
    ToDo <2.68.
 
@@ -65,7 +65,7 @@ Active Strip
 
 .. figure:: /images/editors_nla_properties-modifiers_active-strip-panel.png
 
-   Active Strip panel
+   Active Strip panel.
 
 Options of the strip itself.
 
@@ -103,7 +103,7 @@ Action Clip
 
 .. figure:: /images/editors_nla_properties-modifiers_action-clip-panel.png
 
-   Action Clip panel
+   Action Clip panel.
 
 This represents the 'object data' of the strip. Much like the transform values of an object.
 
@@ -137,7 +137,7 @@ Evaluation
 
 .. figure:: /images/editors_nla_properties-modifiers_evaluation-panel.png
 
-   Evaluation panel
+   Evaluation panel.
 
 This determines the degree of influence the strip has, and over what time.
 
