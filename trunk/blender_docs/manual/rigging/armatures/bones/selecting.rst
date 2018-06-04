@@ -140,9 +140,9 @@ More/Less
    :Menu:      :menuselection:`Select`
 
 More :kbd:`Ctrl-NumpadPlus`
-   ToDo.
+   Expand the current selection to the connected bones.
 Less :kbd:`Ctrl-NumpadMinus`
-   ToDo.
+   Contrast the selection, deselect bones at the boundaries of each selection region.
 Parent :kbd:`[`, Child :kbd:`]`
    You can deselect the active bone and select its immediate parent or one of its children.
 Extend Parent :kbd:`Shift-[`, Extend Child :kbd:`Shift-]`
