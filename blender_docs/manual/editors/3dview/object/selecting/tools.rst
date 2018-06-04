@@ -228,18 +228,17 @@ Select More/Less
 Their purpose, based on the hierarchical.
 
 More
-   Select connected parent/child objects.
+   Expand the selection to the immediate parent and children of the selected objects.
 Less
-   Deselect objects at the boundaries of parent/child relationships.
+   Contrast the selection, deselect objects at the boundaries of parent/child relationships.
 Parent
-   ToDo.
+   Deselects the currently selected objects and selects their immediate parents.
 Child
-   ToDo.
+   Deselects the currently selected objects and selects their immediate children.
 Extend Parent
-   Extends the selection to the parent of the selection.
-   ToDo: active object.
+   Extends the selection to the immediate parents of the currently selected objects.
 Extend Child
-   ToDo.
+   Extends the selection to the immediate children of the currently selected objects.
 
 
 .. _bpy.ops.object.select_grouped:

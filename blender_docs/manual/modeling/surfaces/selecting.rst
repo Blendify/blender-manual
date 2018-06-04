@@ -73,10 +73,10 @@ Their purpose, based on current selected control points, is to reduce or enlarge
 The algorithm is the same as with meshes:
 
 More
-   for each selected control point, select **all** its linked points (i.e. two, three or four).
+   For each selected control point, select **all** its linked points (i.e. two, three or four).
 Less
-   for each selected control point, if **all** points linked to this point are selected, keep it selected.
-   For all other selected control points, de-select them.
+   For each selected control point, if **all** points linked to this point are selected, keep it selected.
+   For all other selected control points, deselect them.
 
 This implies two points:
 
