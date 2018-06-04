@@ -10,7 +10,9 @@ Attributes
 Weight
 ------
 
-ToDo add.
+This sets the "goal weight" of selected control points,
+which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
+forcing the curve to "stick" to their original positions, based on the weight.
 
 
 Radius

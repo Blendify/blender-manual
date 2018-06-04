@@ -62,12 +62,8 @@ Space
 Data
 ^^^^
 
-Weight
-   ToDo.
-Radius
-   Radius is used for beveling.
-Tilt
-   ToDo.
+Weight, Radius, Tilt
+   See :doc:`Curve Properties </modeling/curves/properties/introduction>`.
 
 
 Tools
@@ -133,8 +129,8 @@ Extrudes points by duplicating the selected points, which then can be translated
 If the selection is an end point, a new point will be connected to the selected point,
 else a new unconnected point is created.
 
-Mode
-   ToDo.
+.. Mode
+.. (todo) looks like a bug, internal parameter?
 
 
 Duplicate or Extrude to Cursor
@@ -350,9 +346,10 @@ Set Goal Weight
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Specials --> Set Goal Weight`
 
-This sets the "goal weight" of selected control points,
-which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
-forcing the curve to "stick" to their original positions, based on the weight.
+This sets the :doc:`Soft Body Goal Weight </modeling/curves/properties/introduction>`
+of selected control points. The precise value can be adjusted in the Operator Panel.
+To adjust the *Mean Weight* (average) of selected control points use
+:menuselection:`Properties region --> Transform --> Mean Weight`.
 
 
 Smooth
