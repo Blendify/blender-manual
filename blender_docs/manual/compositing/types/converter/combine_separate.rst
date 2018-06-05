@@ -96,7 +96,7 @@ Separate/Combine HSVA Nodes
 
 
 Input/Output
--------------
+------------
 
 Image
    Standard image in/output.
@@ -128,7 +128,7 @@ Separate/Combine YUVA Nodes
 
 
 Input/Output
--------------
+------------
 
 Image
    Standard image in/output.
@@ -160,7 +160,7 @@ Separate/Combine YCbCrA Node
 
 
 Input/Output
--------------
+------------
 
 Image
    Standard image in/output.

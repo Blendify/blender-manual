@@ -41,7 +41,7 @@ Action Blending
       Causes the top strip to take precedence according to the parameters
       of the Blend In/Out (see next option, below).
    Multiply, Subtract, Add
-      Weighted result pf strip is multiplied, subtracted, or added with the accumulated results.
+      The weighted result of the strip is multiplied, subtracted, or added with the accumulated results.
 
 Action Influence
    Amount the active Action contributes to the result of the NLA stack.

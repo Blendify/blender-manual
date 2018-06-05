@@ -274,7 +274,7 @@ Even :kbd:`E`
    By default, the offset value of the vertices is a percentage of the edges length along which they move.
    When Even mode is active, the vertices are shifted by an absolute value.
 Flipped :kbd:`F`
-   When Flipped is ON, vertices move the same distance from adjacent vertices,
+   When Flipped is active, vertices move the same distance from adjacent vertices,
    instead of moving from their original position.
 Clamp :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.

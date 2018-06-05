@@ -18,7 +18,7 @@ This tool translates selected vertices/edges/faces along their own normal
 This transform tool does not take into account the pivot point or transform orientation.
 
 Offset Even :kbd:`S`, :kbd:`Alt`
-   Scale the offset to give more even thickness.
+   Scale the offset to give it a more even thickness.
    A greater offset factor is obtained vertices, which share faces, forming a more acute angle.
 
 .. list-table::

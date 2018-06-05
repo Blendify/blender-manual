@@ -120,4 +120,4 @@ Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface res
 Smooth
 ------
 
-Use the :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.
+Use :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.

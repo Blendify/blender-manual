@@ -78,8 +78,8 @@ Double Click
    The Mouse emulate option is only available if *Select With* is set to *Right*.
 
 
-Emulate Numpad 
-----------------
+Emulate Numpad
+--------------
 
 The Numpad keys are used quite often in Blender and are not the same keys as the regular
 number keys. If you have a keyboard without a Numpad (e.g. on a laptop),

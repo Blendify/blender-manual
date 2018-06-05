@@ -36,7 +36,7 @@ This only works if you already have more than one mesh element selected.
 Changes the current selection so that only every Nth elements (vertices, edges or faces,
 depending on the active selection mode) will remain selected, starting from the active one.
 
-Is case of islands of selected elements, this tool will affect
+In case of islands of selected elements, this tool will affect
 only the island of the active element (if there is one), or the island of the first element
 in the order of internal storage (if there is no active element).
 

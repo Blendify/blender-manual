@@ -13,7 +13,7 @@ The interface elements of the header are explained below using a Copy Location c
 
 Expand (down/right arrow icon)
    Show or Hide the settings of the constraint.
-   Tidy up the :doc:`constraint stack </rigging/constraints/interface/stack>`.
+   Tidy up the :doc:`constraint stack </rigging/constraints/interface/stack>`
    by hiding constraints that do not currently need attention.
    Constraints will continue to affect the scene even when hidden.
 Type
