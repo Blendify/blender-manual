@@ -124,16 +124,19 @@ Links will appear red as an indicator of passing through the muted node.
 Show/Hide
 =========
 
-Hide
-   :kbd:`H`
-Toggle Node Preview
-   :kbd:`Shift-H`
-Toggle Hidden Node Sockets
-   :kbd:`Ctrl-H`
+Hide :kbd:`H`
+   Collapses the node so only the node header is visible.
+   This can also be toggled by clicking the triangle at the top left of the node header.
+Toggle Node Preview :kbd:`Shift-H`
+   Shows/Hides a preview region on the node that displays the frame
+   after that node's operation has been applied. This can also be toggled
+   by clicking the material ball icon in the node header.
+Toggle Hidden Node Sockets :kbd:`Ctrl-H`
+   Collapses/Expands any input or output sockets that have no other nodes connect to them.
 Toggle Node Options
-   ToDo.
+   Shows/Hides all node properties.
 Collapse and Hide Unused Sockets
-   ToDo 2.62.
+   Applies both the *Toggle Hidden Node Sockets* and *Toggle Node Options* operations.
 
 
 Layers
