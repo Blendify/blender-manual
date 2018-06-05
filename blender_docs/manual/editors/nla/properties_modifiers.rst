@@ -43,6 +43,7 @@ Action Blending
       Causes the top strip to take precedence according to the parameters
       of the Blend In/Out (see next option, below).
    Multiply, Subtract, Add
+      ToDo.
 
 Action Influence
    ToDo <2.68.

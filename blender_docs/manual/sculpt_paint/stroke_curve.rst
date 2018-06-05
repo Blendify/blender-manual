@@ -24,7 +24,8 @@ Stroke Method :kbd:`E`
 
       Spacing
          Represents the percentage of the brush radius.
-     Limits brush application to the distance specified by spacing.
+
+         Limits brush application to the distance specified by spacing.
    Airbrush
       Flow of the brush continues as long as the mouse click is held (spray),
       determined by the *Rate* setting.
