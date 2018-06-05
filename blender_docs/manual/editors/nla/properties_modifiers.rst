@@ -21,8 +21,6 @@ Animation Data
 
    Animation Data panel.
 
-Context
-   ToDo >2.57.
 Action
    A :ref:`Data-Block <ui-data-block>` menu that allows you to edit actions shown in the action track.
    See also the Action Editor's :ref:`Action <dopesheet-action-action>`.
@@ -43,10 +41,10 @@ Action Blending
       Causes the top strip to take precedence according to the parameters
       of the Blend In/Out (see next option, below).
    Multiply, Subtract, Add
-      ToDo.
+      Weighted result pf strip is multiplied, subtracted, or added with the accumulated results.
 
 Action Influence
-   ToDo <2.68.
+   Amount the active Action contributes to the result of the NLA stack.
 
 
 Active Track
