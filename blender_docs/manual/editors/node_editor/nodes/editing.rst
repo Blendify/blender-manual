@@ -142,7 +142,7 @@ Collapse and Hide Unused Sockets
 Layers
 ======
 
-Read Render Layers
-   :kbd:`Ctrl-R`
-Read Full Sample Layers
-   :kbd:`Shift-R`
+Read Render Layers :kbd:`Ctrl-R`
+   Todo.
+Read Full Sample Layers :kbd:`Shift-R`
+   Todo.
