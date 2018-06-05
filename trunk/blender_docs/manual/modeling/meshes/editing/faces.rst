@@ -121,7 +121,7 @@ Grid Fill
 that follows the surrounding geometry.
 
 The best predictable result can be achieved if you select two opposite edge loops
-with an equal number of vertices. When single, closed edge loop is selected,
+with an equal number of vertices. When a single, closed edge loop is selected,
 the Span/Offset options allows you to adjust the way two opposite edge loops
 are detected from one closed edge loop.
 
@@ -129,7 +129,7 @@ Span
    Specifies the number of columns in the grid.
 Offset
    Defines the vertex that is considered to be the corner of the grid,
-   by default, it's the active vertex. Offset allows to rotate the grid lines.
+   by default, it's the active vertex. The Offset allows you to rotate the grid lines.
 Simple Blending
    Use a simple interpolation algorithm to generate grid vertices from boundary loops,
    which doesn't attempt to maintain the shape,
@@ -413,7 +413,7 @@ Rotate/Reverse UVs
 Rotate Colors
    Rotates the Vertex Colors inside faces either clockwise or counterclockwise.
 Reverse Colors
-   Flips the direction of Vertex Colors inside selected faces.
+   Flips the direction of Vertex Colors inside the selected faces.
 
 
 Normals

@@ -117,8 +117,8 @@ All Groups
    If *All Groups* is checked, all assignations to these kind of groups
    will be replaced by the symmetrical counterpart, also keeping the old weights.
 Topology Mirror
-   Mirror for meshes which are not 100% symmetric.
+   Mirror for meshes which are not fully symmetric.
 
 Usually only one of those operations (*Mirror Weights*, *Flip Groups Names*)
-will be performed, though you can tick both at the same time,
-if you know what you are doing (these 2 operations could even cancel each other).
+will be performed, though you can activate both at the same time,
+if you know what you are doing (these two operations could even cancel each other).

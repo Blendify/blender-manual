@@ -63,12 +63,12 @@ Select Similar
    :Menu:      :menuselection:`Select --> Select Similar`
    :Hotkey:    :kbd:`Shift-G`
 
-Selects control points that has similar certain properties to the active one.
+Selects control points that have certain similar properties to the active one.
 The Operator panel provides several selection options:
 
 Type
    Type
-      Selects splines that has same Spline Type i.e. Bezier, NURBS or Poly.
+      Selects splines that have the same spline Type i.e. Bézier, NURBS or Poly.
    Radius
       Selects control points that have a similar Radius values.
    Weight

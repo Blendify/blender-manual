@@ -3,10 +3,10 @@
 Introduction
 ************
 
-Motion Tracking is used to track the motion of objects and/or a background scene and, through the compositor, 
-to apply this tracking data to 3D objects (or just one), which have either been created in Blender or imported
-into the application. Blender's motion tracker supports a couple of very powerful tools for 2D tracking and 3D 
-motion tracking, including camera tracking and object tracking, as well as some special features like the plane 
+Motion Tracking is used to track the motion of objects and/or a background scene and, through the compositor,
+to apply this tracking data to 3D objects (or just one), which have either been created in Blender or
+imported into the application. Blender's motion tracker supports a couple of very powerful tools for 2D tracking and
+3D motion tracking, including camera tracking and object tracking, as well as some special features like the plane
 track for compositing. Tracks can also be used to move and deform masks for rotoscoping in the Mask Editor,
 which is available as a special mode in the Movie Clip Editor.
 

@@ -187,7 +187,7 @@ Cut (hard) at Frame
    :Menu:      :menuselection:`Strip --> Cut (hard) at Frame`
    :Hotkey:    :kbd:`Shift-K`
 
-Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips ;
+Like *Cut (soft) at Frame*, it cuts a strip in two distinct strips;
 however you will not be able to drag the endpoints to show the frames past the cut of each resulting strip.
 
 Although you can adjust the :ref:`duration (hard) <sequencer-duration-hard>`

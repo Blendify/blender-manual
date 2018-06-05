@@ -72,7 +72,7 @@ To break a link between sockets :kbd:`Ctrl-LMB`-click in an empty area, near the
 drag: You will see a little cutter icon appearing at your mouse pointer. Move it over the link itself, and
 release the :kbd:`LMB`.
 
-Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB-drag`
+Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB`-drag
    Use Detach Links in order to cut all links attached to selected nodes at once.
 
 
