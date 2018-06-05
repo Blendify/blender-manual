@@ -4,7 +4,7 @@ OR Controller
 *************
 
 This controller gives a positive (``TRUE``) output when
-Any one or more of its inputs are ``TRUE``, and
+Any one or more of its inputs is ``TRUE``, and
 The object is in the designated State.
 For all other conditions the controller gives a negative (``FALSE``) output.
 

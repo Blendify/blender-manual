@@ -101,7 +101,7 @@ Repeat
              Repeat: 10.
 
 Factor
-   Controls the amount of displacement of every vertex along the curvature flow.
+   Controls the amount of displacement of every vertex along the flow curvature.
 
    - Using a small *Factor*, you can remove noise from the shape without affecting desirable geometry.
    - Using a large *Factor*, you get smoothed versions of the shape at the cost of fine geometry details.
