@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
+   usage.rst
    tools.rst
    weight_tools.rst
    options.rst
