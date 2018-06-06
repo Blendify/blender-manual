@@ -139,10 +139,22 @@ Collapse and Hide Unused Sockets
    Applies both the *Toggle Hidden Node Sockets* and *Toggle Node Options* operations.
 
 
+.. _bpy.ops.node.read_viewlayers:
+.. _bpy.ops.node.read_fullsamplelayers:
+
 Layers
 ======
 
+.. note:: The tools are only used in the :doc:`Compositor </compositing/index>`.
+
 Read Render Layers :kbd:`Ctrl-R`
-   Todo.
+   Read all the current scene's render layers from cache, as needed.
+   This can be be used to save RAM while rendering because the render layers do not have to be saved in RAM.
+   This can also be used to recover some information from a fail render.
+   For this to work, :ref:`Save Buffers <render_properties_save-buffers>`must be enabled.
+   
+.. removed in 2.8
+
 Read Full Sample Layers :kbd:`Shift-R`
-   Todo.
+   Reads all the render layers using :ref:`full sample <render_internal_aa_full-sample>`
+   only used in Blender Internal.
