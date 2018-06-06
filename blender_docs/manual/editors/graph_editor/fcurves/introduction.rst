@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|text= move direction of time?}}.
 
 ************
 Introduction
@@ -34,14 +33,36 @@ For example, if you have:
 
 - A control point of value 0 at frame 0,
 - another one of value 10 at frame 25,
-- and you use linear interpolation,
-
-then, at frame 5 we get a value of 2.
+- and you use linear interpolation, sthen, at frame 5 we get a value of 2.
 
 The same goes for all intermediate frames: with just two points,
 you get a smooth growth from (0 to 10) along the 25 frames.
 Obviously, if you would like the frame 15 to have a value of 9,
 you would have to add another control point (or keyframe)...
+
+
+Direction of Time
+=================
+
+Although F-Curves are very similar to :ref:`curve-bezier`,
+there are some important differences.
+
+For obvious reasons, a property represented by a Curve
+cannot have more than **one** value at a given time, hence:
+
+- When you move a control point ahead of a control point that was previously ahead of the point that you are moving,
+  the two control points switch their order in the edited curve, to avoid that the curve goes back in time.
+- For the above reason, it is impossible to have a closed F-Curve.
+
+.. list-table:: Two control points switching: the curve cannot go back in time!
+
+   * - .. figure:: /images/editors_graph-editor_fcurves_introduction_moving1.png
+
+          Before moving the second keyframe.
+
+     - .. figure:: /images/editors_graph-editor_fcurves_introduction_moving2.png
+
+          After moving the second keyframe.
 
 
 Settings
@@ -265,27 +286,3 @@ Auto Clamped
       :width: 400px
 
       Auto clamped handles.
-
-
-Direction of Time
-=================
-
-Although F-Curves are very similar to :ref:`curve-bezier`,
-there are some important differences.
-
-For obvious reasons, a property represented by a Curve
-cannot have more than **one** value at a given time, hence:
-
-- When you move a control point ahead of a control point that was previously ahead of the point that you are moving,
-  the two control points switch their order in the edited curve, to avoid that the curve goes back in time.
-- For the above reason, it is impossible to have a closed F-Curve.
-
-.. list-table:: Two control points switching: the curve cannot go back in time!
-
-   * - .. figure:: /images/editors_graph-editor_fcurves_introduction_moving1.png
-
-          Before moving the second keyframe.
-
-     - .. figure:: /images/editors_graph-editor_fcurves_introduction_moving2.png
-
-          After moving the second keyframe.
