@@ -99,20 +99,6 @@ location properties are shown in Blender Units.
 Note that *Drivers* use radians for rotation properties.
 
 
-Markers
--------
-
-Like with most animation editors, markers are shown at the bottom of the editor.
-
-.. figure:: /images/editors_graph-editor_introduction_markers.png
-
-   Graph Editor Markers.
-
-*Markers* can be modified in the *Graph Editor* though it's usually best to use the *Timeline*.
-
-See :doc:`Markers </animation/markers>` for more info.
-
-
 Header
 ======
 
@@ -168,6 +154,19 @@ Clear Preview Range :kbd:`Alt-P`
 Auto-Set Preview Range :kbd:`Ctrl-Alt-P`
    Automatically sets the preview range to playback the whole action or
    the selected NLA strips.
+
+
+Markers Menu
+------------
+
+:doc:`Markers </animation/markers>` are used to denote frames with key points or significant events
+within an animation. Like with most animation editors, markers are shown at the bottom of the editor.
+
+.. figure:: /images/editors_graph-editor_introduction_markers.png
+
+   Markers in animation editor.
+
+For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
 
 
 Mode

@@ -68,10 +68,17 @@ Sync Markers
 See Graph editor's :ref:`graph-view-menu`.
 
 
-Marker Menu
-^^^^^^^^^^^
+Markers Menu
+^^^^^^^^^^^^
 
-See the :doc:`Markers page </animation/markers>`.
+:doc:`Markers </animation/markers>` are used to denote frames with key points or significant events
+within an animation. Like with most animation editors, markers are shown at the bottom of the editor.
+
+.. figure:: /images/editors_graph-editor_introduction_markers.png
+
+   Markers in animation editor.
+
+For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
 
 
 Key Menu
