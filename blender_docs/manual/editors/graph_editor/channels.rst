@@ -92,7 +92,8 @@ Delete Channels :kbd:`X`
       it will delete the selected keyframes.
 
 Un/Group Channels :kbd:`Ctrl-G`, :kbd:`Alt-G`
-   ToDo.
+   Un/Groups the selected channels into a collection that can be renamed by double clicking on the group name.
+   For example, this helps to group channels that relate a part of an armature to keep the editor more organized.
 Settings Toggle/Enable/Disable, :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
    Enable/disable a channel's setting (selected in the menu that pops up).
 
