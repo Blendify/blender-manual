@@ -13,3 +13,4 @@ This chapter covers advanced use (topics which may not be required for typical u
    scripting/index.rst
    app_templates.rst
    limits.rst
+   operators.rst
