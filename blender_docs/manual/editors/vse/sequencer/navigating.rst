@@ -35,11 +35,17 @@ Sync Markers
    Transform Markers as well as Strips.
 
 
-Marker Menu
------------
+Markers Menu
+------------
 
-The Marker menu allows you to add markers in the VSE.
-Markers are shared across animation editors. See :doc:`Markers </animation/markers>`.
+Like with most animation editors, markers are shown at the bottom of the editor.
+*Markers* can be modified in the *Graph Editor* though it's usually best to use the *Timeline*.
+
+.. figure:: /images/editors_graph-editor_introduction_markers.png
+
+   Markers in animation editor.
+
+See :doc:`Markers </animation/markers>` for more info.
 
 
 Frame Menu

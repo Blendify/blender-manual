@@ -92,15 +92,7 @@ and the keyframes for the active and selected pose bones.
 Markers
 -------
 
-Markers are the small triangles, with their name near them.
-Markers are usually used to identify key parts of the animation.
-
-.. figure:: /images/animation_markers_standard.png
-
-   Markers.
-
 See the :doc:`Markers page </animation/markers>` for more information.
-
 
 Header
 ======
@@ -139,16 +131,26 @@ View All :kbd:`Home`
    Maximize the area based on the Animation Range.
 View Frame :kbd:`Numpad0`
    Centers the Timeline to the Time cursor.
+   
+.. removed in 2.8
+
 Bind Camera to Markers :kbd:`Ctrl-B`
    This is used switch cameras during animation.
    It binds the active camera to the selected markers.
    First select a camera. Then select the marker(s). Then use the tool.
 
 
-Marker Menu
-^^^^^^^^^^^
+Markers Menu
+^^^^^^^^^^^^
 
-See the :doc:`Markers page </animation/markers>` for more information.
+:doc:`Markers </animation/markers>` are used to denote frames with key points or significant events
+within an animation. Like with most animation editors, markers are shown at the bottom of the editor.
+
+.. figure:: /images/editors_graph-editor_introduction_markers.png
+
+   Markers in animation editor.
+
+For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
 
 
 Frame Menu

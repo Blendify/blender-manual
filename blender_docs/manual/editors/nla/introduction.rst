@@ -17,6 +17,37 @@ View Menu
 ---------
 
 Show Control F-Curves
-   ToDo.
+   Overlays a graph of strip's influence on top of the strip.
 Show Local Markers
-   ToDo 2.78.
+   Shows action-local markers on the strip, useful when synchronizing time across strips.
+
+.. seealso:: See Timeline's :ref:`timeline-view-menu`.
+
+
+Select Menu
+-----------
+
+Todo.
+
+Markers Menu
+------------
+
+:doc:`Markers </animation/markers>` are used to denote frames with key points or significant events
+within an animation. Like with most animation editors, markers are shown at the bottom of the editor.
+
+.. figure:: /images/editors_graph-editor_introduction_markers.png
+
+   Markers in animation editor.
+
+For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
+
+
+Edit Menu
+---------
+
+Todo.
+
+Add
+---
+
+Todo.
