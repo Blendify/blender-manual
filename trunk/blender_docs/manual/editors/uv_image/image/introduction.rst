@@ -17,7 +17,10 @@ New Image
 Open Image
    Load image from a file.
 Read Render Layers
-   ToDo.
+   Read all the current scene's render layers from cache, as needed.
+   This can be be used to save RAM while rendering because the render layers do not have to be saved in RAM.
+   This can also be used to recover some information from a fail render.
+   For this to work, :ref:`Save Buffers <render_properties_save-buffers>`must be enabled.
 Save All Images
    ToDo.
 Replace Image
