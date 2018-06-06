@@ -38,15 +38,14 @@ Sync Markers
 Markers Menu
 ------------
 
-Like with most animation editors, markers are shown at the bottom of the editor.
-*Markers* can be modified in the *Graph Editor* though it's usually best to use the *Timeline*.
+:doc:`Markers </animation/markers>` are used to denote frames with key points or significant events
+within an animation. Like with most animation editors, markers are shown at the bottom of the editor.
 
 .. figure:: /images/editors_graph-editor_introduction_markers.png
 
    Markers in animation editor.
 
-See :doc:`Markers </animation/markers>` for more info.
-
+For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
 
 Frame Menu
 ----------
