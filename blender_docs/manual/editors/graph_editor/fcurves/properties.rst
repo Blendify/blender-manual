@@ -1,4 +1,3 @@
-.. (todo add) view properties panel
 
 **********
 Properties
@@ -59,3 +58,32 @@ Left/Right Handle
 
    Handle Type
       See :ref:`editors-graph-fcurves-settings-handles`.
+
+
+.. _bpy.types.SpaceGraphEditor.show_cursor:
+.. _bpy.ops.graph.frame_jump:
+.. _graph_editor-view-properties:
+
+View Properties
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Properties region --> View --> View Properties`
+
+.. figure:: /images/editors_graph-editor_fcurves_properties_view-panel.png
+   :align: right
+   
+   View Properties.
+
+Show Cursor
+   Toggles the visibility of the :ref:`2D Cursor <graph_editor-2d-cursor>`.
+Cursor from Selection
+   Places the 2D Cursor at the midpoint of the selected keyframes.
+Cursor Location
+   Moves the cursor to the specified frame (X-value) and value (Y-value).
+To Keys
+   Applies the current location of the 2D cursor to the selected keyframes.
+
+.. seealso:: Graph Editor's :ref:`graph-view-menu`.

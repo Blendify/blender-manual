@@ -59,6 +59,9 @@ Scale View
    Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
 
 
+.. _graph_editor-2d-cursor:
+.. _bpy.types.SpaceGraphEditor.cursor:
+
 2D Cursor
 ---------
 
@@ -77,6 +80,8 @@ This can be disabled via the *View Menu* or the *View Properties* panel.
 
 The *Time Cursor* and the *Cursor* make the *2D Cursor*.
 The *2D Cursor* is mostly used for editing tools.
+
+.. seealso:: See Graph Editor's :ref:`graph_editor-view-properties`.
 
 
 View Axes
@@ -142,7 +147,10 @@ View Selected :kbd:`NumpadPeriod`
 View Frame :kbd:`Numpad0`
    Centers the area to the Time cursor.
 
-.. seealso:: See Timeline's :ref:`timeline-view-menu`.
+.. seealso::
+
+   - See Graph Editor's :ref:`graph_editor-view-properties`
+   - See Timeline's :ref:`timeline-view-menu`.
 
 
 .. _graph-preview-range:
