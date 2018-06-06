@@ -84,7 +84,7 @@ Dupligroup Visibility
    (using the :doc:`Dupligroup </editors/3dview/object/properties/duplication/dupligroup>` feature)
    will only show the portions of the group that reside in layers 10 and 11.
 Offset
-   ToDo.
+   Applies a locational offset of the dupli-instanced groups from the original object's origin.
 
 .. seealso:: Appending or Linking Groups
 
