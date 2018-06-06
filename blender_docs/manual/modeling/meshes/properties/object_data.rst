@@ -10,42 +10,11 @@ Meshes
 Normals
 =======
 
-.. admonition:: Reference
-   :class: refbox
+In geometry, a normal is a direction or line that is perpendicular to something,
+typically a triangle or surface but can also be relative to a line, a tangent line for a point on a curve,
+or a tangent plane for a point on a surface. Normals help determin the shading of the mesh among other things.
 
-   :Panel:     :menuselection:`Properties editor --> Object Data --> Normals`
-
-.. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
-
-   Normals panel.
-
-.. _auto-smooth:
-
-Auto Smooth
-   Edges where an angle between the faces is smaller than specified in the *Angle* button will be smoothed,
-   when shading of these parts of the mesh is set to smooth. This is an easier way to combine smooth and sharp edges.
-
-   Angle
-      Angle number button.
-
-Double Sided
-   Lighting with positive normals on back-faces of the mesh in the viewport (OpenGL).
-
-
-Example
--------
-
-.. figure:: /images/modeling_meshes_properties_object-data_example-auto-smooth.png
-   :width: 250px
-
-   Example mesh with *Auto Smooth* enabled.
-
-.. seealso:: Edge Split Modifier
-
-   With the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>` a result
-   similar to *Auto Smooth* can be achieved with the ability to choose which edges should be split,
-   based on angle.
-
+See :ref:`Normal Properties <modeling_meshes_editing_normals_properties>` for more information.
 
 .. _properties-texture-space:
 
@@ -67,31 +36,32 @@ Auto Texture Space
 Vertex Groups
 =============
 
-See :doc:`/modeling/meshes/properties/vertex_groups/vertex_groups`.
+Vertex groups can be used to assign a group or weighted group to some operator.
+An object can have several weight groups and can be assigned in
+:doc:`Weight Paint </modeling/meshes/properties/vertex_groups/vertex_groups` mode,
+or in :doc:`edit mode </modeling/meshes/properties/vertex_groups/assigning_vertex_group.rst>` via this panel.
 
-TODO add.
-
+See :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index.rst` for more information.
 
 Shape Keys
 ==========
 
-See :doc:`/animation/shape_keys/shape_keys_panel`.
-
-TODO add.
+Shape Keys can be used to transform one shape into another.
+See :doc:`/animation/shape_keys/shape_keys_panel` for more information.
 
 
 UV Maps
 =======
 
-See :ref:`uv-maps-panel`.
-
-TODO add.
+UV Maps are used to map a 3D object onto a 2D plane that determines where a texture appears on the 3D object.
+Different UV Maps can be used for different textures. For more information see :ref:`uv-maps-panel`.
 
 
 Vertex Colors
 =============
 
-TODO add.
+Color data can be applied directly to an object's vertices rather than using a texture or a material.
+Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/painting/vertex_paint/index.rst>` mode.
 
 
 Geometry Data
