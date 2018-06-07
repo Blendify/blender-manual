@@ -17,9 +17,9 @@ View Menu
 ---------
 
 Show Control F-Curves
-   Overlays a graph of strip's influence on top of the strip.
+   Overlays a graph of the strip's influence on top of the strip.
 Show Local Markers
-   Shows action-local markers on the strip, useful when synchronizing time across strips.
+   Shows action-local markers on the strip, this is useful when synchronizing time across strips.
 
 .. seealso:: See Timeline's :ref:`timeline-view-menu`.
 
@@ -28,6 +28,7 @@ Select Menu
 -----------
 
 Todo.
+
 
 Markers Menu
 ------------
@@ -46,6 +47,7 @@ Edit Menu
 ---------
 
 Todo.
+
 
 Add
 ---

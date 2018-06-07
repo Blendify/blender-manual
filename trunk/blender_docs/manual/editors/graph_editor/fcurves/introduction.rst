@@ -33,10 +33,10 @@ For example, if you have:
 
 - A control point of value 0 at frame 0,
 - another one of value 10 at frame 25,
-- and you use linear interpolation, sthen, at frame 5 we get a value of 2.
+- and you use linear interpolation, then, at frame 5 we get a value of 2.
 
 The same goes for all intermediate frames: with just two points,
-you get a smooth growth from (0 to 10) along the 25 frames.
+you get a smooth increase from (0 to 10) along the 25 frames.
 Obviously, if you would like the frame 15 to have a value of 9,
 you would have to add another control point (or keyframe)...
 

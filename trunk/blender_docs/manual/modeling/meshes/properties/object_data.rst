@@ -12,7 +12,7 @@ Normals
 
 In geometry, a normal is a direction or line that is perpendicular to something,
 typically a triangle or surface but can also be relative to a line, a tangent line for a point on a curve,
-or a tangent plane for a point on a surface. Normals help determin the shading of the mesh among other things.
+or a tangent plane for a point on a surface. Normals help to determine the shading of the mesh among other things.
 
 See :ref:`Normal Properties <modeling_meshes_editing_normals_properties>` for more information.
 
@@ -38,10 +38,11 @@ Vertex Groups
 
 Vertex groups can be used to assign a group or weighted group to some operator.
 An object can have several weight groups and can be assigned in
-:doc:`Weight Paint </modeling/meshes/properties/vertex_groups/vertex_groups` mode,
-or in :doc:`edit mode </modeling/meshes/properties/vertex_groups/assigning_vertex_group.rst>` via this panel.
+:doc:`Weight Paint </modeling/meshes/properties/vertex_groups/vertex_groups>` mode,
+or in :doc:`Edit Mode </modeling/meshes/properties/vertex_groups/assigning_vertex_group>` via this panel.
 
-See :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index.rst` for more information.
+See :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index>` for more information.
+
 
 Shape Keys
 ==========
@@ -61,7 +62,7 @@ Vertex Colors
 =============
 
 Color data can be applied directly to an object's vertices rather than using a texture or a material.
-Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/painting/vertex_paint/index.rst>` mode.
+Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/painting/vertex_paint/index>` mode.
 
 
 Geometry Data

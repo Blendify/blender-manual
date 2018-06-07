@@ -11,9 +11,9 @@ Debug Menu
 
    :Mode:      All Modes
    :Menu:      None
-   :Hotkey:    :kbd:`CTRL-ALT-D`
+   :Hotkey:    :kbd:`Ctrl-Alt-D`
 
-The options brings up a menu to set blender into a certain debug mode.
+The options brings up a menu to set Blender into a certain debug mode.
 
 There are several possible values, for example the most useful, a value of ``256``
 enables a debug panel in Cycles render settings that can be used to enable/disable
@@ -36,6 +36,6 @@ Redraw Timer
 
    :Mode:      All Modes
    :Menu:      None
-   :Hotkey:    :kbd:`CTRL-ALT-T`
+   :Hotkey:    :kbd:`Ctrl-Alt-T`
 
 This operator brings up a menu with a list of tests to benchmark UI drawing along with undo/redo functions.

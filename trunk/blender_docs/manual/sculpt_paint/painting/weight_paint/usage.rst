@@ -6,7 +6,7 @@ Using Vertex Groups
 .. _weight-painting-bones:
 
 Vertex Groups for Bones
------------------------
+=======================
 
 This is one of the main uses of weight painting.
 When a bone moves, vertices around the joint should move as well,
@@ -36,7 +36,7 @@ Pick up here for modifying automatically assigned weights.
    The mesh around the bone itself should be red (generally)
    and fade out through the rainbow to blue for vertices farther away from the bone.
 
-When you select a bone of the armature (which remained in *Pose Mode*),
+When you select a bone of the armature (which remains in *Pose Mode*),
 it will activate the corresponding vertex group and display related weights.
 You can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
 
