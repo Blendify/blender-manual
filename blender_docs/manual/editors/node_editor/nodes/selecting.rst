@@ -5,9 +5,9 @@ Selecting
 
 Border Select
    :kbd:`B` starts the bounding box selection process.
-   Position your cursor and :kbd:`LMB` click & drag to select a set of nodes.
+   Position your cursor and :kbd:`LMB` click and drag to select a set of nodes.
 Lasso Select
-   :kbd:`Ctrl-Alt-LMB` click & drag starts a lasso selection.
+   :kbd:`Ctrl-Alt-LMB` click and drag starts a lasso selection.
 
 (De)select All
    :kbd:`A`

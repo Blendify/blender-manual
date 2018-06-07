@@ -46,9 +46,9 @@ Progressive Refine
 
 Save Buffers
    Saves all render layers and passes to the temp directory on a drive,
-   and  reads them back after rendering has finished. This saves memory (RAM) usage during rendering,
+   and reads them back after rendering has finished. This saves memory (RAM) usage during rendering,
    particularly when using many render layers and passes. This can be read back in the Compositor
-   and Image editor by using :ref:`<bpy.ops.node.read_viewlayers>`.
+   and Image editor by using :ref:`bpy.ops.node.read_viewlayers`.
 
 
 Viewport

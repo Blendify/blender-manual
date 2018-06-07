@@ -123,7 +123,7 @@ and press :kbd:`M`.
    Markers can also be added while playback.
 
 
-    .. _marker-pose-add:
+.. _marker-pose-add:
 
 Pose Markers
 ------------
@@ -150,7 +150,6 @@ you can also select all markers with :kbd:`Ctrl-A`, and apply selection tools on
 The corresponding options are found in the Select menu of these editors.
 
 In the Timeline, you can select all markers with :kbd:`A`, and border select with :kbd:`B`.
-
 
 
 .. _animation-markers-editing:

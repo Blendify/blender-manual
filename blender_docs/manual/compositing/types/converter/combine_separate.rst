@@ -43,7 +43,7 @@ Separate/Combine RGBA Nodes
 
 
 Input/Output
--------------
+------------
 
 Image
    Standard image in/output.

@@ -74,7 +74,7 @@ View Properties
 
 .. figure:: /images/editors_graph-editor_fcurves_properties_view-panel.png
    :align: right
-   
+
    View Properties.
 
 Show Cursor
@@ -82,7 +82,7 @@ Show Cursor
 Cursor from Selection
    Places the 2D Cursor at the midpoint of the selected keyframes.
 Cursor Location
-   Moves the cursor to the specified frame (X-value) and value (Y-value).
+   Moves the cursor to the specified frame (X value) and value (Y value).
 To Keys
    Applies the current location of the 2D cursor to the selected keyframes.
 

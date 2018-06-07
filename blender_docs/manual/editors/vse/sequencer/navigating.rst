@@ -47,6 +47,7 @@ within an animation. Like with most animation editors, markers are shown at the 
 
 For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
 
+
 Frame Menu
 ----------
 

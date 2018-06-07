@@ -131,7 +131,7 @@ View All :kbd:`Home`
    Maximize the area based on the Animation Range.
 View Frame :kbd:`Numpad0`
    Centers the Timeline to the Time cursor.
-   
+
 .. removed in 2.8
 
 Bind Camera to Markers :kbd:`Ctrl-B`
