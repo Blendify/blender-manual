@@ -11,12 +11,13 @@ Relations Extras
 Tracking Axes
    TODO.
 
+   Applies to *DupliFrame* when parent *Follow* is enabled.
+   Applies to *DupliVerts* when *Rotation* is enabled.
+
    Axis
       Axis that points in the "forward" direction.
-      (Applies to *DupliFrame* when parent *Follow* is enabled).
    Up Axis
-      Axis that points in the upward direction.
-      (Applies to *DupliFrame* when parent *Follow* is enabled).
+      Axis that points in the "upward" direction.
 
 Show Parent
    Create a delay in the parent relation.
