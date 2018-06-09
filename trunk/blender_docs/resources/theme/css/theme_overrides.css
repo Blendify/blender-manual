@@ -144,18 +144,53 @@ footer p{ font-size: smaller}
 .download span:visited {color:#9B59B6}
 .download span:first-child::before {color:#4e4a4a}
 
-/*view page source to icon: text-file*/
-.wy-breadcrumbs-aside a{line-height: 0; font-size: 0;}
+/* breadcrumbs "Docs" and "View page source" to icons */
+.wy-breadcrumbs {
+	position: relative;
+	padding-right: 30px;
+}
+.wy-breadcrumbs-aside a {
+	position: absolute;
+	top: 2px;
+	right: 0;
+}
+.wy-breadcrumbs-aside a,
+.wy-breadcrumbs li:first-child a {
+	line-height: 0;
+	font-size: 0;
+}
 .wy-breadcrumbs-aside a::before {
-   content:"\f0f6";
-   font: normal normal normal 16px/1 FontAwesome;
-   vertical-align: middle; padding: 10px;
+	content: "\f121";
+	font: 16px/1 FontAwesome;
+	padding: 0 4px 0 8px;
+}
+.wy-breadcrumbs li:first-child a::before {
+	content: "\f015";
+	font: 16px/1 FontAwesome;
+	color: #676767;
 }
 .wy-breadcrumbs-aside a:hover::after {
 	content: "View page source";
-	position: absolute; transform: translate(-120px,26px); -ms-transform: translate(-120px,26px); -webkit-transform: translate(-120px,26px);
-	line-height: 0.5em; font-size: 16px; color: gray;white-space: nowrap;
+	position: absolute;
+	top: -6px;
+	right: -8px;
+	font-size: 13px;
+	color: gray;
+	white-space: nowrap;
 }
+
+/* spacing bugfix */
+.wy-breadcrumbs li a:first-child{padding:5px}
+.wy-breadcrumbs li:first-child a{padding-left:0}
+
+/* blockquote > dl bugfix */
+.rst-content dl{line-height:normal}
+/* multi-paragraph dl bugfix */
+.rst-content dl p{line-height:inherit}
+
+/* quotes for Fig. "link" */
+a[href^="#fig-"]::before {content: "\201c";}
+a[href^="#fig-"]::after {content: "\201d";}
 
 /*intermediate headline*/
 .rubric {font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
