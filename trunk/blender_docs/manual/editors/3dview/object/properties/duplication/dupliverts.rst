@@ -10,9 +10,18 @@ DupliVerts
    :Mode:      Object Mode
    :Panel:     :menuselection:`Object --> Duplication`
 
-*Duplication Vertices* or *DupliVerts* is the duplication of a base object at the location
-of a mesh's vertices. In other words, when using *DupliVerts* on a mesh,
-an instance of the base object is placed on every vertex of the mesh.
+Using *Duplication Vertices* (or *DupliVerts*) allows you to replicate child objects
+at the location of every vertex of the parent object.
+
+.. note::
+   The relative :doc:`Object Origin </editors/3dview/object/origin>` position
+   of the parent and child objects determines offset duplicated geometry from parent vertex.
+
+Rotation
+   Rotates all duplicated objects according to the corresponding vertex normals of the parent mesh.
+
+   To change the axis of direction of the duplicated objects, select the child object and
+   in the :menuselection:`Object --> Relations Extras` panel change the :menuselection:`Tracking Axes`.
 
 There are actually two approaches to modeling using *DupliVerts*.
 They can be used as an arranging tool,
@@ -36,24 +45,29 @@ DupliVerts as an Arranging Tool
 Setup
 -----
 
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-before.png
-
-   A monkey head and a circle.
-
 All you need is a base object (e.g. the *tree* or the *column*)
 and a pattern mesh with its vertices following the pattern you have in mind. In this section,
 we will use a simple scene for the following part. We will be using a monkey head located at
 the origin of the coordinate system as our base object and a circle at the same location as
 our parent mesh.
 
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-after.png
+.. list-table::
 
-   Dupliverted monkeys.
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-before.png
+          :width: 320px
+
+          A monkey head and a circle.
+
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-after.png
+          :width: 320px
+
+          Dupliverted monkeys.
 
 First, in *Object Mode*,
 select the base object and :kbd:`Shift-RMB` to add the circle to the selection
 (order is very important here),
-and :kbd:`Ctrl-P` to parent the base object to the circle.
+and :kbd:`Ctrl-P` or :menuselection:`Object --> Parent --> Object`
+to parent the base object to the circle.
 Now, the circle is the parent of the monkey; if you move the circle, the monkey will follow it.
 
 With only the circle selected, enable *Duplication vertices*
@@ -83,10 +97,6 @@ objects.
 Orientation
 -----------
 
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_orientation.png
-
-   Orientation enabled, orientation +Y.
-
 The orientation of the base objects can be controlled by
 enabling *Rotation* in the *Duplication* panel.
 This will rotate all base objects according to the vertex normals of the parent mesh.
@@ -94,19 +104,27 @@ This will rotate all base objects according to the vertex normals of the parent 
 To change the orientation of the duplicated objects, select the base object and
 in the :menuselection:`Object --> Relations extras` panel change the :menuselection:`Tracking Axes`.
 
-Output of various orientations:
+.. list-table:: Output of various orientations.
 
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_negy.png
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_orientation.png
+          :width: 320px
 
-   Negative Y.
+          Orientation enabled, orientation +Y.
 
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posx.png
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_negy.png
+          :width: 320px
 
-   Positive X.
+          Negative Y.
 
-.. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posz.png
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posx.png
+          :width: 320px
 
-   Positive Z, up X.
+          Positive X.
+
+     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posz.png
+          :width: 320px
+
+          Positive Z, up X.
 
 .. note::
 

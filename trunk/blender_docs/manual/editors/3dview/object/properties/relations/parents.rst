@@ -221,8 +221,7 @@ Vertex Parent
 For objects of type curve, surface, mesh and lattice,
 there is the possibility to use one of its vertices or points as the parent of other objects.
 You can parent an object to a single vertex or a group of three vertices as well;
-that way the child/children will move when the parent mesh is deformed,
-like a mosquito on a pulsing artery.
+that way the child/children will move when the parent mesh is deformed.
 
 
 Vertex Parent from Edit Mode
@@ -247,8 +246,8 @@ Vertex Parent from Object Mode
 ------------------------------
 
 Vertex parenting can be performed from object mode,
-This is done like regular object parenting,
-Press :kbd:`Ctrl-P` in object mode and select *Vertex* or *Vertex (Triangle)*.
+this is done like regular object parenting,
+press :kbd:`Ctrl-P` in object mode and select *Vertex* or *Vertex (Triangle)*.
 
 The nearest vertices will be used from each object which is typically what you would want.
 

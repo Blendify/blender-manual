@@ -49,6 +49,9 @@ Interpolation Options
    Constant
       Uses a *Constant* Interpolation for the color stops.
 
+.. (TODO add) more interpolation options:
+   https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.72/More_Features
+
 Active Color Stop
    Index of the active color stop (shown as a dashed line).
    Allows you to change the active color when colors may be too close to easily select with the cursor.
