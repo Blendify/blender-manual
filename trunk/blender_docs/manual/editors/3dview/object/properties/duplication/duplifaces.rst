@@ -15,6 +15,19 @@ DupliFaces
 *Duplication Faces* or *DupliFaces* is the capability to replicate an object on each face of a parent object.
 One of the best ways to explain this is through an example illustration.
 
+Scale
+   Scales each instances according to the size of its corresponding face.
+
+   Inherit Scale
+      Scale the *DupliFaces* objects.
+
+*Make Dupli-Face* tool converts linked objects (that share mesh data) into dupli-face instanced.
+That tool creates the parent object (duplicator) with faces where the objects were,
+then it uses *Duplication Faces* to put instances at the location of every created faces.
+
+You can to go back from *DupliFaces* instancing to multiple linked objects using
+:menuselection:`Object --> Apply --> Make Duplicates Real`, :kbd:`Shift-Ctrl-A`.
+
 .. seealso:: Example blend-file
 
    Download the blend-file used for the examples on this page
@@ -24,18 +37,22 @@ One of the best ways to explain this is through an example illustration.
 Basic Usage
 ===========
 
-.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-before.png
-
-   A cube and a sphere.
-
 In this example we will use a UV sphere with an extruded "north pole" as our base object and
 cube as our parent mesh. To parent the sphere to the cube, in *Object Mode*,
 first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 (order is very important here), and finally :kbd:`Ctrl-P` to parent.
 
-.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-after.png
+.. list-table::
 
-   Duplication Faces applied to the cube.
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-before.png
+          :width: 320px
+
+          A cube and a sphere.
+
+     - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-after.png
+          :width: 320px
+
+          Duplication Faces applied to the cube.
 
 Next, in the :menuselection:`Object tab --> Duplication panel`,
 enable *Faces*. The sphere is duplicated one for each face of the cube.
@@ -53,13 +70,17 @@ but neither is rendered.
 Scale
 =====
 
-.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-enabled.png
+.. list-table::
 
-   Scale enabled.
+   * - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-enabled.png
+          :width: 320px
 
-.. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-changed.png
+          Scale enabled.
 
-   Top face of cube scaled down.
+     - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-changed.png
+          :width: 320px
+
+          Top face of cube scaled down.
 
 By enabling *Scale* for the parent object,
 the scale of the child objects will be adapted to the size of each face in the parent object.
