@@ -167,12 +167,11 @@ footer p{ font-size: smaller}
 .wy-breadcrumbs li:first-child a::before {
 	content: "\f015";
 	font: 16px/1 FontAwesome;
-	color: #676767;
 }
 .wy-breadcrumbs-aside a:hover::after {
 	content: "View page source";
 	position: absolute;
-	top: -6px;
+	bottom: -6px;
 	right: 0;
 	font-size: 13px;
 	color: gray;
@@ -268,6 +267,7 @@ a.external {color:#656AE0;}
 .descr {
 	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
 	margin: 15px; padding: 0px;
+	transition: width 0.7s ease-out; -webkit-transition: width 0.7s ease-out;
 }
 .descr div.figure{margin-bottom: 18px}
 .descr dl {margin-bottom: 10px}
