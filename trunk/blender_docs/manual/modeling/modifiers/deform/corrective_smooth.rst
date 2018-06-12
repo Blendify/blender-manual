@@ -1,8 +1,8 @@
 .. _bpy.types.CorrectiveSmoothModifier:
 
-*****************
-Corrective Smooth
-*****************
+**************************
+Corrective Smooth Modifier
+**************************
 
 This modifier is used to reduce highly distorted areas of a mesh by smoothing the deformations.
 

@@ -54,7 +54,7 @@ Mark Sharp and Clear Sharp
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
+   :Menu:      :menuselection:`Mesh --> Edges --> Mark Sharp/Clear Sharp` (or the same options in *Edge Specials* menu)
 
 The *Sharp* flag is used by the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`,
 which is part of the smoothing techniques.
