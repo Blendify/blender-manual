@@ -194,11 +194,11 @@ Blender will then pick up with that shape and resume the simulation.
 Edit the mesh to correct minor tears and
 places where the colliding object has punctured the cloth.
 
-If you add, delete, extrude, or remove vertices in the mesh, Blender will take the new mesh as
+If you add, delete, or extrude vertices in the mesh, Blender will take the new mesh as
 the starting shape of the mesh back to the *first frame* of the animation,
 replacing the original shape you started with,
 up to the frame you were on when you edited the mesh. Therefore,
-if you change the content of a mesh, when you :kbd:`Tab` out of *Edit Mode*,
+if you change the content of a mesh, when you press :kbd:`Tab` out of *Edit Mode*,
 you should unprotect and clear the cache so that Blender will make a consistent simulation.
 
 
