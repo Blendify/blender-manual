@@ -13,6 +13,6 @@ Item Panel
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Properties region --> Item`
+   :Panel:     :menuselection:`Properties region --> Item`
 
 This panel lets you edit the name of the active object.
