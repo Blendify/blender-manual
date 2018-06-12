@@ -18,7 +18,7 @@ Transform Panel
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Transform`
+   :Panel:     :menuselection:`Object --> Transform`
    :Panel:     :menuselection:`Properties region --> Transform`
 
 The *Transform* panel in the Properties region allows you to view and
