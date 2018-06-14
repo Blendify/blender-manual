@@ -11,10 +11,10 @@ Musgrave Texture Node
 
 The *Musgrave Texture* is used to add an advanced procedural noise texture.
 
-.. tip::
-
-   The *Musgrave Texture* often needs some adjustments
-   (multiplication and addition) in order to see more detail.
+Musgrave is a type of *Fractal Noise*.
+Simple *Perlin Noise* is generated multiple times with different scaling,
+and the results are combined in different ways depending on the Musgrave type.
+This results in a detailed texture with self-similar appearance at different scales, like fractals.
 
 
 Inputs
@@ -22,26 +22,50 @@ Inputs
 
 Vector
    Texture coordinate to sample texture at;
-   defaults to Generated texture coordinates if the socket is left unconnected.
+   defaults to *Generated* texture coordinates if the socket is left unconnected.
 Scale
    Overall texture scale.
 Detail
-   Amount of noise detail.
+   Controls how many instances of base noise texture are combined.
+   Each extra instance is scaled and brings more small details.
 Dimension
-   The highest fractal dimension, specified as the highest scale for the steps of the intensity.
+   Controls the intensity of the different instances of base noise.
+   Setting it to zero will use the same intensities for all noise instances.
+   Larger values will reduce the intensity of finer (larger-scaled) instances,
+   making smaller details less visible.
 Lacunarity
-   The space of the lacunarity, specified as a frequency factor.
+   Controls the scale of the different instances of base noise.
+   This is a factor for scaling each further instance, relative to the previous one,
+   i.e. the scales grow exponentially. When setting it to 1 all instances have the same scale.
 Offset
-   The offset of the fractal, specified between black-and-white values (Intensity).
+   This value is added to each noise instance, determines the level where least fine noise will appear.
+   It only has an effect for *Hybrid Multifractal*, *Ridged Multifractal* and *Hetero Terrain*.
 Gain
-   A multiplier for the gain input.
+   An extra multiplier to change the intensity of finer noise instances.
+   It only has an effect for *Hybrid Multifractal* and *Ridged Multifractal*.
 
 
 Properties
 ==========
 
 Type
-   Multifractal, Ridged Multifractal, Hybrid Multifractal, fBM, Hetero Terrain.
+   Specifies different methods to combine the multiple noise instances.
+   Originally, the algorithms for generating procedural terrain.
+
+   fBM (fractal Brownian Motion)
+      Produces a non-natural homogeneous and isotropic result.
+      Uses a additive cascade, the values are simply added together. 
+   Multifractal
+      The result is more uneven (varies with location), more similar to the real terrain.
+      Uses a multiplicative cascade.
+   Hybrid Multifractal
+      Creates peaks and valleys with different roughnesses, like real mountains rise out of flat plains.
+      Combines the additive cascade with the multiplicative cascade.
+   Ridged Multifractal
+      Creates sharp peaks. Calculates the absolute value of noise,
+      creating "canyons", and then flips the surface upside down.
+   Hetero Terrain (Heterogeneous Terrain)
+      Similar to *Hybrid Multifractal* creates heterogeneous terrain, but with the likeness of a river channels.
 
 
 Outputs
@@ -49,8 +73,14 @@ Outputs
 
 Color
    Texture color output.
+   It is grayscale, all three RGB components are equal to the value of the *Factor* output.
 Factor
    Texture intensity output.
+
+.. tip::
+
+   The *Musgrave Texture* often needs some adjustments (e.g. by multiplication and addition)
+   in order to avoid clipping and see more detail.
 
 
 Examples
@@ -68,3 +98,40 @@ Examples
           :width: 320px
 
           Musgrave texture.
+
+
+Musgrave Types
+--------------
+
+.. list-table:: Different Musgrave types with a same parameters.
+
+   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-fbm.jpg
+          :width: 320px
+
+          fBM (fractal Brownian Motion)
+
+     - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-multifractal.jpg
+          :width: 320px
+
+          Multifractal
+
+   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-hybrid.jpg
+          :width: 320px
+
+          Hybrid Multifractal
+
+     - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-terrain.jpg
+          :width: 320px
+
+          Heterogeneous Terrain
+
+   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-ridged.jpg
+          :width: 320px
+
+          Ridged Multifractal
+
+     - ..
+
+.. seealso::
+
+   :doc:`Displacement </render/cycles/materials/displacement>`
