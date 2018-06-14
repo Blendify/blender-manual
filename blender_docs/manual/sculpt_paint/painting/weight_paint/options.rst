@@ -50,6 +50,7 @@ X Mirror
    The convention for armatures/bones apply here as well.
 Topology Mirror
    Use topology-based mirroring, for when both sides of a mesh have matching mirrored topology.
+   See :ref:`here <modeling_meshes_editing_topology-mirror>` for more information.
 Show Zero Weights
    To display unreferenced and zero weighted areas in black (by default).
    This helps to identify areas with very low weights that have been painted onto.

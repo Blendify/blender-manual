@@ -97,6 +97,7 @@ All Groups
    Operate on all selected bones.
 Topology Mirror
    Mirror for meshes which are not 100% symmetric (approximate mirror).
+   See :ref:`here <modeling_meshes_editing_topology-mirror>` for more information.
 
    .. tip:: Mirror to Opposite Bone
 
@@ -107,7 +108,7 @@ Topology Mirror
       #. Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy).
       #. Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above).
       #. Select the Target Vertex Group and call the Mirror tool
-         (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric).
+         (use only the Mirror weights option and optionally *Topology Mirror* if your mesh is not symmetric).
 
 
 Invert
