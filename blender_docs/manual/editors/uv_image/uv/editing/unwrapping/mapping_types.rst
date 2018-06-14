@@ -4,8 +4,6 @@
 Mapping Types
 *************
 
-.. _bpy.ops.uv.unwrap:
-
 .. admonition:: Reference
    :class: refbox
 
@@ -34,6 +32,8 @@ The more advanced methods can be used with more complex models, and have more sp
    Based on the fundamental geometry of the object, and how it is being viewed,
 .. Advanced: Unwrap; Smart UV Project; Lightmap Pack; Follow Active Quads
 
+
+.. _bpy.ops.uv.unwrap:
 
 Unwrap
 ======
@@ -92,6 +92,8 @@ Margin
    A face can be mapped to less and less of the total image.
 
 
+.. _bpy.ops.uv.smart_project:
+
 Smart UV Project
 ================
 
@@ -135,6 +137,8 @@ Area Weight
    Weight projection's vector by faces with larger areas.
 
 
+.. _bpy.ops.uv.lightmap_pack:
+
 Lightmap Pack
 =============
 
@@ -175,6 +179,8 @@ Margin
    A higher number will add more space in between islands.
 
 
+.. _bpy.ops.uv.follow_active_quads:
+
 Follow Active Quads
 ===================
 
@@ -200,6 +206,8 @@ Length
    not its shape in 3D space. To get a clean 90-degree unwrap make sure the active quad is
    a rectangle in UV space before using "Follow active quad".
 
+
+.. _bpy.ops.uv.cube_project:
 
 Cube Projection
 ===============
@@ -232,6 +240,9 @@ Clip to Bounds
 Scale to Bounds
    If the UV map is larger than the (0 to 1) range, the entire map will be scaled to fit inside.
 
+
+.. _bpy.ops.uv.cylinder_project:
+.. _bpy.ops.uv.sphere_project:
 
 Cylinder and Sphere Projection
 ==============================
@@ -285,6 +296,8 @@ Radius
    The radius of the cylinder to use.
 
 
+.. _bpy.ops.uv.project_from_view:
+
 Project from View
 =================
 
@@ -305,9 +318,11 @@ Orthographic
 Project from View (Bounds)
 ==========================
 
-With Bounds will do the same as *Project from View*
+With Bounds will do the same as `Project from View`_
 but with *Scale to Bounds* and *Correct Aspect* activated.
 
+
+.. _bpy.ops.uv.reset:
 
 Reset
 =====
