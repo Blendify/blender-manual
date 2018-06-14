@@ -14,6 +14,7 @@ Using *Duplication Vertices* (or *DupliVerts*) allows you to replicate child obj
 at the location of every vertex of the parent object.
 
 .. note::
+
    The relative :doc:`Object Origin </editors/3dview/object/origin>` position
    of the parent and child objects determines offset duplicated geometry from parent vertex.
 

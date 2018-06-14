@@ -22,7 +22,7 @@ Scale
       Scale the *DupliFaces* objects.
 
 *Make Dupli-Face* tool converts linked objects (that share mesh data) into dupli-face instanced.
-That tool creates the parent object (duplicator) with faces where the objects were,
+This tool creates the parent object (duplicator) with faces where the objects were,
 then it uses *Duplication Faces* to put instances at the location of every created faces.
 
 You can to go back from *DupliFaces* instancing to multiple linked objects using

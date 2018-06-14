@@ -33,7 +33,7 @@ Examples
 ========
 
 In Fig. :ref:`fig-object-duplication-dupliframes-driver`
-*DupliFrames* is applied to the object that is animated 
+*DupliFrames* is applied to the object that is animated
 using the :doc:`Drivers </animation/drivers/index>` with a scripted expression
 and moves along the sine wave.
 
