@@ -25,7 +25,7 @@ special kernels and other special debugging features.
 
    Developers can search the code for ``G.debug_value`` to find other possible uses for this operator.
 
-.. note:
+.. note::
 
    Additional debug options are available by launching Blender in debug mode or setting ``bpy.app.debug = True``.
 
@@ -57,14 +57,14 @@ Memory Statistics
    :Menu:      None
    :Hotkey:    None
 
-This operator which can be found by searching "Memory Statistics" from the
-:doc:`Operator Search <interface/controls/templates/operator_search>`
+This operator which can be found by searching "Memory Statistics" from
+the :doc:`Operator Search </interface/controls/templates/operator_search>`
 will print useful information about memory objects, their size and user count.
 
-.. warning::
+.. important::
 
-   To fully use this operator run Blender from the console with ``--debug-memory``
-   
+   To fully use this operator run Blender from the console with ``--debug-memory``.
+
 
 .. _bpy.ops.wm.dependency_relations:
 
@@ -78,11 +78,11 @@ Dependency Relations
    :Menu:      None
    :Hotkey:    None
 
-This operator which can be found by searching "Dependency Relations" from the
-:doc:`Operator Search <interface/controls/templates/operator_search>`
+This operator which can be found by searching "Dependency Relations" from
+the :doc:`Operator Search </interface/controls/templates/operator_search>`
 will print the relations for every scene and object in the blend-file.
 
-.. warning::
+.. important::
 
-   This operator will only work if Blender is started from the console with ``--debug-depsgraph``
-   
+   This operator will only work if Blender is started from the console with ``--debug-depsgraph``.
+

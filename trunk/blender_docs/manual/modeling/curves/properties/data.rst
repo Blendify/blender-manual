@@ -127,19 +127,19 @@ Follow
    A more future-proof method is the :doc:`/rigging/constraints/relationship/follow_path`.
 
 
-Workflow
---------
+Example
+-------
 
 This example shows you how setup a *Path Animation*.
 
-1. Add an object you want to animate and a path along which this object will move.
+#. Add an object you want to animate and a path along which this object will move.
    In this example it's the *Monkey* and the *Bézier Circle*.
-2. To parent the monkey to the Bézier circle, first select the monkey then the curve
+#. To parent the monkey to the Bézier circle, first select the monkey then the curve
    (so that the curve is the active object), press :kbd:`Ctrl-P` and select *Follow Path*.
    It will automatically animate *Evaluation Time* and activate *Follow* option
    in the *Path Animation* panel.
-3. Select the monkey and *Clear Origin* :kbd:`Alt-O` to reset its offset.
-4. You can change the orientation of the monkey by changing the *Tracking Axes*
+#. Select the monkey and *Clear Origin* :kbd:`Alt-O` to reset its offset.
+#. You can change the orientation of the monkey by changing the *Tracking Axes*
    under *Relations Extras* (with the monkey selected).
 
 .. list-table::
@@ -147,12 +147,12 @@ This example shows you how setup a *Path Animation*.
    * - .. figure:: /images/modeling_curves_properties_data_path-animation-example-1.png
           :width: 320px
 
-          Monkey parented to the Bézier Circle in step 2.
+          Monkey parented to the Bézier Circle.
 
      - .. figure:: /images/modeling_curves_properties_data_path-animation-example-2.png
           :width: 320px
 
-          Animation after steps 3 and 4.
+          The final result.
 
 
 Active Spline

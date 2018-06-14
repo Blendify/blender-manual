@@ -41,11 +41,11 @@ Documentation Links
 
 While going through the tutorial, you may want to look into our reference documentation.
 
-- :ref:`blender_api:Blender API Overview <info_overview>`. --
+- :ref:`blender_api:Blender API Overview <info_overview>` --
   *This document is rather detailed but helpful if you want to know more on a topic.*
-- :mod:`blender_api:bpy.context` API reference. --
+- :mod:`blender_api:bpy.context` API reference --
   *Handy to have a list of available items your script may operate on.*
-- :class:`blender_api:bpy.types.Operator`. --
+- :class:`blender_api:bpy.types.Operator` --
   *The following add-ons define operators, these docs give details and more examples of operators.*
 
 
