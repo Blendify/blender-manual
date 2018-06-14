@@ -10,6 +10,8 @@ Mesh Options
    :Panel:     :menuselection:`Tool Shelf --> Options tab --> Mesh Options panel`
 
 
+.. _bpy.types.Mesh.use_mirror_x:
+
 X Mirror
 ========
 
@@ -24,6 +26,9 @@ it will be transformed accordingly, through a symmetry along the local X axis.
    To have an exact mirrored version of a (half) mesh,
    its easier and simpler to use the :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
 
+
+.. _modeling_meshes_editing_topology-mirror:
+.. _bpy.types.Mesh.use_mirror_topology:
 
 Topology Mirror
 ===============
