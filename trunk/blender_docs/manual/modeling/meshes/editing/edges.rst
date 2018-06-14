@@ -33,6 +33,8 @@ Set Edge Attributes
 Edges can have several different attributes that affect how certain other tools affect the mesh.
 
 
+.. _bpy.ops.mesh.mark_seam:
+
 Mark Seam and Clear Seam
 ------------------------
 
@@ -46,6 +48,8 @@ Seams are a way to create separations, "islands", in UV maps.
 See the :ref:`UV Mapping section <editors-uv-image-index>` for more details.
 These operators set or unset this flag for selected edges.
 
+
+.. _bpy.ops.mesh.mark_sharp:
 
 Mark Sharp and Clear Sharp
 --------------------------
@@ -62,6 +66,7 @@ As seams, it is a property of edges, and these operators set or unset it for sel
 
 
 .. _modeling-edges-bevel-weight:
+.. _bpy.ops.transform.edge_bevelweight:
 
 Adjust Bevel Weight
 -------------------
@@ -81,6 +86,7 @@ you can set the (average) bevel weight of selected edges.
 
 
 .. _modeling-edges-crease-subdivision:
+.. _bpy.ops.transform.edge_crease:
 
 Edge Crease
 -----------
@@ -212,6 +218,7 @@ in different edge loops.
 
 
 .. _modeling-meshes-editing-edges-rotate:
+.. _bpy.ops.mesh.edge_rotate:
 
 Rotate Edge
 ===========
@@ -239,16 +246,16 @@ The tool operates on selected edges or the shared edge between selected faces.
 
           Edge, rotated CW.
 
+.. warning::
 
-Using Face Selection
---------------------
+   To rotate an edge based on faces you must select adjacent face pairs,
+   otherwise Blender notifies you with an error message,
+   *"Could not find any select edges that can be rotated"*. Using either *Rotate Edge CW*
+   or *Rotate Edge CCW* will produce exactly the same results as if you had
+   selected the common edge.
 
-To rotate an edge based on faces you must select adjacent face pairs,
-otherwise Blender notifies you with an error message,
-*"Could not find any select edges that can be rotated"*. Using either *Rotate Edge CW*
-or *Rotate Edge CCW* will produce exactly the same results as if you had
-selected the common edge.
 
+.. _bpy.ops.mesh.edge_split:
 
 Edge Split
 ==========
