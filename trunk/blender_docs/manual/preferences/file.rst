@@ -157,23 +157,16 @@ Auto Save
 =========
 
 Keep Session
-   Always saves the blend-file after quitting Blender and reloads it after re-starting Blender.
-
+   Automatically loads ``quit.blend`` file after re-starting Blender.
+   This file is always saved on quit, regardless of this option.
+   See :ref:`Recover Last Session <troubleshooting-file-recovery>`.
 Auto Save Temporary Files
-   Enable Auto Save (create a temporary file).
-
-   Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp
-   directory (refer to the *File* tab in the *User Preferences* for its location).
-
-   The Auto Saved files are named using a random number and have a blend extension.
+   Enable :doc:`Auto Save </troubleshooting/recover>`.
+   Tells Blender to *automatically* save a backup copy of your work-in-progress to the :ref:`temp-dir`.
 Timer
-   Time to wait between automatic saves.
-
-   This specifies the number of minutes between each Auto Save.
-   The default value of the Blender installation is 5 (5 minutes).
+   This specifies the number of minutes to wait between each :doc:`Auto Save </troubleshooting/recover>`.
+   The default value of the Blender installation is 2 minutes.
    The minimum is 1, and the Maximum is 60 (save every hour).
-
-:doc:`Read more about Auto Save options </troubleshooting/recover>`.
 
 
 Text Editor
