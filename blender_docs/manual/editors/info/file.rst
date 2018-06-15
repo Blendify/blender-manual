@@ -13,10 +13,10 @@ Open Recent :kbd:`Shift-Ctrl-O`
    Displays a list of :ref:`recently <other-file-open-options>` saved blend-files to open.
 Recover Last Session
    This will load the ``quit.blend`` file Blender automatically saves just before exiting.
-   So this :ref:`option <other-file-open-options>` enables you to :doc:`recover </troubleshooting/recover>`
+   So this option enables you to :doc:`recover </troubleshooting/recover>`
    your last work session, e.g. if you closed Blender by accident.
 Recover Auto Save
-   :ref:`This <other-file-open-options>` will open an automatically saved file
+   This will open an automatically saved file
    to :doc:`recover </troubleshooting/recover>` it.
 Save :kbd:`Ctrl-S`
    :doc:`Save </data_system/files/save>` the current blend-file.
