@@ -611,7 +611,7 @@ This page lists definitions for terms used in Blender and this manual.
       See :term:`Alpha Channel`.
 
    Primaries
-      In color theory, a primary (often known as primary color) is the abstract lights,
+      In color theory, primaries (often known as primary colors) are the abstract lights,
       using an absolute model, that make up a :term:`color space`.
 
    Primitive

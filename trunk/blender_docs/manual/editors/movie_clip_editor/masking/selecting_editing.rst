@@ -39,9 +39,9 @@ Add Vertex and Slide :kbd:`Ctrl-LMB`
 Transform
    Existing control points can be moved with :kbd:`LMB` and
    translated, scaled and rotated with the usual :kbd:`G`, :kbd:`S`, :kbd:`R` shortcuts.
-   The whole spline can be move by dragging the center dot with :kbd:`LMB`.
+   The whole spline can be moved by dragging the center dot with :kbd:`LMB`.
 Toggle Cyclic :kbd:`Alt-C`
-   Toggle to create a close curve or open it again.
+   Toggle to create a closed curve or open it again.
    Close the mask by joining the last control point to the first.
 Delete :kbd:`X`
    Removes control points.
