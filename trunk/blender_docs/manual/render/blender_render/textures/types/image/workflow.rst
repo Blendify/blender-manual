@@ -93,18 +93,6 @@ denser pattern by using the texture controls for repeat or size.
 Layering UV Textures
 --------------------
 
-.. list-table::
-
-   * - .. figure:: /images/render_blender-render_textures_types_image_workflow_uv-layer-one.jpg
-          :width: 320px
-
-          Base UV texture.
-
-     - .. figure:: /images/render_blender-render_textures_types_image_workflow_uv-layer-two.jpg
-          :width: 320px
-
-          Layered UV texture.
-
 Great textures are formed by layering images on top of one another.
 You start with a base layer, which is the base paint. Each successive layer on top of that is
 somewhat transparent to let the bottom layers show through,
@@ -183,11 +171,6 @@ The vertex colors are used to modulate the brightness or color of the UV image t
 - Procedural textures are laid on top of that,
 - Area lights shine on the surface, casting shadows and what not, and finally
 - Ambient light lights it up.
-
-.. figure:: /images/render_blender-render_textures_types_image_workflow_uv-vertex-colors.jpg
-   :width: 550px
-
-   Vertex colors modulate texture.
 
 A UV layout can only have one image, although you can tile and animate the image.
 Since a layout is a bunch of arranged UV maps, and a UV map maps many mesh faces,

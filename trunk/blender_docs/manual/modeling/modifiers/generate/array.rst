@@ -145,35 +145,6 @@ Examples
    `Sample blend-file <https://wiki.blender.org/index.php/Media:Manual-Modifier-Array-Tentacle01.blend>`__.
 
 
-Mechanical
-----------
-
-.. list-table::
-
-   * - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-bridge.jpg
-          :width: 320px
-
-          A bridge made from a tileable mesh.
-
-     - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-track.png
-          :width: 320px
-
-          A track.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Tracktest.blend>`__.
-
-   * - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-cog.jpg
-          :width: 320px
-
-          A cog created from a single segment.
-          `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Cog01.blend>`__.
-
-     - .. figure:: /images/modeling_modifiers_generate_array_example-mechanical-crankshaft.jpg
-          :width: 320px
-
-          A crankshaft.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__.
-
-
 Fractal
 -------
 
@@ -188,33 +159,7 @@ Fractal
           :width: 320px
 
           Fractal created with multiple arrays.
-          `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__.
-
-   * - .. figure:: /images/modeling_modifiers_generate_array_example-fractal-3.jpg
-          :width: 320px
-
-          A fractal fern image created with two Array Modifiers and one mirror applied to a cube.
-
-     - ..
-
-
-Organic
--------
-
-.. list-table::
-
-   * - .. figure:: /images/modeling_modifiers_generate_array_example-organic-fractal.jpg
-          :width: 320px
-
-          Subdivided cube array with one object offset,
-          four cubes and a high vertex merge setting to give the effect of skinning.
-
-     - .. figure:: /images/modeling_modifiers_generate_array_example-organic-spiral.png
-          :width: 320px
-
-          A double spiral created with two Array Modifiers and one Subdivision Surface Modifier applied to a cube.
-          As above, the vertex merge threshold is set very high to give the effect of skinning.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__.
+          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__.
 
 
 Tutorials

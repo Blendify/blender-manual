@@ -26,16 +26,6 @@ This image is thus in two dimensions (2D). We use U and V to refer to these
 When the box is reassembled, a certain UV location on the paper is transferred to an (X, Y, Z)
 location on the box. This is what the computer does with a 2D image in wrapping it around a 3D object.
 
-.. list-table::
-
-   * - .. figure:: /images/editors_uv-image_uv_overview_boxprecut.jpg
-
-          Box being inspected.
-
-     - .. figure:: /images/editors_uv-image_uv_overview_boxcutup.jpg
-
-          Box mapped flat.
-
 During the UV unwrapping process, you tell Blender exactly how to map the faces of your object (in this case, a box)
 to a flat image in the UV/Image Editor. You have complete freedom in how to do this.
 (Continuing our previous example, imagine that, having initially laid the box flat on the tabletop,
