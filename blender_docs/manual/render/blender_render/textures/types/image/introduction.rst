@@ -37,14 +37,7 @@ such as 32×32, 64×64, 128×128, 256×256, 1024×1024, 2048×2048, and 4096×40
 
 If you can reuse images across different meshes, this greatly reduces memory requirements.
 You can reuse images if you map those areas of the meshes that "look alike" to a layout that
-uses the common image. In the overview below,
-the left image is reused for both the sphere and a portion of the monkey.
-The monkey uses two layouts, one which has one UV map of a few faces,
-and another that has three maps.
-
-.. figure:: /images/render_blender-render_textures_types_image_introduction_uv-overview.jpg
-
-   How all the parts of UV texturing work together.
+uses the common image.
 
 When using file textures, it is very important that you have
 :doc:`Mapped the UVs </editors/uv_image/uv/editing/unwrapping/index>`
