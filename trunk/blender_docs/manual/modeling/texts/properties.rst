@@ -53,22 +53,9 @@ Fast Editing
 Texture Space
 =============
 
-.. admonition:: Reference
-   :class: refbox
+Each Object can have an automatically generated UV map, these maps can be adjusted here.
 
-   :Mode:      All Modes
-   :Panel:     :menuselection:`Properties editor --> Font --> Texture Space`
-
-.. figure:: /images/modeling_texts_properties_texture-settings.png
-
-   Texture settings.
-
-TODO add.
-
-Use UV for Mapping
-   Use UV values as generated texture coordinates.
-Auto Texture Space
-   Adjusts the active object's texture space automatically when transforming the object.
+See :ref:`Generated UV Properties <properties-texture-space>` for more information.
 
 
 Geometry

@@ -16,22 +16,12 @@ or a tangent plane for a point on a surface. Normals help to determine the shadi
 
 See :ref:`Normal Properties <modeling_meshes_editing_normals_properties>` for more information.
 
-.. _properties-texture-space:
-
 Texture Space
 =============
 
-.. (todo) object --> transform --> tex space
+Each Object can have an automatically generated UV map, these maps can be adjusted here.
 
-These are settings of the texture space used by the generated texture mapping.
-The visualization of the texture space can be activated in the :doc:`/editors/3dview/object/properties/display`.
-
-Texture Mesh
-   .. Au: too buggy to doc? transformation in vertex leads to distortion.
-
-Auto Texture Space
-   Location, Size
-
+See :ref:`Generated UV Properties <properties-texture-space>` for more information.
 
 Vertex Groups
 =============
