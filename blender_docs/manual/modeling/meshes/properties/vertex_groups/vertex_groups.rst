@@ -45,7 +45,7 @@ Active Vertex Group
          Mirror all Vertex Groups, flip weights and/or names, editing only selected vertices,
          flipping when both sides are selected; otherwise copy from unselected.
       Mirror Vertex Group (Topology)
-         The :ref:`<modeling_meshes_editing_topology-mirror>` option is enabled.
+         The :ref:`modeling_meshes_editing_topology-mirror` option is enabled.
       Remove from All Groups
          (not available for locked groups) Unassigns the selected Vertices from all groups.
          After this operation has been performed, the vertices will no longer be contained in any vertex group.
