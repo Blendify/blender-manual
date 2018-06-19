@@ -14,7 +14,9 @@ ToDo
 Skin Data
 =========
 
-ToDo
+Add/Clear Skin Data
+   Used to manage the skin data layer used by the :doc:`/modeling/modifiers/generate/skin`.
+   This operator can be needed incase a skin modifier is created but no skin data exist.
 
 
 Custom Split Normals
