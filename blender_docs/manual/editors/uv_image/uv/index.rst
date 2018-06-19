@@ -10,6 +10,7 @@
 
    introduction.rst
    overview.rst
+   generated_uvs.rst
    selecting.rst
    editing/index.rst
    layout_management.rst
