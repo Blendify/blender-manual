@@ -73,7 +73,7 @@ SYSTEM
 
 .. note::
 
-   The **USER** path will use ``$XDG_CONFIG_HOME`` if its set:
+   The **USER** path will use ``$XDG_CONFIG_HOME`` if it is set:
 
    .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
 
