@@ -8,3 +8,4 @@
 
    object_data.rst
    vertex_groups/index.rst
+   custom_data.rst
