@@ -14,21 +14,13 @@ The ruler is an interactive tool where you can drag lines in the scene to measur
 Optionally snapping to geometry could be activated for better accuracy or to measure wall thickness.
 The ruler can be accessed from the Tool Shelf.
 
-.. figure:: /images/interface_ruler-protractor_ruler-example.jpg
-   :width: 500px
+.. figure:: /images/interface_ruler-protractor_ruler-example.png
 
    Example of the ruler and protractor.
-
-.. figure:: /images/interface_ruler-protractor_ruler-thickness.jpg
-   :width: 592px
-
-   Example using the ruler to measure thickness.
 
 
 Usage
 =====
-
-.. figure:: /images/interface_ruler-protractor_ruler-basic.png
 
 Here are common steps for using the ruler:
 

@@ -266,10 +266,12 @@ The panels in the *Properties Region*.
 View Tab
 --------
 
+.. (Todo) duplicated here: \editors\graph_editor\fcurves\properties.rst
+
 View Properties Panel
 ---------------------
 
-.. figure:: /images/editors_graph-editor_introduction_view-properties-panel.png
+.. figure:: /images/editors_graph-editor_fcurves_properties_view-panel.png
 
    View Properties panel.
 
