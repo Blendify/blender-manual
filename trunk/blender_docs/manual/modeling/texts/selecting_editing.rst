@@ -11,7 +11,7 @@ Selecting & Editing
 *******************
 
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
-First, the 3D View, of course, where you type your text, and have a few shortcuts, e.g. for applying
+First, the 3D View, where you type your text, and have a few shortcuts, e.g. for applying
 styles (see :ref:`modeling-text-character`) -- note however, that most Blender hotkeys you know
 in *Edit Mode* do not exist for texts. The second place is the Properties Editor, especially the *Font* tab.
 
@@ -40,14 +40,14 @@ Next/Previous Page
 
 Hold :kbd:`Shift` while using the arrow keys to select a part of the text.
 You can use it to specify different materials, the normal/bold/italic style,
-and not much more...
+and not much more.
 
 
 Editing
 =======
 
 The menu of the 3D View header offers few options,
-and there is no *Specials* menu... You have no transform nor mirror tools, and so on.
+and there is no *Specials* menu. You have no transform nor mirror tools, and so on.
 However, you can apply to texts the same modifiers as for curves.
 
 
