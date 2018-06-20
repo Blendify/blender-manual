@@ -31,7 +31,7 @@ Hide Bounding Box :kbd:`Shift-H`
 Show All :kbd:`Alt-H`
    Reveal all hidden parts.
 Hide Masked
-   ToDo 2.64.
+   Hides all masked vertices.
 
 
 .. _sculpt-mask-menu:
