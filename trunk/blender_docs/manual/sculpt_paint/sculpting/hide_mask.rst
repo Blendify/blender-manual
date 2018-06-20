@@ -9,7 +9,10 @@ Hiding & Masking
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Hide/Mask`
 
-It is sometimes useful to isolate parts of a mesh to sculpt on.
+While sculpting, areas might be hidden behind parts of the mesh or they might be too close to other parts.
+To work through these, it is useful to isolate parts of a mesh to sculpt on.
+This can be done by either completely hiding parts of the mesh
+or by masking areas that can not be sculpted on.
 
 
 Hide
@@ -40,13 +43,11 @@ Mask
 ====
 
 Masking to control which areas of the mesh are influenced by sculpting.
+
+Brush
+-----
+
 In order to edit the mask, select the *Mask Brush* from the Brush panel.
-
-Masks can be edited across the entire model:
-
-- Invert Mask :kbd:`Ctrl-I`
-- Fill Mask
-- Clear Mask :kbd:`Alt-M`
 
 .. figure:: /images/sculpt-paint_sculpting_hide-mask_example.jpg
 
@@ -54,3 +55,19 @@ Masks can be edited across the entire model:
 
    The `blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__
    from `OHA Studio <http://oha-studios.com/>`__ © Mechanimotion Entertainment.
+
+Editing
+-------
+
+Masks can be edited across the entire model:
+
+Invert Mask :kbd:`Ctrl-I`
+   Todo.
+Fill Mask
+   Todo.
+Clear Mask :kbd:`Alt-M`
+   Todo.
+Box Mask :kbd:`B`
+   Todo.
+Lasso Mask :kbd:`Shift-Ctrl-LMB`
+   Todo.
