@@ -16,7 +16,7 @@ is often used for interchange between applications.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_modify_mesh-cache_panel.jpg
+.. figure:: /images/modeling_modifiers_modify_mesh-cache_panel.png
 
    Mesh Cache Modifier.
 

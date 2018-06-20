@@ -62,22 +62,22 @@ Examples
 ========
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_result.jpg
-   :width: 350px
+   :width: 420px
 
    Wireframes on a displaced plane.
+
    In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.
 
-.. figure:: /images/modeling_modifiers_generate_wireframe_example-cube.png
+.. figure:: /images/modeling_modifiers_generate_wireframe_example-weights.png
    :width: 420px
 
-   Original / Wireframe / Original and Wireframe.
+   Vertex Group weighting.
 
-.. figure:: /images/modeling_modifiers_generate_wireframe_example-suzanne.png
-   :width: 420px
-
-   Vertex Group weighting: One half 0 weighted, one half 1 weighted.
+   The weights of the vertex group gradually change from 0 to 1.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_example-crease.png
    :width: 420px
 
-   Cube and Subdivision Surface with 0 / 0.5 / 1 crease weight.
+   Wireframe and Subdivision Surface modifier.
+
+   Cube with enabled *Crease Edges* option. The *Crease Weight* is set to 0, 0.5 and 1.
