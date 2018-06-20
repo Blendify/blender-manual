@@ -17,37 +17,27 @@ Shape
 
    The Shape panel.
 
-As you can see in the Shape panel, texts have most of the same options as curves.
-
+As you can see in the *Shape* panel, texts have most of the same options as
+:doc:`Curves </modeling/curves/properties/data>`.
 
 Resolution
-----------
-
-Preview
-   The surface resolution in the U direction to use in the viewport.
-Render
-   The surface resolution in the U direction, set to zero to use the *Preview* resolution.
-
-
+   Preview
+      The surface resolution in the U direction to use in the viewport.
+   Render
+      The surface resolution in the U direction, set to zero to use the *Preview* resolution.
 Fill
-----
+   Mode
+      Determines the way a Curve is filled in when it is extruded and/or beveled.
 
-Fill
-   Determines the way a Curve is filled in when it is extruded and/or beveled.
-
-   Front
-      Fills in the front side of the surface.
-   Back
-      Fills in the back side of the surface.
-Fill Deformed
-   Fills the curves after applying all modification that might deform the curve (i.e. shape keys and modifiers).
-
-
+      Front
+         Fills in the front side of the surface.
+      Back
+         Fills in the back side of the surface.
+   Fill Deformed
+      Fills the curves after applying all modification that might deform the curve (i.e. shape keys and modifiers).
 Display
--------
-
-Fast Editing
-   Does not fill polygons while editing text.
+   Fast Editing
+      Does not fill polygons while editing text.
 
 
 Texture Space
@@ -77,7 +67,6 @@ Bevel
       Changes the size of the bevel.
    Resolution
       Alters the smoothness of the bevel.
-
 Taper Object
    Used to select a curve object that can be used to cause the characters to get thinner towards one end.
    You can also alter the proportions of the Taper throughout the tapered object by moving/scaling/rotating
@@ -106,10 +95,6 @@ The *Font* panel has several options for changing the look of characters.
 Loading and Changing Fonts
 --------------------------
 
-.. figure:: /images/modeling_texts_properties_load-example.png
-
-   Loading a Type 1 font file.
-
 Blender comes with a *built-in* font by default that is displayed in
 each of the four font style data-block menus.
 The *built-in* font is always present and shows in this list as "Bfont".
@@ -117,18 +102,16 @@ The data-block menu contains a list displaying the currently loaded fonts.
 Select one for each font style.
 
 To load a different *Font*, click one of the *Load* buttons in the
-*Font* panel and navigate to a *valid* font.
-The :doc:`File Browser </editors/file_browser/index>` will give all valid fonts a capital F icon,
-as seen in *Loading a Type 1 font file.*
+*Font* panel and navigate to a font file.
+The :doc:`File Browser </editors/file_browser/index>` will give all valid fonts a capital "F" icon.
+
+If you select a font that Blender cannot understand, you will get the error ``Not a valid font``.
 
 .. note:: Location of Fonts on Unix
 
    Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``,
    but not always. They may be in other locations as well,
    such as ``/usr/share/local`` or ``/usr/local/share``, and possibly related sub-trees.
-
-If you select a font that Blender cannot understand,
-you will get the error ``Not a valid font``.
 
 Remember the same font will be applied to all chars with same style in a text,
 but that a separate font is required for each style.
@@ -320,7 +303,7 @@ Offset
 
 X offset and Y offset
    Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
-   frames (see :doc:`Text Boxes </modeling/texts/selecting_editing>`), it applies to all frames' content...
+   `Text Boxes`_, it applies to all frames' content.
 
 
 .. _bpy.types.TextBox:
@@ -334,10 +317,6 @@ Text Boxes
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties editor --> Font --> Text Boxes`
 
-.. figure:: /images/modeling_texts_properties_frame-upperpanel-area.png
-
-   Text frame.
-
 Text "Boxes" allow you to distribute the text among rectangular areas within a single text object.
 An arbitrary number of freely positionable and re-sizable text frames are allowed per text object.
 
@@ -346,91 +325,21 @@ inside each frame word-wrapped.
 Text flows between frames when a lower-numbered frame cannot fit any more text.
 If the last frame is reached, text overflows out of it.
 
-Text frames are very similar to the concept of *frames* from a desktop publishing
-application, like Scribus. You use frames to control the placement and flow of text.
+.. figure:: /images/modeling_texts_properties_frame-upperpanel-area.png
 
-Frames are controlled in the *Text Boxes* panel.
+   Text Boxes panel.
 
-
-Frame Size
-----------
-
-By default the first frame for a new text object, and any additional frames,
-has a size of **zero** for both *Width* and *Height*,
-which means the frame is initially not visible.
-
-Frames with a width of 0.0 are ignored completely during text flow (no word-wrap happens),
-and frames with a height of 0.0 flow forever (no flowing to the next text frame).
-
-In order for the frame to become visible, the frame's *Width* must be greater than 0.0.
-
-.. note::
-
-   Technically the height is never actually 0.0, because the font itself always contributes height.
-
-.. _fig-texts-edit-frame:
-
-.. figure:: /images/modeling_texts_properties_frame-default-example.png
-
-   Frame width.
-
-Fig. :ref:`fig-texts-edit-frame` is a text object with a width of 5.0.
-And because the frame width is greater than 0.0
-it is now visible and is drawn in the active theme color as a dashed rectangle.
-The text has overflowed because the text has reached the end of the last frame, the default frame.
-
-
-Adding/Deleting a Frame
------------------------
-
-To add a frame click the *Add Textbox* button on the *Text Boxes* panel.
-A new frame is inserted just after (in text flow order) the current one, with its attributes
-(position and size). Be sure to modify the offset for the new frame in the X
-and/or Y fields. Just an X modification will create a new column.
-
-To delete the current frame, click the :kbd:`Delete` button.
-Any text in higher frames will be re-flowed downward into lower frames.
-
-
-Examples
---------
-
-Text Flow
-^^^^^^^^^
-
-.. _fig-texts-edit-wrap:
-
-.. figure:: /images/modeling_texts_properties_frame-example2.png
-
-   Wrapping.
-
-With two or more frames you can organize text to a finer degree. For example,
-create a text object and enter "Blender is super duper".
-This text object has a frame; it just is not visible because its *Width* is 0.0.
-
-Set the width to 5.0. The frame is now visible and text is wrapping according to the new width,
-as shown in Fig. :ref:`fig-texts-edit-wrap`. Notice that the text has overflowed out of the frame.
-This is because the text has reached the end of the last frame,
-which just happens to be the default/initial frame.
-
-.. figure:: /images/modeling_texts_properties_frame-example3.png
-   :width: 300px
-
-   Text flowing from box 1 to box 2.
-
-When we add another frame and set its width and height, the text will flow into the new frame.
-
-
-Multiple Columns
-^^^^^^^^^^^^^^^^
-
-.. _fig-texts-edit-text5:
+Dimensions
+   Specifies the *Width* and *Height* of the frame.
+   If set to **zero** no word-wrap happens.
+Offset
+   Controls the *X* and *Y* offset of the frame.
+Add Textbox
+   Inserts a new frame, just after (in text flow order) the current one.
+   The new frame will have the same size and position as the selected one.
+Delete (X icon)
+   Delete the current frame.
 
 .. figure:: /images/modeling_texts_properties_frame-example4.png
 
    Multiple columns, text flowing between boxes.
-
-To create two columns of text, just create a text object and adjust the initial frame's
-*Width* and *Height* to your requirements, then insert a new frame.
-The new frame will have the same size as the initial frame. Set the X position to
-something greater or less than the width of the initial frame; see Fig. :ref:`fig-texts-edit-text5`.
