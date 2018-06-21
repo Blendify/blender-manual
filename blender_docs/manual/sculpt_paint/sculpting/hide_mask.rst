@@ -66,8 +66,23 @@ Invert Mask :kbd:`Ctrl-I`
 Fill Mask
    Todo.
 Clear Mask :kbd:`Alt-M`
-   Todo.
+   Fills the mask with a value of 0. To completely remove the mask data see `Clearing Mask Data`_
 Box Mask :kbd:`B`
    Todo.
 Lasso Mask :kbd:`Shift-Ctrl-LMB`
    Todo.
+
+
+.. _sculpt_mask_clear-data:
+
+Clearing Mask Data
+------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Object/Edit Mode
+   :Menu:      :menuselection:`Properties --> Object Data --> Geometry Data --> Clear Sculpt-Mask Data`
+
+Completely frees the mask data layer from the mesh, while not a huge benefit,
+this can speedup sculpting if the mask is no longer being used.
