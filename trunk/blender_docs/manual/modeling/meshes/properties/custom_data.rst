@@ -8,8 +8,8 @@ Custom Data
 Sculpt Mask
 ===========
 
-ToDo
-
+Clear Sculpt-Mask Data
+   Removes the sculpting mask data layer. See :ref:`sculpt_mask_clear-data` for more information.
 
 Skin Data
 =========
