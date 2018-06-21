@@ -76,13 +76,21 @@ Adjust Bevel Weight
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Edge Bevel Weight`
+               :menuselection:`Properties Region --> Transform --> Edge Bevel Weight`
 
 This edge property, a value between (0.0 to 1.0),
-is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` to control the bevel
-intensity of the edges.
+is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
+to control the bevel intensity of the edges.
 This operator enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard)
-you can set the (average) bevel weight of selected edges.
+you can set the bevel weight of selected edges. If 2 or more edge are selected,
+this operator alters the average weight of the edges.
+
+.. seealso::
+
+   Vertices also have a bevel weight which can also be edited.
+   
+   .. todo there are no docs for this yet.
 
 
 .. _modeling-edges-crease-subdivision:
@@ -96,6 +104,7 @@ Edge Crease
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Edge Crease`
+               :menuselection:`Properties Region --> Transform --> Edge Crease`
    :Hotkey:    :kbd:`Shift-E`
 
 This edge property, a value between (0.0 to 1.0), is used by
