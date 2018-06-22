@@ -96,15 +96,6 @@ always constrained around one axis.
 Axis Locking Modes
 ------------------
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_locking-modes.png
-   :width: 340px
-
-   Axis locking modes.
-
-   A and B show Z axis locking in *Global* and *Normal* orientations respectively.
-   C and D show the same situation with face selection,
-   E and F with edge selection and G and H with vertex selection.
-
 A single key press constrains movement to the corresponding *Global* axis.
 A second key press of the *same* key constrains movement to the current transform orientation selection
 (except if it is set to *Global*, in which case the *Local* orientation is used).
@@ -122,6 +113,28 @@ in the Z direction relative to the *Global* orientation, pressing :kbd:`Z`
 again will lock translation to the Z axis relative to the *Normal* orientation.
 Pressing :kbd:`Z` again will remove all constraints.
 The current mode will be displayed in the left-hand side of the *3D View header*.
+
+.. list-table:: Axis locking modes.
+
+   * - .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_locking-modes-1.png
+          :width: 320px
+
+          Z axis locking in Global orientation.
+
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_locking-modes-2.png
+          :width: 320px
+
+          Z axis locking in Local orientation.
+
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_locking-modes-3.png
+          :width: 320px
+
+          Z axis locking in Global orientation with vertex selection.
+
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_precision_axis-locking_locking-modes-4.png
+          :width: 320px
+
+          Z axis locking in Normal orientation with vertex selection.
 
 As can be seen in the *Axis locking modes* image,
 the direction of the transform also takes into account the selection.
