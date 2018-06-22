@@ -7,24 +7,16 @@ Remesh Modifier
 The Remesh modifier is a tool for generating new mesh topology.
 The output follows the surface curvature of the input, but its topology contains only quads.
 
-.. figure:: /images/modeling_modifiers_generate_remesh_screenshot-00.png
-   :width: 600px
-
 
 Options
 =======
 
 .. figure:: /images/modeling_modifiers_generate_remesh_panel.png
 
-   Remesh Modifier.
+   Remesh Modifier panel.
 
 Mode
    There are three basic modes available in the Remesh Modifier: Blocks, Smooth and Sharp.
-
-   .. figure:: /images/modeling_modifiers_generate_remesh_mode-cone-example.png
-
-      This example shows a cone with each of the different remesh modes.
-      From left to right: original cone, Blocks, Smooth, and Sharp.
 
    The output topology is almost identical between the three modes;
    what changes is the smoothing.
@@ -41,11 +33,6 @@ Mode
 Octree Depth
    The Octree Depth sets the resolution of the output. Low values will generate larger faces relative to the input,
    higher values will generate a denser output.
-
-   .. figure:: /images/modeling_modifiers_generate_remesh_depth-cone-example.png
-
-      Input mesh, and the low to high resolution output meshes.
-
 Scale
    The result can be tweaked further by setting the Scale;
    lower values effectively decrease the output resolution.
@@ -61,25 +48,49 @@ Remove Disconnected Pieces
    Threshold
       Use this to control how small a disconnected component must be removed.
 
-   .. figure:: /images/modeling_modifiers_generate_remesh_remove-disconnected-example.png
+.. note::
 
-      The input mesh (left) is fairly noisy,
-      so the initial output of the Remesh Modifier (center) contains small disconnected pieces.
-      Enabling Remove Disconnected Pieces (right) deletes those faces.
-
-
-Usage
-=====
-
-In the Modifier panel, add a Remesh Modifier.
-The input mesh should have some thickness to it; if the input is completely flat,
-add a :doc:`Solidify Modifier </modeling/modifiers/generate/solidify>` above the Remesh Modifier.
+   The input mesh should have some thickness to it; if the input is completely flat,
+   add a :doc:`Solidify Modifier </modeling/modifiers/generate/solidify>` above the Remesh Modifier.
 
 
 Examples
 ========
 
-.. figure:: /images/modeling_modifiers_generate_remesh_text-00.png
+.. list-table::
+
+   * - .. figure:: /images/modeling_modifiers_generate_remesh_example-none.png
+          :width: 320px
+
+          Not modified mesh.
+
+     - .. figure:: /images/modeling_modifiers_generate_remesh_example-blocks-depth-3.png
+          :width: 320px
+
+          Blocks mode with Octree Depth 3.
+
+     - .. figure:: /images/modeling_modifiers_generate_remesh_example-smooth-depth-3.png
+          :width: 320px
+
+          Smooth mode with Octree Depth 3.
+
+   * - .. figure:: /images/modeling_modifiers_generate_remesh_example-sharp-depth-2.png
+          :width: 320px
+
+          Sharp mode with Octree Depth 2.
+
+     - .. figure:: /images/modeling_modifiers_generate_remesh_example-sharp-depth-3.png
+          :width: 320px
+
+          Sharp mode with Octree Depth 3.
+
+     - .. figure:: /images/modeling_modifiers_generate_remesh_example-sharp-depth-4.png
+          :width: 320px
+
+          Sharp mode with Octree Depth 4.
+
+.. figure:: /images/modeling_modifiers_generate_remesh_example-text-topology.png
+   :width: 520px
 
    Remesh Modifier applied to text to improve topology.
 
