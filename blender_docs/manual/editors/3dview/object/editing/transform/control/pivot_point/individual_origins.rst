@@ -1,6 +1,3 @@
-.. (TODO error) Wrong description in the section "In Edit Mode".
-   Whether the last example image is informative?
-
 .. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
 
 ******************
@@ -18,76 +15,43 @@ Individual Origins
 In Object Mode
 ==============
 
+The origin of an object is shown in the 3D View by a small orange circle.
+It tells Blender the relative position of that object in 3D space.
+
+The origin does not have to be located in the center of the geometry (e.g. mesh).
+This means that an object can have its origin located on one end of the mesh or
+even completely outside the mesh.
+
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
 
    Rotation around individual origins.
 
-The origin of an object is shown in the 3D View by a small orange circle.
-This is highlighted in the image to the right by the red arrow.
-It tells Blender the relative position of that object in 3D space.
-What you see in the 3D View (vertices, edges, etc.) is what makes up the object.
+For example, the orange rectangle in the image above has its origin located on the far left of the mesh,
+while the blue rectangle has its origin located in the center of the mesh.
 
-The origin does not have to be located in the center of the geometry (e.g. mesh).
-This means that an object can have its origin located on one end of the mesh or
-even completely outside the mesh. For example,
-the orange rectangle in the image has its origin located on the far left of the mesh.
-
-Now let us examine: Rotation around the individual origins:
-
-- The blue rectangle has its origin located in the center of the mesh,
-  while the orange rectangle has its origin located on the left-hand side.
-- When the Pivot Point is set to *Individual Origins*,
-  the origin of each object (indicated by the red arrow)
-  remains in place while the object rotates around it in the path shown by the black arrow.
+When the Pivot Point is set to *Individual Origins*,
+the origin of each object remains in place while the object rotates or scales around it.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_objects-rotate.png
 
-   Rotation around individual origins (middle) compared to the median point (right).
+   Rotation around Individual Origins (middle) compared to the Median Point (right).
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_objects-scale.png
 
-   Scaling around individual origins (middle) compared to the median point (right).
+   Scaling around Individual Origins (middle) compared to the Median Point (right).
 
 
 In Edit Mode
 ============
 
-In Edit Mode, setting the Pivot Point to *Individual Origins* produces different results when
-the selection mode is set to Vertex, Edge or Face. For example, Vertex mode produces results
-similar to setting the pivot point to median and Edge mode often produces distorted results.
-Using Individual Origins in Face mode produces the most predictable results.
-
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-faces.png
 
-   Rotation of individual faces around individual origins (middle) and the median point (right).
-
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-grouped-faces.jpg
-   :width: 200px
-
-   Rotation of grouped faces with the pivot point indicated by the image text.
-
-As can be seen in the images above, faces that touch each other will deform when rotated when
-the pivot point is set to *Individual Origins*.
-Faces that do not touch will rotate around their *Individual Origins* (their center).
+   Rotation of individual faces around Individual Origins (middle) and the Median Point (right).
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-individual-faces.png
 
-   Scaling with non-touching faces around individual origins (middle) and the median point (right).
+   Scaling with non-touching faces around Individual Origins (middle) and the Median Point (right).
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_scale-group-fgon-faces.png
-   :width: 200px
-
-   Scaling with touching faces.
-
-Groups of faces and F-gons can be scaled without their outside perimeter being deformed.
-However, the individual faces inside will not be scaled uniformly.
-
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_anemone-example.jpg
-   :width: 300px
-
-   Modeling with faces and individual origins as the pivot point.
-
-Once you are aware of its limitations and pitfalls, this tool can save a lot of time and lead to unique shapes.
-This "anemone" was modeled from a 12 sided cylinder in about 10 minutes by repeatedly using this workflow:
-Extrusions of individual faces, scaling with *median as a pivot point*,
-and scaling and rotations of those faces with *Individual Origins as pivot points*.
+When you rotate or scale the touching faces/edges,
+they are treated as a single element, and retain the shape of the group.
+Each group is transformed independently around its median point.

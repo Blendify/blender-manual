@@ -13,8 +13,8 @@ Bounding Box Center
 
 The bounding box is a rectangular box that is wrapped as tightly as possible around the selection.
 It is oriented parallel to the world axes. In this mode the pivot point lies at the center of the bounding box.
-You can set the pivot point to bounding box with :kbd:`Comma` or via the menu in the editor's header.
-The image below shows how the Object's Bounding Box size is determined by the size of the Object.
+You can set the pivot point to *Bounding Box* with :kbd:`Comma` or via the menu in the editor's header.
+The image below shows how the object's bounding box size is determined by the size of the object.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_demo.png
 
@@ -24,32 +24,28 @@ The image below shows how the Object's Bounding Box size is determined by the si
 In Object Mode
 ==============
 
-In *Object Mode*, the bounding box is wrapped around the Object and transformation
-takes place relative to the location of the Object origin (indicated by the yellow circle).
-The image below shows the results of using the Bounding Box as
+In *Object Mode*, transformation
+takes place relative to the location of the objects origin (indicated by the yellow circle),
+and the size of objects is not taken into account.
+The images below shows the results of using the *Bounding Box* as
 the pivot point in a number of situations.
-
-For example, image :ref:`Single object <fig-bounding-box-center-single>` (right)
-show rotation when the Object origin is in its default position, while image
-:ref:`Single object <fig-bounding-box-center-single>` (left) shows the result when the Object origin has been moved.
-Image :ref:`Multiple objects <fig-bounding-box-center-multiple>` (left) shows that when multiple Objects are selected,
-the pivot point is calculated based on the Bounding Box of all the selected Objects.
-
-.. _fig-bounding-box-center-single:
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
 
-   Single object.
+   Single object rotation.
 
-   Shows the results of Object rotation when the pivot point is set to Bounding Box.
+In this example, the orange rectangle has its origin located on the far left of the mesh,
+while the blue rectangle has its origin located in the center of the mesh.
 
-.. _fig-bounding-box-center-multiple:
+When single object is selected, the rotation takes place around its origin.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_object-mode.png
 
-   Multiple objects.
-
    Shows the location of the Bounding Box (left) pivot point compared to the Median Point (right).
+
+Image above (left) shows that when multiple objects are selected,
+the pivot point is calculated based on the bounding box of all the selected objects.
+More precisely, the centers of objects are taken into account.
 
 
 In Edit Mode
@@ -66,4 +62,4 @@ only the center of the selected vertices.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_median-point.png
 
-   The bounding box center compared to the median point.
+   The Bounding Box center compared to the Median Point.
