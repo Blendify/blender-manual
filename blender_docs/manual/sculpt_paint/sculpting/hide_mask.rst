@@ -44,6 +44,7 @@ Mask
 
 Masking to control which areas of the mesh are influenced by sculpting.
 
+
 Brush
 -----
 
@@ -56,6 +57,7 @@ In order to edit the mask, select the *Mask Brush* from the Brush panel.
    The `blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__
    from `OHA Studio <http://oha-studios.com/>`__ © Mechanimotion Entertainment.
 
+
 Editing
 -------
 
@@ -66,7 +68,7 @@ Invert Mask :kbd:`Ctrl-I`
 Fill Mask
    Todo.
 Clear Mask :kbd:`Alt-M`
-   Fills the mask with a value of 0. To completely remove the mask data see `Clearing Mask Data`_
+   Fills the mask with a value of 0. To completely remove the mask data see `Clearing Mask Data`_.
 Box Mask :kbd:`B`
    Todo.
 Lasso Mask :kbd:`Shift-Ctrl-LMB`
@@ -85,4 +87,4 @@ Clearing Mask Data
    :Menu:      :menuselection:`Properties --> Object Data --> Geometry Data --> Clear Sculpt-Mask Data`
 
 Completely frees the mask data layer from the mesh, while not a huge benefit,
-this can speedup sculpting if the mask is no longer being used.
+this can speed-up sculpting if the mask is no longer being used.

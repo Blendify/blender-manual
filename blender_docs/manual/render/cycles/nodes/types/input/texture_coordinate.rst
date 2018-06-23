@@ -61,13 +61,13 @@ Normal
 UV
    UV texture coordinates from the active render UV map.
    See :ref:`UV Mapping <editors-uv-image-index>` for more information.
-   
+
    .. note::
-   
-      In order to select UV map other than the active map you must use the
-      :doc:`UV Map node </render/cycles/nodes/types/input/uv_map>`.
+
+      In order to select UV map other than the active map you must use
+      the :doc:`UV Map node </render/cycles/nodes/types/input/uv_map>`.
 Object
-   Uses an object as source for coordinates. Often used with an *Empty*,
+   Uses an object as a source for coordinates. Often used with an *Empty*,
    this is an easy way to place a small image at a given point on the object.
    This object can also be animated, to move a texture around or through a surface.
 Camera
@@ -75,7 +75,7 @@ Camera
 Window
    Location of shading point on the screen, ranging from 0.0 to 1.
    0 from the left to right side and bottom to top of the render.
-   This is well suited to blending two objects.
+   This is well suited for blending two objects.
 Reflection
    Uses the direction of the reflection vector as coordinates.
-   This is useful for adding reflection maps. You will need this input when using Environment Maps.
+   This is useful for adding reflection maps. You will need this input when using environment maps.

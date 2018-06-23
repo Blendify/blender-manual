@@ -26,15 +26,15 @@ Vector
 Scale
    Overall texture scale.
 Detail
-   Controls how many instances of base noise texture are combined.
-   Each extra instance is scaled and brings more small details.
+   Controls how many instances of base noise textures are combined.
+   Each extra instance is scaled and adds smaller details.
 Dimension
    Controls the intensity of the different instances of base noise.
-   Setting it to zero will use the same intensities for all noise instances.
+   Setting it to zero will use the same intensity for all noise instances.
    Larger values will reduce the intensity of finer (larger-scaled) instances,
    making smaller details less visible.
 Lacunarity
-   Controls the scale of the different instances of base noise.
+   Controls the scale of the different instances of the base noise.
    This is a factor for scaling each further instance, relative to the previous one,
    i.e. the scales grow exponentially. When setting it to 1 all instances have the same scale.
 Offset
@@ -53,19 +53,19 @@ Type
    Originally, the algorithms for generating procedural terrain.
 
    fBM (fractal Brownian Motion)
-      Produces a non-natural homogeneous and isotropic result.
-      Uses a additive cascade, the values are simply added together. 
+      Produces a unnatural homogeneous and isotropic result.
+      Uses a additive cascade, the values are simply added together.
    Multifractal
-      The result is more uneven (varies with location), more similar to the real terrain.
+      The result is more uneven (varies with location), more similar to a real terrain.
       Uses a multiplicative cascade.
    Hybrid Multifractal
-      Creates peaks and valleys with different roughnesses, like real mountains rise out of flat plains.
-      Combines the additive cascade with the multiplicative cascade.
+      Creates peaks and valleys with different roughness values, like real mountains rise out of flat plains.
+      Combines the additive cascade with a multiplicative cascade.
    Ridged Multifractal
-      Creates sharp peaks. Calculates the absolute value of noise,
+      Creates sharp peaks. Calculates the absolute value of the noise,
       creating "canyons", and then flips the surface upside down.
    Hetero Terrain (Heterogeneous Terrain)
-      Similar to *Hybrid Multifractal* creates heterogeneous terrain, but with the likeness of a river channels.
+      Similar to *Hybrid Multifractal* creates a heterogeneous terrain, but with the likeness of river channels.
 
 
 Outputs
@@ -80,7 +80,7 @@ Factor
 .. tip::
 
    The *Musgrave Texture* often needs some adjustments (e.g. by multiplication and addition)
-   in order to avoid clipping and see more detail.
+   in order to avoid clipping and to see more detail.
 
 
 Examples
@@ -108,27 +108,27 @@ Musgrave Types
    * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-fbm.jpg
           :width: 320px
 
-          fBM (fractal Brownian Motion)
+          fBM (fractal Brownian Motion).
 
      - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-multifractal.jpg
           :width: 320px
 
-          Multifractal
+          Multifractal.
 
    * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-hybrid.jpg
           :width: 320px
 
-          Hybrid Multifractal
+          Hybrid Multifractal.
 
      - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-terrain.jpg
           :width: 320px
 
-          Heterogeneous Terrain
+          Heterogeneous Terrain.
 
    * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-ridged.jpg
           :width: 320px
 
-          Ridged Multifractal
+          Ridged Multifractal.
 
      - ..
 

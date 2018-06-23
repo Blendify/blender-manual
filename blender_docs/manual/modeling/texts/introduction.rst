@@ -15,14 +15,14 @@ and share the same object type as *Curves* and *Surfaces*,
 as modern fonts are vectorial, made of curves.
 
 Blender uses a "Font System" to manage mapping letter codes to objects representing them in 3D views.
-This font system have its own *built-in* font, but it can use external fonts too,
+This font system has its own *built-in* font, but it can use external fonts too,
 including *PostScript Type 1*, *OpenType* and *TrueType* fonts.
 And moreover, it can use any objects existing in the current blend-file as letters.
 
 .. figure:: /images/modeling_texts_introduction_examples.jpg
    :width: 460px
 
-   An example of extruded text.
+   An example of an extruded text.
 
 *Text* objects allow you to create and render 2D or 3D text,
 with various advanced layout options, like justifying and frames.

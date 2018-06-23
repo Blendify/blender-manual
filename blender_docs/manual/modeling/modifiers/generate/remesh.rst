@@ -62,7 +62,7 @@ Examples
    * - .. figure:: /images/modeling_modifiers_generate_remesh_example-none.png
           :width: 320px
 
-          Not modified mesh.
+          Unmodified mesh.
 
      - .. figure:: /images/modeling_modifiers_generate_remesh_example-blocks-depth-3.png
           :width: 320px
@@ -92,7 +92,7 @@ Examples
 .. figure:: /images/modeling_modifiers_generate_remesh_example-text-topology.png
    :width: 520px
 
-   Remesh Modifier applied to text to improve topology.
+   The Remesh Modifier applied to a text to improve its topology.
 
 .. youtube:: Mh-gUnS2c0Y
 

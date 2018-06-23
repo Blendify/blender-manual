@@ -44,11 +44,12 @@ that is saved into the :ref:`temp-dir` when you quit Blender under normal operat
 Note that files in your temporary directory may be deleted when you reboot your computer
 (depending on your system configuration).
 
+
 Recover Auto Save
 -----------------
 
 The *Recover Auto Save* allows you to open the *Auto Saved* file.
-You will navigate to your :ref:`temp-dir`.
+You will have to navigate to your :ref:`temp-dir`.
 The *Auto Saved* files are named using a random number and have a blend extension.
 
 It is important, when browsing, to enable the detailed list view.
@@ -61,7 +62,7 @@ See Fig. :ref:`fig-troubleshooting-file-browser`.
 
    File Browser with detailed view selected.
 
-.. important::
+.. warning::
 
    When recovering an *Auto Saved* file, you will lose any changes made
    since the last *Auto Save* was performed.

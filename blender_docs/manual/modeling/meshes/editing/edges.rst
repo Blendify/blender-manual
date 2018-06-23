@@ -58,7 +58,7 @@ Mark Sharp and Clear Sharp
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam`
+   :Menu:      :menuselection:`Mesh --> Edges --> Mark Sharp/Clear Sharp`
 
 The *Sharp* flag is used by the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`,
 which is part of the smoothing techniques.
@@ -83,13 +83,13 @@ is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
 to control the bevel intensity of the edges.
 This operator enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard)
-you can set the bevel weight of selected edges. If 2 or more edge are selected,
+you can set the bevel weight of selected edges. If two or more edge are selected,
 this operator alters the average weight of the edges.
 
 .. seealso::
 
-   Vertices also have a bevel weight which can also be edited.
-   
+   Vertices also have a bevel weight which can be edited.
+
    .. todo there are no docs for this yet.
 
 
