@@ -101,11 +101,11 @@ The *built-in* font is always present and shows in this list as "Bfont".
 The data-block menu contains a list displaying the currently loaded fonts.
 Select one for each font style.
 
-To load a different *Font*, click one of the *Load* buttons in the
-*Font* panel and navigate to a font file.
+To load a different *Font*, click one of the *Load* buttons
+in the *Font* panel and navigate to a font file.
 The :doc:`File Browser </editors/file_browser/index>` will give all valid fonts a capital "F" icon.
 
-If you select a font that Blender cannot understand, you will get the error ``Not a valid font``.
+If you select a font that is unsupported by Blender, you will get the error ``Not a valid font``.
 
 .. note:: Location of Fonts on Unix
 
@@ -335,7 +335,7 @@ Dimensions
 Offset
    Controls the *X* and *Y* offset of the frame.
 Add Textbox
-   Inserts a new frame, just after (in text flow order) the current one.
+   Inserts a new frame, just after the current one (in text flow order).
    The new frame will have the same size and position as the selected one.
 Delete (X icon)
    Delete the current frame.

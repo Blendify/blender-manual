@@ -66,18 +66,18 @@ Examples
 
    Wireframes on a displaced plane.
 
-   In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.
+In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_example-weights.png
    :width: 420px
 
    Vertex Group weighting.
 
-   The weights of the vertex group gradually change from 0 to 1.
+The weights of the vertex group gradually change from 0 to 1.
 
 .. figure:: /images/modeling_modifiers_generate_wireframe_example-crease.png
    :width: 420px
 
    Wireframe and Subdivision Surface modifier.
 
-   Cube with enabled *Crease Edges* option. The *Crease Weight* is set to 0, 0.5 and 1.
+Cube with enabled *Crease Edges* option. The *Crease Weight* is set to 0, 0.5 and 1.
