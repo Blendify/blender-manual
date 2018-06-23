@@ -11,10 +11,10 @@ Active Element
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> Active Element`
    :Hotkey:    :kbd:`Alt-Period`
 
-The *active* element can be an Object, vertex, edge or a face.
+The *active element* can be an object, vertex, edge or a face.
 The active element is the last one to be selected and
 will be shown in a lighter orange color when in *Object Mode* and white when in *Edit Mode*.
-With *Active element as Pivot* set to active, all transformations will occur relative to the active element.
+With *Active Element* as *Pivot* set to active, all transformations will occur relative to the active element.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_active-element_object-mode-display.png
 
@@ -29,10 +29,10 @@ In Object Mode
 ==============
 
 When in *Object Mode*,
-rotation and scaling happen around the active Object's origin.
-This is shown by the figure to the below where the active Object (the cube)
+rotation and scaling happen around the origin of the active object.
+This is shown by the figure to the below where the active object (the cube)
 remains in the same location (note its position relative to the 3D cursor)
-while the other Objects rotate and scale in relation to the active element.
+while the other objects rotate and scale in relation to the active element.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_active-element_object-mode-rotation.png
 
@@ -45,7 +45,7 @@ In Edit Mode
 Using the active element as a pivot point in *Edit Mode* may seem complex but all
 the possible transformations follow a few rules:
 
-- The pivot point is always at the median of the active element(s).
+- The pivot point is always at the median of the active element.
 - The transformations occur by transformation of the *vertices* of the selected element(s).
   If an unselected element shares one or more vertices with a selected element
   then the unselected one will get some degree of transformation also.
@@ -77,9 +77,8 @@ Multiple Selection
 ------------------
 
 When multiple elements are selected they all transform.
-The pivot points stay in the same place as what we have seen above,
-with only one exception for Fgons. In the image below,
-the selected elements have been rotated.
+The pivot points stay in the same place as what we have described above.
+In the image below, the selected elements have been rotated.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_active-element_edit-mode-multiple.png
 
