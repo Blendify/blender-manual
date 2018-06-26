@@ -36,9 +36,9 @@ Object Mode
 
 Proportional editing is typically used in *Edit Mode*, however, it can also be used in *Object Mode*.
 In *Object Mode* the tool works on entire objects rather than individual mesh components.
-In the image below, the green cube is the active Object, while the red and blue cubes are located
-within the Proportional edit tool's radius of influence.
-When the green cube is moved to the right, the other two cubes follow the movement.
+
+In the image below, the right cylinder is scaled along the Z axis.
+When the *Proportional Editing* is enabled, the adjacent cylinders also get some influence.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_object-mode.png
 
@@ -106,7 +106,7 @@ Projected (2D)
    Depth along the view is ignored when applying the radius.
 
    .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_2d-compare.png
-      :width: 400px
+      :width: 560px
 
       The difference between regular and Projected (2D) proportional option (right).
 
@@ -171,30 +171,11 @@ Falloff
 Examples
 --------
 
-Switch to a front view :kbd:`Numpad1` and activate the Grab tool with :kbd:`G`.
-As you drag the point upwards, notice how nearby vertices are dragged along with it.
-When you are satisfied with the placement, click :kbd:`LMB` to fix the position.
-If you are not satisfied,
-cancel the operation and revert your mesh to the way it looked before with
-:kbd:`RMB`, :kbd:`Esc`.
-
-You can use the Proportional editing tool to produce great effects with the scaling
-:kbd:`S` and rotation :kbd:`R` tools,
-as Fig. :ref:`fig-view3d-transform-landscape` shows.
-
-.. _fig-view3d-transform-landscape:
+The image below shows the final render of the low-poly landscape
+obtained by moving up the vertices of the triangulated grid
+with enabled *Proportional Editing*.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_landscape.jpg
-
-   A landscape obtained via proportional editing.
-
-Combine these techniques with vertex painting to create fantastic landscapes.
-The Fig. :ref:`fig-view3d-transform-landscape-rendered` below shows the results of proportional editing after
-the application of textures and lighting.
-
-.. _fig-view3d-transform-landscape-rendered:
-
-.. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_example.jpg
    :width: 620px
 
-   Final rendered landscape.
+   A landscape obtained via proportional editing.

@@ -40,16 +40,16 @@ Examples
 
 .. figure:: /images/editors_3dview_object_editing_duplication_example.png
 
-   The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
-   The mesh's Unique data-block ID name is highlighted in the Outliner.
+   The Cube object was duplicated.
 
-The cone in the middle has been (1) link duplicated to the left and (2) duplicated to the right.
+The object ``Cube`` was duplicated, using :kbd:`Shift-D`.
+Both these cubes has separate meshes with unique names: ``Cube`` and ``Cube.001``.
 
-- The duplicated right cone is being edited, the original cone in the middle remains unchanged.
+- The original left cube is being edited, the duplicated right cube remains unchanged.
   The mesh data has been copied, not linked.
-- Likewise, if the right cone is edited in object mode, the original cone remains unchanged.
+- Likewise, if one cube is edited in Object Mode, the other cube remains unchanged.
   The new object's transform properties or data-block is a copy, not linked.
-- When the right cone was duplicated, it inherited the material of the middle cone.
+- When the cube was duplicated, it inherited the material of the original cube.
   The material properties were linked, not copied.
 
 See above if you want separate copies of the data-blocks normally linked.
@@ -97,17 +97,17 @@ Examples
 
 .. figure:: /images/editors_3dview_object_editing_duplication_linked-example.png
 
-   The object ``Cone.001`` was linked duplicated.
-   Though both these cones are separate objects with unique names,
-   the single mesh named Cone, highlighted in the Outliner, is shared by both.
+   The Cube object was linked duplicated.
 
-The left cone is a *Linked Duplicate* of the middle cone (using :kbd:`Alt-D`).
+The object ``Cube`` was linked duplicated, using :kbd:`Alt-D`.
+Though both these cubes are separate objects with unique names: ``Cube`` and ``Cube.001``,
+the single mesh named ``Cube``, is shared by both.
 
-- As a vertex is moved in *Edit Mode* in one object, the same vertex is moved in the original cone as well.
+- As a mesh is edited in *Edit Mode* in one object, the same occurs in the other cube as well.
   The mesh data are links, not copies.
-- In contrast, if one of these two cones is rotated or rescaled in object mode, the other remains unchanged.
+- In contrast, if one of these two cubes is rotated or rescaled in Object Mode, the other remains unchanged.
   The transform properties are copied, not linked.
-- As in the previous example, the newly created cone has inherited the material of the original cone.
+- As in the previous example, the newly created cube has inherited the material of the original cube.
   The material properties are linked, not copied.
 
 A common table has a top and four legs. Model one leg,

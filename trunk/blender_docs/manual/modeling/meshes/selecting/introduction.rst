@@ -54,6 +54,41 @@ Of course rotating and scaling a *single* vertex will not do anything useful
 (*without* setting the pivot point to another location),
 so some tools are more or less applicable in some modes.
 
+See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the different modes.
+
+
+Multiple Selection Modes
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+By holding :kbd:`Shift-LMB` when selecting a selection mode,
+you can enable multiple *Selection Modes* at once.
+This allows you to quickly select Vertices/Edges/Faces,
+without first having to switch modes.
+
+.. _fig-mesh-select-intro-selection-modes:
+
+.. list-table:: Selection modes.
+
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
+          :width: 310px
+
+          Vertex mode example.
+
+     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
+          :width: 310px
+
+          Edge mode example.
+
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-example.png
+          :width: 310px
+
+          Face mode example.
+
+     - .. figure:: /images/modeling_meshes_selecting_introduction_mixed-mode-example.png
+          :width: 310px
+
+          Mixed mode example.
+
 
 Switching Select Mode
 ---------------------
@@ -66,19 +101,21 @@ For example, if all four edges in a face are selected,
 switching from *Edges* mode to *Faces* mode will keep the face selected.
 All selected parts that do not form a complete set in the new mode will be unselected.
 
+.. list-table::
+
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
+          :width: 310px
+
+          Edge mode, the initial selection.
+
+     - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-switched-from-edge.png
+          :width: 310px
+
+          Switching to Face mode.
+
 Hence, switching in a "descendant" way (i.e. from more complex to simpler),
 all elements defining the "high-level" element (like a face) will be selected
 (the four vertices or edges of a quadrangle, for example).
-
-
-Multiple Selection Modes
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-By holding :kbd:`Shift-LMB` when selecting a selection mode,
-you can enable multiple *Selection Modes* at once.
-
-This allows you to quickly select Vertices/Edges/Faces,
-without first having to switch modes.
 
 
 Expanding/Contracting Selection
@@ -88,33 +125,19 @@ By holding :kbd:`Ctrl` when selecting a higher selection mode,
 all elements touching the current selection will be added,
 even if the selection does not form a complete higher element.
 
-See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the different modes.
-
 Or contracting the selection when switching to a lower mode.
 
-.. _fig-mesh-select-intro-selection-modes:
-
-.. list-table:: Selection modes.
+.. list-table::
 
    * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
-          :width: 320px
+          :width: 310px
 
-          Vertex mode example.
+          Vertex mode, the initial selection.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
-          :width: 320px
+     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-expanding-from-vertex.png
+          :width: 310px
 
-          Edge mode example.
-
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-example.png
-          :width: 320px
-
-          Face mode example.
-
-     - .. figure:: /images/modeling_meshes_selecting_introduction_mixed-mode-example.png
-          :width: 320px
-
-          Mixed mode example.
+          Expanding to Edge mode.
 
 
 Limit Selection to Visible
@@ -127,6 +150,18 @@ just right of the select mode ones.
 
 When enabled, this limits your ability to view and select vertices occluded by the objects geometry
 (as if the object was solid). This is done by the viewport with depth buffer clipping.
+
+.. list-table::
+
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_limit-selection-to-visible-off.png
+          :width: 310px
+
+          Limit Selection to Visible option is disabled.
+
+     - .. figure:: /images/modeling_meshes_selecting_introduction_limit-selection-to-visible-on.png
+          :width: 310px
+
+          Limit Selection to Visible option is enabled.
 
 
 Selection Tools
@@ -214,11 +249,7 @@ Lasso Select
 
 To activate the tool use the :kbd:`Ctrl-LMB` while dragging.
 
-Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso Select tool* in *Vertex Select Mode*.
-
-.. _fig-mesh-select-basic-lasso:
-
-.. list-table:: Lasso Select example.
+.. list-table:: An example of using the *Lasso Select tool* in *Vertex Select Mode*.
 
    * - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select1.png
           :width: 200px

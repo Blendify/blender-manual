@@ -131,32 +131,32 @@ Examples
 .. list-table::
 
    * - .. figure:: /images/modeling_meshes_editing_vertices_rip-before.png
-          :width: 320px
+          :width: 260px
 
           Selected vertex.
 
      - .. figure:: /images/modeling_meshes_editing_vertices_rip-after.png
-          :width: 320px
+          :width: 260px
 
           Hole created after using rip on vertex.
 
    * - .. figure:: /images/modeling_meshes_editing_vertices_rip-edges-before.png
-          :width: 320px
+          :width: 260px
 
           Edges selected.
 
      - .. figure:: /images/modeling_meshes_editing_vertices_rip-edges-after.png
-          :width: 320px
+          :width: 260px
 
           Result of rip with edge selection.
 
    * - .. figure:: /images/modeling_meshes_editing_vertices_rip-complexselection-before.png
-          :width: 320px
+          :width: 260px
 
           A complex selection of vertices.
 
      - .. figure:: /images/modeling_meshes_editing_vertices_rip-complexselection-after.png
-          :width: 320px
+          :width: 260px
 
           Result of rip operation.
 
@@ -187,12 +187,12 @@ it fills in the gap with geometry.
 .. list-table::
 
    * - .. figure:: /images/modeling_meshes_editing_vertices_rip-edges-before.png
-          :width: 320px
+          :width: 260px
 
           Edges selected.
 
      - .. figure:: /images/modeling_meshes_editing_vertices_rip-fill-result.png
-          :width: 320px
+          :width: 260px
 
           Result of rip fill.
 
@@ -326,28 +326,21 @@ This operator can be used as a bridge tool as well.
 
 .. figure:: /images/modeling_meshes_editing_vertices_convex-hull.png
 
+   Input mesh, point cloud, Convex Hull result.
+
 Delete Unused
    Removes vertices, edges, and faces that were selected, but not used as part of the hull.
    Note that vertices and edges that are used
    by other edges and faces not part of the selection will not be deleted.
-
-   .. figure:: /images/modeling_meshes_editing_vertices_convex-hull_delete-unused.png
-
-      Middle mesh shows the convex hull with Delete Unused enabled,
-      the mesh at right shows the hull with Delete Unused disabled.
 
 Use Existing Faces
    Where possible, use existing input faces that lie on the hull.
    This allows the convex hull output to contain n-gons rather than triangles
    (or quads if the *Join Triangles* option is enabled).
 
-   .. figure:: /images/modeling_meshes_editing_vertices_convex-hull_use-existing.png
-
 Make Holes
    Delete edges and faces in the hull that were part of the input too.
    Useful in cases like bridging to delete faces between the existing mesh and the convex hull.
-
-   .. figure:: /images/modeling_meshes_editing_vertices_convex-hull_make-holes.png
 
 Join Triangles
    Joins adjacent triangles into quads.
