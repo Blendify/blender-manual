@@ -96,7 +96,7 @@ UVs
    map, Blender exports all UV maps in a way that should be readable by other software.
 Pack UV Islands
    Generates an optimized UV layout with non-overlapping islands that tries to efficiently
-   fill the texture space. See the
+   fill the :term:`Texture Space`. See the
    :ref:`pack islands operator <editors-uv_image-editing-layout-pack_islands>`
    that works with the same principle for more information.
 Normals

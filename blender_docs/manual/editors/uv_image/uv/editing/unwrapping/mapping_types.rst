@@ -232,7 +232,7 @@ The following settings are common for the Cube, Cylinder, and Sphere mappings:
 
 Correct Aspect
    Map UVs will take the images aspect ratio into consideration.
-   If an image has already been mapped to the texture space that is non-square,
+   If an image has already been mapped to the :term:`texture space` that is non-square,
    the projection will take this into account and distort the mapping to appear correct.
 Clip to Bounds
    Any UVs that lie outside the (0 to 1) range will be clipped to that range
