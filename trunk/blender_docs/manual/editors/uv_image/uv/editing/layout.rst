@@ -124,7 +124,7 @@ Pack Islands
    :Hotkey:    :kbd:`Ctrl-P`
 
 The *Pack Islands* tool generates an optimized UV layout with non-overlapping islands
-that tries to efficiently fill the texture space.
+that tries to efficiently fill the :term:`texture space`.
 
 First it will uniformly scale the selected island,
 then individually transform each island so that they fill up the UV space as much as possible.

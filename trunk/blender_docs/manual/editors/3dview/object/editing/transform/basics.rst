@@ -68,11 +68,12 @@ The angle of rotation will be displayed in the footer of the 3D View editor.
 
 
 .. _view3d-transform-trackball:
+.. _bpy.ops.transform.trackball:
 
 Trackball Rotation
 ------------------
 
-A free rotation mode. Press :kbd:`R`, :kbd:`R` to enable Trackball rotation.
+A free rotation mode. Press :kbd:`R-R` to enable Trackball rotation.
 
 
 .. _bpy.ops.transform.resize:
@@ -160,9 +161,13 @@ Proportional Editing, Falloff, Size
    *Size* of the :doc:`/editors/3dview/object/editing/transform/control/proportional_edit` tool.
 Edit Grease Pencil
    ToDo.
-Edit Texture Space
+   
+.. _modeling_transform_edit-texture-space:
+
+Edit Texture Space :kbd:`Shift-T`:kbd:`Shift-Alt-T`
    This checkbox lets you apply the transformation on the :ref:`Texture Space <properties-texture-space>`,
    instead of the object or element itself. Only available in translation and scale.
+   This option is also available via the short cuts, :kbd:`Shift-T` (move) and :kbd:`Shift-Alt-T` (scale).
 Confirm on Release
    Shows if either the operation was drag-and-release or move-and-confirm.
 
@@ -177,21 +182,3 @@ Using Keyboard Shortcuts
 #. Tap :kbd:`G`, or :kbd:`R`, or :kbd:`S` once to enter the transformation mode.
 #. Transform the elements by moving the mouse.
 #. :kbd:`LMB` click to accept changes.
-
-
-Texture Space
-=============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Object Mode and Edit Mode
-   :Menu:      :menuselection:`Object --> Transform`
-   :Hotkey:    :kbd:`Shift-T`, :kbd:`Shift-Alt-T`
-
-Transforms the object :ref:`Texture Space <properties-texture-space>`,
-which will become visible in the 3D View.
-Same as if the *Edit Texture Space* checkbox is enabled.
-
-- Move Texture Space :kbd:`Shift-T`
-- Scale Texture Space :kbd:`Shift-Alt-T`

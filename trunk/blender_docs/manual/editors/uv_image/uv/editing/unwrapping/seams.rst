@@ -93,7 +93,7 @@ the select will only go up to the hairline seam, and the scalp will not be unwra
 
 When unwrapping anything that is bilateral, like a head or a body, seam it along the mirror axis.
 For example, cleave a head or a whole body right down the middle in front view. When you unwrap,
-you will be able to overlay both halves onto the same texture space,
+you will be able to overlay both halves onto the same :term:`texture space`,
 so that the image pixels for the right hand will be shared with the left;
 the right side of the face will match the left, etc.
 
