@@ -176,6 +176,7 @@ Sections
       game_engine/index.rst
       preferences/index.rst
       advanced/index.rst
+      addons/index.rst
       pipeline/index.rst
       troubleshooting/index.rst
       glossary/index.rst
