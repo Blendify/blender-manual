@@ -10,16 +10,15 @@ SVG
 :Category: Import-Export
 :Author(s): Sergey Sharybin, JM Soler
 
-
 .. note::
 
-   Currently the script makes only importing and limited to paths geometries only. More features will come soon.
+   Currently the script allows only importing and is limited to path geometry only. More features will come soon.
 
 
 Properties
 ==========
 
-This addon does not have any properties.
+This add-on does not have any properties.
 
 
 Usage

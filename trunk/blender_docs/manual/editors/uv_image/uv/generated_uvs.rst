@@ -29,7 +29,7 @@ Auto Texture Space
       the location and size of the texture space relative to the base object.
       These can also be adjusted from the 3D View, see `Editing`_ for more information.
 
------
+------------------------
 
 Texture Mesh
    Use another mesh for texture indices, the vertex of the two objects must be perfectly aligned.
@@ -55,23 +55,22 @@ Editing
    :Menu:      :menuselection:`Object --> Transform`
    :Hotkey:    :kbd:`Shift-T`, :kbd:`Shift-Alt-T`
 
-
-To modify the texture space from the 3D view, enable
+To modify the texture space from the 3D View, enable
 :ref:`Edit Texture Space <modeling_transform_edit-texture-space>`
 while :doc:`transforming </editors/3dview/object/editing/transform/basics>` an object.
 The texture space can also be transformed with the two shortcuts: :kbd:`Shift-T`
-(move) and :kbd:`Shift-Alt-T` (scale). In essence, these shortcuts just enable the
-*Edit Texture Space* option while transforming.
+(move) and :kbd:`Shift-Alt-T` (scale). In essence, these shortcuts just enable
+the *Edit Texture Space* option while transforming.
 
 
 Accessing
 =========
 
-The automatically calculated UV map can be accessed by an object's material through the
-*Generated* output of the :doc:`/render/cycles/nodes/types/input/texture_coordinate>`.
+The automatically calculated UV map can be accessed by an object's material through
+the *Generated* output of the :doc:`/render/cycles/nodes/types/input/texture_coordinate`.
 This output can then be used to map any texture onto an object.
 
 .. tip::
 
    Generated texture spaces do not have rotation support, to overcome this,
-   a :doc:`/render/cycles/nodes/types/vector/mapping>` can be used to rotate the UV.
+   a :doc:`/render/cycles/nodes/types/vector/mapping` can be used to rotate the UV map.

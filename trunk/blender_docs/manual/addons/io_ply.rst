@@ -1,10 +1,10 @@
 
 ***
-BLY
+PLY
 ***
 
 :Name: Import/Export PLY files
-:Location: :menuselection:`File --> Import/Export --> BLY`
+:Location: :menuselection:`File --> Import/Export --> PLY`
 :Version: 1.0.0
 :Blender Version: 2.74
 :Category: Import-Export
@@ -47,6 +47,6 @@ Scale
 Usage
 =====
 
-Use the operator to import ascii or binary ply files, you can select multiples files.
+Use the operator to import ASCII or binary PLY-files, you can select multiple files at once.
 For exporting, you can choose to enable or disable the modifiers during the export
-and you can choose which data you want to export (uv-texture, vertex-color, ...)
+and you can choose which data you want to export (UV textures, vertex colors, ...)

@@ -12,10 +12,10 @@ STL
 
 .. warning::
 
-    Currently the script does not handle importing or exporting of normals
-    and does not handle endianes, there is nothing in the STL spec about it.
+   Currently the script does not handle importing or exporting of normals
+   and does not handle endianness, there is nothing in the STL specification about it.
 
-  
+
 Properties
 ==========
 
@@ -24,8 +24,8 @@ Common
 
 Forward / Up Axis
    Since many applications use a different axis for 'Up', there are axis conversion there settings,
-   Forward and Up axis - By mapping these to different axis you can convert rotations
-   between applications default up & forward axis.
+   Forward and Up axis -- By mapping these to different axis you can convert rotations
+   between applications default up and forward axis.
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
@@ -58,7 +58,7 @@ Batch Mode
 Usage
 =====
 
-Use the operator to import ASCII or binary stl-files, you can select multiples files.
-For exporting you can select multiples objects and they will be exported as an single STL file.
+Use the operator to import ASCII or binary STL-files, you can select multiple files at once.
+For exporting you can select multiple objects and they will be exported as a single STL-file.
 You can select between ASCII/binary file format (binary is more compact).
 You can also choose to enable or disable the modifiers during the export.

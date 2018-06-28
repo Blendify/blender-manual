@@ -37,13 +37,13 @@ the pivot point in a number of situations.
 In this example, the orange rectangle has its origin located on the far left of the mesh,
 while the blue rectangle has its origin located in the center of the mesh.
 
-When single object is selected, the rotation takes place around its origin.
+When a single object is selected, the rotation takes place around its origin.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_bounding-box-center_object-mode.png
 
    Shows the location of the Bounding Box (left) pivot point compared to the Median Point (right).
 
-Image above (left) shows that when multiple objects are selected,
+The image above (left) shows that when multiple objects are selected,
 the pivot point is calculated based on the bounding box of all the selected objects.
 More precisely, the centers of objects are taken into account.
 

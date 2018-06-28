@@ -8,7 +8,7 @@ Import Export
 
 .. toctree::
    :maxdepth: 1
-   
+
    io_3ds.rst
    io_bvh.rst
    io_fbx.rst
