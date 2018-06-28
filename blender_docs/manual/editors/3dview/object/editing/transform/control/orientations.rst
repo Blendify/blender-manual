@@ -17,8 +17,8 @@ Transform Orientations
 
 *Transform Orientations* affect the behavior of
 :doc:`Transformations </editors/3dview/object/editing/transform/basics>`: *Location*, *Rotation*, and *Scale*.
-You will see an effect on the
-:doc:`Object Manipulator </editors/3dview/object/editing/transform/control/manipulators>`
+You will see an effect on
+the :doc:`Object Manipulator </editors/3dview/object/editing/transform/control/manipulators>`
 (the widget in the center of the selection), as well as on transformation constraints,
 :doc:`Axis Locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`.
 
@@ -49,7 +49,7 @@ Global
 Local
    The manipulator matches the *Object* axis.
 
-   When an object is rotated, direction of the *Local* manipulator
+   When an object is rotated, the direction of the *Local* manipulator
    matches to the object's rotation relative to the global axes.
    While the *Global* manipulator always correspond to world coordinates.
 

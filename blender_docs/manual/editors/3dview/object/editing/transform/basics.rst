@@ -161,13 +161,13 @@ Proportional Editing, Falloff, Size
    *Size* of the :doc:`/editors/3dview/object/editing/transform/control/proportional_edit` tool.
 Edit Grease Pencil
    ToDo.
-   
+
 .. _modeling_transform_edit-texture-space:
 
 Edit Texture Space :kbd:`Shift-T`:kbd:`Shift-Alt-T`
    This checkbox lets you apply the transformation on the :ref:`Texture Space <properties-texture-space>`,
    instead of the object or element itself. Only available in translation and scale.
-   This option is also available via the short cuts, :kbd:`Shift-T` (move) and :kbd:`Shift-Alt-T` (scale).
+   This option is also available via the shortcuts, :kbd:`Shift-T` (move) and :kbd:`Shift-Alt-T` (scale).
 Confirm on Release
    Shows if either the operation was drag-and-release or move-and-confirm.
 

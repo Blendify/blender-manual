@@ -326,7 +326,7 @@ This operator can be used as a bridge tool as well.
 
 .. figure:: /images/modeling_meshes_editing_vertices_convex-hull.png
 
-   Input mesh, point cloud, Convex Hull result.
+   Input mesh, point cloud, and Convex Hull result.
 
 Delete Unused
    Removes vertices, edges, and faces that were selected, but not used as part of the hull.
