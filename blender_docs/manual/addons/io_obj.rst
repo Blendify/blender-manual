@@ -179,7 +179,8 @@ Materials:
 - normal shading / shadeless / no-specular.
 - textures for diffuse, specular, ambient, alpha, translucency, bumpmap, hardness.
 
-=== Missing ===
+Missing
+-------
 
 Some of the following features are missing.
 
@@ -187,28 +188,3 @@ Some of the following features are missing.
 - Advanced Material Settings. There are material options documented
   but very few files use them and there are few examples available.
 - Normals -- Blender ignores normals from imported files, recalculating its own based on the geometry.
-
-
-Command Line Converting
------------------------
-
-Here is a script that will convert a blend to an OBJ from the command line.
-(note that it will only use the active scene).
-
-.. code-block:: python
-
-   import bpy
-   import sys
- 
-   argv = sys.argv
-   argv = argv[argv.index("--") + 1:] # get all args after "--"
-
-   obj_out = argv[0]
-
-   bpy.ops.export_scene.obj(filepath=obj_out, axis_forward='-Z', axis_up='Y')
-
-Save the script to ``convert_blend_to_obj.py``
-
-Then to convert a blend::
-
-   blender foobar.blend --background --python convert_blend_to_obj.py -- foobar.obj
