@@ -34,12 +34,8 @@ Usage
 
 Import/Export geometry and curves to the OBJ format.
 
-
 If there is a matching -.MTL for for the OBJ then its materials will be imported too.
 
-=== Configuration ===
-
-These options will be presented at export time. The defaults are intended to be good for typical usage.
 
 Properties
 ==========
@@ -124,9 +120,25 @@ Keep Vertex Order
 Scale
    Global scale to use on export.
 Forward / Up Axis
-   TODO.
+   Since many applications use a different axis for 'Up', there are axis conversion there settings,
+   Forward and Up axis - By mapping these to different axis you can convert rotations
+   between applications default up & forward axis.
+
+   Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
+   For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
 Path Mode
-   Todo.
+   When referencing paths in exported files you may want some control as to the method used since absolute paths
+   may only be correct on you're own system whereas relative paths are more portable but mean you have to keep
+   your files grouped when moving about on you're local file system.
+   In some cases the path doesn't matter since the target application will search
+   a set of pre-defined paths anyway so you have the option to strip the path too.
+
+   :Auto: Uses relative paths for files which are in a subdirectory of the exported location, absolute for any directories outside that.
+   :Absolute: Uses full paths.
+   :Relative: Uses relative paths in every case (except when on a different drive on windows).
+   :Match: Uses relative / absolute paths based on the paths used in blender.
+   :Strip Path: Only write the filename and omit the path component.
+   :Copy: Copy the file on exporting and reference it with a relative path.
 
 
 Compatibility
@@ -197,6 +209,6 @@ Here is a script that will convert a blend to an OBJ from the command line.
 
 Save the script to ``convert_blend_to_obj.py``
 
-Then convert a blend::
+Then to convert a blend::
 
    blender foobar.blend --background --python convert_blend_to_obj.py -- foobar.obj
