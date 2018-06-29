@@ -3,12 +3,12 @@
 PLY
 ***
 
-:Name: Import/Export PLY files
-:Location: :menuselection:`File --> Import/Export --> PLY`
+:Name: Stanford PLY format
+:Location: :menuselection:`File --> Import/Export --> Stanford (.ply)`
 :Version: 1.0.0
-:Blender Version: 2.74
+:Blender: 2.74
 :Category: Import-Export
-:Authors: Bruce Merry, Campbell Barton, Guillaume Bouchard
+:Authors: Bruce Merry, Campbell Bartons
 
 .. warning::
 

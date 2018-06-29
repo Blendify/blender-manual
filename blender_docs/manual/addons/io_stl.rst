@@ -3,10 +3,10 @@
 STL
 ***
 
-:Name: Import/Export STL
-:Location: :menuselection:`File --> Import/Export > STL`
+:Name: STL format
+:Location: :menuselection:`File --> Import/Export > Stl (.stl)`
 :Version: 1.1.2
-:Blender Version: 2.74
+:Blender: 2.74
 :Category: Import-Export
 :Author: Guillaume Bouchard (Guillaum)
 
