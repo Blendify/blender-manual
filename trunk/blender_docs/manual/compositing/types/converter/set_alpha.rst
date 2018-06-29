@@ -99,9 +99,6 @@ In the above example, a Time curve provides the Alpha value to the input socket.
 The current Render Layer node, which has the title in view, provides the image. As before,
 the Alpha Over node mixes (using the alpha values)
 the background swirl and the alpha title to produce the composite image.
-Notice the *Convert Premultiplied* -- checkbox is **not** enabled; this produces a composite
-where the title lets the background image show through where even the background image is
-transparent, allowing you to layer images on top of one another.
 
 
 Colorizing a BW Image
@@ -117,5 +114,4 @@ You can use the Set Alpha node's color button with this kind of node map to add 
 In the example map to the right,
 use the *Alpha* value of the Set Alpha node to give a desired degree of colorization.
 Thread the input image and the Set Alpha node into an Alpha Over node to colorize
-any black-and-white image in this manner. Note the *Convert Premultiplied* checkbox is enabled,
-which tells the Alpha Over node not to multiply the alpha values of the two images together.
+any black-and-white image in this manner.

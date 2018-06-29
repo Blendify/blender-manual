@@ -10,7 +10,7 @@ Bright/Contrast Node
 .. figure:: /images/compositing_types_color_bright-contrast_node.png
    :align: right
 
-   Bright/Contrast Node.
+   Brightness/Contrast Node.
 
 
 Inputs
@@ -18,7 +18,7 @@ Inputs
 
 Image
    Standard image input.
-Bright
+Brightness
    A multiplier-type factor by which to increase the overall brightness
    of the image. Use a negative number to darken an image.
 Contrast
@@ -29,7 +29,11 @@ Contrast
 Properties
 ==========
 
-This node has no properties.
+Convert Premultiplied
+   By default, it is supposed to work in *premultiplied* alpha.
+   If the *Convert Premul* checkbox is not enabled, it is supposed to work in *straight* alpha.
+
+   See :term:`Alpha Channel`.
 
 
 Outputs

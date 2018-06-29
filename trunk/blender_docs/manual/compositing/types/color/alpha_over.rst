@@ -1,5 +1,4 @@
 .. _bpy.types.CompositorNodeAlphaOver:
-.. TODO: Split "Strange Halo" into properties and glossary
 
 ***************
 Alpha Over Node
@@ -11,28 +10,42 @@ Alpha Over Node
    Alpha Over Node.
 
 The *Alpha Over* node is used to layer images on top of one another.
-Alpha Over does not work on the colors of an image.
+
+Where the foreground image pixels has an alpha greater than 0, the background image will be overlaid.
 
 
 Inputs
 ======
 
 Factor
-   Controls the amount of influence the node exerts on the output image.
+   Controls the amount of foreground image.
+   A factor less than 1 will make the foreground more transparent.
 Image
-   The background image.
+   Input for the *background* image.
 Image
-   The foreground image. Where the image pixels has an alpha greater than 0,
-   the background image will be overlaid.
+   Input for the *foreground* image.
 
 
 Properties
 ==========
 
 Convert Premultiplied
-   `Strange Halos or Outlines`_.
+   Converts foreground image to *premultiplied alpha* format.
+
+   The *Alpha Over* node is designed to work with *premultiplied* alpha color format.
+   Use *Convert Premul* when you know that your image has *straight* alpha color values,
+   to perform the correct over operation. Result will be still premultiplied alpha.
+
+   See :term:`Alpha Channel`.
+
 Premultiply
-   Mix Factor. See :term:`Alpha Channel`.
+   The *Premul* slider allows to mix between the using *premultiplied* or *non premultiplied* alpha.
+
+   When set to 1, the foreground color values will be multiplied by alpha, i.e. premultiplied.
+   This is equivalent to enabling the *Convert Premul* option.
+   When it set to 0, color values does not change.
+
+   If *Premultiply* is not zero, *Convert Premul* will be ignored.
 
 
 Outputs
@@ -42,62 +55,26 @@ Image
    Standard image output.
 
 
-Strange Halos or Outlines
-=========================
-
-This section clarifies the functionality of the premultiplied alpha button.
-An alpha channel has a value of between 0 and 1.
-To make an image transparent (to composite it over another one),
-the RGB pixel values are multiplied by the alpha values
-(making the image transparent (0) where the alpha is black (0),
-and opaque (1) where it is white (1)).
-
-To composite image A over image B, the alpha of image A gets multiplied by image A,
-thus making the image part of A opaque and the rest transparent.
-Then the alpha channel of A is inverted and multiplied by image B,
-thus making image B transparent, where A is opaque and vice versa.
-To get the final composite the resultant images are added.
-
-A premultiplied alpha is, when the image (RGB)
-pixels are already multiplied by the alpha channel,
-therefore, the above compositing operation does not work too well,
-and *Convert Premultiplied* has to be enabled.
-This is only an issue in semitransparent area and edges usually.
-The issue normally occurs in a node setup,
-in which two images previously combined with alpha,
-then are combined again with yet another image.
-The previously combined image was already multiplied (premultiplied)
-and needs to be converted as such (hence, *Convert PreMul*).
-
-If multiplied twice artifacts like a white or clear halo occur around
-where the image meet, since the alpha value is being squared or cubed.
-It also depends on whether or not the image has been rendered as a premultiplied,
-or as a straight RGBA image.
-
-
 Examples
 ========
 
-In this example, an image of a Cube is superimposed on a cliff background.
-Use the PreMultiply button, when the foreground image and background images have
-a combined Alpha that is greater than 1.00; otherwise, you will see an unwanted halo effect.
-The resulting image is a composite of the two source images.
+In the map below, *Color Ramp* node is uded to add an alpha channel to the black-and-white swirl image.
+Then *Alpha Over* node is uded to overlay it on top of another image.
+ 
+.. figure:: /images/compositing_types_converter_color-ramp_create-alpha-mask.png
+   :width: 600px
 
-.. list-table::
+   Assembling a composite image using Alpha Over.
 
-   * - .. figure:: /images/compositing_types_color_alpha-over_example.jpg
-          :width: 320px
+In next example, we use the *Factor* control to make a "Fade In" effect.
+This effect can be animated by hooking up a *Time* node to feed the *Factor* socket as shown below.
+In this example, over the course of 30 frames, the *Time* node makes the *Alpha Over* node produce
+a picture that starts with the pure background image, and title slowly bleeds through the background.
 
-          Assembling a composite image using Alpha Over.
+.. figure:: /images/compositing_types_color_alpha-over_example.png
+   :width: 600px
 
-     - .. figure:: /images/compositing_types_color_alpha-over_seethrough.jpg
-          :width: 320px
+   Animated fade in effect using Alpha Over.
 
-          Animated see-through/sheer SFX using Alpha Over on frame 11.
-
-In this example, we use the Factor control to make a sheer cloth or onion-skin effect.
-This effect can be animated, allowing the observer to "see-through" walls
-(or any foreground object) by hooking up a Time node to feed the Factor socket as shown below.
-In this example, over the course of 30 frames, the Time node makes the Alpha Over node produce
-a picture that starts with the background cliff image, and slowly bleeds through the cube.
-This example shows frame 11 just as the cube starts to be revealed.
+Note the *Convert Premul* checkbox is enabled,
+since as the foreground used a PNG image that has *straight* alpha.
