@@ -85,7 +85,7 @@ Empty/Camera/Lamp/Armature/Mesh
 Apply Modifiers
    When enabled, the mesh will be from the output of the modifiers applied to the mesh.
 HQ Normals
-   Calculate higher quality normals for exporting, use this when the resulting normals will be used for shading.
+   Calculate higher quality normals for exporting, activate this when the resulting normals will be used for shading.
 
 
 Animation
@@ -207,7 +207,7 @@ Objects:
 - Object animation (location, scale, rotation)
 - Object groups
 - Object parent/child hierarchy. Note, parents/children will only be exported if they are selected.
-  Do not use skinned meshes as children of other objects (except their own armature) This doesn't work reliably.
+  Do not use skinned meshes as children of other objects (except their own armature) because it doesn't works reliably.
 
 Object Types:
 
