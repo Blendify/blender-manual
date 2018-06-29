@@ -1,4 +1,3 @@
-.. |small-pic| image:: /images/render_blender-render_textures_types_image_options_interpolation.png
 
 *******
 Options
@@ -18,59 +17,45 @@ Image Sampling
 
 In the *Image Sampling* panel we can control how the information is retrieved from the image.
 
-.. list-table::
+.. figure:: /images/render_blender-render_textures_types_image_options_image-sampling-panel.png
 
-   * - .. figure:: /images/render_blender-render_textures_types_image_options_bahnhofstrasse.jpg
-          :width: 320px
-
-          Background image.
-
-     - .. figure:: /images/render_blender-render_textures_types_image_options_map-to-eingabewerte.png
-          :width: 320px
-
-          Foreground image.
-
-The two images presented here are used to demonstrate the different image options.
-The *background image* is an ordinary JPG file,
-the *foreground image* is a PNG file with various alpha and gray-scale values.
-The vertical bar on the right side of the foreground image is an Alpha blend,
-the horizontal bar has 50% alpha.
-
-.. list-table::
-
-   * - .. figure:: /images/render_blender-render_textures_types_image_options_usealpha.jpg
-          :width: 320px
-
-          Foreground image with *Use* alpha. The alpha values of the pixels are evaluated.
-
-     - .. figure:: /images/render_blender-render_textures_types_image_options_calcalpha.jpg
-          :width: 320px
-
-          Foreground image with *Calculate* alpha.
+   Image Sampling panel.
 
 Alpha
    Options related to transparency.
 
    Use
-      Works with PNG and TGA files since they can save transparency information (Foreground Image with Use Alpha).
+      Used the alpha channel information stored in the image.
       Where the alpha value in the image is less than 1.0,
       the object will be partially transparent and things behind it will be visible.
+      Works with files like PNG and TGA that can save transparency information.
+      The *Use Alpha* in the `Image`_ panel must be enabled.
+
    Calculate
       Calculate an alpha based on the RGB values of the Image.
       Black (0, 0, 0) is transparent, white (1, 1, 1) opaque.
       Enable this option if the image texture is a mask.
       Note that mask images can use shades of gray that translate to semi-transparency,
       like ghosts, flames, and smoke/fog.
+
+      .. list-table:: The image with various alpha and gray-scale values.
+
+         * - .. figure:: /images/render_blender-render_textures_types_image_options_alpha-use.png
+                :width: 320px
+
+                Image with *Use* alpha. The alpha values of the pixels are evaluated.
+
+           - .. figure:: /images/render_blender-render_textures_types_image_options_alpha-calculate.png
+                :width: 320px
+
+                Image with *Calculate* alpha only, *Use Alpha* in the *Image* panel is disabled.
+
    Invert
       Reverses the alpha value.
       Use this option if the mask image has white where you want it transparent and vice versa.
 
 Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
-
-.. figure:: /images/render_blender-render_textures_types_image_options_image-sampling-panel.png
-
-   Image Sampling panel.
 
 Normal Map
    This tells Blender that the image is to be used to create the illusion of a bumpy surface,
@@ -107,15 +92,19 @@ Interpolation
    Turn this option off to keep the individual pixels visible and if they are correctly anti-aliased.
    This last feature is useful for regular patterns, such as lines and tiles;
    they remain 'sharp' even when enlarged considerably.
-   When you enlarge this 10×10 pixel Image |small-pic|
-   the difference with and without *Interpolation* is clearly visible.
    Turn this image off if you are using digital photos to preserve crispness.
 
-   .. list-table:: Enlarged Image texture without and with *Interpolation*.
+   .. list-table::
 
       * - .. figure:: /images/render_blender-render_textures_types_image_options_interpolation-off.png
+             :width: 320px
+
+             Enlarged Image texture without *Interpolation*.
 
         - .. figure:: /images/render_blender-render_textures_types_image_options_interpolation-on.png
+             :width: 320px
+
+             Enlarged Image texture with *Interpolation*.
 
 Filter
    The filter size used in rendering, and also by the options *MipMap* and *Interpolation*.
@@ -192,7 +181,7 @@ Extension
       Checkerboards quickly made.
       You can use the option *size* on the *Mapping* panel as well to create the desired number of checkers.
 
-      Even / Odd
+      Even/Odd
          Set even/odd tiles.
       Distance
          Governs the distance between the checkers in parts of the texture size.

@@ -33,7 +33,9 @@ Properties
 ==========
 
 Use Alpha
-   Premultiplied or straight.
+   Used alpha channel, colors are treated alpha *premultiplied*.
+   If disabled, alpha channel gets set to 1,
+   and colors are treated alpha *straight*, i.e. color channels does not change.
 
 
 Outputs
