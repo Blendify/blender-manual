@@ -107,7 +107,19 @@ Optimize Precision
    Tolerance for comparing double keyframes (higher for greater accuracy),
    6 allows 0.000001 difference or less for removal.
 Path Mode
-   TODO.
+   When referencing paths in exported files you may want some control as to the method used since absolute paths
+   may only be correct on you're own system. Relative paths on the other hand are more portable
+   but mean you have to keep your files grouped when moving about on you're local file system.
+   In some cases the path doesn't matter since the target application will search
+   a set of predefined paths anyway so you have the option to strip the path too.
+
+   :Auto: Uses relative paths for files which are in a subdirectory of the exported location,
+          absolute for any directories outside that.
+   :Absolute: Uses full paths.
+   :Relative: Uses relative paths in every case (except when on a different drive on windows).
+   :Match: Uses relative / absolute paths based on the paths used in Blender.
+   :Strip Path: Only write the filename and omit the path component.
+   :Copy: Copy the file on exporting and reference it with a relative path.
 Batch Mode
    When enabled, export each group or scene to a file.
 
