@@ -58,16 +58,16 @@ Image
 Examples
 ========
 
-In the map below, *Color Ramp* node is uded to add an alpha channel to the black-and-white swirl image.
-Then *Alpha Over* node is uded to overlay it on top of another image.
- 
+In the map below, *Color Ramp* node is used to add an alpha channel to the black-and-white swirl image.
+Then *Alpha Over* node is used to overlay it on top of another image.
+
 .. figure:: /images/compositing_types_converter_color-ramp_create-alpha-mask.png
    :width: 600px
 
    Assembling a composite image using Alpha Over.
 
 In next example, we use the *Factor* control to make a "Fade In" effect.
-This effect can be animated by hooking up a *Time* node to feed the *Factor* socket as shown below.
+This effect can be animated by adding a *Time* node to feed the *Factor* socket as shown below.
 In this example, over the course of 30 frames, the *Time* node makes the *Alpha Over* node produce
 a picture that starts with the pure background image, and title slowly bleeds through the background.
 

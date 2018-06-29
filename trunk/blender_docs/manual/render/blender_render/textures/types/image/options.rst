@@ -107,7 +107,7 @@ Interpolation
              Enlarged Image texture with *Interpolation*.
 
 Filter
-   The filter size used in rendering, and also by the options *MipMap* and *Interpolation*.
+   The filter size used in rendering, and also by the options *Mip Map* and *Interpolation*.
    If you notice gray lines or outlines around the textured object, particularly where the image is transparent,
    turn this value down from 1.0 to 0.1 or so.
 
