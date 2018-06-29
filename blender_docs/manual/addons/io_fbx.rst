@@ -8,48 +8,48 @@ Autodesk FBX
 :Version: 3.8.3
 :Blender Version: 2.79
 :Category: Import-Export
-:Author: Campbell Barton, Bastien Montagne,  Jens Ch. Restemeier, with additions by others.
+:Author: Campbell Barton, Bastien Montagne, Jens Ch. Restemeier, with additions by others.
 
 
 Usage
 =====
 
 This format is mainly use for interchanging character animations between applications
-and is supported applications such as Cinema4D, Maya, 3dstudio MAX, Wings3D and engines
-such as Unity3D, Unreal Engine 3/UDK and Unreal Engine 4.
+and is supported by applications such as Cinema4D, Maya, Autodesk 3ds Max, Wings3D and
+engines such as Unity3D, Unreal Engine 3/UDK and Unreal Engine 4.
 
-The exporter can bake mesh modifiers and animation into the FBX so the final result looks the same as blender.
+The exporter can bake mesh modifiers and animation into the FBX so the final result looks the same as in Blender.
 
 .. note::
 
    - Bones would need to get a correction to their orientation
      (FBX bones seems to be -X aligned, Blender’s are Y aligned),
-     this does not affect skinning or animation, but imported bones in other apps will look wrong.
+     this does not affect skinning or animation, but imported bones in other applications will look wrong.
    - Animations (FBX AnimStacks, Blender actions) **are not linked** to there object,
-     because there is no real way to know which stack to use as 'active' action for a given object/mesh/bone.
+     because there is no real way to know which stack to use as 'active' action for a given object, mesh or bone.
      This may be enhanced to be smarter in future, but not really considered urgent,
      so for now you'll have to link actions to objects by hand.
-   - Armatures’ instances (through dupli or group instancing e.g.) **are not supported**.
+   - Armatures’ instances (through e.g. dupli or group instancing) **are not supported**.
 
 .. note::
 
-   - Bones' orientation import is complex, you may have to play a bit with
+   - Bones' orientation importing is complex, you may have to play a bit with
      related settings until you get expected result.
    - Animation support is minimal currently, we read all curves as if they were 'baked' ones
-     (i.e. a set a close keyframes, with linear interpolation).
-   - Imported actions are linked to related object/bone/shapekey, on the 'first one wins' basis,
-     if you exported a set of them for a single object you'll have to relink them yourself.
+     (i.e. a set of close keyframes with linear interpolation).
+   - Imported actions are linked to their related object, bone or shape key, on a 'first one wins' basis.
+     If you exported a set of them for a single object you'll have to reassign them yourself.
 
 .. note:: Saving Just Animations
 
    The FBX file format supports files that only contain takes.
-   It is up to you to keep track of which animations go with which model.
-   The animation that will be output is whatever the currently selected action is within the action editor.
-   To reduce the file size, turn off the exporting of any parts you do not want and untick *All Actions*. 
-   For boned animations typically you just leave the armature enabled which is necessary for that type of animation.
-   Reducing what is output makes the export and future import much quicker.
-   Normally each action will have its own name but the current or only
-   take can be forced to be called *Default Take*. Typically ensure that option remains off.
+   It is up to you to keep track of which animations belongs to which model.
+   The animation that will be exported is the currently selected action within the Action editor.
+   To reduce the file size, turn off the exporting of any parts you do not want and disable *All Actions*.
+   For armature animations typically you just leave the armature enabled which is necessary for that type of animation.
+   Reducing what is output makes the export and future import much faster.
+   Normally each action will have its own name but the current or
+   only take can be forced to be named "Default Take". Typically ensure that this option remains off.
 
 
 Properties
@@ -59,6 +59,7 @@ Import
 ------
 
 Todo.
+
 
 Export
 ------
@@ -74,8 +75,8 @@ Scale
    fits best with the scale most applications import FBX to.
 Forward / Up Axis
    Since many applications use a different axis for 'Up', there are axis conversion there settings,
-   Forward and Up axis - By mapping these to different axis you can convert rotations
-   between applications default up & forward axis.
+   Forward and Up axis -- By mapping these to different axis you can convert rotations
+   between applications default up and forward axis.
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
@@ -84,22 +85,23 @@ Empty/Camera/Lamp/Armature/Mesh
 Apply Modifiers
    When enabled, the mesh will be from the output of the modifiers applied to the mesh.
 HQ Normals
-   Calculate higher quality normals for exporting, use this where the resulting normals will be rendered.
+   Calculate higher quality normals for exporting, use this when the resulting normals will be used for shading.
+
 
 Animation
 ^^^^^^^^^
 
 Include Animation
-   Export armature bone and object animation.
+   Export armature bones and object animation.
 Optimize Keyframes
    Remove duplicate keyframes when they are not needed.
 All Actions
-   Export all actions compatible with selected armatures
-   start/end times are derived from the keyframe range of each action.
+   Export all actions compatible with the selected armatures
+   start/end times which are derived from the keyframe range of each action.
    When disabled only the currently assigned action is exported.
 Include Default Take
    Export the "Default Take", this is an action which includes all object and
-   armature animations as displayed in the 3D view and is mainly useful when
+   armature animations as displayed in the 3D View and is mainly useful when
    animating multiple objects together.
 Optimize Precision
    Tolerance for comparing double keyframes (higher for greater accuracy),
@@ -117,12 +119,12 @@ Batch Mode
       in the group for animated actions to work.
 Own Dir
    When enabled, each file is exported into its own directory,
-   this is useful when using the "Copy Images" option. so each directory contains
-   one model with all the images it uses. Note, this requires a full python installation
-   if you do not have a full python installation this button will not be shown.
+   this is useful when using the *Copy Images* option. so each directory contains
+   one model with all the images it uses. Note, this requires a full Python installation
+   if you do not have a full Python installation this button will not be shown.
 Prefix
-   prefix the scene/group name with this text when exporting,
-   its also used for the name of the directory when "Own Dir" option is enabled.
+   Prefix the scene/group name with this text when exporting,
+   it's also used for the name of the directory when *Own Dir* option is enabled.
 
 
 Compatibility
@@ -131,10 +133,10 @@ Compatibility
 Import
 ------
 
-Note that the importer is a new addition and misses support for many features the exporter supports.
+Note that the importer is a new addition and lacks many features the exporter supports.
 
-* binary FBX files only.
-* Version 7.1 or newer.
+- binary FBX files only.
+- Version 7.1 or newer.
 
 
 Supported
@@ -143,43 +145,43 @@ Supported
 Objects:
 
 - Object instancing.
-- Object Parent/Child Hierarchy
+- Object parent/child hierarchy
 
 Object Types:
 
-- Meshes - See below 
-- Cameras - see below 
-- Lamps - see below 
-- Empties - see below
+- Meshes -- see below
+- Cameras -- see below
+- Lamps -- see below
+- Empties -- see below
 
 Meshes:
 
-- Verts/Edges/Faces
-- Smooth/Flat Faces, Soft/Sharp Edges
-- UV Coordinates
-- Vertex Colors
-- TODO: Armature Deformation
-- TODO: Shape Keys
+- Vertices, edges, faces
+- Smooth/flat faces, soft/sharp edges
+- UV coordinates
+- Vertex colors
+- TODO: armature deformation
+- TODO: shape keys
 
 Lamps:
 
-- Energy 
+- Energy
 - Color
-- Type (Point/Directional/Spot) 
-- Spot Size
-- TODO: Distance
+- Type (point, directional, spot)
+- Spot size
+- TODO: distance
 
 Materials:
 
-- Cycles and Blender-Internal materials (depending on engine set).
+- Cycles and Blender Internal materials (depending on the engine set).
 - Color: diffuse, specular, ambient.
 - Shader settings: shininess, transparency, emit, reflect.
 
 Cameras:
 
-- Clip start/end 
-- Field of view 
-- ShiftX/ShiftY 
+- Clip start/end
+- Field of view
+- ShiftX/shiftY
 - Aspect ratio
 
 
@@ -188,80 +190,82 @@ Missing
 
 - Armatures
 - Animation
-- Mesh: Shape keys.
+- Mesh: shape keys.
 
 
 Export
 ------
 
-- Nurbs surfaces, text3d and metaballs are converted to meshes at export time.
+- NURBs surfaces, text3D and metaballs are converted to meshes at export time.
+
 
 Supported
 ^^^^^^^^^
 
 Objects:
 
-- Object Animation (Location/Scale/Rotation) 
-- Object Groups 
-- Object Parent/Child Hierarchy. Note, parents/children will only be exported if they are selected.
-  Do not used skinned meshes as children of other objects (except their own armature) This doesnt work reliably
+- Object animation (location, scale, rotation)
+- Object groups
+- Object parent/child hierarchy. Note, parents/children will only be exported if they are selected.
+  Do not use skinned meshes as children of other objects (except their own armature) This doesn't work reliably.
 
 Object Types:
 
-- Meshes - See below 
-- Metaballs, Nurbs Surface, Text3D (written as FBX mesh objects) 
-- Particles (strands as mesh edges) 
-- Cameras - see below 
-- Armatures - see below 
-- Lamps - see below 
-- Empties - see below
+- Meshes -- see below
+- Metaballs, NURBs surface, text3D (written as FBX mesh objects)
+- Particles (strands as mesh edges)
+- Cameras -- see below
+- Armatures -- see below
+- Lamps -- see below
+- Empties -- see below
 
 Meshes:
 
-- Verts/Edges/Faces/Normals 
-- Smooth/Flat Faces, Soft/Sharp Edges
-- UV Coordinates (multiple named layers supported) 
-- Vertex Colors (multiple named layers supported) 
-- Armature Deformation -- Only 1 armature modifier can be used on each mesh.
-  Armature envelopes will only work when the mesh "Modifier" option is enabled,
+- Vertices, edges, faces, normals
+- Smooth/flat faces, soft/sharp edges
+- UV coordinates (multiple named layers supported)
+- Vertex colors (multiple named layers supported)
+- Armature deformation -- Only one armature modifier can be used on each mesh.
+  Armature envelopes will only work when the mesh *Modifier* option is enabled,
   otherwise they must be manually converted to weight groups before exporting.
-- Shape Keys -- Currently shape keys will only be written if modifiers are disabled,
+- Shape keys -- Currently shape keys will only be written if modifiers are disabled,
   or if the modifiers keep the same number of vertices, note that when exporting shapes
   with *Apply Modifiers* enabled no other shapes should be displayed since the shape will
-  be applied on top of the mesh thats exported.
+  be applied on top of the mesh that is exported.
 
 Armatures:
 
-- Bones -- Bone use the same name space as objects, naming collisions are solved by the exporter.
-- Parent Bones -- Meshes with parent bones are exported as weighted meshes.
-- Animation. Animated armatures are exported with keyframes,
-  The results of constraints and IK's etc will be exported however,
+- Bones -- Bone use the same namespace as objects, naming collisions are solved by the exporter.
+- Parent bones -- Meshes with parent bones are exported as weighted meshes.
+- Animation -- Animated armatures are exported with keyframes,
+  The results of constraints and IKs etc. will be exported however,
   the constraints and other settings are not saved into the FBX file.
-- Actions (Multiple actions to FBX Takes) -- When the "All Actions" option is enabled,
-  actions will be exported for each armature when an action has at least 1 name that matches an armatures bone.
+- Actions (multiple actions to FBX Takes) -- When the "All Actions" option is enabled,
+  actions will be exported for each armature when an action has at least one name that matches an armatures bone.
 
 Lamps:
 
-- Energy 
-- Color 
-- Distance 
-- Type (Point/Directional/Spot) 
+- Energy
+- Color
+- Distance
+- Type (point, directional, spot)
 - Spot Size
 
 Materials:
 
-- Color: diffuse, specular, ambient. 
-- Shader settings: shininess, transparency, emit. 
-- Shader (phong or lambert) 
-- Shadeless 
-- Images Texface -- Material Textures are not supported
+- Color: diffuse, specular, ambient.
+- Shader settings: shininess, transparency, emit.
+- Shader (Phong or Lambert)
+- Shadeless
+- Images texface -- Material textures are not supported.
 
 Cameras:
 
-- Clip start/end 
-- Field of view 
-- ShiftX/ShiftY 
+- Clip start/end
+- Field of view
+- ShiftX/shiftY
 - Aspect ratio
+
 
 Missing
 ^^^^^^^
@@ -269,12 +273,12 @@ Missing
 Some of the following features are missing because they
 are not supported by the FBX format, others may be added later.
 
-- Object Instancing -- exported objects do not share data,
+- Object instancing -- exported objects do not shared data,
   instanced objects will each be written with their own data.
 - Material textures -- only texface images are supported.
-- Vertex Shape Keys -- FBX Supports but this exporter does not write them yet.
-- Animated Fluid Simulation -- FBX does not support this kind of animation,
-  You can however use use the OBJ exporter to write a sequence of files.
+- Vertex shape keys -- FBX supports them but this exporter does not write them yet.
+- Animated fluid simulation -- FBX does not support this kind of animation,
+  You can however use the OBJ exporter to write a sequence of files.
 - Constraints -- The result of using constraints is exported as a keyframe animation
   however the constraints themselves are not saved in the FBX.
-- Dupli Objects -- At the moment dupli objects are only written in static scenes (when animation is disabled).
+- Dupli-objects -- At the moment dupli-objects are only written in static scenes (when animation is disabled).
