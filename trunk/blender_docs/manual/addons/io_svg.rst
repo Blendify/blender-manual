@@ -3,10 +3,10 @@
 SVG
 ***
 
-:Name: Import/Export Scalable Vector Graphics (SVG) 1.1
-:Location: :menuselection:`File --> Import --> Scalable Vector Graphics`
+:Name: Scalable Vector Graphics (SVG) 1.1 format
+:Location: :menuselection:`File --> Import --> Scalable Vector Graphics (.svg)`
 :Version: 1.0.0
-:Blender Version: 2.57
+:Blender: 2.57
 :Category: Import-Export
 :Author(s): Sergey Sharybin, JM Soler
 

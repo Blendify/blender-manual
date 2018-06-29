@@ -3,10 +3,10 @@
 UV Layout
 *********
 
-:Name: TODO
+:Name: UV Layout
 :Location: :menuselection:`UV/Image editor --> UVs --> Export UV Layout`
 :Version: 1.1.1
-:Blender Version: TODO
+:Blender: 2.75
 :Category: Import-Export
 :Author(s): Campbell Barton, Matt Ebb
 
