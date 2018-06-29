@@ -148,40 +148,6 @@ Compatibility
 NURBs surfaces, text3D and metaballs are converted to meshes at export time.
 
 
-Supported
----------
-
-Objects:
-
-- Object are written as geometry
-- Dupli-objects
-
-
-Object Types:
-
-- Meshes - See below 
-- NURBs Curves
-
-Meshes:
-
-- Vertices, edges, faces, normals 
-- Smooth/flat faces
-- UV coordinates (only single layer) 
-
-NURBs Curves:
-
-- Open and closed
-- Curves only (not surfaces)
-- Curve weighting
-
-Materials:
-
-- Color: diffuse, specular, ambient.
-- Shader settings: shininess, transparency, emit. 
-- Normal shading / shadeless / no-specular.
-- Textures for diffuse, specular, ambient, alpha, translucency, bump map, hardness.
-
-
 Missing
 -------
 

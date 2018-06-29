@@ -139,52 +139,6 @@ Note that the importer is a new addition and lacks many features the exporter su
 - Version 7.1 or newer.
 
 
-Supported
-^^^^^^^^^
-
-Objects:
-
-- Object instancing.
-- Object parent/child hierarchy
-
-Object Types:
-
-- Meshes -- see below
-- Cameras -- see below
-- Lamps -- see below
-- Empties -- see below
-
-Meshes:
-
-- Vertices, edges, faces
-- Smooth/flat faces, soft/sharp edges
-- UV coordinates
-- Vertex colors
-- TODO: armature deformation
-- TODO: shape keys
-
-Lamps:
-
-- Energy
-- Color
-- Type (point, directional, spot)
-- Spot size
-- TODO: distance
-
-Materials:
-
-- Cycles and Blender Internal materials (depending on the engine set).
-- Color: diffuse, specular, ambient.
-- Shader settings: shininess, transparency, emit, reflect.
-
-Cameras:
-
-- Clip start/end
-- Field of view
-- ShiftX/shiftY
-- Aspect ratio
-
-
 Missing
 ^^^^^^^
 
@@ -196,75 +150,7 @@ Missing
 Export
 ------
 
-- NURBs surfaces, text3D and metaballs are converted to meshes at export time.
-
-
-Supported
-^^^^^^^^^
-
-Objects:
-
-- Object animation (location, scale, rotation)
-- Object groups
-- Object parent/child hierarchy. Note, parents/children will only be exported if they are selected.
-  Do not use skinned meshes as children of other objects (except their own armature) because it doesn't works reliably.
-
-Object Types:
-
-- Meshes -- see below
-- Metaballs, NURBs surface, text3D (written as FBX mesh objects)
-- Particles (strands as mesh edges)
-- Cameras -- see below
-- Armatures -- see below
-- Lamps -- see below
-- Empties -- see below
-
-Meshes:
-
-- Vertices, edges, faces, normals
-- Smooth/flat faces, soft/sharp edges
-- UV coordinates (multiple named layers supported)
-- Vertex colors (multiple named layers supported)
-- Armature deformation -- Only one armature modifier can be used on each mesh.
-  Armature envelopes will only work when the mesh *Modifier* option is enabled,
-  otherwise they must be manually converted to weight groups before exporting.
-- Shape keys -- Currently shape keys will only be written if modifiers are disabled,
-  or if the modifiers keep the same number of vertices, note that when exporting shapes
-  with *Apply Modifiers* enabled no other shapes should be displayed since the shape will
-  be applied on top of the mesh that is exported.
-
-Armatures:
-
-- Bones -- Bone use the same namespace as objects, naming collisions are solved by the exporter.
-- Parent bones -- Meshes with parent bones are exported as weighted meshes.
-- Animation -- Animated armatures are exported with keyframes,
-  The results of constraints and IKs etc. will be exported however,
-  the constraints and other settings are not saved into the FBX file.
-- Actions (multiple actions to FBX Takes) -- When the "All Actions" option is enabled,
-  actions will be exported for each armature when an action has at least one name that matches an armatures bone.
-
-Lamps:
-
-- Energy
-- Color
-- Distance
-- Type (point, directional, spot)
-- Spot Size
-
-Materials:
-
-- Color: diffuse, specular, ambient.
-- Shader settings: shininess, transparency, emit.
-- Shader (Phong or Lambert)
-- Shadeless
-- Images texface -- Material textures are not supported.
-
-Cameras:
-
-- Clip start/end
-- Field of view
-- ShiftX/shiftY
-- Aspect ratio
+NURBs surfaces, text3D and metaballs are converted to meshes at export time.
 
 
 Missing
