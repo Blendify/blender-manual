@@ -38,19 +38,31 @@ Color Mode
 Interpolation Options
    Enables the user to choose the types of calculations for the color interpolation for each color stop.
 
-   B-Spline
-      Uses a *B-Spline* Interpolation for the color stops.
-   Cardinal
-      Uses a *Cardinal* Interpolation for the color stops.
-   Linear
-      Uses a *Linear* Interpolation for the color stops.
-   Ease
-      Uses an *Ease* Interpolation for the color stops.
-   Constant
-      Uses a *Constant* Interpolation for the color stops.
+   RGB
+      B-Spline
+         Uses a *B-Spline* Interpolation for the color stops.
+      Cardinal
+         Uses a *Cardinal* Interpolation for the color stops.
+      Linear
+         Uses a *Linear* Interpolation for the color stops.
+      Ease
+         Uses an *Ease* Interpolation for the color stops.
+      Constant
+         Uses a *Constant* Interpolation for the color stops.
+   HSV and HSL
+      Clockwise
+         Clockwise interpolation around the HSV/HSL wheel.
+      Counter-Clockwise
+         Counterclockwise around the HSV/HSL wheel.
+      Near
+         Nearest route around the wheel.
+      Far
+         Furthest route around the wheel.
 
-.. (TODO add) more interpolation options:
-   https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.72/More_Features
+      .. figure:: /images/interface_controls_templates_color-ramp_color-ramp_interpolation.png
+         :width: 600px
+
+         HSV and HSL interpolation options.
 
 Active Color Stop
    Index of the active color stop (shown as a dashed line).
