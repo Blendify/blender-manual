@@ -36,6 +36,8 @@ Midlevel
    and any higher values will push it outwards.
 Scale
    Increase or decrease the amount of displacement.
+Normal
+   (Todo)
 
 
 Properties

@@ -106,6 +106,14 @@ Strength
 Example
 =======
 
-.. figure:: /images/modeling_modifiers_deform_displace_braille.jpg
+.. figure:: /images/modeling_modifiers_deform_displace_example-1.jpg
+   :width: 680px
 
-   A highly subdivided plane with an image of the Braille alphabet used as the displacement texture.
+   Three different objects created with the Displace modifier.
+   `Sample blend-file <https://en.blender.org/uploads/9/9e/Manual-Modifier-Displace-Example01.blend>`__.
+
+.. figure:: /images/modeling_modifiers_deform_displace_example-2.jpg
+   :width: 540px
+
+   A slime animation created with the Displace modifier.
+   `Sample blend-file <https://en.blender.org/uploads/6/62/Manual-Modifier-Displace-Slime01.blend>`__.

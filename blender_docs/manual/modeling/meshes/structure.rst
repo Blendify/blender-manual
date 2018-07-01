@@ -7,6 +7,7 @@ With meshes, everything is built from three basic structures:
 *vertices*, *edges* and *faces*.
 
 .. figure:: /images/modeling_meshes_structure_example.png
+   :width: 600px
 
    Example of mesh structure.
 
@@ -20,17 +21,12 @@ The most elementary part of a mesh is the vertex which is a single point or posi
 The vertices (the plural form of vertex) are stored in an array of coordinates.
 
 It is usually invisible in rendering and in *Object Mode*.
-Do not mistake the origin point of an object for a vertex. It looks similar,
-but it is bigger and you cannot select it.
+Do not mistake the :doc:`Origin Point </editors/3dview/object/origin>` of an object for a vertex.
+It looks similar, but it is bigger and you cannot select it.
 
 .. figure:: /images/modeling_meshes_structure_cube-example.png
 
-   Vertex example.
-
-   The origin is labeled as "A"; "B" and "C" are vertices.
-
-In the image above, the vertex labeled "C" is a new vertex added to the cube with
-a new edge added between "B" and "C".
+   The vertex is labeled as "A", and "B" are object origin.
 
 
 Edges
@@ -69,8 +65,7 @@ Loops
    Edge and face loops.
 
 *Edge* and *face* loops are sets of faces or edges that form continuous "loops" as shown in
-Fig. :ref:`fig-mesh-topo-loop`. The top row (1 - 4) shows a solid view,
-the bottom row (5 - 8) a wireframe view of the same loops.
+Fig. :ref:`fig-mesh-topo-loop`.
 
 .. note::
 

@@ -8,9 +8,9 @@ The Smooth Modifier smooths a mesh by flattening the angles between adjacent fac
 just like :menuselection:`Specials --> Smooth` in Edit Mode.
 It smooths without subdividing the mesh -- the number of vertices remains the same.
 
-.. figure:: /images/modeling_modifiers_deform_smooth_example.png
+.. figure:: /images/modeling_modifiers_deform_smooth_panel.png
 
-   Smooth Modifier applied to a subdivided cube.
+   Smooth Modifier panel.
 
 This modifier is not limited to smoothing, though.
 Its control factor can be configured outside the (0.0 to 1.0) range
@@ -46,3 +46,24 @@ Each new vertex position is simply the average position of surrounding vertices
 (the vertices connected to the same edge as it).
 
 .. (TODO) Add diagrams.
+
+
+Example
+=======
+
+.. list-table::
+
+   * - .. figure:: /images/modeling_meshes_editing_transform_smooth_mesh-before.png
+          :width: 200px
+
+          Mesh before smoothing.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_smooth_mesh-one-iteration.png
+          :width: 200px
+
+          Mesh after one smoothing iteration.
+
+     - .. figure:: /images/modeling_meshes_editing_transform_smooth_mesh-ten-iterations.png
+          :width: 200px
+
+          Mesh after ten smoothing iterations.

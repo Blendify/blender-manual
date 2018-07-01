@@ -62,13 +62,6 @@ In the case two edges, merging them into a single edge.
 Face Split
    When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.
    The face split option limits dissolve to only use the corners of the faces connected to the vertex.
-
-   .. figure:: /images/modeling_meshes_editing_basics_deleting_dissolve-face-split.png
-      :width: 500px
-
-      Dissolve Face Split option.
-
-      Left: the input, middle: regular dissolve, right: Face Split enabled.
 Tear Boundaries
    Split off face corners instead of merging faces.
 
@@ -134,10 +127,17 @@ Limited Dissolve
 
 This tool can simplify your mesh by dissolving vertices and edges separating flat regions.
 
-.. figure:: /images/modeling_meshes_editing_basics_deleting_limited-dissolve.jpg
-   :width: 400px
+.. list-table::
 
-   Example usage.
+   * - .. figure:: /images/modeling_meshes_editing_basics_deleting_limited-dissolve-before.png
+          :width: 320px
+
+          Original mesh.
+
+     - .. figure:: /images/modeling_meshes_editing_basics_deleting_limited-dissolve-after.png
+          :width: 320px
+
+          Result of Limited Dissolve.
 
 Max Angle
    Reduces detail on planar faces and linear edges with an adjustable angle threshold.
