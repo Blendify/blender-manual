@@ -27,12 +27,13 @@ the detail in the displacement texture.
 Inputs
 ======
 
-Offset
+Vector
    Vector specifying the displacement along three axes.
    This is where a texture node can be connected.
 
-   RGB colors are mapped to the XYZ axes (Object Space)
-   or tangent, normal and bitangent axes (Tangent Space) respectively.
+   Typically a baked vector displacement image texture is used.
+   For Object Space, RGB colors in the image are interpreted as an XYZ offset in object space.
+   For Tangent Space, R is an offset along the tangent, G along the normal and B along the bitangent.
 Midlevel
    Neutral displacement value that causes no displacement.
    With the default 0.0, any lower values will cause the surfaces to be pushed inwards,
