@@ -103,7 +103,7 @@ Examples
 Musgrave Types
 --------------
 
-.. list-table:: Different Musgrave types with a same parameters.
+.. list-table:: Different Musgrave types with the same parameters.
 
    * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-fbm.jpg
           :width: 320px
