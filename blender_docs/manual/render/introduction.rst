@@ -42,7 +42,7 @@ In general, the process for rendering is:
 Render Engines
 ==============
 
-Renderers are programs that turns meshes, materials and lights into images.
+Renderers are programs that turn meshes, materials and lights into images.
 
 Some renderers may be better at certain things than others due
 to the math they use or core principles around which they were written.
