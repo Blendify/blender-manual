@@ -62,28 +62,27 @@ Image
 Examples
 ========
 
-Here are some common curves you can use to achieve desired effects:
+Below are some common curves you can use to achieve desired effects.
 
 .. figure:: /images/compositing_types_color_rgb-curves_example-common-use.png
    :width: 600px
 
-   From left to right: 1. Lighten 2. Negative 3. Decrease Contrast 4. Posterize.
+   From left to right: 1. Lighten shadows 2. Negative 3. Decrease contrast 4. Posterize.
 
 
 Color Correction using Curves
 -----------------------------
 
-.. figure:: /images/compositing_types_color_rgb-curves_example-rgb.jpg
+.. figure:: /images/compositing_types_color_rgb-curves_example-rgb.png
    :width: 600px
 
    Color correction with curves.
 
 In this example, the image has too much red in it,
-so we run it through an RGB node and reduce the Red channel by about half.
+so we run it through an *RGB Curves* node and reduce the Red channel.
 
-We added a middle dot so we could make the line into a sideways exponential curve.
-This kind of curve evens out the amount of a color in an image as it reaches saturation. Also,
-read on for examples of the Darken and Contrast Enhancement curves.
+Also, read on for examples of the Darken and Contrast Enhancement curves,
+:doc:`here </compositing/types/color/mix>`.
 
 
 Color Correction using Black/White Levels
@@ -116,20 +115,4 @@ Effects
 .. figure:: /images/compositing_types_color_rgb-curves_ex.png
    :width: 620px
 
-   Changing colors.
-
-.. (todo remove/rewrite) T53993
-   this can be done using the Curve but not Black/White Level inputs.
-
-.. Curves and Black/White Levels can also be used to completely change the colors of an image.
-
-.. Note that e.g. setting Black Level to red and White Level to blue does not simply substitute
-   black with red and white with blue as the example image might suggest.
-   Levels do color scaling, not substitution,
-   but depending on the settings they can result in the described color substitution.
-
-.. (What really happens when setting Black Level to pure red and White Level to pure blue
-   is that the red channel gets inverted, green gets reduced to zero and blue remains unchanged).
-
-.. Because of this, the results of setting arbitrary Black/White Levels or RGB curves is hard to
-   predict, but can be fun to play with.
+   Changing colors by inverting the red channel.

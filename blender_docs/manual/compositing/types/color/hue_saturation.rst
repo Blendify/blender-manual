@@ -84,3 +84,8 @@ HSV Example
    :width: 700px
 
    A basic example.
+
+.. figure:: /images/compositing_types_input_mask_example.png
+   :width: 700px
+
+   An example of using the Factor input for masking.

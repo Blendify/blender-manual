@@ -47,4 +47,6 @@ Color
 Example
 =======
 
-TODO add.
+.. figure:: /images/compositing_types_input_mask_example.png
+
+   The Invert node is used to invert the mask.
