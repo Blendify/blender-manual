@@ -8,6 +8,6 @@ Web3D
 :Version: 1.2.0
 :Blender: 2.76
 :Category: Import-Export
-:Authors:  "Campbell Barton, Bart, Bastien Montagne, Seva Alekseyev
+:Authors:  Campbell Barton, Bart, Bastien Montagne, Seva Alekseyev
 
 TODO.

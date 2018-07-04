@@ -16,7 +16,7 @@ The OBJ format is a popular plain text format, however, it has only basic geomet
 - Mesh: vertices, faces, edges, normals, UV's
 - Separation by groups/objects
 - Materials/textures
-- NURBs curves and surfaces.
+- NURBS curves and surfaces.
 
 .. note::
 
@@ -103,8 +103,8 @@ Triangulate
 Polygroups
    Write faces into OBJ groups based on the meshes vertex group.
    Note that this does a best guess since a faces vertices can be in multiple vertex groups.
-NURBs
-   Write out NURBs curves as OBJ NURBs rather than converting to geometry.
+NURBS
+   Write out NURBS curves as OBJ NURBS rather than converting to geometry.
 Objects as OBJ Objects / Groups
    Write out each Blender object as an OBJ object.
    
@@ -145,7 +145,7 @@ Path Mode
 Compatibility
 =============
 
-NURBs surfaces, text3D and metaballs are converted to meshes at export time.
+NURBS surfaces, text3D and metaballs are converted to meshes at export time.
 
 
 Missing
@@ -153,7 +153,7 @@ Missing
 
 Some of the following features are missing:
 
-- NURBs Surfaces -- this could be added but is not widely used.
+- NURBS Surfaces -- this could be added but is not widely used.
 - Advanced Material Settings -- There are material options documented
   but very few files use them and there are few examples available.
 - Normals -- Blender ignores normals from imported files, recalculating them based on the geometry.
