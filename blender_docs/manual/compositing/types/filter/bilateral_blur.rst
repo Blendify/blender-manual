@@ -12,9 +12,9 @@ Bilateral Blur Node
 The Bilateral Blur node performs a high-quality adaptive blur on the source image,
 allowing to blur images while retaining their sharp edges.
 
-It can be used for various purposes like: smoothing results from Blender's ray-traced ambient occlusion,
-smoothing results from various unbiased renderers, to fake some performance-heavy processes,
-like blurry refractions/reflections, soft shadows, to make non-photorealistic compositing effects.
+It can be used for various purposes like: smoothing noisy render passes to avoid longer computation times
+in example ray-traced ambient occlusion, blurry refractions/reflections, soft shadows,
+or to make non-photorealistic compositing effects.
 
 
 Inputs

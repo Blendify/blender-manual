@@ -28,8 +28,8 @@ in an external paint program and tell the UV/Image Editor to Open that file as t
 or you can create a New image and save it as the texture.
 
 If you want to start off by creating an image using an external paint program,
-you will want to save an outline of your UV faces by using the *Export UV Layout* add-on located in the UVs menu.
-This is discussed :doc:`here </addons/io_uv_layout>`.
+you will want to save an outline of your UV faces by using
+the :doc:`Export UV Layout </addons/io_uv_layout>` add-on located in the UVs menu.
 
 
 Creating an Image Texture

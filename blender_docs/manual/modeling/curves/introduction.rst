@@ -14,11 +14,11 @@ Both Bézier curves and NURBS curves and surfaces are defined in terms of a set 
 
    Blender logo made from Bézier curves.
 
-Both Bézier and NURBs curves are named after their mathematical definitions, and
+Both Bézier and NURBS curves are named after their mathematical definitions, and
 choosing between them is often more a matter of how they are computed behind the scenes
 than how they appear from a modeler's perspective.
 Bézier curves are generally more intuitive because they start and end at the control points that you set,
-but NURBs curves are more efficient for the computer to calculate when there are many twists and turns in a curve.
+but NURBS curves are more efficient for the computer to calculate when there are many twists and turns in a curve.
 
 The main advantage to using curves instead of polygonal meshes is that curves are defined by
 less data and so can produce results using less memory and storage space at modeling time.
