@@ -10,10 +10,11 @@ for ease of editing an animation. These are called S-Curves.
 
 Besides the handles, every control point also has points that define the feather between
 the current point and the next point on the spline.
-Each feather point is stored in UV space,
-where U means position across spline segment, and V means distance between main spline and feather points.
+Each feather point is stored in UW space,
+where U means position across spline segment, and W (weight) means distance between main spline and feather points.
 
-.. figure:: /images/editors_movie-clip-editor_masking_scurve_schematic.png
+.. figure:: /images/editors_movie-clip-editor_masking_scurve_schematic.svg
+   :width: 420px
 
    S-Curve explained.
 

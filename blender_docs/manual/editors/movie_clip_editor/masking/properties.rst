@@ -6,7 +6,12 @@ Properties
 Mask Layer
 ==========
 
-Mask Layer
+.. figure:: /images/editors_movie-clip-editor_masking_properties_mask-layer-panel.png
+   :align: right
+
+   Mask Layer panel.
+
+Mask Layers List
    Mask layers consists of one or several splines and used to "grouped" operation on splines.
    Layers can be used to create complex shapes and to define how the splines interact with each other.
    Splines belonging to the same layer can be animated together, for example by an item
@@ -15,26 +20,33 @@ Mask Layer
    simple to transform all of them together.
 
 Opacity
-   ToDo 2.64.
-
-   Invert
-      ToDo 2.64.
+   Used to set the opacity of the mask layer. 
+Invert (black/white icon)
+   Inverts the values (colors) in the mask layer.
 Blend
-   ToDo 2.64.
-Falloff
-   Feather. ToDo 2.64.
-Overlap
-   Detect self-intersections. ToDo 2.64.
-Holes
-   Option not to treat overlapping curves as holes.
-   Concentric splines will generating holes in the mask.
+   Layer blending operation to perform. See :term:`Color Blend Modes`.
 
-   By creating overlapping splines holes can be created, and
-   it's the layer membership that defines which splines interact to create holes.
-   As addition, splines from the same layer are behaving in a way,
-   that concentric splines are defining holes in mask,
-   but if two splines from different layers are concentric they wouldn't define a hole --
-   they'll just be union in final mask.
+   Modes *Merge Add* and *Merge Subtract*
+   gives better results when using *Feather* on overlapping masks
+   than straightforward mathematical addition and subtraction.
+Falloff
+   Type of the *Feather* falloff, controls the shape of the transition between black and white.
+Overlap
+   Fills the self-intersecting areas.
+Holes
+   Overlapping splines from the same layer will generating holes in the mask.
+
+.. list-table::
+
+   * - .. figure:: /images/editors_movie-clip-editor_masking_properties_example-overlap.png
+          :width: 320px
+
+          The Overlap option example.
+
+     - .. figure:: /images/editors_movie-clip-editor_masking_properties_example-holes.png
+          :width: 320px
+
+          The Holes option example.
 
 
 Example
@@ -68,25 +80,40 @@ Overlay
 Active Spline
 =============
 
-.. (wip)
-   It is possible to control feather of mask, including a way to define non-linear feather.
-   Linear feather is controlled by a slider,
-   non-linear feather is controlled in the same curve-based way to define feather falloff.
+.. figure:: /images/editors_movie-clip-editor_masking_properties_active-spline-panel.png
+   :align: right
+
+   Active Spline panel.
 
 Feather Offset
-   ToDo 2.64.
+   The method used for calculating the mask spline feather offset.
+
+   Even
+      Preserves thickness of feather, but can give unsightly loops.
+   Smooth
+      Gives nicer smoother shape,
+      but can give unsightly feather when a curve segment forms an S-shape.
+
 Weight Interpolation
-   ToDo 2.64.
+   The type of weight (thickness of feather) interpolation between points.
+   *Linear* or *Ease* (i.e. changes occur slowly at the beginning and at the end).
+
 Cyclic
    If the spline is closed or not.
 Fill
-   Disable calculation of holes.
+   Creates splines with a filled areas.
+   If disabled, creates curves with a thickness to mask out linear objects such as wires or hair.
 Self Intersection Check
-   Fill self-intersections.
+   Prevent feather (not curve itself) from self-intersections.
 
 
 Active Point
 ============
+
+.. figure:: /images/editors_movie-clip-editor_masking_properties_active-point-panel.png
+   :align: right
+
+   Active Point panel.
 
 This panel is shown when both a tracking marker and mask is selected.
 
@@ -94,7 +121,7 @@ This panel is shown when both a tracking marker and mask is selected.
 Parent
 ------
 
-In the Movie Clip Editor it is possible to link the whole mask or its points to motion tracks.
+In the *Movie Clip Editor* it is possible to link the whole mask or its points to motion tracks.
 This way the mask or points will follow the tracks.
 
 Make Parent :kbd:`Ctrl-P`
@@ -116,4 +143,5 @@ Track
 Mask Settings
 =============
 
-ToDo 2.64.
+Start Frame, End Frame
+   Set the frame range of the mask for *Sequencer*.
