@@ -58,7 +58,49 @@ Properties
 Import
 ------
 
-Todo.
+Main
+^^^^
+
+Manual Orientation
+   TODO.
+Forward / Up Axis
+   Since many applications use a different axis for 'Up', there are axis conversion there settings,
+   Forward and Up axis -- By mapping these to different axis you can convert rotations
+   between applications default up and forward axis.
+
+   Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
+   For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
+Apply Transform
+   TODO.
+Import Normals
+   TODO.
+Import Animation
+   TODO.
+   
+   Animation Offset
+      TODO.
+Import User Properties
+   TODO.
+Import Enums As Strings
+   TODO.
+Image Search
+   TODO.
+Decal Offset
+   TODO.
+Use Pre/Post Rotation
+
+
+Armatures
+^^^^^^^^^
+
+Ignore Leaf Bones
+   TODO.
+Force Connect Children
+   TODO.
+Automatic Bone Orientation
+   TODO.
+Primary/Secondary Bone Axis
+   TODO.
 
 
 Export
@@ -73,6 +115,10 @@ Selected Objects
 Scale
    Scale the exported data by this value. 10 is the default because this
    fits best with the scale most applications import FBX to.
+Apply Scale
+   TODO.
+Apply Scalings
+   TODO.
 Forward / Up Axis
    Since many applications use a different axis for 'Up', there are axis conversion there settings,
    Forward and Up axis -- By mapping these to different axis you can convert rotations
@@ -80,32 +126,12 @@ Forward / Up Axis
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
-Empty/Camera/Lamp/Armature/Mesh
+Empty/Camera/Lamp/Armature/Mesh/Other
    Enable/Disable exporting of respective object types.
-Apply Modifiers
-   When enabled, the mesh will be from the output of the modifiers applied to the mesh.
-HQ Normals
-   Calculate higher quality normals for exporting, activate this when the resulting normals will be used for shading.
-
-
-Animation
-^^^^^^^^^
-
-Include Animation
-   Export armature bones and object animation.
-Optimize Keyframes
-   Remove duplicate keyframes when they are not needed.
-All Actions
-   Export all actions compatible with the selected armatures
-   start/end times which are derived from the keyframe range of each action.
-   When disabled only the currently assigned action is exported.
-Include Default Take
-   Export the "Default Take", this is an action which includes all object and
-   armature animations as displayed in the 3D View and is mainly useful when
-   animating multiple objects together.
-Optimize Precision
-   Tolerance for comparing double keyframes (higher for greater accuracy),
-   6 allows 0.000001 difference or less for removal.
+Apply Transform
+   TODO.
+Custom Properties
+   TODO.
 Path Mode
    When referencing paths in exported files you may want some control as to the method used since absolute paths
    may only be correct on you're own system. Relative paths on the other hand are more portable
@@ -120,6 +146,9 @@ Path Mode
    :Match: Uses relative / absolute paths based on the paths used in Blender.
    :Strip Path: Only write the filename and omit the path component.
    :Copy: Copy the file on exporting and reference it with a relative path.
+   
+   Imbed Textures
+      TODO.
 Batch Mode
    When enabled, export each group or scene to a file.
 
@@ -129,14 +158,59 @@ Batch Mode
       since that uses scene data and groups are not attached to any scenes.
       Also note, when Group/Scene is enabled you must include the armature objects
       in the group for animated actions to work.
-Own Dir
-   When enabled, each file is exported into its own directory,
-   this is useful when using the *Copy Images* option. so each directory contains
-   one model with all the images it uses. Note, this requires a full Python installation
-   if you do not have a full Python installation this button will not be shown.
-Prefix
-   Prefix the scene/group name with this text when exporting,
-   it's also used for the name of the directory when *Own Dir* option is enabled.
+   Own Dir
+      When enabled, each file is exported into its own directory,
+      this is useful when using the *Copy Images* option. so each directory contains
+      one model with all the images it uses. Note, this requires a full Python installation
+      if you do not have a full Python installation this button will not be shown.
+
+Geometries
+^^^^^^^^^^
+
+Apply Modifiers
+   When enabled, the mesh will be from the output of the modifiers applied to the mesh.
+Use Modifiers Render Setting
+   TODO.
+Smoothing
+   TODO.
+Loose Edges
+   TODO.
+Tangent Space
+   TODO.
+
+
+Armatures
+^^^^^^^^^
+
+Only Deform Bones
+   TODO.
+Add Leaf Bones
+   TODO.
+Primary/Secondary Bone Axis
+   TODO.
+Armature FBXNode Type
+   TODO.
+
+
+Animation
+^^^^^^^^^
+
+Baked Animation
+   TODO.
+Key All Bones
+   TODO.
+NLA Strips
+   TODO.
+All Actions
+   Export all actions compatible with the selected armatures
+   start/end times which are derived from the keyframe range of each action.
+   When disabled only the currently assigned action is exported.
+Force Start/End Keying
+   TODO.
+Sampling Rate
+   TODO.
+Simplify
+   TODO.
 
 
 Compatibility
@@ -154,8 +228,6 @@ Note that the importer is a new addition and lacks many features the exporter su
 Missing
 ^^^^^^^
 
-- Armatures
-- Animation
 - Mesh: shape keys.
 
 
