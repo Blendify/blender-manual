@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Masks can be created in the UV/Image and Movie Clip editors, by changing the mode to Mask in the header.
+Masks can be created in the *UV/Image* and *Movie Clip* editors, by changing the mode to *Mask* in the header.
 This will add various tools and properties to the editor panels,
 while hiding others that are not needed for interacting with masks.
 
@@ -13,11 +13,15 @@ They can be used for manual rotoscoping to pull a particular object out of the f
 or as a rough matte for green-screen keying. Masks are independent from a particular image of movie clip,
 and so they can just as well be used for creating motion graphics or other effects in the compositor.
 
-While the Clip Editor and UV/Image editor are used to edit masks,
-the Compositor and Sequencer are just using already created mask.
+.. figure:: /images/compositing_types_input_mask_example.png
+
+   Using the Mask node to isolate an object in compositing.
+
+While the *Movie Clip Editor* and *UV/Image Editor* are used to edit masks,
+the *Compositor* and *Sequencer* are just using already created mask.
 
 Masks can be driven over the time so that they follow some object from the footage,
-e.g. a running actor. This can be achieved with shape keys or parenting the mask to tracking markers.
+e.g. a running actor. This can be achieved with keyframes or parenting the mask to tracking markers.
 
 
 Mask Data-block
@@ -30,6 +34,10 @@ Masks can be reused in different places, and hold global parameters for all the 
 
 Header
 ======
+
+.. figure:: /images/editors_movie-clip-editor_masking_introduction_header.png
+
+   The Movie Clip Editor header in Mask mode.
 
 Mask
    Once set to Mask mode, a Mask data-block can be added.

@@ -80,7 +80,7 @@ Animation
 Masks can be animated with the shape keying system.
 This can be useful when there are not enough good feature points to track in the footage,
 or the mask is not based on footage.
-Mask animation timing can be edited from the Dope Sheet :ref:`Mask <dope-sheet-mask>` mode.
+Mask animation timing can be edited from the *Dope Sheet's* :ref:`Mask Mode <dope-sheet-mask>`.
 
 Insert Shape Key :kbd:`I`
    Will insert a shape key for the active mask layer at the current frame.
@@ -91,7 +91,7 @@ Clear Shape Key :kbd:`Alt-I`
 Feather Reset Animation
    Resets the feather offset across all animated frames.
 Re-Key Points of Selected Shapes
-   Re-interpolate selected points on across the range of keys selected in the Dope Sheet.
+   Re-interpolate selected points on across the range of keys selected in the *Dope Sheet*.
 
 
 Show/Hide
