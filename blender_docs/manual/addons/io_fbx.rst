@@ -76,7 +76,7 @@ Import Normals
    TODO.
 Import Animation
    TODO.
-   
+
    Animation Offset
       TODO.
 Import User Properties
@@ -89,6 +89,7 @@ Decal Offset
    TODO.
 Use Pre/Post Rotation
    TODO.
+
 
 Armatures
 ^^^^^^^^^
@@ -146,8 +147,8 @@ Path Mode
    :Match: Uses relative / absolute paths based on the paths used in Blender.
    :Strip Path: Only write the filename and omit the path component.
    :Copy: Copy the file on exporting and reference it with a relative path.
-   
-   Imbed Textures
+
+   Embed Textures
       TODO.
 Batch Mode
    When enabled, export each group or scene to a file.
@@ -163,6 +164,7 @@ Batch Mode
       this is useful when using the *Copy Images* option. so each directory contains
       one model with all the images it uses. Note, this requires a full Python installation
       if you do not have a full Python installation this button will not be shown.
+
 
 Geometries
 ^^^^^^^^^^

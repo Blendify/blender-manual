@@ -11,7 +11,7 @@ Mask Layer
 
    Mask Layer panel.
 
-Mask Layers List
+Mask Layers
    Mask layers consists of one or several splines and used to "grouped" operation on splines.
    Layers can be used to create complex shapes and to define how the splines interact with each other.
    Splines belonging to the same layer can be animated together, for example by an item
@@ -20,14 +20,14 @@ Mask Layers List
    simple to transform all of them together.
 
 Opacity
-   Used to set the opacity of the mask layer. 
+   Used to set the opacity of the mask layer.
 Invert (black/white icon)
    Inverts the values (colors) in the mask layer.
 Blend
-   Layer blending operation to perform. See :term:`Color Blend Modes`.
+   The layer blending operation to perform. See :term:`Color Blend Modes`.
 
    Modes *Merge Add* and *Merge Subtract*
-   gives better results when using *Feather* on overlapping masks
+   gives better results when using a *Feather* on overlapping masks
    than straightforward mathematical addition and subtraction.
 Falloff
    Type of the *Feather* falloff, controls the shape of the transition between black and white.
@@ -86,10 +86,10 @@ Active Spline
    Active Spline panel.
 
 Feather Offset
-   The method used for calculating the mask spline feather offset.
+   The method used for calculating the offset of the mask spline feather.
 
    Even
-      Preserves thickness of feather, but can give unsightly loops.
+      Preserves the thickness of the feather, but can give unsightly loops.
    Smooth
       Gives nicer smoother shape,
       but can give unsightly feather when a curve segment forms an S-shape.
@@ -101,10 +101,10 @@ Weight Interpolation
 Cyclic
    If the spline is closed or not.
 Fill
-   Creates splines with a filled areas.
-   If disabled, creates curves with a thickness to mask out linear objects such as wires or hair.
+   Creates splines with filled areas.
+   If disabled, Blender will create curves with a thickness to mask out thin objects such as wires or hair.
 Self Intersection Check
-   Prevent feather (not curve itself) from self-intersections.
+   Prevent the feather (not the curve itself) from intersecting with itself.
 
 
 Active Point

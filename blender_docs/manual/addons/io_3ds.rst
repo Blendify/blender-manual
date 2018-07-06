@@ -15,7 +15,7 @@ Usage
 =====
 
 This add-on can be used to import and export objects to/from the 3DS file format.
-This format is commonly used to exchange files from Autodesk® 3ds Max®.
+This format is commonly used to exchange files from Autodesk\ :sup:`®` 3ds Max\ :sup:`®`.
 
 
 Properties
@@ -38,6 +38,7 @@ Image Search
    This enables a recursive file search if an image file can't be found.
 Apply Transform
    Applies object transformations after importing.
+
 
 Export
 ------
