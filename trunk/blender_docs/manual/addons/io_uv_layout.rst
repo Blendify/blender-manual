@@ -10,6 +10,7 @@ UV Layout
 :Category: Import-Export
 :Author(s): Campbell Barton, Matt Ebb
 
+
 Usage
 =====
 
@@ -24,6 +25,7 @@ that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for
 
 The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser with options for saving the layout.
+
 
 Properties
 ==========

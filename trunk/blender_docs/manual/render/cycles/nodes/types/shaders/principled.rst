@@ -35,7 +35,7 @@ Base Color
    Diffuse or metal surface color.
 Subsurface
    Mix between diffuse and subsurface scattering.
-   Rather than being a simple mix between Diffuse and Subsurface Scattering, 
+   Rather than being a simple mix between Diffuse and Subsurface Scattering,
    it acts as a multiplier for the Subsurface Radius.
 Subsurface Radius
    Average scattering distance for RGB channels.

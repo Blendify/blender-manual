@@ -21,7 +21,7 @@ While the *Movie Clip Editor* and *UV/Image Editor* are used to edit masks,
 the *Compositor* and *Sequencer* are just using already created mask.
 
 Masks can be driven over the time so that they follow some object from the footage,
-e.g. a running actor. This can be achieved with keyframes or parenting the mask to tracking markers.
+e.g. a running actor. This can be achieved with shape keys or parenting the mask to tracking markers.
 
 
 Mask Data-block
