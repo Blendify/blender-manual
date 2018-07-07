@@ -11,11 +11,11 @@ Transfer works by generating a mapping between source mesh's items (vertices, ed
 and destination ones, either on a one-to-one basis, or mapping several source items
 to a single destination one by interpolated mapping.
 
-.. figure:: /images/modeling_modifiers_modify_data-transfer_normals-example.png
+.. figure:: /images/modeling_modifiers_modify_data-transfer_normals-example.jpg
+   :width: 680px
 
-   From left to right, a flat-shaded beveled cube, a smooth-shaded beveled cube,
-   and an auto-smooth-shaded beveled cube copying its normals from the reference,
-   flat-shaded cube shown as wire here, to achieve the 'fake round corners' effect.
+   Transferring normals between objects,
+   `see example blend-file <https://en.blender.org/uploads/a/ad/Data_Transfer_Normal_Torus.blend>`__.
 
 
 Options
@@ -191,3 +191,7 @@ Interpolated Mappings
       Projected Face Interpolated
          This is a sampling process. Several rays are cast from the whole destination's face (along its own normal),
          and if enough of them hit a source's face, all hit source faces' data are interpolated into destination one.
+
+.. seealso::
+
+   :doc:`Data Transfer operator </modeling/meshes/editing/data_transfer>`
