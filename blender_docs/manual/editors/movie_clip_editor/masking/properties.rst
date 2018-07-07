@@ -89,10 +89,10 @@ Feather Offset
    The method used for calculating the offset of the mask spline feather.
 
    Even
-      Preserves the thickness of the feather, but can give unsightly loops.
+      Preserves the thickness of the feather, but can give undesirable loops of the feather curve.
    Smooth
       Gives nicer smoother shape,
-      but can give unsightly feather when a curve segment forms an S-shape.
+      but can give undesirable sharp feather when a curve segment forms an S-shape.
 
 Weight Interpolation
    The type of weight (thickness of feather) interpolation between points.

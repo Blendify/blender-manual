@@ -13,7 +13,7 @@ The *Object Info* node gives information about the object instance.
 This can be useful to give some variation to a single material assigned to multiple instances,
 either manually controlled through the object index, based on the object location,
 or randomized for each instance. For example a Noise texture can give random colors or a Color
-ramp can give a range of colors to be randomly picked from.
+Ramp can give a range of colors to be randomly picked from.
 
 
 Inputs
@@ -34,9 +34,11 @@ Outputs
 Location
    Location of the object in world space.
 Object Index
-   Object pass index, same as in the Object Index pass.transformed.
+   Object pass index, same as *Pass Index*
+   in the :menuselection:`Properties Editor --> Object --> Relations`.
 Material Index
-   Material pass index, same as in the Material Index pass.
+   Material pass index, same as *Pass Index*
+   in the :menuselection:`Properties Editor --> Material --> Settings`.
 Random
    Random number unique to a single object instance.
 
@@ -44,3 +46,15 @@ Random
 
    Note that this node only works for material shading nodes;
    it does nothing for lamp and world shading nodes.
+
+
+Example
+=======
+
+.. figure:: /images/render_cycles_nodes_types_input_object-info_example.png
+   :width: 640px
+
+.. figure:: /images/render_cycles_settings_scene_render_motion-blur_example-cubes.jpg
+   :width: 640px
+
+   `Example blend-file <https://en.blender.org/uploads/0/03/Blender2.65_motion_blur.blend>`__.

@@ -14,8 +14,9 @@ objects do appear to be blurred in the direction of motion,
 both in a movie frame and in a photograph from a real-world camera.
 
 .. figure:: /images/render_cycles_settings_scene_render_motion-blur_example.jpg
+   :width: 640px
 
-   Motion Blur example.
+   Motion blur example.
 
 .. note::
 
@@ -28,7 +29,6 @@ Options
 =======
 
 .. figure:: /images/render_cycles_settings_scene_render_motion-blur_settings.png
-   :width: 195px
    :align: right
 
    Motion Blur settings.
@@ -68,3 +68,12 @@ Rolling Shutter Duration
    These options can be found in the Object tab of the Properties editor.
    See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
 
+
+Example
+=======
+
+.. figure:: /images/render_cycles_settings_scene_render_motion-blur_example-cubes.jpg
+   :width: 640px
+
+   Motion blur example.
+   (`blend-file <https://en.blender.org/uploads/0/03/Blender2.65_motion_blur.blend>`__)

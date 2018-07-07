@@ -19,15 +19,11 @@ Options
    Normal Edit Modifier.
 
 Mode
-   The two modes currently available to generate normals.
-
-   Radial aligns normals with the (origin, vertex coordinates) vector, in other words all normals seems to radiate
-   from the given center point, as if they were emitted from an ellipsoid surface.
-
-   Directional makes all normals point (converge) towards a given target object.
-
-   Radial/Directional
-
+   Radial
+      Radial aligns normals with the (origin, vertex coordinates) vector, in other words all normals seems to radiate
+      from the given center point, as if they were emitted from an ellipsoid surface.
+   Directional
+      Directional makes all normals point (converge) towards a given target object.
 Target Object
    Uses this object's center as reference point when generating normals.
 
@@ -57,6 +53,8 @@ Mix Factor
 Vertex Group
    Allows per-item fine control of the mix factor. Vertex group influence can be reverted using the small
    "arrow" button to the right.
+Max Angle
+   (Todo)
 
 
 Usage
@@ -71,3 +69,16 @@ The only mandatory prerequisite to use it is to enable *Auto Smooth* option in M
 
    More complex normal manipulations can be achieved by copying normals from one mesh to another,
    see the :doc:`Data Transfer Modifier </modeling/modifiers/modify/data_transfer>`.
+
+
+Example
+=======
+
+.. figure:: /images/modeling_modifiers_modify_normal-edit_example.jpg
+   :width: 680px
+
+   Examples of edit custom normals to point towards a give direction,
+   `see example blend-file <http://download.blender.org/ftp/mont29/persistent_data/sapling_CN.blend>`__.
+
+Left tree uses auto-computed default normals, right one uses *Normal Edit* modifier to bend them towards the camera.
+It shading trick often used in games to enhance trees and other vegetation at a cheap cost.
