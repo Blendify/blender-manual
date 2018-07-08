@@ -7,7 +7,7 @@ Materials define the appearance of meshes, curves and other objects.
 They consist of three shaders, defining the appearance of the surface of the mesh,
 the volume inside the mesh, and displacement of the surface of the mesh.
 
-.. figure:: /images/render_cycles_materials_introduction_shaders.png
+.. figure:: /images/render_cycles_materials_introduction_shaders.svg
    :align: center
 
 

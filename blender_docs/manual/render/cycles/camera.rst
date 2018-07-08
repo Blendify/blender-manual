@@ -20,8 +20,8 @@ Perspective
 Focal Length/Field of View
    Control the field of view set by lens property or by angle as selected in the *Lens Unit* menu.
 
-.. figure:: /images/render_cycles_camera_persp.png
-   :width: 300px
+.. figure:: /images/render_cycles_camera_perspective.svg
+   :width: 340px
 
 .. hint:: Dolly Zoom
 
@@ -37,8 +37,8 @@ Orthographic
 Scale
    Controls the size of objects projected on the image.
 
-.. figure:: /images/render_cycles_camera_ortho.png
-   :width: 300px
+.. figure:: /images/render_cycles_camera_orthographic.svg
+   :width: 340px
 
 
 .. _cycles-panoramic-camera:

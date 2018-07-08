@@ -49,7 +49,8 @@ at which point we can determine what light would strike that point.
 The surface properties and incident light angle tells how much of that light would be
 reflected back along the incident viewing angle *(Rendering engine basic principle)*.
 
-.. figure:: /images/render_blender-render_materials_introduction_basic-principle.jpg
+.. figure:: /images/render_blender-render_materials_introduction_basic-principle.svg
+   :width: 480px
 
    Rendering engine basic principle.
 

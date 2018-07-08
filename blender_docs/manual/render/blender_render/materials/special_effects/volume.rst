@@ -109,8 +109,8 @@ the more easily it penetrates throughout the volume and to the shadow.
 Asymmetry
 ---------
 
-.. figure:: /images/render_blender-render_materials_special-effects_volume_phase-diagram.png
-   :width: 300px
+.. figure:: /images/render_blender-render_materials_special-effects_volume_phase-diagram.svg
+   :width: 380px
 
    Isotropic and Anisotropic scattering.
 

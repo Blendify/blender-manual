@@ -68,8 +68,8 @@ Technical Details
 
 .. _fig-bi-light-rayshadow-area:
 
-.. figure:: /images/render_blender-render_lighting_lamps_area_raytraced-shadows_concept.png
-   :width: 250px
+.. figure:: /images/render_blender-render_lighting_lamps_area_raytraced-shadows_concept.svg
+   :width: 280px
 
    Principles behind the Area light.
 
