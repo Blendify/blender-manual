@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="580px" height="420px" viewBox="0 0 580 420">
+
+<marker id="arrow" viewBox="0 0 6 6" refX="1" refY="3" markerWidth="6" markerHeight="6" orient="auto">
+	<path d="M0,0V6L6,3z"/>
+</marker>
+
+<g marker-end="url(#arrow)" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round">
+
+	<circle stroke-width="5" cx="330" cy="120" r="19"/>
+	<circle stroke-width="5" cx="330" cy="315" r="19"/>
+
+	<path d="M46,61L283,102"/>
+	<path d="M46,256L283,297"/>
+
+	<path d="M309,99L274,64"/>
+	<path d="M330,90L330,40"/>
+	<path d="M351,99L386,64"/>
+	<path d="M360,120L410,120"/>
+	<path d="M351,141L386,176"/>
+	<path d="M330,150L330,200"/>
+	<path d="M309,141L274,176"/>
+	<path d="M300,120L250,120"/>
+
+	<path d="M309,294L300,285"/>
+	<path d="M330,285L330,255"/>
+	<path d="M351,294L395,250"/>
+	<path d="M358,303L478,266"/>
+	<path d="M360,315L530,315"/>
+	<path d="M358,327L478,364"/>
+	<path d="M351,336L395,380"/>
+	<path d="M330,345L330,375"/>
+	<path d="M309,336L300,345"/>
+	<path d="M300,315L289,315"/>
+
+</g>
+
+<text font-size="16px" font-weight="bold" font-family="Tahoma, sans-serif">
+	<tspan x="50" y="145">Isotropic scattering</tspan>
+	<tspan x="50" y="340">Anisotropic scattering</tspan>
+</text>
+
+</svg>

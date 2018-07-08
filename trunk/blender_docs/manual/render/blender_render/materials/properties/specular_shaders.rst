@@ -50,7 +50,8 @@ but it can be set to different values for various effects
 Technical Details
 -----------------
 
-.. figure:: /images/render_blender-render_materials_properties_specular-shaders_reflection.jpg
+.. figure:: /images/render_blender-render_materials_properties_specular-shaders_reflection.svg
+   :width: 480px
 
    Specular reflection.
 

@@ -21,7 +21,8 @@ for example, a photon map in memory,
 and because we can keep rays relatively coherent to use an on-demand image cache,
 compared to e.g. bidirectional path tracing.
 
-.. figure:: /images/render_cycles_settings_scene_render_light-paths_rays.png
+.. figure:: /images/render_cycles_settings_scene_render_light-paths_rays.svg
+   :align: center
 
 We do the inverse of what reality does,
 tracing light rays from the camera into the scene and onto lights,
