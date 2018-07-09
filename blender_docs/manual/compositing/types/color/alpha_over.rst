@@ -11,7 +11,7 @@ Alpha Over Node
 
 The *Alpha Over* node is used to layer images on top of one another.
 
-Where the foreground image pixels has an alpha greater than 0, the background image will be overlaid.
+Where the foreground image pixels have an alpha greater than 0, the background image will be overlaid.
 
 
 Inputs
@@ -43,7 +43,7 @@ Premultiply
 
    When set to 1, the foreground color values will be multiplied by alpha, i.e. premultiplied.
    This is equivalent to enabling the *Convert Premul* option.
-   When it set to 0, color values does not change.
+   When set to 0, color values does not change.
 
    If *Premultiply* is not zero, *Convert Premul* will be ignored.
 
