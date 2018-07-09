@@ -16,22 +16,12 @@ Keyed
 
    Keyed Physics settings.
 
-The particle paths of keyed particles are determined from the emitter to another particle
+The paths of keyed particles are determined from the emitter to another particle
 system's particles. This allows creation of chains of systems with keyed physics to create
 long strands or groovy moving particles. Basically the particles have no dynamics but are
 interpolated from one system to the next at draw-time.
 
-
-Setup
-=====
-
-To setup Keyed particles you need at least two particle systems.
-
-The first system has keyed physics, and it needs the option First activated.
-This will be the system that is visible.
-
-The second system may be another keyed system but without the option *First*,
-or a normal particle system. This second system is the target of the keyed system.
+To setup *Keyed* particles you need at least two particle systems in the *Keys* list.
 
 
 Options
@@ -40,6 +30,9 @@ Options
 Loops
    Sets the number of times the keys are looped. Disabled if *Use Timing* is enabled.
 
+   .. (wip) how many times we go through Keys list
+      start at first key, move through list to the last key
+      go to the first key again... and then die at the last key
 
 Keys
 ----
@@ -50,6 +43,15 @@ Key Targets
 
    Click the :kbd:`Plus` to add a key, then select the object.
 
+Object
+   The name of a target object for selected key. If empty it uses the current particle system.
+System
+   Index of particle system on the target object.
+Time
+   (Todo)
+Duration
+   (Todo)
+
 If you use only one keyed system the particles will travel in their lifetime from the emitter
 to the target. A shorter lifetime means faster movement.
 If you have more than one keyed system in a chain, the lifetime will be split equally.
@@ -58,6 +60,8 @@ This may lead to varying particle speeds between the targets.
 
 Timing
 ------
+
+.. (Todo) need review, description of 2.4x
 
 Use Timing
    Timing works together with the Time slider for the other keyed systems in a chain.
