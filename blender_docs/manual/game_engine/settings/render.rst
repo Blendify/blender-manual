@@ -255,10 +255,6 @@ The *Bake* panel in the *Render* tab of the *Properties* editor is very similar 
 Blender Render counterpart and serves much the same purpose.
 See :doc:`Render Baking </render/blender_render/bake>` for further details.
 
-.. figure:: /images/game-engine_settings_render_bake.png
-
-   Bake panel at the Render tab (showing different bake modes).
-
 Bake
    Bake image textures of selected objects.
 Bake Mode
