@@ -359,31 +359,21 @@ Accuracy
 Transfer Weights
 ================
 
-Copy weights from other objects to the vertex groups of the active Object.
+Copy weights from other objects to the vertex groups of the active object.
 By default this tool copies all vertex groups contained in the selected objects to the target object.
-However, you can change the tool's behavior in the Operator panel (see below).
+However, you can change the tool's behavior in the Operator panel.
 
 
 Prepare the Copy
 ----------------
 
-.. list-table::
-
-   * - .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_transfer-wrong.jpg
-
-          Blending.
-
-     - .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_transfer-ok.jpg
-
-          Blending.
-
 You first select all source objects, and finally the target object
 (the target object must be the active object).
 
-It is important that the source objects and the target object are at the same location.
-If they are placed side-by-side, then the weight transfer will not work.
-You can place the objects on different layers,
-but you have to ensure that all objects are visible when you call the tool.
+.. It is important that the source objects and the target object are at the same location.
+   If they are placed side-by-side, then the weight transfer will not work.
+   You can place the objects on different layers,
+   but you have to ensure that all objects are visible when you call the tool.
 
 Now ensure that the Target Object is in Weight Paint Mode.
 
@@ -397,13 +387,12 @@ The tool will initially copy all vertex groups from the source objects.
 However, the tool also has an Operator panel
 (which appears at the bottom of the Tool Shelf).
 From the Operator panel you can change the parameters to meet your needs.
-(The available Operator parameters are documented below).
 
 
 Operator Panel Confusion
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may notice that the Operator panel (see below)
+You may notice that the Operator panel
 stays available after the weight transfer is done.
 The panel only disappears when you call another Operator that has its own Operator panel.
 This can lead to confusion when you use Transfer weights repeatedly
