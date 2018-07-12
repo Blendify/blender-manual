@@ -360,8 +360,19 @@ Transfer Weights
 ================
 
 Copy weights from other objects to the vertex groups of the active object.
-By default this tool copies all vertex groups contained in the selected objects to the target object.
+
+By default this tool copies only active (selected) vertex group of the source object
+to the active vertex group of target object or creates a new one if the group does not exist.
 However, you can change the tool's behavior in the Operator panel.
+
+For example, to transfer all existing vertex groups in the source objects to the target,
+change the *Source Layers Selection* option to *By Name*.
+
+.. note::
+
+   This tool uses the generic "data transfer", but transfers from all selected objects to active one.
+   Please refer to
+   the :doc:`Data Transfer </modeling/meshes/editing/data_transfer>` docs for options details and explanations.
 
 
 Prepare the Copy
@@ -370,52 +381,29 @@ Prepare the Copy
 You first select all source objects, and finally the target object
 (the target object must be the active object).
 
-.. It is important that the source objects and the target object are at the same location.
-   If they are placed side-by-side, then the weight transfer will not work.
-   You can place the objects on different layers,
-   but you have to ensure that all objects are visible when you call the tool.
+It is important that the source objects and the target object are at the same location.
+If they are placed side-by-side, then the weight transfer will not work, (see *Vertex Mapping* option).
+You can place the objects on different layers,
+but you have to ensure that all objects are visible when you call the tool.
 
-Now ensure that the Target Object is in Weight Paint Mode.
-
-
-Call the Tool
--------------
-
-Open the Tool Shelf and locate the Weight Tools panel.
-From there call the "Transfer weights" tool.
-The tool will initially copy all vertex groups from the source objects.
-However, the tool also has an Operator panel
-(which appears at the bottom of the Tool Shelf).
-From the Operator panel you can change the parameters to meet your needs.
+Now ensure that the target object is in *Weight Paint* mode.
+Open the *Tool Shelf* and locate the *Weight Tools* panel.
+From there call the *Transfer Weights* tool.
 
 
 Operator Panel Confusion
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
-You may notice that the Operator panel
-stays available after the weight transfer is done.
+You may notice that the Operator panel stays available after the weight transfer is done.
 The panel only disappears when you call another Operator that has its own Operator panel.
 This can lead to confusion when you use Transfer weights repeatedly
 after you changed your vertex groups. If you then use the still-visible Operator panel,
-then Blender will reset your work to its state right before you initially called the Transfer Weights tool.
+then Blender will reset your work to its state right before you initially called the *Transfer Weights* tool.
 
-
-Workaround
-^^^^^^^^^^
-
-When you want to call the Transfer Weights tool again after you made some changes to your
-vertex groups, then always use the "Transfer Weights" Button,
+So when you want to call the *Transfer Weights* tool again after you made some changes to your
+vertex groups, then always use the **Transfer Weights button**,
 even if the operator panel is still available.
 Unless you really want to reset your changes to the initial call of the tool.
-
-
-Options
-^^^^^^^
-
-.. note::
-
-   This tool now uses the generic 'data transfer' one. Please refer to
-   the :doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for options details and explanations.
 
 
 Limit Total

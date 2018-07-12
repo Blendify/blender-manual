@@ -24,7 +24,7 @@ Data
    :Menu:      :menuselection:`Object --> Transfer Mesh Data`
    :Hotkey:    :kbd:`Shift-Ctrl-T`
 
-Transfers layout of data layer(s) from active to selected meshes.
+Transfers data layer(s) from active to selected meshes.
 
 Freeze Operator
    Prevent changes to settings to re-run the operator.
@@ -204,3 +204,7 @@ Destination Layers Matching
       Match target data layers to affect by name.
    By Order
       Match target data layers to affect by order (indices).
+
+.. seealso::
+
+   :doc:`Data Transfer Modifier </modeling/modifiers/modify/data_transfer>`
