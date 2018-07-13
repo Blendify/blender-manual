@@ -34,6 +34,7 @@ Loops
       start at first key, move through list to the last key
       go to the first key again... and then die at the last key
 
+
 Keys
 ----
 
@@ -44,7 +45,7 @@ Key Targets
    Click the :kbd:`Plus` to add a key, then select the object.
 
 Object
-   The name of a target object for selected key. If empty it uses the current particle system.
+   The name of a target object for the selected key. If empty it uses the current particle system.
 System
    Index of particle system on the target object.
 Time

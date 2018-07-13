@@ -80,5 +80,5 @@ Example
    Examples of edit custom normals to point towards a give direction,
    `see example blend-file <http://download.blender.org/ftp/mont29/persistent_data/sapling_CN.blend>`__.
 
-Left tree uses auto-computed default normals, right one uses *Normal Edit* modifier to bend them towards the camera.
-It shading trick often used in games to enhance trees and other vegetation at a cheap cost.
+The left tree mesh has unmodified normals, while on the right one a *Normal Edit* modifier is used to bend them
+towards the camera.This shading trick is often used in games to fake scattering in trees and other vegetation.
