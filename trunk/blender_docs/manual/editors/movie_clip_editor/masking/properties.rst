@@ -91,8 +91,8 @@ Feather Offset
    Even
       Preserves the thickness of the feather, but can give undesirable loops of the feather curve.
    Smooth
-      Gives nicer smoother shape,
-      but can give undesirable sharp feather when a curve segment forms an S-shape.
+      Gives a nicer and smoother shape,
+      but can also give an undesirable sharp feather when a curve segment forms an S-shape.
 
 Weight Interpolation
    The type of weight (thickness of feather) interpolation between points.

@@ -361,11 +361,11 @@ Transfer Weights
 
 Copy weights from other objects to the vertex groups of the active object.
 
-By default this tool copies only active (selected) vertex group of the source object
+By default this tool copies only the active (selected) vertex group of the source object
 to the active vertex group of target object or creates a new one if the group does not exist.
 However, you can change the tool's behavior in the Operator panel.
 
-For example, to transfer all existing vertex groups in the source objects to the target,
+For example, to transfer all existing vertex groups from the source objects to the target,
 change the *Source Layers Selection* option to *By Name*.
 
 .. note::
@@ -387,8 +387,7 @@ You can place the objects on different layers,
 but you have to ensure that all objects are visible when you call the tool.
 
 Now ensure that the target object is in *Weight Paint* mode.
-Open the *Tool Shelf* and locate the *Weight Tools* panel.
-From there call the *Transfer Weights* tool.
+Open the *Tool Shelf* and call the *Transfer Weights* tool in the *Weight Tools* panel.
 
 
 Operator Panel Confusion
@@ -401,7 +400,7 @@ after you changed your vertex groups. If you then use the still-visible Operator
 then Blender will reset your work to its state right before you initially called the *Transfer Weights* tool.
 
 So when you want to call the *Transfer Weights* tool again after you made some changes to your
-vertex groups, then always use the **Transfer Weights button**,
+vertex groups, then **always** use the *Transfer Weights* button,
 even if the operator panel is still available.
 Unless you really want to reset your changes to the initial call of the tool.
 

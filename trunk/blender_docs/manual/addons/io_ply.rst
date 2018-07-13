@@ -8,7 +8,7 @@ PLY
 :Version: 1.0.0
 :Blender: 2.74
 :Category: Import-Export
-:Authors: Bruce Merry, Campbell Bartons
+:Authors: Bruce Merry, Campbell Barton
 
 .. warning::
 
