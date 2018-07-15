@@ -1,8 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560px" height="200px" viewBox="0 0 560 200">
-
-<marker id="a" viewBox="0 0 4 4" refX="2" refY="2" markerWidth="4" markerHeight="4" orient="auto">
-	<path d="M0,0V4L4,2z"/>
-</marker>
+<svg xmlns="http://www.w3.org/2000/svg" width="560px" height="200px" viewBox="0 0 560 200">
 
 <g stroke="#FAE600">
 	<circle opacity="0.3" stroke-width="13" cx="220" cy="37" r="10"/>
@@ -10,10 +6,12 @@
 	<circle fill="#FFF" stroke-width="2" cx="220" cy="37" r="10"/>
 </g>
 
-<g fill="none" stroke="#000" stroke-width="2" marker-end="url(#a)">
+<g fill="none" stroke="#000" stroke-width="2">
 	<path d="M44,49L189,182L325.5,130M189,182L215,57"/>
-	<path opacity="0.6" d="M325.5,130L440.5,116L540,88"/>
+	<path stroke="#646464" d="M325.5,130L440.5,116L540,88"/>
 </g>
+<path d="M210.3,60.1l7.8,1.6l-2.3-8.6z"/>
+<path fill="#646464" d="M535.1,85.2l2.2,7.7l6.6-6z"/>
 
 <g fill="#FFF" stroke="#646464" stroke-width="2">
 	<polygon points="36,60 26,36 53,37"/>
@@ -23,11 +21,11 @@
 </g>
 
 <g fill="#505050" font-size="12px" font-weight="bold" font-family="Arial, sans-serif">
-	<text transform="matrix(0.7377 0.6751 -0.6751 0.7377 78.8774 98.6362)">Camera</text>
-	<text transform="matrix(0.2042 -0.9789 0.9789 0.2042 211.7964 136.5854)">Shadow</text>
-	<text transform="matrix(0.9353 -0.3538 0.3538 0.9353 250.9624 172.5337)">Reflection</text>
-	<text transform="matrix(0.9927 -0.1204 0.1204 0.9927 349.2139 140.2544)">Transmission</text>
-	<text transform="matrix(0.9617 -0.2742 0.2742 0.9617 458.3359 124.624)">Transmission</text>
+	<text transform="matrix(0.738 0.675 -0.675 0.738 78.877 98.636)">Camera</text>
+	<text transform="matrix(0.204 -0.979 0.979 0.204 211.796 136.585)">Shadow</text>
+	<text transform="matrix(0.935 -0.354 0.354 0.935 250.962 172.534)">Reflection</text>
+	<text transform="matrix(0.993 -0.12 0.12 0.993 349.214 140.254)">Transmission</text>
+	<text transform="matrix(0.962 -0.274 0.274 0.962 458.336 124.624)">Transmission</text>
 </g>
 
 </svg>

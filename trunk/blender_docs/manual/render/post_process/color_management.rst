@@ -29,7 +29,7 @@ are needed for rendering display and storage of images.
 Rendering and compositing is best done in scene *linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
-.. figure:: /images/render_post-process_color-management_linear-workflow.png
+.. figure:: /images/render_post-process_color-management_linear-workflow.svg
 
    An example of a linear workflow.
 
@@ -77,7 +77,7 @@ Display Device
 
    Color management can be disabled by setting the device to None.
 
-.. figure:: /images/render_post-process_color-management_linear-display-space.png
+.. figure:: /images/render_post-process_color-management_linear-display-space.svg
 
    Conversion from linear to display device space.
 

@@ -6,7 +6,7 @@ Structure
 With meshes, everything is built from three basic structures:
 *vertices*, *edges* and *faces*.
 
-.. figure:: /images/modeling_meshes_structure_example.png
+.. figure:: /images/modeling_meshes_structure_example.svg
    :width: 600px
 
    Example of mesh structure.
