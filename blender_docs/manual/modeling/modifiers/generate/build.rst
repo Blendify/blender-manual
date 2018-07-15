@@ -46,4 +46,4 @@ art-direct some semi-random layout of a collection of objects (i.e. leaves/balls
 when doing so with particles is not desirable
 (e.g. due to undesirable distribution of items leaving random gaps and overlapping in other places).
 
-.. youtube:: -7SqfX5vt_8&
+.. youtube:: -7SqfX5vt_8
