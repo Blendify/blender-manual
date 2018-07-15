@@ -86,6 +86,8 @@ Dead
 Using Paths
 -----------
 
+.. (TODO) particle system must be BAKED to make it work (except HAIR & KEYED physics)
+
 Create Along Paths
    This option tries to make the underlying mesh object of the modifier
    deform its mesh shape in such a way as to try and match the path traveled by
