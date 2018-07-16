@@ -51,7 +51,7 @@ Lets list all the contents of ``bpy.app`` module.
 
 Notice the green output above the prompt where you enabled auto-completion.
 What you see is the result of auto completion listing.
-In the above listing all are module attribute names,
+In the above listing all are module attributed names,
 but if you see any name end with ``(``, then that is a function.
 
 We will make use of this a lot to help our learning the API faster.
@@ -103,7 +103,7 @@ Move object from previous X location by 0.5 unit::
 
    bpy.context.object.location.x += 0.5
 
-Changes X, Y, Z location::
+Change X, Y, Z location::
 
    bpy.context.object.location = (1, 2, 3)
 
