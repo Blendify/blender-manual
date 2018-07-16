@@ -74,7 +74,7 @@ It is to be noted that shadow catcher objects will interact with other CG object
 This feature makes it really easy to combine :abbr:`CGI (Computer-generated imagery)` elements
 into a real-world footage.
 
-.. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.png
+.. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.jpg
 
    Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
 
