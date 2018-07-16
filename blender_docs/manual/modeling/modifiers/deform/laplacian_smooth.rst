@@ -58,7 +58,7 @@ Repeat
 
    .. list-table:: With a factor of 2.0.
 
-      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube-repeat0.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube-axis.png
              :width: 130px
 
              Repeat: 0.
@@ -110,7 +110,7 @@ Factor
 
    .. list-table::
 
-      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_lambda0-0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat0.jpg
              :width: 130px
 
              Factor: 0.0.
@@ -150,7 +150,7 @@ Factor
 
              Factor: 50.0.
 
-      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel-lambda0-0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel-repeat0.jpg
              :width: 130px
 
              Factor: 0.0.
@@ -263,7 +263,7 @@ Axis
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube-axis-xy.jpg
              :width: 130px
 
-             X, Y: Selected.
+             X, Z: Selected.
 
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_cube-axis-x.png
              :width: 130px
@@ -283,7 +283,7 @@ Axis
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-axis-xy.jpg
              :width: 130px
 
-             X, Y: Selected.
+             X, Z: Selected.
 
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-axis-x.png
              :width: 130px
@@ -340,10 +340,10 @@ Vertex Group
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_femme-wgroup.jpg
              :width: 130px
 
-      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-normal.png
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-axis.png
              :width: 130px
 
-        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-smooth.jpg
+        - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-axis-xyz.jpg
              :width: 130px
 
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-paint.jpg
@@ -352,7 +352,7 @@ Vertex Group
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-wgroup.png
              :width: 130px
 
-      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel-vertex0.jpg
+      * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel-repeat0.jpg
              :width: 130px
 
         - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel-vertex1.jpg
@@ -404,14 +404,26 @@ Examples
    * - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_repeat0.jpg
           :width: 200px
 
-          `Femme Front blend-file
-          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__.
+          Femme front view
+          `blend-file <https://en.blender.org/uploads/8/8f/Apinzonf_GSOC_2012_Media_femme_front.blend>`__.
+
+     - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_border0-0.jpg
+          :width: 200px
+
+          Femme side view
+          `blend-file <https://en.blender.org/uploads/4/47/Apinzonf_GSOC_2012_Media_femme_side.blend>`__.
 
      - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_t-wgroup.png
           :width: 200px
 
-          `Cube Smooth blend-file
-          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__.
+          Cube smooth
+          `blend-file <https://en.blender.org/uploads/5/54/Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__.
+
+     - .. figure:: /images/modeling_modifiers_deform_laplacian-smooth_camel-repeat0.jpg
+          :width: 200px
+
+          Shape enhanced
+          `blend-file <https://en.blender.org/uploads/4/44/Apinzonf_Shape_Enhanced_camel.blend>`__.
 
 .. seealso::
 

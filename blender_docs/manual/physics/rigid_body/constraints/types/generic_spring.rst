@@ -25,7 +25,6 @@ Options
 =======
 
 .. figure:: /images/physics_rigid-body_constraints_types_generic-spring.png
-   :width: 300px
    :align: right
 
    *Generic Spring* constraint options.

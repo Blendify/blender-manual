@@ -7,7 +7,7 @@ Laplacian Deform Modifier
 The Laplacian Deform Modifier allows you to pose a mesh while preserving
 geometric details of the surface.
 
-The user defines a set of 'anchor' vertices, and then moves some of them around.
+The user defines a set of "anchor" vertices, and then moves some of them around.
 The modifier keeps the rest of the anchor vertices in fixed positions, and calculates
 the best possible locations of all the remaining vertices to preserve the original geometric details.
 
@@ -34,7 +34,8 @@ Repeat
    Details are retained better if more repetitions are used,
    however, it will take longer to calculate.
 
-   .. list-table::
+   .. list-table:: Deform horse example
+      `blend-file <https://en.blender.org/uploads/a/a2/Apinzonf_Deform_Horse_example1.blend>`__.
 
       * - .. figure:: /images/modeling_modifiers_deform_laplacian-deform_cactus09.png
              :width: 130px
