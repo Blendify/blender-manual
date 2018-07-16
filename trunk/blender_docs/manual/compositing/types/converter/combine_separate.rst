@@ -25,7 +25,7 @@ the Cycles shading context offers an additional pair of nodes to combine/separat
 
 The Combine nodes could also be used to input single color values.
 For RGBA and HSVA color spaces it is recommended to use the :doc:`/compositing/types/input/rgb`.
-Some common operation could easier executed with the :doc:`/compositing/types/color/index`.
+Some common operation could easier be executed with the :doc:`/compositing/types/color/index`.
 
 
 Separate/Combine RGBA Nodes
