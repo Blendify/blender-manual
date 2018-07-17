@@ -23,8 +23,25 @@ Blender has a tool called *UV Layout*
 (located in the UV/Image Editor, :menuselection:`UVs --> Export UV Layout`)
 that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for the object you have selected.
 
-The image is an outline of the UV face mapping.
-Activating the tool brings up the File Browser with options for saving the layout.
+The image will be lines defining the UV edges that are within the image area of the UV mapping area.
+Edges outside the boundary, even if selected, will not be shown in the saved graphic.
+The artist will use this as a transparent layer in their paint program as a guide when painting your texture.
+The example below shows Blender in the background, and the Gimp working on the texture, ​
+using the saved layout as a guide. Note that ``targa`` format supports the Alpha channel,
+so you can paint transparent areas of the mesh. For using images as textures, see the page on 
+:doc:`Image Textures </render/blender_render/textures/types/image/index>`.
+
+.. list-table::
+
+   * - .. figure:: /images/addons_io-uv-layout_uv-layout.png 
+          :width: 320px
+          
+          A UV layout in the UV/Image Editor.
+    
+    - .. figure:: /images/addons_io-uv-layout_uv-layout-export.png
+         :width: 320px
+         
+         A UV layout in a paint program.
 
 
 Properties
