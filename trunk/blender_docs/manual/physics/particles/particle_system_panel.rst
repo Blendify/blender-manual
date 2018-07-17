@@ -24,6 +24,8 @@ Active Particle System
          Copies all particle systems from the active object to all selected objects.
       Duplicate Particle Systems
          Duplicates particle system within the active object.
+         *Duplicate Settings* option (in the Operator panel) will duplicate settings as well,
+         so new particle system uses own settings.
 
 Particle Settings
    The :ref:`Data-Block menu <ui-data-block>` for settings.

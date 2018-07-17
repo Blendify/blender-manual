@@ -53,6 +53,10 @@ Ray Depth
       Passing through a transparent shader
       :ref:`does not count as a normal "bounce" <render-cycles-light-paths-transparency>`.
 
+Diffuse Depth
+   (Todo)
+Glossy Depth
+   (Todo)
 Transparent Depth
    Returns the number of transparent surfaces passed through.
 Transmission Depth

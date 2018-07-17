@@ -100,6 +100,9 @@ View
 
    Default
       Does no extra conversion besides the conversion for the display device.
+   Filmic
+      For more photorealistic results and better handling of high dynamic range.
+      Contrast can be adjusted by changing the *Look* option for the Filmic view transform.
    RRT
       Uses the ACES Reference Rendering Transform, to simulate a film-like look.
    Film
@@ -112,6 +115,8 @@ View
    Log
       Intended for inspecting the image but not for final export.
       Log works similar to Raw but gives a more "flat" view of the image without very dark or light areas.
+   False Color
+      Shows a heat map of image intensities, to visualize the dynamic range.
 Exposure
    Used to control the image brightness (in stops) applied before color space conversion.
    It is calculated as follows: :math:`output\_value = render\_value × 2^{(exposure)}`

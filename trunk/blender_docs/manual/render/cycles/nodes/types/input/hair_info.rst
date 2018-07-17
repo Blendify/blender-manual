@@ -35,3 +35,6 @@ Thickness
    The thickness of the strand at the point where the ray hits the strand.
 Tangent Normal
    Tangent normal of the strand.
+Random
+   A random per hair value in the range from 0 to 1.
+   Can for example be used in combination with a Color Ramp, to randomize the hair color.

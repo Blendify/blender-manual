@@ -63,6 +63,11 @@ Viewport BVH Type
 Start Resolution
    Resolution to start rendering preview at, progressively increase it to the full viewport size.
 
+Viewport Resolution
+   Pixel Size
+      Option to control the resolution for viewport rendering.
+      Allows to speed up viewport rendering, which is especially useful for displays with high DPI.
+
 
 Final Render
 ============
@@ -82,3 +87,5 @@ Use Hair BVH
    Use a special type of :term:`BVH` for rendering hair.
    The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.
    Disabling this option will reduce memory, at the cost of increasing hair render time.
+BVH Time Steps
+   (Todo)
