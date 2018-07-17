@@ -19,6 +19,7 @@
    holdout.rst
    mix.rst
    principled.rst
+   hair_principled.rst
    volume_principled.rst
    refraction.rst
    sss.rst
