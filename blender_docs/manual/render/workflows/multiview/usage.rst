@@ -196,6 +196,21 @@ Convergence Plane Distance
    This is often the distance between a projector and the projection screen.
    You can visualize this in the 3D View.
 
+.. (TODO) Spherical Stereo
+   https://en.blender.org/index.php/Dev:Ref/Release_Notes/2.78/Cycles
+
+   (here tooltips copy)
+
+Spherical Stereo
+   Render every pixel rotating the camera around the middle of the interocular distance.
+Use Pole Merge
+   Fade interocular distance to 0 after the given cutoff angle.
+
+   Pole Merge Start Angle
+      Angle at which interocular distance starts to fade to 0.
+   Pole Merge End Angle
+      Angle at which interocular distance is 0.
+
 
 Convergence Mode
 ----------------

@@ -18,7 +18,7 @@ This node gives access to the data of the particle that spawned the instance.
 
    This node currently only supports parent particles. Info from child particles is not available.
 
-   .. is this still true? ^^
+   .. (TODO) is this still true? ^^
 
 
 Inputs
@@ -38,6 +38,9 @@ Outputs
 
 Index
    Index number of the particle (from 0 to number of particles).
+Random
+   A random per particle value in the range from 0 to 1.
+   Can for example be used in combination with a Color Ramp, to randomize the particle color.
 Age
    Age of the particle in frames.
 Lifetime
