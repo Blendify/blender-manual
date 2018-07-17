@@ -119,6 +119,7 @@ Hair
 
 - ``hair_reflection(N, roughnessu, roughnessv, T, offset)``
 - ``hair_transmission(N, roughnessu, roughnessv, T, offset)``
+- ``principled_hair(N, absorption, roughness, radial_roughness, coat, offset, IOR)``
 
 
 BSSRDF
