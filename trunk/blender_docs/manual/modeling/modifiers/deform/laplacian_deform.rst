@@ -8,8 +8,8 @@ The Laplacian Deform Modifier allows you to pose a mesh while preserving
 geometric details of the surface.
 
 The user defines a set of "anchor" vertices, and then moves some of them around.
-The modifier keeps the rest of the anchor vertices in fixed positions, and calculates
-the best possible locations of all the remaining vertices to preserve the original geometric details.
+The modifier keeps the rest of the anchor vertices in fixed positions and
+calculates the optimal locations of all the remaining vertices to preserve the original geometric details.
 
 This modifier captures the geometric details with the use of differential coordinates.
 The differential coordinates captures the local geometric information how curvature and

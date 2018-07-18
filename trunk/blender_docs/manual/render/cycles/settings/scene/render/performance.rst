@@ -66,7 +66,7 @@ Start Resolution
 Viewport Resolution
    Pixel Size
       Option to control the resolution for viewport rendering.
-      Allows to speed up viewport rendering, which is especially useful for displays with high DPI.
+      Allows you to speed up viewport rendering, which is especially useful for displays with high DPI.
 
 
 Final Render

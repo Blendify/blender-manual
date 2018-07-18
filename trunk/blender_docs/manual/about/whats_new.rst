@@ -8,6 +8,10 @@ This page lists major changes and additions to the manual.
 The `Blender release notes <https://www.blender.org/features/releases/>`__
 are located on the website and in the Wiki.
 
+- :doc:`Principled Hair Node </render/cycles/nodes/types/shaders/hair_principled>`
+  (`rBM4368 <https://developer.blender.org/rBM4368>`__, Jul 17).
+- :doc:`Add-ons section </addons/index>`
+  (`rBM4324 <https://developer.blender.org/rBM4324>`__, Jun 27).
 - :doc:`Alembic </pipeline/alembic>`
   (`rBM3580 <https://developer.blender.org/rBM3580>`__, May 30).
 - :doc:`Cycles Denoising </render/cycles/settings/scene/render_layers/denoising>`
@@ -48,9 +52,3 @@ are located on the website and in the Wiki.
 - :doc:`Displacement controls & bump mapping </render/cycles/materials/displacement>`
   (`rBM2776 <https://developer.blender.org/rBM2776>`__,
   `rBM2773 <https://developer.blender.org/rBM2773>`__; Sep. 20).
-- :doc:`Double edge mask node </compositing/types/matte/double_edge_mask>`
-  (`rBM2775 <https://developer.blender.org/rBM2475>`__, Aug. 25).
-- :doc:`Keying node </compositing/types/matte/keying>`
-  (`rBM2773 <https://developer.blender.org/rBM2473>`__, Aug. 25).
-- :doc:`Keying Screen node </compositing/types/matte/keying_screen>`
-  (`rBM2772 <https://developer.blender.org/rBM2472>`__, Aug. 25).

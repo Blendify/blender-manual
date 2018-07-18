@@ -102,7 +102,7 @@ View
       Does no extra conversion besides the conversion for the display device.
    Filmic
       For more photorealistic results and better handling of high dynamic range.
-      Contrast can be adjusted by changing the *Look* option for the Filmic view transform.
+      The contrast can be adjusted by changing the *Look* option for the Filmic view transform.
    RRT
       Uses the ACES Reference Rendering Transform, to simulate a film-like look.
    Film
