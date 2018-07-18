@@ -36,5 +36,5 @@ Thickness
 Tangent Normal
    Tangent normal of the strand.
 Random
-   A random per hair value in the range from 0 to 1.
-   Can for example be used in combination with a Color Ramp, to randomize the hair color.
+   A random per-hair value in the range from 0 to 1.
+   It can for example be used in combination with a color ramp, to randomize the hair color.

@@ -35,12 +35,12 @@ so you can paint transparent areas of the mesh. For using images as textures, se
 
    * - .. figure:: /images/addons_io-uv-layout_uv-layout.png
           :width: 320px
-  
+
           A UV layout in the UV/Image Editor.
 
      - .. figure:: /images/addons_io-uv-layout_uv-layout-export.png
           :width: 320px
-     
+
           A UV layout in a paint program.
 
 
