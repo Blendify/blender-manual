@@ -134,6 +134,11 @@ Further Options
 
 Auto Transform
    Automatically computes the transformation to get the best possible match between source and destination meshes.
+
+   This allows to match and transfer data between two meshes with similar shape,
+   but transformed differently. Note that you'll get best results with exact copies of the same mesh.
+   Otherwise, you'll likely get better results
+   if you "visually" make them match in 3D space (and use *Object Transform*) instead.
 Object Transform
    Evaluate source and destination meshes in global space.
 Only Neighbor Geometry
@@ -142,7 +147,7 @@ Only Neighbor Geometry
    Max Distance
       Maximum allowed distance between source and destination element (for non-topology mappings).
 
-.. The below definition is confusing for users. Change?
+.. (TODO) The below definition is confusing for users. Change?
 
 Ray Radius
    Width of rays. Useful when ray casting against vertices or edges.

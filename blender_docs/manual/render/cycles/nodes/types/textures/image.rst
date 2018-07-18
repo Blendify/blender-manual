@@ -33,6 +33,8 @@ Color Space
 Interpolation
    Method to scale images up or down for rendering.
 
+   .. same as in the Environment Texture node
+
    Linear
       Regular quality interpolation.
    Cubic
@@ -40,7 +42,7 @@ Interpolation
    Closest
       No interpolation, use only closest pixel for rendering pixel art.
    Smart
-      Only for Open Shading Language. Use linear interpolation when scaling up and cubic when scaling down,
+      Only for Open Shading Language. Use cubic interpolation when scaling up and linear when scaling down,
       for better performance and sharpness.
 Projection
    Projection to use for mapping the textures.

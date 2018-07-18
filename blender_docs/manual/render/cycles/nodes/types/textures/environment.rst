@@ -32,12 +32,14 @@ Color Space
 Texture Interpolation
    Interpolation method used for the environment texture. The following interpolations are available:
 
+   .. same as in the Image Texture node
+
    Linear
-      Default.
+      Regular quality interpolation.
    Closest
-      No interpolation.
+      No interpolation, use closest pixel.
    Cubic
-      Only available when rendering on the CPU.
+      Smoother, better quality interpolation.
    Smart
       Bicubic when magnifying, otherwise Bilinear is used.
       This is only available for :doc:`OSL </render/cycles/nodes/osl>`.
