@@ -31,9 +31,7 @@ Direction
    Normal
       Displace along the vertex normal.
    Custom Normal
-      ToDo 2.74.
-
-      .. Displace along the average vertex normal (vertex loop?).
+      Displace along (averaged) :ref:`custom normals <modeling_meshes_normals_custom>`, instead of vertex normals.
    RGB to XYZ
       Displace along local XYZ axes individually using the RGB components of the texture
       (Red values displaced along the X axis, Green along the Y, Blue along the Z).

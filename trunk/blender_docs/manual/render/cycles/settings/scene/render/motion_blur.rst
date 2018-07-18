@@ -16,7 +16,7 @@ both in a movie frame and in a photograph from a real-world camera.
 .. figure:: /images/render_cycles_settings_scene_render_motion-blur_example.jpg
    :width: 640px
 
-   Motion blur example.
+   Motion blur example (camera zoom).
 
 .. note::
 
@@ -34,26 +34,39 @@ Options
    Motion Blur settings.
 
 Position
-   Controls at what point the shutter opens in relation to the frame.
+   Controls at what point the shutter opens in relation to the current frame.
 
-   - End on frame
-   - Center on frame
-   - Start on frame
+   Start on Frame
+      Shutter is starting to open at the current frame.
+   Center on Frame
+      Shutter is fully opened at the current frame.
+   End on Frame
+      Shutter is fully closed at the current frame.
 
-Shutter Speed
-   Time between frames over which motion blur is computed. Shutter time 1.0 blurs over the length of 1 frame,
-   2.0 over the length of two frames, from the previous to the next.
+Shutter (Speed)
+   Time (in frames) between when the shutter is starts to open and fully closed.
+   For example, shutter time 1.0 blurs over the length of 1 frame.
 Shutter Curve
    Curve defining how the shutter opens and closes.
 
-Shutter Type
-   Replicates CMOS cameras by rendering a rolling shutter effect using scanlines.
+   The X axis is time, Y values of 0 means fully closed shutter, Y values of 1 means fully opened shutter.
+   Default mapping is set to when shutter opens and closes instantly.
 
-   - Top Bottom: Renders rolling shutter from the top of the image to the bottom.
+Shutter Type
+   Creates a "rolling shutter" effect.
+
+   Real CMOS cameras reads sensor by scanlines
+   and hence different scanlines are sampled at a different moment in time.
+   This, for example, make vertical straight lines being curved when doing horizontal camera pan.
+
+   None
+      No rolling shutter effect.
+   Top-Bottom
+      Renders rolling shutter from the top of the image to the bottom.
 
 Rolling Shutter Duration
-   Controls balance between pure rolling shutter effect and pure motion blur effect.
-   With zero being no rolling shutter and one being all rolling shutter.
+   Controls balance between pure rolling shutter effect (if the value is zero)
+   and pure motion blur effect (if the value is one).
 
 .. warning::
 
