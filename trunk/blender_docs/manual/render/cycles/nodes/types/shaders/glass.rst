@@ -50,11 +50,22 @@ Examples
 ========
 
 .. list-table::
-   :header-rows: 1
+   :widths: auto
 
-   * - Sharp Glass
-     - Rough Glass
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_glass_behavior-sharp.png
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glass_behavior.png
    * - .. figure:: /images/render_cycles_nodes_types_shaders_glass_example.jpg
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glass_example-rough.jpg
+
+          Sharp Glass example.
+
+     - .. figure:: /images/render_cycles_nodes_types_shaders_glass_behavior-sharp.svg
+          :width: 308px
+
+          Sharp Glass behavior.
+
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_glass_example-rough.jpg
+
+          Rough Glass example.
+
+     - .. figure:: /images/render_cycles_nodes_types_shaders_glass_behavior.svg
+          :width: 308px
+
+          Rough Glass behavior.

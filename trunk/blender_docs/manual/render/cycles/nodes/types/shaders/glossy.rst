@@ -50,11 +50,22 @@ Examples
 ========
 
 .. list-table::
-   :header-rows: 1
+   :widths: auto
 
-   * - Sharp Glossy
-     - Rough Glossy
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_behavior-sharp.png
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_behavior.png
    * - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_example.jpg
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_rough.jpg
+
+          Sharp Glossy example.
+
+     - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_behavior-sharp.svg
+          :width: 308px
+
+          Sharp Glossy behavior.
+
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_rough.jpg
+
+          Rough Glossy example.
+
+     - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_behavior.svg
+          :width: 308px
+
+          Rough Glossy behavior.

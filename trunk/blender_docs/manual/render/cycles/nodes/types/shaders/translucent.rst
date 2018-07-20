@@ -38,10 +38,14 @@ BSDF output
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_shaders_translucent_behavior.png
-   :align: center
+.. list-table::
+   :widths: auto
 
-.. figure:: /images/render_cycles_nodes_types_shaders_translucent_example.jpg
-   :align: center
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_translucent_example.jpg
 
-   Translucent Shader.
+          Translucent shader example.
+
+     - .. figure:: /images/render_cycles_nodes_types_shaders_translucent_behavior.svg
+          :width: 308px
+
+          Translucent shader behavior.

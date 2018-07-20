@@ -42,18 +42,19 @@ Examples
 ========
 
 .. list-table::
-
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_behavior.png
-          :align: center
-
-          Transparent behavior.
-
-     - ..
+   :widths: auto
 
    * - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_example.jpg
 
-          Transparent Shader (pure white).
+          Transparent shader (pure white).
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_example-dark.jpg
+     - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_behavior.svg
+          :width: 308px
 
-          Transparent Shader (gray).
+          Transparent shader behavior.
+
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_transparent_example-dark.jpg
+
+          Transparent shader (gray).
+
+     - ..

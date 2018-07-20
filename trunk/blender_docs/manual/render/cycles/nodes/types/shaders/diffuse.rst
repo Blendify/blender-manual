@@ -42,13 +42,19 @@ Examples
 ========
 
 .. list-table::
-
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_behavior.png
-
-          Diffuse behavior.
-
-     - ..
+   :widths: auto
 
    * - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_example.jpg
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_example-oren-nayar.jpg
+          Lambertian reflection.
+
+     - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_behavior.svg
+          :width: 308px
+
+          Diffuse shader behavior.
+
+   * - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_example-oren-nayar.jpg
+
+          Oren-Nayar reflection.
+
+     - ..
