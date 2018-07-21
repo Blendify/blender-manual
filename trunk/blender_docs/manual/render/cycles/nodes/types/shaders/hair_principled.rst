@@ -66,7 +66,11 @@ Color
       The chosen color is converted to an absorption coefficient with
       the following formula (section 4.2 of [CBTB16]_):
 
-      :math:`\sigma_{a} = \frac{\ln(Color)}{\left(5.969 - 0.215\beta_{N} + 2.532\beta_{N}^{2} - 10.73\beta_{N}^{3} + 5.574\beta_{N}^{4} + 0.245\beta_{N}^{5}\right)^{2}}`,
+      .. math::
+
+         \sigma_{a} = \frac{\ln(Color)}
+         {\left(5.969 - 0.215\beta_{N} + 2.532\beta_{N}^{2} -
+         10.73\beta_{N}^{3} + 5.574\beta_{N}^{4} + 0.245\beta_{N}^{5}\right)^{2}}
 
       where :math:`\beta_{N}` is the radial roughness of the hair after applying randomization (if specified).
 
@@ -83,7 +87,9 @@ Melanin
 
       This is a linear mapping to the underlying exponential function:
 
-      :math:`melanin\_qty = -\ln(\max(1.0 - Melanin, 0.0001))`
+      .. math::
+
+         melanin\_qty = -\ln(\max(1.0 - Melanin, 0.0001))
 
 .. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_melanin.jpg
    :align: center
@@ -103,7 +109,11 @@ Melanin Redness
       to absorption concentration via the following formula
       (section 6.1 of [EFHLA11]_, adjusted for the range :math:`[0, 1]`):
 
-      :math:`\sigma_{a} = eumelanin * \left[\begin{matrix}   0.506 \\ 0.841 \\ 1.653 \\ \end{matrix}\right] + pheomelanin * \left[\begin{matrix} 0.343 \\ 0.733 \\ 1.924 \\ \end{matrix}\right]`.
+      .. math::
+
+         \sigma_{a} =
+         eumelanin * \left[\begin{matrix}   0.506 \\ 0.841 \\ 1.653 \\ \end{matrix}\right] +
+         pheomelanin * \left[\begin{matrix} 0.343 \\ 0.733 \\ 1.924 \\ \end{matrix}\right]
 
 .. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_melanin_redness.jpg
    :align: center
