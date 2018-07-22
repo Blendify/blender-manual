@@ -3,18 +3,19 @@
 Tools
 *****
 
-Open the Tool Shelf in the 3D View or UV/Image Editor.
+Tools located in the *Tools* tab of the *Tool Shelf* in the 3D View or UV/Image Editor.
 
 
 Brush
 =====
 
-.. figure:: /images/sculpt-paint_painting_texture-paint_introduction_example.png
-   :width: 430px
+.. figure:: /images/sculpt-paint_painting_texture-paint_tools_brush-settings.png
+   :align: right
 
    Brush settings.
 
 With this panel, you can create many brushes, each with unique settings (such as color and width).
+In the UV/Image Editor this panel is called *Paint*.
 
 
 Brush Types
@@ -23,51 +24,89 @@ Brush Types
 Texture Draw
 ^^^^^^^^^^^^
 
-The normal brush; paints a swath of color.
+The normal brush, paints a swath of color.
+See `Common`_ settings below.
+
+Use Gradient
+   A gradient can be used as color source.
+
+   Gradient Colors
+      The :ref:`ui-color-ramp-widget` to define the gradient colors.
+   Mode
+      Pressure
+         Will choose a color from the color ramp according to the stylus pressure.
+      Clamp
+         Will alter the color automatically by the distance covered by the brush and as specified
+         by *Gradient spacing*. With Clamp it uses the last color of the color ramp after the specified.
+      Repeat
+         Similar to *Clamp*. After the last color it resets the color to the first color in the color ramp and
+         repeating the pattern.
 
 
 Fill
 ^^^^
 
-It can be used to fill the image with the brush color.
+It can be used to fill large areas of the image with the brush color.
+The tool fills adjacent pixels that have a color value similar to the pixel you clicked on.
 
-Fill Threshold
-   ToDo <2.79. (2D only)
+Fill Threshold (2D only)
+   Determines how much the color must be similar to the color of pixel you click to be filled.
+   A low *Threshold* only fills very similar in color pixels.
+   A higher *Threshold* fills pixels within a broader range of color.
+
+Use Gradient
+   Allows the use of a gradient to fill the image.
+
+   To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
+   depending on the *Gradient Fill Mode* the gradient line, or radius, if radial gradient is used.
+
+   Gradient Colors
+      The :ref:`ui-color-ramp-widget` to define the gradient colors.
+
+   Gradient Fill Mode
+      Linear, Radial
 
 .. note:: Overrides
 
    For projective texturing it will bypass some options for projective painting to paint the model.
    This means that occluded, backfacing and normal culled faces will always get filled,
-   regardless of whether the options are activated in the projection paint panel.
-
-.. tip:: Masking
-
-   Use the face selection mask to isolate faces.
+   regardless of whether the options are activated
+   in the :doc:`Project Paint </sculpt_paint/painting/texture_paint/options>` panel.
 
 
 Mask
 ^^^^
+
+Work in 3D projective painting only.
 
 The mask feature maps an image to the mesh and uses the image intensity to
 mask out certain parts of the mesh out during painting.
 The mask options can be found mask panel
 in the :doc:`slots tab </sculpt_paint/painting/texture_paint/slots_mask>`.
 
+Mask Value
+   Mask weight, a value of zero means not masked, while one is completely masked.
+
 
 Soften
 ^^^^^^
 
-Blends edges between two colors.
+Uses a "blur effect" to soften or sharpen the image.
 
 Direction
    Soften
-      Blur filter. ToDo 2.72.
+      Is used to paint a blur effect.
+
+      Kernel Radius (2D only)
+         Blur radius in pixels.
    Sharpen
       The Sharpen tool enhances the contrast of the image as you paint over it.
 
       Sharp Threshold
          The Threshold will only apply sharpening to only those pixels that
          differ more than the threshold value from their surrounding pixels.
+      Kernel Radius (2D only)
+         The kernel size controls how big an area the tool searches over while calculating that difference.
 Blur Mode
    The blur kernel type controls how neighboring pixels are weighted when calculating the blur effect.
 
@@ -87,16 +126,21 @@ Similar to the "smudge" tool of *Gimp*.
 Clone
 ^^^^^
 
-Copies the colors from the image specified to the active image.
-The clone cursor can be set with :kbd:`Ctrl-LMB`.
+Copies the colors from the specified image (or location of the same image) to the active image.
+
+In 3D projective painting the clone cursor can be set with :kbd:`Ctrl-LMB`.
 In 2D painting the clone can be moved dragging it with :kbd:`RMB`.
 
-Clone from paint slot
-   The background image is shown when this brush is selected;
-   use the *Strength* slider to control how prominent the background image is.
+Clone from Paint Slot (3D projective only)
+   Use another image as clone source, instead of using the 3D cursor position as the source in the same image.
 
    Source Clone Slot
-      When using the clone brush, this allows you to select an image as a clone source.
+      This allows you to select an image as a clone source.
+
+Image (2D only)
+   Image used as a clone source.
+Alpha (2D only)
+   Opacity of the clone image display.
 
 
 Common
@@ -129,12 +173,8 @@ Blend
    - Add Alpha: makes the image more opaque where painted.
    - Erase Alpha: makes the image transparent where painted,
      allowing background colors and lower-level textures to show through.
-     As you 'paint', the false checkerboard background will be revealed.
+     As you "paint", the false checkerboard background will be revealed.
      Using a table pen's eraser end will toggle on this mode.
-   - Luminosity
-   - Exclusion
-   - Vivid light
-   - Pin light
 
    .. tip::
 
@@ -144,24 +184,13 @@ Blend
 
 Accumulate
    This will allow a stroke to accumulate on itself, just like an airbrush would do.
-Alpha
-   Opacity of the clone image display.
-Use Gradient
-   A gradient can be used as color source. ToDo 2.72. See :ref:`ui-color-ramp-widget`.
-   To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
-   depending on the *Gradient Fill Mode* the gradient line, or radius, if radial gradient is used.
+Alpha (3D only)
+   When this is disabled, locks (prevents changes) alpha while painting.
 
-   Mode
-      Pressure
-         Will choose a gradient color from the color ramp according to the stylus pressure.
-      Clamp
-         Will alter the color automatically by the distance covered by the brush and as specified.
-         by *Gradient spacing*. With Clamp it uses the last color of the color ramp after the specified.
-      Repeat
-         Similar to *Clamp*. After the last color it resets the color to the first color in the color ramp and
-         repeating the pattern.
-   Gradient Fill Mode
-      Linear, Radial
+.. tip:: Masking
+
+   Use the face selection mask to isolate faces.
+   See :doc:`Face Selection Masking </sculpt_paint/painting/weight_paint/hide_mask>` details.
 
 
 Tilling

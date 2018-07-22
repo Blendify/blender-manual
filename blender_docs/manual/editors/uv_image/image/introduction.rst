@@ -22,7 +22,7 @@ Read Render Layers
    This can also be used to recover some information from a fail render.
    For this to work, :ref:`Save Buffers <render_properties_save-buffers>` must be enabled.
 Save All Images
-   ToDo.
+   Repack (or save if external file) all edited images.
 Replace Image
    Replaces the current image, while preserving the link to UV maps,
    with a selected file.
@@ -46,10 +46,12 @@ Invert
       Red, Green, Blue, Alpha
 Pack
    Pack Image
-      ToDo <2.60.
-   Pack As PNG
-      Packs the image inside the blend-file.
+      Packs the external image file into the blend-file.
       See :ref:`pack-unpack-data`.
+   Pack As PNG
+      Packs the image into the blend-file as lossless PNG.
+      It is available as an option in the Operator panel (shortcut :kbd:`F6`),
+      or if the image was modified inside Blender and changes are not saved to disk.
 
 .. important::
 
@@ -82,6 +84,7 @@ Slot
    If an image has been rendered to a slot, it can be viewed by selecting that slot.
    Empty slots appear as blank grids in the UV/Image editor.
    Use the :kbd:`J` and :kbd:`Alt-J` to cycle forwards and backwards through saved renders.
+   *Slot Name* field in the *Display Panel* allows you to rename a slot.
 Render Layer
    If you are using :doc:`Render Layers </render/post_process/layers>`,
    use this menu to select which layer is displayed.

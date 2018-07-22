@@ -64,15 +64,9 @@ All unselected vertices are protected from unintentional changes.
 Face Selection Masking
 ----------------------
 
-.. list-table::
+.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select.png
 
-   * - .. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select.png
-
-          Face Selection masking.
-
-     - .. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select-hidden.png
-
-          Hidden faces.
+   Face Selection masking.
 
 The *Face Selection masking* allows you to select faces and limit the weight paint
 tool to those faces, very similar to Vertex selection masking.
@@ -80,6 +74,10 @@ tool to those faces, very similar to Vertex selection masking.
 
 Hide/Unhide Faces
 -----------------
+
+.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select-hidden.png
+
+   Hidden faces.
 
 You also can hide selected faces as in Edit Mode with the keyboard Shortcut :kbd:`H`,
 then paint on the remaining visible faces and finally unhide the hidden faces again by using
