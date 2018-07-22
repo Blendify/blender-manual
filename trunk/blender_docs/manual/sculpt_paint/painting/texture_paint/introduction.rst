@@ -84,11 +84,15 @@ you must explicitly do so by :menuselection:`Image --> Save` in the UV/Image Edi
 Missing Data
 ------------
 
+When no UV layers or texture slots can be detected,
+the system will display a warning and a few controls to add the relevant data in the Toolbar.
+User will not be able to paint until all missing data have been added.
+
 Add Simple UVs
    The *Add Simple UVs* does a simple cube unwrap followed by a pack operation.
    It's still recommended to make a custom unwrap.
 Add Paint Slot
-   ToDo 2.72.
+   Add a material (if missing) and/or texture slot. (Todo 2.72)
 
 
 Texture Preview

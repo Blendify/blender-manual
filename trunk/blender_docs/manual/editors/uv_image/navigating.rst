@@ -18,7 +18,10 @@ View Menu
 Update Automatically
    Update the view in multiple areas.
 UV Local View
-   ToDo.
+   Displays only the UV-faces that assigned with the currently displayed image.
+
+   .. (TODO 2.8) BI only? ^^^
+
 Draw Other Objects
    Draws the UVs of selected objects (Object Mode) in the background.
 Show Metadata
@@ -41,3 +44,7 @@ View All
    Center the view to the entire image :kbd:`Home`.
 View Fit
    Fit the view to the image dimensions :kbd:`Shift-Home`.
+Render Border :kbd:`Ctrl-B`
+   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
+Clear Render Border :kbd:`Ctrl-Alt-B`
+   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.

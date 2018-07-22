@@ -78,6 +78,8 @@ Generated
 
 Image generated in Blender or pre-loaded.
 
+.. (TODO) pre-loaded? ^^^
+
 .. list-table::
 
    * - .. figure:: /images/editors_uv-image_image_image-settings_generated-image-panel.png
@@ -138,7 +140,7 @@ Color Space
    Linear
       Linear 709 (full range). Blender native linear space.
 View as Render
-   Apply render part of display transformation when displaying this image on the screen.
+   Applies :doc:`color transform </render/post_process/color_management>` when displaying this image on the screen.
 Use Multi-View
    See :doc:`Multi-View </render/workflows/multiview/index>`.
 Use Alpha
