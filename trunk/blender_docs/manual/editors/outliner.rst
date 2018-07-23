@@ -25,6 +25,9 @@ i.e. the scene data and also the User Preferences.
 - Easily select which render layer to render.
 - Easily select which render pass to render (for example, you can choose to render just the *Specular* pass).
 
+.. (TODO) create new objects by drag & drop from the outliner
+   drag & drop objects to groups
+
 
 Tree View
 =========
@@ -184,6 +187,11 @@ User Preferences
 Orphan Data
    Lists :doc:`data-blocks </data_system/data_blocks>`
    which are unused and/or will be lost when the file is reloaded.
+   Includes data-blocks with a fake user only. You can add/remove Fake User
+   by clicking on cross/tick icon in the right side of the Outliner editor.
+
+   Purge All
+      Remove all unused data-blocks from the file (cannot be undone).
 
 
 Searching
@@ -197,7 +205,7 @@ The *Search* menu lets you toggle the following options:
 - Complete Matches Only
 
 
-.. Edit menu for data-blocks
+.. (TODO) Edit menu for data-blocks mode
 
 Example
 =======
