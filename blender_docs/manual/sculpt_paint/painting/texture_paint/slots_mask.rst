@@ -32,16 +32,23 @@ Painting Mode
             Create a new image.
       UV Map
          Alows you select the UV layer for painting.
+         (Same as the curently active UV map in the mesh's *UV Maps* panel.)
 
-   Material  
+   Material
       This mode tries to detect the slots from the materials of the mesh.
 
-      For Cycles renderer, all texture images on the material's node tree are added on the layer tab
-      and the texture paint slot UV map is always the active UV map of the mesh.
+      For the Cycles renderer,
+      all texture images (*Image Texture* node) on the material's node tree are added on the slots tab.
 
       Available Paint Slots
          A :ref:`ui-list-view` of slots.
          To activate a certain slot to use it for paint a just :kbd:`LMB` click on it.
+
+      UV Map
+         Alows you to select a UV layer for the slot.
+         The UV map selected in the *UV Map* nodes before an *Image Texture* will be used.
+         If there is no *UV Map* nodes or it has a blank value,
+         active UV map of the mesh (*UV Maps* panel) will be used.
 
       .. (TODO 2.8) Blender Internal (START)
 
@@ -50,20 +57,18 @@ Painting Mode
       or the active UV layer of the mesh (this is the highlighted UV map under the mesh tab in the properties screen)
       if no UV map has been assigned. There are a few extra controls:
 
-         Add/Remove Texture Paint Slot
-            A drop down that allows the addition of additional slots.
-            Slots added here are directly added on the material.
-         Blend Type
-            Same as in the
-            :doc:`Texture Blending Modes </render/blender_render/textures/properties/influence/blending_modes>`.
-         UV Map
-            Alows you select the active UV layer for each material slot independently.
-            A blank value in the UV layer will always use the active UV layer.
+      Add/Remove Texture Paint Slot
+         A drop down that allows the addition of additional slots.
+         Slots added here are directly added on the material.
+      Blend Type
+         Same as in the
+         :doc:`Texture Blending Modes </render/blender_render/textures/properties/influence/blending_modes>`.
 
       .. (TODO 2.8) (END)
 
 Save All Images
    Repack (or save if external file) all edited images.
+   Same as in the :doc:`UV/Image Editor </editors/uv_image/image/introduction>`.
 
 
 Mask
