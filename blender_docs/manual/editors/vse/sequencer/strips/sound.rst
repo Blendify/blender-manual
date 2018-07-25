@@ -27,11 +27,18 @@ Draw Waveform
    Draws either the waveform or the strip name, file name, duration.
    This can be useful for syncing two or more sound strips.
 Volume
-   Changes the loudness of the audio.
+   Controls the volume of the strip. Typically values should be between 0 and 1.
+   If you use higher values it's possible that clipping happens, which drastically influences sound quality.
 Pitch
    Transposes the frequency of the audio.
+   This basically changes the playback speed of the sound which also results in a pitch change.
+   Unfortunately this leads to possible seeking errors and the length of the strip isn't updated as well.
 Pan
-   Used to pan the audio from left and right channels -2 being hard left, 2 being hard right.
+   Used to pan the audio from left and right channels. Only works for mono sources.
+   Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right.
+   In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back.
+   So this value basically represents the angle at which it's played.
+
 Trim Duration
    Offset the start and end of a sound strip.
 
