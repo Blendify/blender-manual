@@ -4,6 +4,11 @@
 Material Node
 *************
 
+.. figure:: /images/render_cycles_nodes_types_output_material_node.png
+   :align: right
+
+   Material Node.
+
 The *Material Output* node is used to output surface material information to a surface object.
 
 

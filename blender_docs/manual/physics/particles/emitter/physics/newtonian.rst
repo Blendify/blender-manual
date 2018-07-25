@@ -71,10 +71,23 @@ Frame Settings
 --------------
 
 Timestep
-   The simulation time step per frame.
+   The amount of simulation time (seconds) that passes during each frame.
 Subframes
+   The number of simulation steps per frame.
    Subframes to simulate for improved stability and finer granularity in simulations.
    Use higher values for faster-moving particles.
+
+.. Fluid only?
+
+Adaptive Subframes (checkbox)
+   Automatically set the number of subframes.
+
+   Threshold
+      A tolerance value that allows the number of subframes to vary automatically.
+      The relative distance a particle can move before requiring more subframes.
+
+   .. The number of steps per frame will be at least Subframes + 1.
+      More subframes may be simulated if the fluid becomes turbulent, according to Threshold.
 
 
 Collision

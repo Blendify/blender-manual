@@ -4,6 +4,11 @@
 Lamp Node
 *********
 
+.. figure:: /images/render_cycles_nodes_types_output_lamp_node.png
+   :align: right
+
+   Lamp Node.
+
 The *Lamp Output* node is used to output light information to a lamp object.
 
 
@@ -11,7 +16,7 @@ Inputs
 ======
 
 Surface
-   Not an actual surface, but the final output of a :doc:`Lamp </render/cycles/lamps>` Object.
+   Not an actual surface, but the final output of a :doc:`Lamp </render/cycles/lamps>` object.
 
 
 Properties

@@ -4,6 +4,11 @@
 World Node
 **********
 
+.. figure:: /images/render_cycles_nodes_types_output_world_node.png
+   :align: right
+
+   World Node.
+
 The *World Output* node is used to output light a color information
 to the scene's :doc:`World </render/cycles/world>`.
 

@@ -7,6 +7,11 @@
 Node Groups
 ***********
 
+.. figure:: /images/editors_node-editor_nodes_groups_node-group-example.png
+   :align: right
+
+   Example of a node group.
+
 Grouping nodes can simplify a node tree by allowing instancing and hiding parts of the tree.
 Both material and composite nodes can be grouped.
 
@@ -79,6 +84,11 @@ just like you can if they were a normal part of the editor view. You will not be
 to thread them to a node outside the group; you have to use the external sockets on the side of the node group.
 To add or remove nodes from the group, you need to ungroup them.
 While :kbd:`Tab` can be used to both enter and exit a group, :kbd:`Ctrl-Tab` only exits.
+
+.. figure:: /images/render_cycles_optimizations_reducing-noise_glass-group.png
+   :width: 620px
+
+   Example of an expanded node group.
 
 
 Interface
