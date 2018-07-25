@@ -28,7 +28,7 @@ Anisotropy
    negative values give highlights shaped along the tangent direction.
 Rotation
    Rotation of the anisotropic tangent direction.
-   Value 0.0 equals 0° rotation, 0.25 equals 90° and 1.0 equals 360° = 0° .
+   Value 0.0 equals 0° rotation, 0.25 equals 90° and 1.0 equals 360° = 0°.
    This can be used to texture the tangent direction.
 Normal
    Normal used for shading; if nothing is connected the default shading normal is used.
@@ -62,4 +62,9 @@ Examples
 
      - .. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_rot025.jpg
 
-          Anisotropic rotation on 0.25 (90°)
+          Anisotropic rotation on 0.25 (90°).
+
+.. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_example.jpg
+
+   Anisotropic shading with 0° rotation, 90° rotation and textured rotation of the tangent direction.
+   `Example blend-file <https://en.blender.org/uploads/b/b7/Blender2.65_cycles_anisotropic.blend>`__.

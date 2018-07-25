@@ -114,7 +114,7 @@ Mark Seams from Island
 
    :Mode:      View mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools: --> Unwrap: Mark Seams from Island`
-   :Menu:      :menuselection:`UVs --> Mark Seams from Island`
+   :Menu:      :menuselection:`UVs --> Seams from Island`
 
 Adds seams at the boundaries of existing UV islands.
 This is useful when modifying the UVs of already unwrapped meshes.

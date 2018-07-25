@@ -11,6 +11,17 @@ Alpha Convert Node
 
 The *Alpha Convert Node* converts the alpha channel interpretation of an image.
 
+For compositing and rendering, premultiplied alpha is the standard in Blender.
+Render layers will be premultiplied alpha, and images loaded into rendering
+or compositing will be converted to this.
+
+If some compositor operation should be done with straight alpha,
+the *Alpha Convert* node can be used. Typically this would be a color correction operation
+where it might give better results working on RGB channels without alpha.
+If alpha is converted to straight in the compositor,
+it should be converted back to premultiplied before the *Composite Output* node,
+otherwise some artifacts are possible.
+
 
 Inputs
 ======

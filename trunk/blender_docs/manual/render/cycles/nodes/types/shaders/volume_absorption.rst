@@ -33,7 +33,8 @@ Outputs
 
 Volume
    The Volume Shader output must be plugged into the *Volume Input*
-   of the :doc:`Material </render/cycles/nodes/types/output/material>` output node.
+   of the :doc:`Material </render/cycles/nodes/types/output/material>`
+   or :doc:`World </render/cycles/nodes/types/output/world>` output node.
 
 
 Examples

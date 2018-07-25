@@ -53,9 +53,12 @@ Normals
 =======
 
 Show
-   Displays the normals of faces and/or vertices using the Face and Vertex checkboxes.
+   Displays the normals of faces and/or vertices using the toggle buttons:
 
-   Vertex, Loop, Face
+   - Vertex normals
+   - Vertex per face (Split Normals)
+   - Face normals
+
 Size
    You can also change the length of the axis that points the direction of the normal.
 
