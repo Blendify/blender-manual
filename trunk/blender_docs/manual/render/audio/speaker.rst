@@ -6,7 +6,6 @@ Speaker
 *******
 
 .. figure:: /images/render_audio_speaker_objects.png
-   :align: right
 
    Speaker objects.
 
@@ -17,18 +16,40 @@ After adding the object, the various settings can be changed in the Properties e
 Options
 =======
 
-.. These descriptions are the same as the tooltips
-
-
 Sound
 -----
 
+Open
+   The :doc:`/interface/controls/templates/data_block` for loading audio files.
+   There are two properties you can check when loading a sound:
+
+   Cache
+      This means the whole sound will be decoded on load and the raw audio data will be buffered in memory,
+      which results in faster playback, but uses quite a lot of memory. So this should be used
+      for short sound effects that get played more often, but not for longer audio files such as music.
+   Mono
+      For any 3D Audio or Panning effects the sound source has to be single channel,
+      otherwise it's assumed that the 3D audio and panning information is already present in the multichannel file.
+      So if you want to use those effects for a file with multiple channels, check this!
 Mute
    Toggles whether or not the sound can be heard.
 Volume
    Adjust the loudness of the sound.
 Pitch
    Can be used to bend the pitch of the sound to be either deeper or higher.
+   This basically changes the playback speed of the sound which also results in a pitch change.
+
+
+Playback Time
+^^^^^^^^^^^^^
+
+There's no setting to choose the start time when the speaker should start playing,
+because you might want a single speaker to play multiple times.
+Therefore you have to open the *NLA Editor* where you can add sound strips
+that tell when the sound should start (nothing else,
+so any other properties of the strips, like length don't matter).
+When you add a speaker object there's already such a strip added for you at the current frame.
+Shortcut to add a strip in the *NLA Editor*: :kbd:`Shift-K`.
 
 
 Distance
@@ -37,38 +58,47 @@ Distance
 .. figure:: /images/render_audio_speaker_properties.png
    :align: right
 
+   Speaker properties.
 
-.. rubric:: Volume
+Distance attenuation relevant settings.
 
-Minimum
-   Minimum volume, no matter how far the object is.
-Maximum
-   Maximum volume, no matter how far the object is.
-Attenuation
-   How strong the distance affects the volume.
+Volume
+   Minimum
+      No matter how far the object is away, the distance based volume won't be lower than this value.
+   Maximum
+      No matter how close the object is, the distance based volume won't be higher than this value.
+   Attenuation
+      How strong the distance affects the volume.
+      This factor changes the strength of the distance based volume change,
+      depending on the chosen distance model (see :ref:`scene settings <data-scenes-audio>`).
 
-
-.. rubric:: Distance
-
-Maximum
-   Maximum distance for volume calculation.
-Reference
-   Reference distance at which volume is 100%.
+Distance
+   Maximum
+      If the object is farther away than this distance, this distance is used to calculate the distance based volume.
+      Influence of this value also depends on the distance model.
+   Reference
+      The distance at which the volume is 100% (1.0). Set this value to the distance used for recording the sound.
+      Usually sound effects recordings should be made exactly 1m away from sound to get an accurate volume.
 
 
 Cone
 ----
 
-.. rubric:: Angle
+Directionality relevant settings.
 
-Outer
-   Angle of the outer cone in degrees. Outside this cone the volume is the outer cone volume (see below).
-   Between the inner and outer cone the volume is interpolated.
-Inner
-   Angle of the inner cone in degrees. Inside the cone the volume is 100%.
+Imagine a cone with the top at the original of the speaker object
+and the main axis of it facing in the same direction as the speaker.
+There are two cones an inner and an outer cone. The angles represent their opening angles,
+so 360° mean the cone is fully open and there's no directionality anymore.
+Inside the inner cone the volume is 100% (1.0),
+outside the outer cone the volume is whatever one sets for the outer cone volume
+and the volume between those two cones is linearly interpolated between this two volumes.
 
-
-.. rubric:: Volume
-
-Outer
-   Volume outside the outer cone.
+Angle
+   Outer
+      Angle of the outer cone in degrees. Outside this cone the volume is equal to the *Outer* volume.
+   Inner
+      Angle of the inner cone in degrees. Inside the cone the volume is 100%.
+Volume
+   Outer
+      Volume outside the outer cone.

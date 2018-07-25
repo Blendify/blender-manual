@@ -196,14 +196,19 @@ Distance Model
 --------------
 
 Distance Model
-   Distance model to use for sound attenuation (how sound volume diminishes over distance).
+   Changes how the distance based sound attenuation is calculated,
+   physically correct would be the *Inverse* model,
+   but it's also possible to choose a linear and an exponential falloff.
+   The clamped modes mean that the volume can't be louder than 100% (1.0),
+   that means if the distance is smaller than the reference distance, the volume is always 100%.
    For an exact description of each option see the
    `OpenAL documentation <https://www.openal.org/documentation/>`__.
-
 Speed
    Speed of the sound for the Doppler effect calculations.
+   The typical value is 343.3 m/s in air, in water for example this value is around 1560 m/s.
 Doppler
-   Pitch factor for Doppler effect calculation.
+   Controls how strong the Doppler effect is.
+   You can exaggerate or attenuate the change of pitch, but physically correct is a factor of 1.0.
 
 
 .. _bpy.types.FFmpegSettings.audio_mixrate:
