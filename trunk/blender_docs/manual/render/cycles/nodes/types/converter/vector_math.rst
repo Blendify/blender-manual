@@ -30,20 +30,76 @@ Operation
 
    Add
       Adding input 1 and 2.
+
+      .. hint::
+
+        .. math::
+
+           Vector &= input_1 + input_2
+
+           Value &= \frac{abs(Vector_x) + abs(Vector_y) + abs(Vector_z)}
+           {3.0}
+
    Subtract
       Subtracting input 1 and 2.
+
+      .. hint::
+
+        .. math::
+
+           Vector &= input_1 - input_2
+
+           Value &= \frac{abs(Vector_x) + abs(Vector_y) + abs(Vector_z)}
+           {3.0}
+
+
    Average
       Averaging input 1 and 2.
+
+      .. hint::
+
+        .. math::
+
+           Vector &= \frac{input_1+input_2}
+           {|input_1+input_2|}
+
+           Value &= |input_1+input_2|
+
    Dot Product
       Algebraic operation that takes two equal-length sequences of vectors 1 and 2 and returns a single number.
       The Result is a scalar.
+
+      .. hint::
+
+        .. math::
+
+           Value = input_1 . input_2
+
    Cross Product
       Geometric binary operation on two vectors 1 and 2 in three-dimensional space.
       It results in a vector which is perpendicular to both and therefore normal to the plane containing them.
       The Result is a vector.
-   Normalize
-      Normalizing input 1 and 2.
 
+      .. hint::
+
+        .. math::
+
+           Vector &= \frac{input_1 \times input_2}
+           {|input_1 \times input_2|}
+
+           Value &= |input_1 \times input_2|
+
+   Normalize
+      Normalizing input 1.
+
+      .. hint::
+
+        .. math::
+
+           Vector &= \frac{input_1}
+           {|input_1|}
+
+           Value &= |input_1|
 
 Outputs
 =======
