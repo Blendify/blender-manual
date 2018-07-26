@@ -5,9 +5,14 @@
 Brush
 *****
 
+.. figure:: /images/sculpt-paint_brush_data-block-menu.png
+   :align: right
+
+   Brush data-block menu.
+
 Brushes
-   :ref:`ui-data-block` to select a preset Brush Types or a custom brush.
-   They are a combination of a 'tool', along with stroke, texture, and options.
+   The :ref:`ui-data-block` to select a preset brush types or a custom brush.
+   They are a combination of a "tool", along with stroke, texture, and options.
 
    The brush can be selected by numbers:
    :kbd:`0` to :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`.
@@ -33,3 +38,45 @@ You can then either adjust the value interactively or by typing in numbers.
 After pressing the hotkey move the mouse to increase/reduce the value
 (additionally with precision and/or snapping activated).
 Finally confirm (:kbd:`LMB`, :kbd:`Return`) or cancel (:kbd:`RMB`, :kbd:`Esc`).
+
+
+.. _sculpt-paint-brush-appearance:
+
+Overlay
+=======
+
+.. figure:: /images/sculpt-paint_brush_appearance-panel.png
+   :align: right
+
+   Brush appearance options.
+
+.. Tool Shelf --> Options --> Overlay panel
+
+Allows you to customize the display in the viewport of *Curve* and *Texture* that applied to the brush.
+
+View
+   The eye icon is used as a toggle to show or hide the given brush texture.
+Alpha
+   You can change the amount of transparency used when showing the texture using the *Alpha* slider.
+Stroke Overlay
+   The brush icon allows you to turn off the viewport overlay during strokes.
+
+
+Appearance
+==========
+
+.. figure:: /images/sculpt-paint_sculpting_introduction_brush-circle.png
+   :align: right
+
+   Brush cursor.
+
+.. Tool Shelf --> Options --> Appearance panel
+
+Allows you to customize the color of the brush radius outline, as well as specify a custom icon.
+
+Show Brush
+   Shows the brush shape in the viewport.
+Color
+   Set the color of the brush ring.
+Custom Icon
+   Allows definition of a custom brush icon.

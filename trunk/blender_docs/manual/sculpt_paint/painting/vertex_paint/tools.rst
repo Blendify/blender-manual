@@ -3,7 +3,7 @@
 Tools
 *****
 
-The Tools Shelf contains most of the options for vertex painting.
+The *Tools Shelf* contains most of the options for vertex painting.
 The following sections describe the controls in each of the available panels.
 
 .. figure:: /images/sculpt-paint_painting_vertex-paint_tools_tab.png
@@ -16,26 +16,93 @@ Brush
 =====
 
 Brush
-   The :ref:`Data-Block menu <ui-data-block>` allows you to select brush presets, as well as custom brushes.
+   The :doc:`brush presets </sculpt_paint/brush>` data-block menu.
 Color
-   Color picker.
+   The color of the brush. See :ref:`ui-color-picker`.
+
+   Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
+   Hold :kbd:`Ctrl` to paint with background color.
+
+   Flip (cycle icon) :kbd:`X`
+      Swaps the foreground and background color.
 Radius
    Set the radius of the brush.
 Strength
    Set the strength of the brush's effect.
 Blend
-   Mix
-      Mixes RGB values. When set to a strength of 1.0, it will cover the underlying "paint".
-   Add
-      Adds RGB values.
-      Will eventually turn the entire object white as RGB values accumulate to (1.0, 1.0, 1.0): Pure White.
-   Subtract
-      Subtracts RGB values. Usually results in Black.
-   Multiply
-      Multiplies brush colors by the vertex colors.
-   Blur
-      Blurs vertex colors.
-   Lighten
-      Lightens the color of the vertices.
-   Darken
-      Darkens the color of the vertices.
+   See :term:`Color Blend Modes`.
+
+   In addition, here you can select the *Blur* or *Smear* mode.
+Alpha
+   When this is disabled, locks (prevents changes) alpha while painting.
+Accumulate
+   This will allow a stroke to accumulate on itself, just like an airbrush would do.
+Front Faces Only
+   Only paint on the front side of faces.
+Falloff Angle
+   As faces point away from the view the brush strokes fade away to prevent harsh edges.
+
+   Angle
+      The angle at which the falloff begins.
+2D Falloff
+   This makes brush influence into a cylinder (depth along the view is ignored) instead of a sphere.
+
+
+Texture
+=======
+
+See :doc:`/sculpt_paint/texture_tex_mask`.
+
+
+Stroke & Curve
+==============
+
+See :doc:`/sculpt_paint/stroke_curve`.
+
+
+Symmetry
+========
+
+(Todo)
+
+
+Color Tools
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Vertex Paint Mode
+   :Menu:      :menuselection:`Paint`
+
+.. (TODO) tooltips, each tool has parameters
+
+Bright/Contrast
+   Adjust vertex color brightness/contrast.
+Hue Saturation Value
+   Adjust vertex color HSV values.
+Levels
+   Adjust levels of vertex colors.
+Invert
+   Invert RGB values.
+Vertex Color from Weight
+   Converts active weight into greyscale vertex colors.
+Dirty Vertex Colors
+   Blur Strength
+      Blur strength per iteration.
+   Blur Iterations
+      Number of times to blur the colors (higher blurs more).
+   Highlight Angle
+      Less than 90 limits the angle used in the tonal range.
+   Dirt Angle
+      Less than 90 limits the angle used in the tonal range.
+   Dirt Only
+      Don't calculate cleans for convex areas.
+Smooth Vertex Colors
+   Smooth colors across vertices.
+Set Vertex Colors :kbd:`Shift-K`
+   Fill the active vertex color layer with the current paint color.
+
+.. seealso::
+
+   :doc:`/sculpt_paint/painting/weight_paint/hide_mask`

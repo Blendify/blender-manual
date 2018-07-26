@@ -151,8 +151,8 @@ Most brushes have common settings.
 Color
    The color of the brush. See :ref:`ui-color-picker`.
 
-   Press :kbd:`S` on any part of the image to sample that color and
-   set it as the brush color.
+   Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
+   Hold :kbd:`Ctrl` to paint with background color.
 
    Flip (cycle icon) :kbd:`X`
       Swaps the foreground and background color.
@@ -197,9 +197,24 @@ Tilling
 =======
 
 Wraps the stroke to the other side of the image as your brush moves off the opposite side of the canvas.
-Very handy for making seamless textures.
+Very handy for making seamless textures. (In the *UV/Image Editor* only.)
 
    X
       left/right
    Y
       top/bottom
+
+
+External
+========
+
+(Todo)
+
+Quick Edit
+   Edit a snapshot of the view-port in an external image editor.
+Apply
+   Project edited image back onto the object.
+Size
+   Size to capture the image for re-projecting.
+Apply Camera Image
+   Project an edited render from the active camera back onto the object.
