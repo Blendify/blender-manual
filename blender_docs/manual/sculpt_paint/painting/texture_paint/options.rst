@@ -3,40 +3,30 @@
 Options
 *******
 
-Options tab.
-
-
-Overlay
-=======
-
-Allows you to customize the display of curve and texture that applied to the brush.
-
-
-Appearance
-==========
-
-Allows you to customize the color of the brush radius outline,
-as well as specify a custom icon.
+See the :ref:`Overlay & Appearance <sculpt-paint-brush-appearance>` options.
 
 
 Project Paint
 =============
 
 Occlude
-   ToDo <2.64.
+   Geometry occlusion. Only exposed (not hidden by other mesh) pixels are affected.
+   This also allows for 3D stencils to be used to mask out areas of the surface too.
 Cull
-   ToDo <2.64.
+   Backface culling. Only paint on the front side of faces.
 Normal
-   ToDo <2.64.
+   View normal falloff. As faces point away from the view
+   the brush strokes fade away to prevent harsh edges.
+
+   Angle
+      The normal angle at which the falloff begins.
 Cavity Mask
    Cavity masking means that the brush will be masked if there is a cavity or a hill
    on the mesh surface depending on the mesh options. The cavity algorithm is vertex-based.
-
 Bleed
-   ToDo <2.64.
+   Seam Bleed. Extend the paint beyond UV island bounds to avoid visual artifacts (like bleed for baking).
 Dither
-   Amount of dithering when painting on byte images. ToDo.
-
+   Amount of dithering when painting on 8-bit images.
 Unified Settings
    Brush options shared between the brush types.
 

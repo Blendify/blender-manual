@@ -24,53 +24,59 @@ Weight :kbd:`W`
 
    Use :kbd:`Ctrl-LMB` to sample the weight value of clicked vertex.
    :kbd:`Shift-LMB` lets you select the group from which to sample from.
+Radius
+   The radius defines the area of influence of the brush.
 Strength
    This is the amount of paint to be applied per brush stroke.
    What that means exactly also depends on the Brush Blending mode.
-Radius
-   The radius defines the area of influence of the brush.
+Blend
+   The brush :term:`Blend Modes` defines in which way the weight value is applied to the Vertex Group while painting.
+   In addition, here you can select the *Blur* or *Smear* mode.
 
-Blend mode
-   The brush Blending mode defines in which way the weight value is applied to the Vertex Group while painting.
+   .. tip::
 
-   Mix
-      In this Blending mode the Weight value defines the *target weight* that will eventually
-      be reached when you paint long enough on the same location of the mesh.
-      And the strength determines how many strokes you need to arrive at the target weight.
-      Note that for strength = 1.0 the target weight is painted immediately,
-      and for Weight = 0.0 the brush just does nothing.
-   Add
-      In this Blending mode the specified weight value is *added* to the vertex weights.
-      The strength determines which fraction of the weight gets added per stroke.
-      However, the brush will not paint weight values above 1.0.
-   Subtract
-      In this Blending mode the specified weight value is *subtracted* from the vertex weights.
-      The strength determines which fraction of the weight gets removed per stroke.
-      However, the brush will not paint weight values below 0.0.
-   Lighten
-      In this Blending mode the specified weight value is interpreted
-      as the target weight. Very similar to the Mix Blending mode,
-      but only weights below the target weight are affected.
-      Weights above the target weight remain unchanged.
-   Darken
-      This Blending mode is very similar to the Lighten Blending mode.
-      But only weights above the target weight are affected.
-      Weights below the target weight remain unchanged.
-   Multiply
-      Multiplies the vertex weights with the specified weight value.
-      This is somewhat like subtract, but the amount of removed weight is now dependent on the Weight value itself.
-   Blur
-      Smooths out the weighting of adjacent vertices.
-      In this mode the Weight Value is ignored.
-      The strength defines how much the smoothing is applied.
+      Mix
+         In this Blending mode the Weight value defines the *target weight* that will eventually
+         be reached when you paint long enough on the same location of the mesh.
+         And the strength determines how many strokes you need to arrive at the target weight.
+         Note that for strength = 1.0 the target weight is painted immediately,
+         and for Weight = 0.0 the brush just does nothing.
+      Add
+         In this Blending mode the specified weight value is *added* to the vertex weights.
+         The strength determines which fraction of the weight gets added per stroke.
+         However, the brush will not paint weight values above 1.0.
+      Subtract
+         In this Blending mode the specified weight value is *subtracted* from the vertex weights.
+         The strength determines which fraction of the weight gets removed per stroke.
+         However, the brush will not paint weight values below 0.0.
+      Lighten
+         In this Blending mode the specified weight value is interpreted
+         as the target weight. Very similar to the Mix Blending mode,
+         but only weights below the target weight are affected.
+         Weights above the target weight remain unchanged.
+      Darken
+         This Blending mode is very similar to the Lighten Blending mode.
+         But only weights above the target weight are affected.
+         Weights below the target weight remain unchanged.
+      Multiply
+         Multiplies the vertex weights with the specified weight value.
+         This is somewhat like subtract, but the amount of removed weight is now dependent on the Weight value itself.
+      Blur
+         Smooths out the weighting of adjacent vertices.
+         In this mode the Weight Value is ignored.
+         The strength defines how much the smoothing is applied.
 
-      Accumulate
-         This option keeps applying smoothing on top of the previous result.
+Accumulate
+   This will allow a stroke to accumulate on itself, just like an airbrush would do.
+Front Faces Only
+   Only paint on the front side of faces.
+Falloff Angle
+   As faces point away from the view the brush strokes fade away to prevent harsh edges.
 
-         .. hint::
-
-            - Disable when painting individual vertices on lower poly modules.
-            - Enable for more dense geometry, or when you want to increase the blur effect.
+   Angle
+      The angle at which the falloff begins.
+2D Falloff
+   This makes brush influence into a cylinder (depth along the view is ignored) instead of a sphere.
 
 Auto Normalize
    Ensures that all deforming vertex groups add up to one while painting. When this option is turned off,
@@ -106,3 +112,15 @@ Multi-Paint
       To do that, enable vertex selection, select target vertices,
       and apply one iteration of the tool using vertex groups from *Selected Pose Bones* with low Factor.
       After that simply paint on top to set the desired collective weight.
+
+
+Stroke & Curve
+==============
+
+See :doc:`/sculpt_paint/stroke_curve`.
+
+
+Symmetry
+========
+
+(Todo)
