@@ -19,7 +19,7 @@ Hence Vertex Groups are sometimes also named *Weight Groups*.
 Usage
 =====
 
-Vertex Groups are most commonly used for Armatures
+Vertex Groups are most commonly used for Armatures.
 But they are also used in many other areas of Blender, like for example:
 
 - Armature Deformation *(also called Skinning)*
