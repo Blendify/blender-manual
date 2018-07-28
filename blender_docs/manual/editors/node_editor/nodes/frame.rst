@@ -41,11 +41,10 @@ Join in New Frame
    :Menu:      :menuselection:`Node --> Join in new Frame`
    :Hotkey:    :kbd:`Ctrl-J`
 
-ToDo 2.60.
+Make a new Frame with the selected nodes.
 
-
-Adding
-------
+Add to Frame
+------------
 
 .. admonition:: Reference
    :class: refbox
@@ -53,8 +52,12 @@ Adding
    :Mode:      All Modes
    :Hotkey:    :kbd:`Ctrl-P`
 
-Once a Frame node is placed in the editor, nodes can be added by simply dropping them onto the frame or
-by selecting the node(s) then the frame and using :kbd:`Ctrl-P`.
+Once a Frame is placed, nodes can be added to it by:
+
+- dropping them onto the frame, or
+- selecting the frame after selecting the node(s) and using :kbd:`Ctrl-P`.
+
+  This can be thought of as Parenting the selection to the Frame.
 
 
 Remove from Frame
@@ -67,5 +70,5 @@ Remove from Frame
    :Menu:      :menuselection:`Node --> Remove from Frame`
    :Hotkey:    :kbd:`Alt-P`
 
-To remove them, select the node(s) and use the :kbd:`Alt-P` shortcut.
-This uses the same default keyboard bindings as Parenting and can be thought of as a similar concept.
+To remove nodes from a frame, select and use :kbd:`Alt-P`.
+This can be thought of as unparenting the selection from the Frame.

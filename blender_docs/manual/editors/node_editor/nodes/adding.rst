@@ -1,13 +1,7 @@
 
 ************
-Introduction
+Adding Nodes
 ************
-
-Todo add.
-
-
-Adding
-======
 
 .. admonition:: Reference
    :class: refbox

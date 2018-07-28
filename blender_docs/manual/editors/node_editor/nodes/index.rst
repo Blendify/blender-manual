@@ -8,7 +8,7 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
+   adding.rst
    parts.rst
    selecting.rst
    editing.rst
