@@ -50,8 +50,8 @@ Pack
       See :ref:`pack-unpack-data`.
    Pack As PNG
       Packs the image into the blend-file as lossless PNG.
-      It is available as an option in the Operator panel (shortcut :kbd:`F6`),
-      or if the image was modified inside Blender and changes are not saved to disk.
+      It is available as an option in the Operator panel
+      or if the image was modified inside Blender and changes are not saved to the drive.
 
 .. important::
 
@@ -84,7 +84,7 @@ Slot
    If an image has been rendered to a slot, it can be viewed by selecting that slot.
    Empty slots appear as blank grids in the UV/Image editor.
    Use the :kbd:`J` and :kbd:`Alt-J` to cycle forwards and backwards through saved renders.
-   *Slot Name* field in the *Display Panel* allows you to rename a slot.
+   The *Slot Name* field in the *Display Panel* allows you to rename a slot.
 Render Layer
    If you are using :doc:`Render Layers </render/post_process/layers>`,
    use this menu to select which layer is displayed.

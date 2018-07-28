@@ -24,13 +24,13 @@ Open
    There are two properties you can check when loading a sound:
 
    Cache
-      This means the whole sound will be decoded on load and the raw audio data will be buffered in memory,
+      This means the whole sound will be decoded and the raw audio data will be buffered in memory,
       which results in faster playback, but uses quite a lot of memory. So this should be used
       for short sound effects that get played more often, but not for longer audio files such as music.
    Mono
-      For any 3D Audio or Panning effects the sound source has to be single channel,
+      For any 3D audio or panning effects the sound source has to be single channel,
       otherwise it's assumed that the 3D audio and panning information is already present in the multichannel file.
-      So if you want to use those effects for a file with multiple channels, check this!
+      Enable this if you want to use those effects for a file with multiple channels.
 Mute
    Toggles whether or not the sound can be heard.
 Volume
@@ -43,13 +43,13 @@ Pitch
 Playback Time
 ^^^^^^^^^^^^^
 
-There's no setting to choose the start time when the speaker should start playing,
+There is no setting to choose the start time when the speaker should start playing,
 because you might want a single speaker to play multiple times.
 Therefore you have to open the *NLA Editor* where you can add sound strips
-that tell when the sound should start (nothing else,
+that defines when the sound should start (nothing else,
 so any other properties of the strips, like length don't matter).
-When you add a speaker object there's already such a strip added for you at the current frame.
-Shortcut to add a strip in the *NLA Editor*: :kbd:`Shift-K`.
+When you add a speaker object such a strip will be added at the current frame.
+The Shortcut to add a strip in the *NLA Editor* is :kbd:`Shift-K`.
 
 
 Distance
@@ -63,22 +63,20 @@ Distance
 Distance attenuation relevant settings.
 
 Volume
-   Minimum
-      No matter how far the object is away, the distance based volume won't be lower than this value.
-   Maximum
-      No matter how close the object is, the distance based volume won't be higher than this value.
+   Minimum/Maximum
+      No matter how far away/close the object is, the distance-based volume won't be lower/higher than this value.
    Attenuation
       How strong the distance affects the volume.
-      This factor changes the strength of the distance based volume change,
+      This factor sets the strength of the distance-based volume change,
       depending on the chosen distance model (see :ref:`scene settings <data-scenes-audio>`).
 
 Distance
    Maximum
-      If the object is farther away than this distance, this distance is used to calculate the distance based volume.
+      If the object is farther away than this distance, this distance is used to calculate the distance-based volume.
       Influence of this value also depends on the distance model.
    Reference
       The distance at which the volume is 100% (1.0). Set this value to the distance used for recording the sound.
-      Usually sound effects recordings should be made exactly 1m away from sound to get an accurate volume.
+      Usually sound effects recordings should be made exactly 1 m away from sound to get an accurate volume.
 
 
 Cone

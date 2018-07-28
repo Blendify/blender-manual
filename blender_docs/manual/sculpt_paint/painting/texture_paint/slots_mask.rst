@@ -17,22 +17,22 @@ Slots
 The combination of images associated with UV maps is called "slots".
 
 Selecting a *Paint Slots* or *Canvas Image*
-will also display the corresponding image on *UV/Image Editors*, if any are open.
+will also display the corresponding image in *UV/Image Editors*.
 
 Painting Mode
    The slot system includes two painting modes:
 
    Image
-      The user can just select an existing image and painting will use the active UV layer for painting.
+      You can just select an existing image and painting will use the active UV layer for painting.
 
       Canvas Image
-         Alows you select the image used as canvas.
+         Allows you to select the image used as a canvas.
 
          New
             Create a new image.
       UV Map
-         Alows you select the UV layer for painting.
-         (Same as the curently active UV map in the mesh's *UV Maps* panel.)
+         Allows you to select the UV layer for painting.
+         (Same as the currently active UV map in the mesh's *UV Maps* panel.)
 
    Material
       This mode tries to detect the slots from the materials of the mesh.
@@ -45,21 +45,20 @@ Painting Mode
          To activate a certain slot to use it for paint a just :kbd:`LMB` click on it.
 
       UV Map
-         Alows you to select a UV layer for the slot.
+         Allows you to select a UV layer for the slot.
          The UV map selected in the *UV Map* nodes before an *Image Texture* will be used.
          If there is no *UV Map* nodes or it has a blank value,
-         active UV map of the mesh (*UV Maps* panel) will be used.
+         the active UV map of the mesh (*UV Maps* panel) will be used.
 
       .. (TODO 2.8) Blender Internal (START)
 
       For Blender Internal, texture paint slots are material texture slots that use images and UV mapping.
       The UV map that is used during painting is either the assigned on the UV slot of the material texture UV slot,
-      or the active UV layer of the mesh (this is the highlighted UV map under the mesh tab in the properties screen)
+      or the active UV layer of the mesh (this is the highlighted UV map under the mesh tab in the properties editor)
       if no UV map has been assigned. There are a few extra controls:
 
       Add/Remove Texture Paint Slot
-         A drop down that allows the addition of additional slots.
-         Slots added here are directly added on the material.
+         A menu that allows the addition of new slots which are added directly on the material.
       Blend Type
          Same as in the
          :doc:`Texture Blending Modes </render/blender_render/textures/properties/influence/blending_modes>`.
@@ -82,9 +81,9 @@ Mask
 The mask can be deactivated by the checkbox in the header.
 
 UV Map
-   Alows you select the UV layer for mask image.
+   Allows you to select the UV layer for the mask image.
 Stencil Image
-   Image used as mask. See :ref:`ui-data-block`.
+   Image used as a mask. See :ref:`ui-data-block`.
 Visualization
    Mask color in the viewport. See :ref:`ui-color-picker`.
 Invert Stencil (black/white icon)

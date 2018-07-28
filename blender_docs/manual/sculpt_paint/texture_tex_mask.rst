@@ -11,7 +11,7 @@ Texture
 
    Texture options and example.
 
-Use the texture data-block at the bottom of the paint panel to select a pre-loaded image or
+Use the texture data-block at the bottom of the paint panel to select a preloaded image or
 procedural texture to use as your brush pattern.
 
 Note that in order to use it, you must have a placeholder material defined,

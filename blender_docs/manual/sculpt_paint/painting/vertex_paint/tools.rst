@@ -3,7 +3,7 @@
 Tools
 *****
 
-The *Tools Shelf* contains most of the options for vertex painting.
+The *Tool Shelf* contains most of the options for vertex painting.
 The following sections describe the controls in each of the available panels.
 
 .. figure:: /images/sculpt-paint_painting_vertex-paint_tools_tab.png
@@ -34,7 +34,7 @@ Blend
 
    In addition, here you can select the *Blur* or *Smear* mode.
 Alpha
-   When this is disabled, locks (prevents changes) alpha while painting.
+   When this is disabled, it locks (prevents changes) the alpha channel while painting.
 Accumulate
    This will allow a stroke to accumulate on itself, just like an airbrush would do.
 Front Faces Only
@@ -45,7 +45,7 @@ Falloff Angle
    Angle
       The angle at which the falloff begins.
 2D Falloff
-   This makes brush influence into a cylinder (depth along the view is ignored) instead of a sphere.
+   This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
 
 
 Texture
@@ -86,7 +86,7 @@ Levels
 Invert
    Invert RGB values.
 Vertex Color from Weight
-   Converts active weight into greyscale vertex colors.
+   Converts the active weight into grayscale vertex colors.
 Dirty Vertex Colors
    Blur Strength
       Blur strength per iteration.
@@ -97,7 +97,7 @@ Dirty Vertex Colors
    Dirt Angle
       Less than 90 limits the angle used in the tonal range.
    Dirt Only
-      Don't calculate cleans for convex areas.
+      When active it won't calculate cleans for convex areas.
 Smooth Vertex Colors
    Smooth colors across vertices.
 Set Vertex Colors :kbd:`Shift-K`

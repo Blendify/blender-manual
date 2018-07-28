@@ -76,9 +76,9 @@ Cyclic
 Generated
 ---------
 
-Image generated in Blender or pre-loaded.
+Image generated in Blender or preloaded.
 
-.. (TODO) pre-loaded? ^^^
+.. (TODO) preloaded? ^^^
 
 .. list-table::
 

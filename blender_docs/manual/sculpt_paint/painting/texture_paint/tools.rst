@@ -28,7 +28,7 @@ The normal brush, paints a swath of color.
 See `Common`_ settings below.
 
 Use Gradient
-   A gradient can be used as color source.
+   A gradient can be used as a color source.
 
    Gradient Colors
       The :ref:`ui-color-ramp-widget` to define the gradient colors.
@@ -36,11 +36,11 @@ Use Gradient
       Pressure
          Will choose a color from the color ramp according to the stylus pressure.
       Clamp
-         Will alter the color automatically by the distance covered by the brush and as specified
-         by *Gradient spacing*. With Clamp it uses the last color of the color ramp after the specified.
+         Will alter the color along the stroke and as specified by *Gradient spacing*.
+         With Clamp it uses the last color of the color ramp after the specified gradient.
       Repeat
          Similar to *Clamp*. After the last color it resets the color to the first color in the color ramp and
-         repeating the pattern.
+         repeats the pattern.
 
 
 Fill
@@ -58,7 +58,7 @@ Use Gradient
    Allows the use of a gradient to fill the image.
 
    To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
-   depending on the *Gradient Fill Mode* the gradient line, or radius, if radial gradient is used.
+   the gradient line, or radius if a radial gradient is used (see *Gradient Fill Mode*).
 
    Gradient Colors
       The :ref:`ui-color-ramp-widget` to define the gradient colors.
@@ -77,12 +77,11 @@ Use Gradient
 Mask
 ^^^^
 
-Work in 3D projective painting only.
-
 The mask feature maps an image to the mesh and uses the image intensity to
 mask out certain parts of the mesh out during painting.
 The mask options can be found mask panel
 in the :doc:`slots tab </sculpt_paint/painting/texture_paint/slots_mask>`.
+It's only available for 3D projective painting.
 
 Mask Value
    Mask weight, a value of zero means not masked, while one is completely masked.
@@ -106,7 +105,7 @@ Direction
          The Threshold will only apply sharpening to only those pixels that
          differ more than the threshold value from their surrounding pixels.
       Kernel Radius (2D only)
-         The kernel size controls how big an area the tool searches over while calculating that difference.
+         The kernel size controls how big an area the tool searches over is while calculating that difference.
 Blur Mode
    The blur kernel type controls how neighboring pixels are weighted when calculating the blur effect.
 
@@ -185,7 +184,7 @@ Blend
 Accumulate
    This will allow a stroke to accumulate on itself, just like an airbrush would do.
 Alpha (3D only)
-   When this is disabled, locks (prevents changes) alpha while painting.
+   When this is disabled, it locks (prevents changes to) the alpha channel while painting.
 
 .. tip:: Masking
 
@@ -211,10 +210,10 @@ External
 (Todo)
 
 Quick Edit
-   Edit a snapshot of the view-port in an external image editor.
+   Edit a snapshot of the viewport in an external image editor.
 Apply
    Project edited image back onto the object.
 Size
-   Size to capture the image for re-projecting.
+   Size of the captured image for reprojecting.
 Apply Camera Image
    Project an edited render from the active camera back onto the object.

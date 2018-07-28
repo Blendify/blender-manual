@@ -67,8 +67,8 @@ Channels
 Mixing Buffer
    Sets the number of samples used by the audio mixing buffer. Available options are:
    *512*, *1024*, *2048*, *4096*, *8192*, *16384*, and *32768*.
-   It has an influence on the latency, so for this the lower the better,
-   but if you have clicks or other problems, try rising the size.
+   Higher buffer sizes can cause latency issues,
+   but if you hear clicks or other problems, try to increase the size.
 Sample Rate
    Sets the audio `sampling rate <https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_rate>`__.
    Available options are: *44.1 Khz*, *48 Khz*, *96 Khz* and *192 Khz*.
