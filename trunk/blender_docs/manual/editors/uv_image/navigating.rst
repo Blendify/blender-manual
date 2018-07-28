@@ -18,7 +18,7 @@ View Menu
 Update Automatically
    Update the view in multiple areas.
 UV Local View
-   Displays only the UV-faces that assigned with the currently displayed image.
+   Displays only the UV faces that are assigned to the currently displayed image.
 
    .. (TODO 2.8) BI only? ^^^
 

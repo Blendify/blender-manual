@@ -33,8 +33,8 @@ Use Deform Only
 Show Diffuse Color
    Allows the active object to show its diffuse color when sculpting.
 Show Mask
-   The option to hide mask in viewport.
-   Brushes themselves are still affected by the mask, but the viewport is not showing the mask.
+   The option to hide mask in the viewport.
+   Brushes themselves are still affected by the mask, but the viewport will not display the mask.
 Unified Settings
    Size
       Forces the brush size to be shared across brushes.

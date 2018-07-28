@@ -40,6 +40,7 @@ After pressing the hotkey move the mouse to increase/reduce the value
 Finally confirm (:kbd:`LMB`, :kbd:`Return`) or cancel (:kbd:`RMB`, :kbd:`Esc`).
 
 
+.. TODO: Move to own page (manual/sculpt_paint/options.rst), add refboxes
 .. _sculpt-paint-brush-appearance:
 
 Overlay
@@ -52,7 +53,7 @@ Overlay
 
 .. Tool Shelf --> Options --> Overlay panel
 
-Allows you to customize the display in the viewport of *Curve* and *Texture* that applied to the brush.
+Allows you to customize the display in the viewport of the *Curve* and *Texture* that is applied to the brush.
 
 View
    The eye icon is used as a toggle to show or hide the given brush texture.
@@ -72,7 +73,7 @@ Appearance
 
 .. Tool Shelf --> Options --> Appearance panel
 
-Allows you to customize the color of the brush radius outline, as well as specify a custom icon.
+Allows you to customize the color of the brush radius outline and to specify a custom icon.
 
 Show Brush
    Shows the brush shape in the viewport.

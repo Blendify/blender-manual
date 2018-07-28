@@ -187,7 +187,7 @@ User Preferences
 Orphan Data
    Lists :doc:`data-blocks </data_system/data_blocks>`
    which are unused and/or will be lost when the file is reloaded.
-   Includes data-blocks with a fake user only. You can add/remove Fake User
+   It includes data-blocks which have only a fake user. You can add/remove Fake User
    by clicking on cross/tick icon in the right side of the Outliner editor.
 
    Purge All

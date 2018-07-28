@@ -55,9 +55,9 @@ Shutter Curve
 Shutter Type
    Creates a "rolling shutter" effect.
 
-   Real CMOS cameras reads sensor by scanlines
+   In real CMOS cameras the sensor is read out with scanlines
    and hence different scanlines are sampled at a different moment in time.
-   This, for example, make vertical straight lines being curved when doing horizontal camera pan.
+   This, for example, make vertical straight lines being curved when doing a horizontal camera pan.
 
    None
       No rolling shutter effect.

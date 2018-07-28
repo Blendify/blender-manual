@@ -31,15 +31,15 @@ Strength
    What that means exactly also depends on the Brush Blending mode.
 Blend
    The brush :term:`Blend Modes` defines in which way the weight value is applied to the Vertex Group while painting.
-   In addition, here you can select the *Blur* or *Smear* mode.
+   In addition, here you can select the *Blur* mode.
 
    .. tip::
 
       Mix
          In this Blending mode the Weight value defines the *target weight* that will eventually
          be reached when you paint long enough on the same location of the mesh.
-         And the strength determines how many strokes you need to arrive at the target weight.
-         Note that for strength = 1.0 the target weight is painted immediately,
+         And the strength determines how many strokes you need to place at the target weight.
+         Note that for strength = 1.0 the target weight is painted immediately
          and for Weight = 0.0 the brush just does nothing.
       Add
          In this Blending mode the specified weight value is *added* to the vertex weights.
@@ -76,7 +76,7 @@ Falloff Angle
    Angle
       The angle at which the falloff begins.
 2D Falloff
-   This makes brush influence into a cylinder (depth along the view is ignored) instead of a sphere.
+   This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
 
 Auto Normalize
    Ensures that all deforming vertex groups add up to one while painting. When this option is turned off,
