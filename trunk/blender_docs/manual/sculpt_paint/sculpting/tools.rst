@@ -31,37 +31,40 @@ Blob
    Pushes mesh outward or inward into a spherical shape with settings to
    control the amount of pinching at the edge of the sphere.
 Clay :kbd:`C`
-   Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
+   Similar to the *SculptDraw* brush, but includes settings to adjust the plane on which the brush acts.
+   It behaves like a combination of the *Flatten* and *SculptDraw* brushes.
 Clay Strips
-   Similar to the *Clay* brush, but it uses a cube test to define the brush area of influence rather than a sphere.
+   Similar to the *Clay* brush, but it uses a cube to define the brush area of influence rather than a sphere.
 Crease :kbd:`Shift-C`
    Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
 Fill/Deepen
    Works like the Flatten brush, but only brings vertices below the brush plane upwards.
    The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
 Flatten/Contrast :kbd:`Shift-T`
-   The *Flatten* brush pulls the vertices towards the *Sculpt plane*.
-   The inverse of the Flatten brush is the *Contrast*
-   brush which pushes vertices up or down away from the *Sculpt Plane*.
+   The *Flatten* brush finds an "area plane"
+   located by default at the average height above/below the vertices within the brush area.
+   The vertices are then pulled towards this plane.
+   The inverse of the *Flatten* brush is the *Contrast* brush
+   which pushes vertices up or down away from the brush plane.
 Grab :kbd:`G`
    Used to drag a group of points around. Unlike the other brushes,
    *Grab* does not modify different points as the brush is dragged across the model.
    Instead, *Grab* selects a group of vertices on mouse-down, and pulls them to follow the mouse.
    The effect is similar to moving a group of vertices in *Edit Mode* with proportional editing enabled,
-   except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
+   except that *Grab* can make use of other *Sculpt Mode* options (like textures and symmetry).
 Inflate/Deflate :kbd:`I`
-   Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
+   Similar to *SculptDraw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
 Layer :kbd:`L`
-   This brush is similar to *Draw*, except that the height of the displacement layer is capped.
+   This brush is similar to *SculptDraw*, except that the height of the displacement layer is capped.
    This creates the appearance of a solid layer being drawn.
    This brush does not draw on top of itself; a brush stroke intersects itself.
    Releasing the mouse button and starting a new stroke
    will reset the depth and paint on top of the previous stroke.
 
    Persistent
-      ToDo <2.70.
+      You can keep sculpting on the same layer between strokes when this is on.
    Set Persistent Base
-      ToDo <2.70.
+      The button to reset the base so you can add another layer.
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as gray-scale.
@@ -84,8 +87,8 @@ Rotate
    Rotates vertices within the brush in the direction the cursor is moved. The initial drag direction
    is the zero angle and by rotating around the center you can create a vortex effect.
 Scrape/Peaks
-   The *Scrape* brush works like the Flatten brush, but only brings vertices above the plane downwards.
-   The inverse of the Scrape brush is to *Peak* by pushing vertices above the plane up away from the plane.
+   The *Scrape* brush works like the *Flatten* brush, but only brings vertices above the plane downwards.
+   The inverse of the *Scrape* brush is to *Peak* by pushing vertices above the plane up away from the plane.
 SculptDraw :kbd:`X`
    Moves vertices inward or outward,
    based the average normal of the vertices contained within the drawn brush stroke.
@@ -96,7 +99,7 @@ Snake Hook :kbd:`K`
    Pulls vertices along with the movement of the brush to create long, snake-like forms.
 
    Pinch
-      The *Snake hook* brush tends to loose volume along the stroke,
+      The *Snake Hook* brush tends to loose volume along the stroke,
       with pinch > 0.5 its possible to sculpt shapes without loosing volume.
    Rake
       A factor to support grabbing the mesh with rotation following the cursor's motion.
@@ -122,7 +125,7 @@ Radius
    if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
 Strength
    Controls how much each application of the brush affects the model.
-   For example, higher values cause the *Draw* brush to add depth to the model more quickly,
+   For example, higher values cause the *SculptDraw* brush to add depth to the model more quickly,
    and cause the *Smooth* brush to smooth the model more quickly.
    This setting is not available for *Grab*, *Snake Hook*, or *Rotate*.
 
@@ -143,30 +146,31 @@ Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
 Normal Weight :kbd:`Ctrl`
    Constrains brush movement along the surface normal.
-   Especially useful with the *Grab Brush*, can be temporarily enabled by holding :kbd:`Ctrl`.
-   e.g. Grab brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set.
+   Especially useful with the *Grab* brush, can be temporarily enabled by holding :kbd:`Ctrl`.
+   E.g. *Grab* brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set.
 
    Applies to *Grab* and *Snake Hook* brushes.
 Use Original Normal (padlock icon)
-   ToDo.
+   When locked keeps using normal of the surface where stroke was initiated,
+   instead of the surface normal currently under the cursor.
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
+   In other words, the primary direction that the vertices movement takes place.
 
    Area Plane
-      The plane is located at the average height above/below the vertices within the brush area.
+      The movement takes place in the direction of average normal for all active vertices within the brush area.
       Essentially, this means that the direction is dependent on the surface beneath the brush.
-
-      .. (alt) The vertices are pushed towards the plane defined by vertices towards the edge of the brush.
    View Plane
-      ToDo 2.64.
+      Sculpting in the plane of the current 3D View.
    X, Y, Z Plane
-      Global.
-
-      ToDo 2.64.
+      The movement takes place in the positive direction of one of the global axes.
 Plane Offset
-   ToDo 2.64.
+   Offset for planar brushes (Clay, Fill, Flatten, Scrape),
+   shifts the plane that is found by averaging the faces above or below.
 Trim
-   ToDo 2.64.
+   Ability to limit the distance that planar brushes act.
+   If trim is enabled then vertexes further away from the offset plane than the trim distance
+   are ignored when sculpting.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
 2D Falloff

@@ -18,12 +18,12 @@ or by masking areas that can not be sculpted on.
 Hide
 ====
 
-Portions of the mesh can be hidden in Sculpt Mode to improve performance and
+Portions of the mesh can be hidden in *Sculpt Mode* to improve performance and
 to access parts of the mesh that would otherwise be difficult to access,
 because they are occluded by other parts.
 
 The hidden faces cannot be sculpted on.
-Hiding is shared between Edit Mode and Sculpt Mode
+Hiding is shared between *Edit Mode* and *Sculpt Mode*
 (i.e. hiding/unhiding in one mode affects the other mode too).
 
 Hide Bounding Box :kbd:`H`
@@ -44,18 +44,15 @@ Mask
 
 Masking to control which areas of the mesh are influenced by sculpting.
 
+.. figure:: /images/sculpt-paint_sculpting_hide-mask_example.jpg
+
+   Black part is masked.
+
 
 Brush
 -----
 
 In order to edit the mask, select the *Mask Brush* from the Brush panel.
-
-.. figure:: /images/sculpt-paint_sculpting_hide-mask_example.jpg
-
-   Black part (hair) is masked.
-
-   The `blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__
-   from `OHA Studio <http://oha-studios.com/>`__ © Mechanimotion Entertainment.
 
 
 Editing
@@ -64,15 +61,20 @@ Editing
 Masks can be edited across the entire model:
 
 Invert Mask :kbd:`Ctrl-I`
-   Todo.
+   Inverts an existing mask.
 Fill Mask
-   Todo.
+   Fills the whole mask with a value of 1.
 Clear Mask :kbd:`Alt-M`
    Fills the mask with a value of 0. To completely remove the mask data see `Clearing Mask Data`_.
 Box Mask :kbd:`B`
-   Todo.
+   Works like the *Border Select* tool, creates a rectangular mask region.
+   Hold :kbd:`Shift` to clear/unmask selected region.
 Lasso Mask :kbd:`Shift-Ctrl-LMB`
-   Todo.
+   Used to create a free-form mask, like the *Lasso Select* tool does.
+
+   .. tip::
+      To unmask areas with the *Lasso Mask* tool, first invert the mask,
+      apply the *Lasso Mask*, and then invert the mask back.
 
 
 .. _sculpt_mask_clear-data:
