@@ -43,8 +43,11 @@ Finally confirm (:kbd:`LMB`, :kbd:`Return`) or cancel (:kbd:`RMB`, :kbd:`Esc`).
 .. TODO: Move to own page (manual/sculpt_paint/options.rst), add refboxes
 .. _sculpt-paint-brush-appearance:
 
-Overlay
+Options
 =======
+
+Overlay
+-------
 
 .. figure:: /images/sculpt-paint_brush_appearance-panel.png
    :align: right
@@ -64,7 +67,7 @@ Stroke Overlay
 
 
 Appearance
-==========
+----------
 
 .. figure:: /images/sculpt-paint_sculpting_introduction_brush-circle.png
    :align: right

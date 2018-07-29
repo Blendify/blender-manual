@@ -58,7 +58,7 @@ Use Gradient
    Allows the use of a gradient to fill the image.
 
    To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
-   the gradient line, or radius if a radial gradient is used (see *Gradient Fill Mode*).
+   the gradient line, or radius if a radial gradient is used (depending on the *Gradient Fill Mode*).
 
    Gradient Colors
       The :ref:`ui-color-ramp-widget` to define the gradient colors.

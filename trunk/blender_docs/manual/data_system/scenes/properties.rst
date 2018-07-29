@@ -196,7 +196,7 @@ Distance Model
 --------------
 
 Distance Model
-   Changes how the distance is calculated based on the sound attenuation.
+   Changes how the sound attenuation is calculated based on the distance.
    Most physically correct is the *Inverse* model,
    but it's also possible to choose a linear and an exponential falloff.
    The clamped modes limit the volume to be lower than 100% (1.0),
