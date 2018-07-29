@@ -41,7 +41,7 @@ Fill/Deepen
    Works like the Flatten brush, but only brings vertices below the brush plane upwards.
    The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
 Flatten/Contrast :kbd:`Shift-T`
-   The *Flatten* brush finds an "area plane"
+   The *Flatten* brush determines an "area plane"
    located by default at the average height above/below the vertices within the brush area.
    The vertices are then pulled towards this plane.
    The inverse of the *Flatten* brush is the *Contrast* brush
@@ -50,8 +50,8 @@ Grab :kbd:`G`
    Used to drag a group of points around. Unlike the other brushes,
    *Grab* does not modify different points as the brush is dragged across the model.
    Instead, *Grab* selects a group of vertices on mouse-down, and pulls them to follow the mouse.
-   The effect is similar to moving a group of vertices in *Edit Mode* with proportional editing enabled,
-   except that *Grab* can make use of other *Sculpt Mode* options (like textures and symmetry).
+   The effect is similar to moving a group of vertices in Edit Mode with proportional editing enabled,
+   except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
 Inflate/Deflate :kbd:`I`
    Similar to *SculptDraw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
 Layer :kbd:`L`
@@ -64,7 +64,7 @@ Layer :kbd:`L`
    Persistent
       You can keep sculpting on the same layer between strokes when this is on.
    Set Persistent Base
-      The button to reset the base so you can add another layer.
+      This button resets the base so that you can add another layer.
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
    The mask values are shown as gray-scale.
@@ -139,7 +139,7 @@ Strength
 
       If the range of strengths does not seem to fit the model
       (for example, if even the lowest strength setting still makes too large of a change on the model)
-      then you can scale the model (in *Edit Mode*, not *Object Mode*).
+      then you can scale the model (in Edit Mode, not Object Mode).
       Larger sizes will make the brush's effect smaller, and vice versa.
 
 Autosmooth
@@ -151,11 +151,11 @@ Normal Weight :kbd:`Ctrl`
 
    Applies to *Grab* and *Snake Hook* brushes.
 Use Original Normal (padlock icon)
-   When locked keeps using normal of the surface where stroke was initiated,
+   When locked it keeps using the normal of the surface where stroke was initiated,
    instead of the surface normal currently under the cursor.
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
-   In other words, the primary direction that the vertices movement takes place.
+   In other words, the primary direction that the vertices will move.
 
    Area Plane
       The movement takes place in the direction of average normal for all active vertices within the brush area.
@@ -169,8 +169,8 @@ Plane Offset
    shifts the plane that is found by averaging the faces above or below.
 Trim
    Ability to limit the distance that planar brushes act.
-   If trim is enabled then vertexes further away from the offset plane than the trim distance
-   are ignored when sculpting.
+   If trim is enabled vertices that are further away from the offset plane than
+   the trim distance are ignored during sculpting.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
 2D Falloff
@@ -195,7 +195,7 @@ Symmetry/Lock Panel
 Mirror
    Mirror the brush strokes across the selected local axes.
    Note that if you want to alter the directions the axes point in,
-   you must rotate the model in *Edit Mode* and not in *Object Mode*.
+   you must rotate the model in Edit Mode and not in Object Mode.
 Radial
    These settings allow for radial symmetry in the desired axes.
    The number determines how many times the stroke will be repeated within 360 degrees around the central axes.

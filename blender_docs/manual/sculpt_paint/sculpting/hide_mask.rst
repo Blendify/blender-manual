@@ -18,12 +18,12 @@ or by masking areas that can not be sculpted on.
 Hide
 ====
 
-Portions of the mesh can be hidden in *Sculpt Mode* to improve performance and
+Portions of the mesh can be hidden in Sculpt Mode to improve performance and
 to access parts of the mesh that would otherwise be difficult to access,
 because they are occluded by other parts.
 
 The hidden faces cannot be sculpted on.
-Hiding is shared between *Edit Mode* and *Sculpt Mode*
+Hiding is shared between Edit Mode and Sculpt Mode
 (i.e. hiding/unhiding in one mode affects the other mode too).
 
 Hide Bounding Box :kbd:`H`
@@ -67,13 +67,14 @@ Fill Mask
 Clear Mask :kbd:`Alt-M`
    Fills the mask with a value of 0. To completely remove the mask data see `Clearing Mask Data`_.
 Box Mask :kbd:`B`
-   Works like the *Border Select* tool, creates a rectangular mask region.
-   Hold :kbd:`Shift` to clear/unmask selected region.
+   Works like the *Border Select* tool, it creates a rectangular mask region.
+   Hold :kbd:`Shift` to clear the mask of the selected region.
 Lasso Mask :kbd:`Shift-Ctrl-LMB`
-   Used to create a free-form mask, like the *Lasso Select* tool does.
+   Can be used to create a free-form mask, similar to the *Lasso Select* tool.
 
    .. tip::
-      To unmask areas with the *Lasso Mask* tool, first invert the mask,
+
+      To clear the mask of areas with the *Lasso Mask* tool, first invert the mask,
       apply the *Lasso Mask*, and then invert the mask back.
 
 

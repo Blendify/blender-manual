@@ -80,7 +80,7 @@ Subframes
 .. Fluid only?
 
 Adaptive Subframes
-   Automatically set the number of subframes.
+   When this checkbox without a label is enabled Blender will automatically set the number of subframes.
 
    Threshold
       A tolerance value that allows the number of subframes to vary.
