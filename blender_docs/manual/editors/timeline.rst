@@ -111,7 +111,9 @@ Show Seconds :kbd:`Ctrl-T`
    Whether to show the time in the X axis and the *Time Cursor* as
    frames (based on the FPS) or as seconds.
 Lock Time to Other Windows
-   ToDo 2.71.
+   It synchronizes the horizontal panning and scale of the current editor
+   with the other editors (Graph, Dope Sheet, NLA) with this option set.
+   That way you always have these editors showing an identical part of the time you work on.
 Show Frame Number Indicator
    This will draw the current frame or seconds on the *Time Cursor*.
 Only Keyframes from Selected Channels
@@ -190,6 +192,7 @@ Clip Editors
 Follow
    Animation editors can be setup to always follow the time indicator as animation is being played back.
    Following will be done when animating and changing frame.
+   When the cursor reaches the end of the screen, then the next range of frames of the same width is displayed.
 Frame Dropping
    Play back dropping frames if frame display is too slow.
 AV-sync

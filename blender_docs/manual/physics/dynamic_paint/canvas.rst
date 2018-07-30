@@ -42,14 +42,18 @@ Format
    Image Sequences
       Dynamic Paint generates UV wrapped image files of defined resolution as output.
 
-Quality: Resolution
-   For image sequences -- From quality settings you can adjust the output image dimensions.
-Anti-aliasing
-   :term:`Anti-aliasing` smoothen paint edges using a 5x multisampling method.
-Frames: Start, End
-   Defines surface processing start and end frame.
-Sub-steps
-   Sub-steps are extra samples between frames, usually required when there is a very fast brush.
+Quality
+   Resolution
+      You can adjust the output image dimensions for the *Image Sequences* surface type.
+      For example using 256 will lead to 256x256 image output.
+      Doubling the resolution will likely quadruple baking time and vice versa.
+   Anti-aliasing
+      :term:`Anti-aliasing` smoothen paint edges using a 5x multisampling method.
+Frames
+   Start, End
+      Defines surface processing start and end frame.
+   Sub-steps
+      Sub-steps are extra samples between frames, usually required when there is a very fast brush.
 
 
 Advanced
@@ -108,6 +112,14 @@ Displace
 
 This type of surface outputs intersection depth from brush objects.
 
+Incremental
+   A new displace is added cumulatively on top of an existing displace.
+Max Displace
+   The maximum level of intersection depth, larger values will be clamped to this value.
+Displace Factor
+   The multiplier for the intersection depth.
+   You can use it to adjust final displace strength or use negative values to paint bumps.
+
 .. tip::
 
    If the displace output seems too rough it usually helps to add
@@ -140,6 +152,16 @@ Damping
    Reduces the wave strength over time. Basically adjusts how fast wave disappears.
 Spring
    Adjusts the force that pulls water back to "zero level".
+Smoothness
+   (Todo)
+
+   .. It greatly helps getting rid of that "noise" that occurs
+      if you use really steep objects (like cubes) as a brush.
+      New default value is 1.0 which is just high enough to only get rid of the sharpest spikes,
+      so if you want really smooth waves it's better use higher values.
+
+      TOOLTIP: Limit maximum steepness of wave slope between simulation points.
+      Use higher values for smoother waves at expense of reduced detail.
 
 .. tip::
 
@@ -171,7 +193,7 @@ For each surface type there are special settings to adjust.
 Most types have the settings *Dissolve* and *Brush*:
 
 Dissolve
-   Used to make the surface smoothly return to its original state during a defined time period.
+   Used to make the surface smoothly return to its original state during a defined *Time* period.
 Brush Group
    Used to define a specific object group to pick brush objects from.
 Influence Scale, Radius Scale
@@ -193,12 +215,15 @@ Output
 
 From Output panel you can adjust how surface outputs its results.
 
+Preview
+   Allows you to define the type of Dynamic Paint output (Paint or Wetmap) displayed in the 3D View.
+
 
 Vertex
 ------
 
 For *Vertex* format surfaces, you can select a mesh data layer
-(color / weight depending on surface type) to generate results to.
+(color/weight depending on surface type) to generate results to.
 You can use the "+"/"-" icons to add/remove a data layers of given name.
 If layer with given name is not found, it is shown as red.
 
@@ -219,7 +244,12 @@ Initial Color
    :Type:      Canvas
    :Panel:     :menuselection:`Physics --> Dynamic Paint Initial Color`
 
-ToDo 2.62.
+Allows you to define the initial color of the canvas. (Todo 2.62)
+
+- None
+- Color
+- UV Texture
+- Vertex Color
 
 
 Effects
@@ -237,6 +267,8 @@ Effects
 
 This is a special feature for "Paint" type surface.
 It generates animated movement on canvas surface.
+
+.. (TODO) each of these effects has its own settings
 
 Effects
    Spread
