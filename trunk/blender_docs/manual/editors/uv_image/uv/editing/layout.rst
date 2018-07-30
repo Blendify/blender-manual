@@ -191,7 +191,13 @@ Copy Mirrored UV Coordinates
    :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Copy Mirrored UV Coordinates`
    :Menu:      :menuselection:`UVs --> Copy Mirrored UV Coordinates`
 
-ToDo <2.57.
+Copies UVs from one side of the mirrored mesh to the other.
+Affects only selected (on both sides) vertices.
+
+Axis Direction
+   Positive/Negative
+Precision
+   Tolerance for finding vertex duplicates.
 
 
 Mirror
