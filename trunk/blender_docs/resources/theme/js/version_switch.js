@@ -272,9 +272,7 @@ $(document).ready(function() {
 	if(lang === undefined) {lang = $("#lang-dropdown").html().trim(); DOCUMENTATION_OPTIONS.LANGUAGE = lang;} //@
 	var n =  all_langs[lang];
 	if(n) {$("#lang-dropdown").html(n);}
-	//var lng_drop=new Drop("version-dropdown"); //@b
-	$("#version-dropdown").addClass("vdeact"); //@b
-	$("#version-dropdown").attr("title", "coming soon..."); //@b
+	var lng_drop=new Drop("version-dropdown");
 	var vsn_drop=new Drop("lang-dropdown");
 });
 })();
