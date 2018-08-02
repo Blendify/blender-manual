@@ -11,7 +11,7 @@ Force
 
 .. figure:: /images/physics_force-fields_types_force_visualzation.png
 
-   Force force field.
+   Force force field visualization.
 
 The *Force* field is the simplest of the fields. It gives a constant force towards
 (positive strength) or away from (negative strength) the object's center.
@@ -26,5 +26,9 @@ For :doc:`Boids Particles </physics/particles/emitter/physics/index>`
 a field with positive strength can be used as a *Goal*,
 a field with negative strength can be used as *Predator*.
 Whether *Boids* seek or fly goals/predators depends on the *Physics* settings of the Boids.
+
+
+Example
+=======
 
 .. vimeo:: 173807488

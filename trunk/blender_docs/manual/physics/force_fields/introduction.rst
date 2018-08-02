@@ -14,24 +14,11 @@ simply turn down the influence of that type of Force Field in its Field Weights 
 - All types of objects and particles can generate fields,
   but only curve object can bear *Curve Guides* fields.
 - Force Fields can also be generated from particles.
-  See :doc:`Particle Physics </physics/particles/emitter/physics/index>`
+  See :doc:`Particle Physics </physics/particles/emitter/physics/index>`.
 - The objects need to share at least one common layer to have an effect.
 
 You may limit the effect on particles to a group of objects
 (see the :doc:`Particle Physics </physics/particles/emitter/physics/index>` page).
-
-.. list-table:: Force field types
-
-   * - .. figure:: /images/physics_force-fields_introduction_empty.png
-
-     - .. figure:: /images/physics_force-fields_types_vortex_visualzation.png
-
-   * - .. figure:: /images/physics_force-fields_types_wind_visualzation.png
-
-     - .. figure:: /images/physics_force-fields_types_force_visualzation.png
-
-.. Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard-Jones,
-   Texture, Curve Guide, Boid, Turbulence, Drag, and Smoke Flow.
 
 
 Creating a Force Field
@@ -47,11 +34,22 @@ To create a single Force Field,
 you can select :menuselection:`Add --> Force Field` and select the desired force field.
 This method creates an Empty with the force field attached.
 
+.. list-table:: Examples of Empty with the force field attached.
+
+   * - .. figure:: /images/physics_force-fields_types_vortex_visualzation.png
+
+          Vortex force field.
+
+     - .. figure:: /images/physics_force-fields_types_wind_visualzation.png
+
+          Wind force field.
+
+     - .. figure:: /images/physics_force-fields_types_force_visualzation.png
+
+          Force force field.
+
 To create a field from an existing object you have to select the object and
 change to the *Physics* tab. Select the field type in the *Fields* menu.
-
-The fields have many options in common,
-these common options are explained for the *Spherical* field.
 
 .. note::
 
@@ -61,7 +59,7 @@ these common options are explained for the *Spherical* field.
    with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
 
    Particles react to all kinds of *Force Fields*,
-   soft bodies only to *Spherical*, *Wind*, *Vortex*
+   soft bodies only to *Force*, *Wind*, *Vortex*
    (they react on *Harmonic* fields but not in a useful way).
 
 
@@ -73,30 +71,38 @@ Settings unique to a field type are described below.
 Curve Guide and Texture Fields have very different options.
 
 Shape
-   The field is either a:
+   Sets direction is used to calculate the effector force.
+   For a force field from an empty object are available only *Point* and *Plane* shapes,
+   as for a field from an existing 3D-object are appear additionally *Surface* and *Every Point*,
+   and *Curve* for a field from a curve.
 
    Point
       Point with omni-directional influence.
+      Uses the object origin as the effector point.
    Plane
-      Constant in the XY plane, changes only in Z direction.
+      Influence only in local Z direction.
    Surface
-      ToDo.
+      The force field acts on a 3D object's surface.
+      In this case, the Z axis is the surface normal.
    Every Point
-      ToDo.
+      Uses every vertex in the mesh object as an effector point.
+   Curve
+      The force field acts along a curve object.
 Strength
    The strength of the field effect.
    This can be positive or negative to change the direction that the force operates in.
    A force field's strength is scaled with the force object's scale,
    allowing you to scale up and down the scene, keeping the same effects.
 Flow
-   Convert effector force into air flow velocity.
+   If non-zero, the effective force depends on the particle velocity.
+   The value defines how quickly the effector force (accelerating)
+   will be converted into the constant "air flow" velocity.
 Noise
    Adds noise to the strength of the force.
 Seed
    Changes the seed of the random noise.
 Effect Point
    You can toggle the field's effect on particle *Location* and *Rotation*.
-
 Collision Absorption
    Force gets absorbed by collision objects.
 
@@ -118,13 +124,12 @@ Falloff Type
       The falloff results in a cone-shaped force field. Additional options are the same as those of *Tube* options.
 
 Z Direction
-   The falloff can be set to apply only in the direction of the positive Z axis, negative Z axis, or both.
-Power (Power)
+   The force can be set to apply only in the direction of the positive Z axis, negative Z axis, or both.
+Power
    How the power of the force field changes with the distance from the force field.
-   If *r* is the distance from the center of the object, the force changes with 1/ *r*\ :sup:`power`.
-   A falloff of 2 changes the force field with 1/ *r*\ :sup:`2`,
+   If *r* is the distance from the center of the object, the force changes with 1/*r*\ :sup:`power`.
+   A falloff of 2 changes the force field with 1/*r*\ :sup:`2`,
    which is the falloff of gravitational pull.
-
 Max Distance
    Makes the force field affect other objects only within a specified maximum radius
    (shown by an additional circle around the object).

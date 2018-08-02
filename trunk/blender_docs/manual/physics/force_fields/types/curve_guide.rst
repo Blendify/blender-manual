@@ -9,10 +9,6 @@ Curve Guide
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Curve Guide
 
-.. figure:: /images/physics_force-fields_types_curve-guide_example.png
-
-   Curve Guide force field.
-
 The *Curve Guide* is used to force particles to follow a certain
 path defined by a :doc:`Curve Object </modeling/curves/index>`.
 A typical scenario would be to move a red blood cell inside a vein,
@@ -90,7 +86,11 @@ Shape
 Kink
 ----
 
-Changes the shape that the particles can take:
+.. warning::
+
+   This feature is broken in the current version, see T46776.
+
+Changes the shape that the particles can take.
 
 Type
    Curl
@@ -113,7 +113,7 @@ It is not so easy to describe the resulting shapes, so have a look at the exampl
    `Animation <https://vimeo.com/1866538>`__.
 
 Axis
-   ToDo.
+   Which axis to use for offset.
 Frequency
    The frequency of the offset.
 Amplitude
@@ -122,7 +122,13 @@ Shape
    Adjust the offset to the beginning/end.
 
 
-Example
-=======
+Examples
+========
 
 .. vimeo:: 182780872
+
+.. figure:: /images/physics_force-fields_types_curve-guide_example.png
+   :align: center
+   :width: 560px
+
+   Curve Guide force field.

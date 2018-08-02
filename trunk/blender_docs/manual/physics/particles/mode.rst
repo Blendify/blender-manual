@@ -210,7 +210,10 @@ Keep
    Root
       Keep first key unmodified, so you cannot transplant hair.
 Correct
-   ToDo.
+   Velocity
+      Recalculate velocities of particles according to their edited paths.
+      Otherwise, the original velocities values remains unchanged
+      regardless of the actual distance that the particles passes.
 X Mirror
    Enable mirror editing across the local X axis.
 Shape Object
@@ -238,9 +241,13 @@ Draw
 
 Path Steps
    Drawing steps, sets the smoothness of the drawn path.
+Particles
+   Draws actual particles on top of the paths.
 Fade Time
+   Fade paths and keys further away from current time.
+
    Frames
-      ToDo.
+      How many frames to fade.
 Show Children
    Draws the children of the particles too.
    This allows to fine-tune the particles and see their effects on the result,

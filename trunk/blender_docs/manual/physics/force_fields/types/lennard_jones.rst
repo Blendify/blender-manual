@@ -9,10 +9,6 @@ Lennard-Jones
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Lennard-Jones
 
-.. figure:: /images/physics_force-fields_introduction_empty.png
-
-   Lennard-Jones force field.
-
 The *Lennard-Jones* force field is a very short range force with a behavior determined by the sizes of the effector
 and effected particle. At a distance smaller than the combined sizes, the field is very
 repulsive and after that distance it is attractive.
@@ -25,5 +21,9 @@ which is probably something for the nuclear physicists among us.
 .. figure:: /images/physics_force-fields_types_lennard-jones_panel.png
 
    UI for a Lennard-Jones force field.
+
+
+Example
+=======
 
 .. vimeo:: 182775330

@@ -9,10 +9,6 @@ Texture
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Texture
 
-.. figure:: /images/physics_force-fields_introduction_empty.png
-
-   Texture force field.
-
 You can use a *Texture* force field to create an arbitrarily complicated force field,
 which force in the three directions is color coded. Red is coding for the X axis,
 green for the Y axis and blue for the Z axis

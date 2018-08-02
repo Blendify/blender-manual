@@ -9,10 +9,6 @@ Boid
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Boid
 
-.. figure:: /images/physics_force-fields_introduction_empty.png
-
-   Boid force field.
-
 Boid probably comes from theoretical works. *Boids* is an artificial life program,
 developed by Craig Reynolds in 1986, which simulates the flocking behavior of birds.
 His paper on this topic was published in 1987 in the proceedings of the ACM SIGGRAPH conference.
