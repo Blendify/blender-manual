@@ -17,7 +17,7 @@ Smoke and fire are emitted into a :doc:`Domain </physics/smoke/types/domain>`
 from a mesh object or particle system. Smoke movement is controlled by airflow inside the domain,
 which can be influenced by :doc:`smoke collision objects </physics/smoke/types/collision>`.
 Smoke will also be affected by the scene's gravity and :doc:`force fields </physics/force_fields/index>`.
-Airflow inside the domain can affect other physics simulations via the smoke flow force field.
+Airflow inside the domain can affect other physics simulations via the *Smoke Flow* force field.
 
 
 Workflow

@@ -16,19 +16,24 @@ You can also negate the effect of each vertex group with the checkboxes.
 You can affect the following attributes:
 
 Density
-   Defines the "density" of the particle distribution.
+   Defines the density of the particle distribution.
 Length
-   Defines the "length" of the particle distribution.
+   Defines the length of the hair.
 Clump
-   Todo.
+   Controls amount of clumping.
+   The weight of 1.0 gives current *Clump* value, weight of 0.0 completely removes effect.
 Kink
-   Todo.
+   Controls frequency of the children Kink.
 Roughness 1
-   Uniform.
+   Adjusts the Roughness: *Uniform* parameter.
 Roughness 2
-   Random.
+   Adjusts the Roughness: *Random* parameter.
 Roughness End
-   Endpoint.
+   Adjusts the Roughness: *Endpoint* parameter.
+Twist
+   Vertex group to control children's *Twist* effect.
+   Gives a control over direction of twist and amount of twist as well.
+   The weight of 0.5 is neutral, i.e. there is no twist effect.
 
 
 Examples

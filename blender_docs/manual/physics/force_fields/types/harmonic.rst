@@ -9,10 +9,6 @@ Harmonic
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Harmonic
 
-.. figure:: /images/physics_force-fields_introduction_empty.png
-
-   Harmonic force field.
-
 In a *Harmonic* force field,
 the source of the force field is the zero point of a harmonic oscillator (spring, pendulum).
 If you set the *Damping* parameter to 1,

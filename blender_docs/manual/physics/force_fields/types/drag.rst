@@ -9,10 +9,6 @@ Drag
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Drag
 
-.. figure:: /images/physics_force-fields_introduction_empty.png
-
-   Drag force field.
-
 A *Drag* force field resists particle motion by slowing it down.
 
 

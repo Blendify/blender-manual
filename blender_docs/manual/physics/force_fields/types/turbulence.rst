@@ -9,10 +9,6 @@ Turbulence
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Turbulence
 
-.. figure:: /images/physics_force-fields_introduction_empty.png
-
-   Turbulence force field.
-
 A *Turbulence* force field creates a random & chaotic 3D noise effect,
 similar to jets of water or geysers under the ocean.
 
