@@ -39,7 +39,7 @@ of the basic geometric strand model. This means constructing a regular grid such
 fluid simulations and interpolating hair properties between the grid cells.
 
 Air Drag
-   Controls how thick the hair is around the hair causing the hair to flow slower.
+   Controls how thick the air is around the hair causing the hair to flow slower.
 Internal Friction
    Amount of friction between individual hairs.
 

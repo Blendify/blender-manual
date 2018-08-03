@@ -20,19 +20,19 @@ Density
 Length
    Defines the length of the hair.
 Clump
-   Controls amount of clumping.
+   Controls the amount of clumping.
    The weight of 1.0 gives current *Clump* value, weight of 0.0 completely removes effect.
 Kink
-   Controls frequency of the children Kink.
+   Controls the frequency of the children Kink.
 Roughness 1
-   Adjusts the Roughness: *Uniform* parameter.
+   Adjusts the *Uniform* roughness parameter.
 Roughness 2
-   Adjusts the Roughness: *Random* parameter.
+   Adjusts the *Random* roughness parameter.
 Roughness End
-   Adjusts the Roughness: *Endpoint* parameter.
+   Adjusts the *Endpoint* roughness parameter.
 Twist
-   Vertex group to control children's *Twist* effect.
-   Gives a control over direction of twist and amount of twist as well.
+   Vertex group to control the children's *Twist* effect.
+   Gives control over the direction of the twist, as well as the amount.
    The weight of 0.5 is neutral, i.e. there is no twist effect.
 
 

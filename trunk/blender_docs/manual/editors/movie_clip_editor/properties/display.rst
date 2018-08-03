@@ -15,7 +15,7 @@ Mute (eye icon) :kbd:`M`
    Changes displaying on movie frame itself with black square,
    It helps to find tracks which are tracked inaccurately or which were not tracked at all.
 Render Undistorted
-   Applies the *Lens Distortion* settings to the viewport image to show undistorted footage.
+   Applies the *Lens Distortion* settings to the viewport image in order to display the footage undistorted.
    It is only a preview option, which does not actually change the footage itself.
 Lock to Selection :kbd:`L`
    Makes the editor display selected tracks at the same screen position

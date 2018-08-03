@@ -36,7 +36,7 @@ Options
 -------
 
 Clear Delta
-   Clear the :ref:`delta transform <transform-delta>` in addition to clearing the "normal" transform.
+   Clear the :ref:`delta transform <transform-delta>` in addition to clearing the primary transforms.
    (Appears in the Operator panel.)
 
 
@@ -64,7 +64,7 @@ Applying transform values essentially resets the values of object's location, ro
 while visually keeping the object data in-place.
 The object origin point is moved to the global origin, to rotation is cleared and scale values are set to 1.
 
-For simple cases you wont notice any difference the *3D View* or rendered output,
+For simple cases you won't notice any difference the 3D View or rendered output,
 however modifiers and constraints may depend on object transformation.
 
 .. warning:: Armature Objects
@@ -73,7 +73,7 @@ however modifiers and constraints may depend on object transformation.
    this does **not** apply to their pose location, animation curves or constraints.
    This tool should be used before rigging and animation.
 
-When running *Apply Transform* the *Operator* panel lets you choose the combination of transformations to apply.
+When running *Apply Transform* the Operator panel lets you choose the combination of transformations to apply.
 
 
 Options
@@ -111,7 +111,7 @@ Transforms to Deltas
    :Menu:      :menuselection:`Object --> Apply -->`
    :Hotkey:    :kbd:`Shift-Alt-G`, :kbd:`Shift-Alt-R`, and :kbd:`Shift-Alt-S`
 
-Converts "normal" object transformations to :ref:`delta transforms <transform-delta>`,
+Converts absolute object transformations to :ref:`delta transforms <transform-delta>`,
 any existing delta transforms will be included as well.
 
 - Location to Deltas :kbd:`Shift-Alt-G`
@@ -119,9 +119,9 @@ any existing delta transforms will be included as well.
 - Scale to Deltas :kbd:`Shift-Alt-S`
 
 All Transforms to Deltas
-   Converts all "normal" transformations to delta transforms.
+   Converts all primary transformations to delta transforms.
 Animated Transform to Deltas
-   Converts the "normal" transformation animations
+   Converts the primary transformation animations
    (animations done to the translation, scale, and, rotation values) to delta transforms.
 
 
@@ -129,7 +129,7 @@ Options
 ^^^^^^^
 
 Reset Values
-   Clear "normal" transform values after transferring to deltas.
+   Clear primary transform values after transferring to deltas.
 
 
 .. _bpy.ops.object.visual_transform_apply:

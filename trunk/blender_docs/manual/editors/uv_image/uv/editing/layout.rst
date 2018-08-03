@@ -192,7 +192,7 @@ Copy Mirrored UV Coordinates
    :Menu:      :menuselection:`UVs --> Copy Mirrored UV Coordinates`
 
 Copies UVs from one side of the mirrored mesh to the other.
-Affects only selected (on both sides) vertices.
+Affects only selected vertices (on both sides).
 
 Axis Direction
    Positive/Negative

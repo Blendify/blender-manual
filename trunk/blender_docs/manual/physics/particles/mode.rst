@@ -213,7 +213,7 @@ Correct
    Velocity
       Recalculate velocities of particles according to their edited paths.
       Otherwise, the original velocities values remains unchanged
-      regardless of the actual distance that the particles passes.
+      regardless of the actual distance that the particles moves.
 X Mirror
    Enable mirror editing across the local X axis.
 Shape Object
@@ -244,7 +244,7 @@ Path Steps
 Particles
    Draws actual particles on top of the paths.
 Fade Time
-   Fade paths and keys further away from current time.
+   Fade out paths and keys further away from current time.
 
    Frames
       How many frames to fade.

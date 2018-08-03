@@ -31,7 +31,7 @@ Strength
    What that means exactly also depends on the Brush Blending mode.
 Blend
    The brush :term:`Blend Modes` defines in which way the weight value is applied to the Vertex Group while painting.
-   In addition, here you can select the *Blur* mode.
+   In addition, here you can select the *Blur* or *Smear* mode.
 
    .. tip::
 

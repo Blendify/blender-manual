@@ -83,7 +83,7 @@ often *Empty* objects are used for that.
 You can use some of the forces on soft body vertices as on *Particles*.
 Soft bodies react only to:
 
-- Spherical
+- Force
 - Wind
 - Vortex
 
@@ -92,7 +92,7 @@ So if you use a *Harmonic* field for particles move the soft body to another lay
 
 See the section :doc:`Force Fields </physics/force_fields/index>` for details.
 The force fields are quite strong,
-a *Spherical* field with a strength of -1.0 has the same effect that gravity has --
+a *Force* field with a strength of -1.0 has the same effect that gravity has --
 approximately -- a force of 10 Newtons.
 
 

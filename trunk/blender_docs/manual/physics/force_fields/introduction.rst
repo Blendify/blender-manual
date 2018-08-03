@@ -71,16 +71,16 @@ Settings unique to a field type are described below.
 Curve Guide and Texture Fields have very different options.
 
 Shape
-   Sets direction is used to calculate the effector force.
-   For a force field from an empty object are available only *Point* and *Plane* shapes,
-   as for a field from an existing 3D-object are appear additionally *Surface* and *Every Point*,
+   Sets the direction which is used to calculate the effector force.
+   For force fields from an empty object only *Point* and *Plane* shapes are available,
+   as for a field from a 3D object there are additional *Surface* and *Every Point* options,
    and *Curve* for a field from a curve.
 
    Point
       Point with omni-directional influence.
       Uses the object origin as the effector point.
    Plane
-      Influence only in local Z direction.
+      Influence only in the local Z direction.
    Surface
       The force field acts on a 3D object's surface.
       In this case, the Z axis is the surface normal.
@@ -95,7 +95,7 @@ Strength
    allowing you to scale up and down the scene, keeping the same effects.
 Flow
    If non-zero, the effective force depends on the particle velocity.
-   The value defines how quickly the effector force (accelerating)
+   The value defines how quickly the effector force (acceleration)
    will be converted into the constant "air flow" velocity.
 Noise
    Adds noise to the strength of the force.
