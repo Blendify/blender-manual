@@ -45,15 +45,15 @@ Format
 Quality
    Resolution
       You can adjust the output image dimensions for the *Image Sequences* surface type.
-      For example using 256 will lead to 256x256 image output.
-      Doubling the resolution will likely quadruple baking time and vice versa.
+      For example using 256 will lead to 256×256 image output.
+      Doubling the resolution will likely quadruple the baking time and vice versa.
    Anti-aliasing
-      :term:`Anti-aliasing` smoothen paint edges using a 5x multisampling method.
+      :term:`Anti-aliasing` to smooth paint edges using a 5× multisampling method.
 Frames
    Start, End
       Defines surface processing start and end frame.
    Sub-steps
-      Sub-steps are extra samples between frames, usually required when there is a very fast brush.
+      Sub-steps are extra samples between frames. They are usually required when there is a very fast brush.
 
 
 Advanced
@@ -155,10 +155,10 @@ Spring
 Smoothness
    (Todo)
 
-   .. It greatly helps getting rid of that "noise" that occurs
-      if you use really steep objects (like cubes) as a brush.
-      New default value is 1.0 which is just high enough to only get rid of the sharpest spikes,
-      so if you want really smooth waves it's better use higher values.
+   .. (wip) It greatly helps getting rid of the "noise" that occurs
+      if you use a really steep objects (like cubes) as a brush.
+      The new default value is 1.0 which is just high enough to only get rid of the sharpest spikes,
+      so if you want a really smooth waves it's better to use higher values.
 
       TOOLTIP: Limit maximum steepness of wave slope between simulation points.
       Use higher values for smoother waves at expense of reduced detail.

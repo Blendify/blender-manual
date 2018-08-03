@@ -113,7 +113,7 @@ It is not so easy to describe the resulting shapes, so have a look at the exampl
    `Animation <https://vimeo.com/1866538>`__.
 
 Axis
-   Which axis to use for offset.
+   Which axis to use for the offset.
 Frequency
    The frequency of the offset.
 Amplitude

@@ -35,8 +35,8 @@ Main
 ----
 
 Boids try to avoid objects with activated Deflection.
-They try to reach objects with positive Spherical fields,
-and fly from objects with negative Spherical fields.
+They try to reach objects with positive Force fields,
+and fly from objects with negative Force fields.
 The objects have to share one common layer to have an effect.
 It is not necessary to render this common layer, so you may use invisible influences.
 
@@ -140,19 +140,19 @@ Boids will try to avoid deflector objects according to the Collision rule's weig
 It works best for convex surfaces (some work needed for concave surfaces).
 
 
-Spherical Fields
-^^^^^^^^^^^^^^^^
+Force Fields
+^^^^^^^^^^^^
 
-For boid physics, Spherical fields define the way the objects having the field are seen by others.
-So a negative Spherical field (on an object or a particle system)
+For boid physics, spherical force fields define the way the objects having the field are seen by others.
+So a negative force field (on an object or a particle system)
 will be a predator to all other boids particle systems,
 and a positive field will be a goal to all other boids particle systems.
 
 These effectors could be predators (negative Strength)
 that boids try to avoid or targets (positive Strength)
 that boids try to reach according to the (respectively) Avoid and Goal rules' weights.
-Spherical's effective Strength is multiplied by the actual relevant weight
-(e.g. if either Strength or Goal is null, then a flock of boids will not track a positive Spherical field).
+Force's effective Strength is multiplied by the actual relevant weight
+(e.g. if either Strength or Goal is null, then a flock of boids will not track a positive force field).
 
 
 Boid Brain
@@ -173,12 +173,12 @@ The rules are by default parsed from top-list to bottom-list
 and the order can be modified using the little arrows buttons on the right side.
 
 Goal
-   Seek goal (objects with Spherical fields and positive Strength).
+   Seek goal (objects with a force field and positive Strength).
 
    Predict
       Predict target's movements.
 Avoid
-   Avoid "predators" (objects with Spherical fields and negative Strength).
+   Avoid "predators" (objects with force fields and negative Strength).
 
    Predict
       Predict target's movements.

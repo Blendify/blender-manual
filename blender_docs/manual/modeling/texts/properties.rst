@@ -302,7 +302,7 @@ Offset
 ------
 
 X offset and Y offset
-   Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
+   These settings control the X and Y offset of the text, regarding its relative positioning. Note that with
    `Text Boxes`_, it applies to all frames' content.
 
 

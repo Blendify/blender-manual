@@ -105,4 +105,4 @@ Usage
 -----
 
 Delta Transforms are particularly useful in animations. For example,
-you can animate an object with the "normal" transforms then move them around with Delta Transforms.
+you can animate an object with the primary transforms then move them around with Delta Transforms.
