@@ -14,6 +14,16 @@ Particle Info Node
 The *Particle Info* node is for objects instanced from a :doc:`Particle System </physics/particles/index>`.
 This node gives access to the data of the particle that spawned the instance.
 
+.. (wip) T54277
+
+   The *Particle Info* node can be used in the material node tree for objects that are used as the Dupli Objects,
+   when you use *Object* or *Group* :doc:`Render mode </physics/particles/emitter/render>` of a Particle System.
+
+   (this means ONLY in material of Dupli Objects for Object/Group render mode)
+
+   This node gives access to the data of the particle that spawned the object instance.
+   It can be useful to give some variation to a single material assigned to multiple instances.
+
 .. note::
 
    This node currently only supports parent particles. Info from child particles is not available.
