@@ -10,6 +10,10 @@ Render
 
 The Render Panel controls how particles appear when they are rendered.
 
+.. (TODO ADD) warning::
+
+   Cycles support only Object and Group render types. (T48467)
+
 Material Index
    Set which of the object's materials is used to shade the particles.
 Parent
