@@ -13,3 +13,4 @@ but here we will focus on file/asset management and data I/O.
 
    bam.rst
    alembic.rst
+   collada.rst
