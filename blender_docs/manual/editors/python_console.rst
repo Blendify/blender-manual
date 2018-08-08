@@ -111,7 +111,7 @@ Change only the X, Y components::
 
    bpy.context.object.location.xy = (1, 2)
 
-Data type of objects location::
+Data type of object's location::
 
    type(bpy.context.object.location)
 
