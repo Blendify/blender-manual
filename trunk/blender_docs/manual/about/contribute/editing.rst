@@ -59,7 +59,7 @@ support channel at ``#blender`` :ref:`IRC channel <irc-channels>`.
 
 Blender itself has a system of module owners with developer and artist members who are
 responsible for the design and maintenance of the assigned Blender areas.
-See the `module owners page <https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List>`__
+See the `module owners page <https://wiki.blender.org/wiki/Process/Module_Owners/List>`__
 for more information.
 
 
