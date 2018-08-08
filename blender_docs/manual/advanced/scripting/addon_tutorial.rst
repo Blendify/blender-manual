@@ -578,7 +578,7 @@ Here are some sites you might like to check on after completing this tutorial.
   *For more background details on Blender/Python integration.*
 - `How to Think Like a Computer Scientist <http://interactivepython.org/courselib/static/thinkcspy/index.html>`__ --
   *Great info for those who are still learning Python.*
-- `Blender Development (Wiki) <https://wiki.blender.org/index.php/Dev:Contents>`__ --
+- `Blender Development (Wiki) <https://wiki.blender.org>`__ --
   *Blender Development, general information and helpful links.*
 - `Blender Artists (Coding Section) <https://blenderartists.org/forum/forumdisplay.php?47-Coding>`__ --
   *forum where people ask Python development questions.*
