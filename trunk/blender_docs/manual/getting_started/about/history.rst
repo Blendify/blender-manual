@@ -148,7 +148,7 @@ Version/Revision Milestones
    The Apricot release, cool GLSL shaders, lights and GE improvements, snap, sky simulator, shrinkwrap
    modifier, and Python editing improvements.
    This was the release following `Project Apricot <https://apricot.blender.org/>`__.
-`2.49 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.49>`__ -- June 2009:
+`2.49 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.49>`__ -- June 2009:
    Node-based textures, armature sketching (called Etch-a-Ton), boolean mesh operation improvements,
    JPEG2000 support, projection painting for direct transfer of images to models, and a significant Python
    script catalog. GE enhancements included video textures, where you can play movies in-game, upgrades
@@ -173,78 +173,78 @@ Version/Revision Milestones
 
 .. rubric:: Blender 2.6x to 2.7x -- Improvements & Stabilizing
 
-`2.60 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.60>`__ -- October 2011:
+`2.60 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.60>`__ -- October 2011:
    Internationalization of the UI, improvements in animation system and the GE,
    vertex weight groups modifiers, 3D audio and video, and bug fixes.
-`2.61 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.61>`__ -- December 2011:
+`2.61 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.61>`__ -- December 2011:
    The Cycles renderer was added in trunk, the camera tracker was added, dynamic paint for modifying textures
    with mesh contact/approximation, the Ocean modifier to simulate ocean and foam, new add-ons, bug fixes,
    and more extensions added for the Python API.
-`2.62 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.62>`__ -- February 2012:
+`2.62 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.62>`__ -- February 2012:
    The `Carve library <https://code.google.com/archive/p/carve/>`__ was added to improve boolean operations,
    support for object tracking was added, the Remesh modifier was added, many improvements in the GE,
    matrices and vectors in the Python API were improved, new add-ons, and many bug fixes.
-`2.63 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.63>`__ -- April 2012:
+`2.63 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.63>`__ -- April 2012:
    Bmesh was merged to trunk with full support for n-sided polygons, sculpt hiding, a panoramic camera
    for Cycles, mirror ball environment textures and float precision textures, render layer mask layers,
    ambient occlusion and viewport display of background images and render layers,
    new import and export add-ons were added, and 150 bug fixes.
-`2.64 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.64>`__ -- October 2012:
+`2.64 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.64>`__ -- October 2012:
    Mask editor, improved motion tracker, OpenColorIO, Cycles improvements, Sequencer improvements,
    better mesh tools (Inset and Bevel were improved), new keying nodes, sculpt masking, Collada improvements,
    new skin modifier, new compositing nodes back end, and many bugs were fixed.
-`2.65 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.65>`__ -- December 2012:
+`2.65 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.65>`__ -- December 2012:
    Fire and smoke improvements, anisotropic shader for Cycles, modifier improvements,
    the Bevel tool now includes rounding, new add-ons, and over 200 bug fixes.
-`2.66 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.66>`__ -- February 2013:
+`2.66 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.66>`__ -- February 2013:
    Dynamic topology, rigid body simulation, improvements in UI and
    usability (including retina display support), Cycles now supports hair,
    the Bevel tool now supports individual vertex beveling,
    new :doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>` modifier and
    the new :doc:`UV Warp </modeling/modifiers/modify/uv_warp>` modifier,
    new SPH particle fluid solver. More than 250 bug fixes.
-`2.67 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67>`__ -- May 2013:
+`2.67 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.67>`__ -- May 2013:
    Freestyle was added, paint system improvements, subsurface scattering for Cycles, Ceres library
    in the motion tracker, new custom Python nodes, new mesh modeling tools, better support for UTF-8 text and
    improvements in Text editors, new add-ons for 3D printing, over 260 bug fixes.
-`2.68 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.68>`__ -- July 2013:
+`2.68 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.68>`__ -- July 2013:
    New and improved modeling tools, three new Cycles nodes, big improvements in the motion tracker,
    Python scripts and drivers are disabled by default when loading files for security reasons,
    and over 280 bug fixes.
-`2.69 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.69>`__ -- October 2013:
+`2.69 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.69>`__ -- October 2013:
    Even more modeling tools, Cycles improved in many areas, plane tracking is added to the motion tracker,
    better support for FBX import/export, and over 270 bugs fixed.
-`2.70 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.70>`__ -- March 2014:
+`2.70 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.70>`__ -- March 2014:
    Cycles gets basic volumetric support on the CPU, more improvements to the motion tracker, two new modeling
    modifiers, some UI consistency improvements, and more than 560 bug fixes.
-`2.71 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.71>`__ -- June 2014:
+`2.71 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.71>`__ -- June 2014:
    Deformation motion blur and fire/smoke support is added to Cycles, UI pop-ups are now draggable,
    performance optimizations for sculpting mode, new interpolation types for animation, many improvements
    to the GE, and over 400 bug fixes.
-`2.72 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.72>`__ -- October 2014:
+`2.72 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.72>`__ -- October 2014:
    Cycles gets volume and SSS support on the GPU, pie menus are added and tooltips greatly improved,
    the Intersection modeling tool is added, new sun beam node for the compositor, Freestyle now works with
    Cycles, texture painting workflow is improved, and more than 220 bug fixes.
-`2.73 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73>`__ -- January 2015:
+`2.73 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.73>`__ -- January 2015:
    Cycles gets improved volumetric support, major upgrade to Grease pencil,
    MS-Windows gets Input Method Editors (IMEs)
    and general improvements to painting, Freestyle, Sequencer and add-ons.
-`2.74 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.74>`__ -- March 2015:
+`2.74 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.74>`__ -- March 2015:
    Support for custom-normals, viewport compositing and improvements to hair dynamics.
-`2.75 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.75>`__ -- July 2015:
+`2.75 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.75>`__ -- July 2015:
    Integrated stereo/multi-view pipeline, corrective smooth modifier and new developmental dependency graph.
-`2.76 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76>`__ -- November 2015:
+`2.76 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.76>`__ -- November 2015:
    Pixar OpenSubdiv support, Viewport and File Browser performance boost,
    node auto-offset, and a text effect strip for the Sequencer.
-`2.77 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.77>`__ -- March 2016:
+`2.77 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.77>`__ -- March 2016:
    OpenVDB support for caching for smoke/volumetric simulations, improved Cycles Subsurface Scattering,
    Grease pencil stroke sculpting and improved workflow,
    and reworked library handling to manage missing and deleted data-blocks.
-`2.78 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.78>`__ -- September 2016:
+`2.78 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.78>`__ -- September 2016:
    Cycles support for spherical stereo images for VR,
    Grease Pencil works more similar to other 2D drawing softwares,
    Alembic import and export support, and improvements to Bendy Bones for easier and simpler rigging.
-`2.79 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.79>`__ -- September 2017:
+`2.79 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.79>`__ -- September 2017:
    New Cycles features: Denoising, Shadow catcher, and new Principled shader.
    Other improvements were made to Grease Pencil and Alembic. Support was also added for application templates.
 

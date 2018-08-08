@@ -106,7 +106,7 @@ As a result performance of the modifier will be much higher which is great for a
 .. seealso::
 
    To find more on OpenSubdiv read
-   the `Release Notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76/OpenSubdiv>`__.
+   the `Release Notes <https://wiki.blender.org/wiki/Reference/Release_Notes/2.76/OpenSubdiv>`__.
 
 
 Improving Performance
