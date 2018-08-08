@@ -3,26 +3,20 @@
 Introduction
 ************
 
-.. _fig-softbody-intro-cloth:
+Soft body simulation is used for simulating soft deformable objects. It was
+designed primarily for adding secondary motion to animation, like jiggle
+for body parts of a moving character.
 
-.. figure:: /images/physics_soft-body_introduction_hidden-text.jpg
-   :width: 600px
+It also works for simulating more general soft objects that bend, deform and
+react to forces like gravity and wind, or collide with other objects.
 
-   A soft body cloth uncovering a text.
+While it can simulate cloth and other stiff types of deformable objects to an
+extent, the :doc:`Cloth Simulation </physics/cloth/index>` can do it better
+with a solver specifically designed for this purpose.
 
-   `Animation video <https://vimeo.com/1865528>`__ and
-   `blend-file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__.
 
-A soft body in general, is a simulation of a soft or rigid deformable object.
-It is useful for everything that tends to bend, deform,
-in reaction to forces like gravity or wind, or when colliding with other objects.
-
-In Blender, this system is best for simple cloth objects and closed meshes e.g. for skin or rubber.
-There is dedicated :doc:`Cloth Simulation </physics/cloth/index>` physics that use a different solver,
-and is better for cloth.
-
-This simulation is done by applying forces to the vertices or control points of the object.
-There are exterior forces like gravity or force fields and
+The simulation works by combining existing animation on the object with forces
+acting on it. There are exterior forces like gravity or force fields and
 interior forces that hold the vertices together.
 This way you can simulate the shapes that an object would take on in reality if it had volume,
 was filled with something, and was acted on by real forces.
@@ -50,18 +44,15 @@ Typical Scenarios for using Soft Bodies
 
 Soft bodies are well suited for:
 
-- Elastic objects with or without collision.
-- Flags, fabric reacting to forces.
-- Certain modeling tasks, like a cushion or a table cloth over an object.
-- Blender has another simulation system for clothing (see :doc:`Clothes </physics/cloth/index>`).
-  But you can sometimes use soft bodies for certain parts of clothing, like wide sleeves.
-- Hair (as long as you minimize collision).
-- Animation of swinging ropes, chains and the like.
+- Jiggle on moving characters.
+- Elastic and deformable objects made of materials like rubber or gelatin.
+- Tree branches moving in the wind, swining ropes, and the like.
+- Flags, wide sleeves, cushions or other simple fabric reacting to forces.
 
 The following videos may give you some more ideas:
 
+- https://www.youtube.com/watch?v=hLnY-OFUBzM
 - https://www.youtube.com/watch?v=qdusMZlBbQ4
-- https://www.youtube.com/watch?v=3du8ksOm9Fo&hl
 
 
 Creating a Soft Body
@@ -219,7 +210,7 @@ Tips
   (see the animation of Fig. :ref:`fig-softbody-intro-cone`).
 - The calculation of collisions may take a long time. If something is not visible, why calculate it?
 - To speed up the collision calculation it is often useful to collide with an additional,
-  simpler, invisible, somewhat larger object (see the example to Fig. :ref:`fig-softbody-intro-cloth`).
+  simpler, invisible, somewhat larger object.
 - Use soft bodies only where it makes sense.
   If you try to cover a body mesh with a tight piece of cloth and animate solely with soft body,
   you will have no success. Self-collision of soft body hair may be activated,
