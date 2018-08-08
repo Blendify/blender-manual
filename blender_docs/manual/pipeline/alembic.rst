@@ -26,7 +26,7 @@ read it back quickly & efficiently. This means that a mesh can be animated with 
 with only moderate CPU usage.
 
 Support for the Alembic file format was introduced in
-`Blender 2.78 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.78>`__.
+`Blender 2.78 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.78>`__.
 
 Due to the Open Source nature of the Alembic standard as well as
 the C++ library implementing that standard, **Blender can be used in a hybrid pipeline**.
