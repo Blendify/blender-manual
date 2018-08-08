@@ -41,5 +41,5 @@ foundation (at) blender (dot) org
 
 
 Previous versions of the Blender Manual are made available under
-a `Open Content License <https://wiki.blender.org/index.php/BlenderWiki:Copyrights#Open_Content_License>`__
+a `Open Content License <https://web.archive.org/web/19981206111937/http://www.opencontent.org/opl.shtml>`__
 v2.26 -- v2.77.
