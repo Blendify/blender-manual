@@ -161,7 +161,6 @@ Fractal
           Fractal created with multiple arrays.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__.
 
-
 .. seealso::
 
    `Neal Hirsig's Array Modifier Screencast on Vimeo <https://vimeo.com/46061877>`__.

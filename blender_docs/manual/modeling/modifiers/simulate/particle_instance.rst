@@ -8,8 +8,8 @@ Particle Instance Modifier
 
 When a *Particle Instance* modifier is added to an object, that object will be used
 as a particle shape on an object which has a particle system associated with it.
-This means that to use this modifier you must also have another object
-which has a :doc:`Particles System </physics/particles/index>` on it.
+This means that to use this modifier you must have at least one other object
+that has a :doc:`Particles System </physics/particles/index>` on it.
 
 .. (wip) T54277
 
@@ -93,11 +93,11 @@ Dead
 
 Space
    World, Local
-      Use :term:`World Space`, or :term:`Local Space` of the object (that owns the particle system).
+      Use :term:`World Space`, or :term:`Local Space` of the object (that the particle system is assigned to).
 
 Amount
    The percentage of particles to be used.
-   Allows you to randomly skip particles based on desired amount of particles.
+   Allows you to randomly skip particles to adjust the amount of particles.
 
    Offset
       Specifies the "offset" which of the particles will be skipped.
@@ -112,16 +112,16 @@ By default, the instances are placed depending on the particles position in the 
 By enabling this option, you can select the position along the particles path regardless of the current frame.
 
 You can adjust the particles path (using the *Path* visualization type)
-on the :doc:`Render </physics/particles/emitter/render>` panel of the Particles System.
+on the :doc:`Render </physics/particles/emitter/render>` panel of the Particles System tab.
 
 .. note::
 
-   The particles system must be :doc:`Baked </physics/baking>`, except Hair and Keyed physics.
+   The particles system must be :doc:`baked </physics/baking>`, except Hair and Keyed physics.
 
 Create Along Paths
    This option tries to make the underlying mesh object of the modifier
-   deform its mesh shape in such a way as to try and match the path traveled by
-   the particles (or hair strands) of the system associated with it.
+   deform its mesh shape in such a way as to try and match the path the particles moves along
+   (or hair strands) of the system associated with it.
 Rotation Axis
    Specify which pole axis to use for the rotation.
 
@@ -133,7 +133,7 @@ Position
    Specify what percentage of the path the object fills,
    or position on the path if the *Keep Shape* option is enabled.
 Rotation
-   Specify rotation around path.
+   Specifies the rotation around the path.
 Random
    Scales the Position/Rotation value of each instance a random value.
 
@@ -141,14 +141,14 @@ Random
 Custom Data Layers
 ------------------
 
-These fields allows you to select a Vertex Color layers,
-which will be filled with a color based on a particles information.
-These vertex color layers can be used, for example, in the shader to give variability to a material.
+These fields allows you to select vertex color layers,
+which will be filled with colors based on the particles information.
+These vertex color layers can be used, for example, in a shader to add variance to a material.
 
 Index Layer
-   A vertex color layer for a values based on the particles index.
+   A vertex color layer for values based on the particles index.
 Value Layer
-   A vertex color layer for a random per-particle values.
+   A vertex color layer for random per-particle values.
 
 
 Examples

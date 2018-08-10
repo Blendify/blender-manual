@@ -3,17 +3,16 @@
 Introduction
 ************
 
-Soft body simulation is used for simulating soft deformable objects. It was
-designed primarily for adding secondary motion to animation, like jiggle
-for body parts of a moving character.
+Soft body simulation is used for simulating soft deformable objects.
+It was designed primarily for adding secondary motion to animation,
+like jiggle for body parts of a moving character.
 
 It also works for simulating more general soft objects that bend, deform and
 react to forces like gravity and wind, or collide with other objects.
 
-While it can simulate cloth and other stiff types of deformable objects to an
-extent, the :doc:`Cloth Simulation </physics/cloth/index>` can do it better
+While it can simulate cloth and other stiff types of deformable objects to
+an extent, the :doc:`Cloth Simulation </physics/cloth/index>` can do it better
 with a solver specifically designed for this purpose.
-
 
 The simulation works by combining existing animation on the object with forces
 acting on it. There are exterior forces like gravity or force fields and
@@ -46,7 +45,7 @@ Soft bodies are well suited for:
 
 - Jiggle on moving characters.
 - Elastic and deformable objects made of materials like rubber or gelatin.
-- Tree branches moving in the wind, swining ropes, and the like.
+- Tree branches moving in the wind, swinging ropes, and the like.
 - Flags, wide sleeves, cushions or other simple fabric reacting to forces.
 
 The following videos may give you some more ideas:

@@ -237,7 +237,7 @@ Version/Revision Milestones
    Pixar OpenSubdiv support, Viewport and File Browser performance boost,
    node auto-offset, and a text effect strip for the Sequencer.
 `2.77 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.77>`__ -- March 2016:
-   OpenVDB support for caching for smoke/volumetric simulations, improved Cycles Subsurface Scattering,
+   OpenVDB support for caching of smoke/volumetric simulations, improved Cycles Subsurface Scattering,
    Grease pencil stroke sculpting and improved workflow,
    and reworked library handling to manage missing and deleted data-blocks.
 `2.78 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.78>`__ -- September 2016:
