@@ -7,10 +7,10 @@ Baking Physics Simulations
 
 :term:`Baking` refers to the act of storing or caching the results of a calculation.
 
-The results of the simulation are automatically cached to memory when the animation is played,
-so that the next time it runs, it can play again quickly by reading the results from the memory.
+The result of a simulation is automatically cached to memory when the animation is played,
+so that the next time it runs, it can be replayed more quickly by reading the results from the memory.
 
-If you Bake the simulation the cache is protected,
+If you bake the simulation the cache is protected,
 and you will be unable to change the simulation settings
 until you clear the baked frames by clicking *Free Bake*.
 
@@ -33,11 +33,10 @@ remains exactly the same every time.
 
    Two different caches stored simultaneously.
 
-Blender allows for storing and managing multiple caches at once for the same physics object.
-Management the ones is performed with list of caches.
 
 Caches List
-   The :ref:`list view <ui-list-view>` of caches.
+   Blender allows for storing and managing multiple caches at once for the same physics object.
+   You can manage the caches with this :ref:`list view <ui-list-view>`.
 
    Caches can be added and removed with the :kbd:`Plus` and :kbd:`Minus` buttons.
    Renaming a cache can be done by either double-clicking or pressing :kbd:`Ctrl-LMB` on the desired cache.
@@ -47,8 +46,8 @@ Options
 =======
 
 Disk Cache
-   When the simulation is Baked it will be stored inside of the blend-file when you save it.
-   If the *Disk Cache* is checked, Blender will save the Cache separately to the drive
+   The cache of a baked simulation will be stored inside the blend-file when you save it.
+   When *Disk Cache* is checked, Blender will save the Cache separately to the drive
    in a folder named ``blendcache_[filename]`` alongside the blend-file.
    (The blend-file must be saved first.)
 
@@ -57,10 +56,10 @@ Disk Cache
       :doc:`linked </data_system/linked_libraries>` into another blend-file.
 
       When this option is enabled, linked versions of the object will reference the same disk cache.
-      When disabled, linked versions of the object will use independent caches.
+      Otherwise linked versions of the object will use independent caches.
 
    Compression
-      Compression level for cache files. Some physics caches can be very large (such as smoke).
+      The compression level for cache files. Some physics caches can be very large (such as smoke).
       Blender can compress these caches in order to save space.
 
       None
@@ -79,11 +78,11 @@ External
    .. note::
 
       The cache name in *Caches List* and the *Index Number*
-      must exactly match the external cache files name to be worked.
-      Cache files name format: ``name_frame_index.bphys``.
+      has to exactly match the external cache files name in order to work.
+      The cache files name format is ``name_frame_index.bphys``.
 
    Index Number
-      Index number of cache files. (The last two digits of the files name.)
+      The index number of cache files. (The last two digits of the files name.)
    File Path
       Select the directory path to the cache files.
 
@@ -112,7 +111,7 @@ Baking
 Bake
    Start baking.
    Blender will become unresponsive during most baking operations.
-   The cursor will display as a number representing the bakes' progress.
+   The cursor will display as a number representing the progress of the baking.
    You need to be in Object Mode to bake.
 
 .. _free-physics-bake:

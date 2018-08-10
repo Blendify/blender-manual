@@ -111,7 +111,7 @@ Transforms to Deltas
    :Menu:      :menuselection:`Object --> Apply -->`
    :Hotkey:    :kbd:`Shift-Alt-G`, :kbd:`Shift-Alt-R`, and :kbd:`Shift-Alt-S`
 
-Converts absolute object transformations to :ref:`delta transforms <transform-delta>`,
+Converts primary object transformations to :ref:`delta transforms <transform-delta>`,
 any existing delta transforms will be included as well.
 
 - Location to Deltas :kbd:`Shift-Alt-G`
