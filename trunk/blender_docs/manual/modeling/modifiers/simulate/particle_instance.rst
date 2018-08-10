@@ -7,8 +7,9 @@ Particle Instance Modifier
 **************************
 
 When a *Particle Instance* modifier is added to an object, that object will be used
-as a particle shape on an object which has a particle system associated with it. This means
-that to use this modifier you must also have another object which has a particle system on it.
+as a particle shape on an object which has a particle system associated with it.
+This means that to use this modifier you must also have another object
+which has a :doc:`Particles System </physics/particles/index>` on it.
 
 .. (wip) T54277
 
@@ -35,8 +36,14 @@ Options
 
 Object
    The name of an object which has a particle system associated with it.
+
+.. (wip) T54277
+
    This indicates that when the object named in this field emits particles,
    those particles will have the mesh shape of the current *Particle Instance* modifier's mesh.
+
+   (this is not quite correct and unnecessary)
+
 Particle System
    The *Particle System* field is used to select
    which particle system to apply the *Particle Instance* modifier to,
@@ -60,14 +67,6 @@ Size
    Scale the instanced objects by the particle size attribute.
    When this is disabled, all the copies appear the same size as the origin.
 
-Space
-   World, Local
-      (Todo)
-Amount
-   (Todo)
-Offset
-   (Todo)
-
 
 Show Particles When
 -------------------
@@ -90,39 +89,66 @@ Dead
    So if the current Particle Instance Modifier is a sphere shape,
    when dead particles are present they will be spheres.
 
+------------------------
+
+Space
+   World, Local
+      Use :term:`World Space`, or :term:`Local Space` of the object (that owns the particle system).
+
+Amount
+   The percentage of particles to be used.
+   Allows you to randomly skip particles based on desired amount of particles.
+
+   Offset
+      Specifies the "offset" which of the particles will be skipped.
+      Allows you to avoid overlapping of the used particles,
+      when the same particle system is used in multiple modifier instances.
+
 
 Using Paths
 -----------
 
-.. (TODO) particle system must be BAKED to make it work (except HAIR & KEYED physics)
+By default, the instances are placed depending on the particles position in the current frame.
+By enabling this option, you can select the position along the particles path regardless of the current frame.
+
+You can adjust the particles path (using the *Path* visualization type)
+on the :doc:`Render </physics/particles/emitter/render>` panel of the Particles System.
+
+.. note::
+
+   The particles system must be :doc:`Baked </physics/baking>`, except Hair and Keyed physics.
 
 Create Along Paths
    This option tries to make the underlying mesh object of the modifier
    deform its mesh shape in such a way as to try and match the path traveled by
-   the particles/hair strands of the system associated with it.
+   the particles (or hair strands) of the system associated with it.
 Rotation Axis
    Specify which pole axis to use for the rotation.
 
    X, Y, Z
 Keep Shape
-   Enabling this prevents the object from being deformed.
-   It instead simply aligns to the end of the path at the object's center.
+   Enabling this prevents the object from being deformed
+   and places it on the path according to the *Position* value.
 Position
-   Specify what percentage of the path the object fills.
-   You could create a growing effect by animating this value over time.
+   Specify what percentage of the path the object fills,
+   or position on the path if the *Keep Shape* option is enabled.
 Rotation
-   (Todo)
+   Specify rotation around path.
 Random
    Scales the Position/Rotation value of each instance a random value.
 
 
-Layers
-------
+Custom Data Layers
+------------------
+
+These fields allows you to select a Vertex Color layers,
+which will be filled with a color based on a particles information.
+These vertex color layers can be used, for example, in the shader to give variability to a material.
 
 Index Layer
-   (Todo)
+   A vertex color layer for a values based on the particles index.
 Value Layer
-   (Todo)
+   A vertex color layer for a random per-particle values.
 
 
 Examples
@@ -166,7 +192,3 @@ will follow the length and profile of the hair strands paths.
    Strands when they are generated instantly die when created so for the *Create Along Paths* button
    to be of any use, you must also have the *Dead* button activated.
    Otherwise the path a mesh has taken will not be visible!
-
-.. seealso::
-
-   :doc:`Particles </physics/particles/index>`
