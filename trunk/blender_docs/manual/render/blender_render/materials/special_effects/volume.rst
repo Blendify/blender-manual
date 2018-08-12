@@ -395,8 +395,7 @@ The material must be a volumetric material with a Density of 0, and a high Densi
 Smoke requires a complex material to render correctly. Select the big cube and go to the material tab.
 There change the material to 'Volume' and set the density to 0.
 If you set the density to values bigger than 0 the domain cube will be filled with the volume material.
-The `other settings <https://wiki.blender.org/index.php/User:Broken/VolumeRenderingDev>`__
-will affect the smoke, though. We'll cover those later.
+The other settings will affect the smoke, though.
 
 
 Add the Texture
