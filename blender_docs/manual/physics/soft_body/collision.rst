@@ -86,7 +86,9 @@ You can set up your collision so that edges and even faces are included in the c
 Fig. :ref:`fig-softbody-collision-vertex3`. The collision is then calculated differently. It is checked whether
 the edge or face intersects with the collision object, the collision zones are not used.
 
-.. seealso:: Download the `blend-file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
+.. seealso::
+
+   Download the `blend-file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
 
 
 Good Collisions
