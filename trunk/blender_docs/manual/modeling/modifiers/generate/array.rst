@@ -98,6 +98,13 @@ Distance
    Controls the merge distance for *Merge*.
 
 
+UVs
+---
+
+U Offset, V Offset
+   Shifts UVs of each new duplicate by settable amount.
+
+
 Cap
 ---
 

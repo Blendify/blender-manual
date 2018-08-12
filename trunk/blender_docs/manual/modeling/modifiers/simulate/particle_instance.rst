@@ -1,23 +1,14 @@
-..    TODO/Review: {{Review|im=new?}}.
-
 .. _bpy.types.ParticleInstanceModifier:
 
 **************************
 Particle Instance Modifier
 **************************
 
-When a *Particle Instance* modifier is added to an object, that object will be used
-as a particle shape on an object which has a particle system associated with it.
+When a *Particle Instance* modifier is added to an object,
+the mesh of this object will be edited by duplicating
+at the location of the particles of the selected *Particle System*.
 This means that to use this modifier you must have at least one other object
 that has a :doc:`Particles System </physics/particles/index>` on it.
-
-.. (wip) T54277
-
-   When a *Particle Instance* modifier is added to an object,
-   the mesh of this object will be edited
-   by duplicating at the location of the particles of the selected Particle System.
-
-   (this means, it edits mesh, remains one single object, and not "used as a particle shape")
 
 Because of the correlation in which the *Particle Instance* modifier is
 influenced by the underlying particle systems on other objects, some of the apparent effects
@@ -36,14 +27,6 @@ Options
 
 Object
    The name of an object which has a particle system associated with it.
-
-.. (wip) T54277
-
-   This indicates that when the object named in this field emits particles,
-   those particles will have the mesh shape of the current *Particle Instance* modifier's mesh.
-
-   (this is not quite correct and unnecessary)
-
 Particle System
    The *Particle System* field is used to select
    which particle system to apply the *Particle Instance* modifier to,
@@ -54,42 +37,35 @@ Create From
 -----------
 
 Normal
-   When selected, the *Normal* button tells the Particle Instance Modifier
-   to draw instances of itself wherever normal particle types are
-   emitted from the underlying particle system. So if the current modifier is a sphere shape,
-   when normal particles are emitted they will be spheres.
+   When selected, the modifier will use the normal (parent) particles
+   to duplicate the mesh of the edited object.
 Children
-   When selected, the *Children* button tells the modifier
-   to draw instances of itself wherever children/child particles are
-   emitted/used on the underlying particle system. So if the current modifier is a sphere shape,
-   when children/child particles are emitted they will be spheres.
+   When selected, the modifier will use the :doc:`children </physics/particles/emitter/children>` particles
+   to duplicate the mesh of the object being edited.
 Size
-   Scale the instanced objects by the particle size attribute.
+   Scale the instanced mesh by the particle size attribute.
    When this is disabled, all the copies appear the same size as the origin.
+
+   See the particle system's :doc:`Render </physics/particles/emitter/render>`
+   and :doc:`Children </physics/particles/emitter/children>` panels for particle's size options.
 
 
 Show Particles When
 -------------------
 
 Unborn
-   When selected, the *Unborn* button tells the modifier
-   to draw instances of itself wherever unborn particles will be
-   emitted/used on the underlying particle system.
-   So if the current Particle Instance Modifier is a sphere shape,
-   when unborn particles are present they will be spheres.
+   When selected, the modifier will use the unborn particles
+   to duplicate the mesh of the edited object.
 Alive
-   When selected, the *Alive* button tells the modifier
-   to draw instances of itself wherever alive particles will be
-   emitted/used on the underlying particle system.
-   So if the current Particle Instance Modifier is a sphere shape,
-   when alive particles are present they will be spheres.
+   When selected, the modifier will use the alive particles
+   to duplicate the mesh of the object being edited.
 Dead
-   When selected, the *Dead* button tells the modifier to draw instances of itself
-   wherever dead particles will occur on the underlying particle system.
-   So if the current Particle Instance Modifier is a sphere shape,
-   when dead particles are present they will be spheres.
+   When selected, the modifier will use the dead particles
+   to duplicate the mesh of the edited object.
 
-------------------------
+
+Further Options
+---------------
 
 Space
    World, Local
@@ -103,6 +79,11 @@ Amount
       Specifies the "offset" which of the particles will be skipped.
       Allows you to avoid overlapping of the used particles,
       when the same particle system is used in multiple modifier instances.
+
+Rotation Axis
+   Specify which pole axis to use for the rotation.
+
+   X, Y, Z
 
 
 Using Paths
@@ -122,10 +103,6 @@ Create Along Paths
    This option tries to make the underlying mesh object of the modifier
    deform its mesh shape in such a way as to try and match the path the particles moves along
    (or hair strands) of the system associated with it.
-Rotation Axis
-   Specify which pole axis to use for the rotation.
-
-   X, Y, Z
 Keep Shape
    Enabling this prevents the object from being deformed
    and places it on the path according to the *Position* value.
@@ -183,12 +160,11 @@ can have an impact on how well the deformation is carried out.
 In the case of the cylinder, it has many loop cuts along its length so
 that it can bend at those points to deform along the particle path.
 
-The Particle Instance modifier *Create Along Paths* button works for hair (strand)
+The Particle Instance modifier *Create Along Paths* works for hair (strand)
 particles as well as with keyed particles. In this case the mesh of the Particle Instance modifier
 will follow the length and profile of the hair strands paths.
 
 .. note::
 
-   Strands when they are generated instantly die when created so for the *Create Along Paths* button
-   to be of any use, you must also have the *Dead* button activated.
-   Otherwise the path a mesh has taken will not be visible!
+   Strands when they are generated instantly die when created so for the *Create Along Paths* checkbox
+   to be of any use, you must also have the *Dead* checkbox activated.
