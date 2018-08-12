@@ -4,15 +4,7 @@
 Mirror Modifier
 ***************
 
-.. figure:: /images/modeling_modifiers_generate_mirror_example-cube.png
-   :width: 350px
-
-   The corner of a cube mirrored across three axes to form... well... a cube.
-
-
-The Mirror Modifier mirrors a mesh along its *local* X, Y and/or Z axes, across the object's center
-(the mirror plane is then defined by the two other axes).
-
+The *Mirror Modifier* mirrors a mesh along its local X, Y and/or Z axes, across the :term:`Object Origin`.
 It can also use another object as the mirror center, then use that object's local axes instead of its own.
 
 
@@ -27,8 +19,7 @@ Options
 Axis
 ----
 
-The X, Y, Z axis along which to mirror
-(i.e. the axis perpendicular to the mirror plane of symmetry).
+The X, Y, Z axis along which to mirror, i.e. the axis perpendicular to the mirror plane of symmetry.
 
 To understand how the axis applies to the mirror direction, if you were to mirror on the X axis,
 the positive X values of the original mesh would become the negative X values on the mirrored side.
@@ -70,13 +61,17 @@ Vertex Groups
 Textures
 --------
 
-The U and V options allows you to mirror the UV texture coordinates across the middle of the image.
+Flip UV
+   The *Flip U* and *Flip V* options allows you to mirror the UV texture coordinates across the middle of the image.
 
-E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
-its mirror copy will have UV coordinates of (0.7, 0.1).
+   E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
+   its mirror copy will have UV coordinates of (0.7, 0.1).
 
 UV Offsets
-   Amount to shift mirrored UVs from the 0.5 point on the U/V axis.
+   Amount to shift mirrored UVs on the U/V axis.
+
+   Useful for baking (as overlapping UVs can cause artifacts to appear in the baked map),
+   so UVs can be moved outside the image and not used to bake pixels, but still used for display.
 
 
 Further Options
@@ -95,39 +90,44 @@ Mirror Object
 Hints
 =====
 
-Many modeling tasks involve creating objects that are symmetrical. However, there used to be
-no quick way to model both halves of an object without using one of the workarounds that have
-been discovered by clever Blender artists over the years. A common technique was to model one
-half of an object and use :kbd:`Alt-D` to create a linked duplicate which can then be
-scaled on one axis by -1 to produce a perfect mirror-image copy which updates in real-time as you edit.
+.. Many modeling tasks involve creating objects that are symmetrical. However, there used to be
+   no quick way to model both halves of an object without using one of the workarounds that have
+   been discovered by clever Blender artists over the years. A common technique was to model one
+   half of an object and use :kbd:`Alt-D` to create a linked duplicate which can then be
+   scaled on one axis by -1 to produce a perfect mirror-image copy which updates in real-time as you edit.
 
-The Mirror Modifier offers a simpler way to do this. Once your modeling is completed you can either
-click *Apply* to make a real version of your mesh or leave it as-is for future editing.
+.. The Mirror Modifier offers a simpler way to do this. Once your modeling is completed you can either
+   click *Apply* to make a real version of your mesh or leave it as-is for future editing.
 
 
 Using the Mirror Modifier with a Subdivision Surface Modifier
 -------------------------------------------------------------
 
+.. Mostly this is the same as in the "The Modifier Stack" section
+   of the modifiers "Introduction" page. (TODO)
+
 When using the Mirror Modifier along with a
 :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
 modifier, the order in which the modifiers are placed is important.
 
-.. figure:: /images/modeling_modifiers_generate_mirror_subsurf2.png
-   :width: 300px
+.. list-table::
 
-   Subdivision Surface Modifier before Mirror Modifier.
+   * - .. figure:: /images/modeling_modifiers_generate_mirror_subsurf2.png
+          :width: 320px
 
-The above image shows the Subdivision Surface Modifier placed before the Mirror one; as you
+          Subdivision Surface Modifier before Mirror Modifier.
+
+     - .. figure:: /images/modeling_modifiers_generate_mirror_subsurf1.png
+          :width: 320px
+
+          Mirror Modifier before Subdivision Surface Modifier.
+
+The first image above shows the Subdivision Surface Modifier placed before the Mirror one; as you
 can see the effect of this is that the mesh is split down the center line of the mirror effect.
 This is because the Subdivision calculation moves vertices away from the mirror plane, too far away from the
 *Merge Limit*.
 
-.. figure:: /images/modeling_modifiers_generate_mirror_subsurf1.png
-   :width: 300px
-
-   Mirror Modifier before Subdivision Surface Modifier.
-
-The above image shows the Mirror Modifier placed before the Subdivision Surface Modifier.
+The second image shows the Mirror Modifier placed before the Subdivision Surface Modifier.
 In this order, the mirror calculation is done and the vertices are merged together.
 Only after that does the Subdivision Surface Modifier move any vertices.
 

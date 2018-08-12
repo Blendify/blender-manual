@@ -56,6 +56,13 @@ Vertex Group
 Max Angle
    (Todo)
 
+   .. https://developer.blender.org/rBac7feaed3d4d
+
+Lock Polygon Normals (padlock icon)
+   (Todo)
+
+   .. https://developer.blender.org/rB0eb324671315
+
 
 Usage
 =====
