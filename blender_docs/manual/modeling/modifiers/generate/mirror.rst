@@ -4,7 +4,7 @@
 Mirror Modifier
 ***************
 
-The *Mirror Modifier* mirrors a mesh along its local X, Y and/or Z axes, across the :term:`Object Origin`.
+The Mirror Modifier mirrors a mesh along its local X, Y and/or Z axes, across the :term:`Object Origin`.
 It can also use another object as the mirror center, then use that object's local axes instead of its own.
 
 
@@ -70,8 +70,8 @@ Flip UV
 UV Offsets
    Amount to shift mirrored UVs on the U/V axis.
 
-   Useful for baking (as overlapping UVs can cause artifacts to appear in the baked map),
-   so UVs can be moved outside the image and not used to bake pixels, but still used for display.
+   It's useful for baking (as overlapping UVs can cause artifacts to appear in the baked map),
+   so the UVs can be moved outside the image and not used to baking, but still used for display.
 
 
 Further Options
@@ -106,9 +106,9 @@ Using the Mirror Modifier with a Subdivision Surface Modifier
 .. Mostly this is the same as in the "The Modifier Stack" section
    of the modifiers "Introduction" page. (TODO)
 
-When using the Mirror Modifier along with a
-:doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
-modifier, the order in which the modifiers are placed is important.
+When using the Mirror Modifier along with
+a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` modifier,
+the order in which the modifiers are placed is important.
 
 .. list-table::
 
@@ -124,8 +124,8 @@ modifier, the order in which the modifiers are placed is important.
 
 The first image above shows the Subdivision Surface Modifier placed before the Mirror one; as you
 can see the effect of this is that the mesh is split down the center line of the mirror effect.
-This is because the Subdivision calculation moves vertices away from the mirror plane, too far away from the
-*Merge Limit*.
+This is because the Subdivision calculation moves vertices away from the mirror plane,
+too far away from the *Merge Limit*.
 
 The second image shows the Mirror Modifier placed before the Subdivision Surface Modifier.
 In this order, the mirror calculation is done and the vertices are merged together.

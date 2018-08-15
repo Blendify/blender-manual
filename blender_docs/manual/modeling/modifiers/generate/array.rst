@@ -102,7 +102,7 @@ UVs
 ---
 
 U Offset, V Offset
-   Shifts UVs of each new duplicate by settable amount.
+   Shifts UVs of each new duplicate by a settable amount.
 
 
 Cap
