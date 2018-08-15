@@ -435,12 +435,4 @@ a.external {color:#656AE0;}
 	cursor: default;
 	outline-color: red;
 }
-.wy-nav-side {
-	padding-bottom: 2.5em;
-}
-@media screen and (max-width: 360px) {
-.wy-nav-side.shift {
-	padding-bottom: 4.8em;
-}
-}
 /*end version*/
