@@ -136,4 +136,4 @@ Example
    In this example a simple subdivided cube has been transformed into a rather complex object using
    a stack of modifiers.
 
-`Download example file <https://wiki.blender.org/index.php/:File:25-Manual-Modifiers-example.blend>`__.
+`Download example file <https://wiki.blender.org/index.php/File:25-Manual-Modifiers-example.blend>`__.
