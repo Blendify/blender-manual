@@ -751,7 +751,8 @@ This page lists definitions for terms used in Blender and this manual.
       The bounding box to use when using *Generated* mapping to add a :term:`Texture` to an image.
 
    Timecode
-      A coded signal on videotape or film giving information about the frame number, time of recording, or exposure.
+      A coded signal on videotape or film giving information about the frame number and time the frame was recorded.
+      Timecodes are used to sync media between different recording devices, inclusing both audio and video.
 
    Title Safe
       Area of the screen visible on all devices.
