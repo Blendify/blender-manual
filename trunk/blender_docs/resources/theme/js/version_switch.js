@@ -2,7 +2,8 @@
 "use strict"; 
 
 var debug_versions = { //@
-	"dev": "dev 2.78"
+	"latest": "Latest",
+	"dev": "Developmental"
 };
 
 var all_versions = "";
