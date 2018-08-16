@@ -180,7 +180,7 @@ Fresnel
 
 .. list-table:: Pieces of glass rotated in various directions to demonstrate the angle-dependent Fresnel effect.
    Note that the major difference is the lack of IOR effect in the latter case.
-   (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__).
+   (Download `blend-file <https://wiki.blender.org/index.php/File:Manual25-Material-FresnelExample.blend>`__).
 
    * - .. figure:: /images/render_blender-render_materials_properties_transparency_fresnel-example.jpg
           :width: 320px
@@ -221,7 +221,7 @@ Depth
 
    A simple scene with three glasses on a surface, and three lamps.
    Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively.
-   (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__).
+   (Download `blend-file <https://wiki.blender.org/index.php/File:Manual25-Material-3GlassesExample.blend>`__).
 
 Increasing *Depth* also considerably increases render time.
 Each time a light ray passes through a surface,

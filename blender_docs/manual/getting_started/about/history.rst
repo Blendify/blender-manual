@@ -118,14 +118,14 @@ Version/Revision Milestones
 `2.37 <https://archive.blender.org/development/release-logs/blender-237a/>`__ -- June 2005:
    Transformation tools and widgets, soft bodies, force fields, deflections,
    incremental subdivision surfaces, transparent shadows, and multi-threaded rendering.
-`2.40 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.40>`__ -- December 2005:
+`2.40 <https://wiki.blender.org/wiki/Reference/Release_Notes/>`__ -- December 2005:
    Full rework of armature system, shape keys, fur with particles, fluids, and rigid bodies.
-`2.41 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.41>`__ -- January 2006:
+`2.41 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.41>`__ -- January 2006:
    Lots of fixes, and some Game Engine features.
-`2.42 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.42>`__ -- July 2006:
+`2.42 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.42>`__ -- July 2006:
    The nodes release, array modifier, vector blur, new physics engine, rendering, lip sync, and many other features.
    This was the release following `Project Orange <https://orange.blender.org/>`__.
-`2.43 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.43>`__ -- February 2007:
+`2.43 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.43>`__ -- February 2007:
    Multi-resolution meshes, multi-layer UV textures, multi-layer images and multi-pass rendering and baking,
    sculpting, retopology, multiple additional mattes, distort and filter nodes, modeling and animation improvements,
    better painting with multiple brushes, fluid particles,
@@ -135,14 +135,14 @@ Version/Revision Milestones
    of subsurface scattering, which simulates light scattering beneath the surface of organic and soft objects.
 `2.45 <http://archive.blender.org/development/release-logs/blender-245/index.html>`__ -- September 2007:
    Serious bug fixes, with some performance issues addressed.
-`2.46 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.46>`__ -- May 2008:
+`2.46 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.46>`__ -- May 2008:
    The Peach release was the result of a huge effort of over 70 developers providing enhancements to
    provide hair and fur, a new particle system, enhanced image browsing, cloth, a seamless
    and non-intrusive physics cache, rendering improvements in reflections, AO, and render baking, a mesh deform
    modifier for muscles and such, better animation support via armature tools and drawing, skinning,
    constraints and a colorful Action Editor, and much more. It was the release following
    `Project Peach <https://peach.blender.org/>`__.
-`2.47 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.47>`__ -- August 2008:
+`2.47 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.47>`__ -- August 2008:
    Bugfix release.
 `2.48 <http://archive.blender.org/development/release-logs/blender-248/index.html>`__ -- October 2008:
    The Apricot release, cool GLSL shaders, lights and GE improvements, snap, sky simulator, shrinkwrap
@@ -157,7 +157,7 @@ Version/Revision Milestones
 
 .. rubric:: Blender 2.5x -- The Recode!
 
-`2.5x <https://wiki.blender.org/index.php/Dev:2.5/Source>`__ -- From 2009 to August 2011:
+`2.5x <https://wiki.blender.org/wiki/Reference/Release_Notes/2.50>`__ -- From 2009 to August 2011:
    This series released four `pre-version <https://archive.blender.org/development/release-logs/blender-256-beta>`__
    (from Alpha 0 in November 2009 to Beta in July 2010) and
    three stable versions (from 2.57 - April 2011 to 2.59 - August 2011).
