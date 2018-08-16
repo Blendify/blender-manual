@@ -8,6 +8,7 @@ Import Export
 
 .. toctree::
    :maxdepth: 1
+   :name: addons-io
 
    io_3ds.rst
    io_bvh.rst

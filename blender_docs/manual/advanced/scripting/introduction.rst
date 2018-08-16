@@ -23,18 +23,17 @@ Links that are useful while writing scripts:
 
 - `Python.org <https://www.python.org/>`__
   -- General information about Python.
-- `Blender Python API <https://www.blender.org/api/blender_python_api_current/>`__
+- `Blender Python API <https://www.blender.org/api/current/>`__
   -- Official API documentation. Use this for referencing while writing scripts.
-- `API Introduction <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__
+- `API Introduction <https://www.blender.org/api/current/info_quickstart.html>`__
   -- A short introduction to get you started with the API. Contains examples.
-- `CookBook <https://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook>`__
-  -- A section of handy code snippets (yet to be written).
+
 
 Links that deal with distributing your scripts:
 
-- `Sharing scripts <https://wiki.blender.org/index.php/Dev:Doc/Process/Addons>`__
+- `Sharing scripts <https://wiki.blender.org/wiki/Process/Addons>`__
   -- Information on how to share your scripts and get them included in the official Blender distribution.
-- `Creating Add-ons <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__
+- `Creating Add-ons <https://wiki.blender.org/wiki/Process/Addons/Guidelines>`__
   -- Add-ons are used to encapsulate and distribute scripts.
 - `Add-ons project <https://developer.blender.org/project/profile/3/>`__
   -- Project to maintain a central repository of extensions to Blender.

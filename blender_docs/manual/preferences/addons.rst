@@ -106,9 +106,9 @@ Online Resources
    `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__
       Provides an index of Add-ons that are included with Blender as well as listing a number of external Add-ons.
 
-   `How to share your add-on <https://wiki.blender.org/index.php/Dev:Doc/Process/Addons>`__
+   `How to share your add-on <https://wiki.blender.org/wiki/Process/Addons>`__
       Information on how to get your add-on into Blender.
-   `Add-ons development guidelines <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__
+   `Add-ons development guidelines <https://wiki.blender.org/wiki/Process/Addons/Guidelines>`__
       Guidelines on writing new add-on that you might want to get into Blender.
    `API Concepts <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__
       A quick introduction to Blender's API.

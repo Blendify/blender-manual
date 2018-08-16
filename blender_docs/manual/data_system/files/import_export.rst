@@ -41,5 +41,4 @@ these can be enabled in the User Preferences through the use of :doc:`Add-ons </
 
 .. seealso::
 
-   A list of these add-ons can also be found on the
-   `Add-ons Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Import-Export_Scripts>`__.
+   More information on the add-ons to import/export these file-types can be found :ref:`here <addons-io>`
