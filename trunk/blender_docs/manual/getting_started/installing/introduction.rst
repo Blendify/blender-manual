@@ -37,7 +37,7 @@ through the `release notes <https://www.blender.org/features/releases/>`__.
    This is a binary distribution of Blender that is updated daily to include the newest changes in development.
    These versions are not as thoroughly tested as the stable release, and might break,
    although they are official and generally not highly experimental.
-`Build from Source <https://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__
+`Build from Source <https://wiki.blender.org/wiki/Building_Blender>`__
    Blender's source is available for reference and installation, with the following advantages:
 
    - Blender is always up to date.

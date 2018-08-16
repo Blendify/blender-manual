@@ -71,5 +71,4 @@ Deselect
 
 .. seealso::
 
-   Bones belonging to multiple groups is possible with this add-on
-   `Selection Sets <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/SelectionSets>`__.
+   Bones belonging to multiple groups is possible with the *Selection Sets* add-on.
