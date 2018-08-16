@@ -179,7 +179,7 @@ if html_theme == "sphinx_rtd_theme":
     "display_version": False,
     "collapse_navigation": True,
     "navigation_depth": 4,
-    "canonical_url": "https://docs.blender.org/manual/en/dev/",
+    "canonical_url": "https://docs.blender.org/manual/en/latest/",
     }
 
 
