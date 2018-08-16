@@ -344,8 +344,8 @@ a.external {color:#656AE0;}
 	content: "";
 }
 #versionwrap {
-	display: inline-block;
-	padding: 2px 0px;
+	display: block;
+	padding: 2px 0px 30px;
 	font-size: 90%;
 }
 .version-btn, .version-btn-open {
