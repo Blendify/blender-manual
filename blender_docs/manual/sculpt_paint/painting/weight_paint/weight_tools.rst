@@ -468,7 +468,7 @@ Assign
 ======
 
 Assign from Bone Envelopes
-   Applies the envelope weight of the select the bone(s) to the selected vertex group.
+   Apply the envelope weight of the selected bone(s) to the selected vertex group.
 Assign Automatic from Bone
    Apply from the selected bone(s) to the vertex group the same "auto-weighting"
    methods as available in the Parent armature menu.
