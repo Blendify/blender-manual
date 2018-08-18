@@ -27,7 +27,7 @@ In Object Mode
 In *Object Mode*, transformation
 takes place relative to the location of the objects origin (indicated by the yellow circle),
 and the size of objects is not taken into account.
-The images below shows the results of using the *Bounding Box* as
+The image below shows the results of using the *Bounding Box* as
 the pivot point in a number of situations.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png

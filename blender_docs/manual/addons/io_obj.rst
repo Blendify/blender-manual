@@ -90,7 +90,7 @@ Edges
     Export loose edges as two-sided faces. Mostly there is no need for this
     but it's enabled by default to ensure all geometry data is exported.
 Normals
-    Write out Blenders face and vertex normals (depending on the faces smooth setting).
+    Write out Blender's face and vertex normals (depending on the faces smooth setting).
     
     Mostly this isn't needed since most applications will calculate their
     own normals but to match Blender's normal map textures you will need to write these too.
@@ -102,7 +102,7 @@ Triangulate
    Write out quads as two triangles. Some programs only have very basic OBJ support and only support triangles.
 Polygroups
    Write faces into OBJ groups based on the meshes vertex group.
-   Note that this does a best guess since a faces vertices can be in multiple vertex groups.
+   Note that this does a best guess since a face's vertices can be in multiple vertex groups.
 NURBS
    Write out NURBS curves as OBJ NURBS rather than converting to geometry.
 Objects as OBJ Objects / Groups

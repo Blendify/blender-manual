@@ -62,8 +62,8 @@ Scale
    TODO.
 Path Mode
    When referencing paths in exported files you may want some control as to the method used since absolute paths
-   may only be correct on you're own system. Relative paths on the other hand are more portable
-   but mean that you have to keep your files grouped when moving about on you're local file system.
+   may only be correct on your own system. Relative paths on the other hand are more portable
+   but mean that you have to keep your files grouped when moving about on your local file system.
    In some cases the path doesn't matter since the target application will search
    a set of predefined paths anyway so you have the option to strip the path too.
 
