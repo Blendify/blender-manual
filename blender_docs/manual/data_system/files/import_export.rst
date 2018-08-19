@@ -32,7 +32,7 @@ these can be enabled in the User Preferences through the use of :doc:`Add-ons </
    Use :abbr:`DAE (Collada)`
       if you intend to export objects with rigs and/or animation
       to be used in other 3D creation suites or game development (provided they support Collada).
-      See also the :doc:`Blender Collada module </pipline/collada>`
+      See also the :doc:`Blender Collada module </pipeline/collada>`
    Use :abbr:`ABC (Alembic)`
       if you want to import/export a large amount of scene data.
       This :doc:`Alembic </pipeline/alembic>` format is also useful to export an animated mesh
