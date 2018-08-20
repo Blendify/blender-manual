@@ -12,74 +12,47 @@ Keyed
    :Panel:     :menuselection:`Particle System --> Physics`
    :Type:      Keyed
 
-.. figure:: /images/physics_particles_emitter_physics_keyed_panel.png
-
-   Keyed Physics settings.
-
-The paths of keyed particles are determined from the emitter to another particle
-system's particles. This allows creation of chains of systems with keyed physics to create
-long strands or groovy moving particles. Basically the particles have no dynamics but are
-interpolated from one system to the next at draw-time.
+The paths of Keyed particles are determined between particles of any two (or more) particle systems.
+This allows creation of chains of systems to create long strands or groovy moving particles.
+Basically the particles have no dynamics but are interpolated from one system to the next at draw-time.
 
 To setup *Keyed* particles you need at least two particle systems in the *Keys* list.
+
+By default, the *Use Timing* option is deactivated, and the particles will pass through all keys
+for a time equal to its lifetime. A shorter lifetime means faster movement.
+The lifetime will be split equally between the keys,
+this may lead to varying particle speeds between the targets.
 
 
 Options
 =======
 
-Loops
-   Sets the number of times the keys are looped. Disabled if *Use Timing* is enabled.
+.. figure:: /images/physics_particles_emitter_physics_keyed_panel.png
+   :align: right
 
-   .. (wip) how many times we go through Keys list
-      start at first key, move through list to the last key
-      go to the first key again... and then die at the last key
+   Keyed Physics settings.
+
+Loops
+   Sets the number of times the entire *Keys* list is repeated. Disabled if *Use Timing* is enabled.
+Use Timing
+   Enabling this option allows you to specify the timing for each key independently,
+   using the *Time* and *Duration* options.
 
 
 Keys
 ----
 
 Key Targets
-   You have to enter the name of the object which bears the target system and if there are
-   multiple particle systems the number of the system.
+   The :ref:`list view <ui-list-view>` of keys (target particle systems).
 
-   Click the :kbd:`Plus` to add a key, then select the object.
+   Click the :kbd:`Plus` to add a key, then select the *Object*.
 
 Object
    The name of a target object for the selected key. If empty it uses the current particle system.
 System
    Index of particle system on the target object.
 Time
-   (Todo)
+   The time (frame number) at which the particles will be in the position of selected system.
+   Note also that the *Start* frame of the Keyed system adds an offset to this time.
 Duration
-   (Todo)
-
-If you use only one keyed system the particles will travel in their lifetime from the emitter
-to the target. A shorter lifetime means faster movement.
-If you have more than one keyed system in a chain, the lifetime will be split equally.
-This may lead to varying particle speeds between the targets.
-
-
-Timing
-------
-
-.. (Todo) need review, description of 2.4x
-
-Use Timing
-   Timing works together with the Time slider for the other keyed systems in a chain.
-   The Time slider allows to define a fraction of particle lifetime for particle movement.
-
-
-Example
-^^^^^^^
-
-Let us assume that you have two keyed systems in a chain and a third system as target.
-The particle lifetime of the first system shall be 50 keys.
-The particles will travel in 25 frames from the first keyed system to the second,
-and in further 25 frames from the second system to the target.
-If you use the Timed button for the first system,
-the Time slider appears in the second system's panel. Its default value is 0.5,
-so the time is equally split between the systems. If you set Time to 1,
-the movement from the first system to the second will get all the lifetime
-(the particles will die at the second system).
-
-If you set Time to 0 the particles will start at the second system and travel to the target.
+   How long (in frames) the particles stay on this system before they start moving to the next one.
