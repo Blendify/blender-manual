@@ -112,11 +112,15 @@ Time Code Style
    The format uses '+' as separator for sub-second frame numbers,
    with left and right truncation of the timecode as necessary.
 Zoom To Frame Type
-   How zooming to frame focuses around current frame.
+   Defines what time range (around the cursor) will be displayed
+   when the *View Frame* :kbd:`Numpad0` is performed.
 
-   :Keep Range: Todo.
-   :Seconds: Todo.
-   :Keyframes: Todo.
+   Keep Range
+      The currently displayed time range is preserved.
+   Seconds
+      The number of seconds specified in the *Zoom Seconds* field will be shown around the cursor.
+   Keyframes
+      The number of animation keyframes defined in the *Zoom Keyframes* field will be shown around the cursor.
 
 .. _prefs-interface-manipulator:
 
