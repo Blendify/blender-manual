@@ -1,3 +1,6 @@
+.. (TODO) it was updated in 2.79.5
+   https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Ambient_Occlusion_Shader
+
 .. _bpy.types.ShaderNodeAmbientOcclusion:
 
 *****************

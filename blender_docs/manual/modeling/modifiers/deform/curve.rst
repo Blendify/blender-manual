@@ -14,10 +14,11 @@ the object will move closer or further away from the curve.
 When you move the object beyond the curve endings the object will continue
 to deform based on the direction vector of the curve endings.
 
-If the curve is 3D, the *Tilt* value of its control points will be used
-to twist the deformed object.
-In the :menuselection:`Curve tab --> Shape panel` under
-:ref:`Path/Curve-Deform <curve-shape-path-curve-deform>`
+If the curve is 3D, the *Tilt* value of its control points will be used to twist the deformed object.
+And the *Radius* property control the size of the object as well.
+
+In the :menuselection:`Properties editor --> Curve tab --> Shape panel`
+under :ref:`Path/Curve-Deform <curve-shape-path-curve-deform>`
 are options that influence the modifier.
 
 
@@ -75,12 +76,6 @@ Let us make a simple example:
 
 - Now if you select the Monkey, and move it in the Y direction :kbd:`G Y`,
   the monkey will deform nicely along the curve.
-
-.. tip::
-
-   If you press :kbd:`MMB` (or one of :kbd:`X`, :kbd:`Y`, :kbd:`Z`)
-   while moving the Monkey you will constrain the movement to one axis only.
-
 - In the image above you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation, a :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
   Modifier with two subdivision levels was applied,

@@ -5,7 +5,7 @@ Particle Instance Modifier
 **************************
 
 When a *Particle Instance* modifier is added to an object,
-the mesh of this object will be duplicated as an instance
+the mesh of this object will be duplicated
 at the location of the particles of the selected *Particle System*.
 This means that to use this modifier you must have at least one other object
 that has a :doc:`Particles System </physics/particles/index>` on it.
@@ -37,11 +37,11 @@ Create From
 -----------
 
 Normal
-   When selected, the modifier will use the normal of the (parent) particles
-   to duplicate the mesh of the instanced object.
+   When selected, the modifier will use the regular (parents) particles
+   to duplicate the mesh of the modified object.
 Children
    When selected, the modifier will use the :doc:`children </physics/particles/emitter/children>` particles
-   to duplicate the mesh of the object being instantiated.
+   to duplicate the mesh of the object being modified.
 Size
    Scale the instanced mesh by the particle size attribute.
    When this is disabled, all the copies appear the same size as the origin.
@@ -55,13 +55,13 @@ Show Particles When
 
 Unborn
    When selected, the modifier will use the unborn particles
-   to duplicate the mesh of the instanced object.
+   to duplicate the mesh of the modified object.
 Alive
    When selected, the modifier will use the alive particles
-   to duplicate the mesh of the object being instantiated.
+   to duplicate the mesh of the object being modified.
 Dead
    When selected, the modifier will use the dead particles
-   to duplicate the mesh of the instanced object.
+   to duplicate the mesh of the modified object.
 
 
 Further Options

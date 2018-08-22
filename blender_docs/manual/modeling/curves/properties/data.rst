@@ -4,9 +4,11 @@ Object Data
 ***********
 
 The curve properties can be set from the *Object Data* tab
-in the *Properties Header* (shown below in blue).
+in the *Properties Header* (marked yellow in the image below).
 
 .. figure:: /images/modeling_curves_properties_data_header.png
+
+   Properties Editor Header.
 
 
 Shape
@@ -81,22 +83,17 @@ Fill
 .. _curve-shape-path-curve-deform:
 
 Path/Curve-Deform
-   These options are primarily utilized when using a curve as a path or when using the Curve Deform Modifier.
-   They control how objects use the curve and are dealt with in more detail in the appropriate links below.
+   These options are utilized when using a curve as a path or when using the :doc:`/modeling/modifiers/deform/curve`.
+   They control how objects use the curve.
 
    Radius
       Causes the deformed object to be scaled by the set curve radius.
    Stretch
       The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
+      To get the expected result, use together with the *Bounds Clamp* option.
    Bounds Clamp
-      ToDo <2.71.
-
-.. (todo) Bounds Clamp: https://developer.blender.org/rB14fe11bd8118fcd4f5605305cd23cb269d38fc75
-
-.. seealso::
-
-   - :doc:`/rigging/constraints/relationship/follow_path`
-   - :doc:`/modeling/modifiers/deform/curve`
+      If this option is enabled, the object and mesh offset along the deformation axis is ignored.
+      This can be useful with the *Stretch* or when using a negative axis.
 
 
 .. _curve-path-animation:
