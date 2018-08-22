@@ -117,13 +117,32 @@ Error Messages
 Unsupported GNU version! gcc 4.7 and up are not supported!
 ----------------------------------------------------------
 
-On Linux, depending on your GCC version you might get this error.
+On Linux, depending on your GCC version you might get this error. There are two possible solutions:
 
-If so, delete the following line in ``/usr/local/cuda/include/host_config.h``
+Use an alternate compiler
+   If you have an older GCC installed that is compatible with the installed CUDA toolkit version,
+   then you can use it instead of the default compiler. 
+   This is done by setting the ``CYCLES_CUDA_EXTRA_CFLAGS`` environment variable when starting blender. 
 
-::
+   Launch Blender from the command line as follows:
 
-   #error -- unsupported GNU version! gcc 4.7 and up are not supported!
+   .. code-block:: sh
+
+      CYCLES_CUDA_EXTRA_CFLAGS="-ccbin gcc-x.x" blender
+
+   (Substitute the name or path of the compatible GCC compiler).
+
+Remove compatibility checks
+   If the above is unsuccessful, delete the following line in
+   ``/usr/local/cuda/include/host_config.h``
+
+   ::
+
+      #error -- unsupported GNU version! gcc 4.7 and up are not supported!
+
+This will allow Cycles to successfully compile the CUDA rendering kernel the first time it
+attempts to use your GPU for rendering. Once the kernel is built successfully, you can
+launch Blender as you normally would and the CUDA kernel will still be used for rendering.
 
 
 CUDA Error: Invalid kernel image
