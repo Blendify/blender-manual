@@ -39,7 +39,7 @@ Type
    Prewitt
       Tries to do Sobel one better.
    Kirsch
-      Giving a better blending as Sobel or Prewitt, when approaching an edge.
+      Giving a better blending than Sobel or Prewitt, when approaching an edge.
    Shadow
       Performs a relief, emboss effect, darkening outside edges.
 

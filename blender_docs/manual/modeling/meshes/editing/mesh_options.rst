@@ -15,7 +15,7 @@ Mesh Options
 X Mirror
 ========
 
-The *X Mirror* option of the *Mesh Options* panel allows you edit symmetrical vertices on the other side
+The *X Mirror* option of the *Mesh Options* panel allows you to edit symmetrical vertices on the other side
 of the mesh in a single action. When you transform an element (vertex, edge or face),
 if there is its exact X-mirrored counterpart (in local space),
 it will be transformed accordingly, through a symmetry along the local X axis.
@@ -24,7 +24,7 @@ it will be transformed accordingly, through a symmetry along the local X axis.
 
    The conditions for *X Mirror* to work are quite strict, which can make it difficult to use.
    To have an exact mirrored version of a (half) mesh,
-   its easier and simpler to use the :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
+   it's easier and simpler to use the :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
 
 
 .. _modeling_meshes_editing_topology-mirror:
@@ -37,7 +37,7 @@ Topology Mirror
 
    For *Topology Mirror* to work the *X Mirror* option must be enabled.
 
-When using the *X Mirror* option to work on mirrored Mesh Geometry the vertices that
+When using the *X Mirror* option to work on mirrored Mesh Geometry, the vertices that
 are mirrored must be perfectly placed. If they are not exactly positioned in their mirror
 locations then *X Mirror* will not treat those vertices as mirrored.
 
@@ -50,8 +50,8 @@ The effect of this is that mirrored vertices can be non-symmetrical and yet stil
 .. note::
 
    The *Topology Mirror* functionality will work more reliably on mesh geometry
-   which is more detailed. If you use very simple geometry for example,
-   a *Cube* or *UV Sphere* the *Topology Mirror* option will often not work.
+   which is more detailed. If you use very simple geometry, for example
+   a *Cube* or *UV Sphere*, the *Topology Mirror* option will often not work.
 
 
 Example

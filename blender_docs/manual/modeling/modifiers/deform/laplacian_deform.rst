@@ -12,7 +12,7 @@ The modifier keeps the rest of the anchor vertices in fixed positions and
 calculates the optimal locations of all the remaining vertices to preserve the original geometric details.
 
 This modifier captures the geometric details with the use of differential coordinates.
-The differential coordinates captures the local geometric information how curvature and
+The differential coordinates capture the local geometric information how curvature and
 direction of a vertex based on its neighbors.
 
 .. note::
@@ -84,10 +84,10 @@ Anchors Vertex Group
 
 Bind
    The *Bind* button is what tells the Laplacian Deform Modifier to actually capture the geometry details
-   of the object, so that altering the anchors vertices actually alters the shape of the deformed object.
+   of the object, so that altering the anchor vertices actually alters the shape of the deformed object.
 
 Unbind
-   After binding the modifier, you may later decide to make changes to the Anchors Vertex Group.
+   After binding the modifier, you may later decide to make changes to the Anchor Vertex Group.
    To do so you will first need to *Unbind* the modifier before binding again.
 
 
@@ -98,9 +98,9 @@ Vertex group *group_name* is not valid
    This message is displayed when a user deletes a Vertex Group or
    when the user changes the name of the Vertex Group.
 Vertices changed from X to Y
-   This message is displayed when a user adds or deletes vertices to the mesh.
+   This message is displayed when a user adds or deletes vertices to/from the mesh.
 Edges changed from X to Y
-   This message is displayed when a user adds or deletes edges to the mesh.
+   This message is displayed when a user adds or deletes edges to/from the mesh.
 The system did not find a solution
    This message is displayed if the solver could not find a solution for the linear system.
 

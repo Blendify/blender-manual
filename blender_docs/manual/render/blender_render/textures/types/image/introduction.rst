@@ -58,7 +58,7 @@ Mapping both sides of a face to the same image might not be advisable,
 because the location of freckles and skin defects are not symmetrical.
 You could of course change the UV map for one side of the face to slightly offset,
 but it might be noticeable.
-Ears are another example where images or section of an images can be mapped to similar faces.
+Ears are another example where images or section of an image can be mapped to similar faces.
 
 
 UV Textures vs. Procedural Textures

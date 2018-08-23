@@ -86,4 +86,4 @@ using a frame at the mid-point of the sequence.
      - .. figure:: /images/compositing_types_filter_vector-blur_example-1.jpg
           :width: 300px
 
-          Composite, with samples set to 32 and a blur of 1.0.
+          Composite, with Samples set to 32 and Blur set to 1.0.

@@ -39,7 +39,7 @@ Streaks
    Fade
       Fade out factor for the streaks.
 Fog Glow
-   Looks similar to *Ghost* however, it is much smaller in size
+   Looks similar to *Ghost*. However, it is much smaller in size
    and gives more of an atmospheric haze or "glow" around the image.
 
    Size
