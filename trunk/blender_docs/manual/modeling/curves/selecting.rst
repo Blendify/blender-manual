@@ -70,9 +70,9 @@ Type
    Type
       Selects splines that have the same spline Type i.e. Bézier, NURBS or Poly.
    Radius
-      Selects control points that have a similar Radius values.
+      Selects control points that have a similar Radius value.
    Weight
-      Selects all points that have a similar Weight values.
+      Selects all points that have a similar Weight value.
    Direction
       Selects control points that have a similar handles direction.
 

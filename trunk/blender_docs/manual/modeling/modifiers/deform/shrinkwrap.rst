@@ -38,7 +38,7 @@ for each vertex of the modified object. Some options will add some extra, specif
 Nearest Surface Point
 ^^^^^^^^^^^^^^^^^^^^^
 
-This will select the nearest point over the surface of the shrink target.
+This will select the nearest point over the surface of the shrunk target.
 It adds the extra option *Above surface*,
 which always keep the computed vertices above their "floor faces".
 This is only meaningful when *Offset* is not null.
@@ -81,7 +81,7 @@ Auxiliary Target
 Nearest Vertex
 ^^^^^^^^^^^^^^
 
-This will snap vertices to the nearest vertex of the shrink target. It adds no extra options.
+This will snap vertices to the nearest vertex of the shrunk target. It adds no extra options.
 
 .. figure:: /images/modeling_modifiers_deform_shrinkwrap_nearest-vertex.png
 

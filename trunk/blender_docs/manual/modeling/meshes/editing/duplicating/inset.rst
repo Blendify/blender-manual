@@ -47,7 +47,7 @@ Offset Even
 Offset Relative
    Scale the offset by lengths of surrounding geometry.
 Edge Rail
-   Created vertices slides along the original edges of the inner geometry, instead of the normals.
+   Created vertices slide along the original edges of the inner geometry, instead of the normals.
 Thickness
    Set the size of the offset.
 Depth :kbd:`Ctrl`
