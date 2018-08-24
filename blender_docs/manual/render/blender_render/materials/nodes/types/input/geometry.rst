@@ -13,7 +13,7 @@ This node is used to change a material's Normal response to lighting conditions.
 
 Use this node to feed the Normal vector input on the Material node,
 to see how the material will look (e.g. shine, or reflect light)
-under different lighting conditions. Your choices are:
+under different lighting conditions.
 
 
 Inputs
@@ -28,7 +28,7 @@ Properties
 UV Map
    To select a listed UV map.
 Color Layer
-   To select a listed vertex color data (Vertex Paint, Weight Paint).
+   To select a listed vertex color data (Vertex Paint).
 
 
 Outputs

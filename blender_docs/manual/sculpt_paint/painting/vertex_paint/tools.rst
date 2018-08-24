@@ -25,6 +25,13 @@ Color
 
    Flip (cycle icon) :kbd:`X`
       Swaps the foreground and background color.
+
+   .. note::
+
+      Note that the Vertex Paint works in sRGB :term:`space <Color Space>`,
+      and the RGB representation of the same colors will be different
+      between the paint tools and the materials that are in linear space.
+
 Radius
    Set the radius of the brush.
 Strength
