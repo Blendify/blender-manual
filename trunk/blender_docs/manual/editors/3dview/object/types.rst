@@ -72,7 +72,7 @@ Common Options
 You can change the options of the object in the Operator panel just after creating it:
 
 Type
-   Some objects let you change its type after creation with a selector.
+   Some objects let you change their type after creation with a selector.
 Radius/Size
    Sets the starting size.
 

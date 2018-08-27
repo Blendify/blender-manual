@@ -11,7 +11,7 @@ Brush
    Brush data-block menu.
 
 Brushes
-   The :ref:`ui-data-block` to select a preset brush types or a custom brush.
+   The :ref:`ui-data-block` to select a preset brush type or a custom brush.
    They are a combination of a "tool", along with stroke, texture, and options.
 
    The brush can be selected by numbers:
