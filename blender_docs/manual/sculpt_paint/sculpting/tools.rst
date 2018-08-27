@@ -175,7 +175,7 @@ Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
 2D Falloff
    This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
-   It can be used along the outline of a mesh to adjust it's silhouette.
+   It can be used along the outline of a mesh to adjust its silhouette.
 Add/Subtract :kbd:`Ctrl`
    Brush direction toggle. :kbd:`Ctrl` pressed while sculpting.
 Accumulate
