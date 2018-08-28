@@ -1,5 +1,3 @@
-.. TODO/Review: {{review|partial=X|text=Some of the information is incorrect | fixes =
-   [[User:Sascha Uncia/Doc:2.6/Manual/Physics/Particles/Cache And Bake|X]]
 
 *****
 Cache
@@ -10,55 +8,38 @@ Cache
 
    :Panel:     :menuselection:`Particle System --> Cache`
 
+In order to increase real-time response and avoid unnecessary recalculation of particles,
+the particle data can be cached in memory or stored on a drive.
+
+The *Emitter* particle system uses a unified system for caching and baking (together with Soft Body and Cloth).
+
 .. figure:: /images/physics_particles_emitter_cache_settings.png
 
    Particles Cache settings.
 
-In order to increase real-time response and avoid unnecessary recalculation of particles,
-the particle data can be cached in memory or stored on a drive.
+.. seealso::
 
-*Emitter* systems use a unified system for caching and baking (together with soft body and cloth).
-The results of the simulation are automatically cached to disk when the animation is played,
-so that the next time it runs, it can play again quickly by reading in the results from the disk.
-If you *Bake* the simulation the cache is protected and you will be asked when you are
-trying to change a setting that will make a recalculating necessary.
-
-.. tip:: Beware of the *Start* and *End* Settings
-
-   The simulation is only calculated for the positive frames in between the *Start* and *End*
-   frames of the *Bake* panel, whether you bake or not.
-   So if you want a simulation longer than 250 frames you have to change the *End* frame!
+   See the :doc:`General Baking </physics/baking>` docs for more information.
 
 
-Caching
-=======
+Hints
+-----
 
-- As animation is played, each physics system writes each frame to disk,
-  between the simulation start and end frames.
-  These files are stored in folders with prefix ``blendcache``, next to the blend-file.
+- The simulation is only calculated for the positive frames
+  in between the *Start* and *End* frames of the *Cache* panel, whether you bake or not.
+  So if you want a simulation longer than default frame range you have to change the *End* frame.
+- As animation is played, each physics system writes each frame to the cache.
   Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
 - The cache is cleared automatically on changes. But not on all changes,
-  so it may be necessary to free it manually e.g. if you change a force field.
-- If it is impossible to write in the subdirectory there will be no caching.
-- The cache can be freed per physics system with a button in the panels,
-  or with the :kbd:`Ctrl-B` shortcut key to free it for all selected objects.
-- If the file path to the cache is longer than what is possible with your operating system
-  (more than 250 characters for example), strange things might happen.
-
-
-Baking
-======
-
+  so it may be necessary to free it manually, e.g. if you change a force field.
 - The system is protected against changes after baking.
-- The *Bake* result is cleared also with
-  :kbd:`Ctrl-B` for all selected objects or click on *Free Bake* for a singular particle system.
-- If the mesh changes the simulation is not calculated anew.
-- Sorry: no bake editing for particles like for soft bodies and clothes.
-
-Two notes at the end:
-
-#. For render farms, it is best to bake all the physics systems,
-   and then copy the blendcache to the render farm as well.
-#. Be careful with the sequence of modifiers in the modifier stack (as always).
-   You may have a different number of faces in the 3D View and for rendering (e.g. when using subdivision surface),
-   if so, the rendered result may be very different from what you see in the 3D View.
+  If the mesh changes the simulation is not calculated anew.
+- The bake result is cleared by clicking on the *Free Bake* button in the simulation cache settings.
+- Simulations cannot be edited whilst Particle Mode they have been baked to a Disk Cache.
+  They must be baked to memory for Particle Mode to work.
+- If you are not allowed to write to the required subdirectory caching will not take place,
+  e.g. if your blend-file path is very long and your operating system
+  has a limit on the path length that is supported.
+- Be careful with the sequence of modifiers in the modifier stack.
+  You may have a different number of faces in the 3D View and for rendering (e.g. when using subdivision surface),
+  if so, the rendered result may be very different from what you see in the 3D View.

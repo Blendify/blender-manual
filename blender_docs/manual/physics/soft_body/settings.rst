@@ -5,14 +5,6 @@ Settings
 ********
 
 Soft Body
-   This creates the Soft Body Modifier on the selected object.
-Render
-   Enable soft body during render.
-Display
-   Display soft body in real-time.
-
-
-Soft Body
 =========
 
 .. admonition:: Reference
@@ -20,25 +12,20 @@ Soft Body
 
    :Panel:     :menuselection:`Physics --> Soft Body`
 
-
 Object
-------
-
-Friction
-   The friction of the surrounding medium. Generally friction dampens a movement.
-Mass
-   Mass value for vertices.
-   Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
-   Larger mass means larger inertia, so also braking a soft body is more difficult.
-Mass: Vertex Group
-   Use a specified vertex group for mass values.
-
+   Friction
+      The friction of the surrounding medium. Generally friction dampens a movement.
+   Mass
+      Mass value for vertices.
+      Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
+      Larger mass means larger inertia, so also braking a soft body is more difficult.
+   Mass Vertex Group
+      Use a specified vertex group for mass values.
 
 Simulation
-----------
+   Speed
+      You can control the internal timing of the soft body system with this value.
 
-Speed
-   You can control the internal timing of the soft body system with this value.
 Collision Group
    If set, soft body collides with objects from the group, instead of using objects that are on the same layer.
 
@@ -51,9 +38,9 @@ Soft Body Cache
 
    :Panel:     :menuselection:`Physics --> Soft Body Cache`
 
-.. note::
-
-   Caching and cache options are documented :doc:`Here </physics/baking>`.
+Soft Body physic simulations use a unified system for caching and baking.
+See :doc:`Particle Cache </physics/particles/emitter/cache>` and
+:doc:`General Baking </physics/baking>` documentation for reference.
 
 
 Soft Body Goal
@@ -249,7 +236,7 @@ Soft Body Solver
 
    :Panel:     :menuselection:`Physics --> Soft Body Solver`
 
-These settings determine the accurateness of the simulation.
+The settings in the *Soft Body Solver* panel determine the accuracy of the simulation.
 
 .. figure:: /images/physics_soft-body_settings_collision-solver-parameters.png
 
@@ -266,7 +253,8 @@ Max Step
    Normally the number of simulation steps is set dynamically
    (with the *Error Limit*) but you have probably a good reason to change it.
 Auto-Step
-   helps the Solver figure out how much work it needs to do based on how fast things are moving.
+   Use velocities for automatic step sizes.
+   Helps the Solver figure out how much work it needs to do based on how fast things are moving.
 
 
 Error Limit
@@ -287,6 +275,7 @@ Choke
    Calms down (reduces the exit velocity of) a vertex or edge once it penetrates a collision mesh.
 Fuzzy
    Fuzziness while on collision, high values make collision handling faster but less stable.
+   Simulation is faster, but less accurate.
 
 
 Diagnostics
@@ -295,4 +284,10 @@ Diagnostics
 Print Performance to Console
    Prints on the console how the solver is doing.
 Estimate Matrix
-   Estimate matrix... split to COM, ROT, SCALE
+   Estimate matrix, split to ``COM``, ``ROT``, ``SCALE``.
+
+.. (TODO) explain what it is, when it can be useful
+
+   Center of mass - Location of Center of mass.
+   Rot Matrix - Estimated rotation matrix.
+   Scale Matrix - Estimated scale matrix.
