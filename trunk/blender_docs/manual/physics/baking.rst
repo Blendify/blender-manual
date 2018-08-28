@@ -91,6 +91,12 @@ Start
 End
    Frame on which to stop the simulation.
 
+   .. note::
+
+      The simulation is only calculated for the positive frames
+      in between the *Start* and *End* frames of the *Cache* panel, whether you bake or not.
+      So if you want a simulation longer than default frame range you have to change the *End* frame.
+
 Cache Step
    Interval for storing simulation data.
 
