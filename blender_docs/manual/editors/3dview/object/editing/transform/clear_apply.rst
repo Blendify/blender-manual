@@ -62,7 +62,7 @@ Apply Object Transformations
 
 Applying transform values essentially resets the values of object's location, rotation or scale,
 while visually keeping the object data in-place.
-The object origin point is moved to the global origin, to rotation is cleared and scale values are set to 1.
+The object origin point is moved to the global origin, the rotation is cleared and scale values are set to 1.
 
 For simple cases you won't notice any difference the 3D View or rendered output,
 however modifiers and constraints may depend on object transformation.
