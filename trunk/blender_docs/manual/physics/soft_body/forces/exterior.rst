@@ -22,87 +22,49 @@ We will begin with a very simple example: the default cube.
 
 - To judge the effect of the external forces you should at first turn off the *Goal*,
   so that the vertices are not retracted to their original position.
-- Press :kbd:`Alt-A`.
+- Press :kbd:`Alt-A` to run the simulation.
 
 What happens? The cube moves in negative Z direction.
 Each of its eight vertices is affected by a global, constant force -- the gravitation.
 Gravitation without friction is independent from the weight of an object,
 so each object you would use as a soft body here would fall with the same acceleration.
-The object does not deform,
-because every vertex moves with the same speed in the same direction.
-
-
-Settings
-========
-
-Soft Body Panel
----------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Soft Body`
-
-
-Object
-^^^^^^
-
-Friction
-   The friction of the surrounding medium.
-   The larger the friction, the more viscous is the medium.
-   Friction always appears when a vertex moves relative to its surround medium.
-Mass
-   Mass value for vertices.
-   Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
-   Larger mass means larger inertia, so also braking a soft body is more difficult.
-Mass: Vertex Group
-   You can paint weight values for a mesh's mass, and select that vertex group here.
-
-
-Simulation
-^^^^^^^^^^
-
-Speed
-   You can control the internal timing of the soft body system with this value.
-   It sets the correlation between frame rate and tempo of the simulation.
-   A free falling body should cover a distance of about five meters after one second.
-   You can adjust the scale of your scene and your simulation with this correlation. If you
-   render with 25 frames per second and 1 meter shall be 1 BU, you have to set *Speed* to 1.3.
+The object does not deform, because every vertex moves with the same speed in the same direction.
 
 
 Force Fields
-------------
+============
+
+Soft body vertices interact with all the :doc:`Force Fields </physics/force_fields/index>`
+applied (usually to particles) in the layer, such as wind, force fields,
+and what ever physics field effect is on a common layer.
+
+
+Soft Body Field Weights
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Reference
    :class: refbox
 
    :Panel:     :menuselection:`Physics --> Soft Body Field Weights`
 
-To create other forces you have to use another object,
-often *Empty* objects are used for that.
-You can use some of the forces on soft body vertices as on *Particles*.
-Soft bodies react only to:
+The *Soft Body Field Weights* panel allows you to control how much influence
+each type of external force field, has on the soft body system. 
 
-- Force
-- Wind
-- Vortex
+Effector Group
+   Limit effectors to a specified group. Only effectors in this group will have an effect on the current system.
+Gravity
+   Control how much the Global Gravity has an effect on the system.
+All
+   Scale all of the effector weights.
 
-Soft bodies do react on *Harmonic* fields, but not in a useful way.
-So if you use a *Harmonic* field for particles move the soft body to another layer.
 
-See the section :doc:`Force Fields </physics/force_fields/index>` for details.
-The force fields are quite strong,
-a *Force* field with a strength of -1.0 has the same effect that gravity has --
-approximately -- a force of 10 Newtons.
-
+.. _physics-softbody-forces-exterior-aerodynamics:
 
 Aerodynamics
-------------
+============
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Soft Body Edges`
+Edges can feel wind as they move, and sail or flutter in the breeze.
+A simple aerodynamic model of a flag sailing in the wind.
 
 This special exterior force is not applied to the vertices but to the connecting edges.
 Technically, a force perpendicular to the edge is applied.
@@ -111,79 +73,64 @@ Note that the force is the same if wind is blowing or if you drag the edge throu
 with the same speed. That means that an edge moving in its own direction feels no force,
 and an edge moving perpendicular to its own direction feels maximum force.
 
-Type
-   Simple
-      Edges receive a drag force from surrounding media.
-   Lift Force
-      Edges receive a lift force when passing through surrounding media.
-Factor
-   How much aerodynamic force to use. Try a value of 30 at first.
+The angle and the relative speed between medium and edge is used to calculate the force on the edge.
+This force results that vertices with little connecting edges (front of a plane)
+fall faster than vertices with more connecting edges (middle of a plane).
+If all vertices have the same amount of edges in a direction they fall with equal speed.
 
+The *Aerodynamics* settings are set in the :ref:`Soft Body Edges <physics-softbody-settings-aerodynamics>` panel.
+
+
+.. _physics-softbody-forces-exterior-goal:
 
 Goal
-----
+====
 
-.. admonition:: Reference
-   :class: refbox
+A "goal" is a shape that a soft body object tries to conform to.
+It acts like a pin on a chosen set of vertices, controlling how much of an effect soft body has on them.
 
-   :Panel:     :menuselection:`Physics --> Soft Body Goal`
+Enabling *Soft Body Goal* tells Blender to use the position (or animated position) of a vertex in the simulation.
+Animating the vertices can be done in all the usual ways (F-Curves, Armatures, Parents, Lattices, etc)
+before the soft body simulation is applied. The "goal" is the desired end-position for vertices.
+How a soft body tries to achieve this goal can be defined using stiffness forces and damping.
 
-A goal is a shape that a soft body object tries to conform to.
-
-You have to confine the movement of vertices in certain parts of the mesh, e.g.
-to attach a soft body object at other objects. This is done with the *vertex group*
-(target). The target position is the original position of the vertex, like it would result
-from the "normal" animation of an object including *shape keys*,
-*hooks* and *armatures*.
-The vertex tries to reach its target position with a certain, adjustable intensity.
-
-.. _fig-softbody-force-exterior-shock:
-
-.. figure:: /images/physics_soft-body_forces_exterior_shockabs.png
-   :width: 320px
-
-   Shock absorber description.
-
-Imagine the vertex is connected with its target through a spring Fig. :ref:`fig-softbody-force-exterior-shock`.
+See the :ref:`Soft Body Goal settings <physics-softbody-settings-goal>` for details.
 
 
 Goal Strength
 ^^^^^^^^^^^^^
 
-Default
-   This parameter defines how strong the influence of this spring is. A strength of 1 means,
-   that the vertex will not move as soft body at all, instead keep its original position. 0 *Goal*
-   (or no *Goal*) means, that the vertex moves only according to soft body simulation.
-   If no vertex group is used/assigned, this number button is the default goal weight for all vertices.
-   If a vertex group is present and assigned,
-   this button instead shows a list field, that allows you to choose the name of the goal vertex group.
-   If you use a vertex group the weight of a vertex defines its goal.
+The *Goal Strength* defines how much motion from an animation system gets applied.
 
-   Often :ref:`painting-weight-index` is used to adjust the weight comfortably.
-   For non-mesh objects the *Weight* parameter of their vertices/control points is used instead
-   (:kbd:`W` in *Edit Mode*) or use the *Transform* panel.
-   The weight of *Hair* particles can also be painted in :doc:`Particle Edit Mode </physics/particles/mode>`.
+A *Goal* value of 1.0 means no soft body simulation,
+the object act like any regular animated object, (the vertex keeps at its original position).
+When setting *Goal* to 0.0 (or no goal), the vertex is only influenced by physical laws
+according to soft body simulation.
 
-Minimum / Maximum
-   When you paint the values in vertex groups (using *Weight Paint Mode*),
-   you can use the *G Min* and *G Max* to fine-tune (clamp) the weight values.
-   The lowest vertex weight (blue) will become *G Min*, the highest value
-   (red) becomes *G Max* (please note that the blue-red color scale may be altered by User Preferences).
+By setting goal values between 0.0 and 1.0,
+you can blend between having the object affected only by the animation system,
+and having the object affected only by the soft body effect.
 
-.. tip:: For now all is applied to single vertices
+Goal also serves as a memory, to make sure soft objects don't deform too much,
+ending up in the non-soft animated shape. Using the *Vertex Group* weight system,
+you can define a *Goal* weight per vertex. To make this look more natural,
+spring forces can be defined to control how far vertices can move from their original position.
 
-   For now we have discussed vertex movement independent of each other, similar to particles.
-   Every object without *Goal* would collapse completely if a non-uniform force is applied.
-   Now we will move to the next step,
-   the forces that keep the structure of the object and make the soft body to a real body.
+Often :ref:`painting-weight-index` is used to adjust the weight comfortably.
+For non-mesh objects the *Weight* parameter of their vertices/control points
+is used instead; *Specials* menu :kbd:`W` in *Edit Mode* or use the *Transform* panel in the Properties region.
+The weight of *Hair* particles can also be painted in :doc:`Particle Edit Mode </physics/particles/mode>`.
 
 
-Goal Settings
-^^^^^^^^^^^^^
+Technical Details
+=================
 
-Stiffness
-   The spring stiffness for Goal. A low value creates very weak springs
-   (more flexible "attachment" to the goal), a high value creates a strong spring
-   (a stiffer "attachment" to the goal).
-Damping
-   The friction of the spring. With a high value the movement will soon come to an end (little jiggle).
+In the Soft Body world vertices of meshes are treated as particles having a mass.
+Their movement is determined by the forces affecting them. Beside other forces
+the individual particles can interact with another along edges using a physical model
+which is very close to shock absorbers used in cars. The working parts are:
+
+- A spring trying to keep the particles at a certain distance.
+  How hard the spring tries to do that is controlled by the soft body parameter *Stiffness*.
+- A damping element to calm the movement down.
+  The resistance the element builds up against motion is controlled by the softbody parameter *Damping*.

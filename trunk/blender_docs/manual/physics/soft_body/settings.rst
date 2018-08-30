@@ -15,16 +15,22 @@ Soft Body
 Object
    Friction
       The friction of the surrounding medium. Generally friction dampens a movement.
+      The larger the friction, the more viscous is the medium.
+      Friction always appears when a vertex moves relative to its surround medium.
    Mass
       Mass value for vertices.
       Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
       Larger mass means larger inertia, so also braking a soft body is more difficult.
    Mass Vertex Group
-      Use a specified vertex group for mass values.
+      You can paint weight and use a specified vertex group for mass values.
 
 Simulation
    Speed
       You can control the internal timing of the soft body system with this value.
+      It sets the correlation between frame rate and tempo of the simulation.
+      A free falling body should cover a distance of about five meters after one second.
+      You can adjust the scale of your scene and your simulation with this correlation. If you
+      render with 25 frames per second and 1 meter shall be 1 BU, you have to set *Speed* to 1.3.
 
 Collision Group
    If set, soft body collides with objects from the group, instead of using objects that are on the same layer.
@@ -43,6 +49,8 @@ See :doc:`Particle Cache </physics/particles/emitter/cache>` and
 :doc:`General Baking </physics/baking>` documentation for reference.
 
 
+.. _physics-softbody-settings-goal:
+
 Soft Body Goal
 ==============
 
@@ -52,48 +60,32 @@ Soft Body Goal
    :Panel:     :menuselection:`Physics --> Soft Body Goal`
 
 Use Goal
-   Soft Body Goal acts like a pin on a chosen set of vertices;
-   controlling how much of an effect soft body has on them.
-   Enabling this tells Blender to use the position / animated position of a vertex in the simulation.
-   Animating the vertices can be done in all the usual ways before the soft body simulation is applied.
-   The *goal* is the desired end-position for vertices.
-   How a soft body tries to achieve this goal can be defined using stiffness forces and damping.
+   Enabling this tells Blender to use the motion from animations (F-Curves,
+   Armatures, Parents, Lattices, etc) in the simulation.
+   The "goal" is the desired end-position for vertices based on this animation.
 
+   See :ref:`exterior forces <physics-softbody-forces-exterior-goal>` for details.
 
 Goal Strength
--------------
-
-Default
-   A *Goal* value of 1.0 means no soft body simulation, the vertex stays at its original (animated) position.
-   When setting *Goal* to 0.0, the object is only influenced by physical laws.
-   By setting goal values between 0.0 and 1.0,
-   you can blend between having the object affected only by the animation system,
-   and having the object affected only by the soft body effect.
-
-Minimum / Maximum
-   When you paint the values in vertex groups (using *Weight Paint Mode*),
-   you can use the *G Min* and *G Max* to fine-tune (clamp) the weight values.
-   The lowest vertex weight (blue) will become *G Min*, the highest value (red) becomes *G Max*
-   (please note that the blue-red color scale may be altered by User Preferences).
-
-
+   Default
+      Goal weight/strength for all vertices when no *Vertex Group* is assigned.
+      If you use a vertex group the weight of a vertex defines its goal.
+   Minimum/Maximum
+      When you use a vertex group, you can use the *Minimum* and *Maximum* to fine-tune (clamp) the weight values.
+      The lowest vertex weight will become *Minimum*, the highest value becomes *Maximum*.
+   Vertex Group
+      Use a vertex group to allow per-vertex goal weights (multiplied by the *Default* goal).
 Goal Settings
--------------
+   Stiffness
+      The spring stiffness for *Goal*. A low value creates very weak springs
+      (more flexible "attachment" to the goal), a high value creates a strong spring
+      (a stiffer "attachment" to the goal).
+   Damping
+      The friction coefficient for *Goal*. Higher values give damping of the spring effect (little jiggle),
+      and the movement will soon come to an end.
 
-Stiffness
-   The spring stiffness for *Goal*. A low value creates very weak springs
-   (more flexible "attachment" to the goal), a high value creates a strong spring
-   (a stiffer "attachment" to the goal).
-Damping
-   The friction for *Goal*. Higher values dampen the effect of the goal on the soft body.
 
-
-Vertex Group
-------------
-
-Use a vertex group to allow per-vertex goal weights
-(multiplied by the *Default* goal).
-
+.. _physics-softbody-settings-edges:
 
 Soft Body Edges
 ===============
@@ -104,73 +96,66 @@ Soft Body Edges
    :Panel:     :menuselection:`Physics --> Soft Body Edges`
 
 Use Edges
-   The edges in a Mesh Object can act as springs as well, like threads in fabric.
-
+   Allow the edges in a mesh object to act like springs.
+   See :doc:`interior forces </physics/soft_body/forces/interior>`.
 
 Springs
--------
+   Pull
+      The spring stiffness for edges (how much the edges are allowed to stretch).
+      A low value means very weak springs (a very elastic material),
+      a high value is a strong spring (a stiffer material) that resists being pulled apart.
 
-Pull
-   The spring stiffness for edges (how much the edges are stretched). A low value means very weak springs
-   (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
-   0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
-Push
-   How much the soft body resist being scrunched together, like a compression spring. Low values for fabric,
-   high values for inflated objects and stiff material.
-Damp
-   The friction for edge springs. High values (max of 50) dampen the edge stiffness effect and calm down the cloth.
-Plasticity
-   Permanent deformation of the object.
-Bending
-   This option creates virtual connections between a vertex and the one after the next. This includes diagonal edges.
-   Damping applies also to these connections.
-Length
-   The edges can shrink or been blown up. This value is given in percent, 0 disables this function.
-   100% means no change, the body keeps 100% of his size.
-
+      Value of 0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
+      The soft body simulation tends to get unstable if you use a value of 0.999,
+      so you should lower this value a bit if that happens.
+   Push
+      How much the soft body resists being scrunched together, like a compression spring.
+      Low values for fabric, high values for inflated objects and stiff material.
+   Damp
+      The friction for edge springs. High values (max of 50) dampen the *Push*/*Pull* effect and calm down the cloth.
+   Plasticity
+      Permanent deformation of the object after a collision.
+      The vertices take a new position without applying the modifier.
+   Bending
+      This option creates virtual connections between a vertex and the vertices connected to its neighbors.
+      This includes diagonal edges. Damping also applies to these connections.
+   Length
+      The edges can shrink or be blown up. This value is given in percent,
+      0 disables this function. 100% means no change, the body keeps 100% of his size.
+   Springs
+      Use a specified vertex group for spring strength values.
 
 Stiff Quads
------------
+   Use Stiff Quads
+      For quad faces, the diagonal edges are used as springs.
+      This stops quad faces to collapse completely on collisions (what they would do otherwise).
+   Shear
+      Stiffness of the virtual springs created for quad faces.
 
-Use Stiff Quads
-   For quad faces, the diagonal edges are used as springs.
-   This stops quad faces to collapse completely on collisions (what they would do otherwise).
-Shear
-   Stiffness of the virtual springs for quad faces.
-
+.. _physics-softbody-settings-aerodynamics:
 
 Aerodynamics
-------------
+   Force from surrounding media.
+   See :ref:`exterior forces <physics-softbody-forces-exterior-aerodynamics>` for details.
 
-Type
-   Simple
-      If you turn on *Aero* the force is not confined to the vertices, but has an effect also on the edges.
-      The angle and the relative speed between medium and edge is used to calculate the force on the edge.
-      This force results that vertices with little connecting edges (front of a plane)
-      fall faster than vertices with more connecting edges (middle of a plane).
-      If all vertices have the same amount of edges in a direction they fall with equal speed.
-      An edge moving in its own direction feels no force,
-      and an edge moving perpendicular to its own direction feels maximum force
-      (think of a straw moving through air). Try it with a *Factor* of 30 at first.
-   Lift Force
-      Use an aerodynamic model that is closer to physical laws and looks more interesting.
-      Disable for a more muted simulation.
-Factor
-   How much aerodynamic effect to use.
-
+   Type
+      Simple
+         Edges receive a drag force from surrounding media.
+      Lift Force
+         Edges receive a lift force when passing through surrounding media.
+   Factor
+      How much aerodynamic force to use. Try a value of 30 at first.
 
 Collision
----------
-
-Edge
-   Checks for edges of the soft body mesh colliding.
-Face
-   Checks for any portion of the face of the soft body mesh colliding (computationally intensive!).
-   While *CFace* enabled is great, and solves lots of collision errors,
-   there does not seem to be any dampening settings for it,
-   so parts of the soft body object near a collision mesh tend to "jitter" as they bounce off and fall back,
-   even when there is no motion of any meshes. Edge collision has dampening, so that can be controlled,
-   but Deflection dampening value on a collision object does not seem to affect the face collision.
+   Edge
+      Checks for edges of the soft body mesh colliding.
+   Face
+      Checks for any portion of the face of the soft body mesh colliding (computationally intensive!).
+      While *Face* enabled is great, and solves lots of collision errors,
+      there does not seem to be any dampening settings for it,
+      so parts of the soft body object near a collision mesh tend to "jitter" as they bounce off and fall back,
+      even when there is no motion of any meshes. Edge collision has dampening, so that can be controlled,
+      but Deflection dampening value on a collision object does not seem to affect the face collision.
 
 
 .. _physics-softbody-settings-self-collision:
@@ -218,6 +203,7 @@ Size
    there will not be enough time to slow them down.
 Stiffness
    How elastic that ball of personal space is.
+   A high stiffness means that the vertex reacts immediately to someone invading their space.
 Dampening
    How the vertex reacts.
    A low value just slows down the vertex as it gets too close. A high value repulses it.
@@ -238,53 +224,40 @@ Soft Body Solver
 
 The settings in the *Soft Body Solver* panel determine the accuracy of the simulation.
 
-.. figure:: /images/physics_soft-body_settings_collision-solver-parameters.png
-
-   Soft Body Solver settings.
-
-
 Step Size
----------
-
-Min Step
-   Minimum simulation steps per frame. Increase this value, if the soft body misses fast-moving collision objects.
-Max Step
-   Maximum simulation steps per frame.
-   Normally the number of simulation steps is set dynamically
-   (with the *Error Limit*) but you have probably a good reason to change it.
-Auto-Step
-   Use velocities for automatic step sizes.
-   Helps the Solver figure out how much work it needs to do based on how fast things are moving.
-
+   Min Step
+      Minimum simulation steps per frame. Increase this value, if the soft body misses fast-moving collision objects.
+   Max Step
+      Maximum simulation steps per frame.
+      Normally the number of simulation steps is set dynamically
+      (with the *Error Limit*) but you have probably a good reason to change it.
+   Auto-Step
+      Use velocities for automatic step sizes.
+      Helps the Solver figure out how much work it needs to do based on how fast things are moving.
 
 Error Limit
------------
-
-Rules the overall quality of the solution delivered. Default 0.1.
-The most critical setting that says how precise the solver should check for collisions.
-Start with a value that is 1/2 the average edge length.
-If there are visible errors, jitter, or over-exaggerated responses, decrease the value.
-The solver keeps track of how "bad" it is doing and the *Error Limit* causes the solver to
-do some "adaptive step sizing".
-
+   Rules the overall quality of the solution delivered. Default 0.1.
+   The most critical setting that says how precise the solver should check for collisions.
+   Start with a value that is 1/2 the average edge length.
+   If there are visible errors, jitter, or over-exaggerated responses, decrease the value.
+   The solver keeps track of how "bad" it is doing and the *Error Limit* causes the solver to
+   do some "adaptive step sizing".
 
 Helpers
--------
+   These settings allow you to control how Blender will react (deform) the soft body
+   once it either gets close to or actually intersects (cuts into) another collision object on the same layer.
 
-Choke
-   Calms down (reduces the exit velocity of) a vertex or edge once it penetrates a collision mesh.
-Fuzzy
-   Fuzziness while on collision, high values make collision handling faster but less stable.
-   Simulation is faster, but less accurate.
-
+   Choke
+      Calms down (reduces the exit velocity of) a vertex or edge once it penetrates a collision mesh.
+   Fuzzy
+      Fuzziness while on collision, high values make collision handling faster but less stable.
+      Simulation is faster, but less accurate.
 
 Diagnostics
------------
-
-Print Performance to Console
-   Prints on the console how the solver is doing.
-Estimate Matrix
-   Estimate matrix, split to ``COM``, ``ROT``, ``SCALE``.
+   Print Performance to Console
+      Prints on the console how the solver is doing.
+   Estimate Matrix
+      Estimate matrix, split to ``COM``, ``ROT``, ``SCALE``.
 
 .. (TODO) explain what it is, when it can be useful
 

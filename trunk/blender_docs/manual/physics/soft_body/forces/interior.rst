@@ -3,102 +3,73 @@
 Interior
 ********
 
-.. _fig-softbody-force-interior-connection:
+In between each neighboring vertex of a mesh, you typically create edges to connect them.
+Imagine each edge is really a spring. Any mechanical spring is able to stretch under tension,
+and able to squeeze under pressure. All springs have an ideal length,
+and a stiffness that limits how far you can stretch or squeeze the spring.
 
-.. figure:: /images/physics_soft-body_forces_interior_theory-1.svg
-   :width: 180px
+In Blender's case, the ideal length is the original edge length which you designed as a part of your mesh,
+even before you enable the Soft Body system. Until you add the Soft Body physics,
+all springs are assumed to be perfectly stiff: no stretch and no squeeze.
 
-   Vertices and forces along their connection edges.
+You can adjust the stiffness of all those edge springs, allowing your mesh to sag, to bend,
+to flutter in the breeze, or to puddle up on the ground.
 
-To create a connection between the vertices of a soft body object there have to be forces that
-hold the vertices together. These forces are effective along the edges in a mesh,
-the connections between the vertices. The forces act like a spring. Fig.
-:ref:`fig-softbody-force-interior-connection`
-illustrates how a 3×3 grid of vertices (a mesh plane in Blender)
-are connected in a soft body simulation.
+------------------------
+
+To create a connection between the vertices of a soft body object there have to be forces
+that hold the vertices together. These forces are effective along the edges in a mesh,
+the connections between the vertices. The forces act like a spring.
+Fig. :ref:`fig-softbody-force-interior-connection` illustrates how a 3×3 grid of vertices
+(a mesh plane in Blender) are connected in a soft body simulation.
+
+.. list-table::
+
+   * - .. _fig-softbody-force-interior-connection:
+
+       .. figure:: /images/physics_soft-body_forces_interior_theory-1.svg
+          :width: 180px
+          :figwidth: 180px
+
+          Vertices and forces along their connection edges.
+
+     - .. _fig-softbody-force-interior-stiff:
+
+       .. figure:: /images/physics_soft-body_forces_interior_theory-2.svg
+          :width: 180px
+          :figwidth: 180px
+
+          Additional forces with Stiff Quads enabled.
 
 But two vertices could freely rotate if you do not create additional edges between them.
-Have you ever tried building a storage shelf out of four planks alone? Well, do not do it,
-it will not be stable. The logical method to keep a body from collapsing would be to create
-additional edges between the vertices. This works pretty well,
-but would change your mesh topology drastically.
-
-.. _fig-softbody-force-interior-stiff:
-
-.. figure:: /images/physics_soft-body_forces_interior_theory-2.svg
-   :width: 180px
-
-   Additional forces with Stiff Quads enabled.
+The logical method to keep a body from collapsing would be to create additional edges between the vertices.
+This works pretty well, but would change your mesh topology drastically.
 
 Luckily, Blender allows to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
-(*Stiff Quads* Fig. :ref:`fig-softbody-force-interior-stiff`), on the other hand we can define virtual connections
-between a vertex and any vertices connected to its neighbors'
-*Bending Stiffness*. In other words, the amount of bend that is allowed between
+(*Stiff Quads* Fig. :ref:`fig-softbody-force-interior-stiff`),
+on the other hand we can define virtual connections between a vertex and any vertices connected
+to its neighbors' *Bending Stiffness*. In other words, the amount of bend that is allowed between
 a vertex and any other vertex that is separated by two edge connections.
 
 
-Edges
-=====
+Settings
+========
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Soft Body Edges`
-
-The characteristics of edges are set with the *Soft Body Edge* properties.
-
-Use Edges
-   Allow the edges in a Mesh Object to act like springs.
+The characteristics of edges are set with the *Springs* and *Stiff Quads* properties in the *Soft Body Edges* panel.
+See the :ref:`Soft Body Edges settings <physics-softbody-settings-edges>` for details.
 
 
-Springs
--------
-
-Pull
-   The spring stiffness for edges (how much the edges are allowed to stretch). A low value means very weak springs
-   (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
-   0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
-   The soft body simulation tends to get unstable if you use a value of 0.999,
-   so you should lower this value a bit if that happens.
-Push
-   How much the soft body resists being scrunched together,
-   like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
-Damp
-   The friction for edge springs. High values (max of 50) dampen the *Push* / *Pull* effect and calm down the cloth.
-Plasticity
-   Permanent deformation of the object after a collision.
-   The vertices take a new position without applying the modifier.
-Bending
-   This option creates virtual connections between a vertex and the vertices connected to its neighbors.
-   This includes diagonal edges. Damping also applies to these connections.
-Length
-   The edges can shrink or be blown up. This value is given in percent,
-   0 disables this function. 100% means no change, the body keeps 100% of his size.
-
+Tips: Preventing Collapse
+=========================
 
 Stiff Quads
 -----------
 
-Use Stiff Quads
-   For quad faces, the diagonal edges are used as springs.
-   This stops quad faces to collapse completely on collisions (what they would do otherwise).
-Shear
-   Stiffness of the virtual springs created for quad faces.
-
-
-Tips
-====
-
-Preventing Collapse
--------------------
-
-Stiff Quads
-^^^^^^^^^^^
-
 To show the effect of the different edge settings we will use two cubes
 (blue: only quads, red: only tris) and let them fall without any goal onto a plane
 (how to set up collision is shown on the page :doc:`Collisions </physics/soft_body/collision>`).
+See the `example blend-file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__.
 
 .. _fig-softbody-force-interior-without:
 
@@ -146,10 +117,16 @@ In Fig. :ref:`fig-softbody-force-interior-with`, *Stiff Quads* is activated (for
 Both cubes keep their shape, there is no difference for the red cube,
 because it has no quads anyway.
 
+
+Bending Stiffness
+-----------------
+
+The second method to stop an object from collapsing is to change its *Bending* stiffness.
+This includes the diagonal edges (damping also applies to these connections).
+
 .. _fig-softbody-force-interior-bending:
 
 .. list-table:: Bending Stiffness.
-   `Blend-file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__.
 
    * - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-sb-001.png
           :width: 200px
@@ -166,13 +143,6 @@ because it has no quads anyway.
 
           Frame 401.
 
-
-Bending Stiffness
-^^^^^^^^^^^^^^^^^
-
-The second method to stop an object from collapsing is to change its *Bending* stiffness.
-This includes the diagonal edges (damping also applies to these connections).
-
 In Fig. :ref:`fig-softbody-force-interior-bending`, *Bending* is activated with a strength setting of 1.
 Now both cubes are more rigid.
 
@@ -188,12 +158,12 @@ Now both cubes are more rigid.
        .. figure:: /images/physics_soft-body_forces_interior_quadvstri-bending-101.png
           :width: 200px
 
-          No bending stiffness, Frame 101.
+          No bending stiffness.
 
      - .. figure:: /images/physics_soft-body_forces_interior_quadvstri-bending-high-101.png
           :width: 200px
 
-          High bending stiffness (10), Frame 101.
+          High bending stiffness (10).
 
 Bending stiffness can also be used if you want to make a subdivided plane more plank like.
 Without *Bending* the faces can freely rotate against each other like hinges

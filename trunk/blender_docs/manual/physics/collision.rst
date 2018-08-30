@@ -59,17 +59,20 @@ Random friction
 Soft Body and Cloth
 -------------------
 
+An artificial padding distance added to the inside and outside of each face, to help prevent intersections.
+Soft body will come to rest this distance away from the face of the colliding object.
+
+Outer
+   Size of the outer collision zone.
+Inner
+   Size of the inner collision zone (padding distance).
+
 .. _fig-collision-soft-plane:
 
 .. figure:: /images/physics_collision_outer-inner.png
    :width: 380px
 
    A soft body vertex colliding with a plane.
-
-Outer
-   Size of the outer collision zone.
-Inner
-   Size of the inner collision zone (padding distance).
 
 Outside and inside is defined by the face normal, depicted as blue arrow in Fig. :ref:`fig-collision-soft-plane`.
 
@@ -79,6 +82,10 @@ Soft Body Damping
 
 Damping Factor
    Damping during a collision.
+   The amount of bounce that surfaces will have.
+
+   - 0.0 - No damping, soft bodies will have maximum bounce.
+   - 1.0 - Maximum damping, soft bodies will not bounce at all.
 
 *Soft body* collisions are difficult to get perfect. If one of the objects move too fast,
 the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies </physics/soft_body/index>`.
