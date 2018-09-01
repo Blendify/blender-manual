@@ -239,7 +239,7 @@ Gravity
 
    :Panel:     :menuselection:`Properties editor --> Scene --> Gravity`
 
-Options to control global gravity used for physic effects.
+Options to control global gravity used for physics effects.
 
 See the :doc:`Physics chapter </physics/gravity>` for more information.
 

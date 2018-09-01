@@ -41,4 +41,4 @@ these can be enabled in the User Preferences through the use of :doc:`Add-ons </
 
 .. seealso::
 
-   More information on the add-ons to import/export these file-types can be found :ref:`here <addons-io>`
+   More information on the add-ons to import/export these file types can be found :ref:`here <addons-io>`.

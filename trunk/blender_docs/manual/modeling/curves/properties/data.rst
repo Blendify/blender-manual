@@ -90,10 +90,10 @@ Path/Curve-Deform
       Causes the deformed object to be scaled by the set curve radius.
    Stretch
       The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
-      To get the expected result, use together with the *Bounds Clamp* option.
+      To get the expected result, use this together with the *Bounds Clamp* option.
    Bounds Clamp
-      If this option is enabled, the object and mesh offset along the deformation axis is ignored.
-      This can be useful with the *Stretch* or when using a negative axis.
+      When this option is enabled, the object and mesh offset along the deformation axis is ignored.
+      This can be useful with the *Stretch* option or when using a negative axis.
 
 
 .. _curve-path-animation:

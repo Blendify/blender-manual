@@ -752,7 +752,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Timecode
       A coded signal on videotape or film giving information about the frame number and time the frame was recorded.
-      Timecodes are used to sync media between different recording devices, inclusing both audio and video.
+      Timecodes are used to sync media between different recording devices, including both audio and video.
 
    Title Safe
       Area of the screen visible on all devices.

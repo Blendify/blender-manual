@@ -40,7 +40,7 @@ and what ever physics field effect is on a common layer.
 
 
 Soft Body Field Weights
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -48,7 +48,7 @@ Soft Body Field Weights
    :Panel:     :menuselection:`Physics --> Soft Body Field Weights`
 
 The *Soft Body Field Weights* panel allows you to control how much influence
-each type of external force field, has on the soft body system. 
+each type of external force field, has on the soft body system.
 
 Effector Group
    Limit effectors to a specified group. Only effectors in this group will have an effect on the current system.
@@ -63,7 +63,7 @@ All
 Aerodynamics
 ============
 
-Edges can feel wind as they move, and sail or flutter in the breeze.
+Edges can be affected by wind as they move, and sail or flutter in a breeze.
 A simple aerodynamic model of a flag sailing in the wind.
 
 This special exterior force is not applied to the vertices but to the connecting edges.
@@ -74,7 +74,7 @@ with the same speed. That means that an edge moving in its own direction feels n
 and an edge moving perpendicular to its own direction feels maximum force.
 
 The angle and the relative speed between medium and edge is used to calculate the force on the edge.
-This force results that vertices with little connecting edges (front of a plane)
+This force results that vertices with few connecting edges (front of a plane)
 fall faster than vertices with more connecting edges (middle of a plane).
 If all vertices have the same amount of edges in a direction they fall with equal speed.
 
@@ -90,15 +90,15 @@ A "goal" is a shape that a soft body object tries to conform to.
 It acts like a pin on a chosen set of vertices, controlling how much of an effect soft body has on them.
 
 Enabling *Soft Body Goal* tells Blender to use the position (or animated position) of a vertex in the simulation.
-Animating the vertices can be done in all the usual ways (F-Curves, Armatures, Parents, Lattices, etc)
-before the soft body simulation is applied. The "goal" is the desired end-position for vertices.
+Animating the vertices can be done in all the usual ways (F-curves, armatures, parents, lattices, etc.)
+before the soft body simulation is applied. The "goal" is the desired end position for vertices.
 How a soft body tries to achieve this goal can be defined using stiffness forces and damping.
 
 See the :ref:`Soft Body Goal settings <physics-softbody-settings-goal>` for details.
 
 
 Goal Strength
-^^^^^^^^^^^^^
+-------------
 
 The *Goal Strength* defines how much motion from an animation system gets applied.
 
@@ -133,4 +133,4 @@ which is very close to shock absorbers used in cars. The working parts are:
 - A spring trying to keep the particles at a certain distance.
   How hard the spring tries to do that is controlled by the soft body parameter *Stiffness*.
 - A damping element to calm the movement down.
-  The resistance the element builds up against motion is controlled by the softbody parameter *Damping*.
+  The resistance the element builds up against motion is controlled by the soft body parameter *Damping*.

@@ -60,9 +60,8 @@ Creating a Soft Body
 Soft body simulation works for all objects that have vertices or control points
 (meshes, curves, surfaces, and lattices).
 
-To activate the soft body simulation for an object,
-in the Properties editor, go to the *Physics* tab
-(it is all the way on the right, and looks like a bouncing ball),
+To add a soft body simulation to an object,
+go to the *Physics* tab (bouncing ball icon) in the Properties editor
 and activate the *Soft Body* button.
 For a reference of all the settings see :doc:`this page </physics/soft_body/settings>`.
 
