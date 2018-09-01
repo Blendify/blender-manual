@@ -59,8 +59,8 @@ Random friction
 Soft Body and Cloth
 -------------------
 
-An artificial padding distance added to the inside and outside of each face, to help prevent intersections.
-Soft body will come to rest this distance away from the face of the colliding object.
+A padding distance is added to the inside and outside of each face, to help to prevent intersections.
+The soft body will come to rest at this distance away from the face of the colliding object.
 
 Outer
    Size of the outer collision zone.
@@ -84,7 +84,7 @@ Damping Factor
    Damping during a collision.
    The amount of bounce that surfaces will have.
 
-   - 0.0 - No damping, soft bodies will have maximum bounce.
+   - 0.0 - No damping, soft bodies will have a maximum bounciness.
    - 1.0 - Maximum damping, soft bodies will not bounce at all.
 
 *Soft body* collisions are difficult to get perfect. If one of the objects move too fast,

@@ -22,14 +22,14 @@ Object
       Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
       Larger mass means larger inertia, so also braking a soft body is more difficult.
    Mass Vertex Group
-      You can paint weight and use a specified vertex group for mass values.
+      You can paint weights and use a specified vertex group for mass values.
 
 Simulation
    Speed
       You can control the internal timing of the soft body system with this value.
       It sets the correlation between frame rate and tempo of the simulation.
       A free falling body should cover a distance of about five meters after one second.
-      You can adjust the scale of your scene and your simulation with this correlation. If you
+      You can adjust the scale of your scene and simulation with this correlation. If you
       render with 25 frames per second and 1 meter shall be 1 BU, you have to set *Speed* to 1.3.
 
 Collision Group
@@ -44,7 +44,7 @@ Soft Body Cache
 
    :Panel:     :menuselection:`Physics --> Soft Body Cache`
 
-Soft Body physic simulations use a unified system for caching and baking.
+Soft Body physics simulations use a unified system for caching and baking.
 See :doc:`Particle Cache </physics/particles/emitter/cache>` and
 :doc:`General Baking </physics/baking>` documentation for reference.
 
@@ -60,9 +60,9 @@ Soft Body Goal
    :Panel:     :menuselection:`Physics --> Soft Body Goal`
 
 Use Goal
-   Enabling this tells Blender to use the motion from animations (F-Curves,
-   Armatures, Parents, Lattices, etc) in the simulation.
-   The "goal" is the desired end-position for vertices based on this animation.
+   Enabling this tells Blender to use the motion from animations
+   (F-curves, armatures, parents, lattices, etc.) in the simulation.
+   The "goal" is the desired end position for vertices based on this animation.
 
    See :ref:`exterior forces <physics-softbody-forces-exterior-goal>` for details.
 
@@ -105,7 +105,7 @@ Springs
       A low value means very weak springs (a very elastic material),
       a high value is a strong spring (a stiffer material) that resists being pulled apart.
 
-      Value of 0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
+      A value of 0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
       The soft body simulation tends to get unstable if you use a value of 0.999,
       so you should lower this value a bit if that happens.
    Push
@@ -140,9 +140,9 @@ Aerodynamics
 
    Type
       Simple
-         Edges receive a drag force from surrounding media.
+         Edges receive a drag force from the surrounding media.
       Lift Force
-         Edges receive a lift force when passing through surrounding media.
+         Edges receive a lift force when passing through the surrounding media.
    Factor
       How much aerodynamic force to use. Try a value of 30 at first.
 
@@ -203,7 +203,7 @@ Size
    there will not be enough time to slow them down.
 Stiffness
    How elastic that ball of personal space is.
-   A high stiffness means that the vertex reacts immediately to someone invading their space.
+   A high stiffness means that the vertex reacts immediately to another vertex enters their space.
 Dampening
    How the vertex reacts.
    A low value just slows down the vertex as it gets too close. A high value repulses it.
@@ -238,7 +238,7 @@ Step Size
 Error Limit
    Rules the overall quality of the solution delivered. Default 0.1.
    The most critical setting that says how precise the solver should check for collisions.
-   Start with a value that is 1/2 the average edge length.
+   Start with a value that is half the average edge length.
    If there are visible errors, jitter, or over-exaggerated responses, decrease the value.
    The solver keeps track of how "bad" it is doing and the *Error Limit* causes the solver to
    do some "adaptive step sizing".

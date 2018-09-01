@@ -84,16 +84,16 @@ Animation
    Exports a numbered OBJ for each frame from the start to the end frame.
    Please be aware that this can take quite a long time.
 Apply Modifiers
-    Export mesh objects as seen in the 3D View with all modifiers applied.
-    Mostly you will want this unless you are exporting a subdivision surface cage.
+   Export mesh objects as seen in the 3D View with all modifiers applied.
+   Mostly you will want this unless you are exporting a subdivision surface cage.
 Edges
-    Export loose edges as two-sided faces. Mostly there is no need for this
-    but it's enabled by default to ensure all geometry data is exported.
+   Export loose edges as two-sided faces. Mostly there is no need for this
+   but it's enabled by default to ensure all geometry data is exported.
 Normals
-    Write out Blender's face and vertex normals (depending on the faces smooth setting).
-    
-    Mostly this isn't needed since most applications will calculate their
-    own normals but to match Blender's normal map textures you will need to write these too.
+   Write out Blender's face and vertex normals (depending on the faces smooth setting).
+
+   Mostly this isn't needed since most applications will calculate their
+   own normals but to match Blender's normal map textures you will need to write these too.
 UVs
    Write out the active UV layers coordinates from Blender.
 Materials
@@ -107,9 +107,9 @@ NURBS
    Write out NURBS curves as OBJ NURBS rather than converting to geometry.
 Objects as OBJ Objects / Groups
    Write out each Blender object as an OBJ object.
-   
+
    .. note::
-   
+
       Note that as far as Blender is concerned there is no difference between OBJ Groups and Objects,
       this option is only included for applications which treat them differently.
 

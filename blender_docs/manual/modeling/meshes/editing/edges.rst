@@ -330,7 +330,7 @@ Profile Factor
 Profile Shape
    The shape of the new edges. See the
    :ref:`proportional editing <3dview-transform-control-proportional-edit-falloff>`
-   page for a description of each option. 
+   page for a description of each option.
 
 
 Examples

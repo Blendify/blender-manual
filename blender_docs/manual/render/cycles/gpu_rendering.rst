@@ -121,8 +121,8 @@ On Linux, depending on your GCC version you might get this error. There are two 
 
 Use an alternate compiler
    If you have an older GCC installed that is compatible with the installed CUDA toolkit version,
-   then you can use it instead of the default compiler. 
-   This is done by setting the ``CYCLES_CUDA_EXTRA_CFLAGS`` environment variable when starting blender. 
+   then you can use it instead of the default compiler.
+   This is done by setting the ``CYCLES_CUDA_EXTRA_CFLAGS`` environment variable when starting Blender.
 
    Launch Blender from the command line as follows:
 

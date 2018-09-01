@@ -33,9 +33,9 @@ so that there will be instant viewable result.
 
 .. (TODO) Add physics tab/panel
 
-    Physics Button
-       This creates the physics on the selected object.
-    Render (camera icon)
-       Enable physics during render.
-    Display (eye icon)
-       Display physics in real-time.
+   Physics Button
+      This creates the physics on the selected object.
+   Render (camera icon)
+      Enable physics during render.
+   Display (eye icon)
+      Display physics in real-time.

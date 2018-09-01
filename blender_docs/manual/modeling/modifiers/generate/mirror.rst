@@ -71,7 +71,7 @@ UV Offsets
    Amount to shift mirrored UVs on the U/V axis.
 
    It's useful for baking (as overlapping UVs can cause artifacts to appear in the baked map),
-   so the UVs can be moved outside the image and not used to baking, but still used for display.
+   so the UVs can be moved outside the image and not used for baking, but still be used for display.
 
 
 Further Options
