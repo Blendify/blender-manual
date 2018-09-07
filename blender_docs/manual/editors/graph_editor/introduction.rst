@@ -24,7 +24,7 @@ An F-Curve has several key parts:
 Curve
    The curve defines the value (Y axis) of the property over time (X axis).
 
-   See :doc:`F-Curves </editors/graph_editor/fcurves/index>`
+   See :doc:`F-Curves </editors/graph_editor/fcurves/index>`.
 Keyframes
    Keyframes are user-defined values on certain frames and are represented by little black squares.
    These become orange if selected.
