@@ -12,7 +12,7 @@ Usage
 =====
 
 The File Browser is used in all the file-related operations.
-It has multiple use cases, while its often used for save/load.
+It has multiple use cases, while it's often used for save/load.
 
 These include:
 
@@ -110,8 +110,8 @@ File Name
    If the background is red, a file with same name already exist in the folder.
    :kbd:`Tab` will auto-complete to existing names in the current directory.
 Increment Filename ``+``, ``-``
-   Adds/increase or removes/decreases a trailing number to your file name
-   (use to make *versions* of a file).
+   Adds/increases or removes/decreases a trailing number to your file name
+   (used to make *versions* of a file).
 Confirm
    The main button to Open Directory/File or Save (As) :kbd:`Return` or
    double-click with :kbd:`LMB` on the entry confirms with that file or data-block.
