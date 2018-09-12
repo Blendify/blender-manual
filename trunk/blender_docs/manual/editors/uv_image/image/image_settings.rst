@@ -121,7 +121,7 @@ File
    Open
       Opens the :doc:`/editors/file_browser/index` to select a file from a drive.
    Reload
-      Reloads the file. Useful when a file has been rework in an external application.
+      Reloads the file. Useful when a file has been reworked in an external application.
 Color Space
    :term:`Color Space`.
 
