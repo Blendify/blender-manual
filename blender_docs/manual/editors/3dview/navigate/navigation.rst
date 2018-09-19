@@ -151,4 +151,4 @@ This is because Blender stores a view-point that is used for orbiting and zoomin
 It works well in many cases, but sometimes you want to move the view-point to a different place.
 This is what Dolly supports, allowing you to transport the view from one place to another.
 
-You can dolly back and forth by holding down :kbd:`Shift-Ctrl` and dragging :kbd:`MMB`.
+You can dolly back and forth by holding down :kbd:`Shift-Ctrl` and dragging with :kbd:`MMB`.
