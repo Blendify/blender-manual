@@ -212,4 +212,4 @@ Example
 
 .. figure:: /images/editors_outliner_example.png
 
-   The Outliner with different kind of data.
+   The Outliner with different kinds of data.

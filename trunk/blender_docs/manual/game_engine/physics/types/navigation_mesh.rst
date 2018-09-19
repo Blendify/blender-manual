@@ -14,7 +14,7 @@ Besides path following, there are also a few other steering behaviors which can 
 Pathfinding with a navigation mesh is most effective for big static obstacles.
 To enable actors to avoid small dynamic objects during their movement local obstacle avoidance can be used.
 If the obstacle simulation is enabled the actor will try to choose direction which is free of collision
-with obstacles on each frame during execution one of the steering behaviors.
+with obstacles on each frame during execution of one of the steering behaviors.
 
 
 Usage
@@ -32,6 +32,6 @@ NavMesh New Face Index
    Adds a new navigation polygon index to selected faces.
 
 NavMesh Reset Index Values
-   Assigns a new index to every faces.
+   Assigns a new index to every face.
 NavMesh Clear Data
    Removes the navigation data from the mesh.

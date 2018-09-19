@@ -47,7 +47,7 @@ and moves along the sine wave.
 In Fig. :ref:`fig-object-duplication-dupliframes-path` *DupliFrames* is applied to the *Monkey* object
 that travel along the Bézier circle during 16 frames,
 (see :ref:`Path Animation <curve-path-animation>` example).
-Option *Speed* in the *Duplication panel* is disable.
+Option *Speed* in the *Duplication panel* is disabled.
 
 .. _fig-object-duplication-dupliframes-path:
 

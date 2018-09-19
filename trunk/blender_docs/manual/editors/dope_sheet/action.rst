@@ -10,7 +10,7 @@ So it takes place somewhere in between the low-level
 
 It gives you a slightly simplified view of the F-Curve data-blocks
 (somewhat similar to F-Curve drawn without handles).
-The editor can lists all Action data-blocks of an object at once.
+The editor can list all Action data-blocks of an object at once.
 
 Each Action data-block forms a top-level channel (see below).
 Note that an object can have several *Constraint* (one per animated constraint)
