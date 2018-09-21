@@ -67,4 +67,4 @@ to multiply the smoothed edges of the image, thus removing those nasty lines, th
 
 .. figure:: /images/compositing_types_converter_id-mask_example.png
 
-   Id Mask node example.
+   ID Mask node example.
