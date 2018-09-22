@@ -35,7 +35,7 @@ The second approach is to use them to model an object starting from a single par
 .. note:: Download Example Blend-File
 
    You can download a file with the examples described on this page.
-   In `this blend <https://wiki.blender.org/index.php/File:Manual-2.5-DupliVerts-Examples.blend>`__,
+   In `this blend <https://wiki.blender.org/wiki/File:Manual-2.5-DupliVerts-Examples.blend>`__,
    the first example, a monkey parented to a circle is on layer 1;
    while a tentacle parented to an icosphere is on layer 2.
 

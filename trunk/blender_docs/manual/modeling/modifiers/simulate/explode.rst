@@ -18,7 +18,7 @@ More faces and more particles will mean more individual pieces.
 Here is
 a `demo video <https://wiki.blender.org/uploads/7/7b/Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.ogg>`__
 showing a cube with a particle system and Explode Modifier.
-(`Blend-file <https://wiki.blender.org/index.php/Media:Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.blend>`__).
+(`Blend-file <https://wiki.blender.org/wiki/File:Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.blend>`__).
 
 .. note::
 

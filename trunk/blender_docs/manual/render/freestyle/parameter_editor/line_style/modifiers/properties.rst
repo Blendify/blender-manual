@@ -95,7 +95,7 @@ Orientation
    :width: 430px
 
    Calligraphy modifier demo by T.K.
-   `File:Toycar_Calligraphy.zip <https://wiki.blender.org/index.php/File:Toycar_Calligraphy.zip>`__.
+   `File:Toycar_Calligraphy.zip <https://wiki.blender.org/wiki/File:Toycar_Calligraphy.zip>`__.
 
 
 .. _bpy.types.LineStyle*Modifier_CreaseAngle:
@@ -134,7 +134,7 @@ Curvature 3D
 
    Curvature 3D modifier demo by T.K.
    `File:Render_freestyle_modifier_curvature_3d.blend
-   <https://wiki.blender.org/index.php/File:Render_freestyle_modifier_curvature_3d.blend>`__.
+   <https://wiki.blender.org/wiki/File:Render_freestyle_modifier_curvature_3d.blend>`__.
 
 A modifier based on radial curvatures of the underlying 3D surface.
 The `curvature <https://en.wikipedia.org/wiki/Curvature>`__ of a 2D curve
@@ -211,7 +211,7 @@ the result will not be blurred between materials along the strokes.
    :width: 430px
 
    Material modifiers demo by T.K.
-   `File:Lilies_Color_Material.zip <https://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__.
+   `File:Lilies_Color_Material.zip <https://wiki.blender.org/wiki/File:Lilies_Color_Material.zip>`__.
 
 
 .. _bpy.types.LineStyle*Modifier_Noise:

@@ -63,7 +63,7 @@ Note that, this "solar" system is not realistic at all
 (the wrong scale, the "earth" is rotating in the wrong direction around the "sun", ...).
 
 You can download the blend-file
-(`download here <https://wiki.blender.org/index.php/File:ManAnimationTechsUsingConstraintsExSolarSys.blend>`__)
+(`download here <https://wiki.blender.org/wiki/File:ManAnimationTechsUsingConstraintsExSolarSys.blend>`__)
 used to create this animation.
 
 Furthermore you can also animate a few properties of each constraint using animation curves:

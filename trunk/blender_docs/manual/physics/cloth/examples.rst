@@ -48,14 +48,14 @@ Cloth on Armature
 =================
 
 Cloth deformed by armature and also respecting an additional collision object:
-`Regression blend-file <https://wiki.blender.org/index.php/Media:Cloth-regression-armature.blend>`__.
+`Regression blend-file <https://wiki.blender.org/wiki/File:Cloth-regression-armature.blend>`__.
 
 
 Cloth with Animated Vertex Groups
 =================================
 
 Cloth with animated pinned vertices:
-`Regression blend-file <https://wiki.blender.org/index.php/Media:Cloth_anim_vertex.blend>`__.
+`Regression blend-file <https://wiki.blender.org/wiki/File:Cloth_anim_vertex.blend>`__.
 UNSUPPORTED: Starting with a goal of 0 and increasing it,
 but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5).
 
@@ -64,7 +64,7 @@ Cloth with Dynamic Paint
 ========================
 
 Cloth with Dynamic Paint using animated vertex groups:
-`Regression blend-file <https://wiki.blender.org/index.php/Media:Cloth_dynamic_paint.blend>`__.
+`Regression blend-file <https://wiki.blender.org/wiki/File:Cloth_dynamic_paint.blend>`__.
 UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work
 (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on-the-fly.
 
@@ -83,7 +83,7 @@ The example image uses standard *Rubber* material, no fancy settings,
 just :kbd:`Alt-A`.
 
 Blend-file for the example image:
-`Using Cloth for soft bodies <https://wiki.blender.org/index.php/Media:Cloth-sb1.blend>`__.
+`Using Cloth for soft bodies <https://wiki.blender.org/wiki/File:Cloth-sb1.blend>`__.
 
 
 Cloth with Wind
@@ -95,4 +95,4 @@ Cloth with Wind
    Flag with wind applied.
 
 Regression blend-file for Cloth with wind and self-collisions (also the blend for the image above):
-`Cloth flag with wind and self-collisions <https://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__.
+`Cloth flag with wind and self-collisions <https://wiki.blender.org/wiki/File:Cloth-flag2.blend>`__.

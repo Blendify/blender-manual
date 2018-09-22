@@ -62,7 +62,7 @@ Your options include:
   You can add/remove them after the BGE starts by using ``bge.constraints.createConstraint()``.
   This can be good either to simply automate their setup, or to truly make them dynamic.
   A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend
-  <https://wiki.blender.org/index.php/Media:BGE-Physics-DynamicallyCreateConstraint.blend>`__
+  <https://wiki.blender.org/wiki/File:BGE-Physics-DynamicallyCreateConstraint.blend>`__
 - :doc:`Python Controllers </game_engine/logic/controllers/types/python>` -- As always, in the BGE,
   you can get the most power when you drop into Python and start toying with the settings directly.
   For instance, the *Copy Rotation* mentioned above is not hard --
@@ -114,7 +114,7 @@ Show Framerate and Profile
 .. figure:: /images/game-engine_physics_introduction_profile-stats.jpg
 
    A shot of `Manual-BGE-Physics-DancingSticks.blend
-   <https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__
+   <https://wiki.blender.org/wiki/File:Manual-BGE-Physics-DancingSticks.blend>`__
    with :menuselection:`Game --> Show Framerate and Profile` enabled.
 
 If you enable :menuselection:`Game --> Show Framerate and Profile`,
@@ -165,7 +165,7 @@ To fix this, you must call ``own.reinstancePhysicsMesh()`` in some form.
 Currently this only works on *Triangle Mesh* bounds, not *Convex Hull*.
 We have prepared a demonstration file in
 `Manual-BGE-Physics-DancingSticks.blend
-<https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__.
+<https://wiki.blender.org/wiki/File:Manual-BGE-Physics-DancingSticks.blend>`__.
 Note that, we had to increase
 the :menuselection:`World --> Physics --> Physics Steps --> Substeps` to make the collisions work well.
 The more basic case is the case the Shapekeyed Action, which you can see in the back area of the scene.
