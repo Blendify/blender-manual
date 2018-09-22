@@ -77,7 +77,7 @@ Most the time people will use the *Standard* IK solver.
 
 
 Standard
-========
+--------
 
 TODO.
 
@@ -86,7 +86,7 @@ TODO.
 .. _rigging-armatures_posing_bone-constraints_ik_model_itasc:
 
 iTaSC
-=====
+-----
 
 .. This is rather technical and can be dumbed down a little. 
 
