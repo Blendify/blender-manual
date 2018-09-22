@@ -43,4 +43,46 @@ Target
 Rotation
    Chain follows rotation of target.
 
+
+iTaSC Solver
+------------
+
+If the :ref:`iTaSC IK Solver <rigging-armatures_posing_bone-constraints_ik_model_itasc>`
+is used, the IK Solver Constraint changes to add these addition parameters.
+
+IK Type
+   Copy Pose
+      Equivalent to the traditional end effector position and orientation constraint:
+      the end effector is constrained to take the position, and optionally the orientation,
+      of a given target, which is set in the target field.
+
+      Position/Rotation Locking
+         Allows to obtain various effect by not constraining the coordinates along certain axis.
+      
+            Axis Ref
+               Specifies how to compute the axis coordinates.
+         
+               Bone
+                  The coordinates are the position and orientation of the target relative to the bone.
+               Target
+                  The opposite of *Bone*, the coordinates are the position and orientation
+                  of the tip of the bone relative to the target.
+   Distance
+      Specify that the end effector will stay inside, at, or outside a sphere centered on the target object.
+      
+      Limit Mode
+         Inside
+            The end effector will stay inside of the distance from the target object.
+         Outside
+            The end effector will stay outside of the distance from the target object.
+         On Surface
+            The end effector will stay exactly at the distance from the target object.
+
+      Distance
+         The radius from the target object.
+
+.. note::
+
+   The *Influence* parameter is not implemented if *Pole Target* is used.
+
 .. vimeo:: 171279647
