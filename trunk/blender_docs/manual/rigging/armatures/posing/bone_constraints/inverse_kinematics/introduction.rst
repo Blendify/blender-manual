@@ -88,7 +88,23 @@ TODO.
 iTaSC
 =====
 
+.. This is rather technical and can be dumbed down a little. 
+
 iTaSC stands for instantaneous Task Specification using Constraints.
+
+iTaSC uses a different method to compute the Jacobian, which makes it able to handle other
+constraints than just end effectors position and orientation: iTaSC is a generic multi-constraint IK solver.
+However, this capability is not yet fully exploited in the current implementation,
+only 2 other types of constraints can be handled: Distance in the cartesian space,
+and Joint Rotation in the joint space. The first one allows maintaining an end-effector
+inside, at, or outside a sphere centered on a target position,
+the second one is the capability to control directly the rotation of a bone relative to its parent.
+Those interested in the mathematics can find a short description of the method used to build the Jacobian here.
+
+iTaSC accepts a mix of constraints, and multiple constraints per bone:
+the solver computes the optimal pose according to the respective weights of each constraint.
+This is a major improvement from the current constraint system where constraints are solved
+one by one in order of definition so that conflicting constraints overwrite each other.
 
 Precision
    The maximum variation in Blender unit of the end effector between two successive iterations
