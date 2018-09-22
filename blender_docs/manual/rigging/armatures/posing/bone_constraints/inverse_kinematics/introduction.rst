@@ -59,8 +59,6 @@ Please refer to these pages for detail about the settings for the constraints:
 - :doc:`Spline IK </rigging/constraints/tracking/spline_ik>`
 
 
-.. _bpy.types.Itasc:
-
 Armature IK Panel
 =================
 
@@ -71,14 +69,26 @@ Armature IK Panel
    :Panel:     :menuselection:`Properties editor --> Armature --> Inverse Kinematics`
 
 This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
+Most the time people will use the *Standard* IK solver.
 
 .. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
 
    The armature IK panel.
 
-Most the time people will use the *Standard* IK solver.
-There is some documentation for
-the :abbr:`iTaSC (instantaneous Task Specification using Constraints)` IK solver here.
+
+Standard
+========
+
+TODO.
+
+
+.. _bpy.types.Itasc:
+.. _rigging-armatures_posing_bone-constraints_ik_model_itasc:
+
+iTaSC
+=====
+
+iTaSC stands for instantaneous Task Specification using Constraints.
 
 Precision
    The maximum variation in Blender unit of the end effector between two successive iterations
@@ -117,7 +127,7 @@ Solver
 
 
 Animation
----------
+^^^^^^^^^
 
 In Animation mode, iTaSC operates like iksolver:
 it is stateless and uses the pose from Fcurves interpolation as the start pose before the IK convergence.
@@ -127,7 +137,7 @@ multiple targets per bone and multiple types of constraints.
 
 
 Simulation
-----------
+^^^^^^^^^^
 
 The Simulation mode is the stateful mode of the solver: it estimates the targets velocity,
 operates in a 'true time' context, ignores rotation from keyframes
