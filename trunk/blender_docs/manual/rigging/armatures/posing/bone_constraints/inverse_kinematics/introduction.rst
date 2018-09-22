@@ -199,6 +199,8 @@ Max Velocity
    You can simulate an inertia by setting this parameter to a low value.
 
 
+.. _bpy.types.PoseBone.ik:
+
 Bone IK Panel
 =============
 
@@ -214,14 +216,38 @@ This panel is used to control how the *Pose Bones* work in the IK chain.
 
    The bone IK panel.
 
+IK Stretch
+   Stretch influence to IK target.
 Lock
    Disallow movement around the axis.
 Stiffness
    Stiffness around the axis. Influence disabled if using *Lock*.
 Limit
    Limit movement around the axis.
-Stretch
-   Stretch influence to IK target.
+
+
+.. _bpy.types.PoseBone.use_ik_rotation_control:
+.. _bpy.types.PoseBone.ik_rotation_weight:
+
+iTaSC Solver
+------------
+
+If the :ref:`iTaSC IK Solver <rigging-armatures_posing_bone-constraints_ik_model_itasc>`
+is used, the bone IK panel changes to add these addition parameters.
+
+Control Rotation
+   Activates a joint rotation constraint on that bone.
+   The pose rotation computed from Action or UI interaction will be converted
+   into a joint value and passed to the solver as target for the joint.
+   This will give you control over the joint while the solver still tracks the other IK targets.
+   You can use this feature to give a preferred pose for joints (e.g. rest pose)
+   or to animate a joint angle by playing an action on it.
+
+   Weight
+       The importance of the joint rotation constraint in case all constraints cannot be achieved at the same time:
+       the constraints with a low weight will be less respected in favor of the constraints with a high weight.
+       For example, if you want to enforce strongly the joint rotation, set a high weight on the joint rotation
+       constraint and a low weight on the IK constraints.
 
 
 Arm Rig Example
