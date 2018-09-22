@@ -15,7 +15,7 @@ It emits a UV map from the negative Z axis of a controller object
 (such as an :doc:`empty </modeling/empties>`),
 and applies it to the object as the "light" hits it. It can optionally override the object's face texture.
 
-`Download an example <https://wiki.blender.org/index.php/File:Uvproject.blend>`__.
+`Download an example <https://wiki.blender.org/wiki/File:Uvproject.blend>`__.
 
 
 Options

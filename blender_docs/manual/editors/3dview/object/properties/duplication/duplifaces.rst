@@ -31,7 +31,7 @@ You can to go back from *DupliFaces* instancing to multiple linked objects using
 .. seealso:: Example blend-file
 
    Download the blend-file used for the examples on this page
-   `here <https://wiki.blender.org/index.php/File:Manual-2.5-Duplifaces-Example01.blend>`__.
+   `here <https://wiki.blender.org/wiki/File:Manual-2.5-Duplifaces-Example01.blend>`__.
 
 
 Basic Usage

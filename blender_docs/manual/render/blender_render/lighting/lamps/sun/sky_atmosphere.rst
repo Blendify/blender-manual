@@ -169,11 +169,11 @@ First, let us see what happens when we modify the orientation of the sun:
           Sun slightly below the horizon (end of twilight).
 
 `The 2.4 blend-file of these examples
-<https://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-SunOrientation.blend>`__.
+<https://wiki.blender.org/wiki/File:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-SunOrientation.blend>`__.
 
 And now, the effects of various settings (examples created with
 `this 2.4 blend-file
-<https://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-Settings.blend>`__):
+<https://wiki.blender.org/wiki/File:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-Settings.blend>`__):
 
 .. list-table:: Variations in Turbidity parameter, all other settings to default.
 

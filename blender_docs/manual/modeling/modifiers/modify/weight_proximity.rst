@@ -176,4 +176,4 @@ In this example let us dynamically control a Wave Modifier with a modified verte
 
 .. vimeo:: 30187079
 
-`The blend-file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_1 scene.
+`The blend-file <https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend>`__, TEST_1 scene.

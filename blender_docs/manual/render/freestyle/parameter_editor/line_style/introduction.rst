@@ -27,4 +27,4 @@ sets by selecting it from the select menu next to its name.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_introduction_line-style-example.png
 
-   Line Style demo `File:LineStyles.zip <https://wiki.blender.org/index.php/File:LineStyles.zip>`__.
+   Line Style demo `File:LineStyles.zip <https://wiki.blender.org/wiki/File:LineStyles.zip>`__.

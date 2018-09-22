@@ -23,12 +23,12 @@ with the introduction of line style modifiers, the sky is the limit!
    * - .. figure:: /images/render_freestyle_introduction_example-1.png
 
           ATV buggy by Rylan Wright (RONIN). CC BY.
-          (`File:AtvBuggy.zip <https://wiki.blender.org/index.php/File:AtvBuggy.zip>`__).
+          (`File:AtvBuggy.zip <https://wiki.blender.org/wiki/File:AtvBuggy.zip>`__).
 
      - .. figure:: /images/render_freestyle_introduction_example-2.png
 
           By mato.sus304. CC BY-SA.
-          (`File:Mato_sus304_cut02.zip <https://wiki.blender.org/index.php/File:Mato_sus304_cut02.zip>`__).
+          (`File:Mato_sus304_cut02.zip <https://wiki.blender.org/wiki/File:Mato_sus304_cut02.zip>`__).
 
    * - .. figure:: /images/render_freestyle_introduction_example-3.png
 
@@ -40,7 +40,7 @@ with the introduction of line style modifiers, the sky is the limit!
 
           Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. Warning:
           heavy file! designed for stress test Blender to the limits and may crash Blender.
-          (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__).
+          (`File:M-130Blueprint.zip <https://wiki.blender.org/wiki/File:M-130Blueprint.zip>`__).
 
 More artwork can be found at `Release Note Artwork Showcase
 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.67/FreeStyle#FreeStyle_Artwork_Showcase>`__.

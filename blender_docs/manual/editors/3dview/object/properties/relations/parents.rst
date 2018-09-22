@@ -148,7 +148,7 @@ If you want to follow along with the above description here is the blend-file us
 *Object (Keep Transform)* parenting method:
 
 `File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend
-<https://wiki.blender.org/index.php/File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend>`__.
+<https://wiki.blender.org/wiki/File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend>`__.
 
 
 Bone Parent

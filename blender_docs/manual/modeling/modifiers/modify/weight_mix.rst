@@ -221,4 +221,4 @@ and above 0.75: this creates great "walls" in the waves...
 
 .. vimeo:: 30188814
 
-`The blend-file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_4 scene.
+`The blend-file <https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend>`__, TEST_4 scene.

@@ -200,4 +200,4 @@ with a *Remove Threshold* of 0.1, to see the bottom of your valley disappear.
 
 .. vimeo:: 30188564
 
-`The blend-file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_2 scene.
+`The blend-file <https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend>`__, TEST_2 scene.

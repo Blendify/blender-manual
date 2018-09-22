@@ -35,7 +35,7 @@ Hidden
    .. figure:: /images/render_freestyle_parameter-editor_line-set_visibility-hidden-edges.png
 
       Proof of concept of visible and hidden edges by LightBWK
-      (`Sample blend-file <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
+      (`Sample blend-file <https://wiki.blender.org/wiki/File:HiddenCreaseEdgeMark.zip>`__)
 
 QI Range
    QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
@@ -46,7 +46,7 @@ QI Range
    .. figure:: /images/render_freestyle_parameter-editor_line-set_visibility-qi-range.png
 
       QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-      (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
+      (`Sample blend-file <https://wiki.blender.org/wiki/File:QI-Range.zip>`__)
 
 
 Edge Types
@@ -61,7 +61,7 @@ Edge types can also be excluded from calculation by pressing the *X* next to the
 
    Examples of some basic edge types:
    Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
-   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__ by LightBWK).
+   (`File:EdgeType.zip <https://wiki.blender.org/wiki/File:EdgeType.zip>`__ by LightBWK).
 
 Silhouette
    Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
@@ -75,7 +75,7 @@ Crease
       :width: 600px
 
       Crease Angle proof of concept for 121° by LightBWK
-      (`the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__).
+      (`the blend-file <https://wiki.blender.org/wiki/File:CreaseAngle.zip>`__).
 
 Border
    Border is for open/unclosed edge meshes; an open cylinder has an open edge at the top and bottom,
@@ -100,7 +100,7 @@ Suggestive Contour
    Draws some lines which would form the contour of the mesh if the viewport was shifted.
    Depends on your view map settings for *Kr Derivative Epsilon* and *Sphere Radius*
    (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
-   <https://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
+   <https://wiki.blender.org/wiki/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
 
 Material Boundary
    Draws lines where two materials meet on the same object.

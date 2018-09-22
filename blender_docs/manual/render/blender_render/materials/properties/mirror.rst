@@ -82,7 +82,7 @@ Fade to
 .. figure:: /images/render_blender-render_materials_properties_mirror_raymirror-example.jpg
 
    Suzanne in the Fun House
-   (`blend-file <https://wiki.blender.org/index.php/File:Manual-2.5-Material-MonkeyMirror.blend>`__).
+   (`blend-file <https://wiki.blender.org/wiki/File:Manual-2.5-Material-MonkeyMirror.blend>`__).
 
 Gloss
    In paint, a high-gloss finish is very smooth and shiny. A flat, or low gloss,
@@ -108,7 +108,7 @@ Gloss
 .. figure:: /images/render_blender-render_materials_properties_mirror_raymirror-aniso-example.jpg
 
    Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0.
-   (`.blend <https://wiki.blender.org/index.php/File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__).
+   (`.blend <https://wiki.blender.org/wiki/File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__).
 
    Anisotropic
       The shape of the reflection, from 0.0 (circular) to 1.0 (fully stretched along the tangent).

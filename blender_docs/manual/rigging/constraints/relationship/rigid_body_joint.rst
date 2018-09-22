@@ -24,7 +24,7 @@ you can use its results outside of the BGE, through the :menuselection:`Game -->
 (see :doc:`Rigid Bodies </game_engine/physics/converting>` for more info on this topic).
 
 For a demo file that shows some of the different types, see: `BGE-Physics-RigidBodyJoints.blend
-<https://wiki.blender.org/index.php/Media:BGE-Physics-RigidBodyJoints.blend>`__.
+<https://wiki.blender.org/wiki/File:BGE-Physics-RigidBodyJoints.blend>`__.
 
 .. note::
 

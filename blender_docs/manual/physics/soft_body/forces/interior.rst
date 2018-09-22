@@ -69,7 +69,7 @@ Stiff Quads
 To show the effect of the different edge settings we will use two cubes
 (blue: only quads, red: only tris) and let them fall without any goal onto a plane
 (how to set up collision is shown on the page :doc:`Collisions </physics/soft_body/collision>`).
-See the `example blend-file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__.
+See the `example blend-file <https://wiki.blender.org/wiki/File:Blender3D Quads-BE-Stiffness.blend>`__.
 
 .. _fig-softbody-force-interior-without:
 
