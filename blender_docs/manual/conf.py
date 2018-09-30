@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.abspath(os.path.join('..', 'exts')))
 # -- General configuration -----------------------------------------------------
 
 # local var only
-blender_version = "2.79"
+blender_version = "2.80"
 
 # include at end of every file
 rst_epilog = """
