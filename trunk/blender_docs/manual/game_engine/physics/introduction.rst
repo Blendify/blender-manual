@@ -168,7 +168,7 @@ We have prepared a demonstration file in
 <https://wiki.blender.org/wiki/File:Manual-BGE-Physics-DancingSticks.blend>`__.
 Note that, we had to increase
 the :menuselection:`World --> Physics --> Physics Steps --> Substeps` to make the collisions work well.
-The more basic case is the case the Shapekeyed Action, which you can see in the back area of the scene.
+The more basic case is the case of a shape-keyed Action, which you can see in the back area of the scene.
 Since it is the only object involved, you can call ``reinstancePhysicsMesh()`` unadorned,
 and it will do the right thing.
 

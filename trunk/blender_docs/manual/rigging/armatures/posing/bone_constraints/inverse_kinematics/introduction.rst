@@ -88,15 +88,15 @@ TODO.
 iTaSC
 -----
 
-.. This is rather technical and can be dumbed down a little. 
+.. This is rather technical and can be simplified.
 
 iTaSC stands for instantaneous Task Specification using Constraints.
 
-iTaSC uses a different method to compute the Jacobian, which makes it able to handle other
-constraints than just end effectors position and orientation: iTaSC is a generic multi-constraint IK solver.
+iTaSC uses a different method to compute the Jacobian, which makes it able to handle other constraints than
+just end effectors position and orientation: iTaSC is a generic multi-constraint IK solver.
 However, this capability is not yet fully exploited in the current implementation,
-only 2 other types of constraints can be handled: Distance in the cartesian space,
-and Joint Rotation in the joint space. The first one allows maintaining an end-effector
+only two other types of constraints can be handled: Distance in the Cartesian space,
+and Joint Rotation in the joint space. The first one allows maintaining an end effector
 inside, at, or outside a sphere centered on a target position,
 the second one is the capability to control directly the rotation of a bone relative to its parent.
 Those interested in the mathematics can find a short description of the method used to build the Jacobian here.
@@ -108,45 +108,46 @@ one by one in order of definition so that conflicting constraints overwrite each
 
 Precision
    The maximum variation in Blender unit of the end effector between two successive iterations
-   at which the solver decides that a stable pose is obtained and stops the iterations.
+   at which a pose is obtained that is stable enough and the solver should stop the iterations.
    Lower values means higher precision on the end effector position.
 Iterations
    The upper bound for the number of iterations.
 Solver
    Selects the inverse Jacobian solver that iTaSC will use.
-   
+
    :abbr:`SDLS (Selective Damped Least Square)`
-      Computes the damping automatically by estimating the level of 'cancellation' in the armature kinematics.
-      This method works well with the Copy Pose constraint but has the inconvenient of damping more than
+      Computes the damping automatically by estimating the level of 'cancelation' in the armature kinematics.
+      This method works well with the Copy Pose constraint but has the drawback of damping more than
       necessary around the singular pose, which means slower movements.
       Of course, this is only noticeable in Simulation mode.
    :abbr:`DLS (Damped Least Square)`
       Computes the damping manually which can provide more reactivity and more precision.
-      
+
       Damping Max
          Maximum amount of damping. Smaller values means less damping, hence more velocity
          and better precision but also more risk of oscillation at singular pose. 0 means no damping at all.
       Damping Epsilon
-         Range of the damping zone around singular pose. Smaller values means smaller zone
+         Range of the damping zone around singular pose. Smaller values means a smaller zone
          of control and greater risk of passing over the singular pose, which means oscillation.
-         
+
       .. note::
-      
-         Damp and Epsilon must be tuned for each armature. You should use the smallest values that preserve stability.
+
+         *Damping* and *Epsilon* must be tuned for each armature.
+         You should use the smallest values that preserve stability.
 
    .. note::
-   
-      - The SDLS solver is inoperant if you use the Distance constraint.
+
+      - The SDLS solver does not work together with a Distance constraint.
         You must use the DLS solver if you are going to have a singular pose
         in your animation with the Distance constraint.
-      - Both solvers perform well if you do not have singular pose.
+      - Both solvers perform well if you do not have a singular pose.
 
 
 Animation
 ^^^^^^^^^
 
-In Animation mode, iTaSC operates like iksolver:
-it is stateless and uses the pose from Fcurves interpolation as the start pose before the IK convergence.
+In Animation mode, iTaSC operates like an IK-solver:
+it is stateless and uses the pose from F-curves interpolation as the start pose before the IK convergence.
 The target velocity is ignored and the solver converges until the given precision is obtained.
 Still the new solver is usually faster than the old one and provides features that are inherent to iTaSC:
 multiple targets per bone and multiple types of constraints.
@@ -173,26 +174,27 @@ Reiteration
       number of substeps and velocity of the target.
    Always
       The solver re-iterates on each frame until the given precision is achieved.
-      This option destroys most of the iTaSC dynamic behavior: the maximum joint velocity
+      This option omits most of the iTaSC dynamic behavior: the maximum joint velocity
       and the continuity between frames is not guaranteed anymore in compensation of better
       precision on the end effector positions. It is an intermediate mode
       between *Animation* and real time *Simulation*.
 Auto Step
-   use this option if you want to let the solver decide how many substeps should be executed for each frame.
-   A substep is a subdivision on the time between 2 frames for which the solver resolves the
-   IK equation and updates the joint position. More substeps means more processing but better precision
+   Use this option if you want to let the solver set how many substeps should be executed for each frame.
+   A substep is a subdivision on the time between two frames for which the solver evaluates
+   the IK equation and updates the joint position. More substeps means more processing but better precision
    on tracking the targets. The auto step algorithm estimates the optimal number of steps to get
-   the best trade off between processing and precision. It works by estimation of the non-linearity
+   the best trade-off between processing and precision.It works by estimation of the nonlinearity
    of the pose and by limiting the amplitude of joint variation during a substep.
-   It can be configured with next 2 parameters:
+   It can be configured with next two parameters:
 
    Min
-      Proposed minimum substep duration (in second). The auto step algorithm may decide to reduce the substep further based on joint velocity.
+      Proposed minimum substep duration (in second).
+      The auto step algorithm may reduce the substep further based on joint velocity.
    Max
-      maximum substep duration (in second). The auto step algorthm will not allow substep longer than this value.
+      Maximum substep duration (in second). The auto step algorithm will not allow substep longer than this value.
 Steps
    If Auto Step is disabled, you can choose a fixed number of substeps with this parameter.
-   Substep should not be longer than 10ms, which means Num Steps=4 for 25 fps animation.
+   Substep should not be longer than 10ms, which means the number of steps is 4 for a 25 fps animation.
    If the armature seems unstable (vibrates) between frames,
    you can improve the stability by increasing the number of steps.
 Feedback
@@ -209,7 +211,7 @@ Feedback
    in Simulation mode even if the target has stopped moving: the residual error
    is progressively suppressed frame after frame.
 Max Velocity
-   Indicative maximum joint velocity in radiant per second.
+   Indicative maximum joint velocity in radian per second.
    This parameter has an important effect on the armature dynamic.
    Smaller value will cause the armature to move slowly and lag behind if the targets are moving rapidly.
    You can simulate an inertia by setting this parameter to a low value.
@@ -249,7 +251,7 @@ iTaSC Solver
 ------------
 
 If the :ref:`iTaSC IK Solver <rigging-armatures_posing_bone-constraints_ik_model_itasc>`
-is used, the bone IK panel changes to add these addition parameters.
+is used, the bone IK panel changes to add these additional parameters.
 
 Control Rotation
    Activates a joint rotation constraint on that bone.
@@ -260,10 +262,10 @@ Control Rotation
    or to animate a joint angle by playing an action on it.
 
    Weight
-       The importance of the joint rotation constraint in case all constraints cannot be achieved at the same time:
-       the constraints with a low weight will be less respected in favor of the constraints with a high weight.
-       For example, if you want to enforce strongly the joint rotation, set a high weight on the joint rotation
-       constraint and a low weight on the IK constraints.
+      The importance of the joint rotation constraint based on the constraints weight
+      in case all constraints cannot be achieved at the same time.
+      For example, if you want to enforce strongly the joint rotation,
+      set a high weight on the joint rotation constraint and a low weight on the IK constraints.
 
 
 Arm Rig Example

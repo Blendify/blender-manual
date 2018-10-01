@@ -6,7 +6,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Welcome to the Blender Manual!
-  
+
 This is the manual for the 3D animation software from `Blender.org <https://www.blender.org>`__.
 
 .. only:: builder_html
