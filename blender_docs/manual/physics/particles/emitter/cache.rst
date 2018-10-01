@@ -36,6 +36,7 @@ Hints
   If for example the mesh changes the simulation is not calculated anew.
 - The bake result can be cleared by clicking on the *Free Bake* button in the simulation cache settings.
 - A simulation can only be edited in Particle Mode when it has been baked to a Disk Cache.
+  And it must also be baked to memory in order to work in Particle Mode.
 - If you are not allowed to write to the required subdirectory caching will not take place,
   e.g. if your blend-file path is very long and your operating system
   has a limit on the path length that is supported.

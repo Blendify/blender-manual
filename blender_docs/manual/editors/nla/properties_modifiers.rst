@@ -145,7 +145,7 @@ Animated Influence
    If influence isn't animated, the strips will fade linearly, during the overlap.
 
    These can be found in the Dope Sheet or Graph Editors under the *NLA Control Curves* and
-   look like group channels. They appear before all the groups/FCurves for that channel.
+   look like group channels. They appear before all the groups/F-curves for that channel.
 Animated Strip
    Same as *Animated Influence*, but with *Strip Time*.
 Cyclic Strip Time

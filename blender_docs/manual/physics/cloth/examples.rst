@@ -56,8 +56,8 @@ Cloth with Animated Vertex Groups
 
 Cloth with animated pinned vertices:
 `Regression blend-file <https://wiki.blender.org/wiki/File:Cloth_anim_vertex.blend>`__.
-UNSUPPORTED: Starting with a goal of 0 and increasing it,
-but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5).
+Unsupported: Starting with a goal of 0 and increasing it,
+but still having the vertex not pinned will **not** work (e.g. from goal = 0 to goal = 0.5).
 
 
 Cloth with Dynamic Paint
@@ -65,7 +65,7 @@ Cloth with Dynamic Paint
 
 Cloth with Dynamic Paint using animated vertex groups:
 `Regression blend-file <https://wiki.blender.org/wiki/File:Cloth_dynamic_paint.blend>`__.
-UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work
+Unsupported: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will **not** work
 (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on-the-fly.
 
 
