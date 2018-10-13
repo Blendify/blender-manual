@@ -68,7 +68,7 @@ Armature IK Panel
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Properties editor --> Armature --> Inverse Kinematics`
 
-This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
+This panel is used to select the IK Solver type for the armature: *Standard* or *iTaSC*.
 Most the time people will use the *Standard* IK solver.
 
 .. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
@@ -156,7 +156,7 @@ multiple targets per bone and multiple types of constraints.
 Simulation
 ^^^^^^^^^^
 
-The Simulation mode is the stateful mode of the solver: it estimates the targets velocity,
+The Simulation mode is the stateful mode of the solver: it estimates the target's velocity,
 operates in a 'true time' context, ignores rotation from keyframes
 (except via a joint rotation constraint) and builds up a state cache automatically.
 
@@ -167,7 +167,7 @@ Reiteration
    Initial
       The solver starts from the rest pose and re-iterates until the given precision is achieved,
       but only on the first frame (i.e. a frame which doesn't have any previous frame in the cache).
-      This option basically allows you to chose a different start pose than the rest pose
+      This option basically allows you to choose a different start pose than the rest pose
       and it is the default value. For the subsequent frames, the solver will track the target
       by integrating the joint velocity computed by the Jacobian solver over the time interval
       that the frame represents. The precision of the tracking depends on the feedback coefficient,

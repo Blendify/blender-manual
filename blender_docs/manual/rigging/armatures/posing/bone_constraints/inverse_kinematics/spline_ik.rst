@@ -11,7 +11,7 @@ Spline IK is an invaluable tool in the riggers' toolbox.
 It is particularly well suited for rigging flexible body parts such as tails, tentacles,
 and spines, as well as inorganic items such as ropes.
 
-Full description of the settings for the spline IK are detailed on
+Full description of the settings for the spline IK can be found on
 the :doc:`Spline IK </rigging/constraints/tracking/spline_ik>` page.
 
 

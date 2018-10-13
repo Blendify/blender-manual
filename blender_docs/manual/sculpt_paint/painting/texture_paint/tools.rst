@@ -79,8 +79,8 @@ Mask
 
 The mask feature maps an image to the mesh and uses the image intensity to
 mask out certain parts of the mesh out during painting.
-The mask options can be found mask panel
-in the :doc:`slots tab </sculpt_paint/painting/texture_paint/slots_mask>`.
+The mask options can be found in the mask panel's
+:doc:`slots tab </sculpt_paint/painting/texture_paint/slots_mask>`.
 It's only available for 3D projective painting.
 
 Mask Value

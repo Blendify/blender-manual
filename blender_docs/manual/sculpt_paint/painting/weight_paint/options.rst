@@ -17,8 +17,8 @@ Options
 The Weight Paint Options modify the overall brush behavior:
 
 Restrict
-   This option limits the influence of painting to vertices belonging
-   (even with weight 0) to the selected vertex group.
+   This option limits the influence of painting to vertices (even with weight 0)
+   belonging to the selected vertex group.
 X Mirror
    Use the X Mirror option for mirrored painting on groups that have symmetrical names,
    like with extension ".R"/ ".L" or "_R" / "_L".

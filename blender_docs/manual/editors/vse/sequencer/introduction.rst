@@ -3,7 +3,7 @@
 Introduction
 ************
 
-The Sequencer region is horizontally divided into channels
+The Sequencer region is horizontally divided into channels,
 each channel can contain what is called a strip.
 A strip can be an image, animation, or any number of effects.
 Each channel is numbered consecutively on the Y axis,
@@ -20,7 +20,7 @@ forms the background and the highest the foreground.
    This is because it is used by the :doc:`Sequencer Display </editors/vse/preview/introduction>`
    to show a composite of all strips above channel 0.
 
-This region is were strips can be :doc:`selected </editors/vse/sequencer/selecting>`,
+This region is where strips can be :doc:`selected </editors/vse/sequencer/selecting>`,
 :doc:`modified </editors/vse/sequencer/selecting>` by moving, cutting, or extending strips.
 There are also several built-in :doc:`effects </editors/vse/sequencer/strips/effects/index>`
 that can be combined with other strips to change their appearance.

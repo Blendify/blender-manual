@@ -21,7 +21,7 @@ to load it as your UV image for the mesh in Edit Mode for the desired (and activ
 As a way of communicating to an artist who is painting your UV Texture for you,
 Blender has a tool called *UV Layout*
 (located in the UV/Image Editor, :menuselection:`UVs --> Export UV Layout`)
-that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for the object you have selected.
+that saves an image as a ``Targa`` (``.tga``), ``EPS``, or ``SVG`` format for the object you have selected.
 
 The image will be lines defining the UV edges that are within the image area of the UV mapping area.
 Edges outside the boundary, even if selected, will not be shown in the saved graphic.

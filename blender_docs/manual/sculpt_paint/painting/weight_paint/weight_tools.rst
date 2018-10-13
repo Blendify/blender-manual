@@ -17,7 +17,7 @@ Weight Tools
 
 Blender provides a set of helper tools for Weight Painting.
 The tools are accessible from the Tool Shelf in Weight Paint Mode.
-And they are located in the weight tools panel.
+And they are located in the Weight Tools panel.
 
 
 The Subset Option
@@ -31,7 +31,7 @@ Some of the tools also provide a Subset filter to restrict their functionality t
 - Deform pose Bones
 - All Groups
 
-All tools also work with Vertex Selection Masking and Face Selection masking.
+All tools also work with Vertex Selection Masking and Face Selection Masking.
 In these modes the tools operate only on selected vertices or faces.
 
 
@@ -188,7 +188,7 @@ Quantize
 
 This operator uses a process known as `Quantization <https://en.wikipedia.org/wiki/Quantization>`__
 which takes the input weights and clamps each weight to a number of steps between (0 - 1),
-so there is a no longer a smooth gradient between values.
+so there is no longer a smooth gradient between values.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_quantize-example.png
 

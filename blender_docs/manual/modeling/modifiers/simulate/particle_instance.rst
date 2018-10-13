@@ -101,7 +101,7 @@ on the :doc:`Render </physics/particles/emitter/render>` panel of the Particles 
 
 Create Along Paths
    This option tries to make the underlying mesh object of the modifier
-   deform its mesh shape in such a way as to try and match the path the particles moves along
+   deform its mesh shape in such a way as to try and match the path the particles move along
    (or hair strands) of the system associated with it.
 Keep Shape
    Enabling this prevents the object from being deformed

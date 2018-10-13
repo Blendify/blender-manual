@@ -168,7 +168,7 @@ Siblings
 Length
    Selects bones with a similar bone length (between tip and tail) under the specified *Threshold*.
 Direction (Y axis)
-   Select bones aligned on the Y axis (along the bones length).
+   Select bones aligned on the Y axis (along the bone's length).
 Prefix
    Select bones with matching name prefix (separated by ``.``).
 Suffix
