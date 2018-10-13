@@ -81,7 +81,7 @@ Hide/Unhide Faces
 
 You also can hide selected faces as in Edit Mode with the keyboard Shortcut :kbd:`H`,
 then paint on the remaining visible faces and finally unhide the hidden faces again by using
-:kbd:`Alt-H`
+:kbd:`Alt-H`.
 
 
 Hide/Unhide Vertices

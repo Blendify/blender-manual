@@ -38,7 +38,7 @@ If you set the axes buttons right for these two constraints,
 *Track To* can be used to point the axle at a primary target,
 and *Locked Track* can spin the owner around that axle to a secondary target.
 
-This constraints also works very well for 2D billboarding.
+This constraint also works very well for 2D billboarding.
 
 
 Options

@@ -14,7 +14,7 @@ Header
 View Menu
 ---------
 
-As usual, the View Menu controls the editors view settings.
+As usual, the View Menu controls the editor's view settings.
 
 View all Sequences :kbd:`Home`
    Zooms the display to show all strips.

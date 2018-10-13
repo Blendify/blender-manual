@@ -202,7 +202,7 @@ You can use various properties of the materials, among which many are mono-compo
 map these gray-scale values to colored ones.
 
 In the reverse case properties of the materials, which are multi-components
-(i.e. give RGB results) the mean value will be used for alpha and thickness modifiers.
+(i.e. give RGB results) the mean value will be used for Alpha and Thickness modifiers.
 
 If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
@@ -250,4 +250,4 @@ Asymmetric
 Tangent
 -------
 
-This modifier bases it's effect on the traveling direction of the stroke evaluated at the stroke's vertices.
+This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.

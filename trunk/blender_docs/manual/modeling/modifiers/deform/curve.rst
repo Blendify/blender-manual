@@ -15,7 +15,7 @@ When you move the object beyond the curve endings the object will continue
 to deform based on the direction vector of the curve endings.
 
 If the curve is 3D, the *Tilt* value of its control points will be used to twist the deformed object.
-And the *Radius* property control the size of the object as well.
+And the *Radius* property controls the size of the object as well.
 
 In the :menuselection:`Properties editor --> Curve tab --> Shape panel`
 under :ref:`Path/Curve-Deform <curve-shape-path-curve-deform>`

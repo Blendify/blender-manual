@@ -161,9 +161,9 @@ Batch Mode
       in the group for animated actions to work.
    Own Dir
       When enabled, each file is exported into its own directory,
-      this is useful when using the *Copy Images* option. so each directory contains
-      one model with all the images it uses. Note, this requires a full Python installation
-      if you do not have a full Python installation this button will not be shown.
+      this is useful when using the *Copy Images* option. So each directory contains
+      one model with all the images it uses. Note, this requires a full Python installation.
+      If you do not have a full Python installation, this button will not be shown.
 
 
 Geometries
