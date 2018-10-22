@@ -63,7 +63,7 @@ Preview
 Scene
    To select the linked scene.
 No Z-buffer
-   Should be activate for a non Z-buffer in the Z input.
+   Should be activated for a non Z-buffer in the Z input.
    No Z-buffer will be enabled automatically
    whenever a node that is not image based is connected to the Z input.
 Z Scale
@@ -150,9 +150,9 @@ Edge Artifacts
    A typical example is a scene with some object very close to the camera,
    and the camera focusing on some point far behind it. In the real world, using shallow depth of field,
    it is not impossible for nearby objects to become completely invisible,
-   in effect allowing the camera to see behind it.
+   in effect allowing the camera to see behind them.
    Hollywood cinematographers use this visual characteristic to
-   to achieve the popular "focus pull" effect,
+   achieve the popular "focus pull" effect,
    where the focus shifts from a nearby to a distant object, such that the "other" object all but disappears.
    Well, this is simply not possible to do with the current post-processing method in a single pass.
    If you really want to achieve this effect, quite satisfactorily, here is how:

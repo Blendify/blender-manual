@@ -8,7 +8,7 @@ Cache
 
    :Panel:     :menuselection:`Particle System --> Cache`
 
-In order to increase real-time response and avoid unnecessary recalculation of particles,
+In order to improve real-time response and avoid unnecessary recalculation of particles,
 the particle data can be cached in memory or stored on a drive.
 
 The *Emitter* particle system uses a unified system for caching and baking (together with Soft Body and Cloth).
@@ -27,7 +27,7 @@ Hints
 
 - The simulation is only calculated for positive frames
   in between the *Start* and *End* frames of the *Cache* panel, whether you bake or not.
-  So if you want a simulation that is longer than the default frame range you have to change the *End* frame.
+  So if you want a simulation that is longer than the default frame range, you have to change the *End* frame.
 - When an animation is played, each physics system writes each frame to the cache.
   Note that for the cache to fill up, one has to start the playback before or on the frame that the simulation starts.
 - The cache is cleared automatically on changes. But not on all changes,
