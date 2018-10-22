@@ -198,7 +198,7 @@ but rather create a new one, as if *Overdraw Sketching* was disabled.
 Gestures
 ========
 
-There quite a few things about strokes editing that are only available through gestures.
+There are quite a few things about strokes editing that are only available through gestures.
 Gestures are started by clicking and holding :kbd:`Shift-LMB`
 (when you are not already drawing a stroke), and materialized by blue-to-white lines.
 A gesture can affect several strokes at once.
@@ -244,7 +244,7 @@ To *cut* a segment (i.e. add a new black dot inside it, making two segments out 
 Delete
 ------
 
-To *delete* a stroke, draw a "V" crossing the stroke to delete twice.
+To *delete* a stroke, draw a "V" crossing twice the stroke to delete.
 
 .. list-table::
 

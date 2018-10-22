@@ -50,7 +50,7 @@ Root Texture Coordinates
    the particle root position for all parts of the hair strand.
 2D
    The *2D* button disregards the particles Z coordinate
-   and only uses particles x&y as the texture coordinates.
+   and only uses particles X & Y as the texture coordinates.
 
 Remember that only procedural texture are truly 3D.
 

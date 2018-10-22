@@ -149,7 +149,7 @@ will be a predator to all other boids particle systems,
 and a positive field will be a goal to all other boids particle systems.
 
 These effectors could be predators (negative Strength)
-that boids try to avoid or targets (positive Strength)
+that boids try to avoid, or targets (positive Strength)
 that boids try to reach according to the (respectively) Avoid and Goal rules' weights.
 Force's effective Strength is multiplied by the actual relevant weight
 (e.g. if either Strength or Goal is null, then a flock of boids will not track a positive force field).

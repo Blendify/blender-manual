@@ -16,7 +16,7 @@ patterns and other textures in the same way as shader writing with
    Combined textures based on nodes.
 
 These textures can be used in the same places as regular textures:
-They can be placed in texture channels, in material nodes, in particle systems,
+they can be placed in texture channels, in material nodes, in particle systems,
 and even inside other textures.
 
 .. note::
