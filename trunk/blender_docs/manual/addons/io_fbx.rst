@@ -43,7 +43,7 @@ The exporter can bake mesh modifiers and animation into the FBX so the final res
 .. note:: Saving Just Animations
 
    The FBX file format supports files that only contain takes.
-   It is up to you to keep track of which animations belongs to which model.
+   It is up to you to keep track of which animation belongs to which model.
    The animation that will be exported is the currently selected action within the Action editor.
    To reduce the file size, turn off the exporting of any parts you do not want and disable *All Actions*.
    For armature animations typically you just leave the armature enabled which is necessary for that type of animation.
@@ -136,7 +136,7 @@ Custom Properties
 Path Mode
    When referencing paths in exported files you may want some control as to the method used since absolute paths
    may only be correct on you're own system. Relative paths on the other hand are more portable
-   but mean that you have to keep your files grouped when moving about on you're local file system.
+   but mean that you have to keep your files grouped when moving about on your local file system.
    In some cases the path doesn't matter since the target application will search
    a set of predefined paths anyway so you have the option to strip the path too.
 
@@ -245,11 +245,11 @@ Missing
 Some of the following features are missing because they
 are not supported by the FBX format, others may be added later.
 
-- Object instancing -- exported objects do not shared data,
+- Object instancing -- exported objects do not share data,
   instanced objects will each be written with their own data.
 - Material textures -- only texface images are supported.
 - Vertex shape keys -- FBX supports them but this exporter does not write them yet.
-- Animated fluid simulation -- FBX does not support this kind of animation,
+- Animated fluid simulation -- FBX does not support this kind of animation.
   You can however use the OBJ exporter to write a sequence of files.
 - Constraints -- The result of using constraints is exported as a keyframe animation
   however the constraints themselves are not saved in the FBX.
