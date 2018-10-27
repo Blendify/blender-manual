@@ -7,7 +7,7 @@ This Mode allows you adjust the timing of the :doc:`Grease pencil tool's </inter
 animated sketches. It is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
-This mode can be accessed by change the Dope Sheet editor's *Mode* selector (found beside the menus)
+This mode can be accessed by changing the Dope Sheet editor's *Mode* selector (found beside the menus)
 to *Grease Pencil*.
 
 .. figure:: /images/editors_dope-sheet_introduction_overview.png
@@ -21,8 +21,8 @@ Grease Pencil (light blue)
    The channels region shows the Grease Pencil data-blocks containing the layers.
    Multiple blocks are used for each area (e.g. one for the 3D View and the UV/Image editor).
 Layers (gray)
-   This channels contain the keyframes to which
-   the :doc:`layer </interface/grease_pencil/drawing/layers>` are bind.
+   These channels contain the keyframes to which
+   the :doc:`layers </interface/grease_pencil/drawing/layers>` are bound.
 
 
 Header

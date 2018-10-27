@@ -73,7 +73,7 @@ however modifiers and constraints may depend on object transformation.
    this does **not** apply to their pose location, animation curves or constraints.
    This tool should be used before rigging and animation.
 
-When running *Apply Transform* the Operator panel lets you choose the combination of transformations to apply.
+When running *Apply Transform*, the Operator panel lets you choose the combination of transformations to apply.
 
 
 Options
