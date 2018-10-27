@@ -6,7 +6,7 @@ Introduction
 The NLA editor, short for Non-Linear Animation, can manipulate and repurpose :doc:`/animation/actions`,
 without the tedium of handling keyframes. It is often used to make broad,
 significant changes to a scene's animation, with relative ease.
-It can also re-purpose, chain together a sequence of motions, and "layer" actions, which make it easier to organize,
+It can also repurpose, chain together a sequence of motions, and "layer" actions, which make it easier to organize,
 and version-control your animation.
 
 
@@ -40,7 +40,7 @@ within an animation. Like with most animation editors, markers are shown at the 
 
    Markers in animation editor.
 
-For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
+For descriptions of the different marker tools, see :ref:`Editing Markers <animation-markers-editing>`.
 
 
 Edit Menu

@@ -51,10 +51,10 @@ Lines
 Split/Keep Vertex Order
    When importing an OBJ it's useful to split up the objects into Blender objects,
    named according to the OBJ-file. However, this splitting looses the vertex order which
-   is needed when using OBJ-files as morph targets. It also looses any vertices's that
+   is needed when using OBJ-files as morph targets. It also looses any vertices that
    are not connected to a face so this must be disabled if you want to keep the vertex order.
 Split by Object & Split by Group
-   When importing an OBJ its useful to split up the objects into Blender objects,
+   When importing an OBJ it's useful to split up the objects into Blender objects,
    named according to the OBJ-file. However, this splitting looses the vertex order which
    is needed when using OBJ-files as morph targets. It also looses any vertices that
    are not connected to a face, so this must be disabled if you want to keep the vertex order.
@@ -70,7 +70,7 @@ Forward / Up Axis
    between applications default up and forward axis.
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
-   For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
+   For example, it's common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
 Image Search
    This enables a recursive file search if an image file can't be found.
 

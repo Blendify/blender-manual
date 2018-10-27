@@ -24,7 +24,7 @@ Transition Strips
 
 Transitions interpolate between Actions. They must be placed in between other strips.
 Select two or more strips on the same track,
-and go to: :menuselection:`Add --> Transition`.
+and go to :menuselection:`Add --> Transition`.
 
 .. figure:: /images/editors_nla_strips_basics-transition.png
 
@@ -43,7 +43,7 @@ Meta Strips
 
 Meta strips group strips together as a whole, so you can move them as one.
 If you find yourself moving a lot of strips together, you can group them into a Meta strip.
-A meta strip can be moved and duplicated like a normal strip.
+A Meta strip can be moved and duplicated like a normal strip.
 
 .. admonition:: Reference
    :class: refbox
@@ -63,7 +63,7 @@ A meta strip can be moved and duplicated like a normal strip.
 
           Combine them into a meta strip.
 
-A meta strip still contains the underlying strips. You can ungroup a Meta strip.
+A Meta strip still contains the underlying strips. You can ungroup a Meta strip.
 
 .. admonition:: Reference
    :class: refbox
@@ -99,7 +99,7 @@ The keyframes of the action can then be edited in the Dope Sheet.
 
           Strip in Tweak mode.
 
-When your finished editing the strip, simply go to :menuselection:`Edit --> Tweaking Strips Action`
+When you finished editing the strip, simply go to :menuselection:`Edit --> Tweaking Strips Action`
 or press :kbd:`Tab`.
 
 
