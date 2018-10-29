@@ -39,7 +39,7 @@ Crease :kbd:`Shift-C`
    Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
 Fill/Deepen
    Works like the Flatten brush, but only brings vertices below the brush plane upwards.
-   The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
+   The inverse of the *Fill* brush is to *Deepen* by pushing vertices below the plane downward.
 Flatten/Contrast :kbd:`Shift-T`
    The *Flatten* brush determines an "area plane"
    located by default at the average height above/below the vertices within the brush area.
