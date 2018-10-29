@@ -73,7 +73,7 @@ afterload: function() {
 	var lang = DOCUMENTATION_OPTIONS.LANGUAGE;
 	if(lang === "None" || lang === undefined) {lang = "en";}
 	
-	this.warn_old(release, all_versions.latest);
+	this.warn_old(release, all_versions.current);
 	
 	var version = this.get_named(release);
 	if(this.type) {this.label = all_versions[version];}else{this.label = all_langs[lang];}
@@ -89,9 +89,9 @@ afterload: function() {
 	this.$btn.on("mousedown", function(e){that.btnhandler(); e.preventDefault()});
 	this.$btn.on("keypress", function(e){ if(that.keybtnfilter(e)){that.btnhandler();} });
 },
-warn_old: function(release, latest) {
-  if (release < latest) {
-    var currentURL = window.location.pathname.replace(release, latest);
+warn_old: function(release, current) {
+  if (release < current) {
+    var currentURL = window.location.pathname.replace(release, current);
     var warning = $(
         '<div class="admonition warning"> ' +
         '<p class="first admonition-title">Note</p> ' +
@@ -104,7 +104,7 @@ warn_old: function(release, latest) {
     warning
       .find('a')
       .attr('href', currentURL)
-      .text(latest);
+      .text(current);
 
     var body = $("div.body");
     if (!body.length) {body = $("div.document");}
