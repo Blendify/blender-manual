@@ -38,12 +38,11 @@ Subsurface
    Rather than being a simple mix between Diffuse and Subsurface Scattering,
    it acts as a multiplier for the Subsurface Radius.
 Subsurface Radius
-   Average scattering distance for RGB channels.
+   Average distance that light scatters below the surface. Higher radius gives a softer appearance, as light bleeds into shadows and through the object. The scattering distance is specified separately for the RGB channels, to render materials such as skin where red light scatters deeper. The X, Y and Z values are mapped to the R, G and B values, respectively.
 Subsurface Color
    Subsurface scattering base color.
 Metallic
-   Mix between dielectric (diffuse and specular with possible transparency)
-   and metallic (fully specular with complex Fresnel).
+   Blends between a non-metallic and and metallic material model. A value of 1.0 gives a fully specular reflection tinted with the base color, without diffuse reflection or transmission. At 0.0 the material consists of a diffuse or tranmissive base layer, with a specular reflection layer on top.
 Specular
    Amount of dielectric specular reflection. Specifies facing (along normal)
    reflectivity in the most common 0 - 8% range.
@@ -75,7 +74,7 @@ Roughness
       When converting from the older *Glossy BSDF* node, use the square root of the original value.
 
 Anisotropic
-   Amount of anisotropy for specular reflection.
+   Amount of anisotropy for specular reflection. Higher values give elongated highlights along the tangent direction; negative values give highlights shaped perpendicular to the tangent direction.
 Anisotropic Rotation
    Rotates the direction of anisotropy, with 1.0 going full circle.
 
