@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:5
+msgid "Principled BSDF"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:10
+msgid "Principled BSDF."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:12
+msgid ""
+"The *Principled* :abbr:`BSDF (Bidirectional scattering distribution "
+"function)` that combines multiple layers into a single easy to use node. "
+"It is based on the Disney principled model also known as the \"PBR\" "
+"shader, making it compatible with other software such as Pixar's "
+"Renderman\\ :sup:`®` and Unreal Engine\\ :sup:`®`. Image textures painted"
+" or baked from software like Substance Painter\\ :sup:`®` may be directly"
+" linked to the corresponding parameters in this shader."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:20
+msgid ""
+"This \"Uber\" shader includes multiple layers to create a wide variety of"
+" materials. The base layer is a user controlled mix between diffuse, "
+"metal, subsurface scattering and transmission. On top of that there is a "
+"specular layer, sheen layer and clearcoat layer."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:27
+msgid ""
+"The emphasis on compatibility with other software means that it "
+"interprets certain input parameters differently from older Blender nodes."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:32
+msgid "Inputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:34
+msgid "Base Color"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:35
+msgid "Diffuse or metal surface color."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:38
+msgid "Subsurface"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:37
+msgid ""
+"Mix between diffuse and subsurface scattering. Rather than being a simple"
+" mix between Diffuse and Subsurface Scattering, it acts as a multiplier "
+"for the Subsurface Radius."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:40
+msgid "Subsurface Radius"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:41
+msgid "Average scattering distance for RGB channels."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:42
+msgid "Subsurface Color"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:43
+msgid "Subsurface scattering base color."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:45
+msgid "Metallic"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:45
+msgid ""
+"Mix between dielectric (diffuse and specular with possible transparency) "
+"and metallic (fully specular with complex Fresnel)."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:63
+msgid "Specular"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:48
+#, python-format
+msgid ""
+"Amount of dielectric specular reflection. Specifies facing (along normal)"
+" reflectivity in the most common 0 - 8% range."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:53
+msgid ""
+"To compute this value for a realistic material with a known index of "
+"refraction, you may use this special case of the Fresnel formula: "
+":math:`specular = ((ior - 1)/(ior + 1))^2 / 0.08`"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:57
+msgid "For example:"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:59
+msgid "water: ior = 1.33, specular = 0.25"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:60
+msgid "glass: ior = 1.5, specular = 0.5"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:61
+msgid "diamond: ior = 2.417, specular = 2.15"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:63
+#, python-format
+msgid ""
+"Since materials with reflectivity above 8% do exist, the field allows "
+"values above 1."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:68
+msgid "Specular Tint"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:66
+msgid ""
+"Tints the facing specular reflection using the base color, while glancing"
+" reflection remains white."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:68
+msgid ""
+"Normal dielectrics have colorless reflection, so this parameter is not "
+"technically physically correct and is provided for faking the appearance "
+"of materials with complex surface structure."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:75
+msgid "Roughness"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:71
+msgid ""
+"Specifies microfacet roughness of the surface for diffuse and specular "
+"reflection."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:75
+msgid ""
+"When converting from the older *Glossy BSDF* node, use the square root of"
+" the original value."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:77
+msgid "Anisotropic"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:78
+msgid "Amount of anisotropy for specular reflection."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:85
+msgid "Anisotropic Rotation"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:80
+msgid "Rotates the direction of anisotropy, with 1.0 going full circle."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:84
+msgid ""
+"Compared to the *Anisotropic BSDF* node, the direction of highlight "
+"elongation is rotated by 90°. Add 0.25 to the value to correct."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:88
+msgid "Sheen"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:88
+msgid ""
+"Amount of soft velvet like reflection near edges, for simulating "
+"materials such as cloth."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:90
+msgid "Sheen Tint"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:91
+msgid "Mix between white and using base color for sheen reflection."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:93
+msgid "Clearcoat"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:93
+msgid ""
+"Extra white specular layer on top of others. This is useful for materials"
+" like car paint and the like."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:95
+msgid "Clearcoat Roughness:"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:96
+msgid "Roughness of clearcoat specular."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:97
+msgid "IOR"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:98
+msgid "Index of refraction for transmission."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:99
+msgid "Transmission"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:100
+msgid ""
+"Mix between fully opaque surface at zero and fully glass like "
+"transmission at one."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:101
+msgid "Transmission Roughness"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:102
+msgid "With **GGX** distribution controls roughness used for transmitted light."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:103
+msgid "Normal"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:104
+msgid "Controls the normals of the base layers."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:105
+msgid "Clearcoat Normal"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:106
+msgid "Controls the normals of the *Clearcoat* layer."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:109
+msgid "Tangent"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:108
+msgid "Controls the tangent for the *Anisotropic* layer."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:112
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:123
+msgid "Distribution"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:115
+msgid "Microfacet distribution to use."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:118
+msgid "GGX"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:118
+msgid ""
+"A method that is faster than *Multiple-scattering GGX* but is less "
+"physically accurate. Selecting it enables the *Transmission Roughness* "
+"input."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:123
+msgid "Multiple-scattering GGX"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:121
+msgid ""
+"Takes multiple bounce (scattering) events between microfacets into "
+"account. This gives a more energy conserving results, which would "
+"otherwise be visible as excessive darkening."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:138
+msgid "Subsurface Method"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:126
+msgid "Rendering method to simulate subsurface scattering."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:129
+msgid "Christensen-Burley"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:129
+msgid ""
+"Is an approximation to physically-based volume scattering. Gives less "
+"blurry results than Cubic and Gaussian functions."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:138
+msgid "Random Walk"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:132
+msgid ""
+"Provides the most accurate results for thin and curved objects. This "
+"comes at the cost of increased render time or noise for more dense media "
+"like skin, but also better geometry detail preservation. Random Walk uses"
+" true volumetric scattering inside the mesh, which means that it works "
+"best for closed meshes. Overlapping faces and holes in the mesh can cause"
+" problems."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:141
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:145
+msgid "BSDF"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:144
+msgid "Standard shader output."
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:148
+msgid "Examples"
+msgstr ""
+
+#: ../../manual/render/cycles/nodes/types/shaders/principled.rst:150
+msgid ""
+"Below are some examples of how all the Principled BSDF's parameters "
+"interact with each other."
+msgstr ""
+

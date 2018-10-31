@@ -1,0 +1,661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/camera/object_data.rst:5
+msgid "Object Data"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:7
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst
+msgid "Mode"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:10
+msgid "Object Mode"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst
+msgid "Editor"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:11
+msgid ":menuselection:`Properties -->  Camera`"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:13
+msgid ""
+"Cameras are invisible in renders, so they do not have any material or "
+"texture settings. However, they do have *Object* and *Editing* setting "
+"panels available which are displayed when a camera is the selected "
+"(active!) object."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:19
+msgid "Lens"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:23
+msgid "Camera Lens panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:25
+msgid ""
+"The camera lens options control the way 3D objects are represented in a "
+"2D image."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:31
+msgid "Lens Type"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:33
+msgid "There are three different lens types:"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:35
+msgid "`Perspective`_"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:36
+msgid "`Orthographic`_"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:37
+msgid "`Panoramic`_"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:41
+msgid "Perspective"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:43
+msgid ""
+"This matches how you view things in the real world. Objects in the "
+"distance will appear smaller than objects in the foreground, and parallel"
+" lines (such as the rails on a railroad) will appear to converge as they "
+"get farther away."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:49
+msgid "Render of a train track scene with a *Perspective* camera."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:51
+msgid "Settings which adjust this projection include:"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:53
+#: ../../manual/render/blender_render/camera/object_data.rst:66
+msgid "Focal length"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:54
+msgid "`Shift`_"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:55
+msgid ":ref:`Sensor size <render-camera-sensor-size>`"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:58
+msgid ""
+"The :term:`focal length` setting controls the amount of zoom, i.e. the "
+"amount of the scene which is visible all at once. Longer focal lengths "
+"result in a smaller :abbr:`FOV (Field of View)` (more zoom), while short "
+"focal lengths allow you to see more of the scene at once (larger "
+":abbr:`FOV (Field of View)`, less zoom)."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:66
+msgid ""
+"Render of the same scene as above, but with a focal length of 210mm "
+"instead of 35mm."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:70
+msgid "Lens Unit"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:69
+msgid ""
+"The focal length can be set either in terms of millimeters or the actual "
+":term:`Field of View` as an angle."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:73
+msgid "Orthographic"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:75
+msgid ""
+"With *Orthographic* perspective objects always appear at their actual "
+"size, regardless of distance. This means that parallel lines appear "
+"parallel, and do not converge like they do with *Perspective*."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:80
+msgid ""
+"Render from the same camera angle as the previous examples, but with "
+"orthographic perspective."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:88
+msgid "Orthographic Scale"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:83
+msgid "This controls the apparent size of objects in the camera."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:85
+msgid ""
+"Note that this is effectively the only setting which applies to "
+"orthographic perspective. Since parallel lines do not converge in "
+"orthographic mode (no vanishing points), the lens shift settings are "
+"equivalent to translating the camera in the 3D View."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:91
+msgid "Panoramic"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:93
+msgid ""
+"Panoramic cameras are only supported in the Cycles Renderer. See "
+":ref:`the Cycles documentation <cycles-panoramic-camera>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:98
+msgid "Shift"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:100
+msgid ""
+"The *Shift* setting allows for the adjustment of *vanishing points*. "
+"*Vanishing points* refer to the positions to which parallel lines "
+"converge. In this example, the most obvious vanishing point is at the end"
+" of the railroad."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:104
+msgid "To see how this works, take the following examples:"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:108
+msgid "Render of a train track scene with a horizontal lens shift of 0.330."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:112
+msgid ""
+"Render of a train track scene with a rotation of the camera object "
+"instead of a lens shift."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:114
+msgid ""
+"Notice how the horizontal lines remain perfectly horizontal when using "
+"the lens shift, but do get skewed when rotating the camera object."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:117
+msgid ""
+"Using lens shift is equivalent to rendering an image with a larger "
+":abbr:`FOV (Field of View)` and cropping it off-center."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:124
+msgid "Clipping"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:128
+msgid "Clip Start and End"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:127
+msgid ""
+"The interval in which objects are directly visible; Only objects within "
+"the limits are rendered."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:130
+msgid ""
+"For OpenGL display, setting clipping distances to limited values is "
+"important to ensure sufficient rasterization precision. Ray tracing "
+"renders do not suffer from this issue so much, and as such more extreme "
+"values can safely be set."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:135
+msgid ""
+"When *Limits* in the *Display* panel is enabled, the clip bounds will be "
+"visible as two yellow connected dots on the camera line of sight."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:140
+msgid ""
+"Changing the clipping value can have a serious impact on render "
+"performance. It is important to always set the *Start* and *End* values "
+"to a safe distance that is both not too extreme, nor too small to have "
+"the best possible render times."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:146
+msgid ":ref:`Blender Render Camera Clipping <camera-clipping>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:147
+msgid ":doc:`3D View clipping </editors/3dview/properties/panels>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:151
+msgid "Camera"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:155
+msgid "Camera Presets panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:158
+msgid "Camera Presets"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:158
+msgid ":ref:`Presets <ui-presets>` to match real cameras."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:164
+msgid "Sensor size"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:163
+msgid ""
+"This setting is an alternative way to control the focal length, it is "
+"useful to match the camera in Blender to a physical camera & lens "
+"combination, e.g. for :doc:`motion tracking "
+"</editors/movie_clip_editor/index>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:168
+msgid "Sensor Fit"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:167
+msgid ""
+"Option to control which dimension (vertical or horizontal) along which "
+"field of view angle fits."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:171
+msgid "Depth of Field"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:175
+msgid "Camera Depth of Field panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:177
+msgid ""
+"Real-world cameras transmit light through a lens that bends and focuses "
+"it onto the sensor. Because of this, objects that are a certain distance "
+"away are in focus, but objects in front and behind that are blurred."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:181
+msgid ""
+"The area in focus is called the *focal point* and can be set using either"
+" an exact value, or by using the distance between the camera and a chosen"
+" object:"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:186
+msgid "Focus Object"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:185
+msgid ""
+"Choose an object which will determine the focal point. Linking an object "
+"will deactivate the distance parameter. Typically this is used to give "
+"precise control over the position of the focal point, and also allows it "
+"to be animated or constrained to another object."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:195
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:189
+msgid ""
+"Sets the distance to the focal point when no *Focus Object* is specified."
+" If *Limits* are enabled, a yellow cross is shown on the camera line of "
+"sight at this distance."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:194
+msgid ""
+"Hover the mouse over the *Distance* property and press :kbd:`E` to use a "
+"special *Depth Picker*. Then click on a point in the 3D View to sample "
+"the distance from that point to the camera."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:199
+msgid "High Quality"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:198
+msgid ""
+"In order for the viewport to offer an accurate representation of depth of"
+" field (blur radius calculation), like a render, you must enable High "
+"Quality. Without it, you may notice a difference in shading. (Grayed out "
+"if not supported by the GPU)."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:204
+msgid "Viewport F-stop"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:202
+msgid ""
+"Controls the real-time focal blur effect used during sequencer or OpenGL "
+"rendering and, when enabled, camera views in the 3D View. The amount of "
+"blur depends on this setting, along with Focal Length and Sensor Size. "
+"Smaller Viewport F-stop values result in more blur."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:209
+msgid "Blades"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:207
+msgid ""
+"Add a number of polygonal *blades* to the blur effect, in order to "
+"achieve a *bokeh effect* in the viewport. To enable this feature, the "
+"blades must be set to at least 3 (3 sides, triangle)."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:213
+msgid "The viewport bokeh effect with the blades set to 3."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:217
+msgid "Display"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:221
+msgid "Camera Display panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:223
+msgid "Limits"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:224
+msgid "Shows a line which indicates *Start* and *End Clipping* values."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:229
+msgid "Mist"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:226
+msgid ""
+"Toggles viewing of the mist limits on and off. The limits are shown as "
+"two connected white dots on the camera line of sight. The mist limits and"
+" other options are set in the *World* panel, in the :doc:`Mist section "
+"</render/blender_render/world/mist>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:233
+msgid "Camera view displaying safe areas, sensor and name."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:235
+msgid "Sensor"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:236
+msgid "Displays a dotted frame in camera view."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:237
+msgid "Name"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:238
+msgid "Toggle name display on and off in camera view."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:240
+msgid "Size"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:240
+msgid ""
+"Size of the camera visualization in the 3D View. This setting has **no** "
+"effect on the render output of a camera. The camera visualization can "
+"also be scaled using the standard Scale :kbd:`S` transform key."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:247
+msgid "Passepartout"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:243
+msgid "This option darkens the area outside of the camera's field of view."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:247
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:246
+msgid "Controls the transparency of the passepartout mask."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:250
+msgid "Composition Guides"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:252
+msgid ""
+"*Composition Guides* are available from the menu, which can help when "
+"framing a shot. There are eight types of guides available:"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:255
+msgid "Center"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:256
+msgid "Adds lines dividing the frame in half vertically and horizontally."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:257
+msgid "Center Diagonal"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:258
+msgid "Adds lines connecting opposite corners."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:259
+msgid "Thirds"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:260
+msgid "Adds lines dividing the frame in thirds vertically and horizontally."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:261
+msgid "Golden"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:262
+msgid ""
+"Divides the width and height into Golden proportions (about 0.618 of the "
+"size from all sides of the frame)."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:264
+msgid "Golden Triangle A"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:264
+msgid ""
+"Draws a diagonal line from the lower left to upper right corners, then "
+"adds perpendicular lines that pass through the top left and bottom right "
+"corners."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:266
+msgid "Golden Triangle B"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:267
+#: ../../manual/render/blender_render/camera/object_data.rst:272
+msgid "Same as A, but with the opposite corners."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:269
+msgid "Harmonious Triangle A"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:269
+msgid ""
+"Draws a diagonal line from the lower left to upper right corners, then "
+"lines from the top left and bottom right corners to 0.618 the lengths of "
+"the opposite side."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:273
+msgid "Harmonious Triangle B"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:280
+msgid "Safe Areas"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:282
+msgid ""
+"Safe areas are guides used to position elements to ensure that the most "
+"important parts of the content can be seen across all screens."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:285
+msgid ""
+"Different screens have varying amounts of :term:`overscan` (especially "
+"older TV sets). That means that not all content will be visible to all "
+"viewers, since parts of the image surrounding the edges are not shown. To"
+" work around this problem TV producers defined two areas where content is"
+" guaranteed to be shown: action safe and title safe."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:291
+msgid ""
+"Modern LCD/plasma screens with purely digital signals have no "
+":term:`overscan`, yet safe areas are still considered best practice and "
+"may be legally required for broadcast."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:294
+msgid "In Blender, safe areas can be set from the Camera and Sequencer views."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:298
+msgid ""
+"The Safe areas panel found in the camera properties, and the view mode of"
+" the Sequencer."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:301
+msgid ""
+"The Safe Areas can be customized by their outer margin, which is a "
+"percentage scale of the area between the center and the render size. "
+"Values are shared between the Video Sequence editor and camera view."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:307
+msgid "Main Safe Areas"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:311
+msgid "Red line: Action safe. Green line: Title safe."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:315
+msgid "Title Safe"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:314
+msgid ""
+"Also known as *Graphics Safe*. Place all important information (graphics "
+"or text) inside this area to ensure it can be seen by the majority of "
+"viewers."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:320
+msgid "Action Safe"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:318
+msgid ""
+"Make sure any significant action or characters in the shot are inside "
+"this area. This zone also doubles as a sort of \"margin\" for the screen "
+"which can be used to keep elements from piling up against the edges."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:322
+msgid "Legal Standards"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:324
+msgid ""
+"Each country sets a legal standard for broadcasting. These include, among"
+" other things, specific values for safe areas. Blender defaults for safe "
+"areas follow the EBU (European Union) standard. Make sure you are using "
+"the correct values when working for broadcast to avoid any trouble."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:331
+msgid "Center-Cuts"
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:335
+msgid "Cyan line: action center safe. Blue line: title center safe."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:337
+msgid ""
+"Center-cuts are a second set of safe areas to ensure content is seen "
+"correctly on screens with a different aspect ratio. Old TV sets receiving"
+" ``16:9`` or ``21:9`` video will cut off the sides. Position content "
+"inside the center-cut areas to make sure the most important elements of "
+"your composition can still be visible in these screens."
+msgstr ""
+
+#: ../../manual/render/blender_render/camera/object_data.rst:343
+msgid ""
+"Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (wide-"
+"screen)."
+msgstr ""
+

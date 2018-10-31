@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:4
+msgid "Navigation Mesh Physics"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:6
+msgid ""
+"Pathfinding in Blender is based on the concept of `navigation meshes "
+"<http://en.wikipedia.org/wiki/Navigation_mesh>`__. With this you can "
+"create navigation mesh for your level geometry directly in Blender and "
+"use it in Blender Game Engine (BGE) to get your actors to find path to "
+"the target and move along it. It is useful for creating an artificial "
+"intelligence. Besides path following, there are also a few other steering"
+" behaviors which can be assigned to the actor: *seek* and *flee*."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:14
+msgid ""
+"Pathfinding with a navigation mesh is most effective for big static "
+"obstacles. To enable actors to avoid small dynamic objects during their "
+"movement local obstacle avoidance can be used. If the obstacle simulation"
+" is enabled the actor will try to choose direction which is free of "
+"collision with obstacles on each frame during execution of one of the "
+"steering behaviors."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:21
+msgid "Usage"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:25
+msgid ""
+"To setup a navigation mesh access: *Physics* buttons and set the *Physics"
+" Type* to *Navigation Mesh*."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:27
+msgid "Now the following tools will be accessible."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:29
+msgid "NavMesh Copy Face Index"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:30
+msgid ""
+"Copies the navigation polygon index from the active face to selected "
+"faces."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:32
+msgid "NavMesh New Face Index"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:32
+msgid "Adds a new navigation polygon index to selected faces."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:34
+msgid "NavMesh Reset Index Values"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:35
+msgid "Assigns a new index to every face."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "NavMesh Clear Data"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/navigation_mesh.rst:37
+msgid "Removes the navigation data from the mesh."
+msgstr ""
+

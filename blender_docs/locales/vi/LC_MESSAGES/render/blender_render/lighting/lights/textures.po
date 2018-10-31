@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/lighting/lights/textures.rst:4
+msgid "Lamps Textures"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/textures.rst:8
+msgid "Lamp Texture panels."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/textures.rst:10
+msgid ""
+"When a new lamp is added, it produces light in a uniform, flat color. "
+"While this might be sufficient in simple renderings, more sophisticated "
+"effects can be accomplished through the use of :doc:`textures "
+"</render/blender_render/textures/index>`. Subtle textures can add visual "
+"nuance to a lamp, while hard textures can be used to simulate more "
+"pronounced effects, such as a disco ball, dappled sunlight breaking "
+"through treetops, or even a projector. These textures are assigned to one"
+" of ten channels, and behave exactly like material textures, except that "
+"they affect a lamp's color and intensity, rather than a material's "
+"surface characteristics."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/textures.rst:20
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/textures.rst:22
+msgid ""
+"The lamp textures settings are grouped into two panels. Here we will only"
+" talk about the few things that differ from object material textures; see"
+" the :doc:`Materials </render/blender_render/materials/index>` and "
+":doc:`Textures </render/blender_render/textures/index>` chapters for "
+"details about the standard options."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/textures.rst:27
+msgid ""
+"The texture-specific and the *Mapping* panels remain the same. However, "
+"you will note there are much fewer *Mapping* options. You can only choose"
+" between *Global*, *View* or another *Object*\\ 's texture *coordinates* "
+"(since a lamp has no texture coordinates by itself), and you can scale or"
+" offset the texture."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/textures.rst:32
+msgid ""
+"The *Mapping* panel is also a subset of its regular material's "
+"counterpart. You can only map a lamp texture to its regular, basic "
+"*Color* and/or to its *Shadow* color. As you can only affect colors, and "
+"a lamp has no texture coordinates on its own, the *Diffuse*, *Specular*, "
+"*Shading*, and *Geometry* options have disappeared."
+msgstr ""
+

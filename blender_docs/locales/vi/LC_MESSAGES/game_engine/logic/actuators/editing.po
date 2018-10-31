@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:4
+msgid "Actuator Editing"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:9
+msgid "Actuator Column with a typical actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:11
+msgid ""
+"Blender actuators can be set up and edited in the right-hand column of "
+"the Logic Panel. This page describes the general column controls, and "
+"also those parameters which are common to all individual actuator types."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:15
+msgid ""
+"The image shows a typical actuator column with a single example actuator."
+" At the top of this column, the column heading includes menus and buttons"
+" to control which of all the actuators in the current Game Logic are "
+"displayed."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:21
+msgid "Column Heading"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:26
+msgid "Actuator Column heading."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:28
+msgid ""
+"The column headings contain controls to set which actuators, and the "
+"level of detail given, in the actuator column. This is very useful for "
+"hiding unnecessary actuators, so that the necessary ones are visible and "
+"easier to reach. Both these can be controlled individually."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:36
+msgid "Actuators"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:37
+msgid "Show Objects"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:38
+msgid "Expands all objects."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:39
+msgid "Hide Objects"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:40
+msgid "Collapses all objects to just a bar with their name."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:41
+msgid "Show Actuators"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:42
+msgid "Expands all actuators."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:44
+msgid "Hide Actuators"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:44
+msgid "Collapses all actuators to bars with their names."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:46
+msgid ""
+"It is also possible to filter which actuators are viewed using the four "
+"heading buttons:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:48
+msgid "Sel"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:49
+msgid "Shows all actuators for selected objects."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:50
+msgid "Act"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:51
+msgid "Shows only actuators belonging to the active object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:52
+msgid "Link"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:53
+msgid "Shows actuators which have a link to a controller."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:56
+msgid "State"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:55
+msgid "Only actuators connected to a controller with active states are shown."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:59
+msgid "Object Heading"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:64
+msgid "Actuator Object heading."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:66
+msgid ""
+"In the column list, actuators are grouped by object. By default, "
+"actuators for every selected object appear in the list, but this may be "
+"modified by the column heading filters."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:70
+msgid "At the head of each displayed object sensor list, two entries appear:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:72
+msgid "Name"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:73
+msgid "The name of the object."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Add"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/editing.rst:75
+msgid ""
+"When clicked, a menu appears with the available actuator types. Selecting"
+" an entry adds a new actuator to the object. See :doc:`Actuators "
+"</game_engine/logic/actuators/index>` for list of available actuator "
+"types."
+msgstr ""
+

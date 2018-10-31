@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/physics/types/static.rst:4
+msgid "Static Physics"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:6
+msgid ""
+"Static objects participates in the simulation, affecting other objects, "
+"but are not affected by it. Meaning they do not react to physics, "
+"including gravity and collisions and this way will remain unresponsive in"
+" terms of location, rotation, or deformation."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:10
+msgid ""
+"It will, however, give collision reactions. Objects will bounce off of "
+"Static Objects, and rotational inertia will transfer to objects capable "
+"of rotating (that is, rigid body objects will spin in response, though "
+"Dynamic Objects will not)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:14
+msgid ""
+"Note that none of this prevents you from transforming the Static Objects "
+"with :doc:`Logic Bricks </game_engine/logic/index>` or Python code. The "
+"visual objects will correctly move and their physics representation will "
+"update in the engine as well."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:18
+msgid ""
+"Another important note is that the default `Collision Bounds`_ is a "
+"Triangle Mesh, meaning it is higher in computational requirements but "
+"also in detail. This in turn means the \"Radius\" option has no effect by"
+" default."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:23
+msgid ""
+"For more documentation, see the general :doc:`physics page "
+"</game_engine/physics/index>`."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:27
+msgid "Options"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:29
+msgid "bpy Access"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:31
+msgid ""
+"Note that, most of these properties are accessible through the non-BGE "
+"scripting API via ``bpy.data.objects[\"ObjectName\"].game``, which is of "
+"type ``bpy.types.GameObjectSetting``. This is useful, for example, to set"
+" a range of objects to have gradated values via a for-loop."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:36
+msgid "Actor"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:37
+msgid "Enables detection by Near and Radar Sensors."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:38
+msgid "Ghost"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:39
+msgid "Disables collisions completely, similar to No Collision."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:41
+msgid "Invisible"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:41
+msgid ""
+"Does not display, the same as setting the object to unrendered (such as "
+"unchecking the camera icon in the Outliner)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:43
+msgid "Radius"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:44
+msgid "See :ref:`rigid body <game-engine-physics-collision-bounds-radius>`."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:50
+msgid "Anisotropic Friction"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:46
+msgid ""
+"Isotropic friction is identical at all angles. Anisotropic is "
+"directionally-dependent. Here you can vary the coefficients for the three"
+" axes individually, or disable friction entirely. Python properties: "
+"``obj.game.use_anisotropic_friction`` (boolean) and "
+"``obj.game.friction_coefficients`` (a 3-element array)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:53
+msgid "Collision Bounds"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:55
+msgid ""
+"The Static type differs from the others in that it defaults to a Triangle"
+" Mesh bounds, instead of a simple sphere. See :ref:`rigid body <game-"
+"engine-physics-object-collision-bounds>`."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:61
+msgid "Create Obstacle"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/static.rst:65
+msgid "Todo"
+msgstr ""
+

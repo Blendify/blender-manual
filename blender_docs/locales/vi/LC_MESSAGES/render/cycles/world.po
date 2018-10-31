@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/cycles/world.rst:5
+msgid "World"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:10
+msgid "Lighting with an HDR image."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:12
+msgid ""
+"The world environment can emit light, ranging from a single solid color, "
+"physical sky model, to arbitrary textures."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:17
+#: ../../manual/render/cycles/world.rst:136
+msgid "Surface"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:19
+#: ../../manual/render/cycles/world.rst:43
+#: ../../manual/render/cycles/world.rst:64
+#: ../../manual/render/cycles/world.rst:95
+#: ../../manual/render/cycles/world.rst:129
+#: ../../manual/render/cycles/world.rst:200
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst
+msgid "Panel"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:22
+msgid ":menuselection:`World --> Surface`"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:24
+msgid ""
+"The surface shader defines the light emission from the environment into "
+"the scene. The world surface is rendered as if it is very distant from "
+"the scene, and as such there is no two-way interacting between objects in"
+" the scene and the environment, only light coming in. The only shader "
+"accepted is the Background node with a color input and strength factor "
+"for the intensity of the light."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:32
+msgid "Image Based Lighting"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:34
+msgid ""
+"For image based lighting, use the Environment Texture node rather than "
+"the Image Texture node for correct mapping. This supports "
+"*Equirectangular* (also known as Lat/Long) for environment maps, and "
+"*Mirror Ball* mapping for converting photos of mirror balls to "
+"environment maps."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:41
+#: ../../manual/render/cycles/world.rst:172
+msgid "Volume"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:46
+msgid ":menuselection:`World --> Volume`"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:48
+msgid ""
+"A volume shader can be applied to the entirely world, filling the entire "
+"space."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:50
+msgid ""
+"Currently this is most useful for night time or other dark scenes, as the"
+" world surface shader or sun lamps will have no effect if a volume shader"
+" is used. This is because the world background is assumed to be "
+"infinitely far away, which is accurate enough for the sun for example. "
+"However, for modeling effects such as fog or atmospheric scattering, it "
+"is not a good assumption that the volume fills the entire space, as most "
+"of the distance between the sun and the earth is empty space. For such "
+"effects it is be better to create a volume object surrounding the scene. "
+"The size of this object will determine how much light is scattered or "
+"absorbed."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:62
+msgid "Ambient Occlusion"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:67
+msgid ":menuselection:`World --> Ambient Occlusion`"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:69
+msgid ""
+"Ambient occlusion is a lighting method based on how much a point on a "
+"surface is occluded by nearby surfaces. This is a trick that is not "
+"physically accurate, but it is useful to emphasize shapes of surfaces, or"
+" as a cheap way to get an effect that looks a bit like indirect lighting."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:74
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:75
+msgid ""
+"The strength of the ambient occlusion; value 1.0 is like a white world "
+"shader."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:79
+#: ../../manual/render/cycles/world.rst:176
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:77
+msgid ""
+"Distance from shading point to trace rays. A shorter distance emphasizes "
+"nearby features, while longer distances make it also take objects farther"
+" away into account."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:81
+msgid ""
+"Lighting from ambient occlusion is only applied to diffuse reflection "
+"BSDFs; glossy or transmission BSDFs are not affected. Transparency of "
+"surfaces will be taken into account, i.e. a half-transparent surface will"
+" only half occlude."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:86
+msgid ""
+"An alternative method of using Ambient Occlusion on a per-shader basis is"
+" to use the :doc:`Ambient Occlusion "
+"</render/cycles/nodes/types/shaders/ao>` shader."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:93
+msgid "Mist Pass"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:98
+msgid ":menuselection:`World --> Mist Pass`"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:100
+msgid ""
+"Shown when the Mist pass is enabled. Mist values will range from 0.0 - "
+"1.0 and are available from the Render Layers node."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:103
+msgid "Start"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:104
+msgid "Defines the beginning of the mist range from the camera."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:105
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:106
+msgid "Defines the length over which mist values will be provided."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:117
+msgid "Falloff"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:108
+msgid "The curve function that determines the mist values within its depth."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:111
+msgid "Quadratic"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:111
+msgid ""
+"Uses the same calculation as light falloff (:math:`1\\over{x^2}`) and "
+"provides the smoothest transition from transparent (0.0) to opaque (1.0)."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:113
+#: ../../manual/render/cycles/world.rst:186
+msgid "Linear"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:114
+msgid "Has a steeper start than quadratic (:math:`1\\over{x}`)."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:117
+msgid "Inverse Quadratic"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:116
+msgid ""
+"Has the steepest start (:math:`1\\over{\\sqrt{x}}`) and approaches 1.0 "
+"faster than the other two functions."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:121
+msgid ""
+"A visualization can be activated in the :menuselection:`Camera --> "
+"Display` panel."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:127
+msgid "Settings"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:132
+msgid ":menuselection:`World --> Settings`"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:155
+msgid "Multiple Importance Sample"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:139
+msgid ""
+"Enabling this will sample the background texture such that lighter parts "
+"are favored, creating an importance map. It will producing less noise in "
+"the render in trade of artifacts (fireflies). It is almost always a good "
+"idea to enable this when using an image texture to light the scene, "
+"otherwise noise can take a very long time to converge."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:144
+msgid ""
+"Below is a comparison between *Multiple Importance Sample* off and on. "
+"Both images are rendered for 25 seconds (Off: 1500 samples, On: 1000 "
+"samples)."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:151
+msgid "Multiple Importance Sample off."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:155
+msgid "Multiple Importance Sample on."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:160
+msgid "Map Resolution"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:158
+msgid ""
+"Sets the resolution of the importance map. A higher resolution will "
+"better detect small features in the map and give more accurate sampling. "
+"but conversely will take up more memory and render slightly slower. "
+"Higher values also may produce less noise when using high-res images."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:163
+msgid "Max Bounces"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:163
+msgid ""
+"Maximal number of bounces the background light will contribute to the "
+"render."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:167
+msgid ""
+"See :doc:`Reducing Noise </render/cycles/optimizations/reducing_noise>` "
+"for more information on how to reduce noise."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:181
+msgid "Sampling Method"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:176
+msgid ""
+"If you have got a pretty dense volume that is lit from far away then "
+"*Distance* sampling is usually more efficient."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:178
+msgid "Equiangular"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:179
+msgid ""
+"If you have got a light inside or near the volume then *equiangular* "
+"sampling is better."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:181
+msgid "Multiple Importance"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:181
+msgid ""
+"If you have a combination of both, then the multiple importance sampling "
+"will be better."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:189
+msgid "Interpolation"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:184
+msgid "Interpolation method to use for the volume."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:187
+msgid "Good smoothness and speed."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:189
+msgid "Cubic"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:189
+msgid "Smoothed high-quality interpolation, but slower."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:195
+msgid "Homogeneous Volume"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:192
+msgid ""
+"Assume volume has the same density everywhere (not using any textures), "
+"for faster rendering. For example absorption in a glass object would "
+"typically not have any textures, and by knowing this we can avoid taking "
+"small steps to sample the volume shader."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:198
+msgid "Ray Visibility"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:203
+msgid ":menuselection:`World --> Ray Visibility`"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:205
+msgid ""
+"As with other objects, *Ray Visibility* allows you to control which other"
+" shaders can \"see\" the environment."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:210
+msgid "Tricks"
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:212
+msgid ""
+"Sometimes it may be useful to have a different background that is "
+"directly visible versus one that is indirectly lighting the objects. A "
+"simple solution to this is to add a Mix node, with the Blend Factor set "
+"to Is Camera Ray. The first input color is then the indirect color, and "
+"the second the directly visible color. This is useful when using a high-"
+"res image for the background and a low-res image for the actual lighting."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:218
+msgid ""
+"Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the"
+" high-res image will also be visible in reflections."
+msgstr ""
+
+#: ../../manual/render/cycles/world.rst:223
+msgid "Nodes for the trick above."
+msgstr ""
+

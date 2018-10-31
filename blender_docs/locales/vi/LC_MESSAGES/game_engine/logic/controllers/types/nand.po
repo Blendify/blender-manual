@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:4
+msgid "NAND Controller"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:6
+msgid "This controller *activates* all connected actuators if:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:8
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:14
+msgid "The game object is in the designated state."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:9
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:15
+msgid "At least one connected sensor triggers the controller."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:10
+msgid "At least one connected sensor evaluated False."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:12
+msgid "This controller *deactivates* all connected actuators if:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:16
+msgid "*All* connected sensor evaluated True."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:20
+msgid "Options"
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:25
+msgid "NAND Controller."
+msgstr ""
+
+#: ../../manual/game_engine/logic/controllers/types/nand.rst:27
+msgid ""
+"See :ref:`standard controller parts <standard-controller-parts>` for "
+"descriptions of the remaining options."
+msgstr ""
+

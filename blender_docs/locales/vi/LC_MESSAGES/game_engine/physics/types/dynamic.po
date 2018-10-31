@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/physics/types/dynamic.rst:4
+msgid "Dynamic Physics"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/dynamic.rst:6
+msgid ""
+"*Dynamic* objects give or receive collisions, but when they do so they "
+"themselves do not rotate in response. So, a Dynamic ball will hit a ramp "
+"and slide down, while a rigid body ball would begin rotating."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/dynamic.rst:10
+msgid ""
+"If you do not need the rotational response the Dynamic type can save the "
+"extra computation."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/dynamic.rst:12
+msgid ""
+"Note that these objects can still be rotated with :doc:`Logic Bricks "
+"</game_engine/logic/index>` or Python code. Their physics meshes will "
+"update when you do these rotations -- so collisions will be based on the "
+"new orientations."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/dynamic.rst:15
+msgid ""
+"For more documentation, see the general :doc:`physics page "
+"</game_engine/physics/index>`."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/dynamic.rst:19
+msgid "Options"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/dynamic.rst:21
+msgid "See :doc:`/game_engine/physics/types/rigid_body`."
+msgstr ""
+

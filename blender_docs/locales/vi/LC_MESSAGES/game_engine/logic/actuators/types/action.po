@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:5
+msgid "Action Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:7
+msgid ""
+"The *Action Actuator* controls animation actions, and sets the playback "
+"method. It is only visible when an armature is selected, because the "
+"actions are stored in the armature."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:13
+msgid "Action Actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:33
+msgid "Action Playback Type"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:20
+msgid "Play"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:21
+msgid "Play F-Curve once from start to end when a ``TRUE`` pulse is received."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:23
+msgid "Ping Pong"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:23
+msgid ""
+"Play F-Curve once from start to end when a ``TRUE`` pulse is received. "
+"When the end is reached play F-Curve once from end to start when a "
+"``TRUE`` pulse is received."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:26
+msgid "Flipper"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:26
+msgid ""
+"Play F-Curve once from start to end when a ``TRUE`` pulse is received. "
+"(Plays backwards when a ``FALSE`` pulse is received)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:28
+msgid "Loop End"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:29
+msgid ""
+"Play F-Curve continuously from end to start when a ``TRUE`` pulse is "
+"received."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:30
+msgid "Loop Start"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:31
+msgid ""
+"Play F-Curve continuously from start to end when a ``TRUE`` pulse is "
+"received."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:33
+#: ../../manual/game_engine/logic/actuators/types/action.rst:52
+msgid "Property"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:33
+msgid "Uses a property to define what frame is displayed."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:35
+msgid "Action"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:36
+msgid "Select the action to use."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:37
+msgid "Continue"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:38
+msgid ""
+"Restore last frame when switching on/off, otherwise play from the start "
+"each time."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:39
+msgid "Start Frame"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:40
+msgid "Set the start frame of the action."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:41
+msgid "End Frame"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:42
+msgid "Set the end frame of the action."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:43
+msgid "Child Button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:44
+msgid "Update action on all children objects as well."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:45
+msgid "Blending"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:46
+msgid "Number of frames of motion blending."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:48
+msgid "Priority"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:48
+msgid ""
+"Execution priority -- lower numbers will override actions with higher "
+"numbers. With 2 or more actions at once, the overriding channels must be "
+"lower in the stack."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:50
+msgid "Frame Property"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:51
+msgid "Assign the action's current frame number to this property."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:53
+msgid ""
+"Use this property to define the Action position. Only for Property "
+"playback type."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:54
+msgid "Layer"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:55
+msgid "The animation layer to play the action on."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:58
+msgid "Layer Weight"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:57
+msgid "How much of the previous layer to blend into this one."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/action.rst:61
+msgid "Example"
+msgstr ""
+

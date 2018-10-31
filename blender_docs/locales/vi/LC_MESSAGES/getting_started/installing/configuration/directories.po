@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:5
+msgid "Configuring Directories"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:7
+msgid ""
+"There are three different directories Blender may use, their exact "
+"locations are operating system dependent."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:10
+#: ../../manual/getting_started/installing/configuration/directories.rst:38
+#: ../../manual/getting_started/installing/configuration/directories.rst:49
+#: ../../manual/getting_started/installing/configuration/directories.rst:67
+msgid "LOCAL"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:11
+msgid "Location of configuration and run-time data (for self-contained bundle)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:12
+#: ../../manual/getting_started/installing/configuration/directories.rst:40
+#: ../../manual/getting_started/installing/configuration/directories.rst:51
+#: ../../manual/getting_started/installing/configuration/directories.rst:69
+msgid "USER"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:13
+msgid "Location of configuration files (normally in the user's home directory)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:15
+#: ../../manual/getting_started/installing/configuration/directories.rst:44
+#: ../../manual/getting_started/installing/configuration/directories.rst:54
+#: ../../manual/getting_started/installing/configuration/directories.rst:72
+msgid "SYSTEM"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:15
+msgid "Location of run-time data for system wide installation (may be read-only)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:17
+msgid ""
+"For system installations both **SYSTEM** and **USER** directories are "
+"needed."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:19
+msgid ""
+"For locally extracted Blender distributions, the user configuration and "
+"run-time data are kept in the same subdirectory, allowing multiple "
+"Blender versions to run without conflict, ignoring the **USER** and "
+"**SYSTEM** files."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:25
+msgid "Platform Dependent Paths"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:27
+msgid "Here are the default locations for each system:"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:31
+msgid ""
+"The path ``./|BLENDER_VERSION|/`` is relative to the Blender executable &"
+" used for self-contained bundles distributed by official blender.org "
+"builds."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:36
+msgid "MS-Windows"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:47
+msgid "macOS"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:58
+msgid ""
+"macOS stores the Blender binary in "
+"``./blender.app/Contents/MacOS/blender``, so the local path to data & "
+"config is:"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:65
+msgid "Linux"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:76
+msgid "The **USER** path will use ``$XDG_CONFIG_HOME`` if it is set:"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:82
+msgid "Path Layout"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:84
+msgid ""
+"This is the path layout which is used within the directories described "
+"above."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:86
+msgid ""
+"Where ``./config/startup.blend`` could be "
+"``~/.blender/|BLENDER_VERSION|/config/startup.blend`` for example."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:91
+msgid "``./autosave/ ...``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:89
+msgid ""
+"Autosave blend-file location. (Windows only, temp directory used for "
+"other systems)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:91
+#: ../../manual/getting_started/installing/configuration/directories.rst:96
+msgid "Search order: ``LOCAL, USER``."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:96
+msgid "``./config/ ...``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:94
+msgid "Defaults & session info."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:99
+msgid "``./config/startup.blend``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:99
+msgid "Default file to load on startup."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:102
+msgid "``./config/userpref.blend``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:102
+msgid "Default preferences to load on startup."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:105
+msgid "``./config/bookmarks.txt``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:105
+msgid "File Browser bookmarks."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:108
+msgid "``./config/recent-files.txt``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:108
+msgid "Recent file menu list."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:113
+msgid "``./datafiles/ ...``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:111
+msgid "Runtime files."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:113
+#: ../../manual/getting_started/installing/configuration/directories.rst:121
+msgid "Search order: ``LOCAL, USER, SYSTEM``."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:116
+msgid "``./datafiles/locale/{language}/``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:116
+msgid "Static precompiled language files for UI translation."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:121
+msgid "``./scripts/ ...``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:119
+msgid "Python scripts for the user interface and tools."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:125
+msgid "``./scripts/addons/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:124
+msgid ""
+"Python add-ons which may be enabled in the User Preferences include "
+"import/export format support, render engine integration and many handy "
+"utilities."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:128
+msgid "``./scripts/addons/modules/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:128
+msgid "Modules for add-ons to use (added to Python's sys.path)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:131
+msgid "``./scripts/addons_contrib/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:131
+msgid ""
+"Another add-ons directory which is used for community maintained add-ons "
+"(must be manually created)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:134
+msgid "``./scripts/addons_contrib/modules/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:134
+msgid "Modules for ``addons_contrib`` to use (added to Python's sys.path)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:138
+msgid "``./scripts/modules/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:137
+msgid ""
+"Python modules containing our core API and utility functions for other "
+"scripts to import (added to Python's ``sys.path``)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:141
+msgid "``./scripts/startup/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:141
+msgid "Scripts which are automatically imported on startup."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:144
+msgid "``./scripts/presets/{preset}/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:144
+msgid ""
+"Presets used for storing user-defined settings for cloth, render formats,"
+" etc."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:147
+msgid "``./scripts/templates_py/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:147
+msgid ""
+"Example scripts which can be accessed from :menuselection:`Text Editor "
+"--> Templates --> Python`."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:151
+msgid "``./scripts/templates_osl/*.py``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:150
+msgid ""
+"Example OSL shaders which can be accessed from :menuselection:`Text "
+"Editor --> Templates --> Open Shading Language`."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:157
+msgid "``./python/ ...``"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:154
+msgid "Bundled Python distribution."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:156
+msgid "Search order: ``LOCAL, SYSTEM``."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:162
+msgid "Temporary Directory"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:164
+msgid ""
+"The temporary directory is used to store various files at run-time "
+"(including render layers, physics cache, copy-paste buffer and crash "
+"logs)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:167
+msgid "The temporary directory is selected based on the following priority:"
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:169
+msgid "User Preference (see :ref:`prefs-file-paths`)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:170
+msgid ""
+"Environment variables (``TEMP`` on MS-Windows, ``TMP`` & ``TMP_DIR`` on "
+"other platforms)."
+msgstr ""
+
+#: ../../manual/getting_started/installing/configuration/directories.rst:171
+msgid "The ``/tmp/`` directory."
+msgstr ""
+

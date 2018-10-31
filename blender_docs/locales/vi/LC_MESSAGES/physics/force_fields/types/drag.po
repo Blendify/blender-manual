@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/physics/force_fields/types/drag.rst:4
+#: ../../manual/physics/force_fields/types/drag.rst:10
+msgid "Drag"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst
+msgid "Panel"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:9
+msgid ":menuselection:`Physics --> Force Fields`"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst
+msgid "Type"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:12
+msgid "A *Drag* force field resists particle motion by slowing it down."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:16
+msgid "Options"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:20
+msgid "UI for a Drag force field."
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:22
+msgid "Linear"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:23
+msgid "Drag component proportional to velocity."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Quadratic"
+msgstr ""
+
+#: ../../manual/physics/force_fields/types/drag.rst:25
+msgid "Drag component proportional to the square of the velocity."
+msgstr ""
+

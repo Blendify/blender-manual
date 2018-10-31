@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/getting_started/help.rst:4
+msgid "Help System"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:6
+msgid "Blender has a range of built-in and web-based help options."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:10
+msgid "Tooltips"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:14
+msgid "Tooltip of the Renderer selector in the Info Editor."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:16
+msgid ""
+"When hovering the mouse cursor over a button or setting, after a few "
+"instants a tooltip appears."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:20
+msgid "Elements"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:22
+msgid "The context-sensitive Tooltip might contain some of these elements:"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:24
+msgid "Short Description"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:25
+msgid "Related details depending on the control."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:26
+msgid "Shortcut"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:27
+msgid "A keyboard or mouse shortcut associated to the tool."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:28
+msgid "Value"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:29
+msgid "The value of the property."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:30
+msgid "Library"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:31
+msgid ""
+"Source file of the active object. See also "
+":doc:`/data_system/linked_libraries`."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:32
+msgid "Disabled (red)"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:33
+msgid "The reason why the value is not editable."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:37
+#: ../../manual/getting_started/help.rst:138
+msgid "Python"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:35
+msgid ""
+"For :ref:`scripting <scripting-index>` -- A Python command associated to "
+"the control (usually an operator or property)."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:42
+msgid "Context-Sensitive Manual Access"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:44
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst
+msgid "Mode"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:47
+msgid "All modes"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst
+msgid "Menu"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:48
+msgid ":kbd:`RMB`, :menuselection:`Online Manual`"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst
+msgid "Hotkey"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:49
+msgid ":kbd:`Alt-F1`"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:51
+msgid "You may want to access help for a tool or area from within Blender."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:53
+msgid ""
+"Use the key-shortcut, or context menu to visit pages from this reference "
+"manual within Blender. This opens a webpage relating to the button under "
+"the cursor, supporting both tool and value buttons."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:58
+#, python-format
+msgid ""
+"We do not currently have 100% coverage, you may see an alert in the info "
+"header if some tools do not have a link to the manual."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:61
+msgid ""
+"Other times buttons may link to more general sections of the "
+"documentation."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:67
+msgid "Help Menu"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:69
+msgid "The *Help* menu in the Info Editor header."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:74
+msgid "Help menu."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:78
+msgid "Web Links"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:80
+msgid ""
+"The first options of this menu provide direct links to Blender-related "
+"websites: The same links can also be found in the :ref:`splash`."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:84
+msgid "Manual"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:84
+msgid ""
+"This is a link to the :doc:`Official Blender Manual </index>` which you "
+"are now reading."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:87
+msgid "Release Log"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:87
+msgid ""
+"The `release notes <https://www.blender.org/features/releases/>`__ on the"
+" Web for the changes made for the current Blender version."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:89
+msgid "Blender Website"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:90
+msgid "The `blender.org <https://www.blender.org/>`__ home page."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:92
+msgid "Blender Store"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:92
+msgid ""
+"The `Blender Store <https://store.blender.org/>`__, where you can buy "
+"Training DVD's, books, t-shirts and other products."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:96
+msgid "Developer Community"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:95
+msgid ""
+"The *blender.org* `Get Involved <https://www.blender.org/get-"
+"involved/>`__ page. This is the launch page for Blender software "
+"development, bug tracking, patches and scripts, education and training, "
+"documentation development and functionality research."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:98
+msgid "User Community"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:99
+msgid ""
+"Lists of many different `support venues <https://www.blender.org/support"
+"/user-community/>`__."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:101
+msgid "Report a Bug"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:101
+msgid ""
+"The `Blender Bug Tracker "
+"<https://developer.blender.org/maniphest/task/edit/form/1/>`__ "
+"(registration needed)."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:103
+msgid "Browser and Internet Connection"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:105
+msgid ""
+"Some forms of Help start up your web browser and access the Blender "
+"Foundation's web servers. In order to do this, you must have configured a"
+" default web browser for your Operating System, and have a connection to "
+"the Internet."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:111
+msgid "Scripting Reference"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:114
+msgid "Python API Reference"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:114
+msgid ""
+"Python application programming interface (API) `Reference "
+"<https://www.blender.org/api/blender_python_api_current/>`__."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:119
+msgid "Operator Cheat Sheet"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:117
+msgid ""
+"Creates the ``OperatorList.txt`` text data-block, which you can access in"
+" the *Text Editor*. You can also use Blender Search to generate the file."
+" It lists the available Python operators."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:124
+msgid "Save System Info"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:126
+msgid "Access :menuselection:`Help --> Save System Info`."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:128
+msgid ""
+"This extracts system information which can be useful to include in bug "
+"reports, inspecting the configuration or diagnosing problems."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:131
+msgid "You will be prompted to save a text file ``system-info.txt``."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:133
+msgid "The text file contains sections:"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:136
+msgid "Blender"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:136
+msgid ""
+"This section shows you the Blender version, details about the build "
+"configuration, and the path in which Blender is running."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:139
+msgid ""
+"The Python version you are using, showing the paths of the Python "
+"programming language paths."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:142
+msgid "Directories"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:141
+msgid "Paths used for scripts, data files, presets and temporary files."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:143
+msgid ""
+"Those directories are configured using the :doc:`User Preferences "
+"</preferences/file>` Editor."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:147
+msgid "OpenGL"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:145
+msgid ""
+"This section shows the OpenGL version, the name of the manufacturer, and "
+"lists the capabilities of your hardware and driver."
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:150
+msgid "Splash Screen"
+msgstr ""
+
+#: ../../manual/getting_started/help.rst:152
+msgid "Shows the :ref:`splash`."
+msgstr ""
+

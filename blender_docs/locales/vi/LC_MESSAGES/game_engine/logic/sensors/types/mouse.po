@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:5
+msgid "Mouse Sensor"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:7
+msgid "The *Mouse Sensor* detects mouse events."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:12
+msgid "Mouse sensor."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:16
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:18
+msgid ""
+"See :ref:`Sensor Common Options <game-engine-logic-sensors-common-"
+"options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:20
+msgid ""
+"The controller consist only of a list of types of mouse events. A "
+"``FALSE`` pulse is given when any of these conditions ends."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:23
+msgid "Mouse over any"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:24
+msgid "Gives a ``TRUE`` pulse if the mouse moves over any game object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:25
+msgid "Mouse over"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:26
+msgid "Gives a ``TRUE`` pulse if the mouse moves over the owner object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:27
+msgid "Movement"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:28
+msgid "Any movement with the mouse causes a stream of ``TRUE`` pulses."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:29
+msgid "Wheel Down"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:30
+msgid ""
+"Causes a stream of ``TRUE`` pulses as the scroll wheel of the mouse moves"
+" down."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:31
+msgid "Wheel Up"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:32
+msgid ""
+"Causes a stream of ``TRUE`` pulses as the scroll wheel of the mouse moves"
+" up."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:33
+msgid "Right button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:34
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:36
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:38
+msgid "Gives a ``TRUE`` pulse."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:35
+msgid "Middle button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:38
+msgid "Left button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/mouse.rst:42
+msgid ""
+"There is no logic brick for specific mouse movement and reactions (such "
+"as first person camera), these have to be coded in Python."
+msgstr ""
+

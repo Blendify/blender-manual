@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:5
+msgid "Armature Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:7
+msgid "The *Armature Actuator* is used to modify bone constraints."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:11
+msgid "Armature Actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:15
+msgid "The *Armature Actuator* only is available for armature objects."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:19
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:35
+msgid "Constraint Type"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:22
+msgid "Action to perform on the bone constraint."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:24
+msgid "Run Armature"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:25
+msgid "Enables an armature to be allowed to move."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:26
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:27
+msgid ""
+"Used to disable a constraint by selecting the constraint via the :ref"
+":`ui-data-id`."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:29
+msgid "Set Target"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:29
+msgid ""
+"Used to change the constraint's :ref:`Target <rigging-constraints-"
+"interface-common-target>` by selecting the new target via the :ref:`ui-"
+"data-id`."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:31
+msgid "Set Weight"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:32
+msgid ""
+"Used to change the weight of a constraint by selecting a new weight with "
+"the *Weight* field."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:35
+msgid "Set Influence"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:34
+msgid ""
+"Used to change the :ref:`Influence <bpy.types.Constraint.influence>` of a"
+" constraint by selecting a new weight with the *Influence* field."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:39
+msgid "Constraint"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:38
+msgid ""
+"Several of the *Constraint Types* need you to select a constraint to use,"
+" this is done via this :ref:`ui-data-id`."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/armature.rst:42
+msgid "Example"
+msgstr ""
+

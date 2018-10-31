@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:4
+msgid "Options"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst
+msgid "Mode"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:9
+msgid "Sculpt Mode"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst
+msgid "Panel"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:10
+msgid ":menuselection:`Tool Shelf --> Options`"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:12
+msgid ""
+"See the :ref:`Overlay & Appearance <sculpt-paint-brush-appearance>` "
+"options."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:16
+msgid "Options Panel"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:23
+msgid "Gravity"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:20
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:20
+msgid ""
+"Setting the factor allows you to add gravity to your brush strokes, "
+"giving it a draping effect."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:23
+msgid "Orientation"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:23
+msgid ""
+"Using another object, the gravity can be oriented to the set object's "
+"local Z axis, changing the direction of the gravity."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:25
+msgid "Threaded Sculpt"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:26
+msgid ""
+"Takes advantage of multiple CPU processors to improve sculpting "
+"performance."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:27
+msgid "Fast Navigation"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:28
+msgid ""
+"For *multi-resolution* models, shows low resolution while navigating in "
+"the viewport."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:31
+msgid "Use Deform Only"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:30
+msgid ""
+"Limits the activated modifiers on the active object to Deform Modifiers, "
+"and Multiresolution. Constructive modifiers (like Subdivision Surface, "
+"Mirror and other) get deactivated, because they could give inaccurate "
+"results."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:33
+msgid "Show Diffuse Color"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:34
+msgid "Allows the active object to show its diffuse color when sculpting."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:36
+msgid "Show Mask"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:36
+msgid ""
+"The option to hide mask in the viewport. Brushes themselves are still "
+"affected by the mask, but the viewport will not display the mask."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Unified Settings"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:39
+msgid "Size"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:40
+msgid "Forces the brush size to be shared across brushes."
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:41
+msgid "Strength"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:42
+msgid "Forces the brush strength to be shared across brushes."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Color"
+msgstr ""
+
+#: ../../manual/sculpt_paint/sculpting/options.rst:44
+msgid "Not used in Sculpt Mode."
+msgstr ""
+

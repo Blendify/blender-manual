@@ -1,0 +1,758 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:4
+msgid "Light Attenuation"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:8
+msgid "Lamp panel, falloff options highlighted."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:10
+msgid ""
+"There are two main controls for light falloff for *Point* and *Spot* "
+"lamps:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:12
+msgid "The lamp *Falloff* type selector."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:13
+msgid "And the *Sphere* checkbox."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:17
+msgid "Falloff Types"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:20
+msgid "Lin/Quad Weighted"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:24
+msgid "Lamp panel with Lin/Quad Weighted Falloff options highlighted."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:27
+msgid ""
+"When this setting is chosen, two sliders are shown, *Linear* and "
+"*Quadratic*, which control respectively the \"linearness\" and "
+"\"quadraticness\" of the falloff curve."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:31
+msgid ""
+"This lamp falloff type is in effect allowing the mixing of the two light "
+"attenuation profiles (linear and quadratic attenuation types)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:36
+msgid "Linear"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:38
+msgid ""
+"This slider input field can have a value between (0.0 to 1.0). A value of"
+" 1.0 in the *Linear* field and 0.0 in the *Quadratic* field in effect "
+"means that the light from this source is completely linear. This means "
+"that at the number of Blender Units distance specified in the *Distance* "
+"field, this light source's intensity will be half the value it was "
+"originally."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:44
+msgid ""
+"When the *Quadratic* slider is set to 0.0, the formula for working out "
+"the attenuation at a particular range for full linear attenuation is:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:47
+msgid ":math:`I = E × (D / (D + L × r))`"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:49
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:87
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:104
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:295
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:331
+msgid "Where:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:51
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:89
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:106
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:297
+msgid "*I* is the calculated Intensity of light."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:52
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:90
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:107
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:298
+msgid "*E* is the current *Energy* slider setting."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:53
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:91
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:108
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:335
+msgid "*D* is the current setting of the *Distance* field."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:54
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:109
+msgid "*L* is the current setting of the *Linear* slider."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:55
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:93
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:111
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:302
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:336
+msgid "*r* is the distance from the lamp where the light intensity gets measured."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:59
+msgid "Quadratic"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:66
+msgid "Lamp with Lin/Quad Weighted falloff default settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:68
+msgid ""
+"This slider input field can have a value between (0.0 to 1.0). A value of"
+" 1.0 in the *Quadratic* field and 0.0 in the *Linear* field means that "
+"the light from this source is completely quadratic."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:72
+msgid ""
+"Quadratic attenuation type lighting is considered a more accurate "
+"representation of how light attenuates (in the real world). In fact, "
+"fully quadratic attenuation is selected by default. For *Lin/Quad "
+"Weighted* lamp falloff see Fig. :ref:`fig-bi-light-lin-default`."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:76
+msgid ""
+"Here again, the light intensity is half when it reaches the *Distance* "
+"value from the lamp. Comparing the quadratic falloff to the linear "
+"falloff, the intensity decays much slower at distances lower than the set"
+" *Distance*, but it attenuates much quicker after *Distance* is reached."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:82
+msgid ""
+"When the *Linear* slider is set to 0.0, the formula for working out the "
+"attenuation at a particular range for full quadratic attenuation is:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:85
+msgid ":math:`I = E × (D^2 / (D^2 + Q × r^2))`"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:92
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:110
+msgid "*Q* is the current setting of the *Quad* slider."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:97
+msgid "Mixing \"Linear\" and \"Quad\""
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:99
+msgid ""
+"If both the *Linear* and *Quad* slider fields have values greater than "
+"0.0, then the formula used to calculate the light attenuation profile "
+"changes to this:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:102
+msgid ":math:`I = E × (D / (D + L × r)) × (D^2 / (D^2 + Q × r^2))`"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:115
+msgid "Zeroing both \"Linear\" and \"Quad\""
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:117
+msgid ""
+"If both the *Linear* and *Quadratic* sliders have 0.0 as their values, "
+"the light intensity will not attenuate with distance. This does not mean "
+"that the light will not get darker, rather it will, but only because the "
+"energy the light has is spread out over a wider and wider distance. The "
+"total amount of energy in the spread-out light will remain the same, "
+"though. The light angle also affects the amount of light you see. It is "
+"in fact the behavior of light in the deep space vacuum."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:125
+msgid ""
+"If what you want is a light source that does not attenuate and gives the "
+"same amount of light intensity to each area it hits, you need a light "
+"with properties like the *Constant* lamp *Falloff* type."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:129
+msgid ""
+"Also, when the *Linear* and *Quad* sliders are both 0.0 values, the "
+"*Distance* field ceases to have any influence on the light attenuation, "
+"as shown by the equation above."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:135
+msgid "Graphical Summary"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:137
+msgid ""
+"Below is a graph summarizing the lin/quad attenuation type, showing "
+"attenuation with or without the *Sphere* option (described later)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:142
+msgid "Light Attenuation:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:144
+msgid "Linear (Linear = 1.0, Quad = 0.0);"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:145
+msgid "Quadratic (Linear = 0.0, Quad = 1.0);"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:146
+msgid "Linear and quadratic (Linear = Quad = 0.5);"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:147
+msgid "Null (Linear = Quad = 0.0);"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:149
+msgid ""
+"Also shown in the graph the \"same\" curves, in the same colors, but with"
+" the Sphere button turned on."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:154
+msgid "Custom Curve"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:156
+msgid "The *Custom Curve* lamp *Falloff* type is very flexible."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:158
+msgid ""
+"Most other lamp falloff types work by having their light intensity start "
+"at its maximum (when nearest to the light source) and then with some "
+"predetermined pattern decrease their light intensity when the distance "
+"from the light source increases."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:162
+msgid ""
+"When using the *Custom Curve* Lamp Falloff type, a new panel is created, "
+"called *Falloff Curve*. This *Falloff Curve* profile graph allows the "
+"user to alter how intense light is at a particular point along a light's "
+"attenuation profile (i.e. at a specific distance from the light source)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:167
+msgid ""
+"The *Falloff Curve* profile graph has two axes, the Distance axis and the"
+" Intensity axis."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:172
+msgid "Distance axis"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:171
+msgid ""
+"It represents the position at a particular point along a light source's "
+"attenuation path. The far left is at the position of the light source and"
+" the far right is the place where the light source's influence would "
+"normally be completely attenuated."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:177
+msgid "Intensity axis"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:175
+msgid ""
+"It represents the intensity at a particular point along a light source's "
+"attenuation path. Higher intensity is represented by being higher up the "
+"intensity axis, while lower intensity light is represented by being lower"
+" down on the intensity axis."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:179
+msgid ""
+"Altering the *Falloff Curve* profile graph is easy. Just :kbd:`LMB` click"
+" on a part of the graph you want to alter and drag it where you want it "
+"to be. If when you click you are over or near one of the tiny black "
+"square handles, it will turn white, indicating that this handle is now "
+"selected, and you will be able to drag it to a new position. If when you "
+"click on the graph you are not near a handle, one will be created at the "
+"point that you clicked, which you can then drag where you wish. You can "
+"also create handles at specific parts of the graph, clicking with "
+":kbd:`LMB` while holding :kbd:`Ctrl`; it will create a new handle at the "
+"point you have clicked."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:190
+msgid ""
+"In the example below (the default for the *Falloff Curve* Profile Graph),"
+" the graph shows that the intensity of the light starts off at its "
+"maximum (when near the light), and linearly attenuates as it moves to the"
+" right (further away from the light source)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:200
+msgid "Default Falloff Curve panel graph."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:205
+msgid ""
+"Render showing the Custom Curve lamp falloff type effect with default "
+"settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:207
+msgid ""
+"If you want to have a light attenuation profile that gets more intense as"
+" it moves away from the light source, you could alter the graph as below:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:215
+msgid "Falloff Curve for reversed attenuation."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:220
+msgid "Falloff Curve for reversed attenuation rendered."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:222
+msgid ""
+"You are obviously not just limited to simple changes such as reversing "
+"the attenuation profile, you can have almost any profile you desire."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:225
+msgid ""
+"Here is another example of a different *Falloff Curve* profile graph, "
+"along with its resultant render output:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:233
+msgid "Oscillating attenuation profile."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:238
+msgid ""
+"Render showing the effects of a \"wavelet\" profile graph on the light "
+"attenuation."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:242
+msgid "Inverse Square"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:247
+msgid ""
+"Render showing the Inverse Square lamp falloff type effect with default "
+"settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:249
+msgid ""
+"This lamp falloff type attenuates its intensity according to inverse "
+"square law, scaled by the *Distance* value. Inverse square is a sharper, "
+"realistic decay, useful for lighting such as desk lamps and street "
+"lights. This is similar to the old *Quad* option (and consequently, to "
+"the new *Lin/Quad Weighted* option with *Linear* to 0.0 and *Quad* to "
+"1.0), with slight changes."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:258
+msgid "Inverse Linear"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:263
+msgid ""
+"Render showing the Inverse Linear lamp falloff type effect with default "
+"settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:265
+msgid ""
+"This lamp falloff type attenuates its intensity linearly, scaled by the "
+"*Distance* value. This is the default setting, behaving the same as the "
+"default in previous Blender versions without *Quad* switched on, and "
+"consequently, like the new *Lin/Quad Weighted* option with *Linear* to "
+"1.0 and *Quad* to 0.0. This is not physically accurate, but can be easier"
+" to light with."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:274
+msgid "Constant"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:279
+msgid ""
+"Render showing the Constant lamp falloff type effect with default "
+"settings."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:281
+msgid ""
+"This lamp falloff type does not attenuate its intensity with distance. "
+"This is useful for distant light sources like the sun or sky, which are "
+"so far away that their falloff is not noticeable. *Sun* and *Hemi* lamps "
+"always have constant falloff."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:288
+msgid "Inverse Coefficients"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:290
+msgid ""
+"This lamp falloff type combines the *Inverse Square*, *Inverse Linear* "
+"and *Constant* modes into a single inverse-quadratic formula:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:293
+msgid ":math:`I = E × (1.0 / (Q × r^2 + L × r + C))`"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:299
+msgid "*C* is the current setting of the *Constant* slider setting."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:300
+msgid "*L* is the current setting of the *Linear* slider setting."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:301
+msgid "*Q* is the current setting of the *Quadratic* slider setting."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:304
+msgid ""
+"Such a falloff model is commonly used in real-time rendering applications"
+" via a shading language like GLSL."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:309
+msgid "Sphere"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:314
+msgid ""
+"Screenshot of the 3D View editor, showing the Sphere light clipping "
+"circle."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:317
+msgid ""
+"The *Sphere* option restricts the light illumination range of a *Lamp* or"
+" *Spot* lamp, so that it will completely stop illuminating an area once "
+"it reaches the number of Blender Units away from the Lamp, as specified "
+"in the *Distance* field."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:321
+msgid ""
+"When the *Sphere* option is active, a dotted sphere will appear around "
+"the light source, indicating the demarcation point at which this light "
+"intensity will be null."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:325
+msgid ""
+"The *Sphere* option adds a term to the chosen attenuation law, whatever "
+"it is:"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:327
+msgid ":math:`I' = I × (D - r) / D` if :math:`r < D`;"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:329
+msgid ":math:`I' = 0` otherwise;"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:333
+msgid ""
+"*I'* is the required Intensity of light (with the *Sphere* option "
+"activated)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:334
+msgid ""
+"*I* is the intensity of light calculated by the chosen attenuation law "
+"(without the *Sphere* option)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:338
+msgid ""
+"See the graphic at the end of the description of the *Lin/Quad Weighted* "
+"attenuation option."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:345
+msgid ""
+"Render showing the light attenuation of a Constant falloff light type "
+"with the Sphere option active."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:350
+msgid ""
+"Render showing the light attenuation of a Constant falloff light type "
+"with the Sphere option deactivated."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:354
+msgid "Examples"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:357
+msgid "Distance Example"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:359
+msgid ""
+"In this example, the *Lamp* has been set pretty close to the group of "
+"planes. This causes the light to affect the front, middle and rear planes"
+" more dramatically. Looking at the figure below, you can see that as the "
+"Distance is increased, more and more objects become progressively "
+"brighter."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:364
+msgid "Various Distance settings (shadows disabled)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:368
+msgid "Distance: 10."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:374
+msgid "Distance: 100."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:380
+msgid "Distance: 1000."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:382
+msgid ""
+"The *Distance* parameter is controlling where the light is falling -- at "
+"a linear rate by default -- to half its original value from the light's "
+"origin. As you increase or decrease this value, you are changing where "
+"this half falloff occurs. You could think of *Distance* as the surface of"
+" a sphere and the surface is where the light's intensity has fallen to "
+"half its strength in all directions. Note that the light's intensity "
+"continues to fall even after *Distance*. *Distance* just specifies the "
+"distance where half of the light's energy has weakened."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:390
+msgid ""
+"Notice in Fig. :ref:`fig-bi-light-attenuation-distance1000`, that the "
+"farthest objects are very bright. This is because the falloff has been "
+"extended far into the distance, which means the light is very strong when"
+" it hits the last few objects. It is not until 1000 units that the "
+"light's intensity has fallen to half of its original intensity."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:395
+msgid ""
+"Contrast this with Fig. :ref:`fig-bi-light-attenuation-distance100`, "
+"where the falloff occurs so soon that the farther objects are barely lit."
+" The light's intensity has fallen by a half by time it even reaches the "
+"tenth object."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:399
+msgid ""
+"You may be wondering why the first few planes appear to be dimmer? This "
+"is because the surface angle between the light and the object's surface "
+"normal is getting close to oblique. That is the nature of a *Lamp* light "
+"object. By moving the light infinitely far away you would begin to "
+"approach the characteristics of the *Sun* lamp type."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:406
+msgid "Inverse Square Example"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:408
+msgid ""
+"*Inverse Square* makes the light's intensity falloff with a non-linear "
+"rate, or specifically, a quadratic rate. The characteristic feature of "
+"using *Inverse Square* is that the light's intensity begins to fall off "
+"very slowly but then starts falling off very rapidly. We can see this in "
+"the Fig. :ref:`fig-bi-light-attenuation-inverse-square` images."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:415
+msgid "Inverse Square selected. (with the specified distances)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:422
+msgid "Inverse Square with 10."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:428
+msgid "Inverse Square with 100."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:434
+msgid "Inverse Square with 1000."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:436
+msgid ""
+"With *Inverse Square* selected, the *Distance* field specifies where the "
+"light begins to fall off faster, roughly speaking; see the light "
+"attenuation description in `Falloff types`_ for more info."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:439
+msgid ""
+"In Fig. :ref:`fig-bi-light-attenuation-inverse-square10`, the light's "
+"intensity has fallen so quickly that the last few objects are not even "
+"lit."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:442
+msgid ""
+"Both Fig. :ref:`fig-bi-light-attenuation-inverse-square100` and Fig. :ref"
+":`fig-bi-light-attenuation-inverse-square1000` appear to be almost "
+"identical and that is because the *Distance* is set beyond the farthest "
+"object's distance which is at about 40 BU out. Hence, all the objects get"
+" almost the full intensity of the light."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:447
+msgid ""
+"As above, the first few objects are dimmer than farther objects because "
+"they are very close to the light. Remember, the brightness of an object's"
+" surface is also based on the angle between the surface normal of an "
+"object and the ray of light coming from the lamp."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:451
+msgid ""
+"This means there are at least two things that are controlling the "
+"surface's brightness: intensity and the angle between the light source "
+"and the surface's normal."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:456
+msgid "Sphere Example"
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:462
+msgid "Clipping Sphere."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:464
+msgid ""
+"*Sphere* indicates that the light's intensity is null at the *Distance* "
+"distance and beyond, regardless of the chosen light's falloff. In Fig. "
+":ref:`fig-bi-light-attenuation-clip` you can see a side view example of "
+"the setup with *Sphere* enabled and a distance of 10."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:469
+msgid "Any objects beyond the sphere receive no light from the lamp."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:471
+msgid ""
+"The *Distance* field is now specifying both where the light's rays become"
+" null, and the intensity's ratio falloff setting. Note that there is no "
+"abrupt transition at the sphere: the light attenuation is progressive "
+"(for more details, see the descriptions of the `Sphere`_ and `Falloff "
+"types`_ above)."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:477
+msgid "Sphere enabled with the specified distances. Inverse Linear light falloff."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:484
+msgid "Sphere with 10."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:490
+msgid "Sphere with 20."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:496
+msgid "Sphere with 40."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:498
+msgid ""
+"In Fig. :ref:`fig-bi-light-attenuation-sphere10`, the clipping sphere's "
+"radius is 10 units, which means the light's intensity is also being "
+"controlled by 10 units of distance. With a linear attenuation, the "
+"light's intensity has fallen very low even before it gets to the first "
+"object."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:503
+msgid ""
+"In Fig. :ref:`fig-bi-light-attenuation-sphere20`, the clipping sphere's "
+"radius is now 20 BU and some light is reaching the middle objects."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:506
+msgid ""
+"In Fig. :ref:`fig-bi-light-attenuation-sphere40`, the clipping sphere's "
+"radius is now 40 units, which is beyond the last object. However, the "
+"light does not make it to the last few objects because the intensity has "
+"fallen to nearly 0."
+msgstr ""
+
+#: ../../manual/render/blender_render/lighting/lights/attenuation.rst:512
+msgid ""
+"If a *Lamp* light is set to not cast shadows, it illuminates through "
+"walls and the like. If you want to achieve some nice effects like a fire,"
+" or a candle-lit room interior seen from outside a window, the *Sphere* "
+"option is a must. By carefully working on the *Distance* value you can "
+"make your warm fire lit shed only within the room, while illuminating "
+"outside with a cool moonlight, the latter achieved with a *Sun* or *Hemi*"
+" light or both."
+msgstr ""
+

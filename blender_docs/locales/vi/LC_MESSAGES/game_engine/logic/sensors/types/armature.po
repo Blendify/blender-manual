@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:5
+msgid "Armature Sensor"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:7
+msgid "The *Armature Sensor* is used to detect changes in values of an IK solver."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:11
+msgid "Armature Sensor."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:15
+msgid "The *Armature Sensor* only is available for armature objects."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:19
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:22
+msgid "Bone Name"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:22
+msgid "The bone to check for changes in value."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:25
+msgid "Constraint Name"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:25
+msgid "The bone constraint to check for changes in value."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:39
+msgid "Test"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:28
+msgid "How the sensor checks for changes in the bone."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:30
+msgid "State Changed"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:31
+msgid "Any changes will invoke the sensor."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:32
+msgid "Lin error below/above"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:33
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:35
+msgid "TODO."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:35
+msgid "Rot error below/above"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:39
+msgid "Value"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:38
+msgid ""
+"Some tests will take a value, this value is used in the comparison when "
+"detecting changes."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/armature.rst:42
+msgid "Example"
+msgstr ""
+

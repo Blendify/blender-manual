@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/settings/layers.rst:4
+msgid "Render Layers"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:6
+msgid ""
+"This section covers only the Render Layer settings appropriate for the "
+"Blender Renderer. For the engine-independent settings, see :doc:`this "
+"section </render/post_process/layers>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:18
+msgid "Light Override"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:10
+msgid ""
+"Enter the name of a light group, and the scene will be lit with only "
+"those lights."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:12
+msgid "Examples of where this might be used:"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:14
+msgid ""
+"Using multiple Render Layers with different light group overrides adds "
+"the possibility to tweak light intensity and color in the compositor, "
+"i.e. to avoid re-renders."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:17
+msgid "Speed up a draft render by using only a few lights instead of all of them."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:21
+msgid "Include Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:23
+msgid ""
+"Each render layer has its own set of features which can be "
+"enabled/disabled for the whole layer. This could be used to save render "
+"time and gives control over the passes:"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:29
+msgid "Z-mask"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:27
+msgid ""
+"Activates masking with the selected Mask Layers. Only render what is in "
+"*front* of the solid Z values."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:29
+msgid "Negate"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:30
+msgid "Only render what is *behind* the solid Z values."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:32
+msgid "All Z"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:32
+msgid ""
+"Z values are computed for everything in view, not just those things that "
+"are rendered. When disabled, objects not included in the render have no "
+"(\"infinite\") z value."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:34
+msgid "Solid"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:35
+msgid "Solid faces are rendered. All normal meshes are solid faced."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:36
+msgid "Halo"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:37
+msgid "Halo materials are rendered."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:39
+msgid "Z-Transparency"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:39
+msgid ""
+"Transparency may be Z-based or Ray-traced. If Z-based, enabling "
+"*Z-transparency* renders transparent areas with the Z value of what is "
+"behind the transparent area."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:42
+msgid "Sky"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:42
+msgid ""
+"Turning on Sky renders the sky, as defined in your material world "
+"settings. Otherwise, a black alpha-transparent background is rendered."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:46
+msgid "Edge"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:45
+msgid ""
+"If Edge is enable in the Post Processing panel, objects in this Render "
+"Layer are given an outline edge. Turning on Edge pulls in the Edge "
+"settings from the Render tab, and adds an outline to the objects. Edges "
+"also have to be enabled on the Render tab."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:49
+msgid "Strand"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:49
+msgid ""
+"Strands are strings of static particles that are colored as part of the "
+"material settings; they look like strands of hair or grass."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Freestyle"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/layers.rst:52
+msgid "Render the Freestyle strokes on this layer."
+msgstr ""
+

@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:4
+msgid "Mapping Node"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:8
+msgid "Mapping node."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:10
+msgid ""
+"Essentially mapping node allows the user to modify a mapping of system of"
+" 3D coordinates. Mapping can be rotated and clamped if desired."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:13
+msgid "Typically used for modifying texture coordinates."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:17
+msgid "Inputs"
+msgstr ""
+
+#: ../../<generated>:1
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:21
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:36
+msgid "Vector"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:20
+msgid "Standard vector input."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:26
+msgid ""
+"The controls of the node have been ordered in X, Y, Z order. Clamping can"
+" be enabled by Min and Max."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:39
+msgid "Vector type"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:30
+msgid "Type of vector that the mapping transforms."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:32
+msgid "Texture"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:33
+msgid "Transform a texture by inverse mapping the texture coordinates."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:34
+msgid "Point"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:35
+msgid "Transform a point."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:37
+msgid "Transform a direction vector."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:39
+msgid "Normal"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:39
+msgid "Transform a normal vector with unit length."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:41
+msgid "Location"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:42
+msgid "Transform position vector."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:43
+msgid "Rotation"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:44
+msgid "Transform rotation vector."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:46
+msgid "Scale"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:46
+msgid "Transform scale vector."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:48
+msgid "Min"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:49
+msgid "Minimum clipping value."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:52
+msgid "Max"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:51
+msgid "Maximum clipping value."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:55
+msgid "Outputs"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/nodes/types/vector/mapping.rst:58
+msgid "Standard vector output."
+msgstr ""
+

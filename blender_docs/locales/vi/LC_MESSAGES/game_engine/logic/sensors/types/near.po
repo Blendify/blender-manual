@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:5
+msgid "Near Sensor"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:7
+msgid ""
+"A *Near Sensor* detects objects that move to within a specific distance "
+"of themselves. It can filter objects with properties, like the "
+":doc:`Collision sensor </game_engine/logic/sensors/types/collision>`."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:13
+msgid ""
+"The Near sensor can detect objects \"through\" other objects (walls, "
+"etc.)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:14
+msgid "Objects must have \"Actor\" enabled to be detected."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:18
+msgid ""
+"The *Near* sensor cannot detect soft bodies. This is a limitation in "
+"Bullet, the physics library used by the Game Engine."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:24
+msgid "Near sensor."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:28
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:30
+msgid ""
+"See :ref:`Sensor Common Options <game-engine-logic-sensors-common-"
+"options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:32
+msgid "Property"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:33
+msgid ""
+"This field can be used to limit the sensor to look for only those objects"
+" with this property."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:34
+msgid "Distance"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:35
+msgid "The number of Blender units it will detect objects within."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:38
+msgid "Reset"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:37
+msgid ""
+"The distance the object needs to be to reset the sensor (send a ``FALSE``"
+" pulse)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/near.rst:41
+msgid "Example"
+msgstr ""
+

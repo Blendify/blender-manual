@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/materials/properties/introduction.rst:4
+msgid "Introduction"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/introduction.rst:6
+msgid ""
+"Materials can have a wide array of properties. It is the combination of "
+"all of these things that define the way a material looks, and how objects"
+" using that material will appear when rendered. These properties are set "
+"using the various panels in the material tab."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/introduction.rst:11
+msgid ""
+"Remember that the appearance of your materials is affected by the way "
+"that they are rendered (surface, wire, volume or halo), and by the "
+"rendering engine (Blender, Cycles, or Game) used."
+msgstr ""
+

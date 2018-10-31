@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/about/contribute/translations/contribute.rst:5
+msgid "Contribute"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:7
+msgid ""
+"On this page French (``fr``) is used for examples. However, it can be "
+"replaced with other `languages codes "
+"<https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-"
+"Codes.html>`__. So, be sure to change the ``/fr`` suffixes in this guide "
+"to the language you are translating!"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:11
+msgid ""
+"To see which languages are currently available, you can browse the "
+"repository: "
+"https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:16
+msgid ""
+"First of all, it is assumed that you have the manual already building. If"
+" you have not done this already go back too the :ref:`Getting Started "
+"<about-getting-started>` section."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:22
+msgid "Installing"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:25
+msgid "Language Files"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:27
+msgid "From the directory containing your checkout of the manual run::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:31
+msgid "This will create a ``locale/fr`` subdirectory."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:33
+msgid "You should have a directory layout like this::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:43
+msgid ""
+"When running subversion from the command line (such as updating or "
+"committing), you will need to change directory to ``locale/fr`` first."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:46
+msgid ""
+"Otherwise you will get a warning: ``'locale' is not under version "
+"control``"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:50
+msgid "A PO Editor"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:52
+msgid ""
+"To make edit the PO files you will need to install a PO editor. We "
+"recommended that you use `Poedit <https://poedit.net/>`__ however, any PO"
+" editor will do."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:58
+msgid ""
+"For Linux users you will have to check with your distribution's software "
+"center for a version of Poedit."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:63
+msgid "Building with Translations"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:67
+msgid ""
+"This is optional, translations are automatically built online, e.g: "
+"https://docs.blender.org/manual/fr/dev/"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:70
+msgid "Now you can build the manual with the translation applied::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:74
+msgid "If you are on MS-Windows and do not have ``make``, run::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:78
+msgid "Now you will have a build of the manual with translations applied."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:82
+msgid "Editing Translation Files"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:84
+msgid "Now you can edit the PO translation files, e.g:"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:86
+msgid "Original RST File"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:87
+msgid "``manual/getting_started/about_blender/introduction.rst``"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:89
+msgid "Generated PO File"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:89
+msgid "``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:91
+msgid "The modified ``.po`` files can be edited and committed back to svn."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:95
+msgid "Maintenance"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:100
+msgid "Keeping Track of Fuzzy Strings"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:102
+msgid ""
+"When the manual is updated, those translations which are outdated will be"
+" marked as fuzzy. To keep track with that, you can use a tool we created "
+"for that task."
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:105
+msgid "You can do this by running::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:109
+msgid ""
+"This will only give a quick summary however, you can get more information"
+" by running::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:113
+msgid ""
+"You should get a list of all the files with information about the number "
+"of empty and fuzzy strings. For more options see::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:120
+msgid ""
+"Instructions on this page are based on `Sphinx Intl documentation "
+"<http://www.sphinx-doc.org/en/stable/intl.html>`__"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:125
+msgid "Updating PO Files"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:127
+msgid ""
+"As the original manual changes, the templates will need updating. Note, "
+"doing this is not required, as administrator usually update the files for"
+" all languages at once. This allows all languages to be on the same "
+"version of the manual. However, if you need to update the files yourself,"
+" it can be done as follows::"
+msgstr ""
+
+#: ../../manual/about/contribute/translations/contribute.rst:135
+msgid "The updated templates can then be committed to svn."
+msgstr ""
+

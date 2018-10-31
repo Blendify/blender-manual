@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/screen_layout.rst:4
+msgid "Game Logic Screen Layout"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:6
+msgid ""
+"The design, construction, debugging and running of a game use a wide "
+"range of Blender functions. To help with the process, Blender "
+"incorporates a suggested screen layout for setting up BGE games. This "
+"includes many already-familiar panels but also a new :doc:`Logic Editor "
+"</editors/logic_editor>` panel (4) concerned solely with the BGE."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:11
+msgid ""
+"The diagram below shows this default Game Logic screen layout, together "
+"with the appropriate options for game setup/debug/running (these should "
+"be set up in the order shown)."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:17
+msgid "Game Logic Screen Layout."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:21
+msgid "1) Game Logic"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:22
+msgid ""
+"Selected from the list of screen layouts for various applications. This "
+"includes many already-familiar panels (Information, 3D View, Properties) "
+"but also a new Logic Editor panel concerned solely with the BGE."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:28
+msgid "2) Blender Game"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:29
+msgid ""
+"Selected from the render engine menu. This specifies that all output will"
+" be output by the real-time Blender Game Engine renderer. It also opens "
+"various other menu options such as the Game options (see below) and a "
+"range of Properties for the BGE renderer properties (see below)."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:36
+msgid "Game options."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:40
+msgid "3) Game"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:41
+msgid ""
+"This menu gives various options for conditions for running the Game "
+"Engine. Note that this menu is only available when the render engine is "
+"set to Blender Game."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:44
+msgid "Start Game"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:45
+msgid ""
+"Run game in Game Engine (:kbd:`P` or :kbd:`Shift-P` when the mouse cursor"
+" is over the 3D View editor)."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:46
+msgid "Show Debug Properties"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:47
+msgid "Show properties marked for debugging while game runs."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:48
+msgid "Show frame rate and profile"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:49
+msgid "Show frame rate and profiling information while game runs."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:50
+msgid "Show Physics visualization"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:51
+msgid "Show a visualization of physics bounds and interactions."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:52
+msgid "Deprecation warnings"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:53
+msgid "Print warnings when using deprecated features in the Python API."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:54
+msgid "Record animation"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:55
+msgid "Record animation to F-Curves."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:58
+msgid "Auto Start"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:57
+msgid "Automatically start game at load time."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:61
+msgid "4) Logic Editor panel"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:62
+msgid ""
+"The :doc:`Logic Editor </editors/logic_editor>` is where the :doc:`logic,"
+" properties and states </game_engine/logic/index>` are set up to control "
+"the behavior of the objects in the game. (The Logic Editor panel can also"
+" be displayed by selecting Logic Editor in the Display Editor menu, by "
+"pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`)."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:70
+msgid "5) Properties"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:71
+msgid "Two Meanings for the Same Word"
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:73
+msgid ""
+"Note that the name \"Property\" has two different uses in Blender "
+"terminology -- firstly in the wider use of the Property Display Panel as "
+"described here, and secondly as the term used for specific Game Engine "
+"logic variables which are also called \"properties\"."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:77
+msgid ""
+"The Property panel of the screen is selected as usual from the main "
+"Information menu. However, note that several sections of the Property "
+"panel are changed when the render engine (2) is changed from Blender "
+"Render to Blender Game."
+msgstr ""
+
+#: ../../manual/game_engine/screen_layout.rst:81
+msgid ""
+"See following sections for details of the content of :doc:`Physics "
+"</game_engine/physics/index>` Properties panels."
+msgstr ""
+

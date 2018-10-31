@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/world.rst:4 ../../manual/game_engine/world.rst:25
+msgid "World"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:8
+msgid "BGE World panel."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:10
+msgid ""
+"World settings enable you to set some basic effects which affect all "
+"scenes throughout your game, so giving it a feeling of unity and "
+"continuity. These include ambient light, depth effects (mist) and global "
+"physics settings. These effects are a limited subset of the more "
+"extensive range of effects available with the Blender internal or Cycles "
+"renderer."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:17
+msgid ""
+"While world settings offer a simple way of adding effects to a scene, "
+":doc:`compositing nodes </compositing/index>` are often preferred, though"
+" more complex to master, for the additional control and options they "
+"offer. For example, filtering the Z value (distance from camera) or "
+"normals (direction of surfaces) through compositing nodes can further "
+"increase the depth and spatial clarity of a scene."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:27
+msgid ""
+"These two color settings allow you to set some general lighting effects "
+"for your game."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:30
+msgid "Horizon Color"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:30
+msgid ""
+"The RGB color at the horizon; i.e. the color and intensity of any areas "
+"in the scene which are not filled explicitly."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:38
+msgid "Ambient Color"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:33
+msgid ""
+"Ambient light mimics an overall background illumination obtained from "
+"diffusing surfaces (see :doc:`Ambient Light "
+"</render/blender_render/lighting/index>`, :doc:`Exposure "
+"</render/post_process/color_management>` and :doc:`Ambient Occlusion "
+"</render/blender_render/world/ambient_occlusion>`). Its general color and"
+" intensity are set by these controls."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:41
+msgid "Environmental Lighting"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:43
+msgid "Environment light provides light coming from all directions."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:45
+msgid ""
+"Light is calculated with a ray-traced method which is the same as that "
+"used by Ambient Occlusion. The difference is that Environment lighting "
+"takes into account the \"ambient\" parameter of the material shading "
+"settings, which indicates the amount of ambient light/color that that "
+"material receives."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:49
+msgid ""
+"Also, you can choose the environment color source (white, sky color, sky "
+"texture) and the light energy."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:51
+msgid "Energy"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:52
+msgid "Defines the strength of environment light."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:54
+msgid "Environment Color"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:54
+msgid "Defines where the color of the environment light comes from."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:56
+msgid "Using both settings simultaneously produces better global lighting."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:58
+msgid ""
+"It is good for mimicking the sky in outdoor lighting. Environment "
+"lighting can be fairly noisy at times."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:62 ../../manual/game_engine/world.rst:70
+msgid "Mist"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:64
+msgid ""
+"Mist can greatly enhance the illusion of depth in your rendering. To "
+"create mist, Blender makes objects farther away more transparent "
+"(decreasing their Alpha value) so that they mix more of the background "
+"color with the object color. With Mist enabled, the further the object is"
+" away from the camera the less its alpha value will be. For full details,"
+" see :doc:`Mist </render/blender_render/world/mist>`."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:71
+msgid "Toggles mist on and off."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:72
+msgid "Falloff"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:73
+msgid "Sets the shape of the falloff of the mist."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:74
+msgid "Start"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:75
+msgid ""
+"The starting distance of the mist effect. No misting will take place for "
+"objects closer than this distance."
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:76
+msgid "Depth"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:77
+msgid "The depth at which the opacity of objects falls to zero."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Minimum intensity"
+msgstr ""
+
+#: ../../manual/game_engine/world.rst:79
+msgid "Overall minimum intensity of the mist."
+msgstr ""
+
