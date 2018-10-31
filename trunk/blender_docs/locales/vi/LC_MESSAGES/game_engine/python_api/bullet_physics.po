@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:4
+msgid "Bullet physics Python API"
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:6
+msgid ""
+"Bullet Physics provides collision detection and rigid body dynamics for "
+"the Blender Game Engine. It takes some settings from Blender that "
+"previously were designed for the former collision detection system "
+"(called Sumo)."
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:10
+msgid ""
+"However, new features do not have a user interface yet, so Python can be "
+"used to fill the gap for now."
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:13
+msgid "Features:"
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:15
+msgid "Vehicle simulation."
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:16
+msgid "Rigid body constraints: hinge and point to point (ball socket)."
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:17
+msgid ""
+"Access to internal physics settings, like deactivation time, debugging "
+"features."
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:19
+msgid ""
+"Easiest is to look at the Bullet physics demos, how to use them. More "
+"information can be found `here "
+"<http://www.continuousphysics.com/Bullet/phpBB2/viewforum.php?f=17>`__."
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:22
+msgid "Python script example::"
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:27
+msgid "Parameter Settings"
+msgstr ""
+
+#: ../../manual/game_engine/python_api/bullet_physics.rst:29
+msgid ""
+"Since this API is not well documented, it can be unclear what kind of "
+"values to use for setting parameters. In general, damping settings should"
+" be in the range of 0 to 1 and stiffness settings should not be much "
+"higher than about 10."
+msgstr ""
+

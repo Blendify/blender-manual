@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/physics/types/sensor.rst:4
+msgid "Sensor Physics"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:6
+msgid ""
+"The object detects static and dynamic objects but not other collisions "
+"sensors objects. The Sensor is similar to the physics objects that "
+"underlie the Near and Radar sensors. Like the Near and Radar object it "
+"is:"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:10
+msgid "Static and ghost."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:11
+msgid "Invisible by default."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:12
+msgid "Always active to ensure correct collision detection."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:13
+msgid "Capable of detecting both static and dynamic objects."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:14
+msgid "Ignoring collision with their parent."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:15
+msgid "Capable of broadphase filtering based on:"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:17
+msgid ""
+"Actor option: the colliding object must have the Actor flag set to be "
+"detected."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:18
+msgid "Property/material: as specified in the collision sensors attached to it."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:20
+msgid ""
+"Broadphase filtering is important for performance reason: the collision "
+"points will be computed only for the objects that pass the broadphase "
+"filter."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:23
+msgid ""
+"Automatically removed from the simulation when no collision sensor is "
+"active on it."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:25
+msgid "Unlike the Near and Radar object it can:"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:27
+msgid "Take any shape, including triangle mesh."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:28
+msgid "Be made visible for debugging (just use the Visible actuator)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:29
+msgid "Have multiple collision sensors using it."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:31
+msgid ""
+"Other than that, the sensor objects are ordinary objects. You can move "
+"them freely or parent them. When parented to a dynamic object, they can "
+"provide advanced collision control to this object."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:35
+msgid "The type of collision capability depends on the shape:"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:37
+msgid "Box, sphere, cylinder, cone, convex hull provide volume detection."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:38
+msgid ""
+"Triangle mesh provides surface detection but you can give some volume to "
+"the surface by increasing the margin in the Advanced Settings panel. The "
+"margin applies on both sides of the surface."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:44
+msgid "Performance tip"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:45
+msgid ""
+"Sensor objects perform better than Near and Radar: they do less "
+"synchronizations because of the Scenegraph optimizations and they can "
+"have multiple collision sensors on them (with different property "
+"filtering for example)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:48
+msgid ""
+"Always prefer simple shape (box, sphere) to complex shape whenever "
+"possible."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:49
+msgid ""
+"Always use broadphase filtering (avoid collision sensor with empty "
+"property/material)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:50
+msgid ""
+"Use collision sensor only when you need them. When no collision sensor is"
+" active on the sensor object, it is removed from the simulation and "
+"consume no CPU."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:55
+msgid "Known limitations"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:56
+msgid ""
+"When running Blender in debug mode, you will see one warning line of the "
+"console:"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:63
+msgid "Collision margin has no effect on sphere, cone and cylinder shape."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:67
+msgid "Settings"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:71
+msgid "Invisible"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:70
+msgid "See :doc:`Here </game_engine/physics/types/static>`."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:74
+msgid "Collision Bounds"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/sensor.rst:76
+msgid "See :ref:`Here <game-engine-physics-types>`."
+msgstr ""
+

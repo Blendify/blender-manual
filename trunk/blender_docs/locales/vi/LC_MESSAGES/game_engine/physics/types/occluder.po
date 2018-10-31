@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/physics/types/occluder.rst:4
+msgid "Occlude Object Physics"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:6
+msgid ""
+"If an Occlude type object is between the camera and another object, that "
+"other object will not be rasterized (calculated for rendering). It is "
+"culled because it is occluded."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:10
+msgid ""
+"There is a demo blend-file to exemplify some concepts: `BGE-Physics-"
+"Objects-Occluder.blend <https://wiki.blender.org/wiki/File:BGE-Physics-"
+"Objects-Occluder.blend>`__"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:13
+msgid "A messed-up, subdivided Cube named \"Cube\"."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:14
+msgid "Another one behind a \"Physics Type: Occlude\" plane, named \"Cube.BG\"."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:15
+msgid "Another one outside the view Frustum, named \"Cube.OffCamera\"."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:17
+msgid ""
+"Now observe what happens to the profiling stats for each of the following"
+" (in order):"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:19
+msgid ""
+"Hit :kbd:`P` as the scene is. It hums along at a fairly slow rate. On my "
+"system the Rasterizer step takes 130ms. The frame rate will finally jump "
+"up once the \"Cube\" object has completely moved out of the view frustum."
+" It is as if the Occluder does not do anything while the Cube is behind "
+"it."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:22
+msgid ""
+"Delete the \"Cube.OffCamera\" object above, and notice that there is no "
+"improvement in speed. This is the view frustum culling working for you --"
+" it does not matter if that object exists or not."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:25
+msgid ""
+"Hit :kbd:`Z` to view wireframe. Notice that in the 3D View you can see "
+"\"Cube.BG\", but once you press :kbd:`P`, it is not there."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:27
+msgid ""
+"Make the \"Occluder\" object take up the whole camera's view with :kbd:`S"
+" X 5`. You will see a huge leap in frame rate, since almost nothing is "
+"being Rasterized. On my system the Rasterizer step drops to 5ms."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:30
+msgid ""
+"Try a run with :menuselection:`World properties --> Physics --> Occlusion"
+" Culling` disabled. It will be slow again."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:32
+msgid ""
+"Reenable :menuselection:`World properties --> Physics --> Occlusion "
+"Culling` and run it one more time to prove to yourself that your speed is"
+" back."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:34
+msgid ""
+"Change the Occluder to \"Physics Type: Static\". Notice that it is back "
+"to the original slowness."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:35
+msgid "Change it back to \"Physics Type: Occlude\"."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:36
+msgid ""
+"Now make the \"Occluder\" invisible. The frame rate is back down to its "
+"original, slow rate."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:45
+msgid "Details"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:47
+msgid ""
+"As far as Physics is concerned, this type is equivalent to Rigid Object "
+"\"No collision\". The reason why the Occluder mode is mutually exclusive "
+"with other physics mode is to emphasize the fact that occluders should be"
+" specifically designed for that purpose and not every mesh should be an "
+"occluder. However, you can enable the Occlusion capability on physics "
+"objects using Python and Logic bricks. See (Link- TODO)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:54
+msgid ""
+"When an occluder object enters the view frustum, the BGE builds a Z-depth"
+" buffer from the faces of that object. Whether the faces are one-side or "
+"two-side is important: only the front faces and two-side faces are used "
+"to build the Z-depth buffer. If multiple occluders are in the view "
+"frustum, the BGE combines them and keeps the most foreground faces."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:61
+msgid ""
+"The resolution of the Z-depth buffer is controllable in the World "
+"settings with the \"Occlusion Culling Resolution\" button:"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:64
+msgid ""
+"By default the resolution is 128 pixels for the largest dimension of the "
+"viewport while the resolution of the other dimension is set "
+"proportionally. Although 128 is a very low resolution, it is sufficient "
+"for the purpose of culling. The resolution can be increased to maximum "
+"1024 but at great CPU expense."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:69
+msgid ""
+"The BGE traverses the DBVT (Dynamic Bounding Volume Tree) and for each "
+"node checks if it is entirely hidden by the occluders and if so, culls "
+"the node (and all the objects it contains)."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:73
+msgid ""
+"To further optimize the feature, the BGE builds and uses the Z-depth "
+"buffer only when at least one occluder is in the view frustum. Until "
+"then, there is no performance decrease compared to regular view frustum "
+"culling."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:79
+msgid "Recommendations"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:81
+msgid ""
+"Occlusion culling is most useful when the occluders are large objects "
+"(buildings, mountains...) that hide many complex objects in an "
+"unpredictable way. However, do not be too concerned about performance: "
+"even if you use it inappropriately, the performance decrease will be "
+"limited due to the structure of the algorithm."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:86
+msgid "There are situations where occlusion culling will not bring any benefit:"
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:88
+msgid "If the occluders are small and do not hide many objects."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:90
+msgid "In that case, occlusion culling is just dragging your CPU down."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:91
+msgid "If the occluders are large but hides simple objects."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:93
+msgid "In that case, you are better off sending the objects to the GPU."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:94
+msgid ""
+"If the occluders are large and hides many complex objects but in a very "
+"predictable way."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:96
+msgid ""
+"Example: a house full of complex objects. Although occlusion culling will"
+" perform well in this case, you will get better performance by "
+"implementing a specific logic that hides/unhides the objects; for "
+"instance making the objects visible only when the camera enters the "
+"house."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:99
+msgid ""
+"Occluders can be visible graphic objects but beware that too many faces "
+"will make the Z-depth buffer creation slow."
+msgstr ""
+
+#: ../../manual/game_engine/physics/types/occluder.rst:102
+msgid ""
+"For example, a terrain is not a good candidate for occlusion: too many "
+"faces and too many overlap. Occluder can be invisible objects placed "
+"inside more complex objects (e.g. \"in the walls\" of a building with "
+"complex architecture). Occluders can have \"holes\" through which you "
+"will see objects."
+msgstr ""
+

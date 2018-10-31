@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:4
+msgid "Navigating"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:7
+msgid "Header"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:11
+msgid "Video Sequencer Header."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:15
+msgid "View Menu"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:17
+msgid "As usual, the View Menu controls the editor's view settings."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:19
+msgid "View all Sequences :kbd:`Home`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:20
+msgid "Zooms the display to show all strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:21
+msgid "View Selected :kbd:`NumpadPeriod`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:22
+msgid "Zooms in the display to fit only the selected strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:23
+msgid "View Frame :kbd:`Numpad0`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:24
+msgid "Scrolls the timeline so the current frame is in the center."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:25
+msgid "Show Seconds :kbd:`Ctrl-T`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:26
+msgid ""
+"Displays the time instead of the frame number, in the Frame Number "
+"Indicator."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:27
+msgid "Show Frame Number Indicator"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:28
+msgid ""
+"Toggles the units of measure across the bottom of the time cursor between"
+" seconds or frames."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:29
+msgid "Show Offsets"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:30
+msgid ""
+"Shows overflow bars of \"extra\" content from either cutting or sliding "
+"strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:32
+msgid "Waveform Drawing"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:32
+msgid ""
+"Global option to either draw the waveform, or the strip info, or use the "
+"individual :ref:`strip option <sequencer-sound-waveform>`."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:36
+msgid "Sync Markers"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:35
+msgid "Transform Markers as well as Strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:39
+msgid "Markers Menu"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:41
+msgid ""
+":doc:`Markers </animation/markers>` are used to denote frames with key "
+"points or significant events within an animation. Like with most "
+"animation editors, markers are shown at the bottom of the editor."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:46
+msgid "Markers in animation editor."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:48
+msgid ""
+"For descriptions of the different marker tools see :ref:`Editing Markers "
+"<animation-markers-editing>`."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:52
+msgid "Frame Menu"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:54
+msgid "Preview Range :kbd:`P`, :kbd:`Alt-P`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:55
+msgid "See :ref:`graph-preview-range`."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:56
+msgid "Jump to end of strip :kbd:`PageUp`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:57
+msgid "Current frame will jump to end of strip."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:60
+msgid "Jump to beginning of strip :kbd:`PageDown`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:59
+msgid "Current frame will jump to beginning of strip."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:63
+msgid "Copy and Paste"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:65
+msgid ""
+"Strips can be copied and pasted using the two icon buttons or through "
+":kbd:`Ctrl-C` and :kbd:`Ctrl-V`."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:70
+msgid "Refresh Sequencer"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:72
+msgid ""
+"To force Blender to re-read in files, and to force a re-render of the 3D "
+"View, click the *Refresh Sequencer* button. Blender will update and "
+"synchronize all cached images and compute the current frame."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:76
+msgid ""
+"Certain operations, like moving an object in 3D View, may not force the "
+"*Sequencer* to call for a refresh of the rendered image (since the "
+"movement may not affect the rendered image). If an image or video, used "
+"as a strip, is changed by some application outside of Blender, Blender "
+"has no real way of being notified from your operating system."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:83
+msgid "Backdrop"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:85
+msgid ""
+"Displays the current frame in the background of the main view like in the"
+" Node editor."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:89
+msgid "Main View"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:92
+msgid "Adjusting the View"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:94
+msgid "Use these shortcuts to adjust the sequence area of the VSE:"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:96
+msgid "Pan :kbd:`MMB`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:97
+msgid "Zoom :kbd:`Wheel`"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:98
+msgid "Vertical Scroll use :kbd:`Shift-Wheel`, or drag on the left scroll bar."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:99
+msgid "Horizontal Scroll use :kbd:`Ctrl-Wheel`, or drag on the lower scroll bar."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:100
+msgid ""
+"Scale View, :kbd:`Ctrl-MMB` and drag up/down (vertical scale) or "
+"left/right (horizontal scale)."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:101
+msgid "Scale View Vertically, drag on the circles on the vertical scroll bar."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:102
+msgid "Scale View Horizontally, drag on the circles on the horizontal scroll bar."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:106
+msgid "Time Cursor"
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:108
+msgid ""
+"To move back and forth through your movie, :kbd:`LMB` click and drag "
+"left/right in the Sequencer's main view by moving the Time cursor (the "
+"vertical bar which indicates the current frame). As you do, the image for"
+" that frame is displayed in the Preview region."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:112
+msgid ""
+"When you drag the frame indicator with :kbd:`LMB` directly on a sequence "
+"strip, this will show the strip *solo*, (temporarily disregarding effects"
+" and other strips, showing only this strips output) and the strip will be"
+" highlighted."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:116
+msgid ""
+"When holding :kbd:`Ctrl` while dragging it will snap to the start and "
+"endpoints of strips."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:118
+msgid ""
+"Real-time preview is possible on reasonable computers when viewing an "
+"image sequence or movie (``avi``/``mov``) file. Scene strips can use "
+"OpenGL previews or proxies for real-time playback, otherwise displaying "
+"rendered frame is supported, but typically too slow for real-time "
+"playback."
+msgstr ""
+
+#: ../../manual/editors/vse/sequencer/navigating.rst:125
+msgid "Every other synced editor can be used for scrubbing e.g. the Timeline."
+msgstr ""
+

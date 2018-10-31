@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/settings/shading.rst:4
+msgid "Shading"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:6
+msgid ""
+"Globally de/activates engine features in :menuselection:`Render --> "
+"Shading` panel..."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:9
+msgid "Texture"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:9
+msgid ""
+"All :doc:`/render/blender_render/textures/properties/influence/index` "
+"e.g. color, but also normal and displacement maps."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:11
+msgid "Shadows"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:12
+msgid "All :doc:`/render/blender_render/lighting/shadows/index` calculation."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:13
+msgid "Subsurface Scattering"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:14
+msgid ""
+"All "
+":doc:`/render/blender_render/materials/properties/subsurface_scattering`."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:15
+msgid "Environment Map"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:16
+msgid "The :ref:`world texture <bi-world-texture>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:17
+msgid "Ray Tracing"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:18
+msgid ""
+"The :doc:`shadow tracing "
+"</render/blender_render/lighting/shadows/raytraced_properties>`."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:21
+msgid "Alpha"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:20
+msgid "Switches between a world background to be the sky or transparent."
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:22
+msgid "Sky, Transparency"
+msgstr ""
+
+#: ../../<generated>:1
+msgid "World Space Shading"
+msgstr ""
+
+#: ../../manual/render/blender_render/settings/shading.rst:24
+msgid ""
+"Shading can optionally be computed in world space rather than camera "
+"space. This affects e.g. normal and lamp vectors. This is often more "
+"convenient and matches other engines behavior."
+msgstr ""
+

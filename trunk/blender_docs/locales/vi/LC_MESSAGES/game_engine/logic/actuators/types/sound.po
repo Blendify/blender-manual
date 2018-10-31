@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:5
+msgid "Sound Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:7
+msgid ""
+"The *Sound Actuator* allows the user to play sound files in the game "
+"engine."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:12
+msgid "Sound Actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:16
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:18
+msgid "Sound File"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:19
+msgid "Load a new sound file or select one from the list."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:35
+msgid "Play Mode"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:21
+msgid "How the sound effect is played."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:23
+msgid "Play Stop"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:24
+msgid ""
+"The sound effect is played when activated. Stops instantly when "
+"deactivated."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:26
+msgid "Play End"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:26
+msgid ""
+"The sound effect is played when activated. When deactivated, stops after "
+"finishing playing the sound. The sound is not replayed if activated while"
+" still playing."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:28
+msgid "Loop Stop"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:29
+msgid ""
+"The sound is played as infinite loop when activated. Stops instantly when"
+" deactivated."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:31
+msgid "Loop End"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:31
+msgid ""
+"The sound is played as infinite loop when activated. When deactivated, "
+"stops after finishing playing the sound."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:33
+msgid "Loop Bidirectional"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:34
+msgid ""
+"The sound is played as infinite ping-pong loop. When deactivated, stops "
+"after finishing playing the sound."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:35
+msgid "Loop Bidirectional Stop"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:36
+msgid ""
+"The sound is played as infinite ping-pong loop. Stops instantly when "
+"deactivated."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:37
+msgid "Volume"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:38
+msgid "The volume at which the sound effect is played."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:41
+msgid "Pitch"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:40
+msgid ""
+"The pitch at which the sound effect is played. 0 is default, 12 is one "
+"octave."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:44
+msgid "3D Sound"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:50
+msgid "The cones point in the direction of the objects negative Z axis."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:52
+msgid ""
+"If enabled, the sound is affected by distance, speed of the emitting "
+"object and various other things. The options below are only available if "
+"3d Sound is enabled."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:57
+msgid ""
+"3D sound is influenced by the Audio panel in :ref:`Scene Settings <data-"
+"scenes-audio>`. A brief description of the different distance models can "
+"be found `here "
+"<https://www.openal.org/documentation/openal-1.1-specification.pdf>`__."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:61
+msgid "Minimum Gain"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:62
+msgid "The minimum gain of the sound, no matter how far it is away."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:63
+msgid "Maximum Gain"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:64
+msgid "The maximum gain of the sound, no matter how near it is."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:66
+msgid "Reference Distance"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:66
+msgid ""
+"The cones point in the direction of the objects negative Z axis. The "
+"distance at which the sound has a gain of 1.0."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:68
+msgid "Maximum Distance"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:69
+msgid "The maximum distance at which the sound can be heard."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:71
+msgid "Rolloff"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:71
+msgid ""
+"The influence factor on volume depending on distance. The higher, the "
+"more the sound will fade with distance."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:75
+msgid "Cone Outer Gain"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:74
+msgid ""
+"The gain outside the outer cone. The gain inside the outer cone will be "
+"interpolated between this value and the normal gain inside the inner cone"
+" (Volume). Note that the cones always point in the direction of the "
+"objects local -Z axis (figure right)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:77
+msgid "Cone Outer Angle"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:78
+msgid "The angle of the outer cone."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:81
+msgid "Cone Inner Angle"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:80
+msgid "The angle of the inner cone."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/sound.rst:84
+msgid "Example"
+msgstr ""
+

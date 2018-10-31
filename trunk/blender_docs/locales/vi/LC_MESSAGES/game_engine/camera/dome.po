@@ -1,0 +1,366 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/camera/dome.rst:4
+msgid "Dome Camera"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:6
+msgid ""
+"This feature allows artists to visualize their interactive projects "
+"within an immersive dome environment. In order to make it an extensible "
+"tool, we are supporting Fulldome, Truncated domes (front and rear), "
+"Planetariums and domes with spherical mirrors."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:12
+msgid ""
+"The Dome camera uses a multi-pass texture algorithm as developed by Paul "
+"Bourke and was implemented by Dalai Felinto with sponsorship from SAT -- "
+"Society for Arts and Technology within the SAT Metalab `immersion "
+"research program "
+"<http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__, that "
+"involves rendering the scene four times and placing the subsequent images"
+" onto a mesh designed especially such that the result, when viewed with "
+"an orthographic camera, is a fisheye projection."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:22
+msgid ""
+"Remember to use Blender in 'fullscreen mode' to get the maximum out of "
+"your projector."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:24
+msgid ""
+"To accomplish that launch Blender with the command-line argument ``-W``. "
+"Also to get away of the top menu on Blender try to join all areas "
+"(buttons, 3D View, text, etc.) in a single one. Otherwise if you only "
+"maximize it (:kbd:`Ctrl-Up`) you cannot get the whole screen free to run "
+"your game (the top menu bar takes about 20 pixels)."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:32
+msgid "Dome Camera Settings"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:38
+msgid "Dome Type"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:37
+msgid ""
+"This menu allows you to select which type of dome camera to use. They are"
+" outlined below, along with their respective settings."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:40
+msgid "`Fisheye Mode`_"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:41
+msgid "`Front-Truncated Dome Mode`_"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:42
+msgid "`Rear-Truncated Dome Mode`_"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:43
+msgid "`Cube Map Mode`_"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:44
+msgid "`Spherical Panoramic Mode`_"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:46
+msgid "Available camera settings change depending on the selected Dome Type:"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:48
+msgid "Resolution"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:49
+msgid ""
+"Sets the resolution of the Buffer. Decreasing this value increases speed,"
+" but decreases quality."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:50
+msgid "Tessellation"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:51
+msgid ""
+"This is the tessellation level of the mesh (not available in Cube Map "
+"mode)."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:52
+msgid "Angle"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:53
+msgid ""
+"Sets the field of view of the dome in degrees, from 90 to 250. (Available"
+" in Fisheye and Truncated modes)."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:55
+msgid "Tilt"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:55
+msgid ""
+"Set the camera rotation in the horizontal axis (available in Fisheye and "
+"Truncated modes)."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:59
+msgid "`Warp Data Mesh`_"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:58
+msgid "Use a custom warp mesh data file."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:62
+msgid "Fisheye Mode"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:64
+msgid "An Orthogonal Fisheye view from 90° to 250° degrees."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:66
+#: ../../manual/game_engine/camera/dome.rst:81
+#: ../../manual/game_engine/camera/dome.rst:96
+msgid "From 90° to 180° we are using four renders."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:67
+#: ../../manual/game_engine/camera/dome.rst:82
+#: ../../manual/game_engine/camera/dome.rst:97
+msgid "From 181° to 250° we are using five renders."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:71
+msgid "Fisheye Mode."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:75
+msgid "Front-Truncated Dome Mode"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:77
+msgid ""
+"Designed for truncated domes, this mode aligns the fisheye image with the"
+" top of the window, while touching the sides."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:80
+#: ../../manual/game_engine/camera/dome.rst:95
+msgid "The Field of view goes from 90° to 250° degrees."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:86
+msgid "Front Truncated Dome Mode."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:90
+msgid "Rear-Truncated Dome Mode"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:92
+msgid ""
+"Designed for truncated domes, this mode aligns the fisheye image with the"
+" bottom of the window, while touching the sides."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:101
+msgid "Rear Truncated Dome Mode."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:105
+msgid "Cube Map Mode"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:107
+msgid "Cube Map mode can be used for pre-generate animated images for CubeMaps."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:109
+msgid ""
+"We are using six renders for that. The order of the images follows "
+"Blender internal EnvMap file format: - First line: right, back, left. - "
+"Second line: bottom, top, front."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:115
+msgid "Environment Map Mode."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:119
+msgid "Spherical Panoramic Mode"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:121
+msgid "A full spherical panoramic mode."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:123
+msgid "We are using six cameras here."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:124
+msgid ""
+"The bottom and top start to get precision with *Definition* set to 5 or "
+"more."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:128
+msgid "Full Spherical Panoramic Mode."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:132
+msgid "Warp Data Mesh"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:134
+msgid ""
+"Many projection environments require images that are not simple "
+"perspective projections that are the norm for flat screen displays. "
+"Examples include geometry correction for cylindrical displays and some "
+"new methods of projecting into planetarium domes or upright domes "
+"intended for VR."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:139
+msgid ""
+"For more information on the mesh format see `Paul Bourke's article "
+"<http://paulbourke.net/dataformats/meshwarp/>`__."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:143
+msgid "In order to produce those images, we are using a specific file format."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:145
+msgid "File template:"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:158
+msgid ""
+"First line is the image type the mesh is support to be applied to: ``2 = "
+"rectangular``, ``1 = radial`` Next line has the mesh dimensions in "
+"pixels. Rest of the lines are the nodes of the mesh."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:162
+msgid ""
+"Each line is compound of *x*, *y*, *u*, *v*, *i*. (x, y) are the "
+"normalized screen coordinates, (u, v) texture coordinates, *i* a "
+"multiplicative intensity factor."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:166
+msgid ""
+"*x* varies from negative screen aspect to positive screen aspect. *y* "
+"varies from -1 to 1. *u* and *v* vary from 0 to 1. *i* ranges from 0 to "
+"1, if negative do not draw that mesh node."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:170
+msgid ""
+"You need to create the file and add it to the Text Editor in order to "
+"select it as your Warp Mesh data file."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:171
+msgid "Open the Text Editor :menuselection:`Editor Types --> Text Editor`."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:172
+msgid ""
+"Open your mesh data file (e.g. myDome.data) in the Text editor "
+"(:menuselection:`Text --> Open` or :kbd:`Alt-O`)."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:173
+msgid ""
+"Go to Game Framing Settings :menuselection:`Editor Types --> Properties "
+"editor --> Scene`."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:174
+msgid "Enable Dome Mode."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:175
+msgid "Type filename in Warp Data field (e.g. myDome.data)."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:177
+msgid ""
+"To create your own Warp Meshes an interactive tool called meshmapper is "
+"available as part of `Paul Bourke's Warpplayer "
+"<http://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__ software "
+"package (requires full version)."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:183
+msgid "Examples"
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:185
+msgid ""
+"`Spherical Mirror Dome 4×3 <https://wiki.blender.org/uploads/8/81/Dev-"
+"GameEngine-Dome-Standard_4x3.data>`__."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:186
+msgid ""
+"`Truncated Dome 4×3 <https://wiki.blender.org/uploads/9/9b/Dev-"
+"GameEngine-Dome-Truncated_4x3.data>`__."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:187
+msgid ""
+"`Sample Fullscreen File 4×3 <https://wiki.blender.org/uploads/d/d4/Dev-"
+"GameEngine-Dome-Sample-FullScreen_4x3.data>`__."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:189
+msgid ""
+"`Sample Fullbuffer File 4×3 <https://wiki.blender.org/uploads/3/3d/Dev-"
+"GameEngine-Dome-Sample-FullBuffer_4x3.data>`__."
+msgstr ""
+
+#: ../../manual/game_engine/camera/dome.rst:194
+msgid ""
+"The viewport is calculated using the ratio of canvas width by canvas "
+"height. Therefore different screen sizes will require different warp mesh"
+" files. Also in order to get the correct ratio of your projector you need"
+" to use Blender in Fullscreen mode."
+msgstr ""
+

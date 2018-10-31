@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:5
+msgid "Joystick Sensor"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:7
+msgid ""
+"The *Joystick Sensor* triggers whenever the joystick moves. It also "
+"detects events on a range of ancillary controls on the joystick device "
+"(hat, buttons, etc.). More than one joystick may be used (see \"Index\")."
+" The exact layout of the joystick controls will depend on the make and "
+"model of joystick used."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:15
+msgid "Joystick sensor."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:19
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:21
+msgid ""
+"See :ref:`Sensor Common Options <game-engine-logic-sensors-common-"
+"options>` for common options."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:23
+msgid "Event Type"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:24
+msgid "A menu to select which joystick event to use, each is described later."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:25
+msgid "Index"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:26
+msgid "Specifies which joystick to use."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:29
+msgid "All Events"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:28
+msgid "Sensor triggers for all events on this joystick's current type."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:32
+msgid "Single Axis"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:34
+msgid "Detect movement in a single joystick Axis."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:39
+msgid "Joystick Single Axis."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:46
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:76
+msgid "Axis Number"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:42
+msgid "Axis to detect a change."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:44
+msgid "1 = Horizontal axis (left/right)"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:45
+msgid "2 = Vertical axis (forward/back)"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:46
+msgid "3 = Paddle axis up/down"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:47
+msgid "4 = Joystick axis twist left/right"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:50
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:78
+msgid "Axis Threshold"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:49
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:79
+msgid "Threshold at which joystick fires."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:53
+msgid "Hat"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:55
+msgid "Detects movement of a specific hat control on the joystick."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:60
+msgid "Joystick Hat."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:62
+msgid "Hat number"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:63
+msgid "Specifies which hat to use (max. 2)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:66
+msgid "Hat Direction"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:65
+msgid ""
+"Specifies the direction to use: up, down, left, right, up/right, up/left,"
+" down/right, down/left."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:69
+msgid "Axis"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:74
+msgid "Joystick Axis."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:77
+msgid "Specifies the axis (1 or 2)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:86
+msgid "Axis Direction"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:81
+msgid "Specifies the direction to use:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:83
+msgid "(Axis Number = 1) Joystick Left, Right, Up, Down"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:84
+msgid "(Axis Number = 2) Paddle upper (Left); paddle Lower (Right);"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:85
+msgid "Joystick twist left (Up) Joystick twist right (Down)"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:89
+msgid "Button"
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:94
+msgid "Joystick Button."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:96
+msgid "Specifies the *button number* to use."
+msgstr ""
+
+#: ../../manual/game_engine/logic/sensors/types/joystick.rst:100
+msgid "Example"
+msgstr ""
+

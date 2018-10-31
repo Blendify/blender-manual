@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:5
+msgid "Camera Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:7
+msgid "The *Camera Actuator* makes the camera follow or track an object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:12
+msgid "Camera Actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:16
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:18
+msgid "Camera Object"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:19
+msgid "Name of the Game Object that the camera follows/tracks."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:20
+msgid "Height"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:21
+msgid "Height the camera tries to stay above the Game Object's object center."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:22
+msgid "Axis"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:23
+msgid "Axis in which the Camera follows (X or Y)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:24
+msgid "Min"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:25
+msgid "Minimum distance for the camera to follow the Game Object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:26
+msgid "Max"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:27
+msgid "Maximum distance for the camera to follow the Game Object."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:32
+msgid "Damping"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:29
+msgid ""
+"Strength of the constraint that drives the camera behind the target. The "
+"higher the parameter, the quicker the camera will adjust to be inside the"
+" constrained range (of min, max and height)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/camera.rst:35
+msgid "Example"
+msgstr ""
+

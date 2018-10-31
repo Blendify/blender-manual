@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/interface/window_system/regions.rst:5
+msgid "Regions"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:7
+msgid "An Editor is subdivided into regions."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:11
+msgid "Main Region"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:13
+msgid ""
+"At least one region is always visible. It is called the main region and "
+"is the most prominent part of the editor."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:16
+msgid ""
+"Each editor has a specific purpose, so the main region and the "
+"availability of additional regions are different between editors. See "
+"specific documentation about each editor in the :doc:`Editors "
+"</editors/index>` chapter."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:26
+msgid "Header"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:28
+msgid ""
+"A header is a small horizontal strip with a lighter gray background, "
+"which sits either at the top or bottom of the area. All editors have a "
+"header acting as a container for menus and commonly used tools. "
+":ref:`Menus <ui-header-menu>` and buttons will change with the editor "
+"type and the selected object and mode."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:36
+msgid "The Header of the 3D View editor."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:38
+msgid ""
+"If you move the mouse over an area, the header of its editor changes to a"
+" slightly lighter shade of gray. This means that it is \"focused\". All "
+"hotkeys you press will now affect the contents of this editor. The header"
+" can be hidden with :kbd:`Alt-F9`."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:46
+msgid "Tool Shelf"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:48
+msgid ""
+"The *Tool Shelf* by default on the left side contains the tool settings. "
+":kbd:`T` toggles the visibility of Tool Shelf Region."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:53
+msgid "Operator Panel"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:55
+msgid ""
+"The Operator panel is a region that is part of the Tool Shelf containing "
+"only one panel. In the 3D View it displays the properties of the "
+":ref:`last operator <ui-redo-last>` executed and in the File Browser the "
+"file import/export options."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:61
+msgid "Properties Region"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:63
+msgid ""
+"The *Properties Region* is by default on the right side. It contains "
+":ref:`Panels <ui-panels>` with settings of objects within the editor and "
+"the editor itself. :kbd:`N` toggles the visibility of Properties Region."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:70
+msgid "Arranging"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:73
+msgid "Scrolling"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:75
+msgid ""
+"A region can be scrolled vertically and/or horizontally by dragging it "
+"with the :kbd:`MMB`. If the region has no zoom level, it can be scrolled "
+"by using the :kbd:`Wheel`, while the mouse hovers over it."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:81
+msgid "Changing the Size and Hiding"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:83
+msgid ""
+"Resizing regions works the same way as "
+":doc:`/interface/window_system/areas` by dragging their border."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:86
+msgid ""
+"To hide a region scale it down to nothing. A hidden region leaves a "
+"little plus sign (see picture). By :kbd:`LMB` on this, the region will "
+"reappear."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:90
+msgid ""
+"The Tool Shelf and Properties region have a shortcut assigned to toggle "
+"between hide and show."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:93
+msgid "Hiding and showing the Header."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:101
+msgid "Position"
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:103
+msgid ""
+"To flip a region from one side to the opposite press :kbd:`F5`, while the"
+" Region is under the mouse pointer."
+msgstr ""
+
+#: ../../manual/interface/window_system/regions.rst:106
+msgid ""
+"The header can also be flip by :kbd:`RMB` on it and select the "
+"appropriate item from the pop-up menu. If the header is at the top, the "
+"item text will read \"Flip to Bottom\", and if the header is at the "
+"bottom the item text will read \"Flip to Top\"."
+msgstr ""
+

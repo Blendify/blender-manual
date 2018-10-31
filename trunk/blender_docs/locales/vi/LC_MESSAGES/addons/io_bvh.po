@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/addons/io_bvh.rst:4
+msgid "Biovision Hierarchy"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst
+msgid "Name"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:6
+msgid "BioVision Motion Capture (BVH) format"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst
+msgid "Location"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:7
+msgid ":menuselection:`File --> Import/Export --> Motion Capture (.bvh)`"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst
+msgid "Version"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:8
+msgid "1.0.0"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst
+msgid "Blender"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:9
+msgid "2.74"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst
+msgid "Category"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:10
+msgid "Import-Export"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst
+msgid "Author"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:11
+msgid "Campbell Barton"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:15
+msgid "Usage"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:17 ../../manual/addons/io_bvh.rst:34
+#: ../../manual/addons/io_bvh.rst:36 ../../manual/addons/io_bvh.rst:38
+#: ../../manual/addons/io_bvh.rst:40 ../../manual/addons/io_bvh.rst:42
+#: ../../manual/addons/io_bvh.rst:44 ../../manual/addons/io_bvh.rst:46
+#: ../../manual/addons/io_bvh.rst:53 ../../manual/addons/io_bvh.rst:55
+#: ../../manual/addons/io_bvh.rst:57 ../../manual/addons/io_bvh.rst:59
+msgid "TODO."
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:21
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:24
+msgid "Import"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:31
+msgid "Forward / Up Axis"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:27
+msgid ""
+"Since many applications use a different axis for 'Up', there are axis "
+"conversion there settings, Forward and Up axis -- By mapping these to "
+"different axis you can convert rotations between applications default up "
+"and forward axis."
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:31
+msgid ""
+"Blender uses Y Forward, Z Up (since the front view looks along the +Y "
+"direction). For example, its common for applications to use Y as the up "
+"axis, in that case -Z Forward, Y Up is needed."
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:33
+msgid "Target"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:35 ../../manual/addons/io_bvh.rst:52
+msgid "Scale"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:37
+msgid "Scale FPS"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:39
+msgid "Update Scene FPS"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:41
+msgid "Update Scene Duration"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:43
+msgid "Loop"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:47 ../../manual/addons/io_bvh.rst:56
+msgid "Rotation"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:50
+msgid "Export"
+msgstr ""
+
+#: ../../manual/addons/io_bvh.rst:54
+msgid "Start/End Frame"
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Root Translation Only"
+msgstr ""
+

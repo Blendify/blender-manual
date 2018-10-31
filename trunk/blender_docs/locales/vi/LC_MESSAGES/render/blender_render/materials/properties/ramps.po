@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:4
+msgid "Color Ramps"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:6
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst
+msgid "Mode"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:9
+msgid "All Modes"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst
+msgid "Panel"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:10
+msgid ":menuselection:`Material --> Ramps`"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:12
+msgid ""
+"On many real-world materials, like skin or metals, the color of diffuse "
+"and specular reflections can differ slightly, based on the amount of "
+"energy a surface receives or on the light angle of incidence. The *Ramp "
+"Shader* options in Blender allow you to set a range of colors for a "
+"*Material*, and define how the range will vary over a surface, and how it"
+" blends with the 'actual color' (typically from a material or as output "
+"of a texture)."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:19
+msgid ""
+"Ramps allow you to precisely control the color gradient across a "
+"material, rather than just a simple blend from a brightened color to a "
+"darkened color, from the most strongly lit area to the darkest lit area. "
+"As well as several options for controlling the gradient from lit to "
+"shadowed, ramps also provide 'normal' input, to define a gradient from "
+"surfaces facing the camera to surfaces facing away from the camera. This "
+"is often used for materials like some types of metallic car paint that "
+"change color based on viewing angle."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:28
+msgid ""
+"Since texture calculations in Blender happen before shading, the *Ramp "
+"Shader* can completely replace texture or material color. But by use of "
+"the mixing options and Alpha values it is possible to create an "
+"additional layer of shading in Blender materials."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:35
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:39
+msgid "Ramps panel."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:41
+msgid ""
+"For the first part of the color ramp option see :ref:`ui-color-ramp-"
+"widget`."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:57
+msgid "Input"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:44
+msgid "The input menu contains the following options for defining the gradient:"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:47
+msgid "Shader"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:47
+msgid ""
+"The value as delivered by the material's shader (*Lambert*, *Cook-"
+"Torrance*) defines the color. Here the amount of light does not matter "
+"for color, only the direction of the light."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:50
+msgid "Energy"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:50
+msgid ""
+"As *Shader*, now also lamp energy, color, and distance are taken into "
+"account. This makes the material change color when more light shines on "
+"it."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:53
+msgid "Normal"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:53
+msgid ""
+"The surface normal, relative to the camera, is used for the *Ramp "
+"Shader*. This is possible with a texture as well, but added for "
+"convenience."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:57
+msgid "Result"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:56
+msgid ""
+"While all three previous options work per lamp, this option only works "
+"after shading calculations. This allows full control over the entire "
+"shading, including 'Toon' style results. Using alpha values here is most "
+"useful for tweaking a finishing touch to a material."
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:60
+msgid "Blend"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:60
+msgid ""
+"A list of the various :term:`Color Blend Modes` are available for "
+"blending the ramp shader with the color from *Input*."
+msgstr ""
+
+#: ../../<generated>:1
+msgid "Factor"
+msgstr ""
+
+#: ../../manual/render/blender_render/materials/properties/ramps.rst:63
+msgid ""
+"This slider denotes the overall factor of the ramp shader with the color "
+"from *Input*."
+msgstr ""
+

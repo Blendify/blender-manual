@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:5
+msgid "Scene Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:7
+msgid ""
+"The *Scene Actuator* manages the scenes in the user's blend-file, these "
+"can be used as levels or for UI and background."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:13
+msgid "Scene actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:19
+msgid "The actuator has several modes described below:"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:21
+msgid "Restart"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:22
+msgid "Restarts the current scene, everything in the scene is reset."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:23
+msgid "Set Scene"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:24
+msgid "Changes scene to selected one."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:25
+msgid "Set Camera"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:26
+msgid "Changes which camera is used."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:29
+msgid "Add Overlay Scene"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:28
+msgid ""
+"This adds an other scene, and draws it on top of the current scene. It is"
+" good for interfacing: keeping the health bar, ammo meter, speed meter in"
+" an overlay scene makes them always visible."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:31
+msgid "Add Background Scene"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:32
+msgid ""
+"This is the opposite of an overlay scene, it is drawn behind the current "
+"scene."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:33
+msgid "Remove Scene"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:34
+msgid "Removes a scene."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:35
+msgid "Suspend Scene"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:36
+msgid "Pauses a scene."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:38
+msgid "Resume Scene"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:38
+msgid "Resumes a paused scene."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:42
+msgid ""
+"A scene that it is paused cannot resume itself. You need an active scene "
+"to resume other scene that it is paused."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/scene.rst:47
+msgid "Example"
+msgstr ""
+

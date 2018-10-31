@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:5
+msgid "State Actuator"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:7
+msgid ""
+"The *State Actuator* allows the user to create complex logic, while "
+"retaining a clear user interface. It does this by having different "
+"states, and performing operations upon them."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:13
+msgid ""
+"With the state actuator, you can create tiers of logic, without the need "
+"for hundreds of properties. Use it well, and you benefit greatly, but "
+"often problems may be circumvented by Python."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:20
+msgid "State actuator."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:35
+msgid "Operation"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:27
+msgid "Change State"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:28
+msgid "Change from the current state to the state specified."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:29
+msgid "Remove State"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:30
+msgid "Removes the specified states from the active states (deactivates them)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:31
+msgid "Add State"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:32
+msgid "Adds the specified states to the active states (activates them)."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:35
+msgid "Set State"
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:34
+msgid ""
+"Moves from the current state to the state specified, deactivating other "
+"added states."
+msgstr ""
+
+#: ../../manual/game_engine/logic/actuators/types/state.rst:38
+msgid "Example"
+msgstr ""
+

@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-SA 4.0 Int. License
+# This file is distributed under the same license as the Blender 2.79 Manual
+# package.
+# Hoang Duy Tran <hoangduytran1960@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 2.79 Manual 2.79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-30 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../manual/render/cycles/baking.rst:5
+msgid "Render Baking"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:7
+msgid "Reference"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst
+msgid "Panel"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:10
+msgid ":menuselection:`Render --> Bake`"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:12
+msgid ""
+"Refer to the Blender Render page for :doc:`general baking guidelines "
+"</render/blender_render/bake>`."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:14
+msgid ""
+"Cycles uses the render settings (samples, bounces, ...) for baking. This "
+"way the quality of the baked textures should match the result you get "
+"from the rendered scene."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:17
+msgid ""
+"The baking happens into the respective active textures of the object "
+"materials. The active texture is the last selected Image Texture node of "
+"the material node tree. That means the active object (or the selected "
+"objects, when not baking 'Selected to Active') needs a material, and that"
+" material needs at least an Image Texture node, with the image to be used"
+" for the baking. Note, the node does not need to be connected to any "
+"other node. The active texture is what projection painting and the "
+"viewport use as a criteria to which image to use. This way after the "
+"baking is done you can automatically preview the baked result in the "
+"Texture mode."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:27
+msgid "Options"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:31
+msgid "Ambient Occlusion Pass."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:35
+msgid "Bake Mode"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:43
+msgid "Combined"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:38
+msgid "Bakes all materials, textures, and lighting except specularity."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:42
+msgid "Combined Pass options."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:44
+msgid ""
+"The passes that contribute to the combined pass can be toggled "
+"individually to form the final map."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:45
+msgid "Ambient Occlusion"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:46
+msgid ""
+"Bakes ambient occlusion as specified in the World panels. Ignores all "
+"lights in the scene."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:47
+msgid "Shadow"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:48
+msgid "Bakes shadows and lighting."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:70
+msgid "Normals"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:50
+msgid "Bakes normals to an RGB image."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:54
+msgid "Normal Pass options."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:63
+msgid "Normal Space"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:57
+msgid "Normals can be baked in different spaces:"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:59
+msgid "Object space"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:60
+msgid ""
+"Normals in object coordinates, independent of object transformation, but "
+"dependent on deformation."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:63
+msgid "Tangent space"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:62
+msgid ""
+"Normals in tangent space coordinates, independent of object "
+"transformation and deformation. This is the default, and the right choice"
+" in most cases, since then the normal map can be used for animated "
+"objects too."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:66
+msgid "Normal Swizzle"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:66
+msgid "Axis to bake into the red, green and blue channel."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:68
+msgid ""
+"For materials the same spaces can be chosen in the image texture options "
+"next to the existing *Normal Map* setting. For correct results, the "
+"setting here should match the setting used for baking."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:72
+msgid "UV"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:73
+msgid "Bakes colors of materials and textures only, without shading."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:74
+msgid "Emit"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:75
+msgid "Bakes Emission, or the Glow color of a material."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:76
+msgid "Environment"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:77
+msgid "Bakes the environment as seen from the center of the object."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:89
+msgid "Diffuse, Glossy, Transmission, Subsurface"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:79
+msgid ""
+"Bakes the diffuse, glossiness, transmission of subsurface pass of a "
+"material."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:83
+msgid "Diffuse Pass options."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:85
+msgid ""
+"If only color is selected you get the pass color, which is a property of "
+"the surface and independent of sampling refinement."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:87
+msgid ""
+"If color is not selected, you get the direct and/or indirect "
+"contributions in gray-scale."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:88
+msgid ""
+"If color and either direct or indirect are selected, you get the direct "
+"and/or indirect contributions colored."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:92
+msgid "Additional Options"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:94
+msgid "Margin"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:95
+msgid ""
+"Baked result is extended this many pixels beyond the border of each UV "
+"\"island\", to soften seams in the texture."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:96
+msgid "Clear"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:97
+msgid "If selected, clears the image before baking render."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:103
+msgid "Select to Active"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:99
+msgid ""
+"Bake shading on the surface of selected objects to the active object. The"
+" rays are cast from the low-poly object inwards towards the high-poly "
+"object. If the high-poly object is not entirely involved by the low-poly "
+"object, you can tweak the rays start point with *Ray Distance* or *Cage "
+"Extrusion* (depending on whether or not you are using cage). For even "
+"more control you can use a *Cage Object*."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:105
+msgid "Memory Usage"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:107
+msgid ""
+"There is a CPU fixed memory footprint for every object used to bake from."
+" In order to avoid crashes due to lack of memory, the high-poly objects "
+"can be joined before the baking process. The render tiles parameter also "
+"influence the memory usage, so the bigger the tile the less overhead you "
+"have, but the more memory it will take during baking (either in GPU or "
+"CPU)."
+msgstr ""
+
+#: ../../<generated>:1 ../../manual/render/cycles/baking.rst:116
+msgid "Cage"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:113
+msgid ""
+"Cast rays to active object from a cage. A cage is a ballooned-out version"
+" of the low-poly mesh created either automatically (by adjusting the ray "
+"distance) or manually (by specifying an object to use). When not using a "
+"cage the rays will conform to the mesh normals. This produces glitches on"
+" the edges, but it is a preferable method when baking into planes to "
+"avoid the need of adding extra loops around the edges."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:119
+msgid "Ray Distance"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:119
+msgid ""
+"Distance to use for the inward ray cast when using selected to active. "
+"Ray distance is only available when not using *Cage*."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:124
+msgid "Cage Extrusion"
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:122
+msgid ""
+"Distance to use for the inward ray cast when using *Selected to Active* "
+"and *Cage*. The inward rays are casted from a version of the active "
+"object with disabled Edge Split Modifiers. Hard splits (e.g. when the "
+"Edge Split Modifier is applied) should be avoided because they will lead "
+"to non-smooth normals around the edges."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:127
+msgid ""
+"Object to use as cage instead of calculating the cage from the active "
+"object with the *Cage Extrusion*."
+msgstr ""
+
+#: ../../manual/render/cycles/baking.rst:131
+msgid ""
+"When the base mesh extruded does not give good results, you can create a "
+"copy of the base mesh and modify it to use as a *Cage*. Both meshes need "
+"to have the same :term:`topology` (number of faces and face order)."
+msgstr ""
+
