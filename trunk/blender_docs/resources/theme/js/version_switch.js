@@ -1,5 +1,5 @@
 (function() {//switch: v.b0i
-"use strict"; 
+"use strict";
 
 var debug_versions = { //@
 	"latest": "Latest",
@@ -20,7 +20,7 @@ var all_langs = {
 	"ru": "&#x3A1;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;",
 	"fi": "Suomeksi",
 	"uk": "Ukra&#1111;na",
-	"vi": "Ti&#7871;ng Vi&#7870;t",
+	"vi": "Ti&#x1EBF;ng Vi&#x1EC7;t",
 	"zh-hans": "&#x4E2D;&#x6587;(&#x7B80;&#x4F53;)",
 	"zh-hant": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)"
 };
@@ -73,9 +73,9 @@ afterload: function() {
 	//release = 2.79; //@
 	var lang = DOCUMENTATION_OPTIONS.LANGUAGE;
 	if(lang === "None" || lang === undefined) {lang = "en";}
-	
+
 	this.warn_old(release, all_versions.current);
-	
+
 	var version = this.get_named(release);
 	if(this.type) {this.label = all_versions[version];}else{this.label = all_langs[lang];}
 	var list = this.build_list(version, lang);
