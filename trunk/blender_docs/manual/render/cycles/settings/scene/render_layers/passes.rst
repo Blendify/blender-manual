@@ -16,6 +16,11 @@ and also to extract data such as depth or normals.
 Lighting Passes
 ===============
 
+Combined
+   The final combination of render passes with everything included.
+Noisy Image
+   If denoising is enabled, the original combined pass before denoising.
+
 Diffuse Direct
    Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces,
    the background, or ambient occlusion after a single reflection or transmission off a surface.
@@ -64,15 +69,13 @@ All these lighting passes can be combined to produce the final image as follows:
 Data Passes
 ===========
 
-Combined
-   The final combination of render passes with everything included.
 Z
-   Distance in :term:`BU` to any visible surfaces.
+   Distance in :term:`Blender Units` to any visible surfaces.
 
    .. note::
 
       The Z pass only uses one sample.
-      When depth values need to be blended in case of motion blur or :term:`DOF`, use the mist pass.
+      When depth values need to be blended in case of motion blur or :term:`Depth of Field`, use the mist pass.
 
 Mist
    Distance to visible surfaces, mapped to the 0.0-1.0 range.
@@ -92,6 +95,10 @@ Object Index
 Material Index
    Creates a mask of the material that can be later read by
    the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+Denoising Data
+	Passes needed by the denoiser, for perfoming animation denoising in a second pass
+	after rendering the entire animation. For still image denoising as part of the
+	render process these are not needed.
 
 .. note:: The Z, Object Index and Material Index passes are not anti-aliased.
 
@@ -100,3 +107,36 @@ Alpha Threshold
    only affected by surfaces with alpha transparency equal to or higher than this threshold.
    With value 0.0 the first surface hit will always write to these passes, regardless of transparency.
    With higher values surfaces that are mostly transparent can be skipped until an opaque surface is encountered.
+
+
+Cryptomatte
+===========
+
+Cryptomatte is a standard to efficiently create mattes for compositing.
+Cycles outputs the required render passes, which can then be used in the Blender compositor
+or another compositor with Cryptomatte support to create masks for specified objects.
+
+Unlike the Material and Object Index passes the objects to isolate are selected in compositing,
+and mattes will be antialiased and take into account effects like motion blur and transparency.
+
+Object
+    Render cryptomatte object pass, for isolating objects in compositing.
+Material
+    Render cryptomatte material pass, for isolating materials in compositing.
+Asset
+    Render cryptomatte material pass, for isolating materials in compositing.
+
+Levels
+	Sets how many unique objects can be distinguished per pixel.
+Accurate Mode
+    Gerenate a more accurate Cryptomatte pass. CPU only, may render slower and use more memory.
+
+
+Typical Workflow
+----------------
+
+* Enable Cryptomatte Object render pass in the Passes panel, and render.
+* In the compositing nodes, create a Cryptomatte node and link the Render Layer matching Image and Crypto passes to it.
+* Attach a Viewer node to the Pick output of the Cryptomatte node.
+* Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
+* Use the Matte output of the Cryptomatte node to get the alpha mask.

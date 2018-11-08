@@ -104,12 +104,6 @@ Clip Start and End
 When *Limits* in the *Display* panel is enabled,
 the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
-.. tip::
-
-   Changing the clipping value can have a serious impact on render performance.
-   It is important to always set the *Start* and *End* values to a safe distance that is both not too extreme,
-   nor too small to have the best possible render times.
-
 .. seealso::
 
    - :ref:`Blender Render Camera Clipping <camera-clipping>`.
