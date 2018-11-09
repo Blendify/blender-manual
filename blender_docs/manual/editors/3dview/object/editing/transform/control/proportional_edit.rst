@@ -38,7 +38,7 @@ Proportional editing is typically used in *Edit Mode*, however, it can also be u
 In *Object Mode* the tool works on entire objects rather than individual mesh components.
 
 In the image below, the right cylinder is scaled along the Z axis.
-When the *Proportional Editing* is enabled, the adjacent cylinders is also within the tool's radius of influence.
+When the *Proportional Editing* is enabled, the adjacent cylinders are also within the tool's radius of influence.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_object-mode.png
 

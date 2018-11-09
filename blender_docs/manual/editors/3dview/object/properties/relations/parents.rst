@@ -88,7 +88,7 @@ The child objects will inherit the transformations of the parent. The parent obj
 Object (Keep Transform) Parent
 ------------------------------
 
-*Object (Keep Transform) Parent* works in a very similar way to *Object Parent* the major difference is in whether
+*Object (Keep Transform) Parent* works in a very similar way to *Object Parent*. The major difference is in whether
 the *Child Objects* will remember any previous transformations applied to them from the previous *Parent Object*.
 
 Since explaining this in an easy to understand technical way is hard,

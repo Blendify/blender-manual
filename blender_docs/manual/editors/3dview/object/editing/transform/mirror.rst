@@ -31,7 +31,7 @@ the mirror transform to create a reversed version to complete the model.
 Usage
 =====
 
-To mirror a selection along a particular global axis press:
+To mirror a selection along a particular global axis, press:
 :kbd:`Ctrl-M`, followed by :kbd:`X`, :kbd:`Y` or :kbd:`Z`.
 The image :ref:`Mirroring a Selection <fig-mesh-duplicating-mirror-selection>`
 shows the results of this action after a mesh element has been duplicated.

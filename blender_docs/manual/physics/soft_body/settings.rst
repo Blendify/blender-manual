@@ -30,7 +30,7 @@ Simulation
       It sets the correlation between frame rate and tempo of the simulation.
       A free falling body should cover a distance of about five meters after one second.
       You can adjust the scale of your scene and simulation with this correlation. If you
-      render with 25 frames per second and 1 meter shall be 1 BU, you have to set *Speed* to 1.3.
+  render with 25 frames per second and 1 meter shall be 1 BU, you will have to set *Speed* to 1.3.
 
 Collision Group
    If set, soft body collides with objects from the group, instead of using objects that are on the same layer.

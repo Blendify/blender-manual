@@ -25,7 +25,7 @@ The Timeline can communicate the current time frame, either in frames or in seco
 where the keyframes are of the active object, the start and end frames of your animation, markers, etc.
 
 The *Timeline* has *Player Controls*, to play, pause the animation,
-and to skip though parts of the scene.
+and to skip through parts of the scene.
 
 It also has some tools for *Keyframes*, *Keying Sets*, and *Markers*.
 
@@ -137,7 +137,7 @@ View Frame :kbd:`Numpad0`
 .. removed in 2.8
 
 Bind Camera to Markers :kbd:`Ctrl-B`
-   This is used switch cameras during animation.
+   This is used to switch cameras during animation.
    It binds the active camera to the selected markers.
    First select a camera. Then select the marker(s). Then use the tool.
 
@@ -192,7 +192,7 @@ Clip Editors
 Follow
    Animation editors can be setup to always follow the time indicator as animation is being played back.
    Following will be done when animating and changing frame.
-   When the cursor reaches the end of the screen the next range of frames of the same width will be displayed.
+   When the cursor reaches the end of the screen, the next range of frames of the same width will be displayed.
 Frame Dropping
    Play back dropping frames if frame display is too slow.
 AV-sync
