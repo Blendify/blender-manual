@@ -13,7 +13,7 @@ Combine/Separate Nodes
 All of these nodes do essentially the same thing:
 
 - Separate: Split out an image into its composite color channels.
-- Combine: Re/combine an image from it is composite color channels.
+- Combine: Re/combine an image from its composite color channels.
 
 These nodes can be used to manipulate each color channel independently.
 Each type is differentiated in the applied :term:`color space`.
@@ -25,7 +25,7 @@ the Cycles shading context offers an additional pair of nodes to combine/separat
 
 The Combine nodes could also be used to input single color values.
 For RGBA and HSVA color spaces it is recommended to use the :doc:`/compositing/types/input/rgb`.
-Some common operation could easier be executed with the :doc:`/compositing/types/color/index`.
+Some common operations could easier be executed with the :doc:`/compositing/types/color/index`.
 
 
 Separate/Combine RGBA Nodes
