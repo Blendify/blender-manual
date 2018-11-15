@@ -108,7 +108,7 @@ Each of the following files can be used for application templates but are option
 ``splash.png``, ``splash_2x.png``
    Splash screen do override Blender's default artwork (not including header text).
 
-   Must be ``501x230`` or ``1002x460`` (used for HiDPI monitors).
+   Must be ``501x282`` or ``1002x564`` (used for HiDPI monitors).
 ``__init__.py``
    A Python script which must contain ``register`` and ``unregister`` functions.
 
