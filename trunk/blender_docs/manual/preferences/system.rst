@@ -49,7 +49,7 @@ Audio Device
       to render sounds directly to the sound device output. Very useful for sequencer strips editing.
    OpenAL
       Provides buffered sound rendering with 3D/spatial support.
-      Used for 3D source support by *Speaker Objects* and the *Game Engine*.
+      Used for 3D source support by *Speaker Objects*.
 
 
 Sound Options

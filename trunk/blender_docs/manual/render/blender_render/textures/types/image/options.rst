@@ -75,8 +75,8 @@ Derivative Map
 MIP Map
    :term:`Mip-maps <mip-map>` are precalculated, smaller, filtered textures for a certain size.
    A series of pictures is generated, each half the size of the former one.
-   This optimizes the filtering process. By default, this option is enabled and speeds up rendering
-   (especially useful in the :doc:`Game Engine </game_engine/index>`). When this option is OFF,
+   This optimizes the filtering process. By default, this option is enabled and speeds up rendering.
+   When this option is OFF,
    you generally get a sharper image, but this can significantly increase calculation time if the filter dimension
    (see below) becomes large. Without mip-maps you may get varying pictures from slightly different camera angles,
    when the textures become very small. This would be noticeable in an animation.

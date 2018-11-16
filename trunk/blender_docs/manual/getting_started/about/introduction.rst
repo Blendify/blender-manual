@@ -5,7 +5,8 @@ Introduction
 
 Welcome to Blender, the free and open source 3D creation suite.
 
-Blender can be used to create 3D visualizations such as still images, video, and real-time interactive video games.
+Blender can be used to create 3D visualizations such as
+still images, 3D animations, VFX shots, and video editing.
 
 Blender is well suited to individuals and small studios who
 benefit from its unified pipeline and responsive development process.
@@ -23,8 +24,7 @@ Who uses Blender?
 =================
 
 Blender has a wide variety of tools making it suitable for almost any sort of media production.
-People and studios around the world use it for hobby projects, commercials, feature films,
-games and other interactive applications like kiosks, games and scientific research.
+People and studios around the world use it for hobby projects, commercials, and feature films.
 
 Check out the `User Stories page <https://www.blender.org/features/user-stories/>`__
 on the Blender website for more examples.
@@ -42,8 +42,7 @@ Key Features
   :doc:`Compositing </compositing/introduction>`,
   :doc:`Texturing </editors/uv_image/uv/overview>`,
   :doc:`Rigging </rigging/introduction>`,
-  many types of :doc:`Simulations </physics/introduction>`,
-  and :doc:`Game Creation </game_engine/introduction>`.
+  and many types of :doc:`Simulations </physics/introduction>`.
 - Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts).
 - High-quality 3D architecture enabling fast and efficient creation workflow.
 - Excellent community support from `forums <http://blenderartists.org/forum/>`__ and :ref:`IRC <irc-channels>`.

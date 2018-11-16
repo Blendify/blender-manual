@@ -68,8 +68,6 @@ You can join these with your favorite IRC client:
   For developers to discuss Blender development.
 - `#blenderpython <irc://irc.freenode.net/blenderpython>`__
   For support for developers using the Python API.
-- `#gameblender <irc://irc.freenode.net/gameblender>`__
-  For discussion on issues related to game creation with the GE.
 - `#blenderwiki <irc://irc.freenode.net/blenderwiki>`__
   For discussion related to Blender's documentation.
 

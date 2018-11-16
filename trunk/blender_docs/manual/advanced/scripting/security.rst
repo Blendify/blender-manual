@@ -3,9 +3,9 @@
 Scripting & Security
 ********************
 
-The ability to include Python scripts within blend-files is valuable for advanced tasks such
-as rigging, automation and using the Game Engine.
-However, it poses a security risk since Python does not restrict what a script can do.
+The ability to include Python scripts within blend-files is valuable for advanced tasks
+such as rigging and automation. However, it poses a security risk since
+Python does not restrict what a script can do.
 
 Therefore, you should only run scripts from sources you know and trust.
 
@@ -32,8 +32,6 @@ Registered Text-Blocks
    A text block can have its *Register* option enabled which means it will load on start.
 Animation Drivers
    Python expressions can be used to *Drive* values and are often used in more advanced rigs and animations.
-Game Engine Auto Start
-   Scripts are often used for game logic, blend-files can have *Auto Start* enabled which runs the game on load.
 
 
 Manual Execution
@@ -45,7 +43,6 @@ but you should be aware that this is the case since it is not necessarily obviou
 
 - Running a script in the Text editor.
 - Rendering with FreeStyle, because FreeStyle uses scripts to control line styles.
-- Running the Game Engine.
 
 
 Controlling Script Execution

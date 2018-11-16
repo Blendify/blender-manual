@@ -59,7 +59,6 @@ Nodes/Logic
 
    text_editor.rst
    node_editor/index.rst
-   logic_editor.rst
 
 
 Settings

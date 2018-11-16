@@ -6,22 +6,22 @@
 Rigid Body Joint Constraint
 ***************************
 
-The *Rigid Body Joint* constraint is very special, it is used by the physics part of
-the Blender Game Engine to simulate a joint between its owner and its target.
+The *Rigid Body Joint* constraint is very special,
+it is used to simulate a joint between its owner and its target.
 It offers four joint types: hinge type, ball-and-socket type, cone-twist type, and
 generic six-\ :abbr:`DoF (Degrees of Freedom)` type.
 
-.. important::
 
-   This constraint only works with the :doc:`Game Engine </game_engine/index>`.
+.. TODO
+
+   .. important::
+
+      This constraint only works with the old Blender Game Engine,
+      and might not doing anything in Blender 2.8.
 
 The joint point and axes are defined and fixed relative to the owner.
 The target moves as if it were stuck to the center point of a stick,
 the other end of the stick rotating around the joint/pivot point...
-
-This constraint is of no use in most "standard" static or animated projects. However,
-you can use its results outside of the BGE, through the :menuselection:`Game --> Record Animation`.
-(see :doc:`Rigid Bodies </game_engine/physics/converting>` for more info on this topic).
 
 For a demo file that shows some of the different types, see: `BGE-Physics-RigidBodyJoints.blend
 <https://wiki.blender.org/wiki/File:BGE-Physics-RigidBodyJoints.blend>`__.
@@ -74,8 +74,7 @@ Child Object
       The target seems to be the 2.4 'to object'. What is the child object? Please explain!
 
 Linked Collision
-   When enabled, this will disable the collision detection between the owner and the target
-   (in the physical engine of the BGE).
+   When enabled, this will disable the collision detection between the owner and the target.
 
 Display Pivot
    When enabled, this will draw the pivot of the joint in the 3D Views.
