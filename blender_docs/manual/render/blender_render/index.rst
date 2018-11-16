@@ -9,7 +9,6 @@
 
    introduction.rst
    materials/index.rst
-   textures/index.rst
    lighting/index.rst
    world/index.rst
    settings/index.rst
