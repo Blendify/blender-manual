@@ -14,4 +14,3 @@
    naming.rst
    parenting.rst
    properties.rst
-   sketching/index.rst
