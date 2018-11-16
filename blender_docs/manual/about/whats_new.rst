@@ -31,7 +31,7 @@ are located on the website and in the Wiki.
   (`rBM3462 <https://developer.blender.org/rBM3462>`__, Mar. 25).
 - :doc:`Bendy Bones </rigging/armatures/bones/properties/bendy_bones>`
   (`rBM3215 <https://developer.blender.org/rBM3215>`__, Jan. 28).
-- :doc:`Grease Pencil update </interface/grease_pencil/index>`
+- :doc:`Grease Pencil update </editors/3dview/grease_pencil/index>`
   (`rBM3188 <https://developer.blender.org/rBM3188>`__, Jan. 20).
 - :doc:`New Pipeline Section </pipeline/index>`
   (`rBM3026 <https://developer.blender.org/rBM3026>`__, Dec. 7).

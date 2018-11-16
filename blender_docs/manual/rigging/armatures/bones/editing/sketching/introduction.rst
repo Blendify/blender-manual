@@ -112,7 +112,7 @@ depending on the conversion method used. The future bones' joints for the curren
 represented by small green dots for each one of those segments, for the selected strokes only.
 
 The free segment drawing uses the same *Manhattan Distance*
-setting as the :doc:`Grease pencil tool </interface/grease_pencil/introduction>`
+setting as the :doc:`Grease pencil tool </editors/3dview/grease_pencil/introduction>`
 (*User Preferences*, *Edit Methods* "panel", *Grease Pencil* group)
 to control where and when to add a new point to the segment. So if you feel your free segments are too detailed,
 raise this value a bit, and if you find them too jagged, lower it.

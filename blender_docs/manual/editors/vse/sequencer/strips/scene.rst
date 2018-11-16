@@ -24,7 +24,7 @@ Camera Override
 
    It is useful to support switching views within a single scene.
 Show Grease Pencil
-   Shows :doc:`Grease Pencil </interface/grease_pencil/index>` in OpenGL preview.
+   Shows :doc:`Grease Pencil </editors/3dview/grease_pencil/index>` in OpenGL preview.
 Audio Volume
    Volume of the audio taken from the chosen scene.
 Alpha Mode

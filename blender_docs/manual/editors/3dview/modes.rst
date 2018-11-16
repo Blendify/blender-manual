@@ -86,7 +86,7 @@ Modes might affect many things in Blender:
      - :kbd:`Ctrl-Tab` [2]_
      - An armature only mode, dedicated to armature posing.
    * - .. figure:: /images/editors_3dview_modes_icons-grease-pencil.png
-     - :doc:`Edit Strokes Mode </interface/grease_pencil/stroke_edit>`
+     - :doc:`Edit Strokes Mode </editors/3dview/grease_pencil/stroke_edit>`
      - :kbd:`D-Tab`
      - A Grease Pencil only mode, dedicated to editing Grease Pencil strokes.
 

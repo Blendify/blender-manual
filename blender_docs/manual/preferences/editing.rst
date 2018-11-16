@@ -89,7 +89,7 @@ Simplify Stroke
 Default Color
    The default color for new Grease Pencil layers.
 
-:doc:`Read more about Grease Pencil </interface/grease_pencil/index>`.
+:doc:`Read more about Grease Pencil </editors/3dview/grease_pencil/index>`.
 
 
 Playback

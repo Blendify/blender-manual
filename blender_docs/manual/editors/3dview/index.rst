@@ -16,3 +16,5 @@
    3d_cursor.rst
    object/index.rst
    properties/index.rst
+   ruler_protractor.rst
+   grease_pencil/index.rst

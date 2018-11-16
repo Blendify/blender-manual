@@ -68,5 +68,3 @@ Tools
    :maxdepth: 1
 
    undo_redo.rst
-   ruler_protractor.rst
-   grease_pencil/index.rst

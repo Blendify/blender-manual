@@ -42,6 +42,6 @@ Properties Region
 =================
 
 Grease Pencil
-   See the :doc:`Grease Pencil </interface/grease_pencil/index>` docs.
+   See the :doc:`Grease Pencil </editors/3dview/grease_pencil/index>` docs.
 Display
    Controls display options.

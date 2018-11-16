@@ -121,7 +121,7 @@ The Properties Region contains properties of the active object and selected obje
 as well as properties of the editor itself:
 
 - :doc:`Transform </editors/3dview/object/editing/transform/introduction>`
-- :doc:`Grease Pencil </interface/grease_pencil/introduction>`
+- :doc:`Grease Pencil </editors/3dview/grease_pencil/introduction>`
 - :doc:`Display & View Panels </editors/3dview/properties/panels>`
 - :doc:`Background Images </editors/3dview/properties/background_images>`
 - :doc:`Transform Orientations </editors/3dview/object/editing/transform/control/orientations>`
