@@ -96,9 +96,9 @@ Material Index
    Creates a mask of the material that can be later read by
    the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
 Denoising Data
-	Passes needed by the denoiser, for perfoming animation denoising in a second pass
-	after rendering the entire animation. For still image denoising as part of the
-	render process these are not needed.
+   Passes needed by the denoiser, for performing animation denoising in a second pass
+   after rendering the entire animation. For still image denoising as part of
+   the render process these are not needed.
 
 .. note:: The Z, Object Index and Material Index passes are not anti-aliased.
 
@@ -117,26 +117,27 @@ Cycles outputs the required render passes, which can then be used in the Blender
 or another compositor with Cryptomatte support to create masks for specified objects.
 
 Unlike the Material and Object Index passes the objects to isolate are selected in compositing,
-and mattes will be antialiased and take into account effects like motion blur and transparency.
+and mattes will be anti-aliased and take into account effects like motion blur and transparency.
 
 Object
-    Render cryptomatte object pass, for isolating objects in compositing.
+   Render cryptomatte object pass, for isolating objects in compositing.
 Material
-    Render cryptomatte material pass, for isolating materials in compositing.
+   Render cryptomatte material pass, for isolating materials in compositing.
 Asset
-    Render cryptomatte material pass, for isolating materials in compositing.
+   Render cryptomatte material pass, for isolating materials in compositing.
 
 Levels
-	Sets how many unique objects can be distinguished per pixel.
+   Sets how many unique objects can be distinguished per pixel.
 Accurate Mode
-    Gerenate a more accurate Cryptomatte pass. CPU only, may render slower and use more memory.
+   Generate a more accurate Cryptomatte pass. CPU only, may render slower and use more memory.
 
 
 Typical Workflow
 ----------------
 
-* Enable Cryptomatte Object render pass in the Passes panel, and render.
-* In the compositing nodes, create a Cryptomatte node and link the Render Layer matching Image and Crypto passes to it.
-* Attach a Viewer node to the Pick output of the Cryptomatte node.
-* Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
-* Use the Matte output of the Cryptomatte node to get the alpha mask.
+#. Enable Cryptomatte Object render pass in the Passes panel, and render.
+#. In the compositing nodes, create a Cryptomatte node and
+   link the Render Layer matching Image and Crypto passes to it.
+#. Attach a Viewer node to the Pick output of the Cryptomatte node.
+#. Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
+#. Use the Matte output of the Cryptomatte node to get the alpha mask.

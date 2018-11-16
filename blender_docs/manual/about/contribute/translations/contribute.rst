@@ -142,4 +142,4 @@ The updated templates can then be committed to svn.
 
 .. seealso::
 
-   A guide how to add a new languages can be found in the release.rst file in the repository.
+   A guide how to add a new language can be found in the ``release.rst`` file in the repository.

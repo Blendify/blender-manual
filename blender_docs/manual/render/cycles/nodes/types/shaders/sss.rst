@@ -27,7 +27,11 @@ Color
 Scale
    Global scale factor for the scattering radius.
 Radius
-   Average distance that light scatters below the surface. Higher radius gives a softer appearance, as light bleeds into shadows and through the object. The scattering distance is specified separately for the RGB channels, to render materials such as skin where red light scatters deeper. The X, Y and Z values are mapped to the R, G and B values, respectively.
+   Average distance that light scatters below the surface.
+   Higher radius gives a softer appearance, as light bleeds into shadows and through the object.
+   The scattering distance is specified separately for the RGB channels,
+   to render materials such as skin where red light scatters deeper.
+   The X, Y and Z values are mapped to the R, G and B values, respectively.
 Sharpness
    Used only with *Cubic* falloff.
    Values increasing from 0 to 1 prevents softening of sharp edges and reduces unwanted darkening.
