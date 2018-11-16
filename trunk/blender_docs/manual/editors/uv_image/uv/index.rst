@@ -14,3 +14,4 @@
    selecting.rst
    editing/index.rst
    layout_management.rst
+   textures/index.rst
