@@ -183,7 +183,7 @@ Auto Step
    A substep is a subdivision on the time between two frames for which the solver evaluates
    the IK equation and updates the joint position. More substeps means more processing but better precision
    on tracking the targets. The auto step algorithm estimates the optimal number of steps to get
-   the best trade-off between processing and precision.It works by estimation of the nonlinearity
+   the best trade-off between processing and precision. It works by estimation of the nonlinearity
    of the pose and by limiting the amplitude of joint variation during a substep.
    It can be configured with next two parameters:
 
