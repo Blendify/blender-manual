@@ -68,3 +68,4 @@ Tools
    :maxdepth: 1
 
    undo_redo.rst
+   annotation_tool.rst
