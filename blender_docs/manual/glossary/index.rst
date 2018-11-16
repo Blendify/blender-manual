@@ -21,9 +21,6 @@ This page lists definitions for terms used in Blender and this manual.
    Action Safe
       Area of the screen visible on most devices. Place content inside it to ensure it does not get cut off.
 
-   Actuator
-      A :term:`logic brick` that acts like a muscle of a life-form. It can move the object or make a sound.
-
    Aliasing
       Rendering artifacts in the form of jagged lines.
 
@@ -205,11 +202,6 @@ This page lists definitions for terms used in Blender and this manual.
 
    Constraint
       A way of controlling one :term:`object` with data from another.
-
-   Controller
-      A :term:`logic brick` that acts like the brain of a life-form.
-      It makes decisions to activate muscles (:term:`actuators <actuator>`),
-      using either simple logic or complex Python scripts.
 
    Convex Face
       Face where, if lines were drawn from each vertex to every other vertex,
@@ -423,10 +415,6 @@ This page lists definitions for terms used in Blender and this manual.
       or (for Bones) at the :term:`Head` of the :term:`Bone`.
 
       Compare to :term:`World Space`.
-
-   Logic brick
-      A graphical representation of a functional unit in Blender's game logic.
-      A Logic brick can be a :term:`Sensor`, :term:`Controller` or :term:`Actuator`.
 
    Luminance
       The intensity of light either in an image/model channel,
@@ -696,9 +684,6 @@ This page lists definitions for terms used in Blender and this manual.
       An image whose :term:`Luminance` channel is not limited.
 
       See also :term:`Display Referenced`.
-
-   Sensor
-      A :term:`logic brick` that acts like a sense of a life-form. It reacts to touch, vision, collision, etc.
 
    Shading
       Process of altering the color of an object/surface in the 3D scene,

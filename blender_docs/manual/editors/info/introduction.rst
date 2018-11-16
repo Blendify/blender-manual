@@ -76,7 +76,7 @@ Scene
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with object and/or mesh data linked between them.
 Engine
-   Gives a list of selectable render and game engines.
+   Gives a list of selectable render engines.
 Render/Baking progress
    A progress bar and a cancel button are shown while rendering or baking.
    Hovering over them shows a time estimate.

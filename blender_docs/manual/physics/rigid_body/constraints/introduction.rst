@@ -5,7 +5,7 @@ Introduction
 
 :term:`Constraints <Constraint>` (also known as joints) for rigid bodies connect two rigid bodies.
 
-The physics constraints available in the non-game modes are meant to be attached to an :term:`Empty` object.
+The physics constraints are meant to be attached to an :term:`Empty` object.
 The constraint then has fields which can be pointed at the two physics-enabled object
 which will be bound by the constraint.
 The *Empty* object provides a location and axis for the constraint distinct from the two constrained objects.

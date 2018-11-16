@@ -115,14 +115,6 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_game.jpg
-            :target: game_engine/index.html
-
-         :doc:`/game_engine/index`
-            Blender's Game engine, including scripting, logic and physics.
-
-      .. container:: descr
-
          .. figure:: /images/index_preferences.jpg
             :target: preferences/index.html
 
@@ -173,7 +165,6 @@ Sections
       physics/index.rst
       render/index.rst
       compositing/index.rst
-      game_engine/index.rst
       preferences/index.rst
       advanced/index.rst
       addons/index.rst

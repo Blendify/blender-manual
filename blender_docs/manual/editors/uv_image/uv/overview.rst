@@ -115,6 +115,6 @@ created in applications like the Gimp, Photoshop, or your favorite painting appl
 
 .. note:: Games
 
-   UV mapping is also essential in the :doc:`Game Engine </game_engine/index>`,
-   or any other game. It is the de facto standard for applying textures to models;
+   UV mapping is also essential for game engines.
+   It is the de facto standard for applying textures to models;
    almost any model you find in a game is UV-mapped.

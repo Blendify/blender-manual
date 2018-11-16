@@ -57,7 +57,6 @@ Default Screens
 :Compositing: Combining different parts of a scene
    (e.g. background, actors, special effects) and filter them (e.g. color correction).
 :Default: The default layout used by Blender for new files. Useful for modeling new objects.
-:Game Logic: Planning and programming of games within Blender.
 :Motion Tracking: Used for motion tracking with the Movie Clip editor.
 :Scripting: Documenting your work and/or writing custom scripts to automate Blender.
 :UV Editing: Flattening a projection of an object mesh in 2D to control how a texture maps to the surface.
