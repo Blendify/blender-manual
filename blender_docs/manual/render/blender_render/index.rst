@@ -12,7 +12,6 @@
    textures/index.rst
    lighting/index.rst
    world/index.rst
-   camera/index.rst
    settings/index.rst
    bake.rst
    post_processing/index.rst
