@@ -36,8 +36,8 @@ declare -A pattern_list=(
 
 #This is for the language line. This line is required by POEdit, if you're using it for editing PO files.
 #Inserting this line before the MIME-Version.
-re_language_code="Language:.*vi"
-language_code="\"Language: vi\\\\n\"\n"
+re_language_code="Language:.*$YOUR_LANGUAGE_CODE"
+language_code="\"Language: $YOUR_LANGUAGE_CODE\\\\n\"\n"
 declare -A pattern_insert=(
 ["\"MIME-Version"]="$language_code\"MIME-Version"
 )
