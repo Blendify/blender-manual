@@ -53,7 +53,7 @@ This process creates one or more UV Islands in the :ref:`UV/Image Editor <editor
 
 To begin, choose the *UV Editing* :doc:`screen layout </interface/window_system/screens>`
 from the selection list at the top of your screen in the User Preferences header.
-This sets one of the area to show you the UV/Image Editor,
+This sets one of the areas to show you the UV/Image Editor,
 and the other area to the 3D View.
 
 Enter *Edit Mode*, as all unwrapping is done in Edit Mode.

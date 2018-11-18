@@ -45,7 +45,7 @@ Select Grouped :kbd:`Shift-G`
    Data
       Selects strips that share the same data, for example, two image strips sharing the same image file.
    Effect
-      Selects the strip that is shares an effect strip.
+      Selects the strip that shares an effect strip.
    Effect/Linked
       Selects the effect strips, if any, linked to the currently selected strip.
    Overlap
