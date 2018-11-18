@@ -8,5 +8,3 @@
    :maxdepth: 2
 
    introduction.rst
-   buffered_shadow.rst
-   halo.rst

@@ -7,10 +7,7 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
    materials/index.rst
    lighting/index.rst
    settings/index.rst
    bake.rst
-   post_processing/index.rst
-   optimizations/index.rst
