@@ -44,7 +44,7 @@ Position
       Shutter is fully closed at the current frame.
 
 Shutter (Speed)
-   Time (in frames) between when the shutter is starts to open and fully closed.
+   Time (in frames) between when the shutter starts to open and fully closed.
    For example, shutter time 1.0 blurs over the length of 1 frame.
 Shutter Curve
    Curve defining how the shutter opens and closes.

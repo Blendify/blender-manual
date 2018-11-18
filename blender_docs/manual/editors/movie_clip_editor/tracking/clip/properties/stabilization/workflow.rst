@@ -108,7 +108,7 @@ Irregular Track Setup
 It might not be possible to track a given feature over the whole duration of the shot.
 The feature might be blurred or obscured; it might even move out of sight entirely,
 due to deliberate camera movement.
-In such a situation, we need *another tracked feature* to take on it's role, and we need some *overlap time*
+In such a situation, we need *another tracked feature* to take on its role, and we need some *overlap time*
 to get a smooth transition without visible jump.
 
 .. figure:: /images/editors_movie-clip-editor_tracking_clip_properties_stabilization_workflow_irregular-tracks.png

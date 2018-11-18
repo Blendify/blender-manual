@@ -135,7 +135,7 @@ View Frame :kbd:`Numpad0`
 
 .. seealso::
 
-   - See Graph Editor's :ref:`graph_editor-view-properties`
+   - See Graph Editor's :ref:`graph_editor-view-properties`.
    - See Timeline's :ref:`timeline-view-menu`.
 
 
@@ -146,7 +146,7 @@ Preview Range
 
 Set Preview Range :kbd:`P`
    Interactively define frame range used for playback.
-   Allow you to define a temporary preview range to use for the :kbd:`Alt-A` real-time playback
+   Allows you to define a temporary preview range to use for the :kbd:`Alt-A` real-time playback
    (this is the same thing as the *Playback Range* option of
    the :ref:`Timeline editor header <animation-editors-timeline-headercontrols>`).
 Clear Preview Range :kbd:`Alt-P`
