@@ -30,13 +30,14 @@ Hash
    The Git Hash. This can be useful to give to support personnel, when diagnosing a problem.
 Branch
    Optional branch ID.
-
-Interaction
-   Key configuration the same as :menuselection:`User Preferences --> Input`.
+New File
+   Options for starting a new project, based on pre-defined application templates.  
+Recent Files
+   Your most recently opened blend-files. This gives quick and easy access to your recent projects.
+Open
+   Allows opening an existing blend-file.
+Recover Last Session
+   Blender will try to recover the last session based on temporary files. See :doc:`/troubleshooting/recover`.
 Links
    Links official web pages, the same could be found in the *Help* Menu of the Info Editor.
    See :ref:`help-menu`.
-Recent
-   Your most recently opened blend-files. This gives quick and easy access to your recent projects.
-Recover Last Session
-   Blender will try to recover the last session based on temporary files. See :doc:`/troubleshooting/recover`.
