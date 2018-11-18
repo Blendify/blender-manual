@@ -9,8 +9,16 @@ World
 
    Lighting with an HDR image.
 
+   
+The world buttons let you set up the shading of your scene in general.
+It can provide ambient color, and special effects such as mist,
+but a very common use of a *World* is to shade a background color.
+These are accessible via the *World* tab.
 The world environment can emit light, ranging from a single solid color,
 physical sky model, to arbitrary textures.
+
+World
+   The World :ref:`ui-data-block`.
 
 
 Surface
@@ -67,8 +75,11 @@ Ambient Occlusion
    :Panel:     :menuselection:`World --> Ambient Occlusion`
 
 Ambient occlusion is a lighting method based on how much a point on a surface is occluded by
-nearby surfaces. This is a trick that is not physically accurate,
-but it is useful to emphasize shapes of surfaces,
+nearby surfaces. It simulates soft global illumination shadows by faking darkness
+perceived in corners and at mesh intersections, creases, and cracks,
+where ambient light is occluded, or blocked.
+This is a trick that is not physically accurate,
+but it is useful to emphasize the shapes of surfaces,
 or as a cheap way to get an effect that looks a bit like indirect lighting.
 
 Factor
@@ -88,6 +99,7 @@ the :doc:`Ambient Occlusion </render/cycles/nodes/types/shaders/ao>` shader.
 
 
 .. _render-cycles-integrator-world-mist:
+.. _bpy.types.WorldMistSettings:
 
 Mist Pass
 =========
@@ -97,15 +109,25 @@ Mist Pass
 
    :Panel:     :menuselection:`World --> Mist Pass`
 
+.. figure:: /images/render_blender-render_world_mist_example1.jpg
+   
+   Mist example (`blend-file <https://wiki.blender.org/wiki/File:25-Manual-World-Mist-Example1.blend>`__).
+
+Mist can greatly enhance the illusion of depth in your rendering. To create mist,
+Blender makes objects farther away more transparent (decreasing their Alpha value)
+so that they mix more of the background color with the object color. With Mist enabled
+the further the object is away from the camera the less its alpha value will be.
+   
 Shown when the Mist pass is enabled. Mist values will range from 0.0 - 1.0 and
 are available from the Render Layers node.
 
 Start
-   Defines the beginning of the mist range from the camera.
+   The distance from the camera at which the mist starts to fade in.
 Depth
-   Defines the length over which mist values will be provided.
+   The distance from *Start* of the mist, that it fades in over.
+   Objects further from the camera than *Start + Depth* are completely hidden by the mist.
 Falloff
-   The curve function that determines the mist values within its depth.
+   The curve function that controls the rate of change of the mist's strength further and further into the distance.
 
    Quadratic
       Uses the same calculation as light falloff (:math:`1\over{x^2}`) and provides the smoothest
@@ -119,6 +141,17 @@ Falloff
 .. tip::
 
    A visualization can be activated in the :menuselection:`Camera --> Display` panel.
+   
+.. tip::
+
+   Because *Mist* works by adjusting transparency,
+   this can sometimes cause objects to be partially transparent when they should not be.
+   One workaround is to set the Mist settings as desired, but turn Mist off.
+   The Mist data is still available for compositing even though it is off.
+   Use :doc:`Compositing </compositing/index>` to feed the Mist pass to
+   the :doc:`Alpha Over </compositing/types/color/alpha_over>` node to blend the background color
+   (or a render layer with just the sky) with the rendered image.
+   This produces the mist effect but since Mist is off the object transparency (or lack of) is preserved.
 
 
 .. _render-cycles-integrator-world-settings:
