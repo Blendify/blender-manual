@@ -8,6 +8,3 @@
 
    layers.rst
    passes.rst
-   shading.rst
-   motion_blur.rst
-   antialiasing.rst
