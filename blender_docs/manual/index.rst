@@ -9,6 +9,12 @@ Welcome to the Blender Manual!
 
 This is the manual for the 3D animation software from `Blender.org <https://www.blender.org>`__.
 
+.. warning::
+
+   Blender Manual is being updated in preparation for 2.80
+   release. This is work in progress. Various sections of this manual
+   have not been updated, or they are updated only partially.
+
 .. only:: builder_html
 
    - This site can be downloaded for offline use:
