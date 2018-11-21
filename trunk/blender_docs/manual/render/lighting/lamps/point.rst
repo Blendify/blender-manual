@@ -28,31 +28,8 @@ Distance, Energy and Color
    These settings are common to most types of lamps, and are described in
    :doc:`Light Properties </render/lighting/lights/lamp_panel>`.
 
-Negative, This Layer Only, Specular, and Diffuse
-   These settings control what the lamp affects, as described in
-   :ref:`What Light Affects <bi-lamp-influence>`.
-
-Falloff and Sphere
-   These settings control how the light of the *Lamp* decays with distance.
-   See :doc:`Light Attenuation </render/lighting/lights/attenuation>` for details.
-
 
 Shadows
 =======
 
-.. figure:: /images/render_blender-render_lighting_lamps_point_panel-no-shadow.png
-   :width: 285px
-
-   Without ray shadows.
-
-.. figure:: /images/render_blender-render_lighting_lamps_point_panel-ray-shadow.png
-   :width: 285px
-
-   Point lamp with ray shadows and Adaptive QMC sample generator enabled.
-
-The *Point* light source can only cast ray-traced shadows.
-It shares with other lamp types the common shadow options described in
-:doc:`/render/blender_render/lighting/shadows/shadow_panel`.
-
-The ray-traced shadows settings of this lamp are shared with other lamps,
-and are described in :doc:`Ray-traced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
+.. todo link to eevee/cycles settings 
