@@ -7,4 +7,4 @@ Wood Node
 
    Wood node.
 
-See :doc:`Here </render/blender_render/textures/types/procedural/wood>`.
+See :doc:`Here </editors/uv_image/uv/textures/types/procedural/wood>`.

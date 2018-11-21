@@ -87,7 +87,7 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 
 - Material: :doc:`Blender Internal </render/blender_render/materials/index>`,
   :doc:`Cycles </render/cycles/materials/index>`
-- Texture: :doc:`Blender Internal </render/blender_render/textures/index>`,
+- Texture: :doc:`Blender Internal </editors/uv_image/uv/textures/index>`,
   :doc:`Cycles </render/cycles/materials/texture_editing>`
 - :doc:`Particles </physics/particles/index>`
 - :doc:`Physics </physics/index>`

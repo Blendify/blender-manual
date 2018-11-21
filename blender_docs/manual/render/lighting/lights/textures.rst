@@ -9,7 +9,7 @@ Lamps Textures
 
 When a new lamp is added, it produces light in a uniform, flat color.
 While this might be sufficient in simple renderings, more sophisticated effects can be accomplished through
-the use of :doc:`textures </render/blender_render/textures/index>`.
+the use of :doc:`textures </editors/uv_image/uv/textures/index>`.
 Subtle textures can add visual nuance to a lamp, while hard textures can be used to simulate more pronounced effects,
 such as a disco ball, dappled sunlight breaking through treetops, or even a projector.
 These textures are assigned to one of ten channels, and behave exactly like material textures,
@@ -22,7 +22,7 @@ Options
 The lamp textures settings are grouped into two panels.
 Here we will only talk about the few things that differ from object material textures;
 see the :doc:`Materials </render/blender_render/materials/index>` and
-:doc:`Textures </render/blender_render/textures/index>` chapters for details about the standard options.
+:doc:`Textures </editors/uv_image/uv/textures/index>` chapters for details about the standard options.
 
 The texture-specific and the *Mapping* panels remain the same. However, you will note
 there are much fewer *Mapping* options. You can only choose between

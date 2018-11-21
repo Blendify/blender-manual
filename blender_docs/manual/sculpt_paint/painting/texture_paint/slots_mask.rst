@@ -61,7 +61,7 @@ Painting Mode
          A menu that allows the addition of new slots which are added directly on the material.
       Blend Type
          Same as in the
-         :doc:`Texture Blending Modes </render/blender_render/textures/properties/influence/blending_modes>`.
+         :doc:`Texture Blending Modes </editors/uv_image/uv/textures/properties/influence/blending_modes>`.
 
       .. (TODO 2.8) (END)
 
