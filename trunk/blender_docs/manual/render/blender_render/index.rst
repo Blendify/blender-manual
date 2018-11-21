@@ -10,4 +10,3 @@
    materials/index.rst
    lighting/index.rst
    settings/index.rst
-   bake.rst
