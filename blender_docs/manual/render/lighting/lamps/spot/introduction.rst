@@ -19,57 +19,24 @@ and spot lamps also provide other functionality such as "volumetric" halos.
 Lamp Options
 ============
 
-.. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_panel.png
-
-   Common Lamp options of a Spot.
-
 Distance, Energy and Color
    These settings are common to most types of lamps, and are described in
    :doc:`Light Properties </render/lighting/lights/lamp_panel>`.
-This Layer Only, Negative, Diffuse and Specular
-   These settings control what the lamp affects, as described in
-   :ref:`What Light Affects <bi-lamp-influence>`.
-Light Falloff and Sphere
-   These settings control how the light of the *Spot* decays with distance.
-   See :doc:`Light Attenuation </render/lighting/lights/attenuation>` for details.
-
-   .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_terms.png
-      :width: 610px
-
-      Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View.
 
 
 Shadows
 =======
 
-.. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_ray-panel.png
-
-   Shadow panel set to Ray Shadow.
-
-Spotlights can use either ray-traced shadows or buffered shadows.
-Either of the two can provide various extra options.
-Ray-traced shadows are generally more accurate,
-with extra capabilities such as transparent shadows, although they are quite slower to render.
-
-No Shadow
-   Choose this to turn shadows off for this spot lamp.
-   This can be useful to add some discreet directed light to a scene.
-Buffered Shadow
-   *Buffered Shadows* are also known as depth map shadows.
-   Shadows are created by calculating differences in the distance from the light to scene objects.
-   See :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadow>`
-   for full details on using this feature.
-   Buffered shadows are more complex to set up and involve more faking,
-   but the speed of rendering is a definite advantage.
-   Nevertheless, it shares with other lamp types common shadow options
-   described in :doc:`/render/blender_render/lighting/shadows/shadow_panel`.
-Ray Shadow
-   The ray-traced shadows settings of this lamp are shared with other lamps,
-   and are described in :doc:`Ray-traced Properties </render/blender_render/lighting/shadows/raytraced_properties>`.
+.. todo link to eevee/cycles settings 
 
 
 Spot Shape
 ==========
+
+.. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_terms.png
+   :width: 610px
+
+   Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View.
 
 Size
    The size of the outer cone of a *Spot*,
@@ -115,11 +82,5 @@ Blend
    Notice in the picture above that the object's shadow is sharp as a result of the ray tracing,
    whereas the spotlight edges are soft.
    If you want other items to cast soft shadows within the *Spot* area, you will need to alter other shadow settings.
-
-Square
-   The *Square* button makes a *Spot* light cast a square light area, rather than the default circular one.
 Show Cone
    Draw a transparent cone in 3D View to visualize which objects are contained in it.
-Halo
-   Adds a volumetric effect to the spot lamp.
-   See :doc:`Spot Halos </render/blender_render/lighting/lamps/spot/halo>`.
