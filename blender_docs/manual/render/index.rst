@@ -12,6 +12,7 @@
 
    introduction.rst
    lighting/index.rst
+   eevee/index.rst
    cycles/index.rst
    output/index.rst
    post_process/index.rst
