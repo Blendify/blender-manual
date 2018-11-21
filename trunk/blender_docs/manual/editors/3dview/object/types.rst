@@ -48,8 +48,7 @@ Speaker
    :doc:`Speaker </render/audio/speaker>` brings a source of sound to the scene.
 Camera
    This is the virtual camera that is used to determine what appears in the render.
-   See Cameras in :doc:`Blender Internal </render/blender_render/camera/index>`
-   and :doc:`Cycles </render/cycles/camera>`.
+   See Cameras in :doc:`Cycles </render/cycles/camera>`.
 Lamp
    These are used to place light sources in the scene.
    See Lamps in :doc:`Blender Internal </render/lighting/lamps/index>`,

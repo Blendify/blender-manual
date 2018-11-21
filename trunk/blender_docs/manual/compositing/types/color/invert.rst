@@ -1,7 +1,5 @@
 .. _bpy.types.CompositorNodeInvert:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/color/invert>`
-.. Editors Note: This page gets copied into :doc:`</blender_render/materials/nodes/types/color/invert>`
-.. Editors Note: This page gets copied into :doc:`</blender_render/textures/nodes/types/color/invert>`
 
 .. --- copy below this line ---
 

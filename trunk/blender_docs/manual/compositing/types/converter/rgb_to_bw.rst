@@ -1,7 +1,5 @@
 .. _bpy.types.CompositorNodeRGBToBW:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/converter/rgb_to_bw>`
-.. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/converter/rgb_to_bw>`
-.. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/converter/rgb_to_bw>`
 
 .. --- copy below this line ---
 

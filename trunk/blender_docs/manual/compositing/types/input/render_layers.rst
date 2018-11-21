@@ -48,8 +48,7 @@ Alpha
 .. rubric:: Render passes sockets
 
 Depending on the Render passes that are enabled, other sockets are available.
-See :doc:`Cycles render passes </render/cycles/settings/scene/render_layers/passes>` or
-:doc:`Blender internal render passes </render/blender_render/settings/passes>`.
+See :doc:`Cycles render passes </render/cycles/settings/scene/render_layers/passes>`.
 
 Z
    By default the Z depth pass is enabled.

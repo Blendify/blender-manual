@@ -1,6 +1,5 @@
 .. _bpy.types.CompositorNodeRGB:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/input/rgb>`
-.. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/input/rgb>`
 
 .. --- copy below this line ---
 
