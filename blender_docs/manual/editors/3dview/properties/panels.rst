@@ -67,7 +67,7 @@ You can show it with the :menuselection:`View --> View Properties...` menu entry
 
 Lens
    Control the focal length of the 3D View camera in millimeters,
-   unlike a :doc:`rendering camera </render/blender_render/camera/index>`.
+   unlike a :doc:`rendering camera </render/cycles/camera>`.
 Lock to Object
    Lock to Object lets you define an object in the *Object* Data ID as the center of the view.
    In that case, the view can be rotated around or zoomed towards that central object,

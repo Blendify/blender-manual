@@ -11,7 +11,6 @@
    :maxdepth: 2
 
    introduction.rst
-   blender_render/index.rst
    cycles/index.rst
    output/index.rst
    post_process/index.rst

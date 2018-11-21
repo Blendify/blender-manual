@@ -1,8 +1,6 @@
 .. _bpy.types.CompositorNodeSep:
 .. _bpy.types.CompositorNodeComb:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/converter/combine_separate>`
-.. Editors Note: This page gets copied into
-   :doc:`</render/blender_render/materials/nodes/types/converter/combine_separate>`
 
 .. --- copy below this line ---
 

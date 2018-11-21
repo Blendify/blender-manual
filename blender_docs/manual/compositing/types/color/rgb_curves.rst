@@ -1,8 +1,6 @@
 .. _bpy.types.CompositorNodeCurveRGB:
 
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/color/rgb_curves>`
-.. Editors Note: This page gets copied into :doc:`</blender_render/materials/nodes/types/color/rgb_curves>`
-.. Editors Note: This page gets copied into :doc:`</blender_render/textures/nodes/types/color/rgb_curves>`
 
 .. --- copy below this line ---
 
