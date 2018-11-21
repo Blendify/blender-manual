@@ -52,7 +52,7 @@ Camera
    and :doc:`Cycles </render/cycles/camera>`.
 Lamp
    These are used to place light sources in the scene.
-   See Lamps in :doc:`Blender Internal </render/blender_render/lighting/lamps/index>`,
+   See Lamps in :doc:`Blender Internal </render/lighting/lamps/index>`,
    :doc:`Cycles </render/cycles/lamps>`.
 Force Field
    :doc:`Force Fields </physics/force_fields/index>` are used in physical simulations.
