@@ -8,4 +8,4 @@ Magic Node
    Magic node.
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/magic>`.
+See :doc:`Here </editors/uv_image/uv/textures/types/procedural/magic>`.

@@ -59,4 +59,4 @@ Add ``+``
 .. seealso::
 
    Note that each texture can be mapped to a specific UV texture.
-   See the :doc:`Mapping </render/blender_render/textures/properties/mapping>` panel of the texture tab.
+   See the :doc:`Mapping </editors/uv_image/uv/textures/properties/mapping>` panel of the texture tab.

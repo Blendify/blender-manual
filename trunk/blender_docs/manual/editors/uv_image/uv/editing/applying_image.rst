@@ -49,7 +49,7 @@ If the image has an alpha channel and you want to use it,
 click "Use Alpha" in the Map Image panel.
 
 Full details of using Image textures are on
-the :doc:`Image Textures </render/blender_render/textures/types/image/index>` page.
+the :doc:`Image Textures </editors/uv_image/uv/textures/types/image/index>` page.
 
 .. note:: Material is Required for Rendering
 

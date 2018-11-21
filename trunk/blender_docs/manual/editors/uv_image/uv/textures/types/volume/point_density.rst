@@ -127,7 +127,7 @@ Influence
       Turbulent noise driven by the global current frame.
 
 Noise Basis
-   See :doc:`Here </render/blender_render/textures/types/procedural/introduction>`.
+   See :doc:`Here </editors/uv_image/uv/textures/types/procedural/introduction>`.
 
 Size
    Scale of the turbulent noise.

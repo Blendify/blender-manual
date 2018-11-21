@@ -11,6 +11,7 @@
    :maxdepth: 2
 
    introduction.rst
+   lighting/index.rst
    cycles/index.rst
    output/index.rst
    post_process/index.rst

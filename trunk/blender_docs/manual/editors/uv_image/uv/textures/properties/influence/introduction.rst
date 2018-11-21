@@ -72,7 +72,7 @@ Warp
    Setting the factor at zero cancels out the effect.
 Displace
    Influences the Displacement of vertices,
-   for using :doc:`Displacement Maps </render/blender_render/textures/properties/influence/displacement>`.
+   for using :doc:`Displacement Maps </editors/uv_image/uv/textures/properties/influence/displacement>`.
 
 
 Other Controls

@@ -61,7 +61,7 @@ Normal Map
    This tells Blender that the image is to be used to create the illusion of a bumpy surface,
    with each of the three RGB channels controlling how to fake a shadow from a surface irregularity.
    Needs specially prepared input pictures.
-   See :doc:`Bump and Normal Maps </render/blender_render/textures/properties/influence/bump_normal>`.
+   See :doc:`Bump and Normal Maps </editors/uv_image/uv/textures/properties/influence/bump_normal>`.
 
    Normal Map Space:
       - *Tangent*

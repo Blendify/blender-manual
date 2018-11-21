@@ -34,7 +34,7 @@ In the list below it shows a list of different types of node trees and where eac
    * - .. figure:: /images/editors_node-editor_introduction_icons-texture.png
      - Texture Nodes
      - Texture Nodes are covered
-       in the :doc:`Blender Internal </render/blender_render/textures/nodes/introduction>` docs.
+       in the :doc:`Blender Internal </editors/uv_image/uv/textures/nodes/introduction>` docs.
 
 After choosing what node context you want to use, you have to enable nodes with the *Use Nodes* button.
 
