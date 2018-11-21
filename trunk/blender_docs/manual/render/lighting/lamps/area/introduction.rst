@@ -19,7 +19,7 @@ Lamp Options
 
 Distance, Energy and Color
    These settings are common to most types of lamps,
-   and are described in :doc:`Light Properties </render/blender_render/lighting/lights/lamp_panel>`.
+   and are described in :doc:`Light Properties </render/lighting/lights/lamp_panel>`.
 
    Note that the *Distance* setting is much more sensitive and important for *Area* lamps than for others;
    usually any objects within the range of *Distance* will be blown out and overexposed.

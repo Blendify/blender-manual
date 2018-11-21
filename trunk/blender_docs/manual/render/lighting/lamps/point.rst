@@ -26,7 +26,7 @@ Lamp Options
 
 Distance, Energy and Color
    These settings are common to most types of lamps, and are described in
-   :doc:`Light Properties </render/blender_render/lighting/lights/lamp_panel>`.
+   :doc:`Light Properties </render/lighting/lights/lamp_panel>`.
 
 Negative, This Layer Only, Specular, and Diffuse
    These settings control what the lamp affects, as described in
@@ -34,7 +34,7 @@ Negative, This Layer Only, Specular, and Diffuse
 
 Falloff and Sphere
    These settings control how the light of the *Lamp* decays with distance.
-   See :doc:`Light Attenuation </render/blender_render/lighting/lights/attenuation>` for details.
+   See :doc:`Light Attenuation </render/lighting/lights/attenuation>` for details.
 
 
 Shadows
