@@ -54,12 +54,12 @@ Light Threshold
    In order to avoid costly setup time, this distance is first computed
    automatically based on a light threshold. The distance is computed
    at the light origin and using the inverse square falloff. The setting
-   can be found inside the :menuselection;`Render Settings panel --> Shadow tab`.
+   can be found inside the :menuselection:`Render Settings panel --> Shadow tab`.
 
    This light threshold does not take the light shape into account and may not
    suit every case. That is why we provide a per-lamp override where you can
    just set the cut off distance
-   (:menuselection;`Light Properties Panel --> Light --> Custom Distance`).
+   (:menuselection:`Light Properties Panel --> Light --> Custom Distance`).
 
    The influence distance is also used as shadow far clip distance, which might affect how shadows looks.
    This influence distance does not concerns sun lights that still have a far clip distance.

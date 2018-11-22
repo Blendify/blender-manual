@@ -71,6 +71,12 @@ Ambient Occlusion
    The final occlusion factor is the minimum of this input and the runtime ambient occlusion effect.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 
