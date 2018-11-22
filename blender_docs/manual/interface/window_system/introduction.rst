@@ -12,57 +12,36 @@ Blender's user interface is consistent across all platforms.
 
    The default startup Blender window.
 
-
-Interface Elements
-==================
-
-.. code-block:: none
-
-   Window ‣ Screen ‣ Areas ‣ Editors ‣ Regions ‣ (Tabs) ‣ Panels ‣ Controls
-
-The interface can be customized to match specific tasks using
-:doc:`Screen Layouts </interface/window_system/screens>`,
-which can then be named and saved for later use. The default screen is described below.
-
-A screen is organized into one or more :doc:`Areas </interface/window_system/areas>`
-with each area containing an *Editor*.
-
-
 The Default Screen
 ==================
 
-By default Blender starts up showing the default screen, which is separated into five areas
-containing the Editors listed below:
+Blender default start up uses the default screen layout, which is
+separated into four screens listed below:
 
-- The Info Editor at the top.
-- A large 3D View.
-- A Timeline at the bottom.
-- An Outliner at the top right.
-- A Properties Editor at the bottom right.
+- *Top bar* at the very top.
+- *Tool settings* the second row at the top.
+- *Editors* area in the middle.
+- *Status bar* at the bottom.
 
 .. figure:: /images/interface_window-system_introduction_default-screen.png
 
-   Blender's default Screen Layout with five editors.
+   Blender's default Screen Layout. Top bar (blue), Tool settings
+   (yellow), Editors (green) and Status bar (red).
 
-   Info (blue), 3D View (yellow), Outliner (red), Properties (green) and Timeline (purple).
+The large editors screen is further subdivided into
+:doc:`/interface/window_system/areas` for use of different
+editors. Blender default start-up shows the Layout workspace in the
+editors screen. This workspace contains the following :doc:`/editors/index`:
 
-
-Components of an Editor
-=======================
-
-In general an editor provides a way to view and
-modify your work through a specific part of Blender.
+- *3D view* on top left.
+- *Outliner* on top right.
+- *Properties editor* on bottom right.
+- *Timeline* on bottom left.
+  
 Editors are divided into :doc:`/interface/window_system/regions`.
 Regions can have smaller structuring elements like
 :doc:`tabs and panels </interface/window_system/tabs_panels>`
 with buttons, controls and widgets placed within them.
-
-.. figure:: /images/interface_window-system_introduction_editor.png
-
-   The 3D View editor.
-
-   Yellow: Main Region, green: Header, blue: Tool Shelf, purple: Operator Panel,
-   red: Properties Region.
 
 
 User Interface Principles
