@@ -31,7 +31,7 @@ Header
 .. figure:: /images/editors_movie-clip-editor_tracking_dope-sheet_sort.png
    :align: right
 
-   Sort oder of the channels.
+   Sort order of the channels.
 
 Show
    Only selected (mouse cursor icon)

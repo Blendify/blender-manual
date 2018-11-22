@@ -1,3 +1,4 @@
+
 **********
 Workspaces
 **********
@@ -5,36 +6,41 @@ Workspaces
 .. figure:: /images/interface_window-system_workspaces_screen.png
    :align: center
 
-   Workspaces are located at the Top bar. Layout workspace is active by default.
+   Workspaces are located at the Top bar.
 
-*Workspaces* are essentially predefined window layouts. Blender's
-flexibility with :doc:`Areas </interface/window_system/areas>` lets
-you create customized workspaces for different tasks such as modeling,
-animating, and scripting. It is often useful to quickly switch between
+*Workspaces* are essentially predefined window layouts.
+Blender's flexibility with :doc:`Areas </interface/window_system/areas>`
+lets you create customized workspaces for different tasks such as
+modeling, animating, and scripting. It is often useful to quickly switch between
 different workspaces within the same file.
 
 
 Controls
 ========
 
+Tabs
+   Click on the tabs titles to switch between the workspaces.
+   To cycle between workspaces use :kbd:`Ctrl-PageUp` and :kbd:`Ctrl-PageDown`.
 Add ``+``
-   Click on the *Add* button to add a new workspace
-:kbd:`RMB`
-   Shows the context menu, with options to duplicate, delete and reorder workspaces
+   Click on the *Add* button to add a new workspace.
+Context menu :kbd:`RMB`
+   The context menu contains options to duplicate, delete and reorder workspaces.
 
-General Workspaces
-------------------
 
-:Layout: General workspace to preview your scene and objects.
-:Modeling: Modeling workspace, for modification of geometry by modeling tools.
-:Sculpting: Sculpting workspace, for modification of meshes by sculpting tools.  
+Default Workspaces
+==================
+
+:Layout: A general workspace to preview your scene and objects.
+:Modeling: For modification of geometry by modeling tools.
+:Sculpting: For modification of meshes by sculpting tools.
 :UV Editing: Mapping of image texture coordinates to 3D surfaces.
-:Texture Paint: Tools for coloring image textures in 3D view.
-:Shading: Tools for specifying material properties for render engines.
-:Animation: Tools for making properties of objects dependent on animation time.
-:Rendering: Viewing and analysing rendering results.
+:Texture Paint: Tools for coloring image textures in the 3D View.
+:Shading: Tools for specifying material properties for rendering.
+:Animation: Tools for making properties of objects dependent on time.
+:Rendering: For viewing and analyzing rendering results.
 :Compositing: Combining and post-processing of images and rendering information.
-:Scripting: Programming workspace for scripting and automation of Blender.
+:Scripting: Programming workspace for writing scripts.
+
 
 Save and Override
 =================

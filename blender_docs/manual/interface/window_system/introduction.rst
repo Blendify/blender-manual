@@ -12,36 +12,66 @@ Blender's user interface is consistent across all platforms.
 
    The default startup Blender window.
 
-The Default Screen
+
+Interface Elements
 ==================
 
-Blender default start up uses the default screen layout, which is
-separated into four screens listed below:
+.. four screens or three?
 
-- *Top bar* at the very top.
-- *Tool settings* the second row at the top.
-- *Editors* area in the middle.
-- *Status bar* at the bottom.
+Blender's interface is separated into four screens listed below:
+
+- Top bar at the very top.
+- Tool settings the second row of the Top bar.
+- Editors area in the middle.
+- Status bar at the bottom.
+
+The large editors screen is further subdivided into
+:doc:`/interface/window_system/areas` containing the different editors.
+The interface can be customized to match specific tasks using
+:doc:`workspaces </interface/window_system/workspaces>`,
+which can then be named and saved for later use. The Layout workspace is described below.
 
 .. figure:: /images/interface_window-system_introduction_default-screen.png
 
-   Blender's default Screen Layout. Top bar (blue), Tool settings
-   (yellow), Editors (green) and Status bar (red).
+   Blender's default Screen Layout. Top bar (blue), Tool settings (yellow),
+   Editors (green) and Status bar (red).
 
-The large editors screen is further subdivided into
-:doc:`/interface/window_system/areas` for use of different
-editors. Blender default start-up shows the Layout workspace in the
-editors screen. This workspace contains the following :doc:`/editors/index`:
 
-- *3D view* on top left.
-- *Outliner* on top right.
-- *Properties editor* on bottom right.
-- *Timeline* on bottom left.
-  
+The Layout Workspace
+====================
+
+Blender default startup shows the "Layout" workspace in the editors screen.
+This workspace contains the following :doc:`/editors/index`:
+
+- 3D View on top left.
+- Outliner on top right.
+- Properties editor on bottom right.
+- Timeline on bottom left.
+
+.. todo 2.8 figure:: /images/interface_window-system_introduction_layout-workspace.png
+
+   Blender's Layout Workspace with four editors.
+
+   3D View (color), Outliner (), Properties editor () and Timeline ().
+
+
+Components of an Editor
+=======================
+
+In general an editor provides a way to view and
+modify your work through a specific part of Blender.
+
 Editors are divided into :doc:`/interface/window_system/regions`.
 Regions can have smaller structuring elements like
 :doc:`tabs and panels </interface/window_system/tabs_panels>`
 with buttons, controls and widgets placed within them.
+
+.. todo 2.8 figure:: /images/interface_window-system_introduction_editor.png
+
+   The 3D View editor.
+
+   Yellow: Main Region, green: Header, blue: Tool Shelf, purple: Operator Panel,
+   red: Sidebar.
 
 
 User Interface Principles
