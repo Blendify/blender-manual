@@ -66,18 +66,20 @@ Visibility Collection
       This is only a filtering option.
       This means that if an object is not visible at render time it won't be visible in during the probe render.
 
+
 Custom Parallax
+===============
 
-   .. admonition:: Reference
-      :class: refbox
+.. admonition:: Reference
+   :class: refbox
 
-      :Panel:     :menuselection:`Object Data --> Custom Parallax`
+   :Panel:     :menuselection:`Object Data --> Custom Parallax`
 
-   By default, the influence volume is also the parallax volume.
-   The parallax volume is a volume on which is projected the recorded lighting. It should roughly fit it surrounding.
-   In some cases it may be better to adjust the parallax volume without touching the influence parameters.
-   In this case, just enable the *Custom Parallax* and
-   change the shape and distance of the parallax volume independently.
+By default, the influence volume is also the parallax volume.
+The parallax volume is a volume on which is projected the recorded lighting. It should roughly fit it surrounding.
+In some cases it may be better to adjust the parallax volume without touching the influence parameters.
+In this case, just enable the *Custom Parallax* and
+change the shape and distance of the parallax volume independently.
 
 
 Viewport Display
