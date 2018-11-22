@@ -3,21 +3,14 @@
 Introduction
 ************
 
-Eevee's materials system uses the same node based approach as Cycles.
-
-.. seealso::
-
-   :doc:`Material </render/cycles/materials>`.
+Eevee's materials system uses the same node based approach as :doc:`Cycles </render/cycles/materials/index>`.
 
 
 Nodes Support
 =============
 
 Due to realtime constraints, not all Cycles features are available in Eevee.
-
-.. seealso::
-
-   :doc:`Material </render/eevee/materials/nodes_support>`.
+See :doc:`/render/eevee/materials/nodes_support`.
 
 
 Performance
@@ -41,7 +34,7 @@ Refraction
    Using Screen Space refraction will refract what is visible in.
 
 Bump
-   As of now, Bump mapping is supported using OpenGl derivatives which are the same for each block of 2x2 pixels.
+   As of now, Bump mapping is supported using OpenGL derivatives which are the same for each block of 2x2 pixels.
    This means the bump output value will appear pixelated.
    It is recommended to use Normal mapping instead.
 

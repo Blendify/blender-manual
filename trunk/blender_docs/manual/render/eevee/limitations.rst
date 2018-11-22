@@ -36,7 +36,7 @@ Indirect Lighting
 =================
 
 - Volumetrics don't receive light from Irradiance Volumes but does receive world's diffuse lighting.
-- Eevee does not support "Specular to Diffuse" light bounces nor "Specular to Specular" light bounces.
+- Eevee does not support "specular to diffuse" light bounces nor "specular to specular" light bounces.
   All specular lighting is turned off during baking.
 
 
@@ -82,9 +82,9 @@ Refraction
    An approximation of the second refraction event can be used for relatively thin objects using Refraction Depth.
 
 Bump
-   As of now, Bump mapping is supported using OpenGl derivatives which are the same for each block of 2x2 pixels.
+   As of now, bump mapping is supported using OpenGL derivatives which are the same for each block of 2x2 pixels.
    This means the bump output value will appear pixelated.
-   It is recommended to use Normal mapping instead.
+   It is recommended to use normal mapping instead.
 
    .. tip::
    
@@ -100,7 +100,7 @@ Shader Nodes
 
 - All BSDF are using approximations to achieve realtime performance
   so there will always be small differences between Cycles and Eevee.
-- Some utility nodes are not yet compatible with Eevee (i.e.: sky texture node).
+- Some utility nodes are not yet compatible with Eevee (i.e. Sky Texture node).
 
 .. seealso::
 
@@ -129,7 +129,7 @@ CPU Rendering
 
 Being an OpenGL engine, Eevee only uses the power of
 the :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` to render.
-There is no plan to support :abbr:`CPU *Central Processing Unit` (software) rendering as it would be very inefficient.
+There is no plan to support :abbr:`CPU (Central Processing Unit)` (software) rendering as it would be very inefficient.
 CPU power is still needed to handle high complexity scene as the geometry
 is still being prepared by the CPU before rendering each frame.
 
@@ -143,4 +143,4 @@ There is currently no support for multiple :abbr:`GPU (Graphic Processing Unit, 
 Headless Rendering
 ==================
 
-There is currently no support for using Eevee on headless systems (i.e. without Display Manager).
+There is currently no support for using Eevee on headless systems (i.e. without a Display Manager).

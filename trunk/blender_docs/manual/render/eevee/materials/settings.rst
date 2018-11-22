@@ -51,12 +51,12 @@ Sorting Problem
 
 When writing to the color buffer using transparent blend modes,
 the order in which the color blending happens is important as it can change the final output color.
-As of now Eevee does not support per fragment (pixel) sorting or per triangle sorting.
-Only per object sorting is available and is automatically done on all Transparent surfaces based on object origin.
+As of now Eevee does not support per-fragment (pixel) sorting or per-triangle sorting.
+Only per-object sorting is available and is automatically done on all transparent surfaces based on object origin.
 
 .. note::
 
-   This per object sorting has already a cost and having thousands of
+   This per-object sorting has already a cost and having thousands of
    these objects in a scene will greatly degrade performance.
 
 Additive and Multiplicative blending are, individually, order independent.
@@ -122,15 +122,15 @@ Refraction Depth
    This option greatly increase the quality of thin glass objects.
 
 
-SubSurface Translucency
+Subsurface Translucency
 =======================
 
-Eevee's SubSurface Scattering algorithm works by blurring the irradiance in screen space.
+Eevee's Subsurface Scattering algorithm works by blurring the irradiance in screen space.
 This means that if no visible part of the surface is lit, the effect disappear.
 
-However, true SubSurface Scattering goes beneath the surface and can travel a lot of distance.
+However, true Subsurface Scattering goes beneath the surface and can travel a lot of distance.
 This is why a human ear lit from behind appears red on the front side.
 
 That is what this effect mimics. This translucency approximation does only work
-with lamps that have shadow maps and only on SubSurface BSDFs (not the Translucency BSDFs).
+with lamps that have shadow maps and only on Subsurface BSDFs (not the Translucency BSDFs).
 It does not work with indirect lighting. The soft parameter of the shadow maps also affects this effect.

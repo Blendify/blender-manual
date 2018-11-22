@@ -8,8 +8,8 @@ the previous frame color to create more accurate reflection than reflection prob
 
 If a *Reflection Plane* is near a reflective surface,
 it will be used as the source for tracing rays more efficiently and fix the partial visibility problem [TODO image].
-owever the reflected color will not contain the following effects:
-SubSurface Scattering, Volumetrics, Screen Space Reflections, Screen Space Refractions.
+however the reflected color will not contain the following effects:
+Subsurface scattering, volumetrics, screen space reflections, screen space refractions.
 
 .. admonition:: Reference
    :class: refbox
@@ -17,15 +17,15 @@ SubSurface Scattering, Volumetrics, Screen Space Reflections, Screen Space Refra
    :Panel:     :menuselection:`Render --> Screen Space Reflections`
 
 Refractions
-   Screen Space Refractions work the same way as Screen Space Reflections and use same parameters.
+   Screen space refractions work the same way as screen space reflections and use same parameters.
    But they are not enabled by default on all surfaces.
    Enabling it will have a small performance cost.
    You need to enable them in :menuselection:`Material Properties --> Options`.
-   Materials using Screen Space Refractions will not be able to cast Screen Space Reflections.
+   Materials using screen space refractions will not be able to cast screen space reflections.
 
 Half Resolution Trace
    Use half resolution ray tracing. Only cast a ray for every fourth pixels.
-   Enabling this option reduces drastically Video Memory usage and increase performances at the cost of quality.
+   Enabling this option reduces drastically video memory usage and increase performances at the cost of quality.
 
 Trace Precision
    Increase precision of the ray trace but introduce more noise and lower the maximum trace distance.

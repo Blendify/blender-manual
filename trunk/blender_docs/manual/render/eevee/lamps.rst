@@ -65,6 +65,7 @@ Spot Shape
    while the blend parameter can soften the edges of the cone.
 
 .. note::
+
    Unlike in Cycles the *Size* of the light does not changes the softness of the cone.
 
 
@@ -79,11 +80,11 @@ Shape
    Square
       The shape of the lamp can be represented as a square and changed with the *Size* property.
    Rectangle
-      The shape of the lamp can be represented as a rectangle and changed with the "X" and "Y" values.
+      The shape of the lamp can be represented as a rectangle and changed with the X and Y values.
    Disk
       The shape of the lamp can be represented as a disk and changed with the *Size* property.
    Ellipse
-      The shape of the lamp can be represented as a ellipse and changed with the "X" and "Y" values.
+      The shape of the lamp can be represented as a ellipse and changed with the X and Y values.
 
 
 Sun Lamp
@@ -93,7 +94,7 @@ Sun lamps emit light in a given direction. Their position is not taken into acco
 they are always located outside of the scene, infinitely far away,
 and will not result in any distance falloff.
 
-However, their position is taken into account for shadowing. See CSM.
+However, their position is taken into account for shadowing. See :ref:`eevee-cascaded-shadow-map`.
 
 Because they are not located inside the scene, their strength uses different units,
 and should typically be set to lower values than other lights.

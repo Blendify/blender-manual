@@ -3,10 +3,10 @@
 Ambient Occlusion
 *****************
 
-Ambient Occlusion is computed using :abbr:`GTAO (Ground Truth Ambient Occlusion)` and applied to indirect lighting.
+Ambient occlusion is computed using :abbr:`GTAO (Ground Truth Ambient Occlusion)` and applied to indirect lighting.
 The bent normal option will make the diffuse lighting come from only the least occluded direction.
 
-Ambient Occlusion can be rendered as a separate pass in the *Render Layers* panel.
+Ambient occlusion can be rendered as a separate pass in the Render Layers panel.
 
 .. note::
 
@@ -35,10 +35,10 @@ Bent Normals
 Bounce Approximation
    An approximation to simulate light bounces giving less occlusion on brighter objects.
    It only takes into account the surface color and not its surroundings.
-   This is not applied to the Ambient Occlusion pass.
+   This is not applied to the ambient occlusion pass.
 
 
 Limitations
 ===========
 
-- Objects are treated as infinitely thick, producing overshadowing if the Distance is really large.
+- Objects are treated as infinitely thick, producing overshadowing if the *Distance* is really large.

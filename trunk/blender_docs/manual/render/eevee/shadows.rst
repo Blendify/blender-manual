@@ -54,10 +54,10 @@ Light Threshold
    In order to avoid costly setup time, this distance is first computed
    automatically based on a light threshold. The distance is computed
    at the light origin and using the inverse square falloff. The setting
-   can be found inside the render settings panel > shadow tab.
+   can be found inside the :menuselection;`Render Settings panel --> Shadow tab`.
 
    This light threshold does not take the light shape into account and may not
-   suit every case. That is why we provide a per lamp override where you can
+   suit every case. That is why we provide a per-lamp override where you can
    just set the cut off distance
    (:menuselection;`Light Properties Panel --> Light --> Custom Distance`).
 
@@ -130,6 +130,8 @@ Bias
 Thickness
    Pixel thickness used to detect occlusion. Treat any potential occluder to be this thick.
 
+
+.. _eevee-cascaded-shadow-map:
 
 Cascaded Shadow Map
 -------------------
