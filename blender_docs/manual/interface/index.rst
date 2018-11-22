@@ -21,7 +21,7 @@ Window System
    :maxdepth: 1
 
    window_system/introduction.rst
-   window_system/screens.rst
+   window_system/workspaces.rst
    window_system/areas.rst
    window_system/regions.rst
    window_system/tabs_panels.rst
