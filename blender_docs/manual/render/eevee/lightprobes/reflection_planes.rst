@@ -79,4 +79,4 @@ Arrow Size
    Size of the arrow showing the reflection plane normal.
 
 Show Data
-   Show the captured reflected image onto a 100% reflective plane in the 3D View.
+   Show the captured reflected image onto a fully reflective plane in the 3D View.

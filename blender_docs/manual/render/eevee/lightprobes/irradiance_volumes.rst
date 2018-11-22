@@ -46,6 +46,7 @@ Clipping
    Define the near and far clip distances when capturing the scene.
 
    .. warning::
+
       Clipping distances are applied at the samples positions and *not* at the grid origin.
 
 Visibility Collection
@@ -94,15 +95,9 @@ the world's diffuse lighting will be used to shade it.
 
 .. tip::
 
-   When lighting indoor environment, try to align grids with the room shape.
-
-.. tip::
-
-   Try not to put too much resolution in empty areas or areas with low amount of lighting variation.
-
-.. tip::
-
-   You can fix bad samples by adding a smaller grid near the problematic area.
+   - When lighting indoor environment, try to align grids with the room shape.
+   - Try not to put too much resolution in empty areas or areas with low amount of lighting variation.
+   - You can fix bad samples by adding a smaller grid near the problematic area.
 
 
 Resolution

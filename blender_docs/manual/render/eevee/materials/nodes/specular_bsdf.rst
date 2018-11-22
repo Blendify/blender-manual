@@ -8,15 +8,12 @@ Specular BSDF
 The *Specular* :abbr:`BSDF (Bidirectional scattering distribution function)`
 that combines multiple layers into a single easy to use node.
 
-It is similar to the Principled BSDF node but uses the *specular* workflow instead of the metallic.
+It is similar to the :doc:`Principled BSDF </render/cycles/nodes/types/shaders/principled>` node
+but uses the *specular* workflow instead of the metallic.
 It has much less parameters and supports less features. Both might be merged into one node in the future.
 
 The specular workflow works by specifying the facing (along normal) reflection color.
 The result may not be physically plausible because there is no energy conservation.
-
-.. seealso::
-
-   :doc:`Principled BSDF </render/cycles/nodes/types/shaders/principled>`.
 
 
 Inputs

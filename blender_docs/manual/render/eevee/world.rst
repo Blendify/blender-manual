@@ -4,11 +4,7 @@ World
 *****
 
 The world environment can emit light, ranging from a single solid color,
-to arbitrary textures. It works the same as in Cycles.
-
-.. seealso::
-
-   :doc:`Material </render/cycles/world>`.
+to arbitrary textures. It works the same as the :doc:`world material </render/cycles/world>` in Cycles.
 
 In Eevee, the world lighting contribution is first rendered and
 stored into smaller resolution textures before being applied to the objects.
