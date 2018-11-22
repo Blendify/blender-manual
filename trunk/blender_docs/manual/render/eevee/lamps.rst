@@ -24,17 +24,21 @@ Energy
    Light intensity. Affect both specular and diffuse light. Note: Can be negative but breaks PBR.
 
 Specular
-   Specular Light intensity multiplier. Use it for more artistic control. Setting this to anything but 1.0 will yield non-photorealistic result.
+   Specular Light intensity multiplier. Use it for more artistic control.
+   Setting this to anything but 1.0 will yield non-photorealistic result.
 
 Size (or Radius)
    Size of the lamp in Blender Units; increasing this will result in softer shadows and shading.
 
 Custom Limit
 
-   If enables uses *Distance* as the custom attenuation distance instead of global light threshold. The *Distance* specify where light influence will be set to 0.
+   If enables uses *Distance* as the custom attenuation distance instead of global light threshold.
+   The *Distance* specify where light influence will be set to 0.
 
    .. seealso::
+
       :doc:`Light Threshold </render/eevee/shadows>`.
+
 
 Lamp Types
 ==========
@@ -67,7 +71,7 @@ Spot Shape
 Area Lamp
 ---------
 
-Area lamps emit light from a rectangular or eliptic area.
+Area lamps emit light from a rectangular or elliptic area.
 
 Shape
    Shape of the area lamp.

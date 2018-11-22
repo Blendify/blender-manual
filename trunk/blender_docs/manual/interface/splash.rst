@@ -31,7 +31,7 @@ Hash
 Branch
    Optional branch ID.
 New File
-   Options for starting a new project, based on pre-defined application templates.  
+   Options for starting a new project, based on predefined application templates.
 Recent Files
    Your most recently opened blend-files. This gives quick and easy access to your recent projects.
 Open

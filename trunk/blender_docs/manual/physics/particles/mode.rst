@@ -106,7 +106,7 @@ Random Seed
 Action
    Select random can be either used to select or deselect particles.
 Type
-   Selects either hair or points. Here theses terms can be confusing because
+   Selects either hair or points. Here these terms can be confusing because
    hair/point does not refer to the particle type but the path/points of the hair/particle.
 
 
