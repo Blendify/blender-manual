@@ -22,14 +22,14 @@ Method
    Select the shadow map type. It changes how shadows are stored and filtered.
 
    :abbr:`ESM (Exponential Shadow Mapping)`
-      They are fast to filter but sufer form light leaking near the occluder.
+      They are fast to filter but suffer form light leaking near the occluder.
       This can be minimized by increasing the *Exponent* parameter.
       Another issue is the artifacts present at depth discontinuity.
       Unfortunately, there is no workaround for this issue and the only way
       to minimize it is to reduce the *Soft* parameter.
 
    :abbr:`VSM (Variance Shadow Mapping)`
-      Filters nicely and gives smooth shadow map appearance accross the whole shadow range.
+      Filters nicely and gives smooth shadow map appearance across the whole shadow range.
       However it suffers from visible grainy artifacts when using low bit depth.
       It is also prone to light leaking when two occluders overlap.
       In this case the shadows can be overdarkened to reduce the leak,
@@ -44,7 +44,7 @@ Cascade Size
    Size of one cascade used by *Cascaded Shadow Maps*. This is only for Sun lamps.
 
 High Bitdepth
-   This option can help reduce some artifact due to float imprecision inside the shadowmaps.
+   This option can help reduce some artifacts due to float imprecision inside the shadow maps.
    This option effectively double the memory usage of shadow maps and will slow down their update.
 
 Soft Shadows
@@ -56,21 +56,24 @@ Light Threshold
    at the light origin and using the inverse square falloff. The setting
    can be found inside the render settings panel > shadow tab.
 
-   This light threshold does not take the light shape into account an may not
-   suit every case. That's why we provide a per lamp override where you can
-   just set the cutt off distance (Light Properties Panel > Light >
-   Custom Distance).
+   This light threshold does not take the light shape into account and may not
+   suit every case. That is why we provide a per lamp override where you can
+   just set the cut off distance
+   (:menuselection;`Light Properties Panel --> Light --> Custom Distance`).
 
    The influence distance is also used as shadow far clip distance, which might affect how shadows looks.
    This influence distance does not concerns sun lights that still have a far clip distance.
 
    .. seealso::
+
       :doc:`Custom Limit </render/eevee/lamps>`.
 
 .. note::
-   The Soft Shadows method is not physicaly based and will not match Cycles for very large lamps.
+
+   The Soft Shadows method is not physically based and will not match Cycles for very large lamps.
 
 .. tip::
+
    A 512px cubemap is 6 x 512 x 512 pixels in it.
    Tweaking the *Size* parameters can have a big impact on memory consumption and performance.
 
@@ -88,7 +91,7 @@ Clip
 
 Soft
    Size of the filter applied to the shadow map.
-   This filter size is independant from the shadow map resolution.
+   This filter size is independent from the shadow map resolution.
    Higher filter size can have a big impact on performance.
    There is a maximum cap to filter size (in pixels) that depends on shadow resolution.
 
@@ -106,10 +109,14 @@ Contact Shadows
 ---------------
 
 This type of shadows exists to fix light leaking caused by Bias or shadow map undersampling.
-They uses the depth buffer to find occluders (just like Screen Space Reflections). However, exactly like Screen Space Reflections, they suffer from the same limitations: unknown object thickness, effect disapearing at screen edges.
+They uses the depth buffer to find occluders (just like Screen Space Reflections).
+However, exactly like Screen Space Reflections, they suffer from the same limitations:
+unknown object thickness, effect disappearing at screen edges.
 
 .. tip::
-   The distance of action of Contact Shadows should remain quite small. They are not accurate enough to shadow the entire scene.
+
+   The distance of action of Contact Shadows should remain quite small.
+   They are not accurate enough to shadow the entire scene.
 
 Distance
    World space distance in which to search for screen space occluder.
@@ -118,7 +125,7 @@ Softness
    Control how soft the contact shadows will be. Contact shadow blurring does not match light's physical size.
 
 Bias
-   Bias applied to the raytracing to reduce self shadowing artifacts.
+   Bias applied to the ray tracing to reduce self shadowing artifacts.
 
 Thickness
    Pixel thickness used to detect occlusion. Treat any potential occluder to be this thick.
@@ -127,18 +134,23 @@ Thickness
 Cascaded Shadow Map
 -------------------
 
-Theses special kind of shadow maps are used by Sun lights.
-This is because they can shadow large scenes by distributing multiple shadow maps over the frustum range. Each cascade covers a different portion of the view frustum.
-Do note that cascade shadow map are always updated because they are view dependent. This means they have a high performance impact.
+These special kind of shadow maps are used by Sun lights.
+This is because they can shadow large scenes by distributing multiple shadow maps over the frustum range.
+Each cascade covers a different portion of the view frustum.
+Do note that cascade shadow map are always updated because they are view dependent.
+This means they have a high performance impact.
 
 Count
    Number of cascade to use. More cascade means better precision but slower update.
 
 Fade
-   Fade transition area between 2 cascades. Higher values means less overall resolution because cascades need to overlap.
+   Fade transition area between two cascades.
+   Higher values means less overall resolution because cascades need to overlap.
 
 Max Distance
-   Distance away from the view origin (or camera origin if in camera view) to cover with the cascade. If the view far clip distance is lower than Max Distance, the lowest of the 2 will be used. Only works in perspective view.
+   Distance away from the view origin (or camera origin if in camera view) to cover with the cascade.
+   If the view far clip distance is lower than Max Distance, the lowest of the two will be used.
+   Only works in perspective view.
 
 Distribution
    Puts more resolution towards the near clip plane. Only works in perspective view.
@@ -147,6 +159,6 @@ Distribution
 Limitations
 ===========
 
-   * Shadows are not supported on light instances (dupli objects, group instancing).
-   * Only 128 active lights can be supported by eevee in a scene.
-   * Only 8 Shadowed sun lights can be supported at the same time.
+- Shadows are not supported on light instances (dupli objects, group instancing).
+- Only 128 active lights can be supported by Eevee in a scene.
+- Only 8 Shadowed sun lights can be supported at the same time.

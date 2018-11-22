@@ -8,23 +8,26 @@ Specular BSDF
 The *Specular* :abbr:`BSDF (Bidirectional scattering distribution function)`
 that combines multiple layers into a single easy to use node.
 
-It is similar to the Principled :abbr:`BSDF (Bidirectional scattering distribution function)` node but uses the *specular* workflow instead of the metallic. It has much less parameters and supports less features. Both might be merged into one node in the future.
+It is similar to the Principled BSDF node but uses the *specular* workflow instead of the metallic.
+It has much less parameters and supports less features. Both might be merged into one node in the future.
 
 The specular workflow works by specifying the facing (along normal) reflection color.
 The result may not be physically plausible because there is no energy conservation.
 
 .. seealso::
+
    :doc:`Principled BSDF </render/cycles/nodes/types/shaders/principled>`.
+
 
 Inputs
 ======
 
 Base Color
-   Diffuse surface color. For conductor materials (Metals) it should be black.
+   Diffuse surface color. For conductor materials (metals) it should be black.
 
 Specular Color
    Amount of specular reflection. Specifies facing (along normal)
-   reflectivity. Conductor materials (Metals) can have colored specular reflection.
+   reflectivity. Conductor materials (metals) can have colored specular reflection.
 
    .. hint::
 
@@ -49,7 +52,9 @@ Emissive Color
    Color of the emitted light. This light is added to the BSDF result.
 
 Transparency
-   Transparency factor. It is the inverse of the alpha channel (1 - alpha) you can find in an image. Use an Invert node to convert alpha to transparency. This will only have an effect if the material uses a blend mode other than opaque.
+   Transparency factor. It is the inverse of the alpha channel (1 - alpha) you can find in an image.
+   Use an Invert node to convert alpha to transparency.
+   This will only have an effect if the material uses a blend mode other than opaque.
 
 Normal
    Controls the normals of the base layers.
@@ -65,7 +70,8 @@ Clearcoat Normal
    Controls the normals of the *Clearcoat* layer.
 
 Ambient Occlusion
-   Amount of occlusion to apply to indirect lighting. Usually a bake ambient occlusion map. The final occlusion factor is the minimum of this input and the runtime ambient occlusion effect.
+   Amount of occlusion to apply to indirect lighting. Usually a bake ambient occlusion map.
+   The final occlusion factor is the minimum of this input and the runtime ambient occlusion effect.
 
 
 Outputs

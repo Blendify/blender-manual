@@ -9,6 +9,7 @@ The bent normal option will make the diffuse lighting come from only the least o
 Ambient Occlusion can be rendered as a separate pass in the *Render Layers* panel.
 
 .. note::
+
    This effect needs to be enabled for the Ambient Occlusion shader node to work.
 
 .. admonition:: Reference
@@ -25,16 +26,19 @@ Factor
 Trace Precision
    Increase precision of the effect but introduce more noise and lower the maximum trace distance.
    Increased precision also increases performance cost.
-   Lower precision will also miss occluders and lead to under-shadowing.
+   Lower precision will also miss occluders and lead to undershadowing.
 
 Bent Normals
    Compute the least occluded direction.
    This direction can be used to sample the diffuse irradiance in a more realistic way.
 
 Bounce Approximation
-   An approximation to simulate light bounces giving less occlusion on brighter objects. It only takes into account the surface color and not its surroundings. This is not applied to the Ambient Occlusion pass.
+   An approximation to simulate light bounces giving less occlusion on brighter objects.
+   It only takes into account the surface color and not its surroundings.
+   This is not applied to the Ambient Occlusion pass.
 
 
 Limitations
 ===========
-* Objects are treated as infinitely thick, producing overshadowing if the Distance is really large.
+
+- Objects are treated as infinitely thick, producing overshadowing if the Distance is really large.

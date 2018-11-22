@@ -7,8 +7,9 @@ Bloom is a post-process effect that diffuses very bright pixels. This mimics wha
 
 This allows to have a better sense of what the actual intensities of the pixels are.
 
+
 Settings
-^^^^^^^^
+========
 
 .. admonition:: Reference
    :class: refbox

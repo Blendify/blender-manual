@@ -3,23 +3,35 @@
 Reflection Planes
 *****************
 
-These special types of Probe object is suited to smooth planar surfaces. They basically capture the whole scene with a flipped camera.
+These special types of Probe object is suited to smooth planar surfaces.
+They basically capture the whole scene with a flipped camera.
 
-Using reflection planes is really heavy on the render time because the scene needs to be rendered as many time as there is Reflection Planes in the view.
+Using reflection planes is really heavy on the render time
+because the scene needs to be rendered as many times as there is Reflection Planes in the view.
 
-Unless Screen Space Reflection is enabled, Reflection Planes only work on specular surfaces that have there roughness around 0.
+Unless Screen Space Reflection is enabled,
+Reflection Planes only work on specular surfaces that have there roughness around 0.
 
-If Screen Space Reflection is enabled, Reflection Planes will serves as support buffers. This accelerate the tracing process and complete the missing data from the view space.
-This also make reflection more correct for the affected surface that have medium roughness and disturbed normals (i.e.: NormalMaps).
+If Screen Space Reflection is enabled, Reflection Planes will serves as support buffers.
+This accelerate the tracing process and complete the missing data from the view space.
+This also make reflection more correct for the affected surface that have medium roughness and
+disturbed normals (i.e. normal maps).
 
 .. note::
-   Subsurface Scattering, Screen Space Reflections and Volumetrics are not supported inside Reflection Plane's reflection.
+
+   Subsurface Scattering, Screen Space Reflections and
+   Volumetrics are not supported inside Reflection Plane's reflection.
+
 
 Placement
-^^^^^^^^^
-If Backface Culling is not enabled, snapping the Reflection Plane to the planar surface will effectively capture the underneath of the surface.
+=========
 
-Manually moving the Reflection Plane above the surface enough for it to not appear in the capture. Alternatively you can put the floor object inside a collection and use this collection as Visibility Collection (inverted) inside the Reflection Plane's probe settings.
+If Backface Culling is not enabled, snapping the Reflection Plane to the planar surface
+will effectively capture the underneath of the surface.
+
+Manually moving the Reflection Plane above the surface enough for it to not appear in the capture.
+Alternatively you can put the floor object inside a collection and
+use this collection as Visibility Collection (inverted) inside the Reflection Plane's probe settings.
 
 .. admonition:: Reference
    :class: refbox
@@ -27,10 +39,12 @@ Manually moving the Reflection Plane above the surface enough for it to not appe
    :Panel:     :menuselection:`Object Data --> Probe`
 
 Distance
-   A probe object only influences the lighting of nearby surfaces. This influence zone is defined by the Distance parameter and object scalling.
+   A probe object only influences the lighting of nearby surfaces.
+   This influence zone is defined by the Distance parameter and object scaling.
    It is a bit different, depending on the probe type.
 
-   For Reflection Planes the influence distance is the distance from the plane. Only surfaces whose normals are aligned with the Reflection Plane will receive the captured reflection.
+   For Reflection Planes the influence distance is the distance from the plane.
+   Only surfaces whose normals are aligned with the Reflection Plane will receive the captured reflection.
 
 Falloff
    Percentage of the influence distance during which the influence of a probe fades linearly.
@@ -40,11 +54,17 @@ Clipping Offset
    Define how much below the plane the near clip is when capturing the scene. Increasing this can fix reflection contact problems.
 
 Visibility Collection
-   Sometimes, it is useful to limit which objects appear in the lightprobe's captured lighting. For instance, an object that is too close to a capture point might be better excluded.
-   This is what the visibility collection does. Only objects that are in this collection will be visible when this probes will capture the scene.
+   Sometimes, it is useful to limit which objects appear in the light probe's captured lighting.
+   For instance, an object that is too close to a capture point might be better excluded.
+   This is what the visibility collection does.
+   Only objects that are in this collection will be visible when this probes will capture the scene.
 
-   There is also an option to invert this behaviour and effectively hide the objects inside this collection.
-   .. note:: This is only a filtering option. This means that if an object is not visible at render time it won't be visible in during the probe render.
+   There is also an option to invert this behavior and effectively hide the objects inside this collection.
+
+   .. note::
+
+      This is only a filtering option.
+      This means that if an object is not visible at render time it won't be visible in during the probe render.
 
 
 Viewport Display
@@ -59,4 +79,4 @@ Arrow Size
    Size of the arrow showing the reflection plane normal.
 
 Show Data
-   Show the captured reflected image onto a 100% reflective plane in the 3D view.
+   Show the captured reflected image onto a 100% reflective plane in the 3D View.
