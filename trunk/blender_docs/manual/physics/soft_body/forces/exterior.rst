@@ -125,7 +125,7 @@ The weight of *Hair* particles can also be painted in :doc:`Particle Edit Mode <
 Technical Details
 =================
 
-In the Soft Body world vertices of meshes are treated as particles having a mass.
+In the Soft Body world, vertices of meshes are treated as particles having a mass.
 Their movement is determined by the forces affecting them. Beside other forces
 the individual particles can interact with another along edges using a physical model
 which is very close to shock absorbers used in cars. The working parts are:
