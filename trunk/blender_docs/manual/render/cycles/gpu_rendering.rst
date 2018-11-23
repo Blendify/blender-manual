@@ -30,7 +30,7 @@ CUDA
 
 Nvidia :abbr:`CUDA (Compute Unified Device Architecture)`
 is supported for GPU rendering with *Nvidia* graphics cards.
-We support graphics cards starting from GTX 4xx (computing capability from 2.0 to 6.1).
+We support graphics cards starting from GTX 6xx (computing capability from 3.0 to 6.1).
 
 Cycles requires recent Nvidia drivers to be installed, on all operating systems.
 
@@ -55,11 +55,6 @@ Supported Features and Limitations
 
 For an overview of supported features, check the comparison
 in the :doc:`Features </render/cycles/features>`.
-
-CUDA limitations:
-   The maximum amount of individual textures is limited to 88 byte-image textures (``PNG``, ``JPEG``, ..)
-   and 5 float-image textures (``OpenEXR``, 16 bit ``TIFF``, ..) on GTX 4xx/5xx cards.
-   Newer cards do not have this limit.
 
 
 Frequently Asked Questions
