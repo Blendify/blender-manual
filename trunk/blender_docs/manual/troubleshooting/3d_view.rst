@@ -1,4 +1,4 @@
-.. (Todo add) GL texture limit.
+.. (Todo <2.8 add) GL texture limit.
 
 *******
 3D View

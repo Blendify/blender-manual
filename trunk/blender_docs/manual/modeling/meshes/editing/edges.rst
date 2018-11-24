@@ -90,7 +90,7 @@ this operator alters the average weight of the edges.
 
    Vertices also have a bevel weight which can be edited.
 
-   .. todo there are no docs for this yet.
+   .. todo <2.8 there are no docs for this yet.
 
 
 .. _modeling-edges-crease-subdivision:

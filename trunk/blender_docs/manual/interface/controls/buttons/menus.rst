@@ -85,7 +85,7 @@ Numerical selection
 
 Pop-ups can be moved by dragging their title.
 
-.. todo duplicate: selection
+.. todo <2.8 duplicate: selection
 
 
 Shortcuts

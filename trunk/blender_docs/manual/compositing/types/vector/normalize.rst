@@ -32,4 +32,4 @@ Outputs
 Value
    Standard value output.
 
-.. (TODO add) more info and examples
+.. (TODO <2.8 add) more info and examples

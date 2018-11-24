@@ -40,4 +40,4 @@ Outputs
 Image
    Standard image output.
 
-.. TODO explain all options
+.. TODO <2.8 explain all options

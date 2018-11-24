@@ -19,7 +19,7 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 #. Jump to next relevant frame. Draw some more.
 #. Keep repeating process, and drawing until satisfied. Voilà! Animated sketches.
 
-.. (todo add) keyframes, on properties.
+.. (todo <2.8 add) keyframes, on properties.
 
 .. seealso::
 
