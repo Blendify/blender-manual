@@ -428,7 +428,7 @@ Camera Operations
 
 .. warning::
 
-   Blender 2.8 todo: move this to somewhere better
+   todo 2.8: move this to somewhere better
 
 Changing the Active Camera
 --------------------------
