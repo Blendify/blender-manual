@@ -29,9 +29,9 @@ Distance
    A *positive* value of Distance dilates (expands) the influence of a pixel on its surrounding pixels.
    A *negative* value erodes (shrinks) its influence.
 Edge
-   Edge to inset. (TODO explain)
+   Edge to inset. (TODO <2.8 explain)
 Falloff
-   Falloff type the feather. (TODO explain)
+   Falloff type the feather. (TODO <2.8 explain)
 
 
 Outputs

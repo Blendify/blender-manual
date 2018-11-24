@@ -8,7 +8,7 @@ The Normal Edit Modifier affects (or generates) custom normals. It uses a few si
 to compute normals (quite useful in game development and architecture areas), and mixes back those generated normals
 with existing ones.
 
-.. (todo add) nice image
+.. (todo <2.8 add) nice image
 
 
 Options

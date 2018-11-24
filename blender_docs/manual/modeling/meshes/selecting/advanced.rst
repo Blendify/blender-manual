@@ -182,7 +182,7 @@ More :kbd:`Ctrl-NumpadPlus`
 Less :kbd:`Ctrl-NumpadMinus`
    Contracts the selection from the adjacent elements of the selection type.
 
-.. todo how to handle face step
+.. todo <2.8 how to handle face step
 
 Next Active :kbd:`Shift-Ctrl-NumpadPlus`
    This uses selection history to select the next vertex/edge/face based on surrounding topology.

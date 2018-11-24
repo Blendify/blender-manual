@@ -60,7 +60,7 @@ the :doc:`Image Textures </editors/uv_image/uv/textures/types/image/index>` page
    or enable *Face Texture*, your object will render according to the procedural material settings.
 
 
-.. (TODO remove) Removed in 2.8
+.. (TODO 2.8 remove) Removed in 2.8
 .. _face-textures:
 
 Face Textures

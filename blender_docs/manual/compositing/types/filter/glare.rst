@@ -87,4 +87,4 @@ Example
 
 .. A nice lens flare render of an outdoor scene
 
-TODO add.
+TODO <2.8 add.

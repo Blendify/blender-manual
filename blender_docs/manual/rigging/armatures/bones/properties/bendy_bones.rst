@@ -1,4 +1,4 @@
-.. (todo add) images: https://code.blender.org/2016/05/
+.. (todo 2.78 add) images: https://code.blender.org/2016/05/
 .. an-in-depth-look-at-how-b-bones-work-including-details-of-the-new-bendy-bones/
 
 ***********

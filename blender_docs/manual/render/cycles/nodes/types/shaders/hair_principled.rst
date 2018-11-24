@@ -218,7 +218,7 @@ Random
 Properties
 ==========
 
-.. Todo move content from above here
+.. Todo 2.79 move content from above here
 
 Parametrization
    Choose one of the three coloring modes described above.
