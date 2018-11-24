@@ -19,13 +19,17 @@ and it is also possible to open the same type multiple times.
 There is also documentation on the :doc:`general interface </interface/index>` of editors.
 
 
-3D
-==
+General
+=======
 
 .. toctree::
    :maxdepth: 1
 
    3dview/index.rst
+   uv_image/index.rst
+   node_editor/index.rst
+   vse/index.rst
+   movie_clip_editor/index.rst
 
 
 Animation
@@ -34,43 +38,32 @@ Animation
 .. toctree::
    :maxdepth: 1
 
+   dope_sheet/index.rst
    timeline.rst
    graph_editor/index.rst
-   dope_sheet/index.rst
    nla/index.rst
 
 
-Image/Video
-===========
-
-.. toctree::
-   :maxdepth: 1
-
-   uv_image/index.rst
-   movie_clip_editor/index.rst
-   vse/index.rst
-
-
-Nodes/Logic
-===========
+Scripting
+=========
 
 .. toctree::
    :maxdepth: 1
 
    text_editor.rst
-   node_editor/index.rst
+   python_console.rst
+   info/index.rst
 
 
-Settings
-========
+Data
+====
 
 .. toctree::
    :maxdepth: 1
 
-   properties_editor.rst
    outliner.rst
-   ../preferences/index.rst
-   info/index.rst
+   properties_editor.rst
+   file_browser/index.rst
 
 
 Other
@@ -80,4 +73,3 @@ Other
    :maxdepth: 1
 
    file_browser/index.rst
-   python_console.rst
