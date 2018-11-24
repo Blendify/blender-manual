@@ -25,16 +25,16 @@ The exporter can bake mesh modifiers and animation into the FBX so the final res
    - Bones would need to get a correction to their orientation
      (FBX bones seems to be -X aligned, Blender’s are Y aligned),
      this does not affect skinning or animation, but imported bones in other applications will look wrong.
-   - Animations (FBX AnimStacks, Blender actions) **are not linked** to there object,
+   - Animations (FBX AnimStacks, Blender actions) **are not linked** to their object,
      because there is no real way to know which stack to use as 'active' action for a given object, mesh or bone.
-     This may be enhanced to be smarter in future, but not really considered urgent,
-     so for now you'll have to link actions to objects by hand.
+     This may be enhanced to be smarter in the future, but it's not really considered urgent,
+     so for now you'll have to link actions to objects manually.
    - Armatures’ instances (through e.g. dupli or group instancing) **are not supported**.
 
 .. note::
 
    - Bones' orientation importing is complex, you may have to play a bit with
-     related settings until you get expected result.
+     related settings until you get the expected results.
    - Animation support is minimal currently, we read all curves as if they were 'baked' ones
      (i.e. a set of close keyframes with linear interpolation).
    - Imported actions are linked to their related object, bone or shape key, on a 'first one wins' basis.
@@ -49,7 +49,7 @@ The exporter can bake mesh modifiers and animation into the FBX so the final res
    For armature animations typically you just leave the armature enabled which is necessary for that type of animation.
    Reducing what is output makes the export and future import much faster.
    Normally each action will have its own name but the current or
-   only take can be forced to be named "Default Take". Typically ensure that this option remains off.
+   only take can be forced to be named "Default Take". Typically, ensure that this option remains off.
 
 
 Properties
@@ -121,9 +121,9 @@ Apply Scale
 Apply Scalings
    TODO.
 Forward / Up Axis
-   Since many applications use a different axis for 'Up', there are axis conversion there settings,
-   Forward and Up axis -- By mapping these to different axis you can convert rotations
-   between applications default up and forward axis.
+   Since many applications use a different axis for 'Up', these are axis conversions for Forward and
+   Up axes -- By mapping these to different axes you can convert rotations between applications
+   default up and forward axes.
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
@@ -135,7 +135,7 @@ Custom Properties
    TODO.
 Path Mode
    When referencing paths in exported files you may want some control as to the method used since absolute paths
-   may only be correct on you're own system. Relative paths on the other hand are more portable
+   may only be correct on your own system. Relative paths on the other hand are more portable
    but mean that you have to keep your files grouped when moving about on your local file system.
    In some cases the path doesn't matter since the target application will search
    a set of predefined paths anyway so you have the option to strip the path too.
