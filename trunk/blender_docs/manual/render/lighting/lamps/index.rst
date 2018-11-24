@@ -7,6 +7,6 @@
    :maxdepth: 2
 
    point.rst
-   sun/index.rst
-   spot/index.rst
-   area/index.rst
+   sun.rst
+   spot.rst
+   area.rst
