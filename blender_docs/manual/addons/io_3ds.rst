@@ -25,9 +25,9 @@ Import
 ------
 
 Forward / Up Axis
-   Since many applications use a different axis for 'Up', there are axis conversion there settings,
-   Forward and Up axis -- By mapping these to different axis you can convert rotations
-   between applications default up and forward axis.
+   Since many applications use a different axis for 'Up', these are axis conversions for
+   Forward and Up axes -- By mapping these to different axes you can convert rotations
+   between applications default up and forward axes.
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
@@ -44,7 +44,7 @@ Export
 ------
 
 Forward / Up Axis
-   Since many applications use a different axis for 'Up', these are axis conversion for these settings,
+   Since many applications use a different axis for 'Up', these are axis conversions for
    Forward and Up axes -- By mapping these to different axes you can convert rotations
    between applications default up and forward axes.
 
