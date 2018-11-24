@@ -7,7 +7,7 @@ If this effect is enabled, all Materials will use the depth buffer and
 the previous frame color to create more accurate reflection than reflection probes.
 
 If a *Reflection Plane* is near a reflective surface,
-it will be used as the source for tracing rays more efficiently and fix the partial visibility problem [TODO image].
+it will be used as the source for tracing rays more efficiently and fix the partial visibility problem [TODO 2.8 image].
 However, the reflected color will not contain the following effects:
 Subsurface scattering, volumetrics, screen space reflections, screen space refractions.
 
