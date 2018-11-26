@@ -250,7 +250,7 @@ def warn_locale():
         rst_entry = os.path.join(RST_DIR, rst_file)
         is_file_existed = os.path.exists(rst_entry)
         if (not is_file_existed):
-            po_unfound_entry = "svn rm --force {}{}".format(po_dir_patch_part, po_file)
+            po_unfound_entry = "svn rm --force {}".format(os.path.join(po_dir_patch_part, po_file))
             if (not po_unfound_entry in unfound_unique_po_list):
                 unfound_unique_po_list.append(po_unfound_entry)
 
