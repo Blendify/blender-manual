@@ -42,6 +42,8 @@ declare -A pattern_insert=(
 ["\"MIME-Version"]="$language_code\"MIME-Version"
 )
 
+RE_COMMENTED_LINE="^#~.*$"
+
 #Find the changed files in the local repository, using 'git status' and 'svn status'.
 function findChangedFiles()
 {
@@ -52,6 +54,28 @@ function findChangedFiles()
    else #slowest option of all, find po files in any root directory
       changed_list=$(find . -type f -name "*.po" -exec ls -al --time-style=+%D\ %H:%M:%S {} \; | grep `/usr/bin/date +%D` | awk '{ print $6,$7,$8 }' | sort | tail -1 | awk '{ print $3 }')
    fi
+}
+
+#Remove all commented line after update_po is executed
+#find in all directories just in case old files are still there.
+function removeCommentedLineInAllFiles()
+{
+    po_file_list=$(find . -type f -name "*.po")
+    for f in ${po_file_list}; do
+		removeCommentedLineInSingleFile $f
+    done
+}
+
+#Remove commented line in a single file
+function removeCommentedLineInSingleFile()
+{
+	orig_file=$1
+	tempfile="temp_file.po"
+	exclude_lines=$(grep "$RE_COMMENTED_LINE" $orig_file)
+    if [ ! -z "$exclude_lines" ]; then
+		grep -v "$RE_COMMENTED_LINE" $orig_file > $tempfile
+        mv $tempfile $orig_file
+	fi
 }
 
 #Replacing placeholders as specified in pattern_list array
@@ -102,8 +126,10 @@ function listFileContent()
 #no longer needed, such as insertLanguageCode, inserting '#' infront of the line.
 function replaceAllChangedFiles()
 {
+   #removeCommentedLineInAllFiles
    findChangedFiles
    for f in $changed_list; do
+	  removeCommentedLineInSingleFile $f
       replaceRegularStrings $f
       insertLanguageCode $f
       listFileContent $f
