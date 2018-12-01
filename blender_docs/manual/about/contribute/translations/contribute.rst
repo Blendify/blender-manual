@@ -1,4 +1,4 @@
-.. highlight:: sh
+s]ra.. highlight:: sh
 
 **********
 Contribute
@@ -70,7 +70,7 @@ This will give you a foundation environment for:
 
          svn checkout https://svn.blender.org/svnroot/bf-translations/trunk/po
 
-      and starting to use any text editor of your choice, which support PO file format, such as kate/kwrite on Linux, or using something allows you to create the language highlight, such as ``Notepad++`` on Windows.
+      and starting to use any text editor of your choice, which support PO file format, such as kate/kwrite on Linux, or using something allows you to create the language highlight, such as `Notepad++ <https://notepad-plus-plus.org/>`_ on Windows.
 
 
 Creating a new set of translation files for a target language
@@ -205,7 +205,7 @@ Generating the set of files for the target language
 
       to make it more convenient for changing or scripting batch/shell commands for the process of translation and reviewing results.
 
-   - Newly generated files will contain some placeholders for authors and revision dates etc. If you find the job of replacing them repetitive, make use of the script ``change_placeholders.sh`` in the subdirectory ``~/blender_docs/toos_maintenance``, make a copy of that to your local ``bin`` directory and replace all values that were mentioned in the file with your specific details, then after each changes to a file, you would do following commands
+   - Newly generated files will contain some placeholders for authors and revision dates etc. If you find the job of replacing them repetitive, make use of the script ``change_placeholders.sh`` in the subdirectory ``~/blender_docs/toos_maintenance``, make a copy of that to your local ``bin`` directory and replace all values that were mentioned in the file with your specific details, then after each change to a file, you would do following commands
 
       .. code-block:: sh
 
@@ -248,14 +248,13 @@ however, any PO editor will do.
 
 .. note::
 
-   For Linux users you will have to check with
+   For Linux users, you will have to check with
    your distribution's software center for a version of Poedit.
-   This editor is only a recommendation. Experience shows the side effects of altering original text
-   could potentially creating havocs for your PO files, especially when updates are required.
-   This is extremely important as the Blender's documentation is in the process of updating for the next release.
-   It is recommended to use Kate or KWrite instead.
-   Other platforms can use some text editor supporting the syntax highlighting for PO files,
-   or allowing you to create a custom one (such as Notepad++ on Windows).
+   This editor is only a recommendation. There are others, such as Kate and Kwrite, that
+   could offer syntax highlighting and basic tools for text editing, ie. letter case transposes.
+   Other platforms can use some text editors supporting the syntax highlighting for PO files,
+   or allowing you to create a custom one (such as `Notepad++ <https://notepad-plus-plus.org/>`_
+   on Windows).
 
 
 Building with Translations
