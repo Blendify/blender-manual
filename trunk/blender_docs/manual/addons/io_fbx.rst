@@ -46,8 +46,8 @@ The exporter can bake mesh modifiers and animation into the FBX so the final res
    It is up to you to keep track of which animation belongs to which model.
    The animation that will be exported is the currently selected action within the Action editor.
    To reduce the file size, turn off the exporting of any parts you do not want and disable *All Actions*.
-   For armature animations typically you just leave the armature enabled which is necessary for that type of animation.
-   Reducing what is output makes the export and future import much faster.
+   For armature animations typically you just leave the armature enabled which is necessary for
+   that type of animation. Reducing what is output makes the export and future import much faster.
    Normally each action will have its own name but the current or
    only take can be forced to be named "Default Take". Typically, ensure that this option remains off.
 

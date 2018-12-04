@@ -6,6 +6,15 @@ Regions
 
 An area is subdivided into regions.
 
+.. figure:: /images/interface_window-system_regions_3d-view.png
+   :align: center
+
+   The regions of the 3D View editor showing the Side bar and the
+   Operator panel after adding a Cube.
+
+   Header (green), Main region (yellow), Tool bar (blue),
+   Side bar (red) and Operator panel (pink).
+
 
 Main Region
 ===========
@@ -13,18 +22,9 @@ Main Region
 At least one region is always visible.
 It is called the Main region and is the most prominent part of the editor.
 
-Each editor has a specific purpose, so the main region and the
-availability of additional regions are different between editors.  See
-specific documentation about each editor in the :doc:`Editors
-</editors/index>` chapter.  Different types of regions are shown using
-3D View editor as an example in picture below.
-
-.. figure:: /images/interface_window-system_regions_3d-view.png
-   :align: center
-
-   Regions of default 3D View editor after showing Side bar and
-   running Add Cube operator. Header (green), Main region (yellow), Tool bar (blue),
-   Side bar (red) and Operator panel (pink).
+Each editor has a specific purpose, so the main region and
+the availability of additional regions are different between editors.
+See specific documentation about each editor in the :doc:`Editors </editors/index>` chapter.
 
 
 .. _ui-region-header:
@@ -49,8 +49,8 @@ All hotkeys you press will affect the contents of the editor where mouse pointer
 Tool Bar
 ========
 
-The *Tool bar* (on the left side of editor area) contains
-the tool settings.  :kbd:`T` toggles the visibility of Tool bar.
+The *Tool bar* (on the left side of editor area) contains the tool settings.
+:kbd:`T` toggles the visibility of Tool bar.
 
 
 Operator Panel
@@ -64,7 +64,7 @@ the :ref:`last operator <ui-redo-last>` executed.
 Side Bar
 ========
 
-The *Side bar* (on the right side of editor area) 
+The *Side bar* (on the right side of editor area)
 contains :ref:`Panels <ui-panels>`
 with settings of objects within the editor and the editor itself.
 :kbd:`N` toggles the visibility of Side bar.
