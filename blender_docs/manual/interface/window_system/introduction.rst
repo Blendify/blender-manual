@@ -66,12 +66,13 @@ Regions can have smaller structuring elements like
 :doc:`tabs and panels </interface/window_system/tabs_panels>`
 with buttons, controls and widgets placed within them.
 
-.. todo 2.8 figure:: /images/interface_window-system_introduction_editor.png
+.. figure:: /images/interface_window-system_regions_3d-view.png
+   :align: center
 
    The 3D View editor.
 
-   Yellow: Main Region, green: Header, blue: Tool Shelf, purple: Operator Panel,
-   red: Sidebar.
+   Header (green), Main region (yellow), Tool bar (blue),
+   Side bar (red) and Operator panel (pink).
 
 
 User Interface Principles
