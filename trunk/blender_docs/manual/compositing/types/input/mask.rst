@@ -10,7 +10,7 @@ Mask Node
    Mask Node.
 
 The Mask node can be used to select a :doc:`Mask Data-block </editors/movie_clip_editor/masking/index>`.
-This node can be used with other nodes, for example to Invert, Multiply or Mix, or use as a factor input.
+This node can be used with other nodes, for example to Invert, Multiply or Mix, or used as a factor input.
 
 
 Inputs

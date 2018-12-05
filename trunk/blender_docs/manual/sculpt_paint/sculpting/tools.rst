@@ -100,7 +100,7 @@ Snake Hook :kbd:`K`
 
    Pinch
       The *Snake Hook* brush tends to loose volume along the stroke,
-      with pinch > 0.5 its possible to sculpt shapes without loosing volume.
+      with pinch > 0.5 it's possible to sculpt shapes without loosing volume.
    Rake
       A factor to support grabbing the mesh with rotation following the cursor's motion.
 Thumb

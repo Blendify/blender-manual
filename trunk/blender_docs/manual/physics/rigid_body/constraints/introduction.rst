@@ -29,7 +29,7 @@ with a physics constraint already attached and pointing at the two selected obje
 Physics Tab
 ===========
 
-Also you can create *Rigid Body Constraint* on of the two constrained objects with
+Also you can create *Rigid Body Constraint* on one of the two constrained objects with
 *Rigid Body Constraint* button of the *Physics* tab in the Properties editor.
 This constraint is dependent on the object location and rotation on which it was created.
 This way, there are no *Empty* object created for the constraint.
@@ -69,4 +69,4 @@ Override Iterations
 
 Limits
    By using limits you can constrain objects even more by specifying a translation/rotation range on/around
-   respectively axis (see below for each one individually). To lock one axis, set both limits to 0.
+   respectively one axis (see below for each one individually). To lock one axis, set both limits to 0.

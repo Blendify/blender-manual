@@ -99,7 +99,7 @@ Health
 Strength
    Maximum caused damage per second on attack.
 Aggression
-   Boid will fight this times stronger than enemy.
+   Boid will fight this time stronger than enemy.
 Accuracy
    Accuracy of attack.
 Range

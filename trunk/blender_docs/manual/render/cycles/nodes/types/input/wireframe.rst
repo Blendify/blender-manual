@@ -9,7 +9,7 @@ Wireframe Node
 
    Wireframe Node.
 
-The *Wireframe* node is used to retrieve the edges of an object as it appears to Cycles.
+The *Wireframe node* is used to retrieve the edges of an object as it appears to Cycles.
 As meshes are triangulated before being processed by Cycles,
 topology will always appear triangulated when viewed with the *Wireframe node*.
 
@@ -24,7 +24,7 @@ Properties
 ==========
 
 Pixel Size
-   When enabled, the size of edge lines are set in screen space.
+   When enabled, the size of edge lines is set in screen space.
 Size
    Thickness of the edge lines.
 
