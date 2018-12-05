@@ -194,7 +194,7 @@ Wave Type
 
    Depth Change
       This option makes brush create waves when the intersection depth with the surface is *changed* on that point.
-      If the brush remains still it will not have influence.
+      If the brush remains still, it will not have influence.
 
       Using a negative "Factor" with this type can create a nice looking "wake" for moving objects like ships.
    Obstacle

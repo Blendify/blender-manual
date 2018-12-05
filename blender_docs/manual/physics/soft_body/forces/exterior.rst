@@ -48,7 +48,7 @@ Soft Body Field Weights
    :Panel:     :menuselection:`Physics --> Soft Body Field Weights`
 
 The *Soft Body Field Weights* panel allows you to control how much influence
-each type of external force field, has on the soft body system.
+each type of external force field has on the soft body system.
 
 Effector Group
    Limit effectors to a specified group. Only effectors in this group will have an effect on the current system.

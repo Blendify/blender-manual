@@ -92,12 +92,12 @@ Using Paths
 By default, the instances are placed depending on the particles position in the current frame.
 By enabling this option, you can select the position along the particles path regardless of the current frame.
 
-You can adjust the particles path (using the *Path* visualization type)
-on the :doc:`Render </physics/particles/emitter/render>` panel of the Particles System tab.
+You can adjust the particles' path (using the *Path* visualization type)
+on the :doc:`Render </physics/particles/emitter/render>` panel of the Particle System tab.
 
 .. note::
 
-   The particles system must be :doc:`baked </physics/baking>`, except Hair and Keyed physics.
+   The particle system must be :doc:`baked </physics/baking>`, except Hair and Keyed physics.
 
 Create Along Paths
    This option tries to make the underlying mesh object of the modifier

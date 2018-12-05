@@ -36,8 +36,8 @@ Chain Length
 Weight
    Position
       For Tree-IK: Weight of position control for this target.
-   Rotation
-      Chain follow rotation of target.
+   Rotations
+      Chain follows rotation of target.
 Target
    Disable for targetless IK.
 Rotation

@@ -89,14 +89,14 @@ and the main axis of it facing in the same direction as the speaker.
 There are two cones an inner and an outer cone. The angles represent their opening angles,
 so 360° mean the cone is fully open and there's no directionality anymore.
 Inside the inner cone the volume is 100% (1.0),
-outside the outer cone the volume is whatever one sets for the outer cone volume
-and the volume between those two cones is linearly interpolated between this two volumes.
+outside the outer cone the volume is, whatever one sets for the outer cone volume
+and the volume between those two cones, linearly interpolated between this two volumes.
 
 Angle
    Outer
-      Angle of the outer cone in degrees. Outside this cone the volume is equal to the *Outer* volume.
+      Angle of the outer cone in degrees. Outside this cone, the volume is equal to the *Outer* volume.
    Inner
-      Angle of the inner cone in degrees. Inside the cone the volume is 100%.
+      Angle of the inner cone in degrees. Inside the cone, the volume is 100%.
 Volume
    Outer
       Volume outside the outer cone.

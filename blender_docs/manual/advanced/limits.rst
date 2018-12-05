@@ -69,7 +69,7 @@ The maximum number of frames for each scene is currently 1,048,574, and allows f
 
 .. note::
 
-   In practice, a finished work is typically composted of output from many scenes.
+   In practice, a finished work is typically composed of output from many scenes.
    So this limit does not prevent you from creating longer works.
 
 

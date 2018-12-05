@@ -80,7 +80,7 @@ With some tricks we can reduce this noise. If we blur the bright spots,
 they become bigger and less intense, making them easier to find and less noisy.
 This will not give the same exact result,
 but often it's close enough when viewed through a diffuse or soft glossy reflection.
-Below is an example of using :ref:`Filter Glossy <render-cycles-integrator-filter-glossy>`
+Below is an example of using :ref:`Glossy Filter <render-cycles-integrator-filter-glossy>`
 and :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`.
 
 .. list-table::
