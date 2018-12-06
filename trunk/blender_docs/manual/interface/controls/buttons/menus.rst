@@ -15,9 +15,9 @@ Header Menus
 ============
 
 .. figure:: /images/interface_controls_buttons_menus_menu-button.png
-   :align: right
+   :align: center
 
-   The Info Editor menu buttons.
+   View menu in the Header of 3D Viewport.
 
 Most :ref:`headers <ui-region-header>` exhibit a set of menus, located immediately next
 to the first *Editor Type* selector.
@@ -28,19 +28,17 @@ All Menu entries show the relevant shortcut keys, if any.
 Collapsing Menus
 ----------------
 
-Sometimes it's helpful to gain some extra horizontal space in the header by collapsing menus,
-this can be accessed from the header context menu,
-simply :kbd:`RMB` click on the header and enable it to collapse.
+Sometimes it's helpful to gain some extra horizontal space in the header by collapsing menus.
+This can be accessed from the header context menu,
+click :kbd:`RMB` on the header and select Collapse Menus.
 
 .. list-table::
 
    * - .. figure:: /images/interface_controls_buttons_menus_header-menu-expand.png
-          :width: 310px
 
           Right-click on any of the header menus.
 
      - .. figure:: /images/interface_controls_buttons_menus_header-menu-collapsed.png
-          :width: 310px
 
           Access the menu from the collapsed icon.
 
@@ -49,13 +47,15 @@ Select Menus
 ============
 
 .. figure:: /images/interface_controls_buttons_menus_select-menu.png
-   :align: right
+   :align: center
 
-   The 3D View mode select menu.
+   The 3D Viewport Mode Select menu.
 
-The Select menu or short selector lets you choose between a set of options. They can show a text and/or an icon.
-The options are shown in a pop-up. The selected option is then shown as active.
-
+The Select menu (short selector) lets you choose between a set of
+options. Select menu appears as a icon and/or text with down arrow on
+the right side of the button. The menu options are shown with
+:kbd:`LMB` click on the button. The selected option is then shown as
+active on the menu button.
 
 .. _bpy.types.UIPopupMenu:
 
@@ -65,17 +65,20 @@ Pop-Up Menus
 .. figure:: /images/interface_controls_buttons_menus_popup-menu.png
    :align: right
 
-   The Viewport Shading pop-up menu.
+   The Transform Orientations pop-up menu.
 
-Pop-up menus are overlays.
-They are spawned by menus showing up and down triangles on the right or
-after a key input at the mouse position.
+Like Select Menus, pop-up menus also include down arrow on the right
+side of menu button. However, pop-up menus allow more content to be
+shown, such as title, list options, buttons, sliders etc. Pop-up menus
+allow grouping of controls into a menu, which is automatically hidden
+when mouse pointer leaves menu boundaries (including a margin). Pop-up
+menus are ideal for controls and operations that the user does not
+need very often.
 
-If the content is too large to fit on the screen, small indicator triangles appear.
-When moving the mouse over them scrolls the pop-up.
-
-For example, the *Viewport Shading* button will produce a pop-up menu
-with the available shading options.
+If pop-up menu content is too large to fit on the screen, small menu
+scrolling indicator triangle appears on bottom or top of
+menu. Scrolling is done by moving the mouse below or above the
+scrolling indicator.
 
 Mouse selection
    :kbd:`LMB` on the desired item.
@@ -106,32 +109,36 @@ Context Menu
 ============
 
 Context menus are pop-ups opened with the :kbd:`RMB`.
-Only the common options are listed below:
+Context menu contents depend on the location of the mouse pointer.
+However, common options include:
 
 .. for the property associated with the control.
 
-*Single* sets or gets the value of the button under the mouse pointer.
-*All* on the other hand includes all combined buttons.
-
+Single
+   Set or get single value.
+All
+   Include all combinations.
 Reset All/Single to Default Value(s)
-   Replaces the current value by the default :kbd:`Backspace`.
-Unset
-   ToDo.
+   Replaces the current value by the default (keyboard shortcut :kbd:`Backspace`).
+.. Unset
+.. TODO
 Copy Data Path
-   For scripting -- Copies the path of the Python property, relative to the data-block.
+   Copies the Python property Data path, relative to the data-block.
+   Useful for Python scripting.
 Copy To Selected
    Copies the property value to the selected object's corresponding property.
    A use case is if the Properties editor context is pinned.
-Add Shortcut
-   Lets you define a keyword or mouse shortcut and associates it with the control.
+Assign Shortcut
+   Lets you define a keyboard or mouse shortcut for an operation.
    To define the shortcut you must first move the mouse cursor over the button that pops up,
    and when "Press a key" appears you must press and/or click the desired shortcut.
+   Press :kbd:`ESC` to cancel.
 Change Shortcut
    Lets you redefine the shortcut.
 Remove Shortcut
    Unlinks the existing shortcut.
 Online Manual
-   See :ref:`help-manual-access`.
+   Opens an on-line page of Blender Manual in a web browser.
 Online Python Reference
    Context-sensitive access to
    the `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
@@ -154,9 +161,9 @@ Edit Translation
 Specials Menu
 =============
 
-The Specials pop-up menu contains a context-sensitive list of operators.
-It is opened by a button with a down arrow on dark background |specials-button| or
-with :kbd:`W` in most editors giving quick access to tools sensitive to the editor's mode.
+The Specials pop-up menu contains a context-sensitive list of
+operators.  It is opened by :kbd:`W` in most editors giving quick
+access to tools sensitive to the editor's mode.
 
 
 .. _bpy.types.UIPieMenu:
@@ -165,19 +172,23 @@ Pie Menus
 =========
 
 A pie menu is a menu whose items are spread radially around the mouse.
-Pie menus have to be activated in the User Preferences through
-:menuselection:`Add-ons --> UI --> Pie Menus Official`.
 
 .. figure:: /images/interface_controls_buttons_menus_pie-menu.png
 
-   The shade pie menu.
+   The 3D Viewport Mode Pie menu.
 
 
 Interaction
 -----------
 
 The pie menu is spawned by a key press,
-which are listed in the :ref:`Add-on Preferences <user-prefs-addons-prefs>`.
+such as :kbd:`CTRL+Tab` for the 3D View Editor mode Pie menu.
+
+.. tip::
+
+   Fastest way to operate a Pie menu is to press down key(s) that
+   invoke the menu, then move mouse slightly towards a selection, and
+   release key(s) to activate the selection.
 
 Releasing the key without moving the mouse will keep the menu open and
 the user can then move the mouse pointer towards the direction of a pie menu item and select it by clicking.
