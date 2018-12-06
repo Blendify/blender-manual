@@ -2,32 +2,24 @@
 Toggle & Radio Buttons
 **********************
 
-Checkboxes & Toggle Buttons
-===========================
+Check Boxes & Toggle Buttons
+============================
 
 .. figure:: /images/interface_controls_buttons_toggle-radio_checkbox.png
    :align: right
 
-   Toggle buttons.
+   Check boxes and Toggle buttons.
 
-These buttons are used to activate or deactivate options. Use :kbd:`LMB` to change their state.
-
-On checkboxes a tick is shown when the option is activated.
-Toggle buttons are used to set an on/off status. When state is on, they appear pressed (dark).
-Clicking this type of button will toggle a state but will not perform any operation.
-Some toggle buttons have an icon version for each state.
-
-
-Dragging
---------
-
-To change many values at once, you can :kbd:`LMB` drag over multiple buttons,
-This works for checkboxes, toggles and to select a radio button value.
+These controls are used to activate or deactivate options. Use
+:kbd:`LMB` to change their state. A tick is shown on check boxes when
+the option is activated. Active status on toggle buttons is indicated
+either by color on the icon background, or a change in icon graphics.
 
 .. tip::
-
-   For layer buttons (a type of toggle button) it is often useful to hold :kbd:`Shift` at the same time,
-   to set or clear many layers at once.
+   
+   To change many values at once on or off, you can press down
+   :kbd:`LMB` and drag over multiple buttons. This works for check
+   boxes, toggles and to select a radio button value.
 
 
 Radio Buttons
@@ -38,11 +30,10 @@ Radio Buttons
 
    Radio buttons.
 
-Radio buttons are used to choose from a small selection of "mutually exclusive" options.
+Radio buttons are used to choose one option from a selection of options.
+Active button is indicated by color on the icon background.
 
+.. tip::
 
-Cycling
--------
-
-Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over it, to cycle between the options.
-Cycling works also for number buttons and select menus.
+   Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over radio
+   buttons, to cycle between the options.
