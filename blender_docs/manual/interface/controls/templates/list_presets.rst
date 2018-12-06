@@ -10,9 +10,13 @@ List Views
 
 .. figure:: /images/interface_controls_templates_list-presets_view-filter.png
    :align: right
+	   
+   List view with expanded Filtering Options panel.
 
 This control is useful to manage lists of items.
 They can be found, for example, in the object data properties.
+In addition to the main list, there is Filtering panel on bottom
+(hidden by default) and modification buttons on the right.
 
 Select
    To select an item, :kbd:`LMB` on it.
@@ -21,9 +25,9 @@ Rename
    This can also be achieved by pressing :kbd:`Ctrl-LMB` over it.
 Resize
    The list view can be resized to show more or fewer items.
-   Hover the mouse over the handle (==) then click and drag the handle to expand or shrink the list.
+   Hover the mouse over the handle (::::) then click and drag the handle to expand or shrink the list.
 Filter
-   Click the *Show filtering options* button (+) to toggle filter option buttons.
+   Click the *Show filtering options* button (triangle on bottom left) to show or hide filter option panel.
 
    Search
       Type part of a list item's name in the filter text field to filter items by part of their name.
@@ -41,16 +45,14 @@ Filter
       Inverse
          Sort objects in ascending or descending order. This also applies to alphabetical sorting, if selected.
 
-On the right of the list view are additional buttons:
+On the right of the list view are list modification buttons:
 
 Add ``+``
    Adds a new item.
 Remove ``-``
    Removes the selected item.
 Specials
-   A :ref:`Specials <ui-specials-menu>` menu with operators context-sensitive to the item type.
-   e.g. copy paste, or operations on all items.
-
+   A :ref:`Specials <ui-specials-menu>` menu with tools to operate on list entries.
 Move (up/down arrow icon)
    Moves the selected item up/down one position.
 
@@ -63,20 +65,19 @@ Presets
 .. figure:: /images/interface_controls_templates_list-presets_preset.png
    :align: right
 
-   Presets without and with specials.
+   Example Presets menu.
 
 .. Share between properties. i.e. different nodes color presets.
 
 Selector
    A list of available presets. A selection will override the included properties.
 Add ``+``
-   New presets can be added based on a predefined set of properties, which will be saved for later reuse.
-   A pop-up opens where you can set a name after which you can select it from the list and
+   New presets can be added based on currently applied set of properties, which will be saved for later reuse.
+   A pop-up opens where you can set a name, after which you can select it from the list and
    in some cases additional settings.
 Remove ``-``
    Deletes the selected preset.
 Specials
-   A :ref:`Specials <ui-specials-menu>` menu with operators context-sensitive to the preset type.
-   e.g. copy paste.
+   Optional :ref:`Specials <ui-specials-menu>` menu with tools to operate on list entries.
 
 .. saving preset: data-system?
