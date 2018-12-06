@@ -220,6 +220,11 @@ This page lists definitions for terms used in Blender and this manual.
    Cyclic
       Often referring to an object being circular. This term is often associated with :term:`Curve`.
 
+   Data User
+      An existing Blender object, which is using its own data, or
+      linked data (data owned and controlled by another Blender
+      object).
+	    
    DOF
    Depth Of Field
       The distance in front of and behind the subject which appears to be in focus. For any given lens setting,
@@ -290,6 +295,13 @@ This page lists definitions for terms used in Blender and this manual.
    Face Normal
       The normalized vector perpendicular to the plane that a :term:`face` lies in. Each face has its own normal.
 
+   Fake User
+      A special :term:`Data User`, a program construct that is
+      used to mark an object (e.g. material) to be saved in a Blend
+      file, even when no :term:`Real User` is using the object. Objects
+      that are not used by any :term:`Data User` are not included in
+      saved Blend files.
+      
    F-Curve
       A curve that holds the animation values of a specific property.
 
@@ -650,6 +662,10 @@ This page lists definitions for terms used in Blender and this manual.
       and calculating reflection, refraction, or absorption of the ray whenever it intersects
       an object in the world. More accurate than :term:`scanline`, but much slower.
 
+   Real User
+      A Blender object, which is a :term:`Data User`. Opposite of
+      :term:`Fake User`, which is only a program construct.
+      
    Refraction
       The change in direction of a wave due to a change in velocity.
       It happens when waves travel from a medium with a given :term:`index of refraction`
@@ -753,6 +769,9 @@ This page lists definitions for terms used in Blender and this manual.
    Triangle
       :term:`Face` with exactly three :term:`vertices <vertex>`.
 
+   User
+      See :term:`Data User`
+      
    UV Map
       Defines a relation between the surface of a mesh and a 2D texture. In detail,
       each face of the mesh is mapped to a corresponding face on the texture.

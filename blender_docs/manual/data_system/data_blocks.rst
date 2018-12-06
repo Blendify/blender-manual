@@ -8,6 +8,16 @@ Data-Blocks
 The base unit for any Blender project is the data-block. Examples of data-blocks include:
 meshes, objects, materials, textures, node trees, scenes, texts, brushes, and even screens.
 
+Data-blocks are low level program representations for items inside
+Blender. When you consider Blender items at a low level, they are all
+Data-blocks, which have common Data-block properties. Data-block level
+is needed to handle items in Blender program. However, when
+considering a higher level, which is typically visible to users,
+Blender items are represented as meshes, objects, materials, textures
+etc. which are different things. Data-block level handles the same
+high level items (meshes, objects, materials, textures etc.), but only
+considers their low level common properties and functions.
+
 For clarity, bones, sequence strips and vertex groups are **not** data-blocks,
 they belong to armature, scene and mesh types respectively.
 
